@@ -21,6 +21,8 @@ This article describes how to attach the Visual Studio debugger to an ASP.NET Co
 
   For hands-on training that includes App Service deployment, see [Remote debug ASP.NET Core on Azure](/training/modules/dotnet-debug-visual-studio-azure-web-apps/).
 
+- Your publish profile in Visual Studio must be set to Debug instead of Release before publishing.
+
 ## Enable remote debugging
 
 Before you can debug this issue with Visual Studio, you must enable the remote debugging feature on the App Service. This setting will allow the Visual Studio debugger to connect to the main App Service web hosting process.
@@ -72,6 +74,8 @@ Make sure you have completed the following steps in Visual Studio before debuggi
 
 1. In a C# application file such as `Index.cshtml.cs`, set a breakpoint by clicking in the left margin. (Or, right-click and choose **Breakpoint** > **Insert breakpoint**.)
 
-1. Optionally, you can also verify that Visual Studio has loaded the symbol files for your debugging session. Navigate to **Debug > Windows > Modules** to open the modules window. This window should indicate that the symbol files were successfully loaded after the **Just my code** configuration changes you made earlier.
+1. Take action in the web app to hit the breakpoint. If you're attached to the process but can't hit the breakpoint, make sure your publish profile in Visual Studio is set to a Debug configuration instead of a Release configuration.
+
+1. (Optional) you can also verify that Visual Studio has loaded the symbol files for your debugging session. Navigate to **Debug > Windows > Modules** to open the modules window. This window should indicate that the symbol files were successfully loaded after the **Just my code** configuration changes you made earlier.
 
     :::image type="content" source="../debugger/media/vs-2022/visual-studio-symbol-files.png" alt-text="A screenshot of the symbol files window.":::
