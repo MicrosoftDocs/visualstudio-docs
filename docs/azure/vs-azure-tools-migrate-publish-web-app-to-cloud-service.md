@@ -83,7 +83,7 @@ The following table provides details about starting the application in Azure:
 
 ## Update a Connection String for ASP.NET Dynamic Entities
 
-1. Create a SQL Azure database for a ASP.NET Dynamic Entities web application as described earlier in (#use-an-azuresql-database-for-your-application).
+1. Create a SQL Azure database for an ASP.NET Dynamic Entities web application as described earlier in (#use-an-azuresql-database-for-your-application).
 1. Add the tables and fields that you need for this database from the Azure portal.
 1. Specify a connection string in the `web.config` file with the following format and save the file:
 

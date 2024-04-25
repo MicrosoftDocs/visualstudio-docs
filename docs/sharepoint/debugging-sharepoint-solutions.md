@@ -30,7 +30,7 @@ ms.subservice: sharepoint-development
 
 - [Debug feature event receivers](#debug-feature-event-receivers)
 
-- [Enable ehanced debugging information](#enable-enhanced-debugging-information)
+- [Enable enhanced debugging information](#enable-enhanced-debugging-information)
 
 ## Enable debugging
  When you first debug a SharePoint solution in Visual Studio, a dialog box alerts you that the web.config file is not configured to enable debugging. (The web.config file is created when you install SharePoint server. For more information, see [Working with Web.config Files](/previous-versions/office/developer/sharepoint-2010/ms460914(v=office.14)).) The dialog box gives you the option of either running the project without debugging or modifying the web.config file to enable debugging. If you choose the first option, the project runs normally. If you choose the second option, the web.config file is configured to:

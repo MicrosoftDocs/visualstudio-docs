@@ -106,7 +106,7 @@ namespace ColumnGuides
         {
             if (!IsValidColumn(column))
                 throw new ArgumentOutOfRangeException(
-                    "column", "The paramenter must be between 1 and 10,000");
+                    "column", "The parameter must be between 1 and 10,000");
             var columns = GuidesSettingsManager.GetColumnOffsets();
             if (! columns.Remove(column))
             {
@@ -1096,7 +1096,7 @@ namespace ColumnGuides
         }
 
         /// <summary>
-        /// This function is the callback used to execute a command when the a menu item
+        /// This function is the callback used to execute a command when a menu item
         /// is clicked. See the Initialize method to see how the menu item is associated
         /// to this function using the OleMenuCommandService service and the MenuCommand
         /// class.

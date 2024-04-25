@@ -668,7 +668,7 @@ An application manifest specifies declarative application identity, dependency a
 ===================================================
 GenerateDeploymentManifest
 Generates a ClickOnce deployment manifest.
-An deployment manifest specifies declarative application identity and application update information.
+A deployment manifest specifies declarative application identity and application update information.
 ===================================================
 <Target Name="GenerateDeploymentManifest"
         DependsOnTargets="GenerateApplicationManifest"

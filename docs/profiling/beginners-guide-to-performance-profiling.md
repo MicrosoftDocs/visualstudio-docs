@@ -109,7 +109,7 @@ In this tutorial, you will:
      At this point, you can begin to analyze the data. If you have trouble collecting or displaying data, see [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md).
 
      > [!TIP]
-     >  When trying to identify performance issues, take multiple measurements. Performance naturally varies from run-to-run, and code paths typically execute slower the first time they run due to one-time initialization work such as loading DLLs, JIT compiling methods, and initializing caches. By taking multiple measurements, you get a better idea of the range and median of the metric being shown, whichs allow you to compare the first time versus the steady state performance of an area of code.
+     >  When trying to identify performance issues, take multiple measurements. Performance naturally varies from run-to-run, and code paths typically execute slower the first time they run due to one-time initialization work such as loading DLLs, JIT compiling methods, and initializing caches. By taking multiple measurements, you get a better idea of the range and median of the metric being shown, which allows you to compare the first time versus the steady state performance of an area of code.
 
 ## Step 2: Analyze CPU utilization data
 

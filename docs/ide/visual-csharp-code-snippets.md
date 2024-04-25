@@ -25,8 +25,8 @@ Code snippets work much the same way in C# and C++, but the set of default code 
 
 |Name or shortcut|Description|Valid insertion locations|
 | - |-----------------| - |
-|#if|Creates a [#if](/dotnet/csharp/language-reference/preprocessor-directives#conditional-compilation) directive and a [#endif](/dotnet/csharp/language-reference/preprocessor-directives#conditional-compilation) directive.|Anywhere.|
-|#region|Creates a [#region](/dotnet/csharp/language-reference/preprocessor-directives#defining-regions) directive and a [#endregion](/dotnet/csharp/language-reference/preprocessor-directives#defining-regions) directive.|Anywhere.|
+|#if|Creates an [#if](/dotnet/csharp/language-reference/preprocessor-directives#conditional-compilation) directive and an [#endif](/dotnet/csharp/language-reference/preprocessor-directives#conditional-compilation) directive.|Anywhere.|
+|#region|Creates a [#region](/dotnet/csharp/language-reference/preprocessor-directives#defining-regions) directive and an [#endregion](/dotnet/csharp/language-reference/preprocessor-directives#defining-regions) directive.|Anywhere.|
 |~|Creates a [finalizer](/dotnet/csharp/programming-guide/classes-and-structs/finalizers) (destructor) for the containing class.|Inside a class.|
 |attribute|Creates a declaration for a class that derives from <xref:System.Attribute>.|Inside a namespace (including the global namespace), a class, or a struct.|
 |checked|Creates a [checked](/dotnet/csharp/language-reference/statements/checked-and-unchecked) block.|Inside a method, an indexer, a property accessor, or an event accessor.|
