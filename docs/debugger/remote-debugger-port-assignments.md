@@ -24,15 +24,15 @@ The Visual Studio Remote Debugger can run as an application or as a background s
 
 - Visual Studio 2012: 4016
 
-In other words, the number of the port assigned to the remote debugger is incremented by 2 for each release. You can set a different port number if you like. We'll explain how to set port numbers in a later section.
+In other words, the number of the port assigned to the remote debugger is incremented by 2 for each release. You can set a different port number if you like. We explain how to set port numbers in a later section.
 
 ## The Remote Debugger Port on 32-bit Operating Systems
 
 ::: moniker range=">=vs-2022"
-TCP 4026 (in Visual Studio 2022) is the main port, and is required for all scenarios excluding Azure App Service. You can configure this from either the command line or the remote debugger window.
+TCP 4026 (in Visual Studio 2022) is the main port, and is required for all scenarios excluding Azure App Service. You can configure this port from either the command line or the remote debugger window.
 ::: moniker-end
 ::: moniker range="vs-2019"
-TCP 4024 (in Visual Studio 2019) is the main port, and is required for all scenarios. You can configure this from either the command line or the remote debugger window.
+TCP 4024 (in Visual Studio 2019) is the main port, and is required for all scenarios. You can configure this port from either the command line or the remote debugger window.
 ::: moniker-end
 
 In the remote debugger window, click **Tools > Options**, and set the TCP/IP port number.
@@ -44,7 +44,7 @@ You can find all the remote debugger command line switches in the remote debuggi
 ## The Remote Debugger Port on 64-bit Operating Systems
 
 ::: moniker range=">=vs-2022"
-When the 64-bit version of the remote debugger is started, it uses the main port (4026) by default.  If you debug a 32-bit process, the 64-bit version of the remote debugger starts a 32-bit version of the remote debugger on port 4025 in most cases. If you run the 32-bit remote debugger, it uses 4026, and 4025 isn't used. The exception to this if Remote Tools for Visual Studio 2022 version 17.2 or newer is installed, and the Remote Debugger Configuration Wizard is used to start the remote debugger as a service, then the default 32-bit debugging port will be 4040 instead of 4025.
+When the 64-bit version of the remote debugger is started, it uses the main port (4026) by default.  If you debug a 32-bit process, the 64-bit version of the remote debugger starts a 32-bit version of the remote debugger on port 4025 in most cases. If you run the 32-bit remote debugger, it uses 4026, and 4025 isn't used. The exception to this if Remote Tools for Visual Studio 2022 version 17.2 or newer is installed, and the Remote Debugger Configuration Wizard is used to start the remote debugger as a service, then the default 32-bit debugging port is 4040 instead of 4025.
 ::: moniker-end
 ::: moniker range="vs-2019"
 When the 64-bit version of the remote debugger is started, it uses the main port (4024) by default.  If you debug a 32-bit process, the 64-bit version of the remote debugger starts a 32-bit version of the remote debugger on port 4025 (the main port number incremented by 1). If you run the 32-bit remote debugger, it uses 4024, and 4025 isn't used. 
@@ -58,7 +58,7 @@ Remote debugger ports are configurable. Currently, Azure App Service doesn't use
 
 ## The Discovery Port
 
-UDP 3702 is used for finding running instances of the remote debugger on the network (for example, the **Find** dialog in the **Attach to Process** dialog). It's used only for discovering a machine running the remote debugger, so it's  optional if you have some other way of knowing the machine name or IP address of the target computer. This is a standard port for discovery, so the port number cannot be configured.
+UDP 3702 is used for finding running instances of the remote debugger on the network (for example, the **Find** dialog in the **Attach to Process** dialog). It's used only for discovering a machine running the remote debugger, so it's optional if you have some other way of knowing the machine name or IP address of the target computer. This port is a standard port for discovery, so it can't be configured.
 
 The discovery port must be opened as an outbound port (outbound rule).
 
