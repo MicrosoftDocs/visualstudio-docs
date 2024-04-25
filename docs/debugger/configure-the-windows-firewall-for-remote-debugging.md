@@ -13,10 +13,10 @@ ms.subservice: debug-diagnostics
 
 On a network protected by Windows Firewall, the firewall must be configured to permit remote debugging. Visual Studio and the remote debugging tools try to open the correct firewall ports during installation or startup, but you might also need to open ports or allow apps manually.
 
-This topic describes how to configure the Windows firewall to enable remote debugging on Windows 10, 8/8.1, and 7; and Windows Server 2012 R2, 2012, and 2008 R2 computers. The Visual Studio and remote computer don't have to be running the same operating system. For example, the Visual Studio computer can run Windows 11, and the remote computer can run Windows Server 2012 R2.
+This topic describes how to configure the Windows Firewall to enable remote debugging on Windows 10, 8/8.1, and 7; and Windows Server 2012 R2, 2012, and 2008 R2 computers. The Visual Studio and remote computer don't have to be running the same operating system. For example, the Visual Studio computer can run Windows 11, and the remote computer can run Windows Server 2012 R2.
 
 >[!NOTE]
-> The instructions for configuring the Windows firewall differ slightly on different operating systems, and for older versions of Windows. Windows 8/8.1, Windows 10 and newer versions, and Windows Server 2012 settings use the word *app*, while Windows 7 and Windows Server 2008 use the word *program*.
+> The instructions for configuring the Windows Firewall differ slightly on different operating systems, and for older versions of Windows. Windows 8/8.1, Windows 10 and newer versions, and Windows Server 2012 settings use the word *app*, while Windows 7 and Windows Server 2008 use the word *program*.
 
 ## Configure ports for remote debugging
 
@@ -101,9 +101,9 @@ If your domain policy requires network communication to be performed through Int
 |500, 4500|Outgoing|UDP|Required if your domain policy requires network communication to be performed through IPSec.|
 |80|Outgoing|TCP|Required for web server debugging.|
 
-To allow specific apps through the Windows firewall, see [Configure remote debugging through Windows Firewall](#allow-the-remote-debugger-through-windows-firewall).
+To allow specific apps through the Windows Firewall, see [Configure remote debugging through Windows Firewall](#allow-the-remote-debugger-through-windows-firewall).
 
-## Allow the remote debugger through Windows firewall
+## Allow the remote debugger through Windows Firewall
 
 When you [configure the remote debugger](../debugger/remote-debugging.md#bkmk_setup), the configuration software should open the correct ports. However, in some scenarios you might need to manually allow the remote debugger through the firewall.
 
