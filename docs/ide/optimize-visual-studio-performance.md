@@ -2,7 +2,7 @@
 title: Improve performance if Visual Studio is slow
 titleSuffix: ''
 description: Review options to improve and optimize Visual Studio performance, including software upgrades, adjusting installed extensions and tools, and reconfiguring hardware.
-ms.date: 04/24/2023
+ms.date: 04/25/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - performance [Visual Studio]
