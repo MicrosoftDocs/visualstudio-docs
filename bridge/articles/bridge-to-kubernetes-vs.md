@@ -49,10 +49,10 @@ The sample application has a frontend to interact and a backend that provides pe
 1. Clone the sample repo.
 
    ```bash
-   git clone https://github.com/Azure/Bridge-To-Kubernetes
+   git clone https://github.com/hsubramanianaks/b2k-samples
    ```
 
-1. Change directory to *samples/todo-app* and then create a namespace for the sample.
+1. Change directory to *todo-app* and then create a namespace for the sample.
 
    ```cmd
    kubectl create namespace todo-app
@@ -83,7 +83,7 @@ The sample application has a frontend to interact and a backend that provides pe
 
 1. Open Visual Studio. In the **Get started** window, select **Continue without code**.
 
-1. Select **Open** > **Project/Solution**, then find the *samples\todo-app\database-api\databaseApi.csproj* project and select **Open**.
+1. Select **Open** > **Project/Solution**, then find the *todo-app\database-api\databaseApi.csproj* project and select **Open**.
 
 1. In the project, select **Bridge to Kubernetes** from the launch settings as shown here:
 
