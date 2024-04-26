@@ -56,7 +56,7 @@ Specifies a possible block of code for the `Choose` element to select.
 |-------------|-----------------|
 |[Choose](../msbuild/choose-element-msbuild.md)|Optional element.<br /><br /> Evaluates child elements to select one section of code to execute. There may be zero or more `Choose` elements in a `When` element.|
 |[ItemGroup](../msbuild/itemgroup-element-msbuild.md)|Optional element.<br /><br /> Contains a set of user-defined [Item](../msbuild/item-element-msbuild.md) elements. There may be zero or more `ItemGroup` elements in a `When` element.|
-|[PropertyGroup](../msbuild/propertygroup-element-msbuild.md)|Optional element.<br /><br /> Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md) elements. There may be zero or more `PropertyGroup` elements in an `When` element.|
+|[PropertyGroup](../msbuild/propertygroup-element-msbuild.md)|Optional element.<br /><br /> Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md) elements. There may be zero or more `PropertyGroup` elements in a `When` element.|
 
 ### Parent elements
 

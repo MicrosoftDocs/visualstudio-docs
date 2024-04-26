@@ -152,7 +152,7 @@ You can create a conda environment by using the `conda` tool, or with integrated
    | **View in Python Environments window** | Specifies whether to show the **Python Environments** window after creating the environment. |
 
    > [!IMPORTANT]
-   > When you create a conda environment, be sure to specify at least one Python version or Python package to ensure the environment contains a Python runtime. You can use a `environments.yml` file or the package list. If you don't provide this specification, Visual Studio ignores the environment. The environment doesn't appear anywhere in the **Python Environments** window, it's not set as the current environment for a project, and it's not available as a global environment.
+   > When you create a conda environment, be sure to specify at least one Python version or Python package to ensure the environment contains a Python runtime. You can use an `environments.yml` file or the package list. If you don't provide this specification, Visual Studio ignores the environment. The environment doesn't appear anywhere in the **Python Environments** window, it's not set as the current environment for a project, and it's not available as a global environment.
    >
    > If you happen to create a conda environment without a Python version, use the `conda info` command to see the locations of conda environment folders. You can then manually remove the subfolder for the environment from that location.
 

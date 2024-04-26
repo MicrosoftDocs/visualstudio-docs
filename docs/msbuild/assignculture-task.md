@@ -64,7 +64,7 @@ In addition to the parameters listed in this article, this task inherits paramet
 </Project>
 ```
 
-The following table describes the value of the output items after task execution. Item metadata is shown in parenthesis after the item.
+The following table describes the value of the output items after task execution. Item metadata is shown in parentheses after the item.
 
 |Item collection|Contents|
 |---------------------|--------------|
