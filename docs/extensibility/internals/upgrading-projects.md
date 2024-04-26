@@ -91,7 +91,7 @@ The following scenarios arise with project upgrades:
 
 ### IVsProjectUpgrade Implementation
 
-If your project system implements <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade> only, it can not participate in the **Visual Studio Conversion Wizard**. However, even if you implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory> interface, you can still delegate the file upgrade to <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade> implementation.
+If your project system implements <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade> only, it can't participate in the **Visual Studio Conversion Wizard**. However, even if you implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory> interface, you can still delegate the file upgrade to <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade> implementation.
 
 #### To implement IVsProjectUpgrade
 

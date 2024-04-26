@@ -34,7 +34,7 @@ The following strings are the keys for accessing the registry to find informatio
 |`SCC_KEY`|SCC|
 |`SCC_FILE_SIGNATURE`|A source code control file|
 |`SCC_NSE`|Namespace extension|
-|`SCC_NSE_PREFIX`|Protocal Prefix|
+|`SCC_NSE_PREFIX`|Protocol Prefix|
 |`SCC_NSE_DisableOpenSCC`|DisableOpenFromSourceControl|
 |`STR_SCCHELPCOLLECTION`|HelpCollection|
 |`STR_UI_LANGUAGE`|UILanguage|

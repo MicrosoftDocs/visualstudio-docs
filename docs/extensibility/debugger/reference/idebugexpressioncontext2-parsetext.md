@@ -95,7 +95,7 @@ HRESULT CEnvBlock::ParseText(
     if (pszAnsiCode) {
         // Map the wide-character pszCode string to the new pszAnsiCode character string.
         WideCharToMultiByte(CP_ACP, 0, pszCode, -1, pszAnsiCode, iAnsiLen, NULL, NULL);
-        // Check to see if the app can succesfully get the environment variable.
+        // Check to see if the app can successfully get the environment variable.
         if (GetEnv(pszAnsiCode)) {
 
             // Create and initialize a CExpression object.
@@ -108,7 +108,7 @@ HRESULT CEnvBlock::ParseText(
             *ppExpr = pExpr;
             (*ppExpr)->AddRef();
             hr = S_OK;
-        // If the program cannot succesfully get the environment variable.
+        // If the program cannot successfully get the environment variable.
         } else {
             // Set the errror message and return E_FAIL.
             *pbstrError = SysAllocString(L"No such environment variable.");

@@ -34,7 +34,7 @@ You can also choose to ignore the spelling issue. By choosing to ignore the issu
 Because C#, C++, and Markdown all use English as the language for their keywords, Visual Studio typically uses the "English (United States)" or "en-us" dictionary for spell checking. Visual Studio checks the instance of Windows for the display language it's using, and if it's not "en-us", it uses that dictionary as well.
 
 > [!NOTE]
-> C# and C++ also have additional dictonaries for keywords in those languages, which prevents words like ‘namespace’ or ‘alloc’ from being flagged as misspelled words.
+> C# and C++ also have additional dictionaries for keywords in those languages, which prevents words like ‘namespace’ or ‘alloc’ from being flagged as misspelled words.
 
 Feedback from early users of this feature informed us that developers only want to know about errors in the document they are currently working with. In response to that feedback, the spell checker only scans the document(s) that are active in the editor. In direct response to this feedback, the spell checker scans documents that are open.
 
