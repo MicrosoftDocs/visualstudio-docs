@@ -43,7 +43,7 @@ minikube start --vm-driver hyperv --hyperv-virtual-switch "Primary Virtual Switc
 
 ## Deploy the application
 
-Clone the [Bridge to Kubernetes repo](https://github.com/Azure/Bridge-To-Kubernetes) and open a command window with the current working folder to *samples/todo-app*.
+Clone the [Bridge to Kubernetes repo](https://github.com/mindaro/Bridge-To-Kubernetes) and open a command window with the current working folder to *samples/todo-app*.
 
 Create a namespace for the sample.
 
