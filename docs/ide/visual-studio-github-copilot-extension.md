@@ -45,12 +45,6 @@ GitHub Copilot supports several programming languages and frameworks, including 
 - If you're using Visual Studio version 17.10 Preview 3 or later, the [unified GitHub Copilot extension](visual-studio-github-copilot-install-and-states.md#get-github-copilot-for-visual-studio-2022-version-1710-preview-3-or-later) is available as a recommended component in the Visual Studio Installer. It is installed by default with all workloads, unless you choose to exclude it during installation.
 - If you're using Visual Studio versions 17.9 or earlier, [install the GitHub Copilot extension](visual-studio-github-copilot-install-and-states.md#install-github-copilot-chat).
 
-## Exploring GitHub Copilot
-
-To see GitHub Copilot in action, check out the following video tutorial. <br><br>*Video length: 1.19 minutes*
-
-> [!VIDEO https://www.youtube.com/embed/kc_A12G4Elk]
-
 ## Using GitHub Copilot for code completions and suggestions
 
 As you type code or comments in the editor, GitHub Copilot provides context-aware code completions and suggestions. GitHub Copilot provides suggestions for numerous languages, but works especially well for Python, JavaScript, TypeScript, Ruby, Go, C# and C++. The following examples are in C#, but other languages will work similarly.
@@ -80,6 +74,12 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
    ```
   
   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-whole-line-completions.gif" alt-text="Animated screenshot that shows using the GitHub Copilot completions in Visual Studio":::
+
+## Exploring GitHub Copilot
+
+To see GitHub Copilot in action, check out the following video tutorial. <br><br>*Video length: 1.19 minutes*
+
+> [!VIDEO https://www.youtube.com/embed/kc_A12G4Elk]
 
 ## Next steps
 
