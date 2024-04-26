@@ -83,7 +83,7 @@ The sample application has a frontend to interact and a backend that provides pe
 
 1. Open Visual Studio. In the **Get started** window, select **Continue without code**.
 
-1. Select **Open** > **Project/Solution**, then find the *samples\todo-app\database-api\databaseApi.csproj* project and select **Open**.
+1. Select **Open** > **Project/Solution**, then find the *todo-app\database-api\databaseApi.csproj* project and select **Open**.
 
 1. In the project, select **Bridge to Kubernetes** from the launch settings as shown here:
 
