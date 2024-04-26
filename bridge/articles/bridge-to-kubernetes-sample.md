@@ -59,7 +59,7 @@ kubectl apply -n todo-app -f deployment.yaml
 
 This is a simple deployment that exposes the frontend using a service of type `LoadBalancer`. Wait for all the pods to be running and for the external IP of the `frontend` service to become available.
 
-If you are testing with MiniKube, you will need to use `minikube tunnel` to resolve an external IP.
+If you're testing with MiniKube, you need to use `minikube tunnel` to resolve an external IP.
 
 ```output
 kubectl get services -n todo-app
@@ -106,13 +106,13 @@ Open the Command Palette (**CTRL**+**SHIFT**+**P** or **Cmd**+**Shift**+**P** on
 
 ![Bridge to Kubernetes: Configure command](media/bridge-to-kubernetes-sample/bridge-configure.png)
 
-You are prompted to configure the service you want to replace, the port to forward from your development computer, and the launch task to use.
+You're prompted to configure the service you want to replace, the port to forward from your development computer, and the launch task to use.
 
 Choose the `stats-api` service.
 
 ![Select the service to connect to](media/bridge-to-kubernetes-sample/select-service.png)
 
-After you select your service, you are prompted to enter the TCP port for your local application. For this example, enter 3001.
+After you select your service, you're prompted to enter the TCP port for your local application. For this example, enter 3001.
 
 ![Enter the port number](media/bridge-to-kubernetes-sample/enter-port.png)
 
@@ -120,12 +120,12 @@ Choose **Run Script: dev** as the launch task.
 
 ![Choose the debugger launch task](media/bridge-to-kubernetes-sample/launch-task.png)
 
-You have the option of running isolated or not isolated. If you run isolated, only your requests are routed to your local process; other developers can use the cluster without being affected. If you don't run isolated, all traffic is redirected to your local process. For more information on this option, see [Using routing capabilities for developing in isolation](overview-bridge-to-kubernetes.md#using-routing-capabilities-for-developing-in-isolation). For this example, we will proceed with non-isolated.
+You have the option of running isolated or not isolated. If you run isolated, only your requests are routed to your local process; other developers can use the cluster without being affected. If you don't run isolated, all traffic is redirected to your local process. For more information on this option, see [Using routing capabilities for developing in isolation](overview-bridge-to-kubernetes.md#using-routing-capabilities-for-developing-in-isolation). For this example, let's use nonisolated.
 
 ![Choose isolation](media/bridge-to-kubernetes-sample/isolation.png)
 
 > [!NOTE]
-> You will be prompted to allow the EndpointManager to run elevated and modify your hosts file.
+> VS Code prompts you to allow the EndpointManager to run elevated and modify your hosts file.
 
 The Bridge to Kubernetes debugging profile has been successfully configured.
 
@@ -133,7 +133,7 @@ Select the Debug icon on the left and select **Run Script: dev with Kubernetes**
 
 ![Choose debug launch profile](media/bridge-to-kubernetes-sample/debug-profile.png)
 
-Your development computer is connected when the VS Code status bar turns orange and the Kubernetes extension shows you are connected. Once your development computer is connected, traffic starts redirecting to your development computer for the stats-api you are replacing.
+Your development computer is connected when the VS Code status bar turns orange and the Kubernetes extension shows you're connected. Once your development computer is connected, traffic starts redirecting to your development computer for the stats-api you're replacing.
 
 ![Debugging with Bridge to Kubernetes](media/bridge-to-kubernetes-sample/debugging.png)
 
@@ -147,7 +147,7 @@ Notice the traffic that initially started in your cluster was redirected to your
 
 Press play and let the request continue complete transparently.
 
-This is just one example on how to use Bridge to Kubernetes on non-AKS clusters.  Try it on your own project next!
+This example is just one illustration of how to use Bridge to Kubernetes on non-AKS clusters.  Try it on your own project next!
 
 ## Clean up
 
