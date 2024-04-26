@@ -45,7 +45,7 @@ az aks create \
 Download the code and install dependencies
 
 ```azurecli-interactive
-git clone https://github.com/mindaro/Bridge-To-Kubernetes
+git clone https://github.com/hsubramanianaks/b2k-samples
 cd Bridge-To-Kubernetes/samples/todo-app
 npm install stats-api\
 ```

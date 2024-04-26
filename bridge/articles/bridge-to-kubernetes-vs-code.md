@@ -145,7 +145,7 @@ var response = await client.SendAsync(request);
 > [!NOTE]
 > To avoid affecting code at every request, you can create a class that inherits from [System.Net.Http.DelegatingHandler](/dotnet/api/system.net.http.delegatinghandler) and override the `SendAsync` method with code similar to the preceding example. You can find code using this technique on the web; one example is [Properly Propagating "kubernetes-route-as" in Bridge to Kubernetes](https://blogs.u2u.be/lander/post/2020/11/25/properly-propagating-kubernetes-route-as-in-bridge-to-kubernetes).
 
-For Node.js services, you can use code similar to the following, taken from the todo-app sample in the [Bridge to Kubernetes repo](https://github.com/mindaro/Bridge-To-Kubernetes):
+For Node.js services, you can use code similar to the following, taken from the todo-app sample in the [Bridge to Kubernetes repo](https://github.com/hsubramanianaks/b2k-samples):
 
 ```js
     server.get("/api/stats", function (req, res) {
