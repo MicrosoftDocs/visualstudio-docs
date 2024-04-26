@@ -53,7 +53,7 @@ To quickly iterate changes in your Razor pages, you can start your application i
 
 1. Make sure that Docker is set up to use the container type (Linux or Windows) that you are using. Right-click on the Docker icon on the Taskbar, and choose **Switch to Linux containers** or **Switch to Windows containers** as appropriate.
 
-1. Editing your code and refreshing the running site as described in this section is not enabled in the default templates in .NET Core and .NET 5 and later. To enable it, add the NuGet package [Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation](https://www.nuget.org/packages/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/). Add a call to the extension method [AddRazorRuntimeCompilation](/dotnet/api/microsoft.extensions.dependencyinjection.razorruntimecompilationmvcbuilderextensions.addrazorruntimecompilation?view=aspnetcore-8.0) to the code in the `Startup.ConfigureServices` method. You only need this enabled in DEBUG mode, so code it as follows in the `Main` method:
+1. Editing your code and refreshing the running site as described in this section is not enabled in the default templates in .NET Core and .NET 5 and later. To enable it, add the NuGet package [Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation](https://www.nuget.org/packages/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/). Add a call to the extension method [AddRazorRuntimeCompilation](/dotnet/api/microsoft.extensions.dependencyinjection.razorruntimecompilationmvcbuilderextensions.addrazorruntimecompilation) to the code in the `Startup.ConfigureServices` method. You only need this enabled in DEBUG mode, so code it as follows in the `Main` method:
 
     ```csharp
     // Add services to the container.
