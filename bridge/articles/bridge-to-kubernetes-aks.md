@@ -46,7 +46,7 @@ Download the code and install dependencies
 
 ```azurecli-interactive
 git clone https://github.com/hsubramanianaks/b2k-samples
-cd Bridge-To-Kubernetes/samples/todo-app
+cd b2k-samples/todo-app
 npm install stats-api\
 ```
 

@@ -52,7 +52,7 @@ The sample application has a frontend to interact and a backend that provides pe
    git clone https://github.com/hsubramanianaks/b2k-samples
    ```
 
-1. Change directory to *samples/todo-app* and then create a namespace for the sample.
+1. Change directory to *todo-app* and then create a namespace for the sample.
 
    ```cmd
    kubectl create namespace todo-app
