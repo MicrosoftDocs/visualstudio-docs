@@ -1,6 +1,6 @@
 ---
 title: "Configure Bridge to Kubernetes"
-ms.date: 08/11/2022
+ms.date: 04/26/2024
 ms.topic: "conceptual"
 description: Configure Bridge to Kubernetes to ignore port mapping on a Kubernetes service or replicate environment variables and mounted files for pods in a cluster.
 keywords: "Bridge to Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, containers"
@@ -21,6 +21,10 @@ The Kubernetes configuration (kubeconfig) file is default to `$HOME/.kube/config
 If you're using Visual Studio, you can edit the Kubernetes configuration in the IDE by using the **Debug launch profiles UI** in the Debug properties. See [Edit launch profile](./bridge-to-kubernetes-vs.md#edit-launch-profile).
 
 ![Screenshot showing the Debug launch profiles UI.](./media/bridge-to-kubernetes-vs/edit-profile-for-bridge-to-kubernetes.png)
+
+From there, you can open the following screen, which provides a way to edit some of the most common configuration properties.
+
+![Screenshot showing editing some of the most common Bridge to Kubernetes profile properties.](./media/bridge-to-kubernetes-vs/edit-profile-for-bridge-to-kubernetes-screen.png)
 
 ### Prevent Bridge to Kubernetes from forwarding specific ports
 
