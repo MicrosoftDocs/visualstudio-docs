@@ -75,7 +75,7 @@ In static property functions, you can use any public static method or property o
 - <xref:System.Int32?displayProperty=nameWithType>
 - <xref:System.Int64?displayProperty=nameWithType>
 - <xref:System.IO.Path?displayProperty=nameWithType>
-- <xref:System.Math?displayProperty=nameWithType>
+- [System.Math](/dotnet/api/system.math?view=netstandard-2.0&preserve-view=true)
 - <xref:System.Runtime.InteropServices.OSPlatform?displayProperty=nameWithType>
 - <xref:System.Runtime.InteropServices.RuntimeInformation?displayProperty=nameWithType>
 - <xref:System.UInt16?displayProperty=nameWithType>
