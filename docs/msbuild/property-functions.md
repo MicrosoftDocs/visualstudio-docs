@@ -62,69 +62,69 @@ For example, to set a build property to a new GUID, you can use this script:
 
 In static property functions, you can use any public static method or property of these system classes:
 
-- <xref:System.Byte?displayProperty=nameWithType>
-- <xref:System.Char?displayProperty=nameWithType>
-- <xref:System.Convert?displayProperty=nameWithType>
-- <xref:System.DateTime?displayProperty=nameWithType>
-- <xref:System.DateTimeOffset?displayProperty=nameWithType> (Available in MSBuild 17.3 and higher)
-- <xref:System.Decimal?displayProperty=nameWithType>
-- <xref:System.Double?displayProperty=nameWithType>
-- <xref:System.Enum?displayProperty=nameWithType>
-- <xref:System.Guid?displayProperty=nameWithType>
-- <xref:System.Int16?displayProperty=nameWithType>
-- <xref:System.Int32?displayProperty=nameWithType>
-- <xref:System.Int64?displayProperty=nameWithType>
-- <xref:System.IO.Path?displayProperty=nameWithType>
+- [System.Byte](/dotnet/api/System.Byte?view=netstandard-2.0&preserve-view=true)
+- [System.Char](/dotnet/api/System.Char?view=netstandard-2.0&preserve-view=true)
+- [System.Convert](/dotnet/api/System.Convert?view=netstandard-2.0&preserve-view=true)
+- [System.DateTime](/dotnet/api/System.DateTime?view=netstandard-2.0&preserve-view=true)
+- [System.DateTimeOffset](/dotnet/api/System.DateTimeOffset?view=netstandard-2.0&preserve-view=true) (Available in MSBuild 17.3 and higher)
+- [System.Decimal](/dotnet/api/System.Decimal?view=netstandard-2.0&preserve-view=true)
+- [System.Double](/dotnet/api/System.Double?view=netstandard-2.0&preserve-view=true)
+- [System.Enum](/dotnet/api/System.Enum?view=netstandard-2.0&preserve-view=true)
+- [System.Guid](/dotnet/api/System.Guid?view=netstandard-2.0&preserve-view=true)
+- [System.Int16](/dotnet/api/System.Int16?view=netstandard-2.0&preserve-view=true)
+- [System.Int32](/dotnet/api/System.Int32?view=netstandard-2.0&preserve-view=true)
+- [System.Int64](/dotnet/api/System.Int64?view=netstandard-2.0&preserve-view=true)
+- [System.IO.Path](/dotnet/api/System.IO.Path?view=netstandard-2.0&preserve-view=true)
 - [System.Math](/dotnet/api/system.math?view=netstandard-2.0&preserve-view=true)
-- <xref:System.Runtime.InteropServices.OSPlatform?displayProperty=nameWithType>
-- <xref:System.Runtime.InteropServices.RuntimeInformation?displayProperty=nameWithType>
-- <xref:System.UInt16?displayProperty=nameWithType>
-- <xref:System.UInt32?displayProperty=nameWithType>
-- <xref:System.UInt64?displayProperty=nameWithType>
-- <xref:System.SByte?displayProperty=nameWithType>
-- <xref:System.Single?displayProperty=nameWithType>
-- <xref:System.String?displayProperty=nameWithType>
-- <xref:System.StringComparer?displayProperty=nameWithType>
-- <xref:System.TimeSpan?displayProperty=nameWithType>
-- <xref:System.Text.RegularExpressions.Regex?displayProperty=nameWithType>
-- <xref:System.UriBuilder?displayProperty=nameWithType>
-- <xref:System.Version?displayProperty=nameWithType>
-- <xref:Microsoft.Build.Utilities.ToolLocationHelper?displayProperty=nameWithType>
+- [System.Runtime.InteropServices.OSPlatform](/dotnet/api/System.Runtime.InteropServices.OSPlatform?view=netstandard-2.0&preserve-view=true)
+- [System.Runtime.InteropServices.RuntimeInformation](/dotnet/api/System.Runtime.InteropServices.RuntimeInformation?view=netstandard-2.0&preserve-view=true)
+- [System.UInt16](/dotnet/api/System.UInt16?view=netstandard-2.0&preserve-view=true)
+- [System.UInt32](/dotnet/api/System.UInt32?view=netstandard-2.0&preserve-view=true)
+- [System.UInt64](/dotnet/api/System.UInt64?view=netstandard-2.0&preserve-view=true)
+- [System.SByte](/dotnet/api/System.SByte?view=netstandard-2.0&preserve-view=true)
+- [System.Single](/dotnet/api/System.Single?view=netstandard-2.0&preserve-view=true)
+- [System.String](/dotnet/api/System.String?view=netstandard-2.0&preserve-view=true)
+- [System.StringComparer](/dotnet/api/System.StringComparer?view=netstandard-2.0&preserve-view=true)
+- [System.TimeSpan](/dotnet/api/System.TimeSpan?view=netstandard-2.0&preserve-view=true)
+- [System.Text.RegularExpressions.Regex](/dotnet/api/System.Text.RegularExpressions.Regex?view=netstandard-2.0&preserve-view=true)
+- [System.UriBuilder](/dotnet/api/System.UriBuilder?view=netstandard-2.0&preserve-view=true)
+- [System.Version](/dotnet/api/System.Version?view=netstandard-2.0&preserve-view=true)
+- [Microsoft.Build.Utilities.ToolLocationHelper](/dotnet/api/Microsoft.Build.Utilities.ToolLocationHelper?view=netstandard-2.0&preserve-view=true)
 
 In addition, you can use the following static methods and properties:
 
-- [System.Environment::CommandLine](xref:System.Environment.CommandLine*)
-- [System.Environment::ExpandEnvironmentVariables](xref:System.Environment.ExpandEnvironmentVariables*)
-- [System.Environment::GetEnvironmentVariable](xref:System.Environment.GetEnvironmentVariable*)
-- [System.Environment::GetEnvironmentVariables](xref:System.Environment.GetEnvironmentVariables*)
-- [System.Environment::GetFolderPath](xref:System.Environment.GetFolderPath*)
-- [System.Environment::GetLogicalDrives](xref:System.Environment.GetLogicalDrives*)
-- [System.Environment::Is64BitOperatingSystem](xref:System.Environment.Is64BitOperatingSystem*)
-- [System.Environment::Is64BitProcess](xref:System.Environment.Is64BitProcess*)
-- [System.Environment::MachineName](xref:System.Environment.MachineName*)
-- [System.Environment::NewLine](xref:System.Environment.NewLine*) (Available in MSBuild 17.3 and higher)
-- [System.Environment::OSVersion](xref:System.Environment.OSVersion*)
-- [System.Environment::ProcessorCount](xref:System.Environment.ProcessorCount*)
-- [System.Environment::StackTrace](xref:System.Environment.StackTrace*)
-- [System.Environment::SystemDirectory](xref:System.Environment.SystemDirectory*)
-- [System.Environment::SystemPageSize](xref:System.Environment.SystemPageSize*)
-- [System.Environment::TickCount](xref:System.Environment.TickCount*)
-- [System.Environment::UserDomainName](xref:System.Environment.UserDomainName*)
-- [System.Environment::UserInteractive](xref:System.Environment.UserInteractive*)
-- [System.Environment::UserName](xref:System.Environment.UserName*)
-- [System.Environment::Version](xref:System.Environment.UserName*)
-- [System.Environment::WorkingSet](xref:System.Environment.WorkingSet*)
-- [System.IO.Directory::GetDirectories](xref:System.IO.Directory.GetDirectories*)
-- [System.IO.Directory::GetFiles](xref:System.IO.Directory.GetFiles*)
-- [System.IO.Directory::GetLastAccessTime](xref:System.IO.Directory.GetLastAccessTime*)
-- [System.IO.Directory::GetLastWriteTime](xref:System.IO.Directory.GetLastWriteTime*)
-- [System.IO.Directory::GetParent](xref:System.IO.Directory.GetParent*)
-- [System.IO.File::Exists](xref:System.IO.File.Exists*)
-- [System.IO.File::GetAttributes](xref:System.IO.File.GetAttributes*)
-- [System.IO.File::GetCreationTime](xref:System.IO.File.GetCreationTime*)
-- [System.IO.File::GetLastAccessTime](xref:System.IO.File.GetLastAccessTime*)
-- [System.IO.File::GetLastWriteTime](xref:System.IO.File.GetLastWriteTime*)
-- [System.IO.File::ReadAllText](xref:System.IO.File.ReadAllText*)
+- [System.Environment::CommandLine](/dotnet/api/System.Environment.CommandLine?view=netstandard-2.0&preserve-view=true)
+- [System.Environment::ExpandEnvironmentVariables](/dotnet/api/System.Environment.ExpandEnvironmentVariables?view=netstandard-2.0&preserve-view=true)
+- [System.Environment::GetEnvironmentVariable](/dotnet/api/System.Environment.GetEnvironmentVariable?view=netstandard-2.0&preserve-view=true)
+- [System.Environment::GetEnvironmentVariables](/dotnet/api/System.Environment.GetEnvironmentVariables?view=netstandard-2.0&preserve-view=true)
+- [System.Environment::GetFolderPath](/dotnet/api/System.Environment.GetFolderPath?view=netstandard-2.0&preserve-view=true)
+- [System.Environment::GetLogicalDrives](/dotnet/api/System.Environment.GetLogicalDrives?view=netstandard-2.0&preserve-view=true)
+- [System.Environment::Is64BitOperatingSystem](/dotnet/api/System.Environment.Is64BitOperatingSystem?view=netstandard-2.0&preserve-view=true)
+- [System.Environment::Is64BitProcess](/dotnet/api/System.Environment.Is64BitProcess?view=netstandard-2.0&preserve-view=true)
+- [System.Environment::MachineName](/dotnet/api/System.Environment.MachineName?view=netstandard-2.0&preserve-view=true)
+- [System.Environment::NewLine](/dotnet/api/System.Environment.NewLine?view=netstandard-2.0&preserve-view=true)
+- [System.Environment::OSVersion](/dotnet/api/System.Environment.OSVersion?view=netstandard-2.0&preserve-view=true)
+- [System.Environment::ProcessorCount](/dotnet/api/System.Environment.ProcessorCount?view=netstandard-2.0&preserve-view=true)
+- [System.Environment::StackTrace](/dotnet/api/System.Environment.StackTrace?view=netstandard-2.0&preserve-view=true)
+- [System.Environment::SystemDirectory](/dotnet/api/System.Environment.SystemDirectory?view=netstandard-2.0&preserve-view=true)
+- [System.Environment::SystemPageSize](/dotnet/api/System.Environment.SystemPageSize?view=netstandard-2.0&preserve-view=true)
+- [System.Environment::TickCount](/dotnet/api/System.Environment.TickCount?view=netstandard-2.0&preserve-view=true)
+- [System.Environment::UserDomainName](/dotnet/api/System.Environment.UserDomainName?view=netstandard-2.0&preserve-view=true)
+- [System.Environment::UserInteractive](/dotnet/api/System.Environment.UserInteractive?view=netstandard-2.0&preserve-view=true)
+- [System.Environment::UserName](/dotnet/api/System.Environment.UserName?view=netstandard-2.0&preserve-view=true)
+- [System.Environment::Version](/dotnet/api/System.Environment.Version?view=netstandard-2.0&preserve-view=true)
+- [System.Environment::WorkingSet](/dotnet/api/System.Environment.WorkingSet?view=netstandard-2.0&preserve-view=true)
+- [System.IO.Directory::GetDirectories](/dotnet/api/System.IO.Directory.GetDirectories?view=netstandard-2.0&preserve-view=true)
+- [System.IO.Directory::GetFiles](/dotnet/api/System.IO.Directory.GetFiles?view=netstandard-2.0&preserve-view=true)
+- [System.IO.Directory::GetLastAccessTime](/dotnet/api/System.IO.Directory.GetLastAccessTime?view=netstandard-2.0&preserve-view=true)
+- [System.IO.Directory::GetLastWriteTime](/dotnet/api/System.IO.Directory.GetLastWriteTime?view=netstandard-2.0&preserve-view=true)
+- [System.IO.Directory::GetParent](/dotnet/api/System.IO.Directory.GetParent?view=netstandard-2.0&preserve-view=true)
+- [System.IO.File::Exists](/dotnet/api/System.IO.File.Exists?view=netstandard-2.0&preserve-view=true)
+- [System.IO.File::GetAttributes](/dotnet/api/System.IO.File.GetAttributes?view=netstandard-2.0&preserve-view=true)
+- [System.IO.File::GetCreationTime](/dotnet/api/System.IO.File.GetCreationTime?view=netstandard-2.0&preserve-view=true)
+- [System.IO.File::GetLastAccessTime](/dotnet/api/System.IO.File.GetLastAccessTime?view=netstandard-2.0&preserve-view=true)
+- [System.IO.File::GetLastWriteTime](/dotnet/api/System.IO.File.GetLastWriteTime?view=netstandard-2.0&preserve-view=true)
+- [System.IO.File::ReadAllText](/dotnet/api/System.IO.File.ReadAllText?view=netstandard-2.0&preserve-view=true)
 
 :::moniker range="vs-2022"
 #### System.OperatingSystem property functions
@@ -135,15 +135,15 @@ In MSBuild running on .NET (`dotnet build`), all static methods of the `System.O
 
 In MSBuild running on .NET Framework (`MSBuild.exe`), only the following methods of `System.OperatingSystem` will be callable as static property functions. MSBuild implements them internally, because `System.OperatingSystem` does not define them on .NET Framework. Methods for operating systems for which there is no .NET SDK, such as `System.OperatingSystem::IsTvOS`, are not callable.
 
-- [System.OperatingSystem::IsOSPlatform](xref:System.OperatingSystem.IsOSPlatform*)
-- [System.OperatingSystem::IsOSPlatformVersionAtLeast](xref:System.OperatingSystem.IsOSPlatformVersionAtLeast*)
-- [System.OperatingSystem::IsLinux](xref:System.OperatingSystem.IsLinux*)
-- [System.OperatingSystem::IsFreeBSD](xref:System.OperatingSystem.IsFreeBSD*)
-- [System.OperatingSystem::IsFreeBSDVersionAtLeast](xref:System.OperatingSystem.IsFreeBSDVersionAtLeast*)
-- [System.OperatingSystem::IsMacOS](xref:System.OperatingSystem.IsMacOS*)
-- [System.OperatingSystem::IsMacOSVersionAtLeast](xref:System.OperatingSystem.IsMacOSVersionAtLeast*)
-- [System.OperatingSystem::IsWindows](xref:System.OperatingSystem.IsWindows*)
-- [System.OperatingSystem::IsWindowsVersionAtLeast](xref:System.OperatingSystem.IsWindowsVersionAtLeast*)
+- [System.OperatingSystem::IsOSPlatform](/dotnet/api/System.OperatingSystem.IsOSPlatform?view=netstandard-2.0&preserve-view=true)
+- [System.OperatingSystem::IsOSPlatformVersionAtLeast](/dotnet/api/System.OperatingSystem.IsOSPlatformVersionAtLeast?view=netstandard-2.0&preserve-view=true)
+- [System.OperatingSystem::IsLinux](/dotnet/api/System.OperatingSystem.IsLinux?view=netstandard-2.0&preserve-view=true)
+- [System.OperatingSystem::IsFreeBSD](/dotnet/api/System.OperatingSystem.IsFreeBSD?view=netstandard-2.0&preserve-view=true)
+- [System.OperatingSystem::IsFreeBSDVersionAtLeast](/dotnet/api/System.OperatingSystem.IsFreeBSDVersionAtLeast?view=netstandard-2.0&preserve-view=true)
+- [System.OperatingSystem::IsMacOS](/dotnet/api/System.OperatingSystem.IsMacOS?view=netstandard-2.0&preserve-view=true)
+- [System.OperatingSystem::IsMacOSVersionAtLeast](/dotnet/api/System.OperatingSystem.IsMacOSVersionAtLeast?view=netstandard-2.0&preserve-view=true)
+- [System.OperatingSystem::IsWindows](/dotnet/api/System.OperatingSystem.IsWindows?view=netstandard-2.0&preserve-view=true)
+- [System.OperatingSystem::IsWindowsVersionAtLeast](/dotnet/api/System.OperatingSystem.IsWindowsVersionAtLeast?view=netstandard-2.0&preserve-view=true)
 
 The following example shows the usage of these property functions.
 
