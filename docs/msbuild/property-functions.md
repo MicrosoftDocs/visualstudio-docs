@@ -89,7 +89,7 @@ In static property functions, you can use any public static method or property o
 - [System.Text.RegularExpressions.Regex](/dotnet/api/System.Text.RegularExpressions.Regex?view=netstandard-2.0&preserve-view=true)
 - [System.UriBuilder](/dotnet/api/System.UriBuilder?view=netstandard-2.0&preserve-view=true)
 - [System.Version](/dotnet/api/System.Version?view=netstandard-2.0&preserve-view=true)
-- [Microsoft.Build.Utilities.ToolLocationHelper](/dotnet/api/Microsoft.Build.Utilities.ToolLocationHelper?view=netstandard-2.0&preserve-view=true)
+- [Microsoft.Build.Utilities.ToolLocationHelper](/dotnet/api/Microsoft.Build.Utilities.ToolLocationHelper)
 
 In addition, you can use the following static methods and properties:
 
