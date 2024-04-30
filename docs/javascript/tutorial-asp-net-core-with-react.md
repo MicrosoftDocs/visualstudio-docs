@@ -176,12 +176,14 @@ If you create the project with [Docker support](../containers/container-tools-re
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-react-docker-container-ports.png" alt-text="Screenshot showing Docker container ports."::: 
 
-1. Open the `vite.config.js` file for the React project. Update the `target` property to match the HTTPS port in the Containers window. The updated value should look similar to the following:
+1. Open the `vite.config.js` file for the React project. Update the `target` variable to match the HTTPS port in the Containers window. For example, in the following code:
 
    ```js
    const target = env.ASPNETCORE_HTTPS_PORT ? `https://localhost:${env.ASPNETCORE_HTTPS_PORT}` :
-      env.ASPNETCORE_URLS ? env.ASPNETCORE_URLS.split(';')[0] : 'https://localhost:44307';
+      env.ASPNETCORE_URLS ? env.ASPNETCORE_URLS.split(';')[0] : 'https://localhost:7143';
    ```
+
+   change `https://localhost:7143` to `https://localhost:44307`.
 
 1. Restart the app.
 
