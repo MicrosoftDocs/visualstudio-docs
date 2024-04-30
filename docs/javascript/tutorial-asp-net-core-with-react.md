@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with React"
 description: Create an ASP.NET Core project to serve as an API backend and a React project to provide the user interface in Visual Studio.
-ms.date: 03/20/2024
+ms.date: 04/30/2024
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -172,7 +172,7 @@ Try deleting the React certificates from *%appdata%\local\asp.net\https* or *%ap
 
 If you create the project with [Docker support](../containers/container-tools-react.md#prerequisites) enabled, take the following steps:
 
-1. After the app loads, get the Docker HTTPS port using the [Containers window](../containers/container-tools-react.md#containers-window) in Visual Studio.
+1. After the app loads, get the Docker HTTPS port using the [Containers window](../containers/container-tools-react.md#containers-window) in Visual Studio. Check the **Environment** or **Ports** tab.
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-react-docker-container-ports.png" alt-text="Screenshot showing Docker container ports."::: 
 
