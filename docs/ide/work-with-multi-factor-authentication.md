@@ -1,7 +1,7 @@
 ---
 title: Multi-factor authentication with Visual Studio sign-ins
 titleSuffix: "" 
-ms.date: 08/24/2023
+ms.date: 05/21/2024
 ms.topic: how-to
 description: Use Visual Studio with accounts that require multifactor authentication (MFA) to protect your apps and data with conditional access policies.
 author: anandmeg
@@ -148,6 +148,17 @@ Starting with Visual Studio 2022 version 17.5, if you see the previous error dia
 1. Sign in again.
 
 <a name='how-to-opt-out-of-using-a-specific-azure-active-directory-tenant-in-visual-studio'></a>
+
+::: moniker range="=vs-2022"
+### Web Account Manager(WAM) errors
+
+If you run into errors when using the [Windows authentication broker workflow for signing in to Visual Studio](#enabling-windows-authentication-broker), follow the action listed on the error dialog to resolve or report the issue. Use the links on the dialog to learn more about the error or to see error logs.
+
+For example, if you see the following error dialog, you can resolve the issue by selecting **change authentication mechanism** to open **Sign-in options** and switch to the [system web browser](#enabling-system-web-browser).
+
+:::image type="content" source="media/vs-2022/work-with-multi-factor-authentication/change-authentication-mechanism-error.png" alt-text="Screenshot of a WAM error dialog with the change authentication mechanism option to resolve error." border="false":::
+
+::: moniker-end
 
 ## How to opt out of using a specific Microsoft Entra tenant in Visual Studio
 
