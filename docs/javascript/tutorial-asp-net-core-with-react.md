@@ -168,6 +168,23 @@ Your connection isn't private
 
 Try deleting the React certificates from *%appdata%\local\asp.net\https* or *%appdata%\roaming\asp.net\https*, and then retry.
 
+### Docker
+
+If you create the project with [Docker support](../containers/container-tools-react.md#prerequisites) enabled:
+
+1. After the app loads, get the Docker HTTPS port using the [Containers window](../containers/container-tools-react.md#containers-window) in Visual Studio.
+
+   :::image type="content" source="media/vs-2022/asp-net-core-with-react-docker-container-ports.png" alt-text="Screenshot showing Docker container ports."::: 
+
+1. Open the `vite.config.js` file for the React project. Update the `target` property to match the HTTPS port in the Containers window. The updated value should look similar to the following:
+
+   ```js
+   const target = env.ASPNETCORE_HTTPS_PORT ? `https://localhost:${env.ASPNETCORE_HTTPS_PORT}` :
+      env.ASPNETCORE_URLS ? env.ASPNETCORE_URLS.split(';')[0] : 'https://localhost:44307';
+   ```
+
+1. Restart the app.
+
 ## Next steps
 
 For more information about SPA applications in ASP.NET Core, see the React section under [Developing Single Page Apps](/aspnet/core/client-side/spa/intro#developing-single-page-apps). The linked article provides additional context for project files such as *aspnetcore-https.js*, although details of the implementation are different based on the template differences. For example, instead of a ClientApp folder, the React files are contained in a separate project.
