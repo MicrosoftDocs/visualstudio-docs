@@ -170,7 +170,7 @@ Try deleting the React certificates from *%appdata%\local\asp.net\https* or *%ap
 
 ### Docker
 
-If you create the project with [Docker support](../containers/container-tools-react.md#prerequisites) enabled:
+If you create the project with [Docker support](../containers/container-tools-react.md#prerequisites) enabled, take the following steps:
 
 1. After the app loads, get the Docker HTTPS port using the [Containers window](../containers/container-tools-react.md#containers-window) in Visual Studio.
 
