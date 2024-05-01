@@ -57,13 +57,11 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Create multi-project templates](../ide/how-to-create-multi-project-templates.md)
-  - Confirm merge from repo_sync_working_branch to main to sync with https://github.com/MicrosoftDocs/visualstudio-docs (branch main)
-  - Added example on how to add project references on multi-project templates.
+- [Create multi-project templates](../ide/how-to-create-multi-project-templates.md) - Added example on how to add project references on multi-project templates.
 - [Change the build output directory](../ide/how-to-change-the-build-output-directory.md) - Update based on user feedback
 - [Manage assembly and manifest signing](../ide/managing-assembly-and-manifest-signing.md) - Update based on user feedback
 - [Build actions](../ide/build-actions.md) - Clarify build action
-- [Insert XML comments for documentation generation](../ide/reference/generate-xml-documentation-comments.md) - Freshness Pass: VS Code Snippets (#3 of 3)
+- [Insert XML comments for documentation generation](../ide/reference/generate-xml-documentation-comments.md) - Review and update code snippets
 - [Walkthrough: Create a code snippet in Visual Studio](../ide/walkthrough-creating-a-code-snippet.md) - Review and update code snippets
 - [Find references in your code](../ide/finding-references.md) - Review and update
 - [Code snippets schema reference](../ide/code-snippets-schema-reference.md) - Review and update code snippets
