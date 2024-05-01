@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with React"
 description: Create an ASP.NET Core project to serve as an API backend and a React project to provide the user interface in Visual Studio.
-ms.date: 03/20/2024
+ms.date: 04/30/2024
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -25,8 +25,6 @@ You can use the method described in this article to create ASP.NET Core Single P
 
 > [!NOTE]
 > This article describes the project creation process using the updated template in Visual Studio 2022 version 17.8, which uses the Vite CLI.
-
-For instructions using Docker with React and ASP.NET Core, see [Use Docker with a React Single-page App in Visual Studio](../containers/container-tools-react.md).
 
 ## Prerequisites
 
@@ -168,11 +166,11 @@ Your connection isn't private
 
 Try deleting the React certificates from *%appdata%\local\asp.net\https* or *%appdata%\roaming\asp.net\https*, and then retry.
 
-### Docker
+## Docker
 
 If you create the project with [Docker support](../containers/container-tools-react.md#prerequisites) enabled, take the following steps:
 
-1. After the app loads, get the Docker HTTPS port using the [Containers window](../containers/container-tools-react.md#containers-window) in Visual Studio.
+1. After the app loads, get the Docker HTTPS port using the [Containers window](../containers/container-tools-react.md#containers-window) in Visual Studio. Check the **Environment** or **Ports** tab.
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-react-docker-container-ports.png" alt-text="Screenshot showing Docker container ports."::: 
 
