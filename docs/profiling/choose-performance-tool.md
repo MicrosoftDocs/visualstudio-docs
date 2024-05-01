@@ -3,6 +3,7 @@ title: "Which performance tool should I use?"
 description: Explore profiling tools in Visual Studio that can help you diagnose different kinds of application performance issues and find the right tool for your scenario.
 ms.date: 04/24/2023
 ms.topic: conceptual
+ms.custom: "profiling-seo"
 dev_langs:
   - "CSharp"
 helpviewer_keywords:

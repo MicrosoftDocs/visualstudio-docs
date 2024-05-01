@@ -3,6 +3,7 @@ title: Identify hot paths with the Flame Graph
 description: Find hot paths in your code by using a Flame Graph for a visual overview of where time is spent in an application and view deeper data for specific nodes.
 ms.date: 04/17/2024
 ms.topic: how-to
+ms.custom: "profiling-seo"
 author: MikeJo5000
 ms.author: mikejo
 manager: mijacobs
@@ -16,7 +17,7 @@ The **Flame Graph** in the CPU Usage tool helps you identify hot paths in your c
 
 ![Screenshot showing Flame Graph with tooltips displayed.](./media/vs-2022/flame-graph-tooltips.png "Flame Graph with tooltips displayed")
 
-For a tutorial that shows how to improve performance using the flame graph, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
+For a tutorial that shows how to improve performance using the flame graph, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md). For information on the CPU profiler, see [Analyze performance by using CPU profiling](../profiling/cpu-usage.md).
 
 ## Investigate hot paths
 
