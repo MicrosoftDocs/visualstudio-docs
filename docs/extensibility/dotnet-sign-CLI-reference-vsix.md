@@ -11,7 +11,7 @@ helpviewer_keywords:
 - authenticode
 - vsix
 - packages
-author: jadelaga
+author: javierdlg
 ms.author: maiak
 manager: mijacobs
 ms.subservice: extensibility-integration
@@ -39,7 +39,7 @@ sign code certificate-store [<PATH(s)>]
     [-cf|--certificate-file <PATH>]
     [-p|--password <PASSWORD>]
     [-csp|--crypto-service-provider <CSPNAME>]
-    [-k|---key-container <HASHALGORITHM>]
+    [-k|--key-container <HASHALGORITHM>]
     [-fd|--file-digest <DIGEST>]
     [-t|--timestamp-url <URL>]
     [-tr|--timestamp-rfc3161 <URL>]
@@ -50,7 +50,7 @@ sign code certificate-store -h|--help
 
 ## Description
 
-`sign` is a Dotnet tool that recursively signs files and containers with a certificate and private. The certificate and private key can be obtained from either a file (PFX, P7B, CER) or from a certificate installed in a certificate store by providing a SHA-1 fingerprint. USB keys can be accessed using a [Cryptographic Service Provider](https://learn.microsoft.com/en-us/windows/win32/seccrypto/cryptographic-service-providers) implemented by the manufacturer and accessed from the certificate store.
+`sign` is a Dotnet tool that recursively signs files and containers with a certificate and private. The certificate and private key can be obtained from either a file (PFX, P7B, CER) or from a certificate installed in a certificate store by providing a SHA-1 fingerprint. USB keys can be accessed using a [Cryptographic Service Provider](/windows/win32/seccrypto/cryptographic-service-providers) implemented by the manufacturer and accessed from the certificate store.
 
 ## Installation
 Install Sign globally using `dotnet tool install sign --version <version> --global`, where `<version>` is the latest available version under [Sign (nuget.org)](https://www.nuget.org/packages/sign).
@@ -107,7 +107,7 @@ Install Sign globally using `dotnet tool install sign --version <version> --glob
 
    Cryptographic Service Provider containing the private key.
 
-- **`-k|--hash-algorithm <HASHALGORITHM>]`**
+- **`-k|--key-container <HASHALGORITHM>]`**
 
    Private key container name.
 

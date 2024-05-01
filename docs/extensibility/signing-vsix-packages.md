@@ -9,37 +9,51 @@ helpviewer_keywords:
 - authenticode
 - vsix
 - packages
-author: jadelaga
+author: javierdlg
 ms.author: maiak
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
-# Signing VSIX Packages
 
+# Signing VSIX Packages
 Extension assemblies don't need to be signed before they can run in Visual Studio, but it's a good practice to do so.
 
-Adding a digital signature to a VSIX package secures your extension and prevents tampering. During install, the VSIX installer displays the signature and a hyperlink to the certificate. If the contents of the VSIX where modified, the VSIX installer marks the signature as invalid. Invalid signatures don't block installing extensions, but the user is warned.
+Adding a digital signature to a VSIX package secures your extension and prevents tampering. During install, the VSIX installer displays the signature and a link to the certificate. If the contents of the VSIX are modified without updating the signature, the installer only warns the user of an invalid package signature. This guide assumes you have already [created a VSIX](../extensibility/getting-started-with-the-vsix-project-template).
 
 > [!IMPORTANT]
 > Beginning with Visual Studio 2015, VSIX packages signed using anything other than SHA256 encryption will be identified as having an invalid signature. VSIX installation is not blocked but the user will be warned.
 
-## Signing a VSIX with Dotnet Sign
-VSIXSignTool has migrated to [Dotnet/Sign (github.com)](https://github.com/dotnet/sign) and is now accessible as a dotnet tool. This tool is published to NuGet package as [Sign (nuget.org)](https://www.nuget.org/packages/sign) and can be used for local or cloud signing using Azure Key Vault.
+## Get a code signing certificate
 
-Sign supports certificates and private keys stored in any combination of these locations:
+Valid certificates can be obtained from a public certificate authority such as:
+
+- [Certum](https://www.certum.eu/certum/cert,offer_en_open_source_cs.xml)
+- [Comodo](https://www.comodo.com/e-commerce/code-signing/code-signing-certificate.php)
+- [DigiCert](https://www.digicert.com/code-signing/)
+- [GlobalSign](https://www.globalsign.com/en/code-signing-certificate/)
+- [SSL.com](https://www.ssl.com/certificates/code-signing/)
+
+The complete list of certification authorities trusted by Windows can also be obtained from [http://aka.ms/trustcertpartners](/security/trusted-root/participants-list).
+
+You can use self-issued certificates for testing purposes. However, packages signed using self-issued certificates are not accepted by NuGet.org. Learn more about [creating a test certificate](#create-a-test-certificate)
+
+## Signing a VSIX with Dotnet Sign
+VSIXSignTool.exe has been deprecated in favor of [Dotnet/Sign (github.com)](https://github.com/dotnet/sign). This tool is published to NuGet as a dotnet tool under [Sign (nuget.org)](https://www.nuget.org/packages/sign). This tool supports local and Azure Key Vault cloud signing.
+
+For local signing, Sign supports certificates and private keys stored in any combination of these locations:
 - `PFX`, `P7B`, or `CER` files
 - Imported into Windows Certificate Manager
-- Stored in a USB device with access via a Cryptographic Service Provider (CSP)
+- Stored in a USB device with access via a [Cryptographic Service Provider](/windows/win32/seccrypto/cryptographic-service-providers) (CSP)
 
 #### Installing Dotnet Sign
-1. Open a [Developer PowerShell](https://learn.microsoft.com/en-us/visualstudio/ide/reference/command-prompt-powershell?view=vs-2022) instance.
+1. Open a [Developer PowerShell](/visualstudio/ide/reference/command-prompt-powershell) instance.
 
 1. Verify nuget.org is added and enabled as a NuGet source.
     - Check your sources using `dotnet nuget list source` 
     - Add NuGet.org as a source using `dotnet nuget add source -n NuGet.org https://api.nuget.org/v3/index.json`
 
-1. Install Sign by running `dotnet tool install sign --version <version> --global`, where `<version>` is the latest available version under [Sign (nuget.org)](https://www.nuget.org/packages/sign)
-    - `--global` is optional but allows using sign outside of the PowerShell instance.
+1. Install Sign by running `dotnet tool install sign --version <version> --global`, where `<version>` is the latest available version under [Sign (nuget.org)](https://www.nuget.org/packages/sign).
+    - `--global` is optional and installs the tool in a default location that is automatically added to the PATH environment variable.
 
 
 #### Using Dotnet Sign
