@@ -101,7 +101,12 @@ You can attach the Visual Studio debugger to a process running in a Windows Dock
 
 1. In Visual Studio, select **Debug > Attach to Process** (or **CTRL+ALT+P**) to open the **Attach to Process** dialog box.
 
+   ::: moniker range=">= vs-2022"  
+   ![Screenshot of the Attach to Process dialog in Visual Studio showing a Connection type of Docker (Windows Container).](../debugger/media/vs-2022/attach-process-menu-docker-windows.png "Attach_To_Process_Menu")
+   ::: moniker-end
+   ::: moniker range="vs-2019"  
    ![Screenshot of the Attach to Process dialog in Visual Studio showing a Connection type of Docker (Windows Container).](../debugger/media/attach-process-menu-docker-windows.png "Attach_To_Process_Menu")
+   ::: moniker-end
 
 2. Set the **Connection type** to **Docker (Windows Container)**.
 3. Select **Find...** to set the **Connection target** using the **Select Docker Container** dialog box.
@@ -118,4 +123,9 @@ You can attach the Visual Studio debugger to a process running in a Windows Dock
 
 4. Choose the corresponding container process from the list of **Available processes** and select **Attach** to start debugging your C# container process.
 
-    ![Screenshot of the Attach to Process dialog in Visual Studio. Connection type is set to Docker (Windows Container) and the dotnet.exe process is selected.](../debugger/media/docker-attach-complete-windows.png "Completed Windows Docker Attach Menu")
+   ::: moniker range=">= vs-2022"  
+   ![Screenshot of the Attach to Process dialog in Visual Studio. Connection type is set to Docker (Windows Container) and the dotnet.exe process is selected.](../debugger/media/vs-2022/docker-attach-complete-windows.png "Completed Windows Docker Attach Menu")
+   ::: moniker-end
+   ::: moniker range="vs-2019"  
+   ![Screenshot of the Attach to Process dialog in Visual Studio. Connection type is set to Docker (Windows Container) and the dotnet.exe process is selected.](../debugger/media/docker-attach-complete-windows.png "Completed Windows Docker Attach Menu")
+   ::: moniker-end
