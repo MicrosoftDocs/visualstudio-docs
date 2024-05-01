@@ -16,15 +16,15 @@ ms.subservice: extensibility-integration
 ---
 # Signing VSIX Packages
 
-Extension assemblies do not need to be signed before they can run in Visual Studio, but it is a good practice to do so.
+Extension assemblies don't need to be signed before they can run in Visual Studio, but it's a good practice to do so.
 
-Adding a digital signature to a VSIX package secures your extension and prevents tampering. During install, the VSIX installer will display the signature and a link to the certificate. If the contents of the VSIX are modified without signing again the VSIX installer will mark the signature as invalid. Invalid signatures do not block installing extensions, but the user is warned.
+Adding a digital signature to a VSIX package secures your extension and prevents tampering. During install, the VSIX installer displays the signature and a hyperlink to the certificate. If the contents of the VSIX where modified, the VSIX installer marks the signature as invalid. Invalid signatures don't block installing extensions, but the user is warned.
 
 > [!IMPORTANT]
 > Beginning with Visual Studio 2015, VSIX packages signed using anything other than SHA256 encryption will be identified as having an invalid signature. VSIX installation is not blocked but the user will be warned.
 
 ## Signing a VSIX with Dotnet Sign
-VSIXSignTool has been integrated into [Dotnet/Sign (github.com)](https://github.com/dotnet/sign) and is now accessible as a dotnet tool. This tool is published to NuGet package as [Sign (nuget.org)](https://www.nuget.org/packages/sign) and can be used for local or cloud signing using Azure Key Vault.
+VSIXSignTool has migrated to [Dotnet/Sign (github.com)](https://github.com/dotnet/sign) and is now accessible as a dotnet tool. This tool is published to NuGet package as [Sign (nuget.org)](https://www.nuget.org/packages/sign) and can be used for local or cloud signing using Azure Key Vault.
 
 Sign supports certificates and private keys stored in any combination of these locations:
 - `PFX`, `P7B`, or `CER` files
@@ -39,17 +39,17 @@ Sign supports certificates and private keys stored in any combination of these l
     - Add NuGet.org as a source using `dotnet nuget add source -n NuGet.org https://api.nuget.org/v3/index.json`
 
 1. Install Sign by running `dotnet tool install sign --version <version> --global`, where `<version>` is the latest available version under [Sign (nuget.org)](https://www.nuget.org/packages/sign)
-    - `--global` is optional but will allow using sign outside of the PowerShell instance.
+    - `--global` is optional but allows using sign outside of the PowerShell instance.
 
 
 #### Using Dotnet Sign
-Once installed, Sign can be accessed in a Developer Powershell instance using `sign code <command> <options>`. For a breakdown of the options see 
+Once installed, Sign can be accessed in a Developer PowerShell instance using `sign code <command> <options>`. For a breakdown of the options see [Dotnet Sign CLI Reference for VSIX Packages](../extensibility/dotnet-sign-CLI-reference-vsix.md).
 
 - Signing using a PFX file with certificate and private key:
 ```shell
 sign code certificate-store -s f5ec6169345347a7cd2f83af662970d5d0bfc914  -cf "D:\Certs\f5ec6169345347a7cd2f83af662970d5d0bfc914.pfx" -d "VSIX Signature" -u "http://timestamp.acs.microsoft.com/" "C:\Users\Contoso\Downloads\FingerSnapper2022.vsix"
 ```
-##### Note: PFX files contain both certificate and private key used for signing and do not comply with C/A Browser Forum requiements for non-EV and EV signing. It is recommended to only use private keys stored in an HSM device.
+##### Note: PFX files contain both certificate and private key used for signing and don't comply with C/A Browser Forum requirements for Extended Validation (EV) and non-EV signing. it's recommended to only use private keys stored in a Hardened Secure Module (HSM) device.
 
 - Signing using Microsoft Certificate Manager:
 ```shell

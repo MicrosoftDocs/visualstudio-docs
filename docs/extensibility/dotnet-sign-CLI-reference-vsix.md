@@ -1,6 +1,6 @@
 ---
-title: dotnet sign CLI Reference for VSIX Packages
-description: The dotnet sign command can sign VSIX packages using certificates from PFX, Windows Certificate Manager (WCM), or Cryptographic Service Providers (CSP)
+title: Dotnet sign CLI Reference for VSIX Packages
+description: The dotnet sign command can sign VSIX packages using certificates from PFX, Windows Certificate Manager (WCM), or Cryptographic Service Providers (CSP).
 ms.topic: how-to
 helpviewer_keywords:
 - signature
@@ -22,7 +22,7 @@ ms.date: 04/11/2024
 
 ## Name
 
-`sign` - Dotnet tool used for signing files and containers using certificates from PFX, Windows Certificate Manager (WCM), Cryptographic Service Providers (CSP) or Azure Key Vault.
+`sign` - Dotnet tool used to sign files and containers using PFX, CER, or P7B certificates on disk or from Windows Certificate Manager (WCM), Cryptographic Service Providers (CSP), or Azure Key Vault.
 
 ## Synopsis
 
@@ -53,7 +53,7 @@ sign code certificate-store -h|--help
 `sign` is a Dotnet tool that recursively signs files and containers with a certificate and private. The certificate and private key can be obtained from either a file (PFX, P7B, CER) or from a certificate installed in a certificate store by providing a SHA-1 fingerprint. USB keys can be accessed using a [Cryptographic Service Provider](https://learn.microsoft.com/en-us/windows/win32/seccrypto/cryptographic-service-providers) implemented by the manufacturer and accessed from the certificate store.
 
 ## Installation
-Install Sign globally using `dotnet tool install sign --version <version> --global`, where `<version>` is the latest available version under [Sign (nuget.org)](https://www.nuget.org/packages/sign)
+Install Sign globally using `dotnet tool install sign --version <version> --global`, where `<version>` is the latest available version under [Sign (nuget.org)](https://www.nuget.org/packages/sign).
 
 ## Arguments
 
@@ -81,7 +81,7 @@ Install Sign globally using `dotnet tool install sign --version <version> --glob
 
 - **`-fl | --filelist <PATH>`**
 
-  Path to file containing paths of files to sign within an archive. Supports glob patterns and will recursively enter and sign matching files for nested containers.
+  Path to a file with a list of file paths to sign within a container. Supports glob patterns and recursively enters and signs matching files for nested containers.
 
 - **`-s|--sha1 <SHA>`**
 
@@ -129,7 +129,7 @@ Install Sign globally using `dotnet tool install sign --version <version> --glob
 
 - **`-?|-h|--help`**
 
-  Prints out a description of how to use the command.
+  Prints a description of how to use the command.
 
 ## Examples
 
