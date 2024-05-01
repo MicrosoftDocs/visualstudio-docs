@@ -88,7 +88,7 @@ Notice that you are retrieving a lot of column values here, perhaps more than yo
 
 ## Optimize code
 
-It's time to take a look at the `GetBlogTitleX` source code. In the .NET Object Allocation tool, right-click the method and choose **Go to Source File**. In the source code for `GetBlogTitleX`, we find the following code that uses LINQ to read the database.
+It's time to take a look at the `GetBlogTitleX` source code. In the Database tool, right-click the query and choose **Go to Source File**. In the source code for `GetBlogTitleX`, we find the following code that uses LINQ to read the database.
 
 ```csharp
 foreach (var blog in db.Blogs.Select(b => new { b.Url, b.Posts }).ToList())
@@ -116,8 +116,8 @@ foreach (var x in db.Posts.Where(p => p.Author.Contains("Fred Smith")).Select(b 
 
 In this code, you made several changes to help optimize the query:
 
-- Add the `Where` clause and eliminate one of the `foreach` loops.
-- Project only the Title property in the `Select` statement, which is all you need in this example.
+- Added the `Where` clause and eliminate one of the `foreach` loops.
+- Projected only the Title property in the `Select` statement, which is all you need in this example.
 
 Next, retest using the profiling tools.
 
