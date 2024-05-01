@@ -76,12 +76,13 @@ To attach to a running process in a Linux Docker container:
            ::: moniker range="vs-2019"
            ![Connect to a Remote System](../debugger/media/connect-remote-system.png "Connect to a Remote System")
            ::: moniker-end
-        1. Select a running container to attach to after connecting to the SSH or daemon successfully and hit **OK**.
+        1. Enter required connection information and choose **Connect**.
+        1. After connecting to the SSH, select a running container to attach to, and then choose **OK**.
 
       - To set the target to a remote container running a process via a [Docker daemon](https://docs.docker.com/engine/reference/commandline/dockerd/):
 
-        1. Specify the daemon address (that is, via TCP, IP, and so on) under **Docker host (Optional)** and click the refresh link.
-        1. Select a running container to attach to after connecting to the daemon successfully and hit **OK**.
+        1. Specify the daemon address (that is, via TCP, IP, and so on) under **Docker host (Optional)**, and then choose **Refresh**.
+        1. After connecting to the daemon successfully, select a running container to attach to, and then choose **OK**.
 
 4. Choose the corresponding container process from the list of **Available processes** and select **Attach** to start debugging your C# container process in Visual Studio!
 
@@ -119,11 +120,11 @@ To attach to a running process in a Windows Docker container:
 
    Setting the target to a remote container via SSH is currently unavailable and can only be done using a Docker daemon.
 
-   To set the target to a remote container running a process via a [Docker daemon](https://docs.docker.com/engine/reference/commandline/dockerd/)
+   To set the target to a remote container running a process via a [Docker daemon](https://docs.docker.com/engine/reference/commandline/dockerd/):
 
-   1. Specify the daemon address (that is, via TCP, IP, and so on) under **Docker host (Optional)** and click the refresh link.
+   1. Specify the daemon address (that is, via TCP, IP, and so on) under **Docker host (Optional)** and then choose **Refresh**.
 
-   1. Select a running container to attach to after connecting to the daemon successfully and choose OK.
+   1. After connecting to the daemon successfully, select a running container to attach to, and then choose **OK**.
 
 4. Choose the corresponding container process from the list of **Available processes** and select **Attach** to start debugging your C# container process.
 
