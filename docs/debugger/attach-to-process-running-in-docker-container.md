@@ -34,9 +34,11 @@ You can attach the Visual Studio debugger to a process running in a Linux .NET C
 > [!IMPORTANT]
 > To use this feature, you must have local access to the source code.
 
-**To attach to a running process in a Linux Docker container:**
+To attach to a running process in a Linux Docker container:
 
 1. In Visual Studio, select **Debug > Attach to Process (CTRL+ALT+P)** to open the **Attach to Process** dialog box.
+
+2. Set the **Connection type** to **Docker (Linux Container)**.
 
    ::: moniker range=">= vs-2022"
    ![Screenshot of the Attach to Process dialog in Visual Studio showing a Connection type of Docker (Linux Container).](../debugger/media/vs-2022/attach-process-menu.png "Attach_To_Process_Menu")
@@ -45,30 +47,29 @@ You can attach the Visual Studio debugger to a process running in a Linux .NET C
    ![Screenshot of the Attach to Process dialog in Visual Studio showing a Connection type of Docker (Linux Container).](../debugger/media/attach-process-menu.png "Attach_To_Process_Menu")
    ::: moniker-end
 
-2. Set the **Connection type** to **Docker (Linux Container)**.
 3. Select **Find...** to set the **Connection target** via the **Select Docker Container** dialog box.
 
     You can debug a Docker container process either locally or remotely.
 
-    To debug a Docker container process locally:
+    - To debug a Docker container process locally:
 
-    1. Set **Docker CLI host** to **Local Machine**.
-    1. Select a running container to attach to from the list and hit **OK**.
+      1. Set **Docker CLI host** to **Local Machine**.
+      1. Select a running container to attach to from the list and hit **OK**.
 
-       ::: moniker range=">= vs-2022"
-       ![Select Docker Container Menu](../debugger/media/vs-2022/select-docker-container.png "Select_Docker_Container_Menu")
-       ::: moniker-end
-       ::: moniker range="vs-2019"
-       ![Select Docker Container Menu](../debugger/media/select-docker-container.png "Select_Docker_Container_Menu")
-       ::: moniker-end
+         ::: moniker range=">= vs-2022"
+         ![Select Docker Container Menu](../debugger/media/vs-2022/select-docker-container.png "Select_Docker_Container_Menu")
+         ::: moniker-end
+         ::: moniker range="vs-2019"
+         ![Select Docker Container Menu](../debugger/media/select-docker-container.png "Select_Docker_Container_Menu")
+         ::: moniker-end
 
-    To debug a Docker container process remotely:
+    - To debug a Docker container process remotely:
 
-    > [!NOTE]
-    > There are two options for connecting remotely to a running process in a Docker container. The first option, to use SSH, is ideal if you don't have Docker tools installed on your local machine. If you do have Docker tools installed locally and you have a Docker daemon that's configured to accept remote requests, try the second option, using a Docker daemon.
+      You can connect to a running process in a Docker container using one of two options. The first option, to use SSH, is ideal if you don't have Docker tools installed on your local machine. If you do have Docker tools installed locally and you have a Docker daemon that's configured to accept remote requests, try the second option, using a Docker daemon.
 
-    1. ***To connect to a remote machine via SSH:***
-        1. Select **Add...** to connect to a remote system.<br/>
+      - To connect to a remote machine via SSH:
+
+        1. Select **Add...** to connect to a remote system.
            ::: moniker range=">= vs-2022"
            ![Connect to a Remote System](../debugger/media/vs-2022/connect-remote-system.png "Connect to a Remote System")
            ::: moniker-end
@@ -77,7 +78,8 @@ You can attach the Visual Studio debugger to a process running in a Linux .NET C
            ::: moniker-end
         1. Select a running container to attach to after connecting to the SSH or daemon successfully and hit **OK**.
 
-    1. ***To set the target to a remote container running a process via a [Docker daemon](https://docs.docker.com/engine/reference/commandline/dockerd/)***
+      - To set the target to a remote container running a process via a [Docker daemon](https://docs.docker.com/engine/reference/commandline/dockerd/):
+
         1. Specify the daemon address (that is, via TCP, IP, and so on) under **Docker host (Optional)** and click the refresh link.
         1. Select a running container to attach to after connecting to the daemon successfully and hit **OK**.
 
@@ -97,9 +99,11 @@ You can attach the Visual Studio debugger to a process running in a Windows Dock
 > [!IMPORTANT]
 > To use this feature with a .NET Core process, you must install the .NET Core Cross-Platform Development workload and have local access to the source code.
 
-**To attach to a running process in a Windows Docker container:**
+To attach to a running process in a Windows Docker container:
 
 1. In Visual Studio, select **Debug > Attach to Process** (or **CTRL+ALT+P**) to open the **Attach to Process** dialog box.
+
+2. Set the **Connection type** to **Docker (Windows Container)**.
 
    ::: moniker range=">= vs-2022"  
    ![Screenshot of the Attach to Process dialog in Visual Studio showing a Connection type of Docker (Windows Container).](../debugger/media/vs-2022/attach-process-menu-docker-windows.png "Attach_To_Process_Menu")
@@ -108,18 +112,18 @@ You can attach the Visual Studio debugger to a process running in a Windows Dock
    ![Screenshot of the Attach to Process dialog in Visual Studio showing a Connection type of Docker (Windows Container).](../debugger/media/attach-process-menu-docker-windows.png "Attach_To_Process_Menu")
    ::: moniker-end
 
-2. Set the **Connection type** to **Docker (Windows Container)**.
 3. Select **Find...** to set the **Connection target** using the **Select Docker Container** dialog box.
 
-    > [!IMPORTANT]
-    > The target process must have the same processor architecture as the Docker Windows container it is running on.
+   > [!IMPORTANT]
+   > The target process must have the same processor architecture as the Docker Windows container it is running on.
 
    Setting the target to a remote container via SSH is currently unavailable and can only be done using a Docker daemon.
 
-    ***To set the target to a remote container running a process via a [Docker daemon](https://docs.docker.com/engine/reference/commandline/dockerd/)***
-    1. Specify the daemon address (that is, via TCP, IP, and so on) under **Docker host (Optional)** and click the refresh link.
+   To set the target to a remote container running a process via a [Docker daemon](https://docs.docker.com/engine/reference/commandline/dockerd/)
 
-    1. Select a running container to attach to after connecting to the daemon successfully and choose OK.
+   1. Specify the daemon address (that is, via TCP, IP, and so on) under **Docker host (Optional)** and click the refresh link.
+
+   1. Select a running container to attach to after connecting to the daemon successfully and choose OK.
 
 4. Choose the corresponding container process from the list of **Available processes** and select **Attach** to start debugging your C# container process.
 
