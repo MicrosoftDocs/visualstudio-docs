@@ -40,6 +40,7 @@ sign code certificate-store [<PATH(s)>]
     [-p|--password <PASSWORD>]
     [-csp|--crypto-service-provider <CSPNAME>]
     [-k|--key-container <HASHALGORITHM>]
+    [-km|--use-machine-key-container]
     [-fd|--file-digest <DIGEST>]
     [-t|--timestamp-url <URL>]
     [-tr|--timestamp-rfc3161 <URL>]
@@ -110,6 +111,10 @@ Install Sign globally using `dotnet tool install sign --version <version> --glob
 - **`-k|--key-container <HASHALGORITHM>]`**
 
    Private key container name.
+
+- **`-km|--use-machine-key-container]`**
+
+   Use a machine-level private key container instead of the default user-level container.
 
 - **`-fd | --file-digest <DIGEST>`**
 
