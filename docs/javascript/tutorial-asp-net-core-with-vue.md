@@ -174,11 +174,11 @@ If the weather data doesn't load correctly, you may also need to verify that you
 
 If you see the console message **Could not find the file 'C:\Users\Me\source\repos\vueprojectname\package.json'** when you create the project, you may need to update your version of the Vite CLI. After you update the Vite CLI, you may also need to delete the `.vuerc` file in *C:\Users\\[yourprofilename\]*.
 
-### Docker
+## Docker
 
-If you create the project with [Docker support](../containers/container-tools-react.md#prerequisites) enabled, take the following steps:
+If you create the project with [Docker support](../containers/overview.md#prerequisites-1) enabled, take the following steps:
 
-1. After the app loads, get the Docker HTTPS port using the [Containers window](../containers/container-tools-react.md#containers-window) in Visual Studio. Check the **Environment** or **Ports** tab.
+1. After the app loads, get the Docker HTTPS port using the [Containers window](../containers/view-and-diagnose-containers.md) in Visual Studio. Check the **Environment** or **Ports** tab.
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-vue-docker-container-ports.png" alt-text="Screenshot showing Docker container ports."::: 
 
