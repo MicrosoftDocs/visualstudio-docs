@@ -39,6 +39,8 @@ landingContent:
             url: profiling-feature-tour.md
           - text: Which tool should I use?
             url: choose-performance-tool.md
+          - text: What is a profiler?
+            url: what-is-a-profiler.md
           - text: Ways to run profiling tools
             url: running-profiling-tools-with-or-without-the-debugger.md
       - linkListType: concept
