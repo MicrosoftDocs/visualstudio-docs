@@ -57,10 +57,10 @@ To attach to a running process in a Linux Docker container:
       1. Select a running container to attach to from the list and hit **OK**.
 
          ::: moniker range=">= vs-2022"
-         ![Select Docker Container Menu](../debugger/media/vs-2022/select-docker-container.png "Select_Docker_Container_Menu")
+         ![Screenshot of select Docker Container Menu.](../debugger/media/vs-2022/select-docker-container.png "Select_Docker_Container_Menu")
          ::: moniker-end
          ::: moniker range="vs-2019"
-         ![Select Docker Container Menu](../debugger/media/select-docker-container.png "Select_Docker_Container_Menu")
+         ![Screenshot of select Docker Container Menu.](../debugger/media/select-docker-container.png "Select_Docker_Container_Menu")
          ::: moniker-end
 
     - To debug a Docker container process remotely:
@@ -71,10 +71,10 @@ To attach to a running process in a Linux Docker container:
 
         1. Select **Add...** to connect to a remote system.
            ::: moniker range=">= vs-2022"
-           ![Connect to a Remote System](../debugger/media/vs-2022/connect-remote-system.png "Connect to a Remote System")
+           ![Screenshot of Connect to a Remote System.](../debugger/media/vs-2022/connect-remote-system.png "Connect to a Remote System")
            ::: moniker-end
            ::: moniker range="vs-2019"
-           ![Connect to a Remote System](../debugger/media/connect-remote-system.png "Connect to a Remote System")
+           ![Screenshot of Connect to a Remote System.](../debugger/media/connect-remote-system.png "Connect to a Remote System")
            ::: moniker-end
         1. Enter required connection information and choose **Connect**.
         1. After connecting to the SSH, select a running container to attach to, and then choose **OK**.
