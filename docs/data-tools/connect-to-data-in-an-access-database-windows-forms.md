@@ -1,7 +1,7 @@
 ---
 title: Connect to Access database in .NET Framework apps
 description: Connect to data stored in an Access database (.mdb file or .accdb file) from .NET Framework applications with ADO.NET in Visual Studio.
-ms.date: 10/17/2023
+ms.date: 05/02/2024
 ms.topic: how-to
 helpviewer_keywords:
 - data [Visual Studio], connecting
@@ -188,6 +188,55 @@ Connect to databases created with Access 2000-2003 by using the following proced
 12. Select whatever tables or views you want in your dataset, and then select **Finish**.
 
     The dataset is added to your project, and the tables and views appear in the **Data Sources** window.
+
+## View the generated code
+
+The data tools are configured to generate a lot of code automatically when you perform certain operations in the Form Designer. For example, when you drag and drop a table onto the form, a `DataGridView` is added and code is created to hook up the data with the control. You can view this code in the `*.Designer.cs` file. For example, when you drop a table on the form, Visual Studio adds code like the following:
+
+```csharp
+private Database11DataSet database11DataSet;
+private System.Windows.Forms.BindingSource ordersBindingSource;
+private Database11DataSetTableAdapters.OrdersTableAdapter ordersTableAdapter;
+private Database11DataSetTableAdapters.TableAdapterManager tableAdapterManager;
+private System.Windows.Forms.BindingNavigator ordersBindingNavigator;
+private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
+private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
+private System.Windows.Forms.ToolStripButton bindingNavigatorDeleteItem;
+private System.Windows.Forms.ToolStripButton bindingNavigatorMoveFirstItem;
+private System.Windows.Forms.ToolStripButton bindingNavigatorMovePreviousItem;
+private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator;
+private System.Windows.Forms.ToolStripTextBox bindingNavigatorPositionItem;
+private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator1;
+private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
+private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
+private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
+private System.Windows.Forms.ToolStripButton ordersBindingNavigatorSaveItem;
+private System.Windows.Forms.DataGridView ordersDataGridView;
+private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
+private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
+private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
+```
+
+Also, in my main form code-behind file, code that fills the `Orders` table was added.
+
+```csharp
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'database11DataSet.Orders' table. You can move, or remove it, as needed.
+            this.ordersTableAdapter.Fill(this.database11DataSet.Orders);
+
+        }
+
+```
 
 ## Next steps
 
