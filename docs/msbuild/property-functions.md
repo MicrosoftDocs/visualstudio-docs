@@ -92,7 +92,7 @@ In static property functions, you can use any public static method or property t
 - [Microsoft.Build.Utilities.ToolLocationHelper](/dotnet/api/Microsoft.Build.Utilities.ToolLocationHelper)
 
 > [!NOTE]
-> Methods and properties that aren't defined in .NET Standard 2.0 might be available when you target a framework that supports them, but can't be guaranteed to be available in all situations. For compatibility reasons, they are best avoided.
+> Methods and properties that aren't defined in .NET Standard 2.0 might be available when you use MSBuild in an environment that supports them, but can't be guaranteed to be available in all situations. For compatibility reasons, they are best avoided.
 
 In addition, you can use the following static methods and properties:
 
