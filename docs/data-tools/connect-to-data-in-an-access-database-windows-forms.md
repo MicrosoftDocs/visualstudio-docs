@@ -191,7 +191,7 @@ Connect to databases created with Access 2000-2003 by using the following proced
 
 ## View the generated code
 
-The data tools are configured to generate a lot of code automatically when you perform certain operations in the Form Designer. For example, when you drag and drop a table onto the form, a `DataGridView` is added and code is created to hook up the data with the control. You can view this code in the `*.Designer.cs` file. For example, when you drop a table on the form, Visual Studio adds code like the following:
+The data tools are configured to generate a lot of code automatically when you perform certain operations in the Form Designer. For example, when you drag and drop a table onto the form, a `DataGridView` is added and code is created to hook up the data with the control. You can view this code in the `*.Designer.cs` file. For example, when you drop a table on the form, Visual Studio adds the following private members:
 
 ```csharp
 private Database11DataSet database11DataSet;
@@ -226,16 +226,24 @@ private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn
 private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
 ```
 
-Also, in my main form code-behind file, code that fills the `Orders` table was added.
+If you expand the hidden region, you can see that Visual Studio also adds a large amount of code to set up the `DataGridView` control with data binding to the table you dragged to the form.
+
+Also, in the main form code-behind file, Visual Studio adds code that processes the save action to save interactive changes to the data, and the code that loads the table into the table adapter.
 
 ```csharp
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            // TODO: This line of code loads data into the 'database11DataSet.Orders' table. You can move, or remove it, as needed.
-            this.ordersTableAdapter.Fill(this.database11DataSet.Orders);
+private void ordersBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+{
+    this.Validate();
+    this.ordersBindingSource.EndEdit();
+    this.tableAdapterManager.UpdateAll(this.database11DataSet);
 
-        }
+}
 
+private void Form1_Load(object sender, EventArgs e)
+{
+   // TODO: This line of code loads data into the 'database11DataSet.Orders' table. You can move, or remove it, as needed.
+   this.ordersTableAdapter.Fill(this.database11DataSet.Orders);
+}
 ```
 
 ## Next steps
