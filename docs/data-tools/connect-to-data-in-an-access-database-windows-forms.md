@@ -191,7 +191,7 @@ Connect to databases created with Access 2000-2003 by using the following proced
 
 ## View the generated code
 
-The data tools are configured to generate a lot of code automatically when you perform certain operations in the Form Designer. For example, when you drag and drop a table onto the form, a `DataGridView` is added and code is created to hook up the data with the control. You can view this code in the `*.Designer.cs` file. For example, when you drop a table on the form, Visual Studio adds the following private members:
+The data tools are configured to generate a lot of code automatically when you perform certain operations in the Form Designer. For example, when you drag and drop a table onto the form, a `DataGridView` is added and code is created to hook up the data with the control. You can view this code in the `*.Designer.cs` file. Visual Studio adds a number of private members:
 
 ```csharp
 private Database11DataSet database11DataSet;
