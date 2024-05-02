@@ -19,7 +19,7 @@ ms.subservice: deployment
 ---
 # Specify which files are published by ClickOnce
 
-When publishing a ClickOnce application, all required non-code files in the project are deployed along with the application. The default set of required files is determined by the project type (for example, a console app). In some cases, you may not want or need to publish certain files, or you may want to install certain files based on conditions. Visual Studio provides the capabilities to include files, exclude files, mark files as data files or prerequisites, and create groups of files for conditional installation.
+When publishing a ClickOnce application, all required files in the project are deployed along with the application. The default set of required files is determined by the project type (for example, a Windows Forms app). In some cases, you may not want or need to publish certain files, or you may want to install certain files based on conditions. Visual Studio provides the capabilities to include files, exclude files, mark files as data files or prerequisites, and create groups of files for conditional installation.
 
 Files for a ClickOnce application are managed in the **Application Files** dialog box, accessible from the **Publish** page of the **Project Designer**.
 
