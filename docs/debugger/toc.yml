@@ -78,14 +78,10 @@
     href: how-to-use-the-disassembly-window.md
   - name: Register values
     items:
-    - name: View register values
-      href: how-to-use-the-registers-window.md
     - name: About the Registers window
       href: debugging-basics-registers-window.md
-    - name: Display and hide register groups
-      href: how-to-display-and-hide-register-groups.md
-    - name: Edit a register value
-      href: how-to-edit-a-register-value.md
+    - name: View register values
+      href: how-to-use-the-registers-window.md
   - name: View memory for variables
     href: memory-windows.md
   - name: Inspect XAML properties while debugging
