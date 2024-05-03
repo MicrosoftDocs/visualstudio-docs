@@ -1070,6 +1070,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/how-to-edit-a-register-value.md",
+      "redirect_url": "/visualstudio/debugger/how-to-use-the-registers-window",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-display-and-hide-register-groups.md",
+      "redirect_url": "/visualstudio/debugger/how-to-use-the-registers-window",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/how-to-verify-iis-property-settings.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/how-to-verify-iis-property-settings",
       "redirect_document_id": false
