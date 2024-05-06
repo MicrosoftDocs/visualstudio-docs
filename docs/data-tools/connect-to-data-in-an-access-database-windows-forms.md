@@ -246,6 +246,8 @@ private void Form1_Load(object sender, EventArgs e)
 }
 ```
 
+Congratulations! With a little help from Visual Studio, you've created a form-based editing experience for an Access data table.
+
 ## Next steps
 
 The dataset that you just created is available in the **Data Sources** window. You can now perform any of the following tasks:
