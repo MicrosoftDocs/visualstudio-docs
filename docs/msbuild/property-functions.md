@@ -60,7 +60,7 @@ For example, to set a build property to a new GUID, you can use this script:
 <NewGuid>$([System.Guid]::NewGuid())</NewGuid>
 ```
 
-In static property functions, you can use any public static method or property of these system classes:
+In static property functions, you can use any public static method or property that's defined in .NET Standard 2.0 for these system classes:
 
 - [System.Byte](/dotnet/api/System.Byte?view=netstandard-2.0&preserve-view=true)
 - [System.Char](/dotnet/api/System.Char?view=netstandard-2.0&preserve-view=true)
@@ -90,6 +90,9 @@ In static property functions, you can use any public static method or property o
 - [System.UriBuilder](/dotnet/api/System.UriBuilder?view=netstandard-2.0&preserve-view=true)
 - [System.Version](/dotnet/api/System.Version?view=netstandard-2.0&preserve-view=true)
 - [Microsoft.Build.Utilities.ToolLocationHelper](/dotnet/api/Microsoft.Build.Utilities.ToolLocationHelper)
+
+> [!NOTE]
+> Methods and properties that aren't defined in .NET Standard 2.0 might be available when you use MSBuild in an environment that supports them, but can't be guaranteed to be available in all situations. For compatibility reasons, they are best avoided.
 
 In addition, you can use the following static methods and properties:
 
@@ -135,15 +138,15 @@ In MSBuild running on .NET (`dotnet build`), all static methods of the `System.O
 
 In MSBuild running on .NET Framework (`MSBuild.exe`), only the following methods of `System.OperatingSystem` will be callable as static property functions. MSBuild implements them internally, because `System.OperatingSystem` does not define them on .NET Framework. Methods for operating systems for which there is no .NET SDK, such as `System.OperatingSystem::IsTvOS`, are not callable.
 
-- [System.OperatingSystem::IsOSPlatform](/dotnet/api/System.OperatingSystem.IsOSPlatform?view=netstandard-2.0&preserve-view=true)
-- [System.OperatingSystem::IsOSPlatformVersionAtLeast](/dotnet/api/System.OperatingSystem.IsOSPlatformVersionAtLeast?view=netstandard-2.0&preserve-view=true)
-- [System.OperatingSystem::IsLinux](/dotnet/api/System.OperatingSystem.IsLinux?view=netstandard-2.0&preserve-view=true)
-- [System.OperatingSystem::IsFreeBSD](/dotnet/api/System.OperatingSystem.IsFreeBSD?view=netstandard-2.0&preserve-view=true)
-- [System.OperatingSystem::IsFreeBSDVersionAtLeast](/dotnet/api/System.OperatingSystem.IsFreeBSDVersionAtLeast?view=netstandard-2.0&preserve-view=true)
-- [System.OperatingSystem::IsMacOS](/dotnet/api/System.OperatingSystem.IsMacOS?view=netstandard-2.0&preserve-view=true)
-- [System.OperatingSystem::IsMacOSVersionAtLeast](/dotnet/api/System.OperatingSystem.IsMacOSVersionAtLeast?view=netstandard-2.0&preserve-view=true)
-- [System.OperatingSystem::IsWindows](/dotnet/api/System.OperatingSystem.IsWindows?view=netstandard-2.0&preserve-view=true)
-- [System.OperatingSystem::IsWindowsVersionAtLeast](/dotnet/api/System.OperatingSystem.IsWindowsVersionAtLeast?view=netstandard-2.0&preserve-view=true)
+- [System.OperatingSystem::IsOSPlatform](/dotnet/api/System.OperatingSystem.IsOSPlatform)
+- [System.OperatingSystem::IsOSPlatformVersionAtLeast](/dotnet/api/System.OperatingSystem.IsOSPlatformVersionAtLeast)
+- [System.OperatingSystem::IsLinux](/dotnet/api/System.OperatingSystem.IsLinux)
+- [System.OperatingSystem::IsFreeBSD](/dotnet/api/System.OperatingSystem.IsFreeBSD)
+- [System.OperatingSystem::IsFreeBSDVersionAtLeast](/dotnet/api/System.OperatingSystem.IsFreeBSDVersionAtLeast)
+- [System.OperatingSystem::IsMacOS](/dotnet/api/System.OperatingSystem.IsMacOS)
+- [System.OperatingSystem::IsMacOSVersionAtLeast](/dotnet/api/System.OperatingSystem.IsMacOSVersionAtLeast)
+- [System.OperatingSystem::IsWindows](/dotnet/api/System.OperatingSystem.IsWindows)
+- [System.OperatingSystem::IsWindowsVersionAtLeast](/dotnet/api/System.OperatingSystem.IsWindowsVersionAtLeast)
 
 The following example shows the usage of these property functions.
 
