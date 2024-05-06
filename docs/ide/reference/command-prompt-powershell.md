@@ -76,8 +76,7 @@ Follow these steps to open Developer Command Prompt or Developer PowerShell from
     :::image type="content" source="media/developer-command-prompt-for-vs/visual-studio-2022-command-line-menu.png" alt-text="Screenshot of the Command Line menu in Visual Studio 2022.":::
     ::: moniker-end
 
-    ::: moniker range="vs-2019"
-    ![Screenshot of the Command Line menu in Visual Studio 2019.](./media/developer-command-prompt-for-vs/vs-menu.png)
+    ::: moniker range="vs-2019" ![Screenshot of the Command Line menu in Visual Studio 2019.](./media/developer-command-prompt-for-vs/vs-menu.png)
    ::: moniker-end
    
 ## Start from Windows menu
@@ -156,9 +155,9 @@ Or enter the following command in the Windows **Run** dialog box:
 %comspec% /k "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat"
 ```
 
-Since Visual Studio 2015, the Developer Command Prompt sets the `VSCMD_VER` environment variable which contains the version information for Visual Studio (ex: `17.9.0`). If you need to detect whether the Developer Command Prompt has already been run in your console, it is recommended to check whether `VSCMD_VER` has been defined or not.
+::: moniker-end  
 
-::: moniker-end
+Since Visual Studio 2015, the Developer Command Prompt sets the `VSCMD_VER` environment variable which contains the version information for Visual Studio (ex: `17.9.0`). If you need to detect whether the Developer Command Prompt has already been run in your console, it is recommended to check whether `VSCMD_VER` has been defined or not.
 
 > [!TIP]
 > Make sure to edit the path to match the version or edition of Visual Studio that you're using.
