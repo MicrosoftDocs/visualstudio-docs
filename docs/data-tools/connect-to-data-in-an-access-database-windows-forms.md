@@ -30,7 +30,11 @@ You can connect to an Access database (either an `.mdb` file or an `.accdb` file
 
 ## Prerequisites
 
-To use these procedures, you need the **Data storage and processing** workload installed, a Windows Forms or WPF project, and either an Access database (`.accdb` file) or an Access 2000-2003 database (`.mdb` file). Follow the procedure that corresponds to your file type.
+To use these procedures, you need:
+
+- Visual Studio with the **Data storage and processing** workload installed. To install the workload on an existing installation of Visual Studio, see [Modify Visual Studio](../install/modify-visual-studio.md).
+- A Windows Forms or WPF project.
+- Either an Access database (`.accdb` file), or an Access 2000-2003 database (`.mdb` file). Follow the procedure that corresponds to your file type.
 
 :::moniker range=">=vs-2022"
 
