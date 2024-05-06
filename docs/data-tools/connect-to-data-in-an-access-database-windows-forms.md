@@ -30,7 +30,7 @@ You can connect to an Access database (either an `.mdb` file or an `.accdb` file
 
 ## Prerequisites
 
-To use these procedures, you need a Windows Forms or WPF project and either an Access database (`.accdb` file) or an Access 2000-2003 database (`.mdb` file). Follow the procedure that corresponds to your file type.
+To use these procedures, you need the **Data storage and processing** workload installed, a Windows Forms or WPF project, and either an Access database (`.accdb` file) or an Access 2000-2003 database (`.mdb` file). Follow the procedure that corresponds to your file type.
 
 :::moniker range=">=vs-2022"
 
@@ -94,6 +94,8 @@ Connect to databases created with Microsoft 365, Access 2016, Access 2013, Acces
     The dataset is added to your project, and the tables and views appear in the **Data Sources** window.
 
     ![Screenshot of Data Sources Window, populated with database objects](media/vs-2022/data-sources-window-populated.png)
+
+14. On 64-bit machines with the 64-bit Access database engine, you need to ensure that the application runs as a 64-bit application. Open the project properties (press **Alt**+**Enter** or right-click on the project node, and select **Properties**). In the **Build** tab, deselect the **Prefer 32-bit** checkbox.
 :::moniker-end
 
 :::moniker range="vs-2019"
