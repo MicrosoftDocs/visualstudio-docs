@@ -99,7 +99,7 @@ Connect to databases created with Microsoft 365, Access 2016, Access 2013, Acces
 
     ![Screenshot of Data Sources Window, populated with database objects](media/vs-2022/data-sources-window-populated.png)
 
-14. On 64-bit machines with the 64-bit Access database engine, you need to ensure that the application runs as a 64-bit application. Open the project properties (press **Alt**+**Enter** or right-click on the project node, and select **Properties**). In the **Build** tab, deselect the **Prefer 32-bit** checkbox.
+14. On 64-bit machines with the 64-bit Access database engine, you need to ensure that the application runs as a 64-bit application. Open the project properties (press **Alt**+**Enter** or right-click on the project node, and select **Properties**). In the **Build** tab, clear the **Prefer 32-bit** checkbox.
 :::moniker-end
 
 :::moniker range="vs-2019"
