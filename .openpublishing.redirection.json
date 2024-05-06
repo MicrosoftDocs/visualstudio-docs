@@ -1070,7 +1070,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/debugger/debug-thread-and-processes.md",
+      "source_path": "docs/debugger/debug-threads-and-processes.md",
       "redirect_url": "/visualstudio/debugger/debug-multithreaded-applications-in-visual-studio",
       "redirect_document_id": false
     },
