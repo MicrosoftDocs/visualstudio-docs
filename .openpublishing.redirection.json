@@ -1070,6 +1070,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/debug-thread-and-processes.md",
+      "redirect_url": "/visualstudio/debugger/debug-multithreaded-applications-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/how-to-edit-a-register-value.md",
       "redirect_url": "/visualstudio/debugger/how-to-use-the-registers-window",
       "redirect_document_id": false

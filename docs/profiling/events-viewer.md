@@ -157,5 +157,5 @@ int main()
 
 - [Identify hot paths with Flame Graph](../profiling/flame-graph.md)
 - [Diagnose high latency with CPU Insights](../profiling/cpu-insights.md)
-- [Analyze CPU usage without debugging](../profiling/cpu-usage.md)
+- [Analyze performance by using CPU profiling](../profiling/cpu-usage.md)
 - [Use File IO](../profiling/use-file-io.md)

@@ -52,7 +52,7 @@ The Instrumentation data view shows you a list of functions ordered by longest r
 
 Click on a function that you're interested in, and you see a more detailed view.
 
-The information available is similar to the CPU Usage tool, except that it's based on wall clock time and call counts instead of CPU utilization. This means blocked time such as time spent waiting for locks will show up in the instrumentation trace, unlike the CPU Usage tool. For detailed information on the views, see [CPU Usage](../profiling/cpu-usage.md).
+The information available is similar to the CPU Usage tool, except that it's based on wall clock time and call counts instead of CPU utilization. This means blocked time such as time spent waiting for locks will show up in the instrumentation trace, unlike the CPU Usage tool. For detailed information on the views, see [Analyze performance by using CPU profiling](../profiling/cpu-usage.md).
 
 ## Related content
 

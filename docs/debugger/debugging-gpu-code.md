@@ -49,7 +49,7 @@ You can debug C++ code that is running on the graphics processing unit (GPU). GP
 
 - [How to: Use the Parallel Watch Window](../debugger/how-to-use-the-parallel-watch-window.md)
 
-- [Debug Threads and Processes](../debugger/debug-threads-and-processes.md) (Debug Location toolbar)
+- [Debug multithreaded applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
 
 - [How to: Use the GPU Threads Window](../debugger/how-to-use-the-gpu-threads-window.md)
 

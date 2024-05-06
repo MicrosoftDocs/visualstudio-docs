@@ -84,7 +84,7 @@ namespace AdvancedVisualizer.DebuggerSide
 ```
 
   > [!NOTE]
-  > The avid reader will have noticed that in the code above we are performing a cast on the `objectProvider`. The reasoning behind this cast is explained in the [Using the new Async API](#using-the-new-async-api) section.
+  > In the preceding code, we are performing a cast on the `objectProvider`. The reasoning behind this cast is explained in the [Using the new Async API](#using-the-new-async-api) section.
 
 The *debugee-side* varies depending on the example, so it's shown separately in each section.
 

@@ -32,7 +32,7 @@ You can open most debugger windows while you're debugging your program. To see a
 |Python Debug Interactive|SHIFT+ALT+I|[Python Interactive REPL](../python/python-interactive-repl-in-visual-studio.md)|
 |Live Visual Tree|-|[Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md)|
 |Live Property Explorer|-|[Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md)|
-|Processes|CTRL+ALT+Z|[Debug Threads and Processes](../debugger/debug-threads-and-processes.md)|
+|Processes|CTRL+ALT+Z|[Debug multithreaded applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)|
 |Memory|CTRL+ALT+M, (1, 2, 3, 4)|[Memory Windows](../debugger/memory-windows.md)|
 |Disassembly|CTRL+ALT+D|[How to: Use the Disassembly Window](../debugger/how-to-use-the-disassembly-window.md)|
 |Registers|CTRL+ALT+G|[How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)|

@@ -123,5 +123,5 @@ See also:
 
 ## Related content
 
-- [Analyze CPU usage](../profiling/cpu-usage.md)
+- [Analyze performance by using CPU profiling](../profiling/cpu-usage.md)
 - [Identify hot paths with Flame Graph](../profiling/flame-graph.md)

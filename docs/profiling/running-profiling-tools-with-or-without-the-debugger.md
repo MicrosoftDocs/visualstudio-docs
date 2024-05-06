@@ -73,7 +73,7 @@ You can save the reports, and open them from the **Recently Opened Sessions** li
 
 For more information, see:
 
-- [Analyze CPU usage](../profiling/cpu-usage.md)
+- [Analyze performance by using CPU profiling](../profiling/cpu-usage.md)
 - [Analyze memory usage](../profiling/memory-usage-without-debugging2.md)
 - [Analyze memory usage for .NET code](../profiling/dotnet-alloc-tool.md)
 - [Analyze instrumentation data](../profiling/instrumentation.md)
