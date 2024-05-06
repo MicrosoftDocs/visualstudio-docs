@@ -328,12 +328,8 @@
       href: how-to-flag-and-unflag-threads.md
     - name: Debug on a high-performance cluster
       href: how-to-debug-on-a-high-performance-cluster.md
-    - name: Tips for debugging threads in native code
-      href: tips-for-debugging-threads-in-native-code.md
-    - name: Set a thread name in native code
-      href: how-to-set-a-thread-name-in-native-code.md
-    - name: Set a thread name in managed code
-      href: how-to-set-a-thread-name-in-managed-code.md
+    - name: Tips for debugging threads
+      href: tips-for-debugging-threads.md
   - name: Memory usage >>
     href: ../profiling/memory-usage.md
   - name: Azure services

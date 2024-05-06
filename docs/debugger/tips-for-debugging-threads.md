@@ -1,26 +1,46 @@
 ---
-title: Set a Thread Name in Native Code
-description: Set a thread name in native code during multithreaded app debugging in Visual Studio. Thread naming is used to keep track of threads in the Threads window.
-ms.date: 12/17/2018
-ms.topic: how-to
-dev_langs: 
-  - C++
-helpviewer_keywords: 
+title: "Tips for debugging threads"
+description: Read a list of tips for debugging threads in native code if you are debugging multithreaded apps in Visual Studio.
+ms.date: "05/06/2024"
+ms.topic: "conceptual"
+dev_langs:
+  - "CSharp"
+  - "VB"
+  - "FSharp"
+  - "C++"
+helpviewer_keywords:
+  - "threading [Visual Studio], debugging"
+  - "debugging [Visual Studio], threads"
   - debugging [C++], threads
   - SetThreadName function
   - threading [Visual Studio], names
   - thread names
-  - debugging [Visual Studio], threads
-author: mikejo5000
-ms.author: mikejo
+  - Thread.Name property
+  - threading [Visual Studio], names
+author: "mikejo5000"
+ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
-# Set a Thread Name in Native Code
+# Tips for debugging threads
+
+This article provides helpful information for debugging threads, including information on setting thread names for native and managed code.
+
+## C/C++ tips 
+
+Here are some tips you can use when debugging threads in native code:
+
+- You can view the contents of the Thread Information Block by typing `@TIB` in the **Watch** window or **QuickWatch** dialog box.
+
+- You can view the last error code for the current thread by entering `@Err` in the **Watch** window or **QuickWatch** dialog box.
+
+- C Run-Time Libraries (CRT) functions can be useful for debugging a multithreaded application. For more information, see [_malloc_dbg](/cpp/c-runtime-library/reference/malloc-dbg).
+
+## Set a thread name in C/C++
 
 Thread naming is possible in any edition of Visual Studio. Thread naming is useful for identifying threads of interest in the **Threads** window when debugging a running process. Having recognizably-named threads can also be helpful when performing post-mortem debugging via crash dump inspection and when analyzing performance captures using various tools.
 
-## Ways to set a thread name
+### Ways to set a thread name
 
 There are two ways to set a thread name. The first is via the [SetThreadDescription](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreaddescription) function. The second is by throwing a particular exception while the Visual Studio debugger is attached to the process. Each approach has benefits and caveats. The use of `SetThreadDescription` is supported starting in Windows 10, version 1607 or Windows Server 2016.
 
@@ -102,7 +122,60 @@ void SetThreadName(DWORD dwThreadID, const char* threadName) {
 }
 ```
 
+# Set a thread name in managed code
+
+Thread naming is possible in any edition of Visual Studio. Thread naming is useful for keeping track of threads in the **Threads** window.
+
+ To set a thread name in managed code, use the <xref:System.Threading.Thread.Name%2A> property.
+
+## Example
+
+### [C#](#tab/csharp)
+```csharp
+public class Needle
+{
+    // This method will be called when the thread is started.
+    public void Baz()
+    {
+        Console.WriteLine("Needle Baz is running on another thread");
+    }
+}
+
+public void Main()
+{
+    Console.WriteLine("Thread Simple Sample");
+    Needle oNeedle = new Needle();
+    // Create a Thread object.
+    System.Threading.Thread oThread = new System.Threading.Thread(oNeedle.Baz);
+    // Set the Thread name to "MyThread".
+    oThread.Name = "MyThread";
+    // Starting the thread invokes the ThreadStart delegate
+    oThread.Start();
+}
+```
+
+### [VB](#tab/vb)
+```VB
+Public Class Needle
+    ' This method will be called when the thread is started.
+    Sub Baz()
+        Console.WriteLine("Needle Baz is running on another thread")
+    End Sub
+End Class
+
+Sub Main()
+    Console.WriteLine("Thread Simple Sample")
+    Dim oNeedle As New Needle()
+   ' Create a Thread object.
+    Dim oThread As New System.Threading.Thread(AddressOf oNeedle.Baz)
+    ' Set the Thread name to "MyThread".
+    oThread.Name = "MyThread"
+    ' Starting the thread invokes the ThreadStart delegate
+    oThread.Start()
+End Sub
+```
+---
+
 ## Related content
 - [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
-- [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)
-- [How to: Set a Thread Name in Managed Code](../debugger/how-to-set-a-thread-name-in-managed-code.md)
+- [Debugging Native Code](../debugger/debugging-native-code.md)
