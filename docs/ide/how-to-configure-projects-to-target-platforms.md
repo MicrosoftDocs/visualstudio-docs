@@ -102,7 +102,7 @@ Performing this task varies based on the programming language you're using. See 
 
 ### Prefer 32-bit setting
 
-The **Prefer 32-bit** setting in the **Build** page of the project designer for .NET Framework 4.5 or later projects handles the case where you're building the `AnyCPU` configuration, but you want your application to run in 32-bit mode when it's executed on platforms that support both 32-bit and 64-bit modes. If you enable the checkbox, the `PlatformTarget` build property is set to `anycpu32bitpreferred`. See comments on the [PlatformTarget](/dotnet/csharp/language-reference/compiler-options/output#platformtarget) setting in the C# compiler documentation.
+The **Prefer 32-bit** setting in the **Build** page of the project designer for .NET Framework 4.5 or later projects handles the case where you're building the `AnyCPU` configuration, but you want your application to run in 32-bit mode when it's executed on platforms that support both 32-bit and 64-bit modes. If you enable the checkbox, the `PlatformTarget` build property is set to `anycpu32bitpreferred`. See comments on the [PlatformTarget](/dotnet/csharp/language-reference/compiler-options/output#platformtarget) for C# and [/platform](/dotnet/visual-basic/reference/command-line-compiler/platform) for Visual Basic.
 
 ### Manually editing the project file
 
