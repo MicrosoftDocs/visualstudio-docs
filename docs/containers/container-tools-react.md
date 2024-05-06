@@ -60,17 +60,17 @@ Follow these steps if you're using Visual Studio 2022 version 17.8 or later:
 
 1. Create a new project using the **React and ASP.NET Core** template.
 
-   [ ![Screenshot of creating a new React and ASP.NET Core project.](media/container-tools-react/vs-2022/react-and-asp-net-core.png)](media/container-tools-react/vs-2022/react-and-asp-net-core.png#lightbox)
+   [ ![Screenshot of creating a new React and ASP.NET Core project](media/container-tools-react/vs-2022/react-and-asp-net-core.png).](media/container-tools-react/vs-2022/react-and-asp-net-core.png#lightbox)
 
 1. On the **Additional information** screen, you can't select **Enable Docker Support**, but don't worry, you can add that support later.
 
-   [ ![Screenshot of creating a React and ASP.NET Core project - Additional information screen.](media/container-tools-react/vs-2022/additional-information-net-8.png)](media/container-tools-react/vs-2022/additional-information-net-8.png#lightbox)
+   [ ![Screenshot of creating a React and ASP.NET Core project - Additional information screen](media/container-tools-react/vs-2022/additional-information-net-8.png).](media/container-tools-react/vs-2022/additional-information-net-8.png#lightbox)
 
    Visual Studio creates two projects - one for the React JavaScript client code, and another for the ASP.NET Core C# server code.
 
 1. Right-click on the server project node, and choose **Add** > **Docker Support** to add a Dockerfile to your project.
 
-   [ ![Screenshot of Add Docker support menu item.](media/container-tools-react/vs-2022/add-docker-support.png)](media/container-tools-react/vs-2022/add-docker-support.png#lightbox)
+   [ ![Screenshot of Add Docker support menu item](media/container-tools-react/vs-2022/add-docker-support.png).](media/container-tools-react/vs-2022/add-docker-support.png#lightbox)
 
 1. Select the container type.
 
@@ -358,7 +358,7 @@ Update the Dockerfile by adding the following lines. These lines will copy Node 
 :::moniker range=">=vs-2022"
 With Visual Studio 2022 version 17.8 and later and the **React and ASP.NET Core** template, the projects are already configured to start both the client and server projects with debugging support.
 
-If you're using an earlier version of Visual Studio, continue reading to set up debugging with the single-page application (SPA) proxy server.
+If you're using an earlier version of Visual Studio, continue reading to set up debugging with the single-page application (securing privileged access (SPA)) proxy server.
 
 The project uses the SPA Proxy during debugging. See [Improved single-page app (SPA) templates](https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-net-6-preview-4/#improved-single-page-app-spa-templates). When debugging, the JavaScript client runs on the host machine, but the ASP.NET Core server code runs in the container. When published, the proxy isn't run, and the client code runs on the same server as the ASP.NET Core code. You already have a Debug profile **Docker* that you can use to debug the server code. To debug the JavaScript client code, you can create an additional debug profile. You also need to start the proxy manually from a command prompt when debugging JavaScript. You can leave it running through multiple debug sessions.
 
