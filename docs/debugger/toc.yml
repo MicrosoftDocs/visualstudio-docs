@@ -300,12 +300,16 @@
     items:
     - name: Debug multithreaded applications
       href: debug-multithreaded-applications-in-visual-studio.md
-    - name: Get started debugging multithreaded applications
-      href: get-started-debugging-multithreaded-apps.md
+    - name: Tutorials
+      items:
+      - name: Get started debugging multithreaded applications
+        href: get-started-debugging-multithreaded-apps.md
+      - name: Debug using the Threads window
+        href: how-to-use-the-threads-window.md
+      - name: Debug a parallel application
+        href: walkthrough-debugging-a-parallel-application.md
     - name: Tools to debug threads and processes
       items:
-      - name: Debug threads and processes
-        href: debug-threads-and-processes.md
       - name: Use the Parallel Stacks window
         href: using-the-parallel-stacks-window.md
       - name: Use the Parallel Watch window
@@ -318,22 +322,14 @@
         href: how-to-use-the-gpu-threads-window.md
     - name: Debug multiple processes
       href: debug-multiple-processes.md
-    - name: Debug using the Threads window
-      href: how-to-use-the-threads-window.md
-    - name: Debug a parallel application
-      href: walkthrough-debugging-a-parallel-application.md
     - name: Switch to another thread while debugging
       href: how-to-switch-to-another-thread-while-debugging.md
     - name: Flag and unflag threads
       href: how-to-flag-and-unflag-threads.md
     - name: Debug on a high-performance cluster
       href: how-to-debug-on-a-high-performance-cluster.md
-    - name: Tips for debugging threads in native code
-      href: tips-for-debugging-threads-in-native-code.md
-    - name: Set a thread name in native code
-      href: how-to-set-a-thread-name-in-native-code.md
-    - name: Set a thread name in managed code
-      href: how-to-set-a-thread-name-in-managed-code.md
+    - name: Tips for debugging threads
+      href: tips-for-debugging-threads.md
   - name: Memory usage >>
     href: ../profiling/memory-usage.md
   - name: Azure services

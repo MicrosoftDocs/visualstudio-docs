@@ -37,6 +37,6 @@ If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can
 
 ## Related content
 
-- [Analyze CPU usage in the Performance Profiler](../profiling/cpu-usage.md)
+- [Analyze performance by using CPU profiling](../profiling/cpu-usage.md)
 - [Identify hot paths with Flame Graph](../profiling/flame-graph.md)
 - [Troubleshoot Profiler errors](../profiling/troubleshoot-profiler-errors.md)
