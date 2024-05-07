@@ -122,7 +122,7 @@ void SetThreadName(DWORD dwThreadID, const char* threadName) {
 }
 ```
 
-# Set a thread name in managed code
+## Set a thread name in managed code
 
 Thread naming is possible in any edition of Visual Studio. Thread naming is useful for keeping track of threads in the **Threads** window.
 
