@@ -1,12 +1,12 @@
 ---
 title: Project query reference
 description: An overview of the project query API
-author: hgwelliver
-ms.author: hwelliver
+author: Jxwoon
+ms.author: jasminewoon
 monikerRange: ">=vs-2022"
 ms.subservice: extensibility-integration
 ms.topic: overview
-ms.date: 02/13/2023
+ms.date: 05/01/2024
 ---
 
 # Query the project API
@@ -45,6 +45,13 @@ This overview covers top scenarios for working with the project query API:
 - [Query for project-to-project references](#query-for-project-to-project-references)
 - [Query for package references](#query-for-package-references)
 - [Query for project output groups](#query-for-project-output-groups)
+- [Query for Startup Projects](#query-for-startup-projects)
+- [Query for Solution Configurations](#query-for-solution-configurations)
+- [Action Query to Load/Unload a Project](#action-query-to-loadunload-a-project)
+- [Action Query to Build Solutions/Projects](#action-query-to-build-solutionsprojects)
+- [Action Query to Save a Solution/Project](#action-query-to-save-solutionsprojects)
+- [Action Query to Track Query Changes](#action-query-to-track-query-changes)
+- [Action Query to Skip](#action-query-to-skip)
 
 ## Access the project query space
 
@@ -154,7 +161,22 @@ IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> webProjects = workspace
     .QueryAsync(cancellationToken);
 ```
 
-### Example using built-in filtering
+### Example using `RuleResultsByRuleName` filtering
+At the level of individual projects, each project possesses a `RulesResults` attribute, which includes a `RuleName` and `Items`. The API call `RuleResultsByRuleName` can be utilized to filter by rule type within a project.
+
+```csharp
+    var results = await querySpace
+        .Projects
+        .With(p => p.Path)
+        .With(p => p.ActiveConfigurations
+            .With(c => c.RuleResultsByRuleName("CompilerCommandLineArgs")
+                .With(r => r.RuleName)
+                .With(r => r.Items
+                    .With(i => i.Name))))
+        .ExecuteQueryAsync();
+```
+
+### Example using `ProjectsByCapabilities` filtering
 
 You can also use query methods like [`ProjectsByCapabilities`](/dotnet/api/microsoft.visualstudio.projectsystem.query.solutionpropertiesfilterextensions.projectsbycapabilities) that have filtering built into the query.
 
@@ -255,6 +277,15 @@ IQueryResult<IProjectSnapshot> updatedProjects = workSpace
 IQueryResult<IProjectSnapshot> updatedProjects = myproject
     .AsUpdatable()
     .CreateFile("AdditionalInformation2.txt", textContent)
+    .ExecuteAsync(cancellationToken);
+```
+
+### Example renaming a project
+
+```csharp
+IQueryResult<IProjectSnapshot> updatedProjects = myproject
+    .AsUpdatable()
+    .Rename("NewProjectName", textContent)
     .ExecuteAsync(cancellationToken);
 ```
 
@@ -398,7 +429,6 @@ IAsyncEnumerable<IQueryResultItem<ISolutionFolderSnapshot>> solutionFolders = wo
 ```
 
 ## Query for project configurations and their properties
-
 Projects have a `ConfigurationDimension` property, which you can use to find project configuration information. Project configuration information relates to project build configurations (for example, `Debug` and `Release`).
 
 ```csharp
@@ -420,7 +450,7 @@ IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> projects = workspace
     }
 ```
 
-## Query for project-to-project references
+## Query For project-to-project references
 
 You can also query to find projects that reference a given project.
 
@@ -500,6 +530,172 @@ IAsyncEnumerable<IQueryResultItem<IProjectConfigurationSnapshot>> configurations
         .QueryAsync(cancellationToken);
 ```
 
+## Query for startup projects
+
+The solution has a set of startup projects that can be executed as an executable.
+
+```csharp
+// A query to get the list of startup project's name and path
+var result = await this.QueryableSpace.Solutions
+    .With(solution => solution.StartupProjects
+        .With(startupproject => startupproject.Name)
+        .With(startupproject => startupproject.Path))
+    .QueryAsync(CancellationToken.None);
+```
+
+### Action to set the startup project
+Using the Project Query API, you also can select which projects get executed. In the sample below, we added two project paths to be set as the startup project.
+
+```csharp
+// A query to set the startup project
+var result = await this.QueryableSpace.Solutions
+        .With(solution => solution.StartupProjects)
+        .AsUpdatable()
+        .SetStartupProjects("full\\path\\to\\project1.csproj", 
+                            "full\\path\\to\\project2.csproj")
+    .ExecuteAsync(CancellationToken.None);
+```
+
+## Query for solution configurations
+A solution configuration is a collection of projects that are included in the build when the configuration is active. In the example below, we query for the names of the solution configurations.
+
+```csharp
+var results = await this.Extensibility.Workspaces().QuerySolutionAsync(
+    solution => solution.With(solution => solution.SolutionConfigurations
+    .With(c => c.Name)),
+    cancellationToken);
+```
+
+### Example of adding a solution configuration
+`AddSolutionConfiguration` is an API call that takes in three parameters. The first parameter is the new name we want to give our new solution configuration. In this scenario, we will call our new solution configuration `Foo`. The next parameter is the configuration to base our new configuration. Below, we based our new solution configuration on the existing solution configuration, `Debug`. Lastly, the boolean represents if the solution configuration should be propagated.
+
+```csharp
+await this.Extensibility.Workspaces().UpdateSolutionAsync(
+    solution => solution.Where(solution => solution.BaseName == "mySolution"),
+    solution => solution.AddSolutionConfiguration("Foo", "Debug", false),
+    cancellationToken);
+```
+
+### Example of deleting a solution configuration
+`DeleteSolutionConfiguration` is an API call that removes the solution configuration. In the example below, we removed the solution configuration called `Foo`.
+
+```csharp
+await this.Extensibility.Workspaces().UpdateSolutionAsync(
+    solution => solution.Where(solution => solution.BaseName == "mySolution"),
+    solution => solution.DeleteSolutionConfiguration("Foo"),
+    cancellationToken);
+```
+
+## Action query to load/unload a project
+If a project needs to be unloaded, you need to specify the solution and the path to the desired project to unload. In the example below, we used the `Extensibility.Workspaces().UpdateSolutionAsync` to update the solution and `UnloadProject` to unload the project.
+
+```csharp
+await this.Extensibility.Workspaces().UpdateSolutionAsync(
+    solution => solution.Where(solution => solution.BaseName == "MySolution"),
+    solution => solution.UnloadProject("full\\path\\to\\project.csproj"),
+    cancellationToken);
+```
+
+We can also use `AsUpdatable` to load/unload a project. Here we are using `LoadProject` to load the project.
+
+```csharp
+var result = await querySpace.Solutions
+    .AsUpdatable()
+    .LoadProject("full\\path\\to\\project.csproj")
+    .ExecuteAsync();
+```
+
+## Action query to build solutions/projects
+In project query, you also have the ability to invoke build actions on the project or solution level. These build actions include: `BuildAsync`, `RebuildAsync`,  `CleanAsync`, `DebugLaunchAsync`, and `LaunchAsync`.
+
+### Building the solution level
+Building on the solution level will build all projects that are loaded into the solution. Below is an example of building a solution.
+
+```csharp
+var result = await querySpace.Solutions
+        .BuildAsync(cancellationToken);
+```
+
+### Building on the project level
+While building on the project level, determine the selected project you want to build. In the example below, `myProject` is an `IProjectSnapshot` that will be built.
+
+```csharp
+ var result = await myProject.BuildAsync(cancellationToken);
+```
+
+## Action query to save solutions/projects
+`SaveAsync` is an API call that can be used on the project or solution level.
+
+### Saving on the solution level
+
+```csharp
+var result = await querySpace.Solutions
+        .SaveAsync(cancellationToken);
+```
+
+### Saving on the project level
+`myProject` is an `IProjectSnapshot` of the target project to be saved.
+
+```csharp
+ var result = await myProject.SaveAsync(cancellationToken);
+```
+
+## Action query to track query changes
+`TrackUpdatesAsync` is an API call that can be used at the project or solution level. It is used to track changes in the project or solution. 
+
+In the example, `TrackUpdatesAsync` is called on the Files property of a project, with a file name filter applied. This means it will track changes to the file names in the project. The TrackerObserver instance is passed to receive notifications of changes.
+
+```csharp
+var projects = await querySpace.Projects.ExecuteQueryAsync(cancellationToken: CancellationToken.None);
+
+var singleProject = projects.FirstOrDefault();
+ 
+var unsubscriber = await singleProject
+    .Files
+    .With(f => f.FileName)
+    .TrackUpdatesAsync(new TrackerObserver(), CancellationToken.None);
+```
+
+The `TrackerObserver` is a private class that implements the IObserver interface, specifically for `IQueryTrackUpdates<IFileSnapshot>`. This is designed to receive notifications about tracking updates to file snapshots.
+
+```csharp
+private class TrackerObserver : IObserver<IQueryTrackUpdates<IFileSnapshot>>
+{
+    public void OnCompleted()
+    {
+        // no -op;
+    }
+ 
+    public void OnError(Exception error)
+    {
+        // no -op;
+    }
+ 
+    public void OnNext(IQueryTrackUpdates<IFileSnapshot> value)
+    {
+        // no - op
+    }
+ 
+    public override int GetHashCode()
+    {
+        return -2022;
+    }
+}
+```
+
+## Action query to skip
+`Skip` is an API call that skips n number of results.
+
+In the code sample, will query the projects in a solution and skip the first one. Let's say there are 3 projects in the solution. The first result will be skipped and will return the two remaining projects. Note: the order is not guaranteed.
+
+```csharp
+var projects = await queryableSpace.Projects
+        .With(proj => proj.Name)
+        .Skip(1)
+       .ExecuteQueryAsync(new CancellationToken());
+```
+
 ## Next steps
+To review keywords and concepts regarding Project Query API, see the [Project Query Concepts](./project-concepts.md).
 
 Review the code for an extension that uses the Project Query API at [VSProjectQueryAPISample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/VSProjectQueryAPISample/README.md).
