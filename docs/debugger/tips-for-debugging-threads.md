@@ -1,6 +1,6 @@
 ---
 title: "Tips for debugging threads"
-description: Read a list of tips for debugging threads in native code if you are debugging multithreaded apps in Visual Studio.
+description: Read a list of tips for debugging threads in native code if you're debugging multithreaded apps in Visual Studio.
 ms.date: "05/06/2024"
 ms.topic: "conceptual"
 dev_langs:
@@ -38,13 +38,13 @@ Here are some tips you can use when debugging threads in native code:
 
 ## Set a thread name in C/C++
 
-Thread naming is possible in any edition of Visual Studio. Thread naming is useful for identifying threads of interest in the **Threads** window when debugging a running process. Having recognizably-named threads can also be helpful when performing post-mortem debugging via crash dump inspection and when analyzing performance captures using various tools.
+Thread naming is possible in any edition of Visual Studio. Thread naming is useful for identifying threads of interest in the **Threads** window when debugging a running process. Having recognizably named threads can also be helpful when performing post-mortem debugging via crash dump inspection and when analyzing performance captures using various tools.
 
 ### Ways to set a thread name
 
-There are two ways to set a thread name. The first is via the [SetThreadDescription](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreaddescription) function. The second is by throwing a particular exception while the Visual Studio debugger is attached to the process. Each approach has benefits and caveats. The use of `SetThreadDescription` is supported starting in Windows 10, version 1607 or Windows Server 2016.
+There are two ways to set a thread name. The first is via the [SetThreadDescription](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreaddescription) function. The second is by throwing a particular exception while the Visual Studio debugger is attached to the process. Each approach has benefits and caveats. The use of `SetThreadDescription` is supported starting in Windows 10 version 1607 or Windows Server 2016.
 
-It is worth noting that *both* approaches can be used together, if desired, since the mechanisms by which they work are independent of each other.
+It's worth noting that *both* approaches can be used together, if desired, since the mechanisms by which they work are independent of each other.
 
 ### Set a thread name by using `SetThreadDescription`
 
@@ -77,14 +77,14 @@ int main()
 
 ### Set a thread name by throwing an exception
 
-Another way to set a thread name in your program is to communicate the desired thread name to the Visual Studio debugger by throwing a specially-configured exception.
+Another way to set a thread name in your program is to communicate the desired thread name to the Visual Studio debugger by throwing a specially configured exception.
 
 Benefits:
 * Works in all versions of Visual Studio.
 
 Caveats:
 * Only works if the debugger is attached at the time the exception-based method is used.
-* Thread names set by using this method will not be available in dumps or performance analysis tools.
+* Thread names set by using this method won't be available in dumps or performance analysis tools.
 
 *Example:*
 

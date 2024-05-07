@@ -1,6 +1,6 @@
 ---
 title: "Inspect data using debugger windows"
-description: There are many types of debugger windows that provide you with information. This article provides a list of the types. For each, there is a link to more information. 
+description: There are many types of debugger windows that provide you with information. This article provides a list of the types. For each, there's a link to more information. 
 ms.date: "07/14/2023"
 ms.topic: "conceptual"
 author: "mikejo5000"
