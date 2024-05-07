@@ -1,4 +1,5 @@
 ---
+
 # As a web developer, I want to connect web apps to Azure, and deploy and debug in the cloud.
 title: Develop ASP.NET web sites for Azure with Visual Studio
 titleSuffix: ""
@@ -32,7 +33,7 @@ The following diagram shows an example of an architecture of an Azure web applic
 
 ## Connect to storage and databases
 
-Many services not specific to web applications, but important for most web applications, were already covered in the main overview. See [Connect your apps to Azure storage and databases](overview.md#connect-apps-to-azure-storage-and-database-services), and [Connect your app to gRPC, OpenAPI, and WCF endpoints](overview-connected-services.md#connect-your-app-to-grpc-openapi-and-wcf-endpoints).
+Many services not specific to web applications, but important for most web applications, were already covered in the main overview. See [Connect your apps to Azure Storage and databases](overview.md#connect-apps-to-azure-storage-and-database-services), and [Connect your app to gRPC, OpenAPI, and WCF endpoints](overview-connected-services.md#connect-your-app-to-grpc-openapi-and-wcf-endpoints).
 
 ## Connect to Azure Cache for Redis
 
