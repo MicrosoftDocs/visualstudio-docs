@@ -5,6 +5,8 @@ ms.date: 05/03/2024
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.registers
+  - vs.debug.register.edit
+  - vs.debug.registergroups
 dev_langs: 
   - CSharp
   - VB
