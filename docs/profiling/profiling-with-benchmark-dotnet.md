@@ -19,8 +19,6 @@ monikerRange: '>= vs-2022'
 
 You can use the profiling tools to collect and view [BenchmarkDotNet](https://benchmarkdotnet.org/articles/overview.html) data in Visual Studio.
 
-The benchmark functions must be added to a .NET console application. These can be wrapper functions that reference other project types. 
-
 When you add a BenchmarkDotNet diagnoser to your benchmark classes as an attribute, a *.diagsession* is generated after the benchmark runs. You can then open the *.diagsession* in Visual Studio and view profiling data for the benchmarks. 
 
 The following diagnosers are supported:
@@ -37,12 +35,16 @@ Each diagnoser generates performance data related to that diagnoser. For example
 
 - Visual Studio 2022 version 17.9 or later
 
-- Your .NET console project must include the following two NuGet packages:
+- Your benchmark project must include the following two NuGet packages:
 
   - [BenchmarkDotNET](https://www.nuget.org/packages/BenchmarkDotNet/)
   - [Microsoft.VisualStudio.DiagnosticsHub.BenchmarkDotNetDiagnosers](https://www.nuget.org/packages/Microsoft.VisualStudio.DiagnosticsHub.BenchmarkDotNetDiagnosers)
 
 ## Collect Benchmark.NET data
+
+1. Create a console project.
+
+   The benchmark functions must be added to a .NET console application. These can be wrapper functions that reference other project types. 
 
 1. Set your build to a Release build instead of a Debug build.
 
