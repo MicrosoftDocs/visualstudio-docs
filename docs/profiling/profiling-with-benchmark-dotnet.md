@@ -114,6 +114,8 @@ Each diagnoser generates performance data related to that diagnoser. For example
 
    ![Screenshot of BenchmarkDotNet data in Visual Studio.](../profiling/media/vs-2022/benchmark-dotnet-diagsession.png)
 
+For more information about the results, see [BenchmarkDotNet](https://benchmarkdotnet.org/articles/overview.html) documentation.
+
 ## Related content
 
 - [First look at profiling](../profiling/choose-performance-tool.md)
