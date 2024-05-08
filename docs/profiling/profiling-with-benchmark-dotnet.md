@@ -17,7 +17,9 @@ monikerRange: '>= vs-2022'
 
 # Analyze BenchmarkDotNet data in Visual Studio
 
-You can use the profiling tools to collect and view [BenchmarkDotNet](https://benchmarkdotnet.org/articles/overview.html) data in Visual Studio. BenchmarkDotNet supports only .NET console applications.
+You can use the profiling tools to collect and view [BenchmarkDotNet](https://benchmarkdotnet.org/articles/overview.html) data in Visual Studio.
+
+The benchmark functions must be added to a .NET console application. These can be wrapper functions that reference other project types. 
 
 When you add a BenchmarkDotNet diagnoser to your benchmark classes as an attribute, a *.diagsession* is generated after the benchmark runs. You can then open the *.diagsession* in Visual Studio and view profiling data for the benchmarks. 
 
@@ -29,20 +31,24 @@ The following diagnosers are supported:
 - EventsDiagnoser
 - FileIODiagnoser
 
-Each diagnoser generates performance data related to that diagnoser. For example, the CPUUsageDiagnoser provides a diagsession file with CPU data in it, the DatabaseDiagnoser provides a diagsession file with data on database operations.
+Each diagnoser generates performance data related to that diagnoser. For example, the CPUUsageDiagnoser generates a *.diagsession* file with CPU data in it, and the DatabaseDiagnoser generates a *.diagsession* file with data on database operations. Limitations correspond to the associated profiling tool. For example, the profiler's Database tool works on [ADO.NET](/dotnet/framework/data/adonet/ado-net-overview) or [Entity Framework Core](/ef/core/).
 
 ## Prerequisites
 
-In your .NET console application, include the following two NuGet packages:
+- Visual Studio 2022 version 17.9 or later
 
-- [BenchmarkDotNET](https://www.nuget.org/packages/BenchmarkDotNet/)
-- [Microsoft.VisualStudio.DiagnosticsHub.BenchmarkDotNetDiagnosers](https://www.nuget.org/packages/Microsoft.VisualStudio.DiagnosticsHub.BenchmarkDotNetDiagnosers)
+- Your .NET console project must include the following two NuGet packages:
+
+  - [BenchmarkDotNET](https://www.nuget.org/packages/BenchmarkDotNet/)
+  - [Microsoft.VisualStudio.DiagnosticsHub.BenchmarkDotNetDiagnosers](https://www.nuget.org/packages/Microsoft.VisualStudio.DiagnosticsHub.BenchmarkDotNetDiagnosers)
 
 ## Collect Benchmark.NET data
 
 1. Set your build to a Release build instead of a Debug build.
 
-1. Attribute your code for diagnosers and benchmarks.
+1. Attribute your code for diagnosers and benchmarks, and include code to run the benchmarks (`BenchmarkRunner.Run`).
+
+   Add the diagnoser name as an attribute to the class that contains the benchmarks for which you want to generate data.
 
    For example, you can use the following code for the CPUUsageDiagnoser.
 
@@ -88,10 +94,14 @@ In your .NET console application, include the following two NuGet packages:
    
 1. Run the application to generate the *.diagsession* file.
 
-   Check the console output to get the location of the file.  
+   Check the console output to get the location of the file. For example:  
 
    ```cmd
-   // * Diagnostic Output - VSDiagnosticsDiagnoser * Collection result moved to 'BenchmarkDotNet_Md5VsSha256_20231218_123326.diagsession'. Session : {7f38bcc2-c692-4266-aa24-b12bc5325ea4} Stopped Exported diagsession file:
+   // * Diagnostic Output - VSDiagnosticsDiagnoser * 
+   Collection result moved to 'BenchmarkDotNet_Md5VsSha256_20231218_123326.diagsession'.
+   Session : {7f38bcc2-c692-4266-aa24-b12bc5325ea4}
+     Stopped
+   Exported diagsession file: *.diagsession
    ```
    
 ## View Benchmark .NET data
