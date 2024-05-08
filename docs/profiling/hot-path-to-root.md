@@ -6,6 +6,7 @@ ms.topic: "conceptual"
 author: "asundheim"
 ms.author: "asundheim"
 ms.subservice: debug-diagnostics
+monikerRange: '>= vs-2022'
 ---
 # Hot paths to root in the Memory Usage tool (C#, Visual Basic, C++, F#)
 
