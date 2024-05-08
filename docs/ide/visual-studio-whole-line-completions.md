@@ -78,10 +78,6 @@ Click on the Feedback icon on the top right of Visual Studio to file a feedback 
 
 ![Screenshot of submitting feedback for IntelliCode.](media/intellicode/intellicode-visual-studio-whole-line-completions-feedback-small.png)
 
-The second setting, `Wait for pauses in typing before showing line completions`, when enabled, makes whole line completions only show up if the user has paused typing. The user may prefer this choice if they find the whole line completions distracting in the default mode.
-
-The third setting, `Show completions on new lines` can be turned on or off depending on whether the user wants to see whole line completions when they have entered a new line such as by pressing `Return` or `Enter`. 
-
 ## Next steps
 
 [See Privacy](intellicode-privacy.md#intellicode-whole-line-completions)
