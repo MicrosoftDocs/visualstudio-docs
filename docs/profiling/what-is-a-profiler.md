@@ -3,6 +3,7 @@ title: "What is a profiler?"
 description: Learn what a profiler is and what it can do for you. Find out how to use the Visual Studio profiler.
 ms.date: 4/18/2024
 ms.topic: conceptual
+ms.custom: "profiling-seo"
 dev_langs:
   - "CSharp"
 helpviewer_keywords:
@@ -13,7 +14,7 @@ manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 
-# What is a profiler?
+# What is a code profiler?
 
 In software engineering, a *profiler* is a tool used to help you analyze the performance of your applications to improve poorly performing code. Profiling and diagnostics tools help you diagnose memory and CPU usage and other application-level issues. With these tools, you can collect performance data while you run your application.
 

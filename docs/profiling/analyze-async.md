@@ -45,4 +45,4 @@ To further investigate a specific task or activity, right-click the row. Then se
 
 - [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md)
 - [Identify hot paths with Flame Graph](../profiling/flame-graph.md)
-- [Analyze CPU usage](../profiling/cpu-usage.md)
+- [Analyze performance by using CPU profiling](../profiling/cpu-usage.md)
