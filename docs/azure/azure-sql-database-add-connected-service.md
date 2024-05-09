@@ -23,7 +23,6 @@ With Visual Studio, you can connect from any of the following project types by u
 - .NET Framework console app
 - ASP.NET Model-View-Controller (MVC) (.NET Framework)
 - Universal Windows Platform App
-- MAUI app
 
 The connected service functionality adds all the needed references and connection code to your project, and modifies your configuration files appropriately.
 
