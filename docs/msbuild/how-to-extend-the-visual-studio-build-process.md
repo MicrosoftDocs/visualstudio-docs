@@ -1,7 +1,7 @@
 ---
 title: Extend and customize the build process
 description: Explore several ways you can modify the build process so you can control and customize how your projects build, including overriding properties.
-ms.date: 02/14/2024
+ms.date: 05/09/2024
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, overriding predefined targets
@@ -15,52 +15,17 @@ ms.subservice: msbuild
 ---
 # Extend the Visual Studio build process
 
-The Visual Studio build process is defined by a series of MSBuild *.targets* files that are imported into your project file. One of these imported files, *Microsoft.Common.targets*, can be extended to allow you to run custom tasks at several points in the build process. This article explains two methods you can use to extend the Visual Studio build process:
+The Visual Studio build process is defined by a series of MSBuild *.targets* files that are imported into your project file. These imports are implicit, if you use an SDK as Visual Studio projects usually do. One of these imported files, *Microsoft.Common.targets*, can be extended to allow you to run custom tasks at several points in the build process. This article explains two methods you can use to extend the Visual Studio build process:
+
+- Create a custom target and specify when it should run by using `BeforeTargets` and `AfterTargets` attributes.
 
 - Overriding specific predefined targets defined in the common targets (*Microsoft.Common.targets* or the files that it imports).
 
 - Overriding the "DependsOn" properties defined in the common targets.
 
-## Override predefined targets
+## AfterTargets and BeforeTargets
 
-The common targets contains a set of predefined empty targets that is called before and after some of the major targets in the build process. For example, MSBuild calls the `BeforeBuild` target before the main `CoreBuild` target and the `AfterBuild` target after the `CoreBuild` target. By default, the empty targets in the common targets do nothing, but you can override their default behavior by defining the targets you want in a project file that imports the common targets. By overriding the predefined targets, you can use MSBuild tasks to give you more control over the build process.
-
-> [!NOTE]
-> SDK-style projects have an implicit import of targets *after the last line of the project file*. This means that you cannot override default targets unless you specify your imports manually as described in [How to: Use MSBuild project SDKs](how-to-use-project-sdk.md).
-
-#### To override a predefined target
-
-1. Identify a predefined target in the common targets that you want to override. See the table below for the complete list of targets that you can safely override.
-
-2. Define the target or targets at the end of your project file, immediately before the `</Project>` tag. For example:
-
-    ```xml
-    <Project>
-        ...
-        <Target Name="BeforeBuild">
-            <!-- Insert tasks to run before build here -->
-        </Target>
-        <Target Name="AfterBuild">
-            <!-- Insert tasks to run after build here -->
-        </Target>
-    </Project>
-    ```
-
-3. Build the project file.
-
-The following table shows all of the targets in the common targets that you can safely override.
-
-|Target name|Description|
-|-----------------|-----------------|
-|`BeforeCompile`, `AfterCompile`|Tasks that are inserted in one of these targets run before or after core compilation is done. Most customizations are done in one of these two targets.|
-|`BeforeBuild`, `AfterBuild`|Tasks that are inserted in one of these targets will run before or after everything else in the build. **Note:**  The `BeforeBuild` and `AfterBuild` targets are already defined in comments at the end of most project files, allowing you to easily add pre- and post-build events to your project file.|
-|`BeforeRebuild`, `AfterRebuild`|Tasks that are inserted in one of these targets run before or after the core rebuild functionality is invoked. The order of target execution in *Microsoft.Common.targets* is: `BeforeRebuild`, `Clean`, `Build`, and then `AfterRebuild`.|
-|`BeforeClean`, `AfterClean`|Tasks that are inserted in one of these targets run before or after the core clean functionality is invoked.|
-|`BeforePublish`, `AfterPublish`|Tasks that are inserted in one of these targets run before or after the core publish functionality is invoked.|
-|`BeforeResolveReferences`, `AfterResolveReferences`|Tasks that are inserted in one of these targets run before or after assembly references are resolved.|
-|`BeforeResGen`, `AfterResGen`|Tasks that are inserted in one of these targets run before or after resources are generated.|
-
-## Example: AfterTargets and BeforeTargets
+You can use `AfterTargets` and `BeforeTargets` on your own custom target to specify when your custom target should run. This method might be a preferable alternative to using `BeforeBuild` and `AfterBuild`, because you can leave the `Sdk` attribute unchanged.
 
 The following example shows how to use the `AfterTargets` attribute to add a custom target that does something with the output files. In this case, it copies the output files to a new folder *CustomOutput*.  The example also shows how to clean up the files created by the custom build operation with a `CustomClean` target by using a `BeforeTargets` attribute and specifying that the custom clean operation runs before the `CoreClean` target.
 
@@ -98,6 +63,88 @@ The following example shows how to use the `AfterTargets` attribute to add a cus
 
 > [!WARNING]
 > Be sure to use different names than the predefined targets listed in the table in the previous section (for example, we named the custom build target here `CustomAfterBuild`, not `AfterBuild`), since those predefined targets are overridden by the SDK import which also defines them. You don't see the import of the target file that overrides those targets, but it is implicitly added to the end of the project file when you use the `Sdk` attribute method of referencing an SDK.
+
+## Override predefined targets
+
+The common targets contains a set of predefined empty targets that is called before and after some of the major targets in the build process. For example, MSBuild calls the `BeforeBuild` target before the main `CoreBuild` target and the `AfterBuild` target after the `CoreBuild` target. By default, the empty targets in the common targets do nothing, but you can override their default behavior by defining the targets you want in a project file that imports the common targets. By overriding the predefined targets, you can use MSBuild tasks to give you more control over the build process.
+
+### Implicit imports in SDK-style projects
+
+Projects generated by Visual Studio usually use the `Sdk` attribute on the project element. These types of projects are called SDK-style projects. See [Use MSBuild project SDKs](how-to-use-project-sdk.md). Here's an example:
+
+```xml
+<Project Sdk="Microsoft.Net.Sdk">
+```
+
+When your project uses the `Sdk` attribute, two imports are implicitly added, one at the beginning of your project file, and one at the end.
+
+The implicit imports are equivalent to having an import statement like this as the first line in the project file, after the `Project` element:
+
+```xml
+<Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+```
+
+and the following import statement as the last line in the project file:
+
+```xml
+<Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+```
+
+This syntax is referred to as *explicit SDK imports*. When you use this explicit syntax, you should omit the `Sdk` attribute on the project element.
+
+The implicit SDK import is equivalent to importing the specific "common"  `.props` or `.targets` files that is a typical construct in older project files, such as:
+
+```xml
+<Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+```
+
+and
+
+```xml
+<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+```
+
+Any such old references should be replaced with the explicit SDK syntax shown earlier in this section.
+
+Using the explicit SDK syntax means you can add your own code before the first import, or after the final SDK import. That means you can change the behavior by setting properties before the first import that will take effect in the imported `.props` file, and you can override a target that's defined in one of the SDK `.targets` files after the final import. Using this method, you can override `BeforeBuild` or `AfterBuild` as discussed next.
+
+### To override a predefined target
+
+1. If the project uses the `Sdk` attribute, change that to the explicit import syntax. See [Implicit imports in SDK-style projects](#implicit-imports-in-sdk-style-projects).
+
+1. Identify a predefined target in the common targets that you want to override. See the table below for the complete list of targets that you can safely override.
+
+1. Define the target or targets at the end of your project file, immediately before the `</Project>` tag and after the explicit SDK import. For example:
+
+    ```xml
+    <Project>
+        <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+        ...
+        <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+        <Target Name="BeforeBuild">
+            <!-- Insert tasks to run before build here -->
+        </Target>
+        <Target Name="AfterBuild">
+            <!-- Insert tasks to run after build here -->
+        </Target>
+    </Project>
+    ```
+
+    Note that the `Sdk` attribute on the top-level `Project` element has been removed.
+
+1. Build the project file.
+
+The following table shows all of the targets in the common targets that you can safely override.
+
+|Target name|Description|
+|-----------------|-----------------|
+|`BeforeCompile`, `AfterCompile`|Tasks that are inserted in one of these targets run before or after core compilation is done. Most customizations are done in one of these two targets.|
+|`BeforeBuild`, `AfterBuild`|Tasks that are inserted in one of these targets will run before or after everything else in the build. **Note:**  The `BeforeBuild` and `AfterBuild` targets are already defined in comments at the end of most project files, allowing you to easily add pre- and post-build events to your project file.|
+|`BeforeRebuild`, `AfterRebuild`|Tasks that are inserted in one of these targets run before or after the core rebuild functionality is invoked. The order of target execution in *Microsoft.Common.targets* is: `BeforeRebuild`, `Clean`, `Build`, and then `AfterRebuild`.|
+|`BeforeClean`, `AfterClean`|Tasks that are inserted in one of these targets run before or after the core clean functionality is invoked.|
+|`BeforePublish`, `AfterPublish`|Tasks that are inserted in one of these targets run before or after the core publish functionality is invoked.|
+|`BeforeResolveReferences`, `AfterResolveReferences`|Tasks that are inserted in one of these targets run before or after assembly references are resolved.|
+|`BeforeResGen`, `AfterResGen`|Tasks that are inserted in one of these targets run before or after resources are generated.|
 
 ## Override DependsOn properties
 
