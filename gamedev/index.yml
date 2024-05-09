@@ -51,9 +51,9 @@ productDirectory:
       links:
         - url: https://www.monogame.net/
           text: Overview of MonoGame
-        - url: https://docs.monogame.net/articles/getting_started/0_getting_started.html
+        - url: https://docs.monogame.net/articles/getting_started/index.html
           text: Getting started with MonoGame
-        - url: https://docs.monogame.net/articles/getting_started/0_getting_started.html#setting-up-your-development-environment
+        - url: https://docs.monogame.net/articles/getting_started/1_setting_up_your_development_environment_windows.html
           text: Setting up Visual Studio for MonoGame
     - title: Unreal Engine
       imageSrc: unreal/media/unreal-engine-logo.png
