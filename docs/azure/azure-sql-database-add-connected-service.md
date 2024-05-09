@@ -1,12 +1,12 @@
 ---
 title: Add a connection to Azure SQL Database
 description: Connect Azure SQL Database to your application by using Connected Services in Visual Studio on Windows and add a connected service.
-author: AngelosP
+author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
 ms.topic: conceptual
-ms.date: 05/15/2023
-ms.author: angelpe
+ms.date: 05/09/2024
+ms.author: ghogen
 monikerRange: ">= vs-2019"
 ---
 
@@ -14,20 +14,15 @@ monikerRange: ">= vs-2019"
 
 With Visual Studio, you can connect any of the following to Azure SQL Database by using the **Connected Services** feature:
 
-- .NET Framework console app
-- ASP.NET Model-View-Controller (MVC) (.NET Framework)
 - ASP.NET Core
 - .NET Core (including console app, WPF, Windows Forms, class library)
 - .NET Core Worker Role
 - Azure Functions
+- .NET Framework console app
+- ASP.NET Model-View-Controller (MVC) (.NET Framework)
 - Universal Windows Platform App
-- Xamarin
-- Cordova
 
 The connected service functionality adds all the needed references and connection code to your project, and modifies your configuration files appropriately.
-
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Connected services in Visual Studio for Mac](/visualstudio/mac/connected-services).
 
 ## Prerequisites
 
