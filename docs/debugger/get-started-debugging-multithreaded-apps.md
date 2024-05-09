@@ -352,7 +352,7 @@ You can set breakpoints on different conditions, such as the thread name or the 
     ![Conditional Breakpoint](../debugger/media/dbg-multithreaded-conditional-breakpoint.png "ConditionalBreakpoint")
 
     > [!TIP]
-    > If you are more interested in a specific thread, then use a thread name or thread ID for the condition. To do this in the **Breakpoint Settings** window, select **Filter** instead of **Conditional expression**, and follow the filter tips. You might want to name your threads in your app code, as threads IDs change when you restart the debugger.
+    > If you are more interested in a specific thread, then use a thread name or thread ID for the condition. To do this in the **Breakpoint Settings** window, select **Filter** instead of **Conditional expression**, and follow the filter tips. You might want to [name your threads](../debugger/tips-for-debugging-threads.md) in your app code, as threads IDs change when you restart the debugger.
 
 3. Close the **Breakpoint Settings** window.
 

@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: Create an ASP.NET Core project to serve as an API backend and a Vue project to provide the user interface in Visual Studio.
-ms.date: 03/20/2024
+ms.date: 04/30/2024
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -174,9 +174,26 @@ If the weather data doesn't load correctly, you may also need to verify that you
 
 If you see the console message **Could not find the file 'C:\Users\Me\source\repos\vueprojectname\package.json'** when you create the project, you may need to update your version of the Vite CLI. After you update the Vite CLI, you may also need to delete the `.vuerc` file in *C:\Users\\[yourprofilename\]*.
 
-### Docker
+## Docker
 
-If you enable Docker support while creating the web API project, the backend may start up using the Docker profile and not listen on the configured port 5173. To resolve:
+If you create the project with [Docker support](../containers/overview.md#prerequisites-1) enabled, take the following steps:
+
+1. After the app loads, get the Docker HTTPS port using the [Containers window](../containers/view-and-diagnose-containers.md) in Visual Studio. Check the **Environment** or **Ports** tab.
+
+   :::image type="content" source="media/vs-2022/asp-net-core-with-vue-docker-container-ports.png" alt-text="Screenshot showing Docker container ports."::: 
+
+1. Open the `vite.config.js` file for the Vue project. Update the `target` variable to match the HTTPS port in the Containers window. For example, in the following code:
+
+   ```js
+   const target = env.ASPNETCORE_HTTPS_PORT ? `https://localhost:${env.ASPNETCORE_HTTPS_PORT}` :
+      env.ASPNETCORE_URLS ? env.ASPNETCORE_URLS.split(';')[0] : 'https://localhost:7163';
+   ```
+
+   change `https://localhost:7163` to `https://localhost:60833`.
+
+1. Restart the app.
+
+If you are using a Docker configuration created in older versions of Visual Studio, the backend may start up using the Docker profile and not listen on the configured port 5173. To resolve:
 
 Edit the Docker profile in the `launchSettings.json` by adding the following properties:
 
@@ -184,12 +201,6 @@ Edit the Docker profile in the `launchSettings.json` by adding the following pro
 "httpPort": 5175, 
 "sslPort": 5173  
 ```
-
-Alternatively, reset using the following method:
-
-1. In the Solution properties, set your backend app as the startup project.
-1. In the Debug menu, switch the profile using the **Start** button drop-down menu to the profile for your backend app.
-1. Next, in the Solution properties, reset to multiple startup projects.
 
 ## Next steps
 

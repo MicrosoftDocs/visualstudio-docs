@@ -3,13 +3,14 @@ title: CPU profiling in the Performance Profiler
 description: Learn about the CPU profiler performance tool, which shows the CPU time and percentage spent executing code in C++, C#, Visual Basic, and JavaScript apps.
 ms.date: 08/15/2023
 ms.topic: how-to
+ms.custom: "profiling-seo"
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 
-# Analyze performance using CPU profiling in the Performance Profiler (C#, Visual Basic, C++, F#)
+# Analyze performance by using CPU profiling in the Performance Profiler (C#, Visual Basic, C++, F#)
 
 A good way to start investigating performance issues in your app is to understand its CPU utilization using a CPU profiler. The **CPU Usage** performance tool shows the CPU time and percentage spent executing code in C++, C#/Visual Basic.
 
