@@ -19,13 +19,13 @@ The Visual Studio build process is defined by a series of MSBuild *.targets* fil
 
 - Create a custom target and specify when it should run by using `BeforeTargets` and `AfterTargets` attributes.
 
-- Overriding specific predefined targets defined in the common targets (*Microsoft.Common.targets* or the files that it imports).
+- Override specific predefined targets defined in the common targets (*Microsoft.Common.targets* or the files that it imports).
 
-- Overriding the "DependsOn" properties defined in the common targets.
+- Override the `DependsOn` properties defined in the common targets.
 
 ## AfterTargets and BeforeTargets
 
-You can use `AfterTargets` and `BeforeTargets` on your own custom target to specify when your custom target should run. This method might be a preferable alternative to using `BeforeBuild` and `AfterBuild`, because you can leave the `Sdk` attribute unchanged.
+You can use `AfterTargets` and `BeforeTargets` attributes on your custom target to specify when it should run.
 
 The following example shows how to use the `AfterTargets` attribute to add a custom target that does something with the output files. In this case, it copies the output files to a new folder *CustomOutput*.  The example also shows how to clean up the files created by the custom build operation with a `CustomClean` target by using a `BeforeTargets` attribute and specifying that the custom clean operation runs before the `CoreClean` target.
 
@@ -62,11 +62,13 @@ The following example shows how to use the `AfterTargets` attribute to add a cus
 ```
 
 > [!WARNING]
-> Be sure to use different names than the predefined targets listed in the table in the previous section (for example, we named the custom build target here `CustomAfterBuild`, not `AfterBuild`), since those predefined targets are overridden by the SDK import which also defines them. You don't see the import of the target file that overrides those targets, but it is implicitly added to the end of the project file when you use the `Sdk` attribute method of referencing an SDK.
+> Be sure to use different names than the predefined targets listed in the table in the next section (for example, the custom build target here is `CustomAfterBuild`, not `AfterBuild`), since those predefined targets are overridden by the SDK import which also defines them.
 
 ## Override predefined targets
 
-The common targets contains a set of predefined empty targets that is called before and after some of the major targets in the build process. For example, MSBuild calls the `BeforeBuild` target before the main `CoreBuild` target and the `AfterBuild` target after the `CoreBuild` target. By default, the empty targets in the common targets do nothing, but you can override their default behavior by defining the targets you want in a project file that imports the common targets. By overriding the predefined targets, you can use MSBuild tasks to give you more control over the build process.
+The common `.targets` files contain a set of predefined empty targets that are called before and after some of the major targets in the build process. For example, MSBuild calls the `BeforeBuild` target before the main `CoreBuild` target and the `AfterBuild` target after the `CoreBuild` target. By default, the empty targets in the common targets do nothing, but you can override their default behavior by defining the targets you want in a project file. By overriding the predefined targets, you can use MSBuild tasks to give you more control over the build process.
+
+But first, if your project uses an SDK (for example `Microsoft.Net.Sdk`), you need to make a change from implicit to explicit imports, as discussed next.
 
 ### Implicit imports in SDK-style projects
 
