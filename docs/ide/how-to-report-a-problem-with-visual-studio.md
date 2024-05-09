@@ -15,10 +15,10 @@ You can report a problem from either Visual Studio or its installer. The built-i
 Here are the steps to report a problem.
 
 1. **In Visual Studio**, select the feedback icon in the upper-right corner and select Report a Problem. You can also access the feedback tool  from the menu **Help** > **Send Feedback** > **Report a Problem**.
-![Screenshot showing the feedback icon selected in the upper right corner of the Visual Studio window and Report a Problem selected on the context menu.](media/feedback-button.png)
+    ![Screenshot showing the feedback icon selected in the upper right corner of the Visual Studio window and Report a Problem selected on the context menu.](media/feedback-button.png)
 
-   Alternatively, if you can't install Visual Studio or are unable to access the feedback tool within Visual Studio you can report a problem in the **Visual Studio Installer**.  If you have Visual Studio open, go to **Tools > Get Tools > Features...** to launch the installer, or launch it from the Start menu. In the installer, select the feedback icon in the upper-right corner and select **Report a Problem**.
-![Screenshot showing the feedback icon selected in the upper right corner of the Visual Studio Installer and Report a Problem selected on the context menu.](./media/report-a-problem-selected.png)
+    Alternatively, if you can't install Visual Studio or are unable to access the feedback tool within Visual Studio you can report a problem in the **Visual Studio Installer**.  If you have Visual Studio open, go to **Tools > Get Tools > Features...** to launch the installer, or launch it from the Start menu. In the installer, select the feedback icon in the upper-right corner and select **Report a Problem**.
+    ![Screenshot showing the feedback icon selected in the upper right corner of the Visual Studio Installer and Report a Problem selected on the context menu.](./media/report-a-problem-selected.png)
 
 1. Selecting **Report a Problem** will open [Developer Community](https://developercommunity.microsoft.com/VisualStudio) in your default browser and sign you in using the same account you're signed in to Visual Studio with.
 
