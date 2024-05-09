@@ -10,9 +10,11 @@ ms.author: ghogen
 monikerRange: ">= vs-2019"
 ---
 
-# Add a connection to Azure SQL Database
+# Add a connection to a SQL database
 
-With Visual Studio, you can connect any of the following to Azure SQL Database by using the **Connected Services** feature:
+With Visual Studio Connected Services, you can connect to Azure SQL Database, a local emulator (for example, during development), or an on-premises SQL Server database.
+
+With Visual Studio, you can connect from any of the following project types by using the **Connected Services** feature:
 
 - ASP.NET Core
 - .NET Core (including console app, WPF, Windows Forms, class library)
@@ -21,6 +23,7 @@ With Visual Studio, you can connect any of the following to Azure SQL Database b
 - .NET Framework console app
 - ASP.NET Model-View-Controller (MVC) (.NET Framework)
 - Universal Windows Platform App
+- MAUI app
 
 The connected service functionality adds all the needed references and connection code to your project, and modifies your configuration files appropriately.
 
