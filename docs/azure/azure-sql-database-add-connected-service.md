@@ -10,9 +10,9 @@ ms.author: ghogen
 monikerRange: ">= vs-2019"
 ---
 
-# Add a connection to a SQL database
+# Add a connection to an Azure SQL database
 
-With Visual Studio Connected Services, you can connect to Azure SQL Database, a local emulator (for example, during development), or an on-premises SQL Server database.
+With Visual Studio Connected Services, you can connect to Azure SQL Database, a local emulator (for example, during development), or an on-premises SQL Server database. For on-premise SQL Server, see [Connect to a database](data-tools/add-new-connections).
 
 With Visual Studio, you can connect from any of the following project types by using the **Connected Services** feature:
 
