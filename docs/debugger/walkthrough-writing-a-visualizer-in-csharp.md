@@ -15,6 +15,9 @@ ms.subservice: debug-diagnostics
 ---
 # Walkthrough: Writing a Visualizer in C\#
 
+> [!IMPORTANT]
+> Starting with version 17.9, Visual Studio now supports writing visualizers in .NET 6.0+ that run out-of-process using the new VisualStudio.Extensibility model. We encourage visualizer authors to reference the new documentation at [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md) unless they want to support older versions of VS or want to ship their custom visualizers as part of a library DLL.
+
 This walkthrough shows how to write a simple visualizer by using C#. The visualizer you create in this walkthrough displays the contents of a string using a Windows Form. This simple string visualizer isn't especially useful in itself, but it shows the basic steps that you must follow to create more useful visualizers for other data types.
 
 > [!NOTE]
@@ -79,7 +82,18 @@ Now you're ready to create the debugger-side code. This code runs within the deb
    public class DebuggerSide : DialogDebuggerVisualizer
    ```
 
-   `DialogDebuggerVisualizer` has one abstract method (`Show`) that you must override.
+1. Add an empty constructor so that you can pass to the base class' constructor the serialization policy that will be used to communicate between the visualizer components.
+
+   ```csharp
+   public DebuggerSide() : base(FormatterPolicy.NewtonsoftJson) // or FormatterPolicy.Json
+   {
+   }
+   ```
+
+   > [!NOTE]
+   > Due to the security issues described in [Special debugger side considerations for .NET 5.0+](./create-custom-visualizers-of-data.md#special-debugger-side-considerations-for-net-50), starting with Visual Studio 17.11, visualizer's won't be able to specify the `Legacy` formatter policy.
+
+1. `DialogDebuggerVisualizer` has one abstract method (`Show`) that you must override.
 
 #### Override the DialogDebuggerVisualizer.Show method
 

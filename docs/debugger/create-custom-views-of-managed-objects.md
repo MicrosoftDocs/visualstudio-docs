@@ -26,6 +26,9 @@ ms.subservice: debug-diagnostics
 
 # Create custom views of .NET objects (C#, Visual Basic, F#, C++/CLI)
 
+> [!IMPORTANT]
+> Starting with version 17.9, Visual Studio now supports writing visualizers in .NET 6.0+ that run out-of-process using the new VisualStudio.Extensibility model. We encourage visualizer authors to reference the new documentation at [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md) unless they want to support older versions of VS or want to ship their custom visualizers as part of a library DLL.
+
 You can customize the way Visual Studio displays data types in debugger variable windows.
 
 ## Attributes
