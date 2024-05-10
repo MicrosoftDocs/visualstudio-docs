@@ -95,7 +95,7 @@ Then, pass the stream to the `IVisualizerObjectProvider2.TransferData` method.
 - If the *debuggee-side* visualizer component needs to return anything to the *debugger-side*, it will be located in the
 <xref:System.IO.Stream> object returned by the <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.TransferData%2A>
 method. Use the `IVisualizerObjectProvider2.GetDeserializableObjectFrom` method to get an
-<xref:Microsoft.VisualStudio.DebuggerVisualizers.IDeserializableObject> instance from it and process it as required; or use <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider3.DeserializeFromJson> if its a type that you know how to deserialize.
+<xref:Microsoft.VisualStudio.DebuggerVisualizers.IDeserializableObject> instance from it and process it as required; or use <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider3.DeserializeFromJson%2A> if its a type that you know how to deserialize.
 
 Please refer to the [Special debuggee side considerations for .NET 5.0+](#special-debuggee-side-considerations-for-net-50)
 section to learn what other changes are required on the *debuggee-side* when using Binary Serialization is not supported.
