@@ -30,7 +30,7 @@ When you add an EditorConfig file to your project in Visual Studio, only new lin
    Select **Edit** > **Advanced** > **Format Document**, or press **Ctrl**+**K**, **Ctrl**+**D** in the default profile. This command applies only to white-space settings, such as indent style.
 
 > [!NOTE]
-> This topic applies to Visual Studio for Windows. For Visual Studio for Mac, see [Creating and editing a custom EditorConfig file in Visual Studio for Mac](/visualstudio/mac/editorconfig).
+> This article applies to Visual Studio for Windows. For Visual Studio for Mac, see [Creating and editing a custom EditorConfig file in Visual Studio for Mac](/visualstudio/mac/editorconfig).
 
 ## Code consistency
 
@@ -86,7 +86,7 @@ To add an EditorConfig file to your project or solution, follow these steps:
 
 1. Select the **editorconfig File (empty)** template to add an EditorConfig file prefilled with default EditorConfig options for whitespace, code style, and naming conventions. Or, select the **editorconfig File (.NET)** template to add an EditorConfig file prefilled with default [.NET whitespace, code style, and naming conventions](/dotnet/fundamentals/code-analysis/code-style-rule-options).
 
-   A new *.editorconfig* file appears in Solution Explorer, which opens in the editor as a new tab.
+   A new *.editorconfig* file appears in Solution Explorer, and opens in the editor as a new tab.
 
    ::: moniker range=">= vs-2022"
    :::image type="content" source="media/vs-2022/editorconfig-dotnet-new.png" alt-text="Screenshot that shows the .editorconfig file in Solution Explorer and editor.":::
@@ -124,7 +124,6 @@ Follow these guidelines:
 EditorConfig files are read from top to bottom. If there are multiple properties with the same name, the most recently found property with the same name takes precedence.
 
 ## Edit EditorConfig files
-
 
 ::: moniker range=">= vs-2022"
 Visual Studio 2022 provides a visual editor for EditorConfig files.
@@ -221,3 +220,4 @@ To troubleshoot EditorConfig issues, follow these steps:
 - [EditorConfig.org](https://editorconfig.org)
 - [Features of the code editor](writing-code-in-the-code-and-text-editor.md)
 - [Creating and editing a custom EditorConfig file in Visual Studio for Mac](/visualstudio/mac/editorconfig)
+- [Configuration files for code analysis rules](/dotnet/fundamentals/code-analysis/configuration-files)
