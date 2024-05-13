@@ -23,10 +23,8 @@ Linux App Service deploys a Linux Docker container to run the Node.js applicatio
 
 This tutorial shows how to create a Node.js application starting from a template installed with the Node.js Tools for Visual Studio, push the code to a repository on GitHub, and then provision an Azure App Service via the Azure web portal so that you can deploy from the GitHub repository. To use the command-line to provision the Azure App Service and push the code from a local Git repository, see [Create Node.js App](/azure/app-service/containers/quickstart-nodejs).
 
-::: moniker range=">=vs-2022"
 > [!IMPORTANT]
 > The information in this article applies only to the Node.js project type (.njsproj). The template used in this article is no longer available starting in Visual Studio 2022 version 17.8 Preview 2.
-::: moniker-end
 
 In this tutorial, you learn how to:
 > [!div class="checklist"]
