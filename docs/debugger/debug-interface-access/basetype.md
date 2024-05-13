@@ -1,5 +1,5 @@
 ---
-title: "BaseType"
+title: BaseType
 description: Find reference information about the BaseType symbol type (SymTagBaseType) in the Visual Studio debug interface access SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,12 +12,14 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # BaseType
 
 Base types are identified by `SymTagBaseType` symbols.
 
 ## Properties
- The following table shows additional valid properties for this symbol type.
+
+The following table shows additional valid properties for this symbol type.
 
 |Property|Data type|Description|
 |--------------|---------------|-----------------|
@@ -32,5 +34,6 @@ Base types are identified by `SymTagBaseType` symbols.
 |[IDiaSymbol::get_volatileType](../../debugger/debug-interface-access/idiasymbol-get-volatiletype.md)|`BOOL`|`TRUE` if the base type is marked as volatile.|
 
 ## See also
+
 - [BasicType Enumeration](../../debugger/debug-interface-access/basictype.md)
 - [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
