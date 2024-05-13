@@ -1,6 +1,6 @@
 ---
-description: "These are the enumerations and structures used by the DIA SDK."
-title: "Enumerations and Structures"
+description: These are the enumerations and structures used by the DIA SDK.
+title: Enumerations and Structures
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -15,6 +15,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # Enumerations and Structures
 
 These are the enumerations and structures used by the DIA SDK.
@@ -25,59 +26,59 @@ These are the enumerations and structures used by the DIA SDK.
 
 - [BasicType Enumeration](../../debugger/debug-interface-access/basictype.md)
 
- Specifies the symbol's basic type.
+Specifies the symbol's basic type.
 
 - [CV_access_e Enumeration](../../debugger/debug-interface-access/cv-access-e.md)
 
- Specifies the scope of visibility (access level) of member functions and variables.
+Specifies the scope of visibility (access level) of member functions and variables.
 
 - [CV_call_e Enumeration](../../debugger/debug-interface-access/cv-call-e.md)
 
- Specifies the calling convention for a function.
+Specifies the calling convention for a function.
 
 - [CV_CFL_LANG Enumeration](../../debugger/debug-interface-access/cv-cfl-lang.md)
 
- Specifies the source code language of the application or linked module.
+Specifies the source code language of the application or linked module.
 
 - [CV_CPU_TYPE_e Enumeration](../../debugger/debug-interface-access/cv-cpu-type-e.md)
 
- Specifies the target processor.
+Specifies the target processor.
 
 - [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md)
 
- Specifies a target register.
+Specifies a target register.
 
 - [DataKind Enumeration](../../debugger/debug-interface-access/datakind.md)
 
- Indicates the particular scope of a data value.
+Indicates the particular scope of a data value.
 
 - [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)
 
- Indicates the kind of location information contained in a symbol.
+Indicates the kind of location information contained in a symbol.
 
 - [MemoryTypeEnum Enumeration](../../debugger/debug-interface-access/memorytypeenum.md)
 
- Specifies the type of memory to access.
+Specifies the type of memory to access.
 
 - [NameSearchOptions Enumeration](../../debugger/debug-interface-access/namesearchoptions.md)
 
- Specifies the search options for symbol and file names.
+Specifies the search options for symbol and file names.
 
 - [StackFrameTypeEnum Enumeration](../../debugger/debug-interface-access/stackframetypeenum.md)
 
- Specifies the stack frame type.
+Specifies the stack frame type.
 
 - [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)
 
- Specifies the type of symbol.
+Specifies the type of symbol.
 
 - [THUNK_ORDINAL Enumeration](../../debugger/debug-interface-access/thunk-ordinal.md)
 
- Designates thunk types.
+Designates thunk types.
 
 - [UdtKind Enumeration](../../debugger/debug-interface-access/udtkind.md)
 
- Describes the variety of user-defined type (UDT).
+Describes the variety of user-defined type (UDT).
 
 ### Structures
 
