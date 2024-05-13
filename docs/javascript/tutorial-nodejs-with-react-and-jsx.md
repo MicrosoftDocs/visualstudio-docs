@@ -9,6 +9,7 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: javascript-typescript
+monikerRange: 'vs-2019'
 dev_langs:
   - JavaScript
 ---
