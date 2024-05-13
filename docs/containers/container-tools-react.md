@@ -358,7 +358,7 @@ Update the Dockerfile by adding the following lines. These lines will copy Node 
 :::moniker range=">=vs-2022"
 With Visual Studio 2022 version 17.8 and later and the **React and ASP.NET Core** template, the projects are already configured to start both the client and server projects with debugging support.
 
-If you're using an earlier version of Visual Studio, continue reading to set up debugging with the single-page application (securing privileged access (SPA)) proxy server.
+If you're using an earlier version of Visual Studio, continue reading to set up debugging with the single-page application (SPA) proxy server.
 
 The project uses the SPA Proxy during debugging. See [Improved single-page app (SPA) templates](https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-net-6-preview-4/#improved-single-page-app-spa-templates). When debugging, the JavaScript client runs on the host machine, but the ASP.NET Core server code runs in the container. When published, the proxy isn't run, and the client code runs on the same server as the ASP.NET Core code. You already have a Debug profile **Docker* that you can use to debug the server code. To debug the JavaScript client code, you can create an additional debug profile. You also need to start the proxy manually from a command prompt when debugging JavaScript. You can leave it running through multiple debug sessions.
 
