@@ -1,6 +1,6 @@
 ---
-description: "Provides control over how the DIA SDK computes virtual and relative virtual addresses for debug objects."
-title: "IDiaAddressMap"
+description: Provides control over how the DIA SDK computes virtual and relative virtual addresses for debug objects.
+title: IDiaAddressMap
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,18 +12,18 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaAddressMap
 
 Provides control over how the DIA SDK computes virtual and relative virtual addresses for debug objects.
 
 ## Syntax
 
-```
-IDiaAddressMap : IUnknown
-```
+`IDiaAddressMap : IUnknown`
 
 ## Methods in Vtable Order
- The following table shows the methods of `IDiaAddressMap`.
+
+The following table shows the methods of `IDiaAddressMap`.
 
 |Method|Description|
 |------------|-----------------|
@@ -37,19 +37,23 @@ IDiaAddressMap : IUnknown
 |[IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap-set-addressmap.md)|Provides an address map to support image layout translations.|
 
 ## Remarks
- The control provided by this interface is encapsulated in two sets of data you supply: image headers and address maps. Most clients use the [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md) method to find the proper debug information for an image and the method can typically discover all of the necessary headers and maps data itself. However some clients implement specialized processing and searching for data. Such clients use the methods of the `IDiaAddressMap` interface to provide the DIA SDK with the search results.
+
+The control provided by this interface is encapsulated in two sets of data you supply: image headers and address maps. Most clients use the [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md) method to find the proper debug information for an image and the method can typically discover all of the necessary headers and maps data itself. However some clients implement specialized processing and searching for data. Such clients use the methods of the `IDiaAddressMap` interface to provide the DIA SDK with the search results.
 
 ## Notes for Callers
- This interface is available from the DIA session object. The client calls the `QueryInterface` method on DIA session object interface, usually [IDiaSession](../../debugger/debug-interface-access/idiasession.md), to retrieve the `IDiaAddressMap` interface.
+
+This interface is available from the DIA session object. The client calls the `QueryInterface` method on DIA session object interface, usually [IDiaSession](../../debugger/debug-interface-access/idiasession.md), to retrieve the `IDiaAddressMap` interface.
 
 ## Requirements
- Header: Dia2.h
 
- Library: diaguids.lib
+Header: Dia2.h
 
- DLL: msdia80.dll
+Library: diaguids.lib
+
+DLL: msdia80.dll
 
 ## See also
+
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)
 - [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
