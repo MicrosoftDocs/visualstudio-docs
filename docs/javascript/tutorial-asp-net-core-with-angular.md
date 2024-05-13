@@ -1,5 +1,5 @@
 ---
-title: "Create an ASP.NET Core app with Angular"
+title: "Create an Angular and ASP.NET Core app"
 description: Create an ASP.NET Core project to serve as an API backend and an Angular project to provide the user interface in Visual Studio.
 ms.date: 03/20/2024
 ms.topic: tutorial
@@ -12,7 +12,7 @@ dev_langs:
   - JavaScript
 monikerRange: '>= vs-2022'
 ---
-# Tutorial: Create an ASP.NET Core app with Angular in Visual Studio
+# Tutorial: Create an Angular and ASP.NET Core app in Visual Studio
 
 In this article, you learn how to build an ASP.NET Core project to act as an API backend and an Angular project to act as the UI.
 
