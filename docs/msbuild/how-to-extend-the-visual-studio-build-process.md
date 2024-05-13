@@ -19,9 +19,9 @@ The Visual Studio build process is defined by a series of MSBuild *.targets* fil
 
 - Create a custom target and specify when it should run by using `BeforeTargets` and `AfterTargets` attributes.
 
-- Override specific predefined targets defined in the common targets (*Microsoft.Common.targets* or the files that it imports).
-
 - Override the `DependsOn` properties defined in the common targets.
+
+- Override specific predefined targets defined in the common targets (*Microsoft.Common.targets* or the files that it imports).
 
 ## AfterTargets and BeforeTargets
 
