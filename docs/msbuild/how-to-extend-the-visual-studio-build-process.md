@@ -1,7 +1,7 @@
 ---
 title: Extend and customize the build process
 description: Explore several ways you can modify the build process so you can control and customize how your projects build, including overriding properties.
-ms.date: 05/09/2024
+ms.date: 05/13/2024
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, overriding predefined targets
@@ -62,13 +62,129 @@ The following example shows how to use the `AfterTargets` attribute to add a cus
 ```
 
 > [!WARNING]
-> Be sure to use different names than the predefined targets listed in the table in the next section (for example, the custom build target here is `CustomAfterBuild`, not `AfterBuild`), since those predefined targets are overridden by the SDK import which also defines them.
+> Be sure to use different names than the predefined targets (for example, the custom build target here is `CustomAfterBuild`, not `AfterBuild`), since those predefined targets are overridden by the SDK import which also defines them. Refer to the [table](#table-of-predefined-targets) at the end of this article for a list of predefined targets.
+
+## Extend the DependsOn properties
+
+Another way to extend the build process is to use `DependsOnTargets` to specify a target that must run before your target runs.
+
+This method is preferable to overriding predefined targets, which is discussed in the next section. Overriding predefined targets is an older method that is still supported, but, because MSBuild evaluates the definition of targets sequentially, there is no way to prevent another project that imports your project from overriding the targets you already have overridden. So, for example, the last `AfterBuild` target defined in the project file, after all other projects have been imported, will be the one that is used during the build.
+
+You can guard against unintended overrides of targets by overriding the `DependsOn` properties that are used in `DependsOnTargets` attributes throughout the common targets. For example, the `Build` target contains a `DependsOnTargets` attribute value of `"$(BuildDependsOn)"`. Consider:
+
+```xml
+<Target Name="Build" DependsOnTargets="$(BuildDependsOn)"/>
+```
+
+This piece of XML indicates that before the `Build` target can run, all the targets specified in the `BuildDependsOn` property must run first. The `BuildDependsOn` property is defined as:
+
+```xml
+<PropertyGroup>
+    <BuildDependsOn>
+        BeforeBuild;
+        CoreBuild;
+        AfterBuild
+    </BuildDependsOn>
+</PropertyGroup>
+```
+
+You can override this property value by declaring another property named `BuildDependsOn` at the end of your project file. By including the previous `BuildDependsOn` property in the new property, you can add new targets to the beginning and end of the target list. For example:
+
+```xml
+<PropertyGroup>
+    <BuildDependsOn>
+        MyCustomTarget1;
+        $(BuildDependsOn);
+        MyCustomTarget2
+    </BuildDependsOn>
+</PropertyGroup>
+
+<Target Name="MyCustomTarget1">
+    <Message Text="Running MyCustomTarget1..."/>
+</Target>
+<Target Name="MyCustomTarget2">
+    <Message Text="Running MyCustomTarget2..."/>
+</Target>
+```
+
+Projects that import your project files can override these properties without overwriting the customizations that you have made.
+
+### To override a DependsOn property
+
+1. Identify a predefined DependsOn property in the common targets that you want to override. See the table below for a list of the commonly overridden DependsOn properties.
+
+2. Define another instance of the property or properties at the end of your project file. Include the original property, for example `$(BuildDependsOn)`, in the new property.
+
+3. Define your custom targets before or after the property definition.
+
+4. Build the project file.
+
+### Commonly overridden DependsOn properties
+
+|Property name|Description|
+|-------------------|-----------------|
+|`BuildDependsOn`|The property to override if you want to insert custom targets before or after the entire build process.|
+|`CleanDependsOn`|The property to override if you want to clean up output from your custom build process.|
+|`CompileDependsOn`|The property to override if you want to insert custom processes before or after the compilation step.|
+
+### Example: BuildDependsOn and CleanDependsOn
+
+The following example is similar to the `BeforeTargets` and `AfterTargets` example, but shows how to achieve similar functionality. It extends the build by using `BuildDependsOn` to add your own task `CustomAfterBuild` that copies the output files after the build, and also adds the corresponding `CustomClean` task by using `CleanDependsOn`.  
+
+In this example, this is an SDK-style project. As mentioned in the note about SDK-style projects earlier in this article, you must use the manual import method instead of the `Sdk` attribute that Visual Studio uses when it generates project files.
+
+```xml
+<Project>
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk"/>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk"/>
+
+  <PropertyGroup>
+    <BuildDependsOn>
+      $(BuildDependsOn);CustomAfterBuild
+    </BuildDependsOn>
+
+    <CleanDependsOn>
+      $(CleanDependsOn);CustomClean
+    </CleanDependsOn>
+
+    <_OutputCopyLocation>$(OutputPath)..\..\CustomOutput\</_OutputCopyLocation>
+  </PropertyGroup>
+
+  <Target Name="CustomAfterBuild">
+    <ItemGroup>
+      <_FilesToCopy Include="$(OutputPath)**\*"/>
+    </ItemGroup>
+    <Message Importance="high" Text="_FilesToCopy: @(_FilesToCopy)"/>
+
+    <Message Text="DestFiles:
+      @(_FilesToCopy-&gt;'$(_OutputCopyLocation)%(RecursiveDir)%(Filename)%(Extension)')"/>
+
+    <Copy SourceFiles="@(_FilesToCopy)"
+          DestinationFiles="@(_FilesToCopy-&gt;'$(_OutputCopyLocation)%(RecursiveDir)%(Filename)%(Extension)')"/>
+  </Target>
+
+  <Target Name="CustomClean">
+    <Message Importance="high" Text="Inside Custom Clean"/>
+    <ItemGroup>
+      <_CustomFilesToDelete Include="$(_OutputCopyLocation)**\*"/>
+    </ItemGroup>
+    <Delete Files="@(_CustomFilesToDelete)"/>
+  </Target>
+</Project>
+```
+
+The order of elements is important. The `BuildDependsOn` and `CleanDependsOn` elements must appear after importing the standard SDK targets file.
 
 ## Override predefined targets
 
-The common `.targets` files contain a set of predefined empty targets that are called before and after some of the major targets in the build process. For example, MSBuild calls the `BeforeBuild` target before the main `CoreBuild` target and the `AfterBuild` target after the `CoreBuild` target. By default, the empty targets in the common targets do nothing, but you can override their default behavior by defining the targets you want in a project file. By overriding the predefined targets, you can use MSBuild tasks to give you more control over the build process.
+The common `.targets` files contain a set of predefined empty targets that are called before and after some of the major targets in the build process. For example, MSBuild calls the `BeforeBuild` target before the main `CoreBuild` target and the `AfterBuild` target after the `CoreBuild` target. By default, the empty targets in the common targets do nothing, but you can override their default behavior by defining the targets you want in a project file. The methods described earlier in this article are preferred, but you might encounter older code that uses this method.
 
-But first, if your project uses an SDK (for example `Microsoft.Net.Sdk`), you need to make a change from implicit to explicit imports, as discussed next.
+If your project uses an SDK (for example `Microsoft.Net.Sdk`), you need to make a change from implicit to explicit imports, as discussed next.
 
 ### Implicit imports in SDK-style projects
 
@@ -136,7 +252,9 @@ Using the explicit SDK syntax means you can add your own code before the first i
 
 1. Build the project file.
 
-The following table shows all of the targets in the common targets that you can safely override.
+## Table of predefined targets
+
+The following table shows all of the targets in the common targets that you can override.
 
 |Target name|Description|
 |-----------------|-----------------|
@@ -147,120 +265,6 @@ The following table shows all of the targets in the common targets that you can 
 |`BeforePublish`, `AfterPublish`|Tasks that are inserted in one of these targets run before or after the core publish functionality is invoked.|
 |`BeforeResolveReferences`, `AfterResolveReferences`|Tasks that are inserted in one of these targets run before or after assembly references are resolved.|
 |`BeforeResGen`, `AfterResGen`|Tasks that are inserted in one of these targets run before or after resources are generated.|
-
-## Override DependsOn properties
-
-Overriding predefined targets is an easy way to extend the build process, but, because MSBuild evaluates the definition of targets sequentially, there is no way to prevent another project that imports your project from overriding the targets you already have overridden. So, for example, the last `AfterBuild` target defined in the project file, after all other projects have been imported, will be the one that is used during the build.
-
-You can guard against unintended overrides of targets by overriding the DependsOn properties that are used in `DependsOnTargets` attributes throughout the common targets. For example, the `Build` target contains a `DependsOnTargets` attribute value of `"$(BuildDependsOn)"`. Consider:
-
-```xml
-<Target Name="Build" DependsOnTargets="$(BuildDependsOn)"/>
-```
-
-This piece of XML indicates that before the `Build` target can run, all the targets specified in the `BuildDependsOn` property must run first. The `BuildDependsOn` property is defined as:
-
-```xml
-<PropertyGroup>
-    <BuildDependsOn>
-        BeforeBuild;
-        CoreBuild;
-        AfterBuild
-    </BuildDependsOn>
-</PropertyGroup>
-```
-
-You can override this property value by declaring another property named `BuildDependsOn` at the end of your project file. By including the previous `BuildDependsOn` property in the new property, you can add new targets to the beginning and end of the target list. For example:
-
-```xml
-<PropertyGroup>
-    <BuildDependsOn>
-        MyCustomTarget1;
-        $(BuildDependsOn);
-        MyCustomTarget2
-    </BuildDependsOn>
-</PropertyGroup>
-
-<Target Name="MyCustomTarget1">
-    <Message Text="Running MyCustomTarget1..."/>
-</Target>
-<Target Name="MyCustomTarget2">
-    <Message Text="Running MyCustomTarget2..."/>
-</Target>
-```
-
-Projects that import your project files can override these properties without overwriting the customizations that you have made.
-
-#### To override a DependsOn property
-
-1. Identify a predefined DependsOn property in the common targets that you want to override. See the table below for a list of the commonly overridden DependsOn properties.
-
-2. Define another instance of the property or properties at the end of your project file. Include the original property, for example `$(BuildDependsOn)`, in the new property.
-
-3. Define your custom targets before or after the property definition.
-
-4. Build the project file.
-
-### Commonly overridden DependsOn properties
-
-|Property name|Description|
-|-------------------|-----------------|
-|`BuildDependsOn`|The property to override if you want to insert custom targets before or after the entire build process.|
-|`CleanDependsOn`|The property to override if you want to clean up output from your custom build process.|
-|`CompileDependsOn`|The property to override if you want to insert custom processes before or after the compilation step.|
-
-## Example: BuildDependsOn and CleanDependsOn
-
-The following example is similar to the `BeforeTargets` and `AfterTargets` example, but shows how to achieve similar functionality. It extends the build by using `BuildDependsOn` to add your own task `CustomAfterBuild` that copies the output files after the build, and also adds the corresponding `CustomClean` task by using `CleanDependsOn`.  
-
-In this example, this is an SDK-style project. As mentioned in the note about SDK-style projects earlier in this article, you must use the manual import method instead of the `Sdk` attribute that Visual Studio uses when it generates project files.
-
-```xml
-<Project>
-  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk"/>
-
-  <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-  </PropertyGroup>
-
-  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk"/>
-
-  <PropertyGroup>
-    <BuildDependsOn>
-      $(BuildDependsOn);CustomAfterBuild
-    </BuildDependsOn>
-
-    <CleanDependsOn>
-      $(CleanDependsOn);CustomClean
-    </CleanDependsOn>
-
-    <_OutputCopyLocation>$(OutputPath)..\..\CustomOutput\</_OutputCopyLocation>
-  </PropertyGroup>
-
-  <Target Name="CustomAfterBuild">
-    <ItemGroup>
-      <_FilesToCopy Include="$(OutputPath)**\*"/>
-    </ItemGroup>
-    <Message Importance="high" Text="_FilesToCopy: @(_FilesToCopy)"/>
-
-    <Message Text="DestFiles:
-      @(_FilesToCopy-&gt;'$(_OutputCopyLocation)%(RecursiveDir)%(Filename)%(Extension)')"/>
-
-    <Copy SourceFiles="@(_FilesToCopy)"
-          DestinationFiles="@(_FilesToCopy-&gt;'$(_OutputCopyLocation)%(RecursiveDir)%(Filename)%(Extension)')"/>
-  </Target>
-
-  <Target Name="CustomClean">
-    <Message Importance="high" Text="Inside Custom Clean"/>
-    <ItemGroup>
-      <_CustomFilesToDelete Include="$(_OutputCopyLocation)**\*"/>
-    </ItemGroup>
-    <Delete Files="@(_CustomFilesToDelete)"/>
-  </Target>
-</Project>
-```
-
-The order of elements is important. The `BuildDependsOn` and `CleanDependsOn` elements must appear after importing the standard SDK targets file.
 
 ## Next steps
 
