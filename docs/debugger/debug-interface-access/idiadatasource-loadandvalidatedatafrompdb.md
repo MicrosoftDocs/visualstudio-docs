@@ -1,5 +1,5 @@
 ---
-description: "Opens and verifies that the program database (.pdb) file matches the signature information provided, and  prepares the .pdb file as a debug data source."
+description: Opens and verifies that the program database (.pdb) file matches the signature information provided, and prepares the .pdb file as a debug data source.
 title: "IDiaDataSource::loadAndValidateDataFromPdb"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,14 +12,15 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaDataSource::loadAndValidateDataFromPdb
 
-Opens and verifies that the program database (.pdb) file matches the signature information provided, and  prepares the .pdb file as a debug data source.
+Opens and verifies that the program database (.pdb) file matches the signature information provided, and prepares the .pdb file as a debug data source.
 
 ## Syntax
 
-```C++
-HRESULT loadAndValidateDataFromPdb ( 
+```c++
+HRESULT loadAndValidateDataFromPdb ( 
    LPCOLESTR pdbPath,
    GUID*     pcsig70,
    DWORD     sig,
@@ -28,13 +29,14 @@ HRESULT loadAndValidateDataFromPdb ( 
 ```
 
 #### Parameters
+
 `pdbPath`
 
 [in] The path to the .pdb file.
 
 `pcsig70`
 
-[in] The GUID signature to verify against the .pdb file signature. Only .pdb files in Visual C++ and later have GUID signatures.
+[in] The globally unique identifier (GUID) signature to verify against the .pdb file signature. Only .pdb files in Visual C++ and later have GUID signatures.
 
 `sig`
 
@@ -42,9 +44,10 @@ HRESULT loadAndValidateDataFromPdb ( 
 
 `age`
 
-[in] Age value to verify. The age does not necessarily correspond to any known time value, it is used to determine if a .pdb file is out of sync with a corresponding .exe file.
+[in] Age value to verify. The age does not necessarily correspond to any known time value, it is used to determine whether a .pdb file is out of sync with a corresponding .exe file.
 
 ## Return Value
+
 If successful, returns `S_OK`; otherwise, returns an error code. The following table shows the possible return values for this method.
 
 |Value|Description|
@@ -57,6 +60,7 @@ If successful, returns `S_OK`; otherwise, returns an error code. The following t
 |E_UNEXPECTED|The data source has already been prepared.|
 
 ## Remarks
+
 A .pdb file contains both signature and age values. These values are replicated in the .exe or .dll file that matches the .pdb file. Before preparing the data source, this method verifies that the named .pdb file's signature and age match the values provided.
 
 To load a .pdb file without validation, use the [IDiaDataSource::loadDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md) method.
@@ -67,7 +71,7 @@ To load a .pdb file directly from memory, use the [IDiaDataSource::loadDataFromI
 
 ## Example
 
-```C++
+```c++
 IDiaDataSource* pSource;  // Previously created data source.
 DEFINE_GUID(expectedGUIDSignature,0x1234,0x5678,0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08);
 DWORD expectedFileSignature = 0x12345678;
@@ -86,6 +90,7 @@ if (FAILED(hr))
 ```
 
 ## See also
+
 - [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
 - [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)
 - [IDiaDataSource::loadDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md)
