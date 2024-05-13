@@ -1,5 +1,5 @@
 ---
-title: "CV_HREG_e"
+title: CV_HREG_e
 description: Get reference information about the CV_HREG_e enumeration type, which specifies a target register in the debug interface access SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # CV_HREG_e
 
 Specifies a target register.
@@ -21,7 +22,7 @@ Specifies a target register.
 
 ## Syntax
 
-```C++
+```c++
 enum CV_HREG_e {
     // Register subset shared by all processor types
     CV_ALLREG_ERR    = 30000,
@@ -408,7 +409,7 @@ enum CV_HREG_e {
 | ---------------------- | --------------------------------------------------------------------------- |
 | CV_REG_*               | Registers used by Intel 80x86 and ix86 processors and p-code.               |
 | CV_R68_*               | Registers used by 68K processor.                                            |
-| CV_M4_*                | Registers used by MIPS 4000 series processor.                               |
+| CV_M4_*                | Registers used by Microprocessor without Interlocked Pipelined Stages (MIPS) 4000 series processor.                               |
 | CV_ALPHA_*             | Registers used by Digital Equipment Corporation Alpha AXP series processor. |
 | CV_PPC_*               | Registers used by Motorola/IBM PowerPC processor.                           |
 | CV_SH3_* and CV_SH_\\* | Registers used by Hitachi SH3 and Hitachi SH series processor.              |
@@ -419,6 +420,7 @@ enum CV_HREG_e {
 | CV_M32R_*              | Registers used by Mitsubishi M32R processor.                                |
 
 ## Remarks
+
 Each processor type uses its own unique set of registers.
 
 The values in this enumeration are passed to the following methods:
@@ -434,9 +436,11 @@ The values in this enumeration are passed to the following methods:
 - [IDiaStackFrame::get_registerValue](../../debugger/debug-interface-access/idiastackframe-get-registervalue.md)
 
 ## Requirements:
+
 Header: cvconst.h
 
 ## See also
+
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 - [IDiaStackWalkFrame::get_registerValue](../../debugger/debug-interface-access/idiastackwalkframe-get-registervalue.md)
 - [IDiaStackWalkFrame::put_registerValue](../../debugger/debug-interface-access/idiastackwalkframe-put-registervalue.md)

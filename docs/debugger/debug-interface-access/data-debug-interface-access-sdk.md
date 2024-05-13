@@ -1,6 +1,6 @@
 ---
-description: "All variables, such as parameters, local variables, global variables, and class members, are identified by SymTagData symbols."
-title: "Data (Debug Interface Access SDK)"
+description: All variables, such as parameters, local variables, global variables, and class members, are identified by SymTagData symbols.
+title: Data (Debug Interface Access SDK)
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -15,12 +15,14 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # Data (Debug Interface Access SDK)
 
 All variables, such as parameters, local variables, global variables, and class members, are identified by `SymTagData` symbols. Constant values (`LocIsConstant`) are also identified with this type.
 
 ## Properties
- The following table shows the properties that are valid for this symbol type.
+
+The following table shows the properties that are valid for this symbol type.
 
 |Property|Data type|Description|
 |--------------|---------------|-----------------|
@@ -56,6 +58,7 @@ All variables, such as parameters, local variables, global variables, and class 
 |[IDiaSymbol::get_volatileType](../../debugger/debug-interface-access/idiasymbol-get-volatiletype.md)|`BOOL`|`TRUE` if the data is marked as volatile.|
 
 ## See also
+
 - [CV_access_e Enumeration](../../debugger/debug-interface-access/cv-access-e.md)
 - [DataKind Enumeration](../../debugger/debug-interface-access/datakind.md)
 - [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
