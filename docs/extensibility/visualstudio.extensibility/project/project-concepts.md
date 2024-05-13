@@ -82,7 +82,7 @@ Filtering types facilitate the refinement and focus of query results. Please not
 |ConfigurationsByName| Filters the query results to a specific configuration name.
 |FilesByPath| Filters the query results to a specific file path.
 |OutputGroupsByName| Filters the query results to a specific output group name.
-|ProjectsByCapabilities| Filters the query to a specific project capabilities.
+|ProjectsByCapabilities| Filters the query to specific project capabilities.
 |ProjectsByPath| Filters the query results to a specific project path.
 |ProjectsByProjectGuid| Filters the query results to a specific project guid.
 |RuleResultsByRuleName| Filters the query to a specific rule name.
