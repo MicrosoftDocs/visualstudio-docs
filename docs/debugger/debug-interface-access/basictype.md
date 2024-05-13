@@ -1,5 +1,5 @@
 ---
-title: "BasicType"
+title: BasicType
 description: Find reference information about the BasicType enumeration, which specifies a symbol's basic type in the Visual Studio debug interface access SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,13 +12,14 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # BasicType
 
 Specifies the symbol's basic type.
 
 ## Syntax
 
-```C++
+```c++
 enum BasicType {
     btNoType   = 0,
     btVoid     = 1,
@@ -68,12 +69,15 @@ enum BasicType {
 | btHresult  | Basic type is an `HRESULT`.                          |
 
 ## Remarks
+
 The values in this enumeration are returned by the [IDiaSymbol::get_baseType](../../debugger/debug-interface-access/idiasymbol-get-basetype.md) method.
 
 ## Requirements
+
 Header: cvconst.h
 
 ## See also
+
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 - [IDiaSymbol::get_baseType](../../debugger/debug-interface-access/idiasymbol-get-basetype.md)
 - [IDiaSymbol::get_length](../../debugger/debug-interface-access/idiasymbol-get-length.md)
