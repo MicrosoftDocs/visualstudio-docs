@@ -86,10 +86,12 @@ To attach to a running process in a Linux Docker container:
 
 4. Choose the corresponding container process from the list of **Available processes** and select **Attach** to start debugging your C# container process in Visual Studio!
 
-   ::: moniker range=">= vs-2022"   
+   ::: moniker range=">= vs-2022"
+
    ![Screenshot of the Attach to Process dialog in Visual Studio. Connection type is set to Docker (Linux Container) and the dotnet process is selected.](../debugger/media/vs-2022/docker-attach-complete.png "Completed Linux Docker Attach Menu")
    ::: moniker-end
-   ::: moniker range="vs-2019"   
+   ::: moniker range="vs-2019"
+
    ![Screenshot of the Attach to Process dialog in Visual Studio. Connection type is set to Docker (Linux Container) and the dotnet process is selected.](../debugger/media/docker-attach-complete.png "Completed Linux Docker Attach Menu")
    ::: moniker-end
 
@@ -106,10 +108,12 @@ To attach to a running process in a Windows Docker container:
 
 2. Set the **Connection type** to **Docker (Windows Container)**.
 
-   ::: moniker range=">= vs-2022"  
+   ::: moniker range=">= vs-2022"
+
    ![Screenshot of the Attach to Process dialog in Visual Studio showing a Connection type of Docker (Windows Container).](../debugger/media/vs-2022/attach-process-menu-docker-windows.png "Attach_To_Process_Menu")
    ::: moniker-end
-   ::: moniker range="vs-2019"  
+   ::: moniker range="vs-2019"
+
    ![Screenshot of the Attach to Process dialog in Visual Studio showing a Connection type of Docker (Windows Container).](../debugger/media/attach-process-menu-docker-windows.png "Attach_To_Process_Menu")
    ::: moniker-end
 
@@ -128,9 +132,11 @@ To attach to a running process in a Windows Docker container:
 
 4. Choose the corresponding container process from the list of **Available processes** and select **Attach** to start debugging your C# container process.
 
-   ::: moniker range=">= vs-2022"  
+   ::: moniker range=">= vs-2022"
+
    ![Screenshot of the Attach to Process dialog in Visual Studio. Connection type is set to Docker (Windows Container) and the dotnet.exe process is selected.](../debugger/media/vs-2022/docker-attach-complete-windows.png "Completed Windows Docker Attach Menu")
    ::: moniker-end
-   ::: moniker range="vs-2019"  
+   ::: moniker range="vs-2019"
+
    ![Screenshot of the Attach to Process dialog in Visual Studio. Connection type is set to Docker (Windows Container) and the dotnet.exe process is selected.](../debugger/media/docker-attach-complete-windows.png "Completed Windows Docker Attach Menu")
    ::: moniker-end
