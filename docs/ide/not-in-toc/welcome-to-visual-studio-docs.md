@@ -11,7 +11,7 @@ f1_keywords:
  - vs.ViewHelp
  - MSDNSTART
  - vs.Default.Query
-ms.date: 02/28/2023
+ms.date: 05/14/2024
 ROBOTS: NOINDEX,NOFOLLOW
 ---
 # Welcome to the Visual Studio docs
