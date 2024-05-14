@@ -1,7 +1,7 @@
 ---
 title: About GitHub Copilot Chat in Visual Studio
 description: Learn about the fully integrated AI-powered GitHub Copilot Chat extension in Visual Studio, and how you can use the chat interface to ask and receive answers to coding-related questions from right within the IDE.
-ms.date: 4/09/2024
+ms.date: 5/14/2024
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
@@ -34,7 +34,7 @@ To get started, you need:
 + Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later
 + Active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business)
 + [**GitHub Copilot**](visual-studio-github-copilot-install-and-states.md) in Visual Studio
-+ Sign in to Visual Studio with the GitHub account that has an active GitHub Copilot subscription
++ [Sign in to Visual Studio with the GitHub account](work-with-github-accounts.md) that has an active GitHub Copilot subscription
 
 ## Get GitHub Copilot Chat for Visual Studio
 
