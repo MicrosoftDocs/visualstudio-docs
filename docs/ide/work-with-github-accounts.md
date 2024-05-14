@@ -1,6 +1,6 @@
 ---
 title: Add GitHub accounts to your keychain
-ms.date: 05/16/2023
+ms.date: 05/14/2024
 ms.topic: how-to
 description: Add your public GitHub or GitHub Enterprise account to your Visual Studio keychain so you can track code changes in GitHub repositories from Visual Studio.
 author: anandmeg
@@ -81,7 +81,7 @@ Then, follow these instructions to add your GitHub account.
 
 ## Enabling GitHub enterprise accounts
 
-By default, Visual Studio only has public GitHub accounts enabled.
+By default, Visual Studio only has public GitHub accounts enabled. Use the following steps to add a GitHub Enterprise Server account or an account associated with `.ghe.com` endpoints.
 
 ::: moniker range="<=vs-2019"
 
@@ -108,6 +108,9 @@ By default, Visual Studio only has public GitHub accounts enabled.
    :::image type="content" source="../ide/media/vs-2022/github-enterprise-endpoint-signin.png" alt-text="Screenshot showing the Sign in with GitHub Enterprise.":::
 
 1. After you enter your GitHub Enterprise server address, select **Sign in with your browser**. There, you can sign in using your GitHub Enterprise credentials.
+
+> [!NOTE]
+>  To add an account to access `github.com` resources, such as `github.com/enterprises/*`, follow the [steps for adding public GitHub accounts](#adding-public-github-accounts).
 
 ::: moniker-end
 
