@@ -32,11 +32,14 @@ You can customize the way Visual Studio displays data types in debugger variable
 
 In C#, Visual Basic, F#, and C++ (C++/CLI code only), you can add expansions for custom data using <xref:System.Diagnostics.DebuggerDisplayAttribute>, <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, and <xref:System.Diagnostics.DebuggerBrowsableAttribute>.
 
-In .NET Framework 2.0 code, Visual Basic does not support the DebuggerBrowsable attribute. This limitation is removed in more recent versions of .NET.
+In .NET Framework 2.0 code, Visual Basic doesn't support the DebuggerBrowsable attribute. This limitation is removed in more recent versions of .NET.
 
 ## Visualizers
 
-You can write a visualizer to display any .NET data type. For more information, see [Custom visualizers](create-custom-visualizers-of-data.md).
+There are two options to create a visualizer for a .NET type:
+
+* **Using the VisualStudio.Extensibility SDK**: Starting in Visual Studio 2022 version 17.9, Visual Studio ships a new way to create custom visualizers that offers, among other things, simple extension installation, and the ability to target newer versions of .NET. This option is the recommended API, except in cases where the visualizer and the visualized type should ship together, or in cases where an older version of Visual Studio needs to be supported. For more information, see [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md).
+* **Using Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer**: For more information on this approach, see [Custom visualizers](create-custom-visualizers-of-data.md).
 
 > [!NOTE]
 > To create a visualizer for C/C++ objects, see [UIVisualizer element](../debugger/create-custom-views-of-native-objects.md#BKMK_UIVisualizer) within the [Natvis](../debugger/create-custom-views-of-native-objects.md) documentation. Also, see the [C/C++ custom visualizer sample](https://github.com/Microsoft/ConcordExtensibilitySamples/tree/master/CppCustomVisualizer) or the [SQLite native Debugger Visualizer](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/SqliteVisualizer) sample.
