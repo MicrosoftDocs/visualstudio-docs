@@ -32,7 +32,7 @@ You must have Visual Studio installed and the **Desktop development with C++** w
 
 ::: moniker range="<=vs-2019"
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Release and Build History](/visualstudio/releases/2019/history) page to learn more.
 
 ::: moniker-end
 
