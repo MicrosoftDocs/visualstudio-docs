@@ -116,7 +116,7 @@ void ParameterizedTest(int n)
 <a name="maxruns"></a>
 ## MaxRuns
 
-Th emaximum number of runs that IntelliTest will try during the exploration of a test.
+The maximum number of runs that IntelliTest will try during the exploration of a test.
 
 The motivation behind this exploration bound is that any code which contains loops or recursion might have an infinite number of execution paths, and thus IntelliTest needs to be limited during [input generation](input-generation.md).
 

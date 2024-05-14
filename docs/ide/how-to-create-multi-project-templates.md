@@ -187,7 +187,7 @@ This example uses the **SolutionFolder** element to divide the projects into two
 
 ## Example with project references
 
-This example shows how to add project references to a multi-project template and is essentialy an extension of the [multi-project template](#create-multi-project-templates) example.
+This example shows how to add project references to a multi-project template and is essentially an extension of the [multi-project template](#create-multi-project-templates) example.
 
 In this example the solution contains two projects, **MultiProject.Client** and **MultiProject.Shared**. The project **MultiProject.Client** references **MultiProject.Shared**.
 
@@ -233,7 +233,7 @@ The *MultiProject.Client\MyTemplate.vstemplate* might look something like the fo
 </VSTemplate>
 ```
 
-The *MultiProject.Client\MultiProject.Client.csproj* might look something like the follwoing. Please note that the attribute **Include** of the *ProjectReference* uses the template variable [\$ext_safeprojectname\$](./template-parameters.md#reserved-template-parameters)
+The *MultiProject.Client\MultiProject.Client.csproj* might look something like the following. Please note that the attribute **Include** of the *ProjectReference* uses the template variable [\$ext_safeprojectname\$](./template-parameters.md#reserved-template-parameters)
 
 ```xml
 <Project>

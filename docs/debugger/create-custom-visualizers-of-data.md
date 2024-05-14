@@ -22,6 +22,9 @@ ms.subservice: debug-diagnostics
 
 # Custom data visualizers for the Visual Studio debugger (.NET)
 
+> [!IMPORTANT]
+> Starting with Visual Studio 2022 version 17.9, visualizers can now be written in .NET 6.0+ that run out-of-process using the new VisualStudio.Extensibility model. We encourage visualizer authors to reference the new documentation at [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md) unless they want to support older versions of Visual Studio or want to ship their custom visualizers as part of a library DLL.
+
 A *visualizer* is part of the Visual Studio debugger user interface that displays a variable or object in a manner appropriate to its data type. For example, a [bitmap visualizer](/previous-versions/visualstudio/visual-studio-2015/debugger/image-watch/image-watch) interprets a bitmap structure and displays the graphic it represents. Some visualizers let you modify as well as view the data. In the debugger, a visualizer is represented by a magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon"). You can select the icon in a **DataTip**, debugger **Watch** window, or **QuickWatch** dialog box, and then select the appropriate visualizer for the corresponding object.
 
 In addition to the [standard built-in visualizers](../debugger/view-strings-visualizer.md), more visualizers might be available for download from Microsoft, third parties, and the community. You can also write your own visualizers and install them in the Visual Studio debugger.
@@ -68,6 +71,9 @@ To create the visualizer user interface on the debugger side, you create a class
 
 1. Create a class that inherits from <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>.
 
+  > [!NOTE]
+  > Due to the security issues described in the section below, starting with Visual Studio 2022 version 17.11, visualizers won't be able to specify the `Legacy` formatter policy in the base class' constructor. From now on, visualizers can only use JSON serialization to communicate between the *debugger* and *debuggee-side* components.
+
 1. Override the <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer.Show%2A?displayProperty=fullName> method to display your interface. Use <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDialogVisualizerService> methods to display Windows forms, dialogs, and controls in your interface.
 
 1. Apply <xref:System.Diagnostics.DebuggerVisualizerAttribute>, giving it the visualizer to display (<xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>).
@@ -79,7 +85,7 @@ Moreover, it has been marked completely obsolete in ASP.NET Core 5 and its usage
 [ASP.NET Core Documentation](/dotnet/core/compatibility/core-libraries/5.0/binaryformatter-serialization-obsolete).
 This section describes the steps you should take to make sure your visualizer is still supported in this scenario.
 
-- For compatibility reasons, the <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer.Show%2A> method that was overridden in the preceding section still takes in an <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider>. However, starting in Visual Studio 2019 version 16.10, it is actually of type <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider2>.
+- For compatibility reasons, the <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer.Show%2A> method that was overridden in the preceding section still takes in an <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider>. However, starting in Visual Studio 2019 version 16.10, it is actually of type <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider3>.
 For this reason, cast the `objectProvider` object to the updated interface.
 
 - When sending objects, like commands or data, to the *debuggee-side* use the `IVisualizerObjectProvider2.Serialize` method
@@ -89,7 +95,7 @@ Then, pass the stream to the `IVisualizerObjectProvider2.TransferData` method.
 - If the *debuggee-side* visualizer component needs to return anything to the *debugger-side*, it will be located in the
 <xref:System.IO.Stream> object returned by the <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.TransferData%2A>
 method. Use the `IVisualizerObjectProvider2.GetDeserializableObjectFrom` method to get an
-<xref:Microsoft.VisualStudio.DebuggerVisualizers.IDeserializableObject> instance from it and process it as required.
+<xref:Microsoft.VisualStudio.DebuggerVisualizers.IDeserializableObject> instance from it and process it as required; or use <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider3.DeserializeFromJson%2A> if its a type that you know how to deserialize.
 
 Please refer to the [Special debuggee side considerations for .NET 5.0+](#special-debuggee-side-considerations-for-net-50)
 section to learn what other changes are required on the *debuggee-side* when using Binary Serialization is not supported.

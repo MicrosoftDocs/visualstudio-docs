@@ -1,7 +1,7 @@
 ---
 title: Specify files to publish (ClickOnce)
 description: Learn how to exclude files, mark files as data files or prerequisites, and create groups for conditional installation for a ClickOnce application.
-ms.date: 11/04/2016
+ms.date: 05/02/2024
 ms.topic: how-to
 f1_keywords: 
   - Microsoft.VisualStudio.Publish.BaseProvider.Dialog.File
@@ -19,15 +19,15 @@ ms.subservice: deployment
 ---
 # Specify which files are published by ClickOnce
 
-When publishing a ClickOnce application, all non-code files in the project are deployed along with the application. In some cases, you may not want or need to publish certain files, or you may want to install certain files based on conditions. Visual Studio provides the capabilities to exclude files, mark files as data files or prerequisites, and create groups of files for conditional installation.
+When publishing a ClickOnce application, all required files in the project are deployed along with the application. The default set of required files is determined by the project type (for example, a Windows Forms app). In some cases, you may not want or need to publish certain files, or you may want to install certain files based on conditions. Visual Studio provides the capabilities to include files, exclude files, mark files as data files or prerequisites, and create groups of files for conditional installation.
 
- Files for a ClickOnce application are managed in the **Application Files** dialog box, accessible from the **Publish** page of the **Project Designer**.
+Files for a ClickOnce application are managed in the **Application Files** dialog box, accessible from the **Publish** page of the **Project Designer**.
 
- Initially, there is a single file group named **(Required)**. You can create additional file groups and assign files to them. You cannot change the **Download Group** for files that are required for the application to run. For example, the application's .exe or files marked as data files must belong to the **(Required)** group.
+Initially, there is a single file group named **(Required)**. You can create additional file groups and assign files to them. You cannot change the **Download Group** for files that are required for the application to run. For example, the application's *.exe* or files marked as data files must belong to the **(Required)** group.
 
- The default publish status value of a file is tagged with **(Auto)**. For example, the application's .exe has a publish status of **Include (Auto)** by default.
+The default publish status value of a file is tagged with **(Auto)**. For example, the application's *.exe* has a publish status of **Include (Auto)** by default.
 
- Files with the **Build Action** property set to **Content** are designated as application files and will be marked as included by default. They can be included, excluded, or marked as data files. The exceptions are as follows:
+Files with the **Build Action** property set to **Content** are designated as application files and will be marked as included by default. They can be included, excluded, or marked as data files. The exceptions are as follows:
 
 - Data files such as SQL Database (*.mdf* and *.mdb*) files and XML files will be marked as data files by default.
 
