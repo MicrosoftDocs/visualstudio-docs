@@ -203,9 +203,21 @@ You can also use the **Account Settings** dialog to remove an account.
 
 If you're experiencing issues when adding or re-authenticating GitHub accounts, try the following steps:
 
+### HSTS Issues
 Verify that HTTP Strict Transport Security (HSTS) is not enabled for `localhost` on your system's default web browser:
 - On Microsoft Edge, you can type: edge://net-internals/#hsts and enter `localhost` under the **Delete domain security policies** section.
 - On Google Chrome, type: chrome://net-internals/#hsts and enter `localhost` under the **Delete domain security policies** section.
+
+### Run-As Issues
+Running Visual Studio using an account that does not match your signed in Windows account, may cause issues when adding GitHub accounts to Visual Studio. You may encounter this issue when using 3rd party products that attempt to run Visual Studio elevated.
+
+You can verify the user by following these steps:
+1. Open the Task Manager 
+2. Search for the devenv.exe process
+3. Open the node and ensure you don't see a name that's different than the one currently signed into Windows
+   
+To fix this, try adding your GitHub account with Visual Studio running as the same user who’s signed into Windows.
+
 
 > [!NOTE]
 > Please [report a problem](https://developercommunity.visualstudio.com/report?space=8&entry=problem) if you're still experiencing sign in issues.
