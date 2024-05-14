@@ -3,7 +3,7 @@ title: Assign subscriptions to multiple users
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/19/2024
+ms.date: 05/13/2024
 ms.topic: conceptual
 description: Assign multiple subscriptions to one or more users at the same time with the bulk operation features in the Subscriptions Admin Portal.
 ---
@@ -79,7 +79,8 @@ Using this feature makes it easy to stay on top of your subscription assignments
 > [!IMPORTANT]
 >
 > The following limitations apply to the use of Microsoft Entra groups for adding subscribers:
-> + **Only TRUSTED agreements are can use Microsoft Entra groups. (Only agreements who can 'overallocate' subscriptions are trusted.)**
+> + **Only TRUSTED agreements are can use Microsoft Entra groups.**
+> + **MPSA agreements can overallocate subscriptions but can't use Entra groups.**
 > + The admin must be a member of the Microsoft Entra tenant when initially adding a group to the admin portal. After the group has been added, changes to the membership of the groups does not require admin involvement. 
 > + Groups must contain at least one member. Empty groups are not supported.
 > + All users must be in the top level of the group. Nested groups are not supported.

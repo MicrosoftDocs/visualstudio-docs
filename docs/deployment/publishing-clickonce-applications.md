@@ -57,7 +57,7 @@ When publishing a ClickOnce application for the first time, publish properties c
 ### Application Files dialog box
  This dialog box allows you to specify how the files in your project are categorized for publishing, dynamic downloading, and updating. It contains a grid that lists the project files that are not excluded by default, or that have a download group.
 
- To exclude files, mark files as data files or prerequisites, and create groups of files for conditional installation in the Visual Studio UI, see [How to: Specify which files are published by ClickOnce](../deployment/how-to-specify-which-files-are-published-by-clickonce.md). You can also mark data files by using the Mage.exe. For more information, see [How to: Include a data file in a ClickOnce application](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md).
+ To include files, exclude files, mark files as data files or prerequisites, and create groups of files for conditional installation in the Visual Studio UI, see [How to: Specify which files are published by ClickOnce](../deployment/how-to-specify-which-files-are-published-by-clickonce.md). You can also mark data files by using the Mage.exe. For more information, see [How to: Include a data file in a ClickOnce application](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md).
 
 ### Prerequisites dialog box
  This dialog box specifies which prerequisite components are installed, as well as how they are installed. For more information, see [How to: Install prerequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md) and [Prerequisites dialog box](../ide/reference/prerequisites-dialog-box.md).

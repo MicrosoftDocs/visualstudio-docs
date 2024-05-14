@@ -165,6 +165,25 @@ If the weather data doesn't load correctly, you may also need to verify that you
    target: 'https://localhost:7049',
    ```
 
+## Docker
+
+If you create the project with [Docker support](../containers/overview.md#prerequisites-1) enabled, take the following steps:
+
+1. After the app loads, get the Docker HTTPS port using the [Containers window](../containers/view-and-diagnose-containers.md) in Visual Studio. Check the **Environment** or **Ports** tab.
+
+   :::image type="content" source="media/vs-2022/asp-net-core-with-angular-docker-container-ports.png" alt-text="Screenshot showing Docker container ports."::: 
+
+1. Open the `proxy.conf.js` file for the Angular project. Update the `target` variable to match the HTTPS port in the Containers window. For example, in the following code:
+
+   ```js
+   const target = env.ASPNETCORE_HTTPS_PORT ? `https://localhost:${env.ASPNETCORE_HTTPS_PORT}` :
+      env.ASPNETCORE_URLS ? env.ASPNETCORE_URLS.split(';')[0] : 'https://localhost:7209';
+   ```
+
+   change `https://localhost:7209` to `https://localhost:62958`.
+
+1. Restart the app.
+
 ## Next steps
 
 For more information about SPA applications in ASP.NET Core, see the Angular section under [Overview of Single-Page Apps (SPAs)](/aspnet/core/client-side/spa/intro?view=aspnetcore-7.0&preserve-view=true). The linked article provides additional context for project files such as *aspnetcore-https.js* and *proxy.conf.js*, although details of the implementation are different due to project template differences. For example, instead of a ClientApp folder, the Angular files are contained in a separate project.

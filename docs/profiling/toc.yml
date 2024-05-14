@@ -126,6 +126,8 @@
     href: gpu-usage.md
   - name: Analyze Resource Consumption
     href: application-timeline.md
+  - name: BenchmarkDotNet
+    href: profiling-with-benchmark-dotnet.md
   - name: Concurrency Visualizer
     items:
     - name: Overview of Concurrency Visualizer

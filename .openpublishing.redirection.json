@@ -1070,6 +1070,36 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/tips-for-debugging-threads-in-native-code.md",
+      "redirect_url": "/visualstudio/debugger/tips-for-debugging-threads",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/debugger/how-to-set-a-thread-name-in-managed-code.md",
+      "redirect_url": "/visualstudio/debugger/tips-for-debugging-threads-in-native-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-set-a-thread-name-in-native-code.md",
+      "redirect_url": "/visualstudio/debugger/tips-for-debugging-threads-in-native-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debug-threads-and-processes.md",
+      "redirect_url": "/visualstudio/debugger/debug-multithreaded-applications-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-edit-a-register-value.md",
+      "redirect_url": "/visualstudio/debugger/how-to-use-the-registers-window",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-display-and-hide-register-groups.md",
+      "redirect_url": "/visualstudio/debugger/how-to-use-the-registers-window",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/how-to-verify-iis-property-settings.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/how-to-verify-iis-property-settings",
       "redirect_document_id": false

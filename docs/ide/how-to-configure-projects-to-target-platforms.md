@@ -1,7 +1,7 @@
 ---
 title: 'Configure projects to target platforms'
 description: Set up your applications to target different platforms, including the ARM64 platform in Visual Studio with the Configuration Manager.
-ms.date: 11/01/2023
+ms.date: 05/06/2024
 ms.subservice: compile-build
 ms.topic: how-to
 helpviewer_keywords:
@@ -49,9 +49,9 @@ For .NET development, .NET 6 or later is required to target the Arm64 platform. 
 
 1. On the menu bar, choose **Build** > **Configuration Manager**.
 
-1. In the **Active solution platform** list, choose a  platform for the solution to target, and then choose the **Close** button.
+1. In the **Active solution platform** list, choose a platform for the solution to target, and then choose the **Close** button.
 
-    1. If the platform that you want doesn't appear in the **Active solution platform** list, choose **New**. After you install the tools for a particular platform, you'll be able to add the new solution and project configurations targeting that platform.
+    1. If the platform that you want doesn't appear in the **Active solution platform** list, choose **New**. After you install the tools for a particular platform, you'll be able to add the new solution and project configurations that target that platform.
 
          The **New Solution Platform** dialog box appears.
 
@@ -99,6 +99,10 @@ Performing this task varies based on the programming language you're using. See 
 - For Visual Basic projects, see [/platform (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/platform).
 
 - For C# projects, see [Build page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).
+
+### Prefer 32-bit setting
+
+The **Prefer 32-bit** setting in the **Build** page of the project designer for .NET Framework 4.5 or later projects handles the case where you're building the `AnyCPU` configuration, but you want your application to run in 32-bit mode when it's executed on platforms that support both 32-bit and 64-bit modes. If you enable the checkbox, the `PlatformTarget` build property is set to `anycpu32bitpreferred`. See comments on the [PlatformTarget](/dotnet/csharp/language-reference/compiler-options/output#platformtarget) for C# and [/platform](/dotnet/visual-basic/reference/command-line-compiler/platform) for Visual Basic.
 
 ### Manually editing the project file
 
