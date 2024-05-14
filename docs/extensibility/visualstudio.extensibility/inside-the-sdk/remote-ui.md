@@ -23,7 +23,7 @@ While Remote UI was developed to support out-of-process extensions, VisualStudio
 The main differences between Remote UI and normal WPF development are:
 
 - Most Remote UI operations, including binding to the data context and command execution, are asynchronous.
-- When defining data types to be used in Remote UI data contexts, they must be decorated with the `DataContract` and `DataMember` attributes.
+- When defining data types to be used in Remote UI data contexts, they must be decorated with the `DataContract` and `DataMember` attributes and their type must be serializable by Remote UI (see [here](#serializable-types-and-remote-ui-data-context) for details).
 - Remote UI doesn't allow referencing your own custom controls.
 - A *Remote user control* is fully defined in a single XAML file that references a single (but potentially complex and nested) data context object.
 - Remote UI doesn't support code behind or event handlers (workarounds are described in the [advanced Remote UI concepts](advanced-remote-ui.md) document).
@@ -153,15 +153,6 @@ Next, create a file named `MyToolWindowContent.xaml`:
 </DataTemplate>
 ```
 
-As described previously, this file must have the same name as the *remote user control* class. To be precise, the full name of the class extending [`RemoteUserControl`](/dotnet/api/microsoft.visualstudio.extensibility.ui.remoteusercontrol) must match the name of the embedded resource. For example, if the full name of the *remote user control class* is `MyToolWindowExtension.MyToolWindowContent`, the embedded resource name should be `MyToolWindowExtension.MyToolWindowContent.xaml`. By default, embedded resources are assigned a name that is composed by the root namespace for the project, any subfolder path they may be under, and their file name. This may create problems if your *remote user control class* is using a namespace different from the project's root namespace or if the xaml file isn't in the project's root folder. If necessary, you can force a name for the embedded resource by using the `LogicalName` tag:
-
-```xml
-<ItemGroup>
-  <EmbeddedResource Include="MyToolWindowContent.xaml" LogicalName="MyToolWindowExtension.MyToolWindowContent.xaml" />
-  <Page Remove="MyToolWindowContent.xaml" />
-</ItemGroup>
-```
-
 The XAML definition of the remote user control is normal WPF XAML describing a `DataTemplate`. This XAML is sent to Visual Studio and used to fill the tool window content. We use a special namespace (`xmlns` attribute) for Remote UI XAML: `http://schemas.microsoft.com/visualstudio/extensibility/2022/xaml`.
 
 ### Setting the XAML as an embedded resource
@@ -175,7 +166,14 @@ Finally, open the `.csproj` file and make sure that the XAML file is treated as 
 </ItemGroup>
 ```
 
-You can also change the target framework for your extension from `net6.0` to `net6.0-windows` in order to get better autocompletion in the XAML file.
+As described previously, the XAML file must have the same name as the *remote user control* class. To be precise, the full name of the class extending [`RemoteUserControl`](/dotnet/api/microsoft.visualstudio.extensibility.ui.remoteusercontrol) must match the name of the embedded resource. For example, if the full name of the *remote user control class* is `MyToolWindowExtension.MyToolWindowContent`, the embedded resource name should be `MyToolWindowExtension.MyToolWindowContent.xaml`. By default, embedded resources are assigned a name that is composed by the root namespace for the project, any subfolder path they may be under, and their file name. This may create problems if your *remote user control class* is using a namespace different from the project's root namespace or if the xaml file isn't in the project's root folder. If necessary, you can force a name for the embedded resource by using the `LogicalName` tag:
+
+```xml
+<ItemGroup>
+  <EmbeddedResource Include="MyToolWindowContent.xaml" LogicalName="MyToolWindowExtension.MyToolWindowContent.xaml" />
+  <Page Remove="MyToolWindowContent.xaml" />
+</ItemGroup>
+```
 
 ## Testing the extension
 
@@ -251,6 +249,19 @@ The content of the label is now set through databinding:
 The data context type here is marked with `DataContract` and `DataMember` attributes. This is because the `MyToolWindowData` instance exists in the extension host process while the WPF control created from `MyToolWindowContent.xaml` exists in the Visual Studio process. To make data binding work, the Remote UI infrastructure generates a proxy of the `MyToolWindowData` object in the Visual Studio process. The `DataContract` and `DataMember` attributes indicate which types and properties are relevant for data binding and should be replicated in the proxy.
 
 The data context of the *remote user control* is passed as a constructor parameter of the [`RemoteUserControl`](/dotnet/api/microsoft.visualstudio.extensibility.ui.remoteusercontrol) class: the `RemoteUserControl.DataContext` property is read-only. This doesn't imply that the whole data context is immutable, but the root data context object of a *remote user control* can't be replaced. In the next section, we will make `MyToolWindowData` mutable and observable.
+
+## Serializable types and Remote UI data context
+
+A Remote UI data context can only contain *serializable* types or, to be more precise, only `DataMember` properties of a serializable type can be databound to.
+
+Only the following types are serializable by Remote UI:
+
+- primitive data (most .NET numeric types, enums, `bool`, `string`, `DateTime`)
+- extender-defined types that are marked with `DataContract` and `DataMember` attributes (and all their data members are also serializable)
+- objects implementing [IAsyncCommand](https://learn.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.extensibility.ui.iasynccommand?view=vs-extensibility)
+- [XamlFragment](https://learn.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.extensibility.ui.xamlfragment?view=vs-extensibility), and [SolidColorBrush](https://learn.microsoft.com/en-us/dotnet/api/system.windows.media.solidcolorbrush?view=netframework-4.7.2) objects, and [Color](https://learn.microsoft.com/en-us/dotnet/api/system.windows.media.color?view=netframework-4.7.2) values
+- `Nullable<>` values for a serializable type
+- collections of serializable types, including observable collections.
 
 ## Lifecycle of a Remote User Control
 

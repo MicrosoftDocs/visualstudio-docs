@@ -23,6 +23,7 @@ You'll learn about:
 - How reference types are handled in the Remote UI data context and its proxy.
 - How to use an *async command* as an event handler.
 - How to disable a single button when its *async command*'s callback is executing if multiple buttons are bound to the same command.
+- How to use XAML resource dictionaries from a Remote UI control.
 - How to use WPF types, like complex brushes, in the Remote UI data context.
 - How Remote UI handles threading.
 
@@ -260,6 +261,74 @@ The `vs:ExtensibilityUICommands.EventHandlers` attached property allows assignin
 In this case, we use `vs:EventHandler` to attach to each button its own separate counter of active command executions. By binding `IsEnabled` to the attached property, only that specific button is disabled when the corresponding color is being removed:
 
 ![Diagram of async Command with targeted RunningCommandsCount.](./media/targeted-counter.gif)
+
+## User XAML resource dictionaries
+
+Starting with Visual Studio 17.10, Remote UI supports [XAML resource dictionaries](https://learn.microsoft.com/en-us/windows/apps/design/style/xaml-resource-dictionary). This allows multiple Remote UI controls to share styles, templates, and other resources. It also allows you to define different resources (E.g., strings) for different languages.
+
+Similarly to a Remote UI control XAML, resource files must be configured as embedded resources:
+
+```xml
+<ItemGroup>
+  <EmbeddedResource Include="MyResources.xaml" />
+  <Page Remove="MyResources.xaml" />
+</ItemGroup>
+```
+
+Remote UI references resource dictionaries in a different way than WPF: they are not added to the control's merged dictionaries (merged dictionaries are not supported at all by Remote UI) but referenced by name in the control's .cs file:
+
+```cs
+internal class MyToolWindowContent : RemoteUserControl
+{
+    public MyToolWindowContent()
+        : base(dataContext: new MyToolWindowData())
+    {
+        this.ResourceDictionaries.AddEmbeddedResource(
+            "MyToolWindowExtension.MyResources.xaml");
+    }
+...
+```
+
+`AddEmbeddedResource` takes the full name of the embedded resource which, by default, is composed by the root namespace for the project, any subfolder path they may be under, and the file name. It is possible to override such name by setting a `LogicalName` for the `EmbeddedResource` in the project file.
+
+The resource file itself is a normal WPF resource dictionary:
+
+```xml
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+  <system:String x:Key="removeButtonText">Remove</system:String>
+  <system:String x:Key="addButtonText">Add color</system:String>
+</ResourceDictionary>
+```
+
+You can reference a resource from the resource dictionary in the the Remote UI control using `DynamicResource`:
+
+```xml
+<Button Content="{DynamicResource removeButtonText}" ...
+```
+
+## Localizing XAML resource dictionaries
+
+Remote UI resource dictionaries can be localized in the same way as you would localize embedded resources. You create other XAML files with the same name and a language suffix, for example `MyResources.it.xaml` for Italian resources:
+
+```xml
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+  <system:String x:Key="removeButtonText">Rimuovi</system:String>
+  <system:String x:Key="addButtonText">Aggiungi colore</system:String>
+</ResourceDictionary>
+```
+
+You can use wildcards in the project file to include all localized XAML dictionaries as embedded resources:
+
+```xml
+<ItemGroup>
+  <EmbeddedResource Include="MyResources.*xaml" />
+  <Page Remove="MyResources.*xaml" />
+</ItemGroup>
+```
 
 ## Use WPF types in the data context
 
