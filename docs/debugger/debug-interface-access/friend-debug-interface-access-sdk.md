@@ -1,6 +1,6 @@
 ---
-description: "Friend classes and friend functions are identified by SymTagFriend symbols."
-title: "Friend (Debug Interface Access SDK)"
+description: Friend classes and friend functions are identified by SymTagFriend symbols.
+title: Friend (Debug Interface Access SDK)
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -14,12 +14,14 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # Friend (Debug Interface Access SDK)
 
 Friend classes and friend functions are identified by `SymTagFriend` symbols. They are children of parent user-defined types (UDTs) and have a [IDiaSymbol::get_classParent](../../debugger/debug-interface-access/idiasymbol-get-classparent.md) property.
 
 ## Properties
- The following table shows additional valid properties for this symbol type.
+
+The following table shows additional valid properties for this symbol type.
 
 |Property|Data type|Description|
 |--------------|---------------|-----------------|
@@ -32,4 +34,5 @@ Friend classes and friend functions are identified by `SymTagFriend` symbols. Th
 |[IDiaSymbol::get_typeId](../../debugger/debug-interface-access/idiasymbol-get-typeid.md)|`DWORD`|ID of the type symbol.|
 
 ## See also
+
 - [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)

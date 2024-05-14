@@ -64,4 +64,4 @@ The table updates to relevant values for the time selected in the graphs. Use th
 - [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md)
 - [dotnet counters](/dotnet/core/diagnostics/dotnet-counters)
 - [Identify hot paths with Flame Graph](../profiling/flame-graph.md)
-- [Analyze CPU usage](../profiling/cpu-usage.md)
+- [Analyze performance by using CPU profiling](../profiling/cpu-usage.md)

@@ -1,5 +1,5 @@
 ---
-title: "Compiland"
+title: Compiland
 description: Find reference information about the Compiland symbol type (SymTagCompiland) in the Visual Studio debug interface access SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -13,12 +13,14 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # Compiland
 
-There is one `SymTagCompiland` symbol for each Compiland linked to the .exe file. Compiland information is split between symbols with a `SymTagCompiland` tag, which can be retrieved without loading additional compiland symbols, and symbols with a `SymTagCompilandDetails` tag, which may require loading additional symbols.
+There is one `SymTagCompiland` symbol for each Compiland linked to the .exe file. Compiland information is split between symbols with a `SymTagCompiland` tag, which can be retrieved without loading additional compiland symbols, and symbols with a `SymTagCompilandDetails` tag, which might require loading additional symbols.
 
 ## Properties
- The following table shows the properties that are valid for this symbol type.
+
+The following table shows the properties that are valid for this symbol type.
 
 |Property|Data type|Description|
 |--------------|---------------|-----------------|
@@ -32,6 +34,7 @@ There is one `SymTagCompiland` symbol for each Compiland linked to the .exe file
 |[IDiaSymbol::get_symTag](../../debugger/debug-interface-access/idiasymbol-get-symtag.md)|`DWORD`|Returns `SymTagCompiland` (one of the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) values).|
 
 ## See also
+
 - [CompilandDetails](../../debugger/debug-interface-access/compilanddetails.md)
 - [CompilandEnv](../../debugger/debug-interface-access/compilandenv.md)
 - [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)

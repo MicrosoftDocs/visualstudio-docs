@@ -1,6 +1,6 @@
 ---
-description: "Each function is identified by a SymTagFunction symbol."
-title: "Function (Debug Interface Access SDK)"
+description: Each function is identified by a SymTagFunction symbol.
+title: Function (Debug Interface Access SDK)
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,12 +12,14 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # Function (Debug Interface Access SDK)
 
 Each function is identified by a `SymTagFunction` symbol.
 
 ## Properties
- The following table shows the properties that are valid for this symbol type.
+
+The following table shows the properties that are valid for this symbol type.
 
 |Property|Data type|Description|
 |--------------|-----------------|-----------------|
@@ -39,7 +41,7 @@ Each function is identified by a `SymTagFunction` symbol.
 |[IDiaSymbol::get_hasSetJump](../../debugger/debug-interface-access/idiasymbol-get-hassetjump.md)|`BOOL`|`TRUE` if the function contains a [setjmp](/cpp/c-runtime-library/reference/setjmp) call (only in DIA SDK V8.0 or later).|
 |[IDiaSymbol::get_interruptReturn](../../debugger/debug-interface-access/idiasymbol-get-interruptreturn.md)|`BOOL`|`TRUE` if the function has a return from interrupt (only in DIA SDK V8.0 or later).|
 |[IDiaSymbol::get_intro](../../debugger/debug-interface-access/idiasymbol-get-intro.md)|`BOOL`|`TRUE` if a function is intro virtual.|
-|[IDiaSymbol::get_InlSpec](../../debugger/debug-interface-access/idiasymbol-get-inlspec.md)|`BOOL`|`TRUE` if the function has been marked with one of the [inline, __inline, \__forceinline](/cpp/cpp/inline-functions-cpp) attributes.|
+|[IDiaSymbol::get_InlSpec](../../debugger/debug-interface-access/idiasymbol-get-inlspec.md)|`BOOL`|`TRUE` if the function has been marked with one of the [`inline, __inline, __forceinline`](/cpp/cpp/inline-functions-cpp) attributes.|
 |[IDiaSymbol::get_isNaked](../../debugger/debug-interface-access/idiasymbol-get-isnaked.md)|`BOOL`|`TRUE` if the function is marked with the [naked](/cpp/cpp/naked-cpp) attribute (only in DIA SDK V8.0 or later).|
 |[IDiaSymbol::get_isStatic](../../debugger/debug-interface-access/idiasymbol-get-isstatic.md)|`BOOL`|`TRUE` if the function is static (only in DIA SDK V8.0 or later).|
 |[IDiaSymbol::get_length](../../debugger/debug-interface-access/idiasymbol-get-length.md)|`ULONGLONG`|Number of bytes of function code, starting from location.|
@@ -68,6 +70,7 @@ Each function is identified by a `SymTagFunction` symbol.
 |[IDiaSymbol::get_volatileType](../../debugger/debug-interface-access/idiasymbol-get-volatiletype.md)|`BOOL`|`TRUE` if the function is marked as volatile.|
 
 ## See also
+
 - [CV_access_e Enumeration](../../debugger/debug-interface-access/cv-access-e.md)
 - [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
 - [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)

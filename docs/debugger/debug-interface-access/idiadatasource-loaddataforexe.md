@@ -1,5 +1,5 @@
 ---
-description: "Opens and prepares the debug data associated with the .exe/.dll file."
+description: Opens and prepares the debug data associated with the .exe/.dll file.
 title: "IDiaDataSource::loadDataForExe"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,13 +12,14 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaDataSource::loadDataForExe
 
 Opens and prepares the debug data associated with the .exe/.dll file.
 
 ## Syntax
 
-```C++
+```c++
 HRESULT loadDataForExe (
    LPCOLESTR executable,
    LPCOLESTR searchPath,
@@ -27,6 +28,7 @@ HRESULT loadDataForExe (
 ```
 
 #### Parameters
+
 executable
 
 [in] Path to the .exe or .dll file.
@@ -40,6 +42,7 @@ pCallback
 [in] An `IUnknown` interface for an object that supports a debug callback interface, such as the [IDiaLoadCallback](../../debugger/debug-interface-access/idialoadcallback.md), [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md), the [IDiaReadExeAtOffsetCallback](../../debugger/debug-interface-access/idiareadexeatoffsetcallback.md), and/or the [IDiaReadExeAtRVACallback](../../debugger/debug-interface-access/idiareadexeatrvacallback.md) interfaces.
 
 ## Return Value
+
 If successful, returns `S_OK`; otherwise, returns an error code. The following table shows some of the possible error codes for this method.
 
 |Value|Description|
@@ -52,9 +55,10 @@ If successful, returns `S_OK`; otherwise, returns an error code. The following t
 |E_UNEXPECTED|Data source has already been prepared.|
 
 ## Remarks
+
 The debug header of the .exe/.dll file names the associated debug data location.
 
-If you are loading debug data from a symbol server, *symsrv.dll* must be present in the same directory where either the user’s application or *msdia140.dll* is installed, or it must be present in the system directory.
+If you are loading debug data from a symbol server, *symsrv.dll* must be present in the same directory where either the user's application or *msdia140.dll* is installed, or it must be present in the system directory.
 
 This method reads the debug header and then searches for and prepares the debug data. The progress of the search may, optionally, be reported and controlled through callbacks. For example, the [IDiaLoadCallback::NotifyDebugDir](../../debugger/debug-interface-access/idialoadcallback-notifydebugdir.md) is invoked when the `IDiaDataSource::loadDataForExe` method finds and processes a debug directory.
 
@@ -68,7 +72,7 @@ To load a .pdb file directly from memory, use the [IDiaDataSource::loadDataFromI
 
 ## Example
 
-```C++
+```c++
 class MyCallBack: public IDiaLoadCallback
 {
 ...
@@ -83,6 +87,7 @@ if (FAILED(hr))
 ```
 
 ## See also
+
 - [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
 - [IDiaLoadCallback](../../debugger/debug-interface-access/idialoadcallback.md)
 - [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)
