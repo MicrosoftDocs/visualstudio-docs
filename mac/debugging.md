@@ -20,7 +20,7 @@ Visual Studio for Mac uses the [*Mono Soft Debugger*](https://www.mono-project.c
 
 Visual Studio for Mac uses the Mono Soft Debugger to debug managed (C# or F#) code in all Xamarin applications. The Mono Soft debugger is different from regular debuggers in that it's a cooperative debugger that is built into the Mono runtime; the generated code and Mono runtime cooperate with the IDE to provide a debugging experience. The Mono runtime exposes the debugging functionality through a wire protocol, which you can read more about [in the Mono documentation](https://www.mono-project.com/docs/advanced/runtime/docs/soft-debugger-wire-format/).
 
-Hard debuggers, such as [LLDB]( http://lldb.llvm.org/index.html) or [GDB]( https://www.gnu.org/software/gdb/), control a program without the knowledge or cooperation from the debugged program. It can still be useful when debugging Xamarin applications if you need to debug native iOS or Android code.
+Hard debuggers, such as [LLDB](http://lldb.llvm.org/index.html) or [GDB](https://www.gnu.org/software/gdb/), control a program without the knowledge or cooperation from the debugged program. It can still be useful when debugging Xamarin applications if you need to debug native iOS or Android code.
 
 For .NET Core and ASP.NET Core applications, Visual Studio for Mac uses the .NET Core debugger. This debugger is also a cooperative debugger and works with the .NET runtime.
 
