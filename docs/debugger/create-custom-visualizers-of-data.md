@@ -23,7 +23,7 @@ ms.subservice: debug-diagnostics
 # Custom data visualizers for the Visual Studio debugger (.NET)
 
 > [!IMPORTANT]
-> Starting with version 17.9, Visual Studio now supports writing visualizers in .NET 6.0+ that run out-of-process using the new VisualStudio.Extensibility model. We encourage visualizer authors to reference the new documentation at [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md) unless they want to support older versions of VS or want to ship their custom visualizers as part of a library DLL.
+> Starting with Visual Studio 2022 version 17.9, visualizers can now be written in .NET 6.0+ that run out-of-process using the new VisualStudio.Extensibility model. We encourage visualizer authors to reference the new documentation at [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md) unless they want to support older versions of Visual Studio or want to ship their custom visualizers as part of a library DLL.
 
 A *visualizer* is part of the Visual Studio debugger user interface that displays a variable or object in a manner appropriate to its data type. For example, a [bitmap visualizer](/previous-versions/visualstudio/visual-studio-2015/debugger/image-watch/image-watch) interprets a bitmap structure and displays the graphic it represents. Some visualizers let you modify as well as view the data. In the debugger, a visualizer is represented by a magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon"). You can select the icon in a **DataTip**, debugger **Watch** window, or **QuickWatch** dialog box, and then select the appropriate visualizer for the corresponding object.
 
@@ -72,7 +72,7 @@ To create the visualizer user interface on the debugger side, you create a class
 1. Create a class that inherits from <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>.
 
   > [!NOTE]
-  > Due to the security issues described in the section below, starting with Visual Studio 17.11, visualizers won't be able to specify the `Legacy` formatter policy in the base class' constructor. From now on, visualizers can only use JSON serialization to communicate between the *debugger* and *debuggee-side* components.
+  > Due to the security issues described in the section below, starting with Visual Studio 2022 version 17.11, visualizers won't be able to specify the `Legacy` formatter policy in the base class' constructor. From now on, visualizers can only use JSON serialization to communicate between the *debugger* and *debuggee-side* components.
 
 1. Override the <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer.Show%2A?displayProperty=fullName> method to display your interface. Use <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDialogVisualizerService> methods to display Windows forms, dialogs, and controls in your interface.
 

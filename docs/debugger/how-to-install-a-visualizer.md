@@ -20,7 +20,7 @@ ms.subservice: debug-diagnostics
 # Install a Visualizer
 
 > [!IMPORTANT]
-> Starting with version 17.9, Visual Studio now supports writing visualizers in .NET 6.0+ that run out-of-process using the new VisualStudio.Extensibility model. We encourage visualizer authors to reference the new documentation at [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md) unless they want to support older versions of VS or want to ship their custom visualizers as part of a library DLL.
+> Starting with Visual Studio 2022 version 17.9, visualizers can now be written in .NET 6.0+ that run out-of-process using the new VisualStudio.Extensibility model. We encourage visualizer authors to reference the new documentation at [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md) unless they want to support older versions of Visual Studio or want to ship their custom visualizers as part of a library DLL.
 
 After you have created a visualizer, you must install the visualizer so that it will be available in Visual Studio. Installing a visualizer is a simple process.
 
