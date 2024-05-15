@@ -28,7 +28,7 @@ Sets options for both the internal Web browser and Internet Explorer. To access 
 > [!Important]
 > This feature is deprecated in Visual Studio 2022 and won’t be supported going forward.
 >
-> For more information about Visual Studio 2022, check out our [release notes]( /visualstudio/releases/2022/release-notes) and the Visual Studio [roadmap](/visualstudio/productinfo/vs-roadmap/).
+> For more information about Visual Studio 2022, check out our [release notes](/visualstudio/releases/2022/release-notes) and the Visual Studio [roadmap](/visualstudio/productinfo/vs-roadmap/).
 
 > [!IMPORTANT]
 > Opening certain files or components from the Web can execute code on your computer.
