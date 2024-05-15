@@ -58,9 +58,9 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 5. [Collect data from a Web app or SharePoint application](#BKMK_Collect_Data_from_IIS_Application_Pools)
 
-     -or-
+    -or-
 
-     [Collect data from a managed app](#BKMK_Collect_Data_from_Executables)
+    [Collect data from a managed app](#BKMK_Collect_Data_from_Executables)
 
 6. [Open the .iTrace file in Visual Studio Enterprise](#BKMK_View_IntelliTrace_Log_Files)
 
@@ -171,7 +171,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
         `icacls "C:\IntelliTraceLogFiles" /grant "IIS APPPOOL\SharePoint - 80":F`
 
-       -or-
+        -or-
 
    - To set up permissions with Windows Explorer (or File Explorer):
 
