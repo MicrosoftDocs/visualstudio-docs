@@ -23,6 +23,8 @@ Targets must be ordered if the input to one target depends on the output of anot
 
 - `BeforeTargets` and `AfterTargets`. These `Target` attributes specify that this target should run before or after the specified targets.
 
+In general, you shouldn't depend on the declaration order to specify what tasks run before other tasks.
+
 A target is never run twice during a build, even if a subsequent target in the build depends on it. Once a target has been run, its contribution to the build is complete.
 
 Targets can have a `Condition` attribute. If the specified condition evaluates to `false`, the target isn't executed and has no effect on the build. For more information about conditions, see [Conditions](../msbuild/msbuild-conditions.md).
@@ -74,6 +76,13 @@ Targets can describe dependency relationships with each other. The `DependsOnTar
 ```
 
 tells MSBuild that the `Serve` target depends on the `Chop` target and the `Cook` target. MSBuild runs the `Chop` target, and then runs the `Cook` target before it runs the `Serve` target.
+
+> [!NOTE]
+> The standard targets in the SDK define a number of `DependsOn` properties that contain the list of dependencies (for example, `$(BuildDependsOn)`, `$(CleanDependsOn)`, and so on). For example,
+>
+> `<Target Name="Build" DependsOnTargets="$(BuildDependsOn)>`
+>
+> To customize a project, you can override the `DependsOn` properties with additional custom targets that extend the build process, as described in [Extend the Visual Studio build process](./how-to-extend-the-visual-studio-build-process.md).
 
 ## BeforeTargets and AfterTargets
 
@@ -132,6 +141,18 @@ MSBuild determines the target build order as follows:
 6. Before the target is executed, its `Inputs` attribute and `Outputs` attribute are compared. If MSBuild determines that any output files are out of date with respect to the corresponding input file or files, then MSBuild executes the target. Otherwise, MSBuild skips the target.
 
 7. After the target is executed or skipped, any other target that lists it in an `AfterTargets` attribute is run.
+
+## Best practices for custom targets
+
+When authoring a custom target, follow these general guidelines to ensure your target is executed in the right order.
+
+- Use `DependsOn` properties for anything you require to be done before your target executes, and prefer `DependsOn` dependencies for a chain of targets you control.
+
+- Use `BeforeTargets` for any target that you do not control that you must execute before (like `BeforeTargets="PrepareForBuild"` for a target that needs to run early in the build.
+
+- Use `AfterTargets` for any target that you do not control that guarantees the outputs you need are available. For example, specify `AfterTargets="ResolveReferences"` for something that will modify a list of references.
+
+- You can use these in combination. For example, `DependsOnTargets="GenerateAssemblyInfo" BeforeTargets="BeforeCompile"`
 
 ## Related content
 
