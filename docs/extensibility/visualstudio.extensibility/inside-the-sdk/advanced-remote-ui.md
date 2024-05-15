@@ -264,7 +264,7 @@ In this case, we use `vs:EventHandler` to attach to each button its own separate
 
 ## User XAML resource dictionaries
 
-Starting with Visual Studio 17.10, Remote UI supports [XAML resource dictionaries](https://learn.microsoft.com/en-us/windows/apps/design/style/xaml-resource-dictionary). This allows multiple Remote UI controls to share styles, templates, and other resources. It also allows you to define different resources (E.g., strings) for different languages.
+Starting with Visual Studio 17.10, Remote UI supports [XAML resource dictionaries](https://learn.microsoft.com/windows/apps/design/style/xaml-resource-dictionary). This allows multiple Remote UI controls to share styles, templates, and other resources. It also allows you to define different resources (E.g., strings) for different languages.
 
 Similarly to a Remote UI control XAML, resource files must be configured as embedded resources:
 
@@ -289,7 +289,7 @@ internal class MyToolWindowContent : RemoteUserControl
 ...
 ```
 
-`AddEmbeddedResource` takes the full name of the embedded resource which, by default, is composed by the root namespace for the project, any subfolder path they may be under, and the file name. It is possible to override such name by setting a `LogicalName` for the `EmbeddedResource` in the project file.
+`AddEmbeddedResource` takes the full name of the embedded resource which, by default, is composed of the root namespace for the project, any subfolder path it may be under, and the file name. It is possible to override such name by setting a `LogicalName` for the `EmbeddedResource` in the project file.
 
 The resource file itself is a normal WPF resource dictionary:
 
@@ -310,7 +310,7 @@ You can reference a resource from the resource dictionary in the the Remote UI c
 
 ## Localizing XAML resource dictionaries
 
-Remote UI resource dictionaries can be localized in the same way as you would localize embedded resources. You create other XAML files with the same name and a language suffix, for example `MyResources.it.xaml` for Italian resources:
+Remote UI resource dictionaries can be localized in the same way as you would localize embedded resources: you create other XAML files with the same name and a language suffix, for example `MyResources.it.xaml` for Italian resources:
 
 ```xml
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
