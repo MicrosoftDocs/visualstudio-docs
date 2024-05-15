@@ -43,7 +43,7 @@ If you're using wildcards to include all the files in one directory or a nested 
     <VBFile Include="*.vb" Exclude="Form2.vb"/>
     ```
 
-### To include all *.cs* or *.vb* files except `Form2` and `Form3`
+### To include all `.cs` or `.vb` files except `Form2` and `Form3`
 
 - Use one of the following `Include` and `Exclude` attributes:
 
