@@ -11,7 +11,7 @@ ms.subservice: general-ide
 ---
 # About the Git experience in Visual Studio
 
-Visual Studio provides a user interface for [Git](https://git-scm.com/docs/git), a widely used modern version control system. Whether your source code is hosted in a GitHub repository, Azure DevOps, or another Git provider, you can do all the common version control tasks within the Visual Studio IDE. Or, you can work locally with no provider at all.
+Visual Studio provides a user interface for [Git](https://git-scm.com/docs/git), a widely used modern version control system. Whether your source code is hosted in a GitHub repository, Azure DevOps, or another Git provider, you can do all the common version control tasks within the Visual Studio IDE. Or, you can work locally with no provider at all, with the option to back up your source later when you're ready to connect to a provider.
 
 The source code you work with doesn't have to have been created with Visual Studio. You can work with any source folder in any Git repo, whether there's a Visual Studio project file or not. 
 
