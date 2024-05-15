@@ -66,7 +66,7 @@ The following example shows how to use the `AfterTargets` attribute to add a cus
 
 ## Extend the DependsOn properties
 
-Another way to extend the build process is to use `DependsOnTargets` to specify a target that must run before your target runs.
+Another way to extend the build process is to use the `DependsOn` properties (for example, `BuildDependsOn`), to specify targets that should be run before a standard target.
 
 This method is preferable to overriding predefined targets, which is discussed in the next section. Overriding predefined targets is an older method that is still supported, but, because MSBuild evaluates the definition of targets sequentially, there is no way to prevent another project that imports your project from overriding the targets you already have overridden. So, for example, the last `AfterBuild` target defined in the project file, after all other projects have been imported, will be the one that is used during the build.
 
@@ -121,11 +121,17 @@ Projects that import your project files can override these properties without ov
 
 ### Commonly overridden DependsOn properties
 
-|Property name|Description|
-|-------------------|-----------------|
-|`BuildDependsOn`|The property to override if you want to insert custom targets before or after the entire build process.|
-|`CleanDependsOn`|The property to override if you want to clean up output from your custom build process.|
-|`CompileDependsOn`|The property to override if you want to insert custom processes before or after the compilation step.|
+| Property name | Added targets run before this point: |
+| - | - |
+| `BuildDependsOn` | The main build entry point. This is the property to override if you want to insert custom targets before or after the entire build process. |
+| `RebuildDependsOn` | The `Rebuild` |
+| `RunDependsOn` | The execution of the final build output (if it is a .EXE) |
+| `CompileDependsOn` |The compilation (`Compile` target). This is the te property to override if you want to insert custom processes before or after the compilation step. |
+| `CreateSatelliteAssembliesDependsOn` | The creation of the satellite assemblies |
+| `CleanDependsOn` | The `Clean` target (Deleting of all intermediate and final build outputs). This is the property to override if you want to clean up output from your custom build process. |
+| `PostBuildEventDependsOn` | The `PostBuildEvent` target |
+| `PublishBuildDependsOn` | Build publishing |
+| `ResolveAssemblyReferencesDependsOn` | The `ResolveAssemblyReferences` target (finding the transitive closure of dependencies for a given dependency). See [`ResolveAssemblyReference`](resolveassemblyreference-task.md). |
 
 ### Example: BuildDependsOn and CleanDependsOn
 
