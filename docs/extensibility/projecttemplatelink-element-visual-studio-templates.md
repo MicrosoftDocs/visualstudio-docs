@@ -21,7 +21,9 @@ Specifies the path to the *.vstemplate* file of one project in a multi-project t
  \<TemplateContent>
  \<ProjectCollection>
  \<ProjectTemplateLink>
--or-
+
+  -or-
+
 \<VSTemplate>
  \<TemplateContent>
  \<ProjectCollection>

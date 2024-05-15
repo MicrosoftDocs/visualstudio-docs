@@ -25,7 +25,7 @@ Boost.Test requires [Boost](https://www.boost.org/)! If you don't have Boost ins
 
     - Run `vcpkg install boost-test` to install the Boost.Test dynamic library.
 
-       -OR-
+       -or-
 
     - Run `vcpkg install boost-test:x86-windows-static` to install the Boost.Test static library.
 
