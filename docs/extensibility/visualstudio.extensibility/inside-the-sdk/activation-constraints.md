@@ -64,6 +64,7 @@ This section shows the list of currently supported activation constraints. Each 
 | [`ProjectAddedItem`](/dotnet/api/microsoft.visualstudio.extensibility.activationconstraint.projectaddeditem)(\<pattern>=\<regex>) | The term is true when a file matching the "pattern" is added to a project in the solution that is opened. |
 | [`SolutionHasProjectCapability`](/dotnet/api/microsoft.visualstudio.extensibility.activationconstraint.solutionhasprojectcapability)(\<expression>=[`ProjectCapability`](/dotnet/api/microsoft.visualstudio.extensibility.projectcapability)) | True whenever solution has a project with capabilities matching the provided subexpression. An expression can be something like `VB | CSharp`. For more about project capabilities, see [Project query API overview](../project/project.md). |
 | [`SolutionState`](/dotnet/api/microsoft.visualstudio.extensibility.activationconstraint.solutionstate)(\<state>=[`SolutionState`](/dotnet/api/microsoft.visualstudio.extensibility.solutionstate)) | True when solution state matches the provided value, see [solution states](#solution-states) for list of values. |
+| [`EditorContentType`](/dotnet/api/microsoft.visualstudio.extensibility.activationconstraint.editorcontenttype)(\<contentType>) | True when active editor content type is or inherits from specific content type.
 
 For compatibility reasons, the following legacy activation constraints are also supported:
 
@@ -73,6 +74,7 @@ For compatibility reasons, the following legacy activation constraints are also 
 | [`ActiveProjectFlavor`](/dotnet/api/microsoft.visualstudio.extensibility.activationconstraint.activeprojectflavor)(\<guid>) | True whenever the selected project has a flavor matching the given project type GUID. |
 | [`SolutionHasProjectBuildProperty`](/dotnet/api/microsoft.visualstudio.extensibility.activationconstraint.solutionhasprojectbuildproperty)(\<property>=\<regex>) | The term is true when solution has a loaded project with the specified build property and property value matches to regex filter provided. |
 | [`SolutionHasProjectFlavor`](/dotnet/api/microsoft.visualstudio.extensibility.activationconstraint.solutionhasprojectflavor)(\<guid>) | True whenever a solution has project that is flavored (aggregated) and has a flavor matching the given project type GUID. |
+| [`UIContext`](/dotnet/api/microsoft.visualstudio.extensibility.activationconstraint.uicontext)(\<guid>) | True when specified [UI Context](/dotnet/api/microsoft.visualstudio.vsconstants.uicontext) is active in Visual Studio instance. |
 
 ## Solution states
 
