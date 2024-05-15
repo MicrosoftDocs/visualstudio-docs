@@ -272,6 +272,18 @@ The following table shows all of the targets in the common targets that you can 
 |`BeforeResolveReferences`, `AfterResolveReferences`|Tasks that are inserted in one of these targets run before or after assembly references are resolved.|
 |`BeforeResGen`, `AfterResGen`|Tasks that are inserted in one of these targets run before or after resources are generated.|
 
+## Best practices for custom targets
+
+When authoring a custom target, follow these general guidelines to ensure your target is executed in the intended order.
+
+- Use `DependsOn` properties for anything you require to be done before your target executes, and prefer `DependsOn` dependencies for a chain of targets you control.
+
+- Use `BeforeTargets` for any target that you do not control that you must execute before (like `BeforeTargets="PrepareForBuild"` for a target that needs to run early in the build.
+
+- Use `AfterTargets` for any target that you do not control that guarantees the outputs you need are available. For example, specify `AfterTargets="ResolveReferences"` for something that will modify a list of references.
+
+- You can use these in combination. For example, `DependsOnTargets="GenerateAssemblyInfo" BeforeTargets="BeforeCompile"`
+
 ## Next steps
 
 There's much more you can do with MSBuild to customize the build. See [Customize your build](customize-your-build.md).
