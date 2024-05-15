@@ -18,7 +18,7 @@ App resource files, such as images, text files, and audio files, are necessary t
 Xamarin.Forms code runs on multiple platforms - each of which has its own filesystem and each file system dictates how to read and write to files. In Xamarin.Forms you can manage app resources by using the native file APIs on each platform, or by adding files as embedded resources.
 
 * [Working with Images](https://developer.xamarin.com/guides/xamarin-forms/user-interface/images/)
-* [Working with Files]( https://developer.xamarin.com/guides/xamarin-forms/application-fundamentals/files/)
+* [Working with Files](https://developer.xamarin.com/guides/xamarin-forms/application-fundamentals/files/)
 
 ## Xamarin.iOS
 
