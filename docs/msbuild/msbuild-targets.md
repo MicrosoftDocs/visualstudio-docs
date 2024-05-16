@@ -116,13 +116,13 @@ Reference: 4.0
 Some build targets depend on the SDK you're referencing, if any. To get all targets available for a project file, use the `-targets` or `-ts` command-line option. See [MSBuild command line reference](msbuild-command-line-reference.md). The build system contains a large number of targets that are for internal use by the build, which are usually indicated with an underscore (_) at the beginning of the target name. To get a list of the public targets only, try piping the output to something that filters out the underscores. For example, in bash when working with `dotnet build`, you can do the following:
 
 ```cli
-dotnet build -ts | grep -v '_'
+dotnet build -targets path/to/project.csproj | grep -v '_'
 ```
 
 In PowerShell, you can filter with:
 
 ```powershell
- dotnet build -ts | select-string -pattern '_' -NotMatch
+ dotnet build -targets path\to\project.csproj | select-string -pattern '_' -NotMatch
 ```
 
 If you're not using .NET, use `MSBuild.exe -ts` in place of `dotnet build -ts`, followed by the same piping and filtering operations.
