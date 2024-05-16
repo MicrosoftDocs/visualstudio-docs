@@ -6,7 +6,7 @@ ms.topic: include
 ms.assetid: a3635d25-8f9d-4cf8-a9c3-db41d155f989
 author: evanwindom
 ms.author: amast
-ms.date: 04/01/2024
+ms.date: 05/16/2024
 user.type: subscriber
 tags: download, activate
 subscription.type: vl, cloud, retail, partner
@@ -19,7 +19,7 @@ The software downloads available to you depends on the subscription you're using
 
 ## Excel list of available software 
 
-You can [download an extensive list](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx) of available software titles for all subscription types. To check what types are assigned to you, view your subscriptions in the [subscriptions portal](https://my.visualstudio.com/benefits). 
+You can [download an extensive list](https://aka.ms/vss_products_list) of available software titles for all subscription types. To check what types are assigned to you, view your subscriptions in the [subscriptions portal](https://my.visualstudio.com/benefits). 
 
 ## Find software downloads 
 1. Sign into the [subscriptions portal](https://my.visualstudio.com/benefits). 
