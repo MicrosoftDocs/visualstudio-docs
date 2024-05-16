@@ -1,7 +1,7 @@
 ---
 title: Exclude Files from the Build
 description: Discover how to explicitly exclude or conditionally include files from builds for MSBuild project files with attributes and wildcards.
-ms.date: 05/10/2023
+ms.date: 05/15/2024
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, wildcards
@@ -14,11 +14,11 @@ ms.subservice: msbuild
 ---
 # Exclude files from the build
 
-In a project file you can use wildcards to include all the files in one directory or a nested set of directories as inputs for a build. However, there might be one file in the directory or one directory in a nested set of directories that you do not want to include as input for a build. You can explicitly exclude that file or directory from the list of inputs. There may also be a file in a project that you only want to include under certain conditions. You can explicitly declare the conditions under which a file is included in a build.
+In a project file, you can use wildcards to include all the files in one directory or a nested set of directories as inputs for a build. However, there might be one file in the directory or one directory in a nested set of directories that you don't want to include as input for a build. You can explicitly exclude that file or directory from the list of inputs. There may also be a file in a project that you only want to include under certain conditions. You can explicitly declare the conditions under which a file is included in a build.
 
 ## Exclude a file or directory from the inputs for a build
 
- Item lists are the input files for a build. The items that you want to include are declared either separately or as a group using the `Include` attribute. For example:
+Item lists are the input files for a build. The items that you want to include are declared either separately or as a group using the `Include` attribute. For example:
 
 ```xml
 <CSFile Include="Form1.cs"/>
@@ -27,9 +27,9 @@ In a project file you can use wildcards to include all the files in one director
 <JPGFile Include="Images\**\*.jpg"/>
 ```
 
- If you have used wildcards to include all the files in one directory or a nested set of directories as inputs for a build, there might be one or more files in the directory or one directory in the nested set of directories that you do not want to include. To exclude an item from the item list, use the `Exclude` attribute.
+If you're using wildcards to include all the files in one directory or a nested set of directories as inputs for a build, there might be one or more files in the directory or one directory in the nested set of directories that you don't want to include. To exclude an item from the item list, use the `Exclude` attribute.
 
-### To include all *.cs* or *.vb* files except *Form2*
+### To include all `.cs` or `*.vb` files except `Form2`
 
 - Use one of the following `Include` and `Exclude` attributes:
 
@@ -43,7 +43,7 @@ In a project file you can use wildcards to include all the files in one director
     <VBFile Include="*.vb" Exclude="Form2.vb"/>
     ```
 
-### To include all *.cs* or *.vb* files except *Form2* and *Form3*
+### To include all `.cs` or `.vb` files except `Form2` and `Form3`
 
 - Use one of the following `Include` and `Exclude` attributes:
 
@@ -57,7 +57,7 @@ In a project file you can use wildcards to include all the files in one director
     <VBFile Include="*.vb" Exclude="Form2.vb;Form3.vb"/>
     ```
 
-### To include all *.jpg* files in subdirectories of the *Images* directory except those in the *Version2* directory
+### To include all `.jpg` files in subdirectories of the `Images` directory except those in the `Version2` directory
 
 - Use the following `Include` and `Exclude` attributes:
 
