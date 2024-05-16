@@ -3,7 +3,7 @@ title: Available software downloads
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 05/24/2023
+ms.date: 05/16/2024
 ms.topic: how-to
 description: Find software downloads that are available with your Visual Studio subscription, including searching by software title by subscription type.
 ---
@@ -24,7 +24,7 @@ To quickly find products, use the **Search** functions at the top of the page or
 
 ## See a list of available software titles by subscription type
 
-You can also download an Excel spreadsheet containing an extensive list of [available software titles](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx) for each subscription type.
+You can also download an Excel spreadsheet containing an extensive list of [available software titles](https://aka.ms/vss_products_list) for each subscription type.
 
 > [!NOTE]
 > The list of available products is updated frequently, but may not immediately reflect the most recent releases.  Older versions of products may not be listed separately if they were available as part of a suite.  For example, older versions of Microsoft Excel may be provided as part of a Microsoft Office suite only.
