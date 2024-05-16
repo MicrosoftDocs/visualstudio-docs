@@ -191,11 +191,11 @@ The order of elements is important. The `BuildDependsOn` and `CleanDependsOn` el
 
 The common `.targets` files contain a set of predefined empty targets that are called before and after some of the major targets in the build process. For example, MSBuild calls the `BeforeBuild` target before the main `CoreBuild` target and the `AfterBuild` target after the `CoreBuild` target. By default, the empty targets in the common targets do nothing, but you can override their default behavior by defining the targets you want in a project file. The methods described earlier in this article are preferred, but you might encounter older code that uses this method.
 
-If your project uses an SDK (for example `Microsoft.Net.Sdk`), you need to make a change from implicit to explicit imports, as discussed in [Explicit and implicit imports](#explicit-and-implicit-imports-in-sdk-style-projects).
+If your project uses an SDK (for example `Microsoft.Net.Sdk`), you need to make a change from implicit to explicit imports, as discussed in [Explicit and implicit imports](#explicit-and-implicit-impors).
 
 ### To override a predefined target
 
-1. If the project uses the `Sdk` attribute, change that to the explicit import syntax. See [Implicit imports in SDK-style projects](#implicit-imports-in-sdk-style-projects).
+1. If the project uses the `Sdk` attribute, change that to the explicit import syntax. See [Explicit and implicit imports](#explicit-and-implicit-impors).
 
 1. Identify a predefined target in the common targets that you want to override. See the table below for the complete list of targets that you can safely override.
 
