@@ -3,7 +3,7 @@ title: Product availability for downloads in Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 05/24/2023
+ms.date: 05/16/2024
 ms.topic: conceptual
 description:  Learn what products are available as software downloads in Visual Studio subscriptions
 ---
@@ -19,7 +19,7 @@ In general, commercial and consumer Microsoft products that are relevant for sof
 
 There are several reasons why particular products may not be available to subscribers:
 
-+ **The product is not included in your subscription level or program.** [Learn more](https://visualstudio.microsoft.com/vs/pricing/) about the software and benefits available with your subscription or [download the full list](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx) of products available by subscription level. Some programs, such as [Microsoft Partner Network](https://partner.microsoft.com/), provide Visual Studio subscriptions as a part of their benefits.  Those subscriptions don't include all products included in purchased Visual Studio subscriptions. Subscribers to these programs should direct questions about availability of product downloads to the support teams for those programs.
++ **The product is not included in your subscription level or program.** [Learn more](https://visualstudio.microsoft.com/vs/pricing/) about the software and benefits available with your subscription or [download the full list](https://aka.ms/vss_products_list) of products available by subscription level. Some programs, such as [Microsoft Partner Network](https://partner.microsoft.com/), provide Visual Studio subscriptions as a part of their benefits.  Those subscriptions don't include all products included in purchased Visual Studio subscriptions. Subscribers to these programs should direct questions about availability of product downloads to the support teams for those programs.
 + **The product is not included in subscriptions.** Some Microsoft products aren't included in subscriptions due to special licensing terms, technical restrictions, or developer relevance. If you would like to suggest adding a product to the subscription, send email to your Visual Studio [Customer Service Center](https://visualstudio.microsoft.com/subscriptions/support/).
 + **The product is publicly available.** Some tools, SDKs, DDKs, and service packs are publicly available from the [Microsoft Download Center](https://www.microsoft.com/download). Some such products may not be published to Downloads.
 + **The product has not yet released.**  Many prerelease (beta) versions and release candidates are available from Downloads. However, not all betas can be included; for instance, some betas require special registration or eligibility. 
@@ -28,7 +28,7 @@ There are several reasons why particular products may not be available to subscr
 
 ## What do I get?
 
-The number and type of downloads depends on your subscription level and program memberships.  Subscribers with Visual Studio Enterprise standard subscriptions, for example, may have different downloads available to them than subscribers who obtain their subscriptions through a Microsoft Partner Network or BizSpark program subscription.  To learn more about what downloads are available for each subscription level, download the list of [Products By Benefit Level](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx).
+The number and type of downloads depends on your subscription level and program memberships.  Subscribers with Visual Studio Enterprise standard subscriptions, for example, may have different downloads available to them than subscribers who obtain their subscriptions through a Microsoft Partner Network or BizSpark program subscription.  To learn more about what downloads are available for each subscription level, download the list of [Products By Benefit Level](https://aka.ms/vss_products_list).
 
 > [!NOTE]
 > If you have multiple subscriptions associated with the same email address, the software titles available to you are determined by the **highest** level subscription you have.  For example, if you have a Visual Studio Enterprise subscription and a Visual Studio Test Professional subscription, you'll have access to the software titles included with the Visual Studio Enterprise subscription, regardless of which subscription is currently in use in the subscriptions portal. 
