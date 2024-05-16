@@ -12,7 +12,7 @@ ms.subservice: msbuild
 ---
 # Use MSBuild project SDKs
 
-MSBuild provides a mechanism by which build infrastructure packaged as an SDK can be referenced simply by referencing the SDK by its specific ID. You reference an SDK by using the `Sdk` attribute on the top-level project node. A project SDK simplifies using software development kits that require properties and targets to be imported.
+You can reference all the build infrastructure required for a development technology stack such as the .NET SDK simply by referencing a set of properties and targets collectively known as a *project SDK* by its specific ID. The ID references a particular set of `.props` files that contain property definitions, and `.targets` files that contain target definitions. You reference a project SDK by using the `Sdk` attribute on the top-level project node.
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
