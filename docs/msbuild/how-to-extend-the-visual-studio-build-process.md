@@ -68,7 +68,7 @@ The following example shows how to use the `AfterTargets` attribute to add a cus
 
 Another way to extend the build process is to use the `DependsOn` properties (for example, `BuildDependsOn`), to specify targets that should be run before a standard target.
 
-This method is preferable to overriding predefined targets, which is discussed in the next section. Overriding predefined targets is an older method that is still supported, but, because MSBuild evaluates the definition of targets sequentially, there is no way to prevent another project that imports your project from overriding the targets you already have overridden. So, for example, the last `AfterBuild` target defined in the project file, after all other projects have been imported, will be the one that is used during the build.
+This method is preferable to overriding predefined targets, which is discussed in the next section. Overriding predefined targets is an older method that is still supported, but, because MSBuild evaluates the definition of targets sequentially, there's no way to prevent another project that imports your project from overriding the targets you already have overridden. So, for example, the last `AfterBuild` target defined in the project file, after all other projects have been imported, will be the one that is used during the build.
 
 You can guard against unintended overrides of targets by overriding the `DependsOn` properties that are used in `DependsOnTargets` attributes throughout the common targets. For example, the `Build` target contains a `DependsOnTargets` attribute value of `"$(BuildDependsOn)"`. Consider:
 
@@ -112,7 +112,7 @@ Projects that import your project file can further extend these properties witho
 
 ### To override a DependsOn property
 
-1. Identify a predefined `DependsOn` property in the common targets that you want to override. See the table below for a list of the commonly overridden `DependsOn` properties.
+1. Identify a predefined `DependsOn` property in the common targets that you want to override. See the following table for a list of the commonly overridden `DependsOn` properties.
 
 2. Define another instance of the property or properties at the end of your project file. Include the original property, for example `$(BuildDependsOn)`, in the new property.
 
@@ -124,12 +124,12 @@ Projects that import your project file can further extend these properties witho
 
 | Property name | Added targets run before this point: |
 | - | - |
-| `BuildDependsOn` | The main build entry point. This is the property to override if you want to insert custom targets before or after the entire build process. |
+| `BuildDependsOn` | The main build entry point. Override this property if you want to insert custom targets before or after the entire build process. |
 | `RebuildDependsOn` | The `Rebuild` |
-| `RunDependsOn` | The execution of the final build output (if it is a .EXE) |
-| `CompileDependsOn` |The compilation (`Compile` target). This is the te property to override if you want to insert custom processes before or after the compilation step. |
+| `RunDependsOn` | The execution of the final build output (if it's a .EXE) |
+| `CompileDependsOn` |The compilation (`Compile` target). Override this property if you want to insert custom processes before or after the compilation step. |
 | `CreateSatelliteAssembliesDependsOn` | The creation of the satellite assemblies |
-| `CleanDependsOn` | The `Clean` target (Deleting of all intermediate and final build outputs). This is the property to override if you want to clean up output from your custom build process. |
+| `CleanDependsOn` | The `Clean` target (Deleting of all intermediate and final build outputs). Override this property if you want to clean up output from your custom build process. |
 | `PostBuildEventDependsOn` | The `PostBuildEvent` target |
 | `PublishBuildDependsOn` | Build publishing |
 | `ResolveAssemblyReferencesDependsOn` | The `ResolveAssemblyReferences` target (finding the transitive closure of dependencies for a given dependency). See [`ResolveAssemblyReference`](resolveassemblyreference-task.md). |
@@ -197,7 +197,7 @@ If your project uses an SDK (for example `Microsoft.Net.Sdk`), you need to make 
 
 1. If the project uses the `Sdk` attribute, change that to the explicit import syntax. See [Explicit and implicit imports](#explicit-and-implicit-imports).
 
-1. Identify a predefined target in the common targets that you want to override. See the table below for the complete list of targets that you can safely override.
+1. Identify a predefined target in the common targets that you want to override. See the following table for the complete list of targets that you can safely override.
 
 1. Define the target or targets at the end of your project file, immediately before the `</Project>` tag and after the explicit SDK import. For example:
 
@@ -237,7 +237,7 @@ There are many more targets in the build system and .NET SDK, see [MSBuild targe
 
 ## Best practices for custom targets
 
-In comparing the use of `DependsOnTargets` vs. `BeforeTargets`, which can both specify that one target must run before another target, the difference between them, and the reason both are needed in different scenarios, is that they differ in which target the dependency requirement is specified. Since a developer frequently only has control over their own targets and cannot directly modify the system targets or other imported targets, which mechanism you use can be limited by what extension hooks the system target provides. 
+In comparing the use of `DependsOnTargets` vs. `BeforeTargets`, which can both specify that one target must run before another target, the difference between them, and the reason both are needed in different scenarios, is that they differ in which target the dependency requirement is specified. Since a developer frequently only has control over their own targets and can't directly modify the system targets or other imported targets, which mechanism you use can be limited by what extension hooks the system target provides. 
 
 When authoring a custom target, follow these general guidelines to ensure your target is executed in the intended order.
 
