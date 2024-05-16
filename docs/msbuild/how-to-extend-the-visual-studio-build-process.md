@@ -237,7 +237,7 @@ There are many more targets in the build system and .NET SDK, see [MSBuild targe
 
 ## Best practices for custom targets
 
-In comparing the use of `DependsOnTargets` vs. `BeforeTargets`, which can both specify that one target must run before another target, the difference between them, and the reason both are needed in different scenarios, is that they differ in which target the dependency requirement is specified. Since a developer frequently only has control over their own targets and can't directly modify the system targets or other imported targets, which mechanism you use can be limited by what extension hooks the system target provides. 
+The properties `DependsOnTargets` and `BeforeTargets` can both specify that a target must run before another target, but they are both needed in different scenarios. They differ in which target the dependency requirement is specified. You only have control over your own targets and can't safely modify the system targets or other imported target, so that constraints your choice of methods.
 
 When authoring a custom target, follow these general guidelines to ensure your target is executed in the intended order.
 
