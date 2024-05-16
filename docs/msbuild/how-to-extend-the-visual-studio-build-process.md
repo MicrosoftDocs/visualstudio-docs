@@ -81,6 +81,7 @@ This piece of XML indicates that before the `Build` target can run, all the targ
 ```xml
 <PropertyGroup>
     <BuildDependsOn>
+        $(BuildDependsOn);
         BeforeBuild;
         CoreBuild;
         AfterBuild
@@ -88,13 +89,12 @@ This piece of XML indicates that before the `Build` target can run, all the targ
 </PropertyGroup>
 ```
 
-You can override this property value by declaring another property named `BuildDependsOn` at the end of your project file. By including the previous `BuildDependsOn` property in the new property, you can add new targets to the beginning and end of the target list. For example:
+You can add your targets to the list of dependencies by declaring `BuildDependsOn` in your project file. The definition shown here means that the property value you provide won't be overwritten in the standard target. Instead, they'll be added to the previous value that you set. For example:
 
 ```xml
 <PropertyGroup>
     <BuildDependsOn>
         MyCustomTarget1;
-        $(BuildDependsOn);
         MyCustomTarget2
     </BuildDependsOn>
 </PropertyGroup>
@@ -107,7 +107,7 @@ You can override this property value by declaring another property named `BuildD
 </Target>
 ```
 
-Projects that import your project files can override these properties without overwriting the customizations that you have made.
+Projects that import your project files can further extend these properties without overwriting the customizations that you have made.
 
 ### To override a DependsOn property
 
