@@ -6,9 +6,6 @@ ms.topic: reference
 f1_keywords:
 - vc.task.multitooltask
 dev_langs:
-- VB
-- CSharp
-- C++
 - C++
 helpviewer_keywords:
 - MSBuild (C++), MultiToolTask task
@@ -17,6 +14,8 @@ author: ghogen
 ms.author: ghogen
 ---
 # MultiToolTask task
+
+[!INCLUDE [C++-specific task](./includes/cpp-task.md)]
 
 Experimental task that enables parallel execution of MIDL, CL, Clang, and FXC (hlsl). See [Improve parallelism in MSBuild](https://devblogs.microsoft.com/cppblog/improved-parallelism-in-msbuild/).
 

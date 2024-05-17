@@ -6,9 +6,6 @@ ms.topic: reference
 f1_keywords:
 - vc.task.custombuild
 dev_langs:
-- VB
-- CSharp
-- C++
 - C++
 helpviewer_keywords:
 - MSBuild (C++), CustomBuild task
@@ -17,6 +14,8 @@ author: ghogen
 ms.author: ghogen
 ---
 # CustomBuild task
+
+[!INCLUDE [C++-specific task](./includes/cpp-task.md)]
 
 Wraps the Microsoft C++ compiler tool, cmd.exe. This class derives from [TrackedVCToolTask](../msbuild/trackedvctooltask-base-class.md), but does not use file tracking to discover file dependencies. All dependencies should be explicitly specified as AdditionalDependencies for incremental build working properly.
 
