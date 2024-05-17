@@ -39,7 +39,7 @@ Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/)
     ### [Visual Studio 2022 version 17.1 - 17.9](#tab/vs-2022-17-1)
     
     For **C#** app development using the Windows App SDK, select **.NET Desktop Development**.
-       * Then in the **Installation details** pane of the installation dialog box, select **Windows App SDK C# Templates** (near the bottom of the list).
+    * Then in the **Installation details** pane of the installation dialog box, select **Windows App SDK C# Templates** (near the bottom of the list).
     
     ---
 
