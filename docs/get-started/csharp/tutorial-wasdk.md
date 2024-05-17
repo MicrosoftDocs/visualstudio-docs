@@ -3,7 +3,7 @@ title: "Tutorial: Create Windows App SDK Apps with Visual Studio & C#"
 description: Create a Windows App SDK application in Visual Studio by using the Extensible Application Markup Language (XAML) and C#.
 titleSuffix: ""
 ms.custom: vs-acquisition
-ms.date: "04/27/2023"
+ms.date: 5/21/2024"
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.devlang: csharp
@@ -22,6 +22,28 @@ In this introduction to the Visual Studio integrated development environment (ID
 > WinUI 3 is the native UI platform component that ships with the [Windows App SDK](/windows/apps/windows-app-sdk/) (completely decoupled from [Windows SDKs](/windows/apps/windows-app-sdk/)). For more information, see [WinUI 3](/windows/apps/winui/winui3/).
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+
+::: moniker range=">=vs-2022"
+## Prerequisites
+
+- You need Visual Studio to complete this tutorial.
+Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
+- Workloads and components required for developing with WinUI and the Windows App SDK. To verify or install a workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../../install/modify-visual-studio.md#change-workloads-or-individual-components).
+    
+    On the **Workloads** tab of the Visual Studio Installer, select the following workloads and components:
+
+    ### [Visual Studio 2022 version 17.10 and later](#tab/vs-2022-17-10)
+    
+    * For **C#** app development using the Windows App SDK, select **Windows application development**.
+    
+    ### [Visual Studio 2022 version 17.1 - 17.9](#tab/vs-2022-17-1)
+    
+    * For **C#** app development using the Windows App SDK, select **.NET Desktop Development**.
+      * Then in the **Installation details** pane of the installation dialog box, select **Windows App SDK C# Templates** (near the bottom of the list).
+    
+    ---
+
+::: moniker-end
 
 ## Create a project
 
@@ -43,6 +65,7 @@ The Windows App SDK 1.1.x templates are available by installing a [Visual Studio
 > [Download Windows App SDK C# SDK VS2019 Templates](https://aka.ms/windowsappsdk/1.1/1.1.5/WindowsAppSDK.Cs.Extension.Dev16.vsix)
 
 After the templates extension has been installed, you can create your first project. For more information about Visual Studio 2019 support, see [Install tools for the Windows App SDK](/windows/apps/windows-app-sdk/set-up-your-development-environment). The rest of this tutorial will assume you're using Visual Studio 2022.
+
 ::: moniker-end
 
 1. Open Visual Studio, and on the start window, choose **Create a new project**.
@@ -50,9 +73,6 @@ After the templates extension has been installed, you can create your first proj
 1. On the **Create a new project** screen, enter *WinUI* in the search box, choose the C# template for **Blank App, Packaged (WinUI 3 in Desktop)**, and then choose **Next**.
 
    :::image type="content" source="media/vs-2022/winui-create-new-project.png" alt-text="Screenshot of the 'Create a new project' dialog with 'WinUI' entered in the search box, and the 'Blank App, Packaged (WinUI 3 in Desktop)' project template highlighted.":::
-
-   > [!NOTE]
-   > If you don't see the **Blank App, Packaged (WinUI 3 in Desktop)** project template, click the **Install more tools and features** link.<br><br>:::image type="content" source="media/vs-2022/winui-not-finding.png" alt-text="Screenshot of the Create a new project window showing the 'Install more tools and features' link.":::<br><br>The Visual Studio Installer launches. Choose the **.NET Desktop Development** workload, then in the **Installation details** pane of the installation dialog box, select **Windows App SDK C# Templates** (at the bottom of the list). Now select **Modify**.<br><br>:::image type="content" source="media/vs-2022/winui-desktop-dev-workload.png" alt-text="Screenshot of the Visual Studio Installer showing the .NET Desktop Development workload.":::
 
 1. Give the project a name, *HelloWorld*, and choose **Create**.
 
