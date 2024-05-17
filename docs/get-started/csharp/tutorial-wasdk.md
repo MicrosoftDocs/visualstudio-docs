@@ -3,7 +3,7 @@ title: "Tutorial: Create Windows App SDK Apps with Visual Studio & C#"
 description: Create a Windows App SDK application in Visual Studio by using the Extensible Application Markup Language (XAML) and C#.
 titleSuffix: ""
 ms.custom: vs-acquisition
-ms.date: 5/21/2024"
+ms.date: 5/21/2024
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.devlang: csharp
