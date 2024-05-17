@@ -19,7 +19,7 @@ The results appear in a tool window named **\<element> references**, where *elem
 
 - Change the scope of the search in a drop-down list box. You can choose to look only in open or changed documents, all the way up to the entire solution.
 - Copy the selected referenced item(s) by choosing the **Copy** button. All the values in all the columns for all selected rows are copied to the clipboard, preceded by the column headings. This makes it easy to paste into a spreadsheet.
-- Choose buttons to go to the next or previous location in the list, or press the up and down arrow keys to do so.
+- Choose buttons to go to the next or previous location in the list, or press the **F8** and **Shift+F8** keys to do so.
 - Remove any filters on the returned results by choosing the **Clear All Filters** button.
 - Change how returned items are grouped by choosing a setting in the **Group by:** drop-down list box.
 - Keep the current search results window by choosing the **Keep Results** button. When you choose this button, the current search results stay in this window, and new search results appear in a new tool window.
