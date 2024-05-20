@@ -8,8 +8,6 @@ f1_keywords:
 - VC.Project.VCXMLDataGeneratorTool.Namespace
 - VC.Project.VCXMLDataGeneratorTool.GenerateFromSchema
 dev_langs:
-- VB
-- CSharp
 - C++
 helpviewer_keywords:
 - XSD task (MSBuild (C++))
@@ -20,6 +18,8 @@ manager: mijacobs
 ms.subservice: msbuild
 ---
 # XSD task
+
+[!INCLUDE [C++-specific task](./includes/cpp-task.md)]
 
 Wraps the XML Schema Definition tool (*xsd.exe*), which generates schema or class files from a source.
 

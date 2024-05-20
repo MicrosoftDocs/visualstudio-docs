@@ -6,9 +6,6 @@ ms.topic: "reference"
 f1_keywords:
   - "vc.task.getoutofdateitems"
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
   - "C++"
 helpviewer_keywords:
   - "MSBuild (C++), GetOutOfDateItems task"
@@ -17,6 +14,8 @@ author: tylermsft
 ms.author: twhitney
 ---
 # GetOutOfDateItems task
+
+[!INCLUDE [C++-specific task](./includes/cpp-task.md)]
 
 Helper task that reads old tlogs, writes new tlogs, and returns set of items that are not up-to-date.
 
