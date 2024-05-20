@@ -1,7 +1,7 @@
 ---
 title: Create item templates with Export Template Wizard
 description: Use the Export Template Wizard to create an item template in Visual Studio, and enable the template to be used in a Universal Windows App project.
-ms.date: 01/02/2018
+ms.date: 05/20/2024
 ms.topic: how-to
 helpviewer_keywords:
 - item templates [Visual Studio], creating
