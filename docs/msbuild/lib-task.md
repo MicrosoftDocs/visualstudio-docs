@@ -12,9 +12,6 @@ f1_keywords:
   - "VC.Project.VCLibrarianTool.LinkLibraryDependencies"
   - "VC.Project.VCLibrarianTool.LinkTimeCodeGeneration"
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
   - "C++"
 helpviewer_keywords:
   - "MSBuild (C++), LIB task"
@@ -25,6 +22,8 @@ manager: mijacobs
 ms.subservice: msbuild
 ---
 # LIB task
+
+[!INCLUDE [C++-specific task](./includes/cpp-task.md)]
 
 Wraps the Microsoft 32-Bit Library Manager tool, *lib.exe*. The Library Manager creates and manages a library of Common Object File Format (COFF) object files. The Library Manager can also create export files and import libraries to reference exported definitions. For more information, see [LIB reference](/cpp/build/reference/lib-reference) and [Running LIB](/cpp/build/reference/running-lib).
 

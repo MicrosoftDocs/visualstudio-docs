@@ -6,9 +6,6 @@ ms.topic: reference
 f1_keywords:
 - vc.task.getoutputfilename
 dev_langs:
-- VB
-- CSharp
-- C++
 - C++
 helpviewer_keywords:
 - MSBuild (C++), GetOutputFileName task
@@ -17,6 +14,8 @@ author: ghogen
 ms.author: ghogen
 ---
 # GetOutputFileName task
+
+[!INCLUDE [C++-specific task](./includes/cpp-task.md)]
 
 Helper task to get output file name for cl and other tools, which allow specifying only output directory or full file name or nothing.
 

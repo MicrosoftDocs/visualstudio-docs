@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the number of frame data elements."
+description: Retrieves the number of frame data elements.
 title: "IDiaEnumFrameData::get_Count"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,26 +12,30 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumFrameData::get_Count
 
 Retrieves the number of frame data elements.
 
 ## Syntax
 
-```C++
-HRESULT get_Count ( 
+```c++
+HRESULT get_Count ( 
    LONG* pRetVal
 );
 ```
 
 #### Parameters
- pRetVal
+
+pRetVal
 
 [out] Returns the number of frame data elements.
 
 ## Return Value
- If successful, returns `S_OK`; otherwise, returns an error code.
+
+If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See also
+
 - [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md)
 - [IDiaEnumFrameData::Item](../../debugger/debug-interface-access/idiaenumframedata-item.md)

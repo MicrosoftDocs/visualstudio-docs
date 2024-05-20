@@ -1,5 +1,5 @@
 ---
-description: "Resets an enumeration sequence of debug streams to the beginning."
+description: Resets an enumeration sequence of debug streams to the beginning.
 title: "IDiaEnumDebugStreams::Reset"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,18 +12,21 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumDebugStreams::Reset
 
 Resets an enumeration sequence to the beginning.
 
 ## Syntax
 
-```C++
+```c++
 HRESULT Reset ();
 ```
 
 ## Return Value
- Returns `S_OK`.
+
+Returns `S_OK`.
 
 ## See also
+
 - [IDiaEnumDebugStreams](../../debugger/debug-interface-access/idiaenumdebugstreams.md)

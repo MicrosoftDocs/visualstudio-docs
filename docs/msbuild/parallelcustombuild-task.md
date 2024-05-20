@@ -6,9 +6,6 @@ ms.topic: "reference"
 f1_keywords:
   - "vc.task.parallelcustombuild"
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
   - "C++"
 helpviewer_keywords:
   - "MSBuild (C++), ParallelCustomBuild task"
@@ -17,6 +14,8 @@ author: tylermsft
 ms.author: twhitney
 ---
 # ParallelCustomBuild task
+
+[!INCLUDE [C++-specific task](./includes/cpp-task.md)]
 
 Run parallel instances of the [CustomBuild task](../msbuild/custombuild-task.md).
 
