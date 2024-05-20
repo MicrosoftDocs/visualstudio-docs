@@ -1,5 +1,5 @@
 ---
-title: "CV_CFL_LANG"
+title: CV_CFL_LANG
 description: Get information about the CV_CFL_LANG enumeration type, which specifies the code language of the application or linked module in the debug interface access SDK.
 ms.date: "4/04/2023"
 ms.topic: "reference"
@@ -12,13 +12,14 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # CV_CFL_LANG
 
 Specifies the source code language of the application or linked module.
 
 ## Syntax
 
-```C++
+```c++
 typedef enum CV_CFL_LANG {
     CV_CFL_C        = 0x00,
     CV_CFL_CXX      = 0x01,
@@ -75,11 +76,14 @@ typedef enum CV_CFL_LANG {
 | CV_CFL_GO       | Application language is Go.                                                                 |
 
 ## Remarks
+
 The values in this enumeration are returned by a call to the [IDiaSymbol::get_language](../../debugger/debug-interface-access/idiasymbol-get-language.md) method.
 
 ## Requirements
+
 Header: cvconst.h
 
 ## See also
+
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 - [IDiaSymbol::get_language](../../debugger/debug-interface-access/idiasymbol-get-language.md)
