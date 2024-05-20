@@ -192,7 +192,7 @@ Starting in Visual Studio 2022, you can [roll back an update](/troubleshoot/deve
 
 | **Command** | **Description**                                                                                                         |
 |-------------|-------------------------------------------------------------------------------------------------------------------------|
-| `rollback`     | Command to rollback a particular instance of Visual Studio 2022 to the previously installed update. This command will not work if the [`DisableRollback`](configure-policies-for-enterprise-deployments.md) is enabled.   |
+| `rollback`     | Command to rollback a particular instance of Visual Studio to the previously installed update. This command will not work if the [`DisableRollback`](configure-policies-for-enterprise-deployments.md) is enabled.   |
  
 | **rollback parameters**                   | **Description**                                                                           |
 |-------------------------------------------|-------------------------------------------------------------------------------------------|
