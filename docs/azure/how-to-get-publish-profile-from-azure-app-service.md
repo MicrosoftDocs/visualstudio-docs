@@ -19,7 +19,7 @@ A publish profile is a file that contains information and settings that Visual S
 
    :::image type="content" source="./media/app-service-get-publish-profile.png" alt-text="Screenshot showing how to get the publish profile from Azure App Service." lightbox="./media/app-service-get-publish-profile.png":::
 
-A file with a `.publishsettings` extension is generated in the location where you saved it.
+A file with a `.publishsettings` extension is generated in the location you specified.
 
 See also [Azure App Service](/azure/app-service).
 
