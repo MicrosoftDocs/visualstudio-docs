@@ -60,7 +60,7 @@ Follow these steps if you're using Visual Studio 2022 version 17.8 or later:
 
 1. Create a new project using the **React and ASP.NET Core** template.
 
-   [ ![Screenshot of creating a new React and ASP.NET Core project](media/container-tools-react/vs-2022/react-and-asp-net-core.png)..](media/container-tools-react/vs-2022/react-and-asp-net-core.png#lightbox)
+   :::image type="content" alt-text="Screenshot of creating a new React and ASP.NET Core project." source="media/container-tools-react/vs-2022/react-and-asp-net-core.png" lightbox="media/container-tools-react/vs-2022/react-and-asp-net-core.png") :::
 
 1. On the **Additional information** screen, you can't select **Enable Docker Support**, but don't worry, you can add that support later.
 
