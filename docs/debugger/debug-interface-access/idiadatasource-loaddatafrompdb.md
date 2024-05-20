@@ -1,5 +1,5 @@
 ---
-description: "Opens and prepares a program database (.pdb) file as a debug data source."
+description: Opens and prepares a program database (.pdb) file as a debug data source.
 title: "IDiaDataSource::loadDataFromPdb"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,24 +12,27 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaDataSource::loadDataFromPdb
 
 Opens and prepares a program database (.pdb) file as a debug data source.
 
 ## Syntax
 
-```C++
+```c++
 HRESULT loadDataFromPdb (
    LPCOLESTR pdbPath
 );
 ```
 
 #### Parameters
+
 pdbPath
 
 [in] The path to the .pdb file.
 
 ## Return Value
+
 If successful, returns `S_OK`; otherwise, returns an error code. The following table shows the possible return values for this method.
 
 |Value|Description|
@@ -40,6 +43,7 @@ If successful, returns `S_OK`; otherwise, returns an error code. The following t
 |E_UNEXPECTED|Data source has already been prepared.|
 
 ## Remarks
+
 This method loads the debug data directly from a .pdb file.
 
 To validate the .pdb file against specific criteria, use the [IDiaDataSource::loadAndValidateDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loadandvalidatedatafrompdb.md) method.
@@ -50,7 +54,7 @@ To load a .pdb file directly from memory, use the [IDiaDataSource::loadDataFromI
 
 ## Example
 
-```C++
+```c++
 HRESULT hr = pSource->loadDataFromPdb( L"myprog.pdb" );
 if (FAILED(hr))
 {
@@ -59,6 +63,7 @@ if (FAILED(hr))
 ```
 
 ## See also
+
 - [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
 - [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)
 - [IDiaDataSource::loadAndValidateDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loadandvalidatedatafrompdb.md)

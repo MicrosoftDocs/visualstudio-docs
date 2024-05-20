@@ -1,5 +1,5 @@
 ---
-title: "BaseClass"
+title: BaseClass
 description: Find reference information about the BaseClass symbol type. A base class for user-defined type (UDT) symbols is identified by a child with a SymTagBaseClass tag.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -14,12 +14,14 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # BaseClass
 
 Each base class for a user-defined type (UDT) symbol is identified by a child with a `SymTagBaseClass` tag. The [IDiaSymbol::get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md) property contains the symbol for the underlying UDT, and all properties of the underlying UDT are available as part of this BaseClass symbol.
 
 ## Properties
- The following table shows additional valid properties for this symbol type.
+
+The following table shows additional valid properties for this symbol type.
 
 |Property|Data type|Description|
 |--------------|---------------|-----------------|
@@ -56,5 +58,6 @@ Each base class for a user-defined type (UDT) symbol is identified by a child wi
 |[IDiaSymbol::get_volatileType](../../debugger/debug-interface-access/idiasymbol-get-volatiletype.md)|`BOOL`|`TRUE` if the base class is marked as volatile.|
 
 ## See also
+
 - [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
 - [UDT](../../debugger/debug-interface-access/udt.md)
