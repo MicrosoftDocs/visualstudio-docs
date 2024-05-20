@@ -284,7 +284,7 @@ For client-side script debugging, script debugging must be enabled in the browse
 |Python on Linux - Remote debug|Use **Attach to Process**|*debugpy*|See [Attach remotely from Python Tools](../python/debugging-python-code-on-remote-linux-machines.md#attach-remotely-from-python-tools)|
 |Other supported app types - Debug on a server process|If server is remote, use remote tools, and **Attach to Process**|*chrome.exe*, *msedge.exe*, or other processes|If necessary, use Resource Monitor to help identify the process. See [Remote debugging](../debugger/remote-debugging.md).|
 |Universal Windows Platform (UWP) App, OneCore, HoloLens, or IoT app - Remote debug|Debug installed app package|N/A|See [Debug an installed app package](debug-installed-app-package.md) instead of using **Attach to Process**|
-|Universal Windows App (UWP), OneCore, HoloLens, or IoT - Debug an app that you didn't start from Visual Studio|Debug installed app package|N/A|See [Debug an installed app package](debug-installed-app-package.md) instead of using **Attach to Process**|
+|UWP App, OneCore, HoloLens, or IoT - Debug an app that you didn't start from Visual Studio|Debug installed app package|N/A|See [Debug an installed app package](debug-installed-app-package.md) instead of using **Attach to Process**|
 
 ## Use debugger features
 
