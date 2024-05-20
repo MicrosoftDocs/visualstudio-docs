@@ -1,6 +1,6 @@
 ---
-description: "Initiates access to a source of debugging symbols."
-title: "IDiaDataSource"
+description: Initiates access to a source of debugging symbols.
+title: IDiaDataSource
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,17 +12,17 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaDataSource
 
 Initiates access to a source of debugging symbols.
 
 ## Syntax
 
-```
-IDiaDataSource : IUnknown
-```
+`IDiaDataSource : IUnknown`
 
 ## Methods in Vtable Order
+
 The following table shows the methods of `IDiaDataSource`.
 
 |Method|Description|
@@ -35,14 +35,16 @@ The following table shows the methods of `IDiaDataSource`.
 |[IDiaDataSource::openSession](../../debugger/debug-interface-access/idiadatasource-opensession.md)|Opens a session for querying symbols.|
 
 ## Remarks
+
 A call to one of the load methods of the `IDiaDataSource` interface opens the symbol source. A successful call to the [IDiaDataSource::openSession](../../debugger/debug-interface-access/idiadatasource-opensession.md) method returns an [IDiaSession](../../debugger/debug-interface-access/idiasession.md) interface that supports querying the data source. If the load method returns a file-related error then the [IDiaDataSource::get_lastError](../../debugger/debug-interface-access/idiadatasource-get-lasterror.md) method return value contains the file name associated with the error.
 
 ## Notes for Callers
+
 This interface is obtained by calling the `CoCreateInstance` function with the class identifier `CLSID_DiaSource` and the interface ID of `IID_IDiaDataSource`. The example shows how this interface is obtained.
 
 ## Example
 
-```C++
+```c++
 
       IDiaDataSource* pSource;
 HRESULT hr = CoCreateInstance(CLSID_DiaSource,
@@ -57,6 +59,7 @@ if (FAILED(hr))
 ```
 
 ## Requirements
+
 Header: Dia2.h
 
 Library: diaguids.lib
@@ -64,4 +67,5 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See also
+
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
