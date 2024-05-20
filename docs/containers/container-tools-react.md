@@ -70,7 +70,7 @@ Follow these steps if you're using Visual Studio 2022 version 17.8 or later:
 
 1. Right-click on the server project node, and choose **Add** > **Docker Support** to add a Dockerfile to your project.
 
-   :::image alt-text="Screenshot of Add Docker support menu item" type="content" source="media/container-tools-react/vs-2022/add-docker-support.png" lightbox="media/container-tools-react/vs-2022/add-docker-support.png") :::
+   :::image alt-text="Screenshot of Add Docker support menu item" type="content" source="media/container-tools-react/vs-2022/add-docker-support.png" lightbox="media/container-tools-react/vs-2022/add-docker-support.png" :::
 
 1. Select the container type.
 
