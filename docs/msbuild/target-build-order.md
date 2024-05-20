@@ -1,7 +1,7 @@
 ---
 title: Set the run order for MSBuild targets
 description: Specify the order in which MSBuild targets run and whether the input to one target depends on the output of another target.
-ms.date: 10/17/2023
+ms.date: 05/15/2024
 ms.topic: how-to
 helpviewer_keywords:
 - msbuild, build order
@@ -22,6 +22,8 @@ Targets must be ordered if the input to one target depends on the output of anot
 - `DependsOnTargets`. This `Target` attribute specifies targets that must run before this target can run.
 
 - `BeforeTargets` and `AfterTargets`. These `Target` attributes specify that this target should run before or after the specified targets.
+
+In general, you shouldn't depend on the declaration order to specify what tasks run before other tasks.
 
 A target is never run twice during a build, even if a subsequent target in the build depends on it. Once a target has been run, its contribution to the build is complete.
 
@@ -74,6 +76,13 @@ Targets can describe dependency relationships with each other. The `DependsOnTar
 ```
 
 tells MSBuild that the `Serve` target depends on the `Chop` target and the `Cook` target. MSBuild runs the `Chop` target, and then runs the `Cook` target before it runs the `Serve` target.
+
+> [!NOTE]
+> The standard targets in the SDK define a number of `DependsOn` properties that contain the list of targets that are dependencies for that target (for example, `$(BuildDependsOn)`, `$(CleanDependsOn)`, and so on). For example,
+>
+> `<Target Name="Build" DependsOnTargets="$(BuildDependsOn)">`
+>
+> To customize a project, you can override the `DependsOn` properties with additional custom targets that extend the build process, as described in [Extend the Visual Studio build process](./how-to-extend-the-visual-studio-build-process.md).
 
 ## BeforeTargets and AfterTargets
 

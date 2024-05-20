@@ -77,7 +77,7 @@ This step creates a data source from the Northwind database using the **Data Sou
 
     - If a data connection to the Northwind sample database is available in the dropdown list, select it.
 
-     -or-
+      -or-
 
     - Select **New Connection** to open the **Add/Modify Connection** dialog box.
 

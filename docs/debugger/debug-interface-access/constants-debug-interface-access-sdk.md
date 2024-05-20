@@ -1,5 +1,5 @@
 ---
-title: "Constants (Debug Interface Access SDK)"
+title: Constants (Debug Interface Access SDK)
 description: See a list of string constants that can be used to identify various sections of a program debug database (PDB) file through the debug interface access (DIA) SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -13,11 +13,13 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # Constants (Debug Interface Access SDK)
 
 These string constants can be used to identify various sections of a program debug database (PDB) file through the DIA SDK.
 
 ## Constants
+
 The following are declared as C/C++ macros.
 
 |Macro|Value|
@@ -32,9 +34,10 @@ The following are declared as C/C++ macros.
 |`DiaTable_FrameData`|L"FrameData"|
 
 ## Example
+
 Here is an example using one of these symbols:
 
-```C++
+```c++
 HRESULT GetSymbolTable(IDiaEnumTables *pEnumTables, IDiaTable **pTable)
 {
     HRESULT hr;
@@ -47,9 +50,11 @@ HRESULT GetSymbolTable(IDiaEnumTables *pEnumTables, IDiaTable **pTable)
 ```
 
 ## Requirements
+
 Header: dia2.h
 
 ## See also
+
 - [Reference](../../debugger/debug-interface-access/debug-interface-access-sdk-reference.md)
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)

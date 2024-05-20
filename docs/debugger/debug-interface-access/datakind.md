@@ -1,6 +1,6 @@
 ---
-description: "Indicates the particular scope of a data value."
-title: "DataKind"
+description: Indicates the particular scope of a data value.
+title: DataKind
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,14 +12,15 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # DataKind
 
 Indicates the particular scope of a data value.
 
 ## Syntax
 
-```C++
-enum DataKind {
+```c++
+enum DataKind {
     DataIsUnknown,
     DataIsLocal,
     DataIsStaticLocal,
@@ -49,11 +50,14 @@ enum DataKind {
 | DataIsConstant     | Data item is a constant value.           |
 
 ## Remarks
+
 The values in this enumeration are returned by the [IDiaSymbol::get_dataKind](../../debugger/debug-interface-access/idiasymbol-get-datakind.md) method.
 
 ## Requirements
+
 Header: cvconst.h
 
 ## See also
+
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 - [IDiaSymbol::get_dataKind](../../debugger/debug-interface-access/idiasymbol-get-datakind.md)

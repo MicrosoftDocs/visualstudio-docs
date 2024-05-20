@@ -181,7 +181,7 @@ Edit the code map's .dgml file in a text or XML editor. If the map is part of yo
     Style="Glass"
     ```
 
-     - or -
+      -or-
 
     ```xml
     Style="Plain"
@@ -266,13 +266,13 @@ Edit the code map's .dgml file in a text or XML editor. If the map is part of yo
    <Condition Expression="MyCategory"/>
    ```
 
-    - or -
+     -or-
 
    ```xml
    <Condition Expression="MyCategory > 100"/>
    ```
 
-    - or -
+     -or-
 
    ```xml
    <Condition Expression="HasCategory('MyCategory')"/>
