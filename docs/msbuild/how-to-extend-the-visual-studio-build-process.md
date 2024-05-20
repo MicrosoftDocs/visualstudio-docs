@@ -15,7 +15,7 @@ ms.subservice: msbuild
 ---
 # Extend the Visual Studio build process
 
-The Visual Studio build process is defined by a series of MSBuild `.targets` files that are imported into your project file. These imports are implicit, if you use an SDK as Visual Studio projects usually do. One of these imported files, *Microsoft.Common.targets*, can be extended to allow you to run custom tasks at several points in the build process. This article explains two methods you can use to extend the Visual Studio build process:
+The Visual Studio build process is defined by a series of MSBuild `.targets` files that are imported into your project file. These imports are implicit, if you use an SDK as Visual Studio projects usually do. One of these imported files, *Microsoft.Common.targets*, can be extended to allow you to run custom tasks at several points in the build process. This article explains three methods you can use to extend the Visual Studio build process:
 
 - Create a custom target and specify when it should run by using `BeforeTargets` and `AfterTargets` attributes.
 
@@ -241,13 +241,13 @@ The properties `DependsOnTargets` and `BeforeTargets` can both specify that a ta
 
 When authoring a custom target, follow these general guidelines to ensure your target is executed in the intended order.
 
-- Use the `DependsOnTargets` attribute to specify targets that you require to be done before your target executes. For a chain of targets you control, each target can specify the previous member of the chain in `DependsOnTargets`.
+1. Use the `DependsOnTargets` attribute to specify targets that you require to be done before your target executes. For a chain of targets you control, each target can specify the previous member of the chain in `DependsOnTargets`.
 
-- Use `BeforeTargets` for any target that you do not control that you must execute before (like `BeforeTargets="PrepareForBuild"` for a target that needs to run early in the build).
+1. Use `BeforeTargets` for any target that you do not control that you must execute before (like `BeforeTargets="PrepareForBuild"` for a target that needs to run early in the build).
 
-- Use `AfterTargets` for any target that you do not control that guarantees the outputs you need are available. For example, specify `AfterTargets="ResolveReferences"` for something that will modify a list of references.
+1. Use `AfterTargets` for any target that you do not control that guarantees the outputs you need are available. For example, specify `AfterTargets="ResolveReferences"` for something that will modify a list of references.
 
-- You can use these in combination. For example, `DependsOnTargets="GenerateAssemblyInfo" BeforeTargets="BeforeCompile"`.
+1. You can use these in combination. For example, `DependsOnTargets="GenerateAssemblyInfo" BeforeTargets="BeforeCompile"`.
 
 ## Explicit and implicit imports
 
