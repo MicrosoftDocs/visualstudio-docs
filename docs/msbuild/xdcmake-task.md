@@ -6,9 +6,6 @@ ms.topic: "reference"
 f1_keywords:
   - "vc.task.xdcmake"
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
   - "C++"
 helpviewer_keywords:
   - "XDCMake task (MSBuild (C++))"
@@ -19,6 +16,8 @@ manager: mijacobs
 ms.subservice: msbuild
 ---
 # XDCMake task
+
+[!INCLUDE [C++-specific task](./includes/cpp-task.md)]
 
 Wraps the XML Documentation tool (*xdcmake.exe*), which merges XML document comment (*.xdc*) files into an *.xml* file.
 

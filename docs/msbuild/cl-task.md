@@ -9,8 +9,6 @@ f1_keywords:
 - VC.Project.VCCLCompilerTool.TreatSpecificWarningsAsErrors
 - VC.Project.VCCLCompilerTool.CreateHotpatchableImage
 dev_langs:
-- VB
-- CSharp
 - C++
 helpviewer_keywords:
 - MSBuild (C++), CL task
@@ -21,6 +19,8 @@ manager: mijacobs
 ms.subservice: msbuild
 ---
 # CL task
+
+[!INCLUDE [C++-specific task](./includes/cpp-task.md)]
 
 Wraps the Microsoft C++ compiler tool, *cl.exe*. The compiler produces executable (*.exe*) files, dynamic-link library (*.dll*) files, or code module (*.netmodule*) files. For more information, see [Compiler options](/cpp/build/reference/compiler-options) and [Use MSBuild from the command line](/cpp/build/msbuild-visual-cpp) and [Use the Microsoft C++ toolset from the command line](/cpp/build/building-on-the-command-line).
 
