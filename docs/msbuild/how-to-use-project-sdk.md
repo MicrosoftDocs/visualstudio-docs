@@ -1,7 +1,7 @@
 ---
 title: Reference an MSBuild Project SDK
 description: Use the MSBuild project SDKs to simplify working with software development kits that require properties and targets to be imported.
-ms.date: 05/10/2023
+ms.date: 05/16/2024
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, SDKs, SDK
@@ -12,7 +12,7 @@ ms.subservice: msbuild
 ---
 # Use MSBuild project SDKs
 
-MSBuild 15.0 introduced the concept of the "project SDK", which simplifies using software development kits that require properties and targets to be imported.
+You can reference all the build infrastructure required for a development technology stack such as the .NET SDK simply by referencing a set of properties and targets collectively known as a *project SDK* by its specific ID. The ID references a particular set of `.props` files that contain property definitions, and `.targets` files that contain target definitions. You reference a project SDK by using the `Sdk` attribute on the top-level project node.
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
@@ -37,6 +37,8 @@ During evaluation of the project, MSBuild adds implicit imports at the top and b
     <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
 </Project>
 ```
+
+There are many SDKs distributed by Microsoft, referenced in the previous example by its moniker `Microsoft.NET.Sdk`. The ones associated with .NET Core and .NET 5 and later are listed at [.NET Project SDK overview](/dotnet/core/project-sdk/overview).
 
 ## Reference a project SDK
 
