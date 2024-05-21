@@ -12,7 +12,7 @@ ms.subservice: extensibility-integration
 
 # Rule-based activation constraints
 
-One of the common concepts in VisualStudio.Extensibility is use of context-based activation rules. These are rules that govern the conditions under which an extension or a command is surfaced to the user. An example of a context-based activation rule is the [`VisibleWhen`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration.visiblewhen) property in a command's configuration that declares when the command is made visible.
+One of the common concepts in VisualStudio.Extensibility is the use of context-based activation rules. These rules govern the conditions under which an extension or a command is surfaced to the user. An example of a context-based activation rule is the [`VisibleWhen`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration.visiblewhen) property in a command's configuration that declares when the command is made visible.
 
 ## Constraint types
 
@@ -22,7 +22,7 @@ Multiple activation constraints can be combined together using the [`And`](/dotn
 
 ## Example definition
 
-In the following example, the command configuration property [`EnabledWhen`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration.enabledwhen) defines when the command is in the enabled state. The [`ClientContext`](/dotnet/api/microsoft.visualstudio.extensibility.activationconstraint.clientcontext) method is one of the activation constraint factory methods. It generates the activation constraint, given the two arguments, a string and regular expression pattern to match against that string. Therefore, the following code indicates that a command is enabled when the user has selected a file with one of those extensions.
+In the following example, the command configuration property [`EnabledWhen`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration.enabledwhen) defines when the command is in the enabled state. The [`ClientContext`](/dotnet/api/microsoft.visualstudio.extensibility.activationconstraint.clientcontext) method is one of the activation constraint factory methods. It generates the activation constraint, given the two arguments, a string and regular expression pattern to match against that string. Therefore, the following code indicates that a command is enabled when the user selects a file with one of those extensions.
 
 ```csharp
 public override CommandConfiguration CommandConfiguration => new("%My command.DisplayName%")

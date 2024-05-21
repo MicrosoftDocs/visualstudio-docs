@@ -55,6 +55,8 @@ items:
   href: ./dialog/dialog.md
 - name: Debugger visualizers
   href: ./debugger-visualizer/debugger-visualizers.md
+- name: Diagnostics
+  href: ./diagnostics/visualstudio-extensibility-diagnostics-extension.md
 - name: Inside the SDK
   items:
   - name: Components of an extension

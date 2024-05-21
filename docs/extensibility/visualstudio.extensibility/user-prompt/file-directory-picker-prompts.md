@@ -139,20 +139,20 @@ The `FileDialogOptions`, `DialogFilters`, and `FolderDialogOptions` types can be
 | **Property** | **Type** | **Required** |**Description** | **Sample** |
 | :- | :- | :- | :- | :- |
 | title  | `string` | No | The title of the dialog. If the title is an empty string, the system uses a default title, which is either "Save As" or "Open". Default is `string.Empty` | "Open a file" |
-| initialFileName | `string` | No | The file name in the input box of the dialog. For the open file dialog, the filename must exist or the dialog will return an error. If an invalid filename is passed, we use the default. Default is `string.Empty`. | "filename.ext" |
-| filters | `DialogFilters` | No |  The filters used for the dialog. | See [Create a file or directory prompt with custom options](#create-a-file-or-directory-picker-prompt-with-custom-options) |
+| initialFileName | `string` | No | The file name in the input box of the dialog. For the open file dialog, the filename must exist or the dialog returns an error. If an invalid filename is passed, we use the default. Default is `string.Empty`. | "filename.ext" |
+| filters | `DialogFilters` | No |  The filters used for the dialog. | See [Examples of prompts with custom options](#examples-of-prompts-with-custom-options) |
 
 ### `DialogFilters`
 | **Term**  | **Type** | **Required** | **Description** | **Example** |
 | :- | :- | :- | :- | :- |
-| Filters | `IReadOnlyCollection<DialogFilter>` | Yes | The filters for selecting or saving a file. | See [Create a file anord directory prompt with custom options](#create-a-file-or-directory-picker-prompt-with-custom-options) |
-| DefaultFilterIndex | `int` | No | Used to set the default filter index of the filter that is selected by default. Default is `0`. | Minimum index is `0`, maximum is the `number of filters - 1` 
+| Filters | `IReadOnlyCollection<DialogFilter>` | Yes | The filters for selecting or saving a file. | See [Examples of prompts with custom options](#examples-of-prompts-with-custom-options) |
+| DefaultFilterIndex | `int` | No | Used to set the default filter index of the filter that is selected by default. Default is `0`. | The minimum index is `0` and the maximum is the `number of filters - 1`. 
 
 ### `FolderDialogOptions`
 | **Property** | **Type** | **Required** |**Description** | **Sample** |
 | :- | :- | :- | :- | :- |
 | title  | `string` | No | The title of the dialog. If the title is an empty string, the system uses a default title, which is either "Save As" or "Open". Default is `string.Empty`. | "Open a file" |
-| initialDirectory  | `string` | No | The directory the dialog should have open. This should be an absolute path. If the initialDirectory is an empty string, the initial directory will default to the last opened directory, but if this is the first time, it is the root folder. If an initialDirectory is specified, we pass in a flag to the dialog to open to the specified directory instead of the last opened directory. If an invalid directory is passed, we use the default. Default is `string.Empty`.| "path/to/folder" |
+| initialDirectory  | `string` | No | The directory the dialog should have open, which should be an absolute path. If the initialDirectory is an empty string, the initial directory defaults to the last opened directory. If there is no previously opened directory, the initial directory will default to the root folder. If an initialDirectory is specified, we pass in a flag to the dialog to open to the specified directory instead of the last opened directory. If an invalid directory is passed, we use the default. Default is `string.Empty`.| "path/to/folder" |
 
 ### Examples of prompts with custom options
 

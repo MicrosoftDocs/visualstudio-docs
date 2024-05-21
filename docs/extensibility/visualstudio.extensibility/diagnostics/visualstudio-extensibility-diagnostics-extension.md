@@ -1,7 +1,7 @@
 ---
 title: VisualStudio.Extensibility Diagnostics Explorer extension overview
 description: VisualStudio.Extensibilityo Diagnostics Explorer extension
-author: rytoth
+author: RyanToth3
 ms.author: rytoth
 monikerRange: ">=vs-2022"
 ms.subservice: extensibility-integration
@@ -19,7 +19,7 @@ Follow these instructions to install, launch, and configure the Diagsnotics Expl
 
 ### Install the Extension
 
-You can install the Diagnostics Explorer either directly using the Extension Manager in Visual Studio, or by downloading the extension from the Visual Studio Marketplace [here](https://aka.ms/VisualStudio.Extensibility/DiagnosticsExplorer) and installing it manually.
+You can get the Diagnostics Explorer either directly through the Extension Manager in Visual Studio, or from the Visual Studio Marketplace [here](https://aka.ms/VisualStudio.Extensibility/DiagnosticsExplorer).
 
 > [!NOTE]
 > The VisualStudio.Extensibility Diagnostics Explorer extension is compatable with Visual Studio 2022 17.10 and higher.
@@ -38,7 +38,7 @@ The Diagnostics Explorer is configured to collect relevant diagnostic data from 
 
 ## Diagnostics Pages
 
-The left-hand panel of the Diagnostics Explorer tool window contains a list different *feature pages*. These correspond to the extensible features for which you can find diagnostic information about the components and configurations that Visual Studio has discovered from your extensions. For example, you can select **Commands** to view diagnostics related to your commands, command sets, menus and toolbars, placements, and more.
+The left-hand panel of the Diagnostics Explorer tool window contains a list different *feature pages*. These pages correspond to the extensible features for which you can find diagnostic information about the components and configurations that Visual Studio discovered from your extensions. For example, you can select **Commands** to view diagnostics related to your commands, command sets, menus and toolbars, placements, and more.
 
 Also in the list are two special pages that aren't directly related to any components in your extension: [**Events**](#events-page), a live viewer for extensibility-related events, and [**Activation Constraints**](#activation-constraints-page), which shows relevant IDE state to help you craft your activation constraints.
 
@@ -46,7 +46,7 @@ Also in the list are two special pages that aren't directly related to any compo
 
 ### Extensible Feature Pages
 
-Extensible feature pages have a ComboBox in the top-left for the different **Extensibility Points** in that feature area, each of which can be mapped directly to configuration objects in your extension. For example, in the **Commands** page there's an **Extensibility Point** for **Menus and Toolbars**, which will show you each of the menus and toolbars that Visual Studio has discovered in your VisualStudio.Extensibility extensions.
+Extensible feature pages have a ComboBox in the top-left for the different **Extensibility Points** in that feature area, each of which can be mapped directly to configuration objects in your extension. For example, in the **Commands** page there's an **Extensibility Point** for **Menus and Toolbars**, which shows you each of the menus and toolbars that Visual Studio discovered in your VisualStudio.Extensibility extensions.
 
 The data updates in real time as properties are updated in extensions. For example, if an extension changes the display name of one of its commands at runtime, the new display name of that command is shown in the cell in the **Display Name** column for that command immediately.
 
@@ -98,7 +98,7 @@ The **More Info** column displays more verbose metadata related to an event. Cli
 
 ### Activation Constraints Page
 
-The activation constraints page shows the state of various properties related to the IDE itself. The **Context** ComboBox changes the data in the view to either show all of the activation constraints related to the currently selected item in the **Acitvation Constraints** ComboBox, or a log of all the times these properties have changed since the tool window was opened. When the **Events** context is selected, the **Clear All** button can be used to delete all the events currently being displayed in the view.
+The activation constraints page shows the state of various properties related to the IDE itself. The **Context** ComboBox changes the data in the view to either show all of the activation constraints related to the currently selected item in the **Acitvation Constraints** ComboBox, or a log of all the times these properties changed since the tool window was opened. When the **Events** context is selected, the **Clear All** button can be used to delete all the events currently being displayed in the view.
 
 ![Screenshot of the Activation Constraint's Current State page.](./media/image-9.png)
 

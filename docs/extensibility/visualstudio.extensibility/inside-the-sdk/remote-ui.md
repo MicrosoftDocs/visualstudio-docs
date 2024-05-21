@@ -258,8 +258,8 @@ Only the following types are serializable by Remote UI:
 
 - primitive data (most .NET numeric types, enums, `bool`, `string`, `DateTime`)
 - extender-defined types that are marked with `DataContract` and `DataMember` attributes (and all their data members are also serializable)
-- objects implementing [IAsyncCommand](https://learn.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.extensibility.ui.iasynccommand?view=vs-extensibility)
-- [XamlFragment](https://learn.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.extensibility.ui.xamlfragment?view=vs-extensibility), and [SolidColorBrush](https://learn.microsoft.com/en-us/dotnet/api/system.windows.media.solidcolorbrush?view=netframework-4.7.2) objects, and [Color](https://learn.microsoft.com/en-us/dotnet/api/system.windows.media.color?view=netframework-4.7.2) values
+- objects implementing [IAsyncCommand](/dotnet/api/microsoft.visualstudio.extensibility.ui.iasynccommand)
+- [XamlFragment](/dotnet/api/microsoft.visualstudio.extensibility.ui.xamlfragment), and [SolidColorBrush](/dotnet/api/system.windows.media.solidcolorbrush) objects, and [Color](/dotnet/api/system.windows.media.color) values
 - `Nullable<>` values for a serializable type
 - collections of serializable types, including observable collections.
 

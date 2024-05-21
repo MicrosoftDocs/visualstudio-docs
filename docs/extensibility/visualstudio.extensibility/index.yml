@@ -33,6 +33,10 @@ landingContent:
         links:
           - text: Create a simple extension
             url: ./get-started/tutorial-create-simple-extension.md
+      - linkListType: debug
+        links:
+          - text: Debug your extensions
+            url: ./diagnostics/visualstudio-extensibility-diagnostics-extension.md
 
   # Card
   - title: Extension guides
