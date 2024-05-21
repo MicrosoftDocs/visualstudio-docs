@@ -43,6 +43,10 @@ There is some internal code in the ServiceHub host process that handles the RPC 
 > [!TIP]
 > It can be convenient to have multiple monitors, so you can see both the debugger and the experimental instance at the same time on two different monitors. You might want to change the theme in the Experimental Instance to make it more obvious which IDE you're working with at any given time. See [Change fonts, colors, and themes in Visual Studio](../../../ide/how-to-change-fonts-and-colors-in-visual-studio.md).
 
+## Debug the extension using the Diagnostics Explorer
+
+Please see [VisualStudio.Extensibility Diagnostics Explorer](../diagnostics/visualstudio-extensibility-diagnostics-extension.md) for more information.
+
 ## Related content
 
 - [Learn more about debugging](/visualstudio/debugger/)
