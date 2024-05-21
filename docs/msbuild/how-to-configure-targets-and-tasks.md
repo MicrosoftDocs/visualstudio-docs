@@ -114,7 +114,7 @@ The `RoslynCodeTaskFactory` provides a mechanism by which you can write C# or Vi
 
 ### CodeTaskFactory
 
-`CodeTaskFactory` is an older version of `RoslynCodeTaskFactory` that uses the .NET Framework version of MSBuild. See [MSBuild inline tasks](msbuild-inline-tasks.md). This task factory is supported, but newer code should use `RoslynCodeTaskFactory` for wider applicability.
+`CodeTaskFactory` is an older version of `RoslynCodeTaskFactory` that is limited to the .NET Framework version of MSBuild. See [MSBuild inline tasks](msbuild-inline-tasks.md). This task factory is supported, but newer code should use `RoslynCodeTaskFactory` for wider applicability.
 
 ## Phantom task parameters
 
