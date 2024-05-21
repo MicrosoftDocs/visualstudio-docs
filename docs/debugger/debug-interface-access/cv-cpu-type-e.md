@@ -1,5 +1,5 @@
 ---
-title: "CV_CPU_TYPE_e"
+title: CV_CPU_TYPE_e
 description: Get reference information about the CV_CPU_TYPE_e enumeration type, which specifies the target processor in the debug interface access SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # CV_CPU_TYPE_e
 
 Specifies the target processor.
@@ -21,7 +22,7 @@ Specifies the target processor.
 
 ## Syntax
 
-```C++
+```c++
 typedef enum CV_CPU_TYPE_e {
     CV_CFL_8080         = 0x00,
     CV_CFL_8086         = 0x01,
@@ -90,11 +91,14 @@ typedef enum CV_CPU_TYPE_e {
 ```
 
 ## Remarks
+
 The values in this enumeration are returned by a call to the [IDiaSymbol::get_platform](../../debugger/debug-interface-access/idiasymbol-get-platform.md) method.
 
 ## Requirements
+
 Header: cvconst.h
 
 ## See also
+
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 - [IDiaSymbol::get_platform](../../debugger/debug-interface-access/idiasymbol-get-platform.md)
