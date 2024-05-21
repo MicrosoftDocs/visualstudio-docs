@@ -1,5 +1,5 @@
 ---
-title: "CV_call_e"
+title: CV_call_e
 description: Get reference information about the CV_call_e enumeration type, which specifies the calling convention for a function in the debug interface access SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # CV_call_e
 
 Specifies the calling convention for a function.
@@ -21,7 +22,7 @@ Specifies the calling convention for a function.
 
 ## Syntax
 
-```C++
+```c++
 typedef enum CV_call_e {
     CV_CALL_NEAR_C    = 0x00,
     CV_CALL_NEAR_FAST = 0x04,
@@ -44,11 +45,14 @@ typedef enum CV_call_e {
 | CV_CALL_CLRCALL   | Specifies a function-calling convention used by the Common Language Runtime (CLR)</br> (also known as a managed code calling convention).                            |
 
 ## Remarks
+
 The values in this enumeration are returned by a call to the [IDiaSymbol::get_callingConvention](../../debugger/debug-interface-access/idiasymbol-get-callingconvention.md) method.
 
 ## Requirements
+
 Header: cvconst.h
 
 ## See also
+
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 - [IDiaSymbol::get_callingConvention](../../debugger/debug-interface-access/idiasymbol-get-callingconvention.md)
