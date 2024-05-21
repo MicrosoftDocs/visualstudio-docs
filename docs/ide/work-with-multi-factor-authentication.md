@@ -1,5 +1,5 @@
 ---
-title: Multi-factor authentication with Visual Studio sign-ins
+title: Multifactor authentication with Visual Studio sign-ins
 titleSuffix: "" 
 ms.date: 05/21/2024
 ms.topic: how-to
@@ -10,13 +10,13 @@ manager: mijacobs
 ms.subservice: general-ide
 ---
 
-# Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)
+# Sign in to Visual Studio with accounts that require multifactor authentication (MFA)
 
-In this article, you'll learn how to use Visual Studio with accounts that require multi-factor authentication (MFA).
+In this article, you'll learn how to use Visual Studio with accounts that require multifactor authentication (MFA).
 
 ## Why enable MFA policies?
 
-When collaborating with external guest users, it's a good idea to protect your apps and data with **conditional access (CA)** policies such as **multi-factor authentication (MFA)**.  
+When collaborating with external guest users, it's a good idea to protect your apps and data with **conditional access (CA)** policies such as **multifactor authentication (MFA)**.  
 
 Once enabled, guest users will need more than just a username and password to access your resources, and must satisfy additional security requirements. MFA policies can be enforced at the tenant, app, or individual guest user level, the same way that they are enabled for members of your own organization. 
 
@@ -47,13 +47,13 @@ You can access resources secured via CA policies such as MFA in Visual Studio. T
 ### Enabling Windows authentication broker
 
 >[!NOTE]
->Web Account Manager(WAM) is only available on Windows 10 and above, as well as Windows Server 2019 and above.
+>Web Account Manager (WAM) is only available on Windows 10 and above, as well as Windows Server 2019 and above.
 
 To enable this workflow, go to Visual Studio's Options dialog **(Tools > Options…)**, select the **Accounts** tab, and then select **Windows authentication broker** from the **Add and reauthenticate accounts using:** dropdown. 
 
 :::image type="content" source="media/vs-2022/windows-authentication-broker.png" alt-text="Select web authentication broker from the dropdown.":::
 
-Windows authentication broker uses [Web Account Manager(WAM)](/entra/msal/dotnet/acquiring-tokens/desktop-mobile/wam) and offers many benefits such as security, improved MFA support, and seamless integration between accounts added to the OS and Visual Studio.
+Windows authentication broker uses [Web Account Manager (WAM)](/entra/msal/dotnet/acquiring-tokens/desktop-mobile/wam) and offers many benefits such as security, improved MFA support, and seamless integration between accounts added to the OS and Visual Studio.
 
 ::: moniker-end
 
@@ -72,7 +72,7 @@ To enable this workflow, go to Visual Studio's Options dialog **(Tools > Options
 
 **Windows authentication broker**
 
-Once the Windows authentication broker workflow is enabled, you can sign in or add accounts to Visual Studio as you normally would, via the Account Settings dialog **(File > Account Settings…)**. Web Account Manager(WAM) simplifies the sign in experience by allowing users to log in with accounts known to Windows, such as the account signed into your Windows session.
+Once the Windows authentication broker workflow is enabled, you can sign in or add accounts to Visual Studio as you normally would, via the Account Settings dialog **(File > Account Settings…)**. Web Account Manager (WAM) simplifies the sign in experience by allowing users to log in with accounts known to Windows, such as the account signed into your Windows session.
 
 :::image type="content" source="media/vs-2022/add-personalization-account-web-account-manager.png" alt-text="Add additional accounts to Visual Studio with the Windows authentication broker workflow.":::
 
@@ -156,7 +156,7 @@ If you run into errors when using the [Windows authentication broker workflow fo
 
 For example, if you see the following error dialog, you can resolve the issue by selecting **change authentication mechanism** to open **Sign-in options** and switch to the [system web browser](#enabling-system-web-browser).
 
-:::image type="content" source="media/vs-2022/work-with-multi-factor-authentication/change-authentication-mechanism-error.png" alt-text="Screenshot of a WAM error dialog with the change authentication mechanism option to resolve error." border="false":::
+:::image type="content" source="media/vs-2022/work-with-multi-factor-authentication/change-authentication-mechanism-error.png" alt-text="Screenshot of a WAM error dialog with the change authentication mechanism option to resolve the error." border="false":::
 
 ::: moniker-end
 
