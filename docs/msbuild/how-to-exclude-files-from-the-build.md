@@ -37,9 +37,9 @@ That results in the following changes in the MSBuild project file:
 
 That works well for a few files, but doesn't scale up to larger numbers of files or files that match a certain pattern. In .NET projects, you can use MSBuild to exclude files and directories using a wildcard expression, also called a [glob](/dotnet/core/extensions/file-globbing), as described next.
 
-## Exclude files or directories in most projects
+## Exclude files or directories in .NET projects
 
-Item lists are the input files for a build. For most projects, such as the ones created by Visual Studio, or any project that targets .NET, there are predefined item lists of different types of items (for example, `Compile` for source files, `Content` for certain static files, and so on) that are already defined by the standard imports. A list of these items can be found at [Common MSBuild project items](common-msbuild-project-items.md). In your project code, these are predefined to include everything relevant; for example, `Compile` in a C# project includes all files with the `.cs` extension.
+Item lists are the input files for a build. For most projects, such as .NET SDK projects, there are predefined item lists of different types of items (for example, `Compile` for source files, `Content` for certain static files, and so on) that are already defined by the standard imports. A list of these items can be found at [Common MSBuild project items](common-msbuild-project-items.md). In your project code, these are predefined to include everything relevant; for example, `Compile` in a C# project includes all files with the `.cs` extension.
 
 To exclude files, you can use the `Remove` attribute on the item.
 
@@ -58,6 +58,8 @@ You can specify multiple individual files, or various glob patterns:
    <Compile Remove="Contoso/**/*.cs" /> <!-- All .cs files in a directory subtree -->
 </ItemGroup>
 ```
+
+For a list of supported patterns, see [Pattern formats](/dotnet/core/extensions/file-globbing#pattern-formats).
 
 ## Include and exclude files or directories in the MSBuild language
 
