@@ -57,4 +57,4 @@ To enable or disable the Diagnostic Tools window:
 - [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)
 - [Identify hot paths with Flame Graph](../profiling/flame-graph.md)
-- [Analyze CPU usage](../profiling/cpu-usage.md)
+- [Analyze performance by using CPU profiling](../profiling/cpu-usage.md)

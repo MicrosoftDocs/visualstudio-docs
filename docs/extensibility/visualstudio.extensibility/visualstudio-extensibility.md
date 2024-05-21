@@ -108,7 +108,7 @@ Starting with our 17.9 release, we're ready to label the vast majority of our AP
 
 There are a few of our APIs that don't yet meet this bar for stability, for one of several reasons:
 * The feature area is new and additional features and changes are expected in future versions.
-* The API is new and we want to incorporate user feedback into the deisgn before marking it stable.
+* The API is new and we want to incorporate user feedback into the design before marking it stable.
 * We've received feedback that a particular API is difficult to use, so we're planning on updating it in future versions.
 
 For these APIs, we've explicitly labeled them using the `[Experimental]` attribute to help extension authors create their extensions with confidence in the SDK.

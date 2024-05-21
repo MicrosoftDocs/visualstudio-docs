@@ -42,7 +42,7 @@ Visual Studio provides tools for working with Windows Communication Foundation (
 
 ## What Is WCF?
 
-Windows Communication Foundation (WCF) is a unified framework for creating secure, reliable, transacted, and interoperable distributed applications. It replaces older interprocess communication technologies such as ASMX web services, .NET Remoting, Enterprise Services (Distributed Component Object Model (DCOM)), and Microsoft Message Queuing (MSMQ). WCF brings together the functionality of all those technologies under a unified programming model. This simplifies the experience of developing distributed applications.
+Windows Communication Foundation (WCF) is a unified framework for creating secure, reliable, transacted, and interoperable distributed applications. It replaces older interprocess communication technologies such as ASMX web services, .NET Remoting, Enterprise Services (Distributed Component Object Model (DCOM)), and Microsoft Message Queue (MSMQ). WCF brings together the functionality of all those technologies under a unified programming model. This simplifies the experience of developing distributed applications.
 
 ### What are WCF Data Services
 
@@ -111,7 +111,7 @@ You can use the WCF Visual Studio templates as a foundation to quickly create yo
 
 #### WCF Templates
 
-WCF Visual Studio templates provide a basic class structure for service development. Several WCF templates are available in the **Add New Project** dialog box. These include WCF service lLibrary projects, WCF service websites, and WCF Service item templates.
+WCF Visual Studio templates provide a basic class structure for service development. Several WCF templates are available in the **Add New Project** dialog box. These include WCF service library projects, WCF service websites, and WCF Service item templates.
 
 When you select a template, files are added for a service contract, a service implementation, and a service configuration. All necessary attributes are already added, creating a simple "Hello World" type of service, and you did not have to write any code. You will, of course, want to add code to provide functions and methods for your real world service, but the templates provide the basic foundation.
 

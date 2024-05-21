@@ -15,19 +15,17 @@ monikerRange: '>= vs-2022'
 With the release of Visual Studio 2022 version 17.5, you can use the new dynamic Instrumentation tool. This tool shows the exact number of times your functions are called and is faster than the previous version of the Instrumentation tool. This tool supports .NET Core instrumentation without needing PDBs.
 Starting in Visual Studio 2022 version 17.6 Preview 2, the tool also supports C/C++.
 
-The tool is similar to the CPU Usage tool except it is based on wall clock time instead of CPU utilization.
-
-You can access the Instrumentation tool by launching the Performance Profiler for a .NET or C++ project in Visual Studio (**Debug > Performance Profiler** or **Alt + F2**). Once you are on the summary page, select the **Instrumentation** checkbox.
+The tool is similar to the CPU Usage tool except it's based on wall clock time instead of CPU utilization. For additional information on learning to use the Instrumentation tool effectively, see [Instrumentation Overview](../profiling/instrumentation-overview.md) and [Improving Visual Studio performance with the new Instrumentation Tool](https://devblogs.microsoft.com/visualstudio/improving-visual-studio-performance-with-the-new-instrumentation-tool/).
 
 ## Instrument your application
 
-1. Select **Alt+F2** to open the performance profiler in Visual Studio.
+1. Select **Alt+F2** (or **Debug > Performance Profiler**) to open the performance profiler in Visual Studio.
 
 1. Select the **Instrumentation** check box.
 
    ![Screenshot showing Instrumentation tool selected.](./media/vs-2022/instrumentation-tool-launch.png "Instrumentation tool selected")
 
-    If you enable the **Start with collection paused** option before starting the profiler, data will not be collected until you select the **Record** button in the diagnostic session view.
+    If you enable the **Start with collection paused** option before starting the profiler, data won't be collected until you select the **Record** button in the diagnostic session view.
 
    > [!NOTE]
    > If the tool isn't available for selection, clear every other tool's check box because some tools need to run alone. To learn more about running tools together, see [Using multiple profiler tools simultaneously](../profiling/use-multiple-profiler-tools-simultaneously.md).
@@ -52,9 +50,9 @@ Your profiling data appears in Visual Studio.
 
 The Instrumentation data view shows you a list of functions ordered by longest running, with the longest running function at the top under **Top Functions**. The **Hot Path** section shows you the call stack for the functions that are using the most time. These lists can help guide you to functions where performance bottlenecks are happening.
 
-Click on a function that you are interested in, and you will see a more detailed view.
+Click on a function that you're interested in, and you see a more detailed view.
 
-The information available is similar to the CPU Usage tool, except that it is based on wall clock time and call counts instead of CPU utilization. This means blocked time such as time spent waiting for locks will show up in the instrumentation trace, unlike the CPU Usage tool. For detailed information on the views, see [CPU Usage](../profiling/cpu-usage.md).
+The information available is similar to the CPU Usage tool, except that it's based on wall clock time and call counts instead of CPU utilization. This means blocked time such as time spent waiting for locks will show up in the instrumentation trace, unlike the CPU Usage tool. For detailed information on the views, see [Analyze performance by using CPU profiling](../profiling/cpu-usage.md).
 
 ## Related content
 

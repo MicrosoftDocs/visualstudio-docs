@@ -1,5 +1,5 @@
 ---
-description: "Creates an enumerator that contains the same enumerated sequence as the current debug data stream enumerator."
+description: Creates an enumerator that contains the same enumerated sequence as the current debug data stream enumerator.
 title: "IDiaEnumDebugStreamData::Clone"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,25 +12,29 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumDebugStreamData::Clone
 
 Creates an enumerator that contains the same enumerated sequence as the current enumerator.
 
 ## Syntax
 
-```C++
-HRESULT Clone ( 
+```c++
+HRESULT Clone ( 
    IDiaEnumDebugStreamData** ppenum
 );
 ```
 
 #### Parameters
- ppenum
+
+ppenum
 
 [out] Returns an [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md) object that contains the duplicated sequence of debug data stream records.
 
 ## Return Value
- If successful, returns `S_OK`; otherwise, returns an error code.
+
+If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See also
+
 - [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md)

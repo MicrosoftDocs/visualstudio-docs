@@ -94,7 +94,7 @@ The motivation behind this exploration bound is to limit the size of the stack o
 <a name="maxconditions"></a>
 ## MaxConditions
 
-The emaximum number of conditions over the inputs that may be checked during a single execution path.
+The maximum number of conditions over the inputs that may be checked during a single execution path.
 
 The motivation behind this exploration bound is to limit the complexity of any execution path that IntelliTest explores during [input generation](input-generation.md). Each conditional branch that depends on the inputs of the parameterized test is counted towards this limit.
 
@@ -116,7 +116,7 @@ void ParameterizedTest(int n)
 <a name="maxruns"></a>
 ## MaxRuns
 
-Th emaximum number of runs that IntelliTest will try during the exploration of a test.
+The maximum number of runs that IntelliTest will try during the exploration of a test.
 
 The motivation behind this exploration bound is that any code which contains loops or recursion might have an infinite number of execution paths, and thus IntelliTest needs to be limited during [input generation](input-generation.md).
 

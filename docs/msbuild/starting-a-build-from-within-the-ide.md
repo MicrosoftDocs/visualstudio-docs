@@ -68,8 +68,8 @@ public bool Build(Project project, bool isDesignTimeBuild)
          bool buildSucceeded = false;
          // perform project-system specific build set up tasks
          // Create your BuildRequestData
-         // This assumes a IHostServices variable (hostServices) set
-   // to your host services. If you don't use a project instance
+         // This assumes an IHostServices variable (hostServices) is set
+         // to your host services. If you don't use a project instance
          // (you build from a file for example) then use another
          // constructor.
          BuildRequestData requestData = new

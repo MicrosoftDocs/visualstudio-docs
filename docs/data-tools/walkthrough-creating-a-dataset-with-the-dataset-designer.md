@@ -23,7 +23,7 @@ In this walkthrough you create a dataset using the **Dataset Designer**. The art
 
 ## Prerequisites
 
-To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
+To complete this tutorial, you need the **.NET desktop development** workload and (for the **Data Sources** window) the **Data storage and processing** workload installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
@@ -93,7 +93,9 @@ This section explains how to add tables to the dataset.
 
 ## Save the dataset
 
-The dataset that you just created is available in the **Data Sources** window. You can now perform any of the following tasks:
+The dataset that you just created is available in the **Data Sources** window. If you don't see the **Data Sources** window, check that you have the **Data storage and processing** workload installed as mentioned in the [Prerequisites](#prerequisites).
+
+You can now perform any of the following tasks:
 
 - Save the dataset.
 

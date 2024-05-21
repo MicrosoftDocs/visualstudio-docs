@@ -26,7 +26,7 @@ The Visual Studio integrated development environment (IDE) has many menus, optio
 
 ## Search in Visual Studio 2022 version 17.6 or later
 
-If you're using Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-notes-v17.6) or later, you have access to a new search experience: **All-In-One Search**. 
+If you're using Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-notes-v17.6) or later, the search experience is **All-In-One Search**. 
 
 ### About the All-In-One Search experience
 

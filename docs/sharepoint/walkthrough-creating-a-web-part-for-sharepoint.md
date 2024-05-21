@@ -44,7 +44,7 @@ This walkthrough illustrates the following tasks:
 
 ## Create an empty SharePoint project
 
-First, create a Empty SharePoint project. Later, you will add a Web Part to the project by using the **Web Part** item template.
+First, create an Empty SharePoint project. Later, you will add a Web Part to the project by using the **Web Part** item template.
 
 1. Start Visual Studio by using the **Run as Administrator** option.
 
@@ -104,7 +104,7 @@ You can specify which controls you want to appear in the Web Part by adding them
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb" id="Snippet2":::
      ---
 
-4. Add the following code to the `WebPart1` class. This code adds a custom property named `DataFilePath` to the Web Part. A custom property is a property that can be set in SharePoint by the user. This property gets and sets the location of a XML data file that is used to populate the data grid.
+4. Add the following code to the `WebPart1` class. This code adds a custom property named `DataFilePath` to the Web Part. A custom property is a property that can be set in SharePoint by the user. This property gets and sets the location of an XML data file that is used to populate the data grid.
 
      ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs" id="Snippet3":::

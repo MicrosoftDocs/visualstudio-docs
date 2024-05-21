@@ -66,7 +66,7 @@ Populates item collections with the input items. This allows items to be copied 
 </Project>
 ```
 
- The following table describes the value of the output item after task execution. Item metadata is shown in parenthesis after the item.
+ The following table describes the value of the output item after task execution. Item metadata is shown in parentheses after the item.
 
 |Item collection|Contents|
 |---------------------|--------------|

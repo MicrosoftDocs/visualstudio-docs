@@ -37,7 +37,7 @@ HRESULT RemoveProgramNode( 
 
 ## Parameters
 `pProgramNode`\
-[in] An [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) objecy that represents the program to be unregistered.
+[in] An [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object that represents the program to be unregistered.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

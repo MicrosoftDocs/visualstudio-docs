@@ -503,7 +503,7 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
  For example, we could add a second compartment to AlbumShape that displays a list of the Artists that are linked to the Album.
 
- In this case, the compartment should display the link, instead of the referenced element. This is because when the user selects the item in the compartment and presses DELETE, you want the link to be deleted, not the referenced element.
+ In this case, the compartment should display the link, instead of the referenced element. This is because when the user selects the item in the compartment and presses `DELETE`, you want the link to be deleted, not the referenced element.
 
  Nevertheless, you can have the name of the referenced element appear in the compartment.
 

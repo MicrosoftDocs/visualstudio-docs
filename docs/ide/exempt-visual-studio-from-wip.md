@@ -22,7 +22,7 @@ To exempt Visual Studio from WIP, follow the [steps to exempt a desktop app](/wi
 
 ## Create a WIP-exempt AppLocker policy file
 
-Because Visual Studio includes multiple binaries, [create an WIP-exempt AppLocker policy file](/windows/security/threat-protection/windows-defender-application-control/applocker/run-the-automatically-generate-rules-wizard). AppLocker allows you to automatically generate rules for all files within a folder.
+Because Visual Studio includes multiple binaries, [create a WIP-exempt AppLocker policy file](/windows/security/threat-protection/windows-defender-application-control/applocker/run-the-automatically-generate-rules-wizard). AppLocker allows you to automatically generate rules for all files within a folder.
 
 ## Add AppCompat to the Enterprise cloud resource policy
 

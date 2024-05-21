@@ -23,13 +23,13 @@ ms.subservice: debug-diagnostics
 
 - Update your project to use Microsoft .NET Framework 4 or later.
 
-     -or-
+    -or-
 
-     Debug your managed and native code in separate debugging sessions.
+- Debug your managed and native code in separate debugging sessions.
 
-     -or-
+    -or-
 
-     Debug your mixed code as a 32-bit process, as described in the following procedures.
+- Debug your mixed code as a 32-bit process, as described in the following procedures.
 
 ### To change the platform to 32-bit (Visual Basic or C#)
 

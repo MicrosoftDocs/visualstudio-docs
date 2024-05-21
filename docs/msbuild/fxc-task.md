@@ -6,9 +6,6 @@ ms.topic: "reference"
 f1_keywords:
   - "vc.task.fxc"
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
   - "C++"
 helpviewer_keywords:
   - "MSBuild (C++), FXC task"
@@ -17,6 +14,8 @@ author: tylermsft
 ms.author: twhitney
 ---
 # FXC task
+
+[!INCLUDE [C++-specific task](./includes/cpp-task.md)]
 
 Use HLSL shader compilers in the build process.
 

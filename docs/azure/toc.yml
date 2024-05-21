@@ -6,6 +6,8 @@
   items:
   - name: About Azure development in Visual Studio
     href: overview.md
+  - name: About developing ASP.NET web apps for Azure in Visual Studio
+    href: overview-aspnet-azure-development.md
   - name: What are Connected Services?
     href: overview-connected-services.md
 - name: Connect to Azure services

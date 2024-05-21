@@ -235,7 +235,7 @@ namespace Fabrikam.SimpleDslDesignerExtension
         DomainType oldType = e.OldRolePlayer as DomainType;
         DomainProperty property = relationship.Property;
 
-         // We write about the Type change in the debugguer
+         // We write about the Type change in the debugger
         Debug.WriteLine(string.Format("The type of the Domain property '{0}' of domain class '{1}' changed from '{2}' to '{3}'",
           property.Name,
           property.Class.Name,

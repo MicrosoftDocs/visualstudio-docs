@@ -76,7 +76,7 @@ In addition to the common options described above, the context menu for global g
 |**Add All References**|Adds all nodes that refer to the group and draws arrows to indicate relationships between them.|
 |**Add All Members**|Adds all members of the group and draws arrows to indicate relationships between them.|
 
-In addtion to the common options described above, the context menu for global attributes also has the following options:
+In addition to the common options described above, the context menu for global attributes also has the following options:
 
 |Option|Description|
 |-|-----------------|

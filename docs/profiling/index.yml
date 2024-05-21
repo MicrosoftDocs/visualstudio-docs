@@ -27,6 +27,8 @@ landingContent:
             url: beginners-guide-to-performance-profiling.md
           - text: Get started measuring memory usage
             url: memory-usage.md
+          - text: Beginner's guide to optimizing code
+            url: optimize-code-using-profiling-tools.md
 
   # Card (optional)
   - title: Fundamentals
@@ -37,6 +39,8 @@ landingContent:
             url: profiling-feature-tour.md
           - text: Which tool should I use?
             url: choose-performance-tool.md
+          - text: What is a profiler?
+            url: what-is-a-profiler.md
           - text: Ways to run profiling tools
             url: running-profiling-tools-with-or-without-the-debugger.md
       - linkListType: concept
@@ -53,20 +57,20 @@ landingContent:
             url: cpu-usage.md
           - text: Memory Usage
             url: memory-usage-without-debugging2.md
+          - text: .NET Object Allocation Tracking
+            url: dotnet-alloc-tool.md
+          - text: Instrumentation
+            url: instrumentation-overview.md
           - text: File I/O
             url: use-file-io.md
           - text: Database
             url: analyze-database.md
           - text: Events Viewer
             url: events-viewer.md
-          - text: .NET Object Allocation Tracking
-            url: dotnet-alloc-tool.md
           - text: .NET Async
             url: analyze-async.md
           - text: .NET Counters
             url: dotnet-counters-tool.md  
-          - text: Instrumentation
-            url: instrumentation-overview.md
           - text: Analyze resource consumption (XAML)
             url: application-timeline.md
 
@@ -75,8 +79,6 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Reduce compute costs using profiling tools
-            url: optimize-code-using-profiling-tools.md
           - text: Optimize profiler settings
             url: optimize-profiler-settings.md
           - text: Measure performance from the command line

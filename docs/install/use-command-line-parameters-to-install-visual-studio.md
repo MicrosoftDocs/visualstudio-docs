@@ -2,7 +2,7 @@
 title: Use command-line parameters to install Visual Studio
 titleSuffix: ''
 description: Use command-line parameters with your Visual Studio installation and start the installation with preselected options or automate the installation and update process.
-ms.date: 03/11/2024
+ms.date: 05/20/2024
 ms.topic: conceptual
 f1_keywords:
 - command-line parameters
@@ -26,7 +26,7 @@ The following command-line verbs and parameters can be used with the following e
   - The setup bootstrapper, which is the small (~1 MB) file (for example, vs_enterprise.exe) that initiates the download process and the initial installation.
   - The Visual Studio installer that may already be installed on the machine and is located in the folder `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`. You must initiate the installer programmatically from a *different* directory that the installer resides in. The installer is typically used for update or modify commands. 
   - With a [winget command using winget's --override switch](#use-winget-to-install-or-modify-visual-studio). 
-  - With an Administrator Update package, which is available to download from the [Microsoft Update Catalog](https://catalog.update.microsoft.com), to programatically update your network layout. More information can be found in the [Update or modify your layout](create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) article. 
+  - With an Administrator Update package, which is available to download from the [Microsoft Update Catalog](https://catalog.update.microsoft.com), to programmatically update your network layout. More information can be found in the [Update or modify your layout](create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) article. 
 
 Not all commands or parameters work in each of these situations, and any special caveats or exceptions are documented. Furthermore, in some scenarios you may not have access to all of these executables described previously. For example, client machines may only have the installer available for programmatic execution if Visual Studio was installed via a layout.  
 
@@ -185,8 +185,10 @@ Syntax examples:
    C:\>"C:\Program Files\Microsoft\Visual Studio\2022\Enterprise\vs_enterprise.exe" modifySettings --channelUri https://aka.ms/vs/17/release.LTSC.17.0/channel --productID Microsoft.VisualStudio.Product.Enterprise --newChannelUri \\layoutserver\share\path\channelmanifest.json --removeOos true --quiet
   ``` 
 
+::: moniker range="vs-2022"
+
 ## Rollback command and command-line parameters
-You can roll back the update programmatically by using the installer on the client machine, and passing in the rollback command alongside the installation path instance.  
+Starting in Visual Studio 2022, you can [roll back an update](/troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues?toc=%2Fvisualstudio%2Ftoc.json#7-roll-back-to-a-previous-install-for-visual-studio-2022-only) programmatically by using the installer on the client machine and passing in the rollback command alongside the installation path instance. 
 
 | **Command** | **Description**                                                                                                         |
 |-------------|-------------------------------------------------------------------------------------------------------------------------|
@@ -201,6 +203,8 @@ Syntax examples:
   ```shell
   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" rollback -–installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise"
   ```
+
+::: moniker-end
   
 ## Administrator Update command and command-line parameters
 

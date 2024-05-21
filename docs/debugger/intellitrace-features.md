@@ -109,8 +109,6 @@ When you save IntelliTrace data to file, you get one .itrace file for each proce
 
 [Custom TraceSource and debugging using IntelliTrace](https://devblogs.microsoft.com/devops/custom-tracesource-and-debugging-using-intellitrace/)
 
-[IntelliTrace Standalone Collector and Application Pools running under Active Directory accounts](https://devblogs.microsoft.com/devops/intellitrace-standalone-collector-and-application-pools-running-under-active-directory-accounts/)
-
 ## Forums
 
 [Visual Studio Debugger](https://social.msdn.microsoft.com/Forums/en-US/home)

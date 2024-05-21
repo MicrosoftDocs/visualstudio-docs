@@ -16,6 +16,8 @@ You can see how much memory your app uses and what code paths allocate the most 
 
 After running the tool, you can see the function execution paths where objects are being allocated. You can then trace back to the root of the call tree that is taking up the most memory.
 
+For a tutorial that shows how to improve performance using the .NET Object Allocation tool, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
+
 ## Setup
 
 1. Select **Alt+F2** to open the Performance Profiler in Visual Studio.

@@ -1,6 +1,6 @@
 ---
-description: "Enumerations are identified by SymTagEnum symbols."
-title: "Enum (Debug Interface Access SDK)"
+description: Enumerations are identified by SymTagEnum symbols.
+title: Enum (Debug Interface Access SDK)
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -13,12 +13,14 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # Enum (Debug Interface Access SDK)
 
 Enumerations are identified by `SymTagEnum` symbols. Each enumeration value appears as a class child with a `SymTagConstant` tag.
 
 ## Properties
- The following table shows additional valid properties for this symbol type.
+
+The following table shows additional valid properties for this symbol type.
 
 |Property|Data type|Description|
 |--------------|---------------|-----------------|
@@ -46,4 +48,5 @@ Enumerations are identified by `SymTagEnum` symbols. Each enumeration value appe
 |[IDiaSymbol::get_volatileType](../../debugger/debug-interface-access/idiasymbol-get-volatiletype.md)|`BOOL`|`TRUE` if the enumeration is marked as volatile.|
 
 ## See also
+
 - [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)

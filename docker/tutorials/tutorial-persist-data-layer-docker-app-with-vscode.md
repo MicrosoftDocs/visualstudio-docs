@@ -415,7 +415,7 @@ The final image is only the last stage being created, which can be overridden us
 
 ### React example
 
-When building React applications, you need a Node environment to compile the JavaScript code, SASS stylesheets, and more into static HTML, JavaScript, and CSS. If you aren't doing server-side rendering, you don't even need a Node environment for the production build.
+When building React applications, you need a Node environment to compile the JavaScript code, Sass stylesheets, and more into static HTML, JavaScript, and CSS. If you aren't doing server-side rendering, you don't even need a Node environment for the production build.
 
 ```dockerfile
 FROM node:20-alpine AS build

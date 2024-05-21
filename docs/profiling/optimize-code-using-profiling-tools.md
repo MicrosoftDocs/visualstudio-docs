@@ -1,7 +1,7 @@
 ---
-title: "Reduce compute costs using profiling tools"
-description: "Learn how to optimize code using Visual Studio profiling tools such as the CPU Usage tool, Database tool, and the .NET Object Allocation tool."
-ms.date: 08/07/2023
+title: "Beginner's guide to optimizing code"
+description: "Learn how to optimize code and reduce compute costs using Visual Studio profiling tools such as the CPU Usage tool, the .NET Object Allocation tool, and the Database tool."
+ms.date: 04/17/2024
 ms.topic: conceptual
 dev_langs:
   - "CSharp"
@@ -14,24 +14,25 @@ manager: mijacobs
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
 ---
-# Reduce compute costs by using profiling tools to optimize code (C#, Visual Basic, C++, F#)
+# Beginner's guide to optimizing code and reducing compute costs (C#, Visual Basic, C++, F#)
 
-Reducing your compute time means reducing costs, so optimizing your code can save money. In this article, we show how you can use various profiling tools, including CPU Usage, NET Object Allocation, and the Database tool, to help you accomplish this task. Rather than providing step-by-step instructions, the intent here is to show you how to use the profiling tools effectively and how to interpret the data. The CPU Usage tool can help you capture and visualize where compute resources are used in your application. The CPU Usage views such as the call tree and flame chart provide a nice graphical visualization of where time is spent in your app. In addition, auto insights may show precise optimizations that can have a large impact. Other tools can help you isolate issues.
+Reducing your compute time means reducing costs, so optimizing your code can save money. In this article, we show how you can use various profiling tools to help you accomplish this task.
+
+Rather than providing step-by-step instructions, the intent here is to show you how to use the profiling tools effectively and how to interpret the data. The CPU Usage tool can help you capture and visualize where compute resources are used in your application. The CPU Usage views such as the call tree and flame graph provide a nice graphical visualization of where time is spent in your app. In addition, auto insights may show precise optimizations that can have a large impact. Other profiling tools can also help you isolate issues. To compare tools, see [Which tool should I choose?](../profiling/choose-performance-tool.md)
 
 ## Start an investigation
 
-- To reduce compute costs, start your investigation by taking a CPU usage trace. The CPU Usage tool is often helpful to begin performance investigations and to optimize code to reduce cost.
+- Start your investigation by taking a CPU usage trace. The CPU Usage tool is often helpful to begin performance investigations and to optimize code to reduce cost.
 - Next, if you would like additional insights to help isolate issues or improve the performance, considering collecting a trace using one of the other profiling tools. For example:
   - Take a look at the memory usage. For .NET, try the .NET Object Allocation tool first. For either .NET or C++, you can look at the Memory Usage tool.
   - If your app is using File I/O, use the File I/O tool.
   - If you're using ADO.NET or Entity Framework, you can try the Database tool to examine SQL queries, precise query time, et al.
-  - For comparing tools, see [Which tool should I choose?](../profiling/choose-performance-tool.md)
 
-## Example
+## Data collection example
 
-The example screenshots shown in this article are based on a .NET app that runs queries against a database of blogs and associated blog posts. You will first examine a CPU usage trace to look for opportunities to optimize and reduce compute cost. After getting a general idea of what's going on, you will also look at traces from other profiling tools to help isolate issues.
+The example screenshots shown in this article are based on a .NET app that runs queries against a database of blogs and associated blog posts. You will first examine a CPU usage trace to look for opportunities to optimize code and reduce compute cost. After getting a general idea of what's going on, you will also look at traces from other profiling tools to help isolate issues.
 
-To collect the data shown in this article:
+Data collection requires the following steps (not shown here):
 
 - Set your app to a Release build
 - Select the CPU Usage tool from the Performance Profiler (**Alt+F2**). (Later steps involve a few of the other tools.)
@@ -57,20 +58,12 @@ To get a visualized call tree and a different view of the data, switch to the **
 
 ## Gather additional data
 
-Often, other tools can provide additional information to help the analysis and isolate the problem. For example, since we identified the LINQ DLLs, we'll first try the Database tool. You can multi-select this tool along with CPU Usage. When you've collected a trace, select the **Queries** tab in the diagnostics page.
+Often, other tools can provide additional information to help the analysis and isolate the problem. For this example, we take the following approach:
 
-In the Queries tab for the Database trace, you can see the first row shows the longest query, 2446 ms. The **Records** column shows how many records the query reads. We can use this information for later comparison.
+- First, we'll take a look at memory usage. There might be a correlation between high CPU usage and high memory usage, so it can be helpful to look at both to isolate the issue.
+- Because we identified the LINQ DLLs, we'll also look at the Database tool.
 
-:::image type="content" source="./media/optimize-code-database.png" alt-text="Screenshot of Database queries in the Database tool.":::
-
-By examining the SELECT statement generated by LINQ in the Query column, you identify the first row as the query associated with the `GetBlogTitleX` method. To view the full query string, expand the column width if you need to. The full query string is:
-
-```sql
-SELECT "b"."Url", "b"."BlogId", "p"."PostId", "p"."Author", "p"."BlogId", "p"."Content", "p"."Date", "p"."MetaData", "p"."Title"
-FROM "Blogs" AS "b" LEFT JOIN "Posts" AS "p" ON "b"."BlogId" = "p"."BlogId" ORDER BY "b"."BlogId"
-```
-
-Notice that you are retrieving a lot of column values here, perhaps more than you need.
+### Check the memory usage
 
 To see what's going on with the app in terms of memory usage, collect a trace using the .NET Object Allocation tool (For C++, use the Memory Usage tool instead). The **Call Tree** view in the memory trace shows the hot path and helps you identify an area of high memory usage. No surprise at this point, the `GetBlogTitleX` method appears to be generating a lot of objects! Over 900,000 object allocations, in fact.
 
@@ -78,9 +71,24 @@ To see what's going on with the app in terms of memory usage, collect a trace us
 
 Most of the objects created are strings, object arrays, and Int32's. You may be able to see how these types are generated by examining the source code.
 
+### Check the query in the Database tool
+
+You can multi-select the Database tool along with CPU Usage. When you've collected a trace, select the **Queries** tab in the diagnostics page. In the Queries tab for the Database trace, you can see the first row shows the longest query, 2446 ms. The **Records** column shows how many records the query reads. We can use this information for later comparison.
+
+:::image type="content" source="./media/optimize-code-database.png" alt-text="Screenshot of Database queries in the Database tool.":::
+
+By examining the `SELECT` statement generated by LINQ in the Query column, you identify the first row as the query associated with the `GetBlogTitleX` method. To view the full query string, expand the column width if you need to. The full query string is:
+
+```sql
+SELECT "b"."Url", "b"."BlogId", "p"."PostId", "p"."Author", "p"."BlogId", "p"."Content", "p"."Date", "p"."MetaData", "p"."Title"
+FROM "Blogs" AS "b" LEFT JOIN "Posts" AS "p" ON "b"."BlogId" = "p"."BlogId" ORDER BY "b"."BlogId"
+```
+
+Notice that you are retrieving a lot of column values here, perhaps more than you need. Let's look at the source code.
+
 ## Optimize code
 
-It's time to take a look at the `GetBlogTitleX` source code. In the .NET Object Allocation tool, right-click the method and choose **Go to Source File**. In the source code for `GetBlogTitleX`, we find the following code that uses LINQ to read the database.
+It's time to take a look at the `GetBlogTitleX` source code. In the Database tool, right-click the query and choose **Go to Source File**. In the source code for `GetBlogTitleX`, we find the following code that uses LINQ to read the database.
 
 ```csharp
 foreach (var blog in db.Blogs.Select(b => new { b.Url, b.Posts }).ToList())
@@ -108,8 +116,8 @@ foreach (var x in db.Posts.Where(p => p.Author.Contains("Fred Smith")).Select(b 
 
 In this code, you made several changes to help optimize the query:
 
-- Add the `Where` clause and eliminate one of the `foreach` loops.
-- Project only the Title property in the `Select` statement, which is all you need in this example.
+- Added the `Where` clause and eliminate one of the `foreach` loops.
+- Projected only the Title property in the `Select` statement, which is all you need in this example.
 
 Next, retest using the profiling tools.
 
@@ -134,3 +142,15 @@ Next, recheck the results in the .NET Object Allocation tool, and see that `GetB
 ## Iterate
 
 Multiple optimizations may be necessary and you can continue to iterate with code changes to see which changes improve performance and reduce your compute cost.
+
+## Next steps
+
+The following blog posts provide more information to help you learn to use the Visual Studio performance tools effectively.
+
+- [Improving Visual Studio performance with the new Instrumentation Tool](https://devblogs.microsoft.com/visualstudio/improving-visual-studio-performance-with-the-new-instrumentation-tool/)
+- [Case Study: Double performance in under 30 minutes](https://devblogs.microsoft.com/visualstudio/case-study-double-performance-in-under-30-minutes/)
+
+## Related content
+
+- [First look at profiling](../profiling/choose-performance-tool.md)
+- [Which tool should I use?](../profiling/choose-performance-tool.md)

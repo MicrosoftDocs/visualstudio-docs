@@ -140,7 +140,7 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 3. Clear the **Allow Precompiling** check box.
 
 ## <a name="BKMK_IDL_attribute_limitations"></a> IDL attribute limitations
- Edit and Continue does not regenerate interface definition (IDL) files. Therefore, changes to IDL attributes will not be reflected while you are debugging. To see the result of changes to IDL attributes, you must stop debugging and rebuild your app. Edit and Continue does not generate an error or warning if IDL attributes have changed. For more information, see [IDL Attributes](/cpp/windows/idl-attributes).
+ Edit and Continue does not regenerate interface definition language (IDL) files. Therefore, changes to IDL attributes will not be reflected while you are debugging. To see the result of changes to IDL attributes, you must stop debugging and rebuild your app. Edit and Continue does not generate an error or warning if IDL attributes have changed. For more information, see [IDL Attributes](/cpp/windows/idl-attributes).
 
 ## <a name="BKMK_Diagnosing_issues"></a> Diagnosing issues
  If your scenario does not fit any of the conditions mentioned above, you can gather further details by setting the following DWORD registry value:

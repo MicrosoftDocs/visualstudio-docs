@@ -250,7 +250,7 @@ ms.subservice: sharepoint-development
     ```
     ---
 
-## Cutomize the workflow
+## Customize the workflow
  Next, customize the workflow. Later, you will associate two forms to the workflow.
 
 #### To customize the workflow

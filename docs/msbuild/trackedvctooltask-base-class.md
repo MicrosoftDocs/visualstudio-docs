@@ -4,8 +4,6 @@ description: Learn about the parameters that the TrackedVCToolTask base class ad
 ms.date: 03/10/2019
 ms.topic: reference
 dev_langs:
-- VB
-- CSharp
 - C++
 author: ghogen
 ms.author: ghogen

@@ -45,8 +45,8 @@ az aks create \
 Download the code and install dependencies
 
 ```azurecli-interactive
-git clone https://github.com/Azure/Bridge-To-Kubernetes
-cd Bridge-To-Kubernetes/samples/todo-app
+git clone https://github.com/hsubramanianaks/b2k-samples
+cd b2k-samples/todo-app
 npm install stats-api\
 ```
 
@@ -82,7 +82,7 @@ code ./stats-api
 
 First, place a breakpoint on line 17 of `server.js`.
 
-Then, make sure todo-app namespace in MYAKS cluster is set as default (if it has * next to it). If it is not set as default, right-click the **todo-app** node, and choose **Use Namespace**.
+Then, make sure the `todo-app` namespace in the `MyAKS` cluster is set as default (if it has * next to it). If it is not set as default, right-click the **todo-app** node, and choose **Use Namespace**.
 
 ![Screenshot showing the Bridge to Kubernetes Namespace.](media/bridge-to-kubernetes-sample/bridge-to-kubernetes-namespace.png)
 
@@ -127,7 +127,7 @@ Your development computer is connected when the VS Code status bar turns orange 
 
 ![Screenshot showing the choose the debugging with Bridge to Kubernetes window.](media/bridge-to-kubernetes-sample/debugging.png)
 
-Navigate to the frontend entry point of your todo-app. Using that external IP you found earlier `{your external IP from get services command}.nip.io`. Note, if you selected isolation mode, you need to use `{your prefix - can be found in task.json}.{your external IP from get services command}.nip.io`.
+Navigate to the frontend entry point of your application via the external IP you found earlier, `{your external IP from get services command}.nip.io`. Note that if you selected isolation mode, you need to use `{your prefix - can be found in task.json}.{your external IP from get services command}.nip.io`.
 
 Make a request to the stats-api by choosing the **stats** link.
 
