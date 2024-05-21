@@ -32,7 +32,7 @@ This article shows you how to create an item template by using the **Export Temp
 
 1. On the **Select Template Options** page, enter the template name and optional description, icon image and preview image, and then choose **Finish**. Icon files for items are `.ico` files, as described in [Images and icons for Visual Studio - file types](../extensibility/ux-guidelines/images-and-icons-for-visual-studio.md#file-types). The preview image is a 200 x 200 image that will appear in the **Add New Item** dialog box.
 
-    You can look in the [Visual Studio image library](designers/the-visual-studio-image-library.md) for icons consistent with the Visual Studio style.
+    You can look in the [Visual Studio image library](../designers/the-visual-studio-image-library.md) for icons consistent with the Visual Studio style.
 
     The files for the template are added to a *.zip* file and copied to the directory you specified in the wizard. The default location is *%USERPROFILE%\Documents\Visual Studio \<version\>\My Exported Templates*.
 
