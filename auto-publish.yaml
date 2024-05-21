@@ -1,0 +1,25 @@
+
+trigger:
+- main
+
+jobs:
+- job: MergeMainToLive
+  pool:
+    vmImage: 'ubuntu-latest'
+  steps:
+  - checkout: self
+    persistCredentials: true
+  - script: |
+      git config --global user.name "Mike Jacobs"
+      git config --global user.email "mijacobs@users.noreply.github.com"
+      git checkout main
+      git checkout live
+      git merge main --no-ff --no-commit
+      if [ $? -eq 0 ]; then
+        git commit -m "Merged main into live"
+        git push origin live
+      else
+        echo "Error merging main to live"
+        exit 1
+      fi
+    displayName: 'Merge main to live if main has changed'
