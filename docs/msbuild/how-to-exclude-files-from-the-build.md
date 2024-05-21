@@ -74,7 +74,7 @@ In the raw MSBuild language (that is, without any of the standard imports or ref
 
 If you're using wildcards to include all the files in one directory or a nested set of directories as inputs for a build, there might be one or more files in the directory or one directory in the nested set of directories that you don't want to include. To exclude an item from the item list, use the `Exclude` attribute.
 
-`Exclude` is not actually an item operation; it can't be used by itself, but only as a modifier for a previous `Include`.
+`Exclude` is not actually an item operation; it can't be used by itself, but only as a modifier for `Include`.
 
 ### To include all `.cs` or `*.vb` files except `Form2`
 
