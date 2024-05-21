@@ -90,10 +90,10 @@ THe following table shows the task factories provided by the MSBuild installatio
 | - | - |
 | `AssemblyTaskFactory` | This is the default value. Runs the task in-process. |
 | `TaskHostFactory` | Runs the task out-of-process. |
-| `RoslynCodeTaskFactory` | For inline tasks; works with both `msbuild.exe` and `dotnet build`. |
-| `CodeTaskFactory` | For inline tasks; works only with `msbuild.exe`. |
+| `RoslynCodeTaskFactory` | For inline tasks written in C# or Visual Basic and targeting .NET Standard; works with both `msbuild.exe` and `dotnet build`. |
+| `CodeTaskFactory` | For inline tasks written in C# or Visual Basic and targeting .NET Framework; works only with `msbuild.exe`. |
 
-The task factory mechanism is extensible, so you can also create your own, such as to support another language for creating inline tasks.
+The task factory mechanism is extensible, so you can also use those created by third parties, or create your own. A reason for creating one would be to support another language for writing inline tasks.
 
 ### TaskHostFactory
 
