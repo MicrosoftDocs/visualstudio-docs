@@ -17,7 +17,7 @@ manager: mijacobs
 ms.subservice: general-ide
 ---
 # Outlining
-To hide a region of code from view, you can collapse it so that it appears under a caret sign `v` in the text editor. Then, to expand a collapsed region, select the carat sign `>`.
+To hide a region of code from view, you can collapse it so that it appears under a caret sign (`>`) in the text editor. Then, to expand a collapsed region, select the caret sign (`>`).
 
 > [!TIP]
 > If you are a keyboard user, you can choose **Ctrl**+**M**+**M** to collapse and expand.
