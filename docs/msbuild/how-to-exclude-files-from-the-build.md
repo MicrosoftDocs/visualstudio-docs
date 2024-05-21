@@ -27,11 +27,11 @@ That results in the following changes in the MSBuild project file:
 
 ```xml
   <ItemGroup>
-    <Compile Remove="Class.cs" />
+    <Compile Remove="ClassToExclude.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Class.cs" />
+    <None Include="ClassToExclude.cs" />
   </ItemGroup>
 ```
 
@@ -46,6 +46,16 @@ To exclude files, you can use the `Remove` attribute on the item.
 ```xml
 <ItemGroup>
    <Compile Remove="ClassToExclude.cs" />
+</ItemGroup>
+```
+
+You can specify multiple individual files, or various glob patterns:
+
+```xml
+<ItemGroup>
+   <Compile Remove="Contoso*.cs" /> <!-- Wildcard on filename -->
+   <Compile Remove="File1.cs;File2.cs" /> <!-- List of files with separator -->
+   <Compile Remove="Contoso/**/*.cs" /> <!-- All .cs files in a directory subtree -->
 </ItemGroup>
 ```
 
