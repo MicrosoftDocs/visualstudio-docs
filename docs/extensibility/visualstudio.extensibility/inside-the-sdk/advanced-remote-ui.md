@@ -264,7 +264,7 @@ In this case, we use `vs:EventHandler` to attach to each button its own separate
 
 ## User XAML resource dictionaries
 
-Starting with Visual Studio 17.10, Remote UI supports [XAML resource dictionaries](windows/apps/design/style/xaml-resource-dictionary). This allows multiple Remote UI controls to share styles, templates, and other resources. It also allows you to define different resources (E.g., strings) for different languages.
+Starting with Visual Studio 17.10, Remote UI supports [XAML resource dictionaries](/windows/apps/design/style/xaml-resource-dictionary). This allows multiple Remote UI controls to share styles, templates, and other resources. It also allows you to define different resources (E.g., strings) for different languages.
 
 Similarly to a Remote UI control XAML, resource files must be configured as embedded resources:
 
