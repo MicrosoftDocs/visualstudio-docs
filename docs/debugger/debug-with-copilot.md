@@ -204,7 +204,7 @@ In this example, we show AI suggestions for a conditional breakpoint. For tracep
    
    1. In the **Command-line arguments** field, enter `5 Fred Joe`, on three separate lines.
 
-      ![Screenshot of entering command-line arguments for the project.](../debugger/media/vs-2022/debug-with-copilot-breakpoint-args.png)
+      ![Screenshot of entering command-line arguments for the project.](../debugger/media/vs-2022/debug-with-copilot-breakpoint-arguments.png)
 
    1. Restart the debugger.
    
