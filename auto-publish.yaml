@@ -1,3 +1,4 @@
+schedules:
 - cron: "0 18 * * 1-5" # Hour 18 UTC == 10am PST
   displayName: "Scheduled run at 10 AM PT M-F"
   branches:
@@ -12,14 +13,14 @@
     - main
   always: false # This mean the pipeline runs even if there are no changes since the last successful run.
 
-  - cron: "0 4 * * 1-5"  # Hour 29 UTC == 4pm PST
+- cron: "0 6 * * 1-5"  # Hour 29 UTC == 4pm PST
   displayName: "Afternoon run at 10 PM PT M-F"
   branches:
     include:
     - main
   always: false # This mean the pipeline runs even if there are no changes since the last successful run.
 trigger:
-- main
+- none
 
 jobs:
 - job: MergeMainToLive
