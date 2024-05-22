@@ -1,7 +1,7 @@
 ---
 title: Install and manage GitHub Copilot in Visual Studio
 description: Install GitHub Copilot in Visual Studio and manage copilot state by using the Copilot badge in the IDE.
-ms.date: 5/14/2024
+ms.date: 5/22/2024
 ms.topic: install-set-up-deploy
 author: anandmeg
 ms.author: meghaanand
@@ -127,3 +127,5 @@ To learn more, consider exploring the following resources:
 
 [Get started with GitHub Copilot Completions in Visual Studio](visual-studio-github-copilot-extension.md)
 [Get started with GitHub Copilot Chat in Visual Studio](visual-studio-github-copilot-chat.md)
+
+For Copilot related issues, contact GitHub at https://support.github.com.
