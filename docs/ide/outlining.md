@@ -1,7 +1,7 @@
 ---
 title: Collapse and expand regions of code
 description: Use the expand and collapse commands in the Visual Studio integrated development environment (IDE) to work in outline mode.
-ms.date: 05/22/2023
+ms.date: 05/21/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - outlining
@@ -17,15 +17,14 @@ manager: mijacobs
 ms.subservice: general-ide
 ---
 # Outlining
-
-To hide a region of code from view, you can collapse it so that it appears under a plus sign (**+**) in the text editor. Then, to expand a collapsed region, select the plus sign.
+To hide a region of code from view, you can collapse it so that it appears under a caret sign (`>`) in the text editor. Then, to expand a collapsed region, select the caret sign (`>`).
 
 > [!TIP]
 > If you are a keyboard user, you can choose **Ctrl**+**M**+**M** to collapse and expand.
 
 To collapse an outlining region, double-click any line in the region on the outlining margin, which appears just to the left of the code. You can see the contents of a collapsed region as a tooltip when you hover over the collapsed region.
 
-:::image type="content" source="media/outlining-example.png" alt-text="Screenshot of an example of collapsed code that shows the outlining margin and an example of the expanded code visible from a tooltip." lightbox="media/outlining-example.png":::
+:::image type="content" source="media/outlining-example-2022.png" alt-text="Screenshot of an example of collapsed code that shows the outlining margin and an example of the expanded code visible from a tooltip." lightbox="media/outlining-example.png":::
 
 Regions in the outlining margin are also highlighted when you hover over the margin with the mouse. The default highlighting color may seem rather faint in some color configurations. You can change it in **Tools** > **Options** > **Environment** > **Fonts and Colors** > **Collapsible Region**.
 
