@@ -125,7 +125,7 @@ If you choose to not install Copilot, you can select **Hide Copilot** from the d
 
 To learn more, consider exploring the following resources:
 
-[Get started with GitHub Copilot Completions in Visual Studio](visual-studio-github-copilot-extension.md)
-[Get started with GitHub Copilot Chat in Visual Studio](visual-studio-github-copilot-chat.md)
+- [Get started with GitHub Copilot Completions in Visual Studio](visual-studio-github-copilot-extension.md)
+- [Get started with GitHub Copilot Chat in Visual Studio](visual-studio-github-copilot-chat.md)
 
 For Copilot related issues, contact GitHub at https://support.github.com.
