@@ -75,6 +75,8 @@ Download and install the extensions directly from [Visual Studio Marketplace](ht
 - [GitHub Copilot extension for Visual Studio 2022 version 17.9 or earlier][**GitHub Copilot on Marketplace**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs)
 - [GitHub Copilot Chat extension for Visual Studio 2022 version 17.9 or earlier](https://aka.ms/VSXGHCopilot)
 
+Support for Git Hub Copilot Chat will be provided by GitHub and can be reached at https://support.github.com
+
 ## Manage your Copilot state 
 
 With Visual Studio 2022 version 17.10 Preview 3, you see a Copilot status icon in the upper-right corner of the Visual Studio environment that indicates if Copilot is active, inactive, unavailable, or not installed. Using the dropdown menu from the status icon, you can easily access options that help manage or troubleshoot your Copilot state. Some options are available or greyed out depending on your Copilot state.
@@ -127,5 +129,3 @@ To learn more, consider exploring the following resources:
 
 - [Get started with GitHub Copilot Completions in Visual Studio](visual-studio-github-copilot-extension.md)
 - [Get started with GitHub Copilot Chat in Visual Studio](visual-studio-github-copilot-chat.md)
-
-For Copilot related issues, contact GitHub at https://support.github.com.

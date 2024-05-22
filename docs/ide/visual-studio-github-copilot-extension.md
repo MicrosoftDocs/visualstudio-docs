@@ -88,5 +88,3 @@ To learn more about the current GitHub Copilot extension for Visual Studio, cons
 - [GitHub Copilot extension: Getting started](https://docs.github.com/copilot/getting-started-with-github-copilot?tool=visualstudio)
 - [GitHub Copilot: Your AI pair programmer](https://github.com/features/copilot)
 - [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/)
-
-For Copilot related issues, contact GitHub at https://support.github.com. 

@@ -102,4 +102,4 @@ To learn more, consider exploring the following resources:
 - [GitHub Copilot: Your AI pair programmer](https://github.com/features/copilot)
 - [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/)
 
-For Copilot related issues, contact GitHub at https://support.github.com.
+Support for GitHub Copilot Chat will be provided by GitHub and can be reached at https://support.github.com.
