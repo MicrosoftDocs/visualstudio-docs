@@ -213,7 +213,7 @@ There are two ways to bring up the Update Settings dialog, which allows you to m
     
 The **Update settings** dialog will look something like this. In this example, the Visual studio instance is using the LTSC 17.0 channel.
 
-   ![Screenshot showing the Updates settings dialog in the Visual Studio 2022 IDE.](media/vs-2022/update-settings.png)
+   ![Screenshot showing the Updates settings dialog in the Visual Studio 2022 IDE.](media/vs-2022/UpdateSettingDialog1.1.png)
 
 By choosing the correct value in the **Update channel** dropdown, you can control the source location of future updates for this instance of Visual Studio. Additional things to keep in mind are:
  * The Preview and Current channels are available for all editions of Visual Studio, and the LTSC channels are only available for Professional and Enterprise customers. 
@@ -250,7 +250,7 @@ All components with an out-of-support label will be deselected and get uninstall
 
 You can also configure a specific Visual Studio instance to *persistently* remove all components that transition to an out-of-support state by selecting the option **More**> **Update Settings**> **Remove all out-of-support components during future updates** in the Visual Studio Installer. Once this setting is configured, any component that transitions to an out-of-support state in the future will be removed during the next Visual Studio update for that instance of Visual Studio.
 
-   :::image type="content" source="media/vs-2022/remove-all-out-support-components-during-future-updates.png" alt-text="Screenshot of Remove all out-of-state components during future updates option in the Update Settings dialog.":::
+ ![Screenshot showing the Remove out of support checkbox in update setting dialog.](media/vs-2022/UpdateSettingDialog1.2.png)
    
 ## Use the latest and greatest installer
 
