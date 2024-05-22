@@ -1,7 +1,7 @@
 ---
 title: 'Tips & Tricks for GitHub Copilot Chat in Visual Studio'
 description: Use slash commands, references, and threads to form better questions and get better answers with scoped context in GitHub Copilot Chat.
-ms.date: 3/6/2024
+ms.date: 5/22/2024
 ms.topic: how-to 
 author: anandmeg
 ms.author: meghaanand
@@ -31,6 +31,8 @@ To get started using GitHub Copilot Chat in Visual Studio, you need:
 + Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-history) or later installed
 + [GitHub Copilot installed](visual-studio-github-copilot-install-and-states.md) in Visual Studio
 + [GitHub Copilot Chat extension installed](visual-studio-github-copilot-chat.md#get-github-copilot-chat-for-visual-studio) in Visual Studio
+
+Support for GitHub Copilot Chat will be provided by GitHub and can be reached at https://support.github.com.
 
 ## <a name="slash-commands"></a>Use slash commands in Copilot Chat for common tasks
 

@@ -44,7 +44,9 @@ You can get the **GitHub Copilot extension** in one of the following ways:
 You can get the **GitHub Copilot Chat extension** in one of the following ways:
 
 - Install using the [Extension Manager](#install-using-the-manage-extensions-dialog-box)
-- Install directly from [Visual Studio Marketplace](#install-from-visual-studio-marketplace): [**GitHub Copilot Chat on Marketplace**](https://aka.ms/VSXGHCopilot) 
+- Install directly from [Visual Studio Marketplace](#install-from-visual-studio-marketplace): [**GitHub Copilot Chat on Marketplace**](https://aka.ms/VSXGHCopilot)
+
+Support for GitHub Copilot Chat will be provided by GitHub and can be reached at https://support.github.com.
  
 #### Install using the Visual Studio Installer
 
@@ -74,8 +76,6 @@ You can get the **GitHub Copilot Chat extension** in one of the following ways:
 Download and install the extensions directly from [Visual Studio Marketplace](https://marketplace.visualstudio.com/).
 - [GitHub Copilot extension for Visual Studio 2022 version 17.9 or earlier][**GitHub Copilot on Marketplace**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs)
 - [GitHub Copilot Chat extension for Visual Studio 2022 version 17.9 or earlier](https://aka.ms/VSXGHCopilot)
-
-Support for Git Hub Copilot Chat will be provided by GitHub and can be reached at https://support.github.com
 
 ## Manage your Copilot state 
 
