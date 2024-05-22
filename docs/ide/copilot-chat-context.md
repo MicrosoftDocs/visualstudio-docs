@@ -98,3 +98,4 @@ You can select between multiple ongoing threads to provide the right historical 
 - [GitHub Copilot Chat extension for Visual Studio](visual-studio-github-copilot-chat.md)
 - [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/)
 - [Send us suggestions, feedback, and issues](how-to-report-a-problem-with-visual-studio.md)
+- [Support for GitHub Copilot Chat](https://support.github.com)

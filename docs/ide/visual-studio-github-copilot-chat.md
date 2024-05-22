@@ -103,3 +103,4 @@ To learn more, consider exploring the following resources:
 - [GitHub Copilot Chat extension: Getting started](https://docs.github.com/copilot/getting-started-with-github-copilot?tool=visualstudio)
 - [GitHub Copilot: Your AI pair programmer](https://github.com/features/copilot)
 - [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/)
+- [Support for GitHub Copilot Chat](https://support.github.com)
