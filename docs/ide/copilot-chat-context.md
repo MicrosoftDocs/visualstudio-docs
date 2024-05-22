@@ -92,7 +92,7 @@ You can select between multiple ongoing threads to provide the right historical 
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-switch-threads.png" alt-text="Screenshot of switching between ongoing threads in Copilot Chat.":::
 
-## Related content
+## Next steps
 
 - [GitHub Copilot extension for Visual Studio](visual-studio-github-copilot-extension.md)
 - [GitHub Copilot Chat extension for Visual Studio](visual-studio-github-copilot-chat.md)
