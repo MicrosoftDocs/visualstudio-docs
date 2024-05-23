@@ -124,7 +124,11 @@ In Visual Studio 2022, there are different Project Designer user interfaces, dep
 
    ![Screenshot that shows the Output path property for a C++ project.](media/output-path-cpp.png)
 
-   For more complex values that depend on Macro values, you can view the available macros and their values. If you need to reference an environment variable, you can reference it using the syntax `$(VAR)` for the environment variable `VAR`. When building a path using macros and environment variables, be careful to consider whether a slash is needed or not.
+   For expressions that depend on macro values, click on **Macros >>** to view the available macros and their values. The dialog also shows you the final expanded value of the property with the current macro values.
+
+   ![Screenshot that shows the macros and their values.](media/output-path-cpp-macros.png)
+
+   If you need to reference an environment variable, you can reference it using the syntax `$(VAR)` for the environment variable `VAR`. When building a path using macros and environment variables, be careful to consider whether a slash is needed or not.
 
 For more information, see [General Property Page](/cpp/build/reference/general-property-page-project) and be sure you're familiar with how to work with C++ property pages to understand how property values can depend on configurations and platforms, see [Working with project properties](/cpp/build/working-with-project-properties).
 
