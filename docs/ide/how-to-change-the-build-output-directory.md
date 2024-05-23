@@ -179,7 +179,7 @@ By default, Visual Studio builds each project in a solution in its own folder in
 
 ## Use Directory.Build.props to set the output directory
 
-If you have a large number of projects, and you want to change the output folder for them all, it would be tedious and error-prone to change each one using the methods described earlier in this article. In such cases, you can save time by creating a file in the solution folder, *Directory.Build.props* to set the appropriate MSBuild properties in one place, to apply to all the projects in the solution. By placing a file with this particular name in the parent folder of all the projects you want to be affected, you can easily maintain customizations in a single place and make it easy to change the values. See [Customize the build by folder](../msbuild/customize-by-directory.md).
+If you have a large number of projects, and you want to change the output folder for them all, it would be tedious and error-prone to change each one using the methods described earlier in this article. In such cases, you can create a file in the solution folder, *Directory.Build.props*, to set the appropriate MSBuild properties in one place, to apply to all the projects in the solution. By placing a file with this particular name in the parent folder of all the projects you want to be affected, you can easily maintain customizations in a single place and make it easy to change the values. See [Customize the build by folder](../msbuild/customize-by-directory.md).
 
 :::moniker range=">=vs-2022"
 
