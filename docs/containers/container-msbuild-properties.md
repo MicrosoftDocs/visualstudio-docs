@@ -3,7 +3,7 @@ title: Visual Studio Container Tools build properties
 author: ghogen
 description: Learn how to edit the Container Tools build properties to customize how Visual Studio builds and runs a container project.
 ms.author: ghogen
-ms.date: 06/06/2019
+ms.date: 05/21/2024
 ms.subservice: container-tools
 ms.topic: reference
 ---
@@ -70,8 +70,10 @@ The following project file shows examples of some of these settings.
  <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>feae72bf-2368-4487-b6c6-546c19338cb1</UserSecretsId>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>8c7ab9a5-d578-4c40-8b6d-54d174002229</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <!-- In CI/CD scenarios, you might need to change the context. By default, Visual Studio uses the
          folder above the Dockerfile. The path is relative to the Dockerfile, so here the context is
@@ -84,7 +86,7 @@ The following project file shows examples of some of these settings.
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.20.1" />
   </ItemGroup>
 
 </Project>
