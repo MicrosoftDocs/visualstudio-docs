@@ -42,20 +42,17 @@ Similarly, *Microsoft.Common.targets* looks for *Directory.Build.targets*.
 
 ### Directory.Build.props example
 
-For example, if you wanted to enable all of your projects to access the new Roslyn **/deterministic** feature (which is exposed in the Roslyn `CoreCompile` target by the property `$(Deterministic)`), you could do the following.
+For example, here's a *Directory.Build.props* file that sets the output directory for all the projects in a Visual Studio solution. The output of each project is placed under its own project name. In this example, the *Directory.Build.props* file is in a solution folder, with many projects in subfolders under it. The `$(MSBuildProjectName)` property gives the name of each project. Because the *Directory.Build.props* file is imported into each project during its own build, it is evaluated to the right value for each individual project in the solution.
 
-1. Create a new file in the root of your repo called *Directory.Build.props*.
-2. Add the following XML to the file.
+```xml
+<Project>
+   <PropertyGroup>
+      <OutDir>C:\CustomOutput\$(MSBuildProjectName)</OutDir>
+   </PropertyGroup>
+</Project>
+```
 
-   ```xml
-   <Project>
-    <PropertyGroup>
-      <Deterministic>true</Deterministic>
-    </PropertyGroup>
-   </Project>
-   ```
-
-3. Run MSBuild. Your project’s existing imports of *Microsoft.Common.props* and *Microsoft.Common.targets* find the file and import it.
+The `$(OutDir)` property is an absolute path.
 
 ### Search scope
 

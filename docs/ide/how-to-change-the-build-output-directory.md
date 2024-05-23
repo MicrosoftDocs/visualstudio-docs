@@ -178,50 +178,17 @@ By default, Visual Studio builds each project in a solution in its own folder in
 
    See [Specify custom build events](specifying-custom-build-events-in-visual-studio.md).
 
-## Use Directory.Build.props to set the property
+## Use Directory.Build.props to set the output directory
 
-If you have a large number of projects, and you want to change the output folder for them all, it would be tedious and error-prone to change each one using the methods described earlier in this article. In such cases, you can save time by creating a file, *Directory.Build.props* to set the appropriate MSBuild properties in one place, to apply to all the projects. By placing a file with this particular name in the parent folder of all the projects you want to be affected, you can easily maintain customizations in a single place and make it easy to change the values.
+If you have a large number of projects, and you want to change the output folder for them all, it would be tedious and error-prone to change each one using the methods described earlier in this article. In such cases, you can save time by creating a file in the solution folder, *Directory.Build.props* to set the appropriate MSBuild properties in one place, to apply to all the projects in the solution. By placing a file with this particular name in the parent folder of all the projects you want to be affected, you can easily maintain customizations in a single place and make it easy to change the values. See [Customize the build by folder](../msbuild/customize-by-directory.md).
 
-Here's an example of a *Directory.Build.props* file that sets the output directory for all the projects. The output of each project is placed under their own project name. In this example, the *Directory.Build.props* file is in a solution folder, with many projects in subfolders under it. The `$(MSBuildProjectName)` property gives the name of each project. Because the *Directory.Build.props* file is imported into each project during its own build process, it is evaluated to the right value for each individual project in the solution.
+:::moniker range=">=vs-2022"
 
-```xml
-<Project>
-   <PropertyGroup>
-      <OutDir>C:\CustomOutput\$(MSBuildProjectName)</OutDir>
-   </PropertyGroup>
-</Project>
-```
+## Use artifacts to organize build output
 
-The `$(OutDir)` property is an absolute path. The actual output is emitted in the subfolder for the `Configuration` and `Platform`, unless you specifically override this behavior by setting the properties `AppendTargetFrameworkToOutputPath` and `AppendRuntimeIdentifierToOutputPath` as discussed earlier in this article.
+For .NET 8 projects, you can use the artifacts functionality to arrange output in a highly customizable and flexible way. See [Artifacts output layout](/dotnet/core/sdk/artifacts-output).
 
-To construct the output directory, you can use `$(MSBuildProjectName)` or any other predefined MSBuild property. See [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md) for a list of them. However, there is no reliable way to get the solution folder in *Directory.Build.props*.
-
-In this example, all output from all the projects is put into a single folder with no target framework or platform subfolder. In this case, we set `$(UseCommonOutputDirectory)` to true, as discussed earlier in this article.
-
-```xml
-<Project>
-   <PropertyGroup>
-      <OutDir>C:\CustomOutputFolder</OutDir>
-      <UseCommonOutputDirectory>true</UseCommonOutputDirectory>
-      <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-      <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
-   </PropertyGroup>
-</Project>
-```
-
-If you want to keep the output in each project's own folder, but you want to change the structure within the project folders (for example, something other than the default `bin`), you can set `$(BaseOutputPath)` to customize where the output is placed relative to the project folder within each project.
-
-```xml
-<Project>
-   <PropertyGroup>
-      <BaseOutputPath>output</BaseOutputPath>
-   </PropertyGroup>
-</Project>
-```
-
-As in previous examples, in .NET projects, the configuration and platform are automatically added to the `BaseOutputPath`, but this behavior can be overridden using the same methods for $(OutDir).
-
-For more information, see [Customize the build by folder](customize-by-directory.md).
+:::moniker-end
 
 ## Related content
 
