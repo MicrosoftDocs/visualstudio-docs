@@ -182,7 +182,7 @@ By default, Visual Studio builds each project in a solution in its own folder in
 
 If you have a large number of projects, and you want to change the output folder for them all, it would be tedious and error-prone to change each one using the methods described earlier in this article. In such cases, you can save time by creating a file, *Directory.Build.props* to set the appropriate MSBuild properties in one place, to apply to all the projects. By placing a file with this particular name in the parent folder of all the projects you want to be affected, you can easily maintain customizations in a single place and make it easy to change the values.
 
-Here's an example of a *Directory.Build.props* file that sets the output directory for all the projects, organizing each of the projects under their own project name. In this example, the *Directory.Build.props* file is in a solution folder, with many projects in subfolders under it. The `$(MSBuildProjectName)` property gives the name of each project. Because the *Directory.Build.props* file is imported into each project during its own build process, it is evaluated to the right value for each individual project in the solution.
+Here's an example of a *Directory.Build.props* file that sets the output directory for all the projects. The output of each project is placed under their own project name. In this example, the *Directory.Build.props* file is in a solution folder, with many projects in subfolders under it. The `$(MSBuildProjectName)` property gives the name of each project. Because the *Directory.Build.props* file is imported into each project during its own build process, it is evaluated to the right value for each individual project in the solution.
 
 ```xml
 <Project>
