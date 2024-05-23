@@ -49,12 +49,18 @@ items:
     href: ./project/project-concepts.md
 - name: Tool windows
   href: ./tool-window/tool-window.md
-- name: User prompts
-  href: ./user-prompt/user-prompts.md
-- name: Dialogs
-  href: ./dialog/dialog.md
+- name: Prompts
+  items:
+  - name: User prompts
+    href: ./user-prompt/user-prompts.md
+  - name: Dialogs
+    href: ./dialog/dialog.md
+  - name: File/Directory picker prompts
+    href: ./user-prompt/file-directory-picker-prompts.md
 - name: Debugger visualizers
   href: ./debugger-visualizer/debugger-visualizers.md
+- name: Diagnostics
+  href: ./diagnostics/visualstudio-extensibility-diagnostics-extension.md
 - name: Inside the SDK
   items:
   - name: Components of an extension
