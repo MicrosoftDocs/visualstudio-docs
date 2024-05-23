@@ -122,7 +122,7 @@ This procedure applies to .NET Framework projects and Visual Basic projects.
 
 1. In the configuration drop-down at the top, choose the configuration whose output file location you want to change (**Debug**, **Release**, or **All Configurations**).
 
-   If you are viewing **All Configurations** or **All Platforms**, you might see `<different options>` for some of the properties. Property values can be different for each combination of configuration and platform. While you can set them individually, the default settings use the same value for all combinations, but they use the macros `$(Configuration)` and `$(Platform)` to produce a unique output path for each combination.
+   If you are viewing **All Configurations** or **All Platforms**, you might see `<different options>` for some of the properties. Property values can be different for each combination of configuration and platform. While you can set them individually, the default settings use the same expression for all combinations, but they use the macros `$(Configuration)` and `$(Platform)` to produce a unique output path for each combination.
 
 1. Find the output path in **Output directory**. The dropdown gives options for editing the expression, or browsing to a path, or (if relevant) **\<inherit from parent or project default\>**.
 
