@@ -1,7 +1,7 @@
 ---
 title: Create a Vue.js app in Visual Studio
 description: Create, build, and run a Vue.js front-end web application project from a Visual Studio template, and set basic properties for the project.
-ms.date: 08/24/2023
+ms.date: 05/23/2024
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
