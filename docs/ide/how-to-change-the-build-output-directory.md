@@ -89,7 +89,7 @@ In Visual Studio 2022, there are different Project Designer user interfaces, dep
 >
 > ![Screenshot of the Build configuration picker in Visual Studio 2022.](media/vs-2022/build-configuration-chooser.png)
 
-### To change the build output directory using the legacy .NET Project Designer or C++ property pages
+### To change the build output directory using the legacy .NET Project Designer
 
 1. Clean the project or solution to remove any existing output files (**Build** > **Clean solution**).
 
@@ -122,6 +122,28 @@ In Visual Studio 2022, there are different Project Designer user interfaces, dep
    >   <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
    > </PropertyGroup>
    > ```
+
+### To change the build output directory for a C++ project
+
+1. Clean the project or solution to remove any existing output files (**Build** > **Clean solution**).
+
+1. Right-click on the project node in **Solution Explorer** and select **Properties**.
+
+1. Select the **General** tab.
+
+1. In the configuration drop-down at the top, choose the configuration whose output file location you want to change (**Debug**, **Release**, or **All Configurations**).
+
+   If you are viewing **All Configurations** or **All Platforms**, you might see `<different options>` for some of the properties. Property values can be different for each combination of configuration and platform. While you can set them individually, the default settings use the same value for all combinations, but they use the macros `$(Configuration)` and `$(Platform)` to produce a unique output path for each combination.
+
+1. Find the output path in **Output directory**. The dropdown gives options for editing the expression, or browsing to a path, or (if relevant) **\<inherit from parent or project default\>**.
+
+   Type in the path to generate output to (absolute or relative to the root project directory), or choose **Browse** to browse to that folder instead.
+
+   ![Screenshot that shows the Output path property for a C++ project.](media/output-path-cpp.png)
+
+   For more complex values that depend on Macro values, you can view the available macros and their values. If you need to reference an environment variable, you can reference it using the syntax `$(VAR)` for the environment variable `VAR`. When building a path using macros and environment variables, be careful to consider whether a slash is needed or not.
+
+For more information, see [General Property Page](/cpp/build/reference/general-property-page-project) and be sure you're familiar with how to work with C++ property pages to understand how property values can depend on configurations and platforms, see [Working with project properties](/cpp/build/working-with-project-properties).
 
 :::moniker-end
 
