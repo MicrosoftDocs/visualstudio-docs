@@ -84,11 +84,6 @@ In Visual Studio 2022, there are different Project Designer user interfaces, dep
    > </PropertyGroup>
    > ```
 
-> [!TIP]
-> If the output is not being generated to the location that you specified, make sure you're building the corresponding configuration (for example, **Debug** or **Release**) by selecting it on the menu bar of Visual Studio.
->
-> ![Screenshot of the Build configuration picker in Visual Studio 2022.](media/vs-2022/build-configuration-chooser.png)
-
 ### To change the build output directory using the legacy .NET Project Designer
 
 1. Clean the project or solution to remove any existing output files (**Build** > **Clean solution**).
@@ -99,7 +94,6 @@ In Visual Studio 2022, there are different Project Designer user interfaces, dep
 
    - For C#, select the **Build** tab.
    - For Visual Basic, select the **Compile** tab.
-   - For C++ or JavaScript, select the **General** tab.
 
 1. In the configuration drop-down at the top, choose the configuration whose output file location you want to change (**Debug**, **Release**, or **All Configurations**).
 
@@ -107,21 +101,10 @@ In Visual Studio 2022, there are different Project Designer user interfaces, dep
 
    - **Output path** for C# and JavaScript projects
    - **Build output path** for Visual Basic projects
-   - **Output directory** for Visual C++ projects
 
    Type in the path to generate output to (absolute or relative to the root project directory), or choose **Browse** to browse to that folder instead.
 
    ![Screenshot that shows the Output path property for a C# .NET Framework project.](media/output-path.png)
-
-   > [!NOTE]
-   > Some projects (.NET and ASP.NET Core) will by default include the framework version or runtime identifier in the final output path. To change this, right-click the project node in **Solution Explorer**, select **Edit Project File**, and add the following:
-
-   > ```xml
-   > <PropertyGroup>
-   >   <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-   >   <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
-   > </PropertyGroup>
-   > ```
 
 ### To change the build output directory for a C++ project
 
@@ -144,6 +127,11 @@ In Visual Studio 2022, there are different Project Designer user interfaces, dep
    For more complex values that depend on Macro values, you can view the available macros and their values. If you need to reference an environment variable, you can reference it using the syntax `$(VAR)` for the environment variable `VAR`. When building a path using macros and environment variables, be careful to consider whether a slash is needed or not.
 
 For more information, see [General Property Page](/cpp/build/reference/general-property-page-project) and be sure you're familiar with how to work with C++ property pages to understand how property values can depend on configurations and platforms, see [Working with project properties](/cpp/build/working-with-project-properties).
+
+> [!TIP]
+> If the output is not being generated to the location that you specified, make sure you're building the corresponding configuration (for example, **Debug** or **Release**) by selecting it on the menu bar of Visual Studio.
+>
+> ![Screenshot of the Build configuration picker in Visual Studio 2022.](media/vs-2022/build-configuration-chooser.png)
 
 :::moniker-end
 
