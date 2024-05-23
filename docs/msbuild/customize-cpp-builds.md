@@ -23,7 +23,7 @@ For C++ projects, you can use the following properties to specify `.props` file(
 - ForceImportBeforeCppTargets
 - ForceImportAfterCppTargets
 
-These imports provide control over sequence of the definitions of properties that depend on other properties. See [.vcxproj and .props file structure](/cpp/build/reference/vcxproj-file-structure).  To customize the default values of properties for all C++ builds, create another `.props` file (say, *MyProps.props*), and define the `ForceImportAfterCppProps` property in `Directory.Build.props` pointing to it:
+These imports provide control over sequence of the definitions of properties that depend on other properties. See [.vcxproj and .props file structure](/cpp/build/reference/vcxproj-file-structure).  To customize the default values of properties for C++ builds, create another `.props` file (say, *MyProps.props*), and define the `ForceImportAfterCppProps` property in `Directory.Build.props` pointing to it:
 
 ```xml
 <PropertyGroup>
