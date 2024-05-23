@@ -1,7 +1,7 @@
 ---
 title: Install and manage GitHub Copilot in Visual Studio
 description: Install GitHub Copilot in Visual Studio and manage copilot state by using the Copilot badge in the IDE.
-ms.date: 5/14/2024
+ms.date: 5/22/2024
 ms.topic: install-set-up-deploy
 author: anandmeg
 ms.author: meghaanand
@@ -44,7 +44,9 @@ You can get the **GitHub Copilot extension** in one of the following ways:
 You can get the **GitHub Copilot Chat extension** in one of the following ways:
 
 - Install using the [Extension Manager](#install-using-the-manage-extensions-dialog-box)
-- Install directly from [Visual Studio Marketplace](#install-from-visual-studio-marketplace): [**GitHub Copilot Chat on Marketplace**](https://aka.ms/VSXGHCopilot) 
+- Install directly from [Visual Studio Marketplace](#install-from-visual-studio-marketplace): [**GitHub Copilot Chat on Marketplace**](https://aka.ms/VSXGHCopilot)
+
+Support for GitHub Copilot Chat will be provided by GitHub and can be reached at https://support.github.com.
  
 #### Install using the Visual Studio Installer
 
@@ -125,5 +127,5 @@ If you choose to not install Copilot, you can select **Hide Copilot** from the d
 
 To learn more, consider exploring the following resources:
 
-[Get started with GitHub Copilot Completions in Visual Studio](visual-studio-github-copilot-extension.md)
-[Get started with GitHub Copilot Chat in Visual Studio](visual-studio-github-copilot-chat.md)
+- [Get started with GitHub Copilot Completions in Visual Studio](visual-studio-github-copilot-extension.md)
+- [Get started with GitHub Copilot Chat in Visual Studio](visual-studio-github-copilot-chat.md)
