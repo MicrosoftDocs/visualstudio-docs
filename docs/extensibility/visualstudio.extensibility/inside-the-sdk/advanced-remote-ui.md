@@ -302,7 +302,7 @@ The resource file itself is a normal WPF resource dictionary:
 </ResourceDictionary>
 ```
 
-You can reference a resource from the resource dictionary in the the Remote UI control using `DynamicResource`:
+You can reference a resource from the resource dictionary in the Remote UI control using `DynamicResource`:
 
 ```xml
 <Button Content="{DynamicResource removeButtonText}" ...

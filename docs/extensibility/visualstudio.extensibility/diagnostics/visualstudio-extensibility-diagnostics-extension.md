@@ -80,11 +80,11 @@ Clicking the **Clear All** button deletes all the events currently shown in the 
 
 ##### Extension ID
 
-The **Extension Id** column shows the Id of the extension that the instance of the event is related to. It's possible for this cell to be empty for some events if they don't belong to a specific extension but instead apply to the IDE as a whole.
+The **Extension Id** column shows the ID of the extension that the instance of the event is related to. It's possible for this cell to be empty for some events if they don't belong to a specific extension but instead apply to the IDE as a whole.
 
 ##### Item ID
 
-The **Item Id** column shows the Id of the extension item that the instance of the event is related to. For example, the **Item Id** for the **Commands - Executing** event would be the Id of the command that was executed.
+The **Item Id** column shows the ID of the extension item that the instance of the event is related to. For example, the **Item Id** for the **Commands - Executing** event would be the ID of the command that was executed.
 
 ##### Properties
 
