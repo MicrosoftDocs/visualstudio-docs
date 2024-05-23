@@ -44,15 +44,26 @@ Similarly, *Microsoft.Common.targets* looks for *Directory.Build.targets*.
 
 For example, here's a *Directory.Build.props* file that sets the output directory for all the projects in a Visual Studio solution. The output of each project is placed under its own project name. In this example, the *Directory.Build.props* file is in a solution folder, with many projects in subfolders under it. The `$(MSBuildProjectName)` property gives the name of each project. Because the *Directory.Build.props* file is imported into each project during its own build, it is evaluated to the right value for each individual project in the solution.
 
-```xml
-<Project>
-   <PropertyGroup>
-      <OutDir>C:\CustomOutput\$(MSBuildProjectName)</OutDir>
-   </PropertyGroup>
-</Project>
-```
+1. Clean the solution to remove any old output files.
 
-The `$(OutDir)` property is an absolute path.
+   `msbuild /t:Clean SolutionName.sln`
+
+1. Create a new file in the root of your repo called *Directory.Build.props*.
+
+1. Add the following XML to the file.
+
+   ```xml
+   <Project>
+      <PropertyGroup>
+         <OutDir>C:\output\$(MSBuildProjectName)</OutDir>
+      </PropertyGroup>
+   </Project>
+   ```
+
+   > [!NOTE]
+   > The `$(OutDir)` property is an absolute path to the output, and using it bypasses the creation of subfolders for the configuration, target framework, or runtime that are normally used in .NET projects. Try using the property `BaseOutputPath` instead if you want the usual subfolders to be created under a custom output path.
+
+1. Run MSBuild. Your project's existing imports of *Microsoft.Common.props* and *Microsoft.Common.targets* find the *Directory.Build.props* file and import it, and the new output folder is used for all the projects under that folder.
 
 ### Search scope
 
