@@ -1,7 +1,7 @@
 ---
 title: Customize C++ builds for MSBuild
 description: Customize C++ builds done with MSBuild, including how to customize all builds created on a given system, such as a build server.
-ms.date: 02/28/2023
+ms.date: 05/23/2024
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, transforms
@@ -13,9 +13,7 @@ ms.subservice: msbuild
 ---
 # Customize C++ builds
 
-For C++ projects, the custom `.targets` and `.props` files can't be used in the same way to override default settings. This article describes a different way of customizing the build that works for C++ builds.
-
-The file *Directory.Build.props* that is useful for customizing .NET projects is imported by *Microsoft.Common.props*, which is imported in `Microsoft.Cpp.Default.props`, while most of the defaults are defined in *Microsoft.Cpp.props*, and for many properties a "if not yet defined" condition can't be used, as the property is already defined, but the default needs to be different for particular project properties defined in `PropertyGroup` with `Label="Configuration"` (see [.vcxproj and .props file structure](/cpp/build/reference/vcxproj-file-structure)).
+You can use *Directory.Build.props* to customize C++ projects the same way that you can for .NET projects. See [Customize by folder](customize-by-directory.md). In addition, C++ projects provide additional extensibility points.
 
 For C++ projects, you can use the following properties to specify `.props` file(s) to be automatically imported before/after *Microsoft.Cpp.\** files:
 
@@ -25,7 +23,7 @@ For C++ projects, you can use the following properties to specify `.props` file(
 - ForceImportBeforeCppTargets
 - ForceImportAfterCppTargets
 
-To customize the default values of properties for all C++ builds, create another `.props` file (say, *MyProps.props*), and define the `ForceImportAfterCppProps` property in `Directory.Build.props` pointing to it:
+These imports provide control over sequence of the definitions of properties that depend on other properties. See [.vcxproj and .props file structure](/cpp/build/reference/vcxproj-file-structure).  To customize the default values of properties for all C++ builds, create another `.props` file (say, *MyProps.props*), and define the `ForceImportAfterCppProps` property in `Directory.Build.props` pointing to it:
 
 ```xml
 <PropertyGroup>
