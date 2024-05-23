@@ -1,7 +1,7 @@
 ---
 title: Create a React app in Visual Studio
 description: Create, build, and run a simple React front-end web application project from a Visual Studio template, and set basic properties for the project.
-ms.date: 08/24/2023
+ms.date: 05/23/2024
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
@@ -36,10 +36,6 @@ Make sure to install the following:
    :::image type="content" source="media/vs-2022/react-choose-standalone-template.png" alt-text="Screenshot showing choosing a template":::
 
 1. Give your project and solution a name. 
-
-   If you previously selected Standalone JavaScript React Template, when you get to the Additional information window be sure NOT to check the **Add integration for Empty ASP.NET Web API Project** option. This option adds files to your React template so that it can be hooked up with the ASP.NET Core project, if an ASP.NET Core project is added.
-
-   :::image type="content" source="media/vs-2022/react-additional-info-no-integration.png" alt-text="Screenshot showing Additional information":::
 
 1. Choose **Create**, and then wait for Visual Studio to create the project.
 
