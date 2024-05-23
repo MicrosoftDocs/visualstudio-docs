@@ -64,6 +64,8 @@ In Visual Studio 2022, there are different Project Designer user interfaces, dep
 
 ### To change the build output directory using the current .NET Project Designer
 
+This procedure applies to C# projects in Visual Studio 2022 targeting .NET Core or .NET 5 and later.
+
 1. Clean the project or solution to remove any existing output files (**Build** > **Clean solution**).
 
 1. Right-click on the project node in **Solution Explorer** and select **Properties**.
@@ -85,6 +87,8 @@ In Visual Studio 2022, there are different Project Designer user interfaces, dep
    > ```
 
 ### To change the build output directory using the legacy .NET Project Designer
+
+This procedure applies to .NET Framework projects and Visual Basic projects.
 
 1. Clean the project or solution to remove any existing output files (**Build** > **Clean solution**).
 
