@@ -114,7 +114,7 @@ In Visual Studio 2022, there are different Project Designer user interfaces, dep
    ![Screenshot that shows the Output path property for a C# .NET Framework project.](media/output-path.png)
 
    > [!NOTE]
-   > Some projects will by default include framework and target platform in the final output path. To change this, right-click the project node in **Solution Explorer**, select **Edit Project File**, and add the following:
+   > Some projects (.NET and ASP.NET Core) will by default include the framework version or runtime identifier in the final output path. To change this, right-click the project node in **Solution Explorer**, select **Edit Project File**, and add the following:
 
    > ```xml
    > <PropertyGroup>
