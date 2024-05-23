@@ -718,8 +718,6 @@
       href: ide/understanding-build-configurations.md
     - name: Create and edit configurations
       href: ide/how-to-create-and-edit-configurations.md
-    - name: Manage build configurations with Visual Basic developer settings
-      href: ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md
     - name: Build multiple configurations simultaneously
       href: ide/how-to-build-multiple-configurations-simultaneously.md
   - name: Build platforms
