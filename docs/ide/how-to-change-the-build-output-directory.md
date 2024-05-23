@@ -187,7 +187,7 @@ Here's an example of a *Directory.Build.props* file that sets the output directo
 ```xml
 <Project>
    <PropertyGroup>
-      <OutDir>C:\SpecialOutput\$(MSBuildProjectName)</OutDir>
+      <OutDir>C:\CustomOutput\$(MSBuildProjectName)</OutDir>
    </PropertyGroup>
 </Project>
 ```
