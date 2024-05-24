@@ -306,7 +306,7 @@ To change the build output directory for a single C++ project:
 
    If you need to reference an environment variable, you can reference it using the syntax `$(VAR)` for the environment variable `VAR`. When building a path using macros and environment variables, be careful to consider whether a backslash is needed or not.
 
-This procedure sets a property `OutDir` in the project file. If you view the project file after setting this property, you see that code similar to the following was added:
+This procedure sets a property `OutDir` in the project file (`.vcxproj`). If you view the project file after setting this property, you see that code similar to the following was added:
 
 ```xml
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
