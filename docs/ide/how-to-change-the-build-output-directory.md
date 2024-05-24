@@ -23,15 +23,15 @@ Visual Studio provides properties that let you place intermediate and final outp
 
 1. To open the project's property pages, right-click on the project node in **Solution Explorer** and select **Properties**.
 
-2. Select the appropriate tab based on your project type:
+1. Select the appropriate tab based on your project type:
 
    - For C#, select the **Build** tab.
    - For Visual Basic, select the **Compile** tab.
    - For C++ or JavaScript, select the **General** tab.
 
-3. In the configuration drop-down at the top, choose the configuration whose output file location you want to change (**Debug**, **Release**, or **All Configurations**).
+1. In the configuration drop-down at the top, choose the configuration whose output file location you want to change (**Debug**, **Release**, or **All Configurations**).
 
-4. Find the output path entry on the page&mdash;it differs depending on your project type:
+1. Find the output path entry on the page&mdash;it differs depending on your project type:
 
    - **Output path** for C# and JavaScript projects
    - **Build output path** for Visual Basic projects
@@ -55,7 +55,6 @@ Visual Studio provides properties that let you place intermediate and final outp
 > If the output is not being generated to the location that you specified, make sure you're building the corresponding configuration (for example, **Debug** or **Release**) by selecting it on the menu bar of Visual Studio.
 >
 > ![Build configuration picker in Visual Studio 2019.](media/build-configuration-chooser.png)
-
 
 ## Build to a common output directory
 
