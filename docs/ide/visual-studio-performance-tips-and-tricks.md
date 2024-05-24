@@ -1,7 +1,7 @@
 ---
 title: Tips to improve performance
 description: Explore tips to improve and optimize certain Visual Studio features that you might not be using to help improve performance.
-ms.date: 05/22/2023
+ms.date: 05/23/2024
 ms.topic: conceptual
 author: Mikejo5000
 ms.author: mikejo
@@ -58,7 +58,7 @@ If you're typically running low on memory during debugging sessions, you can opt
 
     To specify symbol loading, choose **Tools** > **Options** > **Debugging** > **Symbols**.
 
-    Set the options to **Only specified modules** instead of **All modules** and then specify which modules you care to load. While debugging, you can also right-click specific modules in the **Modules** window to explicitly include a module in the symbol load. (To open the window while debugging, choose **Debug** > **Windows** > **Modules**.)
+    Set the options to **Load only specified modules** instead of **Load all modules**, and then specify which modules you care to load. While debugging, you can also right-click specific modules in the **Modules** window to explicitly include a module in the symbol load. (To open the window while debugging, choose **Debug** > **Windows** > **Modules**.)
 
     For more information, see [Specify symbol and source files in the debugger](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
