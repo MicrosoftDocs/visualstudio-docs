@@ -306,7 +306,23 @@ To change the build output directory for a single C++ project:
 
    If you need to reference an environment variable, you can reference it using the syntax `$(VAR)` for the environment variable `VAR`. When building a path using macros and environment variables, be careful to consider whether a backslash is needed or not.
 
+This procedure sets a property `OutDir` in the project file. If you view the project file after setting this property, you see that code similar to the following was added:
+
+```xml
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>C:\MyOutputFolder</OutDir>
+  </PropertyGroup>
+```
+
 For more information, see [General Property Page](/cpp/build/reference/general-property-page-project) and to be sure you're familiar with how to work with C++ property pages to understand how property values can depend on configurations and platforms, see [Working with project properties](/cpp/build/working-with-project-properties).
+
+### To set the intermediate output directory for a project
+
+Use the **Intermediate Directory** property to set the directory for intermediate output such as `.obj` files.
+
+![Screenshot showing how to set the Intermediate output directory for a C++ project.](media/intermediate-output-path-cpp.png)
+
+In the project file, the property is `IntDir`.
 
 ### Use Directory.Build.props to set the output directory
 
