@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md",
+      "redirect_url": "/visualstudio/ide/understanding-build-configurations",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "docs/msbuild/logging-in-a-multi-processor-environment.md",
       "redirect_url": "/visualstudio/msbuild/writing-multi-processor-aware-loggers",
       "redirect_document_id": "false"
