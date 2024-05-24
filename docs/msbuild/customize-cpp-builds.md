@@ -13,9 +13,9 @@ ms.subservice: msbuild
 ---
 # Customize C++ builds
 
-You can use *Directory.Build.props* to customize C++ projects the same way that you can for .NET projects. See [Customize by folder](customize-by-directory.md). In addition, C++ projects provide additional extensibility points.
+You can use *Directory.Build.props* and *Directory.Build.targets* to customize all the C++ projects under a common parent folder. See [Customize by folder](customize-by-directory.md). In addition, C++ projects provide additional extensibility points.
 
-For C++ projects, you can use the following properties to specify `.props` file(s) to be automatically imported before/after *Microsoft.Cpp.\** files:
+For C++ projects, you can use the following properties to specify `.props` or `.targets` file(s) to be automatically imported before/after *Microsoft.Cpp.\** files:
 
 - ForceImportAfterCppDefaultProps
 - ForceImportBeforeCppProps
@@ -23,11 +23,11 @@ For C++ projects, you can use the following properties to specify `.props` file(
 - ForceImportBeforeCppTargets
 - ForceImportAfterCppTargets
 
-These imports provide control over sequence of the definitions of properties that depend on other properties. See [.vcxproj and .props file structure](/cpp/build/reference/vcxproj-file-structure).  To customize the default values of properties for all C++ builds, create another `.props` file (say, *MyProps.props*), and define the `ForceImportAfterCppProps` property in `Directory.Build.props` pointing to it:
+These imports provide control over sequence of the definitions of properties that depend on other properties, or targets that depend on other targets. See [.vcxproj and .props file structure](/cpp/build/reference/vcxproj-file-structure). If you need to define properties that use other properties defined in *Microsoft.Cpp.default.props* or *Microsoft.Cpp.props*, you can create another `.props` file (say, *MyProps.props*), and define the `ForceImportAfterCppProps` property in `Directory.Build.props` pointing to it:
 
 ```xml
 <PropertyGroup>
-  <ForceImportAfterCppProps>$(MsbuildThisFileDirectory)\MyProps.props</ForceImportAfterCppProps>
+  <ForceImportAfterCppProps>$(MSBuildThisFileDirectory)\MyProps.props</ForceImportAfterCppProps>
 </PropertyGroup>
 ```
 
