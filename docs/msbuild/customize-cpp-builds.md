@@ -23,7 +23,25 @@ For C++ projects, you can use the following properties to specify `.props` or `.
 - ForceImportBeforeCppTargets
 - ForceImportAfterCppTargets
 
-These imports provide control over the sequence of the definitions of properties that depend on other properties, or targets that depend on other targets. See [.vcxproj and .props file structure](/cpp/build/reference/vcxproj-file-structure). If you need to define properties that use other properties defined in *Microsoft.Cpp.default.props* or *Microsoft.Cpp.props*, you can create another `.props` file (say, *MyProps.props*), and define the `ForceImportAfterCppProps` property in `Directory.Build.props` pointing to it:
+These imports provide control over the sequence of the definitions of properties that depend on other properties, or targets that depend on other targets. The sequence of imports in a `.vcxproj` looks like this:
+
+vcxproj
+
+&nbsp;&nbsp;&nbsp;Microsoft.Cpp.default.props
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Microsoft.Common.props
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Directory.Build.props
+
+&nbsp;&nbsp;&nbsp;Microsoft.Cpp.props
+
+&nbsp;&nbsp;&nbsp;Microsoft.Cpp.targets
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Microsoft.Common.targets
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Directory.Build.targets
+
+See [.vcxproj and .props file structure](/cpp/build/reference/vcxproj-file-structure). If you need to define properties that use other properties defined in *Microsoft.Cpp.default.props* or *Microsoft.Cpp.props*, you can create another `.props` file (say, *MyProps.props*), and define the `ForceImportAfterCppProps` property in `Directory.Build.props` pointing to it:
 
 ```xml
 <PropertyGroup>
