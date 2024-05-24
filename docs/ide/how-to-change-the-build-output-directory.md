@@ -114,11 +114,9 @@ By default, Visual Studio builds each project in a solution in its own folder in
 
 In Visual Studio 2022, there are different Project Designer user interfaces, depending on your project type. C# .NET Framework and all Visual Basic projects use the legacy .NET Project Designer, but C# .NET Core (and .NET 5 and later) projects use the current .NET Project Designer. C++ projects use their own property pages user interface. The steps in this section depend on what Project Designer you're using.
 
-### [C# .NET Core](#tab/csharp)
-
 ## Change the build output directory
 
-### To change the build output directory
+### [C# .NET Core](#tab/csharp)
 
 This procedure applies to C# projects in Visual Studio 2022 targeting .NET Core or .NET 5 and later.
 
@@ -142,11 +140,9 @@ This procedure applies to C# projects in Visual Studio 2022 targeting .NET Core 
    > </PropertyGroup>
    > ```
 
-## Build to a common output directory
+### Build to a common output directory
 
 By default, Visual Studio builds each project in a solution in its own folder inside the solution. You can change the build output paths of your projects to force all outputs to be placed in the same folder.
-
-### To place all solution outputs in a common directory
 
 1. Clean the solution to remove any existing output files (**Build** > **Clean solution**).
 
@@ -169,7 +165,7 @@ By default, Visual Studio builds each project in a solution in its own folder in
 
 1. Repeat steps 2-5 for all projects in the solution. You can skip some projects if you have some exceptional projects that should not use the common output directory.
 
-### To set the intermediate output directory for a project (.NET projects)
+### To set the intermediate output directory for a project
 
 1. Clean the project to remove any existing output files.
 
@@ -194,11 +190,11 @@ By default, Visual Studio builds each project in a solution in its own folder in
 
    See [Specify custom build events](specifying-custom-build-events-in-visual-studio.md).
 
-## Use Directory.Build.props to set the output directory
+### Use Directory.Build.props to set the output directory
 
 If you have a large number of projects, and you want to change the output folder for them all, it would be tedious and error-prone to change each one using the methods described earlier in this article. In such cases, you can create a file in the solution folder, *Directory.Build.props*, to set the appropriate MSBuild properties in one place, to apply to all the projects in the solution. By placing a file with this particular name in the parent folder of all the projects you want to be affected, you can easily maintain customizations in a single place and make it easy to change the values. See [Customize the build by folder](../msbuild/customize-by-directory.md).
 
-## Use artifacts to organize build output
+### Use artifacts to organize build output
 
 For .NET 8 projects, you can use the artifacts functionality to arrange output in a highly customizable and flexible way. See [Artifacts output layout](/dotnet/core/sdk/artifacts-output).
 
@@ -226,11 +222,9 @@ This procedure applies to .NET Framework projects and Visual Basic projects.
 
    ![Screenshot that shows the Output path property for a C# .NET Framework project.](media/output-path.png)
 
-## Build to a common output directory
+### Build to a common output directory
 
 By default, Visual Studio builds each project in a solution in its own folder inside the solution. You can change the build output paths of your projects to force all outputs to be placed in the same folder.
-
-### To place all solution outputs in a common directory
 
 1. Clean the solution to remove any existing output files (**Build** > **Clean solution**).
 
@@ -253,7 +247,7 @@ By default, Visual Studio builds each project in a solution in its own folder in
 
 1. Repeat steps 2-5 for all projects in the solution. You can skip some projects if you have some exceptional projects that should not use the common output directory.
 
-### To set the intermediate output directory for a project (.NET projects)
+### To set the intermediate output directory for a project
 
 1. Clean the project to remove any existing output files.
 
@@ -278,11 +272,11 @@ By default, Visual Studio builds each project in a solution in its own folder in
 
    See [Specify custom build events](specifying-custom-build-events-in-visual-studio.md).
 
-## Use Directory.Build.props to set the output directory
+### Use Directory.Build.props to set the output directory
 
 If you have a large number of projects, and you want to change the output folder for them all, it would be tedious and error-prone to change each one using the methods described earlier in this article. In such cases, you can create a file in the solution folder, *Directory.Build.props*, to set the appropriate MSBuild properties in one place, to apply to all the projects in the solution. By placing a file with this particular name in the parent folder of all the projects you want to be affected, you can easily maintain customizations in a single place and make it easy to change the values. See [Customize the build by folder](../msbuild/customize-by-directory.md).
 
-## Use artifacts to organize build output
+### Use artifacts to organize build output
 
 For .NET 8 projects, you can use the artifacts functionality to arrange output in a highly customizable and flexible way. See [Artifacts output layout](/dotnet/core/sdk/artifacts-output).
 
@@ -317,7 +311,7 @@ For more information, see [General Property Page](/cpp/build/reference/general-p
 >
 > ![Screenshot of the Build configuration picker in Visual Studio 2022.](media/vs-2022/build-configuration-chooser.png)
 
-## Use Directory.Build.props to set the output directory
+### Use Directory.Build.props to set the output directory
 
 If you have a large number of projects, and you want to change the output folder for them all, it would be tedious and error-prone to change each one using the methods described earlier in this article. In such cases, you can create a file in the solution folder, *Directory.Build.props*, to set the appropriate MSBuild properties in one place, to apply to all the projects in the solution. By placing a file with this particular name in the parent folder of all the projects you want to be affected, you can easily maintain customizations in a single place and make it easy to change the values. See [Customize C++ builds](../msbuild/customize-cpp-builds.md).
 
