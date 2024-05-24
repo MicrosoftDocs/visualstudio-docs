@@ -23,21 +23,14 @@ You can use *Directory.Build.props* and *Directory.Build.targets* to customize a
 
 These imports provide control over the sequence of the definitions of properties that depend on other properties, or targets that depend on other targets. The sequence of imports in a `.vcxproj` looks like this:
 
-&nbsp;&nbsp;&nbsp;vcxproj
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Microsoft.Cpp.default.props
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Microsoft.Common.props
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Directory.Build.props
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Microsoft.Cpp.props
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Microsoft.Cpp.targets
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Microsoft.Common.targets
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Directory.Build.targets
+&emsp;&emsp;&emsp;vcxproj<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Microsoft.Cpp.default.props<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Microsoft.Common.props<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Directory.Build.props<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Microsoft.Cpp.props<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Microsoft.Cpp.targets<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Microsoft.Common.targets<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Directory.Build.targets<br/>
 
 See [.vcxproj and .props file structure](/cpp/build/reference/vcxproj-file-structure). If you need to define properties that use other properties defined in *Microsoft.Cpp.default.props* or *Microsoft.Cpp.props*, you can create another `.props` file (say, *MyProps.props*), and define the `ForceImportAfterCppProps` property in `Directory.Build.props` pointing to it:
 
