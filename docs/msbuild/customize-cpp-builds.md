@@ -15,7 +15,7 @@ ms.subservice: msbuild
 
 You can use *Directory.Build.props* and *Directory.Build.targets* to customize all the C++ projects under a common parent folder. See [Customize by folder](customize-by-directory.md). In addition, C++ projects provide additional extensibility points.
 
-For C++ projects, you can use the following properties to specify `.props` or `.targets` file(s) to be automatically imported before/after *Microsoft.Cpp.\** files:
+For C++ projects, you can use the following properties to specify `.props` or `.targets` file(s) to be automatically imported before or after *Microsoft.Cpp.\** files:
 
 - ForceImportAfterCppDefaultProps
 - ForceImportBeforeCppProps
