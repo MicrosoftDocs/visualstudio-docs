@@ -64,7 +64,11 @@ Visual Studio provides properties that let you place intermediate and final outp
 
 In Visual Studio 2022, there are different Project Designer user interfaces, depending on your project type. C# .NET Framework and all Visual Basic projects use the legacy .NET Project Designer, but C# .NET Core (and .NET 5 and later) projects use the current .NET Project Designer. C++ projects use their own property pages user interface. The steps in this section depend on what Project Designer you're using.
 
-### To change the build output directory using the current .NET Project Designer
+### To change the build output directory
+
+### [C# .NET](#tab/csharp)
+
+using the current .NET Project Designer
 
 This procedure applies to C# projects in Visual Studio 2022 targeting .NET Core or .NET 5 and later.
 
@@ -88,7 +92,7 @@ This procedure applies to C# projects in Visual Studio 2022 targeting .NET Core 
    > </PropertyGroup>
    > ```
 
-### To change the build output directory using the legacy .NET Project Designer
+### [VB and .NET Framework](#tab/vb)
 
 This procedure applies to .NET Framework projects and Visual Basic projects.
 
@@ -112,7 +116,7 @@ This procedure applies to .NET Framework projects and Visual Basic projects.
 
    ![Screenshot that shows the Output path property for a C# .NET Framework project.](media/output-path.png)
 
-### To change the build output directory for a C++ project
+### [C++](#tab/cpp)
 
 1. Clean the project or solution to remove any existing output files (**Build** > **Clean solution**).
 
