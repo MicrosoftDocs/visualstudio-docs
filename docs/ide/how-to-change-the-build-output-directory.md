@@ -282,7 +282,9 @@ For .NET 8 projects, you can use the artifacts functionality to arrange output i
 
 ### [C++](#tab/cpp)
 
-1. Clean the project or solution to remove any existing output files (**Build** > **Clean solution**).
+To change the build output directory a single C++ project:
+
+1. Clean the project to remove any existing output files (**Build** > **Clean solution**).
 
 1. Right-click on the project node in **Solution Explorer** and select **Properties**.
 
