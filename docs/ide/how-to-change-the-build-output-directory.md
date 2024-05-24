@@ -306,16 +306,16 @@ For .NET 8 projects, you can use the artifacts functionality to arrange output i
 
 For more information, see [General Property Page](/cpp/build/reference/general-property-page-project) and to be sure you're familiar with how to work with C++ property pages to understand how property values can depend on configurations and platforms, see [Working with project properties](/cpp/build/working-with-project-properties).
 
-> [!TIP]
-> If the output is not being generated to the location that you specified, make sure you're building the corresponding configuration (for example, **Debug** or **Release**) by selecting it on the menu bar of Visual Studio.
->
-> ![Screenshot of the Build configuration picker in Visual Studio 2022.](media/vs-2022/build-configuration-chooser.png)
-
 ### Use Directory.Build.props to set the output directory
 
 If you have a large number of projects, and you want to change the output folder for them all, it would be tedious and error-prone to change each one using the methods described earlier in this article. In such cases, you can create a file in the solution folder, *Directory.Build.props*, to set the appropriate MSBuild properties in one place, to apply to all the projects in the solution. By placing a file with this particular name in the parent folder of all the projects you want to be affected, you can easily maintain customizations in a single place and make it easy to change the values. See [Customize C++ builds](../msbuild/customize-cpp-builds.md).
 
 :::moniker-end
+
+> [!TIP]
+> If the output is not being generated to the location that you specified, make sure you're building the corresponding configuration (for example, **Debug** or **Release**) by selecting it on the menu bar of Visual Studio.
+>
+> ![Screenshot of the Build configuration picker in Visual Studio 2022.](media/vs-2022/build-configuration-chooser.png)
 
 ## Related content
 
