@@ -330,8 +330,6 @@ For more information, see [General Property Page](/cpp/build/reference/general-p
 
 Use the **Intermediate Directory** property to set the directory for intermediate output such as `.obj` files.
 
-![Screenshot showing how to set the Intermediate output directory for a C++ project.](media/intermediate-output-path-cpp.png)
-
 In the project file, the property is `IntDir`. To set the paths for intermediate and final output in the project file, add a property group like the following:
 
 ```xml
