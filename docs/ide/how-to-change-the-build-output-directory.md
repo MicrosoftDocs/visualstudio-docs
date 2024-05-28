@@ -165,6 +165,11 @@ By default, Visual Studio builds each project in a solution in its own folder in
 
 1. Repeat steps 2-5 for all projects in the solution. You can skip some projects if you have some exceptional projects that should not use the common output directory.
 
+> [!TIP]
+> If the output is not being generated to the location that you specified, make sure you're building the corresponding configuration (for example, **Debug** or **Release**) by selecting it on the menu bar of Visual Studio.
+>
+> ![Screenshot of the Build configuration picker in Visual Studio 2022.](media/vs-2022/build-configuration-chooser.png)
+
 ### To set the intermediate output directory for a project
 
 1. Clean the project to remove any existing output files.
@@ -247,6 +252,11 @@ By default, Visual Studio builds each project in a solution in its own folder in
 
 1. Repeat steps 2-5 for all projects in the solution. You can skip some projects if you have some exceptional projects that should not use the common output directory.
 
+> [!TIP]
+> If the output is not being generated to the location that you specified, make sure you're building the corresponding configuration (for example, **Debug** or **Release**) by selecting it on the menu bar of Visual Studio.
+>
+> ![Screenshot of the Build configuration picker in Visual Studio 2022.](media/vs-2022/build-configuration-chooser.png)
+
 ### To set the intermediate output directory for a project
 
 1. Clean the project to remove any existing output files.
@@ -304,7 +314,7 @@ To change the build output directory for a single C++ project:
 
    ![Screenshot that shows the macros and their values.](media/output-path-cpp-macros.png)
 
-   If you need to reference an environment variable, you can reference it using the syntax `$(VAR)` for the environment variable `VAR`. When building a path using macros and environment variables, be careful to consider whether a backslash is needed or not.
+   All environment variables are exposed in MSBuild as properties, so if you need to reference an environment variable, you can reference it using the syntax `$(VAR)` for the environment variable `VAR`. When building a path using macros and environment variables, be careful to consider whether a backslash is needed or not.
 
 This procedure sets a property `OutDir` in the project file (`.vcxproj`). If you view the project file after setting this property, you see that code similar to the following was added:
 
@@ -322,18 +332,32 @@ Use the **Intermediate Directory** property to set the directory for intermediat
 
 ![Screenshot showing how to set the Intermediate output directory for a C++ project.](media/intermediate-output-path-cpp.png)
 
-In the project file, the property is `IntDir`.
+In the project file, the property is `IntDir`. To set the paths for intermediate and final output in the project file, add a property group like the following:
+
+```xml
+  <PropertyGroup>
+    <OutDir>$(SolutionDir)out\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)int\$(MSBuildProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+```
 
 ### Use Directory.Build.props to set the output directory
 
 If you have a large number of projects, and you want to change the output folder for them all, it would be tedious and error-prone to change each one using the methods described earlier in this article. In such cases, you can create a file in the solution folder, *Directory.Build.props*, to set the appropriate MSBuild properties in one place, to apply to all the projects in the solution. By placing a file with this particular name in the parent folder of all the projects you want to be affected, you can easily maintain customizations in a single place and make it easy to change the values. See [Customize C++ builds](../msbuild/customize-cpp-builds.md).
 
-:::moniker-end
+To set both the intermediate and final output paths in *Directory.build.props*, it is best to use `$(MSBuildThisFileDirectory)` instead of `$(SolutionDir)` to support command-line project builds, where `$(SolutionDir)` is not defined. The following code sets both in a way that works for Visual Studio builds and command-line builds  of individual projects:
 
-> [!TIP]
-> If the output is not being generated to the location that you specified, make sure you're building the corresponding configuration (for example, **Debug** or **Release**) by selecting it on the menu bar of Visual Studio.
->
-> ![Screenshot of the Build configuration picker in Visual Studio 2022.](media/vs-2022/build-configuration-chooser.png)
+```xml
+<Project>
+<PropertyGroup>
+   <SolutionDir Condition="'$(SolutionDir)' == ''">$(MSBuildThisFileDirectory)</SolutionDir>
+    <OutDir>$(SolutionDir)out\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)int\$(MSBuildProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+</Project>
+```
+
+:::moniker-end
 
 ## Related content
 
