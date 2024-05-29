@@ -64,9 +64,11 @@ A string of fewer than 100 characters is displayed in full, without a preview. L
 ![String Visualization](media/data-visualizations-image17.png)
 
 ### Small Strings:
-![Small String Visualization](media/data-visualizations-image18.png)]
+
+![Small String Visualization](media/data-visualizations-image18.png)
 
 ### Medium-length Strings:
+
 ![Medium String Visualization](media/data-visualizations-image19.png)
 
 ### Editor:

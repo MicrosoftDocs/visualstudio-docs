@@ -24,8 +24,7 @@ Make sure to install the following:
 
 - Visual Studio 2022 or later. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
 - npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js
-- Angular CLI ([`https://angular.io/cli`](https://angular.io/cli))
-  This can be the version of your choice
+- Angular CLI ([`https://angular.io/cli`](https://angular.io/cli)), which can be the version of your choice.
 
 ## Create your app
 
