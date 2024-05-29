@@ -1,6 +1,6 @@
 ---
-description: "Enumerates the various source files contained in the data source."
-title: "IDiaEnumSourceFiles"
+description: Enumerates the various source files contained in the data source.
+title: IDiaEnumSourceFiles
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,17 +12,17 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumSourceFiles
 
 Enumerates the various source files contained in the data source.
 
 ## Syntax
 
-```
-IDiaEnumSourceFiles : IUnknown
-```
+`IDiaEnumSourceFiles : IUnknown`
 
 ## Methods in Vtable Order
+
 The following table shows the methods of `IDiaEnumSourceFiles`.
 
 |Method|Description|
@@ -38,12 +38,14 @@ The following table shows the methods of `IDiaEnumSourceFiles`.
 ## Remarks
 
 ## Notes for Callers
+
 Obtain this interface by calling the `QueryInterface` method on an [IDiaTable](../../debugger/debug-interface-access/idiatable.md) object. See the example for details.
 
 ## Example
+
 This example shows how to obtain the `IDiaEnumSourceFiles` interface from the list of tables in a DIA session object. For an example of accessing source file information, see the [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md) interface.
 
-```C++
+```c++
 
 IDiaEnumSourceFiles* GetEnumSourceFiles(IDiaSession *pSession)
 {
@@ -74,6 +76,7 @@ IDiaEnumSourceFiles* GetEnumSourceFiles(IDiaSession *pSession)
 ```
 
 ## Requirements
+
 Header: Dia2.h
 
 Library: diaguids.lib
@@ -81,6 +84,7 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See also
+
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [IDiaSession::findFile](../../debugger/debug-interface-access/idiasession-findfile.md)
 - [IDiaSession::findLinesByLinenum](../../debugger/debug-interface-access/idiasession-findlinesbylinenum.md)
