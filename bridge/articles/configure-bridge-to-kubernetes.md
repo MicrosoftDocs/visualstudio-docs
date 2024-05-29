@@ -16,9 +16,9 @@ You can configure the local Bridge to Kubernetes process using two methods. You 
 
 ## Kubernetes configuration
 
-The Kubernetes configuration (kubeconfig) file is default to `$HOME/.kube/config`, but you can set it by using the KUBECONFIG environment variable.
+The Kubernetes configuration (kubeconfig) file is default stored at `~/.kube/config`, but you can set it by using the KUBECONFIG environment variable.
 
-If you're using Visual Studio, you can edit the Kubernetes configuration in the IDE by using the **Debug launch profiles UI** in the Debug properties. See [Edit launch profile](./bridge-to-kubernetes-vs.md#edit-launch-profile).
+If you're using Visual Studio, you can edit Bridge to Kubernetes launch profile in the IDE by using the **Debug launch profiles UI** in the Debug properties. See [Edit launch profile](./bridge-to-kubernetes-vs.md#edit-launch-profile).
 
 ![Screenshot showing the Debug launch profiles UI.](./media/bridge-to-kubernetes-vs/edit-profile-for-bridge-to-kubernetes.png)
 
