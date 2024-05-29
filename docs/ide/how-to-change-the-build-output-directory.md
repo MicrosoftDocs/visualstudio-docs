@@ -260,6 +260,8 @@ This procedure sets a property `OutDir` in the project file (`.vcxproj`). If you
 
 For more information, see [General Property Page](/cpp/build/reference/general-property-page-project) and to be sure you're familiar with how to work with C++ property pages to understand how property values can depend on configurations and platforms, see [Working with project properties](/cpp/build/working-with-project-properties).
 
+---
+
 ## Set the intermediate output directory for a project
 
 ### [C# .NET Core](#tab/csharp)
@@ -329,6 +331,8 @@ In the project file, the property is `IntDir`. To set the paths for intermediate
   </PropertyGroup>
 ```
 
+---
+
 ## Use Directory.Build.props to set the output directory
 
 ### [C# .NET Core](#tab/csharp)
@@ -354,6 +358,8 @@ To set both the intermediate and final output paths in *Directory.build.props*, 
   </PropertyGroup>
 </Project>
 ```
+
+---
 
 ## Use artifacts to organize build output
 
