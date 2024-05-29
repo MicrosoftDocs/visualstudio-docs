@@ -1,6 +1,6 @@
 ---
-description: "Enumerates the various section contributions contained in the data source."
-title: "IDiaEnumSectionContribs"
+description: Enumerates the various section contributions contained in the data source.
+title: IDiaEnumSectionContribs
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,17 +12,17 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumSectionContribs
 
 Enumerates the various section contributions contained in the data source.
 
 ## Syntax
 
-```
-IDiaEnumSectionContribs : IUnknown
-```
+`IDiaEnumSectionContribs : IUnknown`
 
 ## Methods in Vtable Order
+
 The following table shows the methods of `IDiaEnumSectionContribs`.
 
 |Method|Description|
@@ -38,12 +38,14 @@ The following table shows the methods of `IDiaEnumSectionContribs`.
 ## Remarks
 
 ## Note for Callers
+
 Obtain this interface from the [IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md) method. See the example for details.
 
 ## Example
+
 This example shows how to obtain (the `GetEnumSectionContribs` function) and use (the `ShowSectionContribs` function) the `IDiaEnumSectionContribs` interface. For a more complete example of using section contributions, see the [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md) interface.
 
-```C++
+```c++
 
 IDiaEnumSectionContribs* GetEnumSectionContribs(IDiaSession *pSession)
 {
@@ -94,6 +96,7 @@ void ShowSectionContribs(IDiaSession *pSession)
 ```
 
 ## Requirements
+
 Header: Dia2.h
 
 Library: diaguids.lib
@@ -101,6 +104,7 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See also
+
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md)
 - [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)
