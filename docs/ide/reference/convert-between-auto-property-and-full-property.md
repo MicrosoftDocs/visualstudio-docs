@@ -30,11 +30,11 @@ This refactoring applies to:
 
     Select **Convert to full property**.
 
-   ![Convert auto property to full property](media/convert-auto-property-to-full-property.png) 
+    ![Convert auto property to full property](media/convert-auto-property-to-full-property.png)
 
     Select **Use auto property**. 
 
-    ![Convert full property to auto property](media/convert-full-property-to-auto-property.png) 
+    ![Convert full property to auto property](media/convert-full-property-to-auto-property.png)
 
 ## See also
 

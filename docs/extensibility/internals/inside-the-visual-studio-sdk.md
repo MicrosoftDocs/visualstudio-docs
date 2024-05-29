@@ -19,7 +19,8 @@ This section provides in-depth information about Visual Studio extensions, inclu
 ## Extensibility Architecture
  The following illustration shows the Visual Studio extensibility architecture. VSPackages provide application functionality, which is shared across the IDE as services. The standard IDE also offers a broad range of services, such as <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>, which provide access to the IDE windowing functionality.
 
- ![Environment Architecture graphic](../../extensibility/internals/media/environment.gif "environment")
+![Environment Architecture graphic](../../extensibility/internals/media/environment.gif "environment")
+ 
 Generalized view of the Visual Studio architecture
 
 ## VSPackages
