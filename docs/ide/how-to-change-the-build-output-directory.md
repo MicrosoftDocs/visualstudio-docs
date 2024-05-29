@@ -312,8 +312,6 @@ To change the build output directory for a single C++ project:
 
    For expressions that depend on macro values, click on **Macros >>** to view the available macros and their values. The dialog also shows you the final expanded value of the property with the current macro values.
 
-   ![Screenshot that shows the macros and their values.](media/output-path-cpp-macros.png)
-
    All environment variables are exposed in MSBuild as properties, so if you need to reference an environment variable, you can reference it using the syntax `$(VAR)` for the environment variable `VAR`. When building a path using macros and environment variables, be careful to consider whether a backslash is needed or not.
 
 This procedure sets a property `OutDir` in the project file (`.vcxproj`). If you view the project file after setting this property, you see that code similar to the following was added:
