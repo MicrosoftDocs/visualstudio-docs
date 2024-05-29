@@ -335,15 +335,15 @@ In the project file, the property is `IntDir`. To set the paths for intermediate
 
 ## Use Directory.Build.props to set the output directory
 
-### [.NET](#tab/net)
+### [C# .NET Core](#tab/csharp)
 
-This procedure applies to C# projects in Visual Studio 2022 targeting .NET Core or .NET 5 and later.
+If you have a large number of projects, and you want to change the output folder for them all, it would be tedious and error-prone to change each one using the methods described earlier in this article. In such cases, you can create a file in the solution folder, *Directory.Build.props*, to set the appropriate MSBuild properties in one place, to apply to all the projects in the solution. By placing a file with this particular name in the parent folder of all the projects you want to be affected, you can easily maintain customizations in a single place and make it easy to change the values. See [Customize the build by folder](../msbuild/customize-by-directory.md).
+
+### [VB and .NET Framework](#tab/vb)
 
 If you have a large number of projects, and you want to change the output folder for them all, it would be tedious and error-prone to change each one using the methods described earlier in this article. In such cases, you can create a file in the solution folder, *Directory.Build.props*, to set the appropriate MSBuild properties in one place, to apply to all the projects in the solution. By placing a file with this particular name in the parent folder of all the projects you want to be affected, you can easily maintain customizations in a single place and make it easy to change the values. See [Customize the build by folder](../msbuild/customize-by-directory.md).
 
 ### [C++](#tab/cpp)
-
-### Use Directory.Build.props to set the output directory
 
 If you have a large number of projects, and you want to change the output folder for them all, it would be tedious and error-prone to change each one using the methods described earlier in this article. In such cases, you can create a file in the solution folder, *Directory.Build.props*, to set the appropriate MSBuild properties in one place, to apply to all the projects in the solution. By placing a file with this particular name in the parent folder of all the projects you want to be affected, you can easily maintain customizations in a single place and make it easy to change the values. See [Customize C++ builds](../msbuild/customize-cpp-builds.md).
 
