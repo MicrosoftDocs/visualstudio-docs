@@ -35,7 +35,7 @@ Valid certificates can be obtained from a public certificate authority such as:
 
 The complete list of certification authorities trusted by Windows can also be obtained from [http://aka.ms/trustcertpartners](/security/trusted-root/participants-list).
 
-You can use self-issued certificates for testing purposes. However, packages signed using self-issued certificates are not accepted by NuGet.org. Learn more about [creating a test certificate](#create-a-test-certificate)
+You can use self-issued certificates for testing purposes. However, VSIX packages signed using self-issued certificates are not accepted by NuGet.org. Learn more about [generating self-signed certificates with the .NET CLI](/dotnet/core/additional-tools/self-signed-certificates-guide)
 
 ## Signing a VSIX with Dotnet Sign
 VSIXSignTool.exe has been deprecated in favor of [Dotnet/Sign (github.com)](https://github.com/dotnet/sign). This tool is published to NuGet as a dotnet tool under [Sign (nuget.org)](https://www.nuget.org/packages/sign). This tool supports local and Azure Key Vault cloud signing.
