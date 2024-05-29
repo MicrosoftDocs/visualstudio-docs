@@ -293,8 +293,6 @@ This procedure applies to C# projects in Visual Studio 2022 targeting .NET Core 
 
 This procedure applies to .NET Framework projects and Visual Basic projects.
 
-### To set the intermediate output directory for a project
-
 1. Clean the project to remove any existing output files.
 
 1. Open the project file.
@@ -319,8 +317,6 @@ This procedure applies to .NET Framework projects and Visual Basic projects.
    See [Specify custom build events](specifying-custom-build-events-in-visual-studio.md).
 
 ### [C++](#tab/cpp)
-
-### To set the intermediate output directory for a project
 
 Use the **Intermediate Directory** property to set the directory for intermediate output such as `.obj` files.
 
