@@ -18,7 +18,7 @@ ms.subservice: extensibility-integration
 # Signing VSIX Packages
 Extension assemblies don't need to be signed before they can run in Visual Studio, but it's a good practice to do so.
 
-Adding a digital signature to a VSIX package secures your extension and prevents tampering. During install, the VSIX installer displays the signature and a link to the certificate. If the contents of the VSIX are modified without updating the signature, the installer only warns the user of an invalid package signature. This guide assumes you have already [created a VSIX](../extensibility/getting-started-with-the-vsix-project-template).
+Adding a digital signature to a VSIX package secures your extension and prevents tampering. During install, the VSIX installer displays the signature and a link to the certificate. If the contents of the VSIX are modified without updating the signature, the installer only warns the user of an invalid package signature. This guide assumes you have already [created a VSIX](../extensibility/getting-started-with-the-vsix-project-template.md).
 
 > [!IMPORTANT]
 > Beginning with Visual Studio 2015, VSIX packages signed using anything other than SHA256 encryption will be identified as having an invalid signature. VSIX installation is not blocked but the user will be warned.
