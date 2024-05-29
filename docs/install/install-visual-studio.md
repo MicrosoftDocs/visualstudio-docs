@@ -60,7 +60,7 @@ Before you begin installing Visual Studio:
 
 - Check the [system requirements](/visualstudio/releases/2019/system-requirements). These requirements help you know whether your computer supports Visual Studio 2019.
 
-- Make sure that the user performing the initial installation has administrator permissions on the machine. For more information, see [User permissions and Visual Studio](/visualstudio/ide/user-permissions-and-visual-studio).
+- Make sure that the user who perform the initial installation has administrator permissions on the machine. For more information, see [User permissions and Visual Studio](/visualstudio/ide/user-permissions-and-visual-studio).
 
 - Apply the latest Windows updates. These updates ensure that your computer has both the latest security updates and the required system components for Visual Studio.
 
@@ -76,7 +76,7 @@ For questions about running other versions of Visual Studio side by side with Vi
 
 - Check the [system requirements](/visualstudio/releases/2022/system-requirements). These requirements help you know whether your computer supports Visual Studio 2022.
 
-- Make sure that the user performing the initial installation has administrator permissions on the machine. For more information, see [User permissions and Visual Studio](/visualstudio/ide/user-permissions-and-visual-studio).
+- Make sure that the user who performs the initial installation has administrator permissions on the machine. For more information, see [User permissions and Visual Studio](/visualstudio/ide/user-permissions-and-visual-studio).
 
 - Apply the latest Windows updates. These updates ensure that your computer has both the latest security updates and the required system components for Visual Studio.
 
@@ -154,7 +154,7 @@ If you downloaded a bootstrapper file, you can use it to install Visual Studio. 
 
 ::: moniker-end
 
-Visual Studio Installer opens. You can also install of any product that [Visual Studio Installer's Available tab](/install-visual-studio-versions-side-by-side.md#install-different-editions-of-the-same-major-visual-studio-version-side-by-side) offers.
+Visual Studio Installer opens. You can also install of any product that [Visual Studio Installer's Available tab](install-visual-studio-versions-side-by-side.md#install-different-editions-of-the-same-major-visual-studio-version-side-by-side) offers.
 
 ## Step 4 - Choose workloads
 
@@ -162,7 +162,7 @@ After you install the Visual Studio Installer, you can use it to customize your 
 
 ::: moniker range="vs-2019"
 
-1. Find the workload you want in the **Visual Studio Installer**.
+1. Find the workload that you want in the **Visual Studio Installer**.
 
    :::image type="content" source="../install/media/vs-2019/vs-installer-workloads.png" alt-text="Screenshot showing the Workloads tab of the Visual Studio Installer." lightbox="../install/media/vs-2019/vs-installer-workloads.png":::
 
@@ -176,7 +176,7 @@ After you install the Visual Studio Installer, you can use it to customize your 
 
 ::: moniker range=">=vs-2022"
 
-1. Select the workload you want in the **Visual Studio Installer**.
+1. Select the workload that you want in the **Visual Studio Installer**.
 
    :::image type="content" source="media/vs-2022/vs-installer-workloads.png" alt-text="Screenshot showing the Workloads tab of the Visual Studio Installer." lightbox="media/vs-2022/vs-installer-workloads.png":::
 
