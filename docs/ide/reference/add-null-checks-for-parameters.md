@@ -31,7 +31,7 @@ This refactoring applies to:
    
 3. Select the option to **Add null checks for all parameters**.
 
-   ![Add null checks for all](media/add-null-checks-for-all.png) 
+   ![Add null checks for all](media/add-null-checks-for-all.png)
 
 ## See also 
 

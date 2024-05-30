@@ -53,8 +53,8 @@ ms.subservice: debug-diagnostics
   The EE consumes all of these interfaces.
 
 ## In this section
- [Expression evaluator implementation strategy](../../extensibility/debugger/expression-evaluator-implementation-strategy.md)
- Defines a three-step process for the expression evaluator (EE) implementation strategy.
+
+[Expression evaluator implementation strategy](../../extensibility/debugger/expression-evaluator-implementation-strategy.md) defines a three-step process for the expression evaluator (EE) implementation strategy.
 
 ## Related content
 - [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)

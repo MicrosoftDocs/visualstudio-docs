@@ -32,12 +32,12 @@ The term *side-by-side* means that you can install and maintain multiple version
   > [!NOTE]
   > Installing a version of Visual Studio also installs a corresponding version of the .NET Framework. For example, installing Visual Studio 2010 and Visual Studio 2012 on the same computer also installs versions 4.0 and 4.5 of the .NET Framework, respectively.
 
-## In This Section
-- [Choosing Between Shared and Versioned VSPackages](../extensibility/choosing-between-shared-and-versioned-vspackages.md)
- Explains how to resolve side-by-side issues in your VSPackage.
+## In this section
 
-- [Registering File Name Extensions for Side-By-Side Deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md)
- Describes how your VSPackage can register file associations in a side-by-side scenario.
+- [Choosing Between Shared and Versioned VSPackages](../extensibility/choosing-between-shared-and-versioned-vspackages.md) explains how to resolve side-by-side issues in your VSPackage.
 
-## Related Sections
+- [Registering File Name Extensions for Side-By-Side Deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md) describes how your VSPackage can register file associations in a side-by-side scenario.
+
+## Related sections
+
 - [Installing VSPackages With Windows Installer](../extensibility/internals/installing-vspackages-with-windows-installer.md)
