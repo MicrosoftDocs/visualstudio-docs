@@ -4,7 +4,7 @@ titleSuffix: ""
 author: ghogen
 description: Learn how to create a containerized React SPA app with Visual Studio Container Tools and Docker
 ms.author: ghogen
-ms.date: 10/23/2023
+ms.date: 05/30/2024
 ms.subservice: container-tools
 ms.topic: quickstart
 ---
@@ -62,13 +62,16 @@ Follow these steps if you're using Visual Studio 2022 version 17.8 or later:
 
    :::image type="content" alt-text="Screenshot of creating a new React and ASP.NET Core project." source="media/container-tools-react/vs-2022/react-and-asp-net-core.png" lightbox="media/container-tools-react/vs-2022/react-and-asp-net-core.png" :::
 
-1. On the **Additional information** screen, you can't select **Enable Docker Support**, but don't worry, you can add that support later.
+1. On the **Additional information** screen, select **Enable container support**. Be sure to select **Dockerfile** option, since you'll need to manually make changes to that file.
 
-   [ ![Screenshot of creating a React and ASP.NET Core project - Additional information screen](media/container-tools-react/vs-2022/additional-information-net-8.png).](media/container-tools-react/vs-2022/additional-information-net-8.png#lightbox)
+   :::image type="content" alt-text="Screenshot of creating a React and ASP.NET Core project - Additional information screen" source="media/container-tools-react/vs-2022/additional-information-net-8.png" lightbox="media/container-tools-react/vs-2022/additional-information-net-8.png" :::
+
+   > [!NOTE]
+   > In some versions of Visual Studio 2022, this option is not enabled, but you can add that support later.
 
    Visual Studio creates two projects - one for the React JavaScript client code, and another for the ASP.NET Core C# server code.
 
-1. Right-click on the server project node, and choose **Add** > **Docker Support** to add a Dockerfile to your project.
+1. If you didn't add Docker container support during project creation, right-click on the server project node, and choose **Add** > **Docker Support** and be sure to choose the Dockerfile option to add that file to your project.
 
    :::image alt-text="Screenshot of Add Docker support menu item" type="content" source="media/container-tools-react/vs-2022/add-docker-support.png" lightbox="media/container-tools-react/vs-2022/add-docker-support.png" :::
 
@@ -356,7 +359,9 @@ Update the Dockerfile by adding the following lines. These lines will copy Node 
 ## Debug
 
 :::moniker range=">=vs-2022"
-With Visual Studio 2022 version 17.8 and later and the **React and ASP.NET Core** template, the projects are already configured to start both the client and server projects with debugging support.
+With Visual Studio 2022 version 17.8 and later and the **React and ASP.NET Core** template, the projects are already configured to start both the client and server projects with debugging support, but you need to set up the right port for the SPA proxy to use to access the ASP.NET Core server running in the container. You can get the host port from the **Containers** window in Visual Studio and set it in the React project as described in [Create a React app - Docker](../javascript/tutorial-asp-net-core-with-react.md#docker).
+
+You can also disable the launch in the browser for the server, which is set up to open with Swagger, which is not required for this scenario. To disable the browser launch, open the **Properties** (**Alt**+**Enter**), go to the **Debug** tab, and click on the link **Open debug launch profiles UI**, and clear the **Launch browser** checkbox.
 
 If you're using an earlier version of Visual Studio, continue reading to set up debugging with the single-page application (SPA) proxy server.
 
