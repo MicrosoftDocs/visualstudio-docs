@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a line number by means of an index."
+description: Retrieves a line number by means of an index.
 title: "IDiaEnumLineNumbers::Item"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,31 +12,35 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumLineNumbers::Item
 
 Retrieves a line number by means of an index.
 
 ## Syntax
 
-```C++
-HRESULT Item ( 
+```c++
+HRESULT Item ( 
    DWORD            index,
    IDiaLineNumber** lineNumber
 );
 ```
 
 #### Parameters
- index
+
+index
 
 [in] Index of the [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md) object to be retrieved. The index is in the range 0 to `count`-1, where `count` is returned by the [IDiaEnumLineNumbers::get_Count](../../debugger/debug-interface-access/idiaenumlinenumbers-get-count.md) method.
 
- lineNumber
+lineNumber
 
 [out] Returns an [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md) object representing the desired line number.
 
 ## Return Value
- If successful, returns `S_OK`; otherwise, returns an error code.
+
+If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See also
+
 - [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
 - [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)
