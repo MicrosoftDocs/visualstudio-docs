@@ -122,7 +122,6 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "ProjectSPA1.dll"]
 ```
 
-
 The preceding *Dockerfile* is based on the [mcr.microsoft.com/dotnet/core/aspnet](https://hub.docker.com/_/microsoft-dotnet-core-aspnet/) image, and includes instructions for modifying the base image by building your project and adding it to the container.
 
 ## Modify the Dockerfile (Windows containers)
@@ -157,8 +156,6 @@ Update the Dockerfile by adding the following lines. These lines will copy Node 
       ```
 
    1. The complete Dockerfile should now look something like this:
-
-      :::moniker range="<=vs-2019"
 
       ```dockerfile
       # escape=`
