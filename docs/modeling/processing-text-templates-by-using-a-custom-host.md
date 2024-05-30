@@ -44,12 +44,13 @@ string output = engine.ProcessTemplate(templateString, host);
 
  <xref:Microsoft.VisualStudio.TextTemplating.Engine?displayProperty=fullName> is defined in **Microsoft.VisualStudio.TextTemplating.\*.0.dll**, and [ITextTemplatingEngineHost](/previous-versions/visualstudio/visual-studio-2012/bb126505(v=vs.110)) is defined in **Microsoft.VisualStudio.TextTemplating.Interfaces.\*.0.dll**.
 
-## In This Section
- [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md)
- Shows you how to create a custom text template host that makes the text template functionality available outside Visual Studio.
+## In this section
+
+[Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md) shows you how to create a custom text template host that makes the text template functionality available outside Visual Studio.
 
 ## Reference
- [ITextTemplatingEngineHost](/previous-versions/visualstudio/visual-studio-2012/bb126505(v=vs.110))
+
+[ITextTemplatingEngineHost](/previous-versions/visualstudio/visual-studio-2012/bb126505(v=vs.110))
 
 ## Related content
 
