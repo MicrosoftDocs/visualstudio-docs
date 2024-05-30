@@ -22,29 +22,22 @@ ms.subservice: debug-diagnostics
  Some aspects of the Visual Studio debug package must interpret the code in the context of the programming language. For example, when execution halts at a breakpoint, any expressions that the user has typed into a **Watch** window must be evaluated and displayed. The user can change the value of a local variable by typing an expression into a **Watch** window or into the **Immediate** window.
 
 ## In this section
- [Common language runtime and expression evaluation](../../extensibility/debugger/common-language-runtime-and-expression-evaluation.md)
- Explains that when you are integrating proprietary programming language into the Visual Studio IDE, writing an EE capable of evaluating expressions within the context of the proprietary language allows you to compile to a Microsoft intermediate language (MSIL) without writing a debug engine.
 
- [Expression evaluator architecture](../../extensibility/debugger/expression-evaluator-architecture.md)
- Discusses how to implement the required EE interfaces and call the common language runtime symbol provider (SP) and binder interfaces.
+[Common language runtime and expression evaluation](../../extensibility/debugger/common-language-runtime-and-expression-evaluation.md) explains that when you are integrating proprietary programming language into the Visual Studio IDE, writing an EE capable of evaluating expressions within the context of the proprietary language allows you to compile to a Microsoft intermediate language (MSIL) without writing a debug engine.
 
- [Register an expression evaluator](../../extensibility/debugger/registering-an-expression-evaluator.md)
- Notes that the EE must register itself as a class factory with both the common language runtime and Visual Studio runtime environments.
+ [Expression evaluator architecture](../../extensibility/debugger/expression-evaluator-architecture.md) discusses how to implement the required EE interfaces and call the common language runtime symbol provider (SP) and binder interfaces.
 
- [Implement an expression evaluator](../../extensibility/debugger/implementing-an-expression-evaluator.md)
- Describes how the process of evaluating an expression includes the debug engine (DE), the symbol provider (SP), the binder object, and the expression evaluator (EE).
+ [Register an expression evaluator](../../extensibility/debugger/registering-an-expression-evaluator.md) notes that the EE must register itself as a class factory with both the common language runtime and Visual Studio runtime environments.
 
- [Display locals](../../extensibility/debugger/displaying-locals.md)
- Describes how, when execution pauses, the debug package calls the DE to get a list of local variables and arguments.
+ [Implement an expression evaluator](../../extensibility/debugger/implementing-an-expression-evaluator.md) describes how the process of evaluating an expression includes the debug engine (DE), the symbol provider (SP), the binder object, and the expression evaluator (EE).
 
- [Evaluate a watch window expression](../../extensibility/debugger/evaluating-a-watch-window-expression.md)
- Documents how the Visual Studio debug package calls the DE to determine the current value of each expression in its watch list.
+ [Display locals](../../extensibility/debugger/displaying-locals.md) describes how, when execution pauses, the debug package calls the DE to get a list of local variables and arguments.
 
- [Change the value of a local](../../extensibility/debugger/changing-the-value-of-a-local.md)
- Explains that in changing the value of a local, each line of the Locals window has an associated object that provides the name, type, and current value of a local.
+ [Evaluate a watch window expression](../../extensibility/debugger/evaluating-a-watch-window-expression.md) documents how the Visual Studio debug package calls the DE to determine the current value of each expression in its watch list.
 
- [Implement type visualizers and custom viewers](../../extensibility/debugger/implementing-type-visualizers-and-custom-viewers.md)
- Explains which interface needs to be implemented by which component to support type visualizers and custom viewers.
+ [Change the value of a local](../../extensibility/debugger/changing-the-value-of-a-local.md) explains that in changing the value of a local, each line of the Locals window has an associated object that provides the name, type, and current value of a local.
+
+ [Implement type visualizers and custom viewers](../../extensibility/debugger/implementing-type-visualizers-and-custom-viewers.md) explains which interface needs to be implemented by which component to support type visualizers and custom viewers.
 
 ## Related content
  [Visual Studio debugger extensibility](../../extensibility/debugger/visual-studio-debugger-extensibility.md)
