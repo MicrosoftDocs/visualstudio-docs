@@ -97,7 +97,7 @@ Decide which version and edition of Visual Studio to install. The most common op
 - The latest release of Visual Studio 2019 that is hosted on Microsoft servers. To install this version, select the following button and then choose the edition you want. The installer downloads a small *bootstrapper* to your *Downloads* folder.
 
   > [!div class="button"]
-  > [Download Visual Studio](/visualstudio/releases/2019/release-notes/)
+  > [Download Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/)
 
 ::: moniker-end
 
@@ -272,9 +272,11 @@ You can reduce the installation footprint of Visual Studio on your system drive.
 
 ## Step 8 - Start developing
 
+After installation is complete, you can get started developing with Visual Studio.
+
 ::: moniker range="vs-2019"
 
-1. After Visual Studio installation is complete, select the **Launch** button to get started developing with Visual Studio.
+1. Select the **Launch** button.
 
 1. On the start window, choose **Create a new project**.
 
@@ -282,15 +284,15 @@ You can reduce the installation footprint of Visual Studio on your system drive.
 
    You can also filter your search for a specific programming language by using the **Language** dropdown list. You can filter by using the **Platform** list and the **Project type** list, too.
 
-1. Select **Next** and enter values in **Configure your new project**.
+1. Select **Next**. Provide other information in the following dialog boxes, and then select **Create**.
 
-1. Select **Next**. Visual Studio opens your new project, and you're ready to code!
+Visual Studio opens your new project, and you're ready to code!
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-1. After your Visual Studio installation is complete, select the **Launch** button to get started developing with Visual Studio.
+1. Select the **Launch** button.
 
 1. On the start window, choose **Create a new project**.
 
@@ -298,9 +300,9 @@ You can reduce the installation footprint of Visual Studio on your system drive.
 
    You can also filter your search for a specific programming language by using the **Language** dropdown list. You can filter by using the **Platform** list and the **Project type** list, too.
 
-1. Select **Next** and enter values in **Configure your new project**.
+1. Select **Next**. Provide other information in the following dialog boxes, and then select **Create**.
 
-1. Select **Next**. Visual Studio opens your new project, and you're ready to code!
+Visual Studio opens your new project, and you're ready to code!
 
 ::: moniker-end
 
