@@ -30,7 +30,7 @@ This refactoring applies to:
 1. Place your cursor in the variable name and press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 1. Select **Generate parameter**.
 
-   ![Generate parameter](media/generate-parameter.png) 
+   ![Generate parameter](media/generate-parameter.png)
 
 ## See also
 

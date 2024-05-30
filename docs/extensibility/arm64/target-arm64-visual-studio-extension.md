@@ -76,7 +76,7 @@ Add Visual Studio 2022:ARM64 support to your extension by using the following st
 At this point, you have a Visual Studio 2022-targeted extension VSIX. You should build your Visual Studio 2022-targeted VSIX project.
 
 ### Set the `<InstallationTarget>` tag to indicate Visual Studio 2022 using the Designer view
-   ![Screenshot that shows adding InstallationTarget.](samples/add-arm64-target.png)   
+   ![Screenshot that shows adding InstallationTarget.](samples/add-arm64-target.png)
 
 ### Sample extension vsixmanifest: targets both AMD64 and ARM64 
    ![Screenshot that shows adding amd64 and arm64 InstallationTarget.](samples/add-amd64-arm64-target.png)
@@ -111,19 +111,19 @@ At this point, you have a Visual Studio 2022-targeted extension VSIX. You should
       
    2. Select ARM64 target (.csproj).
       
-      ![Screenshot that shows building arm64 project.](samples/build-arm64-project.png)   
-    
+      ![Screenshot that shows building arm64 project.](samples/build-arm64-project.png)
 
 ### How to compile C++ Visual Studio extensions: targets only ARM64
 
    1. Select the ARM64 Target platform.
-      ![Screenshot that shows adding arm64 Target platform.](samples/add-arm64-target-native.png)   
+
+      ![Screenshot that shows adding arm64 Target platform.](samples/add-arm64-target-native.png)
 
    2. Select the ARM64 library location.
       
       Required lib files can be found at : `[VSInstallatioPath]\VSSDK\VisualStudioIntegration\common\lib\arm64`
       
-      ![Screenshot that shows adding arm64 lib path](samples/add-arm64-library.png)   
+      ![Screenshot that shows adding arm64 lib path](samples/add-arm64-library.png)
 
 ## Related content
 - [Update a Visual Studio extension for Visual Studio 2022](../../extensibility/migration/update-visual-studio-extension.md)

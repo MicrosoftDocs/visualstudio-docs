@@ -37,9 +37,10 @@ ms.subservice: debug-diagnostics
    This procedure is also used to change the value of a variable in the **Watch** window, except it is the `IDebugProperty2` object associated with the value of the local that is used instead of the `IDebugProperty2` object associated with the local itself.
 
 ## In this section
- [Sample implementation of changing values](../../extensibility/debugger/sample-implementation-of-changing-values.md)
- Uses the MyCEE sample to step through the process of changing values.
+
+[Sample implementation of changing values](../../extensibility/debugger/sample-implementation-of-changing-values.md) uses the MyCEE sample to step through the process of changing values.
 
 ## Related content
+
 - [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
 - [Displaying locals](../../extensibility/debugger/displaying-locals.md)

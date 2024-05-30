@@ -38,16 +38,18 @@ Projects
           |- ProjectItem (single object) or ProjectItems (another collection)
 ```
 
- Nesting means that a <xref:EnvDTE.ProjectItem> object can be <xref:EnvDTE.ProjectItems> collection at the same time because a `ProjectItems` collection can contain the nested objects. The Basic Project sample does not demonstrate this nesting. By implementing the `Project` object, you participate in the tree-like structure that characterizes the design of the overall automation model.
+Nesting means that a <xref:EnvDTE.ProjectItem> object can be <xref:EnvDTE.ProjectItems> collection at the same time because a `ProjectItems` collection can contain the nested objects. The Basic Project sample does not demonstrate this nesting. By implementing the `Project` object, you participate in the tree-like structure that characterizes the design of the overall automation model.
 
- The project automation follows the path in the following diagram.
+The project automation follows the path in the following diagram.
 
- ![Visual Studio Project Objects](../../extensibility/internals/media/projectobjects.gif "ProjectObjects")
+![Visual Studio Project Objects](../../extensibility/internals/media/projectobjects.gif "ProjectObjects")
+ 
 Project automation
 
- If you do not implement a `Project` object, the environment will still return a generic `Project` object that contains only the name of the project.
+If you do not implement a `Project` object, the environment will still return a generic `Project` object that contains only the name of the project.
 
 ## See also
+
 - <xref:EnvDTE.Projects>
 - <xref:EnvDTE.ProjectItem>
 - <xref:EnvDTE.ProjectItems>

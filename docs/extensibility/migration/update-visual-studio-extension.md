@@ -314,8 +314,7 @@ You can share your extension over a LAN or any other way. If you target Visual S
 If your VSIX specifies other VSIXs as dependencies via the
 `<dependency>` element, each referenced VSIX needs to be installed in the same targets and product architectures as your VSIX. If a dependent VSIX does not support the targeted installation of Visual Studio, your VSIX will fail. 
 
-It's OK for the dependent VSIX to support more targets and architectures than yours, just not less. This restriction means that the deployment and distribution approach of a VSIX with dependencies should
-mirror that of its dependents.
+It's OK for the dependent VSIX to support more targets and architectures than yours, just not less. This restriction means that the deployment and distribution approach of a VSIX with dependencies should mirror that of its dependents.
 
 ## Q & A
 

@@ -88,17 +88,12 @@ This section describes the steps you should take to make sure your visualizer is
 - For compatibility reasons, the <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer.Show%2A> method that was overridden in the preceding section still takes in an <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider>. However, starting in Visual Studio 2019 version 16.10, it is actually of type <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider3>.
 For this reason, cast the `objectProvider` object to the updated interface.
 
-- When sending objects, like commands or data, to the *debuggee-side* use the `IVisualizerObjectProvider2.Serialize` method
-to pass it to a stream, it will determine the best serialization format to use based on the runtime of the *debuggee* process.
+- When sending objects, like commands or data, to the *debuggee-side* use the `IVisualizerObjectProvider2.Serialize` method to pass it to a stream, it will determine the best serialization format to use based on the runtime of the *debuggee* process.
 Then, pass the stream to the `IVisualizerObjectProvider2.TransferData` method.
 
-- If the *debuggee-side* visualizer component needs to return anything to the *debugger-side*, it will be located in the
-<xref:System.IO.Stream> object returned by the <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.TransferData%2A>
-method. Use the `IVisualizerObjectProvider2.GetDeserializableObjectFrom` method to get an
-<xref:Microsoft.VisualStudio.DebuggerVisualizers.IDeserializableObject> instance from it and process it as required; or use <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider3.DeserializeFromJson%2A> if its a type that you know how to deserialize.
+- If the *debuggee-side* visualizer component needs to return anything to the *debugger-side*, it will be located in the <xref:System.IO.Stream> object returned by the <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.TransferData%2A> method. Use the `IVisualizerObjectProvider2.GetDeserializableObjectFrom` method to get an <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDeserializableObject> instance from it and process it as required; or use <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider3.DeserializeFromJson%2A> if its a type that you know how to deserialize.
 
-Please refer to the [Special debuggee side considerations for .NET 5.0+](#special-debuggee-side-considerations-for-net-50)
-section to learn what other changes are required on the *debuggee-side* when using Binary Serialization is not supported.
+Please refer to the [Special debuggee side considerations for .NET 5.0+](#special-debuggee-side-considerations-for-net-50) section to learn what other changes are required on the *debuggee-side* when using Binary Serialization is not supported.
 
 > [!NOTE]
 > If you would like more information on the issue, see the [BinaryFormatter security guide](/dotnet/standard/serialization/binaryformatter-security-guide).
@@ -124,8 +119,7 @@ In the debuggee-side code:
 ### Special debuggee side considerations for .NET 5.0+
 
 > [!IMPORTANT]
-> Additional steps might be needed for a visualizer to work starting in .NET 5.0 due to security concerns regarding the underlying binary
-serialization method used by default. Please read this [section](#special-debugger-side-considerations-for-net-50) before continuing.
+> Additional steps might be needed for a visualizer to work starting in .NET 5.0 due to security concerns regarding the underlying binary serialization method used by default. Please read this [section](#special-debugger-side-considerations-for-net-50) before continuing.
 
 - If the visualizer implements the <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A> method, use the newly added <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetDeserializableObject%2A> method that is available in the latest version of `VisualizerObjectSource`. The <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDeserializableObject>
 it returns helps to determine the object's serialization format (binary or JSON) and to deserialize the underlying object so that it might be used.

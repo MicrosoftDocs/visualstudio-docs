@@ -51,9 +51,7 @@ Within these new projects, you can run JavaScript and TypeScript unit tests, eas
 ::: moniker-end
 
 ::: moniker range="vs-2019"
-Visual Studio 2019 provides rich support for JavaScript development, both using JavaScript directly, and also using
-the [TypeScript programming language](https://www.typescriptlang.org/), which was developed to provide a more
-productive and enjoyable JavaScript development experience, especially when developing projects at scale. You can write JavaScript or TypeScript code in Visual Studio for many application types and services.
+Visual Studio 2019 provides rich support for JavaScript development, both using JavaScript directly, and also using the [TypeScript programming language](https://www.typescriptlang.org/), which was developed to provide a more productive and enjoyable JavaScript development experience, especially when developing projects at scale. You can write JavaScript or TypeScript code in Visual Studio for many application types and services.
 
 ## JavaScript Language Service
 

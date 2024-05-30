@@ -15,10 +15,11 @@ ms.subservice: extensibility-integration
 
 The project configuration object manages the display of configuration information to the UI.
 
- ![Visual Studio Project Configuration](../../extensibility/internals/media/vsprojectcfg.gif "vsProjectCfg")
+![Visual Studio Project Configuration](../../extensibility/internals/media/vsprojectcfg.gif "vsProjectCfg")
+ 
 Project configuration property pages
 
- The Project Configuration Provider manages the project configurations. The environment and other packages, to gain access to and retrieve information about a project's configurations, call the interfaces attached to Project Configuration Provider object.
+The Project Configuration Provider manages the project configurations. The environment and other packages, to gain access to and retrieve information about a project's configurations, call the interfaces attached to Project Configuration Provider object.
 
 > [!NOTE]
 > You can't create or edit solution configuration files programmatically. You must use `DTE.SolutionBuilder`. See [Solution Configuration](../../extensibility/internals/solution-configuration.md) for more information.

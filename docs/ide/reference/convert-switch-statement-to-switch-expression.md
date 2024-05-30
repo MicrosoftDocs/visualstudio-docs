@@ -28,7 +28,7 @@ This refactoring applies to:
 2. Place your cursor in the `switch` keyword and press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 3. Select **Convert switch statement to expression**.
 
-   ![Convert switch statement to switch expression](media/convert-switch-statement-to-switch-expression.png) 
+   ![Convert switch statement to switch expression](media/convert-switch-statement-to-switch-expression.png)
 
 ## See also
 
