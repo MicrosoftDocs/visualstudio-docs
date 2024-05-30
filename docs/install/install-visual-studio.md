@@ -38,13 +38,13 @@ Welcome to Visual Studio 2022! In this version, it's easy to choose and install 
 
 ::: moniker range="vs-2019"
 
-Want to know more about what else is new in this version? See our [release notes](/visualstudio/releases/2019/release-notes/).
+Want to know more about what else is new in this version? See the [release notes](/visualstudio/releases/2019/release-notes/).
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-Want to know more about what else is new in this version? See our [release notes](/visualstudio/releases/2022/release-notes/).
+Want to know more about what else is new in this version? See the [release notes](/visualstudio/releases/2022/release-notes/).
 
 You can download and install a specific version from the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page.
 
@@ -189,7 +189,7 @@ After you install the Visual Studio Installer, you can use it to customize your 
 ::: moniker-end
 
 > [!TIP]
-> At any time after installation, you can install workloads or components that you didn't install initially. If you have Visual Studio open, go to **Tools** > **Get Tools and Features** which opens the Visual Studio Installer. Or, open the **Visual Studio Installer** from the **Start** menu. From there, you can choose the workloads or components that you wish to install. Then, choose **Modify**.
+> At any time after installation, you can install workloads or components that you didn't install initially. If you have Visual Studio open, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Or, open the **Visual Studio Installer** from the **Start** menu. From there, you can choose the workloads or components that you wish to install. Then, choose **Modify**.
 
 ## Step 5 - Choose individual components (optional)
 
