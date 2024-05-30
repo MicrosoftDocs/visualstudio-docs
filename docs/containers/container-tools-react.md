@@ -122,7 +122,7 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "ProjectSPA1.dll"]
 ```
 
-The preceding *Dockerfile* is based on the [mcr.microsoft.com/dotnet/core/aspnet](https://hub.docker.com/_/microsoft-dotnet-aspnet) image, and includes instructions for modifying the base image by building your project and adding it to the container.
+The preceding *Dockerfile* is based on the [mcr.microsoft.com/dotnet/aspnet](https://hub.docker.com/_/microsoft-dotnet-aspnet) image, and includes instructions for modifying the base image by building your project and adding it to the container.
 
 ## Modify the Dockerfile (Windows containers)
 
