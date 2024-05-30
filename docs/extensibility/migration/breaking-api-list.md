@@ -26,16 +26,11 @@ In Visual Studio 2022 a number of APIs have been removed as part of moving Visua
 
 Many of our APIs have changed in Visual Studio 2022, usually with simple changes that are straightforward for your code to accommodate.
 
-To manage the breaking changes, we are planning to provide a new mechanism for the distribution of interop assemblies. Specifically, for
-Visual Studio 2022 and beyond we provide a single interop assembly with definitions for many common public Visual Studio interfaces. That
-assembly contains managed definitions for many Visual Studio interfaces moving away from multiple interop assemblies. The new interop
-assembly is distributed via the `Microsoft.VisualStudio.Interop` NuGet package.
+To manage the breaking changes, we are planning to provide a new mechanism for the distribution of interop assemblies. Specifically, for Visual Studio 2022 and beyond we provide a single interop assembly with definitions for many common public Visual Studio interfaces. That assembly contains managed definitions for many Visual Studio interfaces moving away from multiple interop assemblies. The new interop assembly is distributed via the `Microsoft.VisualStudio.Interop` NuGet package.
 
-However, Visual Studio components that are primarily used in native contexts and have a low number of breaking changes will continue to have
-their own interop assemblies (for example, the debugger assembly will still be VisualStudio.Debugger.Interop.dll as it does today). In any case the assemblies can be then referenced from your application, just as they are today.
+However, Visual Studio components that are primarily used in native contexts and have a low number of breaking changes will continue to have their own interop assemblies (for example, the debugger assembly will still be VisualStudio.Debugger.Interop.dll as it does today). In any case the assemblies can be then referenced from your application, just as they are today.
 
-This is a significant change and means that extensions that use APIs in and assembly built in this new approach are not compatible with older
-versions of Visual Studio using the previous interop assembly.
+This is a significant change and means that extensions that use APIs in and assembly built in this new approach are not compatible with older versions of Visual Studio using the previous interop assembly.
 
 This has a few very important advantages that will make updating your extension to Visual Studio 2022 easier:
 
@@ -43,15 +38,13 @@ This has a few very important advantages that will make updating your extension 
 - You only need to update code that uses an API that was broken in Visual Studio 2022.
 - You will not be able to accidentally use the old, now broken API.
 
-Overall, these changes will result in a more stable version of Visual Studio for all users. The major drawback of this approach is that your
-managed assemblies will not be able to run in both Visual Studio 2019 and Visual Studio 2022 without compiling your code once for each target Visual Studio version.
+Overall, these changes will result in a more stable version of Visual Studio for all users. The major drawback of this approach is that your managed assemblies will not be able to run in both Visual Studio 2019 and Visual Studio 2022 without compiling your code once for each target Visual Studio version.
 
 As you work through compile errors due to the API differences between Visual Studio 2019 and Visual Studio 2022, you may find the API or pattern you're facing listed below with guidance on how to fix it.
 
 ### `int` or `uint` where `IntPtr` is expected
 
-We expect this will be a very common error. To make Visual Studio 2022 a 64-bit process, some of our interop APIs had to be fixed
-where they assumed a pointer could fit in a 32-bit integer to actually use a pointer-sized value.
+We expect this will be a very common error. To make Visual Studio 2022 a 64-bit process, some of our interop APIs had to be fixed where they assumed a pointer could fit in a 32-bit integer to actually use a pointer-sized value.
 
 Sample error:
 
@@ -120,9 +113,7 @@ To mitigate most issues with this, use `DTE2` from the `EnvDTE80` namespace inst
 
 ### Missing argument on a method invocation
 
-A few methods no longer declare default arguments for what were optional parameters in the interop API.
-If you get an error about a missing argument for a COM interop call, and the parameter calls for an `object` type, the previous default value that the Visual Studio 2019 interop API defined may have been `""`, so consider adding `""` as your argument
-to resolve the compile error.
+A few methods no longer declare default arguments for what were optional parameters in the interop API. If you get an error about a missing argument for a COM interop call, and the parameter calls for an `object` type, the previous default value that the Visual Studio 2019 interop API defined may have been `""`, so consider adding `""` as your argument to resolve the compile error.
 
 When in doubt about what the default argument used to be, try switching your language service context from Visual Studio 2022 to Visual Studio 2019 so you get Intellisense with the older interop assemblies to see what the default argument was, and then add it explicitly to your code. It will continue to work fine when compiled for Visual Studio 2019, but will now compile for Visual Studio 2022.
 

@@ -151,14 +151,11 @@ For a database to be consumable in ADO.NET, it must have a custom *ADO.NET data 
 
 In .NET, you have three choices for modeling and manipulating data in memory after you have retrieved it from a data source:
 
-[Entity Framework](../data-tools/entity-data-model-tools-in-visual-studio.md)
-The preferred Microsoft ORM technology. You can use it to program against relational data as first-class .NET objects. For new applications, it should be the default first choice when a model is required. It requires custom support from the underlying ADO.NET provider.
+- [Entity Framework](../data-tools/entity-data-model-tools-in-visual-studio.md): The preferred Microsoft ORM technology. You can use it to program against relational data as first-class .NET objects. For new applications, it should be the default first choice when a model is required. It requires custom support from the underlying ADO.NET provider.
 
-[LINQ to SQL](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
-An earlier-generation object-relational mapper. It works well for less complex scenarios but is no longer in active development.
+- [LINQ to SQL](../data-tools/linq-to-sql-tools-in-visual-studio2.md): An earlier-generation object-relational mapper. It works well for less complex scenarios but is no longer in active development.
 
-[Datasets](../data-tools/dataset-tools-in-visual-studio.md)
-The oldest of the three modeling technologies. It is designed primarily for rapid development of "forms over data" applications in which you are not processing huge amounts of data or performing complex queries or transformations. A DataSet object consists of DataTable and DataRow objects that logically resemble SQL Database objects much more than .NET objects. For relatively simple applications based on SQL data sources, datasets might still be a good choice.
+- [Datasets](../data-tools/dataset-tools-in-visual-studio.md): The oldest of the three modeling technologies. It is designed primarily for rapid development of "forms over data" applications in which you are not processing huge amounts of data or performing complex queries or transformations. A DataSet object consists of DataTable and DataRow objects that logically resemble SQL Database objects much more than .NET objects. For relatively simple applications based on SQL data sources, datasets might still be a good choice.
 
 There is no requirement to use any of these technologies. In some scenarios, especially where performance is critical, you can simply use a DataReader object to read from the database and copy the values that you need into a collection object such as List\<T>.
 

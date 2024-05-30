@@ -28,7 +28,8 @@ You can provide more than one view of a document by creating separate document d
 ## Determining Whether Document Data is Already Open
  The running document table (RDT) in the integrated development environment (IDE) helps track whether the data for a document is already open, as shown in the following diagram.
 
- ![DocDataView graphic](../extensibility/media/docdataview.gif "Docdataview")
+![DocDataView graphic](../extensibility/media/docdataview.gif "Docdataview")
+ 
 Multiple views
 
  By default, each view (document view object) is contained in its own window frame (<xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame>). As already noted, however, document data can be displayed in multiple views. To enable this, Visual Studio checks the RDT to determine whether the document in question is already open in an editor. When the IDE calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A> to create the editor, a non-NULL value returned in the `punkDocDataExisting` parameter indicates that the document is already open in another editor. For more information about how the RDT functions, see [Running Document Table](../extensibility/internals/running-document-table.md).

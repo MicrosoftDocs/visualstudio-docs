@@ -615,8 +615,7 @@ The `ExportBrokeredServiceAttribute` may be applied to your brokered service mul
 
 Your implementation of the `IExportedBrokeredService.Descriptor` property should return a descriptor with a moniker that matches the one the client requested.
 
-Consider this example, where the calculator service exported 1.0 with UTF8 formatting,
-then later adds a 1.1 export in order to enjoy the performance wins of using MessagePack formatting.
+Consider this example, where the calculator service exported 1.0 with UTF8 formatting, then later adds a 1.1 export in order to enjoy the performance wins of using MessagePack formatting.
 
 ```cs
 [ExportBrokeredService("Calc", "1.0")]
