@@ -53,48 +53,11 @@ For Docker installation, first review the information at [Docker Desktop for Win
    ![Screenshot of Add Docker support menu item.](media/container-tools-react/vs-2017/add-docker-support.png)
 
 1. Select the container type.
-::: moniker-end
-::: moniker range=">=vs-2022"
-
-Follow these steps if you're using Visual Studio 2022 version 17.8 or later:
-
-1. Create a new project using the **React and ASP.NET Core** template.
-
-   :::image type="content" alt-text="Screenshot of creating a new React and ASP.NET Core project." source="media/container-tools-react/vs-2022/react-and-asp-net-core.png" lightbox="media/container-tools-react/vs-2022/react-and-asp-net-core.png" :::
-
-1. On the **Additional information** screen, select **Enable container support**. Be sure to select **Dockerfile** option, since you'll need to manually make changes to that file.
-
-   :::image type="content" alt-text="Screenshot of creating a React and ASP.NET Core project - Additional information screen" source="media/container-tools-react/vs-2022/additional-information-net-8.png" lightbox="media/container-tools-react/vs-2022/additional-information-net-8.png" :::
-
-   > [!NOTE]
-   > In some versions of Visual Studio 2022, this option is not enabled, but you can add that support later.
-
-   Visual Studio creates two projects - one for the React JavaScript client code, and another for the ASP.NET Core C# server code.
-
-1. If you didn't add Docker container support during project creation, right-click on the server project node, and choose **Add** > **Docker Support** and be sure to choose the Dockerfile option to create a Dockerfile.
-
-   :::image alt-text="Screenshot of Add Docker support menu item" type="content" source="media/container-tools-react/vs-2022/add-docker-support.png" lightbox="media/container-tools-react/vs-2022/add-docker-support.png" :::
-
-1. Select the container type.
-
-Use the following steps for Visual Studio 2022 version 17.0 to 17.7:
-
-1. Create a new project using the **ASP.NET Core with React.js** template.
-
-   ![Screenshot of creating a new React.js project.](media/container-tools-react/vs-2022/create-reactjs-project.png)
-
-1. On the **Additional information** screen, you can't select **Enable Docker Support**, but don't worry, you can add that support later.
-
-   ![Screenshot of creating a new React.js project - Additional information screen.](media/container-tools-react/vs-2022/react-project-additional-information.png)
-
-1. Right-click on the project node, and choose **Add** > **Docker Support** to add a Dockerfile to your project.
-
-   ![Screenshot of Add Docker support menu item.](media/container-tools-react/vs-2022/add-docker-support.png)
-
-1. Select the container type.
-:::moniker-end
 
 The next step is different depending on whether you're using Linux containers or Windows containers.
+
+> [!NOTE]
+> If you're using the latest project templates in Visual Studio 2022 or later, you don't need to modify the Dockerfile.
 
 ## Modify the Dockerfile (Linux containers)
 
@@ -123,8 +86,6 @@ RUN apt-get install -y nodejs
 ```
 
 The *Dockerfile* should now look something like this:
-
-:::moniker range="<=vs-2019"
 
 ```dockerfile
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
@@ -161,86 +122,6 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "ProjectSPA1.dll"]
 ```
 
-:::moniker-end
-:::moniker range=">=vs-2022"
-
-```dockerfile
-#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
-
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
-WORKDIR /app
-EXPOSE 80
-EXPOSE 443
-RUN apt-get update
-RUN apt-get install -y curl
-RUN apt-get install -y libpng-dev libjpeg-dev curl libxi6 build-essential libgl1-mesa-glx
-RUN curl -sL https://deb.nodesource.com/setup_lts.x | bash -
-RUN apt-get install -y nodejs
-
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-RUN apt-get update
-RUN apt-get install -y curl
-RUN apt-get install -y libpng-dev libjpeg-dev curl libxi6 build-essential libgl1-mesa-glx
-RUN curl -sL https://deb.nodesource.com/setup_lts.x | bash -
-RUN apt-get install -y nodejs
-ARG BUILD_CONFIGURATION=Release
-WORKDIR /src
-COPY ["reactapp1.client/nuget.config", "reactapp1.client/"]
-COPY ["ReactApp1.Server/ReactApp1.Server.csproj", "ReactApp1.Server/"]
-COPY ["reactapp1.client/reactapp1.client.esproj", "reactapp1.client/"]
-RUN dotnet restore "./ReactApp1.Server/./ReactApp1.Server.csproj"
-COPY . .
-WORKDIR "/src/ReactApp1.Server"
-RUN dotnet build "./ReactApp1.Server.csproj" -c $BUILD_CONFIGURATION -o /app/build
-
-FROM build AS publish
-ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./ReactApp1.Server.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
-
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "ReactApp1.Server.dll"]
-```
-
-In Visual Studio 2022 version 17.0 to 17.7, it should resemble the following:
-
-```dockerfile
-#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
-
-FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
-WORKDIR /app
-EXPOSE 80
-EXPOSE 443
-RUN apt-get update
-RUN apt-get install -y curl
-RUN apt-get install -y libpng-dev libjpeg-dev curl libxi6 build-essential libgl1-mesa-glx
-RUN curl -sL https://deb.nodesource.com/setup_lts.x | bash -
-RUN apt-get install -y nodejs
-
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-RUN apt-get update
-RUN apt-get install -y curl
-RUN apt-get install -y libpng-dev libjpeg-dev curl libxi6 build-essential libgl1-mesa-glx
-RUN curl -sL https://deb.nodesource.com/setup_lts.x | bash -
-RUN apt-get install -y nodejs
-WORKDIR /src
-COPY ["ProjectSPA1/ProjectSPA1.csproj", "ProjectSPA1/"]
-RUN dotnet restore "ProjectSPA1/ProjectSPA1.csproj"
-COPY . .
-WORKDIR "/src/ProjectSPA1"
-RUN dotnet build "ProjectSPA1.csproj" -c Release -o /app/build
-
-FROM build AS publish
-RUN dotnet publish "ProjectSPA1.csproj" -c Release -o /app/publish
-
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "ProjectSPA1.dll"]
-```
-
-:::moniker-end
 
 The preceding *Dockerfile* is based on the [mcr.microsoft.com/dotnet/core/aspnet](https://hub.docker.com/_/microsoft-dotnet-core-aspnet/) image, and includes instructions for modifying the base image by building your project and adding it to the container.
 
@@ -314,56 +195,58 @@ Update the Dockerfile by adding the following lines. These lines will copy Node 
       ENTRYPOINT ["dotnet", "ProjectSPA1.dll"]
       ```
 
-      :::moniker-end
-      :::moniker range=">=vs-2022"
-
-      ```dockerfile
-      #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images   for faster debugging.
-
-      #Depending on the operating system of the host machines(s) that will build or run the containers, the image specified in the FROM statement may need to be changed.
-      #For more information, please see https://aka.ms/containercompat
-      # escape=`
-      FROM mcr.microsoft.com/powershell:nanoserver-1809 AS downloadnodejs
-      ENV NODE_VERSION=14.16.0
-      SHELL ["pwsh", "-Command", "$ErrorActionPreference = 'Stop';$ProgressPreference='silentlyContinue';"]
-      RUN Invoke-WebRequest -OutFile nodejs.zip -UseBasicParsing "https://nodejs.org/dist/v$($env:NODE_VERSION)/node-v$($env:NODE_VERSION)-win-x64.zip"; Expand-Archive nodejs.zip -DestinationPath C:\; Rename-Item "C:\node-v$($env:NODE_VERSION)-win-x64" c:\nodejs
-
-      FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
-      WORKDIR /app
-      EXPOSE 80
-      EXPOSE 443
-      COPY --from=downloadnodejs C:\\nodejs C:\\Windows\\system32
-
-      FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-      COPY --from=downloadnodejs C:\\nodejs C:\\Windows\\system32
-      WORKDIR /src
-      COPY ["Project1-SPA-Windows/Project1-SPA-Windows.csproj", "Project1-SPA-Windows/"]
-      RUN dotnet restore "Project1-SPA-Windows/Project1-SPA-Windows.csproj"
-      COPY . .
-      WORKDIR "/src/Project1-SPA-Windows"
-      RUN dotnet build "Project1-SPA-Windows.csproj" -c Release -o /app/build
-
-      FROM build AS publish
-      RUN dotnet publish "Project1-SPA-Windows.csproj" -c Release -o /app/publish /p:UseAppHost=false
-
-      FROM base AS final
-      WORKDIR /app
-      COPY --from=publish /app/publish .
-      ENTRYPOINT ["dotnet", "Project1-SPA-Windows.dll"]
-      ```
-
-      ::: moniker-end
-
    1. Update the `.dockerignore` file by removing the `**/bin`.
+
+::: moniker-end
+::: moniker range=">=vs-2022"
+
+Follow these steps if you're using Visual Studio 2022 version 17.8 or later:
+
+1. Create a new project using the **React and ASP.NET Core** template.
+
+   :::image type="content" alt-text="Screenshot of creating a new React and ASP.NET Core project." source="media/container-tools-react/vs-2022/react-and-asp-net-core.png" lightbox="media/container-tools-react/vs-2022/react-and-asp-net-core.png" :::
+
+1. On the **Additional information** screen, select **Enable container support**. Be sure to select **Dockerfile** option, since you'll need to manually make changes to that file.
+
+   :::image type="content" alt-text="Screenshot of creating a React and ASP.NET Core project - Additional information screen" source="media/container-tools-react/vs-2022/additional-information-net-8.png" lightbox="media/container-tools-react/vs-2022/additional-information-net-8.png" :::
+
+   > [!NOTE]
+   > In some versions of Visual Studio 2022, this option is not enabled, but you can add that support later.
+
+   Visual Studio creates two projects - one for the React JavaScript client code, and another for the ASP.NET Core C# server code.
+
+1. If you didn't add Docker container support during project creation, right-click on the server project node, and choose **Add** > **Docker Support** and be sure to choose the Dockerfile option to create a Dockerfile.
+
+   :::image alt-text="Screenshot of Add Docker support menu item" type="content" source="media/container-tools-react/vs-2022/add-docker-support.png" lightbox="media/container-tools-react/vs-2022/add-docker-support.png" :::
+
+1. Select the container type.
+
+Use the following steps for Visual Studio 2022 version 17.0 to 17.7:
+
+1. Create a new project using the **ASP.NET Core with React.js** template.
+
+   ![Screenshot of creating a new React.js project.](media/container-tools-react/vs-2022/create-reactjs-project.png)
+
+1. On the **Additional information** screen, you can't select **Enable Docker Support**, but don't worry, you can add that support later.
+
+   ![Screenshot of creating a new React.js project - Additional information screen.](media/container-tools-react/vs-2022/react-project-additional-information.png)
+
+1. Right-click on the project node, and choose **Add** > **Docker Support** to add a Dockerfile to your project.
+
+   ![Screenshot of Add Docker support menu item.](media/container-tools-react/vs-2022/add-docker-support.png)
+
+1. Select the container type.
+
+:::moniker-end
 
 ## Debug
 
 :::moniker range=">=vs-2022"
-With Visual Studio 2022 version 17.8 and later and the **React and ASP.NET Core** template, the projects are already configured to start both the client and server projects with debugging support, but you need to set up the right port for the SPA proxy to use to access the ASP.NET Core server running in the container. You can get the host port from the **Containers** window in Visual Studio and set it in the React project as described in [Create a React app - Docker](../javascript/tutorial-asp-net-core-with-react.md#docker).
+With Visual Studio 2022 version 17.9 or later and the **React and ASP.NET Core** template that uses `vite.js`, the projects are already configured to start both the client and server projects with debugging support, but you need to set up the right port for the SPA proxy to use to access the ASP.NET Core server running in the container. You can get the host port from the **Containers** window in Visual Studio and set it in the React project as described in [Create a React app - Docker](../javascript/tutorial-asp-net-core-with-react.md#docker).
 
 You can also disable the launch in the browser for the server, which is set up to open with Swagger, which is not required for this scenario. To disable the browser launch, open the **Properties** (**Alt**+**Enter**), go to the **Debug** tab, and click on the link **Open debug launch profiles UI**, and clear the **Launch browser** checkbox.
 
-If you're using an earlier version of Visual Studio, continue reading to set up debugging with the single-page application (SPA) proxy server.
+If you're using an earlier version of Visual Studio 2022, continue reading to set up debugging with the single-page application (SPA) proxy server.
 
 The project uses the SPA Proxy during debugging. See [Improved single-page app (SPA) templates](https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-net-6-preview-4/#improved-single-page-app-spa-templates). When debugging, the JavaScript client runs on the host machine, but the ASP.NET Core server code runs in the container. When published, the proxy isn't run, and the client code runs on the same server as the ASP.NET Core code. You already have a Debug profile **Docker* that you can use to debug the server code. To debug the JavaScript client code, you can create an additional debug profile. You also need to start the proxy manually from a command prompt when debugging JavaScript. You can leave it running through multiple debug sessions.
 
