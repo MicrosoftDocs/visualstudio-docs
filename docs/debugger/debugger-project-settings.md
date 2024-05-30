@@ -22,34 +22,28 @@ Certain project settings also affect debugging. These settings determine such th
 
  This section describes what options are available, and how to set them.
 
-## In This Section
- [How to: Specify Debugger Settings](../debugger/how-to-specify-debugger-settings.md)
- Describes debugger settings in the **Options** dialog box.
+## In this section
 
- [How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md)
- Describes the **Debug** and **Release** settings, and how to switch between them.
+[How to: Specify Debugger Settings](../debugger/how-to-specify-debugger-settings.md) describes debugger settings in the **Options** dialog box.
 
- [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
- Lists properties available in the **Property Pages** dialog box for C or C++ projects.
+[How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md) describes the **Debug** and **Release** settings, and how to switch between them.
 
- [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)
- Lists properties available in the **Property Pages** dialog box for C# projects.
+[Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md) lists properties available in the **Property Pages** dialog box for C or C++ projects.
 
- [Property Pages Settings for Web Projects](../debugger/property-pages-settings-for-web-projects.md)
- Lists properties available in the **Property Pages** dialog box for web projects.
+[Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md) lists properties available in the **Property Pages** dialog box for C# projects.
 
- [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
- Lists properties available in the **Property Pages** dialog box for Visual Basic projects.
+[Property Pages Settings for Web Projects](../debugger/property-pages-settings-for-web-projects.md) lists properties available in the **Property Pages** dialog box for web projects.
 
-## Related Sections
- [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
- Describes how the debugger uses symbol files and source files to display information for debugging.
+[Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md) lists properties available in the **Property Pages** dialog box for Visual Basic projects.
 
- [Debug apps in Visual Studio](debugging-windows-store-and-windows-universal-apps.md)
- Describes how to debug UWP apps. (Windows Dev Center)
+## Related sections
 
- [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
- Describes the debugger-related property settings, and the preparation needed in order to debug your program with the Visual Studio debugger.
+[Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) describes how the debugger uses symbol files and source files to display information for debugging.
+
+[Debug apps in Visual Studio](debugging-windows-store-and-windows-universal-apps.md) describes how to debug UWP apps. (Windows Dev Center)
+
+[Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md) describes the debugger-related property settings, and the preparation needed in order to debug your program with the Visual Studio debugger.
 
 ## See also
- [Debugger Security](../debugger/debugger-security.md)
+
+[Debugger Security](../debugger/debugger-security.md)

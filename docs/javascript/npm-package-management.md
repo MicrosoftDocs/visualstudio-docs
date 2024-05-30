@@ -94,8 +94,7 @@ npm packages are shown in Solution Explorer. The entries under the **npm** node 
 ### Package status
 
 * ![Installed package](../javascript/media/installed-npm.png) - Installed and listed in package.json
-* ![Extraneous package](../javascript/media/extraneous-npm.png) - Installed, but not explicitly
-listed in package.json
+* ![Extraneous package](../javascript/media/extraneous-npm.png) - Installed, but not explicitly listed in package.json
 * ![Missing package](../javascript/media/missing-npm.png) - Not installed, but listed in package.json
 
 Right-click the **npm** node to take one of the following actions:
@@ -115,8 +114,7 @@ Right-click a package node to take one of the following actions:
 
 ### <a name="interactive"></a>Use the .npm command in the Node.js Interactive Window (Node.js)
 
-You can also use the `.npm` command in the Node.js Interactive Window to execute
- npm commands. To open the window, right-click the project in Solution Explorer and choose **Open Node.js Interactive Window** (or press **Ctrl** + **K**, **N**).
+You can also use the `.npm` command in the Node.js Interactive Window to execute npm commands. To open the window, right-click the project in Solution Explorer and choose **Open Node.js Interactive Window** (or press **Ctrl** + **K**, **N**).
 
 In the window, you can use commands such as the following to install a package:
 

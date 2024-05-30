@@ -52,6 +52,7 @@ For more information on how Dotfuscator fits into a secure software development 
 
 Your copy of Microsoft Visual Studio includes a copy of ***PreEmptive Protection - Dotfuscator Community***, free for personal use.
 (This free version was previously known as Dotfuscator Community Edition or Dotfuscator CE.)
+
 For instructions on how to install the version of Dotfuscator Community included with Visual Studio, see the [Installation page][install].
 
 Dotfuscator Community offers a range of [software protection and hardening][software-protection] services for developers, architects, and testers.
@@ -66,8 +67,7 @@ Examples of [.NET Obfuscation][obfuscation] and other [Application Protection][a
 For details on these features, including how they fit into your application protection strategy, see the [Capabilities page][capabilities].
 
 Dotfuscator Community offers basic protection out-of-the-box.
-Even more application protection measures are available to registered users of Dotfuscator Community,
-and to users of ***PreEmptive Protection - Dotfuscator Professional***, the world's leading [.NET Obfuscator][net-obfuscator].
+Even more application protection measures are available to registered users of Dotfuscator Community, and to users of ***PreEmptive Protection - Dotfuscator Professional***, the world's leading [.NET Obfuscator][net-obfuscator].
 For information about enhancing Dotfuscator, see the [Upgrades page][upgrades].
 
 ## Getting started
@@ -155,13 +155,11 @@ The symptoms and solution listed below also apply to this scenario.
 
 If your build is using an invalid Dotfuscator CLI path, you may get errors such as one of the following examples:
 
-`'"[...]\PreEmptiveSolutions\DotfuscatorCE\dotfuscatorCLI.exe"' is not recognized as an internal or external command,
-operable program or batch file.`
+`'"[...]\PreEmptiveSolutions\DotfuscatorCE\dotfuscatorCLI.exe"' is not recognized as an internal or external command, operable program or batch file.`
 
 `The command ""[...]\PreEmptiveSolutions\DotfuscatorCE\dotfuscatorCLI.exe" Dotfuscator.xml" exited with code 9009.`
 
-`When the DotfuscatorXamarinEnabled property is 'true', the Dotfuscator command line interface specified by
-DotfuscatorXamarinCliPath ('[...]\DotfuscatorCE\dotfuscatorCLI.exe') must exist.`
+`When the DotfuscatorXamarinEnabled property is 'true', the Dotfuscator command line interface specified by DotfuscatorXamarinCliPath ('[...]\DotfuscatorCE\dotfuscatorCLI.exe') must exist.`
 
 To update your build to use the correct CLI path:
 
@@ -213,8 +211,7 @@ To update your build to use the correct CLI path:
 
 If you try to run the Dotfuscator CLI with an old configuration file, you get errors like the following examples:
 
-`Dotfuscator Engine Initialization error: PreEmptive Analytics, Authenticode signing, and the Introduce Explicit Method Overrides
-setting are no longer supported. Please open your Dotfuscator config in the Config Editor which automatically upgrades it.`
+`Dotfuscator Engine Initialization error: PreEmptive Analytics, Authenticode signing, and the Introduce Explicit Method Overrides setting are no longer supported. Please open your Dotfuscator config in the Config Editor which automatically upgrades it.`
 
 > [!IMPORTANT]
 > You receive this error and need to upgrade your config file even if you were not using the features mentioned.
@@ -273,16 +270,13 @@ The library containing the [Check Attributes][attributes-checks] has changed. In
 
 If you try to build a Visual Studio project that still references the old location, you may get errors like the following examples:
 
-`The type or namespace name 'PreEmptive' could not be found
-(are you missing a using directive or an assembly reference?)`
+`The type or namespace name 'PreEmptive' could not be found (are you missing a using directive or an assembly reference?)`
 
-`The type or namespace name 'TamperCheckAttribute' could not be found
-(are you missing a using directive or an assembly reference?)`
+`The type or namespace name 'TamperCheckAttribute' could not be found (are you missing a using directive or an assembly reference?)`
 
 You may also get this warning:
 
-`Could not resolve this reference. Could not locate the assembly "PreEmptive.Attributes". Check to make sure the assembly exists
-on disk. If this reference is required by your code, you may get compilation errors.`
+`Could not resolve this reference. Could not locate the assembly "PreEmptive.Attributes". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.`
 
 To update your project to use the new location:
 
@@ -304,8 +298,7 @@ If you try to build a Visual Studio project that used instrumentation attributes
 
 If you try to run Dotfuscator on already-built assemblies that contain usages of instrumentation attributes, you get errors like the following examples:
 
-`The PreEmptive.Attributes.FeatureAttribute attribute (annotating SomeNamespace.SomeType::SomeMethod) is not recognized
-by this version of Dotfuscator.`
+`The PreEmptive.Attributes.FeatureAttribute attribute (annotating SomeNamespace.SomeType::SomeMethod) is not recognized by this version of Dotfuscator.`
 
 To fix these problems, remove all usages of instrumentation attributes from your source code.
 You also need to remove the assembly references to the library that defined the attributes, `PreEmptive.Attributes.dll`.

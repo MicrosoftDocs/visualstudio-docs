@@ -26,6 +26,7 @@ ms.subservice: office-development
  For the latest information about Office development, see the [Microsoft Office developer center](https://developer.microsoft.com/office/docs).
 
 ## In this section
+
 - [Get started &#40;Office development in Visual Studio&#41;](getting-started-office-development-in-visual-studio.md)
 
  Provides links to information about how to configure a development computer to create Office solutions, how to begin creating Office solutions, and what is new for Office development in Visual Studio.
@@ -107,17 +108,13 @@ ms.subservice: office-development
  Contains links to information about COM interfaces that you can use to perform actions such as load and unload managed VSTO Add-ins in Office applications.
 
 ## Related content
-- [Office development with Visual Studio developer portal](https://developer.microsoft.com/office/docs)
- Provides additional resources such as technical articles, videos, and blogs.
 
-- [Visual Studio developer center](https://visualstudio.microsoft.com/)
- Provides additional Visual Studio resources such as technical articles, videos, and blogs.
+- [Office development with Visual Studio developer portal](https://developer.microsoft.com/office/docs) provides additional resources such as technical articles, videos, and blogs.
 
-- [Microsoft Office development section of the MSDN library](/previous-versions/office/office-12/bb726434(v=office.12))
- The area of the MSDN library where you can find articles and reference documentation about developing solutions for several versions of Office (not specific to Office development using Visual Studio).
+- [Visual Studio developer center](https://visualstudio.microsoft.com/) provides additional Visual Studio resources such as technical articles, videos, and blogs.
 
-- [Application development in Visual Studio](/previous-versions/h8w79z10(v=vs.140))
- Contains links to topics that explain how you can use Visual Studio to design, develop, debug, and deploy web applications, XML web services, and traditional client applications.
+- [Microsoft Office development section of the MSDN library](/previous-versions/office/office-12/bb726434(v=office.12)) provides  articles and reference documentation about developing solutions for several versions of Office (not specific to Office development using Visual Studio).
 
-- [.NET Framework programming in Visual Studio](/previous-versions/visualstudio/visual-studio-2010/k1s94fta(v=vs.100))
- Discusses application development with the .NET Framework in Visual Basic and Visual C#.
+- [Application development in Visual Studio](/previous-versions/h8w79z10(v=vs.140)) contains links to topics that explain how you can use Visual Studio to design, develop, debug, and deploy web applications, XML web services, and traditional client applications.
+
+- [.NET Framework programming in Visual Studio](/previous-versions/visualstudio/visual-studio-2010/k1s94fta(v=vs.100)) discusses application development with the .NET Framework in Visual Basic and Visual C#.

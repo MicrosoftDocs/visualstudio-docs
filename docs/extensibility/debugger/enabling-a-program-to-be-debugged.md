@@ -15,20 +15,16 @@ ms.subservice: debug-diagnostics
 Before your debug engine (DE) can debug a program, you must first launch the DE or attach it to an existing program.
 
 ## In this section
- [Get a port](../../extensibility/debugger/getting-a-port.md)
- Discusses how to obtain a port as the first step to enabling a program to be debugged.
 
- [Register the program](../../extensibility/debugger/registering-the-program.md)
- Explains the next step in enabling a program to be debugged: registering it with the port. Once registered, the program can be debugged either by the process of attaching or just-in-time (JIT) debugging.
+[Get a port](../../extensibility/debugger/getting-a-port.md) discusses how to obtain a port as the first step to enabling a program to be debugged.
 
- [Attach to the program](../../extensibility/debugger/attaching-to-the-program.md)
- Explains the next step: attaching the debugger to the program.
+ [Register the program](../../extensibility/debugger/registering-the-program.md) explains the next step in enabling a program to be debugged: registering it with the port. Once registered, the program can be debugged either by the process of attaching or just-in-time (JIT) debugging.
 
- [Launch-based attaching](../../extensibility/debugger/launch-based-attachment.md)
- Describes launch-based attachment to a program, which is automatic upon launch by the SDM.
+ [Attach to the program](../../extensibility/debugger/attaching-to-the-program.md) explains the next step: attaching the debugger to the program.
 
- [Send the required events](../../extensibility/debugger/sending-the-required-events.md)
- Steps you through the required events when creating a debug engine (DE) and attaching it to a program.
+ [Launch-based attaching](../../extensibility/debugger/launch-based-attachment.md) describes launch-based attachment to a program, which is automatic upon launch by the SDM.
+
+ [Send the required events](../../extensibility/debugger/sending-the-required-events.md) steps you through the required events when creating a debug engine (DE) and attaching it to a program.
 
 ## Related content
 

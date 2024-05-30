@@ -18,16 +18,15 @@ ms.subservice: debug-diagnostics
 ---
 # Debugging WCF Services
 
-## In This Section
- [Limitations on WCF Debugging](../debugger/limitations-on-wcf-debugging.md)
- Describes restrictions on debugging WCF.
+## In this section
 
- [How to: Step into WCF Services](../debugger/how-to-step-into-wcf-services.md)
- Explains debugger support for stepping into a WCF Service.
+[Limitations on WCF Debugging](../debugger/limitations-on-wcf-debugging.md) describes restrictions on debugging WCF.
 
- [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md)
- Describes how to debug a WCF Service that runs outside IIS or the ASP.NET Development server.
+[How to: Step into WCF Services](../debugger/how-to-step-into-wcf-services.md) explains debugger support for stepping into a WCF Service.
+
+[How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md) describes how to debug a WCF Service that runs outside IIS or the ASP.NET Development server.
 
 ## Related content
+
 - [Debugger Security](../debugger/debugger-security.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

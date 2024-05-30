@@ -61,7 +61,9 @@ Let’s focus on the node **dependentFileProviders** and its child nodes. Each c
 
 This provider lets you define file nesting rules using specific file extensions. Consider the following example:
 
-![extentionToExtension example rules](media/filenesting_extensiontoextension.png) ![extentionToExtension example effect](media/filenesting_extensiontoextension_effect.png)
+![extentionToExtension example rules](media/filenesting_extensiontoextension.png)
+
+![extentionToExtension example effect](media/filenesting_extensiontoextension_effect.png)
 
 * *cart.js* is nested under *cart.ts* because of the first **extensionToExtension** rule
 
@@ -75,7 +77,9 @@ This provider lets you define file nesting rules using specific file extensions.
 
 This provider works just like the **extensionToExtension** provider, with the only difference being that the rule looks at the suffix of the file instead of just the extension. Consider the following example:
 
-![fileSuffixToExtension example rules](media/filenesting_filesuffixtoextension.png) ![fileSuffixToExtension example effect](media/filenesting_filesuffixtoextension_effect.png)
+![fileSuffixToExtension example rules](media/filenesting_filesuffixtoextension.png)
+
+![fileSuffixToExtension example effect](media/filenesting_filesuffixtoextension_effect.png)
 
 * *portal-vsdoc.js* is nested under *portal.js* because of the **fileSuffixToExtension** rule
 
@@ -87,7 +91,9 @@ This provider nests files with an additional extension under the file without an
 
 Consider the following example:
 
-![addedExtension example rules](media/filenesting_addedextension.png) ![addedExtension example effect](media/filenesting_addedextension_effect.png)
+![addedExtension example rules](media/filenesting_addedextension.png)
+
+![addedExtension example effect](media/filenesting_addedextension_effect.png)
 
 * *file.html.css* is nested under *file.html* because of the **addedExtension** rule
 
@@ -100,7 +106,9 @@ This provider nests files with an additional extension under a file without an a
 
 Consider the following example:
 
-![pathSegment example rules](media/filenesting_pathsegment.png) ![pathSegment example effect](media/filenesting_pathsegment_effect.png)
+![pathSegment example rules](media/filenesting_pathsegment.png)
+
+![pathSegment example effect](media/filenesting_pathsegment_effect.png)
 
 * *jquery.min.js* is nested under *jquery.js* because of the **pathSegment** rule
 
@@ -125,7 +133,9 @@ Consider the following example:
 
 This provider lets you define file nesting rules for files with any extension but the same base file name. Consider the following example:
 
-![allExtensions example rules](media/filenesting_allextensions.png) ![allExtensions example effect](media/filenesting_allextensions_effect.png)
+![allExtensions example rules](media/filenesting_allextensions.png)
+
+![allExtensions example effect](media/filenesting_allextensions_effect.png)
 
 * *template.cs* and *template.doc* are nested under *template.tt* because of the **allExtensions** rule.
 
@@ -133,7 +143,9 @@ This provider lets you define file nesting rules for files with any extension bu
 
 This provider lets you define file nesting rules based on entire filenames. Consider the following example:
 
-![fileToFile example rules](media/filenesting_filetofile.png) ![fileToFile example effect](media/filenesting_filetofile_effect.png)
+![fileToFile example rules](media/filenesting_filetofile.png)
+
+![fileToFile example effect](media/filenesting_filetofile_effect.png)
 
 * *.bowerrc* is nested under *bower.json* because of the **fileToFile** rule
 

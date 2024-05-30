@@ -738,6 +738,7 @@ To output operations in JSON, a popular and portable format for storing object d
 
    ::: moniker range=">=vs-2022"
    ![Screenshot of Newtonsoft J SON NuGet package information in the NuGet Package Manager.](media/vs-2022/calculator-nuget-newtonsoft-json.png)
+
    If you're prompted whether to accept changes, select **OK**.
    
    Visual Studio downloads the package and adds it to the project. A new entry appears in a **Packages** node in **Solution Explorer**.

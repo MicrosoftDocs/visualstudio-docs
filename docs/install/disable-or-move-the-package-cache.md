@@ -29,25 +29,21 @@ Before you install, modify, or repair Visual Studio or other products with the n
 "%ProgramFiles(x86)%\Microsoft Visual Studio\Installer\vs_installer.exe" --nocache
 ```
 
-Any operation you do on a product will remove any existing packages for that product and will avoid saving any packages after they're installed. If packages are required to modify or repair Visual Studio, they'll be downloaded automatically and removed after
-their installation.
+Any operation you do on a product will remove any existing packages for that product and will avoid saving any packages after they're installed. If packages are required to modify or repair Visual Studio, they'll be downloaded automatically and removed after their installation.
 
-If you want to re-enable the cache, pass `--cache` instead. Only packages that are required will be cached. If you need to restore
-all packages, we recommend you repair Visual Studio before you disconnect from your network.
+If you want to re-enable the cache, pass `--cache` instead. Only packages that are required will be cached. If you need to restore all packages, we recommend you repair Visual Studio before you disconnect from your network.
 
 ```shell
 "%ProgramFiles(x86)%\Microsoft Visual Studio\Installer\vs_installer.exe" repair --passive --norestart --cache
 ```
 
-You can also set the `KeepDownloadedPayloads` [registry policy](configure-policies-for-enterprise-deployments.md) to disable the cache
-before you install, modify, or repair Visual Studio.
+You can also set the `KeepDownloadedPayloads` [registry policy](configure-policies-for-enterprise-deployments.md) to disable the cache before you install, modify, or repair Visual Studio.
 
 ## Move the package cache
 
 A common system configuration is to have Windows installed on an SSD that has a larger hard disk (or more) for development needs, such as source code, program binaries, and more. If you want to work offline, you can move the package cache instead.
 
-Currently, you can do this operation only if you set the `CachePath` [registry policy](configure-policies-for-enterprise-deployments.md) before you
-install, modify, or repair Visual Studio.
+Currently, you can do this operation only if you set the `CachePath` [registry policy](configure-policies-for-enterprise-deployments.md) before you install, modify, or repair Visual Studio.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

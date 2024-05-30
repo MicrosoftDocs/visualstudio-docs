@@ -13,8 +13,7 @@ dev_langs:
 ---
 # Unit testing JavaScript and TypeScript in Visual Studio
 
-You can write and run unit tests in Visual Studio using some of the more popular
-JavaScript frameworks without the need to switch to a command prompt. Both Node.js and ASP.NET Core projects are supported.
+You can write and run unit tests in Visual Studio using some of the more popular JavaScript frameworks without the need to switch to a command prompt. Both Node.js and ASP.NET Core projects are supported.
 
 The supported frameworks are:
 - Mocha ([mochajs.org](https://mochajs.org/))
@@ -364,20 +363,15 @@ This folder has to contain a JavaScript file with the same name which exports th
 - `find_tests`
 - `run_tests`
 
-For a good example of the `find_tests` and the `run_tests` implementations, see the implementation for the Mocha
-unit testing framework in:
+For a good example of the `find_tests` and the `run_tests` implementations, see the implementation for the Mocha unit testing framework in:
 
 `<VisualStudioFolder>\Common7\IDE\Extensions\Microsoft\NodeJsTools\TestAdapter\TestFrameworks\mocha\mocha.js`
 
-Discovery of available test frameworks occurs at Visual Studio start. If a framework is added while
-Visual Studio is running, restart Visual Studio to detect the framework. However you don't need to restart
-when making changes to the implementation.
+Discovery of available test frameworks occurs at Visual Studio start. If a framework is added while Visual Studio is running, restart Visual Studio to detect the framework. However you don't need to restart when making changes to the implementation.
 
 ## Unit tests in .NET Framework
 
-You are not limited to writing unit tests in just your Node.js and ASP.NET Core projects. When you add the TestFramework and
-TestRoot properties to any C# or Visual Basic project, those tests will be enumerated and you can run them using
-the Test Explorer window.
+You are not limited to writing unit tests in just your Node.js and ASP.NET Core projects. When you add the TestFramework and TestRoot properties to any C# or Visual Basic project, those tests will be enumerated and you can run them using the Test Explorer window.
 
 To enable this, right-click the project node in the Solution Explorer, choose **Unload Project**, and then choose **Edit Project**. Then in the project file, add the following two elements to a property group.
 
@@ -392,8 +386,7 @@ To enable this, right-click the project node in the Solution Explorer, choose **
 </PropertyGroup>
 ```
 
-Next, add your tests to the test root folder you specified, and they will be available to run in the
-Test Explorer window. If they don't initially appear, you might need to rebuild the project.
+Next, add your tests to the test root folder you specified, and they will be available to run in the Test Explorer window. If they don't initially appear, you might need to rebuild the project.
 
 ## Unit test .NET Core and .NET Standard
 
@@ -413,9 +406,7 @@ Some test frameworks might require additional npm packages for test detection. F
 
 For Node.js projects, before adding unit tests to your project, make sure the framework you plan to use is installed locally in your project. This is easy to do using the [npm package installation window](npm-package-management.md#npmInstallWindow).
 
-The preferred way to add unit tests to your project is by creating a *tests* folder in
-your project, and setting that as the test root in project properties. You also need
-to select the test framework you want to use.
+The preferred way to add unit tests to your project is by creating a *tests* folder in your project, and setting that as the test root in project properties. You also need to select the test framework you want to use.
 
 ![Screenshot of set test root and test framework.](../javascript/media/unit-test-project-properties.png)
 
@@ -441,8 +432,7 @@ describe('Test Suite 1', function() {
 ```
 
 If you haven't set the unit test options in the project properties, you must ensure the **Test Framework**
-property in the **Properties** window is set to the correct test framework for your unit test files. This is
-done automatically by the unit test file templates.
+property in the **Properties** window is set to the correct test framework for your unit test files. This is done automatically by the unit test file templates.
 
 ![Screenshot of choosing Test Framework.](../javascript/media/UnitTestsFrameworkMocha.png)
 
