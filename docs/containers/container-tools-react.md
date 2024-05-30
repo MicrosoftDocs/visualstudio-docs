@@ -71,7 +71,7 @@ Follow these steps if you're using Visual Studio 2022 version 17.8 or later:
 
    Visual Studio creates two projects - one for the React JavaScript client code, and another for the ASP.NET Core C# server code.
 
-1. If you didn't add Docker container support during project creation, right-click on the server project node, and choose **Add** > **Docker Support** and be sure to choose the Dockerfile option to add that file to your project.
+1. If you didn't add Docker container support during project creation, right-click on the server project node, and choose **Add** > **Docker Support** and be sure to choose the Dockerfile option to create a Dockerfile.
 
    :::image alt-text="Screenshot of Add Docker support menu item" type="content" source="media/container-tools-react/vs-2022/add-docker-support.png" lightbox="media/container-tools-react/vs-2022/add-docker-support.png" :::
 
