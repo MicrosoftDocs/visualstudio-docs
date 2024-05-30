@@ -2,7 +2,7 @@
 title: Repair your Visual Studio installation
 titleSuffix: ''
 description: Repair or update your Visual Studio installation with the Visual Studio Installer, resolve issues with available fixes, and reacquire necessary files.
-ms.date: 5/16/2023
+ms.date: 05/30/2024
 ms.custom: vs-acquisition
 ms.topic: how-to
 author: anandmeg
@@ -20,7 +20,7 @@ Sometimes your Visual Studio installation becomes damaged or corrupted. A repair
 Use repair if you're having issues with:
 
 * Installation payload, which can happen when writing a file to disk is unsuccessful and the file gets corrupted. Repair can reacquire needed files.
-* Client-side download, assuming you've fixed any internet connection or proxy issues.
+* Client-side download, assuming that you fixed any internet connection or proxy issues.
 * Updating Visual Studio. Repair fixes many common update issues.
 
 > [!TIP] 
@@ -35,7 +35,7 @@ Use repair if you're having issues with:
 
 1. Find the **Visual Studio Installer** on your computer.
 
-     From the Start menu in Windows, you can search for "installer".
+     From the Start menu in Windows, you can search for *installer*.
 
      ![Screenshot showing the result of a Start menu search for the Visual Studio Installer.](media/vs-2019/visual-studio-installer.png "Search for the Visual Studio Installer")
 
@@ -53,7 +53,7 @@ Use repair if you're having issues with:
    > [!NOTE]
    > Repairing Visual Studio will reset its environment. Local customizations like per-user extensions installed without elevation, user settings, and profiles will be removed. Your synchronized settings such as themes, colors, and key bindings will be restored.
 
-    The **Repair** option appears only for installed instances of Visual Studio. If you don't see the **Repair** option, chances are that you've selected **More** in a version that's listed in the Visual Studio Installer as "Available" rather than "Installed".
+    The **Repair** option appears only for installed instances of Visual Studio. If you don't see the **Repair** option, check whether you selected **More** in a version that's listed in the Visual Studio Installer as "Available" rather than "Installed".
 
 ::: moniker-end
 
@@ -77,7 +77,7 @@ Use repair if you're having issues with:
    > [!NOTE]
    > Repairing Visual Studio will reset its environment. Local customizations, like per-user extensions installed without elevation, user settings, and profiles will be removed. Your synchronized settings such as themes, colors, and key bindings will be restored.
 
-    The **Repair** option applies to installed instances of Visual Studio. If you do not see the **Repair** option in the **More** dropdown menu, chances are you're in the **Available** tab instead of the **Installed** tab of the Visual Studio Installer.
+    The **Repair** option applies to installed instances of Visual Studio. If you don't see the **Repair** option in the **More** dropdown menu, chances are you're in the **Available** tab instead of the **Installed** tab of the Visual Studio Installer.
 
 ::: moniker-end
 
