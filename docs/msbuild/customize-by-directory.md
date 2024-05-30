@@ -42,20 +42,28 @@ Similarly, *Microsoft.Common.targets* looks for *Directory.Build.targets*.
 
 ### Directory.Build.props example
 
-For example, if you wanted to enable all of your projects to access the new Roslyn **/deterministic** feature (which is exposed in the Roslyn `CoreCompile` target by the property `$(Deterministic)`), you could do the following.
+For example, here's a *Directory.Build.props* file that sets the output directory for all the projects in a Visual Studio solution. The output of each project is placed under its own project name. In this example, the *Directory.Build.props* file is in a solution folder, with many projects in subfolders under it. The `$(MSBuildProjectName)` property gives the name of each project. Because the *Directory.Build.props* file is imported into each project during its own build, it is evaluated to the right value for each individual project in the solution.
+
+1. Clean the solution to remove any old output files.
+
+   `msbuild /t:Clean SolutionName.sln`
 
 1. Create a new file in the root of your repo called *Directory.Build.props*.
-2. Add the following XML to the file.
+
+1. Add the following XML to the file.
 
    ```xml
    <Project>
-    <PropertyGroup>
-      <Deterministic>true</Deterministic>
-    </PropertyGroup>
+      <PropertyGroup>
+         <OutDir>C:\output\$(MSBuildProjectName)</OutDir>
+      </PropertyGroup>
    </Project>
    ```
 
-3. Run MSBuild. Your project’s existing imports of *Microsoft.Common.props* and *Microsoft.Common.targets* find the file and import it.
+   > [!NOTE]
+   > The `$(OutDir)` property is an absolute path to the output, and using it bypasses the creation of subfolders for the configuration, target framework, or runtime that are normally used in .NET projects. Try using the property `BaseOutputPath` instead if you want the usual subfolders to be created under a custom output path.
+
+1. Run MSBuild. Your project's existing imports of *Microsoft.Common.props* and *Microsoft.Common.targets* find the *Directory.Build.props* file and import it, and the new output folder is used for all the projects under that folder.
 
 ### Search scope
 
