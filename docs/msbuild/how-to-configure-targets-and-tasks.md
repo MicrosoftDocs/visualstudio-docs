@@ -84,6 +84,19 @@ By default, MSBuild handles UsingTask's as "first one wins." Starting in 17.2, M
 
 ## Task factories
 
+THe following table shows the task factories provided by the MSBuild installation:
+
+| Task factory | Description |
+| - | - |
+| `AssemblyTaskFactory` | This is the default value. Runs the task in-process. |
+| `TaskHostFactory` | Runs the task out-of-process. |
+| `RoslynCodeTaskFactory` | For inline tasks written in C# or Visual Basic and targeting .NET Standard; works with both `msbuild.exe` and `dotnet build`. |
+| `CodeTaskFactory` | For inline tasks written in C# or Visual Basic and targeting .NET Framework; works only with `msbuild.exe`. |
+
+The task factory mechanism is extensible, so you can also use those created by third parties, or create your own. A reason for creating one would be to support another language for writing inline tasks.
+
+### TaskHostFactory
+
 Before it runs a task, MSBuild checks to see whether it is designated to run in the current software context. If the task is so designated, MSBuild passes it to the `AssemblyTaskFactory`, which runs it in the current process; otherwise, MSBuild passes the task to the `TaskHostFactory`, which runs the task in a process that matches the target context. Even if the current context and the target context match, you can force a task to run out-of-process (for isolation, security, or other reasons) by setting `TaskFactory` to `TaskHostFactory`.
 
 ```xml
@@ -94,6 +107,14 @@ Before it runs a task, MSBuild checks to see whether it is designated to run in 
 ```
 
 When `TaskHostFactory` is specified explicitly, the process that runs the task is short-lived. This allows the operating system to clean up all resources related to the task immediately after it executes. For this reason, specify `TaskHostFactory` when referencing tasks built in the same build process as their use, to avoid file-in-use errors when updating the task assembly after a build.
+
+### RoslynCodeTaskFactory
+
+The `RoslynCodeTaskFactory` provides a mechanism by which you can write C# or Visual Basic code for a task in a project file for immediate use. The code is compiled during the build process to produce a task that you can execute in that same build. The code you write targets .NET Standard, so it can be used when running `dotnet build`, which uses the .NET Core (and .NET 5 and later) version of MSBuild, as well as `msbuild.exe`, which uses the .NET Framework. `RoslynCodeTaskFactory` is best for customization that is just a bit too hard to do in MSBuild logic, but not complex enough to create a separate project. See [Create an MSBuild inline task with RoslynCodeTaskFactory](msbuild-roslyncodetaskfactory.md).
+
+### CodeTaskFactory
+
+`CodeTaskFactory` is an older version of `RoslynCodeTaskFactory` that is limited to the .NET Framework version of MSBuild. See [MSBuild inline tasks](msbuild-inline-tasks.md). This task factory is supported, but newer code should use `RoslynCodeTaskFactory` for wider applicability.
 
 ## Phantom task parameters
 
