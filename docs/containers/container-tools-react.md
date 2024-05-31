@@ -205,7 +205,7 @@ Follow these steps if you're using Visual Studio 2022 version 17.8 or later:
 
 1. On the **Additional information** screen, select **Enable container support**. Be sure to select **Dockerfile** option, since you'll need to manually make changes to that file.
 
-   :::image type="content" alt-text="Screenshot of creating a React and ASP.NET Core project - Additional information screen" source="media/container-tools-react/vs-2022/additional-information-net-8.png" lightbox="media/container-tools-react/vs-2022/additional-information-net-8.png" :::
+   :::image type="content" alt-text="Screenshot of creating a React and ASP.NET Core project - Additional information screen." source="media/container-tools-react/vs-2022/additional-information-net-8.png" lightbox="media/container-tools-react/vs-2022/additional-information-net-8.png" :::
 
    > [!NOTE]
    > In some versions of Visual Studio 2022, this option is not enabled, but you can add that support later.
@@ -214,7 +214,7 @@ Follow these steps if you're using Visual Studio 2022 version 17.8 or later:
 
 1. If you didn't add Docker container support during project creation, right-click on the server project node, and choose **Add** > **Docker Support** and be sure to choose the Dockerfile option to create a Dockerfile.
 
-   :::image alt-text="Screenshot of Add Docker support menu item" type="content" source="media/container-tools-react/vs-2022/add-docker-support.png" lightbox="media/container-tools-react/vs-2022/add-docker-support.png" :::
+   :::image alt-text="Screenshot of Add Docker support menu item." type="content" source="media/container-tools-react/vs-2022/add-docker-support.png" lightbox="media/container-tools-react/vs-2022/add-docker-support.png" :::
 
 1. Select the container type.
 
