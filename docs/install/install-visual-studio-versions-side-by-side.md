@@ -49,7 +49,7 @@ Before you install versions side-by-side, review the following conditions:
 
 Each installation of Visual Studio must have a unique combination of major version, edition, and [update channel](/visualstudio/install/update-visual-studio?view=vs-2019&preserve-view=true#configure-source-location-of-updates). For example, you can install Visual Studio 2019 Enterprise Preview ([preview channel](/visualstudio/productinfo/release-rhythm)) alongside Visual Studio 2019 Enterprise (release channel) alongside Visual Studio 2017 Professional (release channel) alongside Visual Studio 2017 Professional (custom layout channel).
 
-When you upgrade from one minor version of Visual Studio to the next, the Visual Studio installer, by default, updates your current installation to the latest version in that channel. For example, if Microsoft releases version 16.11.24 to the [Visual Studio 2019 release channel](/visualstudio/productinfo/release-rhythm), the installer tries to replace your current installation of Visual Studio 2019 from the release channel with this latest version on the same channel.
+When you upgrade from one minor version of Visual Studio to the next, by default, the Visual Studio installer updates your current installation to the latest version in that channel. For example, if Microsoft releases version 16.11.24 to the [Visual Studio 2019 release channel](/visualstudio/productinfo/release-rhythm), the installer tries to replace your current installation of Visual Studio 2019 from the release channel with this latest version on the same channel.
 
 ### Manual installation
 
@@ -57,13 +57,15 @@ You can manually use another bootstrapper to install a new instance of Visual St
 
 1. To use another bootstrapper, you can download and run one of the bootstrapper files for Visual Studio 2019 from the [Visual Studio 2019 releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page for the edition that you want to install side-by-side with your existing installation of Visual Studio. If you are in an organization, your IT Administrator might create a layout and provided a link to the bootstrapper in that layout.
 
+1. Using the installer's **Available** tab presumes that you already have some other version of Visual Studio installed. First find the **Visual Studio Installer** on your computer and launch it. After it updates itself, select the **Available** tab and install one of the offered products.
+
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
 Each installation of Visual Studio must have a unique combination of major version, edition, and [update channel](/visualstudio/install/update-visual-studio?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1). For example, you can install Visual Studio 2022 Enterprise Preview ([preview channel](/visualstudio/productinfo/release-rhythm)) alongside Visual Studio 2022 Enterprise (release channel) alongside Visual Studio 2019 Professional (release channel) alongside Visual Studio 2019 Professional (custom layout channel).
 
-When you upgrade from one minor version of Visual Studio to the next, the Visual Studio Installer, by default, updates your current installation to the latest version in that channel. For example, if Microsoft releases version 17.3.9 to the [Visual Studio 2022 release channel](/visualstudio/productinfo/release-rhythm), the installer tries to replace your current installation of Visual Studio 2022 from the release channel with this latest version on the same channel.
+When you upgrade from one minor version of Visual Studio to the next, by default, the Visual Studio Installer updates your current installation to the latest version in that channel. For example, if Microsoft releases version 17.3.9 to the [Visual Studio 2022 release channel](/visualstudio/productinfo/release-rhythm), the installer tries to replace your current installation of Visual Studio 2022 from the release channel with this latest version on the same channel.
 
 ### Manual installation
 
@@ -71,9 +73,9 @@ You can manually use another bootstrapper to install a new instance of Visual St
 
 1. To use another bootstrapper, you can download and run one of the bootstrapper files for Visual Studio 2022 from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) or the [Visual Studio 2022 releases](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page for the minor version that you want to install side-by-side with your existing version of Visual Studio.
 
-::: moniker-end
-
 1. Using the installer's **Available** tab presumes that you already have some other version of Visual Studio installed. First find the **Visual Studio Installer** on your computer and launch it. After it updates itself, select the **Available** tab and install one of the offered products.
+
+::: moniker-end
 
    :::image type="content" source="media/available-tab.png" alt-text="Screenshot showing the Visual Studio Installer's Available tab.":::
 
