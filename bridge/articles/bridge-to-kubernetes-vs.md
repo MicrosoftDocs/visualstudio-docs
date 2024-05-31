@@ -165,11 +165,17 @@ In this section, you set a breakpoint in your service.
 
 If you need to change how Bridge to Kubernetes connects to your cluster, in this section, you'll edit the launch profile settings.
 
-1. Click on the arrow next to the **Bridge to Kubernetes** button, then click on **databaseApi Debug Properties**.
+1. In the Visual Studio command bar, click on the arrow next to the start button (green triangle or "play" icon) to open the dropdown, then click on **databaseApi Debug Properties**.
  ![Screenshot shows the Bridge to Kubernetes drop down menu.](media/bridge-to-kubernetes-vs/change-bridge-properties.png)
 
 1. Click on the **Edit profile for Bridge to Kubernetes** link in the **Launch Profiles** dialog.
  ![Screenshot shows Launch Profiles dialog with a link to edit the Bridge to Kubernetes profile](media/bridge-to-kubernetes-vs/bridge-launch-profiles.png)
+
+Another way to get to this screen:
+
+1. Right-click on the project node in Solution Explorer, and choose **Properties** (or press **Alt**+**Enter**).
+
+1. Scroll down to **Debug**, and choose **Open debug launch profiles UI**.
 
 ## Clean up resources
 
