@@ -2,16 +2,17 @@
 title: "Tutorial: Create a 'math quiz' Windows Forms App"
 description: Create a C# or Visual Basic Windows Forms project for a math quiz application and use Visual Studio to add UI controls to a form.
 ms.custom: vs-acquisition
-ms.date: 03/15/2023
+ms.date: 06/04/2024
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
+# customer intent: As a developer, I want to learn how a Windows form project works in Visual Studio so that I can create such projects in the future.
 ---
 # Tutorial: Create a math quiz WinForms app
 
-In this series of four tutorials, you'll build a math quiz. The quiz contains four random math problems that a quiz taker tries to answer within a specified time.
+In this series of four tutorials, you build a math quiz. The quiz contains four random math problems that a quiz taker tries to answer within a specified time.
 
 The Visual Studio integrated development environment (IDE) provides the tools that you need to create the app. To learn more about this IDE, see [Welcome to the Visual Studio IDE](../visual-studio-ide.md).
 
@@ -43,7 +44,7 @@ When you create a math quiz, the first step is to create a Windows Forms App pro
 
 1. Select the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then select **Next**.
 
-   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/create-project-windows-forms.png" alt-text="Screenshot that shows the Create a new project dialog box. The search box, the Project type list, and two templates are called out.":::
+   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/create-project-windows-forms.png" alt-text="Screenshot that shows the Create a new project dialog box with the search box, the Project type list, and two templates called out.":::
 
    > [!NOTE]
    > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, select **Install more tools and features**.
@@ -72,7 +73,7 @@ When you create a math quiz, the first step is to create a Windows Forms App pro
 
 1. Select the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then select **Next**.
 
-   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/create-project-windows-forms.png" alt-text="Screenshot that shows the Create a new project dialog box. The search box, the Project type list, and two templates are called out.":::
+   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/create-project-windows-forms.png" alt-text="Screenshot that shows the Create a new project dialog box with the search box, the Project type list, and two templates called out.":::
 
    > [!NOTE]
    > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, select **Install more tools and features**.
@@ -119,7 +120,7 @@ After you select your template and name your file, Visual Studio opens a form fo
 
 ## Create the time remaining box
 
-The math quiz contains a box in the upper-right corner. That box shows the number of seconds that remain in the quiz. This section shows you how to use a label for that box. You'll add code for the countdown timer in a later tutorial in this series.
+The math quiz contains a box in the upper-right corner. That box shows the number of seconds that remain in the quiz. This section shows you how to use a label for that box. You add code for the countdown timer in a later tutorial in this series.
 
 1. On the left side of the Visual Studio IDE, select the **Toolbox** tab. If you don't see the toolbox, select **View** > **Toolbox** from the menu bar or **Ctrl**+**Alt**+**X**.
 
@@ -142,7 +143,7 @@ The math quiz contains a box in the upper-right corner. That box shows the numbe
 
 1. Move the label so that it lines up to the left of the **timeLabel** label.
 
-   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/time-remaining-box.png" alt-text="Screenshot that shows the Time Left label and the remaining time label. The controls are lined up next to each other in the upper-right corner of the form.":::
+   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/time-remaining-box.png" alt-text="Screenshot that shows the Time Left and remaining time label with controls lined up next to each other in the upper-right corner of the form.":::
 
 <!-- Original material -->
 
@@ -174,7 +175,7 @@ The first part of the quiz is an addition problem. This section shows you how to
 
 1. Set the fourth label's **Text** property to **=** (equals sign).
 
-1. Add a <xref:System.Windows.Forms.NumericUpDown> control from the **Toolbox** to the form. You'll learn more about this kind of control later.
+1. Add a <xref:System.Windows.Forms.NumericUpDown> control from the **Toolbox** to the form. You learn more about this kind of control later.
 
 1. In the **Properties** box, set the following properties for the NumericUpDown control:
 
@@ -217,11 +218,11 @@ Next, add labels to the form for the remaining math problems.
    - Set the **(Name)** of the second question-mark label to **dividedRightLabel**.
    - Set the **(Name)** of the NumericUpDown control to **quotient**.
 
-:::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/all-math-problems.png" alt-text="Screenshot that shows a math quiz with four rows of problems. Labels and controls with arrow keys are visible.":::
+:::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/all-math-problems.png" alt-text="Screenshot that shows a math quiz with four rows of problems, with labels and controls with arrow keys visible.":::
 
 ## Add a start button and set the tab-index order
 
-This section shows you how to add a start button. You'll also specify the tabbing order of the controls. This ordering determines how the quiz taker moves from one control to the next by using the **Tab** key.
+This section shows you how to add a start button. You also specify the tabbing order of the controls. This ordering determines how the quiz taker moves from one control to the next by using the **Tab** key.
 
 1. Add a <xref:System.Windows.Forms.Button> control from the **Toolbox** to the form.
 
@@ -262,7 +263,7 @@ The math problems don't work yet on your quiz. But you can still run your app to
 
 1. Select the **Tab** key a few times to see how the focus moves from one control to the next.
 
-## Next steps
+## Next step
 
 Advance to the next tutorial to add random math problems and an event handler to your math quiz.
 > [!div class="nextstepaction"]
