@@ -1,6 +1,6 @@
 ---
-description: "Enumerates by address the various symbols contained in the data source."
-title: "IDiaEnumSymbolsByAddr"
+description: Enumerates by address the various symbols contained in the data source.
+title: IDiaEnumSymbolsByAddr
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,17 +12,17 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumSymbolsByAddr
 
 Enumerates by address the various symbols contained in the data source.
 
 ## Syntax
 
-```
-IDiaEnumSymbolsByAddr : IUnknown
-```
+`IDiaEnumSymbolsByAddr : IUnknown`
 
 ## Methods in Vtable Order
+
 The following table shows the methods of `IDiaEnumSymbolsByAddr`.
 
 |Method|Description|
@@ -35,15 +35,18 @@ The following table shows the methods of `IDiaEnumSymbolsByAddr`.
 |[IDiaEnumSymbolsByAddr::Clone](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-clone.md)|Makes a copy of an object.|
 
 ## Remarks
+
 This interface provides symbols grouped by address. To work with symbols grouped by type, for example `SymTagUDT` (user-defined type) or `SymTagBaseClass`, use the [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md) interface.
 
 ## Notes for Callers
+
 Obtain this interface by calling the [IDiaSession::getSymbolsByAddr](../../debugger/debug-interface-access/idiasession-getsymbolsbyaddr.md) method.
 
 ## Example
+
 This function displays the name and address of all symbols ordered by relative virtual address.
 
-```C++
+```c++
 void ShowSymbolsByAddress(IDiaSession *pSession)
 {
     CComPtr<IDiaEnumSymbolsByAddr> pEnumByAddr;
@@ -88,6 +91,7 @@ void ShowSymbolsByAddress(IDiaSession *pSession)
 ```
 
 ## Requirements
+
 Header: Dia2.h
 
 Library: diaguids.lib
@@ -95,6 +99,7 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See also
+
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [IDiaSession::getSymbolsByAddr](../../debugger/debug-interface-access/idiasession-getsymbolsbyaddr.md)
 - [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)
