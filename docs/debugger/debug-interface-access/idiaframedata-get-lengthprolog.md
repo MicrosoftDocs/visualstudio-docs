@@ -12,28 +12,33 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaFrameData::get_lengthProlog
 
 Retrieves the number of bytes of prologue code in the block.
 
 ## Syntax
 
-```C++
-HRESULT get_lengthProlog ( 
+```c++
+HRESULT get_lengthProlog ( 
    DWORD* pRetVal
 );
 ```
 
 #### Parameters
+
  `pRetVal`
 
 [out] Returns the number of bytes of prologue code.
 
 ## Return Value
- If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
+
+If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
 ## Remarks
- The prologue code is a sequence of instructions that preserves registers, sets the CPU state, and establishes the stack for the function.
+
+The prologue code is a sequence of instructions that preserves registers, sets the CPU state, and establishes the stack for the function.
 
 ## See also
+
 - [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
