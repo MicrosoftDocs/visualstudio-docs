@@ -98,7 +98,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Instrumentation in Visual Studio (C#, Visual Basic, C++, F#)](../profiling/instrumentation-overview.md) - Update links in profiling tools
 - [Beginner's guide to optimizing code and reducing compute costs (C#, Visual Basic, C++, F#)](../profiling/optimize-code-using-profiling-tools.md) - Update links in profiling tools
 
-## Community contributors
+### Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
@@ -218,7 +218,7 @@ The following people contributed to the Visual Studio docs during this period. T
 
 - [Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md) - Add keyword delimiters and other minor fixes
 
-## Community contributors
+### Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
