@@ -1,6 +1,6 @@
 ---
-description: "Enumerates the various tables contained in the data source."
-title: "IDiaEnumTables"
+description: Enumerates the various tables contained in the data source.
+title: IDiaEnumTables
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,18 +12,18 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumTables
 
 Enumerates the various tables contained in the data source.
 
 ## Syntax
 
-```
-IDiaEnumTables : IUnknown
-```
+`IDiaEnumTables : IUnknown`
 
 ## Methods in Vtable Order
- The following table shows the methods of `IDiaEnumTables`.
+
+The following table shows the methods of `IDiaEnumTables`.
 
 |Method|Description|
 |------------|-----------------|
@@ -38,12 +38,14 @@ IDiaEnumTables : IUnknown
 ## Remarks
 
 ## Notes for Callers
+
 Obtain this interface by calling the [IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md) method.
 
 ## Example
+
 This example shows how to obtain the `IDiaEnumTables` interface from a session. For a more complete example of using tables, see the [IDiaTable](../../debugger/debug-interface-access/idiatable.md) interface.
 
-```C++
+```c++
 void ShowTableNames(IDiaSession *pSession)
 {
     CComPtr<IDiaEnumTables> pTables;
@@ -56,6 +58,7 @@ void ShowTableNames(IDiaSession *pSession)
 ```
 
 ## Requirements
+
 Header: Dia2.h
 
 Library: diaguids.lib
@@ -63,5 +66,6 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See also
+
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md)
