@@ -15,7 +15,7 @@ ms.subservice: test-tools
 The **Create Unit Tests** command creates unit test method stubs. This feature allows easy configuration of a test project, the test class, and the test method stub within it.
 
 > [!NOTE]
-> The **Create Unit Tests** menu command is only available for C# code. To use this method with .NET Core or .NET 5+, Visual Studio 2019 or later is required.
+> The **Create Unit Tests** menu command described in this article is only available for C# code. However, the Copilot `/tests` command can be used to generate unit tests for any language supported by Visual Studio. For example, you can type `/tests using Boost Framework` to generate Boost.Test tests for C++. For more information, see [Use slash commands in Copilot Chat](../ide/copilot-chat-context.md#slash-commands).
 
 The **Create Unit Tests** menu command is extensible and can be used to generate tests for MSTest, MSTest V2, NUnit, and xUnit.
 
@@ -31,9 +31,6 @@ To get started, select a method, a type, or a namespace in the code editor in th
 ::: moniker-end
 
 If you don't see test framework options for NUnit or xUnit, see [Use third-party unit test frameworks](#use-third-party-unit-test-frameworks).
-
-> [!TIP]
-> You can also use Copilot `/tests` slash command to generate unit tests from code. For example, you can type `/tests using NUnit Framework` to generate NUnit tests. For more information, see [Write tests](https://docs.github.com/en/copilot/github-copilot-chat/copilot-chat-in-ides/using-github-copilot-chat-in-your-ide#write-tests).
 
 ## Set unit test traits
 
