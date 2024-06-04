@@ -1,6 +1,6 @@
 ---
-description: "Enumerates the various symbols contained in the data source."
-title: "IDiaEnumSymbols"
+description: Enumerates the various symbols contained in the data source.
+title: IDiaEnumSymbols
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,17 +12,17 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumSymbols
 
 Enumerates the various symbols contained in the data source.
 
 ## Syntax
 
-```
-IDiaEnumSymbols : IUnknown
-```
+`IDiaEnumSymbols : IUnknown`
 
 ## Methods in Vtable Order
+
 The following table shows the methods of `IDiaEnumSymbols`.
 
 |Method|Description|
@@ -36,9 +36,11 @@ The following table shows the methods of `IDiaEnumSymbols`.
 |[IDiaEnumSymbols::Clone](../../debugger/debug-interface-access/idiaenumsymbols-clone.md)|Creates an enumerator that contains the same enumeration state as the current enumerator.|
 
 ## Remarks
+
 This interface provides symbols grouped by a specific type of symbol, for example, `SymTagUDT` (user-defined types) or `SymTagBaseClass`. To work with symbols grouped by address, use the [IDiaEnumSymbolsByAddr](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr.md) interface.
 
 ## Notes for Callers
+
 Obtain this interface by calling the following methods:
 
 - [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)
@@ -48,12 +50,13 @@ Obtain this interface by calling the following methods:
 - [IDiaSourceFile::get_compilands](../../debugger/debug-interface-access/idiasourcefile-get-compilands.md)
 
 ## Example
+
 This example shows how to obtain the `IDiaEnumSymbols` interface and then use that enumeration to list user-defined types (UDTs).
 
 > [!NOTE]
 > `CDiaBSTR` is a class that wraps a `BSTR` and automatically handles freeing the string when the instantiation goes out of scope.
 
-```C++
+```c++
 void ShowUDTs(IDiaSymbol *pGlobals)
 {
     CComPtr<IDiaEnumSymbols> pEnum;
@@ -80,6 +83,7 @@ void ShowUDTs(IDiaSymbol *pGlobals)
 ```
 
 ## Requirements
+
 Header: Dia2.h
 
 Library: diaguids.lib
@@ -87,6 +91,7 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See also
+
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)
 - [IDiaSourceFile::get_compilands](../../debugger/debug-interface-access/idiasourcefile-get-compilands.md)

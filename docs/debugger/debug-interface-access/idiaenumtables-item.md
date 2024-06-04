@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a table by means of an index or name."
+description: Retrieves a table by means of an index or name.
 title: "IDiaEnumTables::Item"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,20 +12,22 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumTables::Item
 
 Retrieves a table by means of an index or name.
 
 ## Syntax
 
-```C++
-HRESULT Item ( 
+```c++
+HRESULT Item ( 
    VARIANT     index,
    IDiaTable** table
 );
 ```
 
 #### Parameters
+
  `index`
 
 [in] Index or name of the [IDiaTable](../../debugger/debug-interface-access/idiatable.md) to be retrieved. If an integer variant is used, it must be in the range 0 to `count`-1, where `count` is as returned by the [IDiaEnumTables::get_Count](../../debugger/debug-interface-access/idiaenumtables-get-count.md) method.
@@ -35,14 +37,16 @@ HRESULT Item ( 
 [out] Returns an [IDiaTable](../../debugger/debug-interface-access/idiatable.md) object representing the desired table.
 
 ## Return Value
- If successful, returns `S_OK`; otherwise, returns an error code.
+
+If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## Remarks
- If a string variant is specified, then the string names a particular table. The name should be one of the table names as defined in [Constants (Debug Interface Access SDK)](../../debugger/debug-interface-access/constants-debug-interface-access-sdk.md).
+
+If a string variant is specified, then the string names a particular table. The name should be one of the table names as defined in [Constants (Debug Interface Access SDK)](../../debugger/debug-interface-access/constants-debug-interface-access-sdk.md).
 
 ## Example
 
-```C++
+```c++
 VARIANT var;
 var.vt = VT_BSTR;
 var.bstrVal = SysAllocString(DiaTable_Symbols );
@@ -51,6 +55,7 @@ pEnumTables->Item( var, &pTable );
 ```
 
 ## See also
+
 - [IDiaEnumTables](../../debugger/debug-interface-access/idiaenumtables.md)
 - [IDiaTable](../../debugger/debug-interface-access/idiatable.md)
 - [IDiaEnumTables::get_Count](../../debugger/debug-interface-access/idiaenumtables-get-count.md)
