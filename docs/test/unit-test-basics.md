@@ -287,7 +287,7 @@ Learn more details about [debugging unit tests](../debugger/debugger-feature-tou
 
 **Q: If I'm using TDD, how do I generate code from my tests?**
 
-**A:** Use Quick Actions to generate classes and methods in your project code. Write a statement in a test method that calls the class or method that you want to generate, then open the lightbulb that appears under the error. If the call is to a constructor of the new class, choose **Generate type** from the menu and follow the wizard to insert the class in your code project. If the call is to a method, choose **Generate method** from the IntelliSense menu.
+**A:** Use Quick Actions to generate classes and methods in your project code. Write a statement in a test method that calls the class or method that you want to generate, then open the light bulb that appears under the error. If the call is to a constructor of the new class, choose **Generate type** from the menu and follow the wizard to insert the class in your code project. If the call is to a method, choose **Generate method** from the IntelliSense menu.
 
 ::: moniker range="vs-2019"
 ![Generate Method Stub Quick Action Menu](../test/media/vs-2019/basics-generate-method-tdd.png)
