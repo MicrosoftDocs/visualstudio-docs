@@ -240,10 +240,10 @@ This section shows you how to add a start button. You also specify the tabbing o
 
 1. In the **Properties** box, set the **TabIndex** property of each NumericUpDown control:
 
-   - Set the **TabIndex** of the **sum** NumericUpDown control to **1**.
-   - Set the **TabIndex** of the **difference** NumericUpDown control to **2**.
-   - Set the **TabIndex** of the **product** NumericUpDown control to **3**.
-   - Set the **TabIndex** of the **quotient** NumericUpDown control to **4**.
+   - Set the **TabIndex** of the **sum** NumericUpDown control to *1*.
+   - Set the **TabIndex** of the **difference** NumericUpDown control to *2*.
+   - Set the **TabIndex** of the **product** NumericUpDown control to *3*.
+   - Set the **TabIndex** of the **quotient** NumericUpDown control to *4*.
 
 ## Run your app
 
