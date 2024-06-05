@@ -34,7 +34,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [Walkthrough: Writing a Visualizer in C\#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md) - Point users reading old Visualizer docs to new VisualStudio.Extensibility ones
-- [DirectX Support in Visual Studio](../debugger/graphics/visual-studio-graphics-diagnostics-directx-12.md) - Update
+- [DirectX Support in Visual Studio](../debugger/graphics/visual-studio-graphics-diagnostics-directx-12.md) - Update with DirectX 11 compatibility information
 - [Debug multithreaded applications in Visual Studio](../debugger/debug-multithreaded-applications-in-visual-studio.md) - Refactor several multithreaded debugging articles
 - [Tips for debugging threads](../debugger/tips-for-debugging-threads.md) - Refactor several multithreaded debugging articles
 - [View register values in the Registers window (C#, C++, Visual Basic, F#)](../debugger/how-to-use-the-registers-window.md) - Refactor articles on the Registry window
