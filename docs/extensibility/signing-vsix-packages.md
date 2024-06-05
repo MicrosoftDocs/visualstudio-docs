@@ -37,15 +37,15 @@ The complete list of certification authorities trusted by Windows can also be ob
 
 You can use self-issued certificates for testing purposes. However, VSIX packages signed using self-issued certificates are not accepted by NuGet.org. Learn more about [generating self-signed certificates with the .NET CLI](/dotnet/core/additional-tools/self-signed-certificates-guide)
 
-## Signing a VSIX with Dotnet Sign
-VSIXSignTool.exe has been deprecated in favor of [Dotnet/Sign (github.com)](https://github.com/dotnet/sign). This tool is published to NuGet as a dotnet tool under [Sign (nuget.org)](https://www.nuget.org/packages/sign). This tool supports local and Azure Key Vault cloud signing.
+## Signing a VSIX with Sign CLI
+VSIXSignTool has been deprecated in favor of [Sign CLI (github.com)](https://github.com/dotnet/sign). This tool is published to NuGet as a dotnet tool under [Sign (nuget.org)](https://www.nuget.org/packages/sign). This tool supports local and Azure Key Vault cloud signing.
 
-For local signing, Sign supports certificates and private keys stored in any combination of these locations:
+For local signing, Sign CLI supports certificates and private keys stored in any combination of these locations:
 - `PFX`, `P7B`, or `CER` files
 - Imported into Windows Certificate Manager
 - Stored in a USB device with access via a [Cryptographic Service Provider](/windows/win32/seccrypto/cryptographic-service-providers) (CSP)
 
-#### Installing Dotnet Sign
+### Installing Sign CLI
 1. Open a [Developer PowerShell](/visualstudio/ide/reference/command-prompt-powershell) instance.
 
 1. Verify nuget.org is added and enabled as a NuGet source.
@@ -55,34 +55,51 @@ For local signing, Sign supports certificates and private keys stored in any com
 1. Install Sign by running `dotnet tool install sign --version <version> --global`, where `<version>` is the latest available version under [Sign (nuget.org)](https://www.nuget.org/packages/sign).
     - `--global` is optional and installs the tool in a default location that is automatically added to the PATH environment variable.
 
+### Offline Installation of Sign CLI
+For isolated environments you can download a Sign CLI NuGet package and install it using:
 
-#### Using Dotnet Sign
-Once installed, Sign can be accessed in a Developer PowerShell instance using `sign code <command> <options>`. For a breakdown of the options see [Dotnet Sign CLI Reference for VSIX Packages](../extensibility/dotnet-sign-CLI-reference-vsix.md).
-
-- Signing using a PFX file with certificate and private key:
-```shell
-sign code certificate-store -s f5ec6169345347a7cd2f83af662970d5d0bfc914  -cf "D:\Certs\f5ec6169345347a7cd2f83af662970d5d0bfc914.pfx" -d "VSIX Signature" -u "http://timestamp.acs.microsoft.com/" "C:\Users\Contoso\Downloads\FingerSnapper2022.vsix"
+```dotnetcli
+dotnet tool install --global --add-source <path-to-folder> <tool-name> --version <version>
 ```
+
+For example:
+
+```dotnetcli
+dotnet tool install --global --add-source D:\NuGetTools sign --version 99.0
+```
+
+### Using Sign CLI
+Once installed, Sign CLI can be accessed in a Developer PowerShell instance using `sign code <command> <options>`. For a breakdown of the options see [Sign CLI Reference for VSIX Packages](../extensibility/dotnet-sign-CLI-reference-vsix.md).
+
+> [!IMPORTANT]
+> Signing only supports SHA-256, SHA-384, and SHA-512 as valid fingerprint algorithms and defaults to `sha256` when unspecified. For local certificates you can use PowerShell to get these using: `Get-FileHash -Algorithm SHA256 <path to .cer file> | Format-Table -AutoSize`
+
+- Signing using a PFX file with a SHA-256 fingerprint:
+
+```dotnetcli
+sign code certificate-store -cfp 80BB567B...52CB95D4C -cf "D:\Certs\f5ec6169345347a7cd2f83af662970d5d0bfc914.pfx" -d "My VSIX Signature" -u "http://timestamp.acs.microsoft.com/" "C:\Users\Contoso\Downloads\FingerSnapper2022.vsix"
+```
+
 ##### Note: PFX files contain both certificate and private key used for signing and don't comply with C/A Browser Forum requirements for Extended Validation (EV) and non-EV signing. it's recommended to only use private keys stored in a Hardened Secure Module (HSM) device.
 
-- Signing using Microsoft Certificate Manager:
-```shell
-code certificate-store -s f5ec6169345347a7cd2f83af662970d5d0bfc914 -csp "Microsoft Software Key Storage Provider" -d "VSIX Signature" -u "http://timestamp.acs.microsoft.com/" "C:\Users\Contoso\Downloads\FingerSnapper2022.vsix"
+- Signing using Microsoft Certificate Manager and a SHA512 fingerprint:
+
+```dotnetcli
+code certificate-store -cfp A87A60A6F...894559B98 -cfpa sha512 -csp "Microsoft Software Key Storage Provider" -d "My VSIX Signature" -u "http://timestamp.acs.microsoft.com/" "C:\Users\Contoso\Downloads\FingerSnapper2022.vsix"
 ```
 
 - Signing using a private key in a USB drive:
-```shell
-code certificate-store -s f5ec6169345347a7cd2f83af662970d5d0bfc914 -csp "eToken Base Cryptographic Provider" -d "VSIX Signature" -u "http://timestamp.acs.microsoft.com/" "C:\Users\Contoso\Downloads\FingerSnapper2022.vsix"
+
+```dotnetcli
+code certificate-store -cfp B113E82D...F5CF294BE0B -csp "eToken Base Cryptographic Provider" -d "VSIX Signature" -u "http://timestamp.acs.microsoft.com/" "C:\Users\Contoso\Downloads\FingerSnapper2022.vsix"
 ```
 
 - Signing using a USB drive using a specific key container:
-```shell
-code certificate-store -s f5ec6169345347a7cd2f83af662970d5d0bfc914 -csp "eToken Base Cryptographic Provider" -k "NuGet Signing.629c9149345347cd2f83af6f5ec70d5d0a7bf616" -d "VSIX Signature" -u "http://timestamp.acs.microsoft.com/" "C:\Users\Contoso\Downloads\FingerSnapper2022.vsix"
+
+```dotnetcli
+code certificate-store -s 15BB56B0...1ACB959D0 -csp "eToken Base Cryptographic Provider" -k "NuGet Signing.629c9149345347cd2f83af6f5ec70d5d0a7bf616" -d "VSIX Signature" -u "http://timestamp.acs.microsoft.com/" "C:\Users\Contoso\Downloads\FingerSnapper2022.vsix"
 ```
-
-#### Signing using PFX files
-
 
 ## Related content
 - [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)
-- [Dotnet Sign CLI Reference for VSIX Packages](../extensibility/dotnet-sign-CLI-reference-vsix.md)
+- [Sign CLI Reference for VSIX Packages](../extensibility/dotnet-sign-CLI-reference-vsix.md)
