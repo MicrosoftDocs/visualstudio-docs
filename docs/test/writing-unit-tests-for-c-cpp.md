@@ -39,6 +39,9 @@ C++ unit test projects support [CodeLens](../ide/find-code-changes-and-other-his
 
 You can download the Google Test adapter and Boost.Test Adapter extensions on the Visual Studio Marketplace. Find them at [Test adapter for Boost.Test](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.TestAdapterforBoostTest) and [Test adapter for Google Test](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.TestAdapterforGoogleTest).
 
+> [!TIP]
+> You can also use Copilot `/tests` slash command to generate unit tests from code. For example, you can type `/tests using Boost framework` to generate Boost.Test tests. For more information, see [Use slash commands in Copilot Chat](../ide/copilot-chat-context.md#slash-commands).
+
 ## Basic test workflow
 
 The following sections show the basic steps to get you started with C++ unit testing. The basic configuration is similar for both the Microsoft and Google Test frameworks. Boost.Test requires that you manually create a test project.
