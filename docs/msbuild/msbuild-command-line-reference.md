@@ -26,9 +26,7 @@ The .NET CLI commands [dotnet build](/dotnet/core/tools/dotnet-build), [dotnet p
 
 ## Syntax
 
-```cmd
-MSBuild.exe [Switches] [ProjectFile]
-```
+`MSBuild.exe [Switches] [ProjectFile]`
 
 ## Arguments
 
