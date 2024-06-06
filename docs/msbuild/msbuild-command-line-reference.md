@@ -38,6 +38,8 @@ MSBuild.exe [Switches] [ProjectFile]
 
 The first column in the following table shows a long and short form of each switch. Both forms are equivalent.
 
+Square brackets `[]` indicate optional parts.
+
 |Switch|Description|
 |------------|-----------------|
 |-detailedSummary[:`True` or `False`]<br/><br/>-ds[:`True` or `False`]|If `True`, show detailed information at the end of the build log about the configurations that were built and how they were scheduled to nodes.|
