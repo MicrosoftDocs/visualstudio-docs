@@ -20,7 +20,7 @@ ms.subservice: msbuild
 
 When you use *MSBuild.exe* to build a project or solution file, you can include several switches to specify various aspects of the process.
 
-Every switch is available in two forms: -switch and /switch. The documentation only shows the -switch form. Switches aren't case-sensitive. If you run MSBuild from a shell other than the Windows command prompt, lists of arguments to a switch (separated by semicolons or commas) might need single or double quotes to ensure that lists are passed to MSBuild instead of interpreted by the shell.
+Every switch is available in two forms: `-switch` and `/switch`. The documentation only shows the `-switch` form. Switches aren't case-sensitive. If you run MSBuild from a shell other than the Windows command prompt, lists of arguments to a switch (separated by semicolons or commas) might need single or double quotes to ensure that lists are passed to MSBuild instead of interpreted by the shell.
 
 The .NET CLI commands [dotnet build](/dotnet/core/tools/dotnet-build), [dotnet publish](/dotnet/core/tools/dotnet-publish), and [dotnet msbuild](/dotnet/core/tools/dotnet-msbuild) pass these switches to MSBuild, so this reference is applicable when you use those commands; however `dotnet run` does not.
 
