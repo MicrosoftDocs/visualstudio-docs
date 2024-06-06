@@ -72,7 +72,7 @@ The first column in the following table shows a long and short form of each swit
 |-warnNotAsError[:`code`[`;code2`]<br/><br/>-noerr[`:code`[`;code2`]|List of warning codes that shouldn't be promoted to errors. Specifically, if the warnAsError switch is set to promote all warnings to errors, error codes specified with warnNotAsError aren't promoted. This has no effect if warnAsError isn't set to promote all warnings to errors. Use a semicolon or a comma to separate multiple warning codes. <br/><br/>Example: `-noerr:MSB4130`|
 |-warnAsMessage[:`code`[`;code2`]<br/><br/>-noWarn[:`code`[`;code2`]|List of warning codes to treats as low importance messages.  Use a semicolon or a comma to separate multiple warning codes.<br/><br/>Example: `-noWarn:MSB3026`|
 
-### Switches for loggers
+## Switches for loggers
 
 |Switch|Description|
 |------------|-----------------|
