@@ -12,7 +12,7 @@ ms.subservice: debug-diagnostics
 
 This article describes how to use Visual Studio command-line profiling tools to instrument a native component, such as a C++ .*exe* or .*dll* file, to collect detailed timing data.
 
-To collect detailed timing data from a native component by using the instrumentation method, use the [VSInstr.exe](../profiling/vsinstr.md) tool to generate an instrumented version of the component. Next, start the profiler in the same way as the other [command line scenarios](../profiling/profile-apps-from-command-line) using the *PerfInstrumentation.json* agent configuration. When the instrumented component is executed, timing data is automatically collected to a *.diagsession* file.
+To collect detailed timing data from a native component by using the instrumentation method, use the [VSInstr.exe](../profiling/vsinstr.md) tool to generate an instrumented version of the component. Next, start the profiler in the same way as the other [command line scenarios](../profiling/profile-apps-from-command-line.md) using the *PerfInstrumentation.json* agent configuration. When the instrumented component is executed, timing data is automatically collected to a *.diagsession* file.
 
 The path to the profiling tools is *Microsoft Visual Studio\version\Enterprise\Team Tools\DiagnosticsHub\Collector*.
 
