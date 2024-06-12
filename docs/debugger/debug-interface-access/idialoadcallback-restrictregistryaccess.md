@@ -1,5 +1,5 @@
 ---
-description: "Determines if registry queries can be used to locate symbol search paths."
+description: Determines if registry queries can be used to locate symbol search paths.
 title: "IDiaLoadCallback::RestrictRegistryAccess"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,21 +12,25 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaLoadCallback::RestrictRegistryAccess
 
 Determines if registry queries can be used to locate symbol search paths.
 
 ## Syntax
 
-```C++
+```c++
 HRESULT RestrictRegistryAccess();
 ```
 
 ## Return Value
- If successful, returns `S_OK`; otherwise, returns an error code.
+
+If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## Remarks
- Any return code other than `S_OK` prevents querying the registry for symbol search paths.
+
+Any return code other than `S_OK` prevents querying the registry for symbol search paths.
 
 ## See also
+
 - [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)

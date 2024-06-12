@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the section part of the memory address where a block begins."
+description: Retrieves the section part of the memory address where a block begins.
 title: "IDiaLineNumber::get_addressSection"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,34 +12,38 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaLineNumber::get_addressSection
 
 Retrieves the section part of the memory address where a block begins.
 
 ## Syntax
 
-```C++
-HRESULT get_addressSection ( 
+```c++
+HRESULT get_addressSection ( 
    DWORD* pRetVal
 );
 ```
 
 #### Parameters
- pRetVal
+
+pRetVal
 
 [out] Returns the section part of the memory address where a block begins.
 
 ## Return Value
- If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
+
+If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
 ## Example
 
-```C++
+```c++
 CComPtr< IDiaLineNumber > pLine;
 DWORD seg;
 pLine->get_addressSection( &seg );
 ```
 
 ## See also
+
 - [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)
 - [IDiaLineNumber::get_addressOffset](../../debugger/debug-interface-access/idialinenumber-get-addressoffset.md)
