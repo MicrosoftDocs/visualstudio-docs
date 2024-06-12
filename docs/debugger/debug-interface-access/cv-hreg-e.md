@@ -409,7 +409,7 @@ enum CV_HREG_e {
 | ---------------------- | --------------------------------------------------------------------------- |
 | CV_REG_*               | Registers used by Intel 80x86 and ix86 processors and p-code.               |
 | CV_R68_*               | Registers used by 68K processor.                                            |
-| CV_M4_*                | <!-- DocuTune:ignoredChange 'Microprocessor without Interlocked Pipelined Stages (MIPS)' --> Registers used by MIPS 4000 series processor.                               |
+| CV_M4_*                |  Registers used by MIPS 4000 series processor.                               |
 | CV_ALPHA_*             | Registers used by Digital Equipment Corporation Alpha AXP series processor. |
 | CV_PPC_*               | Registers used by Motorola/IBM PowerPC processor.                           |
 | CV_SH3_* and CV_SH_\\* | Registers used by Hitachi SH3 and Hitachi SH series processor.              |

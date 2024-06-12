@@ -239,7 +239,7 @@ Use the following steps for Visual Studio 2022 version 17.0 to 17.7:
 ## Debug
 
 :::moniker range=">=vs-2022"
-With Visual Studio 2022 version 17.9 or later and the **React and ASP.NET Core** template that uses `vite.js`, the projects are already configured to start both the client and server projects with debugging support, but you need to set up the right port for the securing privileged access (SPA) proxy to use to access the ASP.NET Core server running in the container. You can get the host port from the **Containers** window in Visual Studio and set it in the React project as described in [Create a React app - Docker](../javascript/tutorial-asp-net-core-with-react.md#docker).
+With Visual Studio 2022 version 17.9 or later and the **React and ASP.NET Core** template that uses `vite.js`, the projects are already configured to start both the client and server projects with debugging support, but you need to set up the right port for the SPA proxy to use to access the ASP.NET Core server running in the container. You can get the host port from the **Containers** window in Visual Studio and set it in the React project as described in [Create a React app - Docker](../javascript/tutorial-asp-net-core-with-react.md#docker).
 
 You can also disable the launch in the browser for the server, which is set up to open with Swagger, which is not required for this scenario. To disable the browser launch, open the **Properties** (**Alt**+**Enter**), go to the **Debug** tab, and click on the link **Open debug launch profiles UI**, and clear the **Launch browser** checkbox.
 
