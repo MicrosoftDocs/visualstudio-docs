@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the source code bytes."
+description: Retrieves the source code bytes.
 title: "IDiaInjectedSource::get_source"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,14 +12,15 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaInjectedSource::get_source
 
 Retrieves the source code bytes.
 
 ## Syntax
 
-```C++
-HRESULT get_source ( 
+```c++
+HRESULT get_source ( 
    DWORD  cbData,
    DWORD* pcbData,
    BYTE   data[]
@@ -27,6 +28,7 @@ HRESULT get_source ( 
 ```
 
 #### Parameters
+
  `cbData`
 
 [in] The number of bytes that represents the size of the data buffer.
@@ -40,7 +42,9 @@ HRESULT get_source ( 
 [out] A buffer that is to be filled in with the source bytes.
 
 ## Return Value
- If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
+
+If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
 ## See also
+
 - [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)
