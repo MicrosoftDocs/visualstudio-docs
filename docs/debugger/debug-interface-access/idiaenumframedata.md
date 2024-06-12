@@ -1,6 +1,6 @@
 ---
-description: "Enumerates the various frame data elements contained in the data source."
-title: "IDiaEnumFrameData"
+description: Enumerates the various frame data elements contained in the data source.
+title: IDiaEnumFrameData
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,17 +12,17 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumFrameData
 
 Enumerates the various frame data elements contained in the data source.
 
 ## Syntax
 
-```
-IDiaEnumFrameData : IUnknown
-```
+`IDiaEnumFrameData : IUnknown`
 
 ## Methods in Vtable Order
+
 The following table shows the methods of `IDiaEnumFrameData`.
 
 |Method|Description|
@@ -40,12 +40,14 @@ The following table shows the methods of `IDiaEnumFrameData`.
 ## Remarks
 
 ## Notes for Callers
+
 Obtain this interface from the [IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md) method. See the example for details.
 
 ## Example
+
 This example shows how to obtain (the `GetEnumFrameData` function) and use (the `ShowFrameData` function) the `IDiaEnumFrameData` interface. See the [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md) interface for an example of the `PrintFrameData` function.
 
-```C++
+```c++
 
       IDiaEnumFrameData* GetEnumFrameData(IDiaSession *pSession)
 {
@@ -95,6 +97,7 @@ void ShowFrameData(IDiaSession *pSession)
 ```
 
 ## Requirements
+
 **Header:** Dia2.h
 
 **Library:** diaguids.lib
@@ -102,6 +105,7 @@ void ShowFrameData(IDiaSession *pSession)
 **DLL:** msdia80.dll
 
 ## See also
+
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md)
 - [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
