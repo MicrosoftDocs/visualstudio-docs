@@ -102,14 +102,10 @@
       href: collecting-detailed-timing-data-for-a-stand-alone-application.md
     - name: Instrument a native component and collect timing data
       href: instrument-native-component-and-collect-timing-data.md
-    - name: Instrument a .NET Framework component and collect timing data
-      href: instrument-dotnet-framework-component-and-collect-timing-data.md
     - name: Reference
       items:
       - name: VSInstr
         href: vsinstr.md
-      - name: VSPerfCmd
-        href: vsperfcmd.md
   - name: File IO
     href: use-file-io.md
   - name: PerfTips

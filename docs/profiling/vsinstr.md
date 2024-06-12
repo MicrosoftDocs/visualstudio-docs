@@ -51,4 +51,4 @@ VSInstr [/U] filename [/options]
 
 ## See also
 
-- [VSPerfCmd](../profiling/vsperfcmd.md)
+- [Measure performance from the command line](profile-apps-from-command-line.md)
