@@ -20,7 +20,7 @@ You can collect performance information about an application by using command-li
 In the example described in this article, you collect performance information for Microsoft Notepad, but the same method can be used to profile any process.
 
 > [!NOTE]
-> For C/C++ instrumentation from the command line, see [Instrument a native stand-alone component](../profiling/instrument-native-component-and-collect-timing-data.md). For CPU usage data, you can use the procedures described in this article.
+> To generate an instrumented C/C++ component from the command line, see [Instrument a native stand-alone component](../profiling/instrument-native-component-and-collect-timing-data.md) before following steps in this article. For CPU usage data, you can use the procedures described in this article.
 
 ## Prerequisites
 
