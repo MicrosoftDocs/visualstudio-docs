@@ -22,7 +22,7 @@ The default behavior that determines what files MSBuild includes in the build di
 
 For .NET SDK projects, the standard .NET SDK defines a default`Compile` item list that contains files in the project folder tree that match the appropriate language-specific file extension. For example, for a C# project, the `Compile` item is populated with the glob pattern `**/*.cs`, which matches all source files in the project folder and all its subfolders recursively. You don't see the `Compile` element in the project file, because it is defined in the SDK `.props` file that's imported implicitly. See [.NET project SDK overview - default includes and excludes](/dotnet/core/project-sdk/overview#default-includes-and-excludes).
 
-If you're using Visual Studio, you can modify the set of source files to build by changing the **Build Action** on a file. Set it to `None` to exclude a file from the build. Doing this in Visual Studio effects the project file. You'll see that lines were added to remove the source file from the `Compile` item list and add it to the `None` item list.
+If you're using Visual Studio, you can modify the set of source files to build by changing the **Build Action** on a file. Set it to `None` to exclude a file from the build. Doing this in Visual Studio affects the project file. You'll see that lines were added to remove the source file from the `Compile` item list and add it to the `None` item list.
 
 ```xml
   <ItemGroup>
@@ -129,11 +129,10 @@ To remove an item that was previously included, or was included by default by an
 </ItemGroup>
 ```
 
-In comparing `Exclude` and `Remove`, prefer `Exclude` whenever possible for performance reasons. When you use `Exclude`, MSBuild never spends cycles building a list of the excluded files, but with `Remove`, cycles are spent adding the items, and then removing what was previously added. In the case where the original item list is generated in an imported file, explicitly or implicitly as in the case of the default `Compile` element, then you must use `Remove`.
 
 ## Pass items to a task or target
 
-If you're using an SDK, you don't need to explicitly pass the `Compile` item to a target or task, since this is handled by the standard imports. But in the case of a target the project file, you can use the `@()` notation in tasks to specify an entire item list as the input for a build. You can use this notation whether you list all files separately or use wildcards.
+In most project files, you don't need to explicitly pass the `Compile` item to a target or task, since this is handled by the standard imports. But in the case of a target the project file, you can use the `@()` notation in tasks to specify an entire item list as the input for a build. You can use this notation whether you list all files separately or use wildcards.
 
 #### To use all C# or Visual Basic files as inputs to a compiler task
 
