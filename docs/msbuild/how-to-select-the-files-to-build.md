@@ -46,7 +46,7 @@ Items represent the inputs (such as source files) for a build. For more informat
 
 To include files for a build, they must be included in an item list. As discussed previously, in .NET SDK and .NET Framework projects, the item list for the source files is `Compile`. You don't see the `Compile` item list in .NET SDK projects, because it's defined in the implicit imports. See [Use project SDKs](./how-to-use-project-sdk.md).
 
-Project files that don't rely on the standard imports can use an arbitrary item list name, such as `VBFile` or `CSFile`. See the [Example 1](#example-1) and [Example 2](-example-2) later in this article. To set up a build based on the item list, you pass this by name to a build task, as discussed [later in this article](#pass-items-to-a-task-or-target).
+Project files that don't rely on the standard imports can use an arbitrary item list name, such as `VBFile` or `CSFile`. See the [Example 1](#example-1) and [Example 2](#example-2) later in this article. To set up a build based on the item list, you pass this by name to a build task, as discussed [later in this article](#pass-items-to-a-task-or-target).
 
 Multiple files can be added to item lists by either including the files individually or using wildcards to include many files at once.
 
