@@ -37,7 +37,7 @@ The following table lists the different tools Visual Studio offers and provides 
 |[PerfTips](../profiling/perftips.md)|Shows a quick measurement of performance information while interacting with your code.|While debugging, you want to see the elapsed time between the previous step operation (or breakpoint) to the current step or breakpoint.|
 |[Events viewer](../profiling/events-viewer.md)|Shows HTTP requests, log messages, and exceptions.|&#x2022; Investigate latency in API calls</br>&#x2022; Investigate slow application running on a remote web server|
 |[.NET Async](../profiling/analyze-async.md)|Shows async/await usage in .NET apps.|Investigate suspected performance issue with asynchronous code.|
-|[.NET Counters](../profiling/dotnet-counters-tool.md)|Visualization for .NET counters.|You want a visualization for .NET counter-based metrics such as exceptions per second, garbage collection, and CPU utilization.|
+|[.NET Counters](../profiling/dotnet-counters-tool.md)|Live report for .NET counters.|&#x2022; Begin an investigation for general performance issues.</br>&#x2022; You want a trace for .NET counter-based metrics such as exceptions per second, garbage collection, and CPU utilization.|
 |[Database](../profiling/analyze-database.md)|Shows performance of your database queries.|Investigate performance for database queries that use either ADO.NET or Entity Framework Core.|
 |[GPU Usage](./gpu-usage.md)|Shows high-level hardware usage of your Direct3D app.|Check whether the performance of your app is CPU-bound or GPU-bound.|
 |[Application Timeline](../profiling/application-timeline.md)|Shows UI performance for XAML apps.|Investigate UI performance in XAML apps, such as time spent rendering frames.|
