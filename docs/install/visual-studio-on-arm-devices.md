@@ -53,15 +53,14 @@ The Arm64 GA supports the following workloads:
 - .NET MAUI
 - Game development with Unity
 - Linux and embedded with C++
-- Windows application development
 
 ### Managed developers
 
 With this release, you can now build desktop applications (Windows Forms and WPF) using both .NET 6+ and .NET Framework 4.8.1. 
 .NET Framework 4.8.1 is included in the next major update for Windows 11 and will be available for previous operating systems in the future. 
 
-Initial support for managed workloads includes Windows Forms, WPF, and Web apps.
-Support for Windows App SDK, .NET MAUI, and Universal Windows Platform (UWP) is also now available.
+Initial support for managed workloads includes Windows Forms, WPF, and Web apps. Support for additional workloads was added in subsequent updates, see [supported workloads](#supported-workloads).
+Support for components WinUI - Windows App SDK and SQL Server Data Tools is available with [Visual Studio version 17.10](/visualstudio/releases/2022/release-notes).
 
 ### Native developers
 
