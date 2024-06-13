@@ -23,16 +23,21 @@ Rather than providing step-by-step instructions, the intent here is to show you 
 
 ## Start an investigation
 
-- Start your investigation by watching .NET counters while collecting performance data. The .NET Counters tool is often helpful to begin performance investigations and to optimize code to reduce cost.
-- Next, if you would like additional insights to help isolate issues or improve the performance, considering collecting a trace using one of the other profiling tools. For example:
+- Start your investigation by watching .NET counters while collecting performance data. The .NET Counters tool is often helpful to begin performance investigations.
+- Next, if you would like additional insights to help isolate issues, considering collecting a trace using one of the other profiling tools. For example:
   - If CPU Usage is high, try the CPU Usage tool.
   - If CPU Usage is low, try the Instrumentation tool. Since Instrumentation provides wall clock time and exact call counts, it can be helpful to identify performance issues when CPU Usage is low.
 
+## Check performance counters
+
+:::image type="content" source="./media/instrumentation-threadpool-starvation-counters.png" alt-text="Screenshot of Database queries in the Database tool.":::
+
+## Investigate call counts and timing data
 
 
-:::image type="content" source="./media/optimize-code-database.png" alt-text="Screenshot of Database queries in the Database tool.":::
+:::image type="content" source="./media/instrumentation-threadpool-starvation-flame-graph.png" alt-text="Screenshot of Database queries in the Database tool.":::
 
-
+:::image type="content" source="./media/instrumentation-threadpool-starvation-call-tree.png" alt-text="Screenshot of Database queries in the Database tool.":::
 
 ## Next steps
 
