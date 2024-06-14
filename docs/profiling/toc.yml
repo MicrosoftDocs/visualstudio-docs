@@ -94,6 +94,28 @@
       href: instrumentation-overview.md
     - name: Analyze instrumentation data
       href: instrumentation.md
+  - name: .NET Counters
+    items:
+    - name: View .NET Counters
+      href: dotnet-counters-tool.md
+    - name: Start a performance investigation
+      href: start-performance-investigation.md
+  - name: File IO
+    href: use-file-io.md
+  - name: PerfTips
+    href: perftips.md
+  - name: .NET Async
+    href: analyze-async.md
+  - name: Database
+    href: analyze-database.md
+  - name: Events Viewer
+    href: events-viewer.md
+  - name: Analyze Resource Consumption
+    href: application-timeline.md
+  - name: BenchmarkDotNet
+    href: profiling-with-benchmark-dotnet.md
+  - name: Analyze GPU usage
+    href: gpu-usage.md
   - name: Measure performance from the command-line
     items:
     - name: Measure performance from the command-line
@@ -104,24 +126,6 @@
       items:
       - name: VSInstr
         href: vsinstr.md
-  - name: File IO
-    href: use-file-io.md
-  - name: PerfTips
-    href: perftips.md
-  - name: .NET Async
-    href: analyze-async.md
-  - name: .NET Counters
-    href: dotnet-counters-tool.md
-  - name: Database
-    href: analyze-database.md
-  - name: Events Viewer
-    href: events-viewer.md
-  - name: Analyze GPU usage
-    href: gpu-usage.md
-  - name: Analyze Resource Consumption
-    href: application-timeline.md
-  - name: BenchmarkDotNet
-    href: profiling-with-benchmark-dotnet.md
   - name: Concurrency Visualizer
     items:
     - name: Overview of Concurrency Visualizer

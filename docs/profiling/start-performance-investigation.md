@@ -58,7 +58,7 @@ In some cases of thread pool starvation, the `ThreadPool Queue Length` may show 
 
 :::image type="content" source="./media/vs-2022/instrumentation-threadpool-starvation-counters-queue-length.png" alt-text="Screenshot of thread pool queue length and completed work in the .NET Counters tool.":::
 
-Based on the low CPU usage and the relatively high thread count, and working on the theory of a possible case of thread pool starvation, we switch to using the Instrumentation tool.
+Based on the low CPU usage and the relatively high thread count, and working on the theory of a possible case of thread pool starvation, switch to using the Instrumentation tool.
 
 ## Investigate call counts and timing data
 
@@ -74,15 +74,27 @@ Right-click the `QueryCustomerDB` funcion and choose **View in Call Tree**.
 
 :::image type="content" source="./media/vs-2022/instrumentation-threadpool-starvation-call-tree.png" alt-text="Screenshot of Call Tree in the Instrumentation tool.":::
 
+In the Call Tree view, we see the Hot Path (flame icon) includes the `QueryCustomerDB` function, which points to a potential performance issue.
 
+Double-click the `QueryCustomerDB` function to show the source code for the function. With a little investigation, we can see that it's calling an async API without using await. This is the [sync-over-async](https://devblogs.microsoft.com/pfxteam/should-i-expose-synchronous-wrappers-for-asynchronous-methods/) code pattern, which is a common cause of threadpool starvation, and may block threads.
 
 ```csharp
-        public ActionResult<string> QueryCustomerDB()
-        {
+public ActionResult<string> QueryCustomerDB()
+{
 
-            Task dbTask = QueryCustomerFromDbAsync("Dana");
-            return "success:tasksleepwait";
-        }
+    Task dbTask = QueryCustomerFromDbAsync("Dana");
+    return "success:tasksleepwait";
+}
+```
+
+To resolve, use await.
+
+```csharp
+public async Task<ActionResult<string>> TaskAsyncWait()
+{
+    Customer c = await PretendQueryCustomerFromDbAsync("Dana");
+    return "success:taskasyncwait";
+}
 ```
 
 ## Next steps
