@@ -16,7 +16,7 @@ monikerRange: '>= vs-2022'
 ---
 # Beginner's guide to optimizing code and reducing compute costs (C#, Visual Basic, C++, F#)
 
-Reducing your compute time means reducing costs, so optimizing your code can save money. In this article, we show how you can use various profiling tools to help you accomplish this task.
+Reducing your compute time means reducing costs, so optimizing your code can save money. In this article, you'll learn how you can use various profiling tools to help you accomplish this task.
 
 Rather than providing step-by-step instructions, the intent here is to show you how to use the profiling tools effectively and how to interpret the data. The CPU Usage tool can help you capture and visualize where compute resources are used in your application. The CPU Usage views such as the call tree and flame graph provide a nice graphical visualization of where time is spent in your app. In addition, auto insights may show precise optimizations that can have a large impact. Other profiling tools can also help you isolate issues. To compare tools, see [Which tool should I choose?](../profiling/choose-performance-tool.md)
 
@@ -28,7 +28,7 @@ Rather than providing step-by-step instructions, the intent here is to show you 
   - If your app is using File I/O, use the File I/O tool.
   - If you're using ADO.NET or Entity Framework, you can try the Database tool to examine SQL queries, precise query time, et al.
 
-## Data collection example
+## Data collection
 
 The example screenshots shown in this article are based on a .NET app that runs queries against a database of blogs and associated blog posts. You will first examine a CPU usage trace to look for opportunities to optimize code and reduce compute cost. After getting a general idea of what's going on, you will also look at traces from other profiling tools to help isolate issues.
 
@@ -52,15 +52,15 @@ In this view, you see the hot path again, which shows high CPU usage for the `Ge
 
 :::image type="content" source="./media/optimize-code-cpu-usage-call-tree-self-cpu.png" alt-text="Screenshot of Call Tree view in the CPU Usage tool with Self CPU highlighted." lightbox="./media/optimize-code-cpu-usage-call-tree-self-cpu.png":::
 
-To get a visualized call tree and a different view of the data, switch to the **Flame Graph** view (select from the same list as the **Call Tree**). Here again, it looks like the `GetBlogTitleX` method is responsible for a lot of the app's CPU usage (shown in yellow). External calls to the LINQ DLLs show up beneath the `GetBlogTitleX` box, and they are using all of the CPU time for the method.
+To get a visualized call tree and a different view of the data, right-click `GetBlogTitleX` and choose **View in Flame Graph**. Here again, it looks like the `GetBlogTitleX` method is responsible for a lot of the app's CPU usage (shown in yellow). External calls to the LINQ DLLs show up beneath the `GetBlogTitleX` box, and they are using all of the CPU time for the method.
 
 :::image type="content" source="./media/optimize-code-cpu-usage-flame-graph.png" alt-text="Screenshot of Flame Graph view in the CPU Usage tool.":::
 
 ## Gather additional data
 
-Often, other tools can provide additional information to help the analysis and isolate the problem. For this example, we take the following approach:
+Often, other tools can provide additional information to help the analysis and isolate the problem. For this example, take the following approach:
 
-- First, we'll take a look at memory usage. There might be a correlation between high CPU usage and high memory usage, so it can be helpful to look at both to isolate the issue.
+- First, take a look at memory usage. There might be a correlation between high CPU usage and high memory usage, so it can be helpful to look at both to isolate the issue.
 - Because we identified the LINQ DLLs, we'll also look at the Database tool.
 
 ### Check the memory usage
@@ -73,7 +73,7 @@ Most of the objects created are strings, object arrays, and Int32's. You may be 
 
 ### Check the query in the Database tool
 
-You can multi-select the Database tool along with CPU Usage. When you've collected a trace, select the **Queries** tab in the diagnostics page. In the Queries tab for the Database trace, you can see the first row shows the longest query, 2446 ms. The **Records** column shows how many records the query reads. We can use this information for later comparison.
+You can multi-select the Database tool along with CPU Usage. When you've collected a trace, select the **Queries** tab in the diagnostics page. In the Queries tab for the Database trace, you can see the first row shows the longest query, 2446 ms. The **Records** column shows how many records the query reads. You can use this information for later comparison.
 
 :::image type="content" source="./media/optimize-code-database.png" alt-text="Screenshot of Database queries in the Database tool.":::
 
@@ -88,7 +88,7 @@ Notice that you are retrieving a lot of column values here, perhaps more than yo
 
 ## Optimize code
 
-It's time to take a look at the `GetBlogTitleX` source code. In the Database tool, right-click the query and choose **Go to Source File**. In the source code for `GetBlogTitleX`, we find the following code that uses LINQ to read the database.
+It's time to take a look at the `GetBlogTitleX` source code. In the Database tool, right-click the query and choose **Go to Source File**. In the source code for `GetBlogTitleX`, you find the following code that uses LINQ to read the database.
 
 ```csharp
 foreach (var blog in db.Blogs.Select(b => new { b.Url, b.Posts }).ToList())
@@ -147,7 +147,7 @@ Multiple optimizations may be necessary and you can continue to iterate with cod
 
 The following articles and blog posts provide more information to help you learn to use the Visual Studio performance tools effectively.
 
-- [Start a performance investigation](../profiling/start-performance-investigation.md)
+- [Isolate a performance issue](../profiling/isolate-performance-issue.md)
 - [Improving Visual Studio performance with the new Instrumentation Tool](https://devblogs.microsoft.com/visualstudio/improving-visual-studio-performance-with-the-new-instrumentation-tool/)
 - [Case Study: Double performance in under 30 minutes](https://devblogs.microsoft.com/visualstudio/case-study-double-performance-in-under-30-minutes/)
 

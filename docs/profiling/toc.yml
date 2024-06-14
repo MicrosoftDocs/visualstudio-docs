@@ -18,6 +18,8 @@
     href: memory-usage.md
   - name: Beginner's guide to optimizing code
     href: optimize-code-using-profiling-tools.md
+  - name: Isolate a performance issue
+    href: isolate-performance-issue.md
 - name: Concepts
   items:
   - name: Understanding performance collection methods
@@ -95,11 +97,7 @@
     - name: Analyze instrumentation data
       href: instrumentation.md
   - name: .NET Counters
-    items:
-    - name: View .NET Counters
-      href: dotnet-counters-tool.md
-    - name: Start a performance investigation
-      href: start-performance-investigation.md
+    href: dotnet-counters-tool.md
   - name: File IO
     href: use-file-io.md
   - name: PerfTips

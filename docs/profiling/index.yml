@@ -29,6 +29,8 @@ landingContent:
             url: memory-usage.md
           - text: Beginner's guide to optimizing code
             url: optimize-code-using-profiling-tools.md
+          - text: Isolate a performance issue
+            url: isolate-performance-issue.md
 
   # Card (optional)
   - title: Fundamentals
