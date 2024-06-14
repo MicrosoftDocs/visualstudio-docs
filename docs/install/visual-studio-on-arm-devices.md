@@ -1,7 +1,7 @@
 ---
 title: Visual Studio on ARM processor powered devices
 description: Review recommendations for using Visual Studio on devices with Arm-based processors, including supported workloads, and remote targeting.
-ms.date: 6/13/2024
+ms.date: 6/14/2024
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -46,21 +46,20 @@ The Arm64 GA supports the following workloads:
 - .NET desktop development
 - Desktop development with C++
 - ASP.NET and web development
-- Universal Windows Platform development
+- Node.js development
 - Visual Studio extension development
 - Game development with C++
-- Node.js development
-- .NET MAUI
 - Game development with Unity
-- Linux and embedded with C++
+- Windows application development
+- .NET Multi-platform App UI development (.NET MAUI)
+- Linux and embedded development with C++
 
 ### Managed developers
 
 With this release, you can now build desktop applications (Windows Forms and WPF) using both .NET 6+ and .NET Framework 4.8.1. 
 .NET Framework 4.8.1 is included in the next major update for Windows 11 and will be available for previous operating systems in the future. 
 
-Initial support for managed workloads includes Windows Forms, WPF, and Web apps. Support for additional workloads was added in subsequent updates, see [supported workloads](#supported-workloads).
-Support for components WinUI - Windows App SDK and SQL Server Data Tools is available with [Visual Studio version 17.10](/visualstudio/releases/2022/release-notes).
+Support for SQL Server Data Tools is available with [Visual Studio version 17.10 and later](/visualstudio/releases/2022/release-notes).
 
 ### Native developers
 
