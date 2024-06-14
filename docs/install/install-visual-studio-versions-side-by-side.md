@@ -49,7 +49,7 @@ Before you install versions side-by-side, review the following conditions:
 
 Each installation of Visual Studio must have a unique combination of major version, edition, and [update channel](/visualstudio/install/update-visual-studio?view=vs-2019&preserve-view=true#configure-source-location-of-updates). For example, you can install Visual Studio 2019 Enterprise Preview ([preview channel](/visualstudio/productinfo/release-rhythm)) alongside Visual Studio 2019 Enterprise (release channel) alongside Visual Studio 2017 Professional (release channel) alongside Visual Studio 2017 Professional (custom layout channel).
 
-When you upgrade from one minor version of Visual Studio to the next, by default, the Visual Studio installer updates your current installation to the latest version in that channel. For example, if Microsoft releases version 16.11.24 to the [Visual Studio 2019 release channel](/visualstudio/productinfo/release-rhythm), the installer tries to replace your current installation of Visual Studio 2019 from the release channel with this latest version on the same channel.
+When you upgrade from one minor version of Visual Studio to the next, by default, the Visual Studio Installer updates your current installation to the latest version in that channel. For example, if Microsoft releases version 16.11.24 to the [Visual Studio 2019 release channel](/visualstudio/productinfo/release-rhythm), the installer tries to replace your current installation of Visual Studio 2019 from the release channel with this latest version on the same channel.
 
 ### Manual installation
 
@@ -122,5 +122,4 @@ For language-specific information, see the appropriate article in the following 
 ## Related content
 
 - [Install Visual Studio](install-visual-studio.md)
-- [Port, migrate, and upgrade Visual Studio projects](/visualstudio/releases/2022/port-migrate-and-upgrade-visual-studio-projects)
 - [Building C/C++ isolated applications and side-by-side assemblies](/cpp/build/building-c-cpp-isolated-applications-and-side-by-side-assemblies/)

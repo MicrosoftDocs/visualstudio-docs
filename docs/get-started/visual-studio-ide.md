@@ -27,7 +27,7 @@ With the variety of features and languages support in Visual Studio, you can gro
 To install Visual Studio, select the following button, and [choose the edition of Visual Studio](#choose-your-visual-studio-edition) to download.
 
  > [!div class="button"]
- > [Download Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/)
+ > [Download Visual Studio](/visualstudio/releases/2019/release-notes/)
 
 ::: moniker-end
 
@@ -99,7 +99,7 @@ Learn more about the testing tools available in Visual Studio:
 
 ### Version control
 
-With the integrated Git features in Visual Studio, you can clone, create, or open your own repositories. The Git tool window has everything you need for to commit and push changes to code, manage branches, and resolve merge conflicts. If you have a GitHub account, you can manage those repos directly within Visual Studio.
+With the integrated Git features in Visual Studio, you can clone, create, or open your own repositories. The Git tool window has everything you need to commit and push changes, manage branches, and resolve merge conflicts. If you have a GitHub account, you can manage those repos directly within Visual Studio.
 
 Learn more about version control in Visual Studio:
 
@@ -151,7 +151,7 @@ Select the following button to install Visual Studio, and choose the edition of 
 ::: moniker range="vs-2019"
 
  > [!div class="button"]
- > [Download Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/)
+ > [Download Visual Studio](/visualstudio/releases/2019/release-notes/)
 
 ::: moniker-end
 
