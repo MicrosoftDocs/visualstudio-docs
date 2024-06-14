@@ -24,9 +24,9 @@ Rather than providing step-by-step instructions, the intent here is to show you 
 ## Start an investigation
 
 - Start your investigation by watching .NET counter metrics while collecting performance data.
-- Next, for additional insights to help isolate issues, considering collecting a trace using one of the other profiling tools. For example:
+- Next, for additional insights to help isolate issues, consider collecting a trace using one of the other profiling tools. For example:
   - If CPU Usage is high, try the CPU Usage tool.
-  - If CPU Usage is low, try the Instrumentation tool. Since Instrumentation provides wall clock time and exact call counts, it can be helpful to identify performance issues when CPU Usage is low.
+  - If CPU Usage is low, try the Instrumentation tool. Since Instrumentation provides exact call counts and wall clock time, it can be helpful to identify performance issues when CPU Usage is low.
 
 ## Data collection example
 
@@ -48,15 +48,15 @@ While running the app, view the counters in the .NET Counters tool. For initial 
 - GC Heap Size. Watch this counter to see if memory usage is growing continually and potentially leaking. If this seems high, you can use one of the memory usage tools.
 - Threadpool Thread Count. For multi-threaded apps, watch this counter to see if the thread count is rising.
 
-Here's an example showing how the CPU usage is low, while the thread count is high.
+Here's an example showing how the `CPU Usage` is low, while the `ThreadPool Thread Count` is relatively high.
 
-:::image type="content" source="./media/instrumentation-threadpool-starvation-counters.png" alt-text="Screenshot of counters showing in the .NET Counters tool.":::
+:::image type="content" source="./media/vs-2022/instrumentation-threadpool-starvation-counters.png" alt-text="Screenshot of counters showing in the .NET Counters tool.":::
 
 A rising thread count with a low CPU usage can be an indicator of thread pool starvation. Thread pool starvation occurs when the pool has no available threads to process new work items and it often causes applications to respond slowly. 
 
-In some cases of thread pool starvation, the ThreadPool Queue Length may show high values and the ThreadPool Completed Work Item Count may show low values, indicating that a lot of work is not getting completed quickly.
+In some cases of thread pool starvation, the `ThreadPool Queue Length` may show high values and the `ThreadPool Completed Work Item Count` may show low values, indicating that a lot of work is not getting completed quickly.
 
-:::image type="content" source="./media/instrumentation-threadpool-starvation-counters-queue-length.png" alt-text="Screenshot of thread pool queue length and completed work in the .NET Counters tool.":::
+:::image type="content" source="./media/vs-2022/instrumentation-threadpool-starvation-counters-queue-length.png" alt-text="Screenshot of thread pool queue length and completed work in the .NET Counters tool.":::
 
 Based on the low CPU usage and the relatively high thread count, and working on the theory of a possible case of thread pool starvation, we switch to using the Instrumentation tool.
 
@@ -66,13 +66,13 @@ Let's take a look at a trace from the Instrumentation tool to see if we can try 
 
 In the collected trace, use the **Open details** link in the report and then select **Flame Graph**.
 
-:::image type="content" source="./media/instrumentation-threadpool-starvation-flame-graph.png" alt-text="Screenshot of Flame Graph in the Instrumentation tool.":::
+:::image type="content" source="./media/vs-2022/instrumentation-threadpool-starvation-flame-graph.png" alt-text="Screenshot of Flame Graph in the Instrumentation tool.":::
 
 The Flame Graph visualization shows us that the `QueryCustomerDB` function is responsible for a significant portion of the app's running time.
 
 Right-click the `QueryCustomerDB` funcion and choose **View in Call Tree**.
 
-:::image type="content" source="./media/instrumentation-threadpool-starvation-call-tree.png" alt-text="Screenshot of Call Tree in the Instrumentation tool.":::
+:::image type="content" source="./media/vs-2022/instrumentation-threadpool-starvation-call-tree.png" alt-text="Screenshot of Call Tree in the Instrumentation tool.":::
 
 
 
