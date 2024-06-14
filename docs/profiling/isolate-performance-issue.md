@@ -61,6 +61,8 @@ Based on the low CPU usage and the relatively high thread count, and working on 
 
 Let's take a look at a trace from the Instrumentation tool to see if you can try to find out more about what is happening with the threads.
 
+When the diagnostic data loads, first check the initial *.diagsession* report page that shows Top Insights and the Hot Path. In the Instrumentation trace, the Hot Path shows the code path with longest function times in your app. These sections may provide tips to help you quickly identify performance issues that you can improve.
+
 In the collected trace, use the **Open details** link in the report and then select **Flame Graph**.
 
 :::image type="content" source="./media/vs-2022/instrumentation-threadpool-starvation-flame-graph.png" alt-text="Screenshot of Flame Graph in the Instrumentation tool.":::
@@ -71,11 +73,11 @@ Right-click the `QueryCustomerDB` funcion and choose **View in Call Tree**.
 
 :::image type="content" source="./media/vs-2022/instrumentation-threadpool-starvation-call-tree.png" alt-text="Screenshot of Call Tree in the Instrumentation tool.":::
 
-In the Call Tree view, you see the Hot Path (flame icon) includes the `QueryCustomerDB` function, which points to a potential performance issue.
+In the Call Tree view, you see that the Hot Path (flame icon) includes the `QueryCustomerDB` function, which points to a potential performance issue.
 
 Relative to time spent in other functions, the **Self** and **Avg Self** values are very high. Unlike **Total** and **Avg Total**, the **Self** values exclude time spent in other functions, so this is a good place to look for the performance bottleneck.
 
-Double-click the `QueryCustomerDB` function to show the source code for the function. With a little research, we can see that this code is calling an async API without using await. This is the [sync-over-async](https://devblogs.microsoft.com/pfxteam/should-i-expose-synchronous-wrappers-for-asynchronous-methods/) code pattern, which is a common cause of threadpool starvation, and may block threads.
+Double-click the `QueryCustomerDB` function to show the source code for the function. 
 
 ```csharp
 public ActionResult<string> QueryCustomerDB()
@@ -85,6 +87,8 @@ public ActionResult<string> QueryCustomerDB()
     return "success:tasksleepwait";
 }
 ```
+
+With a little research, we discover that this code is calling an async API without using await. This is the [sync-over-async](https://devblogs.microsoft.com/pfxteam/should-i-expose-synchronous-wrappers-for-asynchronous-methods/) code pattern, which is a common cause of threadpool starvation, and may block threads.
 
 To resolve, use await.
 
