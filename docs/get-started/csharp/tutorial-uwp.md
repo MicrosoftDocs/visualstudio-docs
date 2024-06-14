@@ -78,15 +78,6 @@ First, create a Universal Windows Platform project. The project type comes with 
 
    :::image type="content" source="media/vs-2022/uwp-create-new-project.png" alt-text="Screenshot of the 'Create a new project' dialog box with 'Universal Windows' entered in the search box, and the 'Blank App (Universal Windows)' project template highlighted.":::
 
-   > [!NOTE]
-   > If you don't see the **Blank App (Universal Windows)** project template, select the **Install more tools and features** link.
-   >
-   > :::image type="content" source="media/vs-2022/uwp-not-finding.png" alt-text="Screenshot of the Create a new project window showing the 'Install more tools and features' link.":::
-   >
-   > The Visual Studio Installer launches. Choose the **Universal Windows Platform development** workload, and then select **Modify**.
-   >
-   >:::image type="content" source="media/vs-2022/uwp-dev-workload.png" alt-text="Screenshot of the Visual Studio Installer showing the Universal Windows Platform development workload.":::
-
 1. Give the project a name, *HelloWorld*, and choose **Create**.
 
    :::image type="content" source="media/vs-2022/uwp-configure-your-project.png" alt-text="Screenshot of the 'Configure your new project' dialog box with 'HelloWorld' entered in the Project name field.":::
