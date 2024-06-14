@@ -3,7 +3,7 @@ title: "Tutorial: Create UWP Apps with Visual Studio & C#"
 description: Create a Universal Windows Platform (UWP) app in Visual Studio by using the Extensible Application Markup Language (XAML) and C#.
 titleSuffix: ""
 ms.custom: vs-acquisition
-ms.date: 06/04/2024
+ms.date: 06/14/2024
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.devlang: csharp
@@ -21,14 +21,25 @@ In this tutorial, as an introduction to the Visual Studio integrated development
 > [!NOTE]
 > If you're happy with your current functionality in the Universal Windows Platform (UWP), then there's no need to migrate your project type to Windows App SDK. WinUI 2.x, and the Windows SDK, support UWP project types. If you would like to get started with WinUI 3 and Windows App SDK, then you can follow the steps in the [Windows App SDK tutorial](tutorial-wasdk.md).
 
-If you need to install Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
-
 In this tutorial, you:
 
 > [!div class="checklist"]
 > - Create a project
 > - Create an application
 > - Run the application
+
+## Prerequisites
+
+You need Visual Studio to complete this tutorial. Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
+
+> [!NOTE]
+> This tutorial requires the **Blank App (Universal Windows)** project template. During installation, select the **Universal Windows Platform development** workload:
+>
+> :::image type="content" source="media/uwp-dev-workload.png" alt-text="Screenshot of the Visual Studio Installer showing the Universal Windows Platform development workload.":::
+>
+> If you already have Visual Studio installed and need to add it, from the menu, select **Tools** > **Get Tools and Features**, or in the **Create a new project** window, select the **Install more tools and features** link.
+>
+> :::image type="content" source="media/vs-2019/uwp-not-finding.png" alt-text="Screenshot of the Create a new project window showing the 'Install more tools and features' link.":::
 
 ## Create a project
 
@@ -41,15 +52,6 @@ First, create a Universal Windows Platform project. The project type comes with 
 1. On the **Create a new project** screen, enter *Universal Windows* in the search box, choose the C# template for **Blank App (Universal Windows)**, and then choose **Next**.
 
    :::image type="content" source="media/vs-2019/uwp-create-new-project.png" alt-text="Screenshot of the 'Create a new project' dialog box with 'universal windows' entered in the search box, and the 'Blank App (Universal Windows)' project template highlighted.":::
-
-   > [!NOTE]
-   > If you don't see the **Blank App (Universal Windows)** project template, select the **Install more tools and features** link.
-   >
-   > :::image type="content" source="media/vs-2019/uwp-not-finding.png" alt-text="Screenshot of the Create a new project window showing the 'Install more tools and features' link.":::
-   >
-   > The Visual Studio Installer launches. Choose the **Universal Windows Platform development** workload, and then choose **Modify**.
-   >
-   > :::image type="content" source="media/uwp-dev-workload.png" alt-text="Screenshot of the Visual Studio Installer showing the Universal Windows Platform development workload.":::
 
 1. Give the project a name, *HelloWorld*, and choose **Create**.
 
@@ -94,7 +96,7 @@ First, create a Universal Windows Platform project. The project type comes with 
    :::image type="content" source="media/vs-2022/new-uwp-project-target-minver-dialog.png" alt-text="Screenshot of the New Universal Windows Platform Project dialog box showing the default Target version and Minimum version settings.":::
 
    > [!NOTE]
-   > If this is the first time you have used Visual Studio to create a UWP app, the **Enable Developer Mode for Windows** dialog boc appeard. Select **settings for developers** to open **Settings**. Turn on **Developer mode**, and then choose **Yes**.
+   > If this is the first time you have used Visual Studio to create a UWP app, the **Enable Developer Mode for Windows** dialog box appears. Select **settings for developers** to open **Settings**. Turn on **Developer mode**, and then choose **Yes**.
    >
    > :::image type="content" source="media/vs-2022/enable-developer-mode-settings.png" alt-text="Screenshot showing the UWP Settings dialog box with the option for enabling Developer Mode.":::
    >
@@ -305,7 +307,7 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [UWP overview](/windows/uwp/get-started/universal-application-platform-guide)
 - [Get UWP app samples](/windows/uwp/get-started/get-uwp-app-samples)
