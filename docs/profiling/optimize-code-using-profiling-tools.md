@@ -34,7 +34,7 @@ The example screenshots shown in this article are based on a .NET app that runs 
 
 Data collection requires the following steps (not shown here):
 
-- Set your app to a Release build
+- Set your app to a Release build.
 - Select the CPU Usage tool from the Performance Profiler (**Alt+F2**). (Later steps involve a few of the other tools.)
 - From the Performance Profiler, start the app and collect a trace.
 

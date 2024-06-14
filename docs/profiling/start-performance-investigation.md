@@ -1,7 +1,7 @@
 ---
 title: "Start a performance investigation"
 description: "Learn how to use .NET Counters and the Instrumentation tools to identify, isolate, and resolve performance issues."
-ms.date: 06/13/2024
+ms.date: 06/14/2024
 ms.topic: conceptual
 dev_langs:
   - "CSharp"
@@ -34,7 +34,7 @@ The example screenshots shown in this article are based on an ASP.NET app that r
 
 Data collection requires the following steps (not shown here):
 
-- Set your app to a Release build
+- Set your app to a Release build.
 - Select the .NET Counters tool from the Performance Profiler (**Alt+F2**). (Later steps involve the Instrumentation tool.)
 - From the Performance Profiler, start the app.
 
@@ -46,7 +46,7 @@ While running the app, view the counters in the .NET Counters tool. For initial 
   - With high CPU usage, use the CPU Usage tool to identify areas where you may be able to optimize code. For a tutorial on this, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
   - With low CPU usage, use the Instrumentation tool to identify call counts and average function time based on wall clock time. This may help you to identify issues such as contention or thread pool starvation.
 - GC Heap Size. Watch this counter to see if memory usage is growing continually and potentially leaking. If this seems high, you can use one of the memory usage tools.
-- Threadpool Thread Count. For multi-threaded apps, watch this counter to see if the thread count is rising.
+- Threadpool Thread Count. For multi-threaded apps, watch this counter to see if the thread count is rises continuously.
 
 Here's an example showing how the `CPU Usage` is low, while the `ThreadPool Thread Count` is relatively high.
 
@@ -76,7 +76,9 @@ Right-click the `QueryCustomerDB` funcion and choose **View in Call Tree**.
 
 In the Call Tree view, we see the Hot Path (flame icon) includes the `QueryCustomerDB` function, which points to a potential performance issue.
 
-Double-click the `QueryCustomerDB` function to show the source code for the function. With a little investigation, we can see that it's calling an async API without using await. This is the [sync-over-async](https://devblogs.microsoft.com/pfxteam/should-i-expose-synchronous-wrappers-for-asynchronous-methods/) code pattern, which is a common cause of threadpool starvation, and may block threads.
+Relative to time spent in other functions, the **Self** and **Avg Self** values are very high. Unlike **Total** and **Avg Total**, the **Self** values exclude time spent in other functions, so we know this is a good place to look for the performance bottleneck.
+
+Double-click the `QueryCustomerDB` function to show the source code for the function. With a little research, we can see that it's calling an async API without using await. This is the [sync-over-async](https://devblogs.microsoft.com/pfxteam/should-i-expose-synchronous-wrappers-for-asynchronous-methods/) code pattern, which is a common cause of threadpool starvation, and may block threads.
 
 ```csharp
 public ActionResult<string> QueryCustomerDB()
