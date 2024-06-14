@@ -73,8 +73,7 @@ With the Visual Studio 2022 version 17.4 release or later, you can access the ne
 
 Many C++ libraries are already available on Arm64. `Vcpkg` also runs natively on Arm64, and while some dependent 3rd party tools may still run emulated, you can successfully build and consume 1700+ C++ libraries directly in your native Arm64 build environment.
 
-By installing the C++ Desktop workload, you can load any desktop C++ projects and solutions using MSBuild, and then use the editing, building, and debugging capabilities you're already familiar with in Visual Studio. 
-Other C++ Visual Studio workloads, for example, gaming and build systems, such as, CMake is supported in subsequent updates. 
+By installing the C++ Desktop workload, you can load any desktop C++ projects and solutions using MSBuild, and then use the editing, building, and debugging capabilities you're already familiar with in Visual Studio.
 
 ## Visual Studio versions before 17.4
 
