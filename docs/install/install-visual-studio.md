@@ -4,7 +4,7 @@ titleSuffix: ''
 description: Learn how to install Visual Studio quickly. To reduce the installation footprint, choose your preferred features.
 ms.date: 05/30/2024
 ms.custom: vs-acquisition
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 helpviewer_keywords:
 - install Visual Studio
 - dev15
