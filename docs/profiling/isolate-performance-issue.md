@@ -59,7 +59,7 @@ Based on the low CPU usage and the relatively high thread count, and working on 
 
 ## Investigate call counts and timing data
 
-Let's take a look at a trace from the Instrumentation tool to see if you can try to find out more about what is happening with the threads.
+Let's take a look at a trace from the Instrumentation tool to see if we can try to find out more about what is happening with the threads.
 
 When the diagnostic data loads, first check the initial *.diagsession* report page that shows Top Insights and the Hot Path. In the Instrumentation trace, the Hot Path shows the code path with longest function times in your app. These sections may provide tips to help you quickly identify performance issues that you can improve.
 
@@ -75,7 +75,7 @@ Right-click the `QueryCustomerDB` funcion and choose **View in Call Tree**.
 
 In the Call Tree view, you see that the Hot Path (flame icon) includes the `QueryCustomerDB` function, which points to a potential performance issue.
 
-Relative to time spent in other functions, the **Self** and **Avg Self** values are very high. Unlike **Total** and **Avg Total**, the **Self** values exclude time spent in other functions, so this is a good place to look for the performance bottleneck.
+Relative to time spent in other functions, the **Self** and **Avg Self** values for the `QueryCustomerDB` function are very high. Unlike **Total** and **Avg Total**, the **Self** values exclude time spent in other functions, so this is a good place to look for the performance bottleneck.
 
 Double-click the `QueryCustomerDB` function to show the source code for the function. 
 
@@ -99,6 +99,8 @@ public async Task<ActionResult<string>> TaskAsyncWait()
     return "success:taskasyncwait";
 }
 ```
+
+To get visualizations in Visual Studio for individual thread behavior, you can use the [Parallel Stacks](../debugger/get-started-debugging-multithreaded-apps.md#ParallelStacks) window while debugging. This window shows individual threads along with information about threads that are waiting, threads they're waiting on, and [deadlocks](../debugger/using-the-parallel-stacks-window.md#stack-frame-icons).
 
 For additional information on thread pool starvation, see [Detecting threadpool starvation](/dotnet/core/diagnostics/debug-threadpool-starvation#detecting-threadpool-starvation).
 
