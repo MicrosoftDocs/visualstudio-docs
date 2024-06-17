@@ -77,6 +77,10 @@ Download and install the extensions directly from [Visual Studio Marketplace](ht
 - [GitHub Copilot extension for Visual Studio 2022 version 17.9 or earlier][**GitHub Copilot on Marketplace**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs)
 - [GitHub Copilot Chat extension for Visual Studio 2022 version 17.9 or earlier](https://aka.ms/VSXGHCopilot)
 
+If you have Copilot installed, but decide to hide the badge, you can do so by navigating to "Tools" in VS > "Options" > Search "Copilot" > "Environment" > "Visual Experience" > Uncheck "Hide Copilot menu badge".
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/hide-copilot-badge-with-installed.png" alt-text="Screenshot of where to find checkbox to hide Copilot badge":::
+
 ## Manage your Copilot state 
 
 With Visual Studio 2022 version 17.10 Preview 3, you see a Copilot status icon in the upper-right corner of the Visual Studio environment that indicates if Copilot is active, inactive, unavailable, or not installed. Using the dropdown menu from the status icon, you can easily access options that help manage or troubleshoot your Copilot state. Some options are available or greyed out depending on your Copilot state.
