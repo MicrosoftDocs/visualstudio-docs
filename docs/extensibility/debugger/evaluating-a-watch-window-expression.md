@@ -42,11 +42,10 @@ ms.subservice: debug-diagnostics
 > It is not necessary for an EE to adhere to this two-step process even though Visual Studio assumes this; the EE can parse and evaluate in the same step when [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) is called (this is how the MyCEE sample works, for example). If your language can form complex expressions, you may want to separate the parse step from the evaluation step. This can increase performance in the Visual Studio debugger when many watch expressions are being shown.
 
 ## In this section
- [Sample implementation of expression evaluation](../../extensibility/debugger/sample-implementation-of-expression-evaluation.md)
- Uses the MyCEE sample to step through the process of expression evaluation.
 
- [Evaluating a watch expression](../../extensibility/debugger/evaluating-a-watch-expression.md)
- Explains what happens after a successful expression parse.
+[Sample implementation of expression evaluation](../../extensibility/debugger/sample-implementation-of-expression-evaluation.md) uses the MyCEE sample to step through the process of expression evaluation.
+
+ [Evaluating a watch expression](../../extensibility/debugger/evaluating-a-watch-expression.md) explains what happens after a successful expression parse.
 
 ## Related content
 - [Evaluation context](../../extensibility/debugger/evaluation-context.md) provides the arguments that are passed when the debug engine (DE) calls the expression evaluator (EE).

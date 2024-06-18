@@ -17,31 +17,20 @@ A command table configuration file is a text file that describes the set of comm
 
  To learn more about the syntax and semantics of .vsct files, see [Designing XML Command Table (.Vsct) Files](../../extensibility/internals/designing-xml-command-table-dot-vsct-files.md)
 
-## In This Section
- [Designing XML Command Table (.Vsct) Files](../../extensibility/internals/designing-xml-command-table-dot-vsct-files.md)
+## In this section
 
- Describes how to design .vsct files.
+[Designing XML Command Table (.Vsct) Files](../../extensibility/internals/designing-xml-command-table-dot-vsct-files.md) describes how to design .vsct files.
 
- [How to: Create a .Vsct File](../../extensibility/internals/how-to-create-a-dot-vsct-file.md)
+ [How to: Create a .Vsct File](../../extensibility/internals/how-to-create-a-dot-vsct-file.md) compares the methods for creating a .vsct file. Describes the process for manually creating a new .vsct file.
 
- Compares the methods for creating a .vsct file. Describes the process for manually creating a new .vsct file.
+## Related sections
 
-## Related Sections
- [VSCT XML Schema Reference](../../extensibility/vsct-xml-schema-reference.md)
+[VSCT XML Schema Reference](../../extensibility/vsct-xml-schema-reference.md) provides details about each section of the command table XML configuration file.
 
- Provides details about each section of the command table XML configuration file.
+ [Command Table Configuration (.Ctc) Files](/previous-versions/bb165153(v=vs.100)) Presents an overview of the deprecated .ctc file format.
 
- [Command Table Configuration (.Ctc) Files](/previous-versions/bb165153(v=vs.100))
- Presents an overview of the deprecated .ctc file format.
+ [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md) describes the command table format specification.
 
- [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
+ [Resources in VSPackages](../../extensibility/internals/resources-in-vspackages.md) describes how to use managed and unmanaged resources in managed VSPackages.
 
- Describes the command table format specification.
-
- [Resources in VSPackages](../../extensibility/internals/resources-in-vspackages.md)
-
- Describes how to use managed and unmanaged resources in managed VSPackages.
-
- [Commands, Menus, and Toolbars](../../extensibility/internals/commands-menus-and-toolbars.md)
-
- Explains how to create a UI that includes menus, toolbars, and command combo boxes.
+ [Commands, Menus, and Toolbars](../../extensibility/internals/commands-menus-and-toolbars.md) explains how to create a UI that includes menus, toolbars, and command combo boxes.

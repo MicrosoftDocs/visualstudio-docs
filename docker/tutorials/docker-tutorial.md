@@ -6,7 +6,7 @@ author: ghogen
 ms.author: ghogen
 ms.service: vs-code
 ms.topic: tutorial 
-ms.date: 04/12/2023
+ms.date: 05/30/2024
 # Agreed with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---
 
@@ -148,14 +148,11 @@ A Dockerfile is a text-based script of instructions that is used to create a con
 
    The tag is a friendly name for the image.
 
-   To create a container image from the command line, use the following command.
+   To create a container image from the command line, use the following command from the `app` folder that has the *Dockerfile*.
 
     ```bash
     docker build -t getting-started .
     ```
-
-    > [!NOTE]
-    > In an external Bash window, go to the `app` folder that has the *Dockerfile* to run this command.
 
 You've used the *Dockerfile* to build a new container image.
 You might have noticed that many "layers" were downloaded.
