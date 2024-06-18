@@ -69,7 +69,7 @@ The Flame Graph visualization shows us that the `QueryCustomerDB` function is re
 
 Right-click the `QueryCustomerDB` function and choose **View in Call Tree**.
 
-:::image type="content" source="./media/vs-2022/instrumentation-threadpool-starvation-call-tree.png" alt-text="Screenshot of Call Tree in the Instrumentation tool." lightbox="media/vs-2022/instrumentation-threadpool-starvation-call-tree":::
+:::image type="content" source="./media/vs-2022/instrumentation-threadpool-starvation-call-tree.png" alt-text="Screenshot of Call Tree in the Instrumentation tool." lightbox="media/vs-2022/instrumentation-threadpool-starvation-call-tree.png":::
 
 In the Call Tree view, you see that the Hot Path (flame icon) includes the `QueryCustomerDB` function, which points to a potential performance issue.
 
