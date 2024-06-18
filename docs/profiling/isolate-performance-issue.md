@@ -101,13 +101,13 @@ public async Task<ActionResult<string>> TaskAsyncWait()
 }
 ```
 
+If you see performance issues related to database queries, you can use the [Database tool](../profiling/analyze-database.md) to investigate whether certain calls are slower. This data might indicate an opportunity to optimize queries. For a tutorial that shows how to use the Database tool to investigate a performance issue, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md). The Database tool supports .NET Core with either ADO.NET or Entity Framework Core.
+
 To get visualizations in Visual Studio for individual thread behavior, you can use the [Parallel Stacks](../debugger/get-started-debugging-multithreaded-apps.md#ParallelStacks) window while debugging. This window shows individual threads along with information about threads that are waiting, threads they're waiting on, and [deadlocks](../debugger/using-the-parallel-stacks-window.md#stack-frame-icons).
 
 For additional information on thread pool starvation, see [Detecting threadpool starvation](/dotnet/core/diagnostics/debug-threadpool-starvation#detecting-threadpool-starvation).
 
 ## Next steps
-
-If you see performance issues related to database queries, you can use the [Database tool](../profiling/analyze-database.md) to investigate whether certain calls are slower. This data might indicate an opportunity to optimize queries. For a tutorial that shows how to use the Database tool to investigate a performance issue, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md). The Database tool supports .NET Core on Windows with either ADO.NET or Entity Framework Core.
 
 The following articles and blog posts provide more information to help you learn to use the Visual Studio performance tools effectively.
 
