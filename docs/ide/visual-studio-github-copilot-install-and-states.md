@@ -114,7 +114,7 @@ Select **Copilot is unreachable** in the dropdown menu to open the **Troubleshoo
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-unavailable.png" alt-text="Screenshot of Copilot badge when Copilot is unavailable.":::
 
-## Copilot not installed
+### Copilot not installed
 
 If you chose to opt out of the default recommended install by unchecking the **GitHub Copilot** component in the installer, the status icon is still available in the IDE. 
 
