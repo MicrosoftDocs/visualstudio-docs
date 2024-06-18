@@ -1,7 +1,7 @@
 ---
 title: "Isolate a performance issue"
 description: "Learn how to use .NET Counters and the Instrumentation tools to identify, isolate, and resolve performance issues."
-ms.date: 06/14/2024
+ms.date: 06/17/2024
 ms.topic: conceptual
 dev_langs:
   - "CSharp"
@@ -21,18 +21,16 @@ In this article, you'll learn how you can use profiling tools to investigate per
 
 Rather than providing step-by-step instructions, the intent here is to show you how to use the profiling tools effectively and how to interpret the data. Like the CPU Usage tool, the .NET Counters tool is also a good starting point for a performance investigation. Once you identify interesting data, you can use other profiling tools to investigate more deeply. To compare tools, see [Which tool should I choose?](../profiling/choose-performance-tool.md)
 
+## About the example app
+
+The screenshots in this article are based on an ASP.NET app that runs queries against a simulated database. The example is based on the [Diagnostics Sample](/dotnet/core/diagnostics/debug-threadpool-starvation).
+
 ## Start an investigation
 
 - Start your investigation by watching .NET counter metrics while collecting performance data.
-- Next, for additional insights to help isolate issues, consider collecting a trace using one of the other profiling tools. For example:
-  - If CPU Usage is high, try the CPU Usage tool.
-  - If CPU Usage is low, try the Instrumentation tool. Since Instrumentation provides exact call counts and wall clock time, it can be helpful to identify performance issues when CPU Usage is low.
+- Next, for additional insights to help isolate issues, consider collecting a trace using one of the other profiling tools, such as the CPU Usage tool, the Instrumentation tool, and others.
 
-## Data collection
-
-The example screenshots shown in this article are based on an ASP.NET app that runs queries against a simulated database. The example is based on the [Diagnostics Sample](/dotnet/core/diagnostics/debug-threadpool-starvation).
-
-Data collection requires the following steps (not shown here):
+Data collection requires the following steps (not shown in this article):
 
 - Set your app to a Release build.
 - Select the .NET Counters tool from the Performance Profiler (**Alt+F2**). (Later steps involve the Instrumentation tool.)
@@ -69,13 +67,16 @@ In the collected trace, use the **Open details** link in the report and then sel
 
 The Flame Graph visualization shows us that the `QueryCustomerDB` function is responsible for a significant portion of the app's running time.
 
-Right-click the `QueryCustomerDB` funcion and choose **View in Call Tree**.
+Right-click the `QueryCustomerDB` function and choose **View in Call Tree**.
 
 :::image type="content" source="./media/vs-2022/instrumentation-threadpool-starvation-call-tree.png" alt-text="Screenshot of Call Tree in the Instrumentation tool.":::
 
 In the Call Tree view, you see that the Hot Path (flame icon) includes the `QueryCustomerDB` function, which points to a potential performance issue.
 
 Relative to time spent in other functions, the **Self** and **Avg Self** values for the `QueryCustomerDB` function are very high. Unlike **Total** and **Avg Total**, the **Self** values exclude time spent in other functions, so this is a good place to look for the performance bottleneck.
+
+> [!TIP]
+> If the **Self** values were relatively low instead of high, you would probably want to look at the actual queries called by the `QueryCustomerDB` function.
 
 Double-click the `QueryCustomerDB` function to show the source code for the function. 
 
@@ -106,6 +107,8 @@ For additional information on thread pool starvation, see [Detecting threadpool 
 
 ## Next steps
 
+If you see performance issues related to database queries, you can use the [Database tool](../profiling/analyze-database.md) to investigate whether certain calls are slower. This data might indicate an opportunity to optimize queries. For a tutorial that shows how to use the Database tool to investigate a performance issue, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md). The Database tool supports .NET Core on Windows with either ADO.NET or Entity Framework Core.
+
 The following articles and blog posts provide more information to help you learn to use the Visual Studio performance tools effectively.
 
 - [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md)
@@ -114,5 +117,8 @@ The following articles and blog posts provide more information to help you learn
 
 ## Related content
 
-- [First look at profiling](../profiling/choose-performance-tool.md)
 - [Which tool should I use?](../profiling/choose-performance-tool.md)
+- [Analyze CPU usage in the Performance Profiler](../profiling/cpu-usage.md)
+- [Instrument your .NET application](../profiling/instrumentation.md)
+- [Analyze database performance](../profiling/analyze-database.md)
+- [First look at profiling](../profiling/choose-performance-tool.md)

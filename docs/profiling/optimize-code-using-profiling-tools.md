@@ -20,19 +20,19 @@ Reducing your compute time means reducing costs, so optimizing your code can sav
 
 Rather than providing step-by-step instructions, the intent here is to show you how to use the profiling tools effectively and how to interpret the data. The CPU Usage tool can help you capture and visualize where compute resources are used in your application. The CPU Usage views such as the call tree and flame graph provide a nice graphical visualization of where time is spent in your app. In addition, auto insights may show precise optimizations that can have a large impact. Other profiling tools can also help you isolate issues. To compare tools, see [Which tool should I choose?](../profiling/choose-performance-tool.md)
 
+## About the example app
+
+The screenshots in this article are based on a .NET app that runs queries against a database of blogs and associated blog posts. It is based on the [Entity Framework sample](/ef/core/querying/), but modified to run a large number of queries against an SQLite local database.
+
 ## Start an investigation
 
 - Start your investigation by taking a CPU usage trace. The CPU Usage tool is often helpful to begin performance investigations and to optimize code to reduce cost.
 - Next, if you would like additional insights to help isolate issues or improve the performance, considering collecting a trace using one of the other profiling tools. For example:
   - Take a look at the memory usage. For .NET, try the .NET Object Allocation tool first. For either .NET or C++, you can look at the Memory Usage tool.
   - If your app is using File I/O, use the File I/O tool.
-  - If you're using ADO.NET or Entity Framework, you can try the Database tool to examine SQL queries, precise query time, et al.
+  - If you're using ADO.NET or Entity Framework, you can use the Database tool to examine SQL queries, precise query time, et al.
 
-## Data collection
-
-The example screenshots shown in this article are based on a .NET app that runs queries against a database of blogs and associated blog posts. You will first examine a CPU usage trace to look for opportunities to optimize code and reduce compute cost. After getting a general idea of what's going on, you will also look at traces from other profiling tools to help isolate issues.
-
-Data collection requires the following steps (not shown here):
+Data collection requires the following steps (not shown in this article):
 
 - Set your app to a Release build.
 - Select the CPU Usage tool from the Performance Profiler (**Alt+F2**). (Later steps involve a few of the other tools.)
@@ -73,7 +73,7 @@ Most of the objects created are strings, object arrays, and Int32's. You may be 
 
 ### Check the query in the Database tool
 
-You can multi-select the Database tool along with CPU Usage. When you've collected a trace, select the **Queries** tab in the diagnostics page. In the Queries tab for the Database trace, you can see the first row shows the longest query, 2446 ms. The **Records** column shows how many records the query reads. You can use this information for later comparison.
+In the Performance Profiler, select the Database tool instead of CPU Usage (or, you can select both). When you've collected a trace, select the **Queries** tab in the diagnostics page. In the Queries tab for the Database trace, you can see the first row shows the longest query, 2446 ms. The **Records** column shows how many records the query reads. You can use this information for later comparison.
 
 :::image type="content" source="./media/optimize-code-database.png" alt-text="Screenshot of Database queries in the Database tool.":::
 
@@ -153,5 +153,8 @@ The following articles and blog posts provide more information to help you learn
 
 ## Related content
 
-- [First look at profiling](../profiling/choose-performance-tool.md)
 - [Which tool should I use?](../profiling/choose-performance-tool.md)
+- [Analyze CPU usage in the Performance Profiler](../profiling/cpu-usage.md)
+- [Choose a memory analysis tool](../profiling/analyze-memory-usage.md)
+- [Analyze database performance](../profiling/analyze-database.md)
+- [First look at profiling](../profiling/choose-performance-tool.md)
