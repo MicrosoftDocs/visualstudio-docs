@@ -1,6 +1,6 @@
 ---
-description: "Exposes the details of a stack frame."
-title: "IDiaFrameData"
+description: Exposes the details of a stack frame.
+title: IDiaFrameData
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,17 +12,17 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaFrameData
 
 Exposes the details of a stack frame.
 
 ## Syntax
 
-```
-IDiaFrameData : IUnknown
-```
+`IDiaFrameData : IUnknown`
 
 ## Methods in Vtable Order
+
 The following table shows the methods of `IDiaFrameData`.
 
 |Method|Description|
@@ -47,15 +47,18 @@ The following table shows the methods of `IDiaFrameData`.
 |[IDiaFrameData::execute](../../debugger/debug-interface-access/idiaframedata-execute.md)|Performs stack unwinding and returns the current state of registers in a stack walk frame interface.|
 
 ## Remarks
- The details available for a frame are for execution points within the address range indicated by the address and block length.
+
+The details available for a frame are for execution points within the address range indicated by the address and block length.
 
 ## Notes for Callers
- Obtain this interface by calling the [IDiaEnumFrameData::Next](../../debugger/debug-interface-access/idiaenumframedata-next.md) or [IDiaEnumFrameData::Item](../../debugger/debug-interface-access/idiaenumframedata-item.md) methods. See the [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md) interface for details.
+
+Obtain this interface by calling the [IDiaEnumFrameData::Next](../../debugger/debug-interface-access/idiaenumframedata-next.md) or [IDiaEnumFrameData::Item](../../debugger/debug-interface-access/idiaenumframedata-item.md) methods. See the [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md) interface for details.
 
 ## Example
- This example prints out the properties of an `IDiaFrameData` object. See the [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md) interface for an example of how the `IDiaFrameData` interface is obtained.
 
-```C++
+This example prints out the properties of an `IDiaFrameData` object. See the [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md) interface for an example of how the `IDiaFrameData` interface is obtained.
+
+```c++
 void PrintFrameData(IDiaFrameData* pFrameData){
     DWORD dwSect;
     DWORD dwOffset;
@@ -107,6 +110,7 @@ void PrintFrameData(IDiaFrameData* pFrameData){
 ```
 
 ## Requirements
+
 Header: Dia2.h
 
 Library: diaguids.lib
@@ -114,6 +118,7 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See also
+
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md)
 - [IDiaEnumFrameData::Item](../../debugger/debug-interface-access/idiaenumframedata-item.md)

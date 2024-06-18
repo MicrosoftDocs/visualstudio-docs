@@ -1,6 +1,6 @@
 ---
-description: "Exposes the details of the base location and memory offsets of the module or image."
-title: "IDiaImageData"
+description: Exposes the details of the base location and memory offsets of the module or image.
+title: IDiaImageData
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,17 +12,17 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaImageData
 
 Exposes the details of the base location and memory offsets of the module or image.
 
 ## Syntax
 
-```
-IDiaImageData : IUnknown
-```
+`IDiaImageData : IUnknown`
 
 ## Methods in Vtable Order
+
 The following table shows the methods of `IDiaImageData`.
 
 |Method|Description|
@@ -32,15 +32,18 @@ The following table shows the methods of `IDiaImageData`.
 |[IDiaImageData::get_imageBase](../../debugger/debug-interface-access/idiaimagedata-get-imagebase.md)|Retrieves the memory location where the image should be based.|
 
 ## Remarks
+
 Some debug streams (XDATA, PDATA) contain copies of data also stored in the image. These stream data objects can be queried for the `IDiaImageData` interface. See the "Notes for Callers" section in this topic for details.
 
 ## Notes for Callers
+
 Obtain this interface by calling `QueryInterface` on an [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md) object. Note that not all debug streams support the `IDiaImageData` interface. For example, currently only the XDATA and PDATA streams support the `IDiaImageData` interface.
 
 ## Example
+
 This example searches all of the debug streams for any stream that supports the `IDiaImageData` interface. If such a stream is found, some information about that stream is displayed.
 
-```C++
+```c++
 void ShowImageData(IDiaSession *pSession)
 {
     if (pSession != NULL)
@@ -105,6 +108,7 @@ void ShowImageData(IDiaSession *pSession)
 ```
 
 ## Requirements
+
 Header: Dia2.h
 
 Library: diaguids.lib
@@ -112,5 +116,6 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See also
+
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md)
