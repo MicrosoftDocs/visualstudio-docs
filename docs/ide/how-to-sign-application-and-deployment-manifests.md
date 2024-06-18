@@ -86,6 +86,9 @@ Test certificates are not signed by a Certificate Authority (CA) and should only
 
 1. In the **Create Test Certificate** dialog box, enter a password to help secure your test certificate.
 
+> [!NOTE]
+> Be sure to choose **sha256RSA** as the **Signature Algorithm**, unless you're targeting .NET 2.0.
+
 ## Generate unsigned manifests
 
 Signing the ClickOnce manifests is optional for `.exe`-based applications. The following procedures show how to generate unsigned ClickOnce manifests.
