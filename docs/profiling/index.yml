@@ -29,6 +29,8 @@ landingContent:
             url: memory-usage.md
           - text: Beginner's guide to optimizing code
             url: optimize-code-using-profiling-tools.md
+          - text: Isolate a performance issue
+            url: isolate-performance-issue.md
 
   # Card (optional)
   - title: Fundamentals
@@ -61,6 +63,8 @@ landingContent:
             url: dotnet-alloc-tool.md
           - text: Instrumentation
             url: instrumentation-overview.md
+          - text: .NET Counters
+            url: dotnet-counters-tool.md  
           - text: File I/O
             url: use-file-io.md
           - text: Database
@@ -69,8 +73,6 @@ landingContent:
             url: events-viewer.md
           - text: .NET Async
             url: analyze-async.md
-          - text: .NET Counters
-            url: dotnet-counters-tool.md  
           - text: Analyze resource consumption (XAML)
             url: application-timeline.md
 
