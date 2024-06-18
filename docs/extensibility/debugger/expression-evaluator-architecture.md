@@ -39,11 +39,10 @@ ms.subservice: debug-diagnostics
  See [Displaying locals](../../extensibility/debugger/displaying-locals.md) for more details on this process of displaying the values of variables. See [Changing the value of a local](../../extensibility/debugger/changing-the-value-of-a-local.md) for more details on how a variable's value is changed.
 
 ## In this section
- [Evaluation context](../../extensibility/debugger/evaluation-context.md)
- Provides the arguments that are passed when the DE calls the EE.
 
- [Key expression evaluator interfaces](../../extensibility/debugger/key-expression-evaluator-interfaces.md)
- Describes the crucial interfaces needed when writing an EE, along with the evaluation context.
+[Evaluation context](../../extensibility/debugger/evaluation-context.md) provides the arguments that are passed when the DE calls the EE.
+
+ [Key expression evaluator interfaces](../../extensibility/debugger/key-expression-evaluator-interfaces.md) describes the crucial interfaces needed when writing an EE, along with the evaluation context.
 
 ## Related content
 - [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)

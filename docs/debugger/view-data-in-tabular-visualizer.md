@@ -27,8 +27,7 @@ There are two types of tabular visualizers. The DataSet visualizer allows you to
 
 To open the visualizer, you must be paused during debugging.
 
-You can access the visualizer by clicking on the magnifying glass icon that appears next to the Value for one of those objects ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon")
-in a debugger variables window or in a DataTip.
+You can access the visualizer by clicking on the magnifying glass icon that appears next to the Value for one of those objects ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon") in a debugger variables window or in a DataTip.
 
 :::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-debugger-visualizer.png" alt-text="Diagram of Open an IEnumerable visualizer.":::
 

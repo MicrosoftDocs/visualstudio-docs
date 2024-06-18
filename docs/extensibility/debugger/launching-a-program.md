@@ -44,11 +44,10 @@ Users who want to debug a program can press **F5** to run the debugger from the 
    If `GUID_NULL` is passed, then the port launches the program. Once the program is running, the run-time environment creates an `IDebugProgramNode2` interface to describe the program and passes it to `IDebugPortNotify2::AddProgramNode`. This notifies the port that the program is running. Then the SDM attaches the debug engine to the running program.
 
 ## In this section
- [Notifying the port](../../extensibility/debugger/notifying-the-port.md)
- Explains what happens after a program is launched and the port is notified.
 
- [Attaching after a launch](../../extensibility/debugger/attaching-after-a-launch.md)
- Documents when the debug session is ready to attach the DE to the program.
+[Notifying the port](../../extensibility/debugger/notifying-the-port.md) explains what happens after a program is launched and the port is notified.
+
+ [Attaching after a launch](../../extensibility/debugger/attaching-after-a-launch.md) documents when the debug session is ready to attach the DE to the program.
 
 ## Related content
 - [Debugging tasks](../../extensibility/debugger/debugging-tasks.md) contains links to various debugging tasks, such as launching a program and evaluating expressions.

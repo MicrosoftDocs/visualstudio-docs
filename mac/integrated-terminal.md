@@ -31,7 +31,7 @@ By default, when the Terminal is launched it will:
 ## Search
 You can search the content of the Terminal window by using the **Search > Find...** menu.
 
-![*Search experience in the Visual Studio for Mac Integrated Terminal*](media/integrated-terminal-search.png)
+![Search experience in the Visual Studio for Mac Integrated Terminal](media/integrated-terminal-search.png)
 
 ## Terminal keyboard shortcuts
 |Commands|Keyboard shortcuts|
@@ -47,7 +47,7 @@ You can search the content of the Terminal window by using the **Search > Find..
 ## Multiple instances
 Multiple instances of the Terminal may be running at any time. You can create a new instance by using the **Ctrl+'** keyboard shortcut. You can switch between instances by clicking on the tab for each instance, or using the **Ctrl+tab** shortcut to use the window picker dialog.
 
-![*Multiple terminal instances in Visual Studio for Mac*](media/integrated-terminal-multiple-instances.png) 
+![Multiple terminal instances in Visual Studio for Mac](media/integrated-terminal-multiple-instances.png)
 
 ## Customizing the terminal window
 

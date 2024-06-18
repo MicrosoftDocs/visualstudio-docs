@@ -24,20 +24,15 @@ Visual Studio includes a fully interactive source code debugger, providing a pow
  The following sections describe how to extend the debugger by using the Visual Studio SDK.
 
 ## In this section
- [Get started](../../extensibility/debugger/getting-started-with-debugger-extensibility.md)
- Describes what Visual Studio Debugging offers and how to install the SDK.
 
- [Create a custom debug engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)
- Documents the custom DE process, from preparing your program for a DE to detaching the DE.
+[Get started](../../extensibility/debugger/getting-started-with-debugger-extensibility.md) describes what Visual Studio Debugging offers and how to install the SDK.
 
- [Write a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
- Explains whether you must write an expression evaluator.
+ [Create a custom debug engine](../../extensibility/debugger/creating-a-custom-debug-engine.md) documents the custom DE process, from preparing your program for a DE to detaching the DE.
 
- [Choose a debug engine implementation strategy](../../extensibility/debugger/choosing-a-debug-engine-implementation-strategy.md)
- Discusses how to implement your DE.
+ [Write a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md) explains whether you must write an expression evaluator.
 
- [Reference](../../extensibility/debugger/reference/reference-visual-studio-debugging-apis.md)
- Documents the Visual Studio Debugging API.
+ [Choose a debug engine implementation strategy](../../extensibility/debugger/choosing-a-debug-engine-implementation-strategy.md) discusses how to implement your DE.
 
- [Samples](../../extensibility/debugger/visual-studio-debugging-samples.md)
- Contains links to a common language runtime expression evaluator sample and a debug engine sample.
+ [Reference](../../extensibility/debugger/reference/reference-visual-studio-debugging-apis.md) documents the Visual Studio Debugging API.
+
+ [Samples](../../extensibility/debugger/visual-studio-debugging-samples.md) contains links to a common language runtime expression evaluator sample and a debug engine sample.

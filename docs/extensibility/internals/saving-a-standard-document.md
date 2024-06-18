@@ -16,10 +16,11 @@ ms.subservice: extensibility-integration
 
 The environment handles the Save, Save As, and Save All commands. When a user selects **Save**, **Save As**, or **Save All** from the **File** menu or closes the solution, resulting in a **Save All**, the following process occurs.
 
- ![Standard Editor](../../extensibility/internals/media/public.gif "Public")
+![Standard Editor](../../extensibility/internals/media/public.gif "Public")
+ 
 Save, Save As, and Save All command handling for a standard editor
 
- This process is detailed in the following steps:
+This process is detailed in the following steps:
 
 1. When the **Save** and **Save As** commands are selected, the environment uses the <xref:Microsoft.VisualStudio.Shell.Interop.SVsShellMonitorSelection> service to determine the active document window and thus what items should be saved. Once the active document window is known, the environment finds the hierarchy pointer and item identifier (itemID) for the document in the running document table. For more information, see [Running Document Table](../../extensibility/internals/running-document-table.md).
 

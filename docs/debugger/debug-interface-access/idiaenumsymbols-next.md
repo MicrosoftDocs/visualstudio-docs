@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a specified number of symbols in the enumeration sequence."
+description: Retrieves a specified number of symbols in the enumeration sequence.
 title: "IDiaEnumSymbols::Next"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,14 +12,15 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumSymbols::Next
 
 Retrieves a specified number of symbols in the enumeration sequence.
 
 ## Syntax
 
-```C++
-HRESULT Next ( 
+```c++
+HRESULT Next ( 
    ULONG        celt,
    IDiaSymbol** rgelt,
    ULONG*       pceltFetched
@@ -27,24 +28,26 @@ HRESULT Next ( 
 ```
 
 #### Parameters
- celt
+
+celt
 
 [in] The number of symbols in the enumerator to be retrieved.
 
- rgelt
+rgelt
 
 [out] An array that is to be filled in with the [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) objects that represent the desired symbols.
 
- pceltFetched
+pceltFetched
 
 [out] Returns the number of symbols in the fetched enumerator.
 
 ## Return Value
- If successful, returns `S_OK`. Returns `S_FALSE` if there are no more symbols. Otherwise, returns an error code.
+
+If successful, returns `S_OK`. Returns `S_FALSE` if there are no more symbols. Otherwise, returns an error code.
 
 ## Example
 
-```C++
+```c++
 IDiaEnumSymbols* pEnum
 CComPtr< IDiaSymbol> pSym;
 DWORD celt;
@@ -52,6 +55,7 @@ pEnum->Next( 1, &pSym, &celt );
 ```
 
 ## See also
+
 - [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)
 - [IDiaSession::findLinesByLinenum](../../debugger/debug-interface-access/idiasession-findlinesbylinenum.md)
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

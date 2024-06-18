@@ -312,8 +312,7 @@ This class can substantially simplify your code when the service is stateless an
 
 ## Retrieving a brokered service pipe
 
-Although accessing a brokered service through a proxy is the most common and convenient technique,
-in advanced scenarios it may be preferable or necessary to request a pipe to that service so the client can control the RPC directly or communicate any other data type directly.
+Although accessing a brokered service through a proxy is the most common and convenient technique, in advanced scenarios it may be preferable or necessary to request a pipe to that service so the client can control the RPC directly or communicate any other data type directly.
 
 A pipe to the brokered service may be obtained via the <xref:Microsoft.ServiceHub.Framework.IServiceBroker.GetPipeAsync%2A> method.
 This method takes a <xref:Microsoft.ServiceHub.Framework.ServiceMoniker> instead of a <xref:Microsoft.ServiceHub.Framework.ServiceRpcDescriptor> because the RPC behaviors provided by a descriptor are not required.

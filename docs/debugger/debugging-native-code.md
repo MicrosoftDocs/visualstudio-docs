@@ -22,46 +22,35 @@ ms.subservice: debug-diagnostics
 
 The section covers some common debugging problems and techniques for native applications. The techniques covered in this section are high-level techniques. For the mechanics of using the Visual Studio debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
-## In This Section
- [How to: Debug Optimized Code](../debugger/how-to-debug-optimized-code.md)
- Gives tips for debugging optimized code, specifically, why you should debug an unoptimized version of your program, default optimization settings for Debug and Release configurations, and tips for finding bugs that only appear in optimized code (turning on optimization in a Debug build configuration).
+## In this section
 
- [DebugBreak and __debugbreak](../debugger/debugbreak-and-debugbreak.md)
- Describes the Win32 `DebugBreak` function and provides a link to its reference topic in the Platform SDK. Also describes the `__debugbreak` intrinsic.
+[How to: Debug Optimized Code](../debugger/how-to-debug-optimized-code.md) gives tips for debugging optimized code, specifically, why you should debug an unoptimized version of your program, default optimization settings for Debug and Release configurations, and tips for finding bugs that only appear in optimized code (turning on optimization in a Debug build configuration).
 
- [C/C++ Assertions](../debugger/c-cpp-assertions.md)
- Discusses assertion statements, how they work, the benefits of using them (catching logic errors, checking results of an operation, and testing error conditions), their interaction with `_DEBUG`, and the types of assertions supported in Visual Studio.
+[DebugBreak and __debugbreak](../debugger/debugbreak-and-debugbreak.md) describes the Win32 `DebugBreak` function and provides a link to its reference topic in the Platform SDK. Also describes the `__debugbreak` intrinsic.
 
- [How to: Debug Inline Assembly Code](../debugger/how-to-debug-inline-assembly-code.md)
- Provides short instructions on using the Disassembly window to view the assembly instructions and the Registers window to view register contents and provides links to topics regarding those windows.
+[C/C++ Assertions](../debugger/c-cpp-assertions.md) discusses assertion statements, how they work, the benefits of using them (catching logic errors, checking results of an operation, and testing error conditions), their interaction with `_DEBUG`, and the types of assertions supported in Visual Studio.
 
- [MFC Debugging Techniques](../debugger/mfc-debugging-techniques.md)
- Links you to debugging techniques for MFC programs, including: afxDebugBreak, the TRACE macro, detecting memory leaks in MFC, MFC assertions, and reducing the size of MFC Debug builds.
+[How to: Debug Inline Assembly Code](../debugger/how-to-debug-inline-assembly-code.md) provides short instructions on using the Disassembly window to view the assembly instructions and the Registers window to view register contents and provides links to topics regarding those windows.
 
- [CRT Debugging Techniques](/cpp/c-runtime-library/crt-debugging-techniques)
- Links you to debugging techniques for the C Run-Time Library, including using the CRT Debug Library, macros for reporting, differences between malloc and _malloc_dbg, writing debug hook functions, and the CRT debug heap.
+[MFC Debugging Techniques](../debugger/mfc-debugging-techniques.md) links you to debugging techniques for MFC programs, including: afxDebugBreak, the TRACE macro, detecting memory leaks in MFC, MFC assertions, and reducing the size of MFC Debug builds.
 
- [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
- Provides answers to frequently asked questions about debugging C++ programs
+[CRT Debugging Techniques](/cpp/c-runtime-library/crt-debugging-techniques) Links you to debugging techniques for the C Run-Time Library, including using the CRT Debug Library, macros for reporting, differences between malloc and _malloc_dbg, writing debug hook functions, and the CRT debug heap.
 
- [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)
- Provides information on debugging COM and ActiveX applications, including tools you can use for COM and ActiveX debugging.
+[Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md) provides answers to frequently asked questions about debugging C++ programs
 
- [How to: Debug Injected Code](/cpp/windows/attributes/cpp-attributes-com-net#debug-injected-code.md)
- Provides guidance on debugging code that uses attributes. Instructions include how to turn on Source Annotation, how to view injected code, and how to view the disassembly code at the current execution point.
+[COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md) provides information on debugging COM and ActiveX applications, including tools you can use for COM and ActiveX debugging.
 
- [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md)
- Describes how to use the **Parallel Tasks** and **Parallel Stacks** tool windows to debug a parallel application.
+[How to: Debug Injected Code](/cpp/windows/attributes/cpp-attributes-com-net#debug-injected-code.md) provides guidance on debugging code that uses attributes. Instructions include how to turn on Source Annotation, how to view injected code, and how to view the disassembly code at the current execution point.
 
-## Related Sections
- [Prepare to debug C++ projects](../debugger/debugging-preparation-visual-cpp-project-types.md)
- Provides links to topics that describe how to debug the native project types created by the C++ project templates.
+[Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md) describes how to use the **Parallel Tasks** and **Parallel Stacks** tool windows to debug a parallel application.
 
- [Debugging DLL Projects](../debugger/debugging-dll-projects.md)
- Provides information on how to debug native and managed DLLs.
+## Related sections
 
- [First look at the debugger](../debugger/debugger-feature-tour.md)
- Provides links to the larger sections of the debugging documentation. Information includes what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging native code, debugging SQL, and the user interface references.
+[Prepare to debug C++ projects](../debugger/debugging-preparation-visual-cpp-project-types.md) provides links to topics that describe how to debug the native project types created by the C++ project templates.
+
+[Debugging DLL Projects](../debugger/debugging-dll-projects.md) provides information on how to debug native and managed DLLs.
+
+[First look at the debugger](../debugger/debugger-feature-tour.md) provides links to the larger sections of the debugging documentation. Information includes what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging native code, debugging SQL, and the user interface references.
 
 ## Related content
 

@@ -20,11 +20,9 @@ If Visual Studio Build Tools does not have what you require to build your source
 
 ## Before you begin
 
-Some familiarity with [Docker](https://www.docker.com/what-docker) is assumed below. If you're not already familiar
-with running Docker on Windows, read about how to [install and configure the Docker engine on Windows](/virtualization/windowscontainers/manage-docker/configure-docker-daemon).
+Some familiarity with [Docker](https://www.docker.com/what-docker) is assumed below. If you're not already familiar with running Docker on Windows, read about how to [install and configure the Docker engine on Windows](/virtualization/windowscontainers/manage-docker/configure-docker-daemon).
 
-The base image below is a sample and may not work for your system. Read [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility)
-to determine which base image you should use for your environment.
+The base image below is a sample and may not work for your system. Read [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility) to determine which base image you should use for your environment.
 
 ## Create and build the Dockerfile
 

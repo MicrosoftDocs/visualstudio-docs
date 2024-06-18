@@ -203,8 +203,7 @@ Microsoft Office locates Add-ins by using registry keys. The keys in the HKEY\_C
 
     The Company Name is often used as a prefix for the name of the add-in to provide uniqueness.
 
-10. Right-click the **SampleCompany.ExcelAddIn** key, select **New**, and click **String value**. Use the text
-**Description** for the Name.
+10. Right-click the **SampleCompany.ExcelAddIn** key, select **New**, and click **String value**. Use the text **Description** for the Name.
 11. Use this step to add three more values:
     - **FriendlyName** of type **String**
     - **LoadBehavior** of type **DWORD**
@@ -301,8 +300,7 @@ For more information, see [Type Equivalence and Embedded Interop Types](/dotnet/
 
 ### To configure launch conditions to detect that for Office PIAs
 
-1. In the **Launch Conditions(OfficeAddInSetup)** editor, right-click **Requirements on Target Machine**,
-    and then **click Add Windows Installer Launch Condition**. This launch condition searches for an Office PIA by searching for the specific component ID.
+1. In the **Launch Conditions(OfficeAddInSetup)** editor, right-click **Requirements on Target Machine**, and then **click Add Windows Installer Launch Condition**. This launch condition searches for an Office PIA by searching for the specific component ID.
 2. Right-click **Search for Component1** and click **Properties Window** to show the properties of the launch condition.
 3. In the **Properties Window**, set these properties:
 

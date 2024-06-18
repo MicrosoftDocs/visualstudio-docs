@@ -26,8 +26,8 @@ ms.subservice: debug-diagnostics
 > The **QuickWatch** and **Watch** windows also display variables with the same format of name, value, and type. However, those values are obtained by calling [GetPropertyInfo](../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) instead of `IDebugProperty2::EnumChildren`.
 
 ## In this section
- [Sample implementation of locals](../../extensibility/debugger/sample-implementation-of-locals.md)
- Uses examples to step through the process of implementing locals.
+
+[Sample implementation of locals](../../extensibility/debugger/sample-implementation-of-locals.md) uses examples to step through the process of implementing locals.
 
 ## Related content
 - [Evaluation context](../../extensibility/debugger/evaluation-context.md) explains that when the debug engine (DE) calls the expression evaluator (EE), it passes three arguments.

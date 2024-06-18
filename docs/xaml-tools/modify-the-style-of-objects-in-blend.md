@@ -27,15 +27,25 @@ To create a tile brush, you begin by creating an *image brush*, *drawing brush*,
 
 Create an image brush by using an image. The following illustrations show the image brush, the image brush tiled, and the image brush flipped.
 
-![Image brush](../designers/media/81f84f56-906d-456b-8288-d77da1e01e31.png) ![mage brush tiled](../designers/media/d3782ca8-64da-47a4-a095-c6cdd0fa47a2.png) ![Image brush flipped](../designers/media/38ae3691-f3f1-4a1e-82ca-c7fa164bf56e.png)
+![Image brush](../designers/media/81f84f56-906d-456b-8288-d77da1e01e31.png)
+
+![mage brush tiled](../designers/media/d3782ca8-64da-47a4-a095-c6cdd0fa47a2.png)
+
+![Image brush flipped](../designers/media/38ae3691-f3f1-4a1e-82ca-c7fa164bf56e.png)
 
 Create a drawing brush by using a vector drawing such as a path or shape. The following illustrations show the drawing brush, the drawing brush tiled, and the drawing brush flipped.
 
-![Drawing brush](../designers/media/197666ac-ef57-4c5c-9779-669e991a00a5.png) ![Drawing brush tiled](../designers/media/ba09cda3-4cee-40ba-b3d4-edc032158bdc.png) ![Drawing brush flipped](../designers/media/15bf6021-620c-4490-9eae-086153d3f14f.png)
+![Drawing brush](../designers/media/197666ac-ef57-4c5c-9779-669e991a00a5.png)
+
+![Drawing brush tiled](../designers/media/ba09cda3-4cee-40ba-b3d4-edc032158bdc.png)
+
+![Drawing brush flipped](../designers/media/15bf6021-620c-4490-9eae-086153d3f14f.png)
 
 Create a visual brush from a control such as a button. The following illustrations show the visual brush, and the visual brush tiled.
 
-![Visual brush](../designers/media/fb6c90e0-153c-48fe-b563-e601beac6227.png) ![Visual brush tiled](../designers/media/e261b99f-7d8f-4d91-bc84-19c7beccc255.png)
+![Visual brush](../designers/media/fb6c90e0-153c-48fe-b563-e601beac6227.png)
+
+![Visual brush tiled](../designers/media/e261b99f-7d8f-4d91-bc84-19c7beccc255.png)
 
 ## Styles and templates: Create a consistent look and feel across controls
 
@@ -93,7 +103,9 @@ Visual states let you change the appearance of a control based on its state. Con
 
 You can convert just about anything in your project to a resource. A resource is just an object that you can reuse in different places in your application. For example, you can create a color one time, make it a resource, and then use that color on several objects. To change the color of all of those objects, just change the color resource.
 
-![Convert color to resource button](../designers/media/89203705-cf66-46e0-b153-52a23cd744f7.png) ![Create Color Resource dialog box](../designers/media/6bff8b19-3cd5-41a0-bbf9-ff65532d5aae.png)
+![Convert color to resource button](../designers/media/89203705-cf66-46e0-b153-52a23cd744f7.png)
+
+![Create Color Resource dialog box](../designers/media/6bff8b19-3cd5-41a0-bbf9-ff65532d5aae.png)
 
 ## Related content
 

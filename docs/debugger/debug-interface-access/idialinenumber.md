@@ -1,6 +1,6 @@
 ---
-description: "Accesses information that describes the process of mapping from a block of bytes of image text to a source file line number."
-title: "IDiaLineNumber"
+description: Accesses information that describes the process of mapping from a block of bytes of image text to a source file line number.
+title: IDiaLineNumber
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,17 +12,17 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaLineNumber
 
 Accesses information that describes the process of mapping from a block of bytes of image text to a source file line number.
 
 ## Syntax
 
-```
-IDiaLineNumber : IUnknown
-```
+`IDiaLineNumber : IUnknown`
 
 ## Methods in Vtable Order
+
 The following table shows the methods of `IDiaLineNumber`.
 
 |Method|Description|
@@ -45,12 +45,14 @@ The following table shows the methods of `IDiaLineNumber`.
 ## Remarks
 
 ## Notes for Callers
+
 Obtain this interface by calling the [IDiaEnumLineNumbers::Item](../../debugger/debug-interface-access/idiaenumlinenumbers-item.md) or [IDiaEnumLineNumbers::Next](../../debugger/debug-interface-access/idiaenumlinenumbers-next.md) methods.
 
 ## Example
+
 The following function displays line numbers used in a function (represented by `pSymbol`).
 
-```C++
+```c++
 void dumpFunctionLines( IDiaSymbol* pSymbol, IDiaSession* pSession )
 {
     ULONGLONG length = 0;
@@ -129,6 +131,7 @@ void dumpFunctionLines( IDiaSymbol* pSymbol, IDiaSession* pSession )
 ```
 
 ## Requirements
+
 Header: Dia2.h
 
 Library: diaguids.lib
@@ -136,6 +139,7 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See also
+
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
 - [IDiaEnumLineNumbers::Item](../../debugger/debug-interface-access/idiaenumlinenumbers-item.md)

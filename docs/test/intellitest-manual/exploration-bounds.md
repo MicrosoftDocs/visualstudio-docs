@@ -63,8 +63,7 @@ Typically, the reason for a timeout is that IntelliTest is trying to find a solu
 
 The maximum number of branches that may be taken along a single execution path.
 
-The motivation behind this exploration bound is to limit the length of any execution path that IntelliTest explores during [input generation](input-generation.md). In particular, it prevents IntelliTest from becoming unresponsive
-if the program goes into an infinite loop.
+The motivation behind this exploration bound is to limit the length of any execution path that IntelliTest explores during [input generation](input-generation.md). In particular, it prevents IntelliTest from becoming unresponsive if the program goes into an infinite loop.
 
 Each conditional and unconditional branch of the executed and monitored code is counted towards this limit, including branches which do not depend on the inputs of the parameterized test.
 
@@ -79,8 +78,7 @@ for (int i=0; i<100; i++) { }
 
 The maximum number of calls that may be made during a single execution path.
 
-The motivation behind this exploration bound is to limit the length of any execution path that IntelliTest explores during [input generation](input-generation.md). In particular, it prevents IntelliTest from becoming unresponsive
-if the program calls a method recursively an infinite number of times, which would cause a stack overflow that IntelliTest cannot recover from.
+The motivation behind this exploration bound is to limit the length of any execution path that IntelliTest explores during [input generation](input-generation.md). In particular, it prevents IntelliTest from becoming unresponsive if the program calls a method recursively an infinite number of times, which would cause a stack overflow that IntelliTest cannot recover from.
 
 Each call (direct, indirect, virtual, jump) of the executed and monitored code is counted towards this limit.
 

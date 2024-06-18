@@ -29,17 +29,13 @@ The Visual Studio SDK provides the information that you need to create and custo
 - ATL COM
 
 ## In this section
- [Roadmap for extending the debugger](../../extensibility/debugger/roadmap-for-extending-the-debugger.md)
- Outlines the process of implementing debugging in your product, depending on your compiler and its output.
 
- [Debugger components](../../extensibility/debugger/debugger-components.md)
- Provides an overview of the Visual Studio debugging components, which include the debug engine (DE), expression evaluator (EE), and symbol handler (SH).
+[Roadmap for extending the debugger](../../extensibility/debugger/roadmap-for-extending-the-debugger.md) outlines the process of implementing debugging in your product, depending on your compiler and its output.
 
- [Debugger concepts](../../extensibility/debugger/debugger-concepts.md)
- Describes the main debugging architectural concepts.
+ [Debugger components](../../extensibility/debugger/debugger-components.md) provides an overview of the Visual Studio debugging components, which include the debug engine (DE), expression evaluator (EE), and symbol handler (SH).
 
- [Debugger contexts](../../extensibility/debugger/debugger-contexts.md)
- Explains how the debug engine (DE) operates simultaneously within code, documentation, and expression evaluation contexts. Describes, for each of the three contexts, the location, position, or evaluation relevant to it.
+ [Debugger concepts](../../extensibility/debugger/debugger-concepts.md) describes the main debugging architectural concepts.
 
- [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)
- Contains links to various debugging tasks, such as launching a program and evaluating expressions.
+ [Debugger contexts](../../extensibility/debugger/debugger-contexts.md) explains how the debug engine (DE) operates simultaneously within code, documentation, and expression evaluation contexts. Describes, for each of the three contexts, the location, position, or evaluation relevant to it.
+
+ [Debugging tasks](../../extensibility/debugger/debugging-tasks.md) contains links to various debugging tasks, such as launching a program and evaluating expressions.

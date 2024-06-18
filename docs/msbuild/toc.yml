@@ -178,7 +178,7 @@ items:
         href: customize-solution-build.md
       - name: Customize all .NET builds
         href: customize-net-builds.md
-      - name: Customize all C++ builds
+      - name: Customize C++ builds
         href: customize-cpp-builds.md
       - name: Handle code generation
         href: customize-builds-for-generated-files.md
