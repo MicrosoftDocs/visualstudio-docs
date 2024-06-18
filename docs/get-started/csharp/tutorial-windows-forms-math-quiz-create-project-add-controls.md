@@ -2,7 +2,7 @@
 title: "Tutorial: Create a 'math quiz' Windows Forms App"
 description: Create a C# or Visual Basic Windows Forms project for a math quiz application and use Visual Studio to add UI controls to a form.
 ms.custom: vs-acquisition
-ms.date: 06/14/2024
+ms.date: 06/18/2024
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
