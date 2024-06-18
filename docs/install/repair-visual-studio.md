@@ -2,7 +2,7 @@
 title: Repair your Visual Studio installation
 titleSuffix: ''
 description: Repair or update your Visual Studio installation with the Visual Studio Installer, resolve issues with available fixes, and reacquire necessary files.
-ms.date: 05/30/2024
+ms.date: 06/18/2024
 ms.custom: vs-acquisition
 ms.topic: how-to
 author: anandmeg
