@@ -105,7 +105,7 @@ It's time to start developing. Add a button control, add an action to the button
 
 1. In the **Solution Explorer**, double-click `MainPage.xaml` to open a split view.
 
-   :::image type="content" source="media/vs-2019/uwp-solution-explorer-mainpage-xaml.png" alt-text="Screenshot of the Solution Explorer window showing the properties, references, assets, and files in the HelloWorld project with the file MainPage.xaml is selected.":::
+   :::image type="content" source="media/vs-2019/uwp-solution-explorer-mainpage-xaml.png" alt-text="Screenshot of the Solution Explorer window showing the properties, references, assets, and files in the HelloWorld project with the file MainPage.xaml selected.":::
 
    There are two panes: The **XAML Designer**, which includes a design canvas, and the **XAML Editor**, where you can add or change code.
 

@@ -172,7 +172,7 @@ The first part of the quiz is an addition problem. This section shows you how to
 
 1. Line up the **NumericUpDown** control with the **Label** controls for the addition problem.
 
-   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/addition-problem.png" alt-text="Screenshot that shows the first row of the math quiz, with labels visible and a control with arrow keys displays a zero.":::
+   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/addition-problem.png" alt-text="Screenshot that shows the first row of the math quiz, with labels visible and a control with arrow keys that displays a zero.":::
 
 ## Add controls for the subtraction, multiplication, and division problems
 
