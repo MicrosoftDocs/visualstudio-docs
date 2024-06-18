@@ -4,7 +4,7 @@ titleSuffix: ''
 description: Learn how to install Visual Studio quickly. To reduce the installation footprint, choose your preferred features.
 ms.date: 06/18/2024
 ms.custom: vs-acquisition
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 helpviewer_keywords:
 - install Visual Studio
 - dev15
@@ -60,7 +60,7 @@ Before you begin installing Visual Studio:
 
 - Check the [system requirements](/visualstudio/releases/2019/system-requirements). These requirements help you know whether your computer supports Visual Studio 2019.
 
-- Make sure that the user who perform the initial installation has administrator permissions on the machine. For more information, see [User permissions and Visual Studio](/visualstudio/ide/user-permissions-and-visual-studio).
+- Make sure that the user who performs the initial installation has administrator permissions on the machine. For more information, see [User permissions and Visual Studio](/visualstudio/ide/user-permissions-and-visual-studio).
 
 - Apply the latest Windows updates. These updates ensure that your computer has both the latest security updates and the required system components for Visual Studio.
 
@@ -154,7 +154,7 @@ If you downloaded a bootstrapper file, you can use it to install Visual Studio. 
 
 ::: moniker-end
 
-Visual Studio Installer opens. You can also install of any product that [Visual Studio Installer's Available tab](install-visual-studio-versions-side-by-side.md#install-different-editions-of-the-same-major-visual-studio-version-side-by-side) offers.
+Visual Studio Installer opens. You can also install any product that [Visual Studio Installer's Available tab](install-visual-studio-versions-side-by-side.md#install-different-editions-of-the-same-major-visual-studio-version-side-by-side) offers.
 
 ## Step 4 - Choose workloads
 
@@ -315,4 +315,3 @@ Visual Studio opens your new project, and you're ready to code!
 - [Uninstall Visual Studio](uninstall-visual-studio.md)
 - [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)
 - [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
-- [Install Visual Studio for Mac](/visualstudio/mac/installation)
