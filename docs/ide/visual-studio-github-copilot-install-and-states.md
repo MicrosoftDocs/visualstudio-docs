@@ -1,7 +1,7 @@
 ---
 title: Install and manage GitHub Copilot in Visual Studio
 description: Install GitHub Copilot in Visual Studio and manage copilot state by using the Copilot badge in the IDE.
-ms.date: 5/22/2024
+ms.date: 6/14/2024
 ms.topic: install-set-up-deploy
 author: anandmeg
 ms.author: meghaanand
@@ -122,6 +122,24 @@ Select **Install Copilot** from the dropdown to install Copilot.
 If you choose to not install Copilot, you can select **Hide Copilot** from the dropdown to hide the Copilot status icon from the IDE.
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-not-installed.png" alt-text="Screenshot of Copilot badge when Copilot isn't installed.":::
+
+## Disable Copilot
+
+### Hide Copilot badge
+
+You can hide the GitHub Copilot badge in the Visual Studio IDE by unselecting **Tools** > **Options** > **Environment** > **Hide Copilot menu badge**.
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/hide-copilot-badge.png" alt-text="Screenshot of option to hide copilot badge in Tools > Options.":::
+
+### Uninstall Copilot
+
+You can remove the GitHub Copilot component from your Visual Studio instance by using the Visual Studio Installer.
+
+1. Launch the Visual Studio Installer by selecting **Tools** > **Get Tools and Features**.
+1. Select **Individual components**.
+1. Type "copilot" in the search box.
+1. Uncheck **GitHub Copilot** and select **Modify**.
+1. Restart Visual Studio, and select **Hide Copilot** from the Copilot status icon dropdown to hide the badge.
 
 ## Next steps
 
