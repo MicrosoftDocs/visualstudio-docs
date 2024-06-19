@@ -18,6 +18,8 @@
     href: memory-usage.md
   - name: Beginner's guide to optimizing code
     href: optimize-code-using-profiling-tools.md
+  - name: Isolate a performance issue
+    href: isolate-performance-issue.md
 - name: Concepts
   items:
   - name: Understanding performance collection methods
@@ -94,6 +96,24 @@
       href: instrumentation-overview.md
     - name: Analyze instrumentation data
       href: instrumentation.md
+  - name: .NET Counters
+    href: dotnet-counters-tool.md
+  - name: File IO
+    href: use-file-io.md
+  - name: PerfTips
+    href: perftips.md
+  - name: .NET Async
+    href: analyze-async.md
+  - name: Database
+    href: analyze-database.md
+  - name: Events Viewer
+    href: events-viewer.md
+  - name: Analyze Resource Consumption
+    href: application-timeline.md
+  - name: BenchmarkDotNet
+    href: profiling-with-benchmark-dotnet.md
+  - name: Analyze GPU usage
+    href: gpu-usage.md
   - name: Measure performance from the command-line
     items:
     - name: Measure performance from the command-line
@@ -104,29 +124,11 @@
       items:
       - name: VSInstr
         href: vsinstr.md
-  - name: File IO
-    href: use-file-io.md
-  - name: PerfTips
-    href: perftips.md
-  - name: .NET Async
-    href: analyze-async.md
-  - name: .NET Counters
-    href: dotnet-counters-tool.md
-  - name: Database
-    href: analyze-database.md
-  - name: Events Viewer
-    href: events-viewer.md
-  - name: Analyze GPU usage
-    href: gpu-usage.md
-  - name: Analyze Resource Consumption
-    href: application-timeline.md
-  - name: BenchmarkDotNet
-    href: profiling-with-benchmark-dotnet.md
   - name: Concurrency Visualizer
     items:
     - name: Overview of Concurrency Visualizer
       href: concurrency-visualizer.md
-    - name: Common patterns for poorly-behaved multithreaded applications
+    - name: Common patterns for poorly behaved multithreaded applications
       href: common-patterns-for-poorly-behaved-multithreaded-applications.md
     - name: Utilization Navigator
       href: utilization-navigator.md
