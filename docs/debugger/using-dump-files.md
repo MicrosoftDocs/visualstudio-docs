@@ -97,7 +97,7 @@ Visual Studio automatically searches these locations for *.exe* files that aren'
 
 1. The folder that contains the dump file.
 2. The module path the dump file specifies, which is the module path on the machine that collected the dump.
-3. The symbol paths specified in **Tools** (or **Debug**) > **Options** > **Debugging** > **Symbols**. You can also open the **Symbols** page from the **Actions** pane of the **Dump File Summary** window. On this page, you can add more locations to search.
+3. The symbol paths specified in **Tools** (or **Debug**) > **Options** > **Debugging** > **Symbols**. You can also open the **Symbols** page from the **Actions** panel of the **Dump File Summary** window. On this page, you can add more locations to search.
 
 ### Use the No Binary, No Symbols, or No Source Found pages
 
