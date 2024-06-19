@@ -20,26 +20,19 @@ Projects and solutions are the ways Visual Studio organizes code and resource fi
  The topics in this section describe how to create custom projects and how to manage different types of Visual Studio solution.
 
 ## In this section
-- [Create a basic project system, part 1](../extensibility/creating-a-basic-project-system-part-1.md)
- Describes how to create a custom project system.
 
-- [Create a basic project system, part 2](../extensibility/creating-a-basic-project-system-part-2.md)
- Describes how to create a custom project system.
+- [Create a basic project system, part 1](../extensibility/creating-a-basic-project-system-part-1.md) describes how to create a custom project system.
 
-- [Save data in project files](../extensibility/saving-data-in-project-files.md)
- Explains how add to project (<em>.</em>proj*) files.
+- [Create a basic project system, part 2](../extensibility/creating-a-basic-project-system-part-2.md) describes how to create a custom project system.
 
-- [Verify subtypes of a project at run time](../extensibility/verifying-subtypes-of-a-project-at-run-time.md)
- Explains how to verify the subtype of a project at run time.
+- [Save data in project files](../extensibility/saving-data-in-project-files.md) explains how add to project (<em>.</em>proj*) files.
 
-- [Add and remove property pages](../extensibility/adding-and-removing-property-pages.md)
- Explains how to customize the property pages for your custom project.
+- [Verify subtypes of a project at run time](../extensibility/verifying-subtypes-of-a-project-at-run-time.md) explains how to verify the subtype of a project at run time.
 
-- [Add an attribute to a project item](../extensibility/adding-an-attribute-to-a-project-item.md)
- Explains how to add an attribute to a custom project item.
+- [Add and remove property pages](../extensibility/adding-and-removing-property-pages.md) explains how to customize the property pages for your custom project.
 
-- [Persist the property of a project item](../extensibility/persisting-the-property-of-a-project-item.md)
- Explains how to persist the properties of a custom project item.
+- [Add an attribute to a project item](../extensibility/adding-an-attribute-to-a-project-item.md) explains how to add an attribute to a custom project item.
 
-- [Manage universal Windows projects](../extensibility/managing-universal-windows-projects.md)
- Explains how to manage universal projects.
+- [Persist the property of a project item](../extensibility/persisting-the-property-of-a-project-item.md) explains how to persist the properties of a custom project item.
+
+- [Manage universal Windows projects](../extensibility/managing-universal-windows-projects.md) explains how to manage universal projects.

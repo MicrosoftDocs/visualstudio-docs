@@ -1,7 +1,7 @@
 ---
 title: Debug with GitHub Copilot
 description: Use Copilot to help debug your apps and provide performance insights.
-ms.date: 04/09/2024
+ms.date: 05/21/2024
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -25,9 +25,10 @@ In this article, you'll learn how to debug more efficiently using GitHub Copilot
 In addition, Copilot provides more precise help for a few targeted scenarios including the following:
 
 - Exceptions
+- Deadlocks
 - Auto Insights for CPU Usage
 
-To get AI assistance while you're debugging in these scenarios, look for the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In these scenarios, Copilot already knows the context for your questions. For example, it knows the current call stack, the code line you are asking about, and the name of the exception (if one occurred), so you don't need to provide context yourself in chat.
+To get AI assistance while you're debugging in these scenarios, look for the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In these scenarios, Copilot already knows the context for your questions. For example, it knows the current call stack, the code line you are asking about, and the name of the exception (if one occurred), so you don't need to provide context yourself in chat. Copilot also provides suggestions for the use of conditional breakpoints and tracepoints.
 
 For more information on GitHub Copilot Completions in Visual Studio, see [About GitHub Copilot Completions in Visual Studio](../ide/visual-studio-github-copilot-extension.md).
 
@@ -110,6 +111,9 @@ The following simple example shows how to get AI assistance using the inline Cha
 
    If Copilot has a suggested fix for your code, it shows you. If not, you can ask Copilot for a code suggestion.
 
+   > [!TIP]
+   > In the inline Chat, use the "#" symbol and select from the drop-down list to hand off specific information to Copilot while you reference it in your question. For example, if you select a portion of code, and then type #, you can choose that selection from the **#** drop-down list. You can also use the "#" symbol to reference IDE features that appear in the drop-down list, such as the Locals window.
+
 1. In this example, scroll to the end of the Copilot answer and select the follow-up question at the end of the inline Chat window, "How can I handle the case when no arguments are passed to the program?"
 
    ![Screenshot of Copilot follow-up question.](../debugger/media/vs-2022/debug-with-copilot-inline-chat-generated-question.png)
@@ -157,6 +161,54 @@ The following simple example shows how to get AI assistance when you encounter a
 1. Restart the debugger.
 
    This time, no exception occurs. It has been fixed!
+
+## Get AI assistance with conditional breakpoints and tracepoints
+
+Copilot gives you suggestions for [conditional breakpoints](../debugger/using-breakpoints.md#breakpoint-conditions) and [tracepoints](../debugger/using-tracepoints.md) that are specific to your code.
+
+In this example, we show AI suggestions for a conditional breakpoint. For tracepoints, the AI assistance works in the same way.
+
+1. Remove the current breakpoint by clicking it or right-click and choose **Delete Breakpoint**.
+
+1. Replace the following line of code:
+
+   ```csharp
+   names.Add("Major Major Major");
+   ```
+
+   with this:
+
+   ```csharp
+   // names.Add("Major Major Major");
+   foreach (var item in args)
+   {
+      names.Add("Name: " + item);
+   }
+   ```
+
+1. To the left of the `names.Add("Name: " + item)` statement, right-click in the gutter and choose **Insert Conditional Breakpoint**.
+
+1. Select the expression field and Copilot starts working on suggestions.
+
+   ![Screenshot of Copilot working on conditional breakpoint suggestions.](../debugger/media/vs-2022/debug-with-copilot-breakpoint-ask-copilot.png)
+
+1. When the suggestions appear, choose one such as `item == "John"`. Edit the suggestion so the name is `Fred`.
+
+   ![Screenshot of Copilot suggestion for conditional breakpoint.](../debugger/media/vs-2022/debug-with-copilot-breakpoint-suggestion.png)
+
+1. To test the conditional expression:
+
+   1. Right-click the **ConsoleApp_Copilot** project in Solution Explorer and choose **Properties**.
+   
+   1. Select **Debug** > **General** > **Open debug launch profiles UI**.
+   
+   1. In the **Command-line arguments** field, enter `5 Fred Joe`, on three separate lines.
+
+      ![Screenshot of entering command-line arguments for the project.](../debugger/media/vs-2022/debug-with-copilot-breakpoint-arguments.png)
+
+   1. Restart the debugger.
+   
+   When the debugger pauses at the breakpoint, check the value of `item` and verify that the current value is `Fred`.
 
 ## Get AI assistance for auto insights
 

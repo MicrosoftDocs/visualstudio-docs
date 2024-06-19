@@ -1,7 +1,7 @@
 ---
 title: About GitHub Copilot Chat in Visual Studio
 description: Learn about the fully integrated AI-powered GitHub Copilot Chat extension in Visual Studio, and how you can use the chat interface to ask and receive answers to coding-related questions from right within the IDE.
-ms.date: 5/14/2024
+ms.date: 5/22/2024
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
@@ -38,11 +38,14 @@ To get started, you need:
 
 ## Get GitHub Copilot Chat for Visual Studio
 
-- If you're using Visual Studio version 17.10 Preview 3 or later, GitHub Copilot Chat is included in the [new unified GitHub Copilot extension](visual-studio-github-copilot-install-and-states.md#get-github-copilot-for-visual-studio-2022-version-1710-preview-3-or-later) available as a recommended component in the Visual Studio Installer. It is installed by default with all workloads, unless you choose to exclude it during installation.
+- If you're using Visual Studio version 17.10 or later, GitHub Copilot Chat is included in the [new unified GitHub Copilot extension](visual-studio-github-copilot-install-and-states.md#get-github-copilot-for-visual-studio-2022-version-1710-or-later) available as a recommended component in the Visual Studio Installer. It is installed by default with all workloads, unless you choose to exclude it during installation.
 - If you're using Visual Studio versions 17.9 or earlier, [install the GitHub Copilot Chat extension](visual-studio-github-copilot-install-and-states.md#install-github-copilot-chat).
 
    > [!NOTE]
-   > If you experience authentication issues after installing the extension, see [Troubleshooting authentication issues with GitHub Copilot Chat](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-authentication-issues-with-github-copilot-chat).
+   > * If you experience authentication issues after installing the extension, see [Troubleshooting authentication issues with GitHub Copilot Chat](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-authentication-issues-with-github-copilot-chat).
+   > * GitHub Copilot is not included in Visual Studio Subscriptions and is a separate subscription managed by GitHub. For questions regarding GitHub Copilot subscriptions and Support, see [Individual Subscriptions](https://docs.github.com/en/billing/managing-billing-for-github-copilot/managing-your-github-copilot-business-subscription) or [Business subscriptions](https://docs.github.com/en/billing/managing-billing-for-github-copilot/managing-your-github-copilot-individual-subscription).
+
+Support for GitHub Copilot Chat will be provided by GitHub and can be reached at https://support.github.com.
 
 ## Use Copilot Chat in Visual Studio
 
@@ -101,3 +104,4 @@ To learn more, consider exploring the following resources:
 - [GitHub Copilot Chat extension: Getting started](https://docs.github.com/copilot/getting-started-with-github-copilot?tool=visualstudio)
 - [GitHub Copilot: Your AI pair programmer](https://github.com/features/copilot)
 - [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/)
+- [Support for GitHub Copilot Chat](https://support.github.com)

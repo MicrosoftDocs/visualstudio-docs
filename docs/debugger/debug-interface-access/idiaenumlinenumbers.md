@@ -1,6 +1,6 @@
 ---
-description: "Enumerates the various line numbers contained in the data source."
-title: "IDiaEnumLineNumbers"
+description: Enumerates the various line numbers contained in the data source.
+title: IDiaEnumLineNumbers
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,17 +12,17 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumLineNumbers
 
 Enumerates the various line numbers contained in the data source.
 
 ## Syntax
 
-```
-IDiaEnumLineNumbers : IUnknown
-```
+`IDiaEnumLineNumbers : IUnknown`
 
 ## Methods in Vtable Order
+
 The following table shows the methods of `IDiaEnumLineNumbers`.
 
 |Method|Description|
@@ -38,6 +38,7 @@ The following table shows the methods of `IDiaEnumLineNumbers`.
 ## Remarks
 
 ## Notes for Callers
+
 This interface is obtained by calling one of the following methods in the [IDiaSession](../../debugger/debug-interface-access/idiasession.md) interface:
 
 - [IDiaSession::findLines](../../debugger/debug-interface-access/idiasession-findlines.md)
@@ -51,9 +52,10 @@ This interface is obtained by calling one of the following methods in the [IDiaS
 - [IDiaSession::findLinesByLinenum](../../debugger/debug-interface-access/idiasession-findlinesbylinenum.md)
 
 ## Example
+
 This example shows how to obtain the `IDiaEnumLineNumbers` interface from a session. In this case, the example shows how to get the line number enumeration for a function (represented by `pSymbol`). For a more complete example of using line numbers, see the [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md) interface.
 
-```C++
+```c++
 void dumpFunctionLines( IDiaSymbol* pSymbol, IDiaSession* pSession )
 {
     ULONGLONG length = 0;
@@ -80,6 +82,7 @@ void dumpFunctionLines( IDiaSymbol* pSymbol, IDiaSession* pSession )
 ```
 
 ## Requirements
+
 Header: Dia2.h
 
 Library: diaguids.lib
@@ -87,6 +90,7 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See also
+
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
 - [IDiaSession::findLinesByLinenum](../../debugger/debug-interface-access/idiasession-findlinesbylinenum.md)

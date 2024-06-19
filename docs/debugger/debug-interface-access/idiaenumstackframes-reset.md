@@ -1,5 +1,5 @@
 ---
-description: "Resets the enumeration sequence of stack frames to the beginning."
+description: Resets the enumeration sequence of stack frames to the beginning.
 title: "IDiaEnumStackFrames::Reset"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,18 +12,21 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumStackFrames::Reset
 
 Resets the enumeration sequence to the beginning.
 
 ## Syntax
 
-```C++
+```c++
 HRESULT Reset();
 ```
 
 ## Return Value
- Returns `S_OK`.
+
+Returns `S_OK`.
 
 ## See also
+
 - [IDiaEnumStackFrames](../../debugger/debug-interface-access/idiaenumstackframes.md)

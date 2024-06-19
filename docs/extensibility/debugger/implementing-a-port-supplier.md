@@ -18,11 +18,10 @@ A port supplier supplies ports on request to the session debug manager (SDM). A 
  For debugging programs on Windows-based machines (including remote debugging), Visual Studio provides port suppliers for native and Common Language Runtime (CLR) processes, so there is no need to set up your own port supplier in those cases.
 
 ## In this section
- [Implement and register a port supplier](../../extensibility/debugger/implementing-and-registering-a-port-supplier.md)
- Discusses how the SDM interacts with the port supplier and its ports.
 
- [Required port supplier interfaces](../../extensibility/debugger/required-port-supplier-interfaces.md)
- Documents the interfaces you must implement to get a port supplier.
+[Implement and register a port supplier](../../extensibility/debugger/implementing-and-registering-a-port-supplier.md) discusses how the SDM interacts with the port supplier and its ports.
+
+ [Required port supplier interfaces](../../extensibility/debugger/required-port-supplier-interfaces.md) documents the interfaces you must implement to get a port supplier.
 
 ## Related content
 - [Debugger concepts](../../extensibility/debugger/debugger-concepts.md) describes the main debugging architectural concepts.

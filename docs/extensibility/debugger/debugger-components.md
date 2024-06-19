@@ -33,39 +33,30 @@ The Visual Studio debugger is implemented as a VSPackage and manages the entire 
   ![Debugging Components Overview](../../extensibility/debugger/media/dbugcompovrview.gif "DBugCompOvrview")
 
 ## In this section
- [Debug package](../../extensibility/debugger/debug-package.md)
- Discusses the debug package, which runs in the Visual Studio shell and handles all of the UI.
 
- [Process debug manager](../../extensibility/debugger/process-debug-manager.md)
- Provides an overview of the features of the PDM, which is the manager of the processes that can be debugged.
+[Debug package](../../extensibility/debugger/debug-package.md) discusses the debug package, which runs in the Visual Studio shell and handles all of the UI.
 
- [Session debug manager](../../extensibility/debugger/session-debug-manager.md)
- Defines the SDM, which provides a unified view of the debug session to the IDE. The SDM manages the DE.
+ [Process debug manager](../../extensibility/debugger/process-debug-manager.md) provides an overview of the features of the PDM, which is the manager of the processes that can be debugged.
 
- [Debug engine](../../extensibility/debugger/debug-engine.md)
- Documents the debugging services that the DE provides.
+ [Session debug manager](../../extensibility/debugger/session-debug-manager.md) defines the SDM, which provides a unified view of the debug session to the IDE. The SDM manages the DE.
 
- [Operational modes](../../extensibility/debugger/operational-modes.md)
- Provides an overview of the three modes in which the IDE can operate: design mode, run mode, and break mode. Transition mechanisms are also discussed.
+ [Debug engine](../../extensibility/debugger/debug-engine.md) documents the debugging services that the DE provides.
 
- [Expression evaluator](../../extensibility/debugger/expression-evaluator.md)
- Explains the purpose of the EE at run time.
+ [Operational modes](../../extensibility/debugger/operational-modes.md) provides an overview of the three modes in which the IDE can operate: design mode, run mode, and break mode. Transition mechanisms are also discussed.
 
- [Symbol provider](../../extensibility/debugger/symbol-provider.md)
- Discusses how, at implementation, the symbol provider evaluates variables and expressions.
+ [Expression evaluator](../../extensibility/debugger/expression-evaluator.md) explains the purpose of the EE at run time.
 
- [Type visualizer and custom viewer](../../extensibility/debugger/type-visualizer-and-custom-viewer.md)
- Discusses what a type visualizer and custom viewer are and what role the expression evaluator plays in supporting both.
+ [Symbol provider](../../extensibility/debugger/symbol-provider.md) discusses how, at implementation, the symbol provider evaluates variables and expressions.
+
+ [Type visualizer and custom viewer](../../extensibility/debugger/type-visualizer-and-custom-viewer.md) discusses what a type visualizer and custom viewer are and what role the expression evaluator plays in supporting both.
 
 ## Related sections
- [Debugger concepts](../../extensibility/debugger/debugger-concepts.md)
- Describes the main debugging architectural concepts.
 
- [Debugger contexts](../../extensibility/debugger/debugger-contexts.md)
- Explains how the DE operates simultaneously within code, documentation, and expression evaluation contexts. Describes, for each of the three contexts, the location, position, or evaluation relevant to it.
+[Debugger concepts](../../extensibility/debugger/debugger-concepts.md) describes the main debugging architectural concepts.
 
- [Debug tasks](../../extensibility/debugger/debugging-tasks.md)
- Contains links to various debugging tasks, such as launching a program and evaluating expressions.
+ [Debugger contexts](../../extensibility/debugger/debugger-contexts.md) explains how the DE operates simultaneously within code, documentation, and expression evaluation contexts. Describes, for each of the three contexts, the location, position, or evaluation relevant to it.
+
+ [Debug tasks](../../extensibility/debugger/debugging-tasks.md) contains links to various debugging tasks, such as launching a program and evaluating expressions.
 
 ## See also
 - [Get started](../../extensibility/debugger/getting-started-with-debugger-extensibility.md)

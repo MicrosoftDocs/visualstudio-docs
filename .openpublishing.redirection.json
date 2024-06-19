@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md",
+      "redirect_url": "/visualstudio/ide/understanding-build-configurations",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "docs/msbuild/logging-in-a-multi-processor-environment.md",
       "redirect_url": "/visualstudio/msbuild/writing-multi-processor-aware-loggers",
       "redirect_document_id": "false"
@@ -5544,6 +5549,21 @@
     {
       "source_path": "docs/debugger/getting-started-with-visual-studio-graphics-diagnostics.md",
       "redirect_url": "/visualstudio/debugger/graphics/getting-started-with-visual-studio-graphics-diagnostics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/collecting-detailed-timing-data-for-a-stand-alone-application.md",
+      "redirect_url": "/visualstudio/profiling/profile-apps-from-command-line",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/instrument-dotnet-framework-component-and-collect-timing-data.md",
+      "redirect_url": "/visualstudio/profiling/profile-apps-from-command-line",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/vsperfcmd.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/profiling/vsperfcmd",
       "redirect_document_id": false
     },
     {
@@ -17878,162 +17898,162 @@
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugapplicationnodes-clone.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugapplicationnodes-clone",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugapplicationnodes-clone",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugapplicationnodes-interface.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugapplicationnodes-interface",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugapplicationnodes-interface",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugapplicationnodes-next.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugapplicationnodes-next",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugapplicationnodes-next",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugapplicationnodes-reset.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugapplicationnodes-reset",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugapplicationnodes-reset",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugapplicationnodes-skip.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugapplicationnodes-skip",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugapplicationnodes-skip",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugcodecontexts-clone.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugcodecontexts-clone",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugcodecontexts-clone",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugcodecontexts-interface.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugcodecontexts-interface",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugcodecontexts-interface",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugcodecontexts-next.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugcodecontexts-next",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugcodecontexts-next",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugcodecontexts-reset.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugcodecontexts-reset",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugcodecontexts-reset",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugcodecontexts-skip.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugcodecontexts-skip",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugcodecontexts-skip",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugexpressioncontexts-clone.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugexpressioncontexts-clone",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugexpressioncontexts-clone",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugexpressioncontexts-interface.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugexpressioncontexts-interface",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugexpressioncontexts-interface",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugexpressioncontexts-next.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugexpressioncontexts-next",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugexpressioncontexts-next",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugexpressioncontexts-reset.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugexpressioncontexts-reset",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugexpressioncontexts-reset",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugexpressioncontexts-skip.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugexpressioncontexts-skip",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugexpressioncontexts-skip",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugextendedpropertyinfo-clone.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugextendedpropertyinfo-clone",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugextendedpropertyinfo-clone",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugextendedpropertyinfo-getcount.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugextendedpropertyinfo-getcount",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugextendedpropertyinfo-getcount",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugextendedpropertyinfo-interface.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugextendedpropertyinfo-interface",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugextendedpropertyinfo-interface",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugextendedpropertyinfo-next.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugextendedpropertyinfo-next",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugextendedpropertyinfo-next",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugextendedpropertyinfo-reset.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugextendedpropertyinfo-reset",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugextendedpropertyinfo-reset",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugextendedpropertyinfo-skip.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugextendedpropertyinfo-skip",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugextendedpropertyinfo-skip",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugpropertyinfo-clone.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugpropertyinfo-clone",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugpropertyinfo-clone",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugpropertyinfo-getcount.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugpropertyinfo-getcount",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugpropertyinfo-getcount",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugpropertyinfo-interface.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugpropertyinfo-interface",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugpropertyinfo-interface",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugpropertyinfo-next.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugpropertyinfo-next",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugpropertyinfo-next",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugpropertyinfo-reset.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugpropertyinfo-reset",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugpropertyinfo-reset",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugpropertyinfo-skip.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugpropertyinfo-skip",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugpropertyinfo-skip",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugstackframes-clone.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugstackframes-clone",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugstackframes-clone",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugstackframes-interface.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugstackframes-interface",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugstackframes-interface",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugstackframes-next.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugstackframes-next",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugstackframes-next",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugstackframes-reset.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugstackframes-reset",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugstackframes-reset",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/ienumdebugstackframes-skip.md",
-      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienebugstackframes-skip",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/ienumdebugstackframes-skip",
       "redirect_document_id": false
     },
     {

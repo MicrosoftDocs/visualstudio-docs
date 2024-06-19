@@ -6,7 +6,7 @@ ms.author: jasminewoon
 monikerRange: ">=vs-2022"
 ms.subservice: extensibility-integration
 ms.topic: conceptual
-ms.date: 02/13/2023
+ms.date: 05/01/2024
 ---
 
 # Project query API concepts
@@ -44,6 +44,7 @@ There are many different items you can reference in your project queries. Some i
 |File| Represents a file contained by a project or a solution folder.
 |ExternalFile| Represents external files referenced by a project, which isn't yet supported by C++ projects.
 |Property| Represents dynamic set (weak name/type) of properties of a project, a configuration, or a file.
+|RuleName| Represents the set of Rules in a project configuration.
 |ProjectReference| Represents project-to-project references, including shared project references.
 |PackageReference| Represents a package reference in a project configuration, typically a NuGet package reference.
 |AssemblyReference| Represents a referenced assembly in a project configuration.
@@ -72,12 +73,27 @@ Clauses in your project query determine what kind of items should be returned in
 |AsUpdatable| Starts to update object from a query result.
 |ExecuteAsync| Executes an update query.
 
+## Project Query Filtering Types
+
+Filtering types facilitate the refinement and focus of query results. Please note that certain filtering types listed below may not be available for every query item.
+
+|Term|Description
+|---|---
+|ConfigurationsByName| Filters the query results to a specific configuration name.
+|FilesByPath| Filters the query results to a specific file path.
+|OutputGroupsByName| Filters the query results to a specific output group name.
+|ProjectsByCapabilities| Filters the query to specific project capabilities.
+|ProjectsByPath| Filters the query results to a specific project path.
+|ProjectsByProjectGuid| Filters the query results to a specific project guid.
+|RuleResultsByRuleName| Filters the query to a specific rule name.
+|Skip| Executes a query result to a limited number of items by skipping.
+
 ## Project Query Action Types
 
 Actions in your project query determine what modifications are made to the project system. Note each query item types has their own actions available to them. Below is a simple list of action queries.
 
 |Term|Description
-|---|---|
+|---|---
 |AddAssemblyReference|  Represents the operation to add an assembly reference to a project.
 |AddConfigurationDimensionValue| Adds a new value to a configuration dimension (e.g. Configuration or Platform).
 |AddFiles| Represents the operation to add an existing file to the project.
@@ -121,6 +137,14 @@ Actions in your project query determine what modifications are made to the proje
 |SetUnevaluatedUIPropertyValue| Represents the operation to set the unevaluated value of a user-visible property.
 |UnloadProject| Represents the operation to unload a project.
 |WaitIntellisenseReady| Represents the operation to wait project or solution intellisense operation progress to be ready.
+
+## Project Query Updates Types
+
+These queries support the monitoring of updates made to query results.
+
+|Term|Description
+|---|---
+|TrackUpdatesAsync| Represents the operation to track changes to a query.
 
 ## Related content
 

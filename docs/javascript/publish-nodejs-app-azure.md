@@ -71,8 +71,7 @@ In this tutorial, you learn how to:
 
 To set up GitHub for Visual Studio:
 
-1. Make sure the [GitHub Extension for Visual Studio](https://visualstudio.github.com/) is installed and enabled using the
-menu item **Tools** > **Extensions and Updates**.
+1. Make sure the [GitHub Extension for Visual Studio](https://visualstudio.github.com/) is installed and enabled using the menu item **Tools** > **Extensions and Updates**.
 
 2. From the menu select **View** > **Other Windows** > **GitHub**.
 
@@ -84,8 +83,7 @@ menu item **Tools** > **Extensions and Updates**.
 
 4. Click **Get started**.
 
-    If you are already connected to GitHub, the toolbox appears similar
-to the following illustration.
+    If you are already connected to GitHub, the toolbox appears similar to the following illustration.
 
     ![GitHub repo settings](../javascript/media/azure-github-publish.png)
 
@@ -138,8 +136,7 @@ to the following illustration.
 
     Once it is finished syncing, a check mark will appear.
 
-    The site is now running the Node.js application from the GitHub repository,
-and it is accessible at the URL created for the Azure App Service (by default the name given to the Azure App Service followed by ".azurewebsites.net").
+    The site is now running the Node.js application from the GitHub repository, and it is accessible at the URL created for the Azure App Service (by default the name given to the Azure App Service followed by `.azurewebsites.net`).
 
 ## Modify your app and push changes
 
@@ -162,13 +159,10 @@ and it is accessible at the URL created for the Azure App Service (by default th
 ## Troubleshooting
 
 * If the node.exe process dies (that is, an unhandled exception occurs), the container restarts.
-* When the container starts up, it runs through various heuristics to figure out
-how to start the Node.js process. Details of the implementation can be seen at
+* When the container starts up, it runs through various heuristics to figure out how to start the Node.js process. Details of the implementation can be seen at
 [generateStartupCommand.js](https://github.com/Azure/app-service-builtin-images/blob/master/node/8.9.4/startup/generateStartupCommand.js).
-* You can connect to the running container via SSH for investigations. This is easily done using the Azure portal. Select the App Service, and scroll down
-the list of tools until reaching **SSH** under the **Development Tools** section.
-* To aid in troubleshooting, go to the **Diagnostics logs** settings for the App Service, and change the **Docker Container logging** setting
-from **Off** to **File System**. Logs are created in the container under */home/LogFiles/*_docker.log*, and can be accessed on the box using SSH or FTP(S).
+* You can connect to the running container via SSH for investigations. This is easily done using the Azure portal. Select the App Service, and scroll down the list of tools until reaching **SSH** under the **Development Tools** section.
+* To aid in troubleshooting, go to the **Diagnostics logs** settings for the App Service, and change the **Docker Container logging** setting from **Off** to **File System**. Logs are created in the container under */home/LogFiles/*_docker.log*, and can be accessed on the box using SSH or FTP(S).
 * A custom domain name might be assigned to the site, rather than the *.azurewebsites.net URL assigned by default. For more details, see the topic [Map Custom Domain](/azure/app-service/app-service-web-tutorial-custom-domain).
 * Deploying to a staging site for further testing before moving into production is a best practice. For details on how to configure this, see the topic
 [Create staging environments](/azure/app-service/web-sites-staged-publishing).

@@ -13,12 +13,10 @@ ms.subservice: extensibility-integration
 ---
 # Brokered service essentials
 
-A brokered service is a service acquired via an <xref:Microsoft.ServiceHub.Framework.IServiceBroker>,
-and is exposed as an RPC-compatible interface to enable the service and its client to exist in distinct AppDomains, processes or even across machines (in the case of Live Share).
+A brokered service is a service acquired via an <xref:Microsoft.ServiceHub.Framework.IServiceBroker>, and is exposed as an RPC-compatible interface to enable the service and its client to exist in distinct AppDomains, processes or even across machines (in the case of Live Share).
 The brokered service may be proffered from the main Visual Studio process or some of its auxiliary processes, and may be consumed by any of these processes by a Visual Studio extension.
 
-More (non-brokered) Visual Studio services are available via the <xref:System.IServiceProvider> interface
-as described in [Using and Providing Services](../using-and-providing-services.md).
+More (non-brokered) Visual Studio services are available via the <xref:System.IServiceProvider> interface as described in [Using and Providing Services](../using-and-providing-services.md).
 Such services are typically only available in the main Visual Studio process but expose a larger set of functionality than brokered services.
 
 A Visual Studio extension running on a Live Share guest may provide additional functionality by accessing a subset of these services as proffered by the Live Share host.
@@ -49,8 +47,7 @@ In some cases a service may support or require that the client offers a "target 
 ## Brokered service container
 
 Services must be proffered into the <xref:Microsoft.VisualStudio.Shell.ServiceBroker.IBrokeredServiceContainer> in order to be available from the global <xref:Microsoft.ServiceHub.Framework.IServiceBroker>.
-This service container is responsible not only for exposing the service factory to the service broker,
-but also for controlling which clients have access to the service and to notify those clients when access to that service changes.
+This service container is responsible not only for exposing the service factory to the service broker, but also for controlling which clients have access to the service and to notify those clients when access to that service changes.
 
 ## Composition of a brokered service
 
@@ -73,8 +70,7 @@ These restrictions typically include that properties and indexers are not allowe
 
 Activating a service requires knowing its moniker.
 Because the moniker is included in the service's descriptor, a client can typically just deal with the <xref:Microsoft.ServiceHub.Framework.ServiceRpcDescriptor>.
-A descriptor adds the behavior necessary to set up an RPC connection between the brokered service and its client
-or when required to serialize RPC calls to/from a <xref:System.IO.Stream>.
+A descriptor adds the behavior necessary to set up an RPC connection between the brokered service and its client or when required to serialize RPC calls to/from a <xref:System.IO.Stream>.
 
 Visual Studio recommends using the <xref:Microsoft.ServiceHub.Framework.ServiceJsonRpcDescriptor> derived type for brokered services which utilizes the StreamJsonRpc library when the client and service require RPC to communicate.
 StreamJsonRpc applies certain restrictions on the service interface as [described here](https://github.com/microsoft/vs-streamjsonrpc/blob/main/doc/dynamicproxy.md).

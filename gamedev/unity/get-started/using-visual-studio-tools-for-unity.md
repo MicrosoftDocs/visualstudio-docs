@@ -56,7 +56,7 @@ Intellisense code-completion makes it easy to implement Unity API messages in Mo
 
 :::zone pivot="windows"
 
-![Screenshot of using IntelliSense in Visual Studio.](../media/vs/intellisense-example.png)  
+![Screenshot of using IntelliSense in Visual Studio.](../media/vs/intellisense-example.png)
 
 :::zone-end
 

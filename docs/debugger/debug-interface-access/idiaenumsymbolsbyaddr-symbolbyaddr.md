@@ -1,5 +1,5 @@
 ---
-description: "Positions the enumerator by performing a lookup by image section number and offset."
+description: Positions the enumerator by performing a lookup by image section number and offset.
 title: "IDiaEnumSymbolsByAddr::symbolByAddr"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,14 +12,15 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumSymbolsByAddr::symbolByAddr
 
 Positions the enumerator by performing a lookup by image section number and offset.
 
 ## Syntax
 
-```C++
-HRESULT symbolByAddr ( 
+```c++
+HRESULT symbolByAddr ( 
    DWORD**      isect,
    DWORD**      offsect,
    IDiaSymbol** ppsymbol
@@ -27,21 +28,24 @@ HRESULT symbolByAddr ( 
 ```
 
 #### Parameters
- isect
+
+isect
 
 [in] Image section number.
 
- offsect
+offsect
 
 [in] Offset in section.
 
- ppsymbol
+ppsymbol
 
 [out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object representing the symbol found.
 
 ## Return Value
- If successful, returns `S_OK`. Returns `S_FALSE` if the symbol could not be found. Otherwise, returns an error code.
+
+If successful, returns `S_OK`. Returns `S_FALSE` if the symbol could not be found. Otherwise, returns an error code.
 
 ## See also
+
 - [IDiaEnumSymbolsByAddr](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr.md)
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

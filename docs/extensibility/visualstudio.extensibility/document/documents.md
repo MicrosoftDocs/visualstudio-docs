@@ -70,9 +70,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 ### React to events related to documents
 
-There are scenarios when components may want to react to events related to documents (that is, when they're opened,
-closed, or saved).  This can be accomplished by implementing the `IDocumentEventsListener` interface, and
-using [`DocumentsExtensibility.SubscribeAsync`](/dotnet/api/microsoft.visualstudio.extensibility.documentsextensibility.subscribeasync) to set up the event subscription.
+There are scenarios when components may want to react to events related to documents (that is, when they're opened, closed, or saved).  This can be accomplished by implementing the `IDocumentEventsListener` interface, and using [`DocumentsExtensibility.SubscribeAsync`](/dotnet/api/microsoft.visualstudio.extensibility.documentsextensibility.subscribeasync) to set up the event subscription.
 
 ```csharp
 internal sealed class SubscribeCommand : Command, IToggleCommand

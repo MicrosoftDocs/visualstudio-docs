@@ -40,8 +40,7 @@ author: mikejo5000
 <a name="pexassumenotnull"></a>
 ## PexAssumeNotNull
 
-This attribute asserts that the governed value
-cannot be **null**. It can be attached to:
+This attribute asserts that the governed value cannot be **null**. It can be attached to:
 
 * a **parameter** of a parameterized test method
 
@@ -69,36 +68,24 @@ cannot be **null**. It can be attached to:
   public class Foo {}
   ```
 
-It can also be attached to a test assembly, test
-fixture or test method; in this case the first
-arguments must indicate to which field or type the
-assumptions apply. When the attribute applies to a
-type, it applies to all fields with this formal type.
+It can also be attached to a test assembly, test fixture or test method; in this case the first arguments must indicate to which field or type the assumptions apply. When the attribute applies to a type, it applies to all fields with this formal type.
 
 <a name="pexclass"></a>
 ## PexClass
 
 This attribute marks a class that contains
-*explorations*. It is the equivalent of the MSTest
-**TestClassAttribute** (or the NUnit
-**TestFixtureAttribute**). This attribute is optional.
+*explorations*. It is the equivalent of the MSTest **TestClassAttribute** (or the NUnit **TestFixtureAttribute**). This attribute is optional.
 
-The classes marked with [PexClass](#pexclass) must
-be *default constructible*:
+The classes marked with [PexClass](#pexclass) must be *default constructible*:
 
 * publicly exported type
 * default constructor
 * not abstract
 
-If the class does not meet those requirements, an
-error is reported and the exploration fails.
+If the class does not meet those requirements, an error is reported and the exploration fails.
 
-It is also strongly advised to make those classes
-**partial** so that IntelliTest can generate new
-tests that are part of the class, but in a separate
-file. This approach solves many problems due to
-[visibility](input-generation.md#visibility)
-and is a typical technique in C#.
+It is also strongly advised to make those classes **partial** so that IntelliTest can generate new tests that are part of the class, but in a separate file. This approach solves many problems due to
+[visibility](input-generation.md#visibility) and is a typical technique in C#.
 
 **Additional suite and categories**:
 
@@ -133,17 +120,13 @@ This attribute marks a method as a
 The method must reside within a class marked with the
 [PexClass](#pexclass) attribute.
 
-IntelliTest will generate traditional, parameterless
-tests, which call the
-[parameterized unit test](test-generation.md#parameterized-unit-testing)
-with different parameters.
+IntelliTest will generate traditional, parameterless tests, which call the
+[parameterized unit test](test-generation.md#parameterized-unit-testing) with different parameters.
 
 The parameterized unit test:
 
 * must be an instance method
-* must be [visible](input-generation.md#visibility)
-  to the test class into which the generated tests
-  are placed according to the
+* must be [visible](input-generation.md#visibility) to the test class into which the generated tests are placed according to the
   [Settings Waterfall](settings-waterfall.md)
 * may take any number of parameters
 * may be generic
@@ -167,8 +150,7 @@ public partial class MyTests {
 <a name="pexassemblysettings"></a>
 ## PexAssemblySettings
 
-This attribute can be set at the assembly level to
-override default setting values for all explorations.
+This attribute can be set at the assembly level to override default setting values for all explorations.
 
 ```csharp
 using Microsoft.Pex.Framework;
@@ -179,8 +161,7 @@ using Microsoft.Pex.Framework;
 <a name="pexassemblyundertest"></a>
 ## PexAssemblyUnderTest
 
-This attribute specifies an assembly that
-is being tested by the current test project.
+This attribute specifies an assembly that is being tested by the current test project.
 
 ```csharp
 [assembly: PexAssemblyUnderTest("MyAssembly")]
@@ -189,8 +170,7 @@ is being tested by the current test project.
 <a name="pexinstrumentassemblyattribute"></a>
 ## PexInstrumentAssemblyAttribute
 
-This attribute is used to specify an assembly to be
-instrumented.
+This attribute is used to specify an assembly to be instrumented.
 
 **Example**
 
@@ -207,9 +187,7 @@ using Microsoft.Pex.Framework;
 <a name="pexusetype"></a>
 ## PexUseType
 
-This attribute tells IntelliTest that it can use a
-particular type to instantiate (abstract) base types
-or interfaces.
+This attribute tells IntelliTest that it can use a particular type to instantiate (abstract) base types or interfaces.
 
 **Example**
 
@@ -228,15 +206,11 @@ public void MyTest(object testParameter)
 
 If this attribute is attached to a
 [PexMethod](#pexmethod) (or to a
-[PexClass](#pexclass), it changes the default IntelliTest
-logic that indicates when tests fails. The test will
-not be considered as failed, even if it throws the
-specified exception.
+[PexClass](#pexclass), it changes the default IntelliTest logic that indicates when tests fails. The test will not be considered as failed, even if it throws the specified exception.
 
 **Example**
 
-The following test specifies that the constructor of
-**Stack** may throw an **ArgumentOutOfRangeException**:
+The following test specifies that the constructor of **Stack** may throw an **ArgumentOutOfRangeException**:
 
 ```csharp
 class Stack {
@@ -251,8 +225,7 @@ class Stack {
 }
 ```
 
-The filter is attached to a fixture as follows (it
-can also be defined at the assembly or test level):
+The filter is attached to a fixture as follows (it can also be defined at the assembly or test level):
 
 ```csharp
 [PexMethod]

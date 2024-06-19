@@ -29,6 +29,7 @@ The interfaces and implementations of all projects in Visual Studio share a basi
   The following illustration shows the primary interfaces, services, and objects that compose a typical project implementation. You can use the application helper, `HierUtil7`, to create the underlying objects and other programming boilerplate. For more information about the `HierUtil7` application helper, see [Use HierUtil7 project classes to implement a project type (C++)](/previous-versions/bb166212(v=vs.100)).
 
   ![Visual Studio project model graphic](../../extensibility/internals/media/vsprojectmodel.gif "vsProjectModel")
+  
   Project model
 
   For more information about the interfaces and services listed in the previous diagram, and other optional interfaces not included in the diagram, see [Project model core components](../../extensibility/internals/project-model-core-components.md).

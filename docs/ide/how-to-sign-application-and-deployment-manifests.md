@@ -1,7 +1,7 @@
 ---
 title: 'Sign application and deployment manifests'
 description: Explore the signing requirements to publish ClickOnce application and deployment manifests, and optional signing for .exe-based applications.
-ms.date: 09/14/2023
+ms.date: 6/13/2024
 ms.subservice: deployment
 ms.topic: conceptual
 helpviewer_keywords:
@@ -21,7 +21,7 @@ manager: mijacobs
 
 If you want to publish an application by using ClickOnce deployment, the application and deployment manifests must be signed with a public/private key pair and signed using Authenticode technology. You can sign the manifests by using a certificate from the Windows certificate store or a key file.
 
-The information in this article applies only if you're using the .NET Framework 4.7.2 or earlier. If you're using .NET 5 or later, follow the steps in [Deploy a .NET Windows desktop application using ClickOnce](../deployment/quickstart-deploy-using-clickonce-folder.md).
+The information in this article applies only if you're using the .NET Framework 4.8.1 or earlier. If you're using .NET 5 or later, follow the steps in [Deploy a .NET Windows desktop application using ClickOnce](../deployment/quickstart-deploy-using-clickonce-folder.md).
 
 For more information about ClickOnce deployment, see [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md).
 
@@ -69,6 +69,10 @@ To use this method, you must have a certificate signed by a certificate authorit
 
 1. Enter the password to access the key file, and then select **Enter**.
 
+1. Select **More details...** to view the properties of the certificate. ClickOnce displays the value of the **Subject** field as the **Publisher** when it shows the certificate when a user installs your application. Here's an example of what the user sees when the ClickOnce application is installed:
+
+   ![Screenshot of certificate shown at application install time.](./media/vs-2022/certificate-application-install.png)
+
 > [!NOTE]
 > The *.pfx* file cannot include certificate chaining information. If it does, the following import error will occur: **Cannot find the certificate and private key for decryption**. To remove the certificate chaining information, you can use *Certmgr.msc* and [disable the option](/previous-versions/aa730868(v=vs.80)) to **Include all certificates** when exporting the  *.pfx file.
 
@@ -81,6 +85,9 @@ Test certificates are not signed by a Certificate Authority (CA) and should only
 1. To create a new certificate for testing, click the **Create Test Certificate** button.
 
 1. In the **Create Test Certificate** dialog box, enter a password to help secure your test certificate.
+
+> [!NOTE]
+> Be sure to choose **sha256RSA** as the **Signature Algorithm**, unless you're targeting .NET 2.0.
 
 ## Generate unsigned manifests
 

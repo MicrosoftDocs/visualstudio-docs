@@ -199,8 +199,7 @@ Extensions running outside the main Visual Studio IDE process that use asynchron
 
 Learn more about asynchronous programming at [Asynchronous programming with async and await](/dotnet/csharp/programming-guide/concepts/async/).
 
-In the new Visual Studio extensibility model, the extension is second class relative to the user: it can't directly
-modify the editor or the text document. All state changes are asynchronous and cooperative, with Visual Studio IDE performing the requested change on the extension's behalf. The extension can request one or more changes on a specific version of the document or text view, but changes from an extension may be rejected, such as if that area of the document has changed.
+In the new Visual Studio extensibility model, the extension is second class relative to the user: it can't directly modify the editor or the text document. All state changes are asynchronous and cooperative, with Visual Studio IDE performing the requested change on the extension's behalf. The extension can request one or more changes on a specific version of the document or text view, but changes from an extension may be rejected, such as if that area of the document has changed.
 
 Edits are requested using the `EditAsync()` method on [`EditorExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.editor.editorextensibility).
 
@@ -220,9 +219,7 @@ To avoid misplaced edits, edits from editor extensions are applied as follows:
 
 1. Extension requests an edit be made, based on its most recent version of the document.
 1. That request may contain one or more text edits, caret position changes, and so on. Any type implementing `IEditable` can be changed in a single `EditAsync()` request, including `ITextViewSnapshot` and `ITextDocumentSnapshot`. Edits are done by editor, which can be requested on a specific class via `AsEditable()`.
-1. Edit requests are sent to Visual Studio IDE, where it succeeds only if the object being mutated hasn't changed
-  since the version the request was made one. If the document has changed, the change may be rejected, requiring
-  the extension to retry on newer version. Outcome of mutation operation is stored in `result`.
+1. Edit requests are sent to Visual Studio IDE, where it succeeds only if the object being mutated hasn't changed since the version the request was made one. If the document has changed, the change may be rejected, requiring the extension to retry on newer version. Outcome of mutation operation is stored in `result`.
 1. Edits are applied atomically, meaning without interruption from other executing threads. The best practice is to do all changes that should occur within a narrow time frame into a single `EditAsync()` call, to reduce the likelihood of unexpected behavior arising from user edits, or language service actions that occur between edits (for example, extension edits getting interleaved with Roslyn C# moving the caret).
 
 ### Asynchronous execution
