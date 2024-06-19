@@ -218,8 +218,6 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
    The *docker-compose.yml* appears as follows:
 
    ```yaml
-   version: '3.4'
-
     services:
       webfrontend:
         image: ${DOCKER_REGISTRY-}webfrontend
@@ -242,8 +240,6 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
     Visual Studio makes some changes to your Docker Compose YML file. Now both services are included.
 
     ```yaml
-    version: '3.4'
-
     services:
       webfrontend:
         image: ${DOCKER_REGISTRY-}webfrontend
@@ -344,8 +340,6 @@ Congratulations, you're running a Docker Compose application with a custom Docke
    The *docker-compose.yml* appears as follows:
 
    ```yaml
-   version: '3.4'
-
     services:
       webfrontend:
         image: ${DOCKER_REGISTRY-}webfrontend
@@ -368,8 +362,6 @@ Congratulations, you're running a Docker Compose application with a custom Docke
     Visual Studio makes some changes to your `docker-compose` YML file. Now both services are included.
 
     ```yaml
-    version: '3.4'
-
     services:
       webfrontend:
         image: ${DOCKER_REGISTRY-}webfrontend

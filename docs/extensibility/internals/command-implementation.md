@@ -25,26 +25,25 @@ The following sections explain how to register and implement commands.
 ## Register commands with Visual Studio
  If your command is to appear on a menu, you must add the <xref:Microsoft.VisualStudio.Shell.ProvideMenuResourceAttribute> to your VSPackage, and use as a value either the name of the menu or its resource ID.
 
-```
+```c#
 [ProvideMenuResource("Menus.ctmenu", 1)]
-...
-    public sealed class MyPackage : Package
-    {.. ..}
-
+public sealed class MyPackage : Package
+{
+    // ...
+}
 ```
 
  In addition, you must register the command with the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService>. You can get this service by using the <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> method if your VSPackage is derived from <xref:Microsoft.VisualStudio.Shell.Package>.
 
-```
+```c#
 OleMenuCommandService mcs = GetService(typeof(IMenuCommandService)) as OleMenuCommandService;
-if ( null != mcs )
+if (mcs is not null)
 {
     // Create the command for the menu item.
     CommandID menuCommandID = new CommandID(guidCommandGroup, myCommandID);
-    MenuCommand menuItem = new MenuCommand(MenuItemCallback, menuCommandID );
-    mcs.AddCommand( menuItem );
+    MenuCommand menuItem = new MenuCommand(MenuItemCallback, menuCommandID);
+    mcs.AddCommand(menuItem);
 }
-
 ```
 
 ## Implement commands
