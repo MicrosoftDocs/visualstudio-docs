@@ -44,7 +44,11 @@ Make sure to install the following:
 
    :::image type="content" source="media/vs-2022/vue-choose-template.png" alt-text="Screenshot showing choosing a template.":::
 
-1. Name the project **VueWithASP** and then choose **Create**.
+1. Name the project **VueWithASP** and then select **Next**.
+
+   In the Additional Information dialog, make sure that **Configure for HTTPS** is enabled. In most scenarios, leave the other settings at the default values.
+
+1. Select **Create**.
 
    Solution Explorer shows the following project information:
 
