@@ -98,8 +98,8 @@ public int QueryStatus(ref Guid pguidCmdGroup, uint cCmds, OLECMD[] prgCmds, Int
                 return VSConstants.S_OK;
             }
         }
-        return Constants.OLECMDERR_E_NOTSUPPORTED;
     }
+    return Constants.OLECMDERR_E_NOTSUPPORTED;
 }
 ```
 
@@ -115,9 +115,9 @@ public int Exec(ref Guid pguidCmdGroup, uint nCmdID, uint nCmdexecopt, IntPtr pv
     {
         if (pguidCmdGroup == VSConstants.GUID_VSStandardCommandSet97)
         {
-             if (nCmdID ==(uint) uint)VSConstants.VSStd2KCmdID.RIGHT)
+             if (nCmdID == (uint)VSConstants.VSStd2KCmdID.RIGHT)
             {
-                //execute the command
+                // execute the command
                 return VSConstants.S_OK;
             }
         }
