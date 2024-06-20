@@ -48,7 +48,7 @@ landingContent:
       - linkListType: overview
         links:
           - text: Track versions with Git
-            url: ../version-control/git-with-visual-studio
+            url: ../version-control/git-with-visual-studio.md
       - linkListType: how-to-guide
         links:
           - text: Personalize the IDE
