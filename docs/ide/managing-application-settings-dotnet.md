@@ -111,5 +111,7 @@ For general information about accessing application settings through the `Settin
 
 ## Related content
 
+- [Add an app.config file (C#)](how-to-add-app-config-file.md)
+- [Configure apps (.NET Framework)](/dotnet/framework/configure-apps/index)
 - [Access application settings (Visual Basic)](/dotnet/visual-basic/developing-apps/programming/app-settings/accessing-application-settings)
-- [Using Application Settings and User Settings](/dotnet/framework/winforms/advanced/using-application-settings-and-user-settings)
+- [Using application settings and user settings (Windows Forms)](/dotnet/framework/winforms/advanced/using-application-settings-and-user-settings)
