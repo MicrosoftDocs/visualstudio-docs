@@ -8,14 +8,14 @@ where:
 configuration:
   resourceManagementConfiguration:
     eventResponderTasks:
-    - description: Label publish PRs from the dotnet-policy-service bot
+    - description: Label publish PRs from the microsoft-github-policy-service bot
       triggerOnOwnActions: true
       if:
       - payloadType: Pull_Request
       - isAction:
           action: Opened
       - isActivitySender:
-          user: dotnet-policy-service[bot]
+          user: microsoft-github-policy-service[bot]
       - titleContains:
           pattern: Merge main into live
           isRegex: False
