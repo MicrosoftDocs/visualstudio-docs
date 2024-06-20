@@ -9,7 +9,7 @@ configuration:
     - description: Push to live branch (scheduled publish)
       frequencies:
       - daily:
-          time: 03:0
+          time: 00:0
       filters: []
       actions:
       - createPullRequest:
