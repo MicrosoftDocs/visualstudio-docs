@@ -77,7 +77,9 @@ Next, you create an application that has a few bugs.
 
 1. Open Visual Studio.
 
-    On the start window, choose **Create a new project**. Type **console** in the search box, select either **C#** or **Visual Basic** as the language, and then choose **Console App** for .NET. Choose **Next**. Type a project name like **ConsoleApp_FirstApp** and select **Next**.
+    On the start window, choose **Create a new project**. Type **console** in the search box, select either **C#** or **Visual Basic** as the language, and then choose **Console App** for .NET. Choose **Next**. Type **ConsoleApp_FirstApp** as the project name and select **Next**.
+
+    If you use a different project name, you will need to modify the namespace value to match your project name when you copy the example code.
 
     Choose either the recommended target framework or .NET 8, and then choose **Create**.
 

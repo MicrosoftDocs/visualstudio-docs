@@ -164,7 +164,7 @@ The **RunConfiguration** element can include the following elements:
 |**TreatTestAdapterErrorsAsWarnings**|false|false, true|
 |**TestAdaptersPaths**||One or more paths to the directory where the TestAdapters are located|
 |**TestCaseFilter**|| A filter expression in the format \<property>\<operator>\<value>[\|\&amp;\<Expression>]. The boolean operator **\&** should be represented by the HTML entity **\&amp;**. Expressions can be enclosed in parentheses. For detailed syntax on expression structure, see [vstest/docs/filter.md](https://github.com/microsoft/vstest/blob/main/docs/filter.md). |
-|**TestSessionTimeout**||Allows users to terminate a test session when it exceeds a given timeout. Setting a timeout ensures that resources are well consumed and test sessions are constrained to a set time. The setting is available in **Visual Studio 2017 version 15.5** and later.|
+|**TestSessionTimeout**||Allows users to terminate a test session when it exceeds a given timeout, specified in milliseconds. Setting a timeout ensures that resources are well consumed and test sessions are constrained to a set time. The setting is available in **Visual Studio 2017 version 15.5** and later.|
 |**DotnetHostPath**||Specify a custom path to dotnet host that is used to run the testhost. It's useful when you're building your own dotnet, for example when building the dotnet/runtime repository. Specifying this option skips looking for testhost.exe, and forces the use of testhost.dll.|
 |**TreatNoTestsAsError**|false| true or false <br>Specify a Boolean value, which defines the exit code when no tests are discovered. If the value is `true` and no tests are discovered, a nonzero exit code is returned. Otherwise, zero is returned.|
 
