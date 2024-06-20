@@ -16,7 +16,7 @@ monikerRange: ">=vs-2019"
 
 Azure Cloud Services (extended support) helps simplify and modernize the way you maintain and manage your Azure resources. Starting with [Visual Studio 2019 version 16.9](https://visualstudio.microsoft.com/vs/), you can work with cloud services in Azure by using Azure Resource Manager templates (ARM templates) in Cloud Services (extended support).
 
-This article shows you how to publish an existing instance of Azure Cloud Services (classic) to Cloud Services (extended support). For more information about this Azure service, see the [Cloud Services (extended support) documentation](/azure/cloud-services-extended-support/overview).
+This article shows you how to publish an existing instance of Azure Cloud Services (classic) to Azure Cloud Services (extended support). For more information about this Azure service, see the [Cloud Services (extended support) documentation](/azure/cloud-services-extended-support/overview).
 
 [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
