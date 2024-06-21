@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows)"
 description: View the change log for Visual Studio Tools for Unity, Windows. See changes from version 1.0.0.0 through 4.7.0.0 and beyond.
-ms.date: "6/14/2023"
+ms.date: "6/21/2024"
 ms.subservice: unity-tools
 ms.service: visual-studio
 ms.topic: "conceptual"
@@ -12,6 +12,41 @@ manager: crdun
 # Change log (Visual Studio Tools for Unity, Windows)
 
 Visual Studio Tools for Unity change log.
+
+
+## 17.10.1.0
+Released May 21, 2024
+
+### New Features
+
+- **Integration:**
+
+  - Added [`USP0022`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0022.md) suppressor, Unity objects should not use if-null-coalescing.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Display keyboard focus as expected when navigating in Unity Messages.
+
+  - Improve player announce parsing.
+
+  - Improve local player detection.
+
+## 17.10.0.0
+Released March 12, 2024
+
+### New Features
+
+- **Integration:**
+
+  - Improve [`UNT0024`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0024.md) analyzer, to support `Unity.Mathematics.floatX` types.
+
+### Bug fixes
+
+- **Debugging:**
+
+  - Fix nullable-value-type display when evaluating.
 
 ## 17.9.3.0
 Released February 13, 2024
