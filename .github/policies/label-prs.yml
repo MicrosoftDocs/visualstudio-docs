@@ -1,0 +1,24 @@
+id:
+name: GitOps.PullRequestIssueManagement
+description: GitOps.PullRequestIssueManagement primitive
+owner:
+resource: repository
+disabled: false
+where:
+configuration:
+  resourceManagementConfiguration:
+    eventResponderTasks:
+    - description: Label publish PRs from the microsoft-github-policy-service bot
+      triggerOnOwnActions: true
+      if:
+      - payloadType: Pull_Request
+      - isAction:
+          action: Opened
+      - isActivitySender:
+          user: microsoft-github-policy-service[bot]
+      - titleContains:
+          pattern: Merge main into live
+          isRegex: False
+      then:
+      - addLabel:
+          label: ':octocat: auto-merge'

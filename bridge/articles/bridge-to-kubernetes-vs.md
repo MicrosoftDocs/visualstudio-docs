@@ -7,7 +7,7 @@ author: ghogen
 manager: mijacobs
 ms.subservice: bridge
 ms.topic: tutorial 
-ms.date: 08/11/2022
+ms.date: 06/20/2024
 ---
 
 # Tutorial: Run and debug locally with Bridge to Kubernetes on Visual Studio
