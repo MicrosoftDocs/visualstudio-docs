@@ -38,7 +38,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
   You will have to configure *.manifest*, *.application*, and *.deploy*, for example, if you are using IIS where you have not installed the .NET Framework, or if you are using another Web server (for example, Apache).
 
 ## ClickOnce and Secure Sockets Layer (SSL)
- A ClickOnce application will work fine over SSL, except when Internet Explorer raises a prompt about the SSL certificate. The prompt can be raised when there is something wrong with the certificate, such as when the site names do not match or the certificate has expired. To make ClickOnce work over an SSL connection, make sure that the certificate is up-to-date, and that the certificate data matches the site data.
+ A ClickOnce application will work fine over SSL, except when the browser raises a prompt about the SSL certificate. The prompt can be raised when there is something wrong with the certificate, such as when the site names do not match or the certificate has expired. To make ClickOnce work over an SSL connection, make sure that the certificate is up-to-date, and that the certificate data matches the site data.
 
 ## ClickOnce and proxy authentication
  ClickOnce provides support for Windows Integrated proxy authentication starting in .NET Framework 3.5. No specific machine.config directives are required. ClickOnce does not provide support for other authentication protocols such as Basic or Digest.
@@ -48,13 +48,13 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
  For more information, see [\<defaultProxy> element (network settings)](/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings).
 
 ## ClickOnce and Web browser compatibility
- Currently, ClickOnce installations will launch only if the URL to the deployment manifest is opened using Internet Explorer. A deployment whose URL is launched from another application, such as Microsoft Office Outlook, will launch successfully only if Internet Explorer is set as the default Web browser.
+ Currently, ClickOnce installations will launch only if the URL to the deployment manifest is opened using the browser. A deployment whose URL is launched from another application, such as Microsoft Office Outlook, will launch successfully only if Internet Explorer is set as the default Web browser.
 
 > [!NOTE]
 > Mozilla Firefox is supported if the deployment provider is not blank or the Microsoft .NET Framework Assistant extension is installed. This extension is packaged with .NET Framework 3.5 SP1. For XBAP support, the NPWPF plug-in is activated when needed.
 
 ## Activate ClickOnce applications through browser scripting
- If you have developed a custom Web page that launches a ClickOnce application using Active Scripting, you may find that the application will not launch on some machines. Internet Explorer contains a setting called **Automatic prompting for file downloads**, which affects this behavior. This setting is available on the **Security** Tab in its **Options** menu that affects this behavior. It is called **Automatic prompting for file downloads**, and it is listed underneath the **Downloads** category. The property is set to **Enable** by default for intranet Web pages, and to **Disable** by default for Internet Web pages. When this setting is set to **Disable**, any attempt to activate a ClickOnce application programmatically (for example, by assigning its URL to the `document.location` property) will be blocked. Under this circumstance, users can launch applications only through a user-initiated download, for example, by clicking a hyperlink set to the application's URL.
+ If you have developed a custom Web page that launches a ClickOnce application using Active Scripting, you may find that the application will not launch on some machines. The browser contains a setting such as **Automatic prompting for file downloads**, which affects this behavior. This browser setting is typically listed underneath the **Downloads** category, and is enabled by default. When this setting is disabled, any attempt to activate a ClickOnce application programmatically (for example, by assigning its URL to the `document.location` property) will be blocked. Under this circumstance, users can launch applications only through a user-initiated download, for example, by clicking a hyperlink set to the application's URL.
 
 ## Additional server configuration issues
 

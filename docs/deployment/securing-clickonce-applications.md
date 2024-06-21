@@ -23,7 +23,7 @@ ClickOnce applications are subject to code access security constraints in the .N
  Additionally, ClickOnce uses certificates to verify the authenticity of the application's publisher, and to sign the application and deployment manifests to prove that the files have not been tampered with. Signing is an optional step, which makes it easier to change the application files after the manifests are generated. However, without signed manifests, it is difficult to ensure that the application installer is not tampered in man-in-the-middle security attacks. For this reason, we recommend that you sign your application and deployment manifests to help secure your applications.
 
 ## Zones
- Applications that are deployed using ClickOnce technology are restricted to a set of permissions and actions that are defined by the security zone. Security zones are defined in Internet Explorer, and are based on the location of the application. The following table lists the default permissions based on the deployment location:
+ Applications that are deployed using ClickOnce technology are restricted to a set of permissions and actions that are defined by the security zone. Security zones are defined in the browser, and are based on the location of the application. The following table lists the default permissions based on the deployment location:
 
 |Deployment Location|Security Zone|
 |-------------------------|-------------------|
@@ -57,7 +57,7 @@ ClickOnce applications are subject to code access security constraints in the .N
 ## ASP.NET form-based authentication
  If you want to control which deployments each user can access, you should not enable anonymous access to ClickOnce applications deployed on a Web server. Rather, you would enable users access to the deployments you have installed based on a user's identity using Windows authentication.
 
- ClickOnce does not support ASP.NET forms-based authentication because it uses persistent cookies; these present a security risk because they reside in the Internet Explorer cache and can be hacked. Therefore, if you are deploying ClickOnce applications, any authentication scenario besides Windows authentication is unsupported.
+ ClickOnce does not support ASP.NET forms-based authentication because it uses persistent cookies; these present a security risk because they reside in the browser cache and can be hacked. Therefore, if you are deploying ClickOnce applications, any authentication scenario besides Windows authentication is unsupported.
 
 ## Pass arguments
  An additional security consideration occurs if you have to pass arguments into a ClickOnce application. ClickOnce enables developers to supply a query string to applications deployed over the Web. The query string takes the form of a series of name-value pairs at the end of the URL used to start the application:
