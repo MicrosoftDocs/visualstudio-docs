@@ -15,7 +15,7 @@ ms.subservice: msbuild
 
 # MSBuild and Visual Studio format for diagnostic messages
 
-When a tool is executed that outputs some text, MSBuild examines the text for errors and warnings. Many tools use a known format to report these messages. By default, MSBuild examines the text and reports errors and/or warnings based on the output. This behavior can be changed or disabled by using these parameters on the `Exec` task: `IgnoreStandardErrorWarningFormat`, `CustomErrorRegularExpression`, and `CustomWarningRegularExpression`.
+When a tool is executed that outputs some text, MSBuild examines the text for errors and warnings. Many tools use a known format to report these messages. By default, MSBuild examines the text and reports errors and/or warnings based on the output. This behavior can be augmented or disabled by using these parameters on the `Exec` task: `IgnoreStandardErrorWarningFormat`, `CustomErrorRegularExpression`, and `CustomWarningRegularExpression`.
 
 > [!NOTE]
 > If you do decide to use your own regular expression to detect error and warnings, then you should know that MSBuild will look at the result one line at a time. Even if your custom regex would match something across multiple lines, it will not behave that way because of how MSBuild processes that text.
