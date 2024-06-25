@@ -20,7 +20,7 @@ ms.subservice: deployment
 
 ClickOnce applications are subject to code access security constraints in the .NET Framework to help limit the access that code has to protected resources and operations. For that reason, it is important that you understand the implications of code access security to write your ClickOnce applications accordingly. Your applications can use Full Trust or use partial zones, such as the Internet and Intranet zones, to limit access.
 
- Additionally, ClickOnce uses certificates to verify the authenticity of the application's publisher, and to sign the application and deployment manifests to prove that the files have not been tampered with. Signing is an optional step, which makes it easier to change the application files after the manifests are generated. However, without signed manifests, it is difficult to ensure that the application installer is not tampered in man-in-the-middle security attacks. For this reason, we recommend that you sign your application and deployment manifests to help secure your applications.
+ Additionally, ClickOnce uses certificates to verify the authenticity of the application's publisher, and to sign the application and deployment manifests to prove that the files haven't been tampered with. Signing is an optional step, which makes it easier to change the application files after the manifests are generated. However, without signed manifests, it is difficult to ensure that the application installer isn't tampered in man-in-the-middle security attacks. For this reason, we recommend that you sign your application and deployment manifests to help secure your applications.
 
 ## Zones
  Applications that are deployed using ClickOnce technology are restricted to a set of permissions and actions that are defined by the security zone. Security zones are defined in the browser, and are based on the location of the application. The following table lists the default permissions based on the deployment location:
@@ -32,7 +32,7 @@ ClickOnce applications are subject to code access security constraints in the .N
 |Install from network file share|Local Intranet Zone|
 |Install from CD-ROM|Full Trust|
 
- The default permissions are based on the location from which the original version of the application was deployed; updates to the application will inherit those permissions. If the application is configured to check for updates from a Web or network location and a newer version is available, the original installation can receive permissions for the Internet or Intranet zone instead of full-trust permissions. To prevent users from being prompted, a system administrator can specify a ClickOnce deployment policy that defines a specific application publisher as a trusted source. For computers on which this policy is deployed, permissions will be granted automatically and the user will not be prompted. For more information, see [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md). To configure trusted application deployment, the certificate can be installed to the machine or enterprise level. For more information, see [How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md).
+ The default permissions are based on the location from which the original version of the application was deployed; updates to the application will inherit those permissions. If the application is configured to check for updates from a Web or network location and a newer version is available, the original installation can receive permissions for the Internet or Intranet zone instead of full-trust permissions. To prevent users from being prompted, a system administrator can specify a ClickOnce deployment policy that defines a specific application publisher as a trusted source. For computers on which this policy is deployed, permissions will be granted automatically and the user won't be prompted. For more information, see [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md). To configure trusted application deployment, the certificate can be installed to the machine or enterprise level. For more information, see [How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md).
 
  [!INCLUDE[ndptecclick](../deployment/includes/dotnet-feature-unsupported.md)]
 
@@ -41,7 +41,7 @@ ClickOnce applications are subject to code access security constraints in the .N
 
  [!INCLUDE[ndptecclick](../deployment/includes/dotnet-feature-unsupported.md)]
 
- Including a permission that is not part of the default permission set for the zone from which the application is deployed will cause the end user to be prompted to grant permission at install or update time. To prevent users from being prompted, a system administrator can specify a ClickOnce deployment policy that defines a specific application publisher as a trusted source. On computers where this policy is deployed, permissions will automatically be granted and the user will not be prompted.
+ Including a permission that isn't part of the default permission set for the zone from which the application is deployed will cause the end user to be prompted to grant permission at install or update time. To prevent users from being prompted, a system administrator can specify a ClickOnce deployment policy that defines a specific application publisher as a trusted source. On computers where this policy is deployed, permissions will automatically be granted and the user won't be prompted.
 
  As a developer, it is your responsibility to make sure that your application will run with the appropriate permissions. If the application requests permissions outside of a zone during run time, a security exception may appear. Visual Studio enables you to debug your application in the target security zone and provides help in developing secure applications. For more information, see [Debug ClickOnce apps that use System.Deployment.Application](../deployment/debugging-clickonce-applications-that-use-system-deployment-application.md).
 
@@ -57,7 +57,7 @@ ClickOnce applications are subject to code access security constraints in the .N
 ## ASP.NET form-based authentication
  If you want to control which deployments each user can access, you should not enable anonymous access to ClickOnce applications deployed on a Web server. Rather, you would enable users access to the deployments you have installed based on a user's identity using Windows authentication.
 
- ClickOnce does not support ASP.NET forms-based authentication because it uses persistent cookies; these present a security risk because they reside in the browser cache and can be hacked. Therefore, if you are deploying ClickOnce applications, any authentication scenario besides Windows authentication is unsupported.
+ ClickOnce does not support ASP.NET forms-based authentication because it uses persistent cookies; these present a security risk because they reside in the browser cache and can be hacked. Therefore, if you're deploying ClickOnce applications, any authentication scenario besides Windows authentication is unsupported.
 
 ## Pass arguments
  An additional security consideration occurs if you have to pass arguments into a ClickOnce application. ClickOnce enables developers to supply a query string to applications deployed over the Web. The query string takes the form of a series of name-value pairs at the end of the URL used to start the application:
@@ -66,10 +66,10 @@ ClickOnce applications are subject to code access security constraints in the .N
 
  By default, query-string arguments are disabled. To enable them, the attribute `trustUrlParameters` must be set in the application's deployment manifest. This value can be set from Visual Studio and from MageUI.exe. For detailed steps on how to enable passing query strings, see [How to: Retrieve query string information in an online ClickOnce application](../deployment/how-to-retrieve-query-string-information-in-an-online-clickonce-application.md).
 
- You should never pass arguments retrieved through a query string to a database or to the command line without checking the arguments to make sure that they are safe. Unsafe arguments are ones that include database or command line escape characters that could allow a malicious user to manipulate your application into executing arbitrary commands.
+ You should never pass arguments retrieved through a query string to a database or to the command line without checking the arguments to make sure that they're safe. Unsafe arguments are ones that include database or command line escape characters that could allow a malicious user to manipulate your application into executing arbitrary commands.
 
 > [!NOTE]
-> Query-string arguments are the only way to pass arguments to a ClickOnce application at startup. You cannot pass arguments to a ClickOnce application from the command line.
+> Query-string arguments are the only way to pass arguments to a ClickOnce application at startup. You can't pass arguments to a ClickOnce application from the command line.
 
 ## Deploying obfuscated assemblies
  Visual Studio includes the free [PreEmptive Protection - Dotfuscator Community](../ide/dotfuscator/index.md), which you can use to protect your ClickOnce applications through code obfuscation and active protection measures.  For details, please see [the ClickOnce section of the Dotfuscator Community User Guide](https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/advanced_clickonce.html).
