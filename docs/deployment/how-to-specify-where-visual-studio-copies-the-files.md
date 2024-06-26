@@ -22,6 +22,14 @@ helpviewer_keywords:
   - ClickOnce deployment, specifying support Web page address
   - ClickOnce deployment, prerequisites
   - ClickOnce deployment, support URLs
+  - Publish language property
+  - ClickOnce deployment, changing publish language
+  - Start menu resource name
+  - Start menu name
+  - ClickOnce deployment, Start menu name
+  - ClickOnce deployment, AutoStart
+  - ClickOnce deployment, installation on CD or DVD
+  - deploying applications [ClickOnce], installation on CD or DVD
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
@@ -222,6 +230,8 @@ There are two methods for installing prerequisites. You can install them using a
 
 While Visual Studio, *Mage.exe*, and *MageUI.exe* can all be used to generate ClickOnce deployments, none of these tools directly support specifying a support URL for individual prerequisites. This document describes how to modify your deployment's application manifest and deployment manifest to include these support URLs.
 
+[!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
+
 ### Specify a support URL for an individual prerequisite
 
 1. Open the application manifest (the *.manifest* file) for the ClickOnce application in a text editor.
@@ -274,6 +284,77 @@ While Visual Studio, *Mage.exe*, and *MageUI.exe* can all be used to generate Cl
 ### .NET Framework security
 
 The support URL is not displayed on the dialog box if the application is marked to run in partial trust.
+
+## Change the publish language for a ClickOnce application
+
+When publishing a ClickOnce application, the user interface displayed during installation defaults to the language and culture of your development computer. If you are publishing a localized application, you will need to specify a language and culture to match the localized version. This is determined by the `Publish language` property for your project.
+
+The `Publish language` property can be set in the **Publish Options** dialog box, accessible from the **Publish** page of the **Project Designer**.
+
+> [!NOTE]
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/personalizing-the-visual-studio-ide.md#reset-all-settings).
+
+To change the publish language:
+
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+
+2. Click the **Publish** tab.
+
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
+
+3. Click the **Options** button to open the **Publish Options** dialog box.
+
+4. Click **Description**.
+
+5. In the **Publish Options** dialog box, select a language and culture from the **Publish language** drop-down list, and then click **OK**.
+
+## Specify a Start menu name for a ClickOnce application
+
+When a ClickOnce application is installed for both online and offline use, an entry is added to the **Start** menu and the **Add or Remove Programs** list. By default, the display name is the same as the name of the application assembly, but you can change the display name by setting **Product name** in the **Publish Options** dialog box.
+
+ **Product name** will be displayed on the *publish.htm* page; for an installed offline application, it will be the name of the entry in the **Start** menu, and it will also be the name that shows in **Add or Remove Programs**.
+
+ **Publisher name** will appear on the *publish.htm* page above **Product name**, and for an installed offline application, it will also be the name of the folder that contains the application's icon in the **Start** menu.
+
+ The Start menu shortcut or app reference gets created in *%appdata%\Microsoft\Windows\Start Menu\Programs\\<publisher name\>*. The shortcut or app reference has the same name as the product name.
+
+ You can set the **Product name** and **Publisher name** properties in the **Publish Options** dialog box, available on the **Publish** page of the **Project Designer**.
+
+To specify a Start menu name:
+
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+
+2. Click the **Publish** tab.
+
+3. Click the **Options** button to open the **Publish Options** dialog box.
+
+4. Click **Description**.
+
+5. In the **Publish Options** dialog box, enter the name to display in **Product name**.
+
+6. Optionally, you can enter a publisher name in **Publisher name**.
+
+## Enable AutoStart for CD installations
+
+When deploying a ClickOnce application by means of removable media such as CD-ROM or DVD-ROM, you can enable `AutoStart` so that the ClickOnce application is automatically launched when the media is inserted.
+
+ `AutoStart` can be enabled on the **Publish** page of the **Project Designer**.
+
+To enable AutoStart:
+
+1. With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.
+
+2. Click the **Publish** tab.
+
+3. Click the **Options** button.
+
+     The **Publish Options** dialog box appears.
+
+4. Click **Deployment**.
+
+5. Select the **For CD installations, automatically start Setup when CD is inserted** check box.
+
+     An *Autorun.inf* file will be copied to the publish location when the application is published.
 
 ## Related content
 
