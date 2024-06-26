@@ -66,17 +66,8 @@ When publishing a ClickOnce application for the first time, publish properties c
  This dialog box specifies how the application installation should check for updates. For more information, see [How to: Manage updates for a ClickOnce application](../deployment/how-to-manage-updates-for-a-clickonce-application.md).
 
 ### Publish Options dialog box
- The Publish Options dialog box specifies an application's deployment options.
+ The Publish Options dialog box specifies an application's deployment options. For more information, see [Specify ClickOnce Publish settings](../deployment/how-to-specify-where-visual-studio-copies-the-files.md)
 
-|Title|Description|
-|-|-|
-|[How to: Change the publish language for a ClickOnce application](../deployment/how-to-change-the-publish-language-for-a-clickonce-application.md)|Describes how to specify a language and culture to match the localized version.|
-|[How to: Specify a Start menu name for a ClickOnce application](../deployment/how-to-specify-a-start-menu-name-for-a-clickonce-application.md)|Describes how to change the display name for a ClickOnce application.|
-|[How to: Specify a link for Technical Support](../deployment/how-to-specify-a-link-for-technical-support.md)|Describes how to set the **Support URL** property, which identifies a Web page or file share where users can go to get information about the application.|
-|[How to: Specify a Support URL for individual prerequisites in a ClickOnce deployment](../deployment/how-to-specify-a-support-url-for-individual-prerequisites-in-a-clickonce-deployment.md)|Demonstrated how to manually alter an application manifest to include individual support URLs for each prerequisite.|
-|[How to: Specify a publish page for a ClickOnce application](../deployment/how-to-specify-a-publish-page-for-a-clickonce-application.md)|Describes how to generate and publish a default Web page (publish.htm) along with the application|
-|[How to: Customize the ClickOnce default Web page](../deployment/how-to-customize-the-default-web-page-for-a-clickonce-application.md)|Describes how to customize the Web page that is automatically generated and published along with the application.|
-|[How to: Enable AutoStart for CD installations](../deployment/how-to-enable-autostart-for-cd-installations.md)|Describes how to enable AutoStart so that the ClickOnce application is automatically launched when the media is inserted.|
 
 ## Related topics
 

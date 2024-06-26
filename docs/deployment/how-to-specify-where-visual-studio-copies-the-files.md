@@ -153,7 +153,7 @@ You can disable this behavior on the **Publish** page of the **Project Designer*
 
 When publishing a ClickOnce application, a default Web page (publish.htm) is generated and published along with the application. This page contains the name of the application, a link to install the application and/or any prerequisites, and a link to a Help topic describing ClickOnce. The **Publish Page** property for your project allows you to specify a name for the Web page for your ClickOnce application.
 
-Once the publish page has been specified, the next time you publish, it will be copied to the publish location; it will not be overwritten if you publish again. If you wish to customize the appearance of the page, you can do so without worrying about losing your changes. For more information, see [How to: Customize the ClickOnce default Web page](../deployment/how-to-customize-the-default-web-page-for-a-clickonce-application.md).
+Once the publish page has been specified, the next time you publish, it will be copied to the publish location; it will not be overwritten if you publish again. If you wish to customize the appearance of the page, you can do so without worrying about losing your changes. For more information, see [Customize the ClickOnce default Web page](#customize-the-default-web-page-for-a-clickonce-application).
 
 The **Publish Page** property can be set in the **Publish Options** dialog box, accessible from the **Publish** pane of the **Project Designer**.
 
@@ -190,7 +190,7 @@ When publishing a ClickOnce application to the Web, a Web page is automatically 
 > [!NOTE]
 > The actual links that you see on the page depend on the computer where the page is being viewed and what prerequisites you are including.
 
- The default name for the Web page is *Publish.htm*; you can change the name in the **Project Designer**. For more information, see [How to: Specify a publish page for a ClickOnce application](../deployment/how-to-specify-a-publish-page-for-a-clickonce-application.md).
+ The default name for the Web page is *Publish.htm*; you can change the name in the **Project Designer**. For more information, see [Specify a publish page for a ClickOnce application](#specify-a-publish-page-for-a-clickonce-application).
 
  The *Publish.htm* Web page is published only if a newer version is detected.
 
