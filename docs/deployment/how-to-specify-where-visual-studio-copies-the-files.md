@@ -1,15 +1,18 @@
 ---
 title: Specify ClickOnce Publish properties
 description: Learn how to set the Publish properties for a ClickOnce application, such as the location where the application files and manifest are put, and the installation URL.
-ms.date: 08/04/2023
+ms.date: 06/26/2024
 ms.topic: how-to
 dev_langs: 
   - VB
   - CSharp
   - C++
 helpviewer_keywords: 
-  - publishing, specifying location
+  - ClickOnce deployment, specifying location
   - Publish Location property
+  - ClickOnce deployment, set publish version
+  - ClickOnce deployment, auto increment the publish version
+  - ClickOnce deployment, set offline-or-online-install-mode
   - deploying applications [ClickOnce], specifying publish page
   - Publish Page property
   - ClickOnce deployment, specifying publish page
