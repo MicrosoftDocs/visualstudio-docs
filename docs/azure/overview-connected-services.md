@@ -7,7 +7,7 @@ ms.subservice: azure-development
 ms.topic: overview
 ms.date: 08/01/2022
 ms.author: ghogen
-monikerRange: >=vs-2019
+monikerRange: ">=vs-2019"
 ---
 
 # Connect to Azure services, gRPC, OpenAPI, and more
@@ -17,7 +17,7 @@ Developers are building apps with an increasing number of services, yet the serv
 With Visual Studio's **Connected Services**, you get a modern service consumption experience that enables each service the ability to tailor their consumption experience, prompting you for the relevant questions you need to get started quickly.
 
 Connected Services includes a collection of tools in Visual Studio that help you connect your application to the following:
-- [Azure services](#azure)
+- [Azure services](#connect-your-app-to-azure-services)
 - OpenAPI endpoints
 - gRPC (Remote Procedure Call) endpoints
 - Windows Communication Foundation (WCF) endpoints
@@ -34,8 +34,6 @@ Get started by right-clicking on the project node, and choosing **Add > Connecte
 Supported project types vary by the type of service. You'll see the options that apply to your project type in the listed selections.
 
 [!INCLUDE [subscription-azure-benefits](includes/subscription-azure-benefits.md)]
-
-<a name="azure"/>
 
 ## Connect your app to Azure services
 
