@@ -7,7 +7,7 @@ ms.subservice: azure-development
 ms.topic: overview
 ms.date: 08/01/2022
 ms.author: ghogen
-monikerRange: ">=vs-2019"
+monikerRange: >=vs-2019
 ---
 
 # Connect to Azure services, gRPC, OpenAPI, and more
