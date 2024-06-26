@@ -1,7 +1,7 @@
 ---
 title: MSBuild Conditional Constructs
 description: Learn how MSBuild provides a mechanism for conditional processing with the Choose, When, and Otherwise elements.
-ms.date: 11/04/2016
+ms.date: 06/26/2024
 ms.topic: reference
 dev_langs:
 - VB
@@ -71,7 +71,7 @@ MSBuild provides a mechanism for either/or processing with the [Choose](../msbui
 </Project>
 ```
 
-In this example, a condition on a compiler constant `DEFINED_CONSTANT` is used. These are included in the `DefinedConstants` property. The regular expression is used to match the exact constant in a semicolon-separated list.
+In this example, a condition on a compiler constant `DEFINED_CONSTANT` is used. These are included in the `DefineConstants` property. The regular expression is used to match the exact constant in a semicolon-separated list.
 
 ```xml
 <Choose>
