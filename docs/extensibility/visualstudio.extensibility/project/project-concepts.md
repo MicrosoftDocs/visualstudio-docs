@@ -128,7 +128,6 @@ Actions in your project query determine what modifications are made to the proje
 |Save| Represents the operation to save a project.
 |SetPropertyValue| Represents the operation to set a property value.
 |SetCopyToLocal| Represents the operation of setting the value of CopyToLocal for a project reference.
-|SetBuildProperty| Represents the operation of setting the value of a project configuration build property.
 |SetEvaluatedUIPropertyValue| Represents the operation to set the evaluated value of a user-visible property.
 |SetLaunchProfilePropertyValue| Represents the operation of setting the value of a property exposed through the launch profile.
 |SetPackageReferenceVersion| Represents the operation to rename a solution folder.
@@ -144,7 +143,8 @@ These queries support the monitoring of updates made to query results.
 
 |Term|Description
 |---|---
-|TrackUpdatesAsync| Represents the operation to track changes to a query.
+|SubscribeAsync| Represents the operation to subscribes results from a query, which automatically reruns when data source is changed.
+|TrackUpdatesAsync| Represents the operation to track changes to a query, which automatically reruns when the data source is changed.
 
 ## Related content
 
