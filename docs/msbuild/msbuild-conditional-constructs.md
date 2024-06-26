@@ -27,7 +27,7 @@ MSBuild provides a mechanism for either/or processing with the [Choose](../msbui
 
 ## Use the Choose element
 
- The `Choose` element contains a series of `When` elements with `Condition` attributes that are tested in order from top to bottom until one evaluates to `true`. If more than one `When` element evaluates to `true`, only the first one is used. An `Otherwise` element, if present, will be evaluated if no condition on a `When` element evaluates to `true`.
+ The `Choose` element contains a series of `When` elements with `Condition` attributes that are tested in order from top to bottom until one evaluates to `true`. If more than one `When` element evaluates to `true`, only the first one is used. An `Otherwise` element, if present, is evaluated if no condition on a `When` element evaluates to `true`.
 
  `Choose` elements can be used as child elements of `Project`, `When` and `Otherwise` elements. `When` and `Otherwise` elements can have `ItemGroup`, `PropertyGroup`, or `Choose` child elements.
 
@@ -71,7 +71,7 @@ MSBuild provides a mechanism for either/or processing with the [Choose](../msbui
 </Project>
 ```
 
-In this example, a condition on a compiler constant `DEFINED_CONSTANT` is used. These are included in the `DefineConstants` property. The regular expression is used to match the exact constant in a semicolon-separated list.
+In this example, a condition on a compiler constant `DEFINED_CONSTANT` is used. These definitions are included in the `DefineConstants` property. The regular expression is used to match the exact constant in a semicolon-separated list.
 
 ```xml
 <Choose>
