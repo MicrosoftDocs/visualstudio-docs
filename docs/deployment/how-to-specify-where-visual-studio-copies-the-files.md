@@ -10,14 +10,29 @@ dev_langs:
 helpviewer_keywords: 
   - publishing, specifying location
   - Publish Location property
+  - deploying applications [ClickOnce], specifying publish page
+  - Publish Page property
+  - ClickOnce deployment, specifying publish page
+  - Publish.htm Web page
+  - ClickOnce deployment, default Web page
+  - Support URL property
+  - product support, specifying URL for ClickOnce applications
+  - Web pages, ClickOnce
+  - Web sites, creating for ClickOnce support
+  - ClickOnce deployment, specifying support Web page address
+  - ClickOnce deployment, prerequisites
+  - ClickOnce deployment, support URLs
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: deployment
 ---
+
 # Specify ClickOnce Publish properties
 
-You can configure ClickOnce Publish properties on the **Publish** page of the **Project Designer**, or by using the Publish Wizard. In this article, you learn how to specify basic properties such as the publishing location, the installation URL, online or offline install mode, and the publish version.
+You can configure ClickOnce Publish properties on the **Publish** page of the **Project Designer**, or by using the Publish Wizard. In this article, you learn how to specify properties such as the publishing location, the installation URL, online or offline install mode, and the publish version.
+
+[!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 ## Specify a publishing location
 
@@ -31,8 +46,6 @@ When you publish an application by using ClickOnce, the `Publish Location` prope
 1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
 2. Click the **Publish** tab.
-
-   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 3. In the **Publish Location** field, enter the publishing location by using one of the following formats:
 
@@ -59,8 +72,6 @@ The `Installation URL` property can be set on the **Publish** page of the **Proj
 
 2. Click the **Publish** tab.
 
-   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
-
 3. In the Installation URL field, enter the installation location using a fully qualified URL using the format `https://www.contoso.com/ApplicationName`, or a UNC path using the format `\Server\ApplicationName`.
 
 ## Specify the ClickOnce offline or online install mode
@@ -77,8 +88,6 @@ The `Install Mode` can be set on the **Publish** page of the **Project Designer*
 1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
 2. Click the **Publish** tab.
-
-   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 3. In the **Install Mode and Settings** area, click the **The application is available online only** option button.
 
@@ -107,8 +116,6 @@ The `Publish Version` property can be set on the **Publish** page of the **Proje
 
 2. Click the **Publish** tab.
 
-   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
-
 3. In **Publish Version** field, increment the **Major**, **Minor**, **Build**, or **Revision** version numbers.
 
     > [!NOTE]
@@ -129,9 +136,144 @@ You can disable this behavior on the **Publish** page of the **Project Designer*
 
 2. Click the **Publish** tab.
 
-   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
-
 3. In the **Publish Version** section, clear the **Automatically increment revision with each release** check box.
+
+## Specify a publish page for a ClickOnce application
+
+When publishing a ClickOnce application, a default Web page (publish.htm) is generated and published along with the application. This page contains the name of the application, a link to install the application and/or any prerequisites, and a link to a Help topic describing ClickOnce. The **Publish Page** property for your project allows you to specify a name for the Web page for your ClickOnce application.
+
+Once the publish page has been specified, the next time you publish, it will be copied to the publish location; it will not be overwritten if you publish again. If you wish to customize the appearance of the page, you can do so without worrying about losing your changes. For more information, see [How to: Customize the ClickOnce default Web page](../deployment/how-to-customize-the-default-web-page-for-a-clickonce-application.md).
+
+The **Publish Page** property can be set in the **Publish Options** dialog box, accessible from the **Publish** pane of the **Project Designer**.
+
+To specify a custom Web page for a ClickOnce application:
+
+1. With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.
+
+2. Select the **Publish** pane.
+
+3. Click the **Options** button to open the **Publish Options** dialog box.
+
+4. Click **Deployment**.
+
+5. In the **Publish Options** dialog box, make sure that the **Open deployment web page after publish** check box is selected (it should be selected by default).
+
+6. In the **Deployment web page** box, enter the name for your Web page, and then click **OK**.
+
+To prevent the publish page from launching each time you publish:
+
+1. With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.
+
+2. Select the **Publish** pane.
+
+3. Click the **Options** button to open the **Publish Options** dialog box.
+
+4. Click **Deployment**.
+
+5. In the **Publish Options** dialog box, clear the **Open deployment web page after publish** check box.
+
+## Customize the default Web page for a ClickOnce application
+
+When publishing a ClickOnce application to the Web, a Web page is automatically generated and published along with the application. The default page contains the name of the application and links to install the application, install prerequisites, or access help on MSDN.
+
+> [!NOTE]
+> The actual links that you see on the page depend on the computer where the page is being viewed and what prerequisites you are including.
+
+ The default name for the Web page is *Publish.htm*; you can change the name in the **Project Designer**. For more information, see [How to: Specify a publish page for a ClickOnce application](../deployment/how-to-specify-a-publish-page-for-a-clickonce-application.md).
+
+ The *Publish.htm* Web page is published only if a newer version is detected.
+
+> [!NOTE]
+> Changes that you make to your **Publish** settings will not affect the *Publish.htm* page, with one exception: if you add or remove prerequisites after initially publishing, the list of prerequisites will no longer be accurate. You will need to edit the text for the prerequisite link to reflect the changes.
+
+To customize the publish Web page:
+
+1. Publish your ClickOnce application to a Web location. For more information, see [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).
+
+2. On the Web server, open the *Publish.htm* file in Visual Web Designer or another HTML editor.
+
+3. Customize the page as desired and save it.
+
+4. Optional. To prevent Visual Studio from overwriting your customized publish Web page, uncheck **Automatically generate deployment Web page after every publish** in the **Publish Options** dialog box.
+
+## Specify a link for Technical Support
+
+When publishing a ClickOnce application, the **Support URL** property identifies a Web page or file share where users can go to get information about the application. This property is optional; if provided, the URL will be displayed in the application's entry **Add or Remove Programs** dialog box.
+
+ The **Support URL** property can be set on the **Publish** page of the **Project Designer**.
+
+To specify a support URL:
+
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+
+2. Click the **Publish** tab.
+
+3. Click the **Options** button to open the **Publish Options** dialog box.
+
+4. Click **Description**.
+
+5. In the **Support URL** field, enter a fully qualified path to a Web site, Web page, or UNC share.
+
+## Specify a support URL for individual prerequisites in a ClickOnce deployment
+
+A ClickOnce deployment can test for a number of prerequisites that must be available on the client computer for the ClickOnce application to run. These dependencies include the required minimum version of the .NET Framework, the version of the operating system, and any assemblies that must be preinstalled in the global assembly cache (GAC). ClickOnce, however, cannot install any of these prerequisites itself; if a prerequisite is not found, it simply halts installation and displays a dialog box explaining why the installation failed.
+
+There are two methods for installing prerequisites. You can install them using a bootstrapper application. Alternatively, you can specify a support URL for individual prerequisites, which is displayed to users on the dialog box if the prerequisite is not found. The page referenced by that URL can contain links to instructions for installing the required prerequisite. If an application does not specify a support URL for an individual prerequisite, ClickOnce displays the support URL specified in the deployment manifest for the application as a whole, if it is defined.
+
+While Visual Studio, *Mage.exe*, and *MageUI.exe* can all be used to generate ClickOnce deployments, none of these tools directly support specifying a support URL for individual prerequisites. This document describes how to modify your deployment's application manifest and deployment manifest to include these support URLs.
+
+### Specify a support URL for an individual prerequisite
+
+1. Open the application manifest (the *.manifest* file) for the ClickOnce application in a text editor.
+
+2. For an operating system prerequisite, add the `supportUrl` attribute to the `dependentOS` element:
+
+   ```xml
+    <dependency>
+       <dependentOS supportUrl="http://www.adatum.com/MyApplication/wrongOSFound.htm">
+         <osVersionInfo>
+           <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" servicePackMinor="0" />
+         </osVersionInfo>
+       </dependentOS>
+     </dependency>
+   ```
+
+3. For a prerequisite for a certain version of the common language runtime, add the `supportUrl` attribute to the `dependentAssembly` entry that specifies the common language runtime dependency:
+
+   ```xml
+     <dependency>
+       <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true" supportUrl=" http://www.adatum.com/MyApplication/wrongClrVersionFound.htm">
+         <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+       </dependentAssembly>
+     </dependency>
+   ```
+
+4. For a prerequisite for an assembly that must be preinstalled in the global assembly cache, set the `supportUrl` for the `dependentAssembly` element that specifies the required assembly:
+
+   ```xml
+     <dependency>
+       <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true" supportUrl=" http://www.adatum.com/MyApplication/missingSampleGACAssembly.htm">
+         <assemblyIdentity name="SampleGACAssembly" version="5.0.0.0" publicKeyToken="04529dfb5da245c5" processorArchitecture="msil" language="neutral" />
+       </dependentAssembly>
+     </dependency>
+   ```
+
+5. Optional. For applications that target the .NET Framework 4, open the deployment manifest (the *.application* file) for the ClickOnce application in a text editor.
+
+6. For a .NET Framework 4 prerequisite, add the `supportUrl` attribute to the `compatibleFrameworks` element:
+
+   ```xml
+   <compatibleFrameworks  xmlns="urn:schemas-microsoft-com:clickonce.v2" supportUrl="http://adatum.com/MyApplication/CompatibleFrameworks.htm">
+     <framework targetVersion="4.0" profile="Client" supportedRuntime="4.0.30319" />
+     <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
+   </compatibleFrameworks>
+   ```
+
+7. Once you have manually altered the application manifest, you must re-sign the application manifest using your digital certificate, then update and re-sign the deployment manifest as well. Use the *Mage.exe* or *MageUI.exe* SDK tools to accomplish this task, as regenerating these files using Visual Studio erases your manual changes. For more information on using Mage.exe to re-sign manifests, see [How to: Re-sign Application and Deployment Manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md).
+
+### .NET Framework security
+
+The support URL is not displayed on the dialog box if the application is marked to run in partial trust.
 
 ## Related content
 
