@@ -68,7 +68,7 @@ When you publish an application by using ClickOnce, the `Publish Location` prope
 
 ## Specify the location where end users will install from
 
-When publishing a ClickOnce application, the location where users go to download and install the application is not necessarily the location where you initially publish the application. For example, in some organizations a developer might publish an application to a staging server, and then an administrator would move the application to a Web server.
+When publishing a ClickOnce application, the location where users go to download and install the application isn't necessarily the location where you initially publish the application. For example, in some organizations a developer might publish an application to a staging server, and then an administrator would move the application to a Web server.
 
 In this case, you can use the `Installation URL` property to specify the Web server where users will go to download the application. This is necessary so that the application manifest knows where to look for updates.
 
@@ -87,7 +87,7 @@ The `Installation URL` property can be set on the **Publish** page of the **Proj
 
 ## Specify the ClickOnce offline or online install mode
 
-The `Install Mode` for a ClickOnce application determines whether the application will be available offline or online. When you choose **The application is available online only**, the user must have access to the ClickOnce publishing location (either a Web page or a file share) in order to run the application. When you choose **The application is available offline as well**, the application adds entries to the **Start** menu and the **Add or Remove Programs** dialog box; the user is able to run the application when they are not connected.
+The `Install Mode` for a ClickOnce application determines whether the application will be available offline or online. When you choose **The application is available online only**, the user must have access to the ClickOnce publishing location (either a Web page or a file share) in order to run the application. When you choose **The application is available offline as well**, the application adds entries to the **Start** menu and the **Add or Remove Programs** dialog box; the user is able to run the application when they aren't connected.
 
 The `Install Mode` can be set on the **Publish** page of the **Project Designer**.
 
@@ -114,7 +114,7 @@ The `Install Mode` can be set on the **Publish** page of the **Project Designer*
 
 ## Set the ClickOnce publish version
 
-The ClickOnce `Publish Version` property determines whether or not the application that you are publishing will be treated as an update. Each time version is incremented, the application will be published as an update.
+The ClickOnce `Publish Version` property determines whether or not the application that you're publishing will be treated as an update. Each time version is incremented, the application will be published as an update.
 
 The `Publish Version` property can be set on the **Publish** page of the **Project Designer**.
 
@@ -188,14 +188,14 @@ To prevent the publish page from launching each time you publish:
 When publishing a ClickOnce application to the Web, a Web page is automatically generated and published along with the application. The default page contains the name of the application and links to install the application, install prerequisites, or access help on MSDN.
 
 > [!NOTE]
-> The actual links that you see on the page depend on the computer where the page is being viewed and what prerequisites you are including.
+> The actual links that you see on the page depend on the computer where the page is being viewed and what prerequisites you're including.
 
  The default name for the Web page is *Publish.htm*; you can change the name in the **Project Designer**. For more information, see [Specify a publish page for a ClickOnce application](#specify-a-publish-page-for-a-clickonce-application).
 
  The *Publish.htm* Web page is published only if a newer version is detected.
 
 > [!NOTE]
-> Changes that you make to your **Publish** settings will not affect the *Publish.htm* page, with one exception: if you add or remove prerequisites after initially publishing, the list of prerequisites will no longer be accurate. You will need to edit the text for the prerequisite link to reflect the changes.
+> Changes that you make to your **Publish** settings will not affect the *Publish.htm* page, with one exception: if you add or remove prerequisites after initially publishing, the list of prerequisites will no longer be accurate. You'll need to edit the text for the prerequisite link to reflect the changes.
 
 To customize the publish Web page:
 
@@ -227,9 +227,9 @@ To specify a support URL:
 
 ## Specify a support URL for individual prerequisites in a ClickOnce deployment
 
-A ClickOnce deployment can test for a number of prerequisites that must be available on the client computer for the ClickOnce application to run. These dependencies include the required minimum version of the .NET Framework, the version of the operating system, and any assemblies that must be preinstalled in the global assembly cache (GAC). ClickOnce, however, cannot install any of these prerequisites itself; if a prerequisite is not found, it simply halts installation and displays a dialog box explaining why the installation failed.
+A ClickOnce deployment can test for a number of prerequisites that must be available on the client computer for the ClickOnce application to run. These dependencies include the required minimum version of the .NET Framework, the version of the operating system, and any assemblies that must be preinstalled in the global assembly cache (GAC). ClickOnce, however, can't install any of these prerequisites itself; if a prerequisite isn't found, it simply halts installation and displays a dialog box explaining why the installation failed.
 
-There are two methods for installing prerequisites. You can install them using a bootstrapper application. Alternatively, you can specify a support URL for individual prerequisites, which is displayed to users on the dialog box if the prerequisite is not found. The page referenced by that URL can contain links to instructions for installing the required prerequisite. If an application does not specify a support URL for an individual prerequisite, ClickOnce displays the support URL specified in the deployment manifest for the application as a whole, if it is defined.
+There are two methods for installing prerequisites. You can install them using a bootstrapper application. Alternatively, you can specify a support URL for individual prerequisites, which is displayed to users on the dialog box if the prerequisite isn't found. The page referenced by that URL can contain links to instructions for installing the required prerequisite. If an application doesn't specify a support URL for an individual prerequisite, ClickOnce displays the support URL specified in the deployment manifest for the application as a whole, if it is defined.
 
 While Visual Studio, *Mage.exe*, and *MageUI.exe* can all be used to generate ClickOnce deployments, none of these tools directly support specifying a support URL for individual prerequisites. This document describes how to modify your deployment's application manifest and deployment manifest to include these support URLs.
 
@@ -286,11 +286,11 @@ While Visual Studio, *Mage.exe*, and *MageUI.exe* can all be used to generate Cl
 
 ### .NET Framework security
 
-The support URL is not displayed on the dialog box if the application is marked to run in partial trust.
+The support URL isn't displayed on the dialog box if the application is marked to run in partial trust.
 
 ## Change the publish language for a ClickOnce application
 
-When publishing a ClickOnce application, the user interface displayed during installation defaults to the language and culture of your development computer. If you are publishing a localized application, you will need to specify a language and culture to match the localized version. This is determined by the `Publish language` property for your project.
+When publishing a ClickOnce application, the user interface displayed during installation defaults to the language and culture of your development computer. If you're publishing a localized application, you'll need to specify a language and culture to match the localized version. This is determined by the `Publish language` property for your project.
 
 The `Publish language` property can be set in the **Publish Options** dialog box, accessible from the **Publish** page of the **Project Designer**.
 
