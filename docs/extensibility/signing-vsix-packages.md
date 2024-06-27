@@ -1,5 +1,5 @@
 ---
-title: Signing VSIX Packages
+title: Signing VSIX packages
 description: Learn about signing extension assemblies. The VSIX installer displays a message that a VSIX is signed and information about the signature itself.
 ms.date: 4/10/2024
 ms.topic: how-to
@@ -35,7 +35,7 @@ Valid certificates can be obtained from a public certificate authority such as:
 
 The complete list of certification authorities trusted by Windows can also be obtained from [http://aka.ms/trustcertpartners](/security/trusted-root/participants-list).
 
-You can use self-issued certificates for testing purposes. However, VSIX packages signed using self-issued certificates are not accepted by Visual Studio Marketplace. Learn more about [generating self-signed certificates with the .NET CLI](/dotnet/core/additional-tools/self-signed-certificates-guide)
+You can use self-issued certificates for testing purposes. However, VSIX packages signed using self-issued certificates are not accepted by Visual Studio Marketplace. Learn more about [generating self-signed certificates with the .NET CLI](/dotnet/core/additional-tools/self-signed-certificates-guide).
 
 ## Signing a VSIX with Sign CLI
 VSIXSignTool has been deprecated in favor of [Sign CLI (github.com)](https://github.com/dotnet/sign). This tool is published to NuGet as a dotnet tool under [Sign (nuget.org)](https://www.nuget.org/packages/sign) and supports local signing or using Azure Key Vault cloud signing.
@@ -80,7 +80,8 @@ Once installed, Sign CLI can be accessed in a Developer PowerShell instance usin
 sign code certificate-store -cfp 80BB567B...52CB95D4C -cf "D:\Certs\f5ec6169345347a7cd2f83af662970d5d0bfc914.pfx" -d "My VSIX Signature" -u "http://timestamp.acs.microsoft.com/" "C:\Users\Contoso\Downloads\FingerSnapper2022.vsix"
 ```
 
-##### Note: PFX files contain both certificate and private key used for signing and don't comply with C/A Browser Forum requirements for Extended Validation (EV) and non-EV signing. it's recommended to only use private keys stored in a Hardened Secure Module (HSM) device and access them using a Cryptographic Service Provider (CSP).
+> [!NOTE]
+> PFX files contain both certificate and private key used for signing and don't comply with C/A Browser Forum requirements for Extended Validation (EV) and non-EV signing. it's recommended to only use private keys stored in a Hardened Secure Module (HSM) device and access them using a Cryptographic Service Provider (CSP).
 
 - Signing using Microsoft Certificate Manager and a SHA512 fingerprint (-csp option):
 

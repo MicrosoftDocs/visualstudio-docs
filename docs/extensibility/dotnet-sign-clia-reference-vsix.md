@@ -1,5 +1,5 @@
 ---
-title: Sign CLI Reference for VSIX Packages
+title: Sign CLI reference for VSIX packages
 description: The Sign CLI command can sign VSIX packages using certificates from PFX, Windows Certificate Manager (WCM), or Cryptographic Service Providers (CSP).
 ms.topic: how-to
 helpviewer_keywords:
@@ -125,7 +125,7 @@ dotnet tool install --global --add-source <path-to-folder> <tool-name> --version
 
 - **`-o|--output <PATH>`**
 
-  The output file or folder if multiple files are speficied. If omitted, input is overwritten.
+  The output file or folder if multiple files are specified. If omitted, input is overwritten.
 
 - **`-b|--base-directory <PATH>`**
 
@@ -173,13 +173,13 @@ dotnet tool install --global --add-source <path-to-folder> <tool-name> --version
   sign *.vsix -s 24D58920B2D24D00A7DF07FB9523B36E -cf cert.pfx -d "Constoso VSIX Signature" -u "http://www.contoso.com"
   ```
 
-- Sign *contoso.vsix* with a certificate stored in a secure USB drive
+- Sign *contoso.vsix* with a certificate stored in a secure USB drive.
 
   ```dotnetcli
   sign contoso.vsix -s 24D58920B2D24D00A7DF07FB9523B36E -csp "Microsoft Software Key Storage Provider" -k "NuGetSigning 0B2D249223B36D00A7DF07FB95E24D58" -d "Constoso VSIX Signature" -u "http://www.contoso.com"
   ```
 
-- Sign *contoso.vsix* with a certificate stored in a secure USB drive and accessed from the **machine** certificate store (-km option)
+- Sign *contoso.vsix* with a certificate stored in a secure USB drive and accessed from the **machine** certificate store (-km option).
 
   ```dotnetcli
   sign contoso.vsix -s 24D58920B2D24D00A7DF07FB9523B36E -csp "Microsoft Software Key Storage Provider" -k "NuGetSigning 0B2D249223B36D00A7DF07FB95E24D58" -km -d "Constoso VSIX Signature" -u "http://www.contoso.com"
@@ -188,7 +188,7 @@ dotnet tool install --global --add-source <path-to-folder> <tool-name> --version
   > [!NOTE]
   > When `-k` option isn't provided, the tool checks all containers in the provided CSP for a matching SHA fingerprint certificate.
 
-- Sign *contoso.vsix* with a certificate stored in a secure USB drive specifying file digest algorithm (-fd), timestamp server (-t), and a custom output path (-o) for the signed VSIX
+- Sign *contoso.vsix* with a certificate stored in a secure USB drive specifying file digest algorithm (-fd), timestamp server (-t), and a custom output path (-o) for the signed VSIX.
 
   ```dotnetcli
   sign contoso.vsix -s 24D58920B2D24D00A7DF07FB9523B36E -csp "Microsoft Software Key Storage Provider" -k "NuGetSigning 0B2D249223B36D00A7DF07FB95E24D58" -d "Constoso VSIX Signature" -u "http://www.contoso.com" -t "http://timestamp.acs.microsoft.com/" -fd sha256 -o "ContosoSigned.vsix"
