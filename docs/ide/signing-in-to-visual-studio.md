@@ -49,7 +49,7 @@ You can sign in to your Microsoft or organizational account.  To add another acc
 
 You can see that you're successfully signed in the upper-right corner of the Visual Studio environment. Unless you sign out, you're automatically signed in to Visual Studio whenever you start it, and any changes to synchronized settings are automatically applied.
 
-### Sign in from within the IDE
+### Sign in from the IDE
 
  If you choose to not sign in when you first open Visual Studio, you can sign in later from with the IDE. 
 
