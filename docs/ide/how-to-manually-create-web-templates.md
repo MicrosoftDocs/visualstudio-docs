@@ -50,7 +50,7 @@ Creating a web template is different than creating other kinds of templates. Bec
 
 7. Select the files in your template (this includes the *vstemplate* file), right-click the selection, and choose **Send to** > **Compressed (zipped) folder**. The files are compressed into a *.zip* file.
 
-8. Put the *.zip* template file in the Visual Studio project template directory. By default, this directory is *%USERPROFILE%\Documents\Visual Studio \<Version\>\ProjectTemplates*.
+8. Put the *.zip* template file in the Visual Studio project template directory. By default, this directory is `%USERPROFILE%\Documents\Visual Studio {Version}\Templates\ProjectTemplates`.
 
 ## Example
 

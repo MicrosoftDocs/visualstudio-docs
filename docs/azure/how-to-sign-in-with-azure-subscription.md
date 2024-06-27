@@ -4,7 +4,7 @@ description: Sign in to Visual Studio for Windows with an Azure subscription and
 author: ghogen
 ms.subservice: azure-development
 ms.author: ghogen
-ms.topic: "how-to"
+ms.topic: how-to
 ms.date: 10/19/2021
 ---
 
