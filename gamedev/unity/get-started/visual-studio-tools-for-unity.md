@@ -34,7 +34,7 @@ Visit the Visual Studio Tools for Unity [getting started with Tools For Unity.](
 
 ### Supported Unity versions
 #### Visual Studio Editor Unity package
-Unity 2020.1 and newer require a Unity Package for external editor tools like Visual Studio and Visual Studio for Mac. [Documentation to Learn more about these changes in the Unity blog post.](https://unity.com/releases/2020-1/programmer-tools#verified-ide-packages-now-include-visual-studio).
+Unity 2020.1 and newer require a Unity Package for external editor tools like Visual Studio and Visual Studio for Mac. [Documentation to Learn more about these changes in the Unity blog post.](https://unity.com/developer-tools#verified-ide-packages-now-include-visual-studio).
 
 The [getting started section](getting-started-with-visual-studio-tools-for-unity.md) includes more information on the configuration of the Visual Studio Editor package.
 
