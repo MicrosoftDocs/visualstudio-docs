@@ -34,7 +34,7 @@ To get started with the native Arm64 Visual Studio experience:
 
 ## Installing Arm64 Visual Studio
 
-There's a single installer for both Visual Studio x64 and Arm64 architectures. The Visual Studio Installer detects if the system architecture is Arm64. The installer then downloads and installs the Arm64 version of Visual Studio on your Arm64 device (support is for Windows 11). If you're installing the product via a layout, you'll need to [explicitly configure the layout to include ARM binaries](./use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command-line-parameters).
+There's a single installer for both Visual Studio x64 and Arm64 architectures. The Visual Studio Installer detects if the system architecture is Arm64. The installer then downloads and installs the Arm64 version of Visual Studio on your Arm64 device (support is for Windows 11). If you're installing the product via a layout, you need to [explicitly configure the layout to include ARM binaries](./use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command-line-parameters).
 
 > [!NOTE]
 > For Windows 11 Arm64, you must uninstall all previous versions of Visual Studio (x64, x86) before installing Visual Studio 2022 version 17.4 or later.
@@ -53,13 +53,12 @@ The Arm64 GA supports the following workloads:
 - Windows application development
 - .NET Multi-platform App UI development (.NET MAUI)
 - Linux and embedded development with C++
+- Database development with SQL Server Data Tools
 
 ### Managed developers
 
 With this release, you can now build desktop applications (Windows Forms and WPF) using both .NET 6+ and .NET Framework 4.8.1. 
 .NET Framework 4.8.1 is included in the next major update for Windows 11 and will be available for previous operating systems in the future. 
-
-Support for SQL Server Data Tools is available with [Visual Studio version 17.10 and later](/visualstudio/releases/2022/release-notes).
 
 ### Native developers
 
@@ -71,7 +70,7 @@ With the Visual Studio 2022 version 17.4 release or later, you can access the ne
 | Arm64 | X64 | \<Install location\>\VC\Tools\MSVC\\<version\>\bin\HostARM64\x64 |
 | Arm64 | X86 | \<Install location\>\VC\Tools\MSVC\\<version\>\bin\HostARM64\x86 |
 
-Many C++ libraries are already available on Arm64. `Vcpkg` also runs natively on Arm64, and while some dependent 3rd party tools may still run emulated, you can successfully build and consume 1700+ C++ libraries directly in your native Arm64 build environment.
+Many C++ libraries are already available on Arm64. `Vcpkg` also runs natively on Arm64, and while some dependent third party tools may still run emulated, you can successfully build and consume 1700+ C++ libraries directly in your native Arm64 build environment.
 
 By installing the C++ Desktop workload, you can load any desktop C++ projects and solutions using MSBuild, and then use the editing, building, and debugging capabilities you're already familiar with in Visual Studio.
 
