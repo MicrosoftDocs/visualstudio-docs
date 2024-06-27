@@ -3,13 +3,13 @@ title: How to access Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 06/26/2024
+ms.date: 06/27/2024
 ms.topic: how-to
 description: Learn how to know if you have a subscription assigned, and how to access it. 
 ---
 
 # How to sign in to Visual Studio subscriptions
-Visual Studio subscriptions are accessed via the subscriber portal at https://my.visualstudio.com. How you access the portal depends on how you got your subscription. This article walks you through the various ways to sign in based on where you got the subscription. 
+Visual Studio subscriptions are accessed via the Subscriptions portal at https://my.visualstudio.com. How you access the portal depends on how you got your subscription. This article walks you through the various ways to sign in based on where you got the subscription. 
 
 Signing into the portal requires the use of a sign-in ID, which consists of an email address and password. Let's look at how to use the various types of sign-in IDs.  
 
@@ -21,20 +21,20 @@ To sign in with your MSA:
 2. Enter the email address you provided when you set up or purchased your Visual Studio subscription.
 
    > [!NOTE]
-   > This address is also identified in the subscriber welcome email you received when you purchased the subscription or signed up for Visual Studio Dev Essentials. Please check your junk mail folders if you have trouble locating the welcome email.
+   > This address is also identified in the subscriber confirmation email you received when you purchased the subscription or signed up for Visual Studio Dev Essentials. Please check your junk mail folders if you have trouble locating the confirmation email.
 
 3. Enter your password.
 4. Select **Sign in**.
 5. At this point, the "Benefits" page should be displayed.
 
 ## Sign in with a work or school account
-If your subscription was provided to you by your company or school, use the credentials you use at work or school to sign in to the subscriber portal.  
+If your subscription was provided to you by your company or school, use the credentials you use at work or school to sign in to the Subscriptions portal.  
 
 1. Visit [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
 2. Enter the email address to which the new Visual Studio subscription was assigned.
 
    > [!NOTE]
-   > This address is also identified in the subscriber welcome email you received. Please check your junk mail folders if you have trouble locating the welcome email.
+   > This address is also identified in the subscriber assignment email you received. Please check your junk mail folders if you have trouble locating the assignment email.
 
 3. Select **Continue**.
 4. You're redirected to your corporate sign-in page.
@@ -44,7 +44,7 @@ If your subscription was provided to you by your company or school, use the cred
 
 ## Frequently Asked Questions
 
-### Q: When I try to sign in to the subscriber portal, it doesn't find any subscriptions for me. What should I do?
+### Q: When I try to sign in to the Subscriptions portal, it doesn't find any subscriptions for me. What should I do?
 A: If you're not seeing any subscriptions and you're sure you have one, you're probably signing in with a different ID than the one associated with the subscription. For example, if your subscription was assigned to you by your employer and you try to sign in with your personal email (MSA), it doesn't find the subscription. If you can't find a subscription, try signing in with a different ID. 
 
 ### Q: I can sign into the portal but all I see is a Visual Studio Dev Essentials subscription. How do I find my other subscriptions?
