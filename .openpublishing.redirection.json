@@ -5552,6 +5552,21 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/profiling/collecting-detailed-timing-data-for-a-stand-alone-application.md",
+      "redirect_url": "/visualstudio/profiling/profile-apps-from-command-line",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/instrument-dotnet-framework-component-and-collect-timing-data.md",
+      "redirect_url": "/visualstudio/profiling/profile-apps-from-command-line",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/profiling/vsperfcmd.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/profiling/vsperfcmd",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/profiling/cpu-utilization-graph.md",
       "redirect_url": "/visualstudio/profiling/concurrency-visualizer",
       "redirect_document_id": false

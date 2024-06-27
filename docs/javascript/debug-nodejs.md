@@ -176,7 +176,7 @@ with this code:
 ```javascript
   output: {
     filename: "./app-bundle.js", // Replace with the filename in your project
-    devtoolModuleFilenameTemplate: '[resource-path]'  // Removes the webpack:/// prefix
+    devtoolModuleFilenameTemplate: '[absolute-resource-path]'  // Removes the webpack:/// prefix
   },
 ```
 

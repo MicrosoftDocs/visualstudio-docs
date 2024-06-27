@@ -1,7 +1,7 @@
 ---
 title: Install and manage GitHub Copilot in Visual Studio
 description: Install GitHub Copilot in Visual Studio and manage copilot state by using the Copilot badge in the IDE.
-ms.date: 5/22/2024
+ms.date: 6/18/2024
 ms.topic: install-set-up-deploy
 author: anandmeg
 ms.author: meghaanand
@@ -13,14 +13,14 @@ monikerRange: '>= vs-2022'
 
 **GitHub Copilot Completions** and **GitHub Copilot Chat** in Visual Studio enable enhanced [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping you be more productive and efficient when writing code.
 
-In this article, you learn how to install GitHub Copilot in Visual Studio. If you're using [Visual Studio 2022 version 17.10 Preview 3 or later](/visualstudio/releases/2022/release-notes-preview), you learn to use the Copilot badge in the IDE to manage your Copilot state.
+In this article, you learn how to install GitHub Copilot in Visual Studio. If you're using [Visual Studio 2022 version 17.10 or later](/visualstudio/releases/2022/release-notes), you learn to use the Copilot badge in the IDE to manage your Copilot state.
  
-## Get GitHub Copilot for Visual Studio 2022 version 17.10 Preview 3 or later
+## Get GitHub Copilot for Visual Studio 2022 version 17.10 or later
 
-With [Visual Studio 2022 version 17.10 Preview 3](/visualstudio/releases/2022/release-notes-preview), GitHub Copilot and GitHub Copilot Chat are available to install as a single extension that combines both Copilot and Copilot Chat into one package. The unified GitHub Copilot extension is included as a built-in, recommended component by default in all workloads and is available through the Visual Studio Installer.
+With [Visual Studio 2022 version 17.10](/visualstudio/releases/2022/release-notes), GitHub Copilot and GitHub Copilot Chat are available to install as a single extension that combines both Copilot and Copilot Chat into one package. The unified GitHub Copilot extension is included as a built-in, recommended component by default in all workloads and is available through the Visual Studio Installer.
 
 To get the new unified GitHub Copilot extension:
-- Install [Visual Studio 2022 version 17.10 Preview 3 or later](/visualstudio/releases/2022/release-notes-preview). 
+- Install [Visual Studio 2022 version 17.10 or later](/visualstudio/releases/2022/release-notes). 
 - Select at least one workload in the installer. Make sure to leave the preselected component **GitHub Copilot** selected.
   OR
   If no workload is selected, install **GitHub Copilot** by selecting it from **Individual components** in the installer.
@@ -79,7 +79,7 @@ Download and install the extensions directly from [Visual Studio Marketplace](ht
 
 ## Manage your Copilot state 
 
-With Visual Studio 2022 version 17.10 Preview 3, you see a Copilot status icon in the upper-right corner of the Visual Studio environment that indicates if Copilot is active, inactive, unavailable, or not installed. Using the dropdown menu from the status icon, you can easily access options that help manage or troubleshoot your Copilot state. Some options are available or greyed out depending on your Copilot state.
+With Visual Studio 2022 version 17.10, you see a Copilot status icon in the upper-right corner of the Visual Studio environment that indicates if Copilot is active, inactive, unavailable, or not installed. Using the dropdown menu from the status icon, you can easily access options that help manage or troubleshoot your Copilot state. Some options are available or greyed out depending on your Copilot state.
 
 > [!NOTE]
 > Note that the status icon is moving from the bottom panel of the Visual Studio editor. 
@@ -114,7 +114,7 @@ Select **Copilot is unreachable** in the dropdown menu to open the **Troubleshoo
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-unavailable.png" alt-text="Screenshot of Copilot badge when Copilot is unavailable.":::
 
-## Copilot not installed
+### Copilot not installed
 
 If you chose to opt out of the default recommended install by unchecking the **GitHub Copilot** component in the installer, the status icon is still available in the IDE. 
 
@@ -122,6 +122,24 @@ Select **Install Copilot** from the dropdown to install Copilot.
 If you choose to not install Copilot, you can select **Hide Copilot** from the dropdown to hide the Copilot status icon from the IDE.
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-not-installed.png" alt-text="Screenshot of Copilot badge when Copilot isn't installed.":::
+
+## Disable Copilot
+
+### Hide Copilot badge
+
+You can hide the GitHub Copilot badge in the Visual Studio IDE by unselecting **Tools** > **Options** > **Environment** > **Hide Copilot menu badge**.
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/hide-copilot-badge.png" alt-text="Screenshot of option to hide copilot badge in Tools > Options.":::
+
+### Uninstall Copilot
+
+You can remove the GitHub Copilot component from your Visual Studio instance by using the Visual Studio Installer.
+
+1. Launch the Visual Studio Installer by selecting **Tools** > **Get Tools and Features**.
+1. Select **Individual components**.
+1. Type "copilot" in the search box.
+1. Uncheck **GitHub Copilot** and select **Modify**.
+1. Restart Visual Studio, and select **Hide Copilot** from the Copilot status icon dropdown to hide the badge.
 
 ## Next steps
 

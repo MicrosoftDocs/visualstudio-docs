@@ -78,16 +78,16 @@ For a Dockerfile, the environment can be specified in the *testEnvironments.json
 }
 ```
 
-The following example shows the *testenvironments.json* file for a local container image named `<mcr.microsoft.com/dotnet/core/sdk>`.
+The following example shows the *testenvironments.json* file for a local container image named `<mcr.microsoft.com/dotnet/sdk>`.
 
 ```json
 {
     "version": "1",
     "environments": [
         {
-            "name": "linux dotnet-core-sdk-3.1",
+            "name": "linux dotnet-sdk-5.0",
             "type": "docker",
-            "dockerImage": "mcr.microsoft.com/dotnet/core/sdk"
+            "dockerImage": "mcr.microsoft.com/dotnet/sdk"
         }
     ]
 }
@@ -96,7 +96,7 @@ The following example shows the *testenvironments.json* file for a local contain
 The following example shows a Dockerfile for running tests targeting .NET 5.0. The second line makes sure the debugger can connect and run in your container.
 
 ```dockerfile
-FROM mcr.microsoft.com/dotnet/core/sdk:5.0
+FROM mcr.microsoft.com/dotnet/sdk:5.0
 
 RUN wget https://aka.ms/getvsdbgsh && \
     sh getvsdbgsh -v latest  -l /vsdbg

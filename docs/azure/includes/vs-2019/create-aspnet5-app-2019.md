@@ -4,7 +4,7 @@ description: include
 author: ghogen
 ms.subservice: azure-development
 ms.author: ghogen
-ms.topic: "include"
+ms.topic: include
 ms.date: 03/08/2021
 ---
 
