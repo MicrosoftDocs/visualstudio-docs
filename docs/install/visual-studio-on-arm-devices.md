@@ -53,13 +53,12 @@ The Arm64 GA supports the following workloads:
 - Windows application development
 - .NET Multi-platform App UI development (.NET MAUI)
 - Linux and embedded development with C++
+- Database development with SQL Server Data Tools
 
 ### Managed developers
 
 With this release, you can now build desktop applications (Windows Forms and WPF) using both .NET 6+ and .NET Framework 4.8.1. 
 .NET Framework 4.8.1 is included in the next major update for Windows 11 and will be available for previous operating systems in the future. 
-
-Support for SQL Server Data Tools is available with [Visual Studio version 17.10 and later](/visualstudio/releases/2022/release-notes).
 
 ### Native developers
 
