@@ -75,7 +75,6 @@ While you don't have to sign in, there are many advantages to doing so.
 |[Get 'Visual Studio Dev Essentials'](https://visualstudio.microsoft.com/dev-essentials/)|This program includes free software, training, support, and more.|
 
 <a name="add-and-switch"></a>
-
 ## Add and switch user accounts in Visual Studio
 
 If you have multiple accounts, you can add them all to Visual Studio so that you can access the resources from any account without having to sign in to it separately.
