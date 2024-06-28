@@ -1,7 +1,7 @@
 ---
 title: "Debug a JavaScript or TypeScript app"
 description: Debug JavaScript and TypeScript applications in Visual Studio, reach breakpoints in your code, attach the debugger, inspect variables, view the call stack, and more.
-ms.date: "06/05/2023"
+ms.date: "06/27/2024"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -15,8 +15,14 @@ dev_langs:
 
 You can debug JavaScript and TypeScript code using Visual Studio. You can hit breakpoints, attach the debugger, inspect variables, view the call stack, and use other debugging features.
 
+::: moniker range=">=vs-2022"
+> [!TIP]
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+::: moniker-end
+::: moniker range="vs-2019"
 > [!TIP]
 > If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free. If you are developing Node.js applications, you need to install the **Node.js development workload** with Visual Studio.
+::: moniker-end
 
 ## Debug server-side script
 
