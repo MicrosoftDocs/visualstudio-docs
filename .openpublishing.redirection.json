@@ -595,6 +595,41 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/deployment/how-to-enable-autostart-for-cd-installations.md",
+      "redirect_url": "/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/how-to-specify-a-start-menu-name-for-a-clickonce-application.md",
+      "redirect_url": "/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/how-to-change-the-publish-language-for-a-clickonce-application.md",
+      "redirect_url": "/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/how-to-specify-a-support-url-for-individual-prerequisites-in-a-clickonce-deployment.md",
+      "redirect_url": "/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/how-to-specify-a-link-for-technical-support.md",
+      "redirect_url": "/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/how-to-customize-the-default-web-page-for-a-clickonce-application.md",
+      "redirect_url": "/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/how-to-specify-a-publish-page-for-a-clickonce-application.md",
+      "redirect_url": "/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/deployment/how-to-automatically-increment-the-clickonce-publish-version.md",
       "redirect_url": "/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files",
       "redirect_document_id": false
