@@ -55,7 +55,7 @@ You can see that you're successfully signed in the upper-right corner of the Vis
 
 1. Select the **Sign in** icon in the upper-right corner of the Visual Studio environment.
 
-   :::image type="content" source="media/vs-2022/signing-in-to-visual-studio/sign-in-icon-ide.png" alt-text="Screenshot of Sign in icon in the IDE.":::
+   :::image type="content" source="media/vs-2022/signing-in-to-visual-studio/sign-in-icon-ide.png" alt-text="Screenshot of Sign in icon in the Visual Studio IDE.":::
 
 1. On the **Sign in to your account** page, select the **Connected to Windows** account or select **Use another account** to sign in with another account.
 1. Follow the prompts to enter the new account credentials.
@@ -75,6 +75,7 @@ While you don't have to sign in, there are many advantages to doing so.
 |[Get 'Visual Studio Dev Essentials'](https://visualstudio.microsoft.com/dev-essentials/)|This program includes free software, training, support, and more.|
 
 <a name="add-and-switch"></a>
+
 ## Add and switch user accounts in Visual Studio
 
 If you have multiple accounts, you can add them all to Visual Studio so that you can access the resources from any account without having to sign in to it separately.
