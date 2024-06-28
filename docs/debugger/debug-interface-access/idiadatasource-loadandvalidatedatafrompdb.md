@@ -63,11 +63,15 @@ If successful, returns `S_OK`; otherwise, returns an error code. The following t
 
 A .pdb file contains both signature and age values. These values are replicated in the .exe or .dll file that matches the .pdb file. Before preparing the data source, this method verifies that the named .pdb file's signature and age match the values provided.
 
+To load a .pdb file and validate with prefetching, use the [IDiaDataSourceEx::loadAndValidateDataFromPdbEx](../../debugger/debug-interface-access/idiadatasourceex-loadandvalidatedatafrompdbex.md) method.
+
 To load a .pdb file without validation, use the [IDiaDataSource::loadDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md) method.
 
 To gain access to the data load process (through a callback mechanism), use the [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md) method.
 
 To load a .pdb file directly from memory, use the [IDiaDataSource::loadDataFromIStream](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md) method.
+
+To validate a .pdb file without loading it, use the [IDiaDataSourceEx::ValidatePdb](../../debugger/debug-interface-access/idiadatasourceex-validatepdb.md) method.
 
 ## Example
 
@@ -95,3 +99,5 @@ if (FAILED(hr))
 - [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)
 - [IDiaDataSource::loadDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md)
 - [IDiaDataSource::loadDataFromIStream](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md)
+- [IDiaDataSourceEx::loadAndValidateDataFromPdbEx](../../debugger/debug-interface-access/idiadatasourceex-loadandvalidatedatafrompdbex.md)
+- [IDiaDataSourceEx::ValidatePdb](../../debugger/debug-interface-access/idiadatasourceex-validatepdb.md)

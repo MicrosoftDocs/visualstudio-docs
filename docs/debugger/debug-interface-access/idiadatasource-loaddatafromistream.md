@@ -43,7 +43,9 @@ If successful, returns `S_OK`; otherwise, returns an error code. The following t
 
 ## Remarks
 
-This method allows the debug data for an executable to be obtained from memory through an <xref:IStream> object.
+This method allows the debug data for an executable to be obtained through an <xref:IStream> object.
+
+To load with prefetching, use the [IDiaDataSourceEx::loadDataFromIStreamEx](../../debugger/debug-interface-access/idiadatasourceex-loaddatafromistreamex.md) method.
 
 To load a .pdb file without validation, use the [IDiaDataSource::loadDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md) method.
 

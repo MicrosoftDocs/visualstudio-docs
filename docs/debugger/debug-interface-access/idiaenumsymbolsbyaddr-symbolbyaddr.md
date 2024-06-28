@@ -20,9 +20,9 @@ Positions the enumerator by performing a lookup by image section number and offs
 ## Syntax
 
 ```c++
-HRESULT symbolByAddr ( 
-   DWORD**      isect,
-   DWORD**      offsect,
+HRESULT symbolByAddr (
+   DWORD        isect,
+   DWORD        offsect,
    IDiaSymbol** ppsymbol
 );
 ```

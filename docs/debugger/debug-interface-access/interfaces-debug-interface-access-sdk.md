@@ -27,6 +27,10 @@ Provides control over how the DIA SDK computes virtual and relative virtual addr
 
 Initiates access to a source of debugging symbols.
 
+[IDiaDataSourceEx](../../debugger/debug-interface-access/idiadatasourceex.md)
+
+Initiates access to a source of debugging symbols. Supersedes [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
+
 [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md)
 
 Provides access to the records in a debug data stream.

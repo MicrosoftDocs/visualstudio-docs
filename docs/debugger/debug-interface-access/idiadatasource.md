@@ -33,6 +33,8 @@ The following table shows the methods of `IDiaDataSource`.
 |[IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)|Opens and prepares the debug data associated with the .exe/.dll file.|
 |[IDiaDataSource::loadDataFromIStream](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md)|Prepares the debug data stored in a program database (.pdb) file accessed through an in-memory data stream.|
 |[IDiaDataSource::openSession](../../debugger/debug-interface-access/idiadatasource-opensession.md)|Opens a session for querying symbols.|
+|[IDiaDataSource::loadDataFromCodeViewInfo](../../debugger/debug-interface-access/idiadatasource-loaddatafromcodeviewinfo.md)|Opens and prepares the debug data associated with the provided CodeView information.|
+|[IDiaDataSource::loadDataFromMiscInfo](../../debugger/debug-interface-access/idiadatasource-loaddatafrommiscinfo.md)|Opens and prepares the debug data associated with the provided debug information.|
 
 ## Remarks
 
@@ -64,8 +66,9 @@ Header: Dia2.h
 
 Library: diaguids.lib
 
-DLL: msdia80.dll
+DLL: msdia140.dll
 
 ## See also
 
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
+- [IDiaDataSourceEx](../../debugger/debug-interface-access/idiadatasourceex.md)

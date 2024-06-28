@@ -20,8 +20,8 @@ Positions the enumerator by performing a lookup by relative virtual address (RVA
 ## Syntax
 
 ```c++
-HRESULT symbolByRVA ( 
-   DWORD**      relativeVirtualAddress,
+HRESULT symbolByRVA (
+   DWORD        relativeVirtualAddress,
    IDiaSymbol** ppsymbol
 );
 ```

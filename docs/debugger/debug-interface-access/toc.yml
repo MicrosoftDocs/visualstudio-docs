@@ -128,6 +128,30 @@
           href: idiadatasource-loaddatafrompdb.md
         - name: IDiaDataSource::openSession
           href: idiadatasource-opensession.md
+        - name: IDiaDataSource::loadDataFromCodeViewInfo
+          href: idiadatasource-loaddatafromcodeviewinfo.md
+        - name: IDiaDataSource::loadDataFromMiscInfo
+          href: idiadatasource-loaddatafrommiscinfo.md
+      - name: IDiaDataSourceEx
+        items:
+        - name: IDiaDataSourceEx
+          href: idiadatasourceex.md
+        - name: IDiaDataSource::loadDataFromPdbEx
+          href: idiadatasource-loaddatafrompdbex.md
+        - name: IDiaDataSourceEx::loadAndValidateDataFromPdbEx
+          href: idiadatasourceex-loadandvalidatedatafrompdbex.md
+        - name: IDiaDataSourceEx::loadDataForExeEx
+          href: idiadatasourceex-loaddataforexeex.md
+        - name: IDiaDataSourceEx::loadDataFromIStreamEx
+          href: idiadatasourceex-loaddatafromistreamex.md
+        - name: IDiaDataSourceEx::getStreamSize
+          href: idiadatasourceex-getstreamsize.md
+        - name: IDiaDataSourceEx::getStreamRawData
+          href: idiadatasourceex-getstreamrawdata.md
+        - name: IDiaDataSourceEx::setPfnMiniPDBErrorCallback2
+          href: idiadatasourceex-setpfnminipdberrorcallback2.md
+        - name: IDiaDataSourceEx::ValidatePdb
+          href: idiadatasourceex-validatepdb.md
       - name: IDiaEnumDebugStreamData
         items:
         - name: IDiaEnumDebugStreamData
@@ -206,6 +230,24 @@
           href: idiaenuminjectedsources-reset.md
         - name: IDiaEnumInjectedSources::Skip
           href: idiaenuminjectedsources-skip.md
+      - name: IDiaEnumInputAssemblyFiles
+        items:
+        - name: IDiaEnumInputAssemblyFiles
+          href: idiaenuminputassemblyfiles.md
+        - name: IDiaEnumInputAssemblyFiles::Clone
+          href: idiaenuminputassemblyfiles-clone.md
+        - name: IDiaEnumInputAssemblyFiles::get__NewEnum
+          href: idiaenuminputassemblyfiles-get-newenum.md
+        - name: IDiaEnumInputAssemblyFiles::get_Count
+          href: idiaenuminputassemblyfiles-get-count.md
+        - name: IDiaEnumInputAssemblyFiles::Item
+          href: idiaenuminputassemblyfiles-item.md
+        - name: IDiaEnumInputAssemblyFiles::Next
+          href: idiaenuminputassemblyfiles-next.md
+        - name: IDiaEnumInputAssemblyFiles::Reset
+          href: idiaenuminputassemblyfiles-reset.md
+        - name: IDiaEnumInputAssemblyFiles::Skip
+          href: idiaenuminputassemblyfiles-skip.md
       - name: IDiaEnumLineNumbers
         items:
         - name: IDiaEnumLineNumbers
@@ -320,6 +362,20 @@
           href: idiaenumsymbolsbyaddr-symbolbyrva.md
         - name: IDiaEnumSymbolsByAddr::symbolByVA
           href: idiaenumsymbolsbyaddr-symbolbyva.md
+      - name: IDiaEnumSymbolsByAddr2
+        items:
+        - name: IDiaEnumSymbolsByAddr2
+          href: idiaenumsymbolsbyaddr2.md
+        - name: IDiaEnumSymbolsByAddr2::NextEx
+          href: idiaenumsymbolsbyaddr2-nextex.md
+        - name: IDiaEnumSymbolsByAddr2::PrevEx
+          href: idiaenumsymbolsbyaddr2-prevex.md
+        - name: IDiaEnumSymbolsByAddr2::symbolByAddrEx
+          href: idiaenumsymbolsbyaddr2-symbolbyaddrex.md
+        - name: IDiaEnumSymbolsByAddr2::symbolByRVAEx
+          href: idiaenumsymbolsbyaddr2-symbolbyrvaex.md
+        - name: IDiaEnumSymbolsByAddr2::symbolByVAEx
+          href: idiaenumsymbolsbyaddr2-symbolbyvaex.md
       - name: IDiaEnumTables
         items:
         - name: IDiaEnumTables
@@ -580,6 +636,14 @@
           href: idiasession-findacceleratorinlineesbyname.md
         - name: IDiaSession::findChildren
           href: idiasession-findchildren.md
+        - name: IDiaSession::findChildrenEx
+          href: idiasession-findchildrenex.md
+        - name: IDiaSession::findChildrenExByAddr
+          href: idiasession-findchildrenexbyaddr.md
+        - name: IDiaSession::findChildrenExByVA
+          href: idiasession-findchildrenexbyva.md
+        - name: IDiaSession::findChildrenExByRVA
+          href: idiasession-findchildrenexbyrva.md
         - name: IDiaSession::findFile
           href: idiasession-findfile.md
         - name: IDiaSession::findFileById

@@ -33,6 +33,10 @@ A complete reference to all of the enumerations and structures required by the i
 
 Describes a number of strings and their labels that can be used with the interfaces.
 
+[Common HRESULT Values (Debug Interface Access SDK)](../../debugger/debug-interface-access/common-hresult-values.md)
+
+Describes a number of HRESULT values that can be return with the interfaces.
+
 ## Related Sections
 
 [Symbols and Symbol Tags](../../debugger/debug-interface-access/symbols-and-symbol-tags.md)

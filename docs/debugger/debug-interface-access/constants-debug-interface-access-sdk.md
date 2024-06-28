@@ -32,6 +32,7 @@ The following are declared as C/C++ macros.
 |`DiaTable_Dbg`|L"Dbg"|
 |`DiaTable_InjSrc`|L"InjectedSource"|
 |`DiaTable_FrameData`|L"FrameData"|
+|`DiaTable_InputAssemblyFiles`|L"InputAssemblyFiles"|
 
 ## Example
 

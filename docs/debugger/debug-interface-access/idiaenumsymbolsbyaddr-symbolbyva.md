@@ -20,8 +20,8 @@ Positions the enumerator by performing a lookup by virtual address (VA).
 ## Syntax
 
 ```c++
-HRESULT symbolByVA ( 
-   DWORD**      virtualAddress,
+HRESULT symbolByVA (
+   ULONGLONG    virtualAddress,
    IDiaSymbol** ppsymbol
 );
 ```
