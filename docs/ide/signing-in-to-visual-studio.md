@@ -51,7 +51,7 @@ You can see that you're successfully signed in the upper-right corner of the Vis
 
 ### Sign in from the IDE
 
- If you choose to not sign in when you first open Visual Studio, you can sign in later from with the IDE. 
+ If you choose to not sign in when you first open Visual Studio, you can sign in later from the IDE. 
 
 1. Select the **Sign in** icon in the upper-right corner of the Visual Studio environment.
 
