@@ -1,7 +1,7 @@
 ---
 title: "Beginner's guide to optimizing code"
 description: "Learn how to optimize code and reduce compute costs using Visual Studio profiling tools such as the CPU Usage tool, the .NET Object Allocation tool, and the Database tool."
-ms.date: 04/17/2024
+ms.date: 07/01/2024
 ms.topic: conceptual
 dev_langs:
   - "CSharp"
@@ -16,39 +16,70 @@ monikerRange: '>= vs-2022'
 ---
 # Beginner's guide to optimizing code and reducing compute costs (C#, Visual Basic, C++, F#)
 
-Reducing your compute time means reducing costs, so optimizing your code can save money. In this article, you'll learn how you can use various profiling tools to help you accomplish this task.
+In this guide, we aim to provide a comprehensive understanding of how to optimize code to reduce compute costs effectively and save money. By leveraging Visual Studio's profiling tools, developers can gain insights into their application's performance, identify bottlenecks, and implement optimizations to improve efficiency. The case study focuses on a .NET application that performs numerous queries against a database, highlighting common performance issues and demonstrating how to use tools like the CPU Usage tool, the .NET Object Allocation tool, and the Database tool to diagnose and resolve these issues.
 
-Rather than providing step-by-step instructions, the intent here is to show you how to use the profiling tools effectively and how to interpret the data. The CPU Usage tool can help you capture and visualize where compute resources are used in your application. The CPU Usage views such as the call tree and flame graph provide a nice graphical visualization of where time is spent in your app. In addition, auto insights may show precise optimizations that can have a large impact. Other profiling tools can also help you isolate issues. To compare tools, see [Which tool should I choose?](../profiling/choose-performance-tool.md)
+Our goal is to equip developers with the knowledge to:
 
-## About the example app
+- Understand the importance of code optimization and its impact on reducing compute costs.
+- Utilize Visual Studio profiling tools to analyze application performance.
+- Interpret the data provided by these tools to identify performance bottlenecks.
+- Apply practical strategies to optimize code, focusing on CPU usage, memory allocation, and database interactions.
 
-The screenshots in this article are based on a .NET app that runs queries against a database of blogs and associated blog posts. It is based on the [Entity Framework sample](/ef/core/querying/), but modified to run a large number of queries against an SQLite local database.
+By the end of this guide, readers should be able to apply these techniques to their own projects, leading to more efficient and cost-effective applications.
 
-## Start an investigation
+## Summary
 
-- Start your investigation by taking a CPU usage trace. The CPU Usage tool is often helpful to begin performance investigations and to optimize code to reduce cost.
-- Next, if you would like additional insights to help isolate issues or improve the performance, considering collecting a trace using one of the other profiling tools. For example:
-  - Take a look at the memory usage. For .NET, try the .NET Object Allocation tool first. For either .NET or C++, you can look at the Memory Usage tool.
-  - If your app is using File I/O, use the File I/O tool.
-  - If you're using ADO.NET or Entity Framework, you can use the Database tool to examine SQL queries, precise query time, et al.
+The sample application discussed in this case study is a .NET application designed to run queries against a database of blogs and associated blog posts. It utilizes the Entity Framework, a popular ORM (Object-Relational Mapping) for .NET, to interact with a SQLite local database. The application is structured to execute a large number of queries, simulating a real-world scenario where a .NET application might be required to handle extensive data retrieval tasks. The sample application is based on the [Entity Framework sample](/ef/core/querying/), but modified to run a large number of queries against a SQLite local database.
 
-Data collection requires the following steps (not shown in this article):
+The primary performance issue with the sample application lies in how it manages compute resources and interacts with the database. The application suffers from several common performance bottlenecks that can significantly impact its efficiency and, consequently, the compute costs associated with running it. These problems include:
 
-- Set your app to a Release build.
-- Select the CPU Usage tool from the Performance Profiler (**Alt+F2**). (Later steps involve a few of the other tools.)
-- From the Performance Profiler, start the app and collect a trace.
+1. **High CPU Usage**: The application may be performing inefficient computations or processing tasks in a way that unnecessarily consumes a large amount of CPU resources. This can lead to slow response times and increased operational costs.
 
-## Inspect areas of high CPU usage
+2. **Inefficient Memory Allocation**: .NET applications, especially those that make extensive use of the Entity Framework, can sometimes face issues related to memory usage and allocation. Inefficient memory management can lead to increased garbage collection, which in turn can affect application performance.
 
-Start by collecting a trace with the CPU Usage tool. When the diagnostic data loads, first check the initial *.diagsession* report page that shows Top Insights and the Hot Path. The Hot Path shows the code path with highest CPU usage in your app. These sections may provide tips to help you quickly identify performance issues that you can improve.
+3. **Database Interaction Overheads**: Given that the application executes a large number of queries against a database, it is prone to experiencing bottlenecks related to database interactions. This includes inefficient queries, excessive database calls, and poor use of Entity Framework capabilities, all of which can degrade performance.
 
-You can also view the hot path in the **Call Tree** view. To open this view, use the **Open details** link in the report and then select **Call Tree**.
+The case study aims to address these issues by employing Visual Studio's profiling tools to analyze the application's performance. By understanding where and how the application's performance can be improved, developers can implement optimizations to reduce CPU usage, improve memory allocation efficiency, streamline database interactions, and optimize resource utilization. The ultimate goal is to enhance the application's overall performance, making it more efficient and cost-effective to run.
 
-In this view, you see the hot path again, which shows high CPU usage for the `GetBlogTitleX` method in the app, using about a 60% share of the app's CPU usage. However, the **Self CPU** value for `GetBlogTitleX` is low, only about .10%. Unlike **Total CPU**, the **Self CPU** value excludes time spent in other functions, so we know to look farther down the Call Tree view for the real bottleneck.
+## Challenge
+
+Addressing the performance issues in the sample .NET application presents several challenges. These challenges stem from the complexity of diagnosing performance bottlenecks, the intricacies of optimizing code without compromising functionality, and the need to balance improvements across different aspects of the application. The key challenges in fixing the problems described are as follows:
+
+1. **Diagnosing Performance Bottlenecks**: One of the primary challenges is accurately identifying the root causes of the performance issues. High CPU usage, inefficient memory allocation, and database interaction overheads can have multiple contributing factors. Developers must use profiling tools effectively to diagnose these issues, which requires a deep understanding of how these tools work and how to interpret their output.
+
+2. **Optimizing Database Interactions**: The application's heavy reliance on database queries means that optimizing these interactions is crucial. However, doing so without a thorough understanding of the Entity Framework's inner workings and best practices can be challenging. Developers must identify inefficient queries and excessive database calls, then refactor them without affecting the application's functionality or data integrity.
+
+3. **Improving Memory Management**: Addressing inefficient memory allocation involves understanding .NET's memory management mechanisms, including garbage collection. Optimizing memory usage without causing unintended side effects, such as increased latency due to reduced garbage collection, requires careful analysis and testing.
+
+7. **Knowledge and Resource Constraints**: Finally, teams may face constraints related to knowledge, expertise, and resources. Profiling and optimizing an application requires specific skills and experience, and not all teams may have immediate access to these resources.
+
+Addressing these challenges requires a strategic approach that combines effective use of profiling tools, deep technical knowledge, and careful planning and testing. The case study aims to guide developers through this process, providing strategies and insights to overcome these challenges and improve the application's performance.
+
+## Strategy
+
+- We start the investigation by taking a CPU usage trace. The CPU Usage tool is often helpful to begin performance investigations and to optimize code to reduce cost.
+  The CPU Usage views such as the call tree and flame graph provide a nice graphical visualization of where time is spent in the app. In addition, auto insights may show precise optimizations that can have a large impact. 
+- Next, to get additional insights to help isolate issues or improve the performance, we collect a trace using one of the other profiling tools. For example:
+  - We take a look at the memory usage. For .NET, we try the .NET Object Allocation tool first. (For either .NET or C++, you can look at the Memory Usage tool instead.)
+  - For ADO.NET or Entity Framework, we can use the Database tool to examine SQL queries, precise query time, et al.
+
+Data collection requires the following steps:
+
+- We set the app to a Release build.
+- We select the CPU Usage tool from the Performance Profiler (**Alt+F2**). (Later steps involve a few of the other tools.)
+- From the Performance Profiler, we start the app and collect a trace.
+
+### Inspect areas of high CPU usage
+
+We start by collecting a trace with the CPU Usage tool. When the diagnostic data loads, we first check the initial *.diagsession* report page that shows Top Insights and the Hot Path. The Hot Path shows the code path with highest CPU usage in the app. These sections may provide tips to help us quickly identify performance issues that we can improve.
+
+We can also view the hot path in the **Call Tree** view. To open this view, use the **Open details** link in the report and then select **Call Tree**.
+
+In this view, we see the hot path again, which shows high CPU usage for the `GetBlogTitleX` method in the app, using about a 60% share of the app's CPU usage. However, the **Self CPU** value for `GetBlogTitleX` is low, only about .10%. Unlike **Total CPU**, the **Self CPU** value excludes time spent in other functions, so we know to look farther down the Call Tree view for the real bottleneck.
 
 :::image type="content" source="./media/optimize-code-cpu-usage-call-tree.png" alt-text="Screenshot of Call Tree view in the CPU Usage tool.":::
 
-`GetBlogTitleX` makes external calls to two LINQ DLLs, which are using most of the CPU time, as evidenced by the very high **Self CPU** values. This is the first clue that you may want to look for a LINQ query as an area to optimize.
+`GetBlogTitleX` makes external calls to two LINQ DLLs, which are using most of the CPU time, as evidenced by the very high **Self CPU** values. This is the first clue that we may want to look for a LINQ query as an area to optimize.
 
 :::image type="content" source="./media/optimize-code-cpu-usage-call-tree-self-cpu.png" alt-text="Screenshot of Call Tree view in the CPU Usage tool with Self CPU highlighted." lightbox="./media/optimize-code-cpu-usage-call-tree-self-cpu.png":::
 
@@ -56,39 +87,39 @@ To get a visualized call tree and a different view of the data, right-click `Get
 
 :::image type="content" source="./media/optimize-code-cpu-usage-flame-graph.png" alt-text="Screenshot of Flame Graph view in the CPU Usage tool.":::
 
-## Gather additional data
+### Gather additional data
 
 Often, other tools can provide additional information to help the analysis and isolate the problem. For this example, take the following approach:
 
 - First, take a look at memory usage. There might be a correlation between high CPU usage and high memory usage, so it can be helpful to look at both to isolate the issue.
 - Because we identified the LINQ DLLs, we'll also look at the Database tool.
 
-### Check the memory usage
+#### Check the memory usage
 
-To see what's going on with the app in terms of memory usage, collect a trace using the .NET Object Allocation tool (For C++, use the Memory Usage tool instead). The **Call Tree** view in the memory trace shows the hot path and helps you identify an area of high memory usage. No surprise at this point, the `GetBlogTitleX` method appears to be generating a lot of objects! Over 900,000 object allocations, in fact.
+To see what's going on with the app in terms of memory usage, collect a trace using the .NET Object Allocation tool (For C++, use the Memory Usage tool instead). The **Call Tree** view in the memory trace shows the hot path and helps us identify an area of high memory usage. No surprise at this point, the `GetBlogTitleX` method appears to be generating a lot of objects! Over 900,000 object allocations, in fact.
 
 :::image type="content" source="./media/optimize-code-dotnet-object-allocations.png" alt-text="Screenshot of Call Tree view in the .NET Object Allocation tool.":::
 
-Most of the objects created are strings, object arrays, and Int32s. You may be able to see how these types are generated by examining the source code.
+Most of the objects created are strings, object arrays, and Int32s. We may be able to see how these types are generated by examining the source code.
 
-### Check the query in the Database tool
+#### Check the query in the Database tool
 
-In the Performance Profiler, select the Database tool instead of CPU Usage (or, you can select both). When you've collected a trace, select the **Queries** tab in the diagnostics page. In the Queries tab for the Database trace, you can see the first row shows the longest query, 2446 ms. The **Records** column shows how many records the query reads. You can use this information for later comparison.
+In the Performance Profiler, we select the Database tool instead of CPU Usage (or, we can select both). When we've collected a trace, select the **Queries** tab in the diagnostics page. In the Queries tab for the Database trace, we can see the first row shows the longest query, 2446 ms. The **Records** column shows how many records the query reads. We can use this information for later comparison.
 
 :::image type="content" source="./media/optimize-code-database.png" alt-text="Screenshot of Database queries in the Database tool.":::
 
-By examining the `SELECT` statement generated by LINQ in the Query column, you identify the first row as the query associated with the `GetBlogTitleX` method. To view the full query string, expand the column width if you need to. The full query string is:
+By examining the `SELECT` statement generated by LINQ in the Query column, we identify the first row as the query associated with the `GetBlogTitleX` method. To view the full query string, we expand the column width. The full query string is:
 
 ```sql
 SELECT "b"."Url", "b"."BlogId", "p"."PostId", "p"."Author", "p"."BlogId", "p"."Content", "p"."Date", "p"."MetaData", "p"."Title"
 FROM "Blogs" AS "b" LEFT JOIN "Posts" AS "p" ON "b"."BlogId" = "p"."BlogId" ORDER BY "b"."BlogId"
 ```
 
-Notice that you are retrieving a lot of column values here, perhaps more than you need. Let's look at the source code.
+Notice that we are retrieving a lot of column values here, perhaps more than we need. Let's look at the source code.
 
-## Optimize code
+### Optimize code
 
-It's time to take a look at the `GetBlogTitleX` source code. In the Database tool, right-click the query and choose **Go to Source File**. In the source code for `GetBlogTitleX`, you find the following code that uses LINQ to read the database.
+It's time to take a look at the `GetBlogTitleX` source code. In the Database tool, right-click the query and choose **Go to Source File**. In the source code for `GetBlogTitleX`, we find the following code that uses LINQ to read the database.
 
 ```csharp
 foreach (var blog in db.Blogs.Select(b => new { b.Url, b.Posts }).ToList())
@@ -103,9 +134,9 @@ foreach (var blog in db.Blogs.Select(b => new { b.Url, b.Posts }).ToList())
 }
 ```
 
-This code uses `foreach` loops to search the database for any blogs with "Fred Smith" as the author. Looking at it, you can see that a lot of objects are getting generated in memory: a new object array for each blog in the database, associated strings for each URL, and values for properties contained in the posts, such as blog ID.
+This code uses `foreach` loops to search the database for any blogs with "Fred Smith" as the author. Looking at it, we can see that a lot of objects are getting generated in memory: a new object array for each blog in the database, associated strings for each URL, and values for properties contained in the posts, such as blog ID.
 
-You do a little research and find some common recommendations for how to optimize LINQ queries and come up with this code.
+We do a little research and find some common recommendations for how to optimize LINQ queries and come up with this code.
 
 ```csharp
 foreach (var x in db.Posts.Where(p => p.Author.Contains("Fred Smith")).Select(b => b.Title).ToList())
@@ -114,14 +145,14 @@ foreach (var x in db.Posts.Where(p => p.Author.Contains("Fred Smith")).Select(b 
 }
 ```
 
-In this code, you made several changes to help optimize the query:
+In this code, we made several changes to help optimize the query:
 
 - Added the `Where` clause and eliminate one of the `foreach` loops.
-- Projected only the Title property in the `Select` statement, which is all you need in this example.
+- Projected only the Title property in the `Select` statement, which is all we need in this example.
 
 Next, retest using the profiling tools.
 
-## Check the results
+## Results
 
 After updating the code, re-run the CPU Usage tool to collect a trace. The **Call Tree** view shows that `GetBlogTitleX` is running only 1754 ms, using 37% of the app's CPU total, a significant improvement from 59%.
 
@@ -141,7 +172,7 @@ Next, recheck the results in the .NET Object Allocation tool, and see that `GetB
 
 ## Iterate
 
-Multiple optimizations may be necessary and you can continue to iterate with code changes to see which changes improve performance and reduce your compute cost.
+Multiple optimizations may be necessary and we can continue to iterate with code changes to see which changes improve performance and reduce our compute cost.
 
 ## Next steps
 
