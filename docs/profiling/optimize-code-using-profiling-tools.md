@@ -29,13 +29,13 @@ By the end of this guide, readers should be able to apply these techniques to th
 
 ## Summary
 
-The sample application discussed in this case study is a .NET application designed to run queries against a database of blogs and associated blog posts. It utilizes the Entity Framework, a popular ORM (Object-Relational Mapping) for .NET, to interact with a SQLite local database. The application is structured to execute a large number of queries, simulating a real-world scenario where a .NET application might be required to handle extensive data retrieval tasks. The sample application is based on the [Entity Framework sample](/ef/core/querying/), but modified to run a large number of queries.
+The sample application discussed in this case study is a .NET application designed to run queries against a database of blogs and associated blog posts. It utilizes the Entity Framework, a popular ORM (Object-Relational Mapping) for .NET, to interact with a SQLite local database. The application is structured to execute a large number of queries, simulating a real-world scenario where a .NET application might be required to handle extensive data retrieval tasks. The sample application is a modified version of the [Entity Framework sample](/ef/core/querying/).
 
 The primary performance issue with the sample application lies in how it manages compute resources and interacts with the database. The application suffers from several common performance bottlenecks that can significantly impact its efficiency and, consequently, the compute costs associated with running it. These problems include:
 
 1. **High CPU Usage**: The application may be performing inefficient computations or processing tasks in a way that unnecessarily consumes a large amount of CPU resources. This can lead to slow response times and increased operational costs.
 
-2. **Inefficient Memory Allocation**: Applications can sometimes face issues related to memory usage and allocation. Inefficient memory management can lead to increased garbage collection, which in turn can affect application performance.
+2. **Inefficient Memory Allocation**: Applications can sometimes face issues related to memory usage and allocation. In .NET apps, inefficient memory management can lead to increased garbage collection, which in turn can affect application performance.
 
 3. **Database Interaction Overheads**: Given that the application executes a large number of queries against a database, it is prone to experiencing bottlenecks related to database interactions. This includes inefficient queries, excessive database calls, and poor use of Entity Framework capabilities, all of which can degrade performance.
 
@@ -45,15 +45,15 @@ The case study aims to address these issues by employing Visual Studio's profili
 
 Addressing the performance issues in the sample .NET application presents several challenges. These challenges stem from the complexity of diagnosing performance bottlenecks. The key challenges in fixing the problems described are as follows:
 
-1. **Diagnosing Performance Bottlenecks**: One of the primary challenges is accurately identifying the root causes of the performance issues. High CPU usage, inefficient memory allocation, and database interaction overheads can have multiple contributing factors. Developers must use profiling tools effectively to diagnose these issues, which requires a good understanding of how these tools work and how to interpret their output.
+1. **Diagnosing Performance Bottlenecks**: One of the primary challenges is accurately identifying the root causes of the performance issues. High CPU usage, inefficient memory allocation, and database interaction overheads can have multiple contributing factors. Developers must use profiling tools effectively to diagnose these issues, which requires some understanding of how these tools work and how to interpret their output.
 
-2. **Optimizing Database Interactions**: The application's heavy reliance on database queries means that optimizing these interactions is crucial. However, doing so without a thorough understanding of the Entity Framework's inner workings and best practices can be challenging. Developers must identify inefficient queries and excessive database calls, then refactor them without affecting the application's functionality or data integrity.
+1. **Improving Memory Management**: Addressing inefficient memory allocation involves understanding .NET's memory management mechanisms, including garbage collection. Optimizing memory usage without causing unintended side effects, such as increased latency due to reduced garbage collection, requires careful analysis and testing.
 
-3. **Improving Memory Management**: Addressing inefficient memory allocation involves understanding .NET's memory management mechanisms, including garbage collection. Optimizing memory usage without causing unintended side effects, such as increased latency due to reduced garbage collection, requires careful analysis and testing.
+1. **Optimizing Database Interactions**: The application's heavy reliance on database queries means that optimizing these interactions is crucial. However, doing so without a thorough understanding of the Entity Framework's inner workings and best practices can be challenging. Developers must identify inefficient queries and excessive database calls, then refactor them without affecting the application's functionality or data integrity.
 
-7. **Knowledge and Resource Constraints**: Finally, teams may face constraints related to knowledge, expertise, and resources. Profiling and optimizing an application requires specific skills and experience, and not all teams may have immediate access to these resources.
+1. **Knowledge and Resource Constraints**: Finally, teams may face constraints related to knowledge, expertise, and resources. Profiling and optimizing an application requires specific skills and experience, and not all teams may have immediate access to these resources.
 
-Addressing these challenges requires a strategic approach that combines effective use of profiling tools, deep technical knowledge, and careful planning and testing. The case study aims to guide developers through this process, providing strategies and insights to overcome these challenges and improve the application's performance.
+Addressing these challenges requires a strategic approach that combines effective use of profiling tools, technical knowledge, and careful planning and testing. The case study aims to guide developers through this process, providing strategies and insights to overcome these challenges and improve the application's performance.
 
 ## Strategy
 
