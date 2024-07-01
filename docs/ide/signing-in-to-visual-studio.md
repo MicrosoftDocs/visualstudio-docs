@@ -2,7 +2,7 @@
 title: Sign in or switch Visual Studio accounts 
 titleSuffix: ""
 description: Explore sign in concepts for working with Visual Studio, and find out how to sign in and how to add and switch user accounts.
-ms.date: 11/23/2023
+ms.date: 6/27/2024
 ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
@@ -11,7 +11,7 @@ ms.subservice: general-ide
 ---
 # Sign in or switch Visual Studio user accounts 
 
-In this article, you'll learn how to sign in to Visual Studio, add and switch user accounts, update your profile, sign out of your account, and the benefits to signing in.  If you are looking to learn how to use multiple accounts for sign-ins, check out our article, [Access multiple accounts associated with the Visual Studio sign-in account](sign-in-access-multiple-accounts.md).
+In this article, you learn how to sign in to Visual Studio, add and switch user accounts, update your profile, sign out of your account, and the benefits to signing in.  If you are looking to learn how to use multiple accounts for sign-ins, check out our article, [Access multiple accounts associated with the Visual Studio sign-in account](sign-in-access-multiple-accounts.md).
 
 You can get subscription support and search the frequently asked questions about subscriptions, accounts, and billing [on our Subscription support page](https://visualstudio.microsoft.com/subscriptions/support/).
 
@@ -23,7 +23,7 @@ You can sign in to your Microsoft or organizational account.  To add another acc
 
 ::: moniker range="<=vs-2019"
 
-1. Launch Visual Studio. When you open Visual Studio for the first time, you're asked to sign in and provide some basic registration information.
+1. Launch Visual Studio. When you open Visual Studio for the first time, you're prompted to sign in and provide some basic registration information.
 
    ![Sign-in prompt](../ide/media/vs2019_signinpopup.png)
    
@@ -34,20 +34,31 @@ You can sign in to your Microsoft or organizational account.  To add another acc
 
 ::: moniker range="vs-2022"
 
-1. Launch Visual Studio.  When you open Visual Studio for the first time, you're asked to sign in and provide some basic registration information.
+1. Launch Visual Studio.  When you open Visual Studio for the first time, you're prompted to sign in and provide some basic registration information.
 
    ![Sign-in prompt](../ide/media/vs-2022/visual-studio-sign-in-pop-up-vs-2022.png)
 
    > [!NOTE]
-   > If you choose not to sign in when you first open Visual Studio, it's easy to do so later. Look for the **Sign in** link in the upper-right corner of the Visual Studio environment.
+   > If you choose to not sign in when you first open Visual Studio, it's easy to do so later. Look for the [**Sign in** link in the upper-right corner of the Visual Studio environment](#sign-in-from-the-ide).
 
 ::: moniker-end
 
 2. Choose a Microsoft account or a work or school account.  If you don't have one, you can [create a Microsoft account for free](https://support.microsoft.com/help/4026324/microsoft-account-how-to-create). 
 
-3. Choose your preferred color theme and other UI settings.  Visual Studio [remembers these settings and synchronizes](../ide/synchronized-settings-in-visual-studio.md) them across all Visual Studio environments you have signed in to. You can change the settings later if you open the **Tools** > **Options** menu in Visual Studio.
+3. Choose your preferred color theme and other UI settings.  Visual Studio [remembers these settings and synchronizes](../ide/synchronized-settings-in-visual-studio.md) them across all Visual Studio environments you signed in to. You can change the settings later if you open the **Tools** > **Options** menu in Visual Studio.
 
-You can see that you're successfully signed in the upper-right corner of the Visual Studio environment. Unless you sign out, you're automatically signed in to Visual Studio whenever you start it, and any changes to synchronized settings are automatically applied.
+You can see that you've successfully signed in, in the upper-right corner of the Visual Studio environment. Unless you sign out, you automatically sign in to Visual Studio whenever you start it, and any changes to synchronized settings are automatically applied.
+
+### Sign in from the IDE
+
+ If you choose to not sign in when you first open Visual Studio, you can sign in later from the IDE. 
+
+1. Select the **Sign in** icon in the upper-right corner of the Visual Studio environment.
+
+   :::image type="content" source="media/vs-2022/signing-in-to-visual-studio/sign-in-icon-ide.png" alt-text="Screenshot of Sign in icon in the Visual Studio IDE.":::
+
+1. On the **Sign in to your account** page, select the **Connected to Windows** account or select **Use another account** to sign in with another account.
+1. Follow the prompts to enter the new account credentials.
 
 <a name="benefits"></a>
 ## Benefits: why sign in? 
@@ -65,7 +76,7 @@ While you don't have to sign in, there are many advantages to doing so.
 
 <a name="add-and-switch"></a>
 
-## Add and switch user accounts to Visual Studio
+## Add and switch user accounts in Visual Studio
 
 If you have multiple accounts, you can add them all to Visual Studio so that you can access the resources from any account without having to sign in to it separately.
 
@@ -102,7 +113,7 @@ There are several types of accounts you can add:
 
 1. Go to **File > Account Settings...** and select the **Manage Visual Studio profile** link.
 1. In the browser window, select **Edit profile** and change the settings that you want.
-1. When you're done, select **Save changes**.
+1. When done, select **Save changes**.
 
 ::: moniker range="vs-2019"
 

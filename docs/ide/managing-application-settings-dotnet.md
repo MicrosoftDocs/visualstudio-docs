@@ -1,7 +1,7 @@
 ---
 title: Manage application settings (.NET)
 description: Manage application settings that aren't included in the application code but are needed at runtime with the Visual Studio IDE.
-ms.date: 05/31/2024
+ms.date: 06/20/2024
 ms.topic: conceptual
 f1_keywords:
 - msvse_settingsdesigner.err.nameblank
@@ -111,4 +111,7 @@ For general information about accessing application settings through the `Settin
 
 ## Related content
 
-- [Access application settings (.NET Framework)](/dotnet/visual-basic/developing-apps/programming/app-settings/accessing-application-settings)
+- [Add an app.config file (C#)](how-to-add-app-config-file.md)
+- [Configure apps (.NET Framework)](/dotnet/framework/configure-apps/index)
+- [Access application settings (Visual Basic)](/dotnet/visual-basic/developing-apps/programming/app-settings/accessing-application-settings)
+- [Using application settings and user settings (Windows Forms)](/dotnet/framework/winforms/advanced/using-application-settings-and-user-settings)
