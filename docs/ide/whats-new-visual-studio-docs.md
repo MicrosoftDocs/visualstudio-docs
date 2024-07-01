@@ -28,7 +28,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [Specify ClickOnce Publish properties](../deployment/how-to-specify-where-visual-studio-copies-the-files.md) - Update and refactor articles on ClickOnce deployment settings
-- [Server and client configuration issues in ClickOnce deployments](../deployment/server-and-client-configuration-issues-in-clickonce-deployments.md) - Remove IE references from ClickOnce
+- [Server and client configuration issues in ClickOnce deployments](../deployment/server-and-client-configuration-issues-in-clickonce-deployments.md) - Remove Internet Explorer references from ClickOnce
 - [Overview of Publish](../deployment/publish-overview.md) - Review and update, add more about basic Publish operations
 - [Get publish settings from Azure and import into Visual Studio](../deployment/tutorial-import-publish-settings-azure.md) - Review and update credentials information for Azure App Service publish
 
@@ -146,7 +146,7 @@ The following people contributed to the Visual Studio docs during this period. T
 - [Change the build output directory](../ide/how-to-change-the-build-output-directory.md) - Improve guidance for setting the build output directory and add tabs
 - [Navigate code](../ide/navigating-code.md) - Review and update
 - [Add your GitHub accounts to your Visual Studio keychain](../ide/work-with-github-accounts.md) - Update
-- [Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)](../ide/work-with-multi-factor-authentication.md) - Add WAM errors & troubleshooting
+- [Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)](../ide/work-with-multi-factor-authentication.md) - Add Web Account Manager errors and troubleshooting
 
 ### JavaScript
 
