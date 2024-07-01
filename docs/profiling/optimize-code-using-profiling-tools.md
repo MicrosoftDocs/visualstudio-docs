@@ -16,7 +16,7 @@ monikerRange: '>= vs-2022'
 ---
 # Beginner's guide to optimizing code and reducing compute costs (C#, Visual Basic, C++, F#)
 
-In this guide, we aim to provide a comprehensive understanding of how to optimize code to reduce compute costs effectively and save money. By leveraging Visual Studio's profiling tools, developers can gain insights into their application's performance, identify bottlenecks, and implement optimizations to improve efficiency. The case study focuses on a .NET application that performs numerous queries against a database, highlighting common performance issues and demonstrating how to use tools like the CPU Usage tool, the .NET Object Allocation tool, and the Database tool to diagnose and resolve these issues.
+In this guide, we aim to provide a comprehensive understanding of how to optimize code to reduce compute costs effectively and save money. By leveraging Visual Studio's profiling tools, developers can gain insights into their application's performance, identify bottlenecks, and implement optimizations to improve efficiency. 
 
 Our goal is to equip developers with the knowledge to:
 
@@ -29,13 +29,13 @@ By the end of this guide, readers should be able to apply these techniques to th
 
 ## Summary
 
-The sample application discussed in this case study is a .NET application designed to run queries against a database of blogs and associated blog posts. It utilizes the Entity Framework, a popular ORM (Object-Relational Mapping) for .NET, to interact with a SQLite local database. The application is structured to execute a large number of queries, simulating a real-world scenario where a .NET application might be required to handle extensive data retrieval tasks. The sample application is based on the [Entity Framework sample](/ef/core/querying/), but modified to run a large number of queries against a SQLite local database.
+The sample application discussed in this case study is a .NET application designed to run queries against a database of blogs and associated blog posts. It utilizes the Entity Framework, a popular ORM (Object-Relational Mapping) for .NET, to interact with a SQLite local database. The application is structured to execute a large number of queries, simulating a real-world scenario where a .NET application might be required to handle extensive data retrieval tasks. The sample application is based on the [Entity Framework sample](/ef/core/querying/), but modified to run a large number of queries.
 
 The primary performance issue with the sample application lies in how it manages compute resources and interacts with the database. The application suffers from several common performance bottlenecks that can significantly impact its efficiency and, consequently, the compute costs associated with running it. These problems include:
 
 1. **High CPU Usage**: The application may be performing inefficient computations or processing tasks in a way that unnecessarily consumes a large amount of CPU resources. This can lead to slow response times and increased operational costs.
 
-2. **Inefficient Memory Allocation**: .NET applications, especially those that make extensive use of the Entity Framework, can sometimes face issues related to memory usage and allocation. Inefficient memory management can lead to increased garbage collection, which in turn can affect application performance.
+2. **Inefficient Memory Allocation**: Applications can sometimes face issues related to memory usage and allocation. Inefficient memory management can lead to increased garbage collection, which in turn can affect application performance.
 
 3. **Database Interaction Overheads**: Given that the application executes a large number of queries against a database, it is prone to experiencing bottlenecks related to database interactions. This includes inefficient queries, excessive database calls, and poor use of Entity Framework capabilities, all of which can degrade performance.
 
@@ -43,9 +43,9 @@ The case study aims to address these issues by employing Visual Studio's profili
 
 ## Challenge
 
-Addressing the performance issues in the sample .NET application presents several challenges. These challenges stem from the complexity of diagnosing performance bottlenecks, the intricacies of optimizing code without compromising functionality, and the need to balance improvements across different aspects of the application. The key challenges in fixing the problems described are as follows:
+Addressing the performance issues in the sample .NET application presents several challenges. These challenges stem from the complexity of diagnosing performance bottlenecks. The key challenges in fixing the problems described are as follows:
 
-1. **Diagnosing Performance Bottlenecks**: One of the primary challenges is accurately identifying the root causes of the performance issues. High CPU usage, inefficient memory allocation, and database interaction overheads can have multiple contributing factors. Developers must use profiling tools effectively to diagnose these issues, which requires a deep understanding of how these tools work and how to interpret their output.
+1. **Diagnosing Performance Bottlenecks**: One of the primary challenges is accurately identifying the root causes of the performance issues. High CPU usage, inefficient memory allocation, and database interaction overheads can have multiple contributing factors. Developers must use profiling tools effectively to diagnose these issues, which requires a good understanding of how these tools work and how to interpret their output.
 
 2. **Optimizing Database Interactions**: The application's heavy reliance on database queries means that optimizing these interactions is crucial. However, doing so without a thorough understanding of the Entity Framework's inner workings and best practices can be challenging. Developers must identify inefficient queries and excessive database calls, then refactor them without affecting the application's functionality or data integrity.
 
@@ -83,20 +83,20 @@ In this view, we see the hot path again, which shows high CPU usage for the `Get
 
 :::image type="content" source="./media/optimize-code-cpu-usage-call-tree-self-cpu.png" alt-text="Screenshot of Call Tree view in the CPU Usage tool with Self CPU highlighted." lightbox="./media/optimize-code-cpu-usage-call-tree-self-cpu.png":::
 
-To get a visualized call tree and a different view of the data, right-click `GetBlogTitleX` and choose **View in Flame Graph**. Here again, it looks like the `GetBlogTitleX` method is responsible for a lot of the app's CPU usage (shown in yellow). External calls to the LINQ DLLs show up beneath the `GetBlogTitleX` box, and they are using all of the CPU time for the method.
+To get a visualized call tree and a different view of the data, we right-click `GetBlogTitleX` and choose **View in Flame Graph**. Here again, it looks like the `GetBlogTitleX` method is responsible for a lot of the app's CPU usage (shown in yellow). External calls to the LINQ DLLs show up beneath the `GetBlogTitleX` box, and they are using all of the CPU time for the method.
 
 :::image type="content" source="./media/optimize-code-cpu-usage-flame-graph.png" alt-text="Screenshot of Flame Graph view in the CPU Usage tool.":::
 
 ### Gather additional data
 
-Often, other tools can provide additional information to help the analysis and isolate the problem. For this example, take the following approach:
+Often, other tools can provide additional information to help the analysis and isolate the problem. For this example, we take the following approach:
 
-- First, take a look at memory usage. There might be a correlation between high CPU usage and high memory usage, so it can be helpful to look at both to isolate the issue.
+- First, we take a look at memory usage. There might be a correlation between high CPU usage and high memory usage, so it can be helpful to look at both to isolate the issue.
 - Because we identified the LINQ DLLs, we'll also look at the Database tool.
 
 #### Check the memory usage
 
-To see what's going on with the app in terms of memory usage, collect a trace using the .NET Object Allocation tool (For C++, use the Memory Usage tool instead). The **Call Tree** view in the memory trace shows the hot path and helps us identify an area of high memory usage. No surprise at this point, the `GetBlogTitleX` method appears to be generating a lot of objects! Over 900,000 object allocations, in fact.
+To see what's going on with the app in terms of memory usage, we collect a trace using the .NET Object Allocation tool (For C++, you can use the Memory Usage tool instead). The **Call Tree** view in the memory trace shows the hot path and helps us identify an area of high memory usage. No surprise at this point, the `GetBlogTitleX` method appears to be generating a lot of objects! Over 900,000 object allocations, in fact.
 
 :::image type="content" source="./media/optimize-code-dotnet-object-allocations.png" alt-text="Screenshot of Call Tree view in the .NET Object Allocation tool.":::
 
@@ -119,7 +119,7 @@ Notice that we are retrieving a lot of column values here, perhaps more than we 
 
 ### Optimize code
 
-It's time to take a look at the `GetBlogTitleX` source code. In the Database tool, right-click the query and choose **Go to Source File**. In the source code for `GetBlogTitleX`, we find the following code that uses LINQ to read the database.
+It's time to take a look at the `GetBlogTitleX` source code. In the Database tool, we right-click the query and choose **Go to Source File**. In the source code for `GetBlogTitleX`, we find the following code that uses LINQ to read the database.
 
 ```csharp
 foreach (var blog in db.Blogs.Select(b => new { b.Url, b.Posts }).ToList())
@@ -150,23 +150,23 @@ In this code, we made several changes to help optimize the query:
 - Added the `Where` clause and eliminate one of the `foreach` loops.
 - Projected only the Title property in the `Select` statement, which is all we need in this example.
 
-Next, retest using the profiling tools.
+Next, we retest using the profiling tools.
 
 ## Results
 
-After updating the code, re-run the CPU Usage tool to collect a trace. The **Call Tree** view shows that `GetBlogTitleX` is running only 1754 ms, using 37% of the app's CPU total, a significant improvement from 59%.
+After updating the code, we re-run the CPU Usage tool to collect a trace. The **Call Tree** view shows that `GetBlogTitleX` is running only 1754 ms, using 37% of the app's CPU total, a significant improvement from 59%.
 
 :::image type="content" source="./media/optimize-code-cpu-usage-call-tree-fixed.png" alt-text="Screenshot of improved CPU usage in the Call Tree view of the CPU Usage tool.":::
 
-Switch to the **Flame Graph** view to see another visualization of the improvement. In this view, `GetBlogTitleX` also uses a smaller portion of the CPU.
+We switch to the **Flame Graph** view to see another visualization of the improvement. In this view, `GetBlogTitleX` also uses a smaller portion of the CPU.
 
 :::image type="content" source="./media/optimize-code-cpu-usage-flame-graph-fixed.png" alt-text="Screenshot of improved CPU usage in the Flame Graph view of the CPU Usage tool.":::
 
-Check the results in the Database tool trace, and only two records are read using this query, instead of 100,000! Also, the query is much simplified and eliminates the unnecessary LEFT JOIN that was generated previously.
+We check the results in the Database tool trace, and only two records are read using this query, instead of 100,000! Also, the query is much simplified and eliminates the unnecessary LEFT JOIN that was generated previously.
 
 :::image type="content" source="./media/optimize-code-database-fixed.png" alt-text="Screenshot of faster query time in the Database tool.":::
 
-Next, recheck the results in the .NET Object Allocation tool, and see that `GetBlogTitleX` is only responsible for 56,000 object allocations, nearly a 95% reduction from 900,000!
+Next, we recheck the results in the .NET Object Allocation tool, and see that `GetBlogTitleX` is only responsible for 56,000 object allocations, nearly a 95% reduction from 900,000!
 
 :::image type="content" source="./media/optimize-code-dotnet-object-allocations-fixed.png" alt-text="Screenshot of reduced memory allocations in the .NET Object Allocation tool.":::
 
