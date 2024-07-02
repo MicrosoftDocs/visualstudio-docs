@@ -36,7 +36,7 @@ executable
 
 searchPath
 
-[in] Alternate path to search for debug data.
+[in] Alternate path to search for debug data. Multiple paths should be semicolon delimited. Paths may contain a trailing `\`.
 
 pCallback
 
