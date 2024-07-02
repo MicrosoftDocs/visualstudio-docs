@@ -29,7 +29,7 @@ Visual Studio allows you to sign in with multiple accounts and it let's you work
 
 1. Select the **Sign In** button, and then choose **Add an account**. You should see options such as **Microsoft Work, school, or personal account**. This option means Microsoft Entra ID (Microsoft Account).
 
-![Screenshot of sign-in dropdown.](./media/sign-in-required-microsoft.png)
+   ![Screenshot of sign-in dropdown.](./media/sign-in-required-microsoft.png)
 
 1. Next, you see a screen listing Microsoft Accounts. Choose the account that has access to the Azure resources you require. Accounts known to Visual Studio are shown, but you can add another if the account you're looking for is not listed.
 
