@@ -1,7 +1,7 @@
 ---
 title: Use Visual Studio search to find code & do queries
 description: Explore the Visual Studio search feature and discover how to find settings, menus, code, and work with filters, queries, and more.
-ms.date: 08/08/2023
+ms.date: 07/02/2024
 ms.topic: how-to
 helpviewer_keywords:
 - environments [Visual Studio], navigation
@@ -51,6 +51,7 @@ To quickly get a filtered experience, you can type the corresponding prefixes be
 |files    |`f:`     | **Ctrl**+**Shift**+**T**       |     
 |types    |`t:`     | **Ctrl**+**1**, **Ctrl**+**T** |
 |members  |`m:`     | **Alt**+**\\**                 |
+|text     |`x:`     | **Shift**+**Alt**+**F**        |
 
 > [!TIP]
 > To learn more about the new search experience, see both the [Better search in Visual Studio](https://devblogs.microsoft.com/visualstudio/new-better-search-in-visual-studio/) and [All-In-One Search available in 17.6](https://devblogs.microsoft.com/visualstudio/all-in-one-search-available-in-17-6/) blog posts.
