@@ -27,7 +27,7 @@ Our goal is to equip developers with the knowledge to:
 
 By the end of this guide, readers should be able to apply these techniques to their own projects, leading to more efficient and cost-effective applications.
 
-## Summary
+## Optimization case study
 
 The sample application discussed in this case study is a .NET application designed to run queries against a database of blogs and associated blog posts. It utilizes the Entity Framework, a popular ORM (Object-Relational Mapping) for .NET, to interact with a SQLite local database. The application is structured to execute a large number of queries, simulating a real-world scenario where a .NET application might be required to handle extensive data retrieval tasks. The sample application is a modified version of the [Entity Framework sample](/ef/core/querying/).
 
