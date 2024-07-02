@@ -56,8 +56,8 @@ To quickly get a filtered experience, you can type the corresponding prefixes be
 > [!TIP]
 > To learn more about the new search experience, see both the [Better search in Visual Studio](https://devblogs.microsoft.com/visualstudio/new-better-search-in-visual-studio/) and [All-In-One Search available in 17.6](https://devblogs.microsoft.com/visualstudio/all-in-one-search-available-in-17-6/) blog posts.
 
-Text support (**Shift**+**Alt**+**F**) in Code Search is available in preview as of 17.9 Preview 2. See [17.9 Preview 3 brings exciting changes to Code Search
-](https://devblogs.microsoft.com/visualstudio/17-9-preview-3-brings-exciting-changes-to-code-search/). Search for a text string, with options to match the case, match whole words, or use regular expressions.
+The text filter (**Shift**+**Alt**+**F**) in Code Search is available in preview as of 17.9 Preview 2. See [17.9 Preview 3 brings exciting changes to Code Search
+](https://devblogs.microsoft.com/visualstudio/17-9-preview-3-brings-exciting-changes-to-code-search/). Search for a text string, with options to match the case, match whole words, or use a regular expression. The regular expression format is described at [Regular expressions](/dotnet/standard/base-types/regular-expression-language-quick-reference).
 
 :::image type="content" alt-text="Screenshot of text search with various options." source="./media/vs-2022/search-text-search-text-options-highlighted.png" :::
 
