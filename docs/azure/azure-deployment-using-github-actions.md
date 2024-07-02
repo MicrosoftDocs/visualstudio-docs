@@ -94,7 +94,7 @@ These steps are appropriate if you have more than one project that uses Docker c
 
 1. Choose **Next** to advance to the **Registry** screen. Choose an existing Azure Container Registry, or create a new one.
 
-   ![Screenshot of Azure Container Registry screen.](./media/azure-deployment-using-github-actions/github-actions-choose-azure-container-registry.png)
+   ![Screenshot of Azure **Container Registry** screen.](./media/azure-deployment-using-github-actions/github-actions-choose-azure-container-registry.png)
 
    If you choose to create a new one, you see this screen. Provide the resource group, SKU, and choose the same region, if possible, as before. For information about the SKUs for Azure Container Registry, see [Azure Container Registry service tiers](/azure/container-registry/container-registry-skus).
 
