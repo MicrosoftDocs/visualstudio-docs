@@ -16,7 +16,7 @@ monikerRange: '>= vs-2022'
 ---
 # Beginner's guide to optimizing code and reducing compute costs (C#, Visual Basic, C++, F#)
 
-In this guide, we aim to provide a comprehensive understanding of how to optimize code to reduce compute costs effectively and save money. By leveraging Visual Studio's profiling tools, developers can gain insights into their application's performance, identify bottlenecks, and implement optimizations to improve efficiency. 
+Reducing your compute time means reducing costs, so optimizing your code can save money. In this case study, we show how you can use profiling tools to help you accomplish this task.  
 
 Our goal is to equip developers with the knowledge to:
 
@@ -57,11 +57,12 @@ Addressing these challenges requires a strategic approach that combines effectiv
 
 ## Strategy
 
-- We start the investigation by taking a CPU usage trace. The CPU Usage tool is often helpful to begin performance investigations and to optimize code to reduce cost.
-  The CPU Usage views such as the call tree and flame graph provide a nice graphical visualization of where time is spent in the app. In addition, auto insights may show precise optimizations that can have a large impact. 
+Here is a high-level view of the approach:
+
+- We start the investigation by taking a CPU usage trace. Visual Studio's [CPU Usage tool](../profiling/cpu-usage.md) is often helpful to begin performance investigations and to optimize code to reduce cost.
 - Next, to get additional insights to help isolate issues or improve the performance, we collect a trace using one of the other profiling tools. For example:
-  - We take a look at the memory usage. For .NET, we try the .NET Object Allocation tool first. (For either .NET or C++, you can look at the Memory Usage tool instead.)
-  - For ADO.NET or Entity Framework, we can use the Database tool to examine SQL queries, precise query time, et al.
+  - We take a look at the memory usage. For .NET, we try the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md) first. (For either .NET or C++, you can look at the Memory Usage tool instead.)
+  - For ADO.NET or Entity Framework, we can use the [Database tool](../profiling/analyze-database.md) to examine SQL queries, precise query time, and more.
 
 Data collection requires the following steps:
 
@@ -71,7 +72,7 @@ Data collection requires the following steps:
 
 ### Inspect areas of high CPU usage
 
-We start by collecting a trace with the CPU Usage tool. When the diagnostic data loads, we first check the initial *.diagsession* report page that shows Top Insights and the Hot Path. The Hot Path shows the code path with highest CPU usage in the app. These sections may provide tips to help us quickly identify performance issues that we can improve.
+After collecting a trace with the CPU Usage tool and loading it into Visual Studio, we first check the initial *.diagsession* report page that shows Top Insights and the Hot Path. The Hot Path shows the code path with highest CPU usage in the app. These sections may provide tips to help us quickly identify performance issues that we can improve.
 
 We can also view the hot path in the **Call Tree** view. To open this view, use the **Open details** link in the report and then select **Call Tree**.
 
