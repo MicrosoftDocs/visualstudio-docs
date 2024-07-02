@@ -1,14 +1,14 @@
 ---
 description: "Positions the enumerator by performing a lookup by virtual address (VA)."
 title: "IDiaEnumSymbolsByAddr2::symbolByVAEx"
-ms.date: "11/04/2016"
+ms.date: "7/2/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumSymbolsByAddr2::symbolByVAEx method"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: "grantri"
+ms.author: "grantri"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

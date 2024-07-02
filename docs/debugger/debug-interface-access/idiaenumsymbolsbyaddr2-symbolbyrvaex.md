@@ -1,14 +1,14 @@
 ---
 description: "Positions the enumerator by performing a lookup by relative virtual address (RVA)."
 title: "IDiaEnumSymbolsByAddr2::symbolByRVAEx"
-ms.date: "11/04/2016"
+ms.date: "7/2/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumSymbolsByAddr2::symbolByRVAEx method"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: "grantri"
+ms.author: "grantri"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

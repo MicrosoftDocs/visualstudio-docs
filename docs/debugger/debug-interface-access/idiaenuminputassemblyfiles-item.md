@@ -1,14 +1,14 @@
 ---
 description: Retrieves an input assembly file by means of an index.
 title: "IDiaEnumInputAssemblyFiles::Item"
-ms.date: "11/04/2016"
+ms.date: "7/2/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumInputAssemblyFiles::Item method"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: "grantri"
+ms.author: "grantri"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

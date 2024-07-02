@@ -1,14 +1,14 @@
 ---
 description: Creates an enumerator that contains the same enumeration state as the current input assembly files enumerator.
 title: "IDiaEnumInputAssemblyFiles::Clone"
-ms.date: "11/04/2016"
+ms.date: "7/2/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumInputAssemblyFiles::Clone method"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: "grantri"
+ms.author: "grantri"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

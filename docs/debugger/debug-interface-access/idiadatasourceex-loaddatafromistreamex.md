@@ -1,14 +1,14 @@
 ---
 description: Prepares the debug data stored in a program database (.pdb) file accessed through an in-memory data stream, with optional record prefetching.
 title: "IDiaDataSourceEx::loadDataFromIStreamEx"
-ms.date: "11/04/2016"
+ms.date: "7/2/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaDataSourceEx::loadDataFromIStreamEx method"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: "grantri"
+ms.author: "grantri"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

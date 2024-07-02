@@ -1,15 +1,15 @@
 ---
 title: Common HRESULT Values (Debug Interface Access SDK)
 description: See a list of common HRESULT values returned by various APIs in the debug interface access (DIA) SDK.
-ms.date: "11/04/2016"
+ms.date: "7/2/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "constants, HRESULT, DIA SDK"
   - "DIA SDK, HRESULT, constants"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: "grantri"
+ms.author: "grantri"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
