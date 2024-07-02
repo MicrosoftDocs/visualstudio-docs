@@ -99,6 +99,8 @@ Next, you see the summary page for the new [publish profile](./publish-overview.
 
 You can come back to this summary page after you close it. Next time you right-click and choose **Publish**, Visual Studio opens this summary page. (To get back to the Publish wizard just click **New** in the summary page.)
 
+To view or change the settings, select the **Show all settings** link, or click on any of the pencil icons. The **Settings** page appears. Here, you can change the configuration to publish, the target framework, the [deployment mode](/dotnet/core/deploying/), the target Runtime ID (RID) (see [.NET RID catalog](https://learn.microsoft.com/en-us/dotnet/core/rid-catalog)). You can choose to delete all the existing files in the target folder every time you publish, or not. If you have or expect to add files that aren't part of what Visual Studio deploys, clear the checkbox.
+
 ## [FTP/FTPS](#tab/ftp-ftps)
 ## Publish your web app to an FTP/FTPS server
 
@@ -153,3 +155,7 @@ Next, you see the summary page for the new [publish profile](./publish-overview.
 You can import publish settings [from IIS](./tutorial-import-publish-settings-iis.md) and [Azure App Service](./tutorial-import-publish-settings-azure.md#create-the-publish-settings-file-in-azure-app-service)
 
 ---
+
+## Related Content
+
+- [.NET appliction deployment](/dotnet/core/deploying/)
