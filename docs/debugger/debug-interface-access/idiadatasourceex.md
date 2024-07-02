@@ -27,18 +27,18 @@ The following table shows the methods of `IDiaDataSourceEx`.
 
 |Method|Description|
 |------------|-----------------|
-|[IDiaDataSourceEx::loadDataFromPdbEx](../../debugger/debug-interface-access/idiadatasourceex-loaddatafrompdbex.md)|Opens and prepares a program database (.pdb) file as a debug data source.|
-|[IDiaDataSourceEx::loadAndValidateDataFromPdbEx](../../debugger/debug-interface-access/idiadatasourceex-loadandvalidatedatafrompdbex.md)|Opens and verifies that the program database (.pdb) file matches the signature information provided; prepares the .pdb file as a debug data source.|
-|[IDiaDataSourceEx::loadDataForExeEx](../../debugger/debug-interface-access/idiadatasourceex-loaddataforexeex.md)|Opens and prepares the debug data associated with the .exe/.dll file.|
-|[IDiaDataSourceEx::loadDataFromIStreamEx](../../debugger/debug-interface-access/idiadatasourceex-loaddatafromistreamex.md)|Prepares the debug data stored in a program database (.pdb) file accessed through an in-memory data stream.|
-|[IDiaDataSourceEx::getStreamSize](../../debugger/debug-interface-access/idiadatasourceex-getstreamsize.md)|Reads the size of a named stream within this program database (.pdb) file.|
-|[IDiaDataSourceEx::getStreamRawData](../../debugger/debug-interface-access/idiadatasourceex-getstreamrawdata.md)|Reads the data of a named stream within this program database (.pdb) file.|
-|[IDiaDataSourceEx::setPfnMiniPDBErrorCallback2](../../debugger/debug-interface-access/idiadatasourceex-setpfnminipdberrorcallback2.md)|Set a callback function pointer for receiving error notifications relating to fastlink PDBs.|
-|[IDiaDataSourceEx::ValidatePdb](../../debugger/debug-interface-access/idiadatasourceex-validatepdb.md)|Only verifies that the program database (.pdb) file matches the signature information provided.|
+|[`IDiaDataSourceEx::loadDataFromPdbEx`](../../debugger/debug-interface-access/idiadatasourceex-loaddatafrompdbex.md)|Opens and prepares a program database (.pdb) file as a debug data source.|
+|[`IDiaDataSourceEx::loadAndValidateDataFromPdbEx`](../../debugger/debug-interface-access/idiadatasourceex-loadandvalidatedatafrompdbex.md)|Opens and verifies that the program database (.pdb) file matches the signature information provided; prepares the .pdb file as a debug data source.|
+|[`IDiaDataSourceEx::loadDataForExeEx`](../../debugger/debug-interface-access/idiadatasourceex-loaddataforexeex.md)|Opens and prepares the debug data associated with the .exe/.dll file.|
+|[`IDiaDataSourceEx::loadDataFromIStreamEx`](../../debugger/debug-interface-access/idiadatasourceex-loaddatafromistreamex.md)|Prepares the debug data stored in a program database (.pdb) file accessed through an in-memory data stream.|
+|[`IDiaDataSourceEx::getStreamSize`](../../debugger/debug-interface-access/idiadatasourceex-getstreamsize.md)|Reads the size of a named stream within this program database (.pdb) file.|
+|[`IDiaDataSourceEx::getStreamRawData`](../../debugger/debug-interface-access/idiadatasourceex-getstreamrawdata.md)|Reads the data of a named stream within this program database (.pdb) file.|
+|[`IDiaDataSourceEx::setPfnMiniPDBErrorCallback2`](../../debugger/debug-interface-access/idiadatasourceex-setpfnminipdberrorcallback2.md)|Set a callback function pointer for receiving error notifications relating to fastlink PDBs.|
+|[`IDiaDataSourceEx::ValidatePdb`](../../debugger/debug-interface-access/idiadatasourceex-validatepdb.md)|Only verifies that the program database (.pdb) file matches the signature information provided.|
 
 ## Remarks
 
-A call to one of the load methods of the `IDiaDataSourceEx` interface opens the symbol source. A successful call to the [IDiaDataSource::openSession](../../debugger/debug-interface-access/idiadatasource-opensession.md) method returns an [IDiaSession](../../debugger/debug-interface-access/idiasession.md) interface that supports querying the data source. If the load method returns a file-related error then the [IDiaDataSource::get_lastError](../../debugger/debug-interface-access/idiadatasource-get-lasterror.md) method return value contains the file name associated with the error.
+A call to one of the load methods of the `IDiaDataSourceEx` interface opens the symbol source. A successful call to the [`IDiaDataSource::openSession`](../../debugger/debug-interface-access/idiadatasource-opensession.md) method returns an [`IDiaSession`](../../debugger/debug-interface-access/idiasession.md) interface that supports querying the data source. If the load method returns a file-related error then the [`IDiaDataSource::get_lastError`](../../debugger/debug-interface-access/idiadatasource-get-lasterror.md) method return value contains the file name associated with the error.
 
 ## Notes for Callers
 

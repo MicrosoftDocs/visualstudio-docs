@@ -27,7 +27,7 @@ HRESULT get_Count (
 
 #### Parameters
 
-pRetVal
+`pRetVal`
 
 [out] Returns the number of injected sources.
 
@@ -37,5 +37,5 @@ If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See also
 
-- [IDiaEnumInputAssemblyFiles](../../debugger/debug-interface-access/idiaenuminputassemblyfiles.md)
-- [IDiaEnumInputAssemblyFiles::Item](../../debugger/debug-interface-access/idiaenuminputassemblyfiles-item.md)
+- [`IDiaEnumInputAssemblyFiles`](../../debugger/debug-interface-access/idiaenuminputassemblyfiles.md)
+- [`IDiaEnumInputAssemblyFiles::Item`](../../debugger/debug-interface-access/idiaenuminputassemblyfiles-item.md)

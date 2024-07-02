@@ -28,13 +28,13 @@ HRESULT Item (
 
 #### Parameters
 
-index
+`index`
 
-[in] Index of the [IDiaInputAssemblyFile](../../debugger/debug-interface-access/idiainputassemblyfile.md) object to be retrieved. The index is the range 0 to `count`-1, where `count` is returned by the [IDiaEnumInputAssemblyFiles::get_Count](../../debugger/debug-interface-access/idiaenuminputassemblyfiles-get-count.md) method.
+[in] Index of the [`IDiaInputAssemblyFile`](../../debugger/debug-interface-access/idiainputassemblyfile.md) object to be retrieved. The index is the range 0 to `count`-1, where `count` is returned by the [IDiaEnumInputAssemblyFiles::get_Count](../../debugger/debug-interface-access/idiaenuminputassemblyfiles-get-count.md) method.
 
-file
+`file`
 
-[out] Returns an [IDiaInputAssemblyFile](../../debugger/debug-interface-access/idiainputassemblyfile.md) object representing the input assembly file.
+[out] Returns an [`IDiaInputAssemblyFile`](../../debugger/debug-interface-access/idiainputassemblyfile.md) object representing the input assembly file.
 
 ## Return Value
 
@@ -42,5 +42,5 @@ If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See also
 
-- [IDiaEnumInputAssemblyFiles](../../debugger/debug-interface-access/idiaenumininputassemblyfiles.md)
-- [IDiaInputAssemblyFile](../../debugger/debug-interface-access/idiainputassemblyfile.md)
+- [`IDiaEnumInputAssemblyFiles`](../../debugger/debug-interface-access/idiaenumininputassemblyfiles.md)
+- [`IDiaInputAssemblyFile`](../../debugger/debug-interface-access/idiainputassemblyfile.md)

@@ -27,7 +27,8 @@ HRESULT get__NewEnum (
 
 #### Parameters
 
-pRetVal
+`pRetVal`
+
 - [out, retval] Returns the `IUnknown` interface that represents the <xref:System.Runtime.InteropServices.ComTypes.IEnumVARIANT> version of this enumerator.
 
 ## Return Value
@@ -36,4 +37,4 @@ If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See also
 
-- [IDiaEnumInputAssemblyFiles](../../debugger/debug-interface-access/idiaenuminputassemblyfiles.md)
+- [`IDiaEnumInputAssemblyFiles`](../../debugger/debug-interface-access/idiaenuminputassemblyfiles.md)

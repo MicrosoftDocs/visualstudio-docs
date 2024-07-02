@@ -23,23 +23,27 @@ IDiaEnumSymbolsByAddr2 : IDiaEnumSymbolsByAdd
 ```
 
 ## Methods in Vtable Order
+
 The following table shows the methods of `IDiaEnumSymbolsByAddr2`.
 
 |Method|Description|
 |------------|-----------------|
-|[IDiaEnumSymbolsByAddr2::symbolByAddrEx](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr2-symbolbyaddrex.md)|Positions the enumerator by performing a lookup by section and offset.|
-|[IDiaEnumSymbolsByAddr2::symbolByRVAEx](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr2-symbolbyrvaex.md)|Positions the enumerator by performing a lookup by relative virtual address (RVA).|
-|[IDiaEnumSymbolsByAddr2::symbolByVAEx](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr2-symbolbyvaex.md)|Positions the enumerator by performing a lookup by virtual address (VA).|
-|[IDiaEnumSymbolsByAddr2::NextEx](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr2-nextex.md)|Retrieves the next symbols in order by address. Updates the enumerator position by number of elements fetched.|
-|[IDiaEnumSymbolsByAddr2::PrevEx](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr2-prevex.md)|Retrieves the previous symbols in order by address. Updates the enumerator position by number of elements fetched.|
+|[`IDiaEnumSymbolsByAddr2::symbolByAddrEx`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr2-symbolbyaddrex.md)|Positions the enumerator by performing a lookup by section and offset.|
+|[`IDiaEnumSymbolsByAddr2::symbolByRVAEx`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr2-symbolbyrvaex.md)|Positions the enumerator by performing a lookup by relative virtual address (RVA).|
+|[`IDiaEnumSymbolsByAddr2::symbolByVAEx`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr2-symbolbyvaex.md)|Positions the enumerator by performing a lookup by virtual address (VA).|
+|[`IDiaEnumSymbolsByAddr2::NextEx`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr2-nextex.md)|Retrieves the next symbols in order by address. Updates the enumerator position by number of elements fetched.|
+|[`IDiaEnumSymbolsByAddr2::PrevEx`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr2-prevex.md)|Retrieves the previous symbols in order by address. Updates the enumerator position by number of elements fetched.|
 
 ## Remarks
-This interface provides symbols grouped by address. To work with symbols grouped by type, for example `SymTagUDT` (user-defined type) or `SymTagBaseClass`, use the [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md) interface.
 
-## Notes for Callers
-Obtain this interface by calling the [IDiaSession::getSymbolsByAddr](../../debugger/debug-interface-access/idiasession-getsymbolsbyaddr.md) method and then calling [IUnknown::QueryInterface](windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)) with the `riid` parameter set to `IID_IDiaEnumSymbolsByAddr2`.
+This interface provides symbols grouped by address. To work with symbols grouped by type, for example `SymTagUDT` (user-defined type) or `SymTagBaseClass`, use the [`IDiaEnumSymbols`](../../debugger/debug-interface-access/idiaenumsymbols.md) interface.
+
+## Notes for callers
+
+Obtain this interface by calling the [`IDiaSession::getSymbolsByAddr`](../../debugger/debug-interface-access/idiasession-getsymbolsbyaddr.md) method and then calling [`IUnknown::QueryInterface`](windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)) with the `riid` parameter set to `IID_IDiaEnumSymbolsByAddr2`.
 
 ## Example
+
 This function displays the name and address of all symbols ordered by relative virtual address.
 
 ```C++
@@ -92,13 +96,15 @@ void ShowSymbolsByAddress(IDiaSession *pSession)
 ```
 
 ## Requirements
+
 Header: Dia2.h
 
 Library: diaguids.lib
 
-DLL: msdia80.dll
+DLL: msdia140.dll
 
 ## See also
+
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
-- [IDiaSession::getSymbolsByAddr](../../debugger/debug-interface-access/idiasession-getsymbolsbyaddr.md)
-- [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)
+- [`IDiaSession::getSymbolsByAddr`](../../debugger/debug-interface-access/idiasession-getsymbolsbyaddr.md)
+- [`IDiaEnumSymbols`](../../debugger/debug-interface-access/idiaenumsymbols.md)

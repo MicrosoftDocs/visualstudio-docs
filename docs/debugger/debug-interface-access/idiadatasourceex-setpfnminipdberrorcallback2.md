@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 # IDiaDataSourceEx::setPfnMiniPDBErrorCallback
 
-Sets a callback function to receive errors relating to loading secondary files (.OBJ, .LIB, or compiler generated .PDB  files) referenced from fastlink PDBs (i.e. PDBs generated with /DEBUG:fastlink).
+Sets a callback function to receive errors relating to loading secondary files (.OBJ, .LIB, or compiler generated .PDB  files) referenced from fastlink PDBs (i.e. PDBs generated with `/DEBUG:fastlink`).
 
 ## Syntax
 
@@ -28,11 +28,11 @@ HRESULT setpfnminipdberrorcallback2 (
 
 #### Parameters
 
-pvContext
+`pvContext`
 
 [in] A context parameter to be passed to the callback.
 
-pfn
+`pfn`
 
 [in] A pointer to a function to be called.
 
@@ -46,10 +46,10 @@ PDBs that are generated with /DEBUG:fastlink (also sometimes call mini PDBs), do
 
 Only one callback function may be registered at a time. Attempting to register a second function will simply replace the first. To remove the registration, simply pass a `nullptr` for both arguments.
 
-See [PFNMINIPDBERRORCALLBACK2](../../debugger/debug-interface-access/pfnminipdberrorcallback2.md) for an example of using this method.
+See [`PFNMINIPDBERRORCALLBACK2`](../../debugger/debug-interface-access/pfnminipdberrorcallback2.md) for an example of using this method.
 
 ## See also
 
-- [IDiaDataSourceEx](../../debugger/debug-interface-access/idiadatasourceex.md)
-- [PFNMINIPDBERRORCALLBACK2](../../debugger/debug-interface-access/pfnminipdberrorcallback2.md)
+- [`IDiaDataSourceEx`](../../debugger/debug-interface-access/idiadatasourceex.md)
+- [`PFNMINIPDBERRORCALLBACK2`](../../debugger/debug-interface-access/pfnminipdberrorcallback2.md)
 - [/DEBUG (Generate debug info)](/cpp/build/reference/debug-generate-debug-info)

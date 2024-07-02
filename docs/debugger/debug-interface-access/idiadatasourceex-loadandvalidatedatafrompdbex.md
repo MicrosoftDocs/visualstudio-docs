@@ -49,7 +49,7 @@ HRESULT loadAndValidateDataFromPdbEx (
 
 fPdbPrefetching
 
-[in] If set to `TRUE`, adjacent debug records are prefetched into memory, potentially replacing many smaller file I/O operations with fewer, larger operations, and thus improving overall throughput as those records are subsequently accessed, at the expense of potentially increased memory usage. If set to `FALSE`, this behaves identically to [IDiaDataSource::loadAndValidateDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loadandvalidatedatafrompdb.md). If set to some other value, behavior is unspecified.
+[in] If set to `TRUE`, adjacent debug records are prefetched into memory, potentially replacing many smaller file I/O operations with fewer, larger operations, and thus improving overall throughput as those records are subsequently accessed, at the expense of potentially increased memory usage. If set to `FALSE`, this behaves identically to [`IDiaDataSource::loadAndValidateDataFromPdb`](../../debugger/debug-interface-access/idiadatasource-loadandvalidatedatafrompdb.md). If set to some other value, behavior is unspecified.
 
 ## Return Value
 
@@ -57,24 +57,24 @@ If successful, returns `S_OK`; otherwise, returns an error code. The following t
 
 |Value|Description|
 |-----------|-----------------|
-|E_PDB_NOT_FOUND|Failed to open the file, or the file has an invalid format.|
-|E_PDB_FORMAT|Attempted to access a file with an obsolete format.|
-|E_PDB_INVALID_SIG|Signature does not match.|
-|E_PDB_INVALID_AGE|Age does not match.|
-|E_INVALIDARG|Invalid parameter.|
-|E_UNEXPECTED|The data source has already been prepared.|
+|`E_PDB_NOT_FOUND`|Failed to open the file, or the file has an invalid format.|
+|`E_PDB_FORMAT`|Attempted to access a file with an obsolete format.|
+|`E_PDB_INVALID_SIG`|Signature does not match.|
+|`E_PDB_INVALID_AGE`|Age does not match.|
+|`E_INVALIDARG`|Invalid parameter.|
+|`E_UNEXPECTED`|The data source has already been prepared.|
 
 ## Remarks
 
 A .pdb file contains both signature and age values. These values are replicated in the .exe or .dll file that matches the .pdb file. Before preparing the data source, this method verifies that the named .pdb file's signature and age match the values provided.
 
-To load a .pdb file without validation, use the [IDiaDataSourceEx::loadDataFromPdbEx](../../debugger/debug-interface-access/idiadatasourceex-loaddatafrompdbex.md) method.
+To load a .pdb file without validation, use the [`IDiaDataSourceEx::loadDataFromPdbEx`](../../debugger/debug-interface-access/idiadatasourceex-loaddatafrompdbex.md) method.
 
-To gain access to the data load process (through a callback mechanism), use the [IDiaDataSourceEx::loadDataForExeEx](../../debugger/debug-interface-access/idiadatasourceex-loaddataforexeex.md) method.
+To gain access to the data load process (through a callback mechanism), use the [`IDiaDataSourceEx::loadDataForExeEx`](../../debugger/debug-interface-access/idiadatasourceex-loaddataforexeex.md) method.
 
-To load a .pdb file directly from memory, use the [IDiaDataSourceEx::loadDataFromIStreamEx](../../debugger/debug-interface-access/idiadatasourceex-loaddatafromistreamex.md) method.
+To load a .pdb file directly from memory, use the [`IDiaDataSourceEx::loadDataFromIStreamEx`](../../debugger/debug-interface-access/idiadatasourceex-loaddatafromistreamex.md) method.
 
-To validate a .pdb file without loading it, use the [IDiaDataSourceEx::ValidatePdb](../../debugger/debug-interface-access/idiadatasourceex-validatepdb.md) method.
+To validate a .pdb file without loading it, use the [`IDiaDataSourceEx::ValidatePdb`](../../debugger/debug-interface-access/idiadatasourceex-validatepdb.md) method.
 
 ## Example
 
@@ -99,8 +99,8 @@ if (FAILED(hr))
 
 ## See also
 
-- [IDiaDataSourceEx](../../debugger/debug-interface-access/idiadatasourceex.md)
-- [IDiaDataSourceEx::loadDataForExeEx](../../debugger/debug-interface-access/idiadatasourceex-loaddataforexeex.md)
-- [IDiaDataSourceEx::loadDataFromPdbEx](../../debugger/debug-interface-access/idiadatasourceex-loaddatafrompdbex.md)
-- [IDiaDataSourceEx::loadDataFromIStreamEx](../../debugger/debug-interface-access/idiadatasourceex-loaddatafromistreamex.md)
-- [IDiaDataSourceEx::ValidatePdb](../../debugger/debug-interface-access/idiadatasourceex-validatepdb.md)
+- [`IDiaDataSourceEx`](../../debugger/debug-interface-access/idiadatasourceex.md)
+- [`IDiaDataSourceEx::loadDataForExeEx`](../../debugger/debug-interface-access/idiadatasourceex-loaddataforexeex.md)
+- [`IDiaDataSourceEx::loadDataFromPdbEx`](../../debugger/debug-interface-access/idiadatasourceex-loaddatafrompdbex.md)
+- [`IDiaDataSourceEx::loadDataFromIStreamEx`](../../debugger/debug-interface-access/idiadatasourceex-loaddatafromistreamex.md)
+- [`IDiaDataSourceEx::ValidatePdb`](../../debugger/debug-interface-access/idiadatasourceex-validatepdb.md)

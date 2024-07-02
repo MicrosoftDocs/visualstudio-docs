@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 # IDiaDataSource::loadDataFromMiscInfo
 
-Opens and prepares the debug data associated with the .exe/.dll file.
+Opens and prepares the debug data associated with the `.exe`/`.dll` file.
 
 ## Syntax
 
@@ -34,37 +34,37 @@ HRESULT loadDataFromMiscInfo (
 
 #### Parameters
 
-executable
+`executable`
 
-[in] Path to the .exe or .dll file.
+[in] Path to the `.exe` or `.dll` file.
 
-searchPath
+`searchPath`
 
 [in] Alternate paths to search for debug data. Multiple paths should be semicolon delimited. Paths may contain a trailing `\`.
 
-timeStampExe
+`timeStampExe`
 
 [in] Alternate timestamp for the executable image.
 
-timeStampDbg
+`timeStampDbg`
 
 [in] Alternate timestamp for the debug information.
 
-sizeOfExe
+`sizeOfExe`
 
-[in] Alternate size of the executable image.
+[in] Alternate size of the executable image in bytes.
 
-cbMiscInfo
+`cbMiscInfo`
 
 [in] Size in bytes of the `pbMiscInfo` paramter.
 
-pbMiscInfo
+`pbMiscInfo`
 
-[in] Alternative debug header in IMAGE_DEBUG_MISC format that provides the filename with the debug information.
+[in] Alternative debug header in `IMAGE_DEBUG_MISC` format that provides the filename with the debug information.
 
-pCallback
+`pCallback`
 
-[in] An `IUnknown` interface for an object that supports a debug callback interface, such as the [IDiaLoadCallback](../../debugger/debug-interface-access/idialoadcallback.md), [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md), the [IDiaReadExeAtOffsetCallback](../../debugger/debug-interface-access/idiareadexeatoffsetcallback.md), and/or the [IDiaReadExeAtRVACallback](../../debugger/debug-interface-access/idiareadexeatrvacallback.md) interfaces.
+[in] An `IUnknown` interface for an object that supports a debug callback interface, such as the [`IDiaLoadCallback`](../../debugger/debug-interface-access/idialoadcallback.md), [`IDiaLoadCallback2`](../../debugger/debug-interface-access/idialoadcallback2.md), the [`IDiaReadExeAtOffsetCallback`](../../debugger/debug-interface-access/idiareadexeatoffsetcallback.md), and/or the [`IDiaReadExeAtRVACallback`](../../debugger/debug-interface-access/idiareadexeatrvacallback.md) interfaces.
 
 ## Return Value
 
@@ -72,12 +72,12 @@ If successful, returns `S_OK`; otherwise, returns an error code. The following t
 
 |Value|Description|
 |-----------|-----------------|
-|E_PDB_NOT_FOUND|Failed to open the file, or the file has an invalid format.|
-|E_PDB_FORMAT|Attempted to access a file with an obsolete format.|
-|E_PDB_INVALID_SIG|Signature does not match.|
-|E_PDB_INVALID_AGE|Age does not match.|
-|E_INVALIDARG|Invalid parameter.|
-|E_UNEXPECTED|Data source has already been prepared.|
+|`E_PDB_NOT_FOUND`|Failed to open the file, or the file has an invalid format.|
+|`E_PDB_FORMAT`|Attempted to access a file with an obsolete format.|
+|`E_PDB_INVALID_SIG`|Signature does not match.|
+|`E_PDB_INVALID_AGE`|Age does not match.|
+|`E_INVALIDARG`|Invalid parameter.|
+|`E_UNEXPECTED`|Data source has already been prepared.|
 
 ## Remarks
 
@@ -85,15 +85,15 @@ The pbMiscInfo replaces the debug information in the executable image and names 
 
 If you are loading debug data from a symbol server, *symsrv.dll* must be present in the same directory where either the user's application or *msdia140.dll* is installed, or it must be present in the system directory.
 
-This method searches for and prepares the debug data. The progress of the search may, optionally, be reported and controlled through callbacks. For example, the [IDiaLoadCallback::NotifyDebugDir](../../debugger/debug-interface-access/idialoadcallback-notifydebugdir.md) is invoked when the `IDiaDataSource::loadDataForExe` method finds and processes a debug directory.
+This method searches for and prepares the debug data. The progress of the search may, optionally, be reported and controlled through callbacks. For example, the [`IDiaLoadCallback::NotifyDebugDir`](../../debugger/debug-interface-access/idialoadcallback-notifydebugdir.md) is invoked when the `IDiaDataSource::loadDataForExe` method finds and processes a debug directory.
 
-The [IDiaReadExeAtOffsetCallback](../../debugger/debug-interface-access/idiareadexeatoffsetcallback.md) and [IDiaReadExeAtRVACallback](../../debugger/debug-interface-access/idiareadexeatrvacallback.md) interfaces allow the client application to provide alternative methods for reading data from the executable file when the file cannot be accessed directly through standard file I/O.
+The [`IDiaReadExeAtOffsetCallback`](../../debugger/debug-interface-access/idiareadexeatoffsetcallback.md) and [`IDiaReadExeAtRVACallback`](../../debugger/debug-interface-access/idiareadexeatrvacallback.md) interfaces allow the client application to provide alternative methods for reading data from the executable file when the file cannot be accessed directly through standard file I/O.
 
-To load a .pdb file without validation, use the [IDiaDataSource::loadDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md) method.
+To load a .pdb file without validation, use the [`IDiaDataSource::loadDataFromPdb`](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md) method.
 
-To validate the .pdb file against specific criteria, use the [IDiaDataSource::loadAndValidateDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loadandvalidatedatafrompdb.md) method.
+To validate the .pdb file against specific criteria, use the [`IDiaDataSource::loadAndValidateDataFromPdb`](../../debugger/debug-interface-access/idiadatasource-loadandvalidatedatafrompdb.md) method.
 
-To load a .pdb file directly from memory, use the [IDiaDataSource::loadDataFromIStream](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md) method.
+To load a .pdb file directly from memory, use the [`IDiaDataSource::loadDataFromIStream`](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md) method.
 
 To validate a .pdb file without loading it, use the [IDiaDataSourceEx::ValidatePdb](../../debugger/debug-interface-access/idiadatasourceex-validatepdb.md) method.
 
@@ -114,13 +114,13 @@ if (FAILED(hr))
 
 ## See also
 
-- [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
-- [IDiaLoadCallback](../../debugger/debug-interface-access/idialoadcallback.md)
-- [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)
-- [IDiaLoadCallback::NotifyDebugDir](../../debugger/debug-interface-access/idialoadcallback-notifydebugdir.md)
-- [IDiaReadExeAtOffsetCallback](../../debugger/debug-interface-access/idiareadexeatoffsetcallback.md)
-- [IDiaReadExeAtRVACallback](../../debugger/debug-interface-access/idiareadexeatrvacallback.md)
-- [IDiaDataSource::loadDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md)
-- [IDiaDataSource::loadAndValidateDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loadandvalidatedatafrompdb.md)
-- [IDiaDataSource::loadDataFromIStream](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md)
-- [IDiaDataSourceEx::ValidatePdb](../../debugger/debug-interface-access/idiadatasourceex-validatepdb.md)
+- [`IDiaDataSource`](../../debugger/debug-interface-access/idiadatasource.md)
+- [`IDiaLoadCallback`](../../debugger/debug-interface-access/idialoadcallback.md)
+- [`IDiaLoadCallback2`](../../debugger/debug-interface-access/idialoadcallback2.md)
+- [`IDiaLoadCallback`::NotifyDebugDir](../../debugger/debug-interface-access/idialoadcallback-notifydebugdir.md)
+- [`IDiaReadExeAtOffsetCallback`](../../debugger/debug-interface-access/idiareadexeatoffsetcallback.md)
+- [`IDiaReadExeAtRVACallback`](../../debugger/debug-interface-access/idiareadexeatrvacallback.md)
+- [`IDiaDataSource::loadDataFromPdb`](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md)
+- [`IDiaDataSource::loadAndValidateDataFromPdb`](../../debugger/debug-interface-access/idiadatasource-loadandvalidatedatafrompdb.md)
+- [`IDiaDataSource::loadDataFromIStream`](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md)
+- [`IDiaDataSourceEx::ValidatePdb`](../../debugger/debug-interface-access/idiadatasourceex-validatepdb.md)

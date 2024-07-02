@@ -27,14 +27,14 @@ The following table shows the methods of `IDiaDataSource`.
 
 |Method|Description|
 |------------|-----------------|
-|[IDiaDataSource::get_lastError](../../debugger/debug-interface-access/idiadatasource-get-lasterror.md)|Retrieves the file name for the last load error.|
-|[IDiaDataSource::loadDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md)|Opens and prepares a program database (.pdb) file as a debug data source.|
-|[IDiaDataSource::loadAndValidateDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loadandvalidatedatafrompdb.md)|Opens and verifies that the program database (.pdb) file matches the signature information provided; prepares the .pdb file as a debug data source.|
-|[IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)|Opens and prepares the debug data associated with the .exe/.dll file.|
-|[IDiaDataSource::loadDataFromIStream](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md)|Prepares the debug data stored in a program database (.pdb) file accessed through an in-memory data stream.|
-|[IDiaDataSource::openSession](../../debugger/debug-interface-access/idiadatasource-opensession.md)|Opens a session for querying symbols.|
-|[IDiaDataSource::loadDataFromCodeViewInfo](../../debugger/debug-interface-access/idiadatasource-loaddatafromcodeviewinfo.md)|Opens and prepares the debug data associated with the provided CodeView information.|
-|[IDiaDataSource::loadDataFromMiscInfo](../../debugger/debug-interface-access/idiadatasource-loaddatafrommiscinfo.md)|Opens and prepares the debug data associated with the provided debug information.|
+|[`IDiaDataSource::get_lastError`](../../debugger/debug-interface-access/idiadatasource-get-lasterror.md)|Retrieves the file name for the last load error.|
+|[`IDiaDataSource::loadDataFromPdb`](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md)|Opens and prepares a program database (.pdb) file as a debug data source.|
+|[`IDiaDataSource::loadAndValidateDataFromPdb`](../../debugger/debug-interface-access/idiadatasource-loadandvalidatedatafrompdb.md)|Opens and verifies that the program database (.pdb) file matches the signature information provided; prepares the .pdb file as a debug data source.|
+|[`IDiaDataSource::loadDataForExe`](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)|Opens and prepares the debug data associated with the .exe/.dll file.|
+|[`IDiaDataSource::loadDataFromIStream`](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md)|Prepares the debug data stored in a program database (.pdb) file accessed through an in-memory data stream.|
+|[`IDiaDataSource::openSession`](../../debugger/debug-interface-access/idiadatasource-opensession.md)|Opens a session for querying symbols.|
+|[`IDiaDataSource::loadDataFromCodeViewInfo`](../../debugger/debug-interface-access/idiadatasource-loaddatafromcodeviewinfo.md)|Opens and prepares the debug data associated with the provided CodeView information.|
+|[`IDiaDataSource::loadDataFromMiscInfo`](../../debugger/debug-interface-access/idiadatasource-loaddatafrommiscinfo.md)|Opens and prepares the debug data associated with the provided debug information.|
 
 ## Remarks
 
@@ -71,4 +71,4 @@ DLL: msdia140.dll
 ## See also
 
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
-- [IDiaDataSourceEx](../../debugger/debug-interface-access/idiadatasourceex.md)
+- [`IDiaDataSourceEx`](../../debugger/debug-interface-access/idiadatasourceex.md)

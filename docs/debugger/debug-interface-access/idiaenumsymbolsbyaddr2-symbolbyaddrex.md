@@ -28,26 +28,29 @@ HRESULT symbolByAddrEx (
 ```
 
 #### Parameters
- fPromoteBlockSym
 
-[in] Whether or not to enumerate SymTagBlock symbols or promote them to an outer/parent symbol (like SymTagFuncton or SymTagPublicSymbol). If `FALSE` returns unpromoted SymTagBlock. Otherwise behaves identically to [IDiaEnumSymbolsByAddr::symbolByAddr](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolsbyaddr.md)
+ `fPromoteBlockSym`
 
- isect
+[in] Whether or not to enumerate SymTagBlock symbols or promote them to an outer/parent symbol (like SymTagFuncton or SymTagPublicSymbol). If `FALSE` returns unpromoted SymTagBlock. Otherwise behaves identically to [`IDiaEnumSymbolsByAddr::symbolByAddr`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolsbyaddr.md)
+
+ `isect`
 
 [in] Image section number.
 
- offsect
+ `offsect`
 
 [in] Offset in section.
 
- ppsymbol
+ `ppsymbol`
 
-[out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object representing the symbol found.
+[out] Returns an [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md) object representing the symbol found.
 
 ## Return Value
+
  If successful, returns `S_OK`. Returns `S_FALSE` if the symbol could not be found. Otherwise, returns an error code.
 
 ## See also
-- [IDiaEnumSymbolsByAddr::symbolByAddr](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolsbyaddr.md)
-- [IDiaEnumSymbolsByAddr2](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr2.md)
-- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+
+- [`IDiaEnumSymbolsByAddr::symbolByAddr`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolsbyaddr.md)
+- [`IDiaEnumSymbolsByAddr2`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr2.md)
+- [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md)

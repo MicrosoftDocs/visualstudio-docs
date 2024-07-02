@@ -29,15 +29,15 @@ HRESULT Next (
 
 #### Parameters
 
-celt
+`celt`
 
 [in] The number of injected sources in the enumerator to be retrieved.
 
-rgelt
+`rgelt`
 
-[out] Returns an array of [IDiaInputAssemblyFile](../../debugger/debug-interface-access/idiainputassemblyfile.md) objects that represents the desired input assembly files.
+[out] Returns an array of [`IDiaInputAssemblyFile`](../../debugger/debug-interface-access/idiainputassemblyfile.md) objects that represents the desired input assembly files.
 
-pceltFetched
+`pceltFetched`
 
 [out] Returns the number of input assembly files in the fetched enumerator.
 
@@ -47,5 +47,5 @@ If successful, returns `S_OK`. Returns `S_FALSE` if there are no more input asse
 
 ## See also
 
-- [IDiaEnumInputAssemblyFiles](../../debugger/debug-interface-access/idiaenuminputassemblyfiles.md)
-- [IDiaInputAssemblyFile](../../debugger/debug-interface-access/idiainputassemblyfile.md)
+- [`IDiaEnumInputAssemblyFiles`](../../debugger/debug-interface-access/idiaenuminputassemblyfiles.md)
+- [`IDiaInputAssemblyFile`](../../debugger/debug-interface-access/idiainputassemblyfile.md)

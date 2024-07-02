@@ -19,7 +19,7 @@ Retrieves all children of a specified parent identifier that match the name and 
 ## Syntax
 
 ```C++
-HRESULT findChildrenExByAddr ( 
+HRESULT findChildrenExByAddr (
    IDiaSymbol*       parent,
    SymTagEnum        symtag,
    LPCOLESTR         name,
@@ -31,13 +31,14 @@ HRESULT findChildrenExByAddr ( 
 ```
 
 #### Parameters
+
  `parent`
 
 [in] An [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object representing the parent. If this parent symbol is a function, module, or block, then its lexical children are returned in `ppResult`. If the parent symbol is a type, then its class children are returned. If this parameter is `NULL`, then `symtag` must be set to `SymTagExe` or `SymTagNull`, which returns the global scope (.exe file).
 
  `symtag`
 
-[in] Specifies the symbol tag of the children to be retrieved. Values are taken from the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) enumeration. Set to `SymTagNull` to retrieve all children.
+[in] Specifies the symbol tag of the children to be retrieved. Values are taken from the [`SymTagEnum` Enumeration](../../debugger/debug-interface-access/symtagenum.md) enumeration. Set to `SymTagNull` to retrieve all children.
 
  `name`
 
@@ -45,7 +46,7 @@ HRESULT findChildrenExByAddr ( 
 
  `compareFlags`
 
-[in] Specifies the comparison options applied to name matching. Values from the [NameSearchOptions Enumeration](../../debugger/debug-interface-access/namesearchoptions.md) enumeration can be used alone or in combination.
+[in] Specifies the comparison options applied to name matching. Values from the [`NameSearchOptions` Enumeration](../../debugger/debug-interface-access/namesearchoptions.md) enumeration can be used alone or in combination.
 
  `isect`
 
@@ -57,12 +58,14 @@ HRESULT findChildrenExByAddr ( 
 
  `ppResult`
 
-[out] Returns an [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md) object that contains the list of child symbols retrieved.
+[out] Returns an [`IDiaEnumSymbols`](../../debugger/debug-interface-access/idiaenumsymbols.md) object that contains the list of child symbols retrieved.
 
 ## Return Value
+
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## Example
+
  The following example shows how to find local variables of function `pFunc` that match name `szVarName` and are at address `isect:offset`.
 
 ```C++
@@ -71,9 +74,10 @@ pSession->findChildrenExByAddr( pFunc, SymTagData, szVarName, nsCaseSensitive, i
 ```
 
 ## See also
+
 - [Overview](../../debugger/debug-interface-access/overview-debug-interface-access-sdk.md)
-- [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)
-- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+- [`IDiaEnumSymbols`](../../debugger/debug-interface-access/idiaenumsymbols.md)
+- [`IDiaSession`](../../debugger/debug-interface-access/idiasession.md)
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
-- [NameSearchOptions Enumeration](../../debugger/debug-interface-access/namesearchoptions.md)
-- [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)
+- [`NameSearchOptions` Enumeration](../../debugger/debug-interface-access/namesearchoptions.md)
+- [`SymTagEnum` Enumeration](../../debugger/debug-interface-access/symtagenum.md)

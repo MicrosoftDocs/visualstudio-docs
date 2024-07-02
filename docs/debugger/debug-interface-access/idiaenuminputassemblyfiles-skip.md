@@ -27,7 +27,7 @@ HRESULT Skip (
 
 #### Parameters
 
-celt
+`celt`
 
 [in] The number of input assembly files in the enumeration sequence to skip.
 
@@ -37,4 +37,4 @@ If successful, returns `S_OK`; otherwise, returns `S_FALSE` if there are no more
 
 ## See also
 
-- [IDiaEnumInputAssemblyFiles](../../debugger/debug-interface-access/idiaenuminputassemblyfiles.md)
+- [`IDiaEnumInputAssemblyFiles`](../../debugger/debug-interface-access/idiaenuminputassemblyfiles.md)

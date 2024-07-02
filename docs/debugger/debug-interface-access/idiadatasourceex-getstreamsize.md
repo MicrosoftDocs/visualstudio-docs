@@ -28,11 +28,11 @@ HRESULT getStreamSize (
 
 #### Parameters
 
-stream
+`stream`
 
 [in] The name of the stream within the debug information.
 
-pcb
+`pcb`
 
 [out] The size in bytes of the named stream.
 
@@ -44,7 +44,7 @@ If successful, returns `S_OK`. If the named stream does not exist within the PDB
 
 Program Databases are made up of multiple streams of data. Some of those streams are named. You can use this method to gather information about these named streams.
 
-To get the data of the stream, use the [IDiaDataSourceEx::getStreamRawData](../../debugger/debug-interface-access/idiadatasourceex-getstreamrawdata.md) method.
+To get the data of the stream, use the [`IDiaDataSourceEx::getStreamRawData`](../../debugger/debug-interface-access/idiadatasourceex-getstreamrawdata.md) method.
 
 ## Example
 
@@ -55,5 +55,5 @@ HRESULT hr = pSource->getStreamSize( L"/names", &countBytes );
 
 ## See also
 
-- [IDiaDataSourceEx](../../debugger/debug-interface-access/idiadatasourceex.md)
-- [IDiaDataSourceEx::getStreamRawData](../../debugger/debug-interface-access/idiadatasourceex-getstreamrawdata.md)
+- [`IDiaDataSourceEx`](../../debugger/debug-interface-access/idiadatasourceex.md)
+- [`IDiaDataSourceEx::getStreamRawData`](../../debugger/debug-interface-access/idiadatasourceex-getstreamrawdata.md)

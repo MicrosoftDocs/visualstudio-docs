@@ -31,23 +31,23 @@ HRESULT getStreamRawData (
 
 #### Parameters
 
-stream
+`stream`
 
 [in] The name of the stream within the debug information.
 
-cbOffset
+`cbOffset`
 
 [in] The offset within the stream to begin reading data from.
 
-cbRead
+`cbRead`
 
 [in] The number of bytes to retrieve.
 
-pcbRead
+`pcbRead`
 
 [out] The number of bytes actually read from the stream.
 
-pbData
+`pbData`
 
 [out] The location to store the read data. On input must be at least `cbRead` bytes in size. Upon successful return `*pcbRead` bytes will be valid.
 
@@ -59,7 +59,7 @@ If successful, returns `S_OK`. If the named stream does not exist within the PDB
 
 Program Databases are made up of multiple streams of data. Some of those streams are named. You can use this method to gather information about these named streams.
 
-To get the size of the stream, use the [IDiaDataSourceEx::getStreamSize](../../debugger/debug-interface-access/idiadatasourceex-getstreamsize.md) method.
+To get the size of the stream, use the [`IDiaDataSourceEx::getStreamSize`](../../debugger/debug-interface-access/idiadatasourceex-getstreamsize.md) method.
 
 ## Example
 
@@ -78,5 +78,5 @@ if (SUCCEEDED(hr)) {
 
 ## See also
 
-- [IDiaDataSourceEx](../../debugger/debug-interface-access/idiadatasourceex.md)
-- [IDiaDataSourceEx::getStreamSize](../../debugger/debug-interface-access/idiadatasourceex-getstreamsize.md)
+- [`IDiaDataSourceEx`](../../debugger/debug-interface-access/idiadatasourceex.md)
+- [`IDiaDataSourceEx::getStreamSize`](../../debugger/debug-interface-access/idiadatasourceex-getstreamsize.md)

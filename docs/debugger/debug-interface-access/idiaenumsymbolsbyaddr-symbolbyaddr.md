@@ -29,17 +29,17 @@ HRESULT symbolByAddr (
 
 #### Parameters
 
-isect
+`isect`
 
 [in] Image section number.
 
-offsect
+`offsect`
 
 [in] Offset in section.
 
-ppsymbol
+`ppsymbol`
 
-[out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object representing the symbol found.
+[out] Returns an [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md) object representing the symbol found.
 
 ## Return Value
 
@@ -47,5 +47,5 @@ If successful, returns `S_OK`. Returns `S_FALSE` if the symbol could not be foun
 
 ## See also
 
-- [IDiaEnumSymbolsByAddr](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr.md)
-- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [`IDiaEnumSymbolsByAddr`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr.md)
+- [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md)

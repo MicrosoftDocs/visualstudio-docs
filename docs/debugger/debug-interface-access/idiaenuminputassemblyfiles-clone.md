@@ -29,7 +29,7 @@ HRESULT Clone (
 
  `ppenum`
 
-[out] Returns an [IDiaEnumInputAssemblyFiles](../../debugger/debug-interface-access/idiaenuminputassemblyfiles.md) object that contains a duplicate of the enumerator. The input assembly files are not duplicated, only the enumerator.
+[out] Returns an [`IDiaEnumInputAssemblyFiles`](../../debugger/debug-interface-access/idiaenuminputassemblyfiles.md) object that contains a duplicate of the enumerator. The input assembly files are not duplicated, only the enumerator.
 
 ## Return Value
 
@@ -37,4 +37,4 @@ If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See also
 
-- [IDiaEnumInputAssemblyFiles](../../debugger/debug-interface-access/idiaenuminputassemblyfiles.md)
+- [`IDiaEnumInputAssemblyFiles`](../../debugger/debug-interface-access/idiaenuminputassemblyfiles.md)

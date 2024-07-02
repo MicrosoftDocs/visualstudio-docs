@@ -28,11 +28,11 @@ HRESULT symbolByRVA (
 
 #### Parameters
 
-relativeVirtualAddress
+`relativeVirtualAddress`
 
 [in] Address relative to start of image.
 
-ppsymbol
+`ppsymbol`
 
 [out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object representing the symbol found.
 
@@ -42,6 +42,6 @@ If successful, returns `S_OK`. Returns `S_FALSE` if the symbol could not be foun
 
 ## See also
 
-- [IDiaEnumSymbolsByAddr](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr.md)
-- [IDiaEnumSymbolsByAddr::symbolByVA](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolbyva.md)
-- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [`IDiaEnumSymbolsByAddr`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr.md)
+- [`IDiaEnumSymbolsByAddr::symbolByVA`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolbyva.md)
+- [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md)
