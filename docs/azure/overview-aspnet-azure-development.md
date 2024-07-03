@@ -10,7 +10,7 @@ ms.subservice: azure-development
 ms.topic: overview
 ms.date: 04/15/2024
 ms.author: ghogen
-monikerRange: >=vs-2019
+monikerRange: ">=vs-2019"
 ---
 
 # Overview: Develop ASP.NET web apps for Azure with Visual Studio
