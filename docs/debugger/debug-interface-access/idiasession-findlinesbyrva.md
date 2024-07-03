@@ -27,6 +27,7 @@ HRESULT findLinesByRVA ( 
 ```
 
 #### Parameters
+
 `rva`
 
 [in] Specifies the address as an RVA.

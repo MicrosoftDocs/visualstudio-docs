@@ -1,7 +1,7 @@
 ---
 description: "Provides a query context for debug symbols."
 title: "IDiaSession"
-ms.date: "11/04/2016"
+ms.date: "07/03/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -67,11 +67,32 @@ The following table shows the methods of `IDiaSession`.
 |[`IDiaSession::findSymbolsForAcceleratorPointerTag`](../../debugger/debug-interface-access/idiasession-findsymbolsforacceleratorpointertag.md)|Returns an enumeration of symbols for the variable that the specified tag value corresponds to in the parent Accelerator stub function.|
 |[`IDiaSession::findSymbolsByRVAForAcceleratorPointerTag`](../../debugger/debug-interface-access/idiasession-findsymbolsbyrvaforacceleratorpointertag.md)|Given a corresponding tag value, this method returns an enumeration of symbols that are contained in a specified parent Accelerator stub function at a specified relative virtual address.|
 |[`IDiaSession::findAcceleratorInlineesByName`](../../debugger/debug-interface-access/idiasession-findacceleratorinlineesbyname.md)|Returns an enumeration of symbols for inline frames corresponding to the specified inline function name.|
+|[`IDiaSession::addressForVA`](../../debugger/debug-interface-access/idiasession-addressForVA.md)|Returns the equivalent address for the specified virtual address (VA).|
+|[`IDiaSession::addressForRVA`](../../debugger/debug-interface-access/idiasession-addressforrva.md)|Returns the equivalent address for the specified relative virtual address (RVA).|
+|[`IDiaSession::findILOffsetsByAddr`](../../debugger/debug-interface-access/idiasession-findiloffsetsbyaddr.md)|Retrieves an enumeration that allows a client to iterate through the MSIL offsets within a specified address range.|
+|[`IDiaSession::findILOffsetsByRVA`](../../debugger/debug-interface-access/idiasession-findiloffsetsbyrva.md)|Retrieves an enumeration that allows a client to iterate through the MSIL offsets within a specified relative virtual address (RVA) range.|
+|[`IDiaSession::findILOffsetsByVA`](../../debugger/debug-interface-access/idiasession-findiloffsetsbyva.md)|Retrieves an enumeration that allows a client to iterate through the MSIL offsets within a specified virtual address (VA) range.|
+|[`IDiaSession::findInputAssemblyFiles`](../../debugger/debug-interface-access/idiasession-findinputassemblyfiles.md)|Retrieves an enumeration that allows a client to iterate through the .NET Native input assembly files.|
+|[`IDiaSession::findInputAssembly`](../../debugger/debug-interface-access/idiasession-findinputassembly.md)|Retrieves a .NET Native input assembly file by index.|
+|[`IDiaSession::findInputAssemblyById`](../../debugger/debug-interface-access/idiasession-findinputassemblybyid.md)|Retrieves .NET Native input assembly file by unique identifier.|
+|[`IDiaSession::getFuncMDTokenMapSize`](../../debugger/debug-interface-access/idiasession-getfuncmdtokenmapsize.md)|Retrieves the size, in bytes, of the .NET Native metadata function token map.|
+|[`IDiaSession::getFuncMDTokenMap`](../../debugger/debug-interface-access/idiasession-getfuncmdtokenmap.md)|Retrieves the contents of the .NET Native metadata function token map.|
+|[`IDiaSession::getTypeMDTokenMapSize`](../../debugger/debug-interface-access/idiasession-gettypemdtokenmapsize.md)|Retrieves the size, in bytes, of the .NET Native metadata type token map.|
+|[`IDiaSession::getTypeMDTokenMap`](../../debugger/debug-interface-access/idiasession-gettypemdtokenmap.md)|Retrieves the contents of the .NET Native metadata type token map.|
+|[`IDiaSession::getNumberOfFunctionFragments_VA`](../../debugger/debug-interface-access/idiasession-getnumberoffunctionfragments_va.md)|Retrieves the number of discontiguous fragments for the function at the specified virtual address (VA).|
+|[`IDiaSession::getNumberOfFunctionFragments_RVA`](../../debugger/debug-interface-access/idiasession-getnumberoffunctionfragments_rva.md)|Retrieves the number of discontiguous fragments for the function at the specified relative virtual address (RVA).|
+|[`IDiaSession::getFunctionFragments_VA`](../../debugger/debug-interface-access/idiasession-getfunctionfragments_va.md)|Retrieves the addresses and lengths of discontiguous fragments for the function at the specified virtual address (VA).|
+|[`IDiaSession::getFunctionFragments_RVA`](../../debugger/debug-interface-access/idiasession-getfunctionfragments_rva.md)|Retrieves the addresses and lengths of discontiguous fragments for the function at the specified relative virtual address (RVA).|
+|[`IDiaSession::getExports`](../../debugger/debug-interface-access/idiasession-getexports.md)|Retrieves an enumerator for all exported symbols.|
+|[`IDiaSession::getHeapAllocationSites`](../../debugger/debug-interface-access/idiasession-getheapallocationsites.md)|Retrieves an enumerator for all SymTagHeapAllocationSite symbols.|
+|[`IDiaSession::findInputAssemblyFile`](../../debugger/debug-interface-access/idiasession-findinputassemblyfile.md)|Retrieves the input assembly file that is the parent of the specified symbol.|
 
 ## Remarks
+
 It is important to call the [`IDiaSession::put_loadAddress`](../../debugger/debug-interface-access/idiasession-put-loadaddress.md) method after creating the `IDiaSession` object — and the value passed to the `put_loadAddress` method must be non-zero — for any virtual address (VA) properties of symbols to be accessible. The load address comes from whatever program loaded the executable being debugged. For example, you can call the Win32 function `GetModuleInformation` to retrieve the load address for the executable, given a handle to the executable.
 
 ## Example
+
 This example shows how to obtain the `IDiaSession` interface as part of a general initialization of the DIA SDK.
 
 ```C++
