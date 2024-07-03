@@ -70,21 +70,19 @@ IServiceBroker serviceBroker = context.Extensibility.ServiceBroker;
 ProjectQueryableSpace workspace = new ProjectQueryableSpace(serviceBroker: serviceBroker, joinableTaskContext: null);
 ```
 
+In the example above, `context` refers to an instance of `IClientContext` provided by `Microsoft.VisualStudio.Extensibility`. It is used to access contextual information and services related to the current state and environment of the IDE.
+
+For those utilizing the service broker, please consult the [VS SDK style queries](./project-vssdk.md) for detailed queries. 
+
 ## Query the project system for a project
 
 The [`WorkspacesExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.workspacesextensibility) object lets you query for an individual project, if you have the project GUID. There are usually two GUIDs associated with a project, one that represents the project type, and other that uniquely represents the project. You can find the project's unique GUID in the solution file, or from an extension, you can query for the `Guid` property as demonstrated in the next section.
 
 ```csharp
-IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> projectList = workspace
-    .ProjectsByProjectGuid(knownGuid) 
-    .QueryAsync(cancellationToken);
-```
-
-Alternatively, a `serviceBroker` may be set up to access the `ProjectQueryableSpace` to perform project related queries and opertations. 
-
-```csharp
-IServiceBroker serviceBroker = context.Extensibility.ServiceBroker;
-ProjectQueryableSpace querySpace = new ProjectQueryableSpace(serviceBroker: serviceBroker, joinableTaskContext: null);
+IQueryResults<IProjectSnapshot> projects = await workspace.QueryProjectByGuidAsync(
+    project => project.With(project => new { project.Id, project.Path }),
+    knownGuid,
+    cancellationToken);
 ```
 
 ## Specify the project parameters to be included in the query result
@@ -271,7 +269,7 @@ IQueryResult<IProjectSnapshot> updatedProjects = await workspace.UpdateProjectsA
 
 ## Query for project properties
 
-You can use a `Get` clause to query for project properties. The following query returns a collection of [`IPropertySnapshot`](/dotnet/api/microsoft.visualstudio.projectsystem.query.ipropertysnapshot) that contains entries for the two properties requested. `IPropertySnapshot` contains the property name, display name, and value at a point in time.
+You can use a `Get` clause to query for project properties. The following query returns a collection of [`IPropertySnapshot`](/dotnet/api/microsoft.visualstudio.projectsystem.query.ipropertysnapshot) that contains entries for the two properties requested. `IPropertySnapshot` contains the property name and value at a point in time.
 
 ```csharp
 // We assume that we can find the "RootNamespace" property in the result.
@@ -529,22 +527,20 @@ await workspace.UpdateSolutionAsync(
 
 ## Action query to load/unload a project
 
-If a project needs to be unloaded, you need to specify the solution and the path to the desired project to unload. The example below uses the `Extensibility.Workspaces().UpdateSolutionAsync` method to update the solution and `UnloadProject` to unload the project.
+If a project needs to be  load/unload, you need to specify the solution and the path to the desired project to unload. 
 
 ```csharp
+// Unload Project
 await workspace.UpdateSolutionAsync(
     solution => solution.Where(solution => solution.BaseName == "MySolution"),
     solution => solution.UnloadProject("full\\path\\to\\project.csproj"),
     cancellationToken);
-```
 
-`AsUpdatable` can also be used to load or unload a project.
-
-```csharp
-var result = await workspace.Solutions
-    .AsUpdatable()
-    .LoadProject("full\\path\\to\\project.csproj")
-    .ExecuteAsync();
+// Reload Project
+await workspace.UpdateSolutionAsync(
+    solution => solution.Where(solution => solution.BaseName == solutionName),
+    solution => solution.ReloadProject(projectPath),
+    cancellationToken);
 ```
 
 ## Action query to build solutions/projects
@@ -618,7 +614,7 @@ var unsubscriber = await singleProject
 
 ```
 
-The `TrackerObserver` is a private class that implements the IObserver interface, specifically for `IQueryTrackUpdates<IFileSnapshot>`. This is designed to receive notifications about tracking updates to file snapshots.
+The `TrackerObserver` is a component that implements IObserver interface and receives change notifications. For the example above, it would implement `IObserver<IQueryTrackUpdates<IFileSnapshot>>`.
 
 ```csharp
 private class TrackerObserver : IObserver<IQueryTrackUpdates<IFileSnapshot>>

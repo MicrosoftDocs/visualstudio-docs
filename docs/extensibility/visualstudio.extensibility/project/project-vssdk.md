@@ -123,16 +123,6 @@ IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> projectWithFiles = workSpac
     .QueryAsync(cancellationToken);
 ```
 
-### Example when no properties are specified
-
-When no properties are specified, the default set of properties i returned.
-
-```csharp
-IAsyncEnumerable<IQueryResultItem<IPropertySnapshot>> properties = myproject
-    .PropertiesByName("RootNamespace", "AssemblyVersion")
-    .QueryAsync(cancellationToken);
-```
-
 ## Filter the query result
 
 To limit query results, there are two ways to apply conditional filtering: `Where` statements and query methods with built-in filtering.
@@ -153,10 +143,10 @@ IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> webProjects = workspace
 
 ### Example using `RuleResultsByRuleName` filtering
 
-At the level of individual projects, each project possesses a `RulesResults` attribute, which includes a `RuleName` and `Items`. The API call `RuleResultsByRuleName` can be used to filter by rule type within a project.
+At the level of individual projects, each project possesses a `RulesResults` attribute, which includes a `RuleName` and `Items`. The API call `RuleResultsByRuleName` can be used to filter by rule name.
 
 ```csharp
-    var results = await querySpace
+    var results = await workSpace
         .Projects
         .With(p => p.Path)
         .With(p => p.ActiveConfigurations
@@ -176,6 +166,16 @@ IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> webProjects = workspace
         .ProjectsByCapabilities("DotNetCoreWeb | DotNetCoreRazor")
         .With(p => new { p.Path, p.Guid })
         .QueryAsync(cancellationToken);
+```
+
+### Example using `PropertiesByName` filtering
+
+When no properties are specified, the default set of properties is returned. However, using `PropertiesByName` will return results with the desired properties.
+
+```csharp
+IQueryResults<IPropertySnapshot>  properties = await myproject
+    .PropertiesByName("FileName", "LocalPath")
+    .ExecuteQueryAsync();
 ```
 
 ## Use nested queries to specify desired properties
@@ -214,16 +214,16 @@ IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> projects = workspace
 The Visual Studio project model has collections for projects and well as child collections, such as for files or project capabilities within projects. To retrieve a child collection itself, you can use a `Get` clause. Like other query types, the `Get` clause lets you use other clauses such as the `With` clause to shape or limit the results.
 
 ```csharp
-IAsyncEnumerable<IQueryResultItem<IFileSnapshot>> files = workspace
+IQueryResults<IFileSnapshot> files = await querySpace
     .Projects
     .Where(p => p.Guid == knownGuid)
     .Get(p => p.Files
         .With(f => new { f.Path, f.IsHidden, f.IsSearchable }))
-    .QueryAsync(cancellationToken);
+    .ExecuteQueryAsync();
 
-    await foreach (var file in files)
+    foreach (IFileSnapshot file in files)
     {
-        string filePath = file.Value.Path;
+       ...
     }
 ```
 
@@ -232,19 +232,18 @@ IAsyncEnumerable<IQueryResultItem<IFileSnapshot>> files = workspace
 You can use the results from a previous query as the base for additional queries.
 
 ```csharp
-IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> allProjects = workSpace
+IQueryResults<IProjectSnapshot> allProjects = await querySpace
     .Projects
     .With(p => p.Path)
     .With(p => p.Guid)
-    .QueryAsync(cancellationToken);
+    .ExecuteQueryAsync();
 
-await foreach (IQueryResultItem<IProjectSnapshot> project in allProjects)
+foreach (IProjectSnapshot project in allProjects)
 {
     // Gets child collections
-    IAsyncEnumerable<IQueryResultItem<IFileSnapshot>> files = project.Value
-        .Files
+    var files = await project.Files
         .With(f => new { f.Path, f.ItemType })
-        .QueryAsync(cancellationToken);
+        .ExecuteQueryAsync();
 }
 ```
 
@@ -282,7 +281,7 @@ IQueryResult<IProjectSnapshot> updatedProjects = myproject
 
 ## Query for project properties
 
-You can use a `Get` clause to query for project properties. The following query returns a collection of [`IPropertySnapshot`](/dotnet/api/microsoft.visualstudio.projectsystem.query.ipropertysnapshot) that contains entries for the two properties requested. `IPropertySnapshot` contains the property name, display name, and value at a point in time.
+You can use a `Get` clause to query for project properties. The following query returns a collection of [`IPropertySnapshot`](/dotnet/api/microsoft.visualstudio.projectsystem.query.ipropertysnapshot) that contains entries for the two properties requested. `IPropertySnapshot` contains the property name and value at a point in time.
 
 ```csharp
 // We assume that we can find the "RootNamespace" property in the result.
@@ -527,7 +526,7 @@ The solution has a set of startup projects that can be executed as an executable
 
 ```csharp
 // A query to get the list of startup project's name and path
-var result = await this.QueryableSpace.Solutions
+var result = await workSpace.Solutions
     .With(solution => solution.StartupProjects
         .With(startupproject => startupproject.Name)
         .With(startupproject => startupproject.Path))
@@ -540,7 +539,7 @@ Using the Project Query API, you also can select which projects get executed. Th
 
 ```csharp
 // A query to set the startup project
-var result = await this.QueryableSpace.Solutions
+var result = await workSpace.Solutions
         .With(solution => solution.StartupProjects)
         .AsUpdatable()
         .SetStartupProjects("full\\path\\to\\project1.csproj", 
@@ -553,10 +552,10 @@ var result = await this.QueryableSpace.Solutions
 A solution configuration is a collection of projects that are included in the build when the configuration is active. The example below shows how to query for the names of the solution configurations.
 
 ```csharp
-var results = await this.Extensibility.Workspaces().QuerySolutionAsync(
-    solution => solution.With(solution => solution.SolutionConfigurations
-    .With(c => c.Name)),
-    cancellationToken);
+var result = await workSpace.Solutions
+    .With(solution => solution.SolutionConfigurations
+        .With(solutionconfiguration => solutionconfiguration.Name))
+    .ExecuteQueryAsync();
 ```
 
 ### Example of adding a solution configuration
@@ -567,10 +566,10 @@ The `AddSolutionConfiguration` method takes three parameters:
 1. Lastly, the boolean represents if the solution configuration should be propagated.
 
 ```csharp
-await this.Extensibility.Workspaces().UpdateSolutionAsync(
-    solution => solution.Where(solution => solution.BaseName == "mySolution"),
-    solution => solution.AddSolutionConfiguration("Foo", "Debug", false),
-    cancellationToken);
+var result = await workSpace.Solutions
+    .AsUpdatable()
+    .AddSolutionConfiguration("Foo", "Debug", false)
+    .ExecuteAsync();
 ```
 
 ### Example of deleting a solution configuration
@@ -578,29 +577,27 @@ await this.Extensibility.Workspaces().UpdateSolutionAsync(
 `DeleteSolutionConfiguration` is an API call that removes the solution configuration. In the example below, The solution configuration called `Foo` is removed.
 
 ```csharp
-await this.Extensibility.Workspaces().UpdateSolutionAsync(
-    solution => solution.Where(solution => solution.BaseName == "mySolution"),
-    solution => solution.DeleteSolutionConfiguration("Foo"),
-    cancellationToken);
+var result = await workSpace.Solutions
+    .AsUpdatable()
+    .DeleteSolutionConfiguration("Foo")
+    .ExecuteAsync();
 ```
 
 ## Action query to load/unload a project
 
-If a project needs to be unloaded, you need to specify the solution and the path to the desired project to unload. The example below uses the `Extensibility.Workspaces().UpdateSolutionAsync` method to update the solution and `UnloadProject` to unload the project.
+If a project needs to be  load/unload, you need to specify the solution and the path to the desired project to unload. 
 
 ```csharp
-await this.Extensibility.Workspaces().UpdateSolutionAsync(
-    solution => solution.Where(solution => solution.BaseName == "MySolution"),
-    solution => solution.UnloadProject("full\\path\\to\\project.csproj"),
-    cancellationToken);
-```
+// Unload Project
+var result = await workSpace.Solutions
+    .AsUpdatable()
+    .UnloadProject("full\\path\\to\\project.csproj")
+    .ExecuteAsync();
 
-`AsUpdatable` can also be used to load or unload a project.
-
-```csharp
+// Reload Project
 var result = await querySpace.Solutions
     .AsUpdatable()
-    .LoadProject("full\\path\\to\\project.csproj")
+    .ReloadProject("full\\path\\to\\project.csproj")
     .ExecuteAsync();
 ```
 
@@ -608,7 +605,7 @@ var result = await querySpace.Solutions
 
 In project query, you also have the ability to invoke build actions on the project or solution level. These build actions include:
 
--  `BuildAsync`
+- `BuildAsync`
 - `RebuildAsync`
 - `CleanAsync`
 - `DebugLaunchAsync`
@@ -657,7 +654,7 @@ var result = await querySpace.Solutions
 In the example, `TrackUpdatesAsync` is called on the Files property of a project. This means it will track changes to the file names in the project. The TrackerObserver instance is passed to receive notifications of changes.
 
 ```csharp
-var projects = await querySpace.Projects.ExecuteQueryAsync(cancellationToken: CancellationToken.None);
+var projects = await workSpace.Projects.ExecuteQueryAsync(cancellationToken: CancellationToken.None);
 
 var singleProject = projects.FirstOrDefault();
  
@@ -667,7 +664,7 @@ var unsubscriber = await singleProject
     .TrackUpdatesAsync(new TrackerObserver(), CancellationToken.None);
 ```
 
-The `TrackerObserver` is a private class that implements the IObserver interface, specifically for `IQueryTrackUpdates<IFileSnapshot>`. This is designed to receive notifications about tracking updates to file snapshots.
+The `TrackerObserver` is a component that implements IObserver interface and receives change notifications. For the example above, it would implement `IObserver<IQueryTrackUpdates<IFileSnapshot>>`.
 
 ```csharp
 private class TrackerObserver : IObserver<IQueryTrackUpdates<IFileSnapshot>>
@@ -701,7 +698,7 @@ private class TrackerObserver : IObserver<IQueryTrackUpdates<IFileSnapshot>>
 In this code sample, the first result from the query is skipped. For example, if there were three projects in the solution, the first result will be skipped and the query will return the two remaining projects. Note: the order is not guaranteed.
 
 ```csharp
-var projects = await queryableSpace.Projects
+var projects = await workSpace.Projects
         .With(proj => proj.Name)
         .Skip(1)
        .ExecuteQueryAsync(new CancellationToken());
