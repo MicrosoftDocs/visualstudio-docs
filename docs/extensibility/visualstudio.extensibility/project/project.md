@@ -150,7 +150,7 @@ IQueryResults<IProjectSnapshot> webProjects = await workspace.QueryProjectsAsync
 ```
 
 ### Example using `RuleResultsByRuleName` filtering
-At the level of individual projects, each project possesses a `RulesResults` attribute, which includes a `RuleName` and `Items`. The API call `RuleResultsByRuleName` can be utilized to filter by rule type within a project.
+At the level of individual projects, each project possesses a `RulesResults` attribute, which includes a `RuleName` and `Items`. The API call `RuleResultsByRuleName` can be used to filter by rule name.
 
 ```csharp
 IQueryResults<IProjectSnapshot> results = await workspace.QueryProjectsAsync(
