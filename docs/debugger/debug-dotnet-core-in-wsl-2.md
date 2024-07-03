@@ -184,10 +184,10 @@ In addition to debugging from app startup using F5, you can debug by attaching t
 1. Choose **Attach**.
 
    ::: moniker range=">=vs-2022"
-   ![Screenshot of WSL process in the attach to process dialog box](media/vs-2022/linux-wsl2-debugging-attach-to-process.png)
+   ![Screenshot of WSL process in the attach to process dialog box.](media/vs-2022/linux-wsl2-debugging-attach-to-process.png)
    ::: moniker-end
    ::: moniker range="vs-2019"
-   ![Screenshot of WSL process in the attach to process dialog box](media/linux-wsl2-debugging-attach-to-process.png)
+   ![Screenshot of WSL process in the attach to process dialog box.](media/linux-wsl2-debugging-attach-to-process.png)
    ::: moniker-end
 
 ## WSL settings in the launch profile
