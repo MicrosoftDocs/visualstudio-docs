@@ -1,7 +1,7 @@
 ---
 title: Debug .NET apps in Linux using WSL
 description: Discover how to run and debug your .NET applications in WSL without leaving the Visual Studio integrated development environment (IDE).
-ms.date: "06/06/2023"
+ms.date: "07/03/2024"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugging, linux"
@@ -183,7 +183,12 @@ In addition to debugging from app startup using F5, you can debug by attaching t
 
 1. Choose **Attach**.
 
-   ![Screenshot of WSL process in the attach to process dialog box](media/linux-wsl2-debugging-attach-to-process.png)
+   ::: moniker range=">=vs-2022"
+   ![Screenshot of WSL process in the attach to process dialog box.](media/vs-2022/linux-wsl2-debugging-attach-to-process.png)
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   ![Screenshot of WSL process in the attach to process dialog box.](media/linux-wsl2-debugging-attach-to-process.png)
+   ::: moniker-end
 
 ## WSL settings in the launch profile
 
