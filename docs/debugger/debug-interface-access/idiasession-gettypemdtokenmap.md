@@ -44,6 +44,33 @@ HRESULT getTypeMDTokenMap(
 
  If successful, returns `S_OK`; otherwise, returns an error code.
 
+## Example
+
+ This shows how to retrieve the size of the map and then retrieve the full token map.
+
+ ```C++
+DWORD size = 0;
+HRESULT hr = pDiaSession->getTypeMDTokenMapSize(&size);
+if (FAILED(hr)) {
+    return hr;
+}
+if (size == 0) {
+    return S_FALSE;
+}
+
+BYTE * map = new (std::nothrow) BYTE[size];
+if (map == nullptr) {
+    return E_OUTOFMEMORY;
+}
+
+hr = pDiaSession->getTypeMDTokenMap(size, &size, map);
+if (FAILED(hr)) {
+    delete [] map;
+    return hr;
+}
+```
+
 ## See also
 
 - [`IDiaSession`](../../debugger/debug-interface-access/idiasession.md)
+- [`IDiaSession::getTypeMDTokenMapSize`](../../debugger/debug-interface-access/idiasession-gettypemdtokenmapsize.md)
