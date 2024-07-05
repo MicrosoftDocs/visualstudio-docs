@@ -56,7 +56,14 @@ enum SymTagEnum {
     SymTagBaseInterface,
     SymTagVectorType,
     SymTagMatrixType,
-    SymTagHLSLType
+    SymTagHLSLType,
+    SymTagCaller,
+    SymTagCallee,
+    SymTagExport,
+    SymTagHeapAllocationSite,
+    SymTagCoffGroup,
+    SymTagInlinee,
+    SymTagTaggedUnionCase,
 };
 ```
 
@@ -101,41 +108,51 @@ enum SymTagEnum {
 | `SymTagVectorType`       | Indicates that the symbol is a vector type.                                               |
 | `SymTagMatrixType`       | Indicates that the symbol is a matrix type.                                               |
 | `SymTagHLSLType`         | Indicates that the symbol is a High Level Shader Language type.                           |
+| `SymTagCaller`           | Indicates that the symbol represents PGO caller information.                              |
+| `SymTagCallee`           | Indicates that the symbol represents PGO callee information.                              |
+| `SymTagExport`           | Indicates that the symbol is an export from a DLL.                                        |
+| `SymTagHeapAllocationSite`| Indicates that the symbol represents a heap allocation site (i.e. call to `operator new`)|
+| `SymTagCoffGroup`        | Indicates that the symbol is a COFF group.                                                |
+| `SymTagInlinee`          | Indicates that the symbol represents the inlinee of an inlinte site (see `SymTagInlineSite`).|
+| `SymTagTaggedUnionCase`  | Indicates that the symbol is a tagged union (e.g. Rust's union type)                      |
 
 ## Remarks
+
 All symbols within a debug file have an identifying tag that specifies the symbol's type.
 
 The values in this enumeration are returned by a call to the [IDiaSymbol::get_symTag](../../debugger/debug-interface-access/idiasymbol-get-symtag.md) method.
 
 The values in this enumeration are passed to the following methods to limit the scope of the search to a specific symbol type:
 
-- [IDiaSession::findSymbolByAddr](../../debugger/debug-interface-access/idiasession-findsymbolbyaddr.md)
-
-- [IDiaSession::findSymbolByRVA](../../debugger/debug-interface-access/idiasession-findsymbolbyrva.md)
-
-- [IDiaSession::findSymbolByRVAEx](../../debugger/debug-interface-access/idiasession-findsymbolbyrvaex.md)
-
-- [IDiaSession::findSymbolByToken](../../debugger/debug-interface-access/idiasession-findsymbolbytoken.md)
-
-- [IDiaSession::findSymbolByVA](../../debugger/debug-interface-access/idiasession-findsymbolbyva.md)
-
-- [IDiaSession::findSymbolByVAEx](../../debugger/debug-interface-access/idiasession-findsymbolbyvaex.md)
-
-- [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)
-
-- [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)
+- [`IDiaSession::findSymbolByAddr`](../../debugger/debug-interface-access/idiasession-findsymbolbyaddr.md)
+`
+- [`IDiaSession`::findSymbolByRVA`](../../debugger/debug-interface-access/idiasession-findsymbolbyrva.md)
+`
+- [`IDiaSession`::findSymbolByRVAEx`](../../debugger/debug-interface-access/idiasession-findsymbolbyrvaex.md)
+`
+- [`IDiaSession`::findSymbolByToken`](../../debugger/debug-interface-access/idiasession-findsymbolbytoken.md)
+`
+- [`IDiaSession`::findSymbolByVA`](../../debugger/debug-interface-access/idiasession-findsymbolbyva.md)
+`
+- [`IDiaSession`::findSymbolByVAEx`](../../debugger/debug-interface-access/idiasession-findsymbolbyvaex.md)
+`
+- [`IDiaSession`::findChildren`](../../debugger/debug-interface-access/idiasession-findchildren.md)
+`
+- [`IDiaSymbol`::findChildren`](../../debugger/debug-interface-access/idiasymbol-findchildren.md)
 
 ## Requirements
+
 Header: cvconst.h
 
 ## See also
+
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 - [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
-- [IDiaSession::findSymbolByAddr](../../debugger/debug-interface-access/idiasession-findsymbolbyaddr.md)
-- [IDiaSession::findSymbolByRVA](../../debugger/debug-interface-access/idiasession-findsymbolbyrva.md)
-- [IDiaSession::findSymbolByRVAEx](../../debugger/debug-interface-access/idiasession-findsymbolbyrvaex.md)
-- [IDiaSession::findSymbolByToken](../../debugger/debug-interface-access/idiasession-findsymbolbytoken.md)
-- [IDiaSession::findSymbolByVA](../../debugger/debug-interface-access/idiasession-findsymbolbyva.md)
-- [IDiaSession::findSymbolByVAEx](../../debugger/debug-interface-access/idiasession-findsymbolbyvaex.md)
-- [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)
-- [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)
+- [`IDiaSession::findSymbolByAddr`](../../debugger/debug-interface-access/idiasession-findsymbolbyaddr.md)
+- [`IDiaSession::findSymbolByRVA`](../../debugger/debug-interface-access/idiasession-findsymbolbyrva.md)
+- [`IDiaSession::findSymbolByRVAEx`](../../debugger/debug-interface-access/idiasession-findsymbolbyrvaex.md)
+- [`IDiaSession::findSymbolByToken`](../../debugger/debug-interface-access/idiasession-findsymbolbytoken.md)
+- [`IDiaSession::findSymbolByVA`](../../debugger/debug-interface-access/idiasession-findsymbolbyva.md)
+- [`IDiaSession::findSymbolByVAEx`](../../debugger/debug-interface-access/idiasession-findsymbolbyvaex.md)
+- [`IDiaSession::findChildren`](../../debugger/debug-interface-access/idiasession-findchildren.md)
+- [`IDiaSymbol::findChildren`](../../debugger/debug-interface-access/idiasymbol-findchildren.md)

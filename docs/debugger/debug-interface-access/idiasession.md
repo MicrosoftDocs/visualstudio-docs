@@ -84,8 +84,8 @@ The following table shows the methods of `IDiaSession`.
 |[`IDiaSession::getFunctionFragments_VA`](../../debugger/debug-interface-access/idiasession-getfunctionfragments_va.md)|Retrieves the addresses and lengths of discontiguous fragments for the function at the specified virtual address (VA).|
 |[`IDiaSession::getFunctionFragments_RVA`](../../debugger/debug-interface-access/idiasession-getfunctionfragments_rva.md)|Retrieves the addresses and lengths of discontiguous fragments for the function at the specified relative virtual address (RVA).|
 |[`IDiaSession::getExports`](../../debugger/debug-interface-access/idiasession-getexports.md)|Retrieves an enumerator for all exported symbols.|
-|[`IDiaSession::getHeapAllocationSites`](../../debugger/debug-interface-access/idiasession-getheapallocationsites.md)|Retrieves an enumerator for all SymTagHeapAllocationSite symbols.|
-|[`IDiaSession::findInputAssemblyFile`](../../debugger/debug-interface-access/idiasession-findinputassemblyfile.md)|Retrieves the input assembly file that is the parent of the specified symbol.|
+|[`IDiaSession::getHeapAllocationSites`](../../debugger/debug-interface-access/idiasession-getheapallocationsites.md)|Retrieves an enumerator for all `SymTagHeapAllocationSite` symbols.|
+|[`IDiaSession::findInputAssemblyFile`](../../debugger/debug-interface-access/idiasession-findinputassemblyfile.md)|Retrieves the .NET Native input assembly file that is the parent of the specified symbol.|
 
 ## Remarks
 
