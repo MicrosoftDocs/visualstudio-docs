@@ -1,7 +1,7 @@
 ---
 title: Sign CLI reference for VSIX packages
 description: The Sign CLI command can sign VSIX packages using certificates from PFX, Windows Certificate Manager (WCM), or Cryptographic Service Providers (CSP).
-ms.topic: how-to
+ms.topic: reference
 helpviewer_keywords:
 - signature
 - signing
