@@ -7,7 +7,7 @@ ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 03/06/2024
 ms.author: ghogen
-monikerRange: "<=vs-2019"
+monikerRange: <=vs-2019
 ---
 
 # Accessing Azure Virtual Machines from Server Explorer
