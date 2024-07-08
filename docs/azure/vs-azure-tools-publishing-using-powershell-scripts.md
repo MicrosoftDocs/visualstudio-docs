@@ -183,7 +183,7 @@ If you have never run a Windows PowerShell script before, you must first set the
     -Verbose
     ```
 
-    If you're-creating a virtual machine, the command looks like the following. This example also shows how to specify the credentials for multiple databases. For the virtual machines that these scripts create, the SSL certificate is not from a trusted root authority. Therefore, you need to use the **–AllowUntrusted** option.
+    If you're creating a virtual machine, the command looks like the following. This example also shows how to specify the credentials for multiple databases. For the virtual machines that these scripts create, the SSL certificate is not from a trusted root authority. Therefore, you need to use the **–AllowUntrusted** option.
 
     ```powershell
     Publish-WebApplication.ps1 `
