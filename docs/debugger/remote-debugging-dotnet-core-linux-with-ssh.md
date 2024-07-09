@@ -55,7 +55,7 @@ When the application is running on the Linux machine, you are ready to attach th
 
 1. Change the **Connection Target** to the IP address or host name of the target computer.
 
-   If you haven't already provided credentials, you will be prompted to enter a password and/or private key file.
+   If you haven't already provided credentials, you'll be prompted to enter a password and/or private key file. For more information on using a private key file, see [Set up a remote connection](/cpp/linux/connect-to-your-remote-linux-computer#set-up-the-remote-connection).
 
    There are no port requirements to configure, except the port that the SSH server is running on.
 
@@ -74,7 +74,7 @@ When the application is running on the Linux machine, you are ready to attach th
 
 1. Choose **Attach**.
 
-1. In the dialog that appears, select the type of code you would like to debug. Choose **Managed (.NET Core for Unix)**.
+   In the dialog that appears, select the type of code you would like to debug. Choose **Managed (.NET Core for Unix)**.
 
 1. Use Visual Studio debugging features to debug the app.
 
@@ -86,3 +86,7 @@ When the application is running on the Linux machine, you are ready to attach th
    ::: moniker range="vs-2019"
    ![Hit a breakpoint](media/remote-debug-linux-over-ssh-hit-breakpoint.png)
    ::: moniker-end
+
+## Related content
+
+- [Set up a remote connection](/cpp/linux/connect-to-your-remote-linux-computer#set-up-the-remote-connection)
