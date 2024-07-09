@@ -67,9 +67,13 @@ For this scenario, use either Microsoft Edge or Chrome.
 
 1. (Optional) Close all windows for the target browser.
 
+   ::: moniker range=">=vs-2022"
+   This step may not be necessary, so you may be able to leave the windows open unless you are unable to attach the debugger.
+   ::: moniker-end
+
    Other browser instances can prevent the browser from opening with debugging enabled. (Browser extensions may be running and intercept full debug mode, so you may need to open Task Manager to find and close unexpected instances of Chrome.)
 
-   For best results, if you cannot attach the debugger, shut down all instances of Chrome, even if you're working with Microsoft Edge. Both the browsers use the same chromium code base.
+   For best results, shut down all instances of Chrome, even if you're working with Microsoft Edge. Both the browsers use the same chromium code base.
 
 1. Start your browser with debugging enabled.
 
@@ -123,9 +127,9 @@ To attach the debugger from Visual Studio and hit breakpoints in the client-side
 
 1. In the **Attach to Process** dialog, select **JavaScript and TypeScript (Chrome Dev Tools/V8 Inspector)** as the **Connection Type**.
 
-   The debugger target, such as http://localhost:9222, should appear in the **Connection Target** field. If you don't see this target, enter it manually.
+   The debugger target, such as http://localhost:9222, should appear in the **Connection Target** field.
 
-1. Select the browser process with the correct host port (`https://localhost:7184/` in this example), and select **Attach**.
+1. In the list of browser instances, select the browser process with the correct host port (`https://localhost:7184/` in this example), and select **Attach**.
 
     The port (for example, 7184) may also appear in the **Title** field to help you select the correct browser instance.
 
