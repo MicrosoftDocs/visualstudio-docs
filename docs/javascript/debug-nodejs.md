@@ -68,7 +68,7 @@ For help with generating source maps, see [Generate source maps for debugging](#
 
 For this scenario, use either Microsoft Edge or Chrome.
 
-1. (Optional) Close all windows for the target browser, either Microsoft Edge or Chrome instances.
+1. Close all windows for the target browser, either Microsoft Edge or Chrome instances.
 
    Other browser instances can prevent the browser from opening with debugging enabled. (Browser extensions may be running and intercept full debug mode, so you may need to open Task Manager to find and close unexpected instances of Chrome or Edge.)
 
@@ -100,7 +100,7 @@ For this scenario, use either Microsoft Edge or Chrome.
   
     This starts your browser with debugging enabled. 
 
-    The app isn't yet running, so you get an empty browser page. (If you don't start the browser from Visual Studio, you will need to paste in the correct URL for your app instance.)
+    The app isn't yet running, so you get an empty browser page. (If you start the browser using the Run command, you need to paste in the correct URL for your app instance.)
 
 ### Attach the debugger to client-side script
 
