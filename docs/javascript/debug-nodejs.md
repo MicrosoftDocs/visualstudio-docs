@@ -1,7 +1,7 @@
 ---
 title: "Debug a JavaScript or TypeScript app"
 description: Debug JavaScript and TypeScript applications in Visual Studio, reach breakpoints in your code, attach the debugger, inspect variables, view the call stack, and more.
-ms.date: "07/08/2024"
+ms.date: "07/09/2024"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -11,6 +11,7 @@ ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 ---
+
 # Debug a JavaScript or TypeScript app in Visual Studio
 
 You can debug JavaScript and TypeScript code using Visual Studio. You can hit breakpoints, attach the debugger, inspect variables, view the call stack, and use other debugging features.
@@ -44,11 +45,13 @@ You can debug JavaScript and TypeScript code using Visual Studio. You can hit br
 
 ## Debug client-side script
 
-Visual Studio provides client-side debugging support only for Chrome and Microsoft Edge (Chromium). In some scenarios, the debugger automatically hits breakpoints in JavaScript and TypeScript code and embedded scripts on HTML files.
+Visual Studio provides client-side debugging support only for Chrome and Microsoft Edge. In some scenarios, the debugger automatically hits breakpoints in JavaScript and TypeScript code and embedded scripts on HTML files.
 
 - For debugging client-side script in ASP.NET apps, choose **Tools** > **Options** > **Debugging**, and then select **Enable JavaScript Debugging for ASP.NET (Chrome, Edge, and IE)**.
 
-  For more detailed information, see the blog post [Debug JavaScript in Microsoft Edge](https://devblogs.microsoft.com/visualstudio/debug-javascript-in-microsoft-edge-from-visual-studio/) and this [post for Google Chrome](https://devblogs.microsoft.com/aspnet/client-side-debugging-of-asp-net-projects-in-google-chrome). For debugging TypeScript in ASP.NET Core, see [Add TypeScript to an existing ASP.NET Core app](tutorial-aspnet-with-typescript.md).
+  If you prefer to use Chrome Developer Tools or F12 Tools for Microsoft Edge to debug client-side script, you should disable this setting.
+
+  For more detailed information, see this [blog post for Google Chrome](https://devblogs.microsoft.com/aspnet/client-side-debugging-of-asp-net-projects-in-google-chrome). For debugging TypeScript in ASP.NET Core, see [Add TypeScript to an existing ASP.NET Core app](tutorial-aspnet-with-typescript.md).
 
 - For Node.js applications and other JavaScript projects, follow the steps described here.
 
@@ -65,13 +68,9 @@ For help with generating source maps, see [Generate source maps for debugging](#
 
 For this scenario, use either Microsoft Edge or Chrome.
 
-1. (Optional) Close all windows for the target browser.
+1. (Optional) Close all windows for the target browser, either Microsoft Edge or Chrome instances.
 
-   ::: moniker range=">=vs-2022"
-   This step may not be necessary, so you may be able to leave the windows open unless you are unable to attach the debugger.
-   ::: moniker-end
-
-   Other browser instances can prevent the browser from opening with debugging enabled. (Browser extensions may be running and intercept full debug mode, so you may need to open Task Manager to find and close unexpected instances of Chrome.)
+   Other browser instances can prevent the browser from opening with debugging enabled. (Browser extensions may be running and intercept full debug mode, so you may need to open Task Manager to find and close unexpected instances of Chrome or Edge.)
 
    For best results, shut down all instances of Chrome, even if you're working with Microsoft Edge. Both the browsers use the same chromium code base.
 
@@ -177,7 +176,7 @@ To attach the debugger from Visual Studio and hit breakpoints in the client-side
 
     The port (for example, 1337) may also appear in the **Title** field to help you select the correct browser instance.
 
-    The following example shows how this looks for the Microsoft Edge (Chromium) browser.
+    The following example shows how this looks for the Microsoft Edge browser.
 
     :::image type="content" source="media/tutorial-nodejs-react-attach-to-process-edge.png" alt-text="Screenshot showing how to Attach to a process in Debug menu.":::
     > [!TIP]
@@ -272,33 +271,41 @@ If you add a `tsconfig.json` file to your project, Visual Studio treats the dire
 
 For more details about the compiler options, check the page [Compiler Options](https://www.typescriptlang.org/docs/handbook/compiler-options.html) on the TypeScript Handbook.
 
+::: moniker range="vs-2019"
 ### Configure source maps using project settings (TypeScript project)
 
-You can also configure the source map settings using project properties by right-clicking the project and then choosing **Project > Properties > TypeScript Build > Debugging**.
+For projects build using the TypeScript SDK included with Visual Studio, you can configure the source map settings using project properties by right-clicking the project and then choosing **Project > Properties > TypeScript Build > Debugging**.
 
 These project settings are available.
 
 - **Generate source maps** (equivalent to **sourceMap** in *tsconfig.json*): Generates corresponding `.map` file.
 - **Specify root directory of source maps** (equivalent to **mapRoot** in *tsconfig.json*): Specifies the location where the debugger should find map files instead of the generated locations. Use this flag if the run-time `.map` files need to be located in a different location than the `.js` files. The location specified is embedded in the source map to direct the debugger to where the map files are located.
 - **Specify root directory of TypeScript files** (equivalent to **sourceRoot** in *tsconfig.json*): Specifies the location where the debugger should find TypeScript files instead of source locations. Use this flag if the run-time source files need to be in a different location than the location at design-time. The location specified is embedded in the source map to direct the debugger to where the source files are located.
+::: moniker-end
 
 ## Debug JavaScript in dynamic files using Razor (ASP.NET)
 
-Starting in Visual Studio 2019, Visual Studio provides debugging support for Chrome and Microsoft Edge (Chromium) only.
+::: moniker range=">=vs-2022"
+In Visual Studio 2022, you can debug Razor pages using breakpoints. For more information, see [Using Debugging Tools in Visual Studio](/aspnet/web-pages/overview/testing-and-debugging/introduction-to-debugging#using-debugging-tools-in-visual-studio).
+::: moniker-end
+
+::: moniker range="vs-2019"
+Starting in Visual Studio 2019, Visual Studio provides debugging support for Chrome and Microsoft Edge only.
 
 However, you can't automatically hit breakpoints on files generated with Razor syntax (*cshtml, vbhtml*). There are two approaches you can use to debug this kind of file:
 
 - **Place the `debugger;` statement where you want to break**: This statement causes the dynamic script to stop execution and start debugging immediately while it's being created.
-- **Load the page and open the dynamic document on Visual Studio**: You'll need to open the dynamic file while debugging, set your breakpoint, and refresh the page for this method to work. Depending on whether you're using Chrome or Microsoft Edge (Chromium), you'll find the file using one of the following strategies:
+- **Load the page and open the dynamic document on Visual Studio**: You'll need to open the dynamic file while debugging, set your breakpoint, and refresh the page for this method to work. Depending on whether you're using Chrome or Microsoft Edge, you'll find the file using one of the following strategies:
 
   - For Chrome, go to **Solution Explorer > Script Documents > YourPageName**.
 
     > [!NOTE]
     > When using Chrome, you might get a message "no source is available between \<script> tags". It's OK, just continue debugging.
 
-  - For Microsoft Edge (Chromium), use the same procedure as Chrome.
+  - For Microsoft Edge, use the same procedure as Chrome.
 
 For more information, see [Client-side debugging of ASP.NET projects in Google Chrome](https://devblogs.microsoft.com/aspnet/client-side-debugging-of-asp-net-projects-in-google-chrome/).
+::: moniker-end
 
 ## Related content
 
