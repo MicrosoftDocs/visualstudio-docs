@@ -1,7 +1,7 @@
 ---
 title: "Debug .NET Core on Linux"
 description: Debug .NET Core and .NET 5 and later applications on Linux with Secure Shell (SSH), attach to a process, build and deploy the app, and attach the debugger.
-ms.date: "03/20/2023"
+ms.date: "07/09/2024"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "remote debugging, linux"
@@ -65,7 +65,12 @@ When the application is running on the Linux machine, you are ready to attach th
 
    In the following example, you see a list of processes from a remote Linux machine over an SSH transport displayed in the **Attach to Process** dialog box.
 
+   ::: moniker range=">=vs-2022"
+   ![Attach to Linux process](media/vs-2022/remote-debug-linux-over-ssh-attach.png)
+   ::: moniker-end
+   ::: moniker range="vs-2019"
    ![Attach to Linux process](media/remote-debug-linux-over-ssh-attach.png)
+   ::: moniker-end
 
 1. Choose **Attach**.
 
@@ -75,4 +80,9 @@ When the application is running on the Linux machine, you are ready to attach th
 
    In the following example, you see the Visual Studio debugger stopped at a breakpoint in code running on a remote Linux machine.
 
+   ::: moniker range=">=vs-2022"
+   ![Hit a breakpoint](media/vs-2022/remote-debug-linux-over-ssh-hit-breakpoint.png)
+   ::: moniker-end
+   ::: moniker range="vs-2019"
    ![Hit a breakpoint](media/remote-debug-linux-over-ssh-hit-breakpoint.png)
+   ::: moniker-end
