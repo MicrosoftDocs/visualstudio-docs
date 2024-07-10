@@ -1,13 +1,12 @@
 ---
 title: Scaling on your main display is set to X%
 description: Learn about the scaling percentage settings message you see with Windows Forms Designer on HDPI monitors, and what to do next.
-ms.date: 06/29/2023
+ms.date: 07/10/2024
 ms.topic: ui-reference
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: ui-designers
-ms.custom: engagement-fy23
 ---
 # Scaling on your main display is set to X%
 
