@@ -2,7 +2,7 @@
 title: "Deploy your Visual Studio app to a folder, IIS, Azure, or another destination"
 titleSuffix: ""
 description: Learn more about publishing options for your app using the Publish tool.
-ms.date: 05/12/2023
+ms.date: 07/10/2024
 ms.topic: "ui-reference"
 f1_keywords:
 - vs.publish
@@ -25,20 +25,17 @@ Get help for your deployment task:
 - Not sure what deployment option to choose? See [What publishing options are right for me?](#what-publishing-options-are-right-for-me)
 - For help with deployment issues for Azure App Service or IIS, see [Troubleshoot ASP.NET Core on Azure App Service and IIS](/aspnet/core/test/troubleshoot-azure-iis).
 - For help with configuring .NET deployment settings, see [Configure .NET deployment settings](#configure-net-deployment-settings).
+
+- To deploy to a new target, if you have previously created a publish profile, select **New** from the **Publish** screen for the previously configured profile. The **Publish** tool appears.
+
 ::: moniker range="<=vs-2019"
-- To deploy to a new target, if you have previously created a publish profile, select **New** from the **Publish** window for a configured profile.
-
    ![Screenshot of Create a new publish profile.](../deployment/media/create-a-new-publish-profile.png)
-
-   Then, choose a deployment option in the Publish tool. For information on your publishing options, see the following sections.
 ::: moniker-end
 ::: moniker range=">=vs-2022"
-- To deploy to a new target, if you have previously created a publish profile, select **Publish Selection** from the **Build** menu for a configured profile.
-
    ![Screenshot of Create a new publish profile.](../deployment/media/vs-2022/create-a-new-publish-profile.png)
-
-   Then, choose a deployment option in the Publish tool. For information on your publishing options, see the following sections.
 ::: moniker-end
+
+   Then, choose a deployment option in the **Publish** tool. For information on your publishing options, see the following sections.
 
 ## What publishing options are right for me?
 
@@ -82,6 +79,19 @@ When you choose Azure, you can choose between:
 ![Screenshot of Choose an Azure service.](../deployment/media/vs-2022/quickstart-choose-azure-service.png)
 
 ::: moniker-end
+
+### Azure Container Apps
+
+[Azure Container Apps](/azure/container-apps/overview) helps developers create and manage containerized web applications and services.
+
+While you can deploy a containerized app to Azure App Service, Azure Container Apps is optimized to use resources more efficiently for containerized apps, so there are cost savings as well as other benefits of using Azure Container Apps.
+
+#### When to choose Azure Container Apps
+
+- Your apps and services run in a container or multiple containers
+- You need high availability and flexible scaling
+- Your app is a good match for a microservices architectural pattern, with functionality broken into a set of modular single-task services implemented typically as [Azure Functions](/azure/azure-functions/functions-overview). For example, sets of single-task services that run as discrete jobs, respond to events, or that process requests from queues or triggers.
+- You want the benefits of container orchestration (Kubernetes), but don't want to manage Kubernetes directly. (If you want deep control over the Kubernetes infrastructure that supports your containerized services, consider using [Azure Kubernetes Service (AKS)](/azure/aks/intro-kubernetes).
 
 ### Azure App Service
 
