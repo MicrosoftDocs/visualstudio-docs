@@ -84,7 +84,7 @@ When the application is running on the Linux machine, you are ready to attach th
    ![Screenshot of Hit a breakpoint.](media/vs-2022/remote-debug-linux-over-ssh-hit-breakpoint.png)
    ::: moniker-end
    ::: moniker range="vs-2019"
-   ![Hit a breakpoint.](media/remote-debug-linux-over-ssh-hit-breakpoint.png)
+   ![Screenshot of Hit a breakpoint.](media/remote-debug-linux-over-ssh-hit-breakpoint.png)
    ::: moniker-end
 
 ## Related content
