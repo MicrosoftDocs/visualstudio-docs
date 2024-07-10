@@ -18,7 +18,7 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: code-analysis
-monikerRange: 'vs-2019'
+
 ---
 
 # Configure legacy analysis for managed code

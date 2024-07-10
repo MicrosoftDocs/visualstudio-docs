@@ -10,7 +10,7 @@ author: mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: code-analysis
-monikerRange: 'vs-2019'
+
 ---
 
 # Walkthrough: Use static code analysis to find code defects
