@@ -131,7 +131,7 @@ ENTRYPOINT ["dotnet", "WebApplication-Docker.dll"]
 
 When you add or enable Docker support to a .NET 7 or later project, Visual Studio shows the **Container Scaffolding Options** dialog box, which gives you the choice of operating system (Linux or Windows), but also the ability to choose the container build type, either **Dockerfile** or **.NET SDK**.
 
-In 17.11 preview 2 and later, you can also specify the **Container Base Image Distro** and the **Docker Build Context**.
+In 17.11 preview 2 and later, you can also specify the **Container Image Distro** and the **Docker Build Context**.
 
 ![Screenshot showing the Container Scaffolding Options dialog for adding Docker support.](./media/overview/vs-2022/container-scaffolding-options.png)
 
@@ -176,7 +176,7 @@ ENTRYPOINT ["dotnet", "WebApplication-Docker.dll"]
 
 With Visual Studio 2022 17.9 and later with the .NET 7 SDK installed, in ASP.NET Core projects that target .NET 6 or later, you have the option of using .NET SDK's built-in support for container builds, which means you don't need a Dockerfile; see [Containerize a .NET app with dotnet publish](/dotnet/core/docker/publish-as-container?pivots=dotnet-8-0). Instead, you configure your containers using MSBuild properties in the project file, and the settings for launching the containers with Visual Studio are encoded in a `.json` configuration file, *launchSettings.json*.
 
-![Screenshot showing the Container Scaffolding Options dialog for adding Docker support.](./media/overview/vs-2022/container-scaffolding-options-net-sdk.png)
+![Screenshot showing the Container Scaffolding Options dialog for adding Docker support with .NET SDK selected as the container build type.](./media/overview/vs-2022/container-scaffolding-options-net-sdk.png)
 
 Here, choose **.NET SDK** as the container build type to use .NET SDK's container management instead of a Dockerfile.
 
