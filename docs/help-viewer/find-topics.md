@@ -10,7 +10,9 @@ ms.subservice: help-viewer
 ---
 # Find articles in the Help Viewer
 
-You use the table of contents (TOC), index, and search to find articles with the Help Viewer. This article describes the features of the Help Viewer that can help you find articles more quickly. For historical reasons, articles in Help Viewer are referred to as *Help topics* or just *topics*.
+You use the table of contents (TOC), index, and search to find articles in the Help Viewer. This article describes the features of the Help Viewer that can help you find articles more quickly.
+
+For historical reasons, articles in Help Viewer are referred to as *Help topics* or just *topics*.
 
 ## Filter the Table of Contents
 
@@ -166,4 +168,5 @@ You can use the `code:` operator to find content about any of several programmin
 
 ## Related content
 
+- [Shortcut keys in the Help Viewer](shortcut-keys.md)
 - [Microsoft Help Viewer](../help-viewer/overview.md)
