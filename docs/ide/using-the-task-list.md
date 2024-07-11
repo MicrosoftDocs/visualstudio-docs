@@ -17,7 +17,7 @@ ms.subservice: general-ide
 ---
 # Use the Task List
 
-Use **Task List** to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that take you directly to a predefined location in code. Double-click an item in the list (or select and press **ENTER**) to go to its location in the source code.
+Use **Task List** to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that take you directly to a predefined location in code. Double-click an item in the list (or select an item and press **ENTER**) to go to its location in the source code.
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Task comments (Visual Studio for Mac)](/visualstudio/mac/task-comments).
