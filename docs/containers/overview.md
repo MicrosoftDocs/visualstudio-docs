@@ -131,6 +131,14 @@ ENTRYPOINT ["dotnet", "WebApplication-Docker.dll"]
 
 When you add or enable Docker support to a .NET 7 or later project, Visual Studio shows the **Container Scaffolding Options** dialog box, which gives you the choice of operating system (Linux or Windows), but also the ability to choose the container build type, either **Dockerfile** or **.NET SDK**.
 
+In 17.11 preview 2 and later, you can also specify the **Container Base Image Distro** and the **Docker Build Context**.
+
+![Screenshot showing the Container Scaffolding Options dialog for adding Docker support.](./media/overview/vs-2022/container-scaffolding-options.png)
+
+**Container Image Distro** specifies which OS image your containers use as the base image. This list changes if you switch between Linux and Windows as the container type.
+
+**Docker Build Context** specifies the folder that is used for the Docker build. See [Docker build context](https://docs.docker.com/build/building/context/).
+
 If you choose **Dockerfile**, Visual Studio adds the following to the project:
 
 - a *Dockerfile* file
@@ -168,7 +176,11 @@ ENTRYPOINT ["dotnet", "WebApplication-Docker.dll"]
 
 With Visual Studio 2022 17.9 and later with the .NET 7 SDK installed, in ASP.NET Core projects that target .NET 6 or later, you have the option of using .NET SDK's built-in support for container builds, which means you don't need a Dockerfile; see [Containerize a .NET app with dotnet publish](/dotnet/core/docker/publish-as-container?pivots=dotnet-8-0). Instead, you configure your containers using MSBuild properties in the project file, and the settings for launching the containers with Visual Studio are encoded in a `.json` configuration file, *launchSettings.json*.
 
-![Screenshot showing the Container Scaffolding Options dialog for adding Docker support.](./media/overview/vs-2022/container-scaffolding-options.png)
+![Screenshot showing the Container Scaffolding Options dialog for adding Docker support.](./media/overview/vs-2022/container-scaffolding-options-net-sdk.png)
+
+Here, choose **.NET SDK** as the container build type to use .NET SDK's container management instead of a Dockerfile.
+
+**Container Image Distro** specifies which OS image your containers use as the base image. This list changes if you switch between Linux and Windows as the container type.
 
 The .NET SDK container build entry in *launchSettings.json* looks like the following code:
 
@@ -186,7 +198,13 @@ The .NET SDK container build entry in *launchSettings.json* looks like the follo
 }
 ```
 
-The .NET SDK manages some of the choices that would have been encoded in a Dockerfile, such as the container base image that is chosen to match the targeted version of .NET, and the environment variables to set. The settings available in the project file for container configuration are listed at [Customizing your container](https://github.com/dotnet/sdk-container-builds/blob/main/docs/ContainerCustomization.md).
+The .NET SDK manages some of the settings that would have been encoded in a Dockerfile, such as the container base image, and the environment variables to set. The settings available in the project file for container configuration are listed at [Customizing your container](https://github.com/dotnet/sdk-container-builds/blob/main/docs/ContainerCustomization.md). For example, the **Container Image Distro** is saved in the project file as the `ContainerBaseImage` property. You can change it later by editing the project file.
+
+```xml
+<PropertyGroup>
+    <ContainerBaseImage>mcr.microsoft.com/dotnet/runtime:7.0-alpine-amd64</ContainerBaseImage>
+</PropertyGroup>
+```
 
 :::moniker-end
 
