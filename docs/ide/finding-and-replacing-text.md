@@ -102,7 +102,10 @@ Open the **Find and Replace** dialog box by pressing **Ctrl**+**Shift**+**F**, o
 
 :::moniker-end
 
-Limit the scope of your search to:
+To expose the **Replace** text box, use the down arrow to the left of the **Find** text.
+
+Set the scope of your search and replace operation to:
+
 - The currently open file
 - All open documents
 - The entire solution
@@ -112,7 +115,7 @@ Limit the scope of your search to:
   
 The **Find and Replace** tool does not search directories with the `Hidden` or `System` attribute.
 
-To cancel a Find operation, press **Ctrl**+**Break**.
+To cancel a Find or Replace operation, press **Ctrl**+**Break**.
 
 ### Find Results
 
