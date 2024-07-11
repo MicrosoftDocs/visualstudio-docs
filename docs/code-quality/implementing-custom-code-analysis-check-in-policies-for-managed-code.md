@@ -11,7 +11,7 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: code-analysis
-monikerRange: 'vs-2019'
+
 ---
 
 # Implement Custom Code Analysis Check-in Policies for Managed Code
