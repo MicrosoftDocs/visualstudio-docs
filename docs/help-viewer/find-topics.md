@@ -1,6 +1,6 @@
 ---
 title: Find articles in the Help Viewer
-description: Learn how to search for articles in the Microsoft Help Viewer. Customize searches by using wildcard expressions, logical operators, and advanced search operators.
+description: Learn how to search for articles in the Microsoft Help Viewer, use the index, and filter the table of contents. Customize searches by using wildcard expressions, logical operators, and advanced search operators.
 ms.date: 07/10/2024
 ms.topic: how-to
 author: jasonchlus
@@ -8,9 +8,9 @@ ms.author: jasonchlus
 manager: mijacobs
 ms.subservice: help-viewer
 ---
-# Search for topics in Help Viewer
+# Find articles in the Help Viewer
 
-You use the table of contents (TOC), index, and search to find articles with the Help Viewer. This articles describes the features of the Help Viewer that can help you find articles more quickly.
+You use the table of contents (TOC), index, and search to find articles with the Help Viewer. This article describes the features of the Help Viewer that can help you find articles more quickly. For historical reasons, articles in Help Viewer are referred to as *Help topics* or just *topics*.
 
 ## Filter the Table of Contents
 
