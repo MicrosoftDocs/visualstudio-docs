@@ -9,7 +9,7 @@ author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: code-analysis
-monikerRange: 'vs-2019'
+
 ---
 
 # Run legacy code analysis manually for managed code
