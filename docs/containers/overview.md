@@ -131,13 +131,31 @@ ENTRYPOINT ["dotnet", "WebApplication-Docker.dll"]
 
 When you add or enable Docker support to a .NET 7 or later project, Visual Studio shows the **Container Scaffolding Options** dialog box, which gives you the choice of operating system (Linux or Windows), but also the ability to choose the container build type, either **Dockerfile** or **.NET SDK**.
 
-In 17.11 preview 2 and later, you can also specify the **Container Image Distro** and the **Docker Build Context**.
+In 17.11 and later, you can also specify the **Container Image Distro** and the **Docker Build Context**. (These options do not appear in .NET framework projects or Azure Functions projects.)
 
 ![Screenshot showing the Container Scaffolding Options dialog for adding Docker support.](./media/overview/vs-2022/container-scaffolding-options.png)
 
 **Container Image Distro** specifies which OS image your containers use as the base image. This list changes if you switch between Linux and Windows as the container type.
 
-**Docker Build Context** specifies the folder that is used for the Docker build. See [Docker build context](https://docs.docker.com/build/building/context/).
+The following images are available:
+
+Windows:
+
+- Windows Nano Server (recommended, only available 8.0 and later, not preset for [Native Ahead-of-time (AOT) deployment](/dotnet/core/deploying/native-aot/) projects)
+- Windows Server Core (only available 8.0 and later)
+
+Linux:
+
+- Default (Debian, but the tag is "8.0")
+- Debian
+- Ubuntu
+- Chiseled Ubuntu
+- Alpine
+
+> [!NOTE]
+> Containers based on the Chiseled Ubuntu image and that use [Native Ahead-of-time (AOT) deployment](/dotnet/core/deploying/native-aot/) can only be debugged in Fast Mode. See [Customize Docker containers in Visual Studio](container-build.md).
+
+**Docker Build Context** specifies the folder that is used for the Docker build. See [Docker build context](https://docs.docker.com/build/building/context/). The default is the solution folder, which is strongly recommended. All the files needed for a build need to be under this folder, which is usually not the case if you choose the project folder or some other folder.
 
 If you choose **Dockerfile**, Visual Studio adds the following to the project:
 
@@ -180,7 +198,7 @@ With Visual Studio 2022 17.9 and later with the .NET 7 SDK installed, in ASP.NET
 
 Here, choose **.NET SDK** as the container build type to use .NET SDK's container management instead of a Dockerfile.
 
-**Container Image Distro** specifies which OS image your containers use as the base image. This list changes if you switch between Linux and Windows as the container type.
+**Container Image Distro** specifies which OS image your containers use as the base image. This list changes if you switch between Linux and Windows as the container. See the previous section for a list of available images.
 
 The .NET SDK container build entry in *launchSettings.json* looks like the following code:
 
@@ -202,7 +220,7 @@ The .NET SDK manages some of the settings that would have been encoded in a Dock
 
 ```xml
 <PropertyGroup>
-    <ContainerBaseImage>mcr.microsoft.com/dotnet/runtime:7.0-alpine-amd64</ContainerBaseImage>
+    <ContainerBaseImage>mcr.microsoft.com/dotnet/runtime:8.0-alpine-amd64</ContainerBaseImage>
 </PropertyGroup>
 ```
 
