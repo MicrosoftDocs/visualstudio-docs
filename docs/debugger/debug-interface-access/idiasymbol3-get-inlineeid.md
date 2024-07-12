@@ -6,13 +6,13 @@ ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
-  - "IDiaSymbol::get_inlineeId method"
+  - "IDiaSymbol3::get_inlineeId method"
 author: "grantri"
 ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_inlineeId`
+# `IDiaSymbol3::get_inlineeId`
 
 Retrieves the inlinee ID from a `SymTagInlineSite` symbol.
 

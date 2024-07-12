@@ -6,13 +6,13 @@ ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
-  - "IDiaSymbol::get_isObjClass method"
+  - "IDiaSymbol2::get_isObjClass method"
 author: "grantri"
 ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_isObjCClass`
+# `IDiaSymbol2::get_isObjCClass`
 
 Retrieves a flag indicating whether this is an Objective-C class interface/implementation.
 

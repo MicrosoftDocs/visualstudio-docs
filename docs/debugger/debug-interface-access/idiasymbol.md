@@ -180,7 +180,7 @@ The following table shows the methods of `IDiaSymbol`.
 |[`IDiaSymbol::get_msil`](../../debugger/debug-interface-access/idiasymbol-get-msil.md)|Retrieves a flag indicating whether the symbol refers to Microsoft Intermediate Language (MSIL) code.|
 |[`IDiaSymbol::get_name`](../../debugger/debug-interface-access/idiasymbol-get-name.md)|Retrieves the name of the symbol.|
 |[`IDiaSymbol::get_nested`](../../debugger/debug-interface-access/idiasymbol-get-nested.md)|Retrieves a flag indicating whether the user-defined data type is nested.|
-|[`IDiaSymbol::get_noInline`](../../debugger/debug-interface-access/idiasymbol-get-noinline.md)|Retrieves a flag indicating whether the function is marked with the [noinline](/cpp/cpp/noinline) attribute.|
+|[`IDiaSymbol::get_noInline`](../../debugger/debug-interface-access/idiasymbol-get-noinline.md)|Retrieves a flag indicating whether the function is marked with the [`noinline`](/cpp/cpp/noinline) attribute.|
 |[`IDiaSymbol::get_noNameExport`](../../debugger/debug-interface-access/idiasymbol-get-nonameexport.md)|Retrieves a flag indicating whether this export is `NONAME`.|
 |[`IDiaSymbol::get_noReturn`](../../debugger/debug-interface-access/idiasymbol-get-noreturn.md)|Retrieves a flag indicating whether the function has been declared with the [noreturn](/cpp/cpp/noreturn) attribute.|
 |[`IDiaSymbol::get_noStackOrdering`](../../debugger/debug-interface-access/idiasymbol-get-nostackordering.md)|Retrieves a flag indicating whether no stack ordering could be done as part of stack buffer checking.|

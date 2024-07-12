@@ -6,13 +6,13 @@ ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
-  - "IDiaSymbol::get_inlinee method"
+  - "IDiaSymbol3::get_inlinee method"
 author: "grantri"
 ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_inlinee`
+# `IDiaSymbol3::get_inlinee`
 
 Retrieves the inlinee symbol from a `SymTagInlineSite` symbol.
 

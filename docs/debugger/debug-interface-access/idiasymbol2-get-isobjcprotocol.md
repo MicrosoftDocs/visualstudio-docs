@@ -6,13 +6,13 @@ ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
-  - "IDiaSymbol::get_isObjCProtocol method"
+  - "IDiaSymbol2::get_isObjCProtocol method"
 author: "grantri"
 ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_isObjCProtocol`
+# `IDiaSymbol2::get_isObjCProtocol`
 
 Retrieves a flag indicating whether this is an Objective-C protocol.
 

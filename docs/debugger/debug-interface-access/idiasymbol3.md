@@ -7,9 +7,9 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol3 interface"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: mijacobs
+author: "grantri"
+ms.author: "grantri"
+manager: twhitney
 ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol3
