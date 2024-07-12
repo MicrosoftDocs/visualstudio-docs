@@ -129,9 +129,9 @@ ENTRYPOINT ["dotnet", "WebApplication-Docker.dll"]
 
 ## Add Docker support using the Dockerfile container build type
 
-When you add or enable Docker support to a .NET 7 or later project, Visual Studio shows the **Container Scaffolding Options** dialog box, which gives you the choice of operating system (Linux or Windows), but also the ability to choose the container build type, either **Dockerfile** or **.NET SDK**.
+When you add or enable Docker support to a .NET 7 or later project, Visual Studio shows the **Container Scaffolding Options** dialog box, which gives you the choice of operating system (Linux or Windows), but also the ability to choose the container build type, either **Dockerfile** or **.NET SDK**. This dialog box does not appear in .NET Framework projects or Azure Functions projects.
 
-In 17.11 and later, you can also specify the **Container Image Distro** and the **Docker Build Context**. (These options do not appear in .NET framework projects or Azure Functions projects.)
+In 17.11 and later, you can also specify the **Container Image Distro** and the **Docker Build Context**. 
 
 ![Screenshot showing the Container Scaffolding Options dialog for adding Docker support.](./media/overview/vs-2022/container-scaffolding-options.png)
 
