@@ -1,6 +1,21 @@
 {
   "redirections": [
     {
+      "source_path": "docs/help-viewer/logical-operators-search-expressions.md",
+      "redirect_url": "/visualstudio/help-viewer/find-topics",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/help-viewer/find-topics-toc.md",
+      "redirect_url": "/visualstudio/help-viewer/find-topics",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/help-viewer/find-topics-index.md",
+      "redirect_url": "/visualstudio/help-viewer/find-topics",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "docs/ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md",
       "redirect_url": "/visualstudio/ide/understanding-build-configurations",
       "redirect_document_id": "false"
