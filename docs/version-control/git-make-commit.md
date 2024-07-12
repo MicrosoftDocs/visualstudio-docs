@@ -8,6 +8,7 @@ author: ghogen
 ms.author: ghogen
 ms.manager: mijacobs
 ms.subservice: general-ide
+ms.collection: ce-skilling-ai-copilot
 ---
 # Make a Git commit in Visual Studio
 
