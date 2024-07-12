@@ -48,6 +48,10 @@ Specifies the target processor.
 
 Specifies a target register.
 
+- [`CV_modifier_e`](../../debugger/debug-interface-access/cv-modifier-e.md)
+
+Specifies type modifers.
+
 - [DataKind Enumeration](../../debugger/debug-interface-access/datakind.md)
 
 Indicates the particular scope of a data value.

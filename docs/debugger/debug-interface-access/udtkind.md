@@ -35,6 +35,7 @@ enum UdtKind {
 | UdtClass     | UDT is a class.      |
 | UdtUnion     | UDT is a union.      |
 | UdtInterface | UDT is an interface. |
+| UdtTaggedUnion | UDT is a tagged union. |
 
 ## Remarks
 The values in this enumeration are returned by the [IDiaSymbol::get_udtKind](../../debugger/debug-interface-access/idiasymbol-get-udtkind.md) method.

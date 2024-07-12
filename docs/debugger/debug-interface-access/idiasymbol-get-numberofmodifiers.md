@@ -30,4 +30,6 @@ HRESULT get_numberOfModifiers(
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 ## See also
-- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+
+- [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md)
+- [`IDiaSymbol::get_modifierValues`](../../debugger/debug-interface-access/idiasymbol-get-modifiervalues.md)
