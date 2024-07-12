@@ -1,7 +1,7 @@
 ---
 title: Use Visual Studio search to find code & do queries
 description: Explore the Visual Studio search feature and discover how to find settings, menus, code, and work with filters, queries, and more.
-ms.date: 08/08/2023
+ms.date: 07/02/2024
 ms.topic: how-to
 helpviewer_keywords:
 - environments [Visual Studio], navigation
@@ -51,13 +51,15 @@ To quickly get a filtered experience, you can type the corresponding prefixes be
 |files    |`f:`     | **Ctrl**+**Shift**+**T**       |     
 |types    |`t:`     | **Ctrl**+**1**, **Ctrl**+**T** |
 |members  |`m:`     | **Alt**+**\\**                 |
+|text     |`x:`     | **Shift**+**Alt**+**F**        |
 
 > [!TIP]
 > To learn more about the new search experience, see both the [Better search in Visual Studio](https://devblogs.microsoft.com/visualstudio/new-better-search-in-visual-studio/) and [All-In-One Search available in 17.6](https://devblogs.microsoft.com/visualstudio/all-in-one-search-available-in-17-6/) blog posts.
 
-> [!TIP]
-> Text support (**Shift**+**Alt**+**F**) in Code Search has been added in preview as of 17.9 Preview 2. See the [17.9 Preview 3 brings exciting changes to Code Search
-](https://devblogs.microsoft.com/visualstudio/17-9-preview-3-brings-exciting-changes-to-code-search/) blog post to learn more. 
+The text filter (**Shift**+**Alt**+**F**) in Code Search is available in preview as of 17.9 Preview 2. See [17.9 Preview 3 brings exciting changes to Code Search
+](https://devblogs.microsoft.com/visualstudio/17-9-preview-3-brings-exciting-changes-to-code-search/). Search for a text string, with options to match the case, match whole words, or use a regular expression. The regular expression format is described at [Regular expressions](/dotnet/standard/base-types/regular-expression-language-quick-reference).
+
+:::image type="content" alt-text="Screenshot of text search with various options." source="./media/vs-2022/search-text-search-text-options-highlighted.png" :::
 
 ::: moniker-end
 
