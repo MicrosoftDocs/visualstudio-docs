@@ -1,42 +1,39 @@
 ---
-description: "Describes additional properties of a symbol instance relating to coroutines."
-title: "IDiaSymbol8"
+description: "Describes additional properties of a symbol instance."
+title: "IDiaSymbol9"
 ms.date: "07/15/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
-  - "IDiaSymbol8 interface"
+  - "IDiaSymbol9 interface"
 author: "grantri"
 ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# IDiaSymbol8
+# IDiaSymbol9
 
-Describes additional properties of a symbol instance relating to coroutines.
+Describes additional properties of a symbol instance.
 
 ## Syntax
 
 ```
-IDiaSymbol8 : IDiaSymbol7
+IDiaSymbol9 : IDiaSymbol8
 ```
 
 ## Methods
 
-The following table shows the methods of `IDiaSymbol8`.
+The following table shows the methods of `IDiaSymbol9`.
 
 > [!NOTE]
 > Symbols will return meaningful data for only some of these methods, depending on the type of symbol. If a method returns `S_OK`, then that method has returned meaningful data.
 
 |Method|Description|
 |------------|-----------------|
-|[`IDiaSymbol8::get_coroutineKind`](../../debugger/debug-interface-access/idiasymbol8-get-coroutinekind.md)|Retrieves the coroutine function kind.|
-|[`IDiaSymbol8::get_associatedSymbolKind`](../../debugger/debug-interface-access/idiasymbol8-get-associatedsymbolkind.md)|Retrieves the associated symbol kind.|
-|[`IDiaSymbol8::get_associatedSymbolSection`](../../debugger/debug-interface-access/idiasymbol8-get-associatedsymbolsection.md)|Retrieves the section component of the address of the associated symbol.|
-|[`IDiaSymbol8::get_associatedSymbolOffset`](../../debugger/debug-interface-access/idiasymbol8-get-associatedsymboloffset.md)|Retrieves the offset component of the address of the associated symbol.|
-|[`IDiaSymbol8::get_associatedSymbolRva`](../../debugger/debug-interface-access/idiasymbol8-get-associatedsymbolrva.md)|Retrieves the relative virtual address (RVA) of the associated symbol.|
-|[`IDiaSymbol8::get_associatedSymbolAddr`](../../debugger/debug-interface-access/idiasymbol8-get-associatedsymboladdr.md)|Retrieves the virtual address (VA) of the associated symbol.|
+|[`IDiaSymbol9::get_framePadSize`](../../debugger/debug-interface-access/idiasymbol9-get-framepadsize.md)|Retrieves the stack frame pad size used for Edit and Continue.|
+|[`IDiaSymbol9::get_framePadOffset`](../../debugger/debug-interface-access/idiasymbol9-get-framepadoffset.md)|Retrieves the stack frame pad offset used for Edit and Continue.|
+|[`IDiaSymbol9::get_isRTCs`](../../debugger/debug-interface-access/idiasymbol9-get-isrtcs.md)|Retrieves a flag that indicates whether the function was compiled with runtime stack checks.|
 
 ## Remarks
 
@@ -61,6 +58,9 @@ DLL: msdia140.dll
 - [`IDiaSymbol5`](../../debugger/debug-interface-access/idiasymbol5.md)
 - [`IDiaSymbol6`](../../debugger/debug-interface-access/idiasymbol6.md)
 - [`IDiaSymbol7`](../../debugger/debug-interface-access/idiasymbol7.md)
+- [`IDiaSymbol8`](../../debugger/debug-interface-access/idiasymbol7.md)
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [Symbols and Symbol Tags](../../debugger/debug-interface-access/symbols-and-symbol-tags.md)
 - [Compiland](../../debugger/debug-interface-access/compiland.md)
+- [Edit and Continue (C++)](/visualstudio/debugger/edit-and-continue-visual-cpp)
+- [`/RTC` (Run-time error checks)](/cpp/build/reference/rtc-run-time-error-checks)

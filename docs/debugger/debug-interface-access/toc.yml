@@ -1390,6 +1390,22 @@
           href: idiasymbol8-get-associatedsymbolsection.md
         - name: IDiaSymbol8::get_coroutineKind
           href: idiasymbol8-get-coroutinekind.md
+      - name: IDiaSymbol9
+        items:
+        - name: IDiaSymbol9
+          href: idiasymbol9.md
+        - name: IDiaSymbol9::get_framePadOffset
+          href: idiasymbol9-get-framepadoffset.md
+        - name: IDiaSymbol9::get_framePadSize
+          href: idiasymbol9-get-framepadsize.md
+        - name: IDiaSymbol9::get_isRTCs
+          href: idiasymbol9-get-isrtcs.md
+      - name: IDiaSymbol10
+        items:
+        - name: IDiaSymbol10
+          href: idiasymbol10.md
+        - name: IDiaSymbol10::get_sourceLink
+          href: idiasymbol10-get-sourcelink.md
       - name: IDiaTable
         items:
         - name: IDiaTable
