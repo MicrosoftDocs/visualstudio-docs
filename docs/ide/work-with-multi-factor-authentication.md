@@ -70,7 +70,7 @@ You can manage your accounts from the **Account Settings** dialog in Visual Stud
 > [!NOTE] 
 > For the best experience, we recommend that you clear your system’s default web browser data before proceeding with this workflow. Additionally, if you have Work or School accounts in your Windows 10 Settings under **Access work or school**, please verify that they are properly authenticated.
 
-Using Windows Account Manager (WAM) as the authentication mechanism in Visual Studio is the recommended workflow for adding and reauthenticating accounts. However, if run into any issues with using WAM, you can switch to using the system web browser.
+Using Windows Account Manager (WAM) as the authentication mechanism in Visual Studio is the recommended workflow for adding and reauthenticating accounts. However, if run into any [issues with using WAM](#web-account-manager-wam-errors), you can switch to using the system web browser.
 
 To enable the **system web browser** workflow, go to Visual Studio's Options dialog **(Tools > Options…)**, select the **Accounts** tab and select **System web browser** from the **Add and reauthenticate accounts using:** dropdown. 
 
