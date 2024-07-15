@@ -7,7 +7,7 @@ ms.topic: how-to
 author: houghj16
 ms.author: jehoughton
 ms.manager: mijacobs
-
+ms.collection: ce-skilling-ai-copilot
 ms.subservice: general-ide
 ---
 # Create a pull request in Visual Studio 
