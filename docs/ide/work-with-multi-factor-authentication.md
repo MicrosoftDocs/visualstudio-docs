@@ -162,7 +162,7 @@ Starting with Visual Studio 2022 version 17.5, if you see the previous error dia
 ::: moniker range="=vs-2022"
 ### Web Account Manager (WAM) errors
 
-If you run into errors when using the [Windows authentication broker workflow for signing in to Visual Studio](#enabling-windows-authentication-broker), follow the action listed on the error dialog to resolve or report the issue. Use the links on the dialog to learn more about the error or to see error logs.
+If you run into errors when using the [Windows authentication broker workflow for signing in to Visual Studio](#using-windows-authentication-broker), follow the action listed on the error dialog to resolve or report the issue. Use the links on the dialog to learn more about the error or to see error logs.
 
 For example, if you see the following error dialog, you can resolve the issue by selecting **change authentication mechanism** to open **Sign-in options** and switch to the [system web browser](#enabling-system-web-browser).
 
