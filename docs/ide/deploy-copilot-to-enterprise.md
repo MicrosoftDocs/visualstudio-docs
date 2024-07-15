@@ -1,7 +1,7 @@
 ---
 title: Deploy GitHub Copilot within your enterprise
 description: Configure and deploy GitHub Copilot programmatically to existing Visual Studio instances on a client's machine within an enterprise.
-ms.date: 1/11/2024
+ms.date: 7/15/2024
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -12,15 +12,15 @@ monikerRange: vs-2022
 ---
 # Deploy GitHub Copilot to existing Visual Studio instances
 
-For administrators of Visual Studio 2022 version 17.8 or above, you can deploy GitHub Copilot onto client workstations programmatically with an installation script, just like you deploy other [Visual Studio components](../install/workload-and-component-ids.md). 
+Administrators of Visual Studio 2022 version 17.8 or above can deploy GitHub Copilot onto client workstations programmatically with an installation script, just like you deploy other [Visual Studio components](../install/workload-and-component-ids.md). 
 
-Note that this method does NOT install the GitHub Copilot chat extension.
+This method does NOT install the GitHub Copilot chat extension.
 
-## Pre-requisites
+## Prerequisites
 
 To get started, you need:
 
-- This section assumes that Visual Studio 2022 [version 17.8 or later](/visualstudio/releases/2022/release-history) is already installed on the client machines.  If it's not, refer to the guidance in the [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide) for how to deploy Visual Studio throughout your organization.
+- This section assumes that Visual Studio 2022 [version 17.8 or later](/visualstudio/releases/2022/release-history) is already installed on the client machines. If it's not, refer to the guidance in the [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide) for how to deploy Visual Studio throughout your organization.
 - A valid and active GitHub Copilot for Business subscription is required for the end user whose Visual Studio 2022 instance you're installing the GitHub Copilot component for. 
 [See: Managing access for GitHub Copilot for Business in your organization.](https://docs.github.com/en/copilot/managing-copilot-business/managing-access-for-copilot-business-in-your-organization)
 
@@ -28,7 +28,7 @@ Options for deploying GitHub Copilot onto client machines depend on how Visual S
 
 ## Modify an existing installation to add the GitHub Copilot component
 
-Most of the time, users would've either acquired Visual Studio themselves, or run a development environment setup script on their machine.
+Most of the time, users would either acquire Visual Studio themselves, or run a development environment setup script on their machine.
 To add the GitHub Copilot component to an existing installation of Visual Studio, use the installer's `modify` command from either a command line or PowerShell window.
 
 ### Sample install instructions
@@ -47,14 +47,14 @@ foreach ($i in $installDir) {
 
 If you're using a layout to deploy Visual Studio across your organization, you first need to add the `Component.GitHub.Copilot` component to the layout.  Then, assuming the client is configured to [receive updates from the layout](../install/update-visual-studio.md#configure-source-location-of-updates), you can run a `modify` command as in the previous example to add it to the client.
 
-Refer to the [layout documentation](../install/create-a-network-installation-of-visual-studio.md#modify-the-contents-of-a-layout) for further information. 
+For more information, see the [layout documentation](../install/create-a-network-installation-of-visual-studio.md#modify-the-contents-of-a-layout). 
 
 ## End user action required
 
-Note that after installing the GitHub Copilot component to the client machines, the end user will need to take the following steps to enable GitHub Copilot:
+After installing the GitHub Copilot component to the client machines, the end user will need to take the following steps to enable GitHub Copilot:
 
 1. Log into the [GitHub web interface](https://github.com/settings/copilot) with the GitHub account associated with their Copilot subscription.
-1. Launch Visual Studio 2022 and [add their GitHub account to the Visual Studio keychain to activate access](work-with-github-accounts.md).
+1. Activate access by launching Visual Studio 2022 and [adding their GitHub account to the Visual Studio keychain](work-with-github-accounts.md).
 
 ## Related content
 
