@@ -32,6 +32,10 @@ Specifies the symbol's basic type.
 
 Specifies the scope of visibility (access level) of member functions and variables.
 
+- [`CV_AssociationKind_e`](../../debugger/debug-interface-access/cv-associationkind-e.md)
+
+Specifies the kind of association between two symbols.
+
 - [CV_call_e Enumeration](../../debugger/debug-interface-access/cv-call-e.md)
 
 Specifies the calling convention for a function.
@@ -39,6 +43,10 @@ Specifies the calling convention for a function.
 - [CV_CFL_LANG Enumeration](../../debugger/debug-interface-access/cv-cfl-lang.md)
 
 Specifies the source code language of the application or linked module.
+
+- [`CV_CoroutineKind_e`](../../debugger/debug-interface-access/cv-coroutinekind-e.md)
+
+Specifies the coroutine kind.
 
 - [CV_CPU_TYPE_e Enumeration](../../debugger/debug-interface-access/cv-cpu-type-e.md)
 

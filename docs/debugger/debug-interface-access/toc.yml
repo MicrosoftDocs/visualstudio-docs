@@ -1374,6 +1374,22 @@
           href: idiasymbol7.md
         - name: IDiaSymbol7::get_isSignRet
           href: idiasymbol7-get-issignret.md
+      - name: IDiaSymbol8
+        items:
+        - name: IDiaSymbol8
+          href: idiasymbol8.md
+        - name: IDiaSymbol8::get_associatedSymbolAddr
+          href: idiasymbol8-get-associatedsymboladdr.md
+        - name: IDiaSymbol8::get_associatedSymbolKind
+          href: idiasymbol8-get-associatedsymbolkind.md
+        - name: IDiaSymbol8::get_associatedSymbolOffset
+          href: idiasymbol8-get-associatedsymboloffset.md
+        - name: IDiaSymbol8::get_associatedSymbolRva
+          href: idiasymbol8-get-associatedsymbolrva.md
+        - name: IDiaSymbol8::get_associatedSymbolSection
+          href: idiasymbol8-get-associatedsymbolsection.md
+        - name: IDiaSymbol8::get_coroutineKind
+          href: idiasymbol8-get-coroutinekind.md
       - name: IDiaTable
         items:
         - name: IDiaTable
@@ -1396,10 +1412,14 @@
         href: common-hresult-values.md
       - name: CV_access_e
         href: cv-access-e.md
+      - name: CV_AssociationKind_e
+        href: cv-associationkind-e.md
       - name: CV_call_e
         href: cv-call-e.md
       - name: CV_CFL_LANG
         href: cv-cfl-lang.md
+      - name: CV_CoroutineKind_e
+        href: cv-coroutinekind-e.md
       - name: CV_CPU_TYPE_e
         href: cv-cpu-type-e.md
       - name: CV_HREG_e
