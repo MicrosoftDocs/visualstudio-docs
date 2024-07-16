@@ -9,6 +9,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
+ms.collection: ce-skilling-ai-copilot
 ---
 # Tour the Visual Studio IDE
 
