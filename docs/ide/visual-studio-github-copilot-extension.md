@@ -7,6 +7,7 @@ author: anandmeg
 ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
+ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
 content_well_notification: 
   - AI-contribution
