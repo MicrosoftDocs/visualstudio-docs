@@ -143,8 +143,8 @@ These queries support the monitoring of updates made to query results.
 
 |Term|Description
 |---|---
-|SubscribeAsync| Represents the operation to subscribes results from a query, which automatically reruns when data source is changed.
-|TrackUpdatesAsync| Represents the operation to track changes to a query, which automatically reruns when the data source is changed.
+|SubscribeAsync| Represents the operation to subscribes results from a query.
+|TrackUpdatesAsync| Represents the operation to track changes from a query.
 
 ## Related content
 

@@ -50,14 +50,15 @@ This overview covers top scenarios for working with the project query API:
 - [Action Query to Load/Unload a Project](#action-query-to-loadunload-a-project)
 - [Action Query to Build Solutions/Projects](#action-query-to-build-solutionsprojects)
 - [Action Query to Save a Solution/Project](#action-query-to-save-solutionsprojects)
-- [Action Query to Track Query Changes](#action-query-to-track-query-changes)
+- [Query to Track Query Changes](#query-to-track-query-changes)
+- [Query to Track Query Changes](#query-to-track-query-changes)
 - [Action Query to Skip](#action-query-to-skip)
 
 ## Access the project query space
 
-Before you can query the project system, you need to obtain an instance of the *project query space* object, which has several asynchronous methods that query or update the project system. The term *project query space* and the term *workspace* both mean the same thing, the object that provides access to all the data for a project.
+Before you can query the project system, you need to obtain an instance of the *project query space* object, which has several asynchronous methods that query or update the project system. The term *project query space* and the term *workspace* both mean the same thing, the object that provides access to all the data for a project. Within the documentation, `workspace` will be consistently reutilized.
 
-### Using the Gladstone wrapper
+### Using VisualStudio.Extensibility
 
 ```csharp
 WorkspacesExtensibility workspace = this.Extensibility.Workspaces();
@@ -123,12 +124,12 @@ IQueryResults<IProjectSnapshot> results = await workspace.QueryProjectsAsync(
 
 ### Example using a `WithRequired` clause
 
-When using `WithRequired`, only projects with the required properties are returned.
+When using `WithRequired`, ensures that only projects containing specified properties are retrieved. For instance, in the following example, only projects that include files named `information` are selected.
 
 ```csharp
 IQueryResults<IProjectSnapshot> results = await workspace.QueryProjectsAsync(
     project => project.With(p => new { p.Path, p.Guid })
-    .WithRequired(p => p.Files.Where(f => f.FileName == "information.txt")),
+    .WithRequired(p => p.Files.Where(f => f.FileName == "information")),
     cancellationToken);
 ```
 
@@ -151,6 +152,8 @@ IQueryResults<IProjectSnapshot> webProjects = await workspace.QueryProjectsAsync
 
 ### Example using `RuleResultsByRuleName` filtering
 At the level of individual projects, each project possesses a `RulesResults` attribute, which includes a `RuleName` and `Items`. The API call `RuleResultsByRuleName` can be used to filter by rule name.
+
+In the following query, rather than retrieving every rule present in ActiveConfigurations, we specifically target the CompilerCommandLineArgs rule. The query results will include both the rule name and the items associated with it.
 
 ```csharp
 IQueryResults<IProjectSnapshot> results = await workspace.QueryProjectsAsync(
@@ -184,9 +187,10 @@ Some parameters are themselves collections, and you can use nested queries to do
 
 In the following example, a nested query lets you filter and specify the collection of files to be included with each project returned by the outer query.
 
+The query detailed below yields an IProjectSnapshot for projects featuring the ApplicationIcon property. It specifically searches for .ico files within these projects, aiming to ascertain their paths and whether they are hidden.
+
 ```csharp
 
-#pragma warning disable VSEXTPREVIEW_PROJECTQUERY_PROPERTIES_BUILDPROPERTIES
 IQueryResults<IProjectSnapshot> projects = await workspace.QueryProjectsByCapabilitiesAsync(
     project => project.With(project => new { project.Path, project.IsProjectFileSearchable })
     .With(project => project.PropertiesByName("ApplicationIcon")) // Retrieve a single property, if it exists
@@ -207,12 +211,13 @@ foreach (IProjectSnapshot project in projects)
         bool isHidden = iconFile.IsHidden;
     }
 }
-#pragma warning restore VSEXTPREVIEW_PROJECTQUERY_PROPERTIES_BUILDPROPERTIES
 ```
 
 ## Retrieve a child collection using the Get method
 
-The Visual Studio project model has collections for projects and well as child collections, such as for files or project capabilities within projects. To retrieve a child collection itself, you can use a `Get` clause. Like other query types, the `Get` clause lets you use other clauses such as the `With` clause to shape or limit the results.
+The project model in Visual Studio includes collections for projects and their child collections, which can encompass files or project capabilities among others. To access a specific child collection, the `Get` clause is utilized. This clause, similar to other types of queries, allows for the incorporation of additional clauses like the `With` clause, which helps in refining or constraining the query results.
+
+In the following query, the `Get` method retrieves the Files child collection from a project identified by its specific Guid.
 
 ```csharp
 IQueryResults<IFileSnapshot> files = await workspace.QueryProjectsAsync(
@@ -271,15 +276,15 @@ IQueryResult<IProjectSnapshot> updatedProjects = await workspace.UpdateProjectsA
 
 You can use a `Get` clause to query for project properties. The following query returns a collection of [`IPropertySnapshot`](/dotnet/api/microsoft.visualstudio.projectsystem.query.ipropertysnapshot) that contains entries for the two properties requested. `IPropertySnapshot` contains the property name and value at a point in time.
 
+This query asynchronously retrieves properties named `RootNamespace` and `AssemblyVersion` from a collection of projects. It operates on `myProjects`, which is a previously obtained `IProjectSnapshot` object. The query first transforms this collection into a queryable format using `AsQueryable`, then identifies the specific properties to be retrieved using Get. Finally, it executes the query asynchronously with QueryAsync, incorporating a cancellation token to control the duration of the operation.
+
 ```csharp
 // We assume that we can find the "RootNamespace" property in the result.
 // However it isn't true from query API point of view.
 // The query tries to retrieve items based on the condition, and if there is no such item, it will run successfully, only without returning items.
-#pragma warning disable VSEXTPREVIEW_PROJECTQUERY_PROPERTIES_BUILDPROPERTIES
 IQueryResults<IProjectSnapshot> properties = await workspace.QueryProjectsAsync(
     project => project.With(project => project.PropertiesByName("RootNamespace", "AssemblyVersion")),
     cancellationToken);
-#pragma warning restore VSEXTPREVIEW_PROJECTQUERY_PROPERTIES_BUILDPROPERTIES
 ```
 
 ## Query for solutions
@@ -322,7 +327,6 @@ IQueryResults<ISolutionFolderSnapshot> recursivelyNestedFolders = await workspac
 Here's an example enumerating all .xaml files in a project and its code generator:
 
 ```csharp
-#pragma warning disable VSEXTPREVIEW_PROJECTQUERY_PROPERTIES_BUILDPROPERTIES
 IQueryResults<IFileSnapshot> projects = await workspace.QueryProjectsByGuidAsync(
     project => project.Get(p => p.Files)
         .Where(file => file.Extension == ".xaml")
@@ -330,7 +334,6 @@ IQueryResults<IFileSnapshot> projects = await workspace.QueryProjectsByGuidAsync
         .With(file => file.PropertiesByName("Generator")),
     guids,
     cancellationToken);
-#pragma warning restore VSEXTPREVIEW_PROJECTQUERY_PROPERTIES_BUILDPROPERTIES
 ```
 
 Example of enumerating all files with a certain extension, such as XML Schema files (`.xsd` files) in all projects:
@@ -356,6 +359,7 @@ Projects and folders have information about which files they own or contain, so 
 ### Example of finding projects that own a given file
 
 ```csharp
+string myFilePath = "c://my/file//path";
 IQueryResults<IProjectSnapshot> projects = await workspace.QueryProjectsAsync(
     project => project.WithRequired(project => project.FilesByPath(myFilePath))
     .With(project =>project.Guid),
@@ -377,7 +381,6 @@ IQueryResults<ISolutionFolderSnapshot> solutionFolders = await workspace.QuerySo
 Projects have a `ConfigurationDimension` property, which you can use to find project configuration information. Project configuration information relates to project build configurations (for example, `Debug` and `Release`).
 
 ```csharp
- #pragma warning disable VSEXTPREVIEW_PROJECTQUERY_TRACKING
 IQueryResults<IProjectSnapshot> projects = await workspace.QueryProjectsAsync(
     project => project.With(p => new { p.Guid, p.Name })
         .With(p => p.Configurations
@@ -385,7 +388,6 @@ IQueryResults<IProjectSnapshot> projects = await workspace.QueryProjectsAsync(
             .With(c => c.PropertiesByName("OutputPath"))
             .With(c => c.ConfigurationDimensions)), // ConfigurationDimension is essentially Name, Value pairs, both are default properties.,
     cancellationToken);
-#pragma warning restore VSEXTPREVIEW_PROJECTQUERY_TRACKING
 
 foreach (IProjectSnapshot project in projects)
 {
@@ -589,11 +591,63 @@ var result = await querySpace.Solutions
  var result = await myProject.SaveAsync(cancellationToken);
 ```
 
-## Action query to track query changes 
+## Query to subscribe to query changes 
 
-`TrackUpdatesAsync` can be used at the project or solution level. It is used to track changes in the project or solution. 
+`SubscribeAsync` can be used to track the most recent `IQueryResults` in the project or solution. 
 
-In the example, `TrackUpdatesAsync` is called on the Files property of a project. This means it will track changes to the file names in the project. The TrackerObserver instance is passed to receive notifications of changes.
+In the example below, `SubscribeAsync` will keep up to date with the solution's projects. The SubscribeObserver instance is passed in to receive notifications of changes.
+
+```csharp
+var solutions = await this.Extensibility.Workspaces().QuerySolutionAsync(
+    solution => solution.With(solution => solution.FileName),
+    cancellationToken);
+
+var singleSolution = solutions.FirstOrDefault();
+
+if (singleSolution is null)
+{
+    return;
+}
+
+var unsubscriber = await singleSolution
+    .AsQueryable()
+    .With(p => p.Projects)
+    .SubscribeAsync(new SubscriberObserver(), CancellationToken.None);
+
+```
+
+The `SubscribeObserver` is a component that implements [IObserver](/dotnet/api/system.iobserver) interface and receives change notifications. For the example above, it would implement `IObserver<IQueryResults<ISolutionSnapshot>>`.
+
+```csharp
+private class SubscribeObserver : IObserver<IQueryResults<ISolutionSnapshot>>
+{
+    public void OnCompleted()
+    {
+        ...
+    }
+ 
+    public void OnError(Exception error)
+    {
+        ...
+    }
+ 
+    public void OnNext(IQueryResults<ISolutionSnapshot> value)
+    {
+        ...
+    }
+ 
+    public override int GetHashCode()
+    {
+        ...
+    }
+}
+```
+
+## Query to track query changes 
+
+`TrackUpdatesAsync` can be used to track changes in the project or solution. 
+
+In the example below, `TrackUpdatesAsync` will track changes to files in the project. The TrackerObserver instance is passed in to receive notifications of changes.
 
 ```csharp
 var projects = workspace.QueryProjectsAsync(
@@ -614,7 +668,7 @@ var unsubscriber = await singleProject
 
 ```
 
-The `TrackerObserver` is a component that implements IObserver interface and receives change notifications. For the example above, it would implement `IObserver<IQueryTrackUpdates<IFileSnapshot>>`.
+The `TrackerObserver` is a component that implements [IObserver](/dotnet/api/system.iobserver) interface and receives change notifications. For the example above, it would implement `IObserver<IQueryTrackUpdates<IFileSnapshot>>`.
 
 ```csharp
 private class TrackerObserver : IObserver<IQueryTrackUpdates<IFileSnapshot>>
