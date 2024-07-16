@@ -31,9 +31,7 @@ Visual Studio Tools for Unreal Engine makes it easier to write and debug C++ cod
 
 ## Supported Visual Studio versions
 
-Visual Studio Tools for Unreal Engine is available for free and supports:
-
-- Visual Studio 2022 Version 17.7 or later.
+Visual Studio Tools for Unreal Engine is available for free and supports Visual Studio 2022 Version 17.7 or later.
 
 We recommend [downloading and using the latest version of Visual Studio.](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
 

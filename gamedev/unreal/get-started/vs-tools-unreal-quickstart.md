@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Visual Studio Tools for Unreal Engine"
 description: Read an overview about Visual Studio Tools for Unreal Engine, which is a free Visual Studio extension that helps you develop games with Unreal Engine.
-ms.date: 10/19/2023
+ms.date: 07/16/2024
 ms.topic: quickstart
 ms.service: visual-studio
 ms.subservice: unreal-engine-tools
@@ -13,6 +13,7 @@ manager: MarkL
 # Quickstart: Visual Studio Tools for Unreal Engine
 
 In this article, download an Unreal Engine (UE) game sample and use Visual Studio Tools for Unreal Engine to:
+
 - [View UE Blueprints in Visual Studio](#view-ue-blueprints-in-visual-studio)
 - [View UE logging in Visual Studio](#view-ue-logging-within-visual-studio)
 - [View UE macros in Visual Studio](#view-ue-macros-in-visual-studio)
@@ -21,17 +22,18 @@ In this article, download an Unreal Engine (UE) game sample and use Visual Studi
 
 The following must be installed:
 
-- Visual Studio version 17.7 or later
+- Visual Studio version 17.7 or later.
 - Unreal Engine version 5 or later because the example used in this quickstart requires UE5 or later.
 - Visual Studio Tools for Unreal Engine. See [Install Visual Studio Tools for Unreal Engine](vs-tools-unreal-install.md) for installation instructions.
 
 ## Download and build the Lyra game sample in Visual Studio
 
-Lyra is a sample 3D game project for learning about the frameworks in Unreal Engine. See the **Downloading the Lyra Starter Game** section at [Lyra Sample Game](https://docs.unrealengine.com/5.0/lyra-sample-game-in-unreal-engine/) for download instructions.
+Lyra is a sample game project for learning about Unreal Engine. See the **Downloading the Lyra Starter Game** section at [Lyra Sample Game](https://docs.unrealengine.com/5.0/lyra-sample-game-in-unreal-engine/) for download instructions.
 
 ## Configure the Lyra game sample to use Visual Studio Tools for Unreal Engine
 
-Once you have downloaded the game sample, update `LyraStarterGame.uproject` to use the Visual Studio Tools plugin. You could also do this in the Unreal Editor from the main menu under **Edit** > **Plugins** and then find the Visual Studio Integration plugin and check the box next to it. But we'll do it by following these steps:
+Once you have downloaded the game sample, update `LyraStarterGame.uproject` to use the Visual Studio Tools plugin. You could also do this in the Unreal Editor after loading the Lyra project from the main menu under **Edit** > **Plugins** and then find the *Visual Studio Integration Tools* plugin and check the box next to it. But we'll do it by following these steps:
+
 1. Open the `LyraStarterGame.uproject` file in a text editor. It's in the directory where you installed the game sample.
 1. Add the following to the end of the `Plugins` section:
 
@@ -43,11 +45,11 @@ Once you have downloaded the game sample, update `LyraStarterGame.uproject` to u
     ```
 
 1. Open the Lyra project in Unreal Engine.
-1. From the Unreal Engine editor main menu, choose **Tools** > **Refresh Visual Studio Project**. This creates/refreshes the solution file for Visual Studio.
+1. From the Unreal Engine editor main menu, choose **Tools** > **Generate Visual Studio Project**. This creates the solution file for Visual Studio.
 1. From the Unreal Engine editor main menu, choose **Tools** > **Open Visual Studio**. This opens the game in Visual Studio. If you have multiple versions of Visual Studio on your machine, ensure that the right version opened: from the Visual Studio main menu, choose **Help** > **About Microsoft Visual Studio**. You need to use Visual Studio 2022 version 17.7 or higher. If the right version didn't open, manually open `LyraStarterGame.sln` in the correct version of Visual Studio.
-1. From the Visual Studio main menu, choose **Build** > **Build Solution** to build the game.
 1. Change the **Solutions Configurations** dropdown to **Development Editor**. This enables the Blueprints Visual Studio Tools for Unreal Engine:
     :::image type="content" source="../media/unreal-engine-configuration-dropdown.png" alt-text="Screenshot of Visual Studio with the Solutions Configurations dropdown expanded and Development Editor selected.":::
+1. From the Visual Studio main menu, choose **Build** > **Build Solution** to build the game.
 
 ## View UE Blueprints in Visual Studio
 
@@ -102,6 +104,26 @@ Long UE macros can be difficult to read. Visual Studio Tools for Unreal Engine e
 For more information about expanding macros in Visual Studio, see [Visualize C/C++ macro expansion](/cpp/ide/visualize-macro-expansion).
 
 This quickstart showed how Visual Studio Tools for Unreal Engine makes it easier to understand UE macros, view UE logging, and view UE Blueprints. May your UE development work be more productive and enjoyable!
+
+## Unreal Engine toolbar
+
+Visual Studio provides a toolbar that improves the Unreal Engine development experience. The toolbar provides quick access to common UE tasks. 
+
+Activate the Unreal Engine toolbar in Visual Studio from the main menu via **View** > **Toolbars** > **Unreal Engine**. The toolbar looks like:
+
+    :::image type="content" source="../media/ue-toolbar.png" alt-text="A screenshot of the Unreal Engine toolbar in Visual Studio.":::
+
+The toolbar buttons, left to right, are as follows:
+
+- A quick attach button (the play icon) and a dropdown listing the name of the process to attach to. The dropdown is populated by Unreal Engine related processes, which makes it easier to attach to the Unreal Engine Editor more easily.
+- Buttons to start and stop the Unreal Engine integration server. The integration server improves the performance of the Unreal Engine integration with Visual Studio. Visual Studio can keep the Unreal Engine Editor process running in the background so that Blueprint and Test information is automatically updated as you work on your project. You can turn it off to reclaim resources if your machine is resource constrained, and start it when you want the integration improvements. The server is started automatically when you open a UE project in Visual Studio.
+- A button to rescan Unreal Engine blueprint assets.
+- A button that opens the Unreal Engine log window.
+- A button to configure Visual Studio Tools for Unreal Engine. This opens the **Unreal Engine Integration Configuration** window where you can refresh and see the overall configuration status and Visual Sutdio Integration Tool status, check for blueprint support, see whether get Unreal Engine naming convention checker status, and so on.
+
+## Set command-line arguments
+
+## Add UE classes and modules
 
 ## Next steps
 
