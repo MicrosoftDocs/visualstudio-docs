@@ -1406,6 +1406,14 @@
           href: idiasymbol10.md
         - name: IDiaSymbol10::get_sourceLink
           href: idiasymbol10-get-sourcelink.md
+      - name: IDiaSymbol11
+        items:
+        - name: IDiaSymbol11
+          href: idiasymbol11.md
+        - name: IDiaSymbol11::get_discriminatedUnionTag
+          href: idiasymbol11-get-discriminateduniontag.md
+        - name: IDiaSymbol11::get_tagRanges
+          href: idiasymbol11-get-tagranges.md
       - name: IDiaTable
         items:
         - name: IDiaTable
@@ -1446,6 +1454,8 @@
         href: datakind.md
       - name: DiaAddressMapEntry
         href: diaaddressmapentry.md
+      - name: DiaTagValue
+        href: diatagvalue.md
       - name: LocationType
         href: locationtype.md
       - name: MemoryTypeEnum

@@ -1,37 +1,39 @@
 ---
-description: "Describes additional properties of a symbol instance."
-title: "IDiaSymbol10"
+description: "Describes additional properties of a SymTagTaggedUnionCase symbol instance."
+title: "IDiaSymbol11"
 ms.date: "07/15/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
-  - "IDiaSymbol10 interface"
+  - "IDiaSymbol11 interface"
 author: "grantri"
 ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# IDiaSymbol10
+# IDiaSymbol11
 
-Describes additional properties of a symbol instance.
+Describes additional properties of a `SymTagTaggedUnionCase` symbol instance.
 
 ## Syntax
 
 ```
-IDiaSymbol10 : IDiaSymbol9
+IDiaSymbol11 : IDiaSymbol10
 ```
 
 ## Methods
 
-The following table shows the methods of `IDiaSymbol10`.
+The following table shows the methods of `IDiaSymbol11`.
 
 > [!NOTE]
 > Symbols will return meaningful data for only some of these methods, depending on the type of symbol. If a method returns `S_OK`, then that method has returned meaningful data.
 
 |Method|Description|
 |------------|-----------------|
-|[`IDiaSymbol10::get_sourceLink`](../../debugger/debug-interface-access/idiasymbol10-get-sourcelink.md)|Retreives the [Source Link](https://github.com/dotnet/designs/blob/master/accepted/2020/diagnostics/source-link.md) blob associated with this `SymTagCompiland` symbol.|
+|[`IDiaSymbol11::get_discriminatedUnionTag`](../../debugger/debug-interface-access/idiasymbol11-get-discriminateduniontag.md)|Retrieves information about the tag of a discriminated union symbol instance.|
+|[`IDiaSymbol11::get_tagRanges`](../../debugger/debug-interface-access/idiasymbol11-get-tagranges.md)|Retrieves the ranges of tags within a discriminated union symbol instance.|
+
 
 ## Remarks
 
@@ -58,7 +60,7 @@ DLL: msdia140.dll
 - [`IDiaSymbol7`](../../debugger/debug-interface-access/idiasymbol7.md)
 - [`IDiaSymbol8`](../../debugger/debug-interface-access/idiasymbol7.md)
 - [`IDiaSymbol9`](../../debugger/debug-interface-access/idiasymbol9.md)
+- [`IDiaSymbol10`](../../debugger/debug-interface-access/idiasymbol10.md)
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [Symbols and Symbol Tags](../../debugger/debug-interface-access/symbols-and-symbol-tags.md)
-- [Compiland](../../debugger/debug-interface-access/compiland.md)
-- [Using Source Link](https://github.com/dotnet/sourcelink#using-source-link-in-c-projects)
+- [`DiaTagValue`](../../debugger/debug-interface-access/diatagvalue.md)
