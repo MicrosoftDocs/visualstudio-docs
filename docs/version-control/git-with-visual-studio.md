@@ -1,5 +1,5 @@
 ---
-title: The Git experience in Visual Studio
+title: About Git in Visual Studio
 titleSuffix: ""
 description: Explore Git options for source control in Visual Studio and track the code changes you make over time or revert to specific versions.
 ms.date: 05/15/2024
@@ -9,7 +9,7 @@ ms.author: ghogen
 ms.manager: mijacobs
 ms.subservice: general-ide
 ---
-# About the Git experience in Visual Studio
+# About Git in Visual Studio
 
 Visual Studio provides a user interface for [Git](https://git-scm.com/docs/git), a widely used modern version control system. Whether your source code is hosted in a GitHub repository, Azure DevOps, or another Git provider, you can do all the common version control tasks within the Visual Studio IDE. Or, you can work locally with no provider at all, with the option to back up your source later when you're ready to connect to a provider.
 
@@ -17,7 +17,7 @@ The source code you work with doesn't have to have been created with Visual Stud
 
 ::: moniker range=">=vs-2022"
 
-## Start with Git & GitHub in Visual Studio
+## Start with Git and GitHub in Visual Studio
 
 To get started using Git with Visual Studio:
 
@@ -39,7 +39,7 @@ When you clone a repository or open a local repository, Visual Studio switches t
 
 For your day-to-day Git workflow, Visual Studio provides a seamless way to interact with Git while coding without having you switch away from your code.
 
-You are empowered to multi-task and experiment with your code through branches. If you or your team works on multiple features at the same time, or if you'd like to explore ideas without affecting your working code, branching is very helpful. The recommended Git workflow uses a new branch for every feature or fix that you work on. Learn how to [create a branch](git-create-branch.md) from Visual Studio.
+You can multi-task and experiment with your code through branches. The recommended Git workflow uses a new branch for every feature or fix that you work on. Learn how to [create a branch](git-create-branch.md) from Visual Studio.
 
 Once you create a new branch and switch to it, you can start working by changing existing files or by adding new ones and then committing your work to the repository. To learn more about making a commit in Visual Studio and to better understand file states in Git, refer to the [Make a commit](git-make-commit.md) page.
 
@@ -51,7 +51,7 @@ If you are working in a team or if you are using different machines, you will al
 
 ## Repository management & collaboration
 
-However, there are times when it makes more sense to focus on your Git repository. For example, you might need to get a good picture of what your team has been working on, or copy a commit from a different branch, or just clean-up your outgoing commits.  Visual Studio includes powerful [repository browsing](git-browse-repository.md) and collaboration features that eliminate the need to use other tools.
+However, there are times when it makes more sense to focus on your Git repository. For example, you might need to get a good picture of what your team has been working on, or copy a commit from a different branch, or just clean-up your outgoing commits. Visual Studio includes powerful [repository browsing](git-browse-repository.md) and collaboration features that eliminate the need to use other tools.
 
 To help you focus on your Git repository, Visual Studio has a **Git Repository** window, which is a consolidated view of all the details in your repository, including local and remote branches and commit history. You can access this window directly from either **Git** or **View** on the menu bar or from the status bar.
 
@@ -76,15 +76,9 @@ To personalize your Git settings at a repository level as well as at a global le
 
     :::image type="content" source="media/vs-2022/git-options-settings.png" alt-text="Screenshot of the Options dialog box where you can choose personalization and customization settings in Visual Studio IDE." lightbox="media/vs-2022/git-options-settings.png":::
 
-## Performance & productivity enhancements
+## Productivity enhancements
 
-When it comes to the integrated Git tooling within Visual Studio, we continue to iterate on performance and productivity enhancements. Here are a few notable updates:
-
-- **Commit graph**. In Visual Studio 2022 [version 17.2](/visualstudio/releases/2022/release-notes-v17.2), we introduced a commit graph feature to help reduce the delays you might experience when you're viewing your Git repository or branch history. For more information, see the [Supercharge your Git experience](https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/) blog post.
-
-- **Branch switching**. Also in Visual Studio 2022 [version 17.2](/visualstudio/releases/2022/release-notes-v17.2), we reduced the number of branch switches that need solution reloads by an estimate of 80%. To learn more, see the [Performance Enhancements: Git Branch Switching](https://devblogs.microsoft.com/visualstudio/vs2022-performance-enhancements-git-branch-switching/) blog post.
-
-There are even more feature updates in Visual Studio 2022 [**version 17.6**](/visualstudio/releases/2022/release-notes-v17.6), to include the ability to  [search](https://devblogs.microsoft.com/visualstudio/git-tooling-preview-features-to-enhance-productivity/#improved-search-for-related-github-issues-and-azure-devops-work-items) for and [link](https://devblogs.microsoft.com/visualstudio/reference-github-issues-and-pull-requests-in-visual-studio/) to GitHub Issues and Azure DevOps work items, amongst a few. To get all the details, see the [**Git Features to Enhance Productivity**](https://devblogs.microsoft.com/visualstudio/git-tooling-preview-features-to-enhance-productivity/) blog post.
+In Visual Studio 2022 [**version 17.6**](/visualstudio/releases/2022/release-notes-v17.6), you can [search](https://devblogs.microsoft.com/visualstudio/git-tooling-preview-features-to-enhance-productivity/#improved-search-for-related-github-issues-and-azure-devops-work-items) for and [link](https://devblogs.microsoft.com/visualstudio/reference-github-issues-and-pull-requests-in-visual-studio/) to GitHub Issues and Azure DevOps work items. See the [**Git Features to Enhance Productivity**](https://devblogs.microsoft.com/visualstudio/git-tooling-preview-features-to-enhance-productivity/) blog post.
 
 ::: moniker-end
 
@@ -152,9 +146,9 @@ When you clone a repository or open a local repository, Visual Studio switches y
 
 Visual Studio adjusts its View based on which file you load in Solution Explorer:
 
-- If you clone a repository that contains a single .sln file, then Solution Explorer directly loads that solution for you.
-- If Solution Explorer doesn’t detect any .sln files in your repository, then by default it loads Folder View.
-- If your repository has more than one .sln file, then Solution Explorer shows you the list of available Views for you to choose from.
+- If you clone a repository that contains a single `.sln` file, then Solution Explorer directly loads that solution for you.
+- If Solution Explorer doesn’t detect any `.sln` files in your repository, then by default it loads Folder View.
+- If your repository has more than one `.sln` file, then Solution Explorer shows you the list of available Views for you to choose from.
 
 You can toggle between the currently open View and the list of Views by using the **Switch Views** button in the Solution Explorer toolbar.
 
