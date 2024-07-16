@@ -12,32 +12,40 @@ monikerRange: '>= vs-2022'
 
 # Add user marks to the profiling timeline
 
-User Marks enable you to track custom events against Visual Studio's Profiler tools by adding "marks" into your code, which will appear on the swimlane timelines. You can do this to track a single event, or track a range (for instance, a "stop" and "start" event range).
+User Marks enable you to track custom events against Visual Studio's Profiler tools by adding marks into your code, which will appear as visual marks on the timeline graphs. You can do this to track a single event, or track a range. For example, you could track a "stop" and "start" event range.
+
+:::image type="content" source="../profiling/media/vs-2022/profiling-user-marks.png" alt-text="Screenshot showing profiling user marks":::
 
 > [!NOTE]
-> This feature is currently only available in the Performance Profiler and not while debugging in the Diagnostics Hub.
+> This feature requires Visual Studio 2022 version 17.11 Preview 2. The feature is available in the Performance Profiler and not while debugging in the Diagnostics Hub.
 
 ## Installation and setup
 
-### Add as a NuGet Package
+### Add the NuGet Package (.NET)
 
-For .NET, download the package, [Microsoft.VisualStudio.DiagnosticsHub.UserMarks](https://www.nuget.org/packages/Microsoft.VisualStudio.DiagnosticsHub.UserMarks).
+Download the package, [Microsoft.VisualStudio.DiagnosticsHub.UserMarks](https://www.nuget.org/packages/Microsoft.VisualStudio.DiagnosticsHub.UserMarks).
 
-### Add source files
+### Add source files (.NET, C++)
 
-After installing Visual Studio, navigate to `[VS installation path]\Common7\IDE\CommonExtensions\Platform\DiagnosticsHub`.
+After installing Visual Studio, open the following folder: *[VS installation path]\Common7\IDE\CommonExtensions\Platform\DiagnosticsHub*.
 
 For managed C# code, add *UserMarks.cs* and *UserMarksRange.cs* to your project.
 
 For native C++ code, add *UserMarks.h* to your project.
 
-## Add user marks in C#
+## Add user marks (C#)
 
 Add the following preprocessor definition to the project build configuration: `DIAGHUB_ENABLE_TRACE_SYSTEM`.
 
-To add the definition in Visual Studio, right click on the project and then select **Properties > Build > General > add to "Conditional compilation symbols.**
+To add the definition in Visual Studio:
 
-Add the user marks object and emit. Here are some sample code uses:
+1. Right-click the project in Solution Explorer and then select **Properties**.
+
+1. Select **Build > General > Conditional compilation symbols**. 
+
+1. Add `DIAGHUB_ENABLE_TRACE_SYSTEM` as the preprocessor definition.
+
+Add the user marks object and emit. The following code shows an example of adding user marks.
 
 ```csharp
 // Create a user mark
@@ -56,9 +64,9 @@ using (var myRange = new UserMarksRange("MyMethodRange"))
 }
 ```
 
-### Add user marks in C++ 
+## Add user marks (C++)
 
-To use the native user marks API, add *UserMarks.h* to the project and add the following code:
+To use the native user marks API, add *UserMarks.h* to the project and add the following code in your app:
 
 ```cpp
 #define DIAGHUB_ENABLE_TRACE_SYSTEM
@@ -83,18 +91,31 @@ USERMARKRANGE_END();
 DIAGHUB_STOP_TRACE_SYSTEM();
 ```
 
-User Marks in IDE
-In Visual Studio, run a profiling session with any profiler tool enabled:
+## View user marks
 
-Open the Profiler > select a tool > then press the Start button
-Run your code, ensuring that the user mark code you added in the step above executes
-The user marks will show on the ruler above the swim lanes and in a table with details about the timestamps, related process, and any messages you emitted.
-Select "Show user marks" to see details about the user marks.
-You can hover over the marks in the ruler to see the exact user mark it corresponds to.
-Filter the details view by selecting a time range in the swimlane, or right-clicking a row and selecting start and end times to filter the swimlane. You can also set intervals on ranges or by selecting multiple user marks.
+1. With your project open in Visual Studio, open the Performance Profiler (**Alt + F2**), then select a tool and select the **Start** button.
+
+1. Make sure that the user mark code you added to your app runs.
+
+   The user marks show on the ruler above the timeline graph and in a table with details about the timestamps, related process, and any messages you emitted.
+
+1. In the **Summary** pane, select **Show user marks** to see details about the user marks.
+
+   :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-timeline-initial-view.png" alt-text="Screenshot showing timeline":::
+
+   :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-view-user-marks.png" alt-text="Screenshot showing user marks":::
+
+1. To see the user mark details in the timeline, hover over the marks in the ruler.
+
+   :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-hover.png" alt-text="Screenshot showing hovering over a user mark":::
+
+1. To filter the details view, select a time range in the timeline graph, or right-click a row and select start and end times to filter the timeline graph.
+
+   You can also set intervals on ranges or by selecting multiple user marks.
+
+   :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-set-interval.png" alt-text="Screenshot showing setting a user mark interval":::
 
 ## Related content
 
 - [Analyze performance by using CPU profiling](../profiling/cpu-usage.md)
 - [Identify hot paths with Flame Graph](../profiling/flame-graph.md)
-- [Troubleshoot Profiler errors](../profiling/troubleshoot-profiler-errors.md)
