@@ -1,7 +1,7 @@
 ---
 title: "Analyze BenchmarkDotNet data in Visual Studio"
 description: Learn how to profile console apps using BenchmarkDotNet.
-ms.date: 05/08/2024
+ms.date: 07/16/2024
 ms.topic: conceptual
 dev_langs:
   - "CSharp"
@@ -59,6 +59,7 @@ Each diagnoser generates performance data related to that diagnoser. For example
     using System.Security.Cryptography;
     using BenchmarkDotNet.Attributes;
     using BenchmarkDotNet.Running;
+    using Microsoft.VSDiagnostics;
     
     namespace MyBenchmarks
     {
