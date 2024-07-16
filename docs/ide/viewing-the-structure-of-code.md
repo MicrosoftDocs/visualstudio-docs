@@ -1,7 +1,7 @@
 ---
 title: Use tools windows to view code structure
 description: Learn how to use the Class View, Call Hierarchy, Object Browser, and Code Definition tool windows to examine classes and their members in Visual Studio.
-ms.date: 7/16/2024
+ms.date: 09/19/2019
 ms.topic: reference
 f1_keywords:
 - vs.documentoutline.window
@@ -239,6 +239,7 @@ The shortcut (or right-click) menu in the **Code Definition** window may contain
 
 You can use the **Document Outline** window in conjunction with designer views, such as the designer for a XAML page or a Windows Form designer, or with HTML pages. This window displays the elements in a tree view, so that you can view the logical structure of the form or page and find controls that are deeply embedded or hidden.
 
-## Resource View (C++)
+## Related links
 
-Use the Resource View window to display resource files included in your projects. To open the Resource View window, go to menu **View > Other Windows > Resource View** or press **Ctrl+Shift+E**. For more information, see [working with resource files](/cpp/windows/working-with-resource-files)
+- [Working with resource files (C++)](/cpp/windows/working-with-resource-files)
+- [Resources in .NET apps (.NET Framework)](/dotnet/framework/resources/index)
