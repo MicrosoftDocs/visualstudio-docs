@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 # DiaTagValue
 
-Describes an entry in an address map.
+Describes the numeric value of a discriminated union's tag.
 
 ## Syntax
 
@@ -31,7 +31,7 @@ struct DiaTagValue {
 | Element | Description                                                 |
 | ------- | ----------------------------------------------------------- |
 | `value` | The integer value stored in little-endian byte ordering.|
-| `valueSizeBytes` | The size in bytes of `value`. Must be one of 1, 2, 4, 8, or 16.|
+| `valueSizeBytes` | The size in bytes of `value`. Must be one of 1, 2, 4, 8, 16 or 0 if this value is empty.|
 
 ## Remarks
 
@@ -42,13 +42,13 @@ An alternative way to think of a `DiaTagValue` could be something like this:
 ```c++
 struct DiaTagValue {
     union {
-        uint8 data8;
-        uint16 data16;
-        uint32 data32;
-        uint64 data64;
-        uint128 data128;
+        uint8_t data8;
+        uint16_t data16;
+        uint32_t data32;
+        uint64_t data64;
+        uint128_t data128;
     } value;
-    BYTE valueSizeBytes;
+    uint8_t valueSizeBytes;
 };
 ```
 

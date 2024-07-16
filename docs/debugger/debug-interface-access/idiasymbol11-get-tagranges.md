@@ -22,7 +22,7 @@ Retrieves the ranges of tags within a discriminated union symbol instance.
 HRESULT get_tagRanges(
   DWORD count,
   DWORD *pcRangeValues,
-  struct DiaTagValue *rangeValues
+  DiaTagValue *rangeValues
 );
 ```
 
@@ -49,7 +49,7 @@ HRESULT get_tagRanges(
 
 ## Remarks
 
-The first array element (`rangeValues[0]`) represents the lower bound of the range. The next array element represents the upper bound of the range. The array contonies to alternate between lower and upper bounds of each subsequent range.
+The first array element (`rangeValues[0]`) represents the lower bound of the range. The next array element represents the upper bound of the range. The array continues to alternate between lower and upper bounds of each subsequent range.
 
 ## See also
 

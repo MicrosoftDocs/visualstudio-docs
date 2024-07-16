@@ -22,7 +22,7 @@ Retrieves information about the tag of a discriminated union symbol instance.
 HRESULT get_discriminatedUnionTag(
     IDiaSymbol **ppTagType,
     DWORD *pTagOffset,
-    struct DiaTagValue *pTagMask
+    DiaTagValue *pTagMask
 );
 ```
 
@@ -38,7 +38,7 @@ HRESULT get_discriminatedUnionTag(
 
  `pTagMask`
 
-[out] Returns a mask value if the tag does not fill all the bytes of the tag member; otherwise returns a [`DiaTagValue`](../../debugger/debug-interface-access/diatagvalue.md) with the `valueSizeBytes` set to 0.
+[out] Returns a mask value if the tag does not fill all the bytes of the tag member; otherwise returns an empty [`DiaTagValue`](../../debugger/debug-interface-access/diatagvalue.md) with the `valueSizeBytes` set to 0.
 
 ## Return Value
 

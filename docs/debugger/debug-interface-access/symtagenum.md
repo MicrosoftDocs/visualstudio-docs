@@ -113,8 +113,8 @@ enum SymTagEnum {
 | `SymTagExport`           | Indicates that the symbol is an export from a DLL.                                        |
 | `SymTagHeapAllocationSite`| Indicates that the symbol represents a heap allocation site (i.e. call to `operator new`)|
 | `SymTagCoffGroup`        | Indicates that the symbol is a COFF group.                                                |
-| `SymTagInlinee`          | Indicates that the symbol represents the inlinee of an inlinte site (see `SymTagInlineSite`).|
-| `SymTagTaggedUnionCase`  | Indicates that the symbol is a tagged union (e.g. Rust's union type)                      |
+| `SymTagInlinee`          | Indicates that the symbol represents the inlinee of an inline site (see `SymTagInlineSite`).|
+| `SymTagTaggedUnionCase`  | Indicates that the symbol is a tagged union (e.g. Rust's enum type)                      |
 
 ## Remarks
 
