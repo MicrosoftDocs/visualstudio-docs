@@ -21,17 +21,17 @@ User Marks enable you to track custom events against Visual Studio's Profiler to
 
 ## Installation and setup
 
-### Add the NuGet Package (.NET)
+- Add the NuGet Package (.NET)
 
-Download the package, [Microsoft.VisualStudio.DiagnosticsHub.UserMarks](https://www.nuget.org/packages/Microsoft.VisualStudio.DiagnosticsHub.UserMarks).
+  Download the package, [Microsoft.VisualStudio.DiagnosticsHub.UserMarks](https://www.nuget.org/packages/Microsoft.VisualStudio.DiagnosticsHub.UserMarks).
 
-### Add source files (.NET, C++)
+- Add source files (.NET, C++)
 
-After installing Visual Studio, open the following folder: *[VS installation path]\Common7\IDE\CommonExtensions\Platform\DiagnosticsHub*.
+  After installing Visual Studio, open the following folder: *[VS installation path]\Common7\IDE\CommonExtensions\Platform\DiagnosticsHub*.
 
-For managed C# code, add *UserMarks.cs* and *UserMarksRange.cs* to your project.
+  For managed C# code, add *UserMarks.cs* and *UserMarksRange.cs* to your project.
 
-For native C++ code, add *UserMarks.h* to your project.
+  For native C++ code, add *UserMarks.h* to your project.
 
 ## Add user marks (C#)
 
@@ -102,6 +102,8 @@ DIAGHUB_STOP_TRACE_SYSTEM();
 1. In the **Summary** pane, select **Show user marks** to see details about the user marks.
 
    :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-timeline-initial-view.png" alt-text="Screenshot showing timeline":::
+
+   Details appear in the User Marks tab.
 
    :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-view-user-marks.png" alt-text="Screenshot showing user marks":::
 
