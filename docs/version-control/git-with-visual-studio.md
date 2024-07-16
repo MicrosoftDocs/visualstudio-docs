@@ -35,25 +35,23 @@ If you want to use git commands at the command line, you should also install [Gi
 
 When you clone a repository or open a local repository, Visual Studio switches to the Git context. Solution Explorer loads the folder at the root of the Git repository, and scans the directory tree for any viewable files like `CMakeLists.txt` or those with the `.sln` file extension.  For more information, see [View files in Solution Explorer](../get-started/tutorial-open-project-from-repo.md#view-files-in-solution-explorer).
 
-## Intuitive inner-loop workflow
+## Branches and remote repositories
 
-For your day-to-day Git workflow, Visual Studio provides a seamless way to interact with Git while coding without having you switch away from your code.
-
-You can multi-task and experiment with your code through branches. The recommended Git workflow uses a new branch for every feature or fix that you work on. Learn how to [create a branch](git-create-branch.md) from Visual Studio.
+You can use branches to keep related changes separated from unrelated changes you're also working on. The recommended Git workflow uses a new branch for every feature or fix that you work on. Learn how to [create a branch](git-create-branch.md) from Visual Studio.
 
 Once you create a new branch and switch to it, you can start working by changing existing files or by adding new ones and then committing your work to the repository. To learn more about making a commit in Visual Studio and to better understand file states in Git, refer to the [Make a commit](git-make-commit.md) page.
 
-Git is a distributed version control system, meaning that all the changes made so far are local only changes. To contribute these changes to a remote repository, you must [push those local commit(s) to a remote](git-push-remote.md).
+Git is a distributed version control system, meaning that all the changes made so far are local-only changes. To contribute these changes to a remote repository, you must [push those local commit(s) to a remote](git-push-remote.md).
 
-If you are working in a team or if you are using different machines, you will also need to continually fetch and pull new changes on the remote repository. To learn more about managing Git network operations in Visual Studio, refer to the [Fetch, pull, push, and sync](git-fetch-pull-sync.md) page.
+If you are working in a team, or if you are using different machines, you might often need to fetch and pull new changes on the remote repository. To learn more about managing Git network operations in Visual Studio, refer to the [Fetch, pull, push, and sync](git-fetch-pull-sync.md) page.
 
 :::image type="content" source="media/git-source-control-inner-loop.png" alt-text="The Visual Studio IDE with the Git menu and the Git Changes tab in Solution Explorer showing.":::
 
-## Repository management & collaboration
+## Repository management and collaboration
 
 However, there are times when it makes more sense to focus on your Git repository. For example, you might need to get a good picture of what your team has been working on, or copy a commit from a different branch, or just clean-up your outgoing commits. Visual Studio includes powerful [repository browsing](git-browse-repository.md) and collaboration features that eliminate the need to use other tools.
 
-To help you focus on your Git repository, Visual Studio has a **Git Repository** window, which is a consolidated view of all the details in your repository, including local and remote branches and commit history. You can access this window directly from either **Git** or **View** on the menu bar or from the status bar.
+To help you focus on your Git repository, Visual Studio has a **Git Repository** window, which is a consolidated view of all the details in your repository, including local and remote branches and commit history. You can access this window directly from either **Git** or **View** on the menu bar, or from the status bar.
 
 :::image type="content" source="media/git-source-control-repository-management.png" alt-text="The Visual Studio IDE that highlights the Git menu and the Git Changes tab in Solution Explorer.":::
 
