@@ -15,6 +15,7 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: ai-tools
+ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
 ---
 
