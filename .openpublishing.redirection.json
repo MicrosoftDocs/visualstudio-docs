@@ -1,6 +1,906 @@
 {
   "redirections": [
     {
+      "source_path": "docs/code-quality/all-rules-rule-set.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/all-rules-rule-set",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/basic-correctness-rules-rule-set-for-managed-code.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/basic-correctness-rules-rule-set-for-managed-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/basic-design-guideline-rules-rule-set-for-managed-code.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/basic-design-guideline-rules-rule-set-for-managed-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0001.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0001",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0051.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0051",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0052.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0052",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0053.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0053",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0054.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0054",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0055.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0055",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0056.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0056",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0057.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0057",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0058.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0058",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0059.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0059",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0060.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0060",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0061.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0061",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0062.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0062",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0063.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0063",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0064.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0064",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0065.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0065",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0066.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0066",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0067.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0067",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0068.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0068",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0069.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0069",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0070.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0070",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0501.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0501",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0502.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0502",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0503.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0503",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0504.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0504",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca0505.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca0505",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1004.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1004",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1006.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1006",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1007.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1007",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1009.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1009",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1011.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1011",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1013.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1013",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1020.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1020",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1023.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1023",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1025.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1025",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1026.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1026",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1035.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1035",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1038.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1038",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1039.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1039",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1048.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1048",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1049.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1049",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1057.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1057",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1059.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1059",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1300.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1300",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1301.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1301",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1302.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1302",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1306.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1306",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1400.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1400",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1402.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1402",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1403.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1403",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1404.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1404",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1405.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1405",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1406.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1406",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1407.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1407",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1408.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1408",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1409.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1409",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1410.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1410",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1411.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1411",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1412.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1412",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1413.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1413",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1414.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1414",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1415.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1415",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1500.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1500",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1504.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1504",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1600.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1600",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1601.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1601",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1701.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1701",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1702.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1702",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1703.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1703",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1704.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1704",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1709.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1709",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1719.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1719",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1722.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1722",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1726.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1726",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1800.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1800",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1804.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1804",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1809.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1809",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1811.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1811",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1900.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1900",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1901.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1901",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca1903.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1903",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2001.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2001",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2003.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2003",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2004.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2004",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2006.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2006",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2102.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2102",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2103.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2103",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2104.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2104",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2105.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2105",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2106.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2106",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2107.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2107",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2108.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2108",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2111.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2111",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2112.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2112",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2114.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2114",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2115.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2115",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2116.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2116",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2117.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2117",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2118.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2118",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2120.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2120",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2121.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2121",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2122.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2122",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2123.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2123",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2124.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2124",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2126.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2126",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2130.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2130",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2131.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2131",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2132.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2132",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2133.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2133",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2134.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2134",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2135.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2135",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2136.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2136",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2137.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2137",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2138.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2138",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2139.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2139",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2140.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2140",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2141.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2141",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2142.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2142",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2143.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2143",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2144.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2144",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2145.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2145",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2146.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2146",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2147.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2147",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2149.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2149",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2151.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2151",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2202.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2202",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2204.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2204",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2205.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2205",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2210.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2210",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2212.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2212",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2218.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2218",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2220.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2220",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2221.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2221",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2222.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2222",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2223.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2223",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2224.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2224",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2228.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2228",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2230.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2230",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2232.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2232",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2233.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2233",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2236.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2236",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2238.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2238",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2239.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2239",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca2240.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2240",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/ca5122.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca5122",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/code-analysis-application-errors.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/code-analysis-application-errors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/code-analysis-for-managed-code-overview.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/code-analysis-for-managed-code-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/code-analysis-policy-errors.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/code-analysis-policy-errors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/extended-correctness-rules-rule-set-for-managed-code.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/extended-correctness-rules-rule-set-for-managed-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/extended-design-guidelines-rules-rule-set-for-managed-code.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/extended-design-guidelines-rules-rule-set-for-managed-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/fxcop-rule-port-status.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/fxcop-rule-port-status",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/fxcop-unported-deprecated-rules.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/fxcop-unported-deprecated-rules",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/fxcop-unported-rules-may-get-ported.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/fxcop-unported-rules-may-get-ported",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/fxcop-unported-rules.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/fxcop-unported-rules",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/fxcopcmd-errors.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/fxcopcmd-errors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/globalization-rules-rule-set-for-managed-code.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/globalization-rules-rule-set-for-managed-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/how-to-configure-code-analysis-for-a-managed-code-project.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-configure-code-analysis-for-a-managed-code-project",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/how-to-create-a-custom-rule-set.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-create-a-custom-rule-set",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/how-to-customize-the-code-analysis-dictionary.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-customize-the-code-analysis-dictionary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/how-to-enforce-maintainable-code-with-a-code-analysis-check-in-policy.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-enforce-maintainable-code-with-a-code-analysis-check-in-policy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/how-to-run-legacy-code-analysis-manually-for-managed-code.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-run-legacy-code-analysis-manually-for-managed-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/how-to-suppress-code-analysis-warnings-for-generated-code.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-suppress-code-analysis-warnings-for-generated-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/how-to-synchronize-code-project-rule-sets-with-team-project-check-in-policy.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-synchronize-code-project-rule-sets-with-team-project-check-in-policy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/implementing-custom-code-analysis-check-in-policies-for-managed-code.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/implementing-custom-code-analysis-check-in-policies-for-managed-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/managed-minimum-rules-rule-set-for-managed-code.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/managed-minimum-rules-rule-set-for-managed-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/managed-recommended-rules-rule-set-for-managed-code.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/managed-recommended-rules-rule-set-for-managed-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/mixed-minimum-rules-rule-set.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/mixed-minimum-rules-rule-set",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/mixed-recommended-rules-rule-set.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/mixed-recommended-rules-rule-set",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/native-minimum-rules-rule-set.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/native-minimum-rules-rule-set",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/native-recommended-rules-rule-set.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/native-recommended-rules-rule-set",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/rule-set-reference.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/rule-set-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/security-rules-rule-set-for-managed-code.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/security-rules-rule-set-for-managed-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/using-rule-sets-to-group-code-analysis-rules.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/using-rule-sets-to-group-code-analysis-rules",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/walkthrough-analyzing-managed-code-for-code-defects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/walkthrough-analyzing-managed-code-for-code-defects",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/working-in-the-code-analysis-rule-set-editor.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/working-in-the-code-analysis-rule-set-editor",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/help-viewer/logical-operators-search-expressions.md",
       "redirect_url": "/visualstudio/help-viewer/find-topics",
       "redirect_document_id": "false"
