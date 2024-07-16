@@ -9,6 +9,7 @@ f1_keywords:
 helpviewer_keywords:
 - Resource Designer
 - Resource Editor
+- Resource View
 - resources [Visual Studio]
 - Resources page in Project Designer
 - application resources [Visual Studio]
@@ -53,4 +54,5 @@ If you run into a problem with managing application resources, see [Troubleshoot
 
 - [Resources in .NET apps (.NET Framework)](/dotnet/framework/resources/index)
 - [Resource Editor](/cpp/windows/resource-editors)
-- [Managing app resources (Visual Studio for Mac)](/visualstudio/mac/managing-app-resources)
+- [Work with resource files (C++)](/cpp/windows/working-with-resource-files)
+- [Resources in Universal Windows Platform apps](/windows/uwp/app-resources/)

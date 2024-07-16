@@ -243,3 +243,4 @@ You can use the **Document Outline** window in conjunction with designer views, 
 
 - [Working with resource files (C++)](/cpp/windows/working-with-resource-files)
 - [Resources in .NET apps (.NET Framework)](/dotnet/framework/resources/index)
+- [Manage application resources](managing-application-resources-dotnet.md)
