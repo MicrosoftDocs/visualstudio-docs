@@ -217,7 +217,7 @@ foreach (IProjectSnapshot project in projects)
 
 The project model in Visual Studio includes collections for projects and their child collections, which can encompass files or project capabilities among others. To access a specific child collection, the `Get` clause is utilized. This clause, similar to other types of queries, allows for the incorporation of additional clauses like the `With` clause, which helps in refining or constraining the query results.
 
-In the following query, the `Get` method retrieves the Files child collection from a project identified by its specific Guid.
+In the following query, the `Get` method retrieves the child collection, `Files`, from a project identified by its specific Guid.
 
 ```csharp
 IQueryResults<IFileSnapshot> files = await workspace.QueryProjectsAsync(
