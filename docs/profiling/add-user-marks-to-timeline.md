@@ -1,7 +1,7 @@
 ---
 title: Add user marks to the profiling timeline
 description: Learn how to include your own user marks in the profiling timeline to track custom events
-ms.date: 07/16/2024
+ms.date: 07/18/2024
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -10,9 +10,9 @@ ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
 ---
 
-# Add user marks to the profiling timeline
+# Add user marks to the profiling timeline (C#, C++)
 
-User Marks enable you to track custom events against Visual Studio's Profiler tools by adding marks into your code, which will appear as visual marks on the timeline graphs. You can do this to track a single event, or track a range. For example, you could track a "stop" and "start" event range.
+User Marks enable you to track custom events against Visual Studio's profiling tools by adding user mark functions into your code. The user marks appear as visual marks on the timeline graphs. You can do this to track a single event, or track a range. For example, you could track a "stop" and "start" event range.
 
 :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks.png" alt-text="Screenshot showing profiling user marks":::
 
@@ -102,6 +102,8 @@ DIAGHUB_STOP_TRACE_SYSTEM();
 1. Make sure that the user mark code you added to your app runs.
 
    The user marks show on the ruler above the timeline graph and in a table with details about the timestamps, related process, and any messages you emitted.
+
+   In the timeline, the user mark appears as an inverted triangle.
 
 1. In the **Summary** pane, select **Show user marks** to see details about the user marks.
 
