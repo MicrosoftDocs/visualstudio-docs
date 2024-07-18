@@ -741,10 +741,10 @@
     href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
 - name: Debug >>
   href: debugger/index.yml
-- name: Track changes with Git
+- name: Git in Visual Studio
   displayName: git, github, azure dev ops, dev ops, version control, source control, source, versioning, clone, integrate, release
   items:
-  - name: Git in Visual Studio
+  - name: About Git in Visual Studio
     href: version-control/git-with-visual-studio.md
   - name: Get started
     expanded: true

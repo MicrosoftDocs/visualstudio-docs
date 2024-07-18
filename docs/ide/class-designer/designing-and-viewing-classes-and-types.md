@@ -25,7 +25,7 @@ ms.subservice: general-ide
 With the **Class Designer** tool in Visual Studio, you can design, visualize, and refactor class diagrams in C#, Visual Basic, or C++ projects. Class diagrams show the code elements and their relationships in a visual design surface, which can help you better understand your project structure and reorganize your code.
 
 > [!NOTE]
-> Class Designer is not available in .NET Core projects.
+> Class Designer is not available in .NET Core and .NET 5 and later projects.
 
 ## About class diagrams
 
@@ -99,7 +99,7 @@ If you haven't installed the **Class Designer** component, follow these steps to
 1. Expand **General**, and then select **Class Diagram** from the template list. For Visual C++ projects, look in the **Utility** category to find the **Class Diagram** template.
 
    > [!NOTE]
-   > If you don't see the **Class Diagram** template, [follow the steps](#install-the-class-designer-component) to install the **Class Designer** component for Visual Studio.
+   > If you don't see the **Class Diagram** template, [follow the steps](#install-the-class-designer-component) to install the **Class Designer** component for Visual Studio. As stated earlier in this article, Class Designer is not available for .NET Core and .NET 5 and later.
 
    The class diagram opens in Class Designer and appears as a file that has a *.cd* extension in **Solution Explorer**. You can drag shapes and lines to the diagram from **Toolbox**.
 
