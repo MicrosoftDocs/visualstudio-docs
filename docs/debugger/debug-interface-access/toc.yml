@@ -462,6 +462,22 @@
           href: idiainjectedsource-get-sourcecompression.md
         - name: IDiaInjectedSource::get_virtualFilename
           href: idiainjectedsource-get-virtualfilename.md
+      - name: IDiaInputAssemblyFile
+        items:
+        - name: IDiaInputAssemblyFile
+          href: idiainputassemblyfile.md
+        - name: IDiaInputAssemblyFile::get_fileName
+          href: idiainputassemblyfile-get-filename.md
+        - name: IDiaInputAssemblyFile::get_index
+          href: idiainputassemblyfile-get-index.md
+        - name: IDiaInputAssemblyFile::get_pdbAvailableAtILMerge
+          href: idiainputassemblyfile-get-pdbavailableatilmerge.md
+        - name: IDiaInputAssemblyFile::get_timestamp
+          href: idiainputassemblyfile-get-timestamp.md
+        - name: IDiaInputAssemblyFile::get_uniqueId
+          href: idiainputassemblyfile-get-uniqueid.md
+        - name: IDiaInputAssemblyFile::get_version
+          href: idiainputassemblyfile-get-version.md
       - name: IDiaLineNumber
         items:
         - name: IDiaLineNumber

@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaEnumInputAssemblyFiles interface"
 author: "grantri"
 ms.author: "grantri"
-manager: mijacobs
+manager: twhitney
 ms.subservice: debug-diagnostics
 ---
 
@@ -43,7 +43,7 @@ This interface is obtained by calling the [IDiaSession::findInputAssemblyFiles](
 
 ## Example
 
-This example shows how to obtain (the `GetEnumInputAssemblyFiles` function) and use (the `DumpAllInputAssemblyFiles` function) the `IDiaEnumInputAssemblyFiles` interface. See the [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md) interface for an implementation of the `PrintPropertyStorage` function. For an alternative output, see the [IDiaInputAssemblyFile](../../debugger/debug-interface-access/idiainputassemblyfile.md) interface.
+This example shows how to obtain (the `GetEnumInputAssemblyFiles` function) and use (the `DumpAllInputAssemblyFiles` function) the `IDiaEnumInputAssemblyFiles` interface. See the [`IDiaPropertyStorage`](../../debugger/debug-interface-access/idiapropertystorage.md) interface for an implementation of the `PrintPropertyStorage` function. For an alternative output, see the [`IDiaInputAssemblyFile`](../../debugger/debug-interface-access/idiainputassemblyfile.md) interface.
 
 ```c++
 
@@ -78,7 +78,7 @@ void DumpAllInputAssemblyFiles( IDiaSession* pSession)
 {
     IDiaEnumInputAssemblyFiles* pEnumInpAsmFiles;
 
-    pEnumInpAsmFiles = GetEnumInjectedSources(pSession);
+    pEnumInpAsmFiles = GetEnumInputAssemblyInputFiles(pSession);
     if (pEnumInpAsmFiles != NULL)
     {
         IDiaInputAssemblyFile* pInpAsmFile;
@@ -107,12 +107,13 @@ Header: Dia2.h
 
 Library: diaguids.lib
 
-DLL: msdia80.dll
+DLL: msdia140.dll
 
 ## See also
 
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
-- [IDiaSession::findInputAssemblyFiles](../../debugger/debug-interface-access/idiasession-findinputassemblyfiles.md)
-- [IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md)
-- [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)
-- [IDiaInputAssemblyFile](../../debugger/debug-interface-access/idiainputassemblyfile.md)
+- [Compile apps with .NET Native](/windows/uwp/dotnet-native/)
+- [`IDiaSession::findInputAssemblyFiles`](../../debugger/debug-interface-access/idiasession-findinputassemblyfiles.md)
+- [`IDiaSession::getEnumTables`](../../debugger/debug-interface-access/idiasession-getenumtables.md)
+- [`IDiaPropertyStorage`](../../debugger/debug-interface-access/idiapropertystorage.md)
+- [`IDiaInputAssemblyFile`](../../debugger/debug-interface-access/idiainputassemblyfile.md)
