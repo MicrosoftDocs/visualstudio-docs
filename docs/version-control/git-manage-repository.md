@@ -21,7 +21,7 @@ To open the **Git Repository** window, choose **View** > **Git repository** (or 
 
 ## Explain a commit with GitHub Copilot Chat
 
-With Visual Studio 2022 version 17.10 preview 2 and later and the GitHub Copilot extensions, you can use AI to generate a detailed commit description that describes your repository's changes. Press the Explain option to request that GitHub Copilot create a commit explanation. To install GitHub Copilot, see [Install and manage GitHub Copilot in Visual Studio](../ide/visual-studio-github-copilot-install-and-states.md).
+With Visual Studio 2022 version 17.10 preview 2 and later and the GitHub Copilot extensions, you can use AI to generate a detailed commit description that describes the changes in that commit. Press the **Explain** button to request that GitHub Copilot create a commit description. To install GitHub Copilot, see [Install and manage GitHub Copilot in Visual Studio](../ide/visual-studio-github-copilot-install-and-states.md).
 
 :::image type="content" source="media/vs-2022/repository-commit-copilot.png" alt-text="Screenshot of the explain button to request that GitHub Copilot create a commit explanation.":::
 
