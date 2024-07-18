@@ -17,19 +17,21 @@ User Marks enable you to track custom events against Visual Studio's Profiler to
 :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks.png" alt-text="Screenshot showing profiling user marks":::
 
 > [!NOTE]
-> This feature requires Visual Studio 2022 version 17.11 Preview 2. The feature is available in the Performance Profiler and not while debugging in the Diagnostics Hub.
+> This feature requires Visual Studio 2022 version 17.11 Preview 3. The feature is available in the Performance Profiler and not while debugging in the Diagnostics Hub.
 
 ## Installation and setup
 
-- Add the NuGet Package (.NET)
+You can install support for the feature using either the NuGet package or by adding the correct source files.
+
+- Install using the NuGet Package (C#)
 
   Download the package, [Microsoft.VisualStudio.DiagnosticsHub.UserMarks](https://www.nuget.org/packages/Microsoft.VisualStudio.DiagnosticsHub.UserMarks).
 
-- Add source files (.NET, C++)
+- Install by adding source files (C#, C++)
 
   After installing Visual Studio, open the following folder: *[VS installation path]\Common7\IDE\CommonExtensions\Platform\DiagnosticsHub*.
 
-  For managed C# code, add *UserMarks.cs* and *UserMarksRange.cs* to your project.
+  For C# code, add *UserMarks.cs* and *UserMarksRange.cs* to your project.
 
   For native C++ code, add *UserMarks.h* to your project.
 
@@ -48,19 +50,21 @@ To add the definition in Visual Studio:
 Add the user marks object and emit. The following code shows an example of adding user marks.
 
 ```csharp
+using Microsoft.DiagnosticsHub;
+
 // Create a user mark
-var myUserMark = new UserMark("MyMark");
+var myUserMark = new UserMarks("MyMark");
 
 // Emit the usermark
-myUserMark.EmitMessage("Event happened!");
+myUserMark.Emit("Event happened!");
 
 // Emit statically
-UserMark.Emit("Emitting just a message");
+UserMarks.EmitMessage("Emitting just a message");
 
 // Emitting a range
-using (var myRange = new UserMarksRange("MyMethodRange"))
+using (var myRange = new UserMarkRange("MyMethodRange"))
 {
-    // Your code here
+   // Your code here
 }
 ```
 
