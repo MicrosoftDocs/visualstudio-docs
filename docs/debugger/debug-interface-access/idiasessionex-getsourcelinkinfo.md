@@ -29,7 +29,7 @@ HRESULT getSourceLinkInfo(
 
  `parent`
 
- [in] If not `nullptr`, specified the `SymTagCompiland` symbol to query for source link information. Otherwise this method enumerates all source link information.
+ [in] If not `nullptr`, specifies the `SymTagCompiland` symbol to query for source link information. Otherwise this method enumerates all source link information.
 
  `ppEnum`
 

@@ -320,6 +320,30 @@
           href: idiaenumsourcefiles-reset.md
         - name: IDiaEnumSourceFiles::Skip
           href: idiaenumsourcefiles-skip.md
+      - name: IDiaEnumSourceLink
+        items:
+        - name: IDiaEnumSourceLink
+          href: idiaenumsourcelink.md
+        - name: IDiaEnumSourceLink::Count
+          href: idiaenumsourcelink-count.md
+        - name: IDiaEnumSourceLink::SizeOfNext
+          href: idiaenumsourcelink-sizeofnext.md
+        - name: IDiaEnumSourceLink::Next
+          href: idiaenumsourcelink-next.md
+        - name: IDiaEnumSourceLink::Skip
+          href: idiaenumsourcelink-skip.md
+        - name: IDiaEnumSourceLink::Reset
+          href: idiaenumsourcelink-reset.md
+        - name: IDiaEnumSourceLink::Clone
+          href: idiaenumsourcelink-clone.md
+      - name: IDiaEnumSourceLink2
+        items:
+        - name: IDiaEnumSourceLink2
+          href: idiaenumsourcelink2.md
+        - name: IDiaEnumSourceLink2::SizeOfNext2
+          href: idiaenumsourcelink2-sizeofnext2.md
+        - name: IDiaEnumSourceLink2::Next2
+          href: idiaenumsourcelink2-next2.md
       - name: IDiaEnumStackFrames
         items:
         - name: IDiaEnumStackFrames
