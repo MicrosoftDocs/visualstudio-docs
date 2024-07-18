@@ -18,7 +18,7 @@ In this article, you'll learn how to publish your first ASP.NET web app to vario
 This article supports ASP.NET and ASP.NET Core.
 
 > [!NOTE]
-> This article covers manual deployment, which is great for quickly getting something up and running, but for larger projects and production scenarios, you'll want to set up a deployment pipeline. You can use [GitHub Actions](../azure/azure-deployment-using-github-actions.md) or [Azure DevOps Pipelines](/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops) to set up automatic deployments with continuous integration for such scenarios.
+> This article covers manual deployment, which is great for quickly getting something up and running, but for larger projects and production scenarios, you might want to set up a deployment pipeline. You can use [GitHub Actions](../azure/azure-deployment-using-github-actions.md) or [Azure DevOps Pipelines](/azure/devops/pipelines/get-started/what-is-azure-pipelines) to set up automatic deployments with continuous integration for such scenarios.
 
 ## Prerequisites
 
