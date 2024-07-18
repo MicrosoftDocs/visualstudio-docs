@@ -75,7 +75,7 @@ msbuild MyProject.proj -t:go -fl -flp:logfile=MyProjectOutput.log;verbosity=diag
 msbuild MyProject.proj -t:go -fl1 -fl2 -fl3 -flp2:logfile=JustErrors.log;errorsonly -flp3:logfile=JustWarnings.log;warningsonly
 ```
 
-If you're using a shell that interprets semicolons, try putting single or double quotes around each of the options. For more information, see [Command-line reference](../msbuild/msbuild-command-line-reference.md).
+If you're using a shell that interprets semicolons (for example, bash), put single or double quotes around any option that has semicolons to prevent it from being interpreted as a command separator. For more information, see [Command-line reference](../msbuild/msbuild-command-line-reference.md).
 
 ## Save a binary log
 
