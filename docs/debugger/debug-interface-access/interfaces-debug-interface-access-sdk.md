@@ -1,7 +1,7 @@
 ---
 description: "Methods are listed alphabetically under each interface in the table of contents and on the interface page in Vtable order."
 title: "Interfaces (Debug Interface Access SDK)"
-ms.date: "07/05/2024"
+ms.date: "07/18/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -29,7 +29,7 @@ Initiates access to a source of debugging symbols.
 
 [`IDiaDataSourceEx`](../../debugger/debug-interface-access/idiadatasourceex.md)
 
-Initiates access to a source of debugging symbols. Supersedes [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
+Initiates access to a source of debugging symbols. Supersedes [`IDiaDataSource`](../../debugger/debug-interface-access/idiadatasource.md)
 
 [`IDiaEnumDebugStreamData`](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md)
 
@@ -47,6 +47,10 @@ Enumerates the various frame data elements contained in the data source.
 
 Enumerate the various injected sources contained in the data source.
 
+[`IDiaEnumInputAssemblyFiles`](../../debugger/debug-interface-access/idiaenuminputassemblyfiles.md)
+
+Enumerate the input assembly files listed in the data source.
+
 [`IDiaEnumLineNumbers`](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
 
 Enumerates the various line numbers contained in the data source.
@@ -63,6 +67,14 @@ Enumerates the various segments contained in the data source.
 
 Enumerates the various source files contained in the data source.
 
+[`IDiaEnumSourceLink`](../../debugger/debug-interface-access/idiaenumsourcelink.md)
+
+Enumerates the various source link blobs contained in the data source.
+
+[`IDiaEnumSourceLink2`](../../debugger/debug-interface-access/idiaenumsourcelink2.md)
+
+Enumerates the various source link blobs contained in the data source. Supersedes [`IDiaEnumSourceLink2`](../../debugger/debug-interface-access/idiaenumsourcelink2.md) to add support for 64-bit sizes.
+
 [`IDiaEnumStackFrames`](../../debugger/debug-interface-access/idiaenumstackframes.md)
 
 Enumerates the various stack frames available.
@@ -74,6 +86,10 @@ Enumerates the various symbols contained in the data source.
 [`IDiaEnumSymbolsByAddr`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr.md)
 
 Enumerates by address the various symbols contained in the data source.
+
+[`IDiaEnumSymbolsByAddr2`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr2.md)
+
+Enumerates by address the various symbols contained in the data source. Supersedes [`IDiaEnumSymbolsByAddr`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr.md)
 
 [`IDiaEnumTables`](../../debugger/debug-interface-access/idiaenumtables.md)
 
@@ -90,6 +106,10 @@ Exposes the details of the base location and memory offsets of the module or ima
 [`IDiaInjectedSource`](../../debugger/debug-interface-access/idiainjectedsource.md)
 
 Accesses the program source code stored in the DIA data source.
+
+[`IDiaInputAssemblyFile`](../../debugger/debug-interface-access/idiainputassemblyfile.md)
+
+Accesses information that describes an input or source assembly file for a .Net Native binary.
 
 [`IDiaLineNumber`](../../debugger/debug-interface-access/idialinenumber.md)
 
@@ -151,9 +171,53 @@ Maintains stack context between invocations of the [`IDiaFrameData::execute`](..
 
 Facilitates walking the stack using the program debug database (PDB) file.
 
+[`IDiaStackWalkHelper2`](../../debugger/debug-interface-access/idiastackwalkhelper2.md)
+
+Facilitates walking the stack using the program debug database (PDB) file. Supersedes [`IDiaStackWalkHelper`](../../debugger/debug-interface-access/idiastackwalkhelper.md)
+
 [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md)
 
 Describes the properties of a symbol instance.
+
+[`IDiaSymbol2`](../../debugger/debug-interface-access/idiasymbol2.md)
+
+Describes additional properties of a symbol instance. Supersedes [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md)
+
+[`IDiaSymbol3`](../../debugger/debug-interface-access/idiasymbol3.md)
+
+Describes additional properties of a symbol instance. Supersedes [`IDiaSymbol2`](../../debugger/debug-interface-access/idiasymbol2.md)
+
+[`IDiaSymbol4`](../../debugger/debug-interface-access/idiasymbol4.md)
+
+Describes additional properties of a symbol instance. Supersedes [`IDiaSymbol3`](../../debugger/debug-interface-access/idiasymbol3.md)
+
+[`IDiaSymbol5`](../../debugger/debug-interface-access/idiasymbol5.md)
+
+Describes additional properties of a symbol instance. Supersedes [`IDiaSymbol4`](../../debugger/debug-interface-access/idiasymbol4.md)
+
+[`IDiaSymbol6`](../../debugger/debug-interface-access/idiasymbol6.md)
+
+Describes additional properties of a symbol instance. Supersedes [`IDiaSymbol5`](../../debugger/debug-interface-access/idiasymbol5.md)
+
+[`IDiaSymbol7`](../../debugger/debug-interface-access/idiasymbol7.md)
+
+Describes additional properties of a symbol instance. Supersedes [`IDiaSymbol6`](../../debugger/debug-interface-access/idiasymbol6.md)
+
+[`IDiaSymbol8`](../../debugger/debug-interface-access/idiasymbol8.md)
+
+Describes additional properties of a symbol instance primarily related to coroutines. Supersedes [`IDiaSymbol7`](../../debugger/debug-interface-access/idiasymbol7.md)
+
+[`IDiaSymbol9`](../../debugger/debug-interface-access/idiasymbol9.md)
+
+Describes additional properties of a symbol instance. Supersedes [`IDiaSymbol8`](../../debugger/debug-interface-access/idiasymbol8.md)
+
+[`IDiaSymbol10`](../../debugger/debug-interface-access/idiasymbol10.md)
+
+Describes additional properties of a symbol instance. Supersedes [`IDiaSymbol9`](../../debugger/debug-interface-access/idiasymbol9.md)
+
+[`IDiaSymbol11`](../../debugger/debug-interface-access/idiasymbol11.md)
+
+Describes additional properties of a symbol instance. Supersedes [`IDiaSymbol10`](../../debugger/debug-interface-access/idiasymbol10.md)
 
 [`IDiaTable`](../../debugger/debug-interface-access/idiatable.md)
 

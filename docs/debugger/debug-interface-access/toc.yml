@@ -892,6 +892,12 @@
           href: idiastackwalkhelper-searchforreturnaddressstart.md
         - name: IDiaStackWalkHelper::symbolForVA
           href: idiastackwalkhelper-symbolforva.md
+      - name: IDiaStackWalkHelper2
+        items:
+        - name: IDiaStackWalkHelper2
+          href: idiastackwalkhelper2.md
+        - name: IDiaStackWalkHelper2::GetPointerAuthenticationMask
+          href: idiastackwalkhelper2-getpointerauthenticationmask.md
       - name: IDiaSymbol
         items:
         - name: IDiaSymbol

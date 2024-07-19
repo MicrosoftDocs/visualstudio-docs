@@ -1,7 +1,7 @@
 ---
 description: "Retrieves a built-in kind of the HLSL type."
 title: "IDiaSymbol::get_builtInKind"
-ms.date: "11/04/2016"
+ms.date: "0718/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -10,7 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
-# IDiaSymbol::get_builtInKind
+# `IDiaSymbol::get_builtInKind`
 
 Retrieves a built-in kind of the HLSL type.
 
@@ -22,12 +22,16 @@ HRESULT get_buildInKind(
 ```
 
 #### Parameters
+
  `pRetVal`
 
 [out] A pointer to a `DWORD` that holds a built-in kind of the HLSL type.
 
 ## Return Value
+
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 ## See also
-- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+
+- [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md)
+- [`CV_builtin_e`](../../debugger/debug-interface-access/cv-builtin-e.md)

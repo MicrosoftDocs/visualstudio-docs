@@ -1,7 +1,7 @@
 ---
 description: "Retrieves the register type."
 title: "IDiaSymbol::get_registerType"
-ms.date: "11/04/2016"
+ms.date: "07/18/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -10,7 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
-# IDiaSymbol::get_registerType
+# `IDiaSymbol::get_registerType`
 
 Retrieves the register type.
 
@@ -22,12 +22,15 @@ HRESULT get_registerType(
 ```
 
 #### Parameters
+
  `pRetVal`
 
-[out] A pointer to a `DWORD` that holds the register type.
+[out] A pointer to a `DWORD` that holds the register type, a value from [`CV_HLSLREG_e`](../../debugger/debug-interface-access/cv-hlslreg-e.md).
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 ## See also
-- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+
+- [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md)
+- [`CV_HLSLREG_e` Enumeration](../../debugger/debug-interface-access/cv-hlslreg-e.md)

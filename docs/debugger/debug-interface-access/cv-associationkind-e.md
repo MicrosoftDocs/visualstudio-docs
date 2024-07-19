@@ -13,7 +13,7 @@ manager: twhitney
 ms.subservice: debug-diagnostics
 ---
 
-# CV_AssociationKind_e
+# `CV_AssociationKind_e`
 
 Specifies the kind of association between two symbols.
 
@@ -36,7 +36,7 @@ typedef enum CV_AssociationKind_e
 
 ## Remarks
 
-Use the [IDiaSymbol8::get_associatedSymbolKind](../../debugger/debug-interface-access/idiasymbol8-get-associatedSymbolkind.md) method to retrieve the kind of associated between two symbols.
+Use the [`IDiaSymbol8::get_associatedSymbolKind`](../../debugger/debug-interface-access/idiasymbol8-get-associatedSymbolkind.md) method to retrieve the kind of associated between two symbols.
 
 ## Requirements
 
@@ -45,4 +45,4 @@ Header: cvconst.h
 ## See also
 
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
-- [IDiaSymbol8::get_associatedSymbolKind](../../debugger/debug-interface-access/idiasymbol8-get-associatedSymbolkind.md)
+- [`IDiaSymbol8::get_associatedSymbolKind`](../../debugger/debug-interface-access/idiasymbol8-get-associatedSymbolkind.md)
