@@ -20,10 +20,10 @@ When collaborating with external guest users, it's a good idea to protect your a
 
 Once enabled, guest users will need more than just a username and password to access your resources, and must satisfy additional security requirements. MFA policies can be enforced at the tenant, app, or individual guest user level, the same way that they are enabled for members of your own organization. 
 
-## How is the Visual Studio experience affected by MFA policies?
-Versions of Visual Studio prior to 16.6 may have degraded authentication experiences when used with accounts that have enabled CA policies such as MFA, and are associated with two or more tenants.
-
-These issues can cause your instance of Visual Studio to prompt reauthentication multiple times per day. You may have to re-enter your credentials for previously authenticated tenants, even during the course of the same Visual Studio session.
+> [!NOTE]
+> Versions of Visual Studio prior to 16.6 may have degraded authentication experiences when used with accounts that have enabled CA policies such as MFA, and are associated with two or more tenants.
+>
+> These issues can cause your instance of Visual Studio to prompt reauthentication multiple times per day. You may have to re-enter your credentials for previously authenticated tenants, even during the course of the same Visual Studio session.
 
 ## Using Visual Studio with MFA policies
 
@@ -35,7 +35,15 @@ You can access resources secured via CA policies such as MFA in Visual Studio. T
 
 ::: moniker range="=vs-2022"
 
-You can access resources secured via CA policies such as MFA in Visual Studio. To use this enhanced workflow, you'll need to opt into using your system's default web browser or the Windows authentication broker as the mechanism to add and reauthenticate Visual Studio accounts. 
+You can access resources secured via CA policies such as MFA in Visual Studio.
+
+With [Visual Studio 2022 version 17.11](/visualstudio/releases/2022/release-notes), Windows authentication broker is now the default workflow for adding and reauthenticating accounts in Visual Studio. 
+
+Windows authentication broker uses [Web Account Manager (WAM)](/entra/msal/dotnet/acquiring-tokens/desktop-mobile/wam) and offers many benefits such as security, improved MFA support, and seamless integration between accounts added to the OS and Visual Studio.
+
+:::image type="content" source="media/vs-2022/windows-authentication-broker.png" alt-text="Select web authentication broker from the dropdown.":::
+
+If run into any [issues with using WAM](#web-account-manager-wam-errors), we recommend you use the System web browser as the alternative to add and reauthenticate Visual Studio accounts.
 
 ::: moniker-end
 
@@ -46,17 +54,9 @@ You can access resources secured via CA policies such as MFA in Visual Studio. T
 
 ### Using Windows authentication broker
 
->[!NOTE]
->Web Account Manager (WAM) is only available on Windows 10 and above, as well as Windows Server 2019 and above.
+To start using WAM as the authentication mechanism in Visual Studio:
 
-With [Visual Studio 2022 version 17.11](/visualstudio/releases/2022/release-notes), Windows authentication broker is now the default workflow for adding and reauthenticating accounts in Visual Studio. 
-
-Windows authentication broker uses [Web Account Manager (WAM)](/entra/msal/dotnet/acquiring-tokens/desktop-mobile/wam) and offers many benefits such as security, improved MFA support, and seamless integration between accounts added to the OS and Visual Studio.
-
-:::image type="content" source="media/vs-2022/windows-authentication-broker.png" alt-text="Select web authentication broker from the dropdown.":::
-
-To start using WAM as the authentication mechanism in Visual Studio: 
-1. Update to Visual Studio 2022 version 17.11 or later.
+1. Update to [Visual Studio 2022 version 17.11 or later](/visualstudio/releases/2022/release-notes).
 1. Select an account from the WAM dialog when prompted. If your account isn't listed, add it by using **Add an account**.
 
     :::image type="content" source="media/vs-2022/signing-in-to-visual-studio/sign-in-account-windows-account-manager.png" alt-text="Add an account using the Windows authentication broker workflow.":::
