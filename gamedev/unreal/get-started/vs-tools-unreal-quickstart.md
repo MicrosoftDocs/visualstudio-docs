@@ -70,7 +70,7 @@ You can use the Visual Studio Tools for Unreal Engine to view UE logging within 
 1. In `LyraGameplayAbility_RangedWeapon.cpp`, go to line 477. You should see this function: `void ULyraGameplayAbility_RangedWeapon::OnTargetDataReadyCallback`
 1. Insert the following code at the beginning of the function: `UE_LOG(LogLyra, Log, TEXT("shot fired"));` This creates a log entry, associated with the category `LogLyra`, that logs `shot fired` when this function is called.
 1. Run the sample game in Visual Studio by choosing **Debug** > **Start Debugging**. The Unreal Editor will open with the Lyra game. Give it a few moments to load.
-1. In Visual Studio, open the UE logging window by choosing **View** > **Other Windows** > **Unreal Engine Log** from the Visual Studio main menu.
+1. In Visual Studio, open the UE logging window by choosing **View** > **Other Windows** > **Unreal Engine Log** from the Visual Studio main menu. Or use the UE toolbar button to show the log (see the [Unreal Engine toolbar](#unreal-engine-toolbar) section for details).
 1. In the Unreal Editor, choose the Play button on the toolbar (or `Alt+p`) to start the game.
 1. In the Lyra game, use the `w`, `a`, `s`, `d` keys to navigate the player left to the **Elimination** portal. Position the player over the entry portal to load the game.
 1. Once the game is running, click the mouse button to fire. This creates some log entries in the `LogLyra` category. Now `LogLyra` will appear in the Categories filter for the next step.
@@ -84,7 +84,7 @@ If you find the font color hard to read, you can adjust it under **Tools** > **O
 
 Having the UE logging window open while you're debugging is convenient because you don't have to switch to the Unreal Editor to see them.
 
-## View UE macros in Visual Studio
+## View Unreal Engine macros in Visual Studio
 
 Long UE macros can be difficult to read. Visual Studio Tools for Unreal Engine expands UE macros so that you can read them more easily. You can copy the expanded macro if you want. You can also search for it online or compare it with another macro. To experiment with these features, follow these steps:
 
@@ -111,19 +111,35 @@ Visual Studio provides a toolbar that improves the Unreal Engine development exp
 
 Activate the Unreal Engine toolbar in Visual Studio from the main menu via **View** > **Toolbars** > **Unreal Engine**. The toolbar looks like:
 
-    :::image type="content" source="../media/ue-toolbar.png" alt-text="A screenshot of the Unreal Engine toolbar in Visual Studio.":::
+:::image type="content" source="../media/ue-toolbar.png" alt-text="A screenshot of the Unreal Engine toolbar in Visual Studio.":::
 
 The toolbar buttons, left to right, are as follows:
 
 - A quick attach button (the play icon) and a dropdown listing the name of the process to attach to. The dropdown is populated by Unreal Engine related processes, which makes it easier to attach to the Unreal Engine Editor more easily.
-- Buttons to start and stop the Unreal Engine integration server. The integration server improves the performance of the Unreal Engine integration with Visual Studio. Visual Studio can keep the Unreal Engine Editor process running in the background so that Blueprint and Test information is automatically updated as you work on your project. You can turn it off to reclaim resources if your machine is resource constrained, and start it when you want the integration improvements. The server is started automatically when you open a UE project in Visual Studio.
+- Buttons to start and stop the Unreal Engine integration server. The integration server improves the performance of the Unreal Engine integration with Visual Studio. It runs as a background process that so that Blueprint and test information is automatically updated as you work on your project. You can turn it off to reclaim resources if your machine is resource constrained, and start it when you want the integration improvements. The server is started automatically when you open a UE project in Visual Studio.
 - A button to rescan Unreal Engine blueprint assets.
 - A button that opens the Unreal Engine log window.
-- A button to configure Visual Studio Tools for Unreal Engine. This opens the **Unreal Engine Integration Configuration** window where you can refresh and see the overall configuration status and Visual Sutdio Integration Tool status, check for blueprint support, see whether get Unreal Engine naming convention checker status, and so on.
+- A button to configure Visual Studio Tools for Unreal Engine. This opens the **Unreal Engine Integration Configuration** window where you can refresh and see the overall configuration status and Visual Studio Integration Tool status, check for blueprint support, see whether get Unreal Engine naming convention checker status, and so on.
 
-## Set command-line arguments
+## Add Unreal Engine modules in Visual Studio
 
-## Add UE classes and modules
+JTW: do this first so can add to this module in next step for adding a class
+
+## Add Unreal Engine classes in Visual Studio
+
+You can add UE classes from within Visual Studio. This is useful because you don't have to switch between the Unreal Editor and Visual Studio to do it. To try it out, follow these steps:
+
+1. In **Solution Explorer**, choose a folder where you want the new class or module to go. In the LyraStarterGame project, you could add a new class to the **LyraStarterGame** > **Source** folder, for example.
+1. Right-click the folder and choose Add > Unreal Engine item...
+    :::image type="content" source="../media/vs-unreal-engine-add-new-unreal-engine-item.png" alt-text="A screenshot of the add item menu. In solution explorer, a folder has been selected, and Add > Unreal Engine Item... is selected in the menu.":::
+1. The **Add New Item** dialog appears. Choose **Unreal Engine Common Classes** and then choose **Add**:
+    :::image type="content" source="../media/vs-add-new-ue-item-dialog.png" alt-text="A screenshot of the add new item dialog. It has options for adding an Unreal Engine Common Classes (which is selected), Empty Unreal Engine Module, and Unreal Engine Plugins. ":::
+1. The **Add Unreal Engine Class** dialog appears. Choose the class you want to add. For example, choose **Actor** and then choose **Add**:
+    :::image type="content" source="../media/vs-add-unreal-engine-class-dialog.png" alt-text="A screenshot of the add new Unreal Engine class dialog. It has options for selecting a base such a none, Actor, Character, and Actor component, and so on. There are fields for the class name and the module to add the class to. The path to the header file and source file are listed. A checkbox is selected to refresh intellisense information using Unreal Editor tools.":::
+
+    
+
+
 
 ## Next steps
 
