@@ -142,14 +142,12 @@ If you run into errors when using the [Windows authentication broker workflow fo
 
 #### TPM (Trusted Platform Module) Error
 
-
-
-For example, if you see the following error dialog, you can attempt to resolve the issue by following the instructions [TPM error troubleshooting](windows/security/hardware-security/tpm/initialize-and-configure-ownership-of-the-tpm). If those instructions do not work and you have a support contract please open a support ticket at [Technical support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8)
-
-#### Change authentication mechanism 
-If you need to switch to another authentication mechanism other than the Windows Broker you can switch by following these instructions. [system web browser](#enabling-system-web-browser). 
+For example, if you see the following error dialog, you can attempt to resolve the issue by following the instructions [TPM error troubleshooting](windows/security/hardware-security/tpm/initialize-and-configure-ownership-of-the-tpm). 
 
 :::image type="content" source="media/vs-2022/work-with-multi-factor-authentication/change-authentication-mechanism-error.png" alt-text="Screenshot of a WAM error dialog with the change authentication mechanism option to resolve the error." border="false":::
+
+If you need to switch to another authentication mechanism other than the Windows Broker you can switch by following these instructions. [system web browser](#enabling-system-web-browser). 
+If those instructions do not work and you have a support contract please open a support ticket at [Technical support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8)
 
 ::: moniker-end
 
@@ -192,12 +190,12 @@ SSL errors may come in a variety of forms. Some examples are:
  - "An existing connection was forcibly closed by the remote host.” (This can also be due to firewalls blocking the connection)
  - "The underlying connection was closed: An unexpected error occurred on send"
 
- These kinds of errors usually a couple of common causes:
+These errors may be caused by the following:
  1) Corporate proxy or firewall blocking certain versions of TLS
  2) TLS 1.3 is enabled on the machine but network doesn't support it. You may try disabling TLS 1.3 on the machine to test if this is the case. See TLS registry settings below.
  3) Group policy restricting what SSL algorithms are allowed and this allowed list is not matching what the server expects. 
 
- To debug the following resources may be useful.
+ The following resources may be useful to debug these issues.
  - [Azure DevOps TLS 1.2 transition readiness checker](https://github.com/microsoft/azure-devops-tls12)
  - [Transport Layer Security (TLS) best practices with .NET Framework](/dotnet/framework/network-programming/tls#configuring-security-via-the-windows-registry)
  - [TLS registry settings](/windows-server/security/tls/tls-registry-settings?tabs=diffie-hellman#tls-dtls-and-ssl-protocol-version-settings) 
