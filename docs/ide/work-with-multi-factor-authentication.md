@@ -18,7 +18,7 @@ In this article, you'll learn how to use Visual Studio with accounts that requir
 
 When collaborating with external guest users, it's a good idea to protect your apps and data with **conditional access (CA)** policies such as **multifactor authentication (MFA)**.  
 
-Once enabled, guest users will need more than just a username and password to access your resources, and must satisfy additional security requirements. MFA policies can be enforced at the tenant, app, or individual guest user level, the same way that they are enabled for members of your own organization. 
+Once enabled, guest users will need more than just a username and password to access your resources, and must satisfy additional security requirements. MFA policies can be enforced at the tenant, app, or individual guest user level, the same way that they're enabled for members of your own organization. 
 
 ## How is the Visual Studio experience affected by MFA policies?
 Versions of Visual Studio prior to 16.6 may have degraded authentication experiences when used with accounts that have enabled CA policies such as MFA, and are associated with two or more tenants.
@@ -120,7 +120,7 @@ If you're experiencing CA/MFA issues and/or are unable to log in even when using
 1. Sign in again.
 
 > [!NOTE]
-> After these steps you'll likely be able to log in, but your account will be put in a filtered state. While in a filtered state, only your account's default tenant and resources will be available. All other Microsoft Entra tenants and resources will become inaccessible, but you can [manually add them back](#how-to-opt-out-of-using-a-specific-azure-active-directory-tenant-in-visual-studio).
+> After these steps you'll likely be able to log in, but your account will be put in a filtered state. While in a filtered state, only your account's default tenant and resources will be available. All other Microsoft Entra tenants and resources will become inaccessible, but you can [manually add them back](#how-to-opt-out-of-using-a-specific-microsoft-entra-tenant-in-visual-studio).
 
 ### Pre-authorization issues
 
@@ -142,12 +142,12 @@ If you run into errors when using the [Windows authentication broker workflow fo
 
 #### TPM (Trusted Platform Module) Error
 
-For example, if you see the following error dialog, you can attempt to resolve the issue by following the instructions [TPM error troubleshooting](windows/security/hardware-security/tpm/initialize-and-configure-ownership-of-the-tpm). 
+For example, if you see the following error dialog, you can attempt to resolve the issue by following the instructions [TPM error troubleshooting](/windows/security/hardware-security/tpm/initialize-and-configure-ownership-of-the-tpm). 
 
 :::image type="content" source="media/vs-2022/work-with-multi-factor-authentication/change-authentication-mechanism-error.png" alt-text="Screenshot of a WAM error dialog with the change authentication mechanism option to resolve the error." border="false":::
 
 If you need to switch to another authentication mechanism other than the Windows Broker you can switch by following these instructions. [system web browser](#enabling-system-web-browser). 
-If those instructions do not work and you have a support contract please open a support ticket at [Technical support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8)
+If those instructions don't work and you have a support contract please open a support ticket at [Technical support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8)
 
 ::: moniker-end
 
@@ -179,7 +179,10 @@ After you deselect the tenant to filter, the **Account Settings** and the **Filt
 
 ### Networking errors with Visual Studio
 
-During sign in Visual Studio may experience errors related to the network. 
+During sign in Visual Studio may experience errors related to the network. Which are not usually Visual Studio product issues and need to be investigated in many cases by local IT support.
+#### Error "Proxy authorization required
+If you or your organization uses security measures such as a firewall or a proxy server, you should ensure that the
+[Requirements to use Visual Studio behind a proxy or firewall](/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server) are being followed.
 
 #### SSL errors
 SSL errors may come in a variety of forms. Some examples are:
@@ -192,39 +195,39 @@ SSL errors may come in a variety of forms. Some examples are:
 
 These errors may be caused by the following:
  1) Corporate proxy or firewall blocking certain versions of TLS
- 2) TLS 1.3 is enabled on the machine but network doesn't support it. You may try disabling TLS 1.3 on the machine to test if this is the case. See TLS registry settings below.
- 3) Group policy restricting what SSL algorithms are allowed and this allowed list is not matching what the server expects. 
+ 2) TLS 1.3 is enabled on the machine but network doesn't support it. You may try [disabling TLS 1.3](#disable-tls-1.3) on the machine to test if this is the case. See TLS registry settings below.
+ 3) Group policy restricting what SSL algorithms are allowed and this allowed list isn't matching what the server expects. 
 
- The following resources may be useful to debug these issues.
+ The following resources might be helpful for troubleshooting SSL issues:
  - [Azure DevOps TLS 1.2 transition readiness checker](https://github.com/microsoft/azure-devops-tls12)
  - [Transport Layer Security (TLS) best practices with .NET Framework](/dotnet/framework/network-programming/tls#configuring-security-via-the-windows-registry)
  - [TLS registry settings](/windows-server/security/tls/tls-registry-settings?tabs=diffie-hellman#tls-dtls-and-ssl-protocol-version-settings) 
 
+##### Disable TLS 1.3
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.3\Client]
+"DisabledByDefault"=dword:00000001 
+"Enabled"=dword:00000000
+
  #### Connection refused errors
- The following error message may be seen while signing in.
- 
-  "No connection could be made because the target machine actively refused it" 
+ "No connection could be made because the target machine actively refused it" 
  
  This error means when Visual Studio is trying to make a connection to an internet endpoint the machine refused the connection.
 
  Common Causes:
- - If the address "127.0.0.1" is in the error message this means a connection to a local proxy server was attempted but the local proxy server was not running.
+ - If the address "127.0.0.1" is in the error message this means a connection to a local proxy server was attempted but the local proxy server wasn't running.
 
- - VPN connection - Try disconnecting from any vpn's and try the connection again. If it works then you will want to follow up with the VPN provider or your network administrator. This includes corporate VPN or 3rd party VPN services.
+ - VPN connection - Try disconnecting from any vpn's and try the connection again. If it works then you'll want to follow up with the VPN provider or your network administrator. This includes corporate VPN or third party VPN services.
 
  - DNS - The domain lookup on your machine has resolved to an address which doesn't point to the expected server. This means the connection is going to a different machine not running the expected services and refusing the connection. To debug this you may use tools such as [NsLookup](/windows-server/administration/windows-commands/nslookup) and compare it to the [Azure IP Ranges and Service Tags](https://www.microsoft.com/en-gb/download/details.aspx?id=56519&msockid=29cb101f084a69eb165004b009d668ef)
  
- - IPV6 - Some computers have IPV6 enabled but the network doesn't support the protocol. In this case you may see a connection refused message because the server could not be found. Try disabling IPV6 on the machine to see if the connection works. 
+ - IPV6 - Some computers have IPV6 enabled but the network doesn't support the protocol. In this case you may see a connection refused message because the server couldn't be found. Try disabling IPV6 on the machine to see if the connection works. 
 
  - SSL problems - See [SSL errors](#ssl-errors)
 
  - Proxy or Firewalls on the network - If a proxy or firewall is on the network that is the first machine which will be communicated with, it may be the device refusing the connection. This case can be determined by asking your network administrator if connections are being blocked by the firewall or proxy server. Alternately looking at network traces can indicate what machine the connection is being made to and who refused the connection. If this is an internal network address it would mean the proxy or firewall blocked the connection. If it's an external IP address this usually means DNS, IPV6, or SSL problems.
-    
-#### Error "Proxy authorization required
-[Requirements to use Visual Studio behind a proxy or firewall](/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server)
-
+  
 #### Support for network related issues
-Network related issues are normally related to the machine or network configuration rather than the Visual Studio. [Developer Community](https://developercommunity.visualstudio.com/) for Visual Studio may offer some level of support, but is focused on features within Visual Studio rather than machine configuration. For network specific support the [Microsoft Support Community](https://answers.microsoft.com/en-us) or [Technical support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8) can be useful.
+Network related issues are normally related to the machine or network configuration rather than the Visual Studio. [Developer Community](https://developercommunity.visualstudio.com/VisualStudio) may offer some level of support, but is focused on features within Visual Studio rather than machine configuration. For network specific support the [Microsoft Support Community](https://answers.microsoft.com/en-us) or [Technical support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8) can be useful.
 
 
 ## Related content
