@@ -1484,6 +1484,8 @@
         href: cv-access-e.md
       - name: CV_AssociationKind_e
         href: cv-associationkind-e.md
+      - name: CV_builtin_e
+        href: cv-builtin-e.md
       - name: CV_call_e
         href: cv-call-e.md
       - name: CV_CFL_LANG
@@ -1492,10 +1494,16 @@
         href: cv-coroutinekind-e.md
       - name: CV_CPU_TYPE_e
         href: cv-cpu-type-e.md
+      - name: CV_HLSLMemorySpace_e
+        href: cv-hlslmemoryspace-e.md
+      - name: CV_HLSLREG_e
+        href: cv-hlslreg-e.md
       - name: CV_HREG_e
         href: cv-hreg-e.md
       - name: CV_modifier_e
         href: cv-modifier-e.md
+      - name: CV_SourceChksum_t
+        href: cv-sourcechksum-t.md
       - name: DataKind
         href: datakind.md
       - name: DiaAddressMapEntry
