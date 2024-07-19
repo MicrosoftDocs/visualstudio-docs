@@ -194,21 +194,24 @@ SSL errors may come in a variety of forms. Some examples are:
 
  These kinds of errors usually a couple of common causes:
  1) Corporate proxy or firewall blocking certain versions of TLS
- 2) TLS 1.3 enabled on the machine but network does not support it. You may try disabling TLS 1.3 on the machine to test if this is the case. See TLS registry settings below.
+ 2) TLS 1.3 is enabled on the machine but network does not support it. You may try disabling TLS 1.3 on the machine to test if this is the case. See TLS registry settings below.
  3) Group policy restricting what SSL algorithms can be used and this not matching what the server expectes. 
 
  To debug the following resources may be useful.
  - [Azure DevOps TLS 1.2 transition readiness checker](https://github.com/microsoft/azure-devops-tls12)
  - [Transport Layer Security (TLS) best practices with .NET Framework](/dotnet/framework/network-programming/tls#configuring-security-via-the-windows-registry)
  - [TLS registry settings](/windows-server/security/tls/tls-registry-settings?tabs=diffie-hellman#tls-dtls-and-ssl-protocol-version-settings) 
- 
-
 
  #### Connection refused errors
- The following error message may be seen while signing in. "No connection could be made because the target machine activly refused it" 
+ The following error message may be seen while signing in.
+ 
+  "No connection could be made because the target machine actively refused it" 
+ 
  This error means when Visual Studio is trying to make a connection to an internet endpoint the machine refused the connection .
 
  Common Causes:
+ - If the address "127.0.0.1" is in the error message this means a connection to a local proxy server was attempted but the local proxy server was not running.
+
  - VPN connection - Try disconnecting from any vpn's and try the connection again. If it works then you will want to follow up with the VPN provider or your network administrator. This includes corporate VPN or 3rd party VPN services.
 
  - DNS - The domain lookup on your machine has resolved to an address which does not point to the expected server. This means the connection is going to a different machine not running the expected services and refusing the connection. To debug this you may use tools such as [NsLookup](/windows-server/administration/windows-commands/nslookup) and compare it to the [Azure IP Ranges and Service Tags](https://www.microsoft.com/en-gb/download/details.aspx?id=56519&msockid=29cb101f084a69eb165004b009d668ef)
@@ -217,14 +220,13 @@ SSL errors may come in a variety of forms. Some examples are:
 
  - SSL problems - See [SSL errors](#ssl-errors)
 
- - Proxy or Firewalls on the network - If a proxy or firewall is on the network you are communicating with it first, so it may be the device refusing the connection. This can be determined by asking your network administrator if connections are being blocked by the firewall or proxy server. Alternativly looking at network packet captures can indicate what machine the connection is being made to and who refused the connection. If this is an internal network address it would mean the proxy or firewall blocked the connection. If it is an external IP address this usually means DNS, IPV6, or SSL problems.
+ - Proxy or Firewalls on the network - If a proxy or firewall is on the network that is the first machine which will be communicated with, it may be the device refusing the connection. This case can be determined by asking your network administrator if connections are being blocked by the firewall or proxy server. Alternativly looking at network traces can indicate what machine the connection is being made to and who refused the connection. If this is an internal network address it would mean the proxy or firewall blocked the connection. If it is an external IP address this usually means DNS, IPV6, or SSL problems.
     
-
 #### Error "Proxy authorization required
 [Requirements to use Visual Studio behind a proxy or firewall](/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server)
 
 #### Support for network related issues
-Network related issues are normally related to the machine or network configuration rather than the Visual Studio product. Developer Community for Visual Studio may offer some level of support, but is focused on product issues internal to Visual Studio. For network specific support the [Microsoft Support Comunity](https://answers.microsoft.com/en-us) may be able help. Alternativly, if you have a support contract a support ticket can be opened at [Technical support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8)
+Network related issues are normally related to the machine or network configuration rather than the Visual Studio. [Developer Community](https://developercommunity.visualstudio.com/) for Visual Studio may offer some level of support, but is focused on features within Visual Studio rather than machine configuration. For network specific support the [Microsoft Support Comunity](https://answers.microsoft.com/en-us) or [Technical support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8) can be useful.
 
 
 ## Related content
