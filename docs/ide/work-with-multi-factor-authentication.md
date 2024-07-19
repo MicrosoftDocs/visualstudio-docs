@@ -179,9 +179,9 @@ After you deselect the tenant to filter, the **Account Settings** and the **Filt
 
 ### Networking errors with Visual Studio
 
-During sign in Visual Studio may experience errors related to the network. Which are not usually Visual Studio product issues and need to be investigated in many cases by local IT support.
+During sign in Visual Studio may experience errors related to the network. Which aren't usually Visual Studio product issues and need to be investigated in many cases by local IT support.
 #### Error "Proxy authorization required
-If you or your organization uses security measures such as a firewall or a proxy server, you should ensure that the
+If your machine or organization uses security measures such as a firewall or a proxy server, you should ensure that the
 [Requirements to use Visual Studio behind a proxy or firewall](/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server) are being followed.
 
 #### SSL errors
@@ -195,7 +195,7 @@ SSL errors may come in a variety of forms. Some examples are:
 
 These errors may be caused by the following:
  1) Corporate proxy or firewall blocking certain versions of TLS
- 2) TLS 1.3 is enabled on the machine but network doesn't support it. You may try [disabling TLS 1.3](#disable-tls-1.3) on the machine to test if this is the case. See TLS registry settings below.
+ 2) TLS 1.3 is enabled on the machine but network doesn't support it. You may try [disabling TLS 1.3](#disable-tls) on the machine to test if this is the case. See TLS registry settings below.
  3) Group policy restricting what SSL algorithms are allowed and this allowed list isn't matching what the server expects. 
 
  The following resources might be helpful for troubleshooting SSL issues:
@@ -203,7 +203,8 @@ These errors may be caused by the following:
  - [Transport Layer Security (TLS) best practices with .NET Framework](/dotnet/framework/network-programming/tls#configuring-security-via-the-windows-registry)
  - [TLS registry settings](/windows-server/security/tls/tls-registry-settings?tabs=diffie-hellman#tls-dtls-and-ssl-protocol-version-settings) 
 
-##### Disable TLS 1.3
+##### Disable TLS
+1.3:
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.3\Client]
 "DisabledByDefault"=dword:00000001 
 "Enabled"=dword:00000000
