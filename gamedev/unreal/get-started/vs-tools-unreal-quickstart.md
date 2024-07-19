@@ -123,23 +123,27 @@ The toolbar buttons, left to right, are as follows:
 
 ## Add Unreal Engine modules in Visual Studio
 
-JTW: do this first so can add to this module in next step for adding a class
+JTW: do this first so can add class to this module in next step for adding a class
+
+You can now add Unreal Engine modules to your Unreal Engine project from within Visual Studio with the new **Add Unreal Engine Class** dialog. This is useful because you don't have to switch between the Unreal Editor and Visual Studio to do it, or need to synchronize the Visual Studio solution with your Unreal Engine project file. To try it out in Visual Studio, follow these steps. The steps assume that you have the LyraStarterGame project solution file (`.sln`) open in Visual Studio:
+
+1. In **Solution Explorer**, choose a project, such as **LyraStarterGame**, where you want the new module to go.
+1. Right-click the project (be sure it's a project and not a folder) and choose **Add** > **Unreal Engine item...**. This opens the **Add New Item** dialog:
+     :::image type="content" source="../media/vs-unreal-engine-add-new-unreal-engine-item.png" alt-text="A screenshot of the add item menu. In solution explorer, a folder has been selected, and Add > Unreal Engine Item... is selected in the menu.":::
+1. Choose **Unreal Engine Module** and then choose **Add**. This opens the **Add Unreal Engine Module** dialog:
+    :::image type="content" source="../media/vs-add-unreal-engine-module-dialog.png" alt-text="A screenshot of the add new item dialog. It has options for adding an Unreal Engine Common Classes (which is selected), Empty Unreal Engine Module, and Unreal Engine Plugins. "::: 
 
 ## Add Unreal Engine classes in Visual Studio
 
-You can add UE classes from within Visual Studio. This is useful because you don't have to switch between the Unreal Editor and Visual Studio to do it. To try it out, follow these steps:
+You can now add UE classes to your Unreal Engine project from within Visual Studio with the new **Unreal Engine Common Classes** dialog. This is useful because you don't have to switch between the Unreal Editor and Visual Studio to do it, or need to synchronize the Visual Studio solution with your Unreal Engine project file. To try it out, follow these steps in Visual Studio, which assume that you have the LyraStarterGame project open in Visual Studio:
 
-1. In **Solution Explorer**, choose a folder where you want the new class or module to go. In the LyraStarterGame project, you could add a new class to the **LyraStarterGame** > **Source** folder, for example.
-1. Right-click the folder and choose Add > Unreal Engine item...
+1. In **Solution Explorer**, choose a folder where you want the new class to go. In the LyraStarterGame project, you could add a new class to the **LyraStarterGame** > **Source** folder, for example.
+1. Right-click the folder and choose **Add** > **Unreal Engine item...**. This opens the **Add New Item** dialog:
     :::image type="content" source="../media/vs-unreal-engine-add-new-unreal-engine-item.png" alt-text="A screenshot of the add item menu. In solution explorer, a folder has been selected, and Add > Unreal Engine Item... is selected in the menu.":::
-1. The **Add New Item** dialog appears. Choose **Unreal Engine Common Classes** and then choose **Add**:
-    :::image type="content" source="../media/vs-add-new-ue-item-dialog.png" alt-text="A screenshot of the add new item dialog. It has options for adding an Unreal Engine Common Classes (which is selected), Empty Unreal Engine Module, and Unreal Engine Plugins. ":::
-1. The **Add Unreal Engine Class** dialog appears. Choose the class you want to add. For example, choose **Actor** and then choose **Add**:
+1. Choose **Unreal Engine Common Classes** and then choose **Add**. This opens the **Add Unreal Engine Class** dialog:
+    :::image type="content" source="../media/vs-add-new-ue-item-dialog-class.png" alt-text="A screenshot of the add new item dialog. It has options for adding an Unreal Engine Common Classes (which is selected), Empty Unreal Engine Module, and Unreal Engine Plugins. ":::
+1. Choose the class you want to add. For example, choose **Actor** and then choose **Add**:
     :::image type="content" source="../media/vs-add-unreal-engine-class-dialog.png" alt-text="A screenshot of the add new Unreal Engine class dialog. It has options for selecting a base such a none, Actor, Character, and Actor component, and so on. There are fields for the class name and the module to add the class to. The path to the header file and source file are listed. A checkbox is selected to refresh intellisense information using Unreal Editor tools.":::
-
-    
-
-
 
 ## Next steps
 
