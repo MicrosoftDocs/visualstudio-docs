@@ -14,18 +14,17 @@ manager: Markl
 
 ![Screenshot of a computer, game controller, and icons for game play.](../../unity/media/hero.png)
 
-
 Visual Studio Tools for Unreal Engine makes it easier to write and debug C++ code for Unreal Engine from within Visual Studio, with features such as:
 
-* Stream Unreal Engine logs
+* View Unreal Engine logs
 * View Blueprint references and assets
 * Expand Unreal Engine macros<sup>*</sup>
 * Unreal Engine name convention checker
 * Intellisense tuned for Unreal Engine projects<sup>*</sup>
 * Add Unreal Engine classes inside Visual Studio
 * See Unreal header tool warnings in Visual Studio
-* Visual Studio performance has been tuned for large projects<sup>*</sup>
-* Be more productive with HLSL files via syntax highlighting and statement completion
+* Visual Studio performance is tuned for large projects<sup>*</sup>
+* Be more productive with High-Level Shading Language (HLSL) files via syntax highlighting and statement completion
 
 <sup>*</sup> These features are available in Visual Studio 17.7 or later without installing Visual Studio Tools for Unreal Engine.
 
