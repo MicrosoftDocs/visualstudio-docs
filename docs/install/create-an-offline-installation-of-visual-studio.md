@@ -29,8 +29,7 @@ To download a local installation package, select the **Download all, then instal
    ![The "Download all, then install" option](media/vs-2019/download-all-then-install-from-installer.png)
 
 > [!NOTE]
-> The **Download all, then install** functionality downloads a Visual Studio installation package that is customized to the local machine. Don't transfer this downloaded installation package to another computer, as it's not designed to work that way. 
-> If you want to download an installation package, host it on a network share or an intranet website, and transfer it to or install it on another machine, then you'll need to create a network layout as described in the [create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md) documentation.
+> The **Download all, then install** functionality downloads a Visual Studio installation package that is customized to the local machine. Don't transfer this downloaded installation package to another computer, as it's not designed to work that way. If you want to download an installation package, host it on a network share or an intranet website, and transfer it to or install it on another machine, then you'll need to create a network layout as described in the [create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md) documentation.
 
 You can also configure future updates of Visual Studio to respect the **Download all, then install** behavior. For more information, see the [installation and download behavior](/visualstudio/install/update-visual-studio?#installation-and-download-behaviors-1) documentation.
 
@@ -48,7 +47,7 @@ You can install a language other than English by changing `en-US` to a locale fr
 
 Here are some common local layout creation examples. More examples can be found on the [create a network layout of Visual Studio](create-a-network-installation-of-visual-studio.md#configure-the-contents-of-a-layout) page and on the [command-line parameter examples](command-line-parameter-examples.md#using---layout-to-create-a-network-layout-or-a-local-cache) page.
 
-- To create a complete local layout with all features and all languages (this will take a long time&mdash;we have *lots* of features!), run:
+- To create a complete local layout with all features and all languages (this'll take a long time&mdash;we have *lots* of features!), run:
 
    ```shell
     vs_enterprise.exe --layout c:\localVSlayout
@@ -83,7 +82,7 @@ Here are some common local layout creation examples. More examples can be found 
 
 ### Step 3 - Install Visual Studio from the local layout
 
-When you install Visual Studio from a local layout, the Visual Studio Installer uses the local versions of the files. But if you select components during installation that aren't in the layout, then the Visual Studio Installer attempts to download them from the internet. To make sure you install only the files previously downloaded, use the same [command-line options](use-command-line-parameters-to-install-visual-studio.md) you used to create the local layout. To make sure your installer doesn't try to access the internet when it's installing the product, use the `--noweb` switch.
+When you install Visual Studio from a local layout, the Visual Studio Installer uses the local versions of the files. But if you select components during installation that aren't in the layout, then the Visual Studio Installer attempts to download them from the internet. To make sure you install only the files you previously downloaded, use the same [command-line options](use-command-line-parameters-to-install-visual-studio.md) you used to create the local layout. To make sure your installer doesn't try to access the internet when it's installing the product, use the `--noweb` switch.
 
 For example, if you created a local installation layout with the following command:
 
