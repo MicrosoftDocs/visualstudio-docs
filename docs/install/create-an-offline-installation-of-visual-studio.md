@@ -30,6 +30,7 @@ To download a local installation package, select the **Download all, then instal
 
 > [!NOTE]
 > The **Download all, then install** functionality downloads a Visual Studio installation package that is customized to the local machine. Don't transfer this downloaded installation package to another computer, as it's not designed to work that way.
+>
 > If you want to download an installation package, host it on a network share or an intranet website, and transfer it to or install it on another machine, then you'll need to create a network layout as described in the [create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md) documentation.
 
 You can also configure future updates of Visual Studio to respect the **Download all, then install** behavior. For more information, see the [installation and download behavior](/visualstudio/install/update-visual-studio?#installation-and-download-behaviors-1) documentation.
