@@ -69,7 +69,7 @@ Select **Docker** from the debug dropdown list in the toolbar, and start debuggi
 
 The **Container Tools** option in the **Output** window shows what actions are taking place. The first time, it might take a while to download the base image, but it's much faster on subsequent runs.
 
->[!NOTE]
+> [!NOTE]
 > If you need to change ports for debugging, you can do that in the *launchSettings.json* file. See [Container Launch Settings](../../container-launch-settings.md).
 
 ## Containers window

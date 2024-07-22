@@ -6,7 +6,7 @@ ms.author: ghogen
 ms.topic: how-to
 ms.date: 10/27/2021
 ms.subservice: container-tools
-monikerRange: ">=vs-2019"
+monikerRange: >=vs-2019
 ---
 
 # Use the Containers window
@@ -141,7 +141,7 @@ To open files in Visual Studio, browse to the file and double-click it, or right
 ![Screenshot of file open for viewing in Visual Studio.](media/view-and-diagnose-containers/vs-2022/container-file-open.png)
 :::moniker-end
 
-Using the **Files** tab, you can view application logs such as IIS logs, configuration files, and other content files in your container's filesystem.
+Using the **Files** tab, you can view application logs such as Internet Information Services (IIS) logs, configuration files, and other content files in your container's filesystem.
 
 :::moniker range=">=vs-2022"
 In Visual Studio 2022 version 17.7 or later, when targeting .NET 8 or later, the Dockerfile might contain the  `USER app` command, which specifies to run the app with normal user permissions. The **Files** tab uses those permissions as well, and so you might not be able to view some folders, if those folders are set to require elevated permissions to view.

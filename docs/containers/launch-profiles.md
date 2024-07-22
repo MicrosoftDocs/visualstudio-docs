@@ -8,7 +8,7 @@ ms.devlang: dotnet
 ms.topic: how-to
 ms.date: 10/08/2021
 ms.author: ghogen
-monikerRange: ">=vs-2019"
+monikerRange: >=vs-2019
 ---
 
 # Launch a subset of Compose services
@@ -90,7 +90,7 @@ In the example below, the `web1` Compose profile is selected, which filters the 
 
 !["Screenshot of launch settings dialog box"](media/launch-settings/launch-settings-create-profile.png)
 
->[!NOTE]
+> [!NOTE]
 > The Docker Compose profiles section only appears if there are profiles defined in your *docker-compose.yml* files.
 
 The next example demonstrates selecting between individual services instead of filtering to the services in a Compose profile. Here, we show how the dialog would look if you created a new launch profile named `test2` that only starts two out of the five services, `webapplication1` with debugging and `webapplication2` without debugging. This launch profile also launches a browser when the application starts and opens it to the home page of `webapplication1`.
