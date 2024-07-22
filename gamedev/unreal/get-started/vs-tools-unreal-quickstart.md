@@ -14,16 +14,16 @@ manager: MarkL
 
 In this article, download an Unreal Engine (UE) game sample and use Visual Studio Tools for Unreal Engine to:
 
-- [View UE Blueprints in Visual Studio](#view-ue-blueprints-in-visual-studio)
-- [View UE logging in Visual Studio](#view-ue-logging-within-visual-studio)
-- [View UE macros in Visual Studio](#view-ue-macros-in-visual-studio) 
+- [View Unreal Engine Blueprints in Visual Studio](#view-unreal-engine-blueprints-in-visual-studio)
+- [View Unreal Engine logging within Visual Studio](#view-unreal-engine-logging-within-visual-studio)
+- [View Unreal Engine macros in Visual Studio](#view-unreal-engine-macros-in-visual-studio)
 
 ## Prerequisites
 
 The following must be installed:
 
-- Visual Studio version 17.7 or later.
-- Unreal Engine version 5 or later because the example used in this quickstart requires UE5 or later.
+- Visual Studio version 17.10 or later.
+- Unreal Engine version 5 or later because the example used in this quickstart requires Unreal Engine 5 or later.
 - Visual Studio Tools for Unreal Engine. See [Install Visual Studio Tools for Unreal Engine](vs-tools-unreal-install.md) for installation instructions.
 
 ## Download and build the Lyra game sample in Visual Studio
@@ -51,7 +51,7 @@ After you download the game sample, update `LyraStarterGame.uproject` to use the
     :::image type="content" source="../media/unreal-engine-configuration-dropdown.png" alt-text="Screenshot of Visual Studio with the Solutions Configurations dropdown expanded and Development Editor selected.":::
 1. From the Visual Studio main menu, choose **Build** > **Build Solution** to build the game.
 
-## View UE Blueprints in Visual Studio
+## View Unreal Engine Blueprints in Visual Studio
 
 You can view, but not edit, UE Blueprints from within Visual Studio. This is useful because you can see UE Blueprints without having to switch between the Unreal Editor and Visual Studio. To try it out, follow these steps:
 
@@ -62,7 +62,7 @@ You can view, but not edit, UE Blueprints from within Visual Studio. This is use
 1. To view the properties of the `Character_Default_C` Blueprint, double-click it to open the Blueprint asset viewer. You can view the various properties of the Blueprint, but you can't change them:
     :::image type="content" source="../media/vs-blueprints-asset-viewer.png" alt-text="Screenshot of the Character_Default_C Blueprint asset viewer. It shows properties such as Actor, Camera, Character, Collision, and so on.":::
 
-## View UE logging within Visual Studio
+## View Unreal Engine logging within Visual Studio
 
 You can use the Visual Studio Tools for Unreal Engine to view UE logging within Visual Studio. This is useful because you can see UE logging without having to switch between the Unreal Editor and Visual Studio. To try it out, follow these steps:
 
@@ -123,28 +123,34 @@ The toolbar buttons, left to right, are as follows:
 
 ## Add Unreal Engine modules in Visual Studio
 
-JTW: do this first so can add class to this module in next step for adding a class
+You can now add Unreal Engine [modules](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-modules) to your Unreal Engine project from within Visual Studio. This is useful because you don't have to switch between the Unreal Editor and Visual Studio to add a module, or have to synchronize the Visual Studio solution with your Unreal Engine project file afterwards.
 
-You can now add Unreal Engine modules to your Unreal Engine project from within Visual Studio with the new **Add Unreal Engine Class** dialog. This is useful because you don't have to switch between the Unreal Editor and Visual Studio to do it, or need to synchronize the Visual Studio solution with your Unreal Engine project file. To try it out in Visual Studio, follow these steps. The steps assume that you have the LyraStarterGame project solution file (`.sln`) open in Visual Studio:
+To try adding an UE module in Visual Studio, follow these steps. The steps assume that you have the LyraStarterGame project solution file (`.sln`) open in Visual Studio:
 
 1. In **Solution Explorer**, choose a project, such as **LyraStarterGame**, where you want the new module to go.
-1. Right-click the project (be sure it's a project and not a folder) and choose **Add** > **Unreal Engine item...**. This opens the **Add New Item** dialog:
-     :::image type="content" source="../media/vs-unreal-engine-add-new-unreal-engine-item.png" alt-text="A screenshot of the add item menu. In solution explorer, a folder is selected and Add > Unreal Engine Item... is selected in the menu.":::
-1. Choose **Unreal Engine Module** and then choose **Add**. This opens the **Add Unreal Engine Module** dialog:
-    :::image type="content" source="../media/vs-add-unreal-engine-module-dialog.png" alt-text="A screenshot of the add new item dialog. It has options for adding an Unreal Engine Common Classes, Empty Unreal Engine Module (which is selected), and Unreal Engine Plugins."::: 
+1. Right-click the project (be sure a project is selected and not a folder) and choose **Add** > **Unreal Engine item...**. This opens the **Add New Item** dialog:
+     :::image type="content" source="../media/vs-add-new-ue-item-dialog-module.png" alt-text="A screenshot of the add item menu. In solution explorer, a folder is selected and Add > Unreal Engine Item... is selected in the menu.":::
+1. Choose **Unreal Engine Module**, provide a module name in the **Name** field, and then choose **Add**. This opens the **Add Unreal Engine Module** dialog:
+    :::image type="content" source="../media/vs-add-unreal-engine-module-dialog.png" alt-text="A screenshot of the add new item dialog. It has options for adding an Unreal Engine Common Classes, Empty Unreal Engine Module (which is selected), and Unreal Engine Plugins.":::
+1. Change the module name and use the drop-downs to select the module type and loading phase. Choose **Add** to add the module to the project and update the Visual Studio solution file.
+
+Modules can only be created in the **Source** folder or as a module of a plugin inside the **Plugins** folder.\
+The **Build** path shows where the **Build.cs** file will be created. The Build.cs file contains the configuratoin 
 
 ## Add Unreal Engine classes in Visual Studio
 
-You can now add UE classes to your Unreal Engine project from within Visual Studio with the new **Unreal Engine Common Classes** dialog. This is useful because you don't have to switch between the Unreal Editor and Visual Studio to do it, or need to synchronize the Visual Studio solution with your Unreal Engine project file. To try it out, follow these steps in Visual Studio, which assume that you have the LyraStarterGame project open in Visual Studio:
+You can now add Unreal Engine classes to your Unreal Engine project from within Visual Studio. This is useful because you don't have to switch between the Unreal Editor and Visual Studio to add a class, or have to synchronize the Visual Studio solution with your Unreal Engine project file afterwards.
+
+To try it out, follow these steps in Visual Studio, which assume that you have the LyraStarterGame project open in Visual Studio:
 
 1. In **Solution Explorer**, choose a folder where you want the new class to go. In the LyraStarterGame project, you could add a new class to the **LyraStarterGame** > **Source** folder, for example.
 1. Right-click the folder and choose **Add** > **Unreal Engine item...**. This opens the **Add New Item** dialog:
-    :::image type="content" source="../media/vs-unreal-engine-add-new-unreal-engine-item.png" alt-text="A screenshot of the add item menu. In solution explorer, a folder has been selected, and Add > Unreal Engine Item... is selected in the menu.":::
-1. Choose **Unreal Engine Common Classes** and then choose **Add**. This opens the **Add Unreal Engine Class** dialog:
     :::image type="content" source="../media/vs-add-new-ue-item-dialog-class.png" alt-text="A screenshot of the add new item dialog. It has options for adding an Unreal Engine Common Classes (which is selected), Empty Unreal Engine Module, and Unreal Engine Plugins.":::
-1. Choose the class you want to add. For example, choose **Actor** and then choose **Add**:
+1. Choose **Unreal Engine Common Classes** and then choose **Add**. This opens the **Add Unreal Engine Class** dialog.
     :::image type="content" source="../media/vs-add-unreal-engine-class-dialog.png" alt-text="A screenshot of the add new Unreal Engine class dialog. It has options for selecting a base such a none, Actor, Character, and Actor component, and so on. There are fields for the class name and the module to add the class to. The paths to the header file and source file are listed. A checkbox is selected to refresh intellisense information using Unreal Editor tools.":::
+1. Choose a base class, such as **Actor**. Choose a module to add to your class using the mixin pattern using the **Select a module to add the class** dropdown. You can choose whether Visual Studio will use Unreal Editor tools to update the intellisense information. Then choose **Add** which adds the class to the folder you selected and updates the Visual Studio solution file. This will result in a prompt to reload the project. Choose **Reload** to reload the project if you intend to keep working from within Visual Studio.
 
 ## Next steps
 
+See [Unreal Engine Modules](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-modules)\
 See [Visual Studio Tools for Unreal Engine](./vs-tools-unreal-overview.md) for an overview of Visual Studio Tools for Unreal Engine features.
