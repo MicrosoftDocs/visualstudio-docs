@@ -1,7 +1,7 @@
 ---
 description: "Specifies the type of symbol."
 title: "SymTagEnum"
-ms.date: "11/04/2016"
+ms.date: "07/22/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"

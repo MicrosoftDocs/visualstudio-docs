@@ -1,7 +1,7 @@
 ---
 title: Constants (Debug Interface Access SDK)
 description: See a list of string constants that can be used to identify various sections of a program debug database (PDB) file through the Debug Interface Access (DIA) SDK.
-ms.date: "11/04/2016"
+ms.date: "07/22/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"

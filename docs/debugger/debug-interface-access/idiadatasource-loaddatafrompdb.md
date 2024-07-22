@@ -1,7 +1,7 @@
 ---
 description: Opens and prepares a program database (.pdb) file as a debug data source.
 title: "IDiaDataSource::loadDataFromPdb"
-ms.date: "11/04/2016"
+ms.date: "07/22/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"

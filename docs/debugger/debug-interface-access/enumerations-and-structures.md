@@ -1,7 +1,7 @@
 ---
 description: These are the enumerations and structures used by the DIA SDK.
 title: Enumerations and Structures
-ms.date: "11/04/2016"
+ms.date: "07/22/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"

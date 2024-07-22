@@ -1,7 +1,7 @@
 ---
 description: "Retrieves an enumeration that allows a client to iterate through the MSIL offsets within a specified virtual address (VA) range."
 title: "IDiaSession::findILOffsetsByVA"
-ms.date: "11/04/2016"
+ms.date: "07/22/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"

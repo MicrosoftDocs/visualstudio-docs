@@ -1,7 +1,7 @@
 ---
 description: Positions the enumerator by performing a lookup by relative virtual address (RVA).
 title: "IDiaEnumSymbolsByAddr::symbolByRVA"
-ms.date: "11/04/2016"
+ms.date: "07/22/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"

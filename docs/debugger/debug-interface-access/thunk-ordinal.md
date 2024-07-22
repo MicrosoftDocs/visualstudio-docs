@@ -1,7 +1,7 @@
 ---
 description: "Designates thunk types."
 title: "THUNK_ORDINAL"
-ms.date: "11/04/2016"
+ms.date: "07/22/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"

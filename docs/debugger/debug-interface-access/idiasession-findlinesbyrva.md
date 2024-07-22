@@ -1,7 +1,7 @@
 ---
 description: "Retrieves the lines in a specified compiland that contain a specified relative virtual address (RVA)."
 title: "IDiaSession::findLinesByRVA"
-ms.date: "11/04/2016"
+ms.date: "07/22/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -12,7 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
-# IDiaSession::findLinesByRVA
+# `IDiaSession::findLinesByRVA`
 
 Retrieves the lines in a specified compiland that contain a specified relative virtual address (RVA).
 
@@ -38,7 +38,7 @@ HRESULT findLinesByRVA ( 
 
 `ppResult`
 
-[out] Returns an [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md) object that contains a list of all the line numbers that cover the specified address range.
+[out] Returns an [`IDiaEnumLineNumbers`](../../debugger/debug-interface-access/idiaenumlinenumbers.md) object that contains a list of all the line numbers that cover the specified address range.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -63,5 +63,5 @@ IDiaEnumLineNumbers* GetLineNumbersByRVA(IDiaSymbol *pFunc, IDiaSession *pSessio
 ```
 
 ## See also
-- [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
-- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+- [`IDiaEnumLineNumbers`](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
+- [`IDiaSession`](../../debugger/debug-interface-access/idiasession.md)

@@ -1,7 +1,7 @@
 ---
 description: Retrieves the file name for the last load error.
 title: "IDiaDataSource::get_lastError"
-ms.date: "11/04/2016"
+ms.date: "07/22/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"

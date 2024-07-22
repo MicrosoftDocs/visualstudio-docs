@@ -1,7 +1,7 @@
 ---
 description: Opens and prepares the debug data associated with the .exe/.dll file.
 title: "IDiaDataSource::loadDataForExe"
-ms.date: "11/04/2016"
+ms.date: "07/22/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
