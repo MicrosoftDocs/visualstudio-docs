@@ -119,7 +119,7 @@ DIAGHUB_STOP_TRACE_SYSTEM();
 
 1. To filter the details view, select a time range in the timeline graph, or right-click a row and select start and end times to filter the timeline graph.
 
-   You can also set intervals on ranges or by selecting multiple user marks.
+   You can also filter the view by setting intervals on ranges or by selecting multiple user marks.
 
    :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-set-interval.png" alt-text="Screenshot showing setting a user mark interval":::
 
