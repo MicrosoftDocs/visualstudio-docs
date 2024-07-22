@@ -1,7 +1,7 @@
 ---
 title: Optimizing Profiler settings
 description: Learn how the Performance Profiler and Diagnostic Tools window in Visual Studio have many different settings that affect the overall performance of the tools.
-ms.date: 02/28/2023
+ms.date: 07/22/2024
 ms.topic: how-to
 helpviewer_keywords: 
   - Profiler, improve performance
