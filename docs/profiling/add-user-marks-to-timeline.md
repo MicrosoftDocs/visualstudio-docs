@@ -45,7 +45,7 @@ To add the definition in Visual Studio:
 
 1. Select **Build > General > Conditional compilation symbols**. 
 
-1. Add `DIAGHUB_ENABLE_TRACE_SYSTEM` as the preprocessor definition.
+1. In the custom symbol fields for Debug and Release builds, add `DIAGHUB_ENABLE_TRACE_SYSTEM` as the preprocessor definition.
 
 Add the user marks object and emit. The following code shows an example of adding user marks.
 
@@ -111,11 +111,11 @@ DIAGHUB_STOP_TRACE_SYSTEM();
 
    Details appear in the User Marks tab.
 
-   :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-view-user-marks.png" alt-text="Screenshot showing user marks":::
+   :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-view-user-marks-2.png" alt-text="Screenshot showing user marks":::
 
 1. To see the user mark details in the timeline, hover over the marks in the ruler.
 
-   :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-hover.png" alt-text="Screenshot showing hovering over a user mark":::
+   :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-hover-2.png" alt-text="Screenshot showing hovering over a user mark":::
 
 1. To filter the details view, select a time range in the timeline graph, or right-click a row and select start and end times to filter the timeline graph.
 
@@ -126,4 +126,4 @@ DIAGHUB_STOP_TRACE_SYSTEM();
 ## Related content
 
 - [Analyze performance by using CPU profiling](../profiling/cpu-usage.md)
-- [Identify hot paths with Flame Graph](../profiling/flame-graph.md)
+- [Analyze memory usage](../profiling/analyze-memory-usage.md)
