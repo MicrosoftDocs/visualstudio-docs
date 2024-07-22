@@ -78,7 +78,7 @@ To expose data to an application by using a WCF Data Service, you must define a 
 
     - Click **New Connection**, and create a connection to the AdventureWorksLT database.
 
-6. On the **Choose Your Data Connection** page, make sure that the **Save entity connection settings in App.Config as** option is selected, and then click **Next**.
+6. On the **Choose Your Data Connection** page, make sure that the **Save entity connection settings in App.Config as** option is selected, and then select **Next**.
 
 7. On the **Choose Your Database Objects** page, expand **Tables**, and then select the **SalesOrderHeader** table.
 
@@ -135,7 +135,7 @@ To display the data from the WCF Data Service, create a new WPF application with
 
    The **Data Source Configuration** wizard opens.
 
-7. In the **Choose a Data Source Type** page of the wizard, select **Service**, and then click **Next**.
+7. In the **Choose a Data Source Type** page of the wizard, select **Service**, and then select **Next**.
 
 8. In the **Add Service Reference** dialog box, click **Discover**.
 
@@ -143,7 +143,7 @@ To display the data from the WCF Data Service, create a new WPF application with
 
 9. In the **Namespace** box, type **AdventureWorksService**.
 
-10. In the **Services** box, click **AdventureWorksService.svc**, and then click **OK**.
+10. In the **Services** box, click **AdventureWorksService.svc**, and then select **OK**.
 
     Visual Studio downloads the service information and then returns to the **Data Source Configuration** wizard.
 
@@ -293,7 +293,7 @@ Build and run the application to verify that you can view and update customer re
 
     - You can click the **>** or **<** buttons to navigate through other sales records.
 
-5. In one of the sales records, type some text in the **Comment** box, and then click **Save changes**.
+5. In one of the sales records, type some text in the **Comment** box, and then select **Save changes**.
 
 6. Close the application, and then start the application again from Visual Studio.
 

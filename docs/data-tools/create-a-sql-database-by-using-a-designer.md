@@ -41,7 +41,7 @@ To complete this walkthrough, you need the **.NET desktop development** and **Da
    ![Add New item > Service-based database](media/raddata-vsitemtemplates.png)
    :::moniker-end
 
-4. Name the database **SampleDatabase.mdf**, and then click **Add**.
+4. Name the database **SampleDatabase.mdf**, and then select **Add**.
 
 ### Add a data source
 
@@ -99,7 +99,7 @@ In this section, you create two tables, a primary key in each table, and a few r
 
 2. Right-click on **Tables** and select **Add New Table**.
 
-   The Table Designer opens and shows a grid with one default row, which represents a single column in the table that you're creating. By adding rows to the grid, you add columns in the table.
+   The Table Designer opens and shows a grid with one default row, which represents a single column in the table that you're-creating. By adding rows to the grid, you add columns in the table.
 
 3. In the grid, add a row for each of the following entries:
 
