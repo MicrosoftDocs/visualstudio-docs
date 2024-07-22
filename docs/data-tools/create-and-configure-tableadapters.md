@@ -78,7 +78,7 @@ The following example shows you how to call an additional query named `FillByCit
 
 1. Open your dataset in the **Dataset Designer**.
 
-2. If you're creating a new query, drag a **Query** object from the **DataSet** tab of the **Toolbox** onto a <xref:System.Data.DataTable>, or select **Add Query** from the TableAdapter's shortcut menu. You can also drag a **Query** object onto an empty area of the **Dataset Designer**, which creates a TableAdapter without an associated <xref:System.Data.DataTable>. These queries can only return single (scalar) values, or run `UPDATE`, `INSERT`, or `DELETE` commands against the database.
+2. If you're-creating a new query, drag a **Query** object from the **DataSet** tab of the **Toolbox** onto a <xref:System.Data.DataTable>, or select **Add Query** from the TableAdapter's shortcut menu. You can also drag a **Query** object onto an empty area of the **Dataset Designer**, which creates a TableAdapter without an associated <xref:System.Data.DataTable>. These queries can only return single (scalar) values, or run `UPDATE`, `INSERT`, or `DELETE` commands against the database.
 
 3. On the **Choose Your Data Connection** screen, select, or create the connection that the query will use.
 
