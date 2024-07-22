@@ -6,7 +6,7 @@ ms.author: ghogen
 ms.topic: how-to
 ms.date: 10/27/2021
 ms.subservice: container-tools
-monikerRange: >=vs-2019
+monikerRange: ">=vs-2019"
 ---
 
 # Use the Containers window
