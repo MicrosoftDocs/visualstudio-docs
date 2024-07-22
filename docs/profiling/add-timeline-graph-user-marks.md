@@ -14,7 +14,7 @@ monikerRange: '>= vs-2022'
 
 User Marks enable you to track custom events against Visual Studio's profiling tools by adding user mark functions into your code. The user marks appear as visual marks on the timeline graphs. You can do this to track a single event, or track a range. For example, you could track a "stop" and "start" event range.
 
-:::image type="content" source="../profiling/media/vs-2022/profiling-user-marks.png" alt-text="Screenshot showing profiling user marks":::
+:::image type="content" source="../profiling/media/vs-2022/profiling-user-marks.png" alt-text="Screenshot showing profiling user marks.":::
 
 > [!NOTE]
 > This feature requires Visual Studio 2022 version 17.11 Preview 3. The feature is available in the Performance Profiler and not while debugging in the Diagnostics Hub.
@@ -107,21 +107,21 @@ DIAGHUB_STOP_TRACE_SYSTEM();
 
 1. In the **Summary** pane, select **Show user marks** to see details about the user marks.
 
-   :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-timeline-initial-view.png" alt-text="Screenshot showing timeline":::
+   :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-timeline-initial-view.png" alt-text="Screenshot showing timeline.":::
 
    Details appear in the User Marks tab.
 
-   :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-view-user-marks.png" alt-text="Screenshot showing user marks":::
+   :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-view-user-marks.png" alt-text="Screenshot showing user marks.":::
 
 1. To see the user mark details in the timeline, hover over the marks in the ruler.
 
-   :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-hover-2.png" alt-text="Screenshot showing hovering over a user mark":::
+   :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-hover-2.png" alt-text="Screenshot showing hovering over a user mark.":::
 
 1. To filter the details view, select a time range in the timeline graph, or right-click a row and select start and end times to filter the timeline graph.
 
    You can also filter the view by setting intervals on ranges or by selecting multiple user marks.
 
-   :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-set-interval.png" alt-text="Screenshot showing setting a user mark interval":::
+   :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-set-interval.png" alt-text="Screenshot showing setting a user mark interval.":::
 
 ## Related content
 
