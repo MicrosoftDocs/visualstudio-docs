@@ -111,7 +111,7 @@ DIAGHUB_STOP_TRACE_SYSTEM();
 
    Details appear in the User Marks tab.
 
-   :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-view-user-marks-2.png" alt-text="Screenshot showing user marks":::
+   :::image type="content" source="../profiling/media/vs-2022/profiling-user-marks-view-user-marks.png" alt-text="Screenshot showing user marks":::
 
 1. To see the user mark details in the timeline, hover over the marks in the ruler.
 
@@ -126,4 +126,4 @@ DIAGHUB_STOP_TRACE_SYSTEM();
 ## Related content
 
 - [Analyze performance by using CPU profiling](../profiling/cpu-usage.md)
-- [Analyze memory usage](../profiling/analyze-memory-usage.md)
+- [Analyze memory usage](../profiling/memory-usage-without-debugging2.md)
