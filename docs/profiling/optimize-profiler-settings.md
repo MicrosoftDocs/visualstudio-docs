@@ -33,7 +33,7 @@ Many of the tools within the **Performance Profiler** and **Diagnostic Tools** w
 For most profiling tools, the user code option is present in the settings for the summary page of the report.
 
 ::: moniker range=">=vs-2022"
-![Screenshot of Show just my code option](../profiling/media/vs-2022/cpu-usage-show-just-my-code.png "Screenshot of Show just my code option")
+![Screenshot of Show just my code option.](../profiling/media/vs-2022/cpu-usage-show-just-my-code.png "Screenshot of Show just my code option.")
 ::: moniker-end
 
 ## Trace Duration
