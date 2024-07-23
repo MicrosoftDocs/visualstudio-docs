@@ -21,8 +21,6 @@ ms.date: 04/11/2024
 
 # Sign CLI Reference for VSIX Packages
 
-## Name
-
 `sign` - Dotnet tool used to sign files and containers using PFX, CER, or P7B certificates on disk or from Windows Certificate Manager (WCM), Cryptographic Service Providers (CSP), or Azure Key Vault.
 
 > [!IMPORTANT]
