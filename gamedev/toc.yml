@@ -32,3 +32,11 @@
       href: unreal/get-started/vs-tools-unreal-install.md
     - name: Quickstart-Visual Studio Tools for Unreal Engine
       href: unreal/get-started/vs-tools-unreal-quickstart.md
+    - name: Add Unreal Engine class, modules, and plugins in Visual Studio
+      href: unreal/get-started/vs-tools-unreal-add-class-modules-plugins.md
+    - name: View Unreal Engine logging in Visual Studio
+      href: unreal/get-started/vs-tools-unreal-view-logging.md
+    - name: View Unreal Engine macros in Visual Studio
+      href: unreal/get-started/vs-tools-unreal-view-macros.md
+    - name: View Unreal Engine Blueprints in Visual Studio
+      href: unreal/get-started/vs-tools-unreal-view-blueprints.md
