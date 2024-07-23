@@ -160,6 +160,23 @@ To add an Unreal Engine class in Visual Studio, follow these steps. The steps as
 1. Select the **Refresh IntelliSense information using Unreal Editor tools** checkbox to choose whether Visual Studio will use Unreal Editor tools to update the IntelliSense information. The implication of this is ... JTW
 1. Choose **Add** to generate the header and source files for the new class and add them to the Visual Studio solution file. This results in a prompt to reload the project. Choose **Reload** to reload the project.
 
+## Add Unreal Engine plugins in Visual Studio
+
+You can now add Unreal Engine plugins () to your Unreal Engine project from within Visual Studio. You no longer have to switch between the Unreal Editor and Visual Studio to add a plugin, or need to synchronize the Visual Studio solution with your Unreal Engine project file afterwards.
+
+To add an Unreal Engine plugin in Visual Studio, follow these steps. The steps assume that you have the `LyraStarterGame.sln` solution open in Visual Studio:
+
+1. In **Solution Explorer**, choose a folder where you want the new class to go. In the LyraStarterGame project, you could add a new class to the **LyraStarterGame** > **Source** folder, for example.
+1. Right-click the folder and choose **Add** > **Unreal Engine item...** to open the **Add New Item** dialog:
+    :::image type="content" source="../media/vs-add-new-ue-item-dialog-class.png" alt-text="A screenshot of the add new item dialog. It has options for adding an Unreal Engine Common Classes (which is selected), Empty Unreal Engine Module, and Unreal Engine Plugins.":::
+1. Choose **Unreal Engine Common Classes** and then choose **Add** to open the **Add Unreal Engine Class** dialog:
+    :::image type="content" source="../media/vs-add-unreal-engine-class-dialog.png" alt-text="A screenshot of the add new Unreal Engine class dialog. Options for selecting a base such as Actor, Character, and so on are visible. There is a field for the class name and a dropdown for the module to add the class to. The paths to the header file and source file are listed. A checkbox is selected to refresh IntelliSense information using Unreal Editor tools.":::
+1. Choose a name for your class. Visual Studio will warn you if the name conflicts with an existing class or file.
+1. Choose a base class. Selecting a base class ensures that the right headers and macros are included for that class type.
+1. Choose a module to add to your class to using the **Select a module to add the class** dropdown. The module name is the name of the folder that contains the module.
+1. Select the **Refresh IntelliSense information using Unreal Editor tools** checkbox to choose whether Visual Studio will use Unreal Editor tools to update the IntelliSense information. The implication of this is ... JTW
+1. Choose **Add** to generate the header and source files for the new class and add them to the Visual Studio solution file. This results in a prompt to reload the project. Choose **Reload** to reload the project.
+
 ## Next steps
 
 See [Unreal Engine Modules](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-modules)\
