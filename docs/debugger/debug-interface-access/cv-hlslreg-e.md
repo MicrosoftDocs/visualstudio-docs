@@ -68,7 +68,7 @@ typedef enum CV_HLSLREG_e
 
 ## Remarks
 
-Use the [`IDiaSymbol::get_registerType`](../../debugger/debug-interface-access/idiasymbol-get-registerType.md) method to retrieve the register type for an HLSL symbol.
+Use the [`IDiaSymbol::get_registerType`](../../debugger/debug-interface-access/idiasymbol-get-registertype.md) method to retrieve the register type for an HLSL symbol.
 
 ## Requirements
 
@@ -77,4 +77,4 @@ Header: cvconst.h
 ## See also
 
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
-- [`IDiaSymbol::get_registerType`](../../debugger/debug-interface-access/idiasymbol-get-builtinkind.md)
+- [`IDiaSymbol::get_registerType`](../../debugger/debug-interface-access/idiasymbol-get-registertype.md)
