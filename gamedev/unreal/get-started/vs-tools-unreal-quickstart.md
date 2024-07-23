@@ -12,11 +12,7 @@ manager: MarkL
 
 # Quickstart: Visual Studio Tools for Unreal Engine
 
-In this article, download an Unreal Engine (UE) game sample and use Visual Studio Tools for Unreal Engine to:
-
-- [View Unreal Engine Blueprints in Visual Studio](#view-unreal-engine-blueprints-in-visual-studio)
-- [View Unreal Engine macros in Visual Studio](#view-unreal-engine-macros-in-visual-studio)
-- Use the [Unreal Engine toolbar](#unreal-engine-toolbar)
+In this article, download an Unreal Engine (UE) game sample and configure Visual Studio Tools for Unreal Engine. Visual Studio Tools for Unreal Engine is a free Visual Studio extension that helps you develop games with Unreal Engine. It provides a set of features that improve the Unreal Engine development experience in Visual Studio.
 
 ## Prerequisites
 

@@ -1,6 +1,6 @@
 ---
 title: "View Unreal Engine logging in Visual Studio"
-description: "Learn how to add Unreal Engine classes, modules, and plugins to your Unreal Engine project from within Visual Studio"
+description: "Learn how to view Unreal Engine logs from within Visual Studio"
 ms.date: 07/24/2024
 ms.topic: how-to
 ms.service: visual-studio
@@ -32,7 +32,7 @@ After completing the [Quickstart: Visual Studio Tools for Unreal Engine](vs-tool
 1. In `LyraGameplayAbility_RangedWeapon.cpp`, go to line 477. You should see this function: `void ULyraGameplayAbility_RangedWeapon::OnTargetDataReadyCallback`
 1. Insert the following code at the beginning of the function: `UE_LOG(LogLyra, Log, TEXT("shot fired"));` This creates a log entry, associated with the category `LogLyra`, that logs `shot fired` when this function is called.
 1. Run the sample game in Visual Studio by choosing **Debug** > **Start Debugging**. Give the Unreal Editor a few moments to load the Lyra game.
-1. In Visual Studio, open the UE logging window by choosing **View** > **Other Windows** > **Unreal Engine Log** from the Visual Studio main menu. Or use the UE toolbar button to show the log (see the [Unreal Engine toolbar](#unreal-engine-toolbar) section for details).
+1. In Visual Studio, open the UE logging window by choosing **View** > **Other Windows** > **Unreal Engine Log** from the Visual Studio main menu. Or use the UE toolbar button to show the log. For more information about the toolbar, see [Unreal Engine toolbar](vs-tools-unreal-quickstart.md#unreal-engine-toolbar).
 1. In the Unreal Editor, choose the Play button on the toolbar (or `Alt+p`) to start the game.
 1. In the Lyra game, use the `w`, `a`, `s`, `d` keys to navigate the player left to the **Elimination** portal. Position the player over the entry portal to load the game.
 1. Once the game is running, click the mouse button to fire. This creates some log entries in the `LogLyra` category. Now `LogLyra` will appear in the Categories filter for the next step.
