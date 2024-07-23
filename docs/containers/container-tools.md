@@ -104,7 +104,7 @@ The **Container Tools** option in the **Output** window shows what actions are t
 
 After the build completes, the browser opens and displays your app's home page. In the browser address bar, you can see the `localhost` URL and port number for debugging.
 
->[!NOTE]
+> [!NOTE]
 > If you need to change ports for debugging, you can do that in the `launchSettings.json` file. See [Container Launch Settings](container-launch-settings.md).
 
 ## Containers window
