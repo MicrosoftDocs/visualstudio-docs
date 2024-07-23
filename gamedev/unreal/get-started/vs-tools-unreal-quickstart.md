@@ -34,6 +34,8 @@ Lyra is a sample game project for learning about Unreal Engine. See the **Downlo
 
 After you download the game sample, update `LyraStarterGame.uproject` to use the Visual Studio Tools plugin. You could also do this in the Unreal Editor after loading the Lyra project from the main menu under **Edit** > **Plugins** and then find the *Visual Studio Integration Tools* plugin and check the box next to it.
 
+As of Visual Studio 2022 version 17.7, the Visual Studio Tools for Unreal Engine plugin is included with the Unreal Engine installation. It is no longer necessary to view Unreal Engine Blueprints. If you have an earlier version of Visual Studio, follow these instructions to install the plugin manually. See [Install Visual Studio Tools for Unreal Engine](vs-tools-unreal-install.md) for installation instructions.
+
 1. Open the `LyraStarterGame.uproject` file in a text editor. It's in the directory where you installed the game sample.
 1. Add the following to the end of the `Plugins` section:
 
@@ -61,11 +63,11 @@ Activate the Unreal Engine toolbar in Visual Studio from the main menu via **Vie
 
 The toolbar buttons, left to right, do the following:
 
-- The play icon is a quick attach button that attaches to Unreal Engine processes listed in the dropdown to the right. The dropdown lists Unreal Engine related processes, which makes it easier to attach to the Unreal Engine Editor more easily.
+- The play icon is a quick attach button that attaches to processes listed in the dropdown to the right. The dropdown lists Unreal Engine related processes, which makes it easier to attach to the Unreal Engine Editor more easily. You can also use this to attach to any processes.
 - Buttons to start and stop the Unreal Engine integration server. The integration server improves the performance of Unreal Engine integration with Visual Studio. It runs as a background process and automatically updates Blueprint and test information as you work on your project. You can turn it off to reclaim machine resources, and start it when you want the integration improvements. The server is started automatically when you open a UE project in Visual Studio.
-- A button to rescan Unreal Engine blueprint assets. This updates the Visual Studio solution with the latest blueprint assets from the Unreal Engine project.
+- A button to rescan Unreal Engine Blueprint assets. This updates the Visual Studio solution with the latest Blueprint assets from the Unreal Engine project.
 - A button that opens the Unreal Engine log window.
-- A button to open the **Unreal Engine Integration Configuration** window where you can refresh and see the overall configuration status and Visual Studio Integration Tool status, check for blueprint support, see whether get Unreal Engine naming convention checker status, and so on.
+- A button to open the **Unreal Engine Integration Configuration** window where you can refresh and see the overall configuration status and Visual Studio Integration Tool status, check for Blueprint support, see whether get Unreal Engine naming convention checker status, and so on.
 
 ## Next steps
 
