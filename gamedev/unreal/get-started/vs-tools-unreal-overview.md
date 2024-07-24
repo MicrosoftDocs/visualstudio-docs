@@ -42,5 +42,8 @@ Unreal Engine version 4.27 and 5.0 or later.
 
 [Install Visual Studio Tools For Unreal Engine](vs-tools-unreal-install.md)\
 [Quickstart: Visual Studio Tools for Unreal Engine](vs-tools-unreal-quickstart.md)\
+[Add Unreal Engine class, modules, and plugins in Visual Studio](vs-tools-unreal-add-class-module-plugin.md)\
+[View Unreal Engine logging in Visual Studio](vs-tools-unreal-logging.md)\
+[View Unreal Engine Blueprints in Visual Studio](vs-tools-unreal-view-blueprints.md)
 [Overview of Unreal Engine](https://www.unrealengine.com/en-US/features)\
 [Get started with Unreal Engine](https://docs.unrealengine.com/4.27/en-US/Basics/GettingStarted/)
