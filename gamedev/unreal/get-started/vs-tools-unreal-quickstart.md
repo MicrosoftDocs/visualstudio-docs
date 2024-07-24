@@ -67,5 +67,8 @@ The toolbar buttons, left to right, do the following:
 
 ## Next steps
 
-See [Unreal Engine Modules](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-modules)\
-See [Visual Studio Tools for Unreal Engine](./vs-tools-unreal-overview.md) for an overview of Visual Studio Tools for Unreal Engine features.
+[Visual Studio Tools for Unreal Engine](./vs-tools-unreal-overview.md)\
+[Add Unreal Engine class, modules, and plugins in Visual Studio](vs-tools-unreal-add-class-module-plugin.md)\
+[View Unreal Engine Blueprints in Visual Studio](vs-tools-unreal-view-blueprints.md)\
+[View Unreal Engine logging in Visual Studio](vs-tools-unreal-logging.md)\
+[View Unreal Engine macros in Visual Studio](vs-tools-unreal-view-macros.md)

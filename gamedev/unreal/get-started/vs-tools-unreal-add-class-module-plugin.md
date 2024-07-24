@@ -83,5 +83,7 @@ To add an Unreal Engine plugin in Visual Studio, follow these steps. The steps a
 
 ## Related content
 
-- [Unreal Engine Modules](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-modules)
-- [Visual Studio Tools for Unreal Engine](./vs-tools-unreal-overview.md)
+[Visual Studio Tools for Unreal Engine](./vs-tools-unreal-overview.md)\
+[View Unreal Engine Blueprints in Visual Studio](vs-tools-unreal-view-blueprints.md)\
+[View Unreal Engine logging in Visual Studio](vs-tools-unreal-logging.md)\
+[View Unreal Engine macros in Visual Studio](vs-tools-unreal-view-macros.md)
