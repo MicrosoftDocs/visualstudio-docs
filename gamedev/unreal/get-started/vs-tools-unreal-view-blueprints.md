@@ -13,8 +13,7 @@ manager: MarkL
 
 # View Unreal Engine Blueprints in Visual Studio
 
-You can view, but not edit, UE Blueprints from within Visual Studio. This is useful because you can see UE Blueprints without having to switch between the Unreal Editor and Visual Studio.\
-You can also find references to Blueprints and assets in Visual Studio. This is useful because you can see the references without having to switch between the Unreal Editor and Visual Studio.
+You can view, but not edit, UE Blueprint references from within Visual Studio. This is useful because you can see UE Blueprints references without having to switch between the Unreal Editor and Visual Studio.
 
 ## Prerequisites
 
@@ -27,7 +26,7 @@ The following must be installed:
 
 After completing the [Quickstart: Visual Studio Tools for Unreal Engine](vs-tools-unreal-quickstart.md) to download and build the Lyra game, follow these steps to view and find references to Blueprints in the Lyra game sample, all from within Visual Studio.
 
-## View Blueprints
+## View Blueprints references
 
 1. In Visual Studio, open `LyraCharacter.h`. Either search for that file in the Search pane of the **Solution Explorer**, or find it under **Games** > **LyraStarterGame** > **Source** > **LyraGame** > **Character** > **LyraCharacter.h**.
 1. In `LyraCharacter.h`, go to line 96. You should see the following class: `class LYRAGAME_API ALyraCharacter : public AModularCharacter ...`
