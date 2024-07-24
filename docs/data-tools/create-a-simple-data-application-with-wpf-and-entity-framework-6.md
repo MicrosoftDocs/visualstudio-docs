@@ -72,7 +72,7 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
    ![Screenshot of Entity Framework Model New Item.](media/vs-2022/entity-framework-new-project-item.png)
    :::moniker-end
 
-1. Call the model `Northwind_model` and choose **Add**. The **Entity Data Model Wizard** opens. Choose **EF Designer from database** and then click **Next**.
+1. Call the model `Northwind_model` and choose **Add**. The **Entity Data Model Wizard** opens. Choose **EF Designer from database**, and then select **Next**.
 
    ![Screenshot of EF Model from Database.](../data-tools/media/entity-framework-model-from-database.png)
 
