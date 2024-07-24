@@ -13,11 +13,11 @@ manager: MarkL
 
 # View Unreal Engine Blueprints in Visual Studio
 
-You can view, but not edit, UE Blueprint references from within Visual Studio. This is useful because you can see UE Blueprints references without having to switch between the Unreal Editor and Visual Studio.
+You can view, though not edit, Unreal Engine (UE) Blueprint references from within Visual Studio. This is useful because you can see UE Blueprints references without having to switch between the Unreal Editor and Visual Studio.
 
 ## Prerequisites
 
-The following must be installed:
+Install the following:
 
 - Visual Studio version 17.10 or later.
 - Unreal Engine version 5 or later because the example used in this article requires Unreal Engine 5 or later.

@@ -13,7 +13,7 @@ manager: MarkL
 
 # View Unreal Engine logging in Visual Studio
 
-You can use the Visual Studio Tools for Unreal Engine to see UE logging within Visual Studio. This is useful because you can see UE logging without having to switch between the Unreal Editor and Visual Studio.
+Use the Visual Studio Tools for Unreal Engine (UE) to see UE logging within Visual Studio. This is useful because you can see UE logging without having to switch between the Unreal Editor and Visual Studio.
 
 ## Prerequisites
 
@@ -26,7 +26,7 @@ The following must be installed:
 
 ## Add Unreal Engine logging to a sample and see the results in Visual Studio
 
-After completing the [Quickstart: Visual Studio Tools for Unreal Engine](vs-tools-unreal-quickstart.md) to download and build the Lyra game, follow these steps to add Unreal Engine logging to the Lyra game sample and then see the log messages in Visual Studio:
+After completing the [Quickstart: Visual Studio Tools for Unreal Engine](vs-tools-unreal-quickstart.md) to download and build the Lyra game, follow these steps to add Unreal Engine logging to the Lyra game sample and see the log messages in Visual Studio:
 
 1. In Visual Studio, open `LyraGameplayAbility_RangedWeapon.cpp`. Either search for that file in the Search pane of the **Solution Explorer**, or find it under **Games** > **LyraStarterGame** > **Source** > **LyraGame** > **Weapons** > **LyraGameplayAbility_RangedWeapon.cpp**.
 1. In `LyraGameplayAbility_RangedWeapon.cpp`, go to line 477. You should see this function: `void ULyraGameplayAbility_RangedWeapon::OnTargetDataReadyCallback`

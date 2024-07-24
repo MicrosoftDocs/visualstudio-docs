@@ -38,7 +38,7 @@ To install Visual Studio Tools for Unreal Engine:
 1. Look for the installer under the Apps results and double-click it.
 1. When the installer appears, select the version of Visual Studio you're using and then select **Modify**.
 1. Select the **Workloads** tab, then select the **Game development with C++** workload.
-1. In the **Installations details** pane, ensure that under **Game development with C++** > **Optional** that **Visual Studio Tools for Unreal Engine** is selected. If you work with High-Level Shader Language (HLSL) files , ensure that **HLSL Tools** is also selected.
+1. In the **Installations details** pane, ensure that under **Game development with C++** > **Optional** that **Visual Studio Tools for Unreal Engine** is selected. If you work with High-Level Shader Language (HLSL) files, ensure that **HLSL Tools** is also selected.
 1. Select the **Individual components** tab at the top of the dialog.
 1. Under **Installation details** on the right, expand **Desktop development with C++**.
 1. Ensure that under **Optional** that **Windows 10 SDK 10.0.18362.0**, or higher, is selected.
@@ -48,7 +48,7 @@ To install Visual Studio Tools for Unreal Engine:
 
 ## Configure Unreal Engine to use Visual Studio
 
-Epic Games provides the UnrealVS extension for Visual Studio. You don't need to install the plugin to use Visual Studio Tools for Unreal Engine, but it provides convenience features such as making it easier to build UE projects, set command line arguments, batch build projects, and so on. For more information, see [UnrealVS Extension](https://docs.unrealengine.com/using-the-unrealvs-extension-for-unreal-engine-cplusplus-projects/).
+Epic Games provides the UnrealVS extension for Visual Studio. You don't need to install the plugin to use Visual Studio Tools for Unreal Engine. It provides convenience features such as making it easier to build UE projects, set command-line arguments, batch build projects, and so on. For more information, see [UnrealVS Extension](https://docs.unrealengine.com/using-the-unrealvs-extension-for-unreal-engine-cplusplus-projects/).
 
 You can install the Unreal Engine Visual Studio Integration Tool plugin via the [Unreal Engine Marketplace](https://aka.ms/vsituemarketplace) website. Search the marketplace for "Visual Studio Integration Tool". The Unreal Engine Marketplace provides instructions for installing the plugin.
 

@@ -13,11 +13,11 @@ manager: MarkL
 
 # View Unreal Engine macros in Visual Studio
 
-You can use the Visual Studio Tools for Unreal Engine to view UE logging within Visual Studio. This is useful because you can see UE logging without having to switch between the Unreal Editor and Visual Studio.
+You can use the Visual Studio Tools for Unreal Engine (UE) to view UE logging within Visual Studio. This is useful because you can see UE logging without having to switch between the Unreal Editor and Visual Studio.
 
 ## Prerequisites
 
-The following must be installed:
+Install the following:
 
 - Visual Studio version 17.10 or later.
 - Unreal Engine version 5 or later because the example used in this article requires Unreal Engine 5 or later.
