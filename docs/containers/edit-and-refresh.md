@@ -49,7 +49,7 @@ If you have a project and you've added Docker support as described in the [overv
 
 ### Edit your Razor pages and refresh
 
-To quickly iterate changes in your Razor pages, you can start your application in a container. Then, continue to make changes, viewing them as you would with IIS Express.
+To quickly iterate changes in your Razor pages, you can start your application in a container. Then, continue to make changes, viewing them as you would with Internet Information Services (IIS) Express.
 
 1. Make sure that Docker is set up to use the container type (Linux or Windows) that you are using. Right-click on the Docker icon on the Taskbar, and choose **Switch to Linux containers** or **Switch to Windows containers** as appropriate.
 

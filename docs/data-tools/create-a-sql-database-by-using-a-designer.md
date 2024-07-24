@@ -41,7 +41,7 @@ To complete this walkthrough, you need the **.NET desktop development** and **Da
    ![Add New item > Service-based database](media/raddata-vsitemtemplates.png)
    :::moniker-end
 
-4. Name the database **SampleDatabase.mdf**, and then click **Add**.
+4. Name the database **SampleDatabase.mdf**, and then select **Add**.
 
 ### Add a data source
 
