@@ -8,6 +8,7 @@ author: ghogen
 ms.author: ghogen
 ms.manager: mijacobs
 ms.subservice: general-ide
+ms.collection: ce-skilling-ai-copilot
 ---
 # Manage Git repositories in Visual Studio
 
