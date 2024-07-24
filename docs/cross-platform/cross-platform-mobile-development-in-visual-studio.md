@@ -4,7 +4,7 @@ description: Build cross-platform mobile applications for Android, iOS, and Wind
 titleSuffix: ""
 ms.date: 08/26/2022
 ms.subservice: mobile-development
-ms.topic: "conceptual"
+ms.topic: conceptual
 author: therealjohn
 ms.author: johmil
 ---
@@ -15,7 +15,7 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 
 Build your apps by using C# and the .NET Framework, HTML and JavaScript, or C++. Share code, strings, images, and in some cases even the user interface.
 
-If you want to build a game or immersive graphical app, install Visual Studio tools for Unity and enjoy all of the powerful productivity features of Visual Studio with Unity, the popular cross-platform game/graphics engine and development environment for apps that run on iOS, Android, Windows, and other platforms.
+If you want to build a game or immersive graphical app, install Visual Studio Tools for Unity (VSTU) and enjoy all of the powerful productivity features of Visual Studio with Unity, the popular cross-platform game/graphics engine and development environment for apps that run on iOS, Android, Windows, and other platforms.
 
 ## Build an app for Android, iOS, and Windows (.NET Framework)
 
@@ -110,9 +110,9 @@ As you write code in these libraries, you can use IntelliSense to explore the na
 
 <a name="Unity"></a>
 
-## Build a cross-platform game for Android, iOS, and Windows by using Visual Studio tools for Unity
+## Build a cross-platform game for Android, iOS, and Windows by using Visual Studio Tools for Unity
 
-Visual Studio Tools for Unity is a free extension for Visual Studio that integrates Visual Studio's powerful code editing, productivity, and debugging tools with *Unity*, the popular cross-platform gaming/graphics engine and development environment for immersive apps that target Windows, iOS, Android, and other platforms including the web.
+Visual Studio Tools for Unity (VSTU) is a free extension for Visual Studio that integrates Visual Studio's powerful code editing, productivity, and debugging tools with *Unity*, the popular cross-platform gaming/graphics engine and development environment for immersive apps that target Windows, iOS, Android, and other platforms including the web.
 
  :::image type="content" source="../cross-platform/media/vstu_overview.png" alt-text="Screenshot showing the overview of Visual Studio Tools for Unity and development environment.":::
 

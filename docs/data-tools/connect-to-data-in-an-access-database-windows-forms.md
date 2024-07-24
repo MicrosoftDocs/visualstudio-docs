@@ -76,7 +76,7 @@ Connect to databases created with Microsoft 365, Access 2016, Access 2013, Acces
 
 8. Choose **Browse** next to **Database file name**, and then navigate to your `.accdb` file and choose **Open**.
 
-   >[!NOTE]
+   > [!NOTE]
    > If the bitness (32-bit or 64-bit) of Microsoft Office and Visual Studio do not match, you will see an error while connecting to an Access database. In Visual Studio 2019, you will get an error that the database provider is not registered. In Visual Studio 2022, you will see an error that you can't connect to a 32-bit data provider. To resolve this error, make sure that if you are using a 32-bit version of Office, you are using Visual Studio 2019 or earlier; for a 64-bit version of Office, you need Visual Studio 2022 or later.
 
 9. Enter a user name and password (if necessary), and then choose **OK**.
@@ -140,7 +140,7 @@ Connect to databases created with Microsoft 365, Access 2016, Access 2013, Acces
 
 8. Choose **Browse** next to **Database file name**, and then navigate to your `.accdb` file and choose **Open**.
 
-   >[!NOTE]
+   > [!NOTE]
    > If the bitness (32-bit or 64-bit) of Microsoft Office and Visual Studio do not match, you will see an error while connecting to an Access database. In Visual Studio 2019, you will get an error that the database provider is not registered. In Visual Studio 2022, you will see an error that you can't connect to a 32-bit data provider. To resolve this error, make sure that if you are using a 32-bit version of Office, you are using Visual Studio 2019 or earlier; for a 64-bit version of Office, you need Visual Studio 2022 or later.
 
 9. Enter a user name and password (if necessary), and then choose **OK**.

@@ -58,7 +58,15 @@ Note that CA policies enabled on an account might impact the account state or li
 
 ## Update an expired license
 
-If your subscription has expired and you no longer have access rights to Visual Studio, you must renew your subscription or add another account that has a subscription. To see more information about the license you are using, go to **File** > **Account Settings...** and look at the license information on the right side of the dialog. If you have another subscription associated with a different account, [add that account](signing-in-to-visual-studio.md#add-and-switch-user-accounts-in-visual-studio) to the **All Accounts** list on the left side of the dialog box by selecting the **Add an account** link.
+If your extended trial or subscription has expired and you no longer have access rights to Visual Studio, you must renew your subscription, add another account that has a subscription, or enter a Product key. To see more information about the license you are using, go to **File** > **Account Settings...** and look at the license information on the right side of the dialog. 
+
+:::image type="content" source="media/vs-2022/expired-license-account-settings-dialog.png" alt-text="Screenshot of an expired license in Visual Studio." border="false":::
+
+If you have another subscription associated with a different account, [add that account](signing-in-to-visual-studio.md#add-and-switch-user-accounts-in-visual-studio) to the **All Accounts** list on the left side of the dialog box by selecting the **+ Add** dropdown.
+
+You can also enter the [product key for your Visual Studio subscription](/visualstudio/subscriptions/product-keys) in the **Account Settings** dialog. To do this, select the **Unlock with a Product Key** link and enter the product key in the **Enter a product key** dialog.
+
+:::image type="content" source="media/vs-2022/expired-license-enter-product-key.png" alt-text="Screenshot of the Enter a product key dialog when user has an expired license." border="false":::
 
 ## Get support
 
