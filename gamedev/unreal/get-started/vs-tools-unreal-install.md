@@ -48,7 +48,7 @@ To install Visual Studio Tools for Unreal Engine:
 
 ## Configure Unreal Engine to use Visual Studio
 
-Epic Games provides the UnrealVS extension for Visual Studio. You don't need to install the plugin to use Visual Studio Tools for Unreal Engine, but it provides convenience features such as making it easier to build UE projects, set command line arguments, batch build projects, see Blueprints assets in Visual Studio, and so on. For more information, see [UnrealVS Extension](https://docs.unrealengine.com/using-the-unrealvs-extension-for-unreal-engine-cplusplus-projects/).
+Epic Games provides the UnrealVS extension for Visual Studio. You don't need to install the plugin to use Visual Studio Tools for Unreal Engine, but it provides convenience features such as making it easier to build UE projects, set command line arguments, batch build projects, and so on. For more information, see [UnrealVS Extension](https://docs.unrealengine.com/using-the-unrealvs-extension-for-unreal-engine-cplusplus-projects/).
 
 You can install the Unreal Engine Visual Studio Integration Tool plugin via the [Unreal Engine Marketplace](https://aka.ms/vsituemarketplace) website. Search the marketplace for "Visual Studio Integration Tool". The Unreal Engine Marketplace provides instructions for installing the plugin.
 
