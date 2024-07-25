@@ -174,7 +174,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 
     - **Modules** The name of the module containing the function, or the number of modules containing the functions in an [External Code] node.
 
-    To see the function calls that use the highest percentage of the CPU in the call tree view, click **Expand Hot Path**. The hot path can help focus investigation on the area that would have the most impact. 
+    To see the function calls that use the highest percentage of the CPU in the call tree view, click **Expand Hot Path**. The hot path can help focus your investigation on the area that would have the most impact. 
 
 
     ![Screenshot that shows Diagnostics Tools Hot Path.](../profiling/media/vs-2019/diag-tools-hot-path.png "DiagToolsHotPath")
@@ -184,19 +184,21 @@ We recommend that you begin analyzing your data by examining the list of functio
 
 4. To see a different view of the data, select **Flame Graph** from the drop-down list at the top of the pane.
 
-   The flame graph provides a different visualization of the call tree. For more information, see [Identify hot paths with a flame graph](../profiling/flame-graph.md).
+   The flame graph provides a different visualization of the call tree that may help you to analyze the data. For more information, see [Identify hot paths with a flame graph](../profiling/flame-graph.md).
 
 ## View external code
 
-External code are functions in system and framework components that are executed by the code you write. External code includes functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won't be interested in external code, and so the CPU Usage tool gathers the external functions of a user method into one **[External Code]** node.
-
 ::: moniker range>="vs-2022"
+External code are functions in system and framework components that are executed by the code you write. External code includes functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won't be interested in external code, and so the CPU Usage tool gathers the external functions of a user method into one **[External Call]** node.
+
 If you want to view the call paths of external code, deselect **Show Just My Code** from the **Settings** list and then choose **Apply**.
 
 ![Screenshot that shows Settings, then Show Just My Code.](../profiling/media/vs-2022/diag-tools-show-external-code.png "DiagToolsShowExternalCode")
 ::: moniker-end
 
 ::: moniker range="vs-2019"
+External code are functions in system and framework components that are executed by the code you write. External code includes functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won't be interested in external code, and so the CPU Usage tool gathers the external functions of a user method into one **[External Code]** node.
+
 If you want to view the call paths of external code, choose **Show External Code** from the **Filter view** list and then choose **Apply**.
 
 ![Screenshot that shows Choose Filter View, then Show External Code.](../profiling/media/diag-tools-show-external-code.png "DiagToolsShowExternalCode")
