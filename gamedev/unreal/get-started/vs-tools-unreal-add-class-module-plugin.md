@@ -70,11 +70,11 @@ You can now add Unreal Engine plugins to your Unreal Engine project from within 
 
 To add an Unreal Engine plugin in Visual Studio, follow these steps after completing the [Quickstart: Visual Studio Tools for Unreal Engine](vs-tools-unreal-quickstart.md) to download and build the Lyra game. The steps assume that you have the `LyraStarterGame.sln` solution open in Visual Studio:
 
-1. In **Solution Explorer**, choose a folder where you want the new class to go. In the LyraStarterGame project, you could add a new class to the **LyraStarterGame** > **Source** folder, for example.
+1. In **Solution Explorer**, choose a folder where you want the new plugin to go. In the LyraStarterGame project, you could add a new plugin to the **LyraStarterGame** > **Source** folder, for example.
 1. Right-click the folder and choose **Add** > **Unreal Engine item...** to open the **Add New Item** dialog:
     :::image type="content" source="../media/vs-add-new-ue-item-dialog-plugin.png" alt-text="A screenshot of the Add New Item dialog. It has options for adding an Unreal Engine Common Classes, Empty Unreal Engine Module, and Unreal Engine Plugins (which is selected).":::
-1. Choose **Unreal Engine Plugins** and then choose **Add** to open the **Add Unreal Engine Class** dialog:
-    :::image type="content" source="../media/vs-add-unreal-engine-plugin-dialog.png" alt-text="A screenshot of the Add New Unreal Engine plugin dialog. There is a list of Plugin types (Advanced is selected), and fields for the Plugin name, path, author, description, and URL. There is a Is plugin in beta checkbox (unchecked) and a Refresh IntelliSense information using Unreal Editor Tools checkbox (checked).":::
+1. Choose **Unreal Engine Plugins** and then choose **Add** to open the **Add Unreal Engine Plugin** dialog:
+    :::image type="content" source="../media/vs-add-unreal-engine-plugin-dialog.png" alt-text="A screenshot of the Add New Unreal Engine plugin dialog. There is a list of Plugin types (Advanced is selected), and fields for the plugin name, path, author, description, and URL. There's a Is plugin in beta checkbox (unchecked) and a Refresh IntelliSense information using Unreal Editor Tools checkbox (checked).":::
 1. Choose the type of your plugin from the **Plugin type** list.
 1. Provide the **Plugin name**, **Plugin author**, **Plugin Description**, and **Plugin url**.
 1. Check the **Is plugin in beta** box as needed.
