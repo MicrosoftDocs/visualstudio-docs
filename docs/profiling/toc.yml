@@ -110,6 +110,8 @@
     href: events-viewer.md
   - name: Analyze Resource Consumption
     href: application-timeline.md
+  - name: Add user marks to timeline
+    href: add-timeline-graph-user-marks.md
   - name: BenchmarkDotNet
     href: profiling-with-benchmark-dotnet.md
   - name: Analyze GPU usage
