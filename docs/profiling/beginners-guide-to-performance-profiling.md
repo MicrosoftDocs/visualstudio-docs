@@ -189,19 +189,23 @@ We recommend that you begin analyzing your data by examining the list of functio
 ## View external code
 
 ::: moniker range>="vs-2022"
+
 External code are functions in system and framework components that are executed by the code you write. External code includes functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won't be interested in external code, and so the CPU Usage tool gathers the external functions of a user method into one **[External Call]** node.
 
 If you want to view the call paths of external code, deselect **Show Just My Code** from the **Settings** list and then choose **Apply**.
 
 ![Screenshot that shows Settings, then Show Just My Code.](../profiling/media/vs-2022/diag-tools-show-external-code.png "DiagToolsShowExternalCode")
+
 ::: moniker-end
 
 ::: moniker range="vs-2019"
+
 External code are functions in system and framework components that are executed by the code you write. External code includes functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won't be interested in external code, and so the CPU Usage tool gathers the external functions of a user method into one **[External Code]** node.
 
 If you want to view the call paths of external code, choose **Show External Code** from the **Filter view** list and then choose **Apply**.
 
-![Screenshot that shows Choose Filter View, then Show External Code.](../profiling/media/diag-tools-show-external-code.png "DiagToolsShowExternalCode")
+![Screenshot that shows Choose Filter View, then Show External Code.](../profiling/media/diagnostics-tools-show-external-code.png)
+
 ::: moniker-end
 
 Be aware that many external code call chains are deeply nested, so that the width of the Function Name column can exceed the display width of all but the largest of computer monitors. When this happens, function names are shown as **[...]**.
