@@ -41,7 +41,7 @@ Long UE macros can be difficult to read. Visual Studio Tools for Unreal Engine e
 
     :::image type="content" source="../media/vs-unreal-engine-macro-expansion.png" alt-text="A screenshot of the macro expansion window showing the expanded contents of the UE_DEFINE_GAMEPLAY_TAG_STATIC macro.":::
 
-## Relate content
+## Related content
 
 [Visualize C/C++ macro expansion](/cpp/ide/visualize-macro-expansion)\
 [Visual Studio Tools for Unreal Engine](./vs-tools-unreal-overview.md)\
