@@ -55,7 +55,7 @@ Visual Studio provides a toolbar that improves the Unreal Engine development int
 
 Activate the Unreal Engine toolbar in Visual Studio from the main menu via **View** > **Toolbars** > **Unreal Engine**. The toolbar looks like:
 
-:::image type="content" source="../media/ue-toolbar.png" alt-text="A screenshot of the Unreal Engine toolbar in Visual Studio.":::
+:::image type="content" source="../media/unreal-engine-toolbar.png" alt-text="A screenshot of the Unreal Engine toolbar in Visual Studio.":::
 
 The toolbar buttons, left to right, do the following:
 

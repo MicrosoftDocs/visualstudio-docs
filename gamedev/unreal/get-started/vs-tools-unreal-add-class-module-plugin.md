@@ -38,9 +38,11 @@ To add an Unreal Engine module in Visual Studio, follow these steps after comple
 
 1. In **Solution Explorer**, choose a project, such as **LyraStarterGame**, where you want the new module to go.
 1. Right-click the project (be sure a project is selected and not a folder) and choose **Add** > **Unreal Engine item...** to open the **Add New Item** dialog for Unreal Engine items:
-     :::image type="content" source="../media/vs-add-new-ue-item-dialog-module.png" alt-text="A screenshot of the Add New Item menu. Empty Unreal Engine Module is selected.":::
+     :::image type="content" source="../media/vs-add-new-unreal-engine-item-dialog-module.png" alt-text="A screenshot of the Add New Item menu. Empty Unreal Engine Module is selected.":::
 1. Choose **Unreal Engine Module**, provide a module name in the **Name** field, and then choose **Add** to open the **Add Unreal Engine Module** dialog:
-    :::image type="content" source="../media/vs-add-unreal-engine-module-dialog.png" alt-text="A screenshot of the Add Unreal Engine Module dialog. It has a field for the Module name, dropdowns for the Module type (Runtime is selected) and module loading phase (Default is selected). The module path, header, source, and build file paths are listed. The checkbox for Refresh IntelliSense information using Unreal Editor tools is checked.":::
+    :::image type="complex" source="../media/vs-add-unreal-engine-module-dialog.png" alt-text="A screenshot of the Add Unreal Engine Module dialog.":::
+    The Add Unreal Engine Module dialog has a field for the Module name, dropdowns for the Module type (Runtime is selected) and module loading phase (Default is selected). The module path, header, source, and build file paths are listed. The checkbox for Refresh IntelliSense information using Unreal Editor tools is checked.
+    :::image-end:::
 1. Use the drop-downs to select the **Module type** and **Module loading phase**.
 1. Choose **OK** to add the module to the project and update the Visual Studio solution file.
 
@@ -55,9 +57,13 @@ To add an Unreal Engine class in Visual Studio, follow these steps after complet
 
 1. In **Solution Explorer**, choose a folder where you want the new class to go. In the LyraStarterGame project, you could add a new class to the **LyraStarterGame** > **Source** folder, for example.
 1. Right-click the folder and choose **Add** > **Unreal Engine item...** to open the **Add New Item** dialog:
-    :::image type="content" source="../media/vs-add-new-ue-item-dialog-class.png" alt-text="A screenshot of the Add New Item dialog. It has options for adding an Unreal Engine Common Classes (which is selected), Empty Unreal Engine Module, and Unreal Engine Plugins.":::
+    :::image type="complex" source="../media/vs-add-new-unreal-engine-item-dialog-class.png" alt-text="A screenshot of the Add New Item dialog.":::
+    It has options for adding an Unreal Engine Common Classes (which is selected), Empty Unreal Engine Module, and Unreal Engine Plugins.
+    :::image-end:::
 1. Choose **Unreal Engine Common Classes** and then choose **Add** to open the **Add Unreal Engine Class** dialog:
-    :::image type="content" source="../media/vs-add-unreal-engine-class-dialog.png" alt-text="A screenshot of the Add New Unreal Engine class dialog. Options for selecting a base such as Actor, Character, and so on, are visible. There's a field for the class name and a dropdown for the module to add the class to. The paths to the header file and source file are listed. A checkbox is selected to refresh IntelliSense information using Unreal Editor tools.":::
+    :::image type="complex" source="../media/vs-add-unreal-engine-class-dialog.png" alt-text="A screenshot of the Add New Unreal Engine class dialog.":::
+    Options for selecting a base such as Actor, Character, and so on, are visible. There's a field for the class name and a dropdown for the module to add the class to. The paths to the header file and source file are listed. A checkbox is selected to refresh IntelliSense information using Unreal Editor tools.
+    :::image-end:::
 1. Choose a **Class name**. Visual Studio warns you if the name conflicts with an existing class or file.
 1. Choose a **Base class**. Selecting a base class ensures that the right headers and macros are included for that class type.
 1. Choose a module to add to your class to using the **Select a module to add the class** dropdown. The module name is the name of the folder that contains the module.
@@ -72,9 +78,13 @@ To add an Unreal Engine plugin in Visual Studio, follow these steps after comple
 
 1. In **Solution Explorer**, choose a folder where you want the new plugin to go. In the LyraStarterGame project, you could add a new plugin to the **LyraStarterGame** > **Source** folder, for example.
 1. Right-click the folder and choose **Add** > **Unreal Engine item...** to open the **Add New Item** dialog:
-    :::image type="content" source="../media/vs-add-new-ue-item-dialog-plugin.png" alt-text="A screenshot of the Add New Item dialog. It has options for adding an Unreal Engine Common Classes, Empty Unreal Engine Module, and Unreal Engine Plugins (which is selected).":::
+    :::image type="complex" source="../media/vs-add-new-unreal-engine-item-dialog-plugin.png" alt-text="A screenshot of the Add New Item dialog.":::
+     It has options for adding an Unreal Engine Common Classes, Empty Unreal Engine Module, and Unreal Engine Plugins (which is selected).
+    :::image-end:::
 1. Choose **Unreal Engine Plugins** and then choose **Add** to open the **Add Unreal Engine Plugin** dialog:
-    :::image type="content" source="../media/vs-add-unreal-engine-plugin-dialog.png" alt-text="A screenshot of the Add New Unreal Engine plugin dialog. There's a list of Plugin types (Advanced is selected), and fields for the plugin name, path, author, description, and URL. There's an Is plugin in beta checkbox (unchecked) and a Refresh IntelliSense information using Unreal Editor Tools checkbox (checked).":::
+    :::image type="complex" source="../media/vs-add-unreal-engine-plugin-dialog.png" alt-text="A screenshot of the Add New Unreal Engine plugin dialog.":::
+    There's a list of Plugin types (Advanced is selected), and fields for the plugin name, path, author, description, and URL. There's an Is plugin in beta checkbox (unchecked) and a Refresh IntelliSense information using Unreal Editor Tools checkbox (checked).
+    :::image-end:::
 1. Choose the type of your plugin from the **Plugin type** list.
 1. Provide the **Plugin name**, **Plugin author**, **Plugin Description**, and **Plugin url**.
 1. Check the **Is plugin in beta** box as needed.
