@@ -1,7 +1,7 @@
 ---
 title: "Measure CPU utilization in your apps"
 description: Measure and analyze CPU performance issues in your C#, Visual Basic, C++, or F# application by using the debugger-integrated diagnostics tools in Visual Studio.
-ms.date: 12/02/2022
+ms.date: 07/25/2024
 ms.topic: tutorial
 helpviewer_keywords:
   - "Profiling Tools, quick start"
@@ -16,7 +16,7 @@ ms.subservice: debug-diagnostics
 
 # Measure application performance by analyzing CPU utilization (C#, Visual Basic, C++, F#)
 
-Find performance issues while you're debugging with the debugger-integrated **CPU Usage** diagnostic tool.  You can also analyze CPU usage without a debugger attached or by targeting a running app. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+Find performance issues while you're debugging with the debugger-integrated **CPU Usage** diagnostic tool.  You can also analyze CPU usage without a debugger attached or by targeting a running app. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md) and [Analyze performance by using CPU profiling](../profiling/cpu-usage.md).
 
 When the debugger pauses, the **CPU Usage** tool in the Diagnostic Tools window collects information about the functions that are executing in your application. The tool lists the functions that were performing work, and provides a timeline graph you can use to focus on specific segments of the sampling session.
 
@@ -174,21 +174,37 @@ We recommend that you begin analyzing your data by examining the list of functio
 
     - **Modules** The name of the module containing the function, or the number of modules containing the functions in an [External Code] node.
 
-    To see the function calls that use the highest percentage of the CPU in the call tree view, click **Expand Hot Path**.
+    To see the function calls that use the highest percentage of the CPU in the call tree view, click **Expand Hot Path**. The hot path can help focus your investigation on the area that would have the most impact. 
+
 
     ![Screenshot that shows Diagnostics Tools Hot Path.](../profiling/media/vs-2019/diag-tools-hot-path.png "DiagToolsHotPath")
 
     > [!NOTE]
     > If you see code in the call tree marked as "broken" code or "unwalkable stack", this indicates that Event Tracing for Windows (ETW) events were likely dropped. Try collecting the same trace a second time to resolve the issue.
 
+4. To see a different view of the data, select **Flame Graph** from the drop-down list at the top of the pane.
+
+   The flame graph provides a different visualization of the call tree that may help you to analyze the data. For more information, see [Identify hot paths with a flame graph](../profiling/flame-graph.md).
+
 ## View external code
 
-External code are functions in system and framework components that are executed by the code you write. External code include functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won't be interested in external code, and so the CPU Usage tool gathers the external functions of a user method into one **[External Code]** node.
+::: moniker range=">=vs-2022"
 
+External code are functions in system and framework components that are executed by the code you write. External code includes functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won't be interested in external code, and so the CPU Usage tool gathers the external functions of a user method into one **[External Call]** node.
+
+If you want to view the call paths of external code, deselect **Show Just My Code** from the **Settings** list and then choose **Apply**.
+
+![Screenshot that shows Settings, then Show Just My Code.](../profiling/media/vs-2022/diagnostics-tools-show-external-code.png)
+
+::: moniker-end
 ::: moniker range="vs-2019"
+
+External code are functions in system and framework components that are executed by the code you write. External code includes functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won't be interested in external code, and so the CPU Usage tool gathers the external functions of a user method into one **[External Code]** node.
+
 If you want to view the call paths of external code, choose **Show External Code** from the **Filter view** list and then choose **Apply**.
 
-![Screenshot that shows Choose Filter View, then Show External Code.](../profiling/media/diag-tools-show-external-code.png "DiagToolsShowExternalCode")
+![Screenshot that shows Choose Filter View, then Show External Code.](../profiling/media/diag-tools-show-external-code.png)
+
 ::: moniker-end
 
 Be aware that many external code call chains are deeply nested, so that the width of the Function Name column can exceed the display width of all but the largest of computer monitors. When this happens, function names are shown as **[...]**.
