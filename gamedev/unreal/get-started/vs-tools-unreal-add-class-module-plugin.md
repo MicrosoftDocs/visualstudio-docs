@@ -23,7 +23,7 @@ In this article, learn how to use Visual Studio Tools for Unreal Engine to:
 
 The following must be installed:
 
-- Visual Studio version 17.10 or later.
+- Visual Studio version 17.11 (preview version ok) or later.
 - Unreal Engine version 5 or later because the example used in this article requires Unreal Engine 5 or later.
 - Visual Studio Tools for Unreal Engine. See [Install Visual Studio Tools for Unreal Engine](vs-tools-unreal-install.md) for installation instructions.
 - Complete the [Quickstart: Visual Studio Tools for Unreal Engine](vs-tools-unreal-quickstart.md) to download and build the Lyra game and configure it to use Visual Studio Tools for Unreal Engine.
