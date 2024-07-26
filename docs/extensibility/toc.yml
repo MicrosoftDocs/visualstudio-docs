@@ -526,6 +526,8 @@
       href: preparing-extensions-for-windows-installer-deployment.md
     - name: Sign VSIX Packages
       href: signing-vsix-packages.md
+    - name: Sign CLI Reference
+      href: dotnet-sign-cli-reference-vsix.md
     - name: Private Galleries
       items:
       - name: Private Galleries

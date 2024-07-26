@@ -18,7 +18,7 @@ ms.subservice: debug-diagnostics
 
 Application performance measuring tools are essential for developers who want to optimize their code and improve application performance. Visual Studio offers a range of profiling and diagnostics tools that can help you diagnose memory and CPU usage and other application-level issues. With these tools, you can accumulate performance data while you run your application. A profiler can help you make informed decisions quickly by providing a visual depiction of execution times and CPU usage for your application. In this article, we give a quick look at the most common profiling tools.
 
-For help choosing the correct tool, or to see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md) For a tutorial that shows a general approach to optimizing code using the profiling tools, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
+For help with choosing the correct tool, or to see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md) For a tutorial that shows a general approach to optimizing code using the profiling tools, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
 
 ## <a name="post_mortem"></a> Measure performance in release builds
 
@@ -230,14 +230,6 @@ The tool shows each async operation in a list view. You can see information such
 ![.NET Async Tool Stopped](../profiling/media/async-tool-opened.png ".NET Async Tool Stopped")
 ::: moniker-end
 
-## Examine application events
-
-The generic [events viewer](../profiling/events-viewer.md) allows you to view the activity of your application through a list of events, such as module load, thread start, and system configurations, to help better diagnose how your application is performing right within the Visual Studio profiler. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
-
-The tool shows each event in a list view. Columns provide information about each event, such as the event name, timestamp, and process ID.
-
-![Event Viewer Trace](../profiling/media/prof-tour-events-viewer.png "Event Viewer Trace")
-
 ## Analyze database performance (.NET Core)
 
 For .NET Core apps that use ADO.NET or Entity Framework Core, the [Database tool](../profiling/analyze-database.md) allows you to record the database queries that your application makes during a diagnostic session. You can then analyze information about individual queries in order to find places where your app's performance can be improved. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
@@ -253,6 +245,20 @@ Starting in Visual Studio 2019 version 16.7, you can use the [.NET Counters tool
 The tool shows live values for each counter in a list view.
 
 :::image type="content" source="../profiling/media/dotnet-counters-tool-collecting.png" alt-text=".NET Counter tool collecting.":::
+
+## Examine application events
+
+The generic [events viewer](../profiling/events-viewer.md) allows you to view the activity of your application through a list of events, such as module load, thread start, and system configurations, to help better diagnose how your application is performing right within the Visual Studio profiler. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
+
+The tool shows each event in a list view. Columns provide information about each event, such as the event name, timestamp, and process ID.
+
+![Event Viewer Trace](../profiling/media/prof-tour-events-viewer.png "Event Viewer Trace")
+
+::: moniker range=">=vs-2022"
+## View custom events in the timeline graphs
+
+You can programatically create custom events that appear as icons in the timeline graphs such as the CPU utilization and memory usage timeline graphs. For more information, see [Add user marks to timeline](../profiling/add-timeline-graph-user-marks.md).
+::: moniker-end
 
 ## Analyze resource consumption (XAML)
 
