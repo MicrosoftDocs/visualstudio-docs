@@ -1126,6 +1126,8 @@
           href: idiasymbol-get-isnaked.md
         - name: IDiaSymbol::get_isOptimizedAway
           href: idiasymbol-get-isoptimizedaway.md
+        - name: IDiaSymbol::get_isOptimizedForSpeed
+          href: idiasymbol-get-isoptimizedforspeed.md
         - name: IDiaSymbol::get_isPGO
           href: idiasymbol-get-ispgo.md
         - name: IDiaSymbol::get_isPointerBasedOnSymbolValue
