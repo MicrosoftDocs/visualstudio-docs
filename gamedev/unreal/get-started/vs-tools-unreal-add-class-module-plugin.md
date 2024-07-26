@@ -74,11 +74,11 @@ To add an Unreal Engine plugin in Visual Studio, follow these steps after comple
 1. Right-click the folder and choose **Add** > **Unreal Engine item...** to open the **Add New Item** dialog:
     :::image type="content" source="../media/vs-add-new-ue-item-dialog-plugin.png" alt-text="A screenshot of the Add New Item dialog. It has options for adding an Unreal Engine Common Classes, Empty Unreal Engine Module, and Unreal Engine Plugins (which is selected).":::
 1. Choose **Unreal Engine Plugins** and then choose **Add** to open the **Add Unreal Engine Plugin** dialog:
-    :::image type="content" source="../media/vs-add-unreal-engine-plugin-dialog.png" alt-text="A screenshot of the Add New Unreal Engine plugin dialog. There is a list of Plugin types (Advanced is selected), and fields for the plugin name, path, author, description, and URL. There's a Is plugin in beta checkbox (unchecked) and a Refresh IntelliSense information using Unreal Editor Tools checkbox (checked).":::
+    :::image type="content" source="../media/vs-add-unreal-engine-plugin-dialog.png" alt-text="A screenshot of the Add New Unreal Engine plugin dialog. There's a list of Plugin types (Advanced is selected), and fields for the plugin name, path, author, description, and URL. There's an Is plugin in beta checkbox (unchecked) and a Refresh IntelliSense information using Unreal Editor Tools checkbox (checked).":::
 1. Choose the type of your plugin from the **Plugin type** list.
 1. Provide the **Plugin name**, **Plugin author**, **Plugin Description**, and **Plugin url**.
 1. Check the **Is plugin in beta** box as needed.
-1. Select the **Refresh IntelliSense information using Unreal Editor tools** checkbox to choose whether Visual Studio will use Unreal Editor tools to update the IntelliSense information. This causes the Unreal Build Tool to regenerate the Visual Studio solution file.
+1. Select the **Refresh IntelliSense information using Unreal Editor tools** checkbox to choose whether Visual Studio uses the Unreal Editor tools to update the IntelliSense information. This causes the Unreal Build Tool to regenerate the Visual Studio solution file.
 1. Choose **Add** to generate the plugin header and source files for the new plugin and add them to the Visual Studio solution file. This results in a prompt to reload the project. Choose **Reload** to reload the project.
 
 ## Related content
