@@ -67,7 +67,6 @@ The toolbar buttons, left to right, do the following:
 
 ## Next steps
 
-[Visual Studio Tools for Unreal Engine](./vs-tools-unreal-overview.md)\
 [Add Unreal Engine class, modules, and plugins in Visual Studio](vs-tools-unreal-add-class-module-plugin.md)\
 [View Unreal Engine Blueprints in Visual Studio](vs-tools-unreal-view-blueprints.md)\
 [View Unreal Engine logging in Visual Studio](vs-tools-unreal-logging.md)\
