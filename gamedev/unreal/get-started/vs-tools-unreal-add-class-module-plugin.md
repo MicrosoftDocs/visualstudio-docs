@@ -1,5 +1,5 @@
 ---
-title: "Add Unreal Engine class, modules, and plugins in Visual Studio"
+title: "Add Unreal Engine classes, modules, and plugins in Visual Studio"
 description: "Learn how to add Unreal Engine classes, modules, and plugins to your Unreal Engine project from within Visual Studio"
 ms.date: 07/25/2024
 ms.topic: how-to
@@ -11,7 +11,7 @@ manager: MarkL
 #customer intent: As a C++ game developer using Unreal Engine and Visual Studio, I want to add classes, modules, and plugins to my Unreal Engine project from within Visual Studio so that I can stay in my development environment and not have to switch between the Unreal Engine Editor and Visual Studio.
 ---
 
-# Add Unreal Engine class, modules, and plugins in Visual Studio
+# Add Unreal Engine classes, modules, and plugins in Visual Studio
 
 In this article, learn how to use Visual Studio Tools for Unreal Engine to:
 
@@ -23,8 +23,8 @@ In this article, learn how to use Visual Studio Tools for Unreal Engine to:
 
 The following must be installed:
 
-- Visual Studio version 17.11 (preview version ok) or later.
-- Unreal Engine version 5 or later because the example used in this article requires Unreal Engine 5 or later.
+- Visual Studio version 17.11 (17.11 preview versions ok) or later.
+- Unreal Engine version 5 or later.
 - Visual Studio Tools for Unreal Engine. See [Install Visual Studio Tools for Unreal Engine](vs-tools-unreal-install.md) for installation instructions.
 - Complete the [Quickstart: Visual Studio Tools for Unreal Engine](vs-tools-unreal-quickstart.md) to download and build the Lyra game and configure it to use Visual Studio Tools for Unreal Engine.
 
@@ -32,14 +32,14 @@ The following must be installed:
 
 You can now add Unreal Engine [modules](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-modules) to your Unreal Engine project from within Visual Studio. You no longer have to switch between the Unreal Engine Editor and Visual Studio to add a module, or need to synchronize the Visual Studio solution with your Unreal Engine project file afterwards.
 
-Modules are a way to organize your code in Unreal Engine. They help you group related classes and assets together and organize your code into self-contained units that can be loaded and unloaded at runtime. Creating modules can be tedious and error-prone if you do it manually because it requires editing configuration files and adding boilerplate code. Visual Studio makes it easier to create modules by providing a dialog that guides you through the process.
+Modules are a way to organize your code in Unreal Engine. They help you group related classes and assets together and organize your code into self-contained units that can be loaded and unloaded at runtime. Creating modules can be tedious and error-prone if you do it manually because it requires editing configuration files and adding boilerplate code. Visual Studio makes it easier to create modules by providing a dialog that guides you through the process and doing the configuration and adding the boilerplate for you.
 
-To add an Unreal Engine module in Visual Studio, follow these steps after completing the [Quickstart: Visual Studio Tools for Unreal Engine](vs-tools-unreal-quickstart.md) to download and build the Lyra game. These steps assume that you have the `LyraStarterGame.sln` solution open in Visual Studio:
+To add an Unreal Engine module in Visual Studio, follow these steps after completing [Quickstart: Visual Studio Tools for Unreal Engine](vs-tools-unreal-quickstart.md) to download and build the Lyra game. These steps assume that you have the `LyraStarterGame.sln` solution open in Visual Studio:
 
 1. In **Solution Explorer**, choose a project, such as **LyraStarterGame**, where you want the new module to go.
 1. Right-click the project (be sure a project is selected and not a folder) and choose **Add** > **Unreal Engine item...** to open the **Add New Item** dialog for Unreal Engine items:
      :::image type="content" source="../media/vs-add-new-ue-item-dialog-module.png" alt-text="A screenshot of the Add New Item menu. Empty Unreal Engine Module is selected.":::
-1. Choose **Unreal Engine Module** to open the **Add Unreal Engine Module** dialog. Provide a module name in the **Name** field, and then choose **Add** to open the **Add Unreal Engine Module** dialog:
+1. Choose **Unreal Engine Module**, provide a module name in the **Name** field, and then choose **Add** to open the **Add Unreal Engine Module** dialog:
     :::image type="content" source="../media/vs-add-unreal-engine-module-dialog.png" alt-text="A screenshot of the Add Unreal Engine Module dialog. It has a field for the Module name, dropdowns for the Module type (Runtime is selected) and module loading phase (Default is selected). The module path, header, source, and build file paths are listed. The checkbox for Refresh IntelliSense information using Unreal Editor tools is checked.":::
 1. Use the drop-downs to select the **Module type** and **Module loading phase**.
 1. Choose **OK** to add the module to the project and update the Visual Studio solution file.
@@ -51,7 +51,7 @@ The **Build** path shows where the `Build.cs` file is created. The `Build.cs` fi
 
 You can now add Unreal Engine classes to your Unreal Engine project from within Visual Studio. You no longer have to switch between the Unreal Editor and Visual Studio to add a class, or need to synchronize the Visual Studio solution with your Unreal Engine project file afterwards.
 
-To add an Unreal Engine class in Visual Studio, follow these steps after completing the [Quickstart: Visual Studio Tools for Unreal Engine](vs-tools-unreal-quickstart.md) to download and build the Lyra game. The steps assume that you have the `LyraStarterGame.sln` solution open in Visual Studio:
+To add an Unreal Engine class in Visual Studio, follow these steps after completing [Quickstart: Visual Studio Tools for Unreal Engine](vs-tools-unreal-quickstart.md) to download and build the Lyra game. The steps assume that you have the `LyraStarterGame.sln` solution open in Visual Studio:
 
 1. In **Solution Explorer**, choose a folder where you want the new class to go. In the LyraStarterGame project, you could add a new class to the **LyraStarterGame** > **Source** folder, for example.
 1. Right-click the folder and choose **Add** > **Unreal Engine item...** to open the **Add New Item** dialog:
@@ -68,7 +68,7 @@ To add an Unreal Engine class in Visual Studio, follow these steps after complet
 
 You can now add Unreal Engine plugins to your Unreal Engine project from within Visual Studio. You no longer have to switch between the Unreal Editor and Visual Studio to add a plugin, or need to synchronize the Visual Studio solution with your Unreal Engine project file afterwards.
 
-To add an Unreal Engine plugin in Visual Studio, follow these steps after completing the [Quickstart: Visual Studio Tools for Unreal Engine](vs-tools-unreal-quickstart.md) to download and build the Lyra game. The steps assume that you have the `LyraStarterGame.sln` solution open in Visual Studio:
+To add an Unreal Engine plugin in Visual Studio, follow these steps after completing [Quickstart: Visual Studio Tools for Unreal Engine](vs-tools-unreal-quickstart.md) to download and build the Lyra game. The steps assume that you have the `LyraStarterGame.sln` solution open in Visual Studio:
 
 1. In **Solution Explorer**, choose a folder where you want the new plugin to go. In the LyraStarterGame project, you could add a new plugin to the **LyraStarterGame** > **Source** folder, for example.
 1. Right-click the folder and choose **Add** > **Unreal Engine item...** to open the **Add New Item** dialog:
