@@ -32,7 +32,7 @@ After you create an association, when you select the association in the **O/R De
 
 ## To create an association between entity classes
 
-1. Right-click the entity class that represents the parent class in the association, point to **Add**, and then click **Association**.
+1. Right-click the entity class that represents the parent class in the association, point to **Add**, and then select **Association**.
 
 2. Verify that the correct **Parent Class** is selected in the **Association Editor** dialog box.
 

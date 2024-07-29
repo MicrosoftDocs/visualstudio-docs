@@ -36,9 +36,9 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
 1. On the **Data** menu, click **Add New Data Source**.
 
-2. Select **Service** on the **Choose a Data Source Type** page, and then click **Next**.
+2. Select **Service** on the **Choose a Data Source Type** page, and then select **Next**.
 
-3. Enter the address of the service you want to use, or click **Discover** to locate services in the current solution, and then click **Go**.
+3. Enter the address of the service you want to use, or click **Discover** to locate services in the current solution, and then select **Go**.
 
 4. Optionally, you can type a new **Namespace** in place of the default value.
 
