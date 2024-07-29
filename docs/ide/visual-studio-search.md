@@ -32,7 +32,7 @@ If you're using Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/re
 
 With **All-In-One Search**, not only can you search for features, but you can also search your code elements, such as files and symbols.
 
-:::image type="content" source="media/vs-2022/all-one-search.png" alt-text="Screenshot of the All-In-One Search experience in Visual Studio 2022 version 17.6 or later."::: 
+:::image type="content" source="media/vs-2022/all-in-one-search-member-filter.png" alt-text="Screenshot of the All-In-One Search experience in Visual Studio 2022 version 17.6 or later."::: 
 
 The new search experience appears as an option next to the menu bar. 
 
