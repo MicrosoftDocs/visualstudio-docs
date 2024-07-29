@@ -71,5 +71,5 @@ You can use the integrated features of the build system to run the analysis tool
 ## Related content
 
 - [Overview of .NET Compiler Platform-based analyzers](../code-quality/roslyn-analyzers-overview.md)
-- [Using Rule Sets to Group Code Analysis Rules](/previous-versions/visualstudio/visual-studio-2019//code-quality/using-rule-sets-to-group-code-analysis-rules.md)
+- [Using Rule Sets to Group Code Analysis Rules](/previous-versions/visualstudio/visual-studio-2019/code-quality/using-rule-sets-to-group-code-analysis-rules)
 - [How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)

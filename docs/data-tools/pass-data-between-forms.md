@@ -81,9 +81,9 @@ This tutorial uses SQL Server Express LocalDB and the Northwind sample database.
 
 2. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
 
-3. Select **Database** on the **Choose a Data Source Type** page, and then click **Next**.
+3. Select **Database** on the **Choose a Data Source Type** page, and then select **Next**.
 
-4. On the **Choose a database model** page, verify that **Dataset** is specified, and then click **Next**.
+4. On the **Choose a database model** page, verify that **Dataset** is specified, and then select **Next**.
 
 5. On the **Choose your Data Connection** page, do one of the following:
 
@@ -91,13 +91,13 @@ This tutorial uses SQL Server Express LocalDB and the Northwind sample database.
 
     - Select **New Connection** to launch the **Add/Modify Connection** dialog box.
 
-6. If your database requires a password and if the option to include sensitive data is enabled, select the option and then click **Next**.
+6. If your database requires a password and if the option to include sensitive data is enabled, select the option, and then select **Next**.
 
 7. On the **Save connection string to the Application Configuration file** page, click **Next**.
 
 8. On the **Choose your Database Objects** page, expand the **Tables** node.
 
-9. Select the **Customers** and **Orders** tables, and then click **Finish**.
+9. Select the **Customers** and **Orders** tables, and then select **Finish**.
 
      The **NorthwindDataSet** is added to your project, and the **Customers** and **Orders** tables appear in the **Data Sources** window.
 
@@ -135,9 +135,9 @@ Add a TableAdapter query to Form2 to load orders for the selected customer on Fo
 
 2. Right-click the **OrdersTableAdapter**, and select **Add Query**.
 
-3. Leave the default option of **Use SQL statements**, and then click **Next**.
+3. Leave the default option of **Use SQL statements**, and then select **Next**.
 
-4. Leave the default option of **SELECT which returns rows**, and then click **Next**.
+4. Leave the default option of **SELECT which returns rows**, and then select **Next**.
 
 5. Add a `WHERE` clause to the query, to return `Orders` based on the `CustomerID`. The query should be similar to the following:
 
@@ -154,7 +154,7 @@ Add a TableAdapter query to Form2 to load orders for the selected customer on Fo
 
 7. For the **Fill a DataTableMethod Name**, type `FillByCustomerID`.
 
-8. Clear the **Return a DataTable** option, and then click **Next**.
+8. Clear the **Return a DataTable** option, and then select **Next**.
 
 9. Click **Finish**.
 
@@ -175,7 +175,7 @@ Add a TableAdapter query to Form2 to load orders for the selected customer on Fo
 
 ## Create a method on Form1 to pass data and display Form2
 
-1. In **Form1**, right-click the Customer data grid, and then click **Properties**.
+1. In **Form1**, right-click the Customer data grid, and then select **Properties**.
 
 2. In the **Properties** window, click **Events**.
 
