@@ -39,7 +39,7 @@ The following table lists the internal default settings for these registry value
 
 |Registry item|Default value|Explanation|
 |-------------------|-------------------|-----------------|
-|**SmartCaptionExpression**|`(\\p{Ll})(\\p{Lu})&#124;_+`|Matches a lowercase character followed by an uppercase character or an underscore.|
+|**SmartCaptionExpression**|`(\\p{Ll})(\\p{Lu})|_+`|Matches a lowercase character followed by an uppercase character or an underscore.|
 |**SmartCaptionReplacement**|**$1 $2**|The **$1** represents any characters matched in the first parentheses of the expression, and the **$2** represents any characters matched in the second parentheses. The replacement is the first match, a space, and then the second match.|
 |**SmartCaptionSuffix**|**:**|Represents a character appended to the returned string. For example, if the caption is `Company Name`, the suffix makes it `Company Name:`|
 
