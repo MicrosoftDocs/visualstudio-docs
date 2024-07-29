@@ -53,6 +53,10 @@ To quickly get a filtered experience, you can type the corresponding prefixes be
 |members  |`m:`     | **Alt**+**\\**                 |
 |text     |`x:`     | **Shift**+**Alt**+**F**        |
 
+In Visual Studio 17.11 and later, you can set the scope of code search to the current document, current project, or the whole solution.
+
+:::image type="content" alt-text="Screenshot of code search scope options." source="./media/vs-2022/search-code-scope.png" :::
+
 > [!TIP]
 > To learn more about the new search experience, see both the [Better search in Visual Studio](https://devblogs.microsoft.com/visualstudio/new-better-search-in-visual-studio/) and [All-In-One Search available in 17.6](https://devblogs.microsoft.com/visualstudio/all-in-one-search-available-in-17-6/) blog posts.
 
