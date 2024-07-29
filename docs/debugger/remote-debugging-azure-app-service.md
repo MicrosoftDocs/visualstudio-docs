@@ -66,6 +66,8 @@ Make sure you have completed the following steps in Visual Studio before debuggi
 
 1. Select **Find..** next to the **Connection Target** field to open a dialog that allows you to browse your Azure subscriptions and app services.
 
+   If you are not already signed in with your Azure subscription, select **Find...** and then you can [sign in](../azure/how-to-sign-in-with-azure-subscription.md).
+
 1. Locate and select the App Service instance you created in the previous step, and then choose **OK**.
 
 1. The `w3wp.exe` process should appear in the list of available processes to connect to, which is the main process of the Azure App Service that hosts the deployed application. Select that process and then choose **Attach** in the bottom right to connect the Visual Studio debugger.
