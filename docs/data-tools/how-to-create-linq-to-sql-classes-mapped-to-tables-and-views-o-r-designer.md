@@ -44,7 +44,7 @@ After you create entity classes by using the **O/R Designer**, you can create an
 
 3. In the **Data Sources** window, click **Add New Data Source**.
 
-4. Click **Object** on the **Choose a Data Source Type** page and then click **Next**.
+4. Click **Object** on the **Choose a Data Source Type** page, and then select **Next**.
 
 5. Expand the nodes and locate and select your class.
 

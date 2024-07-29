@@ -25,10 +25,10 @@ Creating an object model that uses inheritance (and corresponds to relational da
 
 3. Drag a second copy of the table onto the **O/R Designer** and rename it. This is the derived class, or subclass.
 
-4. Click **Inheritance** in the **Object Relational Designer** tab of the **Toolbox**, and then click the subclass (the table you renamed) and connect it to the base class.
+4. Click **Inheritance** in the **Object Relational Designer** tab of the **Toolbox**, and then select the subclass (the table you renamed) and connect it to the base class.
 
     > [!NOTE]
-    > Click the **Inheritance** item in the **Toolbox** and release the mouse button, click the second copy of the class you created in step 3, and then click the first class you created in step 2. The arrow on the inheritance line points to the first class.
+    > Click the **Inheritance** item in the **Toolbox** and release the mouse button, click the second copy of the class you created in step 3, and then select the first class you created in step 2. The arrow on the inheritance line points to the first class.
 
 5. In each class, delete any object properties that you do not want to appear and that are not used for associations. You receive an error if you attempt to delete object properties used for associations: [`The property <property name> cannot be deleted because it is participating in the association <association name>`](../data-tools/the-property-property-name-cannot-be-deleted-because-it-is-participating-in-the-association-association-name.md).
 
