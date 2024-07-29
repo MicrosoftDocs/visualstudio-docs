@@ -57,8 +57,15 @@ This refactoring applies to:
 
       ![Rename - VB](media/rename-rename-vb.png)
 
+   ::: moniker range=">= vs-2022"
+   > [!TIP]
+   > You can also update comments and other strings to use this new name, as well as [preview the changes](../../ide/preview-changes.md) before saving, using the checkboxes in the **Rename** box that appear when you open the drop-down menu.
+   ::: moniker-end
+
+   ::: moniker range="vs-2019"
    > [!TIP]
    > You can also update comments and other strings to use this new name, as well as [preview the changes](../../ide/preview-changes.md) before saving, using the checkboxes in the **Rename** box that appears at the top right of your editor.
+   ::: moniker-end
 
 4. When you're happy with the change, choose the **Apply** button or press **Enter** and the changes will be committed.
 
