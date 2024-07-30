@@ -53,7 +53,7 @@ To quickly get a filtered experience, you can type the corresponding prefixes be
 |members  |`m:`     | **Alt**+**\\**                 |
 |text     |`x:`     | **Shift**+**Alt**+**F**        |
 
-In Visual Studio 17.11 and later, you can set the scope of code search to the current document, current project, or the entire solution. You can set different scopes for different filters. For example, the default experience can be set to look through *Entire solution* and `members` can be set to look through only the current document. Your selections will be remembered the next time you use code search.
+In Visual Studio 17.11 and later, you can set the scope of code search to the current document, current project, the entire solution, or external files that are referenced in your solution, such as header files or files open from locations outside your solution. You can set different scopes for different filters. For example, the default experience can be set to look through *Entire solution* and `members` can be set to look through only the current document. Your selections will be remembered the next time you use code search.
 
 :::image type="content" alt-text="Screenshot of code search scope options." source="./media/vs-2022/search-code-scope.png" :::
 
