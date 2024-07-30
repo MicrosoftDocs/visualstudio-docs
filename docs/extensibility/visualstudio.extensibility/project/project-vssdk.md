@@ -120,7 +120,7 @@ When using `WithRequired`, ensures that only projects containing specified prope
 IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> projectWithFiles = workSpace
     .Projects
     .With(p => new { p.Path, p.Guid })
-    .WithRequired(p => p.Files.Where(f => f.FileName == "information.txt"))
+    .WithRequired(p => p.Files.Where(f => f.FileName == "information"))
     .QueryAsync(cancellationToken);
 ```
 
@@ -149,15 +149,15 @@ At the level of individual projects, each project possesses a `RulesResults` att
 In the following query, rather than retrieving every rule present in ActiveConfigurations, we specifically target the CompilerCommandLineArgs rule. The query results will include both the rule name and the items associated with it.
 
 ```csharp
-    var results = await workSpace
-        .Projects
-        .With(p => p.Path)
-        .With(p => p.ActiveConfigurations
-            .With(c => c.RuleResultsByRuleName("CompilerCommandLineArgs")
-                .With(r => r.RuleName)
-                .With(r => r.Items
-                    .With(i => i.Name))))
-        .ExecuteQueryAsync();
+var results = workSpace
+    .Projects
+    .With(p => p.Path)
+    .With(p => p.ActiveConfigurations
+        .With(c => c.RuleResultsByRuleName("CompilerCommandLineArgs")
+            .With(r => r.RuleName)
+            .With(r => r.Items
+                .With(i => i.Name))))
+    .QueryAsync();
 ```
 
 ### Example using `ProjectsByCapabilities` filtering
@@ -176,9 +176,9 @@ IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> webProjects = workspace
 The `With` clause will return the default set of properties. However, using `PropertiesByName` will return results with the desired properties.
 
 ```csharp
-IQueryResults<IPropertySnapshot>  properties = await myproject
+IQueryResults<IPropertySnapshot>  properties = myproject
     .PropertiesByName("FileName", "LocalPath")
-    .ExecuteQueryAsync();
+    .QueryAsync();
 ```
 
 ## Use nested queries to specify desired properties
@@ -221,17 +221,17 @@ The project model in Visual Studio includes collections for projects and their c
 In the following query, the `Get` method retrieves the child collection, `Files`, from a project identified by its specific Guid.
 
 ```csharp
-IQueryResults<IFileSnapshot> files = await querySpace
+IAsyncEnumerable<IQueryResultItem<IFileSnapshot>> files = querySpace
     .Projects
     .Where(p => p.Guid == knownGuid)
     .Get(p => p.Files
         .With(f => new { f.Path, f.IsHidden, f.IsSearchable }))
-    .ExecuteQueryAsync();
+    .QueryAsync();
 
-    foreach (IFileSnapshot file in files)
-    {
-       ...
-    }
+await foreach (IQueryResultItem<IFileSnapshot> file in files)
+{
+    ...
+}
 ```
 
 ## Query additional information from a previously returned item
@@ -239,7 +239,7 @@ IQueryResults<IFileSnapshot> files = await querySpace
 You can use the results from a previous query as the base for additional queries.
 
 ```csharp
-IQueryResults<IProjectSnapshot> allProjects = await querySpace
+IQueryResults<IProjectSnapshot> allProjects =  querySpace
     .Projects
     .With(p => p.Path)
     .With(p => p.Guid)
@@ -248,9 +248,8 @@ IQueryResults<IProjectSnapshot> allProjects = await querySpace
 foreach (IProjectSnapshot project in allProjects)
 {
     // Gets child collections
-    var files = await project.Files
-        .With(f => new { f.Path, f.ItemType })
-        .ExecuteQueryAsync();
+    IAsyncEnumerable<IQueryResultItem<IFileSnapshot>> files = project.Files
+        .With(f => new { f.Path, f.ItemType }).QueryAsync();
 }
 ```
 
@@ -282,7 +281,7 @@ IQueryResult<IProjectSnapshot> updatedProjects = myproject
 ```csharp
 IQueryResult<IProjectSnapshot> updatedProjects = myproject
     .AsUpdatable()
-    .Rename("NewProjectName", textContent)
+    .Rename("NewProjectName")
     .ExecuteAsync(cancellationToken);
 ```
 
@@ -562,10 +561,10 @@ var result = await workSpace.Solutions
 A solution configuration is a collection of projects that are included in the build when the configuration is active. The example below shows how to query for the names of the solution configurations.
 
 ```csharp
-var result = await workSpace.Solutions
+var result = workSpace.Solutions
     .With(solution => solution.SolutionConfigurations
         .With(solutionconfiguration => solutionconfiguration.Name))
-    .ExecuteQueryAsync();
+    .QueryAsync();
 ```
 
 ### Example of adding a solution configuration
@@ -748,10 +747,10 @@ private class TrackerObserver : IObserver<IQueryTrackUpdates<IFileSnapshot>>
 In this code sample, the first result from the query is skipped. For example, if there were three projects in the solution, the first result will be skipped and the query will return the two remaining projects. Note: the order is not guaranteed.
 
 ```csharp
-var projects = await workSpace.Projects
+var projects = workSpace.Projects
         .With(proj => proj.Name)
         .Skip(1)
-       .ExecuteQueryAsync(new CancellationToken());
+       .QueryAsync();
 ```
 
 ## Next steps

@@ -274,9 +274,7 @@ IQueryResult<IProjectSnapshot> updatedProjects = await workspace.UpdateProjectsA
 
 ## Query for project properties
 
-You can use a `Get` clause to query for project properties. The following query returns a collection of [`IPropertySnapshot`](/dotnet/api/microsoft.visualstudio.projectsystem.query.ipropertysnapshot) that contains entries for the two properties requested. `IPropertySnapshot` contains the property name and value at a point in time.
-
-This query asynchronously retrieves properties named `RootNamespace` and `AssemblyVersion` from a collection of projects. It operates on `myProjects`, which is a previously obtained `IProjectSnapshot` object. The query first transforms this collection into a queryable format using `AsQueryable`, then identifies the specific properties to be retrieved using Get. Finally, it executes the query asynchronously with QueryAsync, incorporating a cancellation token to control the duration of the operation.
+This query asynchronously retrieves projects with the specified properties `RootNamespace` and `AssemblyVersion` from a collection of projects.
 
 ```csharp
 // We assume that we can find the "RootNamespace" property in the result.
