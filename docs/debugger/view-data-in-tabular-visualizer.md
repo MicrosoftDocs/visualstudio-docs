@@ -63,7 +63,7 @@ You can use the right-click context menu to customize the view:
 
 ## Modify the visualizer expression
 
-Starting in Visual Studio 2022 version 17.11 Preview 2, you can directly change the **Expression** textbox with a modified LINQ expression. The visualizer data gets updated, reflecting the data change resulting from your new query.
+Starting in Visual Studio 2022 version 17.11 Preview 6, you can directly change the **Expression** textbox with a modified LINQ expression. The visualizer data gets updated, reflecting the data change resulting from your new query.
 
 :::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-edit-expression.png" alt-text="Screenshot of View the visualizer data edit the expression.":::
 
