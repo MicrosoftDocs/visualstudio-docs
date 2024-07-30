@@ -1,7 +1,7 @@
 ---
 title: CPU profiling in the Performance Profiler
 description: Learn about the CPU profiler performance tool, which shows the CPU time and percentage spent executing code in C++, C#, Visual Basic, and JavaScript apps.
-ms.date: 08/15/2023
+ms.date: 07/25/2024
 ms.topic: how-to
 ms.custom: "profiling-seo"
 author: mikejo5000
@@ -147,14 +147,16 @@ You can click the **Expand Hot Path** and **Show Hot Path** buttons to see the f
 
 #### <a name="BKMK_External_Code"></a> External code
 
-System and framework functions that are executed by your code are called *external code*. External code functions start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you aren't interested in external code, so the CPU Usage call tree gathers the external functions of a user method into one **[External Code]** node.
-
 ::: moniker range=">=vs-2022"
+System and framework functions that are executed by your code are called *external code*. External code functions start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you aren't interested in external code, so the CPU Usage call tree gathers the external functions of a user method into one **[External Call]** node.
+
 To view the call paths of external code, switch the current view to the **Call Tree** view or right-click and select **View in Call Tree**.
 
 ![Screenshot that shows Show in Call Tree.](../profiling/media/vs-2022/cpu-use-wt-call-tree-view.png "Show Call Tree")
 ::: moniker-end
 ::: moniker range="vs-2019"
+System and framework functions that are executed by your code are called *external code*. External code functions start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you aren't interested in external code, so the CPU Usage call tree gathers the external functions of a user method into one **[External Code]** node.
+
 To view the call paths of external code, on the main diagnostic report page (right pane), select **Show External Code** from the **Filter** dropdown, and then select **Apply**. The **Call Tree** view of the **CPU Usage** page then expands the external code calls. (The **Filter** dropdown is available on the main diagnostic page, not the detailed views.)
 
 ![Screenshot that shows Show External Code.](../profiling/media/cpu-use-wt-filter-view.png "Show External Code")

@@ -33,7 +33,7 @@ This procedure shows how to validate data when the value in a column changes. Be
 
 1. Open or create a new LINQ to SQL Classes file (*`.dbml`* file) in the **O/R Designer**. (Double-click the *`.dbml`* file in **Solution Explorer**.)
 
-2. In the **O/R Designer**, right-click the class for which you want to add validation and then click **View Code**.
+2. In the **O/R Designer**, right-click the class for which you want to add validation, and then select **View Code**.
 
      The Code Editor opens with a partial class for the selected entity class.
 
