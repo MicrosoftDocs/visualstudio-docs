@@ -29,13 +29,13 @@ To open the visualizer, you must be paused during debugging.
 
 You can access the visualizer by clicking on the magnifying glass icon that appears next to the Value for one of those objects ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon") in a debugger variables window or in a DataTip.
 
-:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-debugger-visualizer.png" alt-text="Diagram of Open an IEnumerable visualizer.":::
+:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-debugger-visualizer.png" alt-text="Screenshot of Open an IEnumerable visualizer.":::
 
 ## DataSet visualizer 
 
 The DataSet Visualizer allows you to view the contents of a DataSet, DataTable, DataView, or DataViewManager object. 
 
-:::image type="content" source="../debugger/media/dbg-tips-dataset-visualizer.png " alt-text="Diagram of View the DataSet visualizer data.":::
+:::image type="content" source="../debugger/media/dbg-tips-dataset-visualizer.png " alt-text="Screenshot of View the DataSet visualizer data.":::
 
 ## IEnumerable visualizer 
 
@@ -43,7 +43,7 @@ Starting in Visual Studio 2022, you can view IEnumerable collections in a tabula
 
 The IEnumerable visualizer helps explore large collection objects in a more streamlined way. The visualizer supports IEnumerable collections where the object type (T) can be simple types or complex types like dictionaries.
 
-:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-data.png" alt-text="Diagram of View the IEnumerable visualizer data.":::
+:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-data.png" alt-text="Screenshot of View the IEnumerable visualizer data.":::
 
 You can use the right-click context menu to customize the view:
 
@@ -59,11 +59,13 @@ You can use the right-click context menu to customize the view:
 - You can export the data from IEnumerable visualizers in CSV/Excel format using the dropdown on the top right corner.
 - You can also export the filtered and sorted results in CSV/Excel format.
 
-:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-filtering.gif" alt-text="Diagram of View the visualizer data filter.":::
+:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-filtering.png" alt-text="Screenshot of View the visualizer data filter.":::
 
 ## Modify the visualizer expression
 
 Starting in Visual Studio 2022 version 17.11 Preview 2, you can directly change the **Expression** textbox with a modified LINQ expression. The visualizer data gets updated, reflecting the data change resulting from your new query.
+
+:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-edit-expression.png" alt-text="Screenshot of View the visualizer data edit the expression.":::
 
 ## Related content
 - [View strings in a string visualizer](../debugger/view-strings-visualizer.md)
