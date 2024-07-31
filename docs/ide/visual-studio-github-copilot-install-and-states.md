@@ -1,7 +1,7 @@
 ---
 title: Install and manage GitHub Copilot in Visual Studio
-description: Install GitHub Copilot in Visual Studio and manage copilot state by using the Copilot badge in the IDE.
-ms.date: 6/18/2024
+description: Learn how to install GitHub Copilot to get GitHub Copilot Completions and Chat in Visual Studio. Use the Copilot badge in the IDE to access options to manage or troubleshoot your Copilot state. 
+ms.date: 7/29/2024
 ms.topic: install-set-up-deploy
 author: anandmeg
 ms.author: meghaanand
@@ -80,7 +80,7 @@ Download and install the extensions directly from [Visual Studio Marketplace](ht
 
 ## Manage your Copilot state 
 
-With Visual Studio 2022 version 17.10, you see a Copilot status icon in the upper-right corner of the Visual Studio environment that indicates if Copilot is active, inactive, unavailable, or not installed. Using the dropdown menu from the status icon, you can easily access options that help manage or troubleshoot your Copilot state. Some options are available or greyed out depending on your Copilot state.
+With Visual Studio 2022 version 17.10, you see a Copilot status icon in the upper-right corner of the Visual Studio environment that indicates if Copilot is active, inactive, unavailable, or not installed. Using the dropdown menu from the status icon, you can easily access options that help manage or [troubleshoot](visual-studio-github-copilot-troubleshoot.md) your Copilot state. Some options are available or greyed out depending on your Copilot state.
 
 > [!NOTE]
 > Note that the status icon is moving from the bottom panel of the Visual Studio editor. 
