@@ -1,7 +1,7 @@
 ---
 title: About GitHub Copilot Chat in Visual Studio
-description: Learn about the fully integrated AI-powered GitHub Copilot Chat extension in Visual Studio, and how you can use the chat interface to ask and receive answers to coding-related questions from right within the IDE.
-ms.date: 5/22/2024
+description: Learn about the fully integrated GitHub Copilot Chat in Visual Studio. Use the chat interface to ask coding-related questions from right within the IDE.
+ms.date: 7/29/2024
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
@@ -14,7 +14,7 @@ monikerRange: '>= vs-2022'
 
 [**GitHub Copilot Completions**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs) and [**GitHub Copilot Chat**](https://aka.ms/VSXGHCopilot) in Visual Studio enable enhanced [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping you be more productive and efficient when writing code.
 
-In this article, you'll learn about using Copilot Chat in Visual Studio, a fully integrated AI-powered chat experience from [GitHub Copilot](visual-studio-github-copilot-extension.md) right within the Visual Studio IDE. It enables you to get coding information and support, such as syntax, programming concepts, context-specific code help, test cases, debugging, and more, without leaving the IDE.
+In this article, you'll learn about using Copilot Chat in Visual Studio, a fully integrated AI-powered chat experience from [GitHub Copilot](visual-studio-github-copilot-extension.md) right within the Visual Studio IDE. It enables you to get coding information and support, such as syntax, programming concepts, context-specific code help, test cases, debugging, and more, without leaving the IDE. [Use the chat interface](#use-copilot-chat-in-visual-studio) to submit your question as prompt and [set intent](copilot-chat-context.md) for better scoped answers.
 
 For more information on the GitHub Copilot Completions in Visual Studio, see [About GitHub Copilot Completions for Visual Studio](visual-studio-github-copilot-extension.md).
 
