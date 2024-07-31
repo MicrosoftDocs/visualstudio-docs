@@ -74,7 +74,7 @@ Once installed, Sign CLI can be accessed in a Developer PowerShell instance usin
 - Signing using a PFX file with a SHA-256 fingerprint:
 
 ```dotnetcli
-sign code certificate-store -cfp 80BB567B...52CB95D4C -cf "D:\Certs\f5ec6169345347a7cd2f83af662970d5d0bfc914.pfx" -d "My VSIX Signature" -u "http://timestamp.acs.microsoft.com/" "C:\Users\Contoso\Downloads\FingerSnapper2022.vsix"
+sign code certificate-store -cfp 80BB567B...52CB95D4C -cf "D:\Certs\f5ec6169345347a7cd2f83af662970d5d0bfc914.pfx" -d "My VSIX Signature" -t "http://timestamp.acs.microsoft.com/" "C:\Users\Contoso\Downloads\FingerSnapper2022.vsix"
 ```
 
 > [!NOTE]
@@ -83,19 +83,19 @@ sign code certificate-store -cfp 80BB567B...52CB95D4C -cf "D:\Certs\f5ec61693453
 - Signing using Microsoft Certificate Manager and a SHA512 fingerprint (-csp option):
 
 ```dotnetcli
-code certificate-store -cfp A87A60A6F...894559B98 -csp "Microsoft Software Key Storage Provider" -d "My VSIX Signature" -u "http://timestamp.acs.microsoft.com/" "C:\Users\Contoso\Downloads\FingerSnapper2022.vsix"
+sign code certificate-store -cfp A87A60A6F...894559B98 -csp "Microsoft Software Key Storage Provider" -d "VSIX Signature" -t "http://timestamp.acs.microsoft.com/" "C:\Users\Contoso\Downloads\FingerSnapper2022.vsix"
 ```
 
 - Signing using a private key in a USB drive (-csp option):
 
 ```dotnetcli
-code certificate-store -cfp B113E82D...F5CF294BE0B -csp "eToken Base Cryptographic Provider" -d "VSIX Signature" -u "http://timestamp.acs.microsoft.com/" "C:\Users\Contoso\Downloads\FingerSnapper2022.vsix"
+sign code certificate-store -cfp B113E82D...F5CF294BE0B -csp "eToken Base Cryptographic Provider" -d "VSIX Signature" -t "http://timestamp.acs.microsoft.com/" "C:\Users\Contoso\Downloads\FingerSnapper2022.vsix"
 ```
 
 - Signing using a USB drive using a specific key container (-csp and -k options):
 
 ```dotnetcli
-code certificate-store -s 15BB56B0...1ACB959D0 -csp "eToken Base Cryptographic Provider" -k "NuGet Signing.629c9149345347cd2f83af6f5ec70d5d0a7bf616" -d "VSIX Signature" -u "http://timestamp.acs.microsoft.com/" "C:\Users\Contoso\Downloads\FingerSnapper2022.vsix"
+sign code certificate-store -cfp 15BB56B0...1ACB959D0 -csp "eToken Base Cryptographic Provider" -k "NuGet Signing.629c9149345347cd2f83af6f5ec70d5d0a7bf616" -d "VSIX Signature" -t "http://timestamp.acs.microsoft.com/" "C:\Users\Contoso\Downloads\FingerSnapper2022.vsix"
 ```
 
 ## Related content
