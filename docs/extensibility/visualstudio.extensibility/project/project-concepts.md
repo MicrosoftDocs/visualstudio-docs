@@ -143,7 +143,7 @@ These queries support the monitoring of updates made to query results.
 
 |Term|Description
 |---|---
-|SubscribeAsync| Represents the operation to subscribe results from a query.
+|SubscribeAsync| Represents the operation to subscribe to results from a query.
 |TrackUpdatesAsync| Represents the operation to track changes from a query.
 
 ## Related content

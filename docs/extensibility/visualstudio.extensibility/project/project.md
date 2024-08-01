@@ -11,18 +11,17 @@ ms.date: 05/01/2024
 
 # Query the project API
 
-The VisualStudio.Extensibility project query API allows for querying information from the project system. Project systems are a part of Visual Studio components to help users work with and maintain projects, run builds to produce results, and to test output.
+The VisualStudio.Extensibility project query API allows you to querying information from the project system. Project systems are a part of Visual Studio components that help users work with and maintain projects, run builds to produce results, and test output.
 
-The goal of the Project Query API is to:
+With the Project Query API, you can:
 
 1. Work with Project Systems
 1. Retrieve data from projects
 1. Make changes to projects
 
-Some examples include understanding files included in a project, NuGet packages referenced by a project, adding new files to a project, or changing project properties.
+Some examples of what the Project Query API can do include giving you a way to understand the files included in a project, the NuGet packages referenced by a project, add new files to a project, or adjust project properties.
 
-Find further information on project systems [here](https://github.com/microsoft/VSProjectSystem).
-Find conceptual documentation about what the project system is, usages, and its various terms [here](https://github.com/microsoft/VSProjectSystem).
+Find further information on project systems [in our Visual Studio Project System Extensibility Documentation](https://github.com/microsoft/VSProjectSystem) reference.
 
 ## Work with the project query API
 
@@ -56,7 +55,7 @@ This overview covers top scenarios for working with the project query API:
 
 ## Access the project query space
 
-Before you can query the project system, you need to obtain an instance of the *project query space* object, which has several asynchronous methods that query or update the project system. The term *project query space* and the term *workspace* both mean the same thing, the object that provides access to all the data for a project. Within the documentation, `workspace` will be consistently reutilized.
+You'll need to obtain an instance of the *project query space* object to query the project system. This object has several asynchronous methods that query or update the project system. The term *project query space* and the term *workspace* both mean the same thing and refer to the object that provides access to all the data for a project. `workspace` will be consistently used in this documentation.
 
 ### Using VisualStudio.Extensibility
 
@@ -77,7 +76,7 @@ For those utilizing the service broker, please consult the [VS SDK style queries
 
 ## Query the project system for a project
 
-The [`WorkspacesExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.workspacesextensibility) object lets you query for an individual project, if you have the project GUID. There are usually two GUIDs associated with a project, one that represents the project type, and other that uniquely represents the project. You can find the project's unique GUID in the solution file, or from an extension, you can query for the `Guid` property as demonstrated in the next section.
+The [`WorkspacesExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.workspacesextensibility) object lets you query for an individual project: if you have the project GUID. There are usually two GUIDs associated with a project, one that represents the project type, and other that uniquely represents the project. You can find the project's unique GUID in the solution file, or from an extension, you can query for the `Guid` property as demonstrated in the next section.
 
 ```csharp
 IQueryResults<IProjectSnapshot> projects = await workspace.QueryProjectByGuidAsync(
@@ -88,7 +87,7 @@ IQueryResults<IProjectSnapshot> projects = await workspace.QueryProjectByGuidAsy
 
 ## Specify the project parameters to be included in the query result
 
-When querying the project system, you can use `With` clauses to control which parameters or metadata are included in the query results. There are several valid ways to specify which parameters should be included.
+When querying the project system, utilize `With` clauses to determine which parameters or metadata are included in the query results. There are several valid methods to specify which parameters should be included.
 
 ### Example using a separate `With` clause for each parameter
 
@@ -124,7 +123,7 @@ IQueryResults<IProjectSnapshot> results = await workspace.QueryProjectsAsync(
 
 ### Example using a `WithRequired` clause
 
-When using `WithRequired`, ensures that only projects containing specified properties are retrieved. For instance, in the following example, only projects that include files named `information` are selected.
+Using `WithRequired` ensures that only projects containing specified properties are retrieved. For instance, in the following example, only projects that include files named `information` are selected.
 
 ```csharp
 IQueryResults<IProjectSnapshot> results = await workspace.QueryProjectsAsync(
@@ -135,9 +134,9 @@ IQueryResults<IProjectSnapshot> results = await workspace.QueryProjectsAsync(
 
 ## Filter the query result
 
-To limit query results, there are two ways to apply conditional filtering: `Where` statements and query methods with built-in filtering.
+You can apply conditional filtering in two ways to limit query results: 
 
-### Example using a `Where` clause
+### `Where` statements
 
 Different project types support different sets of capabilities. With a `Where` clause, you can filter for projects that support specific capabilities. Queries can fail if you don't filter to projects that support the relevant capabilities.
 
@@ -150,7 +149,9 @@ IQueryResults<IProjectSnapshot> webProjects = await workspace.QueryProjectsAsync
     cancellationToken);
 ```
 
-### Example using `RuleResultsByRuleName` filtering
+### Query methods with built-in filtering
+
+#### `RuleResultsByRuleName` statement
 At the level of individual projects, each project possesses a `RulesResults` attribute, which includes a `RuleName` and `Items`. The API call `RuleResultsByRuleName` can be used to filter by rule name.
 
 In the following query, rather than retrieving every rule present in ActiveConfigurations, we specifically target the CompilerCommandLineArgs rule. The query results will include both the rule name and the items associated with it.
@@ -165,7 +166,7 @@ IQueryResults<IProjectSnapshot> results = await workspace.QueryProjectsAsync(
     cancellationToken);
 ```
 
-### Example using `ProjectsByCapabilities` filtering
+#### `ProjectsByCapabilities` statement
 
 You can also use query methods like [`ProjectsByCapabilities`](/dotnet/api/microsoft.visualstudio.projectsystem.query.solutionpropertiesfilterextensions.projectsbycapabilities) that have filtering built into the query.
 
@@ -181,13 +182,13 @@ IQueryResults<IProjectSnapshot> webProjects = await workspace.QueryProjectsByCap
 
 ## Use nested queries to specify desired properties
 
-Some parameters are themselves collections, and you can use nested queries to do similar specification and filtering on those child collections.
+Some parameters are collections themselves, and you can use nested queries to do similar specification and filtering on those child collections.
 
 ### Example
 
 In the following example, a nested query lets you filter and specify the collection of files to be included with each project returned by the outer query.
 
-The query detailed below yields an IProjectSnapshot for projects featuring the ApplicationIcon property. It specifically searches for .ico files within these projects, aiming to ascertain their paths and whether they are hidden.
+The query below yields an IProjectSnapshot for projects featuring the ApplicationIcon property. It specifically searches for .ico files within these projects, aiming to determine their paths and whether they are hidden.
 
 ```csharp
 
@@ -215,7 +216,7 @@ foreach (IProjectSnapshot project in projects)
 
 ## Retrieve a child collection using the Get method
 
-The project model in Visual Studio includes collections for projects and their child collections, which can encompass files or project capabilities among others. To access a specific child collection, the `Get` clause is utilized. This clause, similar to other types of queries, allows for the incorporation of additional clauses like the `With` clause, which helps in refining or constraining the query results.
+The project model in Visual Studio includes collections for projects and their child collections, which can encompass files or project capabilities among others. To access a specific child collection, use the `Get` clause. This clause, similar to other types of queries, allows for the incorporation of additional clauses like the `With` clause, which helps refine or constrain the query results.
 
 In the following query, the `Get` method retrieves the child collection, `Files`, from a project identified by its specific Guid.
 
@@ -235,7 +236,7 @@ foreach (IFileSnapshot file in files)
 
 ## Query additional information from a previously returned item
 
-You can use the results from a previous query as the base for additional queries.
+You can leverage the results from a previous query as the base for additional queries.
 
 ```csharp
     IQueryResults<IProjectSnapshot> allProjects = await workspace.QueryProjectsAsync(
@@ -252,7 +253,7 @@ foreach (IProjectSnapshot project in allProjects)
 
 ## Modify a project
 
-The query results are normally immutable. You can also use the query API to make changes using the `UpdateProjectsAsync` clause to access mutable versions of the query results, so that you can make changes to the projects and project items.
+Query results are normally immutable. Use the query API's `UpdateProjectsAsync` clause to access mutable versions of the query results, which will allow you to make changes to the projects and project items.
 
 ### Example of adding a file to a project in a query result
 
@@ -352,7 +353,7 @@ foreach (IFileSnapshot file in schemaFiles)
 
 ## Query for projects that own a specific source file
 
-Projects and folders have information about which files they own or contain, so you can use a `WithRequired` clause to query for projects that include certain files.
+As projects and folders have information about which files they own or contain, you can use a `WithRequired` clause to query for projects that include certain files.
 
 ### Example of finding projects that own a given file
 
@@ -527,7 +528,7 @@ await workspace.UpdateSolutionAsync(
 
 ## Action query to load/unload a project
 
-If a project needs to be  load/unload, you need to specify the solution and the path to the desired project to unload. 
+If a loading/unloading a project is necessary, you need to specify the solution and the path to the desired project in question. 
 
 ```csharp
 // Unload Project
@@ -545,7 +546,7 @@ await workspace.UpdateSolutionAsync(
 
 ## Action query to build solutions/projects
 
-In project query, you also have the ability to invoke build actions on the project or solution level. These build actions include:
+You can invoke build actions on the project or solution level. These build actions include:
 
 - `BuildAsync`
 - `RebuildAsync`
@@ -697,7 +698,7 @@ private class TrackerObserver : IObserver<IQueryTrackUpdates<IFileSnapshot>>
 
 `Skip` can be used to skip N results from a query.
 
-In this code sample, the first result from the query is skipped. For example, if there were three projects in the solution, the first result will be skipped and the query will return the two remaining projects. Note: the order is not guaranteed.
+In this code sample, the first result from the query is skipped. If there were three projects in the solution, for example, the first result will be skipped, and the query will return the two remaining projects. Note that the order is not guaranteed.
 
 ```csharp
 IQueryResults<IProjectSnapshot> projects = await workspace.QueryProjectsAsync(
