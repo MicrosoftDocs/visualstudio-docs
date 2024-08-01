@@ -1,6 +1,6 @@
 ---
-description: "A structure that holds a list of GUID`s."
 title: CONST_GUID_ARRAY
+description: "A structure that holds a list of `GUID`s."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

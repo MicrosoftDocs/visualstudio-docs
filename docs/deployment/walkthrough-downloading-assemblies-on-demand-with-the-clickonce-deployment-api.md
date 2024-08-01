@@ -89,7 +89,7 @@ By default, all of the assemblies included in a ClickOnce application are downlo
 
 10. In the code, locate the call to <xref:System.Reflection.Assembly.LoadFile%2A>.
 
-11. Set`PublicKeyToken` to the value that you retrieved earlier.
+11. Set `PublicKeyToken` to the value that you retrieved earlier.
 
 12. Save the file as either *Form1.cs* or *Form1.vb*.
 
