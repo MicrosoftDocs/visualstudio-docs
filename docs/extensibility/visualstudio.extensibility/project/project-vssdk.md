@@ -595,7 +595,7 @@ var result = await workSpace.Solutions
 
 ## Action query to load/unload a project
 
-If a loading/unloading a project is necessary, you need to specify the solution and the path to the desired project in question. 
+If loading/unloading a project is necessary, you need to specify the solution and the path to the desired project in question. 
 
 ```csharp
 // Unload Project
