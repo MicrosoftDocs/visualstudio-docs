@@ -86,7 +86,7 @@ Now that you've created the solution, you'll create a class library named String
 
    - `StartsWithUpper` returns `true` if a string starts with an uppercase character; otherwise, it returns `false`.
 
-   - `StartsWithLower`returns `true` if a string starts with a lowercase character; otherwise, it returns `false`.
+   - `StartsWithLower` returns `true` if a string starts with a lowercase character; otherwise, it returns `false`.
 
    - `HasEmbeddedSpaces` returns `true` if a string contains an embedded whitespace character; otherwise, it returns `false`.
 
