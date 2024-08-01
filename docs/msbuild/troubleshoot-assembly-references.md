@@ -16,7 +16,7 @@ The purpose of `ResolveAssemblyReference` is to take all the references specifie
 
 The compilers only can accept a `.dll` path on the filesystem as a reference, so `ResolveAssemblyReference` converts strings like `mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089` that appear in project files to paths like `C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\mscorlib.dll`, which are then passed to the compiler via the `/r` switch.
 
-Additionally `ResolveAssemblyReference` determines the complete set (actually the *transitive closure* in graph theory terms) of all `.dll`and `.exe` references recursively, and for each of them determines whether it should be copied to the build output directory or not. It doesn't do the actual copying (that is handled later, after the actual compile step), but it prepares an item list of files to copy.
+Additionally `ResolveAssemblyReference` determines the complete set (actually the *transitive closure* in graph theory terms) of all `.dll` and `.exe` references recursively, and for each of them determines whether it should be copied to the build output directory or not. It doesn't do the actual copying (that is handled later, after the actual compile step), but it prepares an item list of files to copy.
 
 `ResolveAssemblyReference` is invoked from the `ResolveAssemblyReferences` target:
 
