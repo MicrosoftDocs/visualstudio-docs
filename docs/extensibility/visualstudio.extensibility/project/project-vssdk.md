@@ -11,7 +11,7 @@ ms.date: 05/01/2024
 
 # Query the project API
 
-The VS SDK allows for querying information from the project system. Project systems are a part of Visual Studio components to help users work with and maintain projects, run builds to produce results, and to test output.
+The Project Query API in the Visual Studio SDK enables querying information from the project system. Project systems are components of Visual Studio that assist users in managing projects, running builds to generate outputs, and testing those outputs.
 
 With the Project Query API, you can:
 
@@ -66,7 +66,7 @@ ProjectQueryableSpace workSpace = queryService.QueryableSpace;
 
 ## Query the project system for a project
 
-The [`WorkspacesExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.workspacesextensibility) object lets you query for an individual project: if you have the project GUID. There are usually two GUIDs associated with a project, one that represents the project type, and other that uniquely represents the project. You can find the project's unique GUID in the solution file, or from an extension, you can query for the `Guid` property as demonstrated in the next section.
+The API lets you query for an individual project: if you have the project GUID. There are usually two GUIDs associated with a project, one that represents the project type, and other that uniquely represents the project. You can find the project's unique GUID in the solution file, or from an extension, you can query for the `Guid` property as demonstrated in the next section.
 
 ```csharp
 IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> projectList = workspace
@@ -78,7 +78,7 @@ IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> projectList = workspace
 
 When querying the project system, utilize `With` clauses to determine which parameters or metadata are included in the query results. There are several valid methods to specify which parameters should be included.
 
-### Example using a separate `With` clause for each parameter
+### `With` clauses for each parameter
 
 ```csharp
 IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> allProjects = workSpace
@@ -100,14 +100,14 @@ IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> allProjects = workSpace
     }
 ```
 
-### Example using a single `With` clause to specify multiple parameters
+### Single `With` clause to specify multiple parameters
 
 You can also specify multiple desired parameters in a single `With` clause.
 
 ```csharp
 IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> allProjects = workSpace
     .Projects
-    .With(p => new { p.Path, p.Guid, p.Capabilities })
+    .With(p => new { p.Path, p.Guid, p.Kind, p.Type, p.TypeGuid, p.Capabilities })
     .QueryAsync(cancellationToken);
 ```
 

@@ -89,7 +89,7 @@ IQueryResults<IProjectSnapshot> projects = await workspace.QueryProjectByGuidAsy
 
 When querying the project system, utilize `With` clauses to determine which parameters or metadata are included in the query results. There are several valid methods to specify which parameters should be included.
 
-### Example using a separate `With` clause for each parameter
+### `With` clauses for each parameter
 
 ```csharp
 IQueryResults<IProjectSnapshot> allProjects = await workspace.QueryProjectsAsync(
@@ -111,13 +111,13 @@ foreach (IProjectSnapshot project in allProjects)
 }
 ```
 
-### Example using a single `With` clause to specify multiple parameters
+### Single `With` clause to specify multiple parameters
 
 You can also specify multiple desired parameters in a single `With` clause.
 
 ```csharp
 IQueryResults<IProjectSnapshot> results = await workspace.QueryProjectsAsync(
-    project => project.With(p => new { p.Path, p.Guid, p.Capabilities }),
+    project => project.With(p => new { p.Path, p.Guid, p.Kind, p.Type, p.TypeGuid, p.Capabilities }),
     cancellationToken);
 ```
 
