@@ -2,7 +2,7 @@
 title: 'Provide a brokered service'
 description: Learn how to design, create, register, and proffer a brokered service for consumption by yourself and others.
 monikerRange: '>= vs-2019'
-ms.date: 01/07/2022
+ms.date: 08/02/2024
 ms.topic: how-to
 helpviewer_keywords:
 - brokered services, providing
@@ -333,7 +333,7 @@ Review [How to Secure a Brokered Service](how-to-secure-brokered-service.md) and
 
 ## <a name="ServiceMoniker"></a> The service moniker
 
-A brokered service must have a serializable name and version by which a client may request the service.
+A brokered service must have a serializable name and an optional version by which a client may request the service.
 A <xref:Microsoft.ServiceHub.Framework.ServiceMoniker> is a convenient wrapper for these two pieces of information.
 
 A service moniker is analogous to the assembly-qualified full name of a CLR type.
@@ -346,6 +346,9 @@ public static readonly ServiceMoniker Moniker = new ServiceMoniker("YourCompany.
 ```
 
 While most uses of your service may not use your moniker directly, a client that communicates over pipes instead of a proxy will require the moniker.
+
+While a version is optional on a moniker, providing a version is recommended as it gives service authors more options for maintaining compatibility
+with clients across behavioral changes.
 
 ## <a name="ServiceRpcDescriptor"></a> The service descriptor
 
@@ -453,7 +456,7 @@ This is a departure from [other VS services](using-and-providing-services.md), w
 Creating one instance of the service per client allows for better security as each service and/or its connection can retain per-client state about the authorization level the client operates at, what their preferred <xref:System.Globalization.CultureInfo> is, etc.
 As we will see next, it also allows for more interesting services that accept arguments specific to this request.
 
-> [!Important]
+> [!IMPORTANT]
 > A service factory that deviates from this guideline and returns a shared service instance instead of a new one to each client should *never* have its service implement <xref:System.IDisposable>, since the first client to dispose of its proxy will lead to disposal of the shared service instance before other clients are done using it.
 
 In the more advanced case where the `CalculatorService` constructor requires a shared state object and an <xref:Microsoft.ServiceHub.Framework.IServiceBroker>, we might proffer the factory like this:
@@ -489,15 +492,48 @@ internal class Calculator(State state, IServiceBroker serviceBroker, ServiceActi
 
 This `clientCallback` field can now be invoked anytime the service wants to invoke the client, until the connection is disposed of.
 
-When you increment the version on your <xref:Microsoft.ServiceHub.Framework.ServiceMoniker>, you must proffer each version of your brokered service that you intend to respond to client requests for.
-This is done by calling the <xref:Microsoft.VisualStudio.Shell.ServiceBroker.IBrokeredServiceContainer.Proffer%2A?displayProperty=nameWithType> method with each <xref:Microsoft.ServiceHub.Framework.ServiceRpcDescriptor> that you still support.
-
-The <xref:Microsoft.VisualStudio.Shell.ServiceBroker.BrokeredServiceFactory> delegate takes a <xref:Microsoft.ServiceHub.Framework.ServiceMoniker> as a parameter in case the service factory is a shared method that creates multiple services based on the moniker.
+The <xref:Microsoft.VisualStudio.Shell.ServiceBroker.BrokeredServiceFactory> delegate takes a <xref:Microsoft.ServiceHub.Framework.ServiceMoniker> as a parameter in case the service factory is a shared method that creates multiple services or distinct versions of the service based on the moniker.
 This moniker comes from the client and includes the version of the service they expect.
 By forwarding this moniker to the service constructor, the service may emulate the quirky behavior of particular service versions to match what the client may expect.
 
 Avoid using the <xref:Microsoft.VisualStudio.Shell.ServiceBroker.AuthorizingBrokeredServiceFactory> delegate with the <xref:Microsoft.VisualStudio.Shell.ServiceBroker.IBrokeredServiceContainer.Proffer%2A?displayProperty=nameWithType> method unless you will use the <xref:Microsoft.ServiceHub.Framework.Services.IAuthorizationService> inside your brokered service class.
 This <xref:Microsoft.ServiceHub.Framework.Services.IAuthorizationService> *must* be disposed of with your brokered service class to avoid a memory leak.
+
+### Supporting multiple versions of your service
+
+When you increment the version on your <xref:Microsoft.ServiceHub.Framework.ServiceMoniker>, you must proffer each version of your brokered service that you intend to respond to client requests for.
+This is done by calling the <xref:Microsoft.VisualStudio.Shell.ServiceBroker.IBrokeredServiceContainer.Proffer%2A?displayProperty=nameWithType> method with each <xref:Microsoft.ServiceHub.Framework.ServiceRpcDescriptor> that you still support.
+
+Proferring your service with a `null` version will serve as a 'catch all' which will match on any client request for which a precise version match with a registered service does not exist.
+For example you may proffer your 1.0 and 1.1 service with specific versions, and also register your service with a `null` version.
+In such cases, clients requesting your service with 1.0 or 1.1 will invoke the service factory you proferred for those exact versions, while a client requesting version 8.0 will lead to your null-versioned proffered service factory being invoked.
+Because the client requested version is provided to the service factory, the factory may then make a decision about how to configure the service for this particular client or whether to return `null` to signify an unsupported version.
+
+A client request for a service with a `null` version will *only* match on a service registered and proffered with a `null` version.
+
+Consider a case where you have published many versions of your service, several of which are backward compatible and thus may share a service implementation.
+We can utilize the catch-all option to avoid having to repeatedly proffer each individual version as follows:
+
+```cs
+const string ServiceName = "YourCompany.Extension.Calculator";
+ServiceRpcDescriptor CreateDescriptor(Version? version) =>
+    new ServiceJsonRpcDescriptor(
+        new ServiceMoniker(ServiceName, version),
+        ServiceJsonRpcDescriptor.Formatters.MessagePack,
+        ServiceJsonRpcDescriptor.MessageDelimiters.BigEndianInt32LengthHeader);
+
+IBrokeredServiceContainer container = await AsyncServiceProvider.GlobalProvider.GetServiceAsync<SVsBrokeredServiceContainer, IBrokeredServiceContainer>();
+container.Proffer(
+    CreateDescriptor(new Version(2, 0)),
+    (moniker, options, serviceBroker, cancellationToken) => new ValueTask<object?>(new CalculatorServiceV2()));
+container.Proffer(
+    CreateDescriptor(null), // proffer a catch-all
+    (moniker, options, serviceBroker, cancellationToken) => new ValueTask<object?>(moniker.Version switch {
+        { Major: 1 } => new CalculatorService(), // match any v1.x request with our v1 service.
+        null => null, // We don't support clients that do not specify a version.
+        _ => null, // The client requested some other version we don't recognize.
+    }));
+```
 
 ## <a name="ServiceRegistration"></a> Registering the service
 
@@ -520,6 +556,9 @@ If your brokered service *must* be exposed to Live Share guests, the <xref:Micro
 
 When you increment the version on your <xref:Microsoft.ServiceHub.Framework.ServiceMoniker>, you must register each version of your brokered service that you intend to respond to client requests for.
 By supporting more than the most recent version of your brokered service, you help maintain backward compatibility for clients of your older brokered service version, which may be especially useful when considering the Live Share scenario where each version of Visual Studio that is sharing the session may be a different version.
+
+Registering your service with a `null` version will serve as a 'catch all' which will match on any client request for which a precise version with a registered service does not exist.
+For example you may register your 1.0 and 2.0 service with specific versions, and also register your service with a `null` version.
 
 ## <a name="MEF"></a> Use MEF to proffer and register your service
 
@@ -646,6 +685,16 @@ internal class MefBrokeredService : IExportedBrokeredService, ICalculator
     ServiceMoniker ServiceMoniker { get; set; } = null!;
 }
 ```
+
+A `null` versioned service may be exported to match any client request for the service regardless of version including a request with a `null` version.
+
+Visual Studio 2022 Update 12 (17.12) and later allows an exported brokered service to return `null` from the `Descriptor` property in order to reject a client request.
+This may be because the service is exported with a `null` catch-all version and doesn't offer an implementation of the version the client actually requested.
+
+### Rejecting a service request
+
+A brokered service may reject a client's activation request by throwing from the <xref:Microsoft.VisualStudio.Shell.ServiceBroker.IExportedBrokeredService.InitializeAsync%2A> method.
+Throwing will lead to a <xref:Microsoft.ServiceHub.Framework.ServiceActivationFailedException> being thrown back to the client.
 
 ## Related content
 - [Best Practices for Designing a Brokered Service](best-practices-design-brokered-service.md)

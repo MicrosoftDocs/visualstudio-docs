@@ -50,7 +50,7 @@ This unique instance of the service broker allows your client to receive <xref:M
 We recommend that each client/class in your extension acquire its own service broker using either of the above approaches rather than acquiring one instance and sharing it across your entire extension.
 This pattern also encourages secure coding patterns where a brokered service should *not* be using the global service broker.
 
-> [!Important]
+> [!IMPORTANT]
 > Implementations of <xref:Microsoft.ServiceHub.Framework.IServiceBroker> do not typically implement <xref:System.IDisposable>, but these objects cannot be collected while <xref:Microsoft.ServiceHub.Framework.IServiceBroker.AvailabilityChanged> handlers exist.
 Be sure to balance add/remove of event handlers, especially when the code may discard the service broker during the lifetime of the process.
 
@@ -83,7 +83,7 @@ using (myService as IDisposable)
 As with all brokered service requests, the above code will activate a new instance of a brokered service.
 After using the service, the code above disposes of the proxy as execution exits the `using` block.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Every proxy retrieved must be disposed of, *even if the service interface does not derive from <xref:System.IDisposable>*.
 > Disposal is important because the proxy often has I/O resources backing it that prevent it from being garbage collected.
 > Disposal terminates the I/O, allowing the proxy to be garbage collected.
