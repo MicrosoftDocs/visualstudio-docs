@@ -552,7 +552,7 @@ The default <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ProvideBrokeredServ
 By setting <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ServiceAudience.Local?displayProperty=nameWithType>, you opt in to exposing your brokered service to other processes belonging to the same Visual Studio session.
 
 If your brokered service *must* be exposed to Live Share guests, the <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ProvideBrokeredServiceAttribute.Audience> must include <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ServiceAudience.LiveShareGuest?displayProperty=nameWithType> and the <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ProvideBrokeredServiceAttribute.AllowTransitiveGuestClients?displayProperty=nameWithType> property set to `true`.
-**Setting these flags can introduce serious security vulnerabilities** and should not be done without first conforming to the guidance in [How to Secure a Brokered Service](how-to-secure-brokered-service.md).
+**Setting these flags can introduce serious security vulnerabilities** and shouldn't be done without first conforming to the guidance in [How to Secure a Brokered Service](how-to-secure-brokered-service.md).
 
 When you increment the version on your <xref:Microsoft.ServiceHub.Framework.ServiceMoniker>, you must register each version of your brokered service that you intend to respond to client requests for.
 By supporting more than the most recent version of your brokered service, you help maintain backward compatibility for clients of your older brokered service version, which may be especially useful when considering the Live Share scenario where each version of Visual Studio that is sharing the session may be a different version.
@@ -574,7 +574,7 @@ Cross-platform readiness | ⚠️ Visual Studio for Windows specific code must b
 
 To export your brokered service via MEF instead of using VS packages:
 
-1. Confirm you have no code related to the last two sections. In particular, you should have no code that calls into <xref:Microsoft.VisualStudio.Shell.ServiceBroker.IBrokeredServiceContainer.Proffer%2A?displayProperty=nameWithType> and should not apply the <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ProvideBrokeredServiceAttribute> to your package (if any).
+1. Confirm you have no code related to the last two sections. In particular, you should have no code that calls into <xref:Microsoft.VisualStudio.Shell.ServiceBroker.IBrokeredServiceContainer.Proffer%2A?displayProperty=nameWithType> and shouldn't apply the <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ProvideBrokeredServiceAttribute> to your package (if any).
 1. Implement the `IExportedBrokeredService` interface on your brokered service class.
 1. Avoid any main thread dependencies in your constructor or importing property setters. Use the `IExportedBrokeredService.InitializeAsync` method for initializing your brokered service, where main thread dependencies are allowed.
 1. Apply the `ExportBrokeredServiceAttribute` to your brokered service class, specifying the information about your service moniker, audience, and any other registration-related information required.
@@ -650,7 +650,7 @@ internal class MefBrokeredService : IExportedBrokeredService, ICalculator
 
 ### Exporting multiple versions of your brokered service
 
-The `ExportBrokeredServiceAttribute` may be applied to your brokered service multiple times to offer multiple versions of your brokered service.
+The `ExportBrokeredServiceAttribute` can be applied to your brokered service multiple times to offer multiple versions of your brokered service.
 
 Your implementation of the `IExportedBrokeredService.Descriptor` property should return a descriptor with a moniker that matches the one the client requested.
 
@@ -686,15 +686,13 @@ internal class MefBrokeredService : IExportedBrokeredService, ICalculator
 }
 ```
 
-A `null` versioned service may be exported to match any client request for the service regardless of version including a request with a `null` version.
-
-Visual Studio 2022 Update 12 (17.12) and later allows an exported brokered service to return `null` from the `Descriptor` property in order to reject a client request.
-This may be because the service is exported with a `null` catch-all version and doesn't offer an implementation of the version the client actually requested.
+Beginning with Visual Studio 2022 Update 12 (17.12), a `null` versioned service can be exported to match any client request for the service regardless of version including a request with a `null` version.
+Such a service can return `null` from the `Descriptor` property in order to reject a client request when it doesn't offer an implementation of the version the client requested.
 
 ### Rejecting a service request
 
-A brokered service may reject a client's activation request by throwing from the <xref:Microsoft.VisualStudio.Shell.ServiceBroker.IExportedBrokeredService.InitializeAsync%2A> method.
-Throwing will lead to a <xref:Microsoft.ServiceHub.Framework.ServiceActivationFailedException> being thrown back to the client.
+A brokered service can reject a client's activation request by throwing from the <xref:Microsoft.VisualStudio.Shell.ServiceBroker.IExportedBrokeredService.InitializeAsync%2A> method.
+Throwing causes a <xref:Microsoft.ServiceHub.Framework.ServiceActivationFailedException> to be thrown back to the client.
 
 ## Related content
 - [Best Practices for Designing a Brokered Service](best-practices-design-brokered-service.md)
