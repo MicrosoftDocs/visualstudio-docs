@@ -360,7 +360,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
    :::image type="content" source="media/vs-2022/get-started-run-to-click.png" alt-text="Screenshot showing the Run to Click button in Visual Studio 2022.":::
 
-1. Choose the **Run to Click** button. Alternatively, with your cursor at the `Console.WriteLine`statement, select **Ctrl+F10**. Or, right-click the `Console.WriteLine` method call, and choose **Run to Cursor** from the context menu.
+1. Choose the **Run to Click** button. Alternatively, with your cursor at the `Console.WriteLine` statement, select **Ctrl+F10**. Or, right-click the `Console.WriteLine` method call, and choose **Run to Cursor** from the context menu.
 
    The debugger advances to the `Console.WriteLine` method call.
 

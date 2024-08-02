@@ -152,7 +152,7 @@ ms.subservice: sharepoint-development
     ```
     ---
 
-5. Add the following procedure below the `FeatureActivated`procedure.
+5. Add the following procedure below the `FeatureActivated` procedure.
 
     ### [C#](#tab/csharp)
     ```csharp

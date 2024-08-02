@@ -47,7 +47,7 @@ Users can view and change project configuration-dependent and -independent prope
 
   Implementing `Help::DisplayTopicFromF1Keyword` in your VSPackage provides the functionality for the Help button.
 
-  For further information, see `IDispatch` and `ISpecifyPropertyPages`in the MSDN library.
+  For further information, see `IDispatch` and `ISpecifyPropertyPages` in the MSDN library.
 
   The second type of property pages displayed in the samples hosts a form of the properties grid, as shown in the following screenshot.
 
