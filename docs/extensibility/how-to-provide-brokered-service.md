@@ -18,12 +18,12 @@ A brokered service consists of the following elements:
 - [An interface](#ServiceInterface) that declares the service's functionality and serves as a contract between the service and its clients.
 - [An implementation](#ServiceImplementation) of that interface.
 - [A service moniker](#ServiceMoniker) to assign a name and a version to the service.
-- [A descriptor](#ServiceRpcDescriptor) that combines the service moniker with behavior for handling RPC when necessary.
-- Either [proffer the service factory](#ProfferService) and [register](#ServiceRegistration) your brokered service with a VS package, or do [both with MEF](#MEF).
+- [A descriptor](#ServiceRpcDescriptor) that combines the service moniker with behavior for handling RPC (Remote Procedure Call) when necessary.
+- Either [proffer the service factory](#ProfferService) and [register](#ServiceRegistration) your brokered service with a VS package, or do [both with MEF](#MEF) (the Managed Extensibility Framework).
 
-Each of the above are described in detail below.
+Each of the items in the preceding list are described in detail in the following sections.
 
-With all code in this topic, activating C#'s [nullable reference types](/dotnet/csharp/nullable-references) feature is highly recommended.
+With all code in this article, activating C#'s [nullable reference types](/dotnet/csharp/nullable-references) feature is highly recommended.
 
 ## <a name="ServiceInterface"></a> The service interface
 
@@ -74,7 +74,7 @@ This class includes some basic convention testing for your interface, methods to
 #### Methods
 
 Assert that every argument and the return value were serialized completely.
-If you were using the test base class mentioned above, this might look like this:
+If you are using the test base class mentioned above, your code might look like this:
 
 ```csharp
 public interface IYourService
@@ -130,9 +130,9 @@ You might add an `internal` field to your mock service for each method on it tha
 #### Events
 
 Any events declared on your interface should be tested for RPC readiness too.
-Events raised from a brokered service will *not* cause a test failure if they fail during RPC serialization because events are "fire and forget".
+Events raised from a brokered service do *not* cause a test failure if they fail during RPC serialization because events are "fire and forget".
 
-If you were using the test base class mentioned above this behavior is already built into some helper methods and  might look like this (with unchanged parts omitted for brevity):
+If you are using the test base class mentioned above this behavior is already built into some helper methods and  might look like this (with unchanged parts omitted for brevity):
 
 ```cs
 public interface IYourService
@@ -165,7 +165,7 @@ public class BrokeredServiceTests : BrokeredServiceContractTestBase<IYourService
 
 The service class should implement the RPC interface declared in the prior step.
 A service may implement <xref:System.IDisposable> or any other interfaces beyond the one used for RPC.
-The proxy generated on the client will only implement the service interface, <xref:System.IDisposable>, and possibly a few other select interfaces to support the system, so a cast to other interfaces implemented by the service will fail on the client.
+The proxy generated on the client only implements the service interface, <xref:System.IDisposable>, and possibly a few other select interfaces to support the system, so a cast to other interfaces implemented by the service will fail on the client.
 
 Consider the calculator example used above, which we implement here:
 
@@ -184,7 +184,7 @@ internal class Calculator : ICalculator
 }
 ```
 
-Because the method bodies themselves do not need to be async, we explicitly wrap the return value in a constructed <xref:System.Threading.Tasks.ValueTask%601> return type to conform to the service interface.
+Because the method bodies themselves don't need to be async, we explicitly wrap the return value in a constructed <xref:System.Threading.Tasks.ValueTask%601> return type to conform to the service interface.
 
 ### Implementing the observable design pattern
 
@@ -336,7 +336,7 @@ Review [How to Secure a Brokered Service](how-to-secure-brokered-service.md) and
 A brokered service must have a serializable name and an optional version by which a client may request the service.
 A <xref:Microsoft.ServiceHub.Framework.ServiceMoniker> is a convenient wrapper for these two pieces of information.
 
-A service moniker is analogous to the assembly-qualified full name of a CLR type.
+A service moniker is analogous to the assembly-qualified full name of a CLR (Common Language Runtime) type.
 It must be globally unique and should therefore include your company name and perhaps your extension name as prefixes to the service name itself.
 
 It may be useful to define this moniker in a `static readonly` field for use elsewhere:
@@ -362,7 +362,7 @@ Visual Studio defines one such derived type and recommends its use for all servi
 This descriptor utilizes <xref:StreamJsonRpc> for its RPC connections and creates a high-performance local proxy for local services that emulates some of the remote behaviors such as wrapping exceptions thrown by the service in <xref:StreamJsonRpc.RemoteInvocationException>.
 
 The <xref:Microsoft.ServiceHub.Framework.ServiceJsonRpcDescriptor> supports configuring the <xref:StreamJsonRpc.JsonRpc> class for JSON or MessagePack encoding of the JSON-RPC protocol.
-We recommend MessagePack encoding because it is more compact and can be 10X more performant.
+We recommend MessagePack encoding because it's more compact and can be 10X more performant.
 
 We can define a descriptor for our calculator service like this:
 
@@ -452,9 +452,9 @@ container.Proffer(
 ```
 
 A brokered service is typically instantiated once per client.
-This is a departure from [other VS services](using-and-providing-services.md), which are typically instantiated once and shared across all clients.
+This is a departure from [other VS (Visual Studio) services](using-and-providing-services.md), which are typically instantiated once and shared across all clients.
 Creating one instance of the service per client allows for better security as each service and/or its connection can retain per-client state about the authorization level the client operates at, what their preferred <xref:System.Globalization.CultureInfo> is, etc.
-As we will see next, it also allows for more interesting services that accept arguments specific to this request.
+As we'll see next, it also allows for more interesting services that accept arguments specific to this request.
 
 > [!IMPORTANT]
 > A service factory that deviates from this guideline and returns a shared service instance instead of a new one to each client should *never* have its service implement <xref:System.IDisposable>, since the first client to dispose of its proxy will lead to disposal of the shared service instance before other clients are done using it.
@@ -468,7 +468,7 @@ container.Proffer(
     (moniker, options, serviceBroker, cancellationToken) => new ValueTask<object?>(new CalculatorService(state, serviceBroker)));
 ```
 
-The `state` local variable is *outside* the service factory and thereby is created only once and shared across all instantiated services.
+The `state` local variable is *outside* the service factory and thus is created only once and shared across all instantiated services.
 
 Still more advanced, if the service required access to the <xref:Microsoft.ServiceHub.Framework.ServiceActivationOptions> (for example, to invoke methods on the client RPC target object) that could be passed in as well:
 
@@ -504,12 +504,12 @@ This <xref:Microsoft.ServiceHub.Framework.Services.IAuthorizationService> *must*
 When you increment the version on your <xref:Microsoft.ServiceHub.Framework.ServiceMoniker>, you must proffer each version of your brokered service that you intend to respond to client requests for.
 This is done by calling the <xref:Microsoft.VisualStudio.Shell.ServiceBroker.IBrokeredServiceContainer.Proffer%2A?displayProperty=nameWithType> method with each <xref:Microsoft.ServiceHub.Framework.ServiceRpcDescriptor> that you still support.
 
-Proferring your service with a `null` version will serve as a 'catch all' which will match on any client request for which a precise version match with a registered service does not exist.
+Proffering your service with a `null` version will serve as a 'catch all' which will match on any client request for which a precise version match with a registered service does not exist.
 For example you may proffer your 1.0 and 1.1 service with specific versions, and also register your service with a `null` version.
-In such cases, clients requesting your service with 1.0 or 1.1 will invoke the service factory you proferred for those exact versions, while a client requesting version 8.0 will lead to your null-versioned proffered service factory being invoked.
+In such cases, clients requesting your service with 1.0 or 1.1 invokes the service factory you proffered for those exact versions, while a client requesting version 8.0 leads to your null-versioned proffered service factory being invoked.
 Because the client requested version is provided to the service factory, the factory may then make a decision about how to configure the service for this particular client or whether to return `null` to signify an unsupported version.
 
-A client request for a service with a `null` version will *only* match on a service registered and proffered with a `null` version.
+A client request for a service with a `null` version *only* matches on a service registered and proffered with a `null` version.
 
 Consider a case where you have published many versions of your service, several of which are backward compatible and thus may share a service implementation.
 We can utilize the catch-all option to avoid having to repeatedly proffer each individual version as follows:
