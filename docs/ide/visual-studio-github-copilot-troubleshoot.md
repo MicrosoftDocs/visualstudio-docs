@@ -41,6 +41,9 @@ Due to the expected timeout, you need to occasionally refresh your credentials.
 
 :::image type="content" source="media/vs-2022/copilot-inbox/copilot-refresh-credentials.png "alt-text="Screenshot of Refresh your credentials option." lightbox="media/vs-2022/copilot-inbox/copilot-refresh-credentials.png":::
 
+> [!NOTE]
+> **Known issue:** You might run into the issue where you don't see an option to refresh credentials for the GitHub account on the **All Accounts** window. The workaround is to remove and readd your GitHub account. Please refer to the [Dev Community ticket](https://developercommunity.visualstudio.com/t/Copilot-badge-refresh-credentials-not-wo/10667230?q=refresh+credentials) related to this issue for more information.
+
 ## Copilot is disabled
 
 Your administrator disables Copilot for individual or any Copilot license. With Visual Studio version 17.10, your [admin can disable Copilot](visual-studio-github-copilot-admin.md#disabling-copilot-for-individual-enterprise-visual-studio-accounts).
