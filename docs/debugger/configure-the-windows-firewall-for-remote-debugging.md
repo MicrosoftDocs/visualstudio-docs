@@ -38,7 +38,7 @@ To open a port:
 
 1. Select one or more network types to enable, including the network type for the remote connection, and then select **Next**.
 
-1. Add a name for the rule (for example, **msvsmon**, **Internet Information Services (IIS)**, or **Web Deploy**), and then select **Finish**.
+1. Add a name for the rule (for example, `msvsmon`, `IIS`, or `Web Deploy`), and then select **Finish**.
 
    The new rule should appear and be selected in the **Inbound Rules** or **Outbound Rules** list.
 
