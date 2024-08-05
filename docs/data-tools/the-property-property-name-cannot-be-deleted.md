@@ -9,7 +9,7 @@ manager: mijacobs
 ms.subservice: data-tools
 ---
 
-# The property \<property name> cannot be deleted
+# The property `<property name>` cannot be deleted
 
 The property \<property name> cannot be deleted because it is set as the **Discriminator Property** for the inheritance between \<class name> and \<class name>
 

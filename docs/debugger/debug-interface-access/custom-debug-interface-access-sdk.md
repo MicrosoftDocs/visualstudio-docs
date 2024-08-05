@@ -1,6 +1,6 @@
 ---
 title: Custom (Debug Interface Access SDK)
-description: Find reference information about custom symbol types (identified with the SymTagCustom tag) in the Visual Studio debug interface access SDK.
+description: Find reference information about custom symbol types (identified with the SymTagCustom tag) in the Visual Studio Debug Interface Access SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
