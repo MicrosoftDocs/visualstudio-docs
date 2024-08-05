@@ -1,5 +1,5 @@
 ---
-description: "Reads LONG values in a property set."
+description: Reads LONG values in a property set.
 title: "IDiaPropertyStorage::ReadLONG"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaPropertyStorage::ReadLONG
 
 Reads `LONG` values in a property set.
@@ -19,7 +20,7 @@ Reads `LONG` values in a property set.
 ## Syntax
 
 ```C++
-HRESULT ReadDLONG ( 
+HRESULT ReadDLONG ( 
    PROPID id,
    LONG*  pValue
 );
