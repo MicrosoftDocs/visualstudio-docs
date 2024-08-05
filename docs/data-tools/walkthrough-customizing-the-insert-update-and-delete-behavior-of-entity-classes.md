@@ -106,7 +106,7 @@ Create LINQ to SQL classes that are mapped to database tables by dragging tables
 
 5. In the **Data Sources** window, click **Add New Data Source**.
 
-6. Click **Object** on the **Choose a Data Source Type** page and then click **Next**.
+6. Click **Object** on the **Choose a Data Source Type** page, and then select **Next**.
 
 7. Expand the **UpdatingwithSProcsWalkthrough** node and locate and select the **Customer** class.
 

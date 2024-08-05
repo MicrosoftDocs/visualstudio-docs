@@ -1,5 +1,5 @@
 ---
-description: "Reads DWORD values in a property set."
+description: Reads DWORD values in a property set.
 title: "IDiaPropertyStorage::ReadDWORD"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaPropertyStorage::ReadDWORD
 
 Reads `DWORD` values in a property set.
@@ -19,7 +20,7 @@ Reads `DWORD` values in a property set.
 ## Syntax
 
 ```C++
-HRESULT ReadDWORD ( 
+HRESULT ReadDWORD ( 
    PROPID id,
    DWORD* pValue
 );

@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 # IDiaInjectedSource
 
-Accesses injected source code stored in the DIA data source.
+Accesses injected source code stored in the Debug Interface Access (DIA) data source.
 
 ## Syntax
 

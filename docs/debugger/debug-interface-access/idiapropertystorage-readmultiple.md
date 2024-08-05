@@ -1,5 +1,5 @@
 ---
-description: "Reads specified properties from the current property set."
+description: Reads specified properties from the current property set.
 title: "IDiaPropertyStorage::ReadMultiple"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaPropertyStorage::ReadMultiple
 
 Reads specified properties from the current property set.
@@ -19,7 +20,7 @@ Reads specified properties from the current property set.
 ## Syntax
 
 ```C++
-HRESULT ReadMultiple( 
+HRESULT ReadMultiple( 
    ULONG          cpspec,
    PROPSPEC const rgpspec,
    PROPVARIANT    rgvar
