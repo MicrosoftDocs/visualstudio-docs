@@ -1,6 +1,6 @@
 ---
 title: Use Dotfuscator Community to protect .NET apps
-ms.date: 03/28/2019
+ms.date: 07/25/2024
 ms.devlang: dotnet
 ms.topic: overview
 keywords: Dotfuscator, Dotfuscator CE, Dotfuscator Community, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2019, Visual Studio 2017, Visual Studio
@@ -79,6 +79,8 @@ To begin using Dotfuscator Community from Visual Studio, type `dotfuscator` into
 
 You can also get the **latest version** of Dotfuscator Community from [the Dotfuscator Downloads page on preemptive.com][download].
 
+:::moniker range="vs-2019"
+
 ## Upgrade from Dotfuscator Community 5
 
 Learn how to upgrade to PreEmptive Protection - Dotfuscator Community 6.
@@ -115,6 +117,9 @@ This section includes sets of instructions for upgrading typical usages of Dotfu
 ### Install Dotfuscator 6
 
 Dotfuscator Community is distributed as an extension for Visual Studio. The instructions to install Dotfuscator 6 vary by which version of Visual Studio you have:
+
+* **Visual Studio 2022**
+  Dotfuscator Community 6 is included in Visual Studio 2022.
 
 * **Visual Studio 2019**
   Dotfuscator Community 6 is included in later versions of Visual Studio 2019 (version 16.10.0 and later).
@@ -344,6 +349,8 @@ Additionally, `.xap` packages can no longer be used as inputs because Silverligh
 #### Introduce explicit method overrides
 
 The Renaming option to introduce explicit method overrides has been removed from Dotfuscator. To use Dotfuscator 6, [upgrade your configuration file](#steps-config-files) to remove this setting.
+
+:::moniker-end
 
 ## Full documentation
 
