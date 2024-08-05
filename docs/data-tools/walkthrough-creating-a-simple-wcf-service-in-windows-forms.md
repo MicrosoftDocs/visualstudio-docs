@@ -33,7 +33,7 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
 2. On the start window, choose **Create a new project**.
 
-3. Type **wcf service library** in the search box on the **Create a new project** page. Select either the C# or Visual Basic template for **WCF Service Library**, and then click **Next**.
+3. Type **wcf service library** in the search box on the **Create a new project** page. Select either the C# or Visual Basic template for **WCF Service Library**, and then select **Next**.
 
    ![Create new WCF Service Library project in Visual Studio](media/vs-2019/create-new-wcf-service-library.png)
 

@@ -181,7 +181,7 @@ In such a case, you can specify the `endpointConfigurationName` as a parameter t
 
 ### To find the available endpoints for a WCF service
 
-1. In **Solution Explorer**, right-click the **app.config** file for the project that contains the service reference and then click **Open**. The file appears in the Code Editor.
+1. In **Solution Explorer**, right-click the **app.config** file for the project that contains the service reference, and then select **Open**. The file appears in the Code Editor.
 
 2. Search for the `<Client>` tag in the file.
 
