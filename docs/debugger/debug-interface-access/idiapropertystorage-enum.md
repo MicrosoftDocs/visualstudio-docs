@@ -1,5 +1,5 @@
 ---
-description: "Gets an enumerator for properties within this set."
+description: Gets an enumerator for properties within this set.
 title: "IDiaPropertyStorage::Enum"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaPropertyStorage::Enum
 
 Gets an enumerator for properties within this set.
@@ -19,7 +20,7 @@ Gets an enumerator for properties within this set.
 ## Syntax
 
 ```C++
-HRESULT Enum ( 
+HRESULT Enum ( 
    IEnumSTATPROPSTG** ppenum
 );
 ```
