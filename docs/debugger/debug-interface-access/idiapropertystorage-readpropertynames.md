@@ -1,5 +1,5 @@
 ---
-description: "Retrieves corresponding string names for given property identifiers."
+description: Retrieves corresponding string names for given property identifiers.
 title: "IDiaPropertyStorage::ReadPropertyNames"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaPropertyStorage::ReadPropertyNames
 
 Retrieves corresponding string names for given property identifiers.

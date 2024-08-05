@@ -17,7 +17,7 @@ ms.subservice: debug-diagnostics
 
 # Debug Interface Access SDK Reference
 
-A complete reference to all of the interfaces and supporting enumerations and structures in the DIA SDK.
+A complete reference to all of the interfaces and supporting enumerations and structures in the Debug Interface Access (DIA) SDK.
 
 ## In This Section
 

@@ -1,6 +1,6 @@
 ---
 title: Constants (Debug Interface Access SDK)
-description: See a list of string constants that can be used to identify various sections of a program debug database (PDB) file through the debug interface access (DIA) SDK.
+description: See a list of string constants that can be used to identify various sections of a program debug database (PDB) file through the Debug Interface Access (DIA) SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -16,7 +16,7 @@ ms.subservice: debug-diagnostics
 
 # Constants (Debug Interface Access SDK)
 
-These string constants can be used to identify various sections of a program debug database (PDB) file through the DIA SDK.
+These string constants can be used to identify various sections of a program debug database (PDB) file through the Debug Interface Access (DIA) SDK.
 
 ## Constants
 

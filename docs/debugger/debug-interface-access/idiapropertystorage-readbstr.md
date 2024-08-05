@@ -1,5 +1,5 @@
 ---
-description: "Reads BSTR values in a property set."
+description: Reads BSTR values in a property set.
 title: "IDiaPropertyStorage::ReadBSTR"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaPropertyStorage::ReadBSTR
 
 Reads `BSTR` values in a property set.
@@ -19,7 +20,7 @@ Reads `BSTR` values in a property set.
 ## Syntax
 
 ```C++
-HRESULT ReadBSTR ( 
+HRESULT ReadBSTR ( 
    PROPID id,
    BSTR*  pValue
 );
