@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol9::get_isRTCs`
+# IDiaSymbol9::get_isRTCs
 
 Retrieves a flag that indicates whether the function was compiled with runtime stack checks.
 

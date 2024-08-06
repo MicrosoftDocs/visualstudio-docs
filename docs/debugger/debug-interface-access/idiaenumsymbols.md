@@ -1,5 +1,5 @@
 ---
-description: Enumerates the various symbols contained in the data source.
+description: Enumerates the various symbols contained in the data source. 
 title: IDiaEnumSymbols
 ms.date: "11/04/2016"
 ms.topic: "reference"

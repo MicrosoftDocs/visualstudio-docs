@@ -1,5 +1,5 @@
 ---
-description: Retrieves the number of source files.
+description: Retrieves the number of source link blobs. 
 title: "IDiaEnumSourceLink::Count"
 ms.date: "07/18/2024"
 ms.topic: "reference"
@@ -13,7 +13,7 @@ manager: twhitney
 ms.subservice: debug-diagnostics
 ---
 
-# `IDiaEnumSourceLink::Count`
+# IDiaEnumSourceLink::Count
 
 Retrieves the number of source link blobs.
 

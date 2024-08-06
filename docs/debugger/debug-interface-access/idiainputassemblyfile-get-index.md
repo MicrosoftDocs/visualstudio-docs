@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-#`IDiaInputAssemblyFile::get_index`
+# IDiaInputAssemblyFile::get_index
 
 Retrieves the file index.
 

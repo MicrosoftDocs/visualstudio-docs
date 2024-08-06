@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_phaseName`
+# IDiaSymbol::get_phaseName
 
 Retrieves the phase this function is a member of for PGO multiphased builds.
 

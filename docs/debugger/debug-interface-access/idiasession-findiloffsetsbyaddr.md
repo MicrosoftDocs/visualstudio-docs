@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSession::findILOffsetsByAddr`
+# IDiaSession::findILOffsetsByAddr
 
 Retrieves an enumeration that allows a client to iterate through the MSIL offsets within a specified address range.
 

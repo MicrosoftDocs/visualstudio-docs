@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_isInterfaceUdt`
+# IDiaSymbol::get_isInterfaceUdt
 
 Retrieves a flag indicating whether this is a WinRT interface user-defined type (UDT).
 

@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_bindSlot`
+# IDiaSymbol::get_bindSlot
 
 Retrieves the lower bound in binding space.
 

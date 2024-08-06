@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_backEndQFE`
+# IDiaSymbol::get_backEndQFE
 
 Retrieves the back end QFE number of the compiler.
 

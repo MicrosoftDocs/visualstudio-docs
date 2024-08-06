@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_finalLiveStaticSize`
+# IDiaSymbol::get_finalLiveStaticSize
 
 Retrieves the final static size of live function, after inlining.
 

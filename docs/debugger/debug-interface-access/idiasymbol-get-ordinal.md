@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_ordinal`
+# IDiaSymbol::get_ordinal
 
 Retrieves the ordinal of this export.
 

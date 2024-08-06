@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSession::getFunctionFragments_RVA`
+# IDiaSession::getFunctionFragments_RVA
 
 Retrieves the addresses and lengths of discontiguous fragments for the function at the specified relative virtual address (RVA).
 

@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_exceptionHandlerAddressSection`
+# IDiaSymbol::get_exceptionHandlerAddressSection
 
 Retrieves the section number of the exception handler of this function.
 

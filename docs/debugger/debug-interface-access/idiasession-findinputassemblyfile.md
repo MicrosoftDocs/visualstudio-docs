@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSession::findInputAssemblyFile`
+# IDiaSession::findInputAssemblyFile
 
 Retrieves the .NET Native input assembly file that is the parent of the specified symbol.
 
@@ -29,7 +29,7 @@ HRESULT findInputAssemblyFile ( 
 
  `pSymbol`
 
-[in] An [`IDiaSymbol`](../../debugger/debug-interface-access/idisymbol.md) that is a child of the desired input assembly.
+[in] An [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md) that is a child of the desired input assembly.
 
  `ppResult`
 

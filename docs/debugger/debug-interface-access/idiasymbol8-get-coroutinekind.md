@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol8::get_coroutineKind`
+# IDiaSymbol8::get_coroutineKind
 
 Retrieves the coroutine function kind.
 

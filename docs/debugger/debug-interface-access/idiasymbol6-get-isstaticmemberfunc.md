@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol6::get_isStaticMemberFunc`
+# IDiaSymbol6::get_isStaticMemberFunc
 
 Retrieves a flag that indicates whether this function is a static member function.
 

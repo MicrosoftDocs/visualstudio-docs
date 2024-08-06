@@ -79,6 +79,9 @@ typedef enum CV_CFL_LANG {
 
 The values in this enumeration are returned by a call to the [IDiaSymbol::get_language](../../debugger/debug-interface-access/idiasymbol-get-language.md) method.
 
+> [!NOTE]
+> The newer DXC compiler no longer produces PDBs. This API only has valid values on PDBs produced by the older *fxc.exe* compiler.
+
 ## Requirements
 
 Header: cvconst.h

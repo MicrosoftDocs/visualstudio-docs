@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_frameSize`
+# IDiaSymbol::get_frameSize
 
 Retrieves the frame size.
 

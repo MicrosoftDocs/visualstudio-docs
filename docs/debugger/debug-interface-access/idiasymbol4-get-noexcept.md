@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol4::get_noexcept`
+# IDiaSymbol4::get_noexcept
 
 Retrieves a flag indicating whether the function is declared as `noexcept`.
 

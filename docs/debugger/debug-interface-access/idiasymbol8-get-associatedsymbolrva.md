@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol8::get_associatedSymbolRva`
+# IDiaSymbol8::get_associatedSymbolRva
 
 Retrieves the relative virtual address (RVA) of the associated symbol.
 

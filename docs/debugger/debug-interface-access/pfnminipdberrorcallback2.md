@@ -1,5 +1,5 @@
 ---
-description: Retrieves the file name for the last load error.
+description: Retrieves the file name for the last load error. 
 title: "PFNMINIPDBERRORCALLBACK2"
 ms.date: "7/2/2024"
 ms.topic: "reference"
@@ -44,7 +44,7 @@ szObjOrPdb
 
 szLib
 
-[in] If `szObjOrPdb` referrs to an OBJ file within a LIB file, this is the name of the LIB. Otherwise it is `nullptr`.
+[in] If `szObjOrPdb` refers to an OBJ file within a LIB file, this is the name of the LIB. Otherwise it is `nullptr`.
 
 ## Return Value
 

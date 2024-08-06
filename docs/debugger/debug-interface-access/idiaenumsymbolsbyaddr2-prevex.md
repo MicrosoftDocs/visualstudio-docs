@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the previous symbols in order by address."
+description: "Retrieves the previous symbols in order by address. Method of IDiaEnumSymbolsByAddr2."
 title: "IDiaEnumSymbolsByAddr2::PrevEx"
 ms.date: "7/2/2024"
 ms.topic: "reference"

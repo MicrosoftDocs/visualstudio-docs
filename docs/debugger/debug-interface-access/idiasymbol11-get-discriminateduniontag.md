@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol11::get_discriminatedUnionTag`
+# IDiaSymbol11::get_discriminatedUnionTag
 
 Retrieves information about the tag of a discriminated union symbol instance.
 

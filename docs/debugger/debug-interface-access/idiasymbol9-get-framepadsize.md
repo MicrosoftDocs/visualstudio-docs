@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol9::get_framePadSize`
+# IDiaSymbol9::get_framePadSize
 
 Retrieves the stack frame pad size used for Edit and Continue.
 

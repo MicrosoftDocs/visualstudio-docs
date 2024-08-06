@@ -1,5 +1,5 @@
 ---
-description: Retrieves the size of the next source link blob, without advancing the enumeration.
+description: Retrieves the size of the next source link blob, without advancing the enumeration. Method of IDiaEnumSourceLink2.
 title: "IDiaEnumSourceLink2::SizeOfNext2"
 ms.date: "07/18/2024"
 ms.topic: "reference"
@@ -13,7 +13,7 @@ manager: twhitney
 ms.subservice: debug-diagnostics
 ---
 
-# `IDiaEnumSourceLink2::SizeOfNext2`
+# IDiaEnumSourceLink2::SizeOfNext2
 
 Retrieves the size of the next source link blob, without advancing the enumeration.
 

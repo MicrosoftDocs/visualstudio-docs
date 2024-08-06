@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol7::get_isSignRet`
+# IDiaSymbol7::get_isSignRet
 
 Retrieves a flag that indicates whether this function has signed return address protections.
 

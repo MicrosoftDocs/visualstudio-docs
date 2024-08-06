@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_get_hasControlFlowCheck`
+# IDiaSymbol::get_get_hasControlFlowCheck
 
 Retrieves a flag indicating whether this function contains control flow checks.
 

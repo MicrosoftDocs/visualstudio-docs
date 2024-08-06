@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::findInputAssemblyFile`
+# IDiaSymbol::findInputAssemblyFile
 
 Retrieves the .NET Native input assembly file that is the parent of the symbol.
 

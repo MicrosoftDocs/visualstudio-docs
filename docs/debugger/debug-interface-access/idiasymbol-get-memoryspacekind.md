@@ -31,6 +31,11 @@ HRESULT get_memorySpaceKind(
 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
+## Remarks
+
+> [!NOTE]
+> The newer DXC compiler no longer produces PDBs. This API only has valid values on PDBs produced by the older *fxc.exe* compiler.
+
 ## See also
 
 - [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md)

@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol3::get_inlinee`
+# IDiaSymbol3::get_inlinee
 
 Retrieves the inlinee symbol from a `SymTagInlineSite` symbol.
 

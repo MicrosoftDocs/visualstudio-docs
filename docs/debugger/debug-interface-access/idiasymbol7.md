@@ -1,5 +1,5 @@
 ---
-description: "Describes additional properties of a symbol instance."
+description: "Describes additional properties of a symbol instance relating to signed return address protections."
 title: "IDiaSymbol7"
 ms.date: "07/12/2024"
 ms.topic: "reference"
@@ -37,7 +37,7 @@ The following table shows the methods of `IDiaSymbol7`.
 
 ## Notes for Callers
 
-Obtain this interface by first getting an [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md) instance and then calling [`IUnknown::QueryInterface`](windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)) to do a dynamic downcast.
+Obtain this interface by first getting an [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md) instance and then calling [`IUnknown::QueryInterface`](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)) to do a dynamic downcast.
 
 ## Requirements
 

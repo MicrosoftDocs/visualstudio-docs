@@ -1,5 +1,5 @@
 ---
-description: Retrieves the next source link blob and advances the enumeration.
+description: Retrieves the next source link blob and advances the enumeration. 
 title: "IDiaEnumSourceLink::Next"
 ms.date: "07/18/2024"
 ms.topic: "reference"
@@ -13,7 +13,7 @@ manager: twhitney
 ms.subservice: debug-diagnostics
 ---
 
-# `IDiaEnumSourceLink::Next`
+# IDiaEnumSourceLink::Next
 
 Retrieves the next source link blob and advances the enumeration.
 

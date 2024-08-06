@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_strictGSCheck`
+# IDiaSymbol::get_strictGSCheck
 
 Retrieves a flag indicating whether this function was compiled with [`strict_gs_check` pragma](/cpp/preprocessor/strict-gs-check) enabled.
 

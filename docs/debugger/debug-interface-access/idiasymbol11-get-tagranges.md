@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol11::get_tagRanges`
+# IDiaSymbol11::get_tagRanges
 
 Retrieves the ranges of tags within a discriminated union symbol instance.
 

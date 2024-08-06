@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSession::getFuncMDTokenMapSize`
+# IDiaSession::getFuncMDTokenMapSize
 
 Retrieves the size, in bytes, of the .NET Native metadata function token map.
 

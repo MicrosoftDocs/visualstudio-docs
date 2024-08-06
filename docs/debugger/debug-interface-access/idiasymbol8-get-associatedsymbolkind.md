@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol8::get_associatedSymbolKind`
+# IDiaSymbol8::get_associatedSymbolKind
 
 Retrieves the associated symbol kind.
 

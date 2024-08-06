@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_exceptionHandlerAddressOffset`
+# IDiaSymbol::get_exceptionHandlerAddressOffset
 
 Retrieves the section offset of the exception handler of this function.
 

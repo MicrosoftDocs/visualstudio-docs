@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_dataExport`
+# IDiaSymbol::get_dataExport
 
 Retrieves a flag indicating whether this export is `DATA`.
 

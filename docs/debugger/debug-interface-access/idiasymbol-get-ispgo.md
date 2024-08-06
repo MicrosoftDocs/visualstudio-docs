@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_isPGO`
+# IDiaSymbol::get_isPGO
 
 Retrieves a flag indicating whether profile-guided optimizations (PGO) were performed for this function.
 

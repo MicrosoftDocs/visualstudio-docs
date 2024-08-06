@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_bindID`
+# IDiaSymbol::get_bindID
 
 Retrieves the binding register index.
 

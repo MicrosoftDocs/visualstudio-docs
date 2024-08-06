@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_isRefUdt`
+# IDiaSymbol::get_isRefUdt
 
 Retrieves a flag indicating whether this is a WinRT reference user-defined type (UDT).
 

@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSessionEx::getSourceLinkInfo`
+# IDiaSessionEx::getSourceLinkInfo
 
 Retrieves an enumeration of [Source Link](https://github.com/dotnet/designs/blob/master/accepted/2020/diagnostics/source-link.md) information.
 

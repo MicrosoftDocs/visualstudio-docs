@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-#`IDiaInputAssemblyFile::get_version`
+# IDiaInputAssemblyFile::get_version
 
 Retrieves the version of the orginal assembly.
 

@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol9::get_framePadOffset`
+# IDiaSymbol9::get_framePadOffset
 
 Retrieves the stack frame pad offset used for Edit and Continue.
 

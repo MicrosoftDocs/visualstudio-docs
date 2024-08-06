@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol8::get_associatedSymbolSection`
+# IDiaSymbol8::get_associatedSymbolSection
 
 Retrieves the section component of the address of the associated symbol.
 

@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSession::getFuncMDTokenMap`
+# IDiaSession::getFuncMDTokenMap
 
 Retrieves the contents of the .NET Native metadata function token map.
 

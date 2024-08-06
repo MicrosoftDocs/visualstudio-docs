@@ -42,5 +42,5 @@ If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See also
 
-- [`IDiaEnumInputAssemblyFiles`](../../debugger/debug-interface-access/idiaenumininputassemblyfiles.md)
+- [`IDiaEnumInputAssemblyFiles`](../../debugger/debug-interface-access/idiaenuminputassemblyfiles.md)
 - [`IDiaInputAssemblyFile`](../../debugger/debug-interface-access/idiainputassemblyfile.md)

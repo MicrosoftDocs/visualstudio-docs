@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_bindSpace`
+# IDiaSymbol::get_bindSpace
 
 Retrives the binding space.
 

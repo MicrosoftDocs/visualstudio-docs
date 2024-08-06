@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_staticSize`
+# IDiaSymbol::get_staticSize
 
 Retrieves the static instruction count.
 

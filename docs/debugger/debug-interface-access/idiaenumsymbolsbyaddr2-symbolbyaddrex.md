@@ -1,5 +1,5 @@
 ---
-description: "Positions the enumerator by performing a lookup by image section number and offset."
+description: "Positions the enumerator by performing a lookup by image section number and offset. Method of IDiaEnumSymbolsByAddr2."
 title: "IDiaEnumSymbolsByAddr2::symbolByAddrEx"
 ms.date: "7/2/2024"
 ms.topic: "reference"
@@ -31,7 +31,7 @@ HRESULT symbolByAddrEx (
 
  `fPromoteBlockSym`
 
-[in] Whether or not to enumerate SymTagBlock symbols or promote them to an outer/parent symbol (like SymTagFuncton or SymTagPublicSymbol). If `FALSE` returns unpromoted SymTagBlock. Otherwise behaves identically to [`IDiaEnumSymbolsByAddr::symbolByAddr`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolsbyaddr.md)
+[in] Whether or not to enumerate SymTagBlock symbols or promote them to an outer/parent symbol (like SymTagFuncton or SymTagPublicSymbol). If `FALSE` returns unpromoted SymTagBlock. Otherwise behaves identically to [`IDiaEnumSymbolsByAddr::symbolByAddr`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolbyaddr.md)
 
  `isect`
 
@@ -51,6 +51,6 @@ HRESULT symbolByAddrEx (
 
 ## See also
 
-- [`IDiaEnumSymbolsByAddr::symbolByAddr`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolsbyaddr.md)
+- [`IDiaEnumSymbolsByAddr::symbolByAddr`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolbyaddr.md)
 - [`IDiaEnumSymbolsByAddr2`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr2.md)
 - [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md)

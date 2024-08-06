@@ -1,5 +1,5 @@
 ---
-description: "Facilitates walking the stack using the program debug database (.pdb) file."
+description: "Facilitates walking the stack using the program debug database (.pdb) file. Extends IDiaStackWalkHelper." 
 title: "IDiaStackWalkHelper2"
 ms.date: "07/18/2024"
 ms.topic: "reference"
@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaStackWalkHelper2`
+# IDiaStackWalkHelper2
 
 Facilitates walking the stack using the program debug database (.pdb) file.
 

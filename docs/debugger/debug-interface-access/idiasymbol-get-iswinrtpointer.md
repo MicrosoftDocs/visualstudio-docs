@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_isWinRTPointer`
+# IDiaSymbol::get_isWinRTPointer
 
 Retrieves a flag indicating whether this is a WinRT pointer type.
 

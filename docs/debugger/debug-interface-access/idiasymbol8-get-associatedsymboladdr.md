@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol8::get_associatedSymbolAddr`
+# IDiaSymbol8::get_associatedSymbolAddr
 
 Retrieves the virtual address (VA) of the associated symbol.
 

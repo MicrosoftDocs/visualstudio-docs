@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol10::get_sourceLink`
+# IDiaSymbol10::get_sourceLink
 
 Retreives the [Source Link](https://github.com/dotnet/designs/blob/master/accepted/2020/diagnostics/source-link.md) blob associated with this `SymTagCompiland` symbol.
 

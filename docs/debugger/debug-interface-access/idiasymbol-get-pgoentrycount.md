@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_PGOEntryCount`
+# IDiaSymbol::get_PGOEntryCount
 
 Retrieves the total invocation count in PGO training.
 

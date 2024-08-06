@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSession::getFunctionFragments_VA`
+# IDiaSession::getFunctionFragments_VA
 
 Retrieves the addresses and lengths of discontiguous fragments for the function at the specified virtual address (VA).
 

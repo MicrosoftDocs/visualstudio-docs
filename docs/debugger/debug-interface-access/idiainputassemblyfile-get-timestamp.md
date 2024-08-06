@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-#`IDiaInputAssemblyFile::get_timestamp`
+# IDiaInputAssemblyFile::get_timestamp
 
 Retrieves the time stamp.
 

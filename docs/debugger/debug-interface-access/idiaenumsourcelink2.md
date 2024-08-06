@@ -1,5 +1,5 @@
 ---
-description: Enumerates the various source link blobs contained in the data source.
+description: Enumerates the various source link blobs contained in the data source. Extends IDiaEnumSourceLink.
 title: IDiaEnumSourceLink2
 ms.date: "07/18/2024"
 ms.topic: "reference"
@@ -36,7 +36,7 @@ The following table shows the methods of `IDiaEnumSourceLink2`.
 
 ## Notes for Callers
 
-Obtain this interface by calling the [`IDiaSessionEx::getSourceLinkInfo`](../../debugger/debug-interface-access/idiasessionex-getsourcelinkinfo.md) method then calling [`IUnknown::QueryInterface`](windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)) with the `riid` parameter set to `IID_IDiaEnumSourceLink2`.
+Obtain this interface by calling the [`IDiaSessionEx::getSourceLinkInfo`](../../debugger/debug-interface-access/idiasessionex-getsourcelinkinfo.md) method then calling [`IUnknown::QueryInterface`](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)) with the `riid` parameter set to `IID_IDiaEnumSourceLink2`.
 
 ## See also
 

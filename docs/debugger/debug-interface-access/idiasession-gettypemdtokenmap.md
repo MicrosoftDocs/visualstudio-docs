@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSession::getTypeMDTokenMap`
+# IDiaSession::getTypeMDTokenMap
 
 Retrieves the contents of the .NET Native metadata type token map.
 

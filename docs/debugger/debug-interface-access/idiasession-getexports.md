@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSession::getExports`
+# IDiaSession::getExports
 
 Retrieves an enumerator for all exported symbols, symbols with `SymTagExport`, from a `.dll`.
 

@@ -1,5 +1,5 @@
 ---
-description: "Enumerates by address the various symbols contained in the data source."
+description: "Enumerates by address the various symbols contained in the data source. Extends IDiaEnumSymbolsByAddr."
 title: "IDiaEnumSymbolsByAddr2"
 ms.date: "7/2/2024"
 ms.topic: "reference"
@@ -40,7 +40,7 @@ This interface provides symbols grouped by address. To work with symbols grouped
 
 ## Notes for callers
 
-Obtain this interface by calling the [`IDiaSession::getSymbolsByAddr`](../../debugger/debug-interface-access/idiasession-getsymbolsbyaddr.md) method and then calling [`IUnknown::QueryInterface`](windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)) with the `riid` parameter set to `IID_IDiaEnumSymbolsByAddr2`.
+Obtain this interface by calling the [`IDiaSession::getSymbolsByAddr`](../../debugger/debug-interface-access/idiasession-getsymbolsbyaddr.md) method and then calling [`IUnknown::QueryInterface`](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)) with the `riid` parameter set to `IID_IDiaEnumSymbolsByAddr2`.
 
 ## Example
 

@@ -1,5 +1,5 @@
 ---
-description: "Positions the enumerator by performing a lookup by virtual address (VA)."
+description: "Positions the enumerator by performing a lookup by virtual address (VA). Method of IDiaEnumSymbolsByAddr2."
 title: "IDiaEnumSymbolsByAddr2::symbolByVAEx"
 ms.date: "7/2/2024"
 ms.topic: "reference"
@@ -30,7 +30,7 @@ HRESULT symbolByVA (
 
  `fPromoteBlockSym`
 
-[in] Whether or not to enumerate SymTagBlock symbols or promote them to an outer/parent symbol (like SymTagFuncton or SymTagPublicSymbol). If `FALSE` returns unpromoted SymTagBlock. Otherwise behaves identically to [`IDiaEnumSymbolsByAddr::symbolByVA`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolsbyva.md)
+[in] Whether or not to enumerate SymTagBlock symbols or promote them to an outer/parent symbol (like SymTagFuncton or SymTagPublicSymbol). If `FALSE` returns unpromoted SymTagBlock. Otherwise behaves identically to [`IDiaEnumSymbolsByAddr::symbolByVA`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolbyva.md)
  
  `virtualAddress`
 
@@ -46,6 +46,6 @@ HRESULT symbolByVA (
 
 ## See also
 
-- [`IDiaEnumSymbolsByAddr::symbolByVA`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolsbyva.md)
+- [`IDiaEnumSymbolsByAddr::symbolByVA`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolbyva.md)
 - [`IDiaEnumSymbolsByAddr2`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr2.md)
 - [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md)

@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_coffGroup`
+# IDiaSymbol::get_coffGroup
 
 Retrieves the COFF group symbol this symbol comes from.
 

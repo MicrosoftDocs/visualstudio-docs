@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_PGODynamicInstructionCount`
+# IDiaSymbol::get_PGODynamicInstructionCount
 
 Retrieves the dynamic instruction count calculated by training.
 
@@ -39,11 +39,11 @@ HRESULT get_PGODynamicInstructionCount ( 
 
 ## Remarks
 
-This is the number of instructions in the function that were executed during training. FOr example if two instructions were executed twice each, this would return a dynamic instruction count of 4, meaning 4 instructions were executed during the training. To get the total size of the function, including dead instructions (i.e. instructions never executed by the training data), use [`IDiaSymbol::get_staticSize`](../../debugger/debug-interface-access/idiasymbol-get-staticsize.md). To get the number of live instructions, not multiplied by execution counts, use [`IDiaSymbol::get_finalLiveStaticSize`](../../debugger/debug-interface-access/idiasymbol-get-finalivestaticsize.md). 
+This is the number of instructions in the function that were executed during training. FOr example if two instructions were executed twice each, this would return a dynamic instruction count of 4, meaning 4 instructions were executed during the training. To get the total size of the function, including dead instructions (i.e. instructions never executed by the training data), use [`IDiaSymbol::get_staticSize`](../../debugger/debug-interface-access/idiasymbol-get-staticsize.md). To get the number of live instructions, not multiplied by execution counts, use [`IDiaSymbol::get_finalLiveStaticSize`](../../debugger/debug-interface-access/idiasymbol-get-finallivestaticsize.md). 
 
 ## See also
 
 - [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md)
 - [`IDiaSymbol::get_staticSize`](../../debugger/debug-interface-access/idiasymbol-get-staticsize.md)
-- [`IDiaSymbol::get_finalLiveStaticSize`](../../debugger/debug-interface-access/idiasymbol-get-finalivestaticsize.md)
+- [`IDiaSymbol::get_finalLiveStaticSize`](../../debugger/debug-interface-access/idiasymbol-get-finallivestaticsize.md)
 - [Profile-guided optimizations](/cpp/build/profile-guided-optimizations)

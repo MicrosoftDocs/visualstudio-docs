@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_isValueUdt`
+# IDiaSymbol::get_isValueUdt
 
 Retrieves a flag indicating whether this is a WinRT value user-defined type (UDT).
 

@@ -1,5 +1,5 @@
 ---
-description: "Describes additional properties of a symbol instance."
+description: "Describes additional properties of a symbol instance related to Objective-C."
 title: "IDiaSymbol2"
 ms.date: "07/12/2024"
 ms.topic: "reference"

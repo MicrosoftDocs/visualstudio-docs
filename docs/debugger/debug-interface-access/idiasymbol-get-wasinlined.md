@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_wasInlined`
+# IDiaSymbol::get_wasInlined
 
 Retrieves a flag indicating whether this function symbol was inlined into another function.
 

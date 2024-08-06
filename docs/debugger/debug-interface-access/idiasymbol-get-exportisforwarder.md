@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_exportIsForwarder`
+# IDiaSymbol::get_exportIsForwarder
 
 Retrieves a flag indicating whether this export is a forwarder.
 

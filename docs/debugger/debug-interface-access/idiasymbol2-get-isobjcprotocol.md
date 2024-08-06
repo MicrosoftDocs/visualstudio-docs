@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol2::get_isObjCProtocol`
+# IDiaSymbol2::get_isObjCProtocol
 
 Retrieves a flag indicating whether this is an Objective-C protocol.
 

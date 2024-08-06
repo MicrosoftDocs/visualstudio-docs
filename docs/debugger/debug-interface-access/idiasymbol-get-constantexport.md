@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_constantExport`
+# IDiaSymbol::get_constantExport
 
 Retrieves a flag indicating whether this export is `CONSTANT`.
 

@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSession::findInputAssembly`
+# IDiaSession::findInputAssembly
 
 Retrieves a .NET Native input assembly file by index.
 

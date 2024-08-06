@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_exceptionHandlerVirtualAddress`
+# IDiaSymbol::get_exceptionHandlerVirtualAddress
 
 Retrieves the virtual address of the exception handler of this function.
 

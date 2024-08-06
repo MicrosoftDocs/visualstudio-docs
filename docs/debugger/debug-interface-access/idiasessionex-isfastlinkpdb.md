@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSessionEx::isFastLinkPDB`
+# IDiaSessionEx::isFastLinkPDB
 
 Retrieves a boolean indicating that the source debug information was produced with `/DEBUG:fastlink`.
 

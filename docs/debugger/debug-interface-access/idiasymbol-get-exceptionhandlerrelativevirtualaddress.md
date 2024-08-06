@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_exceptionHandlerRelativeVirtualAddress`
+# IDiaSymbol::get_exceptionHandlerRelativeVirtualAddress
 
 Retrieves the relative virtual address (RVA) of the exception handler of this function.
 

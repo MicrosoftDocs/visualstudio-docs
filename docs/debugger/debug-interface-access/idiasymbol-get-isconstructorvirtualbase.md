@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_isConstructorVirtualBase`
+# IDiaSymbol::get_isConstructorVirtualBase
 
 Retrieves a flag indicating whether this is an instance constructor of a class with virtual base.
 

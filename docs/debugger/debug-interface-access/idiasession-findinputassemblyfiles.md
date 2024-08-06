@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSession::findInputAssemblyFiles`
+# IDiaSession::findInputAssemblyFiles
 
 Retrieves an enumeration that allows a client to iterate through the .NET Native input assembly files.
 

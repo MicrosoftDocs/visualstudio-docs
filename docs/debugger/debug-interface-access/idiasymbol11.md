@@ -1,5 +1,5 @@
 ---
-description: "Describes additional properties of a SymTagTaggedUnionCase symbol instance."
+description: "Describes additional properties of a SymTagTaggedUnionCase symbol instance relating to tag ranges."
 title: "IDiaSymbol11"
 ms.date: "07/15/2024"
 ms.topic: "reference"
@@ -39,7 +39,7 @@ The following table shows the methods of `IDiaSymbol11`.
 
 ## Notes for Callers
 
-Obtain this interface by first getting an [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md) instance and then calling [`IUnknown::QueryInterface`](windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)) to do a dynamic downcast.
+Obtain this interface by first getting an [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md) instance and then calling [`IUnknown::QueryInterface`](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)) to do a dynamic downcast.
 
 ## Requirements
 

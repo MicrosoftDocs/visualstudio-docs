@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_isLocationControlFlowDependent`
+# IDiaSymbol::get_isLocationControlFlowDependent
 
 Retrieves a flag indicating whether a local symbol's location liveness is dependent upon the control flow of the function.
 

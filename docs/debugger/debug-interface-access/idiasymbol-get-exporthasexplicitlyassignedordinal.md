@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_exportHasExplicitlyAssignedOrdinal`
+# IDiaSymbol::get_exportHasExplicitlyAssignedOrdinal
 
 Retrieves a flag indicating whether this export has an explicitly assigned ordinal.
 

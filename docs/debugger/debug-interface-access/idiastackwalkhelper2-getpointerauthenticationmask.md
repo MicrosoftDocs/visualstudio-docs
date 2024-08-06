@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaStackWalkHelper2::GetPointerAuthenticationMask`
+# IDiaStackWalkHelper2::GetPointerAuthenticationMask
 
 Retrieves the value of the pointer authentication mask.
 

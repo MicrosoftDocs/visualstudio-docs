@@ -1,5 +1,5 @@
 ---
-description: Resets an enumeration sequence of source files to the beginning.
+description: Resets an enumeration sequence to the beginning. 
 title: "IDiaEnumSourceLink::Reset"
 ms.date: "07/18/2024"
 ms.topic: "reference"
@@ -13,7 +13,7 @@ manager: twhitney
 ms.subservice: debug-diagnostics
 ---
 
-# `IDiaEnumSourceLink::Reset`
+# IDiaEnumSourceLink::Reset
 
 Resets an enumeration sequence to the beginning.
 

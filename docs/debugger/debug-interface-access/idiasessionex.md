@@ -1,6 +1,6 @@
 ---
 description: "Provides an extended query context for debug symbols."
-title: "IDiaSession"
+title: "IDiaSessionEx"
 ms.date: "07/05/2024"
 ms.topic: "reference"
 dev_langs:
@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSessionEx`
+# IDiaSessionEx
 
 Provides an extended query context for debug symbols.
 

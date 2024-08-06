@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_PGOEdgeCount`
+# IDiaSymbol::get_PGOEdgeCount
 
 Retrieves the edge count between a caller/callee and it's parent.
 

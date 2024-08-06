@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSession::getNumberOfFunctionFragments_VA`
+# IDiaSession::getNumberOfFunctionFragments_VA
 
 Retrieves the number of discontiguous fragments for the function at the specified virtual address (VA).
 

@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_characteristics`
+# IDiaSymbol::get_characteristics
 
 Retrieves the characteristics of this COFF section.
 

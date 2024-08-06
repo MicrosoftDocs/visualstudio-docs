@@ -13,7 +13,7 @@ manager: twhitney
 ms.subservice: debug-diagnostics
 ---
 
-# `IDiaEnumSourceLink::Skip`
+# IDiaEnumSourceLink::Skip
 
 Skips a specified number of source link blobs in an enumeration sequence.
 

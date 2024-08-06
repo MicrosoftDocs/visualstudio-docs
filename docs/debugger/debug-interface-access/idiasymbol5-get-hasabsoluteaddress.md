@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol5::get_hasAbsoluteAddress`
+# IDiaSymbol5::get_hasAbsoluteAddress
 
 Retrieves a flag that indicates whether this symbol has an absolute address.
 

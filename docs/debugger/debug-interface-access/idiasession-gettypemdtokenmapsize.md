@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSession::getTypeMDTokenMapSize`
+# IDiaSession::getTypeMDTokenMapSize
 
 Retrieves the size, in bytes, of the .NET Native metadata type token map.
 

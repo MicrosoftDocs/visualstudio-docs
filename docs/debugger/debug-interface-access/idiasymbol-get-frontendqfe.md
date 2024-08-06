@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_frontEndQFE`
+# IDiaSymbol::get_frontEndQFE
 
 Retrieves the front end QFE number of the compiler.
 

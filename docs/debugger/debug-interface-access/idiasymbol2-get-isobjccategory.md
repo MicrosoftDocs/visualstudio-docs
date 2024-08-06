@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol2::get_isObjCCategory`
+# IDiaSymbol2::get_isObjCCategory
 
 Retrieves a flag indicating whether this is an Objective-C category.
 

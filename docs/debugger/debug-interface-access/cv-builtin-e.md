@@ -74,6 +74,9 @@ typedef enum CV_builtin_e
 
 Use the [`IDiaSymbol::get_builtInKind`](../../debugger/debug-interface-access/idiasymbol-get-builtinkind.md) method to retrieve the built in type kind for a HLSL symbol.
 
+> [!NOTE]
+> The newer DXC compiler no longer produces PDBs. This API only has valid values on PDBs produced by the older *fxc.exe* compiler.
+
 ## Requirements
 
 Header: cvconst.h

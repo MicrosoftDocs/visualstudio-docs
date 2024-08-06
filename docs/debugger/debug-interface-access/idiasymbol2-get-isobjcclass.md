@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol2::get_isObjCClass`
+# IDiaSymbol2::get_isObjCClass
 
 Retrieves a flag indicating whether this is an Objective-C class interface/implementation.
 

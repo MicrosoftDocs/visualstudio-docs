@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the next symbols in order by address."
+description: "Retrieves the next symbols in order by address. Method of IDiaEnumSymbolsByAddr2."
 title: "IDiaEnumSymbolsByAddr2::NextEx"
 ms.date: "7/2/2024"
 ms.topic: "reference"

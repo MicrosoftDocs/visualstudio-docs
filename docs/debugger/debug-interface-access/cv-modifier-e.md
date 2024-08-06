@@ -74,6 +74,11 @@ typedef enum CV_modifier_e
 | `CV_MOD_HLSL_PRECISE` | HLSL precise |
 | `CV_MOD_HLSL_UAV_GLOBALLY_COHERENT` | HLSL UAV globally coherent |
 
+## Remarks
+
+> [!NOTE]
+> The newer DXC compiler no longer produces PDBs. The HLSL elements only have valid values on PDBs produced by the older *fxc.exe* compiler.
+
 ## Requirements
 
 Header: cvconst.h

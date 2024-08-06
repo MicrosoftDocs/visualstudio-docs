@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_unused`
+# IDiaSymbol::get_unused
 
 Deprecated function.
 

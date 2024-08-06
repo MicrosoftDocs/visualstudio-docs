@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSession::getHeapAllocationSites`
+# IDiaSession::getHeapAllocationSites
 
 Retrieves an enumerator for all `SymTagHeapAllocationSite` symbols.
 

@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_hasValidPGOCounts`
+# IDiaSymbol::get_hasValidPGOCounts
 
 Retrieves a flag indicating whether this symbols has valid profile-guided optimizations (PGO) counts.
 

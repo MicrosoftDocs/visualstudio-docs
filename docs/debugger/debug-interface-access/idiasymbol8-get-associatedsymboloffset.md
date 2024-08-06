@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol8::get_associatedSymbolOffset`
+# IDiaSymbol8::get_associatedSymbolOffset
 
 Retrieves the offset component of the address of the associated symbol.
 
@@ -40,6 +40,6 @@ HRESULT get_associatedSymbolOffset(
 ## See also
 
 - [`IDiaSymbol8`](../../debugger/debug-interface-access/idiasymbol8.md)
-- [`IDiaSymbol8::get_associatedSymbolSection`](../../debugger/debug-interface-access/idiasymbol8-get-associatedsymbolosection.md)
+- [`IDiaSymbol8::get_associatedSymbolSection`](../../debugger/debug-interface-access/idiasymbol8-get-associatedsymbolsection.md)
 - [`IDiaSymbol8::get_associatedSymbolAddr`](../../debugger/debug-interface-access/idiasymbol8-get-associatedsymboladdr.md)
 - [`IDiaSymbol8::get_associatedSymbolRva`](../../debugger/debug-interface-access/idiasymbol8-get-associatedsymbolrva.md)

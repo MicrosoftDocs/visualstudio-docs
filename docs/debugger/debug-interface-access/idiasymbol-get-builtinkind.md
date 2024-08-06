@@ -1,7 +1,7 @@
 ---
 description: "Retrieves a built-in kind of the HLSL type."
 title: "IDiaSymbol::get_builtInKind"
-ms.date: "0718/2024"
+ms.date: "07/18/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -30,6 +30,11 @@ HRESULT get_buildInKind(
 ## Return Value
 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
+ 
+## Remarks
+
+> [!NOTE]
+> The newer DXC compiler no longer produces PDBs. This API only has valid values on PDBs produced by the older *fxc.exe* compiler.
 
 ## See also
 

@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSession::addressForVA`
+# IDiaSession::addressForVA
 
 Returns the equivalent address for the specified virtual address (VA).
 

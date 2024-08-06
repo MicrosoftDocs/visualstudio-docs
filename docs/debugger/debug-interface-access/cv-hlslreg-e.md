@@ -1,6 +1,6 @@
 ---
 title: CV_HLSLREG_e Enumeration
-description: Specifies the HLSL built in type kind.
+description: Specifies the HLSL register type kind.
 ms.date: "07/15/2024"
 ms.topic: "reference"
 dev_langs:
@@ -69,6 +69,9 @@ typedef enum CV_HLSLREG_e
 ## Remarks
 
 Use the [`IDiaSymbol::get_registerType`](../../debugger/debug-interface-access/idiasymbol-get-registertype.md) method to retrieve the register type for an HLSL symbol.
+
+> [!NOTE]
+> The newer DXC compiler no longer produces PDBs. This API only has valid values on PDBs produced by the older *fxc.exe* compiler.
 
 ## Requirements
 

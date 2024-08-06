@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-# `IDiaSymbol::get_numericProperties`
+# IDiaSymbol::get_numericProperties
 
 Retrieves the set of numeric properties for this symbol.
 

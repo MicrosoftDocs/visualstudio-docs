@@ -49,7 +49,7 @@ HRESULT ValidatePdb (
 
 pfStripped
 
-[out] If the PDB matches the other information, this parameter is set to indicate whether the PDB has been stripped of private symbols. This is the same value as would be returned by [IDiaSymbol::get_isStripped](../../debugger/debug-interface-access/idiasymbol-get-isstripped). If the PDB does not match the other values, or this method fails, this parameter is unspecified. 
+[out] If the PDB matches the other information, this parameter is set to indicate whether the PDB has been stripped of private symbols. This is the same value as would be returned by [IDiaSymbol::get_isStripped](../../debugger/debug-interface-access/idiasymbol-get-isstripped.md). If the PDB does not match the other values, or this method fails, this parameter is unspecified. 
 
 ## Return Value
 

@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-#`IDiaInputAssemblyFile::get_pdbAvailableAtILMerge`
+# IDiaInputAssemblyFile::get_pdbAvailableAtILMerge
 
 Retrieves a flag that indicates whether the PDB was available at the creation of the .Net Native binary.
 

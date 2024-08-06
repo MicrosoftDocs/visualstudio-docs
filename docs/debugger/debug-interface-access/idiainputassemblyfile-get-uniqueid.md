@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-#`IDiaInputAssemblyFile::get_uniqueId`
+# IDiaInputAssemblyFile::get_uniqueId
 
 Retrieves a unique identifier for the file.
 

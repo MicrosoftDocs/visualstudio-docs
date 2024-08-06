@@ -13,7 +13,7 @@ manager: twhitney
 ms.subservice: debug-diagnostics
 ---
 
-# `IDiaEnumSourceLink::SizeOfNext`
+# IDiaEnumSourceLink::SizeOfNext
 
 Retrieves the size of the next source link blob, without advancing the enumeration.
 

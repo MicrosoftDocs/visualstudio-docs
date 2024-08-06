@@ -12,7 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
-#`IDiaInputAssemblyFile::get_fileName`
+# IDiaInputAssemblyFile::get_fileName
 
 Retrieves the orginal assembly file name.
 
