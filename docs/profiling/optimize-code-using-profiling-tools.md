@@ -68,11 +68,11 @@ Data collection requires the following tasks:
 
 ### Inspect areas of high CPU usage
 
-After collecting a trace with the CPU Usage tool and loading it into Visual Studio, we first check the initial *.diagsession* report page that shows Top Insights and the Hot Path. The Hot Path shows the code path with highest CPU usage in the app. These sections may provide tips to help us quickly identify performance issues that we can improve.
+After collecting a trace with the CPU Usage tool and loading it into Visual Studio, we first check the initial *.diagsession* report page that shows summarized data. Use the **Open details** link in the report and then select **Call Tree**. The code path with highest CPU usage in the app is called the *hot path*. The hot path can help you quickly identify performance issues that can be improved.
 
-We can also view the hot path in the **Call Tree** view. To open this view, use the **Open details** link in the report and then select **Call Tree**.
+:::image type="content" source="./media/optimize-code-open-details.png" alt-text="Screenshot of opening details in CPU Usage tool.":::
 
-In this view, we see the hot path again, which shows high CPU usage for the `GetBlogTitleX` method in the app, using about a 60% share of the app's CPU usage. However, the **Self CPU** value for `GetBlogTitleX` is low, only about .10%. Unlike **Total CPU**, the **Self CPU** value excludes time spent in other functions, so we know to look farther down the Call Tree view for the real bottleneck.
+In the **Call Tree** view, we see high CPU usage for the `GetBlogTitleX` method in the app, using about a 60% share of the app's CPU usage. However, the **Self CPU** value for `GetBlogTitleX` is low, only about .10%. Unlike **Total CPU**, the **Self CPU** value excludes time spent in other functions, so we know to look farther down the Call Tree view for the real bottleneck.
 
 :::image type="content" source="./media/optimize-code-cpu-usage-call-tree.png" alt-text="Screenshot of Call Tree view in the CPU Usage tool.":::
 
