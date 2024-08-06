@@ -1,7 +1,7 @@
 ---
 title: Admin controls for GitHub Copilot in Visual Studio
 description: Learn about the new features for administrators in GitHub Copilot for Visual Studio that enable admins to manage Copilot effectively. 
-ms.date: 7/30/2024
+ms.date: 8/13/2024
 ms.topic: how-to 
 author: anandmeg
 ms.author: meghaanand
