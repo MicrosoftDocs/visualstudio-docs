@@ -26,6 +26,9 @@ ms.date: 04/11/2024
 > [!IMPORTANT]
 > Sign CLI only supports `SHA-256`, `SHA-384`, and `SHA-512` as valid fingerprint algorithms. You can use PowerShell to get fingerprints using: `Get-FileHash -Algorithm SHA256 <path to .cer file> | Format-Table -AutoSize`
 
+> [!IMPORTANT]
+> Sign CLI only supports `RSA` algorithms, therefore using `ECDSA` to generate your fingerprint will fail signature validation during install. This doesn't block installation, but a “Invalid signature” warnings will show up under the VSIX Installer window during installation.
+
 ## Synopsis
 
 ```dotnetcli
@@ -56,7 +59,7 @@ sign code certificate-store -h|--help
 `Sign CLI` is a Dotnet tool that recursively signs files and containers with a certificate and private. The certificate and private key can be obtained from either a file (PFX, P7B, CER) or from a certificate installed in a certificate store by providing a `SHA-256`, `SHA-384`, or `SHA-512` fingerprint. USB keys can be accessed using a [Cryptographic Service Provider](/windows/win32/seccrypto/cryptographic-service-providers) (CSP) implemented by the manufacturer and accessed from the certificate store.
 
 ## Installation
-Install Sign CLI globally using `dotnet tool install sign --version <version> --global`, where `<version>` is the latest available version under [Sign (nuget.org)](https://www.nuget.org/packages/sign).
+Install Sign CLI globally using `dotnet tool install sign --prerelease --global`
 
 ### Offline Installation of Sign CLI
 For isolated environments you can download a Sign CLI NuGet package and install it using:
@@ -87,11 +90,17 @@ dotnet tool install --global --add-source <path-to-folder> <tool-name> --version
 
 - **`-csp|--crypto-service-provider <CSP NAME>`**
 
-   Cryptographic Service Provider containing a private key.
+   Cryptographic Service Provider containing a private key. 
+   
+  > [!NOTE]
+  > You can see all available CSPs by running `certutil -csplist`, where legacy CSPs specify a "Provider Type" and CNG providers usually have "Key Storage Provider" in their names. `certutil -csptest "<provider name>"` provides more information on specific providers.
 
 - **`-k|--key-container <CONTAINER NAME>]`**
 
    Private key container name.
+
+  > [!NOTE]
+  > You can find all keys stored within a CSP by running `certutil -csp <Provider Name> -key`.
 
 - **`-km|--use-machine-key-container]`**
 
