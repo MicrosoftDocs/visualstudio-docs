@@ -16,20 +16,20 @@ monikerRange: '>= vs-2022'
 ---
 # Beginner's guide to optimizing code and reducing compute costs (C#, Visual Basic, C++, F#)
 
-Reducing your compute time means reducing costs, so optimizing your code can save money. In this case study, we show how you can use profiling tools to help you accomplish this task.  
+Reducing your compute time means reducing costs, so optimizing your code can save money. This case study uses a sample application with performance issues to demonstrate how to use profiling tools to improve efficiency.
 
-Our goal is to equip developers with the knowledge to:
+This case study covers these topics:
 
-- Understand the importance of code optimization and its impact on reducing compute costs.
-- Utilize Visual Studio profiling tools to analyze application performance.
-- Interpret the data provided by these tools to identify performance bottlenecks.
-- Apply practical strategies to optimize code, focusing on CPU usage, memory allocation, and database interactions.
+- The importance of code optimization and its impact on reducing compute costs.
+- How to use Visual Studio profiling tools to analyze application performance.
+- How to nterpret the data provided by these tools to identify performance bottlenecks.
+- How to apply practical strategies to optimize code, focusing on CPU usage, memory allocation, and database interactions.
 
-By the end of this guide, readers should be able to apply these techniques to their own projects, leading to more efficient and cost-effective applications.
+Follow along and then apply these techniques to your own applications to make them more efficient and cost-effective.
 
 ## Optimization case study
 
-The sample application discussed in this case study is a .NET application designed to run queries against a database of blogs and associated blog posts. It utilizes the Entity Framework, a popular ORM (Object-Relational Mapping) for .NET, to interact with a SQLite local database. The application is structured to execute a large number of queries, simulating a real-world scenario where a .NET application might be required to handle extensive data retrieval tasks. The sample application is a modified version of the [Entity Framework sample](/ef/core/querying/).
+The sample application examined in this case study is a .NET application that runs queries against a database of blogs and blog posts. It utilizes the Entity Framework, a popular ORM (Object-Relational Mapping) for .NET, to interact with a SQLite local database. The application is structured to execute a large number of queries, simulating a real-world scenario where a .NET application might be required to handle extensive data retrieval tasks. The sample application is a modified version of the [Entity Framework sample](/ef/core/querying/).
 
 The primary performance issue with the sample application lies in how it manages compute resources and interacts with the database. The application suffers from a common performance bottleneck that significantly impacts its efficiency and, consequently, the compute costs associated with running it. The problem includes the following symptoms:
 
@@ -60,11 +60,11 @@ Here is a high-level view of the approach:
   - We take a look at the memory usage. For .NET, we try the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md) first. (For either .NET or C++, you can look at the Memory Usage tool instead.)
   - For ADO.NET or Entity Framework, we can use the [Database tool](../profiling/analyze-database.md) to examine SQL queries, precise query time, and more.
 
-Data collection requires the following steps:
+Data collection requires the following tasks:
 
-- We set the app to a Release build.
-- We select the CPU Usage tool from the Performance Profiler (**Alt+F2**). (Later steps involve a few of the other tools.)
-- From the Performance Profiler, we start the app and collect a trace.
+- Setting the app to a Release build.
+- Selecting the CPU Usage tool from the Performance Profiler (**Alt+F2**). (Later steps involve a few of the other tools.)
+- From the Performance Profiler, start the app and collect a trace.
 
 ### Inspect areas of high CPU usage
 
