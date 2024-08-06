@@ -217,6 +217,8 @@
     items:
     - name: Extend Projects
       href: extending-projects.md
+    - name: Query the Project API
+      href: project-vssdk.md
     - name: Creating a Basic Project System, Part 1
       href: creating-a-basic-project-system-part-1.md
     - name: Creating a Basic Project System, Part 2
