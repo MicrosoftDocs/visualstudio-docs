@@ -124,7 +124,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Toggle all outlining|**Ctrl+M, Ctrl+L** [Text Editor]| Edit.ToggleAllOutlining |
 |Toggle bookmark|**Ctrl+K, Ctrl+K** [Text Editor]| Edit.ToggleBookmark |
 |Toggle completion mode|**Ctrl+Alt+Space** [Text Editor]| Edit.ToggleCompletionMode |
-|Toggle line comment|**Ctrl+/** [Text Editor]| Edit.ToggleLineComment |
+|Toggle line comment|**Ctrl+/** [Text Editor] <br>(available in [Visual Studio 2022 version 17.11 or later](/visualstudio/releases/2022/release-notes))<br /><br />or **Ctrl+K, Ctrl+/** [Text Editor] | Edit.ToggleLineComment |
 |Toggle outlining expansion|**Ctrl+M, Ctrl+M** [Text Editor]| Edit.ToggleOutliningExpansion |
 |Uncomment selection|**Ctrl+K, Ctrl+U** [Text Editor]| Edit.UncommentSelection |
 |Undo|**Ctrl+Z**<br /><br />or **Alt+Backspace**| Edit.Undo |
