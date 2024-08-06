@@ -11,6 +11,9 @@ ms.date: 05/01/2024
 
 # Query the project API
 
+> [!IMPORTANT]
+> This documentation refers to Project Query API functionality for **VisualStudio.Extensibility**. For Visual Studio SDK API documentation, see [Query the project API](../../project-vssdk.md) for Visual Studio SDK.
+
 The VisualStudio.Extensibility project query API allows you to querying information from the project system. Project systems are a part of Visual Studio components that help users work with and maintain projects, run builds to produce results, and test output.
 
 With the Project Query API, you can:
@@ -72,7 +75,7 @@ ProjectQueryableSpace workspace = new ProjectQueryableSpace(serviceBroker: servi
 
 In the example above, `context` refers to an instance of `IClientContext` provided by `Microsoft.VisualStudio.Extensibility`. It is used to access contextual information and services related to the current state and environment of the IDE.
 
-For those utilizing the service broker, please consult the [VS SDK style queries](./project-vssdk.md) for detailed queries. 
+For those utilizing the service broker, please consult the [VS SDK style queries](../../project-vssdk.md) for detailed queries. 
 
 ## Query the project system for a project
 
