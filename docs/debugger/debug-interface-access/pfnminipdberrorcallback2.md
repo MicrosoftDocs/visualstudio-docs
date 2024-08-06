@@ -1,5 +1,5 @@
 ---
-description: Retrieves the file name for the last load error. 
+description: Provides the file name and error code for the last load error for fastlink PDBs.
 title: "PFNMINIPDBERRORCALLBACK2"
 ms.date: "7/2/2024"
 ms.topic: "reference"
@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 # PFNMINIPDBERRORCALLBACK2
 
-Retrieves the file name for the last load error.
+Provides the file name and error code for the last load error for fastlink PDBs.
 
 ## Syntax
 
@@ -68,4 +68,6 @@ HRESULT __cdecl ReportMiniPDBError(void *pvContext, DWORD hr, const wchar_t *szO
 ## See also
 
 - [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
+- [IDiaDataSourceEx](../../debugger/debug-interface-access/idiadatasourceex.md)
+- [IDiaDataSourceEx::setPfnMiniPDBErrorCallback2](../../debugger/debug-interface-access/idiadatasourceex-setpfnminipdberrorcallback2.md)
 - [Common HRESULT Values (Debug Interface Access SDK)](../../debugger/debug-interface-access/common-hresult-values.md)
