@@ -1,8 +1,8 @@
 ---
 title: About GitHub Copilot Completions in Visual Studio
 description: Use GitHub Copilot completions in Visual Studio to use AI assistance to generate information about your code, including suggested edits and new code snippets.
-ms.date: 5/22/2024
-ms.topic: overview 
+ms.date: 8/13/2024
+ms.topic: overview
 author: anandmeg
 ms.author: meghaanand
 ms.manager: mijacobs
@@ -75,6 +75,10 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
    ```
   
   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-whole-line-completions.gif" alt-text="Animated screenshot that shows using the GitHub Copilot completions in Visual Studio":::
+
+>[!NOTE]
+>With Visual Studio 2022 version 17.11, GitHub Copilot for Visual Studio will ignore excluded content. For more information, see [
+
 
 ## Exploring GitHub Copilot
 

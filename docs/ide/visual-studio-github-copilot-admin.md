@@ -47,13 +47,15 @@ Content exclusion for GitHub Copilot enables administrators to prevent certain f
 
 **GitHub Copilot Completions**
 
-Code completions aren't available on excluded files. Excluded content isn't included in code completion suggestions in other files.
+- Code completions aren't available on excluded files.
+- Excluded content isn't included in code completion suggestions in other files.
 
 :::image type="content" source="media/vs-2022/visual-studio-copilot-admin/copilot-content-exclusions-completions.png" alt-text="Screenshot of Copilot completions on an excluded file." lightbox="media/vs-2022/visual-studio-copilot-admin/copilot-content-exclusions-completions.png":::
 
 **GitHub Copilot Chat**
 
-You can't reference excluded files in the chat window or in inline chat. Excluded content isn't included in GitHub Copilot Chat's responses.
+- You can't reference excluded files in the chat window or in inline chat. 
+- Excluded content isn't included in GitHub Copilot Chat's responses.
 
    **Chat window** 
     
