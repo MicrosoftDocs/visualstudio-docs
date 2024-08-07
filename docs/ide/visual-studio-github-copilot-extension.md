@@ -77,8 +77,7 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-whole-line-completions.gif" alt-text="Animated screenshot that shows using the GitHub Copilot completions in Visual Studio":::
 
 >[!NOTE]
->With Visual Studio 2022 version 17.11, GitHub Copilot for Visual Studio will ignore excluded content. For more information, see [
-
+>With Visual Studio 2022 version 17.11, [content exclusions is available for GitHub Copilot Completions in Visual Studio](visual-studio-github-copilot-admin.md#github-copilot-completions-with-excluded-content). Completions and suggestions won't be available on [content excluded by your admin](visual-studio-github-copilot-admin.md#configure-content-exclusion).
 
 ## Exploring GitHub Copilot
 

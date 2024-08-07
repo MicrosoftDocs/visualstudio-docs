@@ -1,7 +1,7 @@
 ---
 title: About GitHub Copilot Chat in Visual Studio
 description: Learn about the fully integrated GitHub Copilot Chat in Visual Studio. Use the chat interface to ask coding-related questions from right within the IDE.
-ms.date: 7/29/2024
+ms.date: 8/13/2024
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
@@ -56,6 +56,9 @@ There are two places you can ask Copilot these questions; in a [chat window](#as
 
 See [tips to improve Copilot chat](copilot-chat-context.md) results to learn how to use [slash commands](copilot-chat-context.md#slash-commands), [references](copilot-chat-context.md#reference), [sources used](copilot-chat-context.md#find-context), and [threads](copilot-chat-context.md#threads) to get better answers with scoped context in Copilot Chat.
 
+>[!NOTE]
+>With Visual Studio 2022 version 17.11, [content exclusions are available for GitHub Copilot Chat in Visual Studio](visual-studio-github-copilot-admin.md#github-copilot-chat-with-excluded-content). [Content excluded by your admin](visual-studio-github-copilot-admin.md#configure-content-exclusion) will now be ignored in chat's responses.
+
 ### Ask questions in the chat window
 
 The chat window of Copilot Chat in Visual Studio enables you to ask your questions and see answers in the chat pane. It is usually the best way to work with Copilot on programming help and general coding questions.
@@ -96,6 +99,9 @@ The inline chat view of Copilot Chat in Visual Studio enables you to ask your qu
     :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-inline-diff-view.png" alt-text="Screenshot of code suggestions in Visual Studio diff view." lightbox="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-inline-diff-view.png" :::
 
 1. You can close the inline chat view by pressing **Esc**.
+
+### Excluded content
+
 
 ## Next steps
 

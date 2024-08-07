@@ -43,18 +43,18 @@ To configure and deploy these policies, you can use [Microsoft Intune](../instal
 
 Content exclusion for GitHub Copilot enables administrators to prevent certain files from being available to Copilot and keep sensitive content secure from Copilot use. You can use content exclusions to configure GitHub Copilot to ignore specific files in a [repository](https://docs.github.com/en/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot#configuring-content-exclusions-for-your-organization) or [organization](https://docs.github.com/en/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot#configuring-content-exclusions-for-your-repository). Content exclusion is only available with a GitHub Copilot Business or a GitHub Copilot Enterprise subscription. With [Visual Studio 2022 version 17.11](/visualstudio/releases/2022/release-notes), GitHub Copilot for Visual Studio will ignore excluded content.
 
-### What happens when you exclude content from Copilot?
+When you exclude content from Copilot, the following features are affected: 
 
-**GitHub Copilot Completions**
+### GitHub Copilot Completions with excluded content
 
 - Code completions aren't available on excluded files.
 - Excluded content isn't included in code completion suggestions in other files.
 
 :::image type="content" source="media/vs-2022/visual-studio-copilot-admin/copilot-content-exclusions-completions.png" alt-text="Screenshot of Copilot completions on an excluded file." lightbox="media/vs-2022/visual-studio-copilot-admin/copilot-content-exclusions-completions.png":::
 
-**GitHub Copilot Chat**
+### GitHub Copilot Chat with excluded content
 
-- You can't reference excluded files in the chat window or in inline chat. 
+- Excluded files can't be referenced in the chat window or in inline chat. 
 - Excluded content isn't included in GitHub Copilot Chat's responses.
 
    **Chat window** 
