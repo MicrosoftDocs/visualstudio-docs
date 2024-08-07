@@ -45,22 +45,22 @@ Content exclusion for GitHub Copilot enables administrators to prevent certain f
 
 When you exclude content from Copilot, the following features are affected: 
 
-### GitHub Copilot Completions with excluded content
+### GitHub Copilot Completions on excluded content
 
 - Code completions aren't available on excluded files.
 - Excluded content isn't included in code completion suggestions in other files.
 
-:::image type="content" source="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-completions.png" alt-text="Screenshot of Copilot completions on an excluded file." lightbox="media/vs-2022/visual-studio-copilot-admin/copilot-content-exclusions-completions.png":::
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-completions.png" alt-text="Screenshot of Copilot completions on an excluded file." lightbox="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-completions.png":::
 
-### GitHub Copilot Chat with excluded content
+### GitHub Copilot Chat on excluded content
 
 - Excluded files can't be referenced in the chat window or in inline chat. 
 - Excluded content isn't included in GitHub Copilot Chat's responses.
 
    **Chat window** 
     
-   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-chat-window.png" alt-text="Screenshot of using an excluded file in chat window." lightbox="media/vs-2022/visual-studio-copilot-admin/copilot-content-exclusions-chat-window.png":::
+   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-chat-window.png" alt-text="Screenshot of using an excluded file in chat window." lightbox="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-chat-window.png":::
     
    **Inline chat**
     
-   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-chat-inline.png" alt-text="Screenshot of using an excluded file in inline chat." lightbox="media/vs-2022/visual-studio-copilot-admin/copilot-content-exclusions-chat-inline.png":::
+   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-chat-inline.png" alt-text="Screenshot of using an excluded file in inline chat." lightbox="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-chat-inline.png":::
