@@ -22,7 +22,7 @@ This case study covers these topics:
 
 - The importance of code optimization and its impact on reducing compute costs.
 - How to use Visual Studio profiling tools to analyze application performance.
-- How to nterpret the data provided by these tools to identify performance bottlenecks.
+- How to interpret the data provided by these tools to identify performance bottlenecks.
 - How to apply practical strategies to optimize code, focusing on CPU usage, memory allocation, and database interactions.
 
 Follow along and then apply these techniques to your own applications to make them more efficient and cost-effective.
@@ -53,7 +53,7 @@ Addressing these challenges requires a strategic approach that combines effectiv
 
 ## Strategy
 
-Here is a high-level view of the approach:
+Here is a high-level view of the approach in this case study:
 
 - We start the investigation by taking a CPU usage trace. Visual Studio's [CPU Usage tool](../profiling/cpu-usage.md) is often helpful to begin performance investigations and to optimize code to reduce cost.
 - Next, to get additional insights to help isolate issues or improve the performance, we collect a trace using one of the other profiling tools. For example:
@@ -72,25 +72,25 @@ After collecting a trace with the CPU Usage tool and loading it into Visual Stud
 
 :::image type="content" source="./media/optimize-code-open-details.png" alt-text="Screenshot of opening details in CPU Usage tool.":::
 
-In the report details view, select the **Call Tree** view. The code path with highest CPU usage in the app is called the *hot path*. The hot path can help us (![Screenshot that shows Hot Path icon.](../profiling/media/optimize-code-hot-path-icon.png)) quickly identify performance issues that might be improved.
+In the report details view, select the **Call Tree** view. The code path with highest CPU usage in the app is called the *hot path*. The hot path flame icon (![Screenshot that shows Hot Path icon.](../profiling/media/optimize-code-hot-path-icon.png)) can help to quickly identify performance issues that might be improved.
 
-In the **Call Tree** view, we see high CPU usage for the `GetBlogTitleX` method in the app, using about a 60% share of the app's CPU usage. However, the **Self CPU** value for `GetBlogTitleX` is low, only about .10%. Unlike **Total CPU**, the **Self CPU** value excludes time spent in other functions, so we know to look farther down the call tree for the real bottleneck.
+In the **Call Tree** view, you can see high CPU usage for the `GetBlogTitleX` method in the app, using about a 60% share of the app's CPU usage. However, the **Self CPU** value for `GetBlogTitleX` is low, only about .10%. Unlike **Total CPU**, the **Self CPU** value excludes time spent in other functions, so we know to look farther down the call tree for the real bottleneck.
 
 :::image type="content" source="./media/optimize-code-cpu-usage-call-tree.png" alt-text="Screenshot of Call Tree view in the CPU Usage tool.":::
 
-`GetBlogTitleX` makes external calls to two LINQ DLLs, which are using most of the CPU time, as evidenced by the very high **Self CPU** values. This is the first clue that we may want to look for a LINQ query as an area to optimize.
+`GetBlogTitleX` makes external calls to two LINQ DLLs, which are using most of the CPU time, as evidenced by the very high **Self CPU** values. This is the first clue that a LINQ query might be an area to optimize.
 
 :::image type="content" source="./media/optimize-code-cpu-usage-call-tree-self-cpu.png" alt-text="Screenshot of Call Tree view in the CPU Usage tool with Self CPU highlighted." lightbox="./media/optimize-code-cpu-usage-call-tree-self-cpu.png":::
 
-To get a visualized call tree and a different view of the data, we right-click `GetBlogTitleX` and choose **View in Flame Graph**. Here again, it looks like the `GetBlogTitleX` method is responsible for a lot of the app's CPU usage (shown in yellow). External calls to the LINQ DLLs show up beneath the `GetBlogTitleX` box, and they are using all of the CPU time for the method.
+To get a visualized call tree and a different view of the data, right-click `GetBlogTitleX` and choose **View in Flame Graph**. Here again, it looks like the `GetBlogTitleX` method is responsible for a lot of the app's CPU usage (shown in yellow). External calls to the LINQ DLLs show up beneath the `GetBlogTitleX` box, and they're using all of the CPU time for the method.
 
 :::image type="content" source="./media/optimize-code-cpu-usage-flame-graph.png" alt-text="Screenshot of Flame Graph view in the CPU Usage tool.":::
 
 ### Gather additional data
 
-Often, other tools can provide additional information to help the analysis and isolate the problem. For this example, we take the following approach:
+Often, other tools can provide additional information to help the analysis and isolate the problem. In this case study, we take the following approach:
 
-- First, we take a look at memory usage. There might be a correlation between high CPU usage and high memory usage, so it can be helpful to look at both to isolate the issue.
+- First, look at memory usage. There might be a correlation between high CPU usage and high memory usage, so it can be helpful to look at both to isolate the issue.
 - Because we identified the LINQ DLLs, we'll also look at the Database tool.
 
 #### Check the memory usage
@@ -103,22 +103,22 @@ Most of the objects created are strings, object arrays, and Int32s. We may be ab
 
 #### Check the query in the Database tool
 
-In the Performance Profiler, we select the Database tool instead of CPU Usage (or, we can select both). When we've collected a trace, select the **Queries** tab in the diagnostics page. In the Queries tab for the Database trace, we can see the first row shows the longest query, 2446 ms. The **Records** column shows how many records the query reads. We can use this information for later comparison.
+In the Performance Profiler, we select the Database tool instead of CPU Usage (or, select both). When we've collected a trace, open the **Queries** tab in the diagnostics page. In the Queries tab for the Database trace, you can see the first row shows the longest query, 2446 ms. The **Records** column shows how many records the query reads. You can use this information for later comparison.
 
 :::image type="content" source="./media/optimize-code-database.png" alt-text="Screenshot of Database queries in the Database tool.":::
 
-By examining the `SELECT` statement generated by LINQ in the Query column, we identify the first row as the query associated with the `GetBlogTitleX` method. To view the full query string, we expand the column width. The full query string is:
+By examining the `SELECT` statement generated by LINQ in the Query column, we identify the first row as the query associated with the `GetBlogTitleX` method. To view the full query string, expand the column width. The full query string is:
 
 ```sql
 SELECT "b"."Url", "b"."BlogId", "p"."PostId", "p"."Author", "p"."BlogId", "p"."Content", "p"."Date", "p"."MetaData", "p"."Title"
 FROM "Blogs" AS "b" LEFT JOIN "Posts" AS "p" ON "b"."BlogId" = "p"."BlogId" ORDER BY "b"."BlogId"
 ```
 
-Notice that we are retrieving a lot of column values here, perhaps more than we need. Let's look at the source code.
+Notice that the app is retrieving a lot of column values here, perhaps more than we need. Let's look at the source code.
 
 ### Optimize code
 
-It's time to take a look at the `GetBlogTitleX` source code. In the Database tool, we right-click the query and choose **Go to Source File**. In the source code for `GetBlogTitleX`, we find the following code that uses LINQ to read the database.
+It's time to take a look at the `GetBlogTitleX` source code. In the Database tool, right-click the query and choose **Go to Source File**. In the source code for `GetBlogTitleX`, we find the following code that uses LINQ to read the database.
 
 ```csharp
 foreach (var blog in db.Blogs.Select(b => new { b.Url, b.Posts }).ToList())
@@ -133,7 +133,7 @@ foreach (var blog in db.Blogs.Select(b => new { b.Url, b.Posts }).ToList())
 }
 ```
 
-This code uses `foreach` loops to search the database for any blogs with "Fred Smith" as the author. Looking at it, we can see that a lot of objects are getting generated in memory: a new object array for each blog in the database, associated strings for each URL, and values for properties contained in the posts, such as blog ID.
+This code uses `foreach` loops to search the database for any blogs with "Fred Smith" as the author. Looking at it, you can see that a lot of objects are getting generated in memory: a new object array for each blog in the database, associated strings for each URL, and values for properties contained in the posts, such as blog ID.
 
 We do a little research and find some common recommendations for how to optimize LINQ queries and come up with this code.
 
@@ -157,11 +157,11 @@ After updating the code, we re-run the CPU Usage tool to collect a trace. The **
 
 :::image type="content" source="./media/optimize-code-cpu-usage-call-tree-fixed.png" alt-text="Screenshot of improved CPU usage in the Call Tree view of the CPU Usage tool.":::
 
-We switch to the **Flame Graph** view to see another visualization of the improvement. In this view, `GetBlogTitleX` also uses a smaller portion of the CPU.
+Switch to the **Flame Graph** view to see another visualization showing the improvement. In this view, `GetBlogTitleX` also uses a smaller portion of the CPU.
 
 :::image type="content" source="./media/optimize-code-cpu-usage-flame-graph-fixed.png" alt-text="Screenshot of improved CPU usage in the Flame Graph view of the CPU Usage tool.":::
 
-We check the results in the Database tool trace, and only two records are read using this query, instead of 100,000! Also, the query is much simplified and eliminates the unnecessary LEFT JOIN that was generated previously.
+Check the results in the Database tool trace, and only two records are read using this query, instead of 100,000! Also, the query is much simplified and eliminates the unnecessary LEFT JOIN that was generated previously.
 
 :::image type="content" source="./media/optimize-code-database-fixed.png" alt-text="Screenshot of faster query time in the Database tool.":::
 
@@ -171,7 +171,7 @@ Next, we recheck the results in the .NET Object Allocation tool, and see that `G
 
 ## Iterate
 
-Multiple optimizations may be necessary and we can continue to iterate with code changes to see which changes improve performance and reduce our compute cost.
+Multiple optimizations may be necessary and we can continue to iterate with code changes to see which changes improve performance and help reduce the compute cost.
 
 ## Next steps
 
