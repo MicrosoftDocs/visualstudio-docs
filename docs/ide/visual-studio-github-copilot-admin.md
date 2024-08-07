@@ -63,4 +63,4 @@ When you exclude content from Copilot, the following features are affected:
     
    **Inline chat**
     
-   :::image type="content" source="media/vs-2022/visual-studio-copilot-admin/copilot-content-exclusions-chat-inline.png" alt-text="Screenshot of using an excluded file in chat window." lightbox="media/vs-2022/visual-studio-copilot-admin/copilot-content-exclusions-chat-inline.png":::
+   :::image type="content" source="media/vs-2022/visual-studio-copilot-admin/copilot-content-exclusions-chat-inline.png" alt-text="Screenshot of using an excluded file in inline chat." lightbox="media/vs-2022/visual-studio-copilot-admin/copilot-content-exclusions-chat-inline.png":::
