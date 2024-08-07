@@ -48,14 +48,14 @@ With [Visual Studio 2022 version 17.11](/visualstudio/releases/2022/release-note
 ### GitHub Copilot Completions in Visual Studio and content exclusions
 
 - Code completions aren't available on excluded files.
-- Excluded content isn't included in code completion suggestions in other files.
 
-:::image type="content" source="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-completions.png" alt-text="Screenshot of Copilot completions on an excluded file." lightbox="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-completions.png":::
+   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-completions.png" alt-text="Screenshot of Copilot completions on an excluded file." lightbox="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-completions.png":::
+
+- Excluded content isn't included in code completion suggestions in other files.
 
 ### GitHub Copilot Chat in Visual Studio and content exclusions
 
 - Excluded files can't be referenced in the chat window or in inline chat.
-- Excluded content isn't included in GitHub Copilot Chat's responses.
 
    **Chat window** 
     
@@ -64,3 +64,9 @@ With [Visual Studio 2022 version 17.11](/visualstudio/releases/2022/release-note
    **Inline chat**
     
    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-chat-inline.png" alt-text="Screenshot of using an excluded file in inline chat." lightbox="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-chat-inline.png":::
+
+- Excluded content isn't included in GitHub Copilot Chat's responses.
+
+    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-chat-responses.png" alt-text="Screenshot of chat's responses on excluded content." lightbox="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-chat-response.png":::
+
+    
