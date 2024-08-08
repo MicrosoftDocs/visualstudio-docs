@@ -72,7 +72,7 @@ After collecting a trace with the CPU Usage tool and loading it into Visual Stud
 
 :::image type="content" source="./media/optimize-code-open-details.png" alt-text="Screenshot of opening details in CPU Usage tool.":::
 
-In the report details view, select the **Call Tree** view. The code path with highest CPU usage in the app is called the *hot path*. The hot path flame icon (![Screenshot that shows Hot Path icon.](../profiling/media/optimize-code-hot-path-icon.png)) can help to quickly identify performance issues that might be improved.
+In the report details view, open the **Call Tree** view. The code path with highest CPU usage in the app is called the *hot path*. The hot path flame icon (![Screenshot that shows Hot Path icon.](../profiling/media/optimize-code-hot-path-icon.png)) can help to quickly identify performance issues that might be improved.
 
 In the **Call Tree** view, you can see high CPU usage for the `GetBlogTitleX` method in the app, using about a 60% share of the app's CPU usage. However, the **Self CPU** value for `GetBlogTitleX` is low, only about .10%. Unlike **Total CPU**, the **Self CPU** value excludes time spent in other functions, so we know to look farther down the call tree for the real bottleneck.
 
@@ -82,7 +82,7 @@ In the **Call Tree** view, you can see high CPU usage for the `GetBlogTitleX` me
 
 :::image type="content" source="./media/optimize-code-cpu-usage-call-tree-self-cpu.png" alt-text="Screenshot of Call Tree view in the CPU Usage tool with Self CPU highlighted." lightbox="./media/optimize-code-cpu-usage-call-tree-self-cpu.png":::
 
-To get a visualized call tree and a different view of the data, right-click `GetBlogTitleX` and choose **View in Flame Graph**. Here again, it looks like the `GetBlogTitleX` method is responsible for a lot of the app's CPU usage (shown in yellow). External calls to the LINQ DLLs show up beneath the `GetBlogTitleX` box, and they're using all of the CPU time for the method.
+To get a visualized call tree and a different view of the data, open the **Flame Graph** view. (Or, right-click `GetBlogTitleX` and choose **View in Flame Graph**.) Here again, it looks like the `GetBlogTitleX` method is responsible for a lot of the app's CPU usage (shown in yellow). External calls to the LINQ DLLs show up beneath the `GetBlogTitleX` box, and they're using all of the CPU time for the method.
 
 :::image type="content" source="./media/optimize-code-cpu-usage-flame-graph.png" alt-text="Screenshot of Flame Graph view in the CPU Usage tool.":::
 
