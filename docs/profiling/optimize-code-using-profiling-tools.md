@@ -29,7 +29,7 @@ Follow along and then apply these techniques to your own applications to make th
 
 ## Optimization case study
 
-The sample application examined in this case study is a .NET application that runs queries against a database of blogs and blog posts. It utilizes the Entity Framework, a popular ORM (Object-Relational Mapping) for .NET, to interact with a SQLite local database. The application is structured to execute a large number of queries, simulating a real-world scenario where a .NET application might be required to handle extensive data retrieval tasks. The sample application is a modified version of the [Entity Framework sample](/ef/core/querying/).
+The sample application examined in this case study is a .NET application that runs queries against a database of blogs and blog posts. It utilizes the Entity Framework, a popular ORM (Object-Relational Mapping) for .NET, to interact with a SQLite local database. The application is structured to execute a large number of queries, simulating a real-world scenario where a .NET application might be required to handle extensive data retrieval tasks. The sample application is a modified version of the [Entity Framework getting started sample](/ef/core/get-started/overview/first-app).
 
 The primary performance issue with the sample application lies in how it manages compute resources and interacts with the database. The application suffers from a common performance bottleneck that significantly impacts its efficiency and, consequently, the compute costs associated with running it. The problem includes the following symptoms:
 
