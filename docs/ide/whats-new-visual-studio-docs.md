@@ -151,7 +151,7 @@ The following people contributed to the Visual Studio docs during this period. T
 
 **Updated articles**
 
-- [Visual Studio on Arm-powered devices](../install/visual-studio-on-arm-devices.md) - Workload updates for arm64 in latest Visual Studio releases
+- [Visual Studio on Arm-powered devices](../install/visual-studio-on-arm-devices.md) - Workload updates for Arm64 in latest Visual Studio releases
 - [Install Visual Studio versions side-by-side](../install/install-visual-studio-versions-side-by-side.md) - Review and update
 - [Repair Visual Studio](../install/repair-visual-studio.md) - Review and update
 - [Uninstall or remove Visual Studio](../install/uninstall-visual-studio.md) - Review and update
@@ -241,7 +241,7 @@ The following people contributed to the Visual Studio docs during this period. T
 - [Change the build output directory](../ide/how-to-change-the-build-output-directory.md) - Improve guidance for setting the build output directory and add tabs
 - [Navigate code](../ide/navigating-code.md) - Review and update
 - [Add your GitHub accounts to your Visual Studio keychain](../ide/work-with-github-accounts.md) - Update
-- [Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)](../ide/work-with-multi-factor-authentication.md) - Add Web Account Manager errors and troubleshooting
+- [Sign in to Visual Studio with accounts that require multifactor authentication (MFA)](../ide/work-with-multi-factor-authentication.md) - Add Web Account Manager errors and troubleshooting
 
 ### JavaScript
 
