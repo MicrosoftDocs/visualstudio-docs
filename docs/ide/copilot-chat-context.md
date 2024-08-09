@@ -1,7 +1,7 @@
 ---
 title: 'Tips & Tricks for GitHub Copilot Chat in Visual Studio'
 description: Use slash commands, references, and threads to form better questions and get better answers with scoped context in GitHub Copilot Chat.
-ms.date: 7/29/2024
+ms.date: 8/13/2024
 ms.topic: how-to 
 author: anandmeg
 ms.author: meghaanand
@@ -56,25 +56,42 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 
 ## <a name="reference"></a>Reference: scope Copilot results to a particular file or entire solution
 
-You can ask your coding related questions in natural language and GitHub Copilot Chat will answer these in the context of the codebase open in Visual Studio. With references you can get more specific about the information you want Copilot to consider when answering your question. By selecting a specific context in your codebase, you're able to form better questions easily without having to write out or paste long pieces of information. Specifying the context also enables Copilot to provide you with more relevant answers.
+You can ask your coding related questions in natural language and GitHub Copilot Chat will answer these in the context of the codebase open in Visual Studio. With references you can get more specific about the information you want Copilot to consider when answering your question.
 
-To easily reference a file, simply add a *#* symbol at the beginning of the file name. For example, if you have a file named *BasketService.cs*, refer to it in the chat as *#BasketService.cs*. 
+By selecting a specific context in your codebase, you're able to form better questions easily without having to write out or paste long pieces of information. Specifying the context also enables Copilot to provide you with more relevant answers.
+
+### Reference a file
+
+To easily reference a file in GitHub Copilot Chat, simply add a *#* symbol at the beginning of the file name. For example, if you have a file named *BasketService.cs*, refer to it in the chat as *#BasketService.cs*. 
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-hash-reference.png" alt-text="Screenshot of references in Copilot Chat.":::
 
-Use *#solution* to refer to the solution active in the IDE for context.
+### Reference a method, class, or function
 
-:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-hash-solution-reference.gif" alt-text="Screenshot of referencing solution context in Copilot Chat.":::
+With Visual Studio 2022 version 17.11, you can now reference a specific method, class, or function in GitHub Copilot Chat.
 
+To easily reference a method, class, or function in GitHub Copilot Chat, simply add a *#* symbol at the beginning of the method, class, or function name. For example, if you have a method named *BasketAddItem*, refer to it in the chat as *#BasketAddItem*.
+
+:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-references-methods.png" alt-text="Screenshot of references to methods in Github Copilot Chat in Visual Studio.":::
+
+### Reference the entire solution
+
+Use *@workspace* to refer to the solution active in the IDE for context. When using *@workspace* for context, Copilot Chat leverages the information about the files, projects, and configurations that are currently open and being worked on within your IDE. This enables Copilot Chat to provide more relevant and context-aware suggestions and answers.
+
+:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-at-workspace.gif" alt-text="Screenshot of referencing solution context in Copilot Chat.":::
+
+### Usage examples
 Here are some examples of using references for context control:
 
 | **Example** | **Context used by Copilot to form the question** |
 |---------------------------|:--------------------:|
 | What is the purpose of #MyFile.cs: 66-72?| Exact section of the file |
 | Where are the tests in #BasketService.cs?| BasketService.cs |
-| /explain the AddItemToBasket method in #BasketService.cs| AddItemToBasket method in BasketService.cs |
-| Is there a delete basket method in this #solution| Current Solution open in the IDE|
-
+| /explain the #AddItemToBasket in #BasketService.cs| AddItemToBasket method in BasketService.cs |
+| Is there a delete basket method in this @workspace| Current solution open in the IDE |
+| I have a test method named #TestCalculator. How can I ensure that it's being executed correctly?| TestCalculator method |
+| Could you explain the differences between classes #BasketService and #OrderService?| BasketService class and OrderService class |
+| In my @workspace where is #AddItemToBasket? | Current solution open in the IDE |
 
 ## <a name="find-context"></a>Review the sources used by Copilot Chat
 
