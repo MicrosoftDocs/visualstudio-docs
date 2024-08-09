@@ -76,7 +76,7 @@ Your app service instance now supports remote debugging through Visual Studio.
 
 1. In the web app, navigate to the endpoint with the breakpoint. If you're attached to the process but can't hit the breakpoint, make sure your publish profile in Visual Studio is set to a Debug configuration instead of a Release configuration.
 
-1. (Optional) you can also verify that Visual Studio has loaded the symbol files for your debugging session. Navigate to **Debug > Windows > Modules** to open the modules window. This window should indicate that the symbol files were successfully loaded after the **Just my code** configuration changes you made earlier.
+1. Optional: To verify that Visual Studio has loaded the symbol files for your debugging session. Navigate to **Debug > Windows > Modules** to open the modules window. This window indicates that the symbol files were successfully loaded after the **Just my code** configuration changes you made earlier.
 
     :::image type="content" source="../debugger/media/vs-2022/visual-studio-symbol-files.png" alt-text="A screenshot of the symbol files window.":::
 
