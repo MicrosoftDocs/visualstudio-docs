@@ -32,7 +32,7 @@ If you're using Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/re
 
 With **All-In-One Search**, not only can you search for features, but you can also search your code elements, such as files and symbols.
 
-:::image type="content" source="media/vs-2022/all-one-search.png" alt-text="Screenshot of the All-In-One Search experience in Visual Studio 2022 version 17.6 or later."::: 
+:::image type="content" source="media/vs-2022/all-in-one-search-member-filter.png" alt-text="Screenshot of the All-In-One Search experience in Visual Studio 2022 version 17.6 or later."::: 
 
 The new search experience appears as an option next to the menu bar. 
 
@@ -53,10 +53,14 @@ To quickly get a filtered experience, you can type the corresponding prefixes be
 |members  |`m:`     | **Alt**+**\\**                 |
 |text     |`x:`     | **Shift**+**Alt**+**F**        |
 
+In Visual Studio 17.11 and later, you can set the scope of code search to the current document, current project, the entire solution, or external files that are referenced in your solution, such as header files or files open from locations outside your solution. You can set different scopes for different filters. For example, the default experience can be set to look through *Entire solution* and `members` can be set to look through only the current document. Your selections will be remembered the next time you use code search.
+
+:::image type="content" alt-text="Screenshot of code search scope options." source="./media/vs-2022/search-code-scope.png" :::
+
 > [!TIP]
 > To learn more about the new search experience, see both the [Better search in Visual Studio](https://devblogs.microsoft.com/visualstudio/new-better-search-in-visual-studio/) and [All-In-One Search available in 17.6](https://devblogs.microsoft.com/visualstudio/all-in-one-search-available-in-17-6/) blog posts.
 
-The text filter (**Shift**+**Alt**+**F**) in Code Search is available in preview as of 17.9 Preview 2. See [17.9 Preview 3 brings exciting changes to Code Search
+The text filter (**Shift**+**Alt**+**F**) in Code Search is available in preview in Visual Studio 17.9 and later. See [17.9 Preview 3 brings exciting changes to Code Search
 ](https://devblogs.microsoft.com/visualstudio/17-9-preview-3-brings-exciting-changes-to-code-search/). Search for a text string, with options to match the case, match whole words, or use a regular expression. The regular expression format is described at [Regular expressions](/dotnet/standard/base-types/regular-expression-language-quick-reference).
 
 :::image type="content" alt-text="Screenshot of text search with various options." source="./media/vs-2022/search-text-search-text-options-highlighted.png" :::
