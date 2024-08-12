@@ -111,6 +111,12 @@ You can select between multiple ongoing threads to provide the right historical 
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-switch-threads.png" alt-text="Screenshot of switching between ongoing threads in Copilot Chat.":::
 
+### <a name="promote-inline"></a>Promote inline chat to the chat window
+
+With Visual Studio 2022 version 17.11, you can now preserve the history of your [inline chat](visual-studio-github-copilot-chat.md#ask-questions-in-the-inline-chat-view) by promoting it to the [chat window](visual-studio-github-copilot-chat.md#ask-questions-in-the-chat-window). Select **Continue in chat window...** to maintain a record and context of the conversation, and continue in the chat window.
+
+:::image type="content" source="media/vs-2022/copilot-chat-context/promote-inline-chat-to-chat-window.png" alt-text="Screenshot of promoting ongoing thread in inline chat to the chat window.":::
+
 ## Next steps
 
 - [GitHub Copilot extension for Visual Studio](visual-studio-github-copilot-extension.md)
