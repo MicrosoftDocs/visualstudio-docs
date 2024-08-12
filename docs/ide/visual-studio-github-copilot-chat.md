@@ -57,7 +57,7 @@ There are two places you can ask Copilot these questions; in a [chat window](#as
 See [tips to improve Copilot chat](copilot-chat-context.md) results to learn how to use [slash commands](copilot-chat-context.md#slash-commands), [references](copilot-chat-context.md#reference), [sources used](copilot-chat-context.md#find-context), and [threads](copilot-chat-context.md#threads) to get better answers with scoped context in Copilot Chat.
 
 >[!NOTE]
->With [Visual Studio 2022 version 17.11](/visualstudio/releases/2022/release-notes), [content exclusion is available for GitHub Copilot Chat in Visual Studio](visual-studio-github-copilot-admin.md#github-copilot-chat-in-visual-studio-and-content-exclusions). [Content excluded by your admin](visual-studio-github-copilot-admin.md#configure-content-exclusion) will now be ignored in chat's responses.
+>With Visual Studio 2022 version 17.11, [content exclusion is available for GitHub Copilot Chat](visual-studio-github-copilot-admin.md#github-copilot-chat-in-visual-studio-and-content-exclusions) in Visual Studio. Content excluded by your admin will now be ignored in chat's responses. See [configuring content exclusions for GitHub Copilot](https://docs.github.com/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot?tool=visualstudio) to learn more.
 
 ### Ask questions in the chat window
 
