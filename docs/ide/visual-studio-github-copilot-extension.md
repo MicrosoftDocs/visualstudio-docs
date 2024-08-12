@@ -66,7 +66,7 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
 
   - Select **Tab** or press `Tab` **to accept** the suggestion or continue typing to reject it.
 
-  :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/copilot-accept-code-suggestions.gif" alt-text="Screenshot that shows accepting the GitHub Copilot code suggestions in Visual Studio":::
+  :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/copilot-accept-code-suggestions.png" alt-text="Screenshot that shows accepting the GitHub Copilot code suggestions in Visual Studio":::
 
   - Select **Alt+/** or press `Alt+/` **to modify** the suggestion from Copilot. You can modify and curate the GitHub Copilot suggestions by adding context in inline chat or by editing the completion.
   
