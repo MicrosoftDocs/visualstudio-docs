@@ -223,7 +223,7 @@ These errors may be caused by the following:
  
  - IPV6 - Some computers have IPV6 enabled but the network doesn't support the protocol. In this case you may see a connection refused message because the server couldn't be found. Try disabling IPV6 on the machine to see if the connection works. 
 
- - SSL problems - See [SSL errors](#ssl-errors)
+ - SSL problems - See [SSL errors](#ssl-errors).
 
  - Proxy or firewalls on the network - If there is a proxy or firewall on the network, it will be the first device the connection attempts to communicate with, and it may be the one refusing the connection. You can determine if the firewall or proxy server is blocking connections by asking your network administrator. Alternatively, looking at network traces can indicate which machine the connection is being made to and identify who's refusing it. If it's an internal network address, it means the proxy or firewall blocked the connection. If it's an external IP address, this usually means DNS, IPV6, or SSL problems.
   
