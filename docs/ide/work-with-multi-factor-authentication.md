@@ -181,7 +181,7 @@ After you deselect the tenant to filter, the **Account Settings** and the **Filt
 
 During sign in, Visual Studio may experience errors related to the network which aren't usually Visual Studio product issues and may need to be investigated by local IT support.
 #### Error "Proxy authorization required
-If your machine or organization uses security measures such as a firewall or a proxy server, you should ensure that the
+If your machine or organization uses security measures such as a firewall or a proxy server, make sure you're following the
 [requirements to use Visual Studio behind a proxy or firewall](/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server).
 
 #### SSL errors
