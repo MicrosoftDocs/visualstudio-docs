@@ -69,7 +69,7 @@ You can also see the Active Directory domain on the [Azure portal](https://go.mi
 :::moniker range="<=vs-2019"
 1. In Visual Studio, create or open an ASP.NET MVC project, or an ASP.NET Web API project.
 
-1. Select the **Project**, **Manage Connected Services** menu command, or right-click the **Connected Services** node found under the project in Solution Explorer, and choose **Manage Connected Services**, then click the link **Add a service dependency** and choose **Microsoft Identity platform**.
+1. Select the **Project**, **Manage Connected Services** menu command, or right-click the **Connected Services** node found under the project in Solution Explorer, and choose **Manage Connected Services**, and then select the link **Add a service dependency** and choose **Microsoft Identity platform**.
 
    ![Screenshot showing the Microsoft Identity platform option.](./media/vs-azure-active-directory/vs-2019/add-dependency-microsoft-identity-platform.png)
 
