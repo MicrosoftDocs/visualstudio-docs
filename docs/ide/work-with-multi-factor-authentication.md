@@ -217,7 +217,7 @@ These errors may be caused by the following:
  Common Causes:
  - If the address "127.0.0.1" is in the error message this means a connection to a local proxy server was attempted but the local proxy server wasn't running.
 
- - VPN connection - Try disconnecting from any vpn's and try the connection again. If it works then you'll want to follow up with the VPN provider or your network administrator. This includes corporate VPN or third party VPN services.
+ - VPN connection - Try disconnecting from any VPNs and try the connection again. If it works, you'll want to follow up with the VPN provider or your network administrator. This includes corporate VPN or third-party VPN services.
 
  - DNS - The domain lookup on your machine has resolved to an address which doesn't point to the expected server. This means the connection is going to a different machine not running the expected services and refusing the connection. To debug this you may use tools such as [NsLookup](/windows-server/administration/windows-commands/nslookup) and compare it to the [Azure IP Ranges and Service Tags](https://www.microsoft.com/en-gb/download/details.aspx?id=56519&msockid=29cb101f084a69eb165004b009d668ef)
  
