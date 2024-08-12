@@ -195,7 +195,7 @@ SSL errors may come in a variety of forms. Some examples are:
 
 These errors may be caused by the following:
  1) Corporate proxy or firewall blocking certain versions of TLS
- 2) TLS 1.3 is enabled on the machine but network doesn't support it. You may try [disabling TLS 1.3](#disable-tls) on the machine to test if this is the case.
+ 2) TLS 1.3 is enabled on the machine but network doesn't support it. You may try [disabling TLS 1.3](#disable-tls-13) on the machine to test if this is the case.
  3) Group policy restricting what SSL algorithms are allowed and this allowed list isn't matching what the server expects. 
 
  The following resources might be helpful for troubleshooting SSL issues:
