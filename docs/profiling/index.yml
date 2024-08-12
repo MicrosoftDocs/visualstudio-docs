@@ -27,6 +27,8 @@ landingContent:
             url: beginners-guide-to-performance-profiling.md
           - text: Get started measuring memory usage
             url: memory-usage.md
+      - linkListType: how-to-guide
+        links:
           - text: Beginner's guide to optimizing code
             url: optimize-code-using-profiling-tools.md
           - text: Isolate a performance issue
