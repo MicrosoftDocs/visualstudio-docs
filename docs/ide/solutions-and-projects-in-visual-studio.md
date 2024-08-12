@@ -72,8 +72,6 @@ After you create a new project, you can use [Solution Explorer](use-solution-exp
 
 :::image type="content" source="../ide/media/solution-explorer.png" alt-text="Screenshot of two projects in Visual Studio Solution Explorer.":::
 
-![](../ide/media/solution-explorer.png)
-
 The [toolbar](use-solution-explorer.md#solution-explorer-toolbar) across the top of Solution Explorer contains buttons to switch from a solution view to a folder view, filter pending changes, show all files, collapse all nodes, view [properties](managing-project-and-solution-properties.md) pages, preview code in the [code editor](writing-code-in-the-code-and-text-editor.md), and more.
 
 Many menu commands are available from the [right-click context menu](use-solution-explorer.md#solution-explorer-context-menu) on various items in Solution Explorer. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few. For more information, see [Learn about Solution Explorer](use-solution-explorer.md).
