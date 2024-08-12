@@ -103,9 +103,13 @@ Copilot Chat displays the context it used after every result, so that you can te
 
 If you’re using Copilot Chat extensively to ask questions as you code, you can organize your conversations in a way that keeps them on-topic. Copilot Chat for Visual Studio now provides an easy way to start new conversations (threads) to keep them focused on the task at hand, and keep the context clear so the answers are based on relevant history. 
 
+### <a name="new-thread"></a>New thread
+
 You can start a new thread by selecting the **Create new thread** in the chat window.
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-new-thread-conversation.png" alt-text="Screenshot of Create new thread icon in Copilot Chat.":::
+
+### <a name="switch-thread"></a>Switch thread
 
 You can select between multiple ongoing threads to provide the right historical context for your question.
 
