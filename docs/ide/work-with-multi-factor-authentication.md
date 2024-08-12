@@ -146,7 +146,7 @@ For example, if you see the following error dialog, you can attempt to resolve t
 
 :::image type="content" source="media/vs-2022/work-with-multi-factor-authentication/change-authentication-mechanism-error.png" alt-text="Screenshot of a WAM error dialog with the change authentication mechanism option to resolve the error." border="false":::
 
-If you need to switch to another authentication mechanism other than the Windows Broker you can switch by following these instructions. [system web browser](#enabling-system-web-browser). 
+If you need to switch to an authentication mechanism other than the Windows Broker, you can switch by following the instructions to [enable system web browser](#enabling-system-web-browser). 
 If those instructions don't work and you have a support contract please open a support ticket at [Technical support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8)
 
 ::: moniker-end
