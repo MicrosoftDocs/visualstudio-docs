@@ -219,7 +219,7 @@ These errors may be caused by the following:
 
  - VPN connection - Try disconnecting from any VPNs and try the connection again. If it works, you'll want to follow up with the VPN provider or your network administrator. This includes corporate VPN or third-party VPN services.
 
- - DNS - The domain lookup on your machine has resolved to an address which doesn't point to the expected server. This means the connection is going to a different machine not running the expected services and refusing the connection. To debug this you may use tools such as [NsLookup](/windows-server/administration/windows-commands/nslookup) and compare it to the [Azure IP Ranges and Service Tags](https://www.microsoft.com/en-gb/download/details.aspx?id=56519&msockid=29cb101f084a69eb165004b009d668ef)
+ - DNS - The domain lookup on your machine has resolved to an address which doesn't point to the expected server. This means the connection is going to a different machine not running the expected services and refusing the connection. To debug this issue, you can use tools such as [NsLookup](/windows-server/administration/windows-commands/nslookup) and compare it to the [Azure IP Ranges and Service Tags](https://www.microsoft.com/en-gb/download/details.aspx?id=56519&msockid=29cb101f084a69eb165004b009d668ef).
  
  - IPV6 - Some computers have IPV6 enabled but the network doesn't support the protocol. In this case you may see a connection refused message because the server couldn't be found. Try disabling IPV6 on the machine to see if the connection works. 
 
