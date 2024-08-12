@@ -23,7 +23,7 @@ Visual Studio also gives you the opportunity to [create a new, free Azure accoun
 Visual Studio allows you to sign in with multiple accounts and it let's you work with Azure resources across multiple Azure subscriptions so no need to sign-out of one in order to sign-in with another!
 
 > [!NOTE]
-> For the Azure CLI users, be aware that the sign-in from the Azure CLI is separate from the sign-in used in Visual Studio, so even if you're signed in to Azure by using `az login` on the same machine where you're running Visual Studio, you still need to provide credentials within Visual Studio.
+> When using Azure CLI, be aware that the sign-in from the Azure CLI is separate from the sign-in used in Visual Studio, so even if you're signed in to Azure by using `az login` on the same machine where you're running Visual Studio, you still need to provide credentials within Visual Studio.
 
 ## To sign in to Azure from a dialog or wizard screen
 
