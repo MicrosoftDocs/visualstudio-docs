@@ -6,7 +6,7 @@ keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
-ms.date: 05/21/2024
+ms.date: 08/13/2024
 
 ms.subservice: installation
 ms.topic: include
@@ -15,17 +15,17 @@ ms.topic: include
 
 **ID:** Microsoft.VisualStudio.Workload.CoreEditor
 
-**Description:** The Visual Studio core shell experience, including syntax-aware code editing, source code control and work item management.
+**Description:** The Visual Studio core shell experience, including syntax-aware code editing, source code control, and work item management.
 
 ### Components included by this workload
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
-Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 17.10.34803.213 | Required
+Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 17.11.35102.94 | Required
 
 ## Unaffiliated components
 
-These are components that are not included with any workload, but may be selected as an individual component.
+These components aren't included with any workload, but may be selected as an individual component.
 
 Component ID | Name | Version
 --- | --- | ---
