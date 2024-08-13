@@ -1,8 +1,8 @@
 ---
 title: About GitHub Copilot Completions in Visual Studio
 description: Use GitHub Copilot completions in Visual Studio to use AI assistance to generate information about your code, including suggested edits and new code snippets.
-ms.date: 5/22/2024
-ms.topic: overview 
+ms.date: 8/13/2024
+ms.topic: overview
 author: anandmeg
 ms.author: meghaanand
 ms.manager: mijacobs
@@ -62,10 +62,20 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
        int subtractNumbers(
    ```
 
-1. Hover over the suggestion to see the GitHub Copilot command palette. You can select **Tab** or press `Tab` to accept the suggestion or continue typing to reject it. If alternate suggestions are available, you can select **next suggestion** or use the `Alt + .` keyboard shortcut to cycle through them.
-  
-  :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-code-suggestions.gif" alt-text="Animated screenshot that shows using the GitHub Copilot code suggestions in Visual Studio":::
+1. Hover over the suggestion to see the GitHub Copilot command palette.
 
+    **Accept suggestion**
+
+    Select **Tab** or press `Tab` **to accept** the suggestion or continue typing to reject it.
+
+    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/copilot-accept-code-suggestions.png" alt-text="Screenshot that shows accepting the GitHub Copilot code suggestions in Visual Studio":::
+
+    **Modify suggestion**
+
+    Select **Alt+/** or press `Alt+/` **to modify** the suggestion from Copilot. You can modify and curate the GitHub Copilot suggestions by adding context in inline chat or by editing the completion.
+  
+    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/copilot-modify-code-completions.png" alt-text="Screenshot that shows modifying the GitHub Copilot code suggestions in Visual Studio":::
+  
 1. Add following code to see whole line completions from GitHub Copilot.
 
    ```csharp
@@ -74,7 +84,10 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
        int sum
    ```
   
-  :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-whole-line-completions.gif" alt-text="Animated screenshot that shows using the GitHub Copilot completions in Visual Studio":::
+    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-whole-line-completions.gif" alt-text="Animated screenshot that shows using the GitHub Copilot completions in Visual Studio.":::
+
+>[!NOTE]
+>With Visual Studio 2022 version 17.11, [content exclusion is available for GitHub Copilot Completions](visual-studio-github-copilot-admin.md#github-copilot-completions-in-visual-studio-and-content-exclusions) in Visual Studio. Completions and suggestions won't be available on content excluded by your admin. See [configuring content exclusions for GitHub Copilot](https://docs.github.com/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot?tool=visualstudio) to learn more.
 
 ## Exploring GitHub Copilot
 
