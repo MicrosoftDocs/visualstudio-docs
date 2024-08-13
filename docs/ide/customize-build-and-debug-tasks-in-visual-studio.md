@@ -19,9 +19,9 @@ ms.subservice: general-ide
 
 # Customize build and debug tasks for "Open Folder" development
 
-Visual Studio can automatically run many different programming languages and codebases. You can use the [**Open Folder**](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) to immediately run code for a recognized codebase without special instructions and without creating a project. This approach is commonly used for quick testing.
+Visual Studio can automatically run many different programming languages and codebases. You can use the [**Open Folder**](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) option to immediately run code for a recognized codebase without special instructions and without creating a project. This approach is commonly used for quick testing.
 
-Sometimes a codebase requires custom build tools that Visual Studio doesn't recognize or can't immediately process. In these scenarios, you can define *build tasks* to instruct Visual Studio how to build and debug your code. These tasks specify all the items a language needs to build and run the code. You can also define arbitrary tasks to complete nearly any required operation for your code.
+When a codebase requires custom build tools that Visual Studio doesn't recognize or can't immediately process, you can define *build tasks* that instruct Visual Studio how to build and debug your code. These tasks specify all the items a language needs to build and run the code, and complete nearly any required operation.
 
 This article describes how to define build tasks and configure build and debug settings for an unrecognized, project-less code base in Visual Studio.
 
