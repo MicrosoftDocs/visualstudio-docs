@@ -72,7 +72,7 @@ With [Visual Studio 2022 version 17.11](/visualstudio/releases/2022/release-note
 
 To easily reference a method, class, or function in GitHub Copilot Chat, simply add a *#* symbol at the beginning of the method, class, or function name. For example, if you have a method named *BasketAddItem*, refer to it in the chat as *#BasketAddItem*.
 
-:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-references-methods.png" alt-text="Screenshot of references to methods in Github Copilot Chat in Visual Studio.":::
+:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-references-methods.png" alt-text="Screenshot of references to methods in GitHub Copilot Chat in Visual Studio.":::
 
 ### Reference the entire solution
 
