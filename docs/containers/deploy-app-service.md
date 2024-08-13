@@ -99,7 +99,10 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 
 1. You can use an existing app service or create a new one by clicking on the **Create new Azure App Service** link. Find your existing app service in the treeview by expanding its resource group, or change the **View** setting to **Resource type** to sort by type.
 
-   ![Screenshot showing choosing an App Service.](media/deploy-app-service/vs-2022/publish-app-service-linux-2.png)
+   ![Screenshot showing choosing an App Service.](media/deploy-app-service/vs-2022/publish-app-service-linux-1.png)
+
+   > [!NOTE]
+   > In Visual Studio 2022 version 17.11, the default authentication method used for publishing to Azure changed from basic authentication to using an access token for authentication. To use basic authentication with Visual Studio 17.11 or later, clear the checkbox **Enable secure publishing** (not recommended).
 
 1. If you create a new one, a resource group and app service will be generated in Azure. You can change the names if desired, as long as they are unique.
 
