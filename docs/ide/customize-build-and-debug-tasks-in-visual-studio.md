@@ -38,9 +38,9 @@ The following table describes the JSON files and how to create them in Visual St
 
 ### Add JSON files to source control
 
-By default, the *tasks* and *launch* JSON files aren't visible in **Solution Explorer**. The files are located in a hidden folder named *.vs* in the root (\) folder of your codebase. The files are hidden because they commonly aren't added to source control. You can view hidden files in Visual Studio by selecting the **Show All Files** option in **Solution Explorer**.
+By default, the *tasks* and *launch* JSON files aren't visible in **Solution Explorer**. The files are located in a hidden folder named *.vs* in the root (\\) folder of your codebase. The files are hidden because they commonly aren't added to source control. You can view hidden files in Visual Studio by selecting the **Show All Files** option in **Solution Explorer**.
 
-If you want to add the JSON files to source control, drag the files to the root (\) of your codebase in your file system. The files become visible in **Solution Explorer** and available to source control.
+If you want to add the JSON files to source control, drag the files to the root (\\) folder of your codebase in your file system. The files become visible in **Solution Explorer** and available to source control.
 
 ## Define tasks with tasks.vs.json
 
@@ -133,7 +133,7 @@ When you select a custom task command on the right-click context menu, the opera
 
 ### Create tasks for arbitrary operations
 
-You can define custom tasks in the *tasks.vs.json* file for any arbitrary operation. You might define a task to display the name of the currently selected file in the **Output** window or list the files in a specified directory.
+You can define custom tasks in the *tasks.vs.json* file for any arbitrary operation. You might define a task to display the name of the currently selected file in the **Output** window or list the files in a specified folder.
 
 #### Example: Display name of currently selected file
 
@@ -164,9 +164,9 @@ The code for this task defines the following properties:
 
 After you save the *tasks.vs.json* file, you can right-click any JavaScript *.js* file in the folder and select **Echo filename**. Visual Studio displays the selected file name in the **Output** window.
 
-#### Example: List files and subfolders in directory
+#### Example: List files and subfolders
 
-The following example shows a *tasks.vs.json* file that defines a task to list the files and subfolders of the *bin* directory:
+The following example shows a *tasks.vs.json* file that defines a task to list the files and subfolders of the *bin* folder:
 
 ```json
 {
@@ -187,27 +187,27 @@ The following example shows a *tasks.vs.json* file that defines a task to list t
 The code for this task defines the following properties:
 
 - `taskName`: The task command name for the right-click context menu is **List Outputs**. 
-- `appliesTo`: This task acts on all items in the specified directory, as indicated by the use of the wildcard (\*).
+- `appliesTo`: This task acts on all items in the specified folder, as indicated by the use of the wildcard (\*).
 - `command`: Similar to the previous example, the task uses the `COMSPEC` environment variable to identify the command line interpreter (*cmd.exe*).
-- `args`: When Visual Studio invokes the command, it passes a call to the `dir` command, which lists the directory items.
+- `args`: When Visual Studio invokes the command, it passes a call to the `dir` command, which lists the directory (folder) items.
 - `${outDir}`: The `{outDir}` macro is defined before the `tasks` block. It specifies that the `bin` folder is the directory to act on.
 
 This task applies to all files in the codebase. When Visual Studio adds the command name for an arbitrary task to the context menu, it prefixes the command with **Run**, as in **Run List Outputs**.
 
-If you open the right-click context menu for any file in **Solution Explorer**, the task command **Run List Outputs** appears as the last command in the "Build" section of the menu. When you select **Run List Outputs**, Visual Studio lists the contents of the *bin* directory for the codebase in the **Output** window:
+If you open the right-click context menu for any file in **Solution Explorer**, the task command **Run List Outputs** appears as the last command in the "Build" section of the menu. When you select **Run List Outputs**, Visual Studio lists the contents of the *bin* folder for the codebase in the **Output** window:
 
 :::image type="content" source="../ide/media/customize-arbitrary-task-menu.png" border="false" alt-text="Screenshot that shows an arbitrary task added to the file context menu in Visual Studio Solution Explorer." lightbox="../ide/media/customize-arbitrary-task-menu.png":::
 
 ### Use multiple task.vs.json files 
 
-You can have multiple *tasks.vs.json* files at the root (\) and subdirectories of your codebase. This approach gives you flexibility to define different behavior for specific subdirectories or files in your codebase.
+You can have multiple *tasks.vs.json* files at the root (\\) folder and subfolders of your codebase. This approach gives you flexibility to define different behavior for specific subfolders or files in your codebase.
 
 Visual Studio aggregates or overrides settings throughout the codebase, prioritizing files in the following order:
 
-1. Settings files in the *.vs* directory in the root (\) folder.
-1. The directory where a setting is computed.
-1. The parent directory of the current directory, up to and including the root (\) directory.
-1. Settings files in the root (\) directory.
+1. Settings files in the *.vs* folder in the root (\\) folder.
+1. The folder where a setting is computed.
+1. The parent folder of the current folder, up to and including the root (\\) folder.
+1. Settings files in the root (\\) folder.
 
 These aggregation rules apply to instances of the *tasks.vs.json* file. Later sections in this article describe aggregation rules for other configuration files.
 
@@ -226,10 +226,10 @@ The following table summarizes the file mask values you can use with the `applie
 | `"*"`         | All files and folders in the workspace |
 | `"*/"`        | All folders in the workspace |
 | `"*.js"`      | All files in the workspace with the JavaScript extension *.js* |
-| `"/*.js"`     | All files in the root (\) of the workspace with the JavaScript extension *.js* |
+| `"/*.js"`     | All files in the root (\\) folder of the workspace with the JavaScript extension *.js* |
 | `"src/*/"`    | All subfolders of the *src* folder |
 | `"makefile"`  | All files in the workspace with the filename *makefile* |
-| `"/makefile"` | Only the file named *makefile* in the root (\) of the workspace |
+| `"/makefile"` | Only the file named *makefile* in the root (\\) folder of the workspace |
 
 #### Use macros in task arguments
 
@@ -325,8 +325,8 @@ If you don't see the extra targets on the menu, select the **Show/Hide Debug Tar
 
 Visual Studio scans two locations for the items specified in the `configurations` array property in *launch.vs.json* files:
 
-- The root (/) directory for the codebase
-- The *.vs* directory
+- The root (/) folder for the codebase
+- The *.vs* folder
 
 If you have *launch.vs.json* files in both locations, and there's a conflict in the definition for a configuration, the value in the *.vs\launch.vs.json* file takes precedence.
 
@@ -336,17 +336,17 @@ In addition to the *task* and *launch* JSON files, Visual Studio reads settings 
 
 ### Define code settings with .vscode\settings.json
 
-Visual Studio reads limited settings from a file named *settings.json*, when the file is located in a directory named *.vscode*.
+Visual Studio reads limited settings from a file named *settings.json*, when the file is located in a folder named *.vscode*.
 
 This functionality is provided for codebases previously developed in Visual Studio Code. Currently, the only setting read from the *.vscode\settings.json* file is `files.exclude`. This setting is used to filter files visually in **Solution Explorer** and from some search tools.
 
-You can have multiple *.vscode\settings.json* files in your codebase. Settings read from this file are applied to the parent directory of *.vscode* and all of its subdirectories.
+You can have multiple *.vscode\settings.json* files in your codebase. Settings read from this file are applied to the parent folder of *.vscode* and all of its subfolders.
 
 ### Configure Git files with .gitignore
 
 You can use a *.gitignore* file to let Git know which files to ignore when applying source control. The *.gitignore* files are commonly included as part of a codebase so the settings can be shared with all developers of the codebase. Visual Studio reads patterns in *.gitignore* files to filter items visually and from some search tools.
 
-Settings read from the *.gitignore* file are applied to its parent directory and all subdirectories.
+Settings read from the *.gitignore* file are applied to its parent folder and all subfolders.
 
 ## Related content
 
