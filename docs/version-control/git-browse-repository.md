@@ -1,7 +1,7 @@
 ---
 title: "Browse repos, compare branches & commits"
 description: Browse any Git repository in Visual Studio by using the Git Repository window to view local and remote branches and multiple branches at the same time.
-ms.date: 08/08/2023
+ms.date: 08/13/2024
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -52,8 +52,6 @@ You can browse through any local or remote branch without having to switch your 
 :::image type="content" source="media/vs-2022/git-repository-multigraph-branch-view.png" alt-text="Screenshot of the multi-graph branch view in Visual Studio." lightbox="media/vs-2022/git-repository-multigraph-branch-view.png":::
 
 There's both line coloring and branch labels on the left side of the **Local History** view that help make it easier to trace which commits belong to each branch. You can use the list of branches at the top of the table to scroll between branches more easily and know immediately which branches appear in the graph.
-
-<a name="compare-commits"/>
 
 ## Compare commits
 
