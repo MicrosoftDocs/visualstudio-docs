@@ -1,7 +1,7 @@
 ---
 title: Use breakpoints in the debugger
 description: Learn about breakpoints, one of the most important debugging techniques. The article covers breakpoint actions, tracepoints, conditions, and much more.
-ms.date: 12/06/2023
+ms.date: 08/13/2024
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.breakpointswin
@@ -369,6 +369,18 @@ You can use labels to sort and filter the list of breakpoints in the **Breakpoin
 
 1. To add a label to a breakpoint, right-click the breakpoint in the source code or the **Breakpoints** window, and then select **Edit labels**. Add a new label or choose an existing one, and then select **OK**.
 2. Sort the breakpoint list in the **Breakpoints** window by selecting the **Labels**, **Conditions**, or other column headers. You can select the columns to display by selecting **Show Columns** in the toolbar.
+
+::: moniker range=">= vs-2022"
+### Breakpoint groups
+
+For complex debugging scenarios, you may want to create breakpoint groups to organize your breakpoints. This allows you to quickly enable and disable logical groupings of breakpoints, based upon the current scenario that you're trying to debug.
+
+You can create breakpoints in the **Breakpoints** window by selecting **New > Breakpoing Group**, and providing a name for the group. To add a breakpoint to a group, right-click the breakpoint and choose **Add to Breakpoint Group** > **<group name>**. Or, drag-and-drop your breakpoints into the desired group.
+
+![Breakpoint groups](../debugger/media/vs-2022/breakpoints-window-breakpoint-groups.png)
+
+To set a default breakpoint group, right-click a group and select **Set as default Breakpoint Group**.
+::: moniker-end
 
 ### Export and import breakpoints
 
