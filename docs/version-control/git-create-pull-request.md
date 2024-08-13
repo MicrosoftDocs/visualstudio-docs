@@ -57,6 +57,27 @@ To create a pull request, follow these steps:
 
 1. Once you’ve clicked **Create** on your pull request, other developers can review your changes and provide feedback.
 
+## View pull request comments in the editor
+
+As of Visual Studio 17.11, you can view comments and suggestions from reviewers without switching contexts to the browser.
+
+![Screenshot showing PR comments.](./media/vs-2022/git-pull-request-comments.png)
+
+To enable this feature, open **Tools** > **Options** > **Preview features** and make sure that **Pull Request Comments** is selected.
+
+To view the comments for a pull request, check out any branch with an active pull request branch and select **Show comments in files** from the infobar. You can also select the PR number in the **Git Changes** window or from the Git top level menu with **Git** > **GitHub** or **Azure DevOps** > **Show comments in files**.
+
+![Screenshot showing link to view comments in Git Changes window.](./media/vs-2022/git-pull-request-link-and-PR-number.png)
+
+You can navigate across files and individual comments using the icons in the toolbar, or use the following keyboard shortcuts:
+
+| Action | Keyboard shortcut |
+| - | - |
+| Go to the previous file in the pull request | **Ctrl**+**Shift**+**Alt**+**F6** |
+| Go to the next file in the pull request | **Ctrl**+**Alt**+**F6** |
+| Go to the previous comment | **Ctrl**+**Shift**+**Alt**+**F8** |
+| Go to the next comment | **Ctrl**+**Alt**+**F8** |
+
 ## Next steps
 
 To continue your journey, visit the [Fetch, pull, and sync in Visual Studio](git-fetch-pull-sync.md) page.

@@ -1,7 +1,7 @@
 ---
 title: "Beginner's guide to optimizing code"
 description: "Learn how to optimize code and reduce compute costs using Visual Studio profiling tools such as the CPU Usage tool, the .NET Object Allocation tool, and the Database tool."
-ms.date: 07/01/2024
+ms.date: 08/09/2024
 ms.topic: conceptual
 dev_langs:
   - "CSharp"
@@ -31,7 +31,7 @@ Follow along and then apply these techniques to your own applications to make th
 
 The sample application examined in this case study is a .NET application that runs queries against a database of blogs and blog posts. It utilizes the Entity Framework, a popular ORM (Object-Relational Mapping) for .NET, to interact with a SQLite local database. The application is structured to execute a large number of queries, simulating a real-world scenario where a .NET application might be required to handle extensive data retrieval tasks. The sample application is a modified version of the [Entity Framework getting started sample](/ef/core/get-started/overview/first-app).
 
-The primary performance issue with the sample application lies in how it manages compute resources and interacts with the database. The application suffers from a common performance bottleneck that significantly impacts its efficiency and, consequently, the compute costs associated with running it. The problem includes the following symptoms:
+The primary performance issue with the sample application lies in how it manages compute resources and interacts with the database. The application has a performance bottleneck that significantly impacts its efficiency and, consequently, the compute costs associated with running it. The problem includes the following symptoms:
 
 - **High CPU Usage**: Applications may perform inefficient computations or processing tasks in a way that unnecessarily consumes a large amount of CPU resources. This can lead to slow response times and increased operational costs.
 
