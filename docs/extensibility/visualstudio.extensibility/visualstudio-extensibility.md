@@ -78,7 +78,8 @@ Read an overview of the areas of the SDK that you might need for your extension 
 * Use prompts with customizable buttons to interact with the user, see [User prompts](./user-prompt/user-prompts.md).
 * Use dialogs with custom UI to interact with the user, see [Dialogs](./dialog/dialog.md)
 * Create custom data visualizations when debugging, see [Debugger Visualizers](./debugger-visualizer/debugger-visualizers.md)
-* Query or modify information about project sand solutions, see [Project Query](./project/project.md)
+* Query or modify information about projects and solutions, see [Project Query](./project/project.md)
+* Define, read and update settings, see [Settings](./settings/settings.md)
 * Work with language servers/LSP for additional language support, see [Language Server Provider](./language-server-provider/language-server-provider.md)
 
 ## Samples and tutorials
@@ -99,8 +100,8 @@ You can find a Visual Studio solution that contains all samples at [Samples.sln]
 | [Markdown linter](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/MarkdownLinter) | Shows how multiple components can interact together inside an extension and how different areas of Visual Studio can be extended. |
 | [Project Query](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/VSProjectQueryAPISample) | Shows several different kinds of project system queries you can make. |
 | [Comment remover](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CommentRemover) | Shows how to consume [Visual Studio SDK](https://www.nuget.org/packages/Microsoft.VisualStudio.SDK) services through .NET dependency injection and use VisualStudio.Extensibility APIs for commands, prompts and progress report. |
-| RegexMatchDebugVisualizer | Shows how to use [Remote UI](./inside-the-sdk/remote-ui.md) to create a [Debugger Visualizer](./debugger-visualizer/debugger-visualizers.md) to visualize regular expression matches that will launch in a modal dialog window. |
-| MemoryStreamDebugVisualizer | Shows how to create a [Debugger Visualizer](./debugger-visualizer/debugger-visualizers.md) to visualize MemoryStream objects that launches in a non-modal tool window. |
+| [RegexMatchDebugVisualizer](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/RegexMatchDebugVisualizer) | Shows how to use [Remote UI](./inside-the-sdk/remote-ui.md) to create a [Debugger Visualizer](./debugger-visualizer/debugger-visualizers.md) to visualize regular expression matches that will launch in a modal dialog window. |
+| [MemoryStreamDebugVisualizer](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/MemoryStreamDebugVisualizer) | Shows how to create a [Debugger Visualizer](./debugger-visualizer/debugger-visualizers.md) to visualize MemoryStream objects that launches in a non-modal tool window. |
 | [RustLanguageServiceProvider](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/RustLanguageServerProvider) | Shows how to create a Rust language server provider extension that adds Intellisense and tooltips when a rust file is opened. |
 
 ## Experimental APIs and Breaking Changes
@@ -125,6 +126,7 @@ Please visit our [Known Issues](https://github.com/microsoft/VSExtensibility/blo
 
 | Article | Description|
 |-|-|
+| [Other Remote UI concepts](./inside-the-sdk/other-remote-ui.md) | Additional topics related to working with the remote UI model |
 | [Advanced Remote UI](./inside-the-sdk/advanced-remote-ui.md) | In-depth information on the remote UI model |
 | [In-proc extensions](./get-started/in-proc-extensions.md) | A quick walkthrough on different options to use VisualStudio.Extensibility SDK in-proc |
 

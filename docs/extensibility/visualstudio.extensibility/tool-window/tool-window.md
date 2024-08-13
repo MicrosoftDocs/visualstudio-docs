@@ -191,6 +191,32 @@ public override ToolWindowConfiguration ToolWindowConfiguration => new()
 
 See [Rule-based activation constraints](../inside-the-sdk/activation-constraints.md#rule-based-activation-constraints) for more information on valid term values.
 
+## Add a toolbar to a tool window
+
+A toolbar can be added to a tool window. First, define a toolbar as described in the [Menus and Toolbars documentation](../command/menus-and-toolbars.md#create-a-toolbar):
+
+```cs
+[VisualStudioContribution]
+public static ToolbarConfiguration MyToolbar => new("%MyToolbar.DisplayName%")
+{
+    Children = [
+        ToolbarChild.Command<MyCommand1>(), // Assuming there is a `Command` defined in the extension called `MyCommand1`
+        ToolbarChild.Separator,
+        ToolbarChild.Command<MyCommand2>(), // Assuming there is a `Command` defined in the extension called `MyCommand2`
+    ],
+};
+```
+
+Then reference the toolbar from the tool window configuration:
+
+```cs
+public override ToolWindowConfiguration ToolWindowConfiguration => new()
+{
+    ...
+    Toolbar = new(MyToolbar),
+};
+```
+
 ## Next steps
 
 Be sure to read about how [Remote UI](./../inside-the-sdk/remote-ui.md) works in the VisualStudio.Extensibility framework.

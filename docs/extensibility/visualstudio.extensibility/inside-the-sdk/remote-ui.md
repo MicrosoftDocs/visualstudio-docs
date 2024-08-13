@@ -452,4 +452,4 @@ It's also important to avoid the extension asynchronously updating the value of 
 
 ## Related content
 
-The information here should be enough to build simple Remote UI components. For more advanced scenarios, see [Advanced Remote UI concepts](advanced-remote-ui.md).
+The information here should be enough to build simple Remote UI components. For additional topics related to working with the remote UI model, see [Other Remote UI concepts](other-remote-ui.md). For more advanced scenarios, see [Advanced Remote UI concepts](advanced-remote-ui.md).

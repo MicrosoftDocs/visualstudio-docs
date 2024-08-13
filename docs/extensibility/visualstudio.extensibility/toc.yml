@@ -47,6 +47,8 @@ items:
     href: ./project/project.md
   - name: Project query API concepts
     href: ./project/project-concepts.md
+- name: Settings
+  href: ./settings/settings.md
 - name: Tool windows
   href: ./tool-window/tool-window.md
 - name: Prompts
@@ -75,6 +77,8 @@ items:
     href: ./inside-the-sdk/inside-the-sdk.md
   - name: Logging
     href: ./inside-the-sdk/logging.md
+  - name: Other Remote UI concepts
+    href: ./inside-the-sdk/other-remote-ui.md
   - name: Remote UI
     href: ./inside-the-sdk/remote-ui.md
 
