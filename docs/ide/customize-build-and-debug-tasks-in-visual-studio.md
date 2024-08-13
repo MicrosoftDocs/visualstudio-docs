@@ -1,6 +1,6 @@
 ---
-title: Customize build debug tasks with JSON files
-description: Learn how to customize tasks to provide some configuration details to run and debug a codebase that Visual Studio doesn't recognize.
+title: Create build and debug tasks with JSON files
+description: Create build and debug tasks with JSON files to instruct Visual Studio how to process code that it doesn't recognize.
 ms.date: 08/12/2024
 ms.topic: how-to
 helpviewer_keywords:
@@ -14,16 +14,16 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide
 
-#customer intent: As a developer, I want to customize build debug tasks with JSON files in Visual Studio so I can run and debug unrecognized codebases.
+#customer intent: As a developer, I want to define build and debug tasks with JSON files in Visual Studio so I can quickly run and debug unrecognized codebases.
 ---
 
-# Customize build and debug tasks for "Open Folder" development
+# Create build and debug tasks for "Open Folder" development
 
-Visual Studio can automatically run many different programming languages and codebases. You can use the [**Open Folder**](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) option to immediately run code for a recognized codebase without special instructions and without creating a project. This approach is commonly used for quick testing.
+Visual Studio can automatically run many different programming languages and codebases. The [**Open Folder**](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) option lets you immediately run code for a recognized codebase without special instructions and without creating a project. Developers commonly use this approach for quick testing.
 
-When a codebase requires custom build tools that Visual Studio doesn't recognize or can't immediately process, you can define *build tasks* that instruct Visual Studio how to build and debug your code. These tasks specify all the items a language needs to build and run the code, and complete nearly any required operation.
+Some codebases require custom build tools that Visual Studio doesn't recognize or can't immediately process with the **Open Folder** option. For these scenarios, you can define *build tasks* to instruct Visual Studio how to build and debug the code. The build tasks specify all the items a language needs to build and run the code, and can be used to complete nearly any required operation.
 
-This article describes how to define build tasks and configure build and debug settings for an unrecognized, project-less code base in Visual Studio.
+This article describes how to define build tasks to configure build and debug settings for an unrecognized, project-less code base in Visual Studio.
 
 ## Explore JSON configuration files
 
@@ -283,7 +283,7 @@ Visual Studio provides a *launch.vs.json* file that you can use to configure deb
 
    The executable is designated as the startup item for your codebase, and Visual Studio sets the label for the debugging **Start** button to reflect the name of your executable:
 
-   :::image type="content" source="media/customize-start-button.png" border="false" alt-text="Screenshot that shows a custom label for the Startup action in Visual Studio.":::
+   :::image type="content" source="media/customize-start-button.png" border="false" alt-text="Screenshot that shows a custom label for the Startup action in Visual Studio." lightbox="media/customize-start-button.png":::
 
    When you start the debugger with **F5**, Visual Studio starts debugging your code and stops at any set breakpoint. All the familiar debugger windows are available and functional.
 
@@ -317,7 +317,7 @@ You can specify command-line arguments to pass in to the debugger in the *launch
 
 You can create as many debug configurations as you like. When you save the *launch* file, the configuration names are added to the debug target dropdown list. You can select a specific target to start the debugger:
 
-:::image type="content" source="media/customize-debug-configurations.png" border="false" alt-text="Screenshot that shows available configurations in the Debug target dropdown list in Visual Studio Solution Explorer." lightbox="media/customize-debug-configurations.png":::
+:::image type="content" source="media/customize-debug-configurations.png" border="false" alt-text="Screenshot that shows available configurations in the Debug target dropdown list in Visual Studio Solution Explorer.":::
 
 If you don't see the extra targets on the menu, select the **Show/Hide Debug Targets** and configure the visible targets.
 
