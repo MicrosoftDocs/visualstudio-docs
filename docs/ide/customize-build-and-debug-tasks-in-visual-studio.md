@@ -27,7 +27,7 @@ This article describes how to define build tasks to configure build and debug se
 
 ## Explore JSON configuration files
 
-To customize a project-less codebase, Visual Studio provides two JSON files for configuration settings: *tasks* and *launch*. Visual Studio creates (or opens) these files on an as-needed basis, when you select specific options in Visual Studio **Solution Explorer**.
+To customize a project-less codebase, Visual Studio provides two JSON (*.json*) files for configuration settings: *tasks* and *launch*. Visual Studio creates (or opens) these files on an as-needed basis, when you select specific options in Visual Studio **Solution Explorer**.
 
 The following table describes the JSON files and how to create them in **Solution Explorer**.
 
@@ -50,7 +50,7 @@ You can automate build scripts and external operations on files in your current 
 
 This action creates (or opens) the *tasks.vs.json* file in the *.vs* folder. You define a build task or arbitrary task in this file, and Visual Studio adds the name of the task as a command to the **Solution Explorer** right-click menu. You can invoke the task by selecting the corresponding command in **Solution Explorer**.
 
-Custom tasks can be added to individual files, or to all files of a specific type. For instance, NuGet package files can be configured to have a "Restore Packages" task, or all source files can be configured to have a static analysis task, such as a linter for all JavaScript *.js* files.
+Custom tasks can be added to individual files, or to all files of a specific type. For instance, NuGet package files can be configured to have a "Restore Packages" task, or all source files can be configured to have a static analysis task, such as a linter for all JavaScript (*.js*) files.
 
 ### Create tasks for unrecognized tools
 
@@ -137,7 +137,7 @@ You can define custom tasks in the *tasks.vs.json* file for any arbitrary operat
 
 #### Example: Display name of currently selected file
 
-The following example shows a *tasks.vs.json* file that defines a single arbitrary task. When you invoke this task, the operation displays the filename of the currently selected JavaScript *.js* file.
+The following example shows a *tasks.vs.json* file that defines a single arbitrary task. When you invoke this task, the operation displays the filename of the currently selected JavaScript (*.js*) file.
 
 ```json
 {
@@ -156,13 +156,13 @@ The following example shows a *tasks.vs.json* file that defines a single arbitra
 
 The code for this task defines the following properties:
 
-- `taskName`: The task command name for Visual Studio to display in the right-click menu. This task example uses the command name is **Echo filename**.
-- `appliesTo`: The files for the task command to act upon. This task example acts on JavaScript *.js* files.
-- `command`: The command to invoke. This task example uses the `COMSPEC` environment variable to identify the command line interpreter (typically *cmd.exe*).
+- `taskName`: The task command name for Visual Studio to display in the right-click menu. In this case, **Echo filename**.
+- `appliesTo`: The files for the task command to act upon. In this case, JavaScript (*.js*) files.
+- `command`: The command to invoke. This task uses the `COMSPEC` environment variable to identify the command line interpreter (typically *cmd.exe*).
 - `args`: Any arguments to pass when Visual Studio invokes the command.
-- `${file}`: In this example, the arguments include a macro that retrieves the file currently selected in **Solution Explorer**.
+- `${file}`: The arguments for this task include a macro that retrieves the file currently selected in **Solution Explorer**.
 
-After you save the *tasks.vs.json* file, you can right-click any JavaScript *.js* file in the folder and select **Echo filename**. Visual Studio displays the selected file name in the **Output** window.
+After you save the *tasks.vs.json* file, you can right-click any JavaScript (*.js*) file in the folder and select **Echo filename**. Visual Studio displays the selected file name in the **Output** window.
 
 #### Example: List files and subfolders
 
@@ -225,10 +225,10 @@ The following table summarizes the file mask values you can use with the `applie
 | --- | --- |
 | `"*"`         | All files and folders in the workspace |
 | `"*/"`        | All folders in the workspace |
-| `"*.js"`      | All files with the JavaScript extension *.js* in the workspace  |
-| `"/*.js"`     | All files with the JavaScript extension *.js* in the root (\\) folder of the workspace  |
+| `"*.js"`      | All files with the JavaScript (*.js*) extension in the workspace  |
+| `"/*.js"`     | All files with the JavaScript (*.js*) extension in the root (\\) folder of the workspace  |
 | `"src/*/"`    | All subfolders of the *src* folder |
-| `"makefile"`  | All files with the filename *makefile* in the workspace  |
+| `"makefile"`  | All files named *makefile* in the workspace  |
 | `"/makefile"` | Only the file named *makefile* in the root (\\) folder of the workspace |
 
 #### Use macros in task arguments
