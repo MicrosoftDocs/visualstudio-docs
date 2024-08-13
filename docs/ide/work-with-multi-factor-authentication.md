@@ -18,7 +18,7 @@ In this article, you learn to use Visual Studio with accounts that require multi
 
 When collaborating with external guest users, it's a good idea to protect your apps and data with **conditional access (CA)** policies such as **multifactor authentication (MFA)**.  
 
-Once enabled, guest users will need more than just a username and password to access your resources, and must satisfy additional security requirements. MFA policies can be enforced at the tenant, app, or individual guest user level, the same way that they are enabled for members of your own organization. 
+Once enabled, guest users will need more than just a username and password to access your resources, and must satisfy additional security requirements. MFA policies can be enforced at the tenant, app, or individual guest user level, the same way that they're enabled for members of your own organization. 
 
 > [!NOTE]
 > Versions of Visual Studio prior to 16.6 may have degraded authentication experiences when used with accounts that have enabled CA policies such as MFA, and are associated with two or more tenants.
@@ -136,7 +136,7 @@ If you're experiencing CA/MFA issues and/or are unable to log in even when using
 1. Sign in again.
 
 > [!NOTE]
-> After these steps you'll likely be able to log in, but your account will be put in a filtered state. While in a filtered state, only your account's default tenant and resources will be available. All other Microsoft Entra tenants and resources will become inaccessible, but you can [manually add them back](#how-to-opt-out-of-using-a-specific-azure-active-directory-tenant-in-visual-studio).
+> After these steps you'll likely be able to log in, but your account will be put in a filtered state. While in a filtered state, only your account's default tenant and resources will be available. All other Microsoft Entra tenants and resources will become inaccessible, but you can [manually add them back](#how-to-opt-out-of-using-a-specific-microsoft-entra-tenant-in-visual-studio).
 
 ### Pre-authorization issues
 
@@ -151,28 +151,19 @@ Starting with Visual Studio 2022 version 17.5, if you see the previous error dia
 > [!NOTE]
 > Creating a ticket will help us identify problematic areas and provide the needed logs to investigate and address the issue.
 
-### Sign in issues with Government Clouds
-
-:::image type="content" source="media/vs-2022/pre-auth-gov.png" alt-text="Screenshot of a sign-in error when trying to access government clouds." border="false":::
-
-Starting with Visual Studio 2022 version 17.5, if you see the previous error dialog or experience issues during sign in operations, try the following steps to resolve the issue:
-
-1. Close Visual Studio.
-1. Open the "Developer Command Prompt" for your specific Visual Studio installation.
-1. Enter `Set DisableWAMClientIdForVS=true`. Alternatively, you can use `Setx DisableWAMClientIdForVS true` to set a user variable on your system. Once you've set up a user variable, you won't have to do this again.
-1. After setting the user variable, open Visual Studio from the Developer Command Prompt: ```devenv```.
-1. Sign in again.
-
-<a name='how-to-opt-out-of-using-a-specific-azure-active-directory-tenant-in-visual-studio'></a>
-
 ::: moniker range="=vs-2022"
 ### Web Account Manager (WAM) errors
 
 If you run into errors when using the [Windows authentication broker workflow for signing in to Visual Studio](#using-windows-authentication-broker), follow the action listed on the error dialog to resolve or report the issue. Use the links on the dialog to learn more about the error or to see error logs.
 
-For example, if you see the following error dialog, you can resolve the issue by selecting **change authentication mechanism** to open **Sign-in options** and switch to the [system web browser](#enabling-system-web-browser).
+#### TPM (Trusted Platform Module) Error
+
+For example, if you see the following error dialog, you can attempt to resolve the issue by following the instructions [TPM error troubleshooting](/windows/security/hardware-security/tpm/initialize-and-configure-ownership-of-the-tpm). 
 
 :::image type="content" source="media/vs-2022/work-with-multi-factor-authentication/change-authentication-mechanism-error.png" alt-text="Screenshot of a WAM error dialog with the change authentication mechanism option to resolve the error." border="false":::
+
+If you need to switch to an authentication mechanism other than the Windows Broker, you can switch by following the instructions to [enable system web browser](#enabling-system-web-browser). 
+If those instructions don't work and you have a support contract please open a support ticket at [Technical support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8)
 
 ::: moniker-end
 
@@ -201,6 +192,60 @@ The **Filter account** dialog will appear, allowing you to select which tenants 
 After you deselect the tenant to filter, the **Account Settings** and the **Filter account** dialogs will show filtered state.
 
 :::image type="content" source="media/vs-2022/account-settings-filter-account-dialogs-tenants-filtered-out-state.png" alt-text="Screenshot showing the filtered tenant state on the Account Settings and the Filter Account dialogs":::
+
+### Networking errors with Visual Studio
+
+During sign in, Visual Studio may experience errors related to the network which aren't usually Visual Studio product issues and may need to be investigated by local IT support.
+#### Error "Proxy authorization required
+If your machine or organization uses security measures such as a firewall or a proxy server, make sure you're following the
+[requirements to use Visual Studio behind a proxy or firewall](/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server).
+
+#### SSL errors
+SSL errors may come in a variety of forms. Some examples are:
+
+ - "The underlying connection was closed"
+ - "The SSL connection could not be established"
+ - "Could not create SSL/TLS secure channel"
+ - "An existing connection was forcibly closed by the remote host.” (This can also be due to firewalls blocking the connection)
+ - "The underlying connection was closed: An unexpected error occurred on send"
+
+These errors may be caused by the following:
+ 1) Corporate proxy or firewall blocking certain versions of TLS
+ 2) TLS 1.3 is enabled on the machine but network doesn't support it. You may try [disabling TLS 1.3](#disable-tls-13) on the machine to test if this is the case.
+ 3) Group policy restricting what SSL algorithms are allowed and this allowed list isn't matching what the server expects. 
+
+ The following resources might be helpful for troubleshooting SSL issues:
+ - [Azure DevOps TLS 1.2 transition readiness checker](https://github.com/microsoft/azure-devops-tls12)
+ - [Transport Layer Security (TLS) best practices with .NET Framework](/dotnet/framework/network-programming/tls#configuring-security-via-the-windows-registry)
+ - [TLS registry settings](/windows-server/security/tls/tls-registry-settings?tabs=diffie-hellman#tls-dtls-and-ssl-protocol-version-settings) 
+
+##### Disable TLS 1.3
+1.3:
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.3\Client]
+"DisabledByDefault"=dword:00000001 
+"Enabled"=dword:00000000
+
+ #### Connection refused errors
+ "No connection could be made because the target machine actively refused it" 
+ 
+ This error means when Visual Studio is trying to make a connection to an internet endpoint the machine refused the connection.
+
+ Common Causes:
+ - If the address "127.0.0.1" is in the error message this means a connection to a local proxy server was attempted but the local proxy server wasn't running.
+
+ - VPN connection - Try disconnecting from any VPNs and try the connection again. If it works, you'll want to follow up with the VPN provider or your network administrator. This includes corporate VPN or third-party VPN services.
+
+ - DNS - The domain lookup on your machine has resolved to an address which doesn't point to the expected server. This means the connection is going to a different machine not running the expected services and refusing the connection. To debug this issue, you can use tools such as [NsLookup](/windows-server/administration/windows-commands/nslookup) and compare it to the [Azure IP Ranges and Service Tags](https://www.microsoft.com/en-gb/download/details.aspx?id=56519&msockid=29cb101f084a69eb165004b009d668ef).
+ 
+ - IPV6 - Some computers have IPV6 enabled but the network doesn't support the protocol. In this case you may see a connection refused message because the server couldn't be found. Try disabling IPV6 on the machine to see if the connection works. 
+
+ - SSL problems - See [SSL errors](#ssl-errors).
+
+ - Proxy or firewalls on the network - If there is a proxy or firewall on the network, it will be the first device the connection attempts to communicate with, and it may be the one refusing the connection. You can determine if the firewall or proxy server is blocking connections by asking your network administrator. Alternatively, looking at network traces can indicate which machine the connection is being made to and identify who's refusing it. If it's an internal network address, it means the proxy or firewall blocked the connection. If it's an external IP address, this usually means DNS, IPV6, or SSL problems.
+  
+#### Support for network related issues
+Network related issues are normally related to the machine or network configuration rather than Visual Studio. [Developer Community](https://developercommunity.visualstudio.com/VisualStudio) may provide some support, but it's focused on features within Visual Studio rather than machine configuration. For network-specific support, the [Microsoft Support Community](https://answers.microsoft.com/en-us) or [Technical support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8) can be helpful.
+
 
 ## Related content
 
