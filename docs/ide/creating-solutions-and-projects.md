@@ -18,7 +18,7 @@ ms.subservice: general-ide
 
 # Create, work with, and delete Visual Studio projects and solutions
 
-In this article, you learn how to create Visual Studio projects from scratch and use them to store the artifacts you need to build your apps. If you aren't familiar with projects in Visual Studio, see this overview of [Projects and Solutions](solutions-and-projects-in-visual-studio.md). To learn how to quickly create a project from a template, see [Create a new project in Visual Studio](create-new-project.md).
+In this article, you learn how to create Visual Studio projects from scratch and use them to store the artifacts you need to build your apps. If you aren't familiar with projects in Visual Studio, see [this overview of Projects and Solutions](solutions-and-projects-in-visual-studio.md). To learn how to quickly create a project from a template, see [Create a new project in Visual Studio](create-new-project.md).
 
 *Projects* hold the items needed to build your app in Visual Studio, such as source code files, bitmaps, icons, and component and service references. When you create a new project, Visual Studio creates a *solution* to contain the project. You can then add other new or existing projects to the solution if you want. You can also create [blank or empty solutions](#create-empty-solutions). Solutions can also contain files that aren't connected to any specific project.
 
@@ -31,7 +31,7 @@ You can view your solutions and projects in a tool window called *Solution Explo
 
 :::image type="content" source="media/solution-explorer-two-projects-inline.png" alt-text="Screenshot of two projects in Solution Explorer.":::
 
-Although you can construct a project yourself by adding the necessary files to it, Visual Studio offers a selection of project templates to give you a head start. Creating a new project from a template gives you a project that has the essentials for that project type. You can rename the files or add new or existing code and other resources to it as needed.
+Although you can construct a project yourself by adding the necessary files to it, Visual Studio offers a selection of project templates to give you a head start. Creating a new project from a template gives you a project that has the essentials for that project type. You can rename the files or add new or existing code and other resources to the project as needed.
 
 That said, you don't need to use solutions and projects to develop apps in Visual Studio. You can also open code that you have cloned from Git or downloaded from another source. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
