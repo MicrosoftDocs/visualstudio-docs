@@ -67,4 +67,4 @@ With [Visual Studio 2022 version 17.11](/visualstudio/releases/2022/release-note
 
 - Excluded content isn't included in GitHub Copilot Chat's responses.
 
-    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-chat-window.png" alt-text="Screenshot of chat's responses on excluded content." lightbox="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-chat-window.png":::
+    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-chat-response.png" alt-text="Screenshot of chat's responses on excluded content." lightbox="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-chat-response.png":::
