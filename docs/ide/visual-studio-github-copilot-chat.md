@@ -100,7 +100,7 @@ The inline chat view of Copilot Chat in Visual Studio enables you to ask your qu
 
 1. You can promote your inline chat thread to the chat window by selecting **Continue in chat window...**. This'll preserve the record and context of your conversation, and you can continue in the chat window.
     
-    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-inline-continue-in-chat-window.png" alt-text="Screenshot of how to continue the inline chat thread in the chat window." :::
+    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/cpromote-inline-chat-to-chat-window.png" alt-text="Screenshot of how to continue the inline chat thread in the chat window." :::
 
 1. You can close the inline chat view by pressing **Esc**.
 
