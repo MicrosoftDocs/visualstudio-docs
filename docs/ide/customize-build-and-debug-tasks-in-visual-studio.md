@@ -186,11 +186,11 @@ The following example shows a *tasks.vs.json* file that defines a task to list t
 
 The code for this task defines the following properties:
 
-- `taskName`: The task command name for the right-click menu is **List Outputs**. 
+- `taskName`: The task command name for the right-click menu, **List Outputs**. 
 - `appliesTo`: This task acts on all items in the specified folder, as indicated by the use of the wildcard (\*).
 - `command`: Similar to the previous example, the task uses the `COMSPEC` environment variable to identify the command line interpreter (*cmd.exe*).
-- `args`: When Visual Studio invokes the command, it passes a call to the `dir` command, which lists the directory (folder) items.
-- `${outDir}`: The `{outDir}` macro is defined before the `tasks` block. It specifies that the `bin` folder is the directory to act on.
+- `args`: When Visual Studio invokes the task, it passes a call to the `dir` command, which lists the directory (folder) items.
+- `${outDir}`: The `{outDir}` macro is defined before the `tasks` block. It identifies the *bin* folder as the directory to act on.
 
 This task applies to all files in the codebase. When Visual Studio adds the command name for an arbitrary task to the right-click menu, it prefixes the command with **Run**, as in **Run List Outputs**.
 
@@ -225,10 +225,10 @@ The following table summarizes the file mask values you can use with the `applie
 | --- | --- |
 | `"*"`         | All files and folders in the workspace |
 | `"*/"`        | All folders in the workspace |
-| `"*.js"`      | All files in the workspace with the JavaScript extension *.js* |
-| `"/*.js"`     | All files in the root (\\) folder of the workspace with the JavaScript extension *.js* |
+| `"*.js"`      | All files with the JavaScript extension *.js* in the workspace  |
+| `"/*.js"`     | All files with the JavaScript extension *.js* in the root (\\) folder of the workspace  |
 | `"src/*/"`    | All subfolders of the *src* folder |
-| `"makefile"`  | All files in the workspace with the filename *makefile* |
+| `"makefile"`  | All files with the filename *makefile* in the workspace  |
 | `"/makefile"` | Only the file named *makefile* in the root (\\) folder of the workspace |
 
 #### Use macros in task arguments
@@ -237,15 +237,15 @@ You can pass macros as arguments for a task to augment the task behavior when Vi
 
 The following table lists some macro examples:
 
-| Macro | Description | Example |
+| Macro | Description | Examples |
 | --- | --- | --- |
-| `${env.<VARIABLE>}` | Specifies any environment variable used in the developer command prompt. For more information, see [Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md). | `${env.PATH}`, `${env.COMSPEC}`, and so on |
-| `${workspaceRoot}`  | Provides the full path to the workspace folder. | `C:\sources\hello` |
-| `${file}`           | Provides the full path of the file or folder selected for the task action. | `C:\sources\hello\src\hello.js*` |
-| `${relativeFile}`   | Provides the relative path to the file or folder. | `src\hello.js*` |
-| `${fileBasename}`   | Provides the name of the file, excluding the path or extension. | `hello` |
-| `${fileDirname}`    | Provides the full path to the file, excluding the filename. | `C:\sources\hello\src*` |
-| `${fileExtname}`    | Provides the extension of the selected file. | `.js`, `.cs`, and so on |
+| `${env.<VARIABLE>}` | Specifies any environment variable usable in the developer command prompt. For more information, see [Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md). | `${env.PATH}`, `${env.COMSPEC}` |
+| `${workspaceRoot}`  | Provides the full path to the workspace folder. | `C:\sources\hello`, `C:\sources\hello\bin` |
+| `${file}`           | Provides the full path to the file or folder. | `C:\sources\hello\src\hello.js*`, `C:\sources\hello\src\test.js*` |
+| `${relativeFile}`   | Provides the relative path to the file or folder. | `src\hello.js*`, `bin\hello.exe` |
+| `${fileBasename}`   | Provides the name of the file, excluding the path or extension. | `hello`, `test` |
+| `${fileDirname}`    | Provides the full path to the file, excluding the filename. | `C:\sources\hello\src*`, `C:\sources\hello\bin\test\*` |
+| `${fileExtname}`    | Provides the extension of the selected file. | `.js`, `.cs`, `.exe` |
 
 ## Configure debugging with launch.vs.json
 
