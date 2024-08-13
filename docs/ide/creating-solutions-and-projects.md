@@ -1,6 +1,6 @@
 ---
 title: "Create projects & solutions"
-description: Create and use Visual Studio solutions and projects to store artifacts, including source code files, bitmaps, icons, and component and service references.
+description: Create Visual Studio solutions and projects and use them to store artifacts, including source code files, bitmaps, icons, and component and service references.
 ms.date: 08/13/2024
 ms.topic: how-to
 f1_keywords:
@@ -12,11 +12,13 @@ author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
+
+#customer intent: As a developer, I want to learn how to create Visual Studio projects and solutions to store artifacts so that I can effectively manage my solutions.
 ---
 
 # Create, work with, and delete Visual Studio projects and solutions
 
-In this article, you'll learn how to create and use Visual Studio projects from scratch to store the artifacts you need to build your apps.  If you aren't familiar with projects in Visual Studio, see this overview of [Projects and Solutions](solutions-and-projects-in-visual-studio.md).  To learn how to quickly create a project from a template, see [Create a new project in Visual Studio](create-new-project.md).
+In this article, you learn how to create Visual Studio projects from scratch and use them to store the artifacts you need to build your apps. If you aren't familiar with projects in Visual Studio, see this overview of [Projects and Solutions](solutions-and-projects-in-visual-studio.md). To learn how to quickly create a project from a template, see [Create a new project in Visual Studio](create-new-project.md).
 
 *Projects* hold the items needed to build your app in Visual Studio, such as source code files, bitmaps, icons, and component and service references. When you create a new project, Visual Studio creates a *solution* to contain the project. You can then add other new or existing projects to the solution if you want. You can also create [blank or empty solutions](#create-empty-solutions). Solutions can also contain files that aren't connected to any specific project.
 
@@ -27,9 +29,9 @@ In this article, you'll learn how to create and use Visual Studio projects from 
 
 You can view your solutions and projects in a tool window called *Solution Explorer*. The following screenshot shows an example of a C# console solution in Solution Explorer. The solution contains two projects: **Calculator** and **CalculatorLibrary**. Each project contains multiple files and folders. The project name in bold is the *startup project*; that is, the project that starts when you run the app. You can specify which project is the startup project.
 
-:::image type="content" source="media/solution-explorer-two-projects-inline.png" alt-text="Screenshot of two projects in Solution Explorer." lightbox="media/solution-explorer-two-projects-expanded.png":::
+:::image type="content" source="media/solution-explorer-two-projects-inline.png" alt-text="Screenshot of two projects in Solution Explorer.":::
 
-Although you can construct a project yourself by adding the necessary files to it, Visual Studio offers a selection of project templates to give you a head start. Creating a new project from a template gives you a project that has the essentials for that project type, and you can rename the files or add new or existing code and other resources to it as needed.
+Although you can construct a project yourself by adding the necessary files to it, Visual Studio offers a selection of project templates to give you a head start. Creating a new project from a template gives you a project that has the essentials for that project type. You can rename the files or add new or existing code and other resources to it as needed.
 
 That said, you don't need to use solutions and projects to develop apps in Visual Studio. You can also open code that you have cloned from Git or downloaded from another source. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
@@ -73,7 +75,7 @@ To specify a .NET Framework version, select an item in **Framework** list on the
 
 ::: moniker range="vs-2019"
 
-![Screenshot of the Framework dropdown list in the Configure new project dialog in Visual Studio 2019.](media/vs-2019/configure-new-project-framework.png)
+:::image type="content" source="media/vs-2019/configure-new-project-framework.png" alt-text="Screenshot of the Framework dropdown list in the Configure new project dialog in Visual Studio 2019.":::
 
 ::: moniker-end
 
@@ -85,7 +87,7 @@ To specify a .NET Framework version, select an item in **Framework** list on the
 
 ## Create empty solutions
 
-You can also create empty solutions that have no projects. This might be a good option when you want to construct your solution and projects from scratch.
+You can also create empty solutions that don't contain projects. This option might work well when you want to construct your solution and projects from scratch.
 
 ### To create an empty solution
 
@@ -125,4 +127,3 @@ You can access File Explorer in Windows by using Solution Explorer in Visual Stu
 - [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md)
 - [Manage project and solution properties](managing-project-and-solution-properties.md)
 - [Filtered solutions in Visual Studio](filtered-solutions.md)
-- [Developer code samples](/samples/browse/)
