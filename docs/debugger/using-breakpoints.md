@@ -379,7 +379,8 @@ You can create breakpoints in the **Breakpoints** window by selecting **New > Br
 
 ![Breakpoint groups](../debugger/media/vs-2022/breakpoints-window-breakpoint-groups.png)
 
-To set a default breakpoint group, right-click a group and select **Set as default Breakpoint Group**.
+To set a default breakpoint group, right-click a group and select **Set as default Breakpoint Group**. When you set a default breakpoint group, newly created breakpoints are automatically added to the group.
+
 ::: moniker-end
 
 ### Export and import breakpoints
