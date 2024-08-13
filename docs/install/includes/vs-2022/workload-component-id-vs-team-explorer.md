@@ -15,7 +15,7 @@ ms.topic: include
 
 **ID:** Microsoft.VisualStudio.Workload.CoreEditor
 
-**Description:** The Visual Studio core shell experience, including syntax-aware code editing, source code control and work item management.
+**Description:** The Visual Studio core shell experience, including syntax-aware code editing, source code control, and work item management.
 
 ### Components included by this workload
 
@@ -25,7 +25,7 @@ Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 17.11.
 
 ## Unaffiliated components
 
-These are components that are not included with any workload, but may be selected as an individual component.
+These components aren't included with any workload, but may be selected as an individual component.
 
 Component ID | Name | Version
 --- | --- | ---
