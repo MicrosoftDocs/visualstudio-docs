@@ -32,7 +32,7 @@ When you create an app or website in Visual Studio, you start with a *project*. 
 
 Visual Studio uses [MSBuild](../msbuild/msbuild.md) to build each project in a solution, and each project contains an MSBuild project file. The file extension reflects the type of project, for example, a C# project (.csproj), a Visual Basic project (.vbproj), or a database project (.dbproj). The project file is an XML document that contains all the information and instructions that MSBuild needs to build your project. Such information and instructions include the content, platform requirements, versioning information, web server or database server settings, and the tasks to perform.
 
-Project files are based on the [MSBuild XML schema](../msbuild/msbuild-project-file-schema-reference.md). To look at the contents of newer, [SDK-style project files](../msbuild/how-to-use-project-sdk.md) in Visual Studio, right-click the [project node](use-solution-explorer.md#solution-explorer-ui) in **Solution Explorer** and select **Edit \<projectname\>**. To look at the contents of .NET projects, first unload the project (right-click the project node in **Solution Explorer** and select **Unload Project**). Then, right-click on the project and choose **Edit \<projectname\>**.
+Project files are based on the [MSBuild XML schema](../msbuild/msbuild-project-file-schema-reference.md). To look at the contents of newer, [SDK-style project files](../msbuild/how-to-use-project-sdk.md) in Visual Studio, right-click the [project node](use-solution-explorer.md#solution-explorer-ui) in **Solution Explorer** and select **Edit Project File**. To look at the contents of .NET projects, first unload the project (right-click the project node in **Solution Explorer** and select **Unload Project**). Then, right-click the project and select **Edit Project File**.
 
 > [!NOTE]
 > You don't have to use solutions or projects in Visual Studio to edit, build, and debug code. You can simply open the folder that contains your source files in Visual Studio and start editing. For more information, see [Develop code in Visual Studio without projects or solutions](develop-code-in-visual-studio-without-projects-or-solutions.md).
@@ -63,7 +63,7 @@ Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solu
 
 ### Solution folder
 
-A "solution folder" is a virtual folder that's only in **Solution Explorer**, where you can use it to group projects in a solution. If you want to locate a solution file on a computer, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](reference/projects-solutions-locations-options.md).
+A *solution folder* is a virtual folder that exists only in Solution Explorer, where you can use it to group projects in a solution. If you want to locate a solution file on a computer, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](reference/projects-solutions-locations-options.md).
 
 > [!TIP]
 > To construct a project and solution as an exercise, see [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md).
@@ -80,7 +80,7 @@ Many menu commands are available from the [right-click context menu](use-solutio
 
 ::: moniker range=">=vs-2022"
 
-Starting with [version 17.7](/visualstudio/releases/2022/release-notes), you can also compare files in Solution Explorer by using the right-click context menu options. For more information, see [**The file comparison tool**](use-solution-explorer.md#the-file-comparison-tool) in [Learn about Solution Explorer](use-solution-explorer.md).
+Starting with [version 17.7](/visualstudio/releases/2022/release-notes), you can also compare files in Solution Explorer by using the right-click context menu options. For more information, see [The file comparison tool](use-solution-explorer.md#the-file-comparison-tool) in [Learn about Solution Explorer](use-solution-explorer.md).
 
 ::: moniker-end
 
