@@ -93,11 +93,11 @@ You can also create empty solutions that don't contain projects. This option mig
 
 1. On the menu bar, select **File** > **New** > **Project**.
 
-2. On the **Create a new project** page, enter **solution** in the search box.
+1. On the **Create a new project** page, enter **solution** in the search box.
 
-3. Select the **Blank Solution** template, and then select **Next**.
+1. Select the **Blank Solution** template, and then select **Next**.
 
-4. Enter **Solution name** and **Location** values for your solution, and then select **Create**.
+1. Enter **Solution name** and **Location** values for your solution, and then select **Create**.
 
 After you create an empty solution, you can add new or existing projects or items to it by selecting **Add New Item** or **Add Existing Item** on the **Project** menu.
 
