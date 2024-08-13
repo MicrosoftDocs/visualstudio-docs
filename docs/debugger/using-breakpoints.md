@@ -375,7 +375,7 @@ You can use labels to sort and filter the list of breakpoints in the **Breakpoin
 
 For complex debugging scenarios, you may want to create breakpoint groups to organize your breakpoints. This allows you to quickly enable and disable logical groupings of breakpoints, based upon the current scenario that you're trying to debug.
 
-You can create breakpoints in the **Breakpoints** window by selecting **New > Breakpoing Group**, and providing a name for the group. To add a breakpoint to a group, right-click the breakpoint and choose **Add to Breakpoint Group** > **<group name>**. Or, drag-and-drop your breakpoints into the desired group.
+You can create breakpoints in the **Breakpoints** window by selecting **New > Breakpoing Group**, and providing a name for the group. To add a breakpoint to a group, right-click the breakpoint and choose **Add to Breakpoint Group** > **\<group name\>**. Or, drag-and-drop your breakpoints into the desired group.
 
 ![Breakpoint groups](../debugger/media/vs-2022/breakpoints-window-breakpoint-groups.png)
 
