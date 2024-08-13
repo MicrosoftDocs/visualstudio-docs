@@ -377,7 +377,7 @@ For complex debugging scenarios, you may want to create breakpoint groups to org
 
 You can create breakpoints in the **Breakpoints** window by selecting **New > Breakpoint Group**, and providing a name for the group. To add a breakpoint to a group, right-click the breakpoint and choose **Add to Breakpoint Group** > **\<group name\>**. Or, drag-and-drop your breakpoints into the desired group.
 
-![Breakpoint groups](../debugger/media/vs-2022/breakpoints-window-breakpoint-groups.png)
+![Screenshot of breakpoint groups](../debugger/media/vs-2022/breakpoints-window-breakpoint-groups.png)
 
 To set a default breakpoint group, right-click a group and select **Set as default Breakpoint Group**. When you set a default breakpoint group, newly created breakpoints are automatically added to the group.
 
