@@ -1,7 +1,7 @@
 ---
 title: "Create projects & solutions"
 description: Create and use Visual Studio solutions and projects to store artifacts, including source code files, bitmaps, icons, and component and service references.
-ms.date: 08/08/2023
+ms.date: 08/13/2024
 ms.topic: how-to
 f1_keywords:
 - vs.openprojectfromweb
@@ -13,6 +13,7 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 ---
+
 # Create, work with, and delete Visual Studio projects and solutions
 
 In this article, you'll learn how to create and use Visual Studio projects from scratch to store the artifacts you need to build your apps.  If you aren't familiar with projects in Visual Studio, see this overview of [Projects and Solutions](solutions-and-projects-in-visual-studio.md).  To learn how to quickly create a project from a template, see [Create a new project in Visual Studio](create-new-project.md).
