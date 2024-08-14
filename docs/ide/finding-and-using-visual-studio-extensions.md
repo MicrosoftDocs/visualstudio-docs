@@ -14,16 +14,17 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 ---
+
 # Find, install, and manage extensions for Visual Studio
 
 ::: moniker range="vs-2022"
 
 [Extensions](../extensibility/index.yml) are code packages that run inside Visual Studio and provide new or improved features. Extensions can be controls, samples, templates, tools, or other components that add functionality to Visual Studio, for example, [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs-2022) or [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs).
 
-For information about creating Visual Studio extensions, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md). For information about using extensions, see the individual extension page on [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs). And for information about finding extensions, see the [Where Are My Favorite Extensions in Visual Studio 2022?](https://devblogs.microsoft.com/visualstudio/where-are-my-favorite-extensions-in-visual-studio-2022/) blog post.
+For information about creating Visual Studio extensions, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md). For information about using extensions, see the individual extension page on [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs). For information about finding extensions, see the [Where Are My Favorite Extensions in Visual Studio 2022?](https://devblogs.microsoft.com/visualstudio/where-are-my-favorite-extensions-in-visual-studio-2022/) blog post.
 
 > [!NOTE]
-> To learn more about a new extensibility model currently in preview, see the [Build Better Extensions with VisualStudio.Extensibility (Preview 3)](https://devblogs.microsoft.com/visualstudio/visualstudio-extensibility-preview-3/) blog post.
+> To learn more about a new extensibility model that's currently in preview, see the [Build Better Extensions with VisualStudio.Extensibility (Preview 3)](https://devblogs.microsoft.com/visualstudio/visualstudio-extensibility-preview-3/) blog post.
 
 ::: moniker-end
 
@@ -35,37 +36,37 @@ For information about creating Visual Studio extensions, see [Visual Studio SDK]
 
 ::: moniker-end
 
-## Use the Manage Extensions dialog box
+## Use the Extension Manager dialog
 
-In the Visual Studio IDE, the **Manage Extensions** dialog box is the tool you use to find, install, and manage Visual Studio extensions. To open the **Manage Extensions** dialog, choose **Extensions** > **Manage Extensions**. Or, type **Extensions** in the search box and select **Manage Extensions**.
+In the Visual Studio IDE, the **Extension Manager** dialog is the tool you use to find, install, and manage Visual Studio extensions. To open the **Extension Manager** dialog, select **Extensions** > **Manage Extensions**. Or, type **extensions** in the search box and select **Manage Extensions**.
 
-:::image type="content" source="media/finding-using-visual-studio-extensions/vs-2022/extensions-and-updates.png" alt-text="Screenshot of the Manage Extensions window in Visual Studio":::
+:::image type="content" source="media/finding-using-visual-studio-extensions/vs-2022/extensions-and-updates.png" alt-text="Screenshot of the Extension Manager dialog in Visual Studio":::
 
-The left pane categorizes extensions by those that are installed, those available on Visual Studio Marketplace (**Online**), and those that have updates available. **Roaming Extension Manager** keeps a list of all the Visual Studio extensions you've installed on any machine or instance of Visual Studio. It's designed to let you find your favorite extensions more easily.
+The left pane categorizes extensions by those that are available on Visual Studio Marketplace (**Browse**), those that are installed, and those that have updates available. The **Roaming** tab lists all the Visual Studio extensions that you have installed on any machine or instance of Visual Studio. It's designed to let you find your favorite extensions more easily.
 
 ## Find and install extensions
 
-You can install extensions from [Visual Studio Marketplace](https://marketplace.visualstudio.com) or the **Manage Extensions** dialog box in Visual Studio.
+You can install extensions from [Visual Studio Marketplace](https://marketplace.visualstudio.com) or from the **Extension Manager** dialog in Visual Studio.
 
-To install extensions from within Visual Studio:
+To install extensions from Visual Studio:
 
-1. From **Extensions** > **Manage Extensions**, find the extension you want to install. (If you know the name or part of the name of the extension, you can search in the **Search** window.)
+1. Select **Extensions** > **Manage Extensions**. Find the extension you want to install. (If you know the name or part of the name of the extension, you can search in the search box.)
 
-1. Select **Download**.
+1. Select **Install**.
 
-  After download completes, you'll see a notification at the bottom of the **Manage Extensions** dialog box : "The extension is scheduled for install. Your extension will be installed after all instances of Visual Studio have been closed."
+  After the download completes, you see a notification at the bottom of the **Extension Manager** dialog: "The extension is scheduled for install. Your extension will be installed after all instances of Visual Studio have been closed."
 
-  :::image type="content" source="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png" alt-text="Screenshot of notification on Manage Extensions dialog box." lightbox="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png":::
+  :::image type="content" source="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png" alt-text="Screenshot of a notification in the Extension Manager dialog." lightbox="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png":::
 
-If you try to install an extension that has dependencies, the installer verifies whether they're already installed. If they aren't installed, the **Manage Extensions** dialog box lists the dependencies that must be installed before you can install the extension.
+If you try to install an extension that has dependencies, the installer determines whether they're already installed. If they aren't installed, the **Extension Manager** dialog lists the dependencies that must be installed before you can install the extension.
 
-### Install without using the Manage Extensions dialog box
+### Install without using the Extension Manager dialog
 
-Extensions that have been packaged in *.vsix* files might be available in locations other than Visual Studio Marketplace. The **Extensions** > **Manage Extensions** dialog box can't detect these files, but you can install a *.vsix* file by double-clicking the file or selecting the file and pressing **Enter**. After that, just follow the instructions. When the extension is installed, you can use the **Manage Extensions** dialog box to enable it, disable it, or uninstall it.
+Extensions that have been packaged in *.vsix* files might be available in locations other than Visual Studio Marketplace. The **Extensions** > **Extension Manager** dialog box can't detect these files, but you can install a *.vsix* file by double-clicking the file or selecting the file and pressing **Enter**. After that, just follow the instructions. When the extension is installed, you can use the **Extension Manager** dialog box to enable it, disable it, or uninstall it.
 
 > [!NOTE]
-> - Visual Studio Marketplace contains both VSIX and MSI extensions. The **Manage Extensions** dialog box can't enable or disable MSI-based extensions.
-> - If an MSI-based extension includes an *extension.vsixmanifest* file, the extension appears in the **Manage Extensions** dialog box.
+> - Visual Studio Marketplace contains both VSIX and MSI extensions. The **Extension Manager** dialog box can't enable or disable MSI-based extensions.
+> - If an MSI-based extension includes an *extension.vsixmanifest* file, the extension appears in the **Extension Manager** dialog box.
 
 ## Uninstall or disable an extension
 
@@ -100,7 +101,7 @@ If you wish to disable automatic updates, you can disable the feature for all ex
 
 - To disable automatic updates for all extensions, choose the **Change your settings for Extensions** link in the **Extensions** > **Manage Extensions** dialog box. In the **Options** dialog, uncheck **Automatically update extensions**.
 
-- To disable automatic updates for a specific extension, uncheck the **Automatically update this extension** option in the extension's details pane on the right side of the **Manage Extensions** dialog.
+- To disable automatic updates for a specific extension, uncheck the **Automatically update this extension** option in the extension's details pane on the right side of the **Extension Manager** dialog.
 
 ### Crash and unresponsiveness notifications
 
