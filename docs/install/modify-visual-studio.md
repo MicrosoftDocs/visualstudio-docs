@@ -1,7 +1,7 @@
 ---
-title: Modify Visual Studio workloads, components, & language packs
+title: Modify Visual Studio workloads and components
 titleSuffix: ''
-description: Modify your Visual Studio installation with the Visual Studio Installer, add or remove workloads, components, and language packs.
+description: Modify your Visual Studio installation with the Visual Studio Installer. Add or remove workloads, components, and language packs.
 ms.date: 08/13/2024
 ms.topic: how-to
 ms.custom: vs-acquisition
@@ -15,6 +15,8 @@ ms.author: meghaanand
 manager: mijacobs
 
 ms.subservice: installation
+
+#customer intent: As a developer, I want to learn how to modify my Visual Studio installation so it meets my needs.
 ---
 
 # Modify Visual Studio workloads, components, and language packs
@@ -71,7 +73,7 @@ To modify your Visual Studio installation, you need to open the Visual Studio In
 
    - If you have Visual Studio open, select **Tools** > **Get Tools and Features**.
    
-     :::image type="content" source="media/vs-2022/vs-tools-menu.png" alt-text="Screenshot of the Visual Studio 2022 tools menu.":::
+     :::image type="content" source="media/vs-2022/vs-tools-menu.png" alt-text="Screenshot of the Visual Studio 2022 tools menu. Get Tools and Features is highlighted.":::
 
    You might be prompted to update the Visual Studio Installer before continuing. If you are, follow the prompts.
 
@@ -113,11 +115,11 @@ Workloads contain the components you need for the programming language or platfo
 
 1. In the Visual Studio Installer, on the **Workloads** tab, select the workloads that you want.
 
-     :::image type="content" source="media/vs-2022/vs-installer-modify-workloads.png" alt-text="Screenshot of the Workloads tab of the Visual Studio Installer":::
+     :::image type="content" source="media/vs-2022/vs-installer-modify-workloads.png" alt-text="Screenshot of the Workloads tab of the Visual Studio Installer." lightbox="media/vs-2022/vs-installer-modify-workloads.png":::
 
 1. To add more components than a workload installs, on the **Individual components** tab, select the individual components that you want.
 
-     :::image type="content" source="media/vs-2022/vs-installer-individual-components.png" alt-text="Screenshot of the Individual components tab of the Visual Studio Installer.":::
+     :::image type="content" source="media/vs-2022/vs-installer-individual-components.png" alt-text="Screenshot of the Individual components tab of the Visual Studio Installer." lightbox="media/vs-2022/vs-installer-individual-components.png":::
 
 1. Decide whether you want to **Install while downloading** or **Download all, then install**. The default option, **Install while downloading**, saves time by starting the installation earlier.
 
