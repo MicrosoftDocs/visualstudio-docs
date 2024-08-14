@@ -1,7 +1,7 @@
 ---
 title: Create build and debug tasks with JSON files
 description: Create build and debug tasks with JSON files to instruct Visual Studio how to process code that it doesn't recognize.
-ms.date: 08/12/2024
+ms.date: 08/13/2024
 ms.topic: how-to
 helpviewer_keywords:
 - NMAKE [Visual Studio]
