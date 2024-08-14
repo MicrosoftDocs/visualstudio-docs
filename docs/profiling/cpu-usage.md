@@ -1,7 +1,7 @@
 ---
 title: CPU profiling in the Performance Profiler
 description: Learn about the CPU profiler performance tool, which shows the CPU time and percentage spent executing code in C++, C#, Visual Basic, and JavaScript apps.
-ms.date: 07/25/2024
+ms.date: 08/14/2024
 ms.topic: how-to
 ms.custom: "profiling-seo"
 author: mikejo5000
@@ -12,7 +12,7 @@ ms.subservice: debug-diagnostics
 
 # Analyze performance by using CPU profiling in the Performance Profiler (C#, Visual Basic, C++, F#)
 
-A good way to start investigating performance issues in your app is to understand its CPU utilization using a CPU profiler. The **CPU Usage** performance tool shows the CPU time and percentage spent executing code in C++, C#/Visual Basic.
+A good way to start investigating performance issues in your app is to understand its CPU utilization using a CPU profiler. The **CPU Usage** performance tool shows the CPU active computation time and percentage spent executing code in C++, C#/Visual Basic.
 
 The CPU Usage tool can help you:
 
@@ -81,8 +81,8 @@ Usually, the local machine best replicates installed app execution. To collect d
 
 |Name|Description|
 |-|-|
-|**Total CPU [unit, %]**|![Total % data equation](../profiling/media/cpu_use_wt_totalpercentequation.png "CPU_USE_WT_TotalPercentEquation")<br /><br /> The milliseconds and CPU percentage used by calls to the function, and functions called by the function, in the selected time range. This is different from the **CPU Utilization** timeline graph, which compares the total CPU activity in a time range to the total available CPU.|
-|**Self CPU [unit, %]**|![Self % equation](../profiling/media/cpu_use_wt_selflpercentequation.png "CPU_USE_WT_SelflPercentEquation")<br /><br /> The milliseconds and CPU percentage used by calls to the function in the selected time range, excluding functions called by the function.|
+|**Total CPU [unit, %]**|![Total % data equation](../profiling/media/cpu_use_wt_totalpercentequation.png "CPU_USE_WT_TotalPercentEquation")<br /><br /> The milliseconds of CPU computation time and the CPU percentage used by calls to the function, and functions called by the function, in the selected time range. This is different from the **CPU Utilization** timeline graph, which compares the total CPU activity in a time range to the total available CPU.|
+|**Self CPU [unit, %]**|![Self % equation](../profiling/media/cpu_use_wt_selflpercentequation.png "CPU_USE_WT_SelflPercentEquation")<br /><br /> The milliseconds of CPU computation time and the CPU percentage used by calls to the function in the selected time range, excluding functions called by the function.|
 |**Module**|In some views, the Module column is shown, which shows the name of the module containing the function.|
 
 ::: moniker range=">=vs-2022"
@@ -123,7 +123,7 @@ This data can help you assess whether the function itself is a performance bottl
 For more information on using the Flame graph, see [Identify hot paths with Flame Graph](../profiling/flame-graph.md).
 ::: moniker-end
 
-### <a name="BKMK_The_CPU_Usage_call_tree"></a> The CPU Usage call tree
+### <a name="BKMK_The_CPU_Usage_call_tree"></a> CPU Usage call tree
 
 To view the call tree, select the parent node in the report. By default, the **CPU Usage** page opens to the **Caller/Callee** view. In the **Current View** dropdown, select **Call Tree**.
 
@@ -140,7 +140,7 @@ You can click the **Expand Hot Path** and **Show Hot Path** buttons to see the f
 
 |Image|Description|
 |-|-|
-|![Step 1](../profiling/media/procguid_1.png "ProcGuid_1")|The top-level node in CPU Usage call trees is a pseudo-node.|
+|![Step 1](../profiling/media/procguid_1.png "ProcGuid_1")|The top-level node in CPU Usage call tree, representing the application.|
 |![Step 2](../profiling/media/procguid_2.png "ProcGuid_2")|In most apps, when the **Show External Code** option is disabled, the second-level node is an **[External Code]** node. The node contains the system and framework code that starts and stops the app, draws the UI, controls thread scheduling, and provides other low-level services to the app.|
 |![Step 3](../profiling/media/procguid_3.png "ProcGuid_3")|The children of the second-level node are the user-code methods and asynchronous routines that are called or created by the second-level system and framework code.|
 |![Step 4](../profiling/media/procguid_4.png "ProcGuid_4")|Child nodes of a method have data only for the calls of the parent method. When **Show External Code** is disabled, app methods can also contain an **[External Code]** node.|
@@ -150,9 +150,9 @@ You can click the **Expand Hot Path** and **Show Hot Path** buttons to see the f
 ::: moniker range=">=vs-2022"
 System and framework functions that are executed by your code are called *external code*. External code functions start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you aren't interested in external code, so the CPU Usage call tree gathers the external functions of a user method into one **[External Call]** node.
 
-To view the call paths of external code, switch the current view to the **Call Tree** view or right-click and select **View in Call Tree**.
+To view the call paths of external code, on the main diagnostic report page (right pane), select **Show Just My Code** from the **Settings** dropdown, and then select **Apply**. The **Call Tree** view of the **CPU Usage** page then expands the external code calls. (The **Settings** dropdown is available on the main diagnostic page, not the detailed views.)
 
-![Screenshot that shows Show in Call Tree.](../profiling/media/vs-2022/cpu-use-wt-call-tree-view.png "Show Call Tree")
+![Screenshot that shows Settings, then Show Just My Code.](../profiling/media/vs-2022/diagnostics-tools-show-external-code.png)
 ::: moniker-end
 ::: moniker range="vs-2019"
 System and framework functions that are executed by your code are called *external code*. External code functions start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you aren't interested in external code, so the CPU Usage call tree gathers the external functions of a user method into one **[External Code]** node.
