@@ -1,7 +1,7 @@
 ---
 title: View and change variable values with data tips
 description: Use data tips while debugging code in the Visual Studio code editor to view and change variable values like arrays and structures.
-ms.date: 08/13/2024
+ms.date: 08/14/2024
 ms.topic: how-to
 dev_langs:
   - CSharp
