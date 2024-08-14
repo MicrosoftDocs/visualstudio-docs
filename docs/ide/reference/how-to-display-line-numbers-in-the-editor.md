@@ -1,6 +1,6 @@
 ---
 title: Display line numbers for code
-description: Toggle whether you see line numbering for your code in the Visual Studio Code Editor by using the toolbar and menu options.
+description: Turn line numbering for your code on and off in the Visual Studio code editor. Line numbers can be useful as a reference.
 ms.date: 08/14/2024
 ms.topic: how-to
 helpviewer_keywords:
