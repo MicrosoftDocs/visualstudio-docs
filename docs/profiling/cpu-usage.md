@@ -88,6 +88,8 @@ Usually, the local machine best replicates installed app execution. To collect d
 ::: moniker range=">=vs-2022"
 ## Analyze CPU insights
 
+If any insights show up in the **Top Insights** section, use the provided link to get more information about the issue identified. In addition, if you are using Copilot, the **Ask Copilot** button will open the Copilot chat window, and Copilot will provide suggestions based on your code and any identified issues.
+
 To analyze top insights, top functions, and the hot path, see [CPU insights](../profiling/cpu-insights.md).
 ::: moniker-end
 

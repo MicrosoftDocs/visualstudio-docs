@@ -54,7 +54,7 @@ The Instrumentation data view shows you a list of functions ordered by longest r
 
 Click on a function that you're interested in, and you see a more detailed view.
 
-The information available is similar to the CPU Usage tool, except that it's based on wall clock time and call counts instead of CPU utilization. This means blocked time such as time spent waiting for locks will show up in the instrumentation trace, unlike the CPU Usage tool. For detailed information on the views, see [Analyze performance by using CPU profiling](../profiling/cpu-usage.md).
+The information available is similar to the CPU Usage tool, except that it's based on wall clock time and call counts instead of CPU utilization. This means blocked time such as time spent waiting for locks will show up in the instrumentation trace, unlike the CPU Usage tool.
 
 ## Analyze insights
 
@@ -80,11 +80,21 @@ For more information on using the Flame graph, see [Identify hot paths with Flam
 
 ### Instrumentation call tree
 
-To view the call tree, select the parent node in the report. By default, the **Instrumenation** page opens to the **Caller/Callee** view. In the **Current View** dropdown, select **Call Tree**.
+To view the call tree, select the parent node in the report. By default, the **Instrumenation** page opens to the **Caller/Callee** view. In the **Current View** dropdown, select **Call Tree**. The call tree view can help you quickly identify performance bottlenecks.
 
-You can click the **Expand Hot Path** and **Show Hot Path** buttons to see the function calls that use the highest percentage of the CPU in the call tree view.
+You can click the **Expand Hot Path** and **Show Hot Path** buttons to see the function calls that use the most wall clock time in the call tree view.
 
 ![Screenshot that shows Call tree structure.](../profiling/media/vs-2022/instrumentation-with-call-tree.png)
+
+Here is more information on the column values:
+
+- **Total** indicates how much time was spent in the function and any functions called by it. High **Total** values point to the functions that are consuming the most clock time.
+
+- **Self** indicates how much time was spent in the function body, excluding the time spent in any functions that were called by it. High **Self** values may indicate a performance bottleneck within the function itself.
+
+- **Call Count** indicates the number of times a function is called.
+
+- **Modules** The name of the module containing the function.
 
 ## Related content
 
