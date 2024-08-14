@@ -19,7 +19,7 @@ ms.subservice: installation
 
 # Modify Visual Studio workloads, components, and language packs
 
-It's easy to modify Visual Studio so that it includes only what you want. To do so, open the Visual Studio Installer, and then add or remove workloads, components, and language packs.
+It's easy to modify Visual Studio so that it includes only what you want. To do so, open the Visual Studio Installer, and then add or remove workloads, components, and language packs. This article walks you through the process.
 
 ## Prerequisites
 
