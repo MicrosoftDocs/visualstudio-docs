@@ -1,8 +1,8 @@
 ---
 title: Find, install, & manage extension packages
 description: Learn about extensions in Visual Studio and how to manage them so you have the controls, samples, templates, tools, and other components you need.
-ms.date: 06/19/2023
-ms.topic: conceptual
+ms.date: 08/14/2024
+ms.topic: concept-article
 f1_keywords:
 - vs.ExtensionManager
 helpviewer_keywords:
