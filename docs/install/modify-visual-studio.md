@@ -16,43 +16,44 @@ manager: mijacobs
 
 ms.subservice: installation
 ---
+
 # Modify Visual Studio workloads, components, and language packs
 
-It's easy to modify Visual Studio so that it includes only what you want, when you want it. To do so, open the Visual Studio Installer, and then add or remove workloads, components, and language packs.
+It's easy to modify Visual Studio so that it includes only what you want. To do so, open the Visual Studio Installer, and then add or remove workloads, components, and language packs.
 
 ## Prerequisites
 
-- By default, in order to install, update, or modify Visual Studio, the account performing the update must have administrative permissions on the machine and also must have permissions to the source where the product updates are located (either the internet or an internal location). If you are logged in as a typical user and try to perform one of these commands, then you'll get a User Account Control notice prompting you for admin credentials. Starting in August 2023, an admin can delegate control of modifying Visual Studio to standard users by configuring the [`AllowStandardUserControl` policy](https://aka.ms/vs/setup/policies). For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
+- By default, to install, update, or modify Visual Studio, the account performing the update must have administrative permissions on the machine and must also have permissions to the source where the product updates are located (either the internet or an internal location). If you're logged in as a typical user and try to perform one of these commands, you'll get a User Account Control notice prompting you for admin credentials. Starting in August 2023, an admin can delegate control of modifying Visual Studio to standard users by configuring the [`AllowStandardUserControl` policy](configure-policies-for-enterprise-deployments#controlling-installation-download-and-update-behavior). For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
 
-- The following procedures assume you have an internet connection. For more about how to modify a previously created [offline installation](create-an-offline-installation-of-visual-studio.md) of Visual Studio, see:
+- The following procedures assume you have an internet connection. For information about how to modify a previously created [offline installation](create-an-offline-installation-of-visual-studio.md) of Visual Studio, see:
   - [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
   - [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 
-## Launch the installer to modify your installation
+## Open the installer to modify your installation
 
-To modify your Visual Studio installation, you first need to launch the Visual Studio Installer, and then select a Visual Studio installation to modify.
+To modify your Visual Studio installation, you need to open the Visual Studio Installer and then select a Visual Studio installation to modify.
 
 ::: moniker range="vs-2019"
 
-1. Find the **Visual Studio Installer** on your computer.
+1. Find the Visual Studio Installer on your computer.
 
-     In the Windows Start menu, you can search for "installer".
+     On the Windows Start menu, you can search for "installer."
 
-     ![Screenshot showing the result of a Start menu search for the Visual Studio Installer.](media/vs-2019/visual-studio-installer.png "Search for the Visual Studio Installer")
+     :::image type="content" source="media/vs-2019/visual-studio-installer.png" alt-text="Screenshot of the result of a Start menu search for the Visual Studio Installer.":::
 
      > [!NOTE]
      > You can also find the Visual Studio Installer in the following location:
      >
      > `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`
 
-    You might have to update the installer before continuing. If so, follow the prompts.
+    You might need to update the installer before continuing. If you do, follow the prompts.
 
-1. In the installer, look for the edition of Visual Studio that you installed, and then choose **Modify**.
+1. In the installer, look for the edition of Visual Studio that you installed and then select **Modify**.
 
-     ![Screenshot showing a list of Visual Studio installations in the Visual Studio Installer.](media/vs-2019/vs-installer-modify.png "Choose Visual Studio 2019 edition and then modify")
+     :::image type="content" source="media/vs-2019/vs-installer-modify.png" alt-text="Screenshot of a list of Visual Studio installations in the Visual Studio Installer.":::
 
      > [!IMPORTANT]
-     > If you have an update pending, the Modify button is in a different place. This way, you can modify Visual Studio without updating it, should you want to. Choose **More**, and then choose **Modify**.
+     > If you have an update pending, the **Modify** button is in a different place. This allows you to modify Visual Studio without updating it, if you want to. Select **More** and then select **Modify**.
      >
      > ![Screenshot showing the Modify button in the Visual Studio Installer, which is located in the More dropdown menu when an update is pending.](media/vs-2019/modify-update-visual-studio.png "Update or modify Visual Studio 2019")
 
