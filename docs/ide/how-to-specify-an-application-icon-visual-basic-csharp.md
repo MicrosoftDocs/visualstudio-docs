@@ -17,7 +17,7 @@ ms.subservice: general-ide
 
 # Specify an application icon (Visual Basic, C#)
 
-The `Icon` property for a project specifies the icon file (*.ico*) that's displayed for the compiled application in File Explorer and the Windows taskbar. This article describes how to specify an application icon. 
+The `Icon` property for a project specifies the icon file (*.ico*) that displays for the compiled application in File Explorer and the Windows taskbar. This article describes how to specify an application icon. 
 
 You can access the `Icon` property from the **Application** section of the Project Designer, which contains a list of icons that have been added to a project either as resources or as content files.
 
