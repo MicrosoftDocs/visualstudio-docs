@@ -47,7 +47,7 @@ In C++ code, you can also edit register values. For more information, see [Edit 
 1. While debugging or while paused at a breakpoint, select **Debug** > **Windows** > **Registers**, or press **Alt**+**5**.
 
    ::: moniker range=">=vs-2022"
-   ![Screenshot of Registers Window](../debugger/media/vs-2022/debug-registers-window.png)
+   ![Screenshot of Registers Window.](../debugger/media/vs-2022/debug-registers-window.png)
    ::: moniker-end
 
 ## Display and hide Register Groups (C#, C++, Visual Basic, F#)
