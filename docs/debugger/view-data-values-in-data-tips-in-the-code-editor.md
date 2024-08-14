@@ -50,7 +50,7 @@ Here's the process:
 1. As needed, change the value for a variable or add comments.
 
 > [!NOTE]
-> Visual Studio evaluates and displays the value for the variable in a data tip based on the context where the debugger is paused on execution. Evaluation isn't based on the current location of the cursor or data tip. If you hover over a variable in another function that has the same name as a variable in the current context, Visual Studio displays the value of the variable in the current context.
+> Visual Studio evaluates and displays the value for the variable in a data tip based on the context where the debugger is paused on execution. Evaluation isn't based on the current location of the cursor or data tip. If you hover over a variable in another function that has the same name as a variable in the current context, Visual Studio displays the value of the variable in the data tip for the current context.
 
 Visual Studio supports many actions for data tips and working with the variables and values, including:
 
@@ -133,7 +133,7 @@ To repin a floating data tip, follow these steps:
 
 1. Select and move the floating data tip, and position it on the code editor surface.
 
-1. In the floating data tip, select the pushpin to initiate the **Pin to source** action.
+1. In the floating data tip, use the pushpin to select **Pin to source**.
 
    The pushpin changes to the pinned position. The data tip is repinned to a specific location in the code editor, and a pushpin for the source appears in the gutter of the code editor.
 
@@ -173,7 +173,7 @@ To expand the view for an object in a data tip, follow these steps:
 
 1. To move up and down in the expanded view, use the mouse or keyboard Up and Down arrow keys.
 
-1. To pin an expanded member with the original pinned data tip, use the pushpin to apply the **Pin to source** action on the member. If you collapse the tree view, the pinned member element remains visible with the pinned data tip.
+1. To pin an expanded member with the original pinned data tip, use the pushpin on the member to select **Pin to source**. After you collapse the tree view, any pinned member elements remain visible with the pinned data tip.
 
 ### Edit variable values
 
@@ -189,41 +189,45 @@ Keep in mind that some variable values are read only. Visual Studio doesn't make
 
 ### Use comments in data tips
 
-The **Comments** region of a data tip is useful for keeping notes about variables as you debug your code. This region is a convenient place to track different values as during debugging. You can add comments in a pinned or floating data tip.
+The **Comments** region of a data tip is useful for keeping notes about variables as you debug your code. This region is a convenient place to track different values as they change during debugging. You can add comments in a pinned or floating data tip.
 
 To use **Comments** in a data tip, follow these steps:
 
-1. In the data tip, select the double Down arrow to select **Expand to see comment**. The double down arrow opens the **Comments** region of the data tip where you can add notes.
+1. In the data tip, use the double Down arrow to select **Expand to see comment**. The double down arrow opens the **Comments** region of the data tip where you can add notes.
 
 1. To add a comment, insert your cursor in the **Comments** region and enter text. The region accepts multiple lines.
 
    :::image type="content" source="../debugger/media/dbg-data-tips-comments.png" border="false" alt-text="Screenshot that shows how to enter comments in a data tip." lightbox="../debugger/media/dbg-data-tips-comments.png":::
 
-1. To close the **Comments** region, select the double Up arrow to **Collapse comments**. Any comments you enter remain with the data tip, but they're not currently visible.
+1. To close the **Comments** region, use the double Up arrow to **Collapse comments**. Any comments you enter remain with the data tip, but they're not currently visible.
 
 ::: moniker range=">= vs-2019"
 
 ## Pin properties in data tips
 
-Visual Studio supports pinning properties in data tips in .NET Core 3.0 and later. This feature lets you quickly inspect objects by their properties in data tips.
+Visual Studio supports pinning properties in pinned data tips in .NET Core 3.0 and later. This feature lets you quickly inspect objects by their properties in data tips.
 
 To pin properties in data tips, follow these steps:
 
-1. In the data tip, hover over a property and select the pushpin. You can also right-click the property and select **Pin Member as Favorite**.
+1. In a pinned data tip, expand the hierarchy of members until you see a property that you want to keep visible with the data tip.
 
-   Visual Studio moves the selected property to the top of the object's property list. The property name and value display in the right column of the data tip.
+1. Use the pushpin for the property to pin it with the data tip. You can also right-click the property and select **Pin Member As Favorite**.
 
-   The following animation shows how to pin a property in a data tip:
+   Visual Studio moves the selected property to the top of the object's property list. The property name and value display in the right column of the pinned data tip:
 
-   ![Animation that shows how to pin properties in a data tip.](../debugger/media/basic-pin-datatip.gif "Pinnable properties")
+   :::image type="content" source="../debugger/media/dbg-data-tips-pin-property.png" border="false" alt-text="Screenshot that shows how to pin properties in a data tip.":::
 
-1. To unpin a property in a data tip, select the pushpin again, or right-click the property and select **Unpin Member as Favorite**.
+1. To unpin a property in a data tip, select the pushpin for the property again, or right-click the property and select **Unpin Member As Favorite**.
 
 You can also toggle visibility of property names and filter out unpinned properties in the object's property list in a data tip:
 
-- To filter out unpinned properties, right-click the property row in the data tip, and select **Show only pinned members**.
+- To filter out unpinned properties, right-click the property row in the data tip, and select **Show Only Pinned Members**.
 
-- To toggle visibility of property names, right-click the property row in the data tip, and select **Hide pinned member names in values**.
+- To toggle visibility of property names, right-click the property row in the data tip, and select **Hide Pinned Member Names in Values**.
+
+The following image shows the various options on the right-click menu for the member hierarchy in a data tip:
+
+:::image type="content" source="../debugger/media/dbg-data-tips-member-right-click-menu.png" border="false" alt-text="Screenshot of the right-click menu for members in a data tip, which includes the 'Unpin Member As Favorite' and 'Show Only Pinned Members' options.":::
 
 ::: moniker-end
 
@@ -231,11 +235,11 @@ You can also toggle visibility of property names and filter out unpinned propert
 
 Visualizers display information in a more meaningful, and sometimes graphical, manner. Examples of visualizers include XML, HTML, JSON, and the [Text Visualizer](../debugger/string-visualizer-dialog-box.md). You can use visualizations to examine complex data types in your code during debugging.
 
-If visualizers are available for an element, Visual Studio displays the **View** magnifying glass next to the element name in the data tip. ![Visualizer icon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon") When you select a visualization, Visual Studio opens a separate window to display the complex data in a readable format.
+If visualizers are available for an element, Visual Studio displays the **View** magnifying glass next to the element name in the data tip. When you select a visualization, Visual Studio opens a separate window to display the complex data in a readable format.
 
 You can use this feature to select a visualization for your data:
 
-- To view the element by using the default visualizer for the data type, select the magnifying glass.
+- To view the element by using the default visualizer for the data type, select the magnifying glass. ![Visualizer icon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon")
 
 - To select a specific visualizer, expand the **View** dropdown list next to the magnifying glass and choose an option.
 
@@ -249,7 +253,7 @@ Visual Studio adds the variable in the **Watch** window. If your Visual Studio e
 
 ## Import and export data tips
 
-You can export data tips to an XML file, which you can share or edit by using a text editor. You can also import a data tip XML file that you received or edited.
+You can export data tips to an XML file, which you can share or edit by using a text editor. You can also import a data tips from an XML file you received or previously edited.
 
 To export data tips, follow these steps:
 
@@ -263,7 +267,7 @@ Visual Studio exports your data tips to the specified file and location.
 
 To import data tips from a file, follow these steps:
 
-1. In Visual Studio, select **Debug** > **Import DataTips**. The **Import data tips** dialog opens.
+1. In Visual Studio, select **Debug** > **Import DataTips**. The **Import DataTips** dialog opens.
 
 1. In the dialog, browse to the location of the data tips XML file to use for the import.
 
