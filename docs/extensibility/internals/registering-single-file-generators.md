@@ -15,7 +15,7 @@ ms.subservice: extensibility-integration
 
 To make a custom tool available in Visual Studio, you must register it so Visual Studio can instantiate it and associates it with a particular project type.
 
-The registry for Visual Studio is in a private hive, *privateregistry.bin*. Open *regedit.exe* and follow these instructions to load the private registry hive for the desired installation of Visual Studio: [Editing the registry for a Visual Studio instance](../../install/tools-for-managing-visual-studio-instances.md?view=vs-2022#editing-the-registry-for-a-visual-studio-instance).
+The registry for Visual Studio is in a private hive, *privateregistry.bin*. Open *regedit.exe* and follow these instructions to load the private registry hive for the desired installation of Visual Studio: [Editing the registry for a Visual Studio instance](../../install/tools-for-managing-visual-studio-instances.md#editing-the-registry-for-a-visual-studio-instance).
 
 ### To register a custom tool
 
