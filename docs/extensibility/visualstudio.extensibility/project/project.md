@@ -1,6 +1,6 @@
 ---
-title: Project query reference
-description: An overview of the project query API
+title: Project query reference (VisualStudio.Extensibility)
+description: An overview of VisualStudio.Extensibility's project query API
 author: Jxwoon
 ms.author: jasminewoon
 monikerRange: ">=vs-2022"
