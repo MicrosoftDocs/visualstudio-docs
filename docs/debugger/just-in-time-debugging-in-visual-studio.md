@@ -18,9 +18,9 @@ ms.subservice: debug-diagnostics
 
 The Just-In-Time (JIT) Debugger dialog in Visual Studio might open when errors occur in a running application. The dialog can prevent the application from continuing execution.
 
-The JIT Debugger gives you the option to launch Visual Studio to debug the error. To follow through with this action, you must have Visual Studio or another selected debugger installed to view detailed information about the error, and try to debug the issue.
+The JIT Debugger gives you the option to launch Visual Studio to debug the error. To follow through with this action, you must have Visual Studio or another selected debugger installed. The debugger provides detailed information about the error and features to help you resolve the issue.
 
-This article explains how to disable the JIT Debugger dialog so application execution can continue without interruption.
+This article explains how you can prevent the JIT Debugger dialog from interrupting application execution.
 
 ## Disable or respond to JIT Debugger
 
@@ -31,9 +31,9 @@ The following table summarizes your options:
 | Configuration | Scenario | Instructions |
 | --- | --- | --- |
 | Visual Studio installed | Try JIT Debugger | [Debug the error by using the Just-In-Time Debugger](../debugger/debug-using-the-just-in-time-debugger.md) |
-| Visual Studio installed | Disable JIT Debugger | [Disable Just-In-Time debugging from Visual Studio](debug-using-the-just-in-time-debugger.md#BKMK_Enabling) |
-| Visual Studio previously installed, but not currently | Disable JIT Debugger  | [Disable Just-In-Time debugging from the Windows registry](debug-using-the-just-in-time-debugger.md#disable-just-in-time-debugging-from-the-windows-registry) |
-| Visual Studio never installed | Disable JIT Debugger | Prevent JIT debugging by [disabling script debugging](#disable-script-debugging-for-web-app) or [disabling server-side debugging](#disable-server-side-debugging-for-web-app) |
+| Visual Studio installed | Disable JIT Debugger | [Disable JIT debugging from Visual Studio](debug-using-the-just-in-time-debugger.md#BKMK_Enabling) |
+| Visual Studio previously installed, but not currently | Disable JIT Debugger  | [Disable JIT debugging from the Windows registry](debug-using-the-just-in-time-debugger.md#disable-just-in-time-debugging-from-the-windows-registry) |
+| Visual Studio never installed | Prevent JIT debugging | Prevent JIT debugging by [disabling script debugging](#disable-script-debugging-for-web-app) or [disabling server-side debugging](#disable-server-side-debugging-for-web-app) |
 
 ## Disable script debugging or server-side debugging
 
@@ -47,14 +47,14 @@ Follow these steps to disable script debugging for a Web app:
 
 1. In the **Internet Properties** dialog, go to the **Advanced** tab.
 
-1. Scroll to the **Browsing** group, and deselect the **Disable script debugging** option.
+1. Scroll to the **Browsing** group, and select the **Disable script debugging** option.
 
    > [!NOTE]
    > Depending on your version of Windows and your browser, you might need to select more than one option.
    
    The following example shows two relevant options selected:
 
-   :::image type="content" source="../debugger/media/jit-internet-options.png" border="false" alt-text="Screenshot that shows how to select 'Disable script debugging' options in the Internet Properties section of the Windows Control Panel." lightbox="../debugger/media/jit-internet-options.png":::
+   :::image type="content" source="../debugger/media/jit-internet-options.png" border="false" alt-text="Screenshot that shows how to select 'Disable script debugging' options for Internet Properties in Windows Control Panel.":::
 
 ### Disable server-side debugging for Web app
 
