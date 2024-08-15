@@ -59,7 +59,7 @@ Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solu
 |.suo|Solution User Options|Stores user-level settings and customizations, such as breakpoints.|
 
 > [!IMPORTANT]
-> A solution is described by a text file (extension *.sln*) that has its own unique format; it's not intended to be edited by hand. Conversely, the *.suo* file is a hidden file that isn't displayed under the default File Explorer settings. To show hidden files, on the **View** menu in File Explorer, under **Show**, select **Hidden items**.
+> A solution is described by a text file (extension *.sln*) that has its own unique format; it's not intended to be edited by hand. Conversely, the *.suo* file is a hidden file that isn't displayed under the default File Explorer settings. To show hidden files, on the **View** menu in File Explorer, select **Show** > **Hidden items**.
 
 ### Solution folder
 
