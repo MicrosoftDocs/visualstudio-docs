@@ -62,7 +62,7 @@ private static Setting.Boolean MySetting { get; } = new("mySetting", "My Setting
 
 ## Read a setting
 
-You can access a setting's value from anywhere in your extension. For example, the code below reads the setting defined above from a command's handler.
+You can access a setting's value from anywhere in your extension. While it's preferable to continuously monitor setting values, situations may arise where your extension needs the current value for a point-in-time operation. The code below demonstrates how to read the setting defined above from a command's handler.
 
 ```cs
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
@@ -95,7 +95,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 ## Monitor a setting
 
-Since the end user may change the value of a setting at any time, it is often better to continuously monitor the value instead of reading it:
+You can also monitor a setting's value from anywhere in your extension code. As the end user may change the value of a setting at any time, it's best practice to continuously monitor the value instead of reading it:
 
 ```cs
 IDisposable disposeToEndSubscription =
