@@ -1,6 +1,6 @@
 ---
-title: Project query reference
-description: An overview of the project query API
+title: Project query reference (Visual Studio SDK)
+description: An overview of Visual Studio SDK's project query API
 author: Jxwoon
 ms.author: jasminewoon
 monikerRange: ">=vs-2022"
@@ -759,6 +759,6 @@ var projects = workSpace.Projects
 
 ## Next steps
 
-To review keywords and concepts regarding Project Query API, see the [Project Query Concepts](./project-concepts.md).
+To review keywords and concepts regarding the Project Query API, see [Project Query Concepts](visualstudio.extensibility/project/project-concepts.md).
 
 Review the code for an extension that uses the Project Query API at [VSProjectQueryAPISample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/VSProjectQueryAPISample/README.md).
