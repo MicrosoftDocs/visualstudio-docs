@@ -33,9 +33,9 @@ You can enable both managed and native debuggers in the calling app project's **
 If you don't have access to a calling app's project, you can debug the DLL from the DLL project. You don't need mixed mode to debug. You need only the DLL project. For more information, see [How to debug from a DLL project](../debugger/how-to-debug-from-a-dll-project.md).
 
 > [!NOTE]
-> The available dialogs and commands might differ from the procedures described in this article, depending on your Visual Studio settings or edition. To change your settings, select **Tools** > **Import and Export Settings**. For more information, see [Reset all settings](../ide/personalizing-the-visual-studio-ide.md#reset-all-settings).
+> The dialogs and commands described in this article might differ from your experience, depending on your Visual Studio settings or edition. To change your settings, select **Tools** > **Import and Export Settings**. For more information, see [Reset all settings](../ide/personalizing-the-visual-studio-ide.md#reset-all-settings).
 
-## Configure debugging for native calling app (C++)
+## Enable mixed-mode for native app (C++)
 
 To enable mixed-mode debugging for a native calling app, follow these steps:
 
@@ -47,15 +47,15 @@ To enable mixed-mode debugging for a native calling app, follow these steps:
 
    :::image type="content" source="../debugger/media/dbg-mixed-mode-from-native.png" border="false" alt-text="Screenshot that shows how to enable mixed mode debugging for a C++ project in Visual Studio.":::
 
-1. Select **OK**.
+1. To apply the property change, select **OK**.
 
-## Configure debugging for managed calling app (C# or Visual Basic)
+## Enable mixed-mode for managed app (C# or Visual Basic)
 
 To enable mixed-mode debugging for a managed calling app, follow these steps:
 
 1. In Visual Studio **Solution Explorer**, right-click the C# or Visual Basic project and select **Properties**, or use the Alt + Enter keyboard shortcut. The **Properties** pane opens.
 
-1. In the **Properties** pane, enable mixed-mode debugging by setting the following properties:
+1. In the **Properties** pane, enable mixed-mode debugging by setting the following property:
 
    ::: moniker range=">=vs-2022"
    
