@@ -64,7 +64,7 @@ If you try to install an extension that has dependencies, the installer determin
 
 ### Install without using Extension Manager
 
-Extensions that are packaged in *.vsix* files might be available in locations other than Visual Studio Marketplace. The **Extensions** > **Extension Manager** dialog can't detect these files, but you can install a *.vsix* file by double-clicking the file or selecting the file and selecting **Enter**. After that, just follow the instructions. When the extension is installed, you can use Extension Manager to enable it, disable it, or uninstall it.
+Extensions that are packaged in *.vsix* files might be available in locations other than Visual Studio Marketplace. The **Extensions** > **Extension Manager** dialog can't detect these files, but you can install a *.vsix* file by double-clicking the file or selecting the file and then selecting **Enter**. After that, just follow the instructions. When the extension is installed, you can use Extension Manager to enable it, disable it, or uninstall it.
 
 > [!NOTE]
 > - Visual Studio Marketplace contains both .vsix-based and .msi-based extensions. Extension Manager can't enable or disable .msi-based extensions.
