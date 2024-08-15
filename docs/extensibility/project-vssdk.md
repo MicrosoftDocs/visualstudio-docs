@@ -673,7 +673,7 @@ var solutions = await workSpace.Solutions
   .SubscribeAsync(new SubscribeObserver(), CancellationToken.None);
 ```
 
-The `SubscribeObserver` is a component that implements [IObserver](/dotnet/api/system.iobserver) interface and receives change notifications. For the example above, it would implement `IObserver<IQueryResults<ISolutionSnapshot>>`.
+The `SubscribeObserver` is a component that implements [IObserver](/dotnet/api/system.iobserver-1) interface and receives change notifications. For the example above, it would implement `IObserver<IQueryResults<ISolutionSnapshot>>`.
 
 ```csharp
 private class SubscribeObserver : IObserver<IQueryResults<ISolutionSnapshot>>
@@ -717,7 +717,7 @@ var unsubscriber = await singleProject
     .TrackUpdatesAsync(new TrackerObserver(), CancellationToken.None);
 ```
 
-The `TrackerObserver` is a component that implements [IObserver](/dotnet/api/system.iobserver) interface and receives change notifications. For the example above, it would implement `IObserver<IQueryTrackUpdates<IFileSnapshot>>`.
+The `TrackerObserver` is a component that implements [IObserver](/dotnet/api/system.iobserver-1) interface and receives change notifications. For the example above, it would implement `IObserver<IQueryTrackUpdates<IFileSnapshot>>`.
 
 ```csharp
 private class TrackerObserver : IObserver<IQueryTrackUpdates<IFileSnapshot>>
