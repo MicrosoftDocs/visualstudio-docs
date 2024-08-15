@@ -32,7 +32,17 @@ When you create an app or website in Visual Studio, you start with a *project*. 
 
 Visual Studio uses [MSBuild](../msbuild/msbuild.md) to build each project in a solution, and each project contains an MSBuild project file. The file extension reflects the type of project, for example, a C# project (.csproj), a Visual Basic project (.vbproj), or a database project (.dbproj). The project file is an XML document that contains all the information and instructions that MSBuild needs to build your project. Such information and instructions include the content, platform requirements, versioning information, web server or database server settings, and the tasks to perform.
 
+::: moniker range=">=vs-2022"
+
 Project files are based on the [MSBuild XML schema](../msbuild/msbuild-project-file-schema-reference.md). To look at the contents of newer, [SDK-style project files](../msbuild/how-to-use-project-sdk.md) in Visual Studio, right-click the [project node](use-solution-explorer.md#solution-explorer-ui) in **Solution Explorer** and select **Edit Project File**. To look at the contents of .NET projects, first unload the project (right-click the project node in **Solution Explorer** and select **Unload Project**). Then, right-click the project and select **Edit Project File**.
+
+::: moniker-end
+
+::: moniker range="=vs-2019"
+
+Project files are based on the [MSBuild XML schema](../msbuild/msbuild-project-file-schema-reference.md). To look at the contents of newer, [SDK-style project files](../msbuild/how-to-use-project-sdk.md) in Visual Studio, right-click the [project node](use-solution-explorer.md#solution-explorer-ui) in **Solution Explorer** and select **Edit \<projectname\>**. To look at the contents of .NET projects, first unload the project (right-click the project node in **Solution Explorer** and select **Unload Project**). Then, right-click the project and choose **Edit \<projectname\>**.
+
+::: moniker-end
 
 > [!NOTE]
 > You don't have to use solutions or projects in Visual Studio to edit, build, and debug code. You can simply open the folder that contains your source files in Visual Studio and start editing. For more information, see [Develop code in Visual Studio without projects or solutions](develop-code-in-visual-studio-without-projects-or-solutions.md).
@@ -58,8 +68,19 @@ Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solu
 |.sln|Visual Studio Solution|Organizes projects, project items, and solution items in the solution.|
 |.suo|Solution User Options|Stores user-level settings and customizations, such as breakpoints.|
 
+::: moniker range=">=vs-2022"
+
 > [!IMPORTANT]
 > A solution is described by a text file (extension *.sln*) that has its own unique format; it's not intended to be edited by hand. Conversely, the *.suo* file is a hidden file that isn't displayed under the default File Explorer settings. To show hidden files, on the **View** menu in File Explorer, select **Show** > **Hidden items**.
+
+::: moniker-end
+
+::: moniker range="=vs-2019"
+
+> [!IMPORTANT]
+> A solution is described by a text file (extension *.sln*) with its own unique format; it's not intended to be edited by hand. Conversely, the *.suo* file is a hidden file that is not displayed under the default File Explorer settings. To show hidden files, on the **View** menu in File Explorer, select the **Hidden Items** checkbox.
+
+::: moniker-end
 
 ### Solution folder
 
