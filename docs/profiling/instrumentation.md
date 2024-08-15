@@ -15,7 +15,7 @@ monikerRange: '>= vs-2022'
 With the release of Visual Studio 2022 version 17.5, you can use the new dynamic Instrumentation tool. This tool shows the exact number of times your functions are called and is faster than the previous version of the Instrumentation tool. This tool supports .NET Core instrumentation without needing PDBs.
 Starting in Visual Studio 2022 version 17.6 Preview 2, the tool also supports C/C++.
 
-The tool is similar to the CPU Usage tool except it's based on wall clock time instead of CPU utilization. For additional information on learning to use the Instrumentation tool effectively, see [Instrumentation Overview](../profiling/instrumentation-overview.md) and [Improving Visual Studio performance with the new Instrumentation Tool](https://devblogs.microsoft.com/visualstudio/improving-visual-studio-performance-with-the-new-instrumentation-tool/).
+The tool is similar to the CPU Usage tool except it's based on wall clock time instead of CPU utilization. This means blocked time such as time spent waiting for locks will show up in the instrumentation trace, unlike the CPU Usage tool. For additional information on learning to use the Instrumentation tool effectively, see [Instrumentation Overview](../profiling/instrumentation-overview.md) and [Improving Visual Studio performance with the new Instrumentation Tool](https://devblogs.microsoft.com/visualstudio/improving-visual-studio-performance-with-the-new-instrumentation-tool/).
 
 ## Instrument your application
 
@@ -50,15 +50,17 @@ Your profiling data appears in Visual Studio.
 
 ![Screenshot showing .NET Instrumentation data.](./media/vs-2022/instrumentation-data.png "Instrumentation data")
 
-The Instrumentation data view shows you a list of functions ordered by longest running, with the longest running function at the top under **Top Functions**. The **Hot Path** section shows you the call stack for the functions that are using the most time. These lists can help guide you to functions where performance bottlenecks are happening. For more information, see [CPU insights](../profiling/cpu-insights.md), but be aware that information is specific to wall clock time and not CPU utilization. 
+The Instrumentation data view shows you a list of functions ordered by longest running, with the longest running function at the top under **Top Functions**. The **Hot Path** section shows you the call stack for the functions that are using the most time. These lists can help guide you to functions where performance bottlenecks are happening. 
 
 Click on a function that you're interested in, and you see a more detailed view.
 
-The information available is similar to the CPU Usage tool, except that it's based on wall clock time and call counts instead of CPU utilization. This means blocked time such as time spent waiting for locks will show up in the instrumentation trace, unlike the CPU Usage tool.
+The available data is similar to the CPU Usage tool, except that it's based on wall clock time and call counts instead of CPU utilization. 
 
 ## Analyze insights
 
-If any insights show up in the **Top Insights** section, use the provided link to get more information about the issue identified. In addition, if you are using Copilot, the **Ask Copilot** button will open the Copilot chat window, and Copilot will provide suggestions based on your code and any identified issues.
+If any insights show up in the **Top Insights** section, use the provided link to get more information about the issue identified. For more information, see [CPU insights](../profiling/cpu-insights.md), but be aware that information for the Instrumentation tool is specific to wall clock time and not CPU utilization. 
+
+In addition, if you are using Copilot, use the **Ask Copilot** button to open the Copilot chat window, and Copilot will provide suggestions based on an examination of your code and any identified issues.
 
 ## Analyze instrumentation detailed reports
 
@@ -94,7 +96,7 @@ Here is more information on the column values:
 
 - **Call Count** indicates the number of times a function is called.
 
-- **Modules** The name of the module containing the function.
+- **Module** The name of the module containing the function.
 
 ## Related content
 
