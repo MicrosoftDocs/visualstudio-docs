@@ -22,7 +22,7 @@ ms.subservice: debug-diagnostics
 
 # View and change variable values with DataTips in the code editor
 
-This article explores how to work with the **DataTips** feature in Visual Studio. Data tips provide a convenient way to view information about variables in your program while you debug your code. When you set breakpoints in your code and start debugging, data tips are visible for variables as they enter the current scope of execution. You can use the data tip to change the value for a variable in scope, and rerun the code over the breakpoint to see the effect of the change.
+This article explores how to work with the DataTips feature in Visual Studio. Data tips provide a convenient way to view information about variables in your program while you debug your code. When you set breakpoints in your code and start debugging, data tips are visible for variables as they enter the current scope of execution. You can use the data tip to change the value for a variable in scope, and rerun the code over the breakpoint to see the effect of the change.
 
 :::image type="content" source="../debugger/media/data-tips-examples.png" border="false" alt-text="Screenshot of a debugging session in Visual Studio with examples of data tips for variables in scope." lightbox="../debugger/media/data-tips-examples.png":::
 
@@ -153,7 +153,7 @@ The following table summarizes how you can manually close data tips:
 
 ## Work with variables and values in data tips
 
-When you work with **DataTips** in Visual Studio, you gain the ability to see details about variables and objects, and edit values during debugging. These capabilities are useful for quick troubleshooting and testing changes to your code.
+When you work with DataTips in Visual Studio, you gain the ability to see details about variables and objects, and edit values during debugging. These capabilities are useful for quick troubleshooting and testing changes to your code.
 
 ### Expand objects in data tips to view members
 
@@ -177,7 +177,7 @@ To expand the view for an object in a data tip, follow these steps:
 
 ### Edit variable values
 
-Another advantage of working with **DataTips** is the ability to edit the value of a variable or element in a data tip during debugging. This functionality is useful for quick testing of small changes to your code.
+Another advantage of working with DataTips is the ability to edit the value of a variable or element in a data tip during debugging. This functionality is useful for quick testing of small changes to your code.
 
 To edit the value of a variable or element in a data tip, follow these steps:
 
