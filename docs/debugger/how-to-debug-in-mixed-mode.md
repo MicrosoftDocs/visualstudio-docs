@@ -37,7 +37,7 @@ If you don't have access to a calling app's project, you can debug the DLL from 
 
 ## Enable mixed-mode for native app (C++)
 
-To enable mixed-mode debugging for a native calling app, follow these steps:
+To enable mixed-mode debugging for a native calling app in C++, follow these steps:
 
 1. In Visual Studio **Solution Explorer**, right-click the C++ project and select **Properties**, or use the Alt + Enter keyboard shortcut. The **\<Project> Property Pages** dialog opens.
 
@@ -51,7 +51,7 @@ To enable mixed-mode debugging for a native calling app, follow these steps:
 
 ## Enable mixed-mode for managed app (C# or Visual Basic)
 
-To enable mixed-mode debugging for a managed calling app, follow these steps:
+To enable mixed-mode debugging for a managed calling app in C# or Visual Basic, follow these steps:
 
 1. In Visual Studio **Solution Explorer**, right-click the C# or Visual Basic project and select **Properties**, or use the Alt + Enter keyboard shortcut. The **Properties** pane opens.
 
