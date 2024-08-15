@@ -150,6 +150,5 @@ You can use the **Extensions** > **Manage Extensions** dialog box to perform the
 ## Related content
 
 - [Visual Studio SDK](/visualstudio/extensibility/visual-studio-sdk)
-- [Visual Studio Extensibility](../extensibility/index.yml) page.
+- [Visual Studio Extensibility](../extensibility/index.yml)
 - [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs)
-- [Support for the Visual Studio SDK](../extensibility/support-for-the-visual-studio-sdk.md)
