@@ -82,7 +82,7 @@ For more information on using the Flame graph, see [Identify hot paths with Flam
 
 ### Instrumentation call tree
 
-To view the call tree, select the parent node in the report. By default, the **Instrumenation** page opens to the **Caller/Callee** view. In the **Current View** dropdown, select **Call Tree**. The call tree view can help you quickly identify performance bottlenecks.
+To view the call tree, select the parent node in the report. By default, the **Instrumentation** page opens to the **Caller/Callee** view. In the **Current View** dropdown, select **Call Tree**. The call tree view can help you quickly identify performance bottlenecks.
 
 You can click the **Expand Hot Path** and **Show Hot Path** buttons to see the function calls that use the most wall clock time in the call tree view.
 
