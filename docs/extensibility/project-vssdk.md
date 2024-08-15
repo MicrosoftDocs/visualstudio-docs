@@ -9,7 +9,7 @@ ms.topic: overview
 ms.date: 05/01/2024
 ---
 
-# Query the project API
+# Query the project API (Visual Studio SDK)
 
 > [!IMPORTANT]
 > This documentation refers to Project Query API functionality for the **Visual Studio SDK**. For VisualStudio.Extensibility API documentation, see [Query the project API](visualstudio.extensibility/project/project.md) for VisualStudio.Extensibility.
