@@ -148,6 +148,6 @@ These queries support the monitoring of updates made to query results.
 
 ## Related content
 
-To see some examples of project queries for common tasks, see the [Project Query Overview](./project.md)
+To see some examples of project queries for common tasks, see [Project Query Overview (VisualStudio.Extensibility)](./project.md) or [Project Query Overview (Visual Studio SDK)](../../project-vssdk.md)
 
 For a sample extension that uses the project query API, see [Project Query Sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/VSProjectQueryAPISample/README.md)
