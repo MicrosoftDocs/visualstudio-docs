@@ -19,7 +19,7 @@ This article expands on the foundational concepts covered in the introductory [R
 
 ## Context menus
 
-You can add a context menu to a Remote UI control from XAML by assigning the `FrameworkElement`'s [ContextMenu](/dotnet/api/system.windows.frameworkelement.contextmenu) property. This process mirrors the way you'd add a context menu in standard WPF.
+You can add a context menu to a Remote UI control from XAML (Extensible Application Markup Language) by assigning the `FrameworkElement`'s [ContextMenu](/dotnet/api/system.windows.frameworkelement.contextmenu) property. This process mirrors the way you'd add a context menu in standard WPF (Windows Presentation Foundation).
 
 ```xml
 <TextBox Text="Some text">
@@ -36,7 +36,7 @@ You can add a context menu to a Remote UI control from XAML by assigning the `Fr
 </TextBox>
 ```
 
-In the sample above, the `vs:Image` control is used to add an image to the context menu item's header (more details in the [images section below](#images)). Ensure you reference the `vs` and `styles` namespaces in the XAML file:
+In the previous sample, the `vs:Image` control is used to add an image to the context menu item's header (more details in the [images section that follows](#images)). Ensure you reference the `vs` and `styles` namespaces in the XAML file:
 
 ```xml
 <DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -46,7 +46,7 @@ In the sample above, the `vs:Image` control is used to add an image to the conte
               xmlns:colors="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Shell.15.0">
 ```
 
-The command for each menu item is bound to an `AsyncCommand` (refer to the [Remote UI tutorial](remote-ui.md) for additional information):
+The command for each menu item is bound to an `AsyncCommand` (for more information, see the [Remote UI tutorial](remote-ui.md)):
 
 ```cs
 [DataContract]
@@ -70,8 +70,7 @@ internal class MyToolWindowData : NotifyPropertyChangedObject
 
 You can use Remote UI XAML to show either custom images or images from the Visual Studio image catalog.
 
-The following sample demonstrates how you can show the `ClearWindowContent` image provided by the Visual Studio image catalog. It also details the addition of a custom image to the extension project (a file named `Images\MyCustomImage.16.16.png`).
-Refer to the [Commands article](../command/command.md#add-an-icon-to-a-command) for more information on how to add an image to an extension.
+The following sample demonstrates how you can show the `ClearWindowContent` image provided by the Visual Studio image catalog. It also details the addition of a custom image to the extension project (a file named `Images\MyCustomImage.16.16.png`). For more information on adding images to an extension, see the [Commands article](../command/command.md#add-an-icon-to-a-command).
 
 ```xml
 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
@@ -135,4 +134,4 @@ internal class MyToolWindowData
 
 ## Related content
 
-For Remote UI basics see the [Remote UI tutorial](remote-ui.md). For more advanced scenarios, see [Advanced Remote UI concepts](advanced-remote-ui.md).
+For Remote UI basics, see the [Remote UI tutorial](remote-ui.md). For more advanced scenarios, see [Advanced Remote UI concepts](advanced-remote-ui.md).
