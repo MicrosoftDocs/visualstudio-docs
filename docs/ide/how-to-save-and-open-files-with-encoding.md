@@ -73,7 +73,7 @@ To open an encoded file *not* located within a project, follow these steps:
 
 1. Expand the **Open** dropdown menu and select **Open With**.
 
-1. To complete this process, follow Step 2 in the [previous procedure](#open-encoded-file-in-project).
+1. To complete this process, follow Step 2 in the [previous procedure](#open-encoded-file-with-project).
 
 ## Related content
 
