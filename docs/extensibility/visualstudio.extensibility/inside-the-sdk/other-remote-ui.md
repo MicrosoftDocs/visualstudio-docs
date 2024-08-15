@@ -19,7 +19,7 @@ This article expands on the foundational concepts covered in the introductory [R
 
 ## Context menus
 
-You can add a context menu to a Remote UI control from XAML by assigning the `FrameworkElement`'s [ContextMenu](/dotnet/api/system.windows.frameworkelement.contextmenu) property. This is the same way you'd add a context menu in standard WPF.
+You can add a context menu to a Remote UI control from XAML by assigning the `FrameworkElement`'s [ContextMenu](/dotnet/api/system.windows.frameworkelement.contextmenu) property. This process mirrors the way you'd add a context menu in standard WPF.
 
 ```xml
 <TextBox Text="Some text">
@@ -46,7 +46,7 @@ In the sample above, the `vs:Image` control is used to add an image to the conte
               xmlns:colors="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Shell.15.0">
 ```
 
-The command for each menu item is bound to an `AsyncCommand` (consult the [Remote UI tutorial](remote-ui.md) for additional information):
+The command for each menu item is bound to an `AsyncCommand` (refer to the [Remote UI tutorial](remote-ui.md) for additional information):
 
 ```cs
 [DataContract]
@@ -68,9 +68,9 @@ internal class MyToolWindowData : NotifyPropertyChangedObject
 
 ## Images
 
-You can leverage Remote UI XAML to show either custom images or images from the Visual Studio image catalog.
+You can use Remote UI XAML to show either custom images or images from the Visual Studio image catalog.
 
-The sample below demonstrates how you can show the `ClearWindowContent` image provided by the Visual Studio image catalog. It also details the addition of a custom image to the extension project (a file named `Images\MyCustomImage.16.16.png`).
+The following sample demonstrates how you can show the `ClearWindowContent` image provided by the Visual Studio image catalog. It also details the addition of a custom image to the extension project (a file named `Images\MyCustomImage.16.16.png`).
 Refer to the [Commands article](../command/command.md#add-an-icon-to-a-command) for more information on how to add an image to an extension.
 
 ```xml
