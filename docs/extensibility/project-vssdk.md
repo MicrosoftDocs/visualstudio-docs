@@ -177,7 +177,7 @@ IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> webProjects = workspace
 
 #### `PropertiesByName` statement
 
-While the `With` clause will return the default set of properties, you can use `PropertiesByName` to return results with the properties you're interested in. 
+While the `With` clause returns the default set of properties, you can use `PropertiesByName` to return results with the properties you're interested in. 
 
 ```csharp
 IQueryResults<IPropertySnapshot>  properties = myproject
@@ -240,7 +240,7 @@ await foreach (IQueryResultItem<IFileSnapshot> file in files)
 
 ## Query additional information from a previously returned item
 
-You can leverage the results from a previous query as the base for additional queries.
+You can use the results from a previous query as the base for additional queries.
 
 ```csharp
 IQueryResults<IProjectSnapshot> allProjects =  querySpace
@@ -548,7 +548,7 @@ var result = await workSpace.Solutions
 
 ### Action to set the startup project
 
-Using the Project Query API, you also can select which projects get executed. The sample below shows how two project paths can be set as the startup projects.
+Using the Project Query API, you also can select which projects get executed. The following sample shows how two project paths can be set as the startup projects.
 
 ```csharp
 // A query to set the startup project
@@ -562,7 +562,7 @@ var result = await workSpace.Solutions
 
 ## Query for solution configurations
 
-A solution configuration is a collection of projects that are included in the build when the configuration is active. The example below shows how to query for the names of the solution configurations.
+A solution configuration is a collection of projects that are included in the build when the configuration is active. The example that follows shows how to query for the names of the solution configurations.
 
 ```csharp
 var result = workSpace.Solutions
@@ -748,7 +748,7 @@ private class TrackerObserver : IObserver<IQueryTrackUpdates<IFileSnapshot>>
 
 `Skip` can be used to skip N results from a query.
 
-In this code sample, the first result from the query is skipped. If there were three projects in the solution, for example, the first result will be skipped, and the query will return the two remaining projects. Note that the order is not guaranteed.
+In this code sample, the first result from the query is skipped. If there were three projects in the solution, for example, the first result is skipped, and the query will return the two remaining projects. The order is not guaranteed.
 
 ```csharp
 var projects = workSpace.Projects
