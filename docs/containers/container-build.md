@@ -66,6 +66,15 @@ ENTRYPOINT ["dotnet", "WebApplication43.dll"]
 
 The final stage starts again from `base`, and includes the `COPY --from=publish` to copy the published output to the final image. This process makes it possible for the final image to be a lot smaller, since it doesn't need to include all of the build tools that were in the `sdk` image.
 
+The following table summarize the stages used in the typical Dockerfile created by Visual Studio:
+
+| Stage | Description |
+| - | - |
+| base | The initial image, plus some settings for ports and environment variables. |
+| build | The stage where the build is run. This uses a different initial image that contains the SDK. |
+| publish | The stage where the publish action is run. This stage contains the SDK, so it is larger than the final stage. |
+| final | The stage used at runtime, created by copying the published artifacts from the publish stage onto the base image. |
+
 ### MSBuild
 
 ::: moniker range=">=vs-2022"
