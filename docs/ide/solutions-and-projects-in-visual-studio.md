@@ -80,7 +80,7 @@ After you create a new project, you can use [Solution Explorer](use-solution-exp
 
 ::: moniker range=">=vs-2019"
 
-:::image type="content" source="../ide/media/vs-2019/solution-explorer-2019.png" alt-text="Screenshot of two projects in Visual Studio Solution Explorer.":::
+:::image type="content" source="../ide/media/vs-2019/solution-explorer-2019.png" alt-text="Screenshot of two projects in Solution Explorer.":::
 
 ::: moniker-end
 
