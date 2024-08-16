@@ -13,7 +13,7 @@ monikerRange: '>= vs-2022'
 
 # Identify hot paths with a flame graph (C#, Visual Basic, C++, F#)
 
-The **Flame Graph** in the CPU Usage tool helps you identify hot paths in your code by visualizing a call tree. Flame graphs are a visualization of categorized data, created to visualize stack traces of profiled software so that the most frequent code paths can be identified quickly and accurately. The graph gives a visual overview of where time is being spent in your application and you can click on specific nodes to dig into them further.
+The **Flame Graph** in the CPU Usage and Instrumentation tools help you identify hot paths in your code by visualizing a call tree. Flame graphs are a visualization of categorized data, created to visualize stack traces of profiled software so that the most frequent code paths can be identified quickly and accurately. The graph gives a visual overview of where time is being spent in your application and you can click on specific nodes to dig into them further.
 
 ![Screenshot showing Flame Graph with tooltips displayed.](./media/vs-2022/flame-graph-tooltips.png "Flame Graph with tooltips displayed")
 
@@ -21,7 +21,7 @@ For a tutorial that shows how to improve performance using the flame graph, see 
 
 ## Investigate hot paths
 
-1. The Flame Graph view is in the details view of the CPU Usage tool, above the source line highlighting view. After you've stopped your profiling session, you can view the Flame Graph by clicking **Open details**.
+1. The Flame Graph view is in the details view of the tool, above the source line highlighting view. After you've stopped your profiling session, you can view the Flame Graph by clicking **Open details**.
 
    ![Screenshot showing Open details selected.](./media/vs-2022/flame-graph-open-details.png "Open details view selected")
 
@@ -31,7 +31,7 @@ For a tutorial that shows how to improve performance using the flame graph, see 
 
    ![Screenshot showing Flame Graph overview displayed.](./media/vs-2022/flame-graph-overview.png "Flame Graph overview displayed")
 
-1. By default, the flame graph in the CPU tool is shown upside down or as an "icicle chart," where the y-axis is counting stack depth downwards from zero at the top. You can view the standard flame chart layout by clicking **Flip Flame Graph**.
+1. By default, the flame graph in the tool is shown upside down or as an "icicle chart," where the y-axis is counting stack depth downwards from zero at the top. You can view the standard flame chart layout by clicking **Flip Flame Graph**.
 
    ![Screenshot showing Flip Flame Graph selected.](./media/vs-2022/flame-graph-flip.png "Flip Flame Graph selected")
 
