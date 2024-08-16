@@ -55,7 +55,7 @@ To modify your Visual Studio installation, you need to open the Visual Studio In
      :::image type="content" source="media/vs-2019/vs-installer-modify.png" alt-text="Screenshot of a list of Visual Studio installations in the Visual Studio Installer.":::
 
      > [!IMPORTANT]
-     > If you have an update pending, the **Modify** button is in a different place. This allows you to modify Visual Studio without updating it, if you want to. Select **More** and then select **Modify**.
+     > If you have an update pending, the **Modify** button is in a different place. This enables you to modify Visual Studio without updating it, if you want to. Select **More** and then select **Modify**.
      >
      >  :::image type="content" source="media/vs-2019/modify-update-visual-studio.png" alt-text="Screenshot of the Modify button in the Visual Studio Installer. The button is located on the More dropdown menu when an update is pending.":::
 
@@ -96,7 +96,7 @@ To modify your Visual Studio installation, you need to open the Visual Studio In
 
     :::image type="content" source="media/vs-2019/vs-installer-modify-workloads.png" alt-text="Screenshot of the Workloads tab of the Visual Studio Installer." lightbox="media/vs-2019/vs-installer-modify-workloads.png":::
 
-1. Decide whether you want to accept the default **Install while downloading** option or the **Download all, then install** option. The default option, **Install while downloading**, saves time by starting the installation earlier.
+1. You can select the default **Install while downloading** option or the **Download all, then install** option. 
 
     :::image type="content" source="media/vs-2019/vs-installer-choose-install-or-download.png" alt-text="Screenshot of the download and install options in the Visual Studio Installer.":::
 
@@ -121,7 +121,7 @@ Workloads contain the components you need for the programming language or platfo
 
      :::image type="content" source="media/vs-2022/vs-installer-individual-components.png" alt-text="Screenshot of the Individual components tab of the Visual Studio Installer." lightbox="media/vs-2022/vs-installer-individual-components.png":::
 
-1. Decide whether you want to **Install while downloading** or **Download all, then install**. The default option, **Install while downloading**, saves time by starting the installation earlier.
+1. You can select the default **Install while downloading** or **Download all, then install**. 
 
     :::image type="content" source="media/vs-2022/vs-installer-choose-install-or-download.png" alt-text="Screenshot of the download and install options in the Visual Studio Installer.":::
 
