@@ -47,7 +47,7 @@ Complete these steps to specify an application icon.
 
 ::: moniker range="<=vs-2019" 
 
-1. In Solution Explorer, choose a [project node](use-solution-explorer.md#solution-explorer-ui) (not the Solution node).
+1. In Solution Explorer, select a [project node](use-solution-explorer.md#solution-explorer-ui) (not the Solution node).
 
 1. On the menu bar, select **Project** > **Properties**.
 
