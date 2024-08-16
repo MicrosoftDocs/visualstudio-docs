@@ -71,7 +71,7 @@ If you have another subscription that's associated with a different account, [ad
 
 You can also enter the [product key for your Visual Studio subscription](/visualstudio/subscriptions/product-keys) in the **Account Settings** dialog. To do that, select **Unlock with a Product Key** and enter the product key in the **Enter a product key** dialog.
 
-:::image type="content" source="media/vs-2022/expired-license-enter-product-key.png" alt-text="Screenshot of the Enter a product key dialog." border="false":::
+:::image type="content" source="media/vs-2022/expired-license-enter-product-key.png" alt-text="Screenshot of the Enter a product key dialog.":::
 
 ## Get support
 
