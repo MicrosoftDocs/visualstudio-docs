@@ -29,62 +29,59 @@ In Visual Studio, you can customize the position, size, and behavior of windows 
 
 ## Customize window layouts
 
-When you customize a window layout, the Visual Studio [integrated development environment](../get-started/visual-studio-ide.md) (IDE) remembers it. For example, if you change the docking location of **[Solution Explorer](use-solution-explorer.md)** and then close Visual Studio, the next time that you open Visual Studio, **Solution Explorer** will be docked in that same location. The Visual Studio IDE remembers the docking location even if you're working on another computer.
+When you customize a window layout, the Visual Studio [integrated development environment](../get-started/visual-studio-ide.md) (IDE) remembers it. For example, if you change the docking location of [Solution Explorer](use-solution-explorer.md) and then close Visual Studio, the next time that you open Visual Studio, Solution Explorer will be docked in that same location. The Visual Studio IDE remembers the docking location even if you're working on another computer.
 
-You can also name and save a custom layout and then switch between layouts with a single command. For example, you could create a layout for editing and a layout for debugging, and switch between them by using the **Window** > **Apply Window Layout** menu command.
+You can also name and save a custom layout and then switch between layouts with a single command. For example, you could create a layout for editing and a layout for debugging, and switch between them by selecting **Window** > **Apply Window Layout**.
 
 ::: moniker range="vs-2022"
 
 > [!TIP]
-> Starting with Visual Studio 17.9, the list of open documents was moved from a binary format in the .suo file to a plain text format in a JSON file. The JSON file is saved in the hidden .vs folder in the same location of the .suo file (solutionFolder.vs\SolutionName\v17). This JSON file contains the list of open documents and their properties, the layout of document groups and containers, and vertical tab column width. Storing in plain text as JSON allows for easier back up as well as the ability to check in different sets of open documents that can be restored as needed.
+> Starting with Visual Studio 17.9, the list of open documents was moved from a binary format in the .suo file to a plain text format in a JSON file. The JSON file is saved in the hidden .vs folder in the same location as the .suo file (**solutionFolder**.vs\/**solutionName**\v17). This JSON file contains the list of open documents and their properties, the layout of document groups and containers, and vertical tab column width. Storing in plain text as JSON enables easier backup and the ability to check in different sets of open documents that can be restored as needed.
 
 ::: moniker-end
 
 ### Tool and document windows
 
-The IDE has two basic window types, *tool windows* and *document windows*. Tool windows include **Solution Explorer**, **Server Explorer**, **Output Window**, **Error List**, the designers, the debugger windows, and so on. Document windows contain source code files, arbitrary text files, config files, and so on. You can resize or drag tool windows by their title bar. You can drag document windows by their tab. Right-click on the tab or title bar to set other options on the window.
+The IDE has two basic window types: *tool windows* and *document windows*. Tool windows include Solution Explorer, Server Explorer, the Output window, Error List, the designers, and the debugger windows. Document windows contain source code files, arbitrary text files, config files, and so on. You can resize tool windows and drag them by their title bar. You can drag document windows by their tab.
 
-The **Window** menu shows options for docking, floating, and hiding windows in the IDE. Right-click on a window tab or title bar to see more options for that specific window. You can display more than one instance of certain tool windows at a time. For example, you can display more than one web browser window, and you can create extra instances of some tool windows by selecting **New Window** on the **Window** menu.
+The **Window** menu contains options for docking, floating, and hiding windows in the IDE. Right-click a window's tab or title bar to see more options for that specific window. You can display more than one instance of certain tool windows at a time. For example, you can display more than one web browser window, and you can create extra instances of some tool windows by selecting **New Window** on the **Window** menu.
 
 #### Split windows
 
-When you have to view or edit two locations at once in a document, you can split windows. To divide your document into two independently scrolling sections, select **Split** on the **Window** menu. Select **Remove Split** on the **Window** menu to restore the single view.
+When you need to view or edit two locations simultaneously in a document, you can split the window. To divide your document into two independently scrolling sections, select **Split** on the **Window** menu. Select **Remove Split** on the **Window** menu to restore the single view.
 
 #### Toolbars
 
-You can arrange toolbars by dragging them to where you want them, or by using the **Customize** dialog box. For more information about how to position and customize toolbars, see [How to: Customize menus and toolbars](how-to-customize-menus-and-toolbars-in-visual-studio.md).
+You can arrange toolbars by dragging them to where you want them, or by using the **Customize** dialog. For more information about how to position and customize toolbars, see [Customize menus and toolbars](how-to-customize-menus-and-toolbars-in-visual-studio.md).
 
 ### Arrange and dock windows
 
-A document window or tool window can be *docked*, so that it has a position and size within the IDE window frame. You can also position it as a separate floating window that's outside of the IDE.
-
-You can dock a tool window anywhere inside the IDE frame. You can also dock some tool windows as tabbed windows in the editor frame. And, you can dock document windows within the editor frame, or pin them to their current position in the [tab](#personalize-tabs) order.
-
-You can also dock multiple windows to float together in a *raft* over or outside of the IDE. Tool windows can also be hidden or minimized.
-
 You can arrange windows in the following ways:
 
-- Pin document windows to the left of the tab well.
-- Tab-dock windows to the editing frame.
-- Dock tool windows to the edge of a frame in the IDE.
+- *Dock* a document window or tool window to position and size it within the IDE window frame.
+- Dock document windows within the editor frame.
+- Dock some tool windows as tabbed windows in the editor frame.
+- Pin document windows to their current position in the [tab](#personalize-tabs) order in the editor frame.
 - Float document or tool windows over or outside the IDE.
 - Hide tool windows along the edge of the IDE.
 - Display windows on different monitors.
 - Reset window placement to the default layout or to a saved custom layout.
+- Dock multiple windows to float together in a *raft* over or outside of the IDE. 
+- Hide or minimize tool windows.
 
 To arrange tool and document windows, you can place your cursor on the title bar of a window and then drag it to where you want it. Alternatively, you can right-click the title bar of the window to use its context menu, or you can use the commands on the **Window** menu.
 
 #### Dock windows
 
-When you select and drag the title bar of a tool window or the tab of document window, a guide diamond appears. During the drag operation, when the mouse cursor is over one of the arrows in the diamond, a shaded area appears that shows you where the window can be docked if you release the mouse button.
+When you select and drag the title bar of a tool window or the tab of document window, a docking *guide diamond* appears. During the drag operation, when the mouse cursor is over one of the arrows in the diamond, a shaded area appears that shows you where the window will dock if you release the mouse button.
 
-To move a dockable window without snapping it into place, press the **Ctrl** key while you drag the window.
+To move a dockable window without snapping it into place, select **Ctrl** while you drag the window.
 
-To return a tool window or document window to its most recent docked location, press **Ctrl** while you double-click the title bar or tab of the window.
+To return a tool window or document window to its most recent docked location, select **Ctrl** while you double-click the title bar or tab of the window.
 
-The following screenshot shows the guide diamond for document windows, which can only be docked within the editing frame:
+The following screenshot shows the guide diamond for document windows, which can be docked only within the editing frame:
 
-:::image type="content" source="media/document-window-guide-diamond.png" alt-text="Screenshot of the Document window guide diamond.":::
+:::image type="content" source="media/document-window-guide-diamond.png" alt-text="Screenshot of the document window guide diamond.":::
 
 Tool windows can be fastened to one side of a frame in the IDE or within the editing frame. A guide diamond appears when you drag a tool window to another location to help you to easily redock the window.
 
