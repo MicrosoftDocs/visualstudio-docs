@@ -153,3 +153,4 @@ To change the defualt language:
 * [Visual Studio workload & component IDs](workload-and-component-ids.md)
 * [Update Visual Studio](update-visual-studio.md)
 * [Uninstall Visual Studio](uninstall-visual-studio.md)
+* [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)

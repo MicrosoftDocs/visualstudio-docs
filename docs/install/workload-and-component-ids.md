@@ -72,4 +72,3 @@ For more information about how to use these lists, see the [Use command-line par
   * [Command-line parameter examples](command-line-parameter-examples.md)
 * [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 * [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)
-* [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
