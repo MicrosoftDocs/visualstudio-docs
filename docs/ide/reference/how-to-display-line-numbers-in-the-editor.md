@@ -20,7 +20,7 @@ ms.subservice: general-ide
 
 This article describes how to show or hide line numbers in your code.
 
-1. On the Visual Studio menu bar, select **Tools** > **Options** > **Text Editor**, and then select either the language you're using or **All Languages**. **All Languages** lets you turn line numbers on and off in all supported programming languages.
+1. On the Visual Studio menu bar, select **Tools** > **Options** > **Text Editor**, and then select either the language you're using or **All Languages**. **All Languages** turns line numbers on or off in all supported programming languages.
 
    > [!TIP]
    > You can also type **line number** in the [Search](../visual-studio-search.md) box, and then select **Turn line numbers on or off** in the results.
