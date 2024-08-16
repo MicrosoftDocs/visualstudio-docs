@@ -146,8 +146,8 @@ If you don't have a problem to report but want to suggest a feature, there's a p
 
 ## Related content
 
-* [Developer Community Guidelines](./developer-community-guidelines.md)
-* [Report a problem with Visual Studio for Mac](/visualstudio/mac/report-a-problem)
-* [Report a problem with C++](/cpp/how-to-report-a-problem-with-the-visual-cpp-toolset)
 * [Visual Studio Developer Community](https://developercommunity.visualstudio.com/home)
-* [Developer Community data privacy](developer-community-privacy.md)
+* [Report a problem with .NET](https://developercommunity.microsoft.com/dotnet/report)
+* [Report a problem with C++](https://developercommunity.microsoft.com/cpp/report)
+* [Developer Community Guidelines](https://learn.microsoft.com/visualstudio/ide/developer-community-guidelines)
+* [Developer Community data privacy](https://learn.microsoft.com/visualstudio/ide/developer-community-privacy)
