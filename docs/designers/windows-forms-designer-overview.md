@@ -32,7 +32,7 @@ Using the designer you can:
 > Use Windows Forms Designer, and not the Resource Editor, to make changes to a form's resource (*.resx*) file. If you edit a form-based .resx file, you'll see a warning that changes you make in the Resource Editor may be lost. This is because the Windows Forms Designer generates the .resx file.
 
 > [!CAUTION]
-> Resources in `.resx` files may be serialized using `BinaryFormatter`, which is [not secure](/dotnet/standard/serialization/binaryformatter-security-guide). Only use Windows Forms Designer to edit forms that you trust.
+> Resources in `.resx` files may be serialized using `BinaryFormatter`, which is [not secure](/dotnet/standard/serialization/binaryformatter-security-guide). Only use Windows Forms Designer to work with forms and controls that you trust.
 
 ## See also
 
