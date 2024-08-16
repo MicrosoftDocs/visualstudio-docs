@@ -32,7 +32,7 @@ The registry for Visual Studio is in a private hive, *privateregistry.bin*. Open
    "Assembly"="Microsoft.VSDesigner, Version=17.0.0.0, Culture=Neutral, PublicKeyToken=b03f5f7f11d50a3a"
    ```
 
-   The hive is the name you provided when you loaded `privateregistry.bin`, and the instance folder (such as `17.0_**_Config`) is specific to a particular installation of Visual Studio on your machine.
+   The `{hive}` is the name you provided when you loaded *privateregistry.bin* in the registry editor, and the instance folder (shown here as `17.0_**_Config`) is specific to a particular installation of Visual Studio on your machine.
 
 2. Create a registry key in the desired Visual Studio hive under Generators\\*GUID* where *GUID* is the GUID defined by the specific language's project system or service. The name of the key becomes the programmatic name of your custom tool. The custom tool key has the following values:
 
