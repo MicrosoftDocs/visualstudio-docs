@@ -12,9 +12,13 @@ ms.subservice: extensibility-integration
 
 # About VisualStudio.Extensibility (Preview)
 
-VisualStudio.Extensibility is a new framework for developing Visual Studio extensions that focuses primarily on extensions that run out-of-process from the IDE for improved performance and reliability. It features a modern, asynchronous API that has been streamlined and carefully engineered to maximize developer productivity. VisualStudio.Extensibility is in active development and is available as a preview.
+VisualStudio.Extensibility is a new framework for developing Visual Studio extensions that focuses primarily on extensions that run out-of-process from the IDE for improved performance and reliability. It features a modern, asynchronous API that's streamlined and carefully engineered to maximize developer productivity. VisualStudio.Extensibility is in active development and is available as a preview.
 
-With the current preview, you can develop a wide range of extensions to Visual Studio, including creating commands, working with code or text in the editor, displaying prompts or dialogs to the user, creating debugger visualizers, and more!
+With the current preview, you can develop a wide range of extensions for Visual Studio, including, but not limited to:
+- Creating commands
+- Working with code or text in the editor
+- Displaying prompts or dialogs to the user
+- Creating debugger visualizers
 
 VisualStudio.Extensibility aims to address many of the problems developers experience when using and writing extensions in Visual Studio. Writing extensions using VisualStudio.Extensibility provides the following benefits:
 
@@ -22,7 +26,7 @@ VisualStudio.Extensibility aims to address many of the problems developers exper
 * **Reduced API complexity**: VisualStudio.Extensibility has simplified architecture, consistent APIs, and clear documentation.
 * **Hot-loading functionality**: Visual Studio doesn't need to be restarted when installing extensions.
 
-Eventually, you'll be able to use the VisualStudio.Extensibility SDK to write any extension you could write using the VS SDK. However, until that time, you might encounter situations where the functionality you need in your extension isn't yet available in VisualStudio.Extensibility. In that case, you can use VisualStudio.Extensibility SDK together with VS SDK running in-process to cover any feature gap. To learn more, see [In-proc extensions](./get-started/in-proc-extensions.md).
+Eventually, you'll be able to use the VisualStudio.Extensibility SDK to write any extension you could write using the Visual Studio SDK. However, until that time, you might encounter situations where the functionality you need in your extension isn't yet available in VisualStudio.Extensibility. In that case, you can use VisualStudio.Extensibility SDK together with Visual Studio SDK running in-process to cover any feature gap. To learn more, see [In-proc extensions](./get-started/in-proc-extensions.md).
 
 The latest information on VisualStudio.Extensibility may be found in the VSExtensibility GitHub repo at [announcements](https://github.com/microsoft/VSExtensibility/blob/main/docs/announcements.md).
 
@@ -31,7 +35,7 @@ The latest information on VisualStudio.Extensibility may be found in the VSExten
 | Article | Description|
 |-|-|
 | [Install VisualStudio.Extensibility](#install-visualstudioextensibility) | Download and install the latest preview of VisualStudio.Extensibility. |
-| [Get started](#get-started) | Start with beginner quickstarts and introductory tutorials if you've never developed an extension before. |
+| [Get started](#get-started) | Start with beginner quickstarts and introductory tutorials if you haven't developed an extension before. |
 | [Concepts](#concepts) | Build your mental model of how the SDK and extensions work. |
 | [Overviews](#overviews) | Learn more by reading overviews of each major area of functionality. |
 | [Samples](#samples-and-tutorials) | Explore sample code demonstrating major features. |
@@ -112,7 +116,7 @@ There are a few of our APIs that don't yet meet this bar for stability, for one 
 * The API is new and we want to incorporate user feedback into the design before marking it stable.
 * We received feedback that a particular API is difficult to use, so we're planning to update it in future versions.
 
-For these APIs, we've explicitly labeled them using the `[Experimental]` attribute to help extension authors create their extensions with confidence in the SDK.
+These APIs are explicitly labeled using the `[Experimental]` attribute to help extension authors create their extensions with confidence in the SDK.
 
 For more information, including how to use experimental APIs, see our [Experimental APIs](https://github.com/microsoft/VSExtensibility/blob/main/docs/experimental_apis.md) page.
 
