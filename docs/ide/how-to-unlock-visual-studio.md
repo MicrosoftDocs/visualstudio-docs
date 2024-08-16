@@ -50,20 +50,20 @@ This message indicates that, although your subscription might still be valid, th
 
 Before the license token goes stale, Visual Studio first shows a warning message that asks you to re-enter your credentials.
 
-If you don't re-enter your credentials, the expiration date for the token approaches and the **Account Settings** dialog tells you how many days you have left before your token becomes stale. After your token expires, you must reenter your credentials for the account before you can continue using Visual Studio.
+If you don't re-enter your credentials, the expiration date for the token approaches and the **Sign in to Visual Studio** dialog tells you how many days you have left before your token becomes stale. After your token expires, you must re-enter your credentials for the account before you can continue using Visual Studio.
 
-Note that CA policies enabled on an account might impact the account state or license. You can [troubleshoot the CA/MFA issues](work-with-multi-factor-authentication.md#troubleshoot-sign-in-issues) to find a resolution. For accounts associated with multiple Azure Active Directories, [filtering out non-essential tenants](work-with-multi-factor-authentication.md#how-to-filter-out-individual-tenants) might help. You can do so by using the **Filter account** dialog (**File > Account settings > Apply Filter**). When [re-authenticating an account](work-with-multi-factor-authentication.md#reauthenticating-an-account), you can also filter out any directories having access issues by using the **Re-enter your credentials** dialog.
+Note that CA policies that are enabled on an account might affect the account state or license. You can [troubleshoot the CA/MFA issues](work-with-multi-factor-authentication.md#troubleshoot-sign-in-issues) to find a resolution. For accounts that are associated with multiple Microsoft Entra ID tenants, [filtering out non-essential tenants](work-with-multi-factor-authentication.md#how-to-filter-out-individual-tenants) might help. You can do that by using the **Filter account** dialog (**File > Account settings > Apply Filter**). When [re-authenticating an account](work-with-multi-factor-authentication.md#reauthenticating-an-account), you can also filter out any directories that have access issues by using the **Re-enter your credentials** dialog.
 
 >[!Important]
->If you are using Visual Studio for extended periods in environments with limited or no internet access, you should use a product key to unlock Visual Studio to avoid interruption.
+>If you use Visual Studio for extended periods in environments that have limited or no internet access, you should use a product key to unlock Visual Studio to avoid interruption.
 
 ## Update an expired license
 
-If your extended trial or subscription has expired and you no longer have access rights to Visual Studio, you must renew your subscription, add another account that has a subscription, or enter a Product key. To see more information about the license you are using, go to **File** > **Account Settings...** and look at the license information on the right side of the dialog. 
+If your extended trial or subscription is expired and you no longer have access rights to Visual Studio, you must renew your subscription, add another account that has a subscription, or enter a product key. For information about the license you're using, go to **File** > **Account Settings** and review the license information on the right side of the dialog. 
 
-:::image type="content" source="media/vs-2022/expired-license-account-settings-dialog.png" alt-text="Screenshot of an expired license in Visual Studio." border="false":::
+:::image type="content" source="media/vs-2022/expired-license-account-settings-dialog.png" alt-text="Screenshot of an expired license notification in Visual Studio." border="false":::
 
-If you have another subscription associated with a different account, [add that account](signing-in-to-visual-studio.md#add-and-switch-user-accounts-in-visual-studio) to the **All Accounts** list on the left side of the dialog box by selecting the **+ Add** dropdown.
+If you have another subscription that's associated with a different account, [add that account](signing-in-to-visual-studio.md#add-and-switch-user-accounts-in-visual-studio) to the **All Accounts** list on the left side of the dialog box by selecting it in the **Add** list.
 
 You can also enter the [product key for your Visual Studio subscription](/visualstudio/subscriptions/product-keys) in the **Account Settings** dialog. To do this, select the **Unlock with a Product Key** link and enter the product key in the **Enter a product key** dialog.
 
