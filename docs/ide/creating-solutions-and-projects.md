@@ -50,7 +50,7 @@ If you have a collection of code source files, you can easily add them to a proj
 1. On the **Specify Project Details** page, browse to the location of the files and then enter a name for the new project in the **Name** box. When you're done, select **Finish**.
 
 > [!NOTE]
-> This option works best for a relatively simple collection of files. Currently, only Visual Basic and C# project types are supported.
+> This option works best for a relatively simple collection of files. Currently, only C++, Visual Basic, and C# project types are supported.
 
 ## Add files to a solution
 
