@@ -21,6 +21,9 @@ ms.subservice: msbuild
 
 Converts between `.txt` and `.resx` (XML-based resource format) files and common language runtime binary `.resources` files that can be embedded in a runtime binary executable or compiled into satellite assemblies. This task is typically used to convert `.txt` or `.resx` files to `.resources` files. The `GenerateResource` task is functionally similar to [resgen.exe](/dotnet/framework/tools/resgen-exe-resource-file-generator).
 
+> [!CAUTION]
+> Resources in `.resx` files may be serialized using `BinaryFormatter`, which is [not secure](/dotnet/standard/serialization/binaryformatter-security-guide). Only include `.resx` files that you trust in your build process.
+
 ## Parameters
 
 The following table describes the parameters of the `GenerateResource` task.
