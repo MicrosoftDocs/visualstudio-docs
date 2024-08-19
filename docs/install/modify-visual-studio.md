@@ -140,7 +140,7 @@ You can also use a [configuration file to modify an existing installation to add
 
 The Visual Studio Installer selects a default language pack for Visual Studio that matches the language of your operating system. You can change the default language whenever you want.
 
-To change the defualt language:
+To change the default language:
 
 1. Select the **Language packs** tab in the Visual Studio Installer.
 1. Select the language you prefer.
