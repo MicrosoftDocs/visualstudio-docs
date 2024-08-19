@@ -1,8 +1,8 @@
 ---
-title: Customize & save layouts of your windows and tabs
+title: Customize & save layouts of windows and tabs
 description: Learn how to customize tabs and windows in Visual Studio to create layouts that work best for your development workflows.
 ms.date: 08/16/2024
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - vs.windows
 - vs.environment
@@ -22,7 +22,11 @@ author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
+
+#customer intent: As a Visual Studio user, I want to learn how to customize tabs and windows in Visual Studio to create layouts that work best for my development workflows.
+
 ---
+
 # Customize window layouts and personalize tabs
 
 In Visual Studio, you can customize the position, size, and behavior of windows to create window layouts that work best for various development workflows. You can also personalize how you use [tabs](#personalize-tabs) to interact with your code.
@@ -84,11 +88,11 @@ The following screenshot shows the guide diamond for document windows, which can
 
 You can fasten tool windows to one side of a frame in the IDE or within the editing frame. To help you to easily redock the window, a guide diamond appears when you drag the window to another location.
 
-:::image type="content" source="media/tool-window-guide-diamond-sml.png" alt-text="Screenshot of the Tool window guide diamond." lightbox="media/tool-window-guide-diamond-lrg.png":::
+:::image type="content" source="media/tool-window-guide-diamond-sml.png" alt-text="Screenshot of the Tool window guide diamond.":::
 
 The following screenshot shows Solution Explorer being docked in a new location that's demarcated by a purple shaded area:
 
-:::image type="content" source="media/docked-diamond-solution-explorer-example-sml.png" alt-text="Screenshot of what appears in the IDE when you want to dock Solution Explorer in a new position." lightbox="media/docked-diamond-solution-explorer-example-lrg.png":::
+:::image type="content" source="media/docked-diamond-solution-explorer-example-sml.png" alt-text="Screenshot of what appears in the IDE when you want to dock Solution Explorer in a new position.":::
 
 ### Close and autohide tool windows
 
@@ -161,7 +165,7 @@ Next, add a new SQL Server database project to the solution.
 
 To switch between layouts, use the keyboard shortcuts from the reserved list of **Ctrl**+**Alt**+**1...0** shortcuts. Or, from the main menu, select **Window** > **Apply Window Layout**.
 
-:::image type="content" source="media/apply-window-layout-sml.png" alt-text="Screenshot of the Apply Window Layout menu." lightbox="media/apply-window-layout-lrg.png":::
+:::image type="content" source="media/apply-window-layout-sml.png" alt-text="Screenshot of the Apply Window Layout menu.":::
 
 If you have a multi-monitor setup at work and a single monitor laptop at home, you can create layouts that are optimized for each machine.
 
@@ -172,7 +176,7 @@ If you have a multi-monitor setup at work and a single monitor laptop at home, y
 
 You can remove, rename, or reorder your custom layout by selecting **Window** > **Manage Window Layouts**. If you move a layout, the key binding is automatically adjusted to reflect the new position in the list. The key bindings themselves can't be modified, but you can store up to 10 layouts at a time.
 
-:::image type="content" source="media/manage-window-layouts-sml.png" alt-text="Screenshot of the Manage Window Layouts dialog." lightbox="media/manage-window-layouts-lrg.png":::
+:::image type="content" source="media/manage-window-layouts-sml.png" alt-text="Screenshot of the Manage Window Layouts dialog.":::
 
 To remind yourself which keyboard shortcut is assigned to which layout, select **Window** > **Apply Window Layout**.
 
@@ -247,7 +251,7 @@ The following screenshot shows an example of how to personalize the color scheme
 
 You can now wrap tabs into multiple rows. This enables you to have more horizontal tabs open at once. Pinned tabs show up in a separate row from unpinned tabs.
 
-:::image type="content" source="media/vs-2022/tabs-multiple-rows-sml.png" alt-text="Screenshot of an example of tabs arranged in multiple rows." lightbox="media/vs-2022/tabs-multiple-rows-lrg.png":::
+:::image type="content" source="media/vs-2022/tabs-multiple-rows-sml.png" alt-text="Screenshot of an example of tabs arranged in multiple rows.":::
 
 To change these options, go to **Tools** > **Options** > **Environment** > **Tabs and Windows** > **Show tabs in multiple rows**.
 
@@ -255,7 +259,7 @@ To change these options, go to **Tools** > **Options** > **Environment** > **Tab
 
 You can now apply bold formatting to your current active tab, change your tab width, and add an extra close button at the top of a document.
 
-:::image type="content" source="media/vs-2022/custom-tab-organization-sml.png" alt-text="Screenshot of the new custom organization options for tabs in Visual Studio." lightbox="media/vs-2022/custom-tab-organization-lrg.png":::
+:::image type="content" source="media/vs-2022/custom-tab-organization-sml.png" alt-text="Screenshot of the new custom organization options for tabs in Visual Studio.":::
 
 To change these options, navigate to **Tools** > **Options** > **Environment** > **Tabs and Windows**.
 
