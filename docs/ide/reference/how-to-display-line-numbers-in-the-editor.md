@@ -1,7 +1,7 @@
 ---
 title: Display line numbers for code
 description: Turn line numbering for your code on and off in the Visual Studio code editor. Line numbers can be useful as a reference.
-ms.date: 08/14/2024
+ms.date: 08/19/2024
 ms.topic: how-to
 helpviewer_keywords:
 - line numbers, displaying
