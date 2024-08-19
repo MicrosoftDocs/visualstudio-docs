@@ -71,7 +71,7 @@ Starting with [version 17.7](/visualstudio/releases/2022/release-notes), you can
 
 When you create a .NET Framework project, you can specify a specific version of the .NET Framework that you want the project to use. (When you create a .NET Core project, you don't specify a framework version.)
 
-To specify a .NET Framework version, select an item in **Framework** list on the **Configure your new project** page.
+To specify a .NET Framework version, select an item in the **Framework** list on the **Configure your new project** page.
 
 ::: moniker range="vs-2019"
 
