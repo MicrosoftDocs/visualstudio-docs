@@ -56,18 +56,17 @@ You can arrange toolbars by dragging them to where you want them, or by using th
 
 ### Arrange and dock windows
 
-You can arrange windows in the following ways:
+You can *dock* a document window or tool window so that it has a position and size within the IDE window frame. You can also position it as a separate floating window that's outside of the IDE.
 
-- *Dock* a document window or tool window to position and size it within the IDE window frame.
-- Dock document windows within the editor frame.
-- Dock some tool windows as tabbed windows in the editor frame.
-- Pin document windows to their current position in the [tab](#personalize-tabs) order in the editor frame.
-- Float document or tool windows over or outside the IDE.
+You can dock a tool window anywhere inside the IDE frame. You can also dock some tool windows as tabbed windows in the editor frame. And you can dock document windows within the editor frame or pin them to their current position in the [tab](#personalize-tabs) order.
+
+You can also arrange windows in the following ways:
+
+- Dock multiple windows to float together in a *raft* over or outside of the IDE.
 - Hide tool windows along the edge of the IDE.
+- Minimize tool windows.
 - Display windows on different monitors.
 - Reset window placement to the default layout or to a saved custom layout.
-- Dock multiple windows to float together in a *raft* over or outside of the IDE. 
-- Hide or minimize tool windows.
 
 To arrange tool and document windows, you can place your cursor on the title bar of a window and then drag it to where you want it. Alternatively, you can right-click the title bar of the window to use its context menu, or you can use the commands on the **Window** menu.
 
@@ -83,7 +82,7 @@ The following screenshot shows the guide diamond for document windows, which can
 
 :::image type="content" source="media/document-window-guide-diamond.png" alt-text="Screenshot of the document window guide diamond.":::
 
-Tool windows can be fastened to one side of a frame in the IDE or within the editing frame. A guide diamond appears when you drag a tool window to another location to help you to easily redock the window.
+You can fasten tool windows to one side of a frame in the IDE or within the editing frame. A guide diamond appears when you drag a tool window to another location to help you to easily redock the window.
 
 :::image type="content" source="media/tool-window-guide-diamond-sml.png" alt-text="Screenshot of the Tool window guide diamond." lightbox="media/tool-window-guide-diamond-lrg.png":::
 
