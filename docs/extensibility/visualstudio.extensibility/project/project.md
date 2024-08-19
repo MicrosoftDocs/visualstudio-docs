@@ -53,7 +53,6 @@ This overview covers top scenarios for working with the project query API:
 - [Action Query to Build Solutions/Projects](#action-query-to-build-solutionsprojects)
 - [Action Query to Save a Solution/Project](#action-query-to-save-solutionsprojects)
 - [Query to Track Query Changes](#query-to-track-query-changes)
-- [Query to Track Query Changes](#query-to-track-query-changes)
 - [Action Query to Skip](#action-query-to-skip)
 
 ## Access the project query space
