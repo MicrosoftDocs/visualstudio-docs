@@ -22,8 +22,8 @@ The Manifest from Resources tool is a console application that takes a list of i
 |**Switch name**|**Notes**|**Required or Optional**|
 |-|-|-|
 |/resources|A semicolon-delimited list of images or directories. This list should always contain the full list of images that will be in the manifest. If only a partial list is given, the entries not included will be lost.<br /><br /> If a given resource file is an image strip, the tool will split it into separate images before adding each subimage to the manifest.<br /><br /> If the image is a .png file, we recommended you format the name like this so that the tool can fill in the right attributes for the image: \<Name>.\<Width>.\<Height>.png.|Required|
-|/assembly|The name of the managed assembly (not including the extension), or the runtime path of the native assembly that hosts the resources (relative to the manifest's runtime location).|Required|
-|/manifest|The name to give to the generated .imagemanifest file. This can also include an absolute or relative path to create the file in a different location. The default name matches the assembly name.<br /><br /> Default: \<Current Directory>\\<Assembly\>.imagemanifest|Optional|
+|/assembly|The name of the managed assembly (not including the extension), or the runtime path of the native assembly that hosts the resources (relative to the manifest's runtime location). Additionally, if the assembly is strongly named, this entry should include the assembly version and public key token.|Required|
+|/manifest|The name to give to the generated .imagemanifest file. This can also include an absolute or relative path to create the file in a different location. The default name matches the assembly name. Additionally, when providing the extra strong name information in the /assembly switch, this switch should be supplied with a user friendly manifest name so that the assembly strong name information is not included in the manifest name. <br /><br /> Default: \<Current Directory>\\<Assembly\>.imagemanifest|Optional|
 |/guidName|The name to give to the GUID symbol for all of the images in the generated manifest.<br /><br /> Default: AssetsGuid|Optional|
 |/rootPath|The root path that needs to be stripped off before creating managed resource URIs. (This flag is to help with cases where the tool gets the relative URI path wrong, causing resources to fail to load.)<br /><br /> Default: \<Current Directory>|Optional|
 |/recursive|Setting this flag tells the tool to recursively search any directories in the /resources argument. Omitting this flag will result in a top-level-only search of directories.|Optional|
@@ -36,11 +36,13 @@ The Manifest from Resources tool is a console application that takes a list of i
 
  **Examples**
 
-- ManifestFromResources /resources:D:\Images                       /assembly:My.Assembly.Name                       /isNative
+- ManifestFromResources /resources:D:\Images /assembly:My.Assembly.Name /isNative
 
-- ManifestFromResources /resources:D:\Images\Image1.png;D:\Images\Image1.xaml                       /assembly:My.Assembly.Name                       /manifest:MyImageManifest.imagemanifest
+- ManifestFromResources /resources:D:\Images\Image1.png;D:\Images\Image1.xaml /assembly:My.Assembly.Name /manifest:MyImageManifest.imagemanifest
 
-- ManifestFromResources /resources:D:\Images\Image1.png;D:\Images\Image1.xaml                       /assembly:My.Assembly.Name                       /guidName:MyImages                       /newGuids                       /newIds
+- ManifestFromResources /resources:D:\Images\Image1.png;D:\Images\Image1.xaml /assembly:My.Assembly.Name;v1.0.0.0;abcdef0123456789 /manifest:MyImageManifest.imagemanifest
+
+- ManifestFromResources /resources:D:\Images\Image1.png;D:\Images\Image1.xaml /assembly:My.Assembly.Name /guidName:MyImages /newGuids /newIds
 
 ## Notes
 
