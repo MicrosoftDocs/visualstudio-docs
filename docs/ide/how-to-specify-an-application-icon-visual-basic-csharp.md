@@ -1,7 +1,7 @@
 ---
 title: 'Set an app icon (Visual Basic, C#)'
 description: Learn how to specify the icon that File Explorer and the Windows taskbar display for a compiled Visual Basic or C# application.
-ms.date: 08/14/2024
+ms.date: 08/19/2024
 ms.topic: how-to
 helpviewer_keywords:
 - icons [Visual Studio], application
