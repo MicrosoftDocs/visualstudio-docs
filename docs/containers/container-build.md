@@ -70,7 +70,7 @@ The following table summarize the stages used in the typical Dockerfile created 
 
 | Stage | Description |
 | - | - |
-| base | The initial image, plus some settings for ports and environment variables. |
+| base | This stage creates the base image that the built app is published to. Settings that need to be available at runtime go here, such as ports and environment variables. |
 | build | The stage where the build process is executed. This uses a different initial image that contains the SDK, which is needed to build. |
 | publish | The stage where the publish action is run. This stage requires the build infrastructure (SDK), so it would not be suitable for use as a final stage, which should contain no unnecessary files that are only required to build and publish.
 | final | The stage used at runtime, created by copying the published artifacts from the `publish` stage onto the `base` image. |
