@@ -33,7 +33,7 @@ In Visual Studio, you can customize the position, size, and behavior of windows 
 
 ## Customize window layouts
 
-When you customize a window layout, the Visual Studio [integrated development environment](../get-started/visual-studio-ide.md) (IDE) remembers it. For example, if you change the docking location of [Solution Explorer](use-solution-explorer.md) and then close Visual Studio, the next time that you open Visual Studio, Solution Explorer will be docked in that same location. The Visual Studio IDE remembers the docking location even if you're working on another computer.
+When you customize a window layout, the Visual Studio [integrated development environment](../get-started/visual-studio-ide.md) (IDE) remembers it. For example, if you change the docking location of [Solution Explorer](use-solution-explorer.md) and then close Visual Studio, the next time that you open Visual Studio, Solution Explorer will be docked in the same location. The Visual Studio IDE remembers the docking location even if you're working on another computer.
 
 You can also name and save a custom layout and then switch between layouts with a single command. For example, you could create a layout for editing and a layout for debugging, and switch between them by selecting **Window** > **Apply Window Layout**.
 
