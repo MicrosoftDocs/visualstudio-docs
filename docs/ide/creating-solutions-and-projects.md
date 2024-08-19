@@ -1,7 +1,7 @@
 ---
 title: "Create projects & solutions"
 description: Create Visual Studio solutions and projects and use them to store artifacts, including source code files, bitmaps, icons, and component and service references.
-ms.date: 08/13/2024
+ms.date: 08/19/2024
 ms.topic: how-to
 f1_keywords:
 - vs.openprojectfromweb
