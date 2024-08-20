@@ -1,7 +1,7 @@
 ---
-title: Use the Task List to track and use code comments
-description: Explore the Task List in Visual Studio and discover how the tool can help you track and use code comments more efficiently.
-ms.date: 07/10/2024
+title: Use Task List to track and use code comments
+description: Explore the Task List tool in Visual Studio and discover how to efficiently use code comments, including tracking code tokens and managing code shortcuts.
+ms.date: 08/19/2024
 ms.topic: how-to
 f1_keywords:
 - TaskListWindow
@@ -14,86 +14,103 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
+
+#customer intent: As a developer, I want to use the Task List tool in Visual Studio, so I can track tokens in code comments and set up code shortcuts.
 ---
+
 # Use the Task List
 
-Use **Task List** to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that take you directly to a predefined location in code. Double-click an item in the list (or select an item and press **ENTER**) to go to its location in the source code.
+The **Task List** tool in Visual Studio lets you track code comments that use tokens like `TODO` and `HACK` or custom tokens. This feature helps you manage task shortcuts that take you directly to a predefined location in code. By default, **Task List** is opens at the bottom of the application window in the Visual Studio Interactive Development Environment (IDE):
+
+:::image type="content" source="media/task-list-window.png" border="false" alt-text="Screenshot of the Task List window at the bottom of the application window in Visual Studio." lightbox="media/task-list-window.png":::
+
+If you don't see the **Task List** window, select **View** > **Task List**, or use the keyboard shortcut **Ctrl**+**\\**,**T**. Like other feature windows in the Visual Studio IDE, you can move the **Task List** window to any location on the IDE surface.
 
 > [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Task comments (Visual Studio for Mac)](/visualstudio/mac/task-comments).
+> This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Task comments (Visual Studio for Mac)](/visualstudio/mac/task-comments).
 
-## The Task List window
+## Use predefined tokens
 
-When **Task List** is open, it appears at the bottom of the application window.
+Visual Studio prepares **Task List** content by scanning your code for comment markers and predefined tokens. Predefined tokens are available for C/C++, C#, and Visual Basic. These tokens include `HACK`, `TODO`, `UNDONE`, and `UnresolvedMergeConflict`. The token labels aren't case-sensitive.
 
-To open **Task List**, select **View** > **Task List**, or from the keyboard press **Ctrl**+**\\**,**T**.
+A code comment consists of three components:
 
-![Screenshot of the Task List window.](media/task-list-window.png)
+- The comment marker, such as `//`, `#`, `<!--`
 
-To change the sort order of the list, select the header of any column. To further refine your search results, press **Shift** and select a second column header. To further refine your search results, press **Shift** and choose a second header.
+- The comment token, such as `TODO`, `hack`, `UnDone`
 
-To show or hide columns, on the shortcut (right-click) menu, choose **Show Columns**. Select the columns that you want to show or hide.
+- The comment text
 
-To change the order of the columns, drag any column header to the location that you want.
-
-> [!TIP]
-> The **Project Rank** column denotes project dependencies. Projects with a rank of 1 do not depend on any other projects. Projects with a rank of 2 depend on one or more projects with a rank of 1, and so on. For more information, see [Standard Table Column Definitions: Project Rank field](/dotnet/api/microsoft.visualstudio.shell.tablecontrol.standardtablecolumndefinitions.projectrank).
-
-## Tokens and comments
-
-A comment in your code preceded by a comment marker and a predefined token also appears in **Task List**. For example, the following C# comment has three distinct parts:
-
-- The comment marker (`//`)
-
-- The token, for example (`TODO`)
-
-- The comment (the rest of the text)
+Here's an example of a code comment in C#:
 
 ```csharp
 // TODO: Load state from previously suspended application
 ```
 
-Because `TODO` is a predefined token, this comment appears as a `TODO` task in the list.
+When Visual Studio recognizes a predefined token, it displays the comment text as a task in **Task List**.
 
-### Custom tokens
+## Create custom tokens
 
-By default, Visual Studio includes the following tokens: `HACK`, `TODO`, `UNDONE`, and `UnresolvedMergeConflict`. They aren't case-sensitive. You can also create your own custom tokens.
+You can create custom tokens for any programming language by following these steps:
 
-> [!NOTE]
-> Default tokens are available only for the C/C++, C#, and Visual Basic languages. To create your own tokens for other programming languages, use the following steps.
+1. On the Visual Studio **Tools** menu, select **Options**.
 
-To create a custom token:
+1. Expand the **Environment** section, and select the **Task List** tab. The [Task List options page](reference/task-list-environment-options-dialog-box.md) opens:
 
-1. On the **Tools** menu, choose **Options**.
+   :::image type="content" source="media/tools-options-environment-task-list.png" border="false" alt-text="Screenshot that shows how to add tokens for the Task List in Visual Studio, including predefined and custom tokens.":::
 
-2. Open the **Environment** folder and then choose **Task List**.
+1. In the **Name** text box, enter the name for the custom token, such as **Optimize**.
 
-   The [Task List options page](reference/task-list-environment-options-dialog-box.md) is displayed.
+1. Expand the **Priority** dropdown list and select a default priority for the custom token.
 
-   ![Screenshot of the options available in the Task List dialog box.](media/tools-options-environment-task-list.png)
+1. To add the custom token to the list of tokens, select **Add**.
 
-3. In the **Name** text box, enter your token name, for example **BUG**.
+1. To apply your changes, select **OK**.
 
-4. In the **Priority** drop-down list, choose a default priority for the new token.
+## Add code task shortcuts
 
-5. Choose **Add**.
+A code task *shortcut* is a bookmark you add in your code that Visual Studio tracks in **Task List**. This type of shortcut has a different icon than a regular bookmark.
 
-   > [!TIP]
-   > The **Add** button becomes enabled after you enter a name. You must enter a name before you select **Add**.
+1. To create a code task shortcut, insert the pointer into the code where you want to place a shortcut.
 
-## Shortcuts
+1. Select **Edit** > **Bookmarks** > **Add Task List Shortcut**, or use the keyboard shortcut **Ctrl**+**K**, **Ctrl**+**H**.
 
-A *shortcut* is a bookmark in the code that is tracked in **Task List**. It has a different icon than a regular bookmark. Double-click the shortcut in **Task List** to go to the corresponding location in the code.
+   :::image type="content" source="media/task-list-bookmark-shortcut.png" border="false" alt-text="Screenshot that shows how to add a bookmark to create a code task shortcut in Task List." lightbox="media/task-list-bookmark-shortcut.png":::
 
-![Screenshot of an example shortcut that you can bookmark to view in the Task List.](media/task-list-bookmark-shortcut.png)
+## Use tasks and shortcuts to access code
 
-### Create a shortcut
+After Visual Studio updates **Task List** with your code token instances and code shortcuts, you can use these items to quickly go to the linked locations in your code:
 
-To create a shortcut, insert the pointer into the code where you want to place a shortcut. Choose **Edit** > **Bookmarks** > **Add Task List Shortcut** or press **Ctrl**+**K**, **Ctrl**+**H**.
+1. To go to the location in your code for any task, double-click the task item in **Task List**.
 
-To navigate through the shortcuts in the code, choose a shortcut in the list, and then choose **Next Task** or **Previous Task** from the **View** menu. (You can also choose these options from the right-click context menu in the **Task List** window.)
+1. To jump to the code location for the previous or next task in the list, right-click the current task in the list, and select **Next Task** or **Previous Task**. These actions are also available on the Visual Studio **View** menu.
+
+## Sort list items
+
+You can change the sort order for the list items:
+
+1. To change the primary sort order for the list, select a column header. Visual Studio sorts the list contents according to the items in the selected column.
+
+1. To apply a secondary sort order, select **Shift** and a different column header. Visual Studio sorts the list contents by the first selected column followed by the second selected column.
+
+You can continue this approach and apply more refined sorting by selecting **Shift** and another column header.
+
+## Show, hide, and order columns
+
+You can also work with specific columns in the list:
+
+1. To show a column, right-click anywhere on the list and select **Show Columns**. On the flyout menu, select the columns to show.
+
+   - On the flyout menu, Visual Studio displays a checkmark next to a visible column.
+
+   - To hide a column, unselect the column name on the flyout menu, which removes the checkmark.
+
+1. To change the order of the columns in the list, drag the column headers into the desired position.
+
+> [!TIP]
+> The **Project Rank** column represents project dependencies. Projects with a rank of 1 don't depend on any other projects. Projects with a rank of 2 depend on one or more projects with a rank of 1, and so on. For more information, see [Standard Table Column Definitions: Project Rank field](/dotnet/api/microsoft.visualstudio.shell.tablecontrol.standardtablecolumndefinitions.projectrank).
 
 ## Related content
 
-- [Task List, Environment, Options dialog box](../ide/reference/task-list-environment-options-dialog-box.md)
-- [Task comments (Visual Studio for Mac)](/visualstudio/mac/task-comments)
+- Review the reference for the [Task List, Environment, and Options dialog](../ide/reference/task-list-environment-options-dialog-box.md)
+- Explore [task comments in Visual Studio for Mac](/visualstudio/mac/task-comments)
