@@ -15,7 +15,7 @@ On a network protected by Windows Firewall, the firewall must be configured to p
 
 This topic describes how to configure the Windows Firewall to enable remote debugging on Windows 10, 8/8.1, and 7; and Windows Server 2012 R2, 2012, and 2008 R2 computers. The Visual Studio and remote computer don't have to be running the same operating system. For example, the Visual Studio computer can run Windows 11, and the remote computer can run Windows Server 2012 R2.
 
->[!NOTE]
+> [!NOTE]
 > The instructions for configuring the Windows Firewall differ slightly on different operating systems, and for older versions of Windows. Windows 8/8.1, Windows 10 and newer versions, and Windows Server 2012 settings use the word *app*, while Windows 7 and Windows Server 2008 use the word *program*.
 
 ## Configure ports for remote debugging
@@ -38,7 +38,7 @@ To open a port:
 
 1. Select one or more network types to enable, including the network type for the remote connection, and then select **Next**.
 
-1. Add a name for the rule (for example, **msvsmon**, **IIS**, or **Web Deploy**), and then select **Finish**.
+1. Add a name for the rule (for example, `msvsmon`, `IIS`, or `Web Deploy`), and then select **Finish**.
 
    The new rule should appear and be selected in the **Inbound Rules** or **Outbound Rules** list.
 

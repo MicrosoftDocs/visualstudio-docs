@@ -1,6 +1,6 @@
 ---
-description: "Enumerates by address the various symbols contained in the data source. Extends IDiaEnumSymbolsByAddr."
-title: "IDiaEnumSymbolsByAddr2"
+description: Enumerates by address the various symbols contained in the data source. Extends IDiaEnumSymbolsByAddr.
+title: IDiaEnumSymbolsByAddr2
 ms.date: "7/2/2024"
 ms.topic: "reference"
 dev_langs:
@@ -12,15 +12,14 @@ ms.author: "grantri"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumSymbolsByAddr2
 
 Enumerates by address the various symbols contained in the data source.
 
 ## Syntax
 
-```
-IDiaEnumSymbolsByAddr2 : IDiaEnumSymbolsByAdd
-```
+`IDiaEnumSymbolsByAddr2 : IDiaEnumSymbolsByAdd`
 
 ## Methods in Vtable Order
 

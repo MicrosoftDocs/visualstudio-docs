@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that indicates whether the PDB was available at the creation of the .Net Native binary."
+description: Retrieves a flag that indicates whether the PDB was available at the creation of the .NET Native binary.
 title: "IDiaInputAssemblyFile::get_pdbAvailableAtILMerge"
 ms.date: "07/18/2024"
 ms.topic: "reference"
@@ -12,9 +12,10 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaInputAssemblyFile::get_pdbAvailableAtILMerge
 
-Retrieves a flag that indicates whether the PDB was available at the creation of the .Net Native binary.
+Retrieves a flag that indicates whether the PDB was available at the creation of the .NET Native binary.
 
 ## Syntax
 
@@ -28,7 +29,7 @@ HRESULT get_pdbAvailableAtILMerge(
 
  `pRetVal`
 
-[out] Returns the `TRUE` if the PDB was available at the creation of the .Net Native binary; otherwise, returns `FALSE`.
+[out] Returns the `TRUE` if the PDB was available at the creation of the .NET Native binary; otherwise, returns `FALSE`.
 
 ## Return Value
 

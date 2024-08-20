@@ -344,3 +344,7 @@ Learn more about [isolating unit test methods with Microsoft Fakes](../test/isol
 ![Select other installed unit test framework](../test/media/createunittestsdialogextensions.png)
 
 Your unit test stubs will be created using the selected framework.
+
+**Q: How do I export my unit test results?**
+
+**A:** You can use a *.runsettings* file with either the command-line or the Visual Studio IDE to configure unit tests and set the test results file. For more information, see [LoggerRunSettings element](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#loggerrunsettings-element).

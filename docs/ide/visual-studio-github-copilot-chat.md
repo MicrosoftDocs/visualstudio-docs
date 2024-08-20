@@ -1,7 +1,7 @@
 ---
 title: About GitHub Copilot Chat in Visual Studio
 description: Learn about the fully integrated GitHub Copilot Chat in Visual Studio. Use the chat interface to ask coding-related questions from right within the IDE.
-ms.date: 7/29/2024
+ms.date: 8/13/2024
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
@@ -10,7 +10,7 @@ ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
 ---
-# What is the GitHub Copilot Chat extension for Visual Studio?
+# What is the GitHub Copilot Chat experience for Visual Studio?
 
 [**GitHub Copilot Completions**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs) and [**GitHub Copilot Chat**](https://aka.ms/VSXGHCopilot) in Visual Studio enable enhanced [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping you be more productive and efficient when writing code.
 
@@ -39,10 +39,11 @@ To get started, you need:
 
 ## Get GitHub Copilot Chat for Visual Studio
 
-- If you're using Visual Studio version 17.10 or later, GitHub Copilot Chat is included in the [new unified GitHub Copilot extension](visual-studio-github-copilot-install-and-states.md#get-github-copilot-for-visual-studio-2022-version-1710-or-later) available as a recommended component in the Visual Studio Installer. It is installed by default with all workloads, unless you choose to exclude it during installation.
+- If you're using Visual Studio version 17.10 or later, GitHub Copilot Chat is included in the [new unified GitHub Copilot experience](visual-studio-github-copilot-install-and-states.md#get-github-copilot-for-visual-studio-2022-version-1710-or-later) available as a recommended component in the Visual Studio Installer. It is installed by default with all workloads, unless you choose to exclude it during installation.
 - If you're using Visual Studio versions 17.9 or earlier, [install the GitHub Copilot Chat extension](visual-studio-github-copilot-install-and-states.md#install-github-copilot-chat).
 
    > [!NOTE]
+   > * The GitHub Copilot and GitHub Copilot Chat *extension* should only be used in Visual Studio versions 17.9 or earlier. For Visual Studio versions 17.10+, GitHub Copilot experience is available as a recommended component in the Visual Studio Installer, and includes both GitHub Copilot Chat and Completions experiences.
    > * If you experience authentication issues after installing the extension, see [Troubleshooting authentication issues with GitHub Copilot Chat](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-authentication-issues-with-github-copilot-chat).
    > * GitHub Copilot is not included in Visual Studio Subscriptions and is a separate subscription managed by GitHub. For questions regarding GitHub Copilot subscriptions and Support, see [Individual Subscriptions](https://docs.github.com/en/billing/managing-billing-for-github-copilot/managing-your-github-copilot-business-subscription) or [Business subscriptions](https://docs.github.com/en/billing/managing-billing-for-github-copilot/managing-your-github-copilot-individual-subscription).
 
@@ -55,6 +56,9 @@ You can ask your coding related questions in natural language and GitHub Copilot
 There are two places you can ask Copilot these questions; in a [chat window](#ask-questions-in-the-chat-window), or directly inline in the code that you're looking to modify, using [inline chat](#ask-questions-in-the-inline-chat-view). For questions where your goal is to modify or add to the code file you have open in the editor, the inline chat view will usually work best, whereas more general coding questions are best answered in the chat pane.
 
 See [tips to improve Copilot chat](copilot-chat-context.md) results to learn how to use [slash commands](copilot-chat-context.md#slash-commands), [references](copilot-chat-context.md#reference), [sources used](copilot-chat-context.md#find-context), and [threads](copilot-chat-context.md#threads) to get better answers with scoped context in Copilot Chat.
+
+>[!NOTE]
+>With Visual Studio 2022 version 17.11, [content exclusion is available for GitHub Copilot Chat](visual-studio-github-copilot-admin.md#github-copilot-chat-in-visual-studio-and-content-exclusions) in Visual Studio. Content excluded by your admin will now be ignored in chat's responses. See [configuring content exclusions for GitHub Copilot](https://docs.github.com/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot?tool=visualstudio) to learn more.
 
 ### Ask questions in the chat window
 
@@ -95,14 +99,17 @@ The inline chat view of Copilot Chat in Visual Studio enables you to ask your qu
     
     :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-inline-diff-view.png" alt-text="Screenshot of code suggestions in Visual Studio diff view." lightbox="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-inline-diff-view.png" :::
 
+1. You can promote your inline chat thread to the chat window by selecting **Continue in chat window**. This'll preserve the record and context of your conversation, and you can continue in the chat window.
+    
+    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/promote-inline-chat-to-chat-window.png" alt-text="Screenshot of how to continue the inline chat thread in the chat window." :::
+
 1. You can close the inline chat view by pressing **Esc**.
 
 ## Next steps
 
 To learn more, consider exploring the following resources:
 
-- [GitHub Copilot extension: Getting started](https://docs.github.com/copilot/getting-started-with-github-copilot?tool=visualstudio)
-- [GitHub Copilot Chat extension: Getting started](https://docs.github.com/copilot/getting-started-with-github-copilot?tool=visualstudio)
+- [GitHub Copilot: Getting started](https://docs.github.com/copilot/getting-started-with-github-copilot?tool=visualstudio)
 - [GitHub Copilot: Your AI pair programmer](https://github.com/features/copilot)
 - [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/)
 - [Support for GitHub Copilot Chat](https://support.github.com)

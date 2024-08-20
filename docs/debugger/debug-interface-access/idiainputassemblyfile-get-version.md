@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the version of the orginal assembly."
+description: Retrieves the version of the orginal assembly.
 title: "IDiaInputAssemblyFile::get_version"
 ms.date: "07/18/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaInputAssemblyFile::get_version
 
 Retrieves the version of the orginal assembly.

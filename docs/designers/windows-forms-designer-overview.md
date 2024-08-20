@@ -38,4 +38,4 @@ Using the designer you can:
 - [User input in Windows Forms](/dotnet/framework/winforms/user-input-in-windows-forms)
 - [Data binding in Windows Forms](/dotnet/framework/winforms/windows-forms-data-binding)
 - [Enhance Windows Forms apps](/dotnet/framework/winforms/advanced/)
-- <xref:System.Windows.Forms?displayProperty=fullName> API reference
+- [System.Windows.Forms API reference](/dotnet/api/system.windows.forms)

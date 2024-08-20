@@ -60,11 +60,11 @@ If you need help configuring CI/CD for a GitHub repo for the first time, Visual 
 
 You can use Visual Studio debug your application while it's running in Azure, so that you can identify and reproduce problems in an environment that is as close as possible to a production environment. For web apps hosted in Azure App Service, see [Remote debug ASP.NET Core on Azure App Service](../debugger/remote-debugging-azure-app-service.md). For Azure Functions, see [Develop Azure Functions with Visual Studio - Remote debugging](/azure/azure-functions/functions-develop-vs#remote-debugging?tabs=isolated-process).
 
-If you're using a virtual machine (VM) to host an ASP.NET Core web app, see [Remote debug ASP.NET Core on IIS using an Azure VM from Visual Studio](../debugger/remote-debugging-azure.md).
+If you're using a virtual machine (VM) to host an ASP.NET Core web app, see [Remote debug ASP.NET Core on Internet Information Services (IIS) using an Azure VM from Visual Studio](../debugger/remote-debugging-azure.md).
 
 ## Use integrated Azure features
 
-When running in the Azure cloud, apps can benefit from Azure's standards for high availability, [scaling up](/azure/app-service/manage-scale-up) and [scaling out](/azure/app-service/manage-automatic-scaling?tabs=azure-portal) capabilities, [monitoring](/azure/azure-monitor/app/asp-net), [load testing](/azure/load-testing/overview-what-is-azure-load-testing), and other benefits. Visual Studio comes integrated with Azure functionality like [Remote debugging](../debugger/remote-debugging.md), viewing logs, and more.
+When running in the Azure cloud, apps can benefit from the Azure standards for high availability, [scaling up](/azure/app-service/manage-scale-up) and [scaling out](/azure/app-service/manage-automatic-scaling?tabs=azure-portal) capabilities, [monitoring](/azure/azure-monitor/app/asp-net), [load testing](/azure/load-testing/overview-what-is-azure-load-testing), and other benefits. Visual Studio comes integrated with Azure functionality like [Remote debugging](../debugger/remote-debugging.md), viewing logs, and more.
 
 ## Save money with local emulation support
 

@@ -52,7 +52,7 @@ The following table describes the parameters of the `GenerateResource` task.
 |`TrackerLogDirectory`|Optional `String` parameter.<br /><br /> Specifies the intermediate directory into which the tracking logs from running this task will be placed.|
 |`TrackerSdkPath`|Optional `String` parameter.<br /><br /> Specifies the path to the appropriate Windows SDK location that contains *Tracker.exe*.<br /><br /> If set, the user takes responsibility for making sure that the bitness of the *Tracker.exe* that they pass matches the bitness of the *ResGen.exe* that they intend to use. If not set, the task decides the appropriate location based on the current Windows SDK.|
 |`TrackFileAccess`|Optional <xref:System.Boolean> parameter.<br /><br /> If true, the directory of the input file is used for resolving relative file paths.|
-|`UsePreserializedResources`|Optional `Boolean` parameter.<br /><br /> If `true`, specifies that non-String resources are to be serialized using <xref:System.Resources.Extensions.PreserializedResourceWriter> instead of <xref:System.Resources.ResourceWriter>, which is not supported on .NET Core or .NET 5 or later. 
+|`UsePreserializedResources`|Optional `Boolean` parameter.<br /><br /> If `true`, specifies that non-String resources are to be serialized using <xref:System.Resources.Extensions.PreserializedResourceWriter> instead of <xref:System.Resources.ResourceWriter>, which is not supported on .NET Core or .NET 5 or later.|
 |`UseSourcePath`|Optional `Boolean` parameter.<br /><br /> If `true`, specifies that the input file's directory is to be used for resolving relative file paths.|
 
 ## Remarks

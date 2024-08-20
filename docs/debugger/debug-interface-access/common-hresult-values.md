@@ -1,6 +1,6 @@
 ---
 title: Common HRESULT Values (Debug Interface Access SDK)
-description: See a list of common HRESULT values returned by various APIs in the debug interface access (DIA) SDK.
+description: See a list of common HRESULT values returned by various APIs in the Debug Interface Access (DIA) SDK.
 ms.date: "7/2/2024"
 ms.topic: "reference"
 dev_langs:
@@ -16,14 +16,14 @@ ms.subservice: debug-diagnostics
 
 # Common HRESULT values (Debug Interface Access SDK)
 
-The following `HRESULT` values are most commonly returned by APIs within the DIA SDK.
+The following `HRESULT` values are most commonly returned by APIs within the Debug Interface Access (DIA) SDK.
 
 Here are the values listed in numeric order by value
 
 |Value|Name|Description|
 |-----------|-----------|-----------|
 |0x806d0002|`E_PDB_USAGE`|invalid parameter or call order|
-|0x806d0004|`E_PDB_FILE_SYSTEM`|Can't read or write file, out of disk space, etc.|
+|0x806d0004|`E_PDB_FILE_SYSTEM`|Can't read or write file, out of disk space, and so on.|
 |0x806d0005|`E_PDB_NOT_FOUND`|PDB file not found|
 |0x806d0006|`E_PDB_INVALID_SIG`|PDB signature does not match|
 |0x806d0007|`E_PDB_INVALID_AGE`|PDB age mismatch|
@@ -44,10 +44,9 @@ Here are the values listed in numeric order by value
 |0x806d0064|`E_DIA_INPROLOG`|Cannot execute stack frame when in prolog|
 |0x806d0065|`E_DIA_SYNTAX`|Error parsing frame program|
 |0x806d0066|`E_DIA_FRAME_ACCESS`|Error accessing registers or memory|
-|0x806d0067|`E_DIA_VALUE`|Error in computed value (e.g. divide by zero)|
+|0x806d0067|`E_DIA_VALUE`|Error in computed value (such as divide by zero)|
 |0x806d00C8|`E_DIA_COFF_ACCESS`|Error accessing OBJ, LIB or compiler generated PDB when querying a PDB produced by the linker with `/DEBUG:fastlink`|
 |0x806d00C9|`E_DIA_COMP_PDB_ACCESS`|Error accessing compiler generated PDB|
-
 
 ## Requirements
 
@@ -58,4 +57,3 @@ Header: dia2.h
 - [Reference](../../debugger/debug-interface-access/debug-interface-access-sdk-reference.md)
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
-
