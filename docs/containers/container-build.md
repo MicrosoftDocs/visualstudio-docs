@@ -77,7 +77,7 @@ The following table summarize the stages used in the typical Dockerfile created 
 | aotdebug | This stage is used as the base for the final stage when launching from VS to support debugging in regular mode (Default when not using the Debug configuration). |
 
 > [!NOTE]
-> The `aotdebug` stage is only supported for Linux containers. It is available in Visual Studio 2022 17.11 and later.
+> The `aotdebug` stage is only supported for Linux containers. It is used in Visual Studio 2022 17.11 and later if [native Ahead Of Time (AOT) deployment](/dotnet/core/deploying/native-aot) is enabled on the project.
 ### MSBuild
 
 ::: moniker range=">=vs-2022"
