@@ -18,9 +18,9 @@ ms.subservice: general-ide
 #customer intent: As a developer, I want to use the Task List tool in Visual Studio, so I can track tokens in code comments and set up code shortcuts.
 ---
 
-# Use the Task List
+# Use Task List with code comments and shortcuts
 
-The **Task List** tool in Visual Studio lets you track code comments that use tokens like `TODO` and `HACK` or custom tokens. This feature helps you manage task shortcuts that take you directly to a predefined location in code. By default, **Task List** is opens at the bottom of the application window in the Visual Studio Interactive Development Environment (IDE):
+The **Task List** tool in Visual Studio lets you track code comments that use tokens like `TODO` and `HACK` or custom tokens. You can also use this feature to manage task shortcuts that take you directly to a predefined location in code. By default, **Task List** opens at the bottom of the application window in the Visual Studio Interactive Development Environment (IDE):
 
 :::image type="content" source="media/task-list-window.png" border="false" alt-text="Screenshot of the Task List window at the bottom of the application window in Visual Studio." lightbox="media/task-list-window.png":::
 
@@ -31,15 +31,15 @@ If you don't see the **Task List** window, select **View** > **Task List**, or u
 
 ## Use predefined tokens
 
-Visual Studio prepares **Task List** content by scanning your code for comment markers and predefined tokens. Predefined tokens are available for C/C++, C#, and Visual Basic. These tokens include `HACK`, `TODO`, `UNDONE`, and `UnresolvedMergeConflict`. The token labels aren't case-sensitive.
+Visual Studio prepares **Task List** content by scanning your code for comment markers and tokens. Several predefined tokens are available for C/C++, C#, and Visual Basic programs: `HACK`, `TODO`, `UNDONE`, and `UnresolvedMergeConflict`. These token labels are case insensitive.
 
-A code comment consists of three components:
+Visual Studio recognizes a comment when it consists of three components:
 
 - The comment marker, such as `//`, `#`, `<!--`
 
-- The comment token, such as `TODO`, `hack`, `UnDone`
+- The comment token prefix, such as `TODO`, `hack`, `MoveToHeader`
 
-- The comment text
+- The comment text that follows the token
 
 Here's an example of a code comment in C#:
 
@@ -67,6 +67,8 @@ You can create custom tokens for any programming language by following these ste
 
 1. To apply your changes, select **OK**.
 
+When Visual Studio recognizes a custom token, it displays the comment text as a task in **Task List**.
+
 ## Add code task shortcuts
 
 A code task *shortcut* is a bookmark you add in your code that Visual Studio tracks in **Task List**. This type of shortcut has a different icon than a regular bookmark.
@@ -79,7 +81,7 @@ A code task *shortcut* is a bookmark you add in your code that Visual Studio tra
 
 ## Use tasks and shortcuts to access code
 
-After Visual Studio updates **Task List** with your code token instances and code shortcuts, you can use these items to quickly go to the linked locations in your code:
+After Visual Studio updates **Task List** with your code comment token instances and code task shortcuts, you can use these items to quickly go to the linked locations in your code:
 
 1. To go to the location in your code for any task, double-click the task item in **Task List**.
 
