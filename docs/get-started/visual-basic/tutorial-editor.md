@@ -1,5 +1,5 @@
 ---
-title: Get started coding with Visual Basic (VB)
+title: Get started coding with VB
 description: Explore the code editor in Visual Studio and learn some ways that Visual Studio makes writing, navigating, and understanding Visual Basic code easier.
 ms.custom: vs-acquisition
 ms.date: 08/21/2024
@@ -10,19 +10,19 @@ ms.author: meghaanand
 manager: mijacobs
 dev_langs:
 - VB
+
+#customer intent: As a developer, I want to explore the code editor in Visual Studio to make writing Visual Studio code easier.
 ---
 
-# Learn to use the code editor with Visual Basic
+# Tutorial: Learn to use the code editor with Visual Basic
 
-In this 10-minute introduction to the code editor in Visual Studio, you'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding Visual Basic code easier.
-
-> [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+In this tutorial, you'll try out the code editor in Visual Studio. You'll add code to a file to learn some of the ways that Visual Studio makes writing, navigating, and understanding Visual Basic code easier.
 
 This article assumes you're already familiar with Visual Basic. If you aren't, you might want to start with a tutorial like [Create a simple Visual Basic (VB) console app](tutorial-console.md).
 
-> [!TIP]
-> To complete this tutorial, make sure you have the Visual Basic settings selected for Visual Studio. For information about selecting settings for the integrated development environment (IDE), see [Select environment settings](visual-studio-ide.md#select-environment-settings).
+To complete this tutorial, make sure you have the Visual Basic settings selected for Visual Studio. For information about selecting settings for the integrated development environment (IDE), see [Select environment settings](visual-studio-ide.md#select-environment-settings).
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
 
 ## Create a code file
 
@@ -316,11 +316,6 @@ Nobody gets code right the first time, and one of the things you might have to c
 
 ::: moniker-end
 
-## Next step
-
-> [!div class="nextstepaction"]
-> [Learn about projects and solutions](tutorial-projects-solutions.md)
-
 ## See also
 
 - [Code snippets](../../ide/code-snippets.md)
@@ -329,3 +324,8 @@ Nobody gets code right the first time, and one of the things you might have to c
 - [Go To Definition and Peek Definition](../../ide/go-to-and-peek-definition.md)
 - [Refactoring](../../ide/refactoring-in-visual-studio.md)
 - [Use IntelliSense](../../ide/using-intellisense.md)
+
+## Next step
+
+> [!div class="nextstepaction"]
+> [Learn about projects and solutions](tutorial-projects-solutions.md)
