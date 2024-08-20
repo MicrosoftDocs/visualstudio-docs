@@ -1,6 +1,6 @@
 ---
 title: Class Hierarchy of Symbol Types
-description: Review a list of symbol types in the class hierarchy of the Visual Studio debug interface access SDK.
+description: Review a list of symbol types in the class hierarchy of the Visual Studio Debug Interface Access SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -21,7 +21,7 @@ The following table describes the symbol types in the class hierarchy.
 
 |Symbol type|Description|
 |-----------------|-----------------|
-|[UDT](../../debugger/debug-interface-access/udt.md)|Symbol used to represent each class, structure, and union.|
+|[user-defined type (UDT)](../../debugger/debug-interface-access/udt.md)|Symbol used to represent each class, structure, and union.|
 |[Enum (Debug Interface Access SDK)](../../debugger/debug-interface-access/enum-debug-interface-access-sdk.md)|Symbol for enumerated types.|
 |[PointerType](../../debugger/debug-interface-access/pointertype.md)|Symbol for pointer types.|
 |[ArrayType](../../debugger/debug-interface-access/arraytype.md)|Symbol for array types.|
