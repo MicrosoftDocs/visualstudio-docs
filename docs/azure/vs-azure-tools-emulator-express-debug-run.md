@@ -27,7 +27,7 @@ When you create an Azure project, Emulator Express is automatically used. For ex
 
     ![Properties for an Azure cloud service project](./media/vs-azure-tools-emulator-express-debug-run/web-properties.png)
 
-1. Under **Local Development Server**, select **Use Internet Information Services (IIS) Express option**.
+1. Under **Local Development Server**, select **Use IIS Express option**.
 
 1. Under **Emulator**, select **Use Emulator Express**.
 
