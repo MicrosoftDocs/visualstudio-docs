@@ -66,7 +66,7 @@ Visual Studio provides *code snippets* that you can use to quickly and easily ge
 
    A pop-up dialog box appears with information about the `Sub` keyword and how to insert the **Sub** code snippet.
 
-   ![Screenshot showing the IntelliSense for a 'Sub' code snippet in Visual Studio.](media/tutorial-intellisense-snippet.png)
+   :::image type="content" source="media/tutorial-intellisense-snippet.png" alt-text="Screenshot of the IntelliSense for a Sub code snippet in Visual Studio.":::
 
 1. Press **Tab** twice to insert the code snippet.
 
@@ -74,7 +74,7 @@ Visual Studio provides *code snippets* that you can use to quickly and easily ge
 
 The available code snippets vary for different programming languages. You can look at the available code snippets for Visual Basic by choosing **Edit** > **IntelliSense** > **Insert Snippet** (or press **Ctrl**+**K**, **Ctrl**+**X**). For Visual Basic, code snippets are available for the following categories:
 
-![Screenshot showing the Insert Snippet window with a list of category folders that contain Visual Basic code snippets.](media/tutorial-code-snippet-list.png)
+:::image type="content" source="media/tutorial-code-snippet-list.png" alt-text="Screenshot of the Insert Snippet window with a list of category folders that contain Visual Basic code snippets.":::
 
 There are snippets for determining if a file exists on the computer, writing to a text file, reading a registry value, executing a SQL query, or creating a [For Each...Next statement](/dotnet/visual-basic/language-reference/statements/for-each-next-statement), and many more.
 
@@ -168,7 +168,7 @@ The toolbar, which is the row of buttons under the menu bar in Visual Studio, ca
 
 1. Say you're not using the `morewords` array, but you might use it later, so you don't want to delete it. Instead, you can comment out those lines. Select the entire definition of `morewords` to the closing curly brace, and then select the **Comment out the selected lines** button on the toolbar. If you prefer to use the keyboard, select **Ctrl**+**K**, **Ctrl**+**C**.
 
-   :::image type="content" source="media/vs-2022/tutorial-comment-out.png" alt-text="Screenshot showing the toolbar with the button for commenting out code highlighted in red.":::
+   :::image type="content" source="media/vs-2022/tutorial-comment-out.png" alt-text="Screenshot of the toolbar. The button for commenting out code is highlighted in red.":::
 
    The Visual Basic comment character `'` is added to the beginning of each selected line to comment out the code.
 
@@ -239,7 +239,7 @@ The Visual Studio editor makes it easy to inspect the definition of a type or cl
 
    You see IntelliSense show you **Quick Info** about the `query` symbol.
 
-   ![Screenshot showing the IntelliSense word completion window for the word 'query' in the Visual Studio code editor.](media/tutorial-intellisense-completion-list.png)
+   :::image type="content" source="media/tutorial-intellisense-completion-list.png" alt-text="Screenshot of the IntelliSense word completion window for the word 'query' in the Visual Studio code editor."::: 
 
 1. To insert the rest of the word `query` by using IntelliSense's word completion functionality, press **Tab**.
 
