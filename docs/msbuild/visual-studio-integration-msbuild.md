@@ -142,17 +142,17 @@ Adding item type names to the `AvailableItemName` item type will cause items of 
 
 #### To unload and edit a project file in Visual Studio
 
-1. In **Solution Explorer**, open the shortcut menu for the project, and then choose **Unload Project**.
+1. In **Solution Explorer**, right-click on the project node, and then choose **Unload Project**.
 
      The project is marked **(unavailable)**.
 
-2. In **Solution Explorer**, open the shortcut menu for the unavailable project, and then choose **Edit \<Project File>**.
+2. In **Solution Explorer**, right-click on the unavailable project node, and then choose **Edit \<Project File>**.
 
      The project file opens in the Visual Studio XML Editor.
 
 3. Edit, save, and then close the project file.
 
-4. In **Solution Explorer**, open the shortcut menu for the unavailable project, and then choose **Reload Project**.
+4. In **Solution Explorer**, right-click the unavailable project node, and then choose **Reload Project**.
 
 ## IntelliSense and validation
 
