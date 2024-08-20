@@ -123,8 +123,8 @@ With [Visual Studio 2022 version 17.11](/visualstudio/releases/2022/release-note
 
 ## Next steps
 
-- [GitHub Copilot extension for Visual Studio](visual-studio-github-copilot-extension.md)
-- [GitHub Copilot Chat extension for Visual Studio](visual-studio-github-copilot-chat.md)
+- [GitHub Copilot experience for Visual Studio](visual-studio-github-copilot-extension.md)
+- [GitHub Copilot Chat experience for Visual Studio](visual-studio-github-copilot-chat.md)
 - [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/)
 - [Send us suggestions, feedback, and issues](how-to-report-a-problem-with-visual-studio.md)
 - [Support for GitHub Copilot Chat](https://support.github.com)
