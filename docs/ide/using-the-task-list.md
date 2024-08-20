@@ -105,7 +105,7 @@ You can also work with specific columns in the list:
 
    - On the flyout menu, Visual Studio displays a checkmark next to a visible column.
 
-   - To hide a column, unselect the column name on the flyout menu, which removes the checkmark.
+   - To hide a column, unselect the column name on the flyout menu. Visual Studio removes the checkmark.
 
 1. To change the order of the columns in the list, drag the column headers into the desired position.
 
