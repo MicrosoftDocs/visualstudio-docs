@@ -1,5 +1,5 @@
 ---
-description: Retrieves the number of source link blobs. 
+description: Retrieves the number of source link blobs.
 title: "IDiaEnumSourceLink::Count"
 ms.date: "07/18/2024"
 ms.topic: "reference"
