@@ -229,7 +229,7 @@ The Visual Studio editor makes it easy to inspect the definition of a type or cl
 
 ::: moniker range="<=vs-2019"
 
-[IntelliSense](../../ide/using-intellisense.md) is a valuable resource when you're coding. It can show you information about available members of a type, or parameter details for different overloads of a method. You can also use IntelliSense to complete a word after you type enough characters to disambiguate it. You'll now add a line of code to print out the ordered strings to the console window, which is the standard place for output from a program to go.
+[IntelliSense](../../ide/using-intellisense.md) is a valuable resource when you're coding. It can show you information about available members of a type, or parameter details for different overloads of a method. You can also use IntelliSense to complete a word after you type enough characters to disambiguate it. You'll now add a line of code to print the ordered strings to the console window, which is the standard place for output from a program to go.
 
 1. Below the `query` variable, start typing the following code:
 
@@ -255,7 +255,7 @@ The Visual Studio editor makes it easy to inspect the definition of a type or cl
 
 ::: moniker range=">=vs-2022"
 
-[IntelliSense](../../ide/using-intellisense.md) is a valuable resource when you're coding. It can show you information about available members of a type, or parameter details for different overloads of a method. You can also use IntelliSense to complete a word after you type enough characters to disambiguate it. You'll now add a line of code to print out the ordered strings to the console window, which is the standard place for output from the program to go.
+[IntelliSense](../../ide/using-intellisense.md) is a valuable resource when you're coding. It can show you information about available members of a type, or parameter details for different overloads of a method. You can also use IntelliSense to complete a word after you type enough characters to disambiguate it. You'll now add a line of code to print the ordered strings to the console window, which is the standard place for output from the program to go.
 
 1. Below the `query` variable, start typing the following code:
 
