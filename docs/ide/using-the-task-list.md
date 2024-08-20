@@ -26,9 +26,6 @@ The **Task List** tool in Visual Studio lets you track code comments that use to
 
 If you don't see the **Task List** window, select **View** > **Task List**, or use the keyboard shortcut **Ctrl**+**\\**,**T**. Like other feature windows in the Visual Studio IDE, you can move the **Task List** window to any location on the IDE surface.
 
-> [!NOTE]
-> This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Task comments (Visual Studio for Mac)](/visualstudio/mac/task-comments).
-
 ## Use predefined tokens
 
 Visual Studio prepares **Task List** content by scanning your code for comment markers and tokens. Several predefined tokens are available for C/C++, C#, and Visual Basic programs: `HACK`, `TODO`, `UNDONE`, and `UnresolvedMergeConflict`. These token labels are case insensitive.
@@ -115,4 +112,3 @@ You can also work with specific columns in the list:
 ## Related content
 
 - Review the reference for the [Task List, Environment, and Options dialog](../ide/reference/task-list-environment-options-dialog-box.md)
-- Explore [task comments in Visual Studio for Mac](/visualstudio/mac/task-comments)
