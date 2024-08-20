@@ -229,7 +229,7 @@ The Visual Studio editor makes it easy to inspect the definition of a type or cl
 
 ::: moniker range="<=vs-2019"
 
-[IntelliSense](../../ide/using-intellisense.md) is an invaluable resource when you're coding. It can show you information about available members of a type, or parameter details for different overloads of a method. You can also use IntelliSense to complete a word after you type enough characters to disambiguate it. Let's add a line of code to print out the ordered strings to the console window, which is the standard place for output from the program to go.
+[IntelliSense](../../ide/using-intellisense.md) is a valuable resource when you're coding. It can show you information about available members of a type, or parameter details for different overloads of a method. You can also use IntelliSense to complete a word after you type enough characters to disambiguate it. You'll now add a line of code to print out the ordered strings to the console window, which is the standard place for output from a program to go.
 
 1. Below the `query` variable, start typing the following code:
 
@@ -263,11 +263,11 @@ The Visual Studio editor makes it easy to inspect the definition of a type or cl
    For Each str In qu
    ```
 
-   You see IntelliSense show you **Quick Info** about the `query` symbol.
+   IntelliSense shows you Quick Info about the `query` symbol.
 
-   :::image type="content" source="media/vs-2022/tutorial-intellisense-completion-list.png" alt-text="Screenshot showing the IntelliSense word completion window for the word 'query' in the Visual Studio code editor.":::
+   :::image type="content" source="media/vs-2022/tutorial-intellisense-completion-list.png" alt-text="Screenshot of the IntelliSense word completion window for the word 'query' in the Visual Studio code editor.":::
 
-1. To insert the rest of the word `query` by using IntelliSense's word completion functionality, press **Tab**.
+1. To insert the rest of the word `query` by using the IntelliSense word completion functionality, select **Tab**.
 
 1. Finish off the code block to look like the following code.
 
@@ -282,37 +282,37 @@ The Visual Studio editor makes it easy to inspect the definition of a type or cl
 
 ::: moniker range="<=vs-2019"
 
-Nobody gets code right the first time, and one of the things you might have to change is the name of a variable or method. Let's try out Visual Studio's [refactor](../../ide/refactoring-in-visual-studio.md) functionality to rename the `_words` variable to `words`.
+Nobody gets code right the first time, and one of the things you might have to change is the name of a variable or method. You'll now try the Visual Studio [refactor](../../ide/refactoring-in-visual-studio.md) functionality to rename the `_words` variable to `words`.
 
-1. Place your cursor over the definition of the `_words` variable and choose **Rename** from the right-click or context menu.
+1. Right-click the definition of the `_words` variable and select **Rename**.
 
-   A pop-up **Rename** dialog box appears at the top right of the editor.
+   A **Rename** window appears at the upper-right corner of the editor.
 
-1. With the variable `_words` still selected, type in the desired name of **words**. Notice that the reference to `words` in the query is also automatically renamed. Before you press **Enter** or click **Apply**, select the **Include comments** checkbox in the **Rename** pop-up box.
+1. With the variable `_words` still selected, enter the desired name: **words**. Notice that the reference to `words` in the query is automatically renamed. Before you press **Enter** or select **Apply**, select the **Include comments** checkbox in the **Rename** window.
 
-   ![Screenshot showing the Rename dialog box for the variable '_words', with the option for 'Include comments' checked.](media/tutorial-rename.png)
+   :::image type="content" source="media/tutorial-rename.png" alt-text="Screenshot of the Rename window for the variable '_words'. The Include comments checkbox is selected.":::
 
-1. Press **Enter** or click **Apply**.
+1. Press **Enter** or select **Apply**.
 
-   Both occurrences of `words` are renamed, as well as the reference to `words` in the code comment.
+   Both occurrences of `words` are renamed, in addition to the reference to `words` in the code comment.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-Nobody gets code right the first time, and one of the things you might have to change is the name of a variable or method. Let's try out Visual Studio's [refactor](../../ide/refactoring-in-visual-studio.md) functionality to rename the `_words` variable to `words`.
+Nobody gets code right the first time, and one of the things you might have to change is the name of a variable or method. You'll now try the Visual Studio [refactor](../../ide/refactoring-in-visual-studio.md) functionality to rename the `_words` variable to `words`.
 
-1. Place your cursor over the definition of the `_words` variable and choose **Rename** from the right-click or context menu.
+1. Right-click the definition of the `_words` variable and select **Rename**.
 
-   A pop-up **Rename** dialog box appears at the top right of the editor.
+   A rename window appears.
 
-1. With the variable `_words` still selected, type in the desired name of **words**. Notice that the reference to `words` in the query is also automatically renamed. Before you press **Enter** or **Apply**, select the **Include comments** checkbox in the **Rename** pop-up box.
+1. With the variable `_words` still selected, enter the desired name: **words**. Notice that the reference to `words` in the query is automatically renamed. Before you select **Enter**, select the **Include comments** checkbox in the **Rename** window.
 
-   :::image type="content" source="media/vs-2022/tutorial-rename.png" alt-text="Screenshot showing the Rename dialog box for the variable '_words', with the option for 'Include comments' checked.":::
+   :::image type="content" source="media/vs-2022/tutorial-rename.png" alt-text="Screenshot of the Rename window. The 'Include comments' checkbox is selected.":::
 
-1. Press **Enter** or choose **Apply**.
+1. Select **Enter**.
 
-   Both occurrences of `words` are renamed, as well as the reference to `words` in the code comment.
+   Both occurrences of `words` are renamed, in addition to the reference to `words` in the code comment.
 
 ::: moniker-end
 
