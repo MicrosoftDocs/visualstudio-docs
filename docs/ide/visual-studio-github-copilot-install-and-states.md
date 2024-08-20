@@ -31,7 +31,8 @@ GitHub Copilot is installed by default with all workloads. If you choose to excl
 ## Get GitHub Copilot for Visual Studio 2022 versions 17.8 to 17.9 
 
 In Visual Studio 2022 versions 17.8 to 17.9, GitHub Copilot and GitHub Copilot Chat are available to install as two separate extensions. 
-Note: *Installing GitHub Copilot extension is a prerequisite to installing GitHub Copilot Chat.*
+> [!NOTE]
+> Installing GitHub Copilot extension is a prerequisite to installing GitHub Copilot Chat.
 
 ### Install GitHub Copilot
 
