@@ -1,6 +1,6 @@
 ---
 title: "XAML Hot Reload for WPF and UWP apps"
-description: Modify XAML code in running .NETMAUI, WinUI 3, Windows Presentation Foundation (WPF), or Universal Windows Platform (UWP) apps with edit and continue features in XAML Hot Reload.
+description: Modify XAML code in running .NET MAUI, WinUI 3, Windows Presentation Foundation (WPF), or Universal Windows Platform (UWP) apps with edit and continue features in XAML Hot Reload.
 ms.date: 02/25/2022
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,7 +12,7 @@ manager: mijacobs
 ms.subservice: xaml-tools
 monikerRange: ">=vs-2019"
 ---
-# What is XAML Hot Reload ? 
+# What is XAML Hot Reload? 
 
 With XAML Hot Reload, you can incrementally build and test XAML code for your .NET MAUI, WPF, UWP, and WinUI 3 apps. You can do so with the benefit of the running app's data context, authentication state, and other real-world complexity that's hard to simulate during design-time.
 
@@ -23,7 +23,7 @@ With XAML Hot Reload, you can incrementally build and test XAML code for your .N
 
 ## Where to get XAML Hot Reload
 
-Visual Studio XAML Hot Reload is currently supported only when you're running an application in **Visual Studio** -or- **Blend for Visual Studio** (If supported by the framework) with the debugger attached (**F5** or **Start debugging**).
+Visual Studio XAML Hot Reload is currently supported only when you're running an application in **Visual Studio** -or- **Blend for Visual Studio** (if supported by the framework) with the debugger attached (**F5** or **Start debugging**).
 
 You can't enable this experience by using [Attach to process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md) unless you [manually set an environment variable](xaml-hot-reload-troubleshooting.md#verify-that-you-use-start-debugging-rather-than-attach-to-process).
 
