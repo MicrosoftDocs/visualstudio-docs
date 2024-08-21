@@ -15,9 +15,9 @@ manager: mijacobs
 
 After you build a project in the Visual Studio Interactive Development Environment (IDE), you can view logged information about the build in the Visual Studio **Output** window. The output data can be saved to log files that you can view in Visual Studio and other editors. 
 
-The logs can help you troubleshoot issues in the build. You can locate the exact command lines used for all build tools, and get full diagnostic data about the entire build process. The Visual Studio IDE provides you with options to specify the kinds of information you want to view for each build.
+The logs can help you troubleshoot issues in the build. You can locate the exact command lines used for all build tools, and get full diagnostic data about the entire build process. Visual Studio provides options to specify the kinds of information you want to see in the build output and build log files.
 
-This article describes how to configure, generate, and view build log files in Visual Studio.
+This article describes how to generate, configure, and view build log files in Visual Studio.
 
 ## Generate and view build log files
 
@@ -45,11 +45,13 @@ Use the following procedures to generate and view build log files for your scena
 
    You can generate build logs by running MSBuild directly from the command line by using the `-fileLogger` (`-fl`) command-line option. For more information, see [Obtain build logs with MSBuild](../msbuild/obtaining-build-logs-with-msbuild.md).
 
-## Specify information verbosity for build logs
+<a name="to-change-the-amount-of-information-included-in-the-build-log"></a>
 
-You can specify how much information to include in the build log files. The amount of information in the log file columns is measured as *logger verbosity*. The number of log file rows represent *messages collected*. The log verbosity (column values) affects the types of logged messages (row values). **Quiet** verbosity produces minimal logging in the build output. **Diagnostic** is the most verbose setting and generates log files with all possible data.
+## Specify data verbosity for build logs
 
-The following table shows what types of messages are logged based on the log verbosity setting:
+You can specify how much information to include in the build log files. The amount of data in the log file columns is measured as *logger verbosity*. The number of log file rows represent *messages collected*. The log verbosity (column values) affects the types of logged messages (row values). **Quiet** verbosity produces minimal logging in the build output. **Diagnostic** is the most verbose setting and generates log files with all possible data.
+
+The following table shows what types of messages are collected based on the logger verbosity:
 
 | Message type / Verbosity           | Quiet | Minimal | Normal | Detailed | Diagnostic |
 |------------------------------------|:-----:|:-------:|:------:|:--------:|:----------:|
@@ -60,13 +62,15 @@ The following table shows what types of messages are logged based on the log ver
 | Low-importance messages            |       |         |        |    ✅    |    ✅     |
 | Other MSBuild-engine information   |       |         |        |          |    ✅     |
 
-Configure verbosity with the following steps:
+You can configure the logger verbosity with the following steps:
 
-1. In Visual Studio, open the **Tools** > **Options** > **Projects and Solutions** page.
+1. In Visual Studio, select **Tools** > **Options** to open the **Options** dialog.
 
-1. On the **Build and Run** tab, expand the **MSBuild project build output verbosity** dropdown list and select your build output preference. 
+1. On the dialog, expand the **Projects and Solutions** section and select the **Build and Run** tab.
 
-1. Next, expand the **MSBuild project build log file verbosity** dropdown list and select your logging preference. 
+1. Use the **MSBuild project build output verbosity** dropdown list and select your build output preference. 
+
+1. Use the **MSBuild project build log file verbosity** dropdown list and select your logger verbosity preference. 
 
    > [!TIP]
    > If you want to see the command lines used for the compiler and other tools, choose at least the **Detailed** verbosity level.
