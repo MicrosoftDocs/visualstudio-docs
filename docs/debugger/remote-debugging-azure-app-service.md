@@ -45,7 +45,7 @@ Your app service instance now supports remote debugging through Visual Studio.
 
 ## Configure debugging settings
 
-1. Build your app without errors. Stop your app if is running locally.
+1. Build your app without errors. Stop your app if it's running locally.
 
    > [!NOTE]
    > Make sure the state of your local code matches what was deployed to Azure. This ensures that the local symbol files and source code line up with the deployed app.
@@ -72,7 +72,7 @@ Your app service instance now supports remote debugging through Visual Studio.
 
     :::image type="content" source="../debugger/media/vs-2022/visual-studio-remote-debug-attach-to-process.png" alt-text="A screenshot of the attach to process features." lightbox="../debugger/media/vs-2022/visual-studio-remote-debug-attach-to-process.png":::
 
-1. In a C# application file such as `Index.cshtml.cs`, set a breakpoint by clicking in the left margin. Alternatively right-click and choose **Breakpoint** > **Insert breakpoint**.
+1. In a C# application file such as `Index.cshtml.cs`, set a breakpoint by clicking in the left margin. Alternatively, right-click and choose **Breakpoint** > **Insert breakpoint**.
 
 1. In the web app, navigate to the endpoint with the breakpoint. If you're attached to the process but can't hit the breakpoint, make sure your publish profile in Visual Studio is set to a Debug configuration instead of a Release configuration.
 
