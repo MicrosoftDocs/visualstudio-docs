@@ -26,7 +26,7 @@ Starting with Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/rele
 
 ## Observe staged changes with color margins
 
-The first thing you might notice about line-staging support is how the editor visualizes Git changes on both the scroll bar and in the margin.
+The first thing you might notice about line-staging support is how the editor visualizes Git changes in the scroll bar and also in the margin.
 
 :::image type="content" source="media/vs-2022/git-color-margins.png" border="false" alt-text="Screenshot of the color margins in the Visual Studio 2022 editor." lightbox="media/vs-2022/git-color-margins.png":::
 
@@ -74,7 +74,7 @@ You can stage any chunk of code by using the Peek Difference UI. Hover over the 
 :::image type="content" source="media/vs-2022/git-stage-change.png" border="false" alt-text="Screenshot of the Stage Change option in Visual Studio 2022." lightbox="media/vs-2022/git-stage-change.png":::
 
 > [!NOTE]
-> If you prefer a full-screen difference view, you can switch to the **Diff** editor with the **Promote to Document** :::image type="icon" source="media/vs-2022/promote-document-button.png" border="false"::: icon at the top-right of the [**Peek Difference** UI](#peek-difference-support), or use the **Ctrl**+**Alt**+**Home** keyboard shortcut. All features provided by the Peek Difference UI are also available in the **Diff** editor.
+> If you prefer a full-screen difference view, you can switch to the **Diff** editor with the **Promote to Document** :::image type="icon" source="media/vs-2022/promote-document-button.png" border="false"::: icon at the top-right of the [**Peek Difference** UI](#view-staged-changes-with-peek-difference), or use the **Ctrl**+**Alt**+**Home** keyboard shortcut. All features provided by the Peek Difference UI are also available in the **Diff** editor. The following image shows the **Diff** editor view:
 > 
 > :::image type="content" source="media/vs-2022/git-stage-change-difference.png" border="false" alt-text="Screenshot of the Stage Change difference view in Visual Studio 2022." lightbox="media/vs-2022/git-stage-change-difference.png":::
 
