@@ -21,6 +21,8 @@ ms.subservice: general-ide
 
 Developers often need to view the source code definitions for types or class members they use in their code. In Visual Studio, the **Go To Definition** and **Peek Definition** features let you easily view the definition of a type or member. If the source code isn't available, Visual Studio shows the metadata instead.
 
+<a name="go-to-definition"></a>
+
 ## Go to a definition
 
 When you use the **Go To Definition** feature, Visual Studio locates the file that contains the source code for the selected type or member. The source file opens in a new window, and the focus changes to highlight the relevant entry in the source file. Your current file remains open in a separate window:
@@ -43,9 +45,11 @@ To change the modifier key for the shortcut, expand the **Use modifier key** dro
 
 :::image type="content" source="./media/editor-options-go-to-definition.png" border="false" alt-text="Screenshot of the Text Editor options for the Go To Definition feature, including the 'Use modifier key' setting.":::
 
+<a name="peek-definition"></a>
+
 ## Peek at a definition
 
-The **Peek Definition** feature lets you preview the definition of a type without changing the focus from your current file in the editor. Visual Studio opens a condensed **Peek** view window for the source file in place with your current file. You can change the size of the **Peek** view window to see more of the source definition, as needed:
+The **Peek Definition** feature lets you preview the definition of a type without changing the focus from your current file in the editor. Visual Studio opens a condensed **Peek** view window for the source file in place with your current file. You can change the size of the **Peek** view window to see more of the source definition:
 
 :::image type="content" source="./media/peek-definition-view-window.png" border="false" alt-text="Screenshot that shows how Peek Definition opens the source for the selected symbol in a peek view window within the current view." lightbox="./media/peek-definition-view-window.png":::
 
@@ -63,7 +67,7 @@ There are several ways you can access **Peek Definition**:
 
 You can configure the **Ctrl**+**Click** keyboard/mouse shortcut for **Go To Definition** to open the source code file in **Peek** view. Use the **Open definition in peek view** option under **Tools** > **Options** > **Text Editor** > **General**.
 
-:::image type="content" source="./media/editor-options-peek-definition.png" border="false" alt-text="Screenshot of the Text Editor options for the Peek Definition feature.":::
+:::image type="content" source="./media/editor-options-peek-view.png" border="false" alt-text="Screenshot of the Text Editor options for the Peek Definition feature.":::
 
 ### Use breadcrumb path for multiple files
 
