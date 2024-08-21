@@ -31,9 +31,9 @@ Use the following procedures to generate and view build log files for your scena
    
    1. Open the log file in your preferred editor.
 
-- **Managed-code project**:
+- **.NET project**:
 
-   For a managed code project, you instruct Visual Studio to save the log files:
+   For .NET projects, you instruct Visual Studio to save the log files:
 
    1. In Visual Studio, select **Build** > **Build Solution**.
 
@@ -76,7 +76,7 @@ You can configure the logger verbosity with the following steps:
 1. To apply your changes, select **OK**.
 
 > [!IMPORTANT]
-> You must rebuild the project for your changes to take effect in the **Output** window (all projects) and the *\<ProjectName>.txt* file (C++ projects only).
+> You must rebuild the project for your changes to take effect in the **Output** window. For C++ projects, the project rebuild also ensures the changes are reflected in the *\<ProjectName>.txt* file.
 
 For more information, see [Options dialog box, Projects and Solutions, Build and Run](./reference/options-dialog-box-projects-and-solutions-build-and-run.md) and <xref:Microsoft.Build.Framework.LoggerVerbosity>.
 
