@@ -1,7 +1,7 @@
 ---
 title: View, save, and configure build log files
 description: Explore how to configure build log files with information about the compiler and other tools for troubleshooting build failures.
-ms.date: 08/20/2024
+ms.date: 08/21/2024
 ms.subservice: compile-build
 ms.topic: how-to
 author: ghogen
@@ -44,8 +44,6 @@ Use the following procedures to generate and view build log files for your scena
 - **MSBuild**:
 
    You can generate build logs by running MSBuild directly from the command line by using the `-fileLogger` (`-fl`) command-line option. For more information, see [Obtain build logs with MSBuild](../msbuild/obtaining-build-logs-with-msbuild.md).
-
-<a name="to-change-the-amount-of-information-included-in-the-build-log"></a>
 
 ## Specify data verbosity for build logs
 
