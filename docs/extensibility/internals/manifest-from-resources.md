@@ -10,7 +10,7 @@ ms.subservice: extensibility-integration
 ---
 # Manifest from Resources
 
-The Manifest from Resources tool is a console application that takes a list of image resources (.png or .xaml files) and generates an .imagemanifest file that allows those images to be used with the Visual Studio Image Service. Additionally, this tool can be used to add images to an existing .imagemanifest. This tool is useful for adding high-DPI and theming support for images to a Visual Studio extension. The generated .imagemanifest file should be included in and deployed as a part of a Visual Studio extension (.vsix).
+The Manifest from Resources tool is a console application that takes a list of image resources (.png or .xaml files). Using that list, it generates an .imagemanifest file that allows those images to be used with the Visual Studio Image Service. Additionally, this tool can be used to add images to an existing .imagemanifest. This tool is useful for adding high-DPI and theming support for images to a Visual Studio extension. The generated .imagemanifest file should be included in and deployed as a part of a Visual Studio extension (.vsix).
 
 ## How to use the tool
  **Syntax**
@@ -31,8 +31,8 @@ The Manifest from Resources tool is a console application that takes a list of i
 |/newGuids|Setting this flag tells the tool to create a new value for the images' GUID symbol instead of merging the one from the existing manifest.|Optional|
 |/newIds|Setting this flag tells the tool to create new ID symbol values for every image instead of merging values from the existing manifest.|Optional|
 |/noLogo|Setting this flag stops product and copyright information from printing.|Optional|
-|/?|Print out Help information.|Optional|
-|/help|Print out Help information.|Optional|
+|/?|Prints Help information.|Optional|
+|/help|Prints out Help information.|Optional|
 
  **Examples**
 
@@ -54,14 +54,14 @@ The Manifest from Resources tool is a console application that takes a list of i
 
 - Running this tool on the same image strip multiple times for the same .imagemanifest will result in duplicate manifest entries. This outcome is because the tool attempts to split the image strip into standalone images and then add those to the existing manifest.
 
-- Merging (omitting /newGuids or /newIds) should only be done for tool-generated manifests. Manifests that have been customized or generated through other means might not be merged correctly.
+- Merging (omitting /newGuids or /newIds) should only be done for tool-generated manifests. Manifests that are customized or generated through other means might not be merged correctly.
 
 - Manifests generated for native assemblies might need to be hand-edited after generation to make the ID symbols match the resource IDs from the native assembly's .rc file.
 
 ## Sample Output
  **Simple image manifest**
 
- An image manifest will resemble this .xml file:
+ An image manifest resembles this .xml file:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
