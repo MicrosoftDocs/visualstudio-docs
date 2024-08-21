@@ -1,5 +1,5 @@
 ---
-description: "Positions the enumerator by performing a lookup by virtual address (VA). Method of IDiaEnumSymbolsByAddr2."
+description: Positions the enumerator by performing a lookup by virtual address (VA). Method of IDiaEnumSymbolsByAddr2.
 title: "IDiaEnumSymbolsByAddr2::symbolByVAEx"
 ms.date: "7/2/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumSymbolsByAddr2::symbolByVAEx
 
 Positions the enumerator by performing a lookup by virtual address (VA).
@@ -31,7 +32,7 @@ HRESULT symbolByVA (
  `fPromoteBlockSym`
 
 [in] Whether or not to enumerate SymTagBlock symbols or promote them to an outer/parent symbol (like SymTagFuncton or SymTagPublicSymbol). If `FALSE` returns unpromoted SymTagBlock. Otherwise behaves identically to [`IDiaEnumSymbolsByAddr::symbolByVA`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-symbolbyva.md)
- 
+
  `virtualAddress`
 
 [in] Virtual address.

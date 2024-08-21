@@ -1,5 +1,5 @@
 ---
-description: Initiates access to a source of debugging symbols. Extends IDiaDataSource. 
+description: Initiates access to a source of debugging symbols. Extends IDiaDataSource.
 title: IDiaDataSourceEx
 ms.date: "7/2/2024"
 ms.topic: "reference"
