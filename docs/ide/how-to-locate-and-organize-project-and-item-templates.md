@@ -29,9 +29,9 @@ By default, templates installed with Visual Studio are placed in the following l
 
 ::: moniker range="vs-2019"
 
-- *%Program Files (x86)%\\Microsoft Visual Studio\\2019\\\<edition>\\Common7\IDE\ProjectTemplates\\<Language\>\\<Locale ID\>*
+- *%ProgramFiles (x86)%\\Microsoft Visual Studio\\2019\\\<edition>\\Common7\IDE\ProjectTemplates\\<Language\>\\<Locale ID\>*
 
-- *%Program Files (x86)%\\Microsoft Visual Studio\\2019\\\<edition>\Common7\IDE\ItemTemplates\\<Language\>\\<Locale ID\>*
+- *%ProgramFiles (x86)%\\Microsoft Visual Studio\\2019\\\<edition>\Common7\IDE\ItemTemplates\\<Language\>\\<Locale ID\>*
 
 For example, the following directory has the Visual Basic item templates for English (LCID 1033):
 
@@ -40,9 +40,9 @@ For example, the following directory has the Visual Basic item templates for Eng
 ::: moniker-end
 ::: moniker range="vs-2022"
 
-- *%Program Files%\\Microsoft Visual Studio\\2022\\\<edition>\\Common7\IDE\ProjectTemplates\\<Language\>\\<Locale ID\>*
+- *%ProgramFiles%\\Microsoft Visual Studio\\2022\\\<edition>\\Common7\IDE\ProjectTemplates\\<Language\>\\<Locale ID\>*
 
-- *%Program Files%\\Microsoft Visual Studio\\2022\\\<edition>\Common7\IDE\ItemTemplates\\<Language\>\\<Locale ID\>*
+- *%ProgramFiles%\\Microsoft Visual Studio\\2022\\\<edition>\Common7\IDE\ItemTemplates\\<Language\>\\<Locale ID\>*
 
 For example, the following directory has the Visual Basic item templates for English (LCID 1033):
 
