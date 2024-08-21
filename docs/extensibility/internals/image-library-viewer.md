@@ -1,7 +1,7 @@
 ---
 title: Image Library Viewer
 description: Learn about the Visual Studio Image Library Viewer tool that loads and searches image manifests, allowing you to view and manipulate image attributes.
-ms.date: 11/04/2016
+ms.date: 08/21/2024
 ms.topic: reference
 author: maiak
 ms.author: maiak
