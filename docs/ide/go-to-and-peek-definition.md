@@ -1,7 +1,7 @@
 ---
 title: View type definitions with Go To and Peek features
 description: Explore the Go To Definition and Peek Definition features that enable you to easily view the definition of a type or member in Visual Studio.
-ms.date: 08/20/2024
+ms.date: 08/21/2024
 ms.topic: concept-article
 helpviewer_keywords:
 - code editor, view definition
@@ -21,11 +21,9 @@ ms.subservice: general-ide
 
 Developers often need to view the source code definitions for types or class members they use in their code. In Visual Studio, the **Go To Definition** and **Peek Definition** features let you easily view the definition of a type or member. If the source code isn't available, Visual Studio shows the metadata instead.
 
-<a name="go-to-definition"></a>
-
 ## Go to a definition
 
-When you use the **Go To Definition** feature, Visual Studio locates the file that contains the source code for the selected type or member. The source file opens in a new window, and the focus changes to highlight the relevant entry in the source file. Your current file remains open in a separate window:
+When you use the **Go To Definition** feature, Visual Studio locates the source code for the selected type or member. If the source code is in a different file, the file opens in a new window. Visual Studio changes the current focus to highlight the relevant entry.
 
 :::image type="content" source="./media/go-to-definition-new-window.png" border="false" alt-text="Screenshot that shows how Go To Definition opens the source file for the selected symbol in a new window." lightbox="./media/go-to-definition-new-window.png":::
 
@@ -44,8 +42,6 @@ You can enable or disable the **Ctrl**+**Click** shortcut for **Go To Definition
 To change the modifier key for the shortcut, expand the **Use modifier key** dropdown list and select **Ctrl** (default), **Alt**, or **Ctrl**+**Alt**:
 
 :::image type="content" source="./media/editor-options-go-to-definition.png" border="false" alt-text="Screenshot of the Text Editor options for the Go To Definition feature, including the 'Use modifier key' setting.":::
-
-<a name="peek-definition"></a>
 
 ## Peek at a definition
 
@@ -84,7 +80,7 @@ When you try to look at the definition for a C# type or member and the source co
 :::image type="content" source="./media/view-source-metadata.png" border="false" alt-text="Screenshot that shows how Visual Studio displays metadata only when the source code for the selected symbol isn't available." lightbox="./media/view-source-metadata.png":::
 
 > [!NOTE]
-> If you try to look at the definition for an *internal* type or member, Visual Studio doesn't display the metadata as source code, regardless of whether the referencing assembly is a *friend*.
+> If you try to look at the definition for an *internal* type or member, Visual Studio doesn't display the metadata as source code, regardless of whether the referencing assembly is a *friend*. For more information, see [Friend assemblies](/dotnet/standard/assembly/friend).
 
 ### View decompiled source definitions (C#)
 
@@ -93,7 +89,7 @@ When the source code for the selected C# symbol isn't unavailable, you can set a
 :::image type="content" source="./media/view-source-decompiled.png" border="false" alt-text="Screenshot that shows how Visual Studio displays decompiled source code when the definition for the selected symbol isn't available." lightbox="./media/view-source-decompiled.png":::
 
 > [!NOTE]
-> Visual Studio reconstructs method bodies by using ILSpy decompilation. The first time you access this feature, you must agree to a legal disclaimer regarding software licensing and copyright and trademark laws.
+> Visual Studio reconstructs method bodies by using [ILSpy](https://github.com/icsharpcode/ILSpy) decompilation. The first time you access this feature, you must agree to a legal disclaimer regarding software licensing and copyright and trademark laws.
 
 ## Related content
 
