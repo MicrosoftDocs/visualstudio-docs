@@ -15,15 +15,15 @@ ms.author: ghogen
 # Deploy an ASP.NET container to a container registry using Visual Studio
 
 Docker is a lightweight container engine, similar in some ways to a virtual machine, which you can use to host applications and services.
-This tutorial walks you through using Visual Studio to publish your containerized application to an [Azure Container Registry](https://azure.microsoft.com/services/container-registry).
+This tutorial walks you through using Visual Studio to publish your containerized application to an [Azure Container Registry](https://azure.microsoft.com/products/container-registry).
 
-If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/dotnet/?utm_source=acr-publish-doc&utm_medium=docs&utm_campaign=docs) before you begin.
+If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/pricing/purchase-options/azure-account?icid=dotnet?utm_source=acr-publish-doc&utm_medium=docs&utm_campaign=docs) before you begin.           
 
 ## Prerequisites
 
 ::: moniker range="vs-2019"
 
-- Install the latest version of [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the "ASP.NET and web development" workload.
+- Install the latest version of [Visual Studio 2019](https://visualstudio.microsoft.com/vs/older-downloads/) with the "ASP.NET and web development" workload.
 
 ::: moniker-end
 ::: moniker range=">=vs-2022"
@@ -69,15 +69,18 @@ The following steps guide you through creating a basic ASP.NET Core app that you
    | ------------ |  ------- | -------------------------------------------------- |
    | **DNS Prefix** | Enter a globally unique name. | Name that uniquely identifies your container registry. |
    | **Subscription** | Choose your subscription. | The Azure subscription to use. |
-   | **[Resource Group](/azure/azure-resource-manager/resource-group-overview)** | Enter your resource group. | Name of the resource group in which to create your container registry. Select **New** to create a new resource group. |
+   | **[Resource Group](/azure/azure-resource-manager/management/overview.md#resource-groups)**| Enter your resource group. | Name of the resource group in which to create your container registry. Select **New** to create a new resource group. |
    | **[SKU](/azure/container-registry/container-registry-skus)** | Standard | Select the service tier of the container registry. |
-   | **Registry Location** | Choose a nearby location. | Choose a location in a [region](https://azure.microsoft.com/regions/) close to you or close to other services that you expect to use the container registry. |
+   | **Registry Location** | Choose a nearby location. | Choose a location in a [region](https://azure.microsoft.com/explore/global-infrastructure/geographies/) close to you or close to other services that you expect to use the container registry. |
 
    :::image type="content" source="media/hosting-web-apps-in-docker/vs-azure-container-registry-provisioning-dialog-2019.png" border="false" alt-text="Screenshot that shows how to enter values in the dialog to create a new Azure Container Registry.":::
 
 1. After you enter the resource values, select **Create**.
 
-1. Confirm your configuration settings, and select **Finish** to complete the process.
+   Visual Studio validates the property values and creates the new container resource.
+   When the process completes, Visual Studio returns to the **Publish** dialog and selects the new container in the list.
+
+1. Select **Finish** to publish the new container.
 
 ::: moniker-end
 ::: moniker range=">=vs-2022"
@@ -88,7 +91,7 @@ The following steps guide you through creating a basic ASP.NET Core app that you
 
    :::image type="content" source="media/container-tools/vs-2022/docker-container-registry.png" border="false" alt-text="Screenshot that shows the Publish dialog and how to choose Docker Container Registry.":::
 
-1. On the **Container Registry** tab, select the **Create new** option at the right:
+1. On the **Registry** tab, select the **Create new** (+) option at the right:
 
    :::image type="content" source="media/container-tools/vs-2022/select-existing-or-create-new-azure-container-registry.png" border="false" alt-text="Screenshot of the Publish dialog that shows how to choose Create New Azure container registry.":::
 
@@ -98,15 +101,18 @@ The following steps guide you through creating a basic ASP.NET Core app that you
    | ------------ |  ------- | -------------------------------------------------- |
    | **DNS Prefix** | Enter a globally unique name. | Name that uniquely identifies your container registry. |
    | **Subscription** | Choose your subscription. | The Azure subscription to use. |
-   | **[Resource Group](/azure/azure-resource-manager/resource-group-overview)** | Enter your resource group. | Name of the resource group in which to create your container registry. Select **New** to create a new resource group. |
+   | **[Resource Group](/azure/azure-resource-manager/management/overview.md#resource-groups)**| Enter your resource group. | Name of the resource group in which to create your container registry. Select **New** to create a new resource group. |
    | **[SKU](/azure/container-registry/container-registry-skus)** | Standard | Select the service tier of the container registry. |
-   | **Registry Location** | Choose a nearby location. | Choose a location in a [region](https://azure.microsoft.com/regions/) close to you or close to other services that you expect to use the container registry. |
+   | **Registry Location** | Choose a nearby location. | Choose a location in a [region](https://azure.microsoft.com/explore/global-infrastructure/geographies/) close to you or close to other services that you expect to use the container registry. |
 
    :::image type="content" source="media/container-tools/vs-2022/vs-azure-container-registry-provisioning-dialog.png" border="false" alt-text="Screenshot that shows how to enter values in the dialog to create a new Azure Container Registry.":::
 
 1. After you enter the resource values, select **Create**.
 
-1. Confirm your configuration settings, and select **Finish** to complete the process.
+   Visual Studio validates the property values and creates the new container resource.
+   When the process completes, Visual Studio returns to the **Publish** dialog and selects the new container in the list.
+
+1. Select **Finish** to publish the new container.
 
 ::: moniker-end
 
