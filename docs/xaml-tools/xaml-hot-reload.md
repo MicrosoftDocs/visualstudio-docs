@@ -38,7 +38,7 @@ XAML Hot Reload is especially helpful in these scenarios:
 ## Supported OS
 
 |Supported Application Types|Operating System and Tools|
-|-|-|-|
+|---|---|
 |.NET MAUI|.NET6+|
 |Windows Presentation Foundation (WPF) |.NET Framework 4.6+, .NET Core, and .NET 5+</br>Windows 7 and later |
 |Universal Windows apps (UWP)|Windows 10 and later, with the [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-sdk/) 14393+ and later|
