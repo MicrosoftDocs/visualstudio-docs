@@ -2,7 +2,7 @@
 title: Stage lines of code in Visual Studio
 titleSuffix: ""
 description: Stage multiple lines of code at the same time or split changes across different commits by using Git from directly within Visual Studio.
-ms.date: 08/21/2024
+ms.date: 08/22/2024
 ms.topic: concept-article
 author: ghogen
 ms.author: ghogen
@@ -87,4 +87,4 @@ After you prepare your commit by reviewing and staging the desired changes, you 
 ## Related content
 
 - [Push to remote](git-push-remote.md)
-- Explore the [Git experience in Visual Studio](git-with-visual-studio.md)
+- Learn [About Git in Visual Studio](git-with-visual-studio.md)
