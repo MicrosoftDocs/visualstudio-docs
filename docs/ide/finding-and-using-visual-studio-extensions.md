@@ -68,7 +68,7 @@ To install extensions from Visual Studio:
 
 ::: moniker range="vs-2022"
 
-  After the download completes, you see a notification at the top of Extension Manager: "Your changes are scheduled. The modifications will begin when Visual Studio is closed."
+  After the download completes, you see a notification at the top of Extension Manager: "Your changes are scheduled. The modifications will begin when Microsoft Visual Studio is closed."
 
   :::image type="content" source="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png" alt-text="Screenshot of a notification in Extension Manager." lightbox="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png":::
 
