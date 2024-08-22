@@ -59,6 +59,8 @@ The following steps guide you through creating a basic ASP.NET Core app that you
 
    :::image type="content" source="media/container-tools/vs-2019/docker-container-registry.png" border="false" alt-text="Screenshot that shows the Publish dialog and how to choose Docker Container Registry.":::
 
+1. On the **Specific target** tab, select **Azure Container Registry**, and then select **Next**.
+
 1. On the **Container Registry** tab, select the **Create a new Azure Container Registry** option at the bottom:
 
    :::image type="content" source="media/container-tools/vs-2019/select-existing-or-create-new-azure-container-registry.png" border="false" alt-text="Screenshot of the Publish dialog that shows how to choose Create New Azure container registry.":::
@@ -67,11 +69,11 @@ The following steps guide you through creating a basic ASP.NET Core app that you
 
    | Setting      | Suggested value  | Description                                |
    | ------------ |  ------- | -------------------------------------------------- |
-   | **DNS Prefix** | Enter a globally unique name. | Name that uniquely identifies your container registry. |
-   | **Subscription** | Choose your subscription. | The Azure subscription to use. |
-   | **[Resource Group](/azure/azure-resource-manager/management/overview)**| Enter your resource group. | Name of the resource group in which to create your container registry. Select **New** to create a new resource group. |
-   | **[SKU](/azure/container-registry/container-registry-skus)** | Standard | Select the service tier of the container registry. |
-   | **Registry Location** | Choose a nearby location. | Choose a location in a [region](https://azure.microsoft.com/explore/global-infrastructure/geographies/) close to you or close to other services that you expect to use the container registry. |
+   | **DNS Prefix** | Globally unique name | Name that uniquely identifies your container registry. |
+   | **Subscription** | Your subscription | The Azure subscription to use. |
+   | **[Resource Group](/azure/azure-resource-manager/management/overview)**| Your resource group | Name of the resource group in which to create your container registry. Select **New** to create a new resource group. |
+   | **[SKU](/azure/container-registry/container-registry-skus)** | "Standard" | Select the service tier of the container registry. |
+   | **Registry Location** | A nearby location | Choose a location in a [region](https://azure.microsoft.com/explore/global-infrastructure/geographies/) close to you or close to other services that you expect to use the container registry. |
 
    :::image type="content" source="media/hosting-web-apps-in-docker/vs-azure-container-registry-provisioning-dialog-2019.png" border="false" alt-text="Screenshot that shows how to enter values in the dialog to create a new Azure Container Registry.":::
 
@@ -91,6 +93,8 @@ The following steps guide you through creating a basic ASP.NET Core app that you
 
    :::image type="content" source="media/container-tools/vs-2022/docker-container-registry.png" border="false" alt-text="Screenshot that shows the Publish dialog and how to choose Docker Container Registry.":::
 
+1. On the **Specific target** tab, select **Azure Container Registry**, and then select **Next**.
+
 1. On the **Registry** tab, select the **Create new** (+) option at the right:
 
    :::image type="content" source="media/container-tools/vs-2022/select-existing-or-create-new-azure-container-registry.png" border="false" alt-text="Screenshot of the Publish dialog that shows how to choose Create New Azure container registry.":::
@@ -99,11 +103,11 @@ The following steps guide you through creating a basic ASP.NET Core app that you
 
    | Setting      | Suggested value  | Description                                |
    | ------------ |  ------- | -------------------------------------------------- |
-   | **DNS Prefix** | Enter a globally unique name. | Name that uniquely identifies your container registry. |
-   | **Subscription** | Choose your subscription. | The Azure subscription to use. |
-   | **[Resource Group](/azure/azure-resource-manager/management/overview)**| Enter your resource group. | Name of the resource group in which to create your container registry. Select **New** to create a new resource group. |
-   | **[SKU](/azure/container-registry/container-registry-skus)** | Standard | Select the service tier of the container registry. |
-   | **Registry Location** | Choose a nearby location. | Choose a location in a [region](https://azure.microsoft.com/explore/global-infrastructure/geographies/) close to you or close to other services that you expect to use the container registry. |
+   | **DNS Prefix** | Globally unique name | Name that uniquely identifies your container registry. |
+   | **Subscription** | Your subscription | The Azure subscription to use. |
+   | **[Resource Group](/azure/azure-resource-manager/management/overview)**| Your resource group | Name of the resource group in which to create your container registry. Select **New** to create a new resource group. |
+   | **[SKU](/azure/container-registry/container-registry-skus)** | "Standard" | Select the service tier of the container registry. |
+   | **Registry Location** | A nearby location | Choose a location in a [region](https://azure.microsoft.com/explore/global-infrastructure/geographies/) close to you or close to other services that you expect to use the container registry. |
 
    :::image type="content" source="media/container-tools/vs-2022/vs-azure-container-registry-provisioning-dialog.png" border="false" alt-text="Screenshot that shows how to enter values in the dialog to create a new Azure Container Registry.":::
 
