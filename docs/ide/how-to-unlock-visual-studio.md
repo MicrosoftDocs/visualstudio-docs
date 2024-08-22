@@ -54,7 +54,7 @@ This message indicates that, although your subscription might still be valid, th
 
 Before the license token goes stale, Visual Studio first shows a warning message that asks you to re-enter your credentials.
 
-If you don't re-enter your credentials, the token will evetually expire, and the **Account Settings** dialog will notify of the number of days remaining before your token becomes stale. After your token expires, you must re-enter your credentials for the account before you can continue using Visual Studio.
+If you don't re-enter your credentials, the token will eventually expire, and the **Account Settings** dialog will notify of the number of days remaining before your token becomes stale. After your token expires, you must re-enter your credentials for the account before you can continue using Visual Studio.
 
 Note that CA policies that are enabled on an account might affect the account state or license. You can [troubleshoot the CA/MFA issues](work-with-multi-factor-authentication.md#troubleshoot-sign-in-issues) to find a resolution. For accounts that are associated with multiple Microsoft Entra ID tenants, [filtering out nonessential tenants](work-with-multi-factor-authentication.md#how-to-filter-out-individual-tenants) might help. You can do that by using the **Filter account** dialog (**File > Account settings > Apply Filter**). When [re-authenticating an account](work-with-multi-factor-authentication.md#reauthenticating-an-account), you can also filter out any directories that have access issues by using the **Re-enter your credentials** dialog.
 
