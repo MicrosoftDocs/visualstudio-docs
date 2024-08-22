@@ -54,7 +54,7 @@ This message indicates that, although your subscription might still be valid, th
 
 Before the license token goes stale, Visual Studio first shows a warning message that asks you to re-enter your credentials.
 
-If you don't re-enter your credentials, the expiration date for the token approaches and the **Account Settings** dialog tells you how many days are left before your token becomes stale. After your token expires, you must re-enter your credentials for the account before you can continue using Visual Studio.
+If you don't re-enter your credentials, the token will evetually expire, and the **Account Settings** dialog will notify of the number of days remaining before your token becomes stale. After your token expires, you must re-enter your credentials for the account before you can continue using Visual Studio.
 
 Note that CA policies that are enabled on an account might affect the account state or license. You can [troubleshoot the CA/MFA issues](work-with-multi-factor-authentication.md#troubleshoot-sign-in-issues) to find a resolution. For accounts that are associated with multiple Microsoft Entra ID tenants, [filtering out nonessential tenants](work-with-multi-factor-authentication.md#how-to-filter-out-individual-tenants) might help. You can do that by using the **Filter account** dialog (**File > Account settings > Apply Filter**). When [re-authenticating an account](work-with-multi-factor-authentication.md#reauthenticating-an-account), you can also filter out any directories that have access issues by using the **Re-enter your credentials** dialog.
 
@@ -67,7 +67,7 @@ If your extended trial or subscription is expired and you no longer have access 
 
 :::image type="content" source="media/vs-2022/expired-license-account-settings-dialog.png" alt-text="Screenshot of an expired license notification in Visual Studio." border="false":::
 
-If you have another subscription that's associated with a different account, [add that account](signing-in-to-visual-studio.md#add-and-switch-user-accounts-in-visual-studio) to the **All Accounts** list on the left side of the dialog box by selecting it in the **Add** list.
+If you have another subscription that's associated with a different account, [add that account](signing-in-to-visual-studio.md#add-and-switch-user-accounts-in-visual-studio) to the **All Accounts** list on the left side of the dialog box by selecting the **+Add** dropdown.
 
 You can also enter the [product key for your Visual Studio subscription](/visualstudio/subscriptions/product-keys) in the **Account Settings** dialog. To do that, select **Unlock with a Product Key** and enter the product key in the **Enter a product key** dialog.
 
