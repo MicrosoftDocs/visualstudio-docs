@@ -54,7 +54,7 @@ Use **Tools** > **Options** > **Unreal Engine** to reach the options to configur
 
 - **Clear on Launch**: Clear the log window when the game is launched.
 - **Remember filters**: Remember the filters you set in the log window when you close Visual Studio.
-- **Request JSON messages**: Request that log entries in the JSON format. JSON provides a structured format that is easy to parse and process programmatically. This makes it simpler to extract specific information from log messages, such as error details, timestamps, and other metadata.
+- **Request JSON messages**: Request that log entries in JSON format. JSON provides a structured format that is easy to parse and process programmatically. This makes it simpler to extract specific information from log messages, such as error details, timestamps, and other metadata.
 - **Show automatically**: Show the log window automatically when the game is launched in Visual Studio.
 
 ## Related content
