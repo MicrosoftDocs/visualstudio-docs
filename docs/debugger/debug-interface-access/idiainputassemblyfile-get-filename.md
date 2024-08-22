@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the orginal assembly file name."
+description: Retrieves the orginal assembly file name.
 title: "IDiaInputAssemblyFile::get_fileName"
 ms.date: "07/18/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaInputAssemblyFile::get_fileName
 
 Retrieves the orginal assembly file name.
@@ -28,7 +29,7 @@ HRESULT get_fileName(
 
  `pRetVal`
 
-[out] Returns the the original filename of the input assembly.
+[out] Returns the original filename of the input assembly.
 
 ## Return Value
 

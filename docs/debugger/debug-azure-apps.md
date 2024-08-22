@@ -31,7 +31,7 @@ To debug a production app hosted in:
 
 To remote debug:
 
-- ASP.NET on IIS (Azure App Service or an Azure VM), see [Remote Debugging ASP.NET on Azure](remote-debugging-azure.md).
+- ASP.NET on Internet Information Services (IIS) (Azure App Service or an Azure VM), see [Remote Debugging ASP.NET on Azure](remote-debugging-azure.md).
 
 - ASP.NET on Azure Service Fabric, see [Debug a remote Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application)
 

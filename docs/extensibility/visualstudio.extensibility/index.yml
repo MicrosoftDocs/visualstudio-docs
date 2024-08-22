@@ -53,6 +53,8 @@ landingContent:
             url: ./output-window/output-window.md
           - text: Project
             url: ./project/project.md
+          - text: Settings
+            url: ./settings/settings.md
           - text: Tool windows
             url: ./tool-window/tool-window.md
           - text: User prompts

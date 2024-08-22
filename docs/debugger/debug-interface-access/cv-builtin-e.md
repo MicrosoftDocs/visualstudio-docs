@@ -24,7 +24,7 @@ typedef enum CV_builtin_e
 {
     // 0x0000 - 0x01ff - Reserved.
     CV_BI_INVALID                       = 0x0000,
-    
+
     // 0x0200 - 0x03ff - HLSL types.
 
     CV_BI_HLSL_INTERFACE_POINTER        = 0x0200,
@@ -66,7 +66,7 @@ typedef enum CV_builtin_e
     CV_BI_HLSL_CONSTANT_BUFFER          = 0x0224,
 
     // 0x0400 - 0xffff - Unused.
-    
+
 } CV_builtin_e;
 ```
 
