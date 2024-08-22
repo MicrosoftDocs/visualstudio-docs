@@ -44,13 +44,13 @@ In the Visual Studio IDE, Extension Manager is the tool you use to find, install
 
 ::: moniker range="vs-2022"
 
-:::image type="content" source="media/finding-using-visual-studio-extensions/vs-2022/extensions-and-updates.png" alt-text="Screenshot of Extension Manager in Visual Studio":::
+:::image type="content" source="media/finding-using-visual-studio-extensions/vs-2022/extensions-and-updates.png" alt-text="Screenshot of Extension Manager in Visual Studio.":::
 
 ::: moniker-end
 
 ::: moniker range="<=vs-2019"
 
-:::image type="content" source="media/vs-2019/extensions-and-updates.png" alt-text="Screenshot of Extension Manager in Visual Studio":::
+:::image type="content" source="media/vs-2019/extensions-and-updates.png" alt-text="Screenshot of Extension Manager in Visual Studio.":::
 
 ::: moniker-end
 
@@ -97,7 +97,7 @@ Extensions that are packaged in *.vsix* files might be available in locations ot
 If you want to stop using an extension, you can either disable it or uninstall it. Disabling an extension keeps it installed but unloaded. Find the extension and select **Uninstall** or **Disable**. Restart Visual Studio to unload a disabled extension.
 
 > [!NOTE]
-> You can disable VSIX-based extensions but not extensions that are installed via MSI. MSI-installed extenstions can only be uninstalled.
+> You can disable VSIX-based extensions but not extensions that are installed via MSI. MSI-installed extensions can only be uninstalled.
 
 ## Manage extensions
 
