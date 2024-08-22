@@ -22,7 +22,7 @@ If you are building localized versions of a project, all user interface elements
 The library of common tasks that is provided with MSBuild includes a `GenerateResource` task that you can use to compile resources in either *.resx* or text files. This task includes the `Sources` parameter to specify which resource files to compile and the `OutputResources` parameter to specify names for the output resource files. For more information on the `GenerateResource` task, see [GenerateResource task](../msbuild/generateresource-task.md).
 
 > [!CAUTION]
-> Resources in `.resx` files may be serialized using `BinaryFormatter`, which is [not secure](/dotnet/standard/serialization/binaryformatter-security-guide). Only include `.resx` files that you trust in your build process.
+> Resources in `.resx` files may be serialized using `BinaryFormatter`, which is [not secure](/dotnet/standard/serialization/binaryformatter-security-guide). Include only those `.resx` files in your build process that you trust.
 
 #### To compile resources with MSBuild
 
