@@ -198,7 +198,7 @@ The code block collapses to just the first line, followed by an ellipsis (`...`)
 
 ::: moniker range="<=vs-2019"
 
-The Visual Studio editor makes it easy to inspect the definition of a type, method, etc. One way is to navigate to the file that contains the definition, for example by choosing **Go to Definition** anywhere the symbol is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../../ide/go-to-and-peek-definition.md#peek-definition). Let's peek at the definition of the `String` type.
+The Visual Studio editor makes it easy to inspect the definition of a type, method, etc. One way is to navigate to the file that contains the definition, for example by choosing **Go to Definition** anywhere the symbol is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../../ide/go-to-and-peek-definition.md#peek-at-a-definition). Let's peek at the definition of the `String` type.
 
 1. Right-click on the word `String` and choose **Peek Definition** from the content menu. Or, press **Alt**+**F12**.
 
@@ -212,7 +212,7 @@ The Visual Studio editor makes it easy to inspect the definition of a type, meth
 
 ::: moniker range=">=vs-2022"
 
-The Visual Studio editor makes it easy to inspect the definition of a type or class member. One way is to navigate to the file that contains the definition, for example by choosing **Go to Definition** anywhere the symbol is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../../ide/go-to-and-peek-definition.md#peek-definition). Let's peek at the definition of the `String` type.
+The Visual Studio editor makes it easy to inspect the definition of a type or class member. One way is to navigate to the file that contains the definition, for example by choosing **Go to Definition** anywhere the symbol is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../../ide/go-to-and-peek-definition.md#peek-at-a-definition). Let's peek at the definition of the `String` type.
 
 1. Right-click on the word `String` and choose **Peek Definition** from the content menu. Or, press **Alt**+**F12**.
 
