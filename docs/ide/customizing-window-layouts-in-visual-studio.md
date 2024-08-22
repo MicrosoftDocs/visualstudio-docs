@@ -84,7 +84,17 @@ To return a tool window or document window to its most recent docked location, s
 
 The following screenshot shows the guide diamond for document windows, which can be docked only within the editing frame:
 
+::: moniker range="vs-2022"
+
 :::image type="content" source="media/document-window-guide-diamond.png" alt-text="Screenshot of the document window guide diamond.":::
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+:::image type="content" source="media/vs-2019/document-window-guide-diamond.png" alt-text="Screenshot of the document window guide diamond.":::
+
+::: moniker-end
 
 You can fasten tool windows to one side of a frame in the IDE or within the editing frame. To help you to easily redock the window, a guide diamond appears when you drag the window to another location.
 
