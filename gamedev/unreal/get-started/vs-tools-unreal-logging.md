@@ -48,10 +48,7 @@ Having the UE logging window open while you're debugging is convenient because y
 
 ## Unreal Engine logging options
 
-You can configure the Unreal Engine logging window to show different types of log messages. The following log levels are available:
-
-Tools > Options > Unreal Engine
-On the **General** tab, the following options for the Unreal Engine log window are available under **Log Tool Window**:
+Use **Tools** > **Options** > **Unreal Engine** to reach the options to configure the Unreal Engine logging window. On the **General** tab, the following options for the Unreal Engine log window are available under **Log Tool Window**:
 
 :::image type="content" source="../media/vs-unreal-engine-log-options.png" alt-text="A screenshot of the Unreal Engine Log window options.":::
 
