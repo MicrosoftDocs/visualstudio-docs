@@ -383,7 +383,7 @@ See [the full Dotfuscator Community User Guide at preemptive.com][full] for deta
 [attributes-checks]: https://www.preemptive.com/dotfuscator/ce/docs/help/attributes_checks.html
 [attributes-obfuscation]: https://www.preemptive.com/dotfuscator/ce/docs/help/attributes_obfuscation.html
 
-[verbosity]: ../how-to-view-save-and-configure-build-log-files.md#to-change-the-amount-of-information-included-in-the-build-log
+[verbosity]: ../how-to-view-save-and-configure-build-log-files.md#specify-data-verbosity-for-build-logs
 [dotnet-attributes]: /dotnet/standard/attributes
 [application-insights]: /azure/azure-monitor/app/app-insights-overview
 [nuget-org]: https://www.nuget.org/
