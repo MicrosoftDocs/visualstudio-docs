@@ -1,7 +1,7 @@
 ---
 title: Customize & save layouts of windows and tabs
 description: Learn how to customize tabs and windows in Visual Studio to create layouts that work best for your development workflows.
-ms.date: 08/16/2024
+ms.date: 08/23/2024
 ms.topic: how-to
 f1_keywords:
 - vs.windows
@@ -40,7 +40,7 @@ You can also name and save a custom layout and then switch between layouts with 
 ::: moniker range="vs-2022"
 
 > [!TIP]
-> Starting with Visual Studio 17.9, the list of open documents was moved from a binary format in the .suo file to a plain text format in a JSON file. The JSON file is saved in the hidden .vs folder in the same location as the .suo file (**solutionFolder**.vs\/**solutionName**\v17). This JSON file contains the list of open documents and their properties, the layout of document groups and containers, and vertical tab column width. Storing in plain text as JSON enables easier backup and the ability to check in different sets of open documents that can be restored as needed.
+> Starting with Visual Studio 17.9, the list of open documents was moved from a binary format in the .suo file to a plain text format in a JSON file. The JSON file is saved in the hidden .vs folder in the same location as the .suo file (**solutionFolder**.vs\\**solutionName**\v17). This JSON file contains the list of open documents and their properties, the layout of document groups and containers, and vertical tab column width. Storing in plain text as JSON enables easier backup and the ability to check in different sets of open documents that can be restored as needed.
 
 ::: moniker-end
 
