@@ -69,7 +69,7 @@ The following steps guide you through creating a basic ASP.NET Core app that you
    | ------------ |  ------- | -------------------------------------------------- |
    | **DNS Prefix** | Enter a globally unique name. | Name that uniquely identifies your container registry. |
    | **Subscription** | Choose your subscription. | The Azure subscription to use. |
-   | **[Resource Group](/azure/azure-resource-manager/management/overview.md#resource-groups)**| Enter your resource group. | Name of the resource group in which to create your container registry. Select **New** to create a new resource group. |
+   | **[Resource Group](/azure/azure-resource-manager/management/overview)**| Enter your resource group. | Name of the resource group in which to create your container registry. Select **New** to create a new resource group. |
    | **[SKU](/azure/container-registry/container-registry-skus)** | Standard | Select the service tier of the container registry. |
    | **Registry Location** | Choose a nearby location. | Choose a location in a [region](https://azure.microsoft.com/explore/global-infrastructure/geographies/) close to you or close to other services that you expect to use the container registry. |
 
@@ -101,7 +101,7 @@ The following steps guide you through creating a basic ASP.NET Core app that you
    | ------------ |  ------- | -------------------------------------------------- |
    | **DNS Prefix** | Enter a globally unique name. | Name that uniquely identifies your container registry. |
    | **Subscription** | Choose your subscription. | The Azure subscription to use. |
-   | **[Resource Group](/azure/azure-resource-manager/management/overview.md#resource-groups)**| Enter your resource group. | Name of the resource group in which to create your container registry. Select **New** to create a new resource group. |
+   | **[Resource Group](/azure/azure-resource-manager/management/overview)**| Enter your resource group. | Name of the resource group in which to create your container registry. Select **New** to create a new resource group. |
    | **[SKU](/azure/container-registry/container-registry-skus)** | Standard | Select the service tier of the container registry. |
    | **Registry Location** | Choose a nearby location. | Choose a location in a [region](https://azure.microsoft.com/explore/global-infrastructure/geographies/) close to you or close to other services that you expect to use the container registry. |
 
