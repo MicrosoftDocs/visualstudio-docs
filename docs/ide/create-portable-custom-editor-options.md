@@ -15,7 +15,7 @@ ms.date: 04/01/2024
 ---
 # Define consistent coding styles with EditorConfig
 
-To enforce consistent coding styles for everyone that works in a codebase, you can add an `.editorConfig` file to your solution or project. EditConfig file settings adhere to a file format specification maintained by [EditorConfig.org](https://editorconfig.org). Many code editors and applications support EditorConfig files, including Visual Studio. Because the settings are in a file, they travel with your code, and can enforce coding styles even outside of Visual Studio.
+To enforce consistent coding styles for everyone that works in a codebase, you can add an `.editorConfig` file to your solution or project. EditConfig file settings adhere to a file format specification maintained by [EditorConfig.org](https://editorconfig.org). Many code editors and applications support EditorConfig files, including Visual Studio. Because the settings are in a file, they accompany your code, and can enforce coding styles even outside of Visual Studio.
 
 In Visual Studio, EditorConfig file settings take precedence over the global text editor settings accessed from the **Tools** > **Options** > **Text Editor** > **C/C++** > **Code Style** dialog box. By using an EditorConfig file, you can tailor each codebase to use text editor settings that are specific to that project.
 
