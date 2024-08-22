@@ -2,7 +2,7 @@
 title: Customize & save layouts of windows and tabs
 description: Learn how to customize tabs and windows in Visual Studio to create layouts that work best for your development workflows.
 ms.date: 08/23/2024
-ms.topic: how-to
+ms.topic: concept-article
 f1_keywords:
 - vs.windows
 - vs.environment
@@ -170,7 +170,7 @@ To switch between layouts, use the keyboard shortcuts from the reserved list of 
 If you have a multi-monitor setup at work and a single monitor laptop at home, you can create layouts that are optimized for each machine.
 
 > [!NOTE]
-> If you apply a multi-monitor layout on a single-monitor system, the floating windows that you placed on the second monitor will be hidden behind the Visual Studio window. You can bring these windows to the front by pressing **Alt**+**Tab**. If you later open Visual Studio with multiple monitors, you might need to restore the windows to their specified positions by reapplying the layout.
+> If you apply a multi-monitor layout on a single-monitor system, the floating windows that you placed on the second monitor will be hidden behind the Visual Studio window. You can bring these windows to the front by pressing **Alt**+**Tab**. If you later open Visual Studio with multiple monitors, you can restore the windows to their specified positions by reapplying the layout.
 
 #### Manage and roam your layouts
 
@@ -217,7 +217,17 @@ You can apply vertical document tabs in the following ways:
 
 - Select **Tools** > **Options** > **Environment** > **Tabs and Windows**. Then, in the **Set tab layout** list, select **Top**, **Left**, or **Right**.
 
+::: moniker range="vs-2019"
+
+- Right-click a tab, select **Set Tab Layout**, and then select either **Left** or **Right**. (To return the tabs to their default position, select **Top**.)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
 - Right-click a tab, select **Set Tab Layout**, and then select **Place Tabs on the Left**, **Place Tabs on the Top**, or **Place Tabs on the Right**. (To return the tabs to their default position, select **Place Tabs on the Top**.)
+
+::: moniker-end
 
 ::: moniker range="vs-2022"
 
