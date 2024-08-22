@@ -87,4 +87,4 @@ After you prepare your commit by reviewing and staging the desired changes, you 
 ## Related content
 
 - [Push to remote](git-push-remote.md)
-- Learn [About Git in Visual Studio](git-with-visual-studio.md)
+- Learn [about Git in Visual Studio](git-with-visual-studio.md)
