@@ -42,7 +42,17 @@ For information about creating Visual Studio extensions, see [Visual Studio SDK]
 
 In the Visual Studio IDE, Extension Manager is the tool you use to find, install, and manage Visual Studio extensions. To open Extension Manager, select **Extensions** > **Manage Extensions**. Or type **extensions** in the search box and select **Manage Extensions**.
 
+::: moniker range="vs-2022"
+
 :::image type="content" source="media/finding-using-visual-studio-extensions/vs-2022/extensions-and-updates.png" alt-text="Screenshot of Extension Manager in Visual Studio":::
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
+
+:::image type="content" source="media/vs-2019/extensions-and-updates.png" alt-text="Screenshot of Extension Manager in Visual Studio":::
+
+::: moniker-end
 
 The left pane categorizes extensions by those that are available on Visual Studio Marketplace (**Browse**), those that are installed, and those that have updates available. The **Roaming** tab lists all the Visual Studio extensions that you have installed on any machine or instance of Visual Studio. It's designed to let you find your favorite extensions more easily.
 
@@ -56,9 +66,21 @@ To install extensions from Visual Studio:
 
 1. Select **Install**.
 
-  After the download completes, you see a notification at the top of Extension Manager: "Your changes are scheduled. The modifications will begin Microsoft Visual Studio is closed."
+::: moniker range="vs-2022"
+
+  After the download completes, you see a notification at the top of Extension Manager: "Your changes are scheduled. The modifications will begin when Visual Studio is closed."
 
   :::image type="content" source="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png" alt-text="Screenshot of a notification in Extension Manager." lightbox="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png":::
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
+
+After download completes, you'll see a notification at the bottom of the Manage Extensions dialog box: "The extension is scheduled for install. Your extension will be installed after all instances of Visual Studio have been closed."
+
+  :::image type="content" source="media/vs-2019/manage-extensions-install-notification.png" alt-text="Screenshot of a notification in Extension Manager." lightbox="media/vs-2019/manage-extensions-install-notification.png":::
+
+::: moniker-end
 
 If you try to install an extension that has dependencies, the installer determines whether they're already installed. If they aren't installed, Extension Manager lists the dependencies that must be installed before you can install the extension.
 
@@ -75,7 +97,7 @@ Extensions that are packaged in *.vsix* files might be available in locations ot
 If you want to stop using an extension, you can either disable it or uninstall it. Disabling an extension keeps it installed but unloaded. Find the extension and select **Uninstall** or **Disable**. Restart Visual Studio to unload a disabled extension.
 
 > [!NOTE]
-> You can disable .vsix-based extensions but not extensions that are installed via .msi. Extenstions that are installed via .msi can only be uninstalled.
+> You can disable VSIX-based extensions but not extensions that are installed via MSI. MSI-installed extenstions can only be uninstalled.
 
 ## Manage extensions
 
@@ -125,7 +147,7 @@ When you see one of these notifications, you can ignore it or take one of the fo
 - Select the **X** at the end of the notification to dismiss the notification. A new notification will appear if the extension is associated with a crash or with UI unresponsiveness in the future.
 
 > [!NOTE]
-> A UI unresponsiveness notification or crash notification means only that one of the extension's modules was on the stack when the UI was unresponsive or when the crash occurred. It doesn't necessarily mean that the extension caused the problem. It's possible that the extension called code that's part of Visual Studio, which in turn resulted in unresponsive UI or a crash. However, the notification might still be useful if the extension that led to the UI unresponsiveness or crash isn't important to you. In this case, disabling the extension avoids the UI unresponsiveness or crash in the future.
+> A UI unresponsiveness notification or crash notification means that one of the extension's modules was on the stack when the UI was unresponsive or when the crash occurred. It doesn't necessarily mean that the extension caused the problem. It's possible that the extension called code that's part of Visual Studio, which in turn resulted in unresponsive UI or a crash. However, the notification might still be useful if the extension that led to the UI unresponsiveness or crash isn't important to you. In this case, disabling the extension avoids the UI unresponsiveness or crash in the future.
 
 ### Samples
 
