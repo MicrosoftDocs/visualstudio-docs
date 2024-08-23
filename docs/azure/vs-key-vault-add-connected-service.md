@@ -78,7 +78,7 @@ Affects the project file .NET references and NuGet package references.
 
 ### launchsettings.json changes for ASP.NET Core
 
-- Added the following environment variable entries to both the IIS Express profile and the profile that matches your web project name:
+- Added the following environment variable entries to both the Internet Information Services (IIS) Express profile and the profile that matches your web project name:
 
     ```json
       "environmentVariables": {

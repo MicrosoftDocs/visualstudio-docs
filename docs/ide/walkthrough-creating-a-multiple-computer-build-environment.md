@@ -280,7 +280,7 @@ If *vcvarsall.bat* runs successfully—that is, no error message is displayed—
 
    - %windir%\Microsoft.NET\Framework64\v4.0.30319
 
-## <a name="install-msbuild-to-gac" /> Install MSBuild assemblies to the Global Assembly Cache (GAC) on the build computer
+## <a name="install-msbuild-to-gac"></a> Install MSBuild assemblies to the Global Assembly Cache (GAC) on the build computer
 
 MSBuild requires some additional assemblies to be installed to the GAC on the build computer.
 

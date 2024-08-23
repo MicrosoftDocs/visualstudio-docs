@@ -33,7 +33,7 @@ enum CV_SourceChksum_t
 
 |Checksum Type|Value|CryptoAPI Label|Description|
 |-------------|-----|---------------|-----------|
-| `CHKSUM_TYPE_NONE` | 0 | \<none> | No checksum present. |
+| `CHKSUM_TYPE_NONE` | 0 | \<none\> | No checksum present. |
 | `CHKSUM_TYPE_MD5` | 1 | `CALG_MD5` | Checksum generated with the MD5 hashing algorithm. |
 | `CHKSUM_TYPE_SHA1` | 2 | `CALG_SHA1` | Checksum generated with the SHA1 hashing algorithm. |
 | `CHKSUM_TYPE_SHA_256` | 3 |`CALG_SHA_256`| Checksum generated with the 256-bit SHA hashing algorithm.|

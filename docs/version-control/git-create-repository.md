@@ -43,10 +43,6 @@ To follow this article, you'll need:
 
 1. After you sign in and enter your repo info, select the **Create and Push** button to create your repo and add your app.
 
-### Open an existing local repository
-
-After you’ve created a repo or [cloned one](git-clone-repository.md), Visual Studio detects the Git repository and adds it to your list of **Local Repositories** in the Git menu. From there, you can quickly access and switch between your Git repositories.
-
 ## Create an Azure DevOps repo
 
 1. Open Visual Studio, and then select **Create a new project**.
@@ -61,6 +57,32 @@ After you’ve created a repo or [cloned one](git-clone-repository.md), Visual S
 1. In the **Create a new Azure DevOps repository** section, sign in to your Azure account, and then select a project from the **Project** drop-down list.
 
 1. Select the **Create and Push** button to create your repo and add your app.
+
+## Work with local repos
+
+To create a local repo:
+
+1. From the **Git** menu, select **Create Git Repository**.
+
+1. In the **Create a Git repository** dialog, under **Other**, choose **Local only**.
+
+   :::image type="content" source="media/vs-2022/git-repository-create-local.png" alt-text="Screenshot of the Create Git Repository screen, showing the Local only option.":::
+
+1. Under **Initialize a local Git repository**, check the local path to the project, and modify any other settings if needed.
+
+1. Select the **Create and Push** button to create your repo.
+
+After you’ve created a repo or [cloned one](git-clone-repository.md), Visual Studio detects the Git repository and adds it to your list of **Local Repositories** in the Git menu. From there, you can quickly access and switch between your Git repositories.
+
+## Add another repo to a solution
+
+When you add a new project to an existing multi-repo solution, you might want to track that project in its own repository. To do so, follow these steps:
+
+1. Add the project to the solution.
+1. Close the solution.
+1. Use **Open a local folder** to open the new project by itself.
+1. Create a new repository using the methods described earlier in this article in GitHub, Azure DevOps, another Git hosting provider, or locally (the equivalent of `git init` from the command line).
+1. Reopen the parent solution. The new project's repo will be included.
 
 ## Related content
 
