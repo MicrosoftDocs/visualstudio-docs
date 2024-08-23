@@ -57,7 +57,7 @@ Starting in Visual Studio 2022 17.12, you can double-click on an absolute path t
 
 The following screenshot shows the output windows for a build of the LyraStarterGame sample. The user has double-clicked on the warning from `LyraCharacter.generated.h`. Because the absolute path to that file is provided, double-clicking it opened the file in the editor.
 
-:::image type="content" source="../media/vs-unreal-engine-output-window.png" alt-text="A screenshot of the Visual Studio output window. The LyraCharacter.generated.h file is highlighted because the absolute path is specified and the user double-clicked it to open the LyrCharacter.generated.h file.":::
+:::image type="content" source="../media/vs-unreal-engine-output-window.png" alt-text="A screenshot of the Visual Studio output window. The LyraCharacter.generated.h file is highlighted because the absolute path is specified and the user double-clicked it to open the LyrCharacter.generated.h file." lightbox="../media/vs-unreal-engine-output-window.png":::
 
 ## Unreal Engine toolbar
 
