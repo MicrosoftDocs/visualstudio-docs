@@ -66,6 +66,53 @@ ENTRYPOINT ["dotnet", "WebApplication43.dll"]
 
 The final stage starts again from `base`, and includes the `COPY --from=publish` to copy the published output to the final image. This process makes it possible for the final image to be a lot smaller, since it doesn't need to include all of the build tools that were in the `sdk` image.
 
+The following table summarize the stages used in the typical Dockerfile created by Visual Studio:
+
+| Stage | Description |
+| - | - |
+| base | Creates the base runtime image where the built app is published. Settings that need to be available at runtime go here, such as ports and environment variables. This stage is used when running from VS in fast mode (Default for Debug configuration). |
+| build | The project is built in this stage. The .NET SDK base image is used, which has the components required to build your project. |
+| publish | This stage derives from the build stage and publishes your project, which will be copied to the final stage. |
+| final | This stage configures how to start the app and is used in production or when running from VS in regular mode (Default when not using the Debug configuration). |
+| aotdebug | This stage is used as the base for the final stage when launching from VS to support debugging in regular mode (Default when not using the Debug configuration). |
+
+> [!NOTE]
+> The `aotdebug` stage is only supported for Linux containers. It is used in Visual Studio 2022 17.11 and later if [native Ahead Of Time (AOT) deployment](/dotnet/core/deploying/native-aot) is enabled on the project.
+
+::: moniker range=">=vs-2022"
+### Customize the image for debugging
+
+To support native AOT deployment, the GNU debugger (GDB) is installed, but only on the image used when debugging, not the final runtime image. The Dockerfile includes a build argument `LAUNCHING_FROM_VS` which can be `true` or `false`. If `true`, the `aotdebug` stage is used, which is where GDB is installed. Note that Visual Studio only supports native AOT and GDB for Linux containers.
+
+```Dockerfile
+# These ARGs allow for swapping out the base used to make the final image when debugging from VS
+ARG LAUNCHING_FROM_VS
+# This sets the base image for final, but only if LAUNCHING_FROM_VS has been defined
+ARG FINAL_BASE_IMAGE=${LAUNCHING_FROM_VS:+aotdebug}
+
+# ... (other stages omitted)
+
+# This stage is used as the base for the final stage when launching from VS to support debugging in regular mode (Default when not using the Debug configuration)
+FROM base as aotdebug
+USER root
+# Install GDB to support native debugging
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+    gdb
+USER app
+
+# This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
+FROM ${FINAL_BASE_IMAGE:-mcr.microsoft.com/dotnet/runtime-deps:8.0} AS final
+WORKDIR /app
+EXPOSE 8080
+COPY --from=publish /app/publish .
+ENTRYPOINT ["./WebApplication1"]
+```
+
+You can use `aotstage` in the Dockerfile to customize the image used at debug time, without affecting the final image used when not launching from Visual Studio, or in production. For example, you could install a tool for use only during debugging.
+
+:::moniker-end
+
 ### MSBuild
 
 ::: moniker range=">=vs-2022"
