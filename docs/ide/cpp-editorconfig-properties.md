@@ -14,14 +14,14 @@ ms.topic: reference
 ---
 # C++ EditorConfig formatting conventions
 
-Both Visual Studio and Visual Studio Code have built-in [EditorConfig](https://editorconfig.org/) support for each of the global Visual Studio C++ formatting settings. The EditorConfig settings are stored in a `.editorconfig` file and take precedence over Visual Studio formatting settings. You can add EditorConfig files to your project to configure C++ formatting to enforce a consistent code style for everyone contributing to the project.
+You can add EditorConfig files to your project to configure C++ formatting to enforce a consistent code style for everyone contributing to the project. Both Visual Studio and Visual Studio Code have built-in [EditorConfig](https://editorconfig.org/) support for each of the global Visual Studio C++ formatting settings. The EditorConfig settings are stored in a `.editorconfig` file. When that file is present in your project, it takes precedence over the Visual Studio formatting settings.
 
 This document lists all the EditorConfig C++ formatting settings supported by Visual Studio and Visual Studio Code.
 
 For more information about:
 - Using an EditorConfig file in Visual Studio, see [Define consistent coding styles with EditorConfig](create-portable-custom-editor-options.md).
 - Visual Studio C++ formatting settings, see [C++ formatting settings in Visual Studio](../ide/cpp-formatting-settings.md).
-- Manually create an EditorConfig file based on clang formatting settings, see [clangformat](https://clang.llvm.org/docs/ClangFormat.html). Rename that file `.editorconfig` and use it in your project.
+- Manually create an EditorConfig file based on clang formatting settings, see [clangformat](https://clang.llvm.org/docs/ClangFormat.html). Rename that file `.editorconfig` and save it in your project.
 
 ## C++ formatting conventions
 
