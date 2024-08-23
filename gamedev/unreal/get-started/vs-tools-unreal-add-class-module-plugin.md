@@ -7,7 +7,7 @@ ms.service: visual-studio
 ms.subservice: unreal-engine-tools
 author: TylerMSFT
 ms.author: TWhitney
-manager: MarkL
+manager: Coxford
 #customer intent: As a C++ game developer using Unreal Engine and Visual Studio, I want to add classes, modules, and plugins to my Unreal Engine project from within Visual Studio so that I can stay in my development environment and not have to switch between the Unreal Engine Editor and Visual Studio.
 ---
 

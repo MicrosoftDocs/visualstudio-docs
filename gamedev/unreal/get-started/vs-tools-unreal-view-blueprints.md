@@ -7,7 +7,7 @@ ms.service: visual-studio
 ms.subservice: unreal-engine-tools
 author: TylerMSFT
 ms.author: TWhitney
-manager: MarkL
+manager: Coxford
 #customer intent: As a C++ game developer using Unreal Engine and Visual Studio, I want to view Unreal Engine Blueprints in Visual Studio so that I can see them without switching between the Unreal Editor and Visual Studio.
 ---
 
