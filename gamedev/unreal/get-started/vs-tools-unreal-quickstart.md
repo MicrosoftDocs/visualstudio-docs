@@ -53,9 +53,11 @@ As of Visual Studio 2022 version 17.7, the Visual Studio Tools for Unreal Engine
 
 The build output window in Visual Studio is where you can see the progress of the build and any errors or warnings that occur. You can open the build output window from the Visual Studio main menu via **View** > **Output**.
 
-Starting in Visual Studio 2022 17.12, you can double-click on an absolute path to a file in the output window to open that file in Visual Studio. The source code must be part of the Visual Studio solution and the path in the output window must be an absolute path. The following screenshot shows the output windows for a build of the LyraStarterGame sample. The user has double-clicked on the warning from `LyraCharacter.generated.h`. Because the absolute path to that file is provided, double-clicking it has opened the file in the editor.
+Starting in Visual Studio 2022 17.12, you can double-click on an absolute path to a file in the output window to open that file in Visual Studio. The source code must be part of the Visual Studio solution and the path in the output window must be an absolute path.
 
-:::image type="content" source="../media/unreal-engine-output-window.png" alt-text="A screenshot of the Visual Studio output window. The LyraCharacter.generated.h file is highlighted because the absolute path is specified and the user double-clicked it to open the LyrCharacter.generated.h file.":::
+The following screenshot shows the output windows for a build of the LyraStarterGame sample. The user has double-clicked on the warning from `LyraCharacter.generated.h`. Because the absolute path to that file is provided, double-clicking it opened the file in the editor.
+
+:::image type="content" source="../media/vs-unreal-engine-output-window.png" alt-text="A screenshot of the Visual Studio output window. The LyraCharacter.generated.h file is highlighted because the absolute path is specified and the user double-clicked it to open the LyrCharacter.generated.h file.":::
 
 ## Unreal Engine toolbar
 
