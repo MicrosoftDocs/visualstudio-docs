@@ -157,11 +157,13 @@ Since Visual Studio 2015, the Developer Command Prompt sets the `VSCMD_VER` envi
 
 Search for a PowerShell script file named *Launch-VsDevShell.ps1*, or go to the Tools folder for Visual Studio, such as *%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Community\Common7\Tools*. (The path changes according to your Visual Studio version, edition, and installation location.) Once you've located the PowerShell file, run it by entering the following command at a Windows PowerShell or PowerShell 6 prompt.
 
+::: moniker range="vs-2022"
 For Visual Studio 2022:
 
 ```powershell
 & 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\Launch-VsDevShell.ps1'
 ```
+::: moniker-end
 
 For Visual Studio 2019:
 
