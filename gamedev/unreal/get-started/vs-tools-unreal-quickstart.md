@@ -30,7 +30,7 @@ Lyra is a sample game project for learning about Unreal Engine. See the **Downlo
 
 After you download the game sample, update `LyraStarterGame.uproject` to use the Visual Studio Tools plugin. You could also do this in the Unreal Editor after loading the Lyra project from the main menu under **Edit** > **Plugins** and then find the *Visual Studio Integration Tools* plugin and check the box next to it.
 
-As of Visual Studio 2022 version 17.7, the Visual Studio Tools for Unreal Engine plugin is included with the Unreal Engine installation. It's no longer required to view Unreal Engine Blueprints. If you have an earlier version of Visual Studio, follow these instructions to install the plugin manually. See [Install Visual Studio Tools for Unreal Engine](vs-tools-unreal-install.md) for installation instructions.
+As of Visual Studio 2022 version 17.7, the Visual Studio Tools for Unreal Engine plugin is included with the Unreal Engine installation. It's no longer required to view Unreal Engine Blueprints. If you have an earlier version of Visual Studio, see [Install Visual Studio Tools for Unreal Engine](vs-tools-unreal-install.md) to install the plugin manually.
 
 1. Open the `LyraStarterGame.uproject` file in a text editor. It's in the directory where you installed the game sample.
 1. Add the following to the end of the `Plugins` section:
