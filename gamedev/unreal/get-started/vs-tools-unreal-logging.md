@@ -1,7 +1,7 @@
 ---
 title: "View Unreal Engine logging in Visual Studio"
 description: "Learn how to view Unreal Engine logs from within Visual Studio"
-ms.date: 07/24/2024
+ms.date: 08/22/2024
 ms.topic: how-to
 ms.service: visual-studio
 ms.subservice: unreal-engine-tools
@@ -45,6 +45,17 @@ After completing the [Quickstart: Visual Studio Tools for Unreal Engine](vs-tool
 If you find the font color hard to read, you can adjust it under **Tools** > **Options** > **Environment** > **Fonts and Colors**. Change the dropdown **Show settings for:** to **Unreal Engine Log**. In **Display items:** select **Log** and change the **Item foreground** color to something easier to see for you.
 
 Having the UE logging window open while you're debugging is convenient because you don't have to switch to the Unreal Editor to see them.
+
+## Unreal Engine logging options
+
+Use **Tools** > **Options** > **Unreal Engine** to reach the options to configure the Unreal Engine logging window. On the **General** tab, the following options for the Unreal Engine log window are available under **Log Tool Window**:
+
+:::image type="content" source="../media/vs-unreal-engine-log-options.png" alt-text="A screenshot of the Unreal Engine Log window options.":::
+
+- **Clear on Launch**: Clear the log window when the game is launched.
+- **Remember filters**: Remember the filters you set in the log window when you close Visual Studio.
+- **Request JSON messages**: Request that log entries in JSON format. JSON provides a structured format that is easy to parse and process programmatically. This makes it simpler to extract specific information from log messages, such as error details, timestamps, and other metadata.
+- **Show automatically**: Show the log window automatically when the game is launched in Visual Studio.
 
 ## Related content
 

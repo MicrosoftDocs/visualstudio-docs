@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Visual Studio Tools for Unreal Engine"
 description: "Learn about Visual Studio Tools for Unreal Engine, a free Visual Studio extension that helps you develop games with Unreal Engine"
-ms.date: 07/22/2024
+ms.date: 08/06/2024
 ms.topic: quickstart
 ms.service: visual-studio
 ms.subservice: unreal-engine-tools
