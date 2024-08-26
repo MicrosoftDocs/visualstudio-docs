@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the compiland identifier for the section."
+description: Retrieves the compiland identifier for the section.
 title: "IDiaSectionContrib::get_compilandId"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_compilandId
 
 Retrieves the compiland identifier for the section.
@@ -19,7 +20,7 @@ Retrieves the compiland identifier for the section.
 ## Syntax
 
 ```C++
-HRESULT get_compilandId ( 
+HRESULT get_compilandId ( 
    DWORD* pRetVal
 );
 ```

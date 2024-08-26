@@ -1,6 +1,6 @@
 ---
-description: "Retrieves data describing a section contribution, that is, a contiguous block of memory contributed to the image by a compiland."
-title: "IDiaSectionContrib"
+description: Retrieves data describing a section contribution, that is, a contiguous block of memory contributed to the image by a compiland.
+title: IDiaSectionContrib
 ms.date: "07/18/2024"
 ms.topic: "reference"
 dev_langs:
@@ -12,15 +12,14 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib
 
 Retrieves data describing a section contribution, that is, a contiguous block of memory contributed to the image by a compiland.
 
 ## Syntax
 
-```
-IDiaSectionContrib : IUnknown
-```
+`IDiaSectionContrib : IUnknown`
 
 ## Methods in Vtable Order
 
