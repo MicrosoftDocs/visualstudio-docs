@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag indicating whether the section should not be padded to the next memory boundary."
+description: Retrieves a flag indicating whether the section should not be padded to the next memory boundary.
 title: "IDiaSectionContrib::get_nopad"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_nopad
 
 Retrieves a flag indicating whether the section should not be padded to the next memory boundary.

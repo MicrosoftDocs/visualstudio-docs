@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the cyclic redundancy check (CRC) of the data in the section."
+description: Retrieves the cyclic redundancy check (CRC) of the data in the section.
 title: "IDiaSectionContrib::get_dataCrc"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_dataCrc
 
 Retrieves the cyclic redundancy check (CRC) of the data in the section.
@@ -19,7 +20,7 @@ Retrieves the cyclic redundancy check (CRC) of the data in the section.
 ## Syntax
 
 ```C++
-HRESULT get_dataCrc ( 
+HRESULT get_dataCrc ( 
    DWORD* pRetVal
 );
 ```
