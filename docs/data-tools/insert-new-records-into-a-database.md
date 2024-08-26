@@ -30,7 +30,7 @@ This article describes how to insert records into a database for an application 
 
 ## Prerequisites
 
-- To work with TableAdapter methods, you need to have an available instance. For more information, See [Configure new TableAdapters in .NET Framework applications](/visualstudio/data-tools/create-and-configure-tableadapters).
+- To work with TableAdapter methods, you need to have an available instance. For more information, see [Create and configure TableAdapters in .NET Framework applications](create-and-configure-tableadapters.md).
 
 - **.NET security**: You must have access to the database you're trying to connect to, and permission to perform inserts into the desired table.
 
