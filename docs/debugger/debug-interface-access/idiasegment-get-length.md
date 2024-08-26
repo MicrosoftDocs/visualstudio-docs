@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the number of bytes in the segment."
+description: Retrieves the number of bytes in the segment.
 title: "IDiaSegment::get_length"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSegment::get_length
 
 Retrieves the number of bytes in the segment.
@@ -19,7 +20,7 @@ Retrieves the number of bytes in the segment.
 ## Syntax
 
 ```C++
-HRESULT get_ length ( 
+HRESULT get_ length ( 
    DWORD* pRetVal
 );
 ```

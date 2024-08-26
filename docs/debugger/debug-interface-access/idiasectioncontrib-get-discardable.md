@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that indicates whether the section can be discarded."
+description: Retrieves a flag that indicates whether the section can be discarded.
 title: "IDiaSectionContrib::get_discardable"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_discardable
 
 Retrieves a flag that indicates whether the section can be discarded.
@@ -19,7 +20,7 @@ Retrieves a flag that indicates whether the section can be discarded.
 ## Syntax
 
 ```C++
-HRESULT get_discardable ( 
+HRESULT get_discardable ( 
    BOOL* pRetVal
 );
 ```

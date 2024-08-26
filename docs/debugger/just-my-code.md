@@ -1,7 +1,7 @@
 ---
 title: Debug user code with Just My Code
 description: Just My Code is a debugging feature that automatically steps over calls to non-user code. Learn how to enable, disable, and use this feature.
-ms.date: 08/14/2023
+ms.date: 08/23/2024
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo

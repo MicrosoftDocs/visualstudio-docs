@@ -94,7 +94,7 @@ If you select **Use Managed Compatibility Mode** under **Tools** > **Options** >
 
 ::: moniker-end
 
-If your domain policy requires network communication to be performed through Internet Protocol Security (IPSec), you must open additional ports on both the Visual Studio and remote computers. To debug on a remote IIS web server, open port 80 on the remote computer.
+If your domain policy requires network communication to be performed through Internet Protocol Security (IPSec), you must open additional ports on both the Visual Studio and remote computers. To debug on a remote Internet Information Services (IIS) web server, open port 80 on the remote computer.
 
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|
 |-|-|-|-|

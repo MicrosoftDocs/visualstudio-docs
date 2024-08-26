@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that indicates whether the section is removed before it is made part of the in-memory image."
+description: Retrieves a flag that indicates whether the section is removed before it is made part of the in-memory image.
 title: "IDiaSectionContrib::get_remove"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_remove
 
 Retrieves a flag that indicates whether the section is removed before it is made part of the in-memory image.
@@ -19,7 +20,7 @@ Retrieves a flag that indicates whether the section is removed before it is made
 ## Syntax
 
 ```C++
-HRESULT get_remove ( 
+HRESULT get_remove ( 
    BOOL* pRetVal
 );
 ```
