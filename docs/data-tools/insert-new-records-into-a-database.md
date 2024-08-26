@@ -17,7 +17,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 
-#customer intent: As a developer, I want to insert new records into a database in Visual Studio, so I can work with TableAdapters or command objects in my .NET application.
+#customer intent: As a developer, I want to develop .NET Framework applications in Visual Studio, so I can insert new records into a database with TableAdapters or command objects.
 ---
 
 # Insert new records into a database in .NET Framework applications
@@ -30,7 +30,7 @@ This article describes how to insert records into a database for an application 
 
 ## Prerequisites
 
-- To work with TableAdapter methods, you need to have an available instance.
+- To work with TableAdapter methods, you need to have an available instance. For more information, See [Configure new TableAdapters in .NET Framework applications](/visualstudio/data-tools/create-and-configure-tableadapters).
 
 - **.NET security**: You must have access to the database you're trying to connect to, and permission to perform inserts into the desired table.
 
