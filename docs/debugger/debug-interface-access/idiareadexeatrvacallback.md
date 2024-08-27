@@ -1,6 +1,6 @@
 ---
-description: "Enables a client application to supply bytes of an executable file as specified by a relative virtual address."
-title: "IDiaReadExeAtRVACallback"
+description: Enables a client application to supply bytes of an executable file as specified by a relative virtual address.
+title: IDiaReadExeAtRVACallback
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,15 +12,14 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaReadExeAtRVACallback
 
 Enables a client application to supply bytes of an executable file as specified by a relative virtual address.
 
 ## Syntax
 
-```
-IDiaReadExeAtRVACallback : IUnknown
-```
+`IDiaReadExeAtRVACallback : IUnknown`
 
 ## Methods in Vtable Order
  The following table shows the methods of `IDiaReadExeAtRVACallback`.

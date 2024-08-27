@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that indicates whether the section is a COMDAT record."
+description: Retrieves a flag that indicates whether the section is a COMDAT record.
 title: "IDiaSectionContrib::get_comdat"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_comdat
 
 Retrieves a flag that indicates whether the section is a COMDAT record.
@@ -19,7 +20,7 @@ Retrieves a flag that indicates whether the section is a COMDAT record.
 ## Syntax
 
 ```C++
-HRESULT get_comdat ( 
+HRESULT get_comdat ( 
    BOOL* pRetVal
 );
 ```

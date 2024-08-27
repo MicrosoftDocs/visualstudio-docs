@@ -7,7 +7,7 @@ ms.service: visual-studio
 ms.subservice: unreal-engine-tools
 author: TylerMSFT
 ms.author: TWhitney
-manager: MarkL
+manager: Coxford
 #customer intent: As a C++ game developer using Unreal Engine and Visual Studio, I want to learn how to view Unreal Engine macros in Visual Studio so that I can read them more easily.
 ---
 

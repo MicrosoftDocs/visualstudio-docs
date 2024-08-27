@@ -1,7 +1,7 @@
 ---
 title: Image Library Viewer
 description: Learn about the Visual Studio Image Library Viewer tool that loads and searches image manifests, allowing you to view and manipulate image attributes.
-ms.date: 11/04/2016
+ms.date: 08/21/2024
 ms.topic: reference
 author: maiak
 ms.author: maiak
@@ -59,6 +59,8 @@ A complete image manifest looks like this:
       <Guid Name="ShellCommandGuid" Value="8ee4f65d-bab4-4cde-b8e7-ac412abbda8a" />
       <ID Name="cmdidSaveAll" Value="1000" />
       <String Name="AssemblyName" Value="Microsoft.VisualStudio.Shell.UI.Internal" />
+      <!-- If your assembly is strongly named, you'll need the version and public key token as well -->
+      <!-- <String Name="AssemblyName" Value="Microsoft.VisualStudio.Shell.UI.Internal;v17.0.0.0;b03f5f7f11d50a3a" /> -->
 </Symbols>
 ```
 

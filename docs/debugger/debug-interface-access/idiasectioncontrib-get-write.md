@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that indicates whether the section can be modified."
+description: Retrieves a flag that indicates whether the section can be modified.
 title: "IDiaSectionContrib::get_write"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_write
 
 Retrieves a flag that indicates whether the section can be modified.
@@ -19,7 +20,7 @@ Retrieves a flag that indicates whether the section can be modified.
 ## Syntax
 
 ```C++
-HRESULT get_write ( 
+HRESULT get_write ( 
    BOOL* pRetVal
 );
 ```
