@@ -62,7 +62,7 @@ You can edit or delete existing comments by clicking on the comment box or using
 
 Comments are available to multiple users of the resource files. The translator, a developer, or a resource manager can leave notes, questions, explanations, or caveats alongside the translations. A small icon in the corner of each cell indicates the presence of a comment.
 
-:::image type="content" alt-text="Screenshot of the grid view of resources." source="media/vs-2022/resources-explorer/comment-ui.png" lightbox="media/vs-2022/resources-explorer/comment-ui.png":::
+:::image type="content" alt-text="Screenshot of the comment UI in Resources Explorer." source="media/vs-2022/resources-explorer/comment-ui.png" lightbox="media/vs-2022/resources-explorer/comment-ui.png":::
 
 ### Filter resources
 
@@ -84,9 +84,9 @@ Placeholders are special tokens that are replaced by dynamic values at runtime, 
 
 The new Resource Explorer automatically validates placeholders for each resource and shows a warning icon if there is a mismatch between the default culture and any other localization. For example, if the default value of a resource is "Hello, {name}!" and the Spanish value is "Hola, {nombre}!", you'll see a warning icon showing that the placeholder name is different. You can hover over the icon to see a tooltip with the details of the mismatch and click on it to fix it.
 
-Missing translations are another common issue that can affect the user experience of your app. If you don't provide a translation for a resource in a certain culture, the app will fall back to the default culture, which might not be proper or desirable for some users. The Resource Explorer UI helps you avoid this problem by showing a warning icon if there is no value for a resource in a certain culture. For example, if> you have a resource with a default value of `File` and no value for the French culture, you'll see a warning icon showing that the translation is missing. You can hover over the icon to see a tooltip with the message **No value** and select it to add a value.
+Missing translations are another common issue that can affect the user experience of your app. If you don't provide a translation for a resource in a certain culture, the app will fall back to the default culture, which might not be proper or desirable for some users. The Resource Explorer helps you avoid this problem by showing a warning icon if there is no value for a resource in a certain culture. For example, if> you have a resource with a default value of `File` and no value for the French culture, you'll see a warning icon showing that the translation is missing. You can hover over the icon to see a tooltip with the message **No value** and select it to add a value.
 
-:::image type="content" alt-text="Screenshot of the grid view of resources." source="media/vs-2022/resources-explorer/missing-translation.png" lightbox="media/vs-2022/resources-explorer/missing-translation.png":::
+:::image type="content" alt-text="Screenshot of the Resources Explorer when a missing translation is detected." source="media/vs-2022/resources-explorer/missing-translation.png" lightbox="media/vs-2022/resources-explorer/missing-translation.png":::
 
 ### Customize the accessibility and settings  
 
