@@ -6,7 +6,7 @@
   - name: IDE tour
     href: ide-tour.md
   - name: "What's happening to Visual Studio for Mac"
-    href: what-happened-to-vs-for-mac.md
+    href: /visualstudio/releases/2022/what-happened-to-vs-for-mac
 - name: Installation
   items:
   - name: Install
