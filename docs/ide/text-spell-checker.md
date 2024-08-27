@@ -62,6 +62,10 @@ By configuring an EditorConfig file, you can establish the coding standards that
 
 Here are some examples and use-case scenarios of the switches you can configure in an EditorConfig file:
 
+
+- Apply the spelling options to a specific set of files. **This is a required specification to add, as spelling error options are file-specific.** In this example, the spelling options are applied to all C# files in the solution.
+    ```[*.cs]```
+
 - List the languages for Visual Studio to use. In this example, Visual Studio would only use the "en-us" and "fr-fr" dictionaries when checking for spelling issues.
 
     ```spelling_languages = _language_[,_language_]```<br>
@@ -92,6 +96,17 @@ Here are some examples and use-case scenarios of the switches you can configure 
 
     ```spelling_use_default_exclusion_dictionary = true OR false```<br> 
     ```(Example: = spelling_use_default_exclusion_dictionary = false)```
+
+Here is a complete example:
+
+```
+[*.{cs,vb}]
+spelling_languages = en-us,fr-fr
+spelling_checkable_types = identifiers,comments
+spelling_error_severity = error
+spelling_exclusion_path = exclusion.dic
+spelling_use_default_exclusion_dictionary = false
+```
 
 ## Special case handling
 
