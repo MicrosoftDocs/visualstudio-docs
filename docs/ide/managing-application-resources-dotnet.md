@@ -44,7 +44,7 @@ Starting with Visual Studio 2022 version 17.11, the resources explorer has been 
 
 To use the new Resource Explorer, you need to have a .NET project that contains one or more resource files (`.resx`). To open the Resource Explorer, right-click on any resource file in the Solution Explorer and select **Open With** > **Resource Explorer**. Alternatively, you can use the keyboard shortcut **Ctrl**+**Alt**+**R**.
 
-When you open the new Resource Explorer, on the left side, you see an overview of all the resources you’ve stored alongside the locales for each file. You can configure which locales are visible in the datagrid. This streamlined interface allows you to compare translations side by side and even edit them in place.
+When you open the new Resource Explorer, on the left side, you see an overview of all the resources you’ve stored alongside the locales for each file. You can configure which locales are visible in the datagrid. This interface allows you to compare translations side-by-side and edit them in place.
 
 :::image type="content" alt-text="Screenshot of the grid view of resources." source="media/vs-2022/resources-explorer/grid-view.png" lightbox="media/vs-2022/resources-explorer/grid-view.png":::
 
@@ -88,15 +88,13 @@ Missing translations are another common issue that can affect the user experienc
 
 :::image type="content" alt-text="Screenshot of the Resources Explorer when a missing translation is detected." source="media/vs-2022/resources-explorer/missing-translation.png" lightbox="media/vs-2022/resources-explorer/missing-translation.png":::
 
-### Customize the accessibility and settings  
-
-You can customize the accessibility and UI settings of the Resource Explorer, to suit your preferences and needs.
+### Customization options
 
 The Resource Explorer in Visual Studio 2022 and later is compatible with screen readers and assistive technology, to make it more accessible for developers with visual impairments or disabilities. You can use keyboard shortcuts to navigate through the data grid, edit values and comments, and perform common actions. You can also use the narrator to read each cell's contents, as well as the tooltips and warnings.
 
-You can adjust the zoom level to change the size of cells and text in the data grid. You can use the zoom slider on the toolbar, or the keyboard shortcuts **Ctrl**+**=** and **Ctrl**+**-**, to zoom in or out. You can also use the **Ctrl**+**0** shortcut to reset the zoom level to default.
+To adjust the zoom level, use the zoom slider on the toolbar, or the keyboard shortcuts **Ctrl**+**=** and **Ctrl**+**-**, to zoom in or out. Use **Ctrl**+**0** to reset the zoom level to default.
 
-The theme for the Resource Explorer is consistent with the rest of the Visual Studio environment. You can choose between light, dark, or blue themes, and the Resource Explorer UI will adapt accordingly. You can also change the font and colors of the data grid, by using the **Tools** > **Options** > **Environment** > **Fonts and Colors dialog**.
+The theme for the Resource Explorer is consistent with the rest of the Visual Studio environment. You can choose between light, dark, or blue themes, and the Resource Explorer will adapt accordingly. You can also change the font and colors of the data grid, by using the **Tools** > **Options** > **Environment** > **Fonts and Colors dialog**.
 
 :::moniker-end
 
