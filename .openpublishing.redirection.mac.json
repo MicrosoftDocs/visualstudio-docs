@@ -56,6 +56,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path_from_root": "/mac/what-happened-to-vs-for-mac.md",
+      "redirect_url": "/visualstudio/releases/2022/what-happened-to-vs-for-mac",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "mac/2017/accessibility-keyboard.md",
       "redirect_url": "/previous-versions/visualstudio/mac/accessibility-keyboard",
       "redirect_document_id": false,
