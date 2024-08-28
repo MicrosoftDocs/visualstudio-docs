@@ -3,6 +3,7 @@ title: "Instrument your .NET application"
 description: Explore how to use the dynamic Instrumentation tool for your .NET applications (C#, C++, Visual Basic, F#) in Visual Studio and analyze the report.
 ms.date: "08/14/2024"
 ms.topic: "conceptual"
+ms.custom: "profiling-seo"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs

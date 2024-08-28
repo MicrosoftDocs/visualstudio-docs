@@ -7,7 +7,7 @@ ms.subservice: unreal-engine-tools
 ms.topic: get-started
 author: "TylerMSFT"
 ms.author: "twhitney"
-manager: Markl
+manager: Coxford
 ---
 
 # Install Visual Studio Tools for Unreal Engine

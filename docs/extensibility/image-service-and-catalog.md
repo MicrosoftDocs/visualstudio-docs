@@ -1,7 +1,7 @@
 ---
 title: Image Service and Catalog
 description: This article contains guidance and best practices for adopting the Visual Studio Image Service and Image Catalog.
-ms.date: 04/01/2019
+ms.date: 08/21/2024
 ms.topic: conceptual
 author: maiak
 ms.author: maiak
@@ -92,6 +92,8 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
       <Guid Name="ShellCommandGuid" Value="8ee4f65d-bab4-4cde-b8e7-ac412abbda8a" />
       <ID Name="cmdidSaveAll" Value="1000" />
       <String Name="AssemblyName" Value="Microsoft.VisualStudio.Shell.UI.Internal" />
+      <!-- If your assembly is strongly named, you'll need the version and public key token as well -->
+      <!-- <String Name="AssemblyName" Value="Microsoft.VisualStudio.Shell.UI.Internal;v17.0.0.0;b03f5f7f11d50a3a" /> -->
 </Symbols>
 ```
 
@@ -682,6 +684,32 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 
   - Set "Include in VSIX" to True.
 
+- My images are still not working, how do I figure out what's wrong?
+
+  - Visual Studio may not be finding your image manifest. For performance reasons Visual Studio limits folder search depth, so it's recommended that the image manifest be kept in the root folder of your extension.
+
+  - You might be missing assembly information in your image manifest file. Assemblies that are strongly named require additional information in order to be loaded by Visual Studio. In order to load a strongly named assembly, you need to include (in addition to the assembly name) the assembly version and public key token in the resource URIs for the images in your image manifest.
+    ```xml
+    <ImageManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/VisualStudio/ImageManifestSchema/2014">
+      <Symbols>
+        <String Name="Resources" Value="/Microsoft.VisualStudio.Shell.UI.Internal;v17.0.0.0;b03f5f7f11d50a3a;Component/Resources" />
+        ...
+      </Symbols>
+      ...
+    </ImageManifest>
+    ```
+  - You may be missing a codebase entry for your image assembly. If your assembly is not yet loaded by the time Visual Studio needs it, it will need to know where to find your assembly in order to load it. To add a codebase for your assembly, you can use the ProvideCodeBaseAttribute to ensure a codebase entry is generated and included in your extension's pkgdef.
+    ```csharp
+    [assembly: ProvideCodeBase(AssemblyName = "ClassLibrary1", Version = "1.0.0.0", CodeBase = "$PackageFolder$\\ClassLibrary1.dll")]
+    ```
+  - If the previous options do no resolve your image load issue, you can enable logging by dropping the following entries into a pkgdef in your extension:
+    ```
+    [$RootKey$\ImageLibrary]
+    "TraceLevel"="Verbose"
+    "TraceFilename"="ImageLibrary.log"
+    ```
+    This will create a log file called ImageLibrary.log in your %UserProfile% folder. Make sure to run "devenv /updateConfiguration" from a developer command prompt after adding these entries to a pkgdef. This ensures that the logging entries are enabled and that VS refreshes the image manifest cache to help find any errors that may occur when reading your image manifest. If you then run through the scenario where your image is expected to load, your log file will contain both the registration logging and request logging for your image.
+    
 - I am updating my CPS Project System. What happened to **ImageName** and **StockIconService**?
 
   - These were removed when CPS was updated to use monikers. You no longer need to call the **StockIconService**, just pass the desired **KnownMoniker** to the method or property using the **ToProjectSystemType()** extension method in the CPS utilities. You can find a mapping from **ImageName** to **KnownMonikers** below:
@@ -751,7 +779,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
     |ImageName.CSharpCodeFile|KnownImageIds.CSFileNode|
     |ImageName.VisualBasicCodeFile|KnownImageIds.VBFileNode|
 
-  - I am updating my completion list provider. What **KnownMonikers** match to the old **StandardGlyphGroup** and **StandardGlyph** values?
+ - I am updating my completion list provider. What **KnownMonikers** match to the old **StandardGlyphGroup** and **StandardGlyph** values?
 
     |Name|Name|Name|
     |-|-|-|

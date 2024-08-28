@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the time stamp."
+description: Retrieves the time stamp.
 title: "IDiaInputAssemblyFile::get_timestamp"
 ms.date: "07/18/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaInputAssemblyFile::get_timestamp
 
 Retrieves the time stamp.

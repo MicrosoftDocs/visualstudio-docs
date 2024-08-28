@@ -29,7 +29,7 @@ typedef enum CV_modifier_e
     CV_MOD_CONST                        = 0x0001,
     CV_MOD_VOLATILE                     = 0x0002,
     CV_MOD_UNALIGNED                    = 0x0003,
-    
+
     // HLSL modifiers.
 
     CV_MOD_HLSL_UNIFORM                 = 0x0200,
@@ -47,7 +47,7 @@ typedef enum CV_modifier_e
     CV_MOD_HLSL_UNORM                   = 0x020c,
     CV_MOD_HLSL_PRECISE                 = 0x020d,
     CV_MOD_HLSL_UAV_GLOBALLY_COHERENT   = 0x020e,
-    
+
 } CV_modifier_e;
 ```
 

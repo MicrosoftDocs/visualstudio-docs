@@ -41,7 +41,7 @@ You can configure an Azure cloud service project, depending on your requirements
 
 1. Set **Treat warnings as errors** to **True** to make sure you cannot publish if there are package validation errors.
 
-1. Set **Use web project ports** to **True** to make sure that your web role uses the same port each time it starts locally in IIS Express.
+1. Set **Use web project ports** to **True** to make sure that your web role uses the same port each time it starts locally in Internet Information Services (IIS) Express.
 
 1. From the Visual Studio toolbar, select **Save**.
 

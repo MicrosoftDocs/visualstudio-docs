@@ -1,5 +1,5 @@
 ---
-description: "Retrieves all children of a specified parent identifier that match the name and symbol type, including optimized locals, that contains, or is closest to, a specified relative virtual address (RVA)."
+description: Retrieves all children of a specified parent identifier that match the name and symbol type, including optimized locals, that contains, or is closest to, a specified relative virtual address (RVA).
 title: "IDiaSession::findChildrenExByRVA"
 ms.date: "7/2/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findChildrenExByRVA
 
 Retrieves all children of a specified parent identifier that match the name and symbol type, including optimized locals, that contains, or is closest to, a specified relative virtual address (RVA).

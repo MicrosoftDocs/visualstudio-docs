@@ -1,5 +1,5 @@
 ---
-description: Creates an enumerator that contains the same enumeration state as the current source enumerator. 
+description: Creates an enumerator that contains the same enumeration state as the current source enumerator.
 title: "IDiaEnumSourceLink::Clone"
 ms.date: "07/18/2024"
 ms.topic: "reference"

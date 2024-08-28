@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a unique identifier for the file."
+description: Retrieves a unique identifier for the file.
 title: "IDiaInputAssemblyFile::get_uniqueId"
 ms.date: "07/18/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaInputAssemblyFile::get_uniqueId
 
 Retrieves a unique identifier for the file.

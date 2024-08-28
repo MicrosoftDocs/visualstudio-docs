@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the segment number."
+description: Retrieves the segment number.
 title: "IDiaSegment::get_frame"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSegment::get_frame
 
 Retrieves the segment number.
@@ -19,7 +20,7 @@ Retrieves the segment number.
 ## Syntax
 
 ```C++
-HRESULT get_frame ( 
+HRESULT get_frame ( 
    DWORD* pRetVal
 );
 ```

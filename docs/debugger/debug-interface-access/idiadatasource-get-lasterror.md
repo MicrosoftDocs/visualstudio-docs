@@ -33,7 +33,7 @@ pRetVal
 
 ## Return Value
 
-Returns the last error code caused by any previous operation. Returns `E_INVALIDARG` if the `pRetVal` parameter is `NULL`. Returns `E_OUTOFMEMORY` if there is insufficient resources to allocate a BSTR 
+Returns the last error code caused by any previous operation. Returns `E_INVALIDARG` if the `pRetVal` parameter is `NULL`. Returns `E_OUTOFMEMORY` if there is insufficient resources to allocate a BSTR
 
 ## Example
 
