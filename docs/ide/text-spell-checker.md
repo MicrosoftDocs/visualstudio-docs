@@ -61,9 +61,9 @@ You can customize the spell checker so that it's optimized for a collaborative e
 By configuring an EditorConfig file, you can establish the coding standards that you expect everyone to follow, which allows you to maintain a coding consistency that might be difficult through other methods.
 
 > [!IMPORTANT]
-> Spelling error options are file-specific. You must specify which files spelling options are applied to. In the following example, the spelling options are applied to all C# files in the solution.
-  
-    ```[*.cs]```
+> Spelling error options are file-specific. You must specify which files spelling options are applied to. In the following example, the spelling options are applied to all C# files in the solution:
+>
+>```[*.cs]```
 
 Here are some examples and use-case scenarios of the switches you can configure in an EditorConfig file:
 
