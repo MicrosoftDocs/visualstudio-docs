@@ -27,6 +27,9 @@ This article shows you how to create a template by using the **Export Template W
 
 3. On the **Project** menu, choose **Export Template**.
 
+   > [!NOTE]
+   > If you don't see the **Export Template** menu item, you can add it by choosing **Tools** > **Customize**. Select **Commands**, set the menu bar **Project**, select the **Add Command** button, then under **Project**, select **Export Template...**.
+
    The **Export Template Wizard** opens.
 
 4. On the **Choose Template Type** page, select **Project Template**. Select the project you want to export to a template, and then choose **Next**.
