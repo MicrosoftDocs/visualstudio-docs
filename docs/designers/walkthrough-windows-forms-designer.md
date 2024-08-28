@@ -1,7 +1,7 @@
 ---
 title: Windows Forms Designer tutorial
 description: 'Use Windows Forms Designer to build applications and arrange controls, set margins and padding, adjust layout, size, and display, and set property values.'
-ms.date: 07/15/2024
+ms.date: 08/27/2024
 ms.topic: tutorial
 helpviewer_keywords:
 - Windows Forms Designer, get started
@@ -25,7 +25,7 @@ The Windows Forms Designer provides many tools for building Windows Forms applic
 
 When you're finished, you'll have a custom control that's been assembled by using many of the layout features available in the Windows Forms Designer. This control implements the user interface (UI) for a simple calculator. The following image shows the general layout of the calculator control:
 
-![Screenshot of the completed user interface for the calculator control.](media/calculator-ui.gif)
+![Screenshot of the completed user interface for the calculator control.](media/calculator-ui.png)
 
 > [!TIP]
 > If you're a C++ developer and are looking for a tutorial to help you create a Windows app that includes forms and controls, see [Creating a forms-based MFC application](/cpp/mfc/reference/creating-a-forms-based-mfc-application?view=msvc-170&preserve-view=true). For more generalized info, see [Overview of Windows programming in C++](/cpp/windows/overview-of-windows-programming-in-cpp?view=msvc-170&preserve-view=true).
