@@ -13,16 +13,12 @@ ms.date: 08/28/2024
 
 # Tutorial: Create multi-container apps with MySQL and Docker Compose
 
-This article describes how to create multi-container apps with [MySQL](https://dev.mysql.com/) and [Docker Compose](https://docs.docker.com/compose/). An app with multiple containers allows you to dedicate containers for specialized tasks, so each container can focus on a single task and do it well.
-
-There are many advantages to using multi-container apps:
+This article describes how to create multi-container apps with [MySQL](https://dev.mysql.com/) and [Docker Compose](https://docs.docker.com/compose/). An app with multiple containers allows you to dedicate containers for specialized tasks, so each container can focus on a single task. There are many advantages to using multi-container apps:
 
 - Separate containers allow you to manage APIs and front-end resources differently than databases
-- Configure multiple containers sp you can version and update versions in isolation
-- Use a container for the local database and a managed service for the database in production
-- Create a multi-container app rather than running multiple processes with a process manager, which adds complexity to container startup/shutdown
-
-The procedures in this article build on the example in the getting started tutorials, [Get started with Docker and Visual Studio Code](docker-tutorial.md). 
+- Multiple containers let you version and update versions in isolation
+- Local databases can be maintained in containers and managed services used for databases in production
+- Multi-container apps are more efficient than running multiple processes with a process manager, which adds complexity to container startup/shutdown
 
 In this tutorial, you:
 
@@ -34,17 +30,17 @@ In this tutorial, you:
 
 ## Prerequisites
 
-- The procedures in this tutorial build on an example established in previous tutorials. You need [Docker Desktop](https://docs.docker.com/desktop/) configured for Linux containers.
+- This article is part of a tutorial series. The procedures build on an established example that requires [Docker Desktop](https://docs.docker.com/desktop/) for Linux containers.
 
-   The recommended approach is to complete the first tutorial, [Create a container app](docker-tutorial.md), including satisfying the prerequisites, and then continue with the second tutorial, [Persist data in your app](tutorial-persist-data-layer-docker-app-with-vscode.md). After you work through the first and second tutorials, continue with the procedures described in the following sections.
+   The recommended approach is to complete the first tutorial, [Create a Docker container app](docker-tutorial.md), including satisfying the prerequisites, and also the tutorial, [Persist data in your app](tutorial-persist-data-layer-docker-app-with-vscode.md). After you work through these tutorials, continue with the procedures described in this article.
 
-- [Docker Compose](https://docs.docker.com/compose/).
+- The example in this article uses [Docker Compose](https://docs.docker.com/compose/).
 
    # [Windows](#tab/windows)
 
    Docker Desktop for Windows includes Docker Compose.
 
-   You can run the following command to verify your Docker installation:
+   Run the following command to verify your Docker installation:
 
    ```bash
    docker-compose version
@@ -52,18 +48,19 @@ In this tutorial, you:
 
    # [Linux](#tab/linux)
 
-   For Linux, [Install Docker Compose](https://docs.docker.com/compose/install/).
+   For Linux, follow the instructions to [install Docker Compose](https://docs.docker.com/compose/install/).
+
    ---
 
 ### Visual Studio Code
 
-The tutorials in this series describe procedures for Visual Studio Code (VS Code). Review the following considerations for working in this environment:
+This tutorial series describes procedures for Visual Studio Code (VS Code). Review the following considerations for working in this environment:
 
 - Use the left menu to switch between **DOCKER** (Docker extension) view or the **EXPLORER** (file and folder) view:
 
-   :::image type="content" source="./media/vs-code-docker-explorer-views.png" border="false" alt-text="Screenshot that shows the Docker extension view and file/folder Explorer view in Visual Studio Code." lightbox="./media/vs-code-docker-explorer-views.png":::
+   :::image type="content" source="./media/vs-code-docker-explorer-views.png" border="false" alt-text="Screenshot that shows the Docker extension view and file/folder Explorer view in Visual Studio Code.":::
 
-- Open a command-line window in VS Code by selecting **Terminal** > **New Terminal**. You can also use the **Ctrl**+**Shift**+**`** keyboard shortcut.
+- Open a command-line window in VS Code by selecting **Terminal** > **New Terminal**. You can also use the **Ctrl**+**Shift**+**`** (back tick) keyboard shortcut.
 
 - Unless otherwise specified, run commands in a Bash window. Most commands labeled for `Bash` run in a Bash window or in the VS Code command-line window.
 
@@ -91,12 +88,12 @@ In this example, you create the network and attach the MySQL container at startu
    docker run -d 
        --network todo-app --network-alias mysql 
        -v todo-mysql-data:/var/lib/mysql 
-       -e MYSQL_PASSWORD=<your-password> 
+       -e MYSQL_ROOT_PASSWORD=<your-password> 
        -e MYSQL_DATABASE=todos 
        mysql:5.7
    ```
 
-   This command also defines the `MYSQL_PASSWORD` and `MYSQL_DATABASE` environment variables. For more information, see [MySQL Docker Hub listing](https://hub.docker.com/_/mysql/).
+   This command also defines the `MYSQL_ROOT_PASSWORD` and `MYSQL_DATABASE` environment variables. For more information, see [MySQL Docker Hub listing](https://hub.docker.com/_/mysql/).
 
 1. Get your container ID for use in the next step.
 
@@ -145,7 +142,7 @@ The `todo` app supports setting certain environment variables to specify your My
 | --- | :---: | --- |
 | `MYSQL_HOST` | `mysql` | The host name for the MySQL server. |
 | `MYSQL_USER` | `root` | The username to use for the connection. |
-| `MYSQL_PASSWORD` | `<your-password>` <br> *placeholder* | The password to use for the connection. In this example, substitute your root password for the `<your-password>` placeholder. |
+| `MYSQL_PASSWORD` | `<your-password>` | The password to use for the connection. In this example, substitute your root password for the `<your-password>` placeholder. |
 | `MYSQL_DATABASE` | `todos` | The name of the database to use after the connection is established. |
 
 > [!WARNING]
@@ -260,7 +257,7 @@ In the following example, you configure a Docker Compose file for your multi-con
      sh -c "yarn install && yarn run dev"
    ```
 
-   You used this same command earlier to [run your app container with MySQL](#run-your-app-with-mysql).
+   Remember to enter your MySQL root password for the `<your-password>` placeholder. You used this same command earlier to [run your app container with MySQL](#run-your-app-with-mysql).
 
 1. Return to the `services` definition in the *docker-compose.yml* file. Extend the definition by adding an entry to define the `app` service element, which includes the image for the container.
 
@@ -323,6 +320,8 @@ In the following example, you configure a Docker Compose file for your multi-con
          MYSQL_DATABASE: todos
    ```
 
+   Remember to enter your MySQL root password for the `<your-password>` placeholder. 
+
 1. Add the definition for the MySQL service `mysql` after the `app` service definition. Specify the element names and values as shown and with the same indentation.
 
    ```yaml
@@ -358,9 +357,11 @@ In the following example, you configure a Docker Compose file for your multi-con
        volumes:
          - todo-mysql-data:/var/lib/mysql
        environment: 
-         MYSQL_PASSWORD: <your-password>
+         MYSQL_ROOT_PASSWORD: <your-password>
          MYSQL_DATABASE: todos
    ```
+
+   Remember to enter your MySQL root password for the `<your-password>` placeholder. 
 
 1. Define volume mapping for the entire app. Add a `volumes:` section after the `services:` section and with the same indentation.
 
@@ -372,7 +373,7 @@ In the following example, you configure a Docker Compose file for your multi-con
      todo-mysql-data:
    ```
 
-1. Confirm your completed *docker-compose.yml* file looks like the following example:
+1. Confirm your completed *docker-compose.yml* file looks like the following example. You should see your MySQL root password for the `<your-password>` placeholder. 
 
    ```yaml
    name: todo
@@ -397,7 +398,7 @@ In the following example, you configure a Docker Compose file for your multi-con
        volumes:
          - todo-mysql-data:/var/lib/mysql
        environment: 
-         MYSQL_PASSWORD: <your-password>
+         MYSQL_ROOT_PASSWORD: <your-password>
          MYSQL_DATABASE: todos
 
    volumes:
@@ -412,12 +413,16 @@ Now you can try running your *docker-compose.yml* file.
 
    # [VS Code](#tab/visual-studio)
 
-   1. In VS Code, open the **DOCKER** (Docker extension) view.
+   Follow these steps in VS Code:
+
+   1. Open the **DOCKER** (Docker extension) view.
    
    1. For each running container, right-click the container and select **Remove**.
 
    # [Command line](#tab/command-line)
    
+   Run the following commands in a command-line window or terminal:
+
    1. Get the list of running containers and their identifiers `<container-id>`:
 
       ```bash
@@ -436,7 +441,9 @@ Now you can try running your *docker-compose.yml* file.
 
    # [VS Code](#tab/visual-studio)
 
-   1. In VS Code, open the **EXPLORER** (file and folder) view.
+   Follow these steps in VS Code:
+
+   1. Open the **EXPLORER** (file and folder) view.
    
    1. Right-click the *docker-compose.yml* file and select **Compose Up**.
 
@@ -464,7 +471,9 @@ Now you can try running your *docker-compose.yml* file.
 
    # [VS Code](#tab/visual-studio)
 
-   1. In VS Code, open the **DOCKER** (Docker extension) view.
+   Follow these steps in VS Code:
+
+   1. Open the **DOCKER** (Docker extension) view.
    
    1. Right-click the app container and select **View Logs**.
 
@@ -502,7 +511,9 @@ When you're done with the app and containers, you can remove them.
 
 # [VS Code](#tab/visual-studio)
 
-1. In VS Code, open the **EXPLORER** (file and folder) view.
+Follow these steps in VS Code:
+
+1. Open the **EXPLORER** (file and folder) view.
    
 1. Right-click the *docker-compose.yml* file and select **Compose Down**.
 
