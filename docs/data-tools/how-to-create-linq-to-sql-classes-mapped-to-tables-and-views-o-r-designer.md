@@ -34,7 +34,7 @@ By default, the LINQ to SQL runtime creates logic to save changes from an updata
 
 ## Create an object data source and display the data on a form
 
-After you create entity classes by using the **O/R Designer**, you can create an object data source and populate the [Data Sources window](add-new-data-sources.md#data-sources-window) with the entity classes.
+After you create entity classes by using the **O/R Designer**, you can create an object data source and populate the [Data Sources window](add-new-data-sources.md#work-with-data-sources-and-windows-forms) with the entity classes.
 
 ### To create an object data source based on LINQ to SQL entity classes
 

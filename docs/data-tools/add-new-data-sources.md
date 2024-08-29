@@ -1,7 +1,7 @@
 ---
 title: Add data sources in ADO.NET apps (.NET Framework)
 description: Explore how to add .NET Framework data sources by using ADO.NET in Visual Studio and connect your application to information in a data store.
-ms.date: 08/27/2024
+ms.date: 08/29/2024
 ms.topic: how-to
 f1_keywords:
 - vs.datasource.datasourcefieldspicker
@@ -46,11 +46,9 @@ Examples of data sources include:
    > [!TIP]
    > When the application doesn't use one or more of these components, the concept of a "data source" doesn't apply. In these scenarios, you can connect directly to the database by using [SqlCommand class](/dotnet/api/system.data.sqlclient.sqlcommand?view=netframework-4.8.1&preserve-view=true) objects.
 
-<a name="data-sources-window"></a>
-
 ## Work with data sources and Windows forms
 
-You create and edit data sources for .NET Framework by using the **Data Source Configuration Wizard** in a Windows Forms or WPF application. You can create a data source from a database, a service, an object, or from a SharePoint list:
+You create and edit data sources for .NET Framework by using the **Data Source Configuration Wizard** in a Windows Forms or WPF application. You can create a data source from a database, a service, an object, or from a SharePoint list: [h](#work-with-data-sources-and-windows-forms)
 
 :::image type="content" source="./media/data-source-configuration-wizard.png" border="false" alt-text="Screenshot that shows the Data Source Configuration Wizard in Visual Studio.":::
 
