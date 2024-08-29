@@ -48,7 +48,7 @@ Examples of data sources include:
 
 ## Work with data sources and Windows forms
 
-You create and edit data sources for .NET Framework by using the **Data Source Configuration Wizard** in a Windows Forms or WPF application. You can create a data source from a database, a service, an object, or from a SharePoint list: [h](#work-with-data-sources-and-windows-forms)
+You create and edit data sources for .NET Framework by using the **Data Source Configuration Wizard** in a Windows Forms or WPF application. You can create a data source from a database, a service, an object, or from a SharePoint list:
 
 :::image type="content" source="./media/data-source-configuration-wizard.png" border="false" alt-text="Screenshot that shows the Data Source Configuration Wizard in Visual Studio.":::
 
