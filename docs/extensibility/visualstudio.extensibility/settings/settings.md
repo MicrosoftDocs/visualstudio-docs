@@ -2,7 +2,7 @@
 title: Settings overview
 description: An overview of VisualStudio.Extensibility settings
 ms.topic: overview
-ms.date: 8/9/2024
+ms.date: 08/09/2024
 ms.author: maiak
 monikerRange: ">=vs-2022"
 author: maiak
@@ -176,4 +176,5 @@ private static Setting.Enum MyEnumSetting { get; } = new(
 };
 ```
 
-More information can be found in the API documentation.
+## Related content
+More information can be found in the [Settings API documentation](/dotnet/api/microsoft.visualstudio.extensibility.settings).
