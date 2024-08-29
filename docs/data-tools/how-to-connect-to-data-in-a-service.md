@@ -21,7 +21,7 @@ ms.subservice: data-tools
 
 You connect your .NET Framework application to the data returned from a Windows Communication Foundation (WCF) service by running the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png) and selecting **Service** on the **Choose a Data Source Type** page.
 
-Upon completion of the wizard, a service reference is added to your project and is immediately available in the [Data Sources window](add-new-data-sources.md#data-sources-window).
+Upon completion of the wizard, a service reference is added to your project and is immediately available in the [Data Sources window](add-new-data-sources.md#work-with-data-sources-and-windows-forms).
 
 > [!NOTE]
 > The items that appear in the **Data Sources** window are dependent on the information that the service returns. Some services might not provide enough information for the **Data Source Configuration Wizard** to create bindable objects. For example, if the service returns an untyped dataset, no items appear in the **Data Sources** window upon completing the wizard. This is because untyped datasets do not provide schema, so the wizard does not have enough information to create the data source.
