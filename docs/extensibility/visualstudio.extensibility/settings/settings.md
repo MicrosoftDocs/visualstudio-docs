@@ -176,4 +176,5 @@ private static Setting.Enum MyEnumSetting { get; } = new(
 };
 ```
 
+## Related content
 More information can be found in the [Settings API documentation](/dotnet/api/microsoft.visualstudio.extensibility.settings).
