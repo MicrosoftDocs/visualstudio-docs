@@ -5,7 +5,7 @@ author: ghogen
 ms.author: ghogen
 ms.service: vs-code
 ms.topic: tutorial
-ms.date: 08/28/2024
+ms.date: 08/29/2024
 # Under agreement with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 
 #customer intent: As a developer, I want to create multi-container applications with MySQL and Docker Compose, so I can use the containers to scale my project in Visual Studio.
@@ -15,10 +15,10 @@ ms.date: 08/28/2024
 
 This article describes how to create multi-container apps with [MySQL](https://dev.mysql.com/) and [Docker Compose](https://docs.docker.com/compose/). An app with multiple containers allows you to dedicate containers for specialized tasks, so each container can focus on a single task. There are many advantages to using multi-container apps:
 
-- Separate containers allow you to manage APIs and front-end resources differently than databases
-- Multiple containers let you version and update versions in isolation
-- Local databases can be maintained in containers and managed services used for databases in production
-- Multi-container apps are more efficient than running multiple processes with a process manager, which adds complexity to container startup/shutdown
+- Separate containers allow you to manage APIs and front-end resources differently than databases.
+- Multiple containers let you version and update versions in isolation.
+- Local databases can be maintained in containers and managed services used for databases in production.
+- Multi-container apps are more efficient than running multiple processes with a process manager, which adds complexity to container startup/shutdown.
 
 In this tutorial, you:
 
@@ -411,7 +411,7 @@ Now you can try running your *docker-compose.yml* file.
 
 1. Stop any running instances of your application and database.
 
-   # [VS Code](#tab/visual-studio)
+   # [Visual Studio Code](#tab/visual-studio-code)
 
    Follow these steps in VS Code:
 
@@ -439,7 +439,7 @@ Now you can try running your *docker-compose.yml* file.
 
 1. Start your multi-container app and all services.
 
-   # [VS Code](#tab/visual-studio)
+   # [Visual Studio Code](#tab/visual-studio-code)
 
    Follow these steps in VS Code:
 
@@ -469,7 +469,7 @@ Now you can try running your *docker-compose.yml* file.
 
 1. Review the logs for the running container.
 
-   # [VS Code](#tab/visual-studio)
+   # [Visual Studio Code](#tab/visual-studio-code)
 
    Follow these steps in VS Code:
 
@@ -509,7 +509,7 @@ Now you can try running your *docker-compose.yml* file.
 
 When you're done with the app and containers, you can remove them.
 
-# [VS Code](#tab/visual-studio)
+# [Visual Studio Code](#tab/visual-studio-code)
 
 Follow these steps in VS Code:
 
