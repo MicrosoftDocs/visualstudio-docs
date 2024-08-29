@@ -419,7 +419,7 @@ Now you can try running your *docker-compose.yml* file.
    
    1. For each running container, right-click the container and select **Remove**.
 
-   # [Command line](#tab/command-line)
+   # [Command Line](#tab/command-line)
    
    Run the following commands in a command-line window or terminal:
 
@@ -447,7 +447,7 @@ Now you can try running your *docker-compose.yml* file.
    
    1. Right-click the *docker-compose.yml* file and select **Compose Up**.
 
-   # [Command line](#tab/command-line)
+   # [Command Line](#tab/command-line)
    
    Run the following command with the `-d` argument, which executes the command as a background process:
 
@@ -477,7 +477,7 @@ Now you can try running your *docker-compose.yml* file.
    
    1. Right-click the app container and select **View Logs**.
 
-   # [Command line](#tab/command-line)
+   # [Command Line](#tab/command-line)
    
    Run the following command:
 
@@ -517,7 +517,7 @@ Follow these steps in VS Code:
    
 1. Right-click the *docker-compose.yml* file and select **Compose Down**.
 
-# [Command line](#tab/command-line)
+# [Command Line](#tab/command-line)
    
 Run the following command to stop the running app and containers:
 
