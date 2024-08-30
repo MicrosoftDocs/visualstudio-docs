@@ -18,7 +18,7 @@ ms.subservice: data-tools
 
 The term *lookup table* describes controls that are bound to two related data tables. These lookup controls display data from the first table based on a value selected in the second table.
 
-You can create lookup tables by dragging the main node of a parent table (from the [Data Sources window](add-new-data-sources.md#data-sources-window)) onto a control on your form that is already bound to the column in the related child table.
+You can create lookup tables by dragging the main node of a parent table (from the [Data Sources window](add-new-data-sources.md#work-with-data-sources-and-windows-forms)) onto a control on your form that is already bound to the column in the related child table.
 
 For example, consider a table of `Orders` in a sales database. Each record in the `Orders` table includes a `CustomerID`, indicating which customer placed the order. The `CustomerID` is a foreign key pointing to a customer record in the `Customers` table. In this scenario, you expand the `Orders` table in the **Data Sources** window and set the main node to **Details**. Then, set the `CustomerID` column to use a <xref:System.Windows.Forms.ComboBox> (or any other control that supports lookup binding), and drag the `Orders` node onto your form. Finally, drag the `Customers` node onto the control that is bound to the related column — in this case, the <xref:System.Windows.Forms.ComboBox> bound to the `CustomerID` column.
 
