@@ -31,6 +31,7 @@ Here's how.
 1. In the **Based on** section, use the drop-down list to choose whether you want to base your new branch off an existing local branch or a remote branch.
 
 1. The **Checkout branch** checkbox, which is on by default, automatically switches to the newly created branch. Toggle this option if you want to remain in the current branch.
+1. The **Track remote branch** checkbox, which only appears if you select **Remote** in the **Based on** section, is selected by default if the remote has a matching branch name. If the branch is intended to be a local version of the remote branch, this should be selected; otherwise, clear the checkbox. See [Remote branches](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches).
 
 There you have it; you've created a new branch.
 
