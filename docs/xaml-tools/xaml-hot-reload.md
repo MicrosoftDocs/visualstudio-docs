@@ -1,7 +1,7 @@
 ---
 title: "XAML Hot Reload for WPF and UWP apps"
 description: Modify XAML code in running .NET MAUI, WinUI 3, Windows Presentation Foundation (WPF), or Universal Windows Platform (UWP) apps with edit and continue features in XAML Hot Reload.
-ms.date: 02/25/2022
+ms.date: 08/27/2024
 ms.topic: conceptual
 helpviewer_keywords:
   - "xaml edit and continue"
@@ -39,10 +39,10 @@ XAML Hot Reload is especially helpful in these scenarios:
 
 |Supported Application Types|Operating System and Tools|
 |---|---|
-|.NET MAUI|.NET6+|
+|.NET MAUI|.NET 6+|
 |Windows Presentation Foundation (WPF) |.NET Framework 4.6+, .NET Core, and .NET 5+</br>Windows 7 and later |
 |Universal Windows apps (UWP)|Windows 10 and later, with the [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-sdk/) 14393+ and later|
-|WinUI 3)|Windows 10, version 1809 and later, with the Windows App SDK|
+|WinUI 3|Windows 10, version 1809 and later, with the Windows App SDK|
 
 If you're using **.NET MAUI**, see [XAML Hot Reload for .NET MAUI](/dotnet/maui/xaml/hot-reload) for more details.
 
