@@ -59,7 +59,7 @@ Setting the order to perform updates sets the order of the individual inserts, u
 > [!NOTE]
 > It's important to understand that the update order is all inclusive. That is, when updates are performed, inserts and then deletes are performed for all tables in the dataset.
 
-To set the `UpdateOrder` property, after dragging items from the [Data Sources Window](add-new-data-sources.md#data-sources-window) onto a form, select the `TableAdapterManager` in the component tray, and then set the `UpdateOrder` property in the **Properties** window.
+To set the `UpdateOrder` property, after dragging items from the [Data Sources Window](add-new-data-sources.md#work-with-data-sources-and-windows-forms) onto a form, select the `TableAdapterManager` in the component tray, and then set the `UpdateOrder` property in the **Properties** window.
 
 ## Create a backup copy of a dataset before performing a hierarchical update
 

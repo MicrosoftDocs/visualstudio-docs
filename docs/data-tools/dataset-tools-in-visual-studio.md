@@ -62,7 +62,7 @@ If your application needs to only read data from a database, and not perform upd
 
 Visual Studio provides tooling to simplify working with datasets. The basic end-to-end workflow is:
 
-- Use the [Data Sources window](add-new-data-sources.md#data-sources-window) to create a new dataset from one or more data sources. Use the **Dataset Designer** to configure the dataset and set its properties. For example, you need to specify which tables from the data source to include, and which columns from each table. Choose carefully to conserve the amount of memory that the dataset requires. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).
+- Use the [Data Sources window](add-new-data-sources.md#work-with-data-sources-and-windows-forms) to create a new dataset from one or more data sources. Use the **Dataset Designer** to configure the dataset and set its properties. For example, you need to specify which tables from the data source to include, and which columns from each table. Choose carefully to conserve the amount of memory that the dataset requires. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).
 
 - Specify the relationships between the tables so that foreign keys are handled correctly. For more information, see [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md).
 

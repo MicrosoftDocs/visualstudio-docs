@@ -124,7 +124,7 @@ Represents files that aren't compiled into the project, but may be embedded or p
 | LastGenOutput | Optional string. The name of the file that was created by any file generator that was run on this item. |
 | CustomToolNamespace | Optional string. The namespace in which any file generator that runs on this item should create code. |
 | Link | Optional string. The notational path to be displayed if the file is physically located outside the influence of the project. |
-| PublishState | Required string. The publish state of the content, either:<br /><br /> - Default<br />-   Included<br />-  xcluded<br />- DataFile<br />- Prerequisite |
+| PublishState | Required string. The publish state of the content, either:<br /><br /> - Default<br />-   Included<br />-  Excluded<br />- DataFile<br />- Prerequisite |
 | IsAssembly | Optional boolean. Specifies whether the file is an assembly. |
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. |
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1. Never<br />2. Always<br />3. PreserveNewest |
