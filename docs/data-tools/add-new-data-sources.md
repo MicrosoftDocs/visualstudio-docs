@@ -101,7 +101,7 @@ For detailed instructions to complete the wizard, see [Create and configure data
 
 When your configuration uses Entity Framework, you first create your Entity classes and then use the **Data Source Configuration Wizard** to create the data source.
 
-Follow these steps to create an Entity Framework model as a data source with the **Entity Data Model Wizard**: 
+Follow these steps to create an Entity Framework model as a data source with the **Entity Data Model Wizard**:
 
 1. Select **Project** > **Add New Item**. The **Add New Item** dialog opens.
 
@@ -114,11 +114,11 @@ Follow these steps to create an Entity Framework model as a data source with the
 1. In the wizard, choose the method to generate the Entity Framework model:
 
    - **EF Designer from database**: Creates a model in the Entity Framework Designer based on an existing database. You can choose the database connection, settings for the model, and database objects to include in the model. The classes your application interacts with are generated from the model.
-   
+
    - **Empty EF Designer model**: Creates an empty model in the Entity Framework Designer as a starting point for visually designing your model. Later, you can generate a database from your model. The classes your application interacts with are generated from the model.
-   
-   - **Empty Code First model**: Creates an empty [Code First](https://entityframeworkcore.com/approach-code-first) model as a starting point for designing your model by using code. Later, you can generate a database from your model. 
-   
+
+   - **Empty Code First model**: Creates an empty [Code First](https://entityframeworkcore.com/approach-code-first) model as a starting point for designing your model by using code. Later, you can generate a database from your model.
+
    - **Code First from database**: Creates a Code First model based on an existing database. You can choose the database connection, settings for the model, and database objects to include in the model.
 
    :::image type="content" source="./media/raddata-entity-data-model-wizard.png" border="false" alt-text="Screenshot that shows the options for generating the new model in the Entity Data Model wizard.":::
@@ -132,7 +132,7 @@ Follow these steps to create an Entity Framework model as a data source with the
 1. After you generate classes for the model, you can create a data source from an object with the **Data Source Configuration Wizard**.
 
    - Select the tables (or individual columns), stored procedures, functions, and views from the model for use in the dataset.
-   
+
       :::image type="content" source="./media/raddata-data-source-configuration-wizard-with-entity-classes.png" alt-text="Screenshot that shows the generated Entity classes for the model in the Data Source Configuration Wizard.":::
 
    For detailed instructions, see [Create data source from object](#create-data-source-from-object).
@@ -182,7 +182,7 @@ Follow these steps to create a data source from an object:
    The tree view contains nodes for your project and for assemblies and other projects referenced by your project.
 
    1. To bind to an object in an assembly or project that doesn't appear in the tree view, select **Add Reference**.
-   
+
    1. Use the **Reference Manager** dialog to add a reference to the assembly or project. After you add the reference, Visual Studio adds the assembly or project to the tree view.
 
    > [!NOTE]
