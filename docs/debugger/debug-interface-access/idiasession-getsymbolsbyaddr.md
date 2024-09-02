@@ -1,5 +1,5 @@
 ---
-description: "Retrieves an enumerator that finds symbols in the order of their addresses."
+description: Retrieves an enumerator that finds symbols in the order of their addresses.
 title: "IDiaSession::getSymbolsByAddr"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::getSymbolsByAddr
 
 Retrieves an enumerator that finds symbols in the order of their addresses.
@@ -19,7 +20,7 @@ Retrieves an enumerator that finds symbols in the order of their addresses.
 ## Syntax
 
 ```C++
-HRESULT getSymbolsByAddr( 
+HRESULT getSymbolsByAddr( 
    IDiaEnumSymbolsByAddr** ppEnumbyAddr
 );
 ```
