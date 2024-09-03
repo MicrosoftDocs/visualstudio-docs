@@ -19,7 +19,7 @@ The Visual Studio **Interactive Window** in IPython mode is an advanced yet user
 
 - Visual Studio on Windows installed with support for Python workloads. For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
 
-   Visual Studio for Mac isn't currently supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
+   Visual Studio for Mac isn't supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
 - The Python installation must include the IPython, numpy, and matplotlib libraries. You can install these libraries by using the Package installer in Visual Studio, as described in [Tutorial: Install packages in your Python environment in Visual Studio](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md).
 

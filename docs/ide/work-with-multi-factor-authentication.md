@@ -250,4 +250,3 @@ Network related issues are normally related to the machine or network configurat
 ## Related content
 
 - [Sign in to Visual Studio](signing-in-to-visual-studio.md)
-- [Sign in to Visual Studio for Mac](/visualstudio/mac/signing-in)

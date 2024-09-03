@@ -163,5 +163,4 @@ Here are a few more support options:
 * [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Troubleshoot network-related errors in Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
-* [Install behind a firewall or proxy server (Visual Studio for Mac)](/visualstudio/mac/install-behind-a-firewall-or-proxy-server)
 * [Configure network settings for Copilot in Visual Studio](https://docs.github.com/en/copilot/configuring-github-copilot/configuring-network-settings-for-github-copilot?tool=visualstudio#configuring-proxy-settings-for-github-copilot)
