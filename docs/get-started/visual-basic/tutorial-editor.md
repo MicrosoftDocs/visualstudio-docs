@@ -11,7 +11,7 @@ manager: mijacobs
 dev_langs:
 - VB
 
-#customer intent: As a developer, I want to explore the code editor in Visual Studio to make writing Visual Studio code easier.
+#customer intent: As a developer, I want to explore the code editor in Visual Studio to make writing Visual Basic code easier.
 ---
 
 # Tutorial: Learn to use the code editor with Visual Basic
@@ -316,7 +316,7 @@ Nobody gets code right the first time, and one of the things you might have to c
 
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Code snippets](../../ide/code-snippets.md)
 - [Navigate code](../../ide/navigating-code.md)
