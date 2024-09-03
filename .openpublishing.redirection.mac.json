@@ -1,12 +1,12 @@
 {
   "redirections": [
     {
-      "source_path_from_root": "/visualstudio/mac/",
+      "source_path_from_root": "/visualstudio/mac/index.md",
       "redirect_url": "/previous-versions/visualstudio/",
       "redirect_document_id": false
     },
     {
-      "source_path_from_root": "/visualstudio/mac/samples/",
+      "source_path_from_root": "/visualstudio/mac/samples/index.md",
       "redirect_url": "/previous-versions/visualstudio/",
       "redirect_document_id": false
     },
