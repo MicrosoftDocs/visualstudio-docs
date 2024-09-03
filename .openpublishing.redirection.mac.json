@@ -1,7 +1,7 @@
 {
   "redirections": [
     {
-      "source_path_from_root": "/mac/samples/index.yml",
+      "source_path_from_root": "/mac/index.yml",
       "redirect_url": "/previous-versions/visualstudio/",
       "redirect_document_id": false
     },
