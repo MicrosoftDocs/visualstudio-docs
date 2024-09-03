@@ -17,7 +17,7 @@ monikerRange: '>= vs-2022'
 
 # Case study: Isolate a performance issue (C#, Visual Basic, F#)
 
-In this article, you'll learn how you can use profiling tools to investigate performance issues and isolate problem areas. This case study uses a sample application with performance issues to demonstrate how to use profiling tools to improve efficiency. To compare profiling tools, see [Which tool should I choose?](../profiling/choose-performance-tool.md)
+Use the profiling tools to investigate performance issues and isolate problem areas. This case study uses a sample application with performance issues to demonstrate how to use profiling tools to improve efficiency. If you want to compare profiling tools, see [Which tool should I choose?](../profiling/choose-performance-tool.md)
 
 This case study covers these topics:
 
@@ -53,14 +53,16 @@ Addressing these challenges requires a strategic approach that combines effectiv
 
 ## Strategy
 
-- Start your investigation by watching .NET counter metrics while collecting performance data. Like the CPU Usage tool, the .NET Counters tool is also a good starting point for a performance investigation. Once you identify interesting data, you can use other profiling tools to investigate more deeply.
-- Next, for additional insights to help isolate issues, consider collecting a trace using one of the other profiling tools, such as the CPU Usage tool, the Instrumentation tool, and others.
+Here is a high-level view of the approach in this case study:
 
-Data collection requires the following steps (not shown in this article):
+- We start the investigation by watching .NET counter metrics while collecting performance data. Like the CPU Usage tool, Visual Studio's [.NET Counters](../profiling/dotnet-counters-tool.md) tool is also a good starting point for a performance investigation.
+- Next, for additional insights to help isolate issues or improve the performance, consider collecting a trace using one of the other profiling tools. For example, take a look at call counts and timing data using the [Instrumentation](../profiling/instrumentation.md) tool.
 
-- Set your app to a Release build.
+Data collection requires the following tasks:
+
+- Setting the app to a Release build.
 - Select the .NET Counters tool from the Performance Profiler (**Alt+F2**). (Later steps involve the Instrumentation tool.)
-- From the Performance Profiler, start the app.
+- From the Performance Profiler, start the app and collect a trace.
 
 ## Check performance counters
 
