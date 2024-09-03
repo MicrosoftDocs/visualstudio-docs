@@ -15,7 +15,7 @@ manager: mijacobs
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
 ---
-# Beginner's guide to optimizing code and reducing compute costs (C#, Visual Basic, C++, F#)
+# Case Study: Beginner's guide to optimizing code and reducing compute costs (C#, Visual Basic, C++, F#)
 
 Reducing your compute time means reducing costs, so optimizing your code can save money. This case study uses a sample application with performance issues to demonstrate how to use profiling tools to improve efficiency.
 
