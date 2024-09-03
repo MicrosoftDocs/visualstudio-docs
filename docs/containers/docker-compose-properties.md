@@ -114,7 +114,6 @@ Use double quotes around the values, as in the preceding example, and use the ba
 |----------|-----------|
 |com.microsoft.visualstudio.debuggee.program|The program launched when starting debugging. For .NET Core apps, this setting is typically **dotnet**.|
 |com.microsoft.visualstudio.debuggee.arguments|The arguments passed to the program when starting debugging. For .NET Core apps, these arguments are typically additional search paths for NuGet packages followed by the path to the project's output assembly.|
-|com.microsoft.visual-studio.project-name|The name of the project, which helps Visual Studio find the Dockerfile if the project is not in the default location.|
 |com.microsoft.visualstudio.debuggee.workingdirectory|The directory used as the starting directory when starting debugging. This setting is typically */app* for Linux containers, or *C:\app* for Windows containers.|
 |com.microsoft.visualstudio.debuggee.killprogram|This command is used to stop the debuggee program that's running inside of the container (when necessary).|
 :::moniker-end
@@ -128,6 +127,7 @@ Use double quotes around the values, as in the preceding example, and use the ba
 |com.microsoft.visualstudio.debuggee.killprogram|This command is used to stop the debuggee program that's running inside of the container (when necessary).|
 |com.microsoft.visualstudio.debuggee.noattach.program|The program launched when you use **Start without debugging** (**Ctrl**+**F5**) in an Azure functions project that runs in an [isolated process](/azure/azure-functions/dotnet-isolated-process-guide). Typically both **F5** and **Ctrl**+**F5** uses the same program, but if any project type like Azure Functions in an isolated process requires a different program than **F5**, then this will be used.|
 |com.microsoft.visualstudio.debuggee.noattach.arguments|The arguments passed to the program when you use **Start without debugging** (**Ctrl**+**F5**) in an Azure functions project that runs in an isolated process.|
+|com.microsoft.visual-studio.project-name|The name of the project, which helps Visual Studio find the Dockerfile if the project is not in the default location.|
 :::moniker-end
 
 ### Customize the Docker build process
