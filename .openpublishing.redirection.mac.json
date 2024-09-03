@@ -6,6 +6,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path_from_root": "/visualstudio/mac/samples/",
+      "redirect_url": "/previous-versions/visualstudio/",
+      "redirect_document_id": false
+    },
+    {
       "source_path_from_root": "/mac/accessibility-ide-options.md",
       "redirect_url": "/visualstudio/mac/accessibility",
       "redirect_document_id": false
