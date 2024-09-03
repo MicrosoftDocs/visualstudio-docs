@@ -25,9 +25,6 @@ With Visual Studio, you can connect any of the following to Azure Storage by usi
 
 The connected service functionality adds all the needed references and connection code to your project, and modifies your configuration files appropriately.
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Connected services in Visual Studio for Mac](/visualstudio/mac/connected-services).
-
 ## Prerequisites
 
 - Visual Studio with the Azure workload installed.
@@ -136,4 +133,3 @@ To learn about working with queues, start at [Azure Queue Storage quickstart (.N
 
 - [Azure Storage forum](https://social.msdn.microsoft.com/forums/azure/home?forum=windowsazuredata)
 - [Azure Storage documentation](/azure/storage/)
-- [Connected services (Visual Studio for Mac)](/visualstudio/mac/connected-services)
