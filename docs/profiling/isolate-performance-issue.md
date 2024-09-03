@@ -17,9 +17,7 @@ monikerRange: '>= vs-2022'
 
 # Case study: Isolate a performance issue (C#, Visual Basic, F#)
 
-In this article, you'll learn how you can use profiling tools to investigate performance issues and isolate problem areas. 
-
-Rather than providing step-by-step instructions, the intent here is to show you how to use the profiling tools effectively and how to interpret the data. Like the CPU Usage tool, the .NET Counters tool is also a good starting point for a performance investigation. Once you identify interesting data, you can use other profiling tools to investigate more deeply. To compare tools, see [Which tool should I choose?](../profiling/choose-performance-tool.md)
+In this article, you'll learn how you can use profiling tools to investigate performance issues and isolate problem areas. This case study uses a sample application with performance issues to demonstrate how to use profiling tools to improve efficiency. To compare profiling tools, see [Which tool should I choose?](../profiling/choose-performance-tool.md)
 
 This case study covers these topics:
 
@@ -33,7 +31,7 @@ Follow along and then apply these techniques to your own applications to make th
 
 The sample application in this case study is an ASP.NET app that runs queries against a simulated database. The example is based on the [Diagnostics Sample](/dotnet/core/diagnostics/debug-threadpool-starvation).
 
-The primary performance issue with the sample application lies in poorly implemented coding patterns. The application has a performance bottleneck that significantly impacts its efficiency. The problem includes the following symptoms:
+The primary performance issue with the sample application lies in inefficient coding patterns. The application has a performance bottleneck that significantly impacts its efficiency. The problem includes the following symptoms:
 
 - **Low CPU Usage**: The application shows low CPU usage, indicating that the CPU is not the bottleneck.
 
@@ -55,7 +53,7 @@ Addressing these challenges requires a strategic approach that combines effectiv
 
 ## Strategy
 
-- Start your investigation by watching .NET counter metrics while collecting performance data.
+- Start your investigation by watching .NET counter metrics while collecting performance data. Like the CPU Usage tool, the .NET Counters tool is also a good starting point for a performance investigation. Once you identify interesting data, you can use other profiling tools to investigate more deeply.
 - Next, for additional insights to help isolate issues, consider collecting a trace using one of the other profiling tools, such as the CPU Usage tool, the Instrumentation tool, and others.
 
 Data collection requires the following steps (not shown in this article):
