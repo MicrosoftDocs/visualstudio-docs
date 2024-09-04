@@ -7,7 +7,7 @@ ms.subservice: unreal-engine-tools
 ms.topic: overview
 author: "TylerMSFT"
 ms.author: "twhitney"
-manager: Markl
+manager: Coxford
 ---
 
 # Visual Studio Tools for Unreal Engine

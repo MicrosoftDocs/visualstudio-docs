@@ -1,5 +1,5 @@
 ---
-description: "Returns the equivalent address for the specified relative virtual address (RVA)."
+description: Returns the equivalent address for the specified relative virtual address (RVA).
 title: "IDiaSession::addressForRVA"
 ms.date: "07/03/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::addressForRVA
 
 Returns the equivalent address for the specified virtual address (VA).
@@ -38,7 +39,6 @@ HRESULT addressForRVA(
  `pOffset`
 
 [out] Returns the equivalent offset within the section for the specified address.
-
 
 ## Return Value
 

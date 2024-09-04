@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that indicates whether the section contains initialized data."
+description: Retrieves a flag that indicates whether the section contains initialized data.
 title: "IDiaSectionContrib::get_initializedData"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_initializedData
 
 Retrieves a flag that indicates whether the section contains initialized data.
@@ -19,7 +20,7 @@ Retrieves a flag that indicates whether the section contains initialized data.
 ## Syntax
 
 ```C++
-HRESULT get_initializedData ( 
+HRESULT get_initializedData ( 
    BOOL* pRetVal
 );
 ```

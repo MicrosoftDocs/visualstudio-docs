@@ -7,7 +7,7 @@ ms.service: visual-studio
 ms.subservice: unreal-engine-tools
 author: TylerMSFT
 ms.author: TWhitney
-manager: MarkL
+manager: Coxford
 #customer intent: As a C++ game developer using Unreal Engine and Visual Studio, I want to view Unreal Engine logging in Visual Studio so that I can see the logs without switching between the Unreal Editor and Visual Studio.
 ---
 
@@ -48,7 +48,7 @@ Having the UE logging window open while you're debugging is convenient because y
 
 ## Unreal Engine logging options
 
-Use **Tools** > **Options** > **Unreal Engine** to reach the options to configure the Unreal Engine logging window. On the **General** tab, the following options for the Unreal Engine log window are available under **Log Tool Window**:
+Starting with Visual Studio 2022 17.12, use **Tools** > **Options** > **Unreal Engine** to configure the Unreal Engine logging window. On the **General** tab, the following options for the Unreal Engine log window are available under **Log Tool Window**:
 
 :::image type="content" source="../media/vs-unreal-engine-log-options.png" alt-text="A screenshot of the Unreal Engine Log window options.":::
 

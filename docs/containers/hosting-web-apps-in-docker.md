@@ -17,7 +17,7 @@ ms.author: ghogen
 Docker is a lightweight container engine, similar in some ways to a virtual machine, which you can use to host applications and services.
 This tutorial walks you through using Visual Studio to publish your containerized application to an [Azure Container Registry](https://azure.microsoft.com/products/container-registry).
 
-If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/pricing/purchase-options/azure-account?icid=dotnet?utm_source=acr-publish-doc&utm_medium=docs&utm_campaign=docs) before you begin.           
+If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/pricing/purchase-options/azure-account?icid=dotnet?utm_source=acr-publish-doc&utm_medium=docs&utm_campaign=docs) before you begin.
 
 ## Prerequisites
 
@@ -75,7 +75,7 @@ The following steps guide you through creating a basic ASP.NET Core app that you
    | **[SKU](/azure/container-registry/container-registry-skus)** | "Standard" | Select the service tier of the container registry. |
    | **Registry Location** | A nearby location | Choose a location in a [region](https://azure.microsoft.com/explore/global-infrastructure/geographies/) close to you or close to other services that you expect to use the container registry. |
 
-   :::image type="content" source="media/hosting-web-apps-in-docker/vs-azure-container-registry-provisioning-dialog-2019.png" border="false" alt-text="Screenshot that shows how to enter values in the dialog to create a new Azure Container Registry.":::
+   :::image type="content" source="media/hosting-web-apps-in-docker/vs-azure-container-registry-provisioning-dialog-2019.png" border="false" alt-text="Screenshot that shows how to enter values in the dialog to create a new Azure container registry.":::
 
 1. After you enter the resource values, select **Create**.
 
@@ -109,7 +109,7 @@ The following steps guide you through creating a basic ASP.NET Core app that you
    | **[SKU](/azure/container-registry/container-registry-skus)** | "Standard" | Select the service tier of the container registry. |
    | **Registry Location** | A nearby location | Choose a location in a [region](https://azure.microsoft.com/explore/global-infrastructure/geographies/) close to you or close to other services that you expect to use the container registry. |
 
-   :::image type="content" source="media/container-tools/vs-2022/vs-azure-container-registry-provisioning-dialog.png" border="false" alt-text="Screenshot that shows how to enter values in the dialog to create a new Azure Container Registry.":::
+   :::image type="content" source="media/container-tools/vs-2022/vs-azure-container-registry-provisioning-dialog.png" border="false" alt-text="Screenshot that shows how to enter values in the dialog to create a new Azure container registry.":::
 
 1. After you enter the resource values, select **Create**.
 

@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the load address for the executable file that corresponds to the symbols in this symbol store."
+description: Retrieves the load address for the executable file that corresponds to the symbols in this symbol store.
 title: "IDiaSession::get_loadAddress"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::get_loadAddress
 
 Retrieves the load address for the executable file that corresponds to the symbols in this symbol store.
@@ -19,7 +20,7 @@ Retrieves the load address for the executable file that corresponds to the symbo
 ## Syntax
 
 ```C++
-HRESULT get_loadAddress ( 
+HRESULT get_loadAddress ( 
    ULONGLONG* pRetVal
 );
 ```
