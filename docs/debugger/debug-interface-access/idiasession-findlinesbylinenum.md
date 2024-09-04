@@ -1,5 +1,5 @@
 ---
-description: "Determines the line numbers of the compiland that the specified line number in a source file lies within or near."
+description: Determines the line numbers of the compiland that the specified line number in a source file lies within or near.
 title: "IDiaSession::findLinesByLinenum"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findLinesByLinenum
 
 Determines the line numbers of the compiland that the specified line number in a source file lies within or near.
@@ -19,7 +20,7 @@ Determines the line numbers of the compiland that the specified line number in a
 ## Syntax
 
 ```C++
-HRESULT findLinesByLinenum ( 
+HRESULT findLinesByLinenum ( 
     IDiaSymbol*           compiland,
     IDiaSourceFile*       file,
     DWORD                 linenum,

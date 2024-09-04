@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the lines in a specified compiland that contain a specified address."
+description: Retrieves the lines in a specified compiland that contain a specified address.
 title: "IDiaSession::findLinesByAddr"
 ms.date: "07/22/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # `IDiaSession::findLinesByAddr`
 
 Retrieves the lines in a specified compiland that contain a specified address.
