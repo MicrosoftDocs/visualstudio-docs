@@ -269,7 +269,7 @@ The following people contributed to the Visual Studio docs during this period. T
 
 **Updated articles**
 
-- [Visual Studio on Arm-powered devices](../install/visual-studio-on-arm-devices.md) - Workload updates for arm64 in latest Visual Studio releases
+- [Visual Studio on Arm-powered devices](../install/visual-studio-on-arm-devices.md) - Workload updates for Arm64 in latest Visual Studio releases
 - [Install Visual Studio versions side-by-side](../install/install-visual-studio-versions-side-by-side.md) - Review and update
 - [Repair Visual Studio](../install/repair-visual-studio.md) - Review and update
 - [Uninstall or remove Visual Studio](../install/uninstall-visual-studio.md) - Review and update
