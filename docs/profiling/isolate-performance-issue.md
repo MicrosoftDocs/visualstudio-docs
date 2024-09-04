@@ -97,9 +97,9 @@ Right-click the `QueryCustomerDB` function and choose **View in Call Tree**.
 
 :::image type="content" source="./media/vs-2022/instrumentation-threadpool-starvation-call-tree.png" alt-text="Screenshot of Call Tree in the Instrumentation tool." lightbox="media/vs-2022/instrumentation-threadpool-starvation-call-tree.png":::
 
-In the report details view, open the **Call Tree** view. The code path with highest CPU usage in the app is called the *hot path*. The hot path flame icon (![Screenshot that shows Hot Path icon.](../profiling/media/optimize-code-hot-path-icon.png)) can help to quickly identify performance issues that might be improved.
+The code path with highest CPU usage in the app is called the *hot path*. The hot path flame icon (![Screenshot that shows Hot Path icon.](../profiling/media/optimize-code-hot-path-icon.png)) can help to quickly identify performance issues that might be improved.
 
-In the Call Tree view, you can see that the hot path includes the `QueryCustomerDB` function, which points to a potential performance issue.
+In the **Call Tree** view, you can see that the hot path includes the `QueryCustomerDB` function, which points to a potential performance issue.
 
 Relative to time spent in other functions, the **Self** and **Avg Self** values for the `QueryCustomerDB` function are very high. Unlike **Total** and **Avg Total**, the **Self** values exclude time spent in other functions, so this is a good place to look for the performance bottleneck.
 
