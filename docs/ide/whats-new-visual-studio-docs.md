@@ -126,7 +126,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Create a Git repository from Visual Studio](../version-control/git-create-repository.md) - Version control local repo
 - [Create a pull request in Visual Studio](../version-control/git-create-pull-request.md) - Add section for PR comments
 
-## Community contributors
+### Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
@@ -222,7 +222,7 @@ The following people contributed to the Visual Studio docs during this period. T
 
 - [About Git in Visual Studio](../version-control/git-with-visual-studio.md) - Improve search metadata and text
 
-## Community contributors
+### Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
