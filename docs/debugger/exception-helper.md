@@ -63,7 +63,7 @@ In cases where an exception has been `thrown` the Exception Helper shows the cal
 
 Starting with .NET 9, the Visual Studio debugger automatically breaks when an async Task method throws an exception within .NET framework code. This makes is easier to debug asynchronous code, especially in ASP.NET, because exceptions are often thrown across asynchronous boundaries.
 
-![Exception helper with async](media/vs-2022/debugger-exception-helper-async.png)
+![Screenshot of Exception helper with async method](media/vs-2022/debugger-exception-helper-async.png)
 
 ::: moniker-end
 
