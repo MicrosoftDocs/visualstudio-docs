@@ -87,9 +87,7 @@ Based on the low CPU usage and the relatively high thread count, and working on 
 
 Let's take a look at a trace from the Instrumentation tool to see if we can try to find out more about what is happening with the threads.
 
-When the diagnostic data loads, first check the initial *.diagsession* report page that shows Top Insights and the Hot Path. In the Instrumentation trace, the Hot Path shows the code path with longest function times in your app. These sections may provide tips to help quickly identify performance issues that can be fixed.
-
-In the collected trace, we use the **Open details** link in the report and then select **Flame Graph**.
+After collecting a trace with the Instrumentation tool and loading it into Visual Studio, we first check the initial *.diagsession* report page that shows summarized data. In the collected trace, we use the **Open details** link in the report and then select **Flame Graph**.
 
 :::image type="content" source="./media/vs-2022/instrumentation-threadpool-starvation-flame-graph.png" alt-text="Screenshot of Flame Graph in the Instrumentation tool.":::
 
@@ -99,7 +97,9 @@ Right-click the `QueryCustomerDB` function and choose **View in Call Tree**.
 
 :::image type="content" source="./media/vs-2022/instrumentation-threadpool-starvation-call-tree.png" alt-text="Screenshot of Call Tree in the Instrumentation tool." lightbox="media/vs-2022/instrumentation-threadpool-starvation-call-tree.png":::
 
-In the Call Tree view, you see that the Hot Path (flame icon) includes the `QueryCustomerDB` function, which points to a potential performance issue.
+In the report details view, open the **Call Tree** view. The code path with highest CPU usage in the app is called the *hot path*. The hot path flame icon (![Screenshot that shows Hot Path icon.](../profiling/media/optimize-code-hot-path-icon.png)) can help to quickly identify performance issues that might be improved.
+
+In the Call Tree view, you can see that the hot path includes the `QueryCustomerDB` function, which points to a potential performance issue.
 
 Relative to time spent in other functions, the **Self** and **Avg Self** values for the `QueryCustomerDB` function are very high. Unlike **Total** and **Avg Total**, the **Self** values exclude time spent in other functions, so this is a good place to look for the performance bottleneck.
 
