@@ -3,7 +3,7 @@ title: C# Dev Kit for Visual Studio Code
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 04/11/2024
+ms.date: 09/04/2024
 ms.topic: how-to
 description: Explore the C# Dev Kit for Visual Studio Code that provides a rich C# editing experience, AI-powered development, solution management, and integrated testing.
 ---
@@ -44,7 +44,7 @@ To learn more about the C# Dev Kit and to install it, check out these resources:
 | Visual Studio Enterprise NFR\* | NFR | Available | N/A |
 | Visual Studio Test Professional (Standard) | VL, Retail | Not available  |  N/A  |
 | MSDN Platforms (Standard) | VL, Retail | Not available  |  N/A  |
-| Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
+| Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Available | N/A |
 
 \* *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, BizSpark, Imagine, Imagine Premium, Microsoft Cloud Partner Program, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services Developer, MCT Software & Services.*
 
