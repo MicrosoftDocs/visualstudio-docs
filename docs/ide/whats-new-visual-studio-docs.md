@@ -35,7 +35,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Remote Debug ASP.NET Core on Azure App Service (Windows)](../debugger/remote-debugging-azure-app-service.md) - Update remote-debugging-azure-app-service.md
+- [Remote Debug ASP.NET Core on Azure App Service (Windows)](../debugger/remote-debugging-azure-app-service.md) - Review and update
 - [Debug in mixed mode (C#, C++, Visual Basic)](../debugger/how-to-debug-in-mixed-mode.md) - Review and update
 - [Disable the Just-In-Time Debugger](../debugger/just-in-time-debugging-in-visual-studio.md) - Review and update
 - [Use breakpoints in the Visual Studio debugger](../debugger/using-breakpoints.md) - Add content for creating breakpoint groups
