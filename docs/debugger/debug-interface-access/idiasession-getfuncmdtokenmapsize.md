@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the size, in bytes, of the .NET Native metadata function token map."
+description: Retrieves the size, in bytes, of the .NET Native metadata function token map.
 title: "IDiaSession::getFuncMDTokenMapSize"
 ms.date: "07/04/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::getFuncMDTokenMapSize
 
 Retrieves the size, in bytes, of the .NET Native metadata function token map.
