@@ -1,5 +1,5 @@
 ---
-description: "Returns an enumeration of symbols for the variable that the specified tag value corresponds to in the parent Accelerator stub function."
+description: Returns an enumeration of symbols for the variable that the specified tag value corresponds to in the parent Accelerator stub function.
 title: "IDiaSession::findSymbolsForAcceleratorPointerTag"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findSymbolsForAcceleratorPointerTag
 
 Returns an enumeration of symbols for the variable that the specified tag value corresponds to in the parent Accelerator stub function.
@@ -17,7 +18,7 @@ Returns an enumeration of symbols for the variable that the specified tag value 
 ## Syntax
 
 ```C++
-HRESULT findSymbolsForAcceleratorPointerTag ( 
+HRESULT findSymbolsForAcceleratorPointerTag ( 
    IDiaSymbol*           parent,
    DWORD                 tagValue,
    IDiaEnumSymbols**     ppResult
