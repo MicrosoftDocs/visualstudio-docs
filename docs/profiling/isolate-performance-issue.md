@@ -66,13 +66,13 @@ Data collection requires the following tasks:
 
 ## Check performance counters
 
-While running the app, view the counters in the .NET Counters tool. For initial investigations, a few key metrics to keep an eye on include:
+While running the app, we observe the counters in the .NET Counters tool. For initial investigations, a few key metrics to keep an eye on include:
 
 - `CPU Usage`. Watch this counter to see whether a performance issue occurs with high or low CPU usage. This can be a clue to specific types of performance issues. For example:
-  - With high CPU usage, use the CPU Usage tool to identify areas where you may be able to optimize code. For a tutorial on this, see [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
-  - With low CPU usage, use the Instrumentation tool to identify call counts and average function time based on wall clock time. This may help you to identify issues such as contention or thread pool starvation.
+  - With high CPU usage, use the CPU Usage tool to identify areas where we may be able to optimize code. For a tutorial on this, see [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
+  - With low CPU usage, use the Instrumentation tool to identify call counts and average function time based on wall clock time. This may help identify issues such as contention or thread pool starvation.
 - `Allocation Rate`. For a web app serving requests, the rate should be fairly steady.
-- `GC Heap Size`. Watch this counter to see if memory usage is growing continually and potentially leaking. If it seems high, you can use one of the memory usage tools.
+- `GC Heap Size`. Watch this counter to see if memory usage is growing continually and potentially leaking. If it seems high, use one of the memory usage tools.
 - `Threadpool Thread Count`. For a web app serving requests, watch this counter to see if the thread count is holding steady or rising at a steady rate.
 
 Here's an example showing how the `CPU Usage` is low, while the `ThreadPool Thread Count` is relatively high.
@@ -87,9 +87,9 @@ Based on the low CPU usage and the relatively high thread count, and working on 
 
 Let's take a look at a trace from the Instrumentation tool to see if we can try to find out more about what is happening with the threads.
 
-When the diagnostic data loads, first check the initial *.diagsession* report page that shows Top Insights and the Hot Path. In the Instrumentation trace, the Hot Path shows the code path with longest function times in your app. These sections may provide tips to help you quickly identify performance issues that you can improve.
+When the diagnostic data loads, first check the initial *.diagsession* report page that shows Top Insights and the Hot Path. In the Instrumentation trace, the Hot Path shows the code path with longest function times in your app. These sections may provide tips to help quickly identify performance issues that can be fixed.
 
-In the collected trace, use the **Open details** link in the report and then select **Flame Graph**.
+In the collected trace, we use the **Open details** link in the report and then select **Flame Graph**.
 
 :::image type="content" source="./media/vs-2022/instrumentation-threadpool-starvation-flame-graph.png" alt-text="Screenshot of Flame Graph in the Instrumentation tool.":::
 
