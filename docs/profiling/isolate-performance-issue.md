@@ -91,7 +91,7 @@ After collecting a trace with the Instrumentation tool and loading it into Visua
 
 :::image type="content" source="./media/vs-2022/instrumentation-threadpool-starvation-flame-graph.png" alt-text="Screenshot of Flame Graph in the Instrumentation tool.":::
 
-The Flame Graph visualization shows us that the `QueryCustomerDB` function is responsible for a significant portion of the app's running time.
+The Flame Graph visualization shows us that the `QueryCustomerDB` function (shown in yellow) is responsible for a significant portion of the app's running time.
 
 Right-click the `QueryCustomerDB` function and choose **View in Call Tree**.
 
