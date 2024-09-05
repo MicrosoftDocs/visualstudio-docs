@@ -1,7 +1,7 @@
 ---
 title: CPU profiling in the Performance Profiler
 description: Learn about the CPU profiler performance tool, which shows the CPU time and percentage spent executing code in C++, C#, Visual Basic, and JavaScript apps.
-ms.date: 08/14/2024
+ms.date: 09/05/2024
 ms.topic: how-to
 ms.custom: "profiling-seo"
 author: mikejo5000
@@ -93,7 +93,7 @@ Usually, the local machine best replicates installed app execution. To collect d
 
 If any insights show up in the **Top Insights** section, use the provided link to get more information about the issue identified. In addition, if you are using Copilot, the **Ask Copilot** button will open the Copilot chat window, and Copilot will provide suggestions based on your code and any identified issues.
 
-To analyze top insights, top functions, and the hot path, see [CPU insights](../profiling/cpu-insights.md).
+For more information, see [CPU insights](../profiling/cpu-insights.md).
 ::: moniker-end
 
 ## Analyze CPU utilization
@@ -155,7 +155,7 @@ You can click the **Expand Hot Path** and **Show Hot Path** buttons to see the f
 ::: moniker range=">=vs-2022"
 System and framework functions that are executed by your code are called *external code*. External code functions start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you aren't interested in external code, so the CPU Usage call tree gathers the external functions of a user method into one **[External Call]** node.
 
-To view the call paths of external code, on the main report summary page (right pane), select **Show Just My Code** from the **Settings** dropdown, and then select **Apply**. The **Call Tree** view of the **CPU Usage** page then expands the external code calls. (The **Settings** dropdown is available on the main report summary page, not the detailed views.)
+To view the call paths of external code, on the main report summary page (right pane), deselect **Show Just My Code** from the **Settings** dropdown, and then select **Apply**. (The **Settings** dropdown is available on the main report summary page, not the detailed views.)
 
 ![Screenshot that shows Settings, then Show Just My Code.](../profiling/media/vs-2022/diagnostics-tools-show-external-code.png)
 ::: moniker-end
@@ -168,6 +168,8 @@ To view the call paths of external code, on the main diagnostic report page (rig
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
+When you disable **Show Just My Code**, the **Call Tree** view of the **CPU Usage** page expands the external code calls.
+
 Many external code call chains are deeply nested, so the width of the chain can exceed the display width of the **Function Name** column. The function names then appear as shown in the following image.
 
 ![Screenshot that shows nested external code in the call tree.](../profiling/media/vs-2022/cpu-use-wt-show-external-code.png "Nested external code in the call tree")
