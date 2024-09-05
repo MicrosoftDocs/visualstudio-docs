@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the addresses and lengths of discontiguous fragments for the function at the specified relative virtual address (RVA)."
+description: Retrieves the addresses and lengths of discontiguous fragments for the function at the specified relative virtual address (RVA).
 title: "IDiaSession::getFunctionFragments_RVA"
 ms.date: "07/05/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::getFunctionFragments_RVA
 
 Retrieves the addresses and lengths of discontiguous fragments for the function at the specified relative virtual address (RVA).
@@ -36,7 +37,7 @@ HRESULT getFunctionFragments_RVA(
 
  `cbFunc`
 
-[in] The total size in bytes of the function (i.e. the length of the function).
+[in] The total size in bytes of the function (that is, the length of the function).
 
 `cFragments`
 
@@ -44,11 +45,11 @@ HRESULT getFunctionFragments_RVA(
 
  `pRvaFragment`
 
-[out] Array buffer to receive the relative virtual addresses of each fragment. This must be at least `cFragments` long. 
+[out] Array buffer to receive the relative virtual addresses of each fragment. This must be at least `cFragments` long.
 
  `pLenFragment`
 
-[out] Array buffer to receive the length, in bytes, of each fragment. This must be at least `cFragments` long. 
+[out] Array buffer to receive the length, in bytes, of each fragment. This must be at least `cFragments` long.
 
 ## Return Value
 

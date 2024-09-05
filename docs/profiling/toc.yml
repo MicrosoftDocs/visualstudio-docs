@@ -10,9 +10,9 @@
     href: choose-performance-tool.md
   - name: Run profiling tools with or without the debugger
     href: running-profiling-tools-with-or-without-the-debugger.md
-  - name: Beginner's guide to optimizing code
+  - name: Case study - Beginner's guide to optimizing code
     href: optimize-code-using-profiling-tools.md
-  - name: Isolate a performance issue
+  - name: Case study - Isolate a performance issue
     href: isolate-performance-issue.md
 - name: Tutorials
   items:

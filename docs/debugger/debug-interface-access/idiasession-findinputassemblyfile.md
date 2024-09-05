@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the .NET Native input assembly file that is the parent of the specified symbol."
+description: Retrieves the .NET Native input assembly file that is the parent of the specified symbol.
 title: "IDiaSession::findInputAssemblyFile"
 ms.date: "07/05/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findInputAssemblyFile
 
 Retrieves the .NET Native input assembly file that is the parent of the specified symbol.
@@ -19,7 +20,7 @@ Retrieves the .NET Native input assembly file that is the parent of the specifie
 ## Syntax
 
 ```C++
-HRESULT findInputAssemblyFile ( 
+HRESULT findInputAssemblyFile ( 
     IDiaSymbol* pSymbol,
     IDiaInputAssemblyFile** ppResult
 );
@@ -38,7 +39,6 @@ HRESULT findInputAssemblyFile ( 
 ## Return Value
 
  If successful, returns `S_OK`; otherwise, returns an error code.
-
 
 ## See also
 

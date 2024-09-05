@@ -19,7 +19,7 @@ ms.subservice: debug-diagnostics
 
 Visual Studio provides a variety of profiling tools to help you diagnose different kinds of app performance issues depending on your app type. In this article, we provide information to help you find the right tool for your scenario and application type.
 
-For a general approach to optimizing code using the profiling tools, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
+For a general approach to optimizing code using the profiling tools, see [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
 
 ## Which tool should I use?
 
@@ -79,7 +79,7 @@ The following tools are supported with Linux as the target platform as well as W
 
 The following articles and blog posts provide more information to help you learn to use the Visual Studio performance tools effectively.
 
-- [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md)
+- [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md)
 - [Isolate a performance issue](../profiling/isolate-performance-issue.md)
 - [Improving Visual Studio performance with the new Instrumentation Tool](https://devblogs.microsoft.com/visualstudio/improving-visual-studio-performance-with-the-new-instrumentation-tool/)
 - [Case Study: Double performance in under 30 minutes](https://devblogs.microsoft.com/visualstudio/case-study-double-performance-in-under-30-minutes/)

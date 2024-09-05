@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the contents of the .NET Native metadata type token map."
+description: Retrieves the contents of the .NET Native metadata type token map.
 title: "IDiaSession::getTypeMDTokenMap"
 ms.date: "07/04/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::getTypeMDTokenMap
 
 Retrieves the contents of the .NET Native metadata type token map.
@@ -34,11 +35,11 @@ HRESULT getTypeMDTokenMap(
 
  `pcb`
 
-[out] Returns the size in bytes of the .NET Native metadata type token map (i.e. the number of bytes written into `pb`).
+[out] Returns the size in bytes of the .NET Native metadata type token map (that is, the number of bytes written into `pb`).
 
  `pb`
 
-[out] Buffer to receive the contents of the .NET Native metadata type token map. This must be at least `cb` bytes in size. 
+[out] Buffer to receive the contents of the .NET Native metadata type token map. This must be at least `cb` bytes in size.
 
 ## Return Value
 

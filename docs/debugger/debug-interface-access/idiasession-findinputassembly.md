@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a .NET Native input assembly file by index."
+description: Retrieves a .NET Native input assembly file by index.
 title: "IDiaSession::findInputAssembly"
 ms.date: "07/04/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findInputAssembly
 
 Retrieves a .NET Native input assembly file by index.

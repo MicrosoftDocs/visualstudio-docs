@@ -1,5 +1,5 @@
 ---
-description: "Sets the load address for the executable file that corresponds to the symbols in this symbol store."
+description: Sets the load address for the executable file that corresponds to the symbols in this symbol store.
 title: "IDiaSession::put_loadAddress"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::put_loadAddress
 
 Sets the load address for the executable file that corresponds to the symbols in this symbol store.
@@ -19,7 +20,7 @@ Sets the load address for the executable file that corresponds to the symbols in
 ## Syntax
 
 ```C++
-HRESULT put_loadAddress ( 
+HRESULT put_loadAddress ( 
    ULONGLONG NewVal
 );
 ```

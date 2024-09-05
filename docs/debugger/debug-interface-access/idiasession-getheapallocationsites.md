@@ -1,5 +1,5 @@
 ---
-description: "Retrieves an enumerator for all SymTagHeapAllocationSite symbols."
+description: Retrieves an enumerator for all SymTagHeapAllocationSite symbols.
 title: "IDiaSession::getHeapAllocationSites"
 ms.date: "07/05/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::getHeapAllocationSites
 
 Retrieves an enumerator for all `SymTagHeapAllocationSite` symbols.
@@ -19,7 +20,7 @@ Retrieves an enumerator for all `SymTagHeapAllocationSite` symbols.
 ## Syntax
 
 ```C++
-HRESULT getHeapAllocationSites ( 
+HRESULT getHeapAllocationSites ( 
    IDiaEnumSymbols** ppResult
 );
 ```
