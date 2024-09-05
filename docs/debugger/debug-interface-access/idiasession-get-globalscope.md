@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a reference to the global scope."
+description: Retrieves a reference to the global scope.
 title: "IDiaSession::get_globalScope"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::get_globalScope
 
 Retrieves a reference to the global scope.
@@ -19,7 +20,7 @@ Retrieves a reference to the global scope.
 ## Syntax
 
 ```C++
-HRESULT get_globalScope ( 
+HRESULT get_globalScope ( 
    IDiaSymbol** pRetVal
 );
 ```

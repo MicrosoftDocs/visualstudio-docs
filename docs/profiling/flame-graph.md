@@ -17,7 +17,7 @@ The **Flame Graph** in the CPU Usage and Instrumentation tools help you identify
 
 ![Screenshot showing Flame Graph with tooltips displayed.](./media/vs-2022/flame-graph-tooltips.png "Flame Graph with tooltips displayed")
 
-For a tutorial that shows how to improve performance using the flame graph, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md). For information on the CPU profiler, see [Analyze performance by using CPU profiling](../profiling/cpu-usage.md).
+For a tutorial that shows how to improve performance using the flame graph, see [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md). For information on the CPU profiler, see [Analyze performance by using CPU profiling](../profiling/cpu-usage.md).
 
 ## Investigate hot paths
 

@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the lines in a specified compiland that contain a specified relative virtual address (RVA)."
+description: Retrieves the lines in a specified compiland that contain a specified relative virtual address (RVA).
 title: "IDiaSession::findLinesByRVA"
 ms.date: "07/22/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # `IDiaSession::findLinesByRVA`
 
 Retrieves the lines in a specified compiland that contain a specified relative virtual address (RVA).
@@ -19,7 +20,7 @@ Retrieves the lines in a specified compiland that contain a specified relative v
 ## Syntax
 
 ```C++
-HRESULT findLinesByRVA ( 
+HRESULT findLinesByRVA ( 
     DWORD                 rva,
     DWORD                 length,
     IDiaEnumLineNumbers** ppResult

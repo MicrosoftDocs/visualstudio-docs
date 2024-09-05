@@ -1,5 +1,5 @@
 ---
-description: "Retrieves an enumeration that allows a client to iterate through the MSIL offsets within a specified address range."
+description: Retrieves an enumeration that allows a client to iterate through the MSIL offsets within a specified address range.
 title: "IDiaSession::findILOffsetsByAddr"
 ms.date: "07/22/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findILOffsetsByAddr
 
 Retrieves an enumeration that allows a client to iterate through the MSIL offsets within a specified address range.

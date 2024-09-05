@@ -9,6 +9,7 @@ ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot 
 monikerRange: '>= vs-2022'
+ms.custom: [copilot-learning-hub]
 ---
 # Install GitHub Copilot in Visual Studio
 

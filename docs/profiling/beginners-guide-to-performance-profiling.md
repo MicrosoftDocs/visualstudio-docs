@@ -219,7 +219,7 @@ Use the search box to find a node that you are looking for, then use the horizon
 In this tutorial, you've learned how to collect and analyze CPU usage data. If you already completed the [tour of the profiler](../profiling/profiling-feature-tour.md), you may want to go through a tutorial that shows how to use the tools more effectively.
 
 > [!div class="nextstepaction"]
-> [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md)
+> [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md)
 
 In this tutorial, you've learned how to collect and analyze CPU usage data while debugging. You may want to find out more about profiling release builds using the Performance Profiler.
 
