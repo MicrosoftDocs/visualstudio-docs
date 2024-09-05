@@ -41,9 +41,9 @@ There are different approaches for inserting records into a database based on yo
 | Scenario | Approach | Notes |
 | --- | --- | --- |
 | App uses *datasets* to store data | Use the [TableAdapter.Update](#insert-new-records-with-tableadapterupdate-method) method to send all changes to the database | Changes include updates, insertions, and deletions. |
-| App uses *objects* to store data  | Use the [TableAdapter.Insert](#insert-new-records-with-tableadapterinsert-method) method to insert new records into the database | This approach enables you to have finer control over creating new records. | 
-| App uses TableAdapters, `Insert` method not available | Set the TableAdapter `GenerateDBDirectMethods` property to `true` from within the **Dataset Designer** and save the dataset to regenerate the TableAdapter | If your TableAdapter doesn't have an `Insert` method, the TableAdapter is either configured to use stored procedures or the `GenerateDBDirectMethods` property is set to `false`. <br> If the `Insert` method remains unavailable after regenerating the TableAdapter, the table probably doesn't provide enough schema information to distinguish between individual rows (for example, there might be no primary key set on the table). | 
-| App doesn't use TableAdapters | Use [command objects](#insert-new-records-with-command-objects) to insert new records into the database | Example: <xref:System.Data.SqlClient.SqlCommand>  | 
+| App uses *objects* to store data  | Use the [TableAdapter.Insert](#insert-new-records-with-tableadapterinsert-method) method to insert new records into the database | This approach enables you to have finer control over creating new records. |
+| App uses TableAdapters, `Insert` method not available | Set the TableAdapter `GenerateDBDirectMethods` property to `true` from within the **Dataset Designer** and save the dataset to regenerate the TableAdapter | If your TableAdapter doesn't have an `Insert` method, the TableAdapter is either configured to use stored procedures or the `GenerateDBDirectMethods` property is set to `false`. <br> If the `Insert` method remains unavailable after regenerating the TableAdapter, the table probably doesn't provide enough schema information to distinguish between individual rows (for example, there might be no primary key set on the table). |
+| App doesn't use TableAdapters | Use [command objects](#insert-new-records-with-command-objects) to insert new records into the database | Example: <xref:System.Data.SqlClient.SqlCommand>  |
 
 ## Insert new records by using TableAdapters
 

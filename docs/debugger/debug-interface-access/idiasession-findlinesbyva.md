@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the line number information for lines contained in a specified virtual address (VA) range."
+description: Retrieves the line number information for lines contained in a specified virtual address (VA) range.
 title: "IDiaSession::findLinesByVA"
 ms.date: "07/22/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # `IDiaSession::findLinesByVA`
 
 Retrieves the line number information for lines contained in a specified virtual address (VA) range.

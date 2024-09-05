@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the number of discontiguous fragments for the function at the specified relative virtual address (RVA)."
+description: Retrieves the number of discontiguous fragments for the function at the specified relative virtual address (RVA).
 title: "IDiaSession::getNumberOfFunctionFragments_RVA"
 ms.date: "07/05/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::getNumberOfFunctionFragments_RVA
 
 Retrieves the number of discontiguous fragments for the function at the specified relative virtual address (RVA).
@@ -34,7 +35,7 @@ HRESULT getNumberOfFunctionFragments_RVA(
 
  `cbFunc`
 
-[in] The total size in bytes of the function (i.e. the length of the function).
+[in] The total size in bytes of the function (that is, the length of the function).
 
 `pNumFragments`
 

@@ -1,5 +1,5 @@
 ---
-description: "Retrieves an enumerated sequence of debug data streams."
+description: Retrieves an enumerated sequence of debug data streams.
 title: "IDiaSession::getEnumDebugStreams"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::getEnumDebugStreams
 
 Retrieves an enumerated sequence of debug data streams.
@@ -19,7 +20,7 @@ Retrieves an enumerated sequence of debug data streams.
 ## Syntax
 
 ```C++
-HRESULT getEnumDebugStreams ( 
+HRESULT getEnumDebugStreams ( 
    IDiaEnumDebugStreams** ppEnumDebugStreams
 )
 ```
