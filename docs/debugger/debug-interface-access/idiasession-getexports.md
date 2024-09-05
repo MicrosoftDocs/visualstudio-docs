@@ -1,5 +1,5 @@
 ---
-description: "Retrieves an enumerator for all exported symbols."
+description: Retrieves an enumerator for all exported symbols.
 title: "IDiaSession::getExports"
 ms.date: "07/05/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::getExports
 
 Retrieves an enumerator for all exported symbols, symbols with `SymTagExport`, from a `.dll`.
@@ -19,7 +20,7 @@ Retrieves an enumerator for all exported symbols, symbols with `SymTagExport`, f
 ## Syntax
 
 ```C++
-HRESULT getExports ( 
+HRESULT getExports ( 
    IDiaEnumSymbols** ppResult
 );
 ```

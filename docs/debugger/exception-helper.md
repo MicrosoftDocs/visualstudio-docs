@@ -1,7 +1,7 @@
 ---
 title: Inspect and break exceptions when debugging
 description: Learn about the information that Visual Studio provides to help you debug exceptions, and how to selectively disable breaking on exceptions.
-ms.date: 2/2/2023
+ms.date: 09/04/2024
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -57,6 +57,15 @@ If the exception has any inner exceptions ([InnerException](/dotnet/api/system.e
 In cases where an exception has been `thrown` the Exception Helper shows the call stack from the first time the exception was thrown. If the exception was thrown multiple times, only the call stack from the original exception is shown.
 
 ![Exception helper with rethrown exceptions](media/debugger-exception-helper-innerexception.png)
+
+::: moniker range=">= vs-2022"
+## Inspect async exceptions (.NET)
+
+Starting with .NET 9, the Visual Studio debugger automatically breaks when an async Task method throws an exception within .NET framework code. This makes is easier to debug asynchronous code, especially in ASP.NET, because exceptions are often thrown across asynchronous boundaries.
+
+![Screenshot of Exception helper with async method.](media/vs-2022/debugger-exception-helper-async.png)
+
+::: moniker-end
 
 ::: moniker range=">= vs-2022"
 
