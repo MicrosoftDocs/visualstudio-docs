@@ -93,7 +93,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Get better answers by setting the context for GitHub Copilot Chat in Visual Studio](../ide/copilot-chat-context.md) - Updates for 17.11 context features for GitHub Copilot Chat
 - [Admin controls for GitHub Copilot](../ide/visual-studio-github-copilot-admin.md) - Updates for content exclusions in GitHub Copilot in Visual Studio
 - [What is GitHub Copilot Completions for Visual Studio?](../ide/visual-studio-github-copilot-extension.md) - Updates for content exclusions in GitHub Copilot in Visual Studio
-- [Title not found in: ](../ide/whats-new-visual-studio-docs.md) - Update What's New in docs for July 2024
 - [Sign in to Visual Studio with accounts that require multifactor authentication (MFA)](../ide/work-with-multi-factor-authentication.md)
   - Update network troubleshooting
   - Updates for WAM as default
