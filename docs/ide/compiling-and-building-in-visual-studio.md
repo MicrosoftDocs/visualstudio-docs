@@ -45,5 +45,4 @@ From there, you can explore a variety of other tasks:
 ## Related content
 
 - [Building (compiling) website projects](/previous-versions/hwxa5aha(v=vs.140))
-- [Compile and build (Visual Studio for Mac)](/visualstudio/mac/compiling-and-building)
 - [CMake projects in Visual Studio](/cpp/build/cmake-projects-in-visual-studio)

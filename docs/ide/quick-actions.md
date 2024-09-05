@@ -25,9 +25,6 @@ Quick Actions can be used to:
 - Apply a refactoring, such as [inline for a temporary variable](../ide/reference/inline-temporary-variable.md)
 - Generate code, such as to [introduce a local variable](../ide/reference/introduce-local-variable.md)
 
-> [!NOTE]
-> This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Refactoring (Visual Studio for Mac)](/visualstudio/mac/refactoring).
-
 ## Understand Quick Action icons
 
 Visual Studio uses several icons to indicate when Quick Actions are available. The icon type indicates whether the Quick Action is a recommendation or required fix, including refactoring:

@@ -34,7 +34,7 @@ Welcome to Visual Studio 2022! In this version, it's easy to choose and install 
 ::: moniker-end
 
 > [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Install Visual Studio for Mac](/visualstudio/mac/installation/). If you need to programmatically install Visual Studio, see [Use command-line parameters](use-command-line-parameters-to-install-visual-studio.md).
+> If you need to programmatically install Visual Studio, see [Use command-line parameters](use-command-line-parameters-to-install-visual-studio.md).
 
 ::: moniker range="vs-2019"
 

@@ -33,9 +33,6 @@ When you add an EditorConfig file to your project in Visual Studio, only new lin
 
    Select **Edit** > **Advanced** > **Format Document**, or press **Ctrl**+**K**, **Ctrl**+**D** in the default profile. This command applies only to white-space settings, such as indent style.
 
-> [!NOTE]
-> This article applies to Visual Studio for Windows. For Visual Studio for Mac, see [Creating and editing a custom EditorConfig file in Visual Studio for Mac](/visualstudio/mac/editorconfig).
-
 ## Code consistency
 
 EditorConfig file settings let you maintain consistent coding styles and conventions in a codebase, regardless of the editor or IDE you use. Some coding styles you can control are indent style, tab width, end-of-line characters, and encoding. For example, if your C# codebase has a convention that indents use five space characters, documents use UTF-8 encoding, and lines ends with CR/LF, you can configure an EditorConfig file to use this convention.
@@ -223,5 +220,4 @@ To troubleshoot EditorConfig issues, follow these steps:
 - [Supporting EditorConfig for your language service](../extensibility/supporting-editorconfig.md)
 - [EditorConfig.org](https://editorconfig.org)
 - [Features of the code editor](writing-code-in-the-code-and-text-editor.md)
-- [Creating and editing a custom EditorConfig file in Visual Studio for Mac](/visualstudio/mac/editorconfig)
 - [Configuration files for code analysis rules](/dotnet/fundamentals/code-analysis/configuration-files)

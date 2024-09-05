@@ -193,4 +193,3 @@ Some of the commands are also available on the **Edit** menu, under **Multiple C
 
 - [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md)
 - [Refactor code in Visual Studio](../ide/refactoring-in-visual-studio.md)
-- [Block selection (Visual Studio for Mac)](/visualstudio/mac/block-selection)

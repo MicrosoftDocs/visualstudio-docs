@@ -28,9 +28,6 @@ To open the **Autos** window, while debugging, select **Debug** > **Windows** > 
 
 To open the **Locals** window, while debugging, select **Debug** > **Windows** > **Locals**, or press **Alt**+**4**.
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Data visualizations in Visual Studio for Mac](/visualstudio/mac/data-visualizations).
-
 ## Use the Autos and Locals windows
 
 Arrays and objects show in the **Autos** and **Locals** windows as tree controls. Select the arrow to the left of a variable name to expand the view to show fields and properties. Here is an example of a <xref:System.IO.FileStream?displayProperty=fullName> object in the **Locals** window:

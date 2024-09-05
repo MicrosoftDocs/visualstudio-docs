@@ -16,7 +16,7 @@ ms.subservice: extensibility-integration
 If you've never written a Visual Studio extension before, you probably have some questions. We've listed some of the most common ones here. If you don't see the information you're looking for, use the feedback button at the upper right of this page to ask for what you want.
 
 > [!NOTE]
-> This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Extending Visual Studio for Mac](/previous-versions/visualstudio/mac/extending-visual-studio-mac-walkthrough). For Visual Studio Code, see [Visual Studio Code Extension API](https://code.visualstudio.com/api).
+> This article applies to Visual Studio on Windows. For Visual Studio Code, see [Visual Studio Code Extension API](https://code.visualstudio.com/api).
 
 ## What software do I need to develop Visual Studio extensions?
 
@@ -92,5 +92,4 @@ In practice, we have found that the features most people want to extend are comm
 
 ## Related content
 
-- [Extending Visual Studio for Mac](/previous-versions/visualstudio/mac/extending-visual-studio-mac-walkthrough)
 - [Extending Visual Studio Code](https://code.visualstudio.com/api)

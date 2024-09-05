@@ -26,9 +26,6 @@ With Visual Studio, you can connect any of the following to Azure SignalR servic
 
 The connected service functionality adds all the needed references and connection code to your project, and modifies your configuration files appropriately.
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Connected services in Visual Studio for Mac](/visualstudio/mac/connected-services).
-
 ## Prerequisites
 
 - Visual Studio with the Azure workload installed.
@@ -144,4 +141,3 @@ Continue by following the Azure SignalR quickstart. You can skip the initial set
 
 - [Azure SignalR product page](https://azure.microsoft.com/services/signalr-service/)
 - [Azure SignalR Service documentation](/azure/azure-signalr)
-- [Connected services (Visual Studio for Mac)](/visualstudio/mac/connected-services)
