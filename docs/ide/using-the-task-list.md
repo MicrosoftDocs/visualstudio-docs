@@ -98,7 +98,7 @@ You can continue this approach and apply more refined sorting by selecting **Shi
 
 You can also work with specific columns in the list:
 
-1. To show a column, right-click anywhere on the list and select **Show Columns**. On the flyout menu, select the columns to show.
+1. To show a column, right-click anywhere on the list and select **Show Columns**. On the flyout menu, select the columns to show. The following columns are available: **Priority**, **Description**, **Project**, **Project Rank**, **Path**, **File**, **Line**, and **Column**.
 
    - On the flyout menu, Visual Studio displays a checkmark next to a visible column.
 
