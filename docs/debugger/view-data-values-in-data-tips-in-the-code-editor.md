@@ -1,6 +1,6 @@
 ---
 title: View and change variable values with data tips
-description: Use data tips while debugging code in the Visual Studio code editor to view and change variable values like arrays and structures.
+description: Use data tips while debugging code in the Visual Studio Code editor to view and change variable values like arrays and structures.
 ms.date: 09/06/2024
 ms.topic: how-to
 dev_langs:
@@ -17,7 +17,7 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
 
-#customer intent: As a developer, I want to use data tips in the Visual Studio code editor, so I can view and change variable values when I debug my code.
+#customer intent: As a developer, I want to use data tips in the Visual Studio Code editor, so I can view and change variable values when I debug my code.
 ---
 
 # View and change variable values with DataTips in the code editor
@@ -67,7 +67,7 @@ When you hover over a variable to view the data tip, you can make the data tip t
 
 To enable transparency, follow these steps:
 
-1. In the Visual Studio code editor, select inside a data tip, and then select and hold Ctrl.
+1. In the Visual Studio Code editor, select inside a data tip, and then select and hold Ctrl.
 
 1. To maintain transparency, continue to hold Ctrl.
 
@@ -99,7 +99,7 @@ You can pin a data tip to keep it open on the code editor surface. You can also 
 
 To pin a data tip, follow these steps:
 
-1. In the Visual Studio code editor, hover over a variable to show the data tip.
+1. In the Visual Studio Code editor, hover over a variable to show the data tip.
 
 1. In the data tip, use the pushpin to select **Pin to source**:
 
