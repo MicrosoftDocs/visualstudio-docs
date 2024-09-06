@@ -26,9 +26,6 @@ With Visual Studio, you can connect any of the following to Azure Cache for Redi
 
 The connected service functionality adds all the needed references and connection code to your project, and modifies your configuration files appropriately.
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Connected services in Visual Studio for Mac](/visualstudio/mac/connected-services).
-
 ## Prerequisites
 
 - Visual Studio with the Azure workload installed.
@@ -158,4 +155,3 @@ To cache page output in an ASP.NET app, see [ASP.NET Output Cache Provider](/azu
 
 - [Azure Cache for Redis product page](https://azure.microsoft.com/services/cache)
 - [Azure Cache for Redis documentation](/azure/azure-cache-for-redis/)
-- [Connected services (Visual Studio for Mac)](/visualstudio/mac/connected-services)

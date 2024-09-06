@@ -26,9 +26,6 @@ With Visual Studio, you can connect any of the following to Azure Cosmos DB by u
 
 The connected service functionality adds all the needed references and connection code to your project, and modifies your configuration files appropriately.
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Connected services in Visual Studio for Mac](/visualstudio/mac/connected-services).
-
 ## Prerequisites
 
 - Visual Studio with the Azure workload installed.
@@ -166,5 +163,4 @@ The `CosmosClient` provides access to Azure Cosmos DB functionality through its 
 
 - [Azure Cosmos DB product page](https://azure.microsoft.com/services/cosmos-db/)
 - [Azure Cosmos DB documentation](/azure/cosmos-db/)
-- [Connected services (Visual Studio for Mac)](/visualstudio/mac/connected-services)
 - [Dependency injection in ASP.NET Core](/aspnet/core/fundamentals/dependency-injection)

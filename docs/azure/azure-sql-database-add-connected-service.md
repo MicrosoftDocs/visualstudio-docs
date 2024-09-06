@@ -152,4 +152,3 @@ var connection = builder.Configuration["ConnectionStrings:ConnectionString1"];
 
 - [Azure SQL Database product page](https://azure.microsoft.com/services/sql-database/)
 - [Azure SQL Database documentation](/azure/azure-sql/database/)
-- [Connected services (Visual Studio for Mac)](/visualstudio/mac/connected-services)

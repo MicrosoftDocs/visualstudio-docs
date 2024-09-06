@@ -31,9 +31,6 @@ You access project properties by right-clicking the [project node](use-solution-
 
 :::image type="content" source="media/vs-2022/properties-node-solution-explorer.png" alt-text="Screenshot of Solution Explorer with a Properties node showing.":::
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Managing solution and project properties (Visual Studio for Mac)](/visualstudio/mac/managing-solutions-and-project-properties).
-
 ## Project properties
 
 Project properties are organized into groups, and each group has its own property page. The pages might be different for different languages and project types.

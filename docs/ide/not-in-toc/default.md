@@ -1489,4 +1489,3 @@ If you still have questions after you try the other resources,
 
 * [Troubleshoot network-related or proxy errors](../../install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md#troubleshoot-network-related-errors)
 * [Troubleshooting (Visual Studio for Windows)](/troubleshoot/visualstudio/welcome-visual-studio/)
-* [Troubleshooting (Visual Studio for Mac)](/visualstudio/mac/troubleshooting)
