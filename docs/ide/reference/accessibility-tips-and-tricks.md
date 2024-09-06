@@ -15,9 +15,6 @@ Visual Studio has built-in accessibility features that are compatible with scree
 
 We also cover how to use annotations to reveal useful information about your code, and also how to set audio cues for error, breakpoint, or warning events.
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Accessibility for Visual Studio for Mac](/visualstudio/mac/accessibility).
-
 ## Screen readers
 
 Visual Studio supports screen readers in the IDE. The following screen readers have been tested:
@@ -166,5 +163,4 @@ Here's how to add audio cues to program events by using either Windows 11 or Win
 * [Set accessibility options](../how-to-change-fonts-and-colors-in-visual-studio.md#set-accessibility-options)
 * [Customize menus and toolbars in Visual Studio](../../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
 * [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)
-* [Accessibility (Visual Studio for Mac)](/visualstudio/mac/accessibility)
 * [Microsoft Accessibility](https://www.microsoft.com/Accessibility)

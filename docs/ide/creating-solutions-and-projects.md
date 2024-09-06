@@ -24,9 +24,6 @@ In this article, you learn how to create Visual Studio projects from scratch and
 
 :::image type="content" source="./media/vside-proj-soln.png" alt-text="Diagram that shows the solution and project hierarchy.":::
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Create projects in Visual Studio for Mac](/visualstudio/mac/create-new-projects).
-
 You can view your solutions and projects in a tool window called *Solution Explorer*. The following screenshot shows an example of a C# console solution in Solution Explorer. The solution contains two projects: **Calculator** and **CalculatorLibrary**. Each project contains multiple files and folders. The project name in bold is the *startup project*; that is, the project that starts when you run the app. You can specify which project is the startup project.
 
 :::image type="content" source="media/solution-explorer-two-projects-inline.png" alt-text="Screenshot of two projects in Solution Explorer.":::

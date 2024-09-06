@@ -33,4 +33,3 @@ Different refactoring operations are available for different programming languag
 - [Quick Actions](../ide/quick-actions.md)
 - [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
-- [Refactoring in Visual Studio for Mac](/visualstudio/mac/refactoring)

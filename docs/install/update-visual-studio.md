@@ -18,8 +18,6 @@ manager: mijacobs
 ---
 # Update Visual Studio
 
-This topic discusses how to update a client installation of Visual Studio on Windows. For Visual Studio for Mac, see [Update Visual Studio for Mac](/visualstudio/mac/update).
-
 Visual Studio must first be [installed on the machine](../install/install-visual-studio.md) before you can update it. 
 
 If you are an IT Administrator and want to configure your organization's clients to update from a network layout, refer to the [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide), particularly the section on [manage and update a network installation](../install/update-a-network-installation-of-visual-studio.md).

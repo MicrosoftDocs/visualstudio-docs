@@ -185,7 +185,7 @@ If you create the project with [Docker support](../containers/container-tools-re
       env.ASPNETCORE_URLS ? env.ASPNETCORE_URLS.split(';')[0] : 'https://localhost:7143';
    ```
 
-   change `https://localhost:7143` to `https://localhost:44307`.
+   change `https://localhost:7143` to the matching HTTPS port (in this example, `https://localhost:44307`).
 
 1. Restart the app.
 
