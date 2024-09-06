@@ -45,6 +45,12 @@ Use the following procedures to generate and view build log files for your scena
 
    You can generate build logs by running MSBuild directly from the command line by using the `-fileLogger` (`-fl`) command-line option. For more information, see [Obtain build logs with MSBuild](../msbuild/obtaining-build-logs-with-msbuild.md).
 
+   With MSBuild, you can also generate binary logs (`-binlog` or `-bl` command-line option). You can view binary logs in the [Structured Log Viewer](https://msbuildlog.com/). The structured log viewer provides a richer UI that might make it easier to understand complex build processes.
+
+You can set environment variables to configure Visual Studio to write a binary log to the filesystem. Set `MSBuildDebugEngine` to `1` and set `MSBUILDDEBUGPATH` to the desired location of the build log file. The variables have to be set in the environment in which Visual Studio is launched. These settings affect all Visual Studio builds, so might not be a good option if you only want logs for a particular invocation of the build.
+
+For more advanced UI support for build logging in .NET projects, consider installing the [Project System Tools extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools2022). With the extension installed, you can turn binary logging on and off in the UI, and choose from list of logs. However, due to the way it integrates with the Visual Studio build system, the logs are a little bit different from the ones you would get from the **Output** window, or with the environment variables.
+
 ## Specify data verbosity for build logs
 
 You can specify how much information to include in the build log files. The amount of data in the log file columns is measured as *logger verbosity*. The number of log file rows represent *messages collected*. The log verbosity (column values) affects the types of logged messages (row values). **Quiet** verbosity produces minimal logging in the build output. **Diagnostic** is the most verbose setting and generates log files with all possible data.
