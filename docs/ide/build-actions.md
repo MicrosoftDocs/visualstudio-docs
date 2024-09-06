@@ -48,4 +48,3 @@ Some of the more common build actions for C# and Visual Basic project files are:
 
 - [C# compiler options](/dotnet/csharp/language-reference/compiler-options/listed-alphabetically)
 - [Visual Basic compiler options](/dotnet/visual-basic/reference/command-line-compiler/compiler-options-listed-alphabetically)
-- [Build actions (Visual Studio for Mac)](/visualstudio/mac/build-actions)

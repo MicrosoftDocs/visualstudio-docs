@@ -48,4 +48,3 @@ Learn more about technologies that support accessible design. We've also include
 ## Related content
 
 * [Accessibility features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
-* [Accessibility for Visual Studio for Mac](/visualstudio/mac/accessibility/)

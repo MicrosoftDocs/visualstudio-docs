@@ -36,9 +36,6 @@ You need build configurations when you need to build your projects with differen
 ![Screenshot showing the active configuration in the main Visual Studio toolbar.](media/vs-2022/build-configurations-active-config.png)
 :::moniker-end
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Build configurations in Visual Studio for Mac](/visualstudio/mac/configurations).
-
 The configuration and the platform control where built output files are stored. Normally, when Visual Studio builds your project, the output is placed in a project subfolder named with the active configuration (for example, *bin/Debug/x86*), but you can change that.
 
 You can create your own build configurations at the solution and project level. The solution configuration determines which projects are included in the build when that configuration is active. Only the projects that are specified in the active solution configuration will be built. If multiple target platforms are selected in Configuration Manager, all projects that apply to that platform are built. The project configuration determines what build settings and compiler options are used when you build the project.
@@ -106,4 +103,3 @@ If you want to build multiple configurations and platforms in one action, you ca
 - [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)
 - [C/C++ build reference](/cpp/build/reference/c-cpp-building-reference)
 - [Configure projects to target platforms](how-to-configure-projects-to-target-platforms.md)
-- [Build configurations (Visual Studio for Mac)](/visualstudio/mac/configurations)

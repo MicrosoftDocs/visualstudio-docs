@@ -50,7 +50,7 @@ This tutorial differs from the [Flask Quickstart](../ide/quickstart-python.md?to
 
 Flask project templates are included with all earlier versions of Python Tools for Visual Studio. The template details might differ from the descriptions in this tutorial.
 
-Visual Studio for Mac isn't currently supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
+Visual Studio for Mac isn't supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
 ## Create Visual Studio solution and Flask project
 

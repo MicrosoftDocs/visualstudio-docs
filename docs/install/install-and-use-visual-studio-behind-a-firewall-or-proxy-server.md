@@ -22,9 +22,6 @@ If you or your organization uses security measures such as a firewall or a proxy
 
 * **[Use Visual Studio and Azure Services](#use-visual-studio-and-azure-services)**: This table includes the domain URLs to add to an allowlist and the ports and protocols to open so that you have access to all the features and services that you want.
 
-> [!NOTE]
-> This article was written for Visual Studio on Windows, but certain information is also applicable to [installing Visual Studio for Mac](/visualstudio/mac/install-behind-a-firewall-or-proxy-server) behind a firewall or proxy server.
-
 ## Install Visual Studio
 
 ### URLs to add to an allowlist
@@ -163,5 +160,4 @@ Here are a few more support options:
 * [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Troubleshoot network-related errors in Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
-* [Install behind a firewall or proxy server (Visual Studio for Mac)](/visualstudio/mac/install-behind-a-firewall-or-proxy-server)
 * [Configure network settings for Copilot in Visual Studio](https://docs.github.com/en/copilot/configuring-github-copilot/configuring-network-settings-for-github-copilot?tool=visualstudio#configuring-proxy-settings-for-github-copilot)

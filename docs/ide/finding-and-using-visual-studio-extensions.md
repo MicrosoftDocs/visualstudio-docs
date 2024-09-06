@@ -1,7 +1,7 @@
 ---
 title: Find & manage extension packages
 description: Learn about extensions in Visual Studio and how to manage them so you have the controls, samples, templates, tools, and other components you need.
-ms.date: 08/14/2024
+ms.date: 09/05/2024
 ms.topic: how-to
 f1_keywords:
 - vs.ExtensionManager
@@ -86,7 +86,7 @@ If you try to install an extension that has dependencies, the installer determin
 
 ### Install without using Extension Manager
 
-Extensions that are packaged in *.vsix* files might be available in locations other than Visual Studio Marketplace. The **Extensions** > **Extension Manager** dialog can't detect these files, but you can install a *.vsix* file by double-clicking the file or selecting the file and then selecting **Enter**. After that, just follow the instructions. When the extension is installed, you can use Extension Manager to enable it, disable it, or uninstall it.
+Extensions that are packaged in *.vsix* files might be available in locations other than Visual Studio Marketplace. The **Extensions** > **Extension Manager** dialog can't detect these files, but you can install a *.vsix* file by double-clicking the file or selecting the file and then selecting **Enter**. If you run into permission issues, ensure you are running Visual Studio as an administrator. After that, just follow the instructions. When the extension is installed, you can use Extension Manager to enable it, disable it, or uninstall it.
 
 > [!NOTE]
 > - Visual Studio Marketplace contains both .vsix-based and .msi-based extensions. Extension Manager can't enable or disable .msi-based extensions.

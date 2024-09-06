@@ -78,4 +78,3 @@ A well-formed HTML string appears as if rendered in a browser, as shown in the f
 ## See also
 
 - [Create custom visualizers (C#, Visual Basic)](../debugger/create-custom-visualizers-of-data.md)
-- [Data visualizations in Visual Studio for Mac](/visualstudio/mac/data-visualizations)

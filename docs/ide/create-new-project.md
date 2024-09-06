@@ -119,7 +119,3 @@ If you want to add another project to a solution, right-click the solution node 
 
 > [!TIP]
 > For an example of a project and solution created from scratch, complete with step-by-step instructions and sample code, see [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md).
-
-## Related content
-
-- [Visual Studio for Mac: Create a new project](/visualstudio/mac/create-new-projects)
