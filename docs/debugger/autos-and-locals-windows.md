@@ -1,7 +1,7 @@
 ---
 title: Inspect variables - Autos and Locals windows
 description: Inspect variables in the Autos and Locals windows while debugging in Visual Studio. The Autos and Locals windows show variable values while you are debugging.
-ms.date: 07/25/2024
+ms.date: 09/06/2024
 ms.topic: how-to
 f1_keywords:
   - vs.debug.autos
@@ -78,7 +78,7 @@ To make your search more or less thorough, use the **Search Deeper** dropdown li
 > [!NOTE]
 > This feature is supported for .NET Core 3.0 or higher.
 
-You can quickly inspect objects by their properties in the Autos and Locals windows with the **Pinnable Properties** tool. To use this tool, hover over a property and select the pin icon that appears or right-click and select the **Pin Member as Favorite** option in the resulting context menu. This bubbles up that property to the top of the object's property list, and the property name and value is displayed in the **Value** column. To unpin a property, select the pin icon again or select the **Unpin Member as Favorite** option in the context menu.
+You can quickly inspect objects by their properties in the Autos and Locals windows with the **Pinnable Properties** tool. To use this tool, hover over a property and select the pin icon that appears or right-click and select the **Pin Member as Favorite** option in the resulting context menu. This bubbles up that property to the top of the object's property list, and the property name and value are displayed in the **Value** column. To unpin a property, select the pin icon again or select the **Unpin Member as Favorite** option in the context menu.
 
 ![Screenshot of Pin properties in the Locals window.](../debugger/media/basic-pin.gif "Pin properties in the Locals window")
 
@@ -101,6 +101,12 @@ Set a breakpoint and start debugging. When the breakpoint is hit, execution paus
 ::: moniker-end
 ::: moniker range="vs-2019"
 ![Screenshot of Debug Location toolbar.](../debugger/media/debuglocationtoolbar.png "Debug Location toolbar")
+::: moniker-end
+
+::: moniker range=">= vs-2022"
+## Get AI assistance
+
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at variables in the Autos or Locals windows, or in data tips. Right-click on a variable and use the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
 ::: moniker-end
 
 ## <a name="bkmk_whatvariables"></a> Variables in the Autos window (C#, C++, Visual Basic, Python)
