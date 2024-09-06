@@ -45,7 +45,7 @@ Use the following procedures to generate and view build log files for your scena
 
    You can generate build logs by running MSBuild directly from the command line by using the `-fileLogger` (`-fl`) command-line option. For more information, see [Obtain build logs with MSBuild](../msbuild/obtaining-build-logs-with-msbuild.md).
 
-   With MSBuild, you can also generate binary logs (`-binlog` or `-bl` command-line option). You can view binary logs in the [Structured Log Viewer](https://msbuildlog.com/). The structured log viewer provides a richer UI that might make it easier to understand complex build processes.
+   With MSBuild, you can also generate binary logs (`-binaryLogger` or `-bl` command-line option). You can view binary logs in the [Structured Log Viewer](https://msbuildlog.com/). The structured log viewer provides a richer UI that might make it easier to understand complex build processes.
 
 You can set environment variables to configure Visual Studio to write a binary log to the filesystem. Set `MSBuildDebugEngine` to `1` and set `MSBUILDDEBUGPATH` to the desired location of the build log file. The variables have to be set in the environment in which Visual Studio is launched. These settings affect all Visual Studio builds, so might not be a good option if you only want logs for a particular invocation of the build.
 
