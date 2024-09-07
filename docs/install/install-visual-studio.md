@@ -274,9 +274,9 @@ You can reduce the installation footprint of Visual Studio on your system drive.
 
 While you don't have to sign in, there are many [advantages](../ide/signing-in-to-visual-studio.md#benefits-why-sign-in) to doing so.
 
-You can evaluate a free trial of [Visual Studio Professional or Visual Studio Enterprise](https://visualstudio.microsoft.com/vs/compare/) for 30 days. If you sign in, you can extend the trial period to 90 days. The 90-day trial extension works only one time. (Visual Studio Community doesn't require you to sign in. However, if the installation prompts you to sign in periodically, [sign in](../ide/signing-in-to-visual-studio.md) to continue using Visual Studio Community without interruptions.)
+You can evaluate a free trial of [Visual Studio Professional or Visual Studio Enterprise](https://visualstudio.microsoft.com/vs/compare/) for 30 days. If you sign in, you can extend the trial period to 90 days. The 90-day trial extension works only one time. To continue using Visual Studio after a trial period ends, unlock it with an [online subscription](../ide/how-to-unlock-visual-studio.md#use-an-online-subscription) or a [product key](../ide/how-to-unlock-visual-studio.md#enter-a-product-key).
 
-To continue using Visual Studio after a trial period ends, unlock it with an [online subscription](../ide/how-to-unlock-visual-studio.md#use-an-online-subscription) or a [product key](../ide/how-to-unlock-visual-studio.md#enter-a-product-key).
+Visual Studio Community doesn't require you to sign in. However, if the installation prompts you to sign in periodically, [sign in](../ide/signing-in-to-visual-studio.md) to continue using Visual Studio Community without interruptions.
 
 ## Step 9 - Start developing
 
