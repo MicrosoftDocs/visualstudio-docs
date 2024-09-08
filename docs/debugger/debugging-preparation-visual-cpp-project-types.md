@@ -80,7 +80,7 @@ This section describes how to debug the basic project types created by the Visua
 
 6. Open the **Linker** node, and select **Debugging**. In the first **Generate** row, select **Yes (/DEBUG)** from the drop-down list. Always set this when you are debugging.
 
-   For more information, see[Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).
+   For more information, see [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).
 
    [In this topic](../debugger/debugging-preparation-visual-cpp-project-types.md#BKMK_In_this_topic)
 
