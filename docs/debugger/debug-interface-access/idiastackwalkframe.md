@@ -1,6 +1,6 @@
 ---
 description: "Maintains stack context between invocations of the IDiaFrameData::execute) method."
-title: "IDiaStackWalkFrame"
+title: IDiaStackWalkFrame
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,15 +12,14 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackWalkFrame
 
 Maintains stack context between invocations of the [IDiaFrameData::execute](../../debugger/debug-interface-access/idiaframedata-execute.md) method.
 
 ## Syntax
 
-```
-IDiaStackWalkFrame : IUnknown
-```
+`IDiaStackWalkFrame : IUnknown`
 
 ## Methods in Vtable Order
  The following table shows the methods of `IDiaStackWalkFrame`.
