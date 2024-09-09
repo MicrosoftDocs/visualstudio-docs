@@ -2,7 +2,7 @@
 title: Set bookmarks in Visual Studio
 description: Learn how to use bookmarks to mark lines in your code so that you can quickly return to a specific location, or jump back and forth between locations.
 titleSuffix: ''
-ms.date: 09/06/2024
+ms.date: 09/09/2024
 ms.topic: how-to
 f1_keywords:
 - VS.BookmarkWindow
