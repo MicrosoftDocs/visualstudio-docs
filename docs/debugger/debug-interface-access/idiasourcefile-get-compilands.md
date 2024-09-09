@@ -1,5 +1,5 @@
 ---
-description: "Retrieves an enumerator of compilands that have line numbers referencing this file."
+description: Retrieves an enumerator of compilands that have line numbers referencing this file.
 title: "IDiaSourceFile::get_compilands"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSourceFile::get_compilands
 
 Retrieves an enumerator of compilands that have line numbers referencing this file.
@@ -19,7 +20,7 @@ Retrieves an enumerator of compilands that have line numbers referencing this fi
 ## Syntax
 
 ```C++
-HRESULT get_compilands ( 
+HRESULT get_compilands ( 
    IDiaEnumSymbols** ppRetVal
 );
 ```
