@@ -3,7 +3,7 @@ title: C# Dev Kit for Visual Studio Code
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 09/04/2024
+ms.date: 09/09/2024
 ms.topic: how-to
 description: Explore the C# Dev Kit for Visual Studio Code that provides a rich C# editing experience, AI-powered development, solution management, and integrated testing.
 ---
