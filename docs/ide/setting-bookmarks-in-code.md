@@ -21,19 +21,19 @@ Bookmark commands and icons are available in two places:
   
   ::: moniker range="<=vs-2019"
 
-    :::image type="content" source="media/vs-2019/tutorial-editor-toolbar-bookmarks.png" alt-text="Screenshot of Bookmark commands and icons in the Text Editor toolbar in Visual Studio 2022":::
+    :::image type="content" source="media/vs-2019/tutorial-editor-toolbar-bookmarks.png" alt-text="Screenshot of Bookmark commands and icons in the Text Editor toolbar in Visual Studio 2022.":::
 
   ::: moniker-end
 
   ::: moniker range=">=vs-2022"
 
-  :::image type="content" source="media/vs-2022/tutorial-editor-toolbar-bookmarks.png" alt-text="Screenshot of Bookmark commands and icons in the Text Editor toolbar in Visual Studio 2022":::
+  :::image type="content" source="media/vs-2022/tutorial-editor-toolbar-bookmarks.png" alt-text="Screenshot of Bookmark commands and icons in the Text Editor toolbar in Visual Studio 2022.":::
 
   ::: moniker-end
 
 - The **Bookmarks** toolbar in the **Bookmarks** window; to open it, select **View** > **Bookmark Window** from the menu bar, or use the **Ctrl**+**K**, **Ctrl**+**W** keyboard shortcut. The **Bookmarks** window 
 
-   :::image type="content" source="media/bookmarks-window.png" alt-text="Screenshot that shows the Bookmarks window and the Bookmarks toolbar":::
+   :::image type="content" source="media/bookmarks-window.png" alt-text="Screenshot that shows the Bookmarks window and the Bookmarks toolbar.":::
 
   The following table includes available toolbar commands and their [keyboard shortcuts](default-keyboard-shortcuts-in-visual-studio.md), listed from left to right.
 
