@@ -13,7 +13,7 @@ ms.subservice: extensibility-integration
 ---
 # Services Provided (Source Control VSPackage)
 
-Services are the primary mechanism through which functionality is shared among VSPackages and between the Visual Studio integrated development environment (IDE) and its installed VSPackages. For detailed description of services and their importance in the Visual Studio IDE, see[Using and Providing Services](../../extensibility/using-and-providing-services.md).
+Services are the primary mechanism through which functionality is shared among VSPackages and between the Visual Studio integrated development environment (IDE) and its installed VSPackages. For detailed description of services and their importance in the Visual Studio IDE, see [Using and Providing Services](../../extensibility/using-and-providing-services.md).
 
 ## The Source Control Service
  Visual Studio provides two layers of services, IDE-level services and package-level services. The Visual Studio IDE natively provides IDE-level services. The source control package consumes some of these services. The source control package as a VSPackage shares its source control functionality by providing a private source control service of its own. The source control package encapsulates the set of source control-related interfaces implemented by it in the form of a contract that can be used by the Visual Studio IDE.
