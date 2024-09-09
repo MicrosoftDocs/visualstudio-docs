@@ -1,7 +1,7 @@
 ---
 title: View and change variable values with data tips
-description: Use data tips while debugging code in the Visual Studio code editor to view and change variable values like arrays and structures.
-ms.date: 08/14/2024
+description: Use data tips while debugging code in the Visual Studio Code editor to view and change variable values like arrays and structures.
+ms.date: 09/06/2024
 ms.topic: how-to
 dev_langs:
   - CSharp
@@ -17,7 +17,7 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
 
-#customer intent: As a developer, I want to use data tips in the Visual Studio code editor, so I can view and change variable values when I debug my code.
+#customer intent: As a developer, I want to use data tips in the Visual Studio Code editor, so I can view and change variable values when I debug my code.
 ---
 
 # View and change variable values with DataTips in the code editor
@@ -67,7 +67,7 @@ When you hover over a variable to view the data tip, you can make the data tip t
 
 To enable transparency, follow these steps:
 
-1. In the Visual Studio code editor, select inside a data tip, and then select and hold Ctrl.
+1. In the Visual Studio Code editor, select inside a data tip, and then select and hold Ctrl.
 
 1. To maintain transparency, continue to hold Ctrl.
 
@@ -99,7 +99,7 @@ You can pin a data tip to keep it open on the code editor surface. You can also 
 
 To pin a data tip, follow these steps:
 
-1. In the Visual Studio code editor, hover over a variable to show the data tip.
+1. In the Visual Studio Code editor, hover over a variable to show the data tip.
 
 1. In the data tip, use the pushpin to select **Pin to source**:
 
@@ -229,6 +229,12 @@ The following image shows the various options on the right-click menu for the me
 
 :::image type="content" source="../debugger/media/dbg-data-tips-member-right-click-menu.png" border="false" alt-text="Screenshot of the right-click menu for members in a data tip, which includes the 'Unpin Member As Favorite' and 'Show Only Pinned Members' options.":::
 
+::: moniker-end
+
+::: moniker range=">= vs-2022"
+## Get AI assistance
+
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at variables in data tips. Right-click on a variable and use the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
 ::: moniker-end
 
 ## Visualize complex data types
