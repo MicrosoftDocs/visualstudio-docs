@@ -1,6 +1,6 @@
 ---
-description: "Gets the breakpoint location type of this breakpoint request."
 title: IDebugBreakpointRequest2::GetLocationType
+description: "Gets the breakpoint location type of this breakpoint request."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -43,7 +43,7 @@ HRESULT GetLocationType(
 If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_FAIL` if the `bpLocation` field in the associated [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) structure is not valid.
 
 ## Example
-The following example shows how to implement this method for a simple `CDebugBreakpointRequest` object that exposes the[IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md) interface.
+The following example shows how to implement this method for a simple `CDebugBreakpointRequest` object that exposes the [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md) interface.
 
 ```
 HRESULT CDebugBreakpointRequest::GetLocationType(BP_LOCATION_TYPE* pBPLocationType)

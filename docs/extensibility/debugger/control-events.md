@@ -19,7 +19,7 @@ You must send events during the controlled execution of your program. All of the
 
 - Sending the [IDebugEngineCreateEvent2](../../extensibility/debugger/reference/idebugenginecreateevent2.md) interface when the debug engine (DE) is initialized requires you to implement the [IDebugEngineCreateEvent2::GetEngine](../../extensibility/debugger/reference/idebugenginecreateevent2-getengine.md) method.
 
-- Execution control requires implementation of such control events as the [IDebugBreakEvent2](../../extensibility/debugger/reference/idebugbreakevent2.md) and[IDebugStepCompleteEvent2](../../extensibility/debugger/reference/idebugstepcompleteevent2.md) interfaces. **IDebugBreakEvent2** is required only for asynchronous breaks.
+- Execution control requires implementation of such control events as the [IDebugBreakEvent2](../../extensibility/debugger/reference/idebugbreakevent2.md) and [IDebugStepCompleteEvent2](../../extensibility/debugger/reference/idebugstepcompleteevent2.md) interfaces. **IDebugBreakEvent2** is required only for asynchronous breaks.
 
 - Stepping into functions requires implementation of the [IDebugStepCompleteEvent2](../../extensibility/debugger/reference/idebugstepcompleteevent2.md) interface and its methods.
 
