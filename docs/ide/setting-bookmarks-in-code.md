@@ -17,7 +17,7 @@ You can use bookmarks to mark lines in your code so that you can quickly return 
 
 Bookmark commands and icons are available in two places: 
 
-- The Text Editor toolbar, which is the row of buttons under the menu bar in Visual Studio.
+- The **Text Editor** toolbar, which is the row of buttons under the menu bar in Visual Studio.
   
   ::: moniker range="<=vs-2019"
 
