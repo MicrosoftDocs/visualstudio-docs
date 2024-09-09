@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackWalkFrame::put_registerValue
 
 Sets the value of a register.
@@ -19,7 +20,7 @@ Sets the value of a register.
 ## Syntax
 
 ```C++
-HRESULT put_registerValue ( 
+HRESULT put_registerValue ( 
    DWORD     index,
    ULONGLONG NewVal
 );

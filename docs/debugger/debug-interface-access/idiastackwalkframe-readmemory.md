@@ -1,5 +1,5 @@
 ---
-description: "Reads memory from image."
+description: Reads memory from image.
 title: "IDiaStackWalkFrame::readMemory"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackWalkFrame::readMemory
 
 Reads memory from image.
@@ -19,7 +20,7 @@ Reads memory from image.
 ## Syntax
 
 ```C++
-HRESULT readMemory ( 
+HRESULT readMemory ( 
    MemoryTypeEnum type,
    ULONGLONG va,
    DWORD     cbData,
