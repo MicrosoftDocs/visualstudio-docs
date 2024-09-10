@@ -308,6 +308,7 @@ These settings are specific to the test adapter that runs test methods that have
     <CaptureTraceOutput>false</CaptureTraceOutput>
     <DeleteDeploymentDirectoryAfterTestRunIsComplete>False</DeleteDeploymentDirectoryAfterTestRunIsComplete>
     <DeploymentEnabled>False</DeploymentEnabled>
+    <ConsiderFixturesAsSpecialTests>False</ConsiderFixturesAsSpecialTests>
     <AssemblyResolution>
       <Directory path="D:\myfolder\bin\" includeSubDirectories="false"/>
     </AssemblyResolution>
@@ -449,7 +450,6 @@ Each element of the file is optional because it has a default value.
     <CaptureTraceOutput>false</CaptureTraceOutput>
     <DeleteDeploymentDirectoryAfterTestRunIsComplete>False</DeleteDeploymentDirectoryAfterTestRunIsComplete>
     <DeploymentEnabled>False</DeploymentEnabled>
-    <ConsiderFixturesAsSpecialTests>False</ConsiderFixturesAsSpecialTests>
     <AssemblyResolution>
       <Directory path="D:\myfolder\bin\" includeSubDirectories="false"/>
     </AssemblyResolution>
