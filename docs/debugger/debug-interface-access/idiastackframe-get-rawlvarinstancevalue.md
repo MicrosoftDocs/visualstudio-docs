@@ -1,5 +1,5 @@
 ---
-description: "This method retrieves the value of the specified local variable as raw bytes."
+description: This method retrieves the value of the specified local variable as raw bytes.
 title: "IDiaStackFrame::get_rawLVarInstanceValue"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackFrame::get_rawLVarInstanceValue
 
 This method retrieves the value of the specified local variable as raw bytes.
