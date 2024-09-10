@@ -3,7 +3,7 @@ title: Find and claim product keys in subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/06/2024
+ms.date: 09/09/2024
 ms.topic: conceptual
 description: Find, claim, and export product keys in Visual Studio subscriptions, and review types of product keys such as OEM Key, Retail, and Static Activation Key.
 ---
@@ -34,9 +34,9 @@ Various key types are available, depending on the product.
 |    Custom Key | Custom keys provide special actions or information to activate or install the product. |
 |    VA 1.0  |  Multiple activation keys similar to a MAK. |
 |    OEM Key |  Original Equipment Manufacturer keys that allow multiple activations. |
-|    ADT4T Retail Key  | Retail keys for Azure Dev Tools for Teaching allow activation on one device. These keys are issued in batches and are primarily intended for student consumption. |
-|    ADT4T Lab Key | Lab use keys for allow multiple activations. Azure Dev Tools for Teaching Lab Keys are intended for use in university computer lab scenarios. |
-|    ADT4T MAK Key | MAK keys for Azure Dev Tools for Teaching program customers. |
+|    Azure Dev Tools for Teaching Retail Key  | Retail keys for Azure Dev Tools for Teaching allow activation on one device. These keys are intended for student consumption. |
+|    Azure Dev Tools for Teaching Lab Key | Lab use keys for allow multiple activations. Azure Dev Tools for Teaching Lab Keys are intended for use in university computer lab scenarios. |
+|    Azure Dev Tools for Teaching MAK Key | MAK keys for Azure Dev Tools for Teaching program customers. |
 |
 
 You can claim a key from the download page for the product, or you can search for the key you need on the [Product Keys](https://my.visualstudio.com/productkeys) page.
