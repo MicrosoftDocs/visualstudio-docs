@@ -1,8 +1,8 @@
 {
   "redirections": [
     {
-      "source_path": "docs/extensibility/internals/microsoft-hel-viewer-sdk.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/microsoft-help-viewer",
+      "source_path": "docs/extensibility/internals/microsoft-help-viewer-sdk.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/microsoft-help-viewer-sdk",
       "redirect_document_id": false
     },
     {
