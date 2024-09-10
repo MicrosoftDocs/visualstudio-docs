@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a stack frame enumerator for a specific platform type."
+description: Retrieves a stack frame enumerator for a specific platform type.
 title: "IDiaStackWalker::getEnumFrames2"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackWalker::getEnumFrames2
 
 Retrieves a stack frame enumerator for a specific platform type.
@@ -20,7 +21,7 @@ Retrieves a stack frame enumerator for a specific platform type.
 
 ```C++
 
-      HRESULT getEnumFrames2( 
+      HRESULT getEnumFrames2( 
    enum  CV_CPU_TYPE_e    cpuid,
    IDiaStackWalkHelper*   pHelper,
    IDiaEnumStackFrames**  ppEnum
