@@ -330,6 +330,7 @@ These settings are specific to the test adapter that runs test methods that have
 |**DeployTestSourceDependencies**|true|A value indicating whether the test source references are to be deployed.|
 |**DeleteDeploymentDirectoryAfterTestRunIsComplete**|true|To retain the deployment directory after a test run, set this value to **false**.|
 |**MapInconclusiveToFailed**|false|If a test completes with an inconclusive status, it's mapped to the skipped status in **Test Explorer**. If you want inconclusive tests to be shown as failed, set the value to **true**.|
+|**ConsiderFixturesAsSpecialTests**|false|To display `AssemblyInitialize`, `AssemblyCleanup`, `ClassInitialize`, `ClassCleanup` as invidutual entries in visual studio `Test Explorer` and `.trx` log, set this value to **true**|
 |**AssemblyResolution**|false|You can specify paths to extra assemblies when finding and running unit tests. For example, use these paths for dependency assemblies that aren't in the same directory as the test assembly. To specify a path, use a **Directory Path** element. Paths can include environment variables.<br /><br />`<AssemblyResolution>  <Directory path="D:\myfolder\bin\" includeSubDirectories="false"/> </AssemblyResolution>`<br /><br />Note that this feature is only being applied when using .NET Framework target.|
 
 ## Example *.runsettings* file
@@ -448,6 +449,7 @@ Each element of the file is optional because it has a default value.
     <CaptureTraceOutput>false</CaptureTraceOutput>
     <DeleteDeploymentDirectoryAfterTestRunIsComplete>False</DeleteDeploymentDirectoryAfterTestRunIsComplete>
     <DeploymentEnabled>False</DeploymentEnabled>
+    <ConsiderFixturesAsSpecialTests>False</ConsiderFixturesAsSpecialTests>
     <AssemblyResolution>
       <Directory path="D:\myfolder\bin\" includeSubDirectories="false"/>
     </AssemblyResolution>
