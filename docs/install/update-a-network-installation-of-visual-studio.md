@@ -14,7 +14,8 @@ ms.subservice: installation
 ---
 # Update a Visual Studio client that was installed from a layout
 
-> 📣 *We'd love to hear your feedback! Please take a moment to complete this [survey](https://aka.ms/learnlayoutfeedback) and let us know how we can improve the layout experience. Thank you for your support!*
+> 📣 **We'd love to hear your feedback!**
+> *Please take a moment to complete this [survey](https://aka.ms/learnlayoutfeedback) and let us know how we can improve the layout experience. Thank you for your support!*
 
 You can and should periodically update all Visual Studio installations so that they receive the latest security and functionality fixes. 
 
