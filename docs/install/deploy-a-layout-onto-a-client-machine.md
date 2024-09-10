@@ -14,7 +14,9 @@ ms.subservice: installation
 ---
 # Deploy Visual Studio from a layout onto a client machine
 
- 
+> [!NOTE]
+> 📣 *We'd love to hear your feedback! Please take a moment to complete this [survey](https://aka.ms/learnlayoutfeedback) and let us know how we can improve the layout experience. Thank you for your support!*
+
 In order to deploy a layout to a client machine, you'll need to consider the following topics first:
 
 - [**Prepare the layout**](create-a-network-installation-of-visual-studio.md): Make sure that your layout is ready to install onto the client.
@@ -22,9 +24,6 @@ In order to deploy a layout to a client machine, you'll need to consider the fol
 - [**Configure global policies on the client machine**](configure-policies-for-enterprise-deployments.md): Control other Visual Studio installation, update, notification, and download behavior.  
 - [**Configure initial client installation defaults**](automated-installation-with-response-file.md): Initialize your client's installation with customized settings.
 - [**Perform regular updates**](update-a-network-installation-of-visual-studio.md): Keep your client machines updated and secure.
-
-> [!TIP]
-> *We'd love to hear your feedback! Please take a moment to complete this [survey](https://aka.ms/learnlayoutfeedback) and let us know how we can improve the layout experience. Thank you for your support!*
 
 ## Install Visual Studio onto a client machine from a layout
 

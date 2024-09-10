@@ -14,6 +14,9 @@ ms.subservice: installation
 ---
 # Create and maintain a network installation of Visual Studio
 
+> [!NOTE]
+> 📣 *We'd love to hear your feedback! Please take a moment to complete this [survey](https://aka.ms/learnlayoutfeedback) and let us know how we can improve the layout experience. Thank you for your support!*
+
 Sometimes an enterprise administrator wants to create a private installation cache (also known as a "layout") that contains Visual Studio files that can be [deployed to client machines within an organization](deploy-a-layout-onto-a-client-machine.md). 
 
 Creating a layout is useful in following situations:
@@ -28,9 +31,6 @@ The information on this page is grouped up into three main sections:
 * [**Create the layout**](#create-the-layout): describes how to create the layout with the correct product content, configure the default settings, store it on a network file share, and make it available on your intranet. 
 * [**Maintain the layout**](#maintaining-your-layout): information on how to best update the layout's product version, or modify the layout's product content, channel settings, installer version, and folder size. 
 * [**Help and Support**](#get-support-for-your-network-layout): where to ask for help
-
-> [!TIP]
-> *We'd love to hear your feedback! Please take a moment to complete this [survey](https://aka.ms/learnlayoutfeedback) and let us know how we can improve the layout experience. Thank you for your support!*
 
 ## Create the layout
 

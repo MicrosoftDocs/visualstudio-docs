@@ -15,13 +15,13 @@ ms.subservice: installation
 ---
 # Create an offline installation package of Visual Studio for local installation
 
+> [!NOTE]
+> 📣 *We'd love to hear your feedback! Please take a moment to complete this [survey](https://aka.ms/learnlayoutfeedback) and let us know how we can improve the layout experience. Thank you for your support!*
+
 Visual Studio is designed to work well in various computer configurations. In this article, you learn how to create an offline installation package of files for installation on the **local machine**.
 
 > [!IMPORTANT]
 > If you are an enterprise IT administrator who wants to perform a deployment of Visual Studio throughout a network of client workstations, or if you need to create an installation package of files to transfer to or install onto *another* machine, refer to our [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide), the [create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md) page, and the [deploy a layout onto a client machine](deploy-a-layout-onto-a-client-machine.md) documentation.
-
-> [!TIP]
-> *We'd love to hear your feedback! Please take a moment to complete this [survey](https://aka.ms/learnlayoutfeedback) and let us know how we can improve the layout experience. Thank you for your support!*
 
 ## Use the "Download all, then install" feature
 
