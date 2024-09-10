@@ -29,6 +29,9 @@ The information on this page is grouped up into three main sections:
 * [**Maintain the layout**](#maintaining-your-layout): information on how to best update the layout's product version, or modify the layout's product content, channel settings, installer version, and folder size. 
 * [**Help and Support**](#get-support-for-your-network-layout): where to ask for help
 
+> [!TIP]
+> *We'd love to hear your feedback! Please take a moment to complete this [survey](https://aka.ms/learnlayoutfeedback) and let us know how we can improve the layout experience. Thank you for your support!*
+
 ## Create the layout
 
 ### Prepare the network file share storage location

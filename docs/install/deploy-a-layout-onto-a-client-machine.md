@@ -23,6 +23,9 @@ In order to deploy a layout to a client machine, you'll need to consider the fol
 - [**Configure initial client installation defaults**](automated-installation-with-response-file.md): Initialize your client's installation with customized settings.
 - [**Perform regular updates**](update-a-network-installation-of-visual-studio.md): Keep your client machines updated and secure.
 
+> [!TIP]
+> *We'd love to hear your feedback! Please take a moment to complete this [survey](https://aka.ms/learnlayoutfeedback) and let us know how we can improve the layout experience. Thank you for your support!*
+
 ## Install Visual Studio onto a client machine from a layout
 
 Administrators can deploy a Visual Studio layout onto client workstations programmatically as part of an installation script.  
