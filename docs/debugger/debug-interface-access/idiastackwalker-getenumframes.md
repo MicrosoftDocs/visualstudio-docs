@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a stack frame enumerator for x86 platforms."
+description: Retrieves a stack frame enumerator for x86 platforms.
 title: "IDiaStackWalker::getEnumFrames"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackWalker::getEnumFrames
 
 Retrieves a stack frame enumerator for x86 platforms.
@@ -19,7 +20,7 @@ Retrieves a stack frame enumerator for x86 platforms.
 ## Syntax
 
 ```C++
-HRESULT getEnumFrames( 
+HRESULT getEnumFrames( 
    IDiaStackWalkHelper*   pHelper,
    IDiaEnumStackFrames**  ppEnum
 );
