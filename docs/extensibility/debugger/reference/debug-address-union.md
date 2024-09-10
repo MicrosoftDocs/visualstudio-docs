@@ -1,6 +1,6 @@
 ---
-description: "Describes different kinds of addresses."
 title: DEBUG_ADDRESS_UNION
+description: "Describes different kinds of addresses."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -56,28 +56,28 @@ A value from the [ADDRESS_KIND](../../../extensibility/debugger/reference/addres
 [C++ only] Contains the [NATIVE_ADDRESS](../../../extensibility/debugger/reference/native-address.md) structure if `dwKind` = ADDRESS_KIND_NATIVE.
 
 `addr.addrThisRel`\
-[C++ only] Contains the[UNMANAGED_ADDRESS_THIS_RELATIVE](../../../extensibility/debugger/reference/unmanaged-address-this-relative.md) structure if `dwKind` = ADDRESS_KIND_UNMANAGED_THIS_RELATIVE.
+[C++ only] Contains the [UNMANAGED_ADDRESS_THIS_RELATIVE](../../../extensibility/debugger/reference/unmanaged-address-this-relative.md) structure if `dwKind` = ADDRESS_KIND_UNMANAGED_THIS_RELATIVE.
 
 `addr.addUPhysical`\
-[C++ only] Contains the[UNMANAGED_ADDRESS_PHYSICAL](../../../extensibility/debugger/reference/unmanaged-address-physical.md) structure if `dwKind` = ADDRESS_KIND_UNMANAGED_PHYSICAL.
+[C++ only] Contains the [UNMANAGED_ADDRESS_PHYSICAL](../../../extensibility/debugger/reference/unmanaged-address-physical.md) structure if `dwKind` = ADDRESS_KIND_UNMANAGED_PHYSICAL.
 
 `addr.addrMethod`\
-[C++ only] Contains the[METADATA_ADDRESS_METHOD](../../../extensibility/debugger/reference/metadata-address-method.md) structure if `dwKind` = ADDRESS_KIND_METHOD.
+[C++ only] Contains the [METADATA_ADDRESS_METHOD](../../../extensibility/debugger/reference/metadata-address-method.md) structure if `dwKind` = ADDRESS_KIND_METHOD.
 
 `addr.addrField`\
-[C++ only] Contains the[METADATA_ADDRESS_FIELD](../../../extensibility/debugger/reference/metadata-address-field.md) structure if `dwKind` = ADDRESS_KIND_FIELD.
+[C++ only] Contains the [METADATA_ADDRESS_FIELD](../../../extensibility/debugger/reference/metadata-address-field.md) structure if `dwKind` = ADDRESS_KIND_FIELD.
 
 `addr.addrLocal`\
-[C++ only] Contains the[METADATA_ADDRESS_LOCAL](../../../extensibility/debugger/reference/metadata-address-local.md) structure if `dwKind` = ADDRESS_KIND_LOCAL.
+[C++ only] Contains the [METADATA_ADDRESS_LOCAL](../../../extensibility/debugger/reference/metadata-address-local.md) structure if `dwKind` = ADDRESS_KIND_LOCAL.
 
 `addr.addrParam`\
-[C++ only] Contains the[METADATA_ADDRESS_PARAM](../../../extensibility/debugger/reference/metadata-address-param.md) structure if `dwKind` = ADDRESS_KIND_PARAM.
+[C++ only] Contains the [METADATA_ADDRESS_PARAM](../../../extensibility/debugger/reference/metadata-address-param.md) structure if `dwKind` = ADDRESS_KIND_PARAM.
 
 `addr.addrArrayElem`\
-[C++ only] Contains the[METADATA_ADDRESS_ARRAYELEM](../../../extensibility/debugger/reference/metadata-address-arrayelem.md) structure if `dwKind` = ADDRESS_KIND_ARRAYELEM.
+[C++ only] Contains the [METADATA_ADDRESS_ARRAYELEM](../../../extensibility/debugger/reference/metadata-address-arrayelem.md) structure if `dwKind` = ADDRESS_KIND_ARRAYELEM.
 
 `addr.addrRetVal`\
-[C++ only] Contains the[METADATA_ADDRESS_RETVAL](../../../extensibility/debugger/reference/metadata-address-retval.md) structure if `dwKind` = ADDRESS_KIND_RETVAL.
+[C++ only] Contains the [METADATA_ADDRESS_RETVAL](../../../extensibility/debugger/reference/metadata-address-retval.md) structure if `dwKind` = ADDRESS_KIND_RETVAL.
 
 `addr.unused`\
 [C++ only] padding.
