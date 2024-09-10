@@ -1,7 +1,7 @@
 ---
 title: Keyboard shortcuts
 description: Learn about the default keyboard shortcuts in Visual Studio that allow you to access a variety of commands and windows.
-ms.date: 08/13/2024
+ms.date: 09/9/2024
 ms.topic: reference
 helpviewer_keywords:
 - shortcut keys [Visual Studio], keyboard binding schemes
@@ -24,6 +24,8 @@ For a list of common keyboard shortcuts and other productivity information, see:
 - [Productivity tips](../ide/productivity-features.md)
 
 For more information about accessibility in Visual Studio, see [Accessibility tips and tricks](../ide/reference/accessibility-tips-and-tricks.md) and [How to: Use the keyboard exclusively](../ide/reference/how-to-use-the-keyboard-exclusively.md).
+
+The keyboard shortcuts in Visual Studio may vary depending on your keyboard layout and language settings. You can [identify the keyboard shortcut for a command](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md#identify-a-keyboard-shortcut) or [customize your keyboard shortcut](/visualstudio/ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).Please refer to the [Dev Community ticket](https://developercommunity.visualstudio.com/t/Erroneous-changes-of-keyboard-shortcuts/10609512) related to this issue for more information.
 
 ## Printable shortcut cheatsheet
 
