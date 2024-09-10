@@ -94,7 +94,7 @@ To access properties on the solution, right-click the [solution node](use-soluti
 
 :::image type="content" source="media/vs-2022/solution-node-properties.png" alt-text="Screenshot of the solution node right-click menu.":::
 
-In the dialog box, you can set [project configurations](understanding-build-configurations.md#solution-configurations) for **Debug** or **Release** builds, and choose which projects should be the [startup project](how-to-set-multiple-startup-projects.md) when you select **F5**. The Code Analysis property page at the solution level was [removed](../code-quality/analyzers-faq.md#code-analysis-solution-property-page). You can still set code analysis properties at the project level.
+In the dialog box, you can set [project configurations](understanding-build-configurations.md#solution-configurations) for **Debug** or **Release** builds, and choose which projects should be the [startup project](how-to-set-multiple-startup-projects.md) when you select **F5**. The Code Analysis property page at the solution level was [removed](../code-quality/analyzers-faq.yml#code-analysis-solution-property-page). You can still set code analysis properties at the project level.
 
 :::image type="content" source="media/vs-2022/solution-properties-dialog.png" alt-text="Screenshot of the solution properties dialog.":::
 
