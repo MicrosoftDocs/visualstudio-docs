@@ -1,9 +1,9 @@
 ---
 title: Azure Dev/Test eligible credits in subscriptions
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 07/19/2023
+ms.date: 09/11/2024
 ms.topic: conceptual
 description: Check if your Visual Studio subscription includes Azure Dev/Test credits so you can try various Azure services at no cost.
 ---
