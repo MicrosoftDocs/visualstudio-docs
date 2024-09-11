@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the return address of the frame."
+description: Retrieves the return address of the frame.
 title: "IDiaStackFrame::get_returnAddress"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackFrame::get_returnAddress
 
 Retrieves the return address of the frame.
@@ -19,7 +20,7 @@ Retrieves the return address of the frame.
 ## Syntax
 
 ```C++
-HRESULT get_returnAddress ( 
+HRESULT get_returnAddress ( 
    ULONGLONG* pRetVal
 );
 ```

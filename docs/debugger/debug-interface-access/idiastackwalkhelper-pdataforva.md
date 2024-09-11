@@ -1,5 +1,5 @@
 ---
-description: "Returns the PDATA data block associated with the virtual address."
+description: Returns the PDATA data block associated with the virtual address.
 title: "IDiaStackWalkHelper::pdataForVA"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackWalkHelper::pdataForVA
 
 Returns the PDATA data block associated with the virtual address.
@@ -19,7 +20,7 @@ Returns the PDATA data block associated with the virtual address.
 ## Syntax
 
 ```C++
-HRESULT pdataForVA( 
+HRESULT pdataForVA( 
    ULONGLONG  va,
    DWORD      cbData,
    DWORD*     pcbData,

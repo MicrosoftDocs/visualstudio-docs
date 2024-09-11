@@ -14,6 +14,9 @@ ms.subservice: installation
 ---
 # Update a Visual Studio client that was installed from a layout
 
+> 📣 **We'd love to hear your feedback!**
+> *Please take a moment to complete this [survey](https://aka.ms/learnlayoutfeedback) and let us know how we can improve the layout experience. Thank you for your support!*
+
 You can and should periodically update all Visual Studio installations so that they receive the latest security and functionality fixes. 
 
 If Visual Studio is installed on a machine in an organization and was originally installed from a layout, then most likely the client machine is part of a "managed environment", meaning that it is governed by a central administrative team and must adhere to organizational policies. To update client machines in managed environments, consider the questions below because the answers will inform how you should approach the update process. 

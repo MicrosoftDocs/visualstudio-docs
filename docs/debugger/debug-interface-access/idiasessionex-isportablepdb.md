@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a boolean indicating that the source debug information is using the Portable PDB format."
+description: Retrieves a Boolean indicating that the source debug information is using the Portable PDB format.
 title: "IDiaSessionEx::isPortablePDB"
 ms.date: "07/05/2024"
 ms.topic: "reference"
@@ -12,9 +12,10 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSessionEx::isPortablePDB
 
-Retrieves a boolean indicating that the source debug information is using the [Portable PDB](https://github.com/dotnet/runtime/blob/main/docs/design/specs/PortablePdb-Metadata.md) format.
+Retrieves a Boolean indicating that the source debug information is using the [Portable PDB](https://github.com/dotnet/runtime/blob/main/docs/design/specs/PortablePdb-Metadata.md) format.
 
 ## Syntax
 
@@ -28,7 +29,7 @@ HRESULT isPortablePDB(
 
  `pfPortablePDB`
 
-[out] Returns a boolean indcating if the debug information was in the [Portable PDB](https://github.com/dotnet/runtime/blob/main/docs/design/specs/PortablePdb-Metadata.md) format.
+[out] Returns a Boolean indcating if the debug information was in the [Portable PDB](https://github.com/dotnet/runtime/blob/main/docs/design/specs/PortablePdb-Metadata.md) format.
 
 ## Return Value
 

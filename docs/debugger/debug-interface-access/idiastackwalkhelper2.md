@@ -1,6 +1,6 @@
 ---
-description: "Facilitates walking the stack using the program debug database (.pdb) file. Extends IDiaStackWalkHelper." 
-title: "IDiaStackWalkHelper2"
+description: Facilitates walking the stack using the program debug database (.pdb) file. Extends IDiaStackWalkHelper.
+title: IDiaStackWalkHelper2
 ms.date: "07/18/2024"
 ms.topic: "reference"
 dev_langs:
@@ -12,15 +12,14 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackWalkHelper2
 
 Facilitates walking the stack using the program debug database (.pdb) file.
 
 ## Syntax
 
-```
-IDiaStackWalkHelper2: IDiaStackWalkHelper
-```
+`IDiaStackWalkHelper2: IDiaStackWalkHelper`
 
 ## Methods in VTable Order
 
@@ -32,7 +31,7 @@ IDiaStackWalkHelper2: IDiaStackWalkHelper
 
 ## Remarks
 
- This interface is called by the DIA code to obtain information about the executable to construct a list of stack frames during program execution.
+ This interface is called by the Debug Interface Access (DIA) code to obtain information about the executable to construct a list of stack frames during program execution.
 
 ## Notes for Callers
 

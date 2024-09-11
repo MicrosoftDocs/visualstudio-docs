@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackWalkHelper::searchForReturnAddress
 
 Searches the specified stack frame for the nearest function return address.
@@ -19,7 +20,7 @@ Searches the specified stack frame for the nearest function return address.
 ## Syntax
 
 ```C++
-HRESULT searchForReturnAddress( 
+HRESULT searchForReturnAddress( 
    IDiaFrameData*  frame,
    ULONGLONG*      returnAddress
 );
