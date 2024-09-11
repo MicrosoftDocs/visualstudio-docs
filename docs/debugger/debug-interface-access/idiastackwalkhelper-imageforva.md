@@ -1,5 +1,5 @@
 ---
-description: "Returns the start of an executable's image in memory given a virtual address somewhere in the executable's memory space."
+description: Returns the start of an executable's image in memory given a virtual address somewhere in the executable's memory space.
 title: "IDiaStackWalkHelper::imageForVA"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackWalkHelper::imageForVA
 
 Returns the start of an executable's image in memory given a virtual address somewhere in the executable's memory space.

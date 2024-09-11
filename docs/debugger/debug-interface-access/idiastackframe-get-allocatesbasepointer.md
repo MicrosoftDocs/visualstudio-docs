@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackFrame::get_allocatesBasePointer
 
 Retrieves a flag that indicates whether the base pointer is allocated for code in this address range.
@@ -19,7 +20,7 @@ Retrieves a flag that indicates whether the base pointer is allocated for code i
 ## Syntax
 
 ```C++
-HRESULT get_allocatesBasePointer ( 
+HRESULT get_allocatesBasePointer ( 
    BOOL* pRetVal
 );
 ```
