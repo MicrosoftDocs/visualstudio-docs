@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackFrame::get_lengthSavedRegisters
 
 Retrieves the number of bytes of saved registers pushed on the stack.
@@ -19,7 +20,7 @@ Retrieves the number of bytes of saved registers pushed on the stack.
 ## Syntax
 
 ```C++
-HRESULT get_lengthSavedRegisters ( 
+HRESULT get_lengthSavedRegisters ( 
    DWORD* pRetVal
 );
 ```

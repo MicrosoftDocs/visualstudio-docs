@@ -1,6 +1,6 @@
 ---
-description: "Provides a query context for debug symbols."
-title: "IDiaSession"
+description: Provides a query context for debug symbols.
+title: IDiaSession
 ms.date: "07/03/2024"
 ms.topic: "reference"
 dev_langs:
@@ -12,15 +12,14 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession
 
 Provides a query context for debug symbols.
 
 ## Syntax
 
-```
-IDiaSession : IUnknown
-```
+`IDiaSession : IUnknown`
 
 ## Methods
 The following table shows the methods of `IDiaSession`.
@@ -93,7 +92,7 @@ It is important to call the [`IDiaSession::put_loadAddress`](../../debugger/debu
 
 ## Example
 
-This example shows how to obtain the `IDiaSession` interface as part of a general initialization of the DIA SDK.
+This example shows how to obtain the `IDiaSession` interface as part of a general initialization of the Debug Interface Access (DIA) SDK.
 
 ```C++
 CComPtr<IDiaDataSource> pSource;

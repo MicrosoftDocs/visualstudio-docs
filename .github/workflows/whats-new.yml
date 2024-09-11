@@ -41,7 +41,7 @@ jobs:
           savefile: './docs/ide/whats-new-visual-studio-docs.md'
 
       - name: create-pull-request
-        uses: peter-evans/create-pull-request@c5a7806660adbe173f04e3e038b0ccdcd758773c
+        uses: peter-evans/create-pull-request@8867c4aba1b742c39f8d0ba35429c2dfa4b6cb20
         with:
           branch: create-whatsnew-pull-request/patch
           title: "What's new article"

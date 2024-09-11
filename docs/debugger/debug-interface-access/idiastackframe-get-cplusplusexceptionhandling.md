@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that indicates if C++ exception handling is in effect."
+description: Retrieves a flag that indicates if C++ exception handling is in effect.
 title: "IDiaStackFrame::get_cplusplusExceptionHandling"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackFrame::get_cplusplusExceptionHandling
 
 Retrieves a flag that indicates if C++ exception handling is in effect.
@@ -19,7 +20,7 @@ Retrieves a flag that indicates if C++ exception handling is in effect.
 ## Syntax
 
 ```C++
-HRESULT get_cplusplusExceptionHandling ( 
+HRESULT get_cplusplusExceptionHandling ( 
    BOOL* pRetVal
 );
 ```

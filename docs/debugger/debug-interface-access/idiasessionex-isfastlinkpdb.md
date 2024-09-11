@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a boolean indicating that the source debug information was produced with /DEBUG:fastlink."
+description: "Retrieves a Boolean indicating that the source debug information was produced with /DEBUG:fastlink."
 title: "IDiaSessionEx::isFastLinkPDB"
 ms.date: "07/05/2024"
 ms.topic: "reference"
@@ -12,9 +12,10 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSessionEx::isFastLinkPDB
 
-Retrieves a boolean indicating that the source debug information was produced with `/DEBUG:fastlink`.
+Retrieves a Boolean indicating that the source debug information was produced with `/DEBUG:fastlink`.
 
 ## Syntax
 
@@ -28,7 +29,7 @@ HRESULT isFastLinkPDB(
 
  `pfFastLinkPDB`
 
-[out] Returns a boolean indcating if the debug information was build with `/DEBUG:fastlink` or not.
+[out] Returns a Boolean indcating if the debug information was build with `/DEBUG:fastlink` or not.
 
 ## Return Value
 
