@@ -1,9 +1,9 @@
 ---
 title: Visual Studio App Center benefit in Visual Studio subscriptions
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 06/15/2023
+ms.date: 09/11/2024
 ms.topic: how-to
 description:  Learn about the Visual Studio App Center benefit included in Visual Studio subscriptions.
 ---

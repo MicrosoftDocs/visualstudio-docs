@@ -1,9 +1,9 @@
 ---
 title: Parasoft Virtualize/SOAtest Professional in Visual Studio subscriptions
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 06/15/2023
+ms.date: 09/11/2024
 ms.topic: how-to
 description:  Learn how to activate the Parasoft Virtualize/SOA Test Professional subscription included in your Visual Studio subscription.
 ---

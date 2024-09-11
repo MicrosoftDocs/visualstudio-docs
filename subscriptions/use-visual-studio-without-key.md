@@ -1,9 +1,9 @@
 ---
 title: Use Visual Studio without a product key
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/06/2024
+ms.date: 09/11/2024
 ms.topic: how-to
 description: Learn how to install and use Visual Studio if you don't have access to downloads.
 ---
