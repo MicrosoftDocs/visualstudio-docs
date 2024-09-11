@@ -25,9 +25,6 @@ With Visual Studio, you can connect any of the following to Azure Application In
 
 The connected service functionality adds all the needed references and connection code to your project, and modifies your configuration files appropriately.
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Connected services in Visual Studio for Mac](/visualstudio/mac/connected-services).
-
 ## Prerequisites
 
 - Visual Studio with the Azure workload installed.
@@ -45,6 +42,8 @@ The connected service functionality adds all the needed references and connectio
 1. In the **Connected Services** tab, select the + icon for **Service Dependencies**.
 
     ![Screenshot showing "Add Service Dependency" screen.](./media/vs-azure-tools-connected-services-storage/vs-2019/connected-services-tab.png)
+
+   If you don't see the **Connected Services** node, choose **Project** > **Connected Services** > **Add**.
 
 1. In the **Add Dependency** page, select **Azure Application Insights**.
 
@@ -93,6 +92,8 @@ The connected service functionality adds all the needed references and connectio
 1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add** to open the menu of available services.
 
    ![Screenshot showing Connected Services context menu options.](./media/azure-app-insights-add-connected-service/vs-2022/add-connected-service-context-menu-2.png)
+
+   If you don't see the **Connected Services** node, choose **Project** > **Connected Services** > **Add**.
 
 1. Choose **Azure Application Insights**. The **Connect to dependency** page appears. You should see two options, one for a local emulator, **Application Insights Sdk (Local)**, and one for connecting to the live Azure Application Insights service. You can reduce cost and simplify early development by starting with the local emulator. You can migrate to the live service later by repeating these steps and choosing the other option.
 
@@ -152,4 +153,3 @@ The links take you to the section of the articles after the initial setup steps,
 
 - [Azure Monitor product page](https://azure.microsoft.com/services/monitor/)
 - [Azure App Insights documentation](/azure/azure-monitor/app/app-insights-overview/)
-- [Connected services (Visual Studio for Mac)](/visualstudio/mac/connected-services)

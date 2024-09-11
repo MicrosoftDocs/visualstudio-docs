@@ -29,9 +29,9 @@ landingContent:
             url: memory-usage.md
       - linkListType: how-to-guide
         links:
-          - text: Beginner's guide to optimizing code
+          - text: Case study - Beginner's guide to optimizing code
             url: optimize-code-using-profiling-tools.md
-          - text: Isolate a performance issue
+          - text: Case study - Isolate a performance issue
             url: isolate-performance-issue.md
 
   # Card (optional)

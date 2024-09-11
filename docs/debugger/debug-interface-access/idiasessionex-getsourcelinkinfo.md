@@ -1,5 +1,5 @@
 ---
-description: "Retrieves an enumeration of source link information."
+description: Retrieves an enumeration of source link information.
 title: "IDiaSessionEx::getSourceLinkInfo"
 ms.date: "07/05/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSessionEx::getSourceLinkInfo
 
 Retrieves an enumeration of [Source Link](https://github.com/dotnet/designs/blob/master/accepted/2020/diagnostics/source-link.md) information.
@@ -38,7 +39,6 @@ HRESULT getSourceLinkInfo(
 ## Return Value
 
  If successful, returns `S_OK`; otherwise, returns an error code.
-
 
 ## See also
 

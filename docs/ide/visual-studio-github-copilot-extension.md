@@ -1,7 +1,7 @@
 ---
 title: About GitHub Copilot Completions in Visual Studio
 description: Use GitHub Copilot completions in Visual Studio to use AI assistance to generate information about your code, including suggested edits and new code snippets.
-ms.date: 8/13/2024
+ms.date: 9/05/2024
 ms.topic: overview
 author: anandmeg
 ms.author: meghaanand
@@ -76,6 +76,8 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
   
     :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/copilot-modify-code-completions.png" alt-text="Screenshot that shows modifying the GitHub Copilot code suggestions in Visual Studio":::
   
+   If the command palette doesn't appear, you might have reached the default limit for its display. To change this, go to **Tools** > **Options** > **IntelliCode** > **Advanced**, and adjust the value for **Minimum commits to suppress hint text**.
+
 1. Add following code to see whole line completions from GitHub Copilot.
 
    ```csharp

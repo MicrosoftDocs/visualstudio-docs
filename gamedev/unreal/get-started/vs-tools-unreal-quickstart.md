@@ -1,13 +1,13 @@
 ---
 title: "Quickstart: Visual Studio Tools for Unreal Engine"
 description: "Learn about Visual Studio Tools for Unreal Engine, a free Visual Studio extension that helps you develop games with Unreal Engine"
-ms.date: 07/22/2024
+ms.date: 09/04/2024
 ms.topic: quickstart
 ms.service: visual-studio
 ms.subservice: unreal-engine-tools
 author: TylerMSFT
 ms.author: TWhitney
-manager: MarkL
+manager: Coxford
 ---
 
 # Quickstart: Visual Studio Tools for Unreal Engine
@@ -30,7 +30,7 @@ Lyra is a sample game project for learning about Unreal Engine. See the **Downlo
 
 After you download the game sample, update `LyraStarterGame.uproject` to use the Visual Studio Tools plugin. You could also do this in the Unreal Editor after loading the Lyra project from the main menu under **Edit** > **Plugins** and then find the *Visual Studio Integration Tools* plugin and check the box next to it.
 
-As of Visual Studio 2022 version 17.7, the Visual Studio Tools for Unreal Engine plugin is included with the Unreal Engine installation. It's no longer required to view Unreal Engine Blueprints. If you have an earlier version of Visual Studio, follow these instructions to install the plugin manually. See [Install Visual Studio Tools for Unreal Engine](vs-tools-unreal-install.md) for installation instructions.
+As of Visual Studio 2022 version 17.7, the Visual Studio Tools for Unreal Engine plugin is included with the Unreal Engine installation. It's no longer required to view Unreal Engine Blueprints. If you have an earlier version of Visual Studio, see [Install Visual Studio Tools for Unreal Engine](vs-tools-unreal-install.md) to install the plugin manually.
 
 1. Open the `LyraStarterGame.uproject` file in a text editor. It's in the directory where you installed the game sample.
 1. Add the following to the end of the `Plugins` section:
@@ -48,6 +48,16 @@ As of Visual Studio 2022 version 17.7, the Visual Studio Tools for Unreal Engine
 1. Change the **Solutions Configurations** dropdown to **Development Editor**. This enables the Blueprints Visual Studio Tools for Unreal Engine:
     :::image type="content" source="../media/unreal-engine-configuration-dropdown.png" alt-text="Screenshot of Visual Studio with the Solutions Configurations dropdown expanded and Development Editor selected.":::
 1. From the Visual Studio main menu, choose **Build** > **Build Solution** to build the game.
+
+## Build output window
+
+The build output window in Visual Studio is where you can see the progress of the build and any errors or warnings that occur. You can open the build output window from the Visual Studio main menu via **View** > **Output**.
+
+Starting in Visual Studio 2022 17.12, you can double-click on an absolute path to a file in the output window to open that file in Visual Studio. The source code must be part of the Visual Studio solution and the path in the output window must be an absolute path. This works when building Unreal Engine projects in Visual Studio or other types of projects.
+
+The following screenshot shows the output window for a build of the LyraStarterGame sample. The user has double-clicked on the warning from `LyraCharacter.generated.h`. Because the absolute path to that file is provided, double-clicking it opened the file in the editor.
+
+:::image type="content" source="../media/vs-unreal-engine-output-window.png" alt-text="A screenshot of the Visual Studio output window. The LyraCharacter.generated.h file is highlighted because the absolute path is specified and the user double-clicked it to open the LyrCharacter.generated.h file." lightbox="../media/vs-unreal-engine-output-window.png":::
 
 ## Unreal Engine toolbar
 

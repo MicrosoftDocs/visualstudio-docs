@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a source file by source file identifier."
+description: Retrieves a source file by source file identifier.
 title: "IDiaSession::findFileById"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findFileById
 
 Retrieves a source file by source file identifier.
@@ -19,7 +20,7 @@ Retrieves a source file by source file identifier.
 ## Syntax
 
 ```C++
-HRESULT findFileById ( 
+HRESULT findFileById ( 
    DWORD            uniqueId,
    IDiaSourceFile** ppResult
 );

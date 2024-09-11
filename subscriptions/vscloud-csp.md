@@ -1,9 +1,9 @@
 ---
 title: Buy and manage cloud subscriptions for CSPs
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 08/13/2024
+ms.date: 09/11/2024
 ms.topic: conceptual
 description: Help for Cloud Solution Providers on how to buy and manage Visual Studio cloud subscriptions for customers and answers to frequently asked questions.
 ---

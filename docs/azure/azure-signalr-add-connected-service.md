@@ -26,9 +26,6 @@ With Visual Studio, you can connect any of the following to Azure SignalR servic
 
 The connected service functionality adds all the needed references and connection code to your project, and modifies your configuration files appropriately.
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Connected services in Visual Studio for Mac](/visualstudio/mac/connected-services).
-
 ## Prerequisites
 
 - Visual Studio with the Azure workload installed.
@@ -42,6 +39,8 @@ The connected service functionality adds all the needed references and connectio
 1. Open your project in Visual Studio.
 
 1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add Connected Service**.
+
+   If you don't see the **Connected Services** node, choose **Project** > **Connected Services** > **Add**.
 
 1. In the **Connected Services** tab, select the + icon for **Service Dependencies**.
 
@@ -95,6 +94,8 @@ The connected service functionality adds all the needed references and connectio
 
    ![Screenshot showing Connected Services context menu options.](./media/azure-signalr-add-connected-service/vs-2022/add-connected-service-context-menu-2.png)
 
+   If you don't see the **Connected Services** node, choose **Project** > **Connected Services** > **Add**.
+
 1. Choose **Azure SignalR Service**. The **Connect to dependency** page appears.
 
    ![Screenshot showing Connect to dependency for Azure SignalR.](./media/azure-signalr-add-connected-service/vs-2022/connect-to-dependency-signalr.png)
@@ -140,4 +141,3 @@ Continue by following the Azure SignalR quickstart. You can skip the initial set
 
 - [Azure SignalR product page](https://azure.microsoft.com/services/signalr-service/)
 - [Azure SignalR Service documentation](/azure/azure-signalr)
-- [Connected services (Visual Studio for Mac)](/visualstudio/mac/connected-services)

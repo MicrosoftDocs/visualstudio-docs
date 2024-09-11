@@ -1,5 +1,5 @@
 ---
-description: "Retrieves an enumeration that allows a client to iterate through the .NET Native input assembly files."
+description: Retrieves an enumeration that allows a client to iterate through the .NET Native input assembly files.
 title: "IDiaSession::findInputAssemblyFiles"
 ms.date: "07/04/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findInputAssemblyFiles
 
 Retrieves an enumeration that allows a client to iterate through the .NET Native input assembly files.

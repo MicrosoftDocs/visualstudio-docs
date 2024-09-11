@@ -3,7 +3,7 @@ title: Using product keys in Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 03/06/2024
+ms.date: 08/16/2024
 ms.topic: conceptual
 description: Obtain and manage your product keys in Visual Studio subscriptions for products that require keys for installation or activation.
 ---
@@ -32,16 +32,9 @@ Visual Studio subscriptions offer a selection of retail and Volume Licensing ver
 
 Volume Licensing customers can also download software from the Volume Licensing Service Center (VLSC) to get Volume Licensing versions of products (and the corresponding product keys). Designated admins within your organization control access to the VLSC.
 
-## Daily product key claim limits
+## Product key claim limits
 
-Microsoft is committed to protecting the value of the software and benefits that the program’s legitimate subscribers receive for their investment. Microsoft implemented daily key claim limits for Visual Studio subscriptions. Daily key claim limits restrict the number of keys that can be claimed per day per subscription.
-
-The daily key claim limit is 10 keys for most Visual Studio subscriptions, including keys offered through Microsoft Cloud Partner Network, BizSpark, MCT Software & Services, and MCT. Some other subscriptions have a daily key claim limit of seven keys.
-
-> [!NOTE]
-> Key claim limits are subject to change. We'll update this article to reflect any changes in limits.
-
-If you claim the maximum number of keys available for your subscription within a 24-hour period, an error message informs you that your limit has been reached. The limit resets every 24 hours, starting at 12:01 AM Pacific Time.
+Microsoft is committed to protecting the value of the software and benefits that the program’s legitimate subscribers receive for their investment. Microsoft implemented daily key claim limits for Visual Studio subscriptions. Key claim limits restrict the number of keys that can be claimed per subscription.
 
 Our research shows that most subscribers are covered by the number of product keys included in their subscription. If you need more keys, you can submit a request through Visual Studio Subscription [Customer Service](https://visualstudio.microsoft.com/subscriptions/support/). Requests are considered for approval on a case-by-case basis.
 

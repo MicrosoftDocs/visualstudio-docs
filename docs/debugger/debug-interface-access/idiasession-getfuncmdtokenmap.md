@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the contents of the .NET Native metadata function token map."
+description: Retrieves the contents of the .NET Native metadata function token map.
 title: "IDiaSession::getFuncMDTokenMap"
 ms.date: "07/04/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::getFuncMDTokenMap
 
 Retrieves the contents of the .NET Native metadata function token map.
@@ -34,11 +35,11 @@ HRESULT getFuncMDTokenMap(
 
  `pcb`
 
-[out] Returns the size in bytes of the .NET Native metadata function token map (i.e. the number of bytes written into `pb`).
+[out] Returns the size in bytes of the .NET Native metadata function token map (that is, the number of bytes written into `pb`).
 
  `pb`
 
-[out] Buffer to receive the contents of the .NET Native metadata function token map. This must be at least `cb` bytes in size. 
+[out] Buffer to receive the contents of the .NET Native metadata function token map. This must be at least `cb` bytes in size.
 
 ## Return Value
 

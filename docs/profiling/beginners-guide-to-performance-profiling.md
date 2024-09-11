@@ -161,7 +161,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 
     |Image|Description|
     |-|-|
-    |![Step 1](../profiling/media/ProcGuid_1.png "ProcGuid_1")|The top-level node in CPU Usage call trees is a pseudo-node|
+    |![Step 1](../profiling/media/ProcGuid_1.png "ProcGuid_1")|The top-level node in CPU Usage call tree, representing the application.|
     |![Step 2](../profiling/media/ProcGuid_2.png "ProcGuid_2")|In most apps, when the [Show External Code](#view-external-code) option is disabled, the second-level node is an **[External Code]** node that contains the system and framework code that starts and stops the app, draws the UI, controls thread scheduling, and provides other low-level services to the app.|
     |![Step 3](../profiling/media/ProcGuid_3.png "ProcGuid_3")|The children of the second-level node are the user-code methods and asynchronous routines that are called or created by the second-level system and framework code.|
     |![Step 4](../profiling/media/ProcGuid_4.png "ProcGuid_4")|Child nodes of a method contain data only for the calls of the parent method. When **Show External Code** is disabled, app methods can also contain an **[External Code]** node.|
@@ -219,7 +219,7 @@ Use the search box to find a node that you are looking for, then use the horizon
 In this tutorial, you've learned how to collect and analyze CPU usage data. If you already completed the [tour of the profiler](../profiling/profiling-feature-tour.md), you may want to go through a tutorial that shows how to use the tools more effectively.
 
 > [!div class="nextstepaction"]
-> [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md)
+> [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md)
 
 In this tutorial, you've learned how to collect and analyze CPU usage data while debugging. You may want to find out more about profiling release builds using the Performance Profiler.
 

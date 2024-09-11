@@ -40,6 +40,8 @@ The connected service functionality adds all the needed references and connectio
 
    ![Screenshot showing Connected Services context menu options.](./media/vs-2022/add-connected-service-context-menu-2.png)
 
+   If you don't see the **Connected Services** node, choose **Project** > **Connected Services** > **Add**.
+
 1. Choose **SQL Server Database**. The **Connect to dependency** page appears. You should see several options:
 
    - SQL Server Express LocalDB, the built-in SQL Database offering installed with Visual Studio
@@ -150,4 +152,3 @@ var connection = builder.Configuration["ConnectionStrings:ConnectionString1"];
 
 - [Azure SQL Database product page](https://azure.microsoft.com/services/sql-database/)
 - [Azure SQL Database documentation](/azure/azure-sql/database/)
-- [Connected services (Visual Studio for Mac)](/visualstudio/mac/connected-services)

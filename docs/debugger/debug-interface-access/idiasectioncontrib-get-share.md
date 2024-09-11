@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that indicates whether the section can be shared in memory."
+description: Retrieves a flag that indicates whether the section can be shared in memory.
 title: "IDiaSectionContrib::get_share"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_share
 
 Retrieves a flag that indicates whether the section can be shared in memory.
@@ -19,7 +20,7 @@ Retrieves a flag that indicates whether the section can be shared in memory.
 ## Syntax
 
 ```C++
-HRESULT get_share ( 
+HRESULT get_share ( 
    BOOL* pRetVal
 );
 ```

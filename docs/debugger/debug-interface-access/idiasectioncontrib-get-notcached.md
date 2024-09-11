@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that indicates whether the section cannot be cached."
+description: Retrieves a flag that indicates whether the section cannot be cached.
 title: "IDiaSectionContrib::get_notCached"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_notCached
 
 Retrieves a flag that indicates whether the section cannot be cached.
@@ -19,7 +20,7 @@ Retrieves a flag that indicates whether the section cannot be cached.
 ## Syntax
 
 ```C++
-HRESULT get_notCached ( 
+HRESULT get_notCached ( 
    BOOL* pRetVal
 );
 ```

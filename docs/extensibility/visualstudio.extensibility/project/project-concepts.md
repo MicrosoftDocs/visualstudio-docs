@@ -128,7 +128,6 @@ Actions in your project query determine what modifications are made to the proje
 |Save| Represents the operation to save a project.
 |SetPropertyValue| Represents the operation to set a property value.
 |SetCopyToLocal| Represents the operation of setting the value of CopyToLocal for a project reference.
-|SetBuildProperty| Represents the operation of setting the value of a project configuration build property.
 |SetEvaluatedUIPropertyValue| Represents the operation to set the evaluated value of a user-visible property.
 |SetLaunchProfilePropertyValue| Represents the operation of setting the value of a property exposed through the launch profile.
 |SetPackageReferenceVersion| Represents the operation to rename a solution folder.
@@ -144,10 +143,11 @@ These queries support the monitoring of updates made to query results.
 
 |Term|Description
 |---|---
-|TrackUpdatesAsync| Represents the operation to track changes to a query.
+|SubscribeAsync| Represents the operation to subscribe to results from a query.
+|TrackUpdatesAsync| Represents the operation to track changes from a query.
 
 ## Related content
 
-To see some examples of project queries for common tasks, see the [Project Query Overview](./project.md)
+To see some examples of project queries for common tasks, see [Project Query Overview (VisualStudio.Extensibility)](./project.md) or [Project Query Overview (Visual Studio SDK)](../../project-visual-studio-sdk.md)
 
 For a sample extension that uses the project query API, see [Project Query Sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/VSProjectQueryAPISample/README.md)

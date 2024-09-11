@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a specified symbol type that contains, or is closest to, a specified virtual address."
+description: Retrieves a specified symbol type that contains, or is closest to, a specified virtual address.
 title: "IDiaSession::findSymbolByVA"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findSymbolByVA
 
 Retrieves a specified symbol type that contains, or is closest to, a specified virtual address.
@@ -19,7 +20,7 @@ Retrieves a specified symbol type that contains, or is closest to, a specified v
 ## Syntax
 
 ```C++
-HRESULT findSymbolByVA ( 
+HRESULT findSymbolByVA ( 
    ULONGLONG    va,
    SymTagEnum   symtag,
    IDiaSymbol** ppSymbol

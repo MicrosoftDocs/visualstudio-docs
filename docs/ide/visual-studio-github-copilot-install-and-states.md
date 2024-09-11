@@ -9,6 +9,7 @@ ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot 
 monikerRange: '>= vs-2022'
+ms.custom: [copilot-learning-hub]
 ---
 # Install GitHub Copilot in Visual Studio
 
@@ -18,9 +19,9 @@ In this article, you learn how to install GitHub Copilot in Visual Studio. If yo
  
 ## Get GitHub Copilot for Visual Studio 2022 version 17.10 or later
 
-With [Visual Studio 2022 version 17.10](/visualstudio/releases/2022/release-notes), GitHub Copilot and GitHub Copilot Chat are available to install as a single extension that combines both Copilot and Copilot Chat into one package. The unified GitHub Copilot extension is included as a built-in, recommended component by default in all workloads and is available through the Visual Studio Installer.
+With [Visual Studio 2022 version 17.10](/visualstudio/releases/2022/release-notes), GitHub Copilot and GitHub Copilot Chat are available to install as a single experience that combines both Copilot and Copilot Chat into one package. The unified GitHub Copilot experience is included as a built-in, recommended component by default in all workloads and is available through the Visual Studio Installer.
 
-To get the new unified GitHub Copilot extension:
+To get the new unified GitHub Copilot experience:
 - Install [Visual Studio 2022 version 17.10 or later](/visualstudio/releases/2022/release-notes). 
 - Select at least one workload in the installer. Make sure to leave the preselected component **GitHub Copilot** selected.
   OR
@@ -30,7 +31,9 @@ GitHub Copilot is installed by default with all workloads. If you choose to excl
 
 ## Get GitHub Copilot for Visual Studio 2022 versions 17.8 to 17.9 
 
-In Visual Studio 2022 versions 17.8 to 17.9, GitHub Copilot and GitHub Copilot Chat are available to install as two separate extensions. Installing GitHub Copilot extension is a prerequisite to installing GitHub Copilot Chat.
+In Visual Studio 2022 versions 17.8 to 17.9, GitHub Copilot and GitHub Copilot Chat are available to install as two separate extensions. 
+> [!NOTE]
+> Installing GitHub Copilot extension is a prerequisite to installing GitHub Copilot Chat.
 
 ### Install GitHub Copilot
 

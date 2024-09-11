@@ -61,4 +61,3 @@ The following table helps you compare the referencing features of an SDK with th
 ## Related content
 
 - [Manage references in a project](../ide/managing-references-in-a-project.md)
-- [Manage references in a project (Visual Studio for Mac)](/visualstudio/mac/managing-references-in-a-project)

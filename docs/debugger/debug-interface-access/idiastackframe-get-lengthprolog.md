@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackFrame::get_lengthProlog
 
 Retrieves the number of bytes of prologue code in the block.
@@ -19,7 +20,7 @@ Retrieves the number of bytes of prologue code in the block.
 ## Syntax
 
 ```C++
-HRESULT get_lengthProlog ( 
+HRESULT get_lengthProlog ( 
    DWORD* pRetVal
 );
 ```

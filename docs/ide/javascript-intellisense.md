@@ -124,4 +124,3 @@ Currently, auto-detection works for dependencies downloaded from npm (by reading
 ## Related content
 
 - [Using IntelliSense](../ide/using-intellisense.md)
-- [JavaScript support (Visual Studio for Mac)](/visualstudio/mac/javascript)

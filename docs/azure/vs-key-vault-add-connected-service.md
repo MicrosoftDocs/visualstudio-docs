@@ -25,7 +25,11 @@ For details on the changes that Connected Services makes in your project to enab
 
 Before you begin, make sure that you're signed in to Visual Studio. Sign in with the same account that you use for your Azure subscription. Then open an ASP.NET 4.7.1 or later, or ASP.NET Core web project, and do the following steps. The steps shown are for Visual Studio 2022 version 17.4. The flow might be slightly different for other versions of Visual Studio.
 
-1. In **Solution Explorer**, right-click the project that you want to add the Key Vault support to, and choose **Add** > **Connected Service**. Under **Service Dependencies**, choose the **+** icon.
+1. In **Solution Explorer**, right-click the project that you want to add the Key Vault support to, and choose **Add** > **Connected Service**, or right-click on the **Connected Services** node, and select **Add**.
+
+   If you don't see the **Connected Services** node, choose **Project** > **Connected Services** > **Add**.
+
+1. Under **Service Dependencies**, choose the **+** icon.
    The Connected Service page appears with services you can add to your project.
 1. In the menu of available services, choose **Azure Key Vault** and click **Next**.
 
@@ -78,7 +82,7 @@ Affects the project file .NET references and NuGet package references.
 
 ### launchsettings.json changes for ASP.NET Core
 
-- Added the following environment variable entries to both the IIS Express profile and the profile that matches your web project name:
+- Added the following environment variable entries to both the Internet Information Services (IIS) Express profile and the profile that matches your web project name:
 
     ```json
       "environmentVariables": {

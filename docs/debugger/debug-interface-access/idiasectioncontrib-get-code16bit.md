@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that indicates whether the section contains 16-bit code."
+description: Retrieves a flag that indicates whether the section contains 16-bit code.
 title: "IDiaSectionContrib::get_code16bit"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_code16bit
 
 Retrieves a flag that indicates whether the section contains 16-bit code.

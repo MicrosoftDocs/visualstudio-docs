@@ -1,7 +1,7 @@
 ---
 title: CPU profiling in the Performance Profiler
 description: Learn about the CPU profiler performance tool, which shows the CPU time and percentage spent executing code in C++, C#, Visual Basic, and JavaScript apps.
-ms.date: 08/14/2024
+ms.date: 09/05/2024
 ms.topic: how-to
 ms.custom: "profiling-seo"
 author: mikejo5000
@@ -12,21 +12,24 @@ ms.subservice: debug-diagnostics
 
 # Analyze performance by using CPU profiling in the Performance Profiler (C#, Visual Basic, C++, F#)
 
-A good way to start investigating performance issues in your app is to understand its CPU utilization using a CPU profiler. The **CPU Usage** performance tool shows the CPU active computation time and percentage spent executing code in C++, C#/Visual Basic.
+A good way to start investigating performance issues in your app is to understand its CPU utilization using a CPU profiler. Visual Studio's **CPU Usage** performance tool shows the CPU active computation time and percentage spent executing code in C++, C#/Visual Basic.
 
 The CPU Usage tool can help you:
 
-- Diagnose a slow-down or a process hang in your team’s codebase. The tool can help you diagnose the issue with your team’s production code. The tool provides automatic insights and various views of your data so that you can analyze and diagnose performance issues.
+- **Diagnose a slow-down or a process hang in your team’s codebase.**
+  The tool can help you diagnose the issue with your team’s production code. It provides automatic insights and various views of your data so that you can analyze and diagnose performance issues.
 
-- Identify performance issues in DevOps scenarios, such as when a customer reports that some requests or orders are not getting through to the retail website during peak season. Often, the issues are in production, and it is challenging to debug at that moment, but this tool can help you capture enough information and evidence of the issue. After collecting a trace file, the analysis can quickly help you understand potential causes and give suggestions within the context of your code so that you can take the next steps to fix the issue.
+- **Identify performance issues in DevOps scenarios**
+  For example, the tool can help when a customer reports that some requests or orders are not getting through to the retail website during peak season. Often, the issues are in production, and it is challenging to debug at that moment, but this tool can help you capture enough information and evidence of the issue. After collecting a trace file, the analysis can quickly help you understand potential causes and give suggestions within the context of your code so that you can take the next steps to fix the issue.
 
-- If your latency issue isn’t within an API request, then you can check for high CPU utilization and other related issues with the CPU Usage tool. The CPU Usage tool can help you identify bottlenecks so that you can narrow down where to optimize. 
+- **Check for high CPU utilization**
+  If your latency issue isn’t within an API request, then you can check for high CPU utilization and other related issues with the CPU Usage tool. The CPU Usage tool can help you identify bottlenecks so that you can narrow down where to optimize. 
 
-The **CPU Usage** tool is helpful for both local trace sessions and production. The CPU Usage tool can also be initiated by using the keyboard shortcut, **Alt+F2**, and then choosing **CPU Usage**, or by opening an already collected trace using a tool like [dotnet-trace](/dotnet/core/diagnostics/dotnet-trace) or [dotnet-monitor](/dotnet/core/diagnostics/dotnet-monitor). (For .NET production code, this is most likely how you would collect traces.)
+The **CPU Usage** tool is helpful for both local trace sessions and production. You can run the CPU Usage tool by using the keyboard shortcut, **Alt+F2**, and then choosing **CPU Usage**, or by opening an already collected trace using a tool like [dotnet-trace](/dotnet/core/diagnostics/dotnet-trace) or [dotnet-monitor](/dotnet/core/diagnostics/dotnet-monitor). (For .NET production code, this is most likely how you would collect traces.)
 
-The CPU Usage tool can run on an open Visual Studio project, on an installed Microsoft Store app, or attached to a running app or process. You can run the CPU Usage tool with or without debugging. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+You can run the CPU Usage tool on an open Visual Studio project, on an installed Microsoft Store app, or attached to a running app or process. You can run the CPU Usage tool with or without debugging. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
-The following instructions show how to use the CPU Usage tool without the debugger, using the Visual Studio Performance Profiler. The examples use a Release build on a local machine. Release builds provide the best view of actual app performance. For a tutorial that shows how to improve performance using the CPU Usage tool, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
+The following instructions show how to use the CPU Usage tool without the debugger, using the Visual Studio Performance Profiler. The examples use a Release build on a local machine. Release builds provide the best view of actual app performance. For a tutorial that shows how to improve performance using the CPU Usage tool, see [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
 
 Usually, the local machine best replicates installed app execution. To collect data from a remote device, run the app directly on the device, not over a Remote Desktop Connection.
 
@@ -90,7 +93,7 @@ Usually, the local machine best replicates installed app execution. To collect d
 
 If any insights show up in the **Top Insights** section, use the provided link to get more information about the issue identified. In addition, if you are using Copilot, the **Ask Copilot** button will open the Copilot chat window, and Copilot will provide suggestions based on your code and any identified issues.
 
-To analyze top insights, top functions, and the hot path, see [CPU insights](../profiling/cpu-insights.md).
+For more information, see [CPU insights](../profiling/cpu-insights.md).
 ::: moniker-end
 
 ## Analyze CPU utilization
@@ -152,7 +155,7 @@ You can click the **Expand Hot Path** and **Show Hot Path** buttons to see the f
 ::: moniker range=">=vs-2022"
 System and framework functions that are executed by your code are called *external code*. External code functions start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you aren't interested in external code, so the CPU Usage call tree gathers the external functions of a user method into one **[External Call]** node.
 
-To view the call paths of external code, on the main report summary page (right pane), select **Show Just My Code** from the **Settings** dropdown, and then select **Apply**. The **Call Tree** view of the **CPU Usage** page then expands the external code calls. (The **Settings** dropdown is available on the main report summary page, not the detailed views.)
+To view the call paths of external code, on the main report summary page (right pane), deselect **Show Just My Code** from the **Settings** dropdown, and then select **Apply**. (The **Settings** dropdown is available on the main report summary page, not the detailed views.)
 
 ![Screenshot that shows Settings, then Show Just My Code.](../profiling/media/vs-2022/diagnostics-tools-show-external-code.png)
 ::: moniker-end
@@ -165,6 +168,8 @@ To view the call paths of external code, on the main diagnostic report page (rig
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
+When you disable **Show Just My Code**, the **Call Tree** view of the **CPU Usage** page expands the external code calls.
+
 Many external code call chains are deeply nested, so the width of the chain can exceed the display width of the **Function Name** column. The function names then appear as shown in the following image.
 
 ![Screenshot that shows nested external code in the call tree.](../profiling/media/vs-2022/cpu-use-wt-show-external-code.png "Nested external code in the call tree")

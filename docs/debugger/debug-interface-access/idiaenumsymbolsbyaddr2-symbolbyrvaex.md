@@ -1,5 +1,5 @@
 ---
-description: "Positions the enumerator by performing a lookup by relative virtual address (RVA). Method of IDiaEnumSymbolsByAddr2."
+description: Positions the enumerator by performing a lookup by relative virtual address (RVA). Method of IDiaEnumSymbolsByAddr2.
 title: "IDiaEnumSymbolsByAddr2::symbolByRVAEx"
 ms.date: "7/2/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumSymbolsByAddr2::symbolByRVAEx
 
 Positions the enumerator by performing a lookup by relative virtual address (RVA).

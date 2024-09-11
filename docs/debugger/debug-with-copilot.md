@@ -1,7 +1,7 @@
 ---
 title: Debug with GitHub Copilot
 description: Use Copilot to help debug your apps and provide performance insights.
-ms.date: 05/21/2024
+ms.date: 09/06/2024
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -26,6 +26,7 @@ In this article, you'll learn how to debug more efficiently using GitHub Copilot
 In addition, Copilot provides more precise help for a few targeted scenarios including the following:
 
 - Exceptions
+- Variables
 - Deadlocks
 - Auto Insights for CPU Usage
 
@@ -97,6 +98,9 @@ The following simple example shows how to get AI assistance using the inline Cha
    ![Screenshot of Autos window.](../debugger/media/vs-2022/debug-with-copilot-autos-window.png)
 
 1. Right-click in the code and choose **Ask Copilot** to open the inline Chat view.
+
+   > [!TIP]
+   > Alternatively, you can right-click a variable in the Autos or Locals window, or in a data tip, and choose **Ask Copilot**. This provides Copilot with the variable name and context, so you don't need to provide context yourself in the chat.
 
 1. Type the following question in the inline Chat view:
 
@@ -215,6 +219,6 @@ In this example, we show AI suggestions for a conditional breakpoint. For tracep
 
 In addition to interactive debugging assistance, Copilot provides detailed information in the CPU Usage [Auto Insights](../profiling/cpu-insights.md). It provides information and insights related to a set of specific performance insights. With Copilot, ask questions about functions on the identified hot paths in your code, which can help you produce more efficient or cost-effective code.
 
-When the CPU Usage tool provides auto insights in the Top Insights section, select **Ask Copilot** to learn from Copilot and start asking questions.
+The **Ask Copilot** button appears even if no specific performance insights are identified. Select **Ask Copilot** to learn from Copilot and start asking questions. 
 
 [ ![Animation of using Copilot with CPU Usage.](../debugger/media/vs-2022/debug-with-copilot-top-insights.gif) ](../debugger/media/vs-2022/debug-with-copilot-top-insights.gif#lightbox)

@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the file index."
+description: Retrieves the file index.
 title: "IDiaInputAssemblyFile::get_index"
 ms.date: "07/18/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaInputAssemblyFile::get_index
 
 Retrieves the file index.

@@ -1,5 +1,5 @@
 ---
-description: "Searches the specified stack frame for a return address at or near the specified address."
+description: Searches the specified stack frame for a return address at or near the specified address.
 title: "IDiaStackWalkFrame::searchForReturnAddressStart"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackWalkFrame::searchForReturnAddressStart
 
 Searches the specified stack frame for a return address at or near the specified address.
@@ -19,7 +20,7 @@ Searches the specified stack frame for a return address at or near the specified
 ## Syntax
 
 ```C++
-HRESULT searchForReturnAddressStart ( 
+HRESULT searchForReturnAddressStart ( 
    IDiaFrameData* frame,
    ULONGLONG      startAddress,
    ULONGLONG*     returnAddress
