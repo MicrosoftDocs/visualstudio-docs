@@ -54,8 +54,6 @@ In practice, we have found that the features most people want to extend are comm
 
 - [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
 
-- [Visual Studio Isolated Shell](https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/)
-
 ## What project templates are provided by the VSSDK?
 
  The two main types of extensions are VSPackages and MEF extensions. In general, VSPackage extensions are used for extensions that use or extend commands, tool windows, and projects. MEF extensions are used to extend or customize the Visual Studio editor.
@@ -64,7 +62,7 @@ In practice, we have found that the features most people want to extend are comm
 
  For C++, the VSPackage wizard provides the code to add menu commands, tool windows, and custom editors.
 
- The Isolated Shell template is used to package an extension in a version of the Visual Studio shell that you can brand and distribute as your own. The following articles show you how to get started with each kind of extension:
+The following articles show you how to get started with each kind of extension:
 
 - Menu commands: [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)
 

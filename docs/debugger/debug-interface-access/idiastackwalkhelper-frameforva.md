@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the stack frame that contains the specified virtual address."
+description: Retrieves the stack frame that contains the specified virtual address.
 title: "IDiaStackWalkHelper::frameForVA"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackWalkHelper::frameForVA
 
 Retrieves the stack frame that contains the specified virtual address.
@@ -19,7 +20,7 @@ Retrieves the stack frame that contains the specified virtual address.
 ## Syntax
 
 ```C++
-HRESULT frameForVA( 
+HRESULT frameForVA( 
    ULONGLONG        va,
    IDiaFrameData**  ppFrame
 );

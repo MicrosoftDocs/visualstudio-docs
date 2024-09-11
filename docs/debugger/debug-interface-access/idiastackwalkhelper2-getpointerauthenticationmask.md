@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the value of the pointer authentication mask."
+description: Retrieves the value of the pointer authentication mask.
 title: "IDiaStackWalkHelper2::GetPointerAuthenticationMask"
 ms.date: "07/18/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackWalkHelper2::GetPointerAuthenticationMask
 
 Retrieves the value of the pointer authentication mask.
@@ -19,7 +20,7 @@ Retrieves the value of the pointer authentication mask.
 ## Syntax
 
 ```C++
-HRESULT GetPointerAuthenticationMask ( 
+HRESULT GetPointerAuthenticationMask ( 
     ULONG64 PtrVal,
     ULONG64* AuthMask
 );

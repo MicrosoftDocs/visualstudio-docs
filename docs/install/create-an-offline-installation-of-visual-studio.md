@@ -15,6 +15,9 @@ ms.subservice: installation
 ---
 # Create an offline installation package of Visual Studio for local installation
 
+> 📣 **We'd love to hear your feedback!**
+> *Please take a moment to complete this [survey](https://aka.ms/learnlayoutfeedback) and let us know how we can improve the layout experience. Thank you for your support!*
+
 Visual Studio is designed to work well in various computer configurations. In this article, you learn how to create an offline installation package of files for installation on the **local machine**.
 
 > [!IMPORTANT]

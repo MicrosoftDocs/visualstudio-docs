@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the frame type."
+description: Retrieves the frame type.
 title: "IDiaStackFrame::get_type"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackFrame::get_type
 
 Retrieves the frame type.
@@ -19,7 +20,7 @@ Retrieves the frame type.
 ## Syntax
 
 ```C++
-HRESULT get_type ( 
+HRESULT get_type ( 
    DWORD* pRetVal
 );
 ```

@@ -2,7 +2,7 @@
 title: Change themes, fonts, text, & accessibility options in Visual Studio
 description: Learn how to change Visual Studio color themes, font colors, text sizes, extra-contrast colors, and more for ease of use and accessibility concerns.
 titleSuffix: ''
-ms.date: 02/11/2024
+ms.date: 9/10/2024
 ms.topic: how-to
 helpviewer_keywords:
 - Visual Studio, color themes
@@ -48,8 +48,10 @@ Here's how to change the color theme of the IDE frame and the tool windows in Vi
    > [!NOTE]
    > When you change a color theme, text in the IDE reverts to the default or previously customized fonts and sizes for that theme.
 
-    > [!TIP]
-    > Want even more themes to choose from? Check out the wide range of custom themes on the [**Visual Studio Marketplace**](https://marketplace.visualstudio.com/search?target=VS&category=Tools&vsVersion=&subCategory=Themes&sortBy=Installs). And to see examples of new Visual Studio 2022 custom themes based on VS Code, take a look at the [**Introducing a collection of new Visual Studio themes**](https://devblogs.microsoft.com/visualstudio/custom-themes/) blog post.
+   > [!TIP]
+   > Want even more themes to choose from? Check out the wide range of custom themes on the [**Visual Studio Marketplace**](https://marketplace.visualstudio.com/search?target=VS&category=Tools&vsVersion=&subCategory=Themes&sortBy=Installs). And to see examples of new Visual Studio 2022 custom themes based on VS Code, take a look at the [**Introducing a collection of new Visual Studio themes**](https://devblogs.microsoft.com/visualstudio/custom-themes/) blog post. 
+
+If you download themes from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/search?target=VS&category=Tools&vsVersion=&subCategory=Themes&sortBy=Installs), restart your Visual Studio instance to view them. Then, navigate to **Tools -> Theme**. The list will now include your newly installed themes. Select the desired theme to apply it.
 
 ::: moniker-end
 
