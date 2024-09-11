@@ -149,5 +149,5 @@ If you don't have a problem to report but want to suggest a feature, there's a p
 * [Visual Studio Developer Community](https://developercommunity.visualstudio.com/home)
 * [Report a problem with .NET](https://developercommunity.microsoft.com/dotnet/report)
 * [Report a problem with C++](https://developercommunity.microsoft.com/cpp/report)
-* [Developer Community Guidelines](https://learn.microsoft.com/visualstudio/ide/developer-community-guidelines)
-* [Developer Community data privacy](https://learn.microsoft.com/visualstudio/ide/developer-community-privacy)
+* [Developer Community Guidelines](/visualstudio/ide/developer-community-guidelines)
+* [Developer Community data privacy](/visualstudio/ide/developer-community-privacy)
