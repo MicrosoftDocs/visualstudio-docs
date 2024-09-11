@@ -1,9 +1,9 @@
 ---
 title:  Windows Developer Account benefit in Visual Studio subscriptions
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 11/02/2023
+ms.date: 09/11/2024
 ms.topic: how-to
 description:  Learn about the Windows Developer Account included with your Visual Studio subscription.
 ---

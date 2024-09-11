@@ -1,9 +1,9 @@
 ---
 title: Visual Studio IDE in Visual Studio subscriptions
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/06/2024
+ms.date: 09/11/2024
 ms.topic: how-to
 description: In this article, you learn how to download and install the Visual Studio IDE included in your Visual Studio subscription.
 ---

@@ -1,9 +1,9 @@
 ---
 title: Use connected identities in subscriptions
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/06/2024
+ms.date: 09/11/2024
 ms.topic: conceptual
 robots: "noindex, nofollow"
 description: Work with connected identities such as Microsoft accounts and Microsoft Entra ID identities in Visual Studio subscriptions.
