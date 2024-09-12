@@ -395,7 +395,7 @@ Let's change the code to handle this error. In *Program.cs*, replace the code fo
                 while (num2 == 0)
                 {
                     Console.WriteLine("Enter a non-zero divisor: ");
-                    num2 = Convert.ToInt32(Console.ReadLine());
+                    num2 = Convert.ToDouble(Console.ReadLine());
                 }
                 Console.WriteLine($"Your result: {num1} / {num2} = " + (num1 / num2));
                 break;
