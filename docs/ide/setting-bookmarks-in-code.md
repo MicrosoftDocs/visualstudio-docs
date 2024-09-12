@@ -2,7 +2,7 @@
 title: Set bookmarks in Visual Studio
 description: Learn how to use bookmarks to mark lines in your code so that you can quickly return to a specific location, or jump back and forth between locations.
 titleSuffix: ''
-ms.date: 09/09/2024
+ms.date: 09/12/2024
 ms.topic: how-to
 f1_keywords:
 - VS.BookmarkWindow
@@ -31,7 +31,11 @@ Bookmark commands and icons are available in two places:
 
   ::: moniker-end
 
-- The **Bookmarks** toolbar in the **Bookmarks** window; to open it, select **View** > **Bookmark Window** from the menu bar, or use the **Ctrl**+**K**, **Ctrl**+**W** keyboard shortcut. The **Bookmarks** window 
+- The **Bookmarks** toolbar in the **Bookmarks** window; to open it, select **View** > **Bookmark Window** from the menu bar, or use the **Ctrl**+**K**, **Ctrl**+**W** keyboard shortcut. 
+   
+    :::image type="content" source="media/vs-2022/view-menu-bookmarks-window.png" alt-text="Screenshot that shows the Bookmarks window option in the View menu.":::
+  
+  The **Bookmarks** window:
 
    :::image type="content" source="media/bookmarks-window.png" alt-text="Screenshot that shows the Bookmarks window and the Bookmarks toolbar.":::
 
