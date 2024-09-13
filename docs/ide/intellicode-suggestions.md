@@ -40,7 +40,7 @@ When you accept a completions-list suggestion, if there are other locations you 
 
 ![Screenshot showing IntelliCode suggestions discovery.](media/intellicode/intellicode-suggestions-discovery-and-toolwindow.png)
 
-:::moniker range=">=vs-2022"
+:::moniker range="<=vs-2019"
 
 ## Disable IntelliCode suggestions
 
