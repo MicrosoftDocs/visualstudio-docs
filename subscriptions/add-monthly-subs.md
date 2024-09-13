@@ -1,9 +1,9 @@
 ---
 title: Add new monthly subscriptions to Subscriptions Admin Portal
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/19/2024
+ms.date: 09/12/2024
 ms.topic: how-to
 description:  Learn how to newly purchased monthly Visual Studio subscriptions to the Subscriptions Admin Portal.
 ---
