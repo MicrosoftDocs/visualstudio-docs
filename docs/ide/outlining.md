@@ -1,7 +1,7 @@
 ---
 title: Collapse and expand regions of code
 description: Use the expand and collapse commands in the Visual Studio integrated development environment (IDE) to work in outline mode.
-ms.date: 05/31/2024
+ms.date: 9/13/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - outlining
@@ -28,7 +28,7 @@ To collapse an outlining region, double-click any line in the region on the outl
 
 :::image type="content" source="media/outlining-example-2022.png" alt-text="Screenshot of an example of collapsed code that shows the outlining margin and an example of the expanded code visible from a tooltip.":::
 
-Regions in the outlining margin are also highlighted when you hover over the margin with the mouse. The default highlighting color might seem rather faint in some color configurations. You can change it in **Tools** > **Options** > **Environment** > **Fonts and Colors** > **Collapsible Region**.
+Regions in the outlining margin are also highlighted when you hover over the margin with the mouse. The default highlighting color might seem rather faint in some color configurations. You can change it in **Tools** > **Options** > **Environment** > **Fonts and Colors** > **Display items** > **Collapsible Region**.
 
 When you work in outlined code, you can expand the sections you want to work on, collapse them when you're done, and then move to other sections. When you don't want to have outlining displayed, you can use the **Stop Outlining** command to remove the outline information without disturbing your underlying code.
 
