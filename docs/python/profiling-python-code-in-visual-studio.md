@@ -29,7 +29,7 @@ Visual Studio for Mac isn't supported. For more information, see [What's happeni
 
 ## Use profiler with CPython-based interpreter
 
-When you profile a Python application, Visual Studio collects data for the lifetime of the process. 
+When you profile a Python application, Visual Studio collects data for the lifetime of the process, measured in milliseconds (ms).  
 
 Follow these steps to start working with the profiling features in Visual Studio:
 

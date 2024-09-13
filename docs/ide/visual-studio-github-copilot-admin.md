@@ -1,7 +1,7 @@
 ---
 title: Admin controls for GitHub Copilot in Visual Studio
 description: Learn about the new features for administrators in GitHub Copilot for Visual Studio that enable admins to manage Copilot effectively. 
-ms.date: 8/27/2024
+ms.date: 9/12/2024
 ms.topic: how-to 
 author: anandmeg
 ms.author: meghaanand
@@ -13,7 +13,7 @@ monikerRange: vs-2022
 
 # Admin controls for GitHub Copilot
 
-Visual Studio 2022 introduces new features for administrators to configure and manage GitHub Copilot for their enterprise effectively. These features provide administrators greater control over the use of Copilot within their organization. Admins can disable Copilot 
+Visual Studio 2022 introduces new features for administrators to configure and manage GitHub Copilot for their enterprise effectively. These features provide administrators greater control over the use of Copilot within their organization. Admins can disable Copilot for individual accounts or disable it altogether, and configure content exclusion to prevent certain files from being available to Copilot in Visual Studio.
 
 In this article, you learn how to:
 - [Disable Copilot](#disabling-copilot-for-individual-enterprise-visual-studio-accounts)
