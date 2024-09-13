@@ -29,18 +29,18 @@ Users are familiar with writing code like the following:
 
 ```csharp
 var a1 = new int[0];
-Console.WriteLine("a1.Length = { 0}", a1.Length);
+Console.WriteLine("a1.Length = {0}", a1.Length);
 var a2 = new int[] { 1, 2, 3, 4, 5 };
-Console.WriteLine("a2.Length = { 0}", a2.Length);
+Console.WriteLine("a2.Length = {0}", a2.Length);
 ```
 
 Creating empty arrays to fill in with subsequent lines of code and using collection initializer syntax are familiar to C# developers. However, writing the same code for an ImmutableArray crashes at run time:
 
 ```csharp
 var b1 = new ImmutableArray<int>();
-Console.WriteLine("b1.Length = { 0}", b1.Length);
+Console.WriteLine("b1.Length = {0}", b1.Length);
 var b2 = new ImmutableArray<int> { 1, 2, 3, 4, 5 };
-Console.WriteLine("b2.Length = { 0}", b2.Length);
+Console.WriteLine("b2.Length = {0}", b2.Length);
 ```
 
 The first error is due to ImmutableArray implementation's using a struct to wrap the underlying data storage. Structs must have parameter-less constructors so that `default(T)` expressions can return structs with all zero or null members. When the code accesses `b1.Length`, there is a run time null dereference error because there is no underlying storage array in the ImmutableArray struct. The correct way to create an empty ImmutableArray is `ImmutableArray<int>.Empty`.
@@ -61,7 +61,7 @@ The template opens a *DiagnosticAnalyzer.cs* file. Choose that editor buffer tab
 
 ```csharp
 [DiagnosticAnalyzer(LanguageNames.CSharp)]
-public class ImmutableArrayAnalyzerAnalyzer : DiagnosticAnalyzer
+public class ImmutableArrayAnalyzer : DiagnosticAnalyzer
 {}
 ```
 
@@ -222,7 +222,7 @@ namespace ImmutableArrayAnalyzer
 **Implement the property.** Fill in the `FixableDiagnosticIds` property's `get` body with the following code:
 
 ```csharp
-return ImmutableArray.Create(ImmutableArrayAnalyzerAnalyzer.DiagnosticId);
+return ImmutableArray.Create(ImmutableArrayAnalyzer.DiagnosticId);
 ```
 
 Roslyn brings together diagnostics and fixes by matching these identifiers, which are just strings. The project template generated a diagnostic ID for you, and you are free to change it. The code in the property just returns the ID from the analyzer class.
