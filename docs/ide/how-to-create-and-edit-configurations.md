@@ -1,7 +1,7 @@
 ---
 title: 'Create and edit configurations'
 description: Create and edit several build configurations for your solution in Visual Studio with the Configuration Manager, including Release, Debug, and Test.
-ms.date: 08/15/2023
+ms.date: 09/13/2024
 ms.subservice: compile-build
 ms.topic: how-to
 helpviewer_keywords:
