@@ -91,6 +91,8 @@ The following table summarizes these commands and provides the keyboard shortcut
 
 | Command | Shortcut | Description |
 | --- | --- | --- |
+| **Stop**            | **Shift + F5**                     | Stop the debugging session. |
+| **Restart**            | **Ctrl + Shift + F5**                     | Restart the current debugging session. |
 | **Continue**            | **F5**                     | Run code until you reach the next breakpoint. |
 | **Step Into**           | **F11**                    | Run the next statement and stop. If the next statement is a call to a function, the debugger stops at the first line of the called function. |
 | **Step Over**           | **F10**                    | Run the next statement, including making a call to a function (running all its code) and applying any return value. This command allows you to easily skip functions that you don't need to debug. |
