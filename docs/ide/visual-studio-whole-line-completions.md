@@ -46,15 +46,17 @@ When the user has an item from the IntelliSense list selected, IntelliCode uses 
 
 ### Accept or dismiss whole-line autocompletions
 
-By default, the `Tab` key is used to accept whole-line autocompletions. To change the default accept key to the right arrow, go to **Tools** > **Options** > **IntelliCode** -> **Advanced**. Enable the setting named `Apply completions for whole lines on right arrow`. 
-
-![Screenshot of Settings menu to change setting to make right arrow as accept character.](media/intellicode/intellicode-visual-studio-whole-line-completions-change-to-right-arrow.png)
+By default, the `Tab` key is used to accept whole-line autocompletions. To change the default accept key to the right arrow, go to **Tools** > **Options** > **IntelliCode** -> **Advanced**.
 
 :::moniker range="<=vs-2019"
+Enable the setting named `Apply completions for whole lines on right arrow`.
+
 ![Screenshot of Settings menu to change right arrow to accept whole-line autocompletion.](media/intellicode/intellicode-visual-studio-whole-line-completions-right-arrow.png)
 :::moniker-end
 
 :::moniker range=">=vs-2022"
+Enable the setting `Apply whole line completions on right arrow`.
+
 ![Screenshot of Settings menu to change right arrow to accept whole-line autocompletion.](media/vs-2022/intellicode-tools-options-right-arrow.png)
 :::moniker-end
 
