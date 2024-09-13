@@ -18,7 +18,7 @@ ms.subservice: general-ide
 For reasons of security, you should run Visual Studio as a typical user whenever possible.
 
 > [!WARNING]
-> You should also make sure not to compile, launch, or debug any Visual Studio solution that does not come from a trusted person or a trusted location.
+> Be sure not to compile, launch, or debug any Visual Studio solution that does not come from a trusted person or a trusted location.
 
 You can do nearly everything in the Visual Studio IDE as a typical user. You need administrator permissions to complete the following tasks:
 
@@ -52,7 +52,9 @@ If you need to run Visual Studio as an administrator, here's how.
 
 1. Next, right-click either **Visual Studio 2019** or **Visual Studio 2022**, and then select **Run as administrator**.
 
-   When Visual Studio starts, **(Administrator)** appears after the product name in the title bar.
+   When Visual Studio starts, **(Administrator)** appears after the product name in the title bar, and **ADMIN** appears near the top right of the Visual Studio window, in the same area where **PREVIEW** appears if you are using a preview build of Visual Studio. You can click on this button to view the **About** dialog.
+
+   ![Screenshot showing ADMIN in top right corner of the Visual Studio window.](media/vs-2022/admin-in-upper-right-corner.png)
 
 ### Modify the shortcut
 
