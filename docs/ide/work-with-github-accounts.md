@@ -1,6 +1,6 @@
 ---
 title: Add GitHub accounts to your keychain
-ms.date: 05/20/2024
+ms.date: 9/12/2024
 ms.topic: how-to
 description: Add your public GitHub or GitHub Enterprise account to your Visual Studio keychain so you can track code changes in GitHub repositories from Visual Studio.
 author: anandmeg
@@ -15,7 +15,7 @@ In this article, you learn how to add your public GitHub or GitHub Enterprise ac
 
 ## Adding public GitHub accounts
 
-You can add your public GitHub account at any point, even if you haven't signed into Visual Studio with a Microsoft account, work account, or school account.
+You can add your public GitHub account at any point, even if you haven't [signed into Visual Studio with a Microsoft account, work account, or school account](signing-in-to-visual-studio.md#sign-in-to-your-account).
 
 **Add a GitHub account from the **Account settings** dialog:**
 
@@ -59,7 +59,7 @@ You can add your public GitHub account at any point, even if you haven't signed 
 
 **Add a GitHub account from the **profile card**:**
 
-If you're not already signed in to Visual Studio, select the **Sign in** link in the upper-right corner of the Visual Studio environment and use a Microsoft account, work account, or school account to sign in. 
+If you're not already signed in to Visual Studio, select the **Sign in** link in the upper-right corner of the Visual Studio environment and use a Microsoft account, work account, or school account to [sign in](signing-in-to-visual-studio.md). 
 
 :::image type="content" source="../ide/media/vs-2022/signin-different-account.png" alt-text="Screenshot showing not signed in to Visual Studio.":::
 
@@ -116,7 +116,7 @@ By default, Visual Studio only has public GitHub accounts enabled. Use the follo
 
 ## Adding GitHub Enterprise Managed User (EMU) accounts
 
-You can add your GitHub EMU account if you're already signed into Visual Studio with a Microsoft account, work account, or school account.
+You can add your GitHub EMU account if you're already [signed into Visual Studio with a Microsoft account, work account, or school account](signing-in-to-visual-studio.md#sign-in-to-your-account).
 
 ::: moniker range="vs-2022"
 
