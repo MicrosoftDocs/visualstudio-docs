@@ -30,7 +30,7 @@ Lyra is a sample game project for learning about Unreal Engine. See the **Downlo
 
 As of Visual Studio 2022 version 17.7, the Visual Studio Tools for Unreal Engine plugin is included with the Unreal Engine installation. It's no longer required to view Unreal Engine Blueprints. If you have an earlier version of Visual Studio, see [Install Visual Studio Tools for Unreal Engine](vs-tools-unreal-install.md) to install the plugin manually.
 
-After you download the game sample, update `LyraStarterGame.uproject` to use the Visual Studio Tools plugin. One way to do this is in the Unreal Editor. After loading the Lyra project, from the main menu choose **Edit** > **Plugins** and then find the *Visual Studio Integration Tools* plugin and check the box next to it.
+After you download the game sample, update `LyraStarterGame.uproject` to use the Visual Studio Tools plugin. One way to do this is in the Unreal Editor. Load the Lyra project and from the main menu choose **Edit** > **Plugins**. Find the **Visual Studio Integration Tools** plugin and check the box next to it.
 
 Another way to do this is to manually edit the `LyraStarterGame.uproject` file. Here's how:
 
@@ -59,7 +59,7 @@ Another way to do this is to manually edit the `LyraStarterGame.uproject` file. 
 1. Ensure that **Single startup project** is selected and choose **LyraStarterGame** in the startup project dropdown.
     :::image type="complex" source="../media/vs-selected-startup-project.png" alt-text="A screenshot of the Solution property pages dialog.":::
     Under Common Properties, Configure Startup projects is selected. The single startup project radio button is selected. The startup project in the dropdown is LyraStarterGame.
-    ::image-end:::
+    :::image-end:::
 1. Choose **OK** to close the dialog.
 1. From the Visual Studio main menu, choose **Build** > **Build Solution** to build the game.
 
@@ -69,7 +69,7 @@ The build output window in Visual Studio shows the progress of the build and any
 
 Starting in Visual Studio 2022 17.12, you can double-click on an absolute path to a file in the output window to open that file in Visual Studio. The source code must be part of the Visual Studio solution and the path in the output window must be an absolute path. This works when building Unreal Engine projects in Visual Studio or other types of projects.
 
-The following screenshot shows the output window for a build of the LyraStarterGame sample. The user has double-clicked on the warning from `LyraCharacter.generated.h`. Because the absolute path to that file is provided, double-clicking it opened the file in the editor.
+The following screenshot shows the output window for a build of the LyraStarterGame sample. The user double-clicked on a warning from `LyraCharacter.generated.h`. Because the absolute path to that file is provided, the file opens in the editor.
 
 :::image type="content" source="../media/vs-unreal-engine-output-window.png" alt-text="A screenshot of the Visual Studio output window. The LyraCharacter.generated.h file is highlighted because the absolute path is specified and the user double-clicked it to open the LyrCharacter.generated.h file." lightbox="../media/vs-unreal-engine-output-window.png":::
 
@@ -81,7 +81,7 @@ Activate the Unreal Engine toolbar in Visual Studio from the main menu via **Vie
 
 :::image type="content" source="../media/unreal-engine-toolbar.png" alt-text="A screenshot of the Unreal Engine toolbar in Visual Studio.":::
 
-The toolbar buttons, left to right, do the following:
+The toolbar buttons, left to right:
 
 - The play icon is a quick attach button that attaches to processes listed in the dropdown to the right. The dropdown lists Unreal Engine related processes, which makes it easier to attach to the Unreal Engine Editor more easily. You can also use this to attach to any processes.
 - Buttons to start and stop the Unreal Engine integration server. The integration server improves the performance of Unreal Engine integration with Visual Studio. It runs as a background process and automatically updates test information as you work on your project. You can turn it off to reclaim machine resources, and start it when you want the integration improvements. The server is started automatically when you open a UE project in Visual Studio.
