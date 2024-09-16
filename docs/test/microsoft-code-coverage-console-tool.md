@@ -1,7 +1,7 @@
 ---
 title: Microsoft.CodeCoverage.Console tool
 description: Use the Microsoft.CodeCoverage.Console tool to collect code coverage for C++ and C# code in nontest scenarios, and merge and convert code coverage reports.
-ms.date: 04/10/2024
+ms.date: 09/16/2024
 ms.topic: conceptual
 ms.author: mikejo
 manager: mijacobs
@@ -12,7 +12,7 @@ author: mikejo5000
 
 Microsoft.CodeCoverage.Console is a command-line tool. You can use it to collect code coverage for C++ and C# code. It supports also merging and converting code coverage reports. This tool can be used to collect code coverage in non-test scenarios (for example, for a simple console application).
 
-Microsoft.CodeCoverage.Console is available in Visual Studio 2022 17.3 under folder `Common7\IDE\Extensions\Microsoft\CodeCoverage.Console`. You can use it in a Developer Command Prompt and a Developer PowerShell:
+Microsoft.CodeCoverage.Console is available in Visual Studio 2022 17.3 under the folder `Common7\IDE\Extensions\Microsoft\CodeCoverage.Console`. You can use it in a Developer Command Prompt and a Developer PowerShell:
 
 >[!NOTE]
 > The tool is available only with Visual Studio Enterprise. For .NET code coverage, you can alternatively use the command-line tool, [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage).
@@ -42,7 +42,7 @@ Commands:
 
 ## Collect, connect, shutdown, merge and snapshot commands
 
-The Microsoft.CodeCoverage.Console tool is extension to the [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) dotnet tool. The documentation for collect, connect, shutdown, merge and snapshot commands can be found [here](/dotnet/core/additional-tools/dotnet-coverage). Additionally, the Microsoft.CodeCoverage.Console tool supports collecting code coverage for C++ code.
+The Microsoft.CodeCoverage.Console tool is extension to the [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) dotnet tool. The documentation for collect, connect, shutdown, merge and snapshot commands can be found [here](/dotnet/core/additional-tools/dotnet-coverage). Microsoft.CodeCoverage.Console supports additional security features to enable collecting ASP.NET code coverage data from IIS. Additionally, the Microsoft.CodeCoverage.Console tool supports collecting code coverage for C++ code.
 
 ::: moniker range=">=vs-2022"
 ## Instrument command
@@ -98,7 +98,7 @@ Hello World!
 
 ### Using only collect command with configuration
 
-If you don't want to use the `instrument` command, then the files to be instrumented need to be specified in a configuration file as follows:
+If you don't want to use the `instrument` command, you can instead use a configuration file to specify the files to instrument, as follows:
 
 ```xml
 <ModulePaths>
@@ -108,7 +108,7 @@ If you don't want to use the `instrument` command, then the files to be instrume
 </ModulePaths>
 ```
 
-Then you can collect code coverage as follows:
+Then, collect code coverage as follows:
 
 ```console
 D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console collect --settings coverage.config .\ConsoleApplication.exe
@@ -119,14 +119,14 @@ Code coverage results: output.coverage.
 
 ### Using instrument and collect commands
 
-In this case, first binary needs to be instrumented as follows:
+Before collecting code coverage data, first instument the binary as follows:
 
 ```console
 D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console instrument ConsoleApplication.exe
 Input file successfully instrumented.
 ```
 
-Then you can collect code coverage as follows:
+Then, collect code coverage as follows:
 
 ```console
 D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console collect .\ConsoleApplication.exe
@@ -137,7 +137,7 @@ Code coverage results: output.coverage.
 
 ### Using instrument command and collect command in server mode
 
-In this case, you can completely separate coverage collection from running your application. First, instrument your binary as follows:
+Using this method, you can completely separate coverage collection from running your application. First, instrument your binary as follows:
 
 ```console
 D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console instrument --session-id 73c34ce5-501c-4369-a4cb-04d31427d1a4 ConsoleApplication.exe
