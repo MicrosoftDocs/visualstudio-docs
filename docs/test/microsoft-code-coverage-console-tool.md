@@ -42,7 +42,7 @@ Commands:
 
 ## Collect, connect, shutdown, merge and snapshot commands
 
-The Microsoft.CodeCoverage.Console tool is extension to the [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) dotnet tool. The documentation for collect, connect, shutdown, merge and snapshot commands can be found [here](/dotnet/core/additional-tools/dotnet-coverage).
+The Microsoft.CodeCoverage.Console tool is extension to the [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) dotnet tool. The documentation for collect, connect, shutdown, merge, and snapshot commands can be found [here](/dotnet/core/additional-tools/dotnet-coverage).
 
 ::: moniker range=">=vs-2022"
 Starting in Visual Studio 2022, Microsoft.CodeCoverage.Console supports additional security features to enable collecting ASP.NET code coverage data from IIS. Additionally, the Microsoft.CodeCoverage.Console tool supports collecting code coverage for C++ code. The `instrument` command is specific to these scenarios.
@@ -75,7 +75,7 @@ Microsoft.CodeCoverage.Console instrument
 
 * **`-id|--session-id <session-id>`**
 
-  Specifies the code coverage session ID. If not provided, the tool will generate a random GUID.
+  Specifies the code coverage session ID. If not provided, the tool generates a random GUID.
 
 * **`-o|--output <output>`**
 
@@ -121,7 +121,7 @@ Code coverage results: output.coverage.
 
 ### Code coverage using instrument and collect commands
 
-Before collecting code coverage data, first instument the binary as follows:
+Before collecting code coverage data, first instrument the binary as follows:
 
 ```console
 D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console instrument ConsoleApplication.exe
@@ -139,7 +139,7 @@ Code coverage results: output.coverage.
 
 ### Code coverage using instrument command and collect command in server mode
 
-Using this method, you can completely separate coverage collection from running your application. First, instrument your binary as follows:
+Using this method, you can separate code coverage collection from running your application. First, instrument your binary as follows:
 
 ```console
 D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console instrument --session-id 73c34ce5-501c-4369-a4cb-04d31427d1a4 ConsoleApplication.exe
@@ -149,14 +149,14 @@ Input file successfully instrumented.
 > [!NOTE]
 > Session ID needs to be used in this scenario to make sure that the application can connect and provide data to external collector.
 
-In the second step, you need to start coverage collector as follows:
+In the second step, you need to start the code coverage collector as follows:
 
 ```console
 D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console collect --session-id 73c34ce5-501c-4369-a4cb-04d31427d1a4 --server-mode
 SessionId: 73c34ce5-501c-4369-a4cb-04d31427d1a4
 ```
 
-Then the application can be started as follows:
+Then, start the application as follows:
 
 ```console
 D:\ConsoleApplication\x64\Debug>.\ConsoleApplication.exe
@@ -165,7 +165,7 @@ Hello World!
 > [!NOTE]
 > Instrumented native binary contains a reference to `static_covrun64.dll`. Make sure that this file is next to the instrumented binary or the directory where `static_covrun64.dll` is located is listed in the `Path` environment variable. The `collect` and `connect` commands are adding proper directories to `Path` automatically.
 
-Finally, the collector can be closed as follows:
+Finally, close the collector as follows:
 
 ```console
 D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console shutdown 73c34ce5-501c-4369-a4cb-04d31427d1a4
