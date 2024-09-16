@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the bit position of location."
+description: Retrieves the bit position of location.
 title: "IDiaSymbol::get_bitPosition"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_bitPosition
 
 Retrieves the bit position of location. Used when the [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md) is `LocIsBitField`.
@@ -19,7 +20,7 @@ Retrieves the bit position of location. Used when the [LocationType Enumeration]
 ## Syntax
 
 ```C++
-HRESULT get_bitPosition ( 
+HRESULT get_bitPosition ( 
    DWORD* pRetVal
 );
 ```

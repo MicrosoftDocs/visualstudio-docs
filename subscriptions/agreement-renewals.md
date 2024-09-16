@@ -1,9 +1,9 @@
 ---
 title: What happens when Visual Studio subscription agreements renew
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/24/2023
+ms.date: 09/16/2023
 ms.topic: conceptual
 description:  Learn what admins should see when Visual Studio subscriptions agreements are renewed.
 ---

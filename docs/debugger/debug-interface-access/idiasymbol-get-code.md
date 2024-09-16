@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that specifies whether the symbol refers to a code address."
+description: Retrieves a flag that specifies whether the symbol refers to a code address.
 title: "IDiaSymbol::get_code"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_code
 
 Retrieves a flag that specifies whether the symbol refers to a code address.
@@ -19,7 +20,7 @@ Retrieves a flag that specifies whether the symbol refers to a code address.
 ## Syntax
 
 ```C++
-HRESULT get_code ( 
+HRESULT get_code ( 
    BOOL* pRetVal
 );
 ```

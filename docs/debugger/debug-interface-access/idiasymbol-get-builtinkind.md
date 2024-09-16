@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a built-in kind of the HLSL type."
+description: Retrieves a built-in kind of the HLSL type.
 title: "IDiaSymbol::get_builtInKind"
 ms.date: "07/18/2024"
 ms.topic: "reference"
@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # `IDiaSymbol::get_builtInKind`
 
 Retrieves a built-in kind of the HLSL type.
@@ -30,7 +31,7 @@ HRESULT get_buildInKind(
 ## Return Value
 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
- 
+
 ## Remarks
 
 > [!NOTE]
