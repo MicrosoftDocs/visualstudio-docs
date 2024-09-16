@@ -42,7 +42,7 @@ Commands:
 
 ## Collect, connect, shutdown, merge and snapshot commands
 
-The Microsoft.CodeCoverage.Console tool is extension to the [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) dotnet tool. The documentation for collect, connect, shutdown, merge and snapshot commands can be found [here](/dotnet/core/additional-tools/dotnet-coverage). Microsoft.CodeCoverage.Console supports additional security features to enable collecting ASP.NET code coverage data from IIS. Additionally, the Microsoft.CodeCoverage.Console tool supports collecting code coverage for C++ code.
+The Microsoft.CodeCoverage.Console tool is extension to the [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) dotnet tool. The documentation for collect, connect, shutdown, merge and snapshot commands can be found [here](/dotnet/core/additional-tools/dotnet-coverage). Microsoft.CodeCoverage.Console supports additional security features to enable collecting ASP.NET code coverage data from IIS. Additionally, the Microsoft.CodeCoverage.Console tool supports collecting code coverage for C++ code. The `instrument` command is specific to C++ code.
 
 ::: moniker range=">=vs-2022"
 ## Instrument command
@@ -96,7 +96,7 @@ D:\ConsoleApplication\x64\Debug> .\ConsoleApplication.exe
 Hello World!
 ```
 
-### Using only collect command with configuration
+### Code coverage using collect command with configuration file
 
 If you don't want to use the `instrument` command, you can instead use a configuration file to specify the files to instrument, as follows:
 
@@ -117,7 +117,7 @@ Hello World!
 Code coverage results: output.coverage.
 ```
 
-### Using instrument and collect commands
+### Code coverage using instrument and collect commands
 
 Before collecting code coverage data, first instument the binary as follows:
 
@@ -135,7 +135,7 @@ Hello World!
 Code coverage results: output.coverage.
 ```
 
-### Using instrument command and collect command in server mode
+### Code coverage using instrument command and collect command in server mode
 
 Using this method, you can completely separate coverage collection from running your application. First, instrument your binary as follows:
 
