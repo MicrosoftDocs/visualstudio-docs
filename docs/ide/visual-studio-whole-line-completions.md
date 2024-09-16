@@ -91,11 +91,11 @@ The **Advanced** tab has further options.
 
 The first setting, `Apply whole line completions on right arrow` was discussed previously in this article.
 
-The second setting, `Disable suggestions when debugging` allows you to minimize distractions when debugging.
+The second setting, `Disable suggestions while debugging` allows you to minimize distractions when debugging.
 
 The third setting, `Show inline completions on new lines` can be turned on or off depending on whether you want to see whole-line autocompletions when you enter a new line, that is, by pressing `Return` or `Enter`. 
 
-The last setting, `Wait for pauses in typing before showing line completions`, when enabled, makes whole-line autocompletions only show up if the user has paused typing. You might prefer this option if you find the whole-line autocompletions distracting in the default mode.
+The last setting, `Wait for pauses in typing before showing line completions`, when enabled, makes whole-line autocompletions only show up if you pause typing. You might prefer this option if you find the whole-line autocompletions distracting in the default mode.
 
 :::moniker-end
 
