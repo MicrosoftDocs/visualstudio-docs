@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the characteristics of this COFF section."
+description: Retrieves the characteristics of this COFF section.
 title: "IDiaSymbol::get_characteristics"
 ms.date: "07/11/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_characteristics
 
 Retrieves the characteristics of this COFF section.
@@ -19,7 +20,7 @@ Retrieves the characteristics of this COFF section.
 ## Syntax
 
 ```C++
-HRESULT get_characteristics ( 
+HRESULT get_characteristics ( 
    DWORD* pRetVal
 );
 ```
