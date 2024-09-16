@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the array index type identifier of the symbol."
+description: Retrieves the array index type identifier of the symbol.
 title: "IDiaSymbol::get_arrayIndexTypeId"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_arrayIndexTypeId
 
 Retrieves the array index type identifier of the symbol.
@@ -19,7 +20,7 @@ Retrieves the array index type identifier of the symbol.
 ## Syntax
 
 ```C++
-HRESULT get_arrayIndexTypeId ( 
+HRESULT get_arrayIndexTypeId ( 
    DWORD* pRetVal
 );
 ```

@@ -2,7 +2,7 @@
 title: 'What is the offline Help Viewer?'
 titleSuffix: ""
 description: Install and view offline help documentation for various products and technologies such as Visual Studio and .NET with the Microsoft Help Viewer.
-ms.date: 11/02/2017
+ms.date: 9/12/2024
 ms.topic: conceptual
 f1_keywords:
   - "hv_general"
