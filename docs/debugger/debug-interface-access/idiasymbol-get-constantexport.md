@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag indicating whether this export is CONSTANT."
+description: Retrieves a flag indicating whether this export is CONSTANT.
 title: "IDiaSymbol::get_constantExport"
 ms.date: "07/09/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_constantExport
 
 Retrieves a flag indicating whether this export is `CONSTANT`.
@@ -19,7 +20,7 @@ Retrieves a flag indicating whether this export is `CONSTANT`.
 ## Syntax
 
 ```C++
-HRESULT get_contantExport ( 
+HRESULT get_contantExport ( 
    BOOL* pRetVal
 );
 ```

@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the number of items in a list or array."
+description: Retrieves the number of items in a list or array.
 title: "IDiaSymbol::get_count"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_count
 
 Retrieves the number of items in a list or array.
@@ -19,7 +20,7 @@ Retrieves the number of items in a list or array.
 ## Syntax
 
 ```C++
-HRESULT get_count ( 
+HRESULT get_count ( 
    DWORD* pRetVal
 );
 ```

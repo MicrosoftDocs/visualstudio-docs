@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the binding register index."
+description: Retrieves the binding register index.
 title: "IDiaSymbol::get_binID"
 ms.date: "07/09/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_bindID
 
 Retrieves the binding register index.
@@ -19,7 +20,7 @@ Retrieves the binding register index.
 ## Syntax
 
 ```C++
-HRESULT get_backEndQFE ( 
+HRESULT get_backEndQFE ( 
    DWORD* pRetVal
 );
 ```
