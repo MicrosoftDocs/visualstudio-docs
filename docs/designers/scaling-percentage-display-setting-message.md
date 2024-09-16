@@ -16,6 +16,12 @@ When you open a form in **Windows Forms Designer** on an HDPI monitor, Visual St
 
 ## Why this message appears and what to do about it
 
+If your Windows Forms designer UI looks fine, you can ignore this message or [disable it](#disable-the-notification).
+
+If the display doesn't look right, try the link to restart Visual Studio and see if that solves the problem.
+
+If you want to understand more, continue reading.
+
 Here's why the message appears:
 
 - Windows Forms Designer is [DPI-unaware](disable-dpi-awareness.md#windows-forms-designer-is-dpi-unaware), while Visual Studio is DPI-aware. 
