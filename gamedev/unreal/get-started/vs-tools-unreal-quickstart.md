@@ -57,7 +57,7 @@ Another way to do this is to manually edit the `LyraStarterGame.uproject` file. 
 1. Set the startup project to be the **LyraStarterGame** project. In the **Solution Explorer**, right-click on the solution and choose **Properties**.
 1. In the **Solution Property Pages** dialog, Under **Common Properties**, choose **Configure Startup Projects**.
 1. Ensure that **Single startup project** is selected and choose **LyraStarterGame** in the dropdown.
-    :::image type="complex" source="../media/vs-selected-startup-project.png" alt-text="A screenshot of the Solution property pages dialog.":::
+    :::image type="complex" source="../media/selected-startup-project.png" alt-text="A screenshot of the Solution property pages dialog.":::
     Under Common Properties, Configure Startup projects is selected. The single startup project radio button is selected. The startup project in the dropdown is LyraStarterGame.
     :::image-end:::
 1. Choose **OK** to close the dialog.
