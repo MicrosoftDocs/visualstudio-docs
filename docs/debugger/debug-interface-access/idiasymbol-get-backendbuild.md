@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the back end build number of the compiler."
+description: Retrieves the back end build number of the compiler.
 title: "IDiaSymbol::get_backEndBuild"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_backEndBuild
 
 Retrieves the back end build number of the compiler.
@@ -19,7 +20,7 @@ Retrieves the back end build number of the compiler.
 ## Syntax
 
 ```C++
-HRESULT get_backEndBuild ( 
+HRESULT get_backEndBuild ( 
    DWORD* pRetVal
 );
 ```

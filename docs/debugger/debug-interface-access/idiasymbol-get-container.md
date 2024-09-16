@@ -1,5 +1,5 @@
 ---
-description: "This function retrieves a pointer to a symbol representing the parent/container of this symbol."
+description: This function retrieves a pointer to a symbol representing the parent/container of this symbol.
 title: "IDiaSymbol::get_container"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_container
 
 This function retrieves a pointer to a symbol representing the parent/container of this symbol.

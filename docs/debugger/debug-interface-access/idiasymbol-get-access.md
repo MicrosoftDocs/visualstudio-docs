@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the access modifier of a class member."
+description: Retrieves the access modifier of a class member.
 title: "IDiaSymbol::get_access"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_access
 
 Retrieves the access modifier of a class member.
@@ -19,7 +20,7 @@ Retrieves the access modifier of a class member.
 ## Syntax
 
 ```C++
-HRESULT get_access ( 
+HRESULT get_access ( 
    DWORD* pRetVal
 );
 ```

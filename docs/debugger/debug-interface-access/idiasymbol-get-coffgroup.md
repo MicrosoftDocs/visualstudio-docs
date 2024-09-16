@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the COFF group symbol this symbol comes from."
+description: Retrieves the COFF group symbol this symbol comes from.
 title: "IDiaSymbol::get_coffGroup"
 ms.date: "07/09/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_coffGroup
 
 Retrieves the COFF group symbol this symbol comes from.
@@ -19,7 +20,7 @@ Retrieves the COFF group symbol this symbol comes from.
 ## Syntax
 
 ```C++
-HRESULT get_coffGroup ( 
+HRESULT get_coffGroup ( 
    IDiaSymbol** pRetVal
 );
 ```
@@ -28,7 +29,7 @@ HRESULT get_coffGroup ( 
 
  `pRetVal`
 
-[out] Returns the `IDiaSymbol*` that represents the the COFF group that this symbols comes from.
+[out] Returns the `IDiaSymbol*` that represents the COFF group that this symbols comes from.
 
 ## Return Value
 
