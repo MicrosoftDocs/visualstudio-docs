@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the offset part of an address location."
+description: Retrieves the offset part of an address location.
 title: "IDiaSymbol::get_addressOffset"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_addressOffset
 
 Retrieves the offset part of an address location. Use when the [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md) is set to `LocIsStatic`.
@@ -19,7 +20,7 @@ Retrieves the offset part of an address location. Use when the [LocationType Enu
 ## Syntax
 
 ```C++
-HRESULT get_addressOffset ( 
+HRESULT get_addressOffset ( 
    DWORD* pRetVal
 );
 ```
