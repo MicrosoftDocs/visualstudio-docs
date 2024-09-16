@@ -1,9 +1,9 @@
 ---
 title: Export subscription information in Visual Studio subscriptions| Microsoft Docs
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/19/2024
+ms.date: 09/16/2024
 ms.topic: conceptual
 description:  Learn how to export a list of subscribers and details of their subscription assignments.
 ---
