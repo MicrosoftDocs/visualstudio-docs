@@ -87,7 +87,7 @@ In **Tools**, **Options**, **IntelliCode**, **General**, the setting `Show inlin
 
 The **Advanced** tab has further options.
 
-![Screeshot of setting for turning IntelliCode whole Line autocompletions on or off.](media/vs-2022/intellicode-tools-options.png)
+![Screenshot of setting for turning IntelliCode whole Line autocompletions on or off.](media/vs-2022/intellicode-tools-options.png)
 
 The first setting, `Apply whole line completions on right arrow` was discussed previously in this article.
 
