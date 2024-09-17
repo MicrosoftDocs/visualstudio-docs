@@ -1,9 +1,9 @@
 ---
 title: Issues signing in to Visual Studio subscriptions
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/06/2024
+ms.date: 09/17/2024
 ms.topic: conceptual
 description: Review potential sign-in issues for Visual Studio subscriptions, including Microsoft Accounts (MSA) limitations, failures due to aliases or deleted addresses.
 ---
