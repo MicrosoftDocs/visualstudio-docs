@@ -1,9 +1,9 @@
 ---
 title: Personal emails for Visual Studio subscriptions in VLSC
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/19/2024
+ms.date: 09/16/2024
 ms.topic: conceptual
 description:  Visual Studio Subscriptions – Why Am I Seeing Hotmail or Gmail Addresses for My Subscribers?
 ---
