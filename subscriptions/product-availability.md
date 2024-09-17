@@ -1,9 +1,9 @@
 ---
 title: Product availability for downloads in Visual Studio subscriptions
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 05/16/2024
+ms.date: 09/16/2024
 ms.topic: conceptual
 description:  Learn what products are available as software downloads in Visual Studio subscriptions
 ---
