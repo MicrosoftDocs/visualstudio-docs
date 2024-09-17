@@ -74,6 +74,9 @@ The **section** element should look similar to this:
 
 The connection strings define provider-specific information for accessing data sources. Connection strings defined in configuration files provide reusable data provider information across an application. In this section, you create two connection strings that will be used by data sources that are defined in the Custom Configuration Section.
 
+> [!CAUTION]
+> The connection string can contain sensitive data (for example, a password). The connection string is stored in plain text in source code and in the compiled assembly. Restrict access to the source code and assembly to protect this sensitive information.
+
 ### To define connection strings
 
 1. After the **configSections** element, create a **connectionStrings** element.
