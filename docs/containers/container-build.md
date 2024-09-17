@@ -126,7 +126,7 @@ Warmup only happens in **Fast** mode, so the running container has the *app* fol
 
 ## Next steps
 
-Learn about how to use the Dockerfile stages to customize the images used for debugging and production, for example, how to install a tool on the image only when debugging. See [Configure container images for debugging](container-debug-configuration.md).
+Learn about how to use the Dockerfile stages to customize the images used for debugging and production, for example, how to install a tool on the image only when debugging. See [Configure container images for debugging](container-debug-customization.md).
 
 ## Related content
 

@@ -36,7 +36,7 @@
     - name: Customize container builds
       href: container-build.md
     - name: Configure images for debugging
-      href: container-debug-configuration.md
+      href: container-debug-customization.md
     - name: Container volume mappings
       href: container-volume-mapping.md
     - name: Build from the command line

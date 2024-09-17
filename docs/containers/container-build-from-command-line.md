@@ -48,7 +48,7 @@ To build an image for single Docker container project, you can use MSBuild with 
 MSBuild MyProject.csproj /t:ContainerBuild /p:Configuration=Release
 ```
 
-You see output similar to what you see in the **Output** window when you build your solution from the Visual Studio IDE. Always use `/p:Configuration=Release`, since in cases where Visual Studio uses the multistage build optimization, results when building the **Debug** configuration might not be as expected. See [Customize container images for debugging](container-debug-configuration.md).
+You see output similar to what you see in the **Output** window when you build your solution from the Visual Studio IDE. Always use `/p:Configuration=Release`, since in cases where Visual Studio uses the multistage build optimization, results when building the **Debug** configuration might not be as expected. See [Customize container images for debugging](container-debug-customization.md).
 
 If you're using a Docker Compose project, use this command to build images:
 
