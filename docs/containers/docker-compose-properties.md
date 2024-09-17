@@ -155,6 +155,8 @@ services:
       ...
 ```
 
+For more information, see [Container entry point](container-entry-point.md)
+
 ## Next steps
 
 For information on MSBuild properties generally, see [MSBuild Properties](../msbuild/msbuild-properties.md).
