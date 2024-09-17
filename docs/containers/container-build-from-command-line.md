@@ -24,16 +24,7 @@ To build a containerized solution from the command line, you can usually use the
 docker build -f Dockerfile ..
 ```
 
-## Enable detailed container tools logs
-
-For diagnostic purposes, you can enable certain Container Tools logs. You can enable these logs by setting certain environment variables. For single container projects, the environment variable is `MS_VS_CONTAINERS_TOOLS_LOGGING_ENABLED`, which then logs in `%tmp%\Microsoft.VisualStudio.Containers.Tools`. For Docker Compose projects, it's `MS_VS_DOCKER_TOOLS_LOGGING_ENABLED`, which then logs in `%tmp%\Microsoft.VisualStudio.DockerCompose.Tools`.
-
-:::moniker range=">=vs-2022"
-> [!CAUTION]
-> When logging is enabled and you're using a token proxy for Azure authentication, authentication credentials could be logged as plain text. See [Configure Azure authentication](container-tools-configure.md#configure-azure-authentication).
-:::moniker-end
-
-## MSBuild
+## Use MSBuild
 
 ::: moniker range=">=vs-2022"
 > [!NOTE]
@@ -56,9 +47,18 @@ If you're using a Docker Compose project, use this command to build images:
 msbuild /p:SolutionPath=<solution-name>.sln /p:Configuration=Release docker-compose.dcproj
 ```
 
+## Enable detailed container tools logs
+
+For diagnostic purposes, you can enable certain Container Tools logs. You can enable these logs by setting certain environment variables. For single container projects, the environment variable is `MS_VS_CONTAINERS_TOOLS_LOGGING_ENABLED`, which then logs in `%tmp%\Microsoft.VisualStudio.Containers.Tools`. For Docker Compose projects, it's `MS_VS_DOCKER_TOOLS_LOGGING_ENABLED`, which then logs in `%tmp%\Microsoft.VisualStudio.DockerCompose.Tools`.
+
+:::moniker range=">=vs-2022"
+> [!CAUTION]
+> When logging is enabled and you're using a token proxy for Azure authentication, authentication credentials could be logged as plain text. See [Configure Azure authentication](container-tools-configure.md#configure-azure-authentication).
+:::moniker-end
+
+To view the MSBuild logs, see [Obtaining build logs with MSBuild](../msbuild/obtaining-build-logs-with-msbuild.md).
+
 ## Related content
 
 - [MSBuild properties for container projects](container-msbuild-properties.md).
 - [MSBuild](../msbuild/msbuild.md)
-- [Dockerfile on Windows](/virtualization/windowscontainers/manage-docker/manage-windows-dockerfile)
-- [Linux containers on Windows](/virtualization/windowscontainers/deploy-containers/linux-containers)

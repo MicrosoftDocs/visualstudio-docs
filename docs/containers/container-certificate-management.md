@@ -16,7 +16,7 @@ Multicontainer app architectures vary depending on security requirements. Some a
 
 ## Ports and port mappings
 
-The Dockerfile contains directives for exposing ports to external traffic over unsecured HTTP or secure HTTPS. Also, .NET 8 and later run the containerized app as a typical user, but in earlier .NET versions, containerized apps run as administrator. When running as administrator, apps have access to the privileged ports 80 for HTTP traffic and 443 HTTPS traffic. When apps run as users without elevated privileges, they use ports 8080 for HTTP and 8081 for HTTPS. The ports appear in the EXPOSE directives in the Dockerfile that Visual Studio generates.
+The Dockerfile contains directives for exposing ports to external traffic over unsecured HTTP or secure HTTPS. Also, .NET 8 and later run the containerized app as a typical user, but in earlier .NET versions, containerized apps run as administrator. When running as administrator, apps have access to the privileged ports 80 for HTTP traffic and 443 HTTPS traffic. When apps run as users without elevated privileges, they use ports 8080 for HTTP and 8081 for HTTPS. The ports appear in the EXPOSE directives in the Dockerfile that Visual Studio generates. The ports in the container specified in the Dockerfile are mapped to host ports using the mappings specified in the launch settings file. See [Container tools launch settings](container-launch-settings.md). When the container is running, you can view the port mappings in the **Containers** window. See [View and diagnose containers](view-and-diagnose-containers.md#view-port-mappings).
 
 ## Certificates
 

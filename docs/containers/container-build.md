@@ -131,6 +131,5 @@ Learn about how to use the Dockerfile stages to customize the images used for de
 ## Related content
 
 - [MSBuild properties for container projects](container-msbuild-properties.md).
-- [MSBuild](../msbuild/msbuild.md)
 - [Dockerfile on Windows](/virtualization/windowscontainers/manage-docker/manage-windows-dockerfile)
 - [Linux containers on Windows](/virtualization/windowscontainers/deploy-containers/linux-containers)
