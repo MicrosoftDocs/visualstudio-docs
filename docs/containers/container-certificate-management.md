@@ -8,17 +8,17 @@ ms.subservice: container-tools
 ms.topic: how-to
 ---
 
-## Use SSL for containerized ASP.NET Core apps
+# Use SSL for containerized ASP.NET Core apps
 
 SSL (Secure Sockets Layer) provides secure connections over HTTP (HTTPS). This method of securing connections uses a certificate, and in a containerized app, the port mappings are different for secured and unsecured entry points.
 
 Multicontainer app architectures vary depending on security requirements. Some app designs use HTTPS for external endpoints, but HTTP for internal communication from one container to another. High-security environments might use HTTPS for all communications, even between containers that are only accessible within a secure outer perimeter.
 
-### Ports and port mappings
+## Ports and port mappings
 
 The Dockerfile contains directives for exposing ports to external traffic over unsecured HTTP or secure HTTPS. Also, .NET 8 and later run the containerized app as a typical user, but in earlier .NET versions, containerized apps run as administrator. When running as administrator, apps have access to the privileged ports 80 for HTTP traffic and 443 HTTPS traffic. When apps run as users without elevated privileges, they use ports 8080 for HTTP and 8081 for HTTPS. The ports appear in the EXPOSE directives in the Dockerfile that Visual Studio generates.
 
-### Certificates
+## Certificates
 
 Container tools in Visual Studio support debugging an SSL-enabled ASP.NET core app with a dev certificate, the same way you'd expect it to work without containers. To make that happen, Visual Studio adds a couple of more steps to export the certificate and make it available to the container. Here is the flow that Visual Studio handles for you when debugging in the container:
 
@@ -49,3 +49,4 @@ If your configuration supports both containerized and non-containerized builds, 
 For more information about using SSL with ASP.NET Core apps in containers, see [Hosting ASP.NET Core images with Docker over HTTPS](/aspnet/core/security/docker-https).
 
 For a code sample that demonstrates creating custom certificates for a multi-service app that are trusted on the host and in the containers for HTTPS service-to-service communication, see [CertExample](https://github.com/NCarlsonMSFT/CertExample).
+

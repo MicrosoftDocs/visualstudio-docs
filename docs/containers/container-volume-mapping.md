@@ -8,9 +8,11 @@ ms.subservice: container-tools
 ms.topic: conceptual
 ---
 
-## Container volume mapping
+# Container volume mapping
 
 For debugging to work in containers, Visual Studio uses volume mapping to map the debugger and NuGet folders from the host machine. Volume mapping is described in the Docker documentation [here](https://docs.docker.com/storage/volumes/). You can view the volume mappings for a container by using the [Containers window in Visual Studio](view-and-diagnose-containers.md).
+
+## Volume mounts in Visual Studio container images
 
 :::moniker range="<=vs-2019"
 Here are the volumes that are mounted in your container:
@@ -19,7 +21,7 @@ Here are the volumes that are mounted in your container:
 |-|-|
 | **App folder** | Contains the project folder where the Dockerfile is located.|
 | **NuGet packages folders** | Contains the NuGet packages and fallback folders that are read from the *obj\{project}.csproj.nuget.g.props* file in the project. |
-| **Remote debugger** | Contains the bits required to run the debugger in the container depending on the project type. See the [Debugging](#debugging) section.|
+| **Remote debugger** | Contains the bits required to run the debugger in the container depending on the project type. See [Customize container images for debugging](container-debug-customization.md).|
 | **Source folder** | Contains the build context that is passed to Docker commands.|
 
 :::moniker-end
@@ -33,7 +35,7 @@ Here are the volumes that are mounted in your container. What you see in your co
 | **HotReloadAgent** | Contains the files for the hot reload agent. |
 | **HotReloadProxy** | Contains the files required to run a service that enables the host reload agent to communicate with Visual Studio on the host. |
 | **NuGet packages folders** | Contains the NuGet packages and fallback folders that are read from the *obj\{project}.csproj.nuget.g.props* file in the project. |
-| **Remote debugger** | Contains the bits required to run the debugger in the container depending on the project type. This is explained in more detail in the [Debugging](#debugging) section.|
+| **Remote debugger** | Contains the bits required to run the debugger in the container depending on the project type. For more information, see [Customize container images for debugging](container-debug-customization.md).|
 | **Source folder** | Contains the build context that is passed to Docker commands.|
 | **TokenService.Proxy** | Contains the files required to run a service the enables VisualStudioCredential to communicate with Visual Studio on the host. |
 

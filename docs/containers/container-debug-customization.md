@@ -1,5 +1,5 @@
 ---
-title: Configure container images for debugging
+title: Customize container images for debugging
 author: ghogen
 description: Modify the Dockerfile to customize your container images for both debug and production builds.
 ms.author: ghogen
@@ -8,7 +8,7 @@ ms.subservice: container-tools
 ms.topic: how-to
 ---
 
-## Configure container images for debugging
+# Customize container images for debugging
 
 ::: moniker range=">=vs-2022"
 > [!NOTE]
@@ -43,7 +43,7 @@ The process of running the debugger depends on the type of project and container
 
 For information on `vsdbg.exe`, see [Offroad debugging of .NET Core on Linux and OS X from Visual Studio](https://github.com/Microsoft/MIEngine/wiki/Offroad-Debugging-of-.NET-Core-on-Linux---OSX-from-Visual-Studio).
 
-### Modify container image for debugging and production
+## Modify container image for debugging and production
 
 To modify the container image for both debugging and production, modify the `base` stage. Add your customizations to the Dockerfile in the base stage section, usually the first section in the Dockerfile. Refer to the [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) in the Docker documentation for information about Dockerfile commands.
 
@@ -71,7 +71,7 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "WebApplication3.dll"]
 ```
 
-### Modify container image only for debugging
+## Modify container image only for debugging
 
 This scenario applies when you want to do something with your containers to help you in the debugging process, such as installing something for diagnostic purposes, but you don't want that installed in production builds.
 
