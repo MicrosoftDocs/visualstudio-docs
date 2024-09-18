@@ -7,6 +7,7 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: test-tools
 author: mikejo5000
+monikerRange: '>= vs-2022'
 ---
 # Microsoft.CodeCoverage.Console tool
 
@@ -44,8 +45,7 @@ Commands:
 
 The Microsoft.CodeCoverage.Console tool is extension to the [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) dotnet tool. The documentation for collect, connect, shutdown, merge, and snapshot commands can be found [here](/dotnet/core/additional-tools/dotnet-coverage).
 
-::: moniker range=">=vs-2022"
-Starting in Visual Studio 2022, Microsoft.CodeCoverage.Console supports additional security features to enable collecting ASP.NET code coverage data from IIS. Additionally, the Microsoft.CodeCoverage.Console tool supports collecting code coverage for C++ code. The `instrument` command is specific to these scenarios.
+Microsoft.CodeCoverage.Console supports additional security features to enable collecting ASP.NET code coverage data from IIS. Additionally, the Microsoft.CodeCoverage.Console tool supports collecting code coverage for C++ code. The `instrument` command is specific to these scenarios.
 
 ## Instrument command
 
@@ -170,8 +170,6 @@ Finally, close the collector as follows:
 ```console
 D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console shutdown 73c34ce5-501c-4369-a4cb-04d31427d1a4
 ```
-
-::: moniker-end
 
 ## Related content
 

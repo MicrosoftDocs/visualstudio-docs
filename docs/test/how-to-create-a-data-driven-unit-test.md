@@ -185,6 +185,9 @@ The `DataSource` attribute specifies the connection string for the data source a
 [DataSource(@"Provider=Microsoft.SqlServerCe.Client.4.0;Data Source=C:\Data\MathsData.sdf", "AddIntegersData")]
 ```
 
+> [!CAUTION]
+> The connection string can contain sensitive data (for example, a password). The connection string is stored in plain text in source code and in the compiled assembly. Restrict access to the source code and assembly to protect this sensitive information.
+
 The DataSource attribute has three constructors.
 
 ```csharp
