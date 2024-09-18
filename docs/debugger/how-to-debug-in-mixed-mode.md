@@ -58,6 +58,8 @@ To enable mixed-mode debugging for a managed calling app in C# or Visual Basic, 
 1. In the **Properties** pane, enable mixed-mode debugging by setting the following property:
 
    ::: moniker range=">=vs-2022"
+
+   **.NET code**
    
    1. On the left menu, select **Debug**.
    
