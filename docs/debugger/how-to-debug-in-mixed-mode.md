@@ -1,7 +1,7 @@
 ---
 title: Debug in Mixed Mode (managed and native code)
 description: Enable mixed-mode debugging (managed and native code together) in Visual Studio with the property pages of the calling app's project.
-ms.date: 08/19/2024
+ms.date: 09/18/2024
 ms.topic: how-to
 dev_langs: 
   - CSharp
