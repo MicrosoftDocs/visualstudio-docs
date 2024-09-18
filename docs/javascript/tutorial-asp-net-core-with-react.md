@@ -144,7 +144,10 @@ You may see the following error:
 [HPM] Error occurred while trying to proxy request /weatherforecast from localhost:4200 to https://localhost:7183 (ECONNREFUSED) (https://nodejs.org/api/errors.html#errors_common_system_errors)
 ```
 
-If you see this issue, most likely the frontend started before the backend. Once you see the backend command prompt up and running, just refresh the React App in the browser.
+If you see this issue, most likely the frontend started before the backend.
+
+- Once you see the backend command prompt up and running, just refresh the React app in the browser.
+- Also, verify that the backend is configured to start before the front end. To verify, select the solution in Solution Explorer, choose **Properties** from the **Project menu**. Next, select **Configure Startup Projects** and make sure that the backend ASP.NET Core project is first in the list. If it's not first, select the project and use the Up arrow button to make it the first project in the launch list.
 
 ### Verify ports
 
