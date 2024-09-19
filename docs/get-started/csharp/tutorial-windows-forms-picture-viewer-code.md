@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Add code to the picture viewer Windows Forms app"
-description: Learn how to add C# or VB code to support the UI controls for a picture box, checkbox, and button in a picture viewer WinForms application with Visual Studio.
+description: Learn how to add C# or VB code to support the UI controls for a picture box, checkbox, and button in a picture viewer WinForms application (.NET Framework) with Visual Studio.
 dev_langs:
   - "CSharp"
   - "VB"
@@ -13,7 +13,7 @@ ms.date: 09/19/2024
 ms.custom: vs-acquisition
 #customer intent: As a developer, I want to learn how to add C# or VB code to my WinForms project to take actions when a user selects a control.
 ---
-# Tutorial: Add code to the picture viewer Windows Forms App (.NET Framework) in Visual Studio
+# Tutorial: Add code to the picture viewer Windows Forms App (.NET Framework)
 
 In this series of three tutorials, you create a Windows Forms application that loads a picture and displays it.
 The Visual Studio Integrated Design Environment (IDE) provides the tools you need to create the app.
