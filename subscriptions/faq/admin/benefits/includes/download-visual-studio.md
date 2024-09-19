@@ -5,9 +5,9 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.faqid: group2_3
 ms.topic: include
 ms.assetid: ee7e5ba2-a4b5-4db0-bd05-583dca51c75e
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/08/2023
+ms.date: 09/18/2024
 ---
 
 ## How do my developers download Visual Studio?

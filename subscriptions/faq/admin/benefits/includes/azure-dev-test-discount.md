@@ -5,9 +5,9 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.faqid: group2_5
 ms.topic: include
 ms.assetid: 86308cf3-909b-47a0-9230-5d1a93a2f87a
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/08/2023
+ms.date: 09/18/2024
 ---
 
 ## How do my developers get 50% off Azure dev/test workloads?
