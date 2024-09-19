@@ -68,6 +68,9 @@ To complete this walkthrough, you need the **.NET desktop development** and **Da
 
 1. On the **Choose your Database Objects** page, you see a message that says the database doesn't contain any objects. Choose **Finish**.
 
+> [!NOTE]
+> In a real application, you should store the connection string securely, as described in [Connection strings and configuration files](/dotnet/framework/data/adonet/connection-strings-and-configuration-files).
+
 ### View properties of the data connection
 
 You can view some of the properties of the *SampleDatabase.mdf* file by opening the **Properties** window of the data connection:
