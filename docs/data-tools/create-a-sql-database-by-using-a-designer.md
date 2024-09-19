@@ -68,7 +68,7 @@ To complete this walkthrough, you need the **.NET desktop development** and **Da
 
 1. On the **Choose your Database Objects** page, you see a message that says the database doesn't contain any objects. Choose **Finish**.
 
-> [!NOTE]
+> [!CAUTION]
 > In a real application, you should store the connection string securely, as described in [Connection strings and configuration files](/dotnet/framework/data/adonet/connection-strings-and-configuration-files). For best security, use an authentication method that doesn't rely on storing a password in the connection string, such as Windows Authentication for an on-premises SQL Server database. See [Save and edit connection strings](how-to-save-and-edit-connection-strings.md).
 
 ### View properties of the data connection
