@@ -95,6 +95,9 @@ In this example, you create the network and attach the MySQL container at startu
 
    This command also defines the `MYSQL_ROOT_PASSWORD` and `MYSQL_DATABASE` environment variables. For more information, see [MySQL Docker Hub listing](https://hub.docker.com/_/mysql/).
 
+   > [!CAUTION]
+   > This tutorial illustrates a potentially insecure method of authenticating with a MySQL database, since database credentials based on passwords can be discovered, leaked, or hacked. For best security, refer to the [MySQL documentation](https://dev.mysql.com/doc/) to learn about more secure methods of authentication.
+
 1. Get your container ID for use in the next step.
 
    ```bash
