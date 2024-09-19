@@ -44,9 +44,9 @@ The following illustration shows the **Source Not Found** message.
 
 Starting in Visual Studio 2022 version 17.7, the Visual Studio Debugger supports autodecompilation of external .NET code. You can autodecompile when stepping into external code or when using the Call Stack window.
 
-If you step into code that has been implemented externally, the debugger automatically decompiles it and displays the current point of execution. If you want to step into external code, [Just My Code](../debugger/just-my-code.md) must be disabled.
+If you step into code that has been implemented externally, the debugger automatically decompiles it and displays the current point of execution. If you want to step into external code, disable [Just My Code](../debugger/just-my-code.md).
 
-You can easy decompile from the Call Stack window without disabling Just My Code.
+You can decompile from the Call Stack window without disabling Just My Code.
 
 To autodecompile from the Call Stack window:
 

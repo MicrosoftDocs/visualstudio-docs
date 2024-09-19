@@ -5,9 +5,9 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.faqid: group2_4
 ms.topic: include
 ms.assetid: 248726b6-1e50-481c-aabf-0f509da5d710
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/08/2023
+ms.date: 09/18/2024
 ---
 
 ## How do my developers activate software using product keys from their Visual Studio subscription?
