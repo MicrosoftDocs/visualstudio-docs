@@ -2,9 +2,8 @@
 title: "Tutorial: Open project from repo in Visual Studio"
 description: Learn how to open a cloned project in a Git or Azure DevOps repository by using Visual Studio and view files in Solution Explorer.
 ms.custom: vs-acquisition
-ms.date: 12/04/2023
+ms.date: 9/19/2024
 ms.subservice: general-ide
-
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
@@ -47,13 +46,13 @@ Here's how.
 
 1. Next, Visual Studio loads the solution(s) from the repository by using the **Folder View** in [**Solution Explorer**](../ide/use-solution-explorer.md?view=vs-2022&preserve-view=true).
 
-    :::image type="content" source="../ide/media/vs-2022/git-solution-explorer-folder-view.png" alt-text="Screenshot of the Folder View in Solution Explorer in Visual Studio 2022.":::
+    :::image type="content" source="./media/vs-2022/tutorial-open-project-from-repo/git-solution-explorer-folder-view.png" alt-text="Screenshot of the Folder View in Solution Explorer in Visual Studio 2022.":::
 
     You can view a solution in **Solution View** by double-clicking its .sln file.
+    
+    You can select the **Switch Views** button to switch between folder view and solution view.
 
-    Or, you can select the **Switch Views** button, and then select **Program.cs** to view a solution's code.
-
-    :::image type="content" source="./media/vs-2022/tutorial-open-project-from-repo/git-solution-explorer-switch-views.png" alt-text="Screenshot of a project in Git that's open in Solution Explorer, with the Switch Views button highlighted.":::
+    :::image type="content" source="./media/vs-2022/tutorial-open-project-from-repo/git-solution-explorer-switch-views.png" alt-text="Screenshot of a C# project in Git that's open in Solution Explorer":::
 
 > [!TIP]
 > You can change from the default Folder View to Solution View from the **Git** menu. Select **Settings** > **Source Control** > **Git Global Settings** > **Automatically load the solution when opening a Git repository** to do so.
