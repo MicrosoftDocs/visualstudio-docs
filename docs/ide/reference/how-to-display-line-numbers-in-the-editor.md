@@ -1,7 +1,7 @@
 ---
 title: Display line numbers for code
 description: Turn line numbering for your code on and off in the Visual Studio code editor. Line numbers can be useful as a reference.
-ms.date: 08/19/2024
+ms.date: 09/19/2024
 ms.topic: how-to
 helpviewer_keywords:
 - line numbers, displaying
@@ -22,8 +22,9 @@ This article describes how to show or hide line numbers in your code.
 
 1. On the Visual Studio menu bar, select **Tools** > **Options** > **Text Editor**, and then select either the language you're using or **All Languages**. **All Languages** turns line numbers on or off in all supported programming languages.
 
-   > [!TIP]
-   > You can also type **line number** in the [Search](../visual-studio-search.md) box, and then select **Turn line numbers on or off** in the results.
+    You can also type **line number** in the Visual Studio [Search](../visual-studio-search.md) box, and then select **Turn line numbers on or off** in the results.
+
+    :::image type="content" source="media/line-numbers-search-box.png" alt-text="Screenshot of using the Search box to search for line numbers.":::
 
 1. Select the **Line numbers** checkbox to show line numbers, or clear the checkbox to hide line numbers.
 
