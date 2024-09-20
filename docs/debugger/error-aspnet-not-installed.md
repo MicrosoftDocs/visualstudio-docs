@@ -29,7 +29,7 @@ The following procedure describes how to install ASP.NET using `aspnet_regiis.ex
 You can't install or uninstall ASP.NET 4.5 or later versions on Microsoft Windows 8 or Windows Server 2012 by using `aspnet_regiis.exe`. For more information, see [Install ASP.NET 4.5 in Windows 8 and Windows Server 2012](/troubleshoot/developer/webapps/aspnet/www-administration-management/install-aspnet-45-windows-8-server-2012)
 
 > [!NOTE]
-> For ASP.NET Core, see [Install the ASP.NET Core Module/Hosting Bundle](/https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/index#install-the-aspnet-core-modulehosting-bundle).
+> For ASP.NET Core, see [Install the ASP.NET Core Module/Hosting Bundle](/aspnet/core/host-and-deploy/iis/#install-the-aspnet-core-modulehosting-bundle).
 
 ### To reinstall ASP.NET
 
