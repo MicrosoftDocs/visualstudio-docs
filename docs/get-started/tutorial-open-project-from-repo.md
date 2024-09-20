@@ -205,7 +205,7 @@ Here's how to use Git in Visual Studio 2019 [**version 16.7**](/visualstudio/rel
 
    ![Screenshot of the Solution Explorer drop-down list in Visual Studio 2019 version 16.7 and earlier.](./media/open-proj-repo-github-solutions-folders-picker.png)
 
-   If you do not have a solution file (specifically, an .sln file) in your repo, the fly-out menu says "No Solutions Found." However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
+   If you do not have a solution file (specifically, an .sln file) in your repo, the fly-out menu says "No Solutions Found." However, you can double-click any file from the folder menu to open it in the Visual Studio editor.
 
     Start coding!
 
@@ -277,7 +277,7 @@ But no matter which version you installed, you can always browse to and clone an
 
       ![Screenshot of the 'Solutions and Folders' notification from Team Explorer in Visual Studio 2019 version 16.7 and earlier.](./media/open-proj-repo-solutions-folders.png)
 
-   If you do not have a solution file in your repo, a 'No Solutions Found' message appears. However, you can double-click any file from the folder menu to open it in the Visual Studio code editor.
+   If you do not have a solution file in your repo, a 'No Solutions Found' message appears. However, you can double-click any file from the folder menu to open it in the Visual Studio editor.
 
 ::: moniker-end
 
