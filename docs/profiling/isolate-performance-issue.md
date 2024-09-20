@@ -148,7 +148,7 @@ Can you identify a performance issue in the QueryCustomerDB method?
 > [!TIP]
 > You can use slash commands such as [/optimize](../ide/copilot-chat-context.md#slash-commands) to help form good questions for Copilot.
 
-In this example, Copilot gives the following code suggestion, the answer we previously identified by research, along with an explanation.
+In this example, Copilot gives the following code suggestion, the same answer we previously identified by research, along with an explanation.
 
 ```csharp
 public async Task<ActionResult<string>> QueryCustomerDB()
