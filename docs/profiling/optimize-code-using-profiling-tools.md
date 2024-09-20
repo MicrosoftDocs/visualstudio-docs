@@ -139,7 +139,7 @@ This code uses `foreach` loops to search the database for any blogs with "Fred S
 We do a little research and find some common recommendations for how to optimize LINQ queries and come up with this code.
 
 > [!TIP]
-> Alternatively, you can save time and let Copilot [do the research](#optimize-code-with-copilot) for you.
+> Alternatively, we can save time and let Copilot [do the research](#optimize-code-with-copilot) for us.
 
 ```csharp
 foreach (var x in db.Posts.Where(p => p.Author.Contains("Fred Smith")).Select(b => b.Title).ToList())
@@ -166,7 +166,7 @@ Can you make the LINQ query in this method faster?
 > [!TIP]
 > You can use slash commands such as [/optimize](../ide/copilot-chat-context.md#slash-commands) to help form good questions for Copilot.
 
-In this example, Copilot gives the following answer, similar to our optimized query.
+In this example, Copilot gives the following suggested code changes, similar to our optimized query, along with an explanation.
 
 ```csharp
 public void GetBlogTitleX()
