@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag indicating whether this function contains control flow checks."
+description: Retrieves a flag indicating whether this function contains control flow checks.
 title: "IDiaSymbol::get_get_hasControlFlowCheck"
 ms.date: "07/09/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_get_hasControlFlowCheck
 
 Retrieves a flag indicating whether this function contains control flow checks.
@@ -19,7 +20,7 @@ Retrieves a flag indicating whether this function contains control flow checks.
 ## Syntax
 
 ```C++
-HRESULT get_get_hasControlFlowCheck ( 
+HRESULT get_get_hasControlFlowCheck ( 
    BOOL* pRetVal
 );
 ```
