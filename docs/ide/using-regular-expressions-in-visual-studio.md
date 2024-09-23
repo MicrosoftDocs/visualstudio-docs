@@ -97,7 +97,7 @@ For more information about named capture groups, see [Named matched subexpressio
 
 | Pattern | Description |
 | - | - |
-| `int ([_A-Za-z][A-Za-z0-9]*)` | Match single integer definitions. Identifiers begin with one uppercase or lowercase letter, followed by zero or more (indicated by `*`) letters or numbers. The identifier is captured as `$1` by the outer parentheses. |
+| `int ([_A-Za-z][_A-Za-z0-9]*)` | Match single integer definitions. Identifiers begin with one uppercase or lowercase letter, followed by zero or more (indicated by `*`) letters or numbers. The identifier is captured as `$1` by the outer parentheses. |
 | `(private\|internal\|public)*\s*([\w]+\s+)int\s+([_A-Za-z][_A-Za-z0-9]*)\s+=\s+[+-]+(\d)+` | Match C# integer declarations that are initialized to integer literals, capturing the various parts, including the access level, modifiers like `const` or `static`, the identifier, and the defined value. |
 | `foreach[\s]*\(([\w\d]*) ([\w\d]*) in (.*)\)` | Match the opening line of a `foreach` loop. The literal parentheses  are escaped with backslash (`\`). The various groups are captured as `$1`, `$2`, and `$3` by the unescaped parentheses. |
 | `#define[\s]+([_A-Za-z][_A-Za-z0-9]*)` | Matches `#define` definitions (without the value, if any). The defined token is stored in `$1`. |
