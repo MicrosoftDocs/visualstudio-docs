@@ -137,9 +137,9 @@ To get visualizations in Visual Studio for individual thread behavior, you can u
 
 For additional information on thread pool starvation, see [Detecting threadpool starvation](/dotnet/core/diagnostics/debug-threadpool-starvation#detecting-threadpool-starvation).
 
-## Get Copilot to do the research
+## Get Copilot to research the issue
 
-If we're using Copilot, we can ask Copilot to research performance issues for us. Select **Ask Copilot** from the context menu and type the following question:
+If we're using [Copilot](../ide/visual-studio-github-copilot-extension.md), we can ask Copilot to research performance issues for us. Select **Ask Copilot** from the context menu and type the following question:
 
 ```cmd
 Can you identify a performance issue in the QueryCustomerDB method?
