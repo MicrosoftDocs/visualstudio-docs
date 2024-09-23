@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that specifies whether the function contains a return from interrupt instruction (for example, the X86 assembly code iret`)."
+description: Retrieves a flag that specifies whether the function contains a return from interrupt instruction (for example, the X86 assembly code iret`).
 title: "IDiaSymbol::get_interruptReturn"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_interruptReturn
 
 Retrieves a flag that specifies whether the function contains a return from interrupt instruction (for example, the X86 assembly code `iret`).

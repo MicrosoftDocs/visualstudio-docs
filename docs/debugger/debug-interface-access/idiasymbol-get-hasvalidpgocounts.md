@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag indicating whether this symbols has valid profile-guided optimizations (PGO) counts."
+description: Retrieves a flag indicating whether this symbols has valid profile-guided optimizations (PGO) counts.
 title: "IDiaSymbol::get_hasValidPGOCounts"
 ms.date: "07/09/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_hasValidPGOCounts
 
 Retrieves a flag indicating whether this symbols has valid profile-guided optimizations (PGO) counts.
@@ -19,7 +20,7 @@ Retrieves a flag indicating whether this symbols has valid profile-guided optimi
 ## Syntax
 
 ```C++
-HRESULT get_isget_hasValidPGOCountsPGO ( 
+HRESULT get_isget_hasValidPGOCountsPGO ( 
    BOOL* pRetVal
 );
 ```
