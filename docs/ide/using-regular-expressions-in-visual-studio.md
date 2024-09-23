@@ -55,7 +55,7 @@ The following table contains some regular expression characters, operators, cons
 An example regular expression that combines some of the operators and constructs to match a hexadecimal number is `\b0[xX]([0-9a-fA-F]+)\b`. This expression matches "0xc67f" but not "0xc67g".
 
 > [!TIP]
-> In Windows operating systems, most lines end in "\r\n" (a carriage return followed by a new line). These characters aren't visible but are present in the editor and passed to the .NET regular expression service. When you deal with files from the web or from another operating system, be sure to account for the possibility that they use new line only for a line break.
+> In Windows operating systems, most lines end in "\r\n" (a carriage return followed by a new line). These characters aren't visible but are present in the editor and passed to the .NET regular expression service. When you deal with files from the web or from a non-Windows operating system, be sure to account for the possibility that they use new line only for a line break.
 
 ## Capture groups and replacement patterns
 
