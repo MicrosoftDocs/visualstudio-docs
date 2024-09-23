@@ -1,7 +1,7 @@
 ---
 title: "Isolate a performance issue"
 description: "Learn how to use .NET Counters and the Instrumentation tools to identify, isolate, and resolve performance issues."
-ms.date: 09/03/2024
+ms.date: 09/20/2024
 ms.topic: conceptual
 dev_langs:
   - "CSharp"
@@ -111,9 +111,8 @@ Double-click the `QueryCustomerDB` function to show the source code for the func
 ```csharp
 public ActionResult<string> QueryCustomerDB()
 {
-
-    Task dbTask = QueryCustomerFromDbAsync("Dana");
-    return "success:tasksleepwait";
+    Customer c = QueryCustomerFromDbAsync("Dana").Result;
+    return "success:taskwait";
 }
 ```
 
@@ -122,18 +121,42 @@ With a little research, we discover that this code is calling an async API witho
 To resolve, use await.
 
 ```csharp
-public async Task<ActionResult<string>> TaskAsyncWait()
+public async Task<ActionResult<string>> QueryCustomerDB()
 {
-    Customer c = await PretendQueryCustomerFromDbAsync("Dana");
+    Customer c = await QueryCustomerFromDbAsync("Dana");
     return "success:taskasyncwait";
 }
 ```
+
+> [!TIP]
+> Alternatively, we can save time and let Copilot [do the research](#get-copilot-to-do-the-research) for us.
 
 If you see performance issues related to database queries, you can use the [Database tool](../profiling/analyze-database.md) to investigate whether certain calls are slower. This data might indicate an opportunity to optimize queries. For a tutorial that shows how to use the Database tool to investigate a performance issue, see [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md). The Database tool supports .NET Core with either ADO.NET or Entity Framework Core.
 
 To get visualizations in Visual Studio for individual thread behavior, you can use the [Parallel Stacks](../debugger/get-started-debugging-multithreaded-apps.md#ParallelStacks) window while debugging. This window shows individual threads along with information about threads that are waiting, threads they're waiting on, and [deadlocks](../debugger/using-the-parallel-stacks-window.md#stack-frame-icons).
 
 For additional information on thread pool starvation, see [Detecting threadpool starvation](/dotnet/core/diagnostics/debug-threadpool-starvation#detecting-threadpool-starvation).
+
+## Get Copilot to do the research
+
+If we're using Copilot, we can ask Copilot to research performance issues for us. Select **Ask Copilot** from the context menu and type the following question:
+
+```cmd
+Can you identify a performance issue in the QueryCustomerDB method?
+```
+
+> [!TIP]
+> You can use slash commands such as [/optimize](../ide/copilot-chat-context.md#slash-commands) to help form good questions for Copilot.
+
+In this example, Copilot gives the following code suggestion, the same answer we previously identified by research, along with an explanation.
+
+```csharp
+public async Task<ActionResult<string>> QueryCustomerDB()
+{
+    Customer c = await QueryCustomerFromDbAsync("Dana");
+    return "success:taskwait";
+}
+```
 
 ## Next steps
 
