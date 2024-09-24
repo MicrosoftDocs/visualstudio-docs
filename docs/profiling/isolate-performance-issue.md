@@ -129,7 +129,7 @@ public async Task<ActionResult<string>> QueryCustomerDB()
 ```
 
 > [!TIP]
-> Alternatively, we can save time and let Copilot [do the research](#get-copilot-research-the-issue) for us.
+> Alternatively, we can save time and let Copilot [do the research](#get-copilot-to-research-the-issue) for us.
 
 If you see performance issues related to database queries, you can use the [Database tool](../profiling/analyze-database.md) to investigate whether certain calls are slower. This data might indicate an opportunity to optimize queries. For a tutorial that shows how to use the Database tool to investigate a performance issue, see [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md). The Database tool supports .NET Core with either ADO.NET or Entity Framework Core.
 
