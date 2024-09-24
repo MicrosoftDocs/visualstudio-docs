@@ -5,9 +5,9 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.faqid: group1_9
 ms.topic: include
 ms.assetid: 9e5fac98-676a-4187-9323-ff5e113be282
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/09/2023
+ms.date: 09/24/2024
 ---
 
 ## Why does my SLP agreement have an end date, and why is it sometimes different for my subscribers?
