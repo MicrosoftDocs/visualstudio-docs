@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the symbol's globally unique identifier (GUID)."
+description: Retrieves the symbol's globally unique identifier (GUID).
 title: "IDiaSymbol::get_guid"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_guid
 
 Retrieves the symbol's globally unique identifier (GUID).
@@ -19,7 +20,7 @@ Retrieves the symbol's globally unique identifier (GUID).
 ## Syntax
 
 ```C++
-HRESULT get_guid ( 
+HRESULT get_guid ( 
    GUID* pRetVal
 );
 ```

@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag indicating whether this is an instance constructor of a class with virtual base."
+description: Retrieves a flag indicating whether this is an instance constructor of a class with virtual base.
 title: "IDiaSymbol::get_isConstructorVirtualBase"
 ms.date: "07/09/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_isConstructorVirtualBase
 
 Retrieves a flag indicating whether this is an instance constructor of a class with virtual base.
@@ -19,7 +20,7 @@ Retrieves a flag indicating whether this is an instance constructor of a class w
 ## Syntax
 
 ```C++
-HRESULT get_isConstructorVirtualBase ( 
+HRESULT get_isConstructorVirtualBase ( 
    BOOL* pRetVal
 );
 ```

@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the relative virtual address (RVA) of the exception handler of this function."
+description: Retrieves the relative virtual address (RVA) of the exception handler of this function.
 title: "IDiaSymbol::get_exceptionHandlerRelativeVirtualAddress"
 ms.date: "07/11/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_exceptionHandlerRelativeVirtualAddress
 
 Retrieves the relative virtual address (RVA) of the exception handler of this function.
@@ -19,7 +20,7 @@ Retrieves the relative virtual address (RVA) of the exception handler of this fu
 ## Syntax
 
 ```C++
-HRESULT get_exceptionHandlerRelativeVirtualAddress ( 
+HRESULT get_exceptionHandlerRelativeVirtualAddress ( 
    DWORD* pRetVal
 );
 ```

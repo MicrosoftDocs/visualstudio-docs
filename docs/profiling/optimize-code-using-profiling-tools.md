@@ -157,7 +157,7 @@ Next, we retest using the profiling tools.
 
 ### Optimize code with Copilot
 
-If we're using Copilot, we can ask Copilot to research performance issues for us. Select **Ask Copilot** from the context menu and type the following question:
+If we're using [Copilot](../ide/visual-studio-github-copilot-extension.md), we can ask Copilot to research performance issues for us. Select **Ask Copilot** from the context menu and type the following question:
 
 ```cmd
 Can you make the LINQ query in this method faster?

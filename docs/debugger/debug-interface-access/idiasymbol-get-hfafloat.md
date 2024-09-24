@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that specifies whether a user-defined type (UDT) contains homogeneous floating-point aggregate (HFA) data of type float."
+description: Retrieves a flag that specifies whether a user-defined type (UDT) contains homogeneous floating-point aggregate (HFA) data of type float.
 title: "IDiaSymbol::get_hfaFloat"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_hfaFloat
 
 Retrieves a flag that specifies whether a user-defined type (UDT) contains homogeneous floating-point aggregate (HFA) data of type float.
@@ -19,7 +20,7 @@ Retrieves a flag that specifies whether a user-defined type (UDT) contains homog
 ## Syntax
 
 ```C++
-HRESULT get_hfaFloat( 
+HRESULT get_hfaFloat( 
    BOOL* pRetVal
 );
 ```
