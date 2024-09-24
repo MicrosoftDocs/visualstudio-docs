@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag indicating whether this export is a forwarder."
+description: Retrieves a flag indicating whether this export is a forwarder.
 title: "IDiaSymbol::get_exportIsForwarder"
 ms.date: "07/09/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_exportIsForwarder
 
 Retrieves a flag indicating whether this export is a forwarder.
@@ -19,7 +20,7 @@ Retrieves a flag indicating whether this export is a forwarder.
 ## Syntax
 
 ```C++
-HRESULT get_exportIsForwarder ( 
+HRESULT get_exportIsForwarder ( 
    BOOL* pRetVal
 );
 ```

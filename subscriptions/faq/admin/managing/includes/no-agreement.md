@@ -5,9 +5,9 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.faqid: group1_10
 ms.topic: include
 ms.assetid: f2aa9631-12e0-41cc-84eb-df97b155ac18
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/09/2023
+ms.date: 09/23/2024
 ---
 
 ## Why am I not seeing an agreement while logged into the portal?

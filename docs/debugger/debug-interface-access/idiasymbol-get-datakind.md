@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the variable classification of a data symbol."
+description: Retrieves the variable classification of a data symbol.
 title: "IDiaSymbol::get_dataKind"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_dataKind
 
 Retrieves the variable classification of a data symbol.
@@ -19,7 +20,7 @@ Retrieves the variable classification of a data symbol.
 ## Syntax
 
 ```C++
-HRESULT get_dataKind ( 
+HRESULT get_dataKind ( 
    DWORD* pRetVal
 );
 ```
