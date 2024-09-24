@@ -5,9 +5,9 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.faqid: group1_8
 ms.topic: include
 ms.assetid: 387800f0-e420-496b-af7e-4f0cd7e4898b
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/09/2023
+ms.date: 09/23/2024
 ---
 
 ## How can I select an end date for a subscription?

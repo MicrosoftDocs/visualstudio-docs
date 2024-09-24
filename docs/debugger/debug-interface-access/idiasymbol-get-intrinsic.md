@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that specifies whether a class is an intrinsic type."
+description: Retrieves a flag that specifies whether a class is an intrinsic type.
 title: "IDiaSymbol::get_intrinsic"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_intrinsic
 
 Retrieves a flag that specifies whether a class is an intrinsic type.
@@ -19,7 +20,7 @@ Retrieves a flag that specifies whether a class is an intrinsic type.
 ## Syntax
 
 ```C++
-HRESULT get_intrinsic( 
+HRESULT get_intrinsic( 
    BOOL* pRetVal)
 );
 ```

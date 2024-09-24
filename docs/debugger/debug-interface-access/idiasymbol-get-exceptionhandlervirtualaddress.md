@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the virtual address of the exception handler of this function."
+description: Retrieves the virtual address of the exception handler of this function.
 title: "IDiaSymbol::get_exceptionHandlerVirtualAddress"
 ms.date: "07/11/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_exceptionHandlerVirtualAddress
 
 Retrieves the virtual address of the exception handler of this function.
@@ -19,7 +20,7 @@ Retrieves the virtual address of the exception handler of this function.
 ## Syntax
 
 ```C++
-HRESULT get_exceptionHandlerVirtualAddress ( 
+HRESULT get_exceptionHandlerVirtualAddress ( 
    ULONGLONG* pRetVal
 );
 ```

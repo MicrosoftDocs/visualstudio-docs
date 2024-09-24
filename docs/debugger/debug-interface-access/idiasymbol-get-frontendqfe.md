@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the front end QFE number of the compiler."
+description: Retrieves the front end QFE number of the compiler.
 title: "IDiaSymbol::get_frontEndQFE"
 ms.date: "07/09/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_frontEndQFE
 
 Retrieves the front end QFE number of the compiler.
@@ -19,7 +20,7 @@ Retrieves the front end QFE number of the compiler.
 ## Syntax
 
 ```C++
-HRESULT get_frontEndQFE ( 
+HRESULT get_frontEndQFE ( 
    DWORD* pRetVal
 );
 ```

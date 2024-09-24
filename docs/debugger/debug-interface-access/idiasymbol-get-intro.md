@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that specifies whether the function is an introducing virtual function."
+description: Retrieves a flag that specifies whether the function is an introducing virtual function.
 title: "IDiaSymbol::get_intro"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_intro
 
 Retrieves a flag that specifies whether the function is an introducing virtual function.
@@ -19,7 +20,7 @@ Retrieves a flag that specifies whether the function is an introducing virtual f
 ## Syntax
 
 ```C++
-HRESULT get_intro ( 
+HRESULT get_intro ( 
     BOOL* pRetVal
 );
 ```

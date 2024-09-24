@@ -5,9 +5,9 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.faqid: group1_3
 ms.topic: include
 ms.assetid: 59eb35fd-ec94-41ce-b24c-a8a120976bac
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/09/2023
+ms.date: 09/23/2024
 ---
 
 ## How do I assign Visual Studio subscriptions?
