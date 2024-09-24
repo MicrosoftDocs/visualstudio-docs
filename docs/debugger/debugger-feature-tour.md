@@ -2,7 +2,7 @@
 title: "First look at the debugger"
 description: Get started debugging your applications by using the Visual Studio debugger and see what your code is doing while it runs.
 ms.topic: conceptual
-ms.date: 09/14/2023
+ms.date: 09/20/2024
 helpviewer_keywords:
   - "debugger"
 author: mikejo5000
@@ -240,6 +240,12 @@ Expand the **Exception Settings** node to see more options on how to handle this
 ::: moniker range=">= vs-2022"
 > [!TIP]
 > If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're debugging exceptions. Just look for the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+::: moniker-end
+
+::: moniker range=">= vs-2022"
+## Get AI assistance
+
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're debugging. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md). While debugging, you can also look for the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In these scenarios, Copilot already knows the context for your questions, so you don't need to provide context yourself in Copilot chat. 
 ::: moniker-end
 
 ## Configure debugging
