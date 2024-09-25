@@ -38,7 +38,10 @@
     {
       "source_path_from_root": "/mac/javascript.md",
       "redirect_url": "/visualstudio/mac/javascript-and-typescript-support",
-      "redirect_document_id": false
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2019","vsmac-2022"
+      ]
     },
     {
       "source_path_from_root": "/mac/net-core-support.md",
@@ -58,7 +61,10 @@
     {
       "source_path_from_root": "/mac/user-accounts.md",
       "redirect_url": "/visualstudio/mac/signing-in",
-      "redirect_document_id": false
+      "redirect_document_id": false,
+      "monikers":[
+        "vsmac-2019", "vsmac-2022"
+      ]
     },
     {
       "source_path_from_root": "/mac/setup-vsmac-tools-unity.md",
