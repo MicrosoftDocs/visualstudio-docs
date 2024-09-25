@@ -5,9 +5,9 @@ comment:  As of August 2023 this include file is used to render marketing FAQ co
 ms.faqid: group4_4
 ms.topic: include
 ms.assetid: 2ae51494-98d3-4835-8378-4847b46d1a74
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/09/2023
+ms.date: 09/25/2024
 ---
 
 ## What are the licensing terms for Visual Studio subscriptions? 
