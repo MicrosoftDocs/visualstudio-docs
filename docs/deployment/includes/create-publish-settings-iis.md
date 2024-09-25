@@ -20,8 +20,6 @@
         publishUrl="https://myhostname:8172/msdeploy.axd"
         msdeploySite="Default Web Site"
         destinationAppUrl="http://myhostname:80/"
-        mySQLDBConnectionString=""
-        SQLServerDBConnectionString=""
         profileName="Default Settings"
         publishMethod="MSDeploy"
         userName="myhostname\myusername" />
