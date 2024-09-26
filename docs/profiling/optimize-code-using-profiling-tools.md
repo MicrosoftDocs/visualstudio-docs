@@ -13,6 +13,7 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
+ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
 ---
 # Case Study: Beginner's guide to optimizing code and reducing compute costs (C#, Visual Basic, C++, F#)
