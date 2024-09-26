@@ -15,7 +15,9 @@ In this article, you learn how to add your public GitHub or GitHub Enterprise ac
 
 ## Adding public GitHub accounts
 
-You can add your public GitHub account at any point, even if you haven't [signed into Visual Studio with a Microsoft account, work account, or school account](signing-in-to-visual-studio.md#sign-in-to-your-account).
+You can add your public GitHub account at any point, after you've [signed into Visual Studio with a Microsoft account, work account, or school account](signing-in-to-visual-studio.md#sign-in-to-your-account).
+
+If you have [GitHub Copilot installed](visual-studio-github-copilot-install-and-states.md), you can add a GitHub account by selecting **Add GitHub account to Visual Studio** from the [GitHub Copilot status icon](visual-studio-github-copilot-install-and-states.md#copilot-is-inactive), even if you haven't [signed into Visual Studio with a Microsoft account, work account, or school account](signing-in-to-visual-studio.md#sign-in-to-your-account). 
 
 **Add a GitHub account from the **Account settings** dialog:**
 
