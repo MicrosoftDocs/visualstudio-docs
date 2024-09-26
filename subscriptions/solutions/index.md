@@ -43,8 +43,6 @@ ms.date: 02/14/2023
 
 [!INCLUDE [Unable to download Visual Studio Community](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-download-visual-studio-community.md)]
 
-[!INCLUDE [Unable to download Visual Studio for Mac](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-download-visual-studio-for-mac.md)]
-
 [!INCLUDE [Unable to download Visual Studio IDE](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-download-visual-studio-ide.md)]
 
 [!INCLUDE [Unable to download Visual Studio Code](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-download-vs-code.md)]

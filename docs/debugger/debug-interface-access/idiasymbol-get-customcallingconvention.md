@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that specifies whether the function has a custom calling convention."
+description: Retrieves a flag that specifies whether the function has a custom calling convention.
 title: "IDiaSymbol::get_customCallingConvention"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_customCallingConvention
 
 Retrieves a flag that specifies whether the function has a custom calling convention.

@@ -13,9 +13,6 @@ ms.subservice: general-ide
 
 You can customize Visual Studio IDE settings in various ways to best support your own development style and requirements. Many of your settings roam with you across Visual Studio instances. See [Synchronized settings](../ide/synchronized-settings-in-visual-studio.md). This article briefly describes different personalizations and where you can find more information.
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Customize the Visual Studio for Mac IDE](/visualstudio/mac/customizing-the-ide).
-
 ## Default environment settings for Visual Studio
 
 In Visual Studio, you can optimize your development environment for the type of development work you do by selecting **Tools** > **Import and Export Settings**. You can use the wizard to import or export specific categories of setting, or to reset the environment to one of the default collections of settings. Each collection of settings optimizes elements such as keyboard shortcuts, window layouts, project and item templates, and command visibility.

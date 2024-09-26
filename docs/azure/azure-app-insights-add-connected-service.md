@@ -25,9 +25,6 @@ With Visual Studio, you can connect any of the following to Azure Application In
 
 The connected service functionality adds all the needed references and connection code to your project, and modifies your configuration files appropriately.
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Connected services in Visual Studio for Mac](/visualstudio/mac/connected-services).
-
 ## Prerequisites
 
 - Visual Studio with the Azure workload installed.
@@ -156,4 +153,3 @@ The links take you to the section of the articles after the initial setup steps,
 
 - [Azure Monitor product page](https://azure.microsoft.com/services/monitor/)
 - [Azure App Insights documentation](/azure/azure-monitor/app/app-insights-overview/)
-- [Connected services (Visual Studio for Mac)](/visualstudio/mac/connected-services)

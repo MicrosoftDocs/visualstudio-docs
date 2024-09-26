@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that specifies whether the user-defined data type has any cast operators defined."
+description: Retrieves a flag that specifies whether the user-defined data type has any cast operators defined.
 title: "IDiaSymbol::get_hasCastOperator"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_hasCastOperator
 
 Retrieves a flag that specifies whether the user-defined data type has any cast operators defined.
@@ -19,7 +20,7 @@ Retrieves a flag that specifies whether the user-defined data type has any cast 
 ## Syntax
 
 ```C++
-HRESULT get_hasCastOperator ( 
+HRESULT get_hasCastOperator ( 
    BOOL* pRetVal
 );
 ```

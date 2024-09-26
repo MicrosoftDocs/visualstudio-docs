@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the final static size of live function, after inlining."
+description: Retrieves the final static size of live function, after inlining.
 title: "IDiaSymbol::get_finalLiveStaticSize"
 ms.date: "07/09/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_finalLiveStaticSize
 
 Retrieves the final static size of live function, after inlining.
@@ -19,7 +20,7 @@ Retrieves the final static size of live function, after inlining.
 ## Syntax
 
 ```C++
-HRESULT get_finalLiveStaticSize ( 
+HRESULT get_finalLiveStaticSize ( 
    DWORD* pRetVal
 );
 ```
@@ -39,7 +40,7 @@ HRESULT get_finalLiveStaticSize ( 
 
 ## Remarks
 
-This is the number of live instructions in the function. For the training profile in use, only instructions that are executed at least once are counted as live. To get the total size of the function, including dead instructions (i.e. instructions never executed by the training data), use [`IDiaSymbol::get_staticSize`](../../debugger/debug-interface-access/idiasymbol-get-staticsize.md). To get the number of instructions executed in this function use [`IDiaSymbol::get_PGODynamicInstructionCount`](../../debugger/debug-interface-access/idiasymbol-get-pgodynamicinstructioncount.md). 
+This is the number of live instructions in the function. For the training profile in use, only instructions that are executed at least once are counted as live. To get the total size of the function, including dead instructions (that is, instructions never executed by the training data), use [`IDiaSymbol::get_staticSize`](../../debugger/debug-interface-access/idiasymbol-get-staticsize.md). To get the number of instructions executed in this function use [`IDiaSymbol::get_PGODynamicInstructionCount`](../../debugger/debug-interface-access/idiasymbol-get-pgodynamicinstructioncount.md).
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Update a network-based installation
 description: Update a Visual Studio client installed from a network layout and make sure the client is receiving the latest security and functionality fixes. 
-ms.date: 6/6/2023
+ms.date: 9/26/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -13,6 +13,9 @@ manager: mijacobs
 ms.subservice: installation
 ---
 # Update a Visual Studio client that was installed from a layout
+
+> 📣 **We'd love to hear your feedback!**
+> *Please take a moment to complete this [survey](https://aka.ms/learnlayoutfeedback) and let us know how we can improve the layout experience. Thank you for your support!*
 
 You can and should periodically update all Visual Studio installations so that they receive the latest security and functionality fixes. 
 
@@ -73,13 +76,13 @@ You can initiate an update to Visual Studio by programmatically invoking the cli
 You can change the channel to a network layout *and* execute an update command on the client like this:
 
 ```shell
-"C:\program files (x86)\microsoft\visual studio\installer\>setup.exe" update --installPath "C:\Program Files\Microsoft Visual Studio\2019\Enterprise" --channelUri "\\\\server\\share\\newlayoutdir\\channelmanifest.json"
+"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" update --installPath "C:\Program Files\Microsoft Visual Studio\2019\Enterprise" --channelUri "\\\\server\\share\\newlayoutdir\\channelmanifest.json"
 ```
 
 or like this, which sets the source of updates to a Microsoft hosted location:
 
 ```shell
-"C:\program files (x86)\microsoft\visual studio\installer\>setup.exe" update --installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" --channelUri "https://aka.ms/vs/17/release/channel"
+"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" update --installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" --channelUri "https://aka.ms/vs/17/release/channel"
 ```
 
 Note that in the previous two examples, you can't initiate execution of the installer programmatically from the same directory that the installer resides in.
@@ -130,7 +133,7 @@ This example instructs Visual Studio to *explicitly* look for *both* of these co
 This example instructs Visual Studio to update itself from the content included in the internal intranet webserver hosted layout. 
 
  ```shell
-    "C:\program files (x86)\microsoft\visual studio\installer\>setup.exe" update --installPath "C:\Program Files\Microsoft Visual Studio\2019\Enterprise"
+    "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" update --installPath "C:\Program Files\Microsoft Visual Studio\2019\Enterprise"
  ```
  
 ## Get support for your network layout

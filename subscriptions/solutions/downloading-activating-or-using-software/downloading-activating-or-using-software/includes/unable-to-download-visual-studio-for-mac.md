@@ -13,6 +13,11 @@ subscription.type: vl, cloud, retail, partner
 sap.id: 53a7a6d4-7755-352a-5a65-715d78af84bf
 ---
 
+> [!IMPORTANT]
+> Visual Studio for Mac was retired on August 31, 2024 in accordance with Microsoft’s [Modern Lifecycle Policy](/lifecycle/policies/modern).
+>  
+> [Learn more about support timelines and alternatives](/visualstudio/mac/what-happened-to-vs-for-mac).
+
 ## I'm unable to download or activate Visual Studio for Mac
 
 As a Visual Studio subscriber, you have access to the Visual Studio IDE. Visual Studio for Mac is a separate download that you can find in the [downloads page](https://my.visualstudio.com/Downloads) of the subscriptions portal. 

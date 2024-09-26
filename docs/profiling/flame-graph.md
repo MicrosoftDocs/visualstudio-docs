@@ -29,6 +29,8 @@ For a tutorial that shows how to improve performance using the flame graph, see 
 
    ![Screenshot showing Flame Graph view selected.](./media/vs-2022/flame-graph-view.png "Flame Graph view selected")
 
+   The Flame Graph view appears.
+
    ![Screenshot showing Flame Graph overview displayed.](./media/vs-2022/flame-graph-overview.png "Flame Graph overview displayed")
 
 1. By default, the flame graph in the tool is shown upside down or as an "icicle chart," where the y-axis is counting stack depth downwards from zero at the top. You can view the standard flame chart layout by clicking **Flip Flame Graph**.

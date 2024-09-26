@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the symbol ID from which the pointer is based."
+description: Retrieves the symbol ID from which the pointer is based.
 title: "IDiaSymbol::get_baseSymbolId"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_baseSymbolId
 
 Retrieves the symbol ID from which the pointer is based.

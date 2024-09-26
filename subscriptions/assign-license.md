@@ -1,10 +1,10 @@
 ---
 title: Assign Visual Studio subscriptions to users
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.assetid: 4e529a43-7aed-4eee-895d-862a631952df
-ms.date: 03/19/2024
+ms.date: 09/16/2024
 ms.topic: conceptual
 description: Assign license subscriptions to users (subscribers) in the Subscriptions Admin Portal, set up email notifications, and send assignment messages.
 ---

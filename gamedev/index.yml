@@ -1,11 +1,11 @@
 ### YamlMime:Hub
 
 title: Visual Studio game development documentation
-summary: Learn how to make games using Visual Studio, Visual Studio for Mac, and the leading tools they integrate with like Unity, Unreal Engine, and more.
+summary: Learn how to make games using Visual Studio and the leading tools it integrates with like Unity, Unreal Engine, and more.
 brand: visual-studio
 metadata:
   title: Visual Studio game development documentation
-  description: Discover how to make games by using Visual Studio, Visual Studio for Mac, and the leading tools they integrate with, including Unity, Unreal Engine, and more.
+  description: Discover how to make games by using Visual Studio and the leading tools it integrates with, including Unity, Unreal Engine, and more.
   author: therealjohn
   ms.author: johmil
   ms.date: 08/05/2020
@@ -53,7 +53,7 @@ productDirectory:
           text: Overview of MonoGame
         - url: https://docs.monogame.net/articles/getting_started/index.html
           text: Getting started with MonoGame
-        - url: https://docs.monogame.net/articles/getting_started/1_setting_up_your_development_environment_windows.html
+        - url: https://docs.monogame.net/articles/getting_started/1_setting_up_your_os_for_development_windows.html
           text: Setting up Visual Studio for MonoGame
     - title: Unreal Engine
       imageSrc: unreal/media/unreal-engine-logo.png

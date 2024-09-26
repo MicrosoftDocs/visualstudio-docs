@@ -1,7 +1,7 @@
 ---
 title: Install and manage GitHub Copilot in Visual Studio
 description: Learn how to install GitHub Copilot to get GitHub Copilot Completions and Chat in Visual Studio. Use the Copilot badge in the IDE to access options to manage or troubleshoot your Copilot state. 
-ms.date: 7/29/2024
+ms.date: 9/12/2024
 ms.topic: install-set-up-deploy
 author: anandmeg
 ms.author: meghaanand
@@ -9,6 +9,7 @@ ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot 
 monikerRange: '>= vs-2022'
+ms.custom: [copilot-learning-hub]
 ---
 # Install GitHub Copilot in Visual Studio
 
@@ -111,7 +112,7 @@ If [Copilot is disabled by your administrator](visual-studio-github-copilot-trou
 
 ### Copilot is unavailable
 
-If Copilot is installed but unavailable for use, it may be due to network connectivity issues, server-side technical problems, or an expired service plan. In this state, Copilot doesn't provide its usual services until the external issues are resolved.
+If Copilot is installed but unavailable for use, it may be due to [network connectivity issues](visual-studio-github-copilot-troubleshoot.md#network-issues), [server-side technical problems](visual-studio-github-copilot-troubleshoot.md#copilot-service-is-unavailable), or an expired service plan. In this state, Copilot doesn't provide its usual services until the external issues are resolved.
 
 Select **Copilot is unreachable** in the dropdown menu to open the **Troubleshooting** page on diagnosing and resolving common network errors with GitHub Copilot. When the issue is resolved and you're signed in with an active subscription, the Copilot status icon updates to [active](#copilot-is-active).
 

@@ -15,9 +15,6 @@ Visual Studio has built-in accessibility features that are compatible with scree
 
 We also cover how to use annotations to reveal useful information about your code, and also how to set audio cues for error, breakpoint, or warning events.
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Accessibility for Visual Studio for Mac](/visualstudio/mac/accessibility).
-
 ## Screen readers
 
 Visual Studio supports screen readers in the IDE. The following screen readers have been tested:
@@ -83,6 +80,7 @@ Some other useful keyboard shortcuts include the following.
 |Toolbox window|Add a control from the Toolbox to a form or designer.|**Enter**|
 |Options dialog box: Environment > Keyboard|Delete a key combination entered in the **Press shortcut keys** option.|**Backspace**|
 |Notifications tool window|Open the Notifications tool window by using two keyboard shortcut key combinations, one followed by the other. Then, view a  notification by using the arrow keys to select it.| **Ctrl**+**&#92;**, **Ctrl**+**N**|
+|Data Grids|Open filters in data grid column headers, such as in the references tool window.|**Ctrl**+**[arrow keys]**|
 
 For a complete list, see [Keyboard shortcuts in Visual Studio](../default-keyboard-shortcuts-in-visual-studio.md).
 
@@ -166,5 +164,4 @@ Here's how to add audio cues to program events by using either Windows 11 or Win
 * [Set accessibility options](../how-to-change-fonts-and-colors-in-visual-studio.md#set-accessibility-options)
 * [Customize menus and toolbars in Visual Studio](../../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
 * [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)
-* [Accessibility (Visual Studio for Mac)](/visualstudio/mac/accessibility)
 * [Microsoft Accessibility](https://www.microsoft.com/Accessibility)

@@ -82,7 +82,6 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
 - [Expose properties to the properties window](exposing-properties-to-the-properties-window.md)
 - [Use and providing services](../extensibility/using-and-providing-services.md)
 - [Manage VSPackages](../extensibility/managing-vspackages.md)
-- [Visual Studio isolated shell](https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/)
 - [Ship Visual Studio extensions](../extensibility/shipping-visual-studio-extensions.md)
 - [Inside the Visual Studio SDK](../extensibility/internals/inside-the-visual-studio-sdk.md)
 - [Support for the Visual Studio SDK](../extensibility/support-for-the-visual-studio-sdk.md)

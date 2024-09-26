@@ -1,7 +1,7 @@
 ---
 title: Manage project and solution properties
 description: Manage both the project properties and the solution properties in Visual Studio for C#, Visual Basic, F#, C++, and JavaScript projects.
-ms.date: 05/31/2024
+ms.date: 09/10/2024
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -30,9 +30,6 @@ You access project properties by right-clicking the [project node](use-solution-
 .NET projects might also have a properties node in the project tree itself.
 
 :::image type="content" source="media/vs-2022/properties-node-solution-explorer.png" alt-text="Screenshot of Solution Explorer with a Properties node showing.":::
-
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Managing solution and project properties (Visual Studio for Mac)](/visualstudio/mac/managing-solutions-and-project-properties).
 
 ## Project properties
 
@@ -85,7 +82,23 @@ For information about C++ project properties, see [Work with project properties 
 
 ## Solution properties
 
+::: moniker range="vs-2019"
+
 To access properties on the solution, right-click the [solution node](use-solution-explorer.md#solution-explorer-ui) in **Solution Explorer** and select **Properties**. In the dialog box, you can set project configurations for **Debug** or **Release** builds, choose which projects should be the startup project when you select **F5**, and set code analysis options.
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+To access properties on the solution, right-click the [solution node](use-solution-explorer.md#solution-explorer-ui) in **Solution Explorer** and select **Properties**. What you see in the context menu from the Solution node also depends on your project type, programming language, or platform.
+
+:::image type="content" source="media/vs-2022/solution-node-properties.png" alt-text="Screenshot of the solution node right-click menu.":::
+
+In the dialog box, you can set [project configurations](understanding-build-configurations.md#solution-configurations) for **Debug** or **Release** builds, and choose which projects should be the [startup project](how-to-set-multiple-startup-projects.md) when you select **F5**. The Code Analysis property page at the solution level was [removed](../code-quality/analyzers-faq.yml#code-analysis-solution-property-page). You can still set code analysis properties at the project level.
+
+:::image type="content" source="media/vs-2022/solution-properties-dialog.png" alt-text="Screenshot of the solution properties dialog.":::
+
+::: moniker-end
 
 Solution properties are stored in a Solution User Options (*.suo*) file. For more information about this file type, see [Solution file](solutions-and-projects-in-visual-studio.md#solution-file).
 

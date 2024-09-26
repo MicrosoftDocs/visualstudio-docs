@@ -14,7 +14,7 @@ In addition to the properties that control individual Docker projects, described
 
 ## How to set the MSBuild properties
 
-To set the value of a property, edit the project file. For Docker Compose properties, this project file is the one with a .dcproj extension, unless otherwise indicated in the table in the next section. For example, suppose you want to specify to launch the browser when you start debugging. You can set the `DockerLaunchAction` property in the .dcproj project file as follows.
+To set the value of a property, edit the project file. For Docker Compose properties, this project file is the one with a `.dcproj` extension, unless otherwise indicated in the table in the next section. For example, suppose you want to specify to launch the browser when you start debugging. You can set the `DockerLaunchAction` property in the `.dcproj` project file as follows.
 
 ```xml
 <PropertyGroup>
@@ -34,7 +34,7 @@ The following table shows the MSBuild properties available for Docker Compose pr
 |DockerComposeBaseFilePath|dcproj|Specifies the first part of the filenames of the Docker Compose files, without the `.yml` extension. For example: <br>1. DockerComposeBaseFilePath = null/undefined: use the base file path `docker-compose`, and files will be named *docker-compose.yml* and *docker-compose.override.yml*.<br>2. DockerComposeBaseFilePath = *mydockercompose*: files will be named *mydockercompose.yml* and *mydockercompose.override.yml*.<br> 3. DockerComposeBaseFilePath = *..\mydockercompose*: files will be up one level. |`docker-compose`|
 |DockerComposeBuildArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose build` command. For example, `--parallel --pull`. |
 |DockerComposeDownArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose down` command. For example, `--timeout 500`.|-|
-| DockerComposeEnvFilePath | dcproj | The relative path to an .env file that will be passed to `docker compose` commands via `--env-file`. See [Substitute with a .env file](https://docs.docker.com/compose/environment-variables/set-environment-variables/#substitute-with-an-env-file). | Empty |
+| DockerComposeEnvFilePath | dcproj | The relative path to an .env file that's passed to `docker compose` commands via `--env-file`. See [Use the env_file attribute](https://docs.docker.com/compose/how-tos/environment-variables/set-environment-variables/#use-the-env_file-attribute). | Empty |
 |DockerComposeProjectName| dcproj | If specified, overrides the project name for a Docker Compose project. | "dockercompose" + auto-generated hash |
 |DockerComposeProjectPath|csproj or vbproj|The relative path to the Docker Compose project (dcproj) file. Set this property when publishing the service project to find the associated image build settings stored in the docker-compose.yml file.|-|
 |DockerComposeProjectsToIgnore|dcproj| Specifies projects to be ignored by Docker Compose tools during debug. This property can be used for any project. File paths can be specified one of two ways: <br> 1. Relative to dcproj. For example, `<DockerComposeProjectsToIgnore>path\to\AngularProject1.csproj</DockerComposeProjectsToIgnore>`. <br> 2. Absolute paths.<br> **Note**: The paths should be separated by the delimiter character `;`.|-|
@@ -127,6 +127,7 @@ Use double quotes around the values, as in the preceding example, and use the ba
 |com.microsoft.visualstudio.debuggee.killprogram|This command is used to stop the debuggee program that's running inside of the container (when necessary).|
 |com.microsoft.visualstudio.debuggee.noattach.program|The program launched when you use **Start without debugging** (**Ctrl**+**F5**) in an Azure functions project that runs in an [isolated process](/azure/azure-functions/dotnet-isolated-process-guide). Typically both **F5** and **Ctrl**+**F5** uses the same program, but if any project type like Azure Functions in an isolated process requires a different program than **F5**, then this will be used.|
 |com.microsoft.visualstudio.debuggee.noattach.arguments|The arguments passed to the program when you use **Start without debugging** (**Ctrl**+**F5**) in an Azure functions project that runs in an isolated process.|
+|com.microsoft.visual-studio.project-name|The name of the project, which helps Visual Studio find the project if the project is not in the same folder as the Dockerfile.|
 :::moniker-end
 
 ### Customize the Docker build process

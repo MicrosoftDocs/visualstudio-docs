@@ -59,7 +59,7 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "WebApplication1.dll"]
 ```
 
-The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) image, and includes instructions for modifying the base image by building your project and adding it to the container. If you're using the .NET Framework, the base image will be different.
+The preceding *Dockerfile* is based on the dotnet/core/aspnet image, and includes instructions for modifying the base image by building your project and adding it to the container. If you're using the .NET Framework, the base image will be different.
 
 When the new project dialog's **Configure for HTTPS** checkbox is checked, the *Dockerfile* exposes two ports. One port is used for HTTP traffic; the other port is used for HTTPS. If the checkbox isn't checked, a single port (80) is exposed for HTTP traffic.
 

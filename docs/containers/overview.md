@@ -1,6 +1,6 @@
 ---
-title: Visual Studio Container Tools & Docker on Windows
-description: Explore tools available for working with Docker containers in Visual Studio for Windows, including continuous delivery and continuous integration (CI/CD).
+title: Visual Studio Container Tools and Docker on Windows
+description: Explore tools available for working with Docker containers in Visual Studio for Windows, including CI/CD, and choose whether to work with a Dockerfile, or build a containerized app without a Dockerfile.
 author: ghogen
 ms.author: ghogen
 ms.topic: overview
@@ -190,7 +190,7 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "WebApplication-Docker.dll"]
 ```
 
-## Add Docker support using the .NET SDK option
+## Containerize a .NET app without a Dockerfile
 
 With Visual Studio 2022 17.9 and later with the .NET 7 SDK installed, in ASP.NET Core projects that target .NET 6 or later, you have the option of using .NET SDK's built-in support for container builds, which means you don't need a Dockerfile; see [Containerize a .NET app with dotnet publish](/dotnet/core/docker/publish-as-container?pivots=dotnet-8-0). Instead, you configure your containers using MSBuild properties in the project file, and the settings for launching the containers with Visual Studio are encoded in a `.json` configuration file, *launchSettings.json*.
 

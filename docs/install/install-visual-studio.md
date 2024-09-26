@@ -2,7 +2,7 @@
 title: Install Visual Studio and choose your preferred features
 titleSuffix: ''
 description: Learn how to install Visual Studio quickly. To reduce the installation footprint, choose your preferred features.
-ms.date: 06/18/2024
+ms.date: 09/06/2024
 ms.custom: vs-acquisition
 ms.topic: install-set-up-deploy
 helpviewer_keywords:
@@ -34,7 +34,7 @@ Welcome to Visual Studio 2022! In this version, it's easy to choose and install 
 ::: moniker-end
 
 > [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Install Visual Studio for Mac](/visualstudio/mac/installation/). If you need to programmatically install Visual Studio, see [Use command-line parameters](use-command-line-parameters-to-install-visual-studio.md).
+> If you need to programmatically install Visual Studio, see [Use command-line parameters](use-command-line-parameters-to-install-visual-studio.md).
 
 ::: moniker range="vs-2019"
 
@@ -270,7 +270,15 @@ You can reduce the installation footprint of Visual Studio on your system drive.
 >
 > If you installed Visual Studio on your computer before, you won't be able to change the **Shared components, tools, and SDKs** path. It appears greyed out. This location is shared by all installations of Visual Studio.
 
-## Step 8 - Start developing
+## Step 8 - Sign in to your account (optional)
+
+While you don't have to sign in, there are many [advantages](../ide/signing-in-to-visual-studio.md#benefits-why-sign-in) to doing so.
+
+You can evaluate a free trial of [Visual Studio Professional or Visual Studio Enterprise](https://visualstudio.microsoft.com/vs/compare/) for 30 days. If you sign in, you can extend the trial period to 90 days. The 90-day trial extension works only one time. To continue using Visual Studio after a trial period ends, unlock it with an [online subscription](../ide/how-to-unlock-visual-studio.md#use-an-online-subscription) or a [product key](../ide/how-to-unlock-visual-studio.md#enter-a-product-key).
+
+Visual Studio Community doesn't require you to sign in. However, if the installation prompts you to sign in periodically, [sign in](../ide/signing-in-to-visual-studio.md) to continue using Visual Studio Community without interruptions.
+
+## Step 9 - Start developing
 
 After installation is complete, you can get started developing with Visual Studio.
 

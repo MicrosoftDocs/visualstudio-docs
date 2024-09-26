@@ -16,7 +16,7 @@ ms.subservice: extensibility-integration
 If you've never written a Visual Studio extension before, you probably have some questions. We've listed some of the most common ones here. If you don't see the information you're looking for, use the feedback button at the upper right of this page to ask for what you want.
 
 > [!NOTE]
-> This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Extending Visual Studio for Mac](/previous-versions/visualstudio/mac/extending-visual-studio-mac-walkthrough). For Visual Studio Code, see [Visual Studio Code Extension API](https://code.visualstudio.com/api).
+> This article applies to Visual Studio on Windows. For Visual Studio Code, see [Visual Studio Code Extension API](https://code.visualstudio.com/api).
 
 ## What software do I need to develop Visual Studio extensions?
 
@@ -54,8 +54,6 @@ In practice, we have found that the features most people want to extend are comm
 
 - [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
 
-- [Visual Studio Isolated Shell](https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/)
-
 ## What project templates are provided by the VSSDK?
 
  The two main types of extensions are VSPackages and MEF extensions. In general, VSPackage extensions are used for extensions that use or extend commands, tool windows, and projects. MEF extensions are used to extend or customize the Visual Studio editor.
@@ -64,7 +62,7 @@ In practice, we have found that the features most people want to extend are comm
 
  For C++, the VSPackage wizard provides the code to add menu commands, tool windows, and custom editors.
 
- The Isolated Shell template is used to package an extension in a version of the Visual Studio shell that you can brand and distribute as your own. The following articles show you how to get started with each kind of extension:
+The following articles show you how to get started with each kind of extension:
 
 - Menu commands: [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)
 
@@ -92,5 +90,4 @@ In practice, we have found that the features most people want to extend are comm
 
 ## Related content
 
-- [Extending Visual Studio for Mac](/previous-versions/visualstudio/mac/extending-visual-studio-mac-walkthrough)
 - [Extending Visual Studio Code](https://code.visualstudio.com/api)

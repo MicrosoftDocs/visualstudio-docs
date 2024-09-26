@@ -33,7 +33,7 @@ Make sure to install the following:
 - Visual Studio 2022 version 17.8 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-create-aspnetcore-app-with-angular-page-cta) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 - npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js
-- Angular CLI ([`https://angular.io/cli`](https://angular.io/cli)), which can be the version of your choice.
+- Angular CLI ([`https://angular.dev/tools/cli`](https://angular.dev/tools/cli)), which can be the version of your choice.
 
 ## Create the frontend app
 
@@ -152,7 +152,10 @@ You may see the following error:
 [HPM] Error occurred while trying to proxy request /weatherforecast from localhost:4200 to https://localhost:5001 (ECONNREFUSED) (https://nodejs.org/api/errors.html#errors_common_system_errors)
 ```
 
-If you see this issue, most likely the frontend started before the backend. Once you see the backend command prompt up and running, just refresh the Angular App in the browser.
+If you see this issue, most likely the frontend started before the backend.
+
+- Once you see the backend command prompt up and running, just refresh the Angular app in the browser.
+- Also, verify that the backend is configured to start before the front end. To verify, select the solution in Solution Explorer, choose **Properties** from the **Project menu**. Next, select **Configure Startup Projects** and make sure that the backend ASP.NET Core project is first in the list. If it's not first, select the project and use the Up arrow button to make it the first project in the launch list.
 
 ### Verify port
 
@@ -183,12 +186,12 @@ If you create the project with [Docker support](../containers/overview.md#prereq
       env.ASPNETCORE_URLS ? env.ASPNETCORE_URLS.split(';')[0] : 'https://localhost:7209';
    ```
 
-   change `https://localhost:7209` to `https://localhost:62958`.
+   change `https://localhost:7209` to the matching HTTPS port (in this example, `https://localhost:62958`).
 
 1. Restart the app.
 
 ## Next steps
 
-For more information about SPA applications in ASP.NET Core, see the Angular section under [Overview of Single-Page Apps (SPAs)](/aspnet/core/client-side/spa/intro?view=aspnetcore-7.0&preserve-view=true). The linked article provides additional context for project files such as *aspnetcore-https.js* and *proxy.conf.js*, although details of the implementation are different due to project template differences. For example, instead of a ClientApp folder, the Angular files are contained in a separate project.
+For more information about SPA applications in ASP.NET Core, see the Angular section under [Developing Single Page Apps](/aspnet/core/client-side/spa/intro?view=aspnetcore-7.0&preserve-view=true#developing-single-page-apps). The linked article provides additional context for project files such as *aspnetcore-https.js* and *proxy.conf.js*, although details of the implementation are different due to project template differences. For example, instead of a ClientApp folder, the Angular files are contained in a separate project.
 
 For MSBuild information specific to the client project, see [MSBuild properties for JSPS](../javascript/javascript-project-system-msbuild-reference.md).

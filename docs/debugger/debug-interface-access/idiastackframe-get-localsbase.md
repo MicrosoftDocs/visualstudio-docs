@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the base address of the local variables for the frame."
+description: Retrieves the base address of the local variables for the frame.
 title: "IDiaStackFrame::get_localsBase"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackFrame::get_localsBase
 
 Retrieves the base address of the local variables for the frame.
@@ -19,7 +20,7 @@ Retrieves the base address of the local variables for the frame.
 ## Syntax
 
 ```C++
-HRESULT get_localsBase ( 
+HRESULT get_localsBase ( 
    ULONGLONG* pRetVal
 );
 ```

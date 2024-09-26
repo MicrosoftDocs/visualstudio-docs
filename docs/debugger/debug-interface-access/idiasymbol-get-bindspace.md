@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the binding space."
+description: Retrieves the binding space.
 title: "IDiaSymbol::get_bindSpace"
 ms.date: "07/09/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_bindSpace
 
 Retrives the binding space.

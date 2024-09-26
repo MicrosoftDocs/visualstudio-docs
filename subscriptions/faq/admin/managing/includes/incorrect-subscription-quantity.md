@@ -5,9 +5,9 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.faqid: group1_7
 ms.topic: include
 ms.assetid: d97a767b-148d-488d-a860-778f406d8207
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/09/2023
+ms.date: 09/23/2024
 ---
 
 ## Why is the portal not showing the correct number of Visual Studio subscriptions for my agreement?

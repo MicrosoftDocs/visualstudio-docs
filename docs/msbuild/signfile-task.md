@@ -1,7 +1,7 @@
 ---
 title: "SignFile Task"
 description: Learn how MSBuild uses the SignFile task to sign the specified file using the specified certificate.
-ms.date: "05/27/2022"
+ms.date: "9/5/2024"
 ms.topic: "reference"
 f1_keywords:
   - "http://schemas.microsoft.com/developer/msbuild/2003#SignFile"
@@ -57,7 +57,7 @@ SignFile requires either Visual Studio or a Windows 8.1 SDK to be installed, in 
     </PropertyGroup>
     <Target Name="Sign">
         <SignFile
-            CertificateThumbprint="$(CertificateThumbprint)"
+            CertificateThumbprint="$(CERTIFICATE_THUMBPRINT)"
             SigningTarget="@(FileToSign)"
             TargetFrameworkVersion="v4.5" />
     </Target>
@@ -65,7 +65,7 @@ SignFile requires either Visual Studio or a Windows 8.1 SDK to be installed, in 
 ```
 
 > [!NOTE]
-> The certificate thumbprint is the SHA-1 hash of the certificate. For more information, see [Obtain the SHA-1 hash of a trusted root CA certificate](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc733076\(v\=ws.10\)). If you copy and paste the thumbprint from the certificate details, make sure you do not include the extra (3F) invisible character, which may prevent `SignFile` from finding the certificate.
+> The certificate thumbprint is the SHA-1 hash of the certificate. The example here assumes an environment variable `CERTIFICATE_THUMBPRINT` that contains the thumbprint. For more information, see [Obtain the SHA-1 hash of a trusted root CA certificate](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc733076\(v\=ws.10\)). If you copy and paste the thumbprint from the certificate details, make sure you do not include the extra (3F) invisible character, which may prevent `SignFile` from finding the certificate.
 
 ## See also
 

@@ -5,9 +5,9 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.faqid: group1_6
 ms.topic: include
 ms.assetid: cc15e1c7-6b3a-43bf-8ce0-4120dbbb5a47
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/09/2023
+ms.date: 09/23/2024
 ---
 
 ## I have a new agreement.  How do I move my subscribers?

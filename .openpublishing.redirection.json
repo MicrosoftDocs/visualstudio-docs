@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "docs/extensibility/internals/microsoft-help-viewer-sdk.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/microsoft-help-viewer-sdk",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/modeling/vs-shell-deployment.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/modeling/vs-shell-deployment",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/code-quality/all-rules-rule-set.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/all-rules-rule-set",
       "redirect_document_id": false

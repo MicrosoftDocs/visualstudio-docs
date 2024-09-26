@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a .NET Native input assembly file by unique identifier."
+description: Retrieves a .NET Native input assembly file by unique identifier.
 title: "IDiaSession::findInputAssemblyById"
 ms.date: "07/04/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findInputAssemblyById
 
 Retrieves a .NET Native input assembly file by unique identifier.

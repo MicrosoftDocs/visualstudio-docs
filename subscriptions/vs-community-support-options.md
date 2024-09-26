@@ -1,9 +1,9 @@
 ---
 title: Community support offerings in Visual Studio subscriptions
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 06/21/2023
+ms.date: 09/11/2024
 ms.topic: conceptual
 description:  Learn about the various community-based support offerings in Visual Studio subscriptions
 ---

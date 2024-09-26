@@ -1,7 +1,7 @@
 ---
 title: 'Create and edit configurations'
 description: Create and edit several build configurations for your solution in Visual Studio with the Configuration Manager, including Release, Debug, and Test.
-ms.date: 08/15/2023
+ms.date: 09/13/2024
 ms.subservice: compile-build
 ms.topic: how-to
 helpviewer_keywords:
@@ -138,4 +138,3 @@ You create a new project configuration when you want to add a new type of build.
 - [Configure projects to target platforms](how-to-configure-projects-to-target-platforms.md)
 - [Build and clean projects and solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)
 - [Manage project and solution properties](managing-project-and-solution-properties.md)
-- [Create and edit configurations (Visual Studio for Mac)](/visualstudio/mac/create-and-edit-configurations)

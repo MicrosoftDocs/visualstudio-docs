@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the .NET Native input assembly file that is the parent of the symbol."
+description: Retrieves the .NET Native input assembly file that is the parent of the symbol.
 title: "IDiaSymbol::findInputAssemblyFile"
 ms.date: "07/09/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::findInputAssemblyFile
 
 Retrieves the .NET Native input assembly file that is the parent of the symbol.

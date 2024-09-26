@@ -57,7 +57,7 @@ To add an Unreal Engine class in Visual Studio, follow these steps after complet
 
 1. In **Solution Explorer**, choose a folder where you want the new class to go. In the LyraStarterGame project, you could add a new class to the **LyraStarterGame** > **Source** folder, for example.
 1. Right-click the folder and choose **Add** > **Unreal Engine item...** to open the **Add New Item** dialog:
-    :::image type="complex" source="../media/vs-add-new-unreal-engine-item-dialog-class.png" alt-text="A screenshot of the Add New Item dialog.":::
+    :::image type="complex" source="../media/vs-add-new-unreal-engine-item-dialog-class.png" alt-text="A screenshot of the Add New Item dialog, with Unreal Engine Common Classes selected.":::
     It has options for adding an Unreal Engine Common Classes (which is selected), Empty Unreal Engine Module, and Unreal Engine Plugins.
     :::image-end:::
 1. Choose **Unreal Engine Common Classes** and then choose **Add** to open the **Add Unreal Engine Class** dialog:
@@ -78,7 +78,7 @@ To add an Unreal Engine plugin in Visual Studio, follow these steps after comple
 
 1. In **Solution Explorer**, choose a folder where you want the new plugin to go. In the LyraStarterGame project, you could add a new plugin to the **LyraStarterGame** > **Source** folder, for example.
 1. Right-click the folder and choose **Add** > **Unreal Engine item...** to open the **Add New Item** dialog:
-    :::image type="complex" source="../media/vs-add-new-unreal-engine-item-dialog-plugin.png" alt-text="A screenshot of the Add New Item dialog.":::
+    :::image type="complex" source="../media/vs-add-new-unreal-engine-item-dialog-plugin.png" alt-text="A screenshot of the Add New Item dialog, with Unreal Engine Plugins selected.":::
      It has options for adding an Unreal Engine Common Classes, Empty Unreal Engine Module, and Unreal Engine Plugins (which is selected).
     :::image-end:::
 1. Choose **Unreal Engine Plugins** and then choose **Add** to open the **Add Unreal Engine Plugin** dialog:
