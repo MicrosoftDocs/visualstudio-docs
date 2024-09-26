@@ -4,9 +4,9 @@ description: A Microsoft Account (MSA) is a personal email account owned by an i
 ms.faqid: group3_1
 ms.topic: include
 ms.assetid: 7fc185d7-b658-4855-a663-ac56cf0f5355
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 10/05/2023
+ms.date: 09/26/2024
 ---
 
 ## What is the difference between using a Microsoft Account vs Work account?
