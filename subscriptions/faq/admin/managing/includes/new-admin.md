@@ -5,9 +5,9 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.faqid: group1_1
 ms.topic: include
 ms.assetid: ccc3a5d5-885a-47f6-aefc-e8403aa7cde8
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/09/2023
+ms.date: 09/23/2024
 ---
 
 ## I'm a new administrator. Where is everything I need to know?

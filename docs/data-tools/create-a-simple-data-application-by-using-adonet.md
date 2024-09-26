@@ -137,8 +137,8 @@ You can find the connection string by right-clicking on the **Sales** data conne
 
    :::image type="content" source="media/vs-2022/simple-data-app-settings.png" alt-text="Screenshot of Connection String in Settings.settings" lightbox="media/vs-2022/simple-data-app-settings.png":::
 
-> [!NOTE]
-> In a real application, you should store the connection string securely, as described in [Connection strings and configuration files](/dotnet/framework/data/adonet/connection-strings-and-configuration-files).
+> [!CAUTION]
+> In a real application, you should store the connection string securely, as described in [Connection strings and configuration files](/dotnet/framework/data/adonet/connection-strings-and-configuration-files). For best security, use an authentication method that doesn't rely on storing a password in the connection string, such as Windows Authentication for an on-premises SQL Server database. See [Save and edit connection strings](how-to-save-and-edit-connection-strings.md).
 
 ## Write the code for the forms
 

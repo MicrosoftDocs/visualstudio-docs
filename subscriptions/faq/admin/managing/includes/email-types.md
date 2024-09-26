@@ -5,9 +5,9 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.faqid: group1_5
 ms.topic: include
 ms.assetid: 3b7b2932-3274-4275-9d80-b28406bcefc4
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/09/2023
+ms.date: 09/23/2024
 ---
 
 ## What is the difference between a Sign-in email address and a Notification email address?

@@ -2,7 +2,7 @@
 title: Change themes, fonts, text, & accessibility options in Visual Studio
 description: Learn how to change Visual Studio color themes, font colors, text sizes, extra-contrast colors, and more for ease of use and accessibility concerns.
 titleSuffix: ''
-ms.date: 9/10/2024
+ms.date: 9/19/2024
 ms.topic: how-to
 helpviewer_keywords:
 - Visual Studio, color themes
@@ -152,6 +152,8 @@ You can change the font and text size for all the IDE frame and tool windows, or
 1. Select the appropriate item in **Display items**, and then modify the **Item foreground** and **Item background** options.
 
 ::: moniker-end
+
+Changes to font settings for Printer affect the appearance of text in printed documents. To modify the font for printing, in the **Show settings for** list, select **Printer and Cut/Copy**. If you're getting garbage characters when printing, please refer to the [Dev Community ticket ](https://developercommunity.visualstudio.com/t/Printing-problem-for-listings-Visual-Stu/10314328) on the issue.
 
 For more information about how to change fonts and colors for accessibility, see the [Set accessibility options](#set-accessibility-options) section of this page. And, for details about all the user interface (UI) elements where you can change font and color schemes, see the [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) page.
 

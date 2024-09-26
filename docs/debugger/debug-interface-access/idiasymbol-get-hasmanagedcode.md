@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag indicating whether the module contains managed code."
+description: Retrieves a flag indicating whether the module contains managed code.
 title: "IDiaSymbol::get_hasManagedCode"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_hasManagedCode
 
 Retrieves a flag indicating whether the module contains managed code.

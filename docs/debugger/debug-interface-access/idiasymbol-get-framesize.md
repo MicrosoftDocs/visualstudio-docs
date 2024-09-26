@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the frame size."
+description: Retrieves the frame size.
 title: "IDiaSymbol::get_frameSize"
 ms.date: "07/11/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_frameSize
 
 Retrieves the frame size.
@@ -19,7 +20,7 @@ Retrieves the frame size.
 ## Syntax
 
 ```C++
-HRESULT get_frameSize ( 
+HRESULT get_frameSize ( 
    DWORD* pRetVal
 );
 ```

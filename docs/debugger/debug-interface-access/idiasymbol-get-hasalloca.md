@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that specifies whether the function contains a call to alloca (which is used to allocate memory on the stack)."
+description: Retrieves a flag that specifies whether the function contains a call to alloca (which is used to allocate memory on the stack).
 title: "IDiaSymbol::get_hasAlloca"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_hasAlloca
 
 Retrieves a flag that specifies whether the function contains a call to `alloca` (which is used to allocate memory on the stack).
@@ -19,7 +20,7 @@ Retrieves a flag that specifies whether the function contains a call to `alloca`
 ## Syntax
 
 ```cpp
-HRESULT get_hasAlloca(   BOOL *pFlag);
+HRESULT get_hasAlloca(   BOOL *pFlag);
 ```
 
 #### Parameters

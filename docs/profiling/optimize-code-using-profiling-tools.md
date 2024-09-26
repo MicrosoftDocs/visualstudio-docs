@@ -1,7 +1,7 @@
 ---
 title: "Beginner's guide to optimizing code"
 description: "Learn how to optimize code and reduce compute costs using Visual Studio profiling tools such as the CPU Usage tool, the .NET Object Allocation tool, and the Database tool."
-ms.date: 08/09/2024
+ms.date: 09/20/2024
 ms.topic: conceptual
 ms.custom: "profiling-seo"
 dev_langs:
@@ -138,6 +138,9 @@ This code uses `foreach` loops to search the database for any blogs with "Fred S
 
 We do a little research and find some common recommendations for how to optimize LINQ queries and come up with this code.
 
+> [!TIP]
+> Alternatively, we can save time and let Copilot [do the research](#optimize-code-with-copilot) for us.
+
 ```csharp
 foreach (var x in db.Posts.Where(p => p.Author.Contains("Fred Smith")).Select(b => b.Title).ToList())
 {
@@ -151,6 +154,34 @@ In this code, we made several changes to help optimize the query:
 - Projected only the Title property in the `Select` statement, which is all we need in this example.
 
 Next, we retest using the profiling tools.
+
+### Optimize code with Copilot
+
+If we're using [Copilot](../ide/visual-studio-github-copilot-extension.md), we can ask Copilot to research performance issues for us. Select **Ask Copilot** from the context menu and type the following question:
+
+```cmd
+Can you make the LINQ query in this method faster?
+```
+
+> [!TIP]
+> You can use slash commands such as [/optimize](../ide/copilot-chat-context.md#slash-commands) to help form good questions for Copilot.
+
+In this example, Copilot gives the following suggested code changes, similar to our optimized query, along with an explanation.
+
+```csharp
+public void GetBlogTitleX()
+{
+    var posts = db.Posts
+        .Where(post => post.Author == "Fred Smith")
+        .Select(post => post.Title)
+        .ToList();
+
+    foreach (var postTitle in posts)
+    {
+        Console.WriteLine($"Post: {postTitle}");
+    }
+}
+```
 
 ## Results
 

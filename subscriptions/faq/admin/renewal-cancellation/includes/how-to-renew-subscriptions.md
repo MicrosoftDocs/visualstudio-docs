@@ -5,9 +5,9 @@ comment:  As of August 2023 this include file is used to render marketing FAQ co
 ms.topic: include
 ms.assetid: 00b82d16-6a80-42d1-8b71-e12047c6b50c
 ms.subservice: 
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/09/2023
+ms.date: 09/24/2024
 ms.faqid: q4_1
 ---
 

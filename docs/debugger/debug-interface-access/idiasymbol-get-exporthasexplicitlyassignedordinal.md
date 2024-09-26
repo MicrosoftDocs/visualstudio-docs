@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag indicating whether this export has an explicitly assigned ordinal."
+description: Retrieves a flag indicating whether this export has an explicitly assigned ordinal.
 title: "IDiaSymbol::get_exportHasExplicitlyAssignedOrdinal"
 ms.date: "07/09/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_exportHasExplicitlyAssignedOrdinal
 
 Retrieves a flag indicating whether this export has an explicitly assigned ordinal.
