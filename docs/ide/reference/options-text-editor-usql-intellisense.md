@@ -10,6 +10,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
+monikerRange: vs-2019
 ---
 # Options, Text Editor, U-SQL, IntelliSense
 
