@@ -122,7 +122,7 @@ You can come back to this summary page after you close it. The next time you rig
 ## [Web Server](#tab/web-server)
 ## Publish your web app to Web Server (IIS)
 
-You can publish your web app to IIS if IIS is configured. By default, IIS Express is installed, but you should install the IIS Management tools if you're deploying to IIS from Visual Studio. Note that you don't need to run Visual Studio as Administrator to deploy to IIS Express, but you do need to run as Administrator to deploy to IIS.
+You can publish your web app to IIS if IIS is configured. By default, IIS Express is installed, but you should install the IIS Management tools if you're deploying to IIS from Visual Studio. Note that you don't need to run Visual Studio as Administrator to deploy to IIS Express, only to full IIS.
 
 ### Prerequisites
 
@@ -142,7 +142,7 @@ Pick the desired deployment mode. Choose Web Deploy to immediately deploy the ap
 
 ### Web Deploy
 
-Provide the necessary connection details and choose **Finish**.
+Provide the necessary connection details and choose **Finish**. The following screenshot shows a web application published to the default IIS web site (Default Web Site) installed on the local development machine, with a port binding set to 5187.
 
 ![Screenshot showing the Publish wizard screen to publish to IIS with the Web Deploy option.](./media/publish-iis-web-deploy-latest.png)
 
