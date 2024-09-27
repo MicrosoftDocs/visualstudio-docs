@@ -126,6 +126,8 @@ You can publish your web app to IIS if IIS is configured. By default, IIS Expres
 
 ### Prerequisites
 
+On the remote web server, install the [Web Management Service](/iis/manage/remote-administration/remote-administration-for-iis-manager) and have it running. This is not required for a local IIS deployment.
+
 On the web server, install **IIS 6 Metabase Compatibility**. In Windows Settings, under **Programs and Features**, choose **Turn Windows features on or off**. Then under **Internet Information Services** > **Web Management Tools**, install **IIS 6 Management Compatibility**. Make sure that **IIS Metabase** and **IIS 6 configuration compatibility** are selected.
 
 To configure IIS for ASP.NET Core applications, install the [.NET Core Hosting Bundle installer (direct download)](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer). For more information, see [.NET Core hosting bundle](/aspnet/core/host-and-deploy/iis/hosting-bundle).
@@ -142,7 +144,7 @@ Pick the desired deployment mode. Choose Web Deploy to immediately deploy the ap
 
 ### Web Deploy
 
-Provide the necessary connection details and choose **Finish**. The following screenshot shows a web application published to the default IIS web site (Default Web Site) installed on the local development machine, with a port binding on port 5187.
+Provide the necessary connection details and choose **Finish**. The following screenshot shows a web application published to the default IIS web site (Default Web Site) installed on the local development machine, with a port binding on port 5187. The Destination URL is optional. If not provided, the web site is not automatically launched on publish, and there won't be a link on the **Publish** screen to access the published site.
 
 ![Screenshot showing the Publish wizard screen to publish to IIS with the Web Deploy option.](./media/publish-iis-web-deploy-latest.png)
 
@@ -151,9 +153,7 @@ The first time you publish, create a username and password. These credentials ar
 > [!WARNING]
 > Using username and password credentials is not the most secure method of authentication. Whenever possible, use alternative methods. For example, when hosting a web site in Azure App Service, you can use authentication tokens for improved security.
 
-The Destination URL is optional. If blank, you 
-
-On the remote computer, make sure that Web Deploy is installed and that the Web Management Service is started. See [Web Deploy error codes](/troubleshoot/developer/webapps/iis/deployment-migration/web-deploy-error-codes#ERROR_DESTINATION_NOT_REACHABLE).
+For troubleshooting, see [Web Deploy error codes](/troubleshoot/developer/webapps/iis/deployment-migration/web-deploy-error-codes#ERROR_DESTINATION_NOT_REACHABLE).
 
 ### Web Deploy Package
 
