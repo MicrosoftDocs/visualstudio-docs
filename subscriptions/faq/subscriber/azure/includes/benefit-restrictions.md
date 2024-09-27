@@ -4,9 +4,9 @@ description: Learn about restrictions on Azure use in Visual Studio subscription
 comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 09dac7bc-fe92-424e-bf3c-c58637799027
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/10/2023
+ms.date: 09/26/2024
 ms.faqid: q5_6
 ---
 
