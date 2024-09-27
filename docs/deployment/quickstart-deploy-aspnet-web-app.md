@@ -122,7 +122,17 @@ You can come back to this summary page after you close it. The next time you rig
 ## [Web Server](#tab/web-server)
 ## Publish your web app to Web Server (IIS)
 
-You can publish your web app to IIS.
+You can publish your web app to IIS if IIS is configured. By default, IIS Express is installed, but you should install the IIS Management tools if you're deploying to IIS from Visual Studio. Note that you don't need to run Visual Studio as Administrator to deploy to IIS Express, but you do need to run as Administrator to deploy to IIS.
+
+### Prerequisites
+
+Install **IIS 6 Metabase Compatibility**. In Windows Settings, under **Programs and Features**, choose **Turn Windows features on or off**. Then under **Internet Information Services** > **Web Management Tools**, install **IIS 6 Management Compatibility**. Make sure that **IIS Metabase** and **IIS 6 configuration compatibility** are selected.
+
+To configure IIS for ASP.NET Core applications, install the [.NET Core Hosting Bundle installer (direct download)](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer). For more information, see [.NET Core hosting bundle](/aspnet/core/host-and-deploy/iis/hosting-bundle).
+
+### Publish to IIS web server
+
+Choose **Publish**, and then **Web Server (IIS)**.
 
 ![Screenshot showing the option to publish to IIS.](./media/publish-iis.png)
 

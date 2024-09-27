@@ -44,7 +44,7 @@ The following table describes the settings. Click on the links for more informat
 | Username | IIS | `UserName` | The username you will use to access the site in IIS. |
 | Password | IIS | `UserPWD` | The first time you publish, you create a password that you will use to publish the site. The password can't be changed in Visual Studio, but it can be changed in IIS or in Azure. If you don't know the password, you can get it by downloading the `.publishsettings` file. See [Import publish settings from IIS](tutorial-import-publish-settings-iis.md) and [Import publish settings from Azure](tutorial-import-publish-settings-azure.md). |
 | Save password checkbox | IIS | `_SavePWD` | If checked, saves the password as plain text in the `.pubxml` file. |
-| Destination URL | IIS | `SiteURLToLaunchAfterPublish` | The URL that launches the app. |
+| Destination URL | IIS | `SiteURLToLaunchAfterPublish` | The URL that launches the app, for example, `http://localhost/projectname`. If the IIS configuration for the web site exposes the site on a specific port in its bindings settings, include that as in `http://localhost:nnnn/projectname`. This is optional and only provides a convenient link on the Publish page, and is used to launch the site after a successful publish. |
 | [Enable ReadyToRun compilation](/dotnet/core/deploying/ready-to-run) | Folder | `PublishReadyToRun` | ReadyToRun is a form of Ahead-of-time (AOT) compilation. It can reduce latency by avoiding Just-in-time (JIT) compilation at runtime. |
 | [Trim unused code](/dotnet/core/deploying/trimming/trim-self-contained) | Folder | `PublishTrimmed` | Minimizes the size of a self-contained deployment. |
 | [Produce single file](/dotnet/core/deploying/single-file/overview) | Folder | `PublishSingleFile` | An option that allows the published application to be distributed in a single file. |
@@ -52,8 +52,10 @@ The following table describes the settings. Click on the links for more informat
 | Delete all existing files prior to publish. | FTP | `DeleteExistingFiles` | Uncheck this to preserve unrelated files at the destination, or check this to start with a clean deployment to the folder. |
 |Package location| IIS WebDeploy Package|`DesktopBuildPackageLocation` | A local filesystem path to place the output package. |
 
-
-
 ## Next steps
 
+The settings are persisted in the `.pubxml` file. The `.pubxml` file is an MSBuild input file. You can edit the file to further customize the deployment. See [MSBuild](../msbuild/msbuild.md).
+
 ## Related content
+
+[Visual Studio .pubxml files](/aspnet/core/host-and-deploy/visual-studio-publish-profiles)
