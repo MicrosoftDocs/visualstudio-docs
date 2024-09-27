@@ -167,3 +167,10 @@ To sign out of all accounts:
 You can also use the **Account Settings** dialog to sign out of all accounts.
 
 ::: moniker-end
+
+## Related content
+
+- [Access multiple accounts associated with the Visual Studio sign-in account](sign-in-access-multiple-accounts.md)
+- [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md)
+- [Extend a trial version or update a license](how-to-unlock-visual-studio.md)
+- [Sign in to Visual Studio with accounts that require multifactor authentication (MFA)](work-with-multi-factor-authentication.md)
