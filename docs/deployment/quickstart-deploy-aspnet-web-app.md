@@ -146,6 +146,13 @@ Provide the necessary connection details and choose **Finish**. The following sc
 
 ![Screenshot showing the Publish wizard screen to publish to IIS with the Web Deploy option.](./media/publish-iis-web-deploy-latest.png)
 
+The first time you publish, create a username and password. These credentials are specific to WebDeploy deployment. Once they're created, you can't change them in Visual Studio, but you can reset them in IIS. See [Sites - Set Credentials dialog box](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831681(v=ws.11)?redirectedfrom=MSDN#set-credentials-dialog-box). If you don't have the password, you can download a `.publishsettings` file, and read it from there. See [Import publish settings from IIS](./tutorial-import-publish-settings-iis.md).
+
+> [!WARNING]
+> Using username and password credentials is not the most secure method of authentication. Whenever possible, use alternative methods. For example, when hosting a web site in Azure App Service, you can use authentication tokens for improved security.
+
+The Destination URL is optional. If blank, you 
+
 On the remote computer, make sure that Web Deploy is installed and that the Web Management Service is started. See [Web Deploy error codes](/troubleshoot/developer/webapps/iis/deployment-migration/web-deploy-error-codes#ERROR_DESTINATION_NOT_REACHABLE).
 
 ### Web Deploy Package
