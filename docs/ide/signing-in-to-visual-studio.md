@@ -11,7 +11,7 @@ ms.subservice: general-ide
 ---
 # Sign in or switch Visual Studio user accounts 
 
-In this article, you learn how to sign in to Visual Studio, add and switch user accounts, update your profile, sign out of your account, and the benefits to signing in.  If you are looking to learn how to use multiple accounts for sign-ins, check out our article, [Access multiple accounts associated with the Visual Studio sign-in account](sign-in-access-multiple-accounts.md).
+In this article, you learn how to sign in to Visual Studio, add and switch user accounts, update your profile, sign out of your account, and the benefits to signing in. To learn how to access multiple user accounts in Visual Studio, see [Access multiple accounts associated with the Visual Studio sign-in account](sign-in-access-multiple-accounts.md). For guidance on how to add your public GitHub or GitHub Enterprise account to your Visual Studio keychain, see [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md).
 
 You can get subscription support and search the frequently asked questions about subscriptions, accounts, and billing [on our Subscription support page](https://visualstudio.microsoft.com/subscriptions/support/).
 
