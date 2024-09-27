@@ -142,7 +142,7 @@ Pick the desired deployment mode. Choose Web Deploy to immediately deploy the ap
 
 ### Web Deploy
 
-Provide the necessary connection details and choose **Finish**. The following screenshot shows a web application published to the default IIS web site (Default Web Site) installed on the local development machine, with a port binding set to 5187.
+Provide the necessary connection details and choose **Finish**. The following screenshot shows a web application published to the default IIS web site (Default Web Site) installed on the local development machine, with a port binding on port 5187.
 
 ![Screenshot showing the Publish wizard screen to publish to IIS with the Web Deploy option.](./media/publish-iis-web-deploy-latest.png)
 
