@@ -62,11 +62,11 @@ For ASP.NET core web apps, there might be two additional folders for the SSL cer
 You can mount another volume using `docker run` command-line arguments.
 
 1. Open the project file for the containerized project.
-1. To specify a new command-line argument, add the MSBuild property `DockerfileRunArguments`, and provide the `-v` or `--mount` syntax. For example, the following syntax creates a volume `myvolume` and mounts it in the container in the folder `/dat`.
+1. To specify a new command-line argument, add the MSBuild property `DockerfileRunArguments`, and provide the `-v` or `--mount` syntax. For example, the following syntax creates a volume `myvolume` and mounts it in the container in the folder `/scratch`.
 
    ```xml
    <PropertyGroup>
-      <DockerfileRunArguments>-v myvolume:/dat</DockerfileRunArguments>
+      <DockerfileRunArguments>-v myvolume:/scratch</DockerfileRunArguments>
    </PropertyGroup>
    ```
 
