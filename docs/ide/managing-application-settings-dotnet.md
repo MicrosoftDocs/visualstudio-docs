@@ -1,7 +1,7 @@
 ---
 title: Manage application settings (.NET)
 description: Manage application settings that aren't included in the application code but are needed at runtime with the Visual Studio IDE.
-ms.date: 06/20/2024
+ms.date: 09/26/2024
 ms.topic: conceptual
 f1_keywords:
 - msvse_settingsdesigner.err.nameblank
