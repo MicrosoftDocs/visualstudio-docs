@@ -6,11 +6,20 @@ ms.author: ghogen
 ms.date: 09/17/2024
 ms.subservice: container-tools
 ms.topic: how-to
+
+
+#customer intent: As a developer, I want to customize the volumes on my application's container so that I can access the files from my running app.
+
 ---
 
 # Customize container volume mapping
 
 For debugging to work in containers, Visual Studio uses volume mapping to map the debugger and NuGet folders from the host machine. Volume mapping is described in the Docker documentation [here](https://docs.docker.com/storage/volumes/). You can view the volume mappings for a container by using the [Containers window in Visual Studio](view-and-diagnose-containers.md).
+
+## Prerequisites
+
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+- [Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET desktop development** workload installed
 
 ## Volume mounts in Visual Studio container images
 
@@ -48,9 +57,20 @@ For .NET 8, additional mount points at root and for the app user that contain us
 
 For ASP.NET core web apps, there might be two additional folders for the SSL certificate and the user secrets, which is explained in more detail at [Use SSL for containerized ASP.NET Core apps](container-certificate-management.md)
 
-## Customize container volumes
+## Mount a container volume
 
-You can mount another volume using `docker run` command-line arguments. To specify a new command-line argument, add the MSBuild property `DockerfileRunArguments`. Refer to the Docker documentation for the command-line syntax for the [--volume](https://docs.docker.com/engine/storage/volumes/#choose-the--v-or---mount-flag) option.
+You can mount another volume using `docker run` command-line arguments.
+
+1. Open the project file for the containerized project.
+1. To specify a new command-line argument, add the MSBuild property `DockerfileRunArguments`, and provide the `-v` or `--mount` syntax. For example, the following syntax creates a volume `myvolume` and mounts it in the container in the folder `/dat`.
+
+   ```xml
+   <PropertyGroup>
+      <DockerfileRunArguments>-v myvolume:/dat</DockerfileRunArguments>
+   </PropertyGroup>
+   ```
+
+   Refer to the Docker documentation for the command-line syntax for the [-v or --mount](https://docs.docker.com/engine/storage/volumes/#choose-the--v-or---mount-flag) options.
 
 ## Related content
 
