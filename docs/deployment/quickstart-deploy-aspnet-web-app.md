@@ -126,7 +126,7 @@ You can publish your web app to IIS if IIS is configured. By default, IIS Expres
 
 ### Prerequisites
 
-On the remote web server, install the [Web Management Service](/iis/manage/remote-administration/remote-administration-for-iis-manager) and have it running. This is not required for a local IIS deployment.
+On the remote web server, install the [Web Management Service](/iis/manage/remote-administration/remote-administration-for-iis-manager). Be sure to follow the instructions there to enable remote connections, and make sure the service is started before attempting to deploy. Web Management Service is not required for a local IIS deployment.
 
 On the web server, install **IIS 6 Metabase Compatibility**. In Windows Settings, under **Programs and Features**, choose **Turn Windows features on or off**. Then under **Internet Information Services** > **Web Management Tools**, install **IIS 6 Management Compatibility**. Make sure that **IIS Metabase** and **IIS 6 configuration compatibility** are selected.
 
