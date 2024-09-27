@@ -1,14 +1,14 @@
 ---
-title: Learn about the container entry point for Docker containers in Visual Studio
+title: Learn how to set the container entry point for Docker containers in Visual Studio
 author: ghogen
-description: Understand the custom container entry point set by Visual Studio based on the project type and the container operating system.
+description: Understand and configure the custom container entry point set by Visual Studio based on the project type and the container operating system.
 ms.author: ghogen
 ms.date: 9/17/2024
 ms.subservice: container-tools
 ms.topic: conceptual
 ---
 
-# Container entry point
+# Set the container entry point
 
 A container entry point is a process that is configured to run when a container is started.
 

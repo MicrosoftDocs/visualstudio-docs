@@ -1,14 +1,14 @@
 ---
-title: Understand volume mapping in Docker containers in Visual Studio
+title: Understand and customize volume mapping in Docker containers
 author: ghogen
-description: Explore how Visual Studio handles volume mapping for container images.
+description: Explore how Visual Studio handles volume mapping for container images, and learn how to customize volume mappings.
 ms.author: ghogen
 ms.date: 09/17/2024
 ms.subservice: container-tools
-ms.topic: conceptual
+ms.topic: how-to
 ---
 
-# Container volume mapping
+# Customize container volume mapping
 
 For debugging to work in containers, Visual Studio uses volume mapping to map the debugger and NuGet folders from the host machine. Volume mapping is described in the Docker documentation [here](https://docs.docker.com/storage/volumes/). You can view the volume mappings for a container by using the [Containers window in Visual Studio](view-and-diagnose-containers.md).
 
@@ -47,6 +47,10 @@ For .NET 8, additional mount points at root and for the app user that contain us
 :::moniker-end
 
 For ASP.NET core web apps, there might be two additional folders for the SSL certificate and the user secrets, which is explained in more detail at [Use SSL for containerized ASP.NET Core apps](container-certificate-management.md)
+
+## Customize container volumes
+
+You can mount another volume using `docker run` command-line arguments. To specify a new command-line argument, add the MSBuild property `DockerfileRunArguments`. Refer to the Docker documentation for the command-line syntax for the [--volume](https://docs.docker.com/engine/storage/volumes/#choose-the--v-or---mount-flag) option.
 
 ## Related content
 
