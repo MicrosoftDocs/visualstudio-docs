@@ -131,7 +131,7 @@ On the remote web server, install the [Web Management Service](/iis/manage/remot
 On the web server, install **IIS 6 Metabase Compatibility**. In Windows Settings, under **Programs and Features**, choose **Turn Windows features on or off**. Then under **Internet Information Services** > **Web Management Tools**, install **IIS 6 Management Compatibility**. Make sure that **IIS Metabase** and **IIS 6 configuration compatibility** are selected.
 
 To configure IIS for ASP.NET Core applications, install the [.NET Core Hosting Bundle installer (direct download)](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer). For more information, see [.NET Core hosting bundle](/aspnet/core/host-and-deploy/iis/hosting-bundle).
-
+If you're working with ASP.NET 4.8 or earlier, or if you need steps to configure IIS on Windows Server for publishing, you can find detailed steps in [Remote debugging ASP.NET on an IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) and for ASP.NET Core, [Remote debugging ASP.NET Core on an IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md).
 ### Publish to IIS web server
 
 Choose **Publish**, and then **Web Server (IIS)**.
