@@ -116,6 +116,40 @@ In the project file, add this setting to tell Visual Studio to use your custom s
   </PropertyGroup>
 ```
 
+::: moniker range=">=vs-2022"
+### Customize the image for debugging
+
+To support native AOT deployment, the GNU debugger (GDB) is installed, but only on the image used when debugging, not the final runtime image. The Dockerfile includes a build argument `LAUNCHING_FROM_VS` which can be `true` or `false`. If `true`, the `aotdebug` stage is used, which is where GDB is installed. Note that Visual Studio only supports native AOT and GDB for Linux containers.
+
+```Dockerfile
+# These ARGs allow for swapping out the base used to make the final image when debugging from VS
+ARG LAUNCHING_FROM_VS
+# This sets the base image for final, but only if LAUNCHING_FROM_VS has been defined
+ARG FINAL_BASE_IMAGE=${LAUNCHING_FROM_VS:+aotdebug}
+
+# ... (other stages omitted)
+
+# This stage is used as the base for the final stage when launching from VS to support debugging in regular mode (Default when not using the Debug configuration)
+FROM base as aotdebug
+USER root
+# Install GDB to support native debugging
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+    gdb
+USER app
+
+# This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
+FROM ${FINAL_BASE_IMAGE:-mcr.microsoft.com/dotnet/runtime-deps:8.0} AS final
+WORKDIR /app
+EXPOSE 8080
+COPY --from=publish /app/publish .
+ENTRYPOINT ["./WebApplication1"]
+```
+
+You can use `aotstage` in the Dockerfile to customize the image used at debug time, without affecting the final image used when not launching from Visual Studio, or in production. For example, you could install a tool for use only during debugging.
+
+:::moniker-end
+
 ## Related content
 
 - [Customize Docker containers in Visual Studio](container-build.md)
