@@ -4,9 +4,9 @@ description: Learn how to choose which ID to use to sign in to your subscription
 comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 68d39644-b5ce-4824-bd24-dd5bb27198dc
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/11/2023
+ms.date: 09/30/2024
 ms.faqid: q1_1
 ---
 
