@@ -4,9 +4,9 @@ description: Learn what to do if you don't have your work sign-in credentials.
 comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: ee8fa933-b5fd-4099-9689-dfd25c77624f
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/11/2023
+ms.date: 09/30/2024
 ms.faqid: q1_2
 ---
 
