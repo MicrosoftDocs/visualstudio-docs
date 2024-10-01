@@ -23,7 +23,7 @@ You can create a typed <xref:System.Data.DataSet> class in Visual Studio at desi
 
 ## Prerequisites
 
-- a .NET Framework project (not .NET Core)
+- a .NET Framework project (not .NET Core or .NET 5 or later)
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **.NET desktop development** and **Data storage and processing** workloads installed. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify.
 
 - SQL Server Express LocalDB. If you don't have SQL Server Express LocalDB, you can install it from the [SQL Server download page](https://www.microsoft.com/sql-server/sql-server-downloads).
