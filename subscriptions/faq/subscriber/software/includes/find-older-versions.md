@@ -3,9 +3,9 @@ title: Where can I find older versions of Visual Studio?
 description: Find previous versions of Visual Studio for download
 ms.topic: include
 ms.assetid: 611a9d9f-0b72-4dd1-ac5a-987a52433627
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 03/24/2021
+ms.date: 09/30/2024
 ms.faqid: q2_4
 ---
 
