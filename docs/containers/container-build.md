@@ -31,7 +31,8 @@ The multistage build feature helps make the process of building containers more 
 
 The multistage build allows container images to be created in stages that produce intermediate images. As an example, consider a typical Dockerfile. The first stage is called `base` in the Dockerfile that Visual Studio generates, although the tools don't require that name.
 
-```
+```Dockerfile
+# This stage is used when running from VS in fast mode (Default for Debug configuration)
 FROM mcr.microsoft.com/dotnet/aspnet:3.1-buster-slim AS base
 WORKDIR /app
 EXPOSE 80
@@ -42,7 +43,8 @@ The lines in the Dockerfile begin with the ASP.NET image from Microsoft Containe
 
 The next stage is `build`, which appears as follows:
 
-```
+```Dockerfile
+# This stage is used to build the service project
 FROM mcr.microsoft.com/dotnet/sdk:3.1-buster-slim AS build
 WORKDIR /src
 COPY ["WebApplication43/WebApplication43.csproj", "WebApplication43/"]
@@ -54,10 +56,12 @@ RUN dotnet build "WebApplication43.csproj" -c Release -o /app/build
 
 You can see that the `build` stage starts from a different original image from the registry (`sdk` rather than `aspnet`), rather than continuing from base. The `sdk` image has all the build tools, and for that reason it's a lot bigger than the aspnet image, which only contains runtime components. The reason for using a separate image becomes clear when you look at the rest of the Dockerfile:
 
-```
+```Dockerfile
+# This stage is used to publish the service project to be copied to the final stage
 FROM build AS publish
 RUN dotnet publish "WebApplication43.csproj" -c Release -o /app/publish
 
+# This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
@@ -66,7 +70,7 @@ ENTRYPOINT ["dotnet", "WebApplication43.dll"]
 
 The final stage starts again from `base`, and includes the `COPY --from=publish` to copy the published output to the final image. This process makes it possible for the final image to be a lot smaller, since it doesn't need to include all of the build tools that were in the `sdk` image.
 
-The following table summarize the stages used in the typical Dockerfile created by Visual Studio:
+The following table summarizes the stages used in the typical Dockerfile created by Visual Studio:
 
 | Stage | Description |
 | - | - |
@@ -89,6 +93,15 @@ The following table summarize the stages used in the typical Dockerfile created 
 - Build the Dockerfile and start the container.
 
 Warmup only happens in **Fast** mode, so the running container has the *app* folder volume-mounted. That means that any changes to the app don't invalidate the container. This behavior improves the debugging performance significantly and decreases the wait time for long running tasks such as pulling large images.
+
+## Enable detailed container tools logs
+
+For diagnostic purposes, you can enable certain Container Tools logs. You can enable these logs by setting certain environment variables. For single container projects, the environment variable is `MS_VS_CONTAINERS_TOOLS_LOGGING_ENABLED`, which then logs in `%tmp%\Microsoft.VisualStudio.Containers.Tools`. For Docker Compose projects, it's `MS_VS_DOCKER_TOOLS_LOGGING_ENABLED`, which then logs in `%tmp%\Microsoft.VisualStudio.DockerCompose.Tools`.
+
+:::moniker range=">=vs-2022"
+> [!WARNING]
+> When logging is enabled and you're using a token proxy for Azure authentication, authentication credentials could be logged as plain text. See [Configure Azure authentication](container-tools-configure.md#configure-azure-authentication).
+:::moniker-end
 
 ## Next steps
 

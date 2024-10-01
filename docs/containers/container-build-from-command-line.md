@@ -1,5 +1,5 @@
 ---
-title: Build a containerized Visual Studio project from the command line.
+title: Build a containerized Visual Studio project from the command line
 author: ghogen
 description: Build a container project in Visual Studio using the command line, either with MSBuild.exe or using docker build, and learn how to enable detailed build logs.
 ms.author: ghogen
@@ -16,12 +16,20 @@ If you want to build a container project with a Dockerfile outside of Visual Stu
 If you're using the .NET SDK build type, you don't have a Dockerfile, so you can't use `docker build`; instead, use `MSBuild`, `dotnet build` or `dotnet publish` to build on the command line.
 :::moniker-end
 
-### Use Docker build
+## Use Docker build
 
-To build a containerized solution from the command line, you can usually use the command `docker build <context>` for each project in the solution. You provide the *build context* argument. The *build context* for a Dockerfile is the folder on the local machine that's used as the working folder to generate the image. For example, it's the folder that you copy files from when you copy to the container. In .NET Core projects, use the folder that contains the solution file (.sln). Expressed as a relative path, this argument is typically ".." for a Dockerfile in a project folder, and the solution file in its parent folder. For .NET Framework projects, the build context is the project folder, not the solution folder.
+To build a containerized solution from the command line, you can usually use the command `docker build <context>` for each project in the solution. You provide the *build context* argument. The *build context* for a Dockerfile is the folder on the local machine that's used as the working folder to generate the image. For example, it's the folder that you copy files from when you copy to the container. In .NET Core projects, the default is to use the folder that contains the solution file (.sln). Expressed as a relative path, this argument is typically ".." for a Dockerfile in a project folder, and the solution file in its parent folder. For .NET Framework projects, the default build context is the project folder, not the solution folder.
 
 ```cmd
 docker build -f Dockerfile ..
+```
+
+When you initially add Docker support to a project, you can provide a different folder for the build context. You can also set it in the project file by setting the `DockerfileContext` property. For example,
+
+```xml
+<PropertyGroup>
+   <DockerfileContext>contextfolder</DockerfileContext>
+</PropertyGroup>
 ```
 
 ## Use MSBuild
@@ -46,15 +54,6 @@ If you're using a Docker Compose project, use this command to build images:
 ```cmd
 msbuild /p:SolutionPath=<solution-name>.sln /p:Configuration=Release docker-compose.dcproj
 ```
-
-## Enable detailed container tools logs
-
-For diagnostic purposes, you can enable certain Container Tools logs. You can enable these logs by setting certain environment variables. For single container projects, the environment variable is `MS_VS_CONTAINERS_TOOLS_LOGGING_ENABLED`, which then logs in `%tmp%\Microsoft.VisualStudio.Containers.Tools`. For Docker Compose projects, it's `MS_VS_DOCKER_TOOLS_LOGGING_ENABLED`, which then logs in `%tmp%\Microsoft.VisualStudio.DockerCompose.Tools`.
-
-:::moniker range=">=vs-2022"
-> [!WARNING]
-> When logging is enabled and you're using a token proxy for Azure authentication, authentication credentials could be logged as plain text. See [Configure Azure authentication](container-tools-configure.md#configure-azure-authentication).
-:::moniker-end
 
 To view the MSBuild logs, see [Obtaining build logs with MSBuild](../msbuild/obtaining-build-logs-with-msbuild.md).
 

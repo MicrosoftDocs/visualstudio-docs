@@ -18,7 +18,7 @@ For debugging to work in containers, Visual Studio uses volume mapping to map th
 
 ## Prerequisites
 
-- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+- [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/)
 - [Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET desktop development** workload installed
 
 ## Volume mounts in Visual Studio container images
@@ -36,22 +36,20 @@ Here are the volumes that are mounted in your container:
 :::moniker-end
 
 ::: moniker range=">=vs-2022"
-Here are the volumes that are mounted in your container. What you see in your containers might differ depending on the minor version of Visual Studio 2022 you are using.
+Here are the volumes that are mounted in your container. What you see in your containers might differ depending on the minor version of Visual Studio 2022 you are using. 
 
 |Volume|Description|
 |-|-|
 | **App folder** | Contains the project folder where the Dockerfile is located.|
-| **HotReloadAgent** | Contains the files for the hot reload agent. |
-| **HotReloadProxy** | Contains the files required to run a service that enables the host reload agent to communicate with Visual Studio on the host. |
 | **NuGet packages folders** | Contains the NuGet packages and fallback folders that are read from the *obj\{project}.csproj.nuget.g.props* file in the project. |
 | **Remote debugger** | Contains the bits required to run the debugger in the container depending on the project type. For more information, see [Customize container images for debugging](container-debug-customization.md).|
 | **Source folder** | Contains the build context that is passed to Docker commands.|
-| **TokenService.Proxy** | Contains the files required to run a service the enables VisualStudioCredential to communicate with Visual Studio on the host. |
+| **VSTools** | Contains Visual Studio tools that support working with the container, including support for the debugger, the **Containers** window, handling Azure tokens, the Hot Reload agent, and the Distroless Helper. |
 
-For .NET 8, additional mount points at root and for the app user that contain user secrets and the HTTPS certificate might also be present. And in Visual Studio 17.10 preview, the Hot Reload and Token Service volume, along with another component, the Distroless Helper, are combined under a single mount point, `/VSTools`.
+For .NET 8, additional mount points at root and for the app user that contain user secrets and the HTTPS certificate might also be present.
 
 > [!NOTE]
-> **Visual Studio 17.10 preview** If you're using Docker Engine in Windows Subsystem for Linux (WSL) without Docker Desktop, set the environment variable `VSCT_WslDaemon=1` to have Visual Studio use WSL paths when creating volume mounts. The NuGet package [Microsoft.VisualStudio.Azure.Containers.Tools.Targets 1.20.0-Preview 1](https://www.nuget.org/packages/Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.20.0-Preview.1) is also required.
+> **Visual Studio 17.10** If you're using Docker Engine in Windows Subsystem for Linux (WSL) without Docker Desktop, set the environment variable `VSCT_WslDaemon=1` to have Visual Studio use WSL paths when creating volume mounts. The NuGet package [Microsoft.VisualStudio.Azure.Containers.Tools.Targets 1.20.0-Preview 1](https://www.nuget.org/packages/Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.20.0-Preview.1) is also required.
 
 :::moniker-end
 

@@ -19,9 +19,15 @@ When you build in the **Debug** configuration, there are several optimizations t
 
 In **Fast** mode, Visual Studio calls `docker build` with an argument that tells Docker to build only the first stage in the Dockerfile (normally the `base` stage). You can change that by setting the MSBuild property, `DockerfileFastModeStage`, described at [Container Tools MSBuild properties](container-msbuild-properties.md). Visual Studio handles the rest of the process without regard to the contents of the Dockerfile. So, when you modify your Dockerfile, such as to customize the container environment or install additional dependencies, you should put your modifications in the first stage. Any custom steps placed in the Dockerfile's `build`, `publish`, or `final` stages aren't executed.
 
-This performance optimization only occurs when you build in the **Debug** configuration. In the **Release** configuration, the build occurs in the container as specified in the Dockerfile.
+This performance optimization normally only occurs when you build in the **Debug** configuration. In the **Release** configuration, the build occurs in the container as specified in the Dockerfile. You can enable this behavior for the Release configuration by setting `ContainerDevelopmentMode` to **Fast** in the project file:
 
-If you want to disable the performance optimization and build as the Dockerfile specifies, then set the **ContainerDevelopmentMode** property to **Regular** in the project file as follows:
+```xml
+<PropertyGroup Condition="'$(Configuration)' == 'Release'">
+   <ContainerDevelopmentMode>Fast</ContainerDevelopmentMode>
+</PropertyGroup>
+```
+
+If you want to disable the performance optimization for all configurations, and build as the Dockerfile specifies, then set the **ContainerDevelopmentMode** property to **Regular** in the project file as follows:
 
 ```xml
 <PropertyGroup>
@@ -38,7 +44,7 @@ The process of running the debugger depends on the type of project and container
 |Scenario|Debugger process|
 |-|-|
 | **.NET Core apps (Linux containers)**| Visual Studio downloads `vsdbg` and maps it to the container, then it gets called with your program and arguments (that is, `dotnet webapp.dll`), and then debugger attaches to the process. |
-| **.NET Core apps (Windows containers)**| Visual Studio uses `onecoremsvsmon` and maps it to the container, runs it as the entry point and then Visual Studio connects to it and attaches to the program. This is similar to how you would normally set up remote debugging on another computer or virtual machine.|
+| **.NET Core apps (Windows containers)**| Visual Studio uses `msvsmon` or `onecoremsvsmon` and maps it to the container, runs it as the entry point and then Visual Studio connects to it and attaches to the program. This is similar to how you would normally set up remote debugging on another computer or virtual machine. The `onecoremsvsmon` version is only used in cases where `msvsmon` can't run, for example, in Windows Nano Server.|
 | **.NET Framework apps** | Visual Studio uses `msvsmon` and maps it to the container, runs it as part of the entry point where Visual Studio can connect to it, and attaches to the program.|
 
 For information on `vsdbg.exe`, see [Offroad debugging of .NET Core on Linux and OS X from Visual Studio](https://github.com/Microsoft/MIEngine/wiki/Offroad-Debugging-of-.NET-Core-on-Linux---OSX-from-Visual-Studio).
@@ -48,12 +54,14 @@ For information on `vsdbg.exe`, see [Offroad debugging of .NET Core on Linux and
 To modify the container image for both debugging and production, modify the `base` stage. Add your customizations to the Dockerfile in the base stage section, usually the first section in the Dockerfile. Refer to the [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) in the Docker documentation for information about Dockerfile commands.
 
 ```dockerfile
+# This stage is used when running from VS in fast mode (Default for Debug configuration)
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 # <add your commands here>
 
+# This stage is used to build the service project
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["WebApplication3/WebApplication3.csproj", "WebApplication3/"]
@@ -62,9 +70,11 @@ COPY . .
 WORKDIR "/src/WebApplication3"
 RUN dotnet build "WebApplication3.csproj" -c Release -o /app/build
 
+# This stage is used to publish the service project to be copied to the final stage
 FROM build AS publish
 RUN dotnet publish "WebApplication3.csproj" -c Release -o /app/publish
 
+# This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
@@ -73,15 +83,19 @@ ENTRYPOINT ["dotnet", "WebApplication3.dll"]
 
 ## Modify container image only for debugging
 
-This scenario applies when you want to do something with your containers to help you in the debugging process, such as installing something for diagnostic purposes, but you don't want that installed in production builds.
+You can customize your containers in certain ways to help in debugging, such as installing something for diagnostic purposes, without affecting production builds.
 
 To modify the container only for debugging, create a stage and then use the MSBuild property `DockerfileFastModeStage` to tell Visual Studio to use your customized stage when debugging. Refer to the [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) in the Docker documentation for information about Dockerfile commands.
 
-In the following example, we install the package `procps-ng`, but only in debug mode. This package supplies the command `pidof`, which Visual Studio requires but isn't in the Mariner image used here. The stage we use for fast mode debugging is `debug`, a custom stage defined here. The fast mode stage doesn't need to inherit from the `build` or `publish` stage, it can inherit directly from the `base` stage, because Visual Studio mounts a volume that contains everything needed to run the app, as described earlier in this article.
+> [!NOTE]
+> The instructions here apply to the single-container case. You can also do the same thing for multiple containers with Docker Compose, but the techniques required for Docker Compose are slightly different. For example, the stage is controlled by a setting in the `dockercompose.debug.yml` file.
+
+In the following example, we install the package `procps-ng`, but only in debug mode. This package supplies the command `pidof`, which Visual Studio requires (when targeting .NET 5 and earlier) but isn't in the Mariner image used here. The stage we use for fast mode debugging is `debug`, a custom stage defined here. The fast mode stage doesn't need to inherit from the `build` or `publish` stage, it can inherit directly from the `base` stage, because Visual Studio mounts a volume that contains everything needed to run the app, as described earlier in this article.
 
 ```dockerfile
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
+# This stage is used when running from VS in fast mode (Default for Debug configuration)
 FROM mcr.microsoft.com/dotnet/aspnet:6.0-cbl-mariner2.0 AS base
 WORKDIR /app
 EXPOSE 80
@@ -90,6 +104,7 @@ EXPOSE 443
 FROM base AS debug
 RUN tdnf install procps-ng -y
 
+# This stage is used to build the service project
 FROM mcr.microsoft.com/dotnet/sdk:6.0-cbl-mariner2.0 AS build
 WORKDIR /src
 COPY ["WebApplication1/WebApplication1.csproj", "WebApplication1/"]
@@ -98,9 +113,11 @@ COPY . .
 WORKDIR "/src/WebApplication1"
 RUN dotnet build "WebApplication1.csproj" -c Release -o /app/build
 
+# This stage is used to publish the service project to be copied to the final stage
 FROM build AS publish
 RUN dotnet publish "WebApplication1.csproj" -c Release -o /app/publish
 
+# This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .

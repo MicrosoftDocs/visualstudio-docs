@@ -14,9 +14,13 @@ ms.subservice: container-tools
 Visual Studio provides a consistent way to develop Docker containers and validate your application locally.
 You can run and debug your apps in Linux or Windows containers running on your local Windows desktop with Docker installed, and you don't have to restart the container each time you make a code change.
 
-This article illustrates how to use Visual Studio to start an app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized apps. Supported project types include web app, console app, and Azure function targeting .NET Framework and .NET Core. The examples presented in this article, are a project of type ASP.NET Core Web App and a project of type Console App (.NET Framework).
+This article illustrates how to use Visual Studio to start an app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized apps. Supported project types include web app, console app, and Azure function targeting .NET Framework and .NET Core. The examples presented in this article are a project of type ASP.NET Core Web App and a project of type Console App (.NET Framework).
 
 If you already have a project of a supported type, Visual Studio can create a Dockerfile and configure your project to run in a container. See [Container Tools in Visual Studio](overview.md).
+
+:::moniker range=">=vs-2022"
+Also, in Visual Studio 17.10 and later, [Hot Reload](..debugger/hot-reload.md) is supported in containers.
+:::moniker-end
 
 ## Prerequisites
 
@@ -87,7 +91,7 @@ To quickly iterate changes in your Razor pages, you can start your application i
    Application started. Press Ctrl+C to shut down.
    ```
 
-Your changes have been applied!
+Your changes have been applied! 
 
 ### Debug with breakpoints
 
