@@ -134,7 +134,7 @@ In the project file, add this setting to tell Visual Studio to use your custom s
 ```
 
 ::: moniker range=">=vs-2022"
-### Customize the image for debugging
+### Customize debugging images with AOT deployment
 
 To support native AOT deployment, the GNU debugger (GDB) is installed, but only on the image used when debugging, not the final runtime image. The Dockerfile includes a build argument `LAUNCHING_FROM_VS` which can be `true` or `false`. If `true`, the `aotdebug` stage is used, which is where GDB is installed. Note that Visual Studio only supports native AOT and GDB for Linux containers.
 
