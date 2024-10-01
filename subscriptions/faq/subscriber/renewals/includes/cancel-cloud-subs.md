@@ -5,9 +5,9 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.faqid: q4_6
 ms.topic: include
 ms.assetid: 2c83cd19-2692-4aef-9cd7-b7842639cbce
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/14/2023
+ms.date: 09/30/2024
 ---
 
 ## How do I cancel monthly and annual subscriptions?
