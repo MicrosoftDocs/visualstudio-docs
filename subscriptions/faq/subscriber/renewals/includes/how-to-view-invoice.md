@@ -5,9 +5,9 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.faqid: q4_5
 ms.topic: include
 ms.assetid: 2b91ea18-d8d5-4a75-a2cd-4996e63d77e8
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/14/2023
+ms.date: 08/30/2024
 ---
 
 ## How do I view my invoice for monthly and annual subscriptions?
