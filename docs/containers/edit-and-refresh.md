@@ -19,7 +19,7 @@ This article illustrates how to use Visual Studio to start an app in a local Doc
 If you already have a project of a supported type, Visual Studio can create a Dockerfile and configure your project to run in a container. See [Container Tools in Visual Studio](overview.md).
 
 :::moniker range=">=vs-2022"
-Also, in Visual Studio 17.10 and later, [Hot Reload](..debugger/hot-reload.md) is supported in containers.
+Also, in Visual Studio 17.10 and later, [Hot Reload](../debugger/hot-reload.md) is supported in containers.
 :::moniker-end
 
 ## Prerequisites
