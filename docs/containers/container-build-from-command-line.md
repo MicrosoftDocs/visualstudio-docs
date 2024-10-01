@@ -24,13 +24,19 @@ To build a containerized solution from the command line, you can usually use the
 docker build -f Dockerfile ..
 ```
 
-When you initially add Docker support to a project, you can provide a different folder for the build context. You can also set it in the project file by setting the `DockerfileContext` property. For example,
+You can set the build context in the project file by setting the `DockerfileContext` property. For example,
 
 ```xml
 <PropertyGroup>
    <DockerfileContext>contextfolder</DockerfileContext>
 </PropertyGroup>
 ```
+
+Relative paths in the Dockerfile are relative to the build context, so if you change the context, be sure to update the relative paths accordingly.
+
+:::moniker range=">=vs-2022"
+With Visual Studio 17.11 and later, when you add Docker support to a project, you can specify a folder for the build context. If you want to change the build context, you could delete the Dockerfile (if it doesn't have other changes you want to keep), and rerun **Add Docker support**, this time specifying the new build context. The new Dockerfile will have relative paths updated to correspond to the new build context.
+:::moniker-end
 
 ## Use MSBuild
 

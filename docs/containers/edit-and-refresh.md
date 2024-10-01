@@ -18,10 +18,6 @@ This article illustrates how to use Visual Studio to start an app in a local Doc
 
 If you already have a project of a supported type, Visual Studio can create a Dockerfile and configure your project to run in a container. See [Container Tools in Visual Studio](overview.md).
 
-:::moniker range=">=vs-2022"
-Also, in Visual Studio 17.10 and later, [Hot Reload](../debugger/hot-reload.md) is supported in containers.
-:::moniker-end
-
 ## Prerequisites
 
 To debug apps in a local Docker container, the following tools must be installed:
@@ -114,6 +110,12 @@ Often, changes require further inspection. You can use the debugging features of
    :::moniker range=">=vs-2022"
    ![Screenshot showing part of the code for Index.cshtml.cs in Visual Studio with a breakpoint set to the left of a code line that is highlighted in yellow.](media/edit-and-refresh/vs-2022/breakpoint.png)
    :::moniker-end
+
+:::moniker range=">=vs-2022"
+## Hot reload
+
+Also, in Visual Studio 17.10 and later, [Hot Reload](../debugger/hot-reload.md) is supported in containers, although be aware that in a container, you have to refresh the page to see changes. If the change is to a CSS file, you again have to refresh the page to see those changes. Note also that updates to scoped CSS files (`.razor.css` files, see [ASP.NET Core Blazor CSS isolation](/aspnet/core/blazor/components/css-isolation)) are not supported as part of hot reload.
+:::moniker-end
 
 ## Create a .NET Framework console app
 
