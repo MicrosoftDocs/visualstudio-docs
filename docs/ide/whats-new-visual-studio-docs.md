@@ -35,7 +35,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md) - Updated images and text
-- [Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)](../get-started/csharp/tutorial-console-part-2.md) - Fix UUF issue
+- [Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)](../get-started/csharp/tutorial-console-part-2.md) - Update article for user feedback
 - [Tutorial: Learn to use the code editor with Visual Basic](../get-started/visual-basic/tutorial-editor.md) - Review and update
 
 ### IDE
