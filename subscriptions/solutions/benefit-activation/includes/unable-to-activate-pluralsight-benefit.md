@@ -6,7 +6,7 @@ ms.topic: include
 ms.assetid: 7e5d8886-538c-4e29-9c4c-8989cf4e09dd
 author: joseb-rdc
 ms.author: amast
-ms.date: 10-02-2024
+ms.date: 10/02/2024
 user.type: subscriber
 tags: benefit, pluralsight
 subscription.type: vl, cloud, retail, partner
