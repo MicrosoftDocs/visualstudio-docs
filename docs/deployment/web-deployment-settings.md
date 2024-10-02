@@ -16,9 +16,9 @@ monikerRange: '>= vs-2019'
 
 You can control how your web application gets deployed using the settings.
 
-## Prerequisites
+## Prerequisite
 
-- Visual Studio with the Web Development workload installed.
+Visual Studio with the Web Development workload installed.
 
 ## Manage settings
 
