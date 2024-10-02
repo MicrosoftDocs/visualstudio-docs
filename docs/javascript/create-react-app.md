@@ -24,7 +24,7 @@ Make sure to install the following:
 - Visual Studio 2022 or later. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
 - npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js.
 
-### Create the React ToDo list app
+## Create the React ToDo list app
 
 1. In Visual Studio, select **File > New > Project** to open the Create a New Project dialog, select the **React App** JavaScript template, and then choose **Next**.
 
@@ -56,7 +56,7 @@ Make sure to install the following:
 
    This component displays a header, which you will replace later.
 
-   Next, you wire up this component in the app. `App.jsx is the main component that is loaded, which represents the todo application. This component is used in the `main.jsx` file. 
+   Next, wire up this component in the app. `App.jsx` is the main component that is loaded, which represents the todo application. This component is used in the `main.jsx` file. 
 
 1. In Solution Explorer, open `App.jsx`, remove all imports from the top, and clear out the contents of the return statement. The file should look like the following.
 
@@ -71,13 +71,15 @@ Make sure to install the following:
      export default App;
      ```
 
-1. To add the TodoList component, place your cursor inside the fragment and then type <TodoL RETURN. This will add the component and the import statement. You can see this in the below animation.
+1. To add the TodoList component, place your cursor inside the fragment and then type `<TodoL RETURN`. This adds the component and the import statement.
 
    :::image type="content" source="media/vs-2022/react-add-jsx-component-to-app.gif" alt-text="Screenshot showing adding a JSX component to the app":::
 
-1. **Clear Out CSS Files**
-   - Open `App.css` and delete all contents.
-   - In `Index.css`, remove all contents except the styles for `:root`:
+   Next, clear out the CSS files.
+
+1. Open `App.css` and delete all contents.
+
+1. Open `Index.css` and remove all contents except the styles for `:root`:
 
      ```css
      :root {
@@ -90,9 +92,9 @@ Make sure to install the following:
      }
      ```
 
-1. **Run the App**
+## Run the App
 
-   - Use the Start Debugging button from the toolbar or the F5 keyboard shortcut.
+Select the **Start Debugging** button from the toolbar or press the F5 keyboard shortcut.
 
 ## Add functionality to the ToDo list app
 
