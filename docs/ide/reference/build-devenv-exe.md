@@ -58,12 +58,26 @@ devenv SolutionName /Build [SolnConfigName [/Project ProjName [/ProjectConfig Pr
 
 - If you get an error message that says **Invalid project configuration**, make sure that you've specified a solution platform or project platform (for example, `Debug|Win32`).
 
-## Example
+## Examples
 
 The following command builds the project `CSharpWinApp`, using the `Debug` project build configuration within `MySolution`.
 
 ```shell
 devenv "%USERPROFILE%\source\repos\MySolution.sln" /build Debug /project "CSharpWinApp\CSharpWinApp.csproj" /projectconfig Debug
+```
+
+To build an installer (`.msi` file), you need a [setup project](../../deployment/installer-projects-net-core.md). It might be necessary to first create a new [configuration](../../ide/understanding-build-configurations.md), say `Setup`, based on the `Release` configuration, and select the setup project as a project to build. By default, setup projects aren't included in the default configurations, `Debug` and `Release`. The following commands build a project `WindowsFormsApp1` and its associated setup project to generate the `.msi` file:
+
+```shell
+devenv WindowsFormsApp1.sln /build Setup
+```
+
+The project won't be rebuilt if it was already built, so this should just build the setup project.
+
+And to clean up all the build files:
+
+```shell
+devenv WindowsFormsApp1.sln /clean
 ```
 
 ## See also
