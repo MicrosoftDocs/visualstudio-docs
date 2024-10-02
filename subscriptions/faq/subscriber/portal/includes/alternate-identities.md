@@ -1,7 +1,7 @@
 ---
 title: How do I add alternate identities to my subscription and how does using one affect my Azure credits and Azure DevOps?
 description: Learn how to access subscription benefits with different sign-in credentials. 
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.topic: include
 ms.assetid: c41fbf02-a623-43b4-9aa7-0c1c51fbda2a
 author: joseb-rdc

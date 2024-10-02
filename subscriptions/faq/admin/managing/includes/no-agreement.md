@@ -1,7 +1,7 @@
 ---
 title: Why am I not seeing an agreement while logged into the portal?
 description: I'm an admin, and when I log into the admin portal, I don't see any agreements
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.faqid: group1_10
 ms.topic: include
 ms.assetid: f2aa9631-12e0-41cc-84eb-df97b155ac18

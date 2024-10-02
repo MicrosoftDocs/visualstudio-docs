@@ -1,10 +1,10 @@
 ---
 title: Page can't be displayed
 description: Page can't be displayed in the subscriptions portal.
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.topic: include
 ms.assetid: aef07dc7-29cc-406e-9373-0b808facb35b
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 ms.date: 04/10/2024
 user.type: subscriber, admin

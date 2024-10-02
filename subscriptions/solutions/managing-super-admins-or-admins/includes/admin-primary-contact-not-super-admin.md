@@ -1,10 +1,10 @@
 ---
 title: I'm the primary contact, but I'm not a super admin.
 description: The primary contact is trying to figure out if they should have super admin permissions.
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.topic: include 
 ms.assetid: d204a061-9a4e-408c-a967-bf2b815d0bf8
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 ms.date: 04/09/2024
 user.type: admin
