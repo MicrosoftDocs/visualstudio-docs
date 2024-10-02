@@ -1,7 +1,7 @@
 ---
 title: What is the GitHub setup process?
 description: How do GitHub Enterprise subscriptions get assigned to Visual Studio subscribers?
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.faqid: group1_4
 ms.topic: include
 ms.assetid: e45ac76b-3ab1-45cf-a680-488f65e7e84f
