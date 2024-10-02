@@ -1,7 +1,7 @@
 ---
 title: 'Tips & Tricks for GitHub Copilot Chat in Visual Studio'
 description: Use slash commands, references, and threads to form better questions and get better answers with scoped context in GitHub Copilot Chat.
-ms.date: 9/9/2024
+ms.date: 10/02/2024
 ms.topic: how-to 
 author: anandmeg
 ms.author: meghaanand
@@ -79,6 +79,10 @@ To easily reference a method, class, or function in GitHub Copilot Chat, simply 
 Use *@workspace* to refer to the solution active in the IDE for context. When using *@workspace* for context, Copilot Chat leverages the information about the files, projects, and configurations that are currently open and being worked on within your IDE. This enables Copilot Chat to provide more relevant and context-aware suggestions and answers.
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-at-workspace.gif" alt-text="Screenshot of referencing solution context in Copilot Chat.":::
+
+With Visual Studio 2022 version 17.11, [GitHub Copilot Enterprise]() subscribers can now use `@github` in chat to include context from their entire repository and to search the web (if [search is enabled by your admin](https://docs.github.com/en/enterprise-cloud@latest/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise#give-copilot-access-to-bing)). Learn more about using [GitHub skills for Copilot](https://docs.github.com/en/enterprise-cloud@latest/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide?tool=visualstudio#using-github-skills-for-copilot-preview).
+
+:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-at-github.png" alt-text="Screenshot of using GitHub skills in Copilot Chat.":::
 
 ### Usage examples
 Here are some examples of using references for context control:
