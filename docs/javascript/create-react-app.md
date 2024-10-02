@@ -38,10 +38,13 @@ Make sure to install the following:
 
    It’s a common convention to place components in a components folder, but this is not required. 
 
-1. Right-click the new folder, select **Add > React JSX Component File**, and name it `TodoList`.
+1. Right-click the new folder, select **Add > React JSX Component File**, name it `TodoList`, and click **Add**.
 
-1. **Update the `TodoList` Component**
-   - Replace the default content with:
+   :::image type="content" source="media/vs-2022/react-add-jsx-component.png" alt-text="Screenshot showing adding a JSX component":::
+
+   This creates a new JSX file in the components folder.
+
+1. Open the `TodoList` component and replace the default content with the following:
 
      ```jsx
      function TodoList() {
@@ -51,8 +54,11 @@ Make sure to install the following:
      }
      ```
 
-1. **Wire Up the Component in the App**
-   - Open `App.jsx`, remove all imports from the top, and clear out the contents of the return statement:
+   This component displays a header, which you will replace later.
+
+   Next, you wire up this component in the app. `App.jsx is the main component that is loaded, which represents the todo application. This component is used in the `main.jsx` file. 
+
+1. In Solution Explorer, open `App.jsx`, remove all imports from the top, and clear out the contents of the return statement. The file should look like the following.
 
      ```jsx
      function App() {
@@ -64,6 +70,10 @@ Make sure to install the following:
      }
      export default App;
      ```
+
+1. To add the TodoList component, place your cursor inside the fragment and then type <TodoL RETURN. This will add the component and the import statement. You can see this in the below animation.
+
+   :::image type="content" source="media/vs-2022/react-add-jsx-component-to-app.gif" alt-text="Screenshot showing adding a JSX component to the app":::
 
 1. **Clear Out CSS Files**
    - Open `App.css` and delete all contents.
