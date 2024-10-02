@@ -1,7 +1,7 @@
 ---
 title: Visual Studio Tools for Unreal Engine
 description: Explore the Visual Studio Tools for Unreal Engine, which makes it easier to write and debug C++ code for Unreal Engine from within Visual Studio.
-ms.date: 08/01/2023
+ms.date: 09/27/2024
 ms.service: visual-studio
 ms.subservice: unreal-engine-tools
 ms.topic: overview
@@ -17,16 +17,17 @@ manager: Coxford
 Visual Studio Tools for Unreal Engine makes it easier to write and debug C++ code for Unreal Engine from within Visual Studio, with features such as:
 
 * View Unreal Engine logs
-* View Blueprint references and assets
-* Expand Unreal Engine macros<sup>*</sup>
+* View Blueprint references and assets<sup>1</sup>
+* Expand Unreal Engine macros<sup>2</sup>
 * Unreal Engine name convention checker
-* Intellisense tuned for Unreal Engine projects<sup>*</sup>
+* Intellisense tuned for Unreal Engine projects<sup>2</sup>
 * Add Unreal Engine classes inside Visual Studio
 * See Unreal header tool warnings in Visual Studio
-* Visual Studio performance is tuned for large projects<sup>*</sup>
+* Visual Studio performance is tuned for large projects<sup>2</sup>
 * Be more productive with High-Level Shading Language (HLSL) files via syntax highlighting and statement completion
 
-<sup>*</sup> These features are available in Visual Studio 17.7 or later without installing Visual Studio Tools for Unreal Engine.
+<sup>1</sup> As of Visual Studio 2022 17.10, you no longer need Visual Studio Tools for Unreal Engine to view UE Blueprints in Visual Studio.
+<sup>2</sup> These features are available in Visual Studio 17.7 or later without installing Visual Studio Tools for Unreal Engine.
 
 ## Supported Visual Studio versions
 
