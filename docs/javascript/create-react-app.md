@@ -96,10 +96,16 @@ Make sure to install the following:
 
 Select the **Start Debugging** button from the toolbar or press the F5 keyboard shortcut.
 
+The app opens in a browser window.
+
+:::image type="content" source="media/vs-2022/react-running-app.png" alt-text="Screenshot showing the app running in the browser":::
+
 ## Add functionality to the ToDo list app
 
-1. **Update `TodoList.jsx`**
-   - Add the UI needed to show and manage todo entries:
+You can leave the app running. As you make changes, the app automatically refreshes with the latest content using the Hot Module Replacement support. Some actions, such as adding folders or renaming files, require that you stop debugging and then restart the app, but in general you can leave it running in the background as you develop your app. Open the `TodoList.jsx` component so that we can start to define it.
+
+1. In Solution Explorer, open `TodoList.jsx` and add the UI needed to show and manage todo list entries. Replace the content with the following code:
+
      ```jsx
      function TodoList() {
        return (
@@ -118,14 +124,20 @@ Select the **Start Debugging** button from the toolbar or press the F5 keyboard 
      export default TodoList;
      ```
 
-2. **Use `useState` Hook**
-   - Import `useState` and create state variables:
-     ```jsx
-     import { useState } from 'react';
+   The preceding code adds an input box for the new todo task and a button to submit the input. Next, you wire up the Add button. Use the [useState](https://react.dev/reference/react/useState) React hook to add two state variables, one for the task that is getting added, and another to store the existing tasks. For this tutorial, the tasks get stored in memory and not persistent storage. Add the following import statement to `TodoList.jsx` to import `useState`.
 
-     const [tasks, setTasks] = useState(["Drink some coffee", "Create a TODO app", "Drink some more coffee"]);
-     const [newTaskText, setNewTaskText] = useState("");
-     ```
+   ```jsx
+   import { useState } from 'react'
+   ```
+
+   Next, use that hook to create the state variables. Add the following code in the `TodoList` function above the return statement.
+
+   ```jsx
+   import { useState } from 'react';
+
+   const [tasks, setTasks] = useState(["Drink some coffee", "Create a TODO app", "Drink some more coffee"]);
+   const [newTaskText, setNewTaskText] = useState("");
+   ```
 
 3. **Handle Input and Add Task**
    - Add functions to handle input change and add tasks:
