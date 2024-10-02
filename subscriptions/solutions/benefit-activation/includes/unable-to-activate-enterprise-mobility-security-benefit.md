@@ -6,7 +6,7 @@ ms.topic: include
 ms.assetid: 104e6ef4-5bb1-4f26-af7c-a6925e3665c7
 author: joseb-rdc
 ms.author: amast
-ms.date: 10-02-2024
+ms.date: 10/02/2024
 user.type: subscriber
 tags: benefit, M365
 subscription.type: vl, cloud, retail, partner
