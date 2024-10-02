@@ -39,11 +39,11 @@ landingContent:
     linkLists:
       - linkListType: quickstart
         links:
-          - text: Create an Angular App
+          - text: Create an Angular project
             url: tutorial-create-angular-app.md
-          - text: Create a React App
+          - text: Create a React project
             url: tutorial-create-react-app.md
-          - text: Create a Vue App
+          - text: Create a Vue project
             url: tutorial-create-vue-app.md
       - linkListType: tutorial
         links:
