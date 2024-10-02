@@ -14,7 +14,7 @@ ms.subservice: container-tools
 Visual Studio provides a consistent way to develop Docker containers and validate your application locally.
 You can run and debug your apps in Linux or Windows containers running on your local Windows desktop with Docker installed, and you don't have to restart the container each time you make a code change.
 
-This article illustrates how to use Visual Studio to start an app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized apps. Supported project types include web app, console app, and Azure function targeting .NET Framework and .NET Core. The examples presented in this article, are a project of type ASP.NET Core Web App and a project of type Console App (.NET Framework).
+This article illustrates how to use Visual Studio to start an app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized apps. Supported project types include web app, console app, and Azure function targeting .NET Framework and .NET Core. The examples presented in this article are a project of type ASP.NET Core Web App and a project of type Console App (.NET Framework).
 
 If you already have a project of a supported type, Visual Studio can create a Dockerfile and configure your project to run in a container. See [Container Tools in Visual Studio](overview.md).
 
@@ -87,7 +87,7 @@ To quickly iterate changes in your Razor pages, you can start your application i
    Application started. Press Ctrl+C to shut down.
    ```
 
-Your changes have been applied!
+Your changes have been applied! 
 
 ### Debug with breakpoints
 
@@ -110,6 +110,12 @@ Often, changes require further inspection. You can use the debugging features of
    :::moniker range=">=vs-2022"
    ![Screenshot showing part of the code for Index.cshtml.cs in Visual Studio with a breakpoint set to the left of a code line that is highlighted in yellow.](media/edit-and-refresh/vs-2022/breakpoint.png)
    :::moniker-end
+
+:::moniker range=">=vs-2022"
+## Hot reload
+
+Also, in Visual Studio 17.10 and later, [Hot Reload](../debugger/hot-reload.md) is supported in containers, although be aware that in a container, you have to refresh the page to see changes. If the change is to a CSS file, you again have to refresh the page to see those changes. Note also that updates to scoped CSS files (`.razor.css` files, see [ASP.NET Core Blazor CSS isolation](/aspnet/core/blazor/components/css-isolation)) are not supported as part of hot reload.
+:::moniker-end
 
 ## Create a .NET Framework console app
 
@@ -159,7 +165,7 @@ COPY --from=runtime /usr/share/dotnet /usr/share/dotnet
 RUN ln -s /usr/share/dotnet/dotnet /usr/bin/dotnet
 ```
 
-Also, in the Visual Studio project, you need to make some changes to specify this as the layer to use when debugging in Fast Mode. For an explanation of Fast Mode, see [Customize Docker containers in Visual Studio](container-build.md#debugging). For single container scenarios (not Docker Compose), set the MSBuild property `DockerfileFastModeStage` to `debug` in order to use that layer for debugging. For Docker Compose, modify the `docker-compose.vs.debug.yml` as follows:
+Also, in the Visual Studio project, you need to make some changes to specify this as the layer to use when debugging in Fast Mode. For an explanation of Fast Mode, see [Customize Docker containers in Visual Studio](container-build.md). For single container scenarios (not Docker Compose), set the MSBuild property `DockerfileFastModeStage` to `debug` in order to use that layer for debugging. For Docker Compose, modify the `docker-compose.vs.debug.yml` as follows:
 
 ```yml
 # Set the stage to debug to use an image with the .NET runtime in it
@@ -174,7 +180,7 @@ For a code sample of authentication with Azure Functions, including both integra
 
 ## Container reuse
 
-When you use [Fast Mode](container-build.md#debugging), which Visual Studio normally uses for the Debug configuration, Visual Studio rebuilds only your container images and the container itself when you change the Dockerfile. If you don't change the Dockerfile, Visual Studio reuses the container from an earlier run.
+When you use [Fast Mode](container-build.md), which Visual Studio normally uses for the Debug configuration, Visual Studio rebuilds only your container images and the container itself when you change the Dockerfile. If you don't change the Dockerfile, Visual Studio reuses the container from an earlier run.
 
 If you manually modified your container and want to restart with a clean container image, use the **Build** > **Clean** command in Visual Studio, and then build as normal.
 
