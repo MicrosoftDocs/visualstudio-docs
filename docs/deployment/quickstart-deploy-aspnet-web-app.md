@@ -102,8 +102,6 @@ Next, you see the summary page for the new [publish profile](./publish-overview.
 
 You can come back to this summary page after you close it. Next time you right-click and choose **Publish**, Visual Studio opens this summary page. (To get back to the Publish wizard just click **New** in the summary page.)
 
-To view or change the settings, select the **Show all settings** link, or click on any of the pencil icons. The **Settings** page appears. Here, you can change the configuration to publish, the target framework, the [deployment mode](/dotnet/core/deploying/), or the target Runtime ID (RID) (see [.NET RID catalog](/dotnet/core/rid-catalog)). You can choose to delete all the existing files in the target folder every time you publish, or not. If you expect to add files that aren't part of what Visual Studio deploys, clear the checkbox.
-
 ## [FTP/FTPS](#tab/ftp-ftps)
 ## Publish your web app to an FTP/FTPS server
 
@@ -124,7 +122,20 @@ You can come back to this summary page after you close it. The next time you rig
 ## [Web Server](#tab/web-server)
 ## Publish your web app to Web Server (IIS)
 
-You can publish your web app to IIS.
+You can publish your web app to IIS if IIS is configured. By default, IIS Express is installed, but you should install the IIS Management tools if you're deploying to IIS from Visual Studio. Note that you don't need to run Visual Studio as Administrator to deploy to IIS Express, only to full IIS.
+
+### Configure the web server
+
+On the remote web server, install the [Web Management Service](/iis/manage/remote-administration/remote-administration-for-iis-manager). Be sure to follow the instructions there to enable remote connections, and make sure the service is started, set up your credentials to remotely administer the web server, and verify them before attempting to deploy. Web Management Service is not required for a local IIS deployment. 
+
+On the web server, install **IIS 6 Metabase Compatibility**. In Windows Settings, under **Programs and Features**, choose **Turn Windows features on or off**. Then under **Internet Information Services** > **Web Management Tools**, install **IIS 6 Management Compatibility**. Make sure that **IIS Metabase** and **IIS 6 configuration compatibility** are selected.
+
+To configure IIS for ASP.NET Core applications, install the [.NET Core Hosting Bundle installer (direct download)](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer). For more information, see [.NET Core hosting bundle](/aspnet/core/host-and-deploy/iis/hosting-bundle).
+
+If you're working with ASP.NET 4.8 or earlier, or if you need to configure IIS on Windows Server for publishing, you can find detailed steps in [Remote debugging ASP.NET on an IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) and for ASP.NET Core, [Remote debugging ASP.NET Core on an IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md).
+### Publish to IIS web server
+
+Choose **Publish**, and then **Web Server (IIS)**.
 
 ![Screenshot showing the option to publish to IIS.](./media/publish-iis.png)
 
@@ -134,11 +145,16 @@ Pick the desired deployment mode. Choose Web Deploy to immediately deploy the ap
 
 ### Web Deploy
 
-Provide the necessary connection details and choose **Finish**.
+Provide the necessary connection details and choose **Finish**. The following screenshot shows a web application published to the default IIS web site (Default Web Site) installed on the local development machine, with a port binding on port 5187. The Destination URL is optional. If not provided, the web site is not automatically launched on publish, and there won't be a link on the **Publish** screen to access the published site.
 
 ![Screenshot showing the Publish wizard screen to publish to IIS with the Web Deploy option.](./media/publish-iis-web-deploy-latest.png)
 
-On the remote computer, make sure that Web Deploy is installed and that the Web Management Service is started. See [Web Deploy error codes](/troubleshoot/developer/webapps/iis/deployment-migration/web-deploy-error-codes#ERROR_DESTINATION_NOT_REACHABLE).
+The first time you publish, create a username and password. These credentials are specific to WebDeploy deployment. Once they're created, you can't change them in Visual Studio, but you can reset them in IIS. See [Sites - Set Credentials dialog box](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831681(v=ws.11)?redirectedfrom=MSDN#set-credentials-dialog-box). If you don't have the password, you can download a `.publishsettings` file, and read it from there. See [Import publish settings from IIS](./tutorial-import-publish-settings-iis.md).
+
+> [!WARNING]
+> Using username and password credentials is not the most secure method of authentication. Whenever possible, use alternative methods. For example, when hosting a web site in Azure App Service, you can use authentication tokens for improved security.
+
+For troubleshooting, see [Web Deploy error codes](/troubleshoot/developer/webapps/iis/deployment-migration/web-deploy-error-codes#ERROR_DESTINATION_NOT_REACHABLE).
 
 ### Web Deploy Package
 
@@ -158,6 +174,10 @@ Next, you see the summary page for the new [publish profile](./publish-overview.
 You can import publish settings [from IIS](./tutorial-import-publish-settings-iis.md) and [Azure App Service](./tutorial-import-publish-settings-azure.md#create-the-publish-settings-file-in-azure-app-service)
 
 ---
+
+## Next steps
+
+Manage settings for your web application deployment. By managing settings, you can control the .NET deployment options, as well as behaviors such as how to handle existing files that are not part of the deployment process at the deployment destination. See [Manage web deployment settings](web-deployment-settings.md).
 
 ## Related Content
 
