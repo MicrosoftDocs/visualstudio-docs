@@ -102,7 +102,7 @@ The app opens in a browser window.
 
 ## Add functionality to the ToDo list app
 
-You can leave the app running. As you make changes, the app automatically refreshes with the latest content using the Hot Module Replacement support. Some actions, such as adding folders or renaming files, require that you stop debugging and then restart the app, but in general you can leave it running in the background as you develop your app. Open the `TodoList.jsx` component so that we can start to define it.
+You can leave the app running. As you make changes, the app automatically refreshes with the latest content using Vite's hot module replacement support. Some actions, such as adding folders or renaming files, require that you stop debugging and then restart the app, but in general you can leave it running in the background as you develop your app. Open the `TodoList.jsx` component so that we can start to define it.
 
 1. In Solution Explorer, open `TodoList.jsx` and add the UI needed to show and manage todo list entries. Replace the content with the following code:
 
@@ -124,155 +124,163 @@ You can leave the app running. As you make changes, the app automatically refres
      export default TodoList;
      ```
 
-   The preceding code adds an input box for the new todo task and a button to submit the input. Next, you wire up the Add button. Use the [useState](https://react.dev/reference/react/useState) React hook to add two state variables, one for the task that is getting added, and another to store the existing tasks. For this tutorial, the tasks get stored in memory and not persistent storage. Add the following import statement to `TodoList.jsx` to import `useState`.
+   The preceding code adds an input box for the new todo task and a button to submit the input. Next, you wire up the Add button. Use the [useState](https://react.dev/reference/react/useState) React hook to add two state variables, one for the task that is getting added, and another to store the existing tasks. For this tutorial, the tasks get stored in memory and not persistent storage.
+
+1. Add the following import statement to `TodoList.jsx` to import `useState`.
 
    ```jsx
    import { useState } from 'react'
    ```
 
-   Next, use that hook to create the state variables. Add the following code in the `TodoList` function above the return statement.
+1.   Next, use that hook to create the state variables. Add the following code in the `TodoList` function above the return statement.
 
    ```jsx
    const [tasks, setTasks] = useState(["Drink some coffee", "Create a TODO app", "Drink some more coffee"]);
    const [newTaskText, setNewTaskText] = useState("");
    ```
 
-This will setup two variables, tasks and newTaskText, for the data and two functions that you can call to update those variables, setTasks and setNewTasks. When a value for a state variable is changed React will automatically re-render the component. We are almost ready to update TodoList.jsx to show the todo items as a list, but there is an important React concept that we must explain before doing so.
+   This sets up two variables, `tasks` and `newTaskText`, for the data and two functions that you can call to update those variables, `setTasks` and `setNewTasks`. When a value for a state variable is changed, React automatically re-renders the component.
 
-In React when you display a list of items you will need to add a key to uniquely identify each item in the list. This is explained in depth in the React docs at [Rendering Lists](https://react.dev/learn/rendering-lists), but we will cover what is needed for this tutorial. We have a list of todo items that we want to display, and we need to associate a unique key for each item, the key for each item should not change. Since the key for each item should not change, we cannot use the index of the item in the array as the key. We need an id which will not change through out the lifetime of those values. We will use [randomUUID()](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/randomUUID) to create a unique id for each todo item.
+   You're almost ready to update *TodoList.jsx* to show the todo items as a list, but there is an important React concept to learn first.
 
-Now let’s create TodoList.jsx using a uuid as the key for each todo item. Update TodoList.jsx to contain the following code.
+   In React, when you display a list of items you need to add a key to uniquely identify each item in the list. This task is explained in depth in the React docs at [Rendering Lists](https://react.dev/learn/rendering-lists), but here you'll learn the basics. You have a list of todo items to display, and you need to associate a unique key for each item. The key for each item should not change, and for this reason you can't use the index of the item in the array as the key. You need an ID that won't change throughout the lifetime of those values. You'll use [randomUUID()](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/randomUUID) to create a unique ID for each todo item.
 
-```jsx
-import React, { useState } from 'react';
+1. Create *TodoList.jsx* using a UUID as the key for each todo item. Update *TodoList.jsx* with the following code.
 
-const initialTasks = [
-    { id: self.crypto.randomUUID(), text: 'Drink some coffee' },
-    { id: self.crypto.randomUUID(), text: 'Create a TODO app' },
-    { id: self.crypto.randomUUID(), text: 'Drink some more coffee' }
-];
+    ```jsx
+    import React, { useState } from 'react';
+    
+    const initialTasks = [
+        { id: self.crypto.randomUUID(), text: 'Drink some coffee' },
+        { id: self.crypto.randomUUID(), text: 'Create a TODO app' },
+        { id: self.crypto.randomUUID(), text: 'Drink some more coffee' }
+    ];
+    
+    function TodoList() {
+        const [tasks, setTasks] = useState(initialTasks);
+        const [newTaskText, setNewTaskText] = useState("");
+    
+        return (
+            <article
+                className="todo-list"
+                aria-label="task list manager">
+                <header>
+                    <h1>TODO</h1>
+                    <form className="todo-input" aria-controls="todo-list">
+                        <input
+                            type="text"
+                            placeholder="Enter a task"
+                            value={newTaskText} />
+                        <button
+                            className="add-button">
+                            Add
+                        </button>
+                    </form>
+                </header>
+                <ol id="todo-list" aria-live="polite" aria-label="task list">
+                    {tasks.map((task, index) =>
+                        <li key={task.id}>
+                            <span className="text">{task.text}</span>
+                        </li>
+                    )}
+                </ol>
+            </article>
+        );
+    }
+    export default TodoList;
+    ```
 
-function TodoList() {
-    const [tasks, setTasks] = useState(initialTasks);
-    const [newTaskText, setNewTaskText] = useState("");
+   Since the ID values are assigned outside the TodoList function, you can be sure the values won't change if the page is re-rendered. When you try the app in this state, you'll notice that you can't type into the todo input element. This is because the input element is bound to `newTaskText`, which has been initialized to a blank string. To allow users to add new tasks, you need to handle the `onChange` event on that control. You also need to implement the Add button support.
 
+1. Add the required functions immediately before the return statement in the TodoList function.
+
+    ```jsx
+    function handleInputChange(event) {
+        setNewTaskText(event.target.value);
+    }
+    
+    function addTask() {
+        if (newTaskText.trim() !== "") {
+            setTasks(t => [...t, { id: self.crypto.randomUUID(), text: newTaskText }]);
+            setNewTaskText("");
+        }
+        event.preventDefault();
+    }
+    ```
+
+   In the `handleInputChanged` function, the new value from the input field is passed in through `event.target.value`, and that value is used to update the value for the `newTaskText` variable with `setNewTaskText`. In the `addTask` function, add the new task to the list of existing tasks using `setTasks` and set the ID of the item as a new UUID value. Update the input element to include `onChange={handleInputChange}` and update the Add button to include `onClick={addTask}`. This task wires up the event to the function that handles that event. Following this, you should be able to add a new task to the task list. New tasks are added to the bottom of the list. To make this app more useful, you need to add support to delete tasks and to move a task up or down.
+
+1. Add the functions to support delete, move up and move down, and then update the markup to show a button for each action. Add the following code in the TodoList function above the return statement.
+
+    ```jsx
+    function deleteTask(id) {
+        const updatedTasks = tasks.filter(task => task.id != id);
+        setTasks(updatedTasks);
+    }
+    
+    function moveTaskUp(index) {
+        if (index > 0) {
+            const updatedTasks = [...tasks];
+            [updatedTasks[index], updatedTasks[index - 1]] = [updatedTasks[index - 1], updatedTasks[index]];
+            setTasks(updatedTasks);
+        }
+    }
+    
+    function moveTaskDown(index) {
+        if (index < tasks.length) {
+            const updatedTasks = [...tasks];
+            [updatedTasks[index], updatedTasks[index + 1]] = [updatedTasks[index + 1], updatedTasks[index]];
+            setTasks(updatedTasks);
+        }
+    }
+    ```
+
+   The delete function takes in the task ID and deletes that one from the list and uses the [Array filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) method to create a new array excluding the selected item and then calls `setTasks()`. The other two functions take in the index of the item because this work is specific to the item ordering. Both `moveTaskUp()` and `moveTaskDown()` use [array destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) to swap the selected task with its neighbor.
+
+1. Next, update the view to include these three buttons. Update the return statement to contain the following.
+
+    ```jsx
     return (
         <article
             className="todo-list"
             aria-label="task list manager">
             <header>
                 <h1>TODO</h1>
-                <form className="todo-input" aria-controls="todo-list">
+                <form className="todo-input" onSubmit={addTask} aria-controls="todo-list">
                     <input
                         type="text"
+                        required
+                        autoFocus
                         placeholder="Enter a task"
-                        value={newTaskText} />
+                        value={newTaskText}
+                        aria-label="Task text"
+                        onChange={handleInputChange} />
                     <button
-                        className="add-button">
+                        className="add-button"
+                        aria-label="Add task">
                         Add
                     </button>
                 </form>
             </header>
-            <ol id="todo-list" aria-live="polite" aria-label="task list">
+            <ol id="todo-list" aria-live="polite">
                 {tasks.map((task, index) =>
                     <li key={task.id}>
                         <span className="text">{task.text}</span>
+                        <button className="delete-button" onClick={() => deleteTask(task.id)}>
+                            🗑️
+                        </button>
+                        <button className="up-button" onClick={() => moveTaskUp(index)}>
+                            ⇧
+                        </button>
+                        <button className="down-button" onClick={() => moveTaskDown(index)}>
+                            ⇩
+                        </button>
                     </li>
                 )}
             </ol>
         </article>
     );
-}
-export default TodoList;
-```
-
-Since the id values are assigned outside the TodoList function, we can be sure the values will not change if the page is rerendered. When you try the app in this state, you will notice that you cannot type into the todo input element. This is because the input element is bound to newTaskText which has been initialized to a blank string. To allow users to add new tasks, we will need to handle the onChange event on that control. We also need to implement the Add button support. Add the functions immediately above the return statement in the TodoList function.
-
-```jsx
-function handleInputChange(event) {
-    setNewTaskText(event.target.value);
-}
-
-function addTask() {
-    if (newTaskText.trim() !== "") {
-        setTasks(t => [...t, { id: self.crypto.randomUUID(), text: newTaskText }]);
-        setNewTaskText("");
-    }
-    event.preventDefault();
-}
-```
-
-In the handleInputChanged function, the new value from the input field is passed in via event.target.value and that is used to update the value for the newTaskText variable with setNewTaskText. In the addTask function we add the new task to the list of existing tasks using setTasks and we set the id of the item as a new uuid value. Update the input element to include onChange={handleInputChange} and update the Add button to include onClick={addTask}. This will wire up the event to the function that handles that event. Following this you should be able to add a new task to the task list. New tasks are added to the bottom of the list. To make this app more useful, we need to add support to delete tasks and to move a task up or down. Let’s get started on that.
-
-We will add the functions to support delete, move up and move down and then update the markup to show a button for each action. Add the following in the TodoList function above the return statement.
-
-```jsx
-function deleteTask(id) {
-    const updatedTasks = tasks.filter(task => task.id != id);
-    setTasks(updatedTasks);
-}
-
-function moveTaskUp(index) {
-    if (index > 0) {
-        const updatedTasks = [...tasks];
-        [updatedTasks[index], updatedTasks[index - 1]] = [updatedTasks[index - 1], updatedTasks[index]];
-        setTasks(updatedTasks);
-    }
-}
-
-function moveTaskDown(index) {
-    if (index < tasks.length) {
-        const updatedTasks = [...tasks];
-        [updatedTasks[index], updatedTasks[index + 1]] = [updatedTasks[index + 1], updatedTasks[index]];
-        setTasks(updatedTasks);
-    }
-}
-```
-
-The delete function takes in the task id and deletes that one from the list and uses the [Array filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) method to create a new array excluding the selected item and then calls setTasks(). The other two functions take in the index of the item since this is specific to the item ordering. Both moveTaskUp() and moveTaskDown() use [array destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) to swap the selected task with its neighbor. Now we will update the view to include these buttons. Update the return statement to contain the following.
-
-```jsx
-return (
-    <article
-        className="todo-list"
-        aria-label="task list manager">
-        <header>
-            <h1>TODO</h1>
-            <form className="todo-input" onSubmit={addTask} aria-controls="todo-list">
-                <input
-                    type="text"
-                    required
-                    autoFocus
-                    placeholder="Enter a task"
-                    value={newTaskText}
-                    aria-label="Task text"
-                    onChange={handleInputChange} />
-                <button
-                    className="add-button"
-                    aria-label="Add task">
-                    Add
-                </button>
-            </form>
-        </header>
-        <ol id="todo-list" aria-live="polite">
-            {tasks.map((task, index) =>
-                <li key={task.id}>
-                    <span className="text">{task.text}</span>
-                    <button className="delete-button" onClick={() => deleteTask(task.id)}>
-                        🗑️
-                    </button>
-                    <button className="up-button" onClick={() => moveTaskUp(index)}>
-                        ⇧
-                    </button>
-                    <button className="down-button" onClick={() => moveTaskDown(index)}>
-                        ⇩
-                    </button>
-                </li>
-            )}
-        </ol>
-    </article>
-);
-```
+    ```
 
 We have added the buttons needed to perform the tasks we discussed above. We are using Unicode characters as icons on the buttons. In the markup there are some attributes added for when we add some CSS later. You will also notice the use of [aria attributes](https://www.w3.org/WAI/standards-guidelines/aria/) to improve accessibility, the are optional but highly recommended. If you run the app it should look like the image below.
 
