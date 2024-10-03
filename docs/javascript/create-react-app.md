@@ -429,154 +429,162 @@ You can leave the app running. As you make changes, the app automatically refres
     export default TodoList;
     ```
 
-Now the TodoItem component is used to render each todo item. Notice that we set the key to task.id which contains the uuid value for that task. When you run the app, you shouldn’t see any changes to the look or behavior of the app since we refactored it to use TodoItem. Let’s move on to styling.
+   Now, the TodoItem component is used to render each todo item. Notice that the key is set to `task.id`, which contains the UUID value for that task. When you run the app, you shouldn’t see any changes to the look or behavior of the app because you refactored it to use TodoItem.
 
-Now that we have all the basic functions supported, it’s time to start adding some styling to this to make it look nice. Now would be a good time to create a commit to save your progress. Let’s first start by adding a link in the Index.html for a font family, Inter, that we will use for this app. In the Index.html there are some other items that need to be cleaned up. Specifically, the title should be updated and vite.svg file is still being used as the icon. Update the Index.html file to have the following content.
+   Now that you have all the basic functions supported, it’s time to start adding some styling to this to make it look nice. Start by adding a link in *Index.html* for a font family, Inter, that you will use for this app. In *Index.html*, there are some other items that need to be cleaned up. Specifically, the title should be updated and you want to replace the *vite.svg* file that is currently used as the icon.
 
-```html
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/checkmark-square.svg" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>TODO app</title>
-        <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-        <script type="module" defer src="/src/main.jsx"></script>
-    </head>
-    <body>
-    </body>
-</html>
-```
+1. Update *Index.html* with the following content.
 
-Edit the main.jsx file to replace ‘root’ with ‘main’ when calling createRoot the full content for that file is below.
+    ```html
+    <!doctype html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <link rel="icon" type="image/svg+xml" href="/checkmark-square.svg" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>TODO app</title>
+            <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+            <script type="module" defer src="/src/main.jsx"></script>
+        </head>
+        <body>
+        </body>
+    </html>
+    ```
 
-```jsx
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+1. Edit *main.jsx* file to replace `root` with `main` when calling `createRoot`.
 
-createRoot(document.querySelector('main')).render(
-    <StrictMode>
-        <App />
-    </StrictMode>,
-)
-```
+   The complete code for *main.jsx* is shown here.
 
-In addition to these changes the file checkmark-square.svg was added to the public folder. This is an SVG from the FluentUI checkmark square image which I downloaded directly. There is a package that you can use for a more integrated experience but that’s outside the scope of this post.
+    ```jsx
+    import { StrictMode } from 'react'
+    import { createRoot } from 'react-dom/client'
+    import App from './App.jsx'
+    import './index.css'
+    
+    createRoot(document.querySelector('main')).render(
+        <StrictMode>
+            <App />
+        </StrictMode>,
+    )
+    ```
 
-Now let’s update the styles of the TodoList component. In the components folder add a new CSS file named TodoList.css. You can right click on the project and select Add > New Item and then select Style Sheet. Give the file the name TodoList.css. Add the following to TodoList.css.
+   In addition to these changes, the file *checkmark-square.svg* was added to the public folder. This is an SVG from the FluentUI checkmark square image, which you can download directly. (There's a package that you can use for a more integrated experience, but that’s outside the scope of this article.)
 
-```css
-.todo-list {
-    background-color: #1e1e1e;
-    padding: 1.25rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.3);
-    width: 100%;
-    max-width: 25rem;
-}
+   Next, update the styles of the TodoList component.
 
-.todo-list h1 {
-    text-align: center;
-    color: #e0e0e0;
-}
+1. In the components folder, add a new CSS file named *TodoList.css*. You can right-click on the project and select **Add > New Item** and then select **Style Sheet**. Give the file the name *TodoList.css*.
 
-.todo-input {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 1.25rem;
-}
+1. Add the following code to *TodoList.css*.
 
-.todo-input input {
-    flex: 1;
-    padding: 0.625rem;
-    border: 0.0625rem solid #333;
-    border-radius: 0.25rem;
-    margin-right: 0.625rem;
-    background-color: #2c2c2c;
-    color: #e0e0e0;
-}
+    ```css
+    .todo-list {
+        background-color: #1e1e1e;
+        padding: 1.25rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.3);
+        width: 100%;
+        max-width: 25rem;
+    }
+    
+    .todo-list h1 {
+        text-align: center;
+        color: #e0e0e0;
+    }
+    
+    .todo-input {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1.25rem;
+    }
+    
+    .todo-input input {
+        flex: 1;
+        padding: 0.625rem;
+        border: 0.0625rem solid #333;
+        border-radius: 0.25rem;
+        margin-right: 0.625rem;
+        background-color: #2c2c2c;
+        color: #e0e0e0;
+    }
+    
+    .todo-input .add-button {
+        padding: 0.625rem 1.25rem;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 0.25rem;
+        cursor: pointer;
+    }
+    
+    .todo-input .add-button:hover {
+        background-color: #0056b3;
+    }
+    
+    .todo-list ol {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .todo-list li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.625rem;
+        border-bottom: 0.0625rem solid #333;
+    }
+    
+    .todo-list li:last-child {
+        border-bottom: none;
+    }
+    
+    .todo-list .text {
+        flex: 1;
+    }
+    
+    .todo-list li button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+        margin-left: 0.625rem;
+        color: #e0e0e0;
+    }
+    
+    .todo-list li button:hover {
+        color: #007bff;
+    }
+    
+    .todo-list li button.delete-button {
+        color: #ff4d4d;
+    }
+    
+    .todo-list li button.up-button,
+    .todo-list li button.down-button {
+        color: #4caf50;
+    }
+    ```
 
-.todo-input .add-button {
-    padding: 0.625rem 1.25rem;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 0.25rem;
-    cursor: pointer;
-}
+1. Next, edit *TodoList.jsx* to add the following import at the top of the file.
 
-.todo-input .add-button:hover {
-    background-color: #0056b3;
-}
+    ```jsx
+    import './TodoList.css';
+    ```
 
-.todo-list ol {
-    list-style-type: none;
-    padding: 0;
-}
+1. Refresh the browser after saving the changes. This should improve the styling of the app. The app should look like the following.
 
-.todo-list li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.625rem;
-    border-bottom: 0.0625rem solid #333;
-}
+   :::image type="content" source="media/vs-2022/react-running-app-final.png" alt-text="Screenshot showing the final version of the app running.":::
 
-.todo-list li:last-child {
-    border-bottom: none;
-}
-
-.todo-list .text {
-    flex: 1;
-}
-
-.todo-list li button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 1rem;
-    margin-left: 0.625rem;
-    color: #e0e0e0;
-}
-
-.todo-list li button:hover {
-    color: #007bff;
-}
-
-.todo-list li button.delete-button {
-    color: #ff4d4d;
-}
-
-.todo-list li button.up-button,
-.todo-list li button.down-button {
-    color: #4caf50;
-}
-```
-
-After that edit TodoList.jsx to add the following import at the top of the file.
-
-```jsx
-import './TodoList.css';
-```
-
-Refresh the browser after saving the changes. This should improve the styling of the app. The app should look like the following screenshot.
-
-:::image type="content" source="media/vs-2022/react-running-app-final.png" alt-text="Screenshot showing the final version of the app running.":::
-
-Now you have built a working Todo app which stores the todo items in memory. From here you could update the app to store the todo items in [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)/[IndexedDb](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API), or integrate this with a server-side database, or other backend, for more permanent storage.
+   Now you've built a working todo list app that stores the todo items in memory. From this point, you could update the app to store the todo items in [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)/[IndexedDb](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API), or integrate this with a server-side database, or other backend, for more permanent storage.
 
 ## Summary
 
-In this tutorial you created a new React app using Visual Studio. The app consists of a todo list, which includes support to add tasks, delete tasks and to reorder them. You created two new React components and used those throughout this tutorial.
+In this tutorial, you created a new React app using Visual Studio. The app consists of a todo list, which includes support to add tasks, delete tasks, and reorder them. You created two new React components and used those throughout this tutorial.
 
 ## Resources
 
-- Code for this sample
-- Visual Studio JavaScript and TypeScript projects
+- Code for this sample at [sayedihashimi/todojswebapp](https://github.com/sayedihashimi/todojswebapp)
+- [Visual Studio JavaScript and TypeScript projects](../javascript/)
 
 ## Feedback
 
-You can share feedback with us via Developer Community: report any bugs or issues via report a problem and share your suggestions for new features or improvements to existing ones. You can also leave a comment here or reach out to Sayed on Twitter at @SayedIHashimi.
+You can share feedback with us using [Developer Community](https://developercommunity.visualstudio.com/home): report any bugs or issues using [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio) and [share your suggestions for new features](https://developercommunity.visualstudio.com/report?space=8&entry=suggestion) or improvements to existing ones. You can also leave a comment here or reach out to Sayed on Twitter at @SayedIHashimi.
