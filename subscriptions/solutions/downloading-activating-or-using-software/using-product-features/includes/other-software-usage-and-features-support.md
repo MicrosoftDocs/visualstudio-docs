@@ -1,10 +1,10 @@
 ---
 title: Other software usage and features support options
 description: Get support for other software usage and features.
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.topic: include
 ms.assetid: 2d5a7cc3-d6cb-4b51-a6a2-2a92ff6aec61
-author: larissacrawford
+author: joseb-rdc
 ms.author: amast
 ms.date: 04/08/2024
 user.type: subscriber

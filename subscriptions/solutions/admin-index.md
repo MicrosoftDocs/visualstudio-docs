@@ -3,7 +3,7 @@ title: Subscriptions admin support solutions
 description: List of INCLUDEs files for Visual Studio subscriptions admin support widget content
 ms.topic: conceptual
 robots: noindex, nofollow
-author: evanwindom 
+author: joseb-rdc 
 ms.author: amast 
 ms.date: 08/13/2021
 ---
