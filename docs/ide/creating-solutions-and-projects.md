@@ -100,7 +100,7 @@ After you create an empty solution, you can add new or existing projects or item
 
 As noted earlier, you can also open code files without using a project or solution. To learn about developing code in this way, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
-## Multiple projects
+## Multi-project solution
 
 You can create a solution that contains multiple projects. Start with an [empty solution](#create-empty-solutions) or an [existing solution containing a project](#create-a-project-by-using-a-project-template) and add a new or existing project to it by using **Add** > **New project**/**Existing project**. For example, you can create a solution that contains a C# project and a Visual Basic project. 
 
