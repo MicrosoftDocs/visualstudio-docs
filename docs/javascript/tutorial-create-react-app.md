@@ -67,6 +67,9 @@ Next, you should see the base React app appear!
 
 ## Next steps
 
+> [!div class="nextstepaction"]
+> [Create a React app](create-react-app.md)
+
 For ASP.NET Core integration:
 
 > [!div class="nextstepaction"]

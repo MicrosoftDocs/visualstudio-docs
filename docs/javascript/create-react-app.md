@@ -132,7 +132,7 @@ You can leave the app running. As you make changes, the app automatically refres
    import { useState } from 'react'
    ```
 
-1.   Next, use that hook to create the state variables. Add the following code in the `TodoList` function above the return statement.
+1. Next, use that hook to create the state variables. Add the following code in the `TodoList` function above the return statement.
 
    ```jsx
    const [tasks, setTasks] = useState(["Drink some coffee", "Create a TODO app", "Drink some more coffee"]);
