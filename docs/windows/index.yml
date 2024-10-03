@@ -129,7 +129,7 @@ additionalContent:
      items:
         - title: Web and cloud
           links:
-            - text: ASP.NET
+            - text: ASP.NET Core
               url: /aspnet/
             - text: ASP.NET Core and JavaScript
               url: ../javascript/tutorial-nodejs.md
