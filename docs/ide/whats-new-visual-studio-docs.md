@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: Discover recent changes in the Visual Studio documentation, including updated articles about getting started, the IDE, and deployment.
-ms.date: 09/04/2024
+ms.date: 10/01/2024
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -14,6 +14,74 @@ ms.topic: conceptual
 # What's new in Visual Studio docs
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
+
+## September 2024
+
+### Debugger
+
+**Updated articles**
+
+- [View and change variable values with DataTips in the code editor](../debugger/view-data-values-in-data-tips-in-the-code-editor.md) - Add details to CPU Insights article and debug with Copilot
+- [Inspect an exception using the Exception Helper](../debugger/exception-helper.md) - Update Exception Helper article for debugging async exceptions
+
+### Extensibility
+
+**Updated articles**
+
+- [Using VisualStudio.Extensibility SDK and VSSDK together](../extensibility/visualstudio.extensibility/get-started/in-proc-extensions.md) - Update outdated VisualStudio.Extensibility in-proc docs
+
+### Get started
+
+**Updated articles**
+
+- [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md) - Updated images and text
+- [Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)](../get-started/csharp/tutorial-console-part-2.md) - Update article for user feedback
+- [Tutorial: Learn to use the code editor with Visual Basic](../get-started/visual-basic/tutorial-editor.md) - Review and update
+
+### IDE
+
+**Updated articles**
+
+- [Options, Text Editor, C#, IntelliSense](../ide/reference/options-text-editor-csharp-intellisense.md) - Update for latest options in product
+- [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md) - Regular expressions examples and clarifications
+- [AI assistance when you write code](../ide/visual-studio-whole-line-completions.md) - Intellicode Tools, Options UI updates
+- [Manage project and solution properties](../ide/managing-project-and-solution-properties.md) - Add more info & screenshots on Solution properties context menu and dialog
+- [Get better answers by setting the context for GitHub Copilot Chat in Visual Studio](../ide/copilot-chat-context.md) - Add more info on context used by chat
+- [Bookmark code in Visual Studio](../ide/setting-bookmarks-in-code.md) - Fix issue on bookmark discoverability
+
+### Install
+
+**Updated articles**
+
+- [Install Visual Studio](../install/install-visual-studio.md) - Add sign-in info to install doc
+
+### Profiling
+
+**Updated articles**
+
+- [Case study: Isolate a performance issue (C#, Visual Basic, F#)](../profiling/isolate-performance-issue.md)
+  - Add Copilot instructions for profiling case study articles
+  - Revise profiling article on isolating a performance issue to use a case study format
+- [Case Study: Beginner's guide to optimizing code and reducing compute costs (C#, Visual Basic, C++, F#)](../profiling/optimize-code-using-profiling-tools.md) - Add Copilot instructions for profiling case study articles
+- [Analyze performance by using CPU profiling in the Performance Profiler (C#, Visual Basic, C++, F#)](../profiling/cpu-usage.md) - Incorporate review feedback for CPU Usage article
+
+### Test
+
+**Updated articles**
+
+- [Microsoft.CodeCoverage.Console tool](../test/microsoft-code-coverage-console-tool.md) - Add usage details related to Microsoft.CodeCoverage.Console usage
+
+## Community contributors
+
+The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
+
+- [cmkaya](https://github.com/cmkaya) - Cem Kaya ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [Meir017](https://github.com/Meir017) - Meir Blachman ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [PhilKang0704](https://github.com/PhilKang0704) - Phil ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [Rageking8](https://github.com/Rageking8) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [sailro](https://github.com/sailro) - Sebastien Lebreton ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [Vincezhaoc](https://github.com/Vincezhaoc) - Vince Zhao ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [vritme](https://github.com/vritme) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 
 ## August 2024
 
@@ -227,82 +295,3 @@ The following people contributed to the Visual Studio docs during this period. T
 
 - [ErikEJ](https://github.com/ErikEJ) - Erik Ejlskov Jensen ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 
-## June 2024
-
-### Azure
-
-**Updated articles**
-
-- [Publish a Cloud Services (classic) project to Cloud Services (extended support) by using Visual Studio](../azure/cloud-services-extended-support.md) - Review and update
-
-### Deployment
-
-**Updated articles**
-
-- [Specify ClickOnce Publish properties](../deployment/how-to-specify-where-visual-studio-copies-the-files.md) - Update and refactor articles on ClickOnce deployment settings
-- [Server and client configuration issues in ClickOnce deployments](../deployment/server-and-client-configuration-issues-in-clickonce-deployments.md) - Remove Internet Explorer references from ClickOnce
-- [Overview of Publish](../deployment/publish-overview.md) - Review and update, add more about basic Publish operations
-- [Get publish settings from Azure and import into Visual Studio](../deployment/tutorial-import-publish-settings-azure.md) - Review and update credentials information for Azure App Service publish
-
-### Get started
-
-**Updated articles**
-
-- [Tutorial: Create your first Universal Windows Platform application in Visual Studio with XAML and C&#35;](../get-started/csharp/tutorial-uwp.md) - Review and update
-- [Tutorial: Create a math quiz WinForms app](../get-started/csharp/tutorial-windows-forms-math-quiz-create-project-add-controls.md) - Review and update
-- [What is Visual Studio?](../get-started/visual-studio-ide.md) - Review and update
-
-### IDE
-
-**Updated articles**
-
-- [Sign in or switch Visual Studio user accounts](../ide/signing-in-to-visual-studio.md) - Add steps to sign in from the IDE
-- [Install GitHub Copilot in Visual Studio](../ide/visual-studio-github-copilot-install-and-states.md) - Add instructions on how to hide/remove GitHub Copilot
-- [Manage application settings (.NET)](../ide/managing-application-settings-dotnet.md) - Review and update
-- [Manage project and solution properties](../ide/managing-project-and-solution-properties.md) - Review and update
-- [Outlining](../ide/outlining.md) - Review and update
-- [Manage word wrap in the editor](../ide/reference/how-to-manage-word-wrap-in-the-editor.md) - Review and update
-- [What is Sticky Scroll for Visual Studio?](../ide/editor-sticky-scroll.md) - Review and update
-
-### Install
-
-**Updated articles**
-
-- [Visual Studio on Arm-powered devices](../install/visual-studio-on-arm-devices.md) - Workload updates for Arm64 in latest Visual Studio releases
-- [Install Visual Studio versions side-by-side](../install/install-visual-studio-versions-side-by-side.md) - Review and update
-- [Repair Visual Studio](../install/repair-visual-studio.md) - Review and update
-- [Uninstall or remove Visual Studio](../install/uninstall-visual-studio.md) - Review and update
-- [Install Visual Studio](../install/install-visual-studio.md) - Review and update
-
-### MSBuild
-
-**Updated articles**
-
-- [Select the files to build](../msbuild/how-to-select-the-files-to-build.md) - Updates to apply to SDK builds
-- [MSBuild command-line reference](../msbuild/msbuild-command-line-reference.md) - Improve readability of MSBuild tables
-
-### Profiling
-
-**New articles**
-
-- [Isolate a performance issue (C#, Visual Basic, F#)](../profiling/isolate-performance-issue.md)
-
-**Updated articles**
-
-- [Beginner's guide to optimizing code and reducing compute costs (C#, Visual Basic, C++, F#)](../profiling/optimize-code-using-profiling-tools.md) - Add tutorial for starting a performance investigation using .NET Counters and Instrumentation
-- [Instrument a native stand-alone component and collect timing data with the profiler from the command line](../profiling/instrument-native-component-and-collect-timing-data.md) - Update command-line instrumentation articles for VSIntsr usage
-
-### Test
-
-**Updated articles**
-
-- [Unit test basics](../test/unit-test-basics.md) - Add Copilot info and links related to generating unit tests
-
-### Community contributors
-
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
-
-- [PhilKang0704](https://github.com/PhilKang0704) - Phil ![3 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-3-green)
-- [Guiorgy](https://github.com/Guiorgy) - Guiorgy ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [hickford](https://github.com/hickford) - M Hickford ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [trivalik](https://github.com/trivalik) - Trivalik ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
