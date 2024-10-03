@@ -1,6 +1,6 @@
 ---
 title: Create a React app in Visual Studio
-description: Create, build, and run a simple React front-end web application project from a Visual Studio template, and set basic properties for the project.
+description: Create, build, and run a React to-do list web application project from a Visual Studio template.
 ms.date: 10/03/2024
 ms.topic: tutorial
 ms.devlang: javascript
@@ -584,7 +584,3 @@ In this tutorial, you created a new React app using Visual Studio. The app consi
 
 - Code for this sample at [sayedihashimi/todojswebapp](https://github.com/sayedihashimi/todojswebapp)
 - [Visual Studio JavaScript and TypeScript projects](../javascript/)
-
-## Feedback
-
-You can share feedback with us using [Developer Community](https://developercommunity.visualstudio.com/home): report any bugs or issues using [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio) and [share your suggestions for new features](https://developercommunity.visualstudio.com/report?space=8&entry=suggestion) or improvements to existing ones. You can also leave a comment here or reach out to Sayed on Twitter at @SayedIHashimi.
