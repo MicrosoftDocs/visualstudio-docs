@@ -53,7 +53,7 @@ productDirectory:
     - title: GitHub Copilot
       imageSrc: ./media/copilot-icon.svg
       links:
-        - url: /visualstudio/ide/ai-assisted-development-visual-studio
+        - url: /visualstudio/ide/visual-studio-github-copilot-extension
           text: About Copilot in Visual Studio 2022
         - url: https://code.visualstudio.com/docs/editor/github-copilot
           text: About Copilot in Visual Studio Code
