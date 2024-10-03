@@ -82,7 +82,7 @@ If you have multiple accounts, you can add them all to Visual Studio so that you
 
 After you add multiple accounts on one machine, that group of accounts roams with you if you sign in to Visual Studio on another machine.  However, your account credentials do not roam therefore you'll be prompted to enter credentials for those other accounts the first time you attempt to use their resources on a new machine.
 
-To authenticate and access Azure resources from Visual Studio, sign in to Visual Studio with an account that has access to Azure resources and select this account for [Azure Service Authentication](/dotnet/api/overview/azure/service-to-service-authentication?view=azure-dotnet#authenticating-with-visual-studio) in **Tools** > **Options** > **Azure Service Authentication** > **Account Selection**.
+To authenticate and access Azure resources from Visual Studio, sign in to Visual Studio with an account that has access to Azure resources and select this account for [Azure Service Authentication](/dotnet/api/overview/azure/service-to-service-authentication#authenticating-with-visual-studio) in **Tools** > **Options** > **Azure Service Authentication** > **Account Selection**.
 
 There are several types of accounts you can add: 
 
