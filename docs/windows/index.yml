@@ -131,8 +131,6 @@ additionalContent:
           links:
             - text: ASP.NET Core
               url: /aspnet/
-            - text: ASP.NET Core and JavaScript
-              url: ../javascript/tutorial-nodejs.md
             - text: Azure cloud
               url: ../azure/index.yml
             - text: Python
