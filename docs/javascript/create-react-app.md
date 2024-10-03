@@ -1,7 +1,7 @@
 ---
 title: Create a React app in Visual Studio
 description: Create, build, and run a simple React front-end web application project from a Visual Studio template, and set basic properties for the project.
-ms.date: 10/02/2024
+ms.date: 10/03/2024
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -15,7 +15,7 @@ monikerRange: '>= vs-2022'
 
 # Create a React app in Visual Studio
 
-In this tutorial, you create a React front-end for a ToDo list web app using JavaScript and Visual Studio 2022. The code for this app can be found at [sayedihashimi/todojswebapp](https://github.com/sayedihashimi/todojswebapp).
+In this tutorial, you create a React front-end for a to-do list web app using JavaScript and Visual Studio 2022. The code for this app can be found at [sayedihashimi/todojswebapp](https://github.com/sayedihashimi/todojswebapp).
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ Make sure to install the following:
 - Visual Studio 2022 or later. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
 - npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js.
 
-## Create the React ToDo list app
+## Create the React ToDo List app
 
 1. In Visual Studio, select **File > New > Project** to open the Create a New Project dialog, select the **React App** JavaScript template, and then choose **Next**.
 
@@ -56,7 +56,7 @@ Make sure to install the following:
 
    This component displays a header, which you will replace later.
 
-   Next, wire up this component in the app. `App.jsx` is the main component that is loaded, which represents the todo application. This component is used in the `main.jsx` file. 
+   Next, wire up this component in the app. `App.jsx` is the main component that is loaded, which represents the to-do list application. This component is used in the `main.jsx` file. 
 
 1. In Solution Explorer, open `App.jsx`, remove all imports from the top, and clear out the contents of the return statement. The file should look like the following.
 
@@ -92,7 +92,7 @@ Make sure to install the following:
      }
      ```
 
-## Run the App
+## Run the app
 
 Select the **Start Debugging** button from the toolbar or press the F5 keyboard shortcut.
 
@@ -100,11 +100,11 @@ The app opens in a browser window.
 
 :::image type="content" source="media/vs-2022/react-running-app.png" alt-text="Screenshot showing the app running in the browser":::
 
-## Add functionality to the ToDo list app
+## Add to-do list functions to the app
 
 You can leave the app running. As you make changes, the app automatically refreshes with the latest content using Vite's hot module replacement support. Some actions, such as adding folders or renaming files, require that you stop debugging and then restart the app, but in general you can leave it running in the background as you develop your app. Open the `TodoList.jsx` component so that we can start to define it.
 
-1. In Solution Explorer, open `TodoList.jsx` and add the UI needed to show and manage todo list entries. Replace the content with the following code:
+1. In Solution Explorer, open `TodoList.jsx` and add the UI needed to show and manage to-do list entries. Replace the content with the following code:
 
      ```jsx
      function TodoList() {
@@ -124,7 +124,7 @@ You can leave the app running. As you make changes, the app automatically refres
      export default TodoList;
      ```
 
-   The preceding code adds an input box for the new todo task and a button to submit the input. Next, you wire up the Add button. Use the [useState](https://react.dev/reference/react/useState) React hook to add two state variables, one for the task that is getting added, and another to store the existing tasks. For this tutorial, the tasks get stored in memory and not persistent storage.
+   The preceding code adds an input box for the new to-do task and a button to submit the input. Next, you wire up the Add button. Use the [useState](https://react.dev/reference/react/useState) React hook to add two state variables, one for the task that is getting added, and another to store the existing tasks. For this tutorial, the tasks get stored in memory and not persistent storage.
 
 1. Add the following import statement to `TodoList.jsx` to import `useState`.
 
@@ -141,11 +141,11 @@ You can leave the app running. As you make changes, the app automatically refres
 
    This sets up two variables, `tasks` and `newTaskText`, for the data and two functions that you can call to update those variables, `setTasks` and `setNewTasks`. When a value for a state variable is changed, React automatically re-renders the component.
 
-   You're almost ready to update *TodoList.jsx* to show the todo items as a list, but there is an important React concept to learn first.
+   You're almost ready to update *TodoList.jsx* to show the to-do items as a list, but there is an important React concept to learn first.
 
-   In React, when you display a list of items you need to add a key to uniquely identify each item in the list. This feature is explained in depth in the React docs at [Rendering Lists](https://react.dev/learn/rendering-lists), but here you'll learn the basics. You have a list of todo items to display, and you need to associate a unique key for each item. The key for each item should not change, and for this reason you can't use the index of the item in the array as the key. You need an ID that won't change throughout the lifetime of those values. You'll use [randomUUID()](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/randomUUID) to create a unique ID for each todo item.
+   In React, when you display a list of items you need to add a key to uniquely identify each item in the list. This feature is explained in depth in the React docs at [Rendering Lists](https://react.dev/learn/rendering-lists), but here you'll learn the basics. You have a list of to-do items to display, and you need to associate a unique key for each item. The key for each item should not change, and for this reason you can't use the index of the item in the array as the key. You need an ID that won't change throughout the lifetime of those values. You'll use [randomUUID()](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/randomUUID) to create a unique ID for each to-do item.
 
-1. Create *TodoList.jsx* using a UUID as the key for each todo item. Update *TodoList.jsx* with the following code.
+1. Create *TodoList.jsx* using a UUID as the key for each to-do item. Update *TodoList.jsx* with the following code.
 
     ```jsx
     import React, { useState } from 'react';
@@ -293,7 +293,7 @@ You can leave the app running. As you make changes, the app automatically refres
    - Move task up
    - Move task down
 
-   These functions work, but you can refactor to build a reusable component to display the todo items. The markup for the todo item goes into a new component, TodoItem. Because the management of the list stays in the Todo component, you can pass callbacks to the Delete and Move buttons.
+   These functions work, but you can refactor to build a reusable component to display the to-do items. The markup for the to-do item goes into a new component, TodoItem. Because the management of the list stays in the Todo component, you can pass callbacks to the Delete and Move buttons.
 
 1. To get started, right-click the *components* folder in Solution Explorer and select **Add > New Item**.
 
@@ -429,7 +429,7 @@ You can leave the app running. As you make changes, the app automatically refres
     export default TodoList;
     ```
 
-   Now, the TodoItem component is used to render each todo item. Notice that the key is set to `task.id`, which contains the UUID value for that task. When you run the app, you shouldn’t see any changes to the look or behavior of the app because you refactored it to use TodoItem.
+   Now, the TodoItem component is used to render each to-do item. Notice that the key is set to `task.id`, which contains the UUID value for that task. When you run the app, you shouldn’t see any changes to the look or behavior of the app because you refactored it to use TodoItem.
 
    Now that you have all the basic functions supported, it’s time to start adding some styling to this to make it look nice. Start by adding a link in *Index.html* for a font family, Inter, that you will use for this app. In *Index.html*, there are some other items that need to be cleaned up. Specifically, the title should be updated and you want to replace the *vite.svg* file that is currently used as the icon.
 
@@ -574,11 +574,11 @@ You can leave the app running. As you make changes, the app automatically refres
 
    :::image type="content" source="media/vs-2022/react-running-app-final.png" alt-text="Screenshot showing the final version of the app running.":::
 
-   Now you've built a working todo list app that stores the todo items in memory. From this point, you could update the app to store the todo items in [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)/[IndexedDb](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API), or integrate this with a server-side database, or other backend, for more permanent storage.
+   Now you've built a working to-do list app that stores the to-do items in memory. From this point, you could update the app to store the to-do items in [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)/[IndexedDb](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API), or integrate this with a server-side database, or other backend, for more permanent storage.
 
 ## Summary
 
-In this tutorial, you created a new React app using Visual Studio. The app consists of a todo list, which includes support to add tasks, delete tasks, and reorder them. You created two new React components and used those throughout this tutorial.
+In this tutorial, you created a new React app using Visual Studio. The app consists of a to-do list, which includes support to add tasks, delete tasks, and reorder them. You created two new React components and used those throughout this tutorial.
 
 ## Resources
 
