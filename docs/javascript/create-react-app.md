@@ -583,4 +583,4 @@ In this tutorial, you created a new React app using Visual Studio. The app consi
 ## Resources
 
 - Code for this sample at [sayedihashimi/todojswebapp](https://github.com/sayedihashimi/todojswebapp)
-- [Visual Studio JavaScript and TypeScript projects](../javascript/)
+- [Visual Studio JavaScript and TypeScript projects](/visualstudio/javascript)
