@@ -75,7 +75,6 @@ conceptualContent:
         - text: ASP.NET Core and React web app
           url: ../javascript/tutorial-asp-net-core-with-react.md
           itemType: get-started
-          itemType: get-started
     - title: Visual Studio language guidance
       links:
         - text: C#
