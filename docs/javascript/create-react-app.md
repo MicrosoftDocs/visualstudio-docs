@@ -548,7 +548,7 @@ Refresh the browser after saving the changes. This should improve the styling of
 
 :::image type="content" source="media/vs-2022/react-running-app-final.png" alt-text="Screenshot showing the final version of the app running.":::
 
-Now you have built a working Todo app which stores the todo items in memory. From here you could update the app to store the todo items in localStorage/IndexedDb, or integrate this with a server-side database, or other backend, for more permanent storage.
+Now you have built a working Todo app which stores the todo items in memory. From here you could update the app to store the todo items in [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)/[IndexedDb](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API), or integrate this with a server-side database, or other backend, for more permanent storage.
 
 ## Summary
 
