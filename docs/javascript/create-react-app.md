@@ -143,7 +143,7 @@ You can leave the app running. As you make changes, the app automatically refres
 
    You're almost ready to update *TodoList.jsx* to show the todo items as a list, but there is an important React concept to learn first.
 
-   In React, when you display a list of items you need to add a key to uniquely identify each item in the list. This task is explained in depth in the React docs at [Rendering Lists](https://react.dev/learn/rendering-lists), but here you'll learn the basics. You have a list of todo items to display, and you need to associate a unique key for each item. The key for each item should not change, and for this reason you can't use the index of the item in the array as the key. You need an ID that won't change throughout the lifetime of those values. You'll use [randomUUID()](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/randomUUID) to create a unique ID for each todo item.
+   In React, when you display a list of items you need to add a key to uniquely identify each item in the list. This feature is explained in depth in the React docs at [Rendering Lists](https://react.dev/learn/rendering-lists), but here you'll learn the basics. You have a list of todo items to display, and you need to associate a unique key for each item. The key for each item should not change, and for this reason you can't use the index of the item in the array as the key. You need an ID that won't change throughout the lifetime of those values. You'll use [randomUUID()](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/randomUUID) to create a unique ID for each todo item.
 
 1. Create *TodoList.jsx* using a UUID as the key for each todo item. Update *TodoList.jsx* with the following code.
 
@@ -208,7 +208,7 @@ You can leave the app running. As you make changes, the app automatically refres
     }
     ```
 
-   In the `handleInputChanged` function, the new value from the input field is passed in through `event.target.value`, and that value is used to update the value for the `newTaskText` variable with `setNewTaskText`. In the `addTask` function, add the new task to the list of existing tasks using `setTasks` and set the ID of the item as a new UUID value. Update the input element to include `onChange={handleInputChange}` and update the Add button to include `onClick={addTask}`. This task wires up the event to the function that handles that event. Following this, you should be able to add a new task to the task list. New tasks are added to the bottom of the list. To make this app more useful, you need to add support to delete tasks and to move a task up or down.
+   In the `handleInputChanged` function, the new value from the input field is passed in through `event.target.value`, and that value is used to update the value for the `newTaskText` variable with `setNewTaskText`. In the `addTask` function, add the new task to the list of existing tasks using `setTasks` and set the ID of the item as a new UUID value. Update the input element to include `onChange={handleInputChange}` and update the Add button to include `onClick={addTask}`. This code wires up the event to the function that handles that event. Following this, you should be able to add a new task to the task list. New tasks are added to the bottom of the list. To make this app more useful, you need to add support to delete tasks and to move a task up or down.
 
 1. Add the functions to support delete, move up and move down, and then update the markup to show a button for each action. Add the following code in the TodoList function above the return statement.
 
@@ -282,142 +282,152 @@ You can leave the app running. As you make changes, the app automatically refres
     );
     ```
 
-We have added the buttons needed to perform the tasks we discussed above. We are using Unicode characters as icons on the buttons. In the markup there are some attributes added for when we add some CSS later. You will also notice the use of [aria attributes](https://www.w3.org/WAI/standards-guidelines/aria/) to improve accessibility, the are optional but highly recommended. If you run the app it should look like the image below.
+   You've added the buttons needed to perform the tasks we discussed previously. You're using Unicode characters as icons on the buttons. In the markup, there are some attributes added to support adding some CSS later. You might also notice the use of [aria attributes](https://www.w3.org/WAI/standards-guidelines/aria/) to improve accessibility, which are optional but highly recommended. If you run the app, it should look like the following illustration.
 
-:::image type="content" source="media/vs-2022/react-running-app-with-list.png" alt-text="Screenshot showing the app running and showing a list":::
+   :::image type="content" source="media/vs-2022/react-running-app-with-list.png" alt-text="Screenshot showing the app running and showing a list":::
 
-You should now be able to perform the following in the TODO web app.
+   You should now be able to perform the following in the TODO web app.
 
-- Add task
-- Delete task
-- Move task up
-- Move task down
+   - Add task
+   - Delete task
+   - Move task up
+   - Move task down
 
-This is working well, but we can refactor this so that we have a reusable component to display the todo items. The markup for the todo item will go into a new component, TodoItem. Since the management of the list will stay in the Todo component, we will pass callbacks to the delete and move buttons. To get started, right click the components folder in the Solution Explorer and select Add > New Item. In the dialog that opens select the React JSX Component File. Give it the name TodoItem and click Add. We will pass in the task and callbacks as props to this new component. The TodoItem should contain the following code.
+   These functions work, but you can refactor to build a reusable component to display the todo items. The markup for the todo item goes into a new component, TodoItem. Because the management of the list stays in the Todo component, you can pass callbacks to the Delete and Move buttons.
 
-```jsx
-import PropTypes from 'prop-types';
+1. To get started, right-click the *components* folder in Solution Explorer and select **Add > New Item**.
 
-function TodoItem({ task, deleteTaskCallback, moveTaskUpCallback, moveTaskDownCallback }) {
-    return (
-        <li aria-label="task" >
-            <span className="text">{task}</span>
-            <button
-                type="button"
-                aria-label="Delete task"
-                className="delete-button"
-                onClick={() => deleteTaskCallback()}>
-                🗑️
-            </button>
-            <button
-                type="button"
-                aria-label="Move task up"
-                className="up-button"
-                onClick={() => moveTaskUpCallback()}>
-                ⇧
-            </button>
-            <button
-                type="button"
-                aria-label="Move task down"
-                className="down-button"
-                onClick={() => moveTaskDownCallback()}>
-                ⇩
-            </button>
-        </li>
-    );
-}
+1. In the dialog that opens, select the **React JSX Component File**, give it the name TodoItem, and select **Add**.
 
-TodoItem.propTypes = {
-    task: PropTypes.string.isRequired,
-    deleteTaskCallback: PropTypes.func.isRequired,
-    moveTaskUpCallback: PropTypes.func.isRequired,
-    moveTaskDownCallback: PropTypes.func.isRequired,
-};
+1. Add the following code to the TodoItem.
 
-export default TodoItem;
-```
+   In this code, you pass in the task and callbacks as properties to this new component. 
 
-The code above contains the markup from the Todo component and at the bottom we declare the propTypes. Props are used to pass data from a parent component to child components. For more info on props the docs are available at [Passing Props to a Component – React](https://react.dev/learn/passing-props-to-a-component). Since the delete and move functions are being passed in as callbacks, the onClick handler will need to be updated to call into those callbacks. The full code for TodoList is below that uses the TodoItem component.
-
-```jsx
-import React, { useState } from 'react'
-import TodoItem from './TodoItem'
-
-const initialTasks = [
-    { id: self.crypto.randomUUID(), text: 'Drink some coffee' },
-    { id: self.crypto.randomUUID(), text: 'Create a TODO app' },
-    { id: self.crypto.randomUUID(), text: 'Drink some more coffee' }
-];
-
-function TodoList() {
-    const [tasks, setTasks] = useState(initialTasks);
-    const [newTaskText, setNewTaskText] = useState("");
-    function handleInputChange(event) {
-        setNewTaskText(event.target.value);
+    ```jsx
+    import PropTypes from 'prop-types';
+    
+    function TodoItem({ task, deleteTaskCallback, moveTaskUpCallback, moveTaskDownCallback }) {
+        return (
+            <li aria-label="task" >
+                <span className="text">{task}</span>
+                <button
+                    type="button"
+                    aria-label="Delete task"
+                    className="delete-button"
+                    onClick={() => deleteTaskCallback()}>
+                    🗑️
+                </button>
+                <button
+                    type="button"
+                    aria-label="Move task up"
+                    className="up-button"
+                    onClick={() => moveTaskUpCallback()}>
+                    ⇧
+                </button>
+                <button
+                    type="button"
+                    aria-label="Move task down"
+                    className="down-button"
+                    onClick={() => moveTaskDownCallback()}>
+                    ⇩
+                </button>
+            </li>
+        );
     }
-    function addTask() {
-        if (newTaskText.trim() !== "") {
-            setTasks(t => [...t, { id: self.crypto.randomUUID(), text: newTaskText }]);
-            setNewTaskText("");
+    
+    TodoItem.propTypes = {
+        task: PropTypes.string.isRequired,
+        deleteTaskCallback: PropTypes.func.isRequired,
+        moveTaskUpCallback: PropTypes.func.isRequired,
+        moveTaskDownCallback: PropTypes.func.isRequired,
+    };
+    
+    export default TodoItem;
+    ```
+
+   The preceding code contains the markup from the Todo component and at the end of it you declare the `PropTypes`. Props are used to pass data from a parent component to child components. For more info on Props, see [Passing Props to a Component – React](https://react.dev/learn/passing-props-to-a-component). Because the delete and move functions are being passed in as callbacks, the `onClick` handler needs to be updated to call into those callbacks.
+
+1. Add the required code. The full code for TodoList that uses the TodoItem component is shown here.
+
+    ```jsx
+    import React, { useState } from 'react'
+    import TodoItem from './TodoItem'
+    
+    const initialTasks = [
+        { id: self.crypto.randomUUID(), text: 'Drink some coffee' },
+        { id: self.crypto.randomUUID(), text: 'Create a TODO app' },
+        { id: self.crypto.randomUUID(), text: 'Drink some more coffee' }
+    ];
+    
+    function TodoList() {
+        const [tasks, setTasks] = useState(initialTasks);
+        const [newTaskText, setNewTaskText] = useState("");
+        function handleInputChange(event) {
+            setNewTaskText(event.target.value);
         }
-        event.preventDefault();
-    }
-    function deleteTask(id) {
-        const updatedTasks = tasks.filter(task => task.id !== id);
-        setTasks(updatedTasks);
-    }
-    function moveTaskUp(index) {
-        if (index > 0) {
-            const updatedTasks = [...tasks];
-            [updatedTasks[index], updatedTasks[index - 1]] = [updatedTasks[index - 1], updatedTasks[index]];
+        function addTask() {
+            if (newTaskText.trim() !== "") {
+                setTasks(t => [...t, { id: self.crypto.randomUUID(), text: newTaskText }]);
+                setNewTaskText("");
+            }
+            event.preventDefault();
+        }
+        function deleteTask(id) {
+            const updatedTasks = tasks.filter(task => task.id !== id);
             setTasks(updatedTasks);
         }
-    }
-    function moveTaskDown(index) {
-        if (index < tasks.length) {
-            const updatedTasks = [...tasks];
-            [updatedTasks[index], updatedTasks[index + 1]] = [updatedTasks[index + 1], updatedTasks[index]];
-            setTasks(updatedTasks);
+        function moveTaskUp(index) {
+            if (index > 0) {
+                const updatedTasks = [...tasks];
+                [updatedTasks[index], updatedTasks[index - 1]] = [updatedTasks[index - 1], updatedTasks[index]];
+                setTasks(updatedTasks);
+            }
         }
+        function moveTaskDown(index) {
+            if (index < tasks.length) {
+                const updatedTasks = [...tasks];
+                [updatedTasks[index], updatedTasks[index + 1]] = [updatedTasks[index + 1], updatedTasks[index]];
+                setTasks(updatedTasks);
+            }
+        }
+        return (
+            <article
+                className="todo-list"
+                aria-label="task list manager">
+                <header>
+                    <h1>TODO</h1>
+                    <form onSubmit={addTask} aria-controls="todo-list">
+                        <input
+                            type="text"
+                            required
+                            placeholder="Enter a task"
+                            value={newTaskText}
+                            aria-label="Task text"
+                            onChange={handleInputChange} />
+                        <button
+                            className="add-button"
+                            aria-label="Add task">
+                            Add
+                        </button>
+                    </form>
+                </header>
+                <ol id="todo-list" aria-live="polite">
+                    {tasks.map((task, index) =>
+                        <TodoItem
+                            key={task.id}
+                            task={task.text}
+                            deleteTaskCallback={() => deleteTask(task.id)}
+                            moveTaskUpCallback={() => moveTaskUp(index)}
+                            moveTaskDownCallback={() => moveTaskDown(index)}
+                        />
+                    )}
+                </ol>
+            </article>
+        );
     }
-    return (
-        <article
-            className="todo-list"
-            aria-label="task list manager">
-            <header>
-                <h1>TODO</h1>
-                <form onSubmit={addTask} aria-controls="todo-list">
-                    <input
-                        type="text"
-                        required
-                        placeholder="Enter a task"
-                        value={newTaskText}
-                        aria-label="Task text"
-                        onChange={handleInputChange} />
-                    <button
-                        className="add-button"
-                        aria-label="Add task">
-                        Add
-                    </button>
-                </form>
-            </header>
-            <ol id="todo-list" aria-live="polite">
-                {tasks.map((task, index) =>
-                    <TodoItem
-                        key={task.id}
-                        task={task.text}
-                        deleteTaskCallback={() => deleteTask(task.id)}
-                        moveTaskUpCallback={() => moveTaskUp(index)}
-                        moveTaskDownCallback={() => moveTaskDown(index)}
-                    />
-                )}
-            </ol>
-        </article>
-    );
-}
-
-export default TodoList;
-```
+    
+    export default TodoList;
+    ```
 
 Now the TodoItem component is used to render each todo item. Notice that we set the key to task.id which contains the uuid value for that task. When you run the app, you shouldn’t see any changes to the look or behavior of the app since we refactored it to use TodoItem. Let’s move on to styling.
 
