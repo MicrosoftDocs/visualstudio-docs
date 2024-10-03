@@ -104,7 +104,7 @@ As noted earlier, you can also open code files without using a project or soluti
 
 You can create a solution that contains multiple projects. Start with an [empty solution](#create-empty-solutions) or an [existing solution containing a project](#create-a-project-by-using-a-project-template) and add a new or existing project to it by using **Add** > **New project**/**Existing project**. For example, you can create a solution that contains a C# project and a Visual Basic project. 
 
-To learn more about building a solution that contains multiple projects, see [Create and remove project dependencies](how-to-create-and-remove-project-dependencies) and [Set multiple startup projects](how-to-set-multiple-startup-projects.md).
+To learn more about building a solution that contains multiple projects, see [Create and remove project dependencies](how-to-create-and-remove-project-dependencies.md) and [Set multiple startup projects](how-to-set-multiple-startup-projects.md).
 
 ## Delete a solution, project, or item
 
