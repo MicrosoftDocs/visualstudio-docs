@@ -1,10 +1,10 @@
 ---
 title: When I sign into the admin portal, I don’t see any agreements to manage
 description: A super admin or admin is signed into the admin portal, but doesn't see an agreement
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.topic: include
 ms.assetid: e276637d-8a22-4bb2-a574-7ba9442b92f0
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 ms.date: 08/18/2023
 user.type: admin
