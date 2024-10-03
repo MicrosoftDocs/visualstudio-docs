@@ -1,10 +1,10 @@
 ---
 title: Help me purchase from the Microsoft Store
 description: Help me purchase Visual Studio subscriptions from the Microsoft Store
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.topic: include
 ms.assetid: f56c7642-f945-4bdf-b48e-9d548b08d91d
-author: larissacrawford
+author: joseb-rdc
 ms.author: amast
 ms.date: 08/17/2023
 user.type: subscriber

@@ -1,7 +1,7 @@
 ---
 title: What is process for setting up Visual Studio subscriptions with GitHub Enterprise?
 description: Understand the process for activating your GitHub Enterprise subscription 
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.topic: include
 ms.assetid: 6f9aa66b-111f-45a0-a168-e0e5ff21aa46
 author: joseb-rdc
