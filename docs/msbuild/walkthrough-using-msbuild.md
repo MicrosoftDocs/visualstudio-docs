@@ -148,7 +148,7 @@ Run MSBuild from the **Developer Command Prompt** for Visual Studio to build the
 
 1. Open the **Command Window**.
 
-   In the search box on the taskbar, start typing the name of the tool, such as `dev` or `developer command prompt`. This brings up a list of installed apps that match your search pattern.
+   In the search box on the taskbar, start typing the name of the tool, such as `dev` or `developer command prompt`. A list of installed apps that match your search pattern appears.
 
    If you need to find it manually, the file is *LaunchDevCmd.bat* in the *{Visual Studio installation folder}\Common7\Tools* folder.
 
@@ -423,7 +423,7 @@ Change the `Message` task to use carriage returns and line feeds (%0A%0D) to dis
 
 ### Include, Exclude, and wildcards
 
- You can use the wildcards "*", "\*\*", and "?" with the Include attribute to add items to an item type. For example,
+ You can use the wildcards "*", "\*\*", and "?" with the `Include` attribute to add items to an item type. For example,
 
 ```xml
 <Photos Include="images\*.jpeg" />
@@ -456,9 +456,9 @@ Change the `Message` task to use carriage returns and line feeds (%0A%0D) to dis
 <Compile Include="*.cs" Exclude="*Designer*">
 ```
 
- adds all files with the file extension *.cs* to the Compile item type, except for files whose names contain the string *Designer*. For more examples, see [How to: Exclude files from the build](../msbuild/how-to-exclude-files-from-the-build.md).
+ adds all files with the file extension *.cs* to the `Compile` item type, except for files whose names contain the string *Designer*. For more examples, see [How to: Exclude files from the build](../msbuild/how-to-exclude-files-from-the-build.md).
 
-The `Exclude` attribute only affects the items added by the Include attribute in the item element that contains them both. For example,
+The `Exclude` attribute only affects the items added by the `Include` attribute in the item element that contains them both. For example,
 
 ```xml
 <Compile Include="*.cs" />
@@ -575,7 +575,7 @@ Notice how the phrase "Compile.DependentUpon" appears several times. The use of 
     Compile Filename: Settings.Designer
     ```
 
-By comparing the preceding two examples, you can see that while not every item in the Compile item type has DependentUpon metadata, all items have the well-known Filename metadata.
+By comparing the preceding two examples, you can see that while not every item in the `Compile` item type has DependentUpon metadata, all items have the well-known Filename metadata.
 
 ### Metadata transformations
 
