@@ -35,7 +35,7 @@ You can configure an Azure Cloud Services (extended support) project, depending 
 
 1. Set **Prompt before deleting an existing deployment** to **True**. This setting helps to ensure you don't accidentally delete an existing deployment in Azure
 
-1. Select the desired **Service configuration** to indicate which service configuration you want to use when you run or debug your cloud service locally. For more information on how to modify a service configuration for a role, see [How to configure the roles for an Azure Cloud Services (extended support) with Visual Studio](./vs-azure-tools-configure-roles-for-cloud-service.md).
+1. Select the desired **Service configuration** to indicate which service configuration you want to use when you run or debug your cloud service locally. For more information on how to modify a service configuration for a role, see [How to configure the roles for an Azure Cloud Services (extended support) project with Visual Studio](./vs-azure-tools-configure-roles-for-cloud-service.md).
 
 1. Set **Start Azure Storage Emulator** to **True** to start the Azure Storage Emulator when you run or debug your cloud service locally.
 

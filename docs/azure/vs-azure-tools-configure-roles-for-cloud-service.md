@@ -1,5 +1,5 @@
 ---
-title: Configure the roles for an Azure Cloud Services (extended support)
+title: Configure the roles for an Azure Cloud Services (extended support) project
 description: Learn how to set up and configure roles for Azure Cloud Services (extended support) using Visual Studio.
 author: ghogen
 manager: mijacobs
@@ -13,7 +13,7 @@ ms.author: ghogen
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
-An Azure Cloud Services (extended support) can have one or more worker or web roles. For each role, you need to define how that role is set up and also configure how that role runs.
+An Azure Cloud Services (extended support) project can have one or more worker or web roles. For each role, you need to define how that role is set up and also configure how that role runs.
 
 The information for your cloud service is stored in the following files:
 
@@ -22,7 +22,7 @@ The information for your cloud service is stored in the following files:
 
 To store different values for the settings that control how a role runs, you can define multiple service configurations. You can use a different service configuration for each deployment environment. For example, you can set your storage account connection string to use the local Azure Storage Emulator in a local service configuration and create another service configuration to use Azure Storage in the cloud.
 
-When you create an Azure Cloud Services (extended support) in Visual Studio, two service configurations are automatically created and added to your Azure project:
+When you create an Azure Cloud Services (extended support) project in Visual Studio, two service configurations are automatically created and added to your Azure project:
 
 - `ServiceConfiguration.Cloud.cscfg`
 - `ServiceConfiguration.Local.cscfg`
@@ -31,9 +31,9 @@ When you create an Azure Cloud Services (extended support) in Visual Studio, two
 
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
-## Configure an Azure Cloud Services (extended support)
+## Configure an Azure Cloud Services (extended support) project
 
-You can configure an Azure Cloud Services (extended support) from Solution Explorer in Visual Studio, as shown in the following steps:
+You can configure an Azure Cloud Services (extended support) project from Solution Explorer in Visual Studio, as shown in the following steps:
 
 1. Create or open an Azure Cloud Services (extended support) project in Visual Studio.
 
@@ -50,7 +50,7 @@ You can configure an Azure Cloud Services (extended support) from Solution Explo
     > [!IMPORTANT]
     > If you choose a specific service configuration, some properties are disabled because they can only be set for all configurations. To edit these properties, you must select **All Configurations**.
 
-    ![Service Configuration list for an Azure Cloud Services (extended support)](./media/vs-azure-tools-configure-roles-for-cloud-service/cloud-service-service-configuration-property.png)
+    ![Screenshot showing the Service Configuration list for an Azure Cloud Services (extended support) project.](./media/vs-azure-tools-configure-roles-for-cloud-service/cloud-service-service-configuration-property.png)
 
 ## Change the number of role instances
 
@@ -142,7 +142,7 @@ The following steps show how to programmatically access a connection string usin
     var storageAccount = CloudStorageAccount.Parse(RoleEnvironment.GetConfigurationSettingValue("<ConnectionStringName>"));
     ```
 
-## Add custom settings to use in your Azure Cloud Services (extended support)
+## Add custom settings to use in your Azure Cloud Services (extended support) project
 
 Custom settings in the service configuration file let you add a name and value for a string for a specific service configuration. You might choose to use this setting to configure a feature in your cloud service by reading the value of the setting and using this value to control the logic in your code. You can change these service configuration values without having to rebuild your service package or when your cloud service is running. Your code can check for notifications of when a setting changes. For more information, see [RoleEnvironment.Changing Event](/previous-versions/azure/reference/ee758134(v=azure.100)).
 

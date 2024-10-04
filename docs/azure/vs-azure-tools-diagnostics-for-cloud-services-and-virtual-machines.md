@@ -1,5 +1,5 @@
 ---
-title: Diagnostics - Azure Cloud Services (extended support) and VMs
+title: Diagnostics - Azure Cloud Services (extended support) services and VMs
 description: Learn how to set up diagnostics for debugging Azure Cloud Services (extended support) and virtual machines (VMs) in Visual Studio.
 author: ghogen
 manager: mijacobs
@@ -13,7 +13,7 @@ ms.author: mikejo
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
-When you need to troubleshoot an Azure Cloud Services (extended support) or virtual machine, you can use Visual Studio to more easily set up Azure Diagnostics. Diagnostics captures system data and logging data on the virtual machines and virtual machine instances that run your cloud service. Diagnostics data is transferred to a storage account that you choose. For more information about diagnostics logging in Azure, see [Enable diagnostics logging for Web Apps in Azure App Service](/azure/app-service/web-sites-enable-diagnostic-log).
+When you need to troubleshoot an Azure Cloud Services (extended support) service or virtual machine, you can use Visual Studio to more easily set up Azure Diagnostics. Diagnostics captures system data and logging data on the virtual machines and virtual machine instances that run your cloud service. Diagnostics data is transferred to a storage account that you choose. For more information about diagnostics logging in Azure, see [Enable diagnostics logging for Web Apps in Azure App Service](/azure/app-service/web-sites-enable-diagnostic-log).
 
 In this article, we show you how to use Visual Studio to turn on and set up Azure Diagnostics. Learn how to set up Diagnostics on Azure Virtual Machines, how to select the types of diagnostics information to collect, and how to view the information after it's collected.
 
