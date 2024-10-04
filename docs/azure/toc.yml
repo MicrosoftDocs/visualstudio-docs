@@ -54,35 +54,33 @@ items:
 - name: Extended support for Azure Cloud Services
   expanded: false
   items:
-  - name: Use Cloud Services (extended support)
+  - name: Use Azure Cloud Services (extended support)
     href: cloud-services-extended-support.md
-  - name: Work with Azure Cloud Services (extended support) projects
-    items:
-    - name: Create a project
-      href: vs-azure-tools-azure-project-create.md
-    - name: Manage roles
-      href: vs-azure-tools-cloud-service-project-managing-roles.md
-    - name: Build from the command line
-      href: vs-azure-tools-command-line-build.md
-    - name: Configure roles
-      href: vs-azure-tools-configure-roles-for-cloud-service.md
-    - name: Configure a project
-      href: vs-azure-tools-configuring-an-azure-project.md
-    - name: Use multiple service configurations
-      href: vs-azure-tools-multiple-services-project-configurations.md
-    - name: Debug in Visual Studio
-      href: vs-azure-tools-debug-cloud-services-virtual-machines.md
-    - name: Set up diagnostics
-      href: vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md
-    - name: Use Emulator Express to debug locally
-      href: vs-azure-tools-emulator-express-debug-run.md
-    - name: Test performance
-      href: vs-azure-tools-performance-profiling-cloud-services.md
-    - name: Migrate and Deploy a Web Application
-      href: vs-azure-tools-migrate-publish-web-app-to-cloud-service.md
-    - name: Deploy to Azure
-      href: vs-azure-tools-publishing-a-cloud-service.md
-    - name: Manage service configurations and profiles
-      href: vs-azure-tools-service-configurations-and-profiles-how-to-manage.md
+  - name: Create a project
+    href: vs-azure-tools-azure-project-create.md
+  - name: Manage roles
+    href: vs-azure-tools-cloud-service-project-managing-roles.md
+  - name: Build from the command line
+    href: vs-azure-tools-command-line-build.md
+  - name: Configure roles
+    href: vs-azure-tools-configure-roles-for-cloud-service.md
+  - name: Configure a project
+    href: vs-azure-tools-configuring-an-azure-project.md
+  - name: Use multiple service configurations
+    href: vs-azure-tools-multiple-services-project-configurations.md
+  - name: Debug in Visual Studio
+    href: vs-azure-tools-debug-cloud-services-virtual-machines.md
+  - name: Set up diagnostics
+    href: vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md
+  - name: Use Emulator Express to debug locally
+    href: vs-azure-tools-emulator-express-debug-run.md
+  - name: Test performance
+    href: vs-azure-tools-performance-profiling-cloud-services.md
+  - name: Migrate and Deploy a Web Application
+    href: vs-azure-tools-migrate-publish-web-app-to-cloud-service.md
+  - name: Deploy to Azure
+    href: vs-azure-tools-publishing-a-cloud-service.md
+  - name: Manage service configurations and profiles
+    href: vs-azure-tools-service-configurations-and-profiles-how-to-manage.md
 
 

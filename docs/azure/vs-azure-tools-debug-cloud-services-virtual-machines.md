@@ -378,6 +378,6 @@ Visual Studio ASP.NET projects offer an option to create a handy virtual machine
 
 - Use **IntelliTrace** to collect a log of calls and events from a release server. See [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](vs-azure-tools-IntelliTrace-debug-published-cloud-services.md).
 
-- Use **Azure Diagnostics** to log detailed information from code running within roles, whether the roles are running in the development environment or in Azure. See [Collecting logging data by using Azure Diagnostics](/azure/cloud-services/cloud-services-dotnet-diagnostics).
+- Use **Azure Diagnostics** to log detailed information from code running within roles, in Azure. See [Collecting logging data by using Azure Diagnostics](/azure/cloud-services/cloud-services-dotnet-diagnostics).
 
 - For other remote debugging scenarios, see [Remote debugging](../debugger/remote-debugging.md).
