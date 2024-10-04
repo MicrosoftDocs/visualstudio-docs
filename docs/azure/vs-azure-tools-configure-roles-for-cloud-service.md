@@ -1,6 +1,6 @@
 ---
-title: Configure the roles for an Azure cloud service
-description: Learn how to set up and configure roles for Azure Cloud Services using Visual Studio.
+title: Configure the roles for an Azure Cloud Services (extended support)
+description: Learn how to set up and configure roles for Azure Cloud Services (extended support) using Visual Studio.
 author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
@@ -9,11 +9,11 @@ ms.date: 03/21/2017
 ms.author: ghogen
 ---
 
-# Configure Azure cloud service roles with Visual Studio
+# Configure Azure Cloud Services (extended support) roles with Visual Studio
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
-An Azure cloud service can have one or more worker or web roles. For each role, you need to define how that role is set up and also configure how that role runs.
+An Azure Cloud Services (extended support) can have one or more worker or web roles. For each role, you need to define how that role is set up and also configure how that role runs.
 
 The information for your cloud service is stored in the following files:
 
@@ -22,7 +22,7 @@ The information for your cloud service is stored in the following files:
 
 To store different values for the settings that control how a role runs, you can define multiple service configurations. You can use a different service configuration for each deployment environment. For example, you can set your storage account connection string to use the local Azure Storage Emulator in a local service configuration and create another service configuration to use Azure Storage in the cloud.
 
-When you create an Azure cloud service in Visual Studio, two service configurations are automatically created and added to your Azure project:
+When you create an Azure Cloud Services (extended support) in Visual Studio, two service configurations are automatically created and added to your Azure project:
 
 - `ServiceConfiguration.Cloud.cscfg`
 - `ServiceConfiguration.Local.cscfg`
@@ -31,11 +31,11 @@ When you create an Azure cloud service in Visual Studio, two service configurati
 
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
-## Configure an Azure cloud service
+## Configure an Azure Cloud Services (extended support)
 
-You can configure an Azure cloud service from Solution Explorer in Visual Studio, as shown in the following steps:
+You can configure an Azure Cloud Services (extended support) from Solution Explorer in Visual Studio, as shown in the following steps:
 
-1. Create or open an Azure cloud service project in Visual Studio.
+1. Create or open an Azure Cloud Services (extended support) project in Visual Studio.
 
 1. In **Solution Explorer**, right-click the project, and, from the context menu, select **Properties**.
 
@@ -50,13 +50,13 @@ You can configure an Azure cloud service from Solution Explorer in Visual Studio
     > [!IMPORTANT]
     > If you choose a specific service configuration, some properties are disabled because they can only be set for all configurations. To edit these properties, you must select **All Configurations**.
 
-    ![Service Configuration list for an Azure cloud service](./media/vs-azure-tools-configure-roles-for-cloud-service/cloud-service-service-configuration-property.png)
+    ![Service Configuration list for an Azure Cloud Services (extended support)](./media/vs-azure-tools-configure-roles-for-cloud-service/cloud-service-service-configuration-property.png)
 
 ## Change the number of role instances
 
 To improve the performance of your cloud service, you can change the number of instances of a role that are running, based on the number of users or the load expected for a particular role. A separate virtual machine is created for each instance of a role when the cloud service runs in Azure. This affects the billing for the deployment of this cloud service. For more information about billing, see [Understand your bill for Microsoft Azure](/azure/billing/billing-understand-your-bill).
 
-1. Create or open an Azure cloud service project in Visual Studio.
+1. Create or open an Azure Cloud Services (extended support) project in Visual Studio.
 
 1. In **Solution Explorer**, expand the project node. Under the **Roles** node, right-click the role you want to update, and, from the context menu, select **Properties**.
 
@@ -87,7 +87,7 @@ You can add, remove, or modify connection strings for your service configuration
 
 By using a different value for each service configuration, you do not have to use different connection strings in your cloud service or modify your code when you publish your cloud service to Azure. You can use the same name for the connection string in your code and the value is different, based on the service configuration that you select when you build your cloud service or when you publish it.
 
-1. Create or open an Azure cloud service project in Visual Studio.
+1. Create or open an Azure Cloud Services (extended support) project in Visual Studio.
 
 1. In **Solution Explorer**, expand the project node. Under the **Roles** node, right-click the role you want to update, and, from the context menu, select **Properties**.
 
@@ -142,7 +142,7 @@ The following steps show how to programmatically access a connection string usin
     var storageAccount = CloudStorageAccount.Parse(RoleEnvironment.GetConfigurationSettingValue("<ConnectionStringName>"));
     ```
 
-## Add custom settings to use in your Azure cloud service
+## Add custom settings to use in your Azure Cloud Services (extended support)
 
 Custom settings in the service configuration file let you add a name and value for a string for a specific service configuration. You might choose to use this setting to configure a feature in your cloud service by reading the value of the setting and using this value to control the logic in your code. You can change these service configuration values without having to rebuild your service package or when your cloud service is running. Your code can check for notifications of when a setting changes. For more information, see [RoleEnvironment.Changing Event](/previous-versions/azure/reference/ee758134(v=azure.100)).
 
@@ -150,7 +150,7 @@ You can add, remove, or modify custom settings for your service configurations. 
 
 By using a different value for each service configuration, you do not have to use different strings in your cloud service or modify your code when you publish your cloud service to Azure. You can use the same name for the string in your code and the value is different, based on the service configuration that you select when you build your cloud service or when you publish it.
 
-1. Create or open an Azure cloud service project in Visual Studio.
+1. Create or open an Azure Cloud Services (extended support) project in Visual Studio.
 
 1. In **Solution Explorer**, expand the project node. Under the **Roles** node, right-click the role you want to update, and, from the context menu, select **Properties**.
 
@@ -202,7 +202,7 @@ The following steps show how to programmatically access a custom setting using C
 
 You can add local file system storage for each instance of a role. The data stored in that storage is not accessible by other instances of the role for which the data is stored, or by other roles.
 
-1. Create or open an Azure cloud service project in Visual Studio.
+1. Create or open an Azure Cloud Services (extended support) project in Visual Studio.
 
 1. In **Solution Explorer**, expand the project node. Under the **Roles** node, right-click the role you want to update, and, from the context menu, select **Properties**.
 

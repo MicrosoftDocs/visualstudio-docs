@@ -15,8 +15,8 @@ ms.author: mikejo
 
 You can test the performance of a cloud service in the following ways:
 
-- Use Azure Diagnostics to collect information about requests and connections, and to review site statistics that show how the service performs from a customer perspective. To get started, see [Configuring diagnostics for Azure Cloud Services and Virtual Machines](vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md).
-- Use the Visual Studio profiler to get an in-depth analysis of the computational aspects of how the service runs. As this topic describes, you can use the profiler to measure performance as a service runs in Azure. For information about how to use the profiler to measure performance as a service runs locally in a compute emulator, see [Testing the Performance of an Azure Cloud Service Locally in the Compute Emulator Using the Visual Studio Profiler](/azure/cloud-services/cloud-services-performance-testing-visual-studio-profiler).
+- Use Azure Diagnostics to collect information about requests and connections, and to review site statistics that show how the service performs from a customer perspective. To get started, see [Configuring diagnostics for Azure Cloud Services (extended support) and Virtual Machines](vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md).
+- Use the Visual Studio profiler to get an in-depth analysis of the computational aspects of how the service runs. As this topic describes, you can use the profiler to measure performance as a service runs in Azure. For information about how to use the profiler to measure performance as a service runs locally in a compute emulator, see [Testing the Performance of an Azure Cloud Services (extended support) Locally in the Compute Emulator Using the Visual Studio Profiler](/azure/cloud-services/cloud-services-performance-testing-visual-studio-profiler).
 
 ## Prerequisites
 
@@ -58,7 +58,7 @@ You typically simulate a load to test cloud services under normal or stress cond
 
 ## Profiling a cloud service in Azure
 
-When you publish your cloud service from Visual Studio, you can profile the service and specify the profiling settings that give you the information that you want. A profiling session is started for each instance of a role. For more information about how to publish your service from Visual Studio, see [Publishing to an Azure Cloud Service from Visual Studio](vs-azure-tools-publishing-a-cloud-service.md).
+When you publish your cloud service from Visual Studio, you can profile the service and specify the profiling settings that give you the information that you want. A profiling session is started for each instance of a role. For more information about how to publish your service from Visual Studio, see [Publishing to an Azure Cloud Services (extended support) from Visual Studio](vs-azure-tools-publishing-a-cloud-service.md).
 
 To understand more about performance profiling in Visual Studio, see [Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md) and [Analyzing Application Performance by Using Profiling Tools](../profiling/performance-explorer.md).
 
@@ -123,4 +123,4 @@ A profiling session is created for each instance of a role in your cloud service
 
 [Debugging Cloud Services](vs-azure-tools-debug-cloud-services-virtual-machines.md)
 
-[Publishing to an Azure Cloud Service from Visual Studio](vs-azure-tools-publishing-a-cloud-service.md)
+[Publishing to an Azure Cloud Services (extended support) from Visual Studio](vs-azure-tools-publishing-a-cloud-service.md)

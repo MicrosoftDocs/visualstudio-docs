@@ -1,6 +1,6 @@
 ---
-title: Debug an Azure cloud service or virtual machine
-description: Debug an Azure cloud service or virtual machine in Visual Studio by running the operation on your local computer or debugging remotely in Azure.
+title: Debug an Azure Cloud Services (extended support) or virtual machine
+description: Debug an Azure Cloud Services (extended support) or virtual machine in Visual Studio by running the operation on your local computer or debugging remotely in Azure.
 author: mikejo5000
 manager: mijacobs
 ms.topic: how-to
@@ -9,9 +9,9 @@ ms.author: mikejo
 ms.subservice: debug-diagnostics
 ---
 
-# Debug an Azure cloud service in Visual Studio
+# Debug an Azure Cloud Services (extended support) in Visual Studio
 
-Visual Studio gives you different options for debugging Azure Cloud Services and virtual machines.
+Visual Studio gives you different options for debugging Azure Cloud Services (extended support) and virtual machines.
 
 ## Prerequisites
 
@@ -25,7 +25,7 @@ The emulator simulates the Azure Compute service and runs in your local environm
 
 ### To debug your cloud service on your local computer
 
-1. On the menu bar, select **Debug** > **Start Debugging** to run your Azure cloud service project. As an alternative, you can press F5. You'll see a message that the Compute Emulator is starting. When the emulator starts, the system tray icon confirms it.
+1. On the menu bar, select **Debug** > **Start Debugging** to run your Azure Cloud Services (extended support) project. As an alternative, you can press F5. You'll see a message that the Compute Emulator is starting. When the emulator starts, the system tray icon confirms it.
 
     ![Azure emulator in the system tray](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC783828.png)
 
