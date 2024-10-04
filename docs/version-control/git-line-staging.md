@@ -7,7 +7,6 @@ ms.topic: concept-article
 author: ghogen
 ms.author: ghogen
 ms.manager: mijacobs
-
 ms.subservice: general-ide
 monikerRange: vs-2022
 
@@ -77,6 +76,8 @@ You can stage any chunk of code by using the Peek Difference UI. Hover over the 
 > If you prefer a full-screen difference view, you can switch to the **Diff** editor with the **Promote to Document** :::image type="icon" source="media/vs-2022/promote-document-button.png" border="false"::: icon at the top-right of the [**Peek Difference** UI](#view-staged-changes-with-peek-difference), or use the **Ctrl**+**Alt**+**Home** keyboard shortcut. All features provided by the Peek Difference UI are also available in the **Diff** editor. The following image shows the **Diff** editor view:
 > 
 > :::image type="content" source="media/vs-2022/git-stage-change-difference.png" border="false" alt-text="Screenshot of the Stage Change difference view in Visual Studio 2022." lightbox="media/vs-2022/git-stage-change-difference.png":::
+
+You can enable or disable the staging controls in the difference view by clicking the **Show staging controls** button.
 
 ## Commit staged changes
 
