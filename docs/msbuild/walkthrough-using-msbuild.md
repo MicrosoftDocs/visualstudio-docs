@@ -79,7 +79,7 @@ To install MSBuild on a system that doesn't have Visual Studio, go to **Build To
 
 Project files are XML-formatted files with the root node [Project](../msbuild/project-element-msbuild.md).
 
-Most .NET projects have an `Sdk` attribute. These projects are called SDK-style projects.
+Most .NET projects have an `Sdk` attribute. These projects are called SDK-style projects. Referencing an SDK means MSBuild imports a set of files that provide the build infrastructure for that SDK. If you don't reference any SDK, you can still use MSBuild, you just won't automatically have all the SDK-specific properties and targets available to you.
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
