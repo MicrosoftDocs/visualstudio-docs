@@ -13,7 +13,7 @@ ms.author: ghogen
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
-Visual Studio provides a project template that lets you create an [Azure Cloud Services (extended support)](/azure/cloud-services/cloud-services-choose-me), which is a simple general-purpose Azure service. Once the project has been created, Visual Studio enables you to configure, debug, and deploy the cloud service to Azure.
+Visual Studio provides a project template that lets you create an [Azure Cloud Services (extended support)](/azure/cloud-services/cloud-services-choose-me) project, which is a simple general-purpose Azure service. Once the project has been created, Visual Studio enables you to configure, debug, and deploy the cloud service to Azure.
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ This section walks you through creating an Azure Cloud Services (extended suppor
 
 1. In the search box, type in *Cloud*, and then choose **Azure Cloud Services (extended support)**.
 
-   ![New Azure Cloud Services (extended support)](./media/vs-azure-tools-azure-project-create/vs-2019/new-project-cloud-service.png)
+   ![Screenshot showing how to create a new Azure Cloud Services (extended support) project.](./media/vs-azure-tools-azure-project-create/vs-2019/new-project-cloud-service.png)
 
 1. Give the project a name and choose **Create**.
 

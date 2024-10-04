@@ -1,6 +1,6 @@
 ---
-title: Debug an Azure Cloud Services (extended support) or virtual machine
-description: Debug an Azure Cloud Services (extended support) or virtual machine in Visual Studio by running the operation on your local computer or debugging remotely in Azure.
+title: Debug an Azure Cloud Services (extended support) service or virtual machine
+description: Debug an Azure Cloud Services (extended support) service or virtual machine in Visual Studio by running the operation on your local computer or debugging remotely in Azure.
 author: mikejo5000
 manager: mijacobs
 ms.topic: how-to
@@ -9,7 +9,7 @@ ms.author: mikejo
 ms.subservice: debug-diagnostics
 ---
 
-# Debug an Azure Cloud Services (extended support) in Visual Studio
+# Debug an Azure Cloud Services (extended support) service in Visual Studio
 
 Visual Studio gives you different options for debugging Azure Cloud Services (extended support) and virtual machines.
 

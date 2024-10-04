@@ -19,7 +19,7 @@ After you have created your Azure Cloud Services (extended support) project, you
 
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
-## Adding a role to an Azure Cloud Services (extended support)
+## Adding a role to an Azure Cloud Services (extended support) project
 
 The following steps guide you through adding a web or worker role to an Azure Cloud Services (extended support) project in Visual Studio.
 
