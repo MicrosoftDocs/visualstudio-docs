@@ -45,15 +45,9 @@ Don't select **Enable Docker Support**. You add Docker support later in the proc
 ::: moniker-end
 ::: moniker range=">=vs-2022"
 
-> [!NOTE]
-> In Visual Studio 2022 17.2 and later, you can use Azure Functions for this project instead.
-
-![Screenshot showing Create ASP.NET Core Web App project.](./media/tutorial-multicontainer/vs-2022/create-web-project.png)
-
 Don't select **Enable Docker Support**. You add Docker support later in the process.
 
-![Screenshot of the Additional information screen when creating a web project. The option to Enable Docker Support is not selected.](./media/tutorial-multicontainer/vs-2022/create-web-project-additional-information.png)
-
+![Screenshot of the Additional information screen when creating a web project. The option to Enable Docker Support is not selected.](./media/tutorial-multicontainer/vs-2022/create-web-project.png)
 ::: moniker-end
 
 ## Create a Web API project
