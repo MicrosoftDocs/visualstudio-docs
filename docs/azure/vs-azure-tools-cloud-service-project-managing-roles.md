@@ -29,7 +29,7 @@ The following steps guide you through adding a web or worker role to an Azure Cl
 
 1. Right-click the **Roles** node to display the context menu. From the context menu, select **Add**, then select an existing web role or worker role from the current solution, or create a web or worker role project. You can also select an appropriate project, such as an ASP.NET web application project, and associate it with a role project.
 
-   ![Menu options to add a role to an Azure Cloud Services (extended support) project.](./media/vs-azure-tools-cloud-service-project-managing-roles/add-role.png)
+   ![Screenshot that shows menu option to add a role to an Azure Cloud Services (extended support) project.](./media/vs-azure-tools-cloud-service-project-managing-roles/add-role.png)
 
 ## Removing a role from an Azure Cloud Services (extended support) project
 
@@ -43,7 +43,7 @@ The following steps guide you through removing a web or worker role from an Azur
 
 1. Right-click the node you want to remove, and, from the context menu, select **Remove**.
 
-   ![Menu options to add a role to an Azure Cloud Services (extended support) project.](./media/vs-azure-tools-cloud-service-project-managing-roles/remove-role.png)
+   ![Screenshot that shows menu option to remove a role to an Azure Cloud Services (extended support) project.](./media/vs-azure-tools-cloud-service-project-managing-roles/remove-role.png)
 
 ## Related content
 
