@@ -1,7 +1,7 @@
 ---
 title: Code style options and code cleanup
 description: Learn how to configure Visual Studio to apply code style preferences using the Code Cleanup (Visual Studio 2019) and Format Document (Visual Studio 2017) commands.
-ms.date: 07/19/2024
+ms.date: 10/03/2024
 ms.topic: conceptual
 author: mikejo5000
 ms.author: mikejo
@@ -120,7 +120,7 @@ Most of the code cleanup settings map to one or more .NET code styles supported 
 |Remove unnecessary Imports or usings|[IDE0005](/dotnet/fundamentals/code-analysis/style-rules/ide0005)|
 |Sort imports or usings|[dotnet_sort_system_directives_first](/dotnet/fundamentals/code-analysis/style-rules/dotnet-formatting-options#dotnet_sort_system_directives_first)</br>[dotnet_separate_import_directive_groups](/dotnet/fundamentals/code-analysis/style-rules/dotnet-formatting-options#dotnet_separate_import_directive_groups)|
 |Apply file header preferences|[file_header_template](/dotnet/fundamentals/code-analysis/style-rules/ide0073#file_header_template)|
-|Remove unused variables|[IDE0051](/dotnet/fundamentals/code-analysis/style-rules/ide0051)|
+|Remove unused variables|[CS0219](/dotnet/csharp/misc/cs0219)|
 |Apply object creation preferences|[visual_basic_style_prefer_simplified_object_creation](/dotnet/fundamentals/code-analysis/style-rules/ide0140#visual_basic_style_prefer_simplified_object_creation)|
 |Apply IsNot preferences|[visual_basic_style_prefer_isnot_expression](/dotnet/fundamentals/code-analysis/style-rules/ide0084#visual_basic_style_prefer_isnot_expression)|
 |Add 'this' or 'Me' qualification|[IDE0003-IDE0009](/dotnet/fundamentals/code-analysis/style-rules/ide0003-ide0009)|
