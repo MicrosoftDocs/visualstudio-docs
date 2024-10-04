@@ -46,9 +46,7 @@ To set up Azure Diagnostics, change diagnostics settings in the **Diagnostics Co
 
 ## What does the "Update development storage connection strings..." checkbox do?
 
-The **Update development storage connection strings for Diagnostics and Caching with Microsoft Azure storage account credentials when publishing to Microsoft Azure** checkbox is a convenient way to update any development storage account connection strings with the Azure Storage account that you specify during publishing.
-
-For example, if you select this checkbox and the diagnostics connection string specifies `UseDevelopmentStorage=true`, when you publish the project to Azure, Visual Studio automatically updates the diagnostics connection string with the storage account that you specified in the Publish wizard. However, if a real storage account was specified as the diagnostics connection string, that account is used instead.
+The **Update development storage connection strings for Diagnostics and Caching with Microsoft Azure storage account credentials when publishing to Microsoft Azure** checkbox is a convenient way to update any development storage account connection strings with the Azure Storage account that you specify during publishing. When you publish the project to Azure, Visual Studio automatically updates the diagnostics connection string with the storage account that you specified in the Publish wizard. However, if a real storage account was specified as the diagnostics connection string, that account is used instead.
 
 :::moniker range="vs-2019"
 
