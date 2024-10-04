@@ -155,13 +155,13 @@ Also included with the Visual Studio 2022 version [17.7](/visualstudio/releases/
 
 You can find the **Collapse All Descendants** command on the right-click context menu for any item in Solution Explorer that has descendants. You can also press **Ctrl**+**Left Arrow** to use the command.
 
+::: moniker-end
+
 ## New Solution Explorer View
 
 You can use the **New Solution Explorer View** to add a new scoped Solution Explorer view. In the Solution Explorer, right-click on the folder you want to set as the root folder of the new view and then select **New Solution Explore View** from the context menu. A new Solution Explorer window appears that you can dock or float as needed.
 
 :::image type="content" source="media/vs-2022/solution-explorer-view.png" alt-text="Screenshot of the New Solution Explorer View from the right-click context menu in Solution Explorer.":::
-
-::: moniker-end
 
 ## Related content
 
