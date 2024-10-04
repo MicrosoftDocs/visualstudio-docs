@@ -1,7 +1,7 @@
 ---
 title: Learn about Solution Explorer
 description: Use Solution Explorer in Visual Studio and review the context menu options to manage the projects and files in a solution.
-ms.date: 03/15/2024
+ms.date: 10/04/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - solution explorer [Visual Studio]
@@ -154,6 +154,12 @@ Also included with the Visual Studio 2022 version [17.7](/visualstudio/releases/
 :::image type="content" source="media/vs-2022/solution-explorer-collapse-descendants.png" alt-text="Screenshot of the Collapse All Descendants command from the right-click context menu in Solution Explorer.":::
 
 You can find the **Collapse All Descendants** command on the right-click context menu for any item in Solution Explorer that has descendants. You can also press **Ctrl**+**Left Arrow** to use the command.
+
+## New Solution Explorer View
+
+You can use the **New Solution Explorer View** to add a new scoped Solution Explorer view. In the Solution Explorer, right-click on the folder you want to set as the root folder of the new view and then select **New Solution Explore View** from the context menu. A new Solution Explorer window appears that you can dock or float as needed.
+
+:::image type="content" source="media/vs-2022/solution-explorer-view.png" alt-text="Screenshot of the New Solution Explorer View from the right-click context menu in Solution Explorer.":::
 
 ::: moniker-end
 
