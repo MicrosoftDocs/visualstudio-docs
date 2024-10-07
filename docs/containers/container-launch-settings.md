@@ -69,7 +69,7 @@ The following table shows the properties that can be set in this section:
 | - | - | - | - |
 |Command line arguments| commandLineArgs      | `"commandLineArgs": "--mysetting myvalue"`              | These command-line arguments for starting your app are used when launching your project in the container.                                     |
 |Container run arguments| containerRunArguments|`"containerRunArguments": "-l mylabel=value"`|Like `dockerfileRunArguments`, but for use with the .NET SDK container build type. |
-||DockerfileRunArguments|`dockerfileRunArguments": "-l mylabel=value"`|Additional arguments to pass to the [`docker run`](https://docs.docker.com/engine/reference/commandline/run/) command. <br>/<br/> This setting only applies to projects that use the Dockerfile container build type. <br/><br/> In Visual Studio 17.3 and later, you can use the following replacement tokens added:<br/><br/> - `{ProjectDir}` - Full path to the project directory. <br/><br/> - `{OutDir}` - The value of the MSBuild property OutDir.|
+|N/A|DockerfileRunArguments|`dockerfileRunArguments": "-l mylabel=value"`|Additional arguments to pass to the [`docker run`](https://docs.docker.com/engine/reference/commandline/run/) command. <br>/<br/> This setting only applies to projects that use the Dockerfile container build type. <br/><br/> In Visual Studio 17.3 and later, you can use the following replacement tokens added:<br/><br/> - `{ProjectDir}` - Full path to the project directory. <br/><br/> - `{OutDir}` - The value of the MSBuild property OutDir.|
 |Environment Variables| environmentVariables | `"environmentVariables":` {<br/>   `"ASPNETCORE_URLS": "https://+:443;http://+:80"`, <br/>   `"ASPNETCORE_HTTPS_PORT": "44381"` <br/> }                    | These environment variable values are passed to the process when it's launched in the container.                       |
 |Container Name| containerName | `mycontainer` | A name for the container matching the regular expression `[a-zA-Z0-9][a-zA-Z0-9_.-]`.| 
 |Container environment files| containerRunEnvironmentFiles | `"containerRunEnvironmentFiles": "abc.env;xyz.env"` | A list of environment variable files (`.env` files) separated by semicolons. See [.env file syntax](https://docs.docker.com/compose/how-tos/environment-variables/variable-interpolation/#env-file-syntax). |
@@ -81,8 +81,12 @@ The following table shows the properties that can be set in this section:
 | Ssl Port| sslPort              | `"sslPort": 44381`                                      | This port on the host is mapped to the container's port 443 when launching the container. |
 | N/A | useSSL               | `"useSSL": true`                                        | Indicates whether to use SSL when launching the project. If `useSSL` isn't specified, then SSL is used when `sslPort > 0`. |
 
+Not all settings are available in the UI, for example, `useSSL`. To change those settings, edit `launchSettings.json` directly.
+
+The setting `DockerfileRunArguments` is superceded in Visual Studio 2022 17.12 and later by `containerRunArguments`, which can be set in the Launch Profiles UI as `Container run arguments`.
+
 > [!NOTE]
-> If the same settings, for example, `DockerfileRunArguments`, is found in both the project file and in the launch settings file, the value in the launch settings file takes precedence.
+> If the same setting is found in both the project file and in the launch settings file, the value in the launch settings file takes precedence.
 
 ::: moniker-end
 
