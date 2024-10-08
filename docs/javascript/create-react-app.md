@@ -28,7 +28,7 @@ Make sure to install the following:
 
 1. In Visual Studio, select **File > New > Project** to open the Create a New Project dialog, select the **React App** JavaScript template, and then choose **Next**.
 
-   :::image type="content" source="media/vs-2022/react-choose-standalone-template.png" alt-text="Screenshot showing choosing a template":::
+   :::image type="content" source="media/vs-2022/react-choose-standalone-template.png" alt-text="Screenshot showing choosing a template.":::
 
 1. Name the project `TodoWebApp` and select **Create**.
 
@@ -40,7 +40,7 @@ Make sure to install the following:
 
 1. Right-click the new folder, select **Add > React JSX Component File**, name it `TodoList`, and click **Add**.
 
-   :::image type="content" source="media/vs-2022/react-add-jsx-component.png" alt-text="Screenshot showing adding a JSX component":::
+   :::image type="content" source="media/vs-2022/react-add-jsx-component.png" alt-text="Screenshot showing adding a JSX component.":::
 
    This creates a new JSX file in the components folder.
 
@@ -73,7 +73,7 @@ Make sure to install the following:
 
 1. To add the TodoList component, place your cursor inside the fragment and then type `<TodoL RETURN`. This adds the component and the import statement.
 
-   :::image type="content" source="media/vs-2022/react-add-jsx-component-to-app.gif" alt-text="Screenshot showing adding a JSX component to the app":::
+   :::image type="content" source="media/vs-2022/react-add-jsx-component-to-app.gif" alt-text="Screenshot showing adding a JSX component to the app.":::
 
    Next, clear out the CSS files.
 
@@ -98,7 +98,7 @@ Select the **Start Debugging** button from the toolbar or press the F5 keyboard 
 
 The app opens in a browser window.
 
-:::image type="content" source="media/vs-2022/react-running-app.png" alt-text="Screenshot showing the app running in the browser":::
+:::image type="content" source="media/vs-2022/react-running-app.png" alt-text="Screenshot showing the app running in the browser.":::
 
 ## Add to-do list functions to the app
 
