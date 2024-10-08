@@ -1,7 +1,7 @@
 ---
 title: Create a React app in Visual Studio
 description: Create, build, and run a React to-do list web application project from a Visual Studio template.
-ms.date: 10/03/2024
+ms.date: 10/08/2024
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -15,7 +15,7 @@ monikerRange: '>= vs-2022'
 
 # Create a React app in Visual Studio
 
-In this tutorial, you create a React front-end for a to-do list web app using JavaScript and Visual Studio 2022. The code for this app can be found at [ToDoJSWebApp](https://github.com/sayedihashimi/todojswebapp).
+In this tutorial, you create a React front-end for a to-do list web app using JavaScript and Visual Studio 2022. The code for this app can be found at [ToDoJSWebApp](https://go.microsoft.com/fwlink/?linkid=2291103&clcid=0x409).
 
 ## Prerequisites
 
@@ -582,5 +582,5 @@ In this tutorial, you created a new React app using Visual Studio. The app consi
 
 ## Resources
 
-- Code for this sample at [ToDoJSWebApp](https://github.com/sayedihashimi/todojswebapp)
+- Code for this sample at [ToDoJSWebApp](https://go.microsoft.com/fwlink/?linkid=2291103&clcid=0x409)
 - [Visual Studio JavaScript and TypeScript projects](/visualstudio/javascript)
