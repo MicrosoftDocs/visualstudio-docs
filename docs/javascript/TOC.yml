@@ -8,16 +8,18 @@
   items:
   - name: First look at the Visual Studio IDE
     href: quickstart-ide-orientation-js.md
-  - name: Create a React app
+  - name: Create a React project
     href: tutorial-create-react-app.md
-  - name: Create an Angular app
+  - name: Create an Angular project
     href: tutorial-create-angular-app.md
-  - name: Create a Vue.js app
+  - name: Create a Vue.js project
     href: tutorial-create-vue-app.md
 - name: Tutorials
   items:
   - name: Create a Node.js app with Express
     href: tutorial-nodejs.md
+  - name: Create a React app
+    href: create-react-app.md
   - name: Create an ASP.NET Core app with React
     href: tutorial-asp-net-core-with-react.md
   - name: Create an ASP.NET Core app with Angular
