@@ -3,11 +3,11 @@ title: Visual Studio documentation
 summary: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for your platforms and devices.
 brand: visual-studio
 metadata:
-   title: Visual Studio documentation | Microsoft Docs
+   title: Visual Studio documentation
    titleSuffix: ""
    description: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for any platform or device.
    ms.topic: hub-page
-   ms.date: 10/24/2023
+   ms.date: 10/3/2024
    author: ghogen
    ms.author: ghogen
    manager: mijacobs
@@ -75,9 +75,6 @@ conceptualContent:
         - text: ASP.NET Core and React web app
           url: ../javascript/tutorial-asp-net-core-with-react.md
           itemType: get-started
-        - text: F# web service
-          url: ../ide/quickstart-fsharp.md
-          itemType: get-started
     - title: Visual Studio language guidance
       links:
         - text: C#
@@ -121,7 +118,7 @@ additionalContent:
       - title: AI-assisted development
         summary: Get answers and suggestions from GitHub Copilot and code assistance with IntelliCode.
         url: ../ide/ai-assisted-development-visual-studio.md
-      - title: Track version changes
+      - title: Git, GitHub, and Azure DevOps
         summary: Share code using version control technologies such as Git and GitHub.
         url: ../version-control/git-with-visual-studio.md
       - title: Extend Visual Studio
@@ -132,24 +129,22 @@ additionalContent:
      items:
         - title: Web and cloud
           links:
-            - text: Web development
+            - text: ASP.NET Core
               url: /aspnet/
-            - text: ASP.NET Core and JavaScript
-              url: ../javascript/tutorial-nodejs.md
-            - text: Azure development and management
+            - text: Azure cloud
               url: ../azure/index.yml
             - text: Python
               url: ../python/index.yml
             - text: Node.js
               url: ../javascript/index.yml
-            - text: Data storage and processing
-              url: ../data-tools/index.yml
-            - text: Data science
-              url: ../python/data-science-and-analytical-applications-workload.md
             - text: Office/Sharepoint development
               url: ../vsto/office-and-sharepoint-development-in-visual-studio.md
+            - text: Containers
+              url: ../containers/index.yml
         - title: Desktop and mobile
           links:
+            - text: .NET Fundamentals
+              url: /dotnet/fundamentals/
             - text: Windows app development
               url: /windows/apps/
             - text: .NET desktop development with WPF
@@ -160,26 +155,18 @@ additionalContent:
               url: /dotnet/framework/
             - text: MAUI (.NET Multi-platform App UI) development
               url: /dotnet/maui/
-            - text: Mobile development with .NET (Xamarin)
-              url: /xamarin/
             - text: Windows development with C++
               url: /cpp/windows/desktop-applications-visual-cpp
-            - text: Mobile development with C++
-              url: /visualstudio/cross-platform/
         - title: Game development
           links:
             - text: Unity
               url: /visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity
             - text: Unreal Engine
               url: /visualstudio/gamedev/unreal/get-started/vs-tools-unreal-overview
-            - text: Universal Windows Platform (UWP)
-              url: /windows/uwp/gaming/e2e
         - title: Other toolsets
           links:
             - text: Visual Studio extension development
               url: ../extensibility/index.yml
             - text: Linux development with C++
               url: /cpp/linux/
-            - text: .NET cross-platform development
-              url: /dotnet/fundamentals/
-   footer: "[Blogs](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [Issue Reporting](../ide/feedback-options.md) - [Developer Community](https://aka.ms/feedback/suggest?space=8) - [Troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio)"
+   footer: "[Blogs](https://devblogs.microsoft.com/visualstudio/) - [@VisualStudio on X](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [Issue Reporting](../ide/feedback-options.md) - [Developer Community](https://aka.ms/feedback/suggest?space=8) - [Troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio)"
