@@ -82,5 +82,7 @@ items:
     href: vs-azure-tools-publishing-a-cloud-service.md
   - name: Manage service configurations and profiles
     href: vs-azure-tools-service-configurations-and-profiles-how-to-manage.md
+  - name: Access Azure virtual machines from Server Explorer
+    href: vs-azure-tools-virtual-machines-manage-from-server-explorer.md
 
 
