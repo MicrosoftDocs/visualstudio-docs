@@ -61,11 +61,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/azure/vs-azure-tools-storage-resources-server-explorer-browse-manage.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-storage-resources-server-explorer-browse-manage",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/azure/vs-azure-tools-table-designer-construct-filter-strings.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-table-designer-construct-filter-strings",
       "redirect_document_id": false
