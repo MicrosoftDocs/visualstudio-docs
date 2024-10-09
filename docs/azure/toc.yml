@@ -81,6 +81,6 @@ items:
   - name: Manage service configurations and profiles
     href: vs-azure-tools-service-configurations-and-profiles-how-to-manage.md
   - name: Access Azure virtual machines from Server Explorer
-    href: vs-azure-tools-virtual-machines-manage-from-server-explorer.md
+    href: vs-azure-tools-virtual-machines-access-from-server-explorer.md
 
 
