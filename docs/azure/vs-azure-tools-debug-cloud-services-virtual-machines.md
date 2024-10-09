@@ -151,7 +151,7 @@ If you enable remote debugging for a cloud service using the procedure in this s
 
 1. On the Remote Azure virtual machine, install the Visual Studio 2022 Remote tools as described at [Remote debugging](../debugger/remote-debugging.md).
 
-1. From the desktop on the virtual machine, execute the command *D:\Program Files\Microsoft Visual Studio 17.0\Common7\IDE\Remote Debugger\x64\msvsmon.exe*. Be sure to run as Administrator.
+1. From the desktop on the virtual machine, execute the command *msvsmon.exe* in the Visual Studio installation folder under `Common7\IDE\Remote Debugger\x64`. Be sure to run as Administrator.
 
 1. Accept prompts to allow access through the firewall. You should see a message indicating that *msvsmon.exe* has started listening for connections.
 
