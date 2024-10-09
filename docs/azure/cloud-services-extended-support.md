@@ -73,12 +73,6 @@ Also be sure to check the storage account that Azure Diagnostics uses. To check 
 
    ![Screenshot that shows remote desktop settings.](./media/cloud-services-extended-support/remote-desktop-configuration.png)
 
-1. Select **Next** to move to the **Diagnostics Settings** pane.
-
-   ![Screenshot that shows the Diagnostics Settings pane.](./media/cloud-services-extended-support/diagnostics-settings.png)
-
-   You can use Azure Diagnostics to troubleshoot an instance of Cloud Services (extended support). For information about using Diagnostics, see [Set up diagnostics for Azure Cloud Services and virtual machines](./vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md). For information about Application Insights, see [What is Application Insights?](/azure/application-insights/app-insights-overview).
-
 1. Select **Next** to move to the **Summary** pane.
 
    ![Screenshot that shows the Microsoft Azure Publish Summary pane.](./media/cloud-services-extended-support/publish-summary.png)
