@@ -1,10 +1,10 @@
 ---
 title: Help me purchase monthly Visual Studio subscriptions from marketplace.visualstudio.com
 description: Help me purchase monthly Visual Studio subscriptions from marketplace.visualstudio.com
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.topic: include
 ms.assetid: 4d0c9d82-5bda-4021-b219-5e1cf948f325
-author: larissacrawford
+author: joseb-rdc
 ms.author: amast
 ms.date: 08/17/2023
 user.type: subscriber, admin

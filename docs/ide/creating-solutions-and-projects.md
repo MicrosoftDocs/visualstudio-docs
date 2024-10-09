@@ -1,7 +1,7 @@
 ---
 title: "Create projects & solutions"
 description: Create Visual Studio solutions and projects and use them to store artifacts, including source code files, bitmaps, icons, and component and service references.
-ms.date: 08/19/2024
+ms.date: 10/03/2024
 ms.topic: how-to
 f1_keywords:
 - vs.openprojectfromweb
@@ -100,6 +100,12 @@ After you create an empty solution, you can add new or existing projects or item
 
 As noted earlier, you can also open code files without using a project or solution. To learn about developing code in this way, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
+## Multi-project solution
+
+You can create a solution that contains multiple projects. Start with an [empty solution](#create-empty-solutions) or a [solution containing a project](#create-a-project-by-using-a-project-template) and add multiple new or existing projects to it by using **Add** > **New project**/**Existing project**. For example, you can create a solution that contains a C# project and a Visual Basic project. 
+
+To learn more about building a solution that contains multiple projects, see [Create and remove project dependencies](how-to-create-and-remove-project-dependencies.md) and [Set multiple startup projects](how-to-set-multiple-startup-projects.md).
+
 ## Delete a solution, project, or item
 
 You can use the right-click context menu to delete or remove solutions, projects, or items in Visual Studio, but that only removes them from the current solution or project.
@@ -124,3 +130,4 @@ You can access File Explorer in Windows by using Solution Explorer in Visual Stu
 - [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md)
 - [Manage project and solution properties](managing-project-and-solution-properties.md)
 - [Filtered solutions in Visual Studio](filtered-solutions.md)
+- [Build and clean projects and solutions](building-and-cleaning-projects-and-solutions-in-visual-studio.md)
