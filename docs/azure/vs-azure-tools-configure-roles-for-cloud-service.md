@@ -46,10 +46,7 @@ You can configure an Azure Cloud Services (extended support) project from Soluti
 
     ![Project properties page - development tab](./media/vs-azure-tools-configure-roles-for-cloud-service/project-properties-development-tab.png)
 
-1. In the **Service Configuration** list, select the name of the service configuration that you want to edit. (If you want to make changes to all the service configurations for this role, select **All Configurations**.)
-
-    > [!IMPORTANT]
-    > If you choose a specific service configuration, some properties are disabled because they can only be set for all configurations. To edit these properties, you must select **All Configurations**.
+1. In the **Service Configuration** list, select the name of the service configuration that you want to edit. 
 
     ![Screenshot showing the Service Configuration list for an Azure Cloud Services (extended support) project.](./media/vs-azure-tools-configure-roles-for-cloud-service/cloud-service-service-configuration-property.png)
 
@@ -67,7 +64,10 @@ To improve the performance of your cloud service, you can change the number of i
 
     ![Configuration tab](./media/vs-azure-tools-configure-roles-for-cloud-service/role-configuration-properties-page.png)
 
-1. In the **Service Configuration** list, select the service configuration that you want to update.
+1. In the **Service Configuration** list, select the service configuration that you want to update. (If you want to make changes to all the service configurations for this role, select **All Configurations**.)
+
+    > [!IMPORTANT]
+    > If you choose a specific service configuration, some properties are disabled because they can only be set for all configurations. To edit these properties, you must select **All Configurations**.
 
     ![Service Configuration list 1](./media/vs-azure-tools-configure-roles-for-cloud-service/role-configuration-properties-page-select-configuration.png)
 
@@ -79,7 +79,7 @@ To improve the performance of your cloud service, you can change the number of i
 
 ## Manage connection strings for storage accounts
 
-You can add, remove, or modify connection strings for your service configurations. For example, you might want a local connection string for a local service configuration that has a value of `UseDevelopmentStorage=true`. You might also want to configure a cloud service configuration that uses a storage account in Azure.
+You can add, remove, or modify connection strings for your service configurations. You might also want to configure a cloud service configuration that uses a storage account in Azure.
 
 > [!WARNING]
 > When you enter the Azure Storage account key information for a storage account connection string, this information is stored locally in the service configuration file. However, this information is currently not stored as encrypted text.

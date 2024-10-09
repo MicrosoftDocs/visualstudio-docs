@@ -47,6 +47,8 @@ When you publish your Azure application, you can do one of the following tasks:
    1. On the shortcut menu for the Azure project, choose **Package**.
 
    1. In the **Package Azure Application** dialog box, choose the service configuration for which you want to create a package, and then choose the build configuration.
+   
+   1. (Optional) To turn on Remote Desktop for the cloud service after you publish it, select **Enable Remote Desktop for all Roles**, and then select **Settings** to configure Remote Desktop credentials. For more information, see [Enable Remote Desktop Connection for a Role in Azure Cloud Services using Visual Studio](/azure/cloud-services/cloud-services-role-enable-remote-desktop-visual-studio).
 
    1. To create the package, choose the **Package** link.
 
@@ -75,6 +77,9 @@ If your app's back end infrastructure is stable, but the web roles need more fre
 The following procedure assumes that you are using the **Publish Azure Application** wizard.
 
 ### Enable Web Deploy when you publish your application
+
+> [!NOTE]
+> Web Deploy is not supported for Azure Cloud Services (extended support).
 
 1. To enable the **Enable Web Deploy for all web roles** option, you must first configure remote desktop connections. Select **Enable Remote Desktop** for all roles and then supply the credentials that is used to connect remotely in the **Remote Desktop Configuration** box that appears. See [Enable Remote Desktop Connection for a Role in Azure Cloud Services (extended support) using Visual Studio](/azure/cloud-services/cloud-services-role-enable-remote-desktop-visual-studio).
 
