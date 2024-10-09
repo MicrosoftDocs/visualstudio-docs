@@ -29,6 +29,7 @@ When you create an Azure Cloud Services (extended support) project in Visual Stu
 
 ## Prerequisites
 
+- Visual Studio with the Individual Component **.NET Framework project and item templates** installed. See [Modify Visual Studio](../install/modify-visual-studio.md).
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Configure an Azure Cloud Services (extended support) project

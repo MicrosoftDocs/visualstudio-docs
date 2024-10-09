@@ -17,6 +17,7 @@ Visual Studio provides a project template that lets you create an [Azure Cloud S
 
 ## Prerequisites
 
+- Visual Studio with the Individual Component **.NET Framework project and item templates** installed. See [Modify Visual Studio](../install/modify-visual-studio.md).
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Steps to create an Azure Cloud Services (extended support) project in Visual Studio

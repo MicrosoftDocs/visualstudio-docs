@@ -22,8 +22,6 @@ This article shows you how to publish an existing instance of Azure Cloud Servic
 
 ## Publish to Cloud Services (extended support)
 
-When you publish your existing Azure Cloud Services (classic) project to Azure Cloud Services (extended support), you still retain the capability to publish to an instance of Cloud Services (classic).
-
 In Visual Studio 2019 version 16.9 and later, Cloud Services (classic) projects have a special version of the **Publish** command: **Publish (extended support)**. This command appears on the shortcut menu in Solution Explorer in Visual Studio.
 
 There are some differences when you publish to Cloud Services (extended support). For example, you don't select whether to publish to **Staging** or to **Production**, because these deployment slots aren't part of the extended support publishing model. Instead, with Cloud Services (extended support), you can set up multiple deployments, and you can swap deployments in the Azure portal. Although it's possible to use this setting in Visual Studio version 16.9, the swap feature isn't available until a later release of Cloud Services (extended support).
