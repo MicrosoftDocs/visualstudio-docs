@@ -80,7 +80,7 @@ Because the Visual Studio Installer downloads files from various domains and the
 ## Use Visual Studio and Azure Services
 
 > [!NOTE]
-> With [Visual Studio 17.8](/visualstudio/releases/2022/release-notes-v17.8), we've updated the configuration process for default proxy credentials in web requests. To enable default proxy credentials following this update, create a new environment variable named `VS_USE_DEFAULTPROXY`, set its value to true, and restart Visual Studio.
+> With [Visual Studio 17.8](/visualstudio/releases/2022/release-notes-v17.8), we've updated the configuration process for default proxy credentials in web requests. To enable default proxy credentials following this update, create a new environment variable named `VS_USE_DEFAULTPROXY`, set its value to `true`, and then restart Visual Studio.
 
 ### URLs to add to an allowlist and ports and protocols to open
 
