@@ -182,7 +182,7 @@ Both the **Automatically choose what module symbols to search for** and **Search
 module symbols unless excluded** options allow you to have more fine control over what symbols
 are searched for while debugging. Choose **Specify module filters** to fine-tune your experience.
 
-By default, you will see the following dialog with **Automatically choose what module symbols to search for**:
+By default, you see the following dialog when **Automatically choose what module symbols to search for** is selected:
 
 ![Tools&#47; Options&#47; Debugging&#47;Automatic symbols&47;Specify module filters](media/vs-2022/specify-include-list.png "Tools&#47; Options&#47; Debugging&#47;Automatic symbols&47;Specify module filters")
 
@@ -190,16 +190,16 @@ You can add a module to the filter by using the '+' icon. Module filters support
 matching. A '\*' matches any group of characters. For example '\*myproduct\*' will match files such
 as 'myproduct.utilities.dll' and 'entrypoint.myproduct.exe', among others.
 
-There are several additional options to tweak your experience:
+There are several additional options to further customize your experience:
 
 - **Always load symbols located next to modules** instructs visual studio to load pdb files that
 are stored in the file system beside their corresponding .dll or .exe files. This can be helpful,
 for example, when attempting to debug a deployed web app.
 
-- **Automatically load additional symbols when needed** will instruct Visual Studio to search for
+- **Automatically load additional symbols when needed** instructs Visual Studio to search for
 symbols to perform common debug actions, such as stepping, even if the module that you will be
 stepping to is not in your project or in the modules filter. The way that searching is determined
-may also be affected by your [Just My Code](just-my-code.md) settings.
+might be affected by your [Just My Code](just-my-code.md) settings.
 
 If you have selected **Search for all module symbols unless excluded**, then the module filter
 dialog looks like this:
@@ -207,7 +207,7 @@ dialog looks like this:
 ![Tools&#47; Options&#47; Debugging&#47;All symbols symbols&47;Specify module filters](media/vs-2022/specify-exclude-list.png "Tools&#47; Options&#47; Debugging&#47;All symbols symbols&47;Specify module filters")
 
 In this dialog, you can choose what modules you *do not* want Visual Studio to load symbols for.
-In this case, Visual Studio will attempt to load symbols for every module in your debugged
+In this scenario, Visual Studio attempts to load symbols for every module in your debugged
 proces (including modules by third parties), unless you add a matching filter to exclude them.
 The only other way that this behavior will be modified is by your [Just My Code](just-my-code.md)
 settings.
@@ -237,7 +237,7 @@ You can select additional symbol options in **Tools** > **Options** > **Debuggin
   > [!IMPORTANT]
   > Arbitrary commands can be embedded in an app's *.pdb* file, so make sure to put only the commands you want to execute into a *srcsrv.ini* file. Any attempt to execute a command not in the *srcsvr.ini* file will cause a confirmation dialog box to appear. For more information, see [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning-debugger-must-execute-untrusted-command.md).
   >
-  > No validation is done on command parameters, so be careful with trusted commands. For example, if you listed *cmd.exe* in your *srcsrv.ini*, a malicious user might specify parameters on *cmd.exe* that would make it dangerous.
+  > No validation is performed on command parameters, so be careful with trusted commands. For example, if you listed *cmd.exe* in your *srcsrv.ini*, a malicious user might specify parameters on *cmd.exe* that would make it dangerous.
 
   Select this item and the child items you want. **Allow source server for partial trust assemblies (Managed only)** and **Always run untrusted source server commands without prompting** can increase the security risks.
 
