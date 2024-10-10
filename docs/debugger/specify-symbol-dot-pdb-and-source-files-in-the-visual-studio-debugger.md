@@ -104,10 +104,9 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
 **To specify symbol locations and loading options:**
 
 ::: moniker range="= vs-2022"
-
   > [!NOTE]
   > These options were updated in Visual Studio 2022 Version 17.12 Preview 1.
-::: moniker end
+::: moniker-end
 
 1. In Visual Studio, open **Tools** > **Options** > **Debugging** > **Symbols** (or **Debug** > **Options** > **Symbols**).
 
@@ -120,10 +119,10 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
 
     ::: moniker range=">= vs-2022"
      ![Tools &#45; Options &#45; Debugging &#45; Symbols page](media/vs-2022/dbg-options-symbols.png "Tools &#45; Options &#45; Debugging &#45; Symbols page")
-     ::: moniker-end
-     ::: moniker range="<= vs-2019"
+    ::: moniker-end
+    ::: moniker range="<= vs-2019"
      ![Tools &#45; Options &#45; Debugging &#45; Symbols page](media/dbg-options-symbols.gif "Tools &#45; Options &#45; Debugging &#45; Symbols page")
-     ::: moniker-end
+    ::: moniker-end
 
    > [!NOTE]
    > Only the specified folder is searched. You must add entries for any subfolders that you want to search.
