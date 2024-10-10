@@ -103,6 +103,12 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
 
 **To specify symbol locations and loading options:**
 
+::: moniker range="= vs-2022"
+
+  > [!NOTE]
+  > These options were updated in Visual Studio 2022 Version 17.12 Preview 1.
+::: moniker end
+
 1. In Visual Studio, open **Tools** > **Options** > **Debugging** > **Symbols** (or **Debug** > **Options** > **Symbols**).
 
 2. Under **Symbol file (.pdb) locations**,
@@ -139,11 +145,12 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
   > Do not place the local symbol cache in a protected folder, like C:\Windows or a subfolder. Use a read-write folder instead.
 
   > [!NOTE]
-  > For C++ projects, if you have the `_NT_SYMBOL_PATH` environment variable set, it overrides the value set under **Cache symbols in this directory**.
+  > If you have the `_NT_SYMBOL_PATH` environment variable set, it overrides the value set under **Cache symbols in this directory**.
 
 4. Specify the modules that you want the debugger to load from the **Symbol file (.pdb) locations** when it starts.
 
    ::: moniker range=">= vs-2022"
+
    - Select **Automatically choose what module symbols to search for** (recommended) to allow
    Visual studio to decide what symbols to search for and load. By default, Visual Studio
    automatically loads symbols that were built by your opened solution, and loads any
@@ -180,7 +187,7 @@ By default, you will see the following dialog with **Automatically choose what m
 ![Tools&#47; Options&#47; Debugging&#47;Automatic symbols&47;Specify module filters](media/vs-2022/specify-include-list.png "Tools&#47; Options&#47; Debugging&#47;Automatic symbols&47;Specify module filters")
 
 You can add a module to the filter by using the '+' icon. Module filters support simple wild-card
-matching. A '\*' matches any grop of characters. For example '\*myproduct\*' will match files such
+matching. A '\*' matches any group of characters. For example '\*myproduct\*' will match files such
 as 'myproduct.utilities.dll' and 'entrypoint.myproduct.exe', among others.
 
 There are several additional options to tweak your experience:
@@ -191,7 +198,7 @@ for example, when attempting to debug a deployed web app.
 
 - **Automatically load additional symbols when needed** will instruct Visual Studio to search for
 symbols to perform common debug actions, such as stepping, even if the module that you will be
-stepping to is not in your project or in the modules filter. The way that seaching is determined
+stepping to is not in your project or in the modules filter. The way that searching is determined
 may also be affected by your [Just My Code](just-my-code.md) settings.
 
 If you have selected **Search for all module symbols unless excluded**, then the module filter
