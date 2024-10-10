@@ -55,7 +55,7 @@ Also be sure to check the storage account that Azure Diagnostics uses. To check 
 
 1. On **Common Settings**, in the dropdown list, either select an existing instance of Cloud Services (extended support) or select **Create new**, and then create a new instance. The datacenter displays in parentheses for each instance of Cloud Services (extended support). We recommend that the datacenter location for Cloud Services (extended support) be the same as the datacenter location of your storage account.
 
-   If you choose to create a new service, the **Create Cloud Service (extended support)** dialog appears. Specify the name, location, and resource group to use for your Cloud Services (extended support) deployment.
+   If you choose to create a new service, the **Create Cloud Service (extended support)** dialog appears. Specify the service name, DNS name if different from the service name, location, and resource group to use for your Cloud Services (extended support) deployment.
 
    ![Screenshot that shows the Create a Cloud Services (extended support) deployment pane.](./media/cloud-services-extended-support/extended-support-dialog.png)
 
