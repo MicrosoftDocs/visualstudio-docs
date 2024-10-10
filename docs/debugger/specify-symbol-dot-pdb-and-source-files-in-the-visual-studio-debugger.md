@@ -139,17 +139,17 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
   > Do not place the local symbol cache in a protected folder, like C:\Windows or a subfolder. Use a read-write folder instead.
 
   > [!NOTE]
-  > For C++ projects, if you have the `_NT_SYMBOL_PATH` environment variable set, it will override the value set under **Cache symbols in this directory**.
+  > For C++ projects, if you have the `_NT_SYMBOL_PATH` environment variable set, it overrides the value set under **Cache symbols in this directory**.
 
 4. Specify the modules that you want the debugger to load from the **Symbol file (.pdb) locations** when it starts.
 
    ::: moniker range=">= vs-2022"
    - Select **Automatically choose what module symbols to search for** (recommended) to allow
    Visual studio to decide what symbols to search for and load. By default, Visual Studio
-   will automatically load symbols that were built by your opened solution, and load any
+   automatically loads symbols that were built by your opened solution, and loads any
    additional symbols that are needed to perform common debugging operations. This reduces
-   the number of files that must be searched for and loaded by Visual Studio, which will
-   improve debugger performance. You can force additional symbols to load by clicking the
+   the number of files that must be searched for and loaded by Visual Studio, which 
+   improves debugger performance. You can force additional symbols to load by clicking the
    **Specify module filters** link.
 
    - Select **Search for all module symbols unless excluded** to force Visual Studio to
@@ -170,7 +170,7 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
 
 ::: moniker range=">= vs-2022"
 
-### Specifying module filters
+### Specify module filters
 Both the **Automatically choose what module symbols to search for** and **Search for all
 module symbols unless excluded** options allow you to have more fine control over what symbols
 are searched for while debugging. Choose **Specify module filters** to fine-tune your experience.
