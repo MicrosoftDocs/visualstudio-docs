@@ -250,6 +250,64 @@ We recommend that you study the code in **Dsl\Generated Code\Serializer.cs** and
 
 1. Override methods in Dsl\GeneratedCode\SerializationHelper.cs
 
+> [!NOTE]
+> If you use a custom data type for any domain properties, you will either need to override serialization or implement a TypeConverter capable of converting each custom data type to and from a string.
+>
+> As of Visual Studio 17.13, the default serialization implementation will no longer serialize or deserialize custom data types using BinaryFormatter.
+>
+> For backward compatibility with models using BinaryFormatter serialization, it is possible to implement a TypeConverter that can deserialize the binary data. The following code snippet can be used as a template for implementing this compatibility:
+
+```csharp
+class MyCustomDataTypeConverter : TypeConverter
+{
+    public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType)
+    {
+        return sourceType == typeof(string) || base.CanConvertFrom(context, sourceType);
+    }
+
+    public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType)
+    {
+        return destinationType == typeof(string) || base.CanConvertTo(context, destinationType);
+    }
+
+    public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value)
+    {
+        if (value is string text)
+        {
+            // First, try to parse the string as if it were returned by MyCustomDataType.ToString().
+            if (MyCustomDataType.TryParse(text, out var custom))
+                return custom;
+
+            // Fall back to trying to deserialize the old BinaryFormatter serialization format.
+            var decoded = Convert.FromBase64String(text);
+            using (var memory = new MemoryStream(decoded, false))
+            {
+                var binaryFormatter = new BinaryFormatter();
+                return (MyCustomDataType)binaryFormatter.Deserialize(memory);
+            }
+        }
+
+        return base.ConvertFrom(context, culture, value);
+    }
+
+    public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType)
+    {
+        if (destinationType == typeof(string) && value is MyCustomDataType custom)
+            return custom.ToString();
+
+        return base.ConvertTo(context, culture, value, destinationType);
+    }
+}
+
+// ...
+
+[TypeConverter(MyCustomDataTypeConverter)]
+class MyCustomDataType
+{
+    // ...
+}
+```
+
 ## Options in Xml Serialization Behavior
 
 In DSL Explorer, the Xml Serialization Behavior node contains a child node for each domain class, relationship, shape, connector and diagram class. Under each of those nodes is a list of properties and relationships sourced at that element. Relationships are represented both in their own right and under their source classes.
