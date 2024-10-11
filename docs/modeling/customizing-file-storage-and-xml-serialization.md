@@ -251,11 +251,11 @@ We recommend that you study the code in **Dsl\Generated Code\Serializer.cs** and
 1. Override methods in Dsl\GeneratedCode\SerializationHelper.cs
 
 > [!NOTE]
-> If you use a custom data type for any domain properties, you will either need to override serialization or implement a TypeConverter capable of converting each custom data type to and from a string.
+> Due to [security risks with BinaryFormatter](https://learn.microsoft.com/en-us/dotnet/standard/serialization/binaryformatter-security-guide), Visual Studio 2022 v17.13 will no longer default to serializating custom data types using BinaryFormatter.
 >
-> As of Visual Studio 17.13, the default serialization implementation will no longer serialize or deserialize custom data types using BinaryFormatter.
+> This means that if you use a custom data type for any domain properties, you will either need to override serialization or implement a TypeConverter capable of converting each custom data type to and from a string.
 >
-> For backward compatibility with models using BinaryFormatter serialization, it is possible to implement a TypeConverter that can deserialize the binary data. The following code snippet can be used as a template for implementing this compatibility:
+> For existing projects, in order to achieve backward compatibility with models using the default (BinaryFormatter) serialization, it is possible to implement a TypeConverter that can deserialize the binary data. The following code snippet can be used as a template for implementing this compatibility:
 
 ```csharp
 class MyCustomDataTypeConverter : TypeConverter
@@ -283,7 +283,7 @@ class MyCustomDataTypeConverter : TypeConverter
             using (var memory = new MemoryStream(decoded, false))
             {
                 var binaryFormatter = new BinaryFormatter();
-                return (MyCustomDataType)binaryFormatter.Deserialize(memory);
+                return binaryFormatter.Deserialize(memory) as MyCustomDataType;
             }
         }
 
