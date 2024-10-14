@@ -25,6 +25,12 @@ You can debug JavaScript and TypeScript code using Visual Studio. You can hit br
 > If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free. If you are developing Node.js applications, you need to install the **Node.js development workload** with Visual Studio.
 ::: moniker-end
 
+::: moniker range=">=vs-2022"
+## Configure user code
+
+Visual Studio attaches the debugger to user code. For *.esproj* projects, you can configure user code (also called *Just My Code* settings) in Visual Studio using the `skipFiles` setting in *launch.json*. This works the same as the *launch.json* settings in VS Code. For more information, see [Skipping Uninteresting Code](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_skipping-uninteresting-code).
+::: moniker-end
+
 ## Debug server-side script
 
 1. With your project open in Visual Studio, open a server-side JavaScript file (such as *server.js*), click in the gutter to set a breakpoint:
