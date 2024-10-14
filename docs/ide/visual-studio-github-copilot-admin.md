@@ -9,6 +9,7 @@ ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: vs-2022
+ms.custom: ai-learning-hub
 ---
 
 # Admin controls for GitHub Copilot
@@ -41,7 +42,7 @@ To configure and deploy these policies, you can use [Microsoft Intune](../instal
 
 ## Configure content exclusion
 
-Content exclusion for GitHub Copilot enables administrators to prevent certain files from being available to Copilot and keep sensitive content secure from Copilot use. You can use content exclusions to configure GitHub Copilot to ignore specific files in a [repository](https://docs.github.com/en/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot#configuring-content-exclusions-for-your-organization) or [organization](https://docs.github.com/en/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot#configuring-content-exclusions-for-your-repository). Content exclusion is only available with a GitHub Copilot Business or a GitHub Copilot Enterprise subscription. 
+Content exclusion for GitHub Copilot enables administrators to prevent certain files from being available to Copilot and keep sensitive content secure from Copilot use. You can use content exclusions to configure GitHub Copilot to ignore specific files in a [repository](https://docs.github.com/en/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot#configuring-content-exclusions-for-your-repository) or [organization](https://docs.github.com/en/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot#configuring-content-exclusions-for-your-organization). Content exclusion is only available with a GitHub Copilot Business or a GitHub Copilot Enterprise subscription. 
 
 With [Visual Studio 2022 version 17.11](/visualstudio/releases/2022/release-notes), GitHub Copilot for Visual Studio will ignore excluded content. When you exclude content from Copilot, completions and chat aren't available on the affected files.
 

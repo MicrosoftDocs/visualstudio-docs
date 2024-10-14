@@ -1,7 +1,7 @@
 ---
 title: Customize & save your personal Visual Studio IDE settings
 description: Customize the Visual Studio integrated development environment (IDE) in ways that best support your own development style and requirements.
-ms.date: 04/03/2024
+ms.date: 10/04/2024
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -50,7 +50,9 @@ Many personalization options are exposed through the [Environment Options](../id
 
 To change the color theme between Dark, Light, Blue, and Blue (Extra Contrast), enter *theme* in the search box, and then choose **Environment** > **General**. In the **Options** dialog box, change the **Color theme** option.
 
-To change colorization options in the editor, enter *environment* in the search box, and then choose **Environment** > **Fonts and Colors**. See [Change fonts, colors, and themes](../ide/how-to-change-fonts-and-colors-in-visual-studio.md).
+To change colorization options in the editor, enter *environment* in the search box, and then choose **Environment** > **Fonts and Colors**. See [Change fonts, colors, and themes](how-to-change-fonts-and-colors-in-visual-studio.md).
+
+You can also use the **Tools** > **Options** > **Environment** > **Fonts and Colors** to establish a custom font and color scheme for various user interface elements in the integrated development environment (IDE). See the reference page on [Fonts and Colors, Environment, Options dialog box](./reference/fonts-and-colors-environment-options-dialog-box.md).
 
 ## Customize menus and toolbars
 

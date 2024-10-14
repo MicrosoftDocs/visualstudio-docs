@@ -1,12 +1,12 @@
 ---
 title: Unable to activate my Microsoft 365 E5 developer subscription
 description: Learn how to activate the Microsoft 365 E5 developer subscription benefit included in Visual Studio subscriptions. 
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.topic: include
 ms.assetid: 104e6ef4-5bb1-4f26-af7c-a6925e3665c7
-author: larissacrawford
+author: joseb-rdc
 ms.author: amast
-ms.date: 03/26/2024
+ms.date: 10/02/2024
 user.type: subscriber
 tags: benefit, M365
 subscription.type: vl, cloud, retail, partner

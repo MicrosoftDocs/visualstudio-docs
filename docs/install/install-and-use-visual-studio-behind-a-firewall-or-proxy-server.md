@@ -1,7 +1,7 @@
 ---
 title: Install and use behind a firewall or proxy server
 description: Review the domain URLs, ports, and protocols that you might want to add to an allowlist or open if your organization uses a firewall or a proxy server
-ms.date: 11/27/2023
+ms.date: 10/02/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - network installation, Visual Studio
@@ -78,6 +78,9 @@ Because the Visual Studio Installer downloads files from various domains and the
 | developer.arm.com                 | ARM Development                                                                                                                             |
 
 ## Use Visual Studio and Azure Services
+
+> [!NOTE]
+> With [Visual Studio 17.8](/visualstudio/releases/2022/release-notes-v17.8), we've updated the configuration process for default proxy credentials in web requests. To enable default proxy credentials following this update, create a new environment variable named `VS_USE_DEFAULTPROXY`, set its value to `true`, and then restart Visual Studio.
 
 ### URLs to add to an allowlist and ports and protocols to open
 

@@ -65,8 +65,6 @@ You can use the **Publish** tool to import publish settings and then deploy your
         userName="$DeployASPDotNetCore"
         userPWD="abcdefghijklmnopqrstuzwxyz"
         destinationAppUrl="http://deployaspdotnetcore2021.azurewebsites.net"
-        SQLServerDBConnectionString=""
-        mySQLDBConnectionString=""
         hostingProviderForumLink=""
         controlPanelLink="http://windows.azure.com"
         webSystem="WebSites">

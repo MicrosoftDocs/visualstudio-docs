@@ -13,6 +13,38 @@ manager: crdun
 
 Visual Studio Tools for Unity change log.
 
+## 17.11.2.0
+Released August 13, 2024
+
+### Bug fixes
+
+- **Integration:**
+
+  - Improve accessibility.
+
+  - Simplify [`UNT0026`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0026.md), to only support variable declaration constructs.
+
+## 17.11.1.0  
+Released July 23, 2024
+
+### Bug fixes
+
+- **Integration:**
+
+  - Stability fixes.
+
+  - fix android player detection.
+
+  - improve editor and player detection.
+
+## 17.11.0.0
+Released June 11, 2024
+
+### New Features
+
+- **Integration:**
+
+  - Add light-build support for SDK-style projects
 
 ## 17.10.1.0
 Released May 21, 2024
