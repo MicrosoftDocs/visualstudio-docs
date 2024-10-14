@@ -1,7 +1,7 @@
 ---
 title: Create and configure a new project
 description: Create and configure a new project in Visual Studio by choosing a template type, the Framework version, an authentication type, and more.
-ms.date: 10/14/2024
+ms.date: 10/15/2024
 ms.topic: how-to
 f1_keywords:
 - vs.newproject
