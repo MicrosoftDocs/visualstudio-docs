@@ -1,12 +1,11 @@
 ---
 title: Command-line parameter examples for installation
 description: Customize command-line parameter examples to create your own installation of Visual Studio by setting parameters, such as installPath, wait, all, remove, and more.
-ms.date: 10/03/2024
+ms.date: 10/14/2024
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
-
 ms.subservice: installation
 ---
 # Command-line parameter examples for Visual Studio installation
@@ -21,7 +20,7 @@ You can use the `^` character at the end of a command line to concatenate multip
 
 For lists of the workloads and components that you can install by using the command line, see the [Visual Studio workload and component IDs](workload-and-component-ids.md) page.
 
-## Install using --installPath alongside the bootstrapper
+## Install using --installPath and --add alongside the bootstrapper
 
 * Install a minimal instance of Visual Studio, with no interactive prompts, but progress displayed:
 
@@ -104,24 +103,6 @@ The following command is an example of using `--wait` with the PowerShell script
    ```shell
    vs_enterprise.exe --all
    ```
-
-## Using --add to add workloads or components
-
-* Use `--add` with the install command to add one or more workload or component IDs. To include multiple workloads or components, repeat the --add command.
-  
-  ```shell
-   vs_enterprise.exe --installPath "C:\VS" ^
-   --add Microsoft.VisualStudio.Workload.ManagedDesktop ^
-   --includeRecommended
-  ```
-
-* Use `--add` with the modify command to add one or more workload or component IDs. To include multiple workloads or components, repeat the --add command.
-  
-  ```shell
-   vs_enterprise.exe modify --installPath "C:\VS" ^
-   --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended ^
-   --add Microsoft.VisualStudio.Workload.Data;includeRecommended;includeOptional
-  ```
 
 ## Using --includeRecommended
 
