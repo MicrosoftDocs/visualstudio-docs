@@ -249,4 +249,6 @@ A *.natstepfilter* file is an XML file with this syntax:
 ## <a name="BKMK_JavaScript_Just_My_Code"></a> JavaScript Just My Code
 
 <a name="BKMK_JS_User_and_non_user_code"></a>
-For Just My Code settings in Visual Studio, you can use the `skipFiles` setting in *launch.json*. This works the same as the *launch.json* settings in VS Code. For more information, see [Skipping Uninteresting Code](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_skipping-uninteresting-code).
+For *.esproj* projects in Visual Studio 2022, Visual Studio Code uses a *launch.json* file to configure and customize the debugger. *launch.json* is a debugger configuration file.
+
+Visual Studio attaches the debugger only to user code. For *.esproj* projects, you can configure user code (also called *Just My Code* settings) in Visual Studio using the `skipFiles` setting in *launch.json*. This works the same as the *launch.json* settings in VS Code. For more information about *skipFiles*, see [Skipping Uninteresting Code](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_skipping-uninteresting-code).
