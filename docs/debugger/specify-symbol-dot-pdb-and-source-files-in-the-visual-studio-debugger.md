@@ -183,7 +183,7 @@ are searched for while debugging. Choose **Specify module filters** to fine-tune
 
 By default, you see the following dialog when **Automatically choose what module symbols to search for** is selected:
 
-![Screenshot of specifying module filters](media/vs-2022/specify-include-list.png)
+![Screenshot of specifying module filters.](media/vs-2022/specify-include-list.png)
 
 You can add a module to the filter by using the '+' icon. Module filters support simple wild-card
 matching. A '\*' matches any group of characters. For example '\*myproduct\*' will match files such
@@ -203,7 +203,7 @@ might be affected by your [Just My Code](just-my-code.md) settings.
 If you have selected **Search for all module symbols unless excluded**, then the module filter
 dialog looks like this:
 
-![Screenshot of specifying excluded modules](media/vs-2022/specify-exclude-list.png)
+![Screenshot of specifying excluded modules.](media/vs-2022/specify-exclude-list.png)
 
 In this dialog, you can choose what modules you *do not* want Visual Studio to load symbols for.
 In this scenario, Visual Studio attempts to load symbols for every module in your debugged
