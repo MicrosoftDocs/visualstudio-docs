@@ -203,7 +203,7 @@ might be affected by your [Just My Code](just-my-code.md) settings.
 If you have selected **Search for all module symbols unless excluded**, then the module filter
 dialog looks like this:
 
-![Screenshot of specifying excluded modules](media/vs-2022/specify-exclude-list.png")
+![Screenshot of specifying excluded modules](media/vs-2022/specify-exclude-list.png)
 
 In this dialog, you can choose what modules you *do not* want Visual Studio to load symbols for.
 In this scenario, Visual Studio attempts to load symbols for every module in your debugged
