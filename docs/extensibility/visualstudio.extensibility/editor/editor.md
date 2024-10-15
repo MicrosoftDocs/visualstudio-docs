@@ -300,9 +300,9 @@ Vertical text view margins whose content needs to be aligned with text view line
 
 ## Extending Visual Studio editor with a new Code Lens
 
-Extensions can contribute new Code Lenses to the Visual Studio editor. A Code Lens is a visual indicator displayed above lines of text providing actionable conextual information such as number of references to a code element, results of the last unit test run or actions to run/debug a unit test.
+Extensions can contribute new Code Lenses to the Visual Studio editor. A Code Lens is a visual indicator displayed above lines of text providing actionable contextual information such as number of references to a code element, results of the last unit test run or actions to run/debug a unit test.
 
-Text view Code Lens providers implement [ICodeLensProvider](/dotnet/api/microsoft.visualstudio.extensibility.editor.icodelensprovider) interface, configure the CodeLens they provide by implementing [CodeLensProviderConfiguration](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewmarginprovider.codelensproviderconfiguration) and when activated, contribute [Code Lens instance](/dotnet/api/microsoft.visualstudio.extensibility.editor.codelens) be displayed in the text view via [TryCreateCodeLensAsync](/dotnet/api/microsoft.visualstudio.extensibility.editor.icodelensprovider.trycreatecodelensasync). When the line of text view the Code Lens is attached to becomes visible, Code Lens implementations provide (Code Lens label)[/dotnet/api/microsoft.visualstudio.extensibility.editor.codelenslabel] to be dispalyed via [GetLabelAsync](/dotnet/api/microsoft.visualstudio.extensibility.editor.codelenslabel.getlabelasync) consisting of text, tooltip and an optional icon.
+Text view Code Lens providers implement [ICodeLensProvider](/dotnet/api/microsoft.visualstudio.extensibility.editor.icodelensprovider) interface, configure the Code Lens they provide by implementing [CodeLensProviderConfiguration](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewmarginprovider.codelensproviderconfiguration) and when activated, contribute [Code Lens instance](/dotnet/api/microsoft.visualstudio.extensibility.editor.codelens) to be displayed in the text view via [TryCreateCodeLensAsync](/dotnet/api/microsoft.visualstudio.extensibility.editor.icodelensprovider.trycreatecodelensasync). When the line of text view the Code Lens is attached to becomes visible, Code Lens implementations provide (Code Lens label)[/dotnet/api/microsoft.visualstudio.extensibility.editor.codelenslabel] to be displayed via [GetLabelAsync](/dotnet/api/microsoft.visualstudio.extensibility.editor.codelenslabel.getlabelasync), which consists of text, tooltip and an optional icon.
 
 Extensions can contribute invokable Code Lens by implementing [InvokableCodeLens](/dotnet/api/microsoft.visualstudio.extensibility.editor.invokavblecodelens). This kind of Code Lens implementation allows extensions to perform some action (e.g. run a unit test) when user clicks on the Code Lens.
 
@@ -362,6 +362,7 @@ public class WordCountCodeLens : VisualCodeLens
 
     public override Task<CodeLensLabel> GetLabelAsync(CodeElementContext codeElementContext, CancellationToken token)
     {
+        this.wordCountData.WordCount = CountWords(codeElementContext.Range);
         return Task.FromResult(new CodeLensLabel()
         {
             Text = $"Words: {this.wordCountData.WordCount}",
