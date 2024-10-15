@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Visual Studio Tools for Unreal Engine"
 description: "Learn about Visual Studio Tools for Unreal Engine, a free Visual Studio extension that helps you develop games with Unreal Engine"
-ms.date: 09/13/2024
+ms.date: 10/14/2024
 ms.topic: quickstart
 ms.service: visual-studio
 ms.subservice: unreal-engine-tools
@@ -12,7 +12,7 @@ manager: Coxford
 
 # Quickstart: Visual Studio Tools for Unreal Engine
 
-In this article, download an Unreal Engine (UE) game sample and configure Visual Studio Tools for Unreal Engine. Visual Studio Tools for Unreal Engine is a free Visual Studio extension that helps you develop games with Unreal Engine. It provides features that improve the Unreal Engine development experience in Visual Studio.
+In this article, download an Unreal Engine (UE) game sample and configure Visual Studio Tools for Unreal Engine. Visual Studio Tools for Unreal Engine is a free extension that helps you develop games with Unreal Engine. It provides features that improve the Unreal Engine development experience in Visual Studio.
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ The following must be installed:
 
 ## Download and build the Lyra game sample in Visual Studio
 
-Lyra is a sample game project for learning about Unreal Engine. See the **Downloading the Lyra Starter Game** section at [Lyra Sample Game](https://docs.unrealengine.com/5.0/lyra-sample-game-in-unreal-engine/) for download instructions.
+Lyra is a sample game project for learning about Unreal Engine. See the **Downloading the Lyra Starter Game** section at [Lyra Sample Game](https://docs.unrealengine.com/5.0/lyra-sample-game-in-unreal-engine/) for download instructions. If you acquired it via the source code installation of Unreal Engine, that version doesn't contain the assets required to build and run the game. Use the download instructions to get everything you need by using the Epic installer.
 
 ## Configure the Lyra game sample to use Visual Studio Tools for Unreal Engine
 
