@@ -13,9 +13,9 @@ monikerRange: '>= vs-2022'
 
 # Identify hot paths with a flame graph (C#, Visual Basic, C++, F#)
 
-Visual Studio profiling tools for CPU utilization and instrumentation include the **Flame Graph** view. The **Flame Graph** helps you identify *hot paths* in your code by presenting a visualization of the call tree. The *hot path* is the call stack for the functions that are using the most CPU or the most time, and is often a good place to look for potential performance optimizations. The graph gives a visual overview of where time is being spent in your application and you can click on specific nodes to dig into them further.
+Visual Studio profiling tools for CPU utilization and instrumentation include the **Flame Graph** view. The **Flame Graph** helps you identify *hot paths* in your code by showing a visualization of the call tree. The *hot path* is the call stack for the functions that are using the most CPU or the most time, and is often a good place to look for potential performance optimizations. The graph gives a visual overview of where time is being spent in your application and you can click on specific nodes to dig into them further.
 
-:::image type="content" source="./media/vs-2022/flame-graph-tooltips.png" alt-text="Screenshot showing Flame Graph with tooltips displayed." lightbox="media/vs-2022/flame-graph-tooltips.png":::
+:::image type="content" source="./media/vs-2022/flame-graph-tooltips.png" alt-text="Screenshot showing Flame Graph with context menu displayed." lightbox="media/vs-2022/flame-graph-tooltips.png":::
 
 For a tutorial that shows how to improve performance using the flame graph, see [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md). For information on the CPU profiler, see [Analyze performance by using CPU profiling](../profiling/cpu-usage.md).
 
@@ -37,9 +37,13 @@ The Flame Graph view is in the details view of *.diagession* report.
 
    :::image type="content" source="./media/vs-2022/flame-graph-overview.png" alt-text="Screenshot showing Flame Graph overview displayed." lightbox="media/vs-2022/flame-graph-overview.png":::
 
-   By default, the data shown in the Flame Graph represents the same data as shown in the **Call tree** view, which represents the data collection period. Specifically, for CPU Usage, it shows the **Total CPU** values. This value is inclusive, so it includes CPU utilization (that is, CPU computation time) used by calls to the function, and any other functions called by the function. In the same way, for Instrumentation, the graph shows the values equivalent to the **Total** column in the call tree view.
+   The hot path is the code path using the most CPU or the most time as you look downward through the call tree.
 
-   However, if you select a node, the selected node becomes the new baseline and uses 100% of the flame graph width. This allows you to better visualize a complex call tree. Choose **Reset Zoom** to return to the default view.
+   By default, the data shown in the Flame Graph represents the same data as shown in the **Call tree** view for the data collection period. Specifically, for CPU Usage, it shows the **Total CPU** values. This value is inclusive, so it includes CPU utilization (that is, CPU computation time) used by calls to the function, and any other functions called by the function. In the same way, for Instrumentation, the graph shows the values equivalent to the **Total** column in the call tree view.
+
+   However, if you select a node, the selected node becomes the new baseline and uses 100% of the flame graph width. This allows you to better visualize a complex call tree and view long names when they're truncated. Choose **Reset Zoom** to return to the default view.
+
+   You can also navigate to different views in the profiling report by selecting a node, and then choosing an option such as **View in call tree** from the context menu.
 
 ## Flip the Flame Graph
 
@@ -65,5 +69,5 @@ In the Flame Graph view, you can navigate by clicking on a node with a mouse or 
 
 ## Related content
 
-- [Diagnose high latency with CPU Insights](../profiling/cpu-insights.md)
+- [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md)
 - [Analyze CPU usage without debugging](../profiling/cpu-usage.md)
