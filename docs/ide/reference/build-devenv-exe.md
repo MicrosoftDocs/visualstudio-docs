@@ -58,13 +58,31 @@ devenv SolutionName /Build [SolnConfigName [/Project ProjName [/ProjectConfig Pr
 
 - If you get an error message that says **Invalid project configuration**, make sure that you've specified a solution platform or project platform (for example, `Debug|Win32`).
 
-## Example
+## Examples
 
 The following command builds the project `CSharpWinApp`, using the `Debug` project build configuration within `MySolution`.
 
 ```shell
 devenv "%USERPROFILE%\source\repos\MySolution.sln" /build Debug /project "CSharpWinApp\CSharpWinApp.csproj" /projectconfig Debug
 ```
+
+And to clean up all the build files:
+
+```shell
+devenv "%USERPROFILE%\source\repos\MySolution.sln" /clean
+```
+
+## Build a setup project
+
+To build an installer (`.msi` file), you need a [setup project](../../deployment/installer-projects-net-core.md), which has a `.vdproj` project file, but to build it you first need to apply a workaround that sets a particular registry key. From the Visual Studio Developer command prompt, run the executable *DisableOutOfProcBuild.exe* from the folder *Common7\IDE\CommonExtensions\Microsoft\VSI\DisableOutOfProcBuild*. Without this workaround, you may get the error: `ERROR: An error occurred while validating.  HRESULT = '8000000A'`. The command affects the current user, so for build agent scenarios, be sure to run it from the same account that runs the build. For more information, see the *README.txt* file in the same folder.
+
+Also, in Visual Studio, you can create a new [configuration](../../ide/understanding-build-configurations.md), say `Setup`, based on the `Release` configuration, and select the setup project as a project to build. By default, setup projects aren't included in the default configurations, `Debug` and `Release`. With the `Setup` configuration defined, the following commands build a project `WindowsFormsApp1` and its associated setup project to generate the `.msi` file:
+
+```shell
+devenv WindowsFormsApp1.sln /build Setup
+```
+
+If the solution was already built with the **Release** configuration, this command just builds the setup project.
 
 ## See also
 
