@@ -74,7 +74,7 @@ Also, it might be necessary to first create a new [configuration](../../ide/unde
 devenv WindowsFormsApp1.sln /build Setup
 ```
 
-The project won't be rebuilt if it was already built, so this should just build the setup project.
+If the solution was already built with the **Release** configuration, this command just builds the setup project.
 
 And to clean up all the build files:
 
