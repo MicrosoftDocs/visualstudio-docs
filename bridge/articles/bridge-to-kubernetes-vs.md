@@ -186,8 +186,6 @@ If you cloned that repo locally, you can delete it manually.
 
 Learn more about Bridge to Kubernetes at [How Bridge to Kubernetes works](overview-bridge-to-kubernetes.md).
 
-For information about supported features and a roadmap for Bridge to Kubernetes, see [Bridge to Kubernetes roadmap](https://github.com/microsoft/mindaro/projects/1).
-
 To learn how to connect your development computer to a cluster by using Visual Studio Code, check out this article:
 > [!div class="nextstepaction"]
 > [Use Bridge to Kubernetes (VS Code)](bridge-to-kubernetes-vs-code.md)
