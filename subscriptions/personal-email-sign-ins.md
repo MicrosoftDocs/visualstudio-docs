@@ -3,7 +3,7 @@ title: Personal emails for Visual Studio subscriptions in VLSC
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 10/11/2024
+ms.date: 10/16/2024
 ms.topic: conceptual
 description:  Visual Studio Subscriptions – Why do I see personal accounts for my subscribers?
 ---
@@ -41,7 +41,7 @@ You can also use the **Search Directory** to correct the errors or fill in missi
 
 Next select on **Continue** which takes you to a list of the changes to take place. If you agree, select **Save** and the changes are made. Your subscriber will also get a message informing them of the change the next time they sign in to their subscription. Notice that only the two subscribers that were matched in the Microsoft Entra ID appear in this list. In our example, since Frederick didn't have a corresponding address in the Microsoft Entra ID, the Microsoft account (MSA) wasn't matched to a work account. 
 
-**What happens when I update a Visual Studio subscriber's sign-in address?**
+## What happens when I update a Visual Studio subscriber's sign-in address?
 
 > [!NOTE]
 > When you edit the sign in email address this updates the email used by the subscriber to sign in to their subscription on https://my.visualstudio.com. Subscribers can use the newly updated email address going forward when activating benefits. For previously activated benefits, continue reading below for more information about which email address a subscriber should use.
@@ -72,7 +72,7 @@ For assistance with the administration of Visual Studio Subscriptions, contact [
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
 
-##  Next steps
+## Next steps
 
 + If you update the subscribers' email addresses, you might want to notify them that their sign-in information changed. They receive an email with the updated information.
 + It might be useful to [filter the list of subscribers](search-license.md) in your organization to look for any sign in email addresses that might need to be changed.
