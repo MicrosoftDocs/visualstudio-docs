@@ -1,9 +1,8 @@
 ---
 title: Compile Page, Project Designer (Visual Basic)
 description: Learn how to specify compilation instructions in Visual Studio. You can also specify advanced compiler options and pre-build or post-build events on this page.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: reference
 f1_keywords:
 - vb.ProjectPropertiesCompile
@@ -15,12 +14,10 @@ helpviewer_keywords:
 - compiler options, Visual Basic
 - Project Designer, Compile page
 - Compile page in Project Designer
-ms.assetid: b2a80230-906e-4e85-b3e0-fcd9c40426e1
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.workload:
-- multiple
+manager: mijacobs
+monikerRange: 'vs-2019'
 ---
 # Compile Page, Project Designer (Visual Basic)
 

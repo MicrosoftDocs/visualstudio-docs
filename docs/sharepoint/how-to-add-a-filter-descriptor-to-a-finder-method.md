@@ -1,7 +1,6 @@
 ---
-title: "How to: Add a Filter Descriptor to a Finder Method | Microsoft Docs"
+title: "Add a Filter Descriptor to a Finder Method"
 description: Know how to add a filter descriptor to a Finder method using the BDC Method Details window in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], filter descriptors"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
-# How to: Add a filter descriptor to a Finder method
+# Add a filter descriptor to a Finder method
+
   Filter descriptors enable consumers of the model to pass values to methods before they execute. For more information, see [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md).
 
  One common scenario is that users in SharePoint want to retrieve instances of an external content type that match some criteria. You can support this scenario by adding a filter descriptor to a Finder method.
@@ -61,10 +59,14 @@ ms.workload:
     > [!NOTE]
     > Replace the value of the `ServerName` field with the name of your server.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/salesorderservice.cs" id="Snippet11":::
-     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderservice.vb" id="Snippet11":::
 
-## See also
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderservice.vb" id="Snippet11":::
+     ---
+
+## Related content
 - [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)
 - [How to: Add a specific Finder method](../sharepoint/how-to-add-a-specific-finder-method.md)
 - [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md)

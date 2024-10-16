@@ -1,7 +1,6 @@
 ---
-title: Dataset tools
-description: Review the dataset tools available in Visual Studio. Read about dataset workflow, datasets and N-tier architecture, and datasets and XML.
-ms.custom: SEO-VS-2020
+title: Overview of dataset tools for .NET Framework apps
+description: Explore ADO.NET dataset tools for .NET Framework applications in Visual Studio, including dataset workflows, N-tier architectures, and XML.
 ms.date: 11/21/2018
 ms.topic: conceptual
 f1_keywords:
@@ -43,18 +42,15 @@ helpviewer_keywords:
 - datasets [Visual Basic], populating
 - datasets [Visual Basic], namespace
 - data adapters, populating datasets
-ms.assetid: ee57f4f6-9fe1-4e0a-be9a-955c486ff427
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
-# Dataset tools in Visual Studio
 
-> [!NOTE]
-> Datasets and related classes are legacy .NET technologies from the early 2000s that enable applications to work with data in memory while the applications are disconnected from the database. They are especially useful for applications that enable users to modify data and persist the changes back to the database. Although datasets have proven to be a very successful technology, we recommend that new .NET applications use Entity Framework. Entity Framework provides a more natural way to work with tabular data as object models, and it has a simpler programming interface.
+# Visual Studio dataset tools for developing .NET Framework applications
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 A `DataSet` object is an in-memory object that is essentially a mini-database. It contains `DataTable`, `DataColumn`, and `DataRow` objects in which you can store and modify data from one or more databases without having to maintain an open connection. The dataset maintains information about changes to its data, so updates can be tracked and sent back to the database when your application becomes reconnected.
 
@@ -66,7 +62,7 @@ If your application needs to only read data from a database, and not perform upd
 
 Visual Studio provides tooling to simplify working with datasets. The basic end-to-end workflow is:
 
-- Use the [Data Sources window](add-new-data-sources.md#data-sources-window) to create a new dataset from one or more data sources. Use the **Dataset Designer** to configure the dataset and set its properties. For example, you need to specify which tables from the data source to include, and which columns from each table. Choose carefully to conserve the amount of memory that the dataset requires. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).
+- Use the [Data Sources window](add-new-data-sources.md#work-with-data-sources-and-windows-forms) to create a new dataset from one or more data sources. Use the **Dataset Designer** to configure the dataset and set its properties. For example, you need to specify which tables from the data source to include, and which columns from each table. Choose carefully to conserve the amount of memory that the dataset requires. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).
 
 - Specify the relationships between the tables so that foreign keys are handled correctly. For more information, see [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md).
 
@@ -80,9 +76,9 @@ Visual Studio provides tooling to simplify working with datasets. The basic end-
 
   - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
 
-- Query and search the data in the dataset. For more information, see [Query datasets](../data-tools/query-datasets.md). [!INCLUDE[linq_dataset](../data-tools/includes/linq_dataset_md.md)] enables [LINQ (Language-Integrated Query)](/dotnet/csharp/linq/) over data in a <xref:System.Data.DataSet> object. For more information, see [LINQ to DataSet](/dotnet/framework/data/adonet/linq-to-dataset).
+- Query and search the data in the dataset. For more information, see [Query datasets](../data-tools/query-datasets.md). LINQ to DataSet enables [LINQ (Language Integrated Query)](/dotnet/csharp/linq/) over data in a <xref:System.Data.DataSet> object. For more information, see [LINQ to DataSet](/dotnet/framework/data/adonet/linq-to-dataset).
 
-- Use the **Data Sources** window to bind user-interface controls to the dataset or its individual columns, and to specify which columns are user-editable. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).
+- Use the **Data Sources** window to bind user interface controls to the dataset or its individual columns, and to specify which columns are user-editable. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).
 
 ## Datasets and N-tier architecture
 
@@ -92,6 +88,6 @@ For information about datasets in N-tier applications, see [Work with datasets i
 
 For information about converting datasets to and from XML, see [Read XML data into a dataset](../data-tools/read-xml-data-into-a-dataset.md) and [Save a dataset as XML](../data-tools/save-a-dataset-as-xml.md).
 
-## See also
+## Related content
 
 - [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

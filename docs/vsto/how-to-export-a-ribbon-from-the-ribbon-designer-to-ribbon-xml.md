@@ -1,7 +1,6 @@
 ---
-title: "How to: Export a ribbon from the Ribbon Designer to Ribbon XML"
+title: "Export a ribbon from the Ribbon Designer to Ribbon XML"
 description: Learn that to customize the ribbon, you can export the ribbon from the designer to Ribbon XML and edit the XML directly.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -18,12 +17,11 @@ helpviewer_keywords:
   - "exporting Ribbon"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Export a ribbon from the Ribbon Designer to Ribbon XML
+# Export a ribbon from the Ribbon Designer to Ribbon XML
+
   The **Ribbon (Visual Designer)** item does not support all possible types of Ribbon customization. To customize the ribbon in advanced ways, you can export the ribbon from the designer to Ribbon XML and edit the XML directly.
 
 > [!NOTE]
@@ -49,8 +47,12 @@ ms.workload:
 
      After you uncomment the code, it should resemble the following example. In this example, the Ribbon class is called `MyRibbon`.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.vb" id="Snippet1":::
+     ---
 
 6. Switch to the Ribbon XML code file and find the `Ribbon Callbacks` region.
 
@@ -62,7 +64,7 @@ ms.workload:
 
      For information about writing callback methods and using the RibbonX programming model, see [Ribbon XML](../vsto/ribbon-xml.md).
 
-## See also
+## Related content
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [Ribbon Designer](../vsto/ribbon-designer.md)
 - [Ribbon XML](../vsto/ribbon-xml.md)

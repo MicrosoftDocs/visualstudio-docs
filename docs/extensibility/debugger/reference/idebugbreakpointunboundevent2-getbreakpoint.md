@@ -1,39 +1,39 @@
 ---
 description: "Gets the breakpoint that became unbound."
-title: IDebugBreakpointUnboundEvent2::GetBreakpoint | Microsoft Docs
+title: IDebugBreakpointUnboundEvent2::GetBreakpoint
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugBreakpointUnboundEvent2::GetBreakpoint
 helpviewer_keywords:
 - IDebugBreakpointUnboundEvent2::GetBreakpoint
-ms.assetid: ad73a207-b778-4dc5-b645-5ec668a63333
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugBreakpointUnboundEvent2::GetBreakpoint
+
 Gets the breakpoint that became unbound.
 
 ## Syntax
 
-```cpp
-HRESULT GetBreakpoint(
-    IDebugBoundBreakpoint2** ppBP
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetBreakpoint(
     out IDebugBoundBreakpoint2 ppBP
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetBreakpoint(
+    IDebugBoundBreakpoint2** ppBP
+);
+```
+---
 
 ## Parameters
 `ppBP`\

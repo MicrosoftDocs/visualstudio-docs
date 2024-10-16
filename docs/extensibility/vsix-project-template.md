@@ -1,19 +1,15 @@
 ---
-title: VSIX Project Template | Microsoft Docs
+title: VSIX Project Template
 description: Learn how to use the VSIX Project template to wrap Visual Studio extensions in a VSIX project, and then publish the package on the Visual Studio Marketplace.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - deploy packages
 - publish extension
-ms.assetid: b6c82167-e2a5-4cff-8c8b-2d72e2a9092c
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # VSIX project template
 
@@ -77,9 +73,9 @@ You can package an existing extension, or an extension that does not already hav
 
 8. Build the solution.
 
-    [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] builds a *.vsix* file that contains a VSIX manifest file, a [Content_Types]*.xml* file, and all of the extension assets that you added to the project.
+    Visual Studio builds a *.vsix* file that contains a VSIX manifest file, a [Content_Types]*.xml* file, and all of the extension assets that you added to the project.
 
-## See also
+## Related content
 
 - [VSIX extension schema 2.0 reference](../extensibility/vsix-extension-schema-2-0-reference.md)
 - [Find and use Visual Studio extensions](../ide/finding-and-using-visual-studio-extensions.md)

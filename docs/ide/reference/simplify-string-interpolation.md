@@ -1,18 +1,15 @@
 ---
 title: Simplify string interpolation
 description: Learn how to use the Quick Actions and Refactorings menu to simplify a string interpolation.
-ms.custom: SEO-VS-2020
 ms.date: 03/10/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-manager: jmartens
-ms.technology: vs-ide-general
+manager: mijacobs
+ms.subservice: general-ide
 dev_langs:
   - CSharp
   - VB
-ms.workload:
-  - "dotnet"
 ---
 # Simplify string interpolation refactoring
 

@@ -1,41 +1,41 @@
 ---
 description: "Determines whether the current instruction pointer can be set to the given stack frame."
-title: IDebugThread2::CanSetNextStatement | Microsoft Docs
+title: IDebugThread2::CanSetNextStatement
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugThread2::CanSetNextStatement
 helpviewer_keywords:
 - IDebugThread2::CanSetNextStatement
-ms.assetid: 7014af80-ff4f-4790-a34b-0528918d1fa3
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugThread2::CanSetNextStatement
+
 Determines whether the current instruction pointer can be set to the given stack frame.
 
 ## Syntax
 
-```cpp
-HRESULT CanSetNextStatement ( 
-   IDebugStackFrame2*  pStackFrame,
-   IDebugCodeContext2* pCodeContext
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CanSetNextStatement ( 
    IDebugStackFrame2  pStackFrame,
    IDebugCodeContext2 pCodeContext
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CanSetNextStatement ( 
+   IDebugStackFrame2*  pStackFrame,
+   IDebugCodeContext2* pCodeContext
+);
+```
+---
 
 ## Parameters
 `pStackFrame`\

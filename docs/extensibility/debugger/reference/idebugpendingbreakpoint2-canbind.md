@@ -1,6 +1,6 @@
 ---
 description: "Determines whether this pending breakpoint can bind to a code location."
-title: IDebugPendingBreakpoint2::CanBind | Microsoft Docs
+title: IDebugPendingBreakpoint2::CanBind
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,33 +8,33 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPendingBreakpoint2::CanBind method
 - CanBind method
-ms.assetid: 84a2b189-ccf1-467e-8fab-0c0da68f0b91
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPendingBreakpoint2::CanBind
+
 Determines whether this pending breakpoint can bind to a code location.
 
 ## Syntax
 
-```cpp
-HRESULT CanBind ( 
-   IEnumDebugErrorBreakpoints2** ppErrorEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CanBind ( 
    out IEnumDebugErrorBreakpoints2 ppErrorEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CanBind ( 
+   IEnumDebugErrorBreakpoints2** ppErrorEnum
+);
+```
+---
 
 ## Parameters
 `ppErrorEnum`\

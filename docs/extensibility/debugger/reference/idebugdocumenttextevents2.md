@@ -1,21 +1,19 @@
 ---
 description: "This interface is used to notify Visual Studio about changes to the source document that are supplied by the debug engine."
-title: IDebugDocumentTextEvents2 | Microsoft Docs
+title: IDebugDocumentTextEvents2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentTextEvents2
 helpviewer_keywords:
 - IDebugDocumentTextEvents2 interface
-ms.assetid: a10cbb6b-11a8-4056-b42a-2ecebf0e690d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugDocumentTextEvents2
+
 This interface is used to notify Visual Studio about changes to the source document that are supplied by the debug engine.
 
 ## Syntax
@@ -28,7 +26,7 @@ IDebugDocumentTextEvents2 : IUnknown
  The DE implements this interface to support making changes to the source code. This interface is typically implemented on the same object that implements the [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) interface.
 
 ## Notes for Callers
- [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] obtains this interface through a call to the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint.Advise%2A> method. The <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint> interface is obtained from a call to the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer.EnumConnectionPoints%2A> method. The <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer> interface is obtained by calling the [QueryInterface](/cpp/atl/queryinterface) method on an [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) interface.
+ Visual Studio obtains this interface through a call to the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint.Advise%2A> method. The <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint> interface is obtained from a call to the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer.EnumConnectionPoints%2A> method. The <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer> interface is obtained by calling the [QueryInterface](/cpp/atl/queryinterface) method on an [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) interface.
 
 ## Methods in Vtable Order
  The following table shows the methods of `IDebugDocumentTextEvents2`.

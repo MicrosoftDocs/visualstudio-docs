@@ -1,39 +1,39 @@
 ---
 description: "Gets the GUID of the debug engine (DE)."
-title: IDebugEngine2::GetEngineID | Microsoft Docs
+title: IDebugEngine2::GetEngineID
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngine2::GetEngineID
 helpviewer_keywords:
 - IDebugEngine2::GetEngineID
-ms.assetid: 0d5674c8-a9b9-4b72-8211-d2d68695775a
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugEngine2::GetEngineID
+
 Gets the GUID of the debug engine (DE).
 
 ## Syntax
 
-```cpp
-HRESULT GetEngineID(
-    GUID* pguidEngine
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetEngineID(
     out Guid pguidEngine
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEngineID(
+    GUID* pguidEngine
+);
+```
+---
 
 ## Parameters
 `pguidEngine`\

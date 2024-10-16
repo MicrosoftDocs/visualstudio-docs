@@ -1,21 +1,18 @@
 ---
-title: 'How to: Open Standard Editors | Microsoft Docs'
+title: 'Open Standard Editors'
 description: Learn how to implement the OpenItem method with a standard editor. The IDE determines a standard editor for a designated file type.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], opening
 - projects [Visual Studio SDK], opening standard editors
-ms.assetid: d5ce10f9-047a-4b74-aa1d-295128898b89
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
-# How to: Open standard editors
+# Open standard editors
+
 When you open a standard editor, you let the IDE determine a standard editor for a designated file type, instead of specifying a project-specific editor for the file.
 
  Complete the following procedure to implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.OpenItem%2A> method. This will open a project file in a standard editor.
@@ -46,7 +43,7 @@ When you open a standard editor, you let the IDE determine a standard editor for
 
      If the document view or document view object was successfully sited in a window frame, the object is initialized with its data by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2.LoadDocData%2A>.
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider>
 - [Open and save project items](../extensibility/internals/opening-and-saving-project-items.md)
 - [How to: Open project-specific editors](../extensibility/how-to-open-project-specific-editors.md)

@@ -1,40 +1,27 @@
 ---
 description: "Contains information about a debug property."
-title: DEBUG_PROPERTY_INFO | Microsoft Docs
+title: DEBUG_PROPERTY_INFO
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - DEBUG_PROPERTY_INFO
 helpviewer_keywords:
 - DEBUG_PROPERTY_INFO structure
-ms.assetid: 5a085d18-62c6-4740-b9e9-3f5db6bfdf7f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # DEBUG_PROPERTY_INFO
+
 Contains information about a debug property.
 
 ## Syntax
 
-```cpp
-typedef struct tagDEBUG_PROPERTY_INFO {
-    DEBUGPROP_INFO_FLAGS dwValidFields;
-    BSTR                 bstrFullName;
-    BSTR                 bstrName;
-    BSTR                 bstrType;
-    BSTR                 bstrValue;
-    IDebugProperty2*     pProperty;
-    DBG_ATTRIB_FLAGS     dwAttrib;
-} DEBUG_PROPERTY_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct DEBUG_PROPERTY_INFO {
     public uint            dwValidFields;
@@ -46,6 +33,19 @@ public struct DEBUG_PROPERTY_INFO {
     public ulong           dwAttrib;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagDEBUG_PROPERTY_INFO {
+    DEBUGPROP_INFO_FLAGS dwValidFields;
+    BSTR                 bstrFullName;
+    BSTR                 bstrName;
+    BSTR                 bstrType;
+    BSTR                 bstrValue;
+    IDebugProperty2*     pProperty;
+    DBG_ATTRIB_FLAGS     dwAttrib;
+} DEBUG_PROPERTY_INFO;
+```
+---
 
 ## Members
 `dwValidFields`\

@@ -1,8 +1,6 @@
 ---
-title: "Create your first document-level customization for Excel"
-description: Create a document-level customization for Microsoft Excel. The features that you create in this kind of solution are available only when a specific workbook is open.
-ms.custom: SEO-VS-2020
-titleSuffix: ""
+title: Create a document-level customization for Excel
+description: Create a document-level customization for Microsoft Office Excel with features that are available only when a specific Excel workbook is open.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,10 +12,8 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], creating your first project"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Walkthrough: Create your first document-level customization for Excel
 
@@ -45,29 +41,16 @@ ms.workload:
 
 - [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
-- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
+-  Excel 2013  or  Excel 2010 .
 
 ## Create the project
 
 ### To create a new Excel workbook project in Visual Studio
 
-1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start Visual Studio.
 
 2. On the **File** menu, point to **New**, and then click **Project**.
-::: moniker range="vs-2017"
-3. In the templates pane, expand **Visual C#** or **Visual Basic**, and then expand **Office/SharePoint**.
 
-4. Under the expanded **Office/SharePoint** node, select the **VSTO Add-ins** node.
-
-5. In the list of project templates, choose an Excel VSTO Workbook project.
-
-6. In the **Name** box, type **FirstWorkbookCustomization**.
-
-7. Click **OK**.
-
-8. Select **Create a new document** from the **Visual Studio Tools for Office Project Wizard**, and click **OK**.
-::: moniker-end
-::: moniker range=">=vs-2019"
 3. On the **Create a New Project** dialog select the **Excel VSTO Workbook** project.
 
      [!INCLUDE[new-project-dialog-search](../vsto/includes/new-project-dialog-search-md.md)]
@@ -77,8 +60,8 @@ ms.workload:
 5. Type **FirstWorkbookCustomization** in the **Name** box on the **Configure your new project** dialog and click **Create**.
 
 6. Select **Create a new document** from the **Visual Studio Tools for Office Project Wizard**, and click **OK**.
-::: moniker-end
-   - [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstWorkbookCustomization** project, and adds the following files to the project.
+
+   - Visual Studio creates the **FirstWorkbookCustomization** project, and adds the following files to the project.
 
    - *FirstWorkbookCustomization*.xlsx - Represents the Excel workbook in the project. Contains all the worksheets and charts.
 
@@ -135,8 +118,12 @@ ms.workload:
 
 2. Replace the `Sheet1_Startup` event handler with the following code. When Sheet1 is opened, this code adds a second line of text to the worksheet.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_ExcelWorkbookTutorial/Sheet1.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_ExcelWorkbookTutorial/Sheet1.vb" id="Snippet1":::
+     ---
 
 ## Test the project
 
@@ -180,7 +167,7 @@ ms.workload:
 
 - Deploying document-level customizations for Excel: [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
-## See also
+## Related content
 
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
 - [Excel solutions](../vsto/excel-solutions.md)

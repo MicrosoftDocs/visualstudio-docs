@@ -1,18 +1,14 @@
 ---
-title: Incremental Builds | Microsoft Docs
-description: Learn about MSBuild incremental builds, which are optimized so that up-to-date output files aren't executed.
-ms.custom: SEO-VS-2020
+title: Explore incremental builds in MSBuild
+description: Explore the incremental build feature in MSBuild, which produces builds that are optimized so up-to-date output files aren't executed.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - msbuild, incremental builds
-ms.assetid: 325e28c7-4838-4e3f-b672-4586adc7500c
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # Incremental builds
 
@@ -23,7 +19,7 @@ Incremental builds are builds that are optimized so that targets that have outpu
 
 If all output items are up-to-date, MSBuild skips the target. This *incremental build* of the target can significantly improve the build speed. If only some files are up-to-date, MSBuild executes the target but skips the up-to-date items, and thereby brings all items up-to-date. This process is known as a *partial incremental build*.
 
-1-to-1 mappings are typically produced by item transformations. For more information, see [Transforms](../msbuild/msbuild-transforms.md).
+1-to-1 mappings can only be produced by making the `Outputs` attribute a transformation of the `Inputs` attribute. For more information, see [Transforms](../msbuild/msbuild-transforms.md).
 
  Consider the following target.
 
@@ -75,6 +71,7 @@ Because of output inference, you have to add a `CreateProperty` task to a target
 
 This code creates the property CompileRan and gives it the value `true`, but only if the target is executed. If the target is skipped, CompileRan is not created.
 
-## See also
+## Related content
 
 - [Targets](../msbuild/msbuild-targets.md)
+- [How to: Build Incrementally](../msbuild/how-to-build-incrementally.md)

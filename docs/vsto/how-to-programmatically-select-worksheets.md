@@ -1,7 +1,6 @@
 ---
-title: "How to: Programmatically select worksheets"
-description: Use Visual Studio to programmatically select Microsoft Excel worksheets with the worksheet host item or the sheets collection of the Excel workbook.
-ms.custom: SEO-VS-2020
+title: "Programmatically select worksheets"
+description: Select Microsoft Excel worksheets with the worksheet host item or sheets collection of the Excel workbook programmatically from Visual Basic or C# in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -12,12 +11,11 @@ helpviewer_keywords:
   - "Excel projects, selecting worksheets"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Programmatically select worksheets
+# Programmatically select worksheets
+
   The <xref:Microsoft.Office.Tools.Excel.Worksheet.Select%2A> method selects the specified object, which moves the user's selection to the new object. Use the <xref:Microsoft.Office.Tools.Excel.Worksheet.Activate%2A> method if you want to bring focus to the object without changing the user's selection.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -31,8 +29,12 @@ ms.workload:
 
 1. Call the <xref:Microsoft.Office.Tools.Excel.Worksheet.Select%2A> method of `Sheet1`.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet19":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet19":::
+     ---
 
 ## Use the sheets collection of the Excel workbook
  Access the worksheet by using the Excel <xref:Microsoft.Office.Interop.Excel.Sheets> collection.
@@ -41,10 +43,14 @@ ms.workload:
 
 1. Call the <xref:Microsoft.Office.Interop.Excel.Sheets.Select%2A> method of the <xref:Microsoft.Office.Interop.Excel.Sheets> collection to select the first worksheet of the active workbook.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet20":::
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet20":::
 
-## See also
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet20":::
+     ---
+
+## Related content
 - [Work with worksheets](../vsto/working-with-worksheets.md)
 - [How to: Programmatically print worksheets](../vsto/how-to-programmatically-print-worksheets.md)
 - [How to: Programmatically delete worksheets from workbooks](../vsto/how-to-programmatically-delete-worksheets-from-workbooks.md)

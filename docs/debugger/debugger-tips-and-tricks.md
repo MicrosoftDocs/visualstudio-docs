@@ -1,30 +1,34 @@
 ---
 title: "Tips and tricks in the debugger"
-description: Learn about some of the lesser-known features supported by the Visual Studio debugger
-ms.custom: "seodec18"
-ms.date: "06/15/2018"
+description: Explore some of the lesser-known features supported by the Visual Studio debugger, such as keyboard shortcuts, data tips, and code editing during debugging.
+ms.date: "06/16/2023"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "stepping"
   - "debugging [Visual Studio], execution control"
   - "execution, controlling in debugger"
-ms.assetid: 5262d8b1-2648-429e-85d5-90fcaadfb362
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
-# Learn Productivity Tips and Tricks for the Debugger in Visual Studio
+# Learn productivity tips and tricks for the debugger in Visual Studio
 
 Read this topic to learn a few productivity tips and tricks for the Visual Studio debugger. For a look at the basic features of the debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md). In this topic, we cover some areas that are not included in the feature tour.
+
+## Keyboard shortcuts
+
+For a list of the most common keyboard shortcuts related to debugging, see the [Debug](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debug-popular-shortcuts) section in Keyboard shortcuts.
 
 ## Pin data tips
 
 If you frequently hover over data tips while debugging, you may want to pin the data tip for the variable to give yourself quick access. The variable stays pinned even after restarting. To pin the data tip, click the pin icon while hovering over it. You can pin multiple variables.
 
 ![Pinning a Data Tip](../debugger/media/dbg-tips-data-tips-pinned.png "PinningDataTip")
+
+::: moniker range=">= vs-2022"
+You can also customize data tips in several other ways, such as keeping a data tip expanded (a *sticky data tip*), or making a data tip transparent. For more information, see [View data values in DataTips in the code editor](../debugger/view-data-values-in-data-tips-in-the-code-editor.md).
+::: moniker-end
 
 ## Edit your code and continue debugging (C#, VB, C++)
 
@@ -44,7 +48,7 @@ If it is difficult or time-consuming to recreate a particular state in your app,
 
 #### To create a conditional breakpoint
 
-1. Right-click a breakpoint icon (the red ball) and choose **Conditions**.
+1. Right-click a breakpoint icon (the red sphere) and choose **Conditions**.
 
 2. In the **Breakpoint Settings** window, type an expression.
 
@@ -56,16 +60,9 @@ If it is difficult or time-consuming to recreate a particular state in your app,
 
 For C#, Visual Basic, and C++ (C++/CLI code only), you can tell the debugger what information to show using the [DebuggerDisplay](../debugger/using-the-debuggerdisplay-attribute.md) attribute. For C++ code, you can do the same using [Natvis visualizations](create-custom-views-of-native-objects.md).
 
-## Change the execution flow
+## Attach to the same application repeatedly
 
-With the debugger paused on a line of code, use the mouse to grab the yellow arrow pointer on the left. Move the yellow arrow pointer to a different point in the code execution path. Then you use F5 or a step command to continue running the app.
-
-![Move the Execution Pointer](../debugger/media/dbg-tour-move-the-execution-pointer.gif "Move the Execution Pointer")
-
-By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger.
-
-> [!WARNING]
-> Often you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer cannot revert your app to an earlier application state.
+When you are using the [attach to process](attach-to-running-processes-with-the-visual-studio-debugger.md#BKMK_reattach) feature, you can quickly reattach to a process that you were previously attached to by choosing **Debug** > **Reattach to Process** (**Shift**+**Alt**+**P**). When you choose this command, the debugger will immediately try to attach to the last process you attached to by first attempting to match the previous process ID and if that fails, by matching to the previous process name. If no matches are found, or if several processes have the same name, the **Attach to Process** dialog box will open so you can select the correct process.
 
 ## Track an out-of-scope object (C#, Visual Basic)
 
@@ -111,6 +108,20 @@ A string visualizer may help you find out whether a string is malformed, dependi
 
 For a few other types such as DataSet and DataTable objects that appear in the debugger windows, you can also open a built-in visualizer.
 
+## Analyze memory usage
+
+You can take and compare snapshots of the heap, optimize memory usage, and find a memory leak using memory usage tools. For more information, see [Choose a memory analysis tool](../profiling/analyze-memory-usage.md).
+
+## Create a dump file
+
+A *dump file* is a snapshot that shows the process that was executing and modules that were loaded for an app at a point in time. A dump with heap information also includes a snapshot of the app's memory at that point. Dumps are mostly used to debug issues from machines that developers don't have access to.
+
+If you need to save a dump file, select select **Debug > Save Dump As**.
+
+To analyze a dump file, choose **File > Open** in Visual Studio. To start debugging using the dump file, select **Debug with Managed Only**, **Debug with Native Only**, **Debug with Mixed**, or **Debug with Managed Memory**.
+
+For more information, see [Dump files](using-dump-files.md).
+
 ## Break into code on handled exceptions
 
 The debugger breaks into your code on unhandled exceptions. However, handled exceptions (such as exceptions that occur within a `try/catch` block) can also be a source of bugs and you may want to investigate when they occur. You can configure the debugger to break into code for handled exceptions as well by configuring options in the **Exception Settings** dialog box. Open this dialog box by choosing **Debug > Windows > Exception Settings**.
@@ -119,11 +130,22 @@ The **Exception Settings** dialog box allows you to tell the debugger to break i
 
 ![Exception Settings Dialog Box](../debugger/media/dbg-tips-exception-settings.png "ExceptionSettingsDialogBox")
 
+## Change the execution flow
+
+With the debugger paused on a line of code, use the mouse to grab the yellow arrow pointer on the left. Move the yellow arrow pointer to a different point in the code execution path. Then you use F5 or a step command to continue running the app.
+
+![Move the Execution Pointer](../debugger/media/dbg-tour-move-the-execution-pointer.gif "Move the Execution Pointer")
+
+By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger. For more information, see [Move the execution pointer](../debugger/move-the-execution-pointer-with-the-debugger.md).
+
+> [!WARNING]
+> Often you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer cannot revert your app to an earlier application state.
+
 ## Debug deadlocks and race conditions
 
 If you need to debug the kinds of issues that are common to multithreaded apps, it often helps to view the location of threads while debugging. You can do this easily using the **Show Threads in Source** button.
 
-#### To show threads in your source code
+To show threads in your source code:
 
 1. While debugging, click the **Show Threads in Source** button ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker") in the **Debug** toolbar.
 
@@ -134,20 +156,6 @@ If you need to debug the kinds of issues that are common to multithreaded apps, 
 3. Hover the pointer over the thread marker. A DataTip appears. The DataTip tells you the name and thread ID number for each stopped thread.
 
     You can also view the location of threads in the [Parallel Stacks window](../debugger/get-started-debugging-multithreaded-apps.md).
-
-::: moniker range="vs-2017"
-## Examine payloads for web services and network resources (UWP)
-
-In UWP apps, you can analyze network operations performed using the `Windows.Web.Http` API. You can use this tool to help debug web services and network resources. To use the tool, select **Debug > Performance Profiler**. Select **Network**, and then choose **Start**. In your app, go through the scenario that uses `Windows.Web.Http`, and then choose **Stop collection** to generate the report.
-
-![Network Usage profiling tool](../profiling/media/prof-tour-network-usage.png "NetworkUsageProfTool")
-
-Select an operation in the summary view to view more details.
-
-![Detailed information in the Network Usage tool](../profiling/media/prof-tour-network-usage-details.png "DetailedViewNetworkUsage")
-
-For more information, see [Network Usage](../profiling/network-usage.md).
-::: moniker-end
 
 ## <a name="modules_window"></a> Get more familiar with how the debugger attaches to your app (C#, C++, Visual Basic, F#)
 
@@ -170,6 +178,6 @@ For additional tips and tricks and more detailed information, see these blog pos
 - [7 lesser known hacks for debugging in Visual Studio](https://devblogs.microsoft.com/visualstudio/7-lesser-known-hacks-for-debugging-in-visual-studio/)
 - [7 hidden gems in Visual Studio](https://devblogs.microsoft.com/visualstudio/7-hidden-gems-in-visual-studio-2017/)
 
-## See also
+## Related content
 
 [Keyboard Shortcuts](../ide/productivity-shortcuts.md)

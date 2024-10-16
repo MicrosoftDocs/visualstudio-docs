@@ -1,7 +1,6 @@
 ---
-title: ResolveKeySource Task | Microsoft Docs
+title: ResolveKeySource Task
 description: Learn about the parameters of the MSBuild ResolveKeySource task, which determines the strong name key source.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -10,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - ResolveKeySource task [MSBuild]
 - MSBuild, ResolveKeySource task
-ms.assetid: 449f06c2-e9aa-4236-ab1e-c45c25452b2e
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # ResolveKeySource task
 

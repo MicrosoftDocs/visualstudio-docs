@@ -1,7 +1,6 @@
 ---
 title: "Work with ranges"
 description: Learn that the NamedRange and Range classes contain the methods and properties you use to perform tasks with ranges.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "workbooks, ranges"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Work with ranges
+
   The <xref:Microsoft.Office.Tools.Excel.NamedRange> and <xref:Microsoft.Office.Interop.Excel.Range> classes contain the methods and properties you use to perform tasks with ranges.
 
 |Task|Procedure|
@@ -37,7 +35,7 @@ ms.workload:
 
  In some cases, the ways that you perform these tasks in VSTO Add-ins is different from the ways that you perform them in document-level customizations.
 
-## See also
+## Related content
 - [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
 - [Work with worksheets](../vsto/working-with-worksheets.md)
 - [Work with workbooks](../vsto/working-with-workbooks.md)

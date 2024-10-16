@@ -1,37 +1,26 @@
 ---
 description: "Loads debug symbols given the data stream."
-title: IDebugComPlusSymbolProvider::LoadSymbolsFromStream | Microsoft Docs
+title: IDebugComPlusSymbolProvider::LoadSymbolsFromStream
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider::LoadSymbolsFromStream
 - LoadSymbolsFromStream
-ms.assetid: 1de272f0-24f4-4548-8b70-a205cddd4727
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::LoadSymbolsFromStream
+
 Loads debug symbols given the data stream.
 
 ## Syntax
 
-```cpp
-HRESULT LoadSymbolsFromStream(
-    ULONG32   ulAppDomainID,
-    GUID      guidModule,
-    ULONGLONG baseAddress,
-    IUnknown* pUnkMetadataImport,
-    IStream*  pStream
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int LoadSymbolsFromStream(
     uint    ulAppDomainID,
@@ -41,6 +30,17 @@ int LoadSymbolsFromStream(
     IStream pStream
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT LoadSymbolsFromStream(
+    ULONG32   ulAppDomainID,
+    GUID      guidModule,
+    ULONGLONG baseAddress,
+    IUnknown* pUnkMetadataImport,
+    IStream*  pStream
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

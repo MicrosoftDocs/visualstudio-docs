@@ -1,22 +1,19 @@
 ---
 title: DataContext Methods (O-R Designer)
 description: Understand DataContext methods in the context of the LINQ to SQL tools for Visual Studio. These methods run stored procedures and functions in a database.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.assetid: c149f4e5-3b61-4c33-892e-3e26d47f3eeb
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
+
 # DataContext Methods (O/R Designer)
 
 <xref:System.Data.Linq.DataContext> methods (in the context of the [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)) are methods of the <xref:System.Data.Linq.DataContext> class that run stored procedures and functions in a database.
 
-The <xref:System.Data.Linq.DataContext> class is a [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] class that acts as a conduit between a SQL Server database and the [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] entity classes mapped to that database. The <xref:System.Data.Linq.DataContext> class contains the connection string information and the methods for connecting to a database and manipulating the data in the database. By default, the <xref:System.Data.Linq.DataContext> class contains several methods that you can call, such as the <xref:System.Data.Linq.DataContext.SubmitChanges%2A> method that sends updated data from [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes to the database. You can also create additional <xref:System.Data.Linq.DataContext> methods that map to stored procedures and functions. In other words, calling these custom methods runs the stored procedure or function in the database to which the <xref:System.Data.Linq.DataContext> method is mapped. You can add new methods to the <xref:System.Data.Linq.DataContext> class just as you would add methods to extend any class. However, in discussions about <xref:System.Data.Linq.DataContext> methods in the context of the **O/R Designer**, it is the <xref:System.Data.Linq.DataContext> methods that map to stored procedures and functions that are being discussed.
+The <xref:System.Data.Linq.DataContext> class is a LINQ to SQL class that acts as a conduit between a SQL Server database and the LINQ to SQL entity classes mapped to that database. The <xref:System.Data.Linq.DataContext> class contains the connection string information and the methods for connecting to a database and manipulating the data in the database. By default, the <xref:System.Data.Linq.DataContext> class contains several methods that you can call, such as the <xref:System.Data.Linq.DataContext.SubmitChanges%2A> method that sends updated data from LINQ to SQL classes to the database. You can also create additional <xref:System.Data.Linq.DataContext> methods that map to stored procedures and functions. In other words, calling these custom methods runs the stored procedure or function in the database to which the <xref:System.Data.Linq.DataContext> method is mapped. You can add new methods to the <xref:System.Data.Linq.DataContext> class just as you would add methods to extend any class. However, in discussions about <xref:System.Data.Linq.DataContext> methods in the context of the **O/R Designer**, it is the <xref:System.Data.Linq.DataContext> methods that map to stored procedures and functions that are being discussed.
 
 ## Methods pane
 
@@ -35,7 +32,7 @@ DataContext methods are those methods that map to stored procedures and function
 
 - <xref:System.Data.Linq.DataContext> methods that do not return result sets: such as Inserts, Updates, and Deletes for a specific entity class.
 
-   Create this kind of <xref:System.Data.Linq.DataContext> method when your application has to run stored procedures instead of using the default [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] behavior for saving modified data between an entity class and the database. For more information, see [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md).
+   Create this kind of <xref:System.Data.Linq.DataContext> method when your application has to run stored procedures instead of using the default LINQ to SQL behavior for saving modified data between an entity class and the database. For more information, see [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md).
 
 ## Return Types of DataContext Methods
 
@@ -46,7 +43,7 @@ When you drag stored procedures and functions from **Server Explorer** or **Data
 
 Objects you drag from the database onto the O/R Designer surface are named automatically, based on the name of the objects in the database. If you drag the same object more than once, a number is added to the end of the new name that differentiates the names. When database object names contain spaces, or characters not-supported in Visual Basic or C#, the space or invalid character is replaced with an underscore.
 
-## See also
+## Related content
 
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)

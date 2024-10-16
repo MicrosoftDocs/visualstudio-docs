@@ -1,17 +1,15 @@
 ---
 title: Generate and configure your app from models
 description: Learn what a model represents and how you can generate or configure parts of your application from a model.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Generate and configure your app from models
+
 You can generate or configure parts of your application from a model.
 
  The model represents the requirements more directly than the code. By deriving the application's behavior directly from the model, you can respond to changed requirements much more quickly and reliably than by updating the code. Although some initial work is required to set up the derivation, this investment is returned if you expect changes in requirements, or if you plan to make several variants of the product.
@@ -67,7 +65,7 @@ You can generate or configure parts of your application from a model.
 
      For example, a UML class diagram is a collection of boxes and arrows; with this notation you can in theory define anything. But we do not recommend that you use the class diagram except where you are in fact describing a set of types. For example, you could adapt class diagrams to describe different types of web pages.
 
-## See also
+## Related content
 
 - [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
 - [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md)

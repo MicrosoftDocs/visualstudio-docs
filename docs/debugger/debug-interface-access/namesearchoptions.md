@@ -1,21 +1,19 @@
 ---
 description: "Specifies the search options for symbol and file names."
-title: "NameSearchOptions | Microsoft Docs"
+title: "NameSearchOptions"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "NameSearchOptions enumeration"
-ms.assetid: 67dfbede-2678-47df-b664-5c49841d0b9b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # NameSearchOptions
+
 Specifies the search options for symbol and file names.
 
 ## Syntax
@@ -39,23 +37,15 @@ enum NameSearchOptions {
 ```
 
 ## Elements
-`nsNone`
-No options are specified.
 
-`nsfCaseSensitive`
-Applies a case-sensitive name match.
-
-`nsfCaseInsensitive`
-Applies a case-insensitive name match.
-
-`nsfFNameExt`
-Treats names as paths and applies a filename.ext name match.
-
-`nsfRegularExpression`
-Applies a case-sensitive name match using asterisks (*) and question marks (?) as wildcards. (Other common regular expression characters are not supported.)
-
-`nsfUndecoratedName`
-Applies only to symbols that have both undecorated and decorated names.
+| Element                | Description                                                             |
+| ---------------------- | ----------------------------------------------------------------------- |
+| `nsNone`               | No options are specified.                                               |
+| `nsfCaseSensitive`     | Applies a case-sensitive name match.                                    |
+| `nsfCaseInsensitive`   | Applies a case-insensitive name match.                                  |
+| `nsfFNameExt`          | Treats names as paths and applies a `filename.ext` name match.          |
+| `nsfRegularExpression` | Applies a case-sensitive name match using asterisks (`*`) and question marks (`?`) as wildcards.</br>(Other common regular expression characters are not supported.) |
+| `nsfUndecoratedName`   | Applies only to symbols that have both undecorated and decorated names. |
 
 ## Remarks
 The values from this enumeration are passed to the following methods:

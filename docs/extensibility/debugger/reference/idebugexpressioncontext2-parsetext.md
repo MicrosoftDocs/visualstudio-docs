@@ -1,39 +1,27 @@
 ---
 description: "Parses an expression in text form for later evaluation."
-title: IDebugExpressionContext2::ParseText | Microsoft Docs
+title: IDebugExpressionContext2::ParseText
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExpressionContext2::ParseText
 helpviewer_keywords:
 - IDebugExpressionContext2::ParseText
-ms.assetid: f58575db-f926-4ac8-83ff-7b3b86ab61e2
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExpressionContext2::ParseText
+
 Parses an expression in text form for later evaluation.
 
 ## Syntax
 
-```cpp
-HRESULT ParseText(
-    LPCOLESTR           pszCode,
-    PARSEFLAGS          dwFlags,
-    UINT                nRadix,
-    IDebugExpression2** ppExpr,
-    BSTR*               pbstrError,
-    UINT*               pichError
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ParseText(
     string                pszCode,
@@ -44,6 +32,18 @@ int ParseText(
     out uint              pichError
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ParseText(
+    LPCOLESTR           pszCode,
+    PARSEFLAGS          dwFlags,
+    UINT                nRadix,
+    IDebugExpression2** ppExpr,
+    BSTR*               pbstrError,
+    UINT*               pichError
+);
+```
+---
 
 ## Parameters
 `pszCode`\
@@ -95,7 +95,7 @@ HRESULT CEnvBlock::ParseText(
     if (pszAnsiCode) {
         // Map the wide-character pszCode string to the new pszAnsiCode character string.
         WideCharToMultiByte(CP_ACP, 0, pszCode, -1, pszAnsiCode, iAnsiLen, NULL, NULL);
-        // Check to see if the app can succesfully get the environment variable.
+        // Check to see if the app can successfully get the environment variable.
         if (GetEnv(pszAnsiCode)) {
 
             // Create and initialize a CExpression object.
@@ -108,7 +108,7 @@ HRESULT CEnvBlock::ParseText(
             *ppExpr = pExpr;
             (*ppExpr)->AddRef();
             hr = S_OK;
-        // If the program cannot succesfully get the environment variable.
+        // If the program cannot successfully get the environment variable.
         } else {
             // Set the errror message and return E_FAIL.
             *pbstrError = SysAllocString(L"No such environment variable.");

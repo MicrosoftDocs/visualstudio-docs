@@ -1,17 +1,14 @@
 ---
 title: Use lambda expression or block body
 description: Learn how to use the Quick Actions and Refactorings menu to refactor a lambda expression to use an expression body or a block body.
-ms.custom: SEO-VS-2020
 ms.date: 02/14/2019
 ms.topic: reference
-author: kendrahavens
-ms.author: kehavens
-manager: jmartens
-ms.technology: vs-ide-general
+author: mikadumont 
+ms.author: midumont 
+manager: mijacobs
+ms.subservice: general-ide
 dev_langs:
   - CSharp
-ms.workload:
-  - "dotnet"
 ---
 # Use expression body or block body for lambda expressions
 

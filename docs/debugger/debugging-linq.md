@@ -1,7 +1,6 @@
 ---
-title: "Debugging LINQ | Microsoft Docs"
+title: Debug language integrated query (LINQ)
 description: Debug language integrated query (LINQ) in Visual Studio. View LINQ results. Understand behavioral differences when stepping into LINQ code.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -15,16 +14,14 @@ helpviewer_keywords:
   - "LINQ, debugging"
   - "LINQ, stepping"
   - "LINQ, edit and continue"
-ms.assetid: dbae26cb-ac5f-4312-b474-b9f29714f4c6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Debugging LINQ
-[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] supports the debugging of language integrated query (LINQ) code, with some limitations. Most debugging features work with LINQ statements, including stepping, setting breakpoints, and viewing results in debugger windows. This topic describes the major limitations of LINQ debugging.
+
+Visual Studio supports the debugging of language integrated query (LINQ) code, with some limitations. Most debugging features work with LINQ statements, including stepping, setting breakpoints, and viewing results in debugger windows. This topic describes the major limitations of LINQ debugging.
 
 ## <a name="BKMK_ViewingLINQResults"></a> Viewing LINQ Results
  You can view the result of a LINQ statement by using DataTips, the Watch window, and the QuickWatch dialog box. When you use a source window, you can pause the pointer on a query in the source window and a DataTip will appear. You can copy a LINQ variable and paste it into the Watch window or QuickWatch dialog box.
@@ -104,7 +101,7 @@ End Function
 ## <a name="BKMK_EditandContinueNotSupportedforLINQ"></a> Edit and Continue Not Supported for LINQ
  Edit and Continue supports changes to LINQ queries with limitations. For details, see [EnC Supported Changes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)
 
-## See also
+## Related content
 
 - [Debugging SQL](/previous-versions/visualstudio/visual-studio-2010/zefbf0t6\(v\=vs.100\))
 - [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)

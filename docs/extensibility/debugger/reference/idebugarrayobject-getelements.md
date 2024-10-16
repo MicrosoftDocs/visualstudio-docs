@@ -1,39 +1,39 @@
 ---
 description: "Gets an enumerator of all elements of the array."
-title: IDebugArrayObject::GetElements | Microsoft Docs
+title: IDebugArrayObject::GetElements
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugArrayObject::GetElements
 helpviewer_keywords:
 - IDebugArrayObject::GetElements method
-ms.assetid: f6a6262f-5183-46ce-8a45-33ef46088b98
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugArrayObject::GetElements
+
 Gets an enumerator of all elements of the array.
 
 ## Syntax
 
-```cpp
-HRESULT GetElements( 
-   IEnumDebugObjects** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetElements(
    out IEnumDebugObjects ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetElements( 
+   IEnumDebugObjects** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

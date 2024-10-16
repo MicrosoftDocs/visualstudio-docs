@@ -1,21 +1,18 @@
 ---
-title: Properties Window Overview | Microsoft Docs
+title: Properties Window Overview
 description: Learn about the interfaces used to interact with the Properties window in the Visual Studio IDE in this overview.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - Properties window
-ms.assetid: 289ed4f2-02ac-4899-855e-42dfe57ee05f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Properties Window Overview
-The **Properties** window is used to display properties for objects selected in the two main types of windows available in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). These two types of windows are:
+
+The **Properties** window is used to display properties for objects selected in the two main types of windows available in the Visual Studio integrated development environment (IDE). These two types of windows are:
 
 - Tool windows such as Solution Explorer, Class View, and Object browser
 

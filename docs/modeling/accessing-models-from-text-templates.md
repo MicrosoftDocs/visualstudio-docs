@@ -1,17 +1,14 @@
 ---
 title: Accessing Models from Text Templates
 description: Learn how you can use text templates to create report files, source code files, and other text files that are based on domain-specific language models.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - text templates, accessing models
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Access models from text templates
 
@@ -56,7 +53,7 @@ Here is a list of elements in the model:
 
 - A property in `this` contains the root element. From there, your code can navigate to other elements of the model. The name of the property is usually the same as the root domain class of your DSL. In this example, it is `this.ExampleModel`.
 
-- Although the language in which the code fragments are written is C#, you can generate text of any kind. You can alternatively write the code in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] by adding the property `language="VB"` to the `template` directive.
+- Although the language in which the code fragments are written is C#, you can generate text of any kind. You can alternatively write the code in Visual Basic by adding the property `language="VB"` to the `template` directive.
 
 - To debug the template, add `debug="true"` to the `template` directive. The template will open in another instance of Visual Studio if an exception occurs. If you want to break into the debugger at a specific point in the code, insert the statement `System.Diagnostics.Debugger.Break();`
 
@@ -110,6 +107,7 @@ Here is a list of elements in the model:
 
  To access the models in your text template, you can now write code similar to the code in the following example.
 
+### [C#](#tab/csharp)
 ```csharp
 <#
 foreach (ExampleElement element in this.LibraryModel.Elements)
@@ -121,6 +119,7 @@ foreach (ExampleElement element in this.WorkModel.Elements)
 #>
 ```
 
+### [VB](#tab/vb)
 ```vb
 <#
 For Each element As ExampleElement In Me.LibraryModel.Elements
@@ -131,6 +130,7 @@ For Each element As ExampleElement In Me.WorkModel.Elements
 ...
 #>
 ```
+---
 
 ## Loading models dynamically
  If you want to determine at run time which models to load, you can load a model file dynamically in your program code, instead of using the DSL-specific directive.
@@ -150,7 +150,7 @@ For Each element As ExampleElement In Me.WorkModel.Elements
  **LoopTemplate.t4** generates the long single file. Notice that its file extension is ".t4", because it should not be processed directly when you click **Transform All Templates**. This template takes a parameter, which specifies the delimiter string that separates the segments:
 
 ```
-<#@ template ninherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>
+<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>
 <#@ parameter name="delimiter" type="System.String" #>
 <#@ output extension=".txt" #>
 <#@ MyDSL processor="MyDSLDirectiveProcessor" requires="fileName='SampleModel.mydsl1';validation='open|load|save|menu'" #>

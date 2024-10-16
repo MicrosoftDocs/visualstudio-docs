@@ -1,7 +1,6 @@
 ---
-title: "Excel solutions"
-description: Learn you can use project templates to automate Excel, extend Excel features, and customize the Excel user interface (UI)
-ms.custom: SEO-VS-2020
+title: Automate and extend your Office Excel solutions
+description: Use project templates to automate Microsoft Office Excel, extend Excel features, and customize the Excel user interface.
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -25,12 +24,11 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], Excel"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Excel solutions
+
   Visual Studio provides project templates you can use to create document-level customizations and VSTO Add-ins for Microsoft Office Excel. You can use these solutions to automate Excel, extend Excel features, and customize the Excel user interface (UI). For more information about the differences between document-level customizations and VSTO Add-ins, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -107,7 +105,7 @@ ms.workload:
 | Title | Description |
 | - | - |
 | [Excel object model overview](../vsto/excel-object-model-overview.md) | Provides an overview of the main types provided by the Excel object model. |
-| [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md) | Provides information about extended objects (provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]) that you can use in Excel solutions. |
+| [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md) | Provides information about extended objects (provided by the Visual Studio Tools for Office runtime) that you can use in Excel solutions. |
 | [Globalization and localization of Excel solutions](../vsto/globalization-and-localization-of-excel-solutions.md) | Contains information about special considerations for Excel solutions that will be run on computers that have non-English settings for Windows. |
 | [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md) | Describes how you can add Windows Forms controls to Excel worksheets. |
 | [Walkthrough: Create your first document-level customization for Excel](../vsto/walkthrough-creating-your-first-document-level-customization-for-excel.md) | Demonstrates how to create a basic document-level customization for Excel. |

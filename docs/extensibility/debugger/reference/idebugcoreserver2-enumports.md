@@ -1,39 +1,39 @@
 ---
 description: "Retrieves a list of all available ports."
-title: IDebugCoreServer2::EnumPorts | Microsoft Docs
+title: IDebugCoreServer2::EnumPorts
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCoreServer2::EnumPorts
 helpviewer_keywords:
 - IDebugCoreServer2::EnumPorts
-ms.assetid: 3d98dfd0-614f-4d68-90c6-8a9b9cab66f1
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCoreServer2::EnumPorts
+
 Retrieves a list of all available ports.
 
 ## Syntax
 
-```cpp
-HRESULT EnumPorts( 
-   IEnumDebugPorts2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumPorts( 
    out IEnumDebugPorts2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumPorts( 
+   IEnumDebugPorts2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

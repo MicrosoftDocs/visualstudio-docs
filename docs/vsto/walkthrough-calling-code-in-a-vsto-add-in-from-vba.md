@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Call code in a VSTO Add-in from VBA"
 description: Learn how to expose an object in a VSTO Add-in to other Microsoft Office solutions, including Visual Basic for Applications (VBA) and COM VSTO Add-ins.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -17,12 +16,11 @@ helpviewer_keywords:
   - "calling code from VBA"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Walkthrough: Call code in a VSTO Add-in from VBA
+
   This walkthrough demonstrates how to expose an object in a VSTO Add-in to other Microsoft Office solutions, including Visual Basic for Applications (VBA) and COM VSTO Add-ins.
 
  [!INCLUDE[appliesto_allapp](../vsto/includes/appliesto-allapp-md.md)]
@@ -53,7 +51,7 @@ ms.workload:
 
 1. Create an Excel VSTO Add-in project with the name **ExcelImportData**, using the Excel VSTO Add-in project template. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] opens the **ThisAddIn.cs** or **ThisAddIn.vb** code file and adds the **ExcelImportData** project to **Solution Explorer**.
+     Visual Studio opens the **ThisAddIn.cs** or **ThisAddIn.vb** code file and adds the **ExcelImportData** project to **Solution Explorer**.
 
 ## Define a class that you can expose to other Office solutions
  The purpose of this walkthrough is to call into the `ImportData` method of a class named `AddInUtilities` in your VSTO Add-in from VBA code. This method writes a string into cell A1 of the active worksheet.
@@ -70,13 +68,21 @@ ms.workload:
 
 3. Add the following directives to the top of the file.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/AddInUtilities.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/AddInUtilities.vb" id="Snippet2":::
+     ---
 
 4. Replace the `AddInUtilities` class with the following code.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/AddInUtilities.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/AddInUtilities.vb" id="Snippet3":::
+     ---
 
      This code makes the `AddInUtilities` class visible to COM, and it adds the `ImportData` method to the class. To expose the [IDispatch](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) interface, the `AddInUtilities` class also has the <xref:System.Runtime.InteropServices.ClassInterfaceAttribute> attribute, and it implements an interface that is visible to COM.
 
@@ -91,8 +97,12 @@ ms.workload:
 
 3. Add the following code to the `ThisAddIn` class.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/ThisAddIn.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/ThisAddIn.vb" id="Snippet1":::
+     ---
 
 4. On the **Build** menu, click **Build Solution**.
 
@@ -147,7 +157,7 @@ ms.workload:
 
 - Customize the ribbon in a VSTO Add-in. For more information, see [Ribbon overview](../vsto/ribbon-overview.md) and [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md).
 
-## See also
+## Related content
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
 - [Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md)
 - [Develop Office solutions](../vsto/developing-office-solutions.md)

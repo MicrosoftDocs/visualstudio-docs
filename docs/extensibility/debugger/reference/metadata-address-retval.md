@@ -1,37 +1,27 @@
 ---
 description: "This structure represents a return value from a method or function."
-title: METADATA_ADDRESS_RETVAL | Microsoft Docs
+title: METADATA_ADDRESS_RETVAL
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - METADATA_ADDRESS_RETVAL
 helpviewer_keywords:
 - METADATA_ADDRESS_RETVAL structure
-ms.assetid: 5b0ec0fb-84b3-4ce7-8e24-becf3d881d7d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # METADATA_ADDRESS_RETVAL
+
 This structure represents a return value from a method or function.
 
 ## Syntax
 
-```cpp
-typedef struct _tagMETADATA_ADDRESS_RETVAL {
-   _mdToken tokMethod;
-   DWORD    dwCorType;
-   DWORD    dwSigSize;
-   BYTE     rgSig[10];
-} METADATA_ADDRESS_RETVAL;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct METADATA_ADDRESS_RETVAL {
    public int    tokMethod;
@@ -40,6 +30,16 @@ public struct METADATA_ADDRESS_RETVAL {
    public byte[] rgSig;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagMETADATA_ADDRESS_RETVAL {
+   _mdToken tokMethod;
+   DWORD    dwCorType;
+   DWORD    dwSigSize;
+   BYTE     rgSig[10];
+} METADATA_ADDRESS_RETVAL;
+```
+---
 
 ## Members
  `tokMethod`\

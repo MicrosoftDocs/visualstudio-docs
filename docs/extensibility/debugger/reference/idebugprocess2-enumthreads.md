@@ -1,39 +1,39 @@
 ---
 description: "Retrieves a list of all the threads running in the process."
-title: IDebugProcess2::EnumThreads | Microsoft Docs
+title: IDebugProcess2::EnumThreads
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcess2::EnumThreads
 helpviewer_keywords:
 - IDebugProcess2::EnumThreads
-ms.assetid: 05677385-7a7f-4545-8438-af00dde85db0
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProcess2::EnumThreads
+
 Retrieves a list of all the threads running in the process.
 
 ## Syntax
 
-```cpp
-HRESULT EnumThreads(
-   IEnumDebugThreads2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumThreads(
    out IEnumDebugThreads2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumThreads(
+   IEnumDebugThreads2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

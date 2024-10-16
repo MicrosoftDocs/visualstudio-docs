@@ -1,39 +1,39 @@
 ---
 description: "Gets a description of the properties of a stack frame."
-title: IDebugStackFrame2::GetDebugProperty | Microsoft Docs
+title: IDebugStackFrame2::GetDebugProperty
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugStackFrame2::GetDebugProperty
 helpviewer_keywords:
 - IDebugStackFrame2::GetDebugProperty
-ms.assetid: 02c2fa04-1424-4bca-9936-feaecd2afab6
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugStackFrame2::GetDebugProperty
+
 Gets a description of the properties of a stack frame.
 
 ## Syntax
 
-```cpp
-HRESULT GetDebugProperty ( 
-   IDebugProperty2** ppDebugProp
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDebugProperty ( 
    out IDebugProperty2 ppDebugProp
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDebugProperty ( 
+   IDebugProperty2** ppDebugProp
+);
+```
+---
 
 ## Parameters
 `ppDebugProp`\

@@ -1,7 +1,6 @@
 ---
-title: "How to: Change the position of a tab on the ribbon"
+title: "Change the position of a tab on the ribbon"
 description: You can change the order of custom tabs on a ribbon and position custom tabs before or after a built-in tab on the ribbon by using the Tab Collection Editor.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -11,12 +10,11 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], tabs"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Change the position of a tab on the ribbon
+# Change the position of a tab on the ribbon
+
   You can change the order of custom tabs on a ribbon by using the **Tab Collection Editor**. You can position custom tabs before or after a built-in tab on the ribbon. A built-in tab is a tab that is already on the Ribbon of a Microsoft Office application. For example, the **Data** tab is a built-in tab in Excel.
 
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]
@@ -51,9 +49,9 @@ ms.workload:
 
 5. Set the **OfficeId** property to the control ID of a built-in tab.
 
-     For a list of control IDs, see [Office 2010 help files: Office fluent user interface control identifiers](https://www.microsoft.com/download/details.aspx?id=6627).
+     For a list of control IDs, see [Office 2010 help files: Office fluent user interface control identifiers](https://www.microsoft.com/download/details.aspx?id=50745).
 
-## See also
+## Related content
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [Ribbon Designer](../vsto/ribbon-designer.md)
 - [Ribbon XML](../vsto/ribbon-xml.md)

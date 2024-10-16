@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Design an Outlook form region"
 description: Learn how you can design a custom Microsoft Outlook form region that appears as a new page in the Inspector window of a contact item.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,12 +10,11 @@ helpviewer_keywords:
   - "form regions [Office development in Visual Studio], creating"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Walkthrough: Design an Outlook form region
+
   Custom form regions extend standard or custom Microsoft Office Outlook forms. In this walkthrough, you will design a custom form region that appears as a new page in the Inspector window of a contact item. This form region displays a map of each address that is listed for the contact, by sending the address information to the Windows Live Local Search Web site. For information about form regions, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
@@ -41,7 +39,7 @@ ms.workload:
 
 - [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
-- [!INCLUDE[Outlook_14_short](../vsto/includes/outlook-14-short-md.md)] or newer.
+-  Outlook 2010  or newer.
 
   ![link to video](../vsto/media/playvideo.gif "link to video") For a video version of this topic, see [Video how to: Design an Outlook form region](/previous-versions/visualstudio/visual-studio-2008/cc837160(v=vs.90)).
 
@@ -50,7 +48,7 @@ ms.workload:
 
 ### To create a new Outlook VSTO Add-in project
 
-1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create an Outlook VSTO Add-in project with the name **MapItAddIn**.
+1. In Visual Studio, create an Outlook VSTO Add-in project with the name **MapItAddIn**.
 
 2. In the **New Project** dialog box, select **Create directory for solution**.
 
@@ -121,8 +119,12 @@ ms.workload:
 
 3. Add the following code to the `MapItFactory_FormRegionInitializing` event handler. This event handler is called when the user opens a contact item. The following code determines whether the contact item contains an address. If the contact item does not contain an address, this code sets the <xref:System.ComponentModel.CancelEventArgs.Cancel%2A> property of the <xref:Microsoft.Office.Tools.Outlook.FormRegionInitializingEventArgs> class to **true** and the form region is not displayed. Otherwise, the VSTO Add-in raises the <xref:Microsoft.Office.Tools.Outlook.FormRegionControl.FormRegionShowing> event and displays the form region.
 
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Separate_O12/MapIt.cs" id="Snippet1":::
+
+    ### [VB](#tab/vb)
     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Separate_O12/MapIt.vb" id="Snippet1":::
+    ---
 
 4. Add the following code to the <xref:Microsoft.Office.Tools.Outlook.FormRegionControl.FormRegionShowing> event handler. This code performs the following tasks:
 
@@ -132,8 +134,12 @@ ms.workload:
 
      The Local Search Web site appears in the Map It form region and presents each address in the scratch pad.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Outlook_FR_Separate_O12/MapIt.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Outlook_FR_Separate_O12/MapIt.vb" id="Snippet2":::
+     ---
 
 ## Test the Outlook form region
  When you run the project, Visual Studio opens Outlook. Open a contact item to view the Map It form region. The Map It form region appears as a page in the form of any contact item that contains an address.
@@ -169,12 +175,12 @@ ms.workload:
 
 - To learn about how to customize the ribbon of an Outlook item, see [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md).
 
-## See also
+## Related content
 - [Access a form region at run time](../vsto/accessing-a-form-region-at-run-time.md)
 - [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
-- [Guidelines to create Outlook form regions](../vsto/guidelines-for-creating-outlook-form-regions.md)
-- [Walkthrough: Import a form region that is designed in Outlook](../vsto/walkthrough-importing-a-form-region-that-is-designed-in-outlook.md)
+- [Guidelines to create Outlook form regions](/previous-versions/visualstudio/visual-studio-2017/vsto/guidelines-for-creating-outlook-form-regions)
+- [Walkthrough: Import a form region that is designed in Outlook](/previous-versions/visualstudio/visual-studio-2017/vsto/walkthrough-importing-a-form-region-that-is-designed-in-outlook)
 - [How to: Add a form region to an Outlook Add-in project](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md)
 - [Associate a form region with an Outlook message class](../vsto/associating-a-form-region-with-an-outlook-message-class.md)
-- [Custom actions in Outlook form regions](../vsto/custom-actions-in-outlook-form-regions.md)
-- [How to: Prevent Outlook from displaying a form region](../vsto/how-to-prevent-outlook-from-displaying-a-form-region.md)
+- [Custom actions in Outlook form regions](/previous-versions/visualstudio/visual-studio-2017/vsto/custom-actions-in-outlook-form-regions)
+- [How to: Prevent Outlook from displaying a form region](/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-prevent-outlook-from-displaying-a-form-region)

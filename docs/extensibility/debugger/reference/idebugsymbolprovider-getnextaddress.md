@@ -1,36 +1,27 @@
 ---
 description: "Gets the debug address that follows a given debug address in a method."
-title: IDebugSymbolProvider::GetNextAddress | Microsoft Docs
+title: IDebugSymbolProvider::GetNextAddress
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugSymbolProvider::GetNextAddress
 helpviewer_keywords:
 - IDebugSymbolProvider::GetNextAddress method
-ms.assetid: 704eeb94-cb13-49d1-82b6-7d83ed0f19c0
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugSymbolProvider::GetNextAddress
+
 Gets the debug address that follows a given debug address in a method.
 
 ## Syntax
 
-```cpp
-HRESULT GetNextAddress( 
-   IDebugAddress*  pAddress,
-   BOOL            fStatementOnly,
-   IDebugAddress** ppAddress
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetNextAddress( 
    IDebugAddress     pAddress,
@@ -38,6 +29,15 @@ int GetNextAddress( 
    out IDebugAddress ppAddress
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetNextAddress( 
+   IDebugAddress*  pAddress,
+   BOOL            fStatementOnly,
+   IDebugAddress** ppAddress
+);
+```
+---
 
 ## Parameters
 `pAddress`\

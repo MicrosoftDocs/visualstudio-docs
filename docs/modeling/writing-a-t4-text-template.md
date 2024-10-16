@@ -1,7 +1,6 @@
 ---
 title: Writing a T4 Text Template
-description: Learn about T4 text templates and how to write a text template that includes directives, text blocks, and control blocks.
-ms.custom: SEO-VS-2020
+description: Work with T4 text templates in Visual Studio and how to write a text template that includes directives, text blocks, and control blocks.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,12 +9,11 @@ helpviewer_keywords:
 - text templates, functions that generate text
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Writing a T4 Text Template
+
 A text template contains the text that will be generated from it. For example, a template that creates a web page will contain "\<html>..." and all the other standard parts of an HTML page. Inserted into the template are *control blocks*, which are fragments of program code. Control blocks provide varying values and allow parts of the text to be conditional and repeated.
 
  This structure makes a template easy to develop, because you can start with a prototype of the generated file, and incrementally insert control blocks that vary the result.
@@ -50,7 +48,7 @@ Hello
 ```
 
 ## Control blocks
- Control blocks are sections of program code that are used to transform the templates. The default language is C#, but to use [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], you can write this directive at the beginning of the file:
+ Control blocks are sections of program code that are used to transform the templates. The default language is C#, but to use Visual Basic, you can write this directive at the beginning of the file:
 
 ```
 <#@ template language="VB" #>
@@ -235,7 +233,7 @@ private void WriteSquareLine(int i)
 
  **Load a file as a navigable model**. A more powerful method is to read the data as a model, which your text template code can navigate. For example, you can load an XML file and navigate it with XPath expressions. You could also use [xsd.exe](/dotnet/standard/serialization/xml-schema-definition-tool-xsd-exe) to create a set of classes with which you can read the XML data.
 
- **Edit the model file in a diagram or form.** [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] provides tools that let you edit a model as a diagram or Windows form. This makes it easier to discuss the model with users of the generated application. [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] also creates a set of strongly-typed classes that reflect the structure of the model. For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md).
+ **Edit the model file in a diagram or form.** Domain-Specific Language Tools provides tools that let you edit a model as a diagram or Windows form. This makes it easier to discuss the model with users of the generated application. Domain-Specific Language Tools also creates a set of strongly-typed classes that reflect the structure of the model. For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md).
 
 ### Relative file paths in design-time templates
  In a [design-time text template](../modeling/design-time-code-generation-by-using-t4-text-templates.md), if you want to reference a file in a location relative to the text template, use `this.Host.ResolvePath()`. You must also set `hostspecific="true"` in the `template` directive:
@@ -263,13 +261,11 @@ You can also obtain other services that are provided by the host. For more infor
 ## Editing Templates
  Specialized text template editors can be downloaded from the Extension Manager Online Gallery. On the **Tools** menu, click **Extension Manager**. Click **Online Gallery**, and then use the search tool.
 
-## Related topics
+## Related content
 
-|Task|Topic|
-|-|-|
-|Writing a template.|[Guidelines for Writing T4 Text Templates](../modeling/guidelines-for-writing-t4-text-templates.md)|
-|Generate text by using program code.|[Text Template Structure](../modeling/writing-a-t4-text-template.md)|
-|Generate files in a Visual Studio solution.|[Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)|
-|Run text generation outside Visual Studio.|[Generating Files with the TextTransform Utility](../modeling/generating-files-with-the-texttransform-utility.md)|
-|Transform your data in the form of a domain-specific language.|[Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)|
-|Write directive processors to transform your own data sources.|[Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)|
+- [Guidelines for Writing T4 Text Templates](../modeling/guidelines-for-writing-t4-text-templates.md)
+- [Text Template Structure](../modeling/writing-a-t4-text-template.md)
+- [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)
+- [Generating Files with the TextTransform Utility](../modeling/generating-files-with-the-texttransform-utility.md)
+- [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
+- [Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)

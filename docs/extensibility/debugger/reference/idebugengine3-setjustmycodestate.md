@@ -1,36 +1,27 @@
 ---
 description: "This method tells the debug engine about the JustMyCode state information."
-title: IDebugEngine3::SetJustMyCodeState | Microsoft Docs
+title: IDebugEngine3::SetJustMyCodeState
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngine3::SetJustMyCodeState
 helpviewer_keywords:
 - IDebugEngine3::SetJustMyCodeState
-ms.assetid: 8ec17fbf-df93-424a-b2ed-fd1e5ee51256
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugEngine3::SetJustMyCodeState
+
 This method tells the debug engine about the JustMyCode state information.
 
 ## Syntax
 
-```cpp
-HRESULT SetJustMyCodeState(
-   BOOL           fUpdate,
-   DWORD          dwModules,
-   JMC_CODE_SPEC* rgJMCSpec
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetJustMyCodeState(
    int             fUpdate,
@@ -38,6 +29,15 @@ int SetJustMyCodeState(
    JMC_CODE_SPEC[] rgJMCSpec
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetJustMyCodeState(
+   BOOL           fUpdate,
+   DWORD          dwModules,
+   JMC_CODE_SPEC* rgJMCSpec
+);
+```
+---
 
 ## Parameters
 `fUpdate`\

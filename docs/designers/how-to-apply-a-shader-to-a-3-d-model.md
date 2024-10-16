@@ -1,18 +1,14 @@
 ---
-title: 'How to: Apply a Shader to a 3D Model'
+title: 'Apply a Shader to a 3D Model'
 description: Learn how to use the Model Editor to apply a Directed Graph Shader Language shader to a 3D model to give it an interesting appearance.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: a3877bd6-abd8-4a9d-842c-6848b6c2f335
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-designers
-ms.workload:
-- multiple
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: ui-designers
 ---
-# How to: Apply a shader to a 3D model
+# Apply a shader to a 3D model
 
 This article demonstrates how to use the Model Editor to apply a Directed Graph Shader Language (DGSL) shader to a 3D model.
 
@@ -32,7 +28,7 @@ Here's a model that has the basic color effect applied to it:
 
 After you apply a shader to a model, you can open it in the Shader Designer by selecting the model, and then in the **Properties** window, in the **(Advanced)** property of the **Effect** property group, choosing the ellipsis (**...**) button.
 
-## See also
+## Related content
 
 - [How to: Create a basic 3D model](../designers/how-to-create-a-basic-3-d-model.md)
 - [How to: Create a basic color shader](../designers/how-to-create-a-basic-color-shader.md)

@@ -1,7 +1,6 @@
 ---
 title: -ProjectConfig (devenv.exe)
 description: Learn how to use the ProjectConfig devenv command-line switch to specify a project build configuration to be applied when you build, clean, rebuild, or deploy the project.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
@@ -16,13 +15,10 @@ helpviewer_keywords:
 - ProjectConfig Devenv switch (/ProjectConfig)
 - projects [Visual Studio], build configuration
 - projects [Visual Studio], cleaning
-ms.assetid: 6b54ef59-ffed-4f62-a645-1279ede97ebf
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # /ProjectConfig (devenv.exe)
 

@@ -1,21 +1,19 @@
 ---
 description: "This interface represents a source document."
-title: IDebugDocument2 | Microsoft Docs
+title: IDebugDocument2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocument2
 helpviewer_keywords:
 - IDebugDocument2 interface
-ms.assetid: 1bc58426-dbf5-4471-9aad-9d66cd80eef0
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugDocument2
+
 This interface represents a source document.
 
 ## Syntax
@@ -25,7 +23,7 @@ IDebugDocument2 : IUnknown
 ```
 
 ## Notes for Implementers
- [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] typically implements this interface. A debug engine (DE) can also implement this interface when it needs to supply the source code and the source does not exist on disk.  In such cases, the DE would also implement [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) and [IDebugActivateDocumentEvent2](../../../extensibility/debugger/reference/idebugactivatedocumentevent2.md) interfaces, as well as some additional methods on the [IDebugDisassemblyStream2](../../../extensibility/debugger/reference/idebugdisassemblystream2.md) and [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md) interfaces.
+ Visual Studio typically implements this interface. A debug engine (DE) can also implement this interface when it needs to supply the source code and the source does not exist on disk.  In such cases, the DE would also implement [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) and [IDebugActivateDocumentEvent2](../../../extensibility/debugger/reference/idebugactivatedocumentevent2.md) interfaces, as well as some additional methods on the [IDebugDisassemblyStream2](../../../extensibility/debugger/reference/idebugdisassemblystream2.md) and [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md) interfaces.
 
 ## Notes for Callers
  Methods on the `IDebugDocumentContext2`, `IDebugDisassemblyStream2`, `IDebugDocumentPosition2`, and `IDebugActivateDocumentEvent2` interfaces return this interface.

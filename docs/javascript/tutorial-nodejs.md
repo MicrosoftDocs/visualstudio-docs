@@ -1,280 +1,182 @@
 ---
 title: "Create a Node.js and Express app"
-description: In this tutorial, learn how to create a simple Node.js application using the Express web application framework in Visual Studio.
-ms.date: 03/25/2021
+description: In this tutorial, learn how to create a basic Node.js application by using the Express web application framework in Visual Studio.
+ms.date: 01/18/2023
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-javascript
+manager: mijacobs
+ms.subservice: javascript-typescript
+monikerRange: '>= vs-2022'
 dev_langs:
   - JavaScript
-ms.workload:
-  - "nodejs"
 ---
 # Tutorial: Create a Node.js and Express app in Visual Studio
 
-In this tutorial for Visual Studio development using Node.js and Express, you create a simple Node.js web application, add some code, explore some features of the IDE, and run the app. 
+In this article, you will learn how to use Visual Studio to build a simple Node.js web app that uses the Express framework.
 
-::: moniker range="vs-2017"
+Before you begin, here's a quick FAQ to introduce you to some key concepts:
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
+- **What is Node.js?**
+  
+  Node.js is a server-side JavaScript runtime environment that executes JavaScript code.
 
-::: moniker-end
+- **What is npm?**
+  
+  A package manager makes it easier to use and share Node.js source code libraries. The default package manager for Node.js is npm. The npm package manager simplifies the installation, updating, and uninstallation of libraries.
 
-::: moniker range=">=vs-2019"
-
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
-
-::: moniker-end
-
-::: moniker range="vs-2022"
-
-If you haven't already installed Visual Studio 2022 Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
-
-::: moniker-end
-
-In this tutorial, you learn how to:
-> [!div class="checklist"]
-> * Create a Node.js project
-> * Add some code
-> * Use IntelliSense to edit code
-> * Run the app
-> * Hit a breakpoint in the debugger
-
-## Before you begin
-
-Here's a quick FAQ to introduce you to some key concepts.
-
-### What is Node.js?
-
-Node.js is a server-side JavaScript runtime environment that executes JavaScript server-side.
-
-### What is npm?
-
-npm is the default package manager for the Node.js. The package manager makes it easier for programmers to publish and share source code of Node.js libraries and is designed to simplify installation, updating, and uninstallation of libraries.
-
-### What is express?
-
-Express is a web application framework, used as a server framework for Node.js to build web applications. Express allows you to choose different front-end frameworks to create a UI, such as Pug (formerly called Jade). Pug is used in this tutorial.
+- **What is Express?**
+  
+  Express is a server web application framework that Node.js uses to build web apps. With Express, there are many different ways to create a user interface. The implementation provided in this tutorial uses the Express application generator's default template engine, called Pug, to render the front-end.
 
 ## Prerequisites
 
-* You must have Visual Studio installed and the Node.js development workload.
+Make sure to install the following:
 
-    ::: moniker range=">=vs-2019"
-    If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    If you haven't already installed Visual Studio 2017, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
-    ::: moniker-end
+- Visual Studio 2022 **version 17.4** or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+  If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
+- npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js
+- npx ([`https://www.npmjs.com/package/npx`](https://www.npmjs.com/package/npx))
 
-    If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **Node.js development** workload, then choose **Modify**.
+## Create your app
 
-    ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)
+1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
 
-* You must have the Node.js runtime installed.
+   :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Create a new project":::
+   
+1. Search for Express in the search bar at the top and then select **JavaScript Express Application**.
 
-    If you don't have it installed, we recommend you install the LTS version from the [Node.js](https://nodejs.org/en/download/) website for best compatibility with outside frameworks and libraries. Node.js is built for 32-bit and 64-bit architectures. The Node.js tools in Visual Studio, included in the Node.js workload, support both versions. Only one is required and the Node.js installer only supports one being installed at a time.
-    
-    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node, choose **Properties**, and set the **Node.exe path**). You can use a global installation of Node.js or you can specify the path to a local interpreter in each of your Node.js projects. 
+   :::image type="content" source="media/vs-2022/express-choose-template.png" alt-text="Choose a template":::
+   
+1. Give your project and solution a name. 
 
-    This tutorial was tested with Node.js 8.10.0.
+## View the project properties
 
-## Create a new Node.js project
+The default project settings allow you to build and debug the project. But, if you need to change settings, right-click the project in Solution Explorer, select **Properties**, and then go the **Build** or **Debugging** section.
 
-Visual Studio manages files for a single application in a *project*. The project includes source code, resources, and configuration files.
+>[!NOTE]
+> `launch.json` stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, `launch.json` must be located under the `.vscode` folder.
 
-In this tutorial, you begin with a simple project containing code for a Node.js and express app.
+## Build your project
 
-1. Open Visual Studio.
+Choose **Build** > **Build Solution**  to build the project.
 
-1. Create a new project.
+## Start your app
 
-    ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **Node.js**, then choose **Create a new Basic Azure Node.js Express 4 application** (JavaScript). In the dialog box that appears, choose **Create**.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Basic Azure Node.js Express 4 application**, then choose **OK**.
-    ::: moniker-end
-    If you don't see the **Basic Azure Node.js Express 4 application** project template, you must add the **Node.js development** workload. For detailed instructions, see the [Prerequisites](#prerequisites).
+Press **F5** or select the **Start** button at the top of the window, and you'll see a command prompt: 
 
-    Visual Studio creates the new solution and opens your project in the right pane. The *app.js* project file opens in the editor (left pane).
+- npm running the node ./bin/www command
 
-    ![Project structure](../javascript/media/tutorial-project-structure.png)
+>[!NOTE]
+> Check console output for messages, such as a message instructing you to update your version of Node.js.
 
-    (1) Highlighted in **bold** is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties**. You can do round-tripping with other development tools, because the project file does not make custom changes to the Node.js project source.
+Next, you should see the base Express app appear!
 
-    (2) At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
+## Debug your app
 
-    (3) The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box or install and update packages using the settings in *package.json* and right-click options in the npm node.
+We will now go through a couple of ways you can debug your app. 
 
-    (4) *package.json* is a file used by npm to manage package dependencies and package versions for locally-installed packages. For more information, see [Manage npm packages](../javascript/npm-package-management.md).
+First, if your app is still running, press **Shift + F5** or select the red stop button at the top of the window in order to stop the current session. You might notice that stopping the session closes the browser showing your app, but leaves behind the command prompt window running the Node process. For now, go ahead and close any lingering command prompts. Later in this article, we describe why you might want to leave the Node process running.
 
-    (5) Project files such as *app.js* show up under the project node. *app.js* is the project startup file and that is why it shows up in **bold**. You can set the startup file by right-clicking a file in the project and selecting **Set as Node.js startup file**.
+### Debugging the Node process 
 
-1. Open the **npm** node and make sure that all the required npm packages are present.
+In the dropdown next to the **Start** button, you should see the following start options:
+- localhost (Edge)
+- localhost (Chrome)
+- Debug Dev Env
+- Launch Node and Browser
 
-    If any packages are missing (exclamation point icon), you can right-click the **npm** node and choose **Install npm Packages**.
+Go ahead and select the **Launch Node and Browser** option. Now, before pressing **F5** or selecting the **Start** button again, set a breakpoint in `index.js` (in the **routes** folder) by selecting the left gutter before the following line of code: `res.render('index', { title: 'Express' });`
 
-## Add some code
+> [!TIP]
+> You can also put your cursor on a line of code and hit **F9** to toggle the breakpoint for that line. 
 
-The application uses Pug for the front-end JavaScript framework. Pug uses simple markup code that compiles to HTML. (Pug is set as the view engine in *app.js*. The code that sets the view engine in *app.js* is `app.set('view engine', 'pug');`.)
+Then, press **F5** or select **Debug** > **Start Debugging** to debug your app.
 
-1. In Solution Explorer (right pane), open the views folder, then open *index.pug*.
+You should see the debugger pause at the breakpoint you just set. While it is paused, you can inspect your app state. Hovering over variables will let you examine their properties.
 
-1. Replace the content with the following markup.
+When you're finished inspecting the state, hit **F5** to continue, and your app should load as expected. 
 
-    ```js
-    extends layout
+This time, if you hit stop, you will notice that both the browser and the command prompt windows close. To see why, take a closer look at the *launch.json*.
 
-    block content
-      h1= title
-      p Welcome to #{title}
-      script.
-        var f1 = function() { document.getElementById('myImage').src='#{data.item1}' }
-      script.
-        var f2 = function() { document.getElementById('myImage').src='#{data.item2}' }
-      script.
-        var f3 = function() { document.getElementById('myImage').src='#{data.item3}' }
+### Understanding the *launch.json*
 
-      button(onclick='f1()') One!
-      button(onclick='f2()') Two!
-      button(onclick='f3()') Three!
-      p
-      a: img(id='myImage' height='200' width='200' src='')
-    ```
+The `launch.json` is currently located in the `.vscode` folder. If you cannot see the `.vscode` folder in **Solution Explorer**, select **Show All Files**. 
 
-    The preceding code is used to dynamically generate an HTML page with a title and welcome message. The page also includes code to display an image that changes whenever you press a button.
+If you have worked with Visual Studio Code before, the `launch.json` file will look familiar. The `launch.json` here works in much the same way as it does in Visual Studio Code to denote launch configurations used for debugging. Each entry specifies one or more targets to be debugged. 
 
-1. In the routes folder, open *index.js*.
+The first two entries are browser entries, and they should look something like this:
 
-1. Add the following code before the call to `router.get`:
-
-    ```js
-    var getData = function () {
-        var data = {
-            'item1': 'http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-76.jpg',
-            'item2': 'http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-77.jpg',
-            'item3': 'http://public-domain-photos.com/free-stock-photos-1/flowers/cactus-78.jpg'
-        }
-        return data;
+```json
+    {
+      "name": "localhost (Edge)",
+      "type": "edge",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}\\public"
+    },
+    {
+      "name": "localhost (Chrome)",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}\\public"
     }
-    ````
+```
 
-    This code creates a data object that you pass to the dynamically generated HTML page.
+You can see in the above entries that the `type` is set to a browser type. If you launch with only a browser type as the sole debug target, Visual Studio will debug only the frontend browser process, and the Node process will be started without a debugger attached, meaning that any breakpoints that are set in the Node process **will not** bind. 
 
-1. Replace the `router.get` function call with the following code:
+Upon stopping the session, the Node process will also continue to run. It is intentionally left running when a browser is the debug target, because if work is solely being done on the frontend, having the backend process continuously running eases the development workflow.
 
-    ```js
-    router.get('/', function (req, res) {
-        res.render('index', { title: 'Express', "data" });
-    });
-    ```
+At the start of [this section](#debug-your-app), you closed the lingering command prompt window in order to set breakpoints in the Node process. For the Node process to be debuggable, it must be restarted with the debugger attached. If a non-debuggable Node process is left running, attempting to launch the Node process in debug mode (without reconfiguring the port) **will fail**. 
 
-    The preceding code sets the current page using the Express router object and renders the page, passing the title and data object to the page. The *index.pug* file is specified here as the page to load when *index.js* runs. *index.js* is configured as the default route in *app.js* code (not shown).
+> [!NOTE]
+> Currently, `edge` and `chrome` are the only supported browser types for debugging.
 
-    To demonstrate several features of Visual Studio, there's a deliberate error in the line of code containing `res.render`. You need to fix the error before the app can run, which you do in the next section.
+The third entry in the `launch.json` specifies `node` as the debug type, and it should look something like this:
 
-## Use IntelliSense
+```
+    {
+      "name": "Debug Dev Env",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/bin",
+      "program": "${workspaceFolder}/bin/www",
+      "stopOnEntry": true
+    }
+```
 
-IntelliSense is a Visual Studio tool that assists you as you write code.
+This entry will launch only the Node process in debug mode. No browser will be launched.
 
-1. In *index.js*, go to the line of code containing `res.render`.
+The fourth entry provided in the "launch.json* is the following compound launch configuration.
 
-1. Put your cursor after the `data` string, type `: get` and IntelliSense will show you the `getData` function defined earlier in the code. Select `getData`.
+```
+    {
+      "name": "Launch Node and Browser",
+      "configurations": [
+        "Debug Dev Env",
+        "localhost (Edge)"
+      ]
+    }
+```
 
-    ![Use IntelliSense](../javascript/media/tutorial-nodejs-intellisense.png)
+This compound configuration is the same as a [vscode compound launch configuration](https://code.visualstudio.com/docs/editor/debugging#_compound-launch-configurations), and selecting it allows you to debug both the frontend and backend. You can see that it simply references the individual launch configurations for the Node and browser processes. 
 
-1. Add the parentheses to make it a function call, `getData()`.
+There are many other attributes you can use in a launch configuration. For example, you can hide a configuration from the dropdown, but still have it be referenceable, by setting the `hidden` attribute in the `presentation` object to `true`.
 
-1. Remove the comma (`,`) before `"data"` and you see green syntax highlighting on the expression. Hover over the syntax highlighting.
+```
+    {
+      "name": "localhost (Chrome)",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}\\public",
+      "presentation": {
+        "hidden": true
+      }
+    }
+```
 
-    ![View syntax error](../javascript/media/tutorial-nodejs-syntax-checking.png)
-
-    The last line of this message tells you that the JavaScript interpreter expected a comma (`,`).
-
-1. In the lower pane, click the **Error List** tab and select **Build + IntelliSense** for the type of issues reported.
-
-    You see the warning and description along with the filename and line number.
-
-    ![View error list](../javascript/media/tutorial-nodejs-error-list.png)
-
-1. Fix the code by adding the comma (`,`) before `"data"`.
-
-    When corrected, line of code should look like this: `res.render('index', { title: 'Express', "data": getData() });`
-
-## Set a breakpoint
-
-You're next going to run the app with the Visual Studio debugger attached. Before doing that, you need to set a breakpoint.
-
-1. In *index.js*, click in the left gutter before the following line of code to set a breakpoint:
-
-    `res.render('index', { title: 'Express', "data": getData() });`
-
-    Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run.
-
-    ![Set a breakpoint](../javascript/media/tutorial-nodejs-set-breakpoint.png)
-
-## Run the application
-
-1. Select the debug target in the Debug toolbar, such as **Web Server (Google Chrome)** or **Web Server (Microsoft Edge)**.
-
-    ::: moniker range=">=vs-2019"
-    ![Select the debug target](../javascript/media/vs-2019/tutorial-nodejs-deploy-target.png)
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    ![Select the debug target](../javascript/media/tutorial-nodejs-deploy-target.png)
-    ::: moniker-end
-
-    If Chrome is available on your machine, but does not show up as an option, choose **Browse With** from the debug target dropdown list, and select Chrome as the default browser target (choose **Set as Default**).
-
-1. Press **F5** (**Debug** > **Start Debugging**) to run the application.
-
-    The debugger pauses at the breakpoint you set. Now, you can inspect your app state.
-
-1. Hover over `getData` to see its properties in a DataTip
-
-    ![Inspect variables](../javascript/media/tutorial-nodejs-inspect-variables.png)
-
-1. Press **F5** (**Debug** > **Continue**) to continue.
-
-    The app opens in a browser.
-
-    In the browser window, you will see "Express" as the title and "Welcome to Express" in the first paragraph.
-
-1. Click the buttons to display different images.
-
-    ![App running in browser](../javascript/media/tutorial-nodejs-running-in-browser.png)
-
-1. Close the web browser.
-
-## (Optional) Publish to Azure App Service
-
-1. In Solution Explorer, right-click the project and choose **Publish**.
-
-   ![Publish to Azure App Service](../javascript/media/tutorial-nodejs-publish-to-azure.png)
-
-1. Choose **Microsoft Azure App Service**.
-
-    In the **App Service** dialog box, you can sign into your Azure account and connect to existing Azure subscriptions.
-
-1. Follow the remaining steps to select a subscription, choose or create a resource group, choose or create an app service plane, and then follow the steps when prompted to publish to Azure. For more detailed instructions, see [Publish to Azure website using web deploy](https://github.com/Microsoft/nodejstools/wiki/Publish-to-Azure-Website-using-Web-Deploy).
-
-1. The **Output** window shows progress on deploying to Azure.
-
-    On successful deployment, your app opens in a browser running in Azure App Service. Click a button to display an image.
-
-   ![App running in Azure App Service](../javascript/media/tutorial-nodejs-running-in-azure.png)
-
-Congratulations on completing this tutorial!
-
-## Next steps
-
-> [!div class="nextstepaction"]
-> [Deploy the app to Linux App Service](../javascript/publish-nodejs-app-azure.md)
-
-> [!div class="nextstepaction"]
-> [AngularJS language service extension](https://devblogs.microsoft.com/visualstudio/angular-language-service-for-visual-studio)
+Click [Options](https://github.com/microsoft/vscode-js-debug/blob/main/OPTIONS.md) for a list of attributes you can use to enhance your debugging experience. Please note that at the moment, only **launch** configurations are supported. Any attempt to use an **attach** configuration will result in a deployment failure.

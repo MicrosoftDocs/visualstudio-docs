@@ -1,25 +1,22 @@
 ---
 title: Build Page, Project Designer (C#)
 description: Learn how to use the Build page of the Project Designer in Visual Studio to specify the project's build configuration properties.
-ms.custom: SEO-VS-2020
 ms.date: 06/20/2017
-ms.technology: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: reference
 f1_keywords:
 - cs.ProjectPropertiesBuild
 helpviewer_keywords:
 - Build options [C#]
 - Project Designer, Build page
-ms.assetid: 77ff1bfc-d633-4634-ba29-9afdb6d7e362
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.workload:
-- dotnet
+manager: mijacobs
+monikerRange: 'vs-2019'
 ---
 # Build Page, Project Designer (C#)
 
-Use the **Build** page of the **Project Designer** to specify the project's build configuration properties. This page applies to [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] projects only.
+Use the **Build** page of the **Project Designer** to specify the project's build configuration properties. This page applies to Visual C# projects only.
 
 To access the **Build** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **View**, **Property Pages** on the menu. When the Project Designer appears, choose the **Build** tab.
 
@@ -131,7 +128,7 @@ Specifies the name of a file into which documentation comments will be processed
 
 **Register for COM interop**
 
-Indicates that your managed application will expose a COM object (a COM callable wrapper) that allows a COM object to interact with your managed application. The **Output type** property in the [Application page](../../ide/reference/application-page-project-designer-visual-basic.md) of the **Project Designer** for this application must be set to **Class Library** in order for the **Register for COM interop** property to be available. For an example class that you might include in your [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] application and expose as a COM object, see [Example COM Class](/dotnet/csharp/programming-guide/interop/example-com-class).
+Indicates that your managed application will expose a COM object (a COM callable wrapper) that allows a COM object to interact with your managed application. The **Output type** property in the [Application page](../../ide/reference/application-page-project-designer-visual-basic.md) of the **Project Designer** for this application must be set to **Class Library** in order for the **Register for COM interop** property to be available. For an example class that you might include in your Visual C# application and expose as a COM object, see [Example COM Class](/dotnet/csharp/programming-guide/interop/example-com-class).
 
 **Generate serialization assembly**
 

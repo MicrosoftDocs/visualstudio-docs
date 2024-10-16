@@ -1,20 +1,17 @@
 ---
 title: Generate class or type
 description: Learn how to use the Quick Actions and Refactorings menu to immediately generate the code for a class or type.
-ms.custom: SEO-VS-2020
 ms.date: 01/26/2018
 ms.topic: reference
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 f1_keywords:
 - vsl.GenerateFromUsage
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- dotnet
 ---
 # Generate a class or type in Visual Studio
 

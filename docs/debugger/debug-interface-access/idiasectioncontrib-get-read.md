@@ -1,27 +1,26 @@
 ---
-description: "Retrieves a flag that indicates whether the section can be read."
-title: "IDiaSectionContrib::get_read | Microsoft Docs"
+description: Retrieves a flag that indicates whether the section can be read.
+title: "IDiaSectionContrib::get_read"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSectionContrib::get_read method"
-ms.assetid: 68bfb35c-eabd-412a-bc8f-3094703b98c4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_read
+
 Retrieves a flag that indicates whether the section can be read.
 
 ## Syntax
 
 ```C++
-HRESULT get_read ( 
+HRESULT get_read ( 
    BOOL* pRetVal
 );
 ```

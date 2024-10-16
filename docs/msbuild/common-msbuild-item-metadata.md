@@ -1,7 +1,6 @@
 ---
-title: Common MSBuild item metadata | Microsoft Docs
+title: Common MSBuild item metadata
 description: Learn about optional item metadata that have meaning for some MSBuild SDKs or targets, but aren't set by default for every item.
-ms.custom: SEO-VS-2020
 ms.date: 07/13/2020
 ms.topic: reference
 dev_langs:
@@ -11,13 +10,10 @@ dev_langs:
 helpviewer_keywords:
 - msbuild, common item metadata
 - item metadata (MSBuild)
-ms.assetid: 9857505d-ae15-42f1-936d-6cd7fb9dd276
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # Common MSBuild item metadata
 

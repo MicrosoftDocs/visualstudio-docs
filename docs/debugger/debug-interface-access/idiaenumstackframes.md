@@ -1,21 +1,20 @@
 ---
-description: "Enumerates the various stack frames available."
-title: "IDiaEnumStackFrames | Microsoft Docs"
+description: Enumerates the various stack frames available.
+title: IDiaEnumStackFrames
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumStackFrames interface"
-ms.assetid: 3d1e8403-c9fc-42ff-ae35-0ab9a5ed2ad7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumStackFrames
+
 Enumerates the various stack frames available.
 
 ## Methods in Vtable Order
@@ -28,12 +27,14 @@ Enumerates the various stack frames available.
 ## Remarks
 
 ## Notes for Callers
+
 Obtain this interface by calling the [IDiaStackWalker::getEnumFrames](../../debugger/debug-interface-access/idiastackwalker-getenumframes.md) or [IDiaStackWalker::getEnumFrames2](../../debugger/debug-interface-access/idiastackwalker-getenumframes2.md) methods.
 
 ## Example
+
 This example shows how to obtain and use the `IDiaEnumStackFrames` interface. See the [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md) interface for an implementation of the `PrintStackFrame` function.
 
-```C++
+```c++
 void DumpStackFrames(IDiaStackWalker*     pStackWalker,
                      IDiaStackWalkHelper* pStackWalkHelper,
                      CV_CPU_TYPE_e        cpuType)
@@ -59,6 +60,7 @@ void DumpStackFrames(IDiaStackWalker*     pStackWalker,
 ```
 
 ## Requirements
+
 Header: Dia2.h
 
 Library: diaguids.lib
@@ -66,6 +68,7 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See also
+
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md)
 - [IDiaStackWalker::getEnumFrames2](../../debugger/debug-interface-access/idiastackwalker-getenumframes2.md)

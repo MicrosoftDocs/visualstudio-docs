@@ -1,25 +1,24 @@
 ---
 description: "IDiaSession::findInlineFramesByVA retrieves an enumeration that allows a client to iterate through all of the inline frames on a specified virtual address (VA)."
-title: "IDiaSession::findInlineFramesByVA | Microsoft Docs"
+title: "IDiaSession::findInlineFramesByVA"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: df9e68f6-e0a4-4cf6-b11d-61c40351e0cd
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findInlineFramesByVA
+
 Retrieves an enumeration that allows a client to iterate through all of the inline frames on a specified virtual address (VA).
 
 ## Syntax
 
 ```C++
-HRESULT findInlineFramesByVA ( 
+HRESULT findInlineFramesByVA ( 
    IDiaSymbol*       parent,   ULONGLONG         va,
    IDiaEnumSymbols** ppResult
 );

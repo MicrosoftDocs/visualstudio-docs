@@ -1,28 +1,36 @@
 ---
 description: "Specifies where an assembly is located."
-title: ASSEMBLYLOCRESOLUTION | Microsoft Docs
+title: ASSEMBLYLOCRESOLUTION
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - ASSEMBLYLOCRESOLUTION
 helpviewer_keywords:
 - ASSEMBLYLOCRESOLUTION enumeration
-ms.assetid: 0bcfe85c-5f37-4a9d-bf2b-141acd96ad67
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # ASSEMBLYLOCRESOLUTION
+
 Specifies where an assembly is located.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_ASSEMBLYLOCRESOLUTION {
+    ALR_NAME      = 0x0,
+    ALR_USERDIR   = 0x1,
+    ALR_SHAREDDIR = 0x2,
+    ALR_REMOTEDIR = 0x4,
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_ASSEMBLYLOCRESOLUTION {
     ALR_NAME      = 0x0,
@@ -32,15 +40,7 @@ enum enum_ASSEMBLYLOCRESOLUTION {
 };
 typedef DWORD ASSEMBLYLOCRESOLUTION;
 ```
-
-```csharp
-public enum enum_ASSEMBLYLOCRESOLUTION {
-    ALR_NAME      = 0x0,
-    ALR_USERDIR   = 0x1,
-    ALR_SHAREDDIR = 0x2,
-    ALR_REMOTEDIR = 0x4,
-};
-```
+---
 
 ## Fields
 `ALR_NAME`\

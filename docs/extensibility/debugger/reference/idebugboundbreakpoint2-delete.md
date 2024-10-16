@@ -1,6 +1,6 @@
 ---
 description: "Deletes the breakpoint."
-title: IDebugBoundBreakpoint2::Delete | Microsoft Docs
+title: IDebugBoundBreakpoint2::Delete
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,31 +8,31 @@ f1_keywords:
 helpviewer_keywords:
 - Delete method
 - IDebugBoundBreakpoint2::Delete method
-ms.assetid: 7088dc66-f24a-446f-a52a-397d02457a41
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugBoundBreakpoint2::Delete
+
 Deletes the breakpoint.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Delete();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Delete( 
     void 
 );
 ```
-
-```csharp
-int Delete();
-```
+---
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_BP_DELETED` if the state of the bound breakpoint object is set to `BPS_DELETED` (part of the [BP_STATE](../../../extensibility/debugger/reference/bp-state.md) enumeration).

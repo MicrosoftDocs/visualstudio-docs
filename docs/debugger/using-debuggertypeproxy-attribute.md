@@ -1,8 +1,7 @@
 ---
-title: Display custom type using DebuggerTypeProxy | Microsoft Docs
+title: Display custom type using DebuggerTypeProxy
 description: Use an instance of DebuggerTypeProxyAttribute to specify a proxy (stand-in) for a type, to change how the type is displayed in debugger windows.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 04/22/2022
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -13,13 +12,10 @@ helpviewer_keywords:
   - attributes [C#], debugger
   - DebuggerTypeProxyAttribute class
   - DebuggerTypeProxy attribute
-ms.assetid: 943f3bb1-993e-4800-a47e-0af78b063014
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Tell the debugger what type to show using DebuggerTypeProxy Attribute (C#, Visual Basic, C++/CLI)
 
@@ -46,6 +42,9 @@ If <xref:System.Diagnostics.DebuggerTypeProxyAttribute> is used at the assembly 
 
 For an example of how to use this attribute along with <xref:System.Diagnostics.DebuggerDisplayAttribute> and <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, see [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md).
 
+> [!IMPORTANT]
+> If the **Show raw structure of objects in variables windows** check box is selected in the **Tools / Options / Debugging** dialog box, then the `DebuggerDisplay` attribute is ignored.
+
 ## Using Generics with DebuggerTypeProxy
 
 Support for generics is limited. For C#, `DebuggerTypeProxy` supports only open types. An open type, also called an unconstructed type, is a generic type that has not been instantiated with arguments for its type parameters. Closed types, also called constructed types, are not supported.
@@ -62,7 +61,7 @@ Visual Basic does not have open type syntax, so you cannot do the same thing in 
 
 `"Namespace.TypeName'2"`
 
-## See also
+## Related content
 
 - [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)
 - [Create custom views of managed objects](../debugger/create-custom-views-of-managed-objects.md)

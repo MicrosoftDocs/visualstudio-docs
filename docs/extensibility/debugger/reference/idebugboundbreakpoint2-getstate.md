@@ -1,6 +1,6 @@
 ---
 description: "Gets the state of this bound breakpoint."
-title: IDebugBoundBreakpoint2::GetState | Microsoft Docs
+title: IDebugBoundBreakpoint2::GetState
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,33 +8,33 @@ f1_keywords:
 helpviewer_keywords:
 - GetState method
 - IDebugBoundBreakpoint2::GetState method
-ms.assetid: a40a8382-295e-4916-aae6-ffe3a9cd3f2d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugBoundBreakpoint2::GetState
+
 Gets the state of this bound breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT GetState( 
-    BP_STATE* pState
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetState( 
     out enum_BP_STATE pState
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetState( 
+    BP_STATE* pState
+);
+```
+---
 
 ## Parameters
 `pState`\

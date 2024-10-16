@@ -1,6 +1,6 @@
 ---
-description: "If a function has a defined point at which debugging is to begin, that point is identified by a symbol with a SymTagFuncDebugStart tag."
-title: "FuncDebugStart | Microsoft Docs"
+description: If a function has a defined point at which debugging is to begin, that point is identified by a symbol with a SymTagFuncDebugStart tag.
+title: FuncDebugStart
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -8,19 +8,19 @@ dev_langs:
 helpviewer_keywords:
   - "FuncDebugStart symbol"
   - "debugging [DIA SDK], start point"
-ms.assetid: 1cbc6ca5-87d0-4c30-a39e-0a9dc62ce1a9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # FuncDebugStart
+
 If a function has a defined point at which debugging is to begin, that point is identified by a symbol with a `SymTagFuncDebugStart` tag.
 
 ## Properties
- The following table shows the properties that are valid for this symbol type.
+
+The following table shows the properties that are valid for this symbol type.
 
 |Property|Data type|Description|
 |--------------|---------------|-----------------|
@@ -44,6 +44,7 @@ If a function has a defined point at which debugging is to begin, that point is 
 |[IDiaSymbol::get_virtualAddress](../../debugger/debug-interface-access/idiasymbol-get-virtualaddress.md)|`ULONGLONG`|Position of the function within the executable.|
 
 ## See also
+
 - [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
 - [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)
 - [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md)

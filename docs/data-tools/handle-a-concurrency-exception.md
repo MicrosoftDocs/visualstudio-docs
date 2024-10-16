@@ -1,7 +1,6 @@
 ---
-title: Handle a concurrency exception
-description: Handle a concurrency exception (System.Data.DBConcurrencyException), which is raised when two users try to change the same data in a database at the same time.
-ms.custom: SEO-VS-2020
+title: Handle concurrency exceptions in .NET Framework
+description: Handle a concurrency exception (System.Data.DBConcurrencyException) in Visual Studio when two users try to change the same data in a database at the same time.
 ms.date: 09/11/2017
 ms.topic: how-to
 dev_langs:
@@ -14,21 +13,21 @@ helpviewer_keywords:
 - data concurrency, walkthroughs
 - updating datasets, errors
 - concurrency control, walkthroughs
-ms.assetid: 73ee9759-0a90-48a9-bf7b-9d6fc17bff93
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
-# Handle a concurrency exception
+
+# Handle a concurrency exception in .NET Framework database applications
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 Concurrency exceptions (<xref:System.Data.DBConcurrencyException?displayProperty=fullName>) are raised when two users attempt to change the same data in a database at the same time. In this walkthrough, you create a Windows application that illustrates how to catch a <xref:System.Data.DBConcurrencyException>, locate the row that caused the error, and learn a strategy for how to handle it.
 
 This walkthrough takes you through the following process:
 
-1. Create a new **Windows Forms Application** project.
+1. Create a new **Windows Forms App (.NET Framework)** project.
 
 2. Create a new dataset based on the Northwind Customers table.
 
@@ -54,7 +53,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
        A query editor window opens.
 
-    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/master/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
+    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
@@ -105,7 +104,7 @@ In this section, you create a <xref:System.Windows.Forms.DataGridView?displayPro
 
 2. In the **Data Sources** window, expand the **NorthwindDataSet** node, and then select the **Customers** table.
 
-3. Select the down arrow on the table node, and then select **DataGridView** in the drop-down list.
+3. Select the down arrow on the table node, and then select **DataGridView** in the dropdown list.
 
 4. Drag the table onto an empty area of your form.
 
@@ -154,13 +153,21 @@ When you attempt to perform an update and an exception is raised, you generally 
 
 1. Add the following code below the `Form1_Load` method:
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataConcurrency/CS/Form1.cs" id="Snippet1":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConcurrency/VB/Form1.vb" id="Snippet1":::
+   ---
 
 2. Replace the `CustomersBindingNavigatorSaveItem_Click` method to call the `UpdateDatabase` method so it looks like the following:
 
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataConcurrency/CS/Form1.cs" id="Snippet2":::
+
+   ### [VB](#tab/vb)
    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConcurrency/VB/Form1.vb" id="Snippet2":::
+   ---
 
 ### Display choices to the user
 
@@ -168,8 +175,14 @@ The code you just wrote calls the `CreateMessage` procedure to display error inf
 
 Create the message by adding the following code to the **Code Editor**. Enter this code below the `UpdateDatabase` method:
 
+### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataConcurrency/CS/Form1.cs" id="Snippet4":::
+
+### [VB](#tab/vb)
+
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConcurrency/VB/Form1.vb" id="Snippet4":::
+---
 
 ### Process the user's response
 
@@ -177,8 +190,14 @@ You also need code to process the user's response to the message box. The option
 
 Add the following code below the code that was added in the previous section:
 
+### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataConcurrency/CS/Form1.cs" id="Snippet3":::
+
+### [VB](#tab/vb)
+
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConcurrency/VB/Form1.vb" id="Snippet3":::
+---
 
 ## Test the form behavior
 
@@ -209,6 +228,6 @@ You can now test the form to make sure it behaves as expected. To simulate a con
 
    Selecting **No** cancels the update and updates the dataset with the values that are currently in the database. Selecting **Yes** writes the proposed value to the database.
 
-## See also
+## Related content
 
 - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

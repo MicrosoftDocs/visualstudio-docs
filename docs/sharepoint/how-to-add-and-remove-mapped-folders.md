@@ -1,7 +1,6 @@
 ---
-title: "How to: Add and Remove Mapped Folders | Microsoft Docs"
-description: Add and remove mapped folders to a project in SharePoint.  Change the deployment location of a mapped folder. Rename or remove mapped folders.
-ms.custom: SEO-VS-2020
+title: "Add and Remove Mapped Folders"
+description: Add and remove mapped folders to a project in SharePoint, change the deployment location of a mapped folder, and rename or remove mapped folders.
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:
@@ -14,12 +13,10 @@ helpviewer_keywords:
   - "mapped folders [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
-# How to: add and remove mapped folders
+# add and remove mapped folders
 
   Some commonly used folders in SharePoint, such as Images and Layouts, are deeply embedded in the file hierarchy. You can map these folders into a SharePoint project to access them more easily. Mapped folders are folders in the SharePoint project that correspond to the physical location of the files in the installation of SharePoint Server.
 
@@ -33,20 +30,12 @@ ms.workload:
 ## To add mapped folders to a project
 
 1. On the menu bar, choose **File** > **New** > **Project**.
-::: moniker range="=vs-2017"
-2. In the **New Project** dialog box, expand either the **Visual Basic** or **Visual C#** node, expand the **Office/SharePoint** node, and then choose the **SharePoint Solutions** node.
 
-3. In the list of project templates, choose the **SharePoint 2013 Visual Web Part** template.
-
-4. In the **Name** box, enter **TestProject1**, and then choose the **OK** button.
-::: moniker-end
-::: moniker range=">=vs-2019"
 2. On the **Create a New Project** dialog select the *SharePoint Visual Web Part** for the particular version of SharePoint you have installed. For example, if you have SharePoint 2019 install select the **SharePoint 2019 Visual Web Part** template.
     [!INCLUDE[new-project-dialog-search](../sharepoint/includes/new-project-dialog-search-md.md)]
 
 3. In the **Name** box, enter **TestProject1**
 4. Then choose the **Create** button.
-::: moniker-end
 
 5. In the **SharePoint Customization Wizard**, choose the **Finish** button to retain the default settings.
 
@@ -86,6 +75,6 @@ ms.workload:
 
 3. To remove a mapped folder from the project, open its shortcut menu, choose **Delete**, and then choose the **OK** button in the dialog box to confirm the removal.
 
-## See also
+## Related content
 
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

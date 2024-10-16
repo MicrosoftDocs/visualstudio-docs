@@ -1,7 +1,6 @@
 ---
-title: Otherwise Element (MSBuild) | Microsoft Docs
+title: Otherwise Element (MSBuild)
 description: Learn how MSBuild uses the Otherwise element to specify the block of code to execute if and only if the conditions of all When elements are false.
-ms.custom: SEO-VS-2020
 ms.date: 03/13/2017
 ms.topic: reference
 f1_keywords:
@@ -10,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - <Otherwise> Element [MSBuild]
 - Otherwise Element [MSBuild]
-ms.assetid: de3997e9-1595-4263-a886-95530b56a319
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # Otherwise element (MSBuild)
 

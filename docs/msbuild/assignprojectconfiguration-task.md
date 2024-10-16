@@ -1,21 +1,16 @@
 ---
-title: AssignProjectConfiguration Task | Microsoft Docs
+title: AssignProjectConfiguration Task
 description: Use the MSBuild AssignProjectConfiguration task to accept a list of configuration strings and assign them to specified projects.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
-ms.assetid: 09633a0b-8f6f-4aba-8058-7cb4d13ce2c0
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # AssignProjectConfiguration task
 

@@ -1,29 +1,27 @@
 ---
-title: "Class Hierarchy of Symbol Types | Microsoft Docs"
-description: Review a list of symbol types in the class hierarchy of the Visual Studio debug interface access SDK.
-ms.custom: SEO-VS-2020
+title: Class Hierarchy of Symbol Types
+description: Review a list of symbol types in the class hierarchy of the Visual Studio Debug Interface Access SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "symbols [DIA SDK], class hierarchies"
-ms.assetid: 0ccd6990-4654-44cd-a6f3-bdd82fe90f6c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # Class Hierarchy of Symbol Types
+
 The following table describes the symbol types in the class hierarchy.
 
 ## Symbol Types
 
 |Symbol type|Description|
 |-----------------|-----------------|
-|[UDT](../../debugger/debug-interface-access/udt.md)|Symbol used to represent each class, structure, and union.|
+|[user-defined type (UDT)](../../debugger/debug-interface-access/udt.md)|Symbol used to represent each class, structure, and union.|
 |[Enum (Debug Interface Access SDK)](../../debugger/debug-interface-access/enum-debug-interface-access-sdk.md)|Symbol for enumerated types.|
 |[PointerType](../../debugger/debug-interface-access/pointertype.md)|Symbol for pointer types.|
 |[ArrayType](../../debugger/debug-interface-access/arraytype.md)|Symbol for array types.|
@@ -43,6 +41,7 @@ The following table describes the symbol types in the class hierarchy.
 > Each symbol can have properties that hold information about the symbol, as well as references to other symbols. These properties are listed in the individual symbol topics.
 
 ## See also
+
 - [CV_access_e Enumeration](../../debugger/debug-interface-access/cv-access-e.md)
 - [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
 - [Symbols and Symbol Tags](../../debugger/debug-interface-access/symbols-and-symbol-tags.md)

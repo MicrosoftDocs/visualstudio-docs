@@ -1,14 +1,15 @@
---- 
+---
 title:  Resolve bulk upload issues
 description: The super admin or admin thought they assigned the users to the new agreement, but they added the users to the wrong agreement.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.topic: include
-ms.assetid: 273f5f7a-739e-4de0-b7f7-d0bdd616e059  
-author: CaityBuschlen 
-ms.author: cabuschl 
-ms.date:  06/01/2021
-user.type: admin 
-tags:  
-subscription.type: vl, cloud, retail, partner 
+ms.assetid: 273f5f7a-739e-4de0-b7f7-d0bdd616e059
+author: joseb-rdc
+ms.author: amast
+ms.date:  04/09/2024
+user.type: admin
+tags: bulk, upload
+subscription.type: vl, cloud, retail, partner
 sap.id: b84fffb5-3363-eb7d-224e-1c63faf4067b
 ---
 
@@ -24,11 +25,12 @@ First, be sure to upload the subscribers to the correct agreement, and then dele
 2. After you find the subscribers to remove, select the check box beside the users. There's no limit to the number of users you can select at a time. You can also select the first user in a list that you want to remove, then select Shift, and then select the last user in the list. These steps select all the users in the list. You can also select the check icon at the top of the list to select all users. 
 3. Select **Delete** at the top of the grid, and then confirm deletion.
 
-## Azure Active Directory (Azure AD) group
+<a name='microsoft-entra-id-group'></a>
 
-If the users were added through an Azure AD group, you need to remove the users from the Azure AD group directly. After the users are removed from the group, it can take up to 24 hours for the deletion to be visible in the admin portal. 
+## Microsoft Entra group
 
-## Impact of moving subscriptions
+If the users were added through a Microsoft Entra group, you need to remove the users from the Microsoft Entra group directly. After the users are removed from the group, it can take up to 24 hours for the deletion to be visible in the admin portal. 
 
-When subscribers are moved to a new agreement, they receive a new subscription ID. This change breaks the link with their Azure subscription associated with the monthly Azure credit benefit. When the link is broken, the old Azure subscription is subject to eventual deactivation. To avoid disruption, subscribers need to create a new Azure subscription by using the benefit in their new Visual Studio subscription, and then [transfer any existing Azure assets](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) from the old Azure subscription to the new one.
+## Effects of moving subscriptions
 
+When subscribers are moved to a new agreement, they receive a new subscription ID. This change breaks the link with their Azure subscription associated with the monthly Azure credit benefit. When the link is broken, the old Azure subscription is subject to eventual deactivation. To avoid disruption, subscribers need to create a new Azure subscription by using the benefit in their new Visual Studio subscription, and then [transfer any existing Azure assets](https://learn.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) from the old Azure subscription to the new one.

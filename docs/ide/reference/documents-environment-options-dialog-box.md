@@ -1,8 +1,7 @@
 ---
 title: Documents, Environment, Options Dialog Box
 description: Learn how to use the Environments page in the Documents section to control the display of documents in the IDE and manage external changes to documents and files.
-ms.custom: SEO-VS-2020
-ms.date: 03/28/2019
+ms.date: 9/26/2024
 ms.topic: reference
 f1_keywords:
 - VS.Environment.Documents
@@ -27,17 +26,18 @@ helpviewer_keywords:
 - Options dialog box, Documents page
 - warnings, files changed
 - Solution Explorer, displaying files in
-ms.assetid: 4e3ccf1b-cd68-4db6-9470-710c911b47fc
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: anandmeg
+ms.author: meghaanand
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Options dialog box: Environment \> Documents
 
-Use this page of the **Options** dialog box to control the display of documents in the integrated development environment (IDE) and manage external changes to documents and files. You can access this dialog box by clicking **Options** on the **Tools** menu and then selecting **Environment** > **Documents**.
+Use this page of the **Options** dialog box to control the display of documents in the integrated development environment (IDE) and manage external changes to documents and files.
+
+To access this dialog box, go to **Tools** > **Options** > **Environment** > **Documents**.
+
+:::image type="content" source="media/documents-options.png" alt-text="Screenshot of the Documents section in the Options dialog box":::
 
 **Detect when file is changed outside the environment**
 
@@ -72,13 +72,23 @@ Select this option to display the **Miscellaneous Files** node in **Solution Exp
 
 **Items saved in the Miscellaneous files project**
 
-Specifies the number of files to persist in the **Miscellaneous Files** folder of **Solution Explorer**. These files are listed even if they are no longer open in an editor. You can specify any whole number from 0 to 256. The default number is 0.
+Specifies the number of files to persist in the **Miscellaneous Files** folder of **Solution Explorer**. These files are listed even if they are no longer open in an editor. You can specify any whole number from 0 to 99. The default number is 0.
 
 For example, if you set this option to 5 and have 10 miscellaneous files open, when you close all 10 files, the first 5 will still be shown in the **Miscellaneous Files** folder.
 
 **Save documents as Unicode when data cannot be saved in codepage**
 
 Select this option to cause files containing information incompatible with the selected codepage to be saved as Unicode by default.
+
+::: moniker range="vs-2022"
+
+**Automatically save files when Visual Studio is in the background**
+
+Select this option when you want Visual Studio, after it loses focus, to save every file in the IDE. This includes project files, solution files, and even miscellaneous files that aren’t part of the project or solution. The intent is that when you switch to another tool, all your changes in Visual Studio are committed to disk.
+
+To learn more, see the [Suffer from Ctrl+S fatigue? We have a feature for you](https://devblogs.microsoft.com/visualstudio/suffer-from-ctrls-fatigue-we-have-a-feature-for-you/) blog post.
+
+::: moniker-end
 
 ## See also
 

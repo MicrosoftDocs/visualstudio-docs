@@ -1,39 +1,39 @@
 ---
 description: "Get the process that this program is running in."
-title: IDebugProgram2::GetProcess | Microsoft Docs
+title: IDebugProgram2::GetProcess
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgram2::GetProcess
 helpviewer_keywords:
 - IDebugProgram2::GetProcess
-ms.assetid: 1d602485-ebaf-451c-9165-f2e226f20a90
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgram2::GetProcess
+
 Get the process that this program is running in.
 
 ## Syntax
 
-```cpp
-HRESULT GetProcess(
-   IDebugProcess2** ppProcess
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProcess(
    out IDebugProcess2 ppProcess
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProcess(
+   IDebugProcess2** ppProcess
+);
+```
+---
 
 ## Parameters
 `ppProcess`\

@@ -1,7 +1,6 @@
 ---
-title: Run UWP apps in the simulator | Microsoft Docs
+title: Run UWP apps in the simulator
 description: Understand how to run Universal Windows Platform (UWP) apps in the Visual Studio simulator, which is a desktop application that simulates a UWP app.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -9,13 +8,11 @@ dev_langs:
   - VB
   - FSharp
   - C++
-ms.assetid: 81b69bf8-ec87-4bb6-9ad4-1fa7b7802d16
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - uwp
+manager: mijacobs
+ms.subservice: debug-diagnostics
+monikerRange: '<= vs-2019'
 ---
 # Run UWP apps in the simulator
 
@@ -24,9 +21,6 @@ The Visual Studio simulator for UWP apps is a desktop application that simulates
 The simulator provides an environment in which you can design, develop, debug, and test UWP apps. However, before you publish your app to Microsoft Store, you should test your app on an actual device.
 
 The Visual Studio simulator for UWP apps does not run in an isolated environment on your local machine. Therefore, errors that occur in the simulator, such as a non-recoverable system-wide error, can also affect the entire machine.
-
-> [!IMPORTANT]
-> The Visual Studio 2015 simulator does not include the geolocation button. This is because the Windows 10 simulator does not include geolocation simulation.
 
 ## <a name="BKMK_Set_the_simulator_as_the_target"></a> Set the simulator as the target
 
@@ -96,7 +90,7 @@ The **Touch emulation rotate** button sets the interaction mode to rotation gest
  The screen size and resolution are listed as *Screen width inches, pixel width X pixel height*. Note that both the screen size and the resolution are simulated. Location coordinates on the simulator are translated to the selected device size and resolution.
 
 > [!NOTE]
-> You can save scaled versions of bitmap images in your app and Windows will load the correct image for the current scale. For more information, see [Design and UI intro](/windows/uwp/layout/design-and-ui-intro). However, if you change the simulator resolution so that Windows picks a different image to fit the resolution, you have to stop and restart your debug session to view the new image.
+> You can save scaled versions of bitmap images in your app and Windows will load the correct image for the current scale. However, if you change the simulator resolution so that Windows picks a different image to fit the resolution, you have to stop and restart your debug session to view the new image.
 
 ## <a name="BKMK_Capture_a_screenshot_of_your_app_for_submission_to_the_Microsoft_Store"></a> Capture a screenshot of your app for submission to Microsoft Store
  When you submit an app to Microsoft Store, you must include screenshots of the app.
@@ -140,10 +134,6 @@ For more information about managing network connections, see:
 
 [Network information sample](https://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)
 
-::: moniker range="vs-2017"
-[Analyze energy use](../profiling/analyze-energy-use-in-store-apps.md)
-::: moniker-end
-
 [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity)
 
 [How to respond to system events with background tasks](/previous-versions/windows/apps/hh977058(v=win.10))
@@ -156,6 +146,6 @@ You can navigate the simulator toolbar by pressing **CTRL + ALT + Up Arrow** to 
 
 You can shut down the simulator by pressing **CTRL + ALT + F4**.
 
-## See also
+## Related content
 
 - [Run apps from Visual Studio](debugging-windows-store-and-windows-universal-apps.md)

@@ -1,9 +1,8 @@
 ---
-title: "&lt;PackageFiles&gt; Element (Bootstrapper) | Microsoft Docs"
+title: "&lt;PackageFiles&gt; Element (Bootstrapper)"
 description: Learn about the PackageFiles element, which contains PackageFile elements that define the installation packages executed as a result of the Command element.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "FSharp"
   - "VB"
@@ -11,15 +10,13 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<PackageFiles> element [bootstrapper]"
-ms.assetid: 3ea252d7-18a3-47d8-af83-47feebcfe82b
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: deployment
 ---
 # &lt;PackageFiles&gt; element (bootstrapper)
+
 The `PackageFiles` element contains `PackageFile` elements, which define the installation packages executed as a result of the `Command` element.
 
 ## Syntax
@@ -52,7 +49,7 @@ The `PackageFiles` element contains `PackageFile` elements, which define the ins
 
 | Attribute | Description |
 |---------------| - |
-| `Name` | Required. The name of the package file. This is the name that the `Command` element will reference when it defines the conditions under which a package installs. This value is also used as a key into the `Strings` table to retrieve the localized name that tools such as [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will use to describe the package. |
+| `Name` | Required. The name of the package file. This is the name that the `Command` element will reference when it defines the conditions under which a package installs. This value is also used as a key into the `Strings` table to retrieve the localized name that tools such as Visual Studio will use to describe the package. |
 | `HomeSite` | Optional. The location of the package on the remote server, if it is not included with the installer. |
 | `CopyOnBuild` | Optional. Specifies whether the bootstrapper should copy the package file onto the disk at build time. The default is true. |
 | `PublicKey` | The encrypted public key of the package's certificate signer. Required if `HomeSite` is used; otherwise, optional. |

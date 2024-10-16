@@ -1,41 +1,41 @@
 ---
 description: "Notifies the debug package that text attributes have been updated in the document."
-title: IDebugDocumentTextEvents2::onUpdateTextAttributes | Microsoft Docs
+title: IDebugDocumentTextEvents2::onUpdateTextAttributes
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentTextEvents2::OnUpdateTextAttributes
 helpviewer_keywords:
 - IDebugDocumentTextEvents2::onUpdateTextAttributes
-ms.assetid: eb68d69a-1ad9-4ce4-84e1-40979ef16634
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugDocumentTextEvents2::onUpdateTextAttributes
+
 Notifies the debug package that text attributes have been updated in the document.
 
 ## Syntax
 
-```cpp
-HRESULT onUpdateTextAttributes( 
-   TEXT_POSITION pos,
-   DWORD         dwNumToUpdate
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int onUpdateTextAttributes( 
    enum_TEXT_POSITION pos,
    uint               dwNumToUpdate
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT onUpdateTextAttributes( 
+   TEXT_POSITION pos,
+   DWORD         dwNumToUpdate
+);
+```
+---
 
 ## Parameters
 `pos`\

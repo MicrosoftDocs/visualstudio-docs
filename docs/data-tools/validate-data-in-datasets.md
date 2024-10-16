@@ -1,7 +1,6 @@
 ---
-title: Validate data in datasets
-description: Learn to validate data in datasets. Validating data involves confirming that values entered into data objects conform to constraints within a dataset's schema.
-ms.custom: SEO-VS-2020
+title: Validate data in datasets in .NET Framework applications
+description: Learn to validate data in ADO.NET datasets in .NET Framework application development with Visual Studio. Validating data involves confirming that values entered into data objects conform to constraints within a dataset's schema.
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -17,22 +16,43 @@ helpviewer_keywords:
 - data validation
 - validating data, datasets
 - updating datasets, validating data
-ms.assetid: 79500596-1e4d-478e-a991-a636fd73a622
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
-# Validate data in datasets
+
+# Validate data in datasets in .NET Framework applications
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
+
 Validating data is the process of confirming that the values being entered into data objects conform to the constraints within a dataset's schema. The validation process also confirms that these values are following the rules that have been established for your application. It's a good practice to validate data prior to sending updates to the underlying database. This reduces errors as well as the potential number of round trips between an application and the database.
 
 You can confirm that data that's being written to a dataset is valid by building validation checks into the dataset itself. The dataset can check the data no matter how the update is being performed — whether directly by controls in a form, within a component, or in some other way. Because the dataset is part of your application (unlike the database backend), it's a logical place to build application-specific validation.
 
-The best place to add validation to your application is in the dataset's partial class file. In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], open the **Dataset Designer** and double-click the column or table for which you want to create validation. This action automatically creates an <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> event handler.
+The best place to add validation to your application is in the dataset's partial class file. In Visual Basic or Visual C#, open the **Dataset Designer** and double-click the column or table for which you want to create validation. This action opens up the code file, where you can create a <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> event handler.
+
+### [C#](#tab/csharp)
+
+```csharp
+private static void OnColumnChanging(object sender, DataColumnChangeEventArgs e)
+{
+
+}
+```
+
+### [VB](#tab/vb)
+
+```vb
+Private Shared Sub OnColumnChanging(sender As Object, e As DataColumnChangeEventArgs)
+
+End Sub
+```
+
+---
 
 ## Validate data
+
 Validation within a dataset is accomplished in the following ways:
 
 - By creating your own application-specific validation that can check values in an individual data column during changes. For more information, see [How to: Validate data during column changes](validate-data-in-datasets.md).
@@ -90,6 +110,7 @@ You can validate data when the value in a data column changes by responding to t
 Validation can also be performed during the <xref:System.Data.DataTable.RowChanging> event.
 
 ## Validate data during row changes
+
 You can write code to verify that each column you want to validate contains data that meets the requirements of your application. Do this by setting the column to indicate that it contains an error if a proposed value is unacceptable. The following examples set a column error when the `Quantity` column is 0 or less. The row-changing event handlers should resemble the following examples.
 
 ### To validate data when a row changes (Visual Basic)
@@ -135,6 +156,7 @@ You can write code to verify that each column you want to validate contains data
     ```
 
 ## To retrieve changed rows
+
 Each row in a data table has a <xref:System.Data.DataRow.RowState%2A> property that keeps track of the current state of that row by using the values in the <xref:System.Data.DataRowState> enumeration. You can return changed rows from a dataset or data table by calling the `GetChanges` method of a <xref:System.Data.DataSet> or <xref:System.Data.DataTable>. You can verify that changes exist prior to calling `GetChanges` by calling the <xref:System.Data.DataSet.HasChanges%2A> method of a dataset.
 
 > [!NOTE]
@@ -150,8 +172,12 @@ Use the <xref:System.Data.DataRowVersion> enumeration to access the different ve
 
      The following example creates a new dataset called `changedRecords` and populates it with all the changed records from another dataset called `dataSet1`.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs" id="Snippet14":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb" id="Snippet14":::
+     ---
 
 ### To get all changed records from a data table
 
@@ -159,8 +185,12 @@ Use the <xref:System.Data.DataRowVersion> enumeration to access the different ve
 
      The following example creates a new data table called `changedRecordsTable` and populates it with all the changed records from another data table called `dataTable1`.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs" id="Snippet15":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb" id="Snippet15":::
+     ---
 
 ### To get all records that have a specific row state
 
@@ -168,15 +198,24 @@ Use the <xref:System.Data.DataRowVersion> enumeration to access the different ve
 
      The following example shows how to create a new dataset called `addedRecords` and populate it only with records that have been added to the `dataSet1` dataset.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs" id="Snippet16":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb" id="Snippet16":::
+     ---
 
      The following example shows how to return all records that were recently added to the `Customers` table:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs" id="Snippet17":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb" id="Snippet17":::
+     ---
 
 ## Access the original version of a DataRow
+
 When changes are made to data rows, the dataset retains both the original (<xref:System.Data.DataRowVersion.Original>) and new (<xref:System.Data.DataRowVersion.Current>) versions of the row. For example, before calling the `AcceptChanges` method, your application can access the different versions of a record (as defined in the <xref:System.Data.DataRowVersion> enumeration) and process the changes accordingly.
 
 > [!NOTE]
@@ -190,8 +229,12 @@ Passing the <xref:System.Data.DataRowVersion> value along with the column index 
 
      The following example shows how to use a <xref:System.Data.DataRowVersion> value to get the original value of a `CompanyName` field in a <xref:System.Data.DataRow>:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs" id="Snippet21":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb" id="Snippet21":::
+     ---
 
 ## Access the current version of a DataRow
 
@@ -201,10 +244,14 @@ Passing the <xref:System.Data.DataRowVersion> value along with the column index 
 
      The following example shows how to use a <xref:System.Data.DataRowVersion> value to get the current value of a `CompanyName` field in a <xref:System.Data.DataRow>:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs" id="Snippet22":::
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb" id="Snippet22":::
 
-## See also
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb" id="Snippet22":::
+     ---
+
+## Related content
 
 - [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)
 - [How to: Validate data in the Windows Forms DataGridView control](/dotnet/framework/winforms/controls/how-to-validate-data-in-the-windows-forms-datagridview-control)

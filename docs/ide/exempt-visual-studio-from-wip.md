@@ -1,15 +1,12 @@
 ---
 title: Exempt from Windows Information Protection
 description: Learn about exempting Visual Studio from Windows Information Protection while still allowing it to use enterprise data. 
-ms.custom: SEO-VS-2020
 ms.date: 06/01/2018
 ms.topic: conceptual
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Configure Visual Studio as a WIP-exempt app
 
@@ -25,12 +22,12 @@ To exempt Visual Studio from WIP, follow the [steps to exempt a desktop app](/wi
 
 ## Create a WIP-exempt AppLocker policy file
 
-Because Visual Studio includes multiple binaries, [create an WIP-exempt AppLocker policy file](/windows/security/threat-protection/windows-defender-application-control/applocker/run-the-automatically-generate-rules-wizard). AppLocker allows you to automatically generate rules for all files within a folder.
+Because Visual Studio includes multiple binaries, [create a WIP-exempt AppLocker policy file](/windows/security/threat-protection/windows-defender-application-control/applocker/run-the-automatically-generate-rules-wizard). AppLocker allows you to automatically generate rules for all files within a folder.
 
 ## Add AppCompat to the Enterprise cloud resource policy
 
 To specify where Visual Studio can access enterprise data on your network, follow these [steps to define where your protected apps can find and send enterprise data](/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure#choose-where-apps-can-access-enterprise-data). To stop Windows from blocking connections to cloud resources through an IP address, make sure to add the /\*AppCompat\*/ string to the setting.
 
-## See also
+## Related content
 
 - [App behavior with WIP](/windows/security/information-protection/windows-information-protection/app-behavior-with-wip)

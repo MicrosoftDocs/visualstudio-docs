@@ -1,7 +1,6 @@
 ---
-title: "Walkthrough: Create your first VSTO Add-in for Word"
-description: Create an application-level Add-in for Microsoft Word. This feature is available to the application itself, regardless of which documents are open.
-ms.custom: SEO-VS-2020
+title: "Create Visual Studio Tools for Office Add-ins: Microsoft Word"
+description: Create a VSTO add-in for Microsoft Office Word with features that are available to the application itself, regardless of which Word documents are open.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], creating your first project"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Walkthrough: Create your first VSTO Add-in for Word
+
   This introductory walkthrough shows you how to create a VSTO Add-in for Microsoft Office Word. The features that you create in this kind of solution are available to the application itself, regardless of which documents are open.
 
  [!INCLUDE[appliesto_wdallapp](../vsto/includes/appliesto-wdallapp-md.md)]
@@ -47,7 +45,7 @@ ms.workload:
 
 ### To create a new Word VSTO Add-in project in Visual Studio
 
-1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start Visual Studio.
 
 2. On the **File** menu, point to **New**, and then click **Project**.
 
@@ -61,7 +59,7 @@ ms.workload:
 
 7. Click **OK**.
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstWordAddIn** project and opens the ThisAddIn code file in the editor.
+     Visual Studio creates the **FirstWordAddIn** project and opens the ThisAddIn code file in the editor.
 
 ## Write code to add text to the saved document
  Next, add code to the ThisAddIn code file. The new code uses the object model of Word to add boilerplate text to each saved document. By default, the ThisAddIn code file contains the following generated code:
@@ -76,8 +74,12 @@ ms.workload:
 
     When the user saves a document, the event handler adds new text at the start of the document.
 
-    :::code language="vb" source="../vsto/codesnippet/VisualBasic/FirstWordAddIn/ThisAddIn.vb" id="Snippet1":::
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../vsto/codesnippet/CSharp/FirstWordAddIn/ThisAddIn.cs" id="Snippet1":::
+
+    ### [VB](#tab/vb)
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/FirstWordAddIn/ThisAddIn.vb" id="Snippet1":::
+    ---
 
    > [!NOTE]
    > This code uses an index value of 1 to access the first paragraph in the <xref:Microsoft.Office.Interop.Word._Document.Paragraphs%2A> collection. Although Visual Basic and Visual C# use 0-based arrays, the lower array bounds of most collections in the Word object model is 1. For more information, see [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md).
@@ -130,7 +132,7 @@ ms.workload:
 
 - Deploying VSTO Add-ins for Word: [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
-## See also
+## Related content
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
 - [Word solutions](../vsto/word-solutions.md)
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)

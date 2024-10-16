@@ -1,8 +1,7 @@
 ---
-title: "Creating Site Columns, Content Types, and Lists for SharePoint | Microsoft Docs"
+title: "Create site columns, content types, and lists for SharePoint"
 titleSuffix: ""
-description: Create site columns, content types, and lists for SharePoint. Visual Studio provides project item templates for these types of SharePoint items.
-ms.custom: SEO-VS-2020
+description: Create site columns (fields), content types, and lists for SharePoint with project item templates provided in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -18,12 +17,11 @@ dev_langs:
   - "CSharp"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Create site columns, content types, and lists for SharePoint
+
   Visual Studio provides project item templates for many different fundamental SharePoint items, including *lists* and *content types*, both of which can incorporate site columns (or *fields*). The new designers for content types and lists make creating these items easier than ever.
 
 ## Site columns
@@ -38,7 +36,7 @@ ms.workload:
 
  A list is a collection of information in SharePoint that you can share with others. Lists consist of rows of columns that contain data. Some examples of lists include: a task list, a contacts list, and an announcements list.
 
- The new Content Type and List designers in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] make creating site content types and lists much easier and more intuitive than in the earlier version of Visual Studio. The UI enables you to visually construct content types and lists in a familiar manner, and lets you sort and group data in lists and use group headings. For more information about content types, see [Content Types](/previous-versions/office/developer/sharepoint-2010/ms479905(v=office.14)). For more information about lists, see [List Forms](/previous-versions/office/developer/sharepoint-2010/aa543232(v=office.14)) and [List Views](/previous-versions/office/developer/sharepoint-2010/ff604021(v=office.14)).
+ The new Content Type and List designers in Visual Studio make creating site content types and lists much easier and more intuitive than in the earlier version of Visual Studio. The UI enables you to visually construct content types and lists in a familiar manner, and lets you sort and group data in lists and use group headings. For more information about content types, see [Content Types](/previous-versions/office/developer/sharepoint-2010/ms479905(v=office.14)). For more information about lists, see [List Forms](/previous-versions/office/developer/sharepoint-2010/aa543232(v=office.14)) and [List Views](/previous-versions/office/developer/sharepoint-2010/ff604021(v=office.14)).
 
 ## Related topics
 

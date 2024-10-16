@@ -1,7 +1,6 @@
 ---
 title: Immediate Window
 description: Learn how to use the Immediate window to debug and evaluate expressions, execute statements, and print variable values.
-ms.custom: SEO-VS-2020
 ms.date: 02/25/2019
 ms.topic: reference
 dev_langs:
@@ -12,13 +11,10 @@ helpviewer_keywords:
 - design-time expression evaluation
 - Immediate window
 - first-chance exception notifications
-ms.assetid: d33e7937-73f3-4c69-9df0-777a8713c6f2
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Immediate window
 

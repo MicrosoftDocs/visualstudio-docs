@@ -1,7 +1,6 @@
 ---
-title: Run a worker process under a user account | Microsoft Docs
+title: Run a worker process under a user account
 description: Set up your computer so that you can run the ASP.NET worker process (aspnet_wp.exe or w3wp.exe) under a user account in Visual Studio.
-ms.custom: "SEO-VS-2020"
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -15,16 +14,14 @@ helpviewer_keywords:
   - tools, aspnet_wp.exe
   - ASP.NET, tools
   - aspnet_wp.exe
-ms.assetid: b58e97b1-e62a-4318-aea4-52276ea20735
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
-# How to: Run the Worker Process Under a User Account
-To set up your computer so that you can run the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process (aspnet_wp.exe or w3wp.exe) under a user account, follow these steps.
+# Run the Worker Process Under a User Account
+
+To set up your computer so that you can run the ASP.NET worker process (aspnet_wp.exe or w3wp.exe) under a user account, follow these steps.
 
  > [!IMPORTANT]
  > Starting with Windows Server 2008 R2, we recommend the use of the [ApplicationPoolIdentity](/iis/manage/configuring-security/application-pool-identities) as the identity for each application pool.
@@ -39,7 +36,7 @@ To set up your computer so that you can run the [!INCLUDE[vstecasp](../code-qual
 
 3. Save the machine.config file.
 
-4. On [!INCLUDE[winxpsvr](../debugger/includes/winxpsvr_md.md)], IIS 6.0 is installed by default. The corresponding worker process is w3wp.exe.To run in IIS 6.0 mode with aspnet_wp.exe as the worker process, you must follow these steps:
+4. On Windows Server 2003, IIS 6.0 is installed by default. The corresponding worker process is w3wp.exe.To run in IIS 6.0 mode with aspnet_wp.exe as the worker process, you must follow these steps:
 
    1. Click **Start**, click **Administrative Tools** and then choose **Internet Information Services**.
 
@@ -64,7 +61,7 @@ To set up your computer so that you can run the [!INCLUDE[vstecasp](../code-qual
    net start w3svc
    ```
 
-6. Locate the Temporary [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Files folder, which should be in the same path as the CONFIG folder. Right-click the Temporary [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Files folder and choose **Properties** on the shortcut menu.
+6. Locate the Temporary ASP.NET Files folder, which should be in the same path as the CONFIG folder. Right-click the Temporary ASP.NET Files folder and choose **Properties** on the shortcut menu.
 
 7. In the **Temporary ASP.NET Files Properties** dialog box, click the **Security** tab.
 
@@ -82,6 +79,6 @@ To set up your computer so that you can run the [!INCLUDE[vstecasp](../code-qual
 
 13. Click **OK** to close the **Temporary ASP.NET Files Properties** dialog box.
 
-## See also
+## Related content
 - [Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)
 - [ASP.NET Debugging: System Requirements](../debugger/aspnet-debugging-system-requirements.md)

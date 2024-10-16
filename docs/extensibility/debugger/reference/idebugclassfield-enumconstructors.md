@@ -1,41 +1,41 @@
 ---
 description: "Creates an enumerator for the constructors for this class."
-title: IDebugClassField::EnumConstructors | Microsoft Docs
+title: IDebugClassField::EnumConstructors
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugClassField::EnumConstructors
 helpviewer_keywords:
 - IDebugClassField::EnumConstructors method
-ms.assetid: 66a250b2-75a0-45aa-8d58-40f91cc4bf7b
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugClassField::EnumConstructors
+
 Creates an enumerator for the constructors for this class.
 
 ## Syntax
 
-```cpp
-HRESULT EnumConstructors( 
-   CONSTRUCTOR_ENUM   cMatch,
-   IEnumDebugFields** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumConstructors(
    CONSTRUCTOR_ENUM     cMatch,
    out IEnumDebugFields ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumConstructors( 
+   CONSTRUCTOR_ENUM   cMatch,
+   IEnumDebugFields** ppEnum
+);
+```
+---
 
 ## Parameters
 `cMatch`\

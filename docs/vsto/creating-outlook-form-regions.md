@@ -1,7 +1,6 @@
 ---
 title: "Create Outlook form regions"
 description: Learn how you can use form regions to customize Microsoft Outlook forms for easier to design, develop, and debug form regions.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -15,12 +14,11 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], form regions"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Create Outlook form regions
+
   You can use form regions to customize Microsoft Office Outlook forms. Visual Studio provides advanced tools that make it easier for you to design, develop, and debug form regions.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
@@ -150,7 +148,7 @@ ms.workload:
 
 |Event|Description|
 |-----------|-----------------|
-|FormRegionInitializing|Occurs before the form region is initialized. You can check conditions in this event handler to determine whether Outlook should display the form region. For more information, see [How to: Prevent Outlook from displaying a form region](../vsto/how-to-prevent-outlook-from-displaying-a-form-region.md).|
+|FormRegionInitializing|Occurs before the form region is initialized. You can check conditions in this event handler to determine whether Outlook should display the form region. For more information, see [How to: Prevent Outlook from displaying a form region](/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-prevent-outlook-from-displaying-a-form-region).|
 |FormRegionShowing|Occurs after an instance of the form region is created but before the form region appears.|
 |FormRegionClosed|Occurs before the form region is closed.|
 
@@ -164,7 +162,7 @@ ms.workload:
   Outlook uses this information to load the form regions.
 
 ## <a name="Debugging"></a> Debug a form region
- You can debug an Outlook VSTO Add-in that contains a form region just as you would debug other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] projects. When you start the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger, Visual Studio automatically starts Outlook.
+ You can debug an Outlook VSTO Add-in that contains a form region just as you would debug other Visual Studio projects. When you start the Visual Studio debugger, Visual Studio automatically starts Outlook.
 
  To view the form region, you must open the appropriate Outlook item. For example, if an adjoining form region is appended to the bottom of a mail item, open a mail item.
 
@@ -175,12 +173,12 @@ ms.workload:
 
 |Title|Description|
 |-----------|-----------------|
-|[Guidelines for create Outlook form regions](../vsto/guidelines-for-creating-outlook-form-regions.md)|Provides information that can help you optimize your form regions and avoid potential problems.|
+|[Guidelines for create Outlook form regions](/previous-versions/visualstudio/visual-studio-2017/vsto/guidelines-for-creating-outlook-form-regions)|Provides information that can help you optimize your form regions and avoid potential problems.|
 |[How to: Add a form region to an Outlook Add-in project](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md)|Shows you how to create a form region to extend a standard or custom Microsoft Office Outlook form by using the **New Outlook Form Region** wizard.|
-|[Associate a form region with an Outlook message class](../vsto/associating-a-form-region-with-an-outlook-message-class.md)|Explains how to specify which Microsoft Office Outlook items display a form region by associating the form region with the message class of each item.|
+|[Associate a form region with an Outlook message class](/previous-versions/visualstudio/visual-studio-2017/vsto/associating-a-form-region-with-an-outlook-message-class)|Explains how to specify which Microsoft Office Outlook items display a form region by associating the form region with the message class of each item.|
 |[Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md)|Shows how to design a custom form region that appears as a new page in the Inspector window of a contact item.|
-|[Walkthrough: Import a form region that is designed in Outlook](../vsto/walkthrough-importing-a-form-region-that-is-designed-in-outlook.md)|Shows how to design a form region in Microsoft Office Outlook, and then import the form region into an Outlook VSTO Add-in project by using the **New Outlook Form Region** wizard.|
+|[Walkthrough: Import a form region that is designed in Outlook](/previous-versions/visualstudio/visual-studio-2017/vsto/walkthrough-importing-a-form-region-that-is-designed-in-outlook)|Shows how to design a form region in Microsoft Office Outlook, and then import the form region into an Outlook VSTO Add-in project by using the **New Outlook Form Region** wizard.|
 |[Access a form region at run time](../vsto/accessing-a-form-region-at-run-time.md)|Describes how to write code to show, hide, or modify controls on a form region, and enable users to run the code from other areas in your project by using the `Globals` class.|
-|[How to: Prevent Outlook from displaying a form region](../vsto/how-to-prevent-outlook-from-displaying-a-form-region.md)|Shows how to prevent Microsoft Office Outlook from displaying a form region for a particular item.|
+|[How to: Prevent Outlook from displaying a form region](/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-prevent-outlook-from-displaying-a-form-region)|Shows how to prevent Microsoft Office Outlook from displaying a form region for a particular item.|
 |Shows how to access the Outlook item in which a form region appears.|
-|[Custom actions in Outlook form regions](../vsto/custom-actions-in-outlook-form-regions.md)|Describes how to enable users to respond to an Outlook item.|
+|[Custom actions in Outlook form regions](/previous-versions/visualstudio/visual-studio-2017/vsto/custom-actions-in-outlook-form-regions)|Describes how to enable users to respond to an Outlook item.|

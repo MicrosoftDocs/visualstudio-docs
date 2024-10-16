@@ -1,22 +1,19 @@
 ---
-title: Adding a Most Recently Used List to a Submenu | Microsoft Docs
+title: Adding a Most Recently Used List to a Submenu
 description: Learn how to add a dynamic list that contains the most recently used menu commands to a submenu in the Visual Studio integrated development environment (IDE).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - MRU lists
 - menus, creating MRU list
 - most recently used
-ms.assetid: 27d4bbcf-99b1-498f-8b66-40002e3db0f8
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Add a most recently used list to a submenu
+
 This walkthrough builds on the demonstrations in [Add a submenu to a menu](../extensibility/adding-a-submenu-to-a-menu.md), and shows how to add a dynamic list to a submenu. The dynamic list forms the basis for creating a Most Recently Used (MRU) list.
 
 A dynamic menu list starts with a placeholder on a menu. Every time the menu is shown, the Visual Studio integrated development environment (IDE) asks the VSPackage for all commands that should be shown at the placeholder. A dynamic list can occur anywhere on a menu. However, dynamic lists are typically stored and displayed by themselves on submenus or at the bottoms of menus. By using these design patterns, you enable the dynamic list of commands to expand and contract without affecting the position of other commands on the menu. In this walkthrough, the dynamic MRU list is displayed at the bottom of an existing submenu, separated from the rest of the submenu by a line.
@@ -196,5 +193,5 @@ To follow this walkthrough, you must install the Visual Studio SDK. For more inf
 
 4. Open the submenu again. Notice that **Item 3** is now at the top of the list and the other items have been pushed down one position. Click **Item 3** again and notice that the message box still displays **Selected Item 3**, which indicates that the text has correctly moved to the new position together with the command label.
 
-## See also
+## Related content
 - [Dynamically adding menu items](../extensibility/dynamically-adding-menu-items.md)

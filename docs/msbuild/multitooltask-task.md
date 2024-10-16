@@ -1,28 +1,23 @@
 ---
-title: MultiToolTask Task | Microsoft Docs
+title: MultiToolTask Task
 description: Access a table that describes the required and optional parameters of the MSBuild MultiToolTask task.
-ms.custom: SEO-VS-2020
 ms.date: 03/10/2019
 ms.topic: reference
 f1_keywords:
 - vc.task.multitooltask
 dev_langs:
-- VB
-- CSharp
-- C++
-- jsharp
 - C++
 helpviewer_keywords:
 - MSBuild (C++), MultiToolTask task
 - MultiToolTask task (MSBuild (C++))
 author: ghogen
 ms.author: ghogen
-ms.workload:
-- multiple
 ---
 # MultiToolTask task
 
-No description.
+[!INCLUDE [C++-specific task](./includes/cpp-task.md)]
+
+Experimental task that enables parallel execution of MIDL, CL, Clang, and FXC (hlsl). See [Improve parallelism in MSBuild](https://devblogs.microsoft.com/cppblog/improved-parallelism-in-msbuild/).
 
 ## Parameters
 

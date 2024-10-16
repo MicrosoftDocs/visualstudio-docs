@@ -1,40 +1,40 @@
 ---
 description: "Creates an object that represents a primitive type."
-title: IDebugTypeFieldBuilder::CreatePrimitive | Microsoft Docs
+title: IDebugTypeFieldBuilder::CreatePrimitive
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - CreatePrimitive
 - IDebugTypeFieldBuilder::CreatePrimitive
-ms.assetid: 512c6ff0-97c5-409f-939f-4cc969bc4bb9
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugTypeFieldBuilder::CreatePrimitive
+
 Creates an object that represents a primitive type.
 
 ## Syntax
 
-```cpp
-HRESULT CreatePrimitive (
-   DWORD          dwElementType,
-   IDebugField ** pTypeField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreatePrimitive (
    uint            dwElementType,
    out IDebugField pTypeField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreatePrimitive (
+   DWORD          dwElementType,
+   IDebugField ** pTypeField
+);
+```
+---
 
 ## Parameters
 `dwElementType`\

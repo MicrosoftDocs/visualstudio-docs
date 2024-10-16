@@ -1,37 +1,27 @@
 ---
 description: "This method returns a list of type visualizers that this service knows about."
-title: IEEVisualizerService::GetCustomViewerList | Microsoft Docs
+title: IEEVisualizerService::GetCustomViewerList
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEEVisualizerService::GetCustomViewerList
 helpviewer_keywords:
 - IEEVisualizerService::GetCustomViewerList method
-ms.assetid: 249d26ca-914f-43af-a400-8162477223f4
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEEVisualizerService::GetCustomViewerList
+
 This method returns a list of type visualizers that this service knows about.
 
 ## Syntax
 
-```cpp
-HRESULT GetCustomViewerList(
-   ULONG                celtSkip,
-   ULONG                celtRequested,
-   DEBUG_CUSTOM_VIEWER* rgViewers,
-   ULONG*               pceltFetched
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCustomViewerList(
    uint                  celtSkip,
@@ -40,6 +30,16 @@ int GetCustomViewerList(
    out uint              pceltFetched
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCustomViewerList(
+   ULONG                celtSkip,
+   ULONG                celtRequested,
+   DEBUG_CUSTOM_VIEWER* rgViewers,
+   ULONG*               pceltFetched
+);
+```
+---
 
 ## Parameters
 `celtSkip`\

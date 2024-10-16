@@ -1,19 +1,17 @@
 ---
 description: "The reference section includes a conceptual overview of the API, a guide that shows the syntax and usage for all API elements, and an assortment of code examples."
-title: API Reference (Visual Studio Debugging) | Microsoft Docs
+title: API Reference (Visual Studio Debugging)
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], API reference
-ms.assetid: e4e429da-3667-41f7-9158-a8207d13e91a
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # API Reference (Visual Studio Debugging)
+
 The reference section includes a conceptual overview of the API, a guide that shows the syntax and usage for all API elements, and an assortment of code examples. All references are listed alphabetically by category.
 
  The following table shows the common `HRESULT` values returned by methods.
@@ -33,7 +31,7 @@ The reference section includes a conceptual overview of the API, a guide that sh
 |E_ACCESSDENIED|General access denied error.|0x80070005|
 
 > [!NOTE]
-> When a [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] debugging method returns `S_OK`, it is assumed that all out parameter pointers are valid, that is, no validation is conducted on out parameter pointers when `S_OK` is returned.
+> When a Visual Studio debugging method returns `S_OK`, it is assumed that all out parameter pointers are valid, that is, no validation is conducted on out parameter pointers when `S_OK` is returned.
 >
 > [!NOTE]
 > Invalid or `NULL` [out] parameters may cause the IDE to crash.

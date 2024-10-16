@@ -1,38 +1,27 @@
 ---
 description: "Determines the location of the specified managed assembly reference."
-title: IPropertyProxyEESide::ResolveAssemblyRef | Microsoft Docs
+title: IPropertyProxyEESide::ResolveAssemblyRef
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IPropertyProxyEESide::ResolveAssemblyRef
 helpviewer_keywords:
 - IPropertyProxyEESide::ResolveAssemblyRef
-ms.assetid: 662ca0a6-dad0-4c00-a718-bb3bbc5bd9da
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IPropertyProxyEESide::ResolveAssemblyRef
+
 Determines the location of the specified managed assembly reference.
 
 ## Syntax
 
-```cpp
-HRESULT ResolveAssemblyRef(
-   BSTR*                  assemName,
-   IEEDataStorage**       assemBytes,
-   IEEDataStorage**       assemPdb,
-   BSTR*                  assemLocation,
-   ASSEMBLYLOCRESOLUTION* alr
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ResolveAssemblyRef(
    ref string                     assemName,
@@ -42,6 +31,17 @@ int ResolveAssemblyRef(
    out enum_ASSEMBLYLOCRESOLUTION alr
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ResolveAssemblyRef(
+   BSTR*                  assemName,
+   IEEDataStorage**       assemBytes,
+   IEEDataStorage**       assemPdb,
+   BSTR*                  assemLocation,
+   ASSEMBLYLOCRESOLUTION* alr
+);
+```
+---
 
 ## Parameters
 `assemName`\

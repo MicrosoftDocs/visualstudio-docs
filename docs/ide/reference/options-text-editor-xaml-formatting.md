@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, XAML, Formatting
 description: Learn how to use the Formatting options page and its subpages to set options for formatting code in the code editor when you are programming in XAML.
-ms.custom: SEO-VS-2020
 ms.date: 10/29/2018
 ms.topic: reference
 f1_keywords:
@@ -25,13 +24,10 @@ helpviewer_keywords:
 - tag wrapping, XAML view settings
 - WPF Designer, XAML formatting
 - XAML view settings, attribute spacing
-ms.assetid: ad3820b1-0d94-4807-a74c-c3467ed973a2
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- uwp
+author: maddymontaquila
+ms.author: maleger
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Options, Text Editor, XAML, Formatting
 

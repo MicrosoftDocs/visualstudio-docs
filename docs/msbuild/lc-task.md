@@ -1,7 +1,6 @@
 ---
-title: LC Task | Microsoft Docs
+title: LC Task
 description: Learn how MSBuild uses the LC task to wrap LC.exe, which generates a .license file from a .licx file. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -10,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, LC task
 - LC task [MSBuild]
-ms.assetid: d5a53472-6f2a-42b8-a6db-593ca99c9790
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # LC task
 

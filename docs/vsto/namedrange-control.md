@@ -1,7 +1,6 @@
 ---
 title: "NamedRange control"
 description: Learn how the NamedRange control is a range that has a unique name, exposes events, and can be bound to data.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -16,12 +15,11 @@ helpviewer_keywords:
   - "NamedRange control"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # NamedRange control
+
   The <xref:Microsoft.Office.Tools.Excel.NamedRange> control is a range that has a unique name, exposes events, and can be bound to data. For more information, see [Excel object model overview](../vsto/excel-object-model-overview.md).
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -68,7 +66,7 @@ ms.workload:
 
 - <xref:Microsoft.Office.Tools.Excel.NamedRange.SelectionChange>
 
-## See also
+## Related content
 - [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
 - [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
 - [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)

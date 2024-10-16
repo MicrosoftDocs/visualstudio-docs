@@ -1,40 +1,40 @@
 ---
 description: "Retrieves a service object given its unique identifier."
-title: IDebugExpressionEvaluator2::GetService | Microsoft Docs
+title: IDebugExpressionEvaluator2::GetService
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugExpressionEvaluator2::GetService
 - GetService
-ms.assetid: f8988a9e-9d18-42af-84a7-55f41e9adf63
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExpressionEvaluator2::GetService
+
 Retrieves a service object given its unique identifier.
 
 ## Syntax
 
-```cpp
-HRESULT GetService (
-   GUID        uid,
-   IUnknown ** ppService
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetService (
    Guid       uid,
    out object ppService
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetService (
+   GUID        uid,
+   IUnknown ** ppService
+);
+```
+---
 
 ## Parameters
 `uid`\

@@ -1,19 +1,18 @@
 ---
 title: Creating multi-file item templates
-description: Learn how to create an item template in Visual Studio that is made up of multiple files.
-ms.custom: SEO-VS-2020
+description: Create item templates in Visual Studio that are made up of multiple files, and use the Export Template Wizard to automatically generate the necessary parameters.
 ms.date: 01/02/2018
 ms.topic: how-to
 helpviewer_keywords:
 - Visual Studio templates, creating multi-file item templates
 - multi-file item templates
 - item templates, creating multi-file item templates
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: general-ide
 ---
-# How to: Create multi-file item templates
+# Create multi-file item templates
 
 Item templates may only specify one item, but sometimes the item is made up of multiple files. For example, a Windows Forms item template requires the following three files:
 
@@ -89,7 +88,7 @@ The following example shows a Windows Forms template. When an item is created ba
 </VSTemplate>
 ```
 
-## See also
+## Related content
 
 - [Create project and item templates](../ide/creating-project-and-item-templates.md)
 - [How to: Create item templates](../ide/how-to-create-item-templates.md)

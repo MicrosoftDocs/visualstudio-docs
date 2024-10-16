@@ -1,21 +1,17 @@
 ---
-title: Application Patterns for Visual Studio | Microsoft Docs
+title: Application Patterns for Visual Studio
 description: Learn about the difference between document windows, tool windows, and modeless dialogs, including window usage patterns for new features for Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 04/26/2017
 ms.topic: reference
-ms.assetid: 8ed68602-4e28-46fe-b39f-f41979b308a2
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Application Patterns for Visual Studio
+
 ## <a name="BKMK_WindowInteractions"></a> Window interactions
 
-### Overview
 The two main window types used in Visual Studio are document editors and tool windows. Rare, but possible, are large modeless dialogs. Although these are all modeless in the shell, their patterns are fundamentally different. This section covers the difference between document windows, tool windows, and modeless dialogs. Modal dialog patterns are covered in [Dialogs](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_Dialogs).
 
 ### Comparing window usage patterns
@@ -37,7 +33,6 @@ Think carefully about which container type you need. Common usage pattern consid
 
 ## <a name="BKMK_ToolWindows"></a> Tool windows
 
-### Overview
 Tool windows support the user's work that happens in document windows. They can be used to display a hierarchy that represents a fundamental root object that Visual Studio provides and can manipulate.
 
 When considering a new tool window in the IDE, authors should:
@@ -125,22 +120,9 @@ Examples of navigable list tool windows are the Solution Explorer and the Find R
 
 **Other tool windows**
 
-::: moniker range="vs-2017"
-
 | Tool window | Function |
 | --- | --- |
 | Toolbox | The tool window used to store elements that will be dropped onto design surfaces, providing a consistent drag-source for all designers. |
-| Start Page | The user's portal to Visual Studio, with access to feeds of developer news, Visual Studio help, and recent projects. Users can also create custom start pages by copying the StartPage.xaml file from the "Common7\IDE\StartPages\" Visual Studio program files directory to the StartPages folder in the Visual Studio documents directory, and then either editing the XAML by hand or opening it in Visual Studio or another code editor. |
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-| Tool window | Function |
-| --- | --- |
-| Toolbox | The tool window used to store elements that will be dropped onto design surfaces, providing a consistent drag-source for all designers. |
-
-::: moniker-end
 
 **Debugger tool windows**
 

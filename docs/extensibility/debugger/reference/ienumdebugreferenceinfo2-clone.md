@@ -1,39 +1,39 @@
 ---
 description: "Returns a copy of the current DEBUG_REFERENCE_INFO enumeration as a separate object."
-title: IEnumDebugReferenceInfo2::Clone | Microsoft Docs
+title: IEnumDebugReferenceInfo2::Clone
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugReferenceInfo2::Clone
 helpviewer_keywords:
 - IEnumDebugReferenceInfo2::Clone
-ms.assetid: 49c5a301-a33a-428f-b83b-e734c71af4ef
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugReferenceInfo2::Clone
+
 Returns a copy of the current enumeration as a separate object.
 
 ## Syntax
 
-```cpp
-HRESULT Clone(
-   IEnumDebugReferenceInfo2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Clone(
    out IEnumDebugReferenceInfo2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Clone(
+   IEnumDebugReferenceInfo2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

@@ -1,22 +1,20 @@
 ---
-title: Creating a WPF-Based Domain-Specific Language
+title: Create a WPF-based domain-specific language
 description: Learn how you can create a domain-specific language that has a WPF designer instead of a graphical designer.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 06/22/2022
 ms.topic: conceptual
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
-# Create a WPF-Based Domain-Specific Language
 
-You can create a domain-specific language that has a WPF designer instead of a graphical designer.
+# Create a WPF-Based domain-specific language
 
-Information and samples about this feature can be found on the Visual Studio Visualization and Modeling Tools website at [http://go.microsoft.com/fwlink/?LinkId=186128](https://code.msdn.microsoft.com/Visualization-and-Modeling-313535db)
+You can create a domain-specific language (DSL) that has a WPF designer instead of a graphical designer.
 
-## See also
+Information and samples about this feature can be found on the [Visual Studio Visualization and Modeling Tools website](https://code.msdn.microsoft.com/Visualization-and-Modeling-313535db).
+
+## Related content
 
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)

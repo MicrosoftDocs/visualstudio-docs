@@ -1,39 +1,39 @@
 ---
 description: "Gets the name of a thread."
-title: IDebugThread2::GetName | Microsoft Docs
+title: IDebugThread2::GetName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugThread2::GetName
 helpviewer_keywords:
 - IDebugThread2::GetName
-ms.assetid: eec54b8f-4a0e-4919-b0f9-81d4bd1e0b6f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugThread2::GetName
+
 Gets the name of a thread.
 
 ## Syntax
 
-```cpp
-HRESULT GetName ( 
-   BSTR* pbstrName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetName ( 
    out string pbstrName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetName ( 
+   BSTR* pbstrName
+);
+```
+---
 
 ## Parameters
 `pbstrName`\

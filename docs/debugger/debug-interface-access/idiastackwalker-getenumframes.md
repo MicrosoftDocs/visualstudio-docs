@@ -1,27 +1,26 @@
 ---
-description: "Retrieves a stack frame enumerator for x86 platforms."
-title: "IDiaStackWalker::getEnumFrames | Microsoft Docs"
+description: Retrieves a stack frame enumerator for x86 platforms.
+title: "IDiaStackWalker::getEnumFrames"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackWalker2::getEnumFrames method"
-ms.assetid: f9f09729-4c34-441c-989c-e0b7339ee32c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackWalker::getEnumFrames
+
 Retrieves a stack frame enumerator for x86 platforms.
 
 ## Syntax
 
 ```C++
-HRESULT getEnumFrames( 
+HRESULT getEnumFrames( 
    IDiaStackWalkHelper*   pHelper,
    IDiaEnumStackFrames**  ppEnum
 );

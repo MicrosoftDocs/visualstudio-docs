@@ -1,18 +1,14 @@
 ---
 title: "Workflow Designer Shell Features"
 description: Learn how the Workflow Designer Shell features contain a number of buttons for managing the current view.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
   - "WFDShellFeatures.UI"
-ms.assetid: 14bfe312-9592-408e-92ce-e98585ad16e7
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-workflow-designer
-ms.workload:
-  - "multiple"
+author: jodavis
+ms.author: jodavis
+manager: mijacobs
+ms.subservice: workflow-designer
 ---
 # Workflow Designer Shell Features
 
@@ -21,7 +17,7 @@ Workflow Designer is composed of three major UI areas: the designer surface, the
 ## Shell Features
  The shell has buttons on the right side of the bar that you can use to zoom in or out of your workflow, fit the contents of your workflow to the size of your screen, and show or hide the overview map. You can also zoom in or out of a workflow using the keyboard shortcuts CTRL++ and CTRL+-.
 
-## Overview Map
+## `Overview` Map
  The overview map displays a small version of the entire activity at the current breadcrumb root, including all of its children and all of their expanded children. There is a viewport, a rectangle with an orange border, which highlights the portion of the activity currently displayed inside the editor. Dragging the rectangle around the overview map scrolls the workflow designer and changes the view of the editor.
 
 > [!NOTE]

@@ -1,28 +1,39 @@
 ---
 description: "Specifies what information to retrieve about a memory context."
-title: CONTEXT_INFO_FIELDS | Microsoft Docs
+title: CONTEXT_INFO_FIELDS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - CONTEXT_INFO_FIELDS
 helpviewer_keywords:
 - CONTEXT_INFO_FIELDS enumeration
-ms.assetid: ef436bd3-738e-47e8-828c-8febce752439
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # CONTEXT_INFO_FIELDS
+
 Specifies what information to retrieve about a memory context.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_CONTEXT_INFO_FIELDS {
+    CIF_MODULEURL =       0x00000001,
+    CIF_FUNCTION =        0x00000002,
+    CIF_FUNCTIONOFFSET =  0x00000004,
+    CIF_ADDRESS =         0x00000008,
+    CIF_ADDRESSOFFSET =   0x00000010,
+    CIF_ADDRESSABSOLUTE = 0x00000020,
+    CIF_ALLFIELDS =       0x0000003f
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_CONTEXT_INFO_FIELDS {
     CIF_MODULEURL =       0x00000001,
@@ -35,18 +46,7 @@ enum enum_CONTEXT_INFO_FIELDS {
 };
 typedef DWORD CONTEXT_INFO_FIELDS;
 ```
-
-```csharp
-public enum enum_CONTEXT_INFO_FIELDS {
-    CIF_MODULEURL =       0x00000001,
-    CIF_FUNCTION =        0x00000002,
-    CIF_FUNCTIONOFFSET =  0x00000004,
-    CIF_ADDRESS =         0x00000008,
-    CIF_ADDRESSOFFSET =   0x00000010,
-    CIF_ADDRESSABSOLUTE = 0x00000020,
-    CIF_ALLFIELDS =       0x0000003f
-};
-```
+---
 
 ## Fields
 `CIF_MODULEURL`\

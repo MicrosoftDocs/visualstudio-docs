@@ -1,16 +1,12 @@
 ---
 title: XML Schema Designer Graph View
 description: Learn about the Graph View in the XML Schema Designer that provides a graphic representation of global schema nodes and the relationships between the nodes.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
-ms.assetid: 5881afde-3f24-4eb9-bff8-6cb3fc8aade7
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xml-tools
-ms.workload:
-- multiple
+author: dzsquared
+ms.author: drskwier
+manager: mijacobs
+ms.subservice: xml-tools
 ---
 # Graph view
 
@@ -80,7 +76,7 @@ In addition to the common options described above, the context menu for global g
 |**Add All References**|Adds all nodes that refer to the group and draws arrows to indicate relationships between them.|
 |**Add All Members**|Adds all members of the group and draws arrows to indicate relationships between them.|
 
-In addtion to the common options described above, the context menu for global attributes also has the following options:
+In addition to the common options described above, the context menu for global attributes also has the following options:
 
 |Option|Description|
 |-|-----------------|

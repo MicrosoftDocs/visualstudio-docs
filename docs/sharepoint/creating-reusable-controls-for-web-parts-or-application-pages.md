@@ -1,8 +1,7 @@
 ---
-title: "Creating Reusable Controls for Web Parts or Application Pages | Microsoft Docs"
+title: "Creating Reusable Controls for Web Parts or Application Pages"
 titleSuffix: ""
 description: Create custom, reusable controls (user controls) in Visual Studio that can be consumed by application pages and web parts that run in SharePoint.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: overview
 dev_langs:
@@ -13,12 +12,11 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, user controls"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Create reusable controls for web parts or application pages
+
   In Visual Studio, you can create custom, reusable controls that can be consumed by application pages and Web Parts that run in SharePoint. These controls are called user controls. A user control is a kind of composite control that works much like an ASP.NET Web page—you can add existing Web server controls and markup to a user control, and define properties and methods for the control. You can then embed them in ASP.NET Web pages, where they act as a unit.
 
 ## Create a user control
@@ -42,8 +40,12 @@ ms.workload:
 
  To include a user control in a Web Part, add the user control to the Web Part <xref:System.Web.UI.WebControls.WebParts.Part.Controls%2A> collection in the Web Part code file. The following example adds a user control to the <xref:System.Web.UI.WebControls.WebParts.Part.Controls%2A> collection of a Web Part.
 
- :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_visualwebpart.vb/visualwebpart1/visualwebpart1.vb" id="Snippet5":::
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sp_visualwebpart.cs/visualwebpart1/visualwebpart1.cs" id="Snippet5":::
+
+ ### [VB](#tab/vb)
+ :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_visualwebpart.vb/visualwebpart1/visualwebpart1.vb" id="Snippet5":::
+ ---
 
 ## Debug a user control
  To debug a user control, ensure that the user control is included in an application page or Web Part in your SharePoint project. You can then debug code in the user control just as you would debug code in any Visual Studio Project.

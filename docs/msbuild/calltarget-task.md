@@ -1,24 +1,19 @@
 ---
-title: CallTarget Task | Microsoft Docs
+title: CallTarget Task
 description: Learn how to use the MSBuild CallTarget task to invoke the specified targets within the project file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - CallTarget task [MSBuild]
 - MSBuild, CallTarget task
-ms.assetid: bb1fe2c4-4383-436f-8326-c24cc4a46150
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # CallTarget task
 

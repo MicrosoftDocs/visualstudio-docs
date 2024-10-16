@@ -1,8 +1,7 @@
 ---
-title: "Debug DLL projects | Microsoft Docs"
-description: Debug dynamic-link library (DLL) files in Visual Studio. Use Visual Studio to create, build, configure, and debug DLLs.
-ms.custom: SEO-VS-2020
-ms.date: "11/06/2018"
+title: Debug dynamic-link library (DLL) files and projects
+description: Debug dynamic-link library (DLL) files in Visual Studio, and use Visual Studio to create, build, configure, and debug DLLs.
+ms.date: "04/18/2022"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -14,13 +13,10 @@ helpviewer_keywords:
   - "templates, debugging DLLs"
   - "DLLs, debugging"
   - "debugging [Visual Studio], DLLs"
-ms.assetid: 433cab30-d191-460b-96f7-90d2530ca243
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Debug DLLs in Visual Studio (C#, C++, Visual Basic, F#)
 
@@ -42,9 +38,10 @@ You usually call a DLL from another project. When you debug the calling project,
 
 ## <a name="vxtskdebuggingdllprojectschangingdefaultconfigurations"></a> DLL debug configuration
 
-When you use a Visual Studio project template to create an app, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically creates required settings for Debug and Release build configurations. You can change these settings if necessary. For more information, see the following articles:
+When you use a Visual Studio project template to create an app, Visual Studio automatically creates required settings for Debug and Release build configurations. You can change these settings if necessary. For more information, see the following articles:
 
 - [Project settings for a C++ debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
+- [Project settings for .NET C# debug configurations](../debugger/project-settings-for-csharp-debug-configurations-dotnetcore.md)
 - [Project settings for C# debug configurations](../debugger/project-settings-for-csharp-debug-configurations.md)
 - [Project settings for a Visual Basic debug configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
 - [How to: Set Debug and Release configurations](../debugger/how-to-set-debug-and-release-configurations.md)
@@ -103,7 +100,7 @@ For more information, see [First look at the debugger](../debugger/debugger-feat
 
 The app that calls a DLL can be:
 
-- An app from a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project in the same or a different solution from the DLL.
+- An app from a Visual Studio project in the same or a different solution from the DLL.
 - An existing app that is already deployed and running on a test or production computer.
 - Located on the web and accessed through a URL.
 - A web app with a web page that embeds the DLL.
@@ -157,11 +154,12 @@ You can write a calling app for a DLL in managed or native code. If your native 
 
 You can also debug a native DLL from a managed calling project. For more information, see [How to debug managed and native code](how-to-debug-managed-and-native-code.md).
 
-## See also
+## Related content
 - [Debug managed code](../debugger/debugging-managed-code.md)
 - [Prepare to debug C++ projects](../debugger/debugging-preparation-visual-cpp-project-types.md)
-- [C#, F#, and Visual Basic project types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
+- [C#, F#, and Visual Basic project types](../debugger/managed-debugging-recommended-property-settings.md)
 - [Project settings for a C++ Debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
+- [Project settings for .NET C# debug configurations](../debugger/project-settings-for-csharp-debug-configurations-dotnetcore.md)
 - [Project settings for  C# Debug configurations](../debugger/project-settings-for-csharp-debug-configurations.md)
 - [Project settings for a Visual Basic Debug configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
 - [Debugger security](../debugger/debugger-security.md)

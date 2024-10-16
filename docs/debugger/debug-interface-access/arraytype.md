@@ -1,26 +1,25 @@
 ---
-title: "ArrayType | Microsoft Docs"
+title: ArrayType
 description: Find reference information about the ArrayType symbol type (SymTagArray) in the Visual Studio debug interface access SDK.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "ArrayType symbol"
-ms.assetid: 1d973a3a-2bde-46df-8625-85d519bb3cc9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # ArrayType
+
 An array is identified by a `SymTagArray` symbol.
 
 ## Properties
- The following table shows additional valid properties for this symbol type.
+
+The following table shows additional valid properties for this symbol type.
 
 |Property|Data type|Description|
 |--------------|---------------|-----------------|
@@ -40,5 +39,6 @@ An array is identified by a `SymTagArray` symbol.
 |[IDiaSymbol::get_volatileType](../../debugger/debug-interface-access/idiasymbol-get-volatiletype.md)|`BOOL`|`TRUE` if the array is marked as volatile.|
 
 ## See also
+
 - [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
 - [Dimension](../../debugger/debug-interface-access/dimension.md)

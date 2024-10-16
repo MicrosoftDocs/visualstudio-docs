@@ -1,50 +1,66 @@
-- name: Azure Development with Visual Studio
+items:
+- name: Develop applications for Azure with Visual Studio
   href: index.yml
   expanded: true
-- name: Deploy to Azure App Service
+- name: Overview
   expanded: true
   items:
-  - name: Deploy an ASP.NET Core app to Azure
-    href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?view=aspnetcore-2.1&preserve-view=true
-  - name: Deploy a .NET TODO List Web App to Azure
-    href: /dotnet/azure/dotnet-quickstart-vs?view=azure-dotnet&preserve-view=true
-  - name: Continuous deployment to Azure with Visual Studio and Git with ASP.NET Core
-    href: /aspnet/core/host-and-deploy/azure-apps/azure-continuous-deployment?view=aspnetcore-2.1&preserve-view=true
-  - name: Continuous deployment to Azure with Azure Pipelines
-    href: /azure/devops/pipelines/get-started-yaml?view=vsts&preserve-view=true
-  - name: Deploy an ASP.NET Web App to an Azure VM
-    href: /azure/virtual-machines/windows/publish-web-app-from-visual-studio?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
+  - name: About Azure development in Visual Studio
+    href: overview.md
+  - name: About developing ASP.NET web apps for Azure in Visual Studio
+    href: overview-aspnet-azure-development.md
+  - name: What are Connected Services?
+    href: overview-connected-services.md
 - name: Connect to Azure services
-  expanded: false
+  expanded: true
   items:
-  - name: Add Azure Active Directory (AD)
-    href: /azure/active-directory/develop/vs-active-directory-add-connected-service?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
-  - name: Add Azure App Insights
+  - name: Find and provision Azure resources
+    href: overview-azure-integration.md
+  - name: Microsoft Entra ID
+    href: vs-active-directory-add-connected-service.md
+  - name: App Insights
     href: azure-app-insights-add-connected-service.md
-  - name: Add Azure Cache for Redis
+  - name: Azure Cache for Redis
     href: azure-cache-for-redis-add-connected-service.md
-  - name: Add Azure CosmosDB
+  - name: Azure Cosmos DB
     href: azure-cosmosdb-add-connected-service.md
-  - name: Add Azure Key Vault
-    href: /azure/key-vault/vs-key-vault-add-connected-service?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
-  - name: Add Azure SignalR
+  - name: Key Vault
+    href: vs-key-vault-add-connected-service.md
+  - name: SignalR
     href: azure-signalr-add-connected-service.md
-  - name: Add Azure SQL Database
+  - name: SQL Database
     href: azure-sql-database-add-connected-service.md
-  - name: Add Azure Storage
+  - name: Storage
     href: vs-azure-tools-connected-services-storage.md
-  - name: Add Azure App Configuration 
+  - name: App Configuration
     href: vs-azure-tools-connected-services-app-configuration.md
-- name: Azure Cloud Services development
+- name: Deploy to Azure
   expanded: false
   items:
+  - name: ASP.NET web app
+    href: deploy-aspnet-web-app-to-azure.md
+  - name: Get a publish profile from Azure App Service
+    href: how-to-get-publish-profile-from-azure-app-service.md
+  - name: Continuous integration with GitHub Actions
+    items:
+    - name: Continuous integration with GitHub Actions
+      href: overview-github-actions.md
+    - name: Deploy to Azure using GitHub Actions
+      href: azure-deployment-using-github-actions.md
+    - name: Deploy an ASP.NET Core app with Entity Framework to Azure with GitHub Actions
+      href: end-to-end-deployment-entity-framework-core-github-actions.md
+- name: Sign in with your Azure subscription
+  href: how-to-sign-in-with-azure-subscription.md
+- name: Extended support for Azure Cloud Services
+  expanded: false
+  items:
+  - name: Use Cloud Services (extended support)
+    href: cloud-services-extended-support.md
   - name: Work with cloud service projects
     items:
-    - name: Use Cloud Services (extended support)
-      href: cloud-services-extended-support.md
     - name: Create an Azure cloud service project
       href: vs-azure-tools-azure-project-create.md
-    - name: Manage roles in Azure cloud services
+    - name: Manage roles in Azure Cloud Services
       href: vs-azure-tools-cloud-service-project-managing-roles.md
     - name: Prepare to publish or deploy a cloud service
       href: vs-azure-tools-cloud-service-publish-set-up-required-services-in-visual-studio.md
@@ -60,6 +76,8 @@
       href: vs-azure-tools-multiple-services-project-configurations.md
     - name: How to upgrade projects to the current version of the Azure Tools
       href: vs-azure-tools-upgrade-projects-to-the-current-version-of-the-azure-tools.md
+    - name: Construct filter strings in the table designer
+      href: vs-azure-tools-table-designer-construct-filter-strings.md
     - name: Access private Azure clouds
       href: vs-azure-tools-access-private-azure-clouds-with-visual-studio.md
   - name: Test and debug a cloud service
@@ -76,8 +94,6 @@
       href: vs-azure-tools-intellitrace-debug-published-cloud-services.md
     - name: Test the performance of a cloud service
       href: vs-azure-tools-performance-profiling-cloud-services.md
-    - name: Optimize your Azure code
-      href: vs-azure-tools-optimizing-azure-code-in-visual-studio.md
   - name: Deploy a cloud service to Azure
     items:
     - name: Migrate and Deploy a Web Application to an Azure Cloud Service
@@ -96,27 +112,11 @@
       href: vs-azure-tools-service-configurations-and-profiles-how-to-manage.md
     - name: Set up named authentication credentials
       href: vs-azure-tools-setting-up-named-authentication-credentials.md
-  - name: Work with Azure storage
+  - name: Cloud Explorer
     items:
-    - name: Get started with Storage Explorer
-      href: /azure/vs-azure-tools-storage-manage-with-storage-explorer?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json # in another TOC
-    - name: Configure and Use the Storage Emulator with Visual Studio
-      href: /azure/vs-azure-tools-storage-emulator-using?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
-    - name: Constructing filter strings for the Table Designer
-      href: vs-azure-tools-table-designer-construct-filter-strings.md
-    - name: Manage Azure blob storage resources with Storage Explorer
-      href: /azure/vs-azure-tools-storage-explorer-blobs?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json # in another TOC
-    - name: Use Storage Explorer with Azure file storage
-      href: /azure/vs-azure-tools-storage-explorer-files?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
-    - name: Microsoft Azure Storage Explorer release notes
-      href: /azure/vs-azure-tools-storage-explorer-relnotes?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json # in another TOC
-    - name: Storage Explorer accessibility
-      href: /azure/vs-azure-tools-storage-explorer-accessibility?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json # in another TOC
-- name: Cloud Explorer
-  items:
-  - name: Browse and manage storage resources by using Server Explorer
-    href: vs-azure-tools-storage-resources-server-explorer-browse-manage.md
-  - name: Manage the resources associated with your Azure accounts in Cloud Explorer
-    href: vs-azure-tools-resources-managing-with-cloud-explorer.md
-  - name: Access Azure virtual machines from Server Explorer
-    href: vs-azure-tools-virtual-machines-access-from-server-explorer.md
+    - name: Browse and manage storage resources by using Server Explorer
+      href: vs-azure-tools-storage-resources-server-explorer-browse-manage.md
+    - name: Manage the resources associated with your Azure accounts in Cloud Explorer
+      href: vs-azure-tools-resources-managing-with-cloud-explorer.md
+    - name: Access Azure Virtual Machines from Server Explorer
+      href: vs-azure-tools-virtual-machines-access-from-server-explorer.md

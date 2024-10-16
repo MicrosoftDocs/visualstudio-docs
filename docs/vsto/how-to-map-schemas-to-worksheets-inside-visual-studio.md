@@ -1,8 +1,7 @@
 ---
-title: "How to: Map schemas to worksheets inside Visual Studio"
+title: "Map schemas to worksheets inside Visual Studio"
 description: Learn how you can map an XML schema to a Microsoft Office Excel worksheet while the worksheet is open in Visual Studio. 
 titleSuffix: ""
-ms.custom: "seodec18, SEO-VS-2020"
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -15,12 +14,11 @@ helpviewer_keywords:
   - "worksheets [Office development in Visual Studio], XML schemas"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Map schemas to worksheets inside Visual Studio
+# Map schemas to worksheets inside Visual Studio
+
   You can map an XML schema to a worksheet while the worksheet is open in Visual Studio. You use the same Microsoft Office Excel tools that you use when the workbook is open outside of Visual Studio. The Office project creates the same objects whether you map the schema to the worksheet before or after you create your Excel solution.
 
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]
@@ -61,6 +59,6 @@ ms.workload:
 
      If you drag a repeating schema element, the Office project generates a <xref:Microsoft.Office.Tools.Excel.ListObject> control that is not automatically bound to a data source. For more information, see [XML schemas and data in document-level customizations](../vsto/xml-schemas-and-data-in-document-level-customizations.md).
 
-## See also
+## Related content
 - [How to: Map schemas to Word documents inside Visual Studio](../vsto/how-to-map-schemas-to-word-documents-inside-visual-studio.md)
 - [XML schemas and data in document-level customizations](../vsto/xml-schemas-and-data-in-document-level-customizations.md)

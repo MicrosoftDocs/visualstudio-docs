@@ -1,7 +1,6 @@
 ---
 title: "Develop Office solutions"
 description: Learn how to design a project by using Office developer tools in Visual Studio. Also learn how to begin implementing the code and custom user interface (UI).
-ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,12 +12,11 @@ helpviewer_keywords:
   - "Office solutions [Office development in Visual Studio], developing"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Develop Office solutions
+
   After you design a project by using the Office developer tools in Visual Studio and set up the project files, you can begin to concentrate on implementing the code and custom user interface (UI).
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
@@ -50,12 +48,11 @@ ms.workload:
 |[Program document-level customizations](../vsto/programming-document-level-customizations.md)|Provides an overview of the programming model of document-level customizations and related programming tasks.|
 |[Office UI customization](../vsto/office-ui-customization.md)|Describes the different ways that you can customize the UI of Office applications by using VSTO Add-ins and document-level customizations.|
 |[Data in Office solutions](../vsto/data-in-office-solutions.md)|Describes the different ways that you can work with data in Office solutions, such as binding data to controls and caching data in document-level customizations.|
-|[How AutoSave impacts Office solutions](./how-autosave-impacts-office-solutions.md)|Describes adjustments you might need to make to Office Solutions when AutoSave is enabled.|
 |[Troubleshoot Office solutions](../vsto/troubleshooting-office-solutions.md)|Provides tips for solving common problems that you might encounter when creating Office solutions.|
 |[Threading support in Office](../vsto/threading-support-in-office.md)|Provides an overview of working with multiple threads in Office solutions.|
 |[Accessibility in Office projects](../vsto/accessibility-in-office-projects.md)|Describes the accessibility features that are available in Office solutions.|
 
-## See also
+## Related content
 - [How to: Create and modify custom document properties](../vsto/how-to-create-and-modify-custom-document-properties.md)
 - [How to: Read from and write to document properties](../vsto/how-to-read-from-and-write-to-document-properties.md)
 - [How to: Target the Office multilingual user interface](../vsto/how-to-target-the-office-multilingual-user-interface.md)

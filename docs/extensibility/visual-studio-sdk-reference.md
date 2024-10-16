@@ -1,19 +1,15 @@
 ---
-title: Visual Studio SDK Reference | Microsoft Docs
+title: Visual Studio SDK Reference
 description: These articles contain information about Visual Studio namespaces, related namespaces, and other areas of interest for developers who use the Visual Studio SDK.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - Visual Studio SDK, reference
 - reference, Visual Studio SDK
-ms.assetid: a6930db5-a112-4651-8de3-e520df851f82
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Visual Studio SDK reference
 
@@ -235,14 +231,11 @@ This section contains information about Visual Studio namespaces, related namesp
 - [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)
  Links to topics for the Source Control Plug-in API.
 
-- [Command-Line Switches](../extensibility/command-line-switches-visual-studio-sdk.md)
- Links to topics that discuss how developers can automate several tasks from the command line.
+- [Command-Line Switches](../extensibility/devenv-command-line-switches-for-vspackage-development.md)
+ Information about how you can automate several tasks from the command line.
 
 - [Error Handling and Return Values](../extensibility/error-handling-and-return-values.md)
  Explains the error architecture for VSPackages, which is the same as that employed in other Windows programming.
-
-- [Objects](../extensibility/objects.md)
- Gives a list of the objects that are used in the environment.
 
 - [Glossary](../extensibility/visual-studio-sdk-glossary.md)
  Gives a list of helpful terms and their definitions for use when you are reading the Visual Studio SDK documentation.

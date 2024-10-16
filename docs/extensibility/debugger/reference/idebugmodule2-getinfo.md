@@ -1,6 +1,6 @@
 ---
 description: "Gets information about this module."
-title: IDebugModule2::GetInfo | Microsoft Docs
+title: IDebugModule2::GetInfo
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,18 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - GetInfo method
 - IDebugModule2::GetInfo method
-ms.assetid: de337e66-294f-4ac9-b21e-71fac7418e36
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugModule2::GetInfo
+
 Gets information about this module.
 
 ## Syntax

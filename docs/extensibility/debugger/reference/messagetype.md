@@ -1,28 +1,38 @@
 ---
 description: "Specifies the message type and reason."
-title: MESSAGETYPE | Microsoft Docs
+title: MESSAGETYPE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - MESSAGETYPE
 helpviewer_keywords:
 - MESSAGETYPE enumeration
-ms.assetid: 800cc77d-3c27-4763-a9df-552a9384bd49
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # MESSAGETYPE
+
 Specifies the message type and reason.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_MESSAGETYPE { 
+   MT_OUTPUTSTRING      = 0x0000001,
+   MT_MESSAGEBOX        = 0x00000002,
+   MT_TYPE_MASK         = 0x000000FF,
+   MT_REASON_EXCEPTION  = 0x00000100,
+   MT_REASON_TRACEPOINT = 0x00000200,
+   MT_REASON_MASK       = 0x0000FF00
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_MESSAGETYPE { 
    MT_OUTPUTSTRING      = 0x0000001,
@@ -34,17 +44,7 @@ enum enum_MESSAGETYPE { 
 };
 typedef DWORD MESSAGETYPE;
 ```
-
-```csharp
-public enum enum_MESSAGETYPE { 
-   MT_OUTPUTSTRING      = 0x0000001,
-   MT_MESSAGEBOX        = 0x00000002,
-   MT_TYPE_MASK         = 0x000000FF,
-   MT_REASON_EXCEPTION  = 0x00000100,
-   MT_REASON_TRACEPOINT = 0x00000200,
-   MT_REASON_MASK       = 0x0000FF00
-};
-```
+---
 
 ## Fields
  `MT_OUTPUTSTRING`\

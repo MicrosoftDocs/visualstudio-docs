@@ -1,20 +1,17 @@
 ---
-title: Interfaces (Visual Studio Debugging) | Microsoft Docs
+title: Interfaces (Visual Studio Debugging)
 description: Use these resources to learn about core interfaces, expression evaluation interfaces, and symbol provider interfaces in Visual Studio debugging.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], interfaces
-ms.assetid: 79875cbb-f946-49d4-94eb-941d0e1a40b2
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Interfaces (Visual Studio Debugging)
+
 Methods are listed alphabetically under each interface in the table of contents and on the interface page in Vtable order.
 
 ## In This Section
@@ -33,7 +30,7 @@ Methods are listed alphabetically under each interface in the table of contents 
 ## Related Sections
 - [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)
 
- Contains documentation for the interfaces, enumerators, and structures of the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] Debugging SDK.
+ Contains documentation for the interfaces, enumerators, and structures of the Visual Studio Debugging SDK.
 
 ## See also
 - [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)

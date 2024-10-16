@@ -1,27 +1,26 @@
 ---
-description: "Retrieves the symbol that contains a specified metadata token."
-title: "IDiaSession::findSymbolByToken | Microsoft Docs"
+description: Retrieves the symbol that contains a specified metadata token.
+title: "IDiaSession::findSymbolByToken"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSession::findSymbolByToken method"
-ms.assetid: 3c92149c-6eef-454f-86be-66e89557b9e6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findSymbolByToken
+
 Retrieves the symbol that contains a specified metadata token.
 
 ## Syntax
 
 ```C++
-HRESULT findSymbolByToken ( 
+HRESULT findSymbolByToken ( 
    ULONG        token,
    SymTagEnum   symtag,
    IDiaSymbol** ppSymbol

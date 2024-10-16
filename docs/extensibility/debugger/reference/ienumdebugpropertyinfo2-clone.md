@@ -1,39 +1,39 @@
 ---
 description: "Returns a copy of the current DEBUG_PROPERTY_INFO enumeration as a separate object."
-title: IEnumDebugPropertyInfo2::Clone | Microsoft Docs
+title: IEnumDebugPropertyInfo2::Clone
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugPropertyInfo2::Clone
 helpviewer_keywords:
 - IEnumDebugPropertyInfo2::Clone
-ms.assetid: 0ede1667-1071-4aa4-b887-260ea103d724
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugPropertyInfo2::Clone
+
 Returns a copy of the current enumeration as a separate object.
 
 ## Syntax
 
-```cpp
-HRESULT Clone(
-   IEnumDebugPropertyInfo2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Clone(
    out IEnumDebugPropertyInfo2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Clone(
+   IEnumDebugPropertyInfo2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

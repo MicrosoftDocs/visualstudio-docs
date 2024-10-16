@@ -1,20 +1,17 @@
 ---
 title: Source control guidelines for projects and editors
 description: Learn about the guidelines that projects and editors should adhere to in order to support source control.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], guidelines for projects and editors
-ms.assetid: 2483cce5-321c-4d3c-9c5c-ee8385263f74
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Additional source control guidelines for projects and editors
+
 There are a number of guidelines that projects and editors should adhere to in order to support source control.
 
 ## Guidelines
@@ -30,5 +27,5 @@ There are a number of guidelines that projects and editors should adhere to in o
 |Persist objects and properties in predictable order|X|X|Persist your files in a predictable order, such as alphabetical order, to facilitate merging.|
 |Reload|X|X|When a file changes on disk, your editor must be able to reload it. When you participate in source control, the environment will reload data for you by calling your <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2.ReloadDocData%2A> implementation. The most difficult reload case is when a checkout occurs when you have called IVsQueryEditQuerySave::<xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> and are processing information. However, your reload code must be able to run in this situation.<br /><br /> The environment automatically reloads project files. However, a project must implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2> if it has nested hierarchies in order to support reloading nested project files.|
 
-## See also
+## Related content
 - [Support source control](../../extensibility/internals/supporting-source-control.md)

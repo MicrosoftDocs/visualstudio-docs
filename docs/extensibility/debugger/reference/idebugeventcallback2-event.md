@@ -1,40 +1,27 @@
 ---
 description: "Sends notification of debug events."
-title: IDebugEventCallback2::Event | Microsoft Docs
+title: IDebugEventCallback2::Event
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEventCallback2::Event
 helpviewer_keywords:
 - IDebugEventCallback2::Event
-ms.assetid: e5a3345b-d460-4e40-8f5b-3111c56a2ed9
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugEventCallback2::Event
+
 Sends notification of debug events.
 
 ## Syntax
 
-```cpp
-HRESULT Event( 
-   IDebugEngine2*  pEngine,
-   IDebugProcess2* pProcess,
-   IDebugProgram2* pProgram,
-   IDebugThread2*  pThread,
-   IDebugEvent2*   pEvent,
-   REFIID          riidEvent,
-   DWORD           dwAttrib
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Event( 
    IDebugEngine2  pEngine,
@@ -46,6 +33,19 @@ int Event( 
    uint           dwAttrib
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Event( 
+   IDebugEngine2*  pEngine,
+   IDebugProcess2* pProcess,
+   IDebugProgram2* pProgram,
+   IDebugThread2*  pThread,
+   IDebugEvent2*   pEvent,
+   REFIID          riidEvent,
+   DWORD           dwAttrib
+);
+```
+---
 
 ## Parameters
 `pEngine`\

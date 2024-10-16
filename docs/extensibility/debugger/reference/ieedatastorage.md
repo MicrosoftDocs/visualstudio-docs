@@ -1,21 +1,19 @@
 ---
 description: "This interface represents an array of bytes."
-title: IEEDataStorage | Microsoft Docs
+title: IEEDataStorage
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEEDataStorage
 helpviewer_keywords:
 - IEEDataStorage interface
-ms.assetid: 704e932d-2325-410e-89c4-ce88c6ec19da
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IEEDataStorage
+
 This interface represents an array of bytes.
 
 ## Syntax

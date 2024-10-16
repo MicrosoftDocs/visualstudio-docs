@@ -1,7 +1,6 @@
 ---
-title: "Walkthrough: Create a Basic Site Definition Project | Microsoft Docs"
+title: "Walkthrough: Create a Basic Site Definition Project"
 description: In this SharePoint walkthrough, see how to create a basic site definition that contains a visual Web part with some controls.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -12,17 +11,16 @@ helpviewer_keywords:
   - "site definitions [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Walkthrough: Create a basic site definition project
+
   This walkthrough shows you how to create a basic site definition that contains a visual Web part with some controls on it. For the sake of clarity, the visual Web part that you create has only a few controls. However, you can create more sophisticated SharePoint site definitions that include more functionality.
 
  This walkthrough demonstrates the following tasks:
 
-- Creating a site definition by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] project template.
+- Creating a site definition by using the Visual Studio project template.
 
 - Creating a SharePoint site by using a site definition in SharePoint.
 
@@ -40,7 +38,7 @@ ms.workload:
 - Visual Studio.
 
 ## Create a site definition solution
- First, create the site definition project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+ First, create the site definition project in Visual Studio.
 
 #### To create a site definition project
 
@@ -107,10 +105,14 @@ ms.workload:
     </table>
     ```
 
-6. Under *VisualWebPart1.ascx*, open the *VisualWebPart1.ascx.cs* file (for [!INCLUDE[csprcs](../sharepoint/includes/csprcs-md.md)]) or *VisualWebPart1.ascx.vb* (for [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)]) , and then add the following code:
+6. Under *VisualWebPart1.ascx*, open the *VisualWebPart1.ascx.cs* file (for Visual C#) or *VisualWebPart1.ascx.vb* (for Visual Basic) , and then add the following code:
 
-     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/testsitedefvb/sitedefinition/visualwebpart1/visualwebpart1usercontrol.ascx.vb" id="Snippet1":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/testsitedef/sitedefinition/visualwebpart1/visualwebpart1usercontrol.ascx.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/testsitedefvb/sitedefinition/visualwebpart1/visualwebpart1usercontrol.ascx.vb" id="Snippet1":::
+     ---
 
      This code adds functionality for the web part's button click.
 
@@ -178,6 +180,6 @@ ms.workload:
 
      The text appears in the label on the right side of the button.
 
-## See also
+## Related content
 - [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

@@ -1,7 +1,6 @@
 ---
-title: "How to: Protect parts of documents by using content controls"
+title: "Protect parts of documents by using content controls"
 description: Learn how you can use Visual Studio to protect parts of a Microsoft Word document by using content controls.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -18,12 +17,11 @@ helpviewer_keywords:
   - "GroupContentControl"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Protect parts of documents by using content controls
+# Protect parts of documents by using content controls
+
   When you protect part of a document, you prevent users from changing or deleting the content in that part of the document. There are several ways you can protect parts of a Microsoft Office Word document by using content controls:
 
 - You can protect a content control.
@@ -39,7 +37,7 @@ ms.workload:
 
 ### To protect a content control at design time
 
-1. In the document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, select the content control that you want to protect.
+1. In the document that is hosted in the Visual Studio designer, select the content control that you want to protect.
 
 2. In the **Properties** window, set one or both of the following properties:
 
@@ -55,13 +53,21 @@ ms.workload:
 
      The following code example demonstrates using the <xref:Microsoft.Office.Tools.Word.RichTextContentControl.LockContents%2A> and <xref:Microsoft.Office.Tools.Word.RichTextContentControl.LockContentControl%2A> properties of two different <xref:Microsoft.Office.Tools.Word.RichTextContentControl> objects in a document-level project. To run this code, add the code to the `ThisDocument` class in your project, and call the `AddProtectedContentControls` method from the `ThisDocument_Startup` event handler.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_ContentControlHowToProtect/ThisDocument.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_ContentControlHowToProtect/ThisDocument.vb" id="Snippet2":::
+     ---
 
      The following code example demonstrates using the <xref:Microsoft.Office.Tools.Word.RichTextContentControl.LockContents%2A> and <xref:Microsoft.Office.Tools.Word.RichTextContentControl.LockContentControl%2A> properties of two different <xref:Microsoft.Office.Tools.Word.RichTextContentControl> objects in a VSTO Add-in project. To run this code, add the code to the `ThisAddIn` class in your project, and call the `AddProtectedContentControls` method from the `ThisAddIn_Startup` event handler.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet14":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs" id="Snippet14":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet14":::
+     ---
 
 ## Protect a part of a document that is not in a content control
  You can prevent users from changing an area of a document by putting the area in a <xref:Microsoft.Office.Tools.Word.GroupContentControl>. This is useful in the following scenarios:
@@ -75,7 +81,7 @@ ms.workload:
 
 ### To protect an area of a document at design time
 
-1. In the document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, select the area that you want to protect.
+1. In the document that is hosted in the Visual Studio designer, select the area that you want to protect.
 
 2. On the Ribbon, click the **Developer** tab.
 
@@ -92,15 +98,23 @@ ms.workload:
 
      The following code example for a document-level project adds text to the first paragraph in the document, selects the first paragraph, and then instantiates a <xref:Microsoft.Office.Tools.Word.GroupContentControl>. To run this code, add the code to the `ThisDocument` class in your project, and call the `ProtectFirstParagraph` method from the `ThisDocument_Startup` event handler.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_ContentControlHowToProtect/ThisDocument.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_ContentControlHowToProtect/ThisDocument.vb" id="Snippet1":::
+     ---
 
      The following code example for a VSTO Add-in project adds text to the first paragraph in the active document, selects the first paragraph, and then instantiates a <xref:Microsoft.Office.Tools.Word.GroupContentControl>. To run this code, add the code to the `ThisAddIn` class in your project, and call the `ProtectFirstParagraph` method from the `ThisAddIn_Startup` event handler.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet15":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs" id="Snippet15":::
 
-## See also
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet15":::
+     ---
+
+## Related content
 - [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
 - [Content controls](../vsto/content-controls.md)
 - [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)

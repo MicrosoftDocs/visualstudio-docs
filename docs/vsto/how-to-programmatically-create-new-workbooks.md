@@ -1,7 +1,6 @@
 ---
-title: "How to: Programmatically create new workbooks"
-description: Learn how you can programmatically create a new Microsoft Excel workbook by using Visual Studio.
-ms.custom: SEO-VS-2020
+title: "Programmatically create new workbooks"
+description: Create a new Microsoft Excel workbook programmatically from Visual Basic or C# in Visual Studio by using the default template or with a custom template.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -12,12 +11,11 @@ helpviewer_keywords:
   - "workbooks, creating"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Programmatically create new workbooks
+# Programmatically create new workbooks
+
   When you create a workbook programmatically, it is a native <xref:Microsoft.Office.Interop.Excel.Workbook> object, not a <xref:Microsoft.Office.Tools.Excel.Workbook> host item.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -28,13 +26,17 @@ ms.workload:
 
 1. Use the <xref:Microsoft.Office.Interop.Excel.Workbooks.Add%2A> method of the <xref:Microsoft.Office.Interop.Excel.Workbooks> collection.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet1":::
+     ---
 
     > [!NOTE]
     > You can create a workbook based on a template other than the default template: pass the template you want to use as a parameter to the <xref:Microsoft.Office.Interop.Excel.Workbooks.Add%2A> method.
 
-## See also
+## Related content
 - [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
 - [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [Work with workbooks](../vsto/working-with-workbooks.md)

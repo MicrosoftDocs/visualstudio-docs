@@ -1,7 +1,6 @@
 ---
 title: "&lt;application&gt; element (Office development in Visual Studio)"
 description: Learn how the application element of the vstav3 namespace wraps the description of Office solutions.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: 02/02/2017
 ms.topic: reference
@@ -12,12 +11,11 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <application> element"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # &lt;application&gt; element (Office development in Visual Studio)
+
   The `application` element of the `vstav3` namespace wraps the description of Office solutions. The child elements are different for document-level customizations and VSTO Add-ins.
 
 ## Syntax for document-level customizations
@@ -63,7 +61,7 @@ ms.workload:
 ## Document-level customization example
 
 ### Description
- The following code example illustrates an `application` element in a document-level Office solution deployed using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md).
+ The following code example illustrates an `application` element in a document-level Office solution deployed using ClickOnce. This code example is part of a larger example provided in [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md).
 
 ### Code
 
@@ -82,7 +80,7 @@ ms.workload:
 ## VSTO Add-in example
 
 ### Description
- The following code example illustrates an `application` element in an application-level Office solution deployed using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md).
+ The following code example illustrates an `application` element in an application-level Office solution deployed using ClickOnce. This code example is part of a larger example provided in [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md).
 
 ### Code
 

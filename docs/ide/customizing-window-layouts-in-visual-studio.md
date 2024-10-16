@@ -1,9 +1,8 @@
 ---
-title: Customize window layouts
-description: Learn how to customize the characteristics that windows exhibit to create layouts that work best for various development workflows.
-ms.custom: SEO-VS-2020
-ms.date: 03/02/2021
-ms.topic: conceptual
+title: Customize & save layouts of windows and tabs
+description: Learn how to customize tabs and windows in Visual Studio to create layouts that work best for your development workflows.
+ms.date: 08/23/2024
+ms.topic: how-to
 f1_keywords:
 - vs.windows
 - vs.environment
@@ -19,130 +18,116 @@ helpviewer_keywords:
 - Tabbed Document mode
 - debug mode
 - custom layouts
-ms.assetid: 7517ff13-76de-4ecf-9c1b-eb9b7ff4d718
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: anandmeg
+ms.author: meghaanand
+manager: mijacobs
+ms.subservice: general-ide
+
+#customer intent: As a Visual Studio user, I want to learn how to customize tabs and windows in Visual Studio to create layouts that work best for my development workflows.
+
 ---
-# Customize window layouts in Visual Studio
 
-In Visual Studio, you can customize the position, size, and behavior of windows to create window layouts that work best for various development workflows. When you customize the layout, the IDE remembers it. For example, if you change the docking location of **Solution Explorer** and then close Visual Studio, the next time that you open Visual Studio, even if you're working on another computer, **Solution Explorer** will be docked in that same location.
+# Customize window layouts and personalize tabs
 
-You can also name and save a custom layout and then switch between layouts with a single command. For example, you could create a layout for editing and a layout for debugging, and switch between them by using the **Window** > **Apply Window Layout** menu command.
+In Visual Studio, you can customize the position, size, and behavior of windows to create window layouts that work best for various development workflows. You can also personalize how you use [tabs](#personalize-tabs) to interact with your code.
 
-## Tool and document windows
+## Customize window layouts
 
-The IDE has two basic window types, *tool windows* and *document windows*. Tool windows include **Solution Explorer**, **Server Explorer**, **Output Window**, **Error List**, the designers, the debugger windows, and so on. Document windows contain source code files, arbitrary text files, config files, and so on. Tool windows can be resized and dragged by their title bar. Document windows can be dragged by their tab. Right-click on the tab or title bar to set other options on the window.
+When you customize a window layout, the Visual Studio [integrated development environment](../get-started/visual-studio-ide.md) (IDE) remembers it. For example, if you change the docking location of [Solution Explorer](use-solution-explorer.md) and then close Visual Studio, the next time that you open Visual Studio, Solution Explorer will be docked in the same location. The Visual Studio IDE remembers the docking location even if you're working on another computer.
 
-The **Window** menu shows options for docking, floating, and hiding windows in the IDE. Right click on a window tab or title bar to see additional options for that specific window. You can display more than one instance of certain tool windows at a time. For example, you can display more than one web browser window, and you can create additional instances of some tool windows by choosing **New Window** on the **Window** menu.
+You can also name and save a custom layout and then switch between layouts with a single command. For example, you could create a layout for editing and a layout for debugging, and switch between them by selecting **Window** > **Apply Window Layout**.
 
-### Split windows
+::: moniker range="vs-2022"
 
-When you have to view or edit two locations at once in a document, you can split windows. To divide your document into two independently scrolling sections, click **Split** on the **Window** menu. Click **Remove Split** on the **Window** menu to restore the single view.
-
-### Tabs
-
-You can use tabs to arrange your layout in several different ways. For example, you can view a preview of a file in the editor without opening the file, you can group your tabs, and more.
-
-#### Preview tab (document windows)
-
-In the **Preview** tab, you can view files in the editor without opening them. You can preview files by choosing them in **Solution Explorer**, during debugging when you step into files, with **Go to Definition**, and when you browse through results of a search. Preview files appear in a tab on the right side of the document tab well. The file opens for editing if you modify it or choose  **Open**.
-
-::: moniker range=">=vs-2019"
-
-#### Vertical document tabs
-
-**[New in version 16.4](/visualstudio/releases/2019/release-notes-v16.4/)**: We added one of the top feature requests, [vertical document tabs](https://developercommunity.visualstudio.com/idea/467369/vertical-group-tab.html), in the Visual Studio 2019 version 16.4 release. Now, you can manage your document tabs in a vertical list on either the left or right side of your editor.
-
-You can apply vertical document tabs in the following ways:
-
-- Choose **Tools** > **Options** > **Environment** > **Tabs and Windows** from the menu bar. Then, from the **Set tab layout** control, choose either **Top**, **Left**, or **Right** from the drop-down list.
-
-- Right-click a tab, choose **Set Tab Layout**, and then choose either **Left** or **Right**. (To return the tabs to their default position, choose **Top**.)
-
-    :::image type="content" source="./media/vs-2019/vertical-tabs.gif" alt-text="An animation that shows vertical document tabs in action":::
+> [!TIP]
+> Starting with Visual Studio 17.9, the list of open documents was moved from a binary format in the .suo file to a plain text format in a JSON file. The JSON file is saved in the hidden .vs folder in the same location as the .suo file (**solutionFolder**.vs\\**solutionName**\v17). This JSON file contains the list of open documents and their properties, the layout of document groups and containers, and vertical tab column width. Storing in plain text as JSON enables easier backup and the ability to check in different sets of open documents that can be restored as needed.
 
 ::: moniker-end
 
-#### Tab groups
+### Tool and document windows
 
-Tab groups extend your ability to manage limited workspace while you're working with two or more open documents in the IDE. You can organize multiple document windows and tool windows into either vertical or horizontal tab groups and shuffle documents from one tab group to another.
+The IDE has two basic window types: *tool windows* and *document windows*. Tool windows include Solution Explorer, Server Explorer, the Output window, Error List, the designers, and the debugger windows. Document windows contain source code files, arbitrary text files, config files, and so on. You can resize tool windows and drag them by their title bar. You can drag document windows by their tab.
 
-### Toolbars
+The **Window** menu contains options for docking, floating, and hiding windows in the IDE. Right-click a window's tab or title bar to see more options for that specific window. You can display more than one instance of certain tool windows at a time. For example, you can display more than one web browser window, and you can create extra instances of some tool windows by selecting **New Window** on the **Window** menu.
 
-You can arrange toolbars by dragging them to where you want them, or by using the **Customize** dialog box. For more information about how to position and customize toolbars, see [How to: Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md).
+#### Split windows
 
-## Arrange and dock windows
+When you need to view or edit two locations simultaneously in a document, you can split the window. To divide your document into two independently scrolling sections, select **Split** on the **Window** menu. Select **Remove Split** on the **Window** menu to restore the single view.
 
-A document window or tool window can be *docked*, so that it has a position and size within the IDE window frame. You can also position it as a separate floating window that's outside of the IDE.
+#### Toolbars
 
-You can dock a tool window anywhere inside the IDE frame. You can also dock some tool windows as tabbed windows in the editor frame. And, you can dock document windows within the editor frame, and you can pin them to their current position in the tab order.
+You can arrange toolbars by dragging them to where you want them, or by using the **Customize** dialog. For more information about how to position and customize toolbars, see [Customize menus and toolbars](how-to-customize-menus-and-toolbars-in-visual-studio.md).
 
-You can also dock multiple windows to float together in a *raft* over or outside of the IDE. Tool windows can also be hidden or minimized.
+### Arrange and dock windows
 
-You can arrange windows in the following ways:
+You can *dock* a document window or tool window so that it has a position and size within the IDE window frame. You can also position it as a separate floating window that's outside of the IDE.
 
-- Pin document windows to the left of the tab well.
+You can dock a tool window anywhere inside the IDE frame. You can also dock some tool windows as tabbed windows in the editor frame. And you can dock document windows within the editor frame or pin them to their current position in the [tab](#personalize-tabs) order.
 
-- Tab-dock windows to the editing frame.
+You can also arrange windows in the following ways:
 
-- Dock tool windows to the edge of a frame in the IDE.
-
-- Float document or tool windows over or outside the IDE.
-
+- Dock multiple windows to float together in a *raft* over or outside of the IDE.
 - Hide tool windows along the edge of the IDE.
-
+- Minimize tool windows.
 - Display windows on different monitors.
-
 - Reset window placement to the default layout or to a saved custom layout.
 
 To arrange tool and document windows, you can place your cursor on the title bar of a window and then drag it to where you want it. Alternatively, you can right-click the title bar of the window to use its context menu, or you can use the commands on the **Window** menu.
 
-### Dock windows
+#### Dock windows
 
-When you click and drag the title bar of a tool window, or the tab of document window, a guide diamond appears. During the drag operation, when the mouse cursor is over one of the arrows in the diamond, a shaded area will appear that shows you where the window will be docked if you release the mouse button now.
+When you select and drag the title bar of a tool window or the tab of document window, a docking *guide diamond* appears. During the drag operation, when the mouse cursor is over one of the arrows in the diamond, a shaded area appears that shows you where the window will dock if you release the mouse button.
 
-To move a dockable window without snapping it into place, press the **Ctrl** key while you drag the window.
+To move a dockable window without snapping it into place, select **Ctrl** while you drag the window.
 
-To return a tool window or document window to its most recent docked location, press **Ctrl** while you double-click the title bar or tab of the window.
+To return a tool window or document window to its most recent docked location, select **Ctrl** while you double-click the title bar or tab of the window.
 
-The following illustration shows the guide diamond for document windows, which can only be docked within the editing frame:
+The following screenshot shows the guide diamond for document windows, which can be docked only within the editing frame:
 
-![Document window guide diamond](../ide/media/documentwindowguidediamonds.png)
+::: moniker range="vs-2022"
 
-Tool windows can be fastened to one side of a frame in the IDE or within the editing frame. A guide diamond appears when you drag a tool window to another location to help you to easily redock the window.
+:::image type="content" source="media/document-window-guide-diamond.png" alt-text="Screenshot of the document window guide diamond.":::
 
-![Tool Window Guide Diamonds](../ide/media/vs10guidediamond.png)
+::: moniker-end
 
-The following illustration shows **Solution Explorer** being docked in a new location that's demarcated by the blue shaded area:
+::: moniker range="vs-2019"
 
-![Docking Solution Explorer in a new position](../ide/media/vs2015_dock_diamond.png)
+:::image type="content" source="media/vs-2019/document-window-guide-diamond.png" alt-text="Screenshot of the document window guide diamond.":::
 
-### Close and auto-hide tool windows
+::: moniker-end
 
-You can close a tool window by clicking the **X** in the upper right of the title bar. To reopen the window, use its keyboard shortcut or menu command. Tool windows support a feature named *auto hide*, which causes a window to slide out of the way when you use a different window. When a window is autohidden, its name appears on a tab at the edge of the IDE. To use the window again, point to the tab so that the window slides back into view.
+You can fasten tool windows to one side of a frame in the IDE or within the editing frame. To help you to easily redock the window, a guide diamond appears when you drag the window to another location.
 
-![Auto hide](../ide/media/vs2015_auto_hide.png)
+:::image type="content" source="media/tool-window-guide-diamond-sml.png" alt-text="Screenshot of the Tool window guide diamond.":::
 
-> [!NOTE]
-> To set whether auto hide operates on tool windows individually or as docked groups, select or clear **Auto Hide button affects active tool windows only** in the **Options** dialog box. For more information, see [General, Environment, Options dialog box](../ide/reference/general-environment-options-dialog-box.md).
+The following screenshot shows Solution Explorer being docked in a new location that's demarcated by a purple shaded area:
 
-> [!NOTE]
-> Tool windows that have auto hide enabled may temporarily slide into view when the window has focus. To hide the window again, select an item outside of the current window. When the window loses focus, it slides back out of view.
+:::image type="content" source="media/docked-diamond-solution-explorer-example-sml.png" alt-text="Screenshot of what appears in the IDE when you want to dock Solution Explorer in a new position.":::
 
-### Use a second monitor
+### Close and autohide tool windows
 
-If you have a second monitor and your operating system supports it, you can choose which monitor displays a window. You can even group multiple windows together in *rafts* on other monitors.
+You can close a tool window by selecting the **Close** button in the upper-right corner of the title bar. To reopen the window, select the tool window you want on the **View** menu, or use the associated keyboard shortcut.
+
+If you right-click the title bar of a tool window and then select **Auto Hide**, the window will slide out of the way when you use a different window. When a window is automatically hidden, its name appears on a tab at the edge of the IDE. To use the window again, select the tab so that the window slides back into view.
+
+:::image type="content" source="media/auto-hide-sml.png" alt-text="Set of two screenshots that show the Auto Hide menu item and the associated set of tabbed tool windows that appear when Auto Hide is selected." lightbox="media/auto-hide-lrg.png":::
 
 > [!TIP]
-> You can create multiple instances of **Solution Explorer** and move them to another monitor. Right-click the window and choose **New Solution Explorer View**. You can return all windows back to the original monitor by double-clicking while choosing the **Ctrl** key.
+> To specify whether auto hide operates on tool windows individually or as docked groups, select or clear **Auto Hide button affects active tool window only** in the **Options** dialog. For more information, see [Options dialog box: Environment > General](reference/general-environment-options-dialog-box.md).
 
-### Reset, name, and switch between window layouts
+> [!NOTE]
+> When auto hide is enabled on a tool window, the window might temporarily slide into view when it has focus. To hide the window again, select an item outside of the current window. When the window loses focus, it slides back out of view.
 
-You can return the IDE to the original window layout for your settings collection by using the **Reset Window Layout** command. When you run this command, the following actions occur:
+#### Use a second monitor
+
+If you have a second monitor and your operating system supports the use of dual monitors, you can select which monitor displays a window. You can even group multiple windows together in *rafts* on other monitors.
+
+> [!TIP]
+> You can create multiple instances of Solution Explorer and move them to another monitor. Right-click the [Solution node](use-solution-explorer.md#solution-explorer-ui) and select **[New Solution Explorer View](use-solution-explorer.md#solution-node-menu-options)**. To close an extra instance, double-click the title bar while selecting the **Ctrl** key.
+
+#### Reset window layouts
+
+You can return the IDE to the original window layout for your settings collection by selecting **Windows** > **Reset Window Layout** from the menu bar. When you run this command, the following actions occur:
 
 - All windows are moved to their default positions.
 
@@ -150,67 +135,178 @@ You can return the IDE to the original window layout for your settings collectio
 
 - Windows that are open in the default window layout are opened.
 
-### Create and save custom layouts
+#### Create and save custom layouts
 
-Visual Studio enables you to save up to 10 custom window layouts and quickly switch between them. The following steps show how to create, save, invoke, and manage custom layouts that take advantage of multiple monitors with both docked and floating tool windows.
+Visual Studio enables you to save up to 10 custom window layouts and quickly switch among them. The following steps show how to create, save, invoke, and manage two custom layouts that take advantage of multiple monitors and have both docked and floating tool windows.
 
-First, create a test solution that has two projects, each with a different optimal layout.
+##### Create a project and customize the layout
 
-#### Create a UI project and customize the layout
+First, create a user interface (UI) project. The idea is to maximize the space for the designer window by moving other tool windows out of the way.
 
-::: moniker range="vs-2017"
+1. Create a new C# **WPF Application** project.
 
-1. Create a new C# **WPF App** project. Imagine that in this project, you'll be developing a user interface. You want to maximize the space for the designer window and move other tool windows out of the way.
+1. If you have multiple monitors, drag Solution Explorer and the **Properties** window to your second monitor.
 
-::: moniker-end
+   If you're using only one monitor, close all windows except for the designer.
 
-::: moniker range=">=vs-2019"
+1. Select **Ctrl**+**Alt**+**X** to display the **Toolbox** window. If the window is docked, drag it so that it floats where you want to position it.
 
-1. Create a new C# **WPF Application** project. Imagine that in this project, you'll be developing a user interface. You want to maximize the space for the designer window and move other tool windows out of the way.
+1. When your layout is how you want it, select **Window** > **Save Window Layout**. Name the layout **Designer**.
 
-::: moniker-end
+     Notice that your new layout is assigned the next keyboard shortcut from the reserved list of **Ctrl**+**Alt**+**1...0** shortcuts.
 
-2. If you have multiple monitors, pull over the **Solution Explorer** window and the **Properties** window to your second monitor. On a single monitor system, try closing all the windows except the designer.
+##### Create a database project and layout
 
-3. Press **Ctrl**+**Alt**+**X** to display the **Toolbox** window. If the window is docked, drag it so that it floats somewhere where you'd like to position it.
+Next, add a new SQL Server database project to the solution.
 
-4. Press **F5** to put Visual Studio into debugging mode. Adjust the position of the **Autos**, **Call Stack**, and **Output** debugging windows the way you want them. The layout you're about to create will apply to both editing mode and debugging mode.
+1. Right-click the **Solution** node in **Solution Explorer** to open its [context menu](use-solution-explorer.md#solution-explorer-context-menu), select **Add**, and then select **New Project**.
 
-5. When your layouts in both debugging mode and editing mode are how you want them, choose **Window** > **Save Window Layout**. Call this layout "Designer."
+1. In the **Add a new project** dialog, select **SQL** from the **All project types** list, and then select **SQL Server Database Project**. (You might need to clear the other filters.)
 
-     Notice that your new layout is assigned the next keyboard shortcut from the reserved list of **Ctrl**+**Alt**+**1...0**.
+   (You can also use the search box to find the template. To do so, enter **SQL** in the box that contains the text **Search for templates (Alt+S)**.)
 
-#### Create a database project and layout
+1. Right-click the new database project in Solution Explorer, and then select **View in Object Explorer**.
 
-1. Add a new **SQL Server Database** project to the solution.
+   When you select this option, Visual Studio displays the **SQL Server Object Explorer** window, which enables you to access tables, views, and other objects in your database. You can either float this window or leave it docked. Adjust the other tool windows the way you want them. To make this walkthrough more realistic, you can add an actual database, but you don't need to.
 
-2. Right-click on the new project in **Solution Explorer** and choose **View in Object Explorer**. This displays the **SQL Server Object Explorer** window, which enables you to access tables, views and other objects in your database. You can either float this window or leave it docked. Adjust the other tool windows the way you want them. For added realism, you can add an actual database, but it's not necessary for this walkthrough.
+1. When your layout is how you want it, select **Window** from the menu bar, and then select **Save Window Layout**. Name this layout **DB Project**. 
 
-3. When your layout is how you want it, from the main menu choose **Window** > **Save Window Layout**. Call this layout "DB Project." (We won't bother with a debug mode layout for this project.)
+##### Switch between the layouts
 
-#### Switch between the layouts
+To switch between layouts, use the keyboard shortcuts from the reserved list of **Ctrl**+**Alt**+**1...0** shortcuts. Or, from the main menu, select **Window** > **Apply Window Layout**.
 
-To switch between layouts, use the keyboard shortcuts, or from the main menu choose **Window** > **Apply Window Layout**.
+:::image type="content" source="media/apply-window-layout-sml.png" alt-text="Screenshot of the Apply Window Layout menu.":::
 
-![Apply window layout menu](../ide/media/vs2015_applywindowlayout.png)
-
-After applying the UI layout, note how the layout is preserved both in editing mode and in debug mode.
-
-If you have a multi monitor setup at work and a single monitor laptop at home, you can create layouts that are optimized for each machine.
+If you have a multi-monitor setup at work and a single monitor laptop at home, you can create layouts that are optimized for each machine.
 
 > [!NOTE]
-> If you apply a multi-monitor layout on a single-monitor system, the floating windows that you placed on the second monitor will now be hidden behind the Visual Studio window. You can bring these windows to the front by pressing **Alt + Tab**. If you later open Visual Studio with multiple monitors, you can restore the windows to their specified positions by re-applying the layout.
+> If you apply a multi-monitor layout on a single-monitor system, the floating windows that you placed on the second monitor will be hidden behind the Visual Studio window. You can bring these windows to the front by pressing **Alt**+**Tab**. If you later open Visual Studio with multiple monitors, you can restore the windows to their specified positions by reapplying the layout.
 
 #### Manage and roam your layouts
 
-You can remove, rename, or reorder your custom layout by choosing **Window** > **Manage Window Layouts**. If you move a layout, the key binding is automatically adjusted to reflect the new position in the list. The bindings can't be otherwise modified, and so you can store a maximum of 10 layouts at a time.
+You can remove, rename, or reorder your custom layout by selecting **Window** > **Manage Window Layouts**. If you move a layout, the key binding is automatically adjusted to reflect the new position in the list. The key bindings themselves can't be modified, but you can store up to 10 layouts at a time.
 
-![Manage window layouts](../ide/media/managewindowlayouts.png)
+:::image type="content" source="media/manage-window-layouts-sml.png" alt-text="Screenshot of the Manage Window Layouts dialog.":::
 
-To remind yourself which keyboard shortcut is assigned to which layout, choose **Window** > **Apply Window Layout**.
+To remind yourself which keyboard shortcut is assigned to which layout, select **Window** > **Apply Window Layout**.
 
-These layouts automatically roam between Visual Studio editions, and also between Blend instances on separate machines, and from any Express edition to any other Express organization. However, layouts do not roam across Visual Studio, Blend, and Express.
+These layouts automatically roam between Visual Studio [editions](https://visualstudio.microsoft.com/vs/compare/) and [Blend](../xaml-tools/creating-a-ui-by-using-blend-for-visual-studio.md) instances on separate machines.
 
-## See also
+## Personalize tabs
 
-- [How to: Move around in the IDE](../ide/how-to-move-around-in-the-visual-studio-ide.md)
+You can personalize tabs to interact with document windows in several different ways. For example, you can view a preview of a file in the editor without opening the file, you can group your tabs, arrange them in multiple rows, and more.
+
+> [!TIP]
+> To learn more about how to manage tabs in Visual Studio 2022 and later, see the following blog post: [Too many tabs open? No problem!](https://devblogs.microsoft.com/visualstudio/too-many-tabs-open-no-problem/).
+
+### Preview tab
+
+On the **Preview** tab, you can view files in the editor without opening them. You can preview files by selecting them in Solution Explorer, during debugging when you step into files, with **Go to Definition**, and when you browse through results of a search. Preview files appear in a tab on the right side of the document tab well. The file opens for editing if you modify it or select  **Open** on the file's context menu in Solution Explorer.
+
+### Tab groups
+
+Tab groups extend your ability to manage limited workspace while you're working with two or more open documents in the IDE. You can organize multiple document windows and tool windows into either vertical or horizontal tab groups and shuffle documents from one tab group to another.
+
+#### Vertical document tabs
+
+::: moniker range="vs-2022"
+
+You can manage your document tabs in a vertical list on either the left or right side of the editor.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+[New in Visual Studio 2019 version 16.4 and later](/visualstudio/releases/2019/release-notes-v16.4/). These versions support one of the top feature requests: [vertical document tabs](https://developercommunity.visualstudio.com/idea/467369/vertical-group-tab.html). You can now manage your document tabs in a vertical list on either the left or right side of the editor.
+
+:::image type="content" source="./media/vs-2019/vertical-tabs.gif" alt-text="Animation that shows vertical document tabs.":::
+
+::: moniker-end
+
+You can apply vertical document tabs in the following ways:
+
+- Select **Tools** > **Options** > **Environment** > **Tabs and Windows**. Then, in the **Set tab layout** list, select **Top**, **Left**, or **Right**.
+
+::: moniker range="vs-2019"
+
+- Right-click a tab, select **Set Tab Layout**, and then select either **Left** or **Right**. (To return the tabs to their default position, select **Top**.)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+- Right-click a tab, select **Set Tab Layout**, and then select **Place Tabs on the Left**, **Place Tabs on the Top**, or **Place Tabs on the Right**. (To return the tabs to their default position, select **Place Tabs on the Top**.)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+### Color-code document tabs
+
+Visual Studio 2022 includes new personalization options that can help you work more efficiently. You can now color-code file tabs by project so that you don't need to hunt for your open files.
+
+To color-code tabs, go to **Tools** > **Options** > **Environment** > **Tabs and Windows**. Then select the **Colorize document tabs by** checkbox and select either **Project**, **File extension**, or **Regular Expression** in the dropdown list.
+
+#### Colorize tabs in different views
+
+You can colorize tabs in both vertical and horizontal views in the editor.
+
+The following screenshot shows an example of color tabs in the vertical view:
+
+:::image type="content" source="media/vs-2022/color-tabs-vertical.png" alt-text="Screenshot of color tabs in the vertical view.":::
+
+The following screenshot shows an example of color tabs in the horizontal view:
+
+:::image type="content" source="media/vs-2022/color-tabs-horizontal.png" alt-text="Screenshot of color tabs in the horizontal view.":::
+
+#### Select your own colors
+
+You can also select your own tab colors. To do so, right-click a tab, select **Set Tab Color**, and then select a color.
+
+The following screenshot shows an example of how to personalize the color scheme of tabs:
+
+:::image type="content" source="media/vs-2022/color-tabs-personalize-schemes.png" alt-text="Screenshot of the Set Tab Option that you can use to personalize the colors of tabs.":::
+
+### Multiple rows of tabs
+
+You can now wrap tabs into multiple rows. This enables you to have more horizontal tabs open at once. Pinned tabs show up in a separate row from unpinned tabs.
+
+:::image type="content" source="media/vs-2022/tabs-multiple-rows-sml.png" alt-text="Screenshot of an example of tabs arranged in multiple rows.":::
+
+To change these options, go to **Tools** > **Options** > **Environment** > **Tabs and Windows** > **Show tabs in multiple rows**.
+
+### Custom organization system
+
+You can now apply bold formatting to your current active tab, change your tab width, and add an extra close button at the top of a document.
+
+:::image type="content" source="media/vs-2022/custom-tab-organization-sml.png" alt-text="Screenshot of the new custom organization options for tabs in Visual Studio.":::
+
+To change these options, navigate to **Tools** > **Options** > **Environment** > **Tabs and Windows**.
+
+### Improved accessibility
+
+You can change the indicator for documents that have unsaved changes to a larger, more visible dot.
+
+:::image type="content" source="media/vs-2022/tabs-modify-asterisk.png" alt-text="Screenshot of large dot that indicates unsaved changes.":::
+
+To change this setting, select your preference in **Tools** > **Options** > **Environment** > **Tabs and Windows** > **Dirty Indicator**.
+
+### Show names in italics
+
+You can show the names of documents that aren't visible in italics.
+
+:::image type="content" source="media/vs-2022/tabs-italics-invisible.png" alt-text="Screenshot of invisible tabs listed in italics.":::
+
+To enable this option, go to **Tools** > **Options** > **Environment** > **Tabs and Windows** and select **Show invisible tabs in italic in tab dropdown menu**.
+
+### Restore closed tabs
+
+You can reopen the last tab you closed by right-clicking a tab, by using the **Ctrl**+**K**, **Ctrl**+**Z** keyboard shortcut, or by selecting **Window** > **Restore Closed Tab**.
+
+:::image type="content" source="media/vs-2022/tabs-restore-recent-documents.png" alt-text="Screenshot of the Restore Closed Tab menu item.":::
+
+::: moniker-end
+
+## Related content
+
+- [Move around in the Visual Studio IDE](../ide/how-to-move-around-in-the-visual-studio-ide.md)

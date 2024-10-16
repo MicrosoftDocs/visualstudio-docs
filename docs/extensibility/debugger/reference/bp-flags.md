@@ -1,28 +1,35 @@
 ---
 description: "Provides optional flags that may be used to specify additional information when setting a breakpoint."
-title: BP_FLAGS | Microsoft Docs
+title: BP_FLAGS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_FLAGS
 helpviewer_keywords:
 - BP_FLAGS enumeration
-ms.assetid: c45dfc74-5e7f-4f1e-a147-ab2a55dccbd0
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # BP_FLAGS
+
 Provides optional flags that may be used to specify additional information when setting a breakpoint.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_BP_FLAGS {
+    BP_FLAG_NONE            = 0x0000,
+    BP_FLAG_MAP_DOCPOSITION = 0x0001,
+    BP_FLAG_DONT_STOP       = 0x0002
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_BP_FLAGS {
     BP_FLAG_NONE            = 0x0000,
@@ -31,14 +38,7 @@ enum enum_BP_FLAGS {
 };
 typedef DWORD BP_FLAGS;
 ```
-
-```csharp
-public enum enum_BP_FLAGS {
-    BP_FLAG_NONE            = 0x0000,
-    BP_FLAG_MAP_DOCPOSITION = 0x0001,
-    BP_FLAG_DONT_STOP       = 0x0002
-};
-```
+---
 
 ## Fields
 `BP_FLAG_NONE`\

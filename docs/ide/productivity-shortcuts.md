@@ -1,23 +1,18 @@
 ---
 title: Keyboard and mouse shortcuts
 description: This article contains tips for keyboard and mouse shortcuts in Visual Studio that can help you be more productive.
-ms.date: 11/02/2018
+ms.date: 07/12/2022
 ms.topic: reference
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: anandmeg
+ms.author: meghaanand
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Shortcut tips for Visual Studio
 
 You can navigate in Visual Studio more easily by using the shortcuts in this article. These shortcuts include keyboard and mouse shortcuts as well as text you can enter to help accomplish a task more easily.
 
-For a complete list of command shortcuts, see [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
-
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Common keyboard shortcuts in Visual Studio for Mac](/visualstudio/mac/keyboard-shortcuts).
+For a comprehensive list of command shortcuts and a printable keyboard shortcut cheat sheet, see [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md).
 
 ## Window management
 
@@ -64,7 +59,7 @@ For a complete list of command shortcuts, see [Default keyboard shortcuts](../id
 |Task|Shortcut|
 |-|-|
 |Go To All|**Ctrl**+**T**|
-|Go to recent files|**Ctrl**+**T**,**R**|
+|Go to recent files|**Ctrl**+**1**,**R**|
 |Multi-caret multiple insertion points|**Ctrl**+**Alt**+**click**|
 |Multi-caret add matching selection|**Shift**+**Alt**+**Ins**|
 |Format Document|**Ctrl**+**K**,**D**|
@@ -126,5 +121,4 @@ For a complete list of command shortcuts, see [Default keyboard shortcuts](../id
 
 - [Accessibility tips and tricks](../ide/reference/accessibility-tips-and-tricks.md)
 - [Productivity features in Visual Studio](productivity-features.md)
-- [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md)
-- [Common keyboard shortcuts in Visual Studio for Mac](/visualstudio/mac/keyboard-shortcuts)
+- [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md)

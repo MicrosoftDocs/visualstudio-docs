@@ -1,37 +1,27 @@
 ---
 description: "Attaches the session debug manager (SDM) to the process."
-title: IDebugProcess2::Attach | Microsoft Docs
+title: IDebugProcess2::Attach
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcess2::Attach
 helpviewer_keywords:
 - IDebugProcess2::Attach
-ms.assetid: 40d78417-fde2-45c3-96c9-16e06bd9008d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProcess2::Attach
+
 Attaches the session debug manager (SDM) to the process.
 
 ## Syntax
 
-```cpp
-HRESULT Attach( 
-   IDebugEventCallback2* pCallback,
-   GUID*                 rgguidSpecificEngines,
-   DWORD                 celtSpecificEngines,
-   HRESULT*              rghrEngineAttach
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Attach( 
    IDebugEventCallback2 pCallback,
@@ -40,6 +30,16 @@ int Attach( 
    int[]                rghrEngineAttach
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Attach( 
+   IDebugEventCallback2* pCallback,
+   GUID*                 rgguidSpecificEngines,
+   DWORD                 celtSpecificEngines,
+   HRESULT*              rghrEngineAttach
+);
+```
+---
 
 ## Parameters
 `pCallback`\

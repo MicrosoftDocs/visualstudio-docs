@@ -1,39 +1,39 @@
 ---
 description: "Gets a managed code object representing the value associated with this object."
-title: IDebugObject2::GetICorDebugValue | Microsoft Docs
+title: IDebugObject2::GetICorDebugValue
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugObject2::GetICorDebugValue
 helpviewer_keywords:
 - IDebugObject2::GetICorDebugValue method
-ms.assetid: bcd4355d-3fbe-483f-bb23-a44348323c6a
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugObject2::GetICorDebugValue
+
 Gets a managed code object representing the value associated with this object.
 
 ## Syntax
 
-```cpp
-HRESULT GetICorDebugValue(
-   IUnknown** ppUnk
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetICorDebugValue(
    out object ppUnk
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetICorDebugValue(
+   IUnknown** ppUnk
+);
+```
+---
 
 ## Parameters
 `ppUnk`\

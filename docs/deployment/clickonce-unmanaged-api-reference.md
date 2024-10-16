@@ -1,7 +1,6 @@
 ---
-title: "ClickOnce Unmanaged API Reference | Microsoft Docs"
+title: "ClickOnce Unmanaged API Reference"
 description: Learn about the ClickOnce unmanaged public APIs from dfshim.dll, including CleanOnlineAppCache, GetDeploymentDataFromManifest, and LaunchApplication.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 api_name:
   - "CleanOnlineAppCache"
@@ -24,25 +23,23 @@ helpviewer_keywords:
   - "CleanOnlineAppCache [ClickOnce unmanaged]"
   - "CleanOnlineAppCacheW interface [ClickOnce unmanaged]"
   - "GetDeploymentDataFromManifest [ClickOnce unmanaged]"
-ms.assetid: ec002138-4054-456d-bcc1-79ac2f4a4fd7
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "cplusplus"
+manager: mijacobs
+ms.subservice: deployment
 ---
 # ClickOnce unmanaged API reference
-[!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] unmanaged public APIs from dfshim.dll.
+
+ClickOnce unmanaged public APIs from dfshim.dll.
 
 ## CleanOnlineAppCache
- Cleans or uninstalls all online applications from the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application cache.
+ Cleans or uninstalls all online applications from the ClickOnce application cache.
 
 ### Return value
  If successful, returns S_OK; otherwise, returns an HRESULT that represents the failure. If a managed exception occurs, returns 0x80020009 (DISP_E_EXCEPTION).
 
 ### Remarks
- Calling CleanOnlineAppCache will start the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] service if it is not already running.
+ Calling CleanOnlineAppCache will start the ClickOnce service if it is not already running.
 
 ## GetDeploymentDataFromManifest
  Retrieves deployment information from the manifest and activation URL.

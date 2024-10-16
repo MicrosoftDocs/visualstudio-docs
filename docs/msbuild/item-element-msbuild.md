@@ -1,24 +1,19 @@
 ---
-title: Item Element (MSBuild) | Microsoft Docs
+title: Item Element (MSBuild)
 description: Learn how MSBuild uses the Item element to contain a user-defined item and its metadata. Every item must be a child of an ItemGroup element.
-ms.custom: SEO-VS-2020
 ms.date: 03/13/2017
 ms.topic: reference
 dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - Item Element [MSBuild]
 - <Item> Element [MSBuild]
-ms.assetid: dcef5f91-0613-4bfc-8ee9-d7004bb6d3a9
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # Item element (MSBuild)
 
@@ -73,10 +68,12 @@ Now, however, you can pass the `Version` metadata as an attribute, such as in th
 |`Exclude`|Optional attribute.<br /><br /> The file or wildcard to exclude from the list of items.|
 |`Condition`|Optional attribute.<br /><br /> The condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|
 |`Remove`|Optional attribute.<br /><br /> The file or wildcard to remove from the list of items.<br /><br />|
+|`MatchOnMetadata`|Optional attribute.<br /><br /> Modifies `Remove` attributes that reference other items to match on the specified metadata names instead of matching on the referenced items' values. <br /><br /> This attribute is valid only if it's specified together with a `Remove` attribute that only contains references to other items (for example, `Remove="@(Compile);@(Content)"`). More details in [Items](../msbuild/msbuild-items.md).
+|`MatchOnMetadataOptions`|Optional attribute.<br /><br /> Specifies the string matching strategy used by `MatchOnMetadata`. Possible values are `CaseSensitive`, `CaseInsensitive`, or `PathLike`. The default value is `CaseInsensitive`. |  
 |`KeepDuplicates`|Optional attribute.<br /><br /> Specifies whether an item should be added to the target group if it's an exact duplicate of an existing item. If the source and target item have the same `Include` value but different metadata, the item is added even if `KeepDuplicates` is set to `false`. For more information, see [Items](../msbuild/msbuild-items.md).<br /><br /> This attribute is valid only if it's specified for an item in an `ItemGroup` that's in a `Target`.|
 |`KeepMetadata`|Optional attribute.<br /><br /> The metadata for the source items to add to the target items. Only the metadata whose names are specified in the semicolon-delimited list are transferred from a source item to a target item. For more information, see [Items](../msbuild/msbuild-items.md).<br /><br /> This attribute is valid only if it's specified for an item in an `ItemGroup` that's in a `Target`.|
 |`RemoveMetadata`|Optional attribute.<br /><br /> The metadata for the source items to not transfer to the target items. All metadata is transferred from a source item to a target item except metadata whose names are contained in the semicolon-delimited list of names. For more information, see [Items](../msbuild/msbuild-items.md).<br /><br /> This attribute is valid only if it's specified for an item in an `ItemGroup` that's in a `Target`.|
-|`Update`|Optional attribute. (Available only for .NET Core projects in Visual Studio 2017 or later.)<br /><br /> Enables you to modify metadata of an item; typically used to override the default metadata of specific items after a group of items is intially specified (such as with a wildcard).<br /><br /> This attribute is valid only if it's specified for an item in an `ItemGroup` that is not in a `Target`.|
+|`Update`|Optional attribute. (Available only for .NET Core projects in Visual Studio 2017 or later.)<br /><br /> Enables you to modify metadata of an item; typically used to override the default metadata of specific items after a group of items is initially specified (such as with a wildcard).<br /><br /> This attribute is valid only if it's specified for an item in an `ItemGroup` that is not in a `Target`.|
 
 ### Child elements
 

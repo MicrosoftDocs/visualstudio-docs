@@ -1,39 +1,39 @@
 ---
 description: "Attempts to determine why an auto-attach failed."
-title: IDebugCoreServer3::DiagnoseWebDebuggingError | Microsoft Docs
+title: IDebugCoreServer3::DiagnoseWebDebuggingError
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCoreServer3::DiagnoseWebDebuggingError
 helpviewer_keywords:
 - IDebugCoreServer3::DiagnoseWebDebuggingError
-ms.assetid: 8c4570ca-ae55-42f2-bbaa-8d8e75d2fa19
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCoreServer3::DiagnoseWebDebuggingError
+
 Attempts to determine why an auto-attach failed.
 
 ## Syntax
 
-```cpp
-HRESULT DiagnoseWebDebuggingError(
-   LPCWSTR pszUrl
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int DiagnoseWebDebuggingError(
    string pszUrl
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT DiagnoseWebDebuggingError(
+   LPCWSTR pszUrl
+);
+```
+---
 
 ## Parameters
 `pszUrl`\

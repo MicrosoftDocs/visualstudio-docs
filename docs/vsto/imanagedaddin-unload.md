@@ -2,20 +2,24 @@
 title: "IManagedAddin::Unload"
 description: "Called just before a managed VSTO Add-in is unloaded."
 ms.date: "02/02/2017"
-ms.topic: "interface"
+ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"
+  - C++
+f1_keywords:
+  - "IMANAGEDADDIN/IManagedAddIn::Unload"
+  - "IManagedAddin::Unload"
+  - "IManagedAddin.Unload"
 helpviewer_keywords:
   - "Unload method"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # IManagedAddin::Unload
+
   Called just before a managed VSTO Add-in is unloaded.
 
 ## Syntax

@@ -1,22 +1,19 @@
 ---
-title: Expression Evaluator | Microsoft Docs
+title: Expression Evaluator
 description: Learn about expression evaluators, which examine the syntax of a language to parse and evaluate variables and expressions at runtime in break mode.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: conceptual
 helpviewer_keywords:
 - expressions [Debugging SDK]
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation
-ms.assetid: f9381b2f-99aa-426c-aea0-d9c15f3c859b
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Expression evaluator
+
 Expression evaluators (EE) examine the syntax of a language to parse and evaluate variables and expressions at run time, allowing them to be viewed by the user when the IDE is in break mode.
 
 ## Use expression evaluators
@@ -35,7 +32,7 @@ Expression evaluators (EE) examine the syntax of a language to parse and evaluat
    When asynchronous expression evaluation completes, an asynchronous event is sent by the DE through the session debug manager (SDM) to notify the IDE that expression evaluation is complete. And, the result of the evaluation is then returned from the call to the `IDebugExpression2::EvaluateSync` method.
 
 ## Implementation notes
- The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debug engines expect to talk with the expression evaluator using Common Language Runtime (CLR) interfaces. As a result, an expression evaluator that works with the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debug engines must support the CLR (a complete list of all CLR debugging interfaces can be found in debugref.doc, which is part of the [!INCLUDE[winsdklong](../../deployment/includes/winsdklong_md.md)]).
+ The Visual Studio debug engines expect to talk with the expression evaluator using Common Language Runtime (CLR) interfaces. As a result, an expression evaluator that works with the Visual Studio debug engines must support the CLR (a complete list of all CLR debugging interfaces can be found in debugref.doc, which is part of the Windows Software Development Kit (SDK)).
 
 ## See also
 - [Debugger components](../../extensibility/debugger/debugger-components.md)

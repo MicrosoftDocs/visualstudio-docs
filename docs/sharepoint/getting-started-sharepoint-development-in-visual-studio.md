@@ -1,8 +1,7 @@
 ---
-title: "Getting Started (SharePoint Development in Visual Studio) | Microsoft Docs"
+title: Get started with SharePoint Development in Visual Studio
 titleSuffix: ""
-description: Get started with SharePoint development in Visual Studio. SharePoint offers a web-based collaboration platform.
-ms.custom: SEO-VS-2020
+description: Get started with SharePoint development in Visual Studio and take advantage of a web-based collaboration platform for your projects and solutions.
 ms.date: "02/02/2017"
 ms.topic: overview
 dev_langs:
@@ -14,30 +13,28 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, getting started"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Get started (SharePoint development in Visual Studio)
 
-  This section helps you start working with [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] to develop SharePoint solutions that take advantage of [!INCLUDE[wss_14_short](../sharepoint/includes/wss-14-short-md.md)] and [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)].
+  This section helps you start working with Visual Studio to develop SharePoint solutions that take advantage of  SharePoint Foundation and  Microsoft SharePoint Server.
 
  For information about SharePoint add-ins, see [Build SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
 
- SharePoint offers a Web-based collaboration platform. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] provides many project templates for creating SharePoint sites and content, including list definitions, workflows, business data connectivity models, and site definitions. In addition, you can create extensions for the SharePoint projects and tools in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+ SharePoint offers a Web-based collaboration platform. Visual Studio provides many project templates for creating SharePoint sites and content, including list definitions, workflows, business data connectivity models, and site definitions. In addition, you can create extensions for the SharePoint projects and tools in Visual Studio.
 
 ## In this section
 
 |Topic|Description|
 |-----------|-----------------|
-|[Additional information for SharePoint errors](../sharepoint/additional-information-for-sharepoint-errors.md)|Describes where to find help during SharePoint development and troubleshooting.|
+|[Additional information for SharePoint errors](troubleshooting-sharepoint-solutions.md)|Describes where to find help during SharePoint development and troubleshooting.|
 
 ## Related sections
 
 |Topic|Description|
 |-----------|-----------------|
-|[Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)|Describes SharePoint development in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].|
+|[Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)|Describes SharePoint development in Visual Studio.|
 |[Set up a general development environment for SharePoint](/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint)|Describes the required installations for creating a SharePoint Solution|
 |[Create site columns, content types, and lists for SharePoint](../sharepoint/creating-site-columns-content-types-and-lists-for-sharepoint.md)|Describes how to create custom site columns, content types, and lists for SharePoint by using the Visual Studio tools for SharePoint development.|
 |[Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)|Describes workflow design and development.|

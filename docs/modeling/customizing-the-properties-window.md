@@ -1,17 +1,14 @@
 ---
 title: Customizing the Properties Window
 description: Learn how you can customize the appearance and behavior of the properties window in your domain-specific language (DSL) in Visual Studio. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - Domain-Specific Language, Properties window
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Customize the Properties window
 
@@ -68,7 +65,7 @@ The following procedure assumes that you have created a DSL. The first few steps
 
 #### Forward a property from another element
 
-1. Create a [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] solution that contains at least two classes, which in this example are called **Book** and **Author**. There should be a relationship of either kind between **Book** and **Author**.
+1. Create a Domain-Specific Language Tools solution that contains at least two classes, which in this example are called **Book** and **Author**. There should be a relationship of either kind between **Book** and **Author**.
 
     The multiplicity of the source role (the role at the **Book** side) should be 0..1 or 1..1, so that each **Book** has one **Author**.
 
@@ -104,7 +101,7 @@ However, you can specify the following editors and types:
 
 3. A .NET editor such as the file path editor, or you can create your own custom property editor.
 
-   A conversion between an external type and an type such as String, which has a default editor.
+   A conversion between an external type and a type such as String, which has a default editor.
 
    In a DSL, an *external type* is any type that is not one of the simple types (such as Boolean or Int32) or String.
 
@@ -316,6 +313,6 @@ public class MyTypeConverter : System.ComponentModel.TypeConverter
 }
 ```
 
-## See also
+## Related content
 
 - [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)

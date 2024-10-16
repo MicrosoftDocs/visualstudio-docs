@@ -1,7 +1,6 @@
 ---
 title: -Build (devenv.exe)
 description: Learn about the Build devenv command-line switch and how to use it to build a solution or project with a specified solution configuration file.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
@@ -10,13 +9,10 @@ helpviewer_keywords:
 - Devenv, /build switch
 - build Devenv switch
 - command-line builds
-ms.assetid: ced21627-7653-455b-8821-3e31c6a448cf
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # /Build (devenv.exe)
 
@@ -32,7 +28,7 @@ devenv SolutionName /Build [SolnConfigName [/Project ProjName [/ProjectConfig Pr
 
 - *SolutionName*
 
-  Required. The full path and name of the solution file.
+  Required. The path and name of the solution file, relative to the solution's directory.
 
 - *SolnConfigName*
 

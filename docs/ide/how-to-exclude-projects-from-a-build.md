@@ -1,18 +1,14 @@
 ---
-title: 'How to: Exclude projects from a build'
-description: Learn how you can use Visual Studio to build a solution without building all projects that it contains.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
-ms.technology: vs-ide-compile
+title: 'Exclude projects from a build'
+description: Exclude projects from a build in Visual Studio by building the solution without building all projects contained in the solution.
+ms.date: 05/15/2024
+ms.subservice: compile-build
 ms.topic: how-to
-ms.assetid: 17a837ca-5db9-46cd-b5a7-b14ad1d2c47d
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.workload:
-- multiple
+manager: mijacobs
 ---
-# How to: Exclude projects from a build
+# Exclude projects from a build
 
 You can build a solution without building all projects that it contains. For example, you might exclude a project that breaks the build. You could then build the project after you investigate and address the issues.
 
@@ -52,7 +48,7 @@ For more information, see [Understand build configurations](../ide/understanding
 
 ## Skipped projects
 
-Projects can be skipped during the build because they are not up-to-date or because they are excluded from the configuration. Visual Studio uses MSBuild to build your projects. MSBuild only builds a target if the output is older than the input, as determined by the file timestamps. To force a rebuild, use the command **Build** > **Rebuild Solution**.
+Projects can be skipped during the build because they are up-to-date or because they are excluded from the configuration. Visual Studio uses MSBuild to build your projects. MSBuild only builds a target if the output is older than the input, as determined by the file timestamps. To force a rebuild, use the command **Build** > **Rebuild Solution**.
 
 In the **Build** pane of the **Output** window, Visual Studio reports the number of projects that were up to date, the number that built successfully, the number that failed, and the number that were skipped. The skipped count does not include projects that were not built because they were up-to-date. When projects are excluded from the active configuration, they are skipped during the build. In the build output, you see a message indicating that the project is skipped:
 
@@ -63,7 +59,7 @@ In the **Build** pane of the **Output** window, Visual Studio reports the number
 
 To find out why a project was skipped, note the active configuration (`Debug x86` in the previous example), and choose **Build** > **Configuration Manager**. You can view or change which projects are skipped for each configuration, as discussed in this article.
 
-## See also
+## Related content
 
 - [Understand build configurations](../ide/understanding-build-configurations.md)
 - [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md)

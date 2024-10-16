@@ -1,20 +1,16 @@
 ---
-title: Task Writing | Microsoft Docs
-description: Learn about how you can create your own tasks to provide the code that runs during the MSBuild build process.
-ms.custom: SEO-VS-2020
+title: Write your own tasks with code for MSBuild
+description: Explore how you can create your own tasks to provide the code that runs during the MSBuild build process for your projects.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, writing tasks
 - tasks, creating for MSBuild
 - MSBuild, creating tasks
-ms.assetid: 3ebc5f87-8f00-46fc-82a1-228f35a6823b
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # Task writing
 
@@ -28,9 +24,9 @@ Tasks provide the code that runs during the build process. Tasks are contained i
 
 - Implement the <xref:Microsoft.Build.Framework.ITask> interface directly.
 
-- Derive your class from the helper class, <xref:Microsoft.Build.Utilities.Task>, which is defined in the *Microsoft.Build.Utilities.dll* assembly. Task implements ITask and provides default implementations of some ITask members. Additionally, logging is easier.
+- Derive your class from the helper class <xref:Microsoft.Build.Utilities.Task>, which is defined in the *Microsoft.Build.Utilities.dll* assembly. Task implements ITask and provides default implementations of some ITask members. Additionally, logging is easier.
 
-In both cases, you must add to your class a method named `Execute`, which is the method that is called when the task runs. This method takes no parameters and returns a `Boolean` value: `true` if the task succeeded or `false` if it failed. The following example shows a task that performs no action and returns `true`.
+In both cases, you must add to your class a method named `Execute`, which is the method that is called when the task runs. This method takes no parameters and returns a `Boolean` value: `true` if the task succeeded or `false` if it failed. The following example shows a task that performs no action and completes successfully (returns `true`).
 
 ```csharp
 using System;
@@ -92,12 +88,14 @@ namespace MyTasks
 
 ## Register tasks
 
- If a project is going to run a task, MSBuild must know how to locate the assembly that contains the task class. Tasks are registered using the [UsingTask element (MSBuild)](../msbuild/usingtask-element-msbuild.md).
+ If a project is going to run a task, MSBuild must know how to locate and run the assembly that contains the task class. Tasks are registered using the [UsingTask element (MSBuild)](../msbuild/usingtask-element-msbuild.md).
 
- The MSBuild file *Microsoft.Common.Tasks* is a project file that contains a list of `UsingTask` elements that register all the tasks that are supplied with MSBuild. This file is automatically included when building every project. If a task that is registered in *Microsoft.Common.Tasks* is also registered in the current project file, the current project file takes precedence; that is, you can override a default task with your own task that has the same name.
+If your task has runtime-specific dependencies, you must inform MSBuild that it should run the task in a specific environment by [indicating the `Architecture` and/or `Runtime` in its UsingTask](../msbuild/configure-tasks.md).
+
+The MSBuild file *Microsoft.Common.tasks* is a project file that contains a list of `UsingTask` elements that register all the [tasks that are supplied with MSBuild](../msbuild/msbuild-task-reference.md). This file is automatically included when building any project. If a task that is registered in *Microsoft.Common.tasks* is also registered in the current project file, the current project file takes precedence, so you can override a default task with your own task that has the same name.
 
 > [!TIP]
-> You can see a list of the tasks that are supplied with MSBuild by viewing the contents of *Microsoft.Common.Tasks*.
+> You can see a list of the tasks that are supplied with a specific version of MSBuild by viewing the contents of its *Microsoft.Common.tasks*.
 
 ## Raise events from a task
 
@@ -257,6 +255,8 @@ The following example shows a project file invoking the previous example task, S
 </Project>
 ```
 
-## See also
+## Related content
 
+- [Create a custom task](tutorial-custom-task-code-generation.md)
+- [Create a REST API client with MSBuild](tutorial-rest-api-client-msbuild.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

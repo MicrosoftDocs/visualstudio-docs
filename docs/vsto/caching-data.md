@@ -1,7 +1,6 @@
 ---
 title: "Cache data"
 description: Learn how you can cache data objects in a document-level customization so that the data can be accessed offline or without opening Microsoft Office Word or Excel.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,12 +12,11 @@ helpviewer_keywords:
   - "data caching [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Cache data
+
   You can cache data objects in a document-level customization so that the data can be accessed offline, or without opening Microsoft Office Word or Microsoft Office Excel. To cache an object, the object must have a data type that meets certain requirements. Many common data types in the .NET Framework meet these requirements, including <xref:System.String>, <xref:System.Data.DataSet>, and <xref:System.Data.DataTable>.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
@@ -54,7 +52,7 @@ ms.workload:
 
 - Not implement <xref:System.Collections.IDictionary> if a collection.
 
-  When you cache a data object, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] serializes the object into an XML string that is stored in a *custom XML part* in the document. For more information, see [Custom XML parts overview](../vsto/custom-xml-parts-overview.md).
+  When you cache a data object, the  Visual Studio Tools for Office runtime  serializes the object into an XML string that is stored in a *custom XML part* in the document. For more information, see [Custom XML parts overview](../vsto/custom-xml-parts-overview.md).
 
 ## Cached data size limits
  There are some limits to the total amount of data you can add to the data cache in a document, and to the size of any individual object in the data cache. If you exceed these limits, the application might close unexpectedly when the data is saved to the data cache.
@@ -76,11 +74,11 @@ ms.workload:
  For more information, see [How to: Cache data in a password-protected document](../vsto/how-to-cache-data-in-a-password-protected-document.md).
 
 ## Prevent data loss when adding null values to the data cache
- When you add objects to the data cache, all of the cached objects must be initialized to a non-**null** value before the document is saved and closed. If any cached object has a **null** value when the document is saved and closed, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] will automatically remove all of the cached objects from the data cache.
+ When you add objects to the data cache, all of the cached objects must be initialized to a non-**null** value before the document is saved and closed. If any cached object has a **null** value when the document is saved and closed, the  Visual Studio Tools for Office runtime  will automatically remove all of the cached objects from the data cache.
 
  If you add an object with a **null** value to the data cache by using the <xref:Microsoft.VisualStudio.Tools.Applications.Runtime.CachedAttribute> attribute at design time, you can use the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class to initialize the cached data objects before the document is opened. This is useful if you want to initialize the cached data on a server without Word or Excel installed, before the document is opened by an end user. For more information, see [Access data in documents on the server](../vsto/accessing-data-in-documents-on-the-server.md).
 
-## See also
+## Related content
 - [How to: Cache data for use offline or on a server](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md)
 - [How to: Programmatically cache a data source in an Office document](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md)
 - [How to: Cache data in a password-protected document](../vsto/how-to-cache-data-in-a-password-protected-document.md)

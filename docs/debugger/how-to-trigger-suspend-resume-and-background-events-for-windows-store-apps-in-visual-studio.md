@@ -1,7 +1,6 @@
 ---
 title: Trigger suspend/resume/background events when debugging UWP
 description: Review how to trigger suspend, resume, and background events while debugging Universal Windows Platform (UWP) apps in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 01/16/2018
 ms.topic: how-to
 f1_keywords: 
@@ -13,12 +12,10 @@ dev_langs:
   - C++
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - uwp
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
-# How to trigger suspend, resume, and background events while debugging UWP apps in Visual Studio
+# Trigger suspend, resume, and background events while debugging UWP apps in Visual Studio
 
 When you are not debugging, Windows **Process Lifetime Management** (PLM) controls the execution state of your app—starting, suspending, resuming, and terminating the app in response to user actions and the state of the device. When you are debugging, Windows disables these activation events. This topic describes how to fire these events in the debugger.
 
@@ -105,7 +102,7 @@ For more information about Process Lifetime Management and background tasks, see
 
 4. Choose the **Diagnostic** log.
 
-## See also
+## Related content
 - [Testing UWP apps with Visual Studio](../test/unit-test-your-code.md)
 - [Debug apps in Visual Studio](debugging-windows-store-and-windows-universal-apps.md)
 - [Application lifecycle](/windows/uwp/launch-resume/app-lifecycle)

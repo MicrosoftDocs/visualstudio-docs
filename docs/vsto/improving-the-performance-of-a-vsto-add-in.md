@@ -1,7 +1,6 @@
 ---
 title: "Improve the performance of a VSTO Add-in"
 description: Learn how to optimize VSTO Add-ins that you create for Office applications so that they quickly start up, shut down, open items, and perform other tasks.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -9,12 +8,11 @@ dev_langs:
   - "CSharp"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Improve the performance of a VSTO add-in
+
   You can give your users a better experience by optimizing VSTO Add-ins that you create for Office applications so that they quickly start up, shut down, open items, and perform other tasks. If your VSTO Add-in is for Outlook, you can also reduce the chance that your VSTO Add-in will be disabled because of poor performance. You can increase the performance of your VSTO Add-in by implementing the following strategies:
 
 - [Load VSTO Add-ins on demand](#Load).
@@ -95,14 +93,18 @@ ms.workload:
   For more information, see [Deploy an Office solution by using Windows Installer](../vsto/deploying-a-vsto-solution-by-using-windows-installer.md).
 
 ## <a name="Bypass"></a> Bypass Ribbon reflection
- If you build a solution by using [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)], ensure that your users have installed the most recent version of the Visual Studio 2010 Tools for Office runtime when you deploy the solution. Older versions of the VSTO runtime reflected into solution assemblies to locate Ribbon customizations. This process can cause the VSTO Add-in to load more slowly.
+ If you build a solution by using Visual Studio 2012, ensure that your users have installed the most recent version of the Visual Studio 2010 Tools for Office runtime when you deploy the solution. Older versions of the VSTO runtime reflected into solution assemblies to locate Ribbon customizations. This process can cause the VSTO Add-in to load more slowly.
 
  As an alternative, you can prevent any version of the Visual Studio 2010 Tools for Office runtime from using reflection to identify Ribbon customizations. To follow this strategy, override the `CreateRibbonExtensibility` method, and explicitly return Ribbon objects. If your VSTO Add-in doesn't contain any Ribbon customizations, return `null` inside of the method.
 
  The following example returns a Ribbon object based on the value of a field.
 
- :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_ribbon_choose_ribbon_4/ThisWorkbook.vb" id="Snippet1":::
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_ribbon_choose_ribbon_4/ThisWorkbook.cs" id="Snippet1":::
+
+ ### [VB](#tab/vb)
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_ribbon_choose_ribbon_4/ThisWorkbook.vb" id="Snippet1":::
+ ---
 
 ## <a name="Perform"></a> Perform expensive operations in a separate execution thread
  Consider performing time-consuming tasks (such as long running tasks, database connections, or other sorts of network calls) in a separate thread. For more information, see [Threading support in Office](../vsto/threading-support-in-office.md).
@@ -110,7 +112,7 @@ ms.workload:
 > [!NOTE]
 > All code that calls into the Office object model must execute in the main thread.
 
-## See also
+## Related content
 
 - [Demand-loading VSTO Add-ins](/archive/blogs/andreww/demand-loading-vsto-add-ins)
 - [Delay-loading the CLR in Office Add-ins](/archive/blogs/andreww/delay-loading-the-clr-in-office-add-ins)

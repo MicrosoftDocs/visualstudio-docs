@@ -2,7 +2,6 @@
 title: "Create user control for SharePoint app page or web part"
 titleSuffix: ""
 description: Create custom user controls that provide custom functionality for your SharePoint solution, and reuse that functionality within a web part or application page.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -13,13 +12,12 @@ helpviewer_keywords:
   - "user controls [SharePoint development in Visual Studio], adding"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
-# How to: Create a user control for a SharePoint application page or web part
-  You can create custom user controls that provide custom functionality for your SharePoint solution, and you can reuse that functionality within your project. You can include the user controls in a web part or application page, add other ASP.NET controls and SharePoint controls, and define properties and methods for the control. For more information about user controls, see [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md) and [User Controls and Server Controls in SharePoint](https://blogs.msdn.microsoft.com/kaevans/2011/04/28/user-controls-and-server-controls-in-sharepoint/).
+# Create a user control for a SharePoint application page or web part
+
+  You can create custom user controls that provide custom functionality for your SharePoint solution, and you can reuse that functionality within your project. You can include the user controls in a web part or application page, add other ASP.NET controls and SharePoint controls, and define properties and methods for the control. For more information about user controls, see [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md) and User Controls and Server Controls in SharePoint.
 
 ### To create a user control for SharePoint
 
@@ -50,7 +48,7 @@ ms.workload:
 
      This file appears in **Solution Explorer** under the user control file and has a *.cs* or *.vb* extension, depending on the language of the project.
 
-## See also
+## Related content
 - [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)
 - [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)
 - [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)

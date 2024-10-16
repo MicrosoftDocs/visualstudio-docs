@@ -1,7 +1,6 @@
 ---
-title: "How to: Add an Updater Method | Microsoft Docs"
+title: "Add an Updater Method"
 description: Learn how to enable users to update business data in a SharePoint external list by adding an Updater method.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -16,12 +15,11 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], updating entity instances"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
-# How to: Add an Updater method
+# Add an Updater method
+
   You can enable users to update business data in a SharePoint external list by creating an *Updater* method. For more information, see [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md).
 
 ### To create an Updater method
@@ -58,10 +56,14 @@ ms.workload:
    > [!NOTE]
    > Replace the value of the `ServerName` field with the name of your server.
 
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs" id="Snippet5":::
-    :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb" id="Snippet5":::
 
-## See also
+    ### [VB](#tab/vb)
+    :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb" id="Snippet5":::
+    ---
+
+## Related content
 - [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
 - [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)
 - [How to: Add a specific Finder method](../sharepoint/how-to-add-a-specific-finder-method.md)

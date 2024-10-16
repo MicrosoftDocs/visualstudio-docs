@@ -1,6 +1,6 @@
 ---
-description: "If a function has a defined point at which debugging is to end, the debug starting point is identified by a symbol with a SymTagFuncDebugEnd tag."
-title: "FuncDebugEnd | Microsoft Docs"
+description: If a function has a defined point at which debugging is to end, the debug starting point is identified by a symbol with a SymTagFuncDebugEnd tag.
+title: FuncDebugEnd
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -8,19 +8,19 @@ dev_langs:
 helpviewer_keywords:
   - "FuncDebugEnd symbol"
   - "debugging [DIA SDK], end point"
-ms.assetid: 68f84fff-7cd3-4636-b929-7063a45009f8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # FuncDebugEnd
+
 If a function has a defined point at which debugging is to end, the debug starting point is identified by a symbol with a `SymTagFuncDebugEnd` tag.
 
 ## Properties
- The following table shows the properties that are valid for this symbol type.
+
+The following table shows the properties that are valid for this symbol type.
 
 |Property|Data type|Description|
 |--------------|---------------|-----------------|
@@ -32,7 +32,7 @@ If a function has a defined point at which debugging is to end, the debug starti
 |[IDiaSymbol::get_isStatic](../../debugger/debug-interface-access/idiasymbol-get-isstatic.md)|`BOOL`|`TRUE` if the function is static (only in DIA SDK V8.0 or later).|
 |[IDiaSymbol::get_lexicalParent](../../debugger/debug-interface-access/idiasymbol-get-lexicalparent.md)|`IDiaSymbol*`|Symbol for the enclosing function.|
 |[IDiaSymbol::get_lexicalParentId](../../debugger/debug-interface-access/idiasymbol-get-lexicalparentid.md)|`DWORD`|ID of the lexical parent symbol.|
-|[IDiaSymbol::get_locationType](../../debugger/debug-interface-access/idiasymbol-get-locationtype.md)|`DWORD`|End points have static location; for details, see [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md).|
+|[IDiaSymbol::get_locationType](../../debugger/debug-interface-access/idiasymbol-get-locationtype.md)|`DWORD`|Endpoints have static location; for details, see [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md).|
 |[IDiaSymbol::get_noInline](../../debugger/debug-interface-access/idiasymbol-get-noinline.md)|`BOOL`|`TRUE` if the function was specified with the [noinline](/cpp/cpp/noinline) attribute (only in DIA SDK V8.0 or later).|
 |[IDiaSymbol::get_noReturn](../../debugger/debug-interface-access/idiasymbol-get-noreturn.md)|`BOOL`|`TRUE` if the function was specified with the [noreturn](/cpp/cpp/noreturn) attribute (only in DIA SDK V8.0 or later).|
 |[IDiaSymbol::get_notReached](../../debugger/debug-interface-access/idiasymbol-get-notreached.md)|`BOOL`|`TRUE` if the function is never called (only in DIA SDK V8.0 or later).|
@@ -44,6 +44,7 @@ If a function has a defined point at which debugging is to end, the debug starti
 |[IDiaSymbol::get_virtualAddress](../../debugger/debug-interface-access/idiasymbol-get-virtualaddress.md)|`ULONGLONG`|Position of this function within the executable image.|
 
 ## See also
+
 - [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
 - [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)
 - [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md)

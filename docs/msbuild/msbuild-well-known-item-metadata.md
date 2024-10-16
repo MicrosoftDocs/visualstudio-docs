@@ -1,28 +1,23 @@
 ---
-title: MSBuild Well-known Item Metadata | Microsoft Docs
+title: MSBuild Well-known Item Metadata
 description: Learn about MSBuild metadata assigned to every item upon creation, and some optional MSBuild metadata you can define to control build behavior.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, item metadata
 - MSBuild, well-known item metadata
-ms.assetid: b5e791b5-c68f-4978-ad8a-9247d03bb6c0
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # MSBuild well-known item metadata
 
-Item metadata are values attached to items. Some are assigned by MSBuild to items when items are create, but you can also define any metadata you need. Some user-defined metadata values have meaning to MSBuild, specific tasks tasks, or SDKs such as the .NET SDK.
+Item metadata are values attached to items. Some are assigned by MSBuild to items when items are created, but you can also define any metadata you need. Some user-defined metadata values have meaning to MSBuild, specific tasks, or SDKs such as the .NET SDK.
 
 The first table in this article describes the metadata assigned to every item upon creation. The next table shows some optional metadata that has meaning for MSBuild, which you can define to control build behavior. In each example, the following item declaration was used to include the file *C:\MyProject\Source\Program.cs* in the project.
 
@@ -45,6 +40,10 @@ The first table in this article describes the metadata assigned to every item up
 |%(ModifiedTime)|Contains the timestamp from the last time the item was modified. For example:<br /><br /> `2004-07-01 00:21:31.5073316`|
 |%(CreatedTime)|Contains the timestamp from when the item was created. For example:<br /><br /> `2004-06-25 09:26:45.8237425`|
 |%(AccessedTime)|Contains the timestamp from the last time the item was accessed.<br /><br /> `2004-08-14 16:52:36.3168743`|
+|%(DefiningProjectFullPath)|Contains the full path of the project file (or imported file) that defines this item.|
+|%(DefiningProjectDirectory)|Contains the project directory of the project file (or imported file) that defines this item.|
+|%(DefiningProjectName)|Contains the name of the project file (or imported file) that defines this item (without the extension).|
+|%(DefiningProjectExtension)|Contains the extension of the project file (or imported file) that defines this item. |
 
 ## See also
 

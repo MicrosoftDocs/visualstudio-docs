@@ -1,21 +1,19 @@
 ---
 description: "Given a list of local files, this function determines which files are different from the corresponding versions in the source code control database."
-title: SccEnumChangedFiles Function | Microsoft Docs
+title: SccEnumChangedFiles Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccEnumChangedFiles
 helpviewer_keywords:
 - SccEnumChangedFiles function
-ms.assetid: 76cac510-107b-4c1a-ba60-9c39b6db2e71
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # SccEnumChangedFiles function
+
 Given a list of local files, this function determines which files are different from the corresponding versions in the source code control database.
 
 ## Syntax

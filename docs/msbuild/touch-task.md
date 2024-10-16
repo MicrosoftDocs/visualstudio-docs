@@ -1,7 +1,6 @@
 ---
-title: Touch Task | Microsoft Docs
+title: Touch Task
 description: Learn about parameters and usage of the MSBuild Touch task, which sets the access and modification times of files.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -10,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, Touch task
 - Touch task [MSBuild]
-ms.assetid: 8a978645-1393-4904-ae69-42afabd8c109
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # Touch task
 
@@ -35,7 +30,7 @@ Sets the access and modification times of files.
 |`AlwaysCreate`|Optional `Boolean` parameter.<br /><br /> If `true`, creates any files that do not already exist.|
 |`Files`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the collection of files to touch.|
 |`ForceTouch`|Optional `Boolean` parameter.<br /><br /> If `true`, forces a file touch even if the files are read-only.|
-|`Time`|Optional `String` parameter.<br /><br /> Specifies a time other than the current time. The format must be a format that is acceptable to the <xref:System.DateTime.Parse%2A> method.|
+|`Time`|Optional `String` parameter.<br /><br /> Specifies a time. Defaults to the current time (`Now`). The format must be parseable by the <xref:System.DateTime.Parse%2A> method using `DateTimeFormatInfo.InvariantInfo`.|
 |`TouchedFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the collection of items that were successfully touched.|
 
 ## Remarks

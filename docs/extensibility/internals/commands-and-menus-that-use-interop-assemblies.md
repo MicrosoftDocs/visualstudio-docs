@@ -1,7 +1,6 @@
 ---
-title: Commands and Menus That Use Interop Assemblies | Microsoft Docs
+title: Commands and Menus That Use Interop Assemblies
 description: Learn about the tasks that must be completed when implementing menu and toolbar commands in a VSPackage by using Interop assemblies. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,18 +8,16 @@ helpviewer_keywords:
 - interop assemblies, using in commands and menus
 - commands, handling using interop assemblies
 - command handling with interop assemblies
-ms.assetid: 8f4af525-39e5-4e69-92c8-d3efabe80bb2
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Commands and menus that use Interop assemblies
+
 A VSPackage that implements menu and toolbar commands by using Interop assemblies must:
 
-- Inform the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) about the commands it supports and whether they are currently enabled.
+- Inform the Visual Studio integrated development environment (IDE) about the commands it supports and whether they are currently enabled.
 
 - Adhere to the rules (contract) for handling commands.
 
@@ -52,7 +49,7 @@ A VSPackage that implements menu and toolbar commands by using Interop assemblie
 
 - [How VSPackages add user interface elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
 
- Provides details about how to create a UI that uses [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] command support.
+ Provides details about how to create a UI that uses Visual Studio command support.
 
 - [Command routing in VSPackages](../../extensibility/internals/command-routing-in-vspackages.md)
 

@@ -1,7 +1,6 @@
 ---
 title: Supported Visual Studio Editions for Visualization and Modeling SDK
 description: Learn about the Visual Studio editions that are supported with DSL Tools in the authoring and deployment environments.
-ms.custom: SEO-VS-2020
 titleSuffix: ''
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -9,14 +8,12 @@ helpviewer_keywords:
 - Domain-Specific Language Tools, supported Visual Studio editions
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Supported Visual Studio Editions for Visualization & Modeling SDK
 
-The following are lists of the Visual Studio editions that are supported with [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] in the authoring and deployment environments. For more information on these editions, see the Microsoft Visual Studio [Developer Center](https://visualstudio.microsoft.com/).
+The following are lists of the Visual Studio editions that are supported with Domain-Specific Language Tools in the authoring and deployment environments. For more information on these editions, see the Microsoft Visual Studio [Developer Center](https://visualstudio.microsoft.com/).
 
 ## Authoring Edition
 
@@ -32,7 +29,7 @@ To define a DSL, you must have installed the following components:
 
 ## Deployment Editions
 
-[!INCLUDE[dsl](../modeling/includes/dsl_md.md)] supports the following configurations for deploying the domain-specific languages that you build:
+Domain-Specific Language Tools supports the following configurations for deploying the domain-specific languages that you build:
 
 - Visual Studio Enterprise
 
@@ -45,6 +42,6 @@ To define a DSL, you must have installed the following components:
 > [!NOTE]
 > To make a DSL able to run on a Shell product, you must set the **Supported VS Edition** field in the Extension Manifest. For more information, see [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md).
 
-## See also
+## Related content
 
 - [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

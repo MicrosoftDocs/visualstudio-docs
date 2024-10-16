@@ -1,39 +1,39 @@
 ---
 description: "Gets the code context for this stack frame."
-title: IDebugStackFrame2::GetCodeContext | Microsoft Docs
+title: IDebugStackFrame2::GetCodeContext
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugStackFrame2::GetCodeContext
 helpviewer_keywords:
 - IDebugStackFrame2::GetCodeContext
-ms.assetid: 93d66159-a41d-49ef-982f-91bb4d073b74
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugStackFrame2::GetCodeContext
+
 Gets the code context for this stack frame.
 
 ## Syntax
 
-```cpp
-HRESULT GetCodeContext ( 
-   IDebugCodeContext2** ppCodeCxt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCodeContext ( 
    out IDebugCodeContext2 ppCodeCxt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCodeContext ( 
+   IDebugCodeContext2** ppCodeCxt
+);
+```
+---
 
 ## Parameters
 `ppCodeCxt`\

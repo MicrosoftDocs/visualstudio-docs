@@ -1,25 +1,25 @@
 ---
-description: "Each parameter of a function is identified by a SymTagFunctionArgType symbol."
-title: "FunctionArgType | Microsoft Docs"
+description: Each parameter of a function is identified by a SymTagFunctionArgType symbol.
+title: FunctionArgType
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "FunctionArgType symbol"
-ms.assetid: 9f072fd3-0b99-405c-af99-fd44cd56fd73
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # FunctionArgType
+
 Each parameter of a function is identified by a `SymTagFunctionArgType` symbol.
 
 ## Properties
- The following table shows additional valid properties for this symbol type.
+
+The following table shows additional valid properties for this symbol type.
 
 |Property|Data type|Description|
 |--------------|---------------|-----------------|
@@ -33,5 +33,6 @@ Each parameter of a function is identified by a `SymTagFunctionArgType` symbol.
 |[IDiaSymbol::get_typeId](../../debugger/debug-interface-access/idiasymbol-get-typeid.md)|`DWORD`|ID of the type symbol.|
 
 ## See also
+
 - [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
 - [FunctionType](../../debugger/debug-interface-access/functiontype.md)

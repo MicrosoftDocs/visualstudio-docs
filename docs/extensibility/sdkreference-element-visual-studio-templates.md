@@ -1,18 +1,15 @@
 ---
-title: SDKReference Element (Visual Studio Templates) | Microsoft Docs
+title: SDKReference Element (Visual Studio Templates)
 description: Learn about the SDKReference element and how it specifies that the item template uses an SDK reference.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
-ms.assetid: 72c8b352-0b7a-42b3-ba5d-2a2d1e90c34b
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
 ---
 # SDKReference Element (Visual Studio Templates)
+
 Specifies that the item template uses an SDK reference.
 
 ## Syntax

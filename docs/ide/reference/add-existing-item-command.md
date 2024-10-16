@@ -1,7 +1,6 @@
 ---
 title: Add Existing Item Command
 description: Learn about the Add Existing Item command and how it adds an existing file to a current solution and opens it.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -9,15 +8,13 @@ f1_keywords:
 helpviewer_keywords:
 - File.AddExistingItem command
 - Add Existing Item command
-ms.assetid: 41f56131-d4c7-4f81-83b7-bdac713ea870
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Add Existing Item Command
+
 Adds an existing file to the current solution and opens it.
 
 ## Syntax

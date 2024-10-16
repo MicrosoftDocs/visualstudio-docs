@@ -1,39 +1,39 @@
 ---
 description: "Gets the program node associated with a program."
-title: IDebugProgramEx2::GetProgramNode | Microsoft Docs
+title: IDebugProgramEx2::GetProgramNode
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgramEx2::Attach
 helpviewer_keywords:
 - IDebugProgramEx2::Attach
-ms.assetid: 1545ffbf-1422-4b5d-9bb9-314ba8665041
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgramEx2::GetProgramNode
+
 Gets the program node associated with a program.
 
 ## Syntax
 
-```cpp
-HRESULT GetProgramNode( 
-   IDebugProgramNode2** ppProgramNode
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProgramNode( 
    out IDebugProgramNode2 ppProgramNode
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProgramNode( 
+   IDebugProgramNode2** ppProgramNode
+);
+```
+---
 
 ## Parameters
 `ppProgramNode`\

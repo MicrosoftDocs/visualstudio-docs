@@ -1,35 +1,26 @@
 ---
 description: "Updates the debug symbols in memory with those from the specified data stream."
-title: IDebugComPlusSymbolProvider::UpdateSymbols | Microsoft Docs
+title: IDebugComPlusSymbolProvider::UpdateSymbols
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - UpdateSymbols
 - IDebugComPlusSymbolProvider::UpdateSymbols
-ms.assetid: d530f6f1-4af2-454b-bab0-02478a8fe81e
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::UpdateSymbols
+
 Updates the debug symbols in memory with those from the specified data stream.
 
 ## Syntax
 
-```cpp
-HRESULT UpdateSymbols (
-    ULONG32  ulAppDomainID,
-    GUID     guidModule,
-    IStream* pUpdateStream
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int UpdateSymbols (
     uint    ulAppDomainID,
@@ -37,6 +28,15 @@ int UpdateSymbols (
     IStream pUpdateStream
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT UpdateSymbols (
+    ULONG32  ulAppDomainID,
+    GUID     guidModule,
+    IStream* pUpdateStream
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

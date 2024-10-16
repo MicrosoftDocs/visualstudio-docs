@@ -1,9 +1,8 @@
 ---
-title: Building and Cleaning Projects and Solutions
-description: Learn how you can build, rebuild, or clean all or some of the projects or project items in a solution.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
-ms.technology: vs-ide-compile
+title: Build and clean projects and solutions
+description: Build, rebuild, or clean some of your projects or project items, or all of your projects, in your Visual Studio project solution.
+ms.date: 10/3/2024
+ms.subservice: compile-build
 ms.topic: conceptual
 f1_keywords:
 - VS.BuildProjectPicker
@@ -19,30 +18,26 @@ helpviewer_keywords:
 - Rebuild Solution command
 - solution build configurations, build order
 - builds [Visual Studio], preparing
-ms.assetid: 710891fd-379e-42c2-a84b-44a7af694ca0
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.workload:
-- multiple
+manager: mijacobs
 ---
 # Build and clean projects and solutions in Visual Studio
 
 By using the procedures in this topic, you can build, rebuild, or clean all or some of the projects or project items in a solution. For a step-by-step tutorial, see [Walkthrough: Building an application](../ide/walkthrough-building-an-application.md).
 
 > [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Build and clean projects and solutions in Visual Studio for Mac](/visualstudio/mac/building-and-cleaning-projects-and-solutions).
-
-> [!NOTE]
 > The UI in your edition of Visual Studio might differ from what this topic describes, depending on your active settings. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools** > **Import and Export Settings**, and then choose **Reset all settings**.
 
-## To build, rebuild, or clean an entire solution
+## To build, rebuild, or clean a solution
+
+Use this procedure to build the solution in the current configuration (for example, `Debug` or `Release`). If you want to build multiple configurations at once, see [Batch build](#batch-build).
 
 1. In **Solution Explorer**, choose or open the solution.
 
 2. On the menu bar, choose **Build**, and then choose one of the following commands:
 
-    - Choose **Build** or **Build Solution** to compile only those project files and components that have changed since the most recent build.
+    - Choose **Build** or **Build Solution**, or press **Ctrl**+**Shift**+**B**, to compile only those project files and components that have changed since the most recent build.
 
         > [!NOTE]
         > The **Build** command becomes **Build Solution** when a solution includes more than one project.
@@ -71,17 +66,30 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
 
 3. Select the  **Only build startup projects and dependencies on Run** check box.
 
-     When this check box is selected, only the current startup project and its dependencies are built when you perform either of the following steps:
+     When this check box is selected, only the current startup project and its dependencies are built when you choose **Debug** > **Start** (**F5**) or **Debug** > **Start Without Debugging** (**Ctrl**+**F5**).
 
-    - On the menu bar, choose **Debug** > **Start** (**F5**).
+    When you choose **Build** > **Build Solution** (**Ctrl**+**Shift**+**B**), the entire solution is built.
 
-    - On the menu bar, choose **Build** > **Build Solution** (**Ctrl**+**Shift**+**B**).
+    When this check box is cleared, all projects, their dependencies, and the solution files are built when you run any of the preceding commands.
 
-    When this check box is cleared, all projects, their dependencies, and the solution files are built when you run either of the preceding commands. By default, this check box is cleared.
+## Batch build
+
+When you build using **Build solution** or **Build project** options, Visual Studio builds the current configuration. You can use the batch build command to build multiple configurations in one operation.
+
+From the menu bar, choose **Build** > **Batch build**. The **Batch build** dialog box appears.
+
+:::image type="content" source="media/building-and-cleaning-projects-and-solutions/batch-build.png" border="false" alt-text="Screenshot of the Batch build dialog box.":::
+
+Select the desired projects and configurations and use the buttons to build, rebuild, or clean. The build operations start immediately, and all the output appears in the **Output** window.
+
+The selections you made are remembered the next time you open the **Batch build** dialog box.
+
+> [!NOTE]
+> Batch build is not available for all project types. See [Build multiple configurations simultaneously](how-to-build-multiple-configurations-simultaneously.md).
 
 ## To build only the selected Visual C++ project
 
-Choose a [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project, and then, on the menu bar, choose **Build** > **Project Only**, and one of the following commands:
+Choose a C++ project, and then, on the menu bar, choose **Build** > **Project Only**, and one of the following commands:
 
 - **Build Only** *ProjectName*
 
@@ -91,11 +99,11 @@ Choose a [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project, and 
 
 - **Link Only** *ProjectName*
 
-These commands apply only to the [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project that you chose, without building, rebuilding, cleaning, or linking any project dependencies or solution files. Depending on your version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the **Project Only** submenu might contain more commands.
+These commands apply only to the C++ project that you chose, without building, rebuilding, cleaning, or linking any project dependencies or solution files. Depending on your version of Visual Studio, the **Project Only** submenu might contain more commands.
 
 ## To compile multiple C++ project items
 
-In **Solution Explorer**, choose multiple files that have can be compiled actions, open the shortcut menu for one of those files, and then choose **Compile**.
+In **Solution Explorer**, choose multiple files that can be compiled, open the shortcut menu for one of those files, and then choose **Compile**, or press **Ctrl**+**F7**.
 
 If the files have dependencies, the files will be compiled in dependency order. The compile operation will fail if the files require a precompiled header that isn't available when you compile. The compile operation uses the current active solution configuration.
 
@@ -107,7 +115,7 @@ Perform either of the following steps:
 
 - Press **Ctrl**+**Break**.
 
-## See also
+## Related content
 
 - [How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md)
 - [Obtaining build logs](../msbuild/obtaining-build-logs-with-msbuild.md)
@@ -117,4 +125,3 @@ Perform either of the following steps:
 - [C/C++ building reference](/cpp/build/reference/c-cpp-building-reference)
 - [Devenv command line switches](../ide/reference/devenv-command-line-switches.md)
 - [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)
-- [Build and clean projects and solutions (Visual Studio for Mac)](/visualstudio/mac/building-and-cleaning-projects-and-solutions)

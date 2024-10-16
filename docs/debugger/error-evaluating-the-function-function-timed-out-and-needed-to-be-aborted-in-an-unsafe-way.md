@@ -1,17 +1,14 @@
 ---
-title: "Evaluating the function &apos;function&apos; timed out and needed to be aborted in an unsafe way | Microsoft Docs"
+title: "Evaluating the function &apos;function&apos; timed out and needed to be aborted in an unsafe way"
 description: "Full message text: Evaluating the function 'function' timed out and needed to be aborted in an unsafe way."
-ms.date: "06/18/2021"
+ms.date: "12/09/2022"
 ms.topic: "error-reference"
-ms.custom: "contperf-fy21q4"
 f1_keywords:
   - "vs.debug.error.unsafe_func_eval_abort"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Error: Evaluating the function &#39;function&#39; timed out and needed to be aborted in an unsafe way
 
@@ -30,9 +27,13 @@ See the following sections for several possible solutions to this issue.
 The error message will tell you the name of the function the debugger tried to call. If you can modify this function, you can prevent the debugger from calling the property getter or ToString method. Try one of the following:
 
 * Change the method to some other type of code besides a property getter or ToString method and the problem will go away.
-  -or-
+
+    -or-
+
 * (For ToString) Define a [DebuggerDisplay](../debugger/using-the-debuggerdisplay-attribute.md) attribute on the type and you can have the debugger evaluate something other than ToString.
-  -or-
+
+    -or-
+
 * (For a property getter) Put the [System.Diagnostics.DebuggerBrowsable(DebuggerBrowsableState.Never)](/dotnet/api/system.diagnostics.debuggerbrowsableattribute) attribute on the property. This can be useful if you have a method that needs to stay a property for API compatibility reasons, but it should really be a method.
 
 ## Solution #2: Have the target code ask the debugger to abort the evaluation
@@ -47,6 +48,9 @@ If the previous solutions don't fix the issue, go to **Tools** > **Options**, an
 
 If you are using Resharper, see this [issue](https://youtrack.jetbrains.com/issue/RSRP-476824) for suggestions.
 
+::: moniker range="vs-2019"
+
 ## Solution #5: Enable managed compatibility mode
 
 If you switch to the legacy debugging engine, you may be able to eliminate this error. Go to **Tools** > **Options**, and select the setting **Debugging** > **General** > **Use managed compatibility mode**. For more information, see [General debugging options](../debugger/general-debugging-options-dialog-box.md).
+::: moniker-end

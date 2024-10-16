@@ -1,21 +1,18 @@
 ---
-title: Expression Evaluator Implementation Strategy | Microsoft Docs
+title: Expression Evaluator Implementation Strategy
 description: Learn about a strategy for creating an expression evaluator by first implementing code to display local variables in the Locals window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - expression evaluation, implementation strategy
 - debug engines, implementation strategies
-ms.assetid: 1bccaeb3-8109-4128-ae79-16fd8fbbaaa2
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Expression evaluator implementation strategy
+
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
@@ -26,6 +23,6 @@ ms.workload:
 
  The [EnumChildren](../../extensibility/debugger/reference/idebugproperty2-enumchildren.md) method should be implemented next. The debug engine (DE) calls this method to get a list of local variables and arguments by passing `IDebugProperty2::EnumChildren` a `guidFilter` argument of `guidFilterLocalsPlusArgs`. `IDebugProperty2::EnumChildren` calls [EnumArguments](../../extensibility/debugger/reference/idebugmethodfield-enumarguments.md) and [EnumLocals](../../extensibility/debugger/reference/idebugmethodfield-enumlocals.md), combining the results in a single enumeration. See [Display locals](../../extensibility/debugger/displaying-locals.md) for more details.
 
-## See also
+## Related content
 - [Implement an expression evaluator](../../extensibility/debugger/implementing-an-expression-evaluator.md)
 - [Display locals](../../extensibility/debugger/displaying-locals.md)

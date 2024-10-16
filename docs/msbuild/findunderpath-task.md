@@ -1,7 +1,6 @@
 ---
-title: FindUnderPath Task | Microsoft Docs
+title: FindUnderPath Task
 description: Use the MSBuild FindUnderPath task to find items in the specified item collection with paths in or below the specified folder.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -10,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, FindUnderPath task
 - FindUnderPath task [MSBuild]
-ms.assetid: 3c6d58b0-36e8-47aa-bfca-b73dd2045d91
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # FindUnderPath task
 

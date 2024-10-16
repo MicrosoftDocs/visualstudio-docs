@@ -1,7 +1,6 @@
 ---
-title: "&lt;compatibleFrameworks&gt; Element (ClickOnce Deployment) | Microsoft Docs"
+title: "&lt;compatibleFrameworks&gt; Element (ClickOnce Deployment)"
 description: The compatibleFrameworks element identifies the versions of the .NET Framework where this application can install and run.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -10,15 +9,13 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<compatibleFrameworks> element [ClickOnce deployment manifest]"
-ms.assetid: f6c3ee55-9e65-403d-8664-3ebde872c7d4
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: deployment
 ---
 # &lt;compatibleFrameworks&gt; element (ClickOnce deployment)
+
 Identifies the versions of the .NET Framework where this application can install and run.
 
 > [!NOTE]
@@ -38,7 +35,7 @@ Identifies the versions of the .NET Framework where this application can install
 ```
 
 ## Elements and attributes
- The `compatibleFrameworks` element is required for deployment manifests that target the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] runtime provided by .NET Framework 4 or later. The `compatibleFrameworks` element contains one or more `framework` elements that specify the .NET Framework versions on which this application can run. The [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] runtime will run the application on the first available `framework` in this list.
+ The `compatibleFrameworks` element is required for deployment manifests that target the ClickOnce runtime provided by .NET Framework 4 or later. The `compatibleFrameworks` element contains one or more `framework` elements that specify the .NET Framework versions on which this application can run. The ClickOnce runtime will run the application on the first available `framework` in this list.
 
  The following table lists the attribute that the `compatibleFrameworks` element supports.
 
@@ -58,7 +55,7 @@ Identifies the versions of the .NET Framework where this application can install
 ## Remarks
 
 ## Example
- The following code example shows a `compatibleFrameworks` element in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest. This deployment can run on the [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)]. It can also run on the .NET Framework 4 because it is a superset of the [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)].
+ The following code example shows a `compatibleFrameworks` element in a ClickOnce deployment manifest. This deployment can run on the .NET Framework 4 Client Profile. It can also run on the .NET Framework 4 because it is a superset of the .NET Framework 4 Client Profile.
 
 ```xml
 <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">

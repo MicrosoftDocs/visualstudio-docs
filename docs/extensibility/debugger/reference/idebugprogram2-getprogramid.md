@@ -1,39 +1,39 @@
 ---
 description: "Gets a GUID for this program."
-title: IDebugProgram2::GetProgramId | Microsoft Docs
+title: IDebugProgram2::GetProgramId
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgram2::GetProgramId
 helpviewer_keywords:
 - IDebugProgram2::GetProgramId
-ms.assetid: 2c31c0aa-2b71-46c7-849c-356e237d26f8
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgram2::GetProgramId
+
 Gets a GUID for this program.
 
 ## Syntax
 
-```cpp
-HRESULT GetProgramId( 
-   GUID* pguidProgramId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProgramId( 
    out Guid pguidProgramId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProgramId( 
+   GUID* pguidProgramId
+);
+```
+---
 
 ## Parameters
 `pguidProgramId`\

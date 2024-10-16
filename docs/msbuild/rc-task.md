@@ -1,7 +1,6 @@
 ---
-title: "RC Task | Microsoft Docs"
+title: "RC Task"
 description: Learn how MSBuild uses the RC task to wrap the Microsoft Windows Resource Compiler tool, rc.exe, which compiles resources into a .res file.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -10,23 +9,18 @@ f1_keywords:
   - "VC.Project.VCResourceCompilerTool.SuppressStartupBanner"
   - "VC.Project.VCResourceCompilerTool.NullTerminateStrings"
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
   - "C++"
 helpviewer_keywords:
   - "RC task (MSBuild (C++))"
   - "MSBuild (C++), RC task"
-ms.assetid: 2fd26c75-a056-4dda-9f7e-2f90d3748d88
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # RC task
+
+[!INCLUDE [C++-specific task](./includes/cpp-task.md)]
 
 Wraps the Microsoft Windows Resource Compiler tool, *rc.exe*. The **RC** task compiles resources, such as cursors, icons, bitmaps, dialog boxes, and fonts, into a resource (*.res*) file. For more information, see [Resource Compiler](/windows/desktop/menurc/resource-compiler).
 

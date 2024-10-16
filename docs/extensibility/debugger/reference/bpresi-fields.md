@@ -1,28 +1,36 @@
 ---
 description: "Specifies the information to be retrieved about the successful resolution of a breakpoint."
-title: BPRESI_FIELDS | Microsoft Docs
+title: BPRESI_FIELDS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BPRESI_FIELDS
 helpviewer_keywords:
 - BPRESI_FIELDS enumeration
-ms.assetid: 99f17b1e-3e67-4f85-89d6-5c6cf45c8008
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # BPRESI_FIELDS
+
 Specifies the information to be retrieved about the successful resolution of a breakpoint.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_BPRESI_FIELDS {
+    BPRESI_BPRESLOCATION = 0x0001,
+    BPRESI_PROGRAM       = 0x0002,
+    BPRESI_THREAD        = 0x0004,
+    BPRESI_ALLFIELDS     = 0xffffffff
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_BPRESI_FIELDS {
     BPRESI_BPRESLOCATION = 0x0001,
@@ -32,15 +40,7 @@ enum enum_BPRESI_FIELDS {
 };
 typedef DWORD BPRESI_FIELDS;
 ```
-
-```csharp
-public enum enum_BPRESI_FIELDS {
-    BPRESI_BPRESLOCATION = 0x0001,
-    BPRESI_PROGRAM       = 0x0002,
-    BPRESI_THREAD        = 0x0004,
-    BPRESI_ALLFIELDS     = 0xffffffff
-};
-```
+---
 
 ## Fields
 `BPRESI_BPRESLOCATION`\

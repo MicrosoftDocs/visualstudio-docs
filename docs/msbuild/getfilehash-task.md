@@ -1,23 +1,19 @@
 ---
-title: "GetFileHash  Task | Microsoft Docs"
+title: "GetFileHash  Task"
 description: Learn to use the MSBuild GetFileHash task to compute checksums of the contents of a file or set of files.
-ms.custom: SEO-VS-2020
-ms.date: "01/28/2019"
+ms.date: 09/15/2023
 ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-  - "jsharp"
 helpviewer_keywords:
   - "GetFileHash task [MSBuild]"
   - "MSBuild, GetFileHash task"
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # GetFileHash task
 
@@ -58,6 +54,26 @@ The following example uses the `GetFileHash` task to determine and print the che
              Text="@(FilesWithHashes->'%(Identity): %(FileHash)')" />
   </Target>
 </Project>
+```
+
+With a single file, you can use the `Hash` output parameter. The following example project is named `hash-example.proj` and computes a hash for itself:
+
+```xml
+<Project>
+    <ItemGroup>
+      <FileToHash Include="$(MSBuildThisFileDirectory)hash-example.proj" />
+    </ItemGroup>
+    <Target Name="GetHash">
+      <GetFileHash Files="@(FileToHash)">
+        <Output
+            TaskParameter="Hash"
+            ItemName="FileHash" />
+      </GetFileHash>
+  
+      <Message Importance="High"
+               Text="File: @(FileToHash) Hash: @(FileHash)" />
+    </Target>
+  </Project>
 ```
 
 ## See also

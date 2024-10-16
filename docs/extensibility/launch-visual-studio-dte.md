@@ -1,16 +1,13 @@
 ---
 title: Launch Visual Studio using DTE
 description: Learn how to launch Visual Studio using DTE to support side-by-side installations of major releases. This article includes a code example.
-ms.custom: SEO-VS-2020
 titleSuffix: ''
 ms.date: 04/26/2019
 ms.topic: how-to
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Launch Visual Studio using DTE
 
@@ -176,7 +173,7 @@ namespace ConsoleLauncherApp
 }
 ```
 
-## See also
+## Related content
 
 - [Locate Visual Studio](locating-visual-studio.md)
 - [Walkthrough: Access the DTE object from an editor extension](walkthrough-accessing-the-dte-object-from-an-editor-extension.md)

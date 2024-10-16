@@ -1,39 +1,39 @@
 ---
 description: "Gets the containing document."
-title: IDebugDocumentPosition2::GetDocument | Microsoft Docs
+title: IDebugDocumentPosition2::GetDocument
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentPosition2::GetDocument
 helpviewer_keywords:
 - IDebugDocumentPosition2::GetDocument
-ms.assetid: eaa172c9-5748-4ce1-a0e2-33c2063f6752
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugDocumentPosition2::GetDocument
+
 Gets the containing document.
 
 ## Syntax
 
-```cpp
-HRESULT GetDocument( 
-   IDebugDocument2** ppDoc
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocument( 
    out IDebugDocument2 ppDoc
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocument( 
+   IDebugDocument2** ppDoc
+);
+```
+---
 
 ## Parameters
 `ppDoc`\

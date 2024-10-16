@@ -1,22 +1,19 @@
 ---
-title: Creating Reusable Groups of Buttons | Microsoft Docs
+title: Creating Reusable Groups of Buttons
 description: Learn how to create a command group, which is a collection of commands that appear together on a menu or toolbar.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - button groups, creating in VSPackages
 - VSPackages, creating reusable button groups
 - buttons, creating reusable groups
-ms.assetid: 0c561617-fb86-476d-8bd1-c6e5e7464c65
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Create reusable groups of buttons
+
 A command group is a collection of commands that always appear together on a menu or toolbar. Any command group can be re-used by assigning it to different parent menus in the CommandPlacements section of the *.vsct* file.
 
  Command groups typically contain buttons, but they can also contain other menus or combo boxes.
@@ -95,7 +92,7 @@ A command group is a collection of commands that always appear together on a men
    </CommandTable>
    ```
 
-    A command group can be included on more than one menu. The parent menu can be one that you created, one that is supplied by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (as described in *ShellCmdDef.vsct* or *SharedCmdDef.vsct*), or one that is defined in another VSPackage. The number of parenting layers is unlimited as long as the parent menu is eventually connected to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or to a shortcut menu that is displayed by a VSPackage.
+    A command group can be included on more than one menu. The parent menu can be one that you created, one that is supplied by Visual Studio (as described in *ShellCmdDef.vsct* or *SharedCmdDef.vsct*), or one that is defined in another VSPackage. The number of parenting layers is unlimited as long as the parent menu is eventually connected to Visual Studio or to a shortcut menu that is displayed by a VSPackage.
 
     The following example puts the group on the **Solution Explorer** toolbar, to the right of the other buttons.
 

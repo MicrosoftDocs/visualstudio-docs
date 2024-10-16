@@ -1,33 +1,27 @@
 ---
-title: BscMake Task | Microsoft Docs
+title: BscMake Task
 description: Learn about BscMake, which wrapped the Microsoft Browse Information Maintenance Utility tool bscmake.exe. The Visual Studio IDE no longer uses BscMake.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - vc.task.bscmake
 - VC.Project.VCBscMakeTool.PreserveSBR
 dev_langs:
-- VB
-- CSharp
-- C++
-- jsharp
 - C++
 helpviewer_keywords:
 - MSBuild (C++), tasks
 - BscMake task (MSBuild (C++))
-ms.assetid: bb98fc67-cad8-43a7-9598-60df6d734db2
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # BscMake task
 
 > [!IMPORTANT]
 > BscMake is no longer used by the Visual Studio IDE. Since Visual Studio 2008, browse information is stored automatically in an *.sdf* file in the *Solution* folder.
+
+[!INCLUDE [C++-specific task](./includes/cpp-task.md)]
 
  Wraps the Microsoft Browse Information Maintenance Utility tool (*bscmake.exe*).  The *bscmake.exe* tool builds a browse information file (*.bsc*) from source browser files (*.sbr*) that are created during compilation. Use the **Object Browser** to view a *.bsc* file. For more information, see [BSCMAKE reference](/cpp/build/reference/bscmake-reference).
 

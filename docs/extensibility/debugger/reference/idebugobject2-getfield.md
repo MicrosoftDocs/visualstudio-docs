@@ -1,39 +1,39 @@
 ---
 description: "Gets the type of this object."
-title: IDebugObject2::GetField | Microsoft Docs
+title: IDebugObject2::GetField
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugObject2::GetField
 helpviewer_keywords:
 - IDebugObject2::GetField method
-ms.assetid: add6a6b5-e752-47dd-9613-29206ea809b0
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugObject2::GetField
+
 Gets the type of this object.
 
 ## Syntax
 
-```cpp
-HRESULT GetField(
- IDebugField** ppField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetField(
    out IDebugField ppField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetField(
+ IDebugField** ppField
+);
+```
+---
 
 ## Parameters
 `ppField`\

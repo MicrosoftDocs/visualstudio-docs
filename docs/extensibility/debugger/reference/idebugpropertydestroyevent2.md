@@ -1,21 +1,19 @@
 ---
 description: "This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a property that is associated with a specific document is about to be destroyed."
-title: IDebugPropertyDestroyEvent2 | Microsoft Docs
+title: IDebugPropertyDestroyEvent2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPropertyDestroyEvent2
 helpviewer_keywords:
 - IDebugPropertyDestroyEvent2 interface
-ms.assetid: 301b7a75-ecfa-46f1-9131-66cf3e4be147
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugPropertyDestroyEvent2
+
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a property that is associated with a specific document is about to be destroyed.
 
 ## Syntax

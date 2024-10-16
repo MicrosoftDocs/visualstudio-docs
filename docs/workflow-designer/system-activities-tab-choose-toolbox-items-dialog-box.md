@@ -1,19 +1,15 @@
 ---
 title: System.Activities, Choose Toolbox Items
 description: In Workflow Designer, learn how the System.Activities tab displays a list of Windows Workflow Foundation (WF) activities, templates, and items available to you.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - VS.CHOOSEITEMS.SYSTEM.ACTIVITIES_COMPONENTS
 - VS.CHOOSEITEMS.SYSTEM.ACTIVITIES COMPONENTS
-ms.assetid: cef390cd-eeda-42e6-9d2e-18c8325a4f06
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
+author: jodavis
+ms.author: jodavis
+manager: mijacobs
+ms.subservice: workflow-designer
 ---
 # System.Activities tab, Choose Toolbox Items dialog box
 

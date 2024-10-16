@@ -1,8 +1,7 @@
 ---
-title: Create a Dataset with the Dataset Designer
-description: In this walkthrough, create a dataset using the Dataset Designer. Understand the process of creating a new project and adding a new DataSet item to it.
-ms.custom: SEO-VS-2020
-ms.date: 09/11/2017
+title: Build dataset in Dataset Designer (.NET Framework)
+description: Create an ADO.NET dataset with the Dataset Designer in Visual Studio for .NET Framework applications and build a new project with a DataSet item.
+ms.date: 11/01/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - datasets [Visual Basic], walkthroughs
@@ -12,16 +11,19 @@ helpviewer_keywords:
 - datasets [Visual Basic], creating
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
-# Walkthrough: Create a Dataset with the Dataset Designer
+
+# Walkthrough: Create a dataset for .NET Framework applications using the Dataset Designer
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 In this walkthrough you create a dataset using the **Dataset Designer**. The article takes you through the process of creating a new project and adding a new **DataSet** item to it. You'll learn how to create tables based on tables in a database without using a wizard.
 
 ## Prerequisites
+
+To complete this tutorial, you need the **.NET desktop development** workload and (for the **Data Sources** window) the **Data storage and processing** workload installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
@@ -33,7 +35,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
        A query editor window opens.
 
-    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/master/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
+    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
@@ -41,13 +43,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create a New Windows Forms Application Project
 
-1. In Visual Studio, on the **File** menu, select **New** > **Project**.
-
-2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
-
-3. In the middle pane, select the **Windows Forms App** project type.
-
-4. Name the project **DatasetDesignerWalkthrough**, and then choose **OK**.
+1. In Visual Studio, create a new **Windows Forms App (.NET Framework)** project and name it **DatasetDesignerWalkthrough**.
 
      Visual Studio adds the project to **Solution Explorer** and display a new form in the designer.
 
@@ -95,7 +91,11 @@ This section explains how to add tables to the dataset.
 
      An **Order Details** data table, **OrderDetailsTableAdapter**, and a data relation between the **Orders** and **OrderDetails** tables are added to the dataset.
 
-## Next Steps
+## Save the dataset
+
+The dataset that you just created is available in the **Data Sources** window. If you don't see the **Data Sources** window, check that you have the **Data storage and processing** workload installed as mentioned in the [Prerequisites](#prerequisites).
+
+You can now perform any of the following tasks:
 
 - Save the dataset.
 
@@ -105,7 +105,7 @@ This section explains how to add tables to the dataset.
 
 - Add validation logic to the <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> events of the data tables in the dataset. For more information, see [Validate data in datasets](../data-tools/validate-data-in-datasets.md).
 
-## See also
+## Related content
 
 - [Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md)
 - [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

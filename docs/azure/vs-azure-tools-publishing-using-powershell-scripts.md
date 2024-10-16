@@ -1,26 +1,26 @@
 ---
-title: Use PowerShell to publish to dev and test environments
-description: Learn how to use Windows PowerShell scripts from Visual Studio to publish to development and test environments.
-ms.custom: SEO-VS-2020
+title: Publish to dev and test environments with PowerShell
+description: Use Windows PowerShell scripts from Visual Studio to publish to development and test environments, including customizing and extending scripts.
 author: ghogen
-manager: jmartens
-ms.technology: vs-azure
-ms.workload: azure-vs
+manager: mijacobs
+ms.subservice: azure-development
 ms.topic: conceptual
-ms.date: 11/11/2016
+ms.date: 03/06/2024
 ms.author: ghogen
 ---
+
 # Using Windows PowerShell scripts to publish to dev and test environments
 
 When you create a web application in Visual Studio, you can generate a Windows PowerShell script that you can use later to automate the publishing of your website to Azure as a Web App in Azure App Service or a virtual machine. You can edit and extend the Windows PowerShell script in the Visual Studio editor to suit your requirements, or integrate the script with existing build, test, and publishing scripts.
 
-Using these scripts, you can provision customized versions (also known as dev and test environments) of your site for temporary use. For example, you might set up a particular version of your website on an Azure virtual machine or on the staging slot on a website to run a test suite, reproduce a bug, test a bug fix, trial a proposed change, or set up a custom environment for a demo or presentation. After you've created a script that publishes your project, you can recreate identical environments by rerunning the script as needed, or run the script with your own build of your web application to create a custom environment for testing.
+Using these scripts, you can provision customized versions (also known as dev and test environments) of your site for temporary use. For example, you might set up a particular version of your website on an Azure virtual machine or on the staging slot on a website to run a test suite, reproduce a bug, test a bug fix, trial a proposed change, or set up a custom environment for a demo or presentation. After you've created a script that publishes your project, you can re-create identical environments by rerunning the script as needed, or run the script with your own build of your web application to create a custom environment for testing.
 
 ## Prerequisites
 
-* Visual Studio 2015 or later with the **Azure workload** installed, or Visual Studio 2013 and Azure SDK 2.3 or later. See [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads). (You don't need the Azure SDK to generate the scripts for web projects. This feature is for web projects, not web roles in cloud services.)
-* Azure PowerShell 0.7.4 or later. See [How to install and configure Azure PowerShell](/powershell/azure/overview).
-* [Windows PowerShell 3.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770458(v=ws.10)) or later.
+- Visual Studio with the **Azure workload** installed. See [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta).
+- Azure PowerShell 0.7.4 or later. See [How to install and configure Azure PowerShell](/powershell/azure/overview).
+- [Windows PowerShell 3.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770458(v=ws.10)) or later.
+- [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Additional tools
 
@@ -28,7 +28,7 @@ Additional tools and resources for working with PowerShell in Visual Studio for 
 
 ## Generating the publish scripts
 
-You can generate the publish scripts for a virtual machine that hosts your website when you create a new project by following [these instructions](/azure/virtual-machines/windows/classic/web-app-visual-studio). You can also [generate publish scripts for web apps in Azure App Service](/azure/app-service/scripts/app-service-powershell-deploy-github).
+You can generate the publish scripts for a virtual machine that hosts your website when you create a new project by following these [instructions](/azure/virtual-machines/windows/classic/web-app-visual-studio). You can also [generate publish scripts for web apps in Azure App Service](/azure/app-service/scripts/app-service-powershell-deploy-github).
 
 ## Scripts that Visual Studio generates
 
@@ -220,23 +220,21 @@ To automate building your project, add code that calls MSBuild to `New-WebDeploy
     ```powershell
     function Get-MSBuildCmd
     {
-            process
-    {
-
-                $path =  Get-ChildItem "HKLM:\SOFTWARE\Microsoft\MSBuild\ToolsVersions\" |
-                                    Sort-Object {[double]$_.PSChildName} -Descending |
-                                    Select-Object -First 1 |
-                                    Get-ItemProperty -Name MSBuildToolsPath |
-                                    Select -ExpandProperty MSBuildToolsPath
-
-                $path = (Join-Path -Path $path -ChildPath 'msbuild.exe')
-
-            return Get-Item $path
+       process
+       {
+        $StartInfo  = New-Object System.Diagnostics.ProcessStartInfo;
+        $StartInfo.Filename = ${Env:ProgramFiles(x86)} + "\\Microsoft Visual Studio\\Installer\\vswhere.exe"
+        $StartInfo.Arguments = " -latest -requires Microsoft.Component.MSBuild -find MSBuild\\**\\Bin\\MSBuild.exe"
+        $StartInfo.RedirectStandardOutput = $True
+        $StartInfo.UseShellExecute = $False
+        [System.Diagnostics.Process] $VSWhere = [Diagnostics.Process]::Start($StartInfo)
+        $VSWhere.WaitForExit()
+        return $VSWhere.StandardOutput.ReadToEnd();
         }
     }
     ```
 
-1. Replace `New-WebDeployPackage` with the following code and replace the placeholders in the line constructing `$msbuildCmd`. This code is for Visual Studio 2019. If you're using Visual Studio 2017, change the **VisualStudioVersion** property to `15.0`, '14.0' for Visual Studio 2015, or `12.0` for Visual Studio 2013).
+1. Replace `New-WebDeployPackage` with the following code and replace the placeholders in the line constructing `$msbuildCmd`.
 
     ```powershell
     function New-WebDeployPackage
@@ -244,12 +242,12 @@ To automate building your project, add code that calls MSBuild to `New-WebDeploy
         #Write a function to build and package your web application
     ```
 
-    To build your web application, use MsBuild.exe. For help, see [MSBuild Command-Line Reference](../msbuild/msbuild-command-line-reference.md)
+    To build your web application, use MSBuild.exe. For help, see [MSBuild Command-Line Reference](../msbuild/msbuild-command-line-reference.md)
 
     ```powershell
     Write-VerboseWithTime 'Build-WebDeployPackage: Start'
 
-    $msbuildCmd = '"{0}" "{1}" /T:Rebuild;Package /P:VisualStudioVersion=16.0 /p:OutputPath="{2}\MSBuildOutputPath" /flp:logfile=msbuild.log,v=d' -f (Get-MSBuildCmd), $ProjectFile, $scriptDirectory
+    $msbuildCmd = '"{0}" "{1}" /T:Rebuild;Package /p:OutputPath="{2}\MSBuildOutputPath" /flp:logfile=msbuild.log,v=d' -f (Get-MSBuildCmd), $ProjectFile, $scriptDirectory
 
     Write-VerboseWithTime ('Build-WebDeployPackage: ' + $msbuildCmd)
     ```
@@ -260,7 +258,7 @@ To automate building your project, add code that calls MSBuild to `New-WebDeploy
 $job = Start-Process cmd.exe -ArgumentList('/C "' + $msbuildCmd + '"') -WindowStyle Normal -Wait -PassThru
 
 if ($job.ExitCode -ne 0) {
-    throw('MsBuild exited with an error. ExitCode:' + $job.ExitCode)
+    throw('MSBuild exited with an error. ExitCode:' + $job.ExitCode)
 }
 
 #Obtain the project name
@@ -300,6 +298,7 @@ return $WebDeployPackage
     To automate testing of your application, add code to `Test-WebApplication`. Be sure to uncomment the lines in **Publish-WebApplication.ps1** where these functions are called. If you don't provide an implementation, you can manually build your project with Visual Studio, and then run the publish script to publish to Azure.
 
 ## Publishing function summary
+
 To get help for functions you can use at the Windows PowerShell command prompt, use the command `Get-Help function-name`. The help includes parameter help and examples. The same help text is also in the script source files **AzureWebAppPublishModule.psm1** and **Publish-WebApplication.ps1**. The script and help are localized in your Visual Studio language.
 
 **AzureWebAppPublishModule**
@@ -310,13 +309,13 @@ To get help for functions you can use at the Windows PowerShell command prompt, 
 | Add-AzureSQLDatabases |Creates Azure SQL databases from the values in the JSON configuration file that Visual Studio generates. |
 | Add-AzureVM |Creates an Azure virtual machine and returns the URL of the deployed VM. The function sets up the prerequisites and then calls the **New-AzureVM** function (Azure module) to create a new virtual machine. |
 | Add-AzureVMEndpoints |Adds new input endpoints to a virtual machine and returns the virtual machine with the new endpoint. |
-| Add-AzureVMStorage |Creates a new Azure storage account in the current subscription. The name of the account begins with "devtest" followed by a unique alphanumeric string. The function returns the name of the new storage account. Specify either a location or an affinity group for the new storage account. |
+| Add-AzureVMStorage |Creates a new Azure Storage account in the current subscription. The name of the account begins with "dev/test" followed by a unique alphanumeric string. The function returns the name of the new storage account. Specify either a location or an affinity group for the new storage account. |
 | Add-AzureWebsite |Creates a website with the specified name and location. This function calls the **New-AzureWebsite** function in the Azure module. If the subscription doesn't already include a website with the specified name, this function creates the website and returns a website object. Otherwise, it returns `$null`. |
 | Backup-Subscription |Saves the current Azure subscription in the `$Script:originalSubscription` variable in script scope. This function saves the current Azure subscription (as obtained by `Get-AzureSubscription -Current`) and its storage account, and the subscription that is changed by this script (stored in the variable `$UserSpecifiedSubscription`) and its storage account, in script scope. By saving the values, you can use a function, such as `Restore-Subscription`, to restore the original current subscription and storage account to current status if the current status has changed. |
 | Find-AzureVM |Gets the specified Azure virtual machine. |
 | Format-DevTestMessageWithTime |Prepends the date and time to a message. This function is designed for messages written to the Error and Verbose streams. |
 | Get-AzureSQLDatabaseConnectionString |Assembles a connection string to connect to an Azure SQL database. |
-| Get-AzureVMStorage |Returns the name of the first storage account with the name pattern "devtest*" (case insensitive) in the specified location or affinity group. If the "devtest*" storage account doesn't match the location or affinity group, the function ignores it. Specify either a location or an affinity group. |
+| Get-AzureVMStorage |Returns the name of the first storage account with the name pattern "dev/test*" (case insensitive) in the specified location or affinity group. If the "dev/test*" storage account doesn't match the location or affinity group, the function ignores it. Specify either a location or an affinity group. |
 | Get-MSDeployCmd |Returns a command to run the MsDeploy.exe tool. |
 | New-AzureVMEnvironment |Finds or creates a virtual machine in the subscription that matches the values in the JSON configuration file. |
 | Publish-WebPackage |Uses MsDeploy.exe and a web publish package .Zip file to deploy resources to a website. This function doesn't generate any output. If the call to MSDeploy.exe fails, the function throws an exception. To get more detailed output, use the **-Verbose** option. |
@@ -325,7 +324,7 @@ To get help for functions you can use at the Windows PowerShell command prompt, 
 | Restore-Subscription |Resets the current subscription to the original subscription. |
 | Test-AzureModule |Returns `$true` if the installed Azure module version is 0.7.4 or later. Returns `$false` if the module isn't installed or is an earlier version. This function has no parameters. |
 | Test-AzureModuleVersion |Returns `$true` if the version of the Azure module is 0.7.4 or later. Returns `$false` if the module isn't installed or is an earlier version. This function has no parameters. |
-| Test-HttpsUrl |Converts the input URL to a System.Uri object. Returns `$True` if the URL is absolute and its scheme is https. Returns `$false` if the URL is relative, its scheme isn't HTTPS, or the input string can't be converted to a URL. |
+| Test-HttpsUrl |Converts the input URL to a `System.Uri` object. Returns `$True` if the URL is absolute and its scheme is HTTPS. Returns `$false` if the URL is relative, its scheme isn't HTTPS, or the input string can't be converted to a URL. |
 | Test-Member |Returns `$true` if a property or method is a member of the object. Otherwise, returns `$false`. |
 | Write-ErrorWithTime |Writes an error message prefixed with the current time. This function calls the **Format-DevTestMessageWithTime** function to prepend the time before writing the message to the Error stream. |
 | Write-HostWithTime |Writes a message to the host program (**Write-Host**) prefixed with the current time. The effect of writing to the host program varies. Most programs that host Windows PowerShell write these messages to standard output. |
@@ -341,5 +340,6 @@ To get help for functions you can use at the Windows PowerShell command prompt, 
 | Publish-WebApplication |Creates and deploys Web Apps, virtual machines, SQL databases, and storage accounts for a Visual Studio web project. |
 | Test-WebApplication |This function isn't implemented. You can add commands in this function to test your application. |
 
-## Next steps
+## Related content
+
 Learn more about PowerShell scripting by reading [Scripting with Windows PowerShell](/powershell/scripting/overview) and see other Azure PowerShell scripts at the [Script Center](https://azure.microsoft.com/documentation/scripts/).

@@ -1,24 +1,20 @@
 ---
-title: 'How to: Create a Nullable Type (Class Designer)'
+title: 'Create a Nullable Type (Class Designer)'
 description: Learn how to create a nullable type in Class Designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - nullable types, Class Designer
 - Class Designer [Visual Studio], nullable types
-ms.assetid: 84673a89-3f6d-4668-919e-1c0f56182fe5
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: general-ide
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- multiple
 ---
-# How to: Create a nullable type in Class Designer
+# Create a nullable type in Class Designer
 
 Certain value types do not always have (or need) a defined value. This is common practice in databases, where some fields might not be assigned any value. For example, you might assign a null value to a database field to signify that it has not yet been assigned a value.
 
@@ -42,15 +38,15 @@ For more information about nullable types in C#, see [Nullable Types](/dotnet/cs
 
 1. In the class diagram, expand an existing class or create a new class.
 
-2. To add a class to the project, on the **Class Diagram** menu, click **Add** > **Add Class**.
+1. To add a class to the project, on the **Class Diagram** menu, click **Add** > **Add Class**.
 
-3. To expand the class shape, on the **Class Diagram** menu, click **Expand**.
+1. To expand the class shape, on the **Class Diagram** menu, click **Expand**.
 
-4. Select the class shape. On the **Class Diagram** menu, click **Add** > **Field**. A new field that has the default name **Field** will appear in the class shape and also in the **Class Details** window.
+1. Select the class shape. On the **Class Diagram** menu, click **Add** > **Field**. A new field that has the default name **Field** will appear in the class shape and also in the **Class Details** window.
 
-5. In the **Name** column of the **Class Details** window (or in the class shape itself), change the name of the new field to a valid and meaningful name.
+1. In the **Name** column of the **Class Details** window (or in the class shape itself), change the name of the new field to a valid and meaningful name.
 
-6. In the **Type** column of the **Class Details** window, declare the type as a nullable type by specifying the following:
+1. In the **Type** column of the **Class Details** window, declare the type as a nullable type by specifying the following:
 
     - `int?` (Visual C#)
     - `Nullable(Of Integer)` (Visual Basic)
@@ -59,8 +55,9 @@ For more information about nullable types in C#, see [Nullable Types](/dotnet/cs
 
 1. Add a class to the project. Select the project node in **Solution Explorer**, and, on the **Project** menu, click **Add Class**.
 
-2. In the .cs or .vb file for the new class, add one or more nullable types in the new class to the class declaration.
+1. In the .cs or .vb file for the new class, add one or more nullable types in the new class to the class declaration.
 
+    ### [C#](#tab/csharp)
     ```csharp
     // Declare a nullable type in Visual C#:
     class Test
@@ -69,23 +66,25 @@ For more information about nullable types in C#, see [Nullable Types](/dotnet/cs
     }
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     ' Declare a nullable type in Visual Basic:
     Class Test
        Dim buildingNumber As Nullable(Of Integer) = 5
     End Class
     ```
+    ---
 
-3. From Class View, drag the new class icon to the Class Designer design surface. A class shape appears in the class diagram.
+1. From Class View, drag the new class icon to the Class Designer design surface. A class shape appears in the class diagram.
 
-4. Expand the details for the class shape and move the mouse pointer over the class members. The tooltip displays the declaration of each member.
+1. Expand the details for the class shape and move the mouse pointer over the class members. The tooltip displays the declaration of each member.
 
-5. Right-click the class shape and click **Class Details**. You can view or modify the new type's properties in the **Class Details** window.
+1. Right-click the class shape and click **Class Details**. You can view or modify the new type's properties in the **Class Details** window.
 
-## See also
+## Related content
 
 - <xref:System.Nullable%601>
 - [Nullable Types](/dotnet/csharp/programming-guide/nullable-types/index)
 - [Using Nullable Types](/dotnet/csharp/programming-guide/nullable-types/using-nullable-types)
-- [How to: Identify a Nullable Type](/dotnet/csharp/programming-guide/nullable-types/how-to-identify-a-nullable-type)
+- [Identify a Nullable Type](/dotnet/csharp/programming-guide/nullable-types/how-to-identify-a-nullable-type)
 - [Nullable Value Types](/dotnet/visual-basic/programming-guide/language-features/data-types/nullable-value-types)

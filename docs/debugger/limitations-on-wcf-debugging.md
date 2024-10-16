@@ -1,7 +1,6 @@
 ---
-title: "Limitations on WCF Debugging | Microsoft Docs"
+title: "Limitations on WCF Debugging"
 description: Learn the ways to begin debugging a WCF service, the required conditions, and the debugging limitations.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,15 +11,13 @@ dev_langs:
 helpviewer_keywords:
   - "debugging, WCF"
   - "WCF, debugging limitations"
-ms.assetid: 8e0333c4-1ddc-4abe-8f1c-d19bf6a2a07a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Limitations on WCF Debugging
+
 There are three ways that you can begin debugging a WCF service:
 
 - You are debugging a client process that calls a service. The debugger steps into the service. The service does not have to be in the same solution as your client application.
@@ -56,7 +53,7 @@ This topic describes limitations on these scenarios.
 ## Limitations on Automatic Attach to a Service
  Automatically attaching to a service has the following limitations:
 
-- The service must be part of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution you are debugging.
+- The service must be part of the Visual Studio solution you are debugging.
 
 - The service must be hosted. It may be part of a Web Site project (File System and HTTP), Web Application project (File System and HTTP), or WCF Service Library project. WCF Service Library projects can be either Service Libraries or Workflow Service Libraries.
 
@@ -71,10 +68,10 @@ This topic describes limitations on these scenarios.
   ```
 
 ## Self-Hosting
- A *self-hosted service* is a WCF service that does not run inside IIS, the WCF Service Host, or the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Development Server. For information about how to debug a self-hosted service, see [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md).
+ A *self-hosted service* is a WCF service that does not run inside IIS, the WCF Service Host, or the ASP.NET Development Server. For information about how to debug a self-hosted service, see [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md).
 
- To enable debugging of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 or 3.5 applications, [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 or 3.5 must be installed before [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] is installed. If [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] is installed before [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 or 3.5, an error occurs when you try to debug a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 or 3.5 application. The error message is, "Unable to Automatically Step Into the Server." To fix this problem, use the Windows **Control Panel** > **Programs and Features** to repair your [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] installation.
+ If you see the error message, "Unable to Automatically Step Into the Server.", repair your Visual Studio installation to try to resolve the issue. This may happen if you install Visual Studio before installing ASP.NET.
 
-## See also
+## Related content
 - [Debugging WCF Services](../debugger/debugging-wcf-services.md)
 - [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md)

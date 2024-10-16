@@ -1,38 +1,27 @@
 ---
 description: "Retrieves a list of running programs from a specified process."
-title: IDebugProgramProvider2::GetProviderProcessData | Microsoft Docs
+title: IDebugProgramProvider2::GetProviderProcessData
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgramProvider2::GetProviderProcessData
 helpviewer_keywords:
 - IDebugProgramProvider2::GetProviderProcessData
-ms.assetid: 90cf7b7f-53d2-487e-b793-94501a6e24dd
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgramProvider2::GetProviderProcessData
+
 Retrieves a list of running programs from a specified process.
 
 ## Syntax
 
-```cpp
-HRESULT GetProviderProcessData(
-   PROVIDER_FLAGS         Flags,
-   IDebugDefaultPort2*    pPort,
-   AD_PROCESS_ID          processId,
-   CONST_GUID_ARRAY       EngineFilter,
-   PROVIDER_PROCESS_DATA* pProcess
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProviderProcessData(
    enum_PROVIDER_FLAGS     Flags,
@@ -42,6 +31,17 @@ int GetProviderProcessData(
    PROVIDER_PROCESS_DATA[] pProcess
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProviderProcessData(
+   PROVIDER_FLAGS         Flags,
+   IDebugDefaultPort2*    pPort,
+   AD_PROCESS_ID          processId,
+   CONST_GUID_ARRAY       EngineFilter,
+   PROVIDER_PROCESS_DATA* pProcess
+);
+```
+---
 
 ## Parameters
 `Flags`\

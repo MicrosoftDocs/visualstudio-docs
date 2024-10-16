@@ -1,41 +1,43 @@
 ---
-description: "Retrieves the program string that is used to compute the register set before the call to the current function."
-title: "IDiaFrameData::get_program | Microsoft Docs"
+description: Retrieves the program string that is used to compute the register set before the call to the current function.
+title: "IDiaFrameData::get_program"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaFrameData::get_program method"
-ms.assetid: 9201409e-b4b1-4e2e-a9f8-d17678ac538b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaFrameData::get_program
+
 Retrieves the program string that is used to compute the register set before the call to the current function.
 
 ## Syntax
 
-```C++
-HRESULT get_program ( 
+```c++
+HRESULT get_program ( 
    BSTR* pRetVal
 );
 ```
 
 #### Parameters
+
  `pRetVal`
 
 [out] Returns the program string.
 
 ## Return Value
- If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
+
+If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
 ## Remarks
- The program string is a sequence of macros that is interpreted in order to establish the prologue. For example, a typical stack frame might use the program string `"$T0 $ebp = $eip $T0 4 + ^ = $ebp $T0 ^ = $esp $T0 8 + ="`. The format is reverse polish notation, where the operators follow the operands. `T0` represents a temporary variable on the stack. This example performs the following steps:
+
+The program string is a sequence of macros that is interpreted in order to establish the prologue. For example, a typical stack frame might use the program string `"$T0 $ebp = $eip $T0 4 + ^ = $ebp $T0 ^ = $esp $T0 8 + ="`. The format is reverse polish notation, where the operators follow the operands. `T0` represents a temporary variable on the stack. This example performs the following steps:
 
 1. Move contents of register `ebp` to `T0`.
 
@@ -48,4 +50,5 @@ HRESULT get_program ( 
    Note that the program string is specific to the CPU and to the calling convention set up for the function represented by the current stack frame.
 
 ## See also
+
 - [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)

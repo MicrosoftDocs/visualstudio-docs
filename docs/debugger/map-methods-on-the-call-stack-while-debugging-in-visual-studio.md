@@ -1,7 +1,6 @@
 ---
-title: Create a visual map of the call stack | Microsoft Docs
+title: Create a visual map of the call stack
 description: Create a code map to visually trace the call stack as you debug. Make notes on the map to track what the code is doing, so you can focus on finding bugs.
-ms.custom: SEO-VS-2020
 ms.date: 11/26/2018
 ms.topic: how-to
 f1_keywords: 
@@ -25,25 +24,19 @@ helpviewer_keywords:
   - Call Stack window, show on code map
   - debugging [Visual Studio], tracing the call stack visually
   - debugging [Visual Studio], visualizing the call stack
-ms.assetid: d6a72e5e-f88d-46fc-94a3-1789d34805ef
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Create a visual map of the call stack while debugging (C#, Visual Basic, C++, JavaScript)
 
 Create a code map to visually trace the call stack while you're debugging. You can make notes on the map to track what the code is doing, so you can focus on finding bugs.
 
-For a walkthrough, watch this video:
-[Video: Debug visually with Code Map debugger integration (Channel 9)](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012Debug-visually-with-Code-Map-debugger-integration)
-
 For details of commands and actions you can use with code maps, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).
 
 >[!IMPORTANT]
->You can create code maps only in [Visual Studio Enterprise edition](https://visualstudio.microsoft.com/downloads).
+>You can create code maps only in [Visual Studio Enterprise edition](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta).
 
 Here's a quick look at a code map:
 
@@ -153,11 +146,8 @@ To share or save the map, use **Share** in the code map toolbar.
 
 ![Share call stack code map with others](../debugger/media/debuggermap_sharewithothers.png "Share call stack code map with others")
 
-## See also
-[Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
-
-[Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
-
-[Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)
-
-[Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)
+## Related content
+- [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
+- [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
+- [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)
+- [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md)

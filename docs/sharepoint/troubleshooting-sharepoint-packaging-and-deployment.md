@@ -1,8 +1,7 @@
 ---
-title: "Troubleshooting SharePoint Packaging and Deployment | Microsoft Docs"
+title: "Troubleshooting SharePoint Packaging and Deployment"
 description: Understand and fix various problems that you might encounter when you package and deploy SharePoint solutions.
-ms.custom: SEO-VS-2020
-ms.date: "02/22/2017"
+ms.date: 02/22/2017
 ms.topic: "conceptual"
 f1_keywords:
   - "VSTO.WorkflowDeployment.Troubleshooting"
@@ -22,12 +21,11 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, deployment conflict resolution"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Troubleshoot SharePoint packaging and deployment
+
   This topic covers various problems that you might encounter when you package and deploy SharePoint solutions.
 
 ## Enable enhanced debugging
@@ -51,7 +49,7 @@ ms.workload:
 |None|Does not detect collisions.|
 
 ## Differences between F5 deployment
- When you use [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] to deploy your SharePoint project to the local SharePoint server for testing and debugging, there are some additional steps that are performed by [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+ When you use Visual Studio to deploy your SharePoint project to the local SharePoint server for testing and debugging, there are some additional steps that are performed by Visual Studio.
 
 1. Reset the Internet Information Service (IIS) during the deployment step.
 
@@ -62,7 +60,7 @@ ms.workload:
    You can add custom deployment steps to further change the **F5** behavior. For more information, see [Walkthrough: Create a custom deployment step for SharePoint projects](../sharepoint/walkthrough-creating-a-custom-deployment-step-for-sharepoint-projects.md).
 
 ## Delay displaying SharePoint page when Deploy visual web part
- The SharePoint page takes a long time to appear when deploying a Visual Web part to the Bin folder on [!INCLUDE[wiprlhext](../sharepoint/includes/wiprlhext-md.md)], [!INCLUDE[win7](../sharepoint/includes/win7-md.md)], or [!INCLUDE[winsvr08](../sharepoint/includes/winsvr08-md.md)]. If you change any files in a top-level [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] directory, such as the Bin directory, the entire Web application recompiles. This can cause a delay of up to 25 seconds for the SharePoint page to render.
+ The SharePoint page takes a long time to appear when deploying a Visual Web part to the Bin folder on Windows Vista, Windows 7, or Windows Server 2008. If you change any files in a top-level ASP.NET directory, such as the Bin directory, the entire Web application recompiles. This can cause a delay of up to 25 seconds for the SharePoint page to render.
 
 ### Error message
  None.
@@ -70,7 +68,7 @@ ms.workload:
 ### Resolution
  To work around this problem, perform the following steps:
 
-1. Install update KB967535 as outlined in the Microsoft Support article [FIX: A hotfix is available to fix two problems in ASP.NET on IIS 7.0 for Windows Vista and Windows Server 2008](https://support.microsoft.com/help/967535).
+1. Install update KB967535 as outlined in the Microsoft Support article FIX: A hotfix is available to fix two problems in ASP.NET on IIS 7.0 for Windows Vista and Windows Server 2008.
 
 2. Add the following line to the Web.config file:
 
@@ -103,10 +101,10 @@ ms.workload:
  Warning 1 Element '[*Control Name*]' is not a known element. This can occur if there is a compilation error in the Web site, or the web.config file is missing.
 
 ### Resolution
- If the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] project system is not aware of a nested user control, it cannot provide IntelliSense and it emits the warning. The project system is unaware of a nested user control if the project is not built and the designer is not closed and re-opened, or if the auto-retract option is enabled, which causes the user control to be retracted from the SharePoint hive after debugging.
+ If the Visual Studio project system is not aware of a nested user control, it cannot provide IntelliSense and it emits the warning. The project system is unaware of a nested user control if the project is not built and the designer is not closed and re-opened, or if the auto-retract option is enabled, which causes the user control to be retracted from the SharePoint hive after debugging.
 
  To remove this warning, either build the project and then close and then reopen the designer, or disable the auto-retract option for the project. To do this, clear the **Auto-retract after debugging** check box on the **SharePoint** tab of the project properties dialog box.
 
-## See also
+## Related content
 
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

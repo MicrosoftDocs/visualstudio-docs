@@ -1,7 +1,6 @@
 ---
-title: "How to: Remove managed code extensions from documents"
+title: "Remove managed code extensions from documents"
 description: Programmatically remove the customization assembly from a document or workbook that is part of a document-level customization for Microsoft Word or Excel.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -12,17 +11,16 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], managed code extensions"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Remove managed code extensions from documents
+# Remove managed code extensions from documents
+
   You can programmatically remove the customization assembly from a document or workbook that is part of a document-level customization for Microsoft Office Word or Microsoft Office Excel. Users can then open the documents and view the contents, but any custom user interface (UI) you add to the documents will not appear, and your code will not run.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
 
- You can remove the customization assembly by using one of the `RemoveCustomization` methods provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]. Which method you use depends on whether you want to remove the customization at run time (that is, by running code in the customization while the Word document or Excel workbook is open), or if you want to remove the customization from a closed document or a document that is on a server that does not have Microsoft Office installed.
+ You can remove the customization assembly by using one of the `RemoveCustomization` methods provided by the  Visual Studio Tools for Office runtime . Which method you use depends on whether you want to remove the customization at run time (that is, by running code in the customization while the Word document or Excel workbook is open), or if you want to remove the customization from a closed document or a document that is on a server that does not have Microsoft Office installed.
 
 ## To remove the customization assembly at run time
 
@@ -36,18 +34,26 @@ ms.workload:
 
 2. Add the following **Imports** or **using** statement to the top of your code file.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDeploymentCS/Program.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDeploymentVB/Program.vb" id="Snippet1":::
+     ---
 
 3. Call the static <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.RemoveCustomization%2A> method of the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class, and specify the solution document path for the parameter.
 
      The following code example assumes that you are removing the customization from a document named *WordDocument1.docx* that is on the desktop.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDeploymentCS/Program.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDeploymentVB/Program.vb" id="Snippet2":::
+     ---
 
 4. Build the project and run the application on the computer where you want to remove the customization. The computer must have the Visual Studio 2010 Tools for Office runtime installed.
 
-## See also
+## Related content
 - [Manage documents on a server by using the ServerDocument class](../vsto/managing-documents-on-a-server-by-using-the-serverdocument-class.md)
 - [How to: Attach Managed code extensions to documents](../vsto/how-to-attach-managed-code-extensions-to-documents.md)

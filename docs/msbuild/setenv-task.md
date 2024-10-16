@@ -1,29 +1,23 @@
 ---
-title: SetEnv task | Microsoft Docs
+title: SetEnv task
 description: Learn how MSBuild uses the SetEnv task to set or delete the value of a specified environment variable.
-ms.custom: SEO-VS-2020
 ms.date: 11/05/2018
 ms.topic: reference
 f1_keywords:
 - vc.task.setenv
 dev_langs:
-- VB
-- CSharp
-- C++
-- jsharp
 - C++
 helpviewer_keywords:
 - MSBuild (C++), tasks
 - SetEnv task (MSBuild (C++))
-ms.assetid: fd9e4225-68cb-4608-8b27-468b0218c936
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # SetEnv task
+
+[!INCLUDE [C++-specific task](./includes/cpp-task.md)]
 
 Sets or deletes the value of a specified environment variable.
 

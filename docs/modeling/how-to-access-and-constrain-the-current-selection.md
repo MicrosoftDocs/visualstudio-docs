@@ -1,19 +1,16 @@
 ---
-title: "How to: Access and Constrain the Current Selection"
+title: "Access and Constrain the Current Selection"
 description: Learn how you can determine what element the user right-clicked when you write a command or gesture handler for your domain-specific language.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
   - "Domain-Specific Language, accessing the current selection"
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: modeling
 ---
-# How to: Access and Constrain the Current Selection
+# Access and Constrain the Current Selection
 
 When you write a command or gesture handler for your domain-specific language, you can determine what element the user right-clicked. You can also prevent some shapes or fields from being selected. For example, you can arrange that when the user clicks an icon decorator, the shape that contains it is selected instead. Constraining the selection in this manner reduces the number of handlers that you have to write. It also makes it easier for the user, who can click anywhere in the shape without having to avoid the decorator.
 
@@ -206,7 +203,7 @@ namespace CompanyName.ProductName.GroupingDsl
 }
 ```
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet>
 - <xref:Microsoft.VisualStudio.Modeling.Shell.ModelingPackage>

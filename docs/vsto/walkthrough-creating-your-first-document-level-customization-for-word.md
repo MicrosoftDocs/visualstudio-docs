@@ -13,10 +13,8 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], creating your first project"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Walkthrough: Create your first document-level customization for Word
 
@@ -50,23 +48,10 @@ ms.workload:
 
 ### To create a new Word document project in Visual Studio
 
-1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start Visual Studio.
 
 2. On the **File** menu, point to **New**, and then click **Project**.
-::: moniker range="vs-2017"
-3. In the templates pane, expand **Visual C#** or **Visual Basic**, and then expand **Office/SharePoint**.
 
-4. Under the expanded **Office/SharePoint** node, select the **VSTO Add-ins** node.
-
-5. In the list of project templates, select a Word VSTO document project.
-
-6. In the **Name** box, type **FirstDocumentCustomization**.
-
-7. Click **OK**.
-
-8. Select **Create a new document** from the **Visual Studio Tools for Office Project Wizard**, and click **OK**.
-::: moniker-end
-::: moniker range=">=vs-2019"
 3. On the **Create a New Project** dialog select the **Word VSTO Document** project.
 
      [!INCLUDE[new-project-dialog-search](../vsto/includes/new-project-dialog-search-md.md)]
@@ -76,8 +61,8 @@ ms.workload:
 5. Type **FirstWorkbookCustomization** in the **Name** box on the **Configure your new project** dialog and click **Create**.
 
 6. Select **Create a new document** from the **Visual Studio Tools for Office Project Wizard**, and click **OK**.
-::: moniker-end
-   - [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstDocumentCustomization** project, and adds the **FirstDocumentCustomization** document and ThisDocument code file to the project. The **FirstDocumentCustomization** document is opened automatically in the designer.
+
+   - Visual Studio creates the **FirstDocumentCustomization** project, and adds the **FirstDocumentCustomization** document and ThisDocument code file to the project. The **FirstDocumentCustomization** document is opened automatically in the designer.
 
 ## Close and reopen the document in the designer
 
@@ -119,8 +104,12 @@ ms.workload:
 
 2. Replace the `ThisDocument_Startup` event handler with the following code. When the document is opened, this code adds a second paragraph of text to the document.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/FirstDocumentCustomization/ThisDocument.vb" id="Snippet1":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/FirstDocumentCustomization/ThisDocument.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/FirstDocumentCustomization/ThisDocument.vb" id="Snippet1":::
+     ---
 
     > [!NOTE]
     > This code uses the index value 1 to access the first paragraph in the <xref:Microsoft.Office.Tools.Word.Document.Paragraphs%2A> property. Although Visual Basic and Visual C# use 0-based arrays, the lower array bounds of most collections in the Word object model is 1. For more information, see [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md).
@@ -167,7 +156,7 @@ ms.workload:
 
 - Deploying document-level customizations for Word: [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
-## See also
+## Related content
 
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
 - [Word solutions](../vsto/word-solutions.md)

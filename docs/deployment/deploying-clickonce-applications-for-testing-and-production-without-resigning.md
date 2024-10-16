@@ -1,7 +1,6 @@
 ---
 title: "Deploy ClickOnce apps without re-signing"
 description: Learn about deploying ClickOnce applications from multiple network locations without re-signing or changing the ClickOnce manifests.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -15,15 +14,13 @@ helpviewer_keywords:
   - "update location [ClickOnce]"
   - "deploymentProvider tag"
   - "manifests [ClickOnce]"
-ms.assetid: 1218a98d-1ad5-4eef-95dd-0e0b3c44168c
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: deployment
 ---
 # Deploy ClickOnce applications for testing and production servers without resigning
+
 This article describes a feature of ClickOnce introduced in the .NET Framework version 3.5 that enables the deployment of ClickOnce applications from multiple network locations without re-signing or changing the ClickOnce manifests.
 
 > [!NOTE]
@@ -42,6 +39,8 @@ This article describes a feature of ClickOnce introduced in the .NET Framework v
 
  In order to take advantage of this feature, developers of ClickOnce applications must exclude `deploymentProvider` from their deployment manifests. This requirement means that you must exclude the `-providerUrl` argument when you create deployment manifests with Mage.exe. Or, if you are generating deployment manifests with MageUI.exe, you must make sure that the **Launch Location** text box on the **Application Manifest** tab is left blank.
 
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-dotnetmage-exe.md)]
+
 ## deploymentProvider and application updates
  Starting with the .NET Framework 3.5, you no longer have to specify a `deploymentProvider` in your deployment manifest in order to deploy a ClickOnce application for both online and offline usage. This change supports the scenario where you need to package and sign the deployment yourself, but allow other companies to deploy the application over their networks.
 
@@ -58,6 +57,6 @@ This article describes a feature of ClickOnce introduced in the .NET Framework v
 ## Create a deployment
  For step by step guidance on creating deployments that can be deployed from different network locations, see [Walkthrough: Manually deploy a ClickOnce application that does not require re-signing and that preserves branding information](../deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required.md).
 
-## See also
+## Related content
 - [*Mage.exe* (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)
 - [*MageUI.exe* (Manifest Generation and Editing Tool, Graphical Client)](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client)

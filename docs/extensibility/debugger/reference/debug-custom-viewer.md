@@ -1,39 +1,27 @@
 ---
 description: "A structure that identifies a custom viewer or type visualizer."
-title: DEBUG_CUSTOM_VIEWER | Microsoft Docs
+title: DEBUG_CUSTOM_VIEWER
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - DEBUG_CUSTOM_VIEWER
 helpviewer_keywords:
 - DEBUG_CUSTOM_VIEWER structure
-ms.assetid: 8e0ef3f0-0107-48e8-a037-6e52b4c4ed9d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # DEBUG_CUSTOM_VIEWER
+
 A structure that identifies a custom viewer or type visualizer.
 
 ## Syntax
 
-```cpp
-typedef struct tagDEBUG_CUSTOM_VIEWER {
-    DWORD dwID;
-    BSTR  bstrMenuName;
-    BSTR  bstrDescription;
-    GUID  guidLang;
-    GUID  guidVendor;
-    BSTR  bstrMetric;
-} DEBUG_CUSTOM_VIEWER;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct DEBUG_CUSTOM_VIEWER {
     public uint   dwID;
@@ -44,6 +32,18 @@ public struct DEBUG_CUSTOM_VIEWER {
     public string bstrMetric;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagDEBUG_CUSTOM_VIEWER {
+    DWORD dwID;
+    BSTR  bstrMenuName;
+    BSTR  bstrDescription;
+    GUID  guidLang;
+    GUID  guidVendor;
+    BSTR  bstrMetric;
+} DEBUG_CUSTOM_VIEWER;
+```
+---
 
 ## Members
 `dwID`\

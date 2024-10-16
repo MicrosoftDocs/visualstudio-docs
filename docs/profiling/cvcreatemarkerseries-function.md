@@ -1,7 +1,6 @@
 ---
-title: CvCreateMarkerSeries Function | Microsoft Docs
+title: CvCreateMarkerSeries Function
 description: See reference information for the Concurrency Visualizer SDK function CvCreateMarkerSeries (C library).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -10,15 +9,13 @@ f1_keywords:
 helpviewer_keywords: 
   - CvCreateMarkerSeriesA method
   - CvCreateMarkerSeriesW method
-ms.assetid: e280530b-137a-43a7-8643-aa514ab86ed7
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # CvCreateMarkerSeries function
+
 Creates marker series for a given provider.
 
 ## Syntax

@@ -1,21 +1,18 @@
 ---
-title: Wizard Interface (IDTWizard) | Microsoft Docs
+title: Wizard Interface (IDTWizard)
 description: The IDE uses the IDTWizard interface to communicate with wizards. Wizards must implement this interface to be installed in the IDE.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDTWizard interface
 - wizards, interface
-ms.assetid: 09618d9d-d115-45b6-bccc-de328994b39c
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Wizard Interface (IDTWizard)
+
 The integrated development environment (IDE) uses the <xref:EnvDTE.IDTWizard> interface to communicate with wizards. Wizards must implement this interface in order to be installed in the IDE.
 
  The <xref:EnvDTE.IDTWizard.Execute%2A> method is the only method associated with the <xref:EnvDTE.IDTWizard> interface. Wizards implement this method and the IDE calls the method on the interface. The following example shows the signature of the method.
@@ -33,7 +30,7 @@ STDMETHOD(Execute)(THIS_
 
  The start mechanism is similar for both the **New Project** and **Add New Item** wizards. To start either, you call the <xref:EnvDTE.IDTWizard> interface defined in Dteinternal.h. The only difference is the set of context and custom parameters that are passed to the interface when the interface is called.
 
- The following information describes the <xref:EnvDTE.IDTWizard> interface that wizards must implement to work in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE. The IDE calls the <xref:EnvDTE.IDTWizard.Execute%2A> method on the wizard, passing it the following:
+ The following information describes the <xref:EnvDTE.IDTWizard> interface that wizards must implement to work in the Visual Studio IDE. The IDE calls the <xref:EnvDTE.IDTWizard.Execute%2A> method on the wizard, passing it the following:
 
 - The DTE object
 

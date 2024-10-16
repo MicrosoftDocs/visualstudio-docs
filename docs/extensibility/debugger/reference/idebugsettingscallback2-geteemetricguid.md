@@ -1,35 +1,25 @@
 ---
-description: "Retrieves the unique identifier for a expression evaluator metric given its name."
-title: IDebugSettingsCallback2::GetEEMetricGuid | Microsoft Docs
+description: "Retrieves the unique identifier for an expression evaluator metric given its name."
+title: IDebugSettingsCallback2::GetEEMetricGuid
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugSettingsCallback2::GetEEMetricGuid
-ms.assetid: 3d70c19a-595d-44f1-a7b3-a0cf8f15e371
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugSettingsCallback2::GetEEMetricGuid
-Retrieves the unique identifier for a expression evaluator metric given its name.
+
+Retrieves the unique identifier for an expression evaluator metric given its name.
 
 ## Syntax
 
-```cpp
-HRESULT GetEEMetricGuid(
-   REFGUID guidLang,
-   REFGUID guidVendor,
-   LPCWSTR pszMetric,
-   GUID*   pguidValue
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 HRESULT GetEEMetricGuid(
    ref Guid guidLang,
@@ -38,6 +28,16 @@ HRESULT GetEEMetricGuid(
    out Guid pguidValue
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEEMetricGuid(
+   REFGUID guidLang,
+   REFGUID guidVendor,
+   LPCWSTR pszMetric,
+   GUID*   pguidValue
+);
+```
+---
 
 ## Parameters
 `guidLang`\

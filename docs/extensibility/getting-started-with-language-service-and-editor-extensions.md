@@ -1,18 +1,14 @@
 ---
 title: Get started with language service and editor extensions
 description: Learn how to add language service features to any content type and customize the appearance and behavior of the Visual Studio editor.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - extensions
-ms.assetid: 6b151891-c06d-40b1-9867-42298caa8492
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Get started with language service and editor extensions
 
@@ -91,6 +87,6 @@ You can use editor extensions to add language service features such as outlining
 
 - [Walkthrough: Using a shortcut key with an editor extension](../extensibility/walkthrough-using-a-shortcut-key-with-an-editor-extension.md)
 
-## See also
+## Related content
 
 - [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)

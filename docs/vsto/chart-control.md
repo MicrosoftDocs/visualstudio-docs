@@ -1,7 +1,6 @@
 ---
-title: "Chart control"
-description: Learn that when you add a chart to a worksheet, Visual Studio creates a chart object that you can program against directly.
-ms.custom: SEO-VS-2020
+title: Add chart controls to your worksheet
+description: Add chart controls to your worksheet to use a chart object created by Visual Studio that you can program against directly.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -15,12 +14,11 @@ helpviewer_keywords:
   - "Chart control [Office development in Visual Studio], data binding"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Chart control
+
   The <xref:Microsoft.Office.Tools.Excel.Chart> control is a chart object that exposes events. When you add a chart to a worksheet, Visual Studio creates a <xref:Microsoft.Office.Tools.Excel.Chart> object that you can program against directly without having to traverse the Microsoft Office Excel object model.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -69,7 +67,7 @@ ms.workload:
 
 - <xref:Microsoft.Office.Tools.Excel.Chart.SeriesChange>
 
-## See also
+## Related content
 - [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
 - [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)

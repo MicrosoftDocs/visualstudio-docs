@@ -2,15 +2,11 @@
 title: Evaluate an XPath expression while debugging
 ms.date: 03/05/2019
 description: Learn how to evaluate XPath expressions by using the QuickWatch window during debugging.
-ms.custom: SEO-VS-2020
 ms.topic: how-to
-ms.assetid: 159ba4ef-75e4-4ac8-80dc-e064e0bec345
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xml-tools
-ms.workload:
-- multiple
+author: dzsquared
+ms.author: drskwier
+manager: mijacobs
+ms.subservice: xml-tools
 ---
 # Evaluate XPath expressions
 
@@ -49,6 +45,6 @@ The following procedure uses the *below-average.xsl* and *books.xml* files from 
 
    The **Value** box shows that the XPath expression evaluates to `true`.
 
-## See also
+## Related content
 
 - [Debugging XSLT](../xml-tools/debugging-xslt.md)

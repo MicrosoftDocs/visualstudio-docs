@@ -1,15 +1,12 @@
 ---
-title: XML editor
-description: Learn about the XML editor in Visual Studio that is based on the text editor and includes additional support for the XML languages.
-ms.custom: SEO-VS-2020
+title: Explore features of the XML editor
+description: Use the XML editor in Visual Studio, which is based on the text editor and supports syntax checking, schema validation, and other features for XML languages. 
 ms.date: 11/04/2016
 ms.topic: overview
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xml-tools
-ms.workload:
-- multiple
+author: dzsquared
+ms.author: drskwier
+manager: mijacobs
+ms.subservice: xml-tools
 ---
 # XML editor
 

@@ -1,28 +1,36 @@
 ---
 description: "Specifies whether the breakpoint is at a code location, is a data location, or is another type of breakpoint."
-title: BP_TYPE | Microsoft Docs
+title: BP_TYPE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_TYPE
 helpviewer_keywords:
 - BP_TYPE enumeration
-ms.assetid: ef07191e-7966-43ab-96fb-1a0b1db3115d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # BP_TYPE
+
 Specifies whether the breakpoint is at a code location, is a data location, or is another type of breakpoint.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_BP_TYPE {
+    BPT_NONE    = 0x0000,
+    BPT_CODE    = 0x0001,
+    BPT_DATA    = 0x0002,
+    BPT_SPECIAL = 0x0003
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_BP_TYPE {
     BPT_NONE    = 0x0000,
@@ -32,15 +40,7 @@ enum enum_BP_TYPE {
 };
 typedef DWORD BP_TYPE;
 ```
-
-```csharp
-public enum enum_BP_TYPE {
-    BPT_NONE    = 0x0000,
-    BPT_CODE    = 0x0001,
-    BPT_DATA    = 0x0002,
-    BPT_SPECIAL = 0x0003
-};
-```
+---
 
 ## Fields
 `BPT_NONE`\

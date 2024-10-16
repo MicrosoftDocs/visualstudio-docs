@@ -2,7 +2,6 @@
 title: "The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user"
 titleSuffix: ""
 description: "This message occurs when you are debugging in No Authentication mode and the user who started msvsmon is not the user who is running Visual Studio."
-ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 dev_langs:
@@ -19,12 +18,11 @@ helpviewer_keywords:
   - "msvsmon.exe"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user
+
 When trying to do remote debugging, you may get the following error message:
 
  The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user.

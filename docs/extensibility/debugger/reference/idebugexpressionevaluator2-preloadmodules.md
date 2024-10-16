@@ -1,38 +1,38 @@
 ---
 description: "Preloads the modules designated by the specified symbol provider."
-title: IDebugExpressionEvaluator2::PreloadModules | Microsoft Docs
+title: IDebugExpressionEvaluator2::PreloadModules
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugExpressionEvaluator2::PreloadModules
 - PreloadModules
-ms.assetid: bcf9b968-ee14-4a92-88ad-926268a44e03
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExpressionEvaluator2::PreloadModules
+
 Preloads the modules designated by the specified symbol provider.
 
 ## Syntax
 
-```cpp
-HRESULT PreloadModules (
-    IDebugSymbolProvider* pSym
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int PreloadModules (
     IDebugSymbolProvider pSym
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT PreloadModules (
+    IDebugSymbolProvider* pSym
+);
+```
+---
 
 ## Parameters
 `pSym`\
@@ -45,7 +45,7 @@ If successful, returns `S_OK`; otherwise, returns an error code.
 This optional method is used when you do a hosting-process attach. It gives the EE a chance to 'warm up' as part of the attach.
 
 ## Example
-The following example shows how to implement this method for a **ExpressionEvaluatorPackage** object that exposes the [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md) interface.
+The following example shows how to implement this method for an **ExpressionEvaluatorPackage** object that exposes the [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md) interface.
 
 ```cpp
 STDMETHODIMP ExpressionEvaluatorPackage::PreloadModules

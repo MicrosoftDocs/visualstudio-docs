@@ -1,7 +1,6 @@
 ---
-title: "How to: Add Windows forms controls to Office documents"
+title: "Add Windows forms controls to Office documents"
 description: Learn how you can add Windows Forms controls to Microsoft Office Excel and Microsoft Office Word documents at design time in document-level projects.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], Windows Forms controls"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Add Windows Forms controls to Office documents
+# Add Windows Forms controls to Office documents
+
   You can add Windows Forms controls to Microsoft Office Excel and Microsoft Office Word documents at design time in document-level projects. At run time, you can add controls in document-level customizations and in VSTO Add-ins. For example, you can add a <xref:Microsoft.Office.Tools.Excel.Controls.ComboBox> control to your worksheet so that users can select from a list of options.
 
  [!INCLUDE[appliesto_controls](../vsto/includes/appliesto-controls-md.md)]
@@ -105,8 +103,12 @@ ms.workload:
 
      The following code example demonstrates how to add a <xref:Microsoft.Office.Tools.Excel.Controls.Button> to cell **C5** of `Sheet1` in a document-level project for Excel.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet4":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs" id="Snippet4":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet4":::
+     ---
 
 ## <a name="runtimeaddin"></a> Add controls at run time in VSTO Add-ins
  You can add Windows Forms controls programmatically to any open document at run time. First, generate a host item that is based on an open document or worksheet. Then, in Word, use methods of the <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> property of the new host item. In Excel, use methods of the <xref:Microsoft.Office.Tools.Excel.Worksheet.Controls%2A> property of the new host item. Each method has several overloads that enable you to specify the location of the control in different ways.
@@ -120,14 +122,18 @@ ms.workload:
 1. Use a method that has the name Add\<*control class*> (where *control class* is the class name of the Windows Forms control that you want to add, such as <xref:Microsoft.Office.Tools.Word.ControlExtensions.AddButton%2A>).
 
     > [!NOTE]
-    > In VSTO Add-in projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must add a reference to the *Microsoft.Office.Tools.Excel.v4.0.Utilities.dll* or *Microsoft.Office.Tools.Word.v4.0.Utilities.dll* assembly before you can access the Add\<*control class*> methods.
+    > In VSTO Add-in projects that target the .NET Framework 4 or later, you must add a reference to the *Microsoft.Office.Tools.Excel.v4.0.Utilities.dll* or *Microsoft.Office.Tools.Word.v4.0.Utilities.dll* assembly before you can access the Add\<*control class*> methods.
 
      The following code example demonstrates how to add a <xref:Microsoft.Office.Tools.Word.Controls.Button> to the first paragraph of the active document by using a Word VSTO Add-in.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet7":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs" id="Snippet7":::
 
-## See also
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet7":::
+     ---
+
+## Related content
 - [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)
 - [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [How to: Resize controls within worksheet cells](../vsto/how-to-resize-controls-within-worksheet-cells.md)

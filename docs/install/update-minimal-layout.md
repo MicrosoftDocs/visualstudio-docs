@@ -1,30 +1,26 @@
 ---
-title: Update Visual Studio using a minimal offline layout
-description: Learn how to Update Visual Studio using a minimal offline layout.
-ms.date: 05/18/2021
-ms.custom: seodec18
+title: Update Visual Studio with minimal offline layout
+description: Create a minimal layout for a quick and easy way to update your offline Visual Studio instances for computers that aren't connected to the internet.
+ms.date: 9/28/2023
 ms.topic: how-to
-ms.assetid:
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
-ms.workload:
-- multiple
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+manager: mijacobs
+
+ms.subservice: installation
 ---
 # Update Visual Studio using a minimal offline layout
 
 For computers that are not connected to the internet, creating a minimal layout is the easiest and fastest way to update your offline Visual Studio instances.
 
-The minimal layout tool generates a layout tailored specifically to your team's needs. Enterprise administrators can use this tool to create update layout(s) for most versions for Visual Studio 2017 and 2019. Unlike a full Visual Studio layout, a minimal layout only contains the updated packages, so it is always smaller and faster to generate and deploy. You can further minimize the size of the update layout by specifying only the desired languages, workloads, and components.
+The minimal layout tool generates a layout tailored specifically to your team's needs. Enterprise administrators can use this tool to create update layout(s) for most versions of Visual Studio, including Visual Studio 2017. Unlike a full Visual Studio layout, a minimal layout only contains the updated packages, so it is always smaller and faster to generate and deploy. You can further minimize the size of the update layout by specifying only the desired languages, workloads, and components.
 
 ## How to generate a minimal layout
 
 > [!IMPORTANT]
 > These instructions assume that you've previously created and used layouts. For more information about how to do so, see the [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md) page.
 >
-> For a better understanding of the Visual Studio lifecycle, see the [Visual Studio Product Lifecycle and Servicing](/visualstudio/releases/2019/servicing) page.
+> For a better understanding of the Visual Studio lifecycle, see the [Visual Studio Product Lifecycle and Servicing](/visualstudio/productinfo/vs-servicing) page.
 >
 
 This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The layout can be deployed to network/offline machines to update Visual Studio instances. During [normal layout creation](update-a-network-installation-of-visual-studio.md), all the packages for that particular release are downloaded. Normal layout creation is required for repairing, uninstalling, and other standard operations on Visual Studio instances. The minimal layout downloads only updated packages, so it's smaller and easier to copy to offline machines.
@@ -64,8 +60,6 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 
 #### Options
 
-::: moniker range=">=vs-2019"
-
 | Options                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                 | Required/Optional               | Example                                                                                                                                                          |
 |-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | --targetLocation &lt;dir&gt;                        | Specifies a directory in which to create a minimal offline layout.                                                                                                                                                                                                                                                                                                                                                                          | Required                        | --targetLocation c:\VSLayout\                                                                                                                                    |
@@ -78,24 +72,6 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 | --includeRecommended                                | Includes the recommended components for any workloads that are installed, but not the optional components.                                                                                                                                                                                                                                                                                                                                  | Optional                        | For a  specific workload: <br> --add Microsoft.VisualStudio.Workload. ManagedDesktop;includeRecommended <br><br> To apply to all workloads: --includeRecommended |
 | --includeOptional                                   | Includes the optional components for any workloads that are installed, including the recommended components.                                                                                                                                                                                                                                                                                                                                | Optional                        | For a specific workload: <br>--add Microsoft.VisualStudio.Workload. ManagedDesktop;includeOptional <br><br> To apply to all workloads: --includeOptional         |
 
-::: moniker-end
-
-::: moniker range="vs-2017"
-
-| Options                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                 | Required/Optional               | Example                                                                                                                                                          |
-|-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| --targetLocation &lt;dir&gt;                        | Specifies a directory in which to create a minimal offline layout.                                                                                                                                                                                                                                                                                                                                                                          | Required                        | --targetLocation c:\VSLayout\                                                                                                                                    |
-| --baseVersion &lt;version&gt;                       | The minimal offline layout will be generated starting with this version.                                                                                                                                                                                                                                                                                                                                                                    | Required                        | --baseVersion 15.0.0                                                                                                                                             |
-| --targetVersion &lt;version&gt;                     | The minimal offline layout will be generated up to and including this version.                                                                                                                                                                                                                                                                                                                                                              | Required                        | --targetVersion 15.9.31                                                                                                                                          |
-| --languages                                         | Specifies the languages to include in the minimal offline layout. Multiple values can be specified, separated by spaces.                                                                                                                                                                                                                                                                                                                    | Required                        | --languages en-US fr-FR                                                                                                                                          |
-| --productIds &lt;one or more product IDs&gt;        | The ID(s) of the product(s) from which the minimal offline layout will be generated, separated by commas. <br> <ul><li>Microsoft.VisualStudio.Product.Enterprise</li><li>Microsoft.VisualStudio.Product.Professional</li><li>Microsoft.VisualStudio.Product.BuildTools</li><li>Microsoft.VisualStudio.Product.TestAgent</li><li>Microsoft.VisualStudio.Product.TestController</li><li>Microsoft.VisualStudio.Product.TeamExplorer</li></ul> | Required                        | --productIds Microsoft.VisualStudio.Product.Enterprise,Microsoft.VisualStudio.Product.Professional                                                               |
-| --filePath                                          | The file path of the MinimalLayout.json file from an already created layout. This option is only used with the Regenerate command.                                                                                                                                                                                                                                                                                                          | Required for Regenerate command | --filePath C:\VSLayout\minimalLayout.json <br><br> **Note that the Regenerate command only takes --filePath as an option.**                                      |
-| --add &lt;one or more workload or component IDs&gt; | Specifies one or more workload or component IDs to add. Additional components can be added globally using --includeRecommended and/or <br> –-includeOptional. Multiple workloads or component IDs can be specified, separated by a space.                                                                                                                                                                                                   | Optional                        | --add Microsoft.VisualStudio.Workload.ManagedDesktop Microsoft.VisualStudio.Workload.NetWeb Component.GitHub.VisualStudio                                        |
-| --includeRecommended                                | Includes the recommended components for any workloads that are installed, but not the optional components.                                                                                                                                                                                                                                                                                                                                  | Optional                        | For a  specific workload: <br> --add Microsoft.VisualStudio.Workload. ManagedDesktop;includeRecommended <br><br> To apply to all workloads: --includeRecommended |
-| --includeOptional                                   | Includes the optional components for any workloads that are installed, including the recommended components.                                                                                                                                                                                                                                                                                                                                | Optional                        | For a specific workload: <br>--add Microsoft.VisualStudio.Workload. ManagedDesktop;includeOptional <br><br> To apply to all workloads: --includeOptional         |
-
-::: moniker-end
-
 ### Generating a minimal layout
 
 > [!IMPORTANT]
@@ -106,8 +82,6 @@ Create a minimal layout using the **generate** command for your specified range 
 Before creating the layout, you can find out the total size of the download and the number of packages included by using the **preview** command. This command takes the same options as the **generate** command, and the details are written to the console.
 
 Let's walk through a few examples of how to preview, generate, and regenerate a minimal layout:
-
-::: moniker range=">=vs-2019"
 
 * First, here's an example of how to preview a layout for Visual Studio Enterprise versions 16.4.0 to 16.4.4 for English only.
 
@@ -124,7 +98,7 @@ Let's walk through a few examples of how to preview, generate, and regenerate a 
 * And here's how to regenerate a minimal offline layout using an existing response file.
 
   ```shell
-  MinimalLayout.exe regenerate -filepath c:\VSLayout\MinimalLayout.json
+  MinimalLayout.exe regenerate --filepath c:\VSLayout\MinimalLayout.json
   ```
 
 A few other examples using the **generate** command:
@@ -146,50 +120,6 @@ A few other examples using the **generate** command:
   ```shell
   MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 16.4.0 --targetVersion 16.4.4 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeOptional --languages en-US fr-FR
   ```
-
-::: moniker-end
-
-::: moniker range="vs-2017"
-
-* First, here's an example of how to preview a layout for Visual Studio Enterprise versions 15.0.0 to 15.9.31 for English only.
-
-  ```shell
-  MinimalLayout.exe preview --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 15.0.0 --targetVersion 15.9.31 --languages en-US
-  ```
-
-* Here's how to generate that same layout with one workload.
-
-  ```shell
-  MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 15.0.0 --targetVersion 15.9.31 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeOptional --languages en-US
-  ```
-
-* And here's how to regenerate a minimal offline layout using an existing response file.
-
-  ```shell
-  MinimalLayout.exe regenerate -filepath c:\VSLayout\MinimalLayout.json
-  ```
-
-A few other examples using the **generate** command:
-
-* Here's how to add an additional workload, and include only the recommended packages.
-
-  ```shell
-  MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Professional --baseVersion 15.0.0 --targetVersion 15.9.31 --add Microsoft.VisualStudio.Workload.ManagedDesktop Microsoft.VisualStudio.Workload.NetWeb;includeRecommended --languages en-US
-  ```
-
-* You can also generate a minimal offline layout which supports multiple products.
-
-  ```shell
-  MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise,Microsoft.VisualStudio.Product.Professional --baseVersion 15.0.0 --targetVersion 15.9.31 --languages en-US
-  ```
-
-* And finally, here's how you'd include multiple languages in your minimal layout.
-
-  ```shell
-  MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 15.0.0 --targetVersion 15.9.31 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeOptional --languages en-US fr-FR
-  ```
-
-::: moniker-end
 
 ### How to maintain a minimal layout
 
@@ -224,28 +154,6 @@ Navigate to the folder and identify the bootstrapper application name. The name 
 | Microsoft.VisualStudio.Product.BuildTools   | vs_buildtools.exe   |
 
 The update is applied to a Visual Studio instance in two steps. Start by updating the Visual Studio Installer, then update Visual Studio.
-
-::: moniker range="vs-2017"
-
-1. **Update the Visual Studio Installer**
-
-    Run the following command, substituting `vs_enterprise.exe`  with the correct bootstrapper application name if necessary.
-
-    ```shell
-    vs_enterprise.exe --quiet --update --offline C:\VSLayout\vs_installer.opc
-    ```
-
-2. **Update the Visual Studio application**
-
-    To update Visual Studio, you need to specify the installPath of the Visual Studio instance you wish to update. If multiple instances of Visual Studio are installed, each one needs to be updated separately. We strongly recommend you specify the `–noWeb` option with the update command to prevent the installation of components that aren't in the minimal layout. This prevents you from leaving Visual Studio in an unusable state.
-
-    Run the following command, substituting the installPath command-line parameter appropriately. Be sure to use the correct bootstrapper application name as well.
-
-    ```shell
-    vs_enterprise.exe update --noWeb --quiet --installpath "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise"
-    ```
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -293,7 +201,7 @@ The update is applied to a Visual Studio instance in two steps. Start by updatin
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## Related content
 
 * [Install Visual Studio](install-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
@@ -301,4 +209,4 @@ The update is applied to a Visual Studio instance in two steps. Start by updatin
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
 * [How to define settings in a response file](automated-installation-with-response-file.md)
 * [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
-* [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
+* [Visual Studio product lifecycle and servicing](/visualstudio/productinfo/vs-servicing)

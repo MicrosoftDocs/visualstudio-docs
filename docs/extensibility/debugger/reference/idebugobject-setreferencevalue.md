@@ -1,39 +1,39 @@
 ---
 description: "Sets the reference value of this object."
-title: IDebugObject::SetReferenceValue | Microsoft Docs
+title: IDebugObject::SetReferenceValue
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugObject::SetReferenceValue
 helpviewer_keywords:
 - IDebugObject::SetReferenceValue method
-ms.assetid: 08c78a4e-98eb-41cb-8b75-02a6a43d49f7
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugObject::SetReferenceValue
+
 Sets the reference value of this object.
 
 ## Syntax
 
-```cpp
-HRESULT SetReferenceValue( 
-   IDebugObject* pObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetReferenceValue(
    [In] IDebugObject pObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetReferenceValue( 
+   IDebugObject* pObject
+);
+```
+---
 
 ## Parameters
 `pObject`\

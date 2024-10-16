@@ -1,19 +1,17 @@
 ---
 title: Model your app&apos;s architecture
 description: Learn how you can create models in Visual Studio as part of your description of the overall structure and behavior of your software system or application.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - UML, modeling architecture
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Model your app&#39;s architecture
+
 To help ensure that your software system or application meets your users' needs, you can create models in Visual Studio as part of your description of the overall structure and behavior of your software system or application. Using models, you can also describe patterns that are used throughout the design. These models help you understand the existing architecture, discuss changes, and communicate your intentions clearly.
 
  To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
@@ -99,7 +97,7 @@ To help ensure that your software system or application meets your users' needs,
 
 - Description of variations that developers might be able to adopt.
 
-## See also
+## Related content
 
 - [Visualize code](../modeling/visualize-code.md)
 - [Model user requirements](../modeling/model-user-requirements.md)

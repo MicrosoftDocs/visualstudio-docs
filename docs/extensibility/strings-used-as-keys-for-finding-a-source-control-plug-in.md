@@ -1,20 +1,17 @@
 ---
 title: Strings used as keys to find a source control plug-in
 description: Learn about the strings that are the keys for accessing the registry to find information about the Source Control plug-in.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - source control plug-ins, strings used for finding
-ms.assetid: c1e31f76-42a1-4c3d-afb2-664044ef12fd
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Strings Used as Keys for Finding a Source Control Plug-in
+
 The following strings are the keys for accessing the registry to find information about the source control plug-in.
 
  `STR_SCC_PROVIDER_REG_LOCATION`, `STR_PROVIDERREGKEY`, `STR_SCCPROVIDERPATH`, and `STR_SCCPROVIDERNAME` are registry keys or values used to register a DLL as a source control plug-in for Visual Studio.
@@ -37,7 +34,7 @@ The following strings are the keys for accessing the registry to find informatio
 |`SCC_KEY`|SCC|
 |`SCC_FILE_SIGNATURE`|A source code control file|
 |`SCC_NSE`|Namespace extension|
-|`SCC_NSE_PREFIX`|Protocal Prefix|
+|`SCC_NSE_PREFIX`|Protocol Prefix|
 |`SCC_NSE_DisableOpenSCC`|DisableOpenFromSourceControl|
 |`STR_SCCHELPCOLLECTION`|HelpCollection|
 |`STR_UI_LANGUAGE`|UILanguage|

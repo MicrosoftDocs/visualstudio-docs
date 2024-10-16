@@ -1,19 +1,17 @@
 ---
 title: Properties of a DSL Definition
 description: Learn that the DslDefinition properties define domain-specific language definition properties such as version numbering.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
   - "Domain-Specific Language, definition file"
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Properties of a DSL Definition
+
 DslDefinition properties define *domain-specific language* definition properties such as version numbering. The DslDefinition properties appear in the **Properties** window when you click an open area of the diagram in the *Domain-Specific Language Designer*.
 
  For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).

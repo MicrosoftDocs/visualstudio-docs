@@ -1,39 +1,39 @@
 ---
 description: "Sets the name of the thread."
-title: IDebugThread2::SetThreadName | Microsoft Docs
+title: IDebugThread2::SetThreadName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugThread2::SetThreadName
 helpviewer_keywords:
 - IDebugThread2::SetThreadName
-ms.assetid: fa934121-3f58-44dc-9c30-d3f752e44c8b
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugThread2::SetThreadName
+
 Sets the name of the thread.
 
 ## Syntax
 
-```cpp
-HRESULT SetThreadName ( 
-   LPCOLESTR pszName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetThreadName ( 
    string pszName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetThreadName ( 
+   LPCOLESTR pszName
+);
+```
+---
 
 ## Parameters
 `pszName`\

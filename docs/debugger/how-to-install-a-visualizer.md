@@ -1,7 +1,6 @@
 ---
-title: Install a Visualizer | Microsoft Docs
-description: Understand how to install a visualizer so that it will be available for debugging use in Visual Studio.
-ms.custom: SEO-VS-2020
+title: Install a Visualizer for use in debugging
+description: Install a newly created visualizer to make it available to use for debugging your projects and solution in Visual Studio.
 ms.date: 07/02/2021
 ms.topic: how-to
 dev_langs:
@@ -13,21 +12,21 @@ dev_langs:
 helpviewer_keywords:
   - debugger, visualizers
   - visualizers, installing
-ms.assetid: 3310ef43-515c-4d97-b0f9-51047247d3da
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - multiple
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
-# How to: Install a Visualizer
-After you have created a visualizer, you must install the visualizer so that it will be available in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Installing a visualizer is a simple process.
+# Install a Visualizer
+
+> [!IMPORTANT]
+> Starting with Visual Studio 2022 version 17.9, visualizers can now be written in .NET 6.0+ that run out-of-process using the new VisualStudio.Extensibility model. We encourage visualizer authors to reference the new documentation at [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md) unless they want to support older versions of Visual Studio or want to ship their custom visualizers as part of a library DLL.
+
+After you have created a visualizer, you must install the visualizer so that it will be available in Visual Studio. Installing a visualizer is a simple process.
 
 > [!NOTE]
 > In UWP apps, only the standard text, HTML, XML, and JSON visualizers are supported. Custom (user-created) visualizers are not supported.
 
-::: moniker range=">=vs-2019"
 ### To install a visualizer for Visual Studio 2019
 
 1. Locate the DLL that contains the visualizer you built.
@@ -37,13 +36,13 @@ After you have created a visualizer, you must install the visualizer so that it 
    >[!NOTE]
    > The debugger-side visualizer is loaded in the Visual Studio process, so it must be a .NET Framework DLL. The debuggee-side can be either .NET Framework or .NET Standard depending on what process is getting debugged in Visual Studio.
 
-2. Copy the [debugger side](create-custom-visualizers-of-data.md#to-create-the-debugger-side) DLL (and any DLLs it depends on) to either of the following locations:
+2. Copy the [debugger side](create-custom-visualizers-of-data.md#create-the-debugger-side-user-interface) DLL (and any DLLs it depends on) to either of the following locations:
 
     - *VisualStudioInstallPath* `\Common7\Packages\Debugger\Visualizers`
 
     - `My Documents\` *VisualStudioVersion* `\Visualizers`
 
-3. Copy the [debuggee side](create-custom-visualizers-of-data.md#to-create-the-visualizer-object-source-for-the-debuggee-side) DLL to either of the following locations:
+3. Copy the [debuggee side](create-custom-visualizers-of-data.md#create-the-visualizer-object-source-for-the-debuggee-side) DLL to either of the following locations:
 
     - *VisualStudioInstallPath* `\Common7\Packages\Debugger\Visualizers\` *Framework*
 
@@ -62,28 +61,7 @@ After you have created a visualizer, you must install the visualizer so that it 
 
 > [!NOTE]
 > The procedure is different in Visual Studio 2017 and older. See the [previous version](how-to-install-a-visualizer.md?view=vs-2017&preserve-view=true) of this article.
-::: moniker-end
 
-::: moniker range="vs-2017"
-### To install a visualizer for Visual Studio 2017 and older
-
-> [!IMPORTANT]
-> Only .NET Framework visualizers are supported in Visual Studio 2017 and older.
-
-1. Locate the DLL that contains the visualizer you have built.
-
-2. Copy the DLL to either of the following locations:
-
-    - *VisualStudioInstallPath* `\Common7\Packages\Debugger\Visualizers`
-
-    - `My Documents\` *VisualStudioVersion* `\Visualizers`
-
-3. Restart the debugging session.
-
-> [!NOTE]
-> If you want to use a managed visualizer for remote debugging, copy the DLL to the same path on the remote computer.
-::: moniker-end
-
-## See also
+## Related content
 - [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)
 - [How to: Write a Visualizer](create-custom-visualizers-of-data.md)

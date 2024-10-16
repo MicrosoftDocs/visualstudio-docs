@@ -1,133 +1,79 @@
 ---
-title: Format Python code
-description: Visual Studio can automatically reformat Python code including spacing, statements, wrapping, and comments.
-ms.date: 03/13/2019
+title: Reformat your python code in Visual Studio
+description: Automatically format your Python code in Visual Studio, including the code spacing, statements, long line wrapping, and code comments.
+author: cwebster-99
+ms.author: cowebster
+ms.subservice: python
 ms.topic: conceptual
-author: JoshuaPartlow
-ms.author: joshuapa
-manager: jmartens
-ms.technology: vs-python
-ms.custom: seodec18
-ms.workload:
-  - python
-  - data-science
+ms.date: 04/18/2024
+manager: mijacobs
+
+# CustomerIntent: As a developer, I want to reformat Python code in Visual Studio so I can adjust settings like code spacing and line wrapping.
 ---
 
-# Format Python code
+# Automatically reformat Python code in Visual Studio
 
-Visual Studio lets you quickly reformat code to match pre-configured formatting options.
+Visual Studio lets you quickly reformat code to match specific formatter standards. In this article, you explore how to access and enable formatting features.
 
-- To format a selection: select **Edit** > **Advanced** > **Format Selection** or press **Ctrl**+**E** > **F**.
-- To format the whole file: select **Edit** > **Advanced** > **Format Document** or press **Ctrl**+**E** > **D**.
+## Choose a formatter
 
-Options are set through **Tools** > **Options** > **Text Editor** > **Python** > **Formatting** and its nested tabs. You need to select **Show all settings** for these options to appear:
+You can set your source code formatter through **Tools** > **Options** > **Text Editor** > **Python** > **Formatting**. Python Tools in Visual Studio support source code formatting with autopep8, Black formatter, and yapf.
 
-![Python formatting options in Visual Studio](media/options-editor-formatting.png)
+:::image type="content" source="media/options-editor-formatting.png" alt-text="Screenshot of the Python formatting options in Visual Studio and the Black formatter option selected." lightbox="media/options-editor-formatting.png":::
 
-Formatting options by default are set to match a superset of the [PEP 8 style guide](https://www.python.org/dev/peps/pep-0008/). The **General** tab determines when formatting is applied; settings for the other three tabs are described in this article.
+[Python support in Visual Studio](installing-python-support-in-visual-studio.md) also adds the **Fill Comment Paragraph** command to the **Edit** > **Advanced** menu as described in a later section.
 
-[Python support in Visual Studio](installing-python-support-in-visual-studio.md) also adds the useful [**Fill Comment Paragraph**](#fill-comment-paragraph-command) command to the **Edit** > **Advanced** menu as described in a later section.
+## Apply format to selection or file
 
-## Spacing
+You can apply formatting settings to all content in a file or only to a specific selection.
 
-**Spacing** controls where spaces are inserted or removed around various language constructs. Each option has three possible values:
+To format a selection, select **Edit** > **Advanced** > **Format Selection**.
 
-- Checked: ensures the spacing is applied.
-- Cleared: removes any spacing.
-- Indeterminate: leaves original formatting in place.
+To format the whole file, select **Edit** > **Advanced** > **Format Document**.
 
-Examples for the various options are provided in the following tables:
+## Word wrap
 
-| Class definitions option | Checked | Cleared |
-| --- | --- | --- |
-| **Insert space between a class declaration's name and bases list** | `class X (object): pass` | `class X(object): pass` |
-| **Insert space within bases list parentheses** | `class X( object ): pass` | `class X(object): pass` |
-| **Insert space within empty bases list parentheses** | `class X( ): pass` | `class X(): pass` |
+You can enable word wrapping in **Tools** > **Options** > **Text Editor** > **Python** > **General**. In the **Settings** section, select the **Word wrap** checkbox.
 
-<br/>
+:::image type="content" source="media/word-wrap-setting.png" alt-text="Screenshot that shows how to enable word wrapping for Python in Visual Studio." lightbox="media/word-wrap-setting.png":::
 
-| Function definitions option | Checked | Cleared |
-| --- | --- | --- |
-| **Insert space between a function declaration's name and parameter list** | `def X (): pass` | `def X(): pass` |
-| **Insert space within parameter list parentheses** | `def X( a, b ): pass` | `def X(a, b): pass` |
-| **Insert space within empty parameter list parentheses** | `def X( ): pass` | `def X(): pass` |
-| **Insert spaces around '=' in default parameter values** | `includes X(a = 42): pass` | `includes X(a=42): pass` |
-| **Insert space before and after return annotation operators** | `includes X() -> 42: pass` | `includes X()->42: pass` |
+## Format comment text
 
-<br/>
+The **Edit** > **Advanced** > **Fill Comment Paragraph** option reflows and formats comment text. 
 
-| Operators option | Checked | Cleared |
-| --- | --- | --- |
-| **Insert spaces around binary operators** | `a + b` | `a+b` |
-| **Insert spaces around assignments** | `a = b` | `a=b` |
+### Reformat long lines
 
-<br/>
-
-| Expression spacing option | Checked | Cleared |
-| --- | --- | --- |
-| **Insert space between a function call's name and argument list** | `X ()` | `X()` |
-| **Insert space within empty argument list parentheses** | `X( )` | `X()` |
-| **Insert space within argument list parentheses** | `X( a, b )` | `X(a, b)` |
-| **Insert space within parentheses of expression** | `( a )` | `(a)` |
-| **Insert space within empty tuple parentheses** | `( )` | `()` |
-| **Insert space within tuple parentheses** | `( a, b )` | `(a, b)` |
-| **Insert space within empty square brackets** | `[ ]` | `[]` |
-| **Insert spaces within square brackets of lists** | `[ a, b ]` | `[a, b]` |
-| **Insert space before open square bracket** | `x [i]` | `x[i]` |
-| **Insert space within square brackets** | `x[ i ]` | `x[i]` |
-
-<br/>
-
-## Statements
-
-The **Statements** options control automatic rewriting of various statements into more Pythonic forms.
-
-| Option | Before formatting | After formatting |
-| --- | --- | --- |
-| **Place imported modules on new line** | `import sys, pickle` | `import sys`<br/>`import pickle` |
-| **Remove unnecessary semicolons** | `x = 42;` | `x = 42` |
-| **Place multiple statements on new lines** | `x = 42; y = 100` | `x = 42`<br/>`y = 100` |
-
-## Wrapping
-
-**Wrapping** lets you set the **Maximum comment width** (default is 80). If the **Wrap comments that are too wide** option is set, Visual Studio reformats comments to not exceed that maximum width.
-
-```python
-# Wrapped to 40 columns
-# There should be one-- and preferably
-# only one --obvious way to do it.
-```
-
-```python
-# Not-wrapped:
-# There should be one-- and preferably only one --obvious way to do it.
-```
-
-## Fill Comment Paragraph command
-
-**Edit** > **Advanced** > **Fill Comment Paragraph** (**Ctrl**+**E** > **P**) reflows and formats comment text, combining short lines together and breaking up long ones.
-
-For example:
-
-```python
-# foo
-# bar
-# baz
-```
-
-changes to:
-
-```python
-# foo bar baz
-```
+Use the feature to break up long lines of text, as shown in this example:
 
 ```python
 # This is a very long long long long long long long long long long long long long long long long long long long comment
 ```
 
-changes to:
+The text is reformatted as multiple lines:
 
 ```python
 # This is a very long long long long long long long long long long long long
 # long long long long long long long comment
 ```
+
+### Combine short lines
+
+Use the feature to combine short lines of text, as shown in this example:
+
+```python
+# Short line of text
+# more text
+# text
+```
+
+The text is reformatted into a single line:
+
+```python
+# Short line of text more text text
+```
+
+## Related content
+
+- [Edit Python code](editing-python-code-in-visual-studio.md)
+- [Refactor Python code](refactoring-python-code.md)
+- [Lint Python code](linting-python-code.md)

@@ -1,7 +1,6 @@
 ---
-title: Debug On a High-Performance Cluster | Microsoft Docs
+title: Debug On a High-Performance Cluster
 description: Learn what is peculiar to debugging a multiprocessing program on a high-performance cluster. Two windows are especially useful, and there are special techniques.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -12,19 +11,16 @@ dev_langs:
 helpviewer_keywords: 
   - cluster debugging
   - high-performance debugging
-ms.assetid: a2f0eb07-840e-4f95-a1b1-9509217e5b8f
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
-# How to: Debug On a High-Performance Cluster (C#, Visual Basic, C++)
+# Debug On a High-Performance Cluster (C#, Visual Basic, C++)
 
 Debugging a multiprocessing program on a high-performance cluster is like debugging an ordinary program on a remote computer. However, there are some additional considerations. For general remote setup requirements, see [Remote Debugging](../debugger/remote-debugging.md).
 
- When you debug on a high-performance cluster, you can use all the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugging windows and techniques that are available for remote debugging. Because you are debugging remotely, however, the external console window is not available.
+ When you debug on a high-performance cluster, you can use all the Visual Studio debugging windows and techniques that are available for remote debugging. Because you are debugging remotely, however, the external console window is not available.
 
  The **Threads** window and **Processes** window are especially useful for debugging parallel applications. For tips on how to use these windows, see [How to: Use the Processes Window](/previous-versions/visualstudio/visual-studio-2010/7h8h5sdw(v=vs.100)) and [Walkthrough: Debug using the Threads Window](../debugger/how-to-use-the-threads-window.md).
 
@@ -93,7 +89,7 @@ Debugging a multiprocessing program on a high-performance cluster is like debugg
 
 `(MachineName = marvin) & (ThreadName = fourier1)`
 
-## See also
+## Related content
 - [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
 - [Remote Debugging](../debugger/remote-debugging.md)
 - [How to: Use the Processes Window](/previous-versions/visualstudio/visual-studio-2010/7h8h5sdw(v=vs.100))

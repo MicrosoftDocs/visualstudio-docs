@@ -1,21 +1,18 @@
 ---
-title: Call Stack Evaluation | Microsoft Docs
+title: Call Stack Evaluation
 description: Learn about the EnumFrameInfo method and how to implement it to view the stack frames of the call stack during break mode.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], call stack evaluation
 - call stacks, evaluation
-ms.assetid: 373d6b49-0459-4cce-816e-05745a44fe49
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Call stack evaluation
+
 In order to view the stack frames of the call stack during break mode, you must implement the [EnumFrameInfo](../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md) method.
 
 ## Methods for evaluation

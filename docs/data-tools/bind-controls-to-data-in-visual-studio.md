@@ -1,7 +1,6 @@
 ---
-title: Bind controls to data
-description: Bind controls to data in Visual Studio. Create data-bound controls by dragging items from the Data Sources window.
-ms.custom: SEO-VS-2020
+title: Bind controls to .NET Framework app data (ADO.NET)
+description: Bind controls to data in .NET Framework applications with ADO.NET in Visual Studio, and use the Data Sources window to create data-bound controls.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -9,15 +8,15 @@ helpviewer_keywords:
 - data sources, displaying data
 - Data Sources window
 - displaying data
-ms.assetid: be8b6623-86a6-493e-ab7a-050de4661fd6
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
-# Bind controls to data in Visual Studio
+
+# Bind controls to data in .NET Framework applications using Visual Studio
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 You can display data to users of your application by binding data to controls. You can create these data-bound controls by dragging items from the **Data Sources** window onto a design surface or controls on a surface in Visual Studio.
 
@@ -32,7 +31,7 @@ In the context of data binding, a data source represents the data in memory that
 | Dataset | Yes | Yes | No |
 | Entity Data Model | Yes<sup>1</sup> | Yes | Yes |
 | LINQ to SQL classes | No<sup>2</sup> | No<sup>2</sup> | No<sup>2</sup> |
-| Services (including [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)], WCF services, and web services) | Yes | Yes | Yes |
+| Services (including WCF Data Services, WCF services, and web services) | Yes | Yes | Yes |
 | Object | Yes | Yes | Yes |
 | SharePoint | Yes | Yes | Yes |
 
@@ -63,7 +62,7 @@ The following table lists some of the most common tasks you perform to bind cont
 |Filter data that appears in the UI.|[Filter and sort data in a Windows Forms application](../data-tools/filter-and-sort-data-in-a-windows-forms-application.md)|
 |Customize captions for controls.|[Customize how Visual Studio creates captions for data-bound controls](../data-tools/customize-how-visual-studio-creates-captions-for-data-bound-controls.md)|
 
-## See also
+## Related content
 
 - [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)
 - [Windows Forms data binding](/dotnet/framework/winforms/windows-forms-data-binding)

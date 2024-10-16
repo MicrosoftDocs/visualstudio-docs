@@ -1,19 +1,17 @@
 ---
 description: "Represents a symbol provider that has direct access to metadata and core symbol interfaces."
-title: IDebugSymbolProviderDirect | Microsoft Docs
+title: IDebugSymbolProviderDirect
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugSymbolProviderDirect interface
-ms.assetid: 872b04a8-70de-4ab5-aceb-684c81828545
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugSymbolProviderDirect
+
 Represents a symbol provider that has direct access to metadata and core symbol interfaces.
 
 ## Syntax

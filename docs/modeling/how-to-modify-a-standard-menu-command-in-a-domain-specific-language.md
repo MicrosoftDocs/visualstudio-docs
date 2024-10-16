@@ -1,7 +1,6 @@
 ---
 title: "Modify standard menu command in DSL"
 description: Learn how you can modify the behavior of some of the standard commands that are defined automatically in your DSL.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -9,12 +8,10 @@ helpviewer_keywords:
   - "Domain-Specific Language, adding custom commands"
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: modeling
 ---
-# How to: Modify a Standard Menu Command in a Domain-Specific Language
+# Modify a Standard Menu Command in a Domain-Specific Language
 
 You can modify the behavior of some of the standard commands that are defined automatically in your DSL. For example, you could modify **Cut** so that it excludes sensitive information. To do this, you override methods in a command set class. These classes are defined in the CommandSet.cs file, in the DslPackage project, and are derived from <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet>.
 
@@ -140,7 +137,7 @@ The following fragments are frequently useful within these methods:
 
 For more information about how to navigate from element to element and about how to create objects and links, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).
 
-## See also
+## Related content
 
 - <xref:System.ComponentModel.Design.MenuCommand>
 - [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)

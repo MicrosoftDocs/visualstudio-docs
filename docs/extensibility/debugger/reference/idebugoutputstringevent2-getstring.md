@@ -1,39 +1,39 @@
 ---
 description: "Gets the displayable message."
-title: IDebugOutputStringEvent2::GetString | Microsoft Docs
+title: IDebugOutputStringEvent2::GetString
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugOutputStringEvent2::GetString
 helpviewer_keywords:
 - IDebugOutputStringEvent2::GetString
-ms.assetid: f059f8e0-ad44-49ac-ba90-73576ada5e06
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugOutputStringEvent2::GetString
+
 Gets the displayable message.
 
 ## Syntax
 
-```cpp
-HRESULT GetString( 
-   BSTR* pbstrString
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetString( 
    out string pbstrString
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetString( 
+   BSTR* pbstrString
+);
+```
+---
 
 ## Parameters
 `pbstrString`\

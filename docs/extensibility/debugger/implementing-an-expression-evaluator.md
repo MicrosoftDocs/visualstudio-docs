@@ -1,21 +1,18 @@
 ---
-title: Implementing an Expression Evaluator | Microsoft Docs
+title: Implementing an Expression Evaluator
 description: Learn about evaluating an expression, which involves the debug engine, the symbol provider, the binder object, and the expression evaluator.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - expression evaluators
 - debugging [Debugging SDK], expression evaluators
-ms.assetid: e9ada7be-845e-4baa-bf8f-e4890e7ba490
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Implement an expression evaluator
+
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
@@ -56,8 +53,8 @@ ms.workload:
   The EE consumes all of these interfaces.
 
 ## In this section
- [Expression evaluator implementation strategy](../../extensibility/debugger/expression-evaluator-implementation-strategy.md)
- Defines a three-step process for the expression evaluator (EE) implementation strategy.
 
-## See also
+[Expression evaluator implementation strategy](../../extensibility/debugger/expression-evaluator-implementation-strategy.md) defines a three-step process for the expression evaluator (EE) implementation strategy.
+
+## Related content
 - [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)

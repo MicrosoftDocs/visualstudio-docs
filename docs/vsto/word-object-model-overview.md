@@ -1,7 +1,6 @@
 ---
 title: "Word object model overview"
-description: The Word object model consists of classes and interfaces that are provided in the primary interop assembly for Word and are defined in the Word namespace.
-ms.custom: SEO-VS-2020
+description: Explore the Word object model that consists of classes and interfaces provided in the primary interop assembly for Word and are defined in the Word namespace.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -16,12 +15,11 @@ helpviewer_keywords:
   - "Office object models"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Word object model overview
+
   When you develop Word solutions in Visual Studio, you interact with the Word object model. This object model consists of classes and interfaces that are provided in the primary interop assembly for Word, and are defined in the <xref:Microsoft.Office.Interop.Word> namespace.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
@@ -73,8 +71,12 @@ ms.workload:
 
  When you create a document-level project, you can access <xref:Microsoft.Office.Tools.Word.Document> members by using the generated `ThisDocument` class in your project. You can access members of the <xref:Microsoft.Office.Tools.Word.Document> host item by using the **Me** or **this** keywords from code in the `ThisDocument` class, or by using `Globals.ThisDocument` from code outside the `ThisDocument` class. For more information, see [Program document-level customizations](../vsto/programming-document-level-customizations.md). For example, to select the first paragraph in the document, use the following code.
 
- :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet120":::
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs" id="Snippet120":::
+
+ ### [VB](#tab/vb)
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet120":::
+ ---
 
  In VSTO Add-in projects, you can generate <xref:Microsoft.Office.Tools.Word.Document> host items at run time. You can use the generated host item to add controls to the associated document. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
 
@@ -125,7 +127,7 @@ ms.workload:
 
  All of the objects and members in the VBA object model reference correspond to types and members in the Word PIA. For example, the Document object in the VBA object model reference corresponds to the <xref:Microsoft.Office.Interop.Word.Document> object in the Word PIA. Although the VBA object model reference provides code examples for most properties, methods, and events, you must translate the VBA code in this reference to Visual Basic or Visual C# if you want to use them in a Word project that you create by using Visual Studio.
 
-## See also
+## Related content
 - [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)
 - [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
 - [Work with documents](../vsto/working-with-documents.md)

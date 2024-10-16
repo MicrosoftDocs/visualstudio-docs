@@ -1,40 +1,27 @@
 ---
 description: "This method evaluates the parsed expression and optionally casts the result to another data type."
-title: IDebugParsedExpression::EvaluateSync | Microsoft Docs
+title: IDebugParsedExpression::EvaluateSync
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugParsedExpression::EvaluateSync
 helpviewer_keywords:
 - IDebugParsedExpression::EvaluateSync method
-ms.assetid: 0ea04cfa-de87-4b6c-897e-4572c1a28942
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugParsedExpression::EvaluateSync
+
 This method evaluates the parsed expression and optionally casts the result to another data type.
 
 ## Syntax
 
-```cpp
-HRESULT EvaluateSync( 
-   DWORD                 dwEvalFlags,
-   DWORD                 dwTimeout,
-   IDebugSymbolProvider* pSymbolProvider,
-   IDebugAddress*        pAddress,
-   IDebugBinder*         pBinder,
-   BSTR                  bstrResultType,
-   IDebugProperty2**     ppResult
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EvaluateSync(
    uint                 dwEvalFlags,
@@ -46,6 +33,19 @@ int EvaluateSync(
    out IDebugProperty2  ppResult
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EvaluateSync( 
+   DWORD                 dwEvalFlags,
+   DWORD                 dwTimeout,
+   IDebugSymbolProvider* pSymbolProvider,
+   IDebugAddress*        pAddress,
+   IDebugBinder*         pBinder,
+   BSTR                  bstrResultType,
+   IDebugProperty2**     ppResult
+);
+```
+---
 
 ## Parameters
 `dwEvalFlags`\

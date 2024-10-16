@@ -1,7 +1,6 @@
 ---
-title: "Product and Package Schema Reference | Microsoft Docs"
+title: "Product and Package Schema Reference"
 description: Learn about the product file, an XML manifest that describes the external dependencies required by a ClickOnce application.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -21,16 +20,14 @@ helpviewer_keywords:
   - "product files [Windows Installer]"
   - "package files [ClickOnce]"
   - "Windows Installer, bootstrapper elements"
-ms.assetid: 5a74878f-b896-4cca-b968-98d00fe78fb0
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: deployment
 ---
 # Product and package schema reference
-A *product file* is an XML manifest that describes all of the external dependencies required by a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. Examples of external dependencies include the .NET Framework and the Microsoft Data Access Components (MDAC). A package file is similar to a product file but is used to install the culture-dependent components of a dependency, such as localized assemblies, license agreements, and documentation.
+
+A *product file* is an XML manifest that describes all of the external dependencies required by a ClickOnce application. Examples of external dependencies include the .NET Framework and the Microsoft Data Access Components (MDAC). A package file is similar to a product file but is used to install the culture-dependent components of a dependency, such as localized assemblies, license agreements, and documentation.
 
  The product and packages file consists of either a top-level `Product` or `Package` element, each of which contains the following elements.
 
@@ -154,6 +151,6 @@ A *product file* is an XML manifest that describes all of the external dependenc
 </Product>
 ```
 
-## See also
+## Related content
 - [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
 - [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

@@ -1,38 +1,39 @@
 ---
-description: "Performs stack unwinding and returns results in a stack walk frame interface."
-title: "IDiaFrameData::execute | Microsoft Docs"
+description: Performs stack unwinding and returns results in a stack walk frame interface.
+title: "IDiaFrameData::execute"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaFrameData::execute method"
-ms.assetid: 7a6c7d03-1ff1-4059-bd54-5f407eeebc26
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaFrameData::execute
+
 Performs stack unwinding and returns results in a stack walk frame interface.
 
 ## Syntax
 
-```C++
-HRESULT execute ( 
+```c++
+HRESULT execute ( 
    IDiaStackWalkFrame* frame
 );
 ```
 
 #### Parameters
+
  `frame`
 
 [in] An [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md) object that holds the state of frame registers.
 
 ## Return Value
- If successful, returns `S_OK`; otherwise, returns an error code. The following table shows the possible return values for this method.
+
+If successful, returns `S_OK`; otherwise, returns an error code. The following table shows the possible return values for this method.
 
 |Value|Description|
 |-----------|-----------------|
@@ -42,8 +43,10 @@ HRESULT execute ( 
 |E_DIA_VALUE|Error in computation of a value (for example, division by zero).|
 
 ## Remarks
- This method is called during debugging to unwind the stack. The [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md) object is implemented by the client application to receive updates to the registers and to provide methods used by the `execute` method.
+
+This method is called during debugging to unwind the stack. The [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md) object is implemented by the client application to receive updates to the registers and to provide methods used by the `execute` method.
 
 ## See also
+
 - [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
 - [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md)

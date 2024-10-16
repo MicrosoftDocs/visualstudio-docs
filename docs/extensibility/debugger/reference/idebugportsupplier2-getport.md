@@ -1,41 +1,41 @@
 ---
 description: "Gets a port from a port supplier."
-title: IDebugPortSupplier2::GetPort | Microsoft Docs
+title: IDebugPortSupplier2::GetPort
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortSupplier2::GetPort
 helpviewer_keywords:
 - IDebugPortSupplier2::GetPort
-ms.assetid: d55d5055-7386-4037-bf22-4c3e434a99ca
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPortSupplier2::GetPort
+
 Gets a port from a port supplier.
 
 ## Syntax
 
-```cpp
-HRESULT GetPort( 
-   REFGUID       guidPort,
-   IDebugPort2** ppPort
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPort( 
    ref Guid        guidPort,
    out IDebugPort2 ppPort
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPort( 
+   REFGUID       guidPort,
+   IDebugPort2** ppPort
+);
+```
+---
 
 ## Parameters
 `guidPort`\

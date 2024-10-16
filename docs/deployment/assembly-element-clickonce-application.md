@@ -1,7 +1,6 @@
 ---
-title: "&lt;assembly&gt; Element (ClickOnce Application) | Microsoft Docs"
+title: "&lt;assembly&gt; Element (ClickOnce Application)"
 description: The assembly element is the root element and is required in ClickOnce Application. Its first contained element must be an assemblyIdentity element.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -12,15 +11,13 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<assembly> element [ClickOnce application manifest]"
-ms.assetid: 51410569-10f9-4c0a-96b5-d39185edbefc
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: deployment
 ---
 # &lt;assembly&gt; Element (ClickOnce Application)
+
 The top-level element for the application manifest.
 
 ## Syntax
@@ -50,7 +47,7 @@ The top-level element for the application manifest.
 |`manifestVersion`|Required. The `manifestVersion` attribute must be set to `1.0`.|
 
 ## Example
- The following code example illustrates an `assembly` element in an application manifest for a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. This code example is part of a larger example provided in [ClickOnce application manifest](../deployment/clickonce-application-manifest.md).
+ The following code example illustrates an `assembly` element in an application manifest for a ClickOnce application. This code example is part of a larger example provided in [ClickOnce application manifest](../deployment/clickonce-application-manifest.md).
 
 ```xml
 <asmv1:assembly

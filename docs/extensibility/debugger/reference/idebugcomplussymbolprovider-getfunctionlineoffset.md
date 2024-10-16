@@ -1,35 +1,26 @@
 ---
 description: "Retrieves the address within a function that represents the given line offset."
-title: IDebugComPlusSymbolProvider::GetFunctionLineOffset | Microsoft Docs
+title: IDebugComPlusSymbolProvider::GetFunctionLineOffset
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider::GetFunctionLineOffset
 - GetFunctionLineOffset
-ms.assetid: 51460f5a-4e98-427a-8315-27246e24fb61
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetFunctionLineOffset
+
 Retrieves the address within a function that represents the given line offset.
 
 ## Syntax
 
-```cpp
-HRESULT GetFunctionLineOffset(
-    IDebugAddress*  pAddress,
-    DWORD           dwLine,
-    IDebugAddress** ppNewAddress
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetFunctionLineOffset(
     IDebugAddress     pAddress,
@@ -37,6 +28,15 @@ int GetFunctionLineOffset(
     out IDebugAddress ppNewAddress
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetFunctionLineOffset(
+    IDebugAddress*  pAddress,
+    DWORD           dwLine,
+    IDebugAddress** ppNewAddress
+);
+```
+---
 
 ## Parameters
 `pAddress`\

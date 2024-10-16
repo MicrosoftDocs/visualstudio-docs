@@ -5,6 +5,6 @@ groups:
   prompt: Choose your development environment
   pivots:
     - id: windows
-      title: Visual Studio 2019
+      title: Visual Studio
     - id: macos
       title: Visual Studio for Mac

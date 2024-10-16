@@ -1,7 +1,6 @@
 ---
-title: "Debugging Web Applications | Microsoft Docs"
+title: "Debugging Web Applications"
 description: Find links to help you debug different types of web applications, such as ASP.NET apps, JavaScript and TypeScript apps, or AJAX script apps.
-ms.custom: SEO-VS-2020
 ms.date: "11/05/2019"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -9,13 +8,10 @@ helpviewer_keywords:
   - "ASP.NET debugging, Web services"
   - "debugging [ASP.NET], about debugging ASP.NET Web applications"
   - "ASP.NET Web pages, debugging"
-ms.assetid: a096a90d-6d0d-4752-9fb5-417635ccab3e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Debugging Web Applications
 
@@ -23,7 +19,7 @@ This article provides links to help you debug different types of web application
 
 - Debug ASP.NET applications
 
-  For steps that are required to enable debugging of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications, see [Debug ASP.NET applications](how-to-enable-debugging-for-aspnet-applications.md).
+  For steps that are required to enable debugging of ASP.NET applications, see [Debug ASP.NET applications](how-to-enable-debugging-for-aspnet-applications.md).
 
 - Debug client-side script in ASP.NET
 
@@ -41,7 +37,7 @@ This article provides links to help you debug different types of web application
 
   AJAX-enabled Web applications make heavy use of script code and pose special debugging challenges. For information about AJAX debugging techniques, see [Debugging and Tracing Ajax Applications Overview](/previous-versions/bb398817(v=vs.140)).
 
-## See also
+## Related content
 
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

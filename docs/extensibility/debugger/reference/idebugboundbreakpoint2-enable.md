@@ -1,6 +1,6 @@
 ---
 description: "Enables or disables the breakpoint."
-title: IDebugBoundBreakpoint2::Enable | Microsoft Docs
+title: IDebugBoundBreakpoint2::Enable
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,33 +8,33 @@ f1_keywords:
 helpviewer_keywords:
 - Enable method
 - IDebugBoundBreakpoint2::Enable method
-ms.assetid: 1b4e3f73-c94d-4aa3-9aa8-0d8cb8a6c5ca
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugBoundBreakpoint2::Enable
+
 Enables or disables the breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT Enable(
-    BOOL fEnable
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Enable( 
     int fEnable
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Enable(
+    BOOL fEnable
+);
+```
+---
 
 ## Parameters
 `fEnable`\

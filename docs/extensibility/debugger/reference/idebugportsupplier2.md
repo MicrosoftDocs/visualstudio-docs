@@ -1,21 +1,19 @@
 ---
 description: "This interface supplies ports to the session debug manager (SDM)."
-title: IDebugPortSupplier2 | Microsoft Docs
+title: IDebugPortSupplier2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortSupplier2
 helpviewer_keywords:
 - IDebugPortSupplier2 interface
-ms.assetid: 37067324-2ea6-4a01-8829-a6e9c7a70068
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugPortSupplier2
+
 This interface supplies ports to the session debug manager (SDM).
 
 ## Syntax
@@ -45,11 +43,11 @@ IDebugPortSupplier2 *GetPortSupplier(GUID *pPortSupplierGuid)
 }
 ```
 
-A call to [GetPortSupplier](../../../extensibility/debugger/reference/idebugcoreserver2-getportsupplier.md) returns this interface, representing the current port supplier being used by [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)].
+A call to [GetPortSupplier](../../../extensibility/debugger/reference/idebugcoreserver2-getportsupplier.md) returns this interface, representing the current port supplier being used by Visual Studio.
 
 - [GetPortSupplier](../../../extensibility/debugger/reference/idebugport2-getportsupplier.md) returns this interface, representing the port supplier that created the port.
 
-- [IEnumDebugPortSuppliers2](../../../extensibility/debugger/reference/ienumdebugportsuppliers2.md) represents a list of `IDebugPortSupplier` interfaces (the `IEnumDebugPortSuppliers` interface is obtained from [EnumPortSuppliers](../../../extensibility/debugger/reference/idebugcoreserver2-enumportsuppliers.md), representing all of the port suppliers registered with [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)]).
+- [IEnumDebugPortSuppliers2](../../../extensibility/debugger/reference/ienumdebugportsuppliers2.md) represents a list of `IDebugPortSupplier` interfaces (the `IEnumDebugPortSuppliers` interface is obtained from [EnumPortSuppliers](../../../extensibility/debugger/reference/idebugcoreserver2-enumportsuppliers.md), representing all of the port suppliers registered with Visual Studio).
 
 A debug engine typically does not interact with a port supplier.
 

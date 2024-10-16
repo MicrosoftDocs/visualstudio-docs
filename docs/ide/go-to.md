@@ -1,24 +1,27 @@
 ---
 title: Go to file, go to symbol, go to line
-description: Learn about Go To commands in Visual Studio and how you can use them to to perform focused searches of your code.
-ms.custom: SEO-VS-2020
-ms.date: 08/14/2018
+description: Explore Go To commands in Visual Studio and discover how you can use them to to perform focused and filtered searches of your code.
+ms.date: 05/17/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - code editor, go to
 - code editor, go to line
 - go to line
 - go to
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Find code using Go To commands
 
 Visual Studio's **Go To** commands perform a focused search of your code to help you quickly find specified items. You can go to a specific line, type, symbol, file, and member from a simple, unified interface.
+
+:::moniker range=">=vs-2022"
+
+In Visual Studio 2022, a new search experience replaces much of the functionality described here. For example, **Go to type** or **Ctrl**+**T** goes (by default) to the new search experience in Visual Studio 2022, rather than opening the **Go to type** window. The new search experience is documented at [Visual Studio search](visual-studio-search.md).
+
+:::moniker-end
 
 ## How to use it
 
@@ -71,7 +74,7 @@ Icon | Description
 
 If you use [camel casing](https://en.wikipedia.org/wiki/Camel_case) in your code, you can find code elements faster by entering only the capital letters of the code element name. For example, if your code has a type called `CredentialViewModel`, you can narrow down the search by choosing the **Type** filter (**t**) and then entering just the capital letters of the name (`CVM`) in the Go To dialog box. This feature can be helpful if your code has long names.
 
-![Navigate To window - searching with capitals](../ide/media/vside_capitalsearch.png)
+![Navigate To window - searching with uppercase letters](../ide/media/vside_uppercasesearch.png)
 
 ## Settings
 
@@ -83,7 +86,7 @@ Use preview tab | Display the selected item immediately in the IDE's preview tab
 Show details | Display project, file, line, and summary information from documentation comments in the window
 Center window | Move this window to the top-center of the code editor, instead of the top-right
 
-## See also
+## Related content
 
 - [Navigate code](../ide/navigating-code.md)
 - [Go To Line dialog box](../ide/reference/go-to-line.md)

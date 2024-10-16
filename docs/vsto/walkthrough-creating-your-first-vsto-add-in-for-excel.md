@@ -1,7 +1,6 @@
 ---
-title: "Walkthrough: Create your first VSTO Add-in for Excel"
-description: Create an application-level Add-in for Microsoft Excel. The features that you create are available to the application itself, regardless of which workbooks are open.
-ms.custom: SEO-VS-2020
+title: "Create Visual Studio Tools for Office Add-ins: Microsoft Excel"
+description: Create a VSTO add-in for the Microsoft Office Excel with features that are available to the application itself, regardless of which Excel workbooks are open.
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "Excel [Office development in Visual Studio], creating your first project"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Walkthrough: Create your first VSTO Add-in for Excel
+
   This introductory walkthrough shows you how to create an application-level Add-in for Microsoft Office Excel. The features that you create in this kind of solution are available to the application itself, regardless of which workbooks are open.
 
  [!INCLUDE[appliesto_xlallapp](../vsto/includes/appliesto-xlallapp-md.md)]
@@ -43,13 +41,13 @@ ms.workload:
 
 - [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
-- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
+-  Excel 2013  or  Excel 2010 .
 
 ## Create the project
 
 #### To create a new Excel VSTO Add-in project in Visual Studio
 
-1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start Visual Studio.
 
 2. On the **File** menu, point to **New**, and then click **Project**.
 
@@ -63,7 +61,7 @@ ms.workload:
 
 7. Click **OK**.
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstExcelAddIn** project and opens the ThisAddIn code file in the editor.
+     Visual Studio creates the **FirstExcelAddIn** project and opens the ThisAddIn code file in the editor.
 
 ## Write code to add text to the saved workbook
  Next, add code to the ThisAddIn code file. The new code uses the object model of Excel to insert boilerplate text in the first row of the active worksheet. The active worksheet is the worksheet that is open when the user saves the workbook. By default, the ThisAddIn code file contains the following generated code:
@@ -78,8 +76,12 @@ ms.workload:
 
     When the user saves a workbook, the event handler adds new text at the start of the active worksheet.
 
-    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_ExcelAddInTutorial/ThisAddIn.vb" id="Snippet1":::
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_ExcelAddInTutorial/ThisAddIn.cs" id="Snippet1":::
+
+    ### [VB](#tab/vb)
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_ExcelAddInTutorial/ThisAddIn.vb" id="Snippet1":::
+    ---
 
 2. If you are using C#, add the following required code to the `ThisAddIn_Startup` event handler. This code is used to connect the `Application_WorkbookBeforeSave` event handler with the <xref:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookBeforeSave> event.
 
@@ -129,7 +131,7 @@ ms.workload:
 
 - Deploying VSTO Add-ins for Excel: [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
-## See also
+## Related content
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)
 - [Excel solutions](../vsto/excel-solutions.md)
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)

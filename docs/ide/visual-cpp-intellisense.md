@@ -1,14 +1,11 @@
 ---
-title: C++ IntelliSense
-description: Learn about some IntelliSense features that you can use while coding your C++ project.
-ms.custom: SEO-VS-2020
+title: Explore IntelliSense features for coding C++ projects
+description: Explore some IntelliSense features that you can use while coding your C++ project, such as statement completion, help with parameters, and error indicators.
 ms.date: 10/08/2018
 ms.topic: conceptual
-author: TerryGLee
-ms.author: tglee
+author: tylermsft
+ms.author: twhitney
 manager: markl
-ms.workload:
-- cplusplus
 ---
 # Visual C++ IntelliSense features
 
@@ -29,8 +26,6 @@ You can use the menu items and keyboard shortcuts shown in the following image t
 ## Statement completion and member list
 
 When you start typing a keyword, type, function, variable name, or other program element that the compiler recognizes, the editor offers to complete the word for you.
-
-For a list of the icons and their meanings, see [Class View and Object Browser icons](../ide/class-view-and-object-browser-icons.md).
 
 ![Visual C&#43;&#43; Complete Word window](../ide/media/vs2015_cpp_complete_word.png)
 
@@ -100,7 +95,7 @@ Since different people have different ideas about what is convenient, virtually 
 
 ![Tool Options dialog box](../ide/media/sintellisensecpptoolsoptions.PNG)
 
-## See also
+## Related content
 
 - [Using IntelliSense](../ide/using-intellisense.md)
 - [Configure a C++ project for IntelliSense](visual-cpp-intellisense-configuration.md)

@@ -1,28 +1,37 @@
 ---
 description: "Specifies the position from which to start seeking in a disassembly stream."
-title: SEEK_START | Microsoft Docs
+title: SEEK_START
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SEEK_START
 helpviewer_keywords:
 - SEEK_START enumeration
-ms.assetid: 55bd8901-626e-428b-a263-23b14417f4c6
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # SEEK_START
+
 Specifies the position from which to start seeking in a disassembly stream.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_SEEK_START { 
+   SEEK_START_BEGIN       = 0x0001,
+   SEEK_START_END         = 0x0002,
+   SEEK_START_CURRENT     = 0x0003,
+   SEEK_START_CODECONTEXT = 0x0004,
+   SEEK_START_CODELOCID   = 0x0005
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_SEEK_START { 
    SEEK_START_BEGIN       = 0x0001,
@@ -33,16 +42,7 @@ enum enum_SEEK_START { 
 };
 typedef DWORD SEEK_START;
 ```
-
-```csharp
-public enum enum_SEEK_START { 
-   SEEK_START_BEGIN       = 0x0001,
-   SEEK_START_END         = 0x0002,
-   SEEK_START_CURRENT     = 0x0003,
-   SEEK_START_CODECONTEXT = 0x0004,
-   SEEK_START_CODELOCID   = 0x0005
-};
-```
+---
 
 ## Fields
  `SEEK_START_BEGIN`\

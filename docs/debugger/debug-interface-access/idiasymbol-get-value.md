@@ -1,21 +1,19 @@
 ---
 description: "Retrieves the value of a constant."
-title: "IDiaSymbol::get_value | Microsoft Docs"
+title: "IDiaSymbol::get_value"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_value method"
-ms.assetid: 2e40174a-2a61-4e5f-bb32-9e0ceec2178a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_value
+
 Retrieves the value of a constant.
 
 ## Syntax

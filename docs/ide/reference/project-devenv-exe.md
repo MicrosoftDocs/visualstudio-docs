@@ -1,7 +1,6 @@
 ---
 title: -Project (devenv.exe)
 description: Learn how to use the Project devenv command-line switch to identify a single project within the specified solution configuration to build, clean, rebuild, or deploy the project.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
@@ -12,13 +11,10 @@ helpviewer_keywords:
 - Project Devenv switch (/Project)
 - Devenv, /Project switch
 - projects [Visual Studio], cleaning
-ms.assetid: 8b07859c-3439-436d-9b9a-a8ee744eee30
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # /Project (devenv.exe)
 

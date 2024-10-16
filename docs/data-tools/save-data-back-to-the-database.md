@@ -1,8 +1,7 @@
 ---
-title: Save data back to the database
-description: Use DataSet tools to save data back to the database. The dataset is an in-memory copy of data that should be saved back to the database if it's modified.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+title: Save data back to database in .NET Framework apps
+description: Save data back to a database with ADO.NET DataSet tools in Visual Studio and get changed records, transmit updates, or commit changes.
+ms.date: 11/01/2023
 ms.topic: how-to
 helpviewer_keywords:
 - datasets [Visual Basic], validating data
@@ -16,15 +15,15 @@ helpviewer_keywords:
 - saving data, about saving data
 - datasets [Visual Basic], constraints
 - TableAdapters
-ms.assetid: afe6cb8a-dc6a-428b-b07b-903ac02c890b
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
-# Save data back to the database
+
+# Save data back to the database in .NET Framework applications
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 The dataset is an in-memory copy of data. If you modify that data, it's a good practice to save those changes back to the database. You do this in one of three ways:
 
@@ -91,7 +90,7 @@ Calling the <xref:System.Data.DataSet.Merge%2A> method with `preserveChanges = t
 
 ## Update constraints
 
-To make changes to an existing data row, add or update data in the individual columns. If the dataset contains constraints (such as foreign keys or non-nullable constraints), it's possible that the record can temporarily be in an error state as you update it. That is, it can be in an error state after you finish updating one column but before you get to the next one.
+To make changes to an existing data row, add, or update data in the individual columns. If the dataset contains constraints (such as foreign keys or non-nullable constraints), it's possible that the record can temporarily be in an error state as you update it. That is, it can be in an error state after you finish updating one column but before you get to the next one.
 
 To prevent premature constraint violations you can temporarily suspend update constraints. This serves two purposes:
 
@@ -104,7 +103,7 @@ To prevent premature constraint violations you can temporarily suspend update co
 
 Constraints are automatically disabled when the <xref:System.Data.DataSet.Merge%2A> method is invoked on a dataset. When the merge is complete, if there are any constraints on the dataset that cannot be enabled, a <xref:System.Data.ConstraintException> is thrown. In this situation, the <xref:System.Data.DataSet.EnforceConstraints%2A> property is set to `false,` and all constraint violations must be resolved before resetting the <xref:System.Data.DataSet.EnforceConstraints%2A> property to `true`.
 
-After you complete an update, you can re-enable constraint checking, which also re-enables update events and raises them.
+After you complete an update, you can reenable constraint checking, which also reenables update events and raises them.
 
 For more information about suspending events, see [Turn off constraints while filling a dataset](../data-tools/turn-off-constraints-while-filling-a-dataset.md).
 
@@ -145,13 +144,13 @@ The following table details the possible values of the <xref:System.Data.DataRow
 
 The original and current versions are useful when update information is transmitted to a data source. Typically, when an update is sent to the data source, the new information for the database is in the current version of a record. Information from the original version is used to locate the record to update.
 
-For example, in a case where the primary key of a record is changed, you need a way to locate the correct record in the data source in order to update the changes. If no original version existed, then the record would most likely be appended to the data source, resulting not only in an extra unwanted record, but in one record that is inaccurate and out of date. The two versions are also used in concurrency control. You can compare the original version against a record in the data source to determine if the record has changed since it was loaded into the dataset.
+For example, in a case where the primary key of a record is changed, you need a way to locate the correct record in the data source in order to update the changes. If no original version existed, then the record would most likely be appended to the data source, resulting not only in an extra unwanted record, but in one record that is inaccurate and out of date. The two versions are also used in concurrency control. You can compare the original version against a record in the data source to determine whether the record has changed since it was loaded into the dataset.
 
 The proposed version is useful when you need to perform validation before actually committing the changes to the dataset.
 
 Even if records have changed, there are not always original or current versions of that row. When you insert a new row into the table, there is no original version, only a current version. Similarly, if you delete a row by calling the table's `Delete` method, there is an original version, but no current version.
 
-You can test to see if a specific version of a record exists by querying a data row's <xref:System.Data.DataRow.HasVersion%2A> method. You can access either version of a record by passing a <xref:System.Data.DataRowVersion> enumeration value as an optional argument when you request the value of a column.
+You can test to see whether a specific version of a record exists by querying a data row's <xref:System.Data.DataRow.HasVersion%2A> method. You can access either version of a record by passing a <xref:System.Data.DataRowVersion> enumeration value as an optional argument when you request the value of a column.
 
 ## Get changed records
 
@@ -247,29 +246,29 @@ Your application now calls the `Update` method to transmit the dataset to the da
 
 For the second row, however, the `Update` method automatically invokes the correct data command and transmits it to the database. The specific syntax of the SQL statement depends on the dialect of SQL that's supported by the underlying data store. But, the following general traits of the transmitted SQL statement are noteworthy:
 
-- The transmitted SQL statement is an UPDATE statement. The adapter knows to use an UPDATE statement because the value of the <xref:System.Data.DataRow.RowState%2A> property is <xref:System.Data.DataRowState.Modified>.
+- The transmitted SQL statement is an `UPDATE` statement. The adapter knows to use an `UPDATE` statement because the value of the <xref:System.Data.DataRow.RowState%2A> property is <xref:System.Data.DataRowState.Modified>.
 
-- The transmitted SQL statement includes a WHERE clause indicating that the target of the UPDATE statement is the row where `CustomerID = 'c400'`. This part of the SELECT statement distinguishes the target row from all others because the `CustomerID` is the primary key of the target table. The information for the WHERE clause is derived from the original version of the record (`DataRowVersion.Original`), in case the values that are required to identify the row have changed.
+- The transmitted SQL statement includes a `WHERE` clause indicating that the target of the `UPDATE` statement is the row where `CustomerID = 'c400'`. This part of the `SELECT` statement distinguishes the target row from all others because the `CustomerID` is the primary key of the target table. The information for the `WHERE` clause is derived from the original version of the record (`DataRowVersion.Original`), in case the values that are required to identify the row have changed.
 
-- The transmitted SQL statement includes the SET clause, to set the new values of the modified columns.
+- The transmitted SQL statement includes the `SET` clause, to set the new values of the modified columns.
 
    > [!NOTE]
    > If the TableAdapter's `UpdateCommand` property has been set to the name of a stored procedure, the adapter does not construct an SQL statement. Instead, it invokes the stored procedure with the appropriate parameters passed in.
 
 ## Pass parameters
 
-You usually use parameters to pass the values for records that are going to be updated in the database. When the TableAdapter's `Update` method runs an UPDATE statement, it needs to fill in the parameter values. It gets these values from the `Parameters` collection for the appropriate data command — in this case, the `UpdateCommand` object in the TableAdapter.
+You usually use parameters to pass the values for records that are going to be updated in the database. When the TableAdapter's `Update` method runs an `UPDATE` statement, it needs to fill in the parameter values. It gets these values from the `Parameters` collection for the appropriate data command — in this case, the `UpdateCommand` object in the TableAdapter.
 
 If you've used the Visual Studio tools to generate a data adapter, the `UpdateCommand` object contains a collection of parameters that correspond to each parameter placeholder in the statement.
 
 The <xref:System.Data.SqlClient.SqlParameter.SourceColumn%2A?displayProperty=fullName> property of each parameter points to a column in the data table. For example, the `SourceColumn` property for the `au_id` and `Original_au_id` parameters is set to whatever column in the data table contains the author id. When the adapter's `Update` method runs, it reads the author id column from the record that's being updated and fills the values into the statement.
 
-In an UPDATE statement, you need to specify both the new values (those that will be written to the record) as well as the old values (so that the record can be located in the database). There are, therefore, two parameters for each value: one for the SET clause and a different one for the WHERE clause. Both parameters read data from the record that's being updated, but they get different versions of the column value based on the parameter's <xref:System.Data.SqlClient.SqlParameter.SourceVersion> property. The parameter for the SET clause gets the current version, and the parameter for the WHERE clause gets the original version.
+In an `UPDATE` statement, you need to specify both the new values (those that will be written to the record) as well as the old values (so that the record can be located in the database). There are, therefore, two parameters for each value: one for the `SET` clause and a different one for the `WHERE` clause. Both parameters read data from the record that's being updated, but they get different versions of the column value based on the parameter's <xref:System.Data.SqlClient.SqlParameter.SourceVersion> property. The parameter for the `SET` clause gets the current version, and the parameter for the `WHERE` clause gets the original version.
 
 > [!NOTE]
 > You can also set values in the `Parameters` collection yourself in code, which you would typically do in an event handler for the data adapter's <xref:System.Data.DataTable.RowChanging> event.
 
-## See also
+## Related content
 
 - [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)
 - [Create and configure TableAdapters](create-and-configure-tableadapters.md)

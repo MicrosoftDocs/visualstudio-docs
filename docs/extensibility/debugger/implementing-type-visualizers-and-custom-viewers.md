@@ -1,21 +1,18 @@
 ---
-title: Implementing Type Visualizers and Custom Viewers | Microsoft Docs
+title: Implementing Type Visualizers and Custom Viewers
 description: Learn about implementing type visualizers and custom viewers, which let a user view data in a way that is more meaningful than a dump of numbers.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], custom viewer
 - debugging [Debugging SDK], type visualizer
-ms.assetid: abef18c0-8272-4451-b82a-b4624edaba7d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Implement type visualizers and custom viewers
+
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
@@ -52,7 +49,7 @@ ms.workload:
 
 - [IDebugBinder3](../../extensibility/debugger/reference/idebugbinder3.md)
 
-## See also
+## Related content
 - [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
 - [Visualizing and viewing data](../../extensibility/debugger/visualizing-and-viewing-data.md)
 - [IDebugCustomViewer](../../extensibility/debugger/reference/idebugcustomviewer.md)

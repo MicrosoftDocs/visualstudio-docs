@@ -1,8 +1,7 @@
 ---
 title: Specify files to publish (ClickOnce)
 description: Learn how to exclude files, mark files as data files or prerequisites, and create groups for conditional installation for a ClickOnce application.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 05/02/2024
 ms.topic: how-to
 f1_keywords: 
   - Microsoft.VisualStudio.Publish.BaseProvider.Dialog.File
@@ -13,24 +12,22 @@ dev_langs:
 helpviewer_keywords: 
   - ClickOnce deployment, file exclusion
   - files, publishing via ClickOnce
-ms.assetid: 579c134a-d50f-4e0c-8e05-2a4ff654896a
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
+manager: mijacobs
+ms.subservice: deployment
 ---
-# How to: Specify which files are published by ClickOnce
-When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, all non-code files in the project are deployed along with the application. In some cases, you may not want or need to publish certain files, or you may want to install certain files based on conditions. Visual Studio provides the capabilities to exclude files, mark files as data files or prerequisites, and create groups of files for conditional installation.
+# Specify which files are published by ClickOnce
 
- Files for a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application are managed in the **Application Files** dialog box, accessible from the **Publish** page of the **Project Designer**.
+When publishing a ClickOnce application, all required files in the project are deployed along with the application. The default set of required files is determined by the project type (for example, a Windows Forms app). In some cases, you may not want or need to publish certain files, or you may want to install certain files based on conditions. Visual Studio provides the capabilities to include files, exclude files, mark files as data files or prerequisites, and create groups of files for conditional installation.
 
- Initially, there is a single file group named **(Required)**. You can create additional file groups and assign files to them. You cannot change the **Download Group** for files that are required for the application to run. For example, the application's .exe or files marked as data files must belong to the **(Required)** group.
+Files for a ClickOnce application are managed in the **Application Files** dialog box, accessible from the **Publish** page of the **Project Designer**.
 
- The default publish status value of a file is tagged with **(Auto)**. For example, the application's .exe has a publish status of **Include (Auto)** by default.
+Initially, there is a single file group named **(Required)**. You can create additional file groups and assign files to them. You cannot change the **Download Group** for files that are required for the application to run. For example, the application's *.exe* or files marked as data files must belong to the **(Required)** group.
 
- Files with the **Build Action** property set to **Content** are designated as application files and will be marked as included by default. They can be included, excluded, or marked as data files. The exceptions are as follows:
+The default publish status value of a file is tagged with **(Auto)**. For example, the application's *.exe* has a publish status of **Include (Auto)** by default.
+
+Files with the **Build Action** property set to **Content** are designated as application files and will be marked as included by default. They can be included, excluded, or marked as data files. The exceptions are as follows:
 
 - Data files such as SQL Database (*.mdf* and *.mdb*) files and XML files will be marked as data files by default.
 
@@ -47,6 +44,8 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
 2. Click the **Publish** tab.
+
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 3. Click the **Application Files** button to open the **Application Files** dialog box.
 
@@ -110,6 +109,6 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
     > [!NOTE]
     > You cannot change the **Download Group** for files that are required for the application to run.
 
-## See also
+## Related content
 - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
 - [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

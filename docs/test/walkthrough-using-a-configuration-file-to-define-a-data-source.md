@@ -1,8 +1,7 @@
 ---
 title: Use config file to define data source
 description: Learn how to use a data source defined in an app.config file for unit testing, starting with creating an app.config file that defines a data source.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 03/18/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - configuration files [Visual Studio ALM], defining data sources
@@ -10,10 +9,8 @@ helpviewer_keywords:
 - data sources, defining with configuration files
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-test
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: test-tools
 ---
 # Walkthrough: Using a configuration file to define a data source
 
@@ -28,6 +25,9 @@ This walkthrough illustrates how to use a data source defined in an *app.config*
 - Defining the data sources.
 
 - Accessing the data sources using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> class.
+
+>[!NOTE]
+> DataSourceAttribute is currently supported only on .NET Framework.
 
 ## Prerequisites
 
@@ -45,7 +45,7 @@ To complete this walkthrough, you need:
 
 2. Right-click your test project in **Solution Explorer**, and then select **Add** > **New Item**.
 
-     The **Add New Item** window opens.
+     The **Add New Item** window opens. If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
 
 3. Select the **Application Configuration File** template and click **Add**.
 
@@ -73,6 +73,9 @@ The **section** element should look similar to this:
 ## Define connection strings
 
 The connection strings define provider-specific information for accessing data sources. Connection strings defined in configuration files provide reusable data provider information across an application. In this section, you create two connection strings that will be used by data sources that are defined in the Custom Configuration Section.
+
+> [!CAUTION]
+> The connection string can contain sensitive data (for example, a password). The connection string is stored in plain text in source code and in the compiled assembly. Restrict access to the source code and assembly to protect this sensitive information.
 
 ### To define connection strings
 
@@ -264,7 +267,7 @@ Now that an *app.config* file has been defined, you will create a unit test that
 > [!IMPORTANT]
 > Deploy items like data sources so that they are accessible to the test in the deployment directory.
 
-## See also
+## Related content
 
 - [Unit test your code](../test/unit-test-your-code.md)
 - [How To: Create a data-driven unit test](../test/how-to-create-a-data-driven-unit-test.md)

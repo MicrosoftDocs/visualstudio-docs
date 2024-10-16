@@ -1,37 +1,37 @@
 ---
 description: "Retrieves a reference to the interface of the debug process."
-title: IDebugCodeContext3::GetProcess | Microsoft Docs
+title: IDebugCodeContext3::GetProcess
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugCodeContext3::GetProcess
-ms.assetid: e082e494-2255-4d9d-a5a9-6dadd904bea8
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCodeContext3::GetProcess
+
 Retrieves a reference to the interface of the debug process.
 
 ## Syntax
 
-```cpp
-HRESULT GetProcess(
-    IDebugProcess2 **ppProcess
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int GetProcess(
     out IDebugProcess2 ppProcess
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProcess(
+    IDebugProcess2 **ppProcess
+);
+```
+---
 
 ## Parameters
 `ppProcess`\

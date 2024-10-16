@@ -1,7 +1,6 @@
 ---
 title: Browse and rearrange code maps
 description: Learn how you can rearrange items on code maps to make them easier to read and improve their performance.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -21,10 +20,8 @@ helpviewer_keywords:
 - dependency graphs, browsing
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Browse and rearrange code maps
 
@@ -323,7 +320,7 @@ You can merge maps by copying and pasting code elements between maps. If the cod
 
 Alternatively, you can drag those assemblies or binaries to the same map from that folder.
 
-## See also
+## Related content
 
 - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
 - [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)

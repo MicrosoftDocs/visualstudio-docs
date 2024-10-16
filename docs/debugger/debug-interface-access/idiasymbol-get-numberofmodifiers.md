@@ -1,19 +1,17 @@
 ---
 description: "Retrieves the number of modifiers that are applied to the original type."
-title: "IDiaSymbol::get_numberOfModifiers | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "IDiaSymbol::get_numberOfModifiers"
+ms.date: "07/22/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: 61ff7431-1994-4f7e-a182-1817f16f60a9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
-# IDiaSymbol::get_numberOfModifiers
+# `IDiaSymbol::get_numberOfModifiers`
+
 Retrieves the number of modifiers that are applied to the original type.
 
 ## Syntax
@@ -32,4 +30,6 @@ HRESULT get_numberOfModifiers(
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 ## See also
-- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+
+- [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md)
+- [`IDiaSymbol::get_modifierValues`](../../debugger/debug-interface-access/idiasymbol-get-modifiervalues.md)

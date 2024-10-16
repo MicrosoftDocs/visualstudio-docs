@@ -4,14 +4,14 @@ title: Organize and edit code in Visual Studio
 summary: Learn about working with code projects, using code editor features, and maintaining consistent code style.
 
 metadata:
-  title: Code editor features
-  description: Learn about code editing features in Visual Studio.
-  ms.prod: visual-studio-windows
-  ms.technology: vs-ide-general
+  title: Organize and edit code with the Code editor
+  description: Explore how to work with code projects in Visual Studio, including code editor features and maintaining consistent code style.
+  
+  ms.subservice: general-ide
   ms.topic: landing-page
-  author: terryglee
-  ms.author: tglee
-  ms.date: 10/15/2019
+  author: anandmeg
+  ms.author: meghaanand
+  ms.date: 10/15/2024
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -24,8 +24,8 @@ landingContent:
     linkLists:
       - linkListType: tutorial
         links:
-          - text: Create a new project
-            url: create-new-project.md
+          - text: Work with solutions and projects
+            url: creating-solutions-and-projects.md
           - text: Open a project from a repo
             url: ../get-started/tutorial-open-project-from-repo.md
       - linkListType: how-to-guide
@@ -46,27 +46,45 @@ landingContent:
             url: navigating-code.md
           - text: Generate and fix code
             url: code-generation-in-visual-studio.md
-          - text: Use IntelliSense for code completion
-            url: using-intellisense.md
           - text: Manage code style preferences
             url: code-styles-and-code-cleanup.md
+          - text: Manage project and solution properties
+            url: managing-project-and-solution-properties.md
           - text: Code analysis
             url: ../code-quality/roslyn-analyzers-overview.md
+
+  # Card
+  - title: AI-assisted development
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: AI assistance tools
+            url: ai-assisted-development-visual-studio.md
+          - text: Install and manage GitHub Copilot
+            url: visual-studio-github-copilot-install-and-states.md
+          - text: GitHub Copilot Completions
+            url: visual-studio-github-copilot-extension.md
+          - text: GitHub Copilot Chat
+            url: visual-studio-github-copilot-chat.md
           - text: IntelliCode
-            url: /visualstudio/intellicode/intellicode-visual-studio
+            url: intellicode-visual-studio.md
+          - text: Use IntelliSense for code completion
+            url: using-intellisense.md
 
   # Card
   - title: Get started with programming languages
     linkLists:
       - linkListType: tutorial
         links:
-          - text: Get started with C# and ASP.NET Core in Visual Studio
+          - text: Get started with C# and ASP.NET Core
             url: ../get-started/csharp/tutorial-aspnet-core.md
-          - text: Create a C++ console app in Visual Studio
+          - text: Create a console app with C++
             url: /cpp/get-started/tutorial-console-cpp
-          - text: Get started with Python in Visual Studio
+          - text: Get started with Python
             url: quickstart-python.md
+          - text: Create a console app with C#
+            url: ../get-started/csharp/tutorial-console.md
           - text: Create a console app with Visual Basic
-            url: quickstart-visual-basic-console.md
-          - text: Create a web app with Node.js
-            url: quickstart-nodejs.md
+            url: ../get-started/visual-basic/tutorial-console.md
+          - text: Create a Node.js and Express app
+            url: ../javascript/tutorial-nodejs.md

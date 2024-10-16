@@ -1,8 +1,7 @@
 ---
-title: Create and configure TableAdapters
-description: Review how to create and configure a TableAdapter in Visual Studio. TableAdapters provide communication between your application and a database.
-ms.custom: SEO-VS-2020
-ms.date: 09/01/2017
+title: Configure new TableAdapters in .NET Framework apps
+description: Create and configure a ADO.NET TableAdapter in .NET Framework applications with Visual Studio and enable communication between your app and a database.
+ms.date: 12/15/2023
 ms.topic: how-to
 helpviewer_keywords:
 - table adapters, creating
@@ -10,15 +9,15 @@ helpviewer_keywords:
 - data [Visual Studio], creating data components
 - data [Visual Studio], TableAdapters
 - data [Visual Studio], creating table adapters
-ms.assetid: 08630d69-0d6c-4e8f-b42d-2922f45f8415
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
-# Create and configure TableAdapters
+
+# Create and configure TableAdapters in .NET Framework applications
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 TableAdapters provide communication between your application and a database. They connect to the database, run queries or stored procedures, and either return a new data table or fill an existing <xref:System.Data.DataTable> with the returned data. TableAdapters can also send updated data from your application back to the database.
 
@@ -40,36 +39,36 @@ For an introduction to TableAdapters, see [Fill datasets by using TableAdapters]
 
 Run the **TableAdapter Configuration Wizard** to create or edit TableAdapters and their associated DataTables. You can configure an existing TableAdapter by right-clicking on it in the **Dataset Designer**.
 
-![raddata Table Adapter Configuration Wizard](../data-tools/media/raddata-table-adapter-configuration-wizard.png)
+![Screenshot showing the Table Adapter Configuration Wizard.](../data-tools/media/table-adapter-configuration-wizard.png)
 
-If you drag a new TableAdapter from the Toolbox when the **Dataset Designer** is in focus, the wizard starts and prompts you to specify which data source the TableAdapter should connect to. On the next page, the wizard asks what kind of commands it should use to communicate with the database, either SQL statements or stored procedures. (You won't see this if you are configuring a TableAdapter that is already associated with a data source.)
+If you drag a new TableAdapter from the Toolbox when the **Dataset Designer** is in focus, the wizard starts and prompts you to specify which data source the TableAdapter should connect to. On the next page, the wizard asks what kind of commands it should use to communicate with the database, either SQL statements or stored procedures. (You don't see this screen if you're configuring a TableAdapter that is already associated with a data source.)
 
-- You have the option to create a new stored procedure in the underlying database if you have the correct permissions for the database. If you don't have these permissions, this won't be an option.
+- You have the option to create a new stored procedure in the underlying database if you have the correct permissions for the database. If you don't have these permissions, this option isn't available.
 
-- You can also  choose to run existing stored procedures for the **SELECT**, **INSERT**, **UPDATE**, and **DELETE** commands of the TableAdapter. The stored procedure that's assigned to the **Update** command, for example, is run when the `TableAdapter.Update()` method is called.
+- You can also choose to run existing stored procedures for the **SELECT**, **INSERT**, **UPDATE**, and **DELETE** commands of the TableAdapter. The stored procedure that's assigned to the **Update** command, for example, is run when the `TableAdapter.Update()` method is called.
 
 Map parameters from the selected stored procedure to the corresponding columns in the data table. For example, if your stored procedure accepts a parameter named `@CompanyName` that it passes to the `CompanyName` column in the table, set the **Source Column** of the `@CompanyName` parameter to `CompanyName`.
 
 > [!NOTE]
-> The stored procedure that's assigned to the SELECT command is run by calling the method of the TableAdapter that you name in the next step of the wizard. The default method is `Fill`, so the code that's typically used to run the SELECT procedure is `TableAdapter.Fill(tableName)`. If you change the default name from `Fill`, substitute `Fill` with the name you assign, and replace "TableAdapter" with the actual name of the TableAdapter (for example, `CustomersTableAdapter`).
+> The stored procedure that's assigned to the `SELECT` command is run by calling the method of the TableAdapter that you name in the next step of the wizard. The default method is `Fill`, so the code that's typically used to run the `SELECT` procedure is `TableAdapter.Fill(tableName)`. If you change the default name from `Fill`, substitute `Fill` with the name you assign, and replace "TableAdapter" with the actual name of the TableAdapter (for example, `CustomersTableAdapter`).
 
-- Selecting the **Create methods to send updates directly to the database** option is equivalent to setting the `GenerateDBDirectMethods` property to true. The option is unavailable when the original SQL statement does not provide enough information or the query is not an updateable query. This situation can occur, for example, in **JOIN** queries and queries that return a single (scalar) value.
+- Selecting the **Create methods to send updates directly to the database** option is equivalent to setting the `GenerateDBDirectMethods` property to true. The option is unavailable when the original SQL statement doesn't provide enough information or the query isn't an updatable query. This situation can occur, for example, in **JOIN** queries and queries that return a single (scalar) value.
 
 The **Advanced Options** in the wizard enable you to:
 
-- Generate INSERT, UPDATE, and DELETE statements based on the SELECT statement that's defined on the **Generate SQL statements** page
+- Generate `INSERT`, `UPDATE`, and `DELETE` statements based on the `SELECT` statement that's defined on the **Generate SQL statements** page
 - Use optimistic concurrency
-- Specify whether to refresh the data table after INSERT and UPDATE statements are run
+- Specify whether to refresh the data table after `INSERT` and `UPDATE` statements are run
 
 ## Configure a TableAdapter's Fill method
 
-Sometimes you might want to change the schema of the TableAdapter's table. To do this, you modify the  TableAdapter's primary `Fill` method. TableAdapters are created with a primary `Fill` method that defines the schema of the associated data table. The primary `Fill` method is based on the query or stored procedure you entered when you originally configured the TableAdapter. It's the first (topmost) method under the data table in the DataSet Designer.
+Sometimes you might want to change the schema of the TableAdapter's table. To do this, you modify the TableAdapter's primary `Fill` method. TableAdapters are created with a primary `Fill` method that defines the schema of the associated data table. The primary `Fill` method is based on the query or stored procedure you entered when you originally configured the TableAdapter. It's the first (topmost) method under the data table in the DataSet Designer.
 
 ![TableAdapter with multiple queries](../data-tools/media/tableadapter.gif)
 
 Any changes that you make to the TableAdapter's main `Fill` method are reflected in the schema of the associated data table. For example, removing a column from the query in the main `Fill` method also removes the column from the associated data table. Additionally, removing the column from the main `Fill` method removes the column from any additional queries for that TableAdapter.
 
-You can use the TableAdapter Query Configuration Wizard to create and edit additional queries for the TableAdapter. These additional queries must conform to the table schema, unless they return a scalar value.  Each additional query has a name that you specify.
+You can use the TableAdapter Query Configuration Wizard to create and edit additional queries for the TableAdapter. These additional queries must conform to the table schema, unless they return a scalar value. Each additional query has a name that you specify.
 
 The following example shows you how to call an additional query named `FillByCity`:
 
@@ -79,9 +78,9 @@ The following example shows you how to call an additional query named `FillByCit
 
 1. Open your dataset in the **Dataset Designer**.
 
-2. If you are creating a new query, drag a **Query** object from the **DataSet** tab of the **Toolbox** onto a <xref:System.Data.DataTable>, or select **Add Query** from the TableAdapter's shortcut menu. You can also drag a **Query** object onto an empty area of the **Dataset Designer**, which creates a TableAdapter without an associated <xref:System.Data.DataTable>. These queries can only return single (scalar) values, or run UPDATE, INSERT, or DELETE commands against the database.
+2. If you're creating a new query, drag a **Query** object from the **DataSet** tab of the **Toolbox** onto a <xref:System.Data.DataTable>, or select **Add Query** from the TableAdapter's shortcut menu. You can also drag a **Query** object onto an empty area of the **Dataset Designer**, which creates a TableAdapter without an associated <xref:System.Data.DataTable>. These queries can only return single (scalar) values, or run `UPDATE`, `INSERT`, or `DELETE` commands against the database.
 
-3. On the **Choose Your Data Connection** screen, select or create the connection that the query will use.
+3. On the **Choose Your Data Connection** screen, select, or create the connection that the query will use.
 
     > [!NOTE]
     > This screen only appears when the designer can't determine the proper connection to use, or when no connections are available.
@@ -90,13 +89,13 @@ The following example shows you how to call an additional query named `FillByCit
 
     - **Use SQL statements** enables you to type a SQL statement to select the data from your database.
 
-    - **Create new stored procedure** enables you to have the wizard create a new stored procedure (in the database) based on the specified SELECT statement.
+    - **Create new stored procedure** enables you to have the wizard create a new stored procedure (in the database) based on the specified `SELECT` statement.
 
     - **Use existing stored procedures** enables you to run an existing stored procedure when running the query.
 
 ### To start the TableAdapter Query Configuration wizard on an existing query
 
-- If you are editing an existing TableAdapter query, right-click the query, and then choose **Configure** from the shortcut menu.
+- If you're editing an existing TableAdapter query, right-click the query, and then choose **Configure** from the shortcut menu.
 
     > [!NOTE]
     > Right-clicking the main query of a TableAdapter reconfigures the TableAdapter and <xref:System.Data.DataTable> schema. Right-clicking an additional query on a TableAdapter, however,  configures the selected query only. The **TableAdapter Configuration Wizard** reconfigures the TableAdapter definition, while the **TableAdapter Query Configuration Wizard** reconfigures the selected query only.
@@ -110,8 +109,8 @@ The following example shows you how to call an additional query named `FillByCit
 - Provide a query that performs the desired task, for example, `SELECT COUNT(*) AS CustomerCount FROM Customers`.
 
     > [!NOTE]
-    > Dragging a **Query** object directly onto the **Dataset Designer** creates a method that returns only a scalar (single) value. While the query or stored procedure you select might return more than a single value, the method that's created by the wizard  only returns a single value. For example, the query might return the first column of the first row of the returned data.
+    > Dragging a **Query** object directly onto the **Dataset Designer** creates a method that returns only a scalar (single) value. While the query or stored procedure you select might return more than a single value, the method that's created by the wizard only returns a single value. For example, the query might return the first column of the first row of the returned data.
 
-## See also
+## Related content
 
 - [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)

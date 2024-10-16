@@ -1,23 +1,20 @@
 ---
 title: Map DataContext methods to sprocs and functions
 description: Learn to create DataContext methods that are mapped to stored procedures (sprocs) and functions using Object Relational Designer (O/R Designer).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: e7ca32f1-50b3-48af-ad92-ceafd749296a
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
-# How to: Create DataContext methods mapped to stored procedures and functions (O/R Designer)
+
+# Create DataContext methods mapped to stored procedures and functions (O/R Designer)
 
 You can add stored procedures and functions to the **O/R Designer** as <xref:System.Data.Linq.DataContext> methods. Calling the method and passing in the required parameters runs the stored procedure or function on the database and returns the data in the return type of the <xref:System.Data.Linq.DataContext> method. For detailed information about <xref:System.Data.Linq.DataContext> methods, see [DataContext methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md).
 
 > [!NOTE]
-> You can also use stored procedures to override the default [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] run-time behavior that performs Inserts, Updates, and Deletes when changes are saved from entity classes to a database. For more information, see [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md).
+> You can also use stored procedures to override the default LINQ to SQL run-time behavior that performs Inserts, Updates, and Deletes when changes are saved from entity classes to a database. For more information, see [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md).
 
 ## Create DataContext methods
 
@@ -47,7 +44,7 @@ You can create <xref:System.Data.Linq.DataContext> methods by dragging stored pr
 > [!NOTE]
 > For information about changing the return type of existing <xref:System.Data.Linq.DataContext> methods, see [How to: Change the return type of a DataContext method (O/R Designer)](../data-tools/how-to-change-the-return-type-of-a-datacontext-method-o-r-designer.md).
 
-## See also
+## Related content
 
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [DataContext methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md)

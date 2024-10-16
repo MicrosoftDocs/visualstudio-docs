@@ -1,15 +1,12 @@
 ---
-title: PerfTips | Microsoft Docs
+title: Use debugger PerfTips and integrated Diagnostic Tools 
 description: Learn how to use the Visual Studio debugger PerfTips and integrated Diagnostic Tools to monitor and analyze your app performance while debugging.
 ms.date: 9/11/2020
 ms.topic: how-to
-ms.assetid: 509d2d4f-48a5-4cdf-acad-6f7b75421303
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # PerfTips
 
@@ -55,7 +52,9 @@ To enable or disable the Diagnostic Tools window:
 
 2. Check or clear **Enable Diagnostics Tools while debugging**.
 
-## See also
+## Related content
 
 - [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)
+- [Identify hot paths with Flame Graph](../profiling/flame-graph.md)
+- [Analyze performance by using CPU profiling](../profiling/cpu-usage.md)

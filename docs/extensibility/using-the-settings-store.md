@@ -1,20 +1,17 @@
 ---
-title: Using the Settings Store | Microsoft Docs
+title: Using the Settings Store
 description: Learn how to read data from the configuration setting store, which are read-only Visual Studio and VSPackage settings.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - Settings Store, using
-ms.assetid: 447ec08a-eca5-40b8-89b0-f98fdf3d39a4
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Using the Settings Store
+
 There are two kinds of settings stores:
 
 - Configuration settings, which are read-only Visual Studio and VSPackage settings. Visual Studio merges settings from all known .pkgdef files into this store.
@@ -26,7 +23,7 @@ There are two kinds of settings stores:
 ## Creating the Example Project
  This section shows how to create a simple extension project with a menu command for demonstration.
 
-1. Every Visual Studio extension starts with a VSIX deployment project which will contain the extension assets. Create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] VSIX project named `SettingsStoreExtension`. You can find the VSIX project template in the **New Project** dialog under **Visual C# / Extensibility**.
+1. Every Visual Studio extension starts with a VSIX deployment project which will contain the extension assets. Create a Visual Studio VSIX project named `SettingsStoreExtension`. You can find the VSIX project template in the **New Project** dialog under **Visual C# / Extensibility**.
 
 2. Now add a custom command item template named **SettingsStoreCommand**. In the **Add New Item** dialog, go to **Visual C# / Extensibility** and select **Custom Command**. In the **Name** field at the bottom of the window, change the command file name to **SettingsStoreCommand.cs**. For more information about how to create a custom command, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)
 

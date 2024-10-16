@@ -1,40 +1,40 @@
 ---
 description: "Retrieves the base indices (lower bounds) for each index given the number of dimensions in the array."
-title: IDebugArrayObject2::GetBaseIndices | Microsoft Docs
+title: IDebugArrayObject2::GetBaseIndices
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - GetBaseIndices
 - IDebugArrayObject2::GetBaseIndices
-ms.assetid: 882951a2-3da0-49bf-8d1e-7daedd13ffe6
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugArrayObject2::GetBaseIndices
+
 Retrieves the base indices (lower bounds) for each index given the number of dimensions in the array.
 
 ## Syntax
 
-```cpp
-HRESULT GetBaseIndices (
-   DWORD  dwRank,
-   DWORD* dwIndices
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetBaseIndices (
    uint       dwRank,
    out uint[] dwIndices
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetBaseIndices (
+   DWORD  dwRank,
+   DWORD* dwIndices
+);
+```
+---
 
 ## Parameters
 `dwRank`\

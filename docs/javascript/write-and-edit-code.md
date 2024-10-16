@@ -1,23 +1,21 @@
 ---
 title: Introduction to editing for JavaScript developers
 description: This introduction to the code editor in Visual Studio shows some of the ways that Visual Studio makes writing, navigating, and understanding JavaScript code easier.
-ms.date: 03/25/2021
+ms.date: 06/05/2023
 ms.topic: how-to
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-javascript
+manager: mijacobs
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
-ms.workload:
-  - nodejs
 ---
 # Learn to use the code editor for JavaScript
 
 In this short introduction to the code editor in Visual Studio, we'll look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
 
 > [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free. Depending on the type of app development you're doing, you may need to install the **Node.js development workload** with Visual Studio. For more information in getting the language service for TypeScript, see [TypeScript support](../javascript/javascript-in-vs-2019.md#typescript-support).
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free. For more information in getting the language service for TypeScript, see [TypeScript support](../javascript/javascript-in-visual-studio.md#typescript-support).
 
 This article assumes you're already familiar with JavaScript development. If you aren't, we suggest you look at a tutorial such as [Create a Node.js and Express app](../javascript/tutorial-nodejs.md) first.
 
@@ -26,6 +24,8 @@ This article assumes you're already familiar with JavaScript development. If you
 You can use the IDE to add new files to your project.
 
 1. With your project open in Visual Studio, right-click on a folder or your project node in Solution Explorer (right pane), and choose **Add** > **New Item**.
+
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
 
 1. In the **New File** dialog box, under the **General** category, choose the file type that you want to add, such as **JavaScript File**, and then choose **Open**.
 
@@ -43,7 +43,7 @@ You can also use IntelliSense to complete a word after you type enough character
 
 IntelliSense can also show you information about types when you hover over programming elements.
 
-To provide IntelliSense information, the language service can use TypeScript *d.ts* files and JSDoc comments. For most common JavaScript libraries, *d.ts* files are automatically acquired. For more details about how IntelliSense information is acquired, see [JavaScript IntelliSense](../ide/javascript-intellisense.md?toc=/visualstudio/javascript/toc.json). If you are interested in AngularJS programming in Visual Studio, you can use the [AngularJS language service extension](https://devblogs.microsoft.com/visualstudio/angular-language-service-for-visual-studio) for Visual Studio to get IntelliSense.
+To provide IntelliSense information, the language service can use TypeScript *d.ts* files and JSDoc comments. For most common JavaScript libraries, *d.ts* files are automatically acquired. For more details about how IntelliSense information is acquired, see [JavaScript IntelliSense](../ide/javascript-intellisense.md?toc=/visualstudio/javascript/toc.json).
 
 ## Check syntax
 
@@ -81,7 +81,7 @@ The code block collapses to just the first line, followed by an ellipsis (`...`)
 
 ## View definitions
 
-The Visual Studio editor makes it easy to inspect the definition of a type, function, etc. One way is to navigate to the file that contains the definition, for example by choosing **Go to Definition** anywhere the programming element is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../ide/go-to-and-peek-definition.md#peek-definition). Let's peek at the definition of the `render` method in the example below.
+The Visual Studio editor makes it easy to inspect the definition of a type, function, etc. One way is to navigate to the file that contains the definition, for example by choosing **Go to Definition** anywhere the programming element is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../ide/go-to-and-peek-definition.md#peek-at-a-definition). Let's peek at the definition of the `render` method in the example below.
 
 Right-click on `render` and choose **Peek Definition** from the content menu. Or, press **Alt**+**F12**.
 
@@ -113,7 +113,7 @@ for (var i = 0; i < length; i++) {
 
 You can look at the available code snippets for your language by choosing **Edit** > **IntelliSense** > **Insert Snippet**, and then choosing your language's folder.
 
-## See also
+## Related content
 
 - [Code snippets](../ide/code-snippets.md)
 - [Navigate code](../ide/navigating-code.md)

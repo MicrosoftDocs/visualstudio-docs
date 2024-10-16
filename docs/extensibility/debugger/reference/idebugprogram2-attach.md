@@ -1,39 +1,39 @@
 ---
 description: "Attaches to the program."
-title: IDebugProgram2::Attach | Microsoft Docs
+title: IDebugProgram2::Attach
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgram2::Attach
 helpviewer_keywords:
 - IDebugProgram2::Attach
-ms.assetid: de069fbf-a565-4905-b102-f5658c55aacd
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgram2::Attach
+
 Attaches to the program.
 
 ## Syntax
 
-```cpp
-HRESULT Attach( 
-   IDebugEventCallback2* pCallback
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Attach( 
    IDebugEventCallback2 pCallback
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Attach( 
+   IDebugEventCallback2* pCallback
+);
+```
+---
 
 ## Parameters
 `pCallback`\

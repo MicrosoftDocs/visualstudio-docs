@@ -1,37 +1,27 @@
 ---
 description: "Enables automatic attaching for the specified debug engines."
-title: IDebugCoreServer3::EnableAutoAttach | Microsoft Docs
+title: IDebugCoreServer3::EnableAutoAttach
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCoreServer3::EnableAutoAttach
 helpviewer_keywords:
 - IDebugCoreServer3::EnableAutoAttach
-ms.assetid: 06aa633b-263b-4e08-8844-9a52d5120b94
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCoreServer3::EnableAutoAttach
+
 Enables automatic attaching for the specified debug engines.
 
 ## Syntax
 
-```cpp
-HRESULT EnableAutoAttach(
-   GUID*     rgguidSpecificEngines,
-   DWORD     celtSpecificEngines,
-   LPCOLESTR pszStartPageUrl,
-   BSTR*     pbstrSessionId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnableAutoAttach(
    Guid[]     rgguidSpecificEngines,
@@ -40,6 +30,16 @@ int EnableAutoAttach(
    out string pbstrSessionId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnableAutoAttach(
+   GUID*     rgguidSpecificEngines,
+   DWORD     celtSpecificEngines,
+   LPCOLESTR pszStartPageUrl,
+   BSTR*     pbstrSessionId
+);
+```
+---
 
 ## Parameters
 `rgguidSpecificEngines`\

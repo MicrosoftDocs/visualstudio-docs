@@ -1,39 +1,39 @@
 ---
 description: "Returns a copy of the current modules enumeration as a separate object."
-title: IEnumDebugModules2::Clone | Microsoft Docs
+title: IEnumDebugModules2::Clone
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugModules2::Clone
 helpviewer_keywords:
 - IEnumDebugModules2::Clone
-ms.assetid: fd6d3abc-20d9-4f6f-9c8e-5bd29f68d47d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugModules2::Clone
+
 Returns a copy of the current enumeration as a separate object.
 
 ## Syntax
 
-```cpp
-HRESULT Clone(
-   IEnumDebugModules2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Clone(
    out IEnumDebugModules2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Clone(
+   IEnumDebugModules2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

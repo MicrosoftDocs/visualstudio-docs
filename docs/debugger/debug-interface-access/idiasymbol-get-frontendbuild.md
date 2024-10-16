@@ -1,27 +1,26 @@
 ---
-description: "Retrieves the front end build number."
-title: "IDiaSymbol::get_frontEndBuild | Microsoft Docs"
+description: Retrieves the front end build number.
+title: "IDiaSymbol::get_frontEndBuild"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_frontEndBuild method"
-ms.assetid: f7dab1c6-112b-4966-baa5-afc976949c76
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_frontEndBuild
+
 Retrieves the front end build number.
 
 ## Syntax
 
 ```C++
-HRESULT get_frontEndBuild ( 
+HRESULT get_frontEndBuild ( 
    DWORD* pRetVal
 );
 ```

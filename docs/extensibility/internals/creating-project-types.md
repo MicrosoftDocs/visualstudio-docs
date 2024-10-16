@@ -1,22 +1,19 @@
 ---
-title: Creating Project Types | Microsoft Docs
+title: Creating Project Types
 description: Learn how to extend Visual Studio by designing, creating, and registering a new project type that supports programming tasks.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - project types, new
 - projects [Visual Studio SDK], new project types
-ms.assetid: bdb2d22e-d622-450c-bb2d-98152a745fcf
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Create project types
-You can extend [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] by creating a new project type. To create a new project type, you must understand several concepts and complete a number of steps. The following topics provide an overview of how to create project types.
+
+You can extend Visual Studio by creating a new project type. To create a new project type, you must understand several concepts and complete a number of steps. The following topics provide an overview of how to create project types.
 
 ## In this section
 - [Project type design decisions](../../extensibility/internals/project-type-design-decisions.md)
@@ -41,7 +38,7 @@ You can extend [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] by c
 
 - [Use MSBuild](../../extensibility/internals/using-msbuild.md)
 
- Describes how your project type can use the [!INCLUDE[vstecmsbuild](../../extensibility/internals/includes/vstecmsbuild_md.md)] build engine to let users build from [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and at the command line.
+ Describes how your project type can use the MSBuild build engine to let users build from Visual Studio and at the command line.
 
 ## Related sections
 - [Support symbol-browsing tools](../../extensibility/internals/supporting-symbol-browsing-tools.md)
@@ -58,11 +55,11 @@ You can extend [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] by c
 
 - [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)
 
- Describes how [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] views and addresses hierarchies.
+ Describes how Visual Studio views and addresses hierarchies.
 
 - [VSPackages](../../extensibility/internals/vspackages.md)
 
- Provides an overview of a VSPackage, an installable COM object that extends the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] environment and discusses how to implement your own VSPackage.
+ Provides an overview of a VSPackage, an installable COM object that extends the Visual Studio environment and discusses how to implement your own VSPackage.
 
 - [Project types](../../extensibility/internals/project-types.md)
 

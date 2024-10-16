@@ -1,24 +1,20 @@
 ---
-title: MarkupCompilePass2 Task | Microsoft Docs
+title: MarkupCompilePass2 Task
 description: Learn how MSBuild uses the MarkupCompilePass2 task to perform second-pass markup compilation on XAML files that reference types in the same project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - performing second-pass markup [WPF MSBuild], MarkupCompilePass2 task
 - MarkupCompilePass2 task [WPF MSBuild]
 - MarkupCompilePass2 task [WPF MSBuild], parameters
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # MarkupCompilePass2 task
 

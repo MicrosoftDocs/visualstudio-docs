@@ -31,9 +31,8 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
-      "feedback_product_url": "https://developercommunity2.visualstudio.com/search?space=8",
+      "uhfHeaderId": "MSDocsHeader-VisualStudio",
+      "feedback_system": "Standard",
       "breadcrumb_path": "~/_breadcrumb/toc.yml",
       "ROBOTS": "INDEX,FOLLOW",
       "author": "mikejo5000",
@@ -41,8 +40,8 @@
       "manager": "jillfra",
       "ms.date": "3/7/2017",
       "ms.topic": "reference",
-      "ms.prod": "visual-studio-windows",
-      "ms.technology": "vs-javascript",
+      "ms.service": "visual-studio-windows",
+      "ms.subservice": "javascript-typescript",
       "audience": "developer",
       "searchScope": [
         "Scripting"

@@ -1,7 +1,6 @@
 ---
-title: ZipDirectory Task | Microsoft Docs
+title: ZipDirectory Task
 description: Learn how MSBuild uses the ZipDirectory task to create a .zip archive from the contents of a directory.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.reviewer: ''
 ms.suite: ''
@@ -13,18 +12,14 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - ZipDirectory task [MSBuild]
 - MSBuild, ZipDirectory task
-ms.assetid: 916bb2e3-3017-4828-ae27-c0b5c99bbb48
 caps.latest.revision: 16
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # ZipDirectory task
 

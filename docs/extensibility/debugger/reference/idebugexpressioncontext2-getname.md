@@ -1,39 +1,39 @@
 ---
 description: "Retrieves the name of the evaluation context."
-title: IDebugExpressionContext2::GetName | Microsoft Docs
+title: IDebugExpressionContext2::GetName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExpressionContext2::GetName
 helpviewer_keywords:
 - IDebugExpressionContext2::GetName
-ms.assetid: c2b70d22-17af-4986-a7e3-930910367216
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExpressionContext2::GetName
+
 Retrieves the name of the evaluation context.
 
 ## Syntax
 
-```cpp
-HRESULT GetName( 
-   BSTR* pbstrName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetName( 
    out string pbstrName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetName( 
+   BSTR* pbstrName
+);
+```
+---
 
 ## Parameters
 `pbstrName`\

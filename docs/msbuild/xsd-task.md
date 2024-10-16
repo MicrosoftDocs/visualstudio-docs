@@ -1,7 +1,6 @@
 ---
-title: XSD Task | Microsoft Docs
+title: XSD Task
 description: Learn how MSBuild uses the XSD task to wrap the XML Schema Definition tool xsd.exe, which generates schema or class files from a source.
-ms.custom: SEO-VS-2020
 ms.date: 06/27/2018
 ms.topic: reference
 f1_keywords:
@@ -9,22 +8,18 @@ f1_keywords:
 - VC.Project.VCXMLDataGeneratorTool.Namespace
 - VC.Project.VCXMLDataGeneratorTool.GenerateFromSchema
 dev_langs:
-- VB
-- CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - XSD task (MSBuild (C++))
 - MSBuild (C++), XSD task
-ms.assetid: 15c99f5c-7124-4bbc-bc03-70c7bcce8893
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # XSD task
+
+[!INCLUDE [C++-specific task](./includes/cpp-task.md)]
 
 Wraps the XML Schema Definition tool (*xsd.exe*), which generates schema or class files from a source.
 

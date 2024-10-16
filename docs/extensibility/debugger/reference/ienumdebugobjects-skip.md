@@ -1,39 +1,39 @@
 ---
 description: "This method skips over the specified number of IDebugObject elements."
-title: IEnumDebugObjects::Skip | Microsoft Docs
+title: IEnumDebugObjects::Skip
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugObjects::Skip
 helpviewer_keywords:
 - IEnumDebugObjects::Skip method
-ms.assetid: 957cead8-0a9c-4403-b190-b9fbadc49d42
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugObjects::Skip
+
 This method skips over the specified number of elements.
 
 ## Syntax
 
-```cpp
-HRESULT Skip(
-   [in] ULONG celt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Skip(
    [In] uint celt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Skip(
+   [in] ULONG celt
+);
+```
+---
 
 ## Parameters
 `celt`\

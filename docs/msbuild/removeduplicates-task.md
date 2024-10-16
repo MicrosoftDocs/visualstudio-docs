@@ -1,7 +1,6 @@
 ---
-title: RemoveDuplicates Task | Microsoft Docs
+title: RemoveDuplicates Task
 description: Learn how MSBuild uses the RemoveDuplicates task to remove duplicate items from the specified item collection.
-ms.custom: SEO-VS-2020
 ms.date: 03/01/2018
 ms.topic: reference
 f1_keywords:
@@ -10,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, RemoveDuplicates task
 - RemoveDuplicates task [MSBuild]
-ms.assetid: 481cbab6-73ff-488c-aba5-2c09f9eb1e04
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # RemoveDuplicates task
 
@@ -33,6 +28,7 @@ Removes duplicate items from the specified item collection.
 |Parameter|Description|
 |---------------|-----------------|
 |`Filtered`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains an item collection with all duplicate items removed. The order of the input items is preserved, keeping the first instance of each duplicate item.|
+|`HadAnyDuplicates`|Optional `Boolean` output parameter.<br /><br /> If `true` duplicate items were found, `false` otherwise.|
 |`Inputs`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> The item collection to remove duplicate items from.|
 
 ## Remarks
@@ -85,6 +81,9 @@ Removes duplicate items from the specified item collection.
             <Output
                 TaskParameter="Filtered"
                 ItemName="FilteredItems"/>
+            <Output
+                TaskParameter="HadAnyDuplicates"
+                PropertyName="_HadAnyDuplicates"/>
         </RemoveDuplicates>
     </Target>
 </Project>

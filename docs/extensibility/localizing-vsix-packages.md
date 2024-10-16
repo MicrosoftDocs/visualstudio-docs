@@ -1,20 +1,16 @@
 ---
-title: Localizing VSIX Packages | Microsoft Docs
+title: Localizing VSIX Packages
 description: Learn how to localize a VSIX package by creating an Extension.vsixlangpack file for each target language and then putting them in the correct folder.
-ms.custom: SEO-VS-2020
 ms.date: 10/26/2017
 ms.topic: conceptual
 helpviewer_keywords:
 - localize package
 - localize extension
 - localized deployment
-ms.assetid: 10e80b13-b39e-466c-a7c8-774a862355af
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Localizing VSIX Packages
 
@@ -38,7 +34,7 @@ If the content your VSIX package includes a VSPackage that adds menu commands or
 ```
 
 > [!NOTE]
-> The VSIX-supported project templates in the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] generate a VSIX manifest and name it *source.extension.vsixmanifest*. When Visual Studio builds the project, it copies the content of that file into Extension.VsixManifest in the VSIX package.
+> The VSIX-supported project templates in the Visual Studio SDK generate a VSIX manifest and name it *source.extension.vsixmanifest*. When Visual Studio builds the project, it copies the content of that file into Extension.VsixManifest in the VSIX package.
 
 ## The Extension.vsixlangpack file
 

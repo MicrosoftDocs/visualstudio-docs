@@ -2,16 +2,12 @@
 title: Use rule-based UI context for Visual Studio extensions
 titleSuffix: ""
 description: Learn how to use Rules-based UI Contexts, which allows extension authors to define conditions when a UI Context is activated and VSPackages are loaded.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: 8dd2cd1d-d8ba-49b9-870a-45acf3a3259d
-author: leslierichardson95
-ms.author: lerich
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
 ---
-# How to: Use rule-based UI Context for Visual Studio extensions
+# Use rule-based UI Context for Visual Studio extensions
 
 Visual Studio allows loading of VSPackages when certain well-known <xref:Microsoft.VisualStudio.Shell.UIContext>s are activated. However, these UI Contexts aren't fine grained, which leaves extension authors no choice but to pick an available UI Context that activates before the point they really wanted the VSPackage to load. For a list of well-known UI contexts, see <xref:Microsoft.VisualStudio.Shell.KnownUIContexts>.
 
@@ -63,7 +59,7 @@ Rule-based UI Context can be used in various ways:
    <CommandFlag>DynamicVisibility</CommandFlag>
    ```
 
-3. In the Visibilities section of the VSCT, tie the appropriate commands to the new UIContext GUID defined in #1:
+3. In the VisibilityConstraints section of the VSCT, tie the appropriate commands to the new UIContext GUID defined in #1:
 
    ```xml
    <VisibilityConstraints>
@@ -129,7 +125,7 @@ Here are the various types of term that are supported:
 |Term|Description|
 |-|-|
 |{nnnnnnnn-nnnn-nnnn-nnnn-nnnnnnnnnnnn}|The GUID refers to a UI Context. The term will be true whenever the UI Context is active and false otherwise.|
-|HierSingleSelectionName:\<pattern>|The term will be true whenever the selection in the active hierarchy is a single item and the name of the selected item matches the .Net regular expression given by "pattern".|
+|HierSingleSelectionName:\<pattern>|The term will be true whenever the selection in the active hierarchy is a single item and the name of the selected item matches the .NET regular expression given by "pattern".|
 |UserSettingsStoreQuery:\<query>|"query" represents a full path into the user settings store, which must evaluate to a non-zero value. The query is split into a "collection" and "propertyName" at the last slash.|
 |ConfigSettingsStoreQuery:\<query>|"query" represents a full path into the config settings store, which must evaluate to a non-zero value. The query is split into a "collection" and "propertyName" at the last slash.|
 |ActiveProjectFlavor:\<projectTypeGuid>|The term will be true whenever the currently selected project is flavored (aggregated) and has a flavor matching the given project type GUID.|
@@ -137,7 +133,7 @@ Here are the various types of term that are supported:
 |ActiveProjectCapability:\<Expression>|The term is true when active project capabilities match the provided expression. An expression can be something like VB &#124; CSharp.|
 |SolutionHasProjectCapability:\<Expression>|Similar to above but term is true when solution has any loaded project that matches to the expression.|
 |SolutionHasProjectFlavor:\<projectTypeGuid>|The term will be true whenever a solution has project that is flavored (aggregated) and has a flavor matching the given project type GUID.|
-|ProjectAddedItem:\<pattern>| The term is true when a file matching the "pattern" is added to a project in the soluion that is opened.|
+|ProjectAddedItem:\<pattern>| The term is true when a file matching the "pattern" is added to a project in the solution that is opened.|
 |ActiveProjectOutputType:\<outputType>|The term is true when output type for active project matches exactly.  The outputType could be an integer or a <xref:Microsoft.VisualStudio.Shell.Interop.__VSPROJOUTPUTTYPE> type.|
 |ActiveProjectBuildProperty:\<buildProperty>=\<regex>|The term is true when active project has the specified build property and property value matches to regex filter provided. Refer to [Persisting Data in MSBuild Project Files](internals/persisting-data-in-the-msbuild-project-file.md) for more details on build properties.|
 |SolutionHasProjectBuildProperty:\<buildProperty>=\<regex>|The term is true when solution has a loaded project with the specified build property and property value matches to regex filter provided.|

@@ -1,39 +1,39 @@
 ---
 description: "This method returns the type of object to which this pointer object points."
-title: IDebugPointerField::GetDereferencedField | Microsoft Docs
+title: IDebugPointerField::GetDereferencedField
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPointerField::GetDereferencedField
 helpviewer_keywords:
 - IDebugPointerField::GetDereferencedField method
-ms.assetid: 8de988ab-cd79-4287-be72-3c900f2fe407
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPointerField::GetDereferencedField
+
 This method returns the type of object to which this pointer object points.
 
 ## Syntax
 
-```cpp
-HRESULT GetDereferencedField(
-   IDebugField** ppField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDereferencedField(
    out IDebugField ppField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDereferencedField(
+   IDebugField** ppField
+);
+```
+---
 
 ## Parameters
 `ppField`\

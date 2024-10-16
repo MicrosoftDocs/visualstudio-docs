@@ -1,25 +1,24 @@
 ---
-description: "Retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, by the specified parent symbol."
-title: "IDiaSession::findInlineeLines | Microsoft Docs"
+description: Retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, by the specified parent symbol.
+title: "IDiaSession::findInlineeLines"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: b6822d8b-70d5-470b-8278-3aec4680326c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findInlineeLines
+
 Retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, by the specified parent symbol.
 
 ## Syntax
 
 ```C++
-HRESULT findInlineeLines ( 
+HRESULT findInlineeLines ( 
    IDiaSymbol*       parent,
    IDiaEnumLineNumbers** ppResult
 );

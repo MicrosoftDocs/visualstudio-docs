@@ -1,7 +1,6 @@
 ---
-title: "&lt;assemblyIdentity&gt; Element (ClickOnce Application) | Microsoft Docs"
+title: "&lt;assemblyIdentity&gt; Element (ClickOnce Application)"
 description: The assemblyIdentity element is required in ClickOnce application. It contains no child elements and has attributes described in this article.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -12,16 +11,14 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<assemblyIdentity> element [ClickOnce application manifest]"
-ms.assetid: f48e9531-efac-4d11-8166-f63a5ece1ac5
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: deployment
 ---
 # &lt;assemblyIdentity&gt; element (ClickOnce application)
-Identifies the application deployed in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.
+
+Identifies the application deployed in a ClickOnce deployment.
 
 ## Syntax
 
@@ -50,7 +47,7 @@ Identifies the application deployed in a [!INCLUDE[ndptecclick](../deployment/in
 ## Examples
 
 ### Description
- The following code example illustrates an `assemblyIdentity` element in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. This code example is part of a larger example provided in [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md).
+ The following code example illustrates an `assemblyIdentity` element in a ClickOnce application manifest. This code example is part of a larger example provided in [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md).
 
 ### Code
 

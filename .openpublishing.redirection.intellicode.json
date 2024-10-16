@@ -1,0 +1,126 @@
+{
+    "redirections": [
+        {
+            "source_path": "docs/intellicode/not-in-toc/disable-features.md",
+            "redirect_url": "https://code.visualstudio.com/docs/csharp/intellicode",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/intellicode/not-in-toc/find-replace-by-example.md",
+            "redirect_url": "https://code.visualstudio.com/docs/csharp/intellicode",
+            "redirect_document_id": false
+         
+        },
+        {
+            "source_path": "docs/intellicode/intellicode-visual-studio-code.md",
+            "redirect_url": "https://code.visualstudio.com/docs/csharp/intellicode",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/intellicode/intellicode-visual-studio-code-completions.md",
+            "redirect_url": "https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode-completions",
+            "redirect_document_id": "false"
+        },
+        {
+            "source_path": "docs/intellicode/intellicode-api-usage-examples.md",
+            "redirect_url": "https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode#intellicode-api-usage-examples",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/intellicode/index.md",
+            "redirect_url": "/visualstudio/ide/intellicode-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+           "source_path": "docs/intellicode/intellicode-visual-studio.md",
+           "redirect_url": "/visualstudio/ide/intellicode-visual-studio",
+           "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/intellicode/visual-studio-whole-line-completions.md",
+            "redirect_url": "/visualstudio/ide/visual-studio-whole-line-completions",
+            "redirect_document_id": false
+         },
+         {
+            "source_path": "docs/intellicode/intellicode-suggestions.md",
+            "redirect_url": "/visualstudio/ide/intellicode-suggestions",
+            "redirect_document_id": false
+         },
+         {
+            "source_path": "docs/intellicode/intellicode-privacy.md",
+            "redirect_url": "/visualstudio/ide/intellicode-privacy",
+            "redirect_document_id": false
+         },
+        {
+            "source_path": "docs/intellicode/custom-models.md",
+            "redirect_url": "/visualstudio/intellicode/intellicode-visual-studio.md#team-completions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/intellicode/quickstart-team-completions.md",
+            "redirect_url": "/visualstudio/intellicode/intellicode-visual-studio.md#team-completions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/intellicode/share-models.md",
+            "redirect_url": "/visualstudio/intellicode/intellicode-visual-studio.md#team-completions",
+            "redirect_document_id": false
+        },
+        
+        {
+            "source_path": "docs/intellicode/policy.md",
+            "redirect_url": "/visualstudio/intellicode/intellicode-visual-studio.md#team-completions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/intellicode/faq.yml",
+            "redirect_url": "/visualstudio/intellicode/intellicode-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/intellicode/intellicode-faq.md",
+            "redirect_url": "/visualstudio/intellicode/intellicode-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/intellicode/overview.md",
+            "redirect_url": "/visualstudio/intellicode/intellicode-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/intellicode/custom-model-faq.md",
+            "redirect_url": "/visualstudio/intellicode/custom-models",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/intellicode/sharing-custom-models-tips.md",
+            "redirect_url": "/visualstudio/intellicode/share-models",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/intellicode/not-in-toc/refactorings-suggestion-prompt.md",
+            "redirect_url": "/visualstudio/intellicode/intellicode-suggestions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/intellicode/refactorings.md",
+            "redirect_url": "/visualstudio/intellicode/intellicode-suggestions",
+            "redirect_document_id": false
+        },
+        {
+              "source_path": "docs/intellicode/visual-studio-inline-completions.md",
+              "redirect_url": "/visualstudio/intellicode/visual-studio-whole-line-completions",
+              "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/intellicode/not-in-toc/autotraining_faq.yml",
+            "redirect_url": "/visualstudio/intellicode/custom-models#autotraining-models-for-your-codebase",
+            "redirect_document_id": false  
+        },
+        {
+            "source_path": "docs/intellicode/code-style-inference.md",
+            "redirect_url": "/visualstudio/intellicode/intellicode-visual-studio",
+            "redirect_document_id": true  
+        }
+    ]
+}

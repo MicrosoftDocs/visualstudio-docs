@@ -1,35 +1,26 @@
 ---
 description: "Retrieves the name of the assembly given its module and application domain."
-title: IDebugComPlusSymbolProvider::GetAssemblyName | Microsoft Docs
+title: IDebugComPlusSymbolProvider::GetAssemblyName
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider::GetAssemblyName
 - GetAssemblyName
-ms.assetid: a08cd609-b9b9-47bd-bf73-cbf851285907
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetAssemblyName
+
 Retrieves the name of the assembly given its module and application domain.
 
 ## Syntax
 
-```cpp
-HRESULT GetAssemblyName(
-    ULONG32 ulAppDomainID,
-    GUID    guidModule,
-    BSTR*   pbstrName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAssemblyName(
     uint   ulAppDomainID,
@@ -37,6 +28,15 @@ int GetAssemblyName(
     string pbstrName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAssemblyName(
+    ULONG32 ulAppDomainID,
+    GUID    guidModule,
+    BSTR*   pbstrName
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

@@ -1,36 +1,26 @@
 ---
 description: "Retrieves type information about the specified array given its debug address."
-title: IDebugComPlusSymbolProvider::GetArrayTypeFromAddress | Microsoft Docs
+title: IDebugComPlusSymbolProvider::GetArrayTypeFromAddress
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - GetArrayTypeFromAddress
 - IDebugComPlusSymbolProvider::GetArrayTypeFromAddress
-ms.assetid: cc0c53f1-8c0f-49fa-8dbe-bc155e9ce0ef
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetArrayTypeFromAddress
+
 Retrieves type information about the specified array given its debug address.
 
 ## Syntax
 
-```cpp
-HRESULT GetArrayTypeFromAddress(
-    IDebugAddress* pAddress,
-    BYTE*          pSig,
-    DWORD          dwSigLength,
-    IDebugField**  ppField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetArrayTypeFromAddress(
     IDebugAddress   pAddress,
@@ -39,6 +29,16 @@ int GetArrayTypeFromAddress(
     out IDebugField ppField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetArrayTypeFromAddress(
+    IDebugAddress* pAddress,
+    BYTE*          pSig,
+    DWORD          dwSigLength,
+    IDebugField**  ppField
+);
+```
+---
 
 ## Parameters
 `pAddress`\

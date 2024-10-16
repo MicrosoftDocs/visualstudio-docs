@@ -1,21 +1,20 @@
 ---
-description: "Retrieves the value of a specified register as stored in the stack frame."
-title: "IDiaStackFrame::get_registerValue | Microsoft Docs"
+description: Retrieves the value of a specified register as stored in the stack frame.
+title: "IDiaStackFrame::get_registerValue"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackFrame::get_registerValue method"
-ms.assetid: cbe3d8ac-319a-40ac-bc3e-4eb81b2d7807
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackFrame::get_registerValue
+
 Retrieves the value of a specified register as stored in the stack frame.
 
 ## Syntax

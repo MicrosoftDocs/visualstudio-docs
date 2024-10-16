@@ -1,21 +1,19 @@
 ---
 description: "This interface supplies a proxy interface to view and change an object's data."
-title: IPropertyProxyProvider | Microsoft Docs
+title: IPropertyProxyProvider
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IPropertyProxyProvider
 helpviewer_keywords:
 - IPropertyProxyProvider interface
-ms.assetid: 52e9f7fc-6fe0-4d23-890b-5673dca8c3cb
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IPropertyProxyProvider
+
 This interface supplies a proxy interface to view and change an object's data.
 
 ## Syntax

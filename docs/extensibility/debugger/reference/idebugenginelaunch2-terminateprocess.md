@@ -1,39 +1,39 @@
 ---
 description: "IDebugEngineLaunch2::TerminateProcess terminates a process."
-title: IDebugEngineLaunch2::TerminateProcess | Microsoft Docs
+title: IDebugEngineLaunch2::TerminateProcess
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngineLaunch2::TerminateProcess
 helpviewer_keywords:
 - IDebugEngineLaunch2::TerminateProcess
-ms.assetid: f7039e7f-5f57-4222-9ad2-11a66b2da6e0
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugEngineLaunch2::TerminateProcess
+
 Terminates a process.
 
 ## Syntax
 
-```cpp
-HRESULT TerminateProcess ( 
-   IDebugProcess2* pProcess
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int TerminateProcess ( 
    IDebugProcess2 pProcess
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT TerminateProcess ( 
+   IDebugProcess2* pProcess
+);
+```
+---
 
 ## Parameters
 `pProcess`\

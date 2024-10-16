@@ -1,17 +1,14 @@
 ---
 description: "Defines the metadata that can be retrieved about a port supplier."
-title: PORT_SUPPLIER_DESCRIPTION_FLAGS | Microsoft Docs
+title: PORT_SUPPLIER_DESCRIPTION_FLAGS
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - PORT_SUPPLIER_DESCRIPTION_FLAGS enumeration
-ms.assetid: 5acee0ee-3a20-41c9-a7dc-0dadae6a5ba5
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
@@ -22,6 +19,14 @@ Defines the metadata that can be retrieved about a port supplier.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS
+{
+    PSDFLAG_SHOW_WARNING_ICON = 0x1
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS
 {
@@ -29,13 +34,7 @@ enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS
 };
 typedef DWORD PORT_SUPPLIER_DESCRIPTION_FLAGS;
 ```
-
-```csharp
-public enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS
-{
-    PSDFLAG_SHOW_WARNING_ICON = 0x1
-};
-```
+---
 
 ## Fields
 

@@ -1,43 +1,43 @@
 ---
 description: "Gets the document context that corresponds to this code context."
-title: IDebugCodeContext2::GetDocumentContext | Microsoft Docs
+title: IDebugCodeContext2::GetDocumentContext
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCodeContext2::GetDocumentContext
 helpviewer_keywords:
 - IDebugCodeContext2::GetDocumentContext
-ms.assetid: d552cc92-963f-43c1-949f-ae6b63a427b8
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCodeContext2::GetDocumentContext
+
 Gets the document context that corresponds to this code context. The document context represents a position in the source file that corresponds to the source code that generated this instruction.
 
 ## Syntax
 
-```cpp
-HRESULT GetDocumentContext( 
-   IDebugDocumentContext2** ppSrcCxt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocumentContext( 
    out IDebugDocumentContext2 ppSrcCxt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocumentContext( 
+   IDebugDocumentContext2** ppSrcCxt
+);
+```
+---
 
 ## Parameters
 `ppSrcCxt`\
-[out] Returns the [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that corresponds to the code context. If `S_OK` is returned, ths should be non-`null`.
+[out] Returns the [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that corresponds to the code context. If `S_OK` is returned, this should be non-`null`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. A debug engine should return a failure code such as `E_FAIL` when the `out` parameter is `null` such as when the code context has no associated source position.

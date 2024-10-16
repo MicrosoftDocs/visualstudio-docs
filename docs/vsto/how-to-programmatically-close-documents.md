@@ -1,7 +1,6 @@
 ---
-title: "How to: Programmatically close documents"
+title: "Programmatically close documents"
 description:  Learn how you can close the active document or you can specify a Microsoft Office Word document to close.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -12,12 +11,11 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], closing documents"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Programmatically close documents
+# Programmatically close documents
+
   You can close the active document or you can specify a document to close.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
@@ -32,8 +30,12 @@ ms.workload:
     > [!NOTE]
     > This example passes the <xref:Microsoft.Office.Interop.Word.WdSaveOptions.wdDoNotSaveChanges> value to the *SaveChanges* parameter to close without saving changes or prompting the user.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet3":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet3":::
+     ---
 
 ### To close the active document in a VSTO Add-in
 
@@ -42,8 +44,12 @@ ms.workload:
     > [!NOTE]
     > This example passes the <xref:Microsoft.Office.Interop.Word.WdSaveOptions.wdDoNotSaveChanges> value to the *SaveChanges* parameter to close without saving changes or prompting the user.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb" id="Snippet3":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb" id="Snippet3":::
+     ---
 
 ## Close a document that you specify by name
  The way that you close a document that you specify by name is the same for VSTO Add-ins and document-level customizations.
@@ -55,10 +61,14 @@ ms.workload:
     > [!NOTE]
     > This example passes the <xref:Microsoft.Office.Interop.Word.WdSaveOptions.wdDoNotSaveChanges> value to the *SaveChanges* parameter to close without saving changes or prompting the user.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet4":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs" id="Snippet4":::
 
-## See also
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet4":::
+     ---
+
+## Related content
 - [How to: Programmatically open existing documents](../vsto/how-to-programmatically-open-existing-documents.md)
 - [How to: Programmatically save documents](../vsto/how-to-programmatically-save-documents.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)

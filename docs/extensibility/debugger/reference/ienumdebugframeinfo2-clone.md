@@ -1,39 +1,39 @@
 ---
 description: "Returns a copy of the current FRAMEINFO enumeration as a separate object."
-title: IEnumDebugFrameInfo2::Clone | Microsoft Docs
+title: IEnumDebugFrameInfo2::Clone
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugFrameInfo2::Clone
 helpviewer_keywords:
 - IEnumDebugFrameInfo2::Clone
-ms.assetid: cdd10489-1772-47e3-815f-a6cfd32a3c60
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugFrameInfo2::Clone
+
 Returns a copy of the current enumeration as a separate object.
 
 ## Syntax
 
-```cpp
-HRESULT Clone(
-   IEnumDebugFrameInfo2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Clone(
    out IEnumDebugFrameInfo2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Clone(
+   IEnumDebugFrameInfo2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

@@ -1,7 +1,6 @@
 ---
-title: "How to: Populate documents with data from a database"
-description: Learn how you can use the data from a database in your solution, and how you can use Windows Forms controls to display the data in a document.
-ms.custom: SEO-VS-2020
+title: "Populate documents with data from a database"
+description: Populate Microsoft Office Word documents with data from a database in your solution, and use Windows Forms controls to display the data in a document.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -12,12 +11,10 @@ helpviewer_keywords:
   - "data, adding to documents"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Populate documents with data from a database
+# Populate documents with data from a database
 
 You can access data in document-level projects for Microsoft Office in the same way that you access data in Windows Forms projects. You use the same tools and code to bring the data from a database into your solution, and you can use Windows Forms controls to display the data.
 
@@ -33,7 +30,7 @@ The following example shows how to add data-bound controls in document-level pro
 
 ### To populate a document with data from a database
 
-1. Open a Word document-level project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], with the document open in the designer.
+1. Open a Word document-level project in Visual Studio, with the document open in the designer.
 
 2. Open the **Data Sources** window and create a data source from a database. For more information, see [Add new connections](../data-tools/add-new-connections.md).
 
@@ -63,7 +60,7 @@ When you run the project, the control displays the first record in the data sour
 
 For information about how to send updates to the typed dataset and the database, see [How to: Update a data source with data from a host control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md).
 
-## See also
+## Related content
 
 - [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
 - [Add new data sources](../data-tools/add-new-data-sources.md)

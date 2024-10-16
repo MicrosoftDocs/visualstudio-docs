@@ -1,40 +1,40 @@
 ---
 description: "Retrieves the application domain identifier given the debug address."
-title: IDebugSymbolProviderDirect::GetAppIDFromAddress | Microsoft Docs
+title: IDebugSymbolProviderDirect::GetAppIDFromAddress
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugSymbolProviderDirect::GetAppIDFromAddress
 - GetAppIDFromAddress
-ms.assetid: d76a0f36-79c4-4c58-9db3-880b00d11610
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugSymbolProviderDirect::GetAppIDFromAddress
+
 Retrieves the application domain identifier given the debug address.
 
 ## Syntax
 
-```cpp
-HRESULT GetAppIDFromAddress(
-   IDebugAddress* pAddress,
-   DWORD*         pAppID
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAppIDFromAddress(
    IDebugAddress pAddress,
    out uint      pAppID
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAppIDFromAddress(
+   IDebugAddress* pAddress,
+   DWORD*         pAppID
+);
+```
+---
 
 ## Parameters
 `pAddress`\

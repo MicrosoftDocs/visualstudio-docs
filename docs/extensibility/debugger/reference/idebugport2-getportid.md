@@ -1,39 +1,39 @@
 ---
 description: "Gets the port identifier."
-title: IDebugPort2::GetPortId | Microsoft Docs
+title: IDebugPort2::GetPortId
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPort2::GetPortId
 helpviewer_keywords:
 - IDebugPort2::GetPortId
-ms.assetid: 837cb924-c113-4224-aa86-3e02b33dfa70
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPort2::GetPortId
+
 Gets the port identifier.
 
 ## Syntax
 
-```cpp
-HRESULT GetPortId( 
-   GUID* pguidPort
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPortId( 
    out Guid pguidPort
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPortId( 
+   GUID* pguidPort
+);
+```
+---
 
 ## Parameters
 `pguidPort`\

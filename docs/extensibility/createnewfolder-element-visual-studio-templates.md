@@ -1,22 +1,19 @@
 ---
-title: CreateNewFolder Element (Visual Studio Templates) | Microsoft Docs
+title: CreateNewFolder Element (Visual Studio Templates)
 description: Learn about the CreateNewFolder element and how it determines whether to check that the target directory where the project is to be created does not exist.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#CreateNewFolder
 helpviewer_keywords:
 - CreateNewFolder element [Visual Studio project templates]
-ms.assetid: acef2016-4140-45d6-ace8-b8160eabd676
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
 ---
 # CreateNewFolder element (Visual Studio templates)
+
 Determines whether to check that the target directory where the project is to be created does not exist. If the directory does exist, a fresh directory can be created for the project. This setting is typically overridden by the `NewProjectRequiresNewFolder(VsTemplate)` registry flag (`HKEY_LOCAL_MACHINE/SOFTWARE(/Wow6432Node)/Microsoft/VisualStudio/<version number>/Projects/<project GUID>`) that all common project types use to determine whether to create a new project in a new directory.
 
  \<VSTemplate>
@@ -57,7 +54,7 @@ Determines whether to check that the target directory where the project is to be
 ## Remarks
  `CreateNewFolder` is an optional element. The default value is `true`.
 
- The value specified in the `CreateNewFolder` element is only honored by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] if the underlying project system supports it.
+ The value specified in the `CreateNewFolder` element is only honored by Visual Studio if the underlying project system supports it.
 
 ## Example
  The following code example specifies not to create a new folder when a project is created from the template.

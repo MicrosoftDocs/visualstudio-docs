@@ -1,37 +1,27 @@
 ---
 description: "Compares this document context to a given array of document contexts."
-title: IDebugDocumentContext2::Compare | Microsoft Docs
+title: IDebugDocumentContext2::Compare
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentContext2::Compare
 helpviewer_keywords:
 - IDebugDocumentContext2::Compare
-ms.assetid: 2327b1ba-52d0-42fb-a01e-63cb4b332d2f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugDocumentContext2::Compare
+
 Compares this document context to a given array of document contexts.
 
 ## Syntax
 
-```cpp
-HRESULT Compare( 
-   DOCCONTEXT_COMPARE       compare,
-   IDebugDocumentContext2** rgpDocContextSet,
-   DWORD                    dwDocContextSetLen,
-   DWORD*                   pdwDocContext
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Compare( 
    enum_ DOCCONTEXT_COMPARE compare,
@@ -40,6 +30,16 @@ int Compare( 
    out uint                 pdwDocContext
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Compare( 
+   DOCCONTEXT_COMPARE       compare,
+   IDebugDocumentContext2** rgpDocContextSet,
+   DWORD                    dwDocContextSetLen,
+   DWORD*                   pdwDocContext
+);
+```
+---
 
 ## Parameters
 `compare`\

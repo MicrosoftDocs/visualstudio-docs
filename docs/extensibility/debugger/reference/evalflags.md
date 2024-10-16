@@ -1,28 +1,39 @@
 ---
 description: "Specifies flags that control expression evaluation."
-title: EVALFLAGS | Microsoft Docs
+title: EVALFLAGS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - EVALFLAGS
 helpviewer_keywords:
 - EVALFLAGS enumeration
-ms.assetid: 7b2cb14a-511a-4fef-9e4f-308139719fba
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # EVALFLAGS
+
 Specifies flags that control expression evaluation.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_EVALFLAGS {
+    EVAL_RETURNVALUE = 0x0002,
+    EVAL_NOSIDEEFFECTS = 0x0004,
+    EVAL_ALLOWBPS = 0x0008,
+    EVAL_ALLOWERRORREPORT = 0x0010,
+    EVAL_FUNCTION_AS_ADDRESS = 0x0040,
+    EVAL_NOFUNCEVAL = 0x0080,
+    EVAL_NOEVENTS = 0x1000
+}
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_EVALFLAGS {
     EVAL_RETURNVALUE = 0x0002,
@@ -35,18 +46,7 @@ enum enum_EVALFLAGS {
 };
 typedef DWORD EVALFLAGS;
 ```
-
-```csharp
-public enum enum_EVALFLAGS {
-    EVAL_RETURNVALUE = 0x0002,
-    EVAL_NOSIDEEFFECTS = 0x0004,
-    EVAL_ALLOWBPS = 0x0008,
-    EVAL_ALLOWERRORREPORT = 0x0010,
-    EVAL_FUNCTION_AS_ADDRESS = 0x0040,
-    EVAL_NOFUNCEVAL = 0x0080,
-    EVAL_NOEVENTS = 0x1000
-}
-```
+---
 
 ## Fields
 `EVAL_RETURNVALUE`\

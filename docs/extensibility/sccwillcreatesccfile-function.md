@@ -1,21 +1,19 @@
 ---
 description: "This function determines whether the source control plug-in supports the creation of the MSSCCPRJ.SCC file for each of the given files."
-title: SccWillCreateSccFile Function | Microsoft Docs
+title: SccWillCreateSccFile Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccWillCreateSccFile
 helpviewer_keywords:
 - SccWillCreateSccFile function
-ms.assetid: 0d7542f0-4351-41b3-b24c-960ab99c05a1
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # SccWillCreateSccFile Function
+
 This function determines whether the source control plug-in supports the creation of the MSSCCPRJ.SCC file for each of the given files.
 
 ## Syntax

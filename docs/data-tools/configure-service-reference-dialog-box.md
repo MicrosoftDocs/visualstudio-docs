@@ -1,24 +1,23 @@
 ---
 title: Configure Service Reference Dialog Box
 description: Use the Configure Service Reference dialog box in Visual Studio to configure the behavior of Windows Communication Foundation (WCF) services.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: ui-reference
 f1_keywords:
 - msvse_wcf.dlg.ConfigureServiceReference
 helpviewer_keywords:
 - WCF services, Configure Service Reference dialog box
 - service references [Visual Studio], configuring behavior
 - Configure Service Reference dialog box
-ms.assetid: 25e4c36b-2db6-4e71-9010-b7068255d09d
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
+
 # Configure Service Reference dialog box
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 The **Configure Service Reference** dialog box enables you to configure the behavior of Windows Communication Foundation (WCF) services.
 
@@ -30,19 +29,19 @@ To access the **Configure Service Reference** dialog box, right-click a service 
 
 - To change the access level for classes in a WCF client, select an access-level keyword in the **Access level for generated classes** list.
 
-- To call the methods of a WCF service asynchronously, select the **Generate asynchronous operations** check box.
+- To call the methods of a WCF service asynchronously, select the **Generate asynchronous operations** checkbox.
 
-- To generate message contract types in a WCF client, select the **Always generate message contracts** check box.
+- To generate message contract types in a WCF client, select the **Always generate message contracts** checkbox.
 
 - To specify list or dictionary collection types for a WCF client, select the types from the **Collection type** and **Dictionary collection type** lists.
 
-- To disable type sharing, clear the **Reuse types in referenced assemblies** check box. To enable type sharing for a subset of referenced assemblies, select the **Reuse types in referenced assemblies** check box, select **Reuse types in specified referenced assemblies**, and select the desired references in the **Referenced assemblies list**.
+- To disable type sharing, clear the **Reuse types in referenced assemblies** checkbox. To enable type sharing for a subset of referenced assemblies, select the **Reuse types in referenced assemblies** checkbox, select **Reuse types in specified referenced assemblies**, and select the desired references in the **Referenced assemblies list**.
 
 ## UIElement list
 
 **Address**
 
-Updates the web address where a service reference looks for a service. For example, during development, the service may be hosted on a development server and then later moved to a production server, necessitating an address change.
+Updates the web address where a service reference looks for a service. For example, during development, the service might be hosted on a development server and then later moved to a production server, necessitating an address change.
 
 > [!NOTE]
 > The Address element is not available when the **Configure Service Reference** dialog box is displayed from the **Add Service Reference Dialog Box**.

@@ -1,26 +1,25 @@
 ---
-description: "Describes an entry in an address map."
-title: "DiaAddressMapEntry | Microsoft Docs"
+description: Describes an entry in an address map.
+title: DiaAddressMapEntry
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "DiaAddressMapEntry enumeration"
-ms.assetid: 5d0ae226-981d-4541-a801-fc4993fe663b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # DiaAddressMapEntry
+
 Describes an entry in an address map.
 
 ## Syntax
 
-```C++
+```c++
 struct DiaAddressMapEntry {
     DWORD rva,
     DWORD rvaTo
@@ -28,13 +27,14 @@ struct DiaAddressMapEntry {
 ```
 
 ## Elements
-`rva`
-A relative virtual address (RVA) in image A.
 
-`rvaTo`
-The relative virtual address `rva` is mapped to in image B.
+| Element | Description                                                 |
+| ------- | ----------------------------------------------------------- |
+| `rva`   | A relative virtual address (RVA) in image A.                |
+| `rvaTo` | The relative virtual address `rva` is mapped to in image B. |
 
 ## Remarks
+
 An address map provides a translation from one image layout (A) to another (B). An array of `DiaAddressMapEntry` structures sorted by `rva` defines an address map.
 
 To translate an address, `addrA`, in image A to an address, `addrB`, in image B, perform the following steps:
@@ -48,8 +48,10 @@ To translate an address, `addrA`, in image A to an address, `addrB`, in image B,
     An array of `DiaAddressMapEntry` structures is passed to the [IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap-set-addressmap.md) method.
 
 ## Requirements
+
 Header: dia2.h
 
 ## See also
+
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 - [IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap-set-addressmap.md)

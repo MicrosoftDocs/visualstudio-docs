@@ -1,39 +1,39 @@
 ---
 description: "This method returns a copy of the current fields enumeration as a separate object."
-title: IEnumDebugFields::Clone | Microsoft Docs
+title: IEnumDebugFields::Clone
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugFields::Clone
 helpviewer_keywords:
 - IEnumDebugFields::Clone method
-ms.assetid: 7ec265a8-696f-45ce-a2a2-0a83e96fee1b
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugFields::Clone
+
 This method returns a copy of the current enumeration as a separate object.
 
 ## Syntax
 
-```cpp
-HRESULT Clone(
-   IEnumDebugFields** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Clone(
    out IEnumDebugFields ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Clone(
+   IEnumDebugFields** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

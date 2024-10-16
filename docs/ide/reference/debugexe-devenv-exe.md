@@ -1,7 +1,6 @@
 ---
 title: -DebugExe (devenv.exe)
 description: Learn how to use the DebugExe devenv command-line switch to open a specified executable file to be debugged.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
@@ -9,13 +8,10 @@ helpviewer_keywords:
 - DebugExe switch
 - /DebugExe [devenv.exe]
 - debugging executables
-ms.assetid: cd700006-1648-418f-924b-4b1e5c1412ab
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # /DebugExe (devenv.exe)
 
@@ -36,6 +32,8 @@ devenv /DebugExe ExecutableFile
 ## Remarks
 
 Any strings following the *ExecutableFile* parameter are passed to that file as arguments.
+
+Visual Studio will parse any strings following the *ExecutableFile* parameter for matches in [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md). You can prevent Visual Studio from parsing a command-line switch by surrounding the switch with double quotes.
 
 ## Example
 

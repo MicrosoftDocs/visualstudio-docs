@@ -1,22 +1,19 @@
 ---
-title: Exposing Events in the Visual Studio SDK | Microsoft Docs
+title: Exposing Events in the Visual Studio SDK
 description: Learn about the Visual Studio SDK methods and registry entries that expose events for projects and project items.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - events [Visual Studio], exposing
 - automation [Visual Studio SDK], exposing events
-ms.assetid: 70bbc258-c221-44f8-b0d7-94087d83b8fe
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Expose events in the Visual Studio SDK
-[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] lets you source events by using automation. We recommend that you source events for projects and project items.
+
+Visual Studio lets you source events by using automation. We recommend that you source events for projects and project items.
 
  Events are retrieved by automation consumers from the <xref:EnvDTE.DTEClass.Events%2A> object or <xref:EnvDTE.DTEClass.GetObject%2A> (for example, `GetObject("EventObjectName")`). The environment calls `IDispatch::Invoke` by using the `DISPATCH_METHOD` or `DISPATCH_PROPERTYGET` flags to return an event.
 
@@ -41,13 +38,14 @@ ms.workload:
    To expose an event by using automation, you must respond to <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A> and watch for the strings that you add to the registry. In the Basic Project sample, the strings are *BscProjectsEvents* and *BscProjectItemsEvents*.
 
 ## Registry entries from the Basic Project sample
- This section shows where to add automation event values to the registry.
 
- **[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0\Packages\\<PkgGUID\>\AutomationEvents]**
+This section shows where to add automation event values to the registry.
 
- **AutomationProjectEvents** = Returns the `AutomationProjectEvents` object.
+**[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0\Packages\\<PkgGUID\>\AutomationEvents]**
 
- **AutomationProjectItemEvents** = Returns the `AutomationProjectItemsEvents` object.
+**AutomationProjectEvents** = Returns the `AutomationProjectEvents` object.
+
+**AutomationProjectItemEvents** = Returns the `AutomationProjectItemsEvents` object.
 
 |Name|Type|Range|Description|
 |----------|----------|-----------|-----------------|
@@ -55,23 +53,24 @@ ms.workload:
 |*AutomationProjectsEvents*|REG_SZ|Name of your event object.|Only the key name is relevant. You can use the data field for documentation.<br /><br /> This example comes from the Basic Project sample.|
 |*AutomationProjectItemEvents*|REG_SZ|Name of your event object|Only the key name is relevant. You can use the data field for documentation.<br /><br /> This example comes from the Basic Project sample.|
 
- When any of your event objects are requested by an automation consumer, create a root object that has methods for any event that your VSPackage supports. The environment calls the appropriate `get_` method on this object. For example, if `DTE.Events.AutomationProjectsEvents` is called, the `get_AutomationProjectsEvents` method on the root object is invoked.
+When any of your event objects are requested by an automation consumer, create a root object that has methods for any event that your VSPackage supports. The environment calls the appropriate `get_` method on this object. For example, if `DTE.Events.AutomationProjectsEvents` is called, the `get_AutomationProjectsEvents` method on the root object is invoked.
 
- ![Visual Studio project events](../../extensibility/internals/media/projectevents.gif "ProjectEvents")
+![Visual Studio project events](../../extensibility/internals/media/projectevents.gif "ProjectEvents")
+ 
 Automation model for events
 
- The class `CProjectEventsContainer` represents the source object for *BscProjectsEvents*, and `CProjectItemsEventsContainer` represents the source object for *BscProjectItemsEvents*.
+The class `CProjectEventsContainer` represents the source object for *BscProjectsEvents*, and `CProjectItemsEventsContainer` represents the source object for *BscProjectItemsEvents*.
 
- In most cases, you must return a new object for every event request because most event objects take a filter object. When you fire your event, check this filter to verify that the event handler is being called.
+In most cases, you must return a new object for every event request because most event objects take a filter object. When you fire your event, check this filter to verify that the event handler is being called.
 
- *AutomationEvents.h* and *AutomationEvents.cpp* contain declarations and implementations of the classes in the following table.
+*AutomationEvents.h* and *AutomationEvents.cpp* contain declarations and implementations of the classes in the following table.
 
 |Class|Description|
 |-----------|-----------------|
 |`CAutomationEvents`|Implements an event root object, retrieved from the `DTE.Events` object.|
 |`CProjectsEventsContainer` and `CProjectItemsEventsContainer`|Implement the event source objects that fire the corresponding events.|
 
- The following code example shows how to respond to a request for an event object.
+The following code example shows how to respond to a request for an event object.
 
 ```cpp
 STDMETHODIMP CVsPackage::GetAutomationObject(
@@ -102,9 +101,10 @@ STDMETHODIMP CVsPackage::GetAutomationObject(
 }
 ```
 
- In the code above, `g_wszAutomationProjects` is the name of your project collection (*FigProjects*), `g_wszAutomationProjectsEvents` (*FigProjectsEvents*) and `g_wszAutomationProjectItemsEvents` (*FigProjectItemEvents*) are the names of project events and project items events that are sourced from your VSPackage implementation.
+In the code above, `g_wszAutomationProjects` is the name of your project collection (*FigProjects*), `g_wszAutomationProjectsEvents` (*FigProjectsEvents*) and `g_wszAutomationProjectItemsEvents` (*FigProjectItemEvents*) are the names of project events and project items events that are sourced from your VSPackage implementation.
 
- Event objects are retrieved from the same central location, the `DTE.Events` object. This way, all event objects are grouped together so that an end user does not have to browse the entire object model to find a specific event. This also lets you provide your specific VSPackage objects, instead of requiring you to implement your own code for system-wide events. However, for the end user, who must find an event for your `ProjectItem` interface, it is not immediately clear from where that event object is retrieved.
+Event objects are retrieved from the same central location, the `DTE.Events` object. This way, all event objects are grouped together so that an end user does not have to browse the entire object model to find a specific event. This also lets you provide your specific VSPackage objects, instead of requiring you to implement your own code for system-wide events. However, for the end user, who must find an event for your `ProjectItem` interface, it is not immediately clear from where that event object is retrieved.
 
-## See also
+## Related content
+
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A>

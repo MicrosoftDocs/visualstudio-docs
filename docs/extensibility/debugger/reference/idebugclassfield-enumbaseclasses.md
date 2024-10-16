@@ -1,39 +1,39 @@
 ---
 description: "Creates an enumerator for the base classes of this class."
-title: IDebugClassField::EnumBaseClasses | Microsoft Docs
+title: IDebugClassField::EnumBaseClasses
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugClassField::EnumBaseClasses
 helpviewer_keywords:
 - IDebugClassField::EnumBaseClasses method
-ms.assetid: 78749674-ef75-46d3-a1f4-ff33afd90e32
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugClassField::EnumBaseClasses
+
 Creates an enumerator for the base classes of this class.
 
 ## Syntax
 
-```cpp
-HRESULT EnumBaseClasses( 
-   IEnumDebugFields** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumBaseClasses(
    out IEnumDebugFields ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumBaseClasses( 
+   IEnumDebugFields** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

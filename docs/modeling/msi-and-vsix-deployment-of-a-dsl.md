@@ -1,17 +1,15 @@
 ---
 title: MSI and VSIX Deployment of a DSL
 description: Learn how you can install a domain-specific language (DSL) on your own computer or on other computers. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # MSI and VSIX Deployment of a DSL
+
 You can install a domain-specific language on your own computer or on other computers. Visual Studio must already be installed on the target computer.
 
 ## <a name="which"></a> Choosing between VSIX and MSI Deployment
@@ -36,7 +34,7 @@ When your DSL is installed by this method, the user can open a DSL file from wit
 
 2. Copy the **.vsix** file to the target computer on which you want to install the DSL. This can be your own computer or another one.
 
-   - The target computer must have one of the editions of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] that supports DSLs at run time. For more information, see [Supported Visual Studio Editions for Visualization & Modeling SDK](../modeling/supported-visual-studio-editions-for-visualization-amp-modeling-sdk.md).
+   - The target computer must have one of the editions of Visual Studio that supports DSLs at run time. For more information, see [Supported Visual Studio Editions for Visualization & Modeling SDK](../modeling/supported-visual-studio-editions-for-visualization-amp-modeling-sdk.md).
 
    - The target computer must have one of the editions of Visual Studio specified in **DslPackage\source.extensions.manifest**.
 
@@ -44,7 +42,7 @@ When your DSL is installed by this method, the user can open a DSL file from wit
 
     **Visual Studio Extension Installer** opens and installs the extension.
 
-4. Start or restart [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)].
+4. Start or restart Visual Studio.
 
 5. To test the DSL, use Visual Studio to create a new file that has the extension that you defined for your DSL.
 

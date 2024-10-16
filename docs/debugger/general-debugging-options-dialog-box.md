@@ -1,9 +1,8 @@
 ---
-title: "General, Debugging, Options Dialog Box | Microsoft Docs"
+title: "General, Debugging, Options Dialog Box"
 description: Set Visual Studio debugger options to meet your debugging needs. You can configure break behavior, debugging levels, display behavior, and much else.
-ms.custom: SEO-VS-2020
-ms.date: "06/04/2020"
-ms.topic: "reference"
+ms.date: "12/09/2022"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.options.General"
   - "VS.ToolsOptionsPages.Debugger.General"
@@ -17,13 +16,10 @@ dev_langs:
   - "JScript"
 helpviewer_keywords:
   - "Options dialog box, debugging"
-ms.assetid: b33aee0b-43c3-4c26-8ed4-bc673f491503
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # General debugging options
 
@@ -139,6 +135,7 @@ Controls the direction in which stacks are displayed in the **Parallel Stacks** 
 **Ignore GPU memory access exceptions if the data written didn't change the value**:
 Ignores race conditions that were detected during debugging if the data didn't change. For more information, see [Debugging GPU Code](../debugger/debugging-gpu-code.md).
 
+::: moniker range="<= vs-2019"
 **Use Managed Compatibility Mode**:
 Replaces the default debugging engine with a legacy version to enable these scenarios:
 
@@ -148,10 +145,6 @@ Replaces the default debugging engine with a legacy version to enable these scen
 
 > [!NOTE]
 > Choosing Managed Compatibility mode disables some features that are implemented only in the default debugging engine. The legacy debugging engine was replaced in Visual Studio 2012.
-
-::: moniker range="vs-2017"
-**Use the legacy C# and VB expression evaluators**:
-The debugger will use the Visual Studio 2013 C# or Visual Basic expression evaluators rather than the Visual Studio 2015 Roslyn-based expression evaluators.
 ::: moniker-end
 
 **Warn when using custom debugger visualizers against potentially unsafe processes (Managed only)**:
@@ -167,7 +160,7 @@ The Live Visual Tree and the Live Property Explore windows will appear when you 
     The XAML element whose context is selected is also selected in the **Live Visual Tree** window.
 
 - **Show runtime tools in application**:
-    Shows the **Live Visual Tree** commands in a toolbar on the main window of the XAML application that is being debugged. This option was introduced in Visual Studio 2015 Update 2.
+    Shows the **Live Visual Tree** commands in a toolbar on the main window of the XAML application that is being debugged.
 
 - **Enable XAML Hot Reload**:
     Allows you to use the XAML Hot Reload feature with XAML code when your app is running. (This feature was previously called "XAML Edit and Continue")
@@ -219,6 +212,11 @@ Enables this [memory optimization](https://devblogs.microsoft.com/cppblog/out-of
 Switches Visual Studio to the foreground when you pause in the debugger.
 ::: moniker-end
 
+::: moniker range=">= vs-2022"
+**Keep expanded data tips open until clicked away**
+When this option is selected, an expanded data tip stays expanded until you click away from it.
+::: moniker-end
+
 ## Options available in older versions of Visual Studio
 
 If you're using an older version of Visual Studio, some additional options might be present.
@@ -244,10 +242,15 @@ Displays a warning dialog box when you debug a program for which the debugger ha
 **Warn if script debugging is disabled on launch**:
 Displays a warning dialog box when the debugger is launched with script debugging disabled.
 
+::: moniker range="vs-2019"
+**Use Managed Compatibility Mode**:
+When this option is selected, the debugger uses the Visual Studio 2010 managed debugger, which was required when you debug C++/CLI code.
+
 **Use Native Compatibility Mode**:
 When this option is selected, the debugger uses the Visual Studio 2010 native debugger instead of the new native debugger.
 
 - Use this option when you are debugging .NET C++ code, because the new debugging engine does not support evaluating .NET C++ expressions. However, enabling Native Compatibility Mode disables many features that depend on the current debugger implementation to operate. For example, the legacy engine lacks many visualizers for built-in types like `std::string` in Visual Studio 2015 projects.   Use Visual Studio 2013 projects for the optimal debugging experience in these cases.
+::: moniker-end
 
 ## See also
 

@@ -1,7 +1,6 @@
 ---
-title: "Designing a Business Data Connectivity Model | Microsoft Docs"
+title: "Designing a Business Data Connectivity Model"
 description: Design a business data connectivity (BDC) model. Add entities and methods. Define method parameters. Add filter descriptors. Validate the BDC model.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,12 +11,11 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], designing a model"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Design a business data connectivity model
+
   You can develop a model for the Business Data Connectivity (BDC) service by adding entities and methods to a model file. An entity describes a collection of data fields. For example, an entity can represent a table in a database. A method performs a task such as adding, deleting, or updating data represented by the entities. For more information, see [Integrate business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md).
 
 ## Add entities
@@ -123,5 +121,5 @@ ms.workload:
 |[How to: Add a filter descriptor to a Finder method](../sharepoint/how-to-add-a-filter-descriptor-to-a-finder-method.md)|Shows you how to enable users to limit the number of instances returned by a Finder method.|
 |[Creating an Association Between Entities](../sharepoint/creating-an-association-between-entities.md)|Describes how you can define relationships between entities in the model. Business Data Web Parts, External Lists, and custom applications can display these data relationships in a user interface (UI).|
 |[How to: Create an association between entities](../sharepoint/how-to-create-an-association-between-entities.md)|Shows you how to define relationships between entities in the model.|
-|[Walkthrough: Createan external list in SharePoint by using business data](../sharepoint/walkthrough-creating-an-external-list-in-sharepoint-by-using-business-data.md)|Provides step-by-step instructions that show you how to create and test a model that displays contacts in a SharePoint external list.|
+|[Walkthrough: Create an external list in SharePoint by using business data](../sharepoint/walkthrough-creating-an-external-list-in-sharepoint-by-using-business-data.md)|Provides step-by-step instructions that show you how to create and test a model that displays contacts in a SharePoint external list.|
 |[Integrate business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)|Provides an overview of creating and designing models for the BDC service.|

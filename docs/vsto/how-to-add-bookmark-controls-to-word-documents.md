@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Bookmark controls to Word documents"
+title: "Add Bookmark controls to Word documents"
 description: Learn that in document-level projects, you can add Bookmark controls to the document in your project at design time or at run time.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -14,12 +14,11 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], adding to documents"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Add Bookmark controls to Word documents
+# Add Bookmark controls to Word documents
+
   In document-level projects, you can add <xref:Microsoft.Office.Tools.Word.Bookmark> controls to the document in your project at design time or at run time. In VSTO Add-in projects, you can add <xref:Microsoft.Office.Tools.Word.Bookmark> controls to any open document at run time.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
@@ -67,7 +66,7 @@ ms.workload:
 
 #### To add a Bookmark control to a document in Word
 
-1. In the document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, put the cursor where you want to add the bookmark, or select the text that you want the bookmark to enclose.
+1. In the document that is hosted in the Visual Studio designer, put the cursor where you want to add the bookmark, or select the text that you want the bookmark to enclose.
 
 2. On the **Insert** tab of the Ribbon, in the **Links** group, click the **Bookmark** button.
 
@@ -86,8 +85,12 @@ ms.workload:
 
 1. In the `ThisDocument_Startup` event handler in your project, insert the following code to add the <xref:Microsoft.Office.Tools.Word.Bookmark> control to the first paragraph in the document.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_vstcorehostcontrolsword/ThisDocument.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsWordVB/ThisDocument.vb" id="Snippet1":::
+     ---
 
     > [!NOTE]
     > If you want create a <xref:Microsoft.Office.Tools.Word.Bookmark> control from an existing <xref:Microsoft.Office.Interop.Word.Bookmark>, use the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddBookmark%2A> method and pass in the existing <xref:Microsoft.Office.Interop.Word.Bookmark>.
@@ -109,8 +112,12 @@ ms.workload:
 
      The following code example adds a new <xref:Microsoft.Office.Tools.Word.Bookmark> to the beginning of the active document. To use this example, run the code from the `ThisAddIn_Startup` event handler in a Word VSTO Add-in project.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet4":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs" id="Snippet4":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet4":::
+     ---
 
 #### To add a Bookmark control that is based on a native Bookmark control
 
@@ -118,14 +125,17 @@ ms.workload:
 
      The following code example creates a new <xref:Microsoft.Office.Tools.Word.Bookmark> that is based on the first <xref:Microsoft.Office.Interop.Word.Bookmark> in the active document. To use this example, run the code from the `ThisAddIn_Startup` event handler in a Word VSTO Add-in project.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet5":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs" id="Snippet5":::
 
-## See also
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb" id="Snippet5":::
+     ---
+
+## Related content
 - [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
 - [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
 - [Program document-level customizations](../vsto/programming-document-level-customizations.md)
-- [How to: Resize Bookmark controls](../vsto/how-to-resize-bookmark-controls.md)

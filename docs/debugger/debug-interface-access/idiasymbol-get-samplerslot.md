@@ -1,19 +1,17 @@
 ---
 description: "Retrieves the sampler slot."
-title: "IDiaSymbol::get_samplerSlot | Microsoft Docs"
+title: "IDiaSymbol::get_samplerSlot"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: 41c751ba-81be-4bd3-838f-8373fc146157
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_samplerSlot
+
 Retrieves the sampler slot.
 
 ## Syntax

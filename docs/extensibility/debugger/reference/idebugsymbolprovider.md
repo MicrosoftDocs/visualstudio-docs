@@ -1,21 +1,19 @@
 ---
 description: "This interface represents a symbol provider that provides symbols and types, returning them as fields."
-title: IDebugSymbolProvider | Microsoft Docs
+title: IDebugSymbolProvider
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugSymbolProvider
 helpviewer_keywords:
 - IDebugSymbolProvider interface
-ms.assetid: df5f095f-1dee-46f9-84cf-92417c71d5fb
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugSymbolProvider
+
 This interface represents a symbol provider that provides symbols and types, returning them as fields.
 
 ## Syntax

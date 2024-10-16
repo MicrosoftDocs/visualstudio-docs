@@ -1,41 +1,41 @@
 ---
 description: "Notifies the debug package that text has been removed from the document."
-title: IDebugDocumentTextEvents2::onRemoveText | Microsoft Docs
+title: IDebugDocumentTextEvents2::onRemoveText
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentTextEvents2::OnRemoveText
 helpviewer_keywords:
 - IDebugDocumentTextEvents2::onRemoveText
-ms.assetid: 1ebeabb2-52a1-4ccc-83cd-9ae7c3541783
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugDocumentTextEvents2::onRemoveText
+
 Notifies the debug package that text has been removed from the document.
 
 ## Syntax
 
-```cpp
-HRESULT onRemoveText( 
-   TEXT_POSITION pos,
-   DWORD         dwNumToRemove
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int onRemoveText( 
    enum_TEXT_POSITION pos,
    uint               dwNumToRemove
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT onRemoveText( 
+   TEXT_POSITION pos,
+   DWORD         dwNumToRemove
+);
+```
+---
 
 ## Parameters
 `pos`\

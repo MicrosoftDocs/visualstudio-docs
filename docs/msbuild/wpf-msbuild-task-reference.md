@@ -1,26 +1,21 @@
 ---
-title: "WPF MSBuild Task Reference | Microsoft Docs"
+title: "WPF MSBuild Task Reference"
 description: See a task reference for the Windows Presentation Foundation (WPF) build process, which extends MSBuild with additional tasks.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-  - "jsharp"
 helpviewer_keywords:
   - "WPF MSBuild task reference [WPF MSBuild], term/definition table"
   - "build tasks [WPF MSBuild], Microsoft build engine"
   - "build tasks using the Microsoft build engine [WPF MSBuild], compile markup and process resources"
   - "WPF MSBuild task reference [WPF MSBuild]"
-ms.assetid: 96df0370-e50f-4ffc-9771-b12fb8721143
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # WPF MSBuild task reference
 

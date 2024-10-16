@@ -1,7 +1,6 @@
 ---
 title: Model user requirements
 description: Learn how Visual Studio helps you understand, discuss, and communicate your users' needs by drawing diagrams about their activities.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,14 +8,12 @@ helpviewer_keywords:
 - stories
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Model user requirements
 
-Visual Studio helps you understand, discuss, and communicate your users' needs by drawing diagrams about their activities and the part your system plays in helping them achieve their goals. A requirements model is a set of these diagrams, each of which focuses on a different aspect of the users' needs. For a video demonstration, see: [Modeling the Business Domain](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-3-modeling-the-business-domain).
+Visual Studio helps you understand, discuss, and communicate your users' needs by drawing diagrams about their activities and the part your system plays in helping them achieve their goals. A requirements model is a set of these diagrams, each of which focuses on a different aspect of the users' needs.
 
 To see which versions of Visual Studio support each type of model, see [Version support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
@@ -93,7 +90,7 @@ If a Restaurant deletes a Menu Item while a Customer is Ordering a Meal, any Ord
 
 See [Model your app's architecture](../modeling/model-your-app-s-architecture.md) to learn how to develop code that adheres to quality of service requirements.
 
-## See also
+## Related content
 
 - [Use models in your development process](../modeling/use-models-in-your-development-process.md)
 - [Model your app's architecture](../modeling/model-your-app-s-architecture.md)

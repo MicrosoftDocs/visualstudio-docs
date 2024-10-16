@@ -1,21 +1,18 @@
 ---
-title: Changing the Value of a Local | Microsoft Docs
+title: Changing the Value of a Local
 description: Learn about the process of changing the value of a local when a new value is typed in the value field of the Locals window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation, changing values programmatically
-ms.assetid: 8407d3df-d38a-4328-82d1-98084bef43ec
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Change the value of a local
+
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
@@ -40,9 +37,10 @@ ms.workload:
    This procedure is also used to change the value of a variable in the **Watch** window, except it is the `IDebugProperty2` object associated with the value of the local that is used instead of the `IDebugProperty2` object associated with the local itself.
 
 ## In this section
- [Sample implementation of changing values](../../extensibility/debugger/sample-implementation-of-changing-values.md)
- Uses the MyCEE sample to step through the process of changing values.
 
-## See also
+[Sample implementation of changing values](../../extensibility/debugger/sample-implementation-of-changing-values.md) uses the MyCEE sample to step through the process of changing values.
+
+## Related content
+
 - [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
 - [Displaying locals](../../extensibility/debugger/displaying-locals.md)

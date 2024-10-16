@@ -2,39 +2,26 @@
 description: "Load debug symbols from a data stream given the ICorDebugModule object."
 title: IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule
 titleSuffix: ""
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule
 - LoadSymbolsFromStreamWithCorModule
-ms.assetid: f79b894f-52c4-43c2-9a68-c71536451f6c
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule
+
 Load debug symbols from a data stream given the **ICorDebugModule** object.
 
 ## Syntax
 
-```cpp
-HRESULT LoadSymbolsFromStreamWithCorModule(
-    ULONG32   ulAppDomainID,
-    GUID      guidModule,
-    ULONGLONG baseAddress,
-    IUnknown* pUnkMetadataImport,
-    IUnknown* pUnkCorDebugModule,
-    IStream*  pStream
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int LoadSymbolsFromStreamWithCorModule(
     uint    ulAppDomainID,
@@ -45,6 +32,18 @@ int LoadSymbolsFromStreamWithCorModule(
     IStream pStream
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT LoadSymbolsFromStreamWithCorModule(
+    ULONG32   ulAppDomainID,
+    GUID      guidModule,
+    ULONGLONG baseAddress,
+    IUnknown* pUnkMetadataImport,
+    IUnknown* pUnkCorDebugModule,
+    IStream*  pStream
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

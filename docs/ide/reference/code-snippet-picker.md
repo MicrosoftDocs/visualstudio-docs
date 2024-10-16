@@ -1,7 +1,6 @@
 ---
 title: Code Snippet Picker
 description: Learn how to use the Code Snippet Picker to insert ready-made blocks of code into the active document.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -10,12 +9,10 @@ helpviewer_keywords:
 - Code Snippet Picker
 - IntelliSense code snippets, Code Snippet Picker
 - code snippets, Code Snippet Picker
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Code Snippet Picker
 
@@ -53,7 +50,7 @@ A list of code snippets available for insertion, or a list of folders containing
 
 ## See also
 
-- [Best Practices for Using Code Snippets](../../ide/best-practices-for-using-code-snippets.md)
-- [Visual Basic IntelliSense Code Snippets](/dotnet/visual-basic/developing-apps/using-ide/intellisense-code-snippets)
+- [Code Snippets](../../ide/code-snippets.md)
+- [Best Practices for Using Code Snippets](../../ide/code-snippets.md#best-practices-for-using-code-snippets)
 - [Setting Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)
-- [How to: Use Surround-with Code Snippets](../../ide/how-to-use-surround-with-code-snippets.md)
+- [Expansion snippets and surround-with snippets](../../ide/code-snippets.md#expansion-snippets-and-surround-with-snippets)

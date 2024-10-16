@@ -1,39 +1,39 @@
 ---
 description: "Retrieves an array of source server information."
-title: IDebugSourceServerModule::GetSourceServerData | Microsoft Docs
+title: IDebugSourceServerModule::GetSourceServerData
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugSourceServerModule::GetSourceServerData
-ms.assetid: f15d86aa-1bd9-4b16-a64a-21b01c27db2e
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugSourceServerModule::GetSourceServerData
+
 Retrieves an array of source server information.
 
 ## Syntax
 
-```cpp
-HRESULT GetSourceServerData(
-    ULONG* pDataByteCount,
-    BYTE** ppData
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int GetSourceServerData(
     out uint  pDataByteCount,
     out int[] ppData
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSourceServerData(
+    ULONG* pDataByteCount,
+    BYTE** ppData
+);
+```
+---
 
 ## Parameters
 `pDataByteCount`\

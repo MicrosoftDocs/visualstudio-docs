@@ -1,6 +1,6 @@
 ---
 description: "Writes the specified number of bytes of memory, starting at the specified address."
-title: IDebugMemoryBytes2::WriteAt | Microsoft Docs
+title: IDebugMemoryBytes2::WriteAt
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,30 +8,21 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugMemoryBytes2::WriteAt method
 - WriteAt method
-ms.assetid: 61cc3704-47fa-4d9b-aa62-bb4585ac8fb1
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugMemoryBytes2::WriteAt
+
 Writes the specified number of bytes of memory, starting at the specified address.
 
 ## Syntax
 
-```cpp
-HRESULT WriteAt( 
-   IDebugMemoryContext2* pStartContext,
-   DWORD                 dwCount,
-   BYTE*                 rgbMemory
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int WriteAt(
    IDebugMemoryContext2 pStartContext,
@@ -39,6 +30,15 @@ int WriteAt(
    byte[]               rgbMemory
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT WriteAt( 
+   IDebugMemoryContext2* pStartContext,
+   DWORD                 dwCount,
+   BYTE*                 rgbMemory
+);
+```
+---
 
 ## Parameters
 `pStartContext`\

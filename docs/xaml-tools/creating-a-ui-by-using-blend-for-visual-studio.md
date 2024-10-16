@@ -1,19 +1,17 @@
 ---
 title: Blend for Visual Studio feature tour
 titleSuffix: ''
-description: Learn about the workspace UI and features of Blend for Visual Studio, a component for designing XAML-based Windows and Web applications.
-ms.custom: SEO-VS-2020
-ms.date: 07/31/2019
+description: Explore the features and workspace UI in Blend for Visual Studio, a component for designing XAML-based Windows and Web applications.
+ms.date: 07/31/2024
 ms.topic: overview
 f1_keywords:
 - Blend.Start.Dev12
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xaml-tools
-ms.workload:
-- multiple
+author: maddymontaquila
+ms.author: maleger
+manager: mijacobs
+ms.subservice: xaml-tools
 ---
+
 # Blend for Visual Studio overview
 
 Blend for Visual Studio helps you design XAML-based Windows and Web applications. It provides the same basic XAML design experience as Visual Studio and adds visual designers for advanced tasks such as animations and behaviors. For a comparison between Blend and Visual Studio, see [Design XAML in Visual Studio and Blend for Visual Studio](../xaml-tools/designing-xaml-in-visual-studio.md).
@@ -23,6 +21,12 @@ Blend for Visual Studio is a component of Visual Studio. To install Blend, in th
 ![UWP workload components](media/installer-uwp.png)&nbsp;&nbsp;&nbsp;&nbsp;![.NET desktop development workload components](media/installer-dotnet-desktop.png)
 
 If you're new to Blend for Visual Studio, take a moment to become familiar with the unique features of the workspace. This topic takes you on a quick tour.
+
+::: moniker range=">= vs-2022"
+## Open Blend
+
+To switch to the Blend UI, open a XAML-based project in Visual Studio and select **View** > **Design in Blend...**, and the Blend for Visual Studio UI opens.
+::: moniker-end
 
 ## Tools panel
 

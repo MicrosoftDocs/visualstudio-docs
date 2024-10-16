@@ -1,39 +1,39 @@
 ---
 description: "Returns a copy of the current port suppliers enumeration as a separate object."
-title: IEnumDebugPortSuppliers2::Clone | Microsoft Docs
+title: IEnumDebugPortSuppliers2::Clone
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugPortSuppliers2::Clone
 helpviewer_keywords:
 - IEnumDebugPortSuppliers2::Clone
-ms.assetid: 98b9914d-4f32-44da-b422-68830bce44b4
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugPortSuppliers2::Clone
+
 Returns a copy of the current enumeration as a separate object.
 
 ## Syntax
 
-```cpp
-HRESULT Clone(
-   IEnumDebugPortSuppliers2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Clone(
    out IEnumDebugPortSuppliers2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Clone(
+   IEnumDebugPortSuppliers2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

@@ -1,39 +1,39 @@
 ---
 description: "Gets the reason why the debug engine (DE) wants to stop."
-title: IDebugCanStopEvent2::GetReason | Microsoft Docs
+title: IDebugCanStopEvent2::GetReason
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCanStopEvent2::GetReason
 helpviewer_keywords:
 - IDebugCanStopEvent2::GetReason
-ms.assetid: f5de31ca-7b8d-4029-9cf9-ba860ac66af6
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCanStopEvent2::GetReason
+
 Gets the reason why the debug engine (DE) wants to stop.
 
 ## Syntax
 
-```cpp
-HRESULT GetReason( 
-   CANSTOP_REASON* pcr
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetReason( 
    out enum_CANSTOP_REASON pcr
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetReason( 
+   CANSTOP_REASON* pcr
+);
+```
+---
 
 ## Parameters
 `pcr`\

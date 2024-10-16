@@ -1,19 +1,17 @@
 ---
 description: "Retrieves the sub type ID."
-title: "IDiaSymbol::get_subTypeId | Microsoft Docs"
+title: "IDiaSymbol::get_subTypeId"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: 0f899920-4fc5-4de8-84a3-cd98c57bf124
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_subTypeId
+
 Retrieves the sub type ID.
 
 ## Syntax

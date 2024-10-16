@@ -1,7 +1,6 @@
 ---
 title: Encoding and line break characters
 description: Learn about the characters that Visual Studio interprets as line breaks and how original encoding and line break characters are maintained.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -13,13 +12,10 @@ helpviewer_keywords:
 - editors, line breaks
 - line break characters
 - Visual Studio, line break characters
-ms.assetid: 8f9b3ffc-7b8d-44f4-87cb-dc29105be12d
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Encodings and line endings
 
@@ -55,6 +51,6 @@ You can use the **File** > **Advanced Save Options** dialog box to determine the
 >
 > Alternatively, you can access the **Advanced Save Options** dialog box by choosing **File** > **Save \<file\> As**. In the **Save File As** dialog box, choose the drop-down triangle next to the **Save** button and then choose **Save with encoding**.
 
-## See also
+## Related content
 
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

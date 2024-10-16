@@ -1,41 +1,41 @@
 ---
 description: "Contains an array of objects that describe programs of interest."
-title: PROGRAM_NODE_ARRAY | Microsoft Docs
+title: PROGRAM_NODE_ARRAY
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - PROGRAM_NODE_ARRAY
 helpviewer_keywords:
 - PROGRAM_NODE_ARRAY structure
-ms.assetid: 8eeea600-eda5-4b7c-868a-0b86d177b0a5
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # PROGRAM_NODE_ARRAY
+
 Contains an array of objects that describe programs of interest.
 
 ## Syntax
 
-```cpp
-typedef struct tagPROGRAM_NODE_ARRAY {
-   DWORD                dwCount;
-   IDebugProgramNode2** Members;
-} PROGRAM_NODE_ARRAY;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct tagPROGRAM_NODE_ARRAY {
    public uint                 dwCount;
    public IDebugProgramNode2[] Members;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagPROGRAM_NODE_ARRAY {
+   DWORD                dwCount;
+   IDebugProgramNode2** Members;
+} PROGRAM_NODE_ARRAY;
+```
+---
 
 ## Members
  `dwCount`\

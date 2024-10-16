@@ -1,9 +1,9 @@
 ---
-title: "Set symbol (.pdb) and source files in the debugger"
-description: "Learn how to configure and manage symbol and source files in Visual Studio"
-ms.custom: ""
-ms.date: "3/31/2021"
-ms.topic: "conceptual"
+title: "Symbol / PDB files in the Visual Studio debugger"
+titleSuffix: ""
+description: Configure symbol files (PDB) and source files in the Visual Studio debugger for C#, C++, Visual Basic, and F# applications.
+ms.date: "05/23/2024"
+ms.topic: "how-to"
 f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.Native"
   - "VS.ToolsOptionsPages.Debugger.Symbols"
@@ -23,60 +23,61 @@ helpviewer_keywords:
   - "dbg files"
   - "pdb files"
   - "debugger"
-ms.assetid: 1105e169-5272-4e7c-b3e7-cda1b7798a6b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Specify symbol (.pdb) and source files in the Visual Studio debugger (C#, C++, Visual Basic, F#)
 
 Program database (*.pdb*) files, also called symbol files, map identifiers and statements in your project's source code to corresponding identifiers and instructions in compiled apps. These mapping files link the debugger to your source code, which enables debugging.
 
-When you build a project from the Visual Studio IDE with the standard Debug build configuration, the compiler creates the appropriate symbol files. This article describes how to manage symbol files in the IDE, for example, how to [specify the location of symbols in the debugger options](#BKMK_Specify_symbol_locations_and_loading_behavior), how to [check symbol loading status](#work-with-symbols-in-the-modules-window) while debugging, and how to [set symbol options in code](#compiler-symbol-options).
+When you build a project from the Visual Studio IDE with the standard Debug build configuration, the compiler creates the appropriate symbol files. This article describes how to manage symbol files in the IDE, for example:
+
+- [Configure the location of symbol files](#configure-location-of-symbol-files-and-loading-options)
+- [Load symbols while debugging](#load-symbols-while-debugging)
+- [Compiler options for symbols](#compiler-symbol-options).
 
 For a detailed explanation of symbol files, see the following:
 
 - [Understand symbol files and Visual Studio symbol settings](https://devblogs.microsoft.com/devops/understanding-symbol-files-and-visual-studios-symbol-settings/)
 
-- [Why does Visual Studio require debugger symbol files to exactly match the binary files that they were built with?](/archive/blogs/jimgries/why-does-visual-studio-require-debugger-symbol-files-to-exactly-match-the-binary-files-that-they-were-built-with)
-
 ## How symbol files work
 
 The *.pdb* file holds debugging and project state information that allows incremental linking of a Debug configuration of your app. The Visual Studio debugger uses *.pdb* files to determine two key pieces of information while debugging:
 
-* The source file name and line number to display in the Visual Studio IDE.
-* Where in the app to stop for a breakpoint.
+- The source file name and line number to display in the Visual Studio IDE.
+- Where in the app to stop for a breakpoint.
 
 Symbol files also show the location of the source files, and optionally, the server to retrieve them from.
 
-The debugger only loads *.pdb* files that exactly match the *.pdb* files created when an app was built (that is, the original *.pdb* files or copies). This [exact duplication](/archive/blogs/jimgries/why-does-visual-studio-require-debugger-symbol-files-to-exactly-match-the-binary-files-that-they-were-built-with) is necessary because the layout of apps can change even if the code itself has not changed.
+The debugger only loads *.pdb* files that exactly match the *.pdb* files created when an app was built (that is, the original *.pdb* files or copies). This exact duplication is necessary because the layout of apps can change even if the code itself has not changed. For more information, see [Why does Visual Studio require debugger symbol files to exactly match the binary files that they were built with?](/archive/blogs/jimgries/why-does-visual-studio-require-debugger-symbol-files-to-exactly-match-the-binary-files-that-they-were-built-with)
 
 > [!TIP]
 > To debug code outside your project source code, such as Windows code or third-party code your project calls, you must specify the location of the external code's *.pdb* files (and optionally, the source files), which must exactly match the builds in your app.
 
-## Symbol file locations and loading behavior
+## Where the debugger looks for symbols
 
-When you debug a project in the Visual Studio IDE, the debugger automatically loads symbol files that are located in the project folder.
+When you debug a project in the Visual Studio IDE, the debugger automatically loads symbol files that it can find by default.
 
 > [!NOTE]
-> When debugging managed code on a remote device, all symbol files must be located either on the local machine, or in a location [specified in the debugger options](#BKMK_Specify_symbol_locations_and_loading_behavior).
+> When debugging managed code on a remote device, all symbol files must be located either on the local machine, or in a location [specified in the debugger options](#configure-location-of-symbol-files-and-loading-options).
 
-The debugger also searches for symbol files in the following locations:
+The debugger searches for symbol files in the following locations:
+
+1. The project folder.
 
 1. The location that is specified inside the DLL or the executable (*.exe*) file.
 
    By default, if you have built a DLL or an *.exe* file on your computer, the linker places the full path and filename of the associated *.pdb* file in the DLL or *.exe* file. The debugger checks to see if the symbol file exists in that location.
 
-2. The same folder as the DLL or *.exe* file.
+1. The same folder as the DLL or *.exe* file.
 
-3. Any locations specified in the debugger options for symbol files. To add and enable symbol locations, see [Configure symbol locations and loading options](#BKMK_Specify_symbol_locations_and_loading_behavior).
+1. Any locations specified in the debugger options for symbol files. To add and enable symbol locations, see [Configure symbol locations and loading options](#configure-location-of-symbol-files-and-loading-options).
 
    - Any local symbol cache folder.
 
-   - Specified network, internet, or local symbol servers and locations, such as the Microsoft Symbol Servers if selected. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can download debugging symbol files from symbol servers that implement the `symsrv` protocol. [Visual Studio Team Foundation Server](/azure/devops/pipelines/tasks/build/index-sources-publish-symbols) and the [Debugging Tools for Windows](/windows-hardware/drivers/debugger/index) are two tools that can use symbol servers.
+   - Specified network, internet, or local symbol servers and locations, such as the Microsoft Symbol Servers if selected. Visual Studio can download debugging symbol files from symbol servers that implement the `symsrv` protocol. [Visual Studio Team Foundation Server](/azure/devops/pipelines/tasks/build/index-sources-publish-symbols) and the [Debugging Tools for Windows](/windows-hardware/drivers/debugger/index) are two tools that can use symbol servers.
 
      Symbol servers you might use include:
 
@@ -86,19 +87,26 @@ The debugger also searches for symbol files in the following locations:
 
      **Third-party symbol servers**: Third-party providers of Windows applications and libraries can provide access to symbol server on the internet.
 
-     > [!WARNING]
-     > If you use a symbol server other than the public Microsoft Symbol Servers, make sure that the symbol server and its path are trustworthy. Because symbol files can contain arbitrary executable code, you can be exposed to security threats.
+  > [!WARNING]
+  > If you use a symbol server other than the public Microsoft Symbol Servers, make sure that the symbol server and its path are trustworthy. Because symbol files can contain arbitrary executable code, you can be exposed to security threats.
 
-<a name="BKMK_Specify_symbol_locations_and_loading_behavior"></a>
-### Configure symbol locations and loading options
+## Configure location of symbol files and loading options
+
+The debugger checks various locations for symbols by default. See [Where the debugger looks for symbols](#where-the-debugger-looks-for-symbols).
 
 On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
 
-- Specify and select search paths and symbol servers for Microsoft, Windows, or third-party components.
+- Specify and select search paths for symbol files.
+- Specify symbol servers for Microsoft, Windows, or third-party components.
 - Specify modules that you do or don't want the debugger to automatically load symbols for.
-- Change these settings while you are actively debugging. See [Manage symbols while debugging](#manage-symbols-while-debugging).
+- Change these settings while you are actively debugging. See [Load symbols while debugging](#load-symbols-while-debugging).
 
 **To specify symbol locations and loading options:**
+
+::: moniker range="= vs-2022"
+  > [!NOTE]
+  > These options were updated in Visual Studio 2022 Version 17.12 Preview 1.
+::: moniker-end
 
 1. In Visual Studio, open **Tools** > **Options** > **Debugging** > **Symbols** (or **Debug** > **Options** > **Symbols**).
 
@@ -109,14 +117,22 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
      1. Select the **+** symbol in the toolbar.
      1. Type the URL (http), network share, or local path of the symbol server or symbol location in the text field. Statement completion helps you find the correct format.
 
+    ::: moniker range=">= vs-2022"
+     ![Tools &#45; Options &#45; Debugging &#45; Symbols page](media/vs-2022/dbg-options-symbols.png "Tools &#45; Options &#45; Debugging &#45; Symbols page")
+    ::: moniker-end
+    ::: moniker range="<= vs-2019"
      ![Tools &#45; Options &#45; Debugging &#45; Symbols page](media/dbg-options-symbols.gif "Tools &#45; Options &#45; Debugging &#45; Symbols page")
+    ::: moniker-end
 
-     >[!NOTE]
-     >Only the specified folder is searched. You must add entries for any subfolders that you want to search.
+   > [!NOTE]
+   > Only the specified folder is searched. You must add entries for any subfolders that you want to search.
 
-   - To add a new VSTS Symbol Server location,
+   - To add a new Azure DevOps Symbol Server location:
+
      1. Select the ![Tools&#47; Options&#47; Debugging&#47;Symbols new server icon](media/dbg_tools_options_foldersicon.png "Tools &#45; Options &#45; Debugging &#45; Symbols new server icon") icon in the toolbar.
-     1. In the **Connect to VSTS Symbol Server** dialog, choose one of the available symbol servers, and select **Connect**.
+     1. In the **Connect to Azure DevOps Symbol Server** dialog, choose one of the available symbol servers, and select **Connect**.
+
+        For additional information, see [Add Azure Artifacts symbol server](/azure/devops/artifacts/symbols/debug-with-symbols-visual-studio#add-azure-artifacts-symbol-server).
 
    - To change the loading order for the symbol locations, use **Ctrl**+**Up** and **Ctrl**+**Down**, or the **Up** and **Down** arrow icons.
    - To edit a URL or path, double-click the entry, or select it and press **F2**.
@@ -124,19 +140,78 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
 
 3. (Optional) To improve symbol loading performance, under **Cache symbols in this directory**, type a local folder path that symbol servers can copy symbols to.
 
-   > [!NOTE]
-   > Do not place the local symbol cache in a protected folder, like C:\Windows or a subfolder. Use a read-write folder instead.
+  > [!NOTE]
+  > Do not place the local symbol cache in a protected folder, like C:\Windows or a subfolder. Use a read-write folder instead.
 
-   > [!NOTE]
-   > For C++ projects, if you have the `_NT_SYMBOL_PATH` environment variable set, it will override the value set under **Cache symbols in this directory**.
+  > [!NOTE]
+  > If you have the `_NT_SYMBOL_PATH` environment variable set, it overrides the value set under **Cache symbols in this directory**.
 
 4. Specify the modules that you want the debugger to load from the **Symbol file (.pdb) locations** when it starts.
+
+   ::: moniker range=">= vs-2022"
+
+   - Select **Automatically choose what module symbols to search for** (recommended) to allow
+   Visual studio to decide what symbols to search for and load. By default, Visual Studio
+   automatically loads symbols that were built by your opened solution, and loads any
+   additional symbols that are needed to perform common debugging operations. This reduces
+   the number of files that must be searched for and loaded by Visual Studio, which 
+   improves debugger performance. You can force additional symbols to load by clicking the
+   **Specify module filters** link.
+
+   - Select **Search for all module symbols unless excluded** to force Visual Studio to
+   load all symbols in your debugged process. This is not recommended because it may
+   slow down your debugging experience. If you select this option, you can force
+   Visual Studio to ignore certain symbols by clicking the **Specify module filters**
+   link.
+
+   ::: moniker-end
+   ::: moniker range="<= vs-2019"
 
    - Select **Load all modules, unless excluded** (the default) to load all the symbols for all modules in the symbol file location, except modules you specifically exclude. To exclude certain modules, select **Specify excluded modules**, select the **+** icon, type the names of the modules to exclude, and select **OK**.
 
    - To load only modules you specify from the symbol file locations, select **Load only specified modules**. Select **Specify included modules**, select the **+** icon, type the names of the modules to include, and then select **OK**. The symbol files for other modules are not loaded.
+   ::: moniker-end
 
 5. Select **OK**.
+
+::: moniker range=">= vs-2022"
+
+### Specify module filters
+Both the **Automatically choose what module symbols to search for** and **Search for all
+module symbols unless excluded** options allow you to have more fine control over what symbols
+are searched for while debugging. Choose **Specify module filters** to fine-tune your experience.
+
+By default, you see the following dialog when **Automatically choose what module symbols to search for** is selected:
+
+![Screenshot of specifying module filters.](media/vs-2022/specify-include-list.png)
+
+You can add a module to the filter by using the '+' icon. Module filters support simple wild-card
+matching. A '\*' matches any group of characters. For example '\*myproduct\*' will match files such
+as 'myproduct.utilities.dll' and 'entrypoint.myproduct.exe', among others.
+
+There are several additional options to further customize your experience:
+
+- **Always load symbols located next to modules** instructs visual studio to load pdb files that
+are stored in the file system beside their corresponding .dll or .exe files. This can be helpful,
+for example, when attempting to debug a deployed web app.
+
+- **Automatically load additional symbols when needed** instructs Visual Studio to search for
+symbols to perform common debug actions, such as stepping, even if the module that you will be
+stepping to is not in your project or in the modules filter. The way that searching is determined
+might be affected by your [Just My Code](just-my-code.md) settings.
+
+If you have selected **Search for all module symbols unless excluded**, then the module filter
+dialog looks like this:
+
+![Screenshot of specifying excluded modules.](media/vs-2022/specify-exclude-list.png)
+
+In this dialog, you can choose what modules you *do not* want Visual Studio to load symbols for.
+In this scenario, Visual Studio attempts to load symbols for every module in your debugged
+proces (including modules by third parties), unless you add a matching filter to exclude them.
+The only other way that this behavior will be modified is by your [Just My Code](just-my-code.md)
+settings.
+
+::: moniker-end
 
 ## Other symbol options for debugging
 
@@ -150,26 +225,28 @@ You can select additional symbol options in **Tools** > **Options** > **Debuggin
 
   Always shows the disassembly when source or symbol files are not found.
 
-  ![Options &#47; Debugging  &#47; General disassembly options](../debugger/media/dbg_options_general_disassembly_checkbox.png "Options &#47; Debugging  &#47; General disassembly options")
-  <a name="BKMK_Use_symbol_servers_to_find_symbol_files_not_on_your_local_machine"></a>
+  ![Options &#47; Debugging  &#47; General disassembly options](../debugger/media/dbg-options-general-disassembly-checkbox.png "Options &#47; Debugging  &#47; General disassembly options")
+
 - **Enable source server support**
 
   Uses Source Server to help debug an app when there is no source code on the local machine, or the *.pdb* file does not match the source code. Source Server takes requests for files and returns the actual files from source control. Source Server runs by using a DLL named *srcsrv.dll* to read the app's *.pdb* file. The *.pdb* file contains pointers to the source code repository, as well as commands used to retrieve source code from the repository.
 
   You can limit the commands that *srcsrv.dll* can execute from the app's *.pdb* file by listing the allowed commands in a file named *srcsrv.ini*. Place the *srcsrv.ini* file in the same folder as *srcsrv.dll* and *devenv.exe*.
 
-  >[!IMPORTANT]
-  >Arbitrary commands can be embedded in an app's *.pdb* file, so make sure to put only the commands you want to execute into a *srcsrv.ini* file. Any attempt to execute a command not in the *srcsvr.ini* file will cause a confirmation dialog box to appear. For more information, see [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning-debugger-must-execute-untrusted-command.md).
+  > [!IMPORTANT]
+  > Arbitrary commands can be embedded in an app's *.pdb* file, so make sure to put only the commands you want to execute into a *srcsrv.ini* file. Any attempt to execute a command not in the *srcsvr.ini* file will cause a confirmation dialog box to appear. For more information, see [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning-debugger-must-execute-untrusted-command.md).
   >
-  >No validation is done on command parameters, so be careful with trusted commands. For example, if you listed *cmd.exe* in your *srcsrv.ini*, a malicious user might specify parameters on *cmd.exe* that would make it dangerous.
+  > No validation is performed on command parameters, so be careful with trusted commands. For example, if you listed *cmd.exe* in your *srcsrv.ini*, a malicious user might specify parameters on *cmd.exe* that would make it dangerous.
 
   Select this item and the child items you want. **Allow source server for partial trust assemblies (Managed only)** and **Always run untrusted source server commands without prompting** can increase the security risks.
 
-  ![Enable source server options](../debugger/media/dbg_options_general_enablesrcsrvr_checkbox.png "DBG_Options_General_EnableSrcSrvr_checkbox")
+  ![Enable source server options](../debugger/media/dbg-options-general-enablesrcsrvr-checkbox.png "DBG_Options_General_EnableSrcSrvr_checkbox")
 
 ## Compiler symbol options
 
 When you build a project from the Visual Studio IDE with the standard **Debug** build configuration, the C++ and managed compilers create the appropriate symbol files for your code. You can also set compiler options in code.
+
+To set the compiler options for your build configurations in Visual Studio, see [Set debug and release configurations](../debugger/how-to-set-debug-and-release-configurations.md).
 
 ### .NET options
 
@@ -179,9 +256,9 @@ Build with **/debug** to create a *.pdb* file. You can build applications with *
 
 - *VC\<x>.pdb* and *\<project>.pdb* files
 
-  A *.pdb* file for C/C++ is created when you build with [/ZI or /Zi](/cpp/build/reference/z7-zi-zi-debug-information-format). In [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], the [/Fd](/cpp/build/reference/fd-program-database-file-name) option names the *.pdb* file the compiler creates. When you create a project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] using the IDE, the **/Fd** option is set to create a *.pdb* file named *\<project>.pdb*.
+  A *.pdb* file for C/C++ is created when you build with [/ZI or /Zi](/cpp/build/reference/z7-zi-zi-debug-information-format). In Visual C++, the [/Fd](/cpp/build/reference/fd-program-database-file-name) option names the *.pdb* file the compiler creates. When you create a project in Visual Studio using the IDE, the **/Fd** option is set to create a *.pdb* file named *\<project>.pdb*.
 
-  If you build your C/C++ application using a makefile, and you specify **/ZI** or **/Zi** without using **/Fd**, the compiler creates two *.pdb* files:
+  If you build your C/C++ application using a makefile, and you specify **/ZI** or **/Zi** without using **/Fd** to specify a filename, the compiler creates two *.pdb* files:
 
   - *VC\<x>.pdb*, where *\<x>* represents the version of the Microsoft C++ compiler, for example *VC11.pdb*
 
@@ -203,7 +280,7 @@ Build with **/debug** to create a *.pdb* file. You can build applications with *
 
 Set the *web.config* file of your ASP.NET application to debug mode. Debug mode causes ASP.NET to generate symbols for dynamically generated files and enables the debugger to attach to the ASP.NET application. Visual Studio sets this automatically when you start to debug, if you created your project from the web projects template.
 
-## Manage symbols while debugging
+## Load symbols while debugging
 
 You can use the **Modules**, **Call Stack**, **Locals**, **Autos**, or any **Watch** window to load symbols or change symbol options while debugging. For more information, see [Get more familiar with how the debugger attaches to your app](../debugger/debugger-tips-and-tricks.md#modules_window).
 
@@ -267,7 +344,5 @@ You can specify the locations the debugger searches for source files, and exclud
 
 1. Select **OK** or **Apply**.
 
-## See also
+## Related content
 - [Understand symbol files and Visual Studio symbol settings](https://devblogs.microsoft.com/devops/understanding-symbol-files-and-visual-studios-symbol-settings/)
-
-- [.NET remote symbol loading changes in Visual Studio 2012 and 2013](https://devblogs.microsoft.com/devops/net-remote-symbol-loading-changes-in-visual-studio-2012-and-2013/)

@@ -1,7 +1,6 @@
 ---
 title: Set Radix Command
 description: Learn about the Set Radix command and how it sets or returns the numeric base used to display integer values.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -9,15 +8,13 @@ f1_keywords:
 helpviewer_keywords:
   - "Set Radix command"
   - "Debug.SetRadix command"
-ms.assetid: 6ffd1554-7530-4da4-b5f5-e276a5034f3b
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-  - "multiple"
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Set Radix Command
+
 Sets or returns the numeric base used to display integer values.
 
 ## Syntax

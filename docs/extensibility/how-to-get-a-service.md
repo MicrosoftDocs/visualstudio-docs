@@ -1,20 +1,16 @@
 ---
-title: 'How to: Get a Service | Microsoft Docs'
+title: 'Get a Service'
 description: Learn how to get Visual Studio services to access different features. You can get most services by using a VSPackage.
-ms.custom: SEO-VS-2020
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
 - services, consuming
-ms.assetid: 1f000020-8fb7-4e39-8e1e-2e38c7fec3d4
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
-# How to: Get a service
+# Get a service
 
 You often need to get Visual Studio services to access different features. In general, a Visual Studio service provides one or more interfaces that you can use. You can get most services from a VSPackage.
 
@@ -24,7 +20,7 @@ When Visual Studio loads a <xref:Microsoft.VisualStudio.Shell.Package>, it passe
 
 ## Getting a service from an initialized VSPackage
 
-1. Every Visual Studio extension starts with a VSIX deployment project, which will contain the extension assets. Create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] VSIX project named `GetServiceExtension`. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".
+1. Every Visual Studio extension starts with a VSIX deployment project, which will contain the extension assets. Create a Visual Studio VSIX project named `GetServiceExtension`. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".
 
 2. Now add a custom command item template named **GetServiceCommand**. In the **Add New Item** dialog, go to **Visual C#** > **Extensibility** and select **Custom Command**. In the **Name** field at the bottom of the window, change the command file name to *GetServiceCommand.cs*. For more information about how to create a custom command, [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md)
 
@@ -82,7 +78,7 @@ if (sp != null)
 }
 ```
 
-## See also
+## Related content
 
 - [How to: Provide a service](../extensibility/how-to-provide-a-service.md)
 - [Use and provide services](../extensibility/using-and-providing-services.md)

@@ -1,39 +1,39 @@
 ---
 description: "Gets the value returned on stepping out of or over a function."
-title: IDebugReturnValueEvent2::GetReturnValue | Microsoft Docs
+title: IDebugReturnValueEvent2::GetReturnValue
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugReturnValueEvent2::GetReturnValue
 helpviewer_keywords:
 - IDebugReturnValueEvent2::GetReturnValue
-ms.assetid: 86c50d5a-6df6-4798-818a-c587a8741f90
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugReturnValueEvent2::GetReturnValue
+
 Gets the value returned on stepping out of or over a function.
 
 ## Syntax
 
-```cpp
-HRESULT GetReturnValue ( 
-   IDebugProperty2** ppReturnValue
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetReturnValue ( 
    out IDebugProperty2 ppReturnValue
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetReturnValue ( 
+   IDebugProperty2** ppReturnValue
+);
+```
+---
 
 ## Parameters
 `ppReturnValue`\

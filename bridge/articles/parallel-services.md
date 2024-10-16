@@ -1,12 +1,11 @@
 ---
 title: Debug multiple services at the same time with Bridge to Kubernetes
-ms.date: 6/2/2021
+ms.date: 08/11/2022
 description: Learn how to use Bridge to Kubernetes to connect your development computer to a Kubernetes cluster and debug multiple services at the same time with local tunnel debugging, with Visual Studio Code.
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: bridge
-ms.custom: "contperf-fy22q1"
+manager: mijacobs
+ms.subservice: bridge
 ms.topic: how-to
 ---
 # Debug multiple services (VS Code)

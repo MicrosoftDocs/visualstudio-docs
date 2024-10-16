@@ -12,12 +12,11 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <update> element"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # &lt;update&gt; element (Office development in Visual Studio)
+
   The `update` element specifies the interval at which the solution will check for updates.
 
 ## Syntax

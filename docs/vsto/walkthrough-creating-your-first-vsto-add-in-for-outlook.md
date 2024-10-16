@@ -1,7 +1,6 @@
 ---
-title: "Walkthrough: Create your first VSTO Add-in for Outlook"
-description: Create an application-level Add-in for Microsoft Outlook. This feature is available to the application itself, regardless of which Outlook item is open.
-ms.custom: SEO-VS-2020
+title: "Create Visual Studio Tools for Office Add-ins: Outlook mail"
+description: Create a VSTO add-in for the Microsoft Office Outlook with features that are available to the application itself, regardless of which Outlook items are open.
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], creating your first project"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Walkthrough: Create your first VSTO Add-in for Outlook
+
   This walkthrough shows you how to create a VSTO Add-in for Microsoft Office Outlook. The features that you create in this kind of solution are available to the application itself, regardless of which Outlook item is open. For more information, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
@@ -49,7 +47,7 @@ ms.workload:
 
 ### To create a new Outlook project in Visual Studio
 
-1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start Visual Studio.
 
 2. On the **File** menu, point to **New**, and then click **Project**.
 
@@ -63,7 +61,7 @@ ms.workload:
 
 7. Click **OK**.
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstOutlookAddIn** project and opens the **ThisAddIn** code file in the editor.
+     Visual Studio creates the **FirstOutlookAddIn** project and opens the **ThisAddIn** code file in the editor.
 
 ## Write code that adds text to each new mail message
  Next, add code to the ThisAddIn code file. The new code uses the object model of Outlook to add text to each new mail message. By default, the ThisAddIn code file contains the following generated code:
@@ -76,20 +74,32 @@ ms.workload:
 
 1. In the ThisAddIn code file, declare a field named `inspectors` in the `ThisAddIn` class. The `inspectors` field maintains a reference to the collection of Inspector windows in the current Outlook instance. This reference prevents the garbage collector from freeing the memory that contains the event handler for the <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> event.
 
-    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_OutlookAddInTutorial/ThisAddIn.vb" id="Snippet1":::
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OutlookAddInTutorial/ThisAddIn.cs" id="Snippet1":::
+
+    ### [VB](#tab/vb)
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_OutlookAddInTutorial/ThisAddIn.vb" id="Snippet1":::
+    ---
 
 2. Replace the `ThisAddIn_Startup` method with the following code. This code attaches an event handler to the <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> event.
 
-    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_OutlookAddInTutorial/ThisAddIn.vb" id="Snippet2":::
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OutlookAddInTutorial/ThisAddIn.cs" id="Snippet2":::
+
+    ### [VB](#tab/vb)
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_OutlookAddInTutorial/ThisAddIn.vb" id="Snippet2":::
+    ---
 
 3. In the ThisAddIn code file, add the following code to the `ThisAddIn` class. This code defines an event handler for the <xref:Microsoft.Office.Interop.Outlook.InspectorsEvents_Event.NewInspector> event.
 
     When the user creates a new mail message, this event handler adds text to the subject line and body of the message.
 
-    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_OutlookAddInTutorial/ThisAddIn.vb" id="Snippet3":::
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OutlookAddInTutorial/ThisAddIn.cs" id="Snippet3":::
+
+    ### [VB](#tab/vb)
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_OutlookAddInTutorial/ThisAddIn.vb" id="Snippet3":::
+    ---
 
    To modify each new mail message, the previous code examples use the following objects:
 
@@ -134,7 +144,7 @@ ms.workload:
 
 - Deploying VSTO Add-ins for Outlook. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
-## See also
+## Related content
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
 - [Outlook solutions](../vsto/outlook-solutions.md)
 - [Office UI customization](../vsto/office-ui-customization.md)

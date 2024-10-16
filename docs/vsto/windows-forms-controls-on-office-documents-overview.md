@@ -1,7 +1,6 @@
 ---
 title: "Windows Forms controls on Office documents overview"
 description: Learn how Windows Forms controls are objects that users can interact with to enter or manipulate data.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -26,12 +25,11 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], Windows Forms"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Windows Forms controls on Office documents overview
+
   Windows Forms controls are objects that users can interact with to enter or manipulate data. In document-level projects for Microsoft Office Excel and Microsoft Office Word, you can add Windows Forms controls to the document or workbook in your project at design time, or you can programmatically add these controls at run time. You can programmatically add these controls to any open document or worksheet at run time in a VSTO Add-in for Excel or Word.
 
  For more information, see [How to: Add Windows Forms controls to Office documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md).
@@ -68,7 +66,7 @@ On a Windows Form.
 - When you want to get input from the user, and prevent the user from doing anything in the document until the input is received.
 
 ## Add Windows Forms controls programmatically
- You can add Windows Forms controls to Word documents and Excel worksheets at run time. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] provides helper methods for adding the most common Windows Forms controls. These helper methods enable you to quickly add controls to your Office document and access the combined Windows Forms control functionality and Office-related functionality of these controls.
+ You can add Windows Forms controls to Word documents and Excel worksheets at run time. The  Visual Studio Tools for Office runtime  provides helper methods for adding the most common Windows Forms controls. These helper methods enable you to quickly add controls to your Office document and access the combined Windows Forms control functionality and Office-related functionality of these controls.
 
  For more information, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
@@ -113,7 +111,7 @@ On a Windows Form.
 
  When an Excel workbook that contains static controls is opened, the workbook displays a bitmap of the control in an ActiveX control until the customization code runs and loads the actual control. Excel creates this bitmap and stores it in the workbook whenever the workbook is saved. The bitmap shows the control as it appeared the last time the workbook was saved, including any data that the control was displaying. For more information about the ActiveX control that contains Windows Forms controls and bitmaps, see [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md).
 
- In certain conditions, the code does not load and only the bitmap is displayed, such as when the user opens the workbook in design mode. Also, if the user opens the workbook on a computer that does not have the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] installed, the customization cannot run to load the controls and therefore only the bitmap of the control is visible. You should always remove personal information from controls on workbooks before saving the workbook and sending it to another user to ensure that your personal information is not accidentally disclosed.
+ In certain conditions, the code does not load and only the bitmap is displayed, such as when the user opens the workbook in design mode. Also, if the user opens the workbook on a computer that does not have the  Visual Studio Tools for Office runtime  installed, the customization cannot run to load the controls and therefore only the bitmap of the control is visible. You should always remove personal information from controls on workbooks before saving the workbook and sending it to another user to ensure that your personal information is not accidentally disclosed.
 
 ### Match control size to cell size on an Excel worksheet
  You can set the control to be resized automatically when the size of the parent cell is changed. For more information, see [How to: Resize controls within worksheet cells](../vsto/how-to-resize-controls-within-worksheet-cells.md).
@@ -143,7 +141,7 @@ On a Windows Form.
 ### Add components at design time
  Certain controls or components are not visible on the document and are instead displayed in a component tray. Visual Studio provides a component tray for each document window. The component tray appears on the screen only if components exist on the document.
 
-## See also
+## Related content
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
 - [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
@@ -153,10 +151,8 @@ On a Windows Form.
 - [How to: Add Windows Forms controls to Office documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)
 - [How to: Resize controls within worksheet cells](../vsto/how-to-resize-controls-within-worksheet-cells.md)
 - [How to: Hide controls on worksheets when printing](../vsto/how-to-hide-controls-on-worksheets-when-printing.md)
-- [Walkthrough: Change worksheet formatting using CheckBox controls](../vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls.md)
 - [Walkthrough: Change document formatting using CheckBox controls](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md)
 - [Walkthrough: Display text in a text box in a worksheet using a button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-worksheet-using-a-button.md)
 - [Walkthrough: Display text in a text box in a document using a button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-document-using-a-button.md)
 - [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)
-- [Walkthrough: Update a chart in a document using radio buttons](../vsto/walkthrough-updating-a-chart-in-a-document-using-radio-buttons.md)
 - [Walkthrough: Update a chart in a worksheet using radio buttons](../vsto/walkthrough-updating-a-chart-in-a-worksheet-using-radio-buttons.md)

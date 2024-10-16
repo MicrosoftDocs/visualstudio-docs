@@ -1,7 +1,6 @@
 ---
 title: "Work with documents"
 description: Learn about the step-by-step procedures and code examples for using the object model of Microsoft Word to work with documents in Office projects.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,12 +12,11 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], document common tasks"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Work with documents
+
   The topics in this section provide step-by-step procedures and code examples for using the object model of Microsoft Office Word to work with documents in Office projects.
 
  In some cases, the ways that you perform these tasks in VSTO Add-ins is different from the ways that you perform them in document-level customizations.
@@ -39,6 +37,6 @@ ms.workload:
 |Add a header or footer to a document.|[How to: Programmatically add headers and footers to documents](../vsto/how-to-programmatically-add-headers-and-footers-to-documents.md)|
 |Remove all comments from a document.|[How to: Programmatically remove all comments from documents](../vsto/how-to-programmatically-remove-all-comments-from-documents.md)|
 
-## See also
+## Related content
 - [Word object model overview](../vsto/word-object-model-overview.md)
 - [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)

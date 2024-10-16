@@ -1,37 +1,27 @@
 ---
 description: "Watches for execution (or stops watching for execution) to occur on the given thread."
-title: IDebugEngineProgram2::WatchForThreadStep | Microsoft Docs
+title: IDebugEngineProgram2::WatchForThreadStep
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngineProgram2::WatchForThreadStep
 helpviewer_keywords:
 - IDebugEngineProgram2::WatchForThreadStep
-ms.assetid: b70922a3-1313-409a-b3b7-50c7cd13e394
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugEngineProgram2::WatchForThreadStep
+
 Watches for execution (or stops watching for execution) to occur on the given thread.
 
 ## Syntax
 
-```cpp
-HRESULT WatchForThreadStep( 
-   IDebugProgram2* pOriginatingProgram,
-   DWORD           dwTid,
-   BOOL            fWatch,
-   DWORD           dwFrame
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int WatchForThreadStep( 
    IDebugProgram2 pOriginatingProgram,
@@ -40,6 +30,16 @@ int WatchForThreadStep( 
    uint           dwFrame
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT WatchForThreadStep( 
+   IDebugProgram2* pOriginatingProgram,
+   DWORD           dwTid,
+   BOOL            fWatch,
+   DWORD           dwFrame
+);
+```
+---
 
 ## Parameters
 `pOriginatingProgram`\

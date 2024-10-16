@@ -1,22 +1,19 @@
 ---
-title: Evaluating a Watch Window Expression | Microsoft Docs
+title: Evaluating a Watch Window Expression
 description: Learn how Visual Studio calls the debug engine to determine the current value of each expression in its watch list when execution pauses.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Watch window expressions
 - Watch window, expressions
 - expression evaluation, Watch window expressions
-ms.assetid: b07e72c7-60d3-4b30-8e3f-6db83454c348
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Evaluate a watch window expression
+
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
@@ -30,7 +27,7 @@ ms.workload:
 
 3. `IDebugExpressionContext2::ParseText` calls [Parse](../../extensibility/debugger/reference/idebugexpressionevaluator-parse.md) to do the actual work of parsing the text and produce an [IDebugParsedExpression](../../extensibility/debugger/reference/idebugparsedexpression.md) object.
 
-4. `IDebugExpressionContext2::ParseText` creates an [IDebugExpression2](../../extensibility/debugger/reference/idebugexpression2.md) object and puts the `IDebugParsedExpression` object into it. This I`DebugExpression2` object is then returned to Visual Studio.
+4. `IDebugExpressionContext2::ParseText` creates an [IDebugExpression2](../../extensibility/debugger/reference/idebugexpression2.md) object and puts the `IDebugParsedExpression` object into it. This `IDebugExpression2` object is then returned to Visual Studio.
 
 5. Visual Studio calls [EvaluateSync](../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) to evaluate the parsed expression.
 
@@ -45,15 +42,12 @@ ms.workload:
 > It is not necessary for an EE to adhere to this two-step process even though Visual Studio assumes this; the EE can parse and evaluate in the same step when [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) is called (this is how the MyCEE sample works, for example). If your language can form complex expressions, you may want to separate the parse step from the evaluation step. This can increase performance in the Visual Studio debugger when many watch expressions are being shown.
 
 ## In this section
- [Sample implementation of expression evaluation](../../extensibility/debugger/sample-implementation-of-expression-evaluation.md)
- Uses the MyCEE sample to step through the process of expression evaluation.
 
- [Evaluating a watch expression](../../extensibility/debugger/evaluating-a-watch-expression.md)
- Explains what happens after a successful expression parse.
+[Sample implementation of expression evaluation](../../extensibility/debugger/sample-implementation-of-expression-evaluation.md) uses the MyCEE sample to step through the process of expression evaluation.
 
-## Related sections
- [Evaluation context](../../extensibility/debugger/evaluation-context.md)
- Provides the arguments that are passed when the debug engine (DE) calls the expression evaluator (EE).
+ [Evaluating a watch expression](../../extensibility/debugger/evaluating-a-watch-expression.md) explains what happens after a successful expression parse.
 
-## See also
- [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
+## Related content
+- [Evaluation context](../../extensibility/debugger/evaluation-context.md) provides the arguments that are passed when the debug engine (DE) calls the expression evaluator (EE).
+
+- [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)

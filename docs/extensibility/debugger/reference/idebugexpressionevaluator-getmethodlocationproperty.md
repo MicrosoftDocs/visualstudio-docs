@@ -1,38 +1,27 @@
 ---
 description: "This method converts a method location and offset into a memory address."
-title: IDebugExpressionEvaluator::GetMethodLocationProperty | Microsoft Docs
+title: IDebugExpressionEvaluator::GetMethodLocationProperty
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExpressionEvaluator::GetMethodLocationProperty
 helpviewer_keywords:
 - IDebugExpressionEvaluator::GetMethodLocationProperty method
-ms.assetid: 52c42a2e-f144-476b-8bef-442464c8fe8e
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExpressionEvaluator::GetMethodLocationProperty
+
 This method converts a method location and offset into a memory address.
 
 ## Syntax
 
-```cpp
-HRESULT GetMethodLocationProperty( 
-   LPCOLESTR             upstrFullyQualifiedMethodPlusOffset,
-   IDebugSymbolProvider* pSymbolProvider,
-   IDebugAddress*        pAddress,
-   IDebugBinder*         pBinder,
-   IDebugProperty2**     ppProperty
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMethodLocationProperty(
    string               upstrFullyQualifiedMethodPlusOffset,
@@ -42,6 +31,17 @@ int GetMethodLocationProperty(
    out IDebugProperty2  ppProperty
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMethodLocationProperty( 
+   LPCOLESTR             upstrFullyQualifiedMethodPlusOffset,
+   IDebugSymbolProvider* pSymbolProvider,
+   IDebugAddress*        pAddress,
+   IDebugBinder*         pBinder,
+   IDebugProperty2**     ppProperty
+);
+```
+---
 
 ## Parameters
 `upstrFullyQualifiedMethodPlusOffset`\

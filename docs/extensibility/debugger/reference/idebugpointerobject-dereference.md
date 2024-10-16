@@ -1,41 +1,41 @@
 ---
 description: "Gets the object pointed to."
-title: IDebugPointerObject::Dereference | Microsoft Docs
+title: IDebugPointerObject::Dereference
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPointerObject::Dereference
 helpviewer_keywords:
 - IDebugPointerObject::Dereference method
-ms.assetid: 196ec2cc-8569-4780-b217-23b24e7f50ca
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPointerObject::Dereference
+
 Gets the object pointed to.
 
 ## Syntax
 
-```cpp
-HRESULT DeReference( 
-   DWORD          dwIndex,
-   IDebugObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Dereference(
    uint             dwIndex,
    out IDebugObject ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT DeReference( 
+   DWORD          dwIndex,
+   IDebugObject** ppObject
+);
+```
+---
 
 ## Parameters
 `dwIndex`\

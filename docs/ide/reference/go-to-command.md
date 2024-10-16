@@ -1,7 +1,6 @@
 ---
 title: Go To Command
 description: Learn about the Go To command and how it moves the cursor to the specified line.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -9,15 +8,13 @@ f1_keywords:
 helpviewer_keywords:
 - Debug.Goto command
 - Go To command
-ms.assetid: 201e1dd2-6701-467d-8cc1-faec2ef20511
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Go To Command
+
 Moves the cursor to the specified line.
 
 ## Syntax

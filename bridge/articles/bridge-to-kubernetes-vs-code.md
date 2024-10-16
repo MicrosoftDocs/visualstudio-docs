@@ -2,15 +2,14 @@
 ms.topic: quickstart
 ms.author: ghogen
 author: ghogen
-manager: jmartens
-ms.technology: bridge
-ms.custom: "contperf-fy22q1"
-title: Use Bridge to Kubernetes to run and debug locally with Kubernetes
-ms.date: 04/14/2021
-description: Learn how to use Bridge to Kubernetes to connect your development computer to a Kubernetes cluster and use local tunnel debugging to debug Kubernetes services on your local machine.
+manager: mijacobs
+ms.subservice: bridge
+title: Redirect traffic between Kubernetes cluster & local code (VS Code)
+ms.date: 09/14/2023
+description: Use Bridge to Kubernetes to redirect traffic between your Kubernetes cluster and code running on your development computer.
 ---
 
-# Use Bridge to Kubernetes
+# Use Bridge to Kubernetes (VS Code)
 
 Bridge to Kubernetes allows you to run and debug code on your development computer, while still connected to your Kubernetes cluster with the rest of your application or services. In this guide, you will learn how to use Bridge to Kubernetes to redirect traffic between your Kubernetes cluster and code running on your development computer.
 
@@ -21,7 +20,7 @@ This article assumes you already have your own cluster with a microservices arch
 ### Prerequisites
 
 * A Kubernetes cluster with an app that you want to debug.
-* [Visual Studio Code][vs-code] running on macOS, Windows 10, or Linux (currently in preview).
+* [Visual Studio Code][vs-code] running on macOS, Windows 10 or later, or Linux.
 
 ## Connect to your cluster and debug a service
 
@@ -67,7 +66,7 @@ The first step in configuring the debugger for local tunnel debugging is that yo
 
 ![Enter the port number](media/bridge-to-kubernetes-sample/enter-port.png)
 
-Choose a debug launch configuration that you normally use when running your application locally. If you don't have a launch configuration, you can either let Bridge to Kubernetes create one, or choose not to create one, in which case you have to start your application or service manually. Learn more at [Launch configurations](/docs/editor/debugging.md#launch-configurations).
+Choose a debug launch configuration that you normally use when running your application locally. If you don't have a launch configuration, you can either let Bridge to Kubernetes create one, or choose not to create one, in which case you have to start your application or service manually. Learn more at [Launch configurations](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations).
 
 ![Choose the debugger launch configuration](media/bridge-to-kubernetes-vs-code/choose-launch.png)
 
@@ -114,13 +113,13 @@ Select **Run** then **Stop Debugging** or press **Shift**+**F5** to stop the deb
 
 Bridge to Kubernetes can handle routing traffic and replicating environment variables without any additional configuration. If you need to download any files that are mounted to the container in your Kubernetes cluster, such as a ConfigMap file, you can create a `KubernetesLocalProcessConfig.yaml` to download those files to your development computer. For more information, see [Configure Bridge to Kubernetes][kubernetesLocalProcessConfig-yaml].
 
-If you're using an AKS cluster that uses managed identity, a security feature provided by Azure Active Directory, see [Use managed identity with Bridge to Kubernetes](managed-identity.md) for information about how to configure Bridge to Kubernetes for this scenario.
+If you're using an AKS cluster that uses managed identity, a security feature provided by Microsoft Entra ID, see [Use managed identity with Bridge to Kubernetes](managed-identity.md) for information about how to configure Bridge to Kubernetes for this scenario.
 
 ## Using logging and diagnostics
 
 Logging output is written to the **Bridge to Kubernetes** window after your development computer is connected to your Kubernetes cluster.
 
-Click on the **Kubernetes** Status bar and choose **Show connection diagnostics information**. This command prints the current environment variables and DNS entires in the logging output.
+Click on the **Kubernetes** Status bar and choose **Show connection diagnostics information**. This command prints the current environment variables and DNS entries in the logging output.
 
 Additionally, you can find the diagnostic logs in the `Bridge to Kubernetes` directory in your development computer's TEMP directory. On Windows 10, that's in `%TEMP%\Bridge to Kubernetes`. On a Mac, the TEMP directory can be found by running `echo $TMPDIR` from a terminal window. On Linux, it is `/tmp/Bridge to Kubernetes`.
 
@@ -146,7 +145,7 @@ var response = await client.SendAsync(request);
 > [!NOTE]
 > To avoid affecting code at every request, you can create a class that inherits from [System.Net.Http.DelegatingHandler](/dotnet/api/system.net.http.delegatinghandler) and override the `SendAsync` method with code similar to the preceding example. You can find code using this technique on the web; one example is [Properly Propagating "kubernetes-route-as" in Bridge to Kubernetes](https://blogs.u2u.be/lander/post/2020/11/25/properly-propagating-kubernetes-route-as-in-bridge-to-kubernetes).
 
-For Node.js services, you can use code similar to the following, taken from the todo-app sample in the [mindaro repo](https://github.com/Microsoft/mindaro):
+For Node.js services, you can use code similar to the following, taken from the todo-app sample in the [Bridge to Kubernetes repo](https://github.com/hsubramanianaks/b2k-samples):
 
 ```js
     server.get("/api/stats", function (req, res) {

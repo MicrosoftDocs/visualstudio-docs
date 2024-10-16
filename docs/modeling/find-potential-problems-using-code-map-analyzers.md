@@ -1,7 +1,6 @@
 ---
 title: Find potential problems using code map analyzers
 description: Learn how you can run analyzers on code maps to help you identify code that might be overly complex or that might need improvement.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -12,10 +11,8 @@ helpviewer_keywords:
 - graph documents, analyzing
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Find potential problems using code map analyzers
 
@@ -42,7 +39,7 @@ Code map analyzers will continue to run after you apply them. If you change the 
 > [!TIP]
 > If you have a very large map, running an analyzer might cause an out of memory exception. If this occurs, edit the map to reduce its scope or generate a smaller one, and then run the analyzer.
 
-## See also
+## Related content
 
 - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
 - [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)

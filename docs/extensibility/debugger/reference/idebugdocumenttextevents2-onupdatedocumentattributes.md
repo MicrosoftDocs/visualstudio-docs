@@ -1,39 +1,39 @@
 ---
 description: "Notifies receiver of the event that the document attributes have been updated."
-title: IDebugDocumentTextEvents2::onUpdateDocumentAttributes | Microsoft Docs
+title: IDebugDocumentTextEvents2::onUpdateDocumentAttributes
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentTextEvents2::OnUpdateDocumentAttributes
 helpviewer_keywords:
 - IDebugDocumentTextEvents2::onUpdateDocumentAttributes
-ms.assetid: 31b7d151-9ce2-438e-b405-f8cc46b9f537
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugDocumentTextEvents2::onUpdateDocumentAttributes
+
 Notifies receiver of the event that the document attributes have been updated.
 
 ## Syntax
 
-```cpp
-HRESULT onUpdateDocumentAttributes( 
-   TEXT_DOC_ATTR_2 textdocattr
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int onUpdateDocumentAttributes( 
    enum_TEXT_DOC_ATTR_2 textdocattr
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT onUpdateDocumentAttributes( 
+   TEXT_DOC_ATTR_2 textdocattr
+);
+```
+---
 
 ## Parameters
 `textdocattr`\

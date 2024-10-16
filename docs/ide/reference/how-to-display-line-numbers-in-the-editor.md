@@ -1,37 +1,38 @@
 ---
 title: Display line numbers for code
-description: Learn how to display or hide line numbering in your code.
-ms.custom: SEO-VS-2020
-ms.date: 08/28/2020
+description: Turn line numbering for your code on and off in the Visual Studio code editor. Line numbers can be useful as a reference.
+ms.date: 09/19/2024
 ms.topic: how-to
 helpviewer_keywords:
 - line numbers, displaying
 - Code Editor, line numbers
 - editors, line numbers
 - code, line number displaying
-ms.assetid: 40b38559-b8de-4041-91f2-68986767c976
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: anandmeg
+ms.author: meghaanand
+manager: mijacobs
+ms.subservice: general-ide
+
+#customer intent: As a developer, I want to know how to toggle line numbers in my code so that I can use the numbers as a reference.
 ---
-# How to: Display line numbers in the editor
 
-You can display or hide line numbering in your code.
+# Display line numbers in the editor
 
-## Display line numbers in code
+This article describes how to show or hide line numbers in your code.
 
-1. On the menu bar, choose **Tools** > **Options**. Expand the **Text Editor** node, and then select either the language you're using or **All Languages** to turn on line numbers in all languages. (Or, type **line number** in the search box and choose **Turn line numbers on or off** from the results.)
+1. On the Visual Studio menu bar, select **Tools** > **Options** > **Text Editor**, and then select either the language you're using or **All Languages**. **All Languages** turns line numbers on or off in all supported programming languages.
 
-2. Select the **Line numbers** checkbox.
+    You can also type **line number** in the Visual Studio [Search](../visual-studio-search.md) box, and then select **Turn line numbers on or off** in the results.
 
-   ![Option to display line numbers in the VS editor](../../ide/reference/media/line-numbers-option.png)
+    :::image type="content" source="media/line-numbers-search-box.png" alt-text="Screenshot of using the Search box to search for line numbers.":::
+
+1. Select the **Line numbers** checkbox to show line numbers, or clear the checkbox to hide line numbers.
+
+   :::image type="content" source="../../ide/reference/media/line-numbers-option.png" alt-text="Screenshot of the Options dialog that you can use to show or hide line numbers in the Visual Studio editor." lightbox="../../ide/reference/media/line-numbers-option.png":::
 
 > [!NOTE]
-> Line numbers aren't added to your code; they're just for reference.
+> Line numbers aren't added to your code. They're just for reference.
 
-## See also
+## Related content
 
 - [Features of the code editor](../../ide/writing-code-in-the-code-and-text-editor.md)

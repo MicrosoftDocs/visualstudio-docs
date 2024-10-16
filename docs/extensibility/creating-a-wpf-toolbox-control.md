@@ -1,26 +1,20 @@
 ---
-title: Creating a WPF Toolbox Control | Microsoft Docs
+title: Creating a WPF Toolbox Control
 description: Learn how to use the WPF Toolbox Control template to create a Toolbox control that you can distribute to other users.
-ms.custom: SEO-VS-2020
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
 - toolbox control
 - toolbox
 - wpf
-ms.assetid: 9cc34db9-b0d1-4951-a02f-7537fbbb51ad
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Create a WPF Toolbox Control
 
 The WPF (Windows Presentation Framework) Toolbox Control template lets you create WPF controls that are automatically added to the **Toolbox** when the extension is installed. This walkthrough shows how to use the template to create a **Toolbox** control that you can distribute to other users.
-
-Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create the Toolbox Control
 

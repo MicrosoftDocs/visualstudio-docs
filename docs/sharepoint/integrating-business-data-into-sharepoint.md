@@ -1,7 +1,6 @@
 ---
-title: "Integrating Business Data into SharePoint | Microsoft Docs"
+title: "Integrating Business Data into SharePoint"
 description: Read a high-level summary about how to integrate business data into SharePoint by creating a model for the business data connectivity (BDC) service.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: overview
 dev_langs:
@@ -18,18 +17,17 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], data"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Integrate business data into SharePoint
-  You can integrate business data into SharePoint. Business data can come from back-end server applications, such as [!INCLUDE[TLA#tla_sqlsvr](../sharepoint/includes/tlasharptla-sqlsvr-md.md)], Siebel, and SAP, or a Web service. Users can view, add, update, or delete business data by using external lists or Business Data Web Parts in SharePoint.  Users can also access this data offline in a Microsoft Office application such as Microsoft Outlook. For more information, see [Where Can You Show External Data](/previous-versions/office/developer/sharepoint-2010/ee558737(v=office.14)).
+
+  You can integrate business data into SharePoint. Business data can come from back-end server applications, such as  Microsoft SQL Server , Siebel, and SAP, or a Web service. Users can view, add, update, or delete business data by using external lists or Business Data Web Parts in SharePoint.  Users can also access this data offline in a Microsoft Office application such as Microsoft Outlook. For more information, see [Where Can You Show External Data](/previous-versions/office/developer/sharepoint-2010/ee558737(v=office.14)).
 
  To integrate data into SharePoint, create a model for the Business Data Connectivity (BDC) service. The BDC service is an application in SharePoint that stores information about data in business applications. For more information, see [Business Data Connectivity (BDC) Service](/previous-versions/office/developer/sharepoint-2010/ee556407(v=office.14)).
 
 ## Models in Visual Studio
- Models in Visual Studio enable you to write custom code to retrieve and update data from back-end data sources. You can also aggregate data from multiple data sources. For example, you can display a list of customers that contains data from a [!INCLUDE[ssNoVersion](../sharepoint/includes/ssnoversion-md.md)] database and a Web service.
+ Models in Visual Studio enable you to write custom code to retrieve and update data from back-end data sources. You can also aggregate data from multiple data sources. For example, you can display a list of customers that contains data from a SQL Server database and a Web service.
 
  You can also import models that are already deployed to SharePoint. After you import a model, you can add custom code or just use Visual Studio to package and deploy the model to multiple SharePoint server farms. For more information, see [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md).
 

@@ -1,17 +1,13 @@
 ---
 title: Roslyn analyzers and code-aware libraries for ImmutableArrays
 description: Learn how to build a real world Roslyn analyzer to catch common errors when using the System.Collections.Immutable NuGet package.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.assetid: 0b0afa22-3fca-4d59-908e-352464c1d903
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Roslyn analyzers and code-aware library for ImmutableArrays
 
@@ -33,18 +29,18 @@ Users are familiar with writing code like the following:
 
 ```csharp
 var a1 = new int[0];
-Console.WriteLine("a1.Length = { 0}", a1.Length);
+Console.WriteLine("a1.Length = {0}", a1.Length);
 var a2 = new int[] { 1, 2, 3, 4, 5 };
-Console.WriteLine("a2.Length = { 0}", a2.Length);
+Console.WriteLine("a2.Length = {0}", a2.Length);
 ```
 
 Creating empty arrays to fill in with subsequent lines of code and using collection initializer syntax are familiar to C# developers. However, writing the same code for an ImmutableArray crashes at run time:
 
 ```csharp
 var b1 = new ImmutableArray<int>();
-Console.WriteLine("b1.Length = { 0}", b1.Length);
+Console.WriteLine("b1.Length = {0}", b1.Length);
 var b2 = new ImmutableArray<int> { 1, 2, 3, 4, 5 };
-Console.WriteLine("b2.Length = { 0}", b2.Length);
+Console.WriteLine("b2.Length = {0}", b2.Length);
 ```
 
 The first error is due to ImmutableArray implementation's using a struct to wrap the underlying data storage. Structs must have parameter-less constructors so that `default(T)` expressions can return structs with all zero or null members. When the code accesses `b1.Length`, there is a run time null dereference error because there is no underlying storage array in the ImmutableArray struct. The correct way to create an empty ImmutableArray is `ImmutableArray<int>.Empty`.
@@ -65,7 +61,7 @@ The template opens a *DiagnosticAnalyzer.cs* file. Choose that editor buffer tab
 
 ```csharp
 [DiagnosticAnalyzer(LanguageNames.CSharp)]
-public class ImmutableArrayAnalyzerAnalyzer : DiagnosticAnalyzer
+public class ImmutableArrayAnalyzer : DiagnosticAnalyzer
 {}
 ```
 
@@ -226,7 +222,7 @@ namespace ImmutableArrayAnalyzer
 **Implement the property.** Fill in the `FixableDiagnosticIds` property's `get` body with the following code:
 
 ```csharp
-return ImmutableArray.Create(ImmutableArrayAnalyzerAnalyzer.DiagnosticId);
+return ImmutableArray.Create(ImmutableArrayAnalyzer.DiagnosticId);
 ```
 
 Roslyn brings together diagnostics and fixes by matching these identifiers, which are just strings. The project template generated a diagnostic ID for you, and you are free to change it. The code in the property just returns the ID from the analyzer class.
@@ -300,13 +296,11 @@ You can now press **F5** to execute your analyzer in a second instance of Visual
 
 ## Talk video and finish code project
 
-You can see this example developed and discussed further in [this talk](https://channel9.msdn.com/events/Build/2015/3-725). The talk demonstrates the working analyzer and walks you through building it.
-
 You can see all the finished code [here](https://github.com/DustinCampbell/CoreFxAnalyzers/tree/master/Source/CoreFxAnalyzers). The sub folders *DoNotUseImmutableArrayCollectionInitializer* and *DoNotUseImmutableArrayCtor* each have a C# file for finding issues and a C# file that implements the code fixes that show up in the Visual Studio light bulb UI. Note, the finished code has a little more abstraction to avoid fetching the ImmutableArray\<T> type object over and over. It uses nested registered actions to save the type object in a context that is available whenever the sub actions (analyze object creation and analyze collection initializations) execute.
 
-## See also
+## Related content
 
-* [\\\Build 2015 talk](https://channel9.msdn.com/events/Build/2015/3-725)
+* \\\Build 2015 talk
 * [Completed code on GitHub](https://github.com/DustinCampbell/CoreFxAnalyzers/tree/master/Source/CoreFxAnalyzers)
 * [Several examples on GitHub, grouped into three kinds of analyzers](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Analyzer%20Samples.md)
 * [Other docs on the GitHub OSS site](https://github.com/dotnet/roslyn/tree/master/docs/analyzers)

@@ -1,21 +1,18 @@
 ---
-title: Windows Installer Basics | Microsoft Docs
+title: Windows Installer Basics
 description: Learn about Windows Installer for use in installing a VSPackage, including organizing your VSPackage features into Windows Installer components.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Windows Installer, VSPackages
 - VSPackages, Windows Installer basics
-ms.assetid: 497e479b-add8-4644-870a-917f15306b97
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Windows Installer Basics
+
 The Windows Installer installs and uninstalls applications or software products on a user's computer, performing these tasks in units called Windows Installer components (sometimes called WICs or just components). A GUID identifies each WIC, which is the basic unit of installation and reference counting for setups using Windows Installer.
 
  For comprehensive documentation of the Windows Installer, see the Platform SDK topic, [Windows Installer](/previous-versions/2kt85ked(v=vs.120)).
@@ -33,7 +30,7 @@ The Windows Installer installs and uninstalls applications or software products 
 
 5. Validate the installation package.
 
-   This documentation is concerned primarily with the first and third steps of the process. During these steps you organize your VSPackage features into WICs so you can frame your versioning and servicing strategy to account for subsequent versions of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. The remaining three steps are covered in detail in Windows Installer documentation in the Platform SDK.
+   This documentation is concerned primarily with the first and third steps of the process. During these steps you organize your VSPackage features into WICs so you can frame your versioning and servicing strategy to account for subsequent versions of Visual Studio. The remaining three steps are covered in detail in Windows Installer documentation in the Platform SDK.
 
 ## Key Terms
  Following are definitions of key terms related to the Windows Installer technology.
@@ -68,5 +65,5 @@ The Windows Installer installs and uninstalls applications or software products 
 
 - No versioned resource should ever ship in more than one WIC.
 
-## See also
+## Related content
 - [What Happens if the Component Rules Are Broken?](/windows/desktop/Msi/what-happens-if-the-component-rules-are-broken)

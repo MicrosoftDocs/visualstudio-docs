@@ -1,7 +1,6 @@
 ---
-title: "MFC Debugging Techniques | Microsoft Docs"
+title: "MFC Debugging Techniques"
 description: "Learn techniques for debugging MFC programs, including: coded breakpoints, tracing, memory leak detection, object memory dumps, and program size reduction."
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -21,15 +20,13 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "debugging [MFC]"
-ms.assetid: b154fc31-5e90-4734-8cbd-58dd9fe1f750
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # MFC Debugging Techniques
+
 If you are debugging an MFC program, these debugging techniques may be useful.
 
 ## <a name="BKMK_In_this_topic"></a> In this topic
@@ -145,7 +142,7 @@ Before you can use the memory diagnostics facilities, you must enable diagnostic
 
   These values can be used in combination by performing a logical-OR operation, as shown here:
 
-  ```C++
+  ```cpp
   afxMemDF = allocMemDF | delayFreeMemDF | checkAlwaysMemDF;
   ```
 
@@ -477,5 +474,5 @@ Building selected modules with the MFC debug libraries enables you to use steppi
 
    [In this topic](#BKMK_In_this_topic)
 
-## See also
-[Debugging Native Code](../debugger/debugging-native-code.md)
+## Related content
+- [Debugging Native Code](../debugger/debugging-native-code.md)

@@ -13,12 +13,11 @@ helpviewer_keywords:
   - "content controls [Office development in Visual Studio], adding to documents"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Walkthrough: Create a template by using content controls
+
   This walkthrough demonstrates how to create a document-level customization that uses content controls to create structured and reusable content in a Microsoft Office Word template.
 
  [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]
@@ -55,14 +54,14 @@ ms.workload:
 
 1. Create a Word template project with the name **MyBuildingBlockTemplate**. In the wizard, create a new document in the solution. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] opens the new Word template in the designer and adds the **MyBuildingBlockTemplate** project to **Solution Explorer**.
+     Visual Studio opens the new Word template in the designer and adds the **MyBuildingBlockTemplate** project to **Solution Explorer**.
 
 ## Create the employee table
  Create a table that contains four different types of content controls where the user can enter information about an employee.
 
 ### To create the employee table
 
-1. In the Word template that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, on the Ribbon, click the **Insert** tab.
+1. In the Word template that is hosted in the Visual Studio designer, on the Ribbon, click the **Insert** tab.
 
 2. In the **Tables** group, click **Table**, and insert a table with two columns and four rows.
 
@@ -130,7 +129,7 @@ ms.workload:
 11. In the **Controls** group, click the **Rich Text** button ![RichTextContentControl](../vsto/media/richtextcontrol.gif "RichTextContentControl") to add a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> to the last cell.
 
 ## Populate the combo box and drop-down list programmatically
- You can initialize content controls at design time by using the **Properties** window in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. You can also initialize them at run time, which enables you to set their initial states dynamically. For this walkthrough, use code to populate the entries in the <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl> and <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> at run time so that you can see how these objects work.
+ You can initialize content controls at design time by using the **Properties** window in Visual Studio. You can also initialize them at run time, which enables you to set their initial states dynamically. For this walkthrough, use code to populate the entries in the <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl> and <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> at run time so that you can see how these objects work.
 
 ### To modify the UI of the content controls programmatically
 
@@ -138,13 +137,21 @@ ms.workload:
 
 2. Add the following code to the `ThisDocument` class. This code declares several objects that you will use later in this walkthrough.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb" id="Snippet1":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb" id="Snippet1":::
+     ---
 
 3. Add the following code to the `ThisDocument_Startup` method of the `ThisDocument` class. This code adds entries to the <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl> and <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> in the tables, and sets the placeholder text that is displayed in each of these controls before the user edits them.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb" id="Snippet2":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb" id="Snippet2":::
+     ---
 
 ## Prevent users from editing the employee table
  Use the <xref:Microsoft.Office.Tools.Word.GroupContentControl> object that you declared earlier to protect the employee table. After protecting the table, users can still edit the content controls in the table. However, they cannot edit text in the first column or modify the table in other ways, such as adding or deleting rows and columns. For more information about how to use a <xref:Microsoft.Office.Tools.Word.GroupContentControl> to protect a part of a document, see [Content controls](../vsto/content-controls.md).
@@ -153,8 +160,12 @@ ms.workload:
 
 1. Add the following code to the `ThisDocument_Startup` method of the `ThisDocument` class, after the code that you added in the previous step. This code prevents users from editing the employee table by putting the table inside the <xref:Microsoft.Office.Tools.Word.GroupContentControl> object that you declared earlier.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb" id="Snippet3":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb" id="Snippet3":::
+     ---
 
 ## Add the tables to the building block collection
  Add the tables to a collection of document building blocks in the template so that users can insert the tables that you have created into the document. For more information about document building blocks, see [Content controls](../vsto/content-controls.md).
@@ -163,13 +174,21 @@ ms.workload:
 
 1. Add the following code to the `ThisDocument_Startup` method of the `ThisDocument` class, after the code that you added in the previous step. This code adds new building blocks that contain the tables to the Microsoft.Office.Interop.Word.BuildingBlockEntries collection, which contains all the reusable building blocks in the template. The new building blocks are defined in a new category named **Employee and Customer Information** and are assigned the building block type `Microsoft.Office.Interop.Word.WdBuildingBlockTypes.wdTypeCustom1`.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb" id="Snippet4":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs" id="Snippet4":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb" id="Snippet4":::
+     ---
 
 2. Add the following code to the `ThisDocument_Startup` method of the `ThisDocument` class, after the code that you added in the previous step. This code deletes the tables from the template. The tables are no longer necessary, because you have added them to the gallery of reusable building blocks in the template. The code first puts the document into design mode so that the protected employee table can be deleted.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb" id="Snippet5":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs" id="Snippet5":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb" id="Snippet5":::
+     ---
 
 ## Create a content control that displays the building blocks
  Create a content control that provides access to the building blocks (that is, the tables) that you created earlier. Users can click this control to add the tables to the document.
@@ -178,8 +197,12 @@ ms.workload:
 
 1. Add the following code to the `ThisDocument_Startup` method of the `ThisDocument` class, after the code that you added in the previous step. This code initializes the <xref:Microsoft.Office.Tools.Word.BuildingBlockGalleryContentControl> object that you declared earlier. The <xref:Microsoft.Office.Tools.Word.BuildingBlockGalleryContentControl> displays all building blocks that are defined in the category **Employee and Customer Information** and that have the building block type `Microsoft.Office.Interop.Word.WdBuildingBlockTypes.wdTypeCustom1`.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb" id="Snippet6":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs" id="Snippet6":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb" id="Snippet6":::
+     ---
 
 ## Test the project
  Users can click the building block gallery controls in the document to insert the employee table or the customer feedback table. Users can type or select responses in the content controls in both of the tables. Users can modify other parts of the customer feedback table, but they should not be able to modify other parts of the employee table.
@@ -231,7 +254,7 @@ ms.workload:
 
 - Bind content controls to pieces of XML, also named custom XML parts, that are embedded in a document. For more information, see [Walkthrough: Bind content controls to custom XML parts](../vsto/walkthrough-binding-content-controls-to-custom-xml-parts.md).
 
-## See also
+## Related content
 - [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
 - [Content controls](../vsto/content-controls.md)
 - [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)

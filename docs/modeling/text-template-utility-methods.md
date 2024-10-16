@@ -1,17 +1,14 @@
 ---
 title: Text Template Utility Methods
 description: Learn about the various text template utility methods that are available to you when you write code in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - text templates, utility methods
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Text Template Utility Methods
 
@@ -125,7 +122,7 @@ EnvDTE.DTE dte = (EnvDTE.DTE) ((IServiceProvider) this.Host)
 
 ## Using a different set of utility methods
 
-As part of the text generation process, your template file is transformed into a class, which is always named `GeneratedTextTransformation`and inherits from <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation>. If you want to use a different set of methods instead, you can write your own class and specify it in the template directive. Your class must inherit from <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation>.
+As part of the text generation process, your template file is transformed into a class, which is always named `GeneratedTextTransformation` and inherits from <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation>. If you want to use a different set of methods instead, you can write your own class and specify it in the template directive. Your class must inherit from <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation>.
 
 ```
 <#@ template inherits="MyUtilityClass" #>

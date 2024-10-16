@@ -1,19 +1,17 @@
 ---
 title: "Publish a Node.js app to Linux App Service"
-description: You can publish Node.js applications created in Visual Studio to Linux App Service on Azure
-ms.date: 11/22/2019
+description: Publish Node.js applications created in Visual Studio to Linux App Service on Azure, which deploys a Linux Docker container to run the Node.js application.
+ms.date: 11/06/2023
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-javascript
+manager: mijacobs
+ms.subservice: javascript-typescript
+monikerRange: 'vs-2019'
 dev_langs:
   - JavaScript
-ms.workload:
-  - "nodejs"
 ---
-
 # Publish a Node.js application to Azure (Linux App Service)
 
 This tutorial walks you through the task of creating a simple Node.js application and publishing it to Azure.
@@ -24,6 +22,9 @@ For this tutorial, you deploy the app to [Linux App Service](/azure/app-service/
 Linux App Service deploys a Linux Docker container to run the Node.js application (as opposed to the Windows App Service, which runs Node.js apps behind IIS on Windows).
 
 This tutorial shows how to create a Node.js application starting from a template installed with the Node.js Tools for Visual Studio, push the code to a repository on GitHub, and then provision an Azure App Service via the Azure web portal so that you can deploy from the GitHub repository. To use the command-line to provision the Azure App Service and push the code from a local Git repository, see [Create Node.js App](/azure/app-service/containers/quickstart-nodejs).
+
+> [!IMPORTANT]
+> The information in this article applies only to the Node.js project type (.njsproj). The template used in this article is no longer available starting in Visual Studio 2022 version 17.8 Preview 2.
 
 In this tutorial, you learn how to:
 > [!div class="checklist"]
@@ -36,16 +37,11 @@ In this tutorial, you learn how to:
 
 * You must have Visual Studio installed and the Node.js development workload.
 
-    ::: moniker range=">=vs-2019"
-    If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    If you haven't already installed Visual Studio 2017, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
-    ::: moniker-end
+    If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta/) page to install it for free.
 
     If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **Node.js development** workload, then choose **Modify**.
 
-    ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)
+    ![Node.js workload in VS Installer](./media/tutorial-nodejs-workload.png)
 
 * You must have the Node.js runtime installed.
 
@@ -57,14 +53,8 @@ In this tutorial, you learn how to:
 
 1. Create a new TypeScript Express app.
 
-    ::: moniker range=">=vs-2019"
     Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **Node.js**, then choose **Create new Basic Azure Node.js Express 4 application** (TypeScript). In the dialog box that appears, choose **Create**.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **TypeScript**, then choose **Node.js**. In the middle pane, choose **Basic Azure Node.js Express 4 application**, then choose **OK**.
 
-    ![Create a new TypeScript Express app](../javascript/media/azure-ts-express-app.png)
-    ::: moniker-end
     If you don't see the **Basic Azure Node.js Express 4 application** project template, you must add the **Node.js development** workload. For detailed instructions, see the [Prerequisites](#prerequisites).
 
     Visual Studio creates the project and opens it in Solution Explorer (right pane).
@@ -81,8 +71,7 @@ In this tutorial, you learn how to:
 
 To set up GitHub for Visual Studio:
 
-1. Make sure the [GitHub Extension for Visual Studio](https://visualstudio.github.com/) is installed and enabled using the
-menu item **Tools** > **Extensions and Updates**.
+1. Make sure the [GitHub Extension for Visual Studio](https://visualstudio.github.com/) is installed and enabled using the menu item **Tools** > **Extensions and Updates**.
 
 2. From the menu select **View** > **Other Windows** > **GitHub**.
 
@@ -94,8 +83,7 @@ menu item **Tools** > **Extensions and Updates**.
 
 4. Click **Get started**.
 
-    If you are already connected to GitHub, the toolbox appears similar
-to the following illustration.
+    If you are already connected to GitHub, the toolbox appears similar to the following illustration.
 
     ![GitHub repo settings](../javascript/media/azure-github-publish.png)
 
@@ -119,7 +107,7 @@ to the following illustration.
 
 5. Click **Create** to create the App Service.
 
-    It may take a few minutes to deploy.
+    It might take a few minutes to deploy.
 
 6. After it is deployed, go to the **Application settings** section, and add a setting with a name of `SCM_SCRIPT_GENERATOR_ARGS` and a value of `--node`.
 
@@ -148,8 +136,7 @@ to the following illustration.
 
     Once it is finished syncing, a check mark will appear.
 
-    The site is now running the Node.js application from the GitHub repository,
-and it is accessible at the URL created for the Azure App Service (by default the name given to the Azure App Service followed by ".azurewebsites.net").
+    The site is now running the Node.js application from the GitHub repository, and it is accessible at the URL created for the Azure App Service (by default the name given to the Azure App Service followed by `.azurewebsites.net`).
 
 ## Modify your app and push changes
 
@@ -172,21 +159,18 @@ and it is accessible at the URL created for the Azure App Service (by default th
 ## Troubleshooting
 
 * If the node.exe process dies (that is, an unhandled exception occurs), the container restarts.
-* When the container starts up, it runs through various heuristics to figure out
-how to start the Node.js process. Details of the implementation can be seen at
+* When the container starts up, it runs through various heuristics to figure out how to start the Node.js process. Details of the implementation can be seen at
 [generateStartupCommand.js](https://github.com/Azure/app-service-builtin-images/blob/master/node/8.9.4/startup/generateStartupCommand.js).
-* You can connect to the running container via SSH for investigations. This is easily done using the Azure portal. Select the App Service, and scroll down
-the list of tools until reaching **SSH** under the **Development Tools** section.
-* To aid in troubleshooting, go to the **Diagnostics logs** settings for the App Service, and change the **Docker Container logging** setting
-from **Off** to **File System**. Logs are created in the container under */home/LogFiles/*_docker.log*, and can be accessed on the box using SSH or FTP(S).
-* A custom domain name may be assigned to the site, rather than the *.azurewebsites.net URL assigned by default. For more details, see the topic [Map Custom Domain](/azure/app-service/app-service-web-tutorial-custom-domain).
+* You can connect to the running container via SSH for investigations. This is easily done using the Azure portal. Select the App Service, and scroll down the list of tools until reaching **SSH** under the **Development Tools** section.
+* To aid in troubleshooting, go to the **Diagnostics logs** settings for the App Service, and change the **Docker Container logging** setting from **Off** to **File System**. Logs are created in the container under */home/LogFiles/*_docker.log*, and can be accessed on the box using SSH or FTP(S).
+* A custom domain name might be assigned to the site, rather than the *.azurewebsites.net URL assigned by default. For more details, see the topic [Map Custom Domain](/azure/app-service/app-service-web-tutorial-custom-domain).
 * Deploying to a staging site for further testing before moving into production is a best practice. For details on how to configure this, see the topic
 [Create staging environments](/azure/app-service/web-sites-staged-publishing).
 * See the [App Service on Linux FAQ](/azure/app-service/containers/app-service-linux-faq) for more commonly asked questions.
 
 ## Next steps
 
-In this tutorial, you learned how create a Linux App Service and deploy a Node.js application to the service. You may want to learn more about Linux App Service.
+In this tutorial, you learned how create a Linux App Service and deploy a Node.js application to the service. You might want to learn more about Linux App Service.
 
 > [!div class="nextstepaction"]
 > [Linux App Service](/azure/app-service/containers/app-service-linux-intro)

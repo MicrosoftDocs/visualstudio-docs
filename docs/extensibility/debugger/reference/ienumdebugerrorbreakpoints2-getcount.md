@@ -1,39 +1,39 @@
 ---
 description: "Returns the number of elements in the error breakpoints enumeration."
-title: IEnumDebugErrorBreakpoints2::GetCount | Microsoft Docs
+title: IEnumDebugErrorBreakpoints2::GetCount
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugErrorBreakpoints2::GetCount
 helpviewer_keywords:
 - IEnumDebugErrorBreakpoints2::GetCount
-ms.assetid: 56f7bb70-d55b-471c-8c65-09a9e7f4938e
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugErrorBreakpoints2::GetCount
+
 Returns the number of elements in the enumeration.
 
 ## Syntax
 
-```cpp
-HRESULT GetCount(
-   ULONG* pcelt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCount(
    out uint pcelt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCount(
+   ULONG* pcelt
+);
+```
+---
 
 ## Parameters
 `pcelt`\

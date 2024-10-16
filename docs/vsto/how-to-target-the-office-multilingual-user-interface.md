@@ -1,7 +1,6 @@
 ---
-title: "How to: Target the Office multilingual user interface"
+title: "Target the Office multilingual user interface"
 description: Learn how you can use Visual Studio to programmatically target the Microsoft Office multilingual user interface.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -16,12 +15,11 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], globalization"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Target the Office multilingual user interface
+# Target the Office multilingual user interface
+
   The Multilingual User Interface (MUI) is a Microsoft Office feature that gives the end user the ability to change the language of the user interface (UI). For example, an end user working with an English UI can change the language of the UI to Spanish.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
@@ -32,9 +30,13 @@ ms.workload:
 
 1. Use the <xref:System.Threading.Thread.CurrentUICulture%2A> property of the current thread. Set the language of your UI strings to match the language used by the version of Office that currently runs on the user's computer.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/Sheet1.vb" id="Snippet10":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/Sheet1.cs" id="Snippet10":::
 
-## See also
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/Sheet1.vb" id="Snippet10":::
+     ---
+
+## Related content
 - [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)
 - [Late binding in Office solutions](../vsto/late-binding-in-office-solutions.md)

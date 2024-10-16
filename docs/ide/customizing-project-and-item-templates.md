@@ -1,16 +1,15 @@
 ---
 title: Customizing project and item templates
-description: Learn how to customize your project and item templates after they've been created.
-ms.custom: SEO-VS-2021
+description: Customize existing projects, item templates, and wizards in Visual Studio to make adjustments after objects are already created.
 ms.date: 03/29/2018
 ms.topic: conceptual
 helpviewer_keywords:
 - customizing templates [Visual Studio]
 - Visual Studio templates, customizing
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Customize project and item templates
 
@@ -32,7 +31,7 @@ For example, you can perform the following tasks:
 
    For more information, see [How to: Use wizards with project templates (extensibility)](../extensibility/how-to-use-wizards-with-project-templates.md).
 
-## See also
+## Related content
 
 - [Creating project and item templates](../ide/creating-project-and-item-templates.md)
 - [How to: Troubleshoot templates](../ide/how-to-troubleshoot-templates.md)

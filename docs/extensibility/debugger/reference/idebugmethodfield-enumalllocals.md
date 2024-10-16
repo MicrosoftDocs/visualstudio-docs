@@ -1,41 +1,41 @@
 ---
 description: "Creates an enumerator for all local variables of the method, including those generated internally by a compiler."
-title: IDebugMethodField::EnumAllLocals | Microsoft Docs
+title: IDebugMethodField::EnumAllLocals
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugMethodField::EnumAllLocals
 helpviewer_keywords:
 - IDebugMethodField::EnumAllLocals method
-ms.assetid: 0bc7cc13-2628-4bd8-8c06-4d2aa6755ea8
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugMethodField::EnumAllLocals
+
 Creates an enumerator for all local variables of the method, including those generated internally by a compiler.
 
 ## Syntax
 
-```cpp
-HRESULT EnumAllLocals( 
-   IDebugAddress*     pAddress,
-   IEnumDebugFields** ppLocals
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumAllLocals(
    IDebugAddress        pAddress,
    out IEnumDebugFields ppLocals
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumAllLocals( 
+   IDebugAddress*     pAddress,
+   IEnumDebugFields** ppLocals
+);
+```
+---
 
 ## Parameters
 `pAddress`\

@@ -1,39 +1,39 @@
 ---
 description: "This method returns an IDebugField that represents the name of the enumeration."
-title: IDebugEnumField::GetUnderlyingSymbol | Microsoft Docs
+title: IDebugEnumField::GetUnderlyingSymbol
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEnumField::GetUnderlyingSymbol
 helpviewer_keywords:
 - IDebugEnumField::GetUnderlyingSymbol method
-ms.assetid: c3b8a117-6708-4cfd-8ffc-5f007d706bc5
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugEnumField::GetUnderlyingSymbol
+
 This method returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) that represents the name of the enumeration.
 
 ## Syntax
 
-```cpp
-HRESULT GetUnderlyingSymbol(
-   IDebugField** ppField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetUnderlyingSymbol(
    out IDebugField ppField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetUnderlyingSymbol(
+   IDebugField** ppField
+);
+```
+---
 
 ## Parameters
 `ppField`\

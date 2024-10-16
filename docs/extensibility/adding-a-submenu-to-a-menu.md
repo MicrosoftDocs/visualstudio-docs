@@ -1,7 +1,6 @@
 ---
-title: Adding a Submenu to a Menu | Microsoft Docs
-description: Learn how to create a submenu, add it to the Visual Studio menu bar, and add a new command to the submenu.
-ms.custom: SEO-VS-2020
+title: Adding a Submenu to a Menu
+description: Create a submenu, add it to the Visual Studio menu bar, and add commands to the submenu in the Visual Studio integrated development environment (IDE).
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -9,23 +8,18 @@ helpviewer_keywords:
 - submenus, cascading
 - cascading submenus
 - menus, creating cascading submenus
-ms.assetid: 692600cb-d052-40e2-bdae-4354ae7c6c84
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Add a Submenu to a Menu
+
 This walkthrough builds on the demonstration in [Add a Menu to the Visual Studio Menu Bar](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md) by showing how to add a submenu to the **TestMenu** menu.
 
  A submenu is a secondary menu that appears in another menu. A submenu can be identified by the arrow that follows its name. Clicking the name causes the submenu and its commands to be displayed.
 
  This walkthrough creates a submenu in a menu on the Visual Studio menu bar and puts a new command on the submenu. The walkthrough also implements the new command.
-
-## Prerequisites
- Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Add a Submenu to a Menu
 
@@ -150,7 +144,7 @@ This walkthrough builds on the demonstration in [Add a Menu to the Visual Studio
 
 5. On the **TestMenu** menu, click **Sub Menu** and then click **Test Sub Command**. A message box should appear and display the text, "Test Command Inside TestCommand.SubItemCallback()".
 
-## See also
+## Related content
 
 - [Add a menu to the Visual Studio menu bar](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md)
 - [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

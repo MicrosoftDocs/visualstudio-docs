@@ -2,37 +2,26 @@
 description: "Retrieves the classes with the specified attribute in a given module."
 title: IDebugComPlusSymbolProvider::GetAttributedClassesinModule
 titleSuffix: ""
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider::GetAttributedClassesinModule
 - GetAttributedClassesinModule
-ms.assetid: d8b087f3-1d32-4570-9eb0-7e0f7b051bc8
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetAttributedClassesinModule
+
 Retrieves the classes with the specified attribute in a given module.
 
 ## Syntax
 
-```cpp
-HRESULT GetAttributedClassesinModule (
-    ULONG32            ulAppDomainID,
-    GUID               guidModule,
-    LPOLESTR           pstrAttribute,
-    IEnumDebugFields** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAttributedClassesinModule (
     uint                 ulAppDomainID,
@@ -41,6 +30,16 @@ int GetAttributedClassesinModule (
     out IEnumDebugFields ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAttributedClassesinModule (
+    ULONG32            ulAppDomainID,
+    GUID               guidModule,
+    LPOLESTR           pstrAttribute,
+    IEnumDebugFields** ppEnum
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

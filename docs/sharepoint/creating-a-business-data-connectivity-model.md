@@ -1,7 +1,6 @@
 ---
-title: "Creating a Business Data Connectivity Model | Microsoft Docs"
+title: "Creating a Business Data Connectivity Model"
 description: Create a Business Data Connectivity (BDC) model or customize an existing BDC model by using Visual Studio. Each SharePoint project can contain only one model.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,19 +13,18 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, Business Data Connectivity service"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Create a business data connectivity model
+
   You can create a Business Data Connectivity (BDC) model or customize an existing BDC model by using Visual Studio. Each SharePoint project can contain only one model. For more information, see [Integrate business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md).
 
 ## Create a new model
  To create a new model, create a **Business Data Connectivity Model** project or add a **Business Data Connectivity Model** item to an **Empty SharePoint Project**.
 
 > [!NOTE]
-> You must have [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)] installed on your computer.
+> You must have  Microsoft SharePoint Server installed on your computer.
 
  Visual Studio adds a folder to the project. This folder has the name that you specify for the **Business Data Connectivity Model** item in the **Add New Item** dialog box. If you create a new **Business Data Connectivity Model** project, Visual Studio names the folder **BdcModel1**.
 

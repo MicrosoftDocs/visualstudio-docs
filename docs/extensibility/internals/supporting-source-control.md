@@ -1,21 +1,18 @@
 ---
-title: Supporting Source Control | Microsoft Docs
+title: Supporting Source Control
 description: Learn how Visual Studio supports file checkouts, checkins, and other source control operations for your project or editor.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], supporting
-ms.assetid: 567acde3-354e-4f39-8d99-0ef86c103396
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Supporting Source Control
-[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] supports file checkouts, check-ins, and other source control operations for your project or editor. As a source control client, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is designed to interact with a source control package, such as [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)], which provides archiving, versioning, and control facilities for a dynamically defined set of files.
+
+Visual Studio supports file checkouts, check-ins, and other source control operations for your project or editor. As a source control client, Visual Studio is designed to interact with a source control package, such as Visual SourceSafe, which provides archiving, versioning, and control facilities for a dynamically defined set of files.
 
 ## In This Section
 - [Model for Source Control Packages](../../extensibility/internals/model-for-source-control-packages.md)
@@ -57,4 +54,4 @@ ms.workload:
 ## Related Sections
 - [Project Types](../../extensibility/internals/project-types.md)
 
- Provides an overview of projects as the basic building blocks of the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). Links are provided to additional topics that explain how projects control building and compiling code.
+ Provides an overview of projects as the basic building blocks of the Visual Studio integrated development environment (IDE). Links are provided to additional topics that explain how projects control building and compiling code.

@@ -1,21 +1,19 @@
 ---
 description: "This interface represents an enumeration type."
-title: IDebugEnumField | Microsoft Docs
+title: IDebugEnumField
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEnumField
 helpviewer_keywords:
 - IDebugEnumField interface
-ms.assetid: 42f685bf-0f39-47f4-98b0-6022efe2bf97
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugEnumField
+
 This interface represents an enumeration type.
 
 ## Syntax

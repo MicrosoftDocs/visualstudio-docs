@@ -1,39 +1,39 @@
 ---
 description: "Skips over the specified number of elements in the bound breakpoints enumeration."
-title: IEnumDebugBoundBreakpoints2::Skip | Microsoft Docs
+title: IEnumDebugBoundBreakpoints2::Skip
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugBoundBreakpoints2::Skip
 helpviewer_keywords:
 - IEnumDebugBoundBreakpoints2::Skip
-ms.assetid: 95659709-6d7c-44ca-b598-629eb688429f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugBoundBreakpoints2::Skip
+
 Skips over the specified number of elements.
 
 ## Syntax
 
-```cpp
-HRESULT Skip(
-   ULONG celt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Skip(
    uint celt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Skip(
+   ULONG celt
+);
+```
+---
 
 ## Parameters
 `celt`\

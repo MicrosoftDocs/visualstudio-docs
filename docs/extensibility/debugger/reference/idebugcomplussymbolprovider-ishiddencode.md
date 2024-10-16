@@ -1,37 +1,37 @@
 ---
 description: "Determines if the code at the specified debugger address is hidden."
-title: IDebugComPlusSymbolProvider::IsHiddenCode | Microsoft Docs
+title: IDebugComPlusSymbolProvider::IsHiddenCode
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider::IsHiddenCode
-ms.assetid: 1352c6ab-7b92-4a16-b2d2-6520b628830e
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::IsHiddenCode
+
 Determines if the code at the specified debugger address is hidden.
 
 ## Syntax
 
-```cpp
-HRESULT IsHiddenCode(
-    IDebugAddress* pAddress
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsHiddenCode(
     IDebugAddress pAddress
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsHiddenCode(
+    IDebugAddress* pAddress
+);
+```
+---
 
 ## Parameters
 `pAddress`\

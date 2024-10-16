@@ -1,7 +1,6 @@
 ---
 title: Symbol Path Command
 description: Learn about the Symbol Path command and how it sets the list of directories for the debugger to search for symbols.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -10,15 +9,13 @@ helpviewer_keywords:
 - symbol path command
 - Debug.SymbolPath command
 - SymbolPath command
-ms.assetid: b697ef2d-3f5d-40df-b113-7068a5bec0d4
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Symbol Path Command
+
 Sets the list of directories for the debugger to search for symbols.
 
 ## Syntax

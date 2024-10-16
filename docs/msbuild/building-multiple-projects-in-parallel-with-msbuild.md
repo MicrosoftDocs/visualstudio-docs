@@ -1,20 +1,16 @@
 ---
-title: Building Multiple Projects in Parallel with MSBuild | Microsoft Docs
-description: Learn about the MSBuild settings you can use to build multiple projects faster by running them in parallel.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
-ms.topic: conceptual
+title: Build multiple projects in parallel with MSBuild
+description: Explore the MSBuild settings that you can use to build multiple projects faster by running them in parallel in Visual Studio.
+ms.date: 09/14/2023
+ms.topic: how-to
 helpviewer_keywords:
 - parallel project builds
 - building multiple projects in parallel
 - msbuild, building projects in parallel
-ms.assetid: c8c9aadc-33ad-4aa1-b07d-b879e9eabda0
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # Build multiple projects in parallel with MSBuild
 
@@ -43,33 +39,39 @@ msbuild.exe myproj.proj -maxcpucount:3
 
 ## BuildInParallel task parameter
 
-`BuildInParallel` is an optional boolean parameter on an MSBuild task. When `BuildInParallel` is set to `true` (its default value is `true`), multiple worker processes are generated to build as many projects at the same time as possible. For this to work correctly, the `-maxcpucount` switch must be set to a value greater than 1, and the system must be at least dual-core or have two or more processors.
+`BuildInParallel` is an optional boolean parameter on an MSBuild task. When `BuildInParallel` is set to `true` (its default value is `true`), multiple worker processes are generated to build as many projects at the same time as possible. For this to work correctly, the `-maxcpucount` switch must be set to a value greater than 1.
 
-The following is an example, taken from *microsoft.common.targets*, about how to set the `BuildInParallel` parameter.
+Building in parallel only works for a single invocation of the MSBuild task, so if you invoke task batching, the parallelism is limited to each batch. See [MSBuild batching](msbuild-batching.md).
+
+The following example shows how to build a target in a project file with multiple different property values in parallel by using the `BuildInParallel` parameter.
+
+Here's the project file `do_it.proj` with a target that just prints a different message for each `SourceValue`:
 
 ```xml
-<PropertyGroup>
-    <BuildInParallel Condition="'$(BuildInParallel)' ==
-        ''">true</BuildInParallel>
-</PropertyGroup>
-<MSBuild
-    Projects="@(_MSBuildProjectReferenceExistent)"
-    Targets="GetTargetPath"
-    BuildInParallel="$(BuildInParallel)"
-    Properties="%(_MSBuildProjectReferenceExistent.SetConfiguration);
-        %(_MSBuildProjectReferenceExistent.SetPlatform)"
-    Condition="'@(NonVCProjectReference)'!='' and
-        ('$(BuildingSolutionFile)' == 'true' or
-        '$(BuildingInsideVisualStudio)' == 'true' or
-        '$(BuildProjectReferences)' != 'true') and
-        '@(_MSBuildProjectReferenceExistent)' != ''"
-    ContinueOnError="!$(BuildingProject)">
-    <Output TaskParameter="TargetOutputs"
-        ItemName="_ResolvedProjectReferencePaths"/>
-</MSBuild>
+<Project>
+   <Target Name="DoIt">
+      <Message Text="For this invocation SourceValue='$(SourceValue)'" Importance="High" />
+   </Target>
+</Project>
 ```
 
-## See also
+The following project builds a specified target `DoIt` in `do_it.proj` in parallel, using the item list and `AdditionalProperties` metadata to specify different values of the property `SourceValue`.
+
+```xml
+<Project>
+   <ItemGroup>
+      <_Project Include="do_it.proj" AdditionalProperties="SourceValue=Test1" />
+      <_Project Include="do_it.proj" AdditionalProperties="SourceValue=Test2" />
+      <_Project Include="do_it.proj" AdditionalProperties="SourceValue=Test3" />
+      <_Project Include="do_it.proj" AdditionalProperties="SourceValue=Test4" />
+   </ItemGroup>
+   <Target Name="Build">
+      <MSBuild Projects="@(_Project)" Targets="DoIt" BuildInParallel="true" />
+   </Target>
+</Project>
+```
+
+## Related content
 
 - [Use multiple processors to build projects](../msbuild/using-multiple-processors-to-build-projects.md)
 - [Write multi-processor-aware loggers](../msbuild/writing-multi-processor-aware-loggers.md)

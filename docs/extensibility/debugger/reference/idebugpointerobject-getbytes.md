@@ -1,37 +1,27 @@
 ---
 description: "Gets the value pointed to as a series of consecutive bytes."
-title: IDebugPointerObject::GetBytes | Microsoft Docs
+title: IDebugPointerObject::GetBytes
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPointerObject::GetBytes
 helpviewer_keywords:
 - IDebugPointerObject::GetBytes method
-ms.assetid: e986c188-87fb-4b51-86e9-ee6a0035bdab
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPointerObject::GetBytes
+
 Gets the value pointed to as a series of consecutive bytes.
 
 ## Syntax
 
-```cpp
-HRESULT GetBytes( 
-   DWORD  dwStart,
-   DWORD  dwCount,
-   BYTE*  pBytes,
-   DWORD* pdwBytes
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetBytes(
    uint       dwStart,
@@ -40,6 +30,16 @@ int GetBytes(
    out uint   pdwBytes
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetBytes( 
+   DWORD  dwStart,
+   DWORD  dwCount,
+   BYTE*  pBytes,
+   DWORD* pdwBytes
+);
+```
+---
 
 ## Parameters
 `dwStart`\

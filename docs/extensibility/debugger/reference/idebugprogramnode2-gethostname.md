@@ -1,41 +1,41 @@
 ---
 description: "Gets the name of the process hosting the program."
-title: IDebugProgramNode2::GetHostName | Microsoft Docs
+title: IDebugProgramNode2::GetHostName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgramNode2::GetHostName
 helpviewer_keywords:
 - IDebugProgramNode2::GetHostName
-ms.assetid: 16aad1ff-ad34-4394-a2e4-5621374a7729
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgramNode2::GetHostName
+
 Gets the name of the process hosting the program.
 
 ## Syntax
 
-```cpp
-HRESULT GetHostName (
-    GETHOSTNAME_TYPE dwHostNameType,
-    BSTR*            pbstrHostName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetHostName (
     enum_GETHOSTNAME_TYPE dwHostNameType,
     out string            pbstrHostName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetHostName (
+    GETHOSTNAME_TYPE dwHostNameType,
+    BSTR*            pbstrHostName
+);
+```
+---
 
 ## Parameters
 `dwHostNameType`\

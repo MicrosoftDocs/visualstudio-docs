@@ -5,13 +5,12 @@ description: "Use Visual Studio workload and component IDs to provide integrated
 keywords:
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 ms.date: 08/10/2021
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 ms.topic: include
 ---
-
 
 
 ## Visual Studio core editor (included with Visual Studio Team Explorer 2019)

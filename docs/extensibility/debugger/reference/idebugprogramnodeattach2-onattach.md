@@ -1,39 +1,39 @@
 ---
 description: "Attaches to the associated program or defers the attach process to the Attach method."
-title: IDebugProgramNodeAttach2::OnAttach | Microsoft Docs
+title: IDebugProgramNodeAttach2::OnAttach
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgramNodeAttach2::OnAttach
 helpviewer_keywords:
 - IDebugProgramNodeAttach2::OnAttach
-ms.assetid: 5fe52761-a508-4ab5-abdb-334fb6590334
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgramNodeAttach2::OnAttach
+
 Attaches to the associated program or defers the attach process to the [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md) method.
 
 ## Syntax
 
-```cpp
-HRESULT OnAttach(
-   [in] REFGUID guidProgramId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int OnAttach(
    ref Guid guidProgramId
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT OnAttach(
+   [in] REFGUID guidProgramId
+);
+```
+---
 
 ## Parameters
 `guidProgramId`\

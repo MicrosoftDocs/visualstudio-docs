@@ -1,41 +1,41 @@
 ---
 description: "This structure is used to set the JustMyCode information for a module."
-title: JMC_CODE_SPEC | Microsoft Docs
+title: JMC_CODE_SPEC
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - JMC_CODE_SPEC
 helpviewer_keywords:
 - JMC_CODE_SPEC structure
-ms.assetid: d89498f1-4234-46d9-b4e2-abbcbca5068a
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # JMC_CODE_SPEC
+
 This structure is used to set the JustMyCode information for a module.
 
 ## Syntax
 
-```cpp
-typedef struct _JMC_CODE_SPEC {
-    BOOL fIsUserCode;
-    BSTR bstrModuleName;
-} JMC_CODE_SPEC;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct JMC_CODE_SPEC {
     public int    fIsUserCode;
     public string bstrModuleName;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _JMC_CODE_SPEC {
+    BOOL fIsUserCode;
+    BSTR bstrModuleName;
+} JMC_CODE_SPEC;
+```
+---
 
 ## Members
 `fIsUserCode`\

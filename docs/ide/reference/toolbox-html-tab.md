@@ -1,7 +1,6 @@
 ---
 title: Toolbox, HTML Tab
 description: Learn about the HTML components you'll find in the HTML tab of the Toolbox window.
-ms.custom: SEO-VS-2020
 ms.date: 06/21/2017
 ms.topic: reference
 f1_keywords:
@@ -10,12 +9,10 @@ helpviewer_keywords:
 - Toolbox, HTML tab
 - HTML Designer, setting options
 - HTML tab in Toolbox
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Toolbox, HTML tab
 

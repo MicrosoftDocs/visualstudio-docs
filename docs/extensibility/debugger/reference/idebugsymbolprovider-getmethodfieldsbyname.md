@@ -1,36 +1,27 @@
 ---
 description: "This method gets the field representing a fully qualified method name."
-title: IDebugSymbolProvider::GetMethodFieldsByName | Microsoft Docs
+title: IDebugSymbolProvider::GetMethodFieldsByName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugSymbolProvider::GetMethodFieldsByName
 helpviewer_keywords:
 - IDebugSymbolProvider::GetMethodFieldsByName method
-ms.assetid: 1f781320-81ef-4037-b068-f1864b271258
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugSymbolProvider::GetMethodFieldsByName
+
 This method gets the field representing a fully qualified method name.
 
 ## Syntax
 
-```cpp
-HRESULT GetMethodFieldsByName( 
-   LPCOLESTR          pszFullName,
-   NAME_MATCH         nameMatch,
-   IEnumDebugFields** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMethodFieldsByName(
    string               pszFullName,
@@ -38,6 +29,15 @@ int GetMethodFieldsByName(
    out IEnumDebugFields ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMethodFieldsByName( 
+   LPCOLESTR          pszFullName,
+   NAME_MATCH         nameMatch,
+   IEnumDebugFields** ppEnum
+);
+```
+---
 
 ## Parameters
 `pszFullName`\

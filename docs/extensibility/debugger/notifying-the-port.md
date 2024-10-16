@@ -1,20 +1,17 @@
 ---
-title: Notifying the Port | Microsoft Docs
+title: Notifying the Port
 description: Learn how the port is notified after launching a program. This article contains a detailed description.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - ports, notification
-ms.assetid: f9fce48e-7d4e-4627-a0fb-77b75428146a
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Notify the port
+
 After launching a program, the port must be notified, as follows:
 
 1. When a port receives a new program node, it sends a program creation event back to the debug session. The event carries with it an interface that represents the program.
@@ -41,7 +38,7 @@ After launching a program, the port must be notified, as follows:
 
  Once the identity of the DE is known, the SDM is ready to attach it to the program.
 
-## See also
+## Related content
 - [Launching a program](../../extensibility/debugger/launching-a-program.md)
 - [Attaching after a launch](../../extensibility/debugger/attaching-after-a-launch.md)
 - [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)

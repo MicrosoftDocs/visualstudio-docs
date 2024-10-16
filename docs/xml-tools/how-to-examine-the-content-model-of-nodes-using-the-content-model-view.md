@@ -1,18 +1,14 @@
 ---
 title: Examine the content model of nodes
 description: Learn how to use the Content Model View in XML Schema Designer to examine the content model of the nodes in an XML schema.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: c42ddac8-b0e3-48d6-9832-112a19d6c104
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xml-tools
-ms.workload:
-- multiple
+author: dzsquared
+ms.author: drskwier
+manager: mijacobs
+ms.subservice: xml-tools
 ---
-# How to: Examine the content model of nodes by using the Content Model View
+# Examine the content model of nodes by using the Content Model View
 
 This topic describes how to explore your nodes by using the [Content Model View](../xml-tools/content-model-view.md).
 

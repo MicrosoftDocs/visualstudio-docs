@@ -1,20 +1,17 @@
 ---
-title: Properties Window Buttons | Microsoft Docs
+title: Properties Window Buttons
 description: Learn about buttons displayed by default on the toolbar for the Properties window and about the implementation of the buttons.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - Properties window, buttons
-ms.assetid: bdd2e3a7-ae6e-4e88-be1a-e0e3b7ddbbcc
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Properties Window Buttons
+
 Depending on the development language and the product type, certain buttons are displayed by default on the toolbar for the **Properties** window. In all cases, the **Categorized**, **Alphabetized**, **Properties**, and **Property Pages** buttons are displayed. In Visual C# and Visual Basic, the **Events** button is also displayed. In certain Visual C++ projects, the **VC++ Messages** and the **VC Overrides** buttons are displayed. Additional buttons may be displayed for other project types. For more information about buttons in the **Properties** window, see [Properties Window](../../ide/reference/properties-window.md).
 
 ## Implementation of Properties Window Buttons

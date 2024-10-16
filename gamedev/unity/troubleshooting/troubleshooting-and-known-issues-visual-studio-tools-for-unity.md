@@ -1,17 +1,13 @@
 ---
-title: "Troubleshooting and known issues (VS Tools for Unity)"
-description: Read about troubleshooting in Visual Studio Tools for Unity. See descriptions of known issues, and learn about solutions to those issues.
-ms.custom: ""
-ms.date: "04/15/2021"
-ms.technology: vs-unity-tools
-ms.prod: visual-studio-dev16
+title: Troubleshoot Visual Studio Tools for Unity
+description: Troubleshoot Visual Studio Tools for Unity, review known issues and solutions for connections, program execution, project compatibility, debugging, and IntelliSense.
+ms.date: "04/04/2022"
+ms.subservice: unity-tools
+ms.service: visual-studio
 ms.topic: troubleshooting
-ms.assetid: 8f5db192-8d78-4627-bd07-dbbc803ac554
 author: therealjohn
 ms.author: johmil
 manager: crdun
-ms.workload:
-  - "unity"
 ---
 # Troubleshooting and known issues (Visual Studio Tools for Unity)
 
@@ -58,6 +54,8 @@ Several Unity plugins like Parse, FMOD, UMP (Universal Media Player), ZFBrowser,
 
 For FMOD, there is a workaround, you can pass `FMOD_STUDIO_INIT_SYNCHRONOUS_UPDATE` initialization [flag](https://www.fmod.com/resources/documentation-studio?version=2.0&page=https://fmod.com/resources/documentation-api?version=2.0&page=studio-api-system.html#fmod_studio_initflags) to disable asynchronous processing and perform all processing on the main thread.
 
+If you are developing your own native plugin, We recommend using *asynchronous procedure calls* ([APC](/windows/win32/sync/asynchronous-procedure-calls)) and especially `SleepEx`, `SignalObjectAndWait`, `MsgWaitForMultipleObjectsEx`, `WaitForMultipleObjectsEx`, or `WaitForSingleObjectEx` functions to properly cooperate with Unity and Mono when the debugger needs to suspend threads.
+
 ## Incompatible project in Visual Studio
 
 The very important thing to know is that Visual Studio is saving the “Incompatible” state in project settings and will not try to reload a project until you explicitly use `Reload Project`. So, after each troubleshooting step, make sure you try to re-open the solution and try to right-click on all incompatible projects and choose `Reload Project`.
@@ -89,7 +87,7 @@ In the Exception Settings window (Debug > Windows > Exception Settings), expand 
 
 ## On Windows, Visual Studio asks to download the Unity target framework
 
-When using the legacy Unity runtime (.NET 3.5 equivalent), Visual Studio Tools for Unity requires the .NET framework 3.5, which isn't installed by default on Windows 8 or 10. To fix this issue, follow the instructions to download and install the .NET framework 3.5.
+When using the legacy Unity runtime (.NET 3.5 equivalent), Visual Studio Tools for Unity requires the .NET Framework 3.5, which isn't installed by default on Windows 8 or 10. To fix this issue, follow the instructions to download and install the .NET framework 3.5.
 
 When using the new Unity runtime, .NET targeting packs version 4.6 or 4.7.1 are also required depending on the Unity version. It is possible to use the Visual Studio installer to quickly install them (modify your installation, individual components, .NET category, select all 4.x targeting packs).
 
@@ -97,7 +95,7 @@ When using the new Unity runtime, .NET targeting packs version 4.6 or 4.7.1 are 
 
 If your project is complex reference-wise or if you want to better control this generation step, you can use our [API](../extensibility/customize-project-files-created-by-vstu.md) for manipulating the generated project or solution content. You can also use [response files](https://docs.unity3d.com/Manual/PlatformDependentCompilation.html) in your Unity project and we'll process them.
 
-With recent Visual Studio and Unity versions, the best approach seems to use a custom `Directory.Build.props` file along with your generated projects. You will then be able to contribute to the project structure without interfering with the generation process. More information [here](https://docs.microsoft.com/visualstudio/msbuild/customize-your-build#directorybuildprops-and-directorybuildtargets).
+With recent Visual Studio and Unity versions, the best approach seems to use a custom `Directory.Build.props` file along with your generated projects. You will then be able to contribute to the project structure without interfering with the generation process.
 
 ## Breakpoints with a warning
 
@@ -117,7 +115,7 @@ USB is super-fast for debugging, and Visual Studio Tools for Unity is now able t
 
 ## Issues with IntelliSense or code coloration
 
-Try upgrading your Visual Studio to the latest version. Try the same same troubleshooting steps as for [Incompatible projects](#incompatible-project-in-visual-studio).
+Try upgrading your Visual Studio to the latest version. Try the same troubleshooting steps as for [Incompatible projects](#incompatible-project-in-visual-studio).
 
 ## Known issues
 

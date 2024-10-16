@@ -1,27 +1,26 @@
 ---
-description: "Retrieves a flag that indicates whether the segment is executable."
-title: "IDiaSegment::get_execute | Microsoft Docs"
+description: Retrieves a flag that indicates whether the segment is executable.
+title: "IDiaSegment::get_execute"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSegment::get_execute method"
-ms.assetid: 746cdf8e-9097-415d-ba10-069854153185
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSegment::get_execute
+
 Retrieves a flag that indicates whether the segment is executable.
 
 ## Syntax
 
 ```C++
-HRESULT get_execute ( 
+HRESULT get_execute ( 
    BOOL* pRetVal
 );
 ```

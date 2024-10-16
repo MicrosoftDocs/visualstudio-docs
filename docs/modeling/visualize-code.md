@@ -1,7 +1,6 @@
 ---
-title: Visualize code
-description: Learn how you can use the visualization and modeling tools in Visual Studio to understand existing code and describe your application.
-ms.custom: SEO-VS-2020
+title: Use visualization and modeling to check your code
+description: Use visualization and modeling tools in Visual Studio to understand relationships and dependencies in your code and ensure consistency with the architecture design.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,10 +9,8 @@ helpviewer_keywords:
 - code, exploring
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Visualize code
 
@@ -37,7 +34,7 @@ To see which editions of Visual Studio support each feature, see [Edition suppor
 |**Understand class structures:**<br /><br /> Visualize the structure of classes in a project by creating class diagrams from code.|[How to: Add Class Diagrams to Projects (Class Designer)](../ide/class-designer/how-to-add-class-diagrams-to-projects.md)|
 |**Describe the high-level system design and validate code against this design:**<br /><br /> Describe the high-level system design and its intended dependencies by creating dependency diagrams. Validate code against this design to make sure dependencies in code remain consistent with the design.|- [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />- [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)<br />- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br />- [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)|
 
-## See also
+## Related content
 
 - [Install architecture code tools](install-architecture-tools.md)
 - [Scenario: Change your design using visualization and modeling](../modeling/scenario-change-your-design-using-visualization-and-modeling.md)

@@ -1,27 +1,26 @@
 ---
-description: "Retrieves the data bytes of an OEM symbol."
-title: "IDiaSymbol::get_dataBytes | Microsoft Docs"
+description: Retrieves the data bytes of an OEM symbol.
+title: "IDiaSymbol::get_dataBytes"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_dataBytes method"
-ms.assetid: 5eb37179-20d8-44ae-a72a-405c1b0435c4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_dataBytes
+
 Retrieves the data bytes of an OEM symbol.
 
 ## Syntax
 
 ```C++
-HRESULT get_dataBytes ( 
+HRESULT get_dataBytes ( 
    DWORD  cbData,
    DWORD* pcbData,
    BYTE   data[]

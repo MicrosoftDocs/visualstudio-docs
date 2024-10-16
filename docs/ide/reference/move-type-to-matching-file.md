@@ -3,15 +3,13 @@ title: Move type to matching file refactoring
 description: Move a type to a separate file with the same name. Right-click the type, select Quick Actions and Refactorings, and select Move Type to <TypeName>.cs.
 ms.date: 01/26/2018
 ms.topic: reference
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- dotnet
 ---
 # Move a type to a matching file refactoring
 
@@ -31,13 +29,16 @@ This refactoring applies to:
 
 1. Place the cursor inside the name of the type where it is defined. For example:
 
+   ### [C#](#tab/csharp)
    ```csharp
    class Person
    ```
 
+   ### [VB](#tab/vb)
    ```vb
    Class Person
    ```
+   ---
 
 2. Next, do one of the following:
 

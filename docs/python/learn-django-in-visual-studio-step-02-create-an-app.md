@@ -1,293 +1,446 @@
 ---
-title: Learn Django tutorial in Visual Studio step 2, views and page template
+title: Django in Visual Studio tutorial Step 2, view & page template
 titleSuffix: ""
-description: A walkthrough of Django basics in the context of Visual Studio projects, specifically steps of creating an app and using views and templates.
-ms.date: 11/19/2018
+description: Step 2 of a core walkthrough of Django capabilities in Visual Studio, including procedures to create a Django application with multiple views by using inline HTML templates.
+ms.date: 04/18/2024
 ms.topic: tutorial
-author: JoshuaPartlow
-ms.author: joshuapa
-manager: jmartens
-ms.technology: vs-python
-ms.custom: "seodec18, SEO-VS-2020"
-ms.workload:
-  - python
-  - data-science
+author: cwebster-99
+ms.author: cowebster
+manager: mijacobs
+ms.subservice: python
+
+# CustomerIntent: As a developer, I want to create Django web applications in Visual Studio so I can develop apps with multiple views and render views with templates.
 ---
 
-# Step 2: Create a Django app with views and page templates
+# Tutorial: Create a Django app with views and page templates in Visual Studio
 
-**Previous step: [Create a Visual Studio project and solution](learn-django-in-visual-studio-step-01-project-and-solution.md)**
+This article presents Step 2 in the tutorial series _Work with the Django web framework in Visual Studio_.
 
-What you have so far in the Visual Studio project are only the site-level components of a Django *project*, which can run one or more Django *apps*. The next step is to create your first app with a single page.
+Visual Studio allows you to create Django applications from project templates that provide a more extensive starting point for your projects. [Step 1 in the tutorial series](learn-django-in-visual-studio-step-01-project-and-solution.md) describes how to create the site-level configuration files for a Django web project to support one or more Django web apps. In Step 2, you add content to your Django web project to create your first Django web app with a single page with multiple rendered views.
 
-In this step you now learn how to:
+In Step 2 of the tutorial, you learn how to:
 
 > [!div class="checklist"]
-> - Create a Django app with a single page (step 2-1)
-> - Run the app from the Django project (step 2-2)
-> - Render a view using HTML (step 2-3)
-> - Render a view using a Django page template (step 2-4)
+> - Create a Django app with a single page
+> - Run the app from the Django project
+> - Render a view by using HTML
+> - Render a view by using a Django page template
 
-## Step 2-1: Create an app with a default structure
+## Prerequisites
 
-A Django app is a separate Python package that contains a set of related files for a specific purpose. A Django project can contain any number of apps, which reflects the fact that a web host can serve any number of separate entry points from a single domain name. For example, a Django project for a domain like contoso.com might contain one app for `www.contoso.com`, a second app for support.contoso.com, and a third app for docs.contoso.com. In this case, the Django project handles site-level URL routing and settings (in its *urls.py* and *settings.py* files), while each app has its own distinct styling and behavior through its internal routing, views, models, static files, and administrative interface.
+- A Visual Studio solution and Django project created in [Step 1: Create Visual Studio solution and Django project](learn-django-in-visual-studio-step-01-project-and-solution.md).
 
-A Django app typically begins with a standard set of files. Visual Studio provides item templates to initialize a Django app within a Django project, along with an integrated menu command that serves the same purpose:
+- Review the [Prerequisites](learn-django-in-visual-studio-step-01-project-and-solution.md#prerequisites) section in Step 1 of this tutorial series for details about Django template versions, Visual Studio projects versus Django projects, and Python development on Mac.
 
-- Templates: In **Solution Explorer**, right-click the project and select **Add** > **New item**. In the **Add New Item** dialog, select the **Django 1.9 App** template, specify the app name in the **Name** field, and select **OK**.
+## Create Django app with default structure
 
-- Integrated command: In **Solution Explorer**, right-click the project and select **Add** > **Django app**. This command prompts you for a name and creates a Django 1.9 app.
+A Django app is a separate Python package that contains a set of related files for a specific purpose. A Django project can contain many apps, which help a web host to serve many separate entry points (or _routes_) from a single domain name. For example, a Django project for a domain like `contoso.com` might contain one app for the `www.contoso.com` route, a second app for the `support.contoso.com` route, and a third app for the `docs.contoso.com` route. In this scenario, the Django project handles site-level URL routing and settings in the _urls.py_ and _settings.py_ files. Each app has its own distinct styling and behavior through its internal routing, views, models, static files, and administrative interface.
 
-    ![Menu command for adding a Django app](media/django/step02-add-django-app-command.png)
+Development of a Django app usually begins with a standard set of files. Visual Studio provides templates to initialize a Django app with these files within a Django project. There's also an integrated menu command that serves the same purpose.
 
-Using either method, create an app with the name "HelloDjangoApp". The result is a folder in your project with that name that contains items as described in the table that follows.
+### Use template to create app
 
-![Django app files in Solution Explorer](media/django/step02-django-app-in-solution-explorer.png)
+Follow these steps to create the app from a template:
 
-::: moniker range="vs-2017"
-| Item | Description |
-| --- | --- |
-| **\_\_init\_\_.py** | The file that identifies the app as a package. |
-| **migrations** | A folder in which Django stores scripts that update the database to align with changes to the models. Django's migration tools then apply the necessary changes to any previous version of the database so that it matches the current models. Using migrations, you keep your focus on your models and let Django handle the underlying database schema. Migrations are discussed in step 6; for now, the folder simply contains an *\_\_init\_\_.py* file (indicating that the folder defines its own Python package). |
-| **templates** | A folder for Django page templates containing a single file *index.html* within a folder matching the app name. (In Visual Studio 2017 15.7 and earlier, the file is contained directly under *templates* and step 2-4 instructs you to create the subfolder.) Templates are blocks of HTML into which views can add information to dynamically render a page. Page template "variables," such as `{{ content }}` in *index.html*, are placeholders for dynamic values as explained later in this article (step 2). Typically Django apps create a namespace for their templates by placing them in a subfolder that matches the app name. |
-| **admin.py** | The Python file in which you extend the app's administrative interface (see step 6), which is used to seed and edit data in a database. Initially, this file contains only the statement, `from django.contrib import admin`. By default, Django includes a standard administrative interface through entries in the Django project's *settings.py* file, which you can turn on by uncommenting existing entries in *urls.py*. |
-| **apps.py** | A Python file that defines a configuration class for the app (see below, after this table). |
-| **models.py** | Models are data objects, identified by functions, through which views interact with the app's underlying database (see step 6). Django provides the database connection layer so that apps don't need to concern themselves with those details. The *models.py* file is a default place in which to create your models, and initially contains only the statement, `from django.db import models`. |
-| **tests.py** | A Python file that contains the basic structure of unit tests. |
-| **views.py** | Views are what you typically think of as web pages, which take an HTTP request and return an HTTP response. Views typically render as HTML that web browsers know how to display, but a view doesn't necessarily have to be visible (like an intermediate form). A view is defined by a Python function whose responsibility is to render the HTML to send to the browser. The *views.py* file is a default place in which to create views, and initially contains only the statement, `from django.shortcuts import render`. |
+1. In **Solution Explorer**, right-click the Visual Studio project (_BasicProject_) and select **Add** > **New Item**.
+
+   ::: moniker range="vs-2022"
+
+   :::image type="content" source="media/django/vs-2022/step-02-add-new-item.png" alt-text="Screenshot that shows how to add a new item to a project in Visual Studio 2022." border="false" lightbox="media/django/vs-2022/step-02-add-new-item.png"::: 
+
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
+
+   :::image type="content" source="media/django/step02-new-item.png" alt-text="Screenshot that shows how to add a new item to a project in Solution Explorer in Visual Studio." lightbox="media/django/step02-new-item.png":::
+
+   ::: moniker-end
+
+1. In the **Add New Item** dialog, select the **Django 1.9 App** template: 
+
+   1. Enter the app **Name** _HelloDjangoApp_.
+
+   1. Select **Add**.
+
+   ::: moniker range="vs-2022"
+
+   :::image type="content" source="media/django/vs-2022/step-02-add-django-1-9-app.png" alt-text="Screenshot that shows how to configure the Django 1.9 App template in Visual Studio 2022." border="false" lightbox="media/django/vs-2022/step-02-add-django-1-9-app.png"::: 
+
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
+
+   :::image type="content" source="media/django/step02-add-new-item.png" alt-text="Screenshot that shows how to configure the Django 1.9 App template in Visual Studio." lightbox="media/django/step02-add-new-item.png":::
+
+   ::: moniker-end
+
+### Use integrated menu command to create app
+
+Follow these steps to create the app by using the integrated Django menu command:
+
+1. In **Solution Explorer**, right-click the Visual Studio project (_BasicProject_) and select **Add** > **Django app**.
+
+   ::: moniker range="vs-2022"
+
+   :::image type="content" source="media/django/vs-2022/step-02-add-new-django-app.png" alt-text="Screenshot that shows how to add a new Django app from the context menu in Visual Studio 2022." border="false" lightbox="media/django/vs-2022/step-02-add-new-django-app.png"::: 
+
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
+
+   :::image type="content" source="media/django/step02-add-django-app-command.png" alt-text="Screenshot that shows how to add a new Django app from the context menu in Solution Explorer in Visual Studio." lightbox="media/django/step02-add-django-app-command.png":::
+
+   ::: moniker-end
+
+1. In the **Add Django App** dialog, enter the app name _HelloDjangoApp_:
+
+   ::: moniker range="vs-2022"
+
+   :::image type="content" source="media/django/vs-2022/step-02-name-django-app.png" alt-text="Screenshot that shows how to enter a name for the new Django app in Visual Studio 2022." border="false"::: 
+
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
+
+   :::image type="content" source="media/django/step-02-django-app-name.png" alt-text="Screenshot that shows how to enter a name for the new Django app in the popup dialog in Visual Studio.":::
+
+   ::: moniker-end
+
+1. Select **OK**.
+
+### Explore Django app folder
+
+When you create the **HelloDjangoApp** app, Visual Studio creates a folder with the same name in your Visual Studio project:
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/django/vs-2022/step-02-django-subfolder-app-files.png" alt-text="Screenshot that shows the Django subfolder with app files in Visual Studio 2022." border="false" lightbox="media/django/vs-2022/step-02-django-subfolder-app-files.png"::: 
+
+::: moniker-end
+::: moniker range="<=vs-2019"
+
+:::image type="content" source="media/django/step02-django-app-in-solution-explorer.png" alt-text="Screenshot that shows the Django subfolder with app files in Solution Explorer in Visual Studio." lightbox="media/django/step02-django-app-in-solution-explorer.png":::
+
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
-| Item | Description |
-| --- | --- |
-| **\_\_init\_\_.py** | The file that identifies the app as a package. |
-| **migrations** | A folder in which Django stores scripts that update the database to align with changes to the models. Django's migration tools then apply the necessary changes to any previous version of the database so that it matches the current models. Using migrations, you keep your focus on your models and let Django handle the underlying database schema. Migrations are discussed in the [Django documentation](https://docs.djangoproject.com/en/3.2/topics/migrations/); for now, the folder simply contains an *\_\_init\_\_.py* file (indicating that the folder defines its own Python package). |
-| **templates** | A folder for Django page templates containing a single file *index.html* within a folder matching the app name. (In Visual Studio 2017 15.7 and earlier, the file is contained directly under *templates* and step 2-4 instructs you to create the subfolder.) Templates are blocks of HTML into which views can add information to dynamically render a page. Page template "variables," such as `{{ content }}` in *index.html*, are placeholders for dynamic values as explained later in this article (step 2). Typically Django apps create a namespace for their templates by placing them in a subfolder that matches the app name. |
-| **admin.py** | The Python file in which you extend the app's administrative interface, which is used to seed and edit data in a database. Initially, this file contains only the statement, `from django.contrib import admin`. By default, Django includes a standard administrative interface through entries in the Django project's *settings.py* file, which you can turn on by uncommenting existing entries in *urls.py*. |
-| **apps.py** | A Python file that defines a configuration class for the app (see below, after this table). |
-| **models.py** | Models are data objects, identified by functions, through which views interact with the app's underlying database. Django provides the database connection layer so that apps don't need to concern themselves with those details. The *models.py* file is a default place in which to create your models, and initially contains only the statement, `from django.db import models`. |
-| **tests.py** | A Python file that contains the basic structure of unit tests. |
-| **views.py** | Views are what you typically think of as web pages, which take an HTTP request and return an HTTP response. Views typically render as HTML that web browsers know how to display, but a view doesn't necessarily have to be visible (like an intermediate form). A view is defined by a Python function whose responsibility is to render the HTML to send to the browser. The *views.py* file is a default place in which to create views, and initially contains only the statement, `from django.shortcuts import render`. |
-::: moniker-end
+The folder contains the following items:
 
-The contents of *apps.py* appears as follows when using the name "HelloDjangoApp":
+| Item                | Description |
+| --- | --- |                                                                                                                             
+| _migrations_      | A folder in which Django stores scripts that update the database to align with the changes to the models. Django's migration tools then apply the necessary changes to any previous version of the database to match the current models. When you use migrations, you keep your focus on your models and let Django handle the underlying database schema. For the exercises in this tutorial series, the folder contains an _\_\_init\_\_.py_ file, which indicates that the folder defines its own Python package. For more information, see the [Django documentation](https://docs.djangoproject.com/en/3.2/topics/migrations/). |
+| _\_\_init\_\_.py_ | The presence of the _init_ file identifies the Django app as a package. |
+| _templates_       | A folder for Django page templates that contains a single _index.html_ file. The _index.html_ file is placed in the folder that has the same name as the app name. Templates are blocks of HTML into which views can add information to dynamically render a page. Page template "variables," such as `{{ content }}` in the _index.html_ file, are placeholders for dynamic values as explained later in this article. Usually, Django apps create a namespace for their templates by placing them in a subfolder that matches the app name. |
+| _admin.py_        | The Python file in which you extend the app's administrative interface, which is used to view and edit data in a database. Initially, this file contains only the statement, `from django.contrib import admin`. By default, Django includes a standard administrative interface through entries in the Django project's _settings.py_ file. To turn on the interface, you can uncomment the existing entries in the _urls.py_ file. |
+| _apps.py_         | A Python file that defines a configuration class for the app. (See the example that follows this table.) |
+| _models.py_       | Models are data objects, identified by functions, through which views interact with the app's underlying database. Django provides the database connection layer so that the apps don't concern themselves with the models details. The _models.py_ file is a default place where you create your models. Initially, the _models.py_ file contains only the statement, `from django.db import models`. |
+| _tests.py_        | A Python file that contains the basic structure of unit tests. |
+| _views.py_        | Views are similar to web pages, which take an HTTP request and returns an HTTP response. Usually, views render as HTML and the web browsers know how to display, but a view doesn't necessarily have to be visible (like an intermediate form). A Python function defines the view that renders the HTML to the browser. The _views.py_ file is a default place where you create your views. Initially, the _views.py_ file contains only the statement, `from django.shortcuts import render`. |
+
+When you use the name "HelloDjangoApp," the contents of the _apps.py_ file appears as follows:
 
 ```python
 from django.apps import AppConfig
 
 class HelloDjangoAppConfig(AppConfig):
-    name = 'HelloDjango'
+    name = 'HelloDjangoApp'
 ```
 
-### Question: Is creating a Django app in Visual Studio any different from creating an app on the command line?
+### Create app in Visual Studio or from command line
 
-Answer: Running the **Add** > **Django app** command or using **Add** > **New Item** with a Django app template produces the same files as the Django command `manage.py startapp <app_name>`. The benefit to creating the app in Visual Studio is that the app folder and all its files are automatically integrated into the project. You can use the same Visual Studio command to create any number of apps in your project.
+The **Add** > **Django app** command and the **Add** > **New Item** command (combined with a Django application template) produce the same files as the Django CLI command `manage.py startapp <app_name>`. The benefit of creating the Django app in Visual Studio is that the app folder and all its files are automatically integrated in the project. You can use the same Visual Studio command to create any number of apps in your project.
 
-## Step 2-2: Run the app from the Django project
+## Add app-specific page views
 
-At this point, if you run the project again in Visual Studio (using the toolbar button or **Debug** > **Start Debugging**), you still see the default page. No app content appears because you need to define an app-specific page and add the app to the Django project:
+If you run your current project in Visual Studio by selecting **Debug** > **Start Debugging** (**F5**) or **Web Server** on the main toolbar, you see the default Django page. Web apps usually have multiple pages with different views. A unique route for the app URL address identifies each page in the app. 
 
-1. In the *HelloDjangoApp* folder, modify *views.py* to match the code below, which defines a view named "index":
+Follow these steps to define app-specific page views and add the app to the Django project:
 
-    ```python
-    from django.shortcuts import render
-    from django.http import HttpResponse
+1. In the _HelloDjangoApp_ subfolder of your Visual Studio project, replace the contents of the _views.py_ file with the following code:
 
-    def index(request):
-        return HttpResponse("Hello, Django!")
-    ```
+   ```python
+   from django.shortcuts import render
+   from django.http import HttpResponse
 
-1. In the *BasicProject* folder (created in step 1), modify *urls.py* to at least match the following code (you can retain the instructive comments if you like):
+   def index(request):
+       return HttpResponse("Hello, Django!")
+   ```
 
-    ```python
-    from django.conf.urls import include, url
-    import HelloDjangoApp.views
+   This code imports the necessary rendering and HTTP definitions and defines a view named `index`.
 
-    # Django processes URL patterns in the order they appear in the array
-    urlpatterns = [
-        url(r'^$', HelloDjangoApp.views.index, name='index'),
-        url(r'^home$', HelloDjangoApp.views.index, name='home'),
-    ]
-    ```
+1. In the _BasicProject_ subfolder of your Visual Studio project, modify the _urls.py_ file to match the following code. You can keep the instructive comments in the current file, as you prefer.
 
-    Each URL pattern describes the views to which Django routes specific site-relative URLs (that is, the portion that follows `https://www.domain.com/`). The first entry in `urlPatterns` that starts with the regular expression `^$` is the routing for the site root, "/". The second entry, `^home$` specifically routes "/home". You can have any number of routings to the same view.
+   ```python
+   from django.urls import include, re_path
+   import HelloDjangoApp.views
 
-1. Run the project again to see the message **Hello, Django!** as defined by the view. Stop the server when you're done.
+   # Django processes URL patterns in the order they appear in the array
+   urlpatterns = [
+       re_path(r'^$', HelloDjangoApp.views.index, name='index'),
+       re_path(r'^home$', HelloDjangoApp.views.index, name='home')
+   ]
+   ```
 
-### Commit to source control
+Each URL pattern describes the views to which Django routes specific site-relative URLs (that is, the route portion that follows the URL address `https://www.domain.com/`):
 
-Because you've made changes to your code and have tested them successfully, now is a great time to review and commit your changes to source control. Later steps in this tutorial remind you of appropriate times to commit to source control again, and refer you back to this section.
+- The first entry in the `urlPatterns` definition that starts with the regular expression `^$` is the routing for the site root page, `/`.
+- The second entry, `^home$`, routes to the application `/home` page.
 
-1. Select the changes button along the bottom of Visual Studio (circled below), which navigates to **Team Explorer**.
+Notice that the definition in this example code demonstrates that you can have multiple routings to the same view.
 
-    ![Source control changes button on the Visual Studio status bar](media/django/step02-source-control-changes-button.png)
+### Define raw route strings with (r) prefix
 
-1. In **Team Explorer**, enter a commit message like "Create initial Django app" and select **Commit All**. When the commit is complete, you see a message **Commit \<hash> created locally. Sync to share your changes with the server.** If you want to push changes to your remote repository, select **Sync**, then select **Push** under **Outgoing Commits**. You can also accumulate multiple local commits before pushing to remote.
+The `r` prefix in a route string in Python means "raw." This prefix instructs Python to not escape any characters within the route string. The regular expressions for route strings use many special characters. The `r` prefix in a route string is easier to read than the escape character `\`.
 
-    ![Push commits to remote in Team Explorer](media/django/step02-source-control-push-to-remote.png)
+### Use caret (^) and dollar ($) characters in routes
 
-### Question: What is the 'r' prefix before the routing strings for?
+In regular expressions that define URL patterns, the caret symbol `^` means "start of line" and the dollar sign `$` means "end of line." There are several uses for these characters in URLs relative to the site root (the part that follows the app address `https://www.domain.com/`):
 
-Answer: The 'r' prefix on a string in Python means "raw," which instructs Python to not escape any characters within the string. Because regular expressions use many special characters, using the 'r' prefix makes those strings much easier to read than if they contained a number of '\\' escape characters.
-
-### Question: What do the ^ and $ characters mean in the URL routing entries?
-
-Answer: In the regular expressions that define URL patterns, ^ means "start of line" and $ means "end of line," where again the URLs are relative to the site root (the part that follows `https://www.domain.com/`). The regular expression `^$` effectively means "blank" and therefore matches the full URL `https://www.domain.com/` (nothing added to the site root). The pattern `^home$` matches exactly `https://www.domain.com/home/`. (Django doesn't use the trailing / in pattern matching.)
-
-If you don't use a trailing $ in a regular expression, as with `^home`, then URL pattern matches *any* URL that begins with "home" such as "home", "homework", "homestead", and "home192837".
+- The regular expression `^$` effectively means "blank" and matches the full URL address for the site root of the app, `https://www.domain.com/`.
+- The pattern `^home$` matches exactly `https://www.domain.com/home/`, which is the site route followed by `/home`. (Django doesn't use the trailing / in pattern matching.)
+- If you don't use a trailing dollar sign `$` in a regular expression, such as for the `^home` route string, then URL pattern matching applies to _any_ URL that begins with `home` such as `home`, `homework`, `homestead`, `home192837`, and so on.
 
 To experiment with different regular expressions, try online tools such as [regex101.com](https://regex101.com) at [pythex.org](https://www.pythex.org).
 
-## Step 2-3: Render a view using HTML
+### Run app from Django project
 
-The `index` function that you have so far in *views.py* generates nothing more than a plain-text HTTP response for the page. Most real-world web pages, of course, respond with rich HTML pages that often incorporate live data. Indeed, the primary reason to define a view using a function is so you can generate that content dynamically.
+After you add app-specific content, run your app again and check the route views in the browser:
 
-Because the argument to `HttpResponse` is just a string, you can build up any HTML you like within a string. As a simple example, replace the `index` function with the following code (keeping the existing `from` statements), which generates an HTML response using dynamic content that's updated every time you refresh the page:
+1. When the application opens in the browser, check the page views for both the `/` (site root) and `/home` URL routes in the browser. For both routes, the application displays the message **Hello, Django!** in the browser.
 
-```python
-from datetime import datetime
+1. When you're done, select **Ctrl**+**C** in the console window, followed by any key to stop the application. You can also select **Debug** > **Stop Debugging**.
 
-def index(request):
-    now = datetime.now()
+1. Close any open browser windows for the application.
 
-    html_content = "<html><head><title>Hello, Django</title></head><body>"
-    html_content += "<strong>Hello Django!</strong> on " + now.strftime("%A, %d %B, %Y at %X")
-    html_content += "</body></html>"
+### Commit changes to source control
 
-    return HttpResponse(html_content)
-```
+After you update the Django app code and test the updates, you can review and commit your changes to source control:
 
-Run the project again to see a message like "**Hello Django!** on Monday, 16 April, 2018 at 16:28:10". Refresh the page to update the time and confirm that the content is being generated with each request. Stop the server when you're done.
+::: moniker range="vs-2022"
 
-> [!Tip]
-> A shortcut to stopping and restarting the project is to use the **Debug** > **Restart** menu command (**Ctrl**+**Shift**+**F5**) or the **Restart** button on the debugging toolbar:
->
-> ![Restart button on the debugging toolbar in Visual Studio](media/debugging-restart-toolbar-button.png)
+1. Save the changes to your project files, such as with the **Ctrl**+**S** keyboard shortcut.
 
-## Step 2-4: Render a view using a page template
+1. On the Git controls bar, select the uncommitted changes (pencil 11) to open the **Git Changes** window:
 
-Generating HTML in code works fine for very small pages, but as pages get more sophisticated you typically want to maintain the static HTML parts of your page (along with references to CSS and JavaScript files) as "page templates" into which you then insert dynamic, code-generated content. In the previous section, only the date and time from the `now.strftime` call is dynamic, which means all the other content can be placed in a page template.
+   :::image type="content" source="media/django/vs-2022/step-02-app-page-uncommitted-changes.png" alt-text="Screenshot that shows the uncommitted changes option on the Visual Studio 2022 status bar." border="false" lightbox="media/django/vs-2022/step-02-app-page-uncommitted-changes.png"::: 
 
-A Django page template is a block of HTML that can contain any number of replacement tokens called "variables" that are delineated by `{{` and `}}`, as in `{{ content }}`. Django's templating module then replaces variables with dynamic content that you provide in code.
+1. In the **Git Changes** window, enter a commit message, and select **Commit All**: 
 
-The following steps demonstrate the use of page templates:
+   :::image type="content" source="media/django/vs-2022/step-02-commit-all-app-page-changes.png" alt-text="Screenshot that shows how to edit the commit message and commit all changes for the app page code in the Git Changes window." border="false" lightbox="media/django/vs-2022/step-02-commit-all-app-page-changes.png"::: 
 
-1. Under the *BasicProject* folder, which contains the Django project, open *settings.py* file and add the app name, "HelloDjangoApp", to the `INSTALLED_APPS` list. Adding the app to the list tells the Django project that there's a folder of that name containing an app:
+   When the commit completes, Visual Studio displays the message **Commit \<hash> created locally**.
 
-    ```python
-    INSTALLED_APPS = [
-        'HelloDjangoApp',
-        # Other entries...
-    ]
-    ```
+1. (Optional) Push the committed changes to your remote repository:
 
-1. Also in *settings.py*, make sure the `TEMPLATES` object contains the following line (included by default), which instructs Django to look for templates in an installed app's *templates* folder:
+   1. On the Git controls bar, select the outgoing/incoming commits (arrows 1/0).
+   
+   1. Select **Sync** (Pull then Push) or **Push**.
 
-    ```json
-    'APP_DIRS': True,
-    ```
+   :::image type="content" source="media/django/vs-2022/step-02-push-commits-remote.png" alt-text="Screenshot that shows how to push commits to a remote repository in Visual Studio 2022." border="false" lightbox="media/django/vs-2022/step-02-push-commits-remote.png":::
+   
+   You can also accumulate multiple local commits before you push them to the remote repository.
 
-1. In the *HelloDjangoApp* folder, open the *templates/HelloDjangoApp/index.html* page template file (or *templates/index.html* in VS 2017 15.7 and earlier), to observe that it contains one variable, `{{ content }}`:
+::: moniker-end
+::: moniker range="<=vs-2019"
 
-    ```html
-    <html>
-    <head><title></title></head>
+1. Save the changes to your project files, such as with the **Ctrl**+**S** keyboard shortcut.
 
-    <body>
+1. Select the uncommitted changes (pencil 11) at the bottom right in Visual Studio, which opens **Team Explorer**:
 
-    {{ content }}
+   :::image type="content" source="media/django/step02-source-control-changes-button.png" alt-text="Screenshot that shows the source control changes option on the Visual Studio status bar." lightbox="media/django/step02-source-control-changes-button.png":::
 
-    </body>
-    </html>
-    ```
+1. In **Team Explorer**, enter a commit message like "Create Django app-specific page" and select **Commit All**.
 
-1. In the *HelloDjangoApp* folder, open *views.py* and replace the `index` function with the following code that uses the `django.shortcuts.render` helper function. The `render` helper provides a simplified interface for working with page templates. Be sure to keep all existing `from` statements.
+   When the commit completes, Visual Studio displays the message **Commit \<hash> created locally. Sync to share your changes with the server.**
 
-    ```python
-    from django.shortcuts import render   # Added for this step
+1. (Optional) Push the committed changes to your remote repository:
 
-    def index(request):
-        now = datetime.now()
+   1. In **Team Explorer**, select **Sync**.
+   
+   1. Expand the **Outgoing Commits** and select **Push**.
 
-        return render(
-            request,
-            "HelloDjangoApp/index.html",  # Relative path from the 'templates' folder to the template file
-            # "index.html", # Use this code for VS 2017 15.7 and earlier
-            {
-                'content': "<strong>Hello Django!</strong> on " + now.strftime("%A, %d %B, %Y at %X")
-            }
-        )
-    ```
+   :::image type="content" source="media/django/step02-source-control-push-to-remote.png" alt-text="Screenshot that shows how to sync and push commits to a remote repository in Team Explorer." lightbox="media/django/step02-source-control-push-to-remote.png":::
 
-    The first argument to `render`, as you can see, is the request object, followed by the relative path to the template file within the app's *templates* folder. A template file is named for the view it supports, if appropriate. The third argument to `render` is then a dictionary of variables that the template refers to. You can include objects in the dictionary, in which case a variable in the template can refer to `{{ object.property }}`.
+   You can also accumulate multiple local commits before you push them to the remote repository.
 
-1. Run the project and observe the output. You should see a similar message to that seen in step 2-2, indicating that the template works.
+::: moniker-end
 
-    Observe, however, that the HTML you used in the `content` property renders only as plain text because the `render` function automatically escapes that HTML. Automatic escaping prevent accidental vulnerabilities to injection attacks: developers often gather input from one page and use it as a value in another through a template placeholder. Escaping also serves as a reminder that it's again best to keep HTML in the page template and out of the code. Fortunately, it's a simple matter to create additional variables where needed. For example, change *index.html* with *templates* to match the following markup, which adds a page title and keeps all formatting in the page template:
+For subsequent procedures in this tutorial series, you can refer to this section for the steps to commit changes to source control.
 
-    ```html
-    <html>
-        <head>
-            <title>{{ title }}</title>
-        </head>
-        <body>
-            <strong>{{ message }}</strong>{{ content }}
-        </body>
-    </html>
-    ```
+## Use templates to render pages and views
 
-    Then write the `index` view function as follows, to provide values for all the variables in the page template:
+The `index` function in the _views.py_ file generates a plain-text HTTP response for the Django app page. Most real-world web pages respond with rich HTML pages that often incorporate live data. The primary reason developers define views by using a function is to generate content dynamically.
 
-    ```python
-    def index(request):
-        now = datetime.now()
+The argument to the `HttpResponse` method is just a string. You can build up any HTML within a string by using dynamic content. Because it's best to separate markup from data, it's better to place the markup in a template and keep the data in code.
 
-        return render(
-            request,
-            "HelloDjangoApp/index.html",  # Relative path from the 'templates' folder to the template file
-            # "index.html", # Use this code for VS 2017 15.7 and earlier
-            {
-                'title' : "Hello Django",
-                'message' : "Hello Django!",
-                'content' : " on " + now.strftime("%A, %d %B, %Y at %X")
-            }
-        )
-    ```
+### Adjust views to use inline HTML
 
-1. Stop the server and restart the project, and observe that the page now renders properly:
+Convert the view processing to use inline HTML for the page with some dynamic content:
 
-    ![Running app using the template](media/django/step02-result.png)
+1. In the _HelloDjangoApp_ subfolder of your Visual Studio project, open the _views.py_ file.
 
-1. <a name="template-namespacing"></a>Visual Studio 2017 version 15.7 and earlier: As a final step, move your templates into a subfolder named the same as your app, which creates a namespace and avoids potential conflicts with other apps you might add to the project. (The templates in VS 2017 15.8+ do this for you automatically.) That is, create a subfolder in *templates* named *HelloDjangoApp*, move *index.html* into that subfolder, and modify the `index` view function to refer to the template's new path, *HelloDjangoApp/index.html*. Then run the project, verify that the page renders properly, and stop the server.
+1. Replace the `index` function with the following code (keep the existing `from` statements):
 
-1. Commit your changes to source control and update your remote repository, if desired, as described under [step 2-2](#commit-to-source-control).
+   ```python
+   from datetime import datetime
 
-### Question: Do page templates have to be in a separate file?
+   def index(request):
+      now = datetime.now()
 
-Answer: Although templates are usually maintained in separate HTML files, you can also use an inline template. Using a separate file is recommended, however, to maintain a clean separation between markup and code.
+      html_content = "<html><head><title>Hello, Django</title></head><body>"
+      html_content += "<strong>Hello Django!</strong> on " + now.strftime("%A, %d %B, %Y at %X")
+      html_content += "</body></html>"
 
-### Question: Must templates use the .html file extension?
+      return HttpResponse(html_content)
+   ```
 
-Answer: The *.html* extension for page template files is entirely optional, because you always identify the exact relative path to the file in the second argument to the `render` function. However, Visual Studio (and other editors) typically give you features like code completion and syntax coloration with *.html* files, which outweighs the fact that page templates are not strictly HTML.
+   The revised `index` function generates an HTML response by using dynamic content that updates every time you refresh the page.
 
-In fact, when you're working with a Django project, Visual Studio automatically detects when the HTML file you're editing is actually a Django template, and provides certain auto-complete features. For example, when you start typing a Django page template comment, `{#`, Visual Studio automatically gives you the closing `#}` characters. The **Comment Selection** and **Uncomment Selection** commands (on the **Edit** > **Advanced** menu and on the toolbar) also use template comments instead of HTML comments.
+1. Save your changes and run your app again. The page now shows the current date and time along with the "**Hello Django!** message.
 
-### Question: When I run the project, I see an error that the template cannot be found. What's wrong?
+1. Refresh the page a few times to confirm that the date and time updates. When you're done, stop the app.
 
-Answer: If you see errors that the template cannot be found, make sure you added the app to the Django project's *settings.py* in the `INSTALLED_APPS` list. Without that entry, Django won't know to look in the app's *templates* folder.
+### Create HTML template for page views
 
-### Question: Why is template namespacing important?
+Generating HTML in code works fine for small pages. However, as pages get more sophisticated you need to maintain the static HTML parts of your page (along with references to CSS and JavaScript files) as "page templates." You can then insert the dynamic, code-generated content to the page templates. In the previous section, only the date and time from the `now.strftime` call is dynamic, which means all the other content can be placed in a page template.
 
-Answer: When Django looks for a template referred to in the `render` function, it uses whatever file it finds first that matches the relative path. If you have multiple Django apps in the same project that use the same folder structures for templates, it's likely that one app will unintentionally use a template from another app. To avoid such errors, always create a subfolder under an app's *templates* folder that matches the name of the app to avoid any and all duplication.
+A Django page template is a block of HTML that contains multiple replacement tokens called "variables." Open and close curly parenthesis `{{` and `}}` delineate the variables, such as `{{ content }}`. Django's template module then replaces variables with dynamic content that you provide in code.
 
-## Next steps
+Follow these steps to convert the page rendering process to use an HTML template:
+
+1. In the _HelloDjangoApp_ subfolder of your Visual Studio project, open the _settings.py_ file.
+
+1. Update the application references in the `INSTALLED_APPS` definition to include the app name `HelloDjangoApp`. Add the app name as the first entry in the list:
+
+   ```python
+   INSTALLED_APPS = [
+       'HelloDjangoApp',
+       # Existing entries in the list ...
+   ]
+   ```
+
+   Adding the app to the list informs the Django project that there's a folder named _HelloDjangoApp_ that contains an app.
+
+1. Confirm the `TEMPLATES` object configuration sets `APP_DIRS` to `True`:
+
+   ```python
+   'APP_DIRS': True,
+   ```
+
+   This statement instructs Django to look for templates in the _templates_ folder for an installed application. (This statement should be included in the definition by default.)
+
+1. In the _HelloDjangoApp_ subfolder, open the _templates/HelloDjangoApp/index.html_ page template file.
+
+1. Confirm the file contains only one variable, `{{ content }}`:
+
+   ```html
+   <html>
+     <head>
+       <title></title>
+     </head>
+
+     <body>
+       {{ content }}
+     </body>
+   </html>
+   ```
+
+   The `{{ content }}` statement is a placeholder or replacement token (also called a _template variable_) for which you supply a value in the code.
+
+1. In the _HelloDjangoApp_ subfolder of your Visual Studio project, open the _views.py_ file.
+
+1. Replace the `index` function with the following code that uses the `django.shortcuts.render` helper function (keep the existing `from` statements):
+
+   ```python
+   def index(request):
+      now = datetime.now()
+
+      return render(
+         request,
+         "HelloDjangoApp/index.html",  # Relative path from the 'templates' folder to the template file
+         {
+            'content': "<strong>Hello Django!</strong> on " + now.strftime("%A, %d %B, %Y at %X")
+         }
+      )
+   ```
+
+   The `render` helper function provides a simplified interface for working with page templates. This function has three arguments:
+
+   - The request object.
+   - The relative path to the template file within the app's _templates_ folder. A template file is named for the view it supports, if appropriate.
+   - A dictionary of variables that the template refers to. You can include objects in the dictionary, where a variable in the template can refer to `{{ object.property }}`.
+
+1. Save your project changes and run the app again.
+
+   Notice that the inline HTML syntax (`\<strong>` ...) within the `content` value doesn't render _as_ HTML because the templating engine (Jinja) automatically escapes HTML content. Automatic escaping prevents accidental vulnerabilities to injection attacks.
+   
+   Developers often gather input from one page and use it as a value in another by using a template placeholder. Escaping also serves as a reminder that it's best to keep HTML out of the code.
+
+   When you're done, stop the app.
+
+### Use distinct placeholders
+
+You can use distinct placeholders for each piece of data within the HTML markup. Then, adjust your `index` function again to supply the specific placeholder values:
+
+1. Replace the contents of the _templates/HelloDjangoApp/index.html_ page template file with the following markup: 
+
+   ```html
+   <html>
+     <head>
+       <title>{{ title }}</title>
+     </head>
+     <body>
+       <strong>{{ message }}</strong>{{ content }}
+     </body>
+   </html>
+   ```
+
+   This HTML markup adds a page title and keeps all the formatting in the page template.
+
+1. In the _HelloDjangoApp/views.py_ file, replace the `index` function with the following code: 
+
+   ```python
+   def index(request):
+       now = datetime.now()
+
+       return render(
+           request,
+           "HelloDjangoApp/index.html",  # Relative path from the 'templates' folder to the template file
+           # "index.html", # Use this code for VS 2017 15.7 and earlier
+           {
+               'title' : "Hello Django",
+               'message' : "Hello Django!",
+               'content' : " on " + now.strftime("%A, %d %B, %Y at %X")
+           }
+       )
+   ```
+
+   This code provides values for all the variables in the page template.
+
+1. Save your changes and run your app again. This time you should see the properly rendered output:
+
+   :::image type="content" source="media/django/step-02-render-page-html-template.png" alt-text="Screenshot that shows the running application that uses HTML template for the page information to render." border="false" lightbox="media/django/step-02-render-page-html-template.png":::
+
+1. You can commit your changes to source control and update your remote repository. For more information, see [Commit changes to source control](#commit-changes-to-source-control).
+
+### Separate page templates
+
+Templates are usually maintained in separate HTML files, but you can also use an inline template. Separate files are recommended to maintain a clean separation between markup and code.
+
+### Use .html extension for templates
+
+The _.html_ extension for page template files is entirely optional. You can always identify the exact relative path to the file in the first argument to the `render_template` function. However, Visual Studio (and other editors) typically provide features like code completion and syntax coloration with _.html_ files, which outweighs the fact that page templates aren't HTML.
+
+When you work with a Django project, Visual Studio automatically detects if the HTML file you're editing is actually a Django template, and provides certain auto-complete features. If you start to enter a Django page template comment (`{#`), Visual Studio automatically supplies the closing `#}` characters. The **Comment Selection** and **Uncomment Selection** commands (on the **Edit** > **Advanced** menu) also use template comments instead of HTML comments.
+
+## Troubleshoot issues
+
+When you run your app, you might encounter issues related to the template file for your app. Review the following points and ensure your Django project configuration is correct.
+
+### Template not found
+
+If Django or Visual Studio displays a **Template not found** error, ensure your app is on the `INSTALLED_APPS` list. This list is in the _settings.py_ file under the app subfolder of your Visual Studio project (such as _HelloDjangoApp_). If the list doesn't have an entry for your app, Django doesn't know to look in the app's _templates_ folder.
+
+### Duplicate template structure
+
+When Django looks for a template referred to in the `render` function, it uses the first file that matches the relative path. If you have multiple Django apps in the same project with same folder structures for templates, it's likely that one app can unintentionally use a template from another app. To avoid such errors, always create a subfolder under an app's _templates_ folder that matches the name of the app to avoid any duplication.
+
+## Next step
 
 > [!div class="nextstepaction"]
-> [Serve static files, add pages, and use template inheritance](learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md)
-
-## Go deeper
-
-- [Writing your first Django app, part 1 - views](https://docs.djangoproject.com/en/2.0/intro/tutorial01/#write-your-first-view) (docs.djangoproject.com)
-- For more capabilities of Django templates, such as includes and inheritance, see [The Django template language](https://docs.djangoproject.com/en/2.0/ref/templates/language/) (docs.djangoproject.com)
-- [Regular expression training on inLearning](https://www.linkedin.com/learning/topics/regular-expressions) (LinkedIn)
-- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django)
+> [Step 3: Serve static files, add pages, and use template inheritance](learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md)

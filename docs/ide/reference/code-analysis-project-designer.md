@@ -1,7 +1,6 @@
 ---
 title: Code Analysis, Project Designer
 description: Learn about the Code Analysis, Project Designer and how it contains the code analysis tool that you can opt to run on your code.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -9,13 +8,11 @@ f1_keywords:
 helpviewer_keywords:
 - Code Analysis page in Project Designer
 - Project Designer, Code Analysis page
-ms.assetid: 71743d26-4da5-4f7d-a403-7ab96cf2ef2e
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
+monikerRange: 'vs-2019'
 ---
 # Code Analysis, Project Designer
 

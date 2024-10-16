@@ -1,28 +1,24 @@
 ---
-title: What's New in Source Control in the Visual Studio 2015 SDK | Microsoft Docs
+title: What's New in Source Control in the Visual Studio 2015 SDK
 description: Learn about the features of source control VSPackages and review an overview of the implementation steps.
-ms.custom: SEO-VS-2020
 titleSuffix: ''
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - what's new [Visual Studio SDK], source control
 - source control [Visual Studio SDK], what's new
-ms.assetid: bcf85418-18fb-4824-9dae-d14bf3d56a77
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # What's New in Source Control for the Visual Studio 2015 SDK
 
-In the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)], you can provide a deeply integrated source control solution by implementing a source control VSPackage. This section describes the features of source control VSPackages and provides an overview of the implementation steps.
+In the Visual Studio SDK, you can provide a deeply integrated source control solution by implementing a source control VSPackage. This section describes the features of source control VSPackages and provides an overview of the implementation steps.
 
 ## The Source Control VSPackage
 
-Visual Studio supports two types of source control solutions. In all versions of Visual Studio, you can still integrate a Source Control Plug-in API-based plug-in. You can also create a VSPackage for source control that provides a deep-integration, [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] path suitable for source control solutions that require a high level of sophistication and autonomy.
+Visual Studio supports two types of source control solutions. In all versions of Visual Studio, you can still integrate a Source Control Plug-in API-based plug-in. You can also create a VSPackage for source control that provides a deep-integration, Visual Studio SDK path suitable for source control solutions that require a high level of sophistication and autonomy.
 
 A VSPackage can add almost any kind of functionality to Visual Studio. A source control VSPackage provides a complete source control feature for Visual Studio, from the UI presented to the user to the back-end communication with the source control system.
 
@@ -38,11 +34,11 @@ The following steps give a general overview of what is needed to implement a sou
 
 4. Implement all source control UI, including menu items, dialog boxes, toolbars, and context menus.
 
-5. All source control-related events are passed to your source control VSackage when it is active and must be handled by your VSPackage.
+5. All source control-related events are passed to your source control VSPackage when it is active and must be handled by your VSPackage.
 
 6. Your source control VSPackage must listen to events such as those implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3> interface as well as Track Project Document (TPD) events (as implemented by the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2> interface) and take necessary action.
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProvider>

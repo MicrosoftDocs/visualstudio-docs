@@ -1,7 +1,6 @@
 ---
-title: Create a Package Manifest | Microsoft Docs
+title: Create a bootstrapper package manifest
 description: Learn about using a bootstrapper package to deploy prerequisites for your ClickOnce application, which contains a package manifest for each locale.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -14,15 +13,13 @@ helpviewer_keywords:
   - package files [ClickOnce]
   - prerequisites, custom bootstrapper package
   - dependencies, custom bootstrapper packages
-ms.assetid: 5aecc507-2764-42f2-ae6f-c227971cf0af
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
+manager: mijacobs
+ms.subservice: deployment
 ---
-# How to: Create a package manifest
+# Create a package manifest
+
 To deploy prerequisites for your application, you can use a bootstrapper package. A bootstrapper package contains a single product manifest file but a package manifest for each locale. Shared functionality across different localized versions should go into the product manifest.
 
  For more information about product manifests, see [How to: Create a product manifest](../deployment/how-to-create-a-product-manifest.md).
@@ -68,7 +65,7 @@ To deploy prerequisites for your application, you can use a bootstrapper package
     </Strings>
     ```
 
-7. Copy the *C:\package* folder to the Visual Studio bootstrapper directory. For Visual Studio 2010, this is the *\Program Files\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages* directory.
+7. Copy the *C:\package* folder to the Visual Studio bootstrapper directory. For older versions of Visual Studio, this is the *\Program Files\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages* directory.
 
 ## Example
  The package manifest contains locale-specific information, such as error messages, software license terms, and language packs.
@@ -95,5 +92,5 @@ installing this package.</String>
 </Package>
 ```
 
-## See also
+## Related content
 - [Product and package schema reference](../deployment/product-and-package-schema-reference.md)

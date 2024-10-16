@@ -2,36 +2,26 @@
 description: "Retrieves the classes with the specified attribute that are implemented in the specified programming language."
 title: IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage
 titleSuffix: ""
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - GetAttributedClassesForLanguage
 - IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage
-ms.assetid: e5b1b8b6-52a6-4ade-9a36-644abfa9f4b2
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage
+
 Retrieves the classes with the specified attribute that are implemented in the specified programming language.
 
 ## Syntax
 
-```cpp
-HRESULT GetAttributedClassesForLanguage (
-    GUID               guidLanguage,
-    LPOLESTR           pstrAttribute,
-    IEnumDebugFields** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAttributedClassesForLanguage (
     Guid                 guidLanguage,
@@ -39,6 +29,15 @@ int GetAttributedClassesForLanguage (
     out IEnumDebugFields ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAttributedClassesForLanguage (
+    GUID               guidLanguage,
+    LPOLESTR           pstrAttribute,
+    IEnumDebugFields** ppEnum
+);
+```
+---
 
 ## Parameters
 `guidLanguage`\
@@ -141,7 +140,7 @@ HRESULT CDebugSymbolProvider::GetAttributedClassesForLanguage(
                     &pUnused,
                     &cbUnused ) == S_OK)
             {
-                // Only return classes implemeted in the correct language
+                // Only return classes implemented in the correct language
 
                 if (pModule->ClassImplementedInLanguage( rgTypeDefs[iTypeDef],
                         guidLanguage) )

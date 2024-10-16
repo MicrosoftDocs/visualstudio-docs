@@ -1,38 +1,26 @@
 ---
 description: "Creates an object that uses a constructor given evaluation flag settings and a timeout value."
-title: IDebugFunctionObject2::CreateObject | Microsoft Docs
+title: IDebugFunctionObject2::CreateObject
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugFunctionObject2::CreateObject
 - CreateObject
-ms.assetid: 148de615-941e-4b64-ab11-75b692aae465
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugFunctionObject2::CreateObject
+
 Creates an object that uses a constructor given evaluation flag settings and a timeout value.
 
 ## Syntax
 
-```cpp
-HRESULT CreateObject (
-   IDebugFunctionObject* pConstructor,
-   DWORD                 dwArgs,
-   IDebugObject*         pArgs[],
-   DWORD                 dwEvalFlags,
-   DWORD                 dwTimeout,
-   IDebugObject**        ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateObject (
    IDebugFunctionObject pConstructor,
@@ -43,6 +31,18 @@ int CreateObject (
    out IDebugObject**   ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateObject (
+   IDebugFunctionObject* pConstructor,
+   DWORD                 dwArgs,
+   IDebugObject*         pArgs[],
+   DWORD                 dwEvalFlags,
+   DWORD                 dwTimeout,
+   IDebugObject**        ppObject
+);
+```
+---
 
 ## Parameters
 `pConstructor`\

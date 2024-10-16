@@ -1,16 +1,12 @@
 ---
-title: "How to: Diagnose extension performance| Microsoft Docs"
+title: "Diagnose extension performance| Microsoft Docs"
 description: Visual Studio notifies users of slow extensions. Learn how extension impact is calculated and how extension impact can be analyzed locally.
-ms.custom: SEO-VS-2020
 ms.date: "11/08/2016"
 ms.topic: how-to
-ms.assetid: 46b0a1e3-7e69-47c9-9d8d-a1815d6c3896
 author: "BertanAygun"
 ms.author: "bertaygu"
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-  - "bertaygu"
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Measuring extension impact in startup
 
@@ -79,15 +75,15 @@ Beginning in Visual Studio 2017 Update 3, Visual Studio activity log will now co
 
 In the activity log, the entries will be under "Manage Visual Studio Performance" source, and will look like the following example:
 
-```Component: 3cd7f5bf-6662-4ff0-ade8-97b5ff12f39c, Inclusive Cost: 2008.9381, Exclusive Cost: 2008.9381, Top Level Inclusive Cost: 2008.9381```
+`Component: 3cd7f5bf-6662-4ff0-ade8-97b5ff12f39c, Inclusive Cost: 2008.9381, Exclusive Cost: 2008.9381, Top Level Inclusive Cost: 2008.9381`
 
 This example shows that a package with GUID "3cd7f5bf-6662-4ff0-ade8-97b5ff12f39c" spent 2008 ms in startup of Visual Studio. Note that Visual Studio considers top-level cost as the primary number when calculating impact of a package as that would be the savings users see when they disable the extension for that package.
 
 ## Measuring impact of auto loaded extensions using PerfView
 
-While code analysis can help identify code paths that can slow down package initialization, you can also utilize tracing by using applications like PerfView to understand the impact of a package load in Visual Studio startup.
+While code analysis can help identify code paths that can slow down package initialization, you can also utilize tracing by using applications like [PerfView](https://github.com/Microsoft/perfview/releases) to understand the impact of a package load in Visual Studio startup.
 
-PerfView is a system-wide tracing tool. This tool will help you understand hot paths in an application either because of CPU usage or blocking system calls. Below is a quick example on analyzing a sample extension using PerfView available at the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=28567).
+PerfView is a system-wide tracing tool. This tool will help you understand hot paths in an application either because of CPU usage or blocking system calls. Below is a quick example on analyzing a sample extension using PerfView.
 
 **Example code:**
 

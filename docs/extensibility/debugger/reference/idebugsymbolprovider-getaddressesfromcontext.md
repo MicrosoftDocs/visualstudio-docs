@@ -1,37 +1,27 @@
 ---
 description: "This method maps a document context into an array of debug addresses."
-title: IDebugSymbolProvider::GetAddressesFromContext | Microsoft Docs
+title: IDebugSymbolProvider::GetAddressesFromContext
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugSymbolProvider::GetAddressesFromContext
 helpviewer_keywords:
 - IDebugSymbolProvider::GetAddressesFromContext method
-ms.assetid: a3124883-a255-4543-a5ec-e1c7a97beb69
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugSymbolProvider::GetAddressesFromContext
+
 This method maps a document context into an array of debug addresses.
 
 ## Syntax
 
-```cpp
-HRESULT GetAddressesFromContext( 
-   IDebugDocumentContext2* pDocContext,
-   BOOL                    fStatmentOnly,
-   IEnumDebugAddresses**   ppEnumBegAddresses,
-   IEnumDebugAddresses**   ppEnumEndAddresses
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAddressesFromContext(
    IDebugDocumentContext2  pDocContext,
@@ -40,6 +30,16 @@ int GetAddressesFromContext(
    out IEnumDebugAddresses ppEnumEndAddresses
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAddressesFromContext( 
+   IDebugDocumentContext2* pDocContext,
+   BOOL                    fStatmentOnly,
+   IEnumDebugAddresses**   ppEnumBegAddresses,
+   IEnumDebugAddresses**   ppEnumEndAddresses
+);
+```
+---
 
 ## Parameters
 `pDocContext`\

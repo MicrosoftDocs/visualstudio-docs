@@ -1,7 +1,6 @@
 ---
 title: -Clean (devenv.exe)
 description: Learn how to use the Clean devenv command-line switch to clean all intermediary files and output directories.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
@@ -9,13 +8,10 @@ helpviewer_keywords:
 - Clean Devenv switch
 - /Clean Devenv switch
 - Devenv, /Clean switch
-ms.assetid: 79929dfd-22c9-4cec-a0d0-a16f15b8f7e4
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # /Clean (devenv.exe)
 

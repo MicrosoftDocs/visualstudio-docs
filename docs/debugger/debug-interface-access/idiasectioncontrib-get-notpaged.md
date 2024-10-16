@@ -1,27 +1,26 @@
 ---
-description: "Retrieves a flag that indicates whether the section cannot be paged out of memory."
-title: "IDiaSectionContrib::get_notPaged | Microsoft Docs"
+description: Retrieves a flag that indicates whether the section cannot be paged out of memory.
+title: "IDiaSectionContrib::get_notPaged"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSectionContrib::get_notPaged method"
-ms.assetid: bb6baa40-fece-4a4c-aba9-f4b41f418f8b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_notPaged
+
 Retrieves a flag that indicates whether the section cannot be paged out of memory.
 
 ## Syntax
 
 ```C++
-HRESULT get_notPaged ( 
+HRESULT get_notPaged ( 
    BOOL* pRetVal
 );
 ```

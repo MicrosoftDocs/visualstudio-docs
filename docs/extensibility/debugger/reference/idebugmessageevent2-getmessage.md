@@ -1,6 +1,6 @@
 ---
 description: "Gets the message to be displayed."
-title: IDebugMessageEvent2::GetMessage | Microsoft Docs
+title: IDebugMessageEvent2::GetMessage
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,32 +8,21 @@ f1_keywords:
 helpviewer_keywords:
 - GetMessage method
 - IDebugMessageEvent2::GetMessage method
-ms.assetid: 9fca7285-f7f1-422d-8565-92bf0e0db60a
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugMessageEvent2::GetMessage
+
 Gets the message to be displayed.
 
 ## Syntax
 
-```cpp
-HRESULT GetMessage( 
-   MESSAGETYPE* pMessageType,
-   BSTR*        pbstrMessage,
-   DWORD*       pdwType,
-   BSTR*        pbstrHelpFileName,
-   DWORD*       pdwHelpId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMessage( 
    out enum_MESSAGETYPE pMessageType,
@@ -43,6 +32,17 @@ int GetMessage( 
    out uint             dwHelpId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMessage( 
+   MESSAGETYPE* pMessageType,
+   BSTR*        pbstrMessage,
+   DWORD*       pdwType,
+   BSTR*        pbstrHelpFileName,
+   DWORD*       pdwHelpId
+);
+```
+---
 
 ## Parameters
 `pMessageType`\

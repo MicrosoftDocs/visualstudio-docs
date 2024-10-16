@@ -1,9 +1,8 @@
 ---
-title: "Stale Code Warning Dialog Box | Microsoft Docs"
+title: "Stale Code Warning Dialog Box"
 description: Read about the Stale Code Warning dialog box, which appears when you've made changes to native code that Edit and Continue couldn't immediately apply.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.ENC.stalecode"
 dev_langs:
@@ -16,13 +15,10 @@ helpviewer_keywords:
   - "code, stale code warning"
   - "warnings, Stale Code Warning dialog box"
   - "Edit and Continue, stale code"
-ms.assetid: 594b894c-e652-4e13-a980-9909473d5712
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Stale Code Warning Dialog Box
 

@@ -1,26 +1,25 @@
 ---
-title: "CompilandEnv | Microsoft Docs"
+title: CompilandEnv
 description: Find reference information about the CompilandEnv symbol type (SymTagCompilandEnv) in the Visual Studio debug interface access SDK.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "CompilandEnv symbol"
-ms.assetid: 808404bb-ece1-47f1-b9ea-c76d4d86ddd9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # CompilandEnv
-The compiler may include additional environment variables with symbols. There is one `SymTagCompilandEnv` symbol for each of these variables.
+
+The compiler might include additional environment variables with symbols. There is one `SymTagCompilandEnv` symbol for each of these variables.
 
 ## Properties
- The following table shows the properties that are valid for this symbol type.
+
+The following table shows the properties that are valid for this symbol type.
 
 |Property|Data type|Description|
 |--------------|---------------|-----------------|
@@ -32,5 +31,6 @@ The compiler may include additional environment variables with symbols. There is
 |[IDiaSymbol::get_value](../../debugger/debug-interface-access/idiasymbol-get-value.md)|`VARIANT`|String-valued contents of the variable (`VT_BSTR`).|
 
 ## See also
+
 - [Compiland](../../debugger/debug-interface-access/compiland.md)
 - [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)

@@ -1,8 +1,7 @@
 ---
 title: Application page of C# project properties
 description: Learn how to use the Application page of the C# Project Designer to specify the project's application settings and properties.
-ms.custom: SEO-VS-2020
-ms.date: 10/30/2018
+ms.date: 11/12/2021
 ms.topic: reference
 f1_keywords:
 - cs.ProjectPropertiesApplicationWPF
@@ -10,12 +9,11 @@ f1_keywords:
 helpviewer_keywords:
 - Project Designer, Application page
 - Application page in Project Designer
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- dotnet
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: general-ide
+monikerRange: 'vs-2019'
 ---
 # Application Page, Project Designer (C#)
 
@@ -50,8 +48,6 @@ To access this property programmatically, see <xref:VSLangProj.ProjectProperties
 Specifies the version of .NET that the application targets. This option can have different values depending on which versions of .NET are installed on your computer.
 
 For .NET Framework projects, the default value matches the target framework that you specified when you created the project.
-
-For a project that targets .NET Core, the available versions may appear as follows:
 
 ![Target framework versions for a .NET Core project](../media/application-target-framework.png)
 
@@ -106,9 +102,9 @@ For information about creating an icon, see [Image editor for icons](/cpp/window
 
 **Manifest**
 
-Selects a manifest generation option when the application runs on Windows Vista under User Account Control (UAC). This option can have the following values:
+Selects a manifest generation option when the application runs on Windows under User Account Control (UAC). This option can have the following values:
 
-- **Embed manifest with default settings**. Supports the typical manner in which Visual Studio operates on Windows Vista, which is to embed security information in the application's executable file, specifying that `requestedExecutionLevel` be `AsInvoker`. This is the default option.
+- **Embed manifest with default settings**. Supports the typical manner in which Visual Studio operates on Windows, which is to embed security information in the application's executable file, specifying that `requestedExecutionLevel` be `AsInvoker`. This is the default option.
 
 - **Create application without a manifest**. This method is known as *virtualization*. Use this option for compatibility with earlier applications.
 
@@ -121,3 +117,7 @@ Select this radio button when you're providing a resource file for the project. 
 Enter a path name or use the Browse button (**...**) to add a Win32 resource file to the project.
 
 For more information, see [Create resource files for .NET apps](/dotnet/framework/resources/creating-resource-files-for-desktop-apps).
+
+## See also
+
+[Revamped Project Properties UI](https://devblogs.microsoft.com/visualstudio/revamped-project-properties-ui/)

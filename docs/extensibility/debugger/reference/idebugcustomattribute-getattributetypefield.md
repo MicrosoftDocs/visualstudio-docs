@@ -1,39 +1,39 @@
 ---
 description: "Gets the custom attribute class type."
-title: IDebugCustomAttribute::GetAttributeTypeField | Microsoft Docs
+title: IDebugCustomAttribute::GetAttributeTypeField
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCustomAttribute::GetAttributeTypeField
 helpviewer_keywords:
 - IDebugCustomAttribute::GetAttributeTypeField
-ms.assetid: d6ce26d5-42ba-44c1-8659-0516db5bc82d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCustomAttribute::GetAttributeTypeField
+
 Gets the custom attribute class type.
 
 ## Syntax
 
-```cpp
-HRESULT GetAttributeTypeField( 
-   IDebugClassField** ppCAType
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAttributeTypeField(
    out IDebugClassField ppCAType
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAttributeTypeField( 
+   IDebugClassField** ppCAType
+);
+```
+---
 
 ## Parameters
 `ppCAType`\

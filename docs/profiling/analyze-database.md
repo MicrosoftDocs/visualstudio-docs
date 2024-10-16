@@ -1,23 +1,21 @@
 ---
-title: "Analyze database usage for .NET Core projects | Microsoft Docs"
-description: Use the Database tool to record your app's database queries, then analyze them to find ways to improve performance.
-ms.custom: SEO-VS-2020
+title: "Analyze database usage for .NET Core projects"
+description: Use the Database tool to record your application's database queries and analyze the queries to find ways to improve application performance.
 ms.date: "5/5/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "database, profiling"
-author: "esteban-herrera"
-ms.author: "esherrer"
-manager: AndSter
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Analyze database performance using the Database tool
 
 Use the Database tool to record the database queries that your app makes during a diagnostic session. You can then analyze information about individual queries to find places to improve your app's performance.
 
 > [!NOTE]
-> The Database tool requires Visual Studio 2019 version 16.3 or later and a .NET Core project on Windows using either [ADO.NET](/dotnet/framework/data/adonet/ado-net-overview) or [Entity Framework Core](/ef/core/).
+> The Database tool requires Visual Studio 2019 version 16.3 or later and a .NET Core project using either [ADO.NET](/dotnet/framework/data/adonet/ado-net-overview) or [Entity Framework Core](/ef/core/).
 
 ## Setup
 
@@ -48,6 +46,8 @@ After you find a query you want to investigate, right-click the query. Then sele
 
 If you select a time range on a graph, the query table shows only queries that occurred during that time range. This behavior is especially useful when you also run the [CPU Usage tool](./cpu-usage.md?view=vs-2019&preserve-view=true).
 
-## See also
+## Related content
 
 - [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md)
+- [Identify hot paths with Flame Graph](../profiling/flame-graph.md)
+- [Use File IO](../profiling/use-file-io.md)

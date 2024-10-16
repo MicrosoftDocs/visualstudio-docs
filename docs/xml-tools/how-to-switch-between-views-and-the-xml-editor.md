@@ -1,18 +1,14 @@
 ---
-title: 'How to: Switch Between Views and the XML editor'
+title: 'Switch Between Views and the XML editor'
 description: Learn how to switch between the XML Schema Designer (XSD Designer) views and the XML editor.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: cb69fbbd-d99c-439e-9498-5df9050f8df0
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xml-tools
-ms.workload:
-- multiple
+author: dzsquared
+ms.author: drskwier
+manager: mijacobs
+ms.subservice: xml-tools
 ---
-# How to: Switch between views and the XML editor
+# Switch between views and the XML editor
 
 This topic shows how to switch between the XML Schema Designer (XSD Designer) views and the XML editor. This example uses the [Purchase order schema](../xml-tools/sample-xsd-file-simple-schema.md).
 

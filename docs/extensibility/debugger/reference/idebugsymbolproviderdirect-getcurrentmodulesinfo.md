@@ -1,37 +1,26 @@
 ---
 description: "Retrieves information about the modules in the symbol group."
-title: IDebugSymbolProviderDirect::GetCurrentModulesInfo | Microsoft Docs
+title: IDebugSymbolProviderDirect::GetCurrentModulesInfo
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugSymbolProviderDirect::GetCurrentModulesInfo
 - GetCurrentModulesInfo
-ms.assetid: b3b45ed2-ea4e-4389-b78a-11fc9796a6c1
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugSymbolProviderDirect::GetCurrentModulesInfo
+
 Retrieves information about the modules in the symbol group.
 
 ## Syntax
 
-```cpp
-HRESULT GetCurrentModulesInfo(
-   unsigned long * pCount,
-   GUID *          ppGuids,
-   DWORD *         pADIds,
-   DWORD *         pCurrentState,
-   IUnknown **     ppCDModItfs
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCurrentModulesInfo(
    uint       pCount,
@@ -41,6 +30,17 @@ int GetCurrentModulesInfo(
    out object ppCDModItfs
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCurrentModulesInfo(
+   unsigned long * pCount,
+   GUID *          ppGuids,
+   DWORD *         pADIds,
+   DWORD *         pCurrentState,
+   IUnknown **     ppCDModItfs
+);
+```
+---
 
 ## Parameters
 `pCount`\

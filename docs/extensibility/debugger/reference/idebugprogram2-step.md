@@ -1,24 +1,22 @@
 ---
 description: "Performs a step."
-title: IDebugProgram2::Step | Microsoft Docs
+title: IDebugProgram2::Step
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgram2::Step
 helpviewer_keywords:
 - IDebugProgram2::Step
-ms.assetid: e4c2ffce-9810-4088-8162-eac9ef04f2a9
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgram2::Step
+
 Performs a step.
 
 > [!NOTE]
@@ -26,14 +24,7 @@ Performs a step.
 
 ## Syntax
 
-```cpp
-HRESULT Step( 
-   IDebugThread2*  pThread,
-   STEPKIND        sk,
-   STEPUNIT        step
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Step( 
    IDebugThread2  pThread,
@@ -41,6 +32,15 @@ int Step( 
    enum_STEPUNIT  step
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Step( 
+   IDebugThread2*  pThread,
+   STEPKIND        sk,
+   STEPUNIT        step
+);
+```
+---
 
 ## Parameters
 `pThread`\

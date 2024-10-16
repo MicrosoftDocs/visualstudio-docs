@@ -1,7 +1,6 @@
 ---
 title: "Deployment manifests for Office solutions"
 description: Learn that a deployment manifest is an XML file that describes the deployment settings of an Office solution and identifies the current application version.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "reference"
 dev_langs:
@@ -14,21 +13,20 @@ helpviewer_keywords:
   - "Office development in Visual Studio, deployment manifests"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Deployment manifests for Office solutions
+
   A deployment manifest is an XML file that describes the deployment settings of an Office solution and identifies the current application version.
 
- The Office development in Visual Studio uses the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] deployment manifest schema defined in the [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md) reference.
+ The Office development in Visual Studio uses the ClickOnce deployment manifest schema defined in the [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md) reference.
 
 ## Remarks
  The deployment manifest file for Office solutions, identifies the current version and other deployment settings. It references the application manifest, and describes the current version of the solution and all files within in the solution.
 
 ## File name syntax
- The name of a deployment manifest file must end with the *.vsto* extension. Although it is a standard [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] deployment manifest, the extension differs to enable the Visual Studio Tools for Office runtime to handle the file.
+ The name of a deployment manifest file must end with the *.vsto* extension. Although it is a standard ClickOnce deployment manifest, the extension differs to enable the Visual Studio Tools for Office runtime to handle the file.
 
 ## Example
  The following code example illustrates a deployment manifest for a Visual Studio Tools for Office solution.

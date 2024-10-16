@@ -1,23 +1,20 @@
 ---
 title: Implementing a source control plug-in - best practices
 description: Review these technical details to help you reliably implement a source control plug-in in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control plug-ins, best practices
 - best practices, source control plug-ins
 - source control [Visual Studio SDK], plug-ins
-ms.assetid: 85e73b73-29dc-464f-8734-ed308742c435
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Best practices for implementing a source control plug-in
-The following technical details can help you reliably implement a source control plug-in in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+
+The following technical details can help you reliably implement a source control plug-in in Visual Studio.
 
 ## Memory management issues
  In most cases, the integrated development environment (IDE), which is the caller, releases and allocates memory. The source control plug-in returns strings and other items in caller-allocated buffers. Exceptions are noted in descriptions of specific functions where they occur.
@@ -54,6 +51,6 @@ The following technical details can help you reliably implement a source control
 
  Most user-configurable setting options are not defined in this manner, because they vary widely among source control plug-ins. Therefore, the recommended mechanism is an **Advanced** button. For instance, in the **Get** dialog box, the IDE displays only information that it understands, but it also displays an **Advanced** button if the plug-in has options for this command. When the user clicks the **Advanced** button, the IDE calls the [SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md) to enable the source control plug-in to prompt the user for information, such as bitflags or a date/time. The plug-in returns this information in a structure that is passed back during the `SccGet` command.
 
-## See also
+## Related content
 - [Source control plug-ins](../extensibility/source-control-plug-ins.md)
 - [Create a source control plug-in](../extensibility/internals/creating-a-source-control-plug-in.md)

@@ -2,7 +2,6 @@
 description: "The friendlyName element of the vstov4 namespace stores the name that appears in the list of installed programs."
 title: "&lt;friendlyName&gt; element (Office development in Visual Studio)"
 titleSuffix: ""
-ms.custom: "seodec18"
 ms.date: "02/02/2017"
 ms.topic: "reference"
 dev_langs:
@@ -12,12 +11,11 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <friendlyName> element"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # &lt;friendlyName&gt; element (Office development in Visual Studio)
+
   The `friendlyName` element of the `vstov4` namespace stores the name that appears in the list of installed programs.
 
 ## Syntax
@@ -35,7 +33,7 @@ ms.workload:
 ## VSTO Add-in example
 
 ### Description
- The following code example illustrates the `friendlyName` element in an application-level solution deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
+ The following code example illustrates the `friendlyName` element in an application-level solution deployed by using ClickOnce. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
 
 ### Code
 

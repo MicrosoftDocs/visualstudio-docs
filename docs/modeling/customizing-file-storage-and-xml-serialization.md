@@ -1,7 +1,6 @@
 ---
 title: Customizing File Storage and XML Serialization
 description: Learn about the XML file created or updated when you save an instance, or model, of a domain-specific language (DSL) in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -10,10 +9,8 @@ helpviewer_keywords:
 - Domain-Specific Language, serialization
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Customize File Storage and XML Serialization
 
@@ -301,7 +298,7 @@ Role data nodes are found under the source class nodes.
 |Role Element Name|Specifies the name of the XML element that is derived from the source role. The default value is the role property name.|
 |Use Full Form|If true, each target element or moniker is enclosed in an XML node representing the relationship. This should be set to true if the relationship has its own domain properties.|
 
-## See also
+## Related content
 
 - [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)
 - [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)

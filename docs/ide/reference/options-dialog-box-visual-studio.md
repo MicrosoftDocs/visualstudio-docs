@@ -1,7 +1,6 @@
 ---
 title: Options dialog
 description: Learn about the Options dialog box, its layout, and how Visual Studios applies the options you select to your projects and solutions.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -11,13 +10,10 @@ helpviewer_keywords:
 - Options dialog box
 - Options dialog box, development environment
 - tools [Visual Studio], customizing
-ms.assetid: 02b09877-1df1-4531-a0d1-a4ca17c7f857
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: anandmeg
+ms.author: meghaanand
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Options dialog box (Visual Studio)
 

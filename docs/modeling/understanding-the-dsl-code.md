@@ -1,17 +1,14 @@
 ---
 title: Understanding the DSL Code
 description: Learn how the Domain-Specific Language (DSL) solution generates an API that you can use to read and update instances of the DSL in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, generated code
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Understanding the DSL Code
 
@@ -148,7 +145,7 @@ Press **F5** and experiment if you are not familiar with this solution template.
 
  `MultiplicityValidation.cs`
 
- In relationship roles where you specify a multiplicity of 1..1 or 1..*, the user should be warned that at least one instance of the relationship is required. This file provides validation constraints that implement those warnings. The 1..1 link to a embedding parent is not verified.
+ In relationship roles where you specify a multiplicity of 1..1 or 1..*, the user should be warned that at least one instance of the relationship is required. This file provides validation constraints that implement those warnings. The 1..1 link to an embedding parent is not verified.
 
  For these constraints to be executed, you must have set one of the **Uses...** options in the **Editor\Validation** node in DSL Explorer. For more information, see [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md).
 
@@ -341,7 +338,7 @@ explorerWindow.TreeContainer.ObjectModelBrowser.SelectedNode = treeNode;
 
  This file controls how the DSL is packaged into a Visual Studio Integration Extension (VSIX). For more information, see [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md).
 
-## See also
+## Related content
 
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
 - [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)

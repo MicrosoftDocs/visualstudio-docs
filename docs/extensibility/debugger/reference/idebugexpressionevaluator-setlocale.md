@@ -1,39 +1,39 @@
 ---
 description: "This method sets the language to use to create printable results."
-title: IDebugExpressionEvaluator::SetLocale | Microsoft Docs
+title: IDebugExpressionEvaluator::SetLocale
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExpressionEvaluator::SetLocale
 helpviewer_keywords:
 - IDebugExpressionEvaluator::SetLocale method
-ms.assetid: d3d2027d-74e2-4ae6-bcc7-59d12f873b7c
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExpressionEvaluator::SetLocale
+
 This method sets the language to use to create printable results.
 
 ## Syntax
 
-```cpp
-HRESULT SetLocale( 
-   WORD wLangID
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetLocale(
    ushort wLangID
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetLocale( 
+   WORD wLangID
+);
+```
+---
 
 ## Parameters
 `wLangID`\

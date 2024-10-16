@@ -1,39 +1,27 @@
 ---
 description: "Creates an array object."
-title: IDebugFunctionObject::CreateArrayObject | Microsoft Docs
+title: IDebugFunctionObject::CreateArrayObject
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugFunctionObject::CreateArrayObject
 helpviewer_keywords:
 - IDebugFunctionObject::CreateArrayObject method
-ms.assetid: a380e53c-15f1-401f-927f-f366eea789e6
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugFunctionObject::CreateArrayObject
+
 Creates an array object. This array can contain either primitive or object instance values.
 
 ## Syntax
 
-```cpp
-HRESULT CreateArrayObject( 
-   OBJECT_TYPE    ot,
-   IDebugField*   pClassField,
-   DWORD          dwRank,
-   DWORD          dwDims[],
-   DWORD          dwLowBounds[],
-   IDebugObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateArrayObject(
    enum_OBJECT_TYPE ot,
@@ -44,6 +32,18 @@ int CreateArrayObject(
    out IDebugObject ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateArrayObject( 
+   OBJECT_TYPE    ot,
+   IDebugField*   pClassField,
+   DWORD          dwRank,
+   DWORD          dwDims[],
+   DWORD          dwLowBounds[],
+   IDebugObject** ppObject
+);
+```
+---
 
 ## Parameters
 `ot`\

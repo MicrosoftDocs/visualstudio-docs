@@ -1,37 +1,37 @@
 ---
 description: "This method queries for a specified property value of the debugging process."
-title: IDebugProcessQueryProperties::QueryProperty | Microsoft Docs
+title: IDebugProcessQueryProperties::QueryProperty
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugProcessQueryProperties::QueryProperty
-ms.assetid: 9a91707d-a590-44ef-b122-69d9816a7a79
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProcessQueryProperties::QueryProperty
+
 This method queries for a specified property value of the debugging process.
 
 ## Syntax
 
-```cpp
-HRESULT QueryProperty(
-   PROCESS_PROPERTY_TYPE  dwPropType,
-   VARIANT               *pvarPropValue);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int QueryProperty(
    enum_PROCESS_PROPERTY_TYPE dwPropType,
    out object                 pvarPropValue);
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT QueryProperty(
+   PROCESS_PROPERTY_TYPE  dwPropType,
+   VARIANT               *pvarPropValue);
+```
+---
 
 ## Parameters
 `dwPropType`\

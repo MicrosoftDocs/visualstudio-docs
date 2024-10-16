@@ -1,8 +1,7 @@
 ---
-title: "How to: Create an Event Receiver for a Specific List Instance | Microsoft Docs"
+title: "Create an Event Receiver for a Specific List Instance"
 titleSuffix: ""
 description: Create an event receiver for a specific list instance. A list instance event receiver responds to events that occur in any instance of a list definition.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -13,12 +12,11 @@ helpviewer_keywords:
   - "event receivers [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
-# How to: Create an event receiver for a specific list instance
+# Create an event receiver for a specific list instance
+
   A list instance event receiver responds to events that occur in any instance of a list definition. Although the event receiver template does not enable the targeting of a specific list instance, you can modify an event receiver that is scoped to a list definition to respond to events in a specific list instance.
 
  To target a specific list instance, in the *Elements.xml* for the event receiver, replace `ListTemplateId` with `ListUrl` and add the URL of the list instance.
@@ -36,7 +34,7 @@ ms.workload:
 
 4. In the **Create** dialog box, choose the **Announcements** type, name the announcement **TestAnnouncements**, and then choose the **Create** button.
 
-5. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create an event receiver project.
+5. In Visual Studio, create an event receiver project.
 
 6. In the **What type of event receiver do you want?** list, choose **List Item Events**.
 
@@ -83,6 +81,6 @@ ms.workload:
 
      Notice that the event receiver does not trigger on the new announcement because the receiver is configured to respond only to events in the custom announcement list instance, **TestAnnouncements**.
 
-## See also
+## Related content
 - [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

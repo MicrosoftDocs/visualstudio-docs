@@ -1,8 +1,7 @@
 ---
-title: Choose Element (MSBuild) | Microsoft Docs
+title: Choose Element (MSBuild)
 description: Use the MSBuild Choose element to evaluate child elements and select one set of ItemGroup or PropertyGroup elements to evaluate.
-ms.custom: SEO-VS-2020
-ms.date: 03/13/2017
+ms.date: 08/23/2023
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#Choose
@@ -10,18 +9,14 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 - xml
 helpviewer_keywords:
 - <Choose> Element [MSBuild]
 - Choose Element [MSBuild]
-ms.assetid: 7b8b025a-d944-4f5c-9018-c89fc2ef146d
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # Choose element (MSBuild)
 
@@ -35,6 +30,8 @@ Evaluates child elements to select one set of `ItemGroup` elements and/or `Prope
  \<Otherwise>
  \<Choose>
  ...
+
+The `Choose` element contains a series of `When` elements with `Condition` attributes that are tested in order from top to bottom until one evaluates to true. If more than one `When` element evaluates to true, only the first one is used. An `Otherwise` element, if present, will be evaluated if no condition on a `When` element evaluates to true.
 
 ## Syntax
 

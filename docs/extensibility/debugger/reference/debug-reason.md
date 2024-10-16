@@ -1,28 +1,37 @@
 ---
 description: "Specifies why the process was launched for debugging."
-title: DEBUG_REASON | Microsoft Docs
+title: DEBUG_REASON
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - DEBUG_REASON
 helpviewer_keywords:
 - DEBUG_REASON enumeration
-ms.assetid: ad2ee898-8648-4671-9078-d32873862346
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # DEBUG_REASON
+
 Specifies why the process was launched for debugging.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_DEBUG_REASON {
+    DEBUG_REASON_ERROR         = 0,
+    DEBUG_REASON_USER_LAUNCHED = 1,
+    DEBUG_REASON_USER_ATTACHED = 2,
+    DEBUG_REASON_AUTO_ATTACHED = 3,
+    DEBUG_REASON_CAUSALITY     = 4
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_DEBUG_REASON {
     DEBUG_REASON_ERROR         = 0,
@@ -33,16 +42,7 @@ enum enum_DEBUG_REASON {
 };
 typedef DWORD DEBUG_REASON;
 ```
-
-```csharp
-public enum enum_DEBUG_REASON {
-    DEBUG_REASON_ERROR         = 0,
-    DEBUG_REASON_USER_LAUNCHED = 1,
-    DEBUG_REASON_USER_ATTACHED = 2,
-    DEBUG_REASON_AUTO_ATTACHED = 3,
-    DEBUG_REASON_CAUSALITY     = 4
-};
-```
+---
 
 ## Fields
 `DEBUG_REASON_ERROR`\

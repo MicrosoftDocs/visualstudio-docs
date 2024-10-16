@@ -1,8 +1,7 @@
 ---
-title: "How to: Add an Existing BDC Model File to a SharePoint Project | Microsoft Docs"
+title: "Add an Existing BDC Model File to a SharePoint Project"
 titleSuffix: ""
 description: Add an existing Business Data Connectivity (BDC) model file to a SharePoint project in Visual Studio, so you can customize, package, and redeploy a BDC model.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:
@@ -17,12 +16,11 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], remove a model"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
-# How to: Add an existing BDC model file to a SharePoint project
+# Add an existing BDC model file to a SharePoint project
+
   You can customize, package, and redeploy a Business Data Connectivity (BDC) model by using Visual Studio to add the model file (*.bdcm*) to any SharePoint farm project. For more information, see [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md).
 
 ### To add a BDC model file to a SharePoint project
@@ -43,7 +41,7 @@ ms.workload:
 
      The **Business Data Connectivity Model** item is added to the project.
 
-## See also
+## Related content
 - [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)
 - [How to: Create a BDC model](../sharepoint/how-to-create-a-bdc-model.md)
 - [How to: Use a resource file to specify localized names, properties, and permissions](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md)

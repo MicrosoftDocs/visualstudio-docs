@@ -5,13 +5,11 @@ ms.date: 08/12/2020
 ms.topic: reference
 author: m-redding
 ms.author: midumont
-manager: jmartens
-ms.technology: vs-ide-general
+manager: mijacobs
+ms.subservice: general-ide
 dev_langs:
   - CSharp
   - VB
-ms.workload: 
-  - "dotnet"
 ---
 # Convert `typeof` to `nameof`
 

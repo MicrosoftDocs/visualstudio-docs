@@ -1,39 +1,39 @@
 ---
 description: "Retrieves a friendly name for the server."
-title: IDebugCoreServer3::GetServerFriendlyName | Microsoft Docs
+title: IDebugCoreServer3::GetServerFriendlyName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCoreServer3::GetServerFriendlyName
 helpviewer_keywords:
 - IDebugCoreServer3::GetServerFriendlyName
-ms.assetid: 7035b904-b3d7-4d9b-98d9-65714b8a8b9f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCoreServer3::GetServerFriendlyName
+
 Retrieves a friendly name for the server.
 
 ## Syntax
 
-```cpp
-HRESULT GetServerFriendlyName(
-   BSTR* pbstrName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetServerFriendlyName(
    out string pbstrName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetServerFriendlyName(
+   BSTR* pbstrName
+);
+```
+---
 
 ## Parameters
 `pbstrName`\

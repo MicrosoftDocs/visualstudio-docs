@@ -1,39 +1,39 @@
 ---
 description: "Gets the result of expression evaluation."
-title: IDebugExpressionEvaluationCompleteEvent2::GetResult | Microsoft Docs
+title: IDebugExpressionEvaluationCompleteEvent2::GetResult
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExpressionEvaluationCompleteEvent2::GetResult
 helpviewer_keywords:
 - IDebugExpressionEvaluationCompleteEvent2::GetResult
-ms.assetid: d9ad3e22-b6b2-421e-9a43-6bb8c70d12a9
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExpressionEvaluationCompleteEvent2::GetResult
+
 Gets the result of expression evaluation.
 
 ## Syntax
 
-```cpp
-HRESULT GetResult( 
-   IDebugProperty2** ppResult
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetResult( 
    out IDebugProperty2 ppResult
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetResult( 
+   IDebugProperty2** ppResult
+);
+```
+---
 
 ## Parameters
 `ppResult`

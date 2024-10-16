@@ -1,18 +1,14 @@
 ---
 title: RemoveFromCollection&lt;T&gt; Activity Designer
 description: In Workflow Designer, learn how to use the RemoveFromCollection <T> activity designer to create and configure a RemoveFromCollection <T> activity.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.RemoveFromCollection`1.UI"
-ms.assetid: 6617ba26-c8bc-4aed-b746-112bf490d288
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-workflow-designer
-ms.workload:
-  - "multiple"
+author: jodavis
+ms.author: jodavis
+manager: mijacobs
+ms.subservice: workflow-designer
 ---
 # RemoveFromCollection\<T> Activity Designer
 

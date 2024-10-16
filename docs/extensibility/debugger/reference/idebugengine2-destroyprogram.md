@@ -1,24 +1,22 @@
 ---
 description: "Informs a debug engine (DE) that the program specified has been atypically terminated and that the DE should clean up all references to the program and send a program destroy event."
-title: IDebugEngine2::DestroyProgram | Microsoft Docs
+title: IDebugEngine2::DestroyProgram
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngine2::DestroyProgram
 helpviewer_keywords:
 - IDebugEngine2::DestroyProgram
-ms.assetid: 0c9e2698-c70f-4770-a7bb-39650e9c3a1f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugEngine2::DestroyProgram
+
 Informs a debug engine (DE) that the program specified has been atypically terminated and that the DE should clean up all references to the program and send a program destroy event.
 
 ## Syntax

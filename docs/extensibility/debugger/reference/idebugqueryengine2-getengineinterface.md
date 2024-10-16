@@ -1,39 +1,39 @@
 ---
 description: "Gets a custom debug engine (DE) interface."
-title: IDebugQueryEngine2::GetEngineInterface | Microsoft Docs
+title: IDebugQueryEngine2::GetEngineInterface
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugQueryEngine2::GetEngineInterface
 helpviewer_keywords:
 - IDebugQueryEngine2::GetEngineInterface
-ms.assetid: ed84aa98-7ec7-48f3-97ae-821090bc3664
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugQueryEngine2::GetEngineInterface
+
 Gets a custom debug engine (DE) interface.
 
 ## Syntax
 
-```cpp
-HRESULT GetEngineInterface( 
-   IUnknown** ppUnk
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetEngineInterface( 
    out object ppUnk
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEngineInterface( 
+   IUnknown** ppUnk
+);
+```
+---
 
 ## Parameters
 `ppUnk`\

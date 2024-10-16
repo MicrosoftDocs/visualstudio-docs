@@ -1,35 +1,25 @@
 ---
 description: "Retrieves the value of a metric given its name."
-title: IDebugSettingsCallback2::GetMetricDword | Microsoft Docs
+title: IDebugSettingsCallback2::GetMetricDword
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugSettingsCallback2::GetMetricDword
-ms.assetid: 831a5a1a-c4af-4520-9fdf-3a731aeff85c
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugSettingsCallback2::GetMetricDword
+
 Retrieves the value of a metric given its name.
 
 ## Syntax
 
-```cpp
-HRESULT GetMetricDword(
-   LPCWSTR pszType,
-   REFGUID guidSection,
-   LPCWSTR pszMetric,
-   DWORD*  pdwValue
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 private int GetMetricDword(
    string   pszType,
@@ -38,6 +28,16 @@ private int GetMetricDword(
    out uint pdwValue
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMetricDword(
+   LPCWSTR pszType,
+   REFGUID guidSection,
+   LPCWSTR pszMetric,
+   DWORD*  pdwValue
+);
+```
+---
 
 ## Parameters
 `pszType`\

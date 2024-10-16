@@ -1,46 +1,27 @@
 ---
 description: "Contains the information required to implement a breakpoint, including vendor GUID, constraint and tracepoint."
-title: BP_REQUEST_INFO2 | Microsoft Docs
+title: BP_REQUEST_INFO2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_REQUEST_INFO2
 helpviewer_keywords:
 - BP_REQUEST_INFO2 structure
-ms.assetid: 008c87f7-a76e-43d3-8904-11b225d6a9a5
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # BP_REQUEST_INFO2
+
 Contains the information required to implement a breakpoint, including vendor GUID, constraint and tracepoint.
 
 ## Syntax
 
-```cpp
-typedef struct _BP_REQUEST_INFO2 {
-    BPREQI_FIELDS   dwFields;
-    GUID            guidLanguage;
-    BP_LOCATION     bpLocation;
-    IDebugProgram2* pProgram;
-    BSTR            bstrProgramName;
-    IDebugThread2*  pThread;
-    BSTR            bstrThreadName;
-    BP_CONDITION    bpCondition;
-    BP_PASSCOUNT    bpPassCount;
-    BP_FLAGS        dwFlags;
-    GUID            guidVendor;
-    BSTR            bstrConstraint;
-    BSTR            bstrTracepoint;
-} BP_REQUEST_INFO2;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct BP_REQUEST_INFO2 {
     public uint           dwFields;
@@ -58,6 +39,25 @@ public struct BP_REQUEST_INFO2 {
     public string         bstrTracepoint;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _BP_REQUEST_INFO2 {
+    BPREQI_FIELDS   dwFields;
+    GUID            guidLanguage;
+    BP_LOCATION     bpLocation;
+    IDebugProgram2* pProgram;
+    BSTR            bstrProgramName;
+    IDebugThread2*  pThread;
+    BSTR            bstrThreadName;
+    BP_CONDITION    bpCondition;
+    BP_PASSCOUNT    bpPassCount;
+    BP_FLAGS        dwFlags;
+    GUID            guidVendor;
+    BSTR            bstrConstraint;
+    BSTR            bstrTracepoint;
+} BP_REQUEST_INFO2;
+```
+---
 
 ## Members
 `dwFields`\

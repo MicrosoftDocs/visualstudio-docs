@@ -1,23 +1,20 @@
 ---
 title: CreateInPlace element (Visual Studio Templates)
 description: Learn about the CreateInPlace element and how it specifies whether to create the project and perform parameter replacement in a specific or temporary location.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#CreateInPlace
 helpviewer_keywords:
 - CreateInPlace element [Visual Studio Templates]
 - <CreateInPlace> element [Visual Studio Templates]
-ms.assetid: 420d46ea-2470-4da9-ad8e-95165588a920
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
 ---
 # CreateInPlace element (Visual Studio templates)
+
 Specifies whether to create the project and perform parameter replacement in the specified location, or perform parameter replacement in a temporary location and then save the project to the specified location.
 
  \<VSTemplate>
@@ -54,7 +51,7 @@ Specifies whether to create the project and perform parameter replacement in the
  `CreateInPlace` is an optional element. The default value is `true`.
 
 ## Example
- The following example illustrates the metadata for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] template.
+ The following example illustrates the metadata for a Visual C# template.
 
 ```
 <VSTemplate Type="Project" Version="3.0.0"

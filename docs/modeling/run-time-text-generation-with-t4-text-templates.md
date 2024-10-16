@@ -1,8 +1,7 @@
 ---
 title: Run-Time Text Generation with T4 Text Templates
-description: Learn how you can generate text strings in your application at run time by using Visual Studio runtime text templates.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+description: Generate text strings in your application at run time by using Visual Studio runtime text templates, and convert existing files to run-time templates.
+ms.date: 02/16/2024
 ms.topic: how-to
 dev_langs:
 - CSharp
@@ -14,10 +13,8 @@ helpviewer_keywords:
 - text templates, generating files at run time
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Run-Time Text Generation with T4 Text Templates
 
@@ -52,14 +49,14 @@ Using a template in your application makes it is easier to see the final form of
 
 1. In Solution Explorer, on the shortcut menu of your project, choose **Add** > **New Item**.
 
-2. In the **Add New Item** dialog box, select **Runtime Text Template**. (In Visual Basic look under **Common Items** > **General**.)
+1. In the **Add New Item** dialog box, select **Runtime Text Template**. (In Visual Basic look under **Common Items** > **General**.)
 
-3. Type a name for your template file.
+1. Type a name for your template file.
 
     > [!NOTE]
     > The template file name will be used as a class name in the generated code. Therefore, it should not have spaces or punctuation.
 
-4. Choose **Add**.
+1. Choose **Add**.
 
     A new file is created that has extension **.tt**. Its **Custom Tool** property is set to **TextTemplatingFilePreprocessor**. It contains the following lines:
 
@@ -71,6 +68,8 @@ Using a template in your application makes it is easier to see the final form of
     <#@ import namespace="System.Collections.Generic" #>
     ```
 
+1. Add a reference to the NuGet package [System.CodeDom](https://www.nuget.org/packages/System.CodeDom/).
+
 ## Converting an Existing File to a Run-Time Template
 
 A good way to create a template is to convert an existing example of the output. For example, if your application will generate HTML files, you can start by creating a plain HTML file. Make sure that it works correctly and that its appearance is correct. Then include it into your Visual Studio project and convert it to a template.
@@ -79,18 +78,20 @@ A good way to create a template is to convert an existing example of the output.
 
 1. Include the file into your Visual Studio project. In Solution Explorer, on the shortcut menu of the project, choose **Add** > **Existing Item**.
 
-2. Set the file's **Custom Tools** property to **TextTemplatingFilePreprocessor**. In Solution Explorer, on the shortcut menu of the file, choose **Properties**.
+1. Set the file's **Custom Tools** property to **TextTemplatingFilePreprocessor**. In Solution Explorer, on the shortcut menu of the file, choose **Properties**.
 
     > [!NOTE]
     > If the property is already set, make sure that it is **TextTemplatingFilePreprocessor** and not **TextTemplatingFileGenerator**. This can happen if you include a file that already has the extension **.tt**.
 
-3. Change the file name extension to **.tt**. Although this step is optional, it helps you avoid opening the file in an incorrect editor.
+1. Change the file name extension to **.tt**. Although this step is optional, it helps you avoid opening the file in an incorrect editor.
 
-4. Remove any spaces or punctuation from the main part of the file name. For example "My Web Page.tt" would be incorrect, but "MyWebPage.tt" is correct. The file name will be used as a class name in the generated code.
+1. Remove any spaces or punctuation from the main part of the file name. For example "My Web Page.tt" would be incorrect, but "MyWebPage.tt" is correct. The file name will be used as a class name in the generated code.
 
-5. Insert the following line at the beginning of the file. If you are working in a Visual Basic project, replace "C#" with "VB".
+1. Insert the following line at the beginning of the file. If you are working in a Visual Basic project, replace "C#" with "VB".
 
     `<#@ template language="C#" #>`
+
+1. Add a reference to the NuGet package [System.CodeDom](https://www.nuget.org/packages/System.CodeDom/).
 
 ## The Content of the Run-Time Template
 
@@ -118,6 +119,7 @@ This report is Company Confidential.
 
 You can insert program code between `<#` and `#>`. For example:
 
+### [C#](#tab/csharp)
 ```csharp
 <table>
     <# for (int i = 1; i <= 10; i++)
@@ -128,6 +130,7 @@ You can insert program code between `<#` and `#>`. For example:
  </table>
 ```
 
+### [VB](#tab/vb)
 ```vb
 <table>
 <#
@@ -140,6 +143,7 @@ You can insert program code between `<#` and `#>`. For example:
 #>
 </table>
 ```
+---
 
 Notice that statements are inserted between `<# ... #>` and expressions are inserted between `<#= ... #>`. For more information, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).
 
@@ -155,17 +159,20 @@ Notice that the subsidiary file contains a partial class that contains a method 
 
 In your application code, you can generate the content of your template using a call like this:
 
+### [C#](#tab/csharp)
 ```csharp
 MyWebPage page = new MyWebPage();
 String pageContent = page.TransformText();
 System.IO.File.WriteAllText("outputPage.html", pageContent);
 ```
 
+### [VB](#tab/vb)
 ```vb
 Dim page = New My.Templates.MyWebPage
 Dim pageContent = page.TransformText()
 System.IO.File.WriteAllText("outputPage.html", pageContent)
 ```
+---
 
 To place the generated class in a particular namespace, set the **Custom Tool Namespace** property of the text template file.
 
@@ -430,7 +437,7 @@ Design-time templates: If you want to use a template to generate code that becom
 
 Run-time templates can be used in any application where the templates and their content are determined at compile time. But if you want to write a Visual Studio extension that generates text from templates that change at run time, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md).
 
-## See also
+## Related content
 
 - [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)
 - [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)

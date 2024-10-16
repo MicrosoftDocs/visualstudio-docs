@@ -1,7 +1,6 @@
 ---
-title: ProjectExtensions Element (MSBuild) | Microsoft Docs
+title: ProjectExtensions Element (MSBuild)
 description: Learn about the MSBuildProjectExtensions element, which allows MSBuild project files to contain non-MSBuild information.
-ms.custom: SEO-VS-2020
 ms.date: 03/13/2017
 ms.topic: reference
 f1_keywords:
@@ -10,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - <ProjectExtensions> element [MSBuild]
 - ProjectExtensions element [MSBuild]
-ms.assetid: f95f312f-ff92-41eb-9469-ad99e236a307
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # ProjectExtensions element (MSBuild)
 

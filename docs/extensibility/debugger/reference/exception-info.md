@@ -1,39 +1,27 @@
 ---
 description: "Describes an exception or run-time error thrown by the program being debugged."
-title: EXCEPTION_INFO | Microsoft Docs
+title: EXCEPTION_INFO
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - EXCEPTION_INFO
 helpviewer_keywords:
 - EXCEPTION_INFO structure
-ms.assetid: d046957a-b97d-420b-b46b-c67cbaef709e
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # EXCEPTION_INFO
+
 Describes an exception or run-time error thrown by the program being debugged.
 
 ## Syntax
 
-```cpp
-typedef struct tagEXCEPTION_INFO {
-    IDebugProgram2* pProgram;
-    BSTR            bstrProgramName;
-    BSTR            bstrExceptionName;
-    DWORD           dwCode;
-    EXCEPTION_STATE dwState;
-    GUID            guidType;
-} EXCEPTION_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct EXCEPTION_INFO {
     public IDebugProgram2 pProgram;
@@ -44,6 +32,18 @@ public struct EXCEPTION_INFO {
     public Guid           guidType;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagEXCEPTION_INFO {
+    IDebugProgram2* pProgram;
+    BSTR            bstrProgramName;
+    BSTR            bstrExceptionName;
+    DWORD           dwCode;
+    EXCEPTION_STATE dwState;
+    GUID            guidType;
+} EXCEPTION_INFO;
+```
+---
 
 ## Members
 `pProgram`\

@@ -1,7 +1,6 @@
 ---
 title: "Architecture of Office solutions in Visual Studio"
 description: Learn about solutions created by using the Microsoft Office developer tools in Visual Studio and how they work.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: 08/14/2019
 ms.topic: conceptual
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], architecture"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Architecture of Office solutions in Visual Studio
+
   The topics in this section provide information about how solutions created by using the Office developer tools in Visual Studio work.
 
 [!include[Add-ins note](includes/addinsnote.md)]
@@ -62,4 +60,4 @@ Provides links to information about creating Office solutions.
 
 [General reference &#40;Office development in Visual Studio&#41;](../vsto/general-reference-office-development-in-visual-studio.md)
 
-Provides links to information about user interface elements in Office projects, application and deployment manifests for Office projects, and APIs in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
+Provides links to information about user interface elements in Office projects, application and deployment manifests for Office projects, and APIs in the  Visual Studio Tools for Office runtime .

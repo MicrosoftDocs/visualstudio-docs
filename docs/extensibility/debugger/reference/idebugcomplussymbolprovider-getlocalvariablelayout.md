@@ -1,37 +1,26 @@
 ---
 description: "Retrieves the layout of local variables for a set of methods."
-title: IDebugComPlusSymbolProvider::GetLocalVariablelayout | Microsoft Docs
+title: IDebugComPlusSymbolProvider::GetLocalVariablelayout
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - GetLocalVariablelayout
 - IDebugComPlusSymbolProvider::GetLocalVariablelayout
-ms.assetid: b7328d85-e5e9-4d9f-bcd1-e7711fd33878
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetLocalVariablelayout
+
 Retrieves the layout of local variables for a set of methods.
 
 ## Syntax
 
-```cpp
-HRESULT GetLocalVariablelayout(
-    ULONG32   ulAppDomainID,
-    GUID      guidModule,
-    ULONG32   cMethods,
-    _mdToken  rgMethodTokens[],
-    IStream** pStreamLayout
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetLocalVariablelayout(
     uint        ulAppDomainID,
@@ -41,6 +30,17 @@ int GetLocalVariablelayout(
     out IStream pStreamLayout
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetLocalVariablelayout(
+    ULONG32   ulAppDomainID,
+    GUID      guidModule,
+    ULONG32   cMethods,
+    _mdToken  rgMethodTokens[],
+    IStream** pStreamLayout
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

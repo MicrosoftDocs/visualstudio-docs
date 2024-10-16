@@ -1,41 +1,41 @@
 ---
 description: "Compares an object with this object."
-title: IDebugObject::IsEqual | Microsoft Docs
+title: IDebugObject::IsEqual
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugObject::IsEqual
 helpviewer_keywords:
 - IDebugObject::IsEqual method
-ms.assetid: 4b76e663-ef2e-41ff-9be1-bf26d666a34a
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugObject::IsEqual
+
 Compares an object with this object.
 
 ## Syntax
 
-```cpp
-HRESULT IsEqual( 
-   IDebugObject* pObject,
-   BOOL*         pfIsEqual
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsEqual(
    IDebugObject pObject,
    out int      pfIsEqual
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsEqual( 
+   IDebugObject* pObject,
+   BOOL*         pfIsEqual
+);
+```
+---
 
 ## Parameters
 `pObject`\

@@ -1,37 +1,37 @@
 ---
 description: "Creates a unique ID for this property to ensure that it is unique among all other properties."
-title: IDebugProperty3::CreateObjectID | Microsoft Docs
+title: IDebugProperty3::CreateObjectID
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProperty3::CreateObjectID
 helpviewer_keywords:
 - IDebugProperty3::CreateObjectID
-ms.assetid: f2fa81e7-822f-456e-8729-a96a18eea771
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProperty3::CreateObjectID
+
 Creates a unique ID for this property to ensure that it is unique among all other properties.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int CreateObjectID();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT CreateObjectID(
    void
 );
 ```
-
-```csharp
-int CreateObjectID();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

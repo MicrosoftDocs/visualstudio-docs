@@ -1,19 +1,15 @@
 ---
-title: Automation for Configuration and SelectedItem Objects | Microsoft Docs
+title: Automation for Configuration and SelectedItem Objects
 description: Learn how to automate the Visual Studio build and selected item processes by using the Configuration and SelectedItem objects in Shell Interop.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - automation [Visual Studio SDK], SelectedItem object
 - automation [Visual Studio SDK], builds
-ms.assetid: 120377f1-51aa-4445-b2f7-06ab7fc2b47f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Automation for Configuration and SelectedItem objects
 
@@ -32,5 +28,5 @@ You do not have to provide an implementation for the `SelectedItem` object becau
 ## See also
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage%2A>
-- [Contribute to the automation model](../../extensibility/internals/contributing-to-the-automation-model.md)
+- [Contribute to the automation model](../../extensibility/internals/automation-model-overview.md)
 - [Understand build configurations](../../ide/understanding-build-configurations.md)

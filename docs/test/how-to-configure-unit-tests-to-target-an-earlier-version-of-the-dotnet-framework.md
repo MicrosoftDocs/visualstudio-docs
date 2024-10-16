@@ -1,17 +1,14 @@
 ---
-title: Unit Tests Target Earlier Version of .NET Framework
+title: Unit tests target earlier .NET Framework version
 description: Learn to create unit test projects to target specific versions of the .NET Framework. The targeted version must be 3.5 or later, and cannot be a client version.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-test
-ms.workload: 
-  - dotnet
+manager: mijacobs
+ms.subservice: test-tools
 author: mikejo5000
 ---
-# How to: Configure unit tests to target an earlier version of the .NET Framework
+# Configure unit tests to target an earlier version of the .NET Framework
 
 When you create a test project in Microsoft Visual Studio, the most recent version of the .NET Framework is set as the target, by default. Additionally, if you upgrade test projects from previous versions of Visual Studio, they are upgraded to target the most recent version of the .NET Framework. By editing the project properties, you can explicitly re-target the project to earlier versions of the .NET Framework.
 
@@ -76,7 +73,7 @@ The following limitations apply when you re-target your test projects to use ear
 1. Create a new C++ **Unit Test Project** project.
 
    > [!WARNING]
-   > To build C++/CLI unit tests for a previous version of the .NET framework for Visual C++, you must use the corresponding version of Visual Studio.
+   > To build C++/CLI unit tests for a previous version of the .NET Framework for Visual C++, you must use the corresponding version of Visual Studio.
 
 2. In **Solution Explorer**, choose **Unload Project** from your new C++ test project.
 
@@ -101,7 +98,7 @@ The following limitations apply when you re-target your test projects to use ear
 
 6. In **Solution Explorer**, choose select **Reload Project** from the right-click menu of your new C++ test project.
 
-## See also
+## Related content
 
 - [Create SharePoint solutions](../sharepoint/create-sharepoint-solutions.md)
 - [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)

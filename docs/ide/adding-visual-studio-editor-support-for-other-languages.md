@@ -1,7 +1,6 @@
 ---
 title: Add editor support for other languages
 description: Learn about how the Visual Studio editor supports reading and navigating through different computer languages and how you can add support for other languages.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,13 +11,10 @@ helpviewer_keywords:
 - TextMate bundle
 - TextMate language grammar
 - language support
-ms.assetid: d78c43ee-4ef2-42e5-984e-d137de4e7e92
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: anandmeg
+ms.author: meghaanand
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Add Visual Studio editor support for other languages
 
@@ -26,12 +22,11 @@ Learn about how the Visual Studio editor supports reading and navigating through
 
 ## Syntax colorization, statement completion, and Navigate To support
 
-Features in the Visual Studio editor such as syntax colorization, statement completion (also known as IntelliSense), and _Navigate To_ can help you more easily write, read, and edit your code. The following screenshot shows an example of editing a Perl script in Visual Studio. The syntax is automatically colorized. For example, remarks in the code are colored green, code is black, paths are red, and statements are blue. The Visual Studio editor automatically applies syntax colorization to any language it supports. In addition, when you begin to enter a known language keyword or object, statement completion displays a list of possible statements and objects. Statement completion can help you write code more quickly and easily.
+Features in the Visual Studio editor such as syntax colorization, statement completion (also known as IntelliSense), and *Navigate To* can help you more easily write, read, and edit your code. The following screenshot shows an example of editing a Perl script in Visual Studio. The syntax is automatically colorized. For example, remarks in the code are colored green, code is black, paths are red, and statements are blue. The Visual Studio editor automatically applies syntax colorization to any language it supports. In addition, when you begin to enter a known language keyword or object, statement completion displays a list of possible statements and objects. Statement completion can help you write code more quickly and easily.
 
 ![Syntax colorization in Perl script](../ide/media/vside_perledit.png)
 
 Visual Studio currently provides syntax colorization and basic statement completion support for the following languages using [TextMate Grammars](https://manual.macromates.com/en/language_grammars). If your favorite language isn't in the table, though, don't worry&mdash;you can add it.
-
 
 - Bat
 - F#
@@ -103,7 +98,7 @@ Under this base path, add the following folders if they apply to your situation:
 |Folder Name|Description|
 |-----------------|-----------------|
 |\\*\<language name>*|The language folder. Replace *\<language name>* with the name of the language. For example, *\Matlab*.|
-|*\Syntaxes*|The grammar folder. Contains the grammar *.json* files for the language, such as *Matlab.json*.|
+|*\Syntaxes*|The grammar folder. Contains the grammar `.json` files for the language, such as *Matlab.json*.|
 |*\Snippets*|The snippets folder. Contains snippets for the language.|
 
 In Windows, *%userprofile%* resolves to the path: *c:\Users\\\<user name>*. If the *Extensions* folder does not exist on your system, you will need to create it. If the folder already exists, it will be hidden.
@@ -113,7 +108,7 @@ In Windows, *%userprofile%* resolves to the path: *c:\Users\\\<user name>*. If t
 
 For details about how to create TextMate Grammars, see [TextMate - Introduction to Language Grammars](https://developmentality.wordpress.com/2011/02/08/textmate-introduction-to-language-grammars/) and [Notes on how to create a Language Grammar and Custom Theme for a Textmate Bundle](https://benparizek.com/notebook/notes-on-how-to-create-a-language-grammar-and-custom-theme-for-a-textmate-bundle).
 
-## See also
+## Related content
 
 - [Add a Language Server Protocol extension](../extensibility/adding-an-lsp-extension.md)
 - [Walkthrough: Create a code snippet](../ide/walkthrough-creating-a-code-snippet.md)

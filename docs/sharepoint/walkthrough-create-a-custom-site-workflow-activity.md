@@ -1,7 +1,6 @@
 ---
-title: "Walkthrough: Create a Custom Site Workflow Activity | Microsoft Docs"
+title: "Walkthrough: Create a Custom Site Workflow Activity"
 description: In this walkthrough, see how to create a custom activity for a site-level SharePoint workflow using Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -15,13 +14,12 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, site workflows"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Walkthrough: Create a custom site workflow activity
-  This walkthrough demonstrates how to create a custom activity for a site-level workflow using [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. (Site-level workflows apply to the whole site, not just a list on the site.) The custom activity creates a backup Announcements list and then copies the contents of the Announcements list into it.
+
+  This walkthrough demonstrates how to create a custom activity for a site-level workflow using Visual Studio. (Site-level workflows apply to the whole site, not just a list on the site.) The custom activity creates a backup Announcements list and then copies the contents of the Announcements list into it.
 
  This walkthrough demonstrates the following tasks:
 
@@ -40,7 +38,7 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
-- Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
+- Supported editions of Microsoft Windows and SharePoint.
 
 - Visual Studio.
 
@@ -86,8 +84,12 @@ ms.workload:
 
 3. Replace all of the code in Class1 with the following:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/announcementbackup/class1.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/announcementbackupvb/class1.vb" id="Snippet1":::
+     ---
 
 4. Save the project, and then, on the menu bar, choose **Build** > **Build Solution**.
 
@@ -119,6 +121,6 @@ ms.workload:
 
 5. On the QuickLaunch bar, choose the **Announcements Backup** link. Notice that all of the announcements that are contained in the **Announcements** list have been copied to this new list.
 
-## See also
+## Related content
 - [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

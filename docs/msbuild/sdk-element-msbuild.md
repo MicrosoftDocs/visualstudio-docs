@@ -1,7 +1,6 @@
 ---
-title: Sdk Element (MSBuild) | Microsoft Docs
+title: Sdk Element (MSBuild)
 description: Learn about syntax, attributes, and elements for the MSBuild Sdk element, which references an MSBuild project SDK.
-ms.custom: SEO-VS-2020
 ms.date: 01/25/2018
 ms.topic: reference
 f1_keywords:
@@ -10,16 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - Sdk element [MSBuild]
 - <Sdk> element [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # Sdk element (MSBuild)
 

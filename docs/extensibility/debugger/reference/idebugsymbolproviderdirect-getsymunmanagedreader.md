@@ -1,35 +1,26 @@
 ---
 description: "Retrieves a symbol reader for unmanaged code."
-title: IDebugSymbolProviderDirect::GetSymUnmanagedReader | Microsoft Docs
+title: IDebugSymbolProviderDirect::GetSymUnmanagedReader
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - GetSymUnmanagedReader
 - IDebugSymbolProviderDirect::GetSymUnmanagedReader
-ms.assetid: 147bacfa-f66c-43e0-8a72-e601058dc57f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugSymbolProviderDirect::GetSymUnmanagedReader
+
 Retrieves a symbol reader for unmanaged code.
 
 ## Syntax
 
-```cpp
-HRESULT GetSymUnmanagedReader (
-   ULONG32    ulAppDomainID,
-   GUID       guidModule,
-   IUnknown** ppSymUnmanagedReader
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSymUnmanagedReader (
    uint       ulAppDomainID,
@@ -37,6 +28,15 @@ int GetSymUnmanagedReader (
    out object ppSymUnmanagedReader
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSymUnmanagedReader (
+   ULONG32    ulAppDomainID,
+   GUID       guidModule,
+   IUnknown** ppSymUnmanagedReader
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

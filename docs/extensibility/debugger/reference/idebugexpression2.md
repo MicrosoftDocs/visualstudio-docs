@@ -1,21 +1,19 @@
 ---
 description: "This interface represents a parsed expression ready for binding and evaluating."
-title: IDebugExpression2 | Microsoft Docs
+title: IDebugExpression2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExpression2
 helpviewer_keywords:
 - IDebugExpression2 interface
-ms.assetid: f5e4b124-1e30-47c8-a511-80084a02dba5
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugExpression2
+
 This interface represents a parsed expression ready for binding and evaluating.
 
 ## Syntax

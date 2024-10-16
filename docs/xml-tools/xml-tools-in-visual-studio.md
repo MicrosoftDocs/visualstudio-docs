@@ -1,7 +1,6 @@
 ---
 title: XML editor and schema designer
-description: Learn about the tools in Visual Studio for working with XML, XSLT, and XML schemas, including the XML editor, XML Schema Designer, and the XSLT debugger.
-ms.custom: SEO-VS-2020
+description: Explore tools in Visual Studio for working with XML, XSLT, and XML schemas, including the XML editor, XML Schema Designer, and the XSLT debugger.
 ms.date: 11/04/2016
 ms.topic: overview
 f1_keywords:
@@ -28,13 +27,10 @@ helpviewer_keywords:
 - XSD schemas
 - XSL, style sheets
 - XMLDataDocument class
-ms.assetid: 1fd5de47-2d61-4180-9539-c2c4bf9ab768
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xml-tools
-ms.workload:
-- multiple
+author: dzsquared
+ms.author: drskwier
+manager: mijacobs
+ms.subservice: xml-tools
 ---
 # Overview of XML tools in Visual Studio
 

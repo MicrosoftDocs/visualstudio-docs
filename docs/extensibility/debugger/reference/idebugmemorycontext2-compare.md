@@ -1,6 +1,6 @@
 ---
 description: "Compares the memory context to each context in the given array in the manner indicated by compare flags, returning an index of the first context that matches."
-title: IDebugMemoryContext2::Compare | Microsoft Docs
+title: IDebugMemoryContext2::Compare
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,31 +8,21 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugMemoryContext2::Compare method
 - Compare method
-ms.assetid: c51b5128-848e-4d8e-b2e9-1161339763c3
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugMemoryContext2::Compare
+
 Compares the memory context to each context in the given array in the manner indicated by compare flags, returning an index of the first context that matches.
 
 ## Syntax
 
-```cpp
-HRESULT Compare( 
-   CONTEXT_COMPARE        compare,
-   IDebugMemoryContext2** rgpMemoryContextSet,
-   DWORD                  dwMemoryContextSetLen,
-   DWORD*                 pdwMemoryContext
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Compare(
    enum_CONTEXT_COMPARE   compare,
@@ -41,6 +31,16 @@ int Compare(
    out uint               pdwMemoryContext
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Compare( 
+   CONTEXT_COMPARE        compare,
+   IDebugMemoryContext2** rgpMemoryContextSet,
+   DWORD                  dwMemoryContextSetLen,
+   DWORD*                 pdwMemoryContext
+);
+```
+---
 
 ## Parameters
 `compare`\

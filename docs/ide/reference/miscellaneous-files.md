@@ -1,7 +1,6 @@
 ---
 title: Miscellaneous files
 description: Learn how to work on files that are not included in a Visual Studio project or solution.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -14,13 +13,10 @@ helpviewer_keywords:
 - Solution Explorer, miscellaneous files
 - Miscellaneous Files folder
 - files [Visual Studio], miscellaneous
-ms.assetid: 5b96640b-8efe-48a4-8d0a-1ae3f9587e44
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: anandmeg
+ms.author: meghaanand
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Miscellaneous files
 

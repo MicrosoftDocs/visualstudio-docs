@@ -1,8 +1,7 @@
 ---
-title: "How to use a Resource File in a SharePoint project | Microsoft Docs"
+title: "How to use a Resource File in a SharePoint project"
 titleSuffix: ""
 description: Use a resource file in a SharePoint project so that you can provide localized names, define properties, and apply permissions for objects defined in a BDC model.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -19,12 +18,10 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], resource strings"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
-# How to use a Resource File in a SharePoint project
+# Use a Resource File in a SharePoint project
 
   By using a resource file, you can provide localized names, define properties, and apply permissions tor objects that are defined in a Business Data Connectivity (BDC) model. To specify this information, you add a **Business Data Connectivity Resource** item to a project that contains a **Business Data Connectivity Model** item. Then you specify names, properties and permissions by editing the XML for the resource file.
 
@@ -46,7 +43,7 @@ ms.workload:
 
      For information about how to define these elements, see [Model and Resource Files](/previous-versions/office/developer/sharepoint-2010/aa674515(v=office.14)).
 
-## See also
+## Related content
 - [How to: Add an existing BDC model file to a SharePoint project](../sharepoint/how-to-add-an-existing-bdc-model-file-to-a-sharepoint-project.md)
 - [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)
 - [How to: Create a BDC model](../sharepoint/how-to-create-a-bdc-model.md)

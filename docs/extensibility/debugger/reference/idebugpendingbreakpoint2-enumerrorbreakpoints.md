@@ -1,6 +1,6 @@
 ---
 description: "Gets a list of all error breakpoints that resulted from this pending breakpoint."
-title: IDebugPendingBreakpoint2::EnumErrorBreakpoints | Microsoft Docs
+title: IDebugPendingBreakpoint2::EnumErrorBreakpoints
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,35 +8,35 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPendingBreakpoint2::EnumErrorBreakpoints method
 - EnumErrorBreakpoints method
-ms.assetid: 2f9a9720-c1ac-4430-8f28-200d85360452
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPendingBreakpoint2::EnumErrorBreakpoints
+
 Gets a list of all error breakpoints that resulted from this pending breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT EnumErrorBreakpoints( 
-   BP_ERROR_TYPE                 bpErrorType,
-   IEnumDebugErrorBreakpoints2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumErrorBreakpoints( 
    enum_BP_ERROR_TYPE              bpErrorType,
    out IEnumDebugErrorBreakpoints2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumErrorBreakpoints( 
+   BP_ERROR_TYPE                 bpErrorType,
+   IEnumDebugErrorBreakpoints2** ppEnum
+);
+```
+---
 
 ## Parameters
 `bpErrorType`\

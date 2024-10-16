@@ -1,20 +1,17 @@
 ---
-title: Command Implementation | Microsoft Docs
+title: Command Implementation
 description: Learn about command implementation in Visual Studio, how to set up a command group in a VSPackage, add a command to it, register the command, and implement it. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - commands, implementation
-ms.assetid: c782175c-cce4-4bd0-8374-4a897ceb1b3d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Command implementation
+
 To implement a command in a VSPackage, you must perform the following tasks:
 
 1. In the *.vsct* file, set up a command group and then add the command to it. For more information, see [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).
@@ -28,26 +25,25 @@ The following sections explain how to register and implement commands.
 ## Register commands with Visual Studio
  If your command is to appear on a menu, you must add the <xref:Microsoft.VisualStudio.Shell.ProvideMenuResourceAttribute> to your VSPackage, and use as a value either the name of the menu or its resource ID.
 
-```
+```c#
 [ProvideMenuResource("Menus.ctmenu", 1)]
-...
-    public sealed class MyPackage : Package
-    {.. ..}
-
+public sealed class MyPackage : Package
+{
+    // ...
+}
 ```
 
  In addition, you must register the command with the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService>. You can get this service by using the <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> method if your VSPackage is derived from <xref:Microsoft.VisualStudio.Shell.Package>.
 
-```
+```c#
 OleMenuCommandService mcs = GetService(typeof(IMenuCommandService)) as OleMenuCommandService;
-if ( null != mcs )
+if (mcs is not null)
 {
     // Create the command for the menu item.
     CommandID menuCommandID = new CommandID(guidCommandGroup, myCommandID);
-    MenuCommand menuItem = new MenuCommand(MenuItemCallback, menuCommandID );
-    mcs.AddCommand( menuItem );
+    MenuCommand menuItem = new MenuCommand(MenuItemCallback, menuCommandID);
+    mcs.AddCommand(menuItem);
 }
-
 ```
 
 ## Implement commands
@@ -102,8 +98,8 @@ public int QueryStatus(ref Guid pguidCmdGroup, uint cCmds, OLECMD[] prgCmds, Int
                 return VSConstants.S_OK;
             }
         }
-        return Constants.OLECMDERR_E_NOTSUPPORTED;
     }
+    return Constants.OLECMDERR_E_NOTSUPPORTED;
 }
 ```
 
@@ -119,9 +115,9 @@ public int Exec(ref Guid pguidCmdGroup, uint nCmdID, uint nCmdexecopt, IntPtr pv
     {
         if (pguidCmdGroup == VSConstants.GUID_VSStandardCommandSet97)
         {
-             if (nCmdID ==(uint) uint)VSConstants.VSStd2KCmdID.RIGHT)
+             if (nCmdID == (uint)VSConstants.VSStd2KCmdID.RIGHT)
             {
-                //execute the command
+                // execute the command
                 return VSConstants.S_OK;
             }
         }
@@ -130,6 +126,6 @@ public int Exec(ref Guid pguidCmdGroup, uint nCmdID, uint nCmdexecopt, IntPtr pv
 }
 ```
 
-## See also
+## Related content
 
 - [How VSPackages add user interface elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)

@@ -1,28 +1,38 @@
 ---
 description: "Specifies the information to be retrieved about a failed resolution of a breakpoint."
-title: BPERESI_FIELDS | Microsoft Docs
+title: BPERESI_FIELDS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BPERESI_FIELDS
 helpviewer_keywords:
 - BPERESI_FIELDS enumeration
-ms.assetid: dd7dd89c-1043-46a1-a929-099cc039c344
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # BPERESI_FIELDS
+
 Specifies the information to be retrieved about a failed resolution of a breakpoint.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_BPERESI_FIELDS {
+    PERESI_BPRESLOCATION = 0x0001,
+    BPERESI_PROGRAM      = 0x0002,
+    BPERESI_THREAD       = 0x0004,
+    BPERESI_MESSAGE      = 0x0008,
+    BPERESI_TYPE         = 0x0010,
+    BPERESI_ALLFIELDS    = 0xffffffff
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_BPERESI_FIELDS {
     PERESI_BPRESLOCATION = 0x0001,
@@ -34,17 +44,7 @@ enum enum_BPERESI_FIELDS {
 };
 typedef DWORD BPERESI_FIELDS;
 ```
-
-```csharp
-public enum enum_BPERESI_FIELDS {
-    PERESI_BPRESLOCATION = 0x0001,
-    BPERESI_PROGRAM      = 0x0002,
-    BPERESI_THREAD       = 0x0004,
-    BPERESI_MESSAGE      = 0x0008,
-    BPERESI_TYPE         = 0x0010,
-    BPERESI_ALLFIELDS    = 0xffffffff
-};
-```
+---
 
 ## Fields
 `PERESI_BPRESLOCATION`\

@@ -1,8 +1,7 @@
 ---
-title: Fill datasets by using TableAdapters
-description: Fill datasets using TableAdapters. A TableAdapter component fills a dataset with data from the DB, based on one or more queries or stored procedures you specify.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+title: Fill datasets with TableAdapters (.NET Framework)
+description: Fill datasets in .NET Framework applications with TableAdapters and data from queries or stored procedures by using ADO.NET in Visual Studio.
+ms.date: 11/01/2023
 ms.topic: how-to
 dev_langs:
 - VB
@@ -15,15 +14,15 @@ helpviewer_keywords:
 - datasets [Visual Basic], filling
 - data [Visual Studio], retrieving
 - data [Visual Studio], datasets
-ms.assetid: 55f3bfbe-db78-4486-add3-c62f49e6b9a0
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
-# Fill datasets by using TableAdapters
+
+# Fill datasets by using TableAdapters in .NET Framework applications
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 A TableAdapter component fills a dataset with data from the database, based on one or more queries or stored procedures that you specify. TableAdapters can also perform adds, updates, and deletes on the database to persist changes that you make to the dataset. You can also issue global commands that are unrelated to any specific table.
 
@@ -51,16 +50,22 @@ TableAdapters are designer-generated components that connect to a database, run 
 
 While TableAdapters are designed with the **Dataset Designer**, the TableAdapter classes are not generated as nested classes of  <xref:System.Data.DataSet>. They are located in separate namespaces that are specific to each dataset. For example, if you have a dataset named `NorthwindDataSet`, the TableAdapters that are associated with  <xref:System.Data.DataTable>s in the `NorthwindDataSet` would be in the `NorthwindDataSetTableAdapters` namespace. To access a particular TableAdapter programmatically, you must declare a new instance of the TableAdapter. For example:
 
+### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataTableAdapters/CS/Class1.cs" id="Snippet7":::
+
+### [VB](#tab/vb)
+
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataTableAdapters/VB/Class1.vb" id="Snippet7":::
+---
 
 ## Associated DataTable schema
 
-When you create a TableAdapter, you use the initial query or stored procedure  to define the schema of the TableAdapter's associated <xref:System.Data.DataTable>. You run this initial query or stored procedure by calling the TableAdapter's `Fill` method (which fills the TableAdapter's associated <xref:System.Data.DataTable>). Any changes that are made to the TableAdapter's main query are reflected in the schema of the associated data table. For example, removing a column from the main query also removes the column from the associated data table. If any additional queries on the TableAdapter use SQL statements that return columns that are not in the main query, the designer attempts to synchronize the column changes between the main query and the additional queries.
+When you create a TableAdapter, you use the initial query or stored procedure to define the schema of the TableAdapter's associated <xref:System.Data.DataTable>. You run this initial query or stored procedure by calling the TableAdapter's `Fill` method (which fills the TableAdapter's associated <xref:System.Data.DataTable>). Any changes that are made to the TableAdapter's main query are reflected in the schema of the associated data table. For example, removing a column from the main query also removes the column from the associated data table. If any additional queries on the TableAdapter use SQL statements that return columns that are not in the main query, the designer attempts to synchronize the column changes between the main query and the additional queries.
 
 ## TableAdapter update commands
 
-The update functionality of a TableAdapter is dependent on how much information is available in the main query  in the **TableAdapter Wizard**. For example, TableAdapters that are configured to fetch values from multiple tables (using a `JOIN`), scalar values, views, or the results of aggregate functions are not initially created with the ability to send updates back to the underlying database. However, you can configure the `INSERT`, `UPDATE`, and `DELETE` commands manually in the **Properties** window.
+The update functionality of a TableAdapter is dependent on how much information is available in the main query in the **TableAdapter Wizard**. For example, TableAdapters that are configured to fetch values from multiple tables (using a `JOIN`), scalar values, views, or the results of aggregate functions are not initially created with the ability to send updates back to the underlying database. However, you can configure the `INSERT`, `UPDATE`, and `DELETE` commands manually in the **Properties** window.
 
 ## TableAdapter queries
 
@@ -68,13 +73,13 @@ The update functionality of a TableAdapter is dependent on how much information 
 
 TableAdapters can contain multiple queries to fill their associated data tables. You can define as many queries for a TableAdapter as your application requires, as long as each query returns data that conforms to the same schema as its associated data table. This capability enables a TableAdapter to load different results based on differing criteria.
 
-For example, if your application contains a table with customer names, you can create a query that fills the table with every customer name that begins with a certain letter, and another  that fills the table with all customers that are located in the same state. To fill a `Customers` table with customers in a given state, you can create a `FillByState` query that takes a parameter for the state value as follows: `SELECT * FROM Customers WHERE State = @State`. You run the query by calling the `FillByState` method and passing in the parameter value like this: `CustomerTableAdapter.FillByState("WA")`.
+For example, if your application contains a table with customer names, you can create a query that fills the table with every customer name that begins with a certain letter, and another that fills the table with all customers that are located in the same state. To fill a `Customers` table with customers in a given state, you can create a `FillByState` query that takes a parameter for the state value as follows: `SELECT * FROM Customers WHERE State = @State`. You run the query by calling the `FillByState` method and passing in the parameter value like this: `CustomerTableAdapter.FillByState("WA")`.
 
 In addition to adding queries that return data of the same schema as the TableAdapter's data table, you can add queries that return scalar (single) values. For example, a query that returns a count of customers (`SELECT Count(*) From Customers`) is valid for a `CustomersTableAdapter,` even though the data that's returned doesn't conform to the table's schema.
 
 ## ClearBeforeFill property
 
-By default, every time you run a query to fill a TableAdapter's data table, the existing data is cleared, and only the results of the query are loaded into the table. Set the TableAdapter's `ClearBeforeFill` property to `false` if you want to add or merge the data that's returned from a query to the existing data in a data table. Regardless of whether you clear the data, you need to explicitly send updates back to the database, if you want to persist them. So remember to save any changes  to the data in the table before running another query that fills the table. For more information, see [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md).
+By default, every time you run a query to fill a TableAdapter's data table, the existing data is cleared, and only the results of the query are loaded into the table. Set the TableAdapter's `ClearBeforeFill` property to `false` if you want to add or merge the data that's returned from a query to the existing data in a data table. Regardless of whether you clear the data, you need to explicitly send updates back to the database, if you want to persist them. So remember to save any changes to the data in the table before running another query that fills the table. For more information, see [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md).
 
 ## TableAdapter inheritance
 
@@ -134,6 +139,6 @@ The following are the frequently used methods and properties of the `TableAdapte
 
 When you use data commands with a CommandType property set to <xref:System.Data.CommandType.Text>, carefully check information that is sent from a client before passing it to your database. Malicious users might try to send (inject) modified or additional SQL statements in an effort to gain unauthorized access or damage the database. Before you transfer user input to a database, always verify that the information is valid. A best practice is to always use parameterized queries or stored procedures when possible.
 
-## See also
+## Related content
 
 - [Dataset tools](../data-tools/dataset-tools-in-visual-studio.md)

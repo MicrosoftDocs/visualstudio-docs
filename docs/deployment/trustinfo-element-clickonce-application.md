@@ -1,7 +1,6 @@
 ---
-title: "&lt;trustInfo&gt; element (ClickOnce application) | Microsoft Docs"
+title: "&lt;trustInfo&gt; element (ClickOnce application)"
 description: The trustInfo element describes the minimum security permissions required for the application to run on the client computer. The trustInfo element is required.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -18,15 +17,13 @@ dev_langs:
 helpviewer_keywords:
   - "manifests [ClickOnce], trustInfo element"
   - "<trustInfo> element [ClickOnce application manifest]"
-ms.assetid: 8a813a74-e158-4308-be78-565937f6af83
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: deployment
 ---
 # &lt;trustInfo&gt; element (ClickOnce application)
+
 Describes the minimum security permissions required for the application to run on the client computer.
 
 ## Syntax
@@ -70,7 +67,7 @@ Describes the minimum security permissions required for the application to run o
  Required. This element is a child of the `trustInfo` element. It contains the `applicationRequestMinimum` element and has no attributes.
 
 ## applicationRequestMinimum
- Required. This element is a child of the `security` element and contains the `PermissionSet`, `assemblyRequest`, and `defaultAssemblyRequest`elements. This element has no attributes.
+ Required. This element is a child of the `security` element and contains the `PermissionSet`, `assemblyRequest`, and `defaultAssemblyRequest` elements. This element has no attributes.
 
 ## PermissionSet
  Required. This element is a child of the `applicationRequestMinimum` element and contains the `IPermission` element. This element has the following attributes.
@@ -147,21 +144,21 @@ Describes the minimum security permissions required for the application to run o
 
    `requireAdministrator`, requesting full administrator permissions.
 
-   [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications will only install with a value of `asInvoker`. Installing with any other value will fail.
+   ClickOnce applications will only install with a value of `asInvoker`. Installing with any other value will fail.
 
 - `uiAccess`
 
    Optional. Indicates whether the application requires access to protected user interface elements. Values are either `true` or `false`, and the default is false. Only signed applications should have a value of true.
 
 ## Remarks
- If a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application asks for more permissions than the client computer will grant by default, the common language runtime's Trust Manager will ask the user if she wants to grant the application this elevated level of trust. If she says no, the application will not run; otherwise, it will run with the requested permissions.
+ If a ClickOnce application asks for more permissions than the client computer will grant by default, the common language runtime's Trust Manager will ask the user if she wants to grant the application this elevated level of trust. If she says no, the application will not run; otherwise, it will run with the requested permissions.
 
  All permissions requested using `defaultAssemblyRequest` and `assemblyRequest` will be granted without user prompting if the deployment manifest has a valid Trust License.
 
  For more information about Permission Elevation, see [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md). For more information about policy deployment, see [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md).
 
 ## Examples
- The following three code examples illustrate `trustInfo` elements for the default named security zones—Internet, LocalIntranet, and FullTrust—for use in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment's application manifest.
+ The following three code examples illustrate `trustInfo` elements for the default named security zones—Internet, LocalIntranet, and FullTrust—for use in a ClickOnce deployment's application manifest.
 
  The first example illustrates the `trustInfo` element for the default permissions available in the Internet security zone.
 

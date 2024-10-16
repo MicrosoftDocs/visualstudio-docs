@@ -1,7 +1,6 @@
 ---
 title: "Automate Word by using extended objects"
 description: Learn how you can use host items and host controls in your solutions when you develop Word solutions in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -19,12 +18,11 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], host controls"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Automate Word by using extended objects
+
   When you develop Word solutions in Visual Studio, you can use *host items* and *host control*s in your solutions. These are objects that extend certain commonly used objects in the Word object model (that is, the object model that is exposed by the primary interop assembly for Word), such as the <xref:Microsoft.Office.Interop.Word.Document> and <xref:Microsoft.Office.Interop.Word.ContentControl> objects. The extended objects behave like the Word objects they are based on, but they add additional events and data binding capabilities to the objects.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
@@ -51,15 +49,14 @@ ms.workload:
 
 - [XMLNodes control](../vsto/xmlnodes-control.md)
 
-## See also
+## Related content
 - [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)
 - [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)
 - [How to: Add XMLNode controls to Word documents](../vsto/how-to-add-xmlnode-controls-to-word-documents.md)
 - [How to: Add XMLNodes controls to Word documents](../vsto/how-to-add-xmlnodes-controls-to-word-documents.md)
-- [How to: Resize Bookmark controls](../vsto/how-to-resize-bookmark-controls.md)
 - [Walkthrough: Create a template by using content controls](../vsto/walkthrough-creating-a-template-by-using-content-controls.md)
 - [Walkthrough: Bind content controls to custom XML parts](../vsto/walkthrough-binding-content-controls-to-custom-xml-parts.md)
-- [Walkthrough: Create shortcut menus for bookmarks](../vsto/walkthrough-creating-shortcut-menus-for-bookmarks.md)
+- [Walkthrough: Create shortcut menus for bookmarks](/previous-versions/visualstudio/visual-studio-2017/vsto/walkthrough-creating-shortcut-menus-for-bookmarks)
 - [Word solutions](../vsto/word-solutions.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
 - [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)

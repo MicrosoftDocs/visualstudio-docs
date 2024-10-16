@@ -1,23 +1,20 @@
 ---
-title: ProjectItem Element (Visual Studio Item Templates) | Microsoft Docs
+title: ProjectItem Element (Visual Studio Item Templates)
 description: Learn about the ProjectItem element for item templates and how it accepts different attributes depending on whether the template is for a project or an item.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#ProjectItem
 helpviewer_keywords:
 - <ProjectItem> element [Visual Studio item templates]
 - ProjectItem element [Visual Studio item templates]
-ms.assetid: 9ed94112-0c38-49df-b728-0dd2d0d1eb47
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
 ---
 # ProjectItem element (Visual Studio item templates)
+
 Specifies a file that is included in the item template.
 
 > [!NOTE]
@@ -47,7 +44,7 @@ Specifies a file that is included in the item template.
 
 | Attribute | Description |
 |---------------------| - |
-| `SubType` | Optional attribute.<br /><br /> Specifies the subtype of an item in a multi-file item template. This value is used to determine the editor that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will use to open the item. |
+| `SubType` | Optional attribute.<br /><br /> Specifies the subtype of an item in a multi-file item template. This value is used to determine the editor that Visual Studio will use to open the item. |
 | `CustomTool` | Optional attribute.<br /><br /> Sets the CustomTool for the item in the project file. |
 | `ItemType` | Optional attribute.<br /><br /> Sets the ItemType for the item in the project file. |
 | `ReplaceParameters` | Optional attribute.<br /><br /> A Boolean value that specifies whether the item has parameter values that must be replaced when a project is created from the template. Default value is `false`. |
@@ -79,7 +76,7 @@ Specifies a file that is included in the item template.
  When an item is created from this template, the file name will be based on the name the user entered in the **Add New Item** dialog box. This is useful when creating multi-file item templates. For more information, see [How to: Create multi-file item templates](../ide/how-to-create-multi-file-item-templates.md) and [Template parameters](../ide/template-parameters.md).
 
 ## Example
- The following example illustrates the metadata for the standard item template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class.
+ The following example illustrates the metadata for the standard item template for a Visual C# class.
 
 ```
 <VSTemplate Type="Item" Version="3.0.0"

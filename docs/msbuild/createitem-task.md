@@ -1,7 +1,6 @@
 ---
-title: CreateItem Task | Microsoft Docs
+title: CreateItem Task
 description: Use the MSBuild CreateItem task to populate item collections with input items, allowing items to be copied from one list to another.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -10,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - CreateItem task [MSBuild]
 - MSBuild, CreateItem task
-ms.assetid: c4311f38-979e-4324-b524-9e8c1cbdc41a
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # CreateItem task
 
@@ -71,7 +66,7 @@ Populates item collections with the input items. This allows items to be copied 
 </Project>
 ```
 
- The following table describes the value of the output item after task execution. Item metadata is shown in parenthesis after the item.
+ The following table describes the value of the output item after task execution. Item metadata is shown in parentheses after the item.
 
 |Item collection|Contents|
 |---------------------|--------------|

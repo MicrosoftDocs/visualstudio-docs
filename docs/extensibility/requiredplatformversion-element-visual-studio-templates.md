@@ -2,24 +2,20 @@
 description: "Specifies the minimum version of the operating system that the project template requires to work correctly."
 title: RequiredPlatformVersion Element (Visual Studio Templates)
 titleSuffix: ""
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
-ms.assetid: 6f0e4986-3157-4bba-aed3-c28413ebe976
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
 ---
 # RequiredPlatformVersion element (Visual Studio templates)
 
-Specifies the minimum version of the operating system that the project template requires to work correctly. This element is used to for project templates that create [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps.
+Specifies the minimum version of the operating system that the project template requires to work correctly. This element is used to for project templates that create Windows 8.x Store apps.
 
- The `RequiredPlatformVersion` value is compared directly with the version of the operating system. If the `RequiredPlatformVersion` is higher than the operating system version, the template does not appear in the **New Project** dialog box. To specify a template for [!INCLUDE[win8](../debugger/includes/win8_md.md)] or higher, set `RequiredPlatformVersion` to 6.2.0. To specify a template for [!INCLUDE[win81](../debugger/includes/win81_md.md)] or higher, set `RequiredPlatformVersion` to 6.3.0.
+ The `RequiredPlatformVersion` value is compared directly with the version of the operating system. If the `RequiredPlatformVersion` is higher than the operating system version, the template does not appear in the **New Project** dialog box. To specify a template for Windows 8 or higher, set `RequiredPlatformVersion` to 6.2.0. To specify a template for Windows 8.1 or higher, set `RequiredPlatformVersion` to 6.3.0.
 
- Templates that specify `RequiredPlatformVersion`=8 are compatible with previous customer [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] templates.
+ Templates that specify `RequiredPlatformVersion`=8 are compatible with previous customer Windows 8.x Store templates.
 
  VSTemplate
 TemplateData
@@ -60,7 +56,7 @@ RequiredPlatformVersion
 
 ## Example
 
- This example specifies that the project template targets [!INCLUDE[win8](../debugger/includes/win8_md.md)] or later.
+ This example specifies that the project template targets Windows 8 or later.
 
 ```xml
 <VSTemplate Type="Project" Version="3.0.0"    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">

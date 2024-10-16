@@ -1,8 +1,7 @@
 ---
-title: "Use dump files in the debugger | Microsoft Docs"
+title: "Use dump files in the debugger"
 description: A dump file is a snapshot of an executing app and loaded modules. Consider creating a dump file for situations where you don't have debug access to the app.
-ms.custom: "SEO-VS-2020"
-ms.date: "11/05/2018"
+ms.date: "06/27/2024"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.crashdump"
@@ -17,13 +16,10 @@ helpviewer_keywords:
   - "crash dumps"
   - "dump files"
   - "dumps"
-ms.assetid: b71be6dc-57e0-4730-99d2-b540a0863e49
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Dump files in the Visual Studio debugger
 
@@ -39,17 +35,10 @@ The Visual Studio debugger can save dump files for managed or native code. It ca
 ## <a name="BKMK_Requirements_and_limitations"></a> Requirements and limitations
 
 - To debug dump files from 64-bit machines, Visual Studio must be running on a 64-bit machine.
-
-::: moniker range=">= vs-2019"
-- Visual Studio can debug dump files of managed apps from Linux OS. 
-::: moniker-end
-
+- Visual Studio can debug dump files of managed apps from Linux OS.
 - Visual Studio can debug dump files of native apps from ARM devices. It can also debug dumps of managed apps from ARM devices, but only in the native debugger.
-
 - To debug [kernel-mode](/windows-hardware/drivers/debugger/kernel-mode-dump-files) dump files or use the [SOS.dll](/dotnet/framework/tools/sos-dll-sos-debugging-extension) debugging extension in Visual Studio, download the debugging tools for Windows in the [Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk).
-
 - Visual Studio can't debug dump files saved in the older, [full user-mode dump](/windows/desktop/wer/collecting-user-mode-dumps) format. A full user-mode dump is not the same as a dump with heap.
-
 - Debugging dump files of optimized code can be confusing. For example, compiler inlining of functions can result in unexpected call stacks, and other optimizations might change the lifetime of variables.
 
 ## <a name="BKMK_Dump_files__with_or_without_heaps"></a> Dump files with or without heaps
@@ -62,7 +51,7 @@ Dump files may or may not have heap information.
 
 ## <a name="BKMK_Create_a_dump_file"></a> Create a dump file
 
-While you are debugging a process in Visual Studio, you can save a dump when the debugger has stopped at an exception or breakpoint.
+While you're debugging a process in Visual Studio, you can save a dump file when the debugger has stopped at an exception or breakpoint.
 
 With [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studio.md) enabled, you can attach the Visual Studio debugger to a crashed process outside of Visual Studio, and then save a dump file from the debugger. See [Attach to running processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
 
@@ -70,7 +59,7 @@ With [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studi
 
 1. While stopped at an error or breakpoint during debugging, select **Debug** > **Save Dump As**.
 
-1. In the **Save Dump As** dialog box, under **Save as type**, select **Minidump** or **Minidump with Heap** (the default).
+1. In the **Save Dump As** dialog, under **Save as type**, select **Minidump** or **Minidump with Heap** (the default).
 
 1. Browse to a path and select a name for the dump file, and then select **Save**.
 
@@ -81,21 +70,28 @@ With [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studi
 
 1. In Visual Studio, select **File** > **Open** > **File**.
 
-1. In the **Open File** dialog box, locate and select the dump file. It will usually have a *.dmp* extension. Select **OK**.
+1. In the **Open File** dialog, locate and select the dump file. It will usually have a *.dmp* extension. Select **OK**.
 
    The **Minidump File Summary** window shows summary and module information for the dump file, and actions you can take.
 
-   ![Minidump summary page](../debugger/media/dbg_dump_summarypage.png "Minidump summary page")
+   ::: moniker range=">=vs-2022"
+   :::image type="content" source="../debugger/media/vs-2022/dbg-dump-summary-page.png" alt-text="Screenshot showing Minidump summary page.":::
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   :::image type="content" source="../debugger/media/dbg_dump_summarypage.png" alt-text="Screenshot showing Minidump summary page.":::
+   ::: moniker-end
 
 1. Under **Actions**:
+  
    - To set symbol loading locations, select **Set symbol paths**.
-   - To start debugging, select **Debug with Managed Only**, **Debug with Native Only**, **Debug with Mixed**, or **Debug with Managed Memory**.
+   - To start debugging, select **Debug with Managed Only**, **Debug with Mixed**, **Debug with Native Only**, or **Debug Managed Memory**. To analyze managed memory, see [Managed type reports](../profiling/memory-usage-without-debugging2.md#managed-types-reports).
+   - To get memory analysis on the dump, select **Run Diagnostic Analysis** and see [Debug a managed memory dump with .NET Diagnostic Analyzers](../debugger/how-to-debug-managed-memory-dump.md).
 
 ## <a name="BKMK_Find_binaries__symbol___pdb__files__and_source_files"></a> Find .exe, .pdb, and source files
 
 To use full debugging features on a dump file, Visual Studio needs:
 
-- The *.exe* file the dump was created for, and other binaries (DLLs, etc.) that the dump process used.
+- The *.exe* file the dump was created for, and other binaries (such as DLLs) that the dump process used.
 - Symbol (*.pdb*) files for the *.exe* and other binaries.
 - The *.exe* and *.pdb* files that exactly match the version and build of the files at dump creation.
 - Source files for the relevant modules. You can use the disassembly of the modules if you can't find the source files.
@@ -108,13 +104,13 @@ Visual Studio automatically searches these locations for *.exe* files that aren'
 
 1. The folder that contains the dump file.
 2. The module path the dump file specifies, which is the module path on the machine that collected the dump.
-3. The symbol paths specified in **Tools** (or **Debug**) > **Options** > **Debugging** > **Symbols**. You can also open the **Symbols** page from the **Actions** pane of the **Dump File Summary** window. On this page, you can add more locations to search.
+3. The symbol paths specified in **Tools** (or **Debug**) > **Options** > **Debugging** > **Symbols**. You can also open the **Symbols** page from the **Actions** panel of the **Dump File Summary** window. On this page, you can add more locations to search.
 
 ### Use the No Binary, No Symbols, or No Source Found pages
 
 If Visual Studio can't find the files it needs to debug a module in the dump, it shows a **No Binary Found**, **No Symbols Found**, or **No Source Found** page. These pages provide detailed information about the cause of the issue, and provide action links that can help you locate the files. See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
-## See also
+## Related content
 
 - [How to debug a managed memory dump with .NET Diagnostic Analyzers](../debugger/how-to-debug-managed-memory-dump.md)
 - [Just-In-Time debugging](../debugger/just-in-time-debugging-in-visual-studio.md)

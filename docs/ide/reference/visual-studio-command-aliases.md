@@ -1,7 +1,6 @@
 ---
 title: Command Aliases
 description: Learn how to use command aliases to type fewer characters when you want to execute a command.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
@@ -12,13 +11,10 @@ helpviewer_keywords:
 - Visual Studio commands
 - pre-defined command aliases
 - command aliases
-ms.assetid: de8bb378-8c1c-4087-a9a5-537fa8314c19
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Visual Studio Command Aliases
 

@@ -1,26 +1,23 @@
 ---
-title: Managing Configuration Options | Microsoft Docs
+title: Managing Configuration Options
 description: Learn how to manage project and solution configuration settings in Visual Studio to control how your project will be built, packaged, deployed, and run. 
-ms.custom: SEO-VS-2020 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - configuration options
-ms.assetid: 596c28ee-f48d-4252-a5c4-f730c43a39e6
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Managing Configuration Options
+
 When you create a new project type, you must manage project and solution configuration settings that determine how your project will be built, packaged, deployed, and run. The following topics discuss project and solution configuration.
 
 ## In This Section
 - [Overview](../../extensibility/internals/configuration-options-overview.md)
 
- Describes how projects in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] can support multiple configurations.
+ Describes how projects in Visual Studio can support multiple configurations.
 
 - [Property Pages](../../extensibility/internals/property-pages.md)
 
@@ -40,7 +37,7 @@ When you create a new project type, you must manage project and solution configu
 
 - [Project Configuration for Managing Deployment](../../extensibility/internals/project-configuration-for-managing-deployment.md)
 
- Defines the act of deployment and the two ways [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] supports projects that support deployment.
+ Defines the act of deployment and the two ways Visual Studio supports projects that support deployment.
 
 - [Project Configuration for Output](../../extensibility/internals/project-configuration-for-output.md)
 
@@ -49,4 +46,4 @@ When you create a new project type, you must manage project and solution configu
 ## Related Sections
 - [Project Types](../../extensibility/internals/project-types.md)
 
- Provides an overview of projects as the basic building blocks of the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). Links are provided to additional topics that explain how projects control building and compiling code.
+ Provides an overview of projects as the basic building blocks of the Visual Studio integrated development environment (IDE). Links are provided to additional topics that explain how projects control building and compiling code.

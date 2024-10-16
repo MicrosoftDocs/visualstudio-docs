@@ -1,19 +1,17 @@
 ---
 title: Properties of Domain Properties
 description: Learn how a domain property is a feature of a model element that can hold a value, and how domain properties are listed in the domain class box on the diagram.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
   - "Domain-Specific Language, domain properties"
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Properties of Domain Properties
+
 A *domain property* is a feature of a model element that can hold a value. For example, the `Person` domain class could have properties `Name` and `BirthDate`. In the DSL Definition, domain properties are listed in the domain class box on the diagram and under the domain class in DSL Explorer. For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md).
 
 > [!NOTE]

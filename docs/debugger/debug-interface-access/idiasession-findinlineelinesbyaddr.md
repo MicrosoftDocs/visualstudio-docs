@@ -1,25 +1,24 @@
 ---
 description: "IDiaSession::findInlineeLinesByAddr retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, by the specified parent symbol and are contained within the specified address range."
-title: "IDiaSession::findInlineeLinesByAddr | Microsoft Docs"
+title: "IDiaSession::findInlineeLinesByAddr"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: bb70e408-eed1-4c9c-b5b1-44323125f48b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findInlineeLinesByAddr
+
 Retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, by the specified parent symbol and are contained within the specified address range.
 
 ## Syntax
 
 ```C++
-HRESULT findInlineeLinesByAddr ( 
+HRESULT findInlineeLinesByAddr ( 
    IDiaSymbol*           parent,   DWORD                 isect,   DWORD                 offset,   DWORD                 length,
    IDiaEnumLineNumbers** ppResult
 );

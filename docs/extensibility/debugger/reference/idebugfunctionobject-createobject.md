@@ -1,37 +1,27 @@
 ---
 description: "Creates an object using a constructor."
-title: IDebugFunctionObject::CreateObject | Microsoft Docs
+title: IDebugFunctionObject::CreateObject
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugFunctionObject::CreateObject
 helpviewer_keywords:
 - IDebugFunctionObject::CreateObject method
-ms.assetid: c4c99dd5-609a-4e7c-8f29-eb728f57e995
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugFunctionObject::CreateObject
+
 Creates an object using a constructor.
 
 ## Syntax
 
-```cpp
-HRESULT CreateObject( 
-   IDebugFunctionObject* pConstructor,
-   DWORD                 dwArgs,
-   IDebugObject*         pArgs[],
-   IDebugObject**        ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateObject(
    IDebugFunctionObject pConstructor,
@@ -40,6 +30,16 @@ int CreateObject(
    out IDebugObject     ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateObject( 
+   IDebugFunctionObject* pConstructor,
+   DWORD                 dwArgs,
+   IDebugObject*         pArgs[],
+   IDebugObject**        ppObject
+);
+```
+---
 
 ## Parameters
 `pConstructor`\

@@ -1,30 +1,29 @@
 ---
-title: ProjectTemplateLink Element (Visual Studio Templates) | Microsoft Docs
+title: ProjectTemplateLink Element (Visual Studio Templates)
 description: Learn about the <element> element and how it specifies the path to the .vstemplate file of one project in a multi-project template.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#ProjectTemplateLink
 helpviewer_keywords:
 - <ProjectTemplateLink> element [Visual Studio Templates]
 - ProjectTemplateLink element [Visual Studio Templates]
-ms.assetid: b0449111-8b48-45a1-a031-ea24b765e969
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
 ---
 # ProjectTemplateLink element (Visual Studio templates)
+
 Specifies the path to the *.vstemplate* file of one project in a multi-project template.
 
  \<VSTemplate>
  \<TemplateContent>
  \<ProjectCollection>
  \<ProjectTemplateLink>
--or-
+
+  -or-
+
 \<VSTemplate>
  \<TemplateContent>
  \<ProjectCollection>
@@ -68,7 +67,7 @@ Specifies the path to the *.vstemplate* file of one project in a multi-project t
  Multi-project templates act as containers for two or more projects. The `ProjectTemplateLink` element is used to specify the location of the *.vstemplate* file for one of the projects in the template. The *.vstemplate* file of a multi-project template contains one `ProjectTemplateLink` element for each project in the template. For more information on multi-project templates, see [How to: Create multi-project templates](../ide/how-to-create-multi-project-templates.md).
 
 ## Example
- This example shows a simple multi-project root *.vstemplate* file. In this example, the template contains two projects, `My Windows Application` and `My Class Library`. The `ProjectName` attribute on the `ProjectTemplateLink` element sets the name for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to assign this project. If the `ProjectName` attribute doesn't exist, the name of the *.vstemplate* file is used as the project name.
+ This example shows a simple multi-project root *.vstemplate* file. In this example, the template contains two projects, `My Windows Application` and `My Class Library`. The `ProjectName` attribute on the `ProjectTemplateLink` element sets the name for Visual Studio to assign this project. If the `ProjectName` attribute doesn't exist, the name of the *.vstemplate* file is used as the project name.
 
 ```
 <VSTemplate Version="3.0.0" Type="ProjectGroup"

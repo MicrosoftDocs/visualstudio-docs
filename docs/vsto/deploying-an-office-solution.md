@@ -1,7 +1,6 @@
 ---
 title: "Deploy an Office solution"
-description: You can deploy Office solutions by using ClickOnce or Windows Installer. By using ClickOnce, you reduce the number of steps that deploying your solution requires.
-ms.custom: SEO-VS-2020
+description: Deploy Office solutions with Windows Installer or by using with ClickOnce to reduce the number of required deployment steps for your solution.
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -22,12 +21,11 @@ helpviewer_keywords:
   - "solutions [Office development in Visual Studio], deploying Office solutions (2007 system)"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Deploy an Office solution
+
   You can deploy Office solutions by using ClickOnce or Windows Installer. By using ClickOnce, you reduce the number of steps that deploying and updating your solution requires. If you use Windows Installer, you gain control of how a solution is installed and what pages the setup program displays when users install your solution.
 
 [!include[Add-ins note](includes/addinsnote.md)]
@@ -38,7 +36,7 @@ ms.workload:
 ## Deploy a solution by using Windows Installer
  When you deploy a solution by using Windows Installer, you distribute a setup program to users, and users install the solution by using that program. The setup program can install a solution for all users of a computer at the same time, rather than the current user only. You also have a bit more control over options that appear to users when they install your solution. For example, you can show a licensing agreement or enable users to install specific components of a solution. However, if you update the solution, you must distribute a new setup program. See [Deploy an Office solution by using Windows Installer](../vsto/deploying-a-vsto-solution-by-using-windows-installer.md).
 
-## See also
+## Related content
 - [Secure Office solutions](../vsto/securing-office-solutions.md)
 - [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md)
 - [Deploy an Office solution by using Windows Installer](../vsto/deploying-a-vsto-solution-by-using-windows-installer.md)

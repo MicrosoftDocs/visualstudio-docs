@@ -1,81 +1,72 @@
 ---
-title: Introduction to editing for Visual Basic developers
-description: This 10-minute introduction to the code editor in Visual Studio shows some of the ways that Visual Studio makes writing, navigating, and understanding Visual Basic code easier.
-ms.custom: [vs-acquisition, seodec18, get-started]
-ms.date: 11/20/2018
-ms.technology: vs-ide-general
+title: Get started coding with VB
+description: Explore the code editor in Visual Studio and learn some ways that Visual Studio makes writing, navigating, and understanding Visual Basic code easier.
+ms.custom: vs-acquisition
+ms.date: 08/21/2024
+ms.subservice: general-ide
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
+manager: mijacobs
 dev_langs:
 - VB
-ms.workload:
-- dotnet
+
+#customer intent: As a developer, I want to explore the code editor in Visual Studio to make writing Visual Basic code easier.
 ---
-# Learn to use the code editor with Visual Basic
 
-In this 10-minute introduction to the code editor in Visual Studio, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding Visual Basic code easier.
+# Tutorial: Learn to use the code editor with Visual Basic
 
-::: moniker range="vs-2017"
+In this tutorial, you'll try out the code editor in Visual Studio. You'll add code to a file to learn some of the ways that Visual Studio makes writing, navigating, and understanding Visual Basic code easier.
 
-> [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
+This article assumes you're already familiar with Visual Basic. If you aren't, you might want to start with a tutorial like [Create a simple Visual Basic (VB) console app](tutorial-console.md).
 
-::: moniker-end
+To complete this tutorial, make sure you have the Visual Basic settings selected for Visual Studio. For information about selecting settings for the integrated development environment (IDE), see [Select environment settings](visual-studio-ide.md#select-environment-settings).
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+
+## Create a code file
+
+Start by creating a file and adding some code to it.
 
 ::: moniker range="vs-2019"
 
-> [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+1. Open Visual Studio. Press **Esc** or select **Continue without code** on the start window to open the development environment.
+
+1. On the **File** menu on the menu bar, select **New File**.
+
+1. In the **New File** dialog, under the **General** category, select **Visual Basic Class**, and then select **Open**.
+
+   A new file opens in the editor with the skeleton of a Visual Basic class. (You can already notice that you don't have to create a full Visual Studio project to gain some of the benefits that the code editor provides, such as syntax highlighting. All you need is a code file.)
+
+   :::image type="content" source="media/tutorial-editor.png" alt-text="Screenshot of a new Visual Basic class file in the Visual Studio code editor.":::
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
-> [!TIP]
-> If you haven't already installed Visual Studio Preview, go to the [Visual Studio 2022 Preview downloads](https://visualstudio.microsoft.com/vs/preview/vs2022) page to install it for free.
+1. Open Visual Studio. Press **Esc** or select **Continue without code** on the start window to open the development environment.
 
-::: moniker-end
+1. On the **File** menu on the menu bar, select **New File**.
 
-This article assumes you're already familiar with Visual Basic. If you aren't, we suggest you look at a tutorial such as [Get started with Visual Basic in Visual Studio](../../get-started/visual-basic/tutorial-console.md) first.
+1. In the **New File** dialog, under the **General** category, select **Visual Basic Class**, and then select **Open**.
 
-> [!TIP]
-> To follow along with this article, make sure you have the Visual Basic settings selected for Visual Studio. For information about selecting settings for the integrated development environment (IDE), see [Select environment settings](visual-studio-ide.md#select-environment-settings).
+   A new file opens in the editor with the skeleton of a Visual Basic class. (You can already notice that you don't have to create a full Visual Studio project to gain some of the benefits that the code editor provides, such as syntax highlighting. All you need is a code file.)
 
-## Create a new code file
-
-Start by creating a new file and adding some code to it.
-
-::: moniker range="vs-2017"
-
-1. Open Visual Studio.
+   :::image type="content" source="media/vs-2022/tutorial-editor.png" alt-text="Screenshot of a new Visual Basic class file in the Visual Studio code editor.":::
 
 ::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-1. Open Visual Studio. Press **Esc** or click **Continue without code** on the start window to open the development environment.
-
-::: moniker-end
-
-2. From the **File** menu on the menu bar, choose **New File**.
-
-3. In the **New File** dialog box, under the **General** category, choose **Visual Basic Class**, and then choose **Open**.
-
-   A new file opens in the editor with the skeleton of a Visual Basic class. (You can already notice that you don't have to create a full Visual Studio project to gain some of the benefits that the code editor offers, such as syntax highlighting. All you need is a code file!)
-
-   ![Visual Basic code file in Visual Studio](media/tutorial-editor.png)
 
 ## Use code snippets
 
-Visual Studio provides useful *code snippets* that you can use to quickly and easily generate commonly used code blocks. [Code snippets](../../ide/code-snippets.md) are available for different programming languages including Visual Basic, C#, and C++. Let's add the Visual Basic **Sub** snippet to our file.
+Visual Studio provides *code snippets* that you can use to quickly and easily generate commonly used code blocks. [Code snippets](../../ide/code-snippets.md) are available for various programming languages, including Visual Basic, C#, and C++. You'll now add the Visual Basic **Sub** snippet to the file.
+
+::: moniker range="<=vs-2019"
 
 1. Place your cursor above the line that says `End Class`, and type **sub**.
 
    A pop-up dialog box appears with information about the `Sub` keyword and how to insert the **Sub** code snippet.
 
-   ![IntelliSense for code snippet in Visual Studio](media/tutorial-intellisense-snippet.png)
+   :::image type="content" source="media/tutorial-intellisense-snippet.png" alt-text="Screenshot of the IntelliSense for a Sub code snippet in Visual Studio.":::
 
 1. Press **Tab** twice to insert the code snippet.
 
@@ -83,15 +74,37 @@ Visual Studio provides useful *code snippets* that you can use to quickly and ea
 
 The available code snippets vary for different programming languages. You can look at the available code snippets for Visual Basic by choosing **Edit** > **IntelliSense** > **Insert Snippet** (or press **Ctrl**+**K**, **Ctrl**+**X**). For Visual Basic, code snippets are available for the following categories:
 
-![Visual Basic code snippet list](media/tutorial-code-snippet-list.png)
+:::image type="content" source="media/tutorial-code-snippet-list.png" alt-text="Screenshot of the Insert Snippet window with a list of category folders that contain Visual Basic code snippets.":::
 
-There are snippets for determining if a file exists on the computer, writing to a text file, reading a registry value, executing a SQL query, creating a [For Each...Next statement](/dotnet/visual-basic/language-reference/statements/for-each-next-statement), and many more.
+There are snippets for determining if a file exists on the computer, writing to a text file, reading a registry value, executing a SQL query, or creating a [For Each...Next statement](/dotnet/visual-basic/language-reference/statements/for-each-next-statement), and many more.
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+1. Place your cursor above the line that says `End Class`, and type **sub**.
+
+   A pop-up window appears with information about the `Sub` keyword and how to insert the **Sub** code snippet.
+
+   :::image type="content" source="media/vs-2022/tutorial-intellisense-snippet.png" alt-text="Screenshot of the IntelliSense for a Sub code snippet in Visual Studio.":::
+
+1. Select **Tab** twice to insert the code snippet.
+
+   The outline for the Sub procedure `MySub()` is added to the file.
+
+The available code snippets vary for different programming languages. You can view the available code snippets for Visual Basic by right-clicking in the code editor and selecting **Snippet** > **Insert Snippet** (or by pressing **Ctrl**+**K**, **Ctrl**+**X**). For Visual Basic, code snippets are available for the following categories:
+
+:::image type="content" source="media/vs-2022/tutorial-code-snippet-list.png" alt-text="Screenshot showing the Insert Snippet window with a list of category folders that contain Visual Basic code snippets.":::
+
+::: moniker-end
 
 ## Comment out code
 
-The toolbar, which is the row of buttons under the menu bar in Visual Studio, can help make you more productive as you code. For example, you can toggle IntelliSense completion mode, increase or decrease a line indent, or comment out code that you don't want to compile. ([IntelliSense](../../ide/using-intellisense.md) is a coding aid that displays a list of matching methods, amongst other things.) In this section, we'll comment out some code.
+In this section, you'll comment out some code.
 
-![Editor toolbar buttons](media/tutorial-editor-toolbar.png)
+::: moniker range="<=vs-2019"
+
+:::image type="content" source="media/tutorial-editor-toolbar.png" alt-text="Screenshot of the toolbar in Visual Studio, which includes buttons for adding and removing code comments.":::
 
 1. Paste the following code into the `MySub()` procedure body.
 
@@ -117,35 +130,106 @@ The toolbar, which is the row of buttons under the menu bar in Visual Studio, ca
                Select word
    ```
 
-1. We're not using the `morewords` array, but we may use it later so we don't want to completely delete it. Instead, let's comment out those lines. Select the entire definition of `morewords` to the closing curly brace, and then choose the **Comment out the selected lines** button on the toolbar. If you prefer to use the keyboard, press **Ctrl**+**K**, **Ctrl**+**C**.
+1. Say you're not using the `morewords` array, but you might use it later, so you don't want to delete it. Instead, you can comment out those lines. Select the entire definition of `morewords` to the closing curly brace, and then select the **Comment out the selected lines** button on the toolbar. If you prefer to use the keyboard, select **Ctrl**+**K**, **Ctrl**+**C**.
 
-   ![Comment out button](media/tutorial-comment-out.png)
+   :::image type="content" source="media/tutorial-comment-out.png" alt-text="Screenshot of the toolbar. The button for commenting out code is highlighted in red.":::
 
    The Visual Basic comment character `'` is added to the beginning of each selected line to comment out the code.
 
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+:::image type="content" source="media/vs-2022/tutorial-editor-toolbar.png" alt-text="Screenshot of the toolbar in Visual Studio, which includes buttons for adding and removing code comments.":::
+
+1. Paste the following code into the `MySub()` procedure body.
+
+   ```vb
+   ' _words is a string array that we'll sort alphabetically
+   Dim _words = New String() {
+   "the",
+   "quick",
+   "brown",
+   "fox",
+   "jumps"
+   }
+
+   Dim morewords = New String() {
+   "over",
+   "the",
+   "lazy",
+   "dog"
+   }
+
+   Dim query = From word In _words
+               Order By word.Length
+               Select word
+   ```
+
+1. Say you're not using the `morewords` array, but you might use it later, so you don't want to delete it. Instead, you can comment out those lines. Select the entire definition of `morewords` to the closing curly brace, and then select the **Comment out the selected lines** button on the toolbar. If you prefer to use the keyboard, select **Ctrl**+**K**, **Ctrl**+**C**.
+
+   :::image type="content" source="media/vs-2022/tutorial-comment-out.png" alt-text="Screenshot of the toolbar. The button for commenting out code is highlighted in red.":::
+
+   The Visual Basic comment character `'` is added to the beginning of each selected line to comment out the code.
+
+::: moniker-end
+
 ## Collapse code blocks
 
-You can collapse sections of code to focus just on the parts that are of interest to you. To practice, let's collapse the `_words` array to one line of code. Choose the small gray box with the minus sign inside it in the margin of the line that says `Dim _words = New String() {`. Or, if you're a keyboard user, place the cursor anywhere in the array definition and press **Ctrl**+**M**, **Ctrl**+**M**.
+::: moniker range="<=vs-2019"
 
-![Outlining collapse button](media/tutorial-collapse.png)
+You can collapse sections of code to focus just on the parts that interest you. To practice, try collapsing the `_words` array to one line of code. Select the small box with the minus sign inside it in the margin of the line that says `Dim _words = New String() {`. Or, if you're a keyboard user, place the cursor anywhere in the array definition and select **Ctrl**+**M**, **Ctrl**+**M**.
 
-The code block collapses to just the first line, followed by an ellipsis (`...`). To expand the code block again, click the same gray box that now has a plus sign in it, or press **Ctrl**+**M**, **Ctrl**+**M** again. This feature is called [Outlining](../../ide/outlining.md) and is especially useful when you're collapsing long methods or entire classes.
+:::image type="content" source="media/tutorial-collapse.png" alt-text="Screenshot of the Visual Studio Code editor. The button for collapsing the outline of a section of code is highlighted in red.":::
 
+The code block collapses to just the first line, followed by an ellipsis (`...`). To expand the code block, select the same box, which now has a plus sign in it, or select **Ctrl**+**M**, **Ctrl**+**M** again. This feature is called [outlining](../../ide/outlining.md) and is especially useful when you're collapsing long methods or entire classes.
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+You can collapse sections of code to focus just on the parts that interest you. To practice, try collapsing the `_words` array to one line of code. Select the down arrow in the margin of the line that says `Dim _words = New String() {`. Or, if you're a keyboard user, place the cursor anywhere in the array definition and select **Ctrl**+**M**, **Ctrl**+**M**.
+
+:::image type="content" source="media/vs-2022/tutorial-collapse.png" alt-text="Screenshot of the Visual Studio Code editor. The button for collapsing the outline of a section of code is highlighted in red.":::
+
+The code block collapses to just the first line, followed by an ellipsis (`...`). The down arrow in the margin is now an arrow that points to the right. To expand the code block, select the **>** arrow, or press **Ctrl**+**M**, **Ctrl**+**M** again. This feature is called [outlining](../../ide/outlining.md) and is especially useful when you're collapsing long methods or entire classes.
+
+::: moniker-end
 ## View symbol definitions
 
-The Visual Studio editor makes it easy to inspect the definition of a type, method, etc. One way is to navigate to the file that contains the definition, for example by choosing **Go to Definition** anywhere the symbol is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../../ide/go-to-and-peek-definition.md#peek-definition). Let's peek at the definition of the `String` type.
+::: moniker range="<=vs-2019"
 
-1. Right-click on the word `String` and choose **Peek Definition** from the content menu. Or, press **Alt**+**F12**.
+The Visual Studio editor makes it easy to inspect the definition of a type or class member. You can do that by navigating to the file that contains the definition, for example by right-clicking and selecting **Go to Definition** anywhere the symbol is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../../ide/go-to-and-peek-definition.md#peek-at-a-definition). You'll now peek at the definition of the `String` type.
 
-   A pop-up window appears with the definition of the `String` class. You can scroll within the pop-up window, or even peek at the definition of another type from the peeked code.
+1. Right-click the word `String` and select **Peek Definition**. Or press **Alt**+**F12**.
 
-   ![Peek definition window](media/tutorial-peek-definition.png)
+   A pop-up window containing the definition of the `String` class appears. You can scroll within the pop-up window, or even peek at the definition of another type from the peeked code.
 
-1. Close the peeked definition window by choosing the small box with an "x" at the top right of the pop-up window.
+   :::image type="content" source="media/tutorial-peek-definition.png" alt-text="Screenshot of a Peek Definition pop-up window that contains the definition of the String class." lightbox="media/tutorial-peek-definition.png":::
+
+1. Close the Peek Definition window by selecting the close button at the upper-right corner of the pop-up window.
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+The Visual Studio editor makes it easy to inspect the definition of a type or class member. You can do that by navigating to the file that contains the definition, for example by right-clicking and selecting **Go to Definition** anywhere the symbol is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../../ide/go-to-and-peek-definition.md#peek-at-a-definition). You'll now peek at the definition of the `String` type.
+
+1. Right-click the word `String` and select **Peek Definition**. Or press **Alt**+**F12**.
+
+   A pop-up window containing the definition of the `String` class appears. You can scroll within the pop-up window, or even peek at the definition of another type from the peeked code.
+
+   :::image type="content" source="media/vs-2022/tutorial-peek-definition.png" alt-text="Screenshot of a Peek Definition pop-up window that contains the definition of the String class." lightbox="media/vs-2022/tutorial-peek-definition.png":::
+
+1. Close the Peek Definition window by selecting the close button at the upper-right corner of the pop-up window.
+
+::: moniker-end
 
 ## Use IntelliSense to complete words
 
-[IntelliSense](../../ide/using-intellisense.md) is an invaluable resource when you're coding. It can show you information about available members of a type, or parameter details for different overloads of a method. You can also use IntelliSense to complete a word after you type enough characters to disambiguate it. Let's add a line of code to print out the ordered strings to the console window, which is the standard place for output from the program to go.
+::: moniker range="<=vs-2019"
+
+[IntelliSense](../../ide/using-intellisense.md) is a valuable resource when you're coding. It can show you information about available members of a type, or parameter details for different overloads of a method. You can also use IntelliSense to complete a word after you type enough characters to disambiguate it. You'll now add a line of code to print the ordered strings to the console window, which is the standard place for output from a program to go.
 
 1. Below the `query` variable, start typing the following code:
 
@@ -155,7 +239,7 @@ The Visual Studio editor makes it easy to inspect the definition of a type, meth
 
    You see IntelliSense show you **Quick Info** about the `query` symbol.
 
-   ![IntelliSense word completion in Visual Studio](media/tutorial-intellisense-completion-list.png)
+   :::image type="content" source="media/tutorial-intellisense-completion-list.png" alt-text="Screenshot of the IntelliSense word completion window for the word 'query' in the Visual Studio code editor."::: 
 
 1. To insert the rest of the word `query` by using IntelliSense's word completion functionality, press **Tab**.
 
@@ -167,28 +251,72 @@ The Visual Studio editor makes it easy to inspect the definition of a type, meth
    Next
    ```
 
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+[IntelliSense](../../ide/using-intellisense.md) is a valuable resource when you're coding. It can show you information about available members of a type, or parameter details for different overloads of a method. You can also use IntelliSense to complete a word after you type enough characters to disambiguate it. You'll now add a line of code to print the ordered strings to the console window, which is the standard place for output from the program to go.
+
+1. Below the `query` variable, start typing the following code:
+
+   ```vb
+   For Each str In qu
+   ```
+
+   IntelliSense shows you Quick Info about the `query` symbol.
+
+   :::image type="content" source="media/vs-2022/tutorial-intellisense-completion-list.png" alt-text="Screenshot of the IntelliSense word completion window for the word 'query' in the Visual Studio code editor.":::
+
+1. To insert the rest of the word `query` by using the IntelliSense word completion functionality, select **Tab**.
+
+1. Finish off the code block to look like the following code.
+
+   ```vb
+   For Each str In query
+       Console.WriteLine(str)
+   Next
+   ```
+
+::: moniker-end
 ## Refactor a name
 
-Nobody gets code right the first time, and one of the things you might have to change is the name of a variable or method. Let's try out Visual Studio's [refactor](../../ide/refactoring-in-visual-studio.md) functionality to rename the `_words` variable to `words`.
+::: moniker range="<=vs-2019"
 
-1. Place your cursor over the definition of the `_words` variable and choose **Rename** from the right-click or context menu.
+Nobody gets code right the first time, and one of the things you might have to change is the name of a variable or method. You'll now try the Visual Studio [refactor](../../ide/refactoring-in-visual-studio.md) functionality to rename the `_words` variable to `words`.
 
-   A pop-up **Rename** dialog box appears at the top right of the editor.
+1. Right-click the definition of the `_words` variable and select **Rename**.
 
-1. With the variable `_words` still selected, type in the desired name of **words**. Notice that the reference to `words` in the query is also automatically renamed. Before you press **Enter** or click **Apply**, select the **Include comments** checkbox in the **Rename** pop-up box.
+   A **Rename** window appears at the upper-right corner of the editor.
 
-   ![Rename dialog box](media/tutorial-rename.png)
+1. With the variable `_words` still selected, enter the desired name: **words**. Notice that the reference to `words` in the query is automatically renamed. Before you press **Enter** or select **Apply**, select the **Include comments** checkbox in the **Rename** window.
 
-1. Press **Enter** or click **Apply**.
+   :::image type="content" source="media/tutorial-rename.png" alt-text="Screenshot of the Rename window for the variable '_words'. The Include comments checkbox is selected.":::
 
-   Both occurrences of `words` are renamed, as well as the reference to `words` in the code comment.
+1. Press **Enter** or select **Apply**.
 
-## Next steps
+   Both occurrences of `words` are renamed, in addition to the reference to `words` in the code comment.
 
-> [!div class="nextstepaction"]
-> [Learn about projects and solutions](tutorial-projects-solutions.md)
+::: moniker-end
 
-## See also
+::: moniker range=">=vs-2022"
+
+Nobody gets code right the first time, and one of the things you might have to change is the name of a variable or method. You'll now try the Visual Studio [refactor](../../ide/refactoring-in-visual-studio.md) functionality to rename the `_words` variable to `words`.
+
+1. Right-click the definition of the `_words` variable and select **Rename**.
+
+   A rename window appears.
+
+1. With the variable `_words` still selected, enter the desired name: **words**. Notice that the reference to `words` in the query is automatically renamed. Before you select **Enter**, select the **Include comments** checkbox in the **Rename** window.
+
+   :::image type="content" source="media/vs-2022/tutorial-rename.png" alt-text="Screenshot of the Rename window. The 'Include comments' checkbox is selected.":::
+
+1. Select **Enter**.
+
+   Both occurrences of `words` are renamed, in addition to the reference to `words` in the code comment.
+
+::: moniker-end
+
+## Related content
 
 - [Code snippets](../../ide/code-snippets.md)
 - [Navigate code](../../ide/navigating-code.md)
@@ -196,3 +324,8 @@ Nobody gets code right the first time, and one of the things you might have to c
 - [Go To Definition and Peek Definition](../../ide/go-to-and-peek-definition.md)
 - [Refactoring](../../ide/refactoring-in-visual-studio.md)
 - [Use IntelliSense](../../ide/using-intellisense.md)
+
+## Next step
+
+> [!div class="nextstepaction"]
+> [Learn about projects and solutions](tutorial-projects-solutions.md)

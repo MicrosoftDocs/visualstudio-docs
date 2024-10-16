@@ -1,15 +1,12 @@
 ---
 title: Generate a method
 description: Learn how to use the Quick Actions and Refactorings menu to immediately add a method to a class.
-ms.custom: SEO-VS-2020
 ms.date: 01/26/2018
 ms.topic: reference
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- dotnet
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Generate a method in Visual Studio
 

@@ -1,35 +1,35 @@
 ---
 description: "This method resets the enumeration to the first IDebugObject element."
-title: IEnumDebugObjects::Reset | Microsoft Docs
+title: IEnumDebugObjects::Reset
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugObjects::Reset
 helpviewer_keywords:
 - IEnumDebugObjects::Reset method
-ms.assetid: 4a245e47-cc39-4177-b83d-083ea0e3190f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugObjects::Reset
+
 This method resets the enumeration to the first element.
 
 ## Syntax
 
-```cpp
-HRESULT Reset(void);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Reset();
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Reset(void);
+```
+---
 
 ## Parameters
  None

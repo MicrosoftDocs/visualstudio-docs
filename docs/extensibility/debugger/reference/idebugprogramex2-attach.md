@@ -1,36 +1,27 @@
 ---
 description: "Attach a session to a program."
-title: IDebugProgramEx2::Attach | Microsoft Docs
+title: IDebugProgramEx2::Attach
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgramEx2::Attach
 helpviewer_keywords:
 - IDebugProgramEx2::Attach
-ms.assetid: 33b22b2f-431e-4205-9441-d28a9c928c97
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgramEx2::Attach
+
 Attach a session to a program.
 
 ## Syntax
 
-```cpp
-HRESULT Attach( 
-   IDebugEventCallback2* pCallback,
-   DWORD                 dwReason,
-   IDebugSession2*       pSession
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Attach( 
    IDebugEventCallback2 pCallback,
@@ -38,6 +29,15 @@ int Attach( 
    IDebugSession2       pSession
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Attach( 
+   IDebugEventCallback2* pCallback,
+   DWORD                 dwReason,
+   IDebugSession2*       pSession
+);
+```
+---
 
 ## Parameters
 `pCallback`\

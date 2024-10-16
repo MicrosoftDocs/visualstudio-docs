@@ -1,7 +1,6 @@
 ---
 title: "Combine VBA and document-level customizations"
 description: Learn how you can use Visual Basic for Applications (VBA) code in a document that is part of a document-level customization for Microsoft Office Word or Excel.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -23,12 +22,11 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], Visual Basic for Applications and"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Combine VBA and document-level customizations
+
   You can use Visual Basic for Applications (VBA) code in a document that is part of a document-level customization for Microsoft Office Word or Microsoft Office Excel. You can call VBA code in the document from the customization assembly, or you can configure your project to enable VBA code in the document to call code in the customization assembly.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
@@ -53,10 +51,7 @@ ms.workload:
 
   The following code example shows how to call a macro named `MyMacro` from a document-level project for Excel. This example assumes that `MyMacro` is defined in `Sheet1`.
 
-```vb
-Globals.Sheet1.Application.Run("MyMacro")
-```
-
+### [C#](#tab/csharp)
 ```csharp
 Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
     missing, missing, missing, missing, missing, missing, missing,
@@ -64,6 +59,12 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
     missing, missing, missing, missing, missing, missing, missing,
     missing, missing, missing, missing, missing, missing);
 ```
+
+### [VB](#tab/vb)
+```vb
+Globals.Sheet1.Application.Run("MyMacro")
+```
+---
 
 > [!NOTE]
 > For information about using the global `missing` variable in place of optional parameters in Visual C#, see [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md).
@@ -100,9 +101,9 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
 ## Enable VBA code to call into the customization assembly
  There are two different ways that you can expose members in a customization assembly to VBA code in the document:
 
-- You can expose members of a host item class in a [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] project to VBA. To do this, set the **EnableVbaCallers** property of the host item to **True** in the **Properties** window while the host item (that is, the document, worksheet, or workbook) is open in the designer. Visual Studio automatically performs all of the work required to enable VBA code to call members of the class.
+- You can expose members of a host item class in a Visual Basic project to VBA. To do this, set the **EnableVbaCallers** property of the host item to **True** in the **Properties** window while the host item (that is, the document, worksheet, or workbook) is open in the designer. Visual Studio automatically performs all of the work required to enable VBA code to call members of the class.
 
-- You can expose members in any public class in a Visual C# project, or members in a non-host item class in a [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] project, to VBA. This option provides you with more freedom to choose which classes you expose to VBA, but it also requires more manual steps.
+- You can expose members in any public class in a Visual C# project, or members in a non-host item class in a Visual Basic project, to VBA. This option provides you with more freedom to choose which classes you expose to VBA, but it also requires more manual steps.
 
    To do this, you must perform the following main steps:
 
@@ -114,7 +115,7 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
 
   For detailed instructions, see [How to: Expose code to VBA in a Visual Basic project](../vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md) and [How to: Expose code to VBA in a Visual C&#35; project](../vsto/how-to-expose-code-to-vba-in-a-visual-csharp-project.md).
 
-  The **EnableVbaCallers** and **ReferenceAssemblyFromVbaProject** properties are available only in the **Properties** window at design time; they cannot be used at run time. To view the properties, open the designer for a host item in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information about the specific tasks that Visual Studio performs when you set these properties, see [Tasks performed by the host item properties](#PropertyTasks).
+  The **EnableVbaCallers** and **ReferenceAssemblyFromVbaProject** properties are available only in the **Properties** window at design time; they cannot be used at run time. To view the properties, open the designer for a host item in Visual Studio. For more information about the specific tasks that Visual Studio performs when you set these properties, see [Tasks performed by the host item properties](#PropertyTasks).
 
 > [!NOTE]
 > If the workbook or document does not already contain VBA code or if VBA code in the document is not trusted to run, you will receive an error message when you set the **EnableVbaCallers** or **ReferenceAssemblyFromVbaProject** property to **True**. This is because Visual Studio cannot modify the VBA project in the document in this situation.
@@ -124,7 +125,7 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
 
 - For all projects, Visual Studio adds a global method named `GetManagedClass`.
 
-- For [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] projects in which you expose members of a host item class by using the **EnableVbaCallers** property, Visual Studio also adds a property named `CallVSTOAssembly` to the `ThisDocument`, `ThisWorkbook`, `Sheet1`, `Sheet2`, or `Sheet3` module in the VBA project.
+- For Visual Basic projects in which you expose members of a host item class by using the **EnableVbaCallers** property, Visual Studio also adds a property named `CallVSTOAssembly` to the `ThisDocument`, `ThisWorkbook`, `Sheet1`, `Sheet2`, or `Sheet3` module in the VBA project.
 
   You can use the `CallVSTOAssembly` property or `GetManagedClass` method to access public members of the class that you exposed to VBA code in the project.
 
@@ -228,7 +229,7 @@ GetManagedClass(pdispInteropObject Object) As Object
 
    - The type library for your customization assembly.
 
-   - The Microsoft Visual Studio Tools for Office Execution Engine 9.0 Type Library. This type library is included in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
+   - The Microsoft Visual Studio Tools for Office Execution Engine 9.0 Type Library. This type library is included in the  Visual Studio Tools for Office runtime .
 
    When the **ReferenceAssemblyFromVbaProject** property is set back to **False**, Visual Studio performs the following tasks:
 
@@ -246,7 +247,7 @@ GetManagedClass(pdispInteropObject Object) As Object
 |After you set the **EnableVbaCallers** or **ReferenceAssemblyFromVbaProject** property, an error message states that the version number specified by the <xref:System.Reflection.AssemblyVersionAttribute> is not valid.|Ensure that the <xref:System.Reflection.AssemblyVersionAttribute> declaration in the *AssemblyInfo.cs* or *AssemblyInfo.vb* file in your project is set to a valid assembly version number. For information about valid assembly version numbers, see the <xref:System.Reflection.AssemblyVersionAttribute> class.|
 |After you rename the customization assembly, VBA code that calls into the customization assembly stops working.|If you change the name of the customization assembly after you expose it to VBA code, the link between the VBA project in the document and your customization assembly is broken. To fix this issue, change the **ReferenceFromVbaAssembly** property in your project to **False** and then back to **True**, and then replace any references to the old assembly name in the VBA code with the new assembly name.|
 
-## See also
+## Related content
 - [How to: Expose code to VBA in a Visual Basic project](../vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md)
 - [How to: Expose code to VBA in a Visual C&#35; project](../vsto/how-to-expose-code-to-vba-in-a-visual-csharp-project.md)
 - [Walkthrough: Call code from VBA in a Visual Basic project](../vsto/walkthrough-calling-code-from-vba-in-a-visual-basic-project.md)

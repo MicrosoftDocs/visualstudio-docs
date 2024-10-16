@@ -1,25 +1,24 @@
 ---
-title: Create relationships between datasets
-description: Create relationships between datasets in Visual Studio. Understand DataRelation objects and constraints. Manually create a data relation in Dataset Manager.
-ms.custom: SEO-VS-2020
+title: Create relationships in datasets (.NET Framework)
+description: Create relationships between ADO.NET datasets with .NET Framework application development in Visual Studio and work with DataRelation objects and Dataset Manager.
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
 - vbData.Microsoft.VSDesigner.DataSource.DesignRelation
-- vbdata.Microsoft.VSDesigner.DataSource.DesignRelation
 helpviewer_keywords:
 - relationships, about relationships
 - datasets [Visual Basic], relationships
 - relationships, datasets
-ms.assetid: cfe274f0-71fe-40f6-994e-7c7f6273c9ba
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
-# Create relationships between datasets
+
+# Create relationships between datasets in .NET Framework applications
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
+
 Datasets that contain related data tables use <xref:System.Data.DataRelation> objects to represent a parent/child relationship between the tables and to return related records from one another. Adding related tables to datasets by using the **Data Source Configuration Wizard**, or the **Dataset Designer**, creates and configures the <xref:System.Data.DataRelation> object for you.
 
 The <xref:System.Data.DataRelation> object performs two functions:
@@ -31,6 +30,7 @@ The <xref:System.Data.DataRelation> object performs two functions:
 It is important to understand the difference between a true join and the function of a <xref:System.Data.DataRelation> object. In a true join, records are taken from parent and child tables and put into a single, flat recordset. When you use a <xref:System.Data.DataRelation> object, no new recordset is created. Instead, the DataRelation tracks the relationship between tables and keeps parent and child records in sync.
 
 ## DataRelation objects and constraints
+
 A <xref:System.Data.DataRelation> object is also used to create and enforce the following constraints:
 
 - A unique constraint, which guarantees that a column in the table contains no duplicates.
@@ -42,6 +42,7 @@ Constraints that you specify in a <xref:System.Data.DataRelation> object are imp
 A unique constraint is implemented either by simply setting the <xref:System.Data.DataColumn.Unique%2A> property of a data column to `true` or by adding an instance of the <xref:System.Data.UniqueConstraint> class to the <xref:System.Data.DataRelation> object's <xref:System.Data.DataRelation.ParentKeyConstraint%2A> property. For information on suspending constraints in a dataset, see [Turn off constraints while filling a dataset](../data-tools/turn-off-constraints-while-filling-a-dataset.md).
 
 ### Referential integrity rules
+
 As part of the foreign-key constraint, you can specify referential integrity rules that are applied at three points:
 
 - When a parent record is updated
@@ -62,10 +63,12 @@ The rules that you can make are specified in the <xref:System.Data.Rule> enumera
 For more information about updates in dataset tables, see [Save data back to the database](../data-tools/save-data-back-to-the-database.md).
 
 ### Constraint-only relations
+
 When you create a <xref:System.Data.DataRelation> object, you have the option of specifying that the relation be used only to enforce constraints—that is, it will not also be used to access related records. You can use this option to generate a dataset that is slightly more efficient and that contains fewer methods than one with the related-records capability. However, you will not be able to access related records. For example, a constraint-only relation prevents you from deleting a parent record that still has child records, and you cannot access the child records through the parent.
 
 ## Manually creating a data relation in the Dataset Designer
-When you create data tables by using the data design tools in Visual Studio, relationships are created automatically if the information can be gathered from the source of your data. If you manually add data tables from the **DataSet** tab of the **Toolbox**, you may have to create the relationship manually. For information on creating <xref:System.Data.DataRelation> objects programmatically, see [Adding DataRelations](/dotnet/framework/data/adonet/dataset-datatable-dataview/adding-datarelations).
+
+When you create data tables by using the data design tools in Visual Studio, relationships are created automatically if the information can be gathered from the source of your data. If you manually add data tables from the **DataSet** tab of the **Toolbox**, you might have to create the relationship manually. For information on creating <xref:System.Data.DataRelation> objects programmatically, see [Adding DataRelations](/dotnet/framework/data/adonet/dataset-datatable-dataview/adding-datarelations).
 
 Relationships between data tables appear as lines in the **Dataset Designer**, with a key and infinity glyph depicting the one-to-many aspect of the relationship. By default, the name of the relationship does not appear on the design surface.
 
@@ -101,6 +104,6 @@ Relationships between data tables appear as lines in the **Dataset Designer**, w
 
 2. From the **Data** menu, select the **Show Relation Labels** command to display the relation name. Clear that command to hide the relation name.
 
-## See also
+## Related content
 
 - [Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md)

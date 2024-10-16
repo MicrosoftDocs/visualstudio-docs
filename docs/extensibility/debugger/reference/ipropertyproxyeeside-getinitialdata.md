@@ -1,39 +1,39 @@
 ---
 description: "Returns the initial data for this object."
-title: IPropertyProxyEESide::GetInitialData | Microsoft Docs
+title: IPropertyProxyEESide::GetInitialData
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IPropertyProxyEESide::GetInitialData
 helpviewer_keywords:
 - IPropertyProxyEESide::GetInitialData
-ms.assetid: 36cceb19-2604-4ef9-b42b-5dd30cbe24b1
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IPropertyProxyEESide::GetInitialData
+
 Returns the initial data for this object.
 
 ## Syntax
 
-```cpp
-HRESULT GetInitialData(
-   IEEDataStorage** dataOut
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetInitialData(
    out IEEDataStorage dataOut
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetInitialData(
+   IEEDataStorage** dataOut
+);
+```
+---
 
 ## Parameters
 `dataOut`\

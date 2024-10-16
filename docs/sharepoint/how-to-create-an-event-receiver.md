@@ -1,7 +1,6 @@
 ---
-title: "How to: Create an Event Receiver | Microsoft Docs"
+title: "Create an Event Receiver"
 description: Create an event receiver so that you can respond when a user interacts with SharePoint items such as lists or list items.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:
@@ -16,15 +15,14 @@ helpviewer_keywords:
   - "event receivers [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
-# How to: Create an event receiver
+# Create an event receiver
+
   By creating *event receivers*, you can respond when a user interacts with SharePoint items such as lists or list items. For example, the code in an event receiver can be triggered when a user changes the calendar or deletes a name from a contacts list. By following this topic, you can learn how to add an event receiver to a list instance.
 
- To complete these steps, you must have installed [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and supported editions of Windows and SharePoint. Because this example requires a SharePoint project, you also must have completed the procedure in the topic [Walkthrough: Create a site column, content type, and list for SharePoint](../sharepoint/walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md).
+ To complete these steps, you must have installed Visual Studio and supported editions of Windows and SharePoint. Because this example requires a SharePoint project, you also must have completed the procedure in the topic [Walkthrough: Create a site column, content type, and list for SharePoint](../sharepoint/walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md).
 
 ## Adding an event receiver
  The project that you created in [Walkthrough: Create a site column, content type, and list for SharePoint](../sharepoint/walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md) includes custom site columns, a custom list, and a content type. In the following procedure, you'll expand this project by adding a simple event handler (an event receiver) to a list instance to show how to handle events that occur in SharePoint items such as lists.
@@ -53,8 +51,12 @@ ms.workload:
 
 9. Replace the existing `ItemAdded` method with the following code, and then choose the **F5** key:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/CustomField1/TestEventReceiver1/TestEventReceiver1.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/CustomField1_VB/EventReceiver1/EventReceiver1.vb" id="Snippet1":::
+     ---
 
      The code runs, and the SharePoint site appears in the web browser.
 
@@ -66,6 +68,6 @@ ms.workload:
 
      After you choose the **Save** button, the **Patient Name** column automatically updates to the name Scott Brown.
 
-## See also
+## Related content
 
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

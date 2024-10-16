@@ -1,13 +1,11 @@
 ---
 title: Use the Microsoft Unit Testing Framework for C++
-description: Use the Microsoft Unit Testing Framework for C++ to create unit tests for your C++ code.
+description: Use the Microsoft Unit Testing Framework for C++ to write and run unit tests for your C++ code, and add nonexported functions as test dependencies. 
 ms.date: 02/16/2021
 ms.topic: how-to
-ms.author: corob
+ms.author: twhitney
 manager: markl
-ms.workload: 
-  - cplusplus
-author: corob-msft
+author: tylermsft
 ---
 # Use the Microsoft Unit Testing Framework for C++ in Visual Studio
 
@@ -112,6 +110,6 @@ The following pre-defined traits are found in *`CppUnitTest.h`*. For more inform
 |`TEST_OWNER(ownerAlias)`|Use the predefined Owner trait to specify an owner of the test method.|
 |`TEST_PRIORITY(priority)`|Use the predefined Priority trait to assign relative priorities to your test methods.|
 
-## See also
+## Related content
 
 - [Quickstart: Test driven development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)

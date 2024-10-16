@@ -2,7 +2,6 @@
 description: "The document element of the vstov4 namespace stores customization-specific information for document-level customizations."
 title: "&lt;document&gt; element (Office development in Visual Studio)"
 titleSuffix: ""
-ms.custom: "seodec18"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "<document> element"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # &lt;document&gt; element (Office development in Visual Studio)
+
   The `document` element of the `vstov4` namespace stores customization-specific information for document-level customizations.
 
 ## Syntax
@@ -40,7 +38,7 @@ ms.workload:
 ## Document-level customization example
 
 ### Description
- The following code example illustrates the `document` element in a document-level Office solution deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
+ The following code example illustrates the `document` element in a document-level Office solution deployed by using ClickOnce. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
 
 ### Code
 
@@ -49,7 +47,7 @@ ms.workload:
   solutionId="73e" />
 ```
 
-## See also
+## Related content
 
 - [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)
 - [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)

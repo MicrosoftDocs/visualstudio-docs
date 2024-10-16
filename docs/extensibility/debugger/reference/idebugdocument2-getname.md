@@ -1,41 +1,41 @@
 ---
 description: "Gets the name of the document in one of several forms."
-title: IDebugDocument2::GetName | Microsoft Docs
+title: IDebugDocument2::GetName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocument2::GetName
 helpviewer_keywords:
 - IDebugDocument2::GetName
-ms.assetid: 6f09ff09-b0cf-4472-8fc8-143991f0ceb1
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugDocument2::GetName
+
 Gets the name of the document in one of several forms.
 
 ## Syntax
 
-```cpp
-HRESULT GetName( 
-   GETNAME_TYPE gnType,
-   BSTR*        pbstrFileName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetName( 
    enum_GETNAME_TYPE gnType,
    out string        pbstrFileName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetName( 
+   GETNAME_TYPE gnType,
+   BSTR*        pbstrFileName
+);
+```
+---
 
 ## Parameters
 `gnType`\

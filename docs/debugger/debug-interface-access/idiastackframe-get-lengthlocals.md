@@ -1,27 +1,26 @@
 ---
 description: "IDiaStackFrame::get_lengthLocals retrieves the number of bytes of local variables pushed on the stack."
-title: "IDiaStackFrame::get_lengthLocals | Microsoft Docs"
+title: "IDiaStackFrame::get_lengthLocals"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackFrame::get_lengthLocals method"
-ms.assetid: dbc3e544-578a-4f0b-8d20-f21ad4cbb604
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackFrame::get_lengthLocals
+
 Retrieves the number of bytes of local variables pushed on the stack.
 
 ## Syntax
 
 ```C++
-HRESULT get_lengthLocals ( 
+HRESULT get_lengthLocals ( 
    DWORD* pRetVal
 );
 ```

@@ -1,28 +1,41 @@
 ---
 description: "Specifies the kinds of addresses."
-title: ADDRESS_KIND | Microsoft Docs
+title: ADDRESS_KIND
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - ADDRESS_KIND
 helpviewer_keywords:
 - ADDRESS_KIND enumeration
-ms.assetid: 3a12fbec-7088-4cf9-8f6f-ad8ddec6009a
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # ADDRESS_KIND
+
 Specifies the kinds of addresses.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_ADDRESS_KIND {
+    ADDRESS_KIND_NATIVE                  = 0x0001,
+    ADDRESS_KIND_UNMANAGED_THIS_RELATIVE = 0x0002,
+    ADDRESS_KIND_UNMANAGED_PHYSICAL      = 0x0005,
+    ADDRESS_KIND_METADATA_METHOD         = 0x0010,
+    ADDRESS_KIND_METADATA_FIELD          = 0x0011,
+    ADDRESS_KIND_METADATA_LOCAL          = 0x0012,
+    ADDRESS_KIND_METADATA_PARAM          = 0x0013,
+    ADDRESS_KIND_METADATA_ARRAYELEM      = 0x0014,
+    ADDRESS_KIND_METADATA_RETVAL         = 0x0015,
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_ADDRESS_KIND {
     ADDRESS_KIND_NATIVE                  = 0x0001,
@@ -37,20 +50,7 @@ enum enum_ADDRESS_KIND {
 };
 typedef DWORD ADDRESS_KIND;
 ```
-
-```csharp
-public enum enum_ADDRESS_KIND {
-    ADDRESS_KIND_NATIVE                  = 0x0001,
-    ADDRESS_KIND_UNMANAGED_THIS_RELATIVE = 0x0002,
-    ADDRESS_KIND_UNMANAGED_PHYSICAL      = 0x0005,
-    ADDRESS_KIND_METADATA_METHOD         = 0x0010,
-    ADDRESS_KIND_METADATA_FIELD          = 0x0011,
-    ADDRESS_KIND_METADATA_LOCAL          = 0x0012,
-    ADDRESS_KIND_METADATA_PARAM          = 0x0013,
-    ADDRESS_KIND_METADATA_ARRAYELEM      = 0x0014,
-    ADDRESS_KIND_METADATA_RETVAL         = 0x0015,
-};
-```
+---
 
 ## Fields
 `ADDRESS_KIND_NATIVE`\

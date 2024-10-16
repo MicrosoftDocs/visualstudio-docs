@@ -1,7 +1,6 @@
 ---
-title: "Write a visualizer in Visual Basic | Microsoft Docs"
+title: "Write a visualizer in Visual Basic"
 description: Follow a walkthrough to create a simple visualizer in Visual Basic. You also create a test harness to test your visualizer.
-ms.custom: "SEO-VS-2020"
 ms.date: "05/27/2020"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,20 +11,20 @@ dev_langs:
 helpviewer_keywords:
   - "visualizers, writing"
   - "walkthroughs [Visual Studio], visualizers"
-ms.assetid: c93bf5a1-3e5e-422f-894e-bd72c9bc1b57
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Walkthrough: Writing a Visualizer in Visual Basic
 
-This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]. The visualizer you will create in this walkthrough displays the contents of a string using a Windows Forms message box. This simple string visualizer is a basic example to show how you can create visualizers for other data types more applicable to your projects.
+> [!IMPORTANT]
+> Starting with Visual Studio 2022 version 17.9, visualizers can now be written in .NET 6.0+ that run out-of-process using the new VisualStudio.Extensibility model. We encourage visualizer authors to reference the new documentation at [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md) unless they want to support older versions of Visual Studio or want to ship their custom visualizers as part of a library DLL.
+
+This walkthrough shows how to write a simple visualizer by using Visual Basic. The visualizer you will create in this walkthrough displays the contents of a string using a Windows Forms message box. This simple string visualizer is a basic example to show how you can create visualizers for other data types more applicable to your projects.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, go to the **Tools** menu and choose **Import and Export** . For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, go to the **Tools** menu and choose **Import and Export** . For more information, see [Reset settings](../ide/personalizing-the-visual-studio-ide.md#reset-all-settings).
 
 Visualizer code must be placed in a DLL that will be read by the debugger. The first step is to create a class library project for the DLL.
 
@@ -35,12 +34,7 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
 
 1. Create a new class library project.
 
-    ::: moniker range=">=vs-2019"
     Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **visual basic**, choose **Templates**, then choose **Create a new Class Library (.NET Framework)**. In the dialog box that appears, choose **Create**.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual Basic**, choose **.NET Standard**, and then in the middle pane choose **Class Library (.NET Standard)**.
-    ::: moniker-end
 
 2. Type an appropriate name for the class library, such as `MyFirstVisualizer`, and then click **Create** or **OK**.
 
@@ -53,7 +47,7 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
 2. Change the name from Class1.vb to something meaningful, such as DebuggerSide.vb.
 
    > [!NOTE]
-   > [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically changes the class declaration in DebuggerSide.vb to match the new file name.
+   > Visual Studio automatically changes the class declaration in DebuggerSide.vb to match the new file name.
 
 3. In **Solution Explorer**, right-click **My First Visualizer**, and on the shortcut menu, click **Add Reference**.
 
@@ -86,6 +80,9 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
    Public Class DebuggerSide
    Inherits DialogDebuggerVisualizer
    ```
+
+   > [!NOTE]
+   > DialogDebuggerVisualizer expects a `FormatterPolicy` argument in its constructor. However, due to the security issues described in [Special debugger side considerations for .NET 5.0+](./create-custom-visualizers-of-data.md#special-debugger-side-considerations-for-net-50), starting with Visual Studio 2022 version 17.11, visualizers won't be able to specify the `Legacy` formatter policy.
 
    `DialogDebuggerVisualizer` has one abstract method, `Show`, that you must override.
 
@@ -148,7 +145,7 @@ In the debugger-side code, you specify the type to visualize (the object source)
 2. On the **Build** menu, click **Build MyFirstVisualizer**. The project should build successfully. Correct any build errors before continuing.
 
 ## Create a Test Harness
- At this point, your first visualizer is finished. If you have followed the steps correctly, you can build the visualizer and install it into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Before you install a visualizer into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], however, you should test it to make sure that it runs correctly. You will now create a test harness to run the visualizer without installing it into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+ At this point, your first visualizer is finished. If you have followed the steps correctly, you can build the visualizer and install it into Visual Studio. Before you install a visualizer into Visual Studio, however, you should test it to make sure that it runs correctly. You will now create a test harness to run the visualizer without installing it into Visual Studio.
 
 ### To add a test method to show the visualizer
 
@@ -169,12 +166,7 @@ In the debugger-side code, you specify the type to visualize (the object source)
 
 1. In Solution Explorer, right-click the solution, choose **Add**, and then click **New Project**.
 
-    ::: moniker range=">=vs-2019"
     In the Search box, type **visual basic**, choose **Templates**, then choose **Create a new Console App (.NET Framework)**. In the dialog box that appears, choose **Create**.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
-    ::: moniker-end
 
 2. Type an appropriate name for the class library, such as `MyTestConsole`, and then click **Create** or **OK**.
 
@@ -203,7 +195,7 @@ In the debugger-side code, you specify the type to visualize (the object source)
 
 2. Edit the name from Module1.vb to something appropriate, such as **TestConsole.vb**.
 
-    Notice that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically changes the class declaration in TestConsole.vb to match the new file name.
+    Notice that Visual Studio automatically changes the class declaration in TestConsole.vb to match the new file name.
 
 3. In TestConsole. vb, add the following `Imports` statement:
 
@@ -230,9 +222,9 @@ In the debugger-side code, you specify the type to visualize (the object source)
 
    Congratulations. You have just built and tested your first visualizer.
 
-   If you want to use your visualizer in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] rather than just calling it from the test harness, you have to install it. For more information, see [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).
+   If you want to use your visualizer in Visual Studio rather than just calling it from the test harness, you have to install it. For more information, see [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).
 
-## See also
+## Related content
 
 - [Visualizer Architecture](../debugger/visualizer-architecture.md)
 - [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md)

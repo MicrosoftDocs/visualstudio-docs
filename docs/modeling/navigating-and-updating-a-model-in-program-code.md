@@ -1,17 +1,14 @@
 ---
 title: Navigating and Updating a Model in Program Code
 description: Learn how you can write code to create and delete model elements, set their properties, and create and delete links between elements.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, programming domain models
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Navigate and Update a Model in Program Code
 
@@ -479,7 +476,7 @@ partial class MyDiagram
 ## Store Partitions
  When a model is loaded, the accompanying diagram is loaded at the same time. Typically, the model is loaded into Store.DefaultPartition, and the diagram content is loaded into another Partition. Usually, the content of each partition is loaded and saved to a separate file.
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.Modeling.ModelElement>
 - [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md)

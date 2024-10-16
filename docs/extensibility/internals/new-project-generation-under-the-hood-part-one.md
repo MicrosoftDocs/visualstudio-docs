@@ -1,20 +1,18 @@
 ---
-title: 'New Project Generation: Under the Hood, Part One | Microsoft Docs'
+title: 'New Project Generation: Under the Hood, Part One'
 description: Take a detailed look at what happens in the Visual Studio integrated development environment (IDE) as you create your own project type (Part 1 of 2).
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - projects [Visual Studio], new project dialog
 - projects [Visual Studio], new project generation
-ms.assetid: 66778698-0258-467d-8b8b-c351744510eb
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # New Project Generation: Under the Hood, Part One
+
 Ever thought about how to create your own project type? Wonder what actually happens when you create a new project? Let's take a peek under the hood and see what's really going on.
 
  There are several tasks that Visual Studio coordinates for you:
@@ -59,7 +57,7 @@ devenv /installvstemplates
  The position and names of the **Project types** root nodes, such as **Visual C#** and **Other Languages**, is determined by system registry entries. The organization of the child nodes, such as **Database** and **Smart Device**, mirrors the hierarchy of the folders that contain the corresponding .vstemplate files. Let's look at the root nodes first.
 
 #### Project Type Root Nodes
- When [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is initialized, it traverses the subkeys of the system registry key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0\NewProjectTemplates\TemplateDirs to build and name the root nodes of the **Project types** tree. This information is cached for later use. Look at the TemplateDirs\\{FAE04EC1-301F-11D3-BF4B-00C04F79EFBC}\\/1 key. Each entry is a VSPackage GUID. The name of the subkey (/1) is ignored, but its presence indicates that this is a **Project types** root node. A root node may in turn have several subkeys that control its appearance in the **Project types** tree. Let's look at some of them.
+ When Visual Studio is initialized, it traverses the subkeys of the system registry key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0\NewProjectTemplates\TemplateDirs to build and name the root nodes of the **Project types** tree. This information is cached for later use. Look at the TemplateDirs\\{FAE04EC1-301F-11D3-BF4B-00C04F79EFBC}\\/1 key. Each entry is a VSPackage GUID. The name of the subkey (/1) is ignored, but its presence indicates that this is a **Project types** root node. A root node may in turn have several subkeys that control its appearance in the **Project types** tree. Let's look at some of them.
 
 ##### (Default)
  This is the resource ID of the localized string that names the root node. The string resource is located in the satellite DLL selected by the VSPackage GUID.
@@ -88,7 +86,7 @@ devenv /installvstemplates
 
  DeveloperActivity REG_SZ VC#
 
- indicates that Visual C# will be a root node if Visual Studio is set for [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] development. Otherwise, it will be a child node of **Other Languages**.
+ indicates that Visual C# will be a root node if Visual Studio is set for Visual C++ development. Otherwise, it will be a child node of **Other Languages**.
 
 ##### Folder
  If this subkey is present, then the root node becomes a child node of the specified folder. A list of possible folders appears under the key
@@ -108,7 +106,7 @@ devenv /installvstemplates
 
  ![Screenshot of the Project Templates folder tree in Visual Studio with C# developer settings.](../../extensibility/internals/media/projecttemplates.png)
 
- When the **New Project** dialog box opens, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] traverses the ProjectTemplates folder and recreates its structure in the **Project types** tree with some changes:
+ When the **New Project** dialog box opens, Visual Studio traverses the ProjectTemplates folder and recreates its structure in the **Project types** tree with some changes:
 
 - The root node in the **Project types** tree is determined by the application template.
 
@@ -208,5 +206,5 @@ devenv /installvstemplates
 
     **MyProjectNode** appears as a child node of Visual C# just under the Windows node.
 
-## See also
+## Related content
 - [New Project Generation: Under the Hood, Part Two](../../extensibility/internals/new-project-generation-under-the-hood-part-two.md)

@@ -1,41 +1,41 @@
 ---
 description: "Writes a dump to a file."
-title: IDebugProgram2::WriteDump | Microsoft Docs
+title: IDebugProgram2::WriteDump
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgram2::WriteDump
 helpviewer_keywords:
 - IDebugProgram2::WriteDump
-ms.assetid: 375afb8c-882d-44db-bfa7-e2c9eb555122
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgram2::WriteDump
+
 Writes a dump to a file.
 
 ## Syntax
 
-```cpp
-HRESULT WriteDump( 
-   DUMPTYPE  DumpType,
-   LPCOLESTR pszDumpUrl
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int WriteDump( 
    enum_DUMPTYPE  DumpType,
    string         pszDumpUrl
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT WriteDump( 
+   DUMPTYPE  DumpType,
+   LPCOLESTR pszDumpUrl
+);
+```
+---
 
 ## Parameters
 `DumpType`\

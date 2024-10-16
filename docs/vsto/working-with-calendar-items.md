@@ -1,7 +1,6 @@
 ---
 title: "Work with calendar items"
 description: Learn that the AppointmentItem class contains the methods and properties you use to perform tasks with calendar items.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -17,12 +16,11 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], calendars"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Work with calendar items
+
   The <xref:Microsoft.Office.Interop.Outlook.AppointmentItem> class contains the methods and properties you use to perform tasks with calendar items.
 
 |Task|Procedure|
@@ -34,8 +32,8 @@ ms.workload:
 
  For more information about Outlook tasks and the Outlook object model, see [Outlook object model overview](../vsto/outlook-object-model-overview.md).
 
-## See also
-- [Work with contact items](../vsto/working-with-contact-items.md)
+## Related content
+- [Work with contact items](/previous-versions/visualstudio/visual-studio-2017/vsto/working-with-contact-items)
 - [Work with folders](../vsto/working-with-folders.md)
 - [Work with mail items](../vsto/working-with-mail-items.md)
 - [Outlook solutions](../vsto/outlook-solutions.md)

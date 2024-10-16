@@ -1,7 +1,6 @@
 ---
-title: "How to: Programmatically delete worksheets from workbooks"
-description: Learn how you can programmatically delete any worksheet in a Microsoft Excel workbook by using the worksheet host item, for example.
-ms.custom: SEO-VS-2020
+title: Programmatically delete worksheets in workbooks in Visual Studio
+description: Delete any worksheet in a Microsoft Excel workbook, such as by using the worksheet host item, programmatically from Visual Basic or C# in Visual Studio.
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,12 +12,11 @@ helpviewer_keywords:
   - "worksheets, deleting"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Programmatically delete worksheets from workbooks
+# Programmatically delete worksheets from workbooks
+
   You can delete any worksheet in a workbook. To delete a worksheet, use the worksheet host item or access the worksheet by using the sheets collection of the workbook.
 
  [!INCLUDE[appliesto_xlalldocapp](includes/appliesto-xlalldocapp-md.md)]
@@ -40,8 +38,12 @@ ms.workload:
 
 1. Call the <xref:Microsoft.Office.Tools.Excel.Worksheet.Delete%2A> method of `Sheet1`.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet17":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet17":::
+     ---
 
 ## Use the Sheets collection of the Excel workbook
  Access worksheets through the Microsoft Office Excel <xref:Microsoft.Office.Interop.Excel.Sheets> collection in the following cases:
@@ -59,10 +61,14 @@ ms.workload:
 
 1. Call the <xref:Microsoft.Office.Interop.Excel._Worksheet.Delete%2A> method of the <xref:Microsoft.Office.Interop.Excel.Sheets> collection.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet18":::
-     :::code language="vb" source="codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet18":::
 
-## See also
+     ### [VB](#tab/vb)
+     :::code language="vb" source="codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet18":::
+     ---
+
+## Related content
 - [Work with worksheets](working-with-worksheets.md)
 - [How to: Programmatically hide worksheets](how-to-programmatically-hide-worksheets.md)
 - [How to: Programmatically move worksheets within workbooks](how-to-programmatically-move-worksheets-within-workbooks.md)

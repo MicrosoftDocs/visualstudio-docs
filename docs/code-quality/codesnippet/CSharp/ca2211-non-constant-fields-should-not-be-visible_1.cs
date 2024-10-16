@@ -6,7 +6,7 @@ namespace UsageLibrary
    {
       // Violates rule: AvoidNonConstantStatic;
       // the field is public and not a literal.
-      static public DateTime publicField = DateTime.Now;
+      public static DateTime publicField = DateTime.Now;
 
       // Satisfies rule: AvoidNonConstantStatic.
       public static readonly DateTime literalField = DateTime.Now;

@@ -1,7 +1,6 @@
 ---
-title: "Get started programming document-level customizations for Word"
-description: Learn what you need to know to get started creating document-level customizations for Microsoft Office Word by using Visual Studio.
-ms.custom: SEO-VS-2020
+title: Start programming Word doc-level customizations (Visual Studio)
+description: Get started creating customizations for Microsoft Office Word with features to specific documents by using Visual Studio.
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -13,12 +12,11 @@ helpviewer_keywords:
   - "Word projects [Office development in Visual Studio], getting started"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Get started programming document-level customizations for Word
+
   If you are just getting started creating document-level customizations for Microsoft Office Word by using Visual Studio, here is what you need to know.
 
  [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]

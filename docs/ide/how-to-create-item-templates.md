@@ -1,17 +1,16 @@
 ---
-title: Create item templates
-description: Learn how to use the Export Template Wizard to create an item template in Visual Studio.
-ms.custom: SEO-VS-2020
-ms.date: 01/02/2018
+title: Create item templates with Export Template Wizard
+description: Use the Export Template Wizard to create an item template in Visual Studio, and enable the template to be used in a Universal Windows App project.
+ms.date: 05/20/2024
 ms.topic: how-to
 helpviewer_keywords:
 - item templates [Visual Studio], creating
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: general-ide
 ---
-# How to: Create item templates
+# Create item templates
 
 This article shows you how to create an item template by using the **Export Template Wizard**. If your template will consist of multiple files, see [How to: Create multi-file item templates](../ide/how-to-create-multi-file-item-templates.md).
 
@@ -31,7 +30,9 @@ This article shows you how to create an item template by using the **Export Temp
 
 1. On the **Select Item References** page, select the assembly references to include in the template, and then choose **Next**.
 
-1. On the **Select Template Options** page, enter the template name and optional description, icon image and preview image, and then choose **Finish**.
+1. On the **Select Template Options** page, enter the template name and optional description, icon image and preview image, and then choose **Finish**. Icon files for items are `.ico` files, as described in [Images and icons for Visual Studio - file types](../extensibility/ux-guidelines/images-and-icons-for-visual-studio.md#file-types). The preview image is a 200 x 200 image that will appear in the **Add New Item** dialog box.
+
+    You can look in the [Visual Studio image library](../designers/the-visual-studio-image-library.md) for icons consistent with the Visual Studio style.
 
     The files for the template are added to a *.zip* file and copied to the directory you specified in the wizard. The default location is *%USERPROFILE%\Documents\Visual Studio \<version\>\My Exported Templates*.
 
@@ -118,19 +119,9 @@ In some cases you may want to create an item template manually, from scratch.
 
 7. In **Windows Explorer**, select the files you want to include in your template. Right-click the selection, and choose **Send to** > **Compressed (zipped) folder**. The files that you selected are compressed into a *.zip* file.
 
-::: moniker range="vs-2017"
+8. Copy the *.zip* file and paste it in the user item template location. The default directory is *%USERPROFILE%\Documents\Visual Studio 2022\Templates\ItemTemplates*. For more information, see [How to: Locate and organize project and item templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
 
-8. Copy the *.zip* file and paste it in the user item template location. The default directory is *%USERPROFILE%\Documents\Visual Studio 2017\Templates\ItemTemplates*. For more information, see [How to: Locate and organize project and item templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-8. Copy the *.zip* file and paste it in the user item template location. The default directory is *%USERPROFILE%\Documents\Visual Studio 2019\Templates\ItemTemplates*. For more information, see [How to: Locate and organize project and item templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
-
-::: moniker-end
-
-## See also
+## Related content
 
 - [Create project and item templates](../ide/creating-project-and-item-templates.md)
 - [How to: Create multi-file item templates](../ide/how-to-create-multi-file-item-templates.md)

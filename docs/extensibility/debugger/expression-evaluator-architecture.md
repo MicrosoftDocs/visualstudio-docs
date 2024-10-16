@@ -1,28 +1,23 @@
 ---
-title: Expression Evaluator Architecture | Microsoft Docs
+title: Expression Evaluator Architecture
 description: Learn about integrating a proprietary language into the Visual Studio debug package, including expression evaluator and symbol provider/binder interfaces.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - architecture, expression evaluators
 - expression evaluators, architecture
 - debugging [Debugging SDK], expression evaluators
-ms.assetid: aad7c4c6-1dc1-4d32-b975-f1fdf76bdeda
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Expression evaluator architecture
+
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
  Integrating a proprietary language into the Visual Studio debug package means you must set up the required expression evaluator (EE) interfaces and call the common language run-time symbol provider (SP) and binder interfaces. The SP and binder objects, together with the current execution address, are the context in which expressions are evaluated. The information that these interfaces produce and consume represents the key concepts in the architecture of an EE.
-
-## Overview
 
 ### Parse the Expression
  When you are debugging a program, expressions are evaluated for a number of reasons but always when the program being debugged has been stopped at a breakpoint (either a breakpoint placed by the user or one caused by an exception). It is at this moment when Visual Studio obtains a stack frame, as represented by the [IDebugStackFrame2](../../extensibility/debugger/reference/idebugstackframe2.md) interface, from the debug engine (DE). Visual Studio then calls [GetExpressionContext](../../extensibility/debugger/reference/idebugstackframe2-getexpressioncontext.md) to get the [IDebugExpressionContext2](../../extensibility/debugger/reference/idebugexpressioncontext2.md) interface. This interface represents a context in which expressions can be evaluated; [ParseText](../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md) is the entry point to the evaluation process. Up until this point, all interfaces are implemented by the DE.
@@ -44,13 +39,12 @@ ms.workload:
  See [Displaying locals](../../extensibility/debugger/displaying-locals.md) for more details on this process of displaying the values of variables. See [Changing the value of a local](../../extensibility/debugger/changing-the-value-of-a-local.md) for more details on how a variable's value is changed.
 
 ## In this section
- [Evaluation context](../../extensibility/debugger/evaluation-context.md)
- Provides the arguments that are passed when the DE calls the EE.
 
- [Key expression evaluator interfaces](../../extensibility/debugger/key-expression-evaluator-interfaces.md)
- Describes the crucial interfaces needed when writing an EE, along with the evaluation context.
+[Evaluation context](../../extensibility/debugger/evaluation-context.md) provides the arguments that are passed when the DE calls the EE.
 
-## See also
+ [Key expression evaluator interfaces](../../extensibility/debugger/key-expression-evaluator-interfaces.md) describes the crucial interfaces needed when writing an EE, along with the evaluation context.
+
+## Related content
 - [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
 - [Displaying locals](../../extensibility/debugger/displaying-locals.md)
 - [Changing the value of a local](../../extensibility/debugger/changing-the-value-of-a-local.md)

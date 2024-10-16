@@ -1,20 +1,17 @@
 ---
-title: Binding Breakpoints | Microsoft Docs
+title: Binding Breakpoints
 description: Learn how the IDE formulates the request for a breakpoint and prompts the debug session to create the breakpoint when a user sets a breakpoint.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - breakpoints, binding
-ms.assetid: 70737387-c52f-4dae-8865-77d4b203bf25
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Bind breakpoints
+
 If the user sets a breakpoint, perhaps by pressing **F9**, the IDE formulates the request and prompts the debug session to create the breakpoint.
 
 ## Set a breakpoint
@@ -50,5 +47,5 @@ If the user sets a breakpoint, perhaps by pressing **F9**, the IDE formulates th
 
  If a DE handles a breakpoint, cannot bind it, but some other DE might bind it, it returns a warning. The IDE responds by placing a question glyph inside the breakpoint glyph to the left of the source code line.
 
-## See also
+## Related content
 - [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)

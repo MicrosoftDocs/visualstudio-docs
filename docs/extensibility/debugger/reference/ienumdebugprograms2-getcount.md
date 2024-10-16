@@ -1,39 +1,39 @@
 ---
 description: "Returns the number of elements in the programs enumeration."
-title: IEnumDebugPrograms2::GetCount | Microsoft Docs
+title: IEnumDebugPrograms2::GetCount
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugPrograms2::GetCount
 helpviewer_keywords:
 - IEnumDebugPrograms2::GetCount
-ms.assetid: 84832982-fa68-4090-a5b7-b233817876b7
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugPrograms2::GetCount
+
 Returns the number of elements in the enumeration.
 
 ## Syntax
 
-```cpp
-HRESULT GetCount(
-   ULONG* pcelt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCount(
    out uint pcelt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCount(
+   ULONG* pcelt
+);
+```
+---
 
 ## Parameters
 `pcelt`\

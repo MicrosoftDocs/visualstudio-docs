@@ -1,18 +1,14 @@
 ---
-title: "Debug C++"
-description: "Debug native code using the Visual Studio debugger"
-ms.custom: "mvc"
+title: Debug C++ code, set breakpoints, inspect variables
+description: Debug native C++ code by using the Visual Studio debugger, create a project, set breakpoints, inspect variables, and edit code while debugging.
 ms.date: 08/06/2018
 ms.topic: quickstart
 helpviewer_keywords:
   - "debugger"
-ms.assetid: 639e430b-6d2d-46bd-b738-8c60dfb384f1
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "cplusplus"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Quickstart: Debug with C++ using the Visual Studio debugger
 
@@ -22,12 +18,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 1. Open Visual Studio and create a project.
 
-    ::: moniker range=">=vs-2019"
     Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **c++**, choose **Templates**, then choose **Create new Console App project**. In the dialog box that appears, choose **Create**.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C++**, choose **Windows Desktop**, and then in the middle pane choose **Windows Console Application**. Then, type a name like **MyDbgApp** and click **OK**.
-    ::: moniker-end
 
     If you don't see the **Windows Console Application** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
 
@@ -35,7 +26,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 1. In MyDbgApp.cpp, replace the following code
 
-    ```c++
+    ```cpp
     int main()
     {
         return 0;
@@ -44,7 +35,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
     with this code (do not remove `#include "stdafx.h"`):
 
-    ```c++
+    ```cpp
     #include <list>
     #include <iostream>
 

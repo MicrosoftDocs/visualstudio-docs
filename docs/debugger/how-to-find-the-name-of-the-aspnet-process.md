@@ -1,8 +1,7 @@
 ---
-title: Find the running ASP.NET process | Microsoft Docs
-description: Learn how to debug a running ASP.NET app. You attach the Visual Studio debugger to the ASP.NET process by name.   
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2018
+title: Find the running ASP.NET process
+description: Debug a running ASP.NET application in Visual Studio, and attach the Visual Studio debugger to the ASP.NET process by name.   
+ms.date: 04/24/2024
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -12,17 +11,14 @@ dev_langs:
 helpviewer_keywords: 
   - ASP.NET debugging, ASP.NET process
   - ASP.NET process
-ms.assetid: 931a7597-b0f0-4a28-931d-46e63344435f
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - aspnet
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Find the name of the ASP.NET process
 
-To debug a running [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] app, the Visual Studio debugger must attach to the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] process by name.
+To debug a running ASP.NET app, the Visual Studio debugger must attach to the ASP.NET process by name.
 
 **To find out which process is running an ASP.NET app:**
 
@@ -30,16 +26,14 @@ To debug a running [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)]
 
 1. In the **Attach to Process** dialog, type the first letters of process names from the following list, or enter them into the search box. The one that is running is the one running the ASP.NET app. Attach to that process to debug the app.
 
-    - *w3wp.exe* is IIS 6.0 and later.
-    - *aspnet_wp.exe* is earlier versions of IIS.
-    - *iisexpress.exe* is IISExpress.
-    - *dotnet.exe* is ASP.NET Core.
-    - *inetinfo.exe* is older ASP applications running in-process.
+    - *w3wp.exe* is for ASP.NET and also for ASP.NET Core when using the [in-process hosting model](/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-3.1&preserve-view=true#hosting-models) (IIS 6.0 and later).
+    - *appname.exe* is for ASP.NET Core running on the kestrel server (local default).
+    - *iisexpress.exe* is for IISExpress.
+    - *dotnet.exe* is for ASP.NET Core for the out-of-process hosting model.
+    - aspnet_wp.exe* is for ASP.NET running on IIS before IIS 6.0.
+    - *inetinfo.exe* is for older ASP applications running in-process.
 
->[!NOTE]
->Visual Studio 2012 and earlier [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] code can be on the file system and run on the test server *WebDev.WebServer.exe* or *WebDev.WebServer40.exe*. In this case, for local debugging, attach to *WebDev.WebServer.exe* or *WebDev.WebServer40.exe* instead of the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] process.
-
-**See also:**
+## Related content
 
 - [Attach to a running process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
 - [Prerequisites for remote debugging web applications](remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)

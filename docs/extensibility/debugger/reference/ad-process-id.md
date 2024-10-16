@@ -1,28 +1,36 @@
 ---
 description: "Specifies the process ID, which may be either a system ID or a GUID."
-title: AD_PROCESS_ID | Microsoft Docs
+title: AD_PROCESS_ID
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - AD_PROCESS_ID
 helpviewer_keywords:
 - AD_PROCESS_ID union
-ms.assetid: 4cb40d12-2e92-4f09-83f4-689928bd65b3
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # AD_PROCESS_ID
+
 Specifies the process ID, which may be either a system ID or a GUID.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public struct AD_PROCESS_ID {
+    AD_PROCESS_ID_TYPE ProcessIdType;
+    DWORD              dwProcessId; 
+    GUID               guidProcessId; 
+    DWORD              dwUnused; 
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 typedef struct _AD_PROCESS_ID {
     AD_PROCESS_ID_TYPE ProcessIdType;
@@ -33,15 +41,7 @@ typedef struct _AD_PROCESS_ID {
     } ProcessId;
 } AD_PROCESS_ID;
 ```
-
-```csharp
-public struct AD_PROCESS_ID {
-    AD_PROCESS_ID_TYPE ProcessIdType;
-    DWORD              dwProcessId; 
-    GUID               guidProcessId; 
-    DWORD              dwUnused; 
-};
-```
+---
 
 ## Members
 `ProcessIdType`\
@@ -53,7 +53,7 @@ The process ID as a value from the system.
 `guidProcessId`\
 The process ID as a GUID.
 
-dwUnused
+`dwUnused`\
 Padding.
 
 ## Remarks

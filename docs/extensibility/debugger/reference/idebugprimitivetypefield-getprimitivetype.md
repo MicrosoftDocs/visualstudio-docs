@@ -1,38 +1,38 @@
 ---
 description: "Retrieves the primitive type that is associated with this field."
-title: IDebugPrimitiveTypeField::GetPrimitiveType | Microsoft Docs
+title: IDebugPrimitiveTypeField::GetPrimitiveType
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - GetPrimitiveType
 - IDebugPrimitiveTypeField::GetPrimitiveType
-ms.assetid: a186c922-bbfe-478c-a744-b21eb4672d8f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPrimitiveTypeField::GetPrimitiveType
+
 Retrieves the primitive type that is associated with this field.
 
 ## Syntax
 
-```cpp
-HRESULT GetPrimitiveType (
-   DWORD* pdwType
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPrimitiveType (
    out uint pdwType
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPrimitiveType (
+   DWORD* pdwType
+);
+```
+---
 
 ## Parameters
 `pdwType`\

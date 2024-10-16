@@ -1,21 +1,19 @@
 ---
 description: "This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a thread has run to completion."
-title: IDebugThreadDestroyEvent2 | Microsoft Docs
+title: IDebugThreadDestroyEvent2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugThreadDestroyEvent2
 helpviewer_keywords:
 - IDebugThreadDestroyEvent2
-ms.assetid: fca3f603-9432-457b-9ddd-8b0ec17da046
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugThreadDestroyEvent2
+
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a thread has run to completion.
 
 ## Syntax

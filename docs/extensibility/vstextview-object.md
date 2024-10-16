@@ -1,7 +1,6 @@
 ---
-title: VSTextView Object | Microsoft Docs
+title: VSTextView Object
 description: The VSTextView object is a window that lets users view and edit the Unicode text of the text buffer. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -9,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - VSTextView object, reference
 - views [Visual Studio SDK], reference
-ms.assetid: 78272ddc-9718-4c65-a94e-a44a2e8d54f4
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # VSTextView object
 

@@ -1,6 +1,6 @@
 ---
 description: "A DCOM error occurred when the local machine tried to communicate with the remote machine."
-title: "Unable to initiate DCOM communication | Microsoft Docs"
+title: "Unable to initiate DCOM communication"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:
@@ -12,12 +12,11 @@ dev_langs:
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Error: Unable to initiate DCOM communication
+
 A DCOM error occurred when the local machine tried to communicate with the remote machine. This is caused by a firewall on the remote server or broken Windows authentication on the remote machine.
 
 ### To correct this error

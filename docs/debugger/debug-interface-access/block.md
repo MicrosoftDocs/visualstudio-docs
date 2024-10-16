@@ -1,7 +1,6 @@
 ---
-title: "Block | Microsoft Docs"
+title: Block
 description: Find information about the Block symbol type (SymTagBlock), which identify nested scopes within functions in the Visual Studio debug interface access SDK.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -10,19 +9,19 @@ helpviewer_keywords:
   - "SymTagBlock symbol"
   - "nested scopes"
   - "Block symbol"
-ms.assetid: 95b7b0c1-ecc9-405f-8456-5f9cfb866498
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # Block
+
 Each code block is identified by a `SymTagBlock` symbol. Block symbols are used to identify nested scopes within functions.
 
 ## Properties
- The following table shows the properties that are valid for this symbol type.
+
+The following table shows the properties that are valid for this symbol type.
 
 |Property|Data type|Description|
 |--------------|---------------|-----------------|
@@ -39,6 +38,7 @@ Each code block is identified by a `SymTagBlock` symbol. Block symbols are used 
 |[IDiaSymbol::get_virtualAddress](../../debugger/debug-interface-access/idiasymbol-get-virtualaddress.md)|`ULONGLONG`|Returns the virtual address of this block within the executable.|
 
 ## See also
+
 - [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
 - [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)
 - [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md)

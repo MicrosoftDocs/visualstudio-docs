@@ -1,21 +1,18 @@
 ---
-title: Launch-based Attachment | Microsoft Docs
+title: Launch-based Attachment
 description: Learn about launch-based attachment to a program, which is automatic and follows a path like that of the manual attachment.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: conceptual
 helpviewer_keywords:
 - debug engines, launching
 - debug engines, attaching to programs
-ms.assetid: 362f00ac-1909-4a3a-bacb-c0ceb5549816
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Launch-based attachment
+
 Launch-based attachment to a program is automatic. When the process hosting the program is launched by the SDM, launch-based attachment follows a path similar to that of the manual attachment method. For information, see [Attach to the program](../../extensibility/debugger/attaching-to-the-program.md).
 
 ## The attaching process

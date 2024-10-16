@@ -1,39 +1,39 @@
 ---
 description: "This method returns a copy of the current IDebugObjects enumeration as a separate object."
-title: IEnumDebugObjects::Clone | Microsoft Docs
+title: IEnumDebugObjects::Clone
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugObjects::Clone
 helpviewer_keywords:
 - IEnumDebugObjects::Clone method
-ms.assetid: cb7df109-d29a-4218-b900-6809091459dd
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugObjects::Clone
+
 This method returns a copy of the current enumeration as a separate object.
 
 ## Syntax
 
-```cpp
-HRESULT Clone(
-   IEnumDebugObjects** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Clone(
    out IEnumDebugObjects ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Clone(
+   IEnumDebugObjects** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

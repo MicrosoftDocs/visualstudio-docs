@@ -1,36 +1,27 @@
 ---
 description: "Returns the next set of DEBUG_REFERENCE_INFO elements from the enumeration."
-title: IEnumDebugReferenceInfo2::Next | Microsoft Docs
+title: IEnumDebugReferenceInfo2::Next
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugReferenceInfo2::Next
 helpviewer_keywords:
 - IEnumDebugReferenceInfo2::Next
-ms.assetid: 70b31a57-1701-4757-9e7e-63ec60a71b3c
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugReferenceInfo2::Next
+
 Returns the next set of elements from the enumeration.
 
 ## Syntax
 
-```cpp
-HRESULT Next(
-   ULONG                   celt,
-   DEBUG_REFERENCE_INFO ** rgelt,
-   ULONG*                  pceltFetched
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Next(
    uint                   celt,
@@ -38,6 +29,15 @@ int Next(
    ref uint               pceltFetched
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Next(
+   ULONG                   celt,
+   DEBUG_REFERENCE_INFO ** rgelt,
+   ULONG*                  pceltFetched
+);
+```
+---
 
 ## Parameters
 `celt`\

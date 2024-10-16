@@ -1,39 +1,27 @@
 ---
 description: "Creates an enumerator for properties associated with the stack frame, such as local variables."
-title: IDebugStackFrame2::EnumProperties | Microsoft Docs
+title: IDebugStackFrame2::EnumProperties
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugStackFrame2::EnumProperties
 helpviewer_keywords:
 - IDebugStackFrame2::EnumProperties
-ms.assetid: 334bb95e-c7e0-4008-9f06-8c3999e47ee8
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugStackFrame2::EnumProperties
+
 Creates an enumerator for properties associated with the stack frame, such as local variables.
 
 ## Syntax
 
-```cpp
-HRESULT EnumProperties ( 
-   DEBUGPROP_INFO_FLAGS      dwFieldSpec,
-   UINT                      nRadix,
-   REFIID                    refiid,
-   DWORD                     dwTimeout,
-   ULONG*                    pcelt,
-   IEnumDebugPropertyInfo2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumProperties ( 
    enum_DEBUGPROP_INFO_FLAGS   dwFieldSpec,
@@ -44,6 +32,18 @@ int EnumProperties ( 
    out IEnumDebugPropertyInfo2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumProperties ( 
+   DEBUGPROP_INFO_FLAGS      dwFieldSpec,
+   UINT                      nRadix,
+   REFIID                    refiid,
+   DWORD                     dwTimeout,
+   ULONG*                    pcelt,
+   IEnumDebugPropertyInfo2** ppEnum
+);
+```
+---
 
 ## Parameters
 `dwFieldSpec`\

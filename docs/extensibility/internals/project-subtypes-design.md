@@ -1,22 +1,18 @@
 ---
-title: Project Subtypes Design | Microsoft Docs
+title: Project Subtypes Design
 description: Learn how project subtypes let VSPackages extend projects based on the Microsoft Build Engine (MSBuild).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - project subtypes, design
-ms.assetid: 405488bb-1362-40ed-b0f1-04a57fc98c56
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Project Subtypes Design
 
-Project subtypes let VSPackages extend projects based on the Microsoft Build Engine (MSBuild). The use of aggregation lets you reuse the bulk of the core managed project system implemented in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] yet still customize the behavior for a particular scenario.
+Project subtypes let VSPackages extend projects based on the Microsoft Build Engine (MSBuild). The use of aggregation lets you reuse the bulk of the core managed project system implemented in Visual Studio yet still customize the behavior for a particular scenario.
 
  The following topics detail the basic design and implementation of project subtypes:
 
@@ -44,7 +40,7 @@ For more information on extensibility by project subtypes, see [Properties and M
 
 ### Policy Files
 
-The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] environment provides an example of extending the base project system with a project subtype in its implementation of policy files. A policy file allows the shaping of the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] environment by managing features that include the Solution Explorer, **Add Project** dialog box, **Add New Item** dialog box and the **Properties** dialog box. The policy subtype overrides and enhances these features through <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg>, `IOleCommandTarget` and <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> implementations.
+The Visual Studio environment provides an example of extending the base project system with a project subtype in its implementation of policy files. A policy file allows the shaping of the Visual Studio environment by managing features that include the Solution Explorer, **Add Project** dialog box, **Add New Item** dialog box and the **Properties** dialog box. The policy subtype overrides and enhances these features through <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg>, `IOleCommandTarget` and <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> implementations.
 
 ### Aggregation Mechanism
 
@@ -54,7 +50,7 @@ The following illustration shows a schematic representation of a multi-level pro
 
 ![Visual Studio multilevel projectflavor graphic](../../extensibility/internals/media/vs_multilevelprojectflavor.gif)
 
-A multi-level project subtype aggregation consists of three levels, a base project, which is aggregated by a project subtype, then further aggregated by an advanced project subtype. The figure focuses on some of the supporting interfaces that are provided as a part of the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] project subtype architecture.
+A multi-level project subtype aggregation consists of three levels, a base project, which is aggregated by a project subtype, then further aggregated by an advanced project subtype. The figure focuses on some of the supporting interfaces that are provided as a part of the Visual Studio project subtype architecture.
 
 ### Deployment Mechanisms
 

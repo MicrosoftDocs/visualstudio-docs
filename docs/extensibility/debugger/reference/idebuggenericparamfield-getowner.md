@@ -1,37 +1,37 @@
 ---
 description: "Retrieves the type or method owner of this generic parameter."
-title: IDebugGenericParamField::GetOwner | Microsoft Docs
+title: IDebugGenericParamField::GetOwner
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugGenericParamField::GetOwner
-ms.assetid: c7f6d166-a69e-40c4-bd0b-1a1fdf9aaacf
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugGenericParamField::GetOwner
+
 Retrieves the type or method owner of this generic parameter.
 
 ## Syntax
 
-```cpp
-HRESULT GetOwner(
-    IDebugField** ppOwner
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetOwner(
     out IDebugField ppOwner
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetOwner(
+    IDebugField** ppOwner
+);
+```
+---
 
 ## Parameters
 `ppOwner`\

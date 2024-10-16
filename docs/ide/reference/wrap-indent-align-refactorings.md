@@ -5,13 +5,11 @@ ms.date: 03/10/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-manager: jmartens
-ms.technology: vs-ide-general
+manager: mijacobs
+ms.subservice: general-ide
 dev_langs:
   - CSharp
   - VB
-ms.workload:
-  - "dotnet"
 ---
 # Wrap, indent, and align refactorings
 
@@ -35,7 +33,7 @@ This refactoring applies to:
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 3. Select **Wrap call chain** or **Wrap and align call chain** to accept the refactoring.
 
-   ![Screeenshot of the Quick Actions and Refactorings menu in Visual Studio with Warap call chain selected and C# code changes shown.](media/wrap-call-chain.png)
+   ![Screenshot of the Quick Actions and Refactorings menu in Visual Studio with Wrap call chain selected and C# code changes shown.](media/wrap-call-chain.png)
 
 ## Wrap, indent, and align parameters or arguments
 
@@ -80,7 +78,7 @@ This refactoring applies to:
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 3. Select **Wrap expression** to accept the refactoring.
 
-   ![Screeenshot of the Quick Actions and Refactorings menu in Visual Studio with Warap expression selected and C# code changes shown.](media/wrap-binary-expression.png)
+   ![Screenshot of the Quick Actions and Refactorings menu in Visual Studio with Wrap expression selected and C# code changes shown.](media/wrap-binary-expression.png)
 
 ## See also
 

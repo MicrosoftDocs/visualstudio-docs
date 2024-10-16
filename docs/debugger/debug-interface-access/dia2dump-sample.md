@@ -1,6 +1,6 @@
 ---
-description: "The Dia2dump sample shows how to use the Microsoft Debug Interface Access Software Development Kit (DIA SDK) to query a PDB file for information."
-title: "Dia2dump Sample | Microsoft Docs"
+description: The Dia2dump sample shows how to use the Microsoft Debug Interface Access Software Development Kit (DIA SDK) to query a PDB file for information.
+title: Dia2dump Sample
 ms.date: "07/24/2018"
 ms.topic: "reference"
 dev_langs:
@@ -8,17 +8,15 @@ dev_langs:
 helpviewer_keywords:
   - "sample applications [DIA SDK]"
   - "Dia2dump sample [DIA SDK]"
-ms.assetid: 492c0893-7043-452f-a020-890a47230d20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # Dia2dump Sample
 
-The Dia2dump sample shows how to use the Microsoft Debug Interface Access Software Development Kit (DIA SDK) to query a PDB file for information.
+The Dia2dump sample shows how to use the Microsoft Debug Interface Access (DIA) SDK to query a PDB file for information.
 
 The Dia2dump sample is installed with Visual Studio and contains the solution and source files. The compiled executable runs from the command line. It can display the contents of an entire program database (.pdb) file, or just the sections you're interested in.
 
@@ -34,7 +32,7 @@ By default, the installation directory is a protected directory. That means you 
 
 ### To build the Dia2Dump sample in Visual Studio
 
-1. Open the DIA2Dump.sln file in Visual Studio. If you did not copy the solution to another directory, you may be prompted to restart Visual Studio with elevated permissions.
+1. Open the DIA2Dump.sln file in Visual Studio. If you did not copy the solution to another directory, you might be prompted to restart Visual Studio with elevated permissions.
 
 1. In **Solution Explorer**, select the Dia2Dump project (not the solution).
 
@@ -42,7 +40,7 @@ By default, the installation directory is a protected directory. That means you 
 
 1. Open the **Configuration Properties** > **C/C++** > **General** property page.
 
-1. In the **Additional Include Directories** property, choose the dropdown control, then choose **Edit**.
+1. In the **Additional Include Directories** property, choose the dropdown list control, then choose **Edit**.
 
 1. In the **Additional Include Directories** dialog, in the edit field, enter the `$(VSInstallDir)DIA SDK\include` directory. Add this directory to guarantee that the compiler can find the dia2.h file. Choose **OK** to save your changes.
 
@@ -56,7 +54,7 @@ By default, the installation directory is a protected directory. That means you 
 
 1. In a Developer command prompt window, change to the directory where you copied the sample files. If you didn't copy the sample to another directory, you must use an elevated (run as administrator) Developer command prompt window.
 
-1. Enter the command `nmake makefile` to build the default Debug configuration of dia2dump.exe.
+1. Enter the command `nmake all` to build the default Debug configuration of dia2dump.exe.
 
 ## Run the Dia2Dump sample
 
@@ -72,4 +70,4 @@ Dia2Dump.exe relies on the msdia*version*.dll COM server to provide its services
 
 ## See also
 
-- [Port, Migrate, and Upgrade Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md)
+- [Port, Migrate, and Upgrade Visual Studio Projects](/visualstudio/releases/2019/port-migrate-and-upgrade-visual-studio-projects)

@@ -5,10 +5,8 @@ ms.date: 11/04/2016
 ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Using Visual Studio ModelBus in a Text Template
 
@@ -127,7 +125,7 @@ inherits="Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTran
     // (Let's assume they're all in the same model file):
     foreach (SourceElement sourceElement in source.Elements)
     {
-      // In the source DSL Definition, each SourceElement has a MBR property:
+      // In the source DSL Definition, each SourceElement has an MBR property:
       ModelBusReference elementReference = sourceElement.ReferenceToTarget;
       // Resolve the target model element:
       TargetElement element = adapter.ResolveElementReference<TargetElement>(elementReference);
@@ -392,7 +390,7 @@ You now have a DSL that can be accessed by text templates through ModelBus. Refe
 
     If you have set the MBR on that element, the referenced model opens and the referenced element is selected.
 
-## See also
+## Related content
 
 - [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md)
 - [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)

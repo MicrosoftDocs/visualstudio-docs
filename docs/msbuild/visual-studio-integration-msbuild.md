@@ -1,10 +1,9 @@
 ---
 title: Visual Studio Integration (MSBuild)
 titleSuffix: ''
-description: Learn how Visual Studio can host projects in MSBuild format, even if they were authored by different tools and had customized build processes.
-ms.custom: seodec18, SEO-VS-2020
-ms.date: 11/04/2016
-ms.topic: conceptual
+description: Explore how Visual Studio can host projects in MSBuild format, even if they were authored by different tools and had customized build processes.
+ms.date: 10/20/2021
+ms.topic: overview
 helpviewer_keywords:
 - MSBuild, reference resolution
 - MSBuild, well-known target names
@@ -15,27 +14,25 @@ helpviewer_keywords:
 - MSBuild, output groups
 - MSBuild, in-process compilers
 - MSBuild, design-time target execution
-ms.assetid: 06cd6d7f-8dc1-4e49-8a72-cc9e331d7bca
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
+
 # Visual Studio integration (MSBuild)
 
 Visual Studio hosts MSBuild to load and build managed projects. Because MSBuild is responsible for the project, almost any project in the MSBuild format can be successfully used in Visual Studio, even if the project was authored by a different tool and has a customized build process.
 
- This article describes specific aspects of Visual Studio's MSBuild hosting that should be considered when customizing projects and *.targets* files that you wish to load and build in Visual Studio. These will help you make sure Visual Studio features like IntelliSense and debugging work for your custom project.
+This article describes specific aspects of Visual Studio's MSBuild hosting that should be considered when customizing projects and *.targets* files that you wish to load and build in Visual Studio. These will help you make sure Visual Studio features like IntelliSense and debugging work for your custom project.
 
- For information about C++ projects, see [Project files](/cpp/build/reference/project-files).
+For information about C++ projects, see [Project files](/cpp/build/reference/project-files).
 
 ## Project file name extensions
 
- *MSBuild.exe* recognizes any project file name extension matching the pattern *.\*proj*. However, Visual Studio only recognizes a subset of these project file name extensions, which determine the language-specific project system that will load the project. Visual Studio does not have a language-neutral MSBuild based project system.
+*MSBuild.exe* recognizes any project file name extension matching the pattern *.\*proj*. However, Visual Studio only recognizes a subset of these project file name extensions, which determine the language-specific project system that will load the project. Visual Studio does not have a language-neutral MSBuild based project system.
 
- For example, the C# project system loads *.csproj* files, but Visual Studio is not able to load a *.xxproj* file. A project file for source files in an arbitrary language must use the same extension as Visual Basic or C# project files to be loaded in Visual Studio.
+For example, the C# project system loads *.csproj* files, but Visual Studio is not able to load a *.xxproj* file. A project file for source files in an arbitrary language must use the same extension as Visual Basic or C# project files to be loaded in Visual Studio.
 
 ## Well-known target names
 
@@ -145,17 +142,17 @@ Adding item type names to the `AvailableItemName` item type will cause items of 
 
 #### To unload and edit a project file in Visual Studio
 
-1. In **Solution Explorer**, open the shortcut menu for the project, and then choose **Unload Project**.
+1. In **Solution Explorer**, right-click on the project node, and then choose **Unload Project**.
 
      The project is marked **(unavailable)**.
 
-2. In **Solution Explorer**, open the shortcut menu for the unavailable project, and then choose **Edit \<Project File>**.
+2. In **Solution Explorer**, right-click on the unavailable project node, and then choose **Edit \<Project File>**.
 
      The project file opens in the Visual Studio XML Editor.
 
 3. Edit, save, and then close the project file.
 
-4. In **Solution Explorer**, open the shortcut menu for the unavailable project, and then choose **Reload Project**.
+4. In **Solution Explorer**, right-click the unavailable project node, and then choose **Reload Project**.
 
 ## IntelliSense and validation
 
@@ -197,9 +194,7 @@ Adding item type names to the `AvailableItemName` item type will cause items of 
 
  If you use the Visual Studio IDE to start debugging (either by choosing the F5 key or by choosing **Debug** > **Start Debugging** on the menu bar) or to build your project (for example, **Build** > **Build Solution**), the build process uses a fast update check to improve performance. In some cases where customized builds create files that get built in turn, the fast update check does not correctly identify the changed files. Projects that need more thorough update checks can turn off the fast checking by setting the environment variable `DISABLEFASTUPTODATECHECK=1`. Alternatively, projects can set this as an MSBuild property in the project or in a file the project imports.
 
- For regular builds in Visual Studio, the fast update check doesn't apply, and the project will build as if you invoked the build at a command prompt.
-
-## See also
+## Related content
 
 - [How to: Extend the Visual Studio build process](../msbuild/how-to-extend-the-visual-studio-build-process.md)
 - [Start a build from within the IDE](../msbuild/starting-a-build-from-within-the-ide.md)

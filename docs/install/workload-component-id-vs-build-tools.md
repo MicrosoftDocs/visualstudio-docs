@@ -5,39 +5,38 @@ description: Use Visual Studio workload and component IDs to build classic Windo
 keywords:
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
-ms.date: 08/10/2021
+manager: mijacobs
+ms.date: 08/13/2024
 ms.topic: reference
 helpviewer_keywords:
 - workload ID, Visual Studio
 - component ID, Visual Studio
 - install Visual Studio, administrator guide
-ms.assetid: b99298df-0280-47fc-af73-44cd7a8ac553
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+
+ms.subservice: installation
 open_to_public_contributors: false
 ---
 # Visual Studio Build Tools component directory
 
 [!INCLUDE[workloads-components-universal-header_md](includes/workloads-components-universal-header_md.md)]
 
-::: moniker range="vs-2017"
-
-[!INCLUDE[workloads-components-header-2017_md](includes/workloads-components-header-2017_md.md)]
-
-To install these components using the manual installer, download and run the [Build Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017).
-
-[!INCLUDE[Visual Studio Build Tools 2017](includes/vs-2017/workload-component-id-vs-build-tools.md)]
-
-::: moniker-end
-
-::: moniker range=">= vs-2019"
+::: moniker range="vs-2019"
 
 [!INCLUDE[workloads-components-header-2019_md](includes/workloads-components-header-2019_md.md)]
 
 To install these components by using the manual installer, download and run the [Build Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019).
 
 [!INCLUDE[Visual Studio Build Tools 2019](includes/vs-2019/workload-component-id-vs-build-tools.md)]
+
+::: moniker-end
+
+::: moniker range=">= vs-2022"
+
+[!INCLUDE[workloads-components-header-2022_md](includes/workloads-components-header-2022.md)]
+
+To install these components by using the manual installer, download and run the [Build Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022).
+
+[!INCLUDE[Visual Studio Build Tools 2022](includes/vs-2022/workload-component-id-vs-build-tools.md)]
 
 ::: moniker-end
 

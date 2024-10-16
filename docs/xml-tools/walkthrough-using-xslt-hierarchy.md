@@ -1,13 +1,12 @@
 ---
 title: 'Walkthrough: Using XSLT Hierarchy'
 description: Learn how to debug in a referenced style sheet using the the XSLT Hierarchy tool in Visual Studio by following the steps in this walkthrough.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xml-tools
+author: dzsquared
+ms.author: drskwier
+manager: mijacobs
+ms.subservice: xml-tools
 ---
 # Walkthrough: Use XSLT hierarchy
 
@@ -106,6 +105,6 @@ The example in this topic demonstrates debugging in a referenced style sheet.
 
 6. When the debugger stops at the instruction `<xsl:include href="xslincludefile.xsl" />`, press the **Step Into** button. The debugging can be continued in the referenced style sheet. The hierarchy is visible and the designer displays the right path.
 
-## See also
+## Related content
 
 - [XSLT profiler](../xml-tools/xslt-profiler.md)

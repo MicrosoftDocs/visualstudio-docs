@@ -1,17 +1,14 @@
 ---
 title: Convert between auto property and full property
 description: Learn how to use the Quick Actions and Refactorings menu to convert between an auto-implemented property and a full property.
-ms.custom: SEO-VS-2020
 ms.date: 03/27/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-manager: jmartens
-ms.technology: vs-ide-general
+manager: mijacobs
+ms.subservice: general-ide
 dev_langs:
   - CSharp
-ms.workload: 
-  - "dotnet"
 ---
 # Convert between auto property and full property
 
@@ -33,11 +30,11 @@ This refactoring applies to:
 
     Select **Convert to full property**.
 
-   ![Convert auto property to full property](media/convert-auto-property-to-full-property.png) 
+    ![Convert auto property to full property](media/convert-auto-property-to-full-property.png)
 
     Select **Use auto property**. 
 
-    ![Convert full property to auto property](media/convert-full-property-to-auto-property.png) 
+    ![Convert full property to auto property](media/convert-full-property-to-auto-property.png)
 
 ## See also
 

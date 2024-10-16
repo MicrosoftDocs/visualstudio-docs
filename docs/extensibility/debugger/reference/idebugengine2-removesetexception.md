@@ -1,39 +1,39 @@
 ---
 description: "Removes the specified exception so it is no longer handled by the debug engine."
-title: IDebugEngine2::RemoveSetException | Microsoft Docs
+title: IDebugEngine2::RemoveSetException
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngine2::RemoveSetException
 helpviewer_keywords:
 - IDebugEngine2::RemoveSetException
-ms.assetid: bdd25097-0e9d-4218-b417-0497ea48d2e8
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugEngine2::RemoveSetException
+
 Removes the specified exception so it is no longer handled by the debug engine.
 
 ## Syntax
 
-```cpp
-HRESULT RemoveSetException( 
-   EXCEPTION_INFO* pException
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int RemoveSetException( 
    EXCEPTION_INFO[] pException
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT RemoveSetException( 
+   EXCEPTION_INFO* pException
+);
+```
+---
 
 ## Parameters
 `pException`\

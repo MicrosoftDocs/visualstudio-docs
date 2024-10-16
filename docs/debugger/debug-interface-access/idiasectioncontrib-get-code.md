@@ -1,27 +1,26 @@
 ---
-description: "Retrieves a flag that indicates whether the section contains executable code."
-title: "IDiaSectionContrib::get_code | Microsoft Docs"
+description: Retrieves a flag that indicates whether the section contains executable code.
+title: "IDiaSectionContrib::get_code"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSectionContrib::get_code method"
-ms.assetid: f9ccf7a6-46e7-4a1d-9d5c-97272e17bbbb
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_code
+
 Retrieves a flag that indicates whether the section contains executable code.
 
 ## Syntax
 
 ```C++
-HRESULT get_code ( 
+HRESULT get_code ( 
    BOOL* pRetVal
 );
 ```

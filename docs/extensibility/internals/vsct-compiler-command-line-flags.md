@@ -1,25 +1,22 @@
 ---
-title: VSCT Compiler Command-Line Flags | Microsoft Docs
+title: VSCT Compiler Command-Line Flags
 description: The Visual Studio Command Table compiler provides command-line options to ensure successful compilation of .vsct files.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - VSCT files, compiling
 - command-table file compilation (VSCT files)
-ms.assetid: 9dc6c33f-e6cf-4cf2-9b05-e8f7bfac1cfb
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # VSCT Compiler Command-Line Flags
+
 The Visual Studio Command Table (VSCT) compiler provides command-line switches to ensure successful compilation of .vsct files.
 
 ## Command Line Parameters
- To view basic VSCT help from a [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] **Command** window, navigate to the *Visual Studio SDK installation path*\VisualStudioIntegration\Tools\Bin\ folder and type:
+ To view basic VSCT help from a Visual Studio **Command** window, navigate to the *Visual Studio SDK installation path*\VisualStudioIntegration\Tools\Bin\ folder and type:
 
 ```
 vsct /?

@@ -1,28 +1,34 @@
 ---
 description: "This structure specifies various kinds of information about a field's type."
-title: TYPE_INFO | Microsoft Docs
+title: TYPE_INFO
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - TYPE_INFO
 helpviewer_keywords:
 - TYPE_INFO structure
-ms.assetid: d725cb68-a565-49d1-a16f-ff0445c587a0
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # TYPE_INFO
+
 This structure specifies various kinds of information about a field's type.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public struct TYPE_INFO {
+   public uint   dwKind;
+   public IntPtr unionmember;
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 struct _tagTYPE_INFO_UNION {
    dwTYPE_KIND dwKind;
@@ -34,13 +40,7 @@ struct _tagTYPE_INFO_UNION {
    } type;
 } TYPE_INFO;
 ```
-
-```csharp
-public struct TYPE_INFO {
-   public uint   dwKind;
-   public IntPtr unionmember;
-};
-```
+---
 
 ## Members
  `dwKind`\

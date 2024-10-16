@@ -1,28 +1,36 @@
 ---
 description: "Specifies the state of a pending breakpoint (a breakpoint that has not yet been bound)."
-title: PENDING_BP_STATE | Microsoft Docs
+title: PENDING_BP_STATE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - PENDING_BP_STATE
 helpviewer_keywords:
 - PENDING_BP_STATE enumeration
-ms.assetid: ac04ad72-fa92-4a15-ade2-0d0bbbadfc7f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # PENDING_BP_STATE
+
 Specifies the state of a pending breakpoint (a breakpoint that has not yet been bound).
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_PENDING_BP_STATE { 
+   PBPS_NONE     = 0x0000,
+   PBPS_DELETED  = 0x0001,
+   PBPS_DISABLED = 0x0002,
+   PBPS_ENABLED  = 0x0003
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_PENDING_BP_STATE { 
    PBPS_NONE     = 0x0000,
@@ -32,15 +40,7 @@ enum enum_PENDING_BP_STATE { 
 };
 typedef DWORD PENDING_BP_STATE;
 ```
-
-```csharp
-public enum enum_PENDING_BP_STATE { 
-   PBPS_NONE     = 0x0000,
-   PBPS_DELETED  = 0x0001,
-   PBPS_DISABLED = 0x0002,
-   PBPS_ENABLED  = 0x0003
-};
-```
+---
 
 ## Fields
  `PBPS_NONE`\

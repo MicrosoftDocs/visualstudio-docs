@@ -1,21 +1,16 @@
 ---
-title: AssignTargetPath Task | Microsoft Docs
+title: AssignTargetPath Task
 description: Use the MSBuild AssignTargetPath task to accept a list of files and add TargetPath attributes if they are not already specified.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
-ms.assetid: 0e830e31-3bcf-4259-b2a8-a5df49b92d51
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # AssignTargetPath task
 

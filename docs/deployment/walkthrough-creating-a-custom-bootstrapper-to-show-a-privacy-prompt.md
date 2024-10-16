@@ -1,7 +1,6 @@
 ---
 title: "Create a custom bootstrapper with a privacy prompt"
 description: Learn how to configure ClickOnce applications to automatically update when assemblies with newer file versions and assembly versions become available.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -15,23 +14,16 @@ helpviewer_keywords:
   - "deploying applications [Visual Studio], custom prerequisites"
   - "Windows Installer deployment, prerequisites"
   - "prerequisites [.NET Framework], custom bootstrapper package"
-ms.assetid: 2f3edd6a-84d1-4864-a1ae-6a13c5732aae
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: deployment
 ---
 # Walkthrough: Create a custom bootstrapper with a privacy prompt
+
 You can configure ClickOnce applications to automatically update when assemblies with newer file versions and assembly versions become available. To make sure that your customers consent to this behavior, you can display a privacy prompt to them. Then, they can choose whether to grant permission to the application to update automatically. If the application is not allowed to update automatically, it does not install.
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
-
-## Prerequisites
- You need the following components to complete this walkthrough:
-
-- Visual Studio 2010.
 
 ## Create an Update Consent dialog box
  To display a privacy prompt, create an application that asks the reader to consent to automatic updates for the application.
@@ -76,33 +68,52 @@ You can configure ClickOnce applications to automatically update when assemblies
 
 18. In the Form1 code file, add the following code for the CheckedChanged event handler.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/consentdialog/cs/form1.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/consentdialog/vb/form1.vb" id="Snippet1":::
+     ---
 
 19. Update the class constructor to disable the **Proceed** button by default.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/consentdialog/cs/form1.cs" id="Snippet6":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/consentdialog/vb/form1.vb" id="Snippet6":::
+     ---
 
 20. In the Form1 code file, add the following code for a Boolean variable to track if the end user has consented to online updates.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/consentdialog/cs/form1.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/consentdialog/vb/form1.vb" id="Snippet3":::
+     ---
 
 21. In the designer, double-click the **Proceed** button to generate the Click event handler.
 
 22. In the Form1 code file, add the following code to the Click event handler for the **Proceed** button.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/consentdialog/cs/form1.cs" id="Snippet2":::
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/consentdialog/vb/form1.vb" id="Snippet2":::
 
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/consentdialog/vb/form1.vb" id="Snippet2":::
+     ---
 
 23. In the designer, double-click the **Cancel** button to generate the Click event handler.
 
 24. In the Form1 code file, add the following code for the Click event handler for the **Cancel** button.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/consentdialog/cs/form1.cs" id="Snippet4":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/consentdialog/vb/form1.vb" id="Snippet4":::
+     ---
 
 25. Update the application to return an error if the end user does not consent to online updates.
 
@@ -123,7 +134,7 @@ You can configure ClickOnce applications to automatically update when assemblies
     6. In the **Startup object** drop-down menu, select **Module1**.
 
        > [!NOTE]
-       > Disabling the application framework disables features such as Windows XP visual styles, application events, splash screen, single instance application, and more. For more information, see [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md).
+       > Disabling the application framework disables features such as visual styles, application events, splash screen, single instance application, and more. For more information, see [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md).
 
        For Visual C# developers only:
 
@@ -296,7 +307,7 @@ You can configure ClickOnce applications to automatically update when assemblies
 
 8. If the Application Install dialog box appears, click **Install**.
 
-## See also
+## Related content
 - [Application deployment prerequisites](../deployment/application-deployment-prerequisites.md)
 - [Create bootstrapper packages](../deployment/creating-bootstrapper-packages.md)
 - [How to: Create a product manifest](../deployment/how-to-create-a-product-manifest.md)

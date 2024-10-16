@@ -1,7 +1,6 @@
 ---
-title: "How to: Add Commands to shortcut menus"
+title: "Add Commands to shortcut menus"
 description: Learn how you can add commands to a shortcut menu in an Office application by using a VSTO Add-in.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -12,12 +11,11 @@ helpviewer_keywords:
   - "Office development in Visual Studio, context menus"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Add commands to shortcut menus
+# Add commands to shortcut menus
+
   This topic demonstrates how to add commands to a shortcut menu in an Office application by using a VSTO Add-in.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
@@ -34,8 +32,12 @@ ms.workload:
 
 4. Add the following code to the **ThisAddin** class. This code overrides the `CreateRibbonExtensibilityObject` method and returns the Ribbon XML class to the Office application.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_wordaddin_menus.cs/thisaddin.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddin_menus.vb/thisaddin.vb" id="Snippet1":::
+     ---
 
 5. In **Solution Explorer**, select the Ribbon XML file. By default, the Ribbon XML file is named *Ribbon1.xml*.
 
@@ -45,7 +47,7 @@ ms.workload:
 
 7. In the Code Editor, add XML that describes the shortcut menu and the control that you want to add to the shortcut menu.
 
-     The following example adds a button, a menu, and a gallery control to the shortcut menu for a word document. The control ID of this shortcut menu is ContextMenuText. For a complete list of Office 2010 shortcut control ID's, see [Office 2010 help files: Office fluent user interface control identifiers](https://www.microsoft.com/download/details.aspx?id=6627).
+     The following example adds a button, a menu, and a gallery control to the shortcut menu for a word document. The control ID of this shortcut menu is ContextMenuText. For a complete list of Office 2010 shortcut control ID's, see [Office 2010 help files: Office fluent user interface control identifiers](https://www.microsoft.com/download/details.aspx?id=50745).
 
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
@@ -71,13 +73,17 @@ ms.workload:
 
 9. Add a callback method to the `Ribbon1` class for each control that you want to handle.
 
-     The following callback method handles the **My Button** button. This code adds a string to the active document at the current location of the curser.
+     The following callback method handles the **My Button** button. This code adds a string to the active document at the current location of the cursor.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddin_menus.vb/ribbon1.vb" id="Snippet2":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_wordaddin_menus.cs/ribbon1.cs" id="Snippet2":::
 
-## See also
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddin_menus.vb/ribbon1.vb" id="Snippet2":::
+     ---
+
+## Related content
 - [Office UI customization](../vsto/office-ui-customization.md)
-- [Walkthrough: Create Shortcut menus for bookmarks](../vsto/walkthrough-creating-shortcut-menus-for-bookmarks.md)
+- [Walkthrough: Create Shortcut menus for bookmarks](/previous-versions/visualstudio/visual-studio-2017/vsto/walkthrough-creating-shortcut-menus-for-bookmarks)
 - [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
 - [Customize context menus in Office 2010](/previous-versions/office/developer/office-2010/ee691832(v=office.14))

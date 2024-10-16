@@ -1,37 +1,37 @@
 ---
 description: "Retrieves the index of this generic parameter."
-title: IDebugGenericParamField::GetIndex | Microsoft Docs
+title: IDebugGenericParamField::GetIndex
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugGenericParamField::GetIndex
-ms.assetid: 8e0bdb26-1247-44d9-8d80-ec6e35187fb4
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugGenericParamField::GetIndex
+
 Retrieves the index of this generic parameter.
 
 ## Syntax
 
-```cpp
-HRESULT GetIndex(
-    DWORD* pIndex
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetIndex(
     out uint pIndex
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetIndex(
+    DWORD* pIndex
+);
+```
+---
 
 ## Parameters
 `pIndex`\

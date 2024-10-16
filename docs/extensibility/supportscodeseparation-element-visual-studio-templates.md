@@ -2,23 +2,20 @@
 title: SupportsCodeSeparation Element (Visual Studio Templates)
 titleSuffix: ""
 description: Learn about the SupportsCodeSeparation element and how it specifies if the Place code in separate file check box is enabled in the Add New Item dialog box.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#SupportsCodeSeparation
 helpviewer_keywords:
 - SupportsCodeSeparation element [Visual Studio Templates]
 - <SupportsCodeSeparation> element [Visual Studio Templates]
-ms.assetid: 8112aac8-a269-40e5-b92b-9b9a6ff5a542
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
 ---
 # SupportsCodeSeparation Element (Visual Studio Templates)
+
 Specifies whether or not the **Place code in separate file** check box is enabled in the **Add New Item** dialog box.
 
  \<VSTemplate>
@@ -56,7 +53,7 @@ Specifies whether or not the **Place code in separate file** check box is enable
 
  The `SupportsCodeSeparation` element is only available for Web item templates.
 
- Code separation, or the code-behind page model, allows you to keep the markup in one file and the programming code in another file. [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] and other .NET languages use this model.
+ Code separation, or the code-behind page model, allows you to keep the markup in one file and the programming code in another file. ASP.NET and other .NET languages use this model.
 
 ## Example
  The following example specifies to display the **Place code in separate file** option.

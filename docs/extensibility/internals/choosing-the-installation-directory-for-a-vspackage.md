@@ -1,20 +1,17 @@
 ---
-title: Choosing the Installation Directory for a VSPackage | Microsoft Docs
+title: Choosing the Installation Directory for a VSPackage
 description: Learn how to choose the installation directory for a VSPackage and its supporting files, by using factors such as whether it is managed or unmanaged.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - VSPackages, installation directory
-ms.assetid: 01fbbb5b-f747-446c-afe0-2a081626a945
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Choose the installation directory for a VSPackage
+
 A VSPackage and its supporting files must be on a user's file system. The location depends on whether the VSPackage is managed or unmanaged, your side-by-side versioning scheme, and user choice.
 
 ## Unmanaged VSPackages
@@ -42,7 +39,7 @@ A VSPackage and its supporting files must be on a user's file system. The locati
 ## Satellite DLLs
  By convention, VSPackage satellite DLLs, which contain resources for a particular locale, are located in subdirectories of the *VSPackage* directory. The subdirectories correspond to locale ID (LCID) values.
 
- The [Manage VSPackages](../../extensibility/managing-vspackages.md) article indicates that registry entries control where [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] actually looks for a VSPackage's satellite DLL. However, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] tries to load a satellite DLL in a subdirectory named for an LCID value, in the following order:
+ The [Manage VSPackages](../../extensibility/managing-vspackages.md) article indicates that registry entries control where Visual Studio actually looks for a VSPackage's satellite DLL. However, Visual Studio tries to load a satellite DLL in a subdirectory named for an LCID value, in the following order:
 
 1. Default LCID (Visual Studio LCID; for example, *\1033* for English)
 
@@ -54,9 +51,9 @@ A VSPackage and its supporting files must be on a user's file system. The locati
 
 5. U.S. English (*.\1033* or *.\0x409*).
 
-If your VSPackage DLL includes resources and the **SatelliteDll\DllName** registry entry points to it, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] attempts to load them in the above order.
+If your VSPackage DLL includes resources and the **SatelliteDll\DllName** registry entry points to it, Visual Studio attempts to load them in the above order.
 
-## See also
+## Related content
 - [Choose between shared and versioned VSPackages](../../extensibility/choosing-between-shared-and-versioned-vspackages.md)
 - [Manage VSPackages](../../extensibility/managing-vspackages.md)
 - [Manage package registration](/previous-versions/bb166783(v=vs.100))

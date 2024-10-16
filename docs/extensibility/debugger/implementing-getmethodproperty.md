@@ -1,21 +1,18 @@
 ---
-title: Implementing GetMethodProperty | Microsoft Docs
+title: Implementing GetMethodProperty
 description: Learn how Visual Studio obtains information about the current method on the stack frame by using the GetDebugProperty of the debug engine.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - GetMethodProperty method
 - IDebugExpressionEvaluator2 property
-ms.assetid: 6305874f-a2c4-4432-834c-07530ea84bff
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Implement GetMethodProperty
+
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
@@ -121,5 +118,5 @@ STDMETHODIMP CExpressionEvaluator::GetMethodProperty(
 }
 ```
 
-## See also
+## Related content
 - [Sample implementation of locals](../../extensibility/debugger/sample-implementation-of-locals.md)

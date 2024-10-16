@@ -1,39 +1,27 @@
 ---
 description: "Returns information that allows construction of a human-readable error message."
-title: IDebugErrorEvent2::GetErrorMessage | Microsoft Docs
+title: IDebugErrorEvent2::GetErrorMessage
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugErrorEvent2::GetErrorMessage
 helpviewer_keywords:
 - IDebugErrorEvent2::GetErrorMessage
-ms.assetid: 9e3b0d74-a2dd-4eaa-bd95-21b2f9c79409
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugErrorEvent2::GetErrorMessage
+
 Returns information that allows construction of a human-readable error message.
 
 ## Syntax
 
-```cpp
-HRESULT GetErrorMessage(
-   MESSAGETYPE* pMessageType,
-   BSTR*        pbstrErrorFormat,
-   HRESULT*     hrErrorReason,
-   DWORD*       pdwType,
-   BSTR*        pbstrHelpFileName,
-   DWORD*       pdwHelpId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetErrorMessage(
    out enum_MESSAGETYPE   pMessageType,
@@ -44,6 +32,18 @@ int GetErrorMessage(
    out uint               pdwHelpId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetErrorMessage(
+   MESSAGETYPE* pMessageType,
+   BSTR*        pbstrErrorFormat,
+   HRESULT*     hrErrorReason,
+   DWORD*       pdwType,
+   BSTR*        pbstrHelpFileName,
+   DWORD*       pdwHelpId
+);
+```
+---
 
 ## Parameters
 `pMessageType`\

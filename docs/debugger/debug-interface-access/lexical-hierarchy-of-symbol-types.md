@@ -1,21 +1,19 @@
 ---
+title: "Lexical Hierarchy of Symbol Types"
 description: "The following table shows the symbol types in the lexical hierarchy."
-title: "Lexical Hierarchy of Symbol Types | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "symbols [DIA SDK], type hierarchies"
-ms.assetid: 912da653-ddfe-45a4-84aa-64281283739a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Lexical Hierarchy of Symbol Types
+
 The following table shows the symbol types in the lexical hierarchy.
 
 ## Symbol Types
@@ -36,7 +34,7 @@ The following table shows the symbol types in the lexical hierarchy.
 |[Label (Debug Interface Access SDK)](../../debugger/debug-interface-access/label-debug-interface-access-sdk.md)|Specifies a location in program code.|
 |[PublicSymbol](../../debugger/debug-interface-access/publicsymbol.md)|Specifies an external symbol that appears when building the executable program.|
 |[Thunk](../../debugger/debug-interface-access/thunk.md)|Specifies a `thunk`.|
-|[UsingNameSpace](../../debugger/debug-interface-access/usingnamespace.md)|Specifies a `namespace`identifier.|
+|[UsingNameSpace](../../debugger/debug-interface-access/usingnamespace.md)|Specifies a `namespace` identifier.|
 
 > [!NOTE]
 > Additional symbol properties may be available depending on the symbol type. These properties are listed in the individual symbol topics.

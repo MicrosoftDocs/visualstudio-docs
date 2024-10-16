@@ -1,41 +1,41 @@
 ---
 description: "A structure that describes an array of strings."
-title: BSTR_ARRAY | Microsoft Docs
+title: BSTR_ARRAY
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BSTR_ARRAY
 helpviewer_keywords:
 - BSTR_ARRAY structure
-ms.assetid: 48da37f7-a237-48a9-9ff9-389c1a00862c
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # BSTR_ARRAY
+
 A structure that describes an array of strings.
 
 ## Syntax
 
-```cpp
-typedef struct tagBSTR_ARRAY {
-    DWORD dwCount;
-    BSTR* Members;
-} BSTR_ARRAY;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 struct BSTR_ARRAY {
     DWORD    dwCount;
     string[] Members;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagBSTR_ARRAY {
+    DWORD dwCount;
+    BSTR* Members;
+} BSTR_ARRAY;
+```
+---
 
 ## Members
 `dwCount`\

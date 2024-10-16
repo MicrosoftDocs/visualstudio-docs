@@ -1,7 +1,6 @@
 ---
 title: "Grant trust to Office solutions"
 description: To grant trust to Office solutions means to modify the security policy of each target computer to trust the solution assembly, deployment manifest, and document.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,17 +13,16 @@ helpviewer_keywords:
   - "granting trust [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Grant trust to Office solutions
+
   Grant trust to Office solutions means modifying the security policy of each target computer to trust the solution assembly, application manifest, deployment manifest, and document. Trust can be granted to the Office solution by either you or the end user.
 
  You can grant full trust to the Office solution by signing the application and deployment manifests.
 
- End users can grant trust to the Office solution by making a trust decision in the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] trust prompt.
+ End users can grant trust to the Office solution by making a trust decision in the ClickOnce trust prompt.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
 
@@ -38,11 +36,11 @@ ms.workload:
  If a developer signs the solution with a temporary certificate, an administrator can re-sign the customization with a known and trusted certificate by using the Manifest Generation and Editing Tool (*mage.exe*), which is one of the Microsoft .NET Framework tools. For more information about signing solutions, see [How to: Sign Office solutions](../vsto/how-to-sign-office-solutions.md) and [How to: Sign application and deployment manifests](../ide/how-to-sign-application-and-deployment-manifests.md).
 
 ## <a name="TrustPrompt"></a>Trust the solution by using the ClickOnce trust prompt
- [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] prompts the end user to make the trust decision if there is no organization-wide policy that trusts the solution's certificate. If the end user grants trust to the solution, an inclusion list entry is created that contains a URL and a public key to store this trust decision. When a trusted customization is run later, the end user is not prompted again.
+ ClickOnce prompts the end user to make the trust decision if there is no organization-wide policy that trusts the solution's certificate. If the end user grants trust to the solution, an inclusion list entry is created that contains a URL and a public key to store this trust decision. When a trusted customization is run later, the end user is not prompted again.
 
- Administrators can disable the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] trust prompt or require that the prompt occur only for solutions that are signed with an Authenticode certificate. For more information about how to change these settings for the MyComputer, LocalIntranet, Internet, TrustedSites, and UntrustedSites zones, see [How to: Configure the ClickOnce trust prompt behavior](../deployment/how-to-configure-the-clickonce-trust-prompt-behavior.md).
+ Administrators can disable the ClickOnce trust prompt or require that the prompt occur only for solutions that are signed with an Authenticode certificate. For more information about how to change these settings for the MyComputer, LocalIntranet, Internet, TrustedSites, and UntrustedSites zones, see [How to: Configure the ClickOnce trust prompt behavior](../deployment/how-to-configure-the-clickonce-trust-prompt-behavior.md).
 
-## See also
+## Related content
 
 - [Secure Office solutions](../vsto/securing-office-solutions.md)
 - [Grant trust to documents](../vsto/granting-trust-to-documents.md)

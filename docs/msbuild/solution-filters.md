@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "solution filters [MSBuild]"
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
+manager: mijacobs
+ms.subservice: msbuild
 monikerRange: ">= vs-2019"
 ---
 # Solution filters in MSBuild

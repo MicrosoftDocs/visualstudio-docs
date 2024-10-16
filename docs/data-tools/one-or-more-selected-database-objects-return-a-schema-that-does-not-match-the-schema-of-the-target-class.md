@@ -1,17 +1,14 @@
 ---
 title: Schema does not match
 description: One or more selected database objects return a schema that does not match the schema of the target class
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: error-reference
-ms.assetid: 3794e88b-4d3d-4e7a-ade6-8208eabe3eae
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
+
 # One or more selected database objects return a schema that does not match the schema of the target class
 
 One or more selected database objects return a schema that does not match the schema of the target class. Nothing has been added to the designer.

@@ -1,35 +1,26 @@
 ---
 description: "Creates a string object that has the specified length."
-title: IDebugFunctionObject2::CreateStringObjectWithLength | Microsoft Docs
+title: IDebugFunctionObject2::CreateStringObjectWithLength
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - CreateStringObjectWithLength
 - IDebugFunctionObject2::CreateStringObjectWithLength
-ms.assetid: 1f43ec66-1615-4a4c-8b9d-e933f549f96d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugFunctionObject2::CreateStringObjectWithLength
+
 Creates a string object that has the specified length.
 
 ## Syntax
 
-```cpp
-HRESULT CreateStringObjectWithLength (
-   LPCOLESTR      pcstrString,
-   UINT           uiLength,
-   IDebugObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateStringObjectWithLength (
    string           pcstrString,
@@ -37,6 +28,15 @@ int CreateStringObjectWithLength (
    out IDebugObject ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateStringObjectWithLength (
+   LPCOLESTR      pcstrString,
+   UINT           uiLength,
+   IDebugObject** ppObject
+);
+```
+---
 
 ## Parameters
 `pcstrString`\

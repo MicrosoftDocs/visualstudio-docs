@@ -1,41 +1,41 @@
 ---
 description: "Gets the specified process running on a port."
-title: IDebugPort2::GetProcess | Microsoft Docs
+title: IDebugPort2::GetProcess
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPort2::GetPortSupplier
 helpviewer_keywords:
 - IDebugPort2::GetPortSupplier
-ms.assetid: 3e2431b0-0e19-450d-8e1d-d7c314c8f872
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPort2::GetProcess
+
 Gets the specified process running on a port.
 
 ## Syntax
 
-```cpp
-HRESULT GetProcess( 
-   AD_PROCESS_ID    ProcessId,
-   IDebugProcess2** ppProcess
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProcess( 
    AD_PROCESS_ID      ProcessId,
    out IDebugProcess2 ppProcess
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProcess( 
+   AD_PROCESS_ID    ProcessId,
+   IDebugProcess2** ppProcess
+);
+```
+---
 
 ## Parameters
 `ProcessId`\

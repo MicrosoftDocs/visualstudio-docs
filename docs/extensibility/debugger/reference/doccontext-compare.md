@@ -1,28 +1,36 @@
 ---
 description: "Specifies the criteria for comparing two document contexts."
-title: DOCCONTEXT_COMPARE | Microsoft Docs
+title: DOCCONTEXT_COMPARE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - DOCCONTEXT_COMPARE
 helpviewer_keywords:
 - DOCCONTEXT_COMPARE enumeration
-ms.assetid: ed947c34-b07e-4b69-8381-b6e7cb842862
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # DOCCONTEXT_COMPARE
+
 Specifies the criteria for comparing two document contexts.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+enum enum_DOCCONTEXT_COMPARE {
+    DOCCONTEXT_EQUAL         = 0x0001,
+    DOCCONTEXT_LESS_THAN     = 0x0002,
+    DOCCONTEXT_GREATER_THAN  = 0x0003,
+    DOCCONTEXT_SAME_DOCUMENT = 0x0004
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_DOCCONTEXT_COMPARE {
     DOCCONTEXT_EQUAL         = 0x0001,
@@ -32,15 +40,7 @@ enum enum_DOCCONTEXT_COMPARE {
 };
 typedef DWORD DOCCONTEXT_COMPARE;
 ```
-
-```csharp
-enum enum_DOCCONTEXT_COMPARE {
-    DOCCONTEXT_EQUAL         = 0x0001,
-    DOCCONTEXT_LESS_THAN     = 0x0002,
-    DOCCONTEXT_GREATER_THAN  = 0x0003,
-    DOCCONTEXT_SAME_DOCUMENT = 0x0004
-};
-```
+---
 
 ## Fields
 `DOCCONTEXT_EQUAL`\

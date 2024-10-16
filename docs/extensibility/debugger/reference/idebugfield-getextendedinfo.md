@@ -1,36 +1,27 @@
 ---
 description: "This method gets extended information about a field."
-title: IDebugField::GetExtendedInfo | Microsoft Docs
+title: IDebugField::GetExtendedInfo
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugField::GetExtendedInfo
 helpviewer_keywords:
 - IDebugField::GetExtendedInfo method
-ms.assetid: 46c0dd4d-4fd5-4efd-a908-71e4248e8e8d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugField::GetExtendedInfo
+
 This method gets extended information about a field.
 
 ## Syntax
 
-```cpp
-HRESULT GetExtendedInfo( 
-   REFGUID guidExtendedInfo,
-   BYTE**  prgBuffer,
-   DWORD*  pdwLen
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetExtendedInfo(
    ref Guid guidExtendedInfo,
@@ -38,6 +29,15 @@ int GetExtendedInfo(
    ref uint pdwLen
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetExtendedInfo( 
+   REFGUID guidExtendedInfo,
+   BYTE**  prgBuffer,
+   DWORD*  pdwLen
+);
+```
+---
 
 ## Parameters
 `guidExtendedInfo`\

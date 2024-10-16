@@ -1,7 +1,6 @@
 ---
-title: "How to: Add a Deleter Method | Microsoft Docs"
+title: "Add a Deleter Method"
 description: Learn how to add a Deleter method in Visual Studio's BDC Designer, so an end user can delete a data record from an external list on a SharePoint site.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -18,12 +17,11 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], removing data"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
-# How to: Add a Deleter method
+# Add a Deleter method
+
   You can enable an end user to delete a data record from an external list on a SharePoint site by adding a Deleter method to the model. For more information, see [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md).
 
 ### To create a Deleter method
@@ -60,10 +58,14 @@ ms.workload:
    > [!NOTE]
    > Replace the value of the `ServerName` field with the name of your server.
 
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/salesorderdetailservice.cs" id="Snippet6":::
-    :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderdetailservice.vb" id="Snippet6":::
 
-## See also
+    ### [VB](#tab/vb)
+    :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderdetailservice.vb" id="Snippet6":::
+    ---
+
+## Related content
 - [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
 - [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)
 - [How to: Add a specific Finder method](../sharepoint/how-to-add-a-specific-finder-method.md)

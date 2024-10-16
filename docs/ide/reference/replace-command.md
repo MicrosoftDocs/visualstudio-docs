@@ -1,7 +1,6 @@
 ---
 title: Replace Command
 description: Learn about the Replace command and how it replaces text in files by using a subset of the options available on the Replace in Files tab of the Find and Replace window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -9,15 +8,13 @@ f1_keywords:
 helpviewer_keywords:
 - Edit.Replace command
 - Replace command
-ms.assetid: a15767f1-5a3d-44f5-8c77-7b0f1157f340
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Replace Command
+
 Replaces text in files using a subset of the options available on the **Replace in Files** tab of the **Find and Replace** window.
 
 ## Syntax

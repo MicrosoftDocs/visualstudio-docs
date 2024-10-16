@@ -1,18 +1,14 @@
 ---
 title: Add Activities to the Toolbox
 description: In Workflow Designer, learn how to add activities to the Toolbox in your solution by adding them from within your current project or referencing them from a different project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: b3a8a785-5928-457a-8a50-30267e29503d
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
+author: jodavis
+ms.author: jodavis
+manager: mijacobs
+ms.subservice: workflow-designer
 ---
-# How to: Add Activities to the Toolbox
+# Add Activities to the Toolbox
 
 Activities can be added to the **Toolbox** in your solution in several different ways. You can add them from within your current project, reference them from a different project, or reference them from a different assembly.
 
@@ -55,6 +51,6 @@ Activities can be added to the **Toolbox** in your solution in several different
 
 6. The custom activity appears in the **Toolbox** under the category that was in focus before the item was added. For example, if the **General** category was selected in the **Toolbox** before adding the toolbox item, the activity appears under the **General** category.
 
-## See also
+## Related content
 
 - [Using the Workflow Designer](developing-applications-with-the-workflow-designer.md)

@@ -1,7 +1,6 @@
 ---
 title: List Call Stack Command
 description: Learn about the List Call Stack command and how it displays the current call stack.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -9,15 +8,13 @@ f1_keywords:
 helpviewer_keywords:
   - "list call stack command"
   - "Debug.ListCallStack command"
-ms.assetid: a8b20bf2-81d2-4069-aea8-23e6b15b4347
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-  - "multiple"
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # List Call Stack Command
+
 Displays the current call stack.
 
 ## Syntax

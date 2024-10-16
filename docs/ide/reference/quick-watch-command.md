@@ -1,7 +1,6 @@
 ---
 title: Quick Watch Command
 description: Learn about the Quick Watch command and how it displays the selected or specified text in the Expression field of the QuickWatch window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -9,15 +8,13 @@ f1_keywords:
 helpviewer_keywords:
 - Quick Watch command
 - Debug.Quickwatch command
-ms.assetid: 9670ac3a-8f2f-4874-974d-cb87d3b0cde1
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Quick Watch Command
+
 Displays the selected or specified text in the Expression field of the [QuickWatch](../../debugger/watch-and-quickwatch-windows.md) window. You can use this dialog box to calculate the current value of a variable or expression recognized by the debugger, or the contents of a register. In addition, you can change the value of any non-const variable or the contents of any register.
 
 ## Syntax

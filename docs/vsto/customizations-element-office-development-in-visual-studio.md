@@ -2,7 +2,6 @@
 title: "&lt;customizations&gt; element (Office development in Visual Studio)"
 description: Learn how the customizations element of the vstov4 namespace contains all the information about installing and loading each Office solution.
 titleSuffix: ""
-ms.custom: "seodec18, SEO-VS-2020"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <customizations> element"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # &lt;customizations&gt; element (Office development in Visual Studio)
+
   The `customizations` element of the `vstov4` namespace contains all the information about installing and loading each Office solution.
 
 ## Syntax for document-level customizations
@@ -117,7 +115,7 @@ ms.workload:
 </vstov4:customizations>
 ```
 
-## See also
+## Related content
 
 - [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)
 - [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)

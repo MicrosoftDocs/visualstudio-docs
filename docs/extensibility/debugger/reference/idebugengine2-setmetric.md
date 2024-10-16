@@ -1,41 +1,41 @@
 ---
 description: "This method sets a registry value known as a metric."
-title: IDebugEngine2::SetMetric | Microsoft Docs
+title: IDebugEngine2::SetMetric
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngine2:::SetMetric
 helpviewer_keywords:
 - IDebugEngine2:::SetMetric
-ms.assetid: dcda4972-c32e-4693-a0e1-25d5c58b9782
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugEngine2::SetMetric
+
 This method sets a registry value known as a metric.
 
 ## Syntax
 
-```cpp
-HRESULT SetMetric(
-   LPCOLESTR pszMetric,
-   VARIANT   varValue
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetMetric(
    string pszMetric,
    object varValue
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetMetric(
+   LPCOLESTR pszMetric,
+   VARIANT   varValue
+);
+```
+---
 
 ## Parameters
 `pszMetric`\

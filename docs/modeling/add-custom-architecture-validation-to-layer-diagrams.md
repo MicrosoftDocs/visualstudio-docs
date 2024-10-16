@@ -8,11 +8,8 @@ helpviewer_keywords:
 - dependency diagrams, adding custom validation
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.custom: SEO-VS-2020
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Add custom architecture validation to dependency diagrams
 
@@ -55,17 +52,7 @@ The quickest method of creating a validator is to use the project template. This
    > [!NOTE]
    > Your method will be called only in specific circumstances, and breakpoints will not work automatically. For more information, see [Debugging Layer Validation](#debugging).
 
-::: moniker range="vs-2017"
-
-4. To install the extension in the main instance of Visual Studio, or on another computer, find the *.vsix* file in the *bin* directory. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, choose **Extensions and Updates** on the **Tools** menu.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 4. To install the extension in the main instance of Visual Studio, or on another computer, find the *.vsix* file in the *bin* directory. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, choose **Manage Extensions** on the **Extensions** menu.
-
-::: moniker-end
 
 ## Adding a Layer Validator to a Separate VSIX
 
@@ -285,6 +272,6 @@ namespace Validator3
 }
 ```
 
-## See also
+## Related content
 
 - [Extend dependency diagrams](../modeling/extend-layer-diagrams.md)

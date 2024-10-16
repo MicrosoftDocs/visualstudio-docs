@@ -1,22 +1,19 @@
 ---
-title: Getting Local Properties | Microsoft Docs
+title: Getting Local Properties
 description: Learn how Visual Studio uses EnumChildren to get local properties with these examples for managed and unmanaged code.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - expression evaluation, getting local properties
 - debugging [Debugging SDK], local properties
 - expression evaluation, local properties
-ms.assetid: 6c3a79e8-1ba1-4863-97c3-0216c3d9f092
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Get local properties
+
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
@@ -153,6 +150,6 @@ STDMETHODIMP CEnumPropertyInfo::Next(
 }
 ```
 
-## See also
+## Related content
 - [Sample implementation of locals](../../extensibility/debugger/sample-implementation-of-locals.md)
 - [Enumerating locals](../../extensibility/debugger/enumerating-locals.md)

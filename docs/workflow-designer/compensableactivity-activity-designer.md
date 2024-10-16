@@ -1,18 +1,14 @@
 ---
 title: CompensableActivity Activity Designer
 description: Learn how you can use the CompensableActivity activity designer in Workflow Designer to create and configure a CompensableActivity activity.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - System.Activities.Statements.CompensableActivity.UI
-ms.assetid: e0340d89-d39e-4a52-8557-13e27040d7b5
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
+author: jodavis
+ms.author: jodavis
+manager: mijacobs
+ms.subservice: workflow-designer
 ---
 # CompensableActivity Activity Designer
 

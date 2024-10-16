@@ -1,36 +1,27 @@
 ---
 description: "Gets a description of the stack frame."
-title: IDebugStackFrame2::GetInfo | Microsoft Docs
+title: IDebugStackFrame2::GetInfo
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugStackFrame2::GetInfo
 helpviewer_keywords:
 - IDebugStackFrame2::GetInfo
-ms.assetid: 19c6870b-b94e-453c-bf19-82ce95b79d26
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugStackFrame2::GetInfo
+
 Gets a description of the stack frame.
 
 ## Syntax
 
-```cpp
-HRESULT GetInfo ( 
-   FRAMEINFO_FLAGS dwFieldSpec,
-   UINT            nRadix,
-   FRAMEINFO*      pFrameInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetInfo ( 
    enum_FRAMEINFO_FLAGS dwFieldSpec,
@@ -38,6 +29,15 @@ int GetInfo ( 
    FRAMEINFO[]          pFrameInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetInfo ( 
+   FRAMEINFO_FLAGS dwFieldSpec,
+   UINT            nRadix,
+   FRAMEINFO*      pFrameInfo
+);
+```
+---
 
 ## Parameters
 `dwFieldSpec`\

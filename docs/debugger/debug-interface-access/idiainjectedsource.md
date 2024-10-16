@@ -1,30 +1,28 @@
 ---
-description: "Accesses injected source code stored in the DIA data source."
-title: "IDiaInjectedSource | Microsoft Docs"
+description: Accesses injected source code stored in the DIA data source.
+title: IDiaInjectedSource
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaInjectedSource interface"
-ms.assetid: 75192c5c-812d-4675-9dc5-4c2cff3ba503
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaInjectedSource
-Accesses injected source code stored in the DIA data source.
+
+Accesses injected source code stored in the Debug Interface Access (DIA) data source.
 
 ## Syntax
 
-```
-IDiaInjectedSource : IUnknown
-```
+`IDiaInjectedSource : IUnknown`
 
 ## Methods in Vtable Order
+
 The following table shows the methods of `IDiaInjectedSource`.
 
 |Method|Description|
@@ -38,15 +36,18 @@ The following table shows the methods of `IDiaInjectedSource`.
 |[IDiaInjectedSource::get_source](../../debugger/debug-interface-access/idiainjectedsource-get-source.md)|Retrieves the source code bytes.|
 
 ## Remarks
+
 Injected source is text that is injected during compilation. This does not mean the preprocessor `#include` used in C++.
 
 ## Notes for Callers
+
 Obtain this interface by calling the [IDiaEnumInjectedSources::Item](../../debugger/debug-interface-access/idiaenuminjectedsources-item.md) or [IDiaEnumInjectedSources::Next](../../debugger/debug-interface-access/idiaenuminjectedsources-next.md) methods. See the [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) interface for an example of obtaining the `IDiaInjectedSource` interface.
 
 ## Example
+
 This example displays the data available from the `IDiaInjectedSource` interface. For an alternative approach using the [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md) interface, see the example in the [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) interface.
 
-```C++
+```c++
 void PrintInjectedSource(IDiaInjectedSource* pSource)
 {
     ULONGLONG codeLength      = 0;
@@ -80,7 +81,7 @@ void PrintInjectedSource(IDiaInjectedSource* pSource)
         wprintf(L"\n");
 
         wprintf(L"  object filename: ");
-        if (pSource->get_filename(&objectFilename) == S_OK)
+        if (pSource->get_objectFilename(&objectFilename) == S_OK)
         {
             wprintf(L"%s", objectFilename);
         }
@@ -91,7 +92,7 @@ void PrintInjectedSource(IDiaInjectedSource* pSource)
         wprintf(L"\n");
 
         wprintf(L"  virtual filename: ");
-        if (pSource->get_filename(&virtualFilename) == S_OK)
+        if (pSource->get_virtualFilename(&virtualFilename) == S_OK)
         {
             wprintf(L"%s", virtualFilename);
         }
@@ -109,6 +110,7 @@ void PrintInjectedSource(IDiaInjectedSource* pSource)
 ```
 
 ## Requirements
+
 Header: Dia2.h
 
 Library: diaguids.lib
@@ -116,6 +118,7 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See also
+
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [IDiaEnumInjectedSources::Item](../../debugger/debug-interface-access/idiaenuminjectedsources-item.md)
 - [IDiaEnumInjectedSources::Next](../../debugger/debug-interface-access/idiaenuminjectedsources-next.md)

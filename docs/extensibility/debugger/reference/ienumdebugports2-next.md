@@ -1,36 +1,27 @@
 ---
 description: "Returns the next set of elements from the ports enumeration."
-title: IEnumDebugPorts2::Next | Microsoft Docs
+title: IEnumDebugPorts2::Next
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugPorts2::Next
 helpviewer_keywords:
 - IEnumDebugPorts2::Next
-ms.assetid: 3f43d18c-6bd1-4ddd-95ef-9550abd2ad09
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugPorts2::Next
+
 Returns the next set of elements from the enumeration.
 
 ## Syntax
 
-```cpp
-HRESULT Next(
-   ULONG         celt,
-   IDebugPort2** rgelt,
-   ULONG*        pceltFetched
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Next(
    uint          celt,
@@ -38,6 +29,15 @@ int Next(
    ref uint      pceltFetched
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Next(
+   ULONG         celt,
+   IDebugPort2** rgelt,
+   ULONG*        pceltFetched
+);
+```
+---
 
 ## Parameters
 `celt`\

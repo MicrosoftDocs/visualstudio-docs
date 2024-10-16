@@ -1,21 +1,19 @@
 ---
 description: "Represents a numeric alias for a variable."
-title: IDebugAlias | Microsoft Docs
+title: IDebugAlias
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugAlias
 helpviewer_keywords:
 - IDebugAlias interface
-ms.assetid: 3cc4c9a4-7805-4239-b00e-eb4a024f3c55
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugAlias
+
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 

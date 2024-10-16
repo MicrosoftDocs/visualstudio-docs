@@ -1,20 +1,17 @@
 ---
-title: Processes | Microsoft Docs
+title: Processes
 description: This article describes the definition and role of a process in the debugger architecture in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], processes
-ms.assetid: a6a1efdc-b243-40c8-a778-6f69f6b018be
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Processes
+
 In the debugger architecture, a *process*:
 
 - Is a container for a set of programs. It is closely analogous to a Windows process, which is a container for a set of threads.

@@ -1,28 +1,28 @@
 ---
-title: "Writing Multi-Processor-Aware Loggers | Microsoft Docs"
+title: "Writing Multi-Processor-Aware Loggers"
 description: Learn how MSBuild provides a multi-processor-aware logger and logging model, and lets you create custom "forwarding loggers."
-ms.custom: SEO-VS-2020
-ms.date: "11/04/2016"
+ms.date: 04/03/2024
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "msbuild, multi-proc aware loggers"
   - "multi-proc loggers"
   - "loggers, multi-proc"
-ms.assetid: ff987d1b-1798-4803-9ef6-cc8fcc263516
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # Write multi-processor-aware loggers
 
-The ability of MSBuild to take advantage of multiple processors can decrease project building time, but it also adds complexity to build event logging. In a single-processor environment, events, messages, warnings, and errors arrive at the logger in a predictable, sequential manner. However, in a multi-processor environment, events from different sources can arrive at the same time or out of sequence. To provide for this, MSBuild provides a multi-processor-aware logger and a new logging model, and lets you create custom "forwarding loggers."
+The ability of MSBuild to take advantage of multiple processors can decrease project building time, but it also adds complexity to build event logging. In a single-processor environment, events, messages, warnings, and errors arrive at the logger in a predictable, sequential manner. However, in a multi-processor environment, events from different sources can arrive at the same time or out of sequence.
+
+Generating a binary log (`-binlog` or `-bl` switch) and viewing it with the [structured log viewer](https://msbuildlog.com/) largely solves this issue. With MSBuild version 17.8 or later, you can also try the terminal logger (`-tl` switch) for more user-friendly logging output in real time at the console.
+
+For a more general solution, MSBuild provides a multi-processor-aware logger and a logging model that you can use to create custom "forwarding loggers."
 
 ## Multi-processor logging challenges
 
- When you build one or more projects on a multi-processor or multi-core system, MSBuild build events for all the projects are generated at the same time. An avalanche of event messages may arrive at the logger at the same time or out of sequence. Because an MSBuild 2.0 logger is not designed to handle this situation, it can overwhelm the logger and cause increased build times, incorrect logger output, or even a broken build. To address these issues, the logger (starting in MSBuild 3.5) can process out-of-sequence events and correlate events and their sources.
+ When you build one or more projects on a multi-processor or multi-core system, MSBuild build events for all the projects are generated at the same time. An avalanche of event messages may arrive at the logger at the same time or out of sequence. Because an MSBuild 2.0 logger is not designed to handle this situation, it can overwhelm the logger and cause increased build times, incorrect logger output, or even a broken build. To address these issues, the logger can process out-of-sequence events and correlate events and their sources.
 
  You can improve logging efficiency even more by creating a custom forwarding logger. A custom forwarding logger acts as a filter by letting you choose, before you build, only the events you want to monitor. When you use a custom forwarding logger, unwanted events cannot overwhelm the logger, clutter your logs, or slow build times.
 
@@ -69,13 +69,25 @@ public interface INodeLogger: ILogger
 
 - Write your own custom forwarding logger.
 
-You can modify ConfigurableForwardingLogger to suit your requirements. To do this, call the logger on the command line by using *MSBuild.exe*, and list the build events that you want the logger to forward to the central node.
+You can modify `ConfigurableForwardingLogger` to suit your requirements. To do this, call the logger on the command line by using *MSBuild.exe*, and list the build events that you want the logger to forward to the central node.
 
-As an alternative, you can create a custom forwarding logger. By creating a custom forwarding logger, you can fine-tune the behavior of the logger. However, creating a custom forwarding logger is more complex than just customizing the ConfigurableForwardingLogger. For more information, see [Creating forwarding loggers](../msbuild/creating-forwarding-loggers.md).
+As an alternative, you can create a custom forwarding logger. By creating a custom forwarding logger, you can fine-tune the behavior of the logger. However, creating a custom forwarding logger is more complex than just customizing the ConfigurableForwardingLogger. You can create a forwarding logger by implementing the <xref:Microsoft.Build.Framework.IForwardingLogger> interface, which derives from <xref:Microsoft.Build.Framework.ILogger>. The interface is defined as:
+
+```csharp
+public interface IForwardingLogger: INodeLogger
+{
+    public IEventRedirector EventRedirector { get; set; }
+    public int NodeId { get; set; }
+}
+```
+
+To forward an event that your logger cares about, call the <xref:Microsoft.Build.Framework.IEventRedirector.ForwardEvent%2A> method of the <xref:Microsoft.Build.Framework.IEventRedirector> interface in your forwarding logger. Pass the appropriate <xref:Microsoft.Build.Framework.BuildEventArgs>, or a derivative, as the parameter. The events will then be forwarded to the central logger and can be acted on there.
+
+For more information, see [Creating forwarding loggers](../msbuild/creating-forwarding-loggers.md).
 
 ## Using the ConfigurableForwardingLogger for simple distributed logging
 
- To attach either a ConfigurableForwardingLogger or a custom forwarding logger, use the `-distributedlogger` switch (`-dl` for short) in an *MSBuild.exe* command-line build. The format for specifying the names of the logger types and classes is the same as that for the `-logger` switch, except that a distributed logger always has two logging classes instead of one, the forwarding logger and the central logger. The following is an example of how to attach a custom forwarding logger named XMLForwardingLogger.
+ To attach either a `ConfigurableForwardingLogger` or a custom forwarding logger, use the `-distributedlogger` switch (`-dl` for short) in an *MSBuild.exe* command-line build. The format for specifying the names of the logger types and classes is the same as that for the `-logger` switch, except that a distributed logger always has two logging classes instead of one, the forwarding logger and the central logger. The following is an example of how to attach a custom forwarding logger named XMLForwardingLogger.
 
 ```cmd
 msbuild.exe myproj.proj -distributedlogger:XMLCentralLogger,MyLogger,Version=1.0.2,Culture=neutral*XMLForwardingLogger,MyLogger,Version=1.0.2,Culture=neutral
@@ -84,7 +96,7 @@ msbuild.exe myproj.proj -distributedlogger:XMLCentralLogger,MyLogger,Version=1.0
 > [!NOTE]
 > An asterisk (*) must separate the two logger names in the `-dl` switch.
 
- Using the ConfigurableForwardingLogger is like using any other logger (as outlined in [Obtaining build logs](../msbuild/obtaining-build-logs-with-msbuild.md)), except that you attach the ConfigurableForwardingLogger logger instead of the typical MSBuild logger and you specify as parameters the events that you want the ConfigurableForwardingLogger to pass on to the central node.
+ Using the `ConfigurableForwardingLogger` is like using any other logger (as outlined in [Obtaining build logs](../msbuild/obtaining-build-logs-with-msbuild.md)), except that you attach the ConfigurableForwardingLogger logger instead of the typical MSBuild logger and you specify as parameters the events that you want the ConfigurableForwardingLogger to pass on to the central node.
 
  For example, if you want to be notified only when a build starts and ends, and when an error occurs, you would pass `BUILDSTARTEDEVENT`, `BUILDFINISHEDEVENT`, and `ERROREVENT` as parameters. Multiple parameters can be passed by separating them with semi-colons. The following is an example of how to use the ConfigurableForwardingLogger to forward only the `BUILDSTARTEDEVENT`, `BUILDFINISHEDEVENT`, and `ERROREVENT` events.
 
@@ -115,6 +127,6 @@ msbuild.exe myproj.proj -distributedlogger:XMLCentralLogger,MyLogger,Version=1.0
 |NOSUMMARY|
 |SHOWCOMMANDLINE|
 
-## See also
+## Related content
 
 - [Creating forwarding loggers](../msbuild/creating-forwarding-loggers.md)

@@ -1,7 +1,6 @@
 ---
 title: "Customize a Ribbon for Outlook"
-description: Learn that when you customize the ribbon in Microsoft Office Outlook, you must consider where your custom ribbon will appear in the application.
-ms.custom: SEO-VS-2020
+description: Customize the ribbon in Microsoft Office Outlook and review consideration for your application, such as the location of the ribbon.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -15,12 +14,11 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], Outlook"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Customize a ribbon for Outlook
+
   When you customize the ribbon in Microsoft Office Outlook, you must consider where your custom ribbon will appear in the application. Outlook displays the ribbon in the main application user interface (UI) and in windows that open when users perform certain tasks, such as creating e-mail messages. These application windows are named inspectors.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
@@ -42,10 +40,14 @@ ms.workload:
 
  The following code example demonstrates how to display a custom ribbon only in the `Microsoft.Outlook.Mail.Compose` inspector. This is the inspector that opens when a user creates a new e-mail message. The ribbon to display is specified in the `GetResourceText()` method, which is generated in the **Ribbon** class. For more information about the **Ribbon** class, see [Ribbon XML](../vsto/ribbon-xml.md).
 
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_RibbonOutlookBasic/Ribbon1.cs" id="Snippet1":::
- :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_RibbonOutlookBasic/Ribbon1.vb" id="Snippet1":::
 
-## See also
+ ### [VB](#tab/vb)
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_RibbonOutlookBasic/Ribbon1.vb" id="Snippet1":::
+ ---
+
+## Related content
 - [Access the Ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [Ribbon designer](../vsto/ribbon-designer.md)

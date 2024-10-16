@@ -1,16 +1,12 @@
 ---
 title: 'Sample XSD File: Simple Schema'
-description: View the sample XSD file for a simple purchase order schema that is used in various examples in the XSD Schema Designer documentation.
-ms.custom: SEO-VS-2020
+description: Review the sample XSD file for a simple purchase order schema used in several examples in the XSD Schema Designer documentation.
 ms.date: 11/04/2016
 ms.topic: sample
-ms.assetid: f7e1dde1-b4f6-4371-add4-935b68ec77d7
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xml-tools
-ms.workload:
-- multiple
+author: dzsquared
+ms.author: drskwier
+manager: mijacobs
+ms.subservice: xml-tools
 ---
 # Sample XSD file: Simple schema
 

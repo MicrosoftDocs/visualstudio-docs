@@ -1,20 +1,17 @@
 ---
 title: Advanced Build Settings Dialog Box (C#)
 description: Learn how you can use Visual Studio to specify the project's advanced build configuration properties.
-ms.custom: SEO-VS-2020
 ms.date: 08/05/2019
-ms.technology: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: reference
 f1_keywords:
 - cs.AdvancedBuildSettings
 helpviewer_keywords:
 - Build options [C#], advanced
-ms.assetid: 141f2dee-1563-4ce6-ba37-32920b082519
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.workload:
-- dotnet
+manager: mijacobs
+monikerRange: 'vs-2019'
 ---
 # Advanced Build Settings dialog box (C#)
 
@@ -26,19 +23,7 @@ The following options enable you to set general advanced settings.
 
 **Language Version**
 
-::: moniker range=">=vs-2019"
-
 Links to [/langversion (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/langversion-compiler-option), which provides information about how a default language version is chosen based on a project's target framework.
-
-::: moniker-end
-
-::: moniker range="vs-2017"
-
-Specifies the version of the language to use. The feature set is different in each version, so this option can be used to force the compiler to allow only a subset of the implemented features, or to enable only those features compatible with an existing standard.
-
-The default value is C# 7.0.
-
-::: moniker-end
 
 **Internal Compiler Error Reporting**
 

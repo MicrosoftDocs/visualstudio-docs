@@ -1,21 +1,18 @@
 ---
-title: Type Visualizer and Custom Viewer | Microsoft Docs
+title: Type Visualizer and Custom Viewer
 description: Learn about type visualizer components and the custom viewers, which display data in a specific format, and the differences between them.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], custom viewer
 - debugging [Debugging SDK], type visualizer
-ms.assetid: fd3691e6-9c78-4767-846f-43f85ada4375
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Type visualizer and custom viewer
+
 A type visualizer is a component that displays a piece of data in a specific format. The format is entirely up to who implements the visualizer, be it the end user or a third-party supplier of visualizers.
 
  A custom viewer is the part of a custom expression evaluator that displays a piece of data in a specific format. This format is entirely up to the implementer of the custom viewer, which means that the format is up to the implementer of the expression evaluator (EE).

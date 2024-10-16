@@ -1,41 +1,41 @@
 ---
 description: "Creates an enumerator for selected local variables of the method."
-title: IDebugMethodField::EnumLocals | Microsoft Docs
+title: IDebugMethodField::EnumLocals
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugMethodField::EnumLocals
 helpviewer_keywords:
 - IDebugMethodField::EnumLocals method
-ms.assetid: b0456a6d-2b96-49e2-a871-516571b4f6a5
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugMethodField::EnumLocals
+
 Creates an enumerator for selected local variables of the method.
 
 ## Syntax
 
-```cpp
-HRESULT EnumLocals(
-    IDebugAddress*     pAddress,
-    IEnumDebugFields** ppLocals
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumLocals(
     IDebugAddress        pAddress,
     out IEnumDebugFields ppLocals
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumLocals(
+    IDebugAddress*     pAddress,
+    IEnumDebugFields** ppLocals
+);
+```
+---
 
 ## Parameters
 `pAddress`\

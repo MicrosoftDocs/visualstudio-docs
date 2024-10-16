@@ -1,22 +1,19 @@
 ---
-title: Sample Implementation of Expression Evaluation | Microsoft Docs
+title: Sample Implementation of Expression Evaluation
 description: Learn how Visual Studio calls ParseText to produce an IDebugExpression2 object for a Watch windows expression.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: sample
 helpviewer_keywords:
 - expression evaluators
 - debugging [Debugging SDK], expression evaluators
 - expression evaluation, examples
-ms.assetid: 2a5f04b8-6c65-4232-bddd-9093653a22c4
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Sample implementation of expression evaluation
+
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 

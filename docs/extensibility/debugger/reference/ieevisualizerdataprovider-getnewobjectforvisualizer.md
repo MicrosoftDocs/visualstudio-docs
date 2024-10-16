@@ -1,39 +1,39 @@
 ---
 description: "This method gets a new object for the visualizer."
-title: IEEVisualizerDataProvider::GetNewObjectForVisualizer | Microsoft Docs
+title: IEEVisualizerDataProvider::GetNewObjectForVisualizer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEEVisualizerDataProvider::GetNewObjectForVisualizer
 helpviewer_keywords:
 - IEEVisualizerDataProvider::GetNewObjectForVisualizer method
-ms.assetid: a898d549-4898-4fde-aad1-e8bb89129652
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEEVisualizerDataProvider::GetNewObjectForVisualizer
+
 This method gets a new object for the visualizer. This method will always create a new object from the existing object.
 
 ## Syntax
 
-```cpp
-HRESULT GetNewObjectForVisualizer(
-   IDebugObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetNewObjectForVisualizer(
    out IDebugObject ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetNewObjectForVisualizer(
+   IDebugObject** ppObject
+);
+```
+---
 
 ## Parameters
 `ppObject`\

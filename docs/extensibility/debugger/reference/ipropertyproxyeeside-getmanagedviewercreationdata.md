@@ -1,39 +1,27 @@
 ---
 description: "Retrieves information about the viewer for this property type in order to instantiate that viewer."
-title: IPropertyProxyEESide::GetManagedViewerCreationData | Microsoft Docs
+title: IPropertyProxyEESide::GetManagedViewerCreationData
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IPropertyProxyEESide::GetManagedViewerCreationData
 helpviewer_keywords:
 - IPropertyProxyEESide::GetManagedViewerCreationData
-ms.assetid: c4eb4d60-8816-4d52-bc8d-dffd4f066499
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IPropertyProxyEESide::GetManagedViewerCreationData
+
 Retrieves information about the viewer for this property type in order to instantiate that viewer.
 
 ## Syntax
 
-```cpp
-HRESULT GetManagedViewerCreationData(
-   BSTR*                  assemName,
-   IEEDataStorage**       assemBytes,
-   IEEDataStorage**       assemPdb,
-   BSTR*                  className,
-   ASSEMBLYLOCRESOLUTION* alr,
-   BOOL*                  replacementOk
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetManagedViewerCreationData(
    out string                     assemName,
@@ -44,6 +32,18 @@ int GetManagedViewerCreationData(
    out int                        replacementOk
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetManagedViewerCreationData(
+   BSTR*                  assemName,
+   IEEDataStorage**       assemBytes,
+   IEEDataStorage**       assemPdb,
+   BSTR*                  className,
+   ASSEMBLYLOCRESOLUTION* alr,
+   BOOL*                  replacementOk
+);
+```
+---
 
 ## Parameters
 `assemName`\

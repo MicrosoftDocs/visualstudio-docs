@@ -1,18 +1,15 @@
 ---
-title: "Analyze performance of .NET asynchronous code | Microsoft Docs"
+title: "Analyze performance of .NET asynchronous code"
 description: Use the .NET Async tool to analyze performance of asynchronous code. There is timing for each task listed. To see the code, use Go To Source File. 
-ms.custom: SEO-VS-2020
 ms.date: "5/5/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "asynchronous, async, profiling"
-author: "esteban-herrera"
-ms.author: "esherrer"
-manager: AndSter
-ms.workload:
-  - "multiple"
+author: mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
-
 # Analyze performance of .NET asynchronous code
 
 Use the .NET Async tool to analyze the performance of asynchronous code in your app.
@@ -44,6 +41,8 @@ To further investigate a specific task or activity, right-click the row. Then se
 
 ![.NET Async tool with Go To Source File selected](../profiling/media/async-tool-gotosource.png ".NET Async tool with Go To Source File selected")
 
-## See also
+## Related content
 
 - [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md)
+- [Identify hot paths with Flame Graph](../profiling/flame-graph.md)
+- [Analyze performance by using CPU profiling](../profiling/cpu-usage.md)

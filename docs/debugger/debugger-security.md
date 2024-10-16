@@ -1,7 +1,6 @@
 ---
-title: "Debugger Security | Microsoft Docs"
+title: "Debugger Security"
 description: Learn the security risks posed by debugging, risks both to the debugging machine and to the machine being debugged. Follow the recommendations to minimize risk. 
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,15 +12,13 @@ helpviewer_keywords:
   - "debugging [Visual Studio], security"
   - "debugger, security"
   - "security [Visual Studio], debugging best practices"
-ms.assetid: d4fc3c43-e844-419c-8dbb-551cc2a9b09e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Debugger Security
+
 The ability to debug another process gives you extremely broad powers that you would not otherwise have, especially when debugging remotely. A malicious debugger could inflict widespread damage on the machine being debugged.
 
  However, many developers do not realize that the security threat can also flow in the opposite direction. It is possible for malicious code in the debuggee process to jeopardize the security of the debugging machine: there are a number of security exploits that must be guarded against.
@@ -36,7 +33,7 @@ The ability to debug another process gives you extremely broad powers that you w
 
 - Be careful when attaching to an untrusted user's process: when you do so, you assume that it is trustworthy. When you attempt to attach to an untrusted user's process, a security warning dialog box confirmation will appear asking whether you want to attach to the process. "Trusted users" include you, and a set of standard users commonly defined on machines that have the .NET Framework installed, such as **aspnet**, **localsystem**, **networkservice**, and **localservice**. For more information, see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md).
 
-- Be careful when downloading a project off the Internet and loading it into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. This is very risky to do even without debugging. When you do this, you are assuming that the project and the code that it contains are trustworthy.
+- Be careful when downloading a project off the Internet and loading it into Visual Studio. This is very risky to do even without debugging. When you do this, you are assuming that the project and the code that it contains are trustworthy.
 
   For more information, see [Debugging Managed Code](../debugger/debugging-managed-code.md).
 
@@ -54,7 +51,7 @@ The ability to debug another process gives you extremely broad powers that you w
  For information on configuring msvsmon, see [Set up the remote debugger](../debugger/remote-debugging.md#bkmk_setup).
 
 ### Web Services Debugging Security
- It is safer to debug locally, but since you probably do not have [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installed on the web server, local debugging might not be practical. Generally, debugging Web services is done remotely, except during development, so the recommendations for remote debugging security also apply to Web services debugging. Here are some additional best practices. For more information, see [Debugging XML Web Services](/previous-versions/ms241873(v=vs.100)).
+ It is safer to debug locally, but since you probably do not have Visual Studio installed on the web server, local debugging might not be practical. Generally, debugging Web services is done remotely, except during development, so the recommendations for remote debugging security also apply to Web services debugging. Here are some additional best practices. For more information, see [Debugging XML Web Services](/previous-versions/ms241873(v=vs.100)).
 
 - Do not enable debugging on a Web server that has been compromised.
 
@@ -63,10 +60,10 @@ The ability to debug another process gives you extremely broad powers that you w
 - Be especially careful if you are debugging a Web service that is exposed on the Internet.
 
 ### External Components
- Be aware of the trust status of external components that your program interacts with, especially if you did not write the code. Also be aware of components that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or the debugger might use.
+ Be aware of the trust status of external components that your program interacts with, especially if you did not write the code. Also be aware of components that Visual Studio or the debugger might use.
 
 ### Symbols and Source Code
- Two [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] tools that require thinking about security are the following:
+ Two Visual Studio tools that require thinking about security are the following:
 
 - Source Server, which provides you with versions of source code from a source code repository. It is useful when you do not have the current version of a program's source code. [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning-debugger-must-execute-untrusted-command.md).
 
@@ -74,7 +71,7 @@ The ability to debug another process gives you extremely broad powers that you w
 
   See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 
-## See also
+## Related content
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md)

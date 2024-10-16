@@ -1,17 +1,18 @@
 ### YamlMime:Landing
 
-title: Visual Studio debugger documentation # < 60 chars
+title: Debugger documentation - Visual Studio (Windows) # < 60 chars
 summary: The Visual Studio debugger helps you observe the run-time behavior of your program and find problems. # < 160 chars
 
 metadata:
-  title: Debugging in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Learn how to use Visual Studio to debug applications and code.
+  title: Debugger documentation - Visual Studio (Windows) # Required; page title displayed in search results. Include the brand. < 60 chars.
+  titleSuffix: ""
+  description: Explore documentation to help you use Visual Studio to debug applications and code, observe application run-time behavior, and find and fix problems in the code.
   ms.topic: landing-page
-  ms.technology: vs-ide-debug
+  ms.subservice: debug-diagnostics
   author: mikejo5000
   ms.author: mikejo
-  manager: jmartens
-  ms.date: 09/20/2019
+  manager: mijacobs
+  ms.date: 06/13/2023
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -19,55 +20,42 @@ landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
   # Card (optional)
-  - title: About debugging
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: What is debugging?
-            url: what-is-debugging.md
-          - text: First look at the debugger
-            url: debugger-feature-tour.md
-          - text: FAQ - Find your debugging feature
-            url: find-your-debugging-task.yml
-
-  # Card (optional)
   - title: Get started
     linkLists:
       - linkListType: tutorial
         links:
-          - text: Debugging for absolute beginners
-            url: debugging-absolute-beginners.md
           - text: Learn to debug C#
             url: ../get-started/csharp/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
           - text: Learn to debug C++
             url: getting-started-with-the-debugger-cpp.md
           - text: Learn to debug Visual Basic
             url: ../get-started/visual-basic/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
+          - text: Try AI-assisted debugging
+            url: debug-with-copilot.md  
           - text: Run Python code in the debugger >>
             url: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
+          - text: Debugging for absolute beginners
+            url: debugging-absolute-beginners.md
 
-  # Card
-  - title: Pause and navigate code
+  - title: Fundamentals
     linkLists:
+      - linkListType: overview
+        links:
+          - text: First look at the debugger
+            url: debugger-feature-tour.md
+          - text: What is debugging?
+            url: what-is-debugging.md
+          - text: Debugger feature finder
+            url: find-your-debugging-task.yml
       - linkListType: how-to-guide
         links:
-          - text: Navigate through code with the debugger
+          - text: Code stepping
             url: navigating-through-code-with-the-debugger.md
-          - text: Use breakpoints
+          - text: Set a breakpoint
             url: using-breakpoints.md
           - text: Edit code and continue debugging
             url: edit-and-continue.md
-
-  # Card
-  - title: Inspect data
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Inspect variables
-            url: autos-and-locals-windows.md
-          - text: Set a watch on variables
-            url: watch-and-quickwatch-windows.md
-          - text: View the call stack
+          - text: Call stack
             url: how-to-use-the-call-stack-window.md
 
     # Card
@@ -85,7 +73,41 @@ landingContent:
             url: using-the-debuggerdisplay-attribute.md
           - text: Debug performance issues >>
             url: ../profiling/profiling-feature-tour.md
-    # Card
+
+  # Card
+  - title: Inspect data
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Inspect variables
+            url: autos-and-locals-windows.md
+          - text: Set a watch on variables
+            url: watch-and-quickwatch-windows.md
+
+  - title: Measure performance
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Get started analyzing CPU usage
+            url: ../profiling/beginners-guide-to-performance-profiling.md
+          - text: Get started measuring memory usage
+            url: ../profiling/memory-usage.md
+          - text: AI-assisted CPU usage auto insights with Copilot
+            url: debug-with-copilot.md#get-ai-assistance-for-auto-insights
+      - linkListType: overview
+        links:
+          - text: First look at profiling tools
+            url: ../profiling/profiling-feature-tour.md
+          - text: Which tool should I use?
+            url: ../profiling/choose-performance-tool.md
+          - text: Ways to run profiling tools
+            url: ../profiling/running-profiling-tools-with-or-without-the-debugger.md
+      - linkListType: concept
+        links:
+         - text: Understanding performance collection methods
+           url: ../profiling/understanding-performance-collection-methods-perf-profiler.md
+
+  # Card
   - title: Collaborate
     linkLists:
       - linkListType: tutorial

@@ -1,9 +1,8 @@
 ---
-title: "Remote Debugging Errors and Troubleshooting | Microsoft Docs"
+title: "Remote Debugging Errors and Troubleshooting"
 description: View links to common remote debugging errors in Visual Studio. Learn how to run the remote debugger as an administrator.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "error-reference"
 dev_langs:
   - "CSharp"
   - "VB"
@@ -19,10 +18,8 @@ helpviewer_keywords:
   - "remote debugging, errors"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Remote Debugging Errors and Troubleshooting
 
@@ -42,7 +39,7 @@ You may come across issues if you don't run the remote debugger as an administra
 
 ### When running the remote debugger as a service
 
-When running the remote debugger as s service, we recommend running it as an administrator for several reasons:
+When running the remote debugger as a service, we recommend running it as an administrator for several reasons:
 
 - The remote debugger service only allows connections from administrators, so there are **no** new security risks introduced by running it as an administrator.
 
@@ -70,5 +67,26 @@ You want to run the remote debugger as an administrator in several scenarios:
 
 You do **not** want to run as an administrator if you want to launch processes, and the process you want to launch should **not** be an administrator.
 
+## Archived error reference articles
+
+The following remote debugging error reference articles are available in the older Visual Studio documentation.
+
+[Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer does not have permission to connect to this computer](/previous-versions/visualstudio/visual-studio-2017/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-no-permission)
+
+[Error: Workgroup Remote Logon Failure](/previous-versions/visualstudio/visual-studio-2017/debugger/error-workgroup-remote-logon-failure)
+
+[Error: Firewall on Local Machine](/previous-versions/visualstudio/visual-studio-2017/debugger/error-firewall-on-local-machine)
+
+[Error: Firewall No Authentication](/previous-versions/visualstudio/visual-studio-2017/debugger/error-firewall-no-authentication)
+
+[Error: RPC Requires Authentication](/previous-versions/visualstudio/visual-studio-2017/debugger/error-rpc-requires-authentication)
+
+[Error: You do not have permission to inspect the process's identity](/previous-versions/visualstudio/visual-studio-2017/debugger/error-you-do-not-have-permission-to-inspect-the-process-s-identity)
+
+[Error: Mixed mode debugging is supported only when using Microsoft .NET Framework 2.0 or greater](/previous-versions/visualstudio/visual-studio-2017/debugger/error-mixed-mode-debugging-is-supported-only-when-using-microsoft-dotnet-framework-2-0-or-greater)
+
+[Mixed mode debugging for IA64 processes is unsupported.](/previous-versions/visualstudio/visual-studio-2017/debugger/mixed-mode-debugging-for-ia64-processes-is-unsupported)
+
 ## See also
+
 - [Remote Debugging](../debugger/remote-debugging.md)

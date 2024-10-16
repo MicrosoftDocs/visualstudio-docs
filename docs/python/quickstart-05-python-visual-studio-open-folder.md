@@ -1,112 +1,251 @@
 ---
-title: Quickstart - Open a Python code folder
-description: In this quickstart, you open and run Python code from a folder without using a Visual Studio project (Visual Studio 2019 only).
-ms.date: 03/12/2019
+title: "Quickstart: Open and run Python code in a folder"
+description: Follow guided steps to open and run Python code from a folder in Visual Studio without using a project in Visual Studio 2019 and later.
+ms.date: 04/18/2024
 ms.topic: quickstart
-author: JoshuaPartlow
-ms.author: joshuapa
-manager: jmartens
-ms.technology: vs-python
-ms.custom: seodec18
-ms.workload:
-  - python
-  - data-science
+author: cwebster-99
+ms.author: cowebster
+manager: mijacobs
+ms.subservice: python
 monikerRange: ">= vs-2019"
+
+# CustomerIntent: As a developer, I want to open and run Python code from a folder in Visual Studio without having to use a project for the code.
 ---
 
-# Quickstart: Open and run Python code in a folder
+# Quickstart: Open and run Python code in a folder in Visual Studio
 
-Once you've [installed Python support in Visual Studio 2019](installing-python-support-in-visual-studio.md), it's easy to run existing Python code in Visual Studio 2019 without creating a Visual Studio project.
+In this quickstart, you follow guided steps to run Python code in Visual Studio 2019 and later without having to create a Visual Studio project. Visual Studio makes it easy to open and run existing Python code from a folder. The same features and commands are available for your Python code development as when you choose to work with a project.
 
-> [!Note]
-> Visual Studio 2017 and earlier require you to create a Visual Studio project to run Python code, which you can easily do using a built-in project template. See [Quickstart: Create a Python project from existing code](quickstart-01-python-in-visual-studio-project-from-existing-code.md)
+## Prerequisites
 
-1. For this walkthrough, you can use any folder with Python code that you like. To follow along with the example shown here, clone the gregmalcolm/python_koans GitHub repository to your computer using the command `git clone https://github.com/gregmalcolm/python_koans` in an appropriate folder.
+- Visual Studio installed with support for Python workloads. For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
 
-1. Launch Visual Studio 2019 and in the start window, select **Open** at the bottom of the **Get started** column. Alternately, if you already have Visual Studio running, select the **File** > **Open** > **Folder** command instead.
+- The instructions in this quickstart apply to any folder with Python code. To follow along with the example described in this article, clone the `gregmalcolm/python_koans` GitHub repository to your computer by using the following command:
 
-    ![The Visual Studio startup screen](media/quickstart-open-folder/01-open-local-folder.png)
+   ```console
+   git clone https://github.com/gregmalcolm/python_koans
+   ```
 
-1. Navigate to the folder containing your Python code, then choose **Select Folder**. If you're using the python_koans code, make sure to select the `python3` folder within the clone folder.
+Visual Studio for Mac isn't supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
-    ![The Select Folder dialog from the Open Folder command](media/quickstart-open-folder/02-select-folder.png)
+## Open the local code folder
 
-1. Visual Studio displays the folder in **Solution Explorer** in what's called **Folder View**. You can expand and collapse folders using the arrows on the left edges of the folder names:
+Follow these steps to open a local folder with existing Python code in Visual Studio:
 
-    ![Controls to expand and collapse folders in Solution Explorer](media/quickstart-open-folder/03-expand-collapse-folders.png)
+1. Launch Visual Studio. In the start window, select **Open a local folder** in the **Get started** column:
 
-1. When opening a Python folder, Visual Studio creates several hidden folders to manage settings related to the project. To see these folders (and any other hidden files and folders, such as the *.git* folder), select the **Show All Files** toolbar button:
+   ::: moniker range=">=vs-2022"
 
-    ![A view of hidden folders in Solution Explorer](media/quickstart-open-folder/05-view-hidden-folders.png)
+   :::image type="content" source="media/quickstart-open-folder/vs-2022/open-local-folder.png" alt-text="Screenshot that shows how to select the Open a local folder option when Visual Studio 2022 starts." border="false" lightbox="media/quickstart-open-folder/vs-2022/open-local-folder.png":::
 
-1. To run the code, you first need to identify the startup or primary program file. In the example shown here, the startup file *contemplate-koans.py*. Right-click that file and select **Set as Startup Item**.
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
 
-    ![Setting a startup item in Solution Explorer](media/quickstart-open-folder/06-set-as-startup-item-command.png)
+   :::image type="content" source="media/quickstart-open-folder/open-local-folder.png" alt-text="Screenshot that shows how to select the Open a local folder option when Visual Studio starts." border="false" lightbox="media/quickstart-open-folder/open-local-folder.png":::
 
-    > [!Important]
-    > If your startup item is not located in the root of the folder you opened, you must also add a line to the launch configuration JSON file as described in the section, [Set a working directory](#set-a-working-directory).
+   If you're using the `python_koans` repository example code, make sure to select the _python3_ folder within the clone folder.
 
-1. Run the code by pressing **Ctrl**+**F5** or selecting **Debug** > **Start without Debugging**. You can also select the toolbar button that shows the startup item with a play button, which runs code in the Visual Studio debugger. In all cases, Visual Studio detects that your startup item is a Python file, so it automatically runs the code in the default Python environment. (That environment is shown to the right of the startup item on the toolbar.)
+   ::: moniker-end
 
-    ![Start debugger toolbar button](media/quickstart-open-folder/07-start-debug-toolbar.png)
+   If Visual Studio is already running, you can select **File** > **Open** > **Folder** instead.
 
-1. The program's output appears in a separate command window:
+1. Browse to the folder that contains your Python code and choose **Select Folder**:
 
-    ![Output window for running Python code](media/quickstart-open-folder/08-result-window.png)
+   ::: moniker range=">=vs-2022"
 
-1. To run the code in a different environment, select that environment from the drop-down control on the toolbar, then launch the startup item again.
+   :::image type="content" source="media/quickstart-open-folder/vs-2022/select-folder.png" alt-text="Screenshot that shows how to select the local folder that has the existing Python code in Visual Studio 2022." lightbox="media/quickstart-open-folder/vs-2022/select-folder.png":::
 
-1. To close the folder in Visual Studio, select the **File** > **Close folder** menu command.
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
 
-## Set a working directory
+   :::image type="content" source="media/quickstart-open-folder/select-folder.png" alt-text="Screenshot that shows how to select the local folder that has the existing Python code in Visual Studio." lightbox="media/quickstart-open-folder/select-folder.png" :::
 
-By default, Visual Studio runs a Python project opened as a folder in the root of that same folder. The code in your project, however, might assume that Python is being run in a subfolder. For example, suppose you open the root folder of the python_koans repository and then set the *python3/contemplate-koans.py* file as startup item. If you then run the code, you see an error that the *koans.txt* file cannot be found. This error happens because *contemplate-koans.py* assumes that Python is being run in the *python3* folder rather than the repository root.
+   ::: moniker-end
+
+1. Visual Studio displays the files in **Solution Explorer** in the **Folder View**. You can expand and collapse a folder by using the arrow to the left of the folder name:
+
+   ::: moniker range=">=vs-2022"
+
+   :::image type="content" source="media/quickstart-open-folder/vs-2022/expand-collapse-folders.png" alt-text="Screenshot that shows the expand and collapse arrows for folders in Solution Explorer in Visual Studio 2022." border="false" lightbox="media/quickstart-open-folder/vs-2022/expand-collapse-folders.png":::
+
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
+
+   :::image type="content" source="media/quickstart-open-folder/expand-collapse-folders.png" alt-text="Screenshot that shows the expand and collapse arrows for folders in Solution Explorer in Visual Studio." border="false" lightbox="media/quickstart-open-folder/expand-collapse-folders.png":::
+
+   ::: moniker-end
+
+1. When you open a Python folder, Visual Studio creates several hidden folders to manage settings related to the program. To see these folders (and any other hidden files and folders, such as the _.git_ folder), select the **Show All Files** toolbar option:
+
+   ::: moniker range=">=vs-2022"
+
+   :::image type="content" source="media/quickstart-open-folder/vs-2022/view-hidden-folders.png" alt-text="Screenshot that shows how to view hidden folders and files in Solution Explorer in Visual Studio 2022." border="false" lightbox="media/quickstart-open-folder/vs-2022/view-hidden-folders.png":::
+
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
+
+   :::image type="content" source="media/quickstart-open-folder/view-hidden-folders.png" alt-text="Screenshot that shows how to view hidden folders and files in Solution Explorer in Visual Studio." border="false" lightbox="media/quickstart-open-folder/view-hidden-folders.png" :::
+
+   ::: moniker-end
+
+## Run the program
+
+After you open the existing Python code in Visual Studio, you can run the program. To run the code, you need to identify the **Startup File** (Startup Item) or primary program file for Visual Studio to execute the program. In this example, the startup file is _contemplate-koans.py_. 
+
+1. In **Solution Explorer**, right-click the _contemplate-koans.py_ file and select **Set as Startup Item**:
+
+   ::: moniker range=">=vs-2022"
+
+   :::image type="content" source="media/quickstart-open-folder/vs-2022/set-as-startup-item.png" alt-text="Screenshot that shows how to set the contemplate koans Python file as the startup item in Solution Explorer in Visual Studio 2022." border="false" lightbox="media/quickstart-open-folder/vs-2022/set-as-startup-item.png":::
+
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
+
+   :::image type="content" source="media/quickstart-open-folder/set-as-startup-item.png" alt-text="Screenshot that shows how to set the contemplate koans Python file as the startup item in Solution Explorer in Visual Studio." border="false" lightbox="media/quickstart-open-folder/set-as-startup-item.png":::
+
+   ::: moniker-end
+
+   > [!IMPORTANT]
+   > If your Startup Item isn't located in the root of the folder you opened, you must also add a line to the launch configuration JSON file as described in [Set working directory](#set-working-directory).
+
+1. Run the code by selecting **Debug** > **Start without Debugging** or use the keyboard shortcut **Ctrl**+**F5**. You can also select the solid play arrow next to the Startup Item name on the Visual Studio toolbar. This option runs the code in the Visual Studio **Debugger**.
+
+   ::: moniker range=">=vs-2022"
+
+   For all of these start methods, Visual Studio detects that your Startup Item is a Python file and automatically runs the code in the default Python environment. The current environment is shown to the right of the Startup Item name on the toolbar. In the following example, the current environment is **Python 3.11 (64-bit)**:
+
+   :::image type="content" source="media/quickstart-open-folder/vs-2022/start-debug-from-toolbar.png" alt-text="Screenshot that shows how to start the program with debugging by using the solid play arrow on the Visual Studio 2022 toolbar." border="false" lightbox="media/quickstart-open-folder/vs-2022/start-debug-from-toolbar.png":::
+
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
+
+   For all of these start methods, Visual Studio detects that your Startup Item is a Python file and automatically runs the code in the default Python environment. The current environment is shown to the right of the Startup Item name on the toolbar. In the following example, the current environment is **Python 3.6 (32-bit)**:
+
+   :::image type="content" source="media/quickstart-open-folder/start-debug-from-toolbar.png" alt-text="Screenshot that shows how to start the program with debugging by using the solid play arrow on the Visual Studio." lightbox="media/quickstart-open-folder/start-debug-from-toolbar.png":::
+
+   ::: moniker-end
+
+   If you don't see the current Python **Environment** on the toolbar, select **View** > **Other windows** > **Python Environments**.
+
+1. When the program runs, Visual Studio opens a command window to display the program output:
+
+   ::: moniker range=">=vs-2022"
+
+   :::image type="content" source="media/quickstart-open-folder/vs-2022/program-output-window.png" alt-text="Screenshot of the output window that Visual Studio 2022 opens for program output from the running Python code." lightbox="media/quickstart-open-folder/vs-2022/program-output-window.png":::
+
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
+
+   :::image type="content" source="media/quickstart-open-folder/program-output-window.png" alt-text="Screenshot of the output window that Visual Studio opens for program output from the running Python code." lightbox="media/quickstart-open-folder/program-output-window.png":::
+
+   ::: moniker-end
+
+   > [!NOTE]
+   > If you run the `python-koans` program with debugging, you need to change values in the code for the program to complete execution.
+
+1. You can run the code in a different Python environment:
+
+   1. Expand the current Python **Environment** dropdown list in the Visual Studio toolbar and select the desired environment.
+   
+   1. Restart your program.
+
+1. When you're ready to close the code folder in Visual Studio, select **File** > **Close folder**.
+
+## Set working directory
+
+By default, Visual Studio runs a Python project opened as a folder in the root of that same folder. However, the code in your project might expect Python to run in a subfolder. When your code expects to find files in different locations than the default configuration recognized by Visual Studio, you can experience errors when you try to run the code.
+
+Suppose you open the root folder of the `python_koans` repository and see a subfolder named _python3_ that contains a Python file named _contemplate-koans.py_. You decide to set the _python3/contemplate-koans.py_ file as the **Startup File**. When you run the code, you see an error that a file named _koans.txt_ can't be found. The error occurs because the _contemplate-koans.py_ file expects Python to run in the _python3_ folder rather than the repository root.
 
 In such cases, you must also add a line to the launch configuration JSON file to specify the working directory:
 
-1. Right-click the Python (*.py*) startup file in **Solution Explorer** and select **Debug and Launch Settings**.
+::: moniker range=">=vs-2022"
 
-    ![Screenshot of the Solution Explorer Folder View with the contemplate-koans.py file selected, and Debug and Launch Settings selected on the context menu.](media/quickstart-open-folder/09-debug-launch-settings-menu-command.png)
+1. In **Solution Explorer**, right-click the Python (_.py_) Startup File and select **Add Debug Configuration**:
 
-1. In the **Select debugger** dialog box that appears, select **Default** and then choose **Select**.
+   :::image type="content" source="media/quickstart-open-folder/vs-2022/add-debug-configuration.png" alt-text="Screenshot that shows how to select the Add Debug Configuration option for a selected file in Solution Explorer in Visual Studio 2022." border="false" lightbox="media/quickstart-open-folder/vs-2022/add-debug-configuration.png":::
 
-    ![Screenshot of the Select a Debugger dialog with the Default debugger selected and the Select button chosen.](media/quickstart-open-folder/10-select-debugger.png)
+1. In the **Select Debugger** dialog, select the **Default** option in the list, and then choose **Select**:
 
-    > [!Note]
-    > If you don't see **Default** as a choice, be sure that you chose a Python *.py* file when selecting the **Debug and Launch Settings** command. Visual Studio uses the file type to determine which debugger options to display.
+   :::image type="content" source="media/quickstart-open-folder/vs-2022/select-debugger.png" alt-text="Screenshot that shows how to select the Default Debugger in the Select a Debugger dialog in Visual Studio 2022." border="false" lightbox="media/quickstart-open-folder/vs-2022/select-debugger.png":::
 
-1. Visual Studio opens a file named *launch.vs.json*, which is located in the hidden *.vs* folder. This file describes the debugging context for the project. To specify a working directory, add a value for `"workingDirectory"`, as in  `"workingDirectory": "python3"` for python-koans example:
+   > [!NOTE]
+   > If you don't see **Default** as an option, be sure to choose a Python _.py_ file when you select the **Add Debug Configuration** command. Visual Studio uses the file type to determine which debugger options to display.
 
-    ```json
-    {
-      "version": "0.2.1",
-      "defaults": {},
-      "configurations": [
-        {
-          "type": "python",
-          "interpreter": "(default)",
-          "interpreterArguments": "",
-          "scriptArguments": "",
-          "env": {},
-          "nativeDebug": false,
-          "webBrowserUrl": "",
-          "project": "python3\\contemplate_koans.py",
-          "name": "contemplate_koans.py",
-          "workingDirectory": "python3"
-        }
-      ]
-    }
-    ```
+1. Visual Studio opens a file named _launch.vs.json_, which is located in the hidden _.vs_ folder. This file describes the debugging context for the project. To specify a working directory, add a value for the `"workingDirectory"` property. For the `python-koans` example, you can add the property and value, `"workingDirectory": "python3"`:
 
-1. Save the file and launch the program again, which now runs in the specified folder.
+   ```json
+   {
+     "version": "0.2.1",
+     "defaults": {},
+     "configurations": [
+       {
+         "type": "python",
+         "interpreter": "(default)",
+         "interpreterArguments": "",
+         "scriptArguments": "",
+         "env": {},
+         "nativeDebug": false,
+         "webBrowserUrl": "",
+         "project": "contemplate_koans.py",
+         "projectTarget": "",
+         "name": "contemplate_koans.py",
+         "workingDirectory": "python3"
+       }
+     ]
+   }
+   ```
 
-## Next steps
+1. Save your changes to the _launch.vs.json_ file.
 
-> [!div class="nextstepaction"]
-> [Tutorial: Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
+1. Run your program again. The code execution should now run in the specified folder.
 
-## See also
+::: moniker-end
+::: moniker range="vs-2019"
 
-- [Quickstart: Create a Python project from existing code](quickstart-01-python-in-visual-studio-project-from-existing-code.md)
-- [Quickstart: Create a Python project from a repository](quickstart-03-python-in-visual-studio-project-from-repository.md)
-- [Manually identify an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment)
+1. In **Solution Explorer**, right-click the Python (_.py_) Startup File and select **Debug and Launch Settings**:
+
+   :::image type="content" source="media/quickstart-open-folder/debug-launch-settings.png" alt-text="Screenshot that shows how to select the Debug and Launch Settings option for a selected file in Solution Explorer in Visual Studio." border="false" lightbox="media/quickstart-open-folder/debug-launch-settings.png" :::
+
+1. In the **Select Debugger** dialog, select the **Default** option in the list, and then choose **Select**:
+
+   :::image type="content" source="media/quickstart-open-folder/select-debugger.png" alt-text="Screenshot that shows how to select the Default Debugger in the Select a Debugger dialog in Visual Studio." border="false" lightbox="media/quickstart-open-folder/select-debugger.png":::
+
+   > [!NOTE]
+   > If you don't see **Default** as an option, be sure to choose a Python _.py_ file when you select the **Debug and Launch Settings** command. Visual Studio uses the file type to determine which debugger options to display.
+
+1. Visual Studio opens a file named _launch.vs.json_, which is located in the hidden _.vs_ folder. This file describes the debugging context for the project. To specify a working directory, add a value for the `"workingDirectory"` property. For the `python-koans` example, you can add the property and value, `"workingDirectory": "python3"`:
+
+   ```json
+   {
+     "version": "0.2.1",
+     "defaults": {},
+     "configurations": [
+       {
+         "type": "python",
+         "interpreter": "(default)",
+         "interpreterArguments": "",
+         "scriptArguments": "",
+         "env": {},
+         "nativeDebug": false,
+         "webBrowserUrl": "",
+         "project": "contemplate_koans.py",
+         "projectTarget": "",
+         "name": "contemplate_koans.py",
+         "workingDirectory": "python3"
+       }
+     ]
+   }
+   ```
+
+1. Save your changes to the _launch.vs.json_ file.
+
+1. Run your program again. The code execution should now run in the specified folder.
+
+::: moniker-end
+
+## Related content
+
+- [Quickstart: Create Python project from existing code](quickstart-01-python-in-visual-studio-project-from-existing-code.md)
+- [Quickstart: Create Python project from a repository](quickstart-03-python-in-visual-studio-project-from-repository.md)
+- [Tutorial: Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)

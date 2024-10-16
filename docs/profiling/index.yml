@@ -5,12 +5,13 @@ summary: Profiling and diagnostics tools help you diagnose memory and CPU usage 
 
 metadata:
   title: Measure performance in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Learn how to use Visual Studio to measure performance using profiling tools.
+  description: Explore documentation to help you use profiling tools in Visual Studio to measure performance, including overviews, getting started tutorials, and how-to guides.
   ms.topic: landing-page
+  ms.subservice: debug-diagnostics
   author: mikejo5000
   ms.author: mikejo
-  manager: jmartens
-  ms.date: 06/03/2020
+  manager: mijacobs
+  ms.date: 09/20/2024
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -28,8 +29,10 @@ landingContent:
             url: memory-usage.md
       - linkListType: how-to-guide
         links:
-          - text: PerfTips
-            url: perftips.md
+          - text: Case study - Beginner's guide to optimizing code
+            url: optimize-code-using-profiling-tools.md
+          - text: Case study - Isolate a performance issue
+            url: isolate-performance-issue.md
 
   # Card (optional)
   - title: Fundamentals
@@ -38,6 +41,10 @@ landingContent:
         links:
           - text: First look at profiling tools
             url: profiling-feature-tour.md
+          - text: Which tool should I use?
+            url: choose-performance-tool.md
+          - text: What is a profiler?
+            url: what-is-a-profiler.md
           - text: Ways to run profiling tools
             url: running-profiling-tools-with-or-without-the-debugger.md
       - linkListType: concept
@@ -52,20 +59,22 @@ landingContent:
         links:
           - text: CPU Usage
             url: cpu-usage.md
-          - text: Database
-            url: analyze-database.md
-          - text: Events Viewer
-            url: events-viewer.md
           - text: Memory Usage
             url: memory-usage-without-debugging2.md
           - text: .NET Object Allocation Tracking
             url: dotnet-alloc-tool.md
-          - text: .NET Async
-            url: analyze-async.md
+          - text: Instrumentation
+            url: instrumentation-overview.md
           - text: .NET Counters
             url: dotnet-counters-tool.md  
-          - text: GPU Usage (Direct3D)
-            url: gpu-usage.md
+          - text: File I/O
+            url: use-file-io.md
+          - text: Database
+            url: analyze-database.md
+          - text: Events Viewer
+            url: events-viewer.md
+          - text: .NET Async
+            url: analyze-async.md
           - text: Analyze resource consumption (XAML)
             url: application-timeline.md
 
@@ -80,7 +89,3 @@ landingContent:
             url: profile-apps-from-command-line.md
           - text: Use multiple profiler tools simultaneously
             url: use-multiple-profiler-tools-simultaneously.md
-
-          
-          
-        

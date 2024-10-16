@@ -1,30 +1,28 @@
 ---
-description: "Enumerate the various injected sources contained in the data source."
-title: "IDiaEnumInjectedSources | Microsoft Docs"
+description: Enumerate the various injected sources contained in the data source.
+title: IDiaEnumInjectedSources
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumInjectedSources interface"
-ms.assetid: f97e2392-22e1-48da-b7ce-ad94c8b684b0
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumInjectedSources
+
 Enumerate the various injected sources contained in the data source.
 
 ## Syntax
 
-```
-IDiaEnumInjectedSources : IUnknown
-```
+`IDiaEnumInjectedSources : IUnknown`
 
 ## Methods in Vtable Order
+
 The following table shows the methods of `IDiaEnumInjectedSources`.
 
 |Method|Description|
@@ -40,12 +38,14 @@ The following table shows the methods of `IDiaEnumInjectedSources`.
 ## Remarks
 
 ## Notes for Callers
-This interface is obtained by calling the [IDiaSession::findInjectedSource](../../debugger/debug-interface-access/idiasession-findinjectedsource.md) method with the name of a specific source file or by calling the [IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md) method with the GUID of the `IDiaEnumInjectedSources` interface.
+
+This interface is obtained by calling the [IDiaSession::findInjectedSource](../../debugger/debug-interface-access/idiasession-findinjectedsource.md) method with the name of a specific source file or by calling the [IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md) method with the globally unique identifier (GUID) of the `IDiaEnumInjectedSources` interface.
 
 ## Example
+
 This example shows how to obtain (the `GetEnumInjectedSources` function) and use (the `DumpAllInjectedSources` function) the `IDiaEnumInjectedSources` interface. See the [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md) interface for an implementation of the `PrintPropertyStorage` function. For an alternative output, see the [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md) interface.
 
-```C++
+```c++
 
 IDiaEnumInjectedSources* GetEnumInjectedSources(IDiaSession *pSession)
 {
@@ -102,6 +102,7 @@ void DumpAllInjectedSources( IDiaSession* pSession)
 ```
 
 ## Requirements
+
 Header: Dia2.h
 
 Library: diaguids.lib
@@ -109,6 +110,7 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See also
+
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [IDiaSession::findInjectedSource](../../debugger/debug-interface-access/idiasession-findinjectedsource.md)
 - [IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md)

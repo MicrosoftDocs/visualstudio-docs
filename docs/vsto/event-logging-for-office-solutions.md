@@ -1,7 +1,6 @@
 ---
 title: "Event logging for Office solutions"
-description: Learn how you can use the event viewer in Windows to see exception messages that are captured by the Visual Studio Tools for Office runtime.
-ms.custom: SEO-VS-2020
+description: Use the event viewer in Windows to see exception messages that are captured by the Visual Studio Tools for Office runtime.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,13 +13,12 @@ helpviewer_keywords:
   - "Office development in Visual Studio, event viewer"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Event logging for Office solutions
-  You can use the event viewer in Windows to see exception messages that are captured by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] when you install or uninstall Office solutions. You can use these messages from the event logger to resolve installation and deployment problems.
+
+  You can use the event viewer in Windows to see exception messages that are captured by the  Visual Studio Tools for Office runtime  when you install or uninstall Office solutions. You can use these messages from the event logger to resolve installation and deployment problems.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
 
@@ -93,6 +91,6 @@ ms.workload:
 
 6. Click **OK**.
 
-## See also
+## Related content
 - [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
 - [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)

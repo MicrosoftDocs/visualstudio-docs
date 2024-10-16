@@ -1,28 +1,39 @@
 ---
 description: "Represents the reasons that Edit and Continue is not available."
-title: EncUnavailableReason | Microsoft Docs
+title: EncUnavailableReason
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - EncUnavailableReason
 helpviewer_keywords:
 - EncUnavailableReason enumeration
-ms.assetid: c10aa4c0-d7e0-4de1-b8ff-7e050985eb12
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # EncUnavailableReason
+
 `This is for internal use only!` Represents the reasons that **Edit and Continue** is not available.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum EncUnavailableReason {
+    ENCUN_NONE,
+    ENCUN_INTEROP,
+    ENCUN_SQLCLR,
+    ENCUN_MINIDUMP,
+    ENCUN_EMBEDDED,
+    ENCUN_ATTACH,
+    ENCUN_WIN64
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum tagEncUnavailableReason {
     ENCUN_NONE,
@@ -35,18 +46,7 @@ enum tagEncUnavailableReason {
 };
 typedef enum tagEncUnavailableReason EncUnavailableReason;
 ```
-
-```csharp
-public enum EncUnavailableReason {
-    ENCUN_NONE,
-    ENCUN_INTEROP,
-    ENCUN_SQLCLR,
-    ENCUN_MINIDUMP,
-    ENCUN_EMBEDDED,
-    ENCUN_ATTACH,
-    ENCUN_WIN64
-};
-```
+---
 
 ## Fields
 `ENCUN_NONE`\
@@ -71,7 +71,7 @@ Edit and Continue is not available because the session was attached to, not laun
 Edit and Continue is not available while processing 64-bit Windows code.
 
 ## Remarks
-This enumeration is for internal use only by [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)]. The [GetENCAvailableState](../../../extensibility/debugger/reference/idebugprocess3-getencavailablestate.md) and [DisableENC](../../../extensibility/debugger/reference/idebugprocess3-disableenc.md) methods as implemented by a custom port supplier should always return `E_NOTIMPL`.
+This enumeration is for internal use only by Visual Studio. The [GetENCAvailableState](../../../extensibility/debugger/reference/idebugprocess3-getencavailablestate.md) and [DisableENC](../../../extensibility/debugger/reference/idebugprocess3-disableenc.md) methods as implemented by a custom port supplier should always return `E_NOTIMPL`.
 
 ## Requirements
 Header: msdbg.idl

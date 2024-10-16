@@ -1,36 +1,27 @@
 ---
 description: "Retrieves the string associated with this property and stores it in a user-supplied buffer."
-title: IDebugProperty3::GetStringChars | Microsoft Docs
+title: IDebugProperty3::GetStringChars
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProperty3::GetStringChars
 helpviewer_keywords:
 - IDebugProperty3::GetStringChars
-ms.assetid: 832c37f3-85cb-4227-8ab2-f27a80eafe90
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProperty3::GetStringChars
+
 Retrieves the string associated with this property and stores it in a user-supplied buffer.
 
 ## Syntax
 
-```cpp
-HRESULT GetStringChars(
-    ULONG  buflen,
-    WCHAR* rgString,
-    ULONG* pceltFetched
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetStringChars(
     uint       buflen,
@@ -38,6 +29,15 @@ int GetStringChars(
     out uint   pceltFetched
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetStringChars(
+    ULONG  buflen,
+    WCHAR* rgString,
+    ULONG* pceltFetched
+);
+```
+---
 
 ## Parameters
 `buflen`\

@@ -1,39 +1,25 @@
 ---
 description: "Converts an expression string to a parsed expression given the symbol provider and the address of the evaluating frame."
-title: IDebugExpressionEvaluator3::Parse2 | Microsoft Docs
+title: IDebugExpressionEvaluator3::Parse2
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugExpressionEvaluator3::Parse2
-ms.assetid: 78099628-d600-4f76-b7c8-ee07c864af1e
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExpressionEvaluator3::Parse2
+
 Converts an expression string to a parsed expression given the symbol provider and the address of the evaluating frame.
 
 ## Syntax
 
-```cpp
-HRESULT Parse2 (
-    LPCOLESTR                upstrExpression,
-    PARSEFLAGS               dwFlags,
-    UINT                     nRadix,
-    IDebugSymbolProvider*    pSymbolProvider,
-    IDebugAddress*           pAddress,
-    BSTR*                    pbstrError,
-    UINT*                    pichError,
-    IDebugParsedExpression** ppParsedExpression
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 HRESULT Parse2 (
     string                     upstrExpression,
@@ -46,6 +32,20 @@ HRESULT Parse2 (
     out IDebugParsedExpression ppParsedExpression
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Parse2 (
+    LPCOLESTR                upstrExpression,
+    PARSEFLAGS               dwFlags,
+    UINT                     nRadix,
+    IDebugSymbolProvider*    pSymbolProvider,
+    IDebugAddress*           pAddress,
+    BSTR*                    pbstrError,
+    UINT*                    pichError,
+    IDebugParsedExpression** ppParsedExpression
+);
+```
+---
 
 ## Parameters
 `upstrExpression`\

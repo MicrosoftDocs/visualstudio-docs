@@ -1,21 +1,20 @@
 ---
-description: "Retrieves a flag that specifies whether the function contains a return from interrupt instruction (for example, the X86 assembly code iret`)."
-title: "IDiaSymbol::get_interruptReturn | Microsoft Docs"
+description: Retrieves a flag that specifies whether the function contains a return from interrupt instruction (for example, the X86 assembly code iret`).
+title: "IDiaSymbol::get_interruptReturn"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_interruptReturn method"
-ms.assetid: 9665da6c-4cc0-41d7-b2e2-0d9e50174cf8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_interruptReturn
+
 Retrieves a flag that specifies whether the function contains a return from interrupt instruction (for example, the X86 assembly code `iret`).
 
 ## Syntax

@@ -1,7 +1,6 @@
 ---
 title: New File Command
 description: Learn about the New File command and how it creates a new file and opens it.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -9,15 +8,13 @@ f1_keywords:
 helpviewer_keywords:
 - File.NewFile command
 - New File command
-ms.assetid: 767868d6-a525-425b-a43b-2198f636ab6b
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: anandmeg
+ms.author: meghaanand
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # New File Command
+
 Creates a new file and opens it. The file appears under the Miscellaneous Files folder.
 
 ## Syntax
@@ -37,7 +34,7 @@ Optional. Specifies the type of file to be created.
 
 The /t:`templatename` argument syntax mirrors the information found in the New File Dialog Box. Enter the category name followed by a backslash (`\`) and the template name, and enclose the entire string in quotation marks.
 
-For example, to create a new [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] source file, you would enter the following for the /t:`templatename` argument.
+For example, to create a new Visual C++ source file, you would enter the following for the /t:`templatename` argument.
 
 ```cmd
 /t:"Visual C++\C++ File (.cpp)"

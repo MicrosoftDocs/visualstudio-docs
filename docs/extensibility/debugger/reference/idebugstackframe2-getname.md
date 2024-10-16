@@ -1,39 +1,39 @@
 ---
 description: "Gets the name of the stack frame."
-title: IDebugStackFrame2::GetName | Microsoft Docs
+title: IDebugStackFrame2::GetName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugStackFrame2::GetName
 helpviewer_keywords:
 - IDebugStackFrame2::GetName
-ms.assetid: 069d4f96-363f-404e-9c89-5318c4c9821b
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugStackFrame2::GetName
+
 Gets the name of the stack frame.
 
 ## Syntax
 
-```cpp
-HRESULT GetName ( 
-   BSTR* pbstrName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetName ( 
    out string pbstrName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetName ( 
+   BSTR* pbstrName
+);
+```
+---
 
 ## Parameters
 `pbstrName`\

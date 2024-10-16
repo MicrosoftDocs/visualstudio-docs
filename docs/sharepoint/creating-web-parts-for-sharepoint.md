@@ -1,7 +1,6 @@
 ---
-title: "Creating Web Parts for SharePoint | Microsoft Docs"
-description: Create web parts for SharePoint. By using web parts, you can modify the content, appearance, and behavior of pages of a SharePoint site by using a browser.
-ms.custom: SEO-VS-2020
+title: "Creating Web Parts for SharePoint"
+description: Create web parts for SharePoint so you can modify the content, appearance, and behavior of pages of a SharePoint site from a browser.
 ms.date: "02/02/2017"
 ms.topic: overview
 f1_keywords:
@@ -22,12 +21,11 @@ helpviewer_keywords:
   - "Web Parts [SharePoint development in Visual Studio], designing"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Create web parts for SharePoint
+
   By using web parts, you can modify the content, appearance, and behavior of pages of a SharePoint site by using a browser. Web parts are server-side controls that run inside a web part page: they're the building blocks of pages that appear on a SharePoint site. See [Building Block: Web Parts](/previous-versions/office/developer/sharepoint-2010/ee535520(v=office.14)).
 
  You can create and debug web parts on a SharePoint site by using templates from Visual Studio.
@@ -88,16 +86,16 @@ ms.workload:
 
    Although you can add inline JavaScript to a server-side markup file, debugging isn't supported for breakpoints added to the markup. To debug JavaScript, reference an external JavaScript file in the markup file, and then set the breakpoints in the JavaScript file.
 
-- Debugging of inline [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] code must be done in the generated code file instead of in the markup file.
+- Debugging of inline ASP.NET code must be done in the generated code file instead of in the markup file.
 
 - Visual web parts don't support the use of the `<@ Assembly Src=` directive.
 
-- SharePoint web controls and some [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] controls aren't supported in the SharePoint sandboxed environment. If unsupported controls are used on a visual web part in a sandboxed solution, the error, "The type or namespace name 'Theme' does not exist in the namespace 'Microsoft.SharePoint.WebControls'" appears.
+- SharePoint web controls and some ASP.NET controls aren't supported in the SharePoint sandboxed environment. If unsupported controls are used on a visual web part in a sandboxed solution, the error, "The type or namespace name 'Theme' does not exist in the namespace 'Microsoft.SharePoint.WebControls'" appears.
 
   For more information about sandboxed solutions, see [Differences between sandboxed and farm solutions](../sharepoint/differences-between-sandboxed-and-farm-solutions.md).
 
 ## Create older style SharePoint-based web parts
- You can use the templates in Visual Studio to create custom [!INCLUDE[vstecasplong](../sharepoint/includes/vstecasplong-md.md)] web parts for SharePoint. [!INCLUDE[vstecasplong](../sharepoint/includes/vstecasplong-md.md)] web parts are built on top of the [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] web part infrastructure and are the recommended type for new projects.
+ You can use the templates in Visual Studio to create custom ASP.NET 2.0 web parts for SharePoint. ASP.NET 2.0 web parts are built on top of the ASP.NET web part infrastructure and are the recommended type for new projects.
 
  In very few cases, you might have to create a web part by using the older style SharePoint-based web part. You can use Visual Studio to create these types of web parts, but Visual Studio doesn't provide any templates that are designed specifically to help you create them.
 

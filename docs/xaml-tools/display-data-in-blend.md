@@ -2,16 +2,12 @@
 title: Visualize sample data in a XAML UI
 titleSuffix: Blend for Visual Studio
 description: Learn how to generate sample data from scratch or from an existing class in Blend for Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 03/06/2018
 ms.topic: conceptual
-ms.assetid: 87d31b6c-4607-4121-bb7d-cfc80390ab93
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xaml-tools
-ms.workload:
-- multiple
+author: maddymontaquila
+ms.author: maleger
+manager: mijacobs
+ms.subservice: xaml-tools
 ---
 # Display data in Blend for Visual Studio
 
@@ -42,6 +38,6 @@ To generate sample data from a class, open a XAML document, and then in the **Da
 
 **Watch a short video:** ![Play icon](../designers/media/bldadminconsoleinitialconfigicon.PNG) [Mix up some data binding with Blend](https://www.youtube.com/watch?v=LSwPB6CAvjg).
 
-## See also
+## Related content
 
 - [Create a UI by using Blend for Visual Studio](../xaml-tools/creating-a-ui-by-using-blend-for-visual-studio.md)

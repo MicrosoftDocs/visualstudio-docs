@@ -1,39 +1,39 @@
 ---
 description: "This method compares this field with the specified field for equality."
-title: IDebugField::Equal | Microsoft Docs
+title: IDebugField::Equal
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugField::Equal
 helpviewer_keywords:
 - IDebugField::Equal method
-ms.assetid: 75369fe6-ddd3-497d-80d1-2488e6100e9f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugField::Equal
+
 This method compares this field with the specified field for equality.
 
 ## Syntax
 
-```cpp
-HRESULT Equal( 
-   IDebugField* pField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Equal(
    IDebugField pField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Equal( 
+   IDebugField* pField
+);
+```
+---
 
 ## Parameters
 `pField`\

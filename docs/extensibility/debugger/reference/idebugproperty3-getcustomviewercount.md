@@ -1,39 +1,39 @@
 ---
 description: "Gets the number of custom viewers that might be available for this property."
-title: IDebugProperty3::GetCustomViewerCount | Microsoft Docs
+title: IDebugProperty3::GetCustomViewerCount
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProperty3::GetCustomViewerCount
 helpviewer_keywords:
 - IDebugProperty3::GetCustomViewerCount
-ms.assetid: dc5bb3e4-dc85-46e4-98fa-c6be8583b985
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProperty3::GetCustomViewerCount
+
 Gets the number of custom viewers that might be available for this property.
 
 ## Syntax
 
-```cpp
-HRESULT GetCustomViewerCount(
-    ULONG* pcelt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCustomViewerCount(
     out uint pcelt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCustomViewerCount(
+    ULONG* pcelt
+);
+```
+---
 
 ## Parameters
 `pcelt`\

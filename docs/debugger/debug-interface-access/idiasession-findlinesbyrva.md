@@ -1,27 +1,26 @@
 ---
-description: "Retrieves the lines in a specified compiland that contain a specified relative virtual address (RVA)."
-title: "IDiaSession::findLinesByRVA | Microsoft Docs"
-ms.date: "11/04/2016"
+description: Retrieves the lines in a specified compiland that contain a specified relative virtual address (RVA).
+title: "IDiaSession::findLinesByRVA"
+ms.date: "07/22/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSession::findLinesByRVA method"
-ms.assetid: 06f53b0b-b5b4-42cf-9252-dcee0dbe2d71
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
-# IDiaSession::findLinesByRVA
+
+# `IDiaSession::findLinesByRVA`
+
 Retrieves the lines in a specified compiland that contain a specified relative virtual address (RVA).
 
 ## Syntax
 
 ```C++
-HRESULT findLinesByRVA ( 
+HRESULT findLinesByRVA ( 
     DWORD                 rva,
     DWORD                 length,
     IDiaEnumLineNumbers** ppResult
@@ -29,6 +28,7 @@ HRESULT findLinesByRVA ( 
 ```
 
 #### Parameters
+
 `rva`
 
 [in] Specifies the address as an RVA.
@@ -39,7 +39,7 @@ HRESULT findLinesByRVA ( 
 
 `ppResult`
 
-[out] Returns an [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md) object that contains a list of all the line numbers that cover the specified address range.
+[out] Returns an [`IDiaEnumLineNumbers`](../../debugger/debug-interface-access/idiaenumlinenumbers.md) object that contains a list of all the line numbers that cover the specified address range.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -64,5 +64,5 @@ IDiaEnumLineNumbers* GetLineNumbersByRVA(IDiaSymbol *pFunc, IDiaSession *pSessio
 ```
 
 ## See also
-- [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
-- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+- [`IDiaEnumLineNumbers`](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
+- [`IDiaSession`](../../debugger/debug-interface-access/idiasession.md)

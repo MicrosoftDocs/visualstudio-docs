@@ -1,20 +1,17 @@
 ---
-title: Adding Items to the Add New Item Dialog Boxes | Microsoft Docs
+title: Adding Items to the Add New Item Dialog Boxes
 description: Learn how to add items to the Add New Item dialog box in Visual Studio, so that you can display templates and project elements for use in your projects.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - Add New Item dialog box, adding items
-ms.assetid: 2f70863b-425b-4e65-86b4-d6a898e29dc7
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Add items to the Add New Item dialog box
+
 The process for adding items to the **Add New Item** dialog box starts with the registry keys. As shown in the following registry entries, the **AddItemTemplates** section contains the path and name of the directory in which items made available in the **Add New Item** dialog box are put.
 
 > [!NOTE]
@@ -36,12 +33,12 @@ The process for adding items to the **Add New Item** dialog box starts with the 
 |------------------|-----------| - | - |
 | @ (Default) | REG_SZ | #%IDS_ADDITEM_TEMPLATES_ENTRY% | Resource ID for **Add Item** templates. |
 | Val TemplatesDir | REG_SZ | %TEMPLATE_PATH%\\&lt;SomeProjectItems&gt; | Path of the project items displayed in the dialog for the **Add New Item** wizard. |
-| Val SortPriority | REG_DWORD | 100 ([!INCLUDE[vcprx64](../../extensibility/internals/includes/vcprx64_md.md)]) | Determines the sort order in the tree node of files displayed in the **Add New Item** dialog box. |
+| Val SortPriority | REG_DWORD | 100 (x64) | Determines the sort order in the tree node of files displayed in the **Add New Item** dialog box. |
 
 > [!NOTE]
 > The GUIDS for the Visual C# and Visual Basic project types are as follows:
-> - [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)]: {FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}
-> - [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)]: {F184B08F-C81C-45F6-A57F-5ABD9991F28F}
+> - Visual C#: {FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}
+> - Visual Basic: {F184B08F-C81C-45F6-A57F-5ABD9991F28F}
 
  The directory listed for **TemplatesDir**, which is *%TEMPLATE_PATH%\\&lt;SomeProjectItems&gt;*, is the node on the left side of the **Add New Item** dialog box tree. Additional elements in the tree are based on the subdirectory within that root directory. The files available to be added to the project are the items in the right pane of the **Add New Item** dialog box.
 
@@ -70,11 +67,11 @@ The process for adding items to the **Add New Item** dialog box starts with the 
 
 - By category, provided by `IVsFilterAddProjectItemDlg2`.
 
-  To filter by category, provide a category string to an item in the *.vsdir* file, such as *Web form* or *Client item* in Visual Basic. The dialog box code then retrieves the category classification from the *.vsdir* file and passes it to you. You can then pass that information to your implementation of `IVsFilterAddProjectItemDlg2` to filter the **Add New Item** dialog box by categories. You can also filter items for Web pages or as client Win32 application cases. Additionally, you can identify [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] tagged items as Microsoft Foundation Classes (MFC) or active template library (ATL) items. When you identify these items, the project system can define its own classifications so that the system can be filtered based on categories and classifications.
+  To filter by category, provide a category string to an item in the *.vsdir* file, such as *Web form* or *Client item* in Visual Basic. The dialog box code then retrieves the category classification from the *.vsdir* file and passes it to you. You can then pass that information to your implementation of `IVsFilterAddProjectItemDlg2` to filter the **Add New Item** dialog box by categories. You can also filter items for Web pages or as client Win32 application cases. Additionally, you can identify Visual C++ tagged items as Microsoft Foundation Classes (MFC) or active template library (ATL) items. When you identify these items, the project system can define its own classifications so that the system can be filtered based on categories and classifications.
 
   If you implement this filter functionality, you do not have to map a table of every item that should be hidden. You can simply classify items into types and put the classifications in the *.vsdir* file or files. Then you can hide any of the items that have a specific classification by implementing the interface. In this way, you can make the items in the **Add New Item** dialog box dynamic based on the state within the project.
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>
 - [Register project and item templates](../../extensibility/internals/registering-project-and-item-templates.md)
 - [CATIDs for objects that are typically used to extend projects](../../extensibility/internals/catids-for-objects-that-are-typically-used-to-extend-projects.md)

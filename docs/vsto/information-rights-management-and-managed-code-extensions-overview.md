@@ -1,7 +1,6 @@
 ---
 title: "Information rights management & managed code extensions"
 description: Learn about Information Rights Management (IRM), a feature that can help you prevent unauthorized people from viewing or altering sensitive information.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -17,12 +16,11 @@ helpviewer_keywords:
   - "Office documents [Office development in Visual Studio, restricted permissions"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Information rights management and managed code extensions overview
+
   Microsoft Office Word and Microsoft Office Excel provide Information Rights Management (IRM), a feature that can help you prevent unauthorized people from viewing or altering sensitive information. For details about how Information Rights Management works, see Help in the specific Office application.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
@@ -37,8 +35,8 @@ ms.workload:
 
  To fix the problem, someone with Full Control access to the document or workbook must change the default permission settings to allow programmatic access to the object model. For more information, see [How to: Permit code to run behind documents with restricted permissions](../vsto/how-to-permit-code-to-run-behind-documents-with-restricted-permissions.md).
 
-## See also
-- [Document protection in document-level solutions](../vsto/document-protection-in-document-level-solutions.md)
+## Related content
+- [Document protection in document-level solutions](/previous-versions/visualstudio/visual-studio-2017/vsto/document-protection-in-document-level-solutions)
 - [Password protection on Office documents](../vsto/password-protection-on-office-documents.md)
 - [Secure Office solutions](../vsto/securing-office-solutions.md)
 - [Deploy an Office solution](../vsto/deploying-an-office-solution.md)

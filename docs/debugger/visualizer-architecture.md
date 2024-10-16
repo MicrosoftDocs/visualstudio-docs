@@ -1,7 +1,6 @@
 ---
-title: "Visualizer Architecture | Microsoft Docs"
+title: "Visualizer Architecture"
 description: A visualizer displays a specific type of data element, and may allow editing also. Learn about the architecture of a visualizer.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -9,15 +8,13 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: 6aad395f-7170-4d9e-b2b8-a5faf453380e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Visualizer Architecture
+
 The architecture of a debugger visualizer has two parts:
 
 - The *debugger side* runs within the Visual Studio debugger. The debugger-side code creates and displays the user interface for your visualizer.
@@ -54,7 +51,7 @@ The architecture of a debugger visualizer has two parts:
 |DialogDebuggerVisualizer Class<br /><br /> IDialogVisualizerService Interface|Data Object|
 |Object Provider (implements <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider>)|Object Source (derived from <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>)|
 
- The Object Provider provides the object data that is to be visualized to the visualizer UI. The Object Provider gets the object data from the Object Source. The Object Provider and Object Source provide APIs to communicate object data between the debugger side and the debugee side.
+ The Object Provider provides the object data that is to be visualized to the visualizer UI. The Object Provider gets the object data from the Object Source. The Object Provider and Object Source provide APIs to communicate object data between the debugger side and the debuggee side.
 
  Every visualizer must get the data object to be visualized. The following table shows the corresponding APIs that the Object Provider and Object Source use for this purpose:
 
@@ -82,9 +79,8 @@ The architecture of a debugger visualizer has two parts:
 |---------------------|-------------------|
 |<xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.TransferData%2A><br /><br /> —or—<br /><br /> <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.TransferObject%2A>|<xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A>|
 
-## See also
-- [How to: Write a Visualizer](create-custom-visualizers-of-data.md)
+## Related content
+- [Create custom visualizers for .NET objects](create-custom-visualizers-of-data.md)
 - [Walkthrough: Writing a Visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)
-- [Walkthrough: Writing a Visualizer in Visual Basic](../debugger/walkthrough-writing-a-visualizer-in-visual-basic.md)
 - [Walkthrough: Writing a Visualizer in Visual Basic](../debugger/walkthrough-writing-a-visualizer-in-visual-basic.md)
 - [Visualizer Security Considerations](../debugger/visualizer-security-considerations.md)

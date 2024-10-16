@@ -1,7 +1,6 @@
 ---
 title: Start Command
 description: Learn about the Start command and how it begins debugging the startup project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -9,15 +8,13 @@ f1_keywords:
 helpviewer_keywords:
 - Start command
 - Debug.Start command
-ms.assetid: dc4e4aa2-b0ab-4e00-92db-6dc3058ddc21
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Start Command
+
 Begins debugging the startup project.
 
 ## Syntax

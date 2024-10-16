@@ -1,7 +1,6 @@
 ---
-title: "Word solutions"
-description: Learn how you can use Visual Studio solutions to automate Word, extend Word features, and customize the Word user interface (UI).
-ms.custom: SEO-VS-2020
+title: Automate, extend, and customize Microsoft Word
+description: Use Visual Studio solutions to automate Microsoft Office Word, extend Word features, and customize the Word user interface (UI).
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -25,12 +24,11 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], Word"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Word solutions
+
   Visual Studio provides project templates you can use to create document-level customizations and VSTO Add-ins for Microsoft Office Word. You can use these solutions to automate Word, extend Word features, and customize the Word user interface (UI). For more information about the differences between document-level customizations and VSTO Add-ins, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
@@ -107,7 +105,7 @@ ms.workload:
 |Title|Description|
 |-----------|-----------------|
 |[Word object model overview](../vsto/word-object-model-overview.md)|Provides an overview of the main types provided by the Word object model.|
-|[Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)|Provides information about extended objects (provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]) that you can use in Word solutions.|
+|[Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)|Provides information about extended objects (provided by the Visual Studio Tools for Office runtime) that you can use in Word solutions.|
 |[Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)|Describes how you can add Windows Forms controls to Word documents.|
 |[Walkthrough: Create your first document-level customization for Word](../vsto/walkthrough-creating-your-first-document-level-customization-for-word.md)|Demonstrates how to create a basic document-level customization for Word.|
 |[Walkthrough: Create your first VSTO Add-in for Word](../vsto/walkthrough-creating-your-first-vsto-add-in-for-word.md)|Demonstrates how to create a basic VSTO Add-in for Word.|

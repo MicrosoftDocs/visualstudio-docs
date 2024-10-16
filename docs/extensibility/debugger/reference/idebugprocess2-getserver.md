@@ -1,39 +1,39 @@
 ---
 description: "Gets the server that this process is running on."
-title: IDebugProcess2::GetServer | Microsoft Docs
+title: IDebugProcess2::GetServer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcess2::GetServer
 helpviewer_keywords:
 - IDebugProcess2::GetServer
-ms.assetid: 8f73c530-cceb-4f1f-8c63-1cc0ccd4a310
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProcess2::GetServer
+
 Gets the server that this process is running on.
 
 ## Syntax
 
-```cpp
-HRESULT GetServer( 
-   IDebugCoreServer2** ppServer
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetServer( 
    out IDebugCoreServer2 ppServer
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetServer( 
+   IDebugCoreServer2** ppServer
+);
+```
+---
 
 ## Parameters
 `ppServer`\

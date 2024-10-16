@@ -1,7 +1,6 @@
 ---
 title: "Development best practices: COM, VSTO, & VBA add-ins in Office"
 description: Learn about the recommended best practices when developing COM, VSTO, and VBA add-ins for Microsoft Office.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "07/25/2017"
 ms.topic: "conceptual"
@@ -11,12 +10,11 @@ helpviewer_keywords:
   - ""
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Development best practices for COM, VSTO, and VBA add-ins in Office
+
   If you are developing COM, VSTO or VBA add-ins for Office, follow the development best practices described in this article.   This will help ensure:
 
 - Compatibility of your add-ins across different versions and deployments of Office.

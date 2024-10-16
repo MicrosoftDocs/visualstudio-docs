@@ -1,7 +1,6 @@
 ---
 title: "Permit code to run behind docs with restricted permissions"
 description: Learn how you can permit code to run behind documents with restricted permissions by using Office development tools in Visual Studio.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -17,12 +16,11 @@ helpviewer_keywords:
   - "Office documents [Office development in Visual Studio, restricted permissions"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Permit code to run behind documents with restricted permissions
+# Permit code to run behind documents with restricted permissions
+
   You can use the Information Rights Management (IRM) feature of Microsoft Office to restrict permissions to a document or workbook. By default, the code behind a restricted Microsoft Office Word document or Microsoft Office Excel workbook is not permitted to run. You can change the default so that your managed code extensions can access the object model, and your solution will work.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
@@ -44,9 +42,9 @@ ms.workload:
 
    Word or Excel will permit programmatic access to the object model.
 
-## See also
+## Related content
 - [Information rights management and managed code extensions overview](../vsto/information-rights-management-and-managed-code-extensions-overview.md)
-- [Document protection in document-level solutions](../vsto/document-protection-in-document-level-solutions.md)
+- [Document protection in document-level solutions](/previous-versions/visualstudio/visual-studio-2017/vsto/document-protection-in-document-level-solutions)
 - [Password protection on Office documents](../vsto/password-protection-on-office-documents.md)
 - [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
 - [Secure Office solutions](../vsto/securing-office-solutions.md)

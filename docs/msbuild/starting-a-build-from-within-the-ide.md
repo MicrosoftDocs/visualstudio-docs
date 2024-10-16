@@ -1,18 +1,14 @@
 ---
-title: Starting a Build from within the IDE | Microsoft Docs
+title: Starting a Build from within the IDE
 description: Learn how to use the Microsoft.VisualStudio.Shell.Interop.IVsBuildManagerAccessor to start builds for custom project systems.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - build
-ms.assetid: 936317aa-63b7-4eb0-b9db-b260a0306196
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # Start a build from within the IDE
 
@@ -72,8 +68,8 @@ public bool Build(Project project, bool isDesignTimeBuild)
          bool buildSucceeded = false;
          // perform project-system specific build set up tasks
          // Create your BuildRequestData
-         // This assumes a IHostServices variable (hostServices) set
-   // to your host services. If you don't use a project instance
+         // This assumes an IHostServices variable (hostServices) is set
+         // to your host services. If you don't use a project instance
          // (you build from a file for example) then use another
          // constructor.
          BuildRequestData requestData = new

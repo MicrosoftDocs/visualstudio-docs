@@ -1,27 +1,26 @@
 ---
-description: "Retrieves the virtual address (VA) of the beginning of the section."
-title: "IDiaSegment::get_virtualAddress | Microsoft Docs"
+description: Retrieves the virtual address (VA) of the beginning of the section.
+title: "IDiaSegment::get_virtualAddress"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSegment::get_virtualAddress method"
-ms.assetid: 30073dd0-c864-4c4a-8863-80f243419f6c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSegment::get_virtualAddress
+
 Retrieves the virtual address (VA) of the beginning of the section.
 
 ## Syntax
 
 ```C++
-HRESULT get_virtualAddress ( 
+HRESULT get_virtualAddress ( 
    ULONGLONG* pRetVal
 );
 ```

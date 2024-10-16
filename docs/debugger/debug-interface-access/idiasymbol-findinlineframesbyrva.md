@@ -1,25 +1,24 @@
 ---
 description: "IDiaSymbol::findInlineFramesByRVA retrieves an enumeration that allows a client to iterate through all of the inline frames on a specified relative virtual address (RVA)."
-title: "IDiaSymbol::findInlineFramesByRVA | Microsoft Docs"
+title: "IDiaSymbol::findInlineFramesByRVA"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: e7a6d9cb-2726-4ac7-9f38-415ad215bf9c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::findInlineFramesByRVA
+
 Retrieves an enumeration that allows a client to iterate through all of the inline frames on a specified relative virtual address (RVA).
 
 ## Syntax
 
 ```C++
-HRESULT findInlineFramesByRVA (    DWORD             rva,
+HRESULT findInlineFramesByRVA (    DWORD             rva,
    IDiaEnumSymbols** ppResult
 );
 ```

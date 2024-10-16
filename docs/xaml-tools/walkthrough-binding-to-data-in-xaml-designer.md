@@ -1,18 +1,17 @@
 ---
 title: Bind to data in XAML Designer
-description: Learn how to bind data to a control in the XAMl Designer by setting data binding properties using the artboard and the Properties window.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+description: Bind data to a control in the XAML Designer in Visual Studio by setting data binding properties using the artboard and the Properties window.
+ms.date: 06/07/2022
 ms.topic: how-to
 f1_keywords:
 - VS.XamlDesigner.DataBinding
 dev_langs:
 - CSharp
 - VB
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xaml-tools
+author: maddymontaquila
+ms.author: maleger
+manager: mijacobs
+ms.subservice: xaml-tools
 ---
 # Walkthrough: Bind to data in XAML Designer
 
@@ -28,6 +27,7 @@ In XAML Designer, you can set data binding properties by using the artboard and 
 
 1. Open the **MainWindow.xaml.cs** (or **MainWindow.xaml.vb**) file and add the following code. In C#, add the code in the `BindingTest` namespace (before the final closing parenthesis in the file). In Visual Basic, just add the new class.
 
+   ### [C#](#tab/csharp)
    ```csharp
    public class ShoppingCart : DependencyObject
    {
@@ -43,6 +43,7 @@ In XAML Designer, you can set data binding properties by using the artboard and 
    }
    ```
 
+   ### [VB](#tab/vb)
    ```vb
    Public Class ShoppingCart
        Inherits DependencyObject
@@ -59,6 +60,7 @@ In XAML Designer, you can set data binding properties by using the artboard and 
        End Property
    End Class
    ```
+   ---
 
    This code sets a value of 0 as the default item count by using the [PropertyMetadata](xref:Windows.UI.Xaml.PropertyMetadata) object.
 
@@ -92,7 +94,10 @@ In XAML Designer, you can set data binding properties by using the artboard and 
 
      The `TextBlock` control should show the default value of 0 as text.
 
-## See also
+> [!TIP]
+> For more information about data binding, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).
+
+## Related content
 
 - [Create a UI by using XAML Designer](../xaml-tools/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)
 - [Add Value Converter dialog box](/previous-versions/hh965588(v=vs.140))

@@ -1,10 +1,9 @@
 ---
-title: "Microsoft Visual Studio Debugger (Exception Thrown) Dialog Box | Microsoft Docs"
+title: "Microsoft Visual Studio Debugger (Exception Thrown) Dialog Box"
 titleSuffix: ""
 description: "Learn what to do when an exception occurs that your program needs to handle. You can: 1) break into the debugger; 2) continue; or 3) ignore."
-ms.custom: "SEO-VS-2020"
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.exceptions.thrown"
 dev_langs:
@@ -17,15 +16,13 @@ helpviewer_keywords:
   - "exception handling, during debugging"
   - "debugger, exceptions"
   - "throwing exceptions, during debugging"
-ms.assetid: 1fe98d10-c8f9-4b39-a920-99169bfd542e
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Microsoft Visual Studio Debugger (Exception Thrown) Dialog Box
+
 An exception has occurred in your program. This dialog box reports the kind of exception thrown. Your code needs to handle this exception. You can choose between the following options for handling the exception:
 
  **Break**

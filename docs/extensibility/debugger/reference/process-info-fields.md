@@ -1,28 +1,41 @@
 ---
 description: "Specified what kind of information to retrieve for a process."
-title: PROCESS_INFO_FIELDS | Microsoft Docs
+title: PROCESS_INFO_FIELDS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - PROCESS_INFO_FIELDS
 helpviewer_keywords:
 - PROCESS_INFO_FIELDS enumeration
-ms.assetid: 0d9cc345-3d3a-44d8-ae15-a67acb97a828
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # PROCESS_INFO_FIELDS
+
 Specified what kind of information to retrieve for a process.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_PROCESS_INFO_FIELDS { 
+   PIF_FILE_NAME             = 0x00000001,
+   PIF_BASE_NAME             = 0x00000002,
+   PIF_TITLE                 = 0x00000004,
+   PIF_PROCESS_ID            = 0x00000008,
+   PIF_SESSION_ID            = 0x00000010,
+   PIF_ATTACHED_SESSION_NAME = 0x00000020,
+   PIF_CREATION_TIME         = 0x00000040,
+   PIF_FLAGS                 = 0x00000080,
+   PIF_ALL                   = 0x000000ff
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_PROCESS_INFO_FIELDS { 
    PIF_FILE_NAME             = 0x00000001,
@@ -37,20 +50,7 @@ enum enum_PROCESS_INFO_FIELDS { 
 };
 typedef DWORD PROCESS_INFO_FIELDS;
 ```
-
-```csharp
-public enum enum_PROCESS_INFO_FIELDS { 
-   PIF_FILE_NAME             = 0x00000001,
-   PIF_BASE_NAME             = 0x00000002,
-   PIF_TITLE                 = 0x00000004,
-   PIF_PROCESS_ID            = 0x00000008,
-   PIF_SESSION_ID            = 0x00000010,
-   PIF_ATTACHED_SESSION_NAME = 0x00000020,
-   PIF_CREATION_TIME         = 0x00000040,
-   PIF_FLAGS                 = 0x00000080,
-   PIF_ALL                   = 0x000000ff
-};
-```
+---
 
 ## Fields
  `PIF_FILE_NAME`\

@@ -1,33 +1,31 @@
 ---
 title: Code metrics - Class coupling
 ms.date: 1/8/2021
-description: Learn about the class coupling metric for code metrics in Visual Studio.
+description: Explore the class coupling metric for code metrics in Visual Studio, also known as Coupling Between Objects (CBO), and measure how many classes a single class uses.
 ms.topic: conceptual
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-code-analysis
-ms.workload:
-  - multiple
+manager: mijacobs
+ms.subservice: code-analysis
 ---
 
 # Code metrics - Class coupling
 
 Class coupling also goes by the name Coupling Between Objects (CBO) as originally defined by [CK94](#ck94). Basically, class coupling is a measure of how many classes a single class uses. A high number is bad and a low number is usually good with this metric. Class coupling has been shown to be an accurate predictor of software failure and recent studies have shown that an upper-limit value of 9 is the most efficient [S2010](#s2010).
 
-According to the Microsoft documentation, class coupling “measures the coupling to unique classes through parameters, local variables, return types, method calls, generic or template instantiations, base classes, interface implementations, fields defined on external types, and attribute decoration. Good software design dictates that types and methods should have high cohesion and low coupling. High coupling indicates a design that is difficult to reuse and maintain because of its many interdependencies on other types.”
+According to the Microsoft documentation, class coupling "measures the coupling to unique classes through parameters, local variables, return types, method calls, generic or template instantiations, base classes, interface implementations, fields defined on external types, and attribute decoration. Good software design dictates that types and methods should have high cohesion and low coupling. High coupling indicates a design that is difficult to reuse and maintain because of its many interdependencies on other types."
 
 The concepts of coupling and cohesion are clearly related. To keep this discussion on topic, we will not get into depth with cohesion other than to give a brief definition from [KKLS2000](#kkls2000):
 
-“Module cohesion was introduced by Yourdon and Constantine as ‘how tightly bound or related the internal elements of a module are to one another’ [YC79](#yc79). A module has a strong cohesion if it represents exactly one task […], and all its elements contribute to this single task. They describe cohesion as an attribute of design, rather than code, and an attribute that can be used to predict reusability, maintainability, and changeability.”
+"Module cohesion was introduced by Yourdon and Constantine as 'how tightly bound or related the internal elements of a module are to one another' [YC79](#yc79). A module has a strong cohesion if it represents exactly one task [...], and all its elements contribute to this single task. They describe cohesion as an attribute of design, rather than code, and an attribute that can be used to predict reusability, maintainability, and changeability."
 
 ## Class Coupling Example
 
-Let’s look at class coupling in action. First, create a new console application and create a new class called Person with some properties in it then immediately calculate the code metrics:
+Let's look at class coupling in action. First, create a new console application and create a new class called Person with some properties in it then immediately calculate the code metrics:
 
 ![Class coupling example 1](media/class-coupling-example-1.png)
 
-Notice the class coupling is 0 since this class doesn’t use any other classes. Now create another class called PersonStuff with a method that creates an instance of Person and sets the property values. Calculate the code metrics again:
+Notice the class coupling is 0 since this class doesn't use any other classes. Now create another class called PersonStuff with a method that creates an instance of Person and sets the property values. Calculate the code metrics again:
 
 ![Class coupling example 2](media/class-coupling-example-2.png)
 
@@ -47,13 +45,13 @@ Now consume the class in our `DoSomething()` method within the `PersonStuff` cla
 
 ![Class coupling example 4](media/class-coupling-example-4.png)
 
-As you can see, the class coupling for the PersonStuff class goes up to 2 and, if you drill into the class, you can see that the `DoSomething()` method has the most coupling in it but the constructor still only consumes 1 class.  Using these metrics, you can see the overall max number for a given class and drill down into the details on a per-member basis.
+As you can see, the class coupling for the PersonStuff class goes up to 2 and, if you drill into the class, you can see that the `DoSomething()` method has the most coupling in it but the constructor still only consumes 1 class. Using these metrics, you can see the overall max number for a given class and drill down into the details on a per-member basis.
 
 ## The Magic Number
 
 As with cyclomatic complexity, there is no limit that fits all organizations. However, [S2010](#s2010) does indicate that a limit of 9 is optimal:
 
-“Therefore, we consider the threshold values […] as the most effective. These threshold values (for a single member) are CBO = 9[…].” (emphasis added)
+"Therefore, we consider the threshold values [...] as the most effective. These threshold values (for a single member) are CBO = 9[...]." (emphasis added)
 
 ## Code Analysis
 
@@ -71,15 +69,15 @@ This rule issues a warning when the class coupling is excessive. For more inform
 
 ### CK94
 
-Chidamber, S. R. & Kemerer, C. F. (1994). A Metrics Suite for Object Oriented Design (IEEE Transactions on Software Engineering, Vol. 20, No. 6). Retrieved May 14, 2011, from the University of Pittsburgh web site: [http://www.pitt.edu/~ckemerer/CK%20research%20papers/MetricForOOD_ChidamberKemerer94.pdf](http://www.pitt.edu/~ckemerer/CK%20research%20papers/MetricForOOD_ChidamberKemerer94.pdf)
+Chidamber, S. R. & Kemerer, C. F. (1994). A Metrics Suite for Object Oriented Design (IEEE Transactions on Software Engineering, Vol. 20, No. 6). Retrieved May 14, 2011, from the University of Pittsburgh web site: [`http://www.pitt.edu/~ckemerer/CK%20research%20papers/MetricForOOD_ChidamberKemerer94.pdf`](http://www.pitt.edu/~ckemerer/CK%20research%20papers/MetricForOOD_ChidamberKemerer94.pdf)
 
 ### KKLS2000
 
-Kabaili, H., Keller, R., Lustman, F., and Saint-Denis, G. (2000). Class Cohesion Revisited: An Empirical Study on Industrial Systems (Proceedings of the Workshop on Quantitative Approaches in Object-Oriented Software Engineering). Retrieved May 20, 2011, from Université de Montréal web site [http://www.iro.umontreal.ca/~sahraouh/qaoose/papers/Kabaili.pdf](http://www.iro.umontreal.ca/~sahraouh/qaoose/papers/Kabaili.pdf)
+Kabaili, H., Keller, R., Lustman, F., and Saint-Denis, G. (2000). Class Cohesion Revisited: An Empirical Study on Industrial Systems (Proceedings of the Workshop on Quantitative Approaches in Object-Oriented Software Engineering). Retrieved May 20, 2011, from Université de Montréal web site [`http://www.iro.umontreal.ca/~sahraouh/qaoose/papers/Kabaili.pdf`](http://www.iro.umontreal.ca/~sahraouh/qaoose/papers/Kabaili.pdf)
 
 ### SK2003
 
-Subramanyam, R. & Krishnan, M. S. (2003). Empirical Analysis of CK Metrics for Object-Oriented Design Complexity: Implications for Software Defects (IEEE Transactions on Software Engineering, Vol. 29, No. 4). Retrieved May 14, 2011, from University of Massachusetts Dartmouth web site [http://moosehead.cis.umassd.edu/cis580/readings/OO_Design_Complexity_Metrics.pdf](http://moosehead.cis.umassd.edu/cis580/readings/OO_Design_Complexity_Metrics.pdf)
+Subramanyam, R. & Krishnan, M. S. (2003). Empirical Analysis of CK Metrics for Object-Oriented Design Complexity: Implications for Software Defects (IEEE Transactions on Software Engineering, Vol. 29, No. 4).
 
 ### S2010
 

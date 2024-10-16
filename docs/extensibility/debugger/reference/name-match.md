@@ -1,36 +1,27 @@
 ---
 description: "Selects the case option for matching names."
-title: NAME_MATCH | Microsoft Docs
+title: NAME_MATCH
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - NAME_MATCH
 helpviewer_keywords:
 - NAME_MATCH enumeration
-ms.assetid: 3842c417-a3c9-4259-a05f-52b64b829ef6
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # NAME_MATCH
+
 Selects the case option for matching names.
 
 ## Syntax
 
-```cpp
-typedef enum { 
-   nmNone            = 0,
-   nmCaseSensitive   = 1,
-   nmCaseInsensitive = 2
-} NAME_MATCH;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public enum NameMatchOptions { 
    nmNone            = 0,
@@ -38,6 +29,15 @@ public enum NameMatchOptions { 
    nmCaseInsensitive = 2
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef enum { 
+   nmNone            = 0,
+   nmCaseSensitive   = 1,
+   nmCaseInsensitive = 2
+} NAME_MATCH;
+```
+---
 
 ## Fields
  `nmNone`\

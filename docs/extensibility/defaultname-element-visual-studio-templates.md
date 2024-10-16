@@ -1,22 +1,19 @@
 ---
-title: DefaultName Element (Visual Studio Templates) | Microsoft Docs
+title: DefaultName Element (Visual Studio Templates)
 description: Learn about the DefaultName element and how it specifies the name that the Visual Studio project system will generate for the project or item when it is created.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#DefaultName
 helpviewer_keywords:
 - DefaultName element [Visual Studio project templates]
-ms.assetid: 0ff056c8-b9d2-4747-9308-92adf1811491
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
 ---
 # DefaultName element (Visual Studio templates)
+
 Specifies the name that the Visual Studio project system will generate for the project or item when it is created.
 
  \<VSTemplate>
@@ -61,7 +58,7 @@ Specifies the name that the Visual Studio project system will generate for the p
  If you do not want the project system to generate the default name for the project or item, then set the [ProvideDefaultName](../extensibility/providedefaultname-element-visual-studio-templates.md) element to `False`.
 
 ## Example
- The following example illustrates the metadata for the standard item template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class.
+ The following example illustrates the metadata for the standard item template for a Visual C# class.
 
 ```
 <VSTemplate Type="Item" Version="3.0.0"

@@ -1,41 +1,41 @@
 ---
 description: "This method retrieves an object that allows enumeration of the list of persisted ports."
-title: IDebugPortSupplier3::EnumPersistedPorts | Microsoft Docs
+title: IDebugPortSupplier3::EnumPersistedPorts
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortSupplier3::EnumPersistedPorts
 helpviewer_keywords:
 - IDebugPortSupplier3::EnumPersistedPorts
-ms.assetid: 1c3dead3-5d6c-4067-8418-4015f0b0dd07
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPortSupplier3::EnumPersistedPorts
+
 This method retrieves an object that allows enumeration of the list of persisted ports.
 
 ## Syntax
 
-```cpp
-HRESULT EnumPersistedPorts(
-   BSTR_ARRAY         PortNames,
-   IEnumDebugPorts2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumPersistedPorts(
    BSTR_ARRAY           PortNames,
    out IEnumDebugPorts2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumPersistedPorts(
+   BSTR_ARRAY         PortNames,
+   IEnumDebugPorts2** ppEnum
+);
+```
+---
 
 ## Parameters
 `PortNames`\

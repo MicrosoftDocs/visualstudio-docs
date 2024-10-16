@@ -1,7 +1,6 @@
 ---
 title: Use ClickOnce to deploy multitarget apps
 description: Learn how to deploy an application that targets multiple versions of the .NET Framework by using the ClickOnce deployment technology. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -12,15 +11,13 @@ helpviewer_keywords:
   - ClickOnce applications, multiple .NET Framework versions
   - ClickOnce deployment, multiple .NET Framework versions
   - deploying applications [ClickOnce], multiple .NET Framework versions
-ms.assetid: e0a8c330-21bc-4eb2-b936-fd0f3c3221f1
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload: 
-  - dotnet
+manager: mijacobs
+ms.subservice: deployment
 ---
-# How to: Use ClickOnce to deploy applications that can run on multiple versions of the .NET framework
+# Use ClickOnce to deploy applications that can run on multiple versions of the .NET Framework
+
 You can deploy an application that targets multiple versions of the .NET Framework by using the ClickOnce deployment technology. This requires that you generate and update the application and deployment manifests.
 
 > [!NOTE]
@@ -43,6 +40,8 @@ You can deploy an application that targets multiple versions of the .NET Framewo
 ### To generate the application and deployment manifests
 
 - Use the Publish Wizard or the Publish Page of the Project Designer to publish the application and generate the application and deployment manifest files. For more information, see [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md) or [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md).
+
+[!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 ### To change the deployment manifest to list the multiple .NET Framework versions
 
@@ -99,7 +98,7 @@ You can deploy an application that targets multiple versions of the .NET Framewo
 
 - Update and re-sign the application and deployment manifests. For more information, see [How to: Re-sign application and deployment manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md).
 
-## See also
+## Related content
 - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
 - [\<compatibleFrameworks> element](../deployment/compatibleframeworks-element-clickonce-deployment.md)
 - [\<dependency> element](../deployment/dependency-element-clickonce-application.md)

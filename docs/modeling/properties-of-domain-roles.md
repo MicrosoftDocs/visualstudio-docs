@@ -1,17 +1,15 @@
 ---
 title: Properties of Domain Roles
 description: Learn about the properties that are associated with a domain role, like Collection Type, Custome Attributes, and Is Property Browsable.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Properties of Domain Roles
+
 The properties in the following table are associated with a domain role. For information about domain roles, see [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).
 
 |Property|Description|Default|
@@ -23,7 +21,7 @@ The properties in the following table are associated with a domain role. For inf
 |Property Getter Access Modifier|The access modifier for the getter for the generated property (`public`, `internal`, `private`, `protected`, or `protected internal`).|`public`|
 |Property Setter Access Modifier|The access modifier for the setter for the generated property (`public`, `internal`, `private`, `protected`, or `protected internal`).|`public`|
 |Multiplicity|The number of model elements which can play the opposite role (`0..1`, `1..1`, `0..*`, or `1..*`). If the multiplicity is `0..*` or `1..*`, then the generated property represents a collection; otherwise, the generated property represents a single model element.|Depends on the relationship type and whether this is the source or target role in the relationship.|
-|Name|The name of the domain role. This property can not contain whitespace.|The name of the domain class of the role player for this role.|
+|Name|The name of the domain role. This property can't contain whitespace.|The name of the domain class of the role player for this role.|
 |Propagates Copy|`DoNotPropagateCopy` - The copied role player will have no copy of this link.<br /><br /> `PropagateCopyToLinkOnly` - The copied link points to the existing opposite role player.<br /><br /> `PropagateCopyToLinkAndOppositeRolePlayer` - The copied link points to a copy of the opposite role player.|`PropagateCopyToLinkAndOppositeRolePlayer` for the source roles of embeddings.<br /><br /> `DoNotPropagateCopy` for other roles.<br /><br /> For more information, see [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md)|
 |Propagates Delete|`True` to delete the element that plays this role when the associated link is deleted.|`True` for the target of an embedding role.<br /><br /> `False` for other roles.|
 |Property Name|The name of the property generated in the code of the role player. This name cannot contain whitespace.|The name of the opposite role if this role has a zero-to-one or a one-to-one multiplicity; otherwise, the pluralized name of the opposite role.|

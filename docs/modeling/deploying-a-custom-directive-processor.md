@@ -1,17 +1,14 @@
 ---
 title: Deploying a Custom Directive Processor
 description: Learn about the methods available for deploying a custom directive processor in Visual Studio or on any computer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - text templates, custom directive processors
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Deploying a Custom Directive Processor
 
@@ -193,6 +190,6 @@ There are several ways of creating a .vsix file. The following procedure describ
 |Class|REG_SZ|\<**Your Fully Qualified Class Name**>|
 |Assembly|REG_SZ|\<**Your Assembly Name in the GAC**>|
 
-## See also
+## Related content
 
 - [Creating Custom T4 Text Template Directive Processors](../modeling/creating-custom-t4-text-template-directive-processors.md)

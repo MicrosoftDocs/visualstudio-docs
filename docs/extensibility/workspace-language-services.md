@@ -1,14 +1,11 @@
 ---
-title: "Workspaces and language services in Visual Studio | Microsoft Docs"
+title: "Workspaces and language services in Visual Studio"
 description: Learn how language services can provide Open Folder users the same rich language features they are used to when working with solutions and projects.
-ms.custom: SEO-VS-2020
 ms.date: "02/21/2018"
 ms.topic: "conceptual"
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
-ms.workload:
-  - "vssdk"
 ---
 # Workspaces and language services
 
@@ -54,6 +51,6 @@ The `Microsoft.VisualStudio.Workspace.*` APIs aren't the only way to enable your
 
 - <xref:Microsoft.VisualStudio.Workspace.Intellisense.ILanguageServiceProvider> is invoked when a file of matching file types is opened or closed for editing.
 
-## Next steps
+## Related content
 
 * [Workspace build](workspace-build.md) - Open Folder supports build systems such as MSBuild and makefiles.

@@ -1,7 +1,6 @@
 ---
 title: Localization tools
 description: Learn about the localization tools that are included in Visual Studio and how to use them to create localized applications in multiple languages.
-ms.custom: SEO-VS-2020
 ms.date: 02/15/2019
 ms.topic: reference
 helpviewer_keywords:
@@ -11,13 +10,10 @@ helpviewer_keywords:
 - localization [Visual Studio]
 - world-ready applications
 - international applications [Visual Studio]
-ms.assetid: 4d9815ae-3e80-4b4d-933d-f8309aee18d5
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: j-martens
+ms.author: jmartens
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Develop globalized and localized apps
 

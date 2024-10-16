@@ -1,8 +1,7 @@
 ---
-title: "SignFile Task | Microsoft Docs"
+title: "SignFile Task"
 description: Learn how MSBuild uses the SignFile task to sign the specified file using the specified certificate.
-ms.custom: SEO-VS-2020
-ms.date: "11/04/2016"
+ms.date: "9/5/2024"
 ms.topic: "reference"
 f1_keywords:
   - "http://schemas.microsoft.com/developer/msbuild/2003#SignFile"
@@ -10,21 +9,17 @@ dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-  - "jsharp"
 helpviewer_keywords:
   - "MSBuild, SignFile task"
   - "SignFile task [MSBuild]"
-ms.assetid: edef1819-ddeb-4e09-95de-fc7063ba9388
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # SignFile task
 
-Signs the specified file using the specified certificate.
+Signs the specified file using the specified certificate. SignFile is intended only for signing ClickOnce files. It is a wrapper for the `signtool.exe` tool and is not a general-purpose signing task.
 
 ## Parameters
 
@@ -44,7 +39,9 @@ Signs the specified file using the specified certificate.
 
 ## Remarks
 
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [Task base class](../msbuild/task-base-class.md).
+In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [Task base class](../msbuild/task-base-class.md).
+ 
+SignFile requires either Visual Studio or a Windows 8.1 SDK to be installed, in order to find the `signtool.exe` tool on the path. It can't be used in CI/CD scenarios where only the build tools are installed.
 
 ## Example
 
@@ -60,7 +57,7 @@ Signs the specified file using the specified certificate.
     </PropertyGroup>
     <Target Name="Sign">
         <SignFile
-            CertificateThumbprint="$(CertificateThumbprint)"
+            CertificateThumbprint="$(CERTIFICATE_THUMBPRINT)"
             SigningTarget="@(FileToSign)"
             TargetFrameworkVersion="v4.5" />
     </Target>
@@ -68,7 +65,7 @@ Signs the specified file using the specified certificate.
 ```
 
 > [!NOTE]
-> The certificate thumbprint is the SHA-1 hash of the certificate. For more information, see [Obtain the SHA-1 hash of a trusted root CA certificate](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc733076\(v\=ws.10\)). If you copy and paste the thumbprint from the certificate details, make sure you do not include the extra (3F) invisible character, which may prevent `SignFile` from finding the certificate.
+> The certificate thumbprint is the SHA-1 hash of the certificate. The example here assumes an environment variable `CERTIFICATE_THUMBPRINT` that contains the thumbprint. For more information, see [Obtain the SHA-1 hash of a trusted root CA certificate](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc733076\(v\=ws.10\)). If you copy and paste the thumbprint from the certificate details, make sure you do not include the extra (3F) invisible character, which may prevent `SignFile` from finding the certificate.
 
 ## See also
 

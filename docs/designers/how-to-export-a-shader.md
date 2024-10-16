@@ -1,20 +1,19 @@
 ---
-title: 'How to: Export a Shader'
+title: 'Export a Shader'
 description: Learn how to use the Shader Designer to export a Directed Graph Shader Language shader so that you can use it in your app.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: 0bd48bf4-9792-4456-a545-e462a2be668d
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-designers
-ms.workload:
-- multiple
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: ui-designers
 ---
-# How to: Export a shader
+# Export a shader
 
 This article demonstrates how to use the **Shader Designer** to export a Directed Graph Shader Language (DGSL) shader so that you can use it in your app.
+
+> [!NOTE]
+> Vertex shaders can't be exported.
 
 ## Export a shader
 
@@ -41,7 +40,7 @@ After you create a shader by using the Shader Designer and before you can use it
 
 4. In the **File name** combo box, specify a name for the exported shader, and then choose the **Save** button.
 
-## See also
+## Related content
 
 - [How to: Create a basic color shader](../designers/how-to-create-a-basic-color-shader.md)
 - [Shader Designer](../designers/shader-designer.md)

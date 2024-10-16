@@ -1,21 +1,19 @@
 ---
 description: "This function displays the history of the specified files."
-title: SccHistory Function | Microsoft Docs
+title: SccHistory Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccHistory
 helpviewer_keywords:
 - SccHistory function
-ms.assetid: a636d9d3-47c1-4b48-ac6b-bcfde19d6cf9
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # SccHistory Function
+
 This function displays the history of the specified files.
 
 ## Syntax
@@ -73,7 +71,7 @@ SCCRTN SccHistory(
 ## Remarks
  The source control plug-in can display its own dialog box to show the history of each file, using `hWnd` as the parent window. Alternatively, the optional text output callback function supplied to the [SccOpenProject](../extensibility/sccopenproject-function.md) can be used, if it is supported.
 
- Note that under certain circumstances, the file being examined may change during the execution of this call. For example, the [!INCLUDE[vsvss](../extensibility/includes/vsvss_md.md)] history command gives the user a chance to get an old version of the file. In such a case, the source control plug-in returns `SCC_I_RELOAD` to warn the IDE that it needs to reload the file.
+ Note that under certain circumstances, the file being examined may change during the execution of this call. For example, the Visual SourceSafe history command gives the user a chance to get an old version of the file. In such a case, the source control plug-in returns `SCC_I_RELOAD` to warn the IDE that it needs to reload the file.
 
 > [!NOTE]
 > If the source control plug-in does not support this function for an array of files, only the file history for the first file can be displayed.

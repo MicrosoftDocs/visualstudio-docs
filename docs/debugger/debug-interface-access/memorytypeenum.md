@@ -1,21 +1,19 @@
 ---
 description: "Specifies the type of memory to access."
-title: "MemoryTypeEnum | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "MemoryTypeEnum"
+ms.date: "07/18/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "MemoryTypeEnum enumeration"
-ms.assetid: 8778c047-edeb-4495-8f9f-3f8bbb297099
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
-# MemoryTypeEnum
+# `MemoryTypeEnum`
+
 Specifies the type of memory to access.
 
 ## Syntax
@@ -25,25 +23,23 @@ enum MemoryTypeEnum {
     MemTypeCode,
     MemTypeData,
     MemTypeStack,
+    MemTypeCodeOnHeap,              // Read only memory for code generated on heap by runtime
     MemTypeAny = -1
 };
 ```
 
-#### Parameters
-`MemTypeCode`
-Accesses only code memory.
+## Elements
 
-`MemTypeData`
-Accesses data or stack memory.
-
-`MemTypeStack`
-Accesses only stack memory.
-
-`MemTypeAny`
-Accesses any kind of memory.
+| Element        | Description                    |
+| -------------- | ------------------------------ |
+| `MemTypeCode`  | Accesses only code memory.     |
+| `MemTypeData`  | Accesses data or stack memory. |
+| `MemTypeStack` | Accesses only stack memory.    |
+| `MemTypeAny`   | Accesses any kind of memory.   |
+| `MemTypeCodeOnHeap` | Accesses only code memory generated on heap by runtime. |
 
 ## Remarks
-The values in this enumeration are passed to the [IDiaStackWalkHelper::readMemory](../../debugger/debug-interface-access/idiastackwalkhelper-readmemory.md) method to limit access to different types of memory.
+The values in this enumeration are passed to the [`IDiaStackWalkHelper::readMemory`](../../debugger/debug-interface-access/idiastackwalkhelper-readmemory.md) method to limit access to different types of memory.
 
 ## Requirements
 Header: cvconst.h

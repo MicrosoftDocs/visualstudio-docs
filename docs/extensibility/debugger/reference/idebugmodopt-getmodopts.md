@@ -1,35 +1,26 @@
 ---
 description: "Retrieves a list of optional modifiers."
-title: IDebugModOpt::GetModOpts | Microsoft Docs
+title: IDebugModOpt::GetModOpts
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugModOpt::GetModOpts
 - GetModOpts
-ms.assetid: cb513fa9-d521-4a65-b968-f55f53a368df
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugModOpt::GetModOpts
+
 Retrieves a list of optional modifiers.
 
 ## Syntax
 
-```cpp
-HRESULT GetModOpts(
-   ULONG  celt,
-   BSTR*  rgelt,
-   ULONG* pceltFetched
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetModOpts(
    uint         celt,
@@ -37,6 +28,15 @@ int GetModOpts(
    ref uint     pceltFetched
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetModOpts(
+   ULONG  celt,
+   BSTR*  rgelt,
+   ULONG* pceltFetched
+);
+```
+---
 
 ## Parameters
 `celt`\

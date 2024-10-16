@@ -1,7 +1,7 @@
 ---
-description: "These are the enumerations and structures used by the DIA SDK."
-title: "Enumerations and Structures | Microsoft Docs"
-ms.date: "11/04/2016"
+description: These are the enumerations and structures used by the DIA SDK.
+title: Enumerations and Structures
+ms.date: "07/22/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -10,17 +10,15 @@ helpviewer_keywords:
   - "DIA SDK, enumerations"
   - "structures [DIA SDK]"
   - "DIA SDK, structures"
-ms.assetid: d17eed2d-d8fd-4a47-82d3-8125c0624010
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # Enumerations and Structures
 
-These are the enumerations and structures used by the DIA SDK.
+These are the enumerations and structures used by the Debug Interface Access (DIA) SDK.
 
 ## In This Section
 
@@ -28,63 +26,91 @@ These are the enumerations and structures used by the DIA SDK.
 
 - [BasicType Enumeration](../../debugger/debug-interface-access/basictype.md)
 
- Specifies the symbol's basic type.
+Specifies the symbol's basic type.
 
-- [CV_access_e Enumeration](../../debugger/debug-interface-access/cv-access-e.md)
+- [`CV_access_e` Enumeration](../../debugger/debug-interface-access/cv-access-e.md)
 
- Specifies the scope of visibility (access level) of member functions and variables.
+Specifies the scope of visibility (access level) of member functions and variables.
 
-- [CV_call_e Enumeration](../../debugger/debug-interface-access/cv-call-e.md)
+- [`CV_AssociationKind_e`](../../debugger/debug-interface-access/cv-associationkind-e.md)
 
- Specifies the calling convention for a function.
+Specifies the kind of association between two symbols.
 
-- [CV_CFL_LANG Enumeration](../../debugger/debug-interface-access/cv-cfl-lang.md)
+- [`CV_builtin_e` Enumeration](../../debugger/debug-interface-access/cv-builtin-e.md)
 
- Specifies the source code language of the application or linked module.
+Specifies the HLSL built in type kind.
 
-- [CV_CPU_TYPE_e Enumeration](../../debugger/debug-interface-access/cv-cpu-type-e.md)
+- [`CV_call_e` Enumeration](../../debugger/debug-interface-access/cv-call-e.md)
 
- Specifies the target processor.
+Specifies the calling convention for a function.
 
-- [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md)
+- [`CV_CFL_LANG` Enumeration](../../debugger/debug-interface-access/cv-cfl-lang.md)
 
- Specifies a target register.
+Specifies the source code language of the application or linked module.
 
-- [DataKind Enumeration](../../debugger/debug-interface-access/datakind.md)
+- [`CV_SourceChksum_t` Enumeration](../../debugger/debug-interface-access/cv-sourcechksum-t.md)
 
- Indicates the particular scope of a data value.
+Specifies the type of source code checksum.
 
-- [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)
+- [`CV_CoroutineKind_e` Enumeration](../../debugger/debug-interface-access/cv-coroutinekind-e.md)
 
- Indicates the kind of location information contained in a symbol.
+Specifies the coroutine kind.
 
-- [MemoryTypeEnum Enumeration](../../debugger/debug-interface-access/memorytypeenum.md)
+- [`CV_CPU_TYPE_e` Enumeration](../../debugger/debug-interface-access/cv-cpu-type-e.md)
 
- Specifies the type of memory to access.
+Specifies the target processor.
 
-- [NameSearchOptions Enumeration](../../debugger/debug-interface-access/namesearchoptions.md)
+- [`CV_HLSLMemorySpace_e` Enumeration](../../debugger/debug-interface-access/cv-hlslmemoryspace-e.md)
 
- Specifies the search options for symbol and file names.
+Specifies the HLSL memory space kind.
 
-- [StackFrameTypeEnum Enumeration](../../debugger/debug-interface-access/stackframetypeenum.md)
+- [`CV_HLSLREG_e` Enumeration](../../debugger/debug-interface-access/cv-hlslreg-e.md)
 
- Specifies the stack frame type.
+Specifies the HLSL register type.
 
-- [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)
+- [`CV_HREG_e` Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md)
 
- Specifies the type of symbol.
+Specifies a target register.
 
-- [THUNK_ORDINAL Enumeration](../../debugger/debug-interface-access/thunk-ordinal.md)
+- [`CV_modifier_e`](../../debugger/debug-interface-access/cv-modifier-e.md)
 
- Designates thunk types.
+Specifies type modifers.
 
-- [UdtKind Enumeration](../../debugger/debug-interface-access/udtkind.md)
+- [`DataKind` Enumeration](../../debugger/debug-interface-access/datakind.md)
 
- Describes the variety of user-defined type (UDT).
+Indicates the particular scope of a data value.
+
+- [`LocationType` Enumeration](../../debugger/debug-interface-access/locationtype.md)
+
+Indicates the kind of location information contained in a symbol.
+
+- [`MemoryTypeEnum` Enumeration](../../debugger/debug-interface-access/memorytypeenum.md)
+
+Specifies the type of memory to access.
+
+- [`NameSearchOptions` Enumeration](../../debugger/debug-interface-access/namesearchoptions.md)
+
+Specifies the search options for symbol and file names.
+
+- [`StackFrameTypeEnum` Enumeration](../../debugger/debug-interface-access/stackframetypeenum.md)
+
+Specifies the stack frame type.
+
+- [`SymTagEnum` Enumeration](../../debugger/debug-interface-access/symtagenum.md)
+
+Specifies the type of symbol.
+
+- [`THUNK_ORDINAL` Enumeration](../../debugger/debug-interface-access/thunk-ordinal.md)
+
+Designates thunk types.
+
+- [`UdtKind` Enumeration](../../debugger/debug-interface-access/udtkind.md)
+
+Describes the variety of user-defined type (UDT).
 
 ### Structures
 
-[DiaAddressMapEntry Structure](../../debugger/debug-interface-access/diaaddressmapentry.md)
+[`DiaAddressMapEntry` Structure](../../debugger/debug-interface-access/diaaddressmapentry.md)
 
 Describes an entry in an address map.
 

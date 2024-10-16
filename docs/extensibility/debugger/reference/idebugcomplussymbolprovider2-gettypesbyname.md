@@ -1,35 +1,26 @@
 ---
 description: "Retrieves a type given its name."
-title: IDebugComPlusSymbolProvider2::GetTypesByName | Microsoft Docs
+title: IDebugComPlusSymbolProvider2::GetTypesByName
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - GetTypesByName
 - IDebugComPlusSymbolProvider2::GetTypesByName
-ms.assetid: ef76b1a8-6910-48fe-b4af-d9045eefd23f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider2::GetTypesByName
+
 Retrieves a type given its name.
 
 ## Syntax
 
-```cpp
-HRESULT GetTypesByName(
-    LPCOLESTR          pszClassName,
-    NAME_MATCH         nameMatch,
-    IEnumDebugFields** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetTypesByName(
     string               pszClassName,
@@ -37,6 +28,15 @@ int GetTypesByName(
     out IEnumDebugFields ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetTypesByName(
+    LPCOLESTR          pszClassName,
+    NAME_MATCH         nameMatch,
+    IEnumDebugFields** ppEnum
+);
+```
+---
 
 ## Parameters
 `pszClassName`\

@@ -1,39 +1,39 @@
 ---
 description: "This method gets the number of type visualizers available from this service."
-title: IEEVisualizerService::GetCustomViewerCount | Microsoft Docs
+title: IEEVisualizerService::GetCustomViewerCount
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEEVisualizerService::GetCustomViewerCount
 helpviewer_keywords:
 - IEEVisualizerService::GetCustomViewerCount method
-ms.assetid: f7b095c2-e538-4352-8cad-d4c6d4f6bdbc
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEEVisualizerService::GetCustomViewerCount
+
 This method gets the number of type visualizers available from this service.
 
 ## Syntax
 
-```cpp
-HRESULT GetCustomViewerCount(
-   ULONG* pcelt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCustomViewerCount(
    out uint pcelt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCustomViewerCount(
+   ULONG* pcelt
+);
+```
+---
 
 ## Parameters
 `pcelt`\

@@ -1,7 +1,6 @@
 ---
-title: "How to: Cache data for use offline or on a server"
+title: "Cache data for use offline or on a server"
 description: Mark a data item to be cached in the document, so that it's available offline. This makes it possible for the data in the document to be manipulated by other code.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -16,12 +15,11 @@ helpviewer_keywords:
   - "data caching [Office development in Visual Studio], offline use"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Cache data for use offline or on a server
+# Cache data for use offline or on a server
+
   You can mark a data item to be cached in the document, so that it is available offline. This also makes it possible for the data in the document to be manipulated by other code when the document is stored on a server.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
@@ -33,12 +31,16 @@ ms.workload:
 
 ### To cache data in the document using code
 
-1. Declare a public field or property for the data item as a member of a host item class in your project, such as the `ThisDocumen`t class in a Word project or the `ThisWorkbook` class in an Excel project.
+1. Declare a public field or property for the data item as a member of a host item class in your project, such as the `ThisDocument` class in a Word project or the `ThisWorkbook` class in an Excel project.
 
 2. Apply the <xref:Microsoft.VisualStudio.Tools.Applications.Runtime.CachedAttribute> attribute to the member to mark the data item to be stored in the document's data cache. The following example applies this attribute to a field declaration for a <xref:System.Data.DataSet>.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs" id="Snippet11":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb" id="Snippet11":::
+     ---
 
 3. Add code to create an instance of the data item and, if applicable, to load it from the database.
 
@@ -56,7 +58,7 @@ ms.workload:
 
 4. In the **Properties** window, set the **Modifiers** property to **Public** (by default it is **Internal**).
 
-## See also
+## Related content
 - [Cache data](../vsto/caching-data.md)
 - [How to: Programmatically cache a data source in an Office document](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md)
 - [How to: Cache data in a password-protected document](../vsto/how-to-cache-data-in-a-password-protected-document.md)

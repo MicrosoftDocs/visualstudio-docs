@@ -1,38 +1,26 @@
 ---
 description: "Loads the specified debug symbols in memory."
-title: IDebugComPlusSymbolProvider::LoadSymbols | Microsoft Docs
+title: IDebugComPlusSymbolProvider::LoadSymbols
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - LoadSymbols
 - IDebugComPlusSymbolProvider::LoadSymbols
-ms.assetid: 3499680d-0b9a-4f20-8432-c89a41b29b87
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::LoadSymbols
+
 Loads the specified debug symbols in memory.
 
 ## Syntax
 
-```cpp
-HRESULT LoadSymbols(
-    ULONG32   ulAppDomainID,
-    GUID      guidModule,
-    ULONGLONG baseAddress,
-    IUnknown* pUnkMetadataImport,
-    BSTR      bstrModuleName,
-    BSTR      bstrSymSearchPath
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int LoadSymbols(
     uint   ulAppDomainID,
@@ -43,13 +31,25 @@ int LoadSymbols(
     string bstrSymSearchPath
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT LoadSymbols(
+    ULONG32   ulAppDomainID,
+    GUID      guidModule,
+    ULONGLONG baseAddress,
+    IUnknown* pUnkMetadataImport,
+    BSTR      bstrModuleName,
+    BSTR      bstrSymSearchPath
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\
 [in] Identifier of the application domain.
 
 `guidModule`\
-[in] Unique identifier of the mondule.
+[in] Unique identifier of the module.
 
 `baseAddress`\
 [in] Base memory address.

@@ -1,39 +1,27 @@
 ---
 description: "This method sends events that signify the creation and destruction of processes and programs on a port."
-title: IDebugPortEvents2::Event | Microsoft Docs
+title: IDebugPortEvents2::Event
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortEvents2::Event
 helpviewer_keywords:
 - IDebugPortEvents2::Event
-ms.assetid: 5cc813f7-04a1-4462-9ea7-fbddcf0e0143
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPortEvents2::Event
+
 This method sends events that signify the creation and destruction of processes and programs on a port.
 
 ## Syntax
 
-```cpp
-HRESULT Event(
-   IDebugCoreServer2* pServer,
-   IDebugPort2*       pPort,
-   IDebugProcess2*    pProcess,
-   IDebugProgram2*    pProgram,
-   IDebugEvent2*      pEvent,
-   REFIID             riidEvent
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Event(
    IDebugCoreServer2 pServer,
@@ -44,10 +32,22 @@ int Event(
    ref Guid          riidEvent
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Event(
+   IDebugCoreServer2* pServer,
+   IDebugPort2*       pPort,
+   IDebugProcess2*    pProcess,
+   IDebugProgram2*    pProgram,
+   IDebugEvent2*      pEvent,
+   REFIID             riidEvent
+);
+```
+---
 
 ## Parameters
 `pMachine`\
-[in] An [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md) object that represents the debug server (there is one for every instance of [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)]) in which the event occurred.
+[in] An [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md) object that represents the debug server (there is one for every instance of Visual Studio) in which the event occurred.
 
 `pPort`\
 [in] An [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) object that represents the port in which the event occurred.

@@ -1,41 +1,41 @@
 ---
 description: "This method evaluates the expression asynchronously."
-title: IDebugExpression2::EvaluateAsync | Microsoft Docs
+title: IDebugExpression2::EvaluateAsync
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExpression2::EvaluateAsync
 helpviewer_keywords:
 - IDebugExpression2::EvaluateAsync
-ms.assetid: 848fe6cb-0759-42f2-890b-d2b551c527d6
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExpression2::EvaluateAsync
+
 This method evaluates the expression asynchronously.
 
 ## Syntax
 
-```cpp
-HRESULT EvaluateAsync (
-    EVALFLAGS             dwFlags,
-    IDebugEventCallback2* pExprCallback
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EvaluateAsync(
     enum_EVALFLAGS       dwFlags,
     IDebugEventCallback2 pExprCallback
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EvaluateAsync (
+    EVALFLAGS             dwFlags,
+    IDebugEventCallback2* pExprCallback
+);
+```
+---
 
 ## Parameters
 `dwFlags`\

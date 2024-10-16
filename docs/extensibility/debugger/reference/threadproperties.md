@@ -1,40 +1,27 @@
 ---
 description: "Describes the properties of a thread."
-title: THREADPROPERTIES | Microsoft Docs
+title: THREADPROPERTIES
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - THREADPROPERTIES
 helpviewer_keywords:
 - THREADPROPERTIES structure
-ms.assetid: 7d397207-db03-4ec0-9f79-3794056ed89f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # THREADPROPERTIES
+
 Describes the properties of a thread.
 
 ## Syntax
 
-```cpp
-typedef struct _tagTHREADPROPERTIES { 
-   THREADPROPERTY_FIELDS dwFields;
-   DWORD                 dwThreadId;
-   DWORD                 dwSuspendCount;
-   DWORD                 dwThreadState;
-   BSTR                  bstrPriority;
-   BSTR                  bstrName;
-   BSTR                  bstrLocation;
-} THREADPROPERTIES;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct THREADPROPERTIES { 
    public uint   dwFields;
@@ -46,6 +33,19 @@ public struct THREADPROPERTIES { 
    public string bstrLocation;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagTHREADPROPERTIES { 
+   THREADPROPERTY_FIELDS dwFields;
+   DWORD                 dwThreadId;
+   DWORD                 dwSuspendCount;
+   DWORD                 dwThreadState;
+   BSTR                  bstrPriority;
+   BSTR                  bstrName;
+   BSTR                  bstrLocation;
+} THREADPROPERTIES;
+```
+---
 
 ## Members
  `dwFields`\

@@ -1,7 +1,6 @@
 ---
 title: "Events in Office projects"
 description: Learn how each Office project template generates several event handlers and how those event handlers are slightly different from event handlers for VSTO Add-ins.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -31,12 +30,11 @@ helpviewer_keywords:
   - "ThisAddIn_Shutdown"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Events in Office projects
+
   Each Office project template automatically generates several event handlers. The event handlers for document-level customizations are slightly different from event handlers for VSTO Add-ins.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
@@ -86,16 +84,24 @@ ms.workload:
 
  The following code example shows the default event handlers in document-level projects for Word.
 
- :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet121":::
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs" id="Snippet121":::
+
+ ### [VB](#tab/vb)
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb" id="Snippet121":::
+ ---
 
  The following code example shows the default event handlers in document-level projects for Excel.
 
 > [!NOTE]
 > The following code example shows the event handlers in the `Sheet1` class. The names of the event handlers in other host item classes correspond to the class name. For example, in the `Sheet2` class, the **Startup** event handler is named `Sheet2_Startup`. In the `ThisWorkbook` class, the **Startup** event handler is named `ThisWorkbook_Startup`.
 
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet83":::
+
+ ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet83":::
+ ---
 
 ### Order of events in document-level Excel projects
  The **Startup** event handlers in Excel projects are called in this order:
@@ -149,7 +155,7 @@ ms.workload:
 > [!NOTE]
 > You can force Outlook to raise the <xref:Microsoft.Office.Tools.AddInBase.Shutdown> event when it exits by modifying the registry. However, if an administrator reverts this setting, any code that you add to the `ThisAddIn_Shutdown` method no longer runs when Outlook exits. For more information, see [Shutdown changes for Outlook 2010](/previous-versions/office/developer/office-2010/ee720183(v=office.14)).
 
-## See also
+## Related content
 - [Develop Office solutions](../vsto/developing-office-solutions.md)
 - [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)
 - [Program document-level customizations](../vsto/programming-document-level-customizations.md)

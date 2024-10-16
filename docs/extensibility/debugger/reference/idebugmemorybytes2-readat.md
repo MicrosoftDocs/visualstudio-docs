@@ -1,6 +1,6 @@
 ---
 description: "Reads a sequence of bytes, starting at a given location."
-title: IDebugMemoryBytes2::ReadAt | Microsoft Docs
+title: IDebugMemoryBytes2::ReadAt
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,32 +8,21 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugMemoryBytes2::ReadAt method
 - ReadAt method
-ms.assetid: b413684d-4155-4bd4-ae30-ffa512243b5f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugMemoryBytes2::ReadAt
+
 Reads a sequence of bytes, starting at a given location.
 
 ## Syntax
 
-```cpp
-HRESULT ReadAt( 
-   IDebugMemoryContext2* pStartContext,
-   DWORD                 dwCount,
-   BYTE*                 rgbMemory,
-   DWORD*                pdwRead,
-   DWORD*                pdwUnreadable
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ReadAt(
    IDebugMemoryContext2 pStartContext,
@@ -43,6 +32,17 @@ int ReadAt(
    ref uint             pdwUnreadable
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ReadAt( 
+   IDebugMemoryContext2* pStartContext,
+   DWORD                 dwCount,
+   BYTE*                 rgbMemory,
+   DWORD*                pdwRead,
+   DWORD*                pdwUnreadable
+);
+```
+---
 
 ## Parameters
 `pStartContext`\

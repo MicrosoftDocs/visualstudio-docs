@@ -1,39 +1,39 @@
 ---
 description: "Gets a memory context of a reference."
-title: IDebugReference2::GetMemoryContext | Microsoft Docs
+title: IDebugReference2::GetMemoryContext
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugReference2::GetMemoryContext
 helpviewer_keywords:
 - IDebugReference2::GetMemoryContext
-ms.assetid: 47fc3827-07a0-4eee-b7f4-fc1c62e6b25c
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugReference2::GetMemoryContext
+
 Gets a memory context of a reference. Reserved for future use.
 
 ## Syntax
 
-```cpp
-HRESULT GetMemoryContext ( 
-   IDebugMemoryContext2** ppMemory
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMemoryContext ( 
    out IDebugMemoryContext2 ppMemory
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMemoryContext ( 
+   IDebugMemoryContext2** ppMemory
+);
+```
+---
 
 ## Parameters
 `ppMemory`\

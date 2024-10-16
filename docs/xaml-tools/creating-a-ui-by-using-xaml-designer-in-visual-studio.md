@@ -1,20 +1,18 @@
 ---
 title: Create UIs with Visual Studio XAML Designer
-description: Learn about the workspace UI and features of the XAML Designer in Blend for Visual Studio that provides a visual interface to help you design XAML-based apps.
-ms.date: 03/03/2020
+description: Explore XAML Designer workspace UI and features in Blend for Visual Studio that provides a visual interface to help you design XAML-based apps.
+ms.date: 08/30/2024
 ms.topic: conceptual
-ms.custom: contperf-fy21q4, SEO-VS-2020
 f1_keywords:
 - VS.XamlDesigner
 - VS.DevicePanel
 - VS.DocumentOutline
 - Blend.Start.Dev12
-ms.devlang: CSharp
-ms.assetid: c54969a7-d75a-4a35-9b37-af7a596a7c24
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xaml-tools
+ms.devlang: csharp
+author: maddymontaquila
+ms.author: maleger
+manager: mijacobs
+ms.subservice: xaml-tools
 ---
 # Create a UI by using XAML Designer
 
@@ -23,7 +21,12 @@ The XAML Designer in Visual Studio and Blend for Visual Studio provides a visual
 For advanced users, you can even [customize the XAML Designer](https://github.com/microsoft/xaml-designer-extensibility/blob/master/documents/xaml-designer-extensibility-migration.md).
 
 > [!NOTE]
+> WinUI 3 / .NET MAUI XAML designer is not supported in Visual Studio 2022. To view your WinUI 3 / .NET MAUI XAML UIs and edit them while the app is running, use XAML Hot Reload for WinUI 3 / .NET MAUI. For more information, see the [XAML Hot Reload](../xaml-tools/xaml-hot-reload.md) page.
+
+::: moniker range="vs-2019"
+> [!NOTE]
 > Xamarin.Forms does not support a XAML designer. To view your Xamarin.Forms XAML UIs and edit them while the app is running, use XAML Hot Reload for Xamarin.Forms. For more information, see the [XAML Hot Reload for Xamarin.Forms (Preview)](/xamarin/xamarin-forms/xaml/hot-reload/) page.
+::: moniker-end
 
 ## XAML Designer workspace
 
@@ -158,7 +161,7 @@ To the right of each property value is a *property marker* that appears as a box
 
 For more information about using properties and handling events, see [Intro to controls and patterns](/windows/uwp/design/controls-and-patterns/controls-and-events-intro).
 
-## See also
+## Related content
 
 - [Work with elements in XAML Designer](../xaml-tools/working-with-elements-in-xaml-designer.md)
 - [How to create and apply a resource](../xaml-tools/how-to-create-and-apply-a-resource.md)

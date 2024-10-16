@@ -1,19 +1,16 @@
 ---
 title: Generating Code from a Domain-Specific Language
 description: Learn how Domain-Specific Language Tools provides a powerful way to generate code, documents, and other artifacts from data represented in models.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Generating Code from a Domain-Specific Language
 
-Microsoft [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] provides a powerful way to generate code, documents, configuration files, and other artifacts from data represented in models. Using [!INCLUDE[dsl](../modeling/includes/dsl_md.md)], you can create a set of classes that represent your data, and you can write your text templates in classes whose names and properties reflect that data.
+Microsoft Domain-Specific Language Tools provides a powerful way to generate code, documents, configuration files, and other artifacts from data represented in models. Using Domain-Specific Language Tools, you can create a set of classes that represent your data, and you can write your text templates in classes whose names and properties reflect that data.
 
 For example, Fabrikam has an XML file of customer names and e-mail addresses. Their developers create a model in which Customer is a class, with properties name and e-mail. They write several text templates to process the data, including this fragment which produces a table of all the customers as part of an HTML page:
 
@@ -25,11 +22,11 @@ For example, Fabrikam has an XML file of customer names and e-mail addresses. Th
 <# } #>  </table>
 ```
 
-When the customer database is processed, the XML file is read into the model store. A *directive processor*, created by using [!INCLUDE[dsl](../modeling/includes/dsl_md.md)], makes the Customer class available to the code in the text template. Many text templates can be run against the same store.
+When the customer database is processed, the XML file is read into the model store. A *directive processor*, created by using Domain-Specific Language Tools, makes the Customer class available to the code in the text template. Many text templates can be run against the same store.
 
-Text templates are essential to [!INCLUDE[dsl](../modeling/includes/dsl_md.md)]. They are used to generate the source code for the elements of the domain model as well as for the VSPackage and the controls that are used to integrate the tools with Visual Studio.
+Text templates are essential to Domain-Specific Language Tools. They are used to generate the source code for the elements of the domain model as well as for the VSPackage and the controls that are used to integrate the tools with Visual Studio.
 
-This section discusses some of the ways to create, modify, and debug text templates used in [!INCLUDE[dsl](../modeling/includes/dsl_md.md)].
+This section discusses some of the ways to create, modify, and debug text templates used in Domain-Specific Language Tools.
 
 ## In This Section
 
@@ -50,10 +47,9 @@ Describes the command file that executes the TextTransform executable on the com
 [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)\
 Provides the syntax of text template directives and control blocks.
 
-## Related Sections
+## Related content
 
-[Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)\
+- [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)\
 Explains the text template transformation process.
-
-[Code Generation in a Build Process](../modeling/code-generation-in-a-build-process.md)\
+- [Code Generation in a Build Process](../modeling/code-generation-in-a-build-process.md)\
 Read this topic if you are generating files from a DSL on a build server.

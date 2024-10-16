@@ -1,0 +1,40 @@
+{
+  "baseConfiguration": "docutune-unattended-default.json",
+  "onboarding": {
+    "maxInFlightPullRequests": 20,
+    "maxInFlightFiles": 200
+  },
+  "pullRequest": {
+    "title": "[BULK] [DocuTune-Remediation] - Scheduled execution to fix known issues in Visual Studio documentation",
+    "batchSize": 9,
+    "maxBatches": 100,
+    "body": "",
+    "newBranchNamePrefix": "",
+    "headRemote": "origin",
+    "draft": false,
+    "requestReview": true,
+    "signOff": false,
+    "properties": {},
+    "sleepInterval": 15
+  },
+  "types": [
+    {
+      "name": "Default",
+      "command": "Fix",
+      "configType": "full",
+      "stopAt": 50,
+      "include": [
+        "docs/"
+      ],
+      "exclude": [
+        "toc.yml"
+      ]
+    },
+    {
+      "name": "FlagBrokenLinks",
+      "base": "Default",
+      "configType": "links-only",
+      "stopAt": 50
+    }
+  ]
+}

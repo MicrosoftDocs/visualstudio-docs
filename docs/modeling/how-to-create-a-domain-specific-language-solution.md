@@ -1,7 +1,6 @@
 ---
-title: 'How to: Create a Domain-Specific Language Solution'
+title: 'Create a Domain-Specific Language Solution'
 description: Learn how to create a domain-specific language (DSL) by using a specialized Visual Studio solution.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -12,12 +11,11 @@ helpviewer_keywords:
 - Domain-Specific Language Tools, creating solutions
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
-# How to: Create a Domain-Specific Language Solution
+# Create a Domain-Specific Language Solution
+
 A domain-specific language (DSL) is created by using a specialized Visual Studio solution.
 
 ## Prerequisites
@@ -36,12 +34,6 @@ Before you can start this procedure, install these components:
 
    > [!NOTE]
    > Preferably, the name that you choose for the project should be a valid Visual C# identifier because it might be used to generate code.
-
-   ::: moniker range="vs-2017"
-
-   ![Create DSL dialog](../modeling/media/create_dsldialog.png)
-
-   ::: moniker-end
 
 2. Choose a DSL template.
 
@@ -86,7 +78,7 @@ Before you can start this procedure, install these components:
 
      \- or -
 
-- Reset the Visual Studio Experimental Instance. This will unregister all of the DSLs that you have previously built. On the **Start** menu, click **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, and then **Reset the Microsoft Visual Studio 2010 Experimental instance**. You can rebuild any other DSLs that you want to use again.
+- Reset the Visual Studio Experimental Instance. This will unregister all of the DSLs that you have previously built. In the Windows **Start** menu, type **reset the Visual Studio**, and then run the **Reset the Microsoft Visual Studio Experimental Instance** command matching your version of Visual Studio. You can rebuild any other DSLs that you want to use again.
 
      \- or -
 
@@ -115,7 +107,7 @@ Before you can start this procedure, install these components:
 
  For more information about strong naming, see [Creating and Using Strong-Named Assemblies](/dotnet/standard/assembly/create-use-strong-named).
 
-## See also
+## Related content
 
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
 - [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

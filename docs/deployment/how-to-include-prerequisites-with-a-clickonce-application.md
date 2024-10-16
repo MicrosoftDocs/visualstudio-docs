@@ -1,19 +1,16 @@
 ---
 title: Include prerequisites (ClickOnce app)
 description: Learn how to get installer packages for prerequisites to distribute for your ClickOnce application for your development computer.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 9/18/2024
 ms.topic: how-to
-ms.assetid: c66bf0a5-8c93-4e68-a224-3b29ac36fe4d
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
+manager: mijacobs
+ms.subservice: deployment
 ---
-# How to: Include prerequisites with a ClickOnce application
-Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, you must first download the installer packages for those prerequisites to your development computer. When you publish an application and choose **Download prerequisites from the same location as my application**, an error will occur if the installer packages aren't in the **Packages** folder.
+# Include prerequisites with a ClickOnce application
+
+Before you can distribute prerequisite software with a ClickOnce application, you must first download the installer packages for those prerequisites to your development computer. When you publish an application and choose **Download prerequisites from the same location as my application**, an error will occur if the installer packages aren't in the **Packages** folder.
 
 > [!NOTE]
 > To add an installer package for the .NET Framework, see [.NET Framework Deployment Guide for Developers](/dotnet/framework/deployment/deployment-guide-for-developers).
@@ -24,10 +21,9 @@ Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](..
 
     By default, the path is `%ProgramFiles(x86)%\Microsoft SDKs\ClickOnce Bootstrapper\Packages\`.
 
->[!NOTE]
-> Starting with the Visual Studio 2019 Update 7 release bootstrapper packages will also be discovered under the path *<VS Install Path>\MSBuild\Microsoft\VisualStudio\BootstrapperPackages*.
+    Starting with Visual Studio 2019 Update 7, some .NET bootstrapper packages will also be discovered under the path `<VS Install Path>\MSBuild\Microsoft\VisualStudio\BootstrapperPackages`.
 
-2. Open the folder for the prerequisite that you want to add, and then open the language folder for your installed version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (for example, **en** for English).
+2. Open the folder for the prerequisite that you want to add, and then open the language folder for your installed version of Visual Studio (for example, **en** for English).
 
 3. In Notepad, open the *Package.xml* file.
 
@@ -49,5 +45,5 @@ Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](..
 
     You can now distribute the installer package with your application.
 
-## See also
+## Related content
 - [How to: Install prerequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)

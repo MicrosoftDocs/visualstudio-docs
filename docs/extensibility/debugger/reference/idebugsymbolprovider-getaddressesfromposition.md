@@ -1,37 +1,27 @@
 ---
 description: "This method maps a document position into an array of debug addresses."
-title: IDebugSymbolProvider::GetAddressesFromPosition | Microsoft Docs
+title: IDebugSymbolProvider::GetAddressesFromPosition
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugSymbolProvider::GetAddressesFromPosition
 helpviewer_keywords:
 - IDebugSymbolProvider::GetAddressesFromPosition method
-ms.assetid: 1b0f02cb-8ace-4614-88f3-0e10239012b3
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugSymbolProvider::GetAddressesFromPosition
+
 This method maps a document position into an array of debug addresses.
 
 ## Syntax
 
-```cpp
-HRESULT GetAddressesFromPosition( 
-   IDebugDocumentPosition2* pDocPos,
-   BOOL                     fStatmentOnly,
-   IEnumDebugAddresses**    ppEnumBegAddresses,
-   IEnumDebugAddresses**    ppEnumEndAddresses
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAddressesFromPosition( 
    IDebugDocumentPosition2  pDocPos,
@@ -40,6 +30,16 @@ int GetAddressesFromPosition( 
    out IEnumDebugAddresses  ppEnumEndAddresses
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAddressesFromPosition( 
+   IDebugDocumentPosition2* pDocPos,
+   BOOL                     fStatmentOnly,
+   IEnumDebugAddresses**    ppEnumBegAddresses,
+   IEnumDebugAddresses**    ppEnumEndAddresses
+);
+```
+---
 
 ## Parameters
 `pDocPos`\

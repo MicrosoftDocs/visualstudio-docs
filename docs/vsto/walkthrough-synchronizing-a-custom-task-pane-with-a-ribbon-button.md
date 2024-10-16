@@ -1,7 +1,6 @@
 ---
 title: "Synchronize custom task pane with Ribbon button"
 description: Learn how you can create a custom task pane that users can hide or display by clicking a toggle button on the ribbon.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -22,12 +21,11 @@ helpviewer_keywords:
   - "task panes [Office development in Visual Studio], synchronizing with Ribbon button"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Walkthrough: Synchronize a custom task pane with a Ribbon button
+
   This walkthrough demonstrates how to create a custom task pane that users can hide or display by clicking a toggle button on the ribbon. You should always create a user interface (UI) element, such as a button, that users can click to display or hide your custom task pane, because Microsoft Office applications do not provide a default way for users to show or hide custom task panes.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
@@ -50,7 +48,7 @@ ms.workload:
 
 - [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
-- Microsoft Excel or Microsoft [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)].
+- Microsoft Excel or Microsoft  Excel 2013 .
 
 ## Create the Add-in project
  In this step, you will create a VSTO Add-in project for Excel.
@@ -59,7 +57,7 @@ ms.workload:
 
 1. Create an Excel Add-in project with the name **SynchronizeTaskPaneAndRibbon**, using the Excel Add-in project template. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] opens the **ThisAddIn.cs** or **ThisAddIn.vb** code file and adds the **SynchronizeTaskPaneAndRibbon** project to **Solution Explorer**.
+     Visual Studio opens the **ThisAddIn.cs** or **ThisAddIn.vb** code file and adds the **SynchronizeTaskPaneAndRibbon** project to **Solution Explorer**.
 
 ## Add a toggle button to the ribbon
  One of the Office application design guidelines is that users should always have control of the Office application UI. To enable users to control the custom task pane, you can add a Ribbon toggle button that shows and hides the task pane. To create a toggle button, add a **Ribbon (Visual Designer)** item to the project. The designer helps you add and position controls, set control properties, and handle control events. For more information, see [Ribbon designer](../vsto/ribbon-designer.md).
@@ -108,23 +106,39 @@ ms.workload:
 
 3. Add the following code to the `ThisAddIn` class. This code declares an instance of `TaskPaneControl` as a member of `ThisAddIn`.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_TaskPaneRibbonSynchronize/ThisAddIn.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_TaskPaneRibbonSynchronize/ThisAddIn.vb" id="Snippet1":::
+     ---
 
 4. Replace the `ThisAddIn_Startup` event handler with the following code. This code adds the `TaskPaneControl` object to the `CustomTaskPanes` field, but it does not display the custom task pane (by default, the <xref:Microsoft.Office.Tools.CustomTaskPane.Visible%2A> property of the <xref:Microsoft.Office.Tools.CustomTaskPane> class is **false**). The Visual C# code also attaches an event handler to the <xref:Microsoft.Office.Tools.CustomTaskPane.VisibleChanged> event.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_TaskPaneRibbonSynchronize/ThisAddIn.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_TaskPaneRibbonSynchronize/ThisAddIn.vb" id="Snippet2":::
+     ---
 
 5. Add the following method to the `ThisAddIn` class. This method handles the <xref:Microsoft.Office.Tools.CustomTaskPane.VisibleChanged> event. When the user closes the task pane by clicking the **Close** button (X), this method updates the state of the toggle button on the Ribbon.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_TaskPaneRibbonSynchronize/ThisAddIn.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_TaskPaneRibbonSynchronize/ThisAddIn.vb" id="Snippet3":::
+     ---
 
-6. Add the following property to the `ThisAddIn` class. This property exposes the private `myCustomTaskPane1` object to other classes. Later in this walkthrough, you will add code to the `MyRibbon` class that uses this property.
+6. Add the following property to the `ThisAddIn` class. This property exposes the private `taskPaneValue` object to other classes. Later in this walkthrough, you will add code to the `MyRibbon` class that uses this property.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_TaskPaneRibbonSynchronize/ThisAddIn.cs" id="Snippet4":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_TaskPaneRibbonSynchronize/ThisAddIn.vb" id="Snippet4":::
+     ---
 
 ## Hide and show the custom task pane by using the toggle button
  The last step is to add code that displays or hides the custom task pane when the user clicks the toggle button on the Ribbon.
@@ -137,8 +151,12 @@ ms.workload:
 
 2. Replace the `toggleButton1_Click` event handler with the following code. When the user clicks the toggle button, this code displays or hides the custom task pane, depending on whether the toggle button is pressed or not pressed.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_TaskPaneRibbonSynchronize/ManageTaskPaneRibbon.vb" id="Snippet5":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_TaskPaneRibbonSynchronize/ManageTaskPaneRibbon.cs" id="Snippet5":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_TaskPaneRibbonSynchronize/ManageTaskPaneRibbon.vb" id="Snippet5":::
+     ---
 
 ## Test the Add-in
  When you run the project, Excel opens without displaying the custom task pane. Click the toggle button on the ribbon to test the code.
@@ -168,7 +186,7 @@ ms.workload:
 
 - Create a custom task pane for every e-mail message that is opened in Outlook. For more information, see [Walkthrough: Display custom task panes with email messages in Outlook](../vsto/walkthrough-displaying-custom-task-panes-with-e-mail-messages-in-outlook.md).
 
-## See also
+## Related content
 - [Custom task panes](../vsto/custom-task-panes.md)
 - [How to: Add a custom task pane to an application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md)
 - [Walkthrough: Automate an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md)

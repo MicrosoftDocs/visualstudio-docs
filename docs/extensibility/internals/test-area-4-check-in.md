@@ -1,25 +1,22 @@
 ---
-title: 'Test Area 4: Check In | Microsoft Docs'
+title: 'Test Area 4: Check In'
 description: This source-control plug-in test area covers sending updated items to the version store by using the Check In command.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], checking items in
 - source control plug-ins, checking items in
-ms.assetid: d0329fa8-7a8d-4d30-b67b-6f2a97b75a30
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Test Area 4: Check In
+
 This source-control plug-in test area covers sending updated items to the version store via the **Check In** command.
 
 ## Command Menu Access
- The following [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment menu paths are used in the test cases.
+ The following Visual Studio integrated development environment menu paths are used in the test cases.
 
 ##### Check In:
  **File**, **Source Control**, **Check In**.
@@ -63,5 +60,5 @@ This source-control plug-in test area covers sending updated items to the versio
 |Add a project to a blank solution under source control (**Check In** dialog box)|1.  Create a blank solution.<br />2.  Add the solution to source control.<br />3.  Add a new project.<br />4.  Accept check out of the solution if prompted.<br />5.  Check in from the **Check In** dialog box.|Common Expected Behavior.|
 |Add a project to a blank solution under source control (**Pending Checkins** window)|1.  Create a blank solution.<br />2.  Add the solution to source control.<br />3.  Add a new project.<br />4.  Accept check out of the solution if prompted.<br />5.  Check in solution from **Pending Checkins** window.|Common Expected Behavior.|
 
-## See also
+## Related content
 - [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

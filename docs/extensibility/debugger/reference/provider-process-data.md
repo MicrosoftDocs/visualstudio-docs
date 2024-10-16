@@ -1,36 +1,27 @@
 ---
 description: "This structure provides information about processes running on a machine."
-title: PROVIDER_PROCESS_DATA | Microsoft Docs
+title: PROVIDER_PROCESS_DATA
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - PROVIDER_PROCESS_DATA
 helpviewer_keywords:
 - PROVIDER_PROCESS_DATA structure
-ms.assetid: ec2362ed-4a0c-4a09-9d66-8ff04e4f41ee
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # PROVIDER_PROCESS_DATA
+
 This structure provides information about processes running on a machine.
 
 ## Syntax
 
-```cpp
-typedef struct tagPROVIDER_PROCESS_DATA {
-   PROVIDER_FIELDS    Fields;
-   PROGRAM_NODE_ARRAY ProgramNodes;
-   BOOL               fIsDebuggerPresent;
-} PROVIDER_PROCESS_DATA;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct PROVIDER_PROCESS_DATA {
    public uint               Fields;
@@ -38,6 +29,15 @@ public struct PROVIDER_PROCESS_DATA {
    public int                fIsDebuggerPresent;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagPROVIDER_PROCESS_DATA {
+   PROVIDER_FIELDS    Fields;
+   PROGRAM_NODE_ARRAY ProgramNodes;
+   BOOL               fIsDebuggerPresent;
+} PROVIDER_PROCESS_DATA;
+```
+---
 
 ## Members
  `Fields`\
@@ -47,7 +47,7 @@ public struct PROVIDER_PROCESS_DATA {
  A [PROGRAM_NODE_ARRAY](../../../extensibility/debugger/reference/program-node-array.md) structure that contains an array of program nodes.
 
  `fIsDebuggerPresent`\
- Nonzero (`TRUE`) if the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] debugger is running, zero (`FALSE`) if it is not.
+ Nonzero (`TRUE`) if the Visual Studio debugger is running, zero (`FALSE`) if it is not.
 
 ## Remarks
  This structure is passed to the [GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md) method where it is filled in.

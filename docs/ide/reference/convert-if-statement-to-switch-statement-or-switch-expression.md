@@ -1,17 +1,14 @@
 ---
 title: Convert if statement to switch statement or expression
 description: Learn how to use the Quick Actions and Refactorings menu to convert an if statement into a switch statement or a C# 8.0 switch expression.
-ms.custom: SEO-VS-2020
 ms.date: 03/10/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-manager: jmartens
-ms.technology: vs-ide-general
+manager: mijacobs
+ms.subservice: general-ide
 dev_langs:
   - CSharp
-ms.workload:
-  - "dotnet"
 ---
 # Convert if statement to switch statement or switch expression
 

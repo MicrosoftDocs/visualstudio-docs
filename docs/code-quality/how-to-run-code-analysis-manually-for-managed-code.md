@@ -1,33 +1,40 @@
 ---
-title: How to run code analysis manually for .NET
-ms.date: 09/02/2020
-description: "Learn how to manually run code analysis in Visual Studio 2019 version 16.5 or later versions. See how to run Roslyn analyzers on C# or Visual Basic code."
-ms.custom: SEO-VS-2020
+title: Run code analysis manually for .NET
+description: Learn how to manually run code analysis in Visual Studio with Roslyn analyzers on C# and Visual Basic code.
+author: mikadumont
+ms.author: midumont
+manager: mijacobs
+ms.subservice: code-analysis
 ms.topic: how-to
 helpviewer_keywords:
   - code analysis, running
   - run code analysis
-ms.assetid: 5086d228-f92e-4515-9708-c5b89b9e9a03
-author: mikadumont
-ms.author: midumont
-manager: jmartens
-ms.technology: vs-ide-code-analysis
-ms.workload:
-  - dotnet
+ms.date: 03/25/2024
 ---
+
 # Run code analysis manually for .NET
-By default, .NET Compiler Platform ("Roslyn") analyzers analyze your C# or Visual Basic code as you type by doing live analysis, as well as during build. Hence, you would normally not require to manually trigger code analysis. However, there are some scenarios where you may want to manually trigger code analysis:
+
+By default, .NET Compiler Platform (Roslyn) analyzers automatically analyze C# or Visual Basic code during a build and as you type (via live code analysis). Hence, you don't normally need to trigger code analysis manually. However, there are some scenarios where you might want to manually trigger code analysis:
+
+- You want to view code analysis warnings for all files in a specific project or solution. By default, live code analysis executes analyzers only for the active document. However, you can opt to trigger code analysis once on the entire project or solution. Alternatively, you can enable continuous live code analysis to execute on the entire solution. For more information, see [Configure live code analysis for .NET](./configure-live-code-analysis-scope-managed-code.md).
+- You prefer on-demand code analysis execution workflow over continuous live analysis or build-time analysis. If so, you can disable analyzer execution during live analysis and a build. Then you can manually trigger code analysis once on a project or solution. For information about disabling analysis, see [Disable source code analysis for .NET](disable-code-analysis.md).
 
 > [!NOTE]
-> Running code analysis manually requires Visual Studio 2019 version 16.5 or later
+> Running code analysis manually requires Visual Studio 2019 version 16.5 or later.
 
-- By default, live code analysis executes analyzers only for open files in Visual Studio. However, you may be interested in viewing code analysis warnings for all files in a specific project or solution. If so, you would want to trigger code analysis once on a project or a solution. Alternatively, you can enable continuous live code analysis to execute on entire solution. For more information, see [How to: Configure live code analysis scope for managed code](./configure-live-code-analysis-scope-managed-code.md).
-- You may prefer on-demand code analysis execution workflow over continuous live analysis or build-time analysis. If so, you can disable analyzer execution during live analysis and/or build. For information about disabling analysis, see [How to disable source code analysis](disable-code-analysis.md). Then you would want to manually trigger code analysis once on a project or a solution.
+## Run code analysis manually
 
-### Run code analysis manually
+To manually run a code analysis, follow these steps:
 
 1. In **Solution Explorer**, select the project.
 
-2. On the **Analyze** menu, select **Run Code Analysis on** *Project Name*.
+2. From the **Analyze** menu, select **Run Code Analysis** > **Run Code Analysis on [Project Name]**.
 
-Code analysis will start executing in the background. You should see the message **Running code analysis for \<project>...** in the Visual Studio status bar towards the bottom-left corner. Once code analysis completes, the status message will change to **Code analysis completed for \<project>**. Error list will soon refresh with all code analysis diagnostics.
+3. Alternatively, to run code analysis on the entire solution, select **Analyze** > **Run Code Analysis** > **On Solution**.
+
+   Code analysis starts executing in the background. The message **Running code analysis for '\<project>'** appears in the Visual Studio status bar toward the bottom-left corner. After code analysis completes, the status message changes to **Code analysis completed for '\<project>'**. The error list refreshes with all the code analysis diagnostics.
+
+## Related content
+
+- [Disable source code analysis for .NET](disable-code-analysis.md)
+- [Enable and disable binary code analysis for managed code](how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)

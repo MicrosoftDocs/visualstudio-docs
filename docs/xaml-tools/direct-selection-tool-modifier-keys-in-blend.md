@@ -1,17 +1,13 @@
 ---
 title: Direct Selection tool modifier keys
 titleSuffix: Blend for Visual Studio
-description: Learn about keyboard shortcuts in the Direct Selection tool in Blend for Visual Studio that you can use to modify the shape of an existing path. 
-ms.custom: SEO-VS-2020
+description: Learn about keyboard shortcuts in the Direct Selection tool in Blend for Visual Studio that you can use to modify the shape of an existing path.
 ms.date: 11/04/2016
 ms.topic: reference
-ms.assetid: 21f9b951-dc2b-4d09-bd70-75caed8fb964
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xaml-tools
-ms.workload:
-  - "multiple"
+author: maddymontaquila
+ms.author: maleger
+manager: mijacobs
+ms.subservice: xaml-tools
 ---
 # Direct Selection tool modifier keys in Blend for Visual Studio
 

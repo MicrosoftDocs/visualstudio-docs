@@ -1,37 +1,27 @@
 ---
 description: "This method returns a requested service."
-title: IDebugBinder3::GetEEService | Microsoft Docs
+title: IDebugBinder3::GetEEService
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugBinder3::GetEEService
 helpviewer_keywords:
 - IDebugBinder3::GetEEService method
-ms.assetid: eb07aa40-8cd9-4a52-a4c7-4affd2307a01
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugBinder3::GetEEService
+
 This method returns a requested service.
 
 ## Syntax
 
-```cpp
-HRESULT GetEEService(
-   [in] GUID        vendor,
-   [in] GUID        language,
-   [in] GUID        iid,
-   [out] IUnknown** ppService
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 Int GetEEService(
    Guid       vendor,
@@ -40,6 +30,16 @@ Int GetEEService(
    out object ppService
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEEService(
+   [in] GUID        vendor,
+   [in] GUID        language,
+   [in] GUID        iid,
+   [out] IUnknown** ppService
+);
+```
+---
 
 ## Parameters
 `vendor`\

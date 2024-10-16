@@ -2,40 +2,39 @@
 description: "Gets the original expression."
 title: IDebugExpressionEvaluationCompleteEvent2::GetExpression
 titleSuffix: ""
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExpressionEvaluationCompleteEvent2::GetExpression
 helpviewer_keywords:
 - IDebugExpressionEvaluationCompleteEvent2::GetExpression
-ms.assetid: faf6b2dd-2afd-4852-b21c-7e8d3130e141
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExpressionEvaluationCompleteEvent2::GetExpression
+
 Gets the original expression.
 
 ## Syntax
 
-```cpp
-HRESULT GetExpression( 
-   IDebugExpression2** ppExpr
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetExpression( 
    out IDebugExpression2 ppExpr
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetExpression( 
+   IDebugExpression2** ppExpr
+);
+```
+---
 
 ## Parameters
 `ppExpr`\

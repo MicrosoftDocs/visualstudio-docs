@@ -1,28 +1,36 @@
 ---
 description: "Specifies the step kind for stepping."
-title: STEPKIND | Microsoft Docs
+title: STEPKIND
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - STEPKIND
 helpviewer_keywords:
 - STEPKIND enumeration
-ms.assetid: d3d8cf76-24bf-455e-803e-0e3e28f0b262
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # STEPKIND
+
 Specifies the step kind for stepping.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_STEPKIND { 
+   STEP_INTO      = 0,
+   STEP_OVER      = 1,
+   STEP_OUT       = 2,
+   STEP_BACKWARDS = 3
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_STEPKIND { 
    STEP_INTO      = 0,
@@ -32,15 +40,7 @@ enum enum_STEPKIND { 
 };
 typedef DWORD STEPKIND;
 ```
-
-```csharp
-public enum enum_STEPKIND { 
-   STEP_INTO      = 0,
-   STEP_OVER      = 1,
-   STEP_OUT       = 2,
-   STEP_BACKWARDS = 3
-};
-```
+---
 
 ## Fields
  `STEP_INTO`\

@@ -1,14 +1,11 @@
 ---
-title: "Workspaces in Visual Studio | Microsoft Docs"
-description: Learn how Visual Studio uses a workspace to represent a collection of files in Open Folder, including workspace providers and services.
-ms.custom: SEO-VS-2020
+title: "Workspaces in Visual Studio"
+description: Explore how Visual Studio uses a workspace to represent a collection of files in Open Folder, including workspace providers and services.
 ms.date: "02/21/2018"
 ms.topic: "conceptual"
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
-ms.workload:
-  - "vssdk"
 ---
 # Workspaces
 
@@ -22,7 +19,7 @@ Both concepts use a [factory pattern](https://en.wikipedia.org/wiki/Factory_meth
 
 One difference between providers and services is their relation to the workspace. A workspace can have many providers of a particular type, but only one service of a particular type is created per workspace. For example, a workspace has many file scanner providers but the workspace has only one indexing service per workspace.
 
-Another key difference is consumption of data from providers and services. The workspace is the entry point to get data from providers for a couple reasons. First, providers typically have some narrow set of data they create. The data might be symbols for a C# source file or build file contexts for a _CMakeLists.txt_ file. The workspace will match a consumer's request to the providers whose metadata align with the request. Second, some scenarios allow for many providers to contribute to a request while others scenarios use the provider with highest priority.
+Another key difference is consumption of data from providers and services. The workspace is the entry point to get data from providers for a couple reasons. First, providers typically have some narrow set of data they create. The data might be symbols for a C# source file or build file contexts for a `CMakeLists.txt` file. The workspace will match a consumer's request to the providers whose metadata align with the request. Second, some scenarios allow for many providers to contribute to a request while others scenarios use the provider with highest priority.
 
 In contrast, extensions can get instances of and interact directly with workspace services. Extension methods on `IWorkspace` are available for the services provided by Visual Studio, such as <xref:Microsoft.VisualStudio.Workspace.WorkspaceServiceHelper.GetFileWatcherService%2A>. Your extension may offer a workspace service for components within your extension or for other extensions to consume. Consumers should use <xref:Microsoft.VisualStudio.Workspace.WorkspaceServiceHelper.GetServiceAsync%2A> or an extension method you provide on the `IWorkspace` type.
 
@@ -45,7 +42,7 @@ On closure of a workspace, extenders might need to dispose but call asynchronous
 
 Workspaces have an <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettingsManager> service with simple but powerful control over a workspace. For a basic overview of settings, see [Customize build and debug tasks](../ide/customize-build-and-debug-tasks-in-visual-studio.md).
 
-Settings for most `SettingsType` types are _.json_ files, such as _VSWorkspaceSettings.json_ and _tasks.vs.json_.
+Settings for most `SettingsType` types are `.json` files, such as `VSWorkspaceSettings.json` and *tasks.vs.json*.
 
 The power of workspace settings centers around "scopes", which are simply paths within the workspace. When a consumer calls <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettingsManager.GetAggregatedSettings%2A>, all the scopes that include the requested path and type of setting are aggregated. Scope aggregation priority is as follows:
 
@@ -55,7 +52,7 @@ The power of workspace settings centers around "scopes", which are simply paths 
 1. All further parent directories up to and including the workspace root.
 1. "Global settings", which is in a user directory.
 
-The result is an instance of <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettings>. This object holds the settings for a particular type, and can be queried for setting key names stored as `string`. The <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettings.GetProperty%2A> methods and <xref:Microsoft.VisualStudio.Workspace.Settings.WorkspaceSettingsExtensions> extension methods expect the caller to know the type of the setting value being requested. As most settings files are persisted as _.json_ files, many invocations will use `string`, `bool`, `int`, and arrays of those types. Object types are also supported. In those cases, you can use `IWorkspaceSettings` itself as the type argument. For example:
+The result is an instance of <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettings>. This object holds the settings for a particular type, and can be queried for setting key names stored as `string`. The <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettings.GetProperty%2A> methods and <xref:Microsoft.VisualStudio.Workspace.Settings.WorkspaceSettingsExtensions> extension methods expect the caller to know the type of the setting value being requested. As most settings files are persisted as `.json` files, many invocations will use `string`, `bool`, `int`, and arrays of those types. Object types are also supported. In those cases, you can use `IWorkspaceSettings` itself as the type argument. For example:
 
 ```json
 {
@@ -72,7 +69,7 @@ The result is an instance of <xref:Microsoft.VisualStudio.Workspace.Settings.IWo
 }
 ```
 
-Assuming these settings were in a user's _VSWorkspaceSettings.json_, the data can be accessed as:
+Assuming these settings were in a user's *VSWorkspaceSettings.json*, the data can be accessed as:
 
 ```csharp
 using System.Collections.Generic;
@@ -173,19 +170,9 @@ A UI context can be used to auto-load your package. The value is `4646B819-1AE0-
 
 Workspace extensibility is heavily MEF-based, and composition errors will cause the package hosting Open Folder to fail to load. For example, if an extension exports a type with `ExportFileContextProviderAttribute`, but the type only implements `IWorkspaceProviderFactory<IFileContextActionProvider>`, an error will occur when trying to open a folder in Visual Studio.
 
-::: moniker range="vs-2017"
-
-Error details can be found in _%LOCALAPPDATA%\Microsoft\VisualStudio\15.0_id\ComponentModelCache\Microsoft.VisualStudio.Default.err_. Resolve any errors for types implemented by your extension.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 Error details can be found in _%LOCALAPPDATA%\Microsoft\VisualStudio\16.0_id\ComponentModelCache\Microsoft.VisualStudio.Default.err_. Resolve any errors for types implemented by your extension.
 
-::: moniker-end
-
-## Next steps
+## Related content
 
 * [File contexts](workspace-file-contexts.md) - File context providers bring code intelligence for Open Folder workspaces.
 * [Indexing](workspace-indexing.md) - Workspace indexing collects and persists information about the workspace.

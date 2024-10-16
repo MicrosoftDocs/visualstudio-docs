@@ -1,22 +1,19 @@
 ---
-title: 'How to: Open Project-Specific Editors | Microsoft Docs'
+title: 'Open Project-Specific Editors'
 description: Learn how to implement the OpenItem method with a project-specific editor so that a project can open a file bound to an editor for that project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - project types, opening a project-specific editor
 - editors [Visual Studio SDK], opening project-specific editors
 - projects [Visual Studio SDK], opening folders
-ms.assetid: 83e56d39-c97b-4c6b-86d6-3ffbec97e8d1
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
-# How to: Open project-specific editors
+# Open project-specific editors
+
 If an item file being opened by a project is intrinsically bound to the particular editor for that project, the project must open the file by using a project-specific editor. The file cannot be delegated down to the IDE's mechanism for selecting an editor. For example, instead of using a standard bitmap editor, you can use this project-specific editor option to specify a specific bitmap editor that recognizes information in the file that is unique to your project.
 
  The IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.OpenItem%2A> method when it determines that a file should be opened by a specific project. For more information, see [Display files by using the Open File command](../extensibility/internals/displaying-files-by-using-the-open-file-command.md). Use the following guidelines to implement the `OpenItem` method to have your project open a file by using a project-specific editor.
@@ -48,7 +45,7 @@ If an item file being opened by a project is intrinsically bound to the particul
 
 6. Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show%2A> method to show and open the view.
 
-## See also
+## Related content
 - [Open and Save project items](../extensibility/internals/opening-and-saving-project-items.md)
 - [How to: Open standard editors](../extensibility/how-to-open-standard-editors.md)
 - [How to: Open editors for open documents](../extensibility/how-to-open-editors-for-open-documents.md)

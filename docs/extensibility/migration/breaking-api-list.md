@@ -1,20 +1,16 @@
 ---
-title: Breaking API changes in Visual Studio 2022 Preview
-description: Learn about API changes that cause existing VS extensions to fail to compile when migrating extensions to Visual Studio 2022 Preview.
+title: Breaking API changes in Visual Studio 2022
+description: Learn about API changes that cause existing VS extensions to fail to compile when migrating extensions to Visual Studio 2022.
 ms.date: 06/08/2021
 ms.topic: reference
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 monikerRange: "vs-2022"
-ms.workload:
-- vssdk
-feedback_system: GitHub
+
 ---
 # Breaking API changes in Visual Studio 2022
-
-[!INCLUDE [preview-note](../includes/preview-note.md)]
 
 If you're migrating an extension to Visual Studio 2022, the breaking changes listed here might affect you.
 
@@ -30,16 +26,11 @@ In Visual Studio 2022 a number of APIs have been removed as part of moving Visua
 
 Many of our APIs have changed in Visual Studio 2022, usually with simple changes that are straightforward for your code to accommodate.
 
-To manage the breaking changes, we are planning to provide a new mechanism for the distribution of interop assemblies. Specifically, for
-Visual Studio 2022 and beyond we provide a single interop assembly with definitions for many common public Visual Studio interface. That
-assembly contains managed definitions for many Visual Studio interfaces moving away from multiple interop assemblies. The new interop
-assembly is be distributed via the `Microsoft.VisualStudio.Interop` NuGet package.
+To manage the breaking changes, we are planning to provide a new mechanism for the distribution of interop assemblies. Specifically, for Visual Studio 2022 and beyond we provide a single interop assembly with definitions for many common public Visual Studio interfaces. That assembly contains managed definitions for many Visual Studio interfaces moving away from multiple interop assemblies. The new interop assembly is distributed via the `Microsoft.VisualStudio.Interop` NuGet package.
 
-However, Visual Studio components that are primarily used in native contexts and have a low number of breaking changes will continue to have
-their own interop assemblies (for example, the debugger assembly will still be VisualStudio.Debugger.Interop.dll as it does today). In any case the assemblies can be then referenced from your application, just as they are today.
+However, Visual Studio components that are primarily used in native contexts and have a low number of breaking changes will continue to have their own interop assemblies (for example, the debugger assembly will still be VisualStudio.Debugger.Interop.dll as it does today). In any case the assemblies can be then referenced from your application, just as they are today.
 
-This is a significant change and means that extensions that use APIs in and assembly built in this new approach are not compatible with older
-versions of Visual Studio using the previous interop assembly.
+This is a significant change and means that extensions that use APIs in and assembly built in this new approach are not compatible with older versions of Visual Studio using the previous interop assembly.
 
 This has a few very important advantages that will make updating your extension to Visual Studio 2022 easier:
 
@@ -47,15 +38,13 @@ This has a few very important advantages that will make updating your extension 
 - You only need to update code that uses an API that was broken in Visual Studio 2022.
 - You will not be able to accidentally use the old, now broken API.
 
-Overall, these changes will result in a more stable version of Visual Studio for all users. The major drawback of this approach is that your
-managed assemblies will not be able to run in both Visual Studio 2019 and Visual Studio 2022 without compiling your code once for each target Visual Studio version.
+Overall, these changes will result in a more stable version of Visual Studio for all users. The major drawback of this approach is that your managed assemblies will not be able to run in both Visual Studio 2019 and Visual Studio 2022 without compiling your code once for each target Visual Studio version.
 
 As you work through compile errors due to the API differences between Visual Studio 2019 and Visual Studio 2022, you may find the API or pattern you're facing listed below with guidance on how to fix it.
 
 ### `int` or `uint` where `IntPtr` is expected
 
-We expect this will be a very common error. To make Visual Studio 2022 a 64-bit process, some of our interop APIs had to be fixed
-where they assumed a pointer could fit in a 32-bit integer to actually use a pointer-sized value.
+We expect this will be a very common error. To make Visual Studio 2022 a 64-bit process, some of our interop APIs had to be fixed where they assumed a pointer could fit in a 32-bit integer to actually use a pointer-sized value.
 
 Sample error:
 
@@ -124,9 +113,7 @@ To mitigate most issues with this, use `DTE2` from the `EnvDTE80` namespace inst
 
 ### Missing argument on a method invocation
 
-A few methods no longer declare default arguments for what were optional parameters in the interop API.
-If you get an error about a missing argument for a COM interop call, and the parameter calls for an `object` type, the previous default value that the Visual Studio 2019 interop API defined may have been `""`, so consider adding `""` as your argument
-to resolve the compile error.
+A few methods no longer declare default arguments for what were optional parameters in the interop API. If you get an error about a missing argument for a COM interop call, and the parameter calls for an `object` type, the previous default value that the Visual Studio 2019 interop API defined may have been `""`, so consider adding `""` as your argument to resolve the compile error.
 
 When in doubt about what the default argument used to be, try switching your language service context from Visual Studio 2022 to Visual Studio 2019 so you get Intellisense with the older interop assemblies to see what the default argument was, and then add it explicitly to your code. It will continue to work fine when compiled for Visual Studio 2019, but will now compile for Visual Studio 2022.
 
@@ -136,3 +123,19 @@ Sample fix:
 -process4.Attach2();
 +process4.Attach2("");
 ```
+
+### Legacy Find API deprecation
+
+As a part of our efforts to modernize find in files, we have deprecated support to the following APIs of the EnvDTE interface in VS 2022.
+
+- [EditPoint.FindPattern(String, Int32, EditPoint, TextRanges)](/dotnet/api/envdte.editpoint.findpattern?view=visualstudiosdk-2019&preserve-view=true)
+- [EditPoint.ReplacePattern(TextPoint, String, String, Int32, TextRanges)](/dotnet/api/envdte.editpoint.replacepattern?view=visualstudiosdk-2019&preserve-view=true)
+- [EditPoint.ReplaceText(Object, String, Int32)](/dotnet/api/envdte.editpoint.replacetext?view=visualstudiosdk-2019&preserve-view=true)
+- [TextSelection.FindText(String, Int32)](/dotnet/api/envdte.textselection.findtext?view=visualstudiosdk-2019&preserve-view=true#EnvDTE_TextSelection_FindText_System_String_System_Int32_)
+- [TextSelection.FindPattern(String, Int32, TextRanges)](/dotnet/api/envdte.textselection.findpattern?view=visualstudiosdk-2019&preserve-view=true)
+- [TextSelection.ReplaceText(String, String, Int32)](/dotnet/api/envdte.textselection.replacetext?view=visualstudiosdk-2019&preserve-view=true)
+- [TextSelection.ReplacePattern(String, String, Int32, TextRanges)](/dotnet/api/envdte.textselection.replacepattern?view=visualstudiosdk-2019&preserve-view=true)
+- [TextDocument.ReplacePattern(String, String, Int32, TextRanges)](/dotnet/api/envdte.textdocument.replacepattern?view=visualstudiosdk-2019&preserve-view=true)
+- [TextDocument.ReplaceText(String, String, Int32)](/dotnet/api/envdte.textdocument.replacetext?view=visualstudiosdk-2019&preserve-view=true)
+
+These APIs will no longer work in VS 2022 and beyond. The guidance is to use [IFinder Interface (Microsoft.VisualStudio.Text.Operations)](/dotnet/api/microsoft.visualstudio.text.operations.ifinder?view=visualstudiosdk-2019&preserve-view=true) instead which has find and replace methods on it. Access to an object implementing the IFinder interface can be gained via the [IFindService.CreateFinderFactory Method](/dotnet/api/microsoft.visualstudio.text.operations.ifindservice.createfinderfactory?view=visualstudiosdk-2019&preserve-view=true). An example of migrating a third-party extension to Visual Studio from the older APIs to the modern IFinder APIs can be found here: [Migrate Code Maid extension from EnvDTE Find and Replace pattern APIs to modern IFinder APIs](https://github.com/codecadwallader/codemaid/pull/847/commits/12e226a2ad6e9a4ccec4c3fda1a19db63eef6efd)

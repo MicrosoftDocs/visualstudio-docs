@@ -1,15 +1,14 @@
 ---
-description: "The Visual C++ project system is used for .vcxproj files."
-title: "Visual C++ project extensibility"
+title: Visual C++ project extensibility
+description: Explore how the Visual C++ project system is used for .vcxproj files to provide extra C++ specific extensibility points.
 ms.date: "04/23/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "C++"
-author: "corob-msft"
-ms.author: "corob"
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload: ["vssdk"]
+author: "tylermsft"
+ms.author: "twhitney"
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Visual Studio C++ Project system extensibility and toolset integration
 
@@ -243,7 +242,7 @@ The `ClCompile` target should not have any dependencies except the `SelectClComp
 
 ## MSBuild tasks to use in toolset targets
 
-To invoke an actual build tool, the target needs to call an MSBuild task. There is a basic [Exec task](../msbuild/exec-task.md) that allows you to specify a command line to run. However, build tools usually have many options, inputs. and outputs to track for incremental builds, so it makes more sense to have special tasks for them. For instance, the `CL` task translates MSBuild properties into CL.exe switches, writes them into a response file, and calls CL.exe. It also tracks all input and output files for later incremental builds. For more information, see [Incremental builds and up-to-date checks](#incremental-builds-and-up-to-date-checks).
+To invoke an actual build tool, the target needs to call an MSBuild task. There is a basic [Exec task](../msbuild/exec-task.md) that allows you to specify a command line to run. However, build tools usually have many options, inputs, and outputs to track for incremental builds, so it makes more sense to have special tasks for them. For instance, the `CL` task translates MSBuild properties into CL.exe switches, writes them into a response file, and calls CL.exe. It also tracks all input and output files for later incremental builds. For more information, see [Incremental builds and up-to-date checks](#incremental-builds-and-up-to-date-checks).
 
 The Microsoft.Cpp.Common.Tasks.dll implements these tasks:
 
@@ -401,17 +400,7 @@ Make sure to use `Condition ="'$(DesignTimeBuild)' != 'true'"` in all operations
 
 If `GeneratorTarget` metadata is defined for a project item, the target is run automatically both when the project is loaded and when the source file is changed.
 
-::: moniker range="vs-2017"
-
-For instance, to automatically generate .cpp or .h files from .xaml files, the `$(VSInstallDir)`\\*MSBuild*\\*Microsoft*\\*WindowsXaml*\\*v15.0*\\\*\\*Microsoft.Windows.UI.Xaml.CPP.Targets* files define these entities:
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 For instance, to automatically generate .cpp or .h files from .xaml files, the `$(VSInstallDir)`\\*MSBuild*\\*Microsoft*\\*WindowsXaml*\\*v16.0*\\\*\\*Microsoft.Windows.UI.Xaml.CPP.Targets* files define these entities:
-
-::: moniker-end
 
 ```xml
 <ItemDefinitionGroup>
@@ -474,8 +463,7 @@ If the rule should be visible in more than one context, use semi-colons (**;**) 
 
 #### Rule format and main types
 
-The rule format is straightforward, so this section only describes the
-attributes that affect how the rule looks in the user interface.
+The rule format is straightforward, so this section only describes the attributes that affect how the rule looks in the user interface.
 
 ```xml
 <Rule
@@ -575,7 +563,7 @@ To use a custom up-to-date check:
 
 ### Default .vcxproj project upgrader
 
-The default .vcxproj project upgrader changes the `PlatformToolset`, `ApplicationTypeRevision`, MSBuild toolset version and .Net framework. The last two are always changed to the Visual Studio version defaults, but `PlatformToolset` and `ApplicationTypeRevision` can be controlled by special MSBuild properties.
+The default .vcxproj project upgrader changes the `PlatformToolset`, `ApplicationTypeRevision`, MSBuild toolset version and .NET Framework. The last two are always changed to the Visual Studio version defaults, but `PlatformToolset` and `ApplicationTypeRevision` can be controlled by special MSBuild properties.
 
 The upgrader uses these criteria to decide whether a project can be upgraded or not:
 
@@ -644,7 +632,7 @@ To disable project upgrades, use a `NoUpgrade` value:
 
 To improve performance when working with large C++ solutions in Visual Studio 2017, the [project cache](https://devblogs.microsoft.com/cppblog/faster-c-solution-load-with-vs-15/) was introduced. It's implemented as a SQLite database populated with project data, and then used to load projects without loading MSBuild or CPS projects into memory.
 
-Because there are no CPS objects present for .vcxproj projects loaded from cache, the extension's MEF components that import `UnconfiguredProject` or `ConfiguredProject` can`t be created. To support extensibility, the project cache isn't used when Visual Studio detects whether a project uses (or is likely to use) MEF extensions.
+Because there are no CPS objects present for .vcxproj projects loaded from cache, the extension's MEF components that import `UnconfiguredProject` or `ConfiguredProject` can't be created. To support extensibility, the project cache isn't used when Visual Studio detects whether a project uses (or is likely to use) MEF extensions.
 
 These project types are always fully loaded and have CPS objects in memory, so all MEF extensions are created for them:
 

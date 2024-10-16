@@ -1,7 +1,6 @@
 ---
 title: "Bind data to controls in Office solutions"
 description: Learn how you can bind Windows Forms controls and host controls on a Microsoft Office Word document or Excel worksheet to a data source.
-ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -17,12 +16,11 @@ helpviewer_keywords:
   - "controls, data binding"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Bind data to controls in Office solutions
+
   You can bind Windows Forms controls and *host controls* on a Microsoft Office Word document or Microsoft Office Excel worksheet to a data source so the controls automatically display the data. You can bind data to controls in both application-level and document-level projects.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
@@ -38,8 +36,12 @@ ms.workload:
 
  The following example demonstrates how to bind the <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> property to a data element in a document-level project.
 
- :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_BindableComponent/Sheet1.vb" id="Snippet4":::
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_BindableComponent/Sheet1.cs" id="Snippet4":::
+
+ ### [VB](#tab/vb)
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_BindableComponent/Sheet1.vb" id="Snippet4":::
+ ---
 
  For walkthroughs that demonstrates simple data binding, see [Walkthrough: Simple data binding in a document-level project](../vsto/walkthrough-simple-data-binding-in-a-document-level-project.md) for a document-level project and [Walkthrough: Simple data binding in VSTO Add-in project](../vsto/walkthrough-simple-data-binding-in-vsto-add-in-project.md) for a VSTO Add-in project.
 
@@ -50,10 +52,14 @@ ms.workload:
 
  The following code example creates a <xref:System.Data.DataSet> with two <xref:System.Data.DataTable> objects and populates one of the tables with data. The code then binds the <xref:Microsoft.Office.Tools.Excel.ListObject> to the table that contains data. This example is for an Excel document-level project.
 
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_ExcelListObject/Trin_ExcelListObject.cs" id="Snippet18":::
- :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_ExcelListObject/Sheet1.vb" id="Snippet18":::
 
- For walkthroughs that demonstrate complex data binding, see [Walkthrough: Complex data binding in a document-level project](../vsto/walkthrough-complex-data-binding-in-a-document-level-project.md) for a document-level project and [Walkthrough: Complex data binding in VSTO Add-in project](../vsto/walkthrough-complex-data-binding-in-vsto-add-in-project.md) for a VSTO Add-in project.
+ ### [VB](#tab/vb)
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_ExcelListObject/Sheet1.vb" id="Snippet18":::
+ ---
+
+ For a walkthrough that demonstrate complex data binding, see [Walkthrough: Complex data binding in a document-level project](../vsto/walkthrough-complex-data-binding-in-a-document-level-project.md) for a document-level project.
 
 ## Display data in documents and workbooks
  In document-level projects, you can use the **Data Sources** window to add data-bound controls to your documents or workbooks easily, the same way you use it for Windows Forms. For more information about using the **Data Sources** window, see [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md) and [Add new data sources](../data-tools/add-new-data-sources.md).
@@ -83,8 +89,6 @@ ms.workload:
 
 - [Walkthrough: Simple data binding in VSTO Add-in project](../vsto/walkthrough-simple-data-binding-in-vsto-add-in-project.md)
 
-- [Walkthrough: Complex data binding in VSTO Add-in project](../vsto/walkthrough-complex-data-binding-in-vsto-add-in-project.md)
-
 ## Update data that is bound to host controls
  Data binding between a data source and a host control involves a two-way data update. In simple data binding, changes in the data source are reflected automatically in the host control, but changes in the host control require an explicit call to update the data source. The reason is that in some cases, changes in one data-bound field are not accepted unless they are accompanied by changes in another data-bound field. For example, you might have two fields, one for age and one for years of experience. Experience cannot exceed age. A user cannot update the age from 50 to 25 and then the experience from 30 to 10 unless he or she makes the changes at the same time. To solve this problem, fields with simple data binding are not updated until the updates are explicitly sent by code.
 
@@ -94,7 +98,7 @@ ms.workload:
 
  For more information, see [How to: Update a data source with data from a host control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md).
 
-## See also
+## Related content
 - [Data binding and Windows Forms](/dotnet/framework/winforms/data-binding-and-windows-forms)
 - [How to: Create a simple-bound control on a Windows Form](/dotnet/framework/winforms/how-to-create-a-simple-bound-control-on-a-windows-form)
 - [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

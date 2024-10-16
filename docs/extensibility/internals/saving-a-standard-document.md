@@ -1,28 +1,26 @@
 ---
-title: Saving a Standard Document | Microsoft Docs
+title: Saving a Standard Document
 description: Learn about the process that occurs for a standard document for a project type that you add to the Visual Studio IDE.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], saving standard documents
 - projects [Visual Studio SDK], saving standard documents
 - persistence, saving standard documents
-ms.assetid: d692fedf-b46e-4d60-84bd-578635042235
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Saving a Standard Document
+
 The environment handles the Save, Save As, and Save All commands. When a user selects **Save**, **Save As**, or **Save All** from the **File** menu or closes the solution, resulting in a **Save All**, the following process occurs.
 
- ![Standard Editor](../../extensibility/internals/media/public.gif "Public")
+![Standard Editor](../../extensibility/internals/media/public.gif "Public")
+ 
 Save, Save As, and Save All command handling for a standard editor
 
- This process is detailed in the following steps:
+This process is detailed in the following steps:
 
 1. When the **Save** and **Save As** commands are selected, the environment uses the <xref:Microsoft.VisualStudio.Shell.Interop.SVsShellMonitorSelection> service to determine the active document window and thus what items should be saved. Once the active document window is known, the environment finds the hierarchy pointer and item identifier (itemID) for the document in the running document table. For more information, see [Running Document Table](../../extensibility/internals/running-document-table.md).
 
@@ -54,6 +52,6 @@ Save, Save As, and Save All command handling for a standard editor
 
 2. Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsExternalFilesManager2.TransferDocument%2A> (`pszMkDocumentNew`, `punkWindowFrame`) method to transfer the document to the new hierarchy. The hierarchy performing the Save As command calls this method.
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>
 - [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md)

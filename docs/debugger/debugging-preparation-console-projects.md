@@ -1,9 +1,8 @@
 ---
-title: "Prepare to debug console projects | Microsoft Docs"
+title: "Prepare to debug console projects"
 description: Get information about preparing to debug console projects (C#, C++, Visual Basic, F#) in Visual Studio.
-ms.custom: "SEO-VS-2020"
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
   - "VB"
@@ -13,13 +12,10 @@ helpviewer_keywords:
   - "debugging [Visual Studio], console applications"
   - "debugging console applications"
   - "console applications, debugging"
-ms.assetid: 9641f1d9-2d5a-48b1-8731-6525e8f67892
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Debugging Preparation: Console Projects (C#, C++, Visual Basic, F#)
 
@@ -57,6 +53,6 @@ Like all project properties, these arguments persist between debug sessions and 
 - [Debugging Native Code](../debugger/debugging-native-code.md)
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
 - [Prepare to debug C++ projects](../debugger/debugging-preparation-visual-cpp-project-types.md)
-- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
+- [Managed debugging: Recommended project settings](../debugger/managed-debugging-recommended-property-settings.md)
 - [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
 - [Debugger Security](../debugger/debugger-security.md)

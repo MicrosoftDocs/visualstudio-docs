@@ -7,13 +7,11 @@ helpviewer_keywords:
 - text templates, generating templates from templates
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.custom: SEO-VS-2020
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
-# How to: Generate Templates from Templates By Using Escape Sequences
+# Generate Templates from Templates By Using Escape Sequences
+
 You can create a text template that creates another text template as its generated text output. To do this, you must use escape sequences to delineate the text template tags. If you do not use escape sequences, your generated text template will have a pre-defined meaning. For more information about using escape sequences in text templates, see [Using Escape Sequences in Text Templates](../modeling/using-escape-sequences-in-text-templates.md).
 
 ### To generate a text template from within a text template

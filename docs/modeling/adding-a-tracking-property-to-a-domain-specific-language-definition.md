@@ -1,7 +1,6 @@
 ---
 title: Add tracking property to DSL definition
 description: Learn about the tracking domain property and how you can to add a tracking property to a domain model.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -10,10 +9,8 @@ helpviewer_keywords:
   - "walkthroughs [Domain-Specific Language Tools]"
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Add a Tracking Property to a Domain-Specific Language Definition
 
@@ -46,8 +43,8 @@ Before you can start this walkthrough, you must first install these components:
 | Component | Link |
 |-|-|
 | Visual Studio | [http://go.microsoft.com/fwlink/?LinkID=185579](https://visualstudio.microsoft.com/) |
-| [!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)] | [http://go.microsoft.com/fwlink/?LinkID=185580](/azure/devops/integrate/index?view=azure-devops&viewFallbackFrom=vsts&preserve-view=true) |
-| [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] | [http://go.microsoft.com/fwlink/?LinkID=185581](https://code.msdn.microsoft.com/site/search?query=%22Modeling%20SDK%22&f%5B0%5D.Value=%22Modeling%20SDK%22&f%5B0%5D.Type=SearchText&ac=5) |
+| Visual Studio SDK | [http://go.microsoft.com/fwlink/?LinkID=185580](/azure/devops/integrate/index?view=azure-devops&viewFallbackFrom=vsts&preserve-view=true) |
+| Domain-Specific Language Tools | [http://go.microsoft.com/fwlink/?LinkID=185581](https://code.msdn.microsoft.com/site/search?query=%22Modeling%20SDK%22&f%5B0%5D.Value=%22Modeling%20SDK%22&f%5B0%5D.Type=SearchText&ac=5) |
 
 ## Create the project
 
@@ -428,7 +425,7 @@ Also, add storage for, and methods to get and set, the Namespace custom storage 
 
     namespace CompanyName.ProductName.TrackingPropertyDSL
     {
-        // To the domain class that has the tracking property, add the caluclation
+        // To the domain class that has the tracking property, add the calculation
         // for when the property is tracking.
         public partial class ExampleElement
         {
@@ -711,13 +708,13 @@ Add code to support the custom post-load behavior for XML serialization.
 
 ## Test the Language
 
-The next step is to build and run the DSL designer in a new instance of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] so that you can verify that the tracking property is working correctly.
+The next step is to build and run the DSL designer in a new instance of Visual Studio so that you can verify that the tracking property is working correctly.
 
 1. On the **Build** menu, click **Rebuild Solution**.
 
 2. On the **Debug** menu, click **Start Debugging**.
 
-    The experimental build of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] opens the **Debugging** solution, which contains an empty test file.
+    The experimental build of Visual Studio opens the **Debugging** solution, which contains an empty test file.
 
 3. In **Solution Explorer**, double-click the Test.trackingPropertyDsl file to open it in the designer, and then click the design surface.
 
@@ -751,7 +748,7 @@ The next step is to build and run the DSL designer in a new instance of [!INCLUD
 
 If you plan to use more than one tracking property, or implement tracking properties in more than one DSL, you can create a text template to generate the common code for supporting each tracking property. For more information about text templates, see [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md).
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.Modeling.Design.TrackingPropertyDescriptor>
 - <xref:Microsoft.VisualStudio.Modeling.Design.ElementTypeDescriptor>

@@ -1,7 +1,6 @@
 ---
-title: "Add Actions pane to Word documents or Excel workbooks"
-description: Learn that to add an actions pane to a Microsoft Office Word document or a Microsoft Excel workbook, you should first create a Windows Forms user control.
-ms.custom: SEO-VS-2020
+title: Add Actions pane to Word docs or Excel workbooks
+description: Add an actions pane to a Microsoft Office Word document or a Microsoft Excel workbook, by first creating a Windows Forms user control.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "actions panes [Office development in Visual Studio], adding controls"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Add an Actions Pane to Word Documents or Excel Workbooks
+# Add an Actions Pane to Word Documents or Excel Workbooks
+
   To add an actions pane to a Microsoft Office Word document or a Microsoft Excel workbook, first create a Windows Forms user control. Then, add the user control to the <xref:Microsoft.Office.Tools.ActionsPane.Controls%2A> property of the `ThisDocument.ActionsPane` field (Word) or `ThisWorkbook.ActionsPane` field (Excel) in your project.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
@@ -48,8 +46,12 @@ ms.workload:
 
 5. Add the code to the <xref:System.Windows.Forms.Control.Click> event handler of the button. The following example shows code for a Microsoft Office Word document.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/HelloControl.cs" id="Snippet12":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/HelloControl.vb" id="Snippet12":::
+     ---
 
 6. In C#, you must add an event handler for the button click. You can place this code in the `HelloControl` constructor after the call to `InitializeComponent`.
 
@@ -64,15 +66,23 @@ ms.workload:
 
 1. Add the following code to the `ThisDocument` or `ThisWorkbook` class as a class-level declaration (do not add this code to a method).
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs" id="Snippet14":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet14":::
+     ---
 
 2. Add the following code to the `ThisDocument_Startup` event handler of the `ThisDocument` class or the `ThisWorkbook_Startup` event handler of the `ThisWorkbook` class.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs" id="Snippet15":::
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet15":::
 
-## See also
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet15":::
+     ---
+
+## Related content
 - [Actions pane overview](../vsto/actions-pane-overview.md)
 - [Walkthrough: Insert text into a document from an actions pane](../vsto/walkthrough-inserting-text-into-a-document-from-an-actions-pane.md)
 - [How to: Manage control layout on actions panes](../vsto/how-to-manage-control-layout-on-actions-panes.md)

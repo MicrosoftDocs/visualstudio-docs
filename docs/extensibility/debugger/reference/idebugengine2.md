@@ -1,21 +1,19 @@
 ---
 description: "This interface represents a debug engine (DE)."
-title: IDebugEngine2 | Microsoft Docs
+title: IDebugEngine2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngine2
 helpviewer_keywords:
 - IDebugEngine2 interface
-ms.assetid: 1f0e9ac0-6dfb-461a-976c-888d82144cdb
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugEngine2
+
 This interface represents a debug engine (DE). It is used to manage various aspects of a debugging session, from creating breakpoints to setting and clearing exceptions.
 
 ## Syntax

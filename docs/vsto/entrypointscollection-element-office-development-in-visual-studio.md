@@ -2,7 +2,6 @@
 description: "The entryPointsCollection element of the vstav3 namespace contains all the entryPoints elements associated with Office solutions."
 title: "&lt;entryPointsCollection&gt; element (Office development in Visual Studio)"
 titleSuffix: ""
-ms.custom: "seodec18"
 ms.date: "02/02/2017"
 ms.topic: "reference"
 dev_langs:
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "entryPointsCollection element"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # &lt;entryPointsCollection&gt; element (Office development in Visual Studio)
+
   The `entryPointsCollection` element of the `vstav3` namespace contains all the `entryPoints` elements associated with Office solutions.
 
 ## Syntax
@@ -50,7 +48,7 @@ ms.workload:
 ## Document-level customization example
 
 ### Description
- The following code example illustrates the `entryPointsCollection` element in an application manifest for a document-level solution deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
+ The following code example illustrates the `entryPointsCollection` element in an application manifest for a document-level solution deployed by using ClickOnce. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
 
 ### Code
 
@@ -96,7 +94,7 @@ ms.workload:
 ## VSTO Add-in example
 
 ### Description
- The following code example illustrates an `entryPointsCollection` element in an application manifest for an application-level solution deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
+ The following code example illustrates an `entryPointsCollection` element in an application manifest for an application-level solution deployed by using ClickOnce. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
 
 ### Code
 

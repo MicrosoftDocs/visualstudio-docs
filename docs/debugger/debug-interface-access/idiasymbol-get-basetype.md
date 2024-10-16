@@ -1,21 +1,20 @@
 ---
 title: "IDiaSymbol::get_baseType"
-description: "Retrieves the base type for this symbol"
+description: Retrieves the base type for this symbol
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_baseType method"
-ms.assetid: 5c69a241-a8d3-48ed-8b36-27463a196572
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_baseType
+
 Retrieves the base type for this symbol.
 
 ## Syntax

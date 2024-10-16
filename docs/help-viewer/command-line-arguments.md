@@ -3,13 +3,10 @@ title: Command-line arguments for the Help Content Manager
 description: Use command-line arguments for the Help Content Manager (HlpCtntMgr.exe) to specify how to deploy and manage local Help content.
 ms.date: 11/01/2017
 ms.topic: reference
-ms.assetid: 3aa9890a-1147-42ba-adea-17935d184038
-author: ghogen
-ms.author: ghogen
-manager: jmartens
-ms.technology: vs-help-viewer
-ms.workload:
-  - "multiple"
+author: jasonchlus
+ms.author: jasonchlus
+manager: mijacobs
+ms.subservice: help-viewer
 ---
 # Command-line arguments for the Help Content Manager
 
@@ -89,5 +86,5 @@ UpdateAlreadyRunning = 1300 - (Signals that the update didn't run because anothe
 ## See also
 
 - [Help Viewer administrator guide](../help-viewer/administrator-guide.md)
-- [Help Content Manager overrides](../help-viewer/behavior-overrides.md)
+- [Override Help Viewer defaults](../help-viewer/behavior-overrides.md)
 - [Microsoft Help Viewer](../help-viewer/overview.md)

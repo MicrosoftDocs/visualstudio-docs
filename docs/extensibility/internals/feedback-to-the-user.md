@@ -1,7 +1,6 @@
 ---
-title: Feedback to the User | Microsoft Docs
+title: Feedback to the User
 description: Learn how to provide visual feedback to the user about available functionality in the Visual Studio integrated development environment (IDE).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,16 +8,14 @@ helpviewer_keywords:
 - environment, context
 - IDE, context
 - IDE, user feedback
-ms.assetid: 2d472a24-3813-4f5f-9783-b491ad8a71ad
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Feedback to the user
-In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE), visual feedback regarding available functionality is based on the user's current selection and global selection context. The following table lists the functionality that is available in different selection contexts.
+
+In the Visual Studio integrated development environment (IDE), visual feedback regarding available functionality is based on the user's current selection and global selection context. The following table lists the functionality that is available in different selection contexts.
 
 |Selection context|Available functionality|
 |-----------------------|-----------------------------|
@@ -54,7 +51,7 @@ In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated d
 
 - The active hierarchy window, which is typically **Solution Explorer**, and its title bar update to reflect the current context and the context-sensitive **Project** menu commands now apply to the active Web Application project.
 
-## See also
+## Related content
 - [Selection and currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)
 - [Selection context objects](../../extensibility/internals/selection-context-objects.md)
-- [Hierarchies and selection](../../extensibility/internals/hierarchies-and-selection.md)
+- [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)

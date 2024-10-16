@@ -1,21 +1,19 @@
 ---
 description: "Retrieves the platform type for which the compiland was compiled."
-title: "IDiaSymbol::get_platform | Microsoft Docs"
+title: "IDiaSymbol::get_platform"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_platform method"
-ms.assetid: dff1c1eb-bcb2-4275-bb07-f2fdc076d6fb
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_platform
+
 Retrieves the platform type for which the compiland was compiled.
 
 ## Syntax

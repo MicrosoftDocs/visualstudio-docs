@@ -1,27 +1,22 @@
 ---
-title: "UidManager Task | Microsoft Docs"
+title: "UidManager Task"
 description: Learn how the MSBuild UidManager task checks, updates, or removes unique identifiers (UIDs), to localize all XAML elements in the source XAML files.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-  - "jsharp"
 helpviewer_keywords:
   - "UidManager task [WPF MSBuild]"
   - "UidManager task [WPF MSBuild], parameters"
   - "managing UIDs when localizing XAML elements [WPF MSBuild]"
   - "localizing XAML elements [WPF MSBuild], managing UIDs"
   - "checking UIDs when localizing XAML elements [WPF MSBuild]"
-ms.assetid: 4fc7b5a5-11b0-46ca-9656-8c2a0b08d1fe
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # UidManager task
 

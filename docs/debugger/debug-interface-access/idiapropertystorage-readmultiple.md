@@ -1,27 +1,26 @@
 ---
-description: "Reads specified properties from the current property set."
-title: "IDiaPropertyStorage::ReadMultiple | Microsoft Docs"
+description: Reads specified properties from the current property set.
+title: "IDiaPropertyStorage::ReadMultiple"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaPropertyStorage::ReadMultiple"
-ms.assetid: 6ccc9397-ce41-4f72-b261-72ac252cd4a5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaPropertyStorage::ReadMultiple
+
 Reads specified properties from the current property set.
 
 ## Syntax
 
 ```C++
-HRESULT ReadMultiple( 
+HRESULT ReadMultiple( 
    ULONG          cpspec,
    PROPSPEC const rgpspec,
    PROPVARIANT    rgvar

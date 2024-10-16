@@ -1,7 +1,6 @@
 ---
 title: "Ribbon object model overview"
 description: Learn how the Visual Studio Tools for Office runtime exposes a strongly typed object model you can use to get and set the properties of Ribbon controls at run time. 
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,13 +10,12 @@ helpviewer_keywords:
   - "Ribbon [Office development in Visual Studio], object model"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Ribbon object model overview
-  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] exposes a strongly typed object model that you can use to get and set the properties of Ribbon controls at run time. For example, you can dynamically populate menu controls, or show and hide controls contextually. You can also add tabs, groups, and controls to a ribbon, but only before the ribbon is loaded by the Office application. For information, see [Set properties that become read-only](#SettingReadOnlyProperties).
+
+  The  Visual Studio Tools for Office runtime  exposes a strongly typed object model that you can use to get and set the properties of Ribbon controls at run time. For example, you can dynamically populate menu controls, or show and hide controls contextually. You can also add tabs, groups, and controls to a ribbon, but only before the ribbon is loaded by the Office application. For information, see [Set properties that become read-only](#SettingReadOnlyProperties).
 
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]
 
@@ -106,12 +104,16 @@ ms.workload:
 
  Add the following code.
 
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_Ribbon_objectmodel_dotnet4/Ribbon1.Designer.cs" id="Snippet1":::
+
+ ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_Ribbon_objectmodel_dotnet4/Ribbon1.Designer.vb" id="Snippet1":::
+ ---
 
  In Visual C# projects that you upgraded from Visual Studio 2008, the constructor appears in the Ribbon code file.
 
- In Visual Basic projects, or in Visual C# projects that you created in [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)], the constructor appears in the Ribbon Designer code file. This file is named *YourRibbonItem*.Designer.cs or *YourRibbonItem*.Designer.vb. To see this file in Visual Basic projects, you must first click the **Show All Files** button in Solution Explorer.
+ In Visual Basic projects, or in Visual C# projects that you created in Visual Studio 2013, the constructor appears in the Ribbon Designer code file. This file is named *YourRibbonItem*.Designer.cs or *YourRibbonItem*.Designer.vb. To see this file in Visual Basic projects, you must first click the **Show All Files** button in Solution Explorer.
 
 ### Set properties in the CreateRibbonExtensibilityObject method
  You can set the properties of a `Ribbon` control when you override the `CreateRibbonExtensibilityObject` method in the `ThisAddin`, `ThisWorkbook`, or `ThisDocument` class of your project. For more information about the `CreateRibbonExtensibilityObject` method, see [Ribbon Overview](../vsto/ribbon-overview.md).
@@ -120,8 +122,12 @@ ms.workload:
 
  Add the following code.
 
- :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_Ribbon_objectmodel_dotnet4/ThisWorkbook.vb" id="Snippet2":::
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_Ribbon_objectmodel_dotnet4/ThisWorkbook.cs" id="Snippet2":::
+
+ ### [VB](#tab/vb)
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_Ribbon_objectmodel_dotnet4/ThisWorkbook.vb" id="Snippet2":::
+ ---
 
 ### <a name="ReadOnlyProperties"></a> Properties that become read-only
  The following table shows properties that can only be set before the ribbon loads.
@@ -179,9 +185,9 @@ ms.workload:
 |Parameter|Description|
 |---------------|-----------------|
 |*sender*|An <xref:System.Object> that represents the control that raised the event.|
-|*e*|A <xref:Microsoft.Office.Tools.Ribbon.RibbonControlEventArgs> that contains a <xref:Microsoft.Office.Core.IRibbonControl>. Use this control to access any property that is not available in the Ribbon object model provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].|
+|*e*|A <xref:Microsoft.Office.Tools.Ribbon.RibbonControlEventArgs> that contains a <xref:Microsoft.Office.Core.IRibbonControl>. Use this control to access any property that is not available in the Ribbon object model provided by the  Visual Studio Tools for Office runtime .|
 
-## See also
+## Related content
 - [Access the ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)

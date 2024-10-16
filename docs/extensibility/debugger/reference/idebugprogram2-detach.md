@@ -1,37 +1,37 @@
 ---
 description: "Detaches a debug engine from the program."
-title: IDebugProgram2::Detach | Microsoft Docs
+title: IDebugProgram2::Detach
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgram2::Detach
 helpviewer_keywords:
 - IDebugProgram2::Detach
-ms.assetid: 5e8d88b0-a8d4-4746-88c0-ad332ee73f33
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgram2::Detach
+
 Detaches a debug engine from the program.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Detach();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Detach( 
    void 
 );
 ```
-
-```csharp
-int Detach();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

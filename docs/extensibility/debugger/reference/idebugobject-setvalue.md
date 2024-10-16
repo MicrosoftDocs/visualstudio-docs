@@ -1,41 +1,41 @@
 ---
 description: "Sets the value of the object from a consecutive series of bytes."
-title: IDebugObject::SetValue | Microsoft Docs
+title: IDebugObject::SetValue
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugObject::SetValue
 helpviewer_keywords:
 - IDebugObject::SetValue method
-ms.assetid: d652e09c-cdc1-4519-8116-d7c743f5679b
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugObject::SetValue
+
 Sets the value of the object from a consecutive series of bytes.
 
 ## Syntax
 
-```cpp
-HRESULT SetValue( 
-   BYTE* pValue,
-   UINT  nSize
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetValue(
    byte[] pValue,
    uint   nSize
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetValue( 
+   BYTE* pValue,
+   UINT  nSize
+);
+```
+---
 
 ## Parameters
 `pValue`\

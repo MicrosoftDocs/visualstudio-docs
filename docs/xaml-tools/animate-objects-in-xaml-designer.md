@@ -1,15 +1,13 @@
 ---
 title: Animate objects in XAML Designer
 titleSuffix: Blend for Visual Studio
-description: Learn how to create an animation in Blend for Visual Studio by using a storyboard with a timeline and keyframes to animate an object in XAML Designer. 
-ms.custom: SEO-VS-2020
+description: Create an animation in Blend for Visual Studio by using a storyboard with a timeline and keyframes to animate an object in XAML Designer.
 ms.date: 07/31/2019
 ms.topic: how-to
-ms.assetid: fb88fa26-e835-47f5-9771-2f279441c83c
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xaml-tools
+author: maddymontaquila
+ms.author: maleger
+manager: mijacobs
+ms.subservice: xaml-tools
 ---
 # Animate objects in XAML Designer
 
@@ -43,6 +41,6 @@ The following images shows a storyboard named **Storyboard1**. The timeline cont
 
 Play around with other changes to the rectangle at different points in time. For example, you can change the fill color or flip the orientation in the Properties window.
 
-## See also
+## Related content
 
 - [Create a UI by using Blend for Visual Studio](../xaml-tools/creating-a-ui-by-using-blend-for-visual-studio.md)

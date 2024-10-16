@@ -1,15 +1,12 @@
 ---
 title: Add explicit cast
 description: Learn how to automatically add an explicit cast to an expression based on the context of your code. 
-ms.custom: SEO-VS-2020
 ms.date: 03/26/2020
 ms.topic: reference
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- dotnet
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Add explicit cast
 

@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Collect data using a Windows Form"
 description: Open a Windows Form from a document-level customization for Microsoft Excel, collect information from the user, and write that information into a worksheet cell.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "worksheets [Office development in Visual Studio], collecting data"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Walkthrough: Collect data by using a Windows Form
+
   This walkthrough demonstrates how to open a Windows Form from a document-level customization for Microsoft Office Excel, collect information from the user, and write that information into a worksheet cell.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
@@ -31,7 +29,7 @@ ms.workload:
 
 - [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
-- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
+-  Excel 2013  or  Excel 2010 .
 
 > [!NOTE]
 > Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -90,13 +88,21 @@ ms.workload:
    > [!NOTE]
    > In C#, you must add an event handler as shown in the <xref:Microsoft.Office.Tools.Excel.Workbook.Startup> event below. For information about creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../vsto/codesnippet/CSharp/WinFormInputCS/ThisWorkbook.cs" id="Snippet1":::
+
+    ### [VB](#tab/vb)
     :::code language="vb" source="../vsto/codesnippet/VisualBasic/WinFormInput/ThisWorkbook.vb" id="Snippet1":::
+    ---
 
 3. Create a method called `WriteStringToCell` that writes text to a named range. This method is called from the form, and the user's input is passed to the <xref:Microsoft.Office.Tools.Excel.NamedRange> control, `formInput`, on cell **A1**.
 
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../vsto/codesnippet/CSharp/WinFormInputCS/ThisWorkbook.cs" id="Snippet2":::
+
+    ### [VB](#tab/vb)
     :::code language="vb" source="../vsto/codesnippet/VisualBasic/WinFormInput/ThisWorkbook.vb" id="Snippet2":::
+    ---
 
    Next, add code to the form to handle the button's click event.
 
@@ -110,8 +116,12 @@ ms.workload:
 
 3. Add code to the event handler to take the input from the text box, send it to the function `WriteStringToCell`, and then close the form.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/WinFormInputCS/GetInputString.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/WinFormInput/GetInputString.vb" id="Snippet3":::
+     ---
 
 ## Test
  You can now run the project. The Windows Form appears, and your input appears in the worksheet.
@@ -133,7 +143,7 @@ ms.workload:
 
 - Modify the user interface of a Microsoft Office application from a document-level customization or a VSTO Add-in. For more information, see [Office UI customization](../vsto/office-ui-customization.md).
 
-## See also
+## Related content
 - [Develop Office solutions](../vsto/developing-office-solutions.md)
 - [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)

@@ -5,12 +5,10 @@ ms.date: 02/19/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-manager: jmartens
-ms.technology: vs-ide-general
+manager: mijacobs
+ms.subservice: general-ide
 dev_langs:
 - CSharp
-ms.workload:
-- dotnet
 ---
 # Extract local function refactoring
 

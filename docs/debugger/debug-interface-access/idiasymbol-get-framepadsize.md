@@ -1,6 +1,6 @@
 ---
-description: "Retrieves the extra pad size added to each function."
-title: "IDiaSymbol::get_framePadSize | Microsoft Docs"
+description: Retrieves the extra pad size added to each function.
+title: "IDiaSymbol::get_framePadSize"
 ms.date: "04/27/2021"
 ms.topic: "reference"
 dev_langs:
@@ -9,11 +9,10 @@ helpviewer_keywords:
   - "IDiaSymbol::get_framePadSize method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_framePadSize
 
 Retrieves the extra pad size added to each function.
@@ -21,7 +20,7 @@ Retrieves the extra pad size added to each function.
 ## Syntax
 
 ```C++
-HRESULT get_framePadSize ( 
+HRESULT get_framePadSize ( 
    DWORD* pPadSize
 );
 ```

@@ -1,21 +1,17 @@
 ---
-title: Menus and Commands for Visual Studio | Microsoft Docs
+title: Menus and Commands for Visual Studio
 description: Learn how command bars allow for flexibility in the user interface when you create new features for Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
-ms.assetid: 0a1ed675-2bd1-4603-ba3a-f40dfb5cfb69
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Menus and Commands for Visual Studio
+
 ## Command usage
 
-### Overview
  Unlike Microsoft Office, which is a suite that comprises many separate products, Visual Studio contains many products that each contribute their command sets to the global Visual Studio IDE. The IDE manages the complexity of thousands of commands by filtering the functionality available to the user based on context.
 
  When a user's context changes - such as switching from a design window to a code editing window - functionality unrelated to the new context disappears. At the same time, new functionality surfaces together with related dynamic information, such as Properties and Toolbox options. The user should not notice the swapping of the available command set. If the user is distracted or confused by commands appearing or disappearing, then the UI design needs adjustment. The user's current context is always indicated in one or more ways, such as in the IDE title bar, the Properties window, or the Property Pages dialog box.
@@ -249,7 +245,6 @@ ms.workload:
 
 ## Access and shortcut keys
 
-### Overview
  There are two kinds of keyboard key assignments:
 
 - **Access keys** (also known as accelerators) allow keyboard access via the menus for commanding and to each label in dialog UI. Access keys are mostly for accessibility purposes, are assigned to all menus and most dialog box controls, are not meant to be memorized, affect only the current window, and are localized.
@@ -282,6 +277,6 @@ ms.workload:
 
   There is not a simple way to check shortcut availability. If you want to add a shortcut, follow these steps:
 
-1. Check the list of [Visual Studio 2013 shortcuts](http://visualstudioshortcuts.com/2013/) to determine if there are similar commands to group yours with.
+1. Check the list of [Visual Studio 2013 shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md) to determine if there are similar commands to group yours with.
 
 2. Go to **Tools > Options > Environment > Keyboard** and test your shortcut. Check each keyboard mapping scheme listed under "Apply the following additional keyboard mapping scheme." Check General, C#, VB, and C++ profiles, as those share unique shortcuts. Your shortcut is available if it's not mapped in any of those places.

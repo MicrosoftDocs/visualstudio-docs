@@ -1,9 +1,8 @@
 ---
-title: "&lt;InstallChecks&gt; Element (Bootstrapper) | Microsoft Docs"
+title: "&lt;InstallChecks&gt; Element (Bootstrapper)"
 description: The InstallChecks element supports starting a variety of tests on the local computer to make sure that all prerequisites for an application have been installed.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "FSharp"
   - "VB"
@@ -11,15 +10,13 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<InstallChecks> element [bootstrapper]"
-ms.assetid: ad329c87-b0ad-4304-84de-ae9496514c42
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: deployment
 ---
 # &lt;InstallChecks&gt; element (bootstrapper)
+
 The `InstallChecks` element supports starting a variety of tests against the local computer to make sure that all of the appropriate prerequisites for an application have been installed.
 
 ## Syntax
@@ -99,7 +96,7 @@ The `InstallChecks` element supports starting a variety of tests against the loc
 | `Property` | Required. The name of the property to store the result. This property can be referenced from a test underneath the `InstallConditions` element, which is a child of the `Command` element. For more information, see [\<Commands> Element](../deployment/commands-element-bootstrapper.md). |
 | `FileName` | Required. The name of the file to find. |
 | `SearchPath` | Required. The disk or folder in which to look for the file. This must be a relative path if `SpecialFolder` is assigned; otherwise, it must be an absolute path. |
-| `SpecialFolder` | Optional. A folder that has special significance either to Windows or to [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]. The default is to interpret `SearchPath` as an absolute path. Valid values include the following:<br /><br /> `AppDataFolder`. The application data folder for this [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application; specific to the current user.<br /><br /> `CommonAppDataFolder`. The application data folder used by all users.<br /><br /> `CommonFilesFolder`. The Common Files folder for the current user.<br /><br /> `LocalDataAppFolder`. The data folder for non-roaming applications.<br /><br /> `ProgramFilesFolder`. The standard Program Files folder for 32-bit applications.<br /><br /> `StartUpFolder`. The folder that contains all applications launched at system startup.<br /><br /> `SystemFolder`. The folder that contains 32-bit system DLLs.<br /><br /> `WindowsFolder`. The folder that contains the Windows system installation.<br /><br /> `WindowsVolume`. The drive or partition that contains the Windows system installation. |
+| `SpecialFolder` | Optional. A folder that has special significance either to Windows or to ClickOnce. The default is to interpret `SearchPath` as an absolute path. Valid values include the following:<br /><br /> `AppDataFolder`. The application data folder for this ClickOnce application; specific to the current user.<br /><br /> `CommonAppDataFolder`. The application data folder used by all users.<br /><br /> `CommonFilesFolder`. The Common Files folder for the current user.<br /><br /> `LocalDataAppFolder`. The data folder for non-roaming applications.<br /><br /> `ProgramFilesFolder`. The standard Program Files folder for 32-bit applications.<br /><br /> `StartUpFolder`. The folder that contains all applications launched at system startup.<br /><br /> `SystemFolder`. The folder that contains 32-bit system DLLs.<br /><br /> `WindowsFolder`. The folder that contains the Windows system installation.<br /><br /> `WindowsVolume`. The drive or partition that contains the Windows system installation. |
 | `SearchDepth` | Optional. The depth at which to search sub-folders for the named file. The search is depth-first. The default is 0, which restricts the search to the top-level folder specified by `SpecialFolder` and **SearchPath**. |
 
 ## MsiProductCheck
@@ -164,16 +161,16 @@ The `InstallChecks` element supports starting a variety of tests against the loc
 |Property|Notes|Possible Values|
 |--------------|-----------|---------------------|
 |`Version9X`|Version number of a Windows 9X operating system.|4.10 = Windows 98|
-|`VersionNT`|Version number of a Windows NT-based operating system.|Major.Minor.ServicePack<br /><br /> 5.0 = Windows 2000<br /><br /> 5.1.0 = Windows XP<br /><br /> 5.1.2 = Windows XP Professional SP2<br /><br /> 5.2.0 = Windows Server 2003|
-|`VersionNT64`|Version number of a 64-bit Windows NT-based operating system.|Same as mentioned earlier.|
+|`VersionNT`|Version number of a Windows operating system.|Major.Minor.ServicePack|
+|`VersionNT64`|Version number of a 64-bit Windows operating system.|Major.Minor.ServicePack.|
 |`VersionMsi`|Version number of the Windows Installer service.|2.0 = Windows Installer 2.0|
 |`AdminUser`|Specifies whether a user has administrator privileges on a Windows NT-based operating system.|0 = no administrator privileges<br /><br /> 1 = administrator privileges|
 
- For example, to block installation on a computer running Windows 95, use code such as the following:
+ For example, to block installation on a computer running Windows 8, use code such as the following:
 
 ```xml
-    <!-- Block install on Windows 95 -->
-    <FailIf Property="Version9X" Compare="VersionLessThan" Value="4.10" String="InvalidPlatform"/>
+    <!-- Block install on Windows 8 -->
+    <FailIf Property="VersionNT64" Compare="VersionLessThan" Value="6.2" String="InvalidPlatform"/>
 ```
 
  To skip running install checks if a FailIf or BypassIf condition is met, use the BeforeInstallChecks attribute.  For example:

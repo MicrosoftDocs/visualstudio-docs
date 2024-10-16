@@ -1,7 +1,6 @@
 ---
 title: Customize code maps by editing the DGML files
 description: Learn how to customize a code map by editing its Directed Graph Markup Language (.dgml) file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -19,10 +18,8 @@ helpviewer_keywords:
 - dependency graphs, assigning categories and properties
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Customize code maps by editing the DGML files
 
@@ -65,10 +62,10 @@ Edit the code map's .dgml file in a text or XML editor. If the map is part of yo
 
    ```xml
    <Links>
-      <Link Category="Contains" Source="MyFirstNewGroup" Target="FirstGroupChildOne" />
-      <Link Category ="Contains" Source="MyFirstNewGroup" Target="FirstGroupChildTwo" />
-      <Link Category ="Contains" Source="MySecondNewGroup" Target="SecondGroupChildOne" />
-      <Link Category="Contains" Source="MySecondNewGroup" Target="SecondGroupChildTwo" />
+      <Link Category="Contains" Source="MyFirstGroup" Target="FirstGroupChildOne" />
+      <Link Category ="Contains" Source="MyFirstGroup" Target="FirstGroupChildTwo" />
+      <Link Category ="Contains" Source="MySecondGroup" Target="SecondGroupChildOne" />
+      <Link Category="Contains" Source="MySecondGroup" Target="SecondGroupChildTwo" />
    </Links>
    ```
 
@@ -184,7 +181,7 @@ Edit the code map's .dgml file in a text or XML editor. If the map is part of yo
     Style="Glass"
     ```
 
-     - or -
+      -or-
 
     ```xml
     Style="Plain"
@@ -269,13 +266,13 @@ Edit the code map's .dgml file in a text or XML editor. If the map is part of yo
    <Condition Expression="MyCategory"/>
    ```
 
-    - or -
+     -or-
 
    ```xml
    <Condition Expression="MyCategory > 100"/>
    ```
 
-    - or -
+     -or-
 
    ```xml
    <Condition Expression="HasCategory('MyCategory')"/>
@@ -283,29 +280,31 @@ Edit the code map's .dgml file in a text or XML editor. If the map is part of yo
 
     This expression uses the following Backus-Naur Form (BNF) syntax:
 
-    \<Expression> ::= \<BinaryExpression> &#124; \<UnaryExpression> &#124; "("\<Expression>")" &#124; \<MemberBindings> &#124; \<Literal> &#124; \<Number>
+    ```
+    <Expression> ::= <BinaryExpression> | \<UnaryExpression> | "("<Expression>")" | <MemberBindings> | <Literal> | \<Number>
 
-    \<BinaryExpression> ::= \<Expression> \<Operator> \<Expression>
+    <BinaryExpression> ::= <Expression> <Operator> <Expression>
 
-    \<UnaryExpression> ::= "!" \<Expression> &#124; "+" \<Expression> &#124; "-" \<Expression>
+    <UnaryExpression> ::= "!" <Expression> | "+" <Expression> | "-" <Expression>
 
-    \<Operator> ::= "<" &#124; "\<=" &#124; "=" &#124; ">=" &#124; ">" &#124; "!=" &#124; "or" &#124; "and" &#124; "+" &#124; "*" &#124; "/" &#124; "-"
+    <Operator> ::= "<" | "<=" | "=" | ">=" | ">" | "!=" | "or" | "and" | "+" | "*" | "/" | "-"
 
-    \<MemberBindings> ::= \<MemberBindings> &#124; \<MemberBinding> "." \<MemberBinding>
+    <MemberBindings> ::= <MemberBindings> | <MemberBinding> "." <MemberBinding>
 
-    \<MemberBinding> ::= \<MethodCall> &#124; \<PropertyGet>
+    <MemberBinding> ::= <MethodCall> | <PropertyGet>
 
-    \<MethodCall> ::= \<Identifier> "(" \<MethodArgs> ")"
+    <MethodCall> ::= <Identifier> "(" <MethodArgs> ")"
 
-    \<PropertyGet> ::= Identifier
+    <PropertyGet> ::= <Identifier>
 
-    \<MethodArgs> ::= \<Expression> &#124; \<Expression> "," \<MethodArgs> &#124; \<empty>
+    <MethodArgs> ::= <Expression> | <Expression> "," <MethodArgs> | <empty>
 
-    \<Identifier> ::= [^. ]*
+    <Identifier> ::= [^. ]*
 
-    \<Literal> ::= single or double-quoted string literal
+    <Literal> ::= single or double-quoted string literal
 
-    \<Number> ::= string of digits with optional decimal point
+    <Number> ::= string of digits with optional decimal point
+    ```
 
     You can specify multiple `<Condition/>` elements, which must all be true to apply the style.
 
@@ -635,7 +634,7 @@ Edit the code map's .dgml file in a text or XML editor. If the map is part of yo
 
 5. To view the referenced code element or code elements from the map, open the shortcut menu for the code element or the link. Choose **Go To Reference** and then the code element.
 
-## See also
+## Related content
 
 - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
 - [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)

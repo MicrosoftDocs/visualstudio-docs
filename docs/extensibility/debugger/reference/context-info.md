@@ -1,40 +1,27 @@
 ---
 description: "This structure describes a memory context or code context."
-title: CONTEXT_INFO | Microsoft Docs
+title: CONTEXT_INFO
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - CONTEXT_INFO
 helpviewer_keywords:
 - CONTEXT_INFO structure
-ms.assetid: 6b513f4e-e7b0-4969-adf0-2205ccc1e09b
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # CONTEXT_INFO
+
 This structure describes a memory context or code context.
 
 ## Syntax
 
-```cpp
-typedef struct _tagCONTEXT_INFO {
-    CONTEXT_INFO_FIELDS dwFields;
-    BSTR                bstrModuleUrl;
-    BSTR                bstrFunction;
-    TEXT_POSITION       posFunctionOffset;
-    BSTR                bstrAddress;
-    BSTR                bstrAddressOffset;
-    BSTR                bstrAddressAbsolute;
-} CONTEXT_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct CONTEXT_INFO {
     public uint          dwFields;
@@ -46,6 +33,19 @@ public struct CONTEXT_INFO {
     public string        bstrAddressAbsolute;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagCONTEXT_INFO {
+    CONTEXT_INFO_FIELDS dwFields;
+    BSTR                bstrModuleUrl;
+    BSTR                bstrFunction;
+    TEXT_POSITION       posFunctionOffset;
+    BSTR                bstrAddress;
+    BSTR                bstrAddressOffset;
+    BSTR                bstrAddressAbsolute;
+} CONTEXT_INFO;
+```
+---
 
 ## Members
 `dwFields`\

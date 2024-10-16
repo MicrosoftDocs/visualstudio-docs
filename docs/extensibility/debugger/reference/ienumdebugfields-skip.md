@@ -1,39 +1,39 @@
 ---
 description: "This method skips over the specified number of elements in the fields enumeration."
-title: IEnumDebugFields::Skip | Microsoft Docs
+title: IEnumDebugFields::Skip
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugFields::Skip
 helpviewer_keywords:
 - IEnumDebugFields::Skip method
-ms.assetid: b3bc51c4-21ae-4913-800c-c2ca9dc18443
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugFields::Skip
+
 This method skips over the specified number of elements.
 
 ## Syntax
 
-```cpp
-HRESULT Skip(
-   ULONG celt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Skip(
    uint celt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Skip(
+   ULONG celt
+);
+```
+---
 
 ## Parameters
 `celt`\

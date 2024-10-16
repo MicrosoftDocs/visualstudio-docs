@@ -1,18 +1,15 @@
 ---
-title: Image Service and Catalog | Microsoft Docs
+title: Image Service and Catalog
 description: This article contains guidance and best practices for adopting the Visual Studio Image Service and Image Catalog.
-ms.custom: SEO-VS-2020
-ms.date: 04/01/2019
+ms.date: 08/21/2024
 ms.topic: conceptual
-ms.assetid: 34990c37-ae98-4140-9b1e-a91c192220d9
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Image service and catalog
+
 This cookbook contains guidance and best practices for adopting the Visual Studio Image Service and Image Catalog introduced in Visual Studio 2015.
 
  The image service introduced in Visual Studio 2015 lets developers get the best images for the device and the user's chosen theme to display the image, including correct theming for the context in which they are displayed. Adopting the image service will help eliminate major pain points related to asset maintenance, HDPI scaling, and theming.
@@ -95,6 +92,8 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
       <Guid Name="ShellCommandGuid" Value="8ee4f65d-bab4-4cde-b8e7-ac412abbda8a" />
       <ID Name="cmdidSaveAll" Value="1000" />
       <String Name="AssemblyName" Value="Microsoft.VisualStudio.Shell.UI.Internal" />
+      <!-- If your assembly is strongly named, you'll need the version and public key token as well -->
+      <!-- <String Name="AssemblyName" Value="Microsoft.VisualStudio.Shell.UI.Internal;v17.0.0.0;b03f5f7f11d50a3a" /> -->
 </Symbols>
 ```
 
@@ -262,19 +261,9 @@ A \<Source> element can have exactly one of the following optional subelements:
 
   - Do not use this header if the image service can handle your image theming.
 
-::: moniker range="vs-2017"
-- **VSUIDPIHelper.h**
-
-  - Required if you use the DPI helpers to get the current DPI.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
 - **VsDpiAwareness.h**
 
   - Required if you use the DPI awareness helpers to get the current DPI.
-
-::: moniker-end
 
 ## How do I write new WPF UI?
 
@@ -293,7 +282,7 @@ A \<Source> element can have exactly one of the following optional subelements:
   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
   xmlns:imaging="clr-namespace:Microsoft.VisualStudio.Imaging;assembly=Microsoft.VisualStudio.Imaging"
   xmlns:theming="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Imaging"
-  xmlns:utilities="clr-namespace:Microsoft.Internal.VisualStudio.Imaging;assembly=Microsoft.VisualStudio.Imaging"
+  xmlns:utilities="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Utilities"
   xmlns:catalog="clr-namespace:Microsoft.VisualStudio.Imaging;assembly=Microsoft.VisualStudio.ImageCatalog"
   Title="MainWindow" Height="350" Width="525" UseLayoutRounding="True">
   <Window.Resources>
@@ -336,30 +325,6 @@ CGlobalServiceProvider::HrQueryService(SID_SVsImageService, &spImgSvc);
 
  **Requesting the image**
 
-::: moniker range="vs-2017"
-
-```cpp
-ImageAttributes attr = { 0 };
-attr.StructSize      = sizeof(attributes);
-attr.Format          = DF_Win32;
-// IT_Bitmap for HBITMAP, IT_Icon for HICON, IT_ImageList for HIMAGELIST
-attr.ImageType       = IT_Bitmap;
-attr.LogicalWidth    = 16;
-attr.LogicalHeight   = 16;
-attr.Dpi             = VsUI::DpiHelper::GetDeviceDpiX();
-// Desired RGBA color, if you don't use this, don't set IAF_Background below
-attr.Background      = 0xFFFFFFFF;
-attr.Flags           = IAF_RequiredFlags | IAF_Background;
-
-CComPtr<IVsUIObject> spImg;
-// Replace this KnownMoniker with your desired ImageMoniker
-spImgSvc->GetImage(KnownMonikers::Blank, attributes, &spImg);
-```
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 ```cpp
 UINT dpiX, dpiY;
 HWND hwnd = // get the HWND where the image will be displayed
@@ -382,8 +347,6 @@ CComPtr<IVsUIObject> spImg;
 spImgSvc->GetImage(KnownMonikers::Blank, attributes, &spImg);
 ```
 
-::: moniker-end
-
 ## How do I update WinForms UI?
  Add the following to your code wherever appropriate to replace the raw loading of images. Switch values for returning Bitmaps versus Icons as needed.
 
@@ -402,34 +365,6 @@ IVsImageService2 imageService = (IVsImageService2)Package.GetGlobalService(typeo
 ```
 
  **Request the image**
-
-::: moniker range="vs-2017"
-
-```csharp
-ImageAttributes attributes = new ImageAttributes
-{
-    StructSize    = Marshal.SizeOf(typeof(ImageAttributes)),
-    // IT_Bitmap for Bitmap, IT_Icon for Icon, IT_ImageList for ImageList
-    ImageType     = (uint)_UIImageType.IT_Bitmap,
-    Format        = (uint)_UIDataFormat.DF_WinForms,
-    LogicalWidth  = 16,
-    LogicalHeight = 16,
-    Dpi           = (int)DpiHelper.DeviceDpiX;
-    // Desired RGBA color, if you don't use this, don't set IAF_Background below
-    Background    = 0xFFFFFFFF,
-    Flags         = unchecked((uint)_ImageAttributesFlags.IAF_RequiredFlags | _ImageAttributesFlags.IAF_Background),
-};
-
-// Replace this KnownMoniker with your desired ImageMoniker
-IVsUIObject uIObj = imageService.GetImage(KnownMonikers.Blank, attributes);
-
-Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you need a bitmap
-// Icon icon = (Icon)GelUtilities.GetObjectData(uiObj);    // Use this if you need an icon
-```
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
 
 ```csharp
 Control control = // get the control where the image will be displayed
@@ -455,8 +390,6 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
 // Icon icon = (Icon)GelUtilities.GetObjectData(uiObj);    // Use this if you need an icon
 ```
 
-::: moniker-end
-
 ## How do I use image monikers in a new tool window?
  The VSIX package project template was updated for Visual Studio 2015. To create a new tool window, right-click on the VSIX project and select **Add** > **New Item** (**Ctrl**+**Shift**+**A**). Under the Extensibility node for the project language, select **Custom Tool Window**, give the tool window a name, and press the **Add** button.
 
@@ -473,7 +406,7 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
 
 2. The command to open the tool window.
 
-    In the *.vsct* file for the package, edit the tool window's command button:
+   In the `.vsct` file for the package, edit the tool window's command button:
 
    ```xml
    <Button guid="guidPackageCmdSet" id="CommandId" priority="0x0100" type="Button">
@@ -488,13 +421,19 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
    </Button>
    ```
 
-   **How do I use image monikers in an existing tool window?**
+   Ensure the following also exists at the top of the file, after the `<Extern>` elements:
+   
+   ```xml
+   <Include href="KnownImageIds.vsct"/>
+   ```
 
-   Updating an existing tool window to use image monikers is similar to the steps for creating a new tool window.
+## How do I use image monikers in an existing tool window?
 
-   These are the key places to use monikers in a tool window. Follow the instructions for each:
+Updating an existing tool window to use image monikers is similar to the steps for creating a new tool window.
 
-3. The tool window tab when the tabs get small enough (also used in the **Ctrl**+**Tab** window switcher).
+These are the key places to use monikers in a tool window. Follow the instructions for each:
+
+1. The tool window tab when the tabs get small enough (also used in the **Ctrl**+**Tab** window switcher).
 
    1. Remove these lines (if they exist) in the constructor for the class that derives from the **ToolWindowPane** type:
 
@@ -505,12 +444,12 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
 
    2. See step #1 of the "How do I use image monikers in a new tool window?" section above.
 
-4. The command to open the tool window.
+2. The command to open the tool window.
 
    - See step #2 of the "How do I use image monikers in a new tool window?" section above.
 
 ## How do I use image monikers in a .vsct file?
- Update your *.vsct* file as indicated by the commented lines below:
+ Update your `.vsct` file as indicated by the commented lines below:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -552,7 +491,7 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
 
  **What if my .vsct file also needs to be read by older versions of Visual Studio?**
 
- Older versions of Visual Studio do not recognize the **IconIsMoniker** command flag. You can use images from the image service on versions of Visual Studio that support it, but continue to use old-style images on older versions of Visual Studio. To do this, you'd leave the *.vsct* file unchanged (and therefore compatible with older versions of Visual Studio), and create a CSV (comma-separated values) file that maps from GUID/ID pairs defined in a *.vsct* file's \<Bitmaps> element to image moniker GUID/ID pairs.
+ Older versions of Visual Studio do not recognize the **IconIsMoniker** command flag. You can use images from the image service on versions of Visual Studio that support it, but continue to use old-style images on older versions of Visual Studio. To do this, you'd leave the `.vsct` file unchanged (and therefore compatible with older versions of Visual Studio), and create a CSV (comma-separated values) file that maps from GUID/ID pairs defined in a `.vsct` file's \<Bitmaps> element to image moniker GUID/ID pairs.
 
  The format of the mapping CSV file is:
 
@@ -716,7 +655,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 ### Samples
  Several of the Visual Studio samples on GitHub have been updated to show how to use the image service as part of various Visual Studio extensibility points.
 
- Check [http://github.com/Microsoft/VSSDK-Extensibility-Samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples) for the latest samples.
+ Check [`http://github.com/Microsoft/VSSDK-Extensibility-Samples`](https://github.com/Microsoft/VSSDK-Extensibility-Samples) for the latest samples.
 
 ### Tooling
  A set of support tools for the Image Service was created to aid in creating/updating UI that works with the Image Service. For more information about each tool, check the documentation that comes with the tools. The tools are included as part of the [Visual Studio 2015 SDK](visual-studio-sdk.md).
@@ -727,7 +666,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 
  **ManifestToCode**
 
- The Manifest to Code tool takes an image manifest file and generates a wrapper file for referencing the manifest values in code (C++, C#, or VB) or *.vsct* files.
+ The Manifest to Code tool takes an image manifest file and generates a wrapper file for referencing the manifest values in code (C++, C#, or VB) or `.vsct` files.
 
  **ImageLibraryViewer**
 
@@ -741,10 +680,36 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 
 - How do I deploy an image manifest with my extension?
 
-  - Add the *.imagemanifest* file to your project.
+  - Add the `.imagemanifest` file to your project.
 
   - Set "Include in VSIX" to True.
 
+- My images are still not working, how do I figure out what's wrong?
+
+  - Visual Studio may not be finding your image manifest. For performance reasons Visual Studio limits folder search depth, so it's recommended that the image manifest be kept in the root folder of your extension.
+
+  - You might be missing assembly information in your image manifest file. Assemblies that are strongly named require additional information in order to be loaded by Visual Studio. In order to load a strongly named assembly, you need to include (in addition to the assembly name) the assembly version and public key token in the resource URIs for the images in your image manifest.
+    ```xml
+    <ImageManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/VisualStudio/ImageManifestSchema/2014">
+      <Symbols>
+        <String Name="Resources" Value="/Microsoft.VisualStudio.Shell.UI.Internal;v17.0.0.0;b03f5f7f11d50a3a;Component/Resources" />
+        ...
+      </Symbols>
+      ...
+    </ImageManifest>
+    ```
+  - You may be missing a codebase entry for your image assembly. If your assembly is not yet loaded by the time Visual Studio needs it, it will need to know where to find your assembly in order to load it. To add a codebase for your assembly, you can use the ProvideCodeBaseAttribute to ensure a codebase entry is generated and included in your extension's pkgdef.
+    ```csharp
+    [assembly: ProvideCodeBase(AssemblyName = "ClassLibrary1", Version = "1.0.0.0", CodeBase = "$PackageFolder$\\ClassLibrary1.dll")]
+    ```
+  - If the previous options do no resolve your image load issue, you can enable logging by dropping the following entries into a pkgdef in your extension:
+    ```
+    [$RootKey$\ImageLibrary]
+    "TraceLevel"="Verbose"
+    "TraceFilename"="ImageLibrary.log"
+    ```
+    This will create a log file called ImageLibrary.log in your %UserProfile% folder. Make sure to run "devenv /updateConfiguration" from a developer command prompt after adding these entries to a pkgdef. This ensures that the logging entries are enabled and that VS refreshes the image manifest cache to help find any errors that may occur when reading your image manifest. If you then run through the scenario where your image is expected to load, your log file will contain both the registration logging and request logging for your image.
+    
 - I am updating my CPS Project System. What happened to **ImageName** and **StockIconService**?
 
   - These were removed when CPS was updated to use monikers. You no longer need to call the **StockIconService**, just pass the desired **KnownMoniker** to the method or property using the **ToProjectSystemType()** extension method in the CPS utilities. You can find a mapping from **ImageName** to **KnownMonikers** below:
@@ -814,7 +779,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
     |ImageName.CSharpCodeFile|KnownImageIds.CSFileNode|
     |ImageName.VisualBasicCodeFile|KnownImageIds.VBFileNode|
 
-  - I am updating my completion list provider. What **KnownMonikers** match to the old **StandardGlyphGroup** and **StandardGlyph** values?
+ - I am updating my completion list provider. What **KnownMonikers** match to the old **StandardGlyphGroup** and **StandardGlyph** values?
 
     |Name|Name|Name|
     |-|-|-|

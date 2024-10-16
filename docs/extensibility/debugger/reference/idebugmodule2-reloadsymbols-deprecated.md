@@ -1,41 +1,41 @@
 ---
 description: "OBSOLETE. Reloads the symbols for this module."
-title: IDebugModule2::ReloadSymbols_Deprecated | Microsoft Docs
+title: IDebugModule2::ReloadSymbols_Deprecated
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugModule2::ReloadSymbols
 helpviewer_keywords:
 - IDebugModule2::ReloadSymbols method
-ms.assetid: 0f9f0133-7d58-4cd9-a6ca-1141e095749d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugModule2::ReloadSymbols_Deprecated
+
 OBSOLETE. DO NOT USE. Reloads the symbols for this module.
 
 ## Syntax
 
-```cpp
-HRESULT ReloadSymbols( 
-   LPCOLESTR pszUrlToSymbols,
-   BSTR*     pbstrDebugMessage
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ReloadSymbols( 
    string     pszUrlToSymbols,
    out string pbstrDebugMessage
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ReloadSymbols( 
+   LPCOLESTR pszUrlToSymbols,
+   BSTR*     pbstrDebugMessage
+);
+```
+---
 
 ## Parameters
 `pszUrlToSymbols`\

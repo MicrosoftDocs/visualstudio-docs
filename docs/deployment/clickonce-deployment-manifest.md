@@ -1,7 +1,6 @@
 ---
-title: "ClickOnce Deployment Manifest | Microsoft Docs"
+title: "ClickOnce Deployment Manifest"
 description: Learn about a deployment manifest, an XML file that describes a ClickOnce deployment, including the current ClickOnce application version to deploy.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -11,23 +10,21 @@ dev_langs:
 helpviewer_keywords:
   - "ClickOnce, deployment manifests"
   - "deployment manifests [ClickOnce]"
-ms.assetid: 8457e615-e3b6-4990-8dcf-11bc590e4e9b
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: deployment
 ---
 # ClickOnce deployment manifest
-A deployment manifest is an XML file that describes a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment, including the identification of the current [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application version to deploy.
+
+A deployment manifest is an XML file that describes a ClickOnce deployment, including the identification of the current ClickOnce application version to deploy.
 
  Deployment manifests have the following elements and attributes.
 
 | Element | Description | Attributes |
 | - | - | - |
 | [\<assembly> Element](../deployment/assembly-element-clickonce-deployment.md) | Required. Top-level element. | `manifestVersion` |
-| [\<assemblyIdentity> Element](../deployment/assemblyidentity-element-clickonce-deployment.md) | Required. Identifies the application manifest for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. | `name`<br /><br /> `version`<br /><br /> `publicKeyToken`<br /><br /> `processorArchitecture`<br /><br /> `culture` |
+| [\<assemblyIdentity> Element](../deployment/assemblyidentity-element-clickonce-deployment.md) | Required. Identifies the application manifest for the ClickOnce application. | `name`<br /><br /> `version`<br /><br /> `publicKeyToken`<br /><br /> `processorArchitecture`<br /><br /> `culture` |
 | [\<description> Element](../deployment/description-element-clickonce-deployment.md) | Required. Identifies application information used to create a shell presence and the **Add or Remove Programs** item in Control Panel. | `publisher`<br /><br /> `product`<br /><br /> `supportUrl` |
 | [\<deployment> Element](../deployment/deployment-element-clickonce-deployment.md) | Optional. Identifies the attributes used for the deployment of updates and exposure to the system. | `install`<br /><br /> `minimumRequiredVersion`<br /><br /> `mapFileExtensions`<br /><br /> `disallowUrlActivation`<br /><br /> `trustUrlParameters` |
 | [\<compatibleFrameworks> Element](../deployment/compatibleframeworks-element-clickonce-deployment.md) | Required. Identifies the versions of the .NET Framework where this application can install and run. | `SupportUrl` |
@@ -37,7 +34,7 @@ A deployment manifest is an XML file that describes a [!INCLUDE[ndptecclick](../
 | [\<customErrorReporting> Element](../deployment/customerrorreporting-element-clickonce-deployment.md) | Optional. Specifies a URI to show when an error occurs. | Uri |
 
 ## Remarks
- The deployment manifest file identifies a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application deployment, including the current version and other deployment settings. It references the application manifest, which describes the current version of the application and all of the files contained within the deployment.
+ The deployment manifest file identifies a ClickOnce application deployment, including the current version and other deployment settings. It references the application manifest, which describes the current version of the application and all of the files contained within the deployment.
 
  For more information, see [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md).
 

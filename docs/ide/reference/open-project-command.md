@@ -1,7 +1,6 @@
 ---
 title: Open Project command
 description: Learn about the Open Project command and how it opens an existing project or solution.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -11,13 +10,10 @@ helpviewer_keywords:
 - op command
 - File.OpenProject command
 - Open Project command
-ms.assetid: baa85f86-041b-49f4-9ced-0c397dc180e1
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Open project command
 

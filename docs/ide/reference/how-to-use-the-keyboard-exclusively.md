@@ -10,29 +10,19 @@ helpviewer_keywords:
 - windows [Visual Studio], accessibility
 - dialog boxes [Visual Studio], shortcut keys
 - accessibility [Visual Studio]
-ms.assetid: d71a4cc1-d352-4164-8538-3f9fa070a331
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: anandmeg
+ms.author: meghaanand
+manager: mijacobs
+ms.subservice: general-ide
 ---
-# How to use the keyboard exclusively
+# Use the keyboard exclusively
 
 Keyboard shortcuts can make it easier to navigate the Visual Studio IDE and to write code. This article explores a few ways you can use keyboard shortcuts more effectively.
 
 For a full listing of command shortcut keys in Visual Studio, see [Default keyboard shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
-::: moniker range="vs-2017"
-
-> [!TIP]
-> To learn more about accessibility updates, see the [Accessibility improvements in Visual Studio 2017](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
-
-::: moniker-end
-
 > [!NOTE]
-> Depending on your settings or the edition of Visual Studio you use, the dialog boxes and menu commands you see might differ from those described in Help. To change your settings, select **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../environment-settings.md#reset-settings).
+> Depending on your settings or the edition of Visual Studio you use, the dialog boxes and menu commands you see might differ from those described in Help. To change your settings, select **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../personalizing-the-visual-studio-ide.md#reset-all-settings).
 
 ## Toolbox controls
 
@@ -92,7 +82,7 @@ To move among the options in a dialog box and change option settings by using on
 
    The tool window snaps into place at the new docking location.
 
-## See also
+## Related content
 
 * [Identifying and customizing keyboard shortcuts](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
 * [Accessibility tips and tricks](../../ide/reference/accessibility-tips-and-tricks.md)

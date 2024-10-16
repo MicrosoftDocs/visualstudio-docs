@@ -1,39 +1,39 @@
 ---
 description: "Returns the number of DEBUG_REFERENCE_INFO elements in the enumeration."
-title: IEnumDebugReferenceInfo2::GetCount | Microsoft Docs
+title: IEnumDebugReferenceInfo2::GetCount
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugReferenceInfo2::GetCount
 helpviewer_keywords:
 - IEnumDebugReferenceInfo2::GetCount
-ms.assetid: e62706e0-d2cd-48fb-8fdf-444463c651ab
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugReferenceInfo2::GetCount
+
 Returns the number of elements in the enumeration.
 
 ## Syntax
 
-```cpp
-HRESULT GetCount(
-   ULONG* pcelt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCount(
    out uint pcelt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCount(
+   ULONG* pcelt
+);
+```
+---
 
 ## Parameters
 `pcelt`\

@@ -1,7 +1,6 @@
 ---
 title: AutoRecover, Environment, Options Dialog Box
 description: Learn about the AutoRecover, Environment, Options dialog box and how it's used to specify whether or not to automatically back up files.
-ms.custom: SEO-VS-2020
 ms.date: 08/14/2020
 ms.topic: reference
 f1_keywords:
@@ -13,13 +12,10 @@ helpviewer_keywords:
 - AutoRecover page
 - saving files, automatically
 - files, saving automatically
-ms.assetid: 397e5e44-4bbe-4289-94d1-642b466c9111
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: anandmeg
+ms.author: meghaanand
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # AutoRecover, Environment, Options dialog box
 
@@ -43,12 +39,6 @@ Use this option to customize how often a file is automatically saved in the edit
 
 > [!NOTE]
 > If you are using Visual Studio 2019 version 16.1 or earlier, the file location is *%USERPROFILE%\Documents\Visual Studio [version]\Backup Files\\[projectname]*. For more information, see the [Visual Studio 2019 Release Notes History](/visualstudio/releases/2019/release-notes-history/) page.
-
-::: moniker-end
-
-::: moniker range="vs-2017"
-
-Use this option to customize how often a file is automatically saved in the editor. For previously saved files, Visual Studio 2017 saves a copy of the file in *%USERPROFILE%\Documents\Visual Studio [version]\Backup Files\\[projectname]*. If the file is new and you haven't saved it yet, Visual Studio autosaves it by using a randomly generated file name.
 
 ::: moniker-end
 

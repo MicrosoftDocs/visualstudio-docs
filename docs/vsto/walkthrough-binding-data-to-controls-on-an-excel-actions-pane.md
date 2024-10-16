@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Bind data to controls on an Excel actions pane"
 description: Bind data to controls on an actions pane in Microsoft Excel. The controls demonstrate a master/detail relation between tables in a SQL Server database.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -17,12 +16,11 @@ helpviewer_keywords:
   - "smart documents [Office development in Visual Studio], data binding"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Walkthrough: Bind data to controls on an Excel actions pane
+
   This walkthrough demonstrates data binding to controls on an actions pane in Microsoft Office Excel. The controls demonstrate a master/detail relation between tables in a SQL Server database.
 
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]
@@ -45,7 +43,7 @@ ms.workload:
 
 - [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
-- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
+-  Excel 2013  or  Excel 2010 .
 
 - Access to a server with the Northwind SQL Server sample database.
 
@@ -137,8 +135,12 @@ ms.workload:
 
 2. Add the following code to the <xref:System.Windows.Forms.UserControl.Load> event of the actions pane control.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneExcelVB/ActionsControl.vb" id="Snippet1":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneExcelCS/ActionsControl.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneExcelVB/ActionsControl.vb" id="Snippet1":::
+     ---
 
 3. In C#, you must create an event handler for the `ActionsControl`. You can place this code in the `ActionsControl` constructor. For more information about creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
@@ -153,13 +155,21 @@ ms.workload:
 
 2. Create a new instance of the user control in the `ThisWorkbook` class.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneExcelCS/ThisWorkbook.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneExcelVB/ThisWorkbook.vb" id="Snippet3":::
+     ---
 
 3. In the <xref:Microsoft.Office.Tools.Excel.Workbook.Startup> event handler of `ThisWorkbook`, add the control to the actions pane.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneExcelCS/ThisWorkbook.cs" id="Snippet4":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneExcelVB/ThisWorkbook.vb" id="Snippet4":::
+     ---
 
 ## Test the application
  Now you can test your document to verify that the actions pane opens when the document is opened, and that the controls have a master/detail relation.
@@ -174,14 +184,14 @@ ms.workload:
 
 4. Select various companies to verify the company name and product details change as appropriate.
 
-## Next Steps
+## Next steps
  Here are some tasks that might come next:
 
 - Binding data to controls in Word. For more information, see [Walkthrough: Bind data to controls on a Word actions pane](../vsto/walkthrough-binding-data-to-controls-on-a-word-actions-pane.md).
 
 - Deploying the project. For more information, see [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md).
 
-## See also
+## Related content
 - [Actions pane overview](../vsto/actions-pane-overview.md)
 - [How to: Manage control layout on actions panes](../vsto/how-to-manage-control-layout-on-actions-panes.md)
 - [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)

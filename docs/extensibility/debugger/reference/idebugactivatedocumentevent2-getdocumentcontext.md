@@ -1,6 +1,6 @@
 ---
 description: "Gets the document context that describes the position in the document that is to be made active by the debug package."
-title: IDebugActivateDocumentEvent2::GetDocumentContext | Microsoft Docs
+title: IDebugActivateDocumentEvent2::GetDocumentContext
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,33 +8,33 @@ f1_keywords:
 helpviewer_keywords:
 - GetDocumentContext method
 - IDebugActivateDocumentEvent2::GetDocumentContext method
-ms.assetid: e7472069-7337-4ef4-8f8a-8c027a2e22f4
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugActivateDocumentEvent2::GetDocumentContext
+
 Gets the document context that describes the position in the document that is to be made active by the debug package.
 
 ## Syntax
 
-```cpp
-HRESULT GetDocumentContext ( 
-   IDebugDocumentContext2** ppDocContext
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocumentContext ( 
    out IDebugDocumentContext2 ppDocContext
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocumentContext ( 
+   IDebugDocumentContext2** ppDocContext
+);
+```
+---
 
 ## Parameters
 `ppDocContext`\

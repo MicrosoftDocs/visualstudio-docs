@@ -2,16 +2,12 @@
 title: Pen tool modifier keys
 titleSuffix: Blend for Visual Studio
 description: Learn about the Pen tool modifier keys in Blend for Visual Studio that access commands for modifying a path while you are creating it with the Pen tool.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
-ms.assetid: c3ab14c6-a320-46db-a6b3-7fd1ca261587
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xaml-tools
-ms.workload:
-  - "multiple"
+author: maddymontaquila
+ms.author: maleger
+manager: mijacobs
+ms.subservice: xaml-tools
 ---
 # Pen tool modifier keys in Blend for Visual Studio
 

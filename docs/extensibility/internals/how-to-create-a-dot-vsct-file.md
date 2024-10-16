@@ -1,24 +1,20 @@
 ---
-title: 'How to: Create a .Vsct File | Microsoft Docs'
+title: 'Create a .Vsct File'
 description: Learn how to manually create a .vsct file, an XML-based Visual Studio command table configuration file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - VSCT files, creating
-ms.assetid: b955f51c-f9f9-49c3-a8e4-63b6eb0e0341
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
-# How to: Create a .vsct file
+# Create a .vsct file
 
 There are several ways to create an XML-based Visual Studio command table configuration (*.vsct*) file.
 
-- You can create a new VSPackage in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] package template.
+- You can create a new VSPackage in the Visual Studio package template.
 
 - You can use the XML-based command table configuration compiler, *Vsct.exe*, to generate a file from an existing *.ctc* file.
 
@@ -30,7 +26,7 @@ There are several ways to create an XML-based Visual Studio command table config
 
 ### To manually create a new .vsct file
 
-1. Start [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+1. Start Visual Studio.
 
 2. On the **File** menu, point to **New**, and then click **File**.
 
@@ -50,9 +46,9 @@ There are several ways to create an XML-based Visual Studio command table config
 
 <a name="how-to-create-a-dot-vsct-file-from-an-existing-dot-ctc-file"></a>
 
-## How to: Create a .vsct File from an existing .ctc file
+## Create a .vsct File from an existing .ctc file
 
-You can create an XML-based *.vsct* file from an existing command table *.ctc* source file. By doing this, you can take advantage of the new XML-based [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] command table (VSCT) compiler format.
+You can create an XML-based *.vsct* file from an existing command table *.ctc* source file. By doing this, you can take advantage of the new XML-based Visual Studio command table (VSCT) compiler format.
 
 ### To create a .vsct file from a .ctc file
 
@@ -64,7 +60,7 @@ You can create an XML-based *.vsct* file from an existing command table *.ctc* s
 
 4. Place the files in the same directory.
 
-5. In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] command prompt window, navigate to the directory.
+5. In the Visual Studio command prompt window, navigate to the directory.
 
 6. Type
 
@@ -81,7 +77,7 @@ You can create an XML-based *.vsct* file from an existing command table *.ctc* s
 
 <a name="how-to-create-a-dot-vsct-file-from-an-existing-dot-cto-file"></a>
 
-## How to: Create a .vsct file from an existing .cto file
+## Create a .vsct file from an existing .cto file
 
 You can create an XML-based *.vsct* file from an existing binary *.cto* file. Doing this allows you to take advantage of the new command table compiler format. This process works even if the *.cto* file was compiled from a *.ctc* file. You can edit and compile the *.vsct* file into another .cto file.
 
@@ -145,7 +141,7 @@ You can create an XML-based *.vsct* file from an existing binary *.cto* file. Do
 
      The first parameter value must match the value of the `ResourceName` attribute you defined in the project file.
 
-## See also
+## Related content
 - [Author .vsct files](../../extensibility/internals/authoring-dot-vsct-files.md)
 - [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
 - [VSCT XML schema reference](../../extensibility/vsct-xml-schema-reference.md)

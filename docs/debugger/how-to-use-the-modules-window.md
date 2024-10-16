@@ -1,7 +1,6 @@
 ---
-title: View DLLs and executables
+title: View DLLs and executables in Visual Studio
 description: View DLLs and executables (.exe files) that your app uses in the Modules window during a debugging session in Visual Studio.
-ms.custom: "SEO-VS-2020"
 titleSuffix: Visual Studio Modules window
 ms.date: 11/04/2018
 ms.topic: how-to
@@ -20,13 +19,10 @@ helpviewer_keywords:
   - debugging [Visual Studio], displaying modules
   - DLLs, displaying while debugging
   - modules, displaying
-ms.assetid: d840fdca-b035-4452-b652-72580c831896
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # View DLLs and executables in the Modules window (C#, C++, Visual Basic, F#)
 
@@ -55,7 +51,7 @@ The **Symbol Status** column in the **Modules** window shows which modules have 
 
 1. If the symbols don't load, select **Symbol Settings** to open the **Options** dialog, and specify or change symbol loading locations.
 
-   You can download symbols from the public Microsoft Symbol Servers or other servers, or load symbols from a folder on your computer. For details, see [Specify symbol locations and loading behavior](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md#BKMK_Specify_symbol_locations_and_loading_behavior).
+   You can download symbols from the public Microsoft Symbol Servers or other servers, or load symbols from a folder on your computer. For details, see [Configure location of symbol files and loading behavior](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md#configure-location-of-symbol-files-and-loading-options).
 
 **To change symbol loading behavior settings:**
 
@@ -73,7 +69,7 @@ The **Symbol Status** column in the **Modules** window shows which modules have 
 
 1. In the right-click menu, select or deselect **Always Load Automatically**. Changes take effect in the next debugging session.
 
-## See also
+## Related content
 - [Breaking execution](/previous-versions/visualstudio/visual-studio-2010/7z9se2d8(v=vs.100))
 - [Viewing data in the debugger](../debugger/viewing-data-in-the-debugger.md)
 - [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)

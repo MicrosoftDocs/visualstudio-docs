@@ -1,17 +1,14 @@
 ---
 title: Creating Custom T4 Text Template Directive Processors
 description: Learn about the text template transformation process and how to create a custom T4 text template directive processor.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - text templates, custom directive processors
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Create Custom T4 Text Template Directive Processors
 
@@ -61,7 +58,7 @@ After all calls to ProcessDirective() the templating engine will call these meth
 
 - For more information, see [Walkthrough: Creating a Custom Directive Processor](../modeling/walkthrough-creating-a-custom-directive-processor.md).
 
-## See also
+## Related content
 
 - [Deploy a Custom Directive Processor](../modeling/deploying-a-custom-directive-processor.md) explains how to register a custom directive processor.
 - [Walkthrough: Create a Custom Directive Processor](../modeling/walkthrough-creating-a-custom-directive-processor.md) describes how to create a custom directive processor, how to register and test the directive processor, and how to format the output file as HTML.

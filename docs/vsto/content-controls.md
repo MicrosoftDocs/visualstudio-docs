@@ -1,7 +1,6 @@
 ---
 title: "Content controls"
 description: Learn content controls and how content controls provide a way for you to design documents and templates.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -37,12 +36,11 @@ helpviewer_keywords:
   - "BuildingBlockGalleryContentControl class"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Content controls
+
   Content controls provide a way for you to design documents and templates that have these features:
 
 - A user interface (UI) that has controlled input like a form.
@@ -55,7 +53,7 @@ ms.workload:
 
   ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [Bind data to Word 2007 content controls using Visual Studio Tools for the Office system (3.0)](/previous-versions/office/developer/office-2007/bb967663(v=office.12)).
 
-## Overview of content controls
+## About content controls
  Content controls provide a UI that is optimized for both user input and print. When you add a content control to a document, the control is identified by a border, a title, and temporary text that can provide instructions to the user. The border and the title of the control do not appear in printed versions of the document.
 
  For example, if you want the user to enter a date in a section of your document, you can add a date picker content control to the document. When users click the control, the standard date picker UI appears. You can also set properties of the control to set the regional calendar that is displayed and to specify the date format. After the user chooses a date, the UI of the control is hidden, and only the date appears if the user prints the document.
@@ -64,7 +62,7 @@ ms.workload:
 
 - Prevent users from editing or deleting parts of a document. This is useful if you have information in a document or template that users should be able to read but not edit, or if you want users to be able to edit content controls but not delete them.
 
-- Bind parts of a document or template to data. You can bind content controls to database fields, managed objects in the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)], XML elements that are stored in the document, and other data sources.
+- Bind parts of a document or template to data. You can bind content controls to database fields, managed objects in the .NET Framework, XML elements that are stored in the document, and other data sources.
 
   In document-level projects, you can add content controls to your document at design time or at run time. In VSTO Add-in projects, you can add content controls to any open document at run time. For more information, see [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md).
 
@@ -80,7 +78,7 @@ ms.workload:
 ### Check box
  A check box provides a UI that represents a binary state: selected or cleared.
 
- Unlike the other types of content controls, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] does not provide a specific type that represents a check box content control. In other words, there is no `CheckBoxContentControl` type. However, you can still create a check box content control by adding a generic <xref:Microsoft.Office.Tools.Word.ContentControl> to a document programmatically. For more information, see [Check box content controls in Word projects](#checkbox).
+ Unlike the other types of content controls, the  Visual Studio Tools for Office runtime  does not provide a specific type that represents a check box content control. In other words, there is no `CheckBoxContentControl` type. However, you can still create a check box content control by adding a generic <xref:Microsoft.Office.Tools.Word.ContentControl> to a document programmatically. For more information, see [Check box content controls in Word projects](#checkbox).
 
 ### Combo box
  A combo box displays a list of items that users can select. Unlike a drop-down list, the combo box enables users to add their own items. For more information, see the <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl> type.
@@ -152,7 +150,7 @@ ms.workload:
 ### Use the Windows Forms data binding model
  Most content controls support the simple data binding model that Windows Forms uses. Simple data binding means that a control is bound to a single data element, such as a value in a column of a data table. For more information, see [Data binding and Windows Forms](/dotnet/framework/winforms/data-binding-and-windows-forms).
 
- In document-level projects, you can bind data to content controls by using the **Data Sources** window in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information about how to add data-bound content controls to documents, see [How to: Populate documents with data from a database](../vsto/how-to-populate-documents-with-data-from-a-database.md) and [How to: Populate documents with data from objects](../vsto/how-to-populate-documents-with-data-from-objects.md).
+ In document-level projects, you can bind data to content controls by using the **Data Sources** window in Visual Studio. For more information about how to add data-bound content controls to documents, see [How to: Populate documents with data from a database](../vsto/how-to-populate-documents-with-data-from-a-database.md) and [How to: Populate documents with data from objects](../vsto/how-to-populate-documents-with-data-from-objects.md).
 
  The following table lists the content controls that you can bind to each data type in the **Data Sources** window.
 
@@ -174,13 +172,16 @@ ms.workload:
 
  To bind a content control to an element in a custom XML part, use the **XMLMapping** property of the control. The following code example demonstrates how to bind a <xref:Microsoft.Office.Tools.Word.PlainTextContentControl> to the `Price` element under the `Product` node in a custom XML part that has already been added to the document.
 
-```vb
-plainTextContentControl1.XMLMapping.SetMapping("/Product/Price")
-```
-
+### [C#](#tab/csharp)
 ```csharp
 plainTextContentControl1.XMLMapping.SetMapping("/Product/Price", String.Empty, null);
 ```
+
+### [VB](#tab/vb)
+```vb
+plainTextContentControl1.XMLMapping.SetMapping("/Product/Price")
+```
+---
 
  For a walkthrough that demonstrates how to bind content controls to custom XML parts in more detail, see [Walkthrough: Bind content controls to custom XML parts](../vsto/walkthrough-binding-content-controls-to-custom-xml-parts.md).
 
@@ -212,13 +213,13 @@ plainTextContentControl1.XMLMapping.SetMapping("/Product/Price", String.Empty, n
  When you use content controls in your Office projects, be aware of the following limitations.
 
 ### Behavior differences between design time and runtime
- Many of the limitations that Microsoft Office Word imposes on content controls at run time are not enforced at design time. When you design the UI of a document-level solution in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], be sure to modify content controls only in ways that are supported at run time.
+ Many of the limitations that Microsoft Office Word imposes on content controls at run time are not enforced at design time. When you design the UI of a document-level solution in Visual Studio, be sure to modify content controls only in ways that are supported at run time.
 
- If you modify a content control at design time in a way that the control does not support at run time, the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer will not alert you of the unsupported changes. However, when you debug or run the project, or if you save and then reopen the project, Word will display an error message and request permission to repair the document. When you repair the document, Word removes all unsupported content and formatting from the control.
+ If you modify a content control at design time in a way that the control does not support at run time, the Visual Studio designer will not alert you of the unsupported changes. However, when you debug or run the project, or if you save and then reopen the project, Word will display an error message and request permission to repair the document. When you repair the document, Word removes all unsupported content and formatting from the control.
 
  For example, Word does not prevent you from adding a table to a <xref:Microsoft.Office.Tools.Word.PlainTextContentControl> at design time. However, because <xref:Microsoft.Office.Tools.Word.PlainTextContentControl> objects cannot contain tables at run time, Word will display an error message when the document is opened.
 
- Also note that many properties that define the behavior of content controls have no effect at design time. For example, if you set the **LockContents** property of a content control to **True** at design time, you can still edit text in the control in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer. This property only prevents users from editing the control at run time.
+ Also note that many properties that define the behavior of content controls have no effect at design time. For example, if you set the **LockContents** property of a content control to **True** at design time, you can still edit text in the control in the Visual Studio designer. This property only prevents users from editing the control at run time.
 
 ### Event limitations
  Content controls do not provide an event that is raised when the user changes text or other items in the control. For example, there is no event that is raised when a user selects a different item in a <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> or <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl>.
@@ -226,12 +227,16 @@ plainTextContentControl1.XMLMapping.SetMapping("/Product/Price", String.Empty, n
  To determine when a user edits the contents of a content control, you can bind the control to a custom XML part, and then handle the <xref:Microsoft.Office.Tools.Word.ContentControlBase.StoreUpdating> event. This event is raised when the user changes the contents of a control that is bound to a custom XML part. For a walkthrough that demonstrates how to bind a content control to a custom XML part, see [Walkthrough: Bind content controls to custom XML parts](../vsto/walkthrough-binding-content-controls-to-custom-xml-parts.md).
 
 ### <a name="checkbox"></a> Check box content controls in Word projects
- Word 2010 introduced a new type of content control that represents a check box. However, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] does not provide a corresponding CheckBoxContentControl type for you to use in Office projects. To create a check box content control in a [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or Word 2010 project, use the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddContentControl%2A> method to create a <xref:Microsoft.Office.Tools.Word.ContentControl> object, and pass the <xref:Microsoft.Office.Interop.Word.WdContentControlType.wdContentControlCheckBox> value to the method to specify a check box content control. The following code example demonstrates how to do this.
+ Word 2010 introduced a new type of content control that represents a check box. However, the  Visual Studio Tools for Office runtime  does not provide a corresponding CheckBoxContentControl type for you to use in Office projects. To create a check box content control in a  Word 2013  or Word 2010 project, use the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddContentControl%2A> method to create a <xref:Microsoft.Office.Tools.Word.ContentControl> object, and pass the <xref:Microsoft.Office.Interop.Word.WdContentControlType.wdContentControlCheckBox> value to the method to specify a check box content control. The following code example demonstrates how to do this.
 
- :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_contentcontrolreference/checkbox.vb" id="Snippet800":::
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_wordcontentcontrolreference/checkbox.cs" id="Snippet800":::
 
-## See also
+ ### [VB](#tab/vb)
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_contentcontrolreference/checkbox.vb" id="Snippet800":::
+ ---
+
+## Related content
 - [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
 - [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)
 - [Walkthrough: Create a template by using content controls](../vsto/walkthrough-creating-a-template-by-using-content-controls.md)

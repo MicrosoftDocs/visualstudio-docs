@@ -1,19 +1,15 @@
 ---
 title: Browse and Select a .NET Type dialog box
 description: Learn how you can use the Browse and Select a .NET Type dialog box to choose a type from a tree view of assemblies and projects in Workflow Designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
 - TypeBrowser.UI
 - ActivityTypeResolver.UI
-ms.assetid: 864b60b6-a070-4e5c-aa5b-a25341b57ea6
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-workflow-designer
-ms.workload:
-- dotnet
+author: jodavis
+ms.author: jodavis
+manager: mijacobs
+ms.subservice: workflow-designer
 ---
 # Browse and Select a .NET Type Dialog Box
 
@@ -70,6 +66,6 @@ For example:
 
 When selecting a service contract type, the type browser only shows types that have the <xref:System.ServiceModel.ServiceContractAttribute> attribute.
 
-## See also
+## Related content
 
 - [Using the Activity Designers](control-flow-activity-designers.md)

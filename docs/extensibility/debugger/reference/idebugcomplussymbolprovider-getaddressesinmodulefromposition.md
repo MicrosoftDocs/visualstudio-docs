@@ -2,39 +2,26 @@
 description: "Maps a document position in the specified module to an array of debug addresses."
 title: IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition
 titleSuffix: ""
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - GetAddressesInModuleFromPosition
 - IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition
-ms.assetid: f901c66e-f53c-4ea0-8004-d8fcbf46f916
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition
+
 Maps a document position in the specified module to an array of debug addresses.
 
 ## Syntax
 
-```cpp
-HRESULT GetAddressesInModuleFromPosition(
-   ULONG32                  ulAppDomainID,
-   GUID                     guidModule,
-   IDebugDocumentPosition2* pDocPos,
-   BOOL                     fStatmentOnly,
-   IEnumDebugAddresses**    ppEnumBegAddresses,
-   IEnumDebugAddresses**    ppEnumEndAddresses
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAddressesInModuleFromPosition(
    uint                    ulAppDomainID,
@@ -45,6 +32,18 @@ int GetAddressesInModuleFromPosition(
    out IEnumDebugAddresses ppEnumEndAddresses
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAddressesInModuleFromPosition(
+   ULONG32                  ulAppDomainID,
+   GUID                     guidModule,
+   IDebugDocumentPosition2* pDocPos,
+   BOOL                     fStatmentOnly,
+   IEnumDebugAddresses**    ppEnumBegAddresses,
+   IEnumDebugAddresses**    ppEnumEndAddresses
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

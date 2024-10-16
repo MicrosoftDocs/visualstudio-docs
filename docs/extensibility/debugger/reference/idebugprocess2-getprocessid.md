@@ -1,39 +1,39 @@
 ---
 description: "Gets the GUID for this process."
-title: IDebugProcess2::GetProcessId | Microsoft Docs
+title: IDebugProcess2::GetProcessId
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcess2::GetProcessId
 helpviewer_keywords:
 - IDebugProcess2::GetProcessId
-ms.assetid: d5b6f03c-d49d-4b83-b072-016ac3124f5f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProcess2::GetProcessId
+
 Gets the GUID for this process.
 
 ## Syntax
 
-```cpp
-HRESULT GetProcessId(
-   GUID* pguidProcessId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProcessId(
    out Guid pguidProcessId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProcessId(
+   GUID* pguidProcessId
+);
+```
+---
 
 ## Parameters
 `pguidProcessId`\

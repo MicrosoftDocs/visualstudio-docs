@@ -1,21 +1,18 @@
 ---
-title: Displaying Locals | Microsoft Docs
+title: Displaying Locals
 description: Learn about the list of local variables and arguments, collectively called the locals of the method, which are displayed when execution pauses.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation, displaying locals
-ms.assetid: 62264cec-845b-4233-aed7-0b038fa79250
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Display locals
+
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
@@ -29,12 +26,10 @@ ms.workload:
 > The **QuickWatch** and **Watch** windows also display variables with the same format of name, value, and type. However, those values are obtained by calling [GetPropertyInfo](../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) instead of `IDebugProperty2::EnumChildren`.
 
 ## In this section
- [Sample implementation of locals](../../extensibility/debugger/sample-implementation-of-locals.md)
- Uses examples to step through the process of implementing locals.
 
-## Related sections
- [Evaluation context](../../extensibility/debugger/evaluation-context.md)
- Explains that when the debug engine (DE) calls the expression evaluator (EE), it passes three arguments.
+[Sample implementation of locals](../../extensibility/debugger/sample-implementation-of-locals.md) uses examples to step through the process of implementing locals.
 
-## See also
- [Write a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
+## Related content
+- [Evaluation context](../../extensibility/debugger/evaluation-context.md) explains that when the debug engine (DE) calls the expression evaluator (EE), it passes three arguments.
+
+- [Write a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)

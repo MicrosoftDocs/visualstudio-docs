@@ -1,14 +1,11 @@
 ---
-title: "Workspace build in Visual Studio | Microsoft Docs"
+title: "Workspace build in Visual Studio"
 description: Learn about the extender that supplies indexed and file context data for a workspace to support an Open Folder scenario.
-ms.custom: SEO-VS-2020
 ms.date: "02/21/2018"
 ms.topic: "conceptual"
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
-ms.workload:
-  - "vssdk"
 ---
 # Workspace build
 
@@ -100,6 +97,6 @@ Alternatively, extensions can directly interact with the **Error List** or **Bui
 
 For information on authoring a tasks.vs.json or launch.vs.json file, see [Customize build and debug tasks](../ide/customize-build-and-debug-tasks-in-visual-studio.md).
 
-## Next steps
+## Related content
 
 * [Language Server Protocol](language-server-protocol.md) - Learn how to integrate language servers into Visual Studio.

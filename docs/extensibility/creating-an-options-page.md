@@ -1,18 +1,14 @@
 ---
-title: Creating an Options Page | Microsoft Docs
+title: Creating an Options Page
 description: Learn how to create a simple Tools/Options page that uses a property grid to examine and set properties.
-ms.custom: SEO-VS-2020
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
 - Tools Options pages [Visual Studio SDK], creating
-ms.assetid: 9f4e210c-4b47-4daa-91fa-1c301c4587f9
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Create an options page
 
@@ -22,17 +18,13 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
 
  The MPF provides two classes to help you create Tools Options pages, the <xref:Microsoft.VisualStudio.Shell.Package> class and the <xref:Microsoft.VisualStudio.Shell.DialogPage> class. You create a VSPackage to provide a container for these pages by subclassing the `Package` class. You create each tools options page by deriving from the `DialogPage` class.
 
-## Prerequisites
-
- Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
-
 ## Create a Tools Options grid page
 
  In this section, you create a simple Tools Options property grid. You use this grid to display and change the value of a property.
 
 ### To create the VSIX project and add a VSPackage
 
-1. Every Visual Studio extension starts with a VSIX deployment project, which will contain the extension assets. Create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] VSIX project named `MyToolsOptionsExtension`. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".
+1. Every Visual Studio extension starts with a VSIX deployment project, which will contain the extension assets. Create a Visual Studio VSIX project named `MyToolsOptionsExtension`. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".
 
 2. Add a VSPackage by adding a Visual Studio Package item template named `MyToolsOptionsPackage`. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. In the **Add New Item dialog**, go to **Visual C# Items** > **Extensibility** and select **Visual Studio Package**. In the **Name** field at the bottom of the dialog, change the file name to `MyToolsOptionsPackage.cs`. For more information about how to create a VSPackage, see [Create an extension with a VSPackage](../extensibility/creating-an-extension-with-a-vspackage.md).
 
@@ -263,6 +255,29 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
 
      A message box displays the current value of `OptionInteger`.
 
-## See also
+## Open options page
+
+In this section, you'll add a Command and an event for the button to open the options page
+
+1. First add a file called OpenPageCommand.cs. 
+
+3. Then, open *OpenPageCommand.cs* and change your Execute method.
+
+     ```csharp
+     private void Execute(object sender, EventArgs e)
+     {
+         ThreadHelper.ThrowIfNotOnUIThread();
+         Type optionsPageType = typeof(OptionPageCustom);
+         Instance.package.ShowOptionPage(optionsPageType);
+     }
+    ```
+
+3. Run the project, then click the Invoke button (it is under the Tool option by default), then you can see your options page is opened.
+
+5. More details about opening options page can refer to the following documents
+
+- [Opening an Options Page](/previous-versions/cc826083(v=vs.140))
+
+## Related content
 
 - [Options and options pages](../extensibility/internals/options-and-options-pages.md)

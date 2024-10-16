@@ -1,15 +1,12 @@
 ---
 title: Multiple DSLs in One Solution
 description: Learn how you can package several domain-specific languages (DSLs) as part of a single solution so that they are installed together.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Multiple DSLs in One Solution
 
@@ -51,7 +48,7 @@ You can use several techniques to integrate multiple DSLs. For more information,
 
    The resulting VSIX will install both DSLs. You can test them by using F5, or deploy _YourVsixProject_**\bin\Debug\\\*.vsix**.
 
-## See also
+## Related content
 
 - [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md)
 - [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)

@@ -1,7 +1,6 @@
 ---
-title: "Test Explorer FAQ"
-description: Refer to these frequently asked questions about Visual Studio Test Explorer, which include some common troubleshooting.
-ms.custom: SEO-VS-2020
+title: Review Test Explorer FAQ issues and answers
+description: Review frequently asked questions (FAQs) about Visual Studio Test Explorer, which include some common troubleshooting scenarios.
 ms.date: 06/25/2020
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,12 +10,10 @@ helpviewer_keywords:
   - "summary line"
   - "unit tests"
   - "Test Explorer FAQ"
-ms.author: "kehavens"
-ms.workload:
-  - "multiple"
-author: kendrahavens
-manager: jmartens
-ms.technology: vs-ide-test
+ms.author: mikejo
+author: MikeJo5000
+manager: mijacobs
+ms.subservice: test-tools
 ---
 # Visual Studio Test Explorer FAQ
 
@@ -24,12 +21,8 @@ ms.technology: vs-ide-test
 
 **Test Explorer is not discovering my tests that are dynamically defined. (For example, theories, custom adapters, custom traits, #ifdefs, etc.) How can I discover these tests?**
 
-::: moniker range=">=vs-2019"
 Build your project to run assembly-based discovery.
-::: moniker-end
-::: moniker range="vs-2017"
-Build your project and make sure assembly-based discovery is turned on in **Tools** > **Options** > **Test**.
-::: moniker-end
+
 [Real-time test discovery](https://devblogs.microsoft.com/dotnet/real-time-test-discovery/) is source-based test discovery. It can’t discover tests that use theories, custom adapters, custom traits, `#ifdef` statements, and more because they're defined at run time. A build is required for those tests to be accurately found. In Visual Studio 2017 version 15.6 and later, assembly-based discovery (the traditional discoverer) runs only after builds. This setting means real-time test discovery finds as many tests as it can while you're editing, and assembly-based discovery allows dynamically defined tests to appear after a build. Real-time test discovery improves responsiveness, but still allows you to get complete and precise results after a build.
 
 ## Test Explorer '+' (plus) symbol
@@ -39,16 +32,6 @@ Build your project and make sure assembly-based discovery is turned on in **Tool
 The '+' (plus) symbol indicates that more tests may be discovered after a build when assembly-based discovery runs. This symbol appears if dynamically defined tests are detected in your project.
 
 ![Plus symbol summary line](media/testex-plussymbol.png)
-
-::: moniker range="vs-2017"
-## Assembly-based discovery
-
-**Assembly-based discovery is no longer working for my project. How do I turn it back on?**
-
-Go to **Tools** > **Options** > **Test** and check the box for **Additionally discover tests from built assemblies after builds.**
-
-![Assembly-based option](media/testex-toolsoptions.png)
-::: moniker-end
 
 ## Real-time test discovery
 
@@ -86,7 +69,7 @@ The hierarchy view sorts tests alphabetically as opposed to by outcome. Previous
 
 The icons next to the Project, Namespace, and Class groupings show the state of the tests within that grouping. See the following table.
 
-![Test Explorer Hierarchy Icons](media/testex-hierarchyicons.png)
+![Test Explorer Hierarchy Icons](media/testex-hierarchy-icons.png)
 
 ## Search by file path
 
@@ -110,13 +93,6 @@ All test projects must include their .NET test adapter NuGet reference in their 
 
 Instead of using test adapter extensions, projects are required to use test adapter NuGet packages. This requirement greatly improves performance and causes fewer issues with continuous integration. Read more about .NET Test Adapter Extension deprecation in the [release notes](/visualstudio/releasenotes/vs2017-relnotes-v15.8#testadapterextension).
 
-::: moniker range="vs-2017"
-> [!NOTE]
-> If you are using the NUnit 2 Test Adapter and are unable to migrate to the NUnit 3 test adapter, you can turn off this new discovery behavior in Visual Studio version 15.8 in **Tools** > **Options** > **Test**.
-
-![Test Explorer Adapter behavior in tools options](media/testex-adapterbehavior.png)
-::: moniker-end
-
 ## UWP TestContainer was not found
 
 **My UWP tests are no longer being executed in Visual Studio 2017 version 15.7 and later.**
@@ -138,30 +114,12 @@ To fix this error:
 ```XML
 <SDKReference Include="TestPlatform.Universal, Version=$(UnitTestPlatformVersion)" />
 ```
-::: moniker range=">=vs-2019"
+
 ## Using preview features
 
 In Visual Studio 2019, you can opt into preview features in **Tools > Options > Environment > Preview Features**.
-::: moniker-end
-::: moniker range=">=vs-2017"
-## Using feature flags
 
-**How can I turn on feature flags to try out new testing features?**
-
-Feature flags are used to ship experimental or unfinished parts of the product to avid users who would like to give feedback before the features ship officially. They may destabilize your IDE experience. Use them only in safe development environments, such as virtual machines. Feature flags are always use-at-your-own-risk settings. You can turn on experimental features with the [feature flags extension](https://marketplace.visualstudio.com/items?itemName=PaulHarrington.FeatureFlagsExtension), or through the developer command prompt.
-
-![Feature Flag Extension](media/testex-featureflag.png)
-
-To turn on a feature flag through the Visual Studio developer command prompt, use the following command. Change the path to where Visual Studio is installed on your machine, and change the registry key to the feature flag that you want.
-
-```shell
-vsregedit set “C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise" HKLM FeatureFlags\TestingTools\UnitTesting\HierarchyView Value dword 1
-```
-
-> [!NOTE]
-> You can turn off the flag with the same command, by using a value of 0 instead of 1 after dword.
-::: moniker-end
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting?displayProperty=fullName>
 - [Create and run unit tests for existing code](/previous-versions/dd293546(v=vs.110))

@@ -3,17 +3,18 @@ description: "Gets information about the apps for Office that are to be automati
 title: "GetAutoInsertExtensions method"
 ms.date: "02/02/2017"
 ms.topic: "reference"
+f1_keywords:
+  - GetAutoInsertExtensions
 dev_langs:
   - "VB"
   - "CSharp"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # GetAutoInsertExtensions method
+
   Gets information about the apps for Office that are to be automatically inserted during debugging.
 
  This method is reserved for future use.

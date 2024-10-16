@@ -1,18 +1,15 @@
 ---
 title: Options, Text Editor, C/C++, View
 description: Learn how to use the View page in the C/C++ section to change the default behavior of Code Squiggles, Inactive Code, Outlining, and more within Visual Studio.
-ms.custom: SEO-VS-2020
-ms.date: 10/29/2018
+ms.date: 10/08/2021
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.View"
   - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.View"
   - "VS.ToolsOptionsPages.Text_Editor.C\\C++.View"
-author: corob-msft
-ms.author: corob
+author: tylermsft
+ms.author: twhitney
 manager: markl
-ms.workload:
-  - "cplusplus"
 ---
 # Options, Text Editor, C/C++, View
 
@@ -36,11 +33,21 @@ You can enable or disable the following settings to manage the way in which text
 
 - **Inactive Code Opacity Percent** - The percentage of opacity for inactive code blocks.
 
+## IntelliSense Error Fix Suggestions
+
+- **Enable IntelliSense Error Fix Suggestions** - Enable suggested fixes for IntelliSense errors.
+
+- **Max IntelliSense Error Fix Suggestions Threads** - The maximum number of concurrent threads to use for looking up IntelliSense error fix suggestions.
+
+- **Max IntelliSense Error Fix Errors** - The maximum number of IntelliSense errors to lookup fixes for.
+
 ## Miscellaneous
 
 - **Enumerate Comment Tasks** - Scan open source files for VS tokens and report them in the Task List window.
 
 - **Highlight Matching Tokens** - Highlight enclosing braces or syntax that match where the cursor is positioned.
+
+- **Color Scheme** - Various default color schemes for the C/C++ specific customizable colors.
 
 ## Outlining
 

@@ -1,0 +1,25 @@
+- name: What is Help Viewer?
+  href: overview.md
+- name: Install and customize Help Viewer 
+  items:
+  - name: Install Help Viewer during set up
+    href: installation.md
+  - name: Customize the Help Viewer
+    href: customize.md
+- name: Use Help Viewer to install help content
+  items:
+  - name: Install content locally
+    displayName: Offline books docs
+    href: install-manage-local-content.md
+  - name: Deploy local help content (network environments)
+    href: administrator-guide.md
+  - name: Command-line arguments for Help Content Manager
+    href: command-line-arguments.md
+  - name: Override Help Content Manager defaults
+    href: behavior-overrides.md
+- name: Find articles
+  href: find-topics.md
+- name: Accessibility
+  href: accessibility-features.md
+- name: Shortcut Keys
+  href: shortcut-keys.md

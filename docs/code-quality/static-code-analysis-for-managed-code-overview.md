@@ -2,21 +2,19 @@
 title: Legacy analysis for managed code
 ms.date: 06/12/2019
 description: Learn about legacy analysis in Visual Studio. See how to suppress warnings and how to run analyses manually, automatically, and during check-ins and builds.
-ms.custom: SEO-VS-2020
 ms.topic: conceptual
 helpviewer_keywords:
   - "code analysis, managed code"
   - "managed code, code analysis"
 author: mikadumont
 ms.author: midumont
-manager: jmartens
-ms.technology: vs-ide-code-analysis
-ms.workload:
-  - "dotnet"
+manager: mijacobs
+ms.subservice: code-analysis
 ---
+
 # Overview of legacy analysis for managed code in Visual Studio
 
-Visual Studio can perform code analysis of managed code in two ways: with [legacy analysis](../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md), also known as FxCop static analysis of managed assemblies, and with the more modern .NET Compiler Platform-based [code analyzers](../code-quality/roslyn-analyzers-overview.md). This topic covers legacy analysis. To learn more about .NET Compiler Platform-based code analysis, see [Overview of .NET Compiler Platform-based analyzers](../code-quality/roslyn-analyzers-overview.md).
+Visual Studio can perform code analysis of managed code in two ways: with [legacy analysis](/previous-versions/visualstudio/visual-studio-2019/code-quality/walkthrough-analyzing-managed-code-for-code-defects), also known as FxCop static analysis of managed assemblies, and with the more modern .NET Compiler Platform-based [code analyzers](../code-quality/roslyn-analyzers-overview.md). This topic covers legacy analysis. To learn more about .NET Compiler Platform-based code analysis, see [Overview of .NET Compiler Platform-based analyzers](../code-quality/roslyn-analyzers-overview.md).
 
 Code analysis for managed code analyzes managed assemblies and reports information about the assemblies, such as violations of the programming and design rules set forth in the [.NET Design Guidelines](/dotnet/standard/design-guidelines/).
 
@@ -35,7 +33,7 @@ To run code analysis manually on a project, from the menu bar choose **Analyze**
 
 ## Rule sets
 
-Code analysis rules for managed code are grouped into [rule sets](../code-quality/using-rule-sets-to-group-code-analysis-rules.md). You can use one of the Microsoft standard rule sets, or you can [create a custom rule set](../code-quality/how-to-create-a-custom-rule-set.md) to fulfill a specific need.
+Code analysis rules for managed code are grouped into [rule sets](/previous-versions/visualstudio/visual-studio-2019/code-quality/using-rule-sets-to-group-code-analysis-rules). You can use one of the Microsoft standard rule sets, or you can [create a custom rule set](/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-create-a-custom-rule-set) to fulfill a specific need.
 
 ## Suppress warnings
 
@@ -53,21 +51,8 @@ Public class MyClass
 
 For more information, see [Suppress warnings](../code-quality/in-source-suppression-overview.md).
 
-::: moniker range="vs-2017"
-
-> [!NOTE]
-> If you migrate a project to Visual Studio 2017, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings, you can suppress all of them by choosing **Analyze** > **Run Code Analysis and Suppress Active Issues**.
->
-> ![Run code analysis and suppress issues in Visual Studio](media/suppress-active-issues.png)
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 > [!NOTE]
 > If you migrate a project to Visual Studio 2019, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings, you can suppress all of them by choosing **Analyze** > **Build and Suppress Active Issues**.
-
-::: moniker-end
 
 ## Run code analysis as part of check-in policy
 
@@ -77,14 +62,14 @@ As an organization, you might want to require that all check-ins satisfy certain
 
 - Code analysis is run as part of the most recent build.
 
-You can accomplish this by specifying check-in policies. For more information, see [Enhancing Code Quality with Project Check-in Policies](../code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies.md).
+You can accomplish this by specifying check-in policies. For more information, see [Enhancing Code Quality with Project Check-in Policies](/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies).
 
 ## Team build integration
 
 You can use the integrated features of the build system to run the analysis tool as part of the build process. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts&preserve-view=true).
 
-## See also
+## Related content
 
 - [Overview of .NET Compiler Platform-based analyzers](../code-quality/roslyn-analyzers-overview.md)
-- [Using Rule Sets to Group Code Analysis Rules](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)
+- [Using Rule Sets to Group Code Analysis Rules](/previous-versions/visualstudio/visual-studio-2019/code-quality/using-rule-sets-to-group-code-analysis-rules)
 - [How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)

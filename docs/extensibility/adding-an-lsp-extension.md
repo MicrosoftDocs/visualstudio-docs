@@ -1,22 +1,20 @@
 ---
-title: Adding a Language Server Protocol extension | Microsoft Docs
-description: Learn how to create a Visual Studio extension that integrates a language server based on the Language Server Protocol (LSP).
-ms.custom: SEO-VS-2020
+title: Adding a Language Server Protocol extension
+description: Create a Visual Studio extension to integrate a language server using the Language Server Protocol (LSP) with advanced options like diagnostics and custom messages.
 ms.date: 07/05/2021
 ms.topic: conceptual
-ms.assetid: 52f12785-1c51-4c2c-8228-c8e10316cd83
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Add a Language Server Protocol extension
 
 The Language Server Protocol (LSP) is a common protocol, in the form of JSON RPC v2.0, used to provide language service features to various code editors. Using the protocol, developers can write a single language server to provide language service features like IntelliSense, error diagnostics, find all references, and so on, to various code editors that support the LSP. Traditionally, language services in Visual Studio can be added by using TextMate grammar files to provide basic functionalities such as syntax highlighting or by writing custom language services that use the full set of Visual Studio extensibility APIs to provide richer data. With Visual Studio support for LSP, there's a third option.
 
 ![language server protocol service in Visual Studio](media/lsp-service-in-VS.png)
+
+To ensure the best possible user experience, consider also implementing [Language Configuration](language-configuration.md), which provides local processing of many of the same operations, and can therefore improve the performance of many of the language-specific editor operations supported by the LSP.
 
 ## Language Server Protocol
 
@@ -370,113 +368,6 @@ When tracing is turned on the content is written to a file in the *%temp%\Visual
 
 ### Custom messages
 
-::: moniker range="vs-2017"
-
-There are APIs in place to facilitate passing messages to and receiving messages from the language server that are not part of the standard Language Server Protocol. To handle custom messages, implement [ILanguageClientCustomMessage](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage?view=visualstudiosdk-2017&preserve-view=true) interface in your language client class. [VS-StreamJsonRpc](https://github.com/Microsoft/vs-streamjsonrpc/blob/master/doc/index.md) library is used to transmit custom messages between your language client and language server. Since your LSP language client extension is just like any other Visual Studio extension, you can decide to add additional features (that are not supported by the LSP) to Visual Studio (using other Visual Studio APIs) in your extension through custom messages.
-
-#### Receive custom messages
-
-To receive custom messages from the language server, implement the [CustomMessageTarget](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage.custommessagetarget?view=visualstudiosdk-2017&preserve-view=true) property on [ILanguageClientCustomMessage](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage?view=visualstudiosdk-2017&preserve-view=true) and return an object that knows how to handle your custom messages. Example below:
-
-```csharp
-internal class MockCustomLanguageClient : MockLanguageClient, ILanguageClientCustomMessage
-{
-    private JsonRpc customMessageRpc;
-
-    public MockCustomLanguageClient() : base()
-    {
-        CustomMessageTarget = new CustomTarget();
-    }
-
-    public object CustomMessageTarget
-    {
-        get;
-        set;
-    }
-
-    public class CustomTarget
-    {
-        public void OnCustomNotification(JToken arg)
-        {
-            // Provide logic on what happens OnCustomNotification is called from the language server
-        }
-
-        public string OnCustomRequest(string test)
-        {
-            // Provide logic on what happens OnCustomRequest is called from the language server
-        }
-    }
-}
-```
-
-#### Send custom messages
-
-To send custom messages to the language server, implement the [AttachForCustomMessageAsync](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage.attachforcustommessageasync?view=visualstudiosdk-2017&preserve-view=true) method on [ILanguageClientCustomMessage](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage?view=visualstudiosdk-2017&preserve-view=true). This method is invoked when your language server is started and ready to receive messages. A [JsonRpc](https://github.com/Microsoft/vs-streamjsonrpc/blob/master/src/StreamJsonRpc/JsonRpc.cs) object is passed as a parameter, which you can then keep to send messages to the language server using [VS-StreamJsonRpc](https://github.com/Microsoft/vs-streamjsonrpc/blob/master/doc/index.md) APIs. Example below:
-
-```csharp
-internal class MockCustomLanguageClient : MockLanguageClient, ILanguageClientCustomMessage
-{
-    private JsonRpc customMessageRpc;
-
-    public MockCustomLanguageClient() : base()
-    {
-        CustomMessageTarget = new CustomTarget();
-    }
-
-    public async Task AttachForCustomMessageAsync(JsonRpc rpc)
-    {
-        await Task.Yield();
-
-        this.customMessageRpc = rpc;
-    }
-
-    public async Task SendServerCustomNotification(object arg)
-    {
-        await this.customMessageRpc.NotifyWithParameterObjectAsync("OnCustomNotification", arg);
-    }
-
-    public async Task<string> SendServerCustomMessage(string test)
-    {
-        return await this.customMessageRpc.InvokeAsync<string>("OnCustomRequest", test);
-    }
-}
-```
-
-### Middle layer
-
-Sometimes an extension developer may want to intercept LSP messages sent to and received from the language server. For example, an extension developer may want to alter the message parameter sent for a particular LSP message, or modify the results returned from the language server for an LSP feature (for example  completions). When this is necessary, extension developers can use the MiddleLayer API to intercept LSP messages.
-
-Each LSP message has its own middle layer interface for interception. To intercept a particular message, create a class that implements the middle layer interface for that message. Then, implement the [ILanguageClientCustomMessage](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage?view=visualstudiosdk-2017&preserve-view=true) interface in your language client class and return an instance of your object in the [MiddleLayer](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage.middlelayer?view=visualstudiosdk-2017&preserve-view=true) property. Example below:
-
-```csharp
-public class MockLanguageClient: ILanguageClient, ILanguageClientCustomMessage
-{
-    public object MiddleLayer => MiddleLayerProvider.Instance;
-
-    private class MiddleLayerProvider : ILanguageClientWorkspaceSymbolProvider
-    {
-        internal readonly static MiddleLayerProvider Instance = new MiddleLayerProvider();
-
-        private MiddleLayerProvider()
-        {
-        }
-
-        public async Task<SymbolInformation[]> RequestWorkspaceSymbols(WorkspaceSymbolParams param, Func<WorkspaceSymbolParams, Task<SymbolInformation[]>> sendRequest)
-        {
-            // Send along the request as given
-            SymbolInformation[] symbols = await sendRequest(param);
-
-            // Only return symbols that are "files"
-            return symbols.Where(sym => string.Equals(new Uri(sym.Location.Uri).Scheme, "file", StringComparison.OrdinalIgnoreCase)).ToArray();
-        }
-    }
-}
-```
-
-::: moniker-end
-
-::: moniker range="vs-2019"
-
 There are APIs in place to facilitate passing messages to and receiving messages from the language server that are not part of the standard Language Server Protocol. To handle custom messages, implement [ILanguageClientCustomMessage2](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage2) interface in your language client class. [VS-StreamJsonRpc](https://github.com/Microsoft/vs-streamjsonrpc/blob/master/doc/index.md) library is used to transmit custom messages between your language client and language server. Since your LSP language client extension is just like any other Visual Studio extension, you can decide to add additional features (that are not supported by the LSP) to Visual Studio (using other Visual Studio APIs) in your extension through custom messages.
 
 #### Receive custom messages
@@ -591,8 +482,6 @@ public class MockLanguageClient : ILanguageClient, ILanguageClientCustomMessage2
 }
 ```
 
-::: moniker-end
-
 The middle layer feature is still under development and not yet comprehensive.
 
 ## Sample LSP language server extension
@@ -617,6 +506,8 @@ Yes, but not all features will work properly. The ultimate goal for LSP language
 
 See the Marketplace instructions [here](walkthrough-publishing-a-visual-studio-extension.md).
 
-## See also
+## Related content
 
-- [Add Visual Studio editor support for other languages](../ide/adding-visual-studio-editor-support-for-other-languages.md)
+* [Add Visual Studio editor support for other languages](../ide/adding-visual-studio-editor-support-for-other-languages.md)
+
+* [Customizing editor behavior by using Language Configuration](language-configuration.md)

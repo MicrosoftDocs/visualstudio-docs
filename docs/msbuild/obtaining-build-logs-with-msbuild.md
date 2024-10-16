@@ -1,23 +1,19 @@
 ---
-title: Obtaining Build Logs with MSBuild | Microsoft Docs
-description: Learn to use switches with MSBuild to specify how much build data to review and whether to save build data to one or more files.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
-ms.topic: conceptual
+title: Obtaining Build Logs with MSBuild
+description: Use switches with MSBuild and specify how much build data to review and whether to save build data to one or more files.
+ms.date: 07/15/2024
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, logging
 - logging [MSBuild]
-ms.assetid: 6ba9a754-9cc0-4fed-9fc8-4dcd3926a031
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # Obtain build logs with MSBuild
 
-By using switches with MSBuild, you can specify how much build data you want to review and whether you want to save build data to one or more files. You can also specify a custom logger to collect build data. For information about MSBuild command-line switches that this topic doesn't cover, see [Command-line reference](../msbuild/msbuild-command-line-reference.md).
+By using command-line options with MSBuild, you can specify how much build data you want to review and whether you want to save build data to one or more files. You can also specify a custom logger to collect build data. For information about MSBuild command-line options that this topic doesn't cover, see [Command-line reference](../msbuild/msbuild-command-line-reference.md).
 
 > [!NOTE]
 > If you build projects by using the Visual Studio IDE, you can troubleshoot those builds by reviewing build logs. For more information, see [How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md).
@@ -79,7 +75,7 @@ msbuild MyProject.proj -t:go -fl -flp:logfile=MyProjectOutput.log;verbosity=diag
 msbuild MyProject.proj -t:go -fl1 -fl2 -fl3 -flp2:logfile=JustErrors.log;errorsonly -flp3:logfile=JustWarnings.log;warningsonly
 ```
 
- For more information, see [Command-line reference](../msbuild/msbuild-command-line-reference.md).
+If you're using a shell that interprets semicolons (for example, bash), put single or double quotes around any option that has semicolons to prevent it from being interpreted as a command separator. For more information, see [Command-line reference](../msbuild/msbuild-command-line-reference.md).
 
 ## Save a binary log
 
@@ -91,6 +87,8 @@ In the following example, a binary log file is created with the name *binarylogf
 -bl:binarylogfilename.binlog
 ```
 
+You can use the [Structured log viewer](https://msbuildlog.com/) to view binary logs in a way that makes it much easier to see what is going on.
+
 For more information, see [Command-line reference](../msbuild/msbuild-command-line-reference.md).
 
 ## Use a custom logger
@@ -99,7 +97,7 @@ For more information, see [Command-line reference](../msbuild/msbuild-command-li
 
  In the MSBuild command line, you specify the custom logger by using the **-logger** switch. You can also use the **-noconsolelogger** switch to disable the default console logger.
 
-## See also
+## Related content
 
 - <xref:Microsoft.Build.Framework.LoggerVerbosity>
 - [Build loggers](../msbuild/build-loggers.md)

@@ -1,20 +1,17 @@
 ---
-title: Description Element (Visual Studio Templates) | Microsoft Docs
+title: Description Element (Visual Studio Templates)
 description: Learn about the Description element and how it specifies the description of the template as it appears in either the New Project or Add New Item dialog box.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 helpviewer_keywords:
 - Description element [Visual Studio project templates]
-ms.assetid: 6e12be73-081f-4c7d-898f-027c307a9fe1
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
 ---
 # Description element (Visual Studio templates)
+
 Specifies the description of the template as it appears in either the **New Project** or **Add New Item** dialog box.
 
  \<VSTemplate>
@@ -61,7 +58,7 @@ Specifies the description of the template as it appears in either the **New Proj
  `Description` is a required child element of the `TemplateData` element.
 
 ## Example
- The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] application.
+ The following example shows the metadata for a project template for a Visual C# application.
 
 ```
 <VSTemplate Type="Project" Version="3.0.0"

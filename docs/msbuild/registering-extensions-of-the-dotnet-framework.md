@@ -1,20 +1,16 @@
 ---
-title: Registering Extensions of the .NET Framework | Microsoft Docs
+title: Registering Extensions of the .NET Framework
 description: Learn how to add a folder containing an assembly that extends a specific version of the .NET Framework to the system registry.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - Add References dialog box, registering extensions of the .NET Framework
 - MSBuild, registering extensions of the .NET Framework
 - .NET Framework extensions, registering
-ms.assetid: deee6f53-ea87-4b88-a120-bea589822e03
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- dotnet
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # Register extensions of the .NET Framework
 
@@ -29,6 +25,6 @@ You can develop an assembly that extends a specific version of the .NET Framewor
 
  To register a 32-bit assembly on a 64-bit computer, use the Wow6432 node, for example: **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\v4.0.21006\AssemblyFoldersEx\TreyResearch\\**.
 
-### See also
+### Related content
 
 - [Visual Studio integration](../msbuild/visual-studio-integration-msbuild.md)

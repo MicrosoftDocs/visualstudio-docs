@@ -1,17 +1,14 @@
 ---
 title: Responding to and Propagating Changes
 description: Learn that when an element is created, deleted, or updated, you can write code that propagates the change to other parts of the model, or to external resources.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, events
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Respond to and propagate changes
 
@@ -49,7 +46,7 @@ Use store events to synchronize the model with objects outside the Store, and ru
 
 - **Passing Event Arguments to Rules and Events** Both events and rules are passed an `EventArgs` parameter that has information about how the model changed.
 
-## See also
+## Related content
 
 - [How to: Intercept a Click on a Shape or Decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md)
 - [Writing Code to Customize a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)

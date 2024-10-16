@@ -1,7 +1,6 @@
 ---
 title: Architecture analysis & modeling tools
-description: Design and model your app to make sure your app meets architectural requirements.
-ms.custom: SEO-VS-2020
+description: Design and analyze your application to ensure it meets architectural requirements by using code maps, dependency diagrams, and language models.
 ms.date: 06/04/2021
 ms.topic: overview
 helpviewer_keywords:
@@ -16,10 +15,8 @@ helpviewer_keywords:
 - application modeling
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Analyze and model your architecture
 
@@ -75,8 +72,7 @@ Use domain-specific language to:
 Learn more:
 - [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)
 
-
-## <a name="VersionSupport" />Edition support for architecture and modeling tools
+## <a name="VersionSupport"></a> Edition support for architecture and modeling tools
 
 Visual Studio is available in several editions. Not all of these provide support for the architecture and modeling tools. The following table shows the availability of each tool.
 

@@ -1,21 +1,18 @@
 ---
-title: Launching a Program | Microsoft Docs
+title: Launching a Program
 description: Learn about the series of events that take place when you debug a program using F5 to run the debugger from the IDE.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debug engines, launching
 - programs, launching
-ms.assetid: 6857e9c6-e44a-468a-afa4-f7c4a0b77844
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Launch a program
+
 Users who want to debug a program can press **F5** to run the debugger from the IDE. This begins a series of events that ultimately result in the IDE's connecting to a debug engine (DE), which is in turn connected, or attached, to the program as follows:
 
 1. The IDE first calls the project package to get the solution's active project debug settings. The settings include the starting directory, the environment variables, the port in which the program will run, and the DE to use to create the program, if specified. These settings are passed to the debug package.
@@ -36,7 +33,7 @@ Users who want to debug a program can press **F5** to run the debugger from the 
 
    The newly created program, along with any other programs, related or unrelated, launched or attached to from the same IDE, compose a debug session.
 
-   Programmatically, when the user first presses **F5**, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]'s debug package calls the project package (which is associated with the type of program being launched) through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebuggableProjectCfg.DebugLaunch%2A> method, which in turn fills out a <xref:Microsoft.VisualStudio.Shell.Interop.VsDebugTargetInfo2> structure with the solution's active project debug settings. This structure is passed back to the debug package through a call to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebugger2.LaunchDebugTargets2%2A> method. The debug package then instantiates the session debug manager (SDM), which launches the program being debugged and any associated debug engines.
+   Programmatically, when the user first presses **F5**, Visual Studio's debug package calls the project package (which is associated with the type of program being launched) through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebuggableProjectCfg.DebugLaunch%2A> method, which in turn fills out a <xref:Microsoft.VisualStudio.Shell.Interop.VsDebugTargetInfo2> structure with the solution's active project debug settings. This structure is passed back to the debug package through a call to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebugger2.LaunchDebugTargets2%2A> method. The debug package then instantiates the session debug manager (SDM), which launches the program being debugged and any associated debug engines.
 
    One of the arguments passed to the SDM is the GUID of the DE to be used to launch the program.
 
@@ -47,12 +44,10 @@ Users who want to debug a program can press **F5** to run the debugger from the 
    If `GUID_NULL` is passed, then the port launches the program. Once the program is running, the run-time environment creates an `IDebugProgramNode2` interface to describe the program and passes it to `IDebugPortNotify2::AddProgramNode`. This notifies the port that the program is running. Then the SDM attaches the debug engine to the running program.
 
 ## In this section
- [Notifying the port](../../extensibility/debugger/notifying-the-port.md)
- Explains what happens after a program is launched and the port is notified.
 
- [Attaching after a launch](../../extensibility/debugger/attaching-after-a-launch.md)
- Documents when the debug session is ready to attach the DE to the program.
+[Notifying the port](../../extensibility/debugger/notifying-the-port.md) explains what happens after a program is launched and the port is notified.
 
-## Related sections
- [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)
- Contains links to various debugging tasks, such as launching a program and evaluating expressions.
+ [Attaching after a launch](../../extensibility/debugger/attaching-after-a-launch.md) documents when the debug session is ready to attach the DE to the program.
+
+## Related content
+- [Debugging tasks](../../extensibility/debugger/debugging-tasks.md) contains links to various debugging tasks, such as launching a program and evaluating expressions.

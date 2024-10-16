@@ -1,7 +1,6 @@
 ---
 title: "Deploy an Office solution by using ClickOnce"
-description: Learn how you can deploy your Office solution in fewer steps if you use ClickOnce. If you publish updates, your solution will automatically detect and install them. 
-ms.custom: SEO-VS-2020
+description: Deploy your Office solution by using ClickOnce to complete the task in fewer steps, and have your publishing solution automatically detect and install updates. 
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,12 +11,11 @@ helpviewer_keywords:
   - "ClickOnce deployment [Office development in Visual Studio], deploying solutions"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Deploy an Office solution by using ClickOnce
+
   You can deploy your Office solution in fewer steps if you use ClickOnce. If you publish updates, your solution will automatically detect and install them. However, ClickOnce requires that you install your solution separately for each user of a computer. Therefore, you should consider using Windows Installer (*.msi*) if more than one user will run your solution on the same computer.
 
 ## In this topic
@@ -75,7 +73,7 @@ ms.workload:
 
 8. In the **Choose which prerequisites to install** list, select the check boxes for **Windows Installer 4.5** and the appropriate .NET Framework package.
 
-    For example, if your solution targets the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], select the check boxes for **Windows Installer 4.5** and **Microsoft .NET Framework 4.5 Full**.
+    For example, if your solution targets the .NET Framework 4.5, select the check boxes for **Windows Installer 4.5** and **Microsoft .NET Framework 4.5 Full**.
 
 9. If your solution targets the .NET Framework 4.5, also select the **Visual Studio 2010 Tools for Office Runtime** check box.
 
@@ -213,8 +211,12 @@ ms.workload:
 
    - Deletes the file if the user uninstalls the solution.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_excelworkbookpda/filecopypda/class1.vb" id="Snippet7":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_excelworkbookpda/filecopypda/class1.cs" id="Snippet7":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_excelworkbookpda/filecopypda/class1.vb" id="Snippet7":::
+     ---
 
 ### Build and publish the solution
 
@@ -453,7 +455,7 @@ ms.workload:
 > [!NOTE]
 > Local data is saved for only one previous version of a solution. If you roll back two versions, local data isn't retained. For more information about local data, see [Access local and remote data in ClickOnce applications](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md).
 
-## See also
+## Related content
 
 - [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
 - [Publish Office solutions](../vsto/deploying-an-office-solution-by-using-clickonce.md)

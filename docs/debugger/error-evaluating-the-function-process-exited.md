@@ -1,16 +1,14 @@
 ---
 description: "Full message text: The target process exited with code 'code' while evaluating the function 'function'."
-title: "The target process exited with code &apos;code&apos; while evaluating the function &apos;function&apos; | Microsoft Docs"
+title: "The target process exited with code &apos;code&apos; while evaluating the function &apos;function&apos;"
 ms.date: "4/06/2018"
 ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.process_exit_during_func_eval"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Error: The target process exited with code &#39;code&#39; while evaluating the function &#39;function&#39;
 
@@ -31,9 +29,13 @@ The error message will tell you the name of the function that the debugger tried
 If you can modify this function, you can prevent the debugger from calling the property getter or `ToString` method. Try one of the following:
 
 * Change the method to some other type of code besides a property getter or ToString method and the problem will go away.
+
     -or-
+
 * (For `ToString`) Define a `DebuggerDisplay` attribute on the type and you can have the debugger evaluate something other than `ToString`.
+
     -or-
+
 * (For a property getter) Put the `[System.Diagnostics.DebuggerBrowsable(DebuggerBrowsableState.Never)]` attribute on the property. This can be useful if you have a method that needs to remain a property for API compatibility reasons, but it should really be a method.
 
 If you cannot modify this method, you may be able to break the target process at an alternate instruction and retry the evaluation.

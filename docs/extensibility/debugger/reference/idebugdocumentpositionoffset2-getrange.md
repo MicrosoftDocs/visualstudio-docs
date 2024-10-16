@@ -1,39 +1,39 @@
 ---
 description: "Retrieves the range for the current document position."
-title: IDebugDocumentPositionOffset2::GetRange | Microsoft Docs
+title: IDebugDocumentPositionOffset2::GetRange
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugDocumentPositionOffset2::GetRange
-ms.assetid: 27da7130-0932-4f97-abde-05e6fb018606
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugDocumentPositionOffset2::GetRange
+
 Retrieves the range for the current document position.
 
 ## Syntax
 
-```cpp
-HRESULT GetRange(
-   DWORD* pdwBegOffset,
-   DWORD* pdwEndOffset
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int GetRange(
    ref uint pdwBegOffset,
    ref uint pdwEndOffset
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetRange(
+   DWORD* pdwBegOffset,
+   DWORD* pdwEndOffset
+);
+```
+---
 
 ## Parameters
 `pdwBegOffset`\

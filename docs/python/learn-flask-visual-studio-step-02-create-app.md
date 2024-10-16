@@ -1,216 +1,354 @@
 ---
-title: Learn Flask tutorial in Visual Studio step 2, views and templates
+title: Flask in Visual Studio tutorial Step 2, views and templates
 titleSuffix: ""
-description: A walkthrough of Flask basics in the context of Visual Studio projects, specifically steps of creating an app and using views and templates.
-ms.date: 01/07/2019
+description: Step 2 of a core walkthrough of Flask capabilities in Visual Studio, including procedures to create an application with multiple views by using inline HTML templates.
+ms.date: 04/18/2024
 ms.topic: tutorial
-author: JoshuaPartlow
-ms.author: joshuapa
-manager: jmartens
-ms.technology: vs-python
-ms.custom: seodec18
-ms.workload:
-  - python
-  - data-science
+author: cwebster-99
+ms.author: cowebster
+manager: mijacobs
+ms.subservice: python
+
+# CustomerIntent: As a developer, I want to create Flask applications in Visual Studio so I can develop apps with multiple views and render views with templates.
 ---
 
-# Step 2: Create a Flask app with views and page templates
+# Tutorial: Create a Flask app with views and page templates in Visual Studio
 
-**Previous step: [Create a Visual Studio project and solution](learn-flask-visual-studio-step-01-project-solution.md)**
+This article presents Step 2 in the tutorial series *Work with the Flask web framework in Visual Studio*.
 
-What you have from step 1 of this tutorial is a Flask app with one page and all the code in a single file. To allow for future development, it's best to refactor the code and create a structure for page templates. In particular, you want to separate code for the app's views from other aspects like startup code.
+Visual Studio allows you to create Flask applications from project templates that provide a more extensive starting point for your projects. [Step 1 in the tutorial](learn-flask-visual-studio-step-01-project-solution.md) describes how to create a Flask app with one page, where all the code is in a single file. In Step 2, you refactor the code and create a structure for page templates to enable further development. In particular, you want to separate code for the application views from other aspects like startup code.
 
-In this step you now learn how to:
+In Step 2 of the tutorial, you learn how to:
 
 > [!div class="checklist"]
-> - Refactor the app's code to separate views from startup code (step 2-1)
-> - Render a view using a page template (step 2-2)
+> - Refactor application code to separate views from startup code
+> - Render a view by using a page template
 
-## Step 2-1: Refactor the project to support further development
+## Prerequisites
 
-In the code created by the "Blank Flask Web Project" template, you have a single *app.py* file that contains startup code alongside a single view. To allow for further development of an app with multiple views and templates, it's best to separate these concerns.
+- A Visual Studio solution and Flask application project created in [Step 1: Create Visual Studio solution and Flask project](learn-flask-visual-studio-step-01-project-solution.md).
 
-1. In your project folder, create an app folder called `HelloFlask` (right-click the project in **Solution Explorer** and select **Add** > **New Folder**.)
+## Refactor Flask project for further development
 
-2. In the *HelloFlask* folder, create a file named *\_\_init\_\_.py* with the following contents that creates the `Flask` instance and loads the app's views (created in the next step):
+The **Blank Flask Web Project** template lets you create a project with a single _app.py_ file that contains startup code alongside a single view. To allow further development of an app with multiple views and templates, you need to separate these functions.
 
-    ```python
-    from flask import Flask
-    app = Flask(__name__)
+Follow these steps to adjust your Flask project to allow for further development:
 
-    import HelloFlask.views
-    ```
+1. In **Solution Explorer**, right-click your Flask project folder (_BasicProject_), and select **Add** > **New Folder**. 
 
-3. In the *HelloFlask* folder, create a file named *views.py* with the following contents. The name *views.py* is important because you used `import HelloFlask.views` within *\_\_init\_\_.py*; you'll see an error at run time if the names don't match.
+   ::: moniker range="vs-2022"
 
-    ```python
-    from flask import Flask
-    from HelloFlask import app
+   :::image type="content" source="media/flask/vs-2022/step-02-add-hello-flask-folder.png" alt-text="Screenshot that shows how to add the Hello Flask folder in Visual Studio 2022." border="false" lightbox="media/flask/vs-2022/step-02-add-hello-flask-folder.png"::: 
 
-    @app.route('/')
-    @app.route('/home')
-    def home():
-        return "Hello Flask!"
-    ```
+   ::: moniker-end
 
-    In addition to renaming the function and route to `home`, this code contains the page rendering code from *app.py* and imports the `app` object that's declared in *\_\_init\_\_.py*.
+1. Name the new application folder *HelloFlask*.
 
-4. Create a subfolder in *HelloFlask* named *templates*, which remains empty for now.
+1. Right-click the *HelloFlask* folder, and select **Add** > **New Item** to create a new file.
 
-5. In the project's root folder, rename *app.py* to *runserver.py*, and make the contents match the following code:
+1. In the **Add New Item** dialog, select the **Empty Python File** file template:
 
-    ```python
-    import os
-    from HelloFlask import app    # Imports the code from HelloFlask/__init__.py
+   1. Name the file _\_\_init\_\_.py_. The file name should include two leading and two ending underscore characters (`_`) around the word _init_.
 
-    if __name__ == '__main__':
-        HOST = os.environ.get('SERVER_HOST', 'localhost')
+   1. Select **Add**.
 
-        try:
-            PORT = int(os.environ.get('SERVER_PORT', '5555'))
-        except ValueError:
-            PORT = 5555
+   ::: moniker range="vs-2022"
 
-        app.run(HOST, PORT)
-    ```
+   :::image type="content" source="media/flask/vs-2022/step-02-add-init-file.png" alt-text="Screenshot that shows how to add the init python file in Visual Studio 2022." border="false" lightbox="media/flask/vs-2022/step-02-add-init-file.png"::: 
 
-6. Your project structure should look like the following image:
+   ::: moniker-end
 
-    ![Project structure after refactoring the code](media/flask/step02-project-structure.png)
+1. Add the following code to the new file, which creates the `Flask` instance and loads the application views:
 
-7. Select **Debug** > **Start Debugging** (**F5**) or use the **Web Server** button on the toolbar (the browser you see may vary) to start the app and open a browser. Try both the / and /home URL routes.
+   ```python
+   from flask import Flask
+   app = Flask(__name__)
 
-8. You can also set breakpoints at various parts of the code and restart the app to follow the startup sequence. For example, set a breakpoint on the first lines of *runserver.py* and *HelloFlask\_*init_*.py*, and on the `return "Hello Flask!"` line in *views.py*. Then restart the app (**Debug** > **Restart**, **Ctrl**+**Shift**+**F5**, or the toolbar button shown below) and step through (**F10**) the code, or run from each breakpoint using **F5**.
+   import HelloFlask.views
+   ```
 
-    ![Restart button on the debugging toolbar in Visual Studio](media/debugging-restart-toolbar-button.png)
+1. In the *HelloFlask* folder, create another new Python file named _views.py_.
 
-9. Stop the app when you're done.
+   > [!IMPORTANT]
+   > Be sure to specify the file name as _views.py_. The name _views_ is important because of the `import HelloFlask.views` statement in the _\_\_init\_\_.py_ file. If the name _views_ isn't the same in both instances, Visual Studio shows an error at runtime.
 
-### Commit to source control
+1. Add the following code to the _views.py_ file. This code renames the function and defines the return route to the `/home` endpoint:
 
-Because you've made changes to your code and have tested them successfully, now is a great time to review and commit your changes to source control. Later steps in this tutorial remind you of appropriate times to commit to source control again, and refer you back to this section.
+   ```python
+   from flask import Flask
+   from HelloFlask import app
 
-1. Select the changes button along the bottom of Visual Studio (circled below), which navigates to **Team Explorer**.
+   @app.route('/')
+   @app.route('/home')
+   def home():
+       return "Hello Flask!"
+   ```
 
-    ![Source control changes button on the Visual Studio status bar](media/flask/step02-source-control-changes-button.png)
+   This code also contains the page rendering code from the _app.py_ file and imports the `app` object declared in the _\_\_init\_\_.py_ file.
 
-1. In **Team Explorer**, enter a commit message like "Refactor code" and select **Commit All**. When the commit is complete, you see a message **Commit \<hash> created locally. Sync to share your changes with the server.** If you want to push changes to your remote repository, select **Sync**, then select **Push** under **Outgoing Commits**. You can also accumulate multiple local commits before pushing to remote.
+1. In the *HelloFlask* folder, create a subfolder named *templates*. The folder is empty for now.
 
-    ![Push commits to remote in Team Explorer](media/flask/step02-source-control-push-to-remote.png)
+1. In the Flask project folder (_BasicProject_), replace the contents of the _app.py_ file with the following code:
 
-### Question: How frequently should one commit to source control?
+   ```python
+   import os
+   from HelloFlask import app    # Imports the code from HelloFlask/__init__.py
 
-Answer: Committing changes to source control creates a record in the change log and a point to which you can revert the repository if necessary. Each commit can also be examined for its specific changes. Because commits in Git are inexpensive, it's better to do frequent commits than to accumulate a larger number of changes into a single commit. Clearly, you don't need to commit every small change to individual files. Typically you make a commit when adding a feature, changing a structure like you've done in this step, or done some code refactoring. Also check with others in your team for the granularity of commits that work best for everyone.
+   if __name__ == '__main__':
+       HOST = os.environ.get('SERVER_HOST', 'localhost')
 
-How often you commit and how often you push commits to a remote repository are two different concerns. You may accumulate multiple commits in your local repository before pushing them to the remote repository. Again, how frequently you commit depends on how your team wants to manage the repository.
+       try:
+           PORT = int(os.environ.get('SERVER_PORT', '5555'))
+       except ValueError:
+           PORT = 5555
 
-## Step 2-2: Use a template to render a page
+       app.run(HOST, PORT)
+   ```
 
-The `home` function that you have so far in *views.py* generates nothing more than a plain-text HTTP response for the page. However, most real-world web pages, respond with rich HTML pages that often incorporate live data. Indeed, the primary reason to define a view using a function is to generate content dynamically.
+1. After you update the code, rename the _app.py_ file to _runserver.py_.
 
-Because the return value for the view is just a string, you can build up any HTML you like within a string, using dynamic content. However, because it's best to separate markup from data, it's much better to place the markup in a template and keep the data in code.
+1. Confirm your refactored Flask project structure looks like the following example:
 
-1. For starters, edit *views.py* to contain the following code that uses inline HTML for the page with some dynamic content:
+   ::: moniker range="vs-2022"
 
-    ```python
-    from datetime import datetime
-    from flask import render_template
-    from HelloFlask import app
+   :::image type="content" source="media/flask/vs-2022/step-02-project-structure.png" alt-text="Screenshot that shows the updated Flask project structure in Solution Explorer in Visual Studio 2022." border="false" lightbox="media/flask/vs-2022/step-02-project-structure.png"::: 
 
-    @app.route('/')
-    @app.route('/home')
-    def home():
-        now = datetime.now()
-        formatted_now = now.strftime("%A, %d %B, %Y at %X")
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
 
-        html_content = "<html><head><title>Hello Flask</title></head><body>"
-        html_content += "<strong>Hello Flask!</strong> on " + formatted_now
-        html_content += "</body></html>"
+   :::image type="content" source="media/flask/step-02-project-structure.png" alt-text="Screenshot that shows the updated Flask project structure in Solution Explorer in earlier versions of Visual Studio." border="false" lightbox="media/flask/step-02-project-structure.png":::
 
-        return html_content
-    ```
+   ::: moniker-end
 
-1. Run the app and refresh the page a few times to see that the date/time is updated. Stop the app when you're done.
+### Run refactored program and check routes
 
-1. To convert the page rendering to use a template, create a file named *index.html* in the *templates* folder with the following content, where `{{ content }}` is a placeholder or replacement token (also called a *template variable*) for which you supply a value in the code:
+Now you're ready to run your project in Visual Studio:
 
-    ```html
-    <html>
-        <head><title>Hello Flask</title></head>
+1. In Visual Studio, select **Debug** > **Start Debugging** (**F5**) or select **Web Server** on the main toolbar (the browser you see might vary):
 
-        <body>
-            {{ content }}
-        </body>
-    </html>
-    ```
+1. When the application opens in the browser, try both the `/` (root) and `/home` URL route endpoints in the browser:
 
-1. Modify the `home` function to use `render_template` to load the template and supply a value for "content", which is done using a named argument matching the name of the placeholder. Flask automatically looks for templates in the *templates* folder, so the path to the template is relative to that folder:
+   :::image type="content" source="media/flask/step-02-check-url-app-routes.png" alt-text="Screenshot that shows how to check the slash home route for the refactored Flask application in the browser." border="false" lightbox="media/flask/step-02-check-url-app-routes.png":::
 
-    ```python
-    def home():
-        now = datetime.now()
-        formatted_now = now.strftime("%A, %d %B, %Y at %X")
+### Run updated program in Debugger
 
-        return render_template(
-            "index.html",
-            content = "<strong>Hello, Flask!</strong> on " + formatted_now)
-    ```
+You can also set breakpoints at various parts of the code and follow the app startup sequence in the **Debugger**:
 
-1. Run the app the see the results, and observe that the inline HTML in the `content` value doesn't render *as* HTML because the templating engine (Jinja) automatically escapes HTML content. Automatic escaping prevents accidental vulnerabilities to injection attacks: developers often gather input from one page and use it as a value in another through a template placeholder. Escaping also serves as a reminder that it's again best to keep HTML out of the code.
+1. Set several breakpoints, such as the following points:
+      
+   - The first line of the _runserver.py_ file
+   - The first line of the _\_\_init\_\_.py_ file
+   - The `return "Hello Flask!"` line in the _views.py_ file
 
-    Accordingly, review *templates\index.html* to contain distinct placeholders for each piece of data within the markup:
+1. Start the app in the **Debugger** by selecting **Debug** > **Start Debugging** or **F5**.
 
-    ```html
-    <html>
-        <head>
-            <title>{{ title }}</title>
-        </head>
-        <body>
-            <strong>{{ message }}</strong>{{ content }}
-        </body>
-    </html>
-    ```
+1. While the **Debugger** is running, step through the code with **F10**, or run the code from each breakpoint with **F5**. You can also use debugging controls on the main toolbar in Visual Studio, such as **Continue**, **Stop**, **Restart**, and **Step** options:
 
-    Then update the `home` function to provide values for all the placeholders:
+   :::image type="content" source="media/debug-actions-toolbar.png" alt-text="Screenshot that shows debugging controls on the main toolbar in Visual Studio, such as continue, restart, and step options." border="false" lightbox="media/debug-actions-toolbar.png":::
 
-    ```python
-    def home():
-        now = datetime.now()
-        formatted_now = now.strftime("%A, %d %B, %Y at %X")
+1. When you're done, select **Ctrl**+**C** followed by any key to stop the application. You can also close any open browser windows for the routes.
 
-        return render_template(
-            "index.html",
-            title = "Hello Flask",
-            message = "Hello, Flask!",
-            content = " on " + formatted_now)
-    ```
+### Commit changes to source control
 
-1. Run the app again to see the properly rendered output.
+After you refactor the code and test the updates, you can review and commit your changes to source control:
 
-    ![Running app using the template](media/flask/step02-result.png)
+::: moniker range="vs-2022"
 
-1. Commit your changes to source control and update your remote repository, if desired, as described under [step 2-1](#commit-to-source-control).
+1. Save the changes to your project files, such as with the **Ctrl**+**S** keyboard shortcut.
 
-### Question: Do page templates have to be in a separate file?
+1. On the Git controls bar, select the uncommitted changes (pencil 5) to open the **Git Changes** window:
 
-Answer: Although templates are usually maintained in separate HTML files, you can also use an inline template. Using a separate file is recommended, however, to maintain a clean separation between markup and code.
+   :::image type="content" source="media/flask/vs-2022/step-02-refactor-uncommitted-changes.png" alt-text="Screenshot that shows the uncommitted changes option on the Visual Studio 2022 status bar." border="false" lightbox="media/flask/vs-2022/step-02-refactor-uncommitted-changes.png"::: 
 
-### Question: Must templates use the .html file extension?
+1. In the **Git Changes** window, enter a commit message, and select **Commit All**: 
 
-Answer: The *.html* extension for page template files is entirely optional, because you always identify the exact relative path to the file in the first argument to the `render_template` function. However, Visual Studio (and other editors) typically give you features like code completion and syntax coloration with *.html* files, which outweighs the fact that page templates are not strictly HTML.
+   :::image type="content" source="media/flask/vs-2022/step-02-commit-all-refactor-changes.png" alt-text="Screenshot that shows how to edit the commit message and commit all changes for the refactored code in the Git Changes window." border="false" lightbox="media/flask/vs-2022/step-02-commit-all-refactor-changes.png"::: 
 
-In fact, when you're working with a Flask project, Visual Studio automatically detects when the HTML file you're editing is actually a Flask template, and provides certain auto-complete features. For example, when you start typing a Flask page template comment, `{#`, Visual Studio automatically gives you the closing `#}` characters. The **Comment Selection** and **Uncomment Selection** commands (on the **Edit** > **Advanced** menu and on the toolbar) also use template comments instead of HTML comments.
+   When the commit completes, Visual Studio displays the message **Commit \<hash> created locally**.
 
-### Question: Can templates be organized into further subfolders?
+1. (Optional) Push the committed changes to your remote repository:
 
-Answer: Yes, you can use subfolders and then refer to the relative path under *templates* in calls to `render_template`. Doing so is a great way to effectively create namespaces for your templates.
+   1. On the Git controls bar, select the outgoing/incoming commits (arrows 1/0).
+   
+   1. Select **Sync** (Pull then Push) or **Push**.
 
-## Next steps
+   :::image type="content" source="media/flask/vs-2022/step-02-push-commits-remote.png" alt-text="Screenshot that shows how to push commits to a remote repository in Visual Studio 2022." border="false" lightbox="media/flask/vs-2022/step-02-push-commits-remote.png":::
+   
+   You can also accumulate multiple local commits before you push them to the remote repository.
+
+::: moniker-end
+::: moniker range="<=vs-2019"
+
+1. Save the changes to your project files, such as with the **Ctrl**+**S** keyboard shortcut.
+
+1. Select the uncommitted changes (pencil 5) at the bottom right in Visual Studio, which opens **Team Explorer**:
+
+   :::image type="content" source="media/flask/step-02-source-control-changes-button.png" alt-text="Screenshot that shows the source control changes option on the Visual Studio status bar." border="false" lightbox="media/flask/step-02-source-control-changes-button.png":::
+
+1. In **Team Explorer**, enter a commit message like "Refactor code" and select **Commit All**.
+
+   When the commit completes, Visual Studio displays the message **Commit \<hash> created locally. Sync to share your changes with the server.**
+
+1. (Optional) Push the committed changes to your remote repository:
+
+   1. In **Team Explorer**, select **Sync**.
+   
+   1. Expand the **Outgoing Commits** and select **Push**.
+
+   :::image type="content" source="media/flask/step-02-source-control-push-to-remote.png" alt-text="Screenshot that shows how to sync and push commits to a remote repository in Team Explorer." border="false" lightbox="media/flask/step-02-source-control-push-to-remote.png":::
+
+   You can also accumulate multiple local commits before you push them to the remote repository.
+
+::: moniker-end
+
+For subsequent procedures in this tutorial series, you can refer to this section for the steps to commit changes to source control.
+
+### Determine frequency of commits and pushes
+
+Committing changes to source control creates a record in the change log and a point to which you can revert the repository, as needed. You can also examine each commit to review the specific changes.
+
+Commits in Git are inexpensive. It can be preferable to submit your changes in small amounts with frequent commits, rather than accumulate a large number of changes and submit them as a single commit.
+
+You don't need to commit every small change to individual files. It's common to make a commit when you add a feature, change a structure as shown in this Step of the tutorial series, or refactor some code. It's also a good practice to check with your collaborators to agree on the granularity of commits that work best for everyone.
+
+How often you commit and how often you push commits to a remote repository are two different concerns. You might accumulate multiple commits in your local repository before you push them to the remote repository. The frequency of your commits depends on how your team wants to manage the repository.
+
+## Use templates to render pages and views
+
+The `home` function in the _views.py_ file generates a plain-text HTTP response for the page. Most real-world web pages respond with rich HTML pages that often incorporate live data. The primary reason developers define views by using a function is to generate content dynamically.
+
+The return value for the view is just a string. You can build up any HTML within a string by using dynamic content. Because it's best to separate markup from data, it's better to place the markup in a template and keep the data in code.
+
+### Adjust views to use inline HTML
+
+The first step is to convert the view processing to use inline HTML for the page with some dynamic content:
+
+1. Replace the contents of the _views.py_ file with the following code:
+
+   ```python
+   from datetime import datetime
+   from flask import render_template
+   from HelloFlask import app
+
+   @app.route('/')
+   @app.route('/home')
+   def home():
+       now = datetime.now()
+       formatted_now = now.strftime("%A, %d %B, %Y at %X")
+
+       html_content = "<html><head><title>Hello Flask</title></head><body>"
+       html_content += "<strong>Hello Flask!</strong> on " + formatted_now
+       html_content += "</body></html>"
+
+       return html_content
+   ```
+
+1. Save your changes and run your app again.
+
+1. Refresh the page a few times to confirm that the date and time updates. When you're done, stop the app.
+
+### Create HTML template
+
+Next, convert the page rendering process to use an HTML template:
+
+1. Right-click the *templates* folder, and select **Add** > **New Item** to create a new file.
+
+1. In the **Add New Item** dialog, select the **HTML Page** file template. Name the file _index.html_ and select **Add**.
+
+1. Replace the supplied contents of the HTML file with the following markup:
+
+   ```html
+   <html>
+   <head>
+      <title>Hello Flask</title>
+   </head>
+
+   <body>
+      {{ content }}
+   </body>
+   </html>
+   ```
+
+   In this code, the `{{ content }}` statement is a placeholder or replacement token (also called a *template variable*) for which you supply a value in the code.
+
+### Adjust home function to load template
+
+You need to modify the `home` function to use the `render_template` method. This method loads the HTML template and supplies a value for `{{ content }}` by using a named argument that matches the name of the placeholder.
+
+1. In the _views.py_ file, replace the `home` function definition with the following code:
+
+   ```python
+   def home():
+       now = datetime.now()
+       formatted_now = now.strftime("%A, %d %B, %Y at %X")
+
+       return render_template(
+           "index.html",
+           content = "<strong>Hello, Flask!</strong> on " + formatted_now)
+   ```
+
+   Flask automatically looks for templates in the *templates* folder, so the path to the template is relative to that folder.
+
+1. Save your project changes and run the app again.
+
+   Notice that the inline HTML syntax (`\<strong>` ...) within the `content` value doesn't render *as* HTML because the templating engine (Jinja) automatically escapes HTML content. Automatic escaping prevents accidental vulnerabilities to injection attacks.
+   
+   Developers often gather input from one page and use it as a value in another by using a template placeholder. Escaping also serves as a reminder that it's best to keep HTML out of the code.
+
+   When you're done, stop the app.
+
+### Use distinct placeholders
+
+You can use distinct placeholders for each piece of data within the HTML markup. Then, adjust your `home` function again to supply the specific placeholder values:
+
+1. Replace the contents of the _index.html_ file with the following markup: 
+
+   ```html
+   <html>
+     <head>
+       <title>{{ title }}</title>
+     </head>
+     <body>
+       <strong>{{ message }}</strong>{{ content }}
+     </body>
+   </html>
+   ```
+
+1. In the _views.py_ file, replace the `home` function definition with the following code to provide values for all the placeholders:
+
+   ```python
+   def home():
+       now = datetime.now()
+       formatted_now = now.strftime("%A, %d %B, %Y at %X")
+
+       return render_template(
+           "index.html",
+           title = "Hello Flask",
+           message = "Hello, Flask!",
+           content = " on " + formatted_now)
+   ```
+
+1. Save your changes and run your app again. This time you should see the properly rendered output:
+
+   :::image type="content" source="media/flask/step-02-render-page-html-template.png" alt-text="Screenshot that shows the running application that uses HTML template for the page information to render." border="false" lightbox="media/flask/step-02-render-page-html-template.png":::
+
+1. You can commit your changes to source control and update your remote repository. For more information, see [Commit changes to source control](#commit-changes-to-source-control).
+
+### Separate page templates
+
+Templates are usually maintained in separate HTML files, but you can also use an inline template. Separate files are recommended to maintain a clean separation between markup and code.
+
+### Use .html extension for templates
+
+The _.html_ extension for page template files is entirely optional. You can always identify the exact relative path to the file in the first argument to the `render_template` function. However, Visual Studio (and other editors) typically provide features like code completion and syntax coloration with _.html_ files, which outweighs the fact that page templates aren't HTML.
+
+When you work with a Flask project, Visual Studio automatically detects if the HTML file you're editing is actually a Flask template, and provides certain auto-complete features. If you start to enter a Flask page template comment (`{#`), Visual Studio automatically supplies the closing `#}` characters. The **Comment Selection** and **Uncomment Selection** commands (on the **Edit** > **Advanced** menu) also use template comments instead of HTML comments.
+
+### Organize templates into subfolders
+
+You can use subfolders and then refer to the relative path under the *templates* folder in calls to the `render_template` function. This approach is a great way to effectively create namespaces for your templates.
+
+## Next step
 
 > [!div class="nextstepaction"]
-> [Serve static files, add pages, and use template inheritance](learn-flask-visual-studio-step-03-serve-static-files-add-pages.md)
-
-## Go deeper
-
-- [Flask Quickstart - Rendering Templates](https://flask.palletsprojects.com/en/1.0.x/quickstart/#rendering-templates) (flask.pocoo.org)
-- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-flask](https://github.com/Microsoft/python-sample-vs-learning-flask)
+> [Step 3: Serve static files, add pages, and use template inheritance](learn-flask-visual-studio-step-03-serve-static-files-add-pages.md)

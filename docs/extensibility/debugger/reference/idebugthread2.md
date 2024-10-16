@@ -1,21 +1,19 @@
 ---
 description: "This interface represents a thread running in a program."
-title: IDebugThread2 | Microsoft Docs
+title: IDebugThread2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugThread2
 helpviewer_keywords:
 - IDebugThread2 interface
-ms.assetid: 221b4b1b-4a26-466e-bc29-5eff800fab13
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugThread2
+
 This interface represents a thread running in a program.
 
 ## Syntax

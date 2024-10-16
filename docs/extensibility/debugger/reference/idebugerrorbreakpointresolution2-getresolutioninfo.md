@@ -1,41 +1,41 @@
 ---
 description: "Gets the breakpoint error resolution information."
-title: IDebugErrorBreakpointResolution2::GetResolutionInfo | Microsoft Docs
+title: IDebugErrorBreakpointResolution2::GetResolutionInfo
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugErrorBreakpointResolution2::GetResolutionInfo
 helpviewer_keywords:
 - IDebugErrorBreakpointResolution2::GetResolutionInfo
-ms.assetid: d94c4f60-8796-4848-86ee-186bbaa613f5
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugErrorBreakpointResolution2::GetResolutionInfo
+
 Gets the breakpoint error resolution information.
 
 ## Syntax
 
-```cpp
-HRESULT GetResolutionInfo( 
-    BPERESI_FIELDS            dwFields,
-    BP_ERROR_RESOLUTION_INFO* pErrorResolutionInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetResolutionInfo( 
     enum_BPERESI_FIELDS        dwFields,
     BP_ERROR_RESOLUTION_INFO[] pErrorResolutionInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetResolutionInfo( 
+    BPERESI_FIELDS            dwFields,
+    BP_ERROR_RESOLUTION_INFO* pErrorResolutionInfo
+);
+```
+---
 
 ## Parameters
 `dwFields`\

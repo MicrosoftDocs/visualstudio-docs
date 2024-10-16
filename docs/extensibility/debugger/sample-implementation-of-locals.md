@@ -1,21 +1,18 @@
 ---
-title: Sample Implementation of Locals | Microsoft Docs
+title: Sample Implementation of Locals
 description: Learn how Visual Studio gets the locals for a method from the expression evaluator in this article.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: sample
 helpviewer_keywords:
 - debugging [Debugging SDK], local variables
 - expression evaluation, local variables
-ms.assetid: 66a2e00a-f558-4e87-96b8-5ecf5509e04c
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Sample implementation of locals
+
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
@@ -42,27 +39,22 @@ ms.workload:
 10. Visual Studio calls [GetPropertyInfo](../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) for each local to obtain the local's name, value, and type. This information is displayed in the **Locals** window.
 
 ## In this section
- [Implement GetMethodProperty](../../extensibility/debugger/implementing-getmethodproperty.md)
- Describes an implementation of [GetMethodProperty](../../extensibility/debugger/reference/idebugexpressionevaluator-getmethodproperty.md).
 
- [Enumerate locals](../../extensibility/debugger/enumerating-locals.md)
- Describes how the debug engine (DE) makes a call to enumerate local variables or arguments.
+[Implement GetMethodProperty](../../extensibility/debugger/implementing-getmethodproperty.md) describes an implementation of [GetMethodProperty](../../extensibility/debugger/reference/idebugexpressionevaluator-getmethodproperty.md).
 
- [Get local properties](../../extensibility/debugger/getting-local-properties.md)
- Describes how the DE makes a call to get the name, type, and value of one or more locals.
+ [Enumerate locals](../../extensibility/debugger/enumerating-locals.md) describes how the debug engine (DE) makes a call to enumerate local variables or arguments.
 
- [Get local values](../../extensibility/debugger/getting-local-values.md)
- Discusses getting the value of the local, which requires the services of a binder object given by the evaluation context.
+ [Get local properties](../../extensibility/debugger/getting-local-properties.md) describes how the DE makes a call to get the name, type, and value of one or more locals.
 
- [Evaluate locals](../../extensibility/debugger/evaluating-locals.md)
- Explains how locals are evaluated.
+ [Get local values](../../extensibility/debugger/getting-local-values.md) discusses getting the value of the local, which requires the services of a binder object given by the evaluation context.
+
+ [Evaluate locals](../../extensibility/debugger/evaluating-locals.md) explains how locals are evaluated.
 
 ## Related sections
- [Evaluation context](../../extensibility/debugger/evaluation-context.md)
- Provides the arguments that are passed when the DE calls the expression evaluator (EE).
 
- [MyCEE sample](/previous-versions/)
- Demonstrates one implementation approach to creating an expression evaluator for the MyC language.
+[Evaluation context](../../extensibility/debugger/evaluation-context.md) provides the arguments that are passed when the DE calls the expression evaluator (EE).
+
+ [MyCEE sample](/previous-versions/) demonstrates one implementation approach to creating an expression evaluator for the MyC language.
 
 ## See also
 - [Displaying locals](../../extensibility/debugger/displaying-locals.md)

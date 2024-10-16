@@ -1,38 +1,38 @@
 ---
 description: "Enables the expression evaluator (EE) to specify the callback interface that the debugger engine (DE) will use to read metric settings."
-title: IDebugExpressionEvaluator2::SetCallback | Microsoft Docs
+title: IDebugExpressionEvaluator2::SetCallback
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugExpressionEvaluator2::SetCallback
 - SetCallback
-ms.assetid: 31e3a99e-e784-44a3-8b19-cc5ef31ed546
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExpressionEvaluator2::SetCallback
+
 Enables the expression evaluator (EE) to specify the callback interface that the debugger engine (DE) will use to read metric settings.
 
 ## Syntax
 
-```cpp
-HRESULT SetCallback (
-    IDebugSettingsCallback2* pCallback
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetCallback (
     IDebugSettingsCallback2 pCallback
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetCallback (
+    IDebugSettingsCallback2* pCallback
+);
+```
+---
 
 ## Parameters
 `pCallback`\
@@ -42,7 +42,7 @@ int SetCallback (
 If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## Remarks
-This method provides an interface to the session debug manager that an expression evaluator can use to read metric settings. It is useful in remote debugging to read metrics on the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] computer.
+This method provides an interface to the session debug manager that an expression evaluator can use to read metric settings. It is useful in remote debugging to read metrics on the Visual Studio computer.
 
 ## Example
 The following examples shows how to implement this method for a **CEE** object that exposes the [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md) interface.

@@ -1,14 +1,12 @@
 ---
 title: Debug or disable project code in XAML Designer
-description: Learn how to debug or disable project code in the XAML Designer, including how to debug running project code in another instance of Visual Studio.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+description: Debug or disable project code in the XAML Designer, including how to debug running project code in another instance of Visual Studio.
+ms.date: 12/17/2021
 ms.topic: how-to
-ms.assetid: ac600581-8fc8-49e3-abdf-1569a3483d74
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xaml-tools
+author: maddymontaquila
+ms.author: maleger
+manager: mijacobs
+ms.subservice: xaml-tools
 ---
 # Debug or disable project code in XAML Designer
 
@@ -52,11 +50,17 @@ When project code is disabled, Visual Studio shows placeholders. For example, Vi
 
 6. In the new instance of Visual Studio, on the menu bar, choose **Debug** > **Attach to Process**.
 
-7. In the **Attach to Process** dialog, in the **Available Processes** list, choose **XDesProc.exe**, and then choose the **Attach** button.
+7. In the **Attach to Process** dialog, in the **Available Processes** list, choose the process that matches the version of Visual Studio you're using and the platform you're developing for (see the following table), and then choose the **Attach** button.
 
-     ![The XAML designer process](media/xaml_attach.png)
+    |Visual Studio version | Platform      | Process name   |
+    |----------------------|---------------|----------------|
+    |2017&ndash;2022       | UWP apps      | UwpSurface.exe |
+    |2017&ndash;2022       | WPF Core apps | WpfSurface.exe |
+    |2019 only             | WPF Framework | xDesProc.exe   |
+    |2022 only             | WPF Framework | WpfSurface.exe |
 
-     This is the process for the XAML designer in the first instance of Visual Studio.
+    > [!IMPORTANT]
+    > In Visual Studio 2019, it's WpfSurface.exe if **New WPF XAML Designer** is enabled in **Tools** > **Options** > **Environment** > **Preview Features**.
 
 8. In the first instance of Visual Studio, on the menu bar, choose **Debug** > **Start Debugging**.
 
@@ -93,6 +97,6 @@ To change control display options, click the icon in the bottom left of the desi
 
 When you select **Only Display Platform Controls**, all custom controls coming from SDKs, customer user controls, and more, will not render completely. Instead, they are replaced by fallback controls to demonstrate the size and position of the control.
 
-## See also
+## Related content
 
 - [Design XAML in Visual Studio and Blend for Visual Studio](designing-xaml-in-visual-studio.md)

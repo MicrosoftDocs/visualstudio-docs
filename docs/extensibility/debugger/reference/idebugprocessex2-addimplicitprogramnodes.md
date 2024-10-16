@@ -1,36 +1,27 @@
 ---
 description: "This method adds a program node for each debug engine (DE) specified."
-title: IDebugProcessEx2::AddImplicitProgramNodes | Microsoft Docs
+title: IDebugProcessEx2::AddImplicitProgramNodes
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcessEx2::AddImplicitProgramNodes
 helpviewer_keywords:
 - IDebugProcessEx2::AddImplicitProgramNodes method
-ms.assetid: 8b491b00-f9e7-45b3-9115-fe58c3464289
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProcessEx2::AddImplicitProgramNodes
+
 This method adds a program node for each debug engine (DE) specified.
 
 ## Syntax
 
-```cpp
-HRESULT AddImplicitProgramNodes(
-   REFGUID guidLaunchingEngine,
-   GUID*   rgguidSpecificEngines,
-   DWORD   celtSpecificEngines
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int AddImplicitProgramNodes(
    ref Guid guidLaunchingEngine,
@@ -38,6 +29,15 @@ int AddImplicitProgramNodes(
    uint     celtSpecificEngines
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT AddImplicitProgramNodes(
+   REFGUID guidLaunchingEngine,
+   GUID*   rgguidSpecificEngines,
+   DWORD   celtSpecificEngines
+);
+```
+---
 
 ## Parameters
 `guidLaunchingEngine`\

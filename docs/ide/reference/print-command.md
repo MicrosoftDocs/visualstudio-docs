@@ -1,7 +1,6 @@
 ---
 title: Debug.Print
 description: Learn about the Print command and how it evaluates an expression or displays specified text.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -10,13 +9,10 @@ helpviewer_keywords:
 - Debug.Print command
 - Print method
 - Print command
-ms.assetid: 0412d381-590a-483f-bab4-6e1cca095645
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Print command
 

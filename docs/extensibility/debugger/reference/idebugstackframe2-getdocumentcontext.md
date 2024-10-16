@@ -1,39 +1,39 @@
 ---
 description: "Gets the document context for this stack frame."
-title: IDebugStackFrame2::GetDocumentContext | Microsoft Docs
+title: IDebugStackFrame2::GetDocumentContext
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugStackFrame2::GetDocumentContext
 helpviewer_keywords:
 - IDebugStackFrame2::GetDocumentContext
-ms.assetid: 69e81439-1238-4f18-9028-6fd1c1ba5e4a
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugStackFrame2::GetDocumentContext
+
 Gets the document context for this stack frame.
 
 ## Syntax
 
-```cpp
-HRESULT GetDocumentContext ( 
-   IDebugDocumentContext2** ppCxt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocumentContext ( 
    out IDebugDocumentContext2 ppCxt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocumentContext ( 
+   IDebugDocumentContext2** ppCxt
+);
+```
+---
 
 ## Parameters
 `ppCxt`\

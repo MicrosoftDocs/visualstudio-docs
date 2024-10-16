@@ -1,23 +1,20 @@
 ---
-title: WizardExtension Element (Visual Studio Templates) | Microsoft Docs
+title: WizardExtension Element (Visual Studio Templates)
 description: Learn about the WizardExtension element and how it contains the registration elements for customizing the template wizard.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#WizardExtension
 helpviewer_keywords:
 - WizardExtension element [Visual Studio Templates]
 - <WizardExtension> element [Visual Studio Templates]
-ms.assetid: d54b01c1-50f5-4b65-828c-686e2321cc8c
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
 ---
 # WizardExtension Element (Visual Studio Templates)
+
 Contains the registration elements for customizing the template wizard.
 
  \<VSTemplate>
@@ -56,7 +53,7 @@ Contains the registration elements for customizing the template wizard.
  `WizardExtension` is an optional child element of `VSTemplate`.
 
 ## Example
- The following example illustrates the metadata for the standard project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Windows application.
+ The following example illustrates the metadata for the standard project template for a Visual C# Windows application.
 
 ```
 <VSTemplate Version="3.0.0" Type="Item"

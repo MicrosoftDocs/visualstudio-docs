@@ -1,39 +1,39 @@
 ---
+title: IDebugBreakpointRequest2::GetLocationType
 description: "Gets the breakpoint location type of this breakpoint request."
-title: IDebugBreakpointRequest2::GetLocationType | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugBreakpointRequest2::GetLocationType
 helpviewer_keywords:
 - IDebugBreakpointRequest2::GetLocationType
-ms.assetid: b6d14c59-d3aa-48ff-8278-f6b5bba9c2f3
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugBreakpointRequest2::GetLocationType
+
 Gets the breakpoint location type of this breakpoint request.
 
 ## Syntax
 
-```cpp
-HRESULT GetLocationType(
-    BP_LOCATION_TYPE* pBPLocationType
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetLocationType(
     out enum_BP_LOCATION_TYPE pBPLocationType
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetLocationType(
+    BP_LOCATION_TYPE* pBPLocationType
+);
+```
+---
 
 ## Parameters
 `pBPLocationType`\
@@ -43,7 +43,7 @@ int GetLocationType(
 If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_FAIL` if the `bpLocation` field in the associated [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) structure is not valid.
 
 ## Example
-The following example shows how to implement this method for a simple `CDebugBreakpointRequest` object that exposes the[IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md) interface.
+The following example shows how to implement this method for a simple `CDebugBreakpointRequest` object that exposes the [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md) interface.
 
 ```
 HRESULT CDebugBreakpointRequest::GetLocationType(BP_LOCATION_TYPE* pBPLocationType)

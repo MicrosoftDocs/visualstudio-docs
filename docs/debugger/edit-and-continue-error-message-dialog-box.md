@@ -1,9 +1,8 @@
 ---
 title: "Edit and Continue error message dialog box| Microsoft Docs"
 description: Edit and Continue may report that it isn't available for your code changes. This article provides possible reasons.
-ms.custom: SEO-VS-2020
 ms.date: "10/15/2018"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.ENC.SupportedButNotAvailable"
   - "vs.debug.ENC.CannotEditWhileException"
@@ -14,13 +13,10 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "Edit and Continue Error Message dialog box"
-ms.assetid: f98c91c0-447a-4533-85b6-87170a0dc4c3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Edit and Continue error message
 

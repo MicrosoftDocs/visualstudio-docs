@@ -1,28 +1,34 @@
 ---
 description: "Specifies properties associated with a program provider."
-title: PROVIDER_FIELDS | Microsoft Docs
+title: PROVIDER_FIELDS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - PROVIDER_FIELDS
 helpviewer_keywords:
 - PROVIDER_FIELDS enumeration
-ms.assetid: 39631545-2b0e-45b4-978b-d63656484b02
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # PROVIDER_FIELDS
+
 Specifies properties associated with a program provider.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_PROVIDER_FIELDS {
+   PFIELD_PROGRAM_NODES       = 0x01,
+   PFIELD_IS_DEBUGGER_PRESENT = 0x02
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_PROVIDER_FIELDS {
    PFIELD_PROGRAM_NODES       = 0x01,
@@ -30,13 +36,7 @@ enum enum_PROVIDER_FIELDS {
 };
 typedef DWORD PROVIDER_FIELDS;
 ```
-
-```csharp
-public enum enum_PROVIDER_FIELDS {
-   PFIELD_PROGRAM_NODES       = 0x01,
-   PFIELD_IS_DEBUGGER_PRESENT = 0x02
-};
-```
+---
 
 ## Fields
  `PFIELD_PROGRAM_NODES`\

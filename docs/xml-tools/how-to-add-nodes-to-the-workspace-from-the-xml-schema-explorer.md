@@ -1,18 +1,14 @@
 ---
 title: Add nodes to workspace from XML Schema Explorer
 description: Learn how to add nodes to the XML Schema Designer workspace from the XML Schema Explorer using the context menu or by dragging and dropping nodes onto a view.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: 3b5a5749-9693-4b29-b0c2-8e07e0e55514
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xml-tools
-ms.workload:
-- multiple
+author: dzsquared
+ms.author: drskwier
+manager: mijacobs
+ms.subservice: xml-tools
 ---
-# How to: Add nodes to the workspace from the XML Schema Explorer
+# Add nodes to the workspace from the XML Schema Explorer
 
 This topic explains how to add nodes to the [XML Schema Designer workspace](../xml-tools/xml-schema-designer-workspace.md) from the **XML Schema Explorer**. This can be achieved by dragging and dropping nodes from the **XML Schema Explorer** onto an XSD Designer view, or by using the **XML Schema Explorer's** context menu. You can also add nodes that are highlighted as a result of a search performed by the **XML Schema Explorer**. For more information, see [How to: Add schema set search result nodes to the workspace](../xml-tools/how-to-add-schema-set-search-result-nodes-to-the-workspace.md).
 
@@ -55,6 +51,6 @@ This topic explains how to add nodes to the [XML Schema Designer workspace](../x
 
      The `purchaseOrder` node and the `PurchaseOrderType` node appear next to each other on the design surface of the [Graph View](../xml-tools/graph-view.md). Because the two nodes are related (the `purchaseOrder` element is of the `PurchaseOrderType` type), an arrow is drawn between them.
 
-## See also
+## Related content
 
 - [XML Schema Explorer](../xml-tools/xml-schema-explorer.md)

@@ -1,7 +1,6 @@
 ---
 title: "Create SharePoint solution package using MSBuild tasks"
 description: Learn how to build, clean, and validate a SharePoint solution package (.wsp) using command-line MSBuild tasks on a development computer.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -11,12 +10,11 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, packages"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
-# How to: Create a SharePoint Solution Package by using MSBuild tasks
+# Create a SharePoint Solution Package by using MSBuild tasks
+
   You can build, clean, and validate a SharePoint package (*.wsp*) using command-line MSBuild tasks on a development computer. You can also use these commands to automate the build process by using Team Foundation Server on a build computer.
 
 ## Build a SharePoint package
@@ -102,7 +100,7 @@ ms.workload:
     msbuild /property:WarningLevel = 2
     ```
 
-## See also
+## Related content
 - [Create SharePoint features](../sharepoint/creating-sharepoint-features.md)
 - [How to: Customize a SharePoint feature](../sharepoint/how-to-customize-a-sharepoint-feature.md)
 - [How to: Add and remove items to SharePoint features](../sharepoint/how-to-add-and-remove-items-to-sharepoint-features.md)

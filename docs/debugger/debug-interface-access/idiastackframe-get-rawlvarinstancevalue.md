@@ -1,21 +1,20 @@
 ---
-description: "This method retrieves the value of the specified local variable as raw bytes."
-title: "IDiaStackFrame::get_rawLVarInstanceValue | Microsoft Docs"
+description: This method retrieves the value of the specified local variable as raw bytes.
+title: "IDiaStackFrame::get_rawLVarInstanceValue"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackFrame::get_rawLVarInstanceValue method"
-ms.assetid: ce526259-85a6-475b-9274-0b3a21d95db2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackFrame::get_rawLVarInstanceValue
+
 This method retrieves the value of the specified local variable as raw bytes.
 
 ## Syntax

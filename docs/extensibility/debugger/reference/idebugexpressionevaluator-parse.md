@@ -1,39 +1,27 @@
 ---
 description: "This method converts an expression string to a parsed expression."
-title: IDebugExpressionEvaluator::Parse | Microsoft Docs
+title: IDebugExpressionEvaluator::Parse
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExpressionEvaluator::Parse
 helpviewer_keywords:
 - IDebugExpressionEvaluator::Parse method
-ms.assetid: e6e31b3a-63a7-4293-bcda-267eb78dffb6
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExpressionEvaluator::Parse
+
 This method converts an expression string to a parsed expression.
 
 ## Syntax
 
-```cpp
-HRESULT Parse( 
-   LPCOLESTR                upstrExpression,
-   PARSEFLAGS               dwFlags,
-   UINT                     nRadix,
-   BSTR*                    pbstrError,
-   UINT*                    pichError,
-   IDebugParsedExpression** ppParsedExpression
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Parse(
    string                     upstrExpression,
@@ -44,6 +32,18 @@ int Parse(
    out IDebugParsedExpression ppParsedExpression
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Parse( 
+   LPCOLESTR                upstrExpression,
+   PARSEFLAGS               dwFlags,
+   UINT                     nRadix,
+   BSTR*                    pbstrError,
+   UINT*                    pichError,
+   IDebugParsedExpression** ppParsedExpression
+);
+```
+---
 
 ## Parameters
 `upstrExpression`\

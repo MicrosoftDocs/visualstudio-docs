@@ -1,7 +1,6 @@
 ---
-title: "Walkthrough: Call code from VBA in a Visual C# project"
-description: Learn how to call a method in a document-level customization for Microsoft Excel from Visual Basic for Applications (VBA) code in the workbook.
-ms.custom: SEO-VS-2020
+title: Call code from VBA in a Visual C# project in Visual Studio
+description: Call a Visual C# method in a document-level customization for Microsoft Office Excel from Visual Basic for Applications (VBA) code in the Excel workbook.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,12 +17,11 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], calling code"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Walkthrough: Call code from VBA in a Visual C# project
+
   This walkthrough demonstrates how to call a method in a document-level customization for Microsoft Office Excel from Visual Basic for Applications (VBA) code in the workbook. The procedure involves three basic steps: add a method to the `Sheet1` host item class, expose the method to VBA code in the workbook, and then call the method from VBA code in the workbook.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
@@ -92,7 +90,7 @@ ms.workload:
 
 ### To create a new project
 
-1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start Visual Studio.
 
 2. On the **File** menu, point to **New**, and then click **Project**.
 
@@ -112,7 +110,7 @@ ms.workload:
 
 9. Click **Finish**.
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] opens the **WorkbookWithVBA** workbook in the designer and adds the **CallingCodeFromVBA** project to **Solution Explorer**.
+     Visual Studio opens the **WorkbookWithVBA** workbook in the designer and adds the **CallingCodeFromVBA** project to **Solution Explorer**.
 
 ## Trust the location of the workbook
  Before you can expose code in your solution to VBA code in the workbook, you must trust VBA in the workbook to run. There are several ways to do this. In this walkthrough, you will accomplish this task by trusting the location of the workbook in the **Trust Center** in Excel.
@@ -179,7 +177,7 @@ ms.workload:
 
 4. Click **OK**.
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] generates a new interface named `ISheet1`, and it modifies the definition of the `Sheet1` class so that it implements the `ISheet1` interface. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] also opens the **ISheet1.cs** file in the Code Editor.
+     Visual Studio generates a new interface named `ISheet1`, and it modifies the definition of the `Sheet1` class so that it implements the `ISheet1` interface. Visual Studio also opens the **ISheet1.cs** file in the Code Editor.
 
 5. In the **ISheet1.cs** file, replace the `ISheet1` interface declaration with the following code. This code makes the `ISheet1` interface public, and it applies the <xref:System.Runtime.InteropServices.ComVisibleAttribute> attribute to make the interface visible to COM.
 
@@ -243,7 +241,7 @@ ms.workload:
 
 - Call code in a VSTO Add-in from VBA. For more information, see [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).
 
-## See also
+## Related content
 - [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md)
 - [Program document-level customizations](../vsto/programming-document-level-customizations.md)
 - [How to: Expose Code to VBA in a Visual Basic project](../vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md)

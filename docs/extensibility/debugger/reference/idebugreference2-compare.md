@@ -1,41 +1,41 @@
 ---
 description: "Compares one reference to another."
-title: IDebugReference2::Compare | Microsoft Docs
+title: IDebugReference2::Compare
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugReference2::Compare
 helpviewer_keywords:
 - IDebugReference2::Compare
-ms.assetid: 3361c495-2673-4b7c-82e3-dee74e1fa58d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugReference2::Compare
+
 Compares one reference to another. Reserved for future use.
 
 ## Syntax
 
-```cpp
-HRESULT Compare ( 
-   REFERENCE_COMPARE dwCompare,
-   IDebugReference2* pReference
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Compare ( 
    enum_REFERENCE_COMPARE dwCompare,
    IDebugReference2       pReference
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Compare ( 
+   REFERENCE_COMPARE dwCompare,
+   IDebugReference2* pReference
+);
+```
+---
 
 ## Parameters
 `dwCompare`\

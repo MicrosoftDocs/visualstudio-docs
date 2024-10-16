@@ -1,9 +1,8 @@
 ---
-title: "&lt;RelatedProducts&gt; Element (Bootstrapper) | Microsoft Docs"
+title: "&lt;RelatedProducts&gt; Element (Bootstrapper)"
 description: The RelatedProducts element defines other products that either depend upon or are included in the current product.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords:
   - "MSBuild.GenerateBootstrapper.MissingDependency"
   - "MSBuild.GenerateBootstrapper.DuplicateItems"
@@ -17,15 +16,13 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<RelatedProducts> element [bootstrapper]"
-ms.assetid: bf152712-4c1e-48bd-9b7f-311cf0fdb832
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: deployment
 ---
 # &lt;RelatedProducts&gt; element (bootstrapper)
+
 The `RelatedProducts` element defines other products that either depend upon or are included in the current product.
 
 ## Syntax

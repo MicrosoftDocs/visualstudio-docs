@@ -11,10 +11,9 @@ namespace UsageLibrary
         public void VariableArguments(__arglist) 
         { 
             ArgIterator argumentIterator = new ArgIterator(__arglist);
-            for(int i = 0; i < argumentIterator.GetRemainingCount(); i++) 
+            while (argumentIterator.GetRemainingCount() > 0)
             { 
-                Console.WriteLine(
-                    __refvalue(argumentIterator.GetNextArg(), string));
+                Console.WriteLine(__refvalue(argumentIterator.GetNextArg(), string));
             } 
         }
 

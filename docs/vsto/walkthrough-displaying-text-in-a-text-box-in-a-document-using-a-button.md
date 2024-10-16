@@ -1,8 +1,7 @@
 ---
-title: "Display text in text box in document using button"
-description: Learn how you can use buttons and text boxes in a document-level customization for Microsoft Word.
-ms.custom: SEO-VS-2020
-ms.date: "02/02/2017"
+title: Display text in a box in a document with a button
+description: Use buttons and text boxes to customize Microsoft Word at the document level, including adding text to the text box when the button is clicked.
+ms.date: "01/31/2022"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -11,12 +10,11 @@ helpviewer_keywords:
   - "text boxes, displaying text in documents"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Walkthrough: Display text in a text box in a document using a button
+
   This walkthrough demonstrates how to use buttons and text boxes in a document-level customization for Microsoft Office Word.
 
  [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]
@@ -59,7 +57,7 @@ ms.workload:
    > [!NOTE]
    > In Word, controls are dropped in-line with text by default. You can modify the way controls and shape objects are inserted by changing the default on the **Edit** tab of the **Options** dialog box in Word.
 
-3. On the **View** menu, click **Properties Window**.
+3. On the **View** menu, select **Properties Window**.
 
 4. Find **TextBox1** in the **Properties** window drop-down box and change the **Name** property of the text box to **displayText**.
 
@@ -73,29 +71,33 @@ ms.workload:
    Now you can write the code that will run when the button is clicked.
 
 ## Populate the text box when the button is clicked
- Every time the user clicks the button, **Hello World!** is added to the text box.
+ Every time the user selects the button, **Hello World!** is added to the text box.
 
 ### To write to the text box when the button is clicked
 
-1. In **Solution Explorer**, right-click **ThisDocument**, and then click **View Code** on the shortcut menu.
+1. In **Solution Explorer**, right-click **ThisDocument**, and then select **View Code** on the shortcut menu.
 
 2. Add the following code to the <xref:System.Windows.Forms.Control.Click> event handler of the button.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my chart options/ThisDocument.vb" id="Snippet7":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ThisDocument.cs" id="Snippet7":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my chart options/ThisDocument.vb" id="Snippet7":::
+     ---
 
 3. In C#, you must add an event handler for the button to the <xref:Microsoft.Office.Tools.Word.Document.Startup> event. For information about creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ThisDocument.cs" id="Snippet8":::
 
 ## Test the application
- You can now test your document to make sure that the message **Hello World!** appears in the text box when you click the button.
+ You can now test your document to make sure that the message **Hello World!** appears in the text box when you select the button.
 
 ### To test your document
 
 1. Press **F5** to run your project.
 
-2. Click the button.
+2. Select the button.
 
 3. Confirm that **Hello World!** appears in the text box.
 
@@ -104,9 +106,9 @@ ms.workload:
 
 - Using a combo box to change formatting. For more information, see [Walkthrough: Change document formatting using CheckBox controls](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md).
 
-- Using radio buttons to select chart styles. For more information, see [Walkthrough: Update a chart in a document using radio buttons](../vsto/walkthrough-updating-a-chart-in-a-document-using-radio-buttons.md).
+- Using radio buttons to select chart styles. 
 
-## See also
+## Related content
 - [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)
 - [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)
 - [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)

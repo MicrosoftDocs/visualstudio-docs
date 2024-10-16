@@ -1,15 +1,12 @@
 ---
 title: T4 Output Directive
 description: Learn that in Visual Studio text templates, the output directive is used to define the file name extension and encoding of the transformed file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # T4 Output Directive
 

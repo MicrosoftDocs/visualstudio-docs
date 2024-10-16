@@ -1,41 +1,41 @@
 ---
 description: "Gets the program associated with a program node."
-title: IDebugPortEx2::GetProgram | Microsoft Docs
+title: IDebugPortEx2::GetProgram
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortEx2::GetProgram
 helpviewer_keywords:
 - IDebugPortEx2::GetProgram
-ms.assetid: cd83a111-bfd5-4eae-b576-526466c6b6ec
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPortEx2::GetProgram
+
 Gets the program associated with a program node.
 
 ## Syntax
 
-```cpp
-HRESULT GetProgram( 
-   IDebugProgramNode2* pProgramNode,
-   IDebugProgram2**    ppProgram
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProgram( 
    IDebugProgramNode2 pProgramNode,
    out IDebugProgram2 ppProgram
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProgram( 
+   IDebugProgramNode2* pProgramNode,
+   IDebugProgram2**    ppProgram
+);
+```
+---
 
 ## Parameters
 `pProgramNode`

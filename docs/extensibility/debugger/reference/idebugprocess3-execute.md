@@ -1,24 +1,22 @@
 ---
 description: "Continues running this process from a stopped state. Any previous execution state (such as a step) is cleared and the process starts executing again."
-title: IDebugProcess3::Execute | Microsoft Docs
+title: IDebugProcess3::Execute
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcess3::Execute
 helpviewer_keywords:
 - IDebugProcess3::Execute
-ms.assetid: d831cd81-d7bf-4172-8517-aa699867791f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProcess3::Execute
+
 Continues running this process from a stopped state. Any previous execution state (such as a step) is cleared and the process starts executing again.
 
 > [!NOTE]
@@ -26,17 +24,19 @@ Continues running this process from a stopped state. Any previous execution stat
 
 ## Syntax
 
-```cpp
-HRESULT Execute(
-   IDebugThread2* pThread
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Execute(
    IDebugThread2 pThread
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Execute(
+   IDebugThread2* pThread
+);
+```
+---
 
 ## Parameters
 `pThread`\

@@ -1,25 +1,24 @@
 ---
-description: "Retrieves an enumeration that allows a client to iterate through the line number information of all inlined functions that match a specified name."
-title: "IDiaSession::findInlineesByName | Microsoft Docs"
+description: Retrieves an enumeration that allows a client to iterate through the line number information of all inlined functions that match a specified name.
+title: "IDiaSession::findInlineesByName"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: 9860336d-f703-4ecb-bfc4-3f5beb175a76
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findInlineesByName
+
 Retrieves an enumeration that allows a client to iterate through the line number information of all inlined functions that match a specified name.
 
 ## Syntax
 
 ```C++
-HRESULT findInlineesByName ( 
+HRESULT findInlineesByName ( 
    LPCOLESTR             name,
    DWORD                 option,
    IDiaEnumLineNumbers** ppResult

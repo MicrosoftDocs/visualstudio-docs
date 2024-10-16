@@ -1,7 +1,6 @@
 ---
-title: "How to: Include a Custom Assembly in a BDC Feature | Microsoft Docs"
+title: "Include a Custom Assembly in a BDC Feature"
 description: Include custom assemblies in a business data connectivity (BDC) feature so that your project can reference assemblies from other projects in the same solution.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:
@@ -16,12 +15,11 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], add reference"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
-# How to: Include a custom assembly in a BDC feature
+# Include a custom assembly in a BDC feature
+
   Your project can reference assemblies from other projects in the same solution. However, you must add these assemblies to the feature file of the project by using the **Assign referenced assemblies to LobSystems** dialog box.
 
 ### To include a custom assembly in a business data connectivity (BDC) feature
@@ -44,9 +42,9 @@ ms.workload:
     > [!NOTE]
     > To debug code in the custom assembly, you must add the assembly to the solution package. For more information, see [How to: Add and remove additional assemblies](../sharepoint/how-to-add-and-remove-additional-assemblies.md).
 
-## See also
+## Related content
 - [How to: Use a resource file to specify localized names, properties, and permissions](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md)
 - [How to: Add an existing BDC model file to a SharePoint project](../sharepoint/how-to-add-an-existing-bdc-model-file-to-a-sharepoint-project.md)
 - [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)
 - [How to: Create a BDC model](../sharepoint/how-to-create-a-bdc-model.md)
-- [Integragte business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)
+- [Integrate business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)

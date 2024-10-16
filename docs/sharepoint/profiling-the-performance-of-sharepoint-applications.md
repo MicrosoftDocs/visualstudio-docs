@@ -1,7 +1,6 @@
 ---
-title: "Profiling the Performance of SharePoint Applications | Microsoft Docs"
+title: "Profiling the Performance of SharePoint Applications"
 description: Profile the performance of SharePoint applications if they are running slowly or inefficiently. Use Visual Studio profiling features to find problematic code.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -17,10 +16,8 @@ helpviewer_keywords:
   - "profiling [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Profile the performance of SharePoint applications
 
@@ -63,7 +60,7 @@ Coded UI tests automatically drive your SharePoint application through its user 
 |[Unit Test Your Code](../test/unit-test-your-code.md)|Describes how to find logic errors in your code by using unit tests.|
 |[Testing SharePoint 2010 Applications with Coded UI Tests](/previous-versions/visualstudio/visual-studio-2015/test/testing-sharepoint-2010-applications-with-coded-ui-tests?preserve-view=true&view=vs-2015)|Describes how to test the user interface of your SharePoint applications.|
 
-## See also
+## Related content
 
 - [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
 - [Improve Code Quality](../test/improve-code-quality.md)

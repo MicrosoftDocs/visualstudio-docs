@@ -1,21 +1,20 @@
 ---
-description: "Facilitates walking the stack using the program debug database (.pdb) file."
-title: "IDiaStackWalkHelper | Microsoft Docs"
+description: Facilitates walking the stack using the program debug database (.pdb) file.
+title: IDiaStackWalkHelper
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackWalkHelper2 interface"
-ms.assetid: d66e5c84-565d-494e-8486-f91db9a34548
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackWalkHelper
+
 Facilitates walking the stack using the program debug database (.pdb) file.
 
 ## Syntax
@@ -42,7 +41,7 @@ IDiaStackWalkHelper: IUnknown
 |[IDiaStackWalkHelper::imageForVA](../../debugger/debug-interface-access/idiastackwalkhelper-imageforva.md)|Retrieves the starting virtual address of an executable, given a virtual address somewhere in the executable's memory space.|
 
 ## Remarks
- This interface is called by the DIA code to obtain information about the executable to construct a list of stack frames during program execution.
+ This interface is called by the Debug Interface Access (DIA) code to obtain information about the executable to construct a list of stack frames during program execution.
 
 ## Notes for Callers
  A client application implements this interface to support walking the stack during program execution. An instance of this interface is passed to the [IDiaStackWalker::getEnumFrames](../../debugger/debug-interface-access/idiastackwalker-getenumframes.md) or [IDiaStackWalker::getEnumFrames2](../../debugger/debug-interface-access/idiastackwalker-getenumframes2.md) methods.

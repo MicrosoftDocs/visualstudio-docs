@@ -1,7 +1,6 @@
 ---
 title: "Create external list in SharePoint using business data"
 description: Create a model for the BDC service that returns information about contacts in a business database, then make an external list in SharePoint using this model.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -18,10 +17,8 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], external list"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Walkthrough: Create an external list in SharePoint by using business data
 
@@ -203,8 +200,12 @@ Add a Specific Finder method to the Contact entity by using the **BDC Method Det
     > [!NOTE]
     > Replace the value of the `ServerName` field with the name of your server.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb" id="Snippet3":::
+     ---
 
 ## Add a finder method
 
@@ -231,8 +232,12 @@ To enable the BDC service to display the contacts in a list, you must add a Find
      > [!NOTE]
      > Replace the value of the `ServerName` field with the name of your server.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb" id="Snippet2":::
+     ---
 
 ## Test the project
 
@@ -263,17 +268,10 @@ When you run the project, the SharePoint site opens and Visual Studio adds your 
 
      The details of the contact that you chose appear on a form.
 
-## Next steps
-
-You can learn more about how to design models for the BDC service in SharePoint from these topics:
+## Related content
 
 - [How to: Add a Creator method](../sharepoint/how-to-add-a-creator-method.md).
 - [How to: Add an Updater method](../sharepoint/how-to-add-an-updater-method.md).
 - [How to: Add a Deleter method](../sharepoint/how-to-add-a-deleter-method.md).
-
-## See also
-
-[Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
-[Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)
-[BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)
-[Integrate business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)
+- [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)
+- [Integrate business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)

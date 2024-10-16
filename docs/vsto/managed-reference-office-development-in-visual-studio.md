@@ -1,7 +1,6 @@
 ---
 title: "Managed reference (Office development in Visual Studio)"
 description: Learn about API reference documentation for namespaces and types that are used in Office projects that target the .NET Framework.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "08/14/2019"
 ms.topic: "reference"
@@ -13,13 +12,12 @@ helpviewer_keywords:
   - "Office development in Visual Studio, reference"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Managed reference (Office development in Visual Studio)
-  This section contains API reference documentation for namespaces and types that are used in Office projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](includes/net-v45-md.md)]. For API reference documentation about the namespaces and types that are used in Office projects that target the .NET Framework 3.5, see the following reference section in the Visual Studio documentation: [Managed reference (Office development in Visual Studio)](managed-reference-office-development-in-visual-studio.md).
+
+  This section contains API reference documentation for namespaces and types that are used in Office projects that target the .NET Framework 4 or the .NET Framework 4.5. For API reference documentation about the namespaces and types that are used in Office projects that target the .NET Framework 3.5, see the following reference section in the Visual Studio documentation: [Managed reference (Office development in Visual Studio)](managed-reference-office-development-in-visual-studio.md).
 
 [!include[Add-ins note](includes/addinsnote.md)]
 
@@ -62,7 +60,7 @@ ms.workload:
 
  <xref:Microsoft.VisualStudio.Tools.Applications.Runtime>
 
- Contains most of the exceptions that can be thrown by the [!INCLUDE[vsto_runtime](includes/vsto-runtime-md.md)], several classes that can be used to cache data in document-level customizations, and other APIs that are part of the Visual Studio infrastructure.
+ Contains most of the exceptions that can be thrown by the  Visual Studio Tools for Office runtime , several classes that can be used to cache data in document-level customizations, and other APIs that are part of the Visual Studio infrastructure.
 
  <xref:Microsoft.VisualStudio.Tools.Office.BuildTasks>
 

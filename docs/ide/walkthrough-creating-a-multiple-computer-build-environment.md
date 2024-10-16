@@ -1,18 +1,15 @@
 ---
 title: Create a multiple-computer build environment
-description: Create a build environment within your organization by installing Visual Studio on a host computer and then copying various files and settings to another computer.
-ms.custom: SEO-VS-2020
+description: Create a build environment in your organization by installing Visual Studio on a host computer and then copying various files and settings to another computer.
 ms.date: 11/04/2016
-ms.technology: vs-ide-compile
+ms.subservice: compile-build
 ms.topic: conceptual
 helpviewer_keywords:
   - "MSBuild, building on multiple computers"
   - "build environment, MSBuild"
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.workload:
-  - "multiple"
+manager: mijacobs
 ---
 # Walkthrough: Create a multiple-computer build environment
 
@@ -20,7 +17,7 @@ You can create a build environment within your organization by installing Visual
 
 This document does not confer rights to redistribute the software externally or to provide build environments to third parties.
 
-> Disclaimer<br /><br /> This document is provided on a "as-is" basis. While we have tested the steps outlined, we are not able to exhaustively test every configuration. We will attempt to keep the document current with any additional information learned. Information and views expressed in this document, including URL and other Internet website references, may change without notice. Microsoft makes no warranties, express or implied, with respect to the information provided here. You bear the risk of using it.<br /><br /> This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.<br /><br /> You have no obligation to give Microsoft any suggestions, comments or other feedback ("Feedback") relating to this document. However, any Feedback you voluntarily provide may be used in Microsoft Products and related specifications or other documentation (collectively, "Microsoft Offerings") which in turn may be relied upon by other third parties to develop their own products. Accordingly, if you do give Microsoft Feedback on any version of this document or the Microsoft Offerings to which they apply, you agree: (a) Microsoft may freely use, reproduce, license, distribute, and otherwise commercialize your Feedback in any Microsoft Offering; (b) You also grant third parties, without charge, only those patent rights necessary to enable other products to use or interface with any specific parts of a Microsoft Product that incorporate Your Feedback; and (c) You will not give Microsoft any Feedback (i) that you have reason to believe is subject to any patent, copyright or other intellectual property claim or right of any third party; or (ii) subject to license terms which seek to require any Microsoft Offering incorporating or derived from such Feedback, or other Microsoft intellectual property, to be licensed to or otherwise shared with any third party.
+> Disclaimer<br /><br /> This document is provided on an "as-is" basis. While we have tested the steps outlined, we are not able to exhaustively test every configuration. We will attempt to keep the document current with any additional information learned. Information and views expressed in this document, including URL and other Internet website references, may change without notice. Microsoft makes no warranties, express or implied, with respect to the information provided here. You bear the risk of using it.<br /><br /> This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.<br /><br /> You have no obligation to give Microsoft any suggestions, comments or other feedback ("Feedback") relating to this document. However, any Feedback you voluntarily provide may be used in Microsoft Products and related specifications or other documentation (collectively, "Microsoft Offerings") which in turn may be relied upon by other third parties to develop their own products. Accordingly, if you do give Microsoft Feedback on any version of this document or the Microsoft Offerings to which they apply, you agree: (a) Microsoft may freely use, reproduce, license, distribute, and otherwise commercialize your Feedback in any Microsoft Offering; (b) You also grant third parties, without charge, only those patent rights necessary to enable other products to use or interface with any specific parts of a Microsoft Product that incorporate Your Feedback; and (c) You will not give Microsoft any Feedback (i) that you have reason to believe is subject to any patent, copyright or other intellectual property claim or right of any third party; or (ii) subject to license terms which seek to require any Microsoft Offering incorporating or derived from such Feedback, or other Microsoft intellectual property, to be licensed to or otherwise shared with any third party.
 
 This walkthrough has been validated against the following operating systems:
 
@@ -283,7 +280,7 @@ If *vcvarsall.bat* runs successfully—that is, no error message is displayed—
 
    - %windir%\Microsoft.NET\Framework64\v4.0.30319
 
-## <a name="install-msbuild-to-gac" /> Install MSBuild assemblies to the Global Assembly Cache (GAC) on the build computer
+## <a name="install-msbuild-to-gac"></a> Install MSBuild assemblies to the Global Assembly Cache (GAC) on the build computer
 
 MSBuild requires some additional assemblies to be installed to the GAC on the build computer.
 
@@ -378,20 +375,6 @@ You can create a build environment that can be deployed to various computers and
     <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), Partner.AutoImports.props))\Partner.AutoImports.props"/>
     ```
 
-::: moniker range="vs-2017"
-
-6. Change the command-line environment as follows:
-
-    - Set Depot=*location of the Depot directory that you created in step 1*
-
-    - Set path=%path%;*location of MSBuild on the computer*;%Depot%\Windows\System32;%Depot%\Windows\SysWOW64;%Depot%\Microsoft Visual Studio 15.0\Common7\IDE\
-
-       For native 64-bit building, point to the 64-bit version of MSBuild.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 6. Change the command-line environment as follows:
 
     - Set Depot=*location of the Depot directory that you created in step 1*
@@ -400,9 +383,7 @@ You can create a build environment that can be deployed to various computers and
 
        For native 64-bit building, point to the 64-bit version of MSBuild.
 
-::: moniker-end
-
-## See also
+## Related content
 
 - [Prepare a test machine to run a debug executable](/cpp/windows/preparing-a-test-machine-to-run-a-debug-executable)
 - [Command-line reference](../msbuild/msbuild-command-line-reference.md)

@@ -1,28 +1,39 @@
 ---
 description: "Specifies the name type of files to retrieve."
-title: GETNAME_TYPE | Microsoft Docs
+title: GETNAME_TYPE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - GETNAME_TYPE
 helpviewer_keywords:
 - GETNAME_TYPE enumeration
-ms.assetid: 2f9f1679-e9e8-4c9c-ac90-aa07bfe69914
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # GETNAME_TYPE
+
 Specifies the name type of files to retrieve.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_GETNAME_TYPE {
+    GN_NAME         = 0,
+    GN_FILENAME     = 1,
+    GN_BASENAME     = 2,
+    GN_MONIKERNAME  = 3,
+    GN_URL          = 4,
+    GN_TITLE        = 5,
+    GN_STARTPAGEURL = 6
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_GETNAME_TYPE {
     GN_NAME         = 0,
@@ -35,18 +46,7 @@ enum enum_GETNAME_TYPE {
 };
 typedef DWORD GETNAME_TYPE;
 ```
-
-```csharp
-public enum enum_GETNAME_TYPE {
-    GN_NAME         = 0,
-    GN_FILENAME     = 1,
-    GN_BASENAME     = 2,
-    GN_MONIKERNAME  = 3,
-    GN_URL          = 4,
-    GN_TITLE        = 5,
-    GN_STARTPAGEURL = 6
-};
-```
+---
 
 ## Fields
 `GN_NAME`\

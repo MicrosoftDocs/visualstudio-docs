@@ -1,28 +1,25 @@
 ---
-description: "Enables a client application to supply bytes of an executable file as  specified by file position."
-title: "IDiaReadExeAtOffsetCallback | Microsoft Docs"
+description: Enables a client application to supply bytes of an executable file as specified by file position.
+title: IDiaReadExeAtOffsetCallback
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaReadExeAtOffsetCallback interface"
-ms.assetid: 3c961641-3ce3-4bc3-bd6e-a802fa3bec49
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaReadExeAtOffsetCallback
+
 Enables a client application to supply bytes of an executable file as  specified by file position.
 
 ## Syntax
 
-```
-IDiaReadExeAtOffsetCallback : IUnknown
-```
+`IDiaReadExeAtOffsetCallback : IUnknown`
 
 ## Methods in Vtable Order
  The following table shows the methods of `IDiaReadExeAtOffsetCallback`.

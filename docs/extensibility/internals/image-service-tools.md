@@ -1,18 +1,15 @@
 ---
-title: Image Service Tools | Microsoft Docs
+title: Image Service Tools
 description: Learn about the tools provided in the Visual Studio SDK that can help you build extensions using the Visual Studio image service.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
-ms.assetid: 2ddb0342-eb22-429a-bdf3-ccc2719a7ceb
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Image Service Tools
+
 The VS SDK includes several tools to help extension builders use the Visual Studio image service.
 
 - The [Manifest from Resources](../../extensibility/internals/manifest-from-resources.md) tool takes a list of image resources (.png or .xaml files) and generates an image manifest file.

@@ -1,7 +1,6 @@
 ---
-title: Default Command, Group, and Toolbar Placement | Microsoft Docs
+title: Default Command, Group, and Toolbar Placement
 description: Learn about the IDE commands, product commands, and editor commands, that the Visual Studio user interface displays by default.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,21 +10,19 @@ helpviewer_keywords:
 - command groups
 - commands [Visual Studio], default IDE
 - commands [Visual Studio], default product
-ms.assetid: 35342110-d639-4577-8367-00b21dcc6f07
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Default command, group, and toolbar placement
-For product uniformity and stability, the UI displays certain command groups by default, and [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] provides definitions for commands and command groups. VSPackages can also use the standard commands and command groups.
+
+For product uniformity and stability, the UI displays certain command groups by default, and Visual Studio provides definitions for commands and command groups. VSPackages can also use the standard commands and command groups.
 
  The default command groups fall into three categories: IDE commands, product commands, and editor commands.
 
 ## Default IDE commands
- The default IDE toolbar includes commands shared by all products contained in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. These include commands relating to generic project operations, such as the **Save** command and the **Add Item** command. VSPackages should not add to or subtract from this toolbar, with one exception: If the product or VSPackage adds a new tool window, then the window should be added to the list of available tool windows on the **View** menu. New products or VSPackages can add their own toolbar.
+ The default IDE toolbar includes commands shared by all products contained in Visual Studio. These include commands relating to generic project operations, such as the **Save** command and the **Add Item** command. VSPackages should not add to or subtract from this toolbar, with one exception: If the product or VSPackage adds a new tool window, then the window should be added to the list of available tool windows on the **View** menu. New products or VSPackages can add their own toolbar.
 
 ## Default product commands
  Each product can provide the IDE with its own default toolbar that contains important and frequently used commands. It is best, however, to use existing menus and toolbars whenever possible and supplement them with other task-specific toolbars as needed.
@@ -37,6 +34,6 @@ For product uniformity and stability, the UI displays certain command groups by 
 
  Editor toolbars should be placed below IDE and product toolbars.
 
-## See also
+## Related content
 - [IDE-defined commands, menus, and groups](../../extensibility/internals/ide-defined-commands-menus-and-groups.md)
 - [How VSPackages add user interface elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)

@@ -1,21 +1,19 @@
 ---
 description: "Enumerates a DIA data source table."
-title: "IDiaTable | Microsoft Docs"
+title: "IDiaTable"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaTable interface"
-ms.assetid: c99a2c44-7b72-4e3c-b963-25fe3df3a555
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDiaTable
+
 Enumerates a DIA data source table.
 
 ## Syntax

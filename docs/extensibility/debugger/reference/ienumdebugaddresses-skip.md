@@ -1,39 +1,39 @@
 ---
 description: "This method skips over the specified number of elements in the addresses enumeration."
-title: IEnumDebugAddresses::Skip | Microsoft Docs
+title: IEnumDebugAddresses::Skip
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugAddresses::Skip
 helpviewer_keywords:
 - IEnumDebugAddresses::Skip method
-ms.assetid: ed9a8e71-30ef-414b-9da5-c9a2a251b84e
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugAddresses::Skip
+
 This method skips over the specified number of elements.
 
 ## Syntax
 
-```cpp
-HRESULT Skip(
-   [in] ULONG celt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Skip(
    uint celt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Skip(
+   [in] ULONG celt
+);
+```
+---
 
 ## Parameters
 `celt`\

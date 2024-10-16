@@ -1,7 +1,6 @@
 ---
 title: "Validate data when new row is added to ListObject control"
 description: Learn how you can use Visual Studio to validate data when a new row is added to a ListObject control.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "ListObject control, validating data"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Validate data when a new row is added to a ListObject control
+# Validate data when a new row is added to a ListObject control
+
   Users can add new rows to a <xref:Microsoft.Office.Tools.Excel.ListObject> control that is bound to data. You can validate the user's data before committing the changes to the data source.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -34,23 +32,35 @@ ms.workload:
 
 1. Create variables for the ID and <xref:System.Data.DataTable> at the class level.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs" id="Snippet8":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb" id="Snippet8":::
+     ---
 
 2. Create a new <xref:System.Data.DataTable> and add sample columns and data in the `Startup` event handler of the `Sheet1` class (in a document-level project) or `ThisAddIn` class (in a VSTO Add-in project).
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs" id="Snippet9":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb" id="Snippet9":::
+     ---
 
 3. Add code to the `list1_BeforeAddDataBoundRow` event handler to check whether the age entered falls within the acceptable range.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs" id="Snippet10":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb" id="Snippet10":::
+     ---
 
 ## Compile the code
  This code example assumes that you have an existing <xref:Microsoft.Office.Tools.Excel.ListObject> named `list1` on the worksheet in which this code appears.
 
-## See also
+## Related content
 - [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
 - [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)

@@ -2,20 +2,23 @@
 title: "IManagedAddin interface"
 description: "Implement the IManagedAddin interface to create a component that loads managed VSTO Add-ins."
 ms.date: "02/02/2017"
-ms.topic: "interface"
+ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"
+  - C++
+f1_keywords:
+  - "IMANAGEDADDIN/IManagedAddIn"
+  - "IManagedAddIn"
 helpviewer_keywords:
   - "IManagedAddin interface"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # IManagedAddin interface
+
   Implement the IManagedAddin interface to create a component that loads managed VSTO Add-ins. This interface was added in the 2007 Microsoft Office system.
 
 ## Syntax
@@ -45,7 +48,7 @@ interface IManagedAddin : IUnknown
 |[IManagedAddin::Unload](../vsto/imanagedaddin-unload.md)|Called just before a Microsoft Office application unloads a managed VSTO Add-in.|
 
 ## Remarks
- Microsoft Office applications, starting with the 2007 Microsoft Office system, use the IManagedAddin interface to help load Office VSTO Add-ins. You can implement the IManagedAddin interface to create your own VSTO Add-in loader and runtime for managed VSTO Add-ins, instead of using the VSTO Add-in loader (*VSTOLoader.dll*) and [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]. For more information, see [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).
+ Microsoft Office applications, starting with the 2007 Microsoft Office system, use the IManagedAddin interface to help load Office VSTO Add-ins. You can implement the IManagedAddin interface to create your own VSTO Add-in loader and runtime for managed VSTO Add-ins, instead of using the VSTO Add-in loader (*VSTOLoader.dll*) and  Visual Studio Tools for Office runtime . For more information, see [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).
 
 ## How managed Add-ins are loaded
  The following steps occur when an application starts:
@@ -62,7 +65,7 @@ interface IManagedAddin : IUnknown
 
 3. If the application finds a `Manifest` entry, the application tries to load a managed VSTO Add-in loader component. The application does this by trying to create a COM object that implements the IManagedAddin interface.
 
-    The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] includes a VSTO Add-in loader component (*VSTOLoader.dll*), or you can create your own by implementing the IManagedAddin interface.
+    The  Visual Studio Tools for Office runtime  includes a VSTO Add-in loader component (*VSTOLoader.dll*), or you can create your own by implementing the IManagedAddin interface.
 
 4. The application calls the [IManagedAddin::Load](../vsto/imanagedaddin-load.md) method and passes in the value of the `Manifest` entry.
 
@@ -78,7 +81,7 @@ interface IManagedAddin : IUnknown
  Microsoft Office applications use this CLSID to create the COM object that implements IManagedAddin.
 
 > [!CAUTION]
-> This CLSID is also used by *VSTOLoader.dll* in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]. Therefore, if you use IManagedAddin to create your own VSTO Add-in loader and runtime component, you cannot deploy your component to computers that are running VSTO Add-ins that rely on the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
+> This CLSID is also used by *VSTOLoader.dll* in the  Visual Studio Tools for Office runtime . Therefore, if you use IManagedAddin to create your own VSTO Add-in loader and runtime component, you cannot deploy your component to computers that are running VSTO Add-ins that rely on the  Visual Studio Tools for Office runtime .
 
 ## See also
 - [Unmanaged API reference &#40;Office development in Visual Studio&#41;](../vsto/unmanaged-api-reference-office-development-in-visual-studio.md)

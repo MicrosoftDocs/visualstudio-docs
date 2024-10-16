@@ -1,25 +1,22 @@
 ---
-title: Service Essentials | Microsoft Docs
+title: Service Essentials
 description: Learn about services, which are interfaces for another VSPackage to consume. Services in a VSPackage can override built-in or other services.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - services, essentials
-ms.assetid: fbe84ad9-efe1-48b1-aba3-b50b90424d47
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Service Essentials
-A service is a contract between two VSPackages. One VSPackage provides a specific set of interfaces for another VSPackage to consume. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is itself a collection of VSPackages that provides services to other VSPackages.
+
+A service is a contract between two VSPackages. One VSPackage provides a specific set of interfaces for another VSPackage to consume. Visual Studio is itself a collection of VSPackages that provides services to other VSPackages.
 
  For example, you can use the SVsActivityLog service to obtain an IVsActivityLog interface, which you can use to write to the activity log. For more information, see [How to: Use the Activity Log](../../extensibility/how-to-use-the-activity-log.md).
 
- [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] also provides some built-in services which are not registered. VSPackages can replace built-in or other services by providing a service override. Only one service override is permitted for any service.
+ Visual Studio also provides some built-in services which are not registered. VSPackages can replace built-in or other services by providing a service override. Only one service override is permitted for any service.
 
  Services have no discoverability. Therefore, you must know the service identifier (SID) of a service that you want to consume, and you must know which interfaces it provides. The reference documentation for the service provides this information.
 
@@ -33,23 +30,26 @@ A service is a contract between two VSPackages. One VSPackage provides a specifi
 
 - Services, or service overrides, are loaded on demand, that is, the service provider is loaded when the service it provides is requested by another VSPackage.
 
-- To support on-demand loading, a service provider registers its global services with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. For more information, see [How to: Provide a Service](../../extensibility/how-to-provide-a-service.md).
+- To support on-demand loading, a service provider registers its global services with Visual Studio. For more information, see [How to: Provide a Service](../../extensibility/how-to-provide-a-service.md).
 
 - After you obtain a service, use [QueryInterface](/cpp/atl/queryinterface) (unmanaged code) or casting (managed code) to get the desired interface, for example:
 
-  ```vb
-  TryCast(GetService(GetType(SVsActivityLog)), IVsActivityLog)
-  ```
-
+  ### [C#](#tab/csharp)
   ```csharp
   GetService(typeof(SVsActivityLog)) as IVsActivityLog;
   ```
 
+  ### [VB](#tab/vb)
+  ```vb
+  TryCast(GetService(GetType(SVsActivityLog)), IVsActivityLog)
+  ```
+  ---
+
 - Managed code refers to a service by its type, whereas unmanaged code refers to a service by its GUID.
 
-- When [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] loads a VSPackage, it passes a service provider to the VSPackage to give the VSPackage access to global services. This is referred to as "siting" the VSPackage.
+- When Visual Studio loads a VSPackage, it passes a service provider to the VSPackage to give the VSPackage access to global services. This is referred to as "siting" the VSPackage.
 
-- VSPackages can be service providers for the objects they create. For example, a form might send a request for a color service to its frame, which might pass the request to [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+- VSPackages can be service providers for the objects they create. For example, a form might send a request for a color service to its frame, which might pass the request to Visual Studio.
 
 - Managed objects that are deeply nested, or not sited at all, may call <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> for direct access to global services.
 
@@ -75,21 +75,24 @@ Fortunately, <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> wor
 
 - Insert this code in the constructor, tool window, or control container:
 
+    ### [C#](#tab/csharp)
     ```csharp
     IVsActivityLog log = Package.GetGlobalService(typeof(SVsActivityLog)) as IVsActivityLog;
         if (log == null) return;
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     Dim log As IVsActivityLog = TryCast(Package.GetGlobalService(GetType(SVsActivityLog)), IVsActivityLog)
     If log Is Nothing Then
         Return
     End If
     ```
+    ---
 
     This code obtains an SVsActivityLog service and casts it to an IVsActivityLog interface, which can be used to write to the activity log. For an example, see [How to: Use the Activity Log](../../extensibility/how-to-use-the-activity-log.md).
 
-## See also
+## Related content
 
 - [List of Available Services](../../extensibility/internals/list-of-available-services.md)
 - [Using and Providing Services](../../extensibility/using-and-providing-services.md)

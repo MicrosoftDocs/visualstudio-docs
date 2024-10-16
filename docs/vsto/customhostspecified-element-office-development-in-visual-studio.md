@@ -2,7 +2,6 @@
 title: "&lt;customHostSpecified&gt; element (Office development in Visual Studio)"
 description: Learn how the customHostSpecified element indicates that this solution is not a stand-alone application.
 titleSuffix: ""
-ms.custom: "seodec18, SEO-VS-2020"
 ms.date: "02/02/2017"
 ms.topic: "reference"
 dev_langs:
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "customHostSpecified element"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # &lt;customHostSpecified&gt; element (Office development in Visual Studio)
+
   The `customHostSpecified` element indicates that this solution is not a stand-alone application. Office solutions contain components that are hosted inside Microsoft Office applications.
 
 ## Syntax
@@ -31,7 +29,7 @@ ms.workload:
 ## Elements and attributes
  The `customHostSpecified` element is required for Office solutions. This element is in the `co.v1` namespace and specifies that this deployment contains a component that will be deployed inside of a custom host, and is not a stand-alone application.
 
- This element is a child of the first `<entrypoint>` element in the application manifest. There can be no other child elements in that `<entrypoint>` element or [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] will raise a validation error during installation.
+ This element is a child of the first `<entrypoint>` element in the application manifest. There can be no other child elements in that `<entrypoint>` element or ClickOnce will raise a validation error during installation.
 
  This element has no attributes and no child elements.
 

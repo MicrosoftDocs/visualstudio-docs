@@ -1,0 +1,59 @@
+{
+  "BaseConfiguration": "docutune-default.json",
+  "Docsets": [
+    {
+      "DocsetName": "Docker",
+      "BasePath": "/visualstudio/docker"
+    },
+    {
+      "DocsetName": "mac",
+      "BasePath": "/visualstudio/mac"
+    },
+    {
+      "DocsetName": "gamedev",
+      "BasePath": "/visualstudio/gamedev"
+    },
+    {
+      "DocsetName": "bridge-to-kubernetes",
+      "BasePath": "/visualstudio/bridge"
+    },
+    {
+      "DocsetName": "scripting-docs",
+      "BasePath": "/scripting"
+    },
+    {
+      "DocsetName": "subscriptions",
+      "BasePath": "/visualstudio/subscriptions"
+    },
+    {
+      "DocsetName": "docs",
+      "BasePath": "/visualstudio"
+    },
+    {
+      "DocsetName": "vs-gamedev",
+      "BasePath": "/visualstudio/gamedev"
+    }
+  ],
+  "MetadataMultilineValues": true,
+  "RemoveTermSets": [
+    "*right-click*",
+    "*for-more-information-see*",
+    "*had-had*",
+    "formatting-accessibility-advanced",
+    "formatting-learn-more",
+    "*and-then-click*",
+    "casing-product-windows-windows",
+    "invalid-abbreviation-ide-integrated-development-environment-0001-define-abbreviation*",
+    "invalid-abbreviation-ide-integrated-development-environment-0001-include-abbreviation*",
+    "*single-backtick*",
+    "*incorrect-backtick-spacing*",
+    "product-azure-app-service",
+    "product-windows-client",
+    "*-caution-*",
+    "abbreviation-linq-language-integrated-query",
+    "casing-prefixes",
+    "product-microsoft-visual-studio",
+    "formatting-minimum-0002",
+    "invalid-compound-word-verb-0002-005"
+  ]
+}

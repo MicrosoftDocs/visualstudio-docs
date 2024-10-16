@@ -1,7 +1,6 @@
 ---
 title: Shell Command
 description: Learn about the Shell command and how it launches executable programs from within Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -14,16 +13,14 @@ helpviewer_keywords:
 - .exe files
 - Shell, launching exe files
 - Visual Studio, executables from
-ms.assetid: 737fda23-b852-45c4-a9fe-41cbce6ba70f
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Shell Command
-Launches executable programs from within [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+
+Launches executable programs from within Visual Studio.
 
 ## Syntax
 

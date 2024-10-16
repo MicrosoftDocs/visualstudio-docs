@@ -1,20 +1,17 @@
 ---
-title: 'Walkthrough: Creating a Custom Editor | Microsoft Docs'
+title: 'Walkthrough: Creating a Custom Editor'
 description: Learn how to the VSPackage project template can create a simple custom editor in C++ by using this walkthrough.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - create
-ms.assetid: d090abb6-d99f-4083-a3db-cd16bf81ce7d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Walkthrough: Create a custom editor
+
 The VSPackage project template can create a simple custom editor in C++. The VSPackage project template no longer supports C# or Visual Basic projects. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
 
 ## Prerequisites
@@ -43,5 +40,5 @@ The VSPackage project template can create a simple custom editor in C++. The VSP
 
      The editor supports cut-and-paste, find-and-replace, and open-and-load operations.
 
-## See also
+## Related content
 - [VSPackages](../extensibility/internals/vspackages.md)

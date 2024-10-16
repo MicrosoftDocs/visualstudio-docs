@@ -2,20 +2,17 @@
 title: EnableEditOfLocationField Element (Visual Studio Templates)
 description: Learn about the EnableEditOfLocationField element and how it specifies if the user can edit the location field.
 titleSuffix: ""
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 helpviewer_keywords:
 - EnableEditOfLocationField (Visual Studio project templates)
-ms.assetid: 51a91963-8a3f-4741-928e-bc90c11473bb
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
 ---
 # EnableEditOfLocationField element (Visual Studio templates)
+
 Specifies if the user can edit the location field.
 
  \<VSTemplate>
@@ -54,7 +51,7 @@ Specifies if the user can edit the location field.
  In the **New Project** dialog box, the **Location** text box specifies the directory where a new project is saved.
 
 ## Example
- The following example illustrates the metadata for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Windows application.
+ The following example illustrates the metadata for a Visual C# Windows application.
 
 ```
 <VSTemplate Type="Project" Version="3.0.0"

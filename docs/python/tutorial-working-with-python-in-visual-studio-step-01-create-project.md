@@ -1,76 +1,131 @@
 ---
-title: Python in Visual Studio tutorial step 1, create a project
+title: Python in Visual Studio tutorial Step 1, create a project
 titleSuffix: ""
-description: Overview and step 1 of a core walkthrough of Python capabilities in Visual Studio, including prerequisites and creating a new Python project.
-ms.date: 01/28/2019
+description: Overview and Step 1 of a core walkthrough of Python capabilities in Visual Studio, including prerequisites and creating a new Python project.
+author: cwebster-99
+ms.author: cowebster
+ms.subservice: python
 ms.topic: tutorial
-author: JoshuaPartlow
-ms.author: joshuapa
-manager: jmartens
-ms.technology: vs-python
+ms.date: 04/18/2024
+manager: mijacobs
 ms.custom: vs-acquisition
-ms.workload:
-  - python
-  - data-science
+
+# CustomerIntent: As a developer, I want to create Python applications and projects in Visual Studio so I can support my Python development needs.
 ---
 
 # Tutorial: Work with Python in Visual Studio
 
-Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by both a strong developer community and many free libraries. The language supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing and is used by many universities, scientists, casual developers, and professional developers alike.
+This article is the first step in a six part tutorial series that demonstrates how to work with Python in Visual Studio. Python is a popular programming language that's reliable, flexible, easy to learn, and free to use on all operating systems. A strong developer community and many free libraries provide robust support for working with Python. The language supports all kinds of development, including web applications, web services, desktop apps, scripting, and scientific computing. Many universities, scientists, casual developers, and professional developers use Python. Visual Studio provides first-class language support for Python.
 
-Visual Studio provides first-class language support for Python. This tutorial guides you through the following steps:
+The six parts in the tutorial series include:
 
-- [Step 0: Installation](tutorial-working-with-python-in-visual-studio-step-00-installation.md)
-- [Step 1: Create a Python project (this article)](#step-1-create-a-new-python-project)
+- [Step 1: Create a Python project (this article)](#create-a-new-python-project)
 - [Step 2: Write and run code to see Visual Studio IntelliSense at work](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)
 - [Step 3: Create more code in the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)
 - [Step 4: Run the completed program in the Visual Studio debugger](tutorial-working-with-python-in-visual-studio-step-04-debugging.md)
 - [Step 5: Install packages and manage Python environments](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)
 - [Step 6: Work with Git](tutorial-working-with-python-in-visual-studio-step-06-working-with-git.md)
 
+In Step 1 of the tutorial, you learn how to:
+
+> [!div class="checklist"]
+> - Create a Python application project in Visual Studio
+> - Manage your Python project files in Solution Explorer
+
 [!INCLUDE[tutorial-prereqs](includes/tutorial-prereqs.md)]
 
-## Step 1: Create a new Python project
+## Create a new Python project
 
-A *project* is how Visual Studio manages all the files that come together to produce a single application, including source code, resources, configurations, and so on. A project formalizes and maintains the relationship between all the project's files as well as external resources that are shared between multiple projects. As such, projects allow your application to effortlessly expand and grow much easier than simply managing a project's relationships in ad hoc folders, scripts, text files, and even your own mind.
+A *project* is how Visual Studio manages all the files that come together to produce a single application. Application files include source code, resources, and configurations. A project formalizes and maintains the relationships among all the project's files. The project also manages external resources that are shared between multiple projects. A project allows your application to effortlessly expand and grow. Using projects is easier than managing relationships by hand in unplanned folders, scripts, text files, and your memory.
 
-In this tutorial you begin with a simple project containing a single, empty code file.
+This tutorial begins by creating a simple project that contains a single, empty code file.
 
-1. In Visual Studio, select **File** > **New** > **Project** (**Ctrl**+**Shift**+**N**), which brings up the **New Project** dialog. Here you browse templates across different languages, then select one for your project and specify where Visual Studio places files.
+::: moniker range="<=vs-2019"
 
-1. To view Python templates, select **Installed** > **Python** on the left, or search for "Python". Using search is a great way to find a template when you can't remember its location in the languages tree.
+1. In Visual Studio, select **File** > **New** > **Project** to open the **New Project** dialog. You can also use the keyboard shortcut **Ctrl**+**Shift**+**N**. In the dialog, you can browse templates across different languages, select a template for your project, and specify where Visual Studio places files.
 
-    ![New project dialog with Python projects shown](media/vs-getting-started-python-01-new-project.png)
+1. To view Python templates, select **Installed** > **Python** on the left menu, or search for "Python." The search option is a great way to find a template when you can't remember its location in the languages tree.
 
-    Notice how Python support in Visual Studio includes a number of project templates, including web applications using the Bottle, Flask, and Django frameworks. For the purposes of this walkthrough, however, let's start with an empty project.
+   :::image type="content" source="media/tutor-python-1-create-project.png" alt-text="Screenshot showing the Create a new project dialog box with Python project templates." lightbox="media/tutor-python-1-create-project.png":::
+
+   Python support in Visual Studio includes several project templates, including web applications using the Bottle, Flask, and Django frameworks. For the purposes of this walkthrough, however, let's start with an empty project.
 
 1. Select the **Python Application** template, specify a name for the project, and select **OK**.
 
-1. After a few moments, Visual Studio shows the project structure in the **Solution Explorer** window (1). The default code file is open in the editor (2). The **Properties** window (3) also appears to show additional information for any item selected in **Solution Explorer**, including its exact location on disk.
+::: moniker-end
+::: moniker range=">=vs-2022"
 
-    ![Solution Explorer with a Python project](media/vs-getting-started-python-02-windows.png)
+1. In Visual Studio, select **File** > **New** > **Project** or use the keyboard shortcut **Ctrl**+**Shift**+**N**. The **Create a new project** screen opens, where you can search and browse templates across different languages.
+   
+1. To view Python templates, search for *python*. Search is a great way to find a template when you can't remember its location in the languages tree.
 
-1. Take a few moments to familiarize yourself with **Solution Explorer**, which is where you browse files and folders in your project.
+   :::image type="content" source="media/vs-2022/tutor-python-1-create-project-2022.png" alt-text="Screenshot showing the Create a new project dialog box in Visual Studio 2022 with Python project templates." lightbox="media/vs-2022/tutor-python-1-create-project-2022.png":::
 
-    ![Solution Explorer expanded to show various features](media/vs-getting-started-python-03-solution-explorer.png)
+   Python web support in Visual Studio includes several project templates, such as web applications in the Bottle, Flask, and Django frameworks. When you install Python with the Visual Studio Installer, select **Python Web Support** under **Optional** to install these templates. For this tutorial, start with an empty project.
 
-    (1) Highlighted in bold is your project, using the name you gave in the **New Project** dialog. On disk, this project is represented by a *.pyproj* file in your project folder.
+1. Select the **Python Application** template, and select **Next**.
 
-    (2) At the top level is a *solution*, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects. For example, if you write a C++ extension for your Python application, that C++ project could reside within the same solution. The solution might also contain a project for a web service, along with projects for dedicated test programs.
+1. On the **Configure your new project** screen, specify a name and file location for the project, and then select **Create**.
 
-    (3) Under your project you see source files, in this case only a single *.py* file. Selecting a file displays its properties in the **Properties** window. Double-clicking a file opens it in whatever way is appropriate for that file.
+::: moniker-end
 
-    (4) Also under the project is the **Python Environments** node. When expanded, you see the Python interpreters that are available to you. Expand an interpreter node to see the libraries that are installed into that environment (5).
+After a few moments, your new project opens in Visual Studio:
 
-    Right-click any node or item in **Solution Explorer** to access a menu of applicable commands. For example, the **Rename** command allows you to change the name of any node or item, including the project and the solution.
+::: moniker range="<=vs-2019"
+
+:::image type="content" source="media/tutor-python-1-environment-windows.png" alt-text="Screenshot showing the new project open in Visual Studio." lightbox="media/tutor-python-1-environment-windows.png":::
+
+::: moniker-end
+::: moniker range=">=vs-2022"
+
+:::image type="content" source="media/vs-2022/tutor-python-1-environment-windows-2022.png" alt-text="Screenshot showing the new project open in Visual Studio 2022." lightbox="media/vs-2022/tutor-python-1-environment-windows-2022.png":::
+
+::: moniker-end
+
+Here's what you see:
+
+- **(1)**: The Visual Studio **Solution Explorer** window shows the project structure.
+- **(2)**: The default code file opens in the editor.
+- **(3)**: The **Properties** window shows more information for the item selected in **Solution Explorer**, including its exact location on disk.
+
+## Review elements in Solution Explorer
+
+Take some time to familiarize yourself with **Solution Explorer**. This window in Visual Studio is where you can browse files and folders in your project.
+
+::: moniker range="<=vs-2019"
+
+:::image type="content" source="media/tutor-python-1-solution-explorer.png" alt-text="Screenshot of Solution Explorer expanded to show features." lightbox="media/tutor-python-1-solution-explorer.png":::
+
+::: moniker-end
+::: moniker range=">=vs-2022"
+
+:::image type="content" source="media/vs-2022/tutor-python-1-solution-explorer-2022.png" alt-text="Screenshot of Solution Explorer expanded to show features for Visual Studio 2022." lightbox="media/vs-2022/tutor-python-1-solution-explorer-2022.png":::
+
+::: moniker-end
+
+1. In **Solution Explorer** (**1**), notice the top level item in the structure. This item is your Visual Studio _solution_. By default, your solution name is the same as your project.
+   
+   A solution, which is shown as an _.sln_ file on disk, is a container for one or more related projects. For example, if you write a C++ extension for your Python application, that C++ project can be in the same solution. The solution might also contain a project for a web service, and projects for dedicated test programs.
+   
+1. Locate the item directly under the solution name. This item is your project (**2**). Your project name is the name you entered in the **Create a new project** dialog. Visual Studio uses bold to identify the currently selected project in your solution.
+
+   On disk, a _.pyproj_ file in your project folder represents the project.
+
+1. Toggle the **Expand/Collapse** arrow next to the project name to view your project source files. 
+
+   Visual Studio uses bold to identify which file is the _Start File_ for the program. In this example, you have only a single _.py_ file. (**3**)
+   
+1. To view the properties for a file in the **Properties** window, select the file in **Solution Explorer**.
+
+   If you don't see the **Properties** window, select the wrench icon in the **Solution Explorer** banner. Double-clicking a file opens it in whatever way is appropriate for that file.
+   
+1. Under your project node, locate the **Python Environments** node. **(4)** Expand the node to show the available Python interpreters.
+   
+1. Under the **Python Environments** node, expand an interpreter node to see the libraries installed in that environment. (**5**)
+   
+Right-click any node or item in **Solution Explorer** to show a context menu of applicable commands. For example, **Rename** lets you change the name of a node or item, including the project and the solution.
 
 ## Next step
 
 > [!div class="nextstepaction"]
-> [Write and run code](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)
-
-## Go deeper
-
-- [Python projects in Visual Studio](managing-python-projects-in-visual-studio.md).
-- [Learn about the Python language on python.org](https://www.python.org)
-- [Python for Beginners](https://www.python.org/about/gettingstarted/) (python.org)
+> [Step 2: Write and run code](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)

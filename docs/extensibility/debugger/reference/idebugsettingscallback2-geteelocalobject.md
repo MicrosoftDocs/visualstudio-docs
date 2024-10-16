@@ -1,35 +1,25 @@
 ---
-description: "Retrieves a expression evaluator local object given the metric name."
-title: IDebugSettingsCallback2::GetEELocalObject | Microsoft Docs
+description: "Retrieves an expression evaluator local object given the metric name."
+title: IDebugSettingsCallback2::GetEELocalObject
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugSettingsCallback2::GetEELocalObject
-ms.assetid: e69a3469-a049-420c-b918-c48a1e7b9baf
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugSettingsCallback2::GetEELocalObject
-Retrieves a expression evaluator local object given the metric name.
+
+Retrieves an expression evaluator local object given the metric name.
 
 ## Syntax
 
-```cpp
-HRESULT GetEELocalObject(
-   REFGUID     guidLang,
-   REFGUID     guidVendor,
-   LPCWSTR     pszMetric,
-   IUnknown ** ppUnk
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 private int GetEELocalObject(
    ref Guid          guidLang,
@@ -38,6 +28,16 @@ private int GetEELocalObject(
    out System.Object ppUnk
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEELocalObject(
+   REFGUID     guidLang,
+   REFGUID     guidVendor,
+   LPCWSTR     pszMetric,
+   IUnknown ** ppUnk
+);
+```
+---
 
 ## Parameters
 `guidLang`\

@@ -1,38 +1,38 @@
 ---
 description: "Retrieves the program destroy flags."
-title: IDebugProgramDestroyEventFlags2::GetFlags | Microsoft Docs
+title: IDebugProgramDestroyEventFlags2::GetFlags
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - GetFlags
 - IDebugProgramDestroyEventFlags2::GetFlags
-ms.assetid: dd53bd0c-459a-4077-ba81-780defb71e87
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgramDestroyEventFlags2::GetFlags
+
 Retrieves the program destroy flags.
 
 ## Syntax
 
-```cpp
-HRESULT GetFlags(
-   PROGRAM_DESTROY_FLAGS* pdwFlags
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int GetFlags(
    out enum_PROGRAM_DESTROY_FLAGS pdwFlags
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetFlags(
+   PROGRAM_DESTROY_FLAGS* pdwFlags
+);
+```
+---
 
 ## Parameters
 `pdwFlags`\

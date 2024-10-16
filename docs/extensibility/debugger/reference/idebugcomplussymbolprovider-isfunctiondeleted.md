@@ -1,37 +1,37 @@
 ---
 description: "Determines that the function at the specified debug address is deleted."
-title: IDebugComPlusSymbolProvider::IsFunctionDeleted | Microsoft Docs
+title: IDebugComPlusSymbolProvider::IsFunctionDeleted
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider::IsFunctionDeleted
-ms.assetid: b276bd25-6658-4898-bc36-04ecdf92aa2f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::IsFunctionDeleted
+
 Determines that the function at the specified debug address is deleted.
 
 ## Syntax
 
-```cpp
-HRESULT IsFunctionDeleted(
-    IDebugAddress* pAddress
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsFunctionDeleted(
     IDebugAddress pAddress
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsFunctionDeleted(
+    IDebugAddress* pAddress
+);
+```
+---
 
 ## Parameters
 `pAddress`\

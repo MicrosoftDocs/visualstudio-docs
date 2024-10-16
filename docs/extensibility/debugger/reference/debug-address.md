@@ -1,37 +1,27 @@
 ---
 description: "This structure represents an address."
-title: DEBUG_ADDRESS | Microsoft Docs
+title: DEBUG_ADDRESS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - DEBUG_ADDRESS
 helpviewer_keywords:
 - DEBUG_ADDRESS structure
-ms.assetid: 79f5e765-9aac-4b6e-82ef-bed88095e9ba
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # DEBUG_ADDRESS
+
 This structure represents an address.
 
 ## Syntax
 
-```cpp
-typedef struct _tagDEBUG_ADDRESS {
-    ULONG32             ulAppDomainID;
-    GUID                guidModule;
-    _mdToken            tokClass;
-    DEBUG_ADDRESS_UNION addr;
-} DEBUG_ADDRESS;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct DEBUG_ADDRESS {
     public uint                ulAppDomainID;
@@ -40,6 +30,16 @@ public struct DEBUG_ADDRESS {
     public DEBUG_ADDRESS_UNION addr;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagDEBUG_ADDRESS {
+    ULONG32             ulAppDomainID;
+    GUID                guidModule;
+    _mdToken            tokClass;
+    DEBUG_ADDRESS_UNION addr;
+} DEBUG_ADDRESS;
+```
+---
 
 ## Members
 `ulAppDomainID`\

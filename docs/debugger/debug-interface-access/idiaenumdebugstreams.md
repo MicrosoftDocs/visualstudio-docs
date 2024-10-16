@@ -1,30 +1,28 @@
 ---
-description: "Enumerates the various debug streams contained in the data source."
-title: "IDiaEnumDebugStreams | Microsoft Docs"
+description: Enumerates the various debug streams contained in the data source.
+title: IDiaEnumDebugStreams
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumDebugStreams interface"
-ms.assetid: 611caf4f-7a5f-4aa4-b909-52feeb3cc752
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumDebugStreams
+
 Enumerates the various debug streams contained in the data source.
 
 ## Syntax
 
-```
-IDiaEnumDebugStreams : IUnknown
-```
+`IDiaEnumDebugStreams : IUnknown`
 
 ## Methods in Vtable Order
+
 The following table shows the methods of `IDiaEnumDebugStreams`.
 
 |Method|Description|
@@ -38,15 +36,18 @@ The following table shows the methods of `IDiaEnumDebugStreams`.
 |[IDiaEnumDebugStreams::Clone](../../debugger/debug-interface-access/idiaenumdebugstreams-clone.md)|Creates an enumerator that contains the same enumeration state as the current enumerator.|
 
 ## Remarks
+
 The content of debug streams is implementation-dependent and the data formats are undocumented.
 
 ## Notes for Callers
+
 Call the [IDiaSession::getEnumDebugStreams](../../debugger/debug-interface-access/idiasession-getenumdebugstreams.md) method to obtain an `IDiaEnumDebugStreams` object.
 
 ## Example
+
 This example shows how to access the data streams available from this interface. See the [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md) interface for an implementation of the `PrintStreamData` function.
 
-```C++
+```c++
 void DumpAllDebugStreams( IDiaSession* pSession)
 {
     IDiaEnumDebugStreams* pEnumStreams;
@@ -74,6 +75,7 @@ void DumpAllDebugStreams( IDiaSession* pSession)
 ```
 
 ## Requirements
+
 Header: Dia2.h
 
 Library: diaguids.lib
@@ -81,6 +83,7 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See also
+
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md)
 - [IDiaSession::getEnumDebugStreams](../../debugger/debug-interface-access/idiasession-getenumdebugstreams.md)

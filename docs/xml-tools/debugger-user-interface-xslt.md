@@ -1,16 +1,12 @@
 ---
 title: XSLT debugger windows
 description: Learn about the XSLT debugger UI pieces that control XSLT-specific debugging behavior, including the Locals, Output, Breakpoints, Call Stack, and Watch windows.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
-ms.assetid: 846fdabd-e5c3-4688-9b0d-a93fbeea1b96
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xml-tools
-ms.workload:
-- multiple
+author: dzsquared
+ms.author: drskwier
+manager: mijacobs
+ms.subservice: xml-tools
 ---
 # Debugger user interface (XSLT)
 

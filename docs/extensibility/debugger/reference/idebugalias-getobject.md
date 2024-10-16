@@ -1,39 +1,39 @@
 ---
 description: "Gets the object that this alias is for."
-title: IDebugAlias::GetObject | Microsoft Docs
+title: IDebugAlias::GetObject
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugAlias::GetObject
 helpviewer_keywords:
 - IDebugAlias::GetObject method
-ms.assetid: 97bc3af6-6e55-4940-8a6d-692c61257806
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugAlias::GetObject
+
 Gets the object that this alias is for.
 
 ## Syntax
 
-```cpp
-HRESULT GetObject(
-   IDebugObject2** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetObject(
    Out IDebugObject2 ppObject
 )
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetObject(
+   IDebugObject2** ppObject
+);
+```
+---
 
 ## Parameters
 `ppObject`\

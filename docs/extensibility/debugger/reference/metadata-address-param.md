@@ -1,36 +1,27 @@
 ---
 description: "This structure represents a parameter of a method or function."
-title: METADATA_ADDRESS_PARAM | Microsoft Docs
+title: METADATA_ADDRESS_PARAM
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - METADATA_ADDRESS_PARAM
 helpviewer_keywords:
 - METADATA_ADDRESS_PARAM structure
-ms.assetid: 90904f19-0e71-4cb3-a56e-6a2e92f66dfc
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # METADATA_ADDRESS_PARAM
+
 This structure represents a parameter of a method or function.
 
 ## Syntax
 
-```cpp
-typedef struct _tagMETADATA_ADDRESS_PARAM {
-   _mdToken tokMethod;
-   _mdToken tokParam;
-   DWORD    dwIndex;
-} METADATA_ADDRESS_PARAM;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct METADATA_ADDRESS_PARAM {
    public int  tokMethod;
@@ -38,6 +29,15 @@ public struct METADATA_ADDRESS_PARAM {
    public uint dwIndex;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagMETADATA_ADDRESS_PARAM {
+   _mdToken tokMethod;
+   _mdToken tokParam;
+   DWORD    dwIndex;
+} METADATA_ADDRESS_PARAM;
+```
+---
 
 ## Members
  `tokMethod`\

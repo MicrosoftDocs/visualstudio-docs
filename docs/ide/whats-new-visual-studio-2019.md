@@ -1,27 +1,26 @@
 ---
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
-description: "Learn about the new features in Visual Studio 2019."
-ms.date: 08/10/2021
+description: Explore new features in Visual Studio 2019, including instant code cleanup, collaboration through a Git-first workflow, and automatic snapshots of app execution.
+ms.date: 08/04/2023
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
-ms.assetid: 00bec66b-bcee-46f5-91d9-f73a2b469744
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.prod: visual-studio-windows
-ms.topic: conceptual
-ms.workload:
-  - "multiple"
+author: anandmeg
+ms.author: meghaanand
+manager: mijacobs
+ms.subservice: general-ide
+
+ms.topic: whats-new
+ms.custom: vs-acquisition
+monikerRange: vs-2019
 ---
 # What's new in Visual Studio 2019
 
 **Updated for the 16.11 release.** See [full release notes](/visualstudio/releases/2019/release-notes/) | View [product roadmap](/visualstudio/productinfo/vs2019-roadmap)
 
 >[!div class="button"]
->[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)
+>[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
 
 With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our current version!
 
@@ -224,9 +223,9 @@ Meanwhile, here's what's currently in the works:
 
    For more information, see the [Version control in Visual Studio](/visualstudio/version-control/) page.
 
-- **Visual Studio 2022 (Preview) is now available**
+- **Visual Studio 2022 is now available**
 
-    Our newest version, [Visual Studio 2022 (Preview)](/visualstudio/releases/2022/release-notes-preview/) is faster, more approachable, and more lightweight. And, for the first time ever, Visual Studio is 64-bit.
+    Our newest version, [Visual Studio 2022](/visualstudio/releases/2022/release-notes/) is faster, more approachable, and more lightweight. And, for the first time ever, Visual Studio is 64-bit.
 
     For a download link and more info, see the [Visual Studio 2022 vision](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/) blog post, along with the [**Visual Studio 2022 Preview 3 now available**](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/) blog post, too.
 
@@ -238,7 +237,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 * If you experience an issue where Visual Studio stops responding, crashes, or other performance issue, you can easily share repro steps and supporting files with us by using the [Report a Problem](how-to-report-a-problem-with-visual-studio.md) tool.
 
-## See also
+## Related content
 
 * [What's new in Visual Studio 2022 (Preview)](whats-new-visual-studio-2022.md)
 * [What's new in the Visual Studio docs](whats-new-visual-studio-docs.md)
@@ -249,5 +248,3 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 * [What's new for C# 9.0](/dotnet/csharp/whats-new/csharp-9)
 * [What's new in .NET 5](/dotnet/core/dotnet-five)
 * [What's new in .NET Framework](/dotnet/framework/whats-new/)
-* [Microsoft Build conference](https://www.microsoft.com/build)
-* [Microsoft Ignite conference](https://www.microsoft.com/ignite)

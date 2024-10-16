@@ -1,39 +1,39 @@
 ---
 description: "Skips over the specified number of elements in the ports enumeration."
-title: IEnumDebugPorts2::Skip | Microsoft Docs
+title: IEnumDebugPorts2::Skip
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugPorts2::Skip
 helpviewer_keywords:
 - IEnumDebugPorts2::Skip
-ms.assetid: a837383f-7b39-4e06-b336-f1715b073dbe
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugPorts2::Skip
+
 Skips over the specified number of elements.
 
 ## Syntax
 
-```cpp
-HRESULT Skip(
-   ULONG celt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Skip(
    uint celt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Skip(
+   ULONG celt
+);
+```
+---
 
 ## Parameters
 `celt`\

@@ -1,7 +1,6 @@
 ---
-title: CvEnterSpan Function | Microsoft Docs
+title: CvEnterSpan Function
 description: See reference information for the Concurrency Visualizer SDK function CvEnterSpan (C library).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -20,15 +19,13 @@ helpviewer_keywords:
   - CvEnterSpanA method
   - CvEnterSpanExVW method
   - CvEnterSpanExW method
-ms.assetid: 91689e9c-6733-44b9-b36a-8b9b2eef7d1d
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # CvEnterSpan function
+
 Marks the beginning of a new span.
 
 ## Syntax

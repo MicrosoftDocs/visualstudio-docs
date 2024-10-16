@@ -1,7 +1,6 @@
 ---
-title: "Walkthrough: Create a custom tab by using Ribbon XML"
-description: Learn how you can add buttons to the Add-Ins tab and automate Microsoft Word by using Ribbon (XML).
-ms.custom: SEO-VS-2020
+title: Create custom tabs with Ribbon XML to automate Word
+description: Create a custom tab to the Add-Ins tab and automate Microsoft Office Word by using Ribbon (XML) rather than the Ribbon Designer.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -16,12 +15,11 @@ helpviewer_keywords:
   - "Custom tab [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Walkthrough: Create a custom tab by using Ribbon XML
+
   This walkthrough demonstrates how to create a custom Ribbon tab by using the **Ribbon (XML)** item.
 
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]
@@ -51,7 +49,7 @@ ms.workload:
 
      For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] opens the **ThisAddIn.cs** or **ThisAddIn.vb** code file and adds the **MyRibbonAddIn** project to **Solution Explorer**.
+     Visual Studio opens the **ThisAddIn.cs** or **ThisAddIn.vb** code file and adds the **MyRibbonAddIn** project to **Solution Explorer**.
 
 ## Create the VSTO Add-ins tab
  To create the **Add-Ins** tab, add a **Ribbon (XML)** item to your project. Later in this walkthrough, you will add some buttons to this tab.
@@ -70,8 +68,12 @@ ms.workload:
 
 5. Add the following code to the **ThisAddin** class. This code overrides the `CreateRibbonExtensibilityObject` method and returns the Ribbon XML class to the Office application.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.vb" id="Snippet1":::
+     ---
 
 6. In **Solution Explorer**, right-click the **MyRibbonAddIn** project and then click **Build**. Verify that the project builds without errors.
 
@@ -106,18 +108,30 @@ ms.workload:
 
 2. Add the following code to the top of the **MyRibbon.cs** or **MyRibbon.vb** file. This code creates an alias for the <xref:Microsoft.Office.Interop.Word> namespace.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_RibbonButtons/MyRibbon.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_RibbonButtons/MyRibbon.vb" id="Snippet1":::
+     ---
 
 3. Add the following method to the `MyRibbon` class. This is a callback method for the **Insert Text** button that adds a string to the active document at the current location of the cursor.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/MyRibbon.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/MyRibbon.vb" id="Snippet2":::
+     ---
 
 4. Add the following method to the `MyRibbon` class. This is a callback method for the **Insert Table** button that adds a table to the active document at the current location of the cursor.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/MyRibbon.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/MyRibbon.vb" id="Snippet3":::
+     ---
 
 ## Testing the VSTO Add-in
  When you run the project, Word opens and the tab named **Add-Ins** appears on the ribbon. Click the **Insert Text** and **Insert Table** buttons on the **Add-Ins** tab to test the code.
@@ -151,7 +165,7 @@ ms.workload:
 
 - Customize the UI of Microsoft Office Outlook by using Outlook Form Regions. For more information, see [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md).
 
-## See also
+## Related content
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [Ribbon XML](../vsto/ribbon-xml.md)
 - [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)

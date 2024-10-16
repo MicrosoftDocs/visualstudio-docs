@@ -1,35 +1,26 @@
 ---
 description: "Creates an array of the specified type and size."
-title: IDebugTypeFieldBuilder2::CreateArrayOfType | Microsoft Docs
+title: IDebugTypeFieldBuilder2::CreateArrayOfType
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugTypeFieldBuilder2::CreateArrayOfType
 - CreateArrayOfType
-ms.assetid: 85166ac9-0bff-49a0-b2fd-ca7f7a8eae4b
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugTypeFieldBuilder2::CreateArrayOfType
+
 Creates an array of the specified type and size.
 
 ## Syntax
 
-```cpp
-HRESULT CreateArrayOfType (
-   IDebugField*  pTypeField,
-   DWORD         rank,
-   IDebugField** pArrayOfTypeField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateArrayOfType (
    IDebugField     pTypeField,
@@ -37,6 +28,15 @@ int CreateArrayOfType (
    out IDebugField pArrayOfTypeField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateArrayOfType (
+   IDebugField*  pTypeField,
+   DWORD         rank,
+   IDebugField** pArrayOfTypeField
+);
+```
+---
 
 ## Parameters
 `pTypeField`\

@@ -1,7 +1,6 @@
 ---
 title: Validate code with dependency diagrams
-description: Learn that to make sure that code doesn't conflict with its design, you should validate your code with dependency diagrams in Visual Studio.
-ms.custom: SEO-VS-2020
+description: Validate your code with dependency diagrams in Visual Studio to find conflicts in dependencies and refactor or migrate code to a different design as needed.
 ms.date: 09/28/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -18,10 +17,8 @@ helpviewer_keywords:
 - MSBuild, validating code
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Validate code with dependency diagrams
 
@@ -49,7 +46,7 @@ To make sure that code doesn't conflict with its design, validate your code with
 
 To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
-You can validate code manually from an open dependency diagram in Visual Studio or from a command prompt. You can also validate code automatically when running local builds or Azure Pipelines builds. See [Channel 9 Video: Design and validate your architecture using dependency diagrams](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Using-layer-diagrams-to-design-and-validate-your-architecture).
+You can validate code manually from an open dependency diagram in Visual Studio or from a command prompt. You can also validate code automatically when running local builds or Azure Pipelines builds.
 
 > [!IMPORTANT]
 > If you want to run layer validation using Team Foundation Server (TFS), you must also install the same version of Visual Studio on your build server.
@@ -119,7 +116,7 @@ If you have an open dependency diagram  that is linked to solution items, you ca
        msbuild <FilePath+ModelProjectFileName>.modelproj /p:ValidateArchitecture=true
        ```
 
-     - or -
+       -or-
 
        Browse to the folder that contains the modeling project (.modelproj) file and the dependency diagram and then run MSBuild with the following custom property:
 
@@ -133,7 +130,7 @@ If you have an open dependency diagram  that is linked to solution items, you ca
        msbuild <FilePath+SolutionName>.sln /p:ValidateArchitecture=true
        ```
 
-     - or -
+       -or-
 
        Browse to the solution folder, which must contain a modeling project that contains a dependency diagram, and then run MSBuild with the following custom property:
 
@@ -231,8 +228,8 @@ The following section describes the syntax that is used in these errors, explain
 | DV3001: **Missing Link** | Layer '*LayerName*' links to '*Artifact*' which cannot be found. Are you missing an assembly reference? |
 | DV9001: **Architectural analysis found internal errors** | Results might not be complete. For more information, see the detailed build event log or output window. |
 
-## See also
+## Related content
 
 - [Live dependency validation in Visual Studio](https://devblogs.microsoft.com/devops/live-dependency-validation-in-visual-studio-2017/)
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)
-- [Video: Validate your architecture dependencies in real time](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4)
+- [Video: Validate your architecture dependencies in real time](/events/visual-studio-visual-studio-2017-launch/t123)

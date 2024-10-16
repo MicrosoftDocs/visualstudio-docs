@@ -1,35 +1,26 @@
 ---
 description: "Replaces the current debug symbols with those in the specified data stream."
-title: IDebugComPlusSymbolProvider::ReplaceSymbols | Microsoft Docs
+title: IDebugComPlusSymbolProvider::ReplaceSymbols
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - ReplaceSymbols
 - IDebugComPlusSymbolProvider::ReplaceSymbols
-ms.assetid: 82fbc8db-c4b1-432f-bec9-1a9dc09570be
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::ReplaceSymbols
+
 Replaces the current debug symbols with those in the specified data stream.
 
 ## Syntax
 
-```cpp
-HRESULT ReplaceSymbols(
-    ULONG32  ulAppDomainID,
-    GUID     guidModule,
-    IStream* pStream
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ReplaceSymbols(
     uint    ulAppDomainID,
@@ -37,6 +28,15 @@ int ReplaceSymbols(
     IStream pStream
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ReplaceSymbols(
+    ULONG32  ulAppDomainID,
+    GUID     guidModule,
+    IStream* pStream
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

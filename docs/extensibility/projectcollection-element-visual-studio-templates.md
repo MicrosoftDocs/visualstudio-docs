@@ -1,23 +1,20 @@
 ---
-title: ProjectCollection Element (Visual Studio Templates) | Microsoft Docs
+title: ProjectCollection Element (Visual Studio Templates)
 description: Learn about the ProjectCollection element and how it specifies the organization and contents of multi-project templates.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#ProjectCollection
 helpviewer_keywords:
 - <ProjectCollection> element [Visual Studio Templates]
 - ProjectCollection element [Visual Studio Templates]
-ms.assetid: deb27180-2035-49ed-b835-c47bb3cd2f8f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
 ---
 # ProjectCollection element (Visual Studio templates)
+
 Specifies the organization and contents of multi-project templates.
 
  \<VSTemplate>
@@ -56,7 +53,7 @@ Specifies the organization and contents of multi-project templates.
  Multi-project templates act as containers for two or more projects. The `ProjectCollection` element is used to specify the projects to contain in the template. For more information on multi-project templates, see [How to: Create multi-project templates](../ide/how-to-create-multi-project-templates.md).
 
 ## Example
- This example shows a simple multi-project root *.vstemplate* file. In this example, the template contains two projects, `My Windows Application` and `My Class Library`. The `ProjectName` attribute on the `ProjectTemplateLink` element sets the name for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to assign this project. If the `ProjectName` attribute does not exist, the name of the *.vstemplate* file is used as the project name.
+ This example shows a simple multi-project root *.vstemplate* file. In this example, the template contains two projects, `My Windows Application` and `My Class Library`. The `ProjectName` attribute on the `ProjectTemplateLink` element sets the name for Visual Studio to assign this project. If the `ProjectName` attribute does not exist, the name of the *.vstemplate* file is used as the project name.
 
 ```
 <VSTemplate Version="3.0.0" Type="ProjectGroup"

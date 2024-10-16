@@ -1,41 +1,41 @@
 ---
 description: "Adds a port."
-title: IDebugPortSupplier2::AddPort | Microsoft Docs
+title: IDebugPortSupplier2::AddPort
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortSupplier2::AddPort
 helpviewer_keywords:
 - IDebugPortSupplier2::AddPort
-ms.assetid: df491161-6bf3-4fcc-b478-b9ec88ec995f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPortSupplier2::AddPort
+
 Adds a port.
 
 ## Syntax
 
-```cpp
-HRESULT AddPort( 
-   IDebugPortRequest2* pRequest,
-   IDebugPort2**       ppPort
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int AddPort( 
    IDebugPortRequest2 pRequest,
    out IDebugPort2    ppPort
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT AddPort( 
+   IDebugPortRequest2* pRequest,
+   IDebugPort2**       ppPort
+);
+```
+---
 
 ## Parameters
 `pRequest`\

@@ -1,7 +1,6 @@
 ---
 title: "Create & debug SharePoint workflow solution"
 description: In this walkthrough, create and debug a SharePoint workflow solution. Create a basic sequential workflow template. Create workflow activities and handle events.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:
@@ -15,17 +14,16 @@ helpviewer_keywords:
   - "workflows [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Walkthrough: Create and debug a SharePoint workflow solution
+
   This walkthrough demonstrates how to create a basic sequential workflow template. The workflow checks a property of a shared document library to determine whether a document has been reviewed. If the document has been reviewed, the workflow finishes.
 
  This walkthrough illustrates the following tasks:
 
-- Creating a SharePoint list definition sequential workflow project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+- Creating a SharePoint list definition sequential workflow project in Visual Studio.
 
 - Creating workflow activities.
 
@@ -84,7 +82,7 @@ ms.workload:
 
 #### To create a SharePoint sequential workflow project
 
-1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start Visual Studio.
 
 2. On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.
 
@@ -171,24 +169,20 @@ ms.workload:
 
 1. In *Workflow1.cs* or *Workflow1.vb*, add the following field to the top of the `Workflow1` class. This field is used in an activity to determine whether the workflow is finished.
 
-    ```vb
-    Dim workflowPending As Boolean = True
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     Boolean workflowPending = true;
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    Dim workflowPending As Boolean = True
+    ```
+    ---
+
 2. Add the following method to the `Workflow1` class. This method checks the value of the `Document Status` property of the Documents list to determine whether the document has been reviewed. If the `Document Status` property is set to `Review Complete`, then the `checkStatus` method sets the `workflowPending` field to **false** to indicate that the workflow is ready to finish.
 
-    ```vb
-    Private Sub checkStatus()
-        If CStr(workflowProperties.Item("Document Status")) = "Review Complete" Then
-            workflowPending = False
-        End If
-    End Sub
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     private void checkStatus()
     {
@@ -197,18 +191,19 @@ ms.workload:
     }
     ```
 
-3. Add the following code to the `onWorkflowActivated` and `onWorkflowItemChanged` methods to call the `checkStatus` method. When the workflow starts, the `onWorkflowActivated` method calls the `checkStatus` method to determine whether the document has already been reviewed. If it has not been reviewed, the workflow continues. When the document is saved, the `onWorkflowItemChanged` method calls the `checkStatus` method again to determine whether the document has been reviewed. While the `workflowPending` field is set to **true**, the workflow continues to run.
-
+    ### [VB](#tab/vb)
     ```vb
-    Private Sub onWorkflowActivated(ByVal sender As System.Object, ByVal e As System.Workflow.Activities.ExternalDataEventArgs)
-        checkStatus()
-    End Sub
-
-    Private Sub onWorkflowItemChanged(ByVal sender As System.Object, ByVal e As System.Workflow.Activities.ExternalDataEventArgs)
-        checkStatus()
+    Private Sub checkStatus()
+        If CStr(workflowProperties.Item("Document Status")) = "Review Complete" Then
+            workflowPending = False
+        End If
     End Sub
     ```
+    ---
 
+3. Add the following code to the `onWorkflowActivated` and `onWorkflowItemChanged` methods to call the `checkStatus` method. When the workflow starts, the `onWorkflowActivated` method calls the `checkStatus` method to determine whether the document has already been reviewed. If it has not been reviewed, the workflow continues. When the document is saved, the `onWorkflowItemChanged` method calls the `checkStatus` method again to determine whether the document has been reviewed. While the `workflowPending` field is set to **true**, the workflow continues to run.
+
+    ### [C#](#tab/csharp)
     ```csharp
     private void onWorkflowActivated(object sender, ExternalDataEventArgs e)
     {
@@ -223,14 +218,21 @@ ms.workload:
     }
     ```
 
-4. Add the following code to the `isWorkflowPending` method to check the status of the `workflowPending` property. Each time the document is saved, the **whileActivity1** activity calls the `isWorkflowPending` method. This method examines the <xref:System.Workflow.Activities.ConditionalEventArgs.Result%2A> property of the <xref:System.Workflow.Activities.ConditionalEventArgs> object to determine whether the **WhileActivity1** activity should continue or finish. If the property is set to **true**, the activity continues. Otherwise, the activity finishes and the workflow finishes.
-
+    ### [VB](#tab/vb)
     ```vb
-    Private Sub isWorkflowPending(ByVal sender As System.Object, ByVal e As System.Workflow.Activities.ConditionalEventArgs)
-        e.Result = workflowPending
+    Private Sub onWorkflowActivated(ByVal sender As System.Object, ByVal e As System.Workflow.Activities.ExternalDataEventArgs)
+        checkStatus()
+    End Sub
+
+    Private Sub onWorkflowItemChanged(ByVal sender As System.Object, ByVal e As System.Workflow.Activities.ExternalDataEventArgs)
+        checkStatus()
     End Sub
     ```
+    ---
 
+4. Add the following code to the `isWorkflowPending` method to check the status of the `workflowPending` property. Each time the document is saved, the **whileActivity1** activity calls the `isWorkflowPending` method. This method examines the <xref:System.Workflow.Activities.ConditionalEventArgs.Result%2A> property of the <xref:System.Workflow.Activities.ConditionalEventArgs> object to determine whether the **WhileActivity1** activity should continue or finish. If the property is set to **true**, the activity continues. Otherwise, the activity finishes and the workflow finishes.
+
+    ### [C#](#tab/csharp)
     ```csharp
     private void isWorkflowPending(object sender, ConditionalEventArgs e)
     {
@@ -238,10 +240,18 @@ ms.workload:
     }
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    Private Sub isWorkflowPending(ByVal sender As System.Object, ByVal e As System.Workflow.Activities.ConditionalEventArgs)
+        e.Result = workflowPending
+    End Sub
+    ```
+    ---
+
 5. Save the project.
 
 ## Test the SharePoint workflow template
- When you start the debugger, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] deploys the workflow template to the SharePoint server and associates the workflow with the **Shared Documents** list. To test the workflow, start an instance of the workflow from a document in the **Shared Documents** list.
+ When you start the debugger, Visual Studio deploys the workflow template to the SharePoint server and associates the workflow with the **Shared Documents** list. To test the workflow, start an instance of the workflow from a document in the **Shared Documents** list.
 
 #### To test the SharePoint workflow template
 
@@ -259,7 +269,7 @@ ms.workload:
 
      This uploads the selected document into the **Shared Documents** list and starts the workflow.
 
-6. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], verify that the debugger stops at the breakpoint next to the `onWorkflowActivated` method.
+6. In Visual Studio, verify that the debugger stops at the breakpoint next to the `onWorkflowActivated` method.
 
 7. Choose the **F5** key to continue execution.
 
@@ -284,7 +294,7 @@ ms.workload:
 
 - To learn more about Windows Workflow Foundation activities, see [System.Workflow.Activities Namespace](/dotnet/api/system.windows.media.color).
 
-## See also
+## Related content
 - [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)
 - [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md)
 - [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)

@@ -1,20 +1,16 @@
 ---
 title: Toolbox, Data Tab
 description: Learn about the data objects you'll find in the Data tab of the Toolbox window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - Toolbox, Data tab
 - Data tab, Toolbox
 - data [Visual Studio], Toolbox
-ms.assetid: 2ae38b2a-29d2-461c-a67d-29dad274bf45
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Toolbox, Data tab
 

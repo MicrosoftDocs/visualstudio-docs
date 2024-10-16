@@ -1,7 +1,6 @@
 ---
-title: Visual Studio SDK | Microsoft Docs
-description: The Visual Studio SDK helps you extend features or add new features to Visual Studio. Learn about some of the ways in which you can extend Visual Studio.
-ms.custom: SEO-VS-2020
+title: What is the Visual Studio SDK?
+description: Explore the Visual Studio SDK to add features and extend options in the Visual Studio IDE, including menus, commands, and IntelliSense.
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -10,15 +9,13 @@ helpviewer_keywords:
 - Visual Studio SDK
 - VS SDK (see Visual Studio SDK)
 - Visual Studio, SDK
-ms.assetid: 1f7c348a-114c-4243-b392-3531e9c9c6fd
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Visual Studio SDK
+
 The Visual Studio SDK helps you extend Visual Studio features or integrate new features into Visual Studio. You can distribute your extensions to other users, as well as to the Visual Studio Marketplace. The following are some of the ways in which you can extend Visual Studio:
 
 - Add commands, buttons, menus, and other UI elements to the IDE
@@ -70,24 +67,21 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
 
 - [Extending Visual Studio](https://blog.slaks.net/2013-10-18/extending-visual-studio-part-1-getting-started/)
 
-## See also
+## Related content
 
 - [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md)
-- [How to: Migrate extensibility projects to Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md)
 - [FAQ: Converting add-ins to VSPackage extensions](/previous-versions/visualstudio/visual-studio-2015/extensibility/faq-converting-add-ins-to-vspackage-extensions?preserve-view=true&view=vs-2015)
 - [Manage multiple threads in managed code](../extensibility/managing-multiple-threads-in-managed-code.md)
 - [Extend menus and commands](../extensibility/extending-menus-and-commands.md)
 - [Add commands to toolbars](../extensibility/adding-commands-to-toolbars.md)
 - [Extend and customizing tool windows](../extensibility/extending-and-customizing-tool-windows.md)
 - [Editor and language service extensions](../extensibility/editor-and-language-service-extensions.md)
-- [Extend projects](../extensibility/extending-projects.md)
+- [Extending projects](extending-projects.md)
 - [Extend user settings and options](../extensibility/extending-user-settings-and-options.md)
 - [Create custom project and item templates](../extensibility/creating-custom-project-and-item-templates.md)
-- [Extend properties and the property window](../extensibility/extending-properties-and-the-property-window.md)
-- [Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
+- [Expose properties to the properties window](exposing-properties-to-the-properties-window.md)
 - [Use and providing services](../extensibility/using-and-providing-services.md)
 - [Manage VSPackages](../extensibility/managing-vspackages.md)
-- [Visual Studio isolated shell](https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/)
 - [Ship Visual Studio extensions](../extensibility/shipping-visual-studio-extensions.md)
 - [Inside the Visual Studio SDK](../extensibility/internals/inside-the-visual-studio-sdk.md)
 - [Support for the Visual Studio SDK](../extensibility/support-for-the-visual-studio-sdk.md)

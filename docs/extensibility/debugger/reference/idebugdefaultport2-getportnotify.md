@@ -1,39 +1,39 @@
 ---
 description: "This method gets an IDebugPortNotify2 interface for this port."
-title: IDebugDefaultPort2::GetPortNotify | Microsoft Docs
+title: IDebugDefaultPort2::GetPortNotify
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDefaultPort2::GetPortNotify
 helpviewer_keywords:
 - IDebugDefaultPort2::GetPortNotify
-ms.assetid: 3ae715ee-9886-4694-a52b-59bb3b27467a
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugDefaultPort2::GetPortNotify
+
 This method gets an [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md) interface for this port.
 
 ## Syntax
 
-```cpp
-HRESULT GetPortNotify(
-   IDebugPortNotify2** ppPortNotify
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPortNotify(
    out IDebugPortNotify2 ppPortNotify
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPortNotify(
+   IDebugPortNotify2** ppPortNotify
+);
+```
+---
 
 ## Parameters
 `ppPortNotify`\

@@ -1,7 +1,6 @@
 ---
-title: Extern Element | Microsoft Docs
+title: Extern Element
 description: The Extern element references any external header (.h) files to merge with the .vsct file at compile time. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -9,15 +8,13 @@ f1_keywords:
 helpviewer_keywords:
 - VSCT XML schema elements, Extern
 - Extern element (VSCT XML schema)
-ms.assetid: db6c3ddd-a1ba-450a-897a-bb568a5377fc
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Extern element
+
 The Extern element references any external header (*.h*) files to merge with the *.vsct* file at compile time. The files to be merged must be on the Include path given to the VSCT compiler or referenced by an [Include element](../extensibility/include-element.md). The files may be other *.vsct* files or C++ header files.
 
  Definitions in header files must be of the form "#define [Symbol] [Value]"  The value may be another symbol if it is previously defined. Definitions may be used in conditional statements of command items. Any symbol not actually used will be discarded.

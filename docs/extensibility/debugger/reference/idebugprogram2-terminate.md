@@ -1,37 +1,37 @@
 ---
 description: "Terminates the program."
-title: IDebugProgram2::Terminate | Microsoft Docs
+title: IDebugProgram2::Terminate
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgram2::Terminate
 helpviewer_keywords:
 - IDebugProgram2::Terminate
-ms.assetid: 4d3127d3-b1e9-4b28-ac22-2f2eea255f86
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgram2::Terminate
+
 Terminates the program.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Terminate();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Terminate( 
    void 
 );
 ```
-
-```csharp
-int Terminate();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

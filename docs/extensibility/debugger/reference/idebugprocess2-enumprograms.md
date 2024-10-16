@@ -1,39 +1,39 @@
 ---
 description: "Retrieves a list of all the programs contained by this process."
-title: IDebugProcess2::EnumPrograms | Microsoft Docs
+title: IDebugProcess2::EnumPrograms
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcess2::EnumPrograms
 helpviewer_keywords:
 - IDebugProcess2::EnumPrograms
-ms.assetid: f5b7295d-487d-464f-a4c6-d54175b07705
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProcess2::EnumPrograms
+
 Retrieves a list of all the programs contained by this process.
 
 ## Syntax
 
-```cpp
-HRESULT EnumPrograms( 
-   IEnumDebugPrograms2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumPrograms( 
    out IEnumDebugPrograms2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumPrograms( 
+   IEnumDebugPrograms2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

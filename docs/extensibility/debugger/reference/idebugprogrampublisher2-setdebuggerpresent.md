@@ -1,39 +1,39 @@
 ---
 description: "Tells the program publisher that a debugger is present and running."
-title: IDebugProgramPublisher2::SetDebuggerPresent | Microsoft Docs
+title: IDebugProgramPublisher2::SetDebuggerPresent
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgramPublisher2::SetDebuggerPresent
 helpviewer_keywords:
 - IDebugProgramPublisher2::SetDebuggerPresent
-ms.assetid: c88c3ff4-3632-4199-b5de-83c6d21bcf75
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgramPublisher2::SetDebuggerPresent
+
 Tells the program publisher that a debugger is present and running.
 
 ## Syntax
 
-```cpp
-HRESULT SetDebuggerPresent(
-   BOOL fDebuggerPresent
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetDebuggerPresent(
    int fDebuggerPresent
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetDebuggerPresent(
+   BOOL fDebuggerPresent
+);
+```
+---
 
 ## Parameters
 `fDebuggerPresent`\

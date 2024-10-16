@@ -1,18 +1,14 @@
 ---
-title: 'How to: Create XML Snippets'
+title: 'Create XML Snippets'
 description: Learn how to use the XML editor in Visual Studio to create XML snippets that allow you to build XML files more quickly.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: d8556dd7-1382-4af7-ba80-3e873c9416be
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xml-tools
-ms.workload:
-- multiple
+author: dzsquared
+ms.author: drskwier
+manager: mijacobs
+ms.subservice: xml-tools
 ---
-# How to: Create XML snippets
+# Create XML snippets
 
 The XML editor can be used to create new XML snippets. The editor includes an XML snippet, named "Snippet", that is a boilerplate snippet for creating new XML snippets.
 
@@ -112,7 +108,7 @@ Literals can also refer to functions. The XML editor includes a function named *
 
 The $prefix$ variable can then be used elsewhere in your XML snippet.
 
-## See also
+## Related content
 
 - [XML snippets](../xml-tools/xml-snippets.md)
 - [How to: Use XML snippets](../xml-tools/how-to-use-xml-snippets.md)

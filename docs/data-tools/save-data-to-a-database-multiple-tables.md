@@ -1,7 +1,6 @@
 ---
-title: Save data to a database (multiple tables)
-description: In this walkthrough, save data from multiple tables to a database using DataSet tools in Visual Studio.
-ms.custom: SEO-VS-2020
+title: Save data to a database (multiple tables) in .NET Framework applications
+description: In this walkthrough, save data from multiple tables to a database using ADO.NET DataSet tools in .NET Framework application development in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -12,15 +11,15 @@ helpviewer_keywords:
 - data [Visual Studio], saving
 - saving data, walkthroughs
 - data [Visual Studio], updating
-ms.assetid: 7ebe03da-ce8c-4cbc-bac0-a2fde4ae4d07
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
-# Save data to a database (multiple tables)
+
+# Save data to a database (multiple tables) in .NET Framework applications
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 One of the most common scenarios in application development is to display data on a form in a Windows application, edit the data, and send the updated data back to the database. This walkthrough creates a form that displays data from two related tables and shows how to edit records and save changes back to the database. This example uses the `Customers` and `Orders` tables from the Northwind sample database.
 
@@ -30,7 +29,7 @@ Tasks illustrated in this walkthrough include:
 
 - Creating and configuring a data source in your application with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).
 
-- Setting the controls of the items in the [Data Sources window](add-new-data-sources.md#data-sources-window). For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
+- Setting the controls of the items in the [Data Sources window](add-new-data-sources.md#work-with-data-sources-and-windows-forms). For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
 
 - Creating data-bound controls by dragging items from the **Data Sources** window onto your form.
 
@@ -39,6 +38,8 @@ Tasks illustrated in this walkthrough include:
 - Modifying the code to send the updated data in the dataset back to the database.
 
 ## Prerequisites
+
+To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
@@ -50,7 +51,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
        A query editor window opens.
 
-    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/master/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
+    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
@@ -74,9 +75,9 @@ This step creates a data source from the Northwind database using the **Data Sou
 
 4. On the **Choose your Data Connection** screen, do one of the following:
 
-    - If a data connection to the Northwind sample database is available in the drop-down list, select it.
+    - If a data connection to the Northwind sample database is available in the dropdown list, select it.
 
-         -or-
+      -or-
 
     - Select **New Connection** to open the **Add/Modify Connection** dialog box.
 
@@ -128,8 +129,12 @@ You can update the database by calling the `Update` methods of the **Customers**
 
 2. Replace the code in the event handler to call the `Update` methods of the related TableAdapters. The following code first creates three temporary data tables to hold the updated information for each <xref:System.Data.DataRowState> (<xref:System.Data.DataRowState.Deleted>, <xref:System.Data.DataRowState.Added>, and <xref:System.Data.DataRowState.Modified>). The updates are run in the correct order. The code should look like the following:
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form4.vb" id="Snippet10":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form4.cs" id="Snippet10":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form4.vb" id="Snippet10":::
+     ---
 
 ## Test the application
 
@@ -141,6 +146,6 @@ You can update the database by calling the `Update` methods of the **Customers**
 
 4. Check the values in the database to verify that the changes were saved.
 
-## See also
+## Related content
 
 - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

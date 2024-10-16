@@ -1,25 +1,24 @@
 ---
-description: "Returns an enumeration of symbols for inline frames corresponding to the specified inline function name."
-title: "IDiaSession::findAcceleratorInlineesByName | Microsoft Docs"
+description: Returns an enumeration of symbols for inline frames corresponding to the specified inline function name.
+title: "IDiaSession::findAcceleratorInlineesByName"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: e203e5c2-6563-43fa-be56-3063955043ab
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findAcceleratorInlineesByName
+
 Returns an enumeration of symbols for inline frames corresponding to the specified inline function name.
 
 ## Syntax
 
 ```C++
-HRESULT findAcceleratorInlineeLinesByName ( 
+HRESULT findAcceleratorInlineeLinesByName ( 
    LPCOLESTR             name,
    DWORD                 option,
    IDiaEnumSymbols**     ppResult

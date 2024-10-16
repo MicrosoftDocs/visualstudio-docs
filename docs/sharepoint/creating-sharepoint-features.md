@@ -1,7 +1,6 @@
 ---
-title: "Creating SharePoint Features | Microsoft Docs"
+title: "Creating SharePoint Features"
 description: Create a SharePoint feature to group related SharePoint project items for easier deployment. Add features to the SharePoint solution. Use the feature designer.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,12 +11,11 @@ helpviewer_keywords:
   - "features [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Create SharePoint features
+
   You can use a SharePoint Feature to group related SharePoint project items for easier deployment. You can create Features, set scopes, and mark other Features as dependencies by using the SharePoint Feature Designer. The designer also generates a manifest, which is an XML file that describes each Feature.
 
 ## Add features to the SharePoint solution
@@ -49,7 +47,7 @@ ms.workload:
 ## Add feature dependencies
  You can configure the Feature manifest so that the SharePoint server activates certain Features before your Feature is activated. For example, if your SharePoint Feature depends on other Features for functionality or data, the SharePoint server can first try to activate any of the Features that your feature depends on. For more information, see [How to: Add and remove feature dependencies](../sharepoint/how-to-add-and-remove-feature-dependencies.md).
 
-## See also
+## Related content
 - [How to: Customize a SharePoint feature](../sharepoint/how-to-customize-a-sharepoint-feature.md)
 - [How to: Add and remove items to SharePoint features](../sharepoint/how-to-add-and-remove-items-to-sharepoint-features.md)
 - [How to: Add and remove feature dependencies](../sharepoint/how-to-add-and-remove-feature-dependencies.md)

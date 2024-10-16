@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, XAML, Miscellaneous
 description: Learn how to use the Miscellaneous page in the XML section to specify how elements and attributes are formatted in your XAML documents.
-ms.custom: SEO-VS-2020
 ms.date: 10/29/2018
 ms.topic: reference
 f1_keywords:
@@ -24,13 +23,10 @@ helpviewer_keywords:
 - tag wrapping, XAML view settings
 - WPF Designer, XAML formatting
 - XAML view settings, attribute spacing
-ms.assetid: 2a420e58-a408-4e8d-9220-44eeb4f67801
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- uwp
+author: maddymontaquila
+ms.author: maleger
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Options, Text Editor, XAML, Miscellaneous
 

@@ -1,27 +1,26 @@
 ---
-description: "Reads BOOL values in a property set."
-title: "IDiaPropertyStorage::ReadBOOL | Microsoft Docs"
+description: Reads BOOL values in a property set.
+title: "IDiaPropertyStorage::ReadBOOL"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaPropertyStorage::ReadBOOL"
-ms.assetid: ad1822db-4572-48f7-9919-f8137f6701f2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaPropertyStorage::ReadBOOL
+
 Reads `BOOL` values in a property set.
 
 ## Syntax
 
 ```C++
-HRESULT ReadBOOL ( 
+HRESULT ReadBOOL ( 
    PROPID id,
    BOOL*  pValue
 );

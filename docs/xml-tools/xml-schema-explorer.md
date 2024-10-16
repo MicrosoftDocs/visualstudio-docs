@@ -1,16 +1,12 @@
 ---
-title: XML Schema Explorer
-description: Learn about the features of the XML Schema Explorer that is integrated with Visual Studio and the XML editor.
-ms.custom: SEO-VS-2020
+title: Work with the XML Schema Explorer
+description: Explore features of the XML Schema Explorer integrated with Visual Studio and the XML editor and browse schemas, do searches, sort items, and jump to code locations.
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.assetid: 2fc39e98-b194-456b-a452-cfafb0a52d66
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xml-tools
-ms.workload:
-- multiple
+author: dzsquared
+ms.author: drskwier
+manager: mijacobs
+ms.subservice: xml-tools
 ---
 # XML Schema Explorer
 
@@ -75,6 +71,6 @@ Dropping files on the view will add all the global nodes in the file to the [XSD
 
  You cannot drag and drop local nodes or imports.
 
-## See also
+## Related content
 
 - [How to: Add nodes to the workspace from the XML Schema Explorer](../xml-tools/how-to-add-nodes-to-the-workspace-from-the-xml-schema-explorer.md)

@@ -1,7 +1,6 @@
 ---
 title: Creating and Configuring Type Members (Class Designer)
 description: Learn how to add members to types on a class diagram and configure those members in the Class Details window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -25,13 +24,10 @@ helpviewer_keywords:
 - methods [Visual Studio], adding parameters
 - Class Details window
 - Class Details window, member creation
-ms.assetid: 42af8738-3738-4ca7-82ff-edf573a68f96
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Create and configure type members in Class Designer
 
@@ -59,7 +55,7 @@ You can add these members to types on a class diagram and configure those member
 
 ## Open the Class Details window
 
-By default, the **Class Details** window appears automatically when you open a new class diagram. See [How to: Add class diagrams to projects](how-to-add-class-diagrams-to-projects.md)). You can also open the **Class Details** window in the following ways:
+By default, the **Class Details** window appears automatically when you open a new class diagram. See [Add class diagrams to projects](how-to-add-class-diagrams-to-projects.md)). You can also open the **Class Details** window in the following ways:
 
 - Right-click on any class in the diagram to display a context menu, and then select **Class Details**.
 
@@ -314,7 +310,7 @@ You cannot edit partial methods by using the Class Designer or the **Class Detai
 
 You cannot edit native C++ code by using the Class Designer or the **Class Details** window; you must use the Code Editor to edit native C++ code.
 
-## See also
+## Related content
 
 - [Viewing types and relationships](designing-and-viewing-classes-and-types.md)
 - [Refactoring classes and types](refactoring-classes-and-types.md)

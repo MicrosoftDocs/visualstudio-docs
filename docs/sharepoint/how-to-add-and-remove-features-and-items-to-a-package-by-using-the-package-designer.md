@@ -2,7 +2,6 @@
 title: "Package designer: Add & remove features and items to package"
 titleSuffix: ""
 description: Review how to add and remove features and items to a SharePoint package by using the Package Designer in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, packages"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
-# How to: Add and remove features and items to a package by using the Package Designer
+# Add and remove features and items to a package by using the Package Designer
+
   When you create a SharePoint solution, Visual Studio adds the default SharePoint Features to the package in the solution. Before final deployment, you can add and remove SharePoint project items and Features to modify the SharePoint package.
 
  Alternatively, you can use the Packaging Explorer to add and remove SharePoint project items. You can also view and change the hierarchy of the SharePoint project items and Features that are put into the package (.wsp). For more information, see [How to: Add and remove features and items to a Package by using the Packaging Explorer](../sharepoint/how-to-add-and-remove-features-and-items-to-a-package-by-using-the-packaging-explorer.md).
@@ -54,7 +52,7 @@ ms.workload:
 
      The SharePoint Items appear in the **Items in the Solution** list.
 
-## See also
+## Related content
 - [Create SharePoint solution packages](../sharepoint/creating-sharepoint-solution-packages.md)
 - [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md)
 - [How to: Create a Package](/previous-versions/ee231585(v=vs.110))

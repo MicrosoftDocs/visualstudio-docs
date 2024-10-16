@@ -2,7 +2,6 @@
 title: "Create site column, content type, and list for SharePoint"
 titleSuffix: ""
 description: In this walkthrough, create a custom site column (field), custom content type that uses the site column, and list that uses the content type in SharePoint.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:
@@ -19,12 +18,11 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, content types"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Walkthrough: Create a site column, content type, and list for SharePoint
+
   The following procedures demonstrate how to create custom SharePoint site columns—or *fields*—as well as a content type that uses the site columns. It also shows how to create a list that uses the new content type.
 
  This walkthrough includes the following tasks:
@@ -44,30 +42,15 @@ ms.workload:
 
 - Supported editions of Windows and SharePoint.
 
-- [!INCLUDE[vsprvs-current](../sharepoint/includes/vsprvs-current-md.md)]
+- Visual Studio 2019
 
 ## Create custom site columns
- This example creates a list for managing patients in a hospital. First, you must create a SharePoint project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and add site columns to it, as follows.
+ This example creates a list for managing patients in a hospital. First, you must create a SharePoint project in Visual Studio and add site columns to it, as follows.
 
 #### To create the project
 
-1. On the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] **File** menu, choose **New** > **Project**.
-::: moniker range="=vs-2017"
-2. In the **New Project** dialog box, under either **Visual C#** or **Visual Basic**, expand the **Office/SharePoint** node, and then select **SharePoint Solutions**.
+1. On the Visual Studio **File** menu, choose **New** > **Project**.
 
-3. In the **Templates** pane, choose the **SharePoint Empty Project** for the particular version of SharePoint you have installed. For example, if you have SharePoint 2016 install select the **SharePoint 2016 - Empty Project** template.  
-
-4. Change the name of the project to **Clinic**, and then choose the **OK** button.
-
-5. On the **Specify the site and security level for debugging** dialog, enter the URL for the local SharePoint site to which you want to add the new custom field item, or use the default location (`http://<`*SystemName*`>/)`.
-
-6. In the **What is the trust level for this SharePoint solution?** section, use the default value **Deploy as a sandboxed solution**.
-
-     For more information about sandboxed and farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).
-
-7. Choose the **Finish** button. The project is now listed in **Solution Explorer**.
-::: moniker-end
-::: moniker range=">=vs-2019"
 2.  On the **Create a New Project** dialog select the **SharePoint Empty Project** for the particular version of SharePoint you have installed. For example, if you have SharePoint 2016 install select the **SharePoint 2016 - Empty Project** template.
     [!INCLUDE[new-project-dialog-search](../sharepoint/includes/new-project-dialog-search-md.md)]
 
@@ -80,7 +63,6 @@ ms.workload:
      For more information about sandboxed and farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).
 
 6. Choose the **Finish** button. The project is now listed in **Solution Explorer**.
-::: moniker-end
 
 #### To add site columns
 
@@ -228,7 +210,7 @@ ms.workload:
 
 3. On the Quick Navigation bar, choose the **Patients** link to display the **Patients** list.
 
-     The column names in the list should match those that you entered on the **Views** tab in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+     The column names in the list should match those that you entered on the **Views** tab in Visual Studio.
 
 4. Choose the **Add new item** link to create a patient information card.
 
@@ -236,7 +218,7 @@ ms.workload:
 
      The new record appears in the list.
 
-## See also
+## Related content
 - [Create site columns, content types, and lists for SharePoint](../sharepoint/creating-site-columns-content-types-and-lists-for-sharepoint.md)
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
 - [How to: Create a Custom Field Type](/previous-versions/office/developer/sharepoint-2010/bb862248(v=office.14))

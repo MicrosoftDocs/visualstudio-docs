@@ -4,14 +4,15 @@ title: XAML tools documentation
 summary: Visual Studio provides multiple tools to help you create XAML-based apps. These include the XAML editor and designer as well as debugging features.
 
 metadata:
-  title: XAML tools documentation
-  description: Navigate to different pages that help you learn how to use XAML tools in Visual Studio.
-  ms.prod: visual-studio-windows
-  ms.technology: vs-ide-designers
+  title: Visual Studio XAML tools documentation
+  description: Explore documentation about creating XAML-based applications in Visual Studio by using the XAML editor, the XAML designer, Blend integration, and debugging features.
+  
+  ms.subservice: xaml-tools
   ms.topic: landing-page
-  author: jillre
-  ms.author: jillfra
-  ms.date: 10/10/2019
+  author: maddymontaquila
+  ms.author: maleger
+  manager: mijacobs
+  ms.date: 03/28/2022
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -46,8 +47,12 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Write and debug running XAML code
+          - text: Write and debug running XAML code with Hot Reload
             url: xaml-hot-reload.md
+          - text: Detect and resolve data binding errors in XAML projects
+            url: xaml-data-binding-diagnostics.md
+          - text: Capture and edit app UI on-the-fly with Live Preview
+            url: xaml-live-preview.md
           - text: Inspect XAML properties
             url: inspect-xaml-properties-while-debugging.md
           - text: Debug WPF apps

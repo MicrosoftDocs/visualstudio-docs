@@ -2,7 +2,6 @@
 title: "Packaging Explorer: Add & remove features & items to package"
 titleSuffix: ""
 description: Add and remove features and items to a SharePoint package by using the Packaging Explorer in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, packages"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
-# How to: Add and remove features and items to a Package by using the Packaging Explorer
+# Add and remove features and items to a Package by using the Packaging Explorer
+
   To configure a package to deploy SharePoint items and Features, you can use the Packaging Explorer. You can adjust the SharePoint project items and Features inside your .wsp file.
 
  Alternatively, you can use the Packaging Designer to view and re-order the Features to change the activation order. For more information, see [How to: Add and remove features and items to a package by using the Package Designer](../sharepoint/how-to-add-and-remove-features-and-items-to-a-package-by-using-the-package-designer.md).
@@ -60,5 +58,5 @@ ms.workload:
 
 2. Open a shortcut menu for a Feature or package, and then choose **Validate**.
 
-## See also
+## Related content
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

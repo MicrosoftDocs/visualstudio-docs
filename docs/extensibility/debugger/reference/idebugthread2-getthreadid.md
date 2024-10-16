@@ -1,39 +1,39 @@
 ---
 description: "Gets the system thread identifier."
-title: IDebugThread2::GetThreadId | Microsoft Docs
+title: IDebugThread2::GetThreadId
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugThread2::GetThreadId
 helpviewer_keywords:
 - IDebugThread2::GetThreadId
-ms.assetid: db8b1c07-6b86-47f9-b292-bac19c276d36
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugThread2::GetThreadId
+
 Gets the system thread identifier.
 
 ## Syntax
 
-```cpp
-HRESULT GetThreadId (
-    DWORD* pdwThreadId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetThreadId (
     out uint pdwThreadId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetThreadId (
+    DWORD* pdwThreadId
+);
+```
+---
 
 ## Parameters
 `pdwThreadId`\

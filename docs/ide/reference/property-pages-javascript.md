@@ -1,9 +1,8 @@
 ---
 title: Property Pages, JavaScript
 description: Learn how the Property Pages provides access to project settings and how to use the pages that appear in the Property Pages to change project properties.
-ms.custom: SEO-VS-2020
 ms.date: 06/21/2017
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 ms.topic: reference
 f1_keywords:
   - "javascript.project.property.debugging.debuggertype"
@@ -13,12 +12,9 @@ f1_keywords:
   - "javascript.project.property.defaultlanguage"
   - "javascript.project.property.debugging.machinename"
   - "javascript.project.property.debugging.allowlocalnetworkloopback"
-ms.assetid: a05ab01f-3d5d-4675-a845-eab51807d3a3
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.workload:
-  - "multiple"
+manager: mijacobs
 ---
 # Property pages, JavaScript
 
@@ -40,7 +36,7 @@ Specifies the configuration settings to display or modify. The settings are **De
 
  **Platform**
 
-Specifies the platform settings to display or modify. The settings are **Any CPU** (default for [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] apps), **x64**, **ARM**, **x86**, or a user-defined platform. For more information, see [How to: Set debug and release configurations in Visual Studio](../../debugger/how-to-set-debug-and-release-configurations.md).
+Specifies the platform settings to display or modify. The settings are **Any CPU** (default for Windows 8.x Store apps), **x64**, **ARM**, **x86**, or a user-defined platform. For more information, see [How to: Set debug and release configurations in Visual Studio](../../debugger/how-to-set-debug-and-release-configurations.md).
 
 ## General Page
 

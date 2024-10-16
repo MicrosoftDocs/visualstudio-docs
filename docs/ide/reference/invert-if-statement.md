@@ -1,18 +1,15 @@
 ---
 title: Invert if statement
 description: Learn how to use the Quick Actions and Refactorings menu to invert an if or if else statement without changing the meaning of the code.
-ms.custom: SEO-VS-2020
 ms.date: 02/19/2019
 ms.topic: reference
-author: kendrahavens
-ms.author: kehavens
-manager: jmartens
-ms.technology: vs-ide-general
+author: mikadumont
+ms.author: midumont 
+manager: mijacobs
+ms.subservice: general-ide
 dev_langs:
   - CSharp
   - VB
-ms.workload:
-  - "dotnet"
 ---
 # Invert if statement
 

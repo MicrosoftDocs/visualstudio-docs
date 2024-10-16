@@ -1,37 +1,37 @@
 ---
 description: "Sends the specified message string to the debugger's output window."
-title: IDebugIDECallback::DisplayMessage | Microsoft Docs
+title: IDebugIDECallback::DisplayMessage
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugIDECallback::DisplayMessage
-ms.assetid: c19b48ee-b370-4fce-91fe-f82bf1e63179
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugIDECallback::DisplayMessage
+
 Sends the specified message string to the debugger's output window.
 
 ## Syntax
 
-```cpp
-HRESULT DisplayMessage (
-   LPCOLESTR szMessage
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int DisplayMessage (
    string szMessage
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT DisplayMessage (
+   LPCOLESTR szMessage
+);
+```
+---
 
 ## Parameters
 `szMessage`\

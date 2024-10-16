@@ -1,28 +1,20 @@
 ---
-title: Exposing Properties to the Properties Window | Microsoft Docs
-description: Learn about the public properties of an object. The changes you make to these properties are reflected in the Properties window.
-ms.custom: SEO-VS-2020
+title: Exposing Properties to the Properties Window
+description: Explore the public properties of an object and how changes you make to these properties are reflected in the Properties window.
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
 - properties [Visual Studio SDK], exposing in Property Browser
 - properties [Visual Studio SDK]
 - Property Browser, exposing properties
-ms.assetid: 47f295b5-1ca5-4e7b-bb52-7b926b136622
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Expose properties to the Properties window
 
 This walkthrough exposes the public properties of an object to the **Properties** window. The changes you make to these properties are reflected in the **Properties** window.
-
-## Prerequisites
-
-Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Expose properties to the Properties window
 
@@ -30,7 +22,7 @@ In this section, you create a custom tool window and display the public properti
 
 ### To expose properties to the Properties window
 
-1. Every Visual Studio extension starts with a VSIX deployment project, which will contain the extension assets. Create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] VSIX project named `MyObjectPropertiesExtension`. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".
+1. Every Visual Studio extension starts with a VSIX deployment project, which will contain the extension assets. Create a Visual Studio VSIX project named `MyObjectPropertiesExtension`. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".
 
 2. Add a tool window by adding a Custom Tool Window item template named `MyToolWindow`. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. In the **Add New Item dialog**, go to **Visual C# Items** > **Extensibility** and select **Custom Tool Window**. In the **Name** field at the bottom of the dialog, change the file name to *MyToolWindow.cs*. For more information about how to create a custom tool window, see [Create an extension with a tool window](../extensibility/creating-an-extension-with-a-tool-window.md).
 
@@ -269,6 +261,6 @@ In this walkthrough, <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContai
 
 Visual Studio tool windows persist between Visual Studio sessions. For more information on persisting the tool window state, see <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute>.
 
-## See also
+## Related content
 
 - [Extend properties and the Property window](../extensibility/extending-properties-and-the-property-window.md)

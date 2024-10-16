@@ -1,36 +1,27 @@
 ---
 description: "The METADATA_TYPE structure specifies information about a field type taken from metadata."
-title: METADATA_TYPE | Microsoft Docs
+title: METADATA_TYPE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - METADATA_TYPE
 helpviewer_keywords:
 - METADATA_TYPE structure
-ms.assetid: 2d8b78f6-0aef-4d79-809a-cff9b2c24659
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # METADATA_TYPE
+
 This structure specifies information about a field type taken from metadata.
 
 ## Syntax
 
-```cpp
-typedef struct _tagTYPE_METADATA {
-   ULONG32  ulAppDomainID;
-   GUID     guidModule;
-   _mdToken tokClass;
-} METADATA_TYPE;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct METADATA_TYPE {
    public uint ulAppDomainID;
@@ -38,6 +29,15 @@ public struct METADATA_TYPE {
    public int  tokClass;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagTYPE_METADATA {
+   ULONG32  ulAppDomainID;
+   GUID     guidModule;
+   _mdToken tokClass;
+} METADATA_TYPE;
+```
+---
 
 ## Parameters
  `ulAppDomainID`\

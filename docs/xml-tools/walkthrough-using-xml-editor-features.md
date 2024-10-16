@@ -1,16 +1,12 @@
 ---
 title: 'Walkthrough: Using XML editor Features'
-description: Learn how to create a new XML document by following the steps in this walkthrough that demonstrates features of the XML editor.
-ms.custom: SEO-VS-2020
+description: Create a new XML document and associate the file with an XML schema by working with features of the XML editor in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: ea8dc357-2e66-455a-aec2-7ccaccfc9adf
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xml-tools
-ms.workload:
-- multiple
+author: dzsquared
+ms.author: drskwier
+manager: mijacobs
+ms.subservice: xml-tools
 ---
 # Walkthrough: Use XML editor features
 
@@ -127,6 +123,6 @@ The following schema file is used in this walkthrough:
 </xs:schema>
 ```
 
-## See also
+## Related content
 
 - [XML editor](../xml-tools/xml-editor.md)

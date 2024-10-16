@@ -1,31 +1,24 @@
 ---
-title: Attaching Directly to a Program | Microsoft Docs
+title: Attaching Directly to a Program
 description: Learn how Visual Studio implements attaching a debug engine to a process that is already running by using this procedure in the Visual Studio IDE.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - debug engines, attaching to programs
-ms.assetid: ad2b7db8-821c-440c-ba07-c55c6a395e0f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Attach directly to a program
+
 Users who want to debug programs in a process that is already running typically follow this process:
 
-1. In the IDE, choose the **Debug Processes** command from the **Tools** menu.
-
-    The **Processes** dialog box appears.
-
-2. Choose a process and click the **Attach** button.
+1. In the IDE, open the **Debug** menu and select the **Attach to Process...** command.
 
     The **Attach to Process** dialog box appears, listing all debug engines (DEs) installed on the machine.
 
-3. Specify the DEs to use to debug the selected process, and then click **OK**.
+2. Specify the DEs to use to debug the selected process, choose a process, and click the **Attach** button.
 
    The debug package starts a debug session and passes the list of DEs to it. The debug session in turn passes this list, along with a callback function, to the selected process, and then asks the process to enumerate its running programs.
 
@@ -37,6 +30,6 @@ Users who want to debug programs in a process that is already running typically 
 
    The second exception is that the startup events sent by a DE attaching to a program that is already running do not typically include the entry point event.
 
-## See also
+## Related content
 - [Sending startup events after a launch](../../extensibility/debugger/sending-startup-events-after-a-launch.md)
 - [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)

@@ -1,20 +1,17 @@
 ---
-title: Specifying File Handlers for File Name Extensions | Microsoft Docs
+title: Specifying File Handlers for File Name Extensions
 description: Learn how determine which application handles a file extension in the Visual Studio SDK by using OpenWithList and OpenWithProgids.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - file extensions, specifying file handlers
-ms.assetid: e3de4730-a95c-465a-b3b2-92ca85364ad7
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Specifying File Handlers for File Name Extensions
+
 There are a number of ways to determine the application that handles a file which has a particular file extension. The OpenWithList and OpenWithProgids verbs are two ways to specify file handlers under the registry entry for the file extension.
 
 ## OpenWithList Verb
@@ -36,7 +33,7 @@ HKEY_CLASSES_ROOT\
  By adding an OpenWithList key, you declare that your application supports a file extension even if another application takes ownership of the extension. This could be a future version of your application or another application.
 
 ## OpenWithProgIDs
- Programmatic identifiers (ProgIDs) are friendly versions of ClassIDs that identify a version of an application or COM object. Every co-creatable object should have its own ProgID. For example, VisualStudio.DTE.7.1 starts Visual Studio .NET 2003 while VisualStudio.DTE.10.0 starts [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. As the owner of a project type or project item type, you must create a version-specific ProgID for your file extension. These ProgIDs may be redundant in that more than one ProgID may start the same application. For more information, see [Registering Verbs for File Name Extensions](../extensibility/registering-verbs-for-file-name-extensions.md).
+ Programmatic identifiers (ProgIDs) are friendly versions of ClassIDs that identify a version of an application or COM object. Every co-creatable object should have its own ProgID. For example, VisualStudio.DTE.7.1 starts Visual Studio .NET 2003 while VisualStudio.DTE.10.0 starts Visual Studio. As the owner of a project type or project item type, you must create a version-specific ProgID for your file extension. These ProgIDs may be redundant in that more than one ProgID may start the same application. For more information, see [Registering Verbs for File Name Extensions](../extensibility/registering-verbs-for-file-name-extensions.md).
 
  Use the following naming convention for versioned file ProgIDs to avoid duplication with registration from other vendors:
 
@@ -60,7 +57,7 @@ HKEY_CLASSES_ROOT\
          otherprogid   REG_NONE (zero-length binary value)
 ```
 
- The ProgID specified as the default value for the file extension is the default file handler. If you modify the ProgID for a file extension that shipped with a previous version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or that can be taken over by other applications, then you must register the `OpenWithProgids` key for your file extension and specify the new ProgID in the list along with the old ProgIDs you support. For example:
+ The ProgID specified as the default value for the file extension is the default file handler. If you modify the ProgID for a file extension that shipped with a previous version of Visual Studio or that can be taken over by other applications, then you must register the `OpenWithProgids` key for your file extension and specify the new ProgID in the list along with the old ProgIDs you support. For example:
 
 ```
 HKEY_CLASSES_ROOT\
@@ -74,6 +71,6 @@ HKEY_CLASSES_ROOT\
 
  If the old ProgID has verbs associated with it, then these verbs will also appear under **Open With** *Product Name* in the shortcut menu.
 
-## See also
+## Related content
 - [About File Name Extensions](../extensibility/about-file-name-extensions.md)
 - [Registering Verbs for File Name Extensions](../extensibility/registering-verbs-for-file-name-extensions.md)

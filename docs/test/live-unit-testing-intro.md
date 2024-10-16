@@ -1,16 +1,14 @@
 ---
 title: Introduction Live Unit Testing
-description: Learn about the advantages of Live Unit Testing and how to use it when unit testing your projects.
+description: Explore the advantages of Live Unit Testing, which executes unit tests automatically and in real time as you make code changes.
 ms.date: 09/11/2017
 ms.topic: conceptual
 helpviewer_keywords:
 - Live Unit Testing
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-test
-ms.workload:
-- dotnet
+manager: mijacobs
+ms.subservice: test-tools
 ---
 # Live Unit Testing overview
 
@@ -31,11 +29,7 @@ To learn more about Live Unit Testing:
 
 - Read the [Live Unit Testing FAQ](live-unit-testing-faq.yml) to learn what's new in Live Unit Testing as well as tips and techniques.
 
-- Watch the Channel 9 video for an overview of Live Unit Testing and its features.</p>
-
-   > [!VIDEO https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105/player]
-
-## Related resources
+## Related content
 
 - [Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)
 - [Unit test your code](unit-test-your-code.md)

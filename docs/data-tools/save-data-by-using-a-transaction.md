@@ -1,7 +1,6 @@
 ---
-title: 'How to: Save data by using a transaction'
-description: Review how to save data by using a transaction with DataSet tools in Visual Studio. You save data in a transaction by using the System.Transactions namespace.
-ms.custom: SEO-VS-2020
+title: Save data by using a transaction in a .NET Framework application
+description: In .NET Framework application development with Visual Studio, review how to save data by using a transaction with ADO.NET DataSet tools in Visual Studio. You save data in a transaction by using the System.Transactions namespace.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -12,15 +11,15 @@ helpviewer_keywords:
 - System.Transactions namespace
 - transactions, saving data
 - data [Visual Studio], saving
-ms.assetid: 8b835e8f-34a3-413d-9bb5-ebaeb87f1198
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
-# How to: Save data by using a transaction
+
+# Save data by using a transaction in .NET Framework applications
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 You save data in a transaction by using the <xref:System.Transactions> namespace. Use the <xref:System.Transactions.TransactionScope> object to participate in a transaction that is automatically managed for you.
 
@@ -36,7 +35,7 @@ To roll back the transaction, throw an exception prior to calling the <xref:Syst
 
 1. On the **Project** menu, select **Add Reference**.
 
-2. On the **.NET** tab (**SQL Server** tab for SQL Server projects), select **System.Transactions**, and then select **OK**.
+2. On the *`.NET`* tab (**SQL Server** tab for SQL Server projects), select **System.Transactions**, and then select **OK**.
 
      A reference to *System.Transactions.dll* is added to the project.
 
@@ -44,10 +43,14 @@ To roll back the transaction, throw an exception prior to calling the <xref:Syst
 
 - Add code to save data within the using statement that contains the transaction. The following code shows how to create and instantiate a <xref:System.Transactions.TransactionScope> object in a using statement:
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb" id="Snippet11":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs" id="Snippet11":::
 
-## See also
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb" id="Snippet11":::
+     ---
+
+## Related content
 
 - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
 - [Walkthrough: Save data in a transaction](../data-tools/save-data-in-a-transaction.md)

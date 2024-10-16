@@ -1,36 +1,27 @@
 ---
 description: "The BUILT_TYPE structure specifies information about a field type taken from metadata."
-title: BUILT_TYPE | Microsoft Docs
+title: BUILT_TYPE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BUILT_TYPE
 helpviewer_keywords:
 - BUILT_TYPE structure
-ms.assetid: cc02c32c-0f65-4210-ad25-a9b1899066e8
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # BUILT_TYPE
+
 This structure specifies information about a field type taken from metadata.
 
 ## Syntax
 
-```cpp
-typedef struct _tagTYPE_BUILT {
-    ULONG32      ulAppDomainID;
-    GUID         guidModule;
-    IDebugField* pUnderlyingField;
-} BUILT_TYPE;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct BUILT_TYPE {
     public uint        ulAppDomainID;
@@ -38,6 +29,15 @@ public struct BUILT_TYPE {
     public IDebugField pUnderlyingField;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagTYPE_BUILT {
+    ULONG32      ulAppDomainID;
+    GUID         guidModule;
+    IDebugField* pUnderlyingField;
+} BUILT_TYPE;
+```
+---
 
 ## Members
 `ulAppDomainID`\

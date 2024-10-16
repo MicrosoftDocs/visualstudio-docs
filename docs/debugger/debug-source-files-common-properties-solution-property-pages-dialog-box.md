@@ -1,9 +1,8 @@
 ---
 title: "Debug Source Files/Solution Property Pages"
 description: Access the Debug Source Files property page in Visual Studio by right-clicking your solution in Solution Explorer and selecting Properties > Common Properties.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.options.FindSource"
 dev_langs:
@@ -18,15 +17,13 @@ helpviewer_keywords:
   - "debugging [Visual Studio], specifying source and symbol files"
   - "source files, specifying in debugger"
   - "debugger, source files"
-ms.assetid: 0af11464-eeb1-4d0b-87a6-0cc96779afb1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Debug Source Files, Common Properties, Solution Property Pages Dialog Box
+
 This property page specifies where the debugger will look for source files when debugging the solution.
 
  To access the **Debug Source Files** property page, right-click on your Solution in **Solution Explorer** and select **Properties** from the shortcut menu. Expand the **Common Properties** folder, and click the **Debug Source Files** page.

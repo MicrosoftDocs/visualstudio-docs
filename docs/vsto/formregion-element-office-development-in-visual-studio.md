@@ -2,7 +2,6 @@
 description: "The formRegion element of the vstov4 namespace identifies a Microsoft Office Outlook form region that is associated with a VSTO Add-in."
 title: "&lt;formRegion&gt; element (Office development in Visual Studio)"
 titleSuffix: ""
-ms.custom: "seodec18"
 ms.date: "02/02/2017"
 ms.topic: "reference"
 dev_langs:
@@ -12,12 +11,11 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <formRegion> element"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # &lt;formRegion&gt; element (Office development in Visual Studio)
+
   The `formRegion` element of the `vstov4` namespace identifies a Microsoft Office Outlook form region that is associated with a VSTO Add-in.
 
 ## Syntax
@@ -53,7 +51,7 @@ ms.workload:
 |`name`|Required. Identifies the form that is associated with the form region.|
 
 ## Example
- The following code example illustrates a `formRegion` element in an application manifest for an Outlook VSTO Add-in deployed using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. There are three message classes associated with this one form region. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
+ The following code example illustrates a `formRegion` element in an application manifest for an Outlook VSTO Add-in deployed using ClickOnce. There are three message classes associated with this one form region. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
 
 ```xml
 <vstov4:formRegion

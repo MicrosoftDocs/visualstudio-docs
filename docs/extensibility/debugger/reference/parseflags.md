@@ -1,28 +1,35 @@
 ---
 description: "Specifies how to parse an expression."
-title: PARSEFLAGS | Microsoft Docs
+title: PARSEFLAGS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - PARSEFLAGS
 helpviewer_keywords:
 - PARSEFLAGS enumeration
-ms.assetid: 47943f0a-54cb-4493-a62e-5dba97bd4c35
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # PARSEFLAGS
+
 Specifies how to parse an expression.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_PARSEFLAGS { 
+   PARSE_EXPRESSION            = 0x0001,
+   PARSE_FUNCTION_AS_ADDRESS   = 0x0002,
+   PARSE_DESIGN_TIME_EXPR_EVAL = 0x1000
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_PARSEFLAGS { 
    PARSE_EXPRESSION            = 0x0001,
@@ -31,14 +38,7 @@ enum enum_PARSEFLAGS { 
 };
 typedef DWORD PARSEFLAGS;
 ```
-
-```csharp
-public enum enum_PARSEFLAGS { 
-   PARSE_EXPRESSION            = 0x0001,
-   PARSE_FUNCTION_AS_ADDRESS   = 0x0002,
-   PARSE_DESIGN_TIME_EXPR_EVAL = 0x1000
-};
-```
+---
 
 ## Fields
  `PARSE_EXPRESSION`\

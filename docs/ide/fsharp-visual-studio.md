@@ -7,12 +7,10 @@ helpviewer_keywords:
 - F# features [Visual Studio]
 f1_keywords:
 - fs.ProjectPropertiesDebug
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- dotnet
+author: anandmeg
+ms.author: meghaanand
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Develop with Visual F# in Visual Studio
 

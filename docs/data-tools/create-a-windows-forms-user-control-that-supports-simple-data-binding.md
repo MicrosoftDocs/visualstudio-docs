@@ -1,7 +1,6 @@
 ---
-title: Create user controls that support simple data binding
-description: Learn to create a Windows Forms user control that supports simple data binding, using the DefaultBindingPropertyAttribute class in Visual Studio.
-ms.custom: SEO-VS-2020
+title: Create .NET Framework user controls that support simple data binding
+description: Learn to create a Windows Forms user control that supports simple data binding in a .NET Framework application, using the DefaultBindingPropertyAttribute class in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -10,15 +9,15 @@ dev_langs:
 helpviewer_keywords:
 - custom controls [Visual Studio], Data Sources Window
 - Data Sources Window, controls
-ms.assetid: b1488366-6dfb-454e-9751-f42fd3f3ddfb
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
-# Create a Windows Forms user control that supports simple data binding
+
+# Create a .NET Framework Windows Forms user control that supports simple data binding
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 When displaying data on forms in Windows applications, you can choose existing controls from the **Toolbox**, or you can author custom controls if your application requires functionality that is not available in the standard controls. This walkthrough shows how to create a control that implements the <xref:System.ComponentModel.DefaultBindingPropertyAttribute>. Controls that implement the <xref:System.ComponentModel.DefaultBindingPropertyAttribute> can contain one property that can be bound to data. Such controls are similar to a <xref:System.Windows.Forms.TextBox> or <xref:System.Windows.Forms.CheckBox>.
 
@@ -36,7 +35,7 @@ This walkthrough creates a simple control that displays data from a single colum
 
 During this walkthrough, you will learn how to:
 
-- Create a new **Windows Forms Application**.
+- Create a new **Windows Forms App (.NET Framework)**.
 
 - Add a new **User Control** to your project.
 
@@ -52,6 +51,8 @@ During this walkthrough, you will learn how to:
 
 ## Prerequisites
 
+To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
+
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
 1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
@@ -62,7 +63,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
        A query editor window opens.
 
-    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/master/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
+    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
@@ -70,7 +71,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create a Windows Forms Application
 
-The first step is to create a **Windows Forms Application**:
+The first step is to create a **Windows Forms App (.NET Framework)**:
 
 1. In Visual Studio, on the **File** menu, select **New** > **Project**.
 
@@ -110,8 +111,12 @@ For simple controls that support databinding, implement the <xref:System.Compone
 
 2. Replace the code in the **PhoneNumberBox** with the following:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/PhoneNumberBox.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/PhoneNumberBox.vb" id="Snippet3":::
+     ---
 
 3. From the **Build** menu, choose **Build Solution**.
 
@@ -123,21 +128,21 @@ This step uses the **Data Source Configuration** wizard to create a data source 
 
 2. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
 
-3. On the **Choose a Data Source Type** page, select **Database**, and then click **Next**.
+3. On the **Choose a Data Source Type** page, select **Database**, and then select **Next**.
 
 4. On the **Choose your Data Connection** page, do one of the following:
 
-    - If a data connection to the Northwind sample database is available in the drop-down list, select it.
+    - If a data connection to the Northwind sample database is available in the dropdown list, select it.
 
     - Select **New Connection** to launch the **Add/Modify Connection** dialog box.
 
-5. If your database requires a password, select the option to include sensitive data, and then click **Next**.
+5. If your database requires a password, select the option to include sensitive data, and then select **Next**.
 
 6. On the **Save connection string to the Application Configuration file** page, click **Next**.
 
 7. On the **Choose your Database Objects** page, expand the **Tables** node.
 
-8. Select the `Customers` table, and then click **Finish**.
+8. Select the `Customers` table, and then select **Finish**.
 
      The **NorthwindDataSet** is added to your project, and the `Customers` table appears in the **Data Sources** window.
 
@@ -149,13 +154,13 @@ Within the **Data Sources** window, you can set the control to be created prior 
 
 2. Expand the **Customers** node in the **Data Sources** window.
 
-3. Click the drop-down arrow on the **Customers** node, and choose **Details** from the control list.
+3. Click the dropdown list arrow on the **Customers** node, and choose **Details** from the control list.
 
-4. Click the drop-down arrow on the **Phone** column, and choose **Customize**.
+4. Click the dropdown list arrow on the **Phone** column, and choose **Customize**.
 
 5. Select the **PhoneNumberBox** from the list of **Associated Controls** in the **Data UI Customization Options** dialog box.
 
-6. Click the drop-down arrow on the **Phone** column, and choose **PhoneNumberBox**.
+6. Click the dropdown list arrow on the **Phone** column, and choose **PhoneNumberBox**.
 
 ## Add controls to the form
 
@@ -171,13 +176,13 @@ Press **F5** to run the application.
 
 ## Next steps
 
-Depending on your application requirements, there are several steps you may want to perform after creating a control that supports data binding. Some typical next steps include:
+Depending on your application requirements, there are several steps you might want to perform after creating a control that supports data binding. Some typical next steps include:
 
 - Placing your custom controls in a control library so you can reuse them in other applications.
 
 - Creating controls that support more complex data-binding scenarios. For more information, see [Create a Windows Forms user control that supports complex data binding](../data-tools/create-a-windows-forms-user-control-that-supports-complex-data-binding.md) and [Create a Windows Forms user control that supports lookup data binding](../data-tools/create-a-windows-forms-user-control-that-supports-lookup-data-binding.md).
 
-## See also
+## Related content
 
 - [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)
 - [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)

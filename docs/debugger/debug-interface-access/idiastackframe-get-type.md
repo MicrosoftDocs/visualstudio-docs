@@ -1,27 +1,26 @@
 ---
-description: "Retrieves the frame type."
-title: "IDiaStackFrame::get_type | Microsoft Docs"
+description: Retrieves the frame type.
+title: "IDiaStackFrame::get_type"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackFrame::get_type method"
-ms.assetid: 99daa97b-5c05-455d-bd1e-800762ccf7c9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackFrame::get_type
+
 Retrieves the frame type.
 
 ## Syntax
 
 ```C++
-HRESULT get_type ( 
+HRESULT get_type ( 
    DWORD* pRetVal
 );
 ```

@@ -1,36 +1,27 @@
 ---
 description: "Describes a particular machine."
-title: MACHINE_INFO | Microsoft Docs
+title: MACHINE_INFO
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - MACHINE_INFO
 helpviewer_keywords:
 - MACHINE_INFO structure
-ms.assetid: e7564ff2-00b5-4750-8fd5-dc1029a16912
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # MACHINE_INFO
+
 Describes a particular machine.
 
 ## Syntax
 
-```cpp
-typedef struct tagMACHINE_INFO { 
-   MACHINE_INFO_FIELDS Fields;
-   BSTR                bstrName;
-   MACHINE_INFO_FLAGS  Flags;
-} MACHINE_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct MACHINE_INFO { 
    public uint   Fields;
@@ -38,6 +29,15 @@ public struct MACHINE_INFO { 
    public uint   Flags;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagMACHINE_INFO { 
+   MACHINE_INFO_FIELDS Fields;
+   BSTR                bstrName;
+   MACHINE_INFO_FLAGS  Flags;
+} MACHINE_INFO;
+```
+---
 
 ## Members
  `Fields`\

@@ -1,18 +1,14 @@
 ---
 title: Inside the Editor
 description: Learn about the subsystems and features of the editor. You can extend features of the Visual Studio editor.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - architecture
-ms.assetid: 822cbb8d-7ab4-40ee-bd12-44016ebcce81
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Inside the editor
 
@@ -20,7 +16,7 @@ The editor is composed of several different subsystems, which are designed to ke
 
 These sections describe different aspects of the editor:
 
-- [Overview of the subsystems](../extensibility/inside-the-editor.md#overview-of-the-subsystems)
+- [Overview of the subsystems](../extensibility/inside-the-editor.md#the-subsystems)
 
 - [The text model](../extensibility/inside-the-editor.md#the-text-model)
 
@@ -42,7 +38,7 @@ These sections describe the features of the editor:
 
 - [IntelliSense](../extensibility/inside-the-editor.md#intellisense)
 
-## Overview of the subsystems
+## The subsystems
 
 ### Text model subsystem
 
@@ -315,7 +311,10 @@ IntelliSense supports statement completion, signature help (also known as parame
 
 Statement completion provides pop-up lists of potential completions for method names, XML elements, and other coding or markup elements. In general, a user gesture invokes a completion session. The session displays the list of potential completions, and the user can select one or dismiss the list. The <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionBroker> is responsible for creating and triggering the <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSession>. The <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSource> computes the <xref:Microsoft.VisualStudio.Language.Intellisense.CompletionSet> of completion items for the session.
 
-## See also
+## Troubleshooting Import/Export Issues: Access the MEF Composition Error Log 
+You may experience issues if you try to import something that doesn't exist in the current VS install, or if you incorrectly author your import or export.  The primary way to find and address these issues is to reference the **Managed Extensibility Framework (MEF) Composition Error Log**, stored at *%localappdata%\Microsoft\VisualStudio[yourVSVersion]\ComponentModelCache\Microsoft.VisualStudio.Default.err*.
+
+## Related content
 
 - [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)
 - [Editor imports](../extensibility/editor-imports.md)

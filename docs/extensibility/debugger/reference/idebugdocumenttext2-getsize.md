@@ -1,41 +1,41 @@
 ---
 description: "Retrieves the size of the text at this position in the document."
-title: IDebugDocumentText2::GetSize | Microsoft Docs
+title: IDebugDocumentText2::GetSize
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentText2::GetSize
 helpviewer_keywords:
 - IDebugDocumentText2::GetSize
-ms.assetid: bf515a8f-dcee-4004-8f81-543d547ceaae
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugDocumentText2::GetSize
+
 Retrieves the size of the text at this position in the document.
 
 ## Syntax
 
-```cpp
-HRESULT GetSize( 
-   ULONG* pcNumLines,
-   ULONG* pcNumChars
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSize( 
    ref uint pcNumLines,
    ref uint pcNumChars
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSize( 
+   ULONG* pcNumLines,
+   ULONG* pcNumChars
+);
+```
+---
 
 ## Parameters
 `pcNumLines`\

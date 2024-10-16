@@ -1,37 +1,37 @@
 ---
 description: "Determines whether the checksum is enabled for this document."
-title: IDebugBreakpointChecksumRequest2::IsChecksumEnabled | Microsoft Docs
+title: IDebugBreakpointChecksumRequest2::IsChecksumEnabled
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugBreakpointChecksumRequest2::IsChecksumEnabled
-ms.assetid: 8b1853b5-745c-4cd6-88a9-ce0673971bb0
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugBreakpointChecksumRequest2::IsChecksumEnabled
+
 Determines whether the checksum is enabled for this document.
 
 ## Syntax
 
-```cpp
-HRESULT IsChecksumEnabled(
-   BOOL *pfChecksumEnabled
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int IsChecksumEnabled(
    out int pfChecksumEnabled
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsChecksumEnabled(
+   BOOL *pfChecksumEnabled
+);
+```
+---
 
 ## Parameters
 `pfChecksumEnabled`\

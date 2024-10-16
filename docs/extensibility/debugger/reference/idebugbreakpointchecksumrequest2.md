@@ -1,19 +1,17 @@
 ---
 description: "Represents a document checksum for a breakpoint request."
-title: IDebugBreakpointChecksumRequest2 | Microsoft Docs
+title: IDebugBreakpointChecksumRequest2
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugBreakpointChecksumRequest2 interface
-ms.assetid: 9cfdbca5-052c-48e9-8411-e2e9e4065d00
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugBreakpointChecksumRequest2
+
 Represents a document checksum for a breakpoint request.
 
 ## Syntax
@@ -23,7 +21,7 @@ IDebugBreakpointChecksumRequest2 : IUnknown
 ```
 
 ## Notes for Implementers
- Implemented by the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] Debug package and consumed by debug engines.
+ Implemented by the Visual Studio Debug package and consumed by debug engines.
 
 ## Methods
  The following table shows the methods of `IDebugBreakpointChecksumRequest2`.

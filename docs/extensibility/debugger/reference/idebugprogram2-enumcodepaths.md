@@ -1,39 +1,27 @@
 ---
 description: "Retrieves a list of the code paths for a given position in a source file."
-title: IDebugProgram2::EnumCodePaths | Microsoft Docs
+title: IDebugProgram2::EnumCodePaths
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgram2::EnumCodePaths
 helpviewer_keywords:
 - IDebugProgram2::EnumCodePaths
-ms.assetid: fb100c3c-9c29-4d63-bd1f-a3e531cb395f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgram2::EnumCodePaths
+
 Retrieves a list of the code paths for a given position in a source file.
 
 ## Syntax
 
-```cpp
-HRESULT EnumCodePaths( 
-   LPCOLESTR            pszHint,
-   IDebugCodeContext2*  pStart,
-   IDebugStackFrame2*   pFrame,
-   BOOL                 fSource,
-   IEnumCodePaths2**    ppEnum,
-   IDebugCodeContext2** ppSafety
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumCodePaths( 
    string                 pszHint,
@@ -44,6 +32,18 @@ int EnumCodePaths( 
    out IDebugCodeContext2 ppSafety
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumCodePaths( 
+   LPCOLESTR            pszHint,
+   IDebugCodeContext2*  pStart,
+   IDebugStackFrame2*   pFrame,
+   BOOL                 fSource,
+   IEnumCodePaths2**    ppEnum,
+   IDebugCodeContext2** ppSafety
+);
+```
+---
 
 ## Parameters
 `pszHint`\

@@ -1,39 +1,39 @@
 ---
 description: "Gets the method that sets the property."
-title: IDebugPropertyField::GetPropertySetter | Microsoft Docs
+title: IDebugPropertyField::GetPropertySetter
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPropertyField::GetPropertySetter
 helpviewer_keywords:
 - IDebugPropertyField::GetPropertySetter method
-ms.assetid: 744d76fd-2bcc-4917-a040-ce4cc714ef61
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPropertyField::GetPropertySetter
+
 Gets the method that sets the property.
 
 ## Syntax
 
-```cpp
-HRESULT GetPropertySetter( 
-   IDebugMethodField** ppField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPropertySetter(
    out IDebugMethodField ppField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPropertySetter( 
+   IDebugMethodField** ppField
+);
+```
+---
 
 ## Parameters
 `ppField`\

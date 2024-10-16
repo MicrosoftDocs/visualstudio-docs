@@ -1,19 +1,16 @@
 ---
 description: "This structure represents the address of a field of a class or structure."
-title: METADATA_ADDRESS_FIELD | Microsoft Docs
+title: METADATA_ADDRESS_FIELD
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - METADATA_ADDRESS_FIELD
 helpviewer_keywords:
 - METADATA_ADDRESS_FIELD structure
-ms.assetid: 15ab45fe-6b3b-4e09-880b-31b34f523607
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
@@ -24,17 +21,19 @@ This structure represents the address of a field of a class or structure.
 
 ## Syntax
 
-```cpp
-typedef struct _tagMETADATA_ADDRESS_FIELD {
-    _mdToken tokField;
-} METADATA_ADDRESS_FIELD
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct METADATA_ADDRESS_FIELD {
     public int tokField;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagMETADATA_ADDRESS_FIELD {
+    _mdToken tokField;
+} METADATA_ADDRESS_FIELD
+```
+---
 
 ## Members
 

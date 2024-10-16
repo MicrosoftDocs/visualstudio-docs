@@ -1,7 +1,6 @@
 ---
 title: Customizing Tools and the Toolbox
 description: Learn how you must define toolbox items for the elements that you want to let users add to their models.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -12,10 +11,8 @@ helpviewer_keywords:
 - Domain-Specific Language, toolbox
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Customizing Tools and the Toolbox
 
@@ -26,7 +23,7 @@ You must define toolbox items for the elements that you want to let users add to
 
 ```
 Editor
-     Toobox Tabs
+     Toolbox Tabs
         MyDsl          //a tab
            Tools
                ExampleElement      // an element tool
@@ -74,7 +71,7 @@ The **Connection Builder** property of a connection tool refers to a connection 
 
 5. To test the DSL, press F5 or CTRL+F5, and in the experimental instance of Visual Studio, open a sample model file. The new tool should appear on the toolbox. Drag it onto the diagram to verify that it creates a new element.
 
-     If the tool does not appear, stop the experimental Visual Studio. In the Windows **Start** menu, run **Reset the Microsoft Visual Studio 2010 Experimental Instance**. On the **Build** menu, click **Rebuild Solution**. Then test the DSL again.
+     If the tool does not appear, stop the experimental Visual Studio. In the Windows **Start** menu, type **reset the Visual Studio**, and then run the **Reset the Microsoft Visual Studio Experimental Instance** command matching your version of Visual Studio. On the **Build** menu, click **Rebuild Solution**. Then test the DSL again.
 
 ## <a name="customizing"></a> Customizing Element Tools
  By default, the tool will create a single instance of the specified class, but you can vary this in two ways:
@@ -229,7 +226,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 
  You use custom code to apply 'hard' constraints, but you should consider whether users should be able to temporarily make invalid connections. If they should, you can modify the constraints so that connections are not validated until users try to save changes.
 
-## See also
+## Related content
 
 - [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md)
 - [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md)

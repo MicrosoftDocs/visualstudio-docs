@@ -1,7 +1,6 @@
 ---
-title: "Walkthrough: Creating a SharePoint Application Page | Microsoft Docs"
-description: In this walkthrough, create an application page (a specialized form of an ASP.NET page) and then debug it by using a local SharePoint site.
-ms.custom: SEO-VS-2020
+title: Create SharePoint application page in Visual Studio
+description: Create an application page, which is a specialized form of an ASP.NET page, and debug the page by using a local SharePoint site.
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -12,10 +11,8 @@ helpviewer_keywords:
   - "application pages [SharePoint development in Visual Studio], creating"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Walkthrough: Create a SharePoint application page
 
@@ -42,7 +39,7 @@ This walkthrough illustrates the following tasks:
 
 First, create an **Empty SharePoint Project**. Later, you will add an **Application Page** item to this project.
 
-1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start Visual Studio.
 
 2. Open the **New Project** dialog box, expand the **Office/SharePoint** node under the language that you want to use, and then choose the **SharePoint Solutions** node.
 
@@ -102,23 +99,39 @@ Handle controls in an application page just as you would any ASP.NET page. In th
 
 2. Add the following method to the `SearchItems` class. This code handles the <xref:System.Web.UI.WebControls.ListControl.SelectedIndexChanged> event of the <xref:System.Web.UI.WebControls.DropDownList> by calling a method that you will create later in this walkthrough.
 
-     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.vb" id="Snippet5":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.cs" id="Snippet5":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.vb" id="Snippet5":::
+     ---
 
 3. Add the following statements to the top of the application page code file.
 
-     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.vb" id="Snippet1":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.vb" id="Snippet1":::
+     ---
 
 4. Add the following method to the `SearchItems` class. This method iterates through all sites on the server farm and searches for items created or modified by the current user.
 
-     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.vb" id="Snippet2":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.vb" id="Snippet2":::
+     ---
 
 5. Add the following method to the `SearchItems` class. This method displays items created or modified by the current user in the table.
 
-     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.vb" id="Snippet3":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.vb" id="Snippet3":::
+     ---
 
 ## Test the application page
 
@@ -148,7 +161,7 @@ You can learn more about how to design SharePoint page content by using the Visu
 
 - [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md).
 
-## See also
+## Related content
 
-[How to: Create an application page](../sharepoint/how-to-create-an-application-page.md)
-[Application _layouts Page Type](/previous-versions/office/aa979604(v=office.14))
+- [How to: Create an application page](../sharepoint/how-to-create-an-application-page.md)
+- [Application _layouts Page Type](/previous-versions/office/aa979604(v=office.14))

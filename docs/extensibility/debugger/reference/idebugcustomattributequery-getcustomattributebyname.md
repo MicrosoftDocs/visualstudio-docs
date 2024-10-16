@@ -1,35 +1,26 @@
 ---
 description: "Retrieves a custom attribute given its name."
-title: IDebugCustomAttributeQuery::GetCustomAttributeByName | Microsoft Docs
+title: IDebugCustomAttributeQuery::GetCustomAttributeByName
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugCustomAttributeQuery::GetCustomAttributeByName
 - GetCustomAttributeByName
-ms.assetid: 6779727c-d10a-4abe-9acd-d0a1eb0737e7
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCustomAttributeQuery::GetCustomAttributeByName
+
 Retrieves a custom attribute given its name.
 
 ## Syntax
 
-```cpp
-HRESULT GetCustomAttributeByName(
-    LPCOLESTR pszCustomAttributeName,
-    BYTE*     ppBlob,
-    DWORD*    pdwLen
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCustomAttributeByName(
     string    pszCustomAttributeName,
@@ -37,6 +28,15 @@ int GetCustomAttributeByName(
     out uint  pdwLen
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCustomAttributeByName(
+    LPCOLESTR pszCustomAttributeName,
+    BYTE*     ppBlob,
+    DWORD*    pdwLen
+);
+```
+---
 
 ## Parameters
 `pszCustomAttributeName`\

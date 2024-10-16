@@ -1,6 +1,6 @@
 ---
 description: "This error occurs when you're trying to debug a Transact-SQL or SQLCLR procedure and the debugger doesn't receive debugging messages from the SQL Server."
-title: "Transact-SQL execution ended without debugging | Microsoft Docs"
+title: "Transact-SQL execution ended without debugging"
 ms.date: "11/08/2018"
 ms.topic: "error-reference"
 f1_keywords:
@@ -13,10 +13,8 @@ dev_langs:
   - "SQL"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Error: Transact-SQL execution ended without debugging
 
@@ -26,7 +24,7 @@ This issue could be because of network problems or to problems on the SQL Server
 
 There are two accounts involved:
 
-- The application account is the user account that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is running as.
+- The application account is the user account that Visual Studio is running as.
 
 - The connection account is the identity used to make the connection to SQL Server. This account isn't necessarily the same as the identity that Visual Studio is running as if the connection is using SQL authentication.
 

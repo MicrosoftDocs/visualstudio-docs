@@ -1,28 +1,37 @@
 ---
 description: "Specifies the structure of the breakpoint resolution location."
-title: BP_RESOLUTION_LOCATION | Microsoft Docs
+title: BP_RESOLUTION_LOCATION
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_RESOLUTION_LOCATION
 helpviewer_keywords:
 - BP_RESOLUTION_LOCATION structure
-ms.assetid: 21dc5246-69c1-43e3-855c-9cd4e596c0e6
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # BP_RESOLUTION_LOCATION
+
 Specifies the structure of the breakpoint resolution location.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public struct BP_RESOLUTION_LOCATION {
+    public uint   bpType;
+    public IntPtr unionmember1;
+    public IntPtr unionmember2;
+    public IntPtr unionmember3;
+    public uint   unionmember4;
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 struct _BP_RESOLUTION_LOCATION {
     BP_TYPE bpType;
@@ -33,16 +42,7 @@ struct _BP_RESOLUTION_LOCATION {
     } bpResLocation;
 } BP_RESOLUTION_LOCATION;
 ```
-
-```csharp
-public struct BP_RESOLUTION_LOCATION {
-    public uint   bpType;
-    public IntPtr unionmember1;
-    public IntPtr unionmember2;
-    public IntPtr unionmember3;
-    public uint   unionmember4;
-};
-```
+---
 
 ## Members
 `bpType`\

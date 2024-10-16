@@ -1,7 +1,6 @@
 ---
 title: "Change document formatting using CheckBox controls"
 description: Learn how to use Windows Forms controls in a document-level customization for Microsoft Word to change text formatting.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -15,12 +14,11 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], adding to documents"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Walkthrough: Change document formatting using CheckBox controls
+
   This walkthrough demonstrates how to use Windows Forms controls in a document-level customization for Microsoft Office Word to change text formatting.
 
  [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]
@@ -40,7 +38,7 @@ ms.workload:
 
 - [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
-- [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)].
+-  Word 2013  or  Word 2010 .
 
 ## Create the project
  The first step is to create a Word Document project.
@@ -118,18 +116,30 @@ ms.workload:
 
 3. Add the following code to the <xref:System.Windows.Forms.Control.Click> event handler of the `applyBoldFont` check box.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my chart options/ThisDocument.vb" id="Snippet3":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ThisDocument.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my chart options/ThisDocument.vb" id="Snippet3":::
+     ---
 
 4. Add the following code to the <xref:System.Windows.Forms.Control.Click> event handler of the `applyItalicFont` check box.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my chart options/ThisDocument.vb" id="Snippet4":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ThisDocument.cs" id="Snippet4":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my chart options/ThisDocument.vb" id="Snippet4":::
+     ---
 
 5. Add the following code to the <xref:System.Windows.Forms.Control.Click> event handler of the `applyUnderlineFont` check box.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my chart options/ThisDocument.vb" id="Snippet5":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ThisDocument.cs" id="Snippet5":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my chart options/ThisDocument.vb" id="Snippet5":::
+     ---
 
 6. In C#, you must add event handlers for the text boxes to the <xref:Microsoft.Office.Tools.Word.Document.Startup> event. For information about how to create event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
@@ -151,9 +161,9 @@ ms.workload:
 
 - Use a button to populate a text box. For more information, see [Walkthrough: Display text in a text box in a document using a button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-document-using-a-button.md).
 
-- Using radio buttons to select chart styles. For more information, see [Walkthrough: Update a chart in a document using radio buttons](../vsto/walkthrough-updating-a-chart-in-a-document-using-radio-buttons.md).
+- Using radio buttons to select chart styles. 
 
-## See also
+## Related content
 - [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)
 - [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)
 - [NamedRange control](../vsto/namedrange-control.md)

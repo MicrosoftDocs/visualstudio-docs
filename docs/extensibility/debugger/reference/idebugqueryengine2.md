@@ -1,21 +1,19 @@
 ---
 description: "This interface lets the session debug manager (SDM) retrieve an interface that represents the debug engine (DE)."
-title: IDebugQueryEngine2 | Microsoft Docs
+title: IDebugQueryEngine2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugQueryEngine2
 helpviewer_keywords:
 - IDebugQueryEngine2 interface
-ms.assetid: 8f0e1838-a818-4459-9138-a3dceb7408de
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugQueryEngine2
+
 This interface lets the session debug manager (SDM) retrieve an interface that represents the debug engine (DE).
 
 ## Syntax

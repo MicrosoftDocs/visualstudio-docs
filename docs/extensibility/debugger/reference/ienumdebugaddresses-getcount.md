@@ -1,39 +1,39 @@
 ---
 description: "This method returns the number of elements in the addresses enumeration."
-title: IEnumDebugAddresses::GetCount | Microsoft Docs
+title: IEnumDebugAddresses::GetCount
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugAddresses::GetCount
 helpviewer_keywords:
 - IEnumDebugAddresses::GetCount method
-ms.assetid: f2ca8ff8-539f-457c-83f8-9bbf97618065
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugAddresses::GetCount
+
 This method returns the number of elements in the enumeration.
 
 ## Syntax
 
-```cpp
-HRESULT GetCount(
-   [out] ULONG* pcelt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCount(
    out uint pcelt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCount(
+   [out] ULONG* pcelt
+);
+```
+---
 
 ## Parameters
 `pcelt`\

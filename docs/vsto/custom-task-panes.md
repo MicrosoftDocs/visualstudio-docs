@@ -1,7 +1,6 @@
 ---
-title: "Custom task panes"
-description: Learn that custom task panes give you a way to create your own task pane and provide users with a familiar interface to access your solution's features.
-ms.custom: SEO-VS-2020
+title: Create your own custom task pane
+description: Explore custom task panes and create your own task pane and provide users with a familiar interface to access your solution's features.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -24,12 +23,11 @@ helpviewer_keywords:
   - "custom task panes [Office development in Visual Studio], about custom task panes"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Custom task panes
+
   Task panes are user interface panels that are typically docked to one side of a window in a Microsoft Office application. Custom task panes give you a way to create your own task pane and provide users with a familiar interface to access your solution's features. For example, the interface can contain controls that run code to modify documents or display data from a data source.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
@@ -61,8 +59,12 @@ ms.workload:
 ### Instantiate the custom task pane
  After you create a user control that contains the user interface of the custom task pane, you have to instantiate a <xref:Microsoft.Office.Tools.CustomTaskPane>. To do this, pass the user control to the <xref:Microsoft.Office.Tools.CustomTaskPaneCollection> in your VSTO Add-in by calling one of the <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Add%2A> methods. This collection is exposed as the `CustomTaskPanes` field of the `ThisAddIn` class. The following code example is intended to be run from the `ThisAddIn` class.
 
- :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_TaskPaneBasic/ThisAddIn.vb" id="Snippet2":::
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_TaskPaneBasic/ThisAddIn.cs" id="Snippet2":::
+
+ ### [VB](#tab/vb)
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_TaskPaneBasic/ThisAddIn.vb" id="Snippet2":::
+ ---
 
  The <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Add%2A> methods return a new <xref:Microsoft.Office.Tools.CustomTaskPane> object. You can use this object to modify the appearance of the task pane and to respond to user events.
 
@@ -121,7 +123,7 @@ ms.workload:
 
  To clean up resources used by the task pane while the VSTO Add-in is still running, use the <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Remove%2A> or <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.RemoveAt%2A> methods. These methods remove the specified <xref:Microsoft.Office.Tools.CustomTaskPane> object from the `CustomTaskPanes` collection, and they call the `Dispose` method of the object.
 
- The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] automatically cleans up resources used by the custom task pane when the VSTO Add-in is unloaded. Do not call the <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Remove%2A> or <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.RemoveAt%2A> methods in the `ThisAddIn_Shutdown` event handler in your project. These methods will throw an <xref:System.ObjectDisposedException>, because the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] cleans up resources used by the <xref:Microsoft.Office.Tools.CustomTaskPane> object before `ThisAddIn_Shutdown` is called. For more information about `ThisAddIn_Shutdown`, see [Events in Office projects](../vsto/events-in-office-projects.md).
+ The  Visual Studio Tools for Office runtime  automatically cleans up resources used by the custom task pane when the VSTO Add-in is unloaded. Do not call the <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Remove%2A> or <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.RemoveAt%2A> methods in the `ThisAddIn_Shutdown` event handler in your project. These methods will throw an <xref:System.ObjectDisposedException>, because the  Visual Studio Tools for Office runtime  cleans up resources used by the <xref:Microsoft.Office.Tools.CustomTaskPane> object before `ThisAddIn_Shutdown` is called. For more information about `ThisAddIn_Shutdown`, see [Events in Office projects](../vsto/events-in-office-projects.md).
 
 ## <a name="Managing"></a> Manage custom task panes in multiple application windows
  When you create a custom task pane in an application that uses multiple windows to display documents and other items, you need to take extra steps to ensure that the task pane is visible when the user expects it to be.
@@ -212,7 +214,7 @@ ms.workload:
 
 - [Microsoft.Office.Interop.PowerPoint.EApplication_Event.WindowDeactivate](/previous-versions/office/developer/office-2010/ff763093(v=office.14))
 
-## See also
+## Related content
 - [How to: Add a custom task pane to an application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md)
 - [Walkthrough: Automate an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md)
 - [Walkthrough: Synchronize a custom task pane with a Ribbon button](../vsto/walkthrough-synchronizing-a-custom-task-pane-with-a-ribbon-button.md)

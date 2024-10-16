@@ -1,7 +1,6 @@
 ---
 title: "Bookmark control"
 description: Learn how the Bookmark control is a bookmark that has a unique name, exposes events, and can be bound to data.
-ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 f1_keywords:
@@ -16,12 +15,11 @@ helpviewer_keywords:
   - "Bookmark control"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Bookmark control
+
   The <xref:Microsoft.Office.Tools.Word.Bookmark> control is a bookmark that has a unique name, exposes events, and can be bound to data. The bookmark can be used as a placeholder to mark an item or location in a Microsoft Office Word document. The <xref:Microsoft.Office.Tools.Word.Bookmark> control is a combination of a <xref:Microsoft.Office.Interop.Word.Bookmark> object and a <xref:Microsoft.Office.Interop.Word.Range> object.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
@@ -106,10 +104,10 @@ The following events are available for the <xref:Microsoft.Office.Tools.Word.Boo
 
 - <xref:Microsoft.Office.Tools.Word.Bookmark.SelectionChange>
 
-## See also
+## Related content
 
 - [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
 - [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)
-- [Walkthrough: Create shortcut menus for bookmarks](../vsto/walkthrough-creating-shortcut-menus-for-bookmarks.md)
+- [Walkthrough: Create shortcut menus for bookmarks](/previous-versions/visualstudio/visual-studio-2017/vsto/walkthrough-creating-shortcut-menus-for-bookmarks)
 - [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
 - [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)

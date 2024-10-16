@@ -1,41 +1,41 @@
 ---
 description: "Creates an object with no constructor."
-title: IDebugFunctionObject::CreateObjectNoConstructor | Microsoft Docs
+title: IDebugFunctionObject::CreateObjectNoConstructor
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugFunctionObject::CreateObjectNoConstructor
 helpviewer_keywords:
 - IDebugFunctionObject::CreateObjectNoConstructor method
-ms.assetid: 4e2bd6d5-f4bd-4c10-a998-3db451c9a0c8
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugFunctionObject::CreateObjectNoConstructor
+
 Creates an object with no constructor.
 
 ## Syntax
 
-```cpp
-HRESULT CreateObjectNoConstructor( 
-   IDebugField*   pClassObject,
-   IDebugObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateObjectNoConstructor(
    IDebugField      pClassField,
    out IDebugObject ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateObjectNoConstructor( 
+   IDebugField*   pClassObject,
+   IDebugObject** ppObject
+);
+```
+---
 
 ## Parameters
 `pClassObject`\

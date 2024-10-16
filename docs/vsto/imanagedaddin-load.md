@@ -2,19 +2,23 @@
 title: "IManagedAddin::Load"
 description: "Called when a managed VSTO Add-in is loaded."
 ms.date: "02/02/2017"
-ms.topic: "interface"
+ms.topic: "reference"
+ms.devlang: cpp
 dev_langs:
-  - "VB"
-  - "CSharp"
+  - C++
+f1_keywords:
+  - "IMANAGEDADDIN/IManagedAddIn::Load"
+  - "IManagedAddIn::Load"
+  - "IManagedAddIn.Load"
+  - "Load"
 helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # IManagedAddin::Load
+
   Called when a managed VSTO Add-in is loaded.
 
 ## Syntax

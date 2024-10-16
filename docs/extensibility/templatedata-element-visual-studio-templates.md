@@ -1,22 +1,19 @@
 ---
-title: TemplateData Element (Visual Studio Templates) | Microsoft Docs
+title: TemplateData Element (Visual Studio Templates)
 description: Learn about the TemplateData element and how it categorizes the template and defines how it displays in either the New Project or the Add New Item dialog box.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#TemplateData
 helpviewer_keywords:
 - TemplateData element [Visual Studio project templates]
-ms.assetid: db17ec9b-bfdf-46b1-bbe7-5ccc140056e2
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
 ---
 # TemplateData Element (Visual Studio Templates)
+
 Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.
 
  \<VSTemplate>
@@ -65,7 +62,7 @@ Categorizes the template and defines how it displays in either the **New Project
 | [SupportsMasterPage](../extensibility/supportsmasterpage-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies whether the template supports a master page for web projects. |
 | [SupportsCodeSeparation](../extensibility/supportscodeseparation-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies whether the template supports code separation, or the code-behind page model, for web projects. |
 | [SupportsLanguageDropDown](../extensibility/supportslanguagedropdown-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies whether the template is identical for multiple languages, and whether the **Language** option is available from the **New Project** dialog box. |
-| [TargetPlatformName](../extensibility/targetplatformname-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies the platform that the project template targets. This element specifies that a project template is used to create [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps. |
+| [TargetPlatformName](../extensibility/targetplatformname-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies the platform that the project template targets. This element specifies that a project template is used to create Windows 8.x Store apps. |
 
 ### Parent Elements
 
@@ -79,7 +76,7 @@ Categorizes the template and defines how it displays in either the **New Project
  If you do not include an optional element, the default value for that element is used.
 
 ## Example
- The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] application.
+ The following example shows the metadata for a project template for a Visual C# application.
 
 ```
 <VSTemplate Type="Project" Version="3.0.0"

@@ -1,38 +1,27 @@
 ---
 description: "Creates an enumerator for the fields of the container."
-title: IDebugContainerField::EnumFields | Microsoft Docs
+title: IDebugContainerField::EnumFields
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugContainerField::EnumFields
 helpviewer_keywords:
 - IDebugContainerField::EnumFields method
-ms.assetid: 9e5e681b-ad49-4c62-bd95-4afa11d61a57
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugContainerField::EnumFields
+
 Creates an enumerator for the fields of the container.
 
 ## Syntax
 
-```cpp
-HRESULT EnumFields( 
-   FIELD_KIND         dwKindFilter,
-   FIELD_MODIFIERS    dwModifiersFilter,
-   LPCOLESTR          pszNameFilter,
-   NAME_MATCH         nameMatch,
-   IEnumDebugFields** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumFields(
    enum_ FIELD_KIND      dwKindFilter,
@@ -42,6 +31,17 @@ int EnumFields(
    out IEnumDebugFields  ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumFields( 
+   FIELD_KIND         dwKindFilter,
+   FIELD_MODIFIERS    dwModifiersFilter,
+   LPCOLESTR          pszNameFilter,
+   NAME_MATCH         nameMatch,
+   IEnumDebugFields** ppEnum
+);
+```
+---
 
 ## Parameters
 `dwKindFilter`\

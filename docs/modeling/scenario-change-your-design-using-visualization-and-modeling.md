@@ -1,6 +1,6 @@
 ---
-title: 'Change your design using visualization and modeling'
-description: Learn about the visualization and modeling tools in Visual Studio, and how you use those tools to change your design.
+title: Change your design with visualization and modeling
+description: Use the visualization and modeling tools in Visual Studio to clarify design requirements, explore existing code, and keep code consistent with your design.
 ms.date: 11/04/2016
 ms.topic: overview
 helpviewer_keywords:
@@ -13,11 +13,8 @@ helpviewer_keywords:
 - walkthroughs [Visual Studio ALM], modeling software
 author: mgoertz-msft
 ms.author: mgoertz
-ms.custom: SEO-VS-2020
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Scenario: Change your design using visualization and modeling
 
@@ -215,7 +212,7 @@ See:
 
 - [Charts, dashboards, and widgets (Azure DevOps Services)](/azure/devops/report/dashboards/overview?view=vsts&preserve-view=true)
 
-- [Create your backlog and tasks using Project](/azure/devops/boards/backlogs/office/create-your-backlog-tasks-using-project)
+- [Create your backlog and tasks using Project](/previous-versions/azure/devops/boards/backlogs/office/create-your-backlog-tasks-using-project)
 
 ### <a name="TestValidateCheckInCode"></a> Test, Validate, and Check In Code
 

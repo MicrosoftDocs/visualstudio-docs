@@ -1,38 +1,38 @@
 ---
 description: "Retrieves the flags for this generic parameter."
-title: IDebugGenericParamField::GetFlags | Microsoft Docs
+title: IDebugGenericParamField::GetFlags
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - GetFlags
 - IDebugGenericParamField::GetFlags
-ms.assetid: adcbbca1-8960-4c88-86b0-8b9467056c97
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugGenericParamField::GetFlags
+
 Retrieves the flags for this generic parameter.
 
 ## Syntax
 
-```cpp
-HRESULT GetFlags(
-    DWORD* pdwFlags
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetFlags(
     ref uint pdwFlags
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetFlags(
+    DWORD* pdwFlags
+);
+```
+---
 
 ## Parameters
 `pdwFlags`\

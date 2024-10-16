@@ -13,12 +13,11 @@ helpviewer_keywords:
   - "<postActions> element"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # &lt;postActions&gt; element (Office development)
+
   The `postActions` element of the `vstav3` namespace contains all the `postAction` elements that describe post-deployment actions, which run after Office solutions are installed.
 
 ## Syntax
@@ -47,7 +46,7 @@ ms.workload:
 ## Post-deployment action example
 
 ### Description
- The following code example illustrates the `postActions` element in an application manifest for an Office solution deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
+ The following code example illustrates the `postActions` element in an application manifest for an Office solution deployed by using ClickOnce. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
 
 ### Code
 

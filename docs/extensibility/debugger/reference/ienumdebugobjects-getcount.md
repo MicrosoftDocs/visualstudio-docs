@@ -1,39 +1,39 @@
 ---
 description: "This method returns the number of IDebugObject elements in the enumeration."
-title: IEnumDebugObjects::GetCount | Microsoft Docs
+title: IEnumDebugObjects::GetCount
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugObjects::GetCount
 helpviewer_keywords:
 - IEnumDebugObjects::GetCount method
-ms.assetid: 9cbc5db4-03ae-479f-a664-13cad66ad210
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugObjects::GetCount
+
 This method returns the number of elements in the enumeration.
 
 ## Syntax
 
-```cpp
-HRESULT GetCount(
-   [out] ULONG* pcelt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCount(
    out uint pcelt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCount(
+   [out] ULONG* pcelt
+);
+```
+---
 
 ## Parameters
 `pcelt`\

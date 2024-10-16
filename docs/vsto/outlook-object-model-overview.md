@@ -1,7 +1,6 @@
 ---
 title: "Outlook object model overview"
-description: Learn how you can interact with the objects that are provided by the Outlook object model to develop VSTO Add-ins for Microsoft Outlook.
-ms.custom: SEO-VS-2020
+description: Interact with various objects provided by the Outlook object model to develop VSTO add-ins for Microsoft Outlook, such as for mail, appointments, and tasks. 
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -17,12 +16,11 @@ helpviewer_keywords:
   - "Office object models"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Outlook object model overview
+
   To develop VSTO Add-ins for Microsoft Office Outlook, you can interact with the objects that are provided by the Outlook object model. The Outlook object model provides classes and interfaces that represent items in the user interface. For example, the <xref:Microsoft.Office.Interop.Outlook.Application> object represents the entire application, the <xref:Microsoft.Office.Interop.Outlook.Folder> object represents a folder that contains e-mail messages or other items, and the <xref:Microsoft.Office.Interop.Outlook.MailItem> object represents an e-mail message.
 
  This topic provides a brief overview of some of the main objects in the Outlook object model. For resources where you can learn more about the entire Outlook object model, see [Use the Outlook object model documentation](#refdoc).
@@ -111,7 +109,7 @@ ms.workload:
 ### ContactItem object
  The <xref:Microsoft.Office.Interop.Outlook.ContactItem>object represents a contact in the **Contacts** folder. <xref:Microsoft.Office.Interop.Outlook.ContactItem> objects contain a variety of contact information for the people they represent, such as street addresses, e-mail addresses, and phone numbers.
 
- For an example that shows how to create a new contact, see [How to: Programmatically add an entry to Outlook contacts](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md). For an example that shows how to search for an existing contact, see [How to: Programmatically search for a specific contact](../vsto/how-to-programmatically-search-for-a-specific-contact.md).
+ For an example that shows how to create a new contact, see [How to: Programmatically add an entry to Outlook contacts](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md). For an example that shows how to search for an existing contact, see [How to: Programmatically search for a specific contact](/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-search-for-a-specific-contact).
 
 ## <a name="refdoc"></a> Use the Outlook object model documentation
  For complete information about the Outlook object model, you can refer to the Outlook primary interop assembly (PIA) reference and the VBA object model reference.
@@ -130,7 +128,7 @@ ms.workload:
 
 |Title|Description|
 |-----------|-----------------|
-|[Work with contact items](../vsto/working-with-contact-items.md)|Provides topics that show how to perform tasks with contacts.|
+|[Work with contact items](/previous-versions/visualstudio/visual-studio-2017/vsto/working-with-contact-items)|Provides topics that show how to perform tasks with contacts.|
 |[Work with mail items](../vsto/working-with-mail-items.md)|Provides topics that show how to perform tasks with mail items.|
 |[Work with folders](../vsto/working-with-folders.md)|Provides topics that show how to perform tasks with folders.|
 |[Work with calendar items](../vsto/working-with-calendar-items.md)|Provides topics that show how to perform tasks with calendar items.|

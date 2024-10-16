@@ -1,21 +1,20 @@
 ---
-description: "Retrieves the lines in a specified compiland that contain a specified address."
-title: "IDiaSession::findLinesByAddr | Microsoft Docs"
-ms.date: "11/04/2016"
+description: Retrieves the lines in a specified compiland that contain a specified address.
+title: "IDiaSession::findLinesByAddr"
+ms.date: "07/22/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSession::findLinesByAddr method"
-ms.assetid: 640403c0-14cf-403c-ad19-38b3bdc28ca8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
-# IDiaSession::findLinesByAddr
+
+# `IDiaSession::findLinesByAddr`
+
 Retrieves the lines in a specified compiland that contain a specified address.
 
 ## Syntax
@@ -44,7 +43,7 @@ HRESULT findLinesByAddr (
 
 `ppResult`
 
-[out] Returns an [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md) object that contains a list of all the line numbers that cover the specified address range.
+[out] Returns an [`IDiaEnumLineNumbers`](../../debugger/debug-interface-access/idiaenumlinenumbers.md) object that contains a list of all the line numbers that cover the specified address range.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
@@ -72,6 +71,6 @@ IDiaEnumLineNumbers* GetLineNumbersByAddr(IDiaSymbol *pFunc,
 ```
 
 ## See also
-- [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
-- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
-- [IDiaSession::findLinesByVA](../../debugger/debug-interface-access/idiasession-findlinesbyva.md)
+- [`IDiaEnumLineNumbers`](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
+- [`IDiaSession`](../../debugger/debug-interface-access/idiasession.md)
+- [`IDiaSession::findLinesByVA`](../../debugger/debug-interface-access/idiasession-findlinesbyva.md)

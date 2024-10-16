@@ -5,11 +5,8 @@ ms.date: 11/04/2016
 ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.custom: SEO-VS-2020
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Create a Windows Forms-based Domain-Specific Language
 
@@ -84,6 +81,9 @@ The following image is the DSL definition used in this walkthrough.
     - `Field` - Give this an additional domain property named `Size`.
 
     - `Animal` - In the Properties window, set **Inheritance Modifier** to **Abstract**.
+
+    > [!NOTE]
+    > The **Named Domain Class** tool and the other tools mentioned in this section are found in the **Toolbox** tool window. You can open or hide this window with **View** > **Toolbox**.
 
 5. Use the **Domain Class** tool to create the following classes:
 
@@ -318,7 +318,7 @@ However, this code does not set a default name for the new item. It does not run
 
 Therefore we recommend that you use <xref:Microsoft.VisualStudio.Modeling.ElementOperations> to create new elements. For more information, see [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md).
 
-## See also
+## Related content
 
 - [How to define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
 - [Write code to customize a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)

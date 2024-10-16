@@ -1,7 +1,6 @@
 ---
-title: Re-sign Application and Deployment Manifests | Microsoft Docs
+title: Re-sign Application and Deployment Manifests
 description: Learn how to re-sign both the application and deployment manifests with a certificate after changes are made to deployment properties.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -14,21 +13,21 @@ helpviewer_keywords:
   - deploying applications, signing manifests
   - ClickOnce deployment, signing manifests
   - Office development in Visual Studio, signing manifests
-ms.assetid: d53bceb9-4d3b-4c22-b909-8f370e7231fb
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
+manager: mijacobs
+ms.subservice: deployment
 ---
-# How to: Re-sign application and deployment manifests
+# Re-sign application and deployment manifests
+
 After you make changes to deployment properties in the application manifest for Windows Forms applications, Windows Presentation Foundation applications (xbap), or Office solutions, you must re-sign both the application and deployment manifests with a certificate. This process helps ensure that tampered files are not installed on end user computers.
 
  Another scenario where you might re-sign the manifests is when your customers want to sign the application and deployment manifests with their own certificate.
 
 ## Re-sign the Application and Deployment Manifests
  This procedure assumes that you have already made changes to your application manifest file (*.manifest*). For more information, see [How to: Change deployment properties](/previous-versions/cc442869(v=vs.110)).
+
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-dotnetmage-exe.md)]
 
 #### To re-sign the application and deployment manifests with Mage.exe
 
@@ -109,14 +108,14 @@ After you make changes to deployment properties in the application manifest for 
 
 7. Optionally, copy the master deployment manifest (*publish\\\<appname>.application*) to your version deployment directory (*publish\Application Files\\\<appname>_\<version>*).
 
-## See also
+## Related content
 - [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
 - [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md)
 - [ClickOnce and Authenticode](../deployment/clickonce-and-authenticode.md)
 - [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md)
-- [How to: Enable ClickOnce security settings](../deployment/how-to-enable-clickonce-security-settings.md)
-- [How to: Set a security zone for a ClickOnce application](../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md)
-- [How to: Set custom permissions for a ClickOnce application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)
-- [How to: Debug a ClickOnce application with restricted permissions](securing-clickonce-applications.md)
-- [How to: Add a trusted publisher to a client computer for ClickOnce applications](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md)
-- [How to: Configure the ClickOnce trust prompt behavior](../deployment/how-to-configure-the-clickonce-trust-prompt-behavior.md)
+- [Enable and configure ClickOnce security settings](../deployment/how-to-enable-clickonce-security-settings.md)
+- [Set a security zone for a ClickOnce application](../deployment/how-to-enable-clickonce-security-settings.md#set-a-security-zone-for-a-clickonce-application)
+- [Set custom permissions for a ClickOnce application](../deployment/how-to-enable-clickonce-security-settings.md#set-custom-permissions-for-a-clickonce-application)
+- [Debug a ClickOnce application with restricted permissions](securing-clickonce-applications.md)
+- [Add a trusted publisher to a client computer for ClickOnce applications](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md)
+- [Configure the ClickOnce trust prompt behavior](../deployment/how-to-configure-the-clickonce-trust-prompt-behavior.md)

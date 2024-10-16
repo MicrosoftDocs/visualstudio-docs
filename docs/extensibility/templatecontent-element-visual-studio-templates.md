@@ -1,20 +1,16 @@
 ---
-title: TemplateContent Element (Visual Studio Templates) | Microsoft Docs
+title: TemplateContent Element (Visual Studio Templates)
 description: Learn about the TemplateContent element and how it specifies the contents of the template.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#TemplateContent
 helpviewer_keywords:
 - TemplateContent element [Visual Studio project templates]
-ms.assetid: 90ae401c-b294-49ac-98da-e0d274f5bebb
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
 ---
 # TemplateContent Element (Visual Studio Templates)
 
@@ -64,7 +60,7 @@ Element hierarchy:
  `TemplateContent` is a required element.
 
 ## Example
- The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] application.
+ The following example shows the metadata for a project template for a Visual C# application.
 
 ```xml
 <VSTemplate Type="Project" Version="3.0.0"

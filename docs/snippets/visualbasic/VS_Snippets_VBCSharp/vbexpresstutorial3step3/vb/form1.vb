@@ -10,6 +10,21 @@ Public Class Form1
     Private addend1 As Integer
     Private addend2 As Integer
 
+    ' These integer variables store the numbers 
+    ' for the subtraction problem. 
+    Private minuend As Integer
+    Private subtrahend As Integer
+
+    ' These integer variables store the numbers 
+    ' for the multiplication problem. 
+    Private multiplicand As Integer
+    Private multiplier As Integer
+
+    ' These integer variables store the numbers 
+    ' for the division problem. 
+    Private dividend As Integer
+    Private divisor As Integer
+
     ' This integer variable keeps track of the 
     ' remaining time.
     Private timeLeft As Integer
@@ -18,9 +33,18 @@ Public Class Form1
     ' <snippet6>
     Private Sub Timer1_Tick() Handles Timer1.Tick
 
-        If timeLeft > 0 Then
-            ' Display the new time left
-            ' by updating the Time Left label.
+        If CheckTheAnswer() Then
+            ' If CheckTheAnswer() returns true, then the user 
+            ' got the answer right. Stop the timer  
+            ' and show a MessageBox.
+            Timer1.Stop()
+            MessageBox.Show("You got all of the answers right!", "Congratulations!")
+            startButton.Enabled = True
+        ElseIf timeLeft > 0 Then
+            ' If CheckTheAnswer() returns false, keep counting
+            ' down. Decrease the time left by one second and 
+            ' display the new time left by updating the 
+            ' Time Left label.
             timeLeft -= 1
             timeLabel.Text = timeLeft & " seconds"
         Else
@@ -30,6 +54,9 @@ Public Class Form1
             timeLabel.Text = "Time's up!"
             MessageBox.Show("You didn't finish in time.", "Sorry!")
             sum.Value = addend1 + addend2
+            difference.Value = minuend - subtrahend
+            product.Value = multiplicand * multiplier
+            quotient.Value = dividend / divisor
             startButton.Enabled = True
         End If
 
@@ -61,6 +88,28 @@ Public Class Form1
         ' adding any values to it.
         sum.Value = 0
 
+        ' Fill in the subtraction problem.
+        minuend = randomizer.Next(1, 101)
+        subtrahend = randomizer.Next(1, minuend)
+        minusLeftLabel.Text = minuend.ToString()
+        minusRightLabel.Text = subtrahend.ToString()
+        difference.Value = 0
+
+        ' Fill in the multiplication problem.
+        multiplicand = randomizer.Next(2, 11)
+        multiplier = randomizer.Next(2, 11)
+        timesLeftLabel.Text = multiplicand.ToString()
+        timesRightLabel.Text = multiplier.ToString()
+        product.Value = 0
+
+        ' Fill in the division problem.
+        divisor = randomizer.Next(2, 11)
+        Dim temporaryQuotient As Integer = randomizer.Next(2, 11)
+        dividend = divisor * temporaryQuotient
+        dividedLeftLabel.Text = dividend.ToString()
+        dividedRightLabel.Text = divisor.ToString()
+        quotient.Value = 0
+
         ' Start the timer.
         timeLeft = 30
         timeLabel.Text = "30 seconds"
@@ -69,10 +118,31 @@ Public Class Form1
     End Sub
     ' </snippet7>
 
+    ''' <summary>
+    ''' Check the answers to see if the user got everything right.
+    ''' </summary>
+    ''' <returns>True if the answer's correct, false otherwise.</returns>
+    ''' <remarks></remarks>
+    Public Function CheckTheAnswer() As Boolean
+
+        If addend1 + addend2 = sum.Value AndAlso
+       minuend - subtrahend = difference.Value AndAlso
+       multiplicand * multiplier = product.Value AndAlso
+       dividend / divisor = quotient.Value Then
+
+            Return True
+        Else
+            Return False
+        End If
+
+    End Function
 
     Private Sub Temp()
         ' <snippet24>
         sum.Value = addend1 + addend2
+        difference.Value = minuend - subtrahend
+        product.Value = multiplicand * multiplier
+        quotient.Value = dividend / divisor
         ' </snippet24>
     End Sub
 

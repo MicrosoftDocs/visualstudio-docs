@@ -1,7 +1,6 @@
 ---
 title: "Debugger can't display source code or disassembly"
 description: See the reasons for the message "Debugger cannot display source code or disassembly for the current location where execution has stopped". 
-ms.custom: "SEO-VS-2020"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,15 +10,13 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "disassembly code, errors"
-ms.assetid: 112d3ea3-fdd2-4bce-92b4-167a76258934
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Debugger Cannot Display Source Code or Disassembly
+
 This error reads:
 
  The debugger cannot display source code or disassembly for the current location where execution has stopped.
@@ -32,7 +29,7 @@ This error reads:
 
 - Security considerations may have prevented the debugger from reading stack, thread, register, and other context information from the program you are debugging. This is most likely to happen if you are debugging a Web application and don't have the right permission to access the virtual directory. Set security for the virtual directory to Anonymous and try again.
 
-## See also
+## Related content
 - [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)

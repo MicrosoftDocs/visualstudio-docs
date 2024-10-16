@@ -1,8 +1,7 @@
 ---
-title: Pass data between forms
-description: In this Windows Forms controls walkthrough, get step-by-step instructions for passing data from one form to another.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+title: Pass data between forms controls (.NET Framework)
+description: Pass data between Windows Forms controls in .NET Framework application development with Visual Studio and create a TableAdapter query to fetch customer orders.
+ms.date: 12/15/2023
 ms.topic: how-to
 dev_langs:
 - VB
@@ -13,24 +12,24 @@ helpviewer_keywords:
 - data [Visual Studio], passing between forms
 - forms, passing data between
 - Windows Forms, walkthroughs
-ms.assetid: 78bf038b-9296-4fbf-b0e8-d881d1aff0df
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
+
 # Pass data between forms
 
-This walkthrough provides step-by-step instructions for passing data from one form to another. Using the customers and orders tables from Northwind, one form allows users to select a customer, and a second form displays the selected customer's orders. This walkthrough shows how to create a method on the second form that receives data from the first form.
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
+
+This tutorial provides step-by-step instructions for passing data from one form to another. Using the customers and orders tables from Northwind, one form allows users to select a customer, and a second form displays the selected customer's orders. This tutorial shows how to create a method on the second form that receives data from the first form.
 
 > [!NOTE]
-> This walkthrough demonstrates only one way to pass data between forms. There are other options for passing data to a form, including creating a second constructor to receive data, or creating a public property that can be set with data from the first form.
+> This tutorial demonstrates only one way to pass data between forms. There are other options for passing data to a form, including creating a second constructor to receive data, or creating a public property that can be set with data from the first form.
 
-Tasks illustrated in this walkthrough include:
+Tasks illustrated in this tutorial include:
 
-- Creating a new **Windows Forms Application** project.
+- Creating a new **Windows Forms App (.NET Framework)** project.
 
 - Creating and configuring a dataset with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).
 
@@ -46,7 +45,9 @@ Tasks illustrated in this walkthrough include:
 
 ## Prerequisites
 
-This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
+To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
+
+This tutorial uses SQL Server Express LocalDB and the Northwind sample database.
 
 1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.
 
@@ -56,7 +57,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
        A query editor window opens.
 
-    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/master/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
+    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
@@ -80,23 +81,23 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 2. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
 
-3. Select **Database** on the **Choose a Data Source Type** page, and then click **Next**.
+3. Select **Database** on the **Choose a Data Source Type** page, and then select **Next**.
 
-4. On the **Choose a database model** page, verify that **Dataset** is specified, and then click **Next**.
+4. On the **Choose a database model** page, verify that **Dataset** is specified, and then select **Next**.
 
 5. On the **Choose your Data Connection** page, do one of the following:
 
-    - If a data connection to the Northwind sample database is available in the drop-down list, select it.
+    - If a data connection to the Northwind sample database is available in the dropdown list, select it.
 
     - Select **New Connection** to launch the **Add/Modify Connection** dialog box.
 
-6. If your database requires a password and if the option to include sensitive data is enabled, select the option and then click **Next**.
+6. If your database requires a password and if the option to include sensitive data is enabled, select the option, and then select **Next**.
 
 7. On the **Save connection string to the Application Configuration file** page, click **Next**.
 
 8. On the **Choose your Database Objects** page, expand the **Tables** node.
 
-9. Select the **Customers** and **Orders** tables, and then click **Finish**.
+9. Select the **Customers** and **Orders** tables, and then select **Finish**.
 
      The **NorthwindDataSet** is added to your project, and the **Customers** and **Orders** tables appear in the **Data Sources** window.
 
@@ -134,11 +135,11 @@ Add a TableAdapter query to Form2 to load orders for the selected customer on Fo
 
 2. Right-click the **OrdersTableAdapter**, and select **Add Query**.
 
-3. Leave the default option of **Use SQL statements**, and then click **Next**.
+3. Leave the default option of **Use SQL statements**, and then select **Next**.
 
-4. Leave the default option of **SELECT which returns rows**, and then click **Next**.
+4. Leave the default option of **SELECT which returns rows**, and then select **Next**.
 
-5. Add a WHERE clause to the query, to return `Orders` based on the `CustomerID`. The query should be similar to the following:
+5. Add a `WHERE` clause to the query, to return `Orders` based on the `CustomerID`. The query should be similar to the following:
 
     ```sql
     SELECT OrderID, CustomerID, EmployeeID, OrderDate, RequiredDate, ShippedDate, ShipVia, Freight, ShipName, ShipAddress, ShipCity, ShipRegion, ShipPostalCode, ShipCountry
@@ -147,13 +148,13 @@ Add a TableAdapter query to Form2 to load orders for the selected customer on Fo
     ```
 
     > [!NOTE]
-    > Verify the correct parameter syntax for your database. For example, in Microsoft Access, the WHERE clause would look like: `WHERE CustomerID = ?`.
+    > Verify the correct parameter syntax for your database. For example, in Microsoft Access, the `WHERE` clause would look like: `WHERE CustomerID = ?`.
 
 6. Click **Next**.
 
 7. For the **Fill a DataTableMethod Name**, type `FillByCustomerID`.
 
-8. Clear the **Return a DataTable** option, and then click **Next**.
+8. Clear the **Return a DataTable** option, and then select **Next**.
 
 9. Click **Finish**.
 
@@ -163,12 +164,18 @@ Add a TableAdapter query to Form2 to load orders for the selected customer on Fo
 
 2. Add the following code to **Form2** after the `Form2_Load` method:
 
-:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/Form2.vb" id="Snippet1":::
+### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/Form2.cs" id="Snippet1":::
+
+### [VB](#tab/vb)
+
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/Form2.vb" id="Snippet1":::
+---
 
 ## Create a method on Form1 to pass data and display Form2
 
-1. In **Form1**, right-click the Customer data grid, and then click **Properties**.
+1. In **Form1**, right-click the Customer data grid, and then select **Properties**.
 
 2. In the **Properties** window, click **Events**.
 
@@ -178,8 +185,14 @@ Add a TableAdapter query to Form2 to load orders for the selected customer on Fo
 
 4. Update the method definition to match the following sample:
 
+### [C#](#tab/csharp)
+
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/Form1.cs" id="Snippet2":::
+
+### [VB](#tab/vb)
+
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/Form1.vb" id="Snippet2":::
+---
 
 ## Run the app
 
@@ -189,12 +202,12 @@ Add a TableAdapter query to Form2 to load orders for the selected customer on Fo
 
 ## Next steps
 
-Depending on your application requirements, there are several steps you may want to perform after passing data between forms. Some enhancements you could make to this walkthrough include:
+Depending on your application requirements, there are several steps you might want to perform after passing data between forms. Some enhancements you could make to this tutorial include:
 
 - Editing the dataset to add or remove database objects. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).
 
 - Adding functionality to save data back to the database. For more information, see [Save data back to the database](../data-tools/save-data-back-to-the-database.md).
 
-## See also
+## Related content
 
 - [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

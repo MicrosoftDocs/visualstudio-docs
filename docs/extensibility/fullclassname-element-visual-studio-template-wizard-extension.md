@@ -1,22 +1,19 @@
 ---
 title: FullClassName element (VS template wizard extension)
 description: Learn about the FullClassName element and how its the fully qualified name of the class that implements the IWizard interface.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#FullClassName
 helpviewer_keywords:
 - FullClassName element [Visual Studio project template]
-ms.assetid: 651e1010-d529-4856-85ff-c77ceca5d2ed
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
 ---
 # FullClassName element (Visual Studio template wizard extension)
+
 The fully qualified name of the class that implements the `IWizard` interface.
 
  \<VSTemplate>
@@ -54,7 +51,7 @@ The fully qualified name of the class that implements the `IWizard` interface.
  `FullClassName` is a required child element of `WizardExtension`.
 
 ## Example
- The following example illustrates the metadata for the standard project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Windows application.
+ The following example illustrates the metadata for the standard project template for a Visual C# Windows application.
 
 ```
 <VSTemplate Version="3.0.0" Type="Item"

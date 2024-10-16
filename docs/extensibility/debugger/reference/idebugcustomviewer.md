@@ -1,21 +1,19 @@
 ---
 description: "This interface enables an expression evaluator (EE) to display a property's value in whatever format is necessary."
-title: IDebugCustomViewer | Microsoft Docs
+title: IDebugCustomViewer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCustomViewer
 helpviewer_keywords:
 - IDebugCustomViewer interface
-ms.assetid: 7aca27d3-c7b8-470f-b42c-d1e9d9115edd
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugCustomViewer
+
 This interface enables an expression evaluator (EE) to display a property's value in whatever format is necessary.
 
 ## Syntax

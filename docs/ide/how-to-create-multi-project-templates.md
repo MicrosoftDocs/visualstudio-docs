@@ -1,21 +1,23 @@
 ---
 title: Create multi-project templates
-description: Learn how to create multi-project templates in Visual Studio that can act as containers for many projects at the same time.
-ms.custom: SEO-VS-2020
-ms.date: 04/17/2019
+description: Create multi-project templates in Visual Studio that can act as containers for many projects at the same time and containers for projects of different languages.
+ms.date: 04/05/2024
 ms.topic: how-to
 helpviewer_keywords:
 - Visual Studio templates, creating multi-project
 - project templates, multi-project
 - multi-project templates
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: general-ide
 ---
-# How to: Create multi-project templates
+# Create multi-project templates
 
-Multi-project templates act as containers for two or more projects. When you create a project that's based on a multi-project template, every project in the template is added to the solution.
+Multi-project templates act as containers for two or more Visual Studio projects. When you create a project that's based on a multi-project template, every project in the template is added to the solution.
+
+> [!NOTE]
+> The templates discussed in this article are the ones used when you create projects in Visual Studio, not the ones that `dotnet new` creates.
 
 A multi-project template has two or more project templates and a root template of type **ProjectGroup**.
 
@@ -183,7 +185,66 @@ This example uses the **SolutionFolder** element to divide the projects into two
 </VSTemplate>
 ```
 
-## See also
+## Example with project references
+
+This example shows how to add project references to a multi-project template and is essentially an extension of the [multi-project template](#create-multi-project-templates) example.
+
+In this example the solution contains two projects, **MultiProject.Client** and **MultiProject.Shared**. The project **MultiProject.Client** references **MultiProject.Shared**.
+
+The folder structure is as follows:
+
+- *MultiProjectTemplate.vstemplate*
+- *\MultiProject.Client\MultiProject.Client.csproj*
+- *\MultiProject.Client\MyTemplate.vstemplate*
+- *\MultiProject.Shared\MultiProject.Shared.csproj*
+- *\MultiProject.Shared\MyTemplate.vstemplate*
+
+When the template is used the *MultiProject* part is being replaced with the project name the user enters.
+
+The *MultiProjectTemplate.vstemplate* looks like the following. Please note that the *ProjectTemplateLink*s have the attribute **CopyParameters** set to *true* and that the **ProjectName** attributes use the template variable [\$safeprojectname\$](./template-parameters.md#reserved-template-parameters).
+
+```xml
+<VSTemplate Version="2.0.0" Type="ProjectGroup"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+...
+<TemplateContent>
+    <ProjectCollection>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Client" CopyParameters="true">
+            MultiProject.Client\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Shared" CopyParameters="true">
+            MultiProject.Shared\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+    </ProjectCollection>
+</TemplateContent>
+</VSTemplate>
+```
+
+The *MultiProject.Client\MyTemplate.vstemplate* might look something like the following. Please note that the *Project* tag has the attribute **ReplaceParameters** set to *true*.
+
+```xml
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+	...
+	<TemplateContent>
+		<Project TargetFileName="MultiProject.Client.csproj" File="MultiProject.Client.csproj" ReplaceParameters="true">
+            ...
+		</Project>
+	</TemplateContent>
+</VSTemplate>
+```
+
+The *MultiProject.Client\MultiProject.Client.csproj* might look something like the following. Please note that the attribute **Include** of the *ProjectReference* uses the template variable [\$ext_safeprojectname\$](./template-parameters.md#reserved-template-parameters)
+
+```xml
+<Project>
+    ...
+	<ItemGroup>
+	  <ProjectReference Include="..\$ext_safeprojectname$.Shared\$ext_safeprojectname$.Shared.csproj" />
+	</ItemGroup>
+</Project>
+```
+
+## Related content
 
 - [Creating project and item templates](../ide/creating-project-and-item-templates.md)
 - [How to: Create project templates](../ide/how-to-create-project-templates.md)

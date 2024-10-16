@@ -1,7 +1,6 @@
 ---
 title: "Data in Office solutions"
 description: Learn the various ways to work with data when you create Microsoft Office solutions by using Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,12 +12,11 @@ helpviewer_keywords:
   - "datasets [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Data in Office solutions
+
   Many Office solutions enable users to retrieve or modify data. When you create Office solutions by using Visual Studio, there are several different ways you can work with data.
 
 ## In this section

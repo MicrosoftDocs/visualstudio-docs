@@ -1,7 +1,6 @@
 ---
 title: Using 3D Assets in Your Game or App
 description: Learn how to use Visual Studio to process 3D assets and include them in builds. Visual Studio provides build customizations for each asset that it produces.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -11,15 +10,12 @@ f1_keywords:
 - VC.Project.ImageContentTask.Compress
 - VC.Project.ShaderGraphContentTask.ContentOutput
 - VC.Project.ImageContentTask.GenerateMips
-ms.assetid: ea587909-e434-46a8-abf8-9b3e95a58b4f
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-designers
-ms.workload:
-- multiple
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: ui-designers
 ---
-# How to: Use 3D assets in your game or app
+# Use 3D assets in your game or app
 
 This article describes how you can use Visual Studio to process 3D assets and include them in your builds.
 

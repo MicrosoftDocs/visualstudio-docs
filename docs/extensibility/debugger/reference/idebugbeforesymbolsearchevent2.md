@@ -1,19 +1,17 @@
 ---
 description: "The debug engine (DE) sends this interface to the session debug manager (SDM) to set the status bar message during symbol loads."
-title: IDebugBeforeSymbolSearchEvent2 | Microsoft Docs
+title: IDebugBeforeSymbolSearchEvent2
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugBeforeSymbolSearchEvent2 interface
-ms.assetid: 679fd7b1-765a-41a8-a046-63240c09a499
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugBeforeSymbolSearchEvent2
+
 The debug engine (DE) sends this interface to the session debug manager (SDM) to set the status bar message during symbol loads.
 
 ## Syntax

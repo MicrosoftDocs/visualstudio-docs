@@ -1,27 +1,17 @@
 ---
 title: Create an Extension Pack
 description: Learn how to create an Extension Pack with the Extension Pack Item Template
-ms.custom: SEO-VS-2020
 ms.date: 07/27/2018
 ms.topic: tutorial
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - extensions
-ms.assetid: 5388EEBA-211D-4114-8CD9-70C899919F7E
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: Meng
-ms.workload:
-- vssdk
 ---
 # Walkthrough: Create an Extension Pack
 
 An Extension Pack is a set of extensions that can be installed together. Extension Packs enable you to easily share your favorite extensions with other users or bundle a set of extensions together for a particular scenario.
-
-## Prerequisites
-
-Starting in Visual Studio 2015, the Visual Studio SDK is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
-
-The Extension Pack feature is available starting with Visual Studio 15.8 Preview 2.
 
 ## Create an extension with an Extension Pack item template
 
@@ -65,17 +55,7 @@ The Extension Pack item template creates an Extension Pack with set of extension
 
 Now that the extension is published, install it in Visual Studio and test it there.
 
-::: moniker range="vs-2017"
-
-1. In Visual Studio, on the **Tools** menu, click **Extensions and Updates**.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 1. In Visual Studio, on the **Extensions** menu, click **Managed Extensions**.
-
-::: moniker-end
 
 2. Click **Online** and then search for "Test Extension Pack".
 
@@ -91,17 +71,7 @@ Now that the extension is published, install it in Visual Studio and test it the
 
 To remove the extension from your computer:
 
-::: moniker range="vs-2017"
-
-1. In Visual Studio, on the **Tools** menu, click **Extensions and Updates**.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 1. In Visual Studio, on the **Extensions** menu, click **Managed Extensions**.
-
-::: moniker-end
 
 2. Select **Test Extension Pack** and then click **Uninstall**. The extension and its list of extensions included in the Extension Pack will then be scheduled for uninstall.
 

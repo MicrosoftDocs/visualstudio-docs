@@ -1,7 +1,6 @@
 ---
 title: Visual Basic IntelliSense
 description: Learn how to use the IntelliSense features offered by the Visual Basic source code editor.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -9,12 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - IntelliSense [Visual Basic]
 - IntelliSense [Visual Studio], Visual Basic
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: anandmeg
+ms.author: meghaanand
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # IntelliSense for Visual Basic code files
 
@@ -40,7 +37,7 @@ You can manually invoke completion by invoking List Members, Complete Word, or *
 
 ## IntelliSense in Zone
 
-IntelliSense in Zone assists Visual Basic developers who need to deploy applications through [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] and are constrained to partial trust settings. This feature:
+IntelliSense in Zone assists Visual Basic developers who need to deploy applications through ClickOnce and are constrained to partial trust settings. This feature:
 
 - Enables you to choose the permissions the application will run with.
 
@@ -52,6 +49,6 @@ For more information, see [Code access security for ClickOnce applications](../d
 
 In Visual Basic, IntelliSense completion lists have two tab controls located near the bottom of the lists. The **Common** tab, which is selected by default, displays items that are most often used to complete the statement that you are writing. The **All** tab displays all items that are available for automatic completion, including those that are also on the **Common** tab.
 
-## See also
+## Related content
 
 - [Use IntelliSense](../ide/using-intellisense.md)

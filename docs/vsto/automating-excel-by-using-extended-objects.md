@@ -1,7 +1,6 @@
 ---
 title: "Automate Excel by using extended objects"
 description: Learn that when you develop Excel solutions in Visual Studio, you can use host items and host controls in your solutions.
-ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -19,12 +18,11 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], Excel host controls"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Automate Excel by using extended objects
+
   When you develop Excel solutions in Visual Studio, you can use *host items* and *host control*s in your solutions. These are objects that extend certain commonly used objects in the Excel object model (that is, the object model that is exposed by the primary interop assembly for Excel), such as the <xref:Microsoft.Office.Interop.Excel.Worksheet> and <xref:Microsoft.Office.Interop.Excel.Range> objects. The extended objects behave like the Excel objects they are based on, but they add additional features such as new events and data binding capabilities to the objects.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -57,7 +55,7 @@ ms.workload:
 
 - [XmlMappedRange control](../vsto/xmlmappedrange-control.md)
 
-## See also
+## Related content
 - [How to: Fill ListObject controls with data](../vsto/how-to-fill-listobject-controls-with-data.md)
 - [How to: Add Chart controls to worksheets](../vsto/how-to-add-chart-controls-to-worksheets.md)
 - [How to: Add ListObject controls to worksheets](../vsto/how-to-add-listobject-controls-to-worksheets.md)

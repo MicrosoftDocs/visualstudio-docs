@@ -1,31 +1,23 @@
 ---
-title: Getting Project Properties | Microsoft Docs
+title: Getting Project Properties
 description: Learn how to display project properties in a tool window. This example shows the tree control in the tool window.
-ms.custom: SEO-VS-2020
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
 - project properties, displaying in tool window
 - tool windows, displaying project properties
-ms.assetid: 96ba07ca-0811-4013-8602-12550ac4ba79
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Get project properties
 
 This walkthrough shows how to displays project properties in a tool window.
 
-## Prerequisites
-
-Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
-
 ### To create a VSIX Project and add a tool window
 
-1. Every Visual Studio extension starts with a VSIX deployment project, which will contain the extension assets. Create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] VSIX project named `ProjectPropertiesExtension`. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".
+1. Every Visual Studio extension starts with a VSIX deployment project, which will contain the extension assets. Create a Visual Studio VSIX project named `ProjectPropertiesExtension`. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".
 
 2. Add a tool window by adding a Custom Tool Window item template named `ProjectPropertiesToolWindow`. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. In the **Add New Item dialog**, go to **Visual C# Items** > **Extensibility** and select **Custom Tool Window**. In the **Name** field at the bottom of the dialog, change the file name to `ProjectPropertiesToolWindow.cs`. For more information about how to create a custom tool window, see [Create an extension with a tool window](../extensibility/creating-an-extension-with-a-tool-window.md).
 

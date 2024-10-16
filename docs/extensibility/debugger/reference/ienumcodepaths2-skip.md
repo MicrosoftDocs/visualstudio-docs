@@ -1,39 +1,39 @@
 ---
 description: "Skips over the specified number of elements in the code paths enumeration."
-title: IEnumCodePaths2::Skip | Microsoft Docs
+title: IEnumCodePaths2::Skip
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumCodePaths2::Skip
 helpviewer_keywords:
 - IEnumCodePaths2::Skip
-ms.assetid: 356472d8-68b2-4b7e-b5f0-1f16d4ee80af
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumCodePaths2::Skip
+
 Skips over the specified number of elements.
 
 ## Syntax
 
-```cpp
-HRESULT Skip(
-   ULONG celt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Skip(
    uint celt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Skip(
+   ULONG celt
+);
+```
+---
 
 ## Parameters
 `celt`\

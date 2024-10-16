@@ -1,21 +1,19 @@
 ---
 description: "Used by a debug engine (DE) to launch and terminate programs."
-title: IDebugEngineLaunch2 | Microsoft Docs
+title: IDebugEngineLaunch2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngineLaunch2
 helpviewer_keywords:
 - IDebugEngineLaunch2 interface
-ms.assetid: 5eaf2ad8-3fbf-446e-b48b-5327ad3f5255
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugEngineLaunch2
+
 Used by a debug engine (DE) to launch and terminate programs.
 
 ## Syntax

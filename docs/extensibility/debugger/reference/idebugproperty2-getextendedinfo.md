@@ -1,41 +1,41 @@
 ---
 description: "Gets extended information for the property."
-title: IDebugProperty2::GetExtendedInfo | Microsoft Docs
+title: IDebugProperty2::GetExtendedInfo
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProperty2::GetExtendedInfo
 helpviewer_keywords:
 - IDebugProperty2::GetExtendedInfo
-ms.assetid: 0c9c0b2b-7540-4424-adb5-fce7aa37a026
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProperty2::GetExtendedInfo
+
 Gets extended information for the property.
 
 ## Syntax
 
-```cpp
-HRESULT GetExtendedInfo ( 
-   REFGUID* guidExtendedInfo,
-   VARIANT* pExtendedInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetExtendedInfo ( 
    ref Guid guidExtendedInfo,
    out object pExtendedInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetExtendedInfo ( 
+   REFGUID* guidExtendedInfo,
+   VARIANT* pExtendedInfo
+);
+```
+---
 
 ## Parameters
 `guidExtendedInfo`\

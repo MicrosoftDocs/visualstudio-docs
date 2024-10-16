@@ -1,21 +1,18 @@
 ---
-title: 'Walkthrough: Creating an SDK using C# or Visual Basic | Microsoft Docs'
+title: 'Walkthrough: Creating an SDK using C# or Visual Basic'
 description: Learn how to create a simple Math Library SDK by using Visual C# and then package the SDK as a Visual Studio Extension by using this walkthrough.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: ef96a249-5eef-402a-a8d5-d74cb49239bd
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 dev_langs:
 - CSharp
 - VB
 ---
 # Walkthrough: Create an SDK using C# or Visual Basic
+
 In this walkthrough, you'll learn how to create a simple Math Library SDK by using Visual C# and then package the SDK as a Visual Studio Extension (VSIX). You'll complete the following procedures:
 
 - [To create the SimpleMath Windows Runtime component](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md#createClassLibrary)
@@ -38,8 +35,12 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 
 5. Rename **Class1.cs** to **Arithmetic.cs** and update it to match the following code:
 
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VSSDK/creatingansdkusingwinrt/cs/winrtmath/arithmetic.cs" id="Snippet3":::
+
+    ### [VB](#tab/vb)
     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VSSDK/creatingansdkusingwinrt/vb/winrtmath/arithmetic.vb" id="Snippet3":::
+    ---
 
 6. In **Solution Explorer**, open the shortcut menu for the **Solution 'SimpleMath'** node, and then choose **Configuration Manager**.
 
@@ -50,7 +51,7 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 8. In the **Configuration** column, verify that **SimpleMath** row is set to **Release**, and then choose the **Close** button to accept the change.
 
    > [!IMPORTANT]
-   > The SDK for the SimpleMath component includes only one configuration. This configuration must be the release build, or apps that use the component won't pass certification for the [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)].
+   > The SDK for the SimpleMath component includes only one configuration. This configuration must be the release build, or apps that use the component won't pass certification for the Microsoft Store.
 
 9. In **Solution Explorer**, open the shortcut menu for the **SimpleMath** project node, and then choose **Build**.
 
@@ -167,7 +168,7 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 
 28. In **Solution Explorer**, open the shortcut menu for the **SimpleMathVSIX** project, and then choose **Open Folder in File Explorer**.
 
-29. In **File Explorer**, navigate to *\bin\Release* folder, and then run *SimpleMathVSIX.vsix* to install it.
+29. In **File Explorer**, navigate to *\bin\Release* folder, and then run `SimpleMathVSIX.vsix` to install it.
 
 30. Choose the **Install** button, wait for the installation to finish, and then restart Visual Studio.
 
@@ -185,7 +186,7 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 
 6. In the details pane, choose the **WinRT Math Library** extension.
 
-    Additional information about your SDK appears. You can choose the **More Information** link to open https://msdn.microsoft.com/, as you specified in the SDKManifest.xml file earlier in this walkthrough.
+    Additional information about your SDK appears. You can choose the **More Information** link to open `https://msdn.microsoft.com/`, as you specified in the SDKManifest.xml file earlier in this walkthrough.
 
 7. In the **Reference Manager** dialog box, select the **WinRT Math Library** check box, and then choose the **OK** button.
 
@@ -251,6 +252,7 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 
 11. Update **MainPage.xaml.cs** to match the following code:
 
+### [C#](#tab/csharp)
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -343,6 +345,7 @@ namespace ArithmeticUI
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 ' The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -371,7 +374,6 @@ Public NotInheritable Class MainPage
     Private Sub OnOperatorClick(ByVal sender As Object, ByVal e As RoutedEventArgs)
         operation = If(TypeOf sender Is Button, CType(sender, Button), Nothing).Content.ToString()
     End Sub
-
 
     ''' <summary>
     ''' Calls the SimpleMath SDK to do simple arithmetic
@@ -409,6 +411,7 @@ Public NotInheritable Class MainPage
     End Sub
 End Class
 ```
+---
 
 12. Choose the **F5** key to run the app.
 
@@ -418,7 +421,7 @@ End Class
 
     You have successfully created and used an Extension SDK.
 
-## See also
+## Related content
 - [Walkthrough: Create an SDK using C++](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)
 - [Walkthrough: Create an SDK using JavaScript](../extensibility/walkthrough-creating-an-sdk-using-javascript.md)
 - [Create a Software Development Kit](../extensibility/creating-a-software-development-kit.md)

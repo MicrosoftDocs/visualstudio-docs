@@ -1,7 +1,6 @@
 ---
 title: Properties of diagrams
 description: Learn about diagrams and how you can set properties that specify how diagrams will appear in the generated designer.
-ms.custom: SEO-VS-2020
 ms.date: 10/31/2018
 ms.topic: reference
 f1_keywords:
@@ -10,12 +9,11 @@ helpviewer_keywords:
 - Domain-Specific Language, diagram
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Properties of diagrams
+
 You can set properties that specify how diagrams will appear in the generated designer. For example, you can specify a default color for text in the diagram.
 
  For more information, see [How to define a domain-specific language](../modeling/how-to-define-a-domain-specific-language.md). For more information about how to use these properties, see [Customize and extend a domain-specific language](../modeling/customizing-and-extending-a-domain-specific-language.md).

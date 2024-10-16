@@ -1,36 +1,27 @@
 ---
 description: "This method converts either an object location or a memory address to a memory context."
-title: IDebugBinder::GetMemoryContext | Microsoft Docs
+title: IDebugBinder::GetMemoryContext
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugBinder::GetMemoryContext
 helpviewer_keywords:
 - IDebugBinder::GetMemoryContext method
-ms.assetid: 801c5b60-acff-4822-b23d-e9c7bbca8a0f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugBinder::GetMemoryContext
+
 This method converts either an object location or a memory address to a memory context.
 
 ## Syntax
 
-```cpp
-HRESULT GetMemoryContext( 
-   IDebugField*           pField,
-   DWORD                  dwConstant,
-   IDebugMemoryContext2** ppMemCxt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMemoryContext(
    IDebugField              pField,
@@ -38,6 +29,15 @@ int GetMemoryContext(
    out IDebugMemoryContext2 ppMemCxt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMemoryContext( 
+   IDebugField*           pField,
+   DWORD                  dwConstant,
+   IDebugMemoryContext2** ppMemCxt
+);
+```
+---
 
 ## Parameters
 `pField`\

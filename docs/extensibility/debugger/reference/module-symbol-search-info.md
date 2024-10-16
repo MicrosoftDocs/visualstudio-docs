@@ -1,19 +1,16 @@
 ---
 description: "Contains status information about symbol search paths that have been searched."
-title: MODULE_SYMBOL_SEARCH_INFO | Microsoft Docs
+title: MODULE_SYMBOL_SEARCH_INFO
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - MODULE_SYMBOL_SEARCH_INFO
 helpviewer_keywords:
 - MODULE_SYMBOL_SEARCH_INFO structure
-ms.assetid: 432aff03-08a5-4c5a-b2d5-e212090fc70a
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
@@ -24,6 +21,14 @@ Contains status information about symbol search paths that have been searched.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public struct MODULE_SYMBOL_SEARCH_INFO {
+    public uint   dwValidFields;
+    public string bstrVerboseSearchInfo;
+}
+```
+### [C++](#tab/cpp)
 ```cpp
 typedef struct _tagSYMBOL_SEARCH_INFO
 {
@@ -31,13 +36,7 @@ typedef struct _tagSYMBOL_SEARCH_INFO
     BSTR                      bstrVerboseSearchInfo;
 } MODULE_SYMBOL_SEARCH_INFO;
 ```
-
-```csharp
-public struct MODULE_SYMBOL_SEARCH_INFO {
-    public uint   dwValidFields;
-    public string bstrVerboseSearchInfo;
-}
-```
+---
 
 ## Members
 

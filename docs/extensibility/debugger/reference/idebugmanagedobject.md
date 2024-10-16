@@ -1,21 +1,19 @@
 ---
 description: "This interface enables the expression evaluator (EE) to call properties or methods on value class instances (for example, System.Decimal) and to set their value without calling Evaluate on the program being debugged."
-title: IDebugManagedObject | Microsoft Docs
+title: IDebugManagedObject
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugManagedObject
 helpviewer_keywords:
 - IDebugManagedObject interface
-ms.assetid: 3ae09d34-112c-4285-80ee-9f7f8dc414d7
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugManagedObject
+
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 

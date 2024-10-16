@@ -1,39 +1,39 @@
 ---
 description: "Retrieves a managed code interface that represents the value associated with this alias."
-title: IDebugAlias::GetICorDebugValue | Microsoft Docs
+title: IDebugAlias::GetICorDebugValue
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugAlias::GetICorDebugValue
 helpviewer_keywords:
 - IDebugAlias::GetICorDebugValue method
-ms.assetid: b9eb39ee-84af-4ace-9cfe-236b3d48aff5
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugAlias::GetICorDebugValue
+
 Retrieves a managed code interface that represents the value associated with this alias.
 
 ## Syntax
 
-```cpp
-HRESULT GetICorDebugValue(
-   IUnknown** ppUnk
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetICorDebugValue(
    out object ppUnk
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetICorDebugValue(
+   IUnknown** ppUnk
+);
+```
+---
 
 ## Parameters
 `ppUnk`\

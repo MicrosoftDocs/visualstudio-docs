@@ -1,27 +1,23 @@
 ---
 title: Configure projects to target multiple platforms
-description: Learn how Visual Studio provides a way for a solution to target several different CPU architectures, or platforms, at once.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
-ms.technology: vs-ide-compile
+description: Configure project solutions in Visual Studio to simultaneously target multiple platforms, including platforms with different CPU architectures.
+ms.date: 11/01/2023
+ms.subservice: compile-build
 ms.topic: how-to
 helpviewer_keywords:
 - projects [Visual Studio], targeting platforms
 - platforms, changing target platforms
-ms.assetid: affa2392-7aed-45ac-9ffa-1d8e0496d590
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.workload:
-- multiple
+manager: mijacobs
 ---
-# How to: Configure projects to target multiple platforms
+# Configure projects to target multiple platforms
 
 Visual Studio provides a way for a solution to target several different CPU architectures, or platforms, at once. The properties to set these are accessed through the **Configuration Manager** dialog box.
 
 ## Target a platform
 
-The **Configuration Manager** dialog box allows you to create and set solution-level and project-level configurations and platforms. Each combination of solution-level configurations and targets can have a unique set of properties associated with it, allowing you to easily switch between, for example, a release configuration that targets an [!INCLUDE[vcprx64](../extensibility/internals/includes/vcprx64_md.md)] platform, a release configuration that targets an x86 platform, and a debug configuration that targets an x86 platform.
+The **Configuration Manager** dialog box allows you to create and set solution-level and project-level configurations and platforms. Each combination of solution-level configurations and targets can have a unique set of properties associated with it, allowing you to easily switch between, for example, a release configuration that targets an x64 platform, a release configuration that targets an x86 platform, and a debug configuration that targets an x86 platform.
 
 1. On the **Build** menu, click **Configuration Manager**.
 
@@ -55,10 +51,11 @@ Because you can change the settings based on the combination of configuration an
 
 2. Use the **Batch Build** window to build several solution configurations at once.
 
-   It is possible to have a solution-level platform set to, for example, [!INCLUDE[vcprx64](../extensibility/internals/includes/vcprx64_md.md)], and have no projects within that solution targeting the same platform. It is also possible to have multiple projects in your solution, each targeting different platforms. It is recommended that if you have one of these situations, you create a new configuration with a descriptive name to avoid confusion.
+   It is possible to have a solution-level platform set to, for example, x64, and have no projects within that solution targeting the same platform. It is also possible to have multiple projects in your solution, each targeting different platforms. It is recommended that if you have one of these situations, you create a new configuration with a descriptive name to avoid confusion.
 
-## See also
+## Related content
 
 - [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md)
 - [Understand build configurations](../ide/understanding-build-configurations.md)
 - [Build and clean projects and solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)
+- [How to: Build multiple configurations simultaneously](how-to-build-multiple-configurations-simultaneously.md)

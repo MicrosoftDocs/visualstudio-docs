@@ -1,28 +1,38 @@
 ---
 description: "Specifies what information to retrieve about an IDebugField object."
-title: FIELD_INFO_FIELDS | Microsoft Docs
+title: FIELD_INFO_FIELDS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - FIELD_INFO_FIELDS
 helpviewer_keywords:
 - FIELD_INFO_FIELDS enumeration
-ms.assetid: a69487d2-e701-4165-804a-8a011df9a3bd
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # FIELD_INFO_FIELDS
+
 Specifies what information to retrieve about an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_FIELD_INFO_FIELDS {
+    FIF_FULLNAME  = 0x0001,
+    FIF_NAME      = 0x0002,
+    FIF_TYPE      = 0x0004,
+    FIF_MODIFIERS = 0x0008,
+    FIF_ALL       = 0xffffffff,
+    FIF_NONE      = 0x0000
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_FIELD_INFO_FIELDS { 
     FIF_FULLNAME  = 0x0001,
@@ -34,17 +44,7 @@ enum enum_FIELD_INFO_FIELDS { 
 };
 typedef DWORD FIELD_INFO_FIELDS;
 ```
-
-```csharp
-public enum enum_FIELD_INFO_FIELDS {
-    FIF_FULLNAME  = 0x0001,
-    FIF_NAME      = 0x0002,
-    FIF_TYPE      = 0x0004,
-    FIF_MODIFIERS = 0x0008,
-    FIF_ALL       = 0xffffffff,
-    FIF_NONE      = 0x0000
-};
-```
+---
 
 ## Fields
 `FIF_FULLNAME`\

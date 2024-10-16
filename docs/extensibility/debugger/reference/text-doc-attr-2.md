@@ -1,36 +1,36 @@
 ---
 description: "Describes the attributes of a document."
-title: TEXT_DOC_ATTR_2 | Microsoft Docs
+title: TEXT_DOC_ATTR_2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - TEXT_DOC_ATTR_2
 helpviewer_keywords:
 - TEXT_DOC_ATTR_2 enumeration
-ms.assetid: 2333b33b-042b-4ac6-9ebe-e66f95f52f51
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # TEXT_DOC_ATTR_2
+
 Describes the attributes of a document.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public const uint TEXT_DOC_ATTR_READONLY_2 = 0x00000001;
+```
+### [C++](#tab/cpp)
 ```cpp
 typedef DWORD TEXT_DOC_ATTR_2;
 const TEXT_DOC_ATTR_2 TEXT_DOC_ATTR_READONLY_2 = 0x00000001;
 ```
-
-```csharp
-public const uint TEXT_DOC_ATTR_READONLY_2 = 0x00000001;
-```
+---
 
 ## Members
  `TEXT_DOC_ATTR_READONLY_2`\

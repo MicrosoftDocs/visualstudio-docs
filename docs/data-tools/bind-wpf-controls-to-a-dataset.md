@@ -1,7 +1,6 @@
 ---
-title: Bind WPF controls to a dataset
-description: Create a WPF application in Visual Studio that contains data-bound controls, which are bound to product records that are encapsulated in a dataset.
-ms.custom: SEO-VS-2020
+title: Bind WPF controls to an ADO.NET dataset (.NET Framework)
+description: Create a WPF .NET Framework application in Visual Studio that contains data-bound controls, which are bound to product records that are encapsulated in an ADO.NET dataset.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -11,15 +10,15 @@ helpviewer_keywords:
 - WPF, data binding in Visual Studio
 - WPF data binding [Visual Studio], walkthroughs
 - WPF Designer, data binding
-ms.assetid: 177420b9-568b-4dad-9d16-1b0e98a24d71
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
-# Bind WPF controls to a dataset
+
+# Bind WPF controls to a dataset in .NET Framework applications
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 In this walkthrough, you create a WPF application that contains data-bound controls. The controls are bound to product records that are encapsulated in a dataset. You also add buttons to browse through products and save changes to product records.
 
@@ -39,9 +38,9 @@ This walkthrough illustrates the following tasks:
 
 You need the following components to complete this walkthrough:
 
-- Visual Studio
+- To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
-- Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorks Light (AdventureWorksLT) sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex archive](https://archive.codeplex.com/?p=awlt2008dbscript).
+- Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorks Light (AdventureWorksLT) sample database attached to it. To download the database, see [AdventureWorks sample databases](/sql/samples/adventureworks-install-configure?tabs=ssms).
 
 Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:
 
@@ -53,29 +52,11 @@ Prior knowledge of the following concepts is also helpful, but not required to c
 
 Create a new WPF project to display product records.
 
-::: moniker range="vs-2017"
-
-1. Open Visual Studio.
-
-2. On the **File** menu, select **New** > **Project**.
-
-3. Expand **Visual Basic** or **Visual C#**, and then select **Windows**.
-
-4. Select the **WPF App** project template.
-
-5. In the **Name** box, enter **AdventureWorksProductsEditor** and then select **OK**.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 1. Open Visual Studio.
 
 2. On the start window, choose **Create a new project**.
 
 3. Search for the C# **WPF App** project template and follow the steps to create the project, naming the project **AdventureWorksProductsEditor**.
-
-::: moniker-end
 
    Visual Studio creates the AdventureWorksProductsEditor project.
 
@@ -91,17 +72,17 @@ Before you can create data-bound controls, you must define a data model for your
 
    The **Data Source Configuration** wizard opens.
 
-3. On the **Choose a Data Source Type** page, select **Database**, and then click **Next**.
+3. On the **Choose a Data Source Type** page, select **Database**, and then select **Next**.
 
-4. On the **Choose a Database Model** page, select **Dataset**, and then click **Next**.
+4. On the **Choose a Database Model** page, select **Dataset**, and then select **Next**.
 
 5. On the **Choose Your Data Connection** page, select one of the following options:
 
-   - If a data connection to the AdventureWorksLT sample database is available in the drop-down list, select it and then click **Next**.
+   - If a data connection to the AdventureWorksLT sample database is available in the dropdown list, select it, and then select **Next**.
 
    - Click **New Connection**, and create a connection to the AdventureWorksLT database.
 
-6. On the **Save the Connection String to the Application Configure File** page, select the **Yes, save the connection as** check box, and then click **Next**.
+6. On the **Save the Connection String to the Application Configure File** page, select the **Yes, save the connection as** checkbox, and then select **Next**.
 
 7. On the **Choose Your Database Objects** page, expand **Tables**, and then select the **Product (SalesLT)** table.
 
@@ -123,7 +104,7 @@ To fill the dataset with data, use the `Fill` method of the `ProductTableAdapter
 
      The **TableAdapter Configuration** wizard opens.
 
-3. In the **Enter a SQL Statement** page, add the following WHERE clause after the `SELECT` statement in the text box.
+3. In the **Enter a SQL Statement** page, add the following `WHERE` clause after the `SELECT` statement in the text box.
 
     ```sql
     WHERE ThumbnailPhotoFileName <> 'no_image_available_small.gif'
@@ -139,7 +120,7 @@ Add several buttons to the window by modifying the XAML in the WPF Designer. Lat
 
     The window opens in the **WPF Designer**.
 
-2. In the [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] view of the designer, add the following code between the `<Grid>` tags:
+2. In the XAML view of the designer, add the following code between the `<Grid>` tags:
 
    ```xaml
    <Grid.RowDefinitions>
@@ -157,11 +138,11 @@ Add several buttons to the window by modifying the XAML in the WPF Designer. Lat
 
 Create controls that display customer records by dragging the `Product` table from the **Data Sources** window to the WPF Designer.
 
-1. In the **Data Sources** window, click the drop-down menu for the **Product** node and select **Details**.
+1. In the **Data Sources** window, click the dropdown list menu for the **Product** node and select **Details**.
 
 2. Expand the **Product** node.
 
-3. For this example, some fields will not be displayed, so click the drop-down menu next to the following nodes and select **None**:
+3. For this example, some fields will not be displayed, so click the dropdown list menu next to the following nodes and select **None**:
 
     - ProductCategoryID
 
@@ -173,7 +154,7 @@ Create controls that display customer records by dragging the `Product` table fr
 
     - ModifiedDate
 
-4. Click the drop-down menu next to the **ThumbNailPhoto** node and select **Image**.
+4. Click the dropdown list menu next to the **ThumbNailPhoto** node and select **Image**.
 
     > [!NOTE]
     > By default, items in the **Data Sources** window that represent pictures have their default control set to **None**. This is because pictures are stored as byte arrays in databases, and byte arrays can contain anything from a simple array of bytes to the executable file of a large application.
@@ -184,7 +165,7 @@ Create controls that display customer records by dragging the `Product` table fr
 
 6. In the designer, click the text box next to the **Product ID** label.
 
-7. In the **Properties** window, select the check box next to the **IsReadOnly** property.
+7. In the **Properties** window, select the checkbox next to the **IsReadOnly** property.
 
 ## Navigate product records
 
@@ -196,20 +177,32 @@ Add code that enables users to scroll through product records by using the **\<*
 
 2. Modify the `Window_Loaded` event handler, so the `ProductViewSource`, `AdventureWorksLTDataSet`, and `AdventureWorksLTDataSetProductTableAdapter` are outside of the method and accessible to the entire form. Declare only these to be global to the form, and assign them within the `Window_Loaded` event handler similar to the following:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/data_wpfdataset/cs/mainwindow.xaml.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/data_wpfdataset/vb/mainwindow.xaml.vb" id="Snippet1":::
+     ---
 
 3. Add the following code to the `backButton_Click` event handler:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/data_wpfdataset/cs/mainwindow.xaml.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/data_wpfdataset/vb/mainwindow.xaml.vb" id="Snippet2":::
+     ---
 
 4. Return to the designer and double-click the **>** button.
 
 5. Add the following code to the `nextButton_Click` event handler:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/data_wpfdataset/cs/mainwindow.xaml.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/data_wpfdataset/vb/mainwindow.xaml.vb" id="Snippet3":::
+     ---
 
 ## Save changes to product records
 
@@ -221,8 +214,12 @@ Add code that enables users to save changes to product records by using the **Sa
 
 2. Add the following code to the `saveButton_Click` event handler:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/data_wpfdataset/cs/mainwindow.xaml.cs" id="Snippet4":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/data_wpfdataset/vb/mainwindow.xaml.vb" id="Snippet4":::
+     ---
 
     > [!NOTE]
     > This example uses the `Save` method of the `TableAdapter` to save the changes. This is appropriate in this walkthrough, because only one data table is being changed. If you need to save changes to multiple data tables, you can alternatively use the `UpdateAll` method of the `TableAdapterManager` that Visual Studio generates with your dataset. For more information, see [TableAdapters](../data-tools/create-and-configure-tableadapters.md).
@@ -239,7 +236,7 @@ Build and run the application. Verify that you can view and update product recor
 
     - You can click the **>** or **<** buttons to navigate through other product records.
 
-2. In one of the product records, change the **Size** value, and then click **Save changes**.
+2. In one of the product records, change the **Size** value, and then select **Save changes**.
 
 3. Close the application, and then restart the application by pressing **F5** in Visual Studio.
 
@@ -255,7 +252,7 @@ After completing this walkthrough, you might try the following related tasks:
 
 - Learn how to use the **Data Sources** window in Visual Studio to display related data (that is, data in a parent-child relationship) in WPF controls. For more information, see [Walkthrough: Display related data in a WPF app](../data-tools/display-related-data-in-wpf-applications.md).
 
-## See also
+## Related content
 
 - [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)
 - [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)

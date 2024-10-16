@@ -1,41 +1,41 @@
 ---
 description: "Describes the line and column location in the given text."
-title: TEXT_POSITION | Microsoft Docs
+title: TEXT_POSITION
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - TEXT_POSITION
 helpviewer_keywords:
 - TEXT_POSITION structure
-ms.assetid: 6dcec574-a852-49fa-8c2e-2e71cbb5e3c6
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # TEXT_POSITION
+
 Describes the line and column location in the given text.
 
 ## Syntax
 
-```cpp
-typedef struct _tagTEXT_POSITION { 
-   DWORD dwLine;
-   DWORD dwColumn;
-} TEXT_POSITION;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct TEXT_POSITION { 
    public uint dwLine;
    public uint dwColumn;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagTEXT_POSITION { 
+   DWORD dwLine;
+   DWORD dwColumn;
+} TEXT_POSITION;
+```
+---
 
 ## Members
 

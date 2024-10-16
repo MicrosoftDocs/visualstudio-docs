@@ -1,39 +1,39 @@
 ---
 description: "Gets an enumerator for all custom attributes attached to this field."
-title: IDebugCustomAttributeQuery2::EnumCustomAttributes | Microsoft Docs
+title: IDebugCustomAttributeQuery2::EnumCustomAttributes
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCustomAttributeQuery2::EnumCustomAttributes
 helpviewer_keywords:
 - IDebugCustomAttributeQuery2::EnumCustomAttributes
-ms.assetid: 94bfce74-aa3d-45f0-8e04-5715faf85217
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCustomAttributeQuery2::EnumCustomAttributes
+
 Gets an enumerator for all custom attributes attached to this field.
 
 ## Syntax
 
-```cpp
-HRESULT EnumCustomAttributes( 
-   IEnumDebugCustomAttributes** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumCustomAttributes(
    out IEnumDebugCustomAttributes ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumCustomAttributes( 
+   IEnumDebugCustomAttributes** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

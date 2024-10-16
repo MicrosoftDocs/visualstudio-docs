@@ -1,39 +1,39 @@
 ---
 description: "This method gets the object that this visualizer represents."
-title: IEEVisualizerDataProvider::GetObjectForVisualizer | Microsoft Docs
+title: IEEVisualizerDataProvider::GetObjectForVisualizer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEEVisualizerDataProvider::GetObjectForVisualizer
 helpviewer_keywords:
 - IEEVisualizerDataProvider::GetObjectForVisualizer method
-ms.assetid: bd5376fc-13b4-40b7-9a5d-7ba8289f1b24
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEEVisualizerDataProvider::GetObjectForVisualizer
+
 This method gets the object that this visualizer represents.
 
 ## Syntax
 
-```cpp
-HRESULT GetObjectForVisualizer(
-   IDebugObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetObjectForVisualizer(
    out IDebugObject ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetObjectForVisualizer(
+   IDebugObject** ppObject
+);
+```
+---
 
 ## Parameters
 `ppObject`\

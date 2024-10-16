@@ -1,7 +1,6 @@
 ---
-title: GUIDs and IDs of Visual Studio Commands | Microsoft Docs
+title: GUIDs and IDs of Visual Studio Commands
 description: Learn how to locate the GUID and ID values of the commands included in the Visual Studio integrated development environment (IDE).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
@@ -10,15 +9,13 @@ helpviewer_keywords:
 - command placement
 - visual studio command
 - guid
-ms.assetid: 2ea4bee2-0259-4675-8e65-2023b312b516
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # GUIDs and IDs of Visual Studio commands
+
 The GUID and ID values of the commands included in the Visual Studio integrated development environment (IDE) are defined in .vsct files that are installed as part of the Visual Studio SDK. For more information, see [IDE-defined commands, menus, and groups](../../extensibility/internals/ide-defined-commands-menus-and-groups.md).
 
  For more information about how to work with IDE objects that are defined in *.vsct* files, see [Extend menus and commands](../../extensibility/extending-menus-and-commands.md).

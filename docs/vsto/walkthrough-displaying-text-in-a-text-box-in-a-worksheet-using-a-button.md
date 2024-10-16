@@ -1,7 +1,6 @@
 ---
 title: "Display text in text box in worksheet using button"
 description: Learn the basics of using buttons and text boxes on Microsoft Excel worksheets. Also create Excel projects using Office development tools in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "text [Office development in Visual Studio], text boxes"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Walkthrough: Display text in a text box in a worksheet using a button
+
   This walkthrough shows the basics of using buttons and text boxes on Microsoft Office Excel worksheets, and how to create Excel projects using Office development tools in Visual Studio. To see the result as a completed sample, see the Excel Controls Sample at [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).
 
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]
@@ -40,7 +38,7 @@ ms.workload:
 
 - [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
-- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
+-  Excel 2013  or  Excel 2010 .
 
 ## Create the project
  In this step, you will create an Excel Workbook project using Visual Studio.
@@ -82,8 +80,12 @@ ms.workload:
 
 2. Add the following code to the <xref:System.Windows.Forms.Control.Click> event handler of the button:
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet11":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs" id="Snippet11":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet11":::
+     ---
 
 3. In C#, you must add an event handler to the <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> event as shown below. For information on creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
@@ -105,9 +107,9 @@ ms.workload:
 
 - Deploying the project. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
-- Using check boxes to change formatting. For more information, see [Walkthrough: Change worksheet formatting using CheckBox controls](../vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls.md).
+- Using check boxes to change formatting. 
 
-## See also
+## Related content
 - [How to: Add Windows Forms controls to Office documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)
 - [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)
 - [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)

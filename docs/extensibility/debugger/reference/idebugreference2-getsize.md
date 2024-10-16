@@ -1,39 +1,39 @@
 ---
 description: "Gets the size, in bytes, of the value of the reference."
-title: IDebugReference2::GetSize | Microsoft Docs
+title: IDebugReference2::GetSize
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugReference2::GetSize
 helpviewer_keywords:
 - IDebugReference2::GetSize
-ms.assetid: a404ddd9-d940-4513-97cd-f52b8ab6a560
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugReference2::GetSize
+
 Gets the size, in bytes, of the value of the reference. Reserved for future use.
 
 ## Syntax
 
-```cpp
-HRESULT GetSize ( 
-   DWORD* pdwSize
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSize ( 
    out uint pdwSize
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSize ( 
+   DWORD* pdwSize
+);
+```
+---
 
 ## Parameters
 `pdwSize`\

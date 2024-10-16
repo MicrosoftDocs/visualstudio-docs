@@ -1,24 +1,21 @@
 ---
-title: When to Create Project Types | Microsoft Docs
+title: When to Create Project Types
 description: Learn how to determine whether a new project type is required for customizing Visual Studio for your users.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - project types, conditions for creating
-ms.assetid: 26adc860-ee4a-4f5c-95e1-e41b207dd7e6
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # When to Create Project Types
-Creating a new project type provides a basis for customizing [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] for your users. However, creating a new project type is not required for all [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] customizations. The following guidelines should help you determine whether a new project type is required for your scenario.
+
+Creating a new project type provides a basis for customizing Visual Studio for your users. However, creating a new project type is not required for all Visual Studio customizations. The following guidelines should help you determine whether a new project type is required for your scenario.
 
 ## Create a New Project Type
- You must create a project type if you want to customize [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to act in one or more of the following ways:
+ You must create a project type if you want to customize Visual Studio to act in one or more of the following ways:
 
 - Participate in build, deploy, configurations, and source control.
 
@@ -31,7 +28,7 @@ Creating a new project type provides a basis for customizing [!INCLUDE[vsprvs](.
 - Support project nesting.
 
 ## Extend an Existing Project Type
- You might want to create a new project type that can use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] in the following ways to modify or extend the behavior of an existing project type, for example, modifying the build process for [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] projects:
+ You might want to create a new project type that can use Visual Studio in the following ways to modify or extend the behavior of an existing project type, for example, modifying the build process for Visual C++ projects:
 
 - Work with multiple files as a single unit.
 
@@ -52,9 +49,9 @@ Creating a new project type provides a basis for customizing [!INCLUDE[vsprvs](.
 |Exposing properties in the Properties window|All objects can expose properties.|
 
 ## Create a Project Subtype
- You can use project subtypes to extend a managed project type without having to create a new project type. Project subtypes use COM aggregation to extend managed projects written in Microsoft [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)]. With COM aggregation, you can reuse much of the managed project system implementation and  still customize for a particular scenario through aggregation and the use of supporting interfaces. For more information about project subtypes, see [Project Subtypes](../../extensibility/internals/project-subtypes.md).
+ You can use project subtypes to extend a managed project type without having to create a new project type. Project subtypes use COM aggregation to extend managed projects written in Microsoft Visual Basic or Visual C#. With COM aggregation, you can reuse much of the managed project system implementation and  still customize for a particular scenario through aggregation and the use of supporting interfaces. For more information about project subtypes, see [Project Subtypes](../../extensibility/internals/project-subtypes.md).
 
-## See also
+## Related content
 - [Document Windows and Editors](/previous-versions/bb165691(v=vs.100))
 - [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)
 - [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)

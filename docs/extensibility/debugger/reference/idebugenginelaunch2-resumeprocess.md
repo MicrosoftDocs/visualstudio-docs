@@ -1,39 +1,39 @@
 ---
 description: "Resumes process execution."
-title: IDebugEngineLaunch2::ResumeProcess | Microsoft Docs
+title: IDebugEngineLaunch2::ResumeProcess
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngineLaunch2::ResumeProcess
 helpviewer_keywords:
 - IDebugEngineLaunch2::ResumeProcess
-ms.assetid: 61ccc14e-75c6-44e7-aae4-57a9aac52089
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugEngineLaunch2::ResumeProcess
+
 Resumes process execution.
 
 ## Syntax
 
-```cpp
-HRESULT ResumeProcess ( 
-   IDebugProcess2* pProcess
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ResumeProcess ( 
    IDebugProcess2 pProcess
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ResumeProcess ( 
+   IDebugProcess2* pProcess
+);
+```
+---
 
 ## Parameters
 `pProcess`\

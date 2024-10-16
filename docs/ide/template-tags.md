@@ -4,8 +4,8 @@ description: Learn how to add or edit tags on project templates in Visual Studio
 ms.date: 04/30/2019
 author: minsa110
 ms.author: somin
-manager: jmartens
-ms.technology: vs-ide-general
+manager: mijacobs
+ms.subservice: general-ide
 ms.topic: reference
 helpviewer_keywords:
   - "item templates, updating"
@@ -17,7 +17,7 @@ helpviewer_keywords:
 ---
 # Add tags to project templates
 
-Starting in [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) version 16.1 Preview 2, you can add language, platform, and project type tags to your project templates. 
+Starting in [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) version 16.1 Preview 2, you can add language, platform, and project type tags to your project templates. 
 
 Tags are used in two places in the **New Project** dialog box:
 
@@ -96,15 +96,16 @@ The following list shows built-in tags that are available in Visual Studio. Corr
 | Java (`java`) | Linux (`linux`) | Extensions (`extension`) |
 | JavaScript (`javascript`) | macOS (`macos`) | Games (`games`) |
 | Python (`python`) | tvOS (`tvos`) | IoT (`iot`) |
-| Query Languate (`querylanguage`) | Windows (`windows`) | Library (`library`) |
-| TypeScript (`typescript`) | Xbox (`xbox`) | Machine Learning (`machinelearning`) |
-| Visual Basic (`visualbasic`) | | Mobile (`mobile`) |
-| | | Office (`office`) |
+| Query Language (`querylanguage`) | Windows (`windows`) | Library (`library`) |
+| TypeScript (`typescript`) | Windows App SDK (`windowsappsdk`) | Machine Learning (`machinelearning`) |
+| Visual Basic (`visualbasic`) | Xbox (`xbox`) | Mobile (`mobile`) |
+| XAML (`xaml`) | | Office (`office`) |
 | | | Other (`other`) |
 | | | Service (`service`) |
 | | | Test (`test`) |
 | | | UWP (`uwp`) |
 | | | Web (`web`) |
+| | | WinUI (`winui`) |
 
 ## Example
 

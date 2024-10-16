@@ -1,39 +1,39 @@
 ---
 description: "Returns a copy of the current code contexts enumeration as a separate object."
-title: IEnumDebugCodeContexts2::Clone | Microsoft Docs
+title: IEnumDebugCodeContexts2::Clone
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugCodeContexts2::Clone
 helpviewer_keywords:
 - IEnumDebugCodeContexts2::Clone
-ms.assetid: 22c98975-4294-4fbd-a345-16f65fe1200d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugCodeContexts2::Clone
+
 Returns a copy of the current enumeration as a separate object.
 
 ## Syntax
 
-```cpp
-HRESULT Clone(
-   IEnumDebugCodeContexts2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Clone(
    out IEnumDebugCodeContexts2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Clone(
+   IEnumDebugCodeContexts2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

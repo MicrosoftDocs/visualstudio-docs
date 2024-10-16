@@ -1,41 +1,41 @@
 ---
 description: "Gets an element of the array."
-title: IDebugArrayObject::GetElement | Microsoft Docs
+title: IDebugArrayObject::GetElement
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugArrayObject::GetElement
 helpviewer_keywords:
 - IDebugArrayObject::GetElement method
-ms.assetid: 08b44341-7bf1-4a8c-8b79-98ae5785b195
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugArrayObject::GetElement
+
 Gets an element of the array.
 
 ## Syntax
 
-```cpp
-HRESULT GetElement( 
-   DWORD          dwIndex,
-   IDebugObject** ppElement
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetElement(
    [In] uint dwIndex,
    out IDebugObject ppElement
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetElement( 
+   DWORD          dwIndex,
+   IDebugObject** ppElement
+);
+```
+---
 
 ## Parameters
 `dwIndex`\

@@ -1,7 +1,6 @@
 ---
-title: "Office UI customization"
-description: Learn how you can customize the user interface (UI) of Microsoft Office applications by using the Office developer tools in Visual Studio.
-ms.custom: SEO-VS-2020
+title: Customize the UI for Office applications
+description: Customize the user interface (UI) of Microsoft Office applications by using the Office developer tools in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -15,12 +14,11 @@ helpviewer_keywords:
   - "Office applications [Office development in Visual Studio], UI customization"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Office UI customization
+
   You can customize the user interface (UI) of Microsoft Office applications by using the Office developer tools in Visual Studio. This topic describes the UI features that you can customize in the following sections:
 
 - [Comparison of UI features](#Comparison)
@@ -43,12 +41,12 @@ ms.workload:
 |Feature|Supported project types|Supported Microsoft Office applications|
 |-------------|-----------------------------|---------------------------------------------|
 |Actions pane|Document-level customizations|Excel<br /><br /> Word|
-|Custom task panes|VSTO Add-ins|Excel<br /><br /> [!INCLUDE[InfoPath_15_short](../vsto/includes/infopath-15-short-md.md)]<br /><br /> [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)]<br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Word|
-|Custom Ribbon UI|Document-level customizations<br /><br /> VSTO Add-ins|Excel<br /><br /> [!INCLUDE[InfoPath_15_short](../vsto/includes/infopath-15-short-md.md)]<br /><br /> [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)]<br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Project<br /><br /> Word<br /><br /> Visio|
-|Backstage view|Document-level customizations<br /><br /> VSTO Add-ins|Excel<br /><br /> [!INCLUDE[InfoPath_15_short](../vsto/includes/infopath-15-short-md.md)].<br /><br /> [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)]<br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Project<br /><br /> Word<br /><br /> Visio|
+|Custom task panes|VSTO Add-ins|Excel<br /><br />  InfoPath 2013 <br /><br />  InfoPath 2010 <br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Word|
+|Custom Ribbon UI|Document-level customizations<br /><br /> VSTO Add-ins|Excel<br /><br />  InfoPath 2013 <br /><br />  InfoPath 2010 <br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Project<br /><br /> Word<br /><br /> Visio|
+|Backstage view|Document-level customizations<br /><br /> VSTO Add-ins|Excel<br /><br />  InfoPath 2013 .<br /><br />  InfoPath 2010 <br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Project<br /><br /> Word<br /><br /> Visio|
 |Outlook form regions|VSTO Add-ins|Outlook|
 |Controls on documents|Document-level customizations<br /><br /> VSTO Add-ins|Excel<br /><br /> Word|
-|Shortcut menus|Document-level customizations<br /><br /> VSTO Add-ins|Excel<br /><br /> [!INCLUDE[InfoPath_15_short](../vsto/includes/infopath-15-short-md.md)]<br /><br /> [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)]<br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Project<br /><br /> Word<br /><br /> Visio<br /><br /> Excel|
+|Shortcut menus|Document-level customizations<br /><br /> VSTO Add-ins|Excel<br /><br />  InfoPath 2013 <br /><br />  InfoPath 2010 <br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Project<br /><br /> Word<br /><br /> Visio<br /><br /> Excel|
 
 ## <a name="Actions"></a> Actions panes and custom task panes
  Task panes are user interface panels that are typically docked to one side of a window in a Microsoft Office application. Almost all Microsoft Office applications include built-in task panes. An example of a task pane is the Help task pane in Word.
@@ -92,7 +90,7 @@ ms.workload:
 ## <a name="Shortcut"></a> Shortcut Menus
  A shortcut menu appears when you right-click in a document or an application window. You can set a shortcut menu to appear after an event takes place, such as when a user right-clicks a document, workbook, or host control. You can add a number of different menu commands or controls to a shortcut menu. Create shortcut menus by using XML. If you add a **Ribbon (XML)** item to your Office project, you can add XML to the Ribbon XML file to create shortcut menus. For more information about using XML to create shortcut menus, see [How to: Add commands to shortcut menus](../vsto/how-to-add-commands-to-shortcut-menus.md).
 
-## See also
+## Related content
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [Windows forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)
 - [Actions pane overview](../vsto/actions-pane-overview.md)

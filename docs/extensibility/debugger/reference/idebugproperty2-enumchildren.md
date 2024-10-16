@@ -1,40 +1,27 @@
 ---
 description: "Retrieves a list of the children of the property."
-title: IDebugProperty2::EnumChildren | Microsoft Docs
+title: IDebugProperty2::EnumChildren
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProperty2::EnumChildren
 helpviewer_keywords:
 - IDebugProperty2::EnumChildren
-ms.assetid: cf79f666-65d1-417c-af7c-9271bac9a267
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProperty2::EnumChildren
+
 Retrieves a list of the children of the property.
 
 ## Syntax
 
-```cpp
-HRESULT EnumChildren ( 
-   DEBUGPROP_INFO_FLAGS      dwFields,
-   DWORD                     dwRadix,
-   REFGUID                   guidFilter,
-   DBG_ATTRIB_FLAGS          dwAttribFilter,
-   LPCOLESTR                 pszNameFilter,
-   DWORD                     dwTimeout,
-   IEnumDebugPropertyInfo2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumChildren ( 
    enum_DEBUGPROP_INFO_FLAGS   dwFields,
@@ -46,6 +33,19 @@ int EnumChildren ( 
    out IEnumDebugPropertyInfo2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumChildren ( 
+   DEBUGPROP_INFO_FLAGS      dwFields,
+   DWORD                     dwRadix,
+   REFGUID                   guidFilter,
+   DBG_ATTRIB_FLAGS          dwAttribFilter,
+   LPCOLESTR                 pszNameFilter,
+   DWORD                     dwTimeout,
+   IEnumDebugPropertyInfo2** ppEnum
+);
+```
+---
 
 ## Parameters
 `dwFields`\

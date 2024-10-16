@@ -1,28 +1,38 @@
 ---
 description: "Used to describe a module."
-title: MODULE_FLAGS | Microsoft Docs
+title: MODULE_FLAGS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - MODULE_FLAGS
 helpviewer_keywords:
 - MODULE_FLAGS enumeration
-ms.assetid: 0e555b42-b846-4dbb-812e-8e3d11c85b2d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # MODULE_FLAGS
+
 Used to describe a module.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_MODULE_FLAGS { 
+   MODULE_FLAG_NONE        = 0x0000,
+   MODULE_FLAG_SYSTEM      = 0x0001,
+   MODULE_FLAG_SYMBOLS     = 0x0002,
+   MODULE_FLAG_64BIT       = 0x0004,
+   MODULE_FLAG_OPTIMIZED   = 0x0008,
+   MODULE_FLAG_UNOPTIMIZED = 0x0010
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_MODULE_FLAGS { 
    MODULE_FLAG_NONE        = 0x0000,
@@ -34,17 +44,7 @@ enum enum_MODULE_FLAGS { 
 };
 typedef DWORD MODULE_FLAGS;
 ```
-
-```csharp
-public enum enum_MODULE_FLAGS { 
-   MODULE_FLAG_NONE        = 0x0000,
-   MODULE_FLAG_SYSTEM      = 0x0001,
-   MODULE_FLAG_SYMBOLS     = 0x0002,
-   MODULE_FLAG_64BIT       = 0x0004,
-   MODULE_FLAG_OPTIMIZED   = 0x0008,
-   MODULE_FLAG_UNOPTIMIZED = 0x0010
-};
-```
+---
 
 ## Fields
  `MODULE_FLAG_NONE`\

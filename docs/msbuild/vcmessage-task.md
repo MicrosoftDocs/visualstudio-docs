@@ -1,29 +1,23 @@
 ---
-title: VCMessage Task | Microsoft Docs
+title: VCMessage Task
 description: Learn how MSBuild uses the VCMessage task to log warning and error messages during a build for C++ projects. 
-ms.custom: SEO-VS-2020
 ms.date: 06/27/2018
 ms.topic: reference
 f1_keywords:
 - vc.task.vcmessage
 dev_langs:
-- VB
-- CSharp
-- C++
-- jsharp
 - C++
 helpviewer_keywords:
 - VCMessage task (MSBuild (C++))
 - MSBuild (C++), VCMessage task
-ms.assetid: 956675fd-05dc-40b4-856f-616145103498
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # VCMessage task
+
+[!INCLUDE [C++-specific task](./includes/cpp-task.md)]
 
 Logs warning and error messages during a build.
 

@@ -1,7 +1,6 @@
 ---
 title: "Manually deploy ClickOnce app & keep branding"
 description: Learn how to create ClickOnce applications to be deployed by customers without generating a new deployment manifest and that can use the customer branding.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,21 +17,21 @@ helpviewer_keywords:
   - "manual ClickOnce deployments"
   - "manifests [ClickOnce]"
   - "ClickOnce applications, deployed by others"
-ms.assetid: c21822fb-d4ee-42e4-b72d-41ee9786efe5
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: deployment
 ---
 # Walkthrough: Manually deploy a ClickOnce application that does not require re-signing and that preserves branding information
-When you create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application and then give it to a customer to publish and deploy, the customer has traditionally had to update the deployment manifest and re-sign it. While that is still the preferred method in most cases, the .NET Framework 3.5 enables you to create [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments that can be deployed by customers without having to regenerate a new deployment manifest. For more information, see [Deploy ClickOnce applications for testing and production servers without resigning](../deployment/deploying-clickonce-applications-for-testing-and-production-without-resigning.md).
 
- When you create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application and then give it to a customer to publish and deploy, the application can use the customer's branding or can preserve your branding. For example, if the application is a single proprietary application, you might want to preserve your branding. If the application is highly customized for each customer, you might want to use the customer's branding. The .NET Framework 3.5 enables you to preserve your branding, publisher information and security signature when you give an application to an organization to deploy. For more information, see [Create ClickOnce applications for others to deploy](../deployment/creating-clickonce-applications-for-others-to-deploy.md).
+When you create a ClickOnce application and then give it to a customer to publish and deploy, the customer has traditionally had to update the deployment manifest and re-sign it. While that is still the preferred method in most cases, the .NET Framework 3.5 enables you to create ClickOnce deployments that can be deployed by customers without having to regenerate a new deployment manifest. For more information, see [Deploy ClickOnce applications for testing and production servers without resigning](../deployment/deploying-clickonce-applications-for-testing-and-production-without-resigning.md).
+
+ When you create a ClickOnce application and then give it to a customer to publish and deploy, the application can use the customer's branding or can preserve your branding. For example, if the application is a single proprietary application, you might want to preserve your branding. If the application is highly customized for each customer, you might want to use the customer's branding. The .NET Framework 3.5 enables you to preserve your branding, publisher information and security signature when you give an application to an organization to deploy. For more information, see [Create ClickOnce applications for others to deploy](../deployment/creating-clickonce-applications-for-others-to-deploy.md).
 
 > [!NOTE]
 > In this walkthrough you create deployments manually by using either the command-line tool *Mage.exe* or the graphical tool *MageUI.exe*. For more information about manual deployments, see [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).
+
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-dotnetmage-exe.md)]
 
 ## Prerequisites
  To perform the steps in this walkthrough you need the following:
@@ -43,7 +42,7 @@ When you create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 
 ### To deploy a ClickOnce application with multiple deployment and branding support using Mage.exe
 
-1. Open a Visual Studio command prompt or a [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] command prompt, and change to the directory in which you will store your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] files.
+1. Open a Visual Studio command prompt or a Windows SDK command prompt, and change to the directory in which you will store your ClickOnce files.
 
 2. Create a directory named after the current version of your deployment. If this is the first time that you are deploying the application, you will likely choose **1.0.0.0**.
 
@@ -64,7 +63,7 @@ When you create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
    mage -Sign WindowsFormsApp1.exe.manifest -CertFile mycert.pfx
    ```
 
-6. Generate the deployment manifest with a call to *Mage.exe*. By default, *Mage.exe* will mark your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment as an installed application, so that it can be run both online and offline. To make the application available only when the user is online, use the `-i` argument with a value of `f`. Since this application will take advantage of the multiple deployment feature, exclude the `-providerUrl` argument to *Mage.exe*. (In versions of the .NET Framework prior to version 3.5, excluding `-providerUrl` for an offline application will result in an error.)
+6. Generate the deployment manifest with a call to *Mage.exe*. By default, *Mage.exe* will mark your ClickOnce deployment as an installed application, so that it can be run both online and offline. To make the application available only when the user is online, use the `-i` argument with a value of `f`. Since this application will take advantage of the multiple deployment feature, exclude the `-providerUrl` argument to *Mage.exe*. (In versions of the .NET Framework prior to version 3.5, excluding `-providerUrl` for an offline application will result in an error.)
 
    ```cmd
    mage -New Deployment -ToFile WindowsFormsApp1.application -Name "Windows Forms App 1" -Version 1.0.0.0 -AppManifest 1.0.0.0\WindowsFormsApp1.manifest
@@ -91,7 +90,7 @@ When you create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 
 ### To deploy a ClickOnce application with multiple deployment and branding support using MageUI.exe
 
-1. Open a Visual Studio command prompt or a [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] command prompt, and navigate to the directory in which you will store your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] files.
+1. Open a Visual Studio command prompt or a Windows SDK command prompt, and navigate to the directory in which you will store your ClickOnce files.
 
 2. Create a subdirectory named **bin** and copy all of your application files here, including executable files, assemblies, resources, and data files.
 
@@ -112,7 +111,7 @@ When you create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 
 7. On the default **Name** tab, enter the name and version number of this deployment. Also, supply a value for **Publisher**, which will be used as the folder name for the application's shortcut link in the Start menu when it is deployed.
 
-8. Select the **Application Options** tab and click **Use Application Manifest for Trust Information**. This will enable third-party branding for this [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.
+8. Select the **Application Options** tab and click **Use Application Manifest for Trust Information**. This will enable third-party branding for this ClickOnce application.
 
 9. Select the **Files** tab and click the **Browse** button next to the **Application Directory** text box.
 
@@ -132,7 +131,7 @@ When you create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 
 15. Select **File**, **New**, **Deployment Manifest** from the menu to create your deployment manifest, and then on the **Name** tab, supply a name and version number (**1.0.0.0** in this example).
 
-16. Switch to the **Update** tab, and specify how often you want this application to update. If your application uses the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] Deployment API to check for updates itself, clear the check box labeled **This application should check for updates**.
+16. Switch to the **Update** tab, and specify how often you want this application to update. If your application uses the ClickOnce Deployment API to check for updates itself, clear the check box labeled **This application should check for updates**.
 
 17. Switch to the **Application Reference** tab. You can pre-populate all of the values on this tab by clicking the **Select Manifest** button and selecting the application manifest you created in previous steps.
 
@@ -151,7 +150,7 @@ When you create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 
 22. The customer deploys the application to their users.
 
-## See also
+## Related content
 - [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)
 - [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client)
 - [MakeCert](/windows/desktop/SecCrypto/makecert)

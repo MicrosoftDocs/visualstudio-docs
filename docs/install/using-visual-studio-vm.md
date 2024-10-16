@@ -1,9 +1,8 @@
 ---
 title: Using Visual Studio on an Azure Virtual Machine
 titleSuffix: ''
-description: Learn how to use Visual Studio on an Azure Virtual Machine
-ms.date: 11/17/2020
-ms.custom: seodec18
+description: Use Visual Studio on an Azure virtual machine with system images for different Visual Studio configurations in the Azure Marketplace.
+ms.date: 08/19/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - azure services
@@ -12,11 +11,9 @@ helpviewer_keywords:
 - visual studio
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
-ms.workload:
-- multiple
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+manager: mijacobs
+
+ms.subservice: installation
 ---
 # Visual Studio images on Azure
 
@@ -26,14 +23,15 @@ New to Azure? [Create a free Azure account](https://azure.microsoft.com/free).
 
 ## What configurations and versions are available?
 
-Images for the most recent major versions, Visual Studio 2019, Visual Studio 2017 and Visual Studio 2015, can be found in the Azure Marketplace.  For each released major version, you see the originally "released to web" (RTW) version and the latest updated versions.  Each of these versions offers the Visual Studio Enterprise and the Visual Studio Community editions.  These images are updated at least every month to include the latest Visual Studio and Windows updates.  While the names of the images remain the same, each image's description includes the installed product version and the image's "as of" date.
+Images for the most recent major versions, Visual Studio 2022, Visual Studio 2019, Visual Studio 2017 and Visual Studio 2015, can be found in the Azure Marketplace.  Each of these versions offers the Visual Studio Enterprise and the Visual Studio Community editions.  These images are updated at least every month to include the latest Visual Studio and Windows updates.  While the names of the images remain the same, each image's description includes the installed product version and the image's "as of" date.
 
 | Release version                                                                                                                                                | Editions              | Product version       |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|-----------------------|
-| [Visual Studio 2019: Latest (Version 16.8)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2019latest?tab=Overview) | Enterprise, Community | Version 16.8.0        |
-| [Visual Studio 2019: RTW](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2019?tab=Overview)                         | Enterprise            | Version 16.0.20       |
-| [Visual Studio 2017: Latest (Version 15.9)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio?tab=Overview)           | Enterprise, Community | Version 15.9.29       |
-| [Visual Studio 2017: RTW](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio?tab=Overview)                             | Enterprise, Community | Version 15.0.28       |
+| [Visual Studio 2022](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2022?tab=Overview) | Enterprise, Community | Version 17.2        |
+| [Visual Studio 2022 (Microsoft Dev Box compatible)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudioplustools?exp=ubp8&tab=Overview) | Enterprise, Professional | Version 17.5        |
+| [Visual Studio 2019: Latest (Version 16.11)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2019latest?tab=Overview) | Enterprise, Community | Version 16.11        |
+| [Visual Studio 2019 (Microsoft Dev Box compatible)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2019plustools?exp=ubp8&tab=Overview) | Enterprise, Professional | Version 16.11        |
+| [Visual Studio 2017: Latest (Version 15.9)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio?tab=Overview)           | Enterprise, Community | Version 15.9      |
 | [Visual Studio 2015: Latest (Update 3)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio?tab=Overview)               | Enterprise, Community | Version 14.0.25431.01 |
 
 > [!NOTE]
@@ -41,12 +39,14 @@ Images for the most recent major versions, Visual Studio 2019, Visual Studio 201
 
 For more information, see the [Visual Studio Servicing Policy](/visualstudio/productinfo/vs-servicing-vs).
 
+[Windows client for developers (Microsoft Dev Box compatible)](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoftvisualstudio.windowsplustools?tab=Overview), a Windows 11 Enterprise image is meant to be used as a starting point for creating custom Dev Box images, and contains additional tools and settings to optimize the developer experience. This image doesn't include Visual Studio. For Visual Studio developers, we recommend using our [Visual Studio 2022](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudioplustools?exp=ubp8&tab=Overview) or [Visual Studio 2019](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoftvisualstudio.visualstudio2019plustools?tab=Overview) Dev Box compatible images as a starting point.
+
 ## What features are installed?
 
 Each image contains the recommended feature set for that Visual Studio edition. Generally, the installation includes:
 
-* All available workloads, including each workload’s recommended optional components
-* .NET 4.6.2 and .NET 4.7 SDKs, Targeting Packs, and Developer Tools
+* All available workloads, including each workload’s recommended optional components. [Learn more about workloads, components, and SDKs included Visual Studio](workload-and-component-ids.md).
+* .NET 4.6.2, .NET 4.7, and .NET 4.8 SDKs, Targeting Packs, and Developer Tools
 * Visual F#
 * GitHub Extension for Visual Studio
 * LINQ to SQL Tools
@@ -55,17 +55,19 @@ We use the following command line to install Visual Studio when building the ima
 
 ```shell
     vs_enterprise.exe --allWorkloads --includeRecommended --passive ^
-       --add Microsoft.Net.Component.4.7.SDK ^
-       --add Microsoft.Net.Component.4.7.TargetingPack ^
+       --add Microsoft.Net.Component.4.8.SDK ^
+       --add Microsoft.Net.Component.4.7.2.SDK ^
+       --add Microsoft.Net.Component.4.7.2.TargetingPack ^
        --add Microsoft.Net.Component.4.6.2.SDK ^
        --add Microsoft.Net.Component.4.6.2.TargetingPack ^
-       --add Microsoft.Net.ComponentGroup.4.7.DeveloperTools ^
+       --add Microsoft.Net.ComponentGroup.4.8.DeveloperTools ^
+       --add Microsoft.Net.ComponentGroup.4.7.2.DeveloperTools ^
        --add Microsoft.VisualStudio.Component.FSharp ^
        --add Component.GitHub.VisualStudio ^
        --add Microsoft.VisualStudio.Component.LinqToSql
 ```
 
-If the images don't include a Visual Studio feature that you require, provide feedback through the feedback tool in the upper-right corner of the page.
+If the images don't include a Visual Studio feature that you require, please provide feedback through the feedback tool in the upper-right corner of the page.
 
 ## What size VM should I choose?
 
@@ -98,7 +100,7 @@ The spectrum of development environments is huge, and there’s real cost associ
 
 A quick summary: Use the System Preparation tool (Sysprep) and shut down the running VM, and then capture *(Figure 1)* the VM as an image through the UI in the Azure portal. Azure saves the `.vhd` file that contains the image in the storage account of your choosing. The new image then shows up as an Image resource in your subscription’s list of resources.
 
-![Capture an image through the Azure portal’s UI](media/capture-vm.png)
+![Capture an image through the Azure portal’s UI](media/vs-2022/capture-vm.png)
 
 *(Figure 1) Capture an image through the Azure portal’s UI.*
 
@@ -110,9 +112,9 @@ For more information, see [Create a managed image of a generalized VM in Azure](
 > [!NOTE]
 > You still incur some cost for storage of the images, but that incremental cost can be insignificant compared to the overhead costs to rebuild the VM from scratch for each team member who needs one. For instance, it costs a few dollars to create and store a 127-GB image for a month that's reusable by your entire team. However, these costs are insignificant compared to hours each employee invests to build out and validate a properly configured dev box for their individual use.
 
-Additionally, your development tasks or technologies might need more scale, like varieties of development configurations and multiple machine configurations. You can use Azure DevTest Labs to create _recipes_ that automate construction of your "golden image." You can also use DevTest Labs to manage policies for your team’s running VMs. [Using Azure DevTest Labs for developers](/azure/devtest-lab/devtest-lab-developer-lab) is the best source for more information on DevTest Labs.
+Additionally, your development tasks or technologies might need more scale, like varieties of development configurations and multiple machine configurations. You can use Azure DevTest Labs to create *recipes* that automate construction of your "golden image." You can also use DevTest Labs to manage policies for your team’s running VMs. [Using Azure DevTest Labs for developers](/azure/devtest-labs/devtest-lab-developer-lab) is the best source for more information on DevTest Labs.
 
-## Next steps
+## Related content
 
 Now that you know about the preconfigured Visual Studio images, the next step is to create a new VM:
 

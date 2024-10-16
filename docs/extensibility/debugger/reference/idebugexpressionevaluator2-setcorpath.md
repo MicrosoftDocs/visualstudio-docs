@@ -1,38 +1,38 @@
 ---
 description: "Sets the path to the common language runtime (CLR) loaded in the debugger."
-title: IDebugExpressionEvaluator2::SetCorPath | Microsoft Docs
+title: IDebugExpressionEvaluator2::SetCorPath
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - SetCorPath
 - IDebugExpressionEvaluator2::SetCorPath
-ms.assetid: 27b614ff-7325-4f9b-8da4-61ee020c9410
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExpressionEvaluator2::SetCorPath
+
 Sets the path to the common language runtime (CLR) loaded in the debugger.
 
 ## Syntax
 
-```cpp
-HRESULT SetCorPath(
-   LPCOLESTR pcstrCorPath
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetCorPath(
    string pcstrCorPath
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetCorPath(
+   LPCOLESTR pcstrCorPath
+);
+```
+---
 
 ## Parameters
 `pcstrCorPath`\
@@ -42,7 +42,7 @@ int SetCorPath(
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## Example
- The following example shows how to implement this method for a **ExpressionEvaluatorPackage** object that exposes the [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md) interface.
+ The following example shows how to implement this method for an **ExpressionEvaluatorPackage** object that exposes the [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md) interface.
 
 ```cpp
 STDMETHODIMP ExpressionEvaluatorPackage::SetCorPath(LPCOLESTR pcstrCorPath)

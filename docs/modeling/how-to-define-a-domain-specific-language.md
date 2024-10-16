@@ -1,7 +1,6 @@
 ---
-title: How to Define a Domain-Specific Language
+title: Define a Domain-Specific Language
 description: Learn how you create a Visual Studio solution from a template to define a domain-specific language (DSL).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -15,12 +14,11 @@ helpviewer_keywords:
 - Domain-Specific Language, domain properties
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
-# How to Define a Domain-Specific Language
+# Define a Domain-Specific Language
+
 To define a domain-specific language (DSL), you create a Visual Studio solution from a template. The key part of the solution is the DSL Definition diagram, which is stored in DslDefinition.dsl. The DSL Definition defines the classes and shapes of the DSL. After you modify and adding to these elements, you can add program code to customize the DSL in more detail.
 
 If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this site: [Visualization and Modeling SDK](https://code.msdn.microsoft.com/Visualization-and-Modeling-313535db)
@@ -40,12 +38,6 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 ### To create a DSL solution
 
 1. Create a new **Domain-Specific Language** project.
-
-   ::: moniker range="vs-2017"
-
-    ![Create DSL dialog](../modeling/media/create_dsldialog.png)
-
-   ::: moniker-end
 
     The **Domain-Specific Language Wizard** opens and displays a list of template DSL solutions.
 
@@ -73,7 +65,7 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
    - Choose a file name extension that is not associated with any application in your computer, or in any computer where you want to install the DSL. For example, **docx** and **htm** would be unacceptable file name extensions.
 
-   - The wizard will warn you if the extension that you have entered is being used as a DSL. Consider using a different file name extension. You can also reset the Visual Studio SDK Experimental instance to clear out old experimental designers. Click **Start**, click **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, and then **Reset the Microsoft Visual Studio 2010 Experimental instance**.
+   - The wizard will warn you if the extension that you have entered is being used as a DSL. Consider using a different file name extension. You can also reset the Visual Studio SDK Experimental instance to clear out old experimental designers. In the Windows **Start** menu, type **reset the Visual Studio**, and then run the **Reset the Microsoft Visual Studio Experimental Instance** command matching your version of Visual Studio.
 
 4. You can either adjust the settings on the other pages, or leave the default values.
 
@@ -511,7 +503,7 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
  For example, we could add a second compartment to AlbumShape that displays a list of the Artists that are linked to the Album.
 
- In this case, the compartment should display the link, instead of the referenced element. This is because when the user selects the item in the compartment and presses DELETE, you want the link to be deleted, not the referenced element.
+ In this case, the compartment should display the link, instead of the referenced element. This is because when the user selects the item in the compartment and presses `DELETE`, you want the link to be deleted, not the referenced element.
 
  Nevertheless, you can have the name of the referenced element appear in the compartment.
 
@@ -615,9 +607,9 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 | In the explorer for my DSL, elements are shown only with their type names. | In the DSL Definition, select a domain property of the class and in the Properties window, set **Is Element Name** to true. |
 | My DSL always opens in the XML editor. | This can happen because of an error while the file was being read. However, even after you fix that error, you must explicitly reset the editor to be your DSL designer.<br /><br /> Right-click the project item, click **Open With** and select *YourLanguage***Designer (Default)**. |
 | The toolbox of my DSL does not appear after I changed the assembly names. | Inspect and update **DslPackage\GeneratedCode\Package.tt** For more information, see [How to: Change the Namespace of a Domain-Specific Language](../modeling/how-to-change-the-namespace-of-a-domain-specific-language.md). |
-| The toolbox of my DSL does not appear, but I have not changed the assembly name.<br /><br /> Or, a message box appears reporting the failure to load an extension. | Reset the experimental instance, and rebuild your solution.<br /><br /> 1.  At the Windows Start menu, under **All Programs**, expand [!INCLUDE[vssdk_current_long](../misc/includes/vssdk_current_long_md.md)], then **Tools**, and then click **Reset the Microsoft Visual Studio Experimental Instance**.<br />2.  On the **Build** menu, click **Rebuild Solution**. |
+| The toolbox of my DSL does not appear, but I have not changed the assembly name.<br /><br /> Or, a message box appears reporting the failure to load an extension. | Reset the experimental instance, and rebuild your solution.<br /><br /> 1.  At the Windows Start menu, under **All Programs**, expand  Visual Studio SDK , then **Tools**, and then click **Reset the Microsoft Visual Studio Experimental Instance**.<br />2.  On the **Build** menu, click **Rebuild Solution**. |
 
-## See also
+## Related content
 
 - [Getting Started with Domain-Specific Languages](../modeling/getting-started-with-domain-specific-languages.md)
 - [Creating a Windows Forms-Based Domain-Specific Language](../modeling/creating-a-windows-forms-based-domain-specific-language.md)

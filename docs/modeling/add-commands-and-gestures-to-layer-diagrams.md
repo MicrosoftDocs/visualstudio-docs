@@ -1,7 +1,6 @@
 ---
 title: Add commands and gestures to dependency diagrams
 description: Learn how you can define right-click menu commands and gesture handlers on dependency diagrams in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -9,10 +8,8 @@ helpviewer_keywords:
   - "dependency diagrams, adding custom gestures"
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Add commands and gestures to dependency diagrams
 
@@ -47,17 +44,7 @@ The quickest method of creating an extension is to use the project template. Thi
 
     [Defining a Gesture Handler](#gesture)
 
-::: moniker range="vs-2017"
-
-5. To install the extension in the main instance of Visual Studio, or on another computer, find the *.vsix* file in the *bin* directory. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, choose **Extensions and Updates** on the **Tools** menu.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 5. To install the extension in the main instance of Visual Studio, or on another computer, find the *.vsix* file in the *bin* directory. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, choose **Manage Extensions** on the **Extensions** menu.
-
-::: moniker-end
 
 ## Add a Command or Gesture to a separate VSIX
 
@@ -258,6 +245,6 @@ Notice the following points about gesture handlers:
 
 - Handlers for some types of dragged item are already defined. For example, the user can drag items from Solution Explorer onto a dependency diagram. You cannot define a drag handler for these types of item. In these cases, your `DragDrop` methods will not be invoked.
 
-## See also
+## Related content
 
 - [Add custom architecture validation to dependency diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md)

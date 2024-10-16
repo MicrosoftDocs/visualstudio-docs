@@ -1,27 +1,26 @@
 ---
-description: "Retrieves the children of the symbol. The local symbols that are returned include live range information, if the program is compiled with optimization on."
-title: "IDiaSymbol::findChildrenEx | Microsoft Docs"
+description: Retrieves the children of the symbol. The local symbols that are returned include live range information, if the program is compiled with optimization on.
+title: "IDiaSymbol::findChildrenEx"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::findChildrenEx"
-ms.assetid: 6e045045-da8c-4338-9423-81a1ca20c405
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::findChildrenEx
+
 Retrieves the children of the symbol. The local symbols that are returned include live range information, if the program is compiled with optimization on.
 
 ## Syntax
 
 ```C++
-HRESULT findChildrenEx ( 
+HRESULT findChildrenEx ( 
    enum SymTagEnum   symtag,
    LPCOLESTR         name,
    DWORD             compareFlags,

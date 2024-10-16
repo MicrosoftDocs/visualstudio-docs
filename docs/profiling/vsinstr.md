@@ -1,7 +1,7 @@
 ---
-title: VSInstr | Microsoft Docs
+title: VSInstr
 description: Learn how the VSInstr tool is used to instrument binaries and about other various VSInstr tool options.
-ms.date: 11/04/2016
+ms.date: 11/11/2022
 ms.topic: reference
 helpviewer_keywords: 
   - performance tools, instrumentation
@@ -12,16 +12,13 @@ helpviewer_keywords:
   - VSInstr
   - VSInstr tool
   - performance tools, VSInstr tool
-ms.assetid: 7b1334f7-f9b0-4a82-a145-d0607bfa8467
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-debug
-monikerRange: 'vs-2017'
-ms.workload: 
-  - multiple
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # VSInstr
+
 The VSInstr tool is used to instrument binaries. It is invoked by using the following syntax:
 
 ```cmd
@@ -41,7 +38,7 @@ VSInstr [/U] filename [/options]
 |**DumpFuncs**|Lists the functions within the specified image. No instrumentation is performed.|
 |**ExcludeSmallFuncs**|Excludes small functions, which are short functions that do not make any function calls, from instrumentation. The **ExcludeSmallFuncs** option provides for less instrumentation overhead a thus improved instrumentation speed.<br /><br /> The exclusion of small functions also reduces the .*vsp* file size and time required for analysis.|
 |**Mark:**{**Before**\|**After**\|**Top**\|**Bottom**}`,funcname,markid`|Inserts a profile mark (an identifier used to delimit the data in reports) that you can use to identify the start or end of a data range in the .vsp report file.<br /><br /> **Before** - Immediately before the target function entry.<br /><br /> **After** - Immediately after the target function exit.<br /><br /> **Top** - Immediately after the target function entry.<br /><br /> **Bottom** - Immediately before each return in the target function.<br /><br /> `funcname` - Name of the target function<br /><br /> `Markid` - A positive integer (long) to use as the identifier of the profile mark.|
-|**Coverage**|Performs coverage instrumentation. It can be used only with the following options: **Verbose**, **OutputPath**, **Exclude**, and **Logfile**..|
+|**Coverage**|Performs coverage instrumentation. It can be used only with the following options: **Verbose**, **OutputPath**, **Exclude**, and **Logfile**.|
 |**Verbose**|The **Verbose** option is used to view detailed information about the instrumentation process.|
 |**NoWarn** `[:[Message Number[;Message Number]]]`|Suppress all or specific warnings.<br /><br /> `Message Number` - the warning number. If `Message Number` is omitted, all warnings are suppressed.<br /><br /> For more information, see [VSInstr Warnings](../profiling/vsinstr-warnings.md).|
 |**Control:** `{` **Thread** \| **Process** \| **Global** `}`|Specifies the profiling level of the following VSInstr data collection control Options:<br /><br /> **Start**<br /><br /> **StartOnly**<br /><br /> **Suspend**<br /><br /> **StopOnly**<br /><br /> **SuspendOnly**<br /><br /> **ResumeOnly**<br /><br /> **Thread** - specifies thread-level data collection control functions. Profiling is started or stopped only for the current thread. The profiling state of other threads is not affected. The default is thread.<br /><br /> **Process** - specifies process-level profiling data collection control functions. Profiling starts or stops for all threads in the current process. The profiling state of other processes is not affected.<br /><br /> **Global** - specifies global-level (cross-process) data collection control functions.<br /><br /> An error occurs if you do not specify the profiling level.|
@@ -53,8 +50,5 @@ VSInstr [/U] filename [/options]
 |**ResumeOnly:**{**Before**\|**After**\|**Top**\|**Bottom**}`,funcname`|Begins or resumes data collection during a profiling run.<br /><br /> It is usually used to start profiling after a **SuspendOnly** option has stopped profiling. It inserts a ResumeProfile API at the specified location.<br /><br /> **Before** - immediately before the target function entry.<br /><br /> **After** - immediately after the target function exit.<br /><br /> **Top** - immediately after the target function entry.<br /><br /> **Bottom** - immediately before each return in the target function.<br /><br /> `funcname` - name of the target function.<br /><br /> If the target function contains a StopProfile function, the ResumeProfile function is inserted after it.|
 
 ## See also
-- [VSPerfMon](../profiling/vsperfmon.md)
-- [VSPerfCmd](../profiling/vsperfcmd.md)
-- [VSPerfReport](../profiling/vsperfreport.md)
-- [VSInstr warnings](../profiling/vsinstr-warnings.md)
-- [Performance report views](../profiling/performance-report-views.md)
+
+- [Measure performance from the command line](profile-apps-from-command-line.md)

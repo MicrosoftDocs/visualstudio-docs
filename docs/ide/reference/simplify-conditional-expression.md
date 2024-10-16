@@ -1,17 +1,14 @@
 ---
 title: Simplify conditional expression
 description: Learn how to use the Quick Actions and Refactorings menu to simplify a conditional expression.
-ms.custom: SEO-VS-2020
 ms.date: 06/08/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-manager: jmartens
-ms.technology: vs-ide-general
+manager: mijacobs
+ms.subservice: general-ide
 dev_langs:
   - CSharp
-ms.workload:
-  - "dotnet"
 ---
 # Simplify conditional expression refactoring
 

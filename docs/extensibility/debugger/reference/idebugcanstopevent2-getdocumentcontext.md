@@ -1,39 +1,39 @@
 ---
 description: "Gets the document context that describes the location of this event."
-title: IDebugCanStopEvent2::GetDocumentContext | Microsoft Docs
+title: IDebugCanStopEvent2::GetDocumentContext
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCanStopEvent2::GetDocumentContext
 helpviewer_keywords:
 - IDebugCanStopEvent2::GetDocumentContext
-ms.assetid: 936a6c4e-30c5-4c7e-9ad5-910cc605a4b5
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugCanStopEvent2::GetDocumentContext
+
 Gets the document context that describes the location of this event.
 
 ## Syntax
 
-```cpp
-HRESULT GetDocumentContext ( 
-   IDebugDocumentContext2** ppDocCxt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocumentContext ( 
    out IDebugDocumentContext2 ppDocCxt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocumentContext ( 
+   IDebugDocumentContext2** ppDocCxt
+);
+```
+---
 
 ## Parameters
 `ppDocCxt`\

@@ -1,29 +1,28 @@
 ---
-title: 'How to: Build a Project That Has Resources | Microsoft Docs'
+title: 'Build a Project That Has Resources'
 description: Learn about how to build a project that has resources, and how to compile resources by using MSBuild.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - resource files, compiling with MSBuild
 - resources [Visual Studio], compiling with MSBuild
 - projects [.NET Framework], building
 - MSBuild, building a project with resources
-ms.assetid: d07ac73f-2c2d-4e9a-812a-6dcb632bafe2
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
-# How to: Build a project that has resources
+# Build a project that has resources
 
 If you are building localized versions of a project, all user interface elements must be separated into resource files for the different languages. If the project uses only strings, the resource files can use text files. Alternatively, you can use *.resx* files as the resource files.
 
 ## Compile resources with MSBuild
 
 The library of common tasks that is provided with MSBuild includes a `GenerateResource` task that you can use to compile resources in either *.resx* or text files. This task includes the `Sources` parameter to specify which resource files to compile and the `OutputResources` parameter to specify names for the output resource files. For more information on the `GenerateResource` task, see [GenerateResource task](../msbuild/generateresource-task.md).
+
+> [!CAUTION]
+> Resources in `.resx` files may be serialized using `BinaryFormatter`, which is [not secure](/dotnet/standard/serialization/binaryformatter-security-guide). Include only those `.resx` files in your build process that you trust.
 
 #### To compile resources with MSBuild
 
@@ -77,7 +76,7 @@ The following example project contains two tasks: the `GenerateResource` task to
 </Project>
 ```
 
-## See also
+## Related content
 
 - [MSBuild](../msbuild/msbuild.md)
 - [GenerateResource task](../msbuild/generateresource-task.md)

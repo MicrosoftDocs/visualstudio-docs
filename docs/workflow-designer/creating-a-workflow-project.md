@@ -1,19 +1,15 @@
 ---
 title: Create a Workflow Foundation project
-description: Learn how to create libraries and applications with the project templates available in Visual Studio.
-ms.custom: SEO-VS-2020
+description: Create libraries and applications for a Workflow Foundation project with the project templates available in Visual Studio.
 ms.date: 06/25/2018
 ms.topic: conceptual
 helpviewer_keywords:
 - Workflow Designer, creating a workflow project
 - creating a workflow project
-ms.assetid: 235a125e-ebe7-4a98-bf77-86c8558728fb
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
+author: jodavis
+ms.author: jodavis
+manager: mijacobs
+ms.subservice: workflow-designer
 ---
 # Workflow project templates
 
@@ -66,7 +62,7 @@ For an example of how to implement a custom activity designer, see [How to: Crea
 > [!NOTE]
 > Custom activity designers can be used for custom activities and for default .NET activities.
 
-## See also
+## Related content
 
 - [Use the Workflow Designer](developing-applications-with-the-workflow-designer.md)
 - [Design workflows (.NET Framework)](/dotnet/framework/windows-workflow-foundation/designing-workflows)

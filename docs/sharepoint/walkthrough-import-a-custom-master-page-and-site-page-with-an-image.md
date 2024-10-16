@@ -1,7 +1,6 @@
 ---
 title: "Import custom master page & site page with image"
 description: In this walkthrough, import a SharePoint custom master page and a site page that has an image into a Visual Studio SharePoint project.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -12,13 +11,12 @@ helpviewer_keywords:
   - "importing items [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Walkthrough: Import a custom master page and site page with an image
-  This walkthrough demonstrates how to import a SharePoint custom master page and a site page that has an image into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project.
+
+  This walkthrough demonstrates how to import a SharePoint custom master page and a site page that has an image into a Visual Studio SharePoint project.
 
  This walkthrough shows how to accomplish the following tasks:
 
@@ -26,14 +24,14 @@ ms.workload:
 
 - Export a custom master page, image, and site page to a SharePoint solution (*.wsp*) file.
 
-- Import and deploy the *.wsp* file into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project by using the Import SharePoint Solution Package project.
+- Import and deploy the *.wsp* file into a Visual Studio SharePoint project by using the Import SharePoint Solution Package project.
 
   [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 
 ## Prerequisites
  You must have the following components to complete this walkthrough:
 
-- Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
+- Supported editions of Microsoft Windows and SharePoint.
 
 - Visual Studio.
 
@@ -139,11 +137,11 @@ ms.workload:
 4. Open the shortcut menu for the new *.wsp* file, and then choose **Save target as** to save it to the system.
 
 ## Import the items into Visual Studio
- Import the *.wsp* file into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. After the content is imported, you can customize it, add more items, and then deploy it.
+ Import the *.wsp* file into Visual Studio. After the content is imported, you can customize it, add more items, and then deploy it.
 
 #### To import items from the .wsp file into Visual Studio
 
-1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create an **Import SharePoint 2010 Solution Package** project.
+1. In Visual Studio, create an **Import SharePoint 2010 Solution Package** project.
 
 2. On the **Select items to import** page, under **Module** in the **Type** column, select the check boxes for only the files in the following table for import.
 
@@ -171,9 +169,9 @@ ms.workload:
 
 7. Open the SharePoint site to view the deployed items.
 
-   An alternative way to import files into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and deploy them to SharePoint is to add the files into modules in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. [!INCLUDE[crdefault](../sharepoint/includes/crdefault-md.md)] [How to: Import a master page or theme](../sharepoint/how-to-import-a-master-page-or-theme.md) and [Use modules to include files in the Solution](../sharepoint/using-modules-to-include-files-in-the-solution.md).
+   An alternative way to import files into Visual Studio and deploy them to SharePoint is to add the files into modules in Visual Studio. For more information, see [How to: Import a master page or theme](../sharepoint/how-to-import-a-master-page-or-theme.md) and [Use modules to include files in the Solution](../sharepoint/using-modules-to-include-files-in-the-solution.md).
 
-## See also
+## Related content
 - [Importing items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
 - [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)

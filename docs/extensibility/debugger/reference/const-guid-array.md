@@ -1,41 +1,41 @@
 ---
-description: "A structure that holds a list of GUID`s."
-title: CONST_GUID_ARRAY | Microsoft Docs
+title: CONST_GUID_ARRAY
+description: "A structure that holds a list of `GUID`s."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - CONST_GUID_ARRAY
 helpviewer_keywords:
 - CONST_GUID_ARRAY structure
-ms.assetid: bd55e7d8-372c-4c3e-9eed-28f6b415a5db
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # CONST_GUID_ARRAY
+
 A structure that holds a list of `GUID`s.
 
 ## Syntax
 
-```cpp
-typedef struct tagCONST_GUID_ARRAY {
-    DWORD       dwCount;
-    CONST GUID* Members;
-} CONST_GUID_ARRAY;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct CONST_GUID_ARRAY {
     public uint   dwCount;
     public Guid[] Members;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagCONST_GUID_ARRAY {
+    DWORD       dwCount;
+    CONST GUID* Members;
+} CONST_GUID_ARRAY;
+```
+---
 
 ## Members
 `dwCount`\

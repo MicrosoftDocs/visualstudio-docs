@@ -1,9 +1,8 @@
 ---
-title: "&lt;Commands&gt; Element (Bootstrapper) | Microsoft Docs"
+title: "&lt;Commands&gt; Element (Bootstrapper)"
 description: The Commands element implements tests in the elements underneath InstallChecks and declares the package to install if the ClickOnce bootstrapper test fails.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "FSharp"
   - "VB"
@@ -11,16 +10,14 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<Commands> element [bootstrapper]"
-ms.assetid: e61d5787-fe1f-4ebf-b0cf-0d7909be7ffb
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: deployment
 ---
 # &lt;Commands&gt; element (bootstrapper)
-The `Commands` element implements tests described by the elements underneath the `InstallChecks` element, and declares which package the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] bootstrapper should install if the test fails.
+
+The `Commands` element implements tests described by the elements underneath the `InstallChecks` element, and declares which package the ClickOnce bootstrapper should install if the test fails.
 
 ## Syntax
 
@@ -173,8 +170,8 @@ The `Commands` element implements tests described by the elements underneath the
             <!-- Block install on Windows 95 -->
             <FailIf Property="Version9X" Compare="VersionLessThan" Value="4.10" String="InvalidPlatformWin9x"/>
 
-            <!-- Block install on Windows 2000 SP 2 or less -->
-            <FailIf Property="VersionNT" Compare="VersionLessThan" Value="5.0.3" String="InvalidPlatformWinNT"/>
+            <!-- Block install on Windows 8 or less -->
+            <FailIf Property="VersionNT" Compare="VersionLessThan" Value="6.2" String="InvalidPlatformWinNT"/>
 
             <!-- Block install if Internet Explorer 5.01 or later is not present -->
             <FailIf Property="IEVersion" Compare="ValueNotExists" String="InvalidPlatformIE" />

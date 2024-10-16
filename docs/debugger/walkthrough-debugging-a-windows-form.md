@@ -1,13 +1,11 @@
 ---
-title: "Debugging a Windows Form | Microsoft Docs"
-description: Follow a walkthrough to see how to create and debug a Windows Form, a common managed application. You can use C#, Visual Basic, C++, or F#.
-ms.custom: "SEO-VS-2020"
+title: "Debugging a Windows Form"
+description: Follow a walkthrough to see how to create and debug a Windows Form, a common managed application. You can use C#, Visual Basic, or C++.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
   - "VB"
-  - "FSharp"
   - "C++"
 helpviewer_keywords:
   - "debugging [Visual Studio], walkthroughs"
@@ -18,15 +16,13 @@ helpviewer_keywords:
   - "Attach to Process dialog box, walkthroughs"
   - "Windows Forms, debugging"
   - "debugging Windows Forms, walkthroughs"
-ms.assetid: 529db1e2-d9ea-482a-b6a0-7c543d17f114
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Walkthrough: Debugging a Windows Form
+
 A Windows Form is one of the most common managed applications. A Windows Form creates a standard Windows application. You can complete this walkthrough using Visual Basic, C#, or C++.
 
  First, you must close any open solutions.
@@ -70,17 +66,21 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
 
 10. In the function `button1_Click`., add the following code:
 
-    ```vb
-    textBox1.Text = "Button was clicked!"
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     textBox1.Text = "Button was clicked!";
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    textBox1.Text = "Button was clicked!"
+    ```
+
+    ### [C++](#tab/cpp)
     ```cpp
     textBox1->Text = "Button was clicked!";
     ```
+    ---
 
 11. On the **Build** menu, select **Build Solution**.
 
@@ -93,17 +93,21 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
 
 1. In the source window, click the left margin on the same line as the text you added:
 
-     ```vb
-    textBox1.Text = "Button was clicked!"
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     textBox1.Text = "Button was clicked!";
     ```
 
+     ### [VB](#tab/vb)
+     ```vb
+    textBox1.Text = "Button was clicked!"
+    ```
+
+    ### [C++](#tab/cpp)
     ```cpp
     textBox1->Text = "Button was clicked!";
     ```
+    ---
 
      A red dot appears and the text on the line is highlighted in red. The red dot represents a breakpoint. For more information, see [Breakpoints](/previous-versions/ktf38f66(v=vs.100)). When you run the application under the debugger, the debugger will break execution at that location when the code is hit. You can then view the state of your application and debug it.
 
@@ -145,23 +149,27 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
 10. On the **Debug** menu, choose **Stop Debugging**.
 
 ## Attach to Your Windows Form Application for Debugging
- In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], you can attach the debugger to a running process. If you are using an Express Edition, this feature is not supported.
+ In Visual Studio, you can attach the debugger to a running process. If you are using an Express Edition, this feature is not supported.
 
 #### To attach to the Windows Form Application for debugging
 
 1. In the project you created above, click in the left margin to once again set a breakpoint at the line you added:
 
-     ```vb
+    ### [VB](#tab/vb)
+    ```vb
     textBox1.Text = "Button was clicked!"
     ```
 
+    ### [C#](#tab/csharp)
     ```csharp
     textBox1.Text = "Button was clicked!";
     ```
 
+    ### [C++](#tab/cpp)
     ```cpp
     textBox1->Text = "Button was clicked!";
     ```
+    ---
 
 2. On the **Debug** menu, select **Start Without Debugging**.
 
@@ -179,6 +187,6 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
 
      The debugger breaks execution of the Windows Form at the breakpoint.
 
-## See also
+## Related content
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
 - [Debugger Security](../debugger/debugger-security.md)

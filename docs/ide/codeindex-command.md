@@ -1,20 +1,16 @@
 ---
 title: CodeIndex command
 description: "Learn how to use the CodeIndex command to manage code indexing on Azure DevOps Server (formerly known as Team Foundation Server)."
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - command-line tools [Team Foundation Server]
 - TFSConfig
 - CodeIndex command [Team Foundation Server]
-ms.assetid: b79568d4-6a64-4ca9-a1ee-3e57f92a9c5c
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # CodeIndex command
 

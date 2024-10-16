@@ -1,74 +1,79 @@
 ---
 title: Quick Actions, light bulbs, and screwdrivers
-description: Learn how to use a single Quick Action to refactor, generate, or otherwise modify your code.
-ms.custom: SEO-VS-2020
-ms.date: 03/28/2018
-ms.topic: conceptual
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
+description: Use a single Quick Action in Visual Studio to refactor, generate, or modify your C#, C++, or Visual Basic code files to apply updates and fixes or generate code.
+ms.date: 08/14/2024
+ms.topic: concept-article
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- multiple
+
+#customer intent: As a developer, I want to use Quick Actions in Visual Studio, so I can modify my code files to apply updates and fixes or generate code.
 ---
+
 # Quick Actions
 
-Quick Actions let you easily refactor, generate, or otherwise modify code with a single action. Quick Actions are available for C#, [C++](/cpp/ide/writing-and-refactoring-code-cpp), and Visual Basic code files. Some actions are specific to a language, and others apply to all languages.
+Quick Actions in Visual Studio let you easily refactor, generate, or otherwise modify your code with a single action. Quick Actions are available for C#, [C++](/cpp/ide/writing-and-refactoring-code-cpp), and Visual Basic code files. Some actions are specific to a language, and others apply to all languages.
 
 Quick Actions can be used to:
 
 - Apply a code fix for a [code analyzer](../code-quality/roslyn-analyzers-overview.md) rule violation
-
-::: moniker range=">=vs-2019"
-
 - [Suppress](../code-quality/use-roslyn-analyzers.md#suppress-violations) a code analyzer rule violation or [configure](../code-quality/use-roslyn-analyzers.md#set-rule-severity-from-the-light-bulb-menu) its severity
+- Apply a refactoring, such as [inline for a temporary variable](../ide/reference/inline-temporary-variable.md)
+- Generate code, such as to [introduce a local variable](../ide/reference/introduce-local-variable.md)
 
-::: moniker-end
+## Understand Quick Action icons
 
-::: moniker range="vs-2017"
+Visual Studio uses several icons to indicate when Quick Actions are available. The icon type indicates whether the Quick Action is a recommendation or required fix, including refactoring:
 
-- [Suppress](../code-quality/use-roslyn-analyzers.md#suppress-violations) a code analyzer rule violation
+- **Screwdriver** ![screwdriver icon](media/screwdriver-icon.png): Suggested action to improve your code.
 
-::: moniker-end
+- **Yellow light bulb** ![light bulb icon](media/light-bulb-icon.png): Recommended action to address noncritical issues with your code.
 
-- Apply a refactoring (for example, [inline a temporary variable](../ide/reference/inline-temporary-variable.md))
+- **Error light bulb** ![error light bulb icon](media/error-light-bulb-icon.png): Critical action to fix an error in your code, or apply necessary refactoring.
 
-- Generate code (for example, [introduce a local variable](../ide/reference/introduce-local-variable.md))
+For any language, third parties can provide custom diagnostics and suggestions, such as part of an SDK. Visual Studio shows light bulbs based on those rules.
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Refactoring (Visual Studio for Mac)](/visualstudio/mac/refactoring).
+## Apply recommendations to improve code
 
-Quick Actions can be applied by using the light bulb ![light bulb icon](media/light-bulb-icon.png) or screwdriver ![screwdriver icon](media/screwdriver-icon.png) icons, or by pressing **Ctrl**+**.** when your cursor is on a line of code for which an action is available. You'll see an error light bulb ![error light bulb icon](media/error-light-bulb-icon.png) if there's a red squiggle indicating an error and Visual Studio has a fix available for that error.
+When Quick Actions are available, you can select the light bulb ![light bulb icon](media/light-bulb-icon.png) or screwdriver ![screwdriver icon](media/screwdriver-icon.png) icon next to the applicable code.
 
-For any language, third parties can provide custom diagnostics and suggestions, for example as part of an SDK, and Visual Studio light bulbs appear based on those rules.
+- To see the available improvements, select the Down arrow next to the icon or use the **Show potential fixes** link. 
 
-## Icons
+   :::image type="content" source="../ide/media/vs2022-lightbulb-hover-expanded.png" border="false" alt-text="Screenshot that shows the Quick Action recommendation details with the light bulb icon in Visual Studio.":::
 
-The icon that appears when a Quick Action is available gives an indication of the type of fix or refactoring that's available. The *screwdriver* ![screwdriver icon](media/screwdriver-icon.png) icon indicates just that there are actions available to change the code, but you shouldn't necessarily use them. The *yellow light bulb* ![light bulb icon](media/light-bulb-icon.png) icon indicates there are actions available that you *should* do to improve your code. The *error light bulb* ![error light bulb icon](media/error-light-bulb-icon.png) icon indicates there's an action available that fixes an error in your code.
+- To apply the recommended change to your code, select the icon. You can also select Ctrl + period (.) when your cursor is on a line of code that shows an available action.
 
-## To see a light bulb or screwdriver
+## Apply actions to fix errors
 
-If a fix is available, light bulbs appear:
+If there's an error in your code, and Visual Studio has a recommended fix, you see a red squiggle under the code with the error. The error light bulb ![error light bulb icon](media/error-light-bulb-icon.png) icon also displays next to the marked code.
 
-- When you hover the mouse at the location of an error
+- To see the available fixes, select the Down arrow next to the icon or use the **Show potential fixes** link. 
 
-   ![Light bulb with mouse hovering](../ide/media/vs2015_lightbulb_hover.png)
+   :::image type="content" source="../ide/media/vs2022-error-lightbulb-hover.png" border="false" alt-text="Screenshot that shows the Quick Action potential fix and error light bulb icon in Visual Studio.":::
 
-- In the left margin of the editor when you move the caret (cursor) into the applicable line of code
+- To apply the recommended change to your code, select the icon. You can also select Ctrl + period (.) when your cursor is on a line of code that shows an available action.
 
-You can also press **Ctrl**+**.** anywhere on a line to see a list of available Quick Actions and refactorings.
+> [!TIP]
+> You can turn off some of the code fix Quick Actions. For more informatio, see [Disable source code analysis for .NET](../code-quality/disable-code-analysis.md).
 
-To see potential fixes, select either the down arrow next to the light bulb or the **Show potential fixes** link. A list of available Quick Actions is displayed.
+## Find available actions
 
-![Light bulb expanded](../ide/media/vs2015_lightbulb_hover_expanded.png)
+You can check your code for available Quick Actions in Visual Studio by scanning for the light bulb ![light bulb icon](media/light-bulb-icon.png), screwdriver ![screwdriver icon](media/screwdriver-icon.png), and error light bulb ![error light bulb icon](media/error-light-bulb-icon.png):
 
-## See also
+- Move your mouse over your code and notice any Quick Action icons:
 
-- [Code generation in Visual Studio](../ide/code-generation-in-visual-studio.md)
+   :::image type="content" source="../ide/media/vs2022-lightbulb-hover.png" border="false" alt-text="Screenshot that shows the basic Quick Action recommendation and light bulb icon in Visual Studio.":::
+
+- Move the insertion cursor (|) into a line of code, and check for Quick Action icons in the left margin of the code editor.
+
+- Select Ctrl + period (.) anywhere on a line for a list of available Quick Actions and refactoring options.
+
+## Related content
+
 - [Common Quick Actions](../ide/common-quick-actions.md)
 - [Code styles and Quick Actions](../ide/code-styles-and-code-cleanup.md)
-- [Write and refactor code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)
-- [Refactoring (Visual Studio for Mac)](/visualstudio/mac/refactoring)
+- [Visual Studio IntelliCode](/visualstudio/intellicode/intellicode-visual-studio)

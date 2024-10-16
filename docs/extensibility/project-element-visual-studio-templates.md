@@ -1,23 +1,20 @@
 ---
-title: Project Element (Visual Studio Templates) | Microsoft Docs
+title: Project Element (Visual Studio Templates)
 description: Learn about the Project element and how it specifies the files or directories to add to the project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#Project
 helpviewer_keywords:
 - Project element [Visual Studio Templates]
 - <Project> element [Visual Studio Templates]
-ms.assetid: 1da15ea6-26e2-462b-a03e-584ef4996579
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
 ---
 # Project element (Visual Studio templates)
+
 Specifies the files or directories to add to the project.
 
  \<VSTemplate>
@@ -64,14 +61,14 @@ Specifies the files or directories to add to the project.
 ## Remarks
  `Project` is an optional child element of `TemplateContent`.
 
- The `Project` element is used to specifiy a project, and therefore, is only valid in project templates.
+ The `Project` element is used to specify a project, and therefore, is only valid in project templates.
 
  `Project` elements can have [Folder](../extensibility/folder-element-visual-studio-project-templates.md) children elements or [ProjectItem](../extensibility/projectitem-element-visual-studio-project-templates.md) children elements, but not a mixture of both `Folder` and `ProjectItem` children elements.
 
- [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically renames the project file name based on the name entered by the user in the **New Project** dialog box. Use the `TargetFileName` attribute if you want to provide an alternate file name for project files created with the template.
+ Visual Studio automatically renames the project file name based on the name entered by the user in the **New Project** dialog box. Use the `TargetFileName` attribute if you want to provide an alternate file name for project files created with the template.
 
 ## Example
- The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] application.
+ The following example shows the metadata for a project template for a Visual C# application.
 
 ```
 <VSTemplate Type="Project" Version="3.0.0"

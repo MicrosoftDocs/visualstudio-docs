@@ -1,39 +1,39 @@
 ---
 description: "This method obtains an interface to the server that this port is on."
-title: IDebugDefaultPort2::GetServer | Microsoft Docs
+title: IDebugDefaultPort2::GetServer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDefaultPort2::GetServer
 helpviewer_keywords:
 - IDebugDefaultPort2::GetServer
-ms.assetid: cacb4b74-0f39-471c-af38-54b73f5b2868
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugDefaultPort2::GetServer
+
 This method obtains an interface to the server that this port is on.
 
 ## Syntax
 
-```cpp
-HRESULT GetServer(
-   IDebugCoreServer3** ppServer
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetServer(
    out IDebugCoreServer3 ppServer
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetServer(
+   IDebugCoreServer3** ppServer
+);
+```
+---
 
 ## Parameters
 `ppServer`\

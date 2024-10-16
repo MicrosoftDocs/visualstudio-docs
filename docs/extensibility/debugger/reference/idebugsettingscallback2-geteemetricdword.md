@@ -1,35 +1,25 @@
 ---
 description: "Retrieves a value that corresponds to the specified metric of the expression evaluator."
-title: IDebugSettingsCallback2::GetEEMetricDword | Microsoft Docs
+title: IDebugSettingsCallback2::GetEEMetricDword
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugSettingsCallback2::GetEEMetricDword
-ms.assetid: c5f8f417-0ef0-4fd0-a779-b0a8ead4effe
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugSettingsCallback2::GetEEMetricDword
+
 Retrieves a value that corresponds to the specified metric of the expression evaluator.
 
 ## Syntax
 
-```cpp
-HRESULT GetEEMetricDword(
-   REFGUID guidLang,
-   REFGUID guidVendor,
-   LPCWSTR pszMetric,
-   DWORD*  pdwValue
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 private int GetEEMetricDword(
    ref Guid guidLang,
@@ -38,6 +28,16 @@ private int GetEEMetricDword(
    out uint pdwValue
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEEMetricDword(
+   REFGUID guidLang,
+   REFGUID guidVendor,
+   LPCWSTR pszMetric,
+   DWORD*  pdwValue
+);
+```
+---
 
 ## Parameters
 `guidLang`\

@@ -5,15 +5,15 @@ summary: Create Visual Basic apps with Visual Studio.
 
 metadata:
   title: Visual Basic development with Visual Studio
-  description: Create Visual Basic apps by using Visual Studio.
+  description: Explore how to create different Visual Basic (VB) apps in Visual Studio, including console, web, Windows Forms, and Windows Desktop apps, and find coding resources.
   ms.custom: vs-acquisition
   ms.topic: landing-page
-  ms.date: 06/19/2021
+  ms.date: 08/12/2024
   ms.author: ghogen
   author: ghogen
-  manager: jmartens
-  ms.prod: visual-studio-windows
-  ms.technology: vs-acquisition
+  manager: mijacobs
+  
+  ms.subservice: vs-acquisition
   dev_langs:
     - VB
 
@@ -31,10 +31,6 @@ landingContent:
         links:
           - text: Start a guided tour 
             url: visual-studio-ide.md
-      - linkListType: quickstart
-        links:
-          - text: Create a "Hello World" console app
-            url: ../../ide/quickstart-visual-basic-console.md
 
   # Card
   - title: Create Visual Basic apps

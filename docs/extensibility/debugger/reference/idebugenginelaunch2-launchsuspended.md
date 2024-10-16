@@ -1,46 +1,27 @@
 ---
 description: "This method launches a process by means of the debug engine (DE)."
-title: IDebugEngineLaunch2::LaunchSuspended | Microsoft Docs
+title: IDebugEngineLaunch2::LaunchSuspended
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngineLaunch2::LaunchSuspended
 helpviewer_keywords:
 - IDebugEngineLaunch2::LaunchSuspended
-ms.assetid: 5dd2643e-c20a-470e-9024-2a423eb39856
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugEngineLaunch2::LaunchSuspended
+
 This method launches a process by means of the debug engine (DE).
 
 ## Syntax
 
-```cpp
-HRESULT LaunchSuspended ( 
-   LPCOLESTR             pszMachine,
-   IDebugPort2*          pPort,
-   LPCOLESTR             pszExe,
-   LPCOLESTR             pszArgs,
-   LPCOLESTR             pszDir,
-   BSTR                  bstrEnv,
-   LPCOLESTR             pszOptions,
-   LAUNCH_FLAGS          dwLaunchFlags,
-   DWORD                 hStdInput,
-   DWORD                 hStdOutput,
-   DWORD                 hStdError,
-   IDebugEventCallback2* pCallback,
-   IDebugProcess2**      ppDebugProcess
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int LaunchSuspended(
    string               pszServer,
@@ -58,6 +39,25 @@ int LaunchSuspended(
    out IDebugProcess2   ppProcess
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT LaunchSuspended ( 
+   LPCOLESTR             pszMachine,
+   IDebugPort2*          pPort,
+   LPCOLESTR             pszExe,
+   LPCOLESTR             pszArgs,
+   LPCOLESTR             pszDir,
+   BSTR                  bstrEnv,
+   LPCOLESTR             pszOptions,
+   LAUNCH_FLAGS          dwLaunchFlags,
+   DWORD                 hStdInput,
+   DWORD                 hStdOutput,
+   DWORD                 hStdError,
+   IDebugEventCallback2* pCallback,
+   IDebugProcess2**      ppDebugProcess
+);
+```
+---
 
 ## Parameters
 `pszMachine`\
@@ -103,7 +103,7 @@ int LaunchSuspended(
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## Remarks
- Normally, [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] launches a program using the [LaunchSuspended](../../../extensibility/debugger/reference/idebugportex2-launchsuspended.md) method and then attaches the debugger to the suspended program. However, there are circumstances in which the debug engine may need to launch a program (for example, if the debug engine is part of an interpreter and the program being debugged is an interpreted language), in which case [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] uses the `IDebugEngineLaunch2::LaunchSuspended` method.
+ Normally, Visual Studio launches a program using the [LaunchSuspended](../../../extensibility/debugger/reference/idebugportex2-launchsuspended.md) method and then attaches the debugger to the suspended program. However, there are circumstances in which the debug engine may need to launch a program (for example, if the debug engine is part of an interpreter and the program being debugged is an interpreted language), in which case Visual Studio uses the `IDebugEngineLaunch2::LaunchSuspended` method.
 
  The [ResumeProcess](../../../extensibility/debugger/reference/idebugenginelaunch2-resumeprocess.md) method is called to start the process after the process has been successfully launched in a suspended state.
 

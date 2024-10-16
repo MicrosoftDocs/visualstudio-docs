@@ -1,7 +1,6 @@
 ---
-title: ResolveComReference Task | Microsoft Docs
+title: ResolveComReference Task
 description: Learn how MSBuild uses the ResolveComReference task to take a list of one or more type library names or .tlb files and resolve them to locations on disk.
-ms.custom: SEO-VS-2020
 ms.date: 07/25/2019
 ms.topic: reference
 f1_keywords:
@@ -10,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, ResolveCOMReference task
 - ResolveCOMReference task [MSBuild]
-ms.assetid: c9bf5fcf-6453-40ea-b50f-a212adc3e9b5
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # ResolveComReference task
 
@@ -38,7 +33,7 @@ Takes a list of one or more type library names or *.tlb* files and resolves thos
 |`IncludeVersionInInteropName`|Optional `Boolean` parameter.<br /><br /> If `true`, the typelib version will be included in the wrapper name. The default is `false`.|
 |`KeyContainer`|Optional `String` parameter.<br /><br /> Specifies a container that holds a public/private key pair.|
 |`KeyFile`|Optional `String` parameter.<br /><br /> Specifies an item that contains a public/private key pair.|
-|`NoClassMembers`|Optional `Boolean`parameter.|
+|`NoClassMembers`|Optional `Boolean` parameter.|
 |`ResolvedAssemblyReferences`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Specifies the resolved assembly references.|
 |`ResolvedFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Specifies the fully qualified files on disk that correspond to the physical locations of the type libraries that were provided as input to this task.|
 |`ResolvedModules`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]`parameter.|
@@ -61,7 +56,7 @@ Takes a list of one or more type library names or *.tlb* files and resolves thos
 |`VersionMinor`|Required item metadata.<br /><br /> The minor version of the type library. If this item metadata is not specified, the task fails.|
 |`EmbedInteropTypes`|Optional `Boolean` metadata.<br /><br />  If `true`, embed the interop types from this reference directly into your assembly rather than generating an interop DLL.|
 |`LocaleIdentifier`|Optional item metadata.<br /><br /> The Locale Identifier (or LCID) for the type library. This is specified as a 32-bit value that identifies the human language preferred by a user, region, or application. If this item metadata is not specified, the task uses a default locale identifier of "0".|
-|`WrapperTool`|Optional item metadata.<br /><br /> Specifies the wrapper tool that is used to generate the assembly wrapper for this type library. If this item metadata is not specified, the task uses a default wrapper tool of "tlbimp". The available, case insensitive choices of typelibs are:<br /><br /> -   `Primary`: Use this wrapper tool when you want to use an already generated primary interop assembly for the COM component. When you use this wrapper tool, do not specify a wrapper output directory because that will cause the task to fail.<br />-   `TLBImp`: Use this wrapper tool when you want to generate an interop assembly for the COM component.<br />-   `AXImp`:Use this wrapper tool when you want to generate an interop assembly for an ActiveX Control.|
+|`WrapperTool`|Optional item metadata.<br /><br /> Specifies the wrapper tool that is used to generate the assembly wrapper for this type library. If this item metadata is not specified, the task uses a default wrapper tool of "tlbimp". The available, case insensitive choices of typelibs are:<br /><br /> -   `Primary`: Use this wrapper tool when you want to use an already generated primary interop assembly for the COM component. When you use this wrapper tool, do not specify a wrapper output directory because that will cause the task to fail.<br />-   `TLBImp`: Use this wrapper tool when you want to generate an interop assembly for the COM component.<br /> -   `PrimaryOrTLBImp`: Use this wrapper tool when you are unsure whether `Primary` or `TLBImp` is appropriate. The `Primary` logic is applied first, then `TLBImp`.<br />-   `AXImp`:Use this wrapper tool when you want to generate an interop assembly for an ActiveX Control.|
 
 ## TypeLibFiles item metadata
 
@@ -69,7 +64,7 @@ Takes a list of one or more type library names or *.tlb* files and resolves thos
 
 |Metadata|Description|
 |--------------|-----------------|
-|`EmbedInteropTypes`|Optional `Boolean`parameter.<br /><br />  If `true`, embed the interop types from this reference directly into your assembly rather than generating an interop DLL.|
+|`EmbedInteropTypes`|Optional `Boolean` parameter.<br /><br />  If `true`, embed the interop types from this reference directly into your assembly rather than generating an interop DLL.|
 |`WrapperTool`|Optional item metadata.<br /><br /> Specifies the wrapper tool that is used to generate the assembly wrapper for this type library. If this item metadata is not specified, the task uses a default wrapper tool of "tlbimp". The available, case insensitive choices of typelibs are:<br /><br /> -   `Primary`: Use this wrapper tool when you want to use an already generated primary interop assembly for the COM component. When you use this wrapper tool, do not specify a wrapper output directory because that will cause the task to fail.<br />-   `TLBImp`: Use this wrapper tool when you want to generate an interop assembly for the COM component.<br />-   `AXImp`: Use this wrapper tool when you want to generate an interop assembly for an ActiveX Control.|
 
 > [!NOTE]

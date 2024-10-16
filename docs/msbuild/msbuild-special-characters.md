@@ -1,20 +1,16 @@
 ---
-title: MSBuild Special Characters | Microsoft Docs
-description: Learn about the MSBuild reserved characters for special use in specific contexts, and when and how to escape these characters.
-ms.custom: SEO-VS-2020
+title: MSBuild Special Characters
+description: Review the MSBuild characters that are reserved for special use in specific contexts, and when and how to escape these characters.
 ms.date: 06/12/2019
-ms.topic: conceptual
+ms.topic: language-reference
 helpviewer_keywords:
 - escape characters
 - escape
 - MSBuild Escape Characters
-ms.assetid: 545e6a59-1093-4514-935e-78679a46fb3c
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # MSBuild special characters
 
@@ -32,11 +28,12 @@ MSBuild reserves some characters for special use in specific contexts. You only 
 |$|%24|Referencing properties|
 |@|%40|Referencing item lists|
 |'|%27|Conditions and other expressions|
+|(|%28|Multiple uses|
+|)|%29|Multiple uses|
 |;|%3B|List separator|
 |?|%3F|Wildcard character for file names in `Include` and `Exclude` attributes|
 |*|%2A|Wildcard character for use in file names in `Include` and `Exclude` attributes|
 
-## See also
+## Related content
 
-- [Advanced concepts](../msbuild/msbuild-advanced-concepts.md)
 - [Items](../msbuild/msbuild-items.md)

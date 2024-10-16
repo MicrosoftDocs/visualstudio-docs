@@ -1,7 +1,6 @@
 ---
-title: "Walkthrough: Add an Application Page to a Workflow | Microsoft Docs"
+title: "Walkthrough: Add an Application Page to a Workflow"
 description: In this walkthrough, add an application page to a SharePoint workflow solution. Amend the workflow code. Create, code, and test the application page.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "application page [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Walkthrough: Add an application page to a workflow
+
   This walkthrough demonstrates how to add an application page that displays data derived from a workflow to a workflow project. It builds on the project described in the topic [Walkthrough: Create a workflow with association and initiation forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md).
 
  This walkthrough demonstrates the following tasks:
@@ -35,7 +33,7 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
-- Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
+- Supported editions of Microsoft Windows and SharePoint.
 
 - Visual Studio.
 
@@ -46,21 +44,24 @@ ms.workload:
 
 #### To set the value of the outcome column in the workflow
 
-1. Load the completed project from the topic [Walkthrough: Creating a Workflow with Association and Initiation Forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md) into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Load the completed project from the topic [Walkthrough: Creating a Workflow with Association and Initiation Forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md) into Visual Studio.
 
 2. Open the code for *Workflow1.cs* or *Workflow1.vb* (depending on your programming language).
 
 3. To the bottom of the `createTask1_MethodInvoking` method, add the following code:
 
-    ```vb
-    createTask1_TaskProperties1.ExtendedProperties("Outcome") =
-      workflowProperties.InitiationData
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     createTask1_TaskProperties1.ExtendedProperties["Outcome"] =
       workflowProperties.InitiationData;
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    createTask1_TaskProperties1.ExtendedProperties("Outcome") =
+      workflowProperties.InitiationData
+    ```
+    ---
 
 ## Create an application page
  Next, add an ASPX form to the project. This form will display data obtained from the expense report workflow project. To do this, you will add an application page. An application page uses the same master page as other SharePoint pages, meaning that it will resemble other pages on the SharePoint site.
@@ -71,7 +72,7 @@ ms.workload:
 
 2. In the **Templates** pane, choose the **Application Page** template, use the default name for the project item (**ApplicationPage1.aspx**), and choose the **Add** button.
 
-3. In the [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] of ApplicationPage1.aspx, replace the `PlaceHolderMain` section with the following:
+3. In the XML of ApplicationPage1.aspx, replace the `PlaceHolderMain` section with the following:
 
     ```aspx-csharp
     <asp:Content ID="Main" ContentPlaceHolderID="PlaceHolderMain" runat="server">
@@ -102,19 +103,7 @@ ms.workload:
 
 2. Replace the **using** or **Import** statements (depending on your programming language) at the top of the class with the following:
 
-    ```vb
-    Imports System
-    Imports Microsoft.SharePoint
-    Imports Microsoft.SharePoint.WebControls
-    Imports System.Collections
-    Imports System.Data
-    Imports System.Web.UI
-    Imports System.Web.UI.WebControls
-    Imports System.Web.UI.WebControls.WebParts
-    Imports System.Drawing
-    Imports Microsoft.SharePoint.Navigation
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     using System;
     using Microsoft.SharePoint;
@@ -128,78 +117,24 @@ ms.workload:
     using Microsoft.SharePoint.Navigation;
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    Imports System
+    Imports Microsoft.SharePoint
+    Imports Microsoft.SharePoint.WebControls
+    Imports System.Collections
+    Imports System.Data
+    Imports System.Web.UI
+    Imports System.Web.UI.WebControls
+    Imports System.Web.UI.WebControls.WebParts
+    Imports System.Drawing
+    Imports Microsoft.SharePoint.Navigation
+    ```
+    ---
+
 3. Add the following code to the `Page_Load` method:
 
-    ```vb
-    Try
-        ' Reference the Tasks list on the SharePoint site.
-        ' Replace "TestServer" with a valid SharePoint server name.
-        Dim site As SPSite = New SPSite("http://TestServer")
-        Dim list As SPList = site.AllWebs(0).Lists("Tasks")
-        ' string text = "";
-        Dim sum As Integer = 0
-        Table1.Rows.Clear()
-        ' Add table headers.
-        Dim hr As TableHeaderRow = New TableHeaderRow
-        hr.BackColor = Color.LightBlue
-        Dim hc1 As TableHeaderCell = New TableHeaderCell
-        Dim hc2 As TableHeaderCell = New TableHeaderCell
-        hc1.Text = "Expense Report Name"
-        hc2.Text = "Amount Exceeded"
-        hr.Cells.Add(hc1)
-        hr.Cells.Add(hc2)
-        ' Add the TableHeaderRow as the first item
-        ' in the Rows collection of the table.
-        Table1.Rows.AddAt(0, hr)
-        ' Iterate through the tasks in the Task list and collect those
-        ' that have values in the "Related Content" and "Outcome" fields
-        ' - the fields written to when expense approval is required.
-        For Each item As SPListItem In list.Items
-            Dim s_relContent As String = ""
-            Dim s_outcome As String = ""
-            Try
-                ' Task has the fields - treat as expense report.
-                s_relContent = item.GetFormattedValue("Related Content")
-                s_outcome = item.GetFormattedValue("Outcome")
-            Catch erx As System.Exception
-                ' Task does not have fields - skip it.
-                Continue For
-            End Try
-            ' Convert amount to an int and keep a running total.
-            If (Not String.IsNullOrEmpty(s_relContent) And Not
-              String.IsNullOrEmpty(s_outcome)) Then
-                sum = (sum + Convert.ToInt32(s_outcome))
-                Dim relContent As TableCell = New TableCell
-                relContent.Text = s_relContent
-                Dim outcome As TableCell = New TableCell
-                outcome.Text = ("$" + s_outcome)
-                Dim dataRow2 As TableRow = New TableRow
-                dataRow2.Cells.Add(relContent)
-                dataRow2.Cells.Add(outcome)
-                Table1.Rows.Add(dataRow2)
-            End If
-        Next
-        ' Report the sum of the reports in the table footer.
-        Dim tfr As TableFooterRow = New TableFooterRow
-        tfr.BackColor = Color.LightGreen
-        ' Create a TableCell object to contain the
-        ' text for the footer.
-        Dim ftc1 As TableCell = New TableCell
-        Dim ftc2 As TableCell = New TableCell
-        ftc1.Text = "TOTAL: "
-        ftc2.Text = ("$" + Convert.ToString(sum))
-        ' Add the TableCell object to the Cells
-        ' collection of the TableFooterRow.
-        tfr.Cells.Add(ftc1)
-        tfr.Cells.Add(ftc2)
-        ' Add the TableFooterRow to the Rows
-        ' collection of the table.
-        Table1.Rows.Add(tfr)
-    Catch errx As Exception
-        System.Diagnostics.Debug.WriteLine(("Error: " + errx.ToString))
-    End Try
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     try
     {
@@ -291,6 +226,78 @@ ms.workload:
     }
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    Try
+        ' Reference the Tasks list on the SharePoint site.
+        ' Replace "TestServer" with a valid SharePoint server name.
+        Dim site As SPSite = New SPSite("http://TestServer")
+        Dim list As SPList = site.AllWebs(0).Lists("Tasks")
+        ' string text = "";
+        Dim sum As Integer = 0
+        Table1.Rows.Clear()
+        ' Add table headers.
+        Dim hr As TableHeaderRow = New TableHeaderRow
+        hr.BackColor = Color.LightBlue
+        Dim hc1 As TableHeaderCell = New TableHeaderCell
+        Dim hc2 As TableHeaderCell = New TableHeaderCell
+        hc1.Text = "Expense Report Name"
+        hc2.Text = "Amount Exceeded"
+        hr.Cells.Add(hc1)
+        hr.Cells.Add(hc2)
+        ' Add the TableHeaderRow as the first item
+        ' in the Rows collection of the table.
+        Table1.Rows.AddAt(0, hr)
+        ' Iterate through the tasks in the Task list and collect those
+        ' that have values in the "Related Content" and "Outcome" fields
+        ' - the fields written to when expense approval is required.
+        For Each item As SPListItem In list.Items
+            Dim s_relContent As String = ""
+            Dim s_outcome As String = ""
+            Try
+                ' Task has the fields - treat as expense report.
+                s_relContent = item.GetFormattedValue("Related Content")
+                s_outcome = item.GetFormattedValue("Outcome")
+            Catch erx As System.Exception
+                ' Task does not have fields - skip it.
+                Continue For
+            End Try
+            ' Convert amount to an int and keep a running total.
+            If (Not String.IsNullOrEmpty(s_relContent) And Not
+              String.IsNullOrEmpty(s_outcome)) Then
+                sum = (sum + Convert.ToInt32(s_outcome))
+                Dim relContent As TableCell = New TableCell
+                relContent.Text = s_relContent
+                Dim outcome As TableCell = New TableCell
+                outcome.Text = ("$" + s_outcome)
+                Dim dataRow2 As TableRow = New TableRow
+                dataRow2.Cells.Add(relContent)
+                dataRow2.Cells.Add(outcome)
+                Table1.Rows.Add(dataRow2)
+            End If
+        Next
+        ' Report the sum of the reports in the table footer.
+        Dim tfr As TableFooterRow = New TableFooterRow
+        tfr.BackColor = Color.LightGreen
+        ' Create a TableCell object to contain the
+        ' text for the footer.
+        Dim ftc1 As TableCell = New TableCell
+        Dim ftc2 As TableCell = New TableCell
+        ftc1.Text = "TOTAL: "
+        ftc2.Text = ("$" + Convert.ToString(sum))
+        ' Add the TableCell object to the Cells
+        ' collection of the TableFooterRow.
+        tfr.Cells.Add(ftc1)
+        tfr.Cells.Add(ftc2)
+        ' Add the TableFooterRow to the Rows
+        ' collection of the table.
+        Table1.Rows.Add(tfr)
+    Catch errx As Exception
+        System.Diagnostics.Debug.WriteLine(("Error: " + errx.ToString))
+    End Try
+    ```
+    ---
+
     > [!WARNING]
     > Be sure to replace "TestServer" in the code with the name of a valid server that's running SharePoint.
 
@@ -335,18 +342,11 @@ ms.workload:
 
      The expense report summary page lists all of the expense reports that exceeded the allocated amount, the amount they exceeded it by, and the total amount for all reports.
 
-## Next steps
- For more information about SharePoint application pages, see [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md).
+## Related content
 
- You can learn more about how to design SharePoint page content by using the Visual Web Designer in Visual Studio from these topics:
-
+- [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md).
 - [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md).
-
 - [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md).
-
-## See also
-
 - [Walkthrough: Create a workflow with association and initiation forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md)
 - [How to: Create an application page](../sharepoint/how-to-create-an-application-page.md)
-- [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

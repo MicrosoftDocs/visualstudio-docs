@@ -1,27 +1,24 @@
 ---
-title: Commands That Must Be Run After Installation | Microsoft Docs
+title: Commands That Must Be Run After Installation
 description: Learn about the commands that must be run as part of your installation of an extension deployed through a .msi file in Visual Studio. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - post-install commands
-ms.assetid: c9601f2e-2c6e-4da9-9a6e-e707319b39e2
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Commands that must be run after installation
+
 If you deploy your extension through a *.msi* file, you must run **devenv /setup** as part of your installation in order for Visual Studio to discover your extensions.
 
 > [!NOTE]
 > The information in this topic applies to finding *devenv.exe* with Visual Studio 2008 and earlier. For information about how to discover *devenv.exe* with later versions of Visual Studio, see [Detect system requirements](../../extensibility/internals/detecting-system-requirements.md).
 
 ## Find devenv.exe
- You can locate each version's *devenv.exe* from registry values that [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] installers write, using the RegLocator table and AppSearch tables to store the registry values as properties. For more information, see [Detect system requirements](../../extensibility/internals/detecting-system-requirements.md).
+ You can locate each version's *devenv.exe* from registry values that Visual Studio installers write, using the RegLocator table and AppSearch tables to store the registry values as properties. For more information, see [Detect system requirements](../../extensibility/internals/detecting-system-requirements.md).
 
 ### RegLocator table rows to locate devenv.exe from different versions of Visual Studio
 
@@ -49,7 +46,7 @@ If you deploy your extension through a *.msi* file, you must run **devenv /setup
 ## Run devenv.exe
  After the AppSearch standard action runs in the installer, each property in the AppSearch table has a value pointing to the *devenv.exe* file for the corresponding version of Visual Studio. If any of the specified registry values are not present — because that version of Visual Studio is not installed — the specified property is set to null.
 
- Windows Installer supports running an executable to which a property points through custom action type 50. The custom action should include the in-script execution options, `msidbCustomActionTypeInScript` (1024) and `msidbCustomActionTypeCommit` (512), to ensure that the VSPackage has been successfully installed before integrating it into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. For more information, see [CustomAction table](/windows/desktop/msi/customaction-table) and [Custom action in-script execution options](/windows/desktop/msi/custom-action-in-script-execution-options).
+ Windows Installer supports running an executable to which a property points through custom action type 50. The custom action should include the in-script execution options, `msidbCustomActionTypeInScript` (1024) and `msidbCustomActionTypeCommit` (512), to ensure that the VSPackage has been successfully installed before integrating it into Visual Studio. For more information, see [CustomAction table](/windows/desktop/msi/customaction-table) and [Custom action in-script execution options](/windows/desktop/msi/custom-action-in-script-execution-options).
 
  Custom actions of type 50 specify the property containing the executable as the value of the Source column and command-line arguments in the Target column.
 
@@ -62,7 +59,7 @@ If you deploy your extension through a *.msi* file, you must run **devenv /setup
 |CA_RunDevenv2005|1586|DEVENV_EXE_2005|/setup|
 |CA_RunDevenv2008|1586|DEVENV_EXE_2008|/setup|
 
- Custom actions must be authored into the InstallExecuteSequence table to schedule them for execution during the installation. Use the corresponding property in each row of the Condition column to prevent the custom action from being run if that version of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is not installed on the system.
+ Custom actions must be authored into the InstallExecuteSequence table to schedule them for execution during the installation. Use the corresponding property in each row of the Condition column to prevent the custom action from being run if that version of Visual Studio is not installed on the system.
 
 > [!NOTE]
 > Null-valued properties evaluate to `False` when used in conditions.
@@ -78,5 +75,5 @@ If you deploy your extension through a *.msi* file, you must run **devenv /setup
 |CA_RunDevenv2005|DEVENV_EXE_2005|6605|
 |CA_RunDevenv2008|DEVENV_EXE_2008|6608|
 
-## See also
+## Related content
 - [Install VSPackages with Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md)

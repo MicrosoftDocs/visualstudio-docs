@@ -1,7 +1,6 @@
 ---
-title: "Walkthrough: Profiling a SharePoint Application | Microsoft Docs"
+title: "Walkthrough: Profiling a SharePoint Application"
 description: In this walkthrough, use the profiling tools in Visual Studio to optimize the performance of a SharePoint application.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "profiling [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Walkthrough: Profile a SharePoint application
+
   This walkthrough shows how to use the profiling tools in Visual Studio to optimize the performance of a SharePoint application. The example application is a SharePoint feature event receiver that contains an idle loop that degrades the performance of the feature event receiver. The Visual Studio profiler enables you to locate and eliminate the most expensive (slowest-performing) part of the project, also known as the *hot path*.
 
  This walkthrough demonstrates the following tasks:
@@ -39,7 +37,7 @@ ms.workload:
 
 - Supported editions of Microsoft Windows and SharePoint.
 
-- [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)].
+- Visual Studio 2012.
 
 ## Create a SharePoint project
  First, create a SharePoint project.
@@ -77,45 +75,24 @@ ms.workload:
 
 3. In the event receiver class, add the following variable declarations.
 
-    ```vb
-    ' SharePoint site/subsite.
-    Private siteUrl As String = "http://localhost"
-    Private webUrl As String = "/"
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     // SharePoint site/subsite.
     private string siteUrl = "http://localhost";
     private string webUrl = "/";
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    ' SharePoint site/subsite.
+    Private siteUrl As String = "http://localhost"
+    Private webUrl As String = "/"
+    ```
+    ---
+
 4. Replace the `FeatureActivated` procedure with the following code.
 
-    ```vb
-    Public Overrides Sub FeatureActivated(properties As SPFeatureReceiverProperties)
-        Try
-            Using site As New SPSite(siteUrl)
-                Using web As SPWeb = site.OpenWeb(webUrl)
-                    ' Reference the lists.
-                    Dim announcementsList As SPList = web.Lists("Announcements")
-
-                    ' Add a new announcement to the Announcements list.
-                    Dim listItem As SPListItem = announcementsList.Items.Add()
-                    listItem("Title") = "Activated Feature: " & Convert.ToString(properties.Definition.DisplayName)
-                    listItem("Body") = Convert.ToString(properties.Definition.DisplayName) & " was activated on: " & DateTime.Now.ToString()
-                    ' Waste some time.
-                    TimeCounter()
-                    ' Update the list.
-                    listItem.Update()
-                End Using
-            End Using
-
-        Catch e As Exception
-            Console.WriteLine("Error: " & e.ToString())
-        End Try
-    End Sub
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     public override void FeatureActivated(SPFeatureReceiverProperties properties)
     {
@@ -148,20 +125,36 @@ ms.workload:
     }
     ```
 
-5. Add the following procedure below the `FeatureActivated`procedure.
-
+    ### [VB](#tab/vb)
     ```vb
+    Public Overrides Sub FeatureActivated(properties As SPFeatureReceiverProperties)
+        Try
+            Using site As New SPSite(siteUrl)
+                Using web As SPWeb = site.OpenWeb(webUrl)
+                    ' Reference the lists.
+                    Dim announcementsList As SPList = web.Lists("Announcements")
 
-    Public Sub TimeCounter()
-        Dim result As Integer
-        For i As Integer = 0 To 99999
-            For j As Integer = 0 To 9999
-                result = i * j
-            Next j
-        Next i
+                    ' Add a new announcement to the Announcements list.
+                    Dim listItem As SPListItem = announcementsList.Items.Add()
+                    listItem("Title") = "Activated Feature: " & Convert.ToString(properties.Definition.DisplayName)
+                    listItem("Body") = Convert.ToString(properties.Definition.DisplayName) & " was activated on: " & DateTime.Now.ToString()
+                    ' Waste some time.
+                    TimeCounter()
+                    ' Update the list.
+                    listItem.Update()
+                End Using
+            End Using
+
+        Catch e As Exception
+            Console.WriteLine("Error: " & e.ToString())
+        End Try
     End Sub
     ```
+    ---
 
+5. Add the following procedure below the `FeatureActivated` procedure.
+
+    ### [C#](#tab/csharp)
     ```csharp
     public void TimeCounter()
     {
@@ -174,6 +167,20 @@ ms.workload:
         }
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+
+    Public Sub TimeCounter()
+        Dim result As Integer
+        For i As Integer = 0 To 99999
+            For j As Integer = 0 To 9999
+                result = i * j
+            Next j
+        Next i
+    End Sub
+    ```
+    ---
 
 6. In **Solution Explorer**, open the shortcut menu for the project (**ProfileTest**), and then choose **Properties**.
 
@@ -269,7 +276,7 @@ ms.workload:
 
      The feature should activate much faster now that the call to the idle loop has been eliminated. The Sample Profiling Report should reflect this.
 
-## See also
+## Related content
 - [Performance Session Overview](../profiling/performance-session-overview.md)
 - [Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md)
 - [Find Application Bottlenecks with Visual Studio Profiler](/archive/msdn-magazine/2008/march/find-application-bottlenecks-with-visual-studio-profiler)

@@ -1,26 +1,27 @@
 ---
 title: "Accessibility tips and tricks for Visual Studio"
-description: "Learn more about tips and tricks that can help make the Visual Studio integrated development environment (IDE) more accessible for everyone to use, including people with disabilities."
-ms.date: 08/06/2019
+description: Discover tips and tricks that help make the Visual Studio integrated development environment (IDE) more accessible for everyone, including people with disabilities.
+ms.date: 3/15/2024
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
-ms.assetid: 6b491d88-f79e-4686-8841-857624bdcfda
 author: anandmeg
 ms.author: meghaanand
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-  - "multiple"
+ms.subservice: general-ide
 ---
 # Accessibility tips and tricks for Visual Studio
 
 Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. Whether you want to use keyboard shortcuts to navigate the IDE, or use high-contrast themes to improve visibility, you'll find several tips & tricks on this page about how to do so.
 
-We also cover how to use annotations to reveal useful information about your code, and how to set sound cues for build and breakpoint events.
+We also cover how to use annotations to reveal useful information about your code, and also how to set audio cues for error, breakpoint, or warning events.
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Accessibility for Visual Studio for Mac](/visualstudio/mac/accessibility).
+## Screen readers
+
+Visual Studio supports screen readers in the IDE. The following screen readers have been tested:
+
+- [NVDA](https://www.nvaccess.org/)
+- [JAWS](https://www.freedomscientific.com/products/software/jaws)
+- [Narrator](https://support.microsoft.com/help/22798)
 
 ## Save your IDE settings
 
@@ -31,6 +32,13 @@ You can customize your IDE experience by saving your window layout, keyboard map
 For some folks, some colors are more difficult to see. If you want more contrast as you code but don't want to use the typical "High Contrast" themes, we now offer a “Blue (Extra Contrast)” theme.
 
   ![Compare the Blue theme and Blue Extra Contrast theme](media/blue-extra-contrast-theme.png "Screenshot that shows a comparison of the Blue theme and the Blue Extra Contrast theme")
+
+::: moniker range="vs-2022"
+
+> [!TIP]
+> See the [**We’ve upgraded the UI in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/) blog post to learn more about the subtle color contrast ratio adjustments and a new [Cascadia Code](../how-to-change-fonts-and-colors-in-visual-studio.md#use-the-cascadia-code-font) font we've added to make Visual Studio more accessible for everyone.
+
+::: moniker-end
 
 ## Use annotations to reveal useful information about your code
 
@@ -48,7 +56,16 @@ The Visual Studio IDE has toolbars as do many tool windows. The following keyboa
 |Tool window toolbars|Move focus to the toolbars in a tool window. <br> <br> **NOTE:** This works for most tool windows, but only when the focus is in a tool window. Also, you must choose the SHIFT key before the ALT key. In some tool windows, such as Team Explorer, you must hold the SHIFT key for a moment before choosing the ALT key.|**Shift**+**Alt**|
 |Toolbars|Go to the first item in the next toolbar (when a toolbar has focus).|**Ctrl**+**Tab**|
 
-### Other useful keyboard shortcuts
+## Git keyboard shortcuts
+
+The Visual Studio status bar shows popup controls for quick access to various Git features. The following keyboard shortcuts help you access them.
+
+|Feature|Description|Keyboard shortcut|
+|-------------|-----------------| - |
+|Branch Picker|View, manage, and checkout branches in an active Git repository.|**Ctrl**+**Alt**+**F3**|
+|Repository Picker|View, manage, and open Git repositories known to Visual Studio.|**Ctrl**+**Alt**+**F4**|
+
+## Other useful keyboard shortcuts
 
 Some other useful keyboard shortcuts include the following.
 
@@ -63,6 +80,9 @@ Some other useful keyboard shortcuts include the following.
 |Toolbox window|Add a control from the Toolbox to a form or designer.|**Enter**|
 |Options dialog box: Environment > Keyboard|Delete a key combination entered in the **Press shortcut keys** option.|**Backspace**|
 |Notifications tool window|Open the Notifications tool window by using two keyboard shortcut key combinations, one followed by the other. Then, view a  notification by using the arrow keys to select it.| **Ctrl**+**&#92;**, **Ctrl**+**N**|
+|Data Grids|Open filters in data grid column headers, such as in the references tool window.|**Ctrl**+**[arrow keys]**|
+
+For a complete list, see [Keyboard shortcuts in Visual Studio](../default-keyboard-shortcuts-in-visual-studio.md).
 
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition.
@@ -79,16 +99,47 @@ When a notification appears in the IDE, here's how you can access the Notificati
 
 1. Use either the **Tab** key or the arrow keys to select a notification.
 
-## Use the Sound applet to set build and breakpoint cues
+## Assign audio cues to Visual Studio program events
 
-You can use the Sound applet in Windows to assign a sound to Visual Studio program events. Specifically, you can assign sounds to the following program events:
+::: moniker range="vs-2022"
+
+Starting with [version 17.3](/visualstudio/releases/2022/release-notes-v17.3) and continuing in [version 17.4](/visualstudio/releases/2022/release-notes-v17.4) & later, you can add audio cues for program events directly within Visual Studio. Specifically, you can toggle a setting so that Visual Studio plays an audio cue when the caret in the editor arrives on a line with an error, breakpoint, or warning. When you view a file in the Diff view, Visual Studio can also play an audio cue when the caret arrives on a line that's been added or removed.
+
+To add the audio cue functionality, go to **Tools** > **Options** > **Text Editor** > **General** and select the **Enable audio cues** setting.
+
+> [!TIP]
+> To learn more about the journey to add audio cues within Visual Studio, see the [**Listen Up, Visual Studio has a new feature you need to hear about!**](https://devblogs.microsoft.com/visualstudio/audio-cues-in-visual-studio-2022-17-3-preview-2/) blog post.
+
+::: moniker-end
+
+In Visual Studio 2022 version 17.2 and earlier, you can use the Sound Control Panel in Windows to assign audio cues to Visual Studio program events. Specifically, you can assign audio cues to the following program events:
 
 * Breakpoint hit
 * Build canceled
 * Build failed
 * Build succeeded
 
-Here's how:
+Here's how to add audio cues to program events by using either Windows 11 or Windows 10.
+
+### Windows 11
+
+1. Select the Start button on a computer running Windows 11, and then in the **Search** box, type **Change system sounds**.
+
+    :::image type="content" source="media/change-system-sounds-windows-11.png" alt-text="Screenshot of the Search box in Windows 11.":::
+
+1. From the search results, select the Control Panel option for **Change system sounds**. (Alternatively, select the **Open** icon in the right panel of the search results.)
+
+    :::image type="content" source="media/select-change-system-sounds-windows-11.png" alt-text="Screenshot of the 'Change system sounds' search results in Windows 11.":::
+
+1. In the **Sound** dialog box, click the **Sounds** tab.
+
+1. In **Program Events**, scroll to **Microsoft Visual Studio**, and then select the sounds that you want to apply to the events that you choose.
+
+    :::image type="content" source="media/system-sounds-dialog-windows-11.png" alt-text="Screenshot of the Sounds tab of the Sound dialog box in Windows 11.":::
+
+1. Click **OK**.
+
+### Windows 10
 
 1. In the **Search** box on a computer running Windows 10, type **Change system sounds**.
 
@@ -104,21 +155,13 @@ Here's how:
 
 1. In **Program Events**, scroll to **Microsoft Visual Studio**, and then select the sounds that you want to apply to the events that you choose.
 
-   ![Sounds tab of the Sound applet in Windows 10](media/sound-applet.png "Sounds tab of the Sound applet in Windows 10")
+   ![Sounds tab of the Sound dialog box in Windows 10](media/sound-applet.png "Sounds tab of the Sound dialog box in Windows 10")
 
 1. Click **OK**.
 
-::: moniker range="vs-2017"
+## Related content
 
-> [!TIP]
-> To learn more about accessibility updates, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
-
-::: moniker-end
-
-## See also
-
-* [Accessibility features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
-* [How to: Customize menus and toolbars in Visual Studio](../../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
+* [Set accessibility options](../how-to-change-fonts-and-colors-in-visual-studio.md#set-accessibility-options)
+* [Customize menus and toolbars in Visual Studio](../../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
 * [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md)
-* [Accessibility (Visual Studio for Mac)](/visualstudio/mac/accessibility)
 * [Microsoft Accessibility](https://www.microsoft.com/Accessibility)

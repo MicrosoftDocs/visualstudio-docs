@@ -1,17 +1,14 @@
 ---
 title: Add custom properties to dependency diagrams
 description: Learn how you can store values with any element on a dependency diagram when you write extension code for dependency diagrams.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - dependency diagrams, adding custom properties
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Add custom properties to dependency diagrams
 
@@ -157,6 +154,6 @@ namespace MyNamespace
 }
 ```
 
-## See also
+## Related content
 
 - [Extend dependency diagrams](../modeling/extend-layer-diagrams.md)

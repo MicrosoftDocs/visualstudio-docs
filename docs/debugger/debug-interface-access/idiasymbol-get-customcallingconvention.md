@@ -1,21 +1,20 @@
 ---
-description: "Retrieves a flag that specifies whether the function has a custom calling convention."
-title: "IDiaSymbol::get_customCallingConvention | Microsoft Docs"
+description: Retrieves a flag that specifies whether the function has a custom calling convention.
+title: "IDiaSymbol::get_customCallingConvention"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_customCallingConvention method"
-ms.assetid: 0aa97951-f7e1-4fa5-a87f-2920460c122d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_customCallingConvention
+
 Retrieves a flag that specifies whether the function has a custom calling convention.
 
 ## Syntax

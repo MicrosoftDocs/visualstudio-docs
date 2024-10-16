@@ -1,20 +1,16 @@
 ---
-title: Inside the Visual Studio SDK | Microsoft Docs
+title: Inside the Visual Studio SDK
 description: Learn about the extensions in the Visual Studio SDK, including Visual Studio architecture, components, services, schemas, and utilities. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - roadmap, Visual Studio integration SDK
 - Visual Studio integration SDK roadmap
 - integration roadmap, Visual Studio SDK
-ms.assetid: 9118eaa4-0453-4dc5-9e16-c7062d254869
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Inside the Visual Studio SDK
 
@@ -23,7 +19,8 @@ This section provides in-depth information about Visual Studio extensions, inclu
 ## Extensibility Architecture
  The following illustration shows the Visual Studio extensibility architecture. VSPackages provide application functionality, which is shared across the IDE as services. The standard IDE also offers a broad range of services, such as <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>, which provide access to the IDE windowing functionality.
 
- ![Environment Architecture graphic](../../extensibility/internals/media/environment.gif "environment")
+![Environment Architecture graphic](../../extensibility/internals/media/environment.gif "environment")
+ 
 Generalized view of the Visual Studio architecture
 
 ## VSPackages
@@ -95,7 +92,7 @@ For more information, see [Projects](../../extensibility/internals/projects.md) 
  Templates contain the project structure and basic files that are required to build a particular kind of application, control, library, or class. When you want to develop software that resembles one of the templates, create a project that is based on the template and then modify the files in that project.
 
 > [!NOTE]
-> This template architecture is not supported for [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] projects.
+> This template architecture is not supported for Visual C++ projects.
 
  For more information, see [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md).
 

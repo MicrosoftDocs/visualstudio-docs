@@ -1,39 +1,39 @@
 ---
 description: "This method sets the state of all outstanding exceptions."
-title: IDebugEngine3::SetAllExceptions | Microsoft Docs
+title: IDebugEngine3::SetAllExceptions
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngine3::SetAllExceptions
 helpviewer_keywords:
 - IDebugEngine3::SetAllExceptions
-ms.assetid: 8f03a6ac-a854-42f7-933c-a2df1b351975
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugEngine3::SetAllExceptions
+
 This method sets the state of all outstanding exceptions.
 
 ## Syntax
 
-```cpp
-HRESULT SetAllExceptions(
-   EXCEPTION_STATE dwState
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetAllExceptions(
    enum_EXCEPTION_STATE dwState
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetAllExceptions(
+   EXCEPTION_STATE dwState
+);
+```
+---
 
 ## Parameters
 `dwState`\

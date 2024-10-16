@@ -8,33 +8,33 @@ f1_keywords:
 - IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie
 helpviewer_keywords:
 - IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie
-ms.assetid: 07b20866-e598-4783-9ecc-6aa8625c8804
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie
+
 Called when the processing of an intercepted exception has completed.
 
 ## Syntax
 
-```cpp
-HRESULT GetInterceptCookie(
-   UINT64* pqwCookie
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetInterceptCookie(
    out ulong pqwCookie
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetInterceptCookie(
+   UINT64* pqwCookie
+);
+```
+---
 
 ## Parameters
 `pqwCookie`\

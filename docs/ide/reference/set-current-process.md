@@ -1,21 +1,18 @@
 ---
 title: Set Current Process
 description: Learn about the Set Current Process command and how it sets the specified process as the active process in the debugger.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - Debug.SetCurrentProcess command
 - Set Current Process command
-ms.assetid: 1e016ebd-aadd-411f-a606-03bf69d3f8aa
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Set Current Process
+
 Sets the specified process as the active process in the debugger.
 
 ## Syntax

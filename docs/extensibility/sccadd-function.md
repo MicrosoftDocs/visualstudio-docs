@@ -1,21 +1,19 @@
 ---
 description: "This function adds new files to the source control system."
-title: SccAdd Function | Microsoft Docs
+title: SccAdd Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccAdd
 helpviewer_keywords:
 - SccAdd function
-ms.assetid: 545268f3-8e83-446a-a398-1a9db9e866e8
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # SccAdd function
+
 This function adds new files to the source control system.
 
 ## Syntax

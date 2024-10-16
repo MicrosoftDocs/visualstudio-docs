@@ -1,6 +1,6 @@
 ---
-description: "Retrieves the offset of the stack pad from the frame pointer register."
-title: "IDiaSymbol::get_framePadOffset | Microsoft Docs"
+description: Retrieves the offset of the stack pad from the frame pointer register.
+title: "IDiaSymbol::get_framePadOffset"
 ms.date: "04/27/2021"
 ms.topic: "reference"
 dev_langs:
@@ -9,11 +9,10 @@ helpviewer_keywords:
   - "IDiaSymbol::get_framePadOffset method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_framePadOffset
 
 Retrieves the offset of the stack pad from the frame pointer register.
@@ -21,7 +20,7 @@ Retrieves the offset of the stack pad from the frame pointer register.
 ## Syntax
 
 ```C++
-HRESULT get_framePadOffset ( 
+HRESULT get_framePadOffset ( 
    DWORD* pPadOffset
 );
 ```

@@ -1,9 +1,8 @@
 ---
 title: "Additional support for errors in Office solutions"
 description: Learn how you can use support resources to find answers to problems you encounter as you create Office solutions in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: conceptual
+ms.topic: troubleshooting
 f1_keywords:
   - "VST.MSBuild.errAppInfoTaskInsertCtlFailed"
   - "VST.MSBuild.errAppInfoTaskDeleteCtlFailed"
@@ -55,10 +54,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, errors"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Additional support for errors in Office solutions
 
@@ -84,8 +81,6 @@ Provides a forum for questions about the Office developer tools in Visual Studio
 
 Provides access to Knowledge Base (KB) articles, downloads and updates, support Webcasts, and other services.
 
-[Additional resources for developing Office solutions](../vsto/additional-resources-for-developing-office-solutions.md)
-
 Provides links to additional resources for learning more about developing Office solutions and Office development with Visual Studio.
 
 ## See also
@@ -93,4 +88,3 @@ Provides links to additional resources for learning more about developing Office
 - [Troubleshoot errors in Office solutions](../vsto/troubleshooting-errors-in-office-solutions.md)
 - [Troubleshoot Office solution security](../vsto/troubleshooting-office-solution-security.md)
 - [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)
-- [Additional resources for developing Office solutions](../vsto/additional-resources-for-developing-office-solutions.md)

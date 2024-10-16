@@ -1,23 +1,20 @@
 ---
-title: SortOrder Element (Visual Studio Templates) | Microsoft Docs
+title: SortOrder Element (Visual Studio Templates)
 description: Learn about the SortOrder element and how it specifies a value that is used to arrange the template as it appears in either the New Project or Add New Item dialog box.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#SortOrder
 helpviewer_keywords:
 - SortOrder element [Visual Studio Templates]
 - <SortOrder> element [Visual Studio Templates]
-ms.assetid: 151932c1-f08a-4f78-a8d0-bd2f32211a9c
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
 ---
 # SortOrder Element (Visual Studio Templates)
+
 Specifies a value that is used to arrange the template, among other templates in the same category, as it appears in either the **New Project** or **Add New Item** dialog box.
 
  \<VSTemplate>
@@ -58,7 +55,7 @@ Specifies a value that is used to arrange the template, among other templates in
  Templates that have low sort order values appear in either the **New Project** or **New Add Item** dialog box before templates that have high sort order values.
 
 ## Example
- The following example illustrates the metadata for a standard [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class template.
+ The following example illustrates the metadata for a standard Visual C# class template.
 
 ```
 <VSTemplate Type="Item" Version="3.0.0"
@@ -77,7 +74,7 @@ Specifies a value that is used to arrange the template, among other templates in
 </VSTemplate>
 ```
 
- In this example, the `SortOrder` element is relatively high. It is likely that other [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] item templates will have a `SortOrder` value lower than `290` and will appear before this template in the **New Item** dialog box.
+ In this example, the `SortOrder` element is relatively high. It is likely that other Visual C# item templates will have a `SortOrder` value lower than `290` and will appear before this template in the **New Item** dialog box.
 
 ## See also
 - [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)

@@ -1,19 +1,16 @@
 ---
 title: Static local function refactor options
 description: Learn how to use the Quick Actions and Refactorings menu to make a local function static and pass in variables defined outside the function to the function’s declaration and calls.
-ms.custom: SEO-VS-2020
 ms.date: 02/10/2020
 ms.topic: reference
 author: governesss
 ms.author: midumont
-manager: jmartens
-ms.technology: vs-ide-general
+manager: mijacobs
+ms.subservice: general-ide
 f1_keywords:
   - "vs.csharp.refactoring.make.local.function.static"
 dev_langs:
   - CSharp
-ms.workload:
-  - "dotnet"
 ---
 # Static local function refactorings and Quick Actions
 

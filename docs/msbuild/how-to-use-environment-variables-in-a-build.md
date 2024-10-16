@@ -1,28 +1,24 @@
 ---
-title: 'How to: Use Environment Variables in a Build | Microsoft Docs'
-description: Learn how to access environment variables in MSBuild project files, and use environment variables to set build options without modifying the project file.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
-ms.topic: conceptual
+title: 'Use Environment Variables in a Build'
+description: Work with environment variables in MSBuild project files, and use environment variables to set build options without modifying the project file.
+ms.date: 08/14/2024
+ms.topic: how-to
 helpviewer_keywords:
 - environment variables, referencing
 - projects [.NET Framework], environment variables
 - MSBuild, environment variables
-ms.assetid: 7f9e4469-8865-4b59-aab3-3ff26bd36e77
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
-# How to: Use environment variables in a build
+# Use environment variables in a build
 
 When you build projects, it is often necessary to set build options using information that is not in the project file or the files that comprise your project. This information is typically stored in environment variables.
 
 ## Reference environment variables
 
- All environment variables are available to the Microsoft Build Engine (MSBuild) project file as properties.
+ All environment variables that are valid MSBuild property names are available to the Microsoft Build Engine (MSBuild) project file as properties. Valid property names are described in [MSBuild properties](msbuild-properties.md). For example, environment variables that begin with a number are not available in MSBuild.
 
 > [!NOTE]
 > If the project file contains an explicit definition of a property that has the same name as an environment variable, the property in the project file overrides the value of the environment variable.
@@ -62,7 +58,7 @@ When you build projects, it is often necessary to set build options using inform
 </Project>
 ```
 
-## See also
+## Related content
 
 - [MSBuild](../msbuild/msbuild.md)
 - [MSBuild properties](../msbuild/msbuild-properties.md)

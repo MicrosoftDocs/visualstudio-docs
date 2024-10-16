@@ -1,22 +1,20 @@
 ---
-title: "CV_HREG_e | Microsoft Docs"
+title: CV_HREG_e
 description: Get reference information about the CV_HREG_e enumeration type, which specifies a target register in the debug interface access SDK.
-ms.custom: SEO-VS-2020
-ms.date: "11/04/2016"
+ms.date: "07/18/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "CV_HREG_e enumeration"
-ms.assetid: 3f0622f7-6790-41d8-8778-227cbbf8a212
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
-# CV_HREG_e
+
+# `CV_HREG_e`
+
 Specifies a target register.
 
 > [!NOTE]
@@ -24,7 +22,7 @@ Specifies a target register.
 
 ## Syntax
 
-```C++
+```c++
 enum CV_HREG_e {
     // Register subset shared by all processor types
     CV_ALLREG_ERR    = 30000,
@@ -406,61 +404,47 @@ enum CV_HREG_e {
 ```
 
 ## Elements
-CV_REG_*
-Registers used by Intel 80x86 and ix86 processors, and p-code.
 
-CV_R68_*
-Registers used by 68K processor.
-
-CV_M4_*
-Registers used by MIPS 4000 series processor.
-
-CV_ALPHA_*
-Registers used by Digital Equipment Corporation Alpha AXP series processor.
-
-CV_PPC_*
-Registers used by Motorola/IBM PowerPC processor.
-
-CV_SH3_* and CV_SH_\*
-Registers used by Hitachi SH3 and Hitachi SH series processor.
-
-CV_ARM_*
-Registers used by Advanced RISC Machine (ARM) processors.
-
-CV_IA64_*
-Registers used by Intel IA64 series processors.
-
-CV_TRI_*
-Registers used by Infineon Technologies TriCore processor.
-
-CV_AM33_*
-Registers used by Matsushita/Panasonic AM33 and related processors.
-
-CV_M32R_*
-Registers used by Mitsubishi M32R processor.
+| Element    | Description                                                                             |
+| ---------------------- | --------------------------------------------------------------------------- |
+| CV_REG_*               | Registers used by Intel 80x86 and ix86 processors and p-code.               |
+| CV_R68_*               | Registers used by 68K processor.                                            |
+| CV_M4_*                | Registers used by MIPS 4000 series processor.                               |
+| CV_ALPHA_*             | Registers used by Digital Equipment Corporation Alpha AXP series processor. |
+| CV_PPC_*               | Registers used by Motorola/IBM PowerPC processor.                           |
+| CV_SH3_* and CV_SH_*   | Registers used by Hitachi SH3 and Hitachi SH series processor.              |
+| CV_ARM_*               | Registers used by Advanced RISC Machine (ARM) processors.                   |
+| CV_IA64_*              | Registers used by Intel IA64 series processors.                             |
+| CV_TRI_*               | Registers used by Infineon Technologies TriCore processor.                  |
+| CV_AM33_*              | Registers used by Matsushita/Panasonic AM33 and related processors.         |
+| CV_M32R_*              | Registers used by Mitsubishi M32R processor.                                |
+| CV_ARM64_*             | Registers used by Advanced RISC Machine (ARM) 64-bit processors.            |
 
 ## Remarks
+
 Each processor type uses its own unique set of registers.
 
 The values in this enumeration are passed to the following methods:
 
-- [IDiaStackWalkFrame::get_registerValue](../../debugger/debug-interface-access/idiastackwalkframe-get-registervalue.md)
+- [`IDiaStackWalkFrame::get_registerValue`](../../debugger/debug-interface-access/idiastackwalkframe-get-registervalue.md)
 
-- [IDiaStackWalkFrame::put_registerValue](../../debugger/debug-interface-access/idiastackwalkframe-put-registervalue.md)
+- [`IDiaStackWalkFrame::put_registerValue`](../../debugger/debug-interface-access/idiastackwalkframe-put-registervalue.md)
 
-- [IDiaStackWalkHelper::get_registerValue](../../debugger/debug-interface-access/idiastackwalkhelper-get-registervalue.md)
+- [`IDiaStackWalkHelper::get_registerValue`](../../debugger/debug-interface-access/idiastackwalkhelper-get-registervalue.md)
 
-- [IDiaStackWalkHelper::put_registerValue](../../debugger/debug-interface-access/idiastackwalkhelper-put-registervalue.md)
+- [`IDiaStackWalkHelper::put_registerValue`](../../debugger/debug-interface-access/idiastackwalkhelper-put-registervalue.md)
 
-- [IDiaStackFrame::get_registerValue](../../debugger/debug-interface-access/idiastackframe-get-registervalue.md)
+- [`IDiaStackFrame::get_registerValue`](../../debugger/debug-interface-access/idiastackframe-get-registervalue.md)
 
 ## Requirements:
+
 Header: cvconst.h
 
 ## See also
+
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
-- [IDiaStackWalkFrame::get_registerValue](../../debugger/debug-interface-access/idiastackwalkframe-get-registervalue.md)
-- [IDiaStackWalkFrame::put_registerValue](../../debugger/debug-interface-access/idiastackwalkframe-put-registervalue.md)
-- [IDiaStackWalkHelper::get_registerValue](../../debugger/debug-interface-access/idiastackwalkhelper-get-registervalue.md)
-- [IDiaStackWalkHelper::put_registerValue](../../debugger/debug-interface-access/idiastackwalkhelper-put-registervalue.md)
-- [IDiaStackFrame::get_registerValue](../../debugger/debug-interface-access/idiastackframe-get-registervalue.md)
+- [`IDiaStackWalkFrame::get_registerValue`](../../debugger/debug-interface-access/idiastackwalkframe-get-registervalue.md)
+- [`IDiaStackWalkFrame::put_registerValue`](../../debugger/debug-interface-access/idiastackwalkframe-put-registervalue.md)
+- [`IDiaStackWalkHelper::get_registerValue`](../../debugger/debug-interface-access/idiastackwalkhelper-get-registervalue.md)
+- [`IDiaStackWalkHelper::put_registerValue`](../../debugger/debug-interface-access/idiastackwalkhelper-put-registervalue.md)
+- [`IDiaStackFrame::get_registerValue`](../../debugger/debug-interface-access/idiastackframe-get-registervalue.md)

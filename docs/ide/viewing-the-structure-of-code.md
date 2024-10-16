@@ -1,7 +1,6 @@
 ---
 title: Use tools windows to view code structure
-description: Learn how to use the Class View, Call Hierarchy, Object Browser, and Code Definition (C++ only) tool windows to examine classes and their members in Visual Studio.
-ms.custom: SEO-VS-2020
+description: Learn how to use the Class View, Call Hierarchy, Object Browser, and Code Definition tool windows to examine classes and their members in Visual Studio.
 ms.date: 09/19/2019
 ms.topic: reference
 f1_keywords:
@@ -21,16 +20,32 @@ helpviewer_keywords:
 - Visual Studio, call hierarchy window
 - class view
 - object browser
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+- icons, in Object Browser
+- signal icons
+- Class View tool, symbols
+- graphic symbols
+- IntelliSense, icons
+- icons, IntelliSense
+- symbols, Object Browser icons
+- Object Browser, icons in Class View
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # View the structure of code by using different tool windows
 
+::: moniker range="<=vs-2019"
+
 You can examine classes and their members in Visual Studio using various tool windows, including **Class View**, **Call Hierarchy**, **Object Browser**, and **Code Definition** (C++ only). These tool windows can examine code in Visual Studio projects, .NET components, COM components, dynamic-link libraries (DLL), and type libraries (TLB).
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+You can examine classes and their members in Visual Studio using various tool windows, including **Class View**, **Call Hierarchy**, **Object Browser**, and **Code Definition**. These tool windows can examine code in Visual Studio projects, .NET components, COM components, dynamic-link libraries (DLL), and type libraries (TLB).
+
+::: moniker-end
 
 You can also use **Solution Explorer** to browse the types and members in your projects, search for symbols, view a method's call hierarchy, find symbol references, and more, without having to switch between multiple tool windows.
 
@@ -123,17 +138,7 @@ The **Object Browser** window displays descriptions of the code in your projects
 
 You can filter the components you want to view by using the drop-down list at the top of the window. Custom components can include managed code executables, library assemblies, type libraries, and *.ocx* files. It is not possible to add C++ custom components.
 
-::: moniker range="vs-2017"
-
-Custom settings are saved in the Visual Studio user application directory, *%APPDATA%\Microsoft\VisualStudio\15.0\ObjBrowEX.dat*.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 Custom settings are saved in the Visual Studio user application directory, *%APPDATA%\Microsoft\VisualStudio\16.0\ObjBrowEX.dat*.
-
-::: moniker-end
 
 The left pane of the **Object Browser** shows assemblies. You can expand the assemblies to display the namespaces they contain, and then expand the namespaces to display the types they contain. When you select a type, its members (such as properties and methods) are listed in the right pane. The lower right pane displays detailed information about the selected item.
 
@@ -180,6 +185,8 @@ The shortcut (or right-click) menu in **Object Browser** may contain the followi
 |**Go To Reference**|Displays a reference to the type or member in the source code, if available.|
 |**View Call Hierarchy**|Displays the selected method in the **Call Hierarchy** window.|
 
+::: moniker range="<=vs-2019"
+
 ## Code Definition window (C++)
 
 The **Code Definition** window displays the definition of a selected C++ type or member in the active project. The type or member can be selected in the code editor or in a code view window.
@@ -187,7 +194,19 @@ The **Code Definition** window displays the definition of a selected C++ type or
 Although this window is read-only, you can set breakpoints or bookmarks in it. To modify the displayed definition, choose **Edit Definition** on the shortcut menu. This opens the source file in the code editor and moves the insertion point to the line where the definition begins.
 
 > [!NOTE]
-> Starting in Visual Studio 2015, the **Code Definition** window can only be used with C++ code.
+> The **Code Definition** window can only be used with C++ code.
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+## Code Definition window
+
+The **Code Definition** window displays the definition of a selected C++, C#, or Visual Basic type or member in the active project. The type or member can be selected in the code editor or in a code view window.
+
+Although this window is read-only, you can set breakpoints or bookmarks in it. To modify the displayed definition, choose **Edit Definition** on the shortcut menu. This opens the source file in the code editor and moves the insertion point to the line where the definition begins.
+
+::: moniker-end
 
 ### Code Definition shortcut menu
 
@@ -220,6 +239,8 @@ The shortcut (or right-click) menu in the **Code Definition** window may contain
 
 You can use the **Document Outline** window in conjunction with designer views, such as the designer for a XAML page or a Windows Form designer, or with HTML pages. This window displays the elements in a tree view, so that you can view the logical structure of the form or page and find controls that are deeply embedded or hidden.
 
-## See also
+## Related links
 
-- [Class View and Object Browser icons](../ide/class-view-and-object-browser-icons.md)
+- [Working with resource files (C++)](/cpp/windows/working-with-resource-files)
+- [Resources in .NET apps (.NET Framework)](/dotnet/framework/resources/index)
+- [Manage application resources](managing-application-resources-dotnet.md)

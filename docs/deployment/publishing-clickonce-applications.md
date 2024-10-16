@@ -1,7 +1,6 @@
 ---
-title: "Publishing ClickOnce Applications | Microsoft Docs"
+title: "Publishing ClickOnce Applications"
 description: Learn how to use the Publish Wizard to publish a ClickOnce application for the first time. Make later changes on the Publish page in the Project Designer.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -16,18 +15,18 @@ helpviewer_keywords:
   - "ClickOnce applications, publishing"
   - "applications [Visual Studio], ClickOnce deployment"
   - "deploying applications [ClickOnce], publishing ClickOnce applications"
-ms.assetid: eb6dfe79-f54c-4331-8e36-073688e70973
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: deployment
 ---
 # Publish ClickOnce applications
-When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application for the first time, publish properties can be set using the Publish Wizard. Only a few of the properties are available in the wizard; all other properties are set to their default values.
+
+When publishing a ClickOnce application for the first time, publish properties can be set using the Publish Wizard. Only a few of the properties are available in the wizard; all other properties are set to their default values.
 
  Subsequent changes to publish properties are made on the **Publish** page in the **Project Designer**.
+
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 ## Publish Wizard
  You can use the Publish Wizard to set the basic settings for publishing your application. This includes the following publishing properties:
@@ -47,18 +46,18 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 
 |Title|Description|
 |-----------|-----------------|
-|[How to: Specify where Visual Studio copies the files](../deployment/how-to-specify-where-visual-studio-copies-the-files.md)|Describes how to set where Visual Studio puts the application files and manifests.|
-|[How to: Specify the location where end users will install from](../deployment/how-to-specify-the-location-where-end-users-will-install-from.md)|Describes how to set the location where users go to download and install the application.|
-|[How to: Specify the ClickOnce offline or online install mode](../deployment/how-to-specify-the-clickonce-offline-or-online-install-mode.md)|Describes how to set whether the application will be available offline or online.|
-|[How to: Set the ClickOnce publish version](../deployment/how-to-set-the-clickonce-publish-version.md)|Describes how to set the ClickOnce **Publish Version** property, which determines whether or not the application that you are publishing will be treated as an update.|
-|[How to: Automatically increment the ClickOnce publish version](../deployment/how-to-automatically-increment-the-clickonce-publish-version.md)|Describes how to automatically increment the Revision number of the **PublishVersion** each time you publish the application.|
+|[Specify where Visual Studio copies the files](../deployment/how-to-specify-where-visual-studio-copies-the-files.md)|Describes how to set where Visual Studio puts the application files and manifests.|
+|[Specify the location where end users will install from](../deployment/how-to-specify-where-visual-studio-copies-the-files.md#specify-the-location-where-end-users-will-install-from)|Describes how to set the location where users go to download and install the application.|
+|[Specify the ClickOnce offline or online install mode](../deployment/how-to-specify-where-visual-studio-copies-the-files.md#specify-the-clickonce-offline-or-online-install-mode)|Describes how to set whether the application will be available offline or online.|
+|[Set the ClickOnce publish version](../deployment/how-to-specify-where-visual-studio-copies-the-files.md#set-the-clickonce-publish-version)|Describes how to set the ClickOnce **Publish Version** property, which determines whether or not the application that you are publishing will be treated as an update.|
+|[Automatically increment the ClickOnce publish version](../deployment/how-to-specify-where-visual-studio-copies-the-files.md#automatically-increment-the-clickonce-publish-version)|Describes how to automatically increment the Revision number of the **PublishVersion** each time you publish the application.|
 
  For more information, see [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)
 
 ### Application Files dialog box
  This dialog box allows you to specify how the files in your project are categorized for publishing, dynamic downloading, and updating. It contains a grid that lists the project files that are not excluded by default, or that have a download group.
 
- To exclude files, mark files as data files or prerequisites, and create groups of files for conditional installation in the Visual Studio UI, see [How to: Specify which files are published by ClickOnce](../deployment/how-to-specify-which-files-are-published-by-clickonce.md). You can also mark data files by using the Mage.exe. For more information, see [How to: Include a data file in a ClickOnce application](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md).
+ To include files, exclude files, mark files as data files or prerequisites, and create groups of files for conditional installation in the Visual Studio UI, see [How to: Specify which files are published by ClickOnce](../deployment/how-to-specify-which-files-are-published-by-clickonce.md). You can also mark data files by using the Mage.exe. For more information, see [How to: Include a data file in a ClickOnce application](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md).
 
 ### Prerequisites dialog box
  This dialog box specifies which prerequisite components are installed, as well as how they are installed. For more information, see [How to: Install prerequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md) and [Prerequisites dialog box](../ide/reference/prerequisites-dialog-box.md).
@@ -67,17 +66,8 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
  This dialog box specifies how the application installation should check for updates. For more information, see [How to: Manage updates for a ClickOnce application](../deployment/how-to-manage-updates-for-a-clickonce-application.md).
 
 ### Publish Options dialog box
- The Publish Options dialog box specifies an application's deployment options.
+ The Publish Options dialog box specifies an application's deployment options. For more information, see [Specify ClickOnce Publish settings](../deployment/how-to-specify-where-visual-studio-copies-the-files.md)
 
-|Title|Description|
-|-|-|
-|[How to: Change the publish language for a ClickOnce application](../deployment/how-to-change-the-publish-language-for-a-clickonce-application.md)|Describes how to specify a language and culture to match the localized version.|
-|[How to: Specify a Start menu name for a ClickOnce application](../deployment/how-to-specify-a-start-menu-name-for-a-clickonce-application.md)|Describes how to change the display name for a ClickOnce application.|
-|[How to: Specify a link for Technical Support](../deployment/how-to-specify-a-link-for-technical-support.md)|Describes how to set the **Support URL** property, which identifies a Web page or file share where users can go to get information about the application.|
-|[How to: Specify a Support URL for individual prerequisites in a ClickOnce deployment](../deployment/how-to-specify-a-support-url-for-individual-prerequisites-in-a-clickonce-deployment.md)|Demonstrated how to manually alter an application manifest to include individual support URLs for each prerequisite.|
-|[How to: Specify a publish page for a ClickOnce application](../deployment/how-to-specify-a-publish-page-for-a-clickonce-application.md)|Describes how to generate and publish a default Web page (publish.htm) along with the application|
-|[How to: Customize the ClickOnce default Web page](../deployment/how-to-customize-the-default-web-page-for-a-clickonce-application.md)|Describes how to customize the Web page that is automatically generated and published along with the application.|
-|[How to: Enable AutoStart for CD installations](../deployment/how-to-enable-autostart-for-cd-installations.md)|Describes how to enable AutoStart so that the ClickOnce application is automatically launched when the media is inserted.|
 
 ## Related topics
 
@@ -97,6 +87,6 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 |[Walkthrough: Create a custom installer for a ClickOnce application](../deployment/walkthrough-creating-a-custom-installer-for-a-clickonce-application.md)|Explains how to create a custom installer to install a ClickOnce application.|
 |[How to: Publish a WPF application with visual styles enabled](../deployment/how-to-publish-a-wpf-application-with-visual-styles-enabled.md)|Provides step-by-step instructions to resolve an error that appears when you attempt to publish a WPF application that has visual styles enabled.|
 
-## See also
+## Related content
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
 - [ClickOnce reference](../deployment/clickonce-reference.md)

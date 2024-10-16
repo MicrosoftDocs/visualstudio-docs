@@ -1,19 +1,16 @@
 ---
 description: "Gets the language associated with this stack frame."
-title: IDebugStackFrame2::GetLanguageInfo | Microsoft Docs
+title: IDebugStackFrame2::GetLanguageInfo
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugStackFrame2::GetLanguageInfo
 helpviewer_keywords:
 - IDebugStackFrame2::GetLanguageInfo
-ms.assetid: 0e12fd92-f155-46a7-8272-cda279388cfb
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
@@ -24,19 +21,21 @@ Gets the language associated with this stack frame.
 
 ## Syntax
 
-```cpp
-HRESULT GetLanguageInfo ( 
-   BSTR* pbstrLanguage,
-   GUID* pguidLanguage
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetLanguageInfo ( 
    ref string pbstrLanguage,
    ref Guid   pguidLanguage
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetLanguageInfo ( 
+   BSTR* pbstrLanguage,
+   GUID* pguidLanguage
+);
+```
+---
 
 ## Parameters
 
@@ -44,7 +43,7 @@ int GetLanguageInfo ( 
 [out] Returns the name of the language that implements the method associated with this stack frame.
 
 `pguidLanguage`\
-[out] Returns the `GUID` of the language. For the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] languages, for example, the following can be returned:
+[out] Returns the `GUID` of the language. For the Visual Studio languages, for example, the following can be returned:
 
 - `guidVBScriptLang`\
 

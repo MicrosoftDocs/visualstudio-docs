@@ -2,7 +2,6 @@
 title: "&lt;customization&gt; element (Office development in Visual Studio)"
 description: Learn how the customization element of the vstov4 namespace describes a specific Office solution.
 titleSuffix: ""
-ms.custom: "seodec18, SEO-VS-2020"
 ms.date: "02/02/2017"
 ms.topic: "reference"
 dev_langs:
@@ -12,12 +11,11 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <customization> element"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # &lt;customization&gt; element (Office development in Visual Studio)
+
   The `customization` element of the `vstov4` namespace describes a specific Office solution. The child elements are different for document-level customizations and VSTO Add-ins.
 
 ## Syntax for document-level customizations

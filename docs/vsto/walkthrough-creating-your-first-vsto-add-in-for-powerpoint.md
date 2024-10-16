@@ -1,8 +1,6 @@
 ---
-title: "Walkthrough: Create your first VSTO Add-in for PowerPoint"
-description: Create an application-level Add-in for Microsoft PowerPoint. This feature is available to the application itself, regardless of which presentations are open.
-ms.custom: SEO-VS-2020
-titleSuffix: ""
+title: Create your first VSTO Add-in for PowerPoint
+description: Create a VSTO add-in for the Microsoft Office PowerPoint with features that are available to the application itself, regardless of which presentations are open.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -15,12 +13,11 @@ helpviewer_keywords:
   - "add-ins [Office development in Visual Studio], creating your first project"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Walkthrough: Create your first VSTO Add-in for PowerPoint
+
   This walkthrough shows you how to create a VSTO Add-in for Microsoft Office PowerPoint. The features that you create in this kind of solution are available to the application itself, regardless of which presentations are open. For more information, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).
 
  [!INCLUDE[appliesto_pptallapp](../vsto/includes/appliesto-pptallapp-md.md)]
@@ -48,7 +45,7 @@ ms.workload:
 
 ### To create a new project
 
-1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start Visual Studio.
 
 2. On the **File** menu, point to **New**, and then click **Project**.
 
@@ -62,7 +59,7 @@ ms.workload:
 
 7. Click **OK**.
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstPowerPointAddIn** project and opens the **ThisAddIn** code file in the editor.
+     Visual Studio creates the **FirstPowerPointAddIn** project and opens the **ThisAddIn** code file in the editor.
 
 ## Write code that adds text to each new slide
  Next, add code to the ThisAddIn code file. The new code uses the object model of PowerPoint to add a text box to each new slide. By default, the ThisAddIn code file contains the following generated code:
@@ -77,8 +74,12 @@ ms.workload:
 
     When the user adds a new slide to the active presentation, this event handler adds a text box to the top of the new slide, and it adds some text to the text box.
 
-    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_PowerPointAddInTutorial/ThisAddIn.vb" id="Snippet1":::
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_PowerPointAddInTutorial/ThisAddIn.cs" id="Snippet1":::
+
+    ### [VB](#tab/vb)
+    :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_PowerPointAddInTutorial/ThisAddIn.vb" id="Snippet1":::
+    ---
 
 2. If you are using C#, add the following code to the `ThisAddIn_Startup` event handler. This code is required to connect the `Application_PresentationNewSlide` event handler with the [Microsoft.Office.Interop.PowerPoint.EApplication_Event.PresentationNewSlide](/previous-versions/office/developer/office-2010/ff762876(v%3doffice.14)) event.
 
@@ -127,7 +128,7 @@ ms.workload:
 
 - Deploying VSTO Add-ins for PowerPoint. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
-## See also
+## Related content
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
 - [PowerPoint solutions](../vsto/powerpoint-solutions.md)
 - [Office UI customization](../vsto/office-ui-customization.md)

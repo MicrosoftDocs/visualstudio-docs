@@ -1,7 +1,6 @@
 ---
 title: List Source Command
 description: Learn about the List Source command and how it displays the specified lines of source code.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -10,15 +9,13 @@ helpviewer_keywords:
   - "Debug.ListSource command"
   - "list source command"
   - "ListSource command"
-ms.assetid: e45f08d2-f4a3-49c3-9452-aa60508e2f74
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-  - "multiple"
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # List Source Command
+
 Displays the specified lines of source code.
 
 ## Syntax

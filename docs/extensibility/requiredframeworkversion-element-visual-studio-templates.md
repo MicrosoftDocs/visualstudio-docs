@@ -2,19 +2,15 @@
 description: "Specifies the minimum version of the .NET Framework that is required by the template."
 title: RequiredFrameworkVersion Element (Visual Studio Templates)
 titleSuffix: ""
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 helpviewer_keywords:
 - <RequiredFrameworkVersion> (Visual Studio Templates)
 - RequiredFrameworkVersion (Visual Studio Templates)
-ms.assetid: 08a4f609-51a5-4723-b89f-99277fb18871
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
 ---
 # RequiredFrameworkVersion element (Visual Studio templates)
 
@@ -59,7 +55,7 @@ Specifies the minimum version of the .NET Framework that is required by the temp
 
 ## Example
 
-The following example illustrates the metadata for a standard [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class template.
+The following example illustrates the metadata for a standard Visual C# class template.
 
 ```xml
 <VSTemplate Type="Item" Version="3.0.0"

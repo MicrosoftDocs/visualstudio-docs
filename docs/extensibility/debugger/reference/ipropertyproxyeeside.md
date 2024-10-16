@@ -1,21 +1,19 @@
 ---
 description: "This interface provides methods to view data on the associated object."
-title: IPropertyProxyEESide | Microsoft Docs
+title: IPropertyProxyEESide
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IPropertyProxyEESide
 helpviewer_keywords:
 - IPropertyProxyEESide interface
-ms.assetid: cf227cf8-39d9-4758-8f7e-a697aebb1926
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IPropertyProxyEESide
+
 This interface provides methods to view data on the associated object. This interface is part of the support for type visualizers.
 
 ## Syntax

@@ -1,39 +1,39 @@
 ---
 description: "Gets the new property."
-title: IDebugPropertyCreateEvent2::GetDebugProperty | Microsoft Docs
+title: IDebugPropertyCreateEvent2::GetDebugProperty
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPropertyCreateEvent2::GetDebugProperty
 helpviewer_keywords:
 - IDebugPropertyCreateEvent2::GetDebugProperty
-ms.assetid: d7e43183-444c-4417-af19-82e28229f83a
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPropertyCreateEvent2::GetDebugProperty
+
 Gets the new property.
 
 ## Syntax
 
-```cpp
-HRESULT GetDebugProperty ( 
-   IDebugProperty2** ppProperty
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDebugProperty ( 
    out IDebugProperty2 ppProperty
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDebugProperty ( 
+   IDebugProperty2** ppProperty
+);
+```
+---
 
 ## Parameters
 `ppProperty`\

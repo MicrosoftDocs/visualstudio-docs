@@ -1,9 +1,8 @@
 ---
 title: Options dialog, Projects and Solutions, Build and Run
 description: Specify the maximum number of C++ or C# projects that can build at the same time, certain default build behaviors, and some build log settings in Visual Studio.
-\ms.custom: SEO-VS-2020
-ms.date: 07/14/2017
-ms.technology: vs-ide-compile
+ms.date: 08/25/2023
+ms.subservice: compile-build
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Projects.Build_and_Run"
@@ -11,12 +10,9 @@ helpviewer_keywords:
   - "builds [Visual Studio], setting up"
   - "run actions"
   - "debugger, run options"
-ms.assetid: c884976e-c0df-4c6d-8e3a-856ea2bd547c
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.workload:
-  - "multiple"
+manager: mijacobs
 ---
 # Options dialog box: Projects and Solutions \> Build and Run
 
@@ -55,6 +51,12 @@ Determines how much information from the build process is displayed in the **Out
 *Applies to C++ projects only.*
 
 Determines how much information is written to the build log file, which is located at *\\\<ProjectName>\Debug\\\<ProjectName>.log*.
+
+:::moniker range=">=vs-2022"
+**Run build at low process priority**
+
+Instructs Visual Studio to run all compile and link processes at "Below normal" priority, as managed by the operating system. Selecting this option increases the responsiveness of your computer during the execution of a build, but increases the length of time it takes to complete a build. For information about how process priority works on Windows, see [Scheduling priorities](/windows/win32/procthread/scheduling-priorities).
+:::moniker-end
 
 ## See also
 

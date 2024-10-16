@@ -1,39 +1,39 @@
 ---
 description: "This method returns a copy of the current addresses enumeration as a separate object."
-title: IEnumDebugAddresses::Clone | Microsoft Docs
+title: IEnumDebugAddresses::Clone
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugAddresses::Clone
 helpviewer_keywords:
 - IEnumDebugAddresses::Clone method
-ms.assetid: 71189a00-34eb-4c71-b96e-8bd6e70c6966
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugAddresses::Clone
+
 This method returns a copy of the current enumeration as a separate object.
 
 ## Syntax
 
-```cpp
-HRESULT Clone(
-   IEnumDebugAddresses** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Clone(
    out IEnumDebugAddresses ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Clone(
+   IEnumDebugAddresses** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

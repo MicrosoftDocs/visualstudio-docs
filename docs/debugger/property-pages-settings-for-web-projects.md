@@ -1,9 +1,8 @@
 ---
-title: "Property settings for Web projects | Microsoft Docs"
+title: "Property settings for Web projects"
 description: Know how to change the property settings for a web site debug configuration in the Property Pages dialog box of Visual Studio.
-ms.custom: "SEO-VS-2020"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.date: "01/14/2022"
+ms.topic: "ui-reference"
 dev_langs:
   - "CSharp"
   - "VB"
@@ -16,37 +15,41 @@ helpviewer_keywords:
   - "projects [Visual Studio], debug configurations"
   - "debugging Web applications, project settings"
   - "debug configurations, Web projects"
-ms.assetid: 8ec5160a-6408-4f47-8d41-f0e20e79a3b9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Property Pages Settings for Web Projects
+
 You can change the property settings for a web site debug configuration in the **Property Pages** dialog box, as discussed in [Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** dialog box.
+
+::: moniker range=">=vs-2022"
+>[!IMPORTANT]
+>Some of these settings don't apply to ASP.NET Core. To configure debug settings for ASP.NET Core, see [Project settings for C# debug configurations (.NET 5+, .NET Core)](../debugger/project-settings-for-csharp-debug-configurations-dotnetcore.md).
+::: moniker-end
 
 ### Start Options category
 
 | **Setting** | **Description** |
 | - | - |
 | **Start Action** | Heading that groups options related to application startup. |
-| **Use current Page** | Specifies the current page as the starting point for debugging. |
+| **Current Page** | Specifies the current page as the starting point for debugging. |
 | **Specific page:** | Specifies the Web page where you want to begin debugging. |
 | **Start external program:** | Specifies the command for launching the program you want to debug. |
 | **Command line arguments:** | Specifies arguments for the command specified above. |
-| **Working directory:** | Specifies the working directory of the program being debugged. In [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], the working directory is the directory the application is launched from, \bin\debug by default. |
+| **Working directory:** | Specifies the working directory of the program being debugged. In Visual C#, the working directory is the directory the application is launched from, \bin\debug by default. |
 | **Start URL** | Specifies the location of the Web application you want to debug. |
-| **Don't open a page. Wait for a request from an external application** | Says to wait for a request from an external application. This option does not launch Internet Explorer or another application. It just prepares for debugging when called by an application. |
+| **Don't open a page. Wait for a request from an external application** | Says to wait for a request from an external application. This option does not launch a browser or another application. It just prepares for debugging when called by an application. |
 | **Server** | Heading that groups options related to the server to be used. |
-| **Use default Web server** | Says to use the default Web server. |
-| **Use custom server** | Allows you to enter the Base URL to use as the server. |
+| **Server type** | Says to use IIS Express or an External Host. |
+| **Project URL** | Allows you to enter the Base URL to use as the server. |
+| **Override application root URL** | Allows you to change the default application root URL. |
 | **Debuggers** | Heading that groups options related to type of debugging to be done. |
-| **ASP.NET debugging** | Enables debugging of server pages written for the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] development platform. You must specify a URL in **Start URL**. |
-| **Native code debugging** | Enables you to debug calls to native (unmanaged) Win32 code from your managed application. |
-| **SQL Server debugging** | Allows debugging of SQL Server database objects. |
-| **Silverlight debugging** | Allows debugging of Silverlight components. |
+| **ASP.NET** | Enables debugging of server pages written for the ASP.NET development platform. You must specify a URL in **Start URL**. |
+| **Native code** | Enables you to debug calls to native (unmanaged) Win32 code from your managed application. |
+| **SQL Server** | Allows debugging of SQL Server database objects. |
+| **Silverlight** | Allows debugging of Silverlight components. |
 
 ## See also
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

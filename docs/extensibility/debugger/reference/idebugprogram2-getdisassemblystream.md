@@ -1,36 +1,27 @@
 ---
 description: "Gets the disassembly stream for this program or a part of this program."
-title: IDebugProgram2::GetDisassemblyStream | Microsoft Docs
+title: IDebugProgram2::GetDisassemblyStream
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgram2::GetDisassemblyStream
 helpviewer_keywords:
 - IDebugProgram2::GetDisassemblyStream
-ms.assetid: beda0da5-267e-4bf3-96c4-b659d29e2254
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgram2::GetDisassemblyStream
+
 Gets the disassembly stream for this program or a part of this program.
 
 ## Syntax
 
-```cpp
-HRESULT GetDisassemblyStream( 
-   DISASSEMBLY_STREAM_SCOPE   dwScope,
-   IDebugCodeContext2*        pCodeContext,
-   IDebugDisassemblyStream2** ppDisassemblyStream
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDisassemblyStream( 
    enum_DISASSEMBLY_STREAM_SCOPE  dwScope,
@@ -38,6 +29,15 @@ int GetDisassemblyStream( 
    out IDebugDisassemblyStream2   ppDisassemblyStream
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDisassemblyStream( 
+   DISASSEMBLY_STREAM_SCOPE   dwScope,
+   IDebugCodeContext2*        pCodeContext,
+   IDebugDisassemblyStream2** ppDisassemblyStream
+);
+```
+---
 
 ## Parameters
 `dwScope`\

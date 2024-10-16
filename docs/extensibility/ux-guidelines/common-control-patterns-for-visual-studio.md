@@ -1,21 +1,17 @@
 ---
-title: Common Control Patterns for Visual Studio | Microsoft Docs
+title: Common Control Patterns for Visual Studio
 description: Learn about how Visual Studio common controls follow the Windows Desktop interaction guidelines and about special situations that augment those guidelines.
-ms.custom: SEO-VS-2020
 ms.date: 04/26/2017
 ms.topic: reference
-ms.assetid: 3e893949-6398-42f1-9eab-a8d8c2b7f02d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Common Control Patterns for Visual Studio
+
 ## <a name="BKMK_CommonControls"></a> Common controls
 
-### Overview
 Common controls make up the majority of the user interface in Visual Studio. Most common controls used in the Visual Studio interface should follow the [Windows Desktop interaction guidelines](/windows/desktop/uxguide/controls). This topic is specific to Visual Studio and covers special situations or details that augment those Windows guidelines.
 
 #### Common controls in this topic
@@ -212,7 +208,6 @@ If you want users to have the ability to copy the info, dynamic text should be i
 
 ## <a name="BKMK_ButtonsAndHyperlinks"></a> Buttons and hyperlinks
 
-### Overview
 Buttons and link controls (hyperlinks) should follow [basic Windows Desktop guidance on hyperlinks](/windows/desktop/uxguide/ctrl-links) for usage, wording, sizing, and spacing.
 
 ### Choosing between buttons and links

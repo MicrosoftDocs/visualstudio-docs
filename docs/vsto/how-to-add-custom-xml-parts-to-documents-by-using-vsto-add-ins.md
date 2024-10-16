@@ -1,7 +1,6 @@
 ---
 title: "Add custom XML parts to documents using VSTO Add-ins"
 description: Learn how you can store XML data in the following types of documents by creating a custom XML part in a VSTO Add-in.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -18,12 +17,11 @@ helpviewer_keywords:
   - "application-level add-ins [Office development in Visual Studio], custom XML parts"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Add custom XML parts to documents by using VSTO Add-ins
+# Add custom XML parts to documents by using VSTO Add-ins
+
   You can store XML data in the following types of documents by creating a custom XML part in a VSTO Add-in:
 
 - A Microsoft Office Excel workbook.
@@ -42,8 +40,12 @@ ms.workload:
 
      The following code example adds a custom XML part to a specified workbook.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_addcustomxmlpartexcelapplevel/ThisAddIn.vb" id="Snippet1":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_AddCustomXmlPartExcelAppLevel/ThisAddIn.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_addcustomxmlpartexcelapplevel/ThisAddIn.vb" id="Snippet1":::
+     ---
 
 2. Add the `AddCustomXmlPartToWorkbook` method to the `ThisAddIn` class in a VSTO Add-in project for Excel.
 
@@ -55,8 +57,12 @@ ms.workload:
 
      The following code example adds a custom XML part to a specified document.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_AddCustomXmlPartWordAppLevel/ThisAddIn.vb" id="Snippet1":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_AddCustomXmlPartWordAppLevel/ThisAddIn.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_AddCustomXmlPartWordAppLevel/ThisAddIn.vb" id="Snippet1":::
+     ---
 
 2. Add the `AddCustomXmlPartToDocument` method to the `ThisAddIn` class in a VSTO Add-in project for Word.
 
@@ -68,8 +74,12 @@ ms.workload:
 
      The following code example adds a custom XML part to a specified presentation.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_AddCustomXmlPartPowerPointAppLevel/ThisAddIn.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_AddCustomXmlPartPowerPointAppLevel/ThisAddIn.vb" id="Snippet1":::
+     ---
 
 2. Add the `AddCustomXmlPartToPresentation` method to the `ThisAddIn` class in a VSTO Add-in project for PowerPoint.
 
@@ -78,6 +88,6 @@ ms.workload:
 ## Robust programming
  For simplicity, this example uses an XML string that is defined as a local variable in the method. Typically, you should obtain the XML from an external source, such as a file or a database.
 
-## See also
+## Related content
 - [Custom XML parts overview](../vsto/custom-xml-parts-overview.md)
 - [How to: Add custom XML parts to document-level customizations](../vsto/how-to-add-custom-xml-parts-to-document-level-customizations.md)

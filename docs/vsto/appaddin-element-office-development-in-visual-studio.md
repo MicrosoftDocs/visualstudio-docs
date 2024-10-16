@@ -1,7 +1,6 @@
 ---
 title: "&lt;appAddin&gt; element (Office development in Visual Studio)"
 description: Learn how the appAddin element of the vstov4 namespace stores customization-specific information for VSTO Add-ins.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: 02/02/2017
 ms.topic: reference
@@ -12,12 +11,11 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <appAddin> element"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # &lt;appAddin&gt; element (Office development in Visual Studio)
+
   The **appAddin** element of the `vstov4` namespace stores customization-specific information for VSTO Add-ins.
 
 ## Syntax
@@ -58,7 +56,7 @@ ms.workload:
 ## VSTO Add-in example
 
 ### Description
- The following code example illustrates **appAddin** elements in an Outlook solution deployed using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
+ The following code example illustrates **appAddin** elements in an Outlook solution deployed using ClickOnce. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
 
 ### Code
 

@@ -1,7 +1,6 @@
 ---
-title: "How to: Get started customizing the ribbon"
-description: Learn that to customize the Ribbon of a Microsoft Office application, add a Ribbon (Visual Designer) or Ribbon (XML) item to an Office project.
-ms.custom: SEO-VS-2020
+title: "Get started customizing the ribbon"
+description: Customize the Ribbon of a Microsoft Office application by adding a Ribbon with the Visual Designer or a Ribbon XML item to an Office project.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "customizing the Ribbon, adding Ribbon to project"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Get started customizing the ribbon
+# Get started customizing the ribbon
+
   To customize the Ribbon of a Microsoft Office application, add a **Ribbon (Visual Designer)** or **Ribbon (XML)** item to an Office project.
 
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]
@@ -66,7 +64,7 @@ ms.workload:
 
    The Ribbon item appears in **Solution Explorer**. For information about the next steps, see [Ribbon overview](../vsto/ribbon-overview.md).
 
-## See also
+## Related content
 - [Access the Ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)
 - [Ribbon Designer](../vsto/ribbon-designer.md)
 - [Ribbon XML](../vsto/ribbon-xml.md)

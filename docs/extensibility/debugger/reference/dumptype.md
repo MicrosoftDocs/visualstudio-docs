@@ -1,28 +1,34 @@
 ---
 description: "Specifies how much of a program's state (such as running threads, stack frames, and current instruction address) to dump."
-title: DUMPTYPE | Microsoft Docs
+title: DUMPTYPE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - DUMPTYPE
 helpviewer_keywords:
 - DUMPTYPE enumeration
-ms.assetid: ea8160db-8732-4056-a1d7-892ef72da71e
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # DUMPTYPE
+
 Specifies how much of a program's state (such as running threads, stack frames, and current instruction address) to dump.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_DUMPTYPE {
+    DUMP_MINIDUMP = 0,
+    DUMP_FULLDUMP = 1
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_DUMPTYPE {
     DUMP_MINIDUMP = 0,
@@ -30,13 +36,7 @@ enum enum_DUMPTYPE {
 };
 typedef DWORD DUMPTYPE;
 ```
-
-```csharp
-public enum enum_DUMPTYPE {
-    DUMP_MINIDUMP = 0,
-    DUMP_FULLDUMP = 1
-};
-```
+---
 
 ## Fields
 `DUMP_MINIDUMP`\

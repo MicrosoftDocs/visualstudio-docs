@@ -1,27 +1,26 @@
 ---
-description: "Retrieves the front end minor version number."
-title: "IDiaSymbol::get_frontEndMinor | Microsoft Docs"
+description: Retrieves the front end minor version number.
+title: "IDiaSymbol::get_frontEndMinor"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_frontEndMinor method"
-ms.assetid: 40792153-827c-4859-be7c-6aa16d5abab6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_frontEndMinor
+
 Retrieves the front end minor version number.
 
 ## Syntax
 
 ```C++
-HRESULT get_frontEndMinor ( 
+HRESULT get_frontEndMinor ( 
    DWORD* pRetVal
 );
 ```

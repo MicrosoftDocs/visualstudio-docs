@@ -1,39 +1,39 @@
 ---
 description: "Suspends a thread."
-title: IDebugThread2::Suspend | Microsoft Docs
+title: IDebugThread2::Suspend
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugThread2::Suspend
 helpviewer_keywords:
 - IDebugThread2::Suspend
-ms.assetid: 1e20be85-aa12-48de-bb83-0bf0976e99ae
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugThread2::Suspend
+
 Suspends a thread.
 
 ## Syntax
 
-```cpp
-HRESULT Suspend ( 
-   DWORD *pdwSuspendCount
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 HRESULT Suspend ( 
    out uint pdwSuspendCount
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Suspend ( 
+   DWORD *pdwSuspendCount
+);
+```
+---
 
 ## Parameters
 `pdwSuspendCount`\

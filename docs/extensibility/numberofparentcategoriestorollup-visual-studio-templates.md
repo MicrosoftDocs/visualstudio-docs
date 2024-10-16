@@ -1,23 +1,20 @@
 ---
 title: NumberOfParentCategoriesToRollUp element (templates)
 description: Learn about the NumberOfParentCategoriesToRollUp element and how it specifies the number of parent categories that will display the template in the New Project dialog box.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#NumberOfParentCategoriesToRollUp
 helpviewer_keywords:
 - NumberOfParentCategoriesToRollUp element [Visual Studio Templates]
 - <NumberOfParentCategoriesToRollUp> element [Visual Studio Templates]
-ms.assetid: 6f9d36f5-ae23-4a92-8132-b11799e2c21a
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
 ---
 # NumberOfParentCategoriesToRollUp element (Visual Studio templates)
+
 Specifies the number of parent categories that will display the template in the **New Project** dialog box.
 
  \<VSTemplate>
@@ -56,7 +53,7 @@ Specifies the number of parent categories that will display the template in the 
  `NumberOfParentCategoriesToRollUp` is an optional element.
 
 ## Example
- This example illustrates the metadata for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Windows application. If a template with this metadata is placed two folder levels below the top level [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] node, the template will appear in the top level node in the **New Project** dialog box. If the `NumberOfParentCategoriesToRollUp` is not set, the template only appears in the node in which it is physically located.
+ This example illustrates the metadata for a Visual C# Windows application. If a template with this metadata is placed two folder levels below the top level Visual C# node, the template will appear in the top level node in the **New Project** dialog box. If the `NumberOfParentCategoriesToRollUp` is not set, the template only appears in the node in which it is physically located.
 
 ```xml
 <VSTemplate Type="Project" Version="3.0.0"

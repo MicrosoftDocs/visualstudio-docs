@@ -1,39 +1,26 @@
 ---
 description: "Loads debug symbols using the specified callback method."
-title: IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback | Microsoft Docs
+title: IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - LoadSymbolsFromCallback
 - IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback
-ms.assetid: 905315ba-8e9b-4889-b9da-98e1441950ad
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback
+
 Loads debug symbols using the specified callback method.
 
 ## Syntax
 
-```cpp
-HRESULT LoadSymbolsFromCallback(
-    ULONG32   ulAppDomainID,
-    GUID      guidModule,
-    IUnknown* pUnkMetadataImport,
-    IUnknown* pUnkCorDebugModule,
-    BSTR      bstrModuleName,
-    BSTR      bstrSymSearchPath,
-    IUnknown* pCallback
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int LoadSymbolsFromCallback(
     uint   ulAppDomainID,
@@ -45,6 +32,19 @@ int LoadSymbolsFromCallback(
     object pCallback
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT LoadSymbolsFromCallback(
+    ULONG32   ulAppDomainID,
+    GUID      guidModule,
+    IUnknown* pUnkMetadataImport,
+    IUnknown* pUnkCorDebugModule,
+    BSTR      bstrModuleName,
+    BSTR      bstrSymSearchPath,
+    IUnknown* pCallback
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

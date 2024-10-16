@@ -1,7 +1,6 @@
 ---
-title: "Replaceable Parameters | Microsoft Docs"
+title: "Replaceable Parameters"
 description: Review replaceable parameters (tokens), which specify values inside project files for SharePoint solution items whose actual values aren't known at design time.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,12 +13,12 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, replaceable parameters"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload: "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Replaceable parameters
-  Replaceable parameters, or *tokens*, can be used inside project files to provide values for SharePoint solution items whose actual values aren't known at design time. They're similar in function to the standard [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] template tokens. For more information, see [Template Parameters](../ide/template-parameters.md).
+
+  Replaceable parameters, or *tokens*, can be used inside project files to provide values for SharePoint solution items whose actual values aren't known at design time. They're similar in function to the standard Visual Studio template tokens. For more information, see [Template Parameters](../ide/template-parameters.md).
 
 ## Token format
  Tokens begin and end with a dollar sign ($) character. On deployment, any tokens used are replaced with actual values when a project is packaged into a SharePoint solution package (*.wsp* file). For example, the token **$SharePoint.Package.Name$** might resolve to the string "Test SharePoint Package".
@@ -62,13 +61,13 @@ ms.workload: "office"
 |$SharePoint.Feature.DeploymentPath$|The name of the folder that contains the feature in the package. This token equates to the "Deployment Path" property in the Feature Designer. An example value is, "Project1_Feature1".|
 |$SharePoint.Feature.Id$|The SharePoint ID of the containing feature. This token, as with all feature-level tokens, can be used only by files included in a package via a feature, not added directly to a package outside of a feature.|
 |$SharePoint.ProjectItem.Name$|The name of the project item (not its file name), as obtained from **ISharePointProjectItem.Name**.|
-|$SharePoint.Type.\<GUID>.AssemblyQualifiedName$|The assembly qualified name of the type matching the [!INCLUDE[TLA2#tla_guid](../sharepoint/includes/tla2sharptla-guid-md.md)] of the token. The format of the [!INCLUDE[TLA2#tla_guid](../sharepoint/includes/tla2sharptla-guid-md.md)] is lowercase and corresponds to the Guid.ToString("D") format (that is, xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).|
+|$SharePoint.Type.\<GUID>.AssemblyQualifiedName$|The assembly qualified name of the type matching the  GUID  of the token. The format of the  GUID  is lowercase and corresponds to the Guid.ToString("D") format (that is, xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).|
 |$SharePoint.Type.\<GUID>.FullName$|The full name of the type matching the GUID in the token. The format of the GUID is lowercase and corresponds to the Guid.ToString("D") format (that is, xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).|
 
 ## Add extensions to the token replacement file extensions list
- Although tokens can theoretically be used by any file that belongs to a SharePoint project item included in the package, by default, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] searches for tokens only in package files, manifest files, and files that have the following extensions:
+ Although tokens can theoretically be used by any file that belongs to a SharePoint project item included in the package, by default, Visual Studio searches for tokens only in package files, manifest files, and files that have the following extensions:
 
-- [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)]
+- XML
 
 - ASCX
 
@@ -102,5 +101,5 @@ ms.workload: "office"
 
  You can add the extension directly to the targets (*.targets*) file. However, adding the extension alters the extensions list for all SharePoint projects packaged on the local system, not just your own. This extension may be convenient when you are the sole developer on the system or if most of your projects require it. However, because it is system-specific, this approach is not portable, and therefore, it is recommended that you add any extensions to the project file instead.
 
-## See also
+## Related content
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

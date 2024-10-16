@@ -1,7 +1,6 @@
 ---
 title: Visualize dependencies with code maps
-description: Learn how code maps help you see how the code fits together without reading through files and lines of code.
-ms.custom: SEO-VS-2020
+description: Use code maps to visualize dependencies across your code and see how the code fits together without reading through files and lines of code.
 ms.date: 05/16/2021
 ms.topic: how-to
 f1_keywords:
@@ -15,10 +14,8 @@ helpviewer_keywords:
 - dependency graphs
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Map dependencies with code maps
 
@@ -230,13 +227,11 @@ Suppose you have a code review to perform in some files with pending changes. To
 
    ![Use the Filter pane to simplify the display](../modeling/media/almcodemapfilterpane.png)
 
-## See also
+## Related content
 
 - [Share code maps](share-code-maps.md)
 - [Create code maps for C++](code-maps-for-cpp.md)
 - [Improve code map performance](code-maps-performance.md)
-- [Video: Understand design from code with Visual Studio 2015 code maps](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2015/502)
-- [Video: Understand design from code with Visual Studio 2015 code maps](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2015/502)
 - [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
 - [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)
 - [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)

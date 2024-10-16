@@ -1,7 +1,6 @@
 ---
-title: "&lt;assemblyIdentity&gt; Element (ClickOnce Deployment) | Microsoft Docs"
+title: "&lt;assemblyIdentity&gt; Element (ClickOnce Deployment)"
 description: The assemblyIdentity element is required in ClickOnce deployment. It contains no child elements and has attributes described in this article.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -12,16 +11,14 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<assemblyIdentity> element [ClickOnce deployment manifest]"
-ms.assetid: f4a3bb83-c800-47d0-9905-9a5ae2486838
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: deployment
 ---
 # &lt;assemblyIdentity&gt; element (ClickOnce deployment)
-Identifies the primary assembly of the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.
+
+Identifies the primary assembly of the ClickOnce application.
 
 ## Syntax
 
@@ -50,7 +47,7 @@ Identifies the primary assembly of the [!INCLUDE[ndptecclick](../deployment/incl
 ## Remarks
 
 ## Example
- The following code example illustrates an `assemblyIdentity` element in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest. This code example is part of a larger example provided for the [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md) topic.
+ The following code example illustrates an `assemblyIdentity` element in a ClickOnce deployment manifest. This code example is part of a larger example provided for the [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md) topic.
 
 ```xml
 <!-- Identify the deployment. -->

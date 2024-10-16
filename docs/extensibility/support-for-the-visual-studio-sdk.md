@@ -1,7 +1,6 @@
 ---
-title: Support for the Visual Studio SDK | Microsoft Docs
+title: Support for the Visual Studio SDK
 description: Learn about the support options that are available for customers about how to extend the Visual Studio IDE.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,15 +9,13 @@ helpviewer_keywords:
 - Help, Visual Studio SDK
 - newsgroups, Visual Studio SDK support
 - Web sites, Visual Studio SDK support
-ms.assetid: d9011f5a-cb53-418f-9d8f-74b15b9fc5f5
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Support for the Visual Studio SDK
+
 Several support options are available for customers who have questions about how to extend the Visual Studio integrated development environment (IDE).
 
 ## Free Support
@@ -27,7 +24,7 @@ Several support options are available for customers who have questions about how
  Members of the Visual Studio development team and other developers who extend Visual Studio often participate in the microsoft.public.vstudio.extensibility newsgroup. This newsgroup is a managed newsgroup. If you are an MSDN Universal Subscriber, make sure that you register a no-spam alias to make it possible for Microsoft to respond.
 
 ### MSDN Forums
- The [MSDN Forums](https://social.msdn.microsoft.com/Forums/en-US/home) provide another way to chat with peers and experts. The graphical user interface (UI) of the forums is designed to make them easier to use than newsgroups. The [Visual Studio Extensibility Forum](/azure/devops/integrate/index?view=azure-devops&viewFallbackFrom=vsts&preserve-view=true) is a good place to start to search for answers to extensibility questions. Always search before you ask a question because someone else may already have asked the same question.
+ The [MSDN Forums](https://social.msdn.microsoft.com/Forums/home) provide another way to chat with peers and experts. The graphical user interface (UI) of the forums is designed to make them easier to use than newsgroups. [Visual Studio community support - Extensions](/answers/topics/vs-extensions.html) is a good place to start to search for answers to extensibility questions. Always search before you ask a question because someone else may already have asked the same question.
 
 ### Visual Studio Gallery
  The [Visual Studio Marketplace](https://marketplace.visualstudio.com/) is the place for extensions and sample code. You can find tools that improve your productivity and user experience with Visual Studio, sample applications that show how to use VSPackages and the Managed Extensibility Framework (MEF), and other kinds of samples.
@@ -39,7 +36,7 @@ You can find open source examples of VS SDK extensions on GitHub at [Visual Stud
 ## Included Support
 
 ### Visual Studio Product Support
- Some support is included with the purchase of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] products. For more information, see [Visual Studio Support](https://msdn.microsoft.com/vstudio/cc136615.aspx). Microsoft maintains a dedicated support team to answer questions about [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensibility.
+ Some support is included with the purchase of Visual Studio products. For more information, see [Visual Studio Support](https://msdn.microsoft.com/vstudio/cc136615.aspx). Microsoft maintains a dedicated support team to answer questions about Visual Studio extensibility.
 
 ### MSDN Subscription Support
  MSDN subscription packages may also include some support. For more information, see [MSDN Subscriber Support](https://msdn.microsoft.com/subscriptions/aa718661.aspx).
@@ -50,7 +47,7 @@ You can find open source examples of VS SDK extensions on GitHub at [Visual Stud
 
 Support can also be purchased. A variety of support offerings are available under the Developer Tools category at [Microsoft Help and Support Centers](https://support.microsoft.com/supportforbusiness/productselection?fltadd=sps-business-1&sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8).
 
-Customers who want to use the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] to develop complex packages can consider purchasing a Premier Support contract with Microsoft. For more information, see [Microsoft Premier Support](https://support.microsoft.com/premier). For small companies, [Advanced Support for Partners](https://partner.microsoft.com/support/advanced-cloud-support) may be an attractive alternative to a traditional Premier Support offering.
+Customers who want to use the Visual Studio SDK to develop complex packages can consider purchasing a Premier Support contract with Microsoft. For more information, see [Microsoft Premier Support](https://support.microsoft.com/premier). For small companies, [Advanced Support for Partners](https://partner.microsoft.com/support/advanced-cloud-support) may be an attractive alternative to a traditional Premier Support offering.
 
 > [!NOTE]
 > Standard support cannot be used for consultation or to obtain advice.
@@ -59,6 +56,6 @@ Questions about Premier Support offerings in conjunction with the VSIP program c
 
 Information about individual support requests can be found at [Individual Support Requests](https://support.microsoft.com/supportforbusiness/productselection).
 
-## See also
+## Related content
 
-- [Talk to Us](../ide/feedback-options.md)
+- [Visual Studio Developer Community](https://developercommunity.visualstudio.com/home)

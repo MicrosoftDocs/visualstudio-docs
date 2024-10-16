@@ -1,39 +1,26 @@
 ---
 description: "Retrieves information about the method at the specified debug address."
-title: IDebugSymbolProviderDirect::GetMethodFromAddress | Microsoft Docs
+title: IDebugSymbolProviderDirect::GetMethodFromAddress
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugSymbolProviderDirect::GetMethodFromAddress
 - GetMethodFromAddress
-ms.assetid: 33ffd197-1221-41bc-a9f6-f133ebdcb783
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugSymbolProviderDirect::GetMethodFromAddress
+
 Retrieves information about the method at the specified debug address.
 
 ## Syntax
 
-```cpp
-HRESULT GetMethodFromAddress(
-   IDebugAddress* pAddress,
-   GUID*          pGuid,
-   DWORD*         pAppID,
-   _mdToken*      pTokenClass,
-   _mdToken*      pTokenMethod,
-   DWORD*         pdwOffset,
-   DWORD*         pdwVersion
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMethodFromAddress(
    IDebugAddress pAddress,
@@ -45,6 +32,19 @@ int GetMethodFromAddress(
    out uint      pdwVersion
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMethodFromAddress(
+   IDebugAddress* pAddress,
+   GUID*          pGuid,
+   DWORD*         pAppID,
+   _mdToken*      pTokenClass,
+   _mdToken*      pTokenMethod,
+   DWORD*         pdwOffset,
+   DWORD*         pdwVersion
+);
+```
+---
 
 ## Parameters
 `pAddress`\

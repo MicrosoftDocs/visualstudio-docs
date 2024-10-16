@@ -1,27 +1,26 @@
 ---
-description: "Gets an enumerator for properties within this set."
-title: "IDiaPropertyStorage::Enum | Microsoft Docs"
+description: Gets an enumerator for properties within this set.
+title: "IDiaPropertyStorage::Enum"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaPropertyStorage::Enum"
-ms.assetid: 00e462da-980a-40b3-a2d6-75a25ee809e5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaPropertyStorage::Enum
+
 Gets an enumerator for properties within this set.
 
 ## Syntax
 
 ```C++
-HRESULT Enum ( 
+HRESULT Enum ( 
    IEnumSTATPROPSTG** ppenum
 );
 ```

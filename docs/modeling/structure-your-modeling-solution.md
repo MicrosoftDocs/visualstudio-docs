@@ -1,15 +1,12 @@
 ---
 title: Structure your modeling solution
 description: Learn a modeling scheme for dividing the application into different parts that correspond to the layers in an overall layering diagram.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Structure your modeling solution
 
@@ -17,7 +14,7 @@ To use models effectively in a development project, the team members must be abl
 
 To start on a project or subproject quickly, it is useful to have a project template that follows the project structure that you have chosen. This topic describes how to create and use such a template.
 
-This topic assumes that you are working on a project that is large enough to require several team members, and perhaps has several teams. The code and models of the project are stored on a source control system such as [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)]. At least some team members use Visual Studio to develop models, and other team members can view the models by using other Visual Studio versions.
+This topic assumes that you are working on a project that is large enough to require several team members, and perhaps has several teams. The code and models of the project are stored on a source control system such as Team Foundation Server. At least some team members use Visual Studio to develop models, and other team members can view the models by using other Visual Studio versions.
 
 To see which versions of Visual Studio support each tool and modeling feature, see [Version support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
@@ -99,10 +96,6 @@ For example, if you frequently use solutions that have Presentation, Business, a
 
 4. Following the instructions in the wizard, select the projects that you want to include in the template, provide a name and description for the template, and specify an output location.
 
-## Watch a video
-
-[Organize and manage your models](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-9-organizing-and-managing-your-models)
-
-## See also
+## Related content
 
 - [Use models in your development process](../modeling/use-models-in-your-development-process.md)

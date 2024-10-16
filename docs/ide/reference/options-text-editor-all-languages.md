@@ -1,8 +1,7 @@
 ---
 title: Options, Text Editor, All Languages
 description: Learn how to use the General page in the All Languages section to change the default behavior of the Code Editor within Visual Studio.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 09/01/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.JavaScript.General
@@ -20,7 +19,6 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.HTML.General
 - VS.ToolsOptionsPages.Text_Editor.HTML_(Web_Forms).General
 - VS.ToolsOptionsPages.Text_Editor.JavaScript.General
-- VS.ToolsOptionsPages.Text_Editor.TypeScript.General
 - VS.ToolsOptionsPages.Text_Editor.JSON.General
 - VS.ToolsOptionsPages.Text_Editor.LESS.General
 - VS.ToolsOptionsPages.Text_Editor.Plain_Text.General
@@ -38,13 +36,10 @@ helpviewer_keywords:
 - General dialog box
 - line numbers
 - virtual space
-ms.assetid: 49ee7306-9d46-4170-850f-a1716171752d
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: anandmeg
+ms.author: meghaanand
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Options dialog box: Text Editor \> All Languages
 
@@ -54,6 +49,8 @@ This dialog box allows you to change the default behavior of the Code Editor. Th
 > This page sets default options for all development languages. Remember that resetting an option in this dialog will reset the General options in all languages to whatever choices are selected here. To change Text Editor options for just one language, expand the subfolder for that language and select its option pages.
 
 A grayed checkmark is displayed when an option has been selected on the General options pages for some programming languages, but not for others.
+
+:::image type="content" source="media/tools-options-text-editor-all-languages-general.png" alt-text="Screenshot of the Options dialog box that shows the General settings for all programming languages in the text editor.":::
 
 ## Statement Completion
 
@@ -108,6 +105,10 @@ When selected, the mouse cursor changes to a pointing hand as it passes over a U
 
 When selected, displays the **Navigation bar** at the top of the code editor. Its dropdown **Objects** and **Members** lists allow you to choose a particular object in your code, select from its members, and navigates to the declaration of the selected member in the Code Editor.
 
+**Automatic brace completion**
+
+When selected, Visual Studio provides a closing parenthesis when an open parenthesis is typed.
+
 **Apply Cut or Copy commands to blank lines when there is no selection**
 
 This option sets the behavior of the editor when you place the insertion point on a blank line, select nothing, and then Copy or Cut.
@@ -116,7 +117,7 @@ This option sets the behavior of the editor when you place the insertion point o
 
 - When this option is cleared, the Cut command removes blank lines. However, the data on the Clipboard is preserved. Therefore, if you then use the Paste command, the content most recently copied onto the Clipboard is pasted. If nothing has been copied previously, nothing is pasted.
 
-This setting has no effect on Copy or Cut when a line is not blank. If nothing is selected, the entire line is copied or cut. If you then Paste, the text of the entire line and its endline character are pasted.
+This setting has no effect on Copy or Cut when a line isn't blank. If nothing is selected, the entire line is copied or cut. If you then Paste, the text of the entire line and its endline character are pasted.
 
 > [!TIP]
 > To display indicators for spaces, tabs, and line ends, and thus distinguish indented lines from lines that are entirely blank, select **Advanced** from the **Edit** menu and choose **View White Space**.

@@ -1,0 +1,122 @@
+### YamlMime:Hub
+title: MSBuild documentation
+summary: MSBuild is a general purpose build system used by Visual Studio and the .NET SDK.
+brand: visual-studio
+metadata:
+   title: MSBuild documentation
+   titleSuffix: ""
+   description: Learn how to use MSBuild to build projects.
+   ms.topic: hub-page
+   ms.date: 05/13/2023
+   author: ghogen
+   ms.author: ghogen
+   manager: mijacobs
+   uhfHeaderId: MSDocsHeader-MSBuild
+   monikerRange: ">=vs-2019"
+
+highlightedContent:
+   items:
+   - title: Visual Studio
+     itemType: download
+     url: https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta
+   - title: .NET SDK
+     itemType: download
+     url: https://dotnet.microsoft.com/download
+   - title: About MSBuild
+     itemType: overview
+     url: msbuild.md
+   - title: MSBuild 17
+     itemType: whats-new
+     url: whats-new-msbuild-17-0.md
+
+conceptualContent:
+  title: Learn MSBuild
+  items:
+    - title: Key concepts
+      links:
+        - text: How MSBuild works
+          itemType: concept
+          url: build-process-overview.md
+        - text: Properties
+          url: msbuild-properties.md
+          itemType: concept
+        - text: Items
+          url: msbuild-items.md
+          itemType: concept
+        - text: Targets
+          itemType: tutorial
+          url: msbuild-targets.md
+        - text: Tasks
+          itemType: concept
+          url: msbuild-tasks.md
+        - text: .NET builds
+          itemType: overview
+          url: /dotnet/core/project-sdk/overview
+        - text: C++ builds
+          itemType: concept
+          url: /cpp/build/msbuild-visual-cpp
+    - title: Follow a tutorial
+      links:
+        - text: Use MSBuild
+          url: walkthrough-using-msbuild.md
+          itemType: tutorial
+        - text: Create a project file from scratch
+          url: walkthrough-creating-an-msbuild-project-file-from-scratch.md
+          itemType: tutorial
+        - text: Create a custom task
+          url: tutorial-custom-task-code-generation.md
+          itemType: tutorial
+    - title: Popular tasks
+      links:
+        - text: Generate and view build logs
+          itemType: how-to-guide
+          url: obtaining-build-logs-with-msbuild.md
+        - text: Build specific targets
+          itemType: how-to-guide
+          url: how-to-build-specific-targets-in-solutions-by-using-msbuild-exe.md
+        - text: Reference a project SDK
+          itemType: how-to-guide
+          url: how-to-use-project-sdk.md
+        - text: Understand target build order
+          url: target-build-order.md
+          itemType: concept
+        - text: Exclude files from the build
+          itemType: how-to-guide
+          url: how-to-exclude-files-from-the-build.md
+        - text: Build projects in parallel
+          itemType: how-to-guide
+          url: building-multiple-projects-in-parallel-with-msbuild.md
+        - text: Extend the build process
+          itemType: how-to-guide
+          url: how-to-extend-the-visual-studio-build-process.md
+        - text: Customize your build
+          itemType: concept
+          url: customize-your-build.md
+
+additionalContent:
+   sections:
+   - title: Reference
+     items:
+     - title: Command line
+       summary: Use MSBuild.exe command-line options to set properties, build specific targets, control logging, and more.
+       url: msbuild-command-line-reference.md
+     - title: Common project properties
+       summary: List of commonly used MSBuild properties you can set in your project files to configure your builds.
+       url: common-msbuild-project-properties.md
+     - title: Reserved and well-known properties.
+       summary: List of properties used by the MSBuild system, some of which you can define or override to customize the build.
+       url: msbuild-reserved-and-well-known-properties.md
+     - title: Common project items
+       summary: List of common items and their metadata used in project builds.
+       url: common-msbuild-project-items.md
+     - title: Well-known item metadata
+       summary: List of default metadata for items that you can use to implement targets and control how various files are handled and built.
+       url: msbuild-well-known-item-metadata.md
+     - title: Common item metadata
+       summary: List of optional item metadata you can use to control how your files are handled, that have meaning for some SDKs or targets.
+       url: common-msbuild-item-metadata.md
+     - title: MSBuild API
+       summary: Reference to APIs you can use to control MSBuild programmatically when authoring custom tasks and build tools.
+       url: msbuild-api.md
+    
+   footer: "[GitHub repo](https://github.com/dotnet/msbuild) - [Wiki](https://github.com/dotnet/msbuild/wiki) - [Stack Overflow](https://stackoverflow.com/questions/tagged/msbuild) - [Issue Reporting](https://github.com/dotnet/msbuild/issues)"

@@ -1,39 +1,39 @@
 ---
 description: "Returns the number of bytes contained in this object."
-title: IEEDataStorage::GetSize | Microsoft Docs
+title: IEEDataStorage::GetSize
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEEDataStorage::GetSize
 helpviewer_keywords:
 - IEEDataStorage::GetSize
-ms.assetid: 33d232c4-1239-4abc-922b-e1bc5b908169
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEEDataStorage::GetSize
+
 Returns the number of bytes contained in this object.
 
 ## Syntax
 
-```cpp
-HRESULT GetSize(
-   ULONG* size
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSize(
    out uint size
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSize(
+   ULONG* size
+);
+```
+---
 
 ## Parameters
 `size`\

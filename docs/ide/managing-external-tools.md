@@ -1,19 +1,16 @@
 ---
-title: Manage external tools
-description: Learn how to add and manage new external tools that you can access through the Tools menu. 
-ms.custom: SEO-VS-2020
+title: Add and manage external tools on the Tools menu
+description: Add and manage new external tools that you can access through the Tools menu in the Visual Studio integrated development environment (IDE).
 ms.date: 11/20/2017
 ms.topic: conceptual
 f1_keywords:
 - vs.externaltools
 helpviewer_keywords:
 - external tools [Visual Studio]
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: anandmeg
+ms.author: meghaanand
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Manage external tools
 
@@ -23,22 +20,9 @@ You can call external tools from inside Visual Studio by using the **Tools** men
 
 The **Tools** menu contains several built-in commands, including:
 
-::: moniker range="vs-2017"
-
-* **Extensions and Updates** to [Manage Visual Studio Extensions](finding-and-using-visual-studio-extensions.md)
 * **Code Snippets Manager** to [Organize Code Snippets](code-snippets.md)
 * **Customize** to [Customize menus and toolbars](how-to-customize-menus-and-toolbars-in-visual-studio.md)
 * **Options** to [Set a variety of different options for the Visual Studio IDE and other tools](reference/options-dialog-box-visual-studio.md)
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-* **Code Snippets Manager** to [Organize Code Snippets](code-snippets.md)
-* **Customize** to [Customize menus and toolbars](how-to-customize-menus-and-toolbars-in-visual-studio.md)
-* **Options** to [Set a variety of different options for the Visual Studio IDE and other tools](reference/options-dialog-box-visual-studio.md)
-
-::: moniker-end
 
 ## Add new tools to the Tools menu
 
@@ -62,7 +46,7 @@ The following is a full list of arguments that can be used when defining an exte
 |----------|--------------|-----------------|
 |Item Path|$(ItemPath)|The complete file name of the current file (drive + path + file name).|
 |Item Directory|$(ItemDir)|The directory of the current file (drive + path).|
-|Item File Name|$(ItemFilename)|The file name of the current file (file name).|
+|Item File Name|$(ItemFilename)|The file name of the current file.|
 |Item Extension|$(ItemExt)|The file name extension of the current file.|
 |Current Line|$(CurLine)|The current line position of the cursor in the code window.|
 |Current Column|$(CurCol)|The current column position of the cursor in the code window.|
@@ -73,13 +57,13 @@ The following is a full list of arguments that can be used when defining an exte
 |Target Extension|$(TargetExt)|The file name extension of the item to be built.|
 |Binary Directory|$(BinDir)|The final location of the binary that is being built (defined as drive + path).|
 |Project Directory|$(ProjectDir)|The directory of the current project (drive + path).|
-|Project File Name|$(ProjectFileName)|The file name of the current project (drive + path + file name).|
+|Project File Name|$(ProjectFileName)|The file name of the current project.|
 |Solution Directory|$(SolutionDir)|The directory of the current solution (drive + path).|
-|Solution File Name|$(SolutionFileName)|The file name of the current solution (drive + path + file name).|
+|Solution File Name|$(SolutionFileName)|The file name of the current solution.|
 
 > [!NOTE]
 > The IDE status bar displays the **Current Line** and **Current Column** variables to indicate where the insertion point is located in the active **Code Editor**. The **Current Text** variable returns the text or code selected at that location.
 
-## See also
+## Related content
 
 - [C/C++ build tools](/cpp/build/reference/c-cpp-build-tools)

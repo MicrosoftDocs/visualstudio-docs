@@ -1,18 +1,14 @@
 ---
 title: Solutions overview
 description: Learn about the internals of a solution, for extension developers who want to work with solutions in Visual Studio extensions.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - solutions, about solutions
-ms.assetid: 3b21e3a1-170a-4485-941e-6b04b7b27886
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Solutions overview
 
@@ -37,12 +33,12 @@ When a solution is opened, the following process takes place.
 
    - When reading from an .suo file, the environment calls `QueryInterface` for `IVsPersistSolutionOpts`.
 
-   Specific information relating to the use of these files can be found in [Solution (.Sln) File](../../extensibility/internals/solution-dot-sln-file.md) and [Solution User Options (.Suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md).
+   Specific information relating to the use of these files can be found in [Solution (.sln) File](../../extensibility/internals/solution-dot-sln-file.md) and [Solution User Options (.suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md).
 
 > [!NOTE]
 > If you want to create a new solution configuration consisting of two projects' configurations and excluding a third from the build, you need to use the Property Pages UI or automation. You can't change the solution build manager configurations and their properties directly, but you can manipulate the solution build manager using the `SolutionBuild` class from DTE in the automation model. For more information about configuring solutions, see [Solution Configuration](../../extensibility/internals/solution-configuration.md).
 
-## See also
+## Related content
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionOpts>

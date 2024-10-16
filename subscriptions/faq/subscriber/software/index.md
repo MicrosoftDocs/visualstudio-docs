@@ -2,10 +2,9 @@
 title: Downloading and activating software with a Visual Studio Subscription 
 description: FAQs list for Downloading and Activating Software.
 ms.topic: conceptual
-ms.assetid: f7d64255-9c98-4c97-8a7d-67d9dc7cf98f
-author: CaityBuschlen
-ms.author: cabuschl
-ms.date: 4/3/2020
+author: joseb-rdc
+ms.author: amast
+ms.date: 09/30/2024
 ms.faqid: Section2
 ---
 

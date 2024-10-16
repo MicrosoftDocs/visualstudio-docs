@@ -1,41 +1,41 @@
 ---
 description: "Creates a string object."
-title: IDebugFunctionObject::CreateStringObject | Microsoft Docs
+title: IDebugFunctionObject::CreateStringObject
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugFunctionObject::CreateStringObject
 helpviewer_keywords:
 - IDebugFunctionObject::CreateStringObject method
-ms.assetid: fd6070ab-07d4-4ea1-8d71-b16592d6f1a7
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugFunctionObject::CreateStringObject
+
 Creates a string object.
 
 ## Syntax
 
-```cpp
-HRESULT CreateStringObject( 
-   LPCOLESTR      pcstrString,
-   IDebugObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateStringObject(
    string      pcstrString,
    out IDebugObject ppOjbect
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateStringObject( 
+   LPCOLESTR      pcstrString,
+   IDebugObject** ppObject
+);
+```
+---
 
 ## Parameters
 `pcstrString`\

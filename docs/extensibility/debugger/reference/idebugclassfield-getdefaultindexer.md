@@ -1,39 +1,39 @@
 ---
 description: "Gets the name of the default indexer."
-title: IDebugClassField::GetDefaultIndexer | Microsoft Docs
+title: IDebugClassField::GetDefaultIndexer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugClassField::GetDefaultIndexer
 helpviewer_keywords:
 - IDebugClassField::GetDefaultIndexer method
-ms.assetid: 47ce4f45-3816-4b40-909c-5032d0692d75
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugClassField::GetDefaultIndexer
+
 Gets the name of the default indexer.
 
 ## Syntax
 
-```cpp
-HRESULT GetDefaultIndexer( 
-   BSTR* pbstrIndexer
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDefaultIndexer(
    out string pbstrIndexer
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDefaultIndexer( 
+   BSTR* pbstrIndexer
+);
+```
+---
 
 ## Parameters
 `pbstrIndexer`
@@ -43,7 +43,7 @@ int GetDefaultIndexer(
  If successful, returns S_OK or returns S_FALSE if there is no default indexer. Otherwise, returns an error code.
 
 ## Remarks
- The default indexer of a class is the property that is marked as the `Default` property for array accesses. This is specific to [!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)]. Here is an example of a default indexer declared in [!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)] and how it is used.
+ The default indexer of a class is the property that is marked as the `Default` property for array accesses. This is specific to Visual Basic. Here is an example of a default indexer declared in Visual Basic and how it is used.
 
 ```vb
 Imports System.Collections;

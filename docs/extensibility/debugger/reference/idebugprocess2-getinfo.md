@@ -1,41 +1,41 @@
 ---
 description: "Gets a description of the process."
-title: IDebugProcess2::GetInfo | Microsoft Docs
+title: IDebugProcess2::GetInfo
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcess2::GetInfo
 helpviewer_keywords:
 - IDebugProcess2::GetInfo
-ms.assetid: 46021dce-bb97-46c3-b0cc-e5b3b68acc35
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProcess2::GetInfo
+
 Gets a description of the process.
 
 ## Syntax
 
-```cpp
-HRESULT GetInfo(
-   PROCESS_INFO_FIELDS  Fields,
-   PROCESS_INFO*        pProcessInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetInfo(
    enum_PROCESS_INFO_FIELDS  Fields,
    PROCESS_INFO[]            pProcessInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetInfo(
+   PROCESS_INFO_FIELDS  Fields,
+   PROCESS_INFO*        pProcessInfo
+);
+```
+---
 
 ## Parameters
 `Fields`\

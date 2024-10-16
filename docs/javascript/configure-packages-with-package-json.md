@@ -1,17 +1,15 @@
 ---
 title: "Configure npm packages with package.json"
-description: Specify npm package versions using package.json
+description: Specify npm package versions for your Node.js application by using a package.json file and investigate potential causes for warnings or errors. 
 ms.date: "09/06/2018"
 ms.topic: "conceptual"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-javascript
+manager: mijacobs
+ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
-ms.workload:
-  - "nodejs"
 ---
 # package.json configuration
 

@@ -1,7 +1,6 @@
 ---
 title: "Document host item"
 description: Learn that the Document host item is a type that extends the Document type from the primary interop assembly for Word.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -17,12 +16,11 @@ helpviewer_keywords:
   - "host items [Office development in Visual Studio], Document"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Document host item
+
   The <xref:Microsoft.Office.Tools.Word.Document> host item is a type that extends the <xref:Microsoft.Office.Interop.Word.Document> type from the primary interop assembly for Word. The <xref:Microsoft.Office.Tools.Word.Document> host item provides all of the same properties, methods, and events as a <xref:Microsoft.Office.Interop.Word.Document> object, but it also exposes additional events and acts as a container for host controls and Windows Forms controls.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
@@ -44,7 +42,7 @@ ms.workload:
 
  To generate a <xref:Microsoft.Office.Tools.Word.Document> host item, use the `GetVstoObject` method. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
 
-## See also
+## Related content
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
 - [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)
 - [Word object model overview](../vsto/word-object-model-overview.md)

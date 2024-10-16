@@ -1,39 +1,27 @@
 ---
 description: "Retrieves the program node for a specific program."
-title: IDebugProgramProvider2::GetProviderProgramNode | Microsoft Docs
+title: IDebugProgramProvider2::GetProviderProgramNode
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgramProvider2::GetProviderProgramNode
 helpviewer_keywords:
 - IDebugProgramProvider2::GetProviderProgramNode
-ms.assetid: e62e8e83-acbb-4c52-aedf-ffbd4670db29
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgramProvider2::GetProviderProgramNode
+
 Retrieves the program node for a specific program.
 
 ## Syntax
 
-```cpp
-HRESULT GetProviderProgramNode(
-   PROVIDER_FLAGS       Flags,
-   IDebugDefaultPort2*  pPort,
-   AD_PROCESS_ID        processId,
-   REFGUID              guidEngine,
-   UINT64               programId,
-   IDebugProgramNode2** ppProgramNode
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProviderProgramNode(
    enum_PROVIDER_FLAGS    Flags,
@@ -44,6 +32,18 @@ int GetProviderProgramNode(
    out IDebugProgramNode2 ppProgramNode
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProviderProgramNode(
+   PROVIDER_FLAGS       Flags,
+   IDebugDefaultPort2*  pPort,
+   AD_PROCESS_ID        processId,
+   REFGUID              guidEngine,
+   UINT64               programId,
+   IDebugProgramNode2** ppProgramNode
+);
+```
+---
 
 ## Parameters
 `Flags`\

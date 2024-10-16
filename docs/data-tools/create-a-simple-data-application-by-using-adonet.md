@@ -1,38 +1,40 @@
 ---
-title: Create a simple data application by using ADO.NET
-description: Learn to create a simple forms-to-data application by using Windows Forms and ADO.NET in Visual Studio.
-ms.custom: SEO-VS-2020
-ms.date: 08/23/2017
+title: Create a .NET Framework data app by using ADO.NET
+description: Create a forms-over-data .NET Framework application with Visual C# or Visual Basic by using Windows Forms and ADO.NET in Visual Studio.
+ms.date: 10/25/2023
 ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
-ms.assetid: 2222841f-e443-4a3d-8c70-4506aa905193
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
+
 # Create a simple data application by using ADO.NET
 
-When you create an application that manipulates data in a database, you perform basic tasks such as defining connection strings, inserting data, and running stored procedures. By following this topic, you can discover how to interact with a database from within a simple Windows Forms "forms over data" application by using Visual C# or Visual Basic and ADO.NET.  All .NET data technologies—including datasets, LINQ to SQL, and Entity Framework—ultimately perform steps that are very similar to those shown in this article.
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
-This article demonstrates a simple way to get data out of a database in a fast manner. If your application needs to modify data in non-trivial ways and update the database, you should consider using Entity Framework and using data binding to automatically sync user interface controls to changes in the underlying data.
+When you create an application that manipulates data in a database, you perform basic tasks such as defining connection strings, inserting data, and running stored procedures. By following this topic, you can discover how to interact with a database from within a simple Windows Forms "forms over data" application by using Visual C# or Visual Basic and ADO.NET. All .NET data technologies—including datasets, LINQ to SQL, and Entity Framework—ultimately perform steps that are very similar to those shown in this article.
+
+This article demonstrates a simple way to quickly get data out of a database. If your application needs to modify data in nontrivial ways and update the database, you should consider using Entity Framework and using data binding to automatically sync user interface controls to changes in the underlying data.
 
 > [!IMPORTANT]
 > To keep the code simple, it doesn't include production-ready exception handling.
 
+> [!NOTE]
+> The complete code for this tutorial can be accessed in the Visual Studio docs GitHub repo in [C#](https://github.com/MicrosoftDocs/visualstudio-docs/tree/main/docs/data-tools/codesnippet/CSharp/SimpleDataApp) and [Visual Basic](https://github.com/MicrosoftDocs/visualstudio-docs/tree/main/docs/data-tools/codesnippet/VisualBasic/SimpleDataApp).
+
 ## Prerequisites
 
-To create the application, you'll need:
+To create the application, you need:
 
-- Visual Studio.
+- Visual Studio with the **.NET desktop development** and **Data storage and processing** workloads installed. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify.
 
-- SQL Server Express LocalDB. If you don't have SQL Server Express LocalDB, you can install it from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express).
+- SQL Server Express LocalDB. If you don't have SQL Server Express LocalDB, you can install it from the [SQL Server download page](https://www.microsoft.com/sql-server/sql-server-downloads).
 
-This topic assumes that you're familiar with the basic functionality of the Visual Studio IDE and can create a Windows Forms application, add forms to the project, put buttons and other controls on the forms, set properties of the controls, and code simple events. If you aren't comfortable with these tasks, we suggest that you complete the [Getting started with Visual C# and Visual Basic](../ide/quickstart-visual-basic-console.md) topic before you start this walkthrough.
+This topic assumes that you're familiar with the basic functionality of the Visual Studio IDE and can create a Windows Forms application, add forms to the project, put buttons and other controls on the forms, set properties of the controls, and code simple events. If you aren't comfortable with these tasks, we suggest that you complete the [Create a Windows Forms app in Visual Studio with Visual Basic](../ide/create-a-visual-basic-winform-in-visual-studio.md) tutorial or the [Create a Windows Forms app in Visual Studio with C#](../ide/create-csharp-winform-visual-studio.md) tutorial before you start this walkthrough.
 
 ## Set up the sample database
 
@@ -52,15 +54,15 @@ Create the sample database by following these steps:
 
      A query editor window opens.
 
-6. Copy the [Sales Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/raw/master/docs/data-tools/samples/sales.sql) to your clipboard.
+6. Copy the [Sales Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/raw/main/docs/data-tools/samples/sales.sql) to your clipboard.
 
 7. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
-     After a short time, the query finishes running and the database objects are created. The database contains two tables: Customer and Orders. These tables contain no data initially, but you can add data when you run the application that you'll create. The database also contains four simple stored procedures.
+     After a short time, the query finishes running and the database objects are created. The database contains two tables: Customer and Orders. These tables contain no data initially, but you can add data when you run the application that you create. The database also contains four simple stored procedures.
 
 ## Create the forms and add controls
 
-1. Create a project for a Windows Forms application, and then name it **SimpleDataApp**.
+1. Create a C# or Visual Basic project using the **Windows Forms App (.NET Framework)** template, and then name it **SimpleDataApp**.
 
     Visual Studio creates the project and several files, including an empty Windows form that's named **Form1**.
 
@@ -89,7 +91,7 @@ Create the sample database by following these steps:
 
 **NewCustomer form**
 
-![Add  a new customer and place an order](../data-tools/media/simpleappnewcust.png)
+![Add a new customer and place an order](../data-tools/media/simpleappnewcust.png)
 
 |Controls for the NewCustomer form|Properties|
 | - |----------------|
@@ -117,6 +119,7 @@ Create the sample database by following these steps:
 |Button|Name = btnFinishUpdates|
 
 ## Store the connection string
+
 When your application tries to open a connection to the database, your application must have access to the connection string. To avoid entering the string manually on each form, store the string in the *App.config* file in your project, and create a method that returns the string when the method is called from any form in your application.
 
 You can find the connection string by right-clicking on the **Sales** data connection in **Server Explorer** and choosing **Properties**. Locate the **ConnectionString** property, then use **Ctrl**+**A**, **Ctrl**+**C** to select and copy the string to the clipboard.
@@ -132,8 +135,10 @@ You can find the connection string by right-clicking on the **Sales** data conne
 
 5. In the **Value** column, enter your connection string (without any outside quotes), and then save your changes.
 
-> [!NOTE]
-> In a real application, you should store the connection string securely, as described in [Connection strings and configuration files](/dotnet/framework/data/adonet/connection-strings-and-configuration-files).
+   :::image type="content" source="media/vs-2022/simple-data-app-settings.png" alt-text="Screenshot of Connection String in Settings.settings" lightbox="media/vs-2022/simple-data-app-settings.png":::
+
+> [!CAUTION]
+> In a real application, you should store the connection string securely, as described in [Connection strings and configuration files](/dotnet/framework/data/adonet/connection-strings-and-configuration-files). For best security, use an authentication method that doesn't rely on storing a password in the connection string, such as Windows Authentication for an on-premises SQL Server database. See [Save and edit connection strings](how-to-save-and-edit-connection-strings.md).
 
 ## Write the code for the forms
 
@@ -149,24 +154,36 @@ If you're using C#, in **Solution Explorer**, open **Program.cs**, and then chan
 
 If you're using Visual Basic, in **Solution Explorer**, open the **Properties** window, select the **Application** tab, and then select **SimpleDataApp.Navigation** in the **Startup form** list.
 
-#### Create auto-generated event handlers
+#### Create autogenerated event handlers
 
-Double-click the three buttons on the Navigation form to create empty event handler methods. Double-clicking the buttons also adds auto-generated code in the Designer code file that enables a button click to raise an event.
+Double-click the three buttons on the Navigation form to create empty event handler methods. Double-clicking the buttons also adds autogenerated code in the Designer code file that enables a button click to raise an event.
+
+> [!NOTE]
+> If you skip the double-click action in the designer and just copy the code and paste it into your code files, don't forget to set the event handler to the right method. You can do this in the **Properties** window. Switch to the **Events** tab (use the lightning bolt toolbar button) and look for the **Click** handler.
 
 #### Add code for the Navigation form logic
 
-In the code page for the Navigation form, complete the method bodies for the three button click event handlers as shown in the following code.
+In the code page for the Navigation form, complete the method bodies for the three button-click event handlers as shown in the following code.
+
+### [C#](#tab/csharp)
 
 :::code language="csharp" source="../data-tools/codesnippet/CSharp/SimpleDataApp/Navigation.cs" id="Snippet1":::
+
+### [VB](#tab/vb)
+
 :::code language="vb" source="../data-tools/codesnippet/VisualBasic/SimpleDataApp/Navigation.vb" id="Snippet1":::
+---
+
+> [!NOTE]
+> The code for this tutorial is available in C# and Visual Basic. To switch the code language on this page between C# and Visual Basic, use the code language switcher at the top of each code example.
 
 ### NewCustomer form
 
 When you enter a customer name and then select the **Create Account** button, the NewCustomer form creates a customer account, and SQL Server returns an IDENTITY value as the new customer ID. You can then place an order for the new account by specifying an amount and an order date and selecting the **Place Order** button.
 
-#### Create auto-generated event handlers
+#### Create autogenerated event handlers
 
-Create an empty Click event handler for each button on the NewCustomer form by double-clicking on each of the four buttons. Double-clicking the buttons also adds auto-generated code in the Designer code file that enables a button click to raise an event.
+Create an empty Click event handler for each button on the NewCustomer form by double-clicking on each of the four buttons. Double-clicking the buttons also adds autogenerated code in the Designer code file that enables a button click to raise an event.
 
 #### Add code for the NewCustomer form logic
 
@@ -174,31 +191,45 @@ To complete the NewCustomer form logic, follow these steps.
 
 1. Bring the `System.Data.SqlClient` namespace into scope so that you don't have to fully qualify the names of its members.
 
+     ### [C#](#tab/csharp)
+
      ```csharp
      using System.Data.SqlClient;
      ```
+
+     ### [VB](#tab/vb)
 
      ```vb
      Imports System.Data.SqlClient
      ```
 
+     ---
+
 2. Add some variables and helper methods to the class as shown in the following code.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../data-tools/codesnippet/CSharp/SimpleDataApp/NewCustomer.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../data-tools/codesnippet/VisualBasic/SimpleDataApp/NewCustomer.vb" id="Snippet1":::
+     ---
 
-3. Complete the method bodies for the four button click event handlers as shown in the following code.
+3. Complete the method bodies for the four button-click event handlers as shown in the following code.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../data-tools/codesnippet/CSharp/SimpleDataApp/NewCustomer.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../data-tools/codesnippet/VisualBasic/SimpleDataApp/NewCustomer.vb" id="Snippet2":::
+     ---
 
 ### FillOrCancel form
 
-The FillOrCancel form runs a query to return an order when you enter an order ID and then click the **Find Order** button. The returned row appears in a read-only data grid. You can mark the order as canceled (X) if you select the **Cancel Order** button, or you can mark the order as filled (F) if you select the **Fill Order** button. If you select the **Find Order** button again, the updated row appears.
+The FillOrCancel form runs a query to return an order when you enter an order ID, and then select the **Find Order** button. The returned row appears in a read-only data grid. You can mark the order as canceled (X) if you select the **Cancel Order** button, or you can mark the order as filled (F) if you select the **Fill Order** button. If you select the **Find Order** button again, the updated row appears.
 
-#### Create auto-generated event handlers
+#### Create autogenerated event handlers
 
-Create empty Click event handlers for the four buttons on the FillOrCancel form by double-clicking the buttons. Double-clicking the buttons also adds auto-generated code in the Designer code file that enables a button click to raise an event.
+Create empty Click event handlers for the four buttons on the FillOrCancel form by double-clicking the buttons. Double-clicking the buttons also adds autogenerated code in the Designer code file that enables a button click to raise an event.
 
 #### Add code for the FillOrCancel form logic
 
@@ -206,30 +237,44 @@ To complete the FillOrCancel form logic, follow these steps.
 
 1. Bring the following two namespaces into scope so that you don't have to fully qualify the names of their members.
 
+     ### [C#](#tab/csharp)
+
      ```csharp
      using System.Data.SqlClient;
      using System.Text.RegularExpressions;
      ```
+
+     ### [VB](#tab/vb)
 
      ```vb
      Imports System.Data.SqlClient
      Imports System.Text.RegularExpressions
      ```
 
+     ---
+
 2. Add a variable and helper method to the class as shown in the following code.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../data-tools/codesnippet/CSharp/SimpleDataApp/FillOrCancel.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../data-tools/codesnippet/VisualBasic/SimpleDataApp/FillOrCancel.vb" id="Snippet1":::
+     ---
 
-3. Complete the method bodies for the four button click event handlers as shown in the following code.
+3. Complete the method bodies for the four button-click event handlers as shown in the following code.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../data-tools/codesnippet/CSharp/SimpleDataApp/FillOrCancel.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../data-tools/codesnippet/VisualBasic/SimpleDataApp/FillOrCancel.vb" id="Snippet2":::
+     ---
 
 ## Test your application
 
-Select the **F5** key to build and test your application after you code each Click event handler, and then after you finish coding.
+Run the application and try creating a few customers and orders to verify that everything is working as expected. To verify that the database is updated with your changes, open the **Tables** node in **Server Explorer**, right-click on the **Customers** and **Orders** nodes, and choose **Show Table Data**.
 
-## See also
+## Related content
 
 - [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

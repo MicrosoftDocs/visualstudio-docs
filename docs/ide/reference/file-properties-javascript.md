@@ -1,9 +1,8 @@
 ---
 title: File Properties, JavaScript
 description: Learn how you can use file properties to indicate what actions the project system should perform on the files. 
-ms.custom: SEO-VS-2020
 ms.date: 06/21/2017
-ms.technology: vs-javascript
+ms.subservice: javascript-typescript
 ms.topic: reference
 f1_keywords:
   - "javascript.project.property.expandedsdknode.fileversion"
@@ -22,12 +21,9 @@ f1_keywords:
   - "javascript.project.property.filename"
   - "javascript.project.property.reference.resolvedpath"
   - "javascript.project.property.reference.version"
-ms.assetid: 085913b8-a97b-45f7-85fa-bbb0902f3ee9
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.workload:
-  - "multiple"
+manager: mijacobs
 ---
 # File Properties, JavaScript
 

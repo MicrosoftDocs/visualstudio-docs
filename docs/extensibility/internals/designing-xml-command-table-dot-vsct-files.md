@@ -1,33 +1,30 @@
 ---
-title: Designing XML Command Table (.Vsct) Files | Microsoft Docs
+title: Designing XML Command Table (.Vsct) Files
 description: Learn how to design an XML command table (.vsct) file that describes the layout and appearance of command items, including buttons, combo boxes, menus, and toolbars. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - VSCT files, designing
-ms.assetid: bb87a322-bac4-4258-92bc-9a876f05d653
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Design XML command table (.vsct) files
+
 An XML command table (*.vsct*) file describes the layout and appearance of command items for a VSPackage. Command items include buttons, combo boxes, menus, toolbars, and groups of command items. This article describes XML command table files, how they affect command items and menus, and how to create them.
 
 ## Commands, menus, groups, and the .vsct file
  The *.vsct* files are organized around commands, menus, and command groups. XML tags in the *.vsct* file represent each of these items, along with other associated items such as command buttons, command placement, and bitmaps.
 
- When you create a new VSPackage by running the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] package template, the template generates a *.vsct* file with the necessary elements for a menu command, tool window, or custom editor, depending on your selections. This *.vsct* file can then be modified to meet the requirements of a specific VSPackage. For examples of how to modify a *.vsct* file, see [Extend menus and commands](../../extensibility/extending-menus-and-commands.md).
+ When you create a new VSPackage by running the Visual Studio package template, the template generates a *.vsct* file with the necessary elements for a menu command, tool window, or custom editor, depending on your selections. This *.vsct* file can then be modified to meet the requirements of a specific VSPackage. For examples of how to modify a *.vsct* file, see [Extend menus and commands](../../extensibility/extending-menus-and-commands.md).
 
  To create a new, blank *.vsct* file, see [How to: Create a *.vsct* file](../../extensibility/internals/how-to-create-a-dot-vsct-file.md). Once created, you add XML elements, attributes, and values to the file to describe the command item layout. For a detailed XML schema, see the [VSCT XML schema reference](../../extensibility/vsct-xml-schema-reference.md).
 
 ## Differences between .ctc and .vsct files
  While the meaning behind the XML tags in a *.vsct* file are the same as those tags in the now deprecated *.ctc* file format, their implementation is a bit different:
 
-- The new **\<extern>** tag is where you reference other *.h* files to be compiled, such as those files for the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] toolbar.
+- The new **\<extern>** tag is where you reference other *.h* files to be compiled, such as those files for the Visual Studio toolbar.
 
 - While *.vsct* files support the **/include** statement, as *.ctc* files do, it also features a new **\<import>** element. The difference is, **/include** brings in *all* of the information, while **\<import>** brings in only the names.
 
@@ -88,7 +85,7 @@ You can use the *vsct.exe* compiler to convert an existing *.cto* file into a *.
 
 - [KeyBindings element](../../extensibility/keybindings-element.md): Specifies any key bindings for the commands. That is, one or more key combinations that must be pressed to execute the command, such as **Ctrl**+**S**.
 
-- [UsedCommands element](../../extensibility/usedcommands-element.md): Informs the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] environment that although the specified command is implemented by other code, when the current VSPackage is active, it provides the command implementation.
+- [UsedCommands element](../../extensibility/usedcommands-element.md): Informs the Visual Studio environment that although the specified command is implemented by other code, when the current VSPackage is active, it provides the command implementation.
 
 - [Symbols element](../../extensibility/symbols-element.md): Contains the symbol names and GUID IDs for all of your commands in the package.
 
@@ -110,13 +107,13 @@ You can use the *vsct.exe* compiler to convert an existing *.cto* file into a *.
 - Commands and submenus can also be assigned to multiple groups, and groups can be assigned to multiple menus using the [Commands element](../../extensibility/commands-element.md).
 
 ## .vsct file notes
- If you make any changes to a *.vsct* file after you both compile it and place it in a native satellite DLL, you should run **devenv.exe /setup /nosetupvstemplates**. Doing so forces the VSPackage resources specified in the experimental registry to be reread and the internal database that describes [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to be rebuilt.
+ If you make any changes to a *.vsct* file after you both compile it and place it in a native satellite DLL, you should run **devenv.exe /setup /nosetupvstemplates**. Doing so forces the VSPackage resources specified in the experimental registry to be reread and the internal database that describes Visual Studio to be rebuilt.
 
  During development, it is possible for multiple VSPackage projects to be created and registered in the experimental registry hive that can lead to confusing clutter in the IDE. To fix this, you can reset the experimental hive to the default settings to remove all registered VSPackages and any changes they may have made to the IDE. To reset the experimental hive, use the CreateExpInstance.exe tool that comes with the Visual Studio SDK. You can find it at:
 
  *%PROGRAMFILES(x86)%\Visual Studio\\\<version> SDK\VisualStudioIntegration\Tools\Bin\CreateExpInstance.exe*
 
- Run the tool by using the command **CreateExpInstance /Reset**. Remember that this tool removes from the experimental hive all the registered VSPackages not normally installed with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+ Run the tool by using the command **CreateExpInstance /Reset**. Remember that this tool removes from the experimental hive all the registered VSPackages not normally installed with Visual Studio.
 
-## See also
+## Related content
 - [Extend menus and commands](../../extensibility/extending-menus-and-commands.md)

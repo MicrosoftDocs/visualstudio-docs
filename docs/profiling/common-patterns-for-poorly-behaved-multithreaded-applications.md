@@ -1,7 +1,6 @@
 ---
 title: "Common patterns for poorly-behaved multithreaded apps"
 description: The Concurrency Visualizer provides graphs for multi-threaded applications, and a gallery of common patterns of poorly behaved ones. 
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -10,10 +9,8 @@ helpviewer_keywords:
   - "Concurrency Visualizer, common patterns for poorly-behaved multithreaded applications"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Common patterns for poorly-behaved multithreaded applications
 
@@ -27,7 +24,7 @@ Sometimes a parallelized application stubbornly continues to execute serially ev
 
 As shown in the following illustration, the Concurrency Visualizer can also expose this symptom in the CPU Utilization View, where, despite the presence of multiple threads, the application consumes only one logical core.
 
-For more information, see the "Start with the problem section" in the MSDN Magazine article [Thread Performance - Resource Contention Concurrency Profiling in Visual Studio 2010](/archive/msdn-magazine/2010/june/msdn-magazine-thread-performance-resource-contention-concurrency-profiling-in-visual-studio-2010).
+For more information, see the "Start with the problem section" in the MSDN Magazine article [Thread Performance - Resource Contention Concurrency Profiling in Visual Studio](/archive/msdn-magazine/2010/june/msdn-magazine-thread-performance-resource-contention-concurrency-profiling-in-visual-studio-2010).
 
 ![Lock Contention](../profiling/media/lockcontention_2.png "LockContention_2")
 
@@ -65,6 +62,6 @@ Overuse or misuse of I/O is a common cause of inefficiencies in applications. Co
 
 Lock convoys occur when the application acquires locks in a first-come, first-served order, and when the arrival rate at the lock is higher than the acquisition rate. The combination of these two conditions causes requests for the lock to start backing up. One way to combat this problem is to use "unfair" locks, or locks that give access to the first thread to find them in unlocked states. The previous illustration shows this convoy behavior. To solve the problem, try reducing contention for the synchronization objects and try using unfair locks.
 
-## See also
+## Related content
 
 [Threads View](../profiling/threads-view-parallel-performance.md)

@@ -1,39 +1,39 @@
 ---
 description: "Skips over the specified number of DEBUG_PROPERTY_INFO elements."
-title: IEnumDebugPropertyInfo2::Skip | Microsoft Docs
+title: IEnumDebugPropertyInfo2::Skip
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugPropertyInfo2::Skip
 helpviewer_keywords:
 - IEnumDebugPropertyInfo2::Skip
-ms.assetid: 0366c778-18eb-4065-a452-64b70c751a58
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugPropertyInfo2::Skip
+
 Skips over the specified number of elements.
 
 ## Syntax
 
-```cpp
-HRESULT Skip(
-   ULONG celt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Skip(
    uint celt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Skip(
+   ULONG celt
+);
+```
+---
 
 ## Parameters
 `celt`\

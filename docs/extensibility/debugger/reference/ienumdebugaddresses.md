@@ -1,21 +1,19 @@
 ---
 description: "This interface represents a collection of objects implementing the IDebugAddress interface."
-title: IEnumDebugAddresses | Microsoft Docs
+title: IEnumDebugAddresses
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugAddresses
 helpviewer_keywords:
 - IEnumDebugAddresses interface
-ms.assetid: 5f6f6751-e6d8-4c5a-8e81-414b6e5d8cc5
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IEnumDebugAddresses
+
 This interface represents a collection of objects implementing the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
 ## Syntax

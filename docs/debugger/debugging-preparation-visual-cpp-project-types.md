@@ -1,7 +1,6 @@
 ---
-title: "Prepare to debug C++ projects | Microsoft Docs"
+title: "Prepare to debug C++ projects"
 description: Get information about preparing to debug the basic project types created by the Visual C++ project templates in Visual Studio.
-ms.custom: "SEO-VS-2020"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,16 +10,14 @@ helpviewer_keywords:
   - "C++ projects, debugging"
   - "debug builds, project settings"
   - "debugging [C++]"
-ms.assetid: 912b4ba2-7719-43d5-b087-db33e3f9329a
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "cplusplus"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Debugging Preparation: C++ Project Types
-This section describes how to debug the basic project types created by the [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project templates.
+
+This section describes how to debug the basic project types created by the Visual C++ project templates.
 
  Note that those project types that create DLLs as their output have been grouped into [Debugging DLL Projects](../debugger/debugging-dll-projects.md) because of the common features they share.
 
@@ -51,11 +48,11 @@ This section describes how to debug the basic project types created by the [!INC
  [In this topic](../debugger/debugging-preparation-visual-cpp-project-types.md#BKMK_In_this_topic)
 
 ## <a name="BKMK_Win32_Projects"></a> Win32 projects
- Win32 applications are traditional Windows programs written in C or C++. Debugging this type of application in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is straightforward.
+ Win32 applications are traditional Windows programs written in C or C++. Debugging this type of application in Visual Studio is straightforward.
 
  Win32 applications include MFC applications and ATL projects. They use Windows APIs and may use MFC or ATL, but they do not use the common language runtime (CLR). They can, however, call managed code that uses the CLR.
 
- The following procedure explains how to debug a Win32 project from within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Another way to debug a Win32 application is to start the application outside of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and attach to it. For more information, see [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
+ The following procedure explains how to debug a Win32 project from within Visual Studio. Another way to debug a Win32 application is to start the application outside of Visual Studio and attach to it. For more information, see [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
 
 ### <a name="BKMK_To_debug_a_C_or_C___Win32_application"></a> To debug a C or C++ Win32 application
 
@@ -83,11 +80,11 @@ This section describes how to debug the basic project types created by the [!INC
 
 6. Open the **Linker** node, and select **Debugging**. In the first **Generate** row, select **Yes (/DEBUG)** from the drop-down list. Always set this when you are debugging.
 
-   For more information, see[Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).
+   For more information, see [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).
 
    [In this topic](../debugger/debugging-preparation-visual-cpp-project-types.md#BKMK_In_this_topic)
 
-## See also
+## Related content
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
 - [Attaching to a Running Program or Multiple Programs](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)

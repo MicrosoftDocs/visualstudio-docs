@@ -1,21 +1,19 @@
 ---
 description: "This interface represents a pointer type."
-title: IDebugPointerField | Microsoft Docs
+title: IDebugPointerField
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPointerField
 helpviewer_keywords:
 - IDebugPointerField interface
-ms.assetid: d51bd5b2-f18e-4e27-b4fb-e6f652fbf635
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugPointerField
+
 This interface represents a pointer type.
 
 ## Syntax

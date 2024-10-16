@@ -1,21 +1,18 @@
 ---
 title: Convert Get method to or from a property
 description: Learn how to use the Quick Actions and Refactorings menu to convert a Get method (and optionally your Set method) into a property.
-ms.custom: SEO-VS-2020
 ms.date: 03/10/2020
 ms.topic: reference
 ms.devlang: csharp
 author: mikadumont
 ms.author: midumont
-manager: jmartens
-ms.technology: vs-ide-general
+manager: mijacobs
+ms.subservice: general-ide
 f1_keywords:
 - vs.csharp.refactoring.convertmethodtoproperty
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- dotnet
 ---
 # Convert Get method to property / Convert property to Get method refactorings
 

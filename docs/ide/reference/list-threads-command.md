@@ -1,7 +1,6 @@
 ---
 title: List Threads Command
 description: Learn about the List Threads command and how it displays a list of the threads in the current program.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -10,15 +9,13 @@ helpviewer_keywords:
 - ListThreads command
 - list threads command
 - Debug.ListThreads command
-ms.assetid: 34b665c0-d46f-4c1a-a066-b678eba5ac54
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # List Threads Command
+
 Displays a list of the threads in the current program.
 
 ## Syntax

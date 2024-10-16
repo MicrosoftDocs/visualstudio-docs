@@ -1,7 +1,6 @@
 ---
 title: Alias Command
 description: Learn how to use the Alias command to create a new alias for a complete command, complete command and arguments, or another alias.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -12,15 +11,13 @@ helpviewer_keywords:
 - Tools.Alias command
 - command aliases
 - alias command
-ms.assetid: bdf857df-b5d5-450f-8c10-a6fd4dccc130
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Alias Command
+
 Creates a new alias for a complete command, complete command and arguments, or another alias.
 
 > [!TIP]

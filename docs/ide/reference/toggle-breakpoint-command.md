@@ -1,7 +1,6 @@
 ---
 title: Toggle Breakpoint Command
 description: Learn how to use the Toggle Breakpoint command to turn the breakpoint either on or off, depending on its current state, at the current location in the file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -10,15 +9,13 @@ helpviewer_keywords:
 - ToggleBreakpoint command
 - Debug.ToggleBreakPoint command
 - Toggle Breakpoint command
-ms.assetid: d50dfadb-ce79-4d5e-9c09-1cfddd57876d
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: Mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Toggle Breakpoint Command
+
 Turns the breakpoint either on or off, depending on its current state, at the current location in the file.
 
 ## Syntax

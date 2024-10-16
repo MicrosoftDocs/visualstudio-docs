@@ -1,19 +1,15 @@
 ---
-title: Creating Custom Editors and Designers | Microsoft Docs
+title: Creating Custom Editors and Designers
 description: "Learn about the different types of editors that can by hosted by the Visual Studio IDE: the core editor, custom editors, external editors, and designers."
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - designers [Visual Studio SDK]
 - editors [Visual Studio SDK], custom
-ms.assetid: b6a5e8b2-0ae1-4fc3-812d-09d40051b435
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Create custom editors and designers
 
@@ -34,7 +30,7 @@ The following information helps you choose the type of editor you need.
 For information about the Visual Studio core editor, see [Extend the editor and language services](../extensibility/extending-the-editor-and-language-services.md).
 
 ### Custom editors
- A custom editor is one that is designed to work in specialized circumstances. For example, you might create an editor whose function is to read and write data to a specific repository, such as a Microsoft Exchange server. Choose a custom editor if you want an editor that works with your project type only or if you want an editor that has only a few specific commands. Note, however, that users will not be able to use a custom editor to edit standard [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] projects.
+ A custom editor is one that is designed to work in specialized circumstances. For example, you might create an editor whose function is to read and write data to a specific repository, such as a Microsoft Exchange server. Choose a custom editor if you want an editor that works with your project type only or if you want an editor that has only a few specific commands. Note, however, that users will not be able to use a custom editor to edit standard Visual Studio projects.
 
  A custom editor can use an editor factory and add information about the editor to the registry. However, the project type associated with the custom editor can instantiate the custom editor in other ways.
 
@@ -56,15 +52,15 @@ For information about the Visual Studio core editor, see [Extend the editor and 
 
 - Does your editor need to host ActiveX controls?
 
-   If your editor hosts ActiveX controls, then implement an in-place activation editor, as outlined in [In-place activation](/previous-versions/visualstudio/visual-studio-2015/misc/in-place-activation?preserve-view=true&view=vs-2015). If it does not host ActiveX controls, then either use a simplified embedding editor, or customize the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] default editor.
+   If your editor hosts ActiveX controls, then implement an in-place activation editor, as outlined in [In-place activation](/previous-versions/visualstudio/visual-studio-2015/misc/in-place-activation?preserve-view=true&view=vs-2015). If it does not host ActiveX controls, then either use a simplified embedding editor, or customize the Visual Studio default editor.
 
 - Will your editor support multiple views? You must support multiple views if you want views of your editor to be visible at the same time as the default editor.
 
    If your editor needs to support multiple views, the document data and document view objects for the editor must be separate objects. For more information, see [Support multiple document views](../extensibility/supporting-multiple-document-views.md).
 
-   If your editor supports multiple views, do you plan to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor's text buffer implementation (<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> object) for your document data object? That is, do you want to support your editor view side-by-side with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor? The ability to do this is the basis of the forms designer..
+   If your editor supports multiple views, do you plan to use the Visual Studio core editor's text buffer implementation (<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> object) for your document data object? That is, do you want to support your editor view side-by-side with the Visual Studio core editor? The ability to do this is the basis of the forms designer..
 
-- If you need to host an external editor , can the editor be embedded inside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]?
+- If you need to host an external editor , can the editor be embedded inside Visual Studio?
 
    If it can be embedded, you should create a host window for the external editor and then call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject%2A> method and set the <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> enumeration value to `DP_External`. If the editor cannot be embedded, the IDE will automatically create a separate window for it.
 
@@ -88,17 +84,15 @@ Explains the difference between syntax coloring in the core editor and in custom
 [Document data and document view in custom editors](../extensibility/document-data-and-document-view-in-custom-editors.md)\
 Explains how to implement document data and document views in custom editors.
 
-## Related sections
+## Related content
 
-[Legacy interfaces in the editor](/previous-versions/visualstudio/visual-studio-2015/extensibility/legacy-interfaces-in-the-editor?preserve-view=true&view=vs-2015)\
+- [Legacy interfaces in the editor](/previous-versions/visualstudio/visual-studio-2015/extensibility/legacy-interfaces-in-the-editor?preserve-view=true&view=vs-2015)\
 Explains how to access the core editor by means of the legacy API.
 
-[Develop a legacy language service](../extensibility/internals/developing-a-legacy-language-service.md)\
+- [Develop a legacy language service](../extensibility/internals/developing-a-legacy-language-service.md)\
 Explains how to implement a language service.
 
-[Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)\
-Explains how to create UI elements that match the rest of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
-
-## See also
+- [Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)\
+Explains how to create UI elements that match the rest of Visual Studio.
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>

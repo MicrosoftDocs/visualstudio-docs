@@ -1,7 +1,6 @@
 ---
 title: "Threading support in Office"
 description: Threading is supported in the Microsoft Office object model. The Office object model isn't thread safe, but can work with multiple threads in an Office solution.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,12 +13,11 @@ helpviewer_keywords:
   - "object models [Office development in Visual Studio], threading support"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Threading support in Office
+
   This article provides information about how threading is supported in the Microsoft Office object model. The Office object model is not thread safe, but it is possible to work with multiple threads in an Office solution. Office applications are Component Object Model (COM) servers. COM allows clients to call COM servers on arbitrary threads. For COM servers that are not thread safe, COM provides a mechanism to serialize concurrent calls so that only one logical thread executes on the server at any time. This mechanism is known as the single-threaded apartment (STA) model. Because calls are serialized, callers might be blocked for periods of time while the server is busy or is handling other calls on a background thread.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
@@ -60,15 +58,19 @@ ms.workload:
 ## Start the thread correctly
  When you create a new STA thread, set the apartment state to STA before you start the thread. The following code example demonstrates how to do this.
 
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreCreatingExcelCS/ThisWorkbook.cs" id="Snippet5":::
+
+ ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreCreatingExcelVB/ThisWorkbook.vb" id="Snippet5":::
+ ---
 
  For more information, see [Managed threading best practices](/dotnet/standard/threading/managed-threading-best-practices).
 
 ## Modeless forms
  A modeless form allows some type of interaction with the application while the form is displayed. The user interacts with the form, and the form interacts with the application without closing. The Office object model supports managed modeless forms; however, they should not be used on a background thread.
 
-## See also
+## Related content
 - [Threading (C#)](/dotnet/csharp/programming-guide/concepts/threading/index)
 - [Threading (Visual Basic)](/dotnet/visual-basic/programming-guide/concepts/threading/index)
 - [Use threads and threading](/dotnet/standard/threading/using-threads-and-threading)

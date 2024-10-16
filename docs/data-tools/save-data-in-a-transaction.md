@@ -1,7 +1,6 @@
 ---
-title: 'Walkthrough: Save data in a transaction'
-description: In this walkthrough, see how to save data in a transaction by using the System.Transactions namespace in Visual Studio.
-ms.custom: SEO-VS-2020
+title: 'Walkthrough: Save data in a transaction in an ADO.NET application (.NET Framework)'
+description: In this walkthrough about .NET Framework application development in Visual Studio, see how to save data in a transaction by using the System.Transactions namespace.
 ms.date: 09/08/2017
 ms.topic: how-to
 dev_langs:
@@ -13,19 +12,21 @@ helpviewer_keywords:
 - transactions, saving data
 - Transactions namespace
 - saving data
-ms.assetid: 80260118-08bc-4b37-bfe5-9422ee7a1e4e
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
-# Walkthrough: Save data in a transaction
+
+# Walkthrough: Save data in a transaction in .NET Framework applications
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 This walkthrough demonstrates how to save data in a transaction by using the <xref:System.Transactions> namespace. In this walkthrough, you'll create a Windows Forms application. You'll use the Data Source Configuration Wizard to create a dataset for two tables in the Northwind sample database. You'll add data bound controls to a Windows form, and you'll modify the code for the BindingNavigator's save button to update the database inside a TransactionScope.
 
 ## Prerequisites
+
+To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
@@ -37,7 +38,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
        A query editor window opens.
 
-    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/master/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
+    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
@@ -45,7 +46,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create a Windows Forms application
 
-The first step is to create a **Windows Forms Application**.
+The first step is to create a **Windows Forms App (.NET Framework)**.
 
 1. In Visual Studio, on the **File** menu, select **New** > **Project**.
 
@@ -69,9 +70,9 @@ This step uses the **Data Source Configuration Wizard** to create a data source 
 
 4. On the **Choose your Data Connection** screen do one of the following:
 
-    - If a data connection to the Northwind sample database is available in the drop-down list, select it.
+    - If a data connection to the Northwind sample database is available in the dropdown list, select it.
 
-         -or-
+      -or-
 
     - Select **New Connection** to launch the **Add/Modify Connection** dialog box and create a connection to the Northwind database.
 
@@ -107,7 +108,7 @@ Transactions use the <xref:System.Transactions> namespace. A project reference t
 
 1. On the **Project** menu, select **Add Reference**.
 
-2. Select **System.Transactions** (on the **.NET** tab), and then select **OK**.
+2. Select **System.Transactions** (on the *`.NET`* tab), and then select **OK**.
 
      A reference to **System.Transactions** is added to the project.
 
@@ -121,8 +122,12 @@ For the first table dropped onto your form, code is added by default to the `cli
 
 2. Replace the `CustomersBindingNavigatorSaveItem_Click` method with the following code:
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb" id="Snippet4":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs" id="Snippet4":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb" id="Snippet4":::
+     ---
 
 The order for reconciling changes to related data is as follows:
 
@@ -138,35 +143,51 @@ The order for reconciling changes to related data is as follows:
 
 - Add the following `DeleteOrders` method to **Form1**:
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb" id="Snippet5":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs" id="Snippet5":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb" id="Snippet5":::
+     ---
 
 ### To delete existing customers
 
 - Add the following `DeleteCustomers` method to **Form1**:
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb" id="Snippet6":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs" id="Snippet6":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb" id="Snippet6":::
+     ---
 
 ### To add new customers
 
 - Add the following `AddNewCustomers` method to **Form1**:
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb" id="Snippet7":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs" id="Snippet7":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb" id="Snippet7":::
+     ---
 
 ### To add new orders
 
 - Add the following `AddNewOrders` method to **Form1**:
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb" id="Snippet8":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs" id="Snippet8":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb" id="Snippet8":::
+     ---
 
 ## Run the application
 
 Press **F5** to run the application.
 
-## See also
+## Related content
 
 - [How to: save data by using a transaction](../data-tools/save-data-by-using-a-transaction.md)
 - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

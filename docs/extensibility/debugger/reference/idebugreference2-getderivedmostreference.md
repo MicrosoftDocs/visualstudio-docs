@@ -1,39 +1,39 @@
 ---
 description: "Gets the derived-most reference of a reference."
-title: IDebugReference2::GetDerivedMostReference | Microsoft Docs
+title: IDebugReference2::GetDerivedMostReference
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugReference2::GetDerivedMostReference
 helpviewer_keywords:
 - IDebugReference2::GetDerivedMostReference
-ms.assetid: 07253b74-7d39-48e0-8e85-ac8dfd919f6e
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugReference2::GetDerivedMostReference
+
 Gets the derived-most reference of a reference. Reserved for future use.
 
 ## Syntax
 
-```cpp
-HRESULT GetDerivedMostReference( 
-   IDebugReference2** ppDerivedMost
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDerivedMostReference( 
    out IDebugReference2 ppDerivedMost
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDerivedMostReference( 
+   IDebugReference2** ppDerivedMost
+);
+```
+---
 
 ## Parameters
 `ppDerivedMost`\

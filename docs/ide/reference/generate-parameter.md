@@ -1,18 +1,15 @@
 ---
 title: Generate parameter refactoring
 description: Learn how to use the Quick Actions and Refactorings menu to automatically generate a method parameter.
-ms.custom: SEO-VS-2020
 ms.date: 03/10/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-manager: jmartens
-ms.technology: vs-ide-general
+manager: mijacobs
+ms.subservice: general-ide
 dev_langs:
   - CSharp
   - VB
-ms.workload: 
-  - "dotnet"
 ---
 # Generate parameter
 
@@ -33,7 +30,7 @@ This refactoring applies to:
 1. Place your cursor in the variable name and press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 1. Select **Generate parameter**.
 
-   ![Generate parameter](media/generate-parameter.png) 
+   ![Generate parameter](media/generate-parameter.png)
 
 ## See also
 

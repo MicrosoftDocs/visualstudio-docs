@@ -1,22 +1,19 @@
 ---
-title: Expression Evaluation in Break Mode | Microsoft Docs
+title: Expression Evaluation in Break Mode
 description: Learn about the process that occurs when the debugger is in break mode and must conduct expression evaluation.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - break mode, expression evaluation
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation, break mode
-ms.assetid: 34fe5b58-15d5-4387-a266-72120f90a4b6
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Expression evaluation in break mode
+
 The following section describes the process that occurs when the debugger is in break mode and must conduct expression evaluation.
 
 ## Expression evaluation process
@@ -36,5 +33,5 @@ The following section describes the process that occurs when the debugger is in 
 
     - When using `IDebugExpression2::EvaluateAsync`, the given callback interface communicates the ongoing process of the evaluation. Once the evaluation is complete, EvaluateAsync sends an [IDebugExpressionEvaluationCompleteEvent2](../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md) interface through the callback. With this event interface, the final value results with [GetResult](../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2-getresult.md).
 
-## See also
+## Related content
 - [Call debugger events](../../extensibility/debugger/calling-debugger-events.md)

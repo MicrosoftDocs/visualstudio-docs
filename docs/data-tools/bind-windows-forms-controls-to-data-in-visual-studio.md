@@ -1,7 +1,6 @@
 ---
-title: Bind Windows Forms controls to data
-description: Bind Windows Forms controls to data in Visual Studio so that you can display data to users of your application.
-ms.custom: SEO-VS-2020
+title: Bind Windows Forms controls to .NET Framework apps
+description: Bind Windows Forms controls to data with ADO.NET in Visual Studio to display data to users of .NET Framework applications.
 ms.date: 11/03/2017
 ms.topic: how-to
 helpviewer_keywords:
@@ -13,15 +12,15 @@ helpviewer_keywords:
 - data sources, displaying data
 - displaying data, Windows Forms
 - data [Windows Forms], displaying
-ms.assetid: 243338ef-41af-4cc5-aff7-1e830236f0ec
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
-# Bind Windows Forms controls to data in Visual Studio
+
+# Bind Windows Forms controls to data in .NET Framework applications
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 You can display data to users of your application by binding data to Windows Forms. To create these data-bound controls, drag items from the **Data Sources** window onto the Windows Forms Designer in Visual Studio.
 
@@ -30,7 +29,7 @@ You can display data to users of your application by binding data to Windows For
 > [!TIP]
 > If the **Data Sources** window is not visible, you can open it by choosing **View** > **Other Windows** > **Data Sources**, or by pressing **Shift**+**Alt**+**D**. You must have a project open in Visual Studio to see the **Data Sources** window.
 
-Before you drag items, you can set the type of control you want to bind to. Different values appear depending on whether you choose the table itself, or an individual column.  You can also set custom values. For a table, **Details** means that each column is bound to a separate control.
+Before you drag items, you can set the type of control you want to bind to. Different values appear depending on whether you choose the table itself, or an individual column. You can also set custom values. For a table, **Details** means that each column is bound to a separate control.
 
 ![Bind data source to DataGridView](../data-tools/media/raddata-bind-data-source-to-datagridview.png)
 
@@ -77,7 +76,7 @@ The following illustration shows the default data-bound controls that are added 
 
 Note also that each control has a smart tag. This tag enables customizations that apply to that control only.
 
-## See also
+## Related content
 
 - [Binding controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)
 - [Data binding in Windows Forms (.NET Framework)](/dotnet/framework/winforms/windows-forms-data-binding)

@@ -1,41 +1,41 @@
 ---
 description: "Gets the source document associated with this input stream."
-title: IDebugDisassemblyStream2::GetDocument | Microsoft Docs
+title: IDebugDisassemblyStream2::GetDocument
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDisassemblyStream2::GetDocument
 helpviewer_keywords:
 - IDebugDisassemblyStream2::GetDocument
-ms.assetid: 3d039a44-ebaa-4413-ac18-7cfd92c408bd
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugDisassemblyStream2::GetDocument
+
 Gets the source document associated with this input stream.
 
 ## Syntax
 
-```cpp
-HRESULT GetDocument( 
-   BSTR              bstrDocumentUrl,
-   IDebugDocument2** ppDocument
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocument( 
    string              bstrDocumentUrl,
    out IDebugDocument2 ppDocument
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocument( 
+   BSTR              bstrDocumentUrl,
+   IDebugDocument2** ppDocument
+);
+```
+---
 
 ## Parameters
 `bstrDocumentUrl`\

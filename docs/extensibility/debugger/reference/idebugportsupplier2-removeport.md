@@ -1,39 +1,39 @@
 ---
 description: "Removes a port."
-title: IDebugPortSupplier2::RemovePort | Microsoft Docs
+title: IDebugPortSupplier2::RemovePort
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortSupplier2::RemovePort
 helpviewer_keywords:
 - IDebugPortSupplier2::RemovePort
-ms.assetid: f5c1fbf2-9084-46f2-a682-7db963928df2
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPortSupplier2::RemovePort
+
 Removes a port.
 
 ## Syntax
 
-```cpp
-HRESULT RemovePort( 
-   IDebugPort2* pPort
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int RemovePort( 
    IDebugPort2 pPort
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT RemovePort( 
+   IDebugPort2* pPort
+);
+```
+---
 
 ## Parameters
 `pPort`\

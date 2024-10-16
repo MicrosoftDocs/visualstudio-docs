@@ -1,24 +1,20 @@
 ---
 title: Commands
-description: Learn about the various commands you have access to in Visual Studio. 
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+description: Learn about the various commands you have access to in Visual Studio.
+ms.date: 03/10/2022
 ms.topic: reference
 helpviewer_keywords:
 - Visual Studio, commands
 - commands, Visual Studio
 - command syntax
-ms.assetid: 76ffa394-ee89-4629-aba9-1a62b72e6cc1
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: anandmeg
+ms.author: meghaanand
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # Visual Studio commands
 
-You can enter Visual Studio commands in the **Command** window, **Immediate** window, or **Find/Command** box. In each case, the greater than sign (`>`) indicates that a command, rather than a search or debug operation, follows.
+You can enter Visual Studio commands in the [**Command** window](../../ide/reference/command-window.md), [**Immediate** window](../../ide/reference/immediate-window.md), or **Find/Command** box. In each case, the greater than sign (`>`) indicates that a command, rather than a search or debug operation, follows.
 
 You can find a complete list of commands and their syntax on the **Keyboard** page in **Tools** > **Options** > **Environment**.
 
@@ -44,7 +40,6 @@ The following commands take arguments or switches:
 | - | - |
 | [Add Existing Item](../../ide/reference/add-existing-item-command.md) | Adds an existing file to the current solution and opens it. |
 | [Add Existing Project](../../ide/reference/add-existing-project-command.md) | Adds an existing project to the current solution. |
-| [Add New Item](../../ide/reference/add-new-item-command.md) | Adds a new solution item, such as an .htm, .css, .txt, or frameset to the current solution and opens it. |
 | [Alias](../../ide/reference/alias-command.md) | Creates a new alias for a complete command, complete command and arguments, or even another alias. |
 | [Evaluate Statement](../../ide/reference/evaluate-statement-command.md) | Evaluates and displays the given statement. |
 | [Find](../../ide/reference/find-command.md) | Searches files using a subset of the options available on the **Find and Replace** control. |
@@ -68,7 +63,7 @@ The following commands take arguments or switches:
 | [Set Current Stack Frame](../../ide/reference/set-current-stack-frame-command.md) | Allows you to view a particular stack frame. |
 | [Set Current Thread](../../ide/reference/set-current-thread-command.md) | Allows you to view a particular thread. |
 | [Set Radix](../../ide/reference/set-radix-command.md) | Determines the number of bytes to view. |
-| [Shell](../../ide/reference/shell-command.md) | Launches programs from within [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] as though the command has been executed from the command prompt. |
+| [Shell](../../ide/reference/shell-command.md) | Launches programs from within Visual Studio as though the command has been executed from the command prompt. |
 | [ShowWebBrowser Command](../../ide/reference/showwebbrowser-command.md) | Displays the URL you specify in a web browser window either within the integrated development environment (IDE) or external to the IDE. |
 | [Start](../../ide/reference/start-command.md) | Begins the debug process and allows you to specify how errors are handled. |
 | [Path](../../ide/reference/symbol-path-command.md) | Sets the list of directories for the debugger to search for symbols. |

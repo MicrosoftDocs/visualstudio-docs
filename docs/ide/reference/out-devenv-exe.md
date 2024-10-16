@@ -1,7 +1,6 @@
 ---
 title: -Out (devenv.exe)
 description: Learn how to use the Out devenv command-line switch to specify a file to store and display errors when you run, run and exit, upgrade, build, rebuild, clean, or deploy a solution.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
@@ -14,13 +13,10 @@ helpviewer_keywords:
 - Out Devenv switch
 - builds [Visual Studio], errors
 - output files, build errors
-ms.assetid: 9002d8c2-36d4-451c-b489-8f01932f31f7
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: general-ide
 ---
 # /Out (devenv.exe)
 

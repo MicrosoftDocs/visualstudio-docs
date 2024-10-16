@@ -1,28 +1,35 @@
 ---
 description: "Specifies the step unit for stepping."
-title: STEPUNIT | Microsoft Docs
+title: STEPUNIT
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - STEPUNIT
 helpviewer_keywords:
 - STEPUNIT enumeration
-ms.assetid: cb8441f2-f744-4e73-acfe-ae8542df9649
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # STEPUNIT
+
 Specifies the step unit for stepping.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+enum enum_STEPUNIT { 
+   STEP_STATEMENT   = 0,
+   STEP_LINE        = 1,
+   STEP_INSTRUCTION = 2
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_STEPUNIT { 
    STEP_STATEMENT   = 0,
@@ -31,14 +38,7 @@ enum enum_STEPUNIT { 
 };
 typedef DWORD STEPUNIT;
 ```
-
-```csharp
-enum enum_STEPUNIT { 
-   STEP_STATEMENT   = 0,
-   STEP_LINE        = 1,
-   STEP_INSTRUCTION = 2
-};
-```
+---
 
 ## Fields
  `STEP_STATEMENT`\

@@ -1,18 +1,14 @@
 ---
 title: Add Parameters & Add Arguments dialog boxes
 description: Learn how the user interface (UI) elements of the Add Parameters dialog box are used by the InvokeMethod designer in Workflow Designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - AddParameters.UI
-ms.assetid: a21fb4fe-134b-40b0-8497-86b842940ca1
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
-author: TerryGLee
+author: jodavis
+ms.author: jodavis
+manager: mijacobs
+ms.subservice: workflow-designer
 ---
 # Add Parameters and Add Arguments Dialog Boxes
 

@@ -1,39 +1,39 @@
 ---
 description: "This method sets the debug engine's (DE) GUID`."
-title: IDebugEngine3::SetEngineGuid | Microsoft Docs
+title: IDebugEngine3::SetEngineGuid
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngine3::SetEngineGuid
 helpviewer_keywords:
 - IDebugEngine3::SetEngineGuid
-ms.assetid: 8bdfa05d-feb7-4d98-abac-77825a04c50f
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugEngine3::SetEngineGuid
+
 This method sets the debug engine's (DE) `GUID`.
 
 ## Syntax
 
-```cpp
-HRESULT SetEngineGuid(
-   GUID* guidEngine
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetEngineGuid(
    ref Guid guidEngine
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetEngineGuid(
+   GUID* guidEngine
+);
+```
+---
 
 ## Parameters
 `guidEngine`\

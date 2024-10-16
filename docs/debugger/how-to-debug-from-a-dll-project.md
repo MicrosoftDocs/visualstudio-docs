@@ -1,8 +1,7 @@
 ---
-title: Debug from a DLL Project | Microsoft Docs
+title: Debug a DLL Project from the project itself
 description: You can start the debugging of a DLL project from the project itself, by specifying the calling app in the project properties. See this article for details.
-ms.custom: SEO-VS-2020
-ms.date: 3/30/2021
+ms.date: 4/21/2023
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -14,15 +13,12 @@ helpviewer_keywords:
   - debugging DLLs
   - DLLs, debugging projects
   - debugging [Visual Studio], DLLs
-ms.assetid: 40a94339-d3f7-4ab9-b8a1-b8cf82942f44
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
-# How to: Debug from a DLL project in Visual Studio (C#, C++, Visual Basic, F#)
+# Debug from a DLL project in Visual Studio (C#, C++, Visual Basic, F#)
 
 One way to debug a DLL project is to specify the calling app in the DLL project properties. Then you can start debugging from the DLL project itself. For this method to work, the app must call the same DLL in the same location as the one you configure. If the app finds and loads a different version of the DLL, that version won't contain your breakpoints. For other methods of debugging DLLs, see [Debugging DLL projects](../debugger/debugging-dll-projects.md).
 
@@ -48,6 +44,27 @@ Native and managed DLL projects have different settings to specify calling apps.
 
 1. Select **OK**.
 
+::: moniker range=">= vs-2022"
+## Specify a calling app in a C# DLL project (.NET Core, .NET 5+)
+
+1. Select the C# or Visual Basic DLL project in **Solution Explorer**. Select the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
+
+1. In the Debug tab, select **Open Debug launch profiles UI**.
+
+1. In the Launch Profiles dialog box, select the **Create a new profile** icon, and choose **Executable**.
+
+   :::image type="content" source="../debugger/media/vs-2022/dbg-profile-create-new.png" alt-text="Screenshot of the UI to create a new debug profile.":::
+
+1. In the new profile, under **Executable**, browse to the location of the executable (*.exe* file) and select it.
+
+1. In the Launch Profiles dialog box, note the name of the default profile, then select it and delete it.
+
+1. Rename the new profile to the same name as the default profile.
+
+   Alternatively, you can manually edit *launchSettings.json* to get the same result. You want the first profile in *launchSettings.json* to match the name of the Class Library, and you want it listed first in the file.
+
+::: moniker-end
+
 ## Specify a calling app in a managed DLL project
 
 1. Select the C# or Visual Basic DLL project in **Solution Explorer**. Select the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
@@ -60,7 +77,12 @@ Native and managed DLL projects have different settings to specify calling apps.
 
    - Or, select **Start browser with URL** and fill in the URL of a local ASP.NET app.
 
+   ::: moniker range=">= vs-2022"
+   - For .NET Core DLLs in Visual Basic, the **Debug** Properties page is different. Select **Executable** from the **Launch** dropdown, and then add the fully qualified path and name of the calling app in the **Executable** field.
+   ::: moniker-end
+   ::: moniker range="<= vs-2019"
    - For .NET Core DLLs, the **Debug** Properties page is different. Select **Executable** from the **Launch** dropdown, and then add the fully qualified path and name of the calling app in the **Executable** field.
+   ::: moniker-end
 
 1. Add any necessary command-line arguments in the **Command line arguments** or **Application arguments** field.
 
@@ -84,7 +106,7 @@ Additional tips:
 
 - In some scenarios, you may need to tell the debugger where to find the source code. For more information, see [Use the No Symbols Loaded/No Source Loaded pages](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md#use-the-no-symbols-loadedno-source-loaded-pages).
 
-## See also
+## Related content
 - [Debugging DLL projects](../debugger/debugging-dll-projects.md)
 - [Project settings for  C# debug configurations](../debugger/project-settings-for-csharp-debug-configurations.md)
 - [Project settings for a Visual Basic debug configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)

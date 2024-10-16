@@ -30,7 +30,7 @@
       href: fill-datasets-by-using-tableadapters.md
     - name: Work with DataSets in n-tier applications
       href: work-with-datasets-in-n-tier-applications.md
-  - name: Database projects and data-tier applications (DAC)
+  - name: Database projects and data-tier applications (DACs)
     href: creating-and-managing-databases-and-data-tier-applications-in-visual-studio.md
   - name: N-tier data applications overview
     href: n-tier-data-applications-overview.md
@@ -38,14 +38,12 @@
   items:
   - name: Create a database
     href: create-a-sql-database-by-using-a-designer.md
-  - name: Connections
-    items:
-    - name: Add connections
-      href: add-new-connections.md
-    - name: Save and edit connection strings
-      href: how-to-save-and-edit-connection-strings.md
-    - name: Connect to data in an Access database
-      href: connect-to-data-in-an-access-database-windows-forms.md
+  - name: Connect to a database
+    href: add-new-connections.md
+  - name: Save and edit connection strings
+    href: how-to-save-and-edit-connection-strings.md
+  - name: Connect to data in an Access database
+    href: connect-to-data-in-an-access-database-windows-forms.md
   - name: Add .NET data sources
     href: add-new-data-sources.md
   - name: LINQ to SQL tools
@@ -120,7 +118,7 @@
         items:
         - name: Save data by using a transaction
           href: save-data-by-using-a-transaction.md
-        - name: "Walkthrough: Save data in a transaction"
+        - name: 'Walkthrough: Save data in a transaction'
           href: save-data-in-a-transaction.md
       - name: Save data to a database (multiple tables)
         href: save-data-to-a-database-multiple-tables.md
@@ -132,16 +130,6 @@
         href: save-a-dataset-as-xml.md
     - name: Query DataSets
       href: query-datasets.md
-    - name: N-tier applications
-      items:
-      - name: Add validation to an n-tier DataSet
-        href: add-validation-to-an-n-tier-dataset.md
-      - name: Add code to DataSets in n-tier applications
-        href: add-code-to-datasets-in-n-tier-applications.md
-      - name: Add code to TableAdapters in n-tier applications
-        href: add-code-to-tableadapters-in-n-tier-applications.md
-      - name: Separate DataSets and TableAdapters into different projects
-        href: separate-datasets-and-tableadapters-into-different-projects.md
   - name: Controls
     items:
     - name: Bind controls to data sources
@@ -199,19 +187,15 @@
       href: how-to-connect-to-data-in-a-service.md
     - name: Create a WCF Service in Windows Forms
       href: walkthrough-creating-a-simple-wcf-service-in-windows-forms.md
-    - name: Create a WCF Data Service with WPF and Entity Framework
-      href: walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework.md
     - name: Troubleshoot service references
-      href: troubleshooting-service-references.md
+      href: /troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-service-references?toc=%2Fvisualstudio%2Fdata-tools%2Ftoc.json
     - name: Configure service reference dialog box
       href: configure-service-reference-dialog-box.md
     - name: Add, update, or remove a WCF Data Service reference
       href: how-to-add-update-or-remove-a-wcf-data-service-reference.md
-  - name: Upgrade .mdf files
-    href: upgrade-dot-mdf-files.md
 - name: Reference
   items:
-  - name: O/R Designer (Linq to SQL)
+  - name: O/R Designer (LINQ to SQL)
     items:
     - name: DataContext methods
       href: datacontext-methods-o-r-designer.md

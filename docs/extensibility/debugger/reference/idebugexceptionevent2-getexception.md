@@ -1,39 +1,39 @@
 ---
 description: "Gets a detailed description of the exception that fired this event."
-title: IDebugExceptionEvent2::GetException | Microsoft Docs
+title: IDebugExceptionEvent2::GetException
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExceptionEvent2::GetException
 helpviewer_keywords:
 - IDebugExceptionEvent2::GetException
-ms.assetid: 7c98f41d-322b-4e72-a514-cbd4823eb70d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExceptionEvent2::GetException
+
 Gets a detailed description of the exception that fired this event.
 
 ## Syntax
 
-```cpp
-HRESULT GetException( 
-   EXCEPTION_INFO* pExceptionInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetException( 
    EXCEPTION_INFO[] pExceptionInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetException( 
+   EXCEPTION_INFO* pExceptionInfo
+);
+```
+---
 
 ## Parameters
 `pExceptionInfo`\

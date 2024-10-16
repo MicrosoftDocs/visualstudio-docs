@@ -1,16 +1,15 @@
 ---
-title: XAML code editor
-description: Take a tour of the XAML code editor in Visual Studio
+title: What is the XAML code editor?
+description: Explore the XAML code editor in Visual Studio for tools to create Windows Presentation Foundation (WPF) or Universal Windows Platform (UWP) apps and Xamarin forms.
 ms.date: 06/16/2020
 ms.topic: overview
 f1_keywords:
 - VS.XamlEditor
-monikerRange: vs-2019
-ms.custom: contperf-fy21q4
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-xaml-tools
+monikerRange: ">=vs-2019"
+author: maddymontaquila
+ms.author: maleger
+manager: mijacobs
+ms.subservice: xaml-tools
 ---
 # XAML code editor
 
@@ -143,8 +142,8 @@ Here's what each feature does and how it's useful:
 - **Quick Actions and Refactorings** - Refactors, generates, or otherwise modifies code with a single action. When you hover over code, you'll see a lightbulb icon when a quick action or refactoring is available. <br>See also: [Quick Actions](../ide/quick-actions.md) and [Refactor code](../ide/refactoring-in-visual-studio.md).
 - **Rename...** - Renames namespaces only. If you don't have a namespace to rename, you'll receive an error message that says "Only namespace prefixes can be renamed."
 - **Remove and Sort Namespaces** - Removes unused namespaces and then sorts those namespaces that remain.
-- **Peek Definition** - Previews the definition of a type without leaving your current location in the editor. <br>See also: [Peek Definition](../ide/go-to-and-peek-definition.md#peek-definition) and [View and edit code by using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
-- **Go To Definition** - Navigates to the source of a type or member, and opens the result in a new tab. <br>See also: [Go To Definition](../ide/go-to-and-peek-definition.md#go-to-definition).
+- **Peek Definition** - Previews the definition of a type without leaving your current location in the editor. <br>See also: [Peek Definition](../ide/go-to-and-peek-definition.md#peek-at-a-definition) and [View and edit code by using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
+- **Go To Definition** - Navigates to the source of a type or member, and opens the result in a new tab. <br>See also: [Go To Definition](../ide/go-to-and-peek-definition.md#go-to-a-definition).
 - **Surround with...** - Use surround-with code snippets, which are added around a selected block of code. <br>See also: [Expansion snippets and surround-with snippets](../ide/code-snippets.md#expansion-snippets-and-surround-with-snippets).
 - **Insert Snippet** - Inserts a code snippet at the cursor location.
 - **Cut** - Self-explanatory
@@ -187,7 +186,7 @@ For more information, see the [Code snippets](../ide/code-snippets.md) and [C# c
 
 ### XAML #region support
 
-Starting with Visual Studio 2015, we made #region support available for XAML developers in WPF and UWP, and more recently in [Xamarin.Forms](/xamarin/xamarin-forms/user-interface/text/editor/), too. In Visual Studio 2019, we continue to make incremental improvements to #region support. For example, in [version 16.4](/visualstudio/releases/2019/release-notes-v16.4/) and later, #region options show as you begin to type `<!`.
+In Visual Studio, #region support is available for XAML developers in WPF, UWP, and [Xamarin.Forms](/xamarin/xamarin-forms/user-interface/text/editor/). In Visual Studio 2019, we continue to make incremental improvements to #region support. For example, in [version 16.4](/visualstudio/releases/2019/release-notes-v16.4/) and later, #region options show as you begin to type `<!`.
 
 ![The XAML code editor with #region options showing in IntelliSense](media/code-editor-xaml-region.png "Screenshot of the XAML code editor with #region options showing in IntelliSense")
 
@@ -302,5 +301,3 @@ To learn more about how to edit your code in real time while you're running your
 - [Visual Studio code editor features](../ide/writing-code-in-the-code-and-text-editor.md)
 - [XAML in UWP apps](/windows/uwp/xaml-platform/xaml-overview/)
 - [XAML in Xamarin.Forms apps](/xamarin/xamarin-forms/xaml/)
-- [Xamarin mobile app development (Mac)](/visualstudio/mac/xamarin/)
-- [Visual Studio 2019 for Mac - IDE tour (Mac)](/visualstudio/mac/ide-tour/)

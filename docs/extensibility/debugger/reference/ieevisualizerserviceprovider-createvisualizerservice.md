@@ -1,38 +1,27 @@
 ---
 description: "This method creates a visualizer service."
-title: IEEVisualizerServiceProvider::CreateVisualizerService | Microsoft Docs
+title: IEEVisualizerServiceProvider::CreateVisualizerService
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEEVisualizerServiceProvider::CreateVisualizerService
 helpviewer_keywords:
 - IEEVisualizerServiceProvider::CreateVisualizerService method
-ms.assetid: f366f7c9-358d-46c8-993f-32ff86539833
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEEVisualizerServiceProvider::CreateVisualizerService
+
 This method creates a visualizer service.
 
 ## Syntax
 
-```cpp
-HRESULT CreateVisualizerService(
-   IDebugBinder*              binder,
-   IDebugSymbolProvider*      pSymProv,
-   IDebugAddress*             pAddress,
-   IEEVisualizerDataProvider* dataProvider,
-   IEEVisualizerService**     ppService
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateVisualizerService(
    IDebugBinder binder,
@@ -42,6 +31,17 @@ int CreateVisualizerService(
    out IEEVisualizerService  ppService
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateVisualizerService(
+   IDebugBinder*              binder,
+   IDebugSymbolProvider*      pSymProv,
+   IDebugAddress*             pAddress,
+   IEEVisualizerDataProvider* dataProvider,
+   IEEVisualizerService**     ppService
+);
+```
+---
 
 ## Parameters
 `binder`\

@@ -1,7 +1,6 @@
 ---
-title: "&lt;customErrorReporting&gt; Element (ClickOnce Deployment) | Microsoft Docs"
+title: "&lt;customErrorReporting&gt; Element (ClickOnce Deployment)"
 description: The customErrorReporting element specifies a URI to show when an error occurs instead of an error dialog box showing the exception stack.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -10,15 +9,13 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<customErrorReporting> element [ClickOnce deployment manifest]"
-ms.assetid: 7d31816e-c692-46b5-9cc9-753284b3bcda
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: deployment
 ---
 # &lt;customErrorReporting&gt; element (ClickOnce deployment)
+
 Specifies a URI to show when an error occurs.
 
 ## Syntax
@@ -30,7 +27,7 @@ Specifies a URI to show when an error occurs.
 ```
 
 ## Remarks
- This element is optional. Without it, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] displays an error dialog box showing the exception stack. If the `customErrorReporting` element is present, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will instead display the URI indicated by the `uri` parameter. The target URI will include the outer exception class, the inner exception class, and the inner exception message as parameters.
+ This element is optional. Without it, ClickOnce displays an error dialog box showing the exception stack. If the `customErrorReporting` element is present, ClickOnce will instead display the URI indicated by the `uri` parameter. The target URI will include the outer exception class, the inner exception class, and the inner exception message as parameters.
 
  Use this element to add error reporting functionality to your application. Since the generated URI includes information about the type of error, your Web site can parse that information and display, for example, an appropriate troubleshooting screen.
 

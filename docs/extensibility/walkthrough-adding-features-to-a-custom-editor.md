@@ -1,20 +1,17 @@
 ---
-title: 'Walkthrough: Adding Features to a Custom Editor | Microsoft Docs'
+title: 'Walkthrough: Adding Features to a Custom Editor'
 description: Learn how to add more features to a custom editor after you create the editor by using this walkthrough.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - add features
-ms.assetid: bfe083b6-3e35-4b9c-ad4f-b30b9ff412a5
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Walkthrough: Add features to a custom editor
+
 After you create a custom editor, you can add more features to it.
 
 ## To create an editor for a VSPackage
@@ -116,7 +113,7 @@ After you create a custom editor, you can add more features to it.
 
 13. Expose an Automation Object Model from your editor by implementing the `IDispatch` interface.
 
-     For more information, see [Contributing to the Automation Model](../extensibility/internals/contributing-to-the-automation-model.md).
+     For more information, see [Automation model overview](../extensibility/internals/automation-model-overview.md).
 
 ## Robust programming
 
@@ -135,9 +132,9 @@ After you create a custom editor, you can add more features to it.
   > [!NOTE]
   > The `IOleInPlaceComponent` interface is used to avoid OLE 2 menu merging.
 
-   Your `IOleCommandTarget` implementation handles commands such as **Cut**, **Copy**, and **Paste**. When implementing `IOleCommandTarget`, decide whether your editor requires its own *.vsct* file to define its own command menu structure or if it can implement standard commands defined by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Typically, editors use and extend the IDE's menus and define their own toolbars. However, it's often necessary for an editor to define its own specific commands in addition to using the IDE's standard command set. Your editor must declare the standard commands it uses and then define any new commands, context menus, top-level menus, and toolbars in a *.vsct* file. If you create an in-place activation editor, implement <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponent> and define the menus and toolbars for the editor in a *.vsct* file instead of using OLE 2 menu merging.
+   Your `IOleCommandTarget` implementation handles commands such as **Cut**, **Copy**, and **Paste**. When implementing `IOleCommandTarget`, decide whether your editor requires its own *.vsct* file to define its own command menu structure or if it can implement standard commands defined by Visual Studio. Typically, editors use and extend the IDE's menus and define their own toolbars. However, it's often necessary for an editor to define its own specific commands in addition to using the IDE's standard command set. Your editor must declare the standard commands it uses and then define any new commands, context menus, top-level menus, and toolbars in a *.vsct* file. If you create an in-place activation editor, implement <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponent> and define the menus and toolbars for the editor in a *.vsct* file instead of using OLE 2 menu merging.
 
-- To prevent menu command crowding in the UI, you should use the existing commands in the IDE before inventing new commands. Shared commands are defined in *SharedCmdDef.vsct* and *ShellCmdDef.vsct*. These files are installed by default in the VisualStudioIntegration\Common\Inc subdirectory of your [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] installation.
+- To prevent menu command crowding in the UI, you should use the existing commands in the IDE before inventing new commands. Shared commands are defined in *SharedCmdDef.vsct* and *ShellCmdDef.vsct*. These files are installed by default in the VisualStudioIntegration\Common\Inc subdirectory of your Visual Studio SDK installation.
 
 - `ISelectionContainer` can express both single and multiple selections. Each selected object is implemented as an `IDispatch` object.
 
@@ -149,6 +146,6 @@ After you create a custom editor, you can add more features to it.
 
   - `Window.Object`
 
-## See also
+## Related content
 
-- [Contribute to the automation model](../extensibility/internals/contributing-to-the-automation-model.md)
+- [Automation model overview](../extensibility/internals/automation-model-overview.md)

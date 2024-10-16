@@ -1,21 +1,19 @@
 ---
 description: "This interface registers or unregisters a program that can be debugged with the port it is running on."
-title: IDebugPortNotify2 | Microsoft Docs
+title: IDebugPortNotify2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortNotify2
 helpviewer_keywords:
 - IDebugPortNotify2 interface
-ms.assetid: 43278b79-bf16-4c08-bcf1-6f7f7a17feab
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugPortNotify2
+
 This interface registers or unregisters a program that can be debugged with the port it is running on.
 
 ## Syntax

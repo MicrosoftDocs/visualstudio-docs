@@ -1,41 +1,41 @@
 ---
 description: "Gets the value of the object as a consecutive series of bytes."
-title: IDebugObject::GetValue | Microsoft Docs
+title: IDebugObject::GetValue
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugObject::GetValue
 helpviewer_keywords:
 - IDebugObject::GetValue method
-ms.assetid: eec6051e-8ecb-49fa-bdd4-dd786f211692
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugObject::GetValue
+
 Gets the value of the object as a consecutive series of bytes.
 
 ## Syntax
 
-```cpp
-HRESULT GetValue( 
-   BYTE* pValue,
-   UINT  nSize
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetValue(
    ref byte[] pValue,
    uint nSize
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetValue( 
+   BYTE* pValue,
+   UINT  nSize
+);
+```
+---
 
 ## Parameters
 `pValue`\

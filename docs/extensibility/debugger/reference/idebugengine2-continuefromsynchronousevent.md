@@ -1,39 +1,39 @@
 ---
 description: "Called by the session debug manager (SDM) to indicate that a synchronous debug event, previously sent by the debug engine (DE) to the SDM, was received and processed."
-title: IDebugEngine2::ContinueFromSynchronousEvent | Microsoft Docs
+title: IDebugEngine2::ContinueFromSynchronousEvent
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngine2::ContinueFromSynchronousEvent
 helpviewer_keywords:
 - IDebugEngine2::ContinueFromSynchronousEvent
-ms.assetid: 9a57dfcd-df8e-4be5-b1fe-bd853e3c6bb2
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugEngine2::ContinueFromSynchronousEvent
+
 Called by the session debug manager (SDM) to indicate that a synchronous debug event, previously sent by the debug engine (DE) to the SDM, was received and processed.
 
 ## Syntax
 
-```cpp
-HRESULT ContinueFromSynchronousEvent(
-    IDebugEvent2* pEvent
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 HRESULT ContinueFromSynchronousEvent(
     IDebugEvent2 pEvent
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ContinueFromSynchronousEvent(
+    IDebugEvent2* pEvent
+);
+```
+---
 
 ## Parameters
 `pEvent`\

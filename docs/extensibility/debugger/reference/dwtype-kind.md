@@ -1,28 +1,35 @@
 ---
 description: "Specifies how to interpret the type of an IDebugField object."
-title: dwTYPE_KIND | Microsoft Docs
+title: dwTYPE_KIND
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - dwTYPE_KIND
 helpviewer_keywords:
 - dwTYPE_KIND enumeration
-ms.assetid: 6ff56b0f-c502-4e6c-9829-bfa05361b783
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # dwTYPE_KIND
+
 Specifies how to interpret the type of an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_dwTYPE_KIND {
+    TYPE_KIND_METADATA = 0x0001,
+    TYPE_KIND_PDB      = 0x0002,
+    TYPE_KIND_BUILT    = 0x0003,
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_dwTYPE_KIND {
     TYPE_KIND_METADATA = 0x0001,
@@ -32,14 +39,7 @@ enum enum_dwTYPE_KIND {
 
 typedef DWORD dwTYPE_KIND;
 ```
-
-```csharp
-public enum enum_dwTYPE_KIND {
-    TYPE_KIND_METADATA = 0x0001,
-    TYPE_KIND_PDB      = 0x0002,
-    TYPE_KIND_BUILT    = 0x0003,
-};
-```
+---
 
 ## Fields
 `TYPE_KIND_METADATA`\

@@ -1,22 +1,19 @@
 ---
-title: Automation Support for Options Pages | Microsoft Docs
+title: Automation Support for Options Pages
 description: Learn how to make your custom Tools Options pages in VSPackages available to the Visual Studio automation model.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - Tools Options pages [Visual Studio SDK], automation support
 - automation [Visual Studio SDK], creating Tools Options pages
-ms.assetid: 0b25b82c-7432-4e0a-9e84-350269ba8260
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Automation support for Options pages
-VSPackages can provide custom **Options** dialog boxes to the **Tools** menu (**Tools Options** pages) in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and can make them available to the automation model.
+
+VSPackages can provide custom **Options** dialog boxes to the **Tools** menu (**Tools Options** pages) in Visual Studio and can make them available to the automation model.
 
 ## Tools Options pages
  To create a **Tools Options** page, a VSPackage must provide a user control implementation returned to the environment through the VSPackage's implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage%2A> method. (Or, for managed-code, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage%2A> method.)
@@ -33,5 +30,5 @@ VSPackages can provide custom **Options** dialog boxes to the **Tools** menu (**
 
    For a sample implementing a custom **Tools Options** page, see [VSSDK Samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples).
 
-## See also
+## Related content
 - [Expose project objects](../../extensibility/internals/exposing-project-objects.md)

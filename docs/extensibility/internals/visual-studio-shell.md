@@ -1,22 +1,19 @@
 ---
-title: Visual Studio Shell | Microsoft Docs
+title: Visual Studio Shell
 description: The Visual Studio shell is the primary agent of integration in Visual Studio and provides basic functionality and supports cross-communication among VSPackages.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - shell, Visual Studio
 - Visual Studio, shell
-ms.assetid: cb124ef4-1a6b-4bfe-bfbf-295ef9c07f36
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Visual Studio Shell
-The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] shell is the primary agent of integration in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. The shell provides necessary functionality to enable VSPackages to share common services. Because the architectural goal of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is to vest primary functionality in the VSPackages, the shell is a framework to provide basic functionality and support cross-communication among its component VSPackages.
+
+The Visual Studio shell is the primary agent of integration in Visual Studio. The shell provides necessary functionality to enable VSPackages to share common services. Because the architectural goal of Visual Studio is to vest primary functionality in the VSPackages, the shell is a framework to provide basic functionality and support cross-communication among its component VSPackages.
 
 ## Shell Responsibilities
  The shell has the following key responsibilities:
@@ -47,7 +44,7 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] shell is the pr
 
   - The User Context attributes that drive Dynamic Help
 
-  The shell also mediates communication among installed VSPackages and current services. It supports the core features of the shell and makes them available to all VSPackages integrated in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. These core features include the following items:
+  The shell also mediates communication among installed VSPackages and current services. It supports the core features of the shell and makes them available to all VSPackages integrated in Visual Studio. These core features include the following items:
 
 - **About** dialog box and splash screen
 
@@ -75,7 +72,7 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] shell is the pr
 
 - **Toolbox**
 
-## See also
+## Related content
 - <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>
 - <xref:Microsoft.VisualStudio.Shell.Interop.SVsShell>

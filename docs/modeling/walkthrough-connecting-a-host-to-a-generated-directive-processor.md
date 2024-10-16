@@ -1,7 +1,6 @@
 ---
 title: Connect host to generated directive processor
 description: Learn how you can expand your custom host so that it supports text templates that call directive processors.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -9,10 +8,8 @@ helpviewer_keywords:
 - text templates, custom directive hosts
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 dev_langs:
 - CSharp
 - VB
@@ -28,7 +25,7 @@ In this walkthrough, you expand your custom host so that it supports text templa
 
 This walkthrough includes the following tasks:
 
-- Using [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] to generate a directive processor that is based on a domain model.
+- Using Domain-Specific Language Tools to generate a directive processor that is based on a domain model.
 
 - Connecting a custom text template host to the generated directive processor.
 
@@ -41,7 +38,7 @@ To define a DSL, you must have installed the following components:
 | Component | Link |
 |-|-|
 | Visual Studio | [http://go.microsoft.com/fwlink/?LinkId=185579](https://visualstudio.microsoft.com/) |
-| [!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)] | [http://go.microsoft.com/fwlink/?LinkId=185580](/azure/devops/integrate/index) |
+| Visual Studio SDK | [http://go.microsoft.com/fwlink/?LinkId=185580](/azure/devops/integrate/index) |
 | Visual Studio Visualization and Modeling SDK | |
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
@@ -107,13 +104,16 @@ After you generate the directive processor, you connect the directive processor 
 
 4. At the top of Program.cs or Module1.vb, add the following line of code:
 
+    ### [C#](#tab/csharp)
     ```csharp
     using Microsoft.Win32;
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     Imports Microsoft.Win32
     ```
+    ---
 
 5. Locate the code for the property `StandardAssemblyReferences`, and replace it with the following code:
 
@@ -242,6 +242,7 @@ To test the custom text template host, first you must write a text template that
     > [!NOTE]
     > The programming language of the text template does not need to match that of the custom host.
 
+    ### [C#](#tab/csharp)
     ```csharp
     Text Template Host Test
 
@@ -274,6 +275,7 @@ To test the custom text template host, first you must write a text template that
     #>
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     Text Template Host Test
 
@@ -308,6 +310,7 @@ To test the custom text template host, first you must write a text template that
        Next
     #>
     ```
+    ---
 
 3. In the code, replace \<YOUR PATH> with the path of the Sample.min file from the design-specific language you created in the first procedure.
 
@@ -357,6 +360,6 @@ To test the custom text template host, first you must write a text template that
     Linked from: ExampleElement1
     ```
 
-## See also
+## Related content
 
 - [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md)

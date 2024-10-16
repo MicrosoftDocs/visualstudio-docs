@@ -1,41 +1,41 @@
 ---
 description: "Debug engines do not implement this method."
-title: IDebugThread2::GetLogicalThread | Microsoft Docs
+title: IDebugThread2::GetLogicalThread
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugThread2::GetLogicalThread
 helpviewer_keywords:
 - IDebugThread2::GetLogicalThread
-ms.assetid: bce6230e-41d4-49b7-a050-2dde5efb6805
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugThread2::GetLogicalThread
+
 Debug engines do not implement this method.
 
 ## Syntax
 
-```cpp
-HRESULT GetLogicalThread( 
-   IDebugStackFrame2*     pStackFrame,
-   IDebugLogicalThread2** ppLogicalThread
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetLogicalThread( 
    IDebugStackFrame2        pStackFrame,
    out IDebugLogicalThread2 ppLogicalThread
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetLogicalThread( 
+   IDebugStackFrame2*     pStackFrame,
+   IDebugLogicalThread2** ppLogicalThread
+);
+```
+---
 
 ## Parameters
 `pStackFrame`\

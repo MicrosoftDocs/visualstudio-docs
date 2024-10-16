@@ -1,27 +1,26 @@
 ---
-description: "Retrieves source files by compiland and name."
-title: "IDiaSession::findFile | Microsoft Docs"
+description: Retrieves source files by compiland and name.
+title: "IDiaSession::findFile"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSession::findFile method"
-ms.assetid: a215dc21-b316-40d7-9923-55bfa014976b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findFile
+
 Retrieves source files by compiland and name.
 
 ## Syntax
 
 ```C++
-HRESULT findFile ( 
+HRESULT findFile ( 
    IDiaSymbol*           pCompiland,
    LPCOLESTR             name,
    DWORD                 option,

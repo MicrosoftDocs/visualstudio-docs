@@ -1,7 +1,6 @@
 ---
 title: "Debug SharePoint application using IntelliTrace"
 description: Use IntelliTrace to more easily debug and fix SharePoint applications. Create and add code to a feature receiver. Test the project. Collect IntelliTrace data.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -15,10 +14,8 @@ helpviewer_keywords:
   - "IntelliTrace"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: sharepoint-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: sharepoint-development
 ---
 # Walkthrough: Debug a SharePoint application by using IntelliTrace
 
@@ -74,49 +71,24 @@ Next, add code to two methods in the feature receiver: `FeatureActivated` and `F
 
 1. At the top of the `Feature1EventReceiver` class, add the following code, which declares variables that specify the SharePoint site and subsite:
 
-    ```vb
-    ' SharePoint site and subsite.
-    Private siteUrl As String = "http://localhost"
-    Private webUrl As String = "/"
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     // SharePoint site and subsite.
     private string siteUrl = "http://localhost";
     private string webUrl = "/";
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    ' SharePoint site and subsite.
+    Private siteUrl As String = "http://localhost"
+    Private webUrl As String = "/"
+    ```
+    ---
+
 2. Replace the `FeatureActivated` method with the following code:
 
-    ```vb
-    Public Overrides Sub FeatureActivated(ByVal properties As SPFeatureReceiverProperties)
-        Try
-            Using site As New SPSite(siteUrl)
-                Using web As SPWeb = site.OpenWeb(webUrl)
-                    ' Reference the lists.
-                    Dim announcementsList As SPList = web.Lists("Announcements")
-                    Dim taskList As SPList = web.Lists("Tasks")
-
-                    ' Add an announcement to the Announcements list.
-                    Dim listItem As SPListItem = announcementsList.Items.Add()
-                    listItem("Title") = "Activated Feature: " & Convert.ToString(properties.Definition.DisplayName)
-                    listItem("Body") = Convert.ToString(properties.Definition.DisplayName) & " was activated on: " & DateTime.Now.ToString()
-                    listItem.Update()
-
-                    ' Add a task to the Task list.
-                    Dim newTask As SPListItem = taskList.Items.Add()
-                    newTask("Title") = "Deactivate feature: " & Convert.ToString(properties.Definition.DisplayName)
-                    newTask.Update()
-                End Using
-            End Using
-
-        Catch e As Exception
-            Console.WriteLine("Error: " & e.ToString())
-        End Try
-
-    End Sub
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     public override void FeatureActivated(SPFeatureReceiverProperties properties)
     {
@@ -152,40 +124,27 @@ Next, add code to two methods in the feature receiver: `FeatureActivated` and `F
     }
     ```
 
-3. Replace the `FeatureDeactivating` method with the following code:
-
+    ### [VB](#tab/vb)
     ```vb
-    Public Overrides Sub FeatureDeactivating(ByVal properties As SPFeatureReceiverProperties)
-        ' The following line induces an error to demonstrate debugging.
-        ' Remove this line later for proper operation.
-        Throw New System.InvalidOperationException("Serious error occurred!")
+    Public Overrides Sub FeatureActivated(ByVal properties As SPFeatureReceiverProperties)
         Try
             Using site As New SPSite(siteUrl)
                 Using web As SPWeb = site.OpenWeb(webUrl)
                     ' Reference the lists.
-                    Dim taskList As SPList = web.Lists("Tasks")
                     Dim announcementsList As SPList = web.Lists("Announcements")
+                    Dim taskList As SPList = web.Lists("Tasks")
 
-                    ' Add an announcement that the feature was deactivated.
+                    ' Add an announcement to the Announcements list.
                     Dim listItem As SPListItem = announcementsList.Items.Add()
-                    listItem("Title") = "Deactivated Feature: " & Convert.ToString(properties.Definition.DisplayName)
-                    listItem("Body") = Convert.ToString(properties.Definition.DisplayName) & " was deactivated on: " & DateTime.Now.ToString()
+                    listItem("Title") = "Activated Feature: " & Convert.ToString(properties.Definition.DisplayName)
+                    listItem("Body") = Convert.ToString(properties.Definition.DisplayName) & " was activated on: " & DateTime.Now.ToString()
                     listItem.Update()
 
-                    ' Find the task that the feature receiver added to the Task list when the
-                    ' feature was activated.
-                    Dim qry As New SPQuery()
-                    qry.Query = "<Where><Contains><FieldRef Name='Title' /><Value Type='Text'>Deactivate</Value></Contains></Where>"
-                    Dim taskItems As SPListItemCollection = taskList.GetItems(qry)
-
-                    For Each taskItem As SPListItem In taskItems
-                        ' Mark the task as complete.
-                        taskItem("PercentComplete") = 1
-                        taskItem("Status") = "Completed"
-                        taskItem.Update()
-                    Next
+                    ' Add a task to the Task list.
+                    Dim newTask As SPListItem = taskList.Items.Add()
+                    newTask("Title") = "Deactivate feature: " & Convert.ToString(properties.Definition.DisplayName)
+                    newTask.Update()
                 End Using
-
             End Using
 
         Catch e As Exception
@@ -194,7 +153,11 @@ Next, add code to two methods in the feature receiver: `FeatureActivated` and `F
 
     End Sub
     ```
+    ---
 
+3. Replace the `FeatureDeactivating` method with the following code:
+
+    ### [C#](#tab/csharp)
     ```csharp
     public override void FeatureDeactivating(SPFeatureReceiverProperties properties)
     {
@@ -241,6 +204,49 @@ Next, add code to two methods in the feature receiver: `FeatureActivated` and `F
         }
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Public Overrides Sub FeatureDeactivating(ByVal properties As SPFeatureReceiverProperties)
+        ' The following line induces an error to demonstrate debugging.
+        ' Remove this line later for proper operation.
+        Throw New System.InvalidOperationException("Serious error occurred!")
+        Try
+            Using site As New SPSite(siteUrl)
+                Using web As SPWeb = site.OpenWeb(webUrl)
+                    ' Reference the lists.
+                    Dim taskList As SPList = web.Lists("Tasks")
+                    Dim announcementsList As SPList = web.Lists("Announcements")
+
+                    ' Add an announcement that the feature was deactivated.
+                    Dim listItem As SPListItem = announcementsList.Items.Add()
+                    listItem("Title") = "Deactivated Feature: " & Convert.ToString(properties.Definition.DisplayName)
+                    listItem("Body") = Convert.ToString(properties.Definition.DisplayName) & " was deactivated on: " & DateTime.Now.ToString()
+                    listItem.Update()
+
+                    ' Find the task that the feature receiver added to the Task list when the
+                    ' feature was activated.
+                    Dim qry As New SPQuery()
+                    qry.Query = "<Where><Contains><FieldRef Name='Title' /><Value Type='Text'>Deactivate</Value></Contains></Where>"
+                    Dim taskItems As SPListItemCollection = taskList.GetItems(qry)
+
+                    For Each taskItem As SPListItem In taskItems
+                        ' Mark the task as complete.
+                        taskItem("PercentComplete") = 1
+                        taskItem("Status") = "Completed"
+                        taskItem.Update()
+                    Next
+                End Using
+
+            End Using
+
+        Catch e As Exception
+            Console.WriteLine("Error: " & e.ToString())
+        End Try
+
+    End Sub
+    ```
+    ---
 
 ## Test the project
 
@@ -326,7 +332,7 @@ Now you can view the IntelliTrace log file in Visual Studio to find and fix the 
 
      The code now runs properly.
 
-## See also
+## Related content
 
 - [Verify and debug SharePoint code](../sharepoint/verifying-and-debugging-sharepoint-code.md)
 - [IntelliTrace](../debugger/intellitrace.md)

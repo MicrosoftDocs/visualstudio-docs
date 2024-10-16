@@ -1,10 +1,9 @@
 ---
 title: "Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor"
 description: Learn the meaning of "Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor", the possible causes, and the solutions. 
-ms.custom: SEO-VS-2020
 titleSuffix: ""
-ms.date: "04/14/2020"
-ms.topic: "reference"
+ms.date: "06/02/2022"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.remote_debug"
   - "vs.debug.error.firewall.remotemachine"
@@ -15,16 +14,15 @@ dev_langs:
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor
+
 This message may occur because the remote debugging monitor is not properly set up on the remote machine or the remote machine is inaccessible due to network problems or the presence of a firewall.
 
 > [!IMPORTANT]
-> If you believe you have received this message because of a product bug, please [report this issue](../ide/how-to-report-a-problem-with-visual-studio.md) to Visual Studio. If you need more help, see [Talk to Us](../ide/feedback-options.md) for ways to contact Microsoft.
+> If you believe you have received this message because of a product bug, please [report this issue](../ide/how-to-report-a-problem-with-visual-studio.md) to Visual Studio. If you need more help, see [Developer Community](https://developercommunity.visualstudio.com/home) for ways to contact Microsoft.
 
 ## <a name="specificerrors"></a>What is the detailed error message?
 
@@ -38,7 +36,6 @@ The `Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor` 
 - [The requested name was valid, but no data of the requested type was found](#valid_name)
 - [The Visual Studio Remote Debugger on the target computer cannot connect back to this computer](#cant_connect_back)
 - [Access denied](#access_denied)
-- [A security package specific error occurred](#security_package)
 
 ## <a name="cannot_connect"></a> The debugger cannot connect to the remote computer. The debugger was unable to resolve the specified computer name
 
@@ -68,7 +65,7 @@ If these values are correct and the message mentions **Windows Authentication** 
 
 ## <a name="connection_terminated"></a> Connection with the remote endpoint was terminated
 
-If you are debugging an Azure App Service app, try using the [Attach Debugger](../debugger/remote-debugging-azure.md#remote_debug_azure_app_service) command from Cloud Explorer or Server Explorer instead of **Attach to Process**.
+If you are debugging an Azure App Service app, try following instructions in [Remote debug ASP.NET Core on Azure](../debugger/remote-debugging-azure-app-service.md) to connect to Azure App Service.
 
 If you are using **Attach to Process** to debug:
 
@@ -115,10 +112,6 @@ If the error message also mentions a firewall, the firewall on the local machine
 ## <a name="access_denied"></a> Access denied
 
 You may see this error if you try to debug on a 64-bit remote computer from a 32-bit computer (not supported).
-
-## <a name="security_package"></a> A security package specific error occurred
-
-This may be a legacy issue specific to Windows XP and Windows 7. See this [information](https://stackoverflow.com/questions/4786016/unable-to-connect-to-the-microsoft-remote-debugging-monitor-a-security-package).
 
 ## Causes and recommendations
 

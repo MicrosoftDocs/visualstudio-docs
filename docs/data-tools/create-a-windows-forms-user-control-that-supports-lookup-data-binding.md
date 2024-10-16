@@ -1,7 +1,6 @@
 ---
-title: Using lookup tables in data binding - Windows Forms
-description: Learn to create a Windows Forms user control that supports lookup data binding, using the LookupBindingPropertiesAttribute class in Visual Studio.
-ms.custom: SEO-VS-2020
+title: Using lookup tables in data binding in .NET Framework Windows Forms
+description: Learn to create a Windows Forms user control in .NET Framework application that supports lookup data binding, using the LookupBindingPropertiesAttribute class in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -11,15 +10,15 @@ helpviewer_keywords:
 - data binding, user controls
 - LookupBindingPropertiesAttribute class, examples
 - user controls [Visual Basic], creating
-ms.assetid: c48b4d75-ccfc-4950-8b14-ff8adbfe4208
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
-# Create a Windows Forms user control that supports lookup data binding
+
+# Create a .NET Framework Windows Forms user control that supports lookup data binding
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 When displaying data on Windows Forms, you can choose existing controls from the **Toolbox**, or you can author custom controls if your application requires functionality not available in the standard controls. This walkthrough shows how to create a control that implements the <xref:System.ComponentModel.LookupBindingPropertiesAttribute>. Controls that implement the <xref:System.ComponentModel.LookupBindingPropertiesAttribute> can contain three properties that can be bound to data. Such controls are similar to a <xref:System.Windows.Forms.ComboBox>.
 
@@ -37,7 +36,7 @@ This walkthrough creates a lookup control that binds to data from two tables. Th
 
 During this walkthrough, you'll learn how to:
 
-- Create a new **Windows Forms Application**.
+- Create a new **Windows Forms App (.NET Framework)**.
 
 - Add a new **User Control** to your project.
 
@@ -53,6 +52,8 @@ During this walkthrough, you'll learn how to:
 
 ## Prerequisites
 
+To complete this tutorial, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify. See [Modify Visual Studio](../install/modify-visual-studio.md).
+
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
 1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
@@ -63,7 +64,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
        A query editor window opens.
 
-    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/master/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
+    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
@@ -71,7 +72,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create a Windows Forms app project
 
-The first step is to create a **Windows Forms Application** project.
+The first step is to create a **Windows Forms App (.NET Framework)** project.
 
 1. In Visual Studio, on the **File** menu, select **New** > **Project**.
 
@@ -89,7 +90,7 @@ This walkthrough creates a lookup control from a **User Control**, so add a **Us
 
 1. From the **Project** menu, select **Add User Control**.
 
-2. Type `LookupBox` in the **Name** area, and then click **Add**.
+2. Type `LookupBox` in the **Name** area, and then select **Add**.
 
      The **LookupBox** control is added to **Solution Explorer**, and opens in the designer.
 
@@ -105,8 +106,12 @@ For lookup controls that support data binding, you can implement the <xref:Syste
 
 2. Replace the code in the `LookupBox` with the following:
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/LookupBox.vb" id="Snippet5":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/LookupBox.cs" id="Snippet5":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/LookupBox.vb" id="Snippet5":::
+     ---
 
 3. From the **Build** menu, choose **Build Solution**.
 
@@ -118,21 +123,21 @@ This step creates a data source using the **Data Source Configuration** wizard, 
 
 2. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
 
-3. Select **Database** on the **Choose a Data Source Type** page, and then click **Next**.
+3. Select **Database** on the **Choose a Data Source Type** page, and then select **Next**.
 
 4. On the **Choose your Data Connection** page do one of the following:
 
-    - If a data connection to the Northwind sample database is available in the drop-down list, select it.
+    - If a data connection to the Northwind sample database is available in the dropdown list, select it.
 
     - Select **New Connection** to launch the **Add/Modify Connection** dialog box.
 
-5. If your database requires a password, select the option to include sensitive data, and then click **Next**.
+5. If your database requires a password, select the option to include sensitive data, and then select **Next**.
 
 6. On the **Save connection string to the Application Configuration file** page, click **Next**.
 
 7. On the **Choose your Database Objects** page, expand the **Tables** node.
 
-8. Select the `Customers` and `Orders` tables, and then click **Finish**.
+8. Select the `Customers` and `Orders` tables, and then select **Finish**.
 
      The **NorthwindDataSet** is added to your project, and the `Customers` and `Orders` tables appear in the **Data Sources** window.
 
@@ -146,15 +151,15 @@ Within the **Data Sources** window, you can set the control to be created prior 
 
 3. Expand the **Orders** node (the one in the **Customers** node below the **Fax** column).
 
-4. Click the drop-down arrow on the **Orders** node, and choose **Details** from the control list.
+4. Click the dropdown list arrow on the **Orders** node, and choose **Details** from the control list.
 
-5. Click the drop-down arrow on the **CustomerID** column (in the **Orders** node), and choose **Customize**.
+5. Click the dropdown list arrow on the **CustomerID** column (in the **Orders** node), and choose **Customize**.
 
 6. Select the **LookupBox** from the list of **Associated Controls** in the **Data UI Customization Options** dialog box.
 
 7. Click **OK**.
 
-8. Click the drop-down arrow on the **CustomerID** column, and choose **LookupBox**.
+8. Click the dropdown list arrow on the **CustomerID** column, and choose **LookupBox**.
 
 ## Add controls to the form
 
@@ -174,6 +179,6 @@ This sets up the data binding to display the `CompanyName` from the `Customers` 
 
 - Navigate through some records, and verify that the `CompanyName` appears in the `LookupBox` control.
 
-## See also
+## Related content
 
 - [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

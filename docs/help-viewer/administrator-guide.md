@@ -1,19 +1,18 @@
 ---
-title: Help Viewer administrator guide
+title: Deploy help locally with Help Viewer
 description: Read the Microsoft Help Viewer administrator guide. Deploy local Help content from the internet, or deploy pre-installed local Help content on client computers.
 ms.date: 11/01/2017
 ms.topic: conceptual
-ms.assetid: 4340c69f-b96b-4932-bb82-38b16a5ab149
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-help-viewer
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: help-viewer
 ---
-# Help Viewer administrator guide
+# Deploy and manage local Help installations for network environments 
 
-The Help Viewer allows you to manage local Help installations for network environments with or without internet access. Local help content is configured on a per machine basis. By default, users must have administrator rights to update their local Help installation.
+You can use Microsoft Help Viewer to install, view, and manage local documentation installs for Microsoft products and technologies on local computers. These technologies include Visual Studio, .NET, language reference, SQL Server, and Windows development. 
+
+In this article, you learn to use the Help Viewer to deploy and manage local Help installations for network environments with or without internet access. Local help content is configured on a per machine basis. By default, users must have administrator rights to update their local Help installation.
 
 If your network environment allows clients to access the internet, you can use the **Help Content Manager** executable to deploy local Help content from the internet. For more information about *HlpCtntMgr.exe* command line syntax, see [Command-line arguments for the Help Content Manager](../help-viewer/command-line-arguments.md).
 
@@ -74,7 +73,7 @@ Requirements:
 - Users must have administrator rights to update, add, or remove the local Help content after it has been installed.
 
     > [!TIP]
-    > If users do not have administrator rights, it is recommended that you disable the **Manage Content** tab in the Help Viewer. For more information, see [Help Content Manager overrides](../help-viewer/behavior-overrides.md).
+    > If users do not have administrator rights, it is recommended that you disable the **Manage Content** tab in the Help Viewer. For more information, see [Override Help Viewer defaults](../help-viewer/behavior-overrides.md).
 
 Caveats:
 
@@ -138,9 +137,9 @@ Next, you need to package the content so it can be deployed to client computers.
 
 3. Run the *.bat* file on the local machines that you want to install the Help content on.
 
-## See also
+## Related content
 
 - [Command-line arguments for the Help Content Manager](../help-viewer/command-line-arguments.md)
-- [Help Content Manager overrides](../help-viewer/behavior-overrides.md)
+- [Override Help Viewer defaults](../help-viewer/behavior-overrides.md)
 - [Microsoft Help Viewer](../help-viewer/overview.md)
 - [Help Viewer SDK](../extensibility/internals/microsoft-help-viewer-sdk.md)

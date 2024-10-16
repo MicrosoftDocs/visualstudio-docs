@@ -1,39 +1,39 @@
 ---
 description: "Gets the field or variable (if any) that may be backing the property represented by this object."
-title: IDebugObject2::GetBackingFieldForProperty | Microsoft Docs
+title: IDebugObject2::GetBackingFieldForProperty
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugObject2::GetBackingFieldForProperty
 helpviewer_keywords:
 - IDebugObject2::GetBackingFieldForProperty method
-ms.assetid: e72c6338-5573-4fad-8075-f3ade3435424
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugObject2::GetBackingFieldForProperty
+
 Gets the field or variable (if any) that may be backing the property represented by this object.
 
 ## Syntax
 
-```cpp
-HRESULT GetBackingFieldForProperty(
-   IDebugObject2** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetBackingFieldForProperty(
    out IDebugObject2 ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetBackingFieldForProperty(
+   IDebugObject2** ppObject
+);
+```
+---
 
 ## Parameters
 `ppObject`\

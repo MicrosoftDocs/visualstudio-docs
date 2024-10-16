@@ -1,0 +1,51 @@
+- name: Visual Studio Community Toolkit
+  href: visual-studio-community-toolkit.md
+  items:
+  - name: Getting started
+    items:
+    - name: Overview
+      href: get-started/get-started-guide.md
+    - name: Get the tools
+      href: get-started/get-tools.md
+    - name: Extension anatomy
+      href: get-started/extension-anatomy.md
+    - name: Your first extension
+      href: get-started/first-extension.md
+    - name: Useful resources
+      href: get-started/useful-resources.md
+    expanded: true
+  - name: Recipes
+    items:
+    - name: Menus & commands
+      href: recipes/menus-buttons-commands.md
+    - name: Tool windows
+      href: recipes/custom-tool-windows.md
+    - name: Theming
+      href: recipes/use-themes.md
+    - name: Settings & options
+      href: recipes/settings-options.md
+    - name: Notifications
+      href: recipes/notifications.md
+    - name: Error handling
+      href: recipes/handle-errors.md
+    - name: Showing progress
+      href: recipes/show-progress.md
+  - name: Tips & tricks
+    items:
+    - name: Files & documents
+      href: tips/files.md
+    - name: Projects
+      href: tips/projects.md
+    - name: Solutions
+      href: tips/solutions.md
+    - name: Build
+      href: tips/build.md
+  - name: Publishing
+    items:
+    - name: Overview
+      href: publish/publish-guide.md
+    - name: Checklist
+      href: publish/checklist.md
+    - name: Extension packs
+      href: publish/create-extension-pack.md
+  expanded: true

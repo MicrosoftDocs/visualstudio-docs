@@ -1,7 +1,6 @@
 ---
 title: Properties of Geometry Shapes
 description: Learn how you can use geometry shapes to specify how instances of domain classes are displayed in a domain-specific language.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -10,12 +9,11 @@ helpviewer_keywords:
   - "Domain-Specific Language, geometry shape"
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Properties of Geometry Shapes
+
 You can use geometry shapes to specify how instances of domain classes are displayed in a domain-specific language. For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).
 
  Geometry shapes have the properties that are listed in the following table.

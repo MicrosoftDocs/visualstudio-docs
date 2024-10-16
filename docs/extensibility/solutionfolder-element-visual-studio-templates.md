@@ -1,23 +1,20 @@
 ---
-title: SolutionFolder Element (Visual Studio Templates) | Microsoft Docs
+title: SolutionFolder Element (Visual Studio Templates)
 description: Learn about the SolutionFolder element and how it groups projects in multi-project templates.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.technology: vs-ide-general
+ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#SolutionFolder
 helpviewer_keywords:
 - <SolutionFolder> element [Visual Studio Templates]
 - SolutionFolder element [Visual Studio Templates]
-ms.assetid: 963f0398-fb50-4d8e-879d-d48f8b7c6d80
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
 ---
 # SolutionFolder Element (Visual Studio Templates)
+
 Groups projects in multi-project templates.
 
  \<VSTemplate>
@@ -57,7 +54,7 @@ Groups projects in multi-project templates.
 |`SolutionFolder`|Groups projects in multi-project templates.|
 
 ## Remarks
- Multi-project templates act as containers for two or more projects. The `SolutionFolder` element is used to organize the projects in the template into groups. The folders specified by `SolutionFolder` elements are created as solution folders in the project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. For more information on multi-project templates, see [How to: Create Multi-Project Templates](../ide/how-to-create-multi-project-templates.md).
+ Multi-project templates act as containers for two or more projects. The `SolutionFolder` element is used to organize the projects in the template into groups. The folders specified by `SolutionFolder` elements are created as solution folders in the project in Visual Studio. For more information on multi-project templates, see [How to: Create Multi-Project Templates](../ide/how-to-create-multi-project-templates.md).
 
 ## Example
  This example uses the `SolutionFolder` element to divide the multi-project template into two groups, `Math Classes` and `Graphics Classes`. The template contains four projects, two of which are placed in each solution folder.

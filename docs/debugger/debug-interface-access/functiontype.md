@@ -1,6 +1,6 @@
 ---
-description: "Each unique function signature is identified by a SymTagFunctionType symbol."
-title: "FunctionType | Microsoft Docs"
+description: Each unique function signature is identified by a SymTagFunctionType symbol.
+title: FunctionType
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -8,19 +8,19 @@ dev_langs:
 helpviewer_keywords:
   - "function signature"
   - "FunctionType symbol"
-ms.assetid: 646a07e7-9d4f-4e21-95e3-3e403cdd4843
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # FunctionType
+
 Each unique function signature is identified by a `SymTagFunctionType` symbol. Each parameter is identified as a class child symbol with a `SymTagFunctionArgType` tag.
 
 ## Properties
- The following table shows additional valid properties for this symbol type.
+
+The following table shows additional valid properties for this symbol type.
 
 |Property|Data type|Description|
 |--------------|---------------|-----------------|
@@ -41,6 +41,7 @@ Each unique function signature is identified by a `SymTagFunctionType` symbol. E
 |[IDiaSymbol::get_volatileType](../../debugger/debug-interface-access/idiasymbol-get-volatiletype.md)|`BOOL`|`TRUE` if the function is marked as volatile.|
 
 ## See also
+
 - [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
 - [CV_access_e Enumeration](../../debugger/debug-interface-access/cv-access-e.md)
 - [FunctionArgType](../../debugger/debug-interface-access/functionargtype.md)

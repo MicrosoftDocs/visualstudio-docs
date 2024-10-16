@@ -9,13 +9,11 @@ helpviewer_keywords:
 - Domain-Specific Language Tools, user interface
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.custom: SEO-VS-2020
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Overview of the Domain-Specific Language Tools User Interface
+
 When you first open a Domain-Specific Language Tools (DSL Tools) solution in Visual Studio, the user interface will resemble the following picture.
 
  ![dsl designer](../modeling/media/dsl_designer.png)

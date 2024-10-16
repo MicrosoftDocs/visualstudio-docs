@@ -1,38 +1,38 @@
 ---
 description: "Returns the number of constraints that are associated with this generic parameter."
-title: IDebugGenericParamField::ConstraintCount | Microsoft Docs
+title: IDebugGenericParamField::ConstraintCount
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - ConstraintCount
 - IDebugGenericParamField::ConstraintCount
-ms.assetid: 76bef0cb-8a3c-4ce5-87cc-1809de229f33
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugGenericParamField::ConstraintCount
+
 Returns the number of constraints that are associated with this generic parameter.
 
 ## Syntax
 
-```cpp
-HRESULT ConstraintCount(
-    ULONG32* pcConst
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ConstraintCount(
     ref uint pcConst
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ConstraintCount(
+    ULONG32* pcConst
+);
+```
+---
 
 ## Parameters
 `pcConst`\

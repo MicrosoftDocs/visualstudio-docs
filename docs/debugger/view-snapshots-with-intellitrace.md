@@ -7,10 +7,8 @@ helpviewer_keywords:
   - "IntelliTrace step-back"
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # View snapshots with IntelliTrace step-back (Visual Studio Enterprise) (C#, Visual Basic, C++)
 

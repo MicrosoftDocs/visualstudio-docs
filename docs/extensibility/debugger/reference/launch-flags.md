@@ -1,28 +1,36 @@
 ---
 description: "Specifies the debug launch flags."
-title: LAUNCH_FLAGS | Microsoft Docs
+title: LAUNCH_FLAGS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - LAUNCH_FLAGS
 helpviewer_keywords:
 - LAUNCH_FLAGS enumeration
-ms.assetid: f51aab02-d257-4302-bb79-b7d8ba9ac4e5
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # LAUNCH_FLAGS
+
 Specifies the debug launch flags.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_LAUNCH_FLAGS {
+    LAUNCH_DEBUG      = 0x0000,
+    LAUNCH_NODEBUG    = 0x0001,
+    LAUNCH_ENABLE_ENC = 0x0002,
+    LAUNCH_MERGE_ENV  = 0x0004
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_LAUNCH_FLAGS {
     LAUNCH_DEBUG      = 0x0000,
@@ -32,15 +40,7 @@ enum enum_LAUNCH_FLAGS {
 };
 typedef DWORD LAUNCH_FLAGS;
 ```
-
-```csharp
-public enum enum_LAUNCH_FLAGS {
-    LAUNCH_DEBUG      = 0x0000,
-    LAUNCH_NODEBUG    = 0x0001,
-    LAUNCH_ENABLE_ENC = 0x0002,
-    LAUNCH_MERGE_ENV  = 0x0004
-};
-```
+---
 
 ## Fields
 `LAUNCH_DEBUG`\

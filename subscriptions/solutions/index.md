@@ -2,50 +2,46 @@
 title: Subscriptions support solutions 
 description: List of INCLUDEs files for Visual Studio subscriptions support widget content
 ms.topic: conceptual
-ms.assetid: 478648b9-f6f0-4ea3-83b4-5cffa196a496
 robots: noindex, nofollow
-author: evanwindom
-ms.author: v-evwin
-ms.date: 12/07/2020
+author: joseb-rdc
+ms.author: amast 
+ms.date: 02/14/2023
 ---
 
 # Visual Studio subscriptions support widget content INCLUDES files
 
-## Admin solutions
-
-[!INCLUDE [Become a super admin](admin-solutions/includes/become-a-super-admin-managed.md)]
-
-[!INCLUDE [Become an admin](admin-solutions/includes/become-an-admin.md)]
-
-[!INCLUDE [Cannot access subscriptions](admin-solutions/includes/cannot-access-subs.md)]
-
-[!INCLUDE [I only see VSDE](admin-solutions/includes/only-see-vsde.md)]
-
-
-## Benefit activations
+## Benefit activation
 
 [!INCLUDE [Error while activating Azure monthly credit](benefit-activation/includes/error-while-activating-azure-monthly-credit.md)]
 
 [!INCLUDE [How do I activate Azure monthly credit](benefit-activation/includes/how-do-i-activate-azure-monthly-credit.md)]
 
+[!INCLUDE [No Azure credit tile on benefits page](benefit-activation/includes/no-Azure-credit-tile-on-benefits-page.md)]
+
+[!INCLUDE [No benefits showing on benefits page](benefit-activation/includes/no-benefits-showing-on-benefits-page.md)]
+
 [!INCLUDE [Unable to activate Azure DevOps](benefit-activation/includes/unable-to-activate-azure-devops.md)]
 
 [!INCLUDE [Unable to activate Azure PAYG subscription](benefit-activation/includes/unable-to-activate-azure-pay-as-you-go-subscription.md)]
 
-[!INCLUDE [Unable to activate EMS](benefit-activation/includes/unable-to-activate-enterprise-mobility-security-benefit.md)]
+[!INCLUDE [Unable to activate M365 benefit](benefit-activation/includes/unable-to-activate-enterprise-mobility-security-benefit.md)]
 
 [!INCLUDE [Unable to activate Pluralsight benefit](benefit-activation/includes/unable-to-activate-pluralsight-benefit.md)]
 
 [!INCLUDE [Unable to see Azure monthly credit in Azure portal](benefit-activation/includes/unable-to-see-azure-monthly-credit-in-azure-portal.md)]
 
-## Download, activate or use software
+[!INCLUDE [Using alternate account with benefits](benefit-activation/includes/using-alternate-account-with-benefits.md)]
+
+[!INCLUDE [what-happens-to-azure-credit-when-subscription-expires](benefit-activation/includes/what-happens-to-azure-credit-when-subscription-expires.md)]
+
+## Download, activate, or use software
 
 ### Downloads and activations
+[!INCLUDE [No access to downloads error](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/no-access-to-downloads-error.md)]
+
 [!INCLUDE [Unable to download non-Visual Studio software](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-download-software-non-visualstudio.md)]
 
 [!INCLUDE [Unable to download Visual Studio Community](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-download-visual-studio-community.md)]
-
-[!INCLUDE [Unable to download Visual Studio for Mac](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-download-visual-studio-for-mac.md)]
 
 [!INCLUDE [Unable to download Visual Studio IDE](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-download-visual-studio-ide.md)]
 
@@ -54,14 +50,18 @@ ms.date: 12/07/2020
 [!INCLUDE [Unable to locate a product](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-locate-product.md)]
 
 ### Find and use product keys
-[!INCLUDE [Unable to find or claim product keys](downloading-activating-or-using-software/finding-or-using-product-keys/includes/unable-to-find-or-claim-product-keys.md)]
+[!INCLUDE [Unable to claim product keys](downloading-activating-or-using-software/finding-or-using-product-keys/includes/unable-to-claim-product-keys.md)]
+
+[!INCLUDE [Unable to find product keys](downloading-activating-or-using-software/finding-or-using-product-keys/includes/unable-to-find-or-claim-product-keys.md)]
 
 ### Use product features
+[!INCLUDE [Azure DevOps technical support](downloading-activating-or-using-software/using-product-features/includes/azure-devops-technical-support.md)]
+
 [!INCLUDE [Cannot find IDE feature](downloading-activating-or-using-software/using-product-features/includes/cannot-find-ide-feature.md)]
 
-[!INCLUDE [Visual Studio IDE technical support](downloading-activating-or-using-software/using-product-features/includes/visual-studio-ide-technical-support.md)]
+[!INCLUDE [Other software usage and features support](downloading-activating-or-using-software/using-product-features/includes/other-software-usage-and-features-support.md)]
 
-[!INCLUDE [Azure DevOps technical support](downloading-activating-or-using-software/using-product-features/includes/azure-devops-technical-support.md)]
+[!INCLUDE [Visual Studio IDE technical support](downloading-activating-or-using-software/using-product-features/includes/visual-studio-ide-technical-support.md)]
 
 [!INCLUDE [Windows developer technical support](downloading-activating-or-using-software/using-product-features/includes/windows-developer-technical-support.md)]
 
@@ -69,9 +69,14 @@ ms.date: 12/07/2020
 
 [!INCLUDE [Subscription licensing terms and conditions](licensing-terms/includes/subscription-licensing-terms-and-conditions.md)]
 
+[!INCLUDE [Transfer subscription](licensing-terms/includes/transfer-subscription.md)]
+
 ## Other solutions or no solution
+[!INCLUDE [Admin reporting subscriber issue](other-or-no-solution/includes/admin-reporting-subscriber-issue.md)]
 
 [!INCLUDE [No solution](other-or-no-solution/includes/no-solution.md)]
+
+[!INCLUDE [Questions about managing subscriptions](other-or-no-solution/includes/questions-about-managing-subscriptions.md)]
 
 ## Portal issues
 
@@ -83,7 +88,9 @@ ms.date: 12/07/2020
 
 [!INCLUDE [Portal outage](portal-issue/includes/portal-outage.md)]
 
-## Purchase, renew or cancel subscriptions
+[!INCLUDE [Only see VSDE](portal-issue/includes/only-see-vsde.md)]
+
+## Purchase, renew, or cancel subscriptions
 
 ### Help with purchases
 [!INCLUDE [Help me purchase via Marketplace](renewing-purchasing-or-canceling/help-purchasing/includes/help-me-purchase-marketplace.md)]
@@ -114,3 +121,5 @@ ms.date: 12/07/2020
 [!INCLUDE [How do I change my sign-in email for Retail](signing-in/includes/how-do-i-change-my-sign-in-email-retail.md)]
 
 [!INCLUDE [How do I change my sign-in email for Volume Licensing](signing-in/includes/how-do-i-change-my-sign-in-email-volume-licensing.md)]
+
+[!INCLUDE [How can I become a Visual Studio subscriptions admin](signing-in/includes/become-an-admin-or-super-admin.md)]

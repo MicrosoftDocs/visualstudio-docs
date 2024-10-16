@@ -1,38 +1,38 @@
 ---
 description: "Retrieves the name of this generic parameter."
-title: IDebugGenericParamField::GetNameOfFormalParam | Microsoft Docs
+title: IDebugGenericParamField::GetNameOfFormalParam
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugGenericParamField::GetNameOfFormalParam
 - GetNameOfFormalParam
-ms.assetid: 05032a83-49ce-4007-b5d6-7b56945b956c
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugGenericParamField::GetNameOfFormalParam
+
 Retrieves the name of this generic parameter.
 
 ## Syntax
 
-```cpp
-HRESULT GetNameOfFormalParam (
-    BSTR* pbstrName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetNameOfFormalParam (
     string pbstrName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetNameOfFormalParam (
+    BSTR* pbstrName
+);
+```
+---
 
 ## Parameters
 `pbstrName`\

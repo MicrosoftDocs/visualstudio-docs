@@ -1,19 +1,17 @@
 ---
 title: The Text Template Transformation Process
 description: Learn that the text template transformation process takes a text template file as the input and generates a new text file as the output.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - text templates, transformation process
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # The Text Template Transformation Process
+
 The text template transformation process takes a text template file as the input and generates a new text file as the output. For example, you can use text templates to generate Visual Basic or C# code, or you can generate an HTML report.
 
  Three components take part in this process: the engine, the host, and the directive processors. The engine controls the process; it interacts with the host and the directive processor to produce the output file. The host provides any interaction with the environment, such as locating files and assemblies. The directive processor adds functionality, such as reading data from an XML file or a database.

@@ -1,8 +1,7 @@
 ---
-title: Set debug and release configurations | Microsoft Docs
+title: Set debug and release configurations
 description: Set debug and release configurations in Visual Studio. You build the debug version for debugging and the release version for the final release distribution.
-ms.custom: SEO-VS-2020
-ms.date: 10/05/2018
+ms.date: 01/19/2024
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.builds
@@ -27,13 +26,10 @@ helpviewer_keywords:
   - debug configurations
   - release builds, switching to debug build
   - Visual Basic projects, debug and release builds
-ms.assetid: 57b6bbb7-f2af-48f7-8773-127d75034ed2
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Set debug and release configurations in Visual Studio
 
@@ -45,19 +41,19 @@ The release configuration of your program has no symbolic debug information and 
 
 For more information about build configurations, see [Understand build configurations](../ide/understanding-build-configurations.md).
 
-You can change the build configuration from the **Build** menu, from the toolbar, or in the project's property pages. Project property pages are language-specific. The procedure below shows how to change the build configuration from the menu and the toolbar. For more information about how to change the build configuration in projects in different languages, see the [See also](#see-also) section below.
+You can change the build configuration from the **Build** menu, from the toolbar, or in the project's property pages. Project property pages are language-specific. The procedure below shows how to change the build configuration from the menu and the toolbar. For more information about how to change the build configuration in projects in different languages, see the [Related content](#related-content) section below.
 
 ## Change the build configuration
 
 To change the build configuration, either:
 
-* From the **Build** menu, select **Configuration Manager**, then select **Debug** or **Release**.
-
-or
-
 * On the toolbar, choose either **Debug** or **Release** from the **Solution Configurations** list.
 
-  ![toolbars build configuration](../debugger/media/toolbarbuildconfiguration.png "ToolbarBuildConfiguration")
+  ![toolbars build configuration](../debugger/media/toolbar-build-configuration.png "ToolbarBuildConfiguration")
+
+  or
+
+* From the **Build** menu, select **Configuration Manager**, then select **Debug** or **Release**.
 
 ## <a name="BKMK_symbols_release"></a>Generate symbol (.pdb) files for a build (C#, C++, Visual Basic, F#)
 
@@ -68,53 +64,73 @@ You can choose to generate symbol (.pdb) files and what debug information to inc
 
 Each project type may have a different way of setting these options.
 
-### Generate symbol files for a C#, ASP.NET, or Visual Basic project
+::: moniker range=">=vs-2022"
+### Generate symbol files for a C# or ASP.NET Core project (.NET Core, .NET 5+ only)
 
-For detailed information on project settings for debug configurations in C# or Visual Basic, see [Project settings for a C# debug configuration](../debugger/project-settings-for-csharp-debug-configurations.md) or [Project settings for a Visual Basic debug configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md).
+For detailed information on project settings for debug configurations in C#, see [Project settings for a C# debug configuration](../debugger/project-settings-for-csharp-debug-configurations.md). (For .NET projects in Visual Basic, symbol files are configured the same as in .NET Framework.)
 
-1. In Solution Explorer, select the project.
+1. In Solution Explorer, right-click the project and choose **Properties**.
 
-2. Select the **Properties** icon (or press **Alt+Enter**).
+2. In the side pane, choose **Build** > **General**.
 
-3. In the side pane, choose **Build** (or **Compile** in Visual Basic).
+3. In the **Optimize code** section, choose **Debug** or **Release**.
 
-4. In the **Configuration** list, choose **Debug** or **Release**.
-
-5. Select the **Advanced** button (or the **Advanced Compile Options** button in Visual Basic).
-
-6. In the **Debugging information** list (or the **Generate debug info** list in Visual Basic), choose **Full**, **Pdb-only**, or **Portable**.
+4. In the **Debug symbols** list, choose **PDB file, current platform**, **PBD file, portable**, or **Embedded**.
 
    The portable format is the most recent cross-platform format for .NET Core. For more information on options, see [Advanced Build Settings dialog box (C#)](../ide/reference/advanced-build-settings-dialog-box-csharp.md).
 
-   ![Generate PDBs for builds in C#](../debugger/media/dbg_project_properties_pdb_csharp.png "GeneratePDBsForCSharp")
+   ![Generate PDBs for builds in .NET](../debugger/media/vs-2022/dbg-project-properties-pdb-dotnet.png "GeneratePDBsForDotNet")
 
-7. Build your project.
+5. Build your project.
 
    The compiler creates the symbol file(s) in the same folder as the executable or the main output file.
+::: moniker-end
 
-### Generate symbol files for a C++ project
+### Generate symbol files for a C#, ASP.NET, or Visual Basic project (.NET Framework)
 
-1. In Solution Explorer, select the project.
+For detailed information on project settings for debug configurations in C# or Visual Basic, see [Project settings for a C# debug configuration](../debugger/project-settings-for-csharp-debug-configurations.md) or [Project settings for a Visual Basic debug configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md).
 
-2. Select the **Properties** icon (or press **Alt+Enter**).
+1. In Solution Explorer, right-click the project and choose **Properties**.
 
-3. In the **Configuration** list, choose **Debug** or **Release**.
+2. In the side pane, choose **Build** (or **Compile** in Visual Basic).
 
-4. In the side pane, choose **Linker > Debugging**, then select options for **Generate Debug Info**.
+3. In the **Configuration** list at the top, choose **Debug** or **Release**.
 
-   For detailed information on project settings for debug configurations in C++, see [Project settings for a C++ debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).
+4. Select the **Advanced** button (or the **Advanced Compile Options** button in Visual Basic).
 
-5. Configure options for **Generate Program Database Files**.
+5. In the **Debugging information** list (or the **Generate debug info** list in Visual Basic), choose **Full**, **Pdb-only**, or **Portable**.
 
-   In most C++ projects, the default value is `$(OutDir)$(TargetName).pdb`, which generates .pdb files in the output folder.
+   The portable format is the most recent cross-platform format for .NET Core. For more information on options, see [Advanced Build Settings dialog box (C#)](../ide/reference/advanced-build-settings-dialog-box-csharp.md).
 
-   ![Generate PDBs for builds in C++](../debugger/media/dbg_project_properties_pdb_cplusplus.png "GeneratePDBsforCPlusPlus")
+   ![Generate PDBs for builds in C#](../debugger/media/dbg-project-properties-pdb-csharp.png "GeneratePDBsForCSharp")
 
 6. Build your project.
 
    The compiler creates the symbol file(s) in the same folder as the executable or the main output file.
 
-## <a name="see-also"></a>See also
+### Generate symbol files for a C++ project
+
+1. In Solution Explorer, right-click the project and choose **Properties**.
+
+2. In the **Configuration** list, choose **Debug** or **Release**.
+
+3. In the side pane, choose **Linker > Debugging**, then select options for **Generate Debug Info**.
+
+   In most C++ projects, the default value is **Generate Debug Information (/DEBUG)**.
+
+   For detailed information on project settings for debug configurations in C++, see [Project settings for a C++ debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).
+
+4. Configure options for **Generate Program Database Files**.
+
+   In most C++ projects, the default value is `$(OutDir)$(TargetName).pdb`, which generates .pdb files in the output folder.
+
+   ![Generate PDBs for builds in C++](../debugger/media/dbg-project-properties-pdb-cplusplus.png "GeneratePDBsforCPlusPlus")
+
+5. Build your project.
+
+   The compiler creates the symbol file(s) in the same folder as the executable or the main output file.
+
+## <a name="related-content"></a>Related content
 
 - [Specify symbol (.pdb) files and source files in the Visual Studio debugger](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)<br/>
 - [Debugger settings and preparation](../debugger/debugger-settings-and-preparation.md)<br/>

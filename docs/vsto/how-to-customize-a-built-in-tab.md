@@ -1,7 +1,6 @@
 ---
-title: "How to: Customize a built-in tab"
+title: "Customize a built-in tab"
 description: Learn how you can add groups and controls to a built-in tab. A built-in tab is a tab that's already on the Ribbon of a Microsoft Office application.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -12,12 +11,11 @@ helpviewer_keywords:
   - "built-in tabs [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
-# How to: Customize a built-in tab
+# Customize a built-in tab
+
   You can add groups and controls to a built-in tab. A built-in tab is a tab that's already on the Ribbon of a Microsoft Office application. For example, the **Data** tab is a built-in tab in Excel. When you create a custom group, it appears last on the tab, but you can move your group anywhere on the tab.
 
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]
@@ -40,7 +38,7 @@ ms.workload:
 
      The control ID is the name that uniquely identifies tabs, groups, and controls that are built into Microsoft Office applications.
 
-     For a list of control IDs, see [Office 2010 help files: Office fluent user interface control identifiers](https://www.microsoft.com/download/details.aspx?id=6627).
+     For a list of control IDs, see [Office 2010 help files: Office fluent user interface control identifiers](https://www.microsoft.com/download/details.aspx?id=50745).
 
 5. From the **Office Ribbon Controls** tab of the **Toolbox**, drag groups onto the tab.
 
@@ -61,9 +59,9 @@ ms.workload:
 
 4. Set the **OfficeId** property to the control ID of a built-in group.
 
-     For a list of control IDs, see [Office 2010 help files: Office fluent user interface control identifiers](https://www.microsoft.com/download/details.aspx?id=6627).
+     For a list of control IDs, see [Office 2010 help files: Office fluent user interface control identifiers](https://www.microsoft.com/download/details.aspx?id=50745).
 
-## See also
+## Related content
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [Ribbon Designer](../vsto/ribbon-designer.md)
 - [Ribbon XML](../vsto/ribbon-xml.md)

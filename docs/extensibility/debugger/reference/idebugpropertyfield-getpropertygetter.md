@@ -1,24 +1,22 @@
 ---
 description: "Gets the method that gets the property."
-title: IDebugPropertyField::GetPropertyGetter | Microsoft Docs
+title: IDebugPropertyField::GetPropertyGetter
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPropertyField::GetPropertyGetter
 helpviewer_keywords:
 - IDebugPropertyField::GetPropertyGetter method
-ms.assetid: ab9f861a-42ad-4a82-9ae6-2606176f755a
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugPropertyField::GetPropertyGetter
+
 Gets the method that gets the property.
 
 ## Syntax

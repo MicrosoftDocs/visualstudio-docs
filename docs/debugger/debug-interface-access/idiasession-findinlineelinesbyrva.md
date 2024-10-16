@@ -1,25 +1,24 @@
 ---
 description: "IDiaSession::findInlineeLinesByRVA retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, by the specified parent symbol and are contained within the specified relative virtual address (RVA)."
-title: "IDiaSession::findInlineeLinesByRVA | Microsoft Docs"
+title: "IDiaSession::findInlineeLinesByRVA"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: 7a74d5ee-0dbf-47c0-92b4-47ec03b13ce9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findInlineeLinesByRVA
+
 Retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, by the specified parent symbol and are contained within the specified relative virtual address (RVA).
 
 ## Syntax
 
 ```C++
-HRESULT findInlineeLinesByRVA ( 
+HRESULT findInlineeLinesByRVA ( 
    IDiaSymbol*           parent,
    DWORD                 rva,
    DWORD                 length,

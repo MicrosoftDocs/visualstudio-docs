@@ -1,63 +1,33 @@
 ---
-title: Overview | Microsoft IntelliTest Developer Test Tool
+title: Microsoft IntelliTest Developer Test Tool
 description: Learn how IntelliTest uses an automated and transparent testing approach, IntelliTest can generate a candidate suite of tests for your .NET code.
-ms.custom: SEO-VS-2020
-ms.date: 05/02/2017
+ms.date: 12/04/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - IntelliTest, Visual Studio IntelliTest developer testing tool
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-test
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: test-tools
 author: mikejo5000
 ---
 # Overview of Microsoft IntelliTest
 
-IntelliTest enables you to find bugs early, and
-reduces test maintenance costs. Using an automated
-and transparent testing approach, IntelliTest can
-generate a candidate suite of tests for your .NET
-code. Test suite generation can be further guided by
-*correctness properties* you specify. IntelliTest
-will even evolve the test suite automatically as the
-code under test evolves.
+IntelliTest enables you to find bugs early, and reduces test maintenance costs. Using an automated and transparent testing approach, IntelliTest can generate a candidate suite of tests for your .NET code. Test suite generation can be further guided by
+*correctness properties* you specify. IntelliTest will even evolve the test suite automatically as the code under test evolves.
 
 > [!NOTE]
-> IntelliTest is available in Enterprise edition only. It is supported for C# code that targets the .NET Framework. .NET Core and .NET Standard are not currently supported.
+> IntelliTest is available in Enterprise edition only. It is supported for C# code that targets the .NET Framework. For .NET 6 support with IntelliTest, install the Preview version of Visual Studio Enterprise and see the [announcement
+](https://devblogs.microsoft.com/visualstudio/intellitest-simplifies-writing-and-maintaining-unit-tests/).
 
 **Characterization tests**
-IntelliTest enables you to determine the behavior of
-code in terms of a suite of traditional unit tests.
-Such a test suite can be used as a regression suite,
-forming the basis for tackling the complexity
-associated with refactoring legacy or unfamiliar code.
+IntelliTest enables you to determine the behavior of code in terms of a suite of traditional unit tests. Such a test suite can be used as a regression suite, forming the basis for tackling the complexity associated with refactoring legacy or unfamiliar code.
 
 **Guided test input generation**
-IntelliTest uses an open code analysis and constraint
-solving approach to automatically generate precise
-test input values; usually without the need for any
-user intervention. For complex object types, it
-automatically generates factories. You can guide test
-input generation by extending and configuring the
-factories to suit your requirements. Correctness
-properties specified as assertions in code will also be
-used automatically to further guide test input
-generation.
+IntelliTest uses an open code analysis and constraint solving approach to automatically generate precise test input values; usually without the need for any user intervention. For complex object types, it automatically generates factories. You can guide test input generation by extending and configuring the factories to suit your requirements. Correctness properties specified as assertions in code are used automatically to further guide test input generation.
 
 **IDE integration**
-IntelliTest is fully integrated into the Visual
-Studio IDE. All of the information gathered during
-test suite generation (such as the automatically
-generated inputs, the output from your code, the
-generated test cases, and their pass or fail status)
-appears within the Visual Studio IDE. You can easily
-iterate between fixing your code and rerunning
-IntelliTest, without leaving the Visual Studio IDE.
-The tests can be saved into the solution as a Unit
-Test Project, and will be automatically detected
-afterwards by Visual Studio Test Explorer.
+IntelliTest is fully integrated into the Visual Studio IDE. All of the information gathered during test suite generation (such as the automatically generated inputs, the output from your code, the generated test cases, and their pass or fail status) appears within the Visual Studio IDE. You can easily iterate between fixing your code and rerunning IntelliTest, without leaving the Visual Studio IDE.
+The tests can be saved into the solution as a Unit Test Project, and are automatically detected afterwards by Visual Studio Test Explorer.
 
 **Complement existing testing practices**
 Use IntelliTest to complement any existing testing practices that you may already follow.
@@ -78,9 +48,9 @@ If you want to test:
 
 ## The Hello World of IntelliTest
 
-IntelliTest finds inputs relevant to the tested program, which means you can use it to generate the famous **Hello World!** string. This assumes that you have created a C# MSTest-based test project and added a reference to **Microsoft.Pex.Framework**. If you are using a different test framework, create a C# class library and refer to the test framework documentation on how to set up the project.
+IntelliTest finds inputs relevant to the tested program, which means you can use it to generate the famous **Hello World!** string. This assumes that you have created a C# MSTest-based test project and added a reference to **Microsoft.Pex.Framework**. If you're using a different test framework, create a C# class library and refer to the test framework documentation on how to set up the project.
 
-The following example creates two constraints on the parameter named **value** so that IntelliTest will generate the required string:
+The following example creates two constraints on the parameter named **value** so that IntelliTest generates the required string:
 
 ```csharp
 using System;
@@ -128,7 +98,6 @@ public void HelloWorldThrowsException167()
 It's that easy!
 
 Additional resources:
-  * Watch the [Channel 9 video](https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Intellitest)
   * Read this [overview on MSDN Magazine](/archive/msdn-magazine/2015/february/visual-studio-2015-build-better-software-with-smart-unit-tests)
 
 ## Important attributes
@@ -191,60 +160,33 @@ This section describes the limitations of IntelliTest:
 
 ### Nondeterminism
 
-IntelliTest assumes that the analyzed program is deterministic. If it is not, IntelliTest will cycle until it reaches an exploration bound.
+IntelliTest assumes that the analyzed program is deterministic. If it isn't, IntelliTest cycles until it reaches an exploration bound.
 
-IntelliTest considers a program to be non-determistic if it relies on inputs that IntelliTest cannot control.
+IntelliTest considers a program to be non-determistic if it relies on inputs that IntelliTest can't control.
 
 IntelliTest controls inputs provided to
-[parameterized unit tests](test-generation.md#parameterized-unit-testing)
-and obtained from the
+[parameterized unit tests](test-generation.md#parameterized-unit-testing) and obtained from the
 [PexChoose](static-helper-classes.md#pexchoose).
-In that sense, results of calls to unmanaged or
-uninstrumented code are also considered as "inputs"
-to the instrumented program, but IntelliTest cannot
-control them. If the control flow of the program
-depends on specific values coming from these external
-sources, IntelliTest cannot "steer" the program
-towards previously uncovered areas.
+In that sense, results of calls to unmanaged or uninstrumented code are also considered as "inputs"
+to the instrumented program, but IntelliTest can't control them. If the control flow of the program depends on specific values coming from these external sources, IntelliTest can't "steer" the program towards previously uncovered areas.
 
-In addition, the
-program is considered to be non-determistic if the
-values from external sources change when rerunning
-the program. In such cases IntelliTest loses control
-over the execution of the program and its search
-becomes inefficient.
+In addition, the program is considered to be non-determistic if the values from external sources change when rerunning the program. In such cases IntelliTest loses control over the execution of the program and its search becomes inefficient.
 
-Sometimes it is not obvious when this happens. Consider the following examples:
+Sometimes it isn't obvious when this happens. Consider the following examples:
 
-* The result of the **GetHashCode()** method is
-  provided by unmanaged code, and is not predictable.
-* The **System.Random** class uses the current system
-  time to deliver truly random values.
-* The **System.DateTime** class provides the current
-  time, which is not under the control of
-  IntelliTest.
+* The result of the **GetHashCode()** method is provided by unmanaged code, and isn't predictable.
+* The **System.Random** class uses the current system time to deliver truly random values.
+* The **System.DateTime** class provides the current time, which isn't under the control of IntelliTest.
 
 ### Concurrency
 
-IntelliTest does not handle multithreaded programs.
+IntelliTest doesn't handle multithreaded programs.
 
 ### Native code
 
-IntelliTest does not understand native code, such as
-x86 instructions called through **P/Invoke**. It does
-not know how to translate such calls into constraints
-that can be passed to the
-[constraint solver](input-generation.md#constraint-solver).
-Even for .NET code, it can only analyze code it
-instruments. IntelliTest cannot instrument certain
-parts of **mscorlib**, including the reflection
-library. **DynamicMethod** cannot be instrumented.
+IntelliTest doesn't understand native code, such as x86 instructions called through **P/Invoke**. It does not know how to translate such calls into constraints that can be passed to the [constraint solver](input-generation.md#constraint-solver). Even for .NET code, it can only analyze code it instruments. IntelliTest can't instrument certain parts of **mscorlib**, including the reflection library. **DynamicMethod** can't be instrumented.
 
-The suggested workaround is to have a test mode
-where such methods are located in types in a dynamic
-assembly. However, even if some methods are uninstrumented,
-IntelliTest will try to cover as much of the
-instrumented code as possible.
+The suggested workaround is to have a test mode where such methods are located in types in a dynamic assembly. However, even if some methods are uninstrumented, IntelliTest tries to cover as much of the instrumented code as possible.
 
 ### Platform
 
@@ -260,9 +202,9 @@ IntelliTest uses an automatic [constraint solver](input-generation.md#constraint
 
 ### Incorrect stack traces
 
-Because IntelliTest catches and "rethrows" exceptions in each instrumented method, the line numbers in stack traces will not be correct. This is a limitation by design of the "rethrow" instruction.
+Because IntelliTest catches and "rethrows" exceptions in each instrumented method, the line numbers in stack traces won't be correct. This is a limitation by design of the "rethrow" instruction.
 
-## Further reading
+## Related content
 
 * [Introductory blog post](https://devblogs.microsoft.com/devops/introducing-smart-unit-tests/).
 * [Generate unit tests for your code with IntelliTest](../../test/generate-unit-tests-for-your-code-with-intellitest.md)

@@ -1,35 +1,26 @@
 ---
 description: "Converts either an object location or a 64-bit memory address to a memory context."
-title: IDebugBinder3::GetMemoryContext64 | Microsoft Docs
+title: IDebugBinder3::GetMemoryContext64
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - GetMemoryContext64
 - IDebugBinder3::GetMemoryContext64
-ms.assetid: f021fd16-9fc7-4c41-86af-e54e6224cfbb
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugBinder3::GetMemoryContext64
+
 Converts either an object location or a 64-bit memory address to a memory context.
 
 ## Syntax
 
-```cpp
-HRESULT GetMemoryContext64 (
-    IDebugField*           pField,
-    UINT64                 uConstant,
-    IDebugMemoryContext2** ppMemCxt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMemoryContext64 (
     IDebugField              pField,
@@ -37,6 +28,15 @@ int GetMemoryContext64 (
     out IDebugMemoryContext2 ppMemCxt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMemoryContext64 (
+    IDebugField*           pField,
+    UINT64                 uConstant,
+    IDebugMemoryContext2** ppMemCxt
+);
+```
+---
 
 ## Parameters
 `pField`\

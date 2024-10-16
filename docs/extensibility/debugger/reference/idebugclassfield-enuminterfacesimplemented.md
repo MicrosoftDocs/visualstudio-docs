@@ -1,39 +1,39 @@
 ---
 description: "Creates an enumerator for the interfaces implemented by this class."
-title: IDebugClassField::EnumInterfacesImplemented | Microsoft Docs
+title: IDebugClassField::EnumInterfacesImplemented
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugClassField::EnumInterfacesImplemented
 helpviewer_keywords:
 - IDebugClassField::EnumInterfacesImplemented method
-ms.assetid: e5523e45-d350-491e-a92c-fe0ca97d2052
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugClassField::EnumInterfacesImplemented
+
 Creates an enumerator for the interfaces implemented by this class.
 
 ## Syntax
 
-```cpp
-HRESULT EnumInterfacesImplemented( 
-   IEnumDebugFields** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumInterfacesImplemented(
    out IEnumDebugFields ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumInterfacesImplemented( 
+   IEnumDebugFields** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\
@@ -43,7 +43,7 @@ int EnumInterfacesImplemented(
  If successful, returns S_OK or returns S_FALSE if there are no interfaces implemented on this class. Otherwise, returns an error code.
 
 ## Remarks
- Each element of the enumeration is an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object describing an interface. Note that unmanaged [!INCLUDE[vcprvc](../../../code-quality/includes/vcprvc_md.md)] code does not use interfaces as a discrete entity so this method always returns a null value for unmanaged [!INCLUDE[vcprvc](../../../code-quality/includes/vcprvc_md.md)] code.
+ Each element of the enumeration is an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object describing an interface. Note that unmanaged Visual C++ code does not use interfaces as a discrete entity so this method always returns a null value for unmanaged Visual C++ code.
 
 ## See also
 - [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)

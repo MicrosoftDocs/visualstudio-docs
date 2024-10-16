@@ -1,21 +1,19 @@
 ---
 description: "Retrieves the timestamp of the underlying executable file."
-title: "IDiaSymbol::get_timeStamp | Microsoft Docs"
+title: "IDiaSymbol::get_timeStamp"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_timeStamp method"
-ms.assetid: 5d707b76-dbaa-4d88-86c3-6f3672cc6d4c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_timeStamp
+
 Retrieves the timestamp of the underlying executable file.
 
 ## Syntax

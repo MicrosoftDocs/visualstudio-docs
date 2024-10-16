@@ -1,11 +1,10 @@
 ---
-title: Purchasing, renewing, canceling, or billing for subscriptions
-description: FAQs list for purchases, billing, and cancellation of Visual Studio subscriptions.
+title: FAQs for purchasing, renewing, canceling & billing
+description: Review frequently asked questions (FAQs) for Azure subscribers about purchasing or renewing Visual Studio subscriptions, subscription billing, and cancellation.
 ms.topic: conceptual
-ms.assetid: 3c8d8652-b971-4a5a-887f-3c6944b1decf
-author: CaityBuschlen
-ms.author: cabuschl
-ms.date: 04/20/2021
+author: joseb-rdc
+ms.author: amast
+ms.date: 09/30/2024
 ms.faqid: Section4
 ---
 

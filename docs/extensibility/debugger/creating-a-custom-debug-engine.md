@@ -1,22 +1,19 @@
 ---
-title: Creating a Custom Debug Engine | Microsoft Docs
+title: Creating a Custom Debug Engine
 description: Use these articles to learn about creating a debug engine that allows debugging of particular run-time architectures.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - debug engines, implementing
 - debug engines, custom
 - debugging [Debugging SDK], custom debug engines
-ms.assetid: 52794238-6fae-451c-bf1c-99f344c6f173
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Create a custom debug engine
+
 A debug engine (DE) is a component that allows debugging of particular run-time architectures. There is typically only one DE implementation per run-time environment.
 
 > [!NOTE]
@@ -37,26 +34,20 @@ A debug engine (DE) is a component that allows debugging of particular run-time 
 5. Set up termination and detaching
 
 ## In this section
- [Register a custom debug engine](../../extensibility/debugger/registering-a-custom-debug-engine.md)
- Explains the steps needed to register a debug engine with Visual Studio so that it can be used.
 
- [Enable a program to be debugged](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)
- Explains that before your DE can debug a program, you must first launch the DE or attach it to an existing program.
+[Register a custom debug engine](../../extensibility/debugger/registering-a-custom-debug-engine.md) explains the steps needed to register a debug engine with Visual Studio so that it can be used.
 
- [Implement execution control and state evaluation](../../extensibility/debugger/execution-control-and-state-evaluation.md)
- Discusses why debugging an application requires implementing execution control features.
+ [Enable a program to be debugged](../../extensibility/debugger/enabling-a-program-to-be-debugged.md) explains that before your DE can debug a program, you must first launch the DE or attach it to an existing program.
 
- [Send events](../../extensibility/debugger/sending-events.md)
- Describes communication between the debugger and the DE as an event model based on DCOM.
+ [Implement execution control and state evaluation](../../extensibility/debugger/execution-control-and-state-evaluation.md) discusses why debugging an application requires implementing execution control features.
 
- [Set up termination and detaching](../../extensibility/debugger/termination-and-detaching.md)
- Explains how to achieve normal termination, which means that there are no breakpoints, exceptions, run-time errors, or infinite loops in the application to be debugged.
+ [Send events](../../extensibility/debugger/sending-events.md) describes communication between the debugger and the DE as an event model based on DCOM.
 
- [Call debugger events](../../extensibility/debugger/calling-debugger-events.md)
- Documents the calling order of the events occurring in a debugging session.
+ [Set up termination and detaching](../../extensibility/debugger/termination-and-detaching.md) explains how to achieve normal termination, which means that there are no breakpoints, exceptions, run-time errors, or infinite loops in the application to be debugged.
 
- [How To: Debug a custom debug engine](../../extensibility/debugger/how-to-debug-a-custom-debug-engine.md)
- Explains how to debug a custom DE.
+ [Call debugger events](../../extensibility/debugger/calling-debugger-events.md) documents the calling order of the events occurring in a debugging session.
 
-## See also
+ [How To: Debug a custom debug engine](../../extensibility/debugger/how-to-debug-a-custom-debug-engine.md) explains how to debug a custom DE.
+
+## Related content
 - [Visual Studio debugger extensibility](../../extensibility/debugger/visual-studio-debugger-extensibility.md)

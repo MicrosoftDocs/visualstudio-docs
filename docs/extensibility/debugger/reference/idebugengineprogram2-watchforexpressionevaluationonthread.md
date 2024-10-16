@@ -2,39 +2,27 @@
 description: "Allows (or disallows) expression evaluation to occur on the given thread, even if the program has stopped."
 title: IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
 titleSuffix: ""
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
 helpviewer_keywords:
 - IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
-ms.assetid: 01d05e77-8cac-4d1b-b19f-25756767ed27
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
+
 Allows (or disallows) expression evaluation to occur on the given thread, even if the program has stopped.
 
 ## Syntax
 
-```cpp
-HRESULT WatchForExpressionEvaluationOnThread( 
-   IDebugProgram2*       pOriginatingProgram,
-   DWORD                 dwTid,
-   DWORD                 dwEvalFlags,
-   IDebugEventCallback2* pExprCallback,
-   BOOL                  fWatch
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int WatchForExpressionEvaluationOnThread( 
    IDebugProgram2       pOriginatingProgram,
@@ -44,6 +32,17 @@ int WatchForExpressionEvaluationOnThread( 
    int                   fWatch
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT WatchForExpressionEvaluationOnThread( 
+   IDebugProgram2*       pOriginatingProgram,
+   DWORD                 dwTid,
+   DWORD                 dwEvalFlags,
+   IDebugEventCallback2* pExprCallback,
+   BOOL                  fWatch
+);
+```
+---
 
 ## Parameters
 `pOriginatingProgram`\

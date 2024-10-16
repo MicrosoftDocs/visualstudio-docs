@@ -1,7 +1,6 @@
 ---
-title: "C/C++ Assertions | Microsoft Docs"
+title: Use C++ assertion statements for debugging
 description: Read about how C/C++ assertions work in Visual Studio debugging. An assertion specifies a condition that you expect to be true at a point in your program.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -24,14 +23,12 @@ helpviewer_keywords:
   - "_DEBUG macro"
   - "Assertion Failed dialog box"
   - "failures, finding locations"
-ms.assetid: 2d7b0121-71aa-414b-bbb6-ede1093d0bfc
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "cplusplus"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # C/C++ Assertions
 
 An assertion statement specifies a condition that you expect to be true at a point in your program. If that condition is not true, the assertion fails, execution of your program is interrupted, and the [Assertion Failed dialog box](../debugger/assertion-failed-dialog-box.md) appears.
@@ -74,7 +71,7 @@ Visual Studio supports C++ assertion statements that are based on the following 
 
 ## <a name="BKMK_How_assertions_work"></a> How assertions work
 
-When the debugger halts because of an MFC or C run-time library assertion, then if the source is available, the debugger navigates to the point in the source file where the assertion occurred. The assertion message appears in both the [Output window](../ide/reference/output-window.md) and the **Assertion Failed** dialog box. You can copy the assertion message from the **Output** window to a text window if you want to save it for future reference. The **Output** window may contain other error messages as well. Examine these messages carefully, because they provide clues to the cause of the assertion failure.
+When the debugger halts because of an MFC or C run-time library assertion, then if the source is available, the debugger navigates to the point in the source file where the assertion occurred. The assertion message appears in both the [Output window](../ide/reference/output-window.md) and the **Assertion Failed** dialog box. You can copy the assertion message from the **Output** window to a text window if you want to save it for future reference. The **Output** window might contain other error messages as well. Examine these messages carefully, because they provide clues to the cause of the assertion failure.
 
 Use assertions to detect errors during development. As a rule, use one assertion for each assumption. For example, if you assume that an argument is not NULL, use an assertion to test that assumption.
 
@@ -107,14 +104,14 @@ VERIFY ( myFnctn(0)==1 ) // safe
 
 ## <a name="BKMK_CRT_assertions"></a> CRT assertions
 
-The CRTDBG.H header file defines the [_ASSERT and _ASSERTE macros](/cpp/c-runtime-library/reference/assert-asserte-assert-expr-macros) for assertion checking.
+The `CRTDBG.H` header file defines the [`_ASSERT` and `_ASSERTE` macros](/cpp/c-runtime-library/reference/assert-asserte-assert-expr-macros) for assertion checking.
 
 | Macro | Result |
 |------------| - |
 | `_ASSERT` | If the specified expression evaluates to FALSE, the file name and line number of the `_ASSERT`. |
 | `_ASSERTE` | Same as `_ASSERT`, plus a string representation of the expression that was asserted. |
 
-`_ASSERTE` is more powerful because it reports the asserted expression that turned out to be FALSE. This may be enough to identify the problem without referring to the source code. However, the Debug version of your application will contain a string constant for each expression asserted using `_ASSERTE`. If you use many `_ASSERTE` macros, these string expressions take up a significant amount of memory. If that proves to be a problem, use `_ASSERT` to save memory.
+`_ASSERTE` is more powerful because it reports the asserted expression that turned out to be FALSE. This might be enough to identify the problem without referring to the source code. However, the Debug version of your application will contain a string constant for each expression asserted using `_ASSERTE`. If you use many `_ASSERTE` macros, these string expressions take up a significant amount of memory. If that proves to be a problem, use `_ASSERT` to save memory.
 
 When `_DEBUG` is defined, the `_ASSERTE` macro is defined as follows:
 
@@ -150,7 +147,7 @@ _ASSERTE(_CrtIsValidPointer( address, size, TRUE );
 The following example uses [_CrtIsValidHeapPointer](/cpp/c-runtime-library/reference/crtisvalidheappointer) to verify a pointer points to memory in the local heap (the heap created and managed by this instance of the C run-time library — a DLL can have its own instance of the library, and therefore its own heap, outside of the application heap). This assertion catches not only null or out-of-bounds addresses, but also pointers to static variables, stack variables, and any other nonlocal memory.
 
 ```cpp
-_ASSERTE(_CrtIsValidPointer( myData );
+_ASSERTE(_CrtIsValidHeapPointer( myData );
 ```
 
 ### Checking a Memory Block
@@ -269,6 +266,7 @@ With some more work, you could add validity tests for the `CPerson` objects stor
 This is a powerful mechanism when you build for debugging. When you subsequently build for release, the mechanism is turned off automatically.
 
 ### <a name="BKMK_Limitations_of_AssertValid"></a> Limitations of AssertValid
+
 A triggered assertion indicates that the object is definitely bad and execution will stop. However, a lack of assertion indicates only that no problem was found, but the object is not guaranteed to be good.
 
 [In this topic](#BKMK_In_this_topic)
@@ -350,7 +348,7 @@ This code relies on the assertion statement to handle the error condition. As a 
 
 [In this topic](#BKMK_In_this_topic)
 
-## See also
+## Related content
 
 - [Debugger Security](../debugger/debugger-security.md)
 - [Debugging Native Code](../debugger/debugging-native-code.md)

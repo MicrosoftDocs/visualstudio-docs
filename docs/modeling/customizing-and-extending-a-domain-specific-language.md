@@ -1,17 +1,14 @@
 ---
 title: Customizing and Extending a Domain-Specific Language
 description: Learn how the Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at which you can define modeling tools.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language Tools, creating solutions
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Customize and extend a domain-specific language
 
@@ -65,7 +62,7 @@ Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at 
 |Integrate several DSLs so that they work as part of one application.|See [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md).|
 |Allow your DSL to be extended by third parties, and control the extension.|[Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md)<br /><br /> [Sharing Classes between DSLs by using a DSL Library](../modeling/sharing-classes-between-dsls-by-using-a-dsl-library.md)<br /><br /> [Defining a Locking Policy to Create Read-Only Segments](../modeling/defining-a-locking-policy-to-create-read-only-segments.md)|
 
-## See also
+## Related content
 
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
 - [Writing Code to Customize a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)

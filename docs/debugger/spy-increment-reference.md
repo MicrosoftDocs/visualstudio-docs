@@ -1,54 +1,41 @@
 ---
-title: "Spy++ Reference | Microsoft Docs"
+title: "Spy++ reference overview"
 description: Review a list of reference links to articles that describe each menu command and dialog box in the Spy++ debugging tool.
-ms.custom: SEO-VS-2020
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.date: 02/05/2024
+ms.topic: "ui-reference"
 helpviewer_keywords:
   - "reference, Spy++"
   - "Spy++ reference"
-ms.assetid: 2cf41bc9-55f3-4bb6-b28d-08c75215debd
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
-# Spy++ Reference
-See the sections listed below for descriptions of each Spy++ menu and dialog box:
 
-## In This Section
- [Menu Commands](../debugger/menu-commands.md)
- Describes the commands available on each Spy++ menu.
+# Spy++ reference overview
 
- [Font Dialog Box](../debugger/font-dialog-box-microsoft-spy-increment-help.md)
- Used to configure the character font used in a Spy++ Views window.
+See the following descriptions for each Spy++ menu and dialog box:
 
- [Search Tools for Spy++ Views](../debugger/search-tools-for-spy-increment-views.md)
- Dialog boxes used to find a specific node in a Spy++ Views window.
+## In this section
 
- [Window Properties Dialog Box](../debugger/window-properties-dialog-box.md)
- Used to display the properties of a window selected in Windows view.
+ [Menu commands](menu-commands.md): Describes the commands available on each Spy++ menu.
 
- [Message Options Dialog Box](../debugger/message-options-dialog-box.md)
- Used to select which messages are listed in Messages view.
+ [Search tools for Spy++ views](search-tools-for-spy-increment-views.md): Dialog boxes used to find a specific node in a Spy++ Views window.
 
- [Message Properties Dialog Box](../debugger/message-properties-dialog-box.md)
- Used to display the properties of a message selected in Messages view.
+ [Window Properties dialog box](window-properties-dialog-box.md): Used to display the properties of a window selected in Windows View.
 
- [Process Properties Dialog Box](../debugger/process-properties-dialog-box.md)
- Used to display the properties of a process selected in Processes view.
+ [Message Options dialog box](message-options-dialog-box.md): Used to select which messages are listed in Messages View.
 
- [Thread Properties Dialog Box](../debugger/thread-properties-dialog-box.md)
- Used to display the properties of a thread selected in Threads view.
+ [Message Properties dialog box](message-properties-dialog-box.md): Used to display the properties of a message selected in Messages View.
 
- [Other Dialog Boxes](../debugger/other-dialog-boxes.md)
- Used to display information about the Spy++ program.
+ [Process Properties dialog box](process-properties-dialog-box.md): Used to display the properties of a process selected in Processes View.
 
-## Related Sections
- [Using Spy++](../debugger/using-spy-increment.md)
- Introduces the Spy++ tool and explains how it can be used.
+ [Thread Properties dialog box](thread-properties-dialog-box.md): Used to display the properties of a thread selected in Threads View.
 
- [Spy++ Views](../debugger/spy-increment-views.md)
- Explains the Spy++ tree views of windows, messages, processes, and threads.
+## About Microsoft Spy++
+
+Use this dialog box to view copyright, version, ownership, and other information about Spy++.
+
+## Related sections
+
+- [Using Spy++](using-spy-increment.md): Introduces the Spy++ tool and explains how it can be used.

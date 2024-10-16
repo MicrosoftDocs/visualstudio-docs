@@ -1,7 +1,6 @@
 ---
 title: U-SQL editor formatting options
 description: Learn how to use the Formatting options page and its subpages to set options for formatting code in the code editor when you are programming in U-SQL.
-ms.custom: SEO-VS-2020
 ms.date: 01/17/2019
 ms.topic: reference
 f1_keywords:
@@ -10,12 +9,11 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting.Indentation
 - VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting
 - VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting.General
-author: TerryGLee
-ms.author: tglee
-manager: jmartens
-ms.technology: vs-ide-general
-ms.workload:
-- multiple
+author: anandmeg
+ms.author: meghaanand
+manager: mijacobs
+ms.subservice: general-ide
+monikerRange: vs-2019
 ---
 # Options, Text Editor, U-SQL, Formatting
 

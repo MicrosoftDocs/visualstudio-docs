@@ -1,41 +1,41 @@
 ---
 description: "Retrieves the property proxy interface for the specified proxy ID."
-title: IPropertyProxyProvider::GetPropertyProxy | Microsoft Docs
+title: IPropertyProxyProvider::GetPropertyProxy
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IPropertyProxyProvider::GetPropertyProxy
 helpviewer_keywords:
 - IPropertyProxyProvider::GetPropertyProxy
-ms.assetid: 3ebb7515-5bfe-48f4-9b8d-721b8f664eb6
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IPropertyProxyProvider::GetPropertyProxy
+
 Retrieves the property proxy interface for the specified proxy ID.
 
 ## Syntax
 
-```cpp
-HRESULT GetPropertyProxy(
-   DWORD                  dwID,
-   IPropertyProxyEESide** proxy
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPropertyProxy(
    uint                     dwID,
    out IPropertyProxyEESide proxy
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPropertyProxy(
+   DWORD                  dwID,
+   IPropertyProxyEESide** proxy
+);
+```
+---
 
 ## Parameters
 `dwID`\

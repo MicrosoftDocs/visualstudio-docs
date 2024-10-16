@@ -1,28 +1,38 @@
 ---
 description: "Specifies the flags for disassembly."
-title: DISASSEMBLY_FLAGS | Microsoft Docs
+title: DISASSEMBLY_FLAGS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - DISASSEMBLY_FLAGS
 helpviewer_keywords:
 - DISASSEMBLY_FLAGS enumeration
-ms.assetid: c1ec5a4d-5d42-4660-932c-7348550140cb
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # DISASSEMBLY_FLAGS
+
 Specifies the flags for disassembly.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_DISASSEMBLY_FLAGS {
+    DF_DOCUMENTCHANGE     = 0x00000001,
+    DF_DISABLED           = 0x00000002,
+    DF_INSTRUCTION_ACTIVE = 0x00000004,
+    DF_DATA               = 0x00000008,
+    DF_HASSOURCE          = 0x00000010,
+    DF_DOCUMENT_CHECKSUM  = 0x00000020
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_DISASSEMBLY_FLAGS {
     DF_DOCUMENTCHANGE     = 0x00000001,
@@ -34,17 +44,7 @@ enum enum_DISASSEMBLY_FLAGS {
 };
 typedef DWORD DISASSEMBLY_FLAGS;
 ```
-
-```csharp
-public enum enum_DISASSEMBLY_FLAGS {
-    DF_DOCUMENTCHANGE     = 0x00000001,
-    DF_DISABLED           = 0x00000002,
-    DF_INSTRUCTION_ACTIVE = 0x00000004,
-    DF_DATA               = 0x00000008,
-    DF_HASSOURCE          = 0x00000010,
-    DF_DOCUMENT_CHECKSUM  = 0x00000020
-};
-```
+---
 
 ## Fields
 `DF_DOCUMENTCHANGE`\

@@ -6,12 +6,9 @@ robots: "noindex, nofollow"
 ms.topic: "reference"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
-
 # Getting Started With The Snapshot Debugger
 
 The Visual Studio Snapshot Debugger is now connected to your service and you can start collecting snapshots to help with debugging.
@@ -20,7 +17,7 @@ To use the Snapshot Debugger, set some snappoints in your code, click the button
 
 ## Collect and view snapshots
 
-The Snapshot Debugger collects snapshots from your application. Snapshots are like pictures of your appication at a point in time. You tell Visual Studio when and where to collect a snapshot by setting a snappoint in code. In the snappoint, you set any conditions you need to make sure you get a snapshot of the problem you're investigating.
+The Snapshot Debugger collects snapshots from your application. Snapshots are like pictures of your application at a point in time. You tell Visual Studio when and where to collect a snapshot by setting a snappoint in code. In the snappoint, you set any conditions you need to make sure you get a snapshot of the problem you're investigating.
 
 ### Set a Snappoint
 

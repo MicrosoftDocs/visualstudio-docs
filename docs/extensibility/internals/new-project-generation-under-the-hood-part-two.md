@@ -1,25 +1,22 @@
 ---
-title: 'New Project Generation: Under the Hood, Part Two | Microsoft Docs'
+title: 'New Project Generation: Under the Hood, Part Two'
 description: Take a detailed look at what happens in the Visual Studio integrated development environment (IDE) as you create your own project type (Part 2 of 2).
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - projects [Visual Studio], new project dialog
 - projects [Visual Studio], new project generation
-ms.assetid: 73ce91d8-0ab1-4a1f-bf12-4d3c49c01e13
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # New Project Generation: Under the Hood, Part Two
 
 In [New Project Generation: Under the Hood, Part One](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md) we saw how the **New Project** dialog Box is populated. Let's assume you've selected a **Visual C# Windows Application**, filled out the **Name** and **Location** text boxes, and clicked OK.
 
 ## Generating the Solution Files
- Choosing an application template directs [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to unzip and open the corresponding .vstemplate file, and to launch a template to interpret the XML commands in this file. These commands create projects and project items in the new or existing solution.
+ Choosing an application template directs Visual Studio to unzip and open the corresponding .vstemplate file, and to launch a template to interpret the XML commands in this file. These commands create projects and project items in the new or existing solution.
 
  The template unpacks source files, called item templates, from the same .zip folder that holds the .vstemplate file. The template copies these files to the new project, customizing them accordingly.
 
@@ -150,7 +147,7 @@ namespace Simple
 </ItemGroup>
 ```
 
-## See also
+## Related content
 
 - [New Project Generation: Under the Hood, Part One](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md)
 - [MSBuild](../../msbuild/msbuild.md)

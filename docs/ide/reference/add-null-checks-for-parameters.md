@@ -1,16 +1,13 @@
 --- 
 title: Add null checks for all (parameters) 
 description: Learn how to create and add if statements to your code that check nullity of all the nullable, non-checked parameters.
-ms.custom: SEO-VS-2020
 ms.date: 09/17/2019 
 ms.topic: reference 
 author: mikadumont
 ms.author: midumont
-manager: jmartens 
+manager: mijacobs 
 dev_langs: 
   - CSharp 
-ms.workload:  
-  - "dotnet" 
 --- 
 # Add null checks for all parameters 
 
@@ -34,7 +31,7 @@ This refactoring applies to:
    
 3. Select the option to **Add null checks for all parameters**.
 
-   ![Add null checks for all](media/add-null-checks-for-all.png) 
+   ![Add null checks for all](media/add-null-checks-for-all.png)
 
 ## See also 
 

@@ -1,7 +1,6 @@
 ---
 title: "Download satellite assembly on demand (ClickOnce API)"
 description: Learn how to mark satellite assemblies as optional and download only the assembly a client machine needs for its current culture settings.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -17,20 +16,20 @@ helpviewer_keywords:
   - "ClickOnce deployment, on-demand download"
   - "localization, ClickOnce deployment"
   - "ClickOnce deployment, localization"
-ms.assetid: fdaa553f-a27e-44eb-a4e2-08c122105a87
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: deployment
 ---
 # Walkthrough: Download satellite assemblies on demand with the ClickOnce deployment API
+
 Windows Forms applications can be configured for multiple cultures through the use of satellite assemblies. A *satellite assembly* is an assembly that contains application resources for a culture other than the application's default culture.
 
- As discussed in [Localize ClickOnce applications](../deployment/localizing-clickonce-applications.md), you can include multiple satellite assemblies for multiple cultures within the same [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment. By default, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will download all of the satellite assemblies in your deployment to the client machine, although a single client will probably require only one satellite assembly.
+ As discussed in [Localize ClickOnce applications](../deployment/localizing-clickonce-applications.md), you can include multiple satellite assemblies for multiple cultures within the same ClickOnce deployment. By default, ClickOnce will download all of the satellite assemblies in your deployment to the client machine, although a single client will probably require only one satellite assembly.
 
- This walkthrough demonstrates how to mark your satellite assemblies as optional, and download only the assembly a client machine needs for its current culture settings. The following procedure uses the tools available in the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. You can also perform this task in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  Also see [Walkthrough: Download satellite assemblies on demand with the ClickOnce deployment API using the Designer](/previous-versions/visualstudio/visual-studio-2012/ms366788(v=vs.110)) or [Walkthrough: Download satellite assemblies on demand with the ClickOnce deployment API using the Designer](/previous-versions/visualstudio/visual-studio-2013/ms366788(v=vs.120)).
+ This walkthrough demonstrates how to mark your satellite assemblies as optional, and download only the assembly a client machine needs for its current culture settings. The following procedure uses the tools available in the Windows Software Development Kit (SDK). You can also perform this task in Visual Studio.  Also see [Walkthrough: Download satellite assemblies on demand with the ClickOnce deployment API using the Designer](/previous-versions/visualstudio/visual-studio-2012/ms366788(v=vs.110)) or [Walkthrough: Download satellite assemblies on demand with the ClickOnce deployment API using the Designer](/previous-versions/visualstudio/visual-studio-2013/ms366788(v=vs.120)).
+
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
 
 > [!NOTE]
 > For testing purposes, the following code example programmatically sets the culture to `ja-JP`. See the "Next Steps" section later in this topic for information on how to adjust this code for a production environment.
@@ -42,10 +41,14 @@ Windows Forms applications can be configured for multiple cultures through the u
 
 1. Add the following code to your application to enable on-demand downloading of satellite assemblies.
 
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../snippets/csharp/VS_Snippets_Winforms/ClickOnce.SatelliteAssembliesSDK/CS/Program.cs" id="Snippet1":::
-    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_Winforms/ClickOnce.SatelliteAssembliesSDK/VB/Form1.vb" id="Snippet1":::
 
-2. Generate satellite assemblies for your application by using [Resgen.exe (Resource File Generator)](/dotnet/framework/tools/resgen-exe-resource-file-generator) or [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+    ### [VB](#tab/vb)
+    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_Winforms/ClickOnce.SatelliteAssembliesSDK/VB/Form1.vb" id="Snippet1":::
+    ---
+
+2. Generate satellite assemblies for your application by using [Resgen.exe (Resource File Generator)](/dotnet/framework/tools/resgen-exe-resource-file-generator) or Visual Studio.
 
 3. Generate an application manifest, or open your existing application manifest, by using *MageUI.exe*. For more information about this tool, see [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client).
 
@@ -62,5 +65,5 @@ Windows Forms applications can be configured for multiple cultures through the u
 ## Next steps
  In a production environment, you will likely need to remove the line in the code example that sets <xref:System.Threading.Thread.CurrentUICulture%2A> to a specific value, because client machines will have the correct value set by default. When your application runs on a Japanese client machine, for example, <xref:System.Threading.Thread.CurrentUICulture%2A> will be `ja-JP` by default. Setting this value programmatically is a good way to test your satellite assemblies before you deploy your application.
 
-## See also
+## Related content
 - [Localize ClickOnce applications](../deployment/localizing-clickonce-applications.md)

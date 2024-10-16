@@ -1,7 +1,6 @@
 ---
 title: Map methods on the call stack while debugging
 description: Learn how to create a code map to visually trace the call stack while you're debugging. Also, learn that you can make notes on the map to track what the code is doing.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -27,10 +26,8 @@ helpviewer_keywords:
 - debugging [Visual Studio], visualizing the call stack
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Map methods on the call stack while debugging in Visual Studio
 
@@ -40,23 +37,11 @@ Create a code map to visually trace the call stack while you're debugging. You c
 
  You'll need:
 
- ::: moniker range="vs-2017"
-
-- [Visual Studio Enterprise](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download)
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-- [Visual Studio Enterprise](https://visualstudio.microsoft.com/downloads)
-
-::: moniker-end
+- [Visual Studio Enterprise](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
 
 - Code that you can debug, such as Visual C#, Visual Basic, C++, JavaScript, or X++
 
   See:
-
-- [Video: Debug visually with Code Map debugger integration (Channel 9)](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012Debug-visually-with-Code-Map-debugger-integration)
 
 - [Map the call stack](#MapStack)
 
@@ -197,7 +182,7 @@ Create a code map to visually trace the call stack while you're debugging. You c
 
 - [Find bugs using the map](#FindBugs)
 
-## See also
+## Related content
 
 - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
 - [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)

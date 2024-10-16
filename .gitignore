@@ -360,3 +360,6 @@ _themes.VS.Modern/
 
 # Folder configuration on Mac
 .DS_Store
+
+# Custom added by ghogen
+settings.json

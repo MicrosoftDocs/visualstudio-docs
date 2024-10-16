@@ -1,6 +1,6 @@
 ---
 description: "Gets the breakpoint resolution that describes this breakpoint."
-title: IDebugBoundBreakpoint2::GetBreakpointResolution | Microsoft Docs
+title: IDebugBoundBreakpoint2::GetBreakpointResolution
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,33 +8,33 @@ f1_keywords:
 helpviewer_keywords:
 - GetBreakpointResolution method
 - IDebugBoundBreakpoint2::GetBreakpointResolution method
-ms.assetid: 4479ac61-18a9-4a30-b213-9921c5af9a26
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugBoundBreakpoint2::GetBreakpointResolution
+
 Gets the breakpoint resolution that describes this breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT GetBreakpointResolution( 
-    IDebugBreakpointResolution2** ppBPResolution
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetBreakpointResolution( 
     out IDebugBreakpointResolution2 ppBPResolution
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetBreakpointResolution( 
+    IDebugBreakpointResolution2** ppBPResolution
+);
+```
+---
 
 ## Parameters
 `ppBPResolution`\

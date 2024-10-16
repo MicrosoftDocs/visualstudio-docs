@@ -1,30 +1,28 @@
 ---
-description: "Provides access to the records in a debug data stream."
-title: "IDiaEnumDebugStreamData | Microsoft Docs"
+description: Provides access to the records in a debug data stream.
+title: IDiaEnumDebugStreamData
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumDebugStreamData interface"
-ms.assetid: e2023c32-4c05-4d0c-a0be-f016a230c788
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaEnumDebugStreamData
+
 Provides access to the records in a debug data stream.
 
 ## Syntax
 
-```
-IDiaEnumDebugStreamData : IUnknown
-```
+`IDiaEnumDebugStreamData : IUnknown`
 
 ## Methods in Vtable Order
+
 The following table shows the methods of `IDiaEnumDebugStreamData`.
 
 |Method|Description|
@@ -39,15 +37,18 @@ The following table shows the methods of `IDiaEnumDebugStreamData`.
 |[IDiaEnumDebugStreamData::Clone](../../debugger/debug-interface-access/idiaenumdebugstreamdata-clone.md)|Creates an enumerator that contains the same enumerated sequence as the current enumerator.|
 
 ## Remarks
+
 This interface represents a stream of records in a debug data stream. The size and interpretation of each record is dependent on the data stream the record comes from. This interface effectively provides access to the raw data bytes in the symbol file.
 
 ## Notes for Callers
+
 Call the [IDiaEnumDebugStreams::Item](../../debugger/debug-interface-access/idiaenumdebugstreams-item.md) or [IDiaEnumDebugStreams::Next](../../debugger/debug-interface-access/idiaenumdebugstreams-next.md) methods to obtain an `IDiaEnumDebugStreamData` object.
 
 ## Example
- This example shows how to access a single data stream and its records.
 
-```C++
+This example shows how to access a single data stream and its records.
+
+```c++
 void PrintStreamData(IDiaEnumDebugStreamData* pStream)
 {
     BSTR  wszName;
@@ -99,6 +100,7 @@ void PrintStreamData(IDiaEnumDebugStreamData* pStream)
 ```
 
 ## Requirements
+
 Header: Dia2.h
 
 Library: diaguids.lib
@@ -106,6 +108,7 @@ Library: diaguids.lib
 DLL: msdia80.dll
 
 ## See also
+
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [IDiaEnumDebugStreams::Item](../../debugger/debug-interface-access/idiaenumdebugstreams-item.md)
 - [IDiaEnumDebugStreams::Next](../../debugger/debug-interface-access/idiaenumdebugstreams-next.md)

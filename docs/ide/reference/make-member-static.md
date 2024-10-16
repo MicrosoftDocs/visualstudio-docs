@@ -1,17 +1,14 @@
 ---
 title: Make member static
 description: Learn how to use the Quick Actions and Refactorings menu to make a member static.
-ms.custom: SEO-VS-2020
 ms.date: 02/19/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-manager: jmartens
-ms.technology: vs-ide-general
+manager: mijacobs
+ms.subservice: general-ide
 dev_langs:
   - CSharp
-ms.workload:
-  - "dotnet"
 ---
 # Make member static
 

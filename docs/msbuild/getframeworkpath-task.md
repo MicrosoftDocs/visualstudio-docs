@@ -1,7 +1,6 @@
 ---
-title: "GetFrameworkPath Task | Microsoft Docs"
+title: "GetFrameworkPath Task"
 description: Learn how to use the MSBuild GetFrameworkPath task to retrieve the path to the .NET Framework assemblies.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -10,17 +9,13 @@ dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-  - "jsharp"
 helpviewer_keywords:
   - "GetFrameworkPath task [MSBuild]"
   - "MSBuild, GetFrameworkPath task"
-ms.assetid: 5b7bcdd7-d4a0-442d-af29-8aadb3b10598
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # GetFrameworkPath task
 

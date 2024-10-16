@@ -1,7 +1,6 @@
 ---
-title: Automatic app updates using ClickOnce deployment API
+title: Automatic app updates with ClickOnce deployment API
 description: Learn how to write code in ClickOnce that uses the ApplicationDeployment class to check for updates based on an event, such as a user request.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -11,16 +10,16 @@ dev_langs:
 helpviewer_keywords: 
   - ClickOnce deployment, updates
   - application updates
-ms.assetid: 1a886310-67c8-44e5-a382-c2f0454f887d
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
+manager: mijacobs
+ms.subservice: deployment
 ---
-# How to: Check for application updates programmatically using the ClickOnce deployment API
+# Check for application updates programmatically using the ClickOnce deployment API
+
 ClickOnce provides two ways to update an application once it is deployed. In the first method, you can configure the ClickOnce deployment to check automatically for updates at certain intervals. In the second method, you can write code that uses the <xref:System.Deployment.Application.ApplicationDeployment> class to check for updates based on an event, such as a user request.
+
+  [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
 
  The following procedures show some code for performing a programmatic update and also describe how to configure your ClickOnce deployment to enable programmatic update checks.
 
@@ -35,9 +34,14 @@ ClickOnce provides two ways to update an application once it is deployed. In the
 
 2. Create whatever button, menu item, or other user interface item you want your users to select to check for updates. From that item's event handler, call the following method to check for and install updates.
 
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../snippets/csharp/VS_Snippets_Winforms/ClickOnceAPI/CS/Form1.cs" id="Snippet6":::
-    :::code language="cpp" source="../snippets/cpp/VS_Snippets_Winforms/ClickOnceAPI/cpp/form1.cpp" id="Snippet6":::
+
+    ### [VB](#tab/vb)
     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_Winforms/ClickOnceAPI/VB/Form1.vb" id="Snippet6":::
+
+    ### [C++](#tab/cpp)
+    :::code language="cpp" source="../snippets/cpp/VS_Snippets_Winforms/ClickOnceAPI/cpp/form1.cpp" id="Snippet6":::
 
 3. Compile your application.
 
@@ -56,7 +60,7 @@ ClickOnce provides two ways to update an application once it is deployed. In the
 ## .NET Framework Security
  Your application must have full-trust permissions to use programmatic updating.
 
-## See also
+## Related content
 - [How to: Specify an alternate location for deployment updates](../deployment/how-to-specify-an-alternate-location-for-deployment-updates.md)
 - [Choose a ClickOnce update strategy](../deployment/choosing-a-clickonce-update-strategy.md)
 - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)

@@ -1,28 +1,36 @@
 ---
 description: "Specifies the existence of a bound breakpoint and also specifies if it is enabled."
-title: BP_STATE | Microsoft Docs
+title: BP_STATE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_STATE
 helpviewer_keywords:
 - BP_STATE enumeration
-ms.assetid: 08aa6a3f-3e5f-4c83-8eca-7b7b5f8e208d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # BP_STATE
+
 Specifies the existence of a bound breakpoint and also specifies if it is enabled.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_BP_STATE {
+    BPS_NONE     = 0x0000,
+    BPS_DELETED  = 0x0001,
+    BPS_DISABLED = 0x0002,
+    BPS_ENABLED  = 0x0003
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_BP_STATE {
     BPS_NONE     = 0x0000,
@@ -32,15 +40,7 @@ enum enum_BP_STATE {
 };
 typedef DWORD BP_STATE;
 ```
-
-```csharp
-public enum enum_BP_STATE {
-    BPS_NONE     = 0x0000,
-    BPS_DELETED  = 0x0001,
-    BPS_DISABLED = 0x0002,
-    BPS_ENABLED  = 0x0003
-};
-```
+---
 
 ## Fields
 `BPS_NONE`\

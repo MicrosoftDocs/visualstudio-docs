@@ -1,27 +1,26 @@
 ---
-description: "Retrieves the variable classification of a data symbol."
-title: "IDiaSymbol::get_dataKind | Microsoft Docs"
+description: Retrieves the variable classification of a data symbol.
+title: "IDiaSymbol::get_dataKind"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_dataKind method"
-ms.assetid: 45005ad0-8b29-4cde-9d33-6bef72f6e463
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_dataKind
+
 Retrieves the variable classification of a data symbol.
 
 ## Syntax
 
 ```C++
-HRESULT get_dataKind ( 
+HRESULT get_dataKind ( 
    DWORD* pRetVal
 );
 ```

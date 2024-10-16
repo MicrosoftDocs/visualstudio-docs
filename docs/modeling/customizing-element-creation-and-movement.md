@@ -1,7 +1,6 @@
 ---
 title: Customizing Element Creation and Movement
 description: Learn how you can allow an element to be dragged onto another, either from the toolbox or in a paste or move operation.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -10,10 +9,8 @@ helpviewer_keywords:
 - Domain-Specific Language, element merge directives
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Customizing Element Creation and Movement
 
@@ -281,7 +278,7 @@ You can create a forward merge directive in the Component Model solution. If you
 
 ### To create a forward merge directive
 
-1. Create a [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] solution by using the Component Model template.
+1. Create a Domain-Specific Language Tools solution by using the Component Model template.
 
 2. Display the **DSL Explorer** by opening DslDefinition.dsl.
 
@@ -313,7 +310,7 @@ You can create a forward merge directive in the Component Model solution. If you
 
      You should not see the Unavailable pointer, and you should be able to drop the new **Input Port** on the existing one. Select the new **Input Port** and drag it to another point on the **Component**.
 
-## See also
+## Related content
 
 - [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)
 - [Customizing Tools and the Toolbox](../modeling/customizing-tools-and-the-toolbox.md)

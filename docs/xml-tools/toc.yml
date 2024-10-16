@@ -26,7 +26,7 @@
     href: schema-cache.md
   - name: XML editor tasks
     items:
-    - name: "Walkthrough: Use XML editor features"
+    - name: 'Walkthrough: Use XML editor features'
       href: walkthrough-using-xml-editor-features.md
     - name: Select the XML schemas to use
       href: how-to-select-the-xml-schemas-to-use.md
@@ -111,7 +111,7 @@
   - name: Overview
     displayName: XSLT debugging
     href: debugging-xslt.md
-  - name: "Walkthrough: Debug an XSLT style sheet"
+  - name: 'Walkthrough: Debug an XSLT style sheet'
     href: walkthrough-debug-an-xslt-style-sheet.md
   - name: Evaluate an XPath expression
     href: how-to-evaluate-an-xpath-expression.md
@@ -119,7 +119,5 @@
     href: debugger-user-interface-xslt.md
   - name: XSLT default template
     href: xslt-default-templates.md
-  - name: XSLT profiler
-    href: xslt-profiler.md
 - name: Security considerations for XML
   href: security-considerations-when-working-with-xml-data.md

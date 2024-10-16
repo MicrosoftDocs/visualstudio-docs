@@ -1,7 +1,6 @@
 ---
 title: Export diagrams as images
 description: Learn that you can save modeling diagrams in read-only formats so that you can share them with people who don't use the same version of Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -10,10 +9,8 @@ helpviewer_keywords:
 - UML diagrams, saving
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 ---
 # Export diagrams as images
 
@@ -37,7 +34,7 @@ To see which editions of Visual Studio support this feature, see [Edition suppor
 
 3. In the **Save the file as** dialog box, save the file as an **XPS Document (\*.xps)** file.
 
-## See also
+## Related content
 
 - [Create models for your app](../modeling/create-models-for-your-app.md)
 - [Share models and exporting diagrams](../modeling/share-models-and-exporting-diagrams.md)

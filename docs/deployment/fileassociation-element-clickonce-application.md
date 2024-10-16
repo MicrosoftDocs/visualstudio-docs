@@ -1,7 +1,6 @@
 ---
-title: "&lt;fileAssociation&gt; Element (ClickOnce Application) | Microsoft Docs"
+title: "&lt;fileAssociation&gt; Element (ClickOnce Application)"
 description: The fileAssociation element identifies a file extension to be associated with the application. The fileAssociation element is optional.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -11,15 +10,13 @@ dev_langs:
 helpviewer_keywords:
   - "<fileAssociation> element [ClickOnce application manifest]"
   - "manifests [ClickOnce], fileAssociation element"
-ms.assetid: 8f951b4f-54f9-412e-a9e5-af4e379fcf08
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: deployment
 ---
 # &lt;fileAssociation&gt; element (ClickOnce application)
+
 Identifies a file extension to be associated with the application.
 
 ## Syntax
@@ -45,12 +42,12 @@ Identifies a file extension to be associated with the application.
 |`defaultIcon`|Required. Specifies the icon to use for files with this extension. The icon file must be specified by using the [\<file> Element](../deployment/file-element-clickonce-application.md) within the [\<assembly> Element](../deployment/assembly-element-clickonce-application.md) that contains this element.|
 
 ## Remarks
- This element must include an XML namespace reference to "urn:schemas-microsoft-com:clickonce.v1". If the `<fileAssociation>` element is used, it must come after the `<application>` element in its parent [\<assembly> Element](../deployment/assembly-element-clickonce-application.md).
+ This element must include an XML namespace reference to `urn:schemas-microsoft-com:clickonce.v1`. If the `<fileAssociation>` element is used, it must come after the `<application>` element in its parent [\<assembly> Element](../deployment/assembly-element-clickonce-application.md).
 
- [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will not overwrite existing file associations. However, a ClickOnce application can override the file extension for the current user only. After that ClickOnce application is uninstalled, ClickOnce deletes the file association for the user, and the per-machine association is active again.
+ ClickOnce will not overwrite existing file associations. However, a ClickOnce application can override the file extension for the current user only. After that ClickOnce application is uninstalled, ClickOnce deletes the file association for the user, and the per-machine association is active again.
 
 ## Example
- The following code example illustrates `fileAssociation` elements in an application manifest for a text editor application deployed using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]. This code example also includes the [\<file> Element](../deployment/file-element-clickonce-application.md) required by the `defaultIcon` attribute.
+ The following code example illustrates `fileAssociation` elements in an application manifest for a text editor application deployed using ClickOnce. This code example also includes the [\<file> Element](../deployment/file-element-clickonce-application.md) required by the `defaultIcon` attribute.
 
 ```xml
 <file name="text.ico" size="4286">

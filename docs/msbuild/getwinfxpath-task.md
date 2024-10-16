@@ -1,26 +1,21 @@
 ---
-title: "GetWinFXPath Task | Microsoft Docs"
+title: "GetWinFXPath Task"
 description: Learn how to use the MSBuild GetWinFXPath task, which returns the directory of the current .NET runtime.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-  - "jsharp"
 helpviewer_keywords:
   - "getting the directory of the current .NET Framework runtime [WPF MSBuild]"
   - "GetWinFXPath task [WPF MSBuild], parameters"
   - "GetWinFXPath task [WPF MSBuild]"
   - "obtaining the path to the current .NET Framework runtime [WPF MSBuild]"
-ms.assetid: b1dfb467-f3d3-47f3-83ef-af7b0e33a772
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # GetWinFXPath task
 

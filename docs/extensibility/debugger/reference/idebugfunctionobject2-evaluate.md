@@ -1,36 +1,25 @@
 ---
 description: "IDebugFunctionObject2::Evaluate calls the function and returns the resulting value as an object."
-title: IDebugFunctionObject2::Evaluate | Microsoft Docs
+title: IDebugFunctionObject2::Evaluate
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugFunctionObject2::Evaluate
-ms.assetid: bc54c652-904b-4297-a6db-faa329684881
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugFunctionObject2::Evaluate
+
 Calls the function and returns the resulting value as an object.
 
 ## Syntax
 
-```cpp
-HRESULT Evaluate (
-   IDebugObject** ppParams,
-   DWORD          dwParams,
-   DWORD          dwEvalFlags,
-   DWORD          dwTimeout,
-   IDebugObject** ppResult
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Evaluate (
    IDebugObject     ppParams,
@@ -40,6 +29,17 @@ int Evaluate (
    out IDebugObject ppResult
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Evaluate (
+   IDebugObject** ppParams,
+   DWORD          dwParams,
+   DWORD          dwEvalFlags,
+   DWORD          dwTimeout,
+   IDebugObject** ppResult
+);
+```
+---
 
 ## Parameters
 `ppParams`\

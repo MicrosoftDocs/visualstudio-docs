@@ -1,6 +1,6 @@
 ---
 description: "Gets the document to activate."
-title: IDebugActivateDocumentEvent2::GetDocument | Microsoft Docs
+title: IDebugActivateDocumentEvent2::GetDocument
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,33 +8,33 @@ f1_keywords:
 helpviewer_keywords:
 - GetDocument method
 - IDebugActivateDocumentEvent2::GetDocument method
-ms.assetid: b3c32f1b-f3de-409d-920d-ba7b3fa84fcd
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugActivateDocumentEvent2::GetDocument
+
 Gets the document to activate.
 
 ## Syntax
 
-```cpp
-HRESULT GetDocument ( 
-   IDebugDocument2** ppDoc
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocument ( 
    out IDebugDocument2 ppDoc
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocument ( 
+   IDebugDocument2** ppDoc
+);
+```
+---
 
 ## Parameters
 `ppDoc`\

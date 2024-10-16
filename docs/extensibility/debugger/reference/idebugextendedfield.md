@@ -1,19 +1,17 @@
 ---
 description: "Extends the types of fields that are available to support managed code generics."
-title: IDebugExtendedField | Microsoft Docs
+title: IDebugExtendedField
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugExtendedField interface
-ms.assetid: b491499c-af57-47da-87d6-34b7398f6591
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IDebugExtendedField
+
 Extends the types of fields that are available to support managed code generics.
 
 ## Syntax

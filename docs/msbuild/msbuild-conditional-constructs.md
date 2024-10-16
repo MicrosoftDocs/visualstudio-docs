@@ -1,14 +1,12 @@
 ---
-title: MSBuild Conditional Constructs | Microsoft Docs
+title: MSBuild Conditional Constructs
 description: Learn how MSBuild provides a mechanism for conditional processing with the Choose, When, and Otherwise elements.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 06/26/2024
 ms.topic: reference
 dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - <Choose> Element [MSBuild]
 - Choose Element [MSBuild]
@@ -18,13 +16,10 @@ helpviewer_keywords:
 - <Otherwise> Element [MSBuild]
 - Otherwise Element [MSBuild]
 - When Element [MSBuild]
-ms.assetid: dd54258e-f4fb-448f-9da4-d1817e0cbaf2
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # MSBuild conditional constructs
 
@@ -32,7 +27,7 @@ MSBuild provides a mechanism for either/or processing with the [Choose](../msbui
 
 ## Use the Choose element
 
- The `Choose` element contains a series of `When` elements with `Condition` attributes that are tested in order from top to bottom until one evaluates to `true`. If more than one `When` element evaluates to `true`, only the first one is used. An `Otherwise` element, if present, will be evaluated if no condition on a `When` element evaluates to `true`.
+ The `Choose` element contains a series of `When` elements with `Condition` attributes that are tested in order from top to bottom until one evaluates to `true`. If more than one `When` element evaluates to `true`, only the first one is used. An `Otherwise` element, if present, is evaluated if no condition on a `When` element evaluates to `true`.
 
  `Choose` elements can be used as child elements of `Project`, `When` and `Otherwise` elements. `When` and `Otherwise` elements can have `ItemGroup`, `PropertyGroup`, or `Choose` child elements.
 
@@ -76,7 +71,7 @@ MSBuild provides a mechanism for either/or processing with the [Choose](../msbui
 </Project>
 ```
 
-In this example, a condition on a compiler constant `DEFINED_CONSTANT` is used. These are included in the `DefinedConstants` property. The regular expression is used to match the exact constant in a semicolon-separated list.
+In this example, a condition on a compiler constant `DEFINED_CONSTANT` is used. These definitions are included in the `DefineConstants` property. The regular expression is used to match the exact constant in a semicolon-separated list.
 
 ```xml
 <Choose>

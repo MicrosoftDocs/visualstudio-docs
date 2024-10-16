@@ -1,21 +1,18 @@
 ---
-title: Programs | Microsoft Docs
+title: Programs
 description: This article describes the definition and role of a program in the debugger architecture in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], programs
 - programs, debugging
-ms.assetid: e1f955d8-95da-493b-837e-e97741a26d7e
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # Programs
+
 In the debugger architecture, a *program*:
 
 - Is a container for both a set of threads and a set of modules. A program has no single analogy in the Windows operating system.

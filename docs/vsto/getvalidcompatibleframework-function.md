@@ -1,20 +1,20 @@
 ---
 title: "GetValidCompatibleFramework function"
 description: Learn how the GetValidCompatibleFramework API supports the Office infrastructure and isn't intended to be used directly from your code.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "reference"
+f1_keyword:
+  - GetValidCompatibleFramework
 dev_langs:
   - "VB"
   - "CSharp"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # GetValidCompatibleFramework function
+
   This API supports the Office infrastructure and isn't intended to be used directly from your code.
 
 ## Syntax

@@ -1,7 +1,6 @@
 ---
 title: 'Walkthrough: Creating a Custom Text Template Host'
 description: Learn how you can write a custom host if you want to use the text template transformation functionality from outside Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -9,10 +8,8 @@ helpviewer_keywords:
 - text templates, custom host walkthrough
 author: mgoertz-msft
 ms.author: mgoertz
-manager: jmartens
-ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: modeling
 dev_langs:
 - CSharp
 - VB
@@ -36,7 +33,7 @@ This walkthrough illustrates the following tasks:
 
 To complete this walkthrough, you must have the following:
 
-- Visual Studio 2010 or later
+- Visual Studio
 
 - Visual Studio SDK
 
@@ -54,6 +51,7 @@ In this walkthrough, you create a custom host in an executable application that 
 
 3. Replace the code in the Program.cs or Module1.vb file with the following code:
 
+   ### [C#](#tab/csharp)
    ```csharp
    using System;
    using System.IO;
@@ -341,7 +339,7 @@ In this walkthrough, you create a custom host in an executable application that 
                return AppDomain.CreateDomain("Generation App Domain");
                //This could be changed to return the current appdomain, but new
                //assemblies are loaded into this AppDomain on a regular basis.
-               //If the AppDomain lasts too long, it will grow indefintely,
+               //If the AppDomain lasts too long, it will grow indefinitely,
                //which might be regarded as a leak.
                //This could be customized to cache the application domain for
                //a certain number of text template generations (for example, 10).
@@ -404,6 +402,7 @@ In this walkthrough, you create a custom host in an executable application that 
    }
    ```
 
+   ### [VB](#tab/vb)
    ```vb
    Imports System
    Imports System.IO
@@ -658,7 +657,7 @@ In this walkthrough, you create a custom host in an executable application that 
                Return AppDomain.CreateDomain("Generation App Domain")
                'This could be changed to return the current appdomain, but new
                'assemblies are loaded into this AppDomain on a regular basis.
-               'If the AppDomain lasts too long, it will grow indefintely,
+               'If the AppDomain lasts too long, it will grow indefinitely,
                'which might be regarded as a leak.
                'This could be customized to cache the application domain for
                'a certain number of text template generations (for example, 10).
@@ -710,8 +709,9 @@ In this walkthrough, you create a custom host in an executable application that 
        End Class 'Program
    End Namespace
    ```
+   ---
 
-4. For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] only, open the **Project** menu, and click **CustomHost Properties**. In the **Startup object** list, click **CustomHost.Program**.
+4. For Visual Basic only, open the **Project** menu, and click **CustomHost Properties**. In the **Startup object** list, click **CustomHost.Program**.
 
 5. On the **File** menu, click **Save All**.
 
@@ -732,6 +732,7 @@ To test the custom host, you write a text template, then you run the custom host
     > [!NOTE]
     > The programming language of the text template does not have to match that of the custom host.
 
+    ### [C#](#tab/csharp)
     ```csharp
     Text Template Host Test
 
@@ -750,6 +751,7 @@ To test the custom host, you write a text template, then you run the custom host
     #>
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     Text Template Host Test
 
@@ -769,6 +771,7 @@ To test the custom host, you write a text template, then you run the custom host
     #>
 
     ```
+    ---
 
 3. Save and close the file.
 
@@ -818,6 +821,6 @@ To test the custom host, you write a text template, then you run the custom host
 
 In this walkthrough, you created a text template transformation host that supports the basic transformation functionality. You can expand your host to support text templates that call custom or generated directive processors. For more information, see [Walkthrough: Connecting a Host to a Generated Directive Processor](../modeling/walkthrough-connecting-a-host-to-a-generated-directive-processor.md).
 
-## See also
+## Related content
 
 - [ITextTemplatingEngineHost](/previous-versions/visualstudio/visual-studio-2012/bb126505(v=vs.110))

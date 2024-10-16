@@ -1,22 +1,19 @@
 ---
-title: Adding a Command to the Solution Explorer Toolbar | Microsoft Docs
+title: Adding a Command to the Solution Explorer Toolbar
 description: Learn how to add a button that executes a command to the Solution Explorer toolbar in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - toolbars [Visual Studio], adding buttons
 - buttons [Visual Studio], adding to Solution Explorer
 - Solution Explorer, adding buttons
-ms.assetid: f6411557-2f4b-4e9f-b02e-fce12a6ac7e9
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Add a command to the Solution Explorer toolbar
+
 This walkthrough shows how to add a button to the **Solution Explorer** toolbar.
 
  Any command on a toolbar or menu is called a button in Visual Studio. When the button is clicked, the code in the command handler is executed. Typically, related commands are grouped together to form one group. Menus or toolbars act as containers for groups. Priority determines the order in which individual commands in a group appear in the menu or on the toolbar. You can prevent a button from being displayed on the toolbar or the menu by controlling its visibility. A command that is listed in a `<VisibilityConstraints>` section of the *.vsct* file appears only in the associated context. The visibility cannot be applied to groups.
@@ -25,9 +22,6 @@ This walkthrough shows how to add a button to the **Solution Explorer** toolbar.
 
 > [!NOTE]
 > Use XML Command Table (*.vsct*) files instead of command table configuration (*.ctc*) files to define how menus and commands appear in your VSPackages. For more information, see [Visual Studio Command Table (.Vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).
-
-## Prerequisites
- Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create an extension with a menu command
  Create a VSIX project named `SolutionToolbar`. Add a menu command item template named **ToolbarButton**. For information about how to do this, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).
@@ -111,7 +105,7 @@ This walkthrough shows how to add a button to the **Solution Explorer** toolbar.
 
 5. On the **File** menu, click **Close Solution**. The button disappears from the toolbar.
 
-   The visibility of the button is controlled by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] until the VSPackage is loaded. After the VSPackage is loaded, the visibility of the button is controlled by the VSPackage.  For more information, see [MenuCommands vs. OleMenuCommands](/previous-versions/visualstudio/visual-studio-2015/misc/menucommands-vs-olemenucommands?preserve-view=true&view=vs-2015).
+   The visibility of the button is controlled by Visual Studio until the VSPackage is loaded. After the VSPackage is loaded, the visibility of the button is controlled by the VSPackage.  For more information, see [MenuCommands vs. OleMenuCommands](/previous-versions/visualstudio/visual-studio-2015/misc/menucommands-vs-olemenucommands?preserve-view=true&view=vs-2015).
 
-## See also
+## Related content
 - [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

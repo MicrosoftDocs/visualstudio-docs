@@ -1,37 +1,27 @@
 ---
 description: "This method evaluates the expression synchronously."
-title: IDebugExpression2::EvaluateSync | Microsoft Docs
+title: IDebugExpression2::EvaluateSync
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExpression2::EvaluateSync
 helpviewer_keywords:
 - IDebugExpression2::EvaluateSync
-ms.assetid: 88964915-dce3-4005-b4f3-9f37415e41e4
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugExpression2::EvaluateSync
+
 This method evaluates the expression synchronously.
 
 ## Syntax
 
-```cpp
-HRESULT EvaluateSync(
-    EVALFLAGS             dwFlags,
-    DWORD                 dwTimeout,
-    IDebugEventCallback2* pExprCallback,
-    IDebugProperty2**     ppResult
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EvaluateSync(
     enum_EVALFLAGS       dwFlags,
@@ -40,6 +30,16 @@ int EvaluateSync(
     out IDebugProperty2  ppResult
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EvaluateSync(
+    EVALFLAGS             dwFlags,
+    DWORD                 dwTimeout,
+    IDebugEventCallback2* pExprCallback,
+    IDebugProperty2**     ppResult
+);
+```
+---
 
 ## Parameters
 `dwFlags`\

@@ -1,21 +1,19 @@
 ---
 description: "This interface enumerates the threads running in the current debug session."
-title: IEnumDebugThreads2 | Microsoft Docs
+title: IEnumDebugThreads2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugThreads2
 helpviewer_keywords:
 - IEnumDebugThreads2
-ms.assetid: 1854f078-3b49-42c2-b65b-33e3b506fd63
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 # IEnumDebugThreads2
+
 This interface enumerates the threads running in the current debug session.
 
 ## Syntax

@@ -1,24 +1,19 @@
 ---
-title: ItemMetadata Element (MSBuild) | Microsoft Docs
+title: ItemMetadata Element (MSBuild)
 description: Learn about the MSBuild ItemMetadata element, which contains a user-defined item metadata key that has the metadata value.
-ms.custom: SEO-VS-2020
 ms.date: 03/13/2017
 ms.topic: reference
 dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - ItemMetadata Element [MSBuild]
 - <ItemMetadata> Element [MSBuild]
-ms.assetid: e3db5122-202d-43a9-b2f4-3e0ec4ed3d08
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # ItemMetadata element (MSBuild)
 

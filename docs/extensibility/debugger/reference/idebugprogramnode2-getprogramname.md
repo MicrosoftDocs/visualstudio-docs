@@ -1,39 +1,39 @@
 ---
 description: "IDebugProgramNode2::GetProgramName gets the name of the program."
-title: IDebugProgramNode2::GetProgramName | Microsoft Docs
+title: IDebugProgramNode2::GetProgramName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgramNode2::GetProgramName
 helpviewer_keywords:
 - IDebugProgramNode2::GetProgramName
-ms.assetid: 510c7f5d-48ff-4d9f-ad79-fbad9f15239d
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugProgramNode2::GetProgramName
+
 Gets the name of the program.
 
 ## Syntax
 
-```cpp
-HRESULT GetProgramName (
-    BSTR* pbstrProgramName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProgramName (
     out string pbstrProgramName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProgramName (
+    BSTR* pbstrProgramName
+);
+```
+---
 
 ## Parameters
 `pbstrProgramName`\

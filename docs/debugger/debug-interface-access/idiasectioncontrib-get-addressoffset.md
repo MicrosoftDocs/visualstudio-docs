@@ -1,27 +1,26 @@
 ---
-description: "Retrieves the offset part of the contribution's address."
-title: "IDiaSectionContrib::get_addressOffset | Microsoft Docs"
+description: Retrieves the offset part of the contribution's address.
+title: "IDiaSectionContrib::get_addressOffset"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSectionContrib::get_addressOffset method"
-ms.assetid: 4d569323-0e11-456d-9f92-a218bf292ecf
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_addressOffset
+
 Retrieves the offset part of the contribution's address.
 
 ## Syntax
 
 ```C++
-HRESULT get_addressOffset ( 
+HRESULT get_addressOffset ( 
    DWORD* pRetVal
 );
 ```

@@ -1,39 +1,39 @@
 ---
 description: "Skips over the specified number of elements in the modules enumeration."
-title: IEnumDebugModules2::Skip | Microsoft Docs
+title: IEnumDebugModules2::Skip
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugModules2::Skip
 helpviewer_keywords:
 - IEnumDebugModules2::Skip
-ms.assetid: 61dc42f4-8544-45bb-8da0-fb22cccec7da
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IEnumDebugModules2::Skip
+
 Skips over the specified number of elements.
 
 ## Syntax
 
-```cpp
-HRESULT Skip(
-   ULONG celt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Skip(
    uint celt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Skip(
+   ULONG celt
+);
+```
+---
 
 ## Parameters
 `celt`\

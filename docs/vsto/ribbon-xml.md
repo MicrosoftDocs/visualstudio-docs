@@ -1,7 +1,6 @@
 ---
-title: "Ribbon XML"
-description: Learn how to use the Ribbon (XML) item if you want to customize the ribbon in a way that isn't supported by the Ribbon (Visual Designer) item.
-ms.custom: SEO-VS-2020
+title: Customize a project ribbon with Ribbon (XML) item
+description: Use the Ribbon (XML) item to customize a project ribbon in a way that the Ribbon (Visual Designer) item doesn't support.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -22,12 +21,11 @@ helpviewer_keywords:
   - "customizing the Ribbon, displaying"
 author: John-Hart
 ms.author: johnhart
-manager: jmartens
-ms.technology: office-development
-ms.workload:
-  - "office"
+manager: mijacobs
+ms.subservice: office-development
 ---
 # Ribbon XML
+
   The Ribbon (XML) item enables you to customize a ribbon by using XML. Use the Ribbon (XML) item if you want to customize the ribbon in a way that is not supported by the Ribbon (Visual Designer) item. For a comparison of what you can do with each item, see [Ribbon overview](../vsto/Ribbon-overview.md).
 
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]
@@ -46,8 +44,12 @@ ms.workload:
 
  The following code example overrides the `CreateRibbonExtensibilityObject` method and returns a Ribbon XML class named MyRibbon.
 
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.cs" id="Snippet1":::
+
+ ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.vb" id="Snippet1":::
+ ---
 
 ## Define the behavior of the custom ribbon
  You can respond to user actions, such as clicking a button on the ribbon, by creating *callback methods*. Callback methods resemble events in Windows Forms controls, but they are identified by an attribute in the XML of the UI element. You write methods in the Ribbon class, and a control calls the method that has the same name as the attribute value. For example, you can create a callback method that is called when a user clicks a button on the ribbon. Two steps are required to create a callback method:
@@ -87,8 +89,12 @@ ms.workload:
 
   All callback methods have a <xref:Microsoft.Office.Core.IRibbonControl> parameter that represents the control that called the method. You can use this parameter to reuse the same callback method for multiple controls. The following code example demonstrates an **onAction** callback method that performs different tasks depending on which control the user clicks.
 
+  ### [C#](#tab/csharp)
   :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_RibbonOutlookBasic/Ribbon1.cs" id="Snippet2":::
+
+  ### [VB](#tab/vb)
   :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_RibbonOutlookBasic/Ribbon1.vb" id="Snippet2":::
+  ---
 
 ## <a name="RibbonDescriptorFile"></a> Ribbon XML file reference
  You can define your custom ribbon by adding elements and attributes to the Ribbon XML file. By default, the Ribbon XML file contains the following XML.
@@ -140,7 +146,7 @@ ms.workload:
 |`OnLoad`|Assigns the <xref:Microsoft.Office.Core.IRibbonControl> parameter to the `Ribbon` field. Microsoft Office applications call this method when they load the custom ribbon. You can use this field to dynamically update the custom ribbon. For more information, see the technical article [Customize the Office (2007) Ribbon user interface for developers (Part 1 of 3)](/previous-versions/office/developer/office-2007/aa338202(v=office.12)).|
 |`GetResourceText`|Called by the `GetCustomUI` method to obtain the contents of the Ribbon XML file.|
 
-## See also
+## Related content
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)
 - [Office UI customization](../vsto/office-ui-customization.md)

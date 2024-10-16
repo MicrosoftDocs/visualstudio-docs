@@ -1,7 +1,6 @@
 ---
-title: Message Task | Microsoft Docs
+title: Message Task
 description: Learn about the parameters and settings for the MSBuild Message task, which logs messages during builds.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -10,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, Message task
 - Message task [MSBuild]
-ms.assetid: 2293309d-42b6-46dc-9684-8c146f66bc28
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: msbuild
-ms.workload:
-- multiple
+manager: mijacobs
+ms.subservice: msbuild
 ---
 # Message task
 

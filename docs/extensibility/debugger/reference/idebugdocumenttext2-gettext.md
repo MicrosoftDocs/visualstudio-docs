@@ -1,37 +1,27 @@
 ---
 description: "Retrieves the text from the specified position in the document."
-title: IDebugDocumentText2::GetText | Microsoft Docs
+title: IDebugDocumentText2::GetText
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentText2::GetText
 helpviewer_keywords:
 - IDebugDocumentText2::GetText
-ms.assetid: f8c15a58-da77-473e-a721-7a094e306c63
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # IDebugDocumentText2::GetText
+
 Retrieves the text from the specified position in the document.
 
 ## Syntax
 
-```cpp
-HRESULT GetText(
-    TEXT_POSITION pos,
-    ULONG         cMaxChars,
-    WCHAR*        pText,
-    ULONG*        pcNumChars
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetText(
     eumn_TEXT_POSITION pos,
@@ -40,6 +30,16 @@ int GetText(
     out uint           pcNumChars
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetText(
+    TEXT_POSITION pos,
+    ULONG         cMaxChars,
+    WCHAR*        pText,
+    ULONG*        pcNumChars
+);
+```
+---
 
 ## Parameters
 `pos`\

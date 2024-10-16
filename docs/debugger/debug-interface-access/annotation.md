@@ -1,7 +1,6 @@
 ---
-title: "Annotation | Microsoft Docs"
+title: Annotation
 description: Find reference information about the Annotation symbol type (SymTagAnnotation) in the Visual Studio debug interface access SDK.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -9,19 +8,19 @@ dev_langs:
 helpviewer_keywords:
   - "SymTabAnnotation symbol"
   - "Annotation symbol"
-ms.assetid: eb9f759b-98a5-45fc-b085-91f1f2666e72
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
+
 # Annotation
+
 A location program code can be annotated with a `SymTagAnnotation` symbol.
 
 ## Properties
- The following table shows the properties that are valid for this symbol type.
+
+The following table shows the properties that are valid for this symbol type.
 
 |Property|Data type|Description|
 |--------------|---------------|-----------------|
@@ -35,6 +34,7 @@ A location program code can be annotated with a `SymTagAnnotation` symbol.
 |[IDiaSymbol::get_virtualAddress](../../debugger/debug-interface-access/idiasymbol-get-virtualaddress.md)|`ULONGLONG`|Position of this annotation within the executable image.|
 
 ## See also
+
 - [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
 - [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)
 - [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md)

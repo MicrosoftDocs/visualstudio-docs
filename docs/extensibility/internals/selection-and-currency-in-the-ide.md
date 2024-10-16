@@ -1,7 +1,6 @@
 ---
-title: Selection and Currency in the IDE | Microsoft Docs
+title: Selection and Currency in the IDE
 description: Learn how VSPackages take part in currency tracking. The Visual Studio IDE maintains information about currently selected objects by using selection context.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,23 +8,21 @@ helpviewer_keywords:
 - IDE, selection
 - selection, Visual Studio IDE
 - IDE, currency
-ms.assetid: 2f6f18d1-acd8-454d-a856-9a4d81155052
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: extensibility-integration
 ---
 # Selection and Currency in the IDE
-The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) maintains information about users' currently selected objects by using selection *context*. With selection context, VSPackages can take part in currency tracking in two ways:
+
+The Visual Studio integrated development environment (IDE) maintains information about users' currently selected objects by using selection *context*. With selection context, VSPackages can take part in currency tracking in two ways:
 
 - By propagating currency information about the VSPackages to the IDE.
 
 - By monitoring users' currently active selections within the IDE.
 
 ## Selection Context
- The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE globally keeps track of IDE currency in its own global selection context object. The following table shows the elements that make up the selection context.
+ The Visual Studio IDE globally keeps track of IDE currency in its own global selection context object. The following table shows the elements that make up the selection context.
 
 |Element|Description|
 |-------------|-----------------|
@@ -40,7 +37,7 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
 - A list of currently active element types.
 
 ### Window Types and Selection
- The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE organizes windows into two general types:
+ The Visual Studio IDE organizes windows into two general types:
 
 - Hierarchy-type windows
 
@@ -59,6 +56,6 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
 
 - Events that change the elements traced within the window frame selection context. Examples include changing selection within a DocObject or changing selection in a project-type window.
 
-## See also
+## Related content
 - [Selection Context Objects](../../extensibility/internals/selection-context-objects.md)
 - [Feedback to the User](../../extensibility/internals/feedback-to-the-user.md)

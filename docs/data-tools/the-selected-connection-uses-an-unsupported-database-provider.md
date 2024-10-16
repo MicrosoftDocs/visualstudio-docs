@@ -1,17 +1,14 @@
 ---
 title: Unsupported database provider
-description: 'The selected connection uses an unsupported database provider. View information about this Visual Studio Object Relational Designer (O/R Designer) message.'
-ms.custom: SEO-VS-2020
+description: The selected connection uses an unsupported database provider. View information about this Visual Studio Object Relational Designer (O/R Designer) message.
 ms.date: 11/04/2016
 ms.topic: error-reference
-ms.assetid: 4d25dfa1-8fa4-4529-9b90-973bc2ec2993
 author: ghogen
 ms.author: ghogen
-manager: jmartens
-ms.technology: vs-data-tools
-ms.workload:
-- data-storage
+manager: mijacobs
+ms.subservice: data-tools
 ---
+
 # The selected connection uses an unsupported database provider
 
 This message appears when you drag items that do not use the .NET Framework Data Provider for SQL Server from **Server Explorer** or **Database Explorer** onto the [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md).

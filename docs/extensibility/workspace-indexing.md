@@ -1,14 +1,11 @@
 ---
-title: "Workspace indexing in Visual Studio | Microsoft Docs"
+title: "Workspace indexing in Visual Studio"
 description: Learn about workspace indexing, which is the collection and persistent storage of data to support rich IDE features for an Open Folder workspace.
-ms.custom: SEO-VS-2020
 ms.date: "02/21/2018"
 ms.topic: "conceptual"
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
-ms.workload:
-  - "vssdk"
 ---
 # Workspace indexing
 
@@ -62,7 +59,7 @@ Extensions can export a scanner by implementing `IWorkspaceProviderFactory<IFile
 
 In advanced situations, an extension might dynamically support an arbitrary set of file types. Rather than MEF exporting `IWorkspaceProviderFactory<IFileScanner>`, an extension can export `IWorkspaceProviderFactory<IFileScannerProvider>`. When indexing begins, this factory type will be imported, instantiated, and have its <xref:Microsoft.VisualStudio.Workspace.Indexing.IFileScannerProvider.GetSymbolScannersAsync%2A> method invoked. `IFileScanner` instances supporting any value from `FileScannerTpeConstants` will be honored, not just symbols.
 
-## Next steps
+## Related content
 
 * [Workspaces and language services](workspace-language-services.md) - Learn how to integrate language services into an Open Folder workspace.
 * [Workspace build](workspace-build.md) - Open Folder supports build systems such as MSBuild and makefiles.

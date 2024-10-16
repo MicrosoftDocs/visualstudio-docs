@@ -1,7 +1,6 @@
 ---
-title: "&lt;description&gt; Element (ClickOnce Deployment) | Microsoft Docs"
+title: "&lt;description&gt; Element (ClickOnce Deployment)"
 description: The description element identifies application information used to create a shell presence and an Add or Remove Programs item in Control Panel.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -12,15 +11,13 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<description> element [ClickOnce deployment manifest]"
-ms.assetid: 18f6919e-a3ab-4942-a57d-167fabfac44e
 author: mikejo5000
 ms.author: mikejo
-manager: jmartens
-ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
+manager: mijacobs
+ms.subservice: deployment
 ---
 # &lt;description&gt; element (ClickOnce deployment)
+
 Identifies application information used to create a shell presence and an **Add or Remove Programs** item in Control Panel.
 
 ## Syntax
@@ -49,7 +46,7 @@ Identifies application information used to create a shell presence and an **Add 
  The description element is required in all deployment configurations.
 
 ## Example
- The following code example illustrates a `description` element in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest. This code example is part of a larger example provided for the [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md) topic.
+ The following code example illustrates a `description` element in a ClickOnce deployment manifest. This code example is part of a larger example provided for the [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md) topic.
 
 ```xml
 <description

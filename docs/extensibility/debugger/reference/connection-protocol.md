@@ -1,40 +1,27 @@
 ---
 description: "Indicates the protocol being used to communicate between a debug server and the debug package (DE)."
-title: CONNECTION_PROTOCOL | Microsoft Docs
+title: CONNECTION_PROTOCOL
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - CONNECTION_PROTOCOL
 helpviewer_keywords:
 - CONNECTION_PROTOCOL enumeration
-ms.assetid: 99df5865-8b36-486d-9f4c-d10ae2bc688a
-author: leslierichardson95
-ms.author: lerich
-manager: jmartens
-ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
+author: maiak
+ms.author: maiak
+manager: mijacobs
+ms.subservice: debug-diagnostics
 dev_langs:
 - CPP
 - CSharp
 ---
 # CONNECTION_PROTOCOL
+
 Indicates the protocol being used to communicate between a debug server and the debug package (DE).
 
 ## Syntax
 
-```cpp
-typedef enum tagCONNECTION_PROTOCOL {
-    CONNECTION_NONE    = 0,
-    CONNECTION_UNKNOWN = 1,
-    CONNECTION_LOCAL   = 2,
-    CONNECTION_PIPE    = 3,
-    CONNECTION_TCPIP   = 4,
-    CONNECTION_HTTP    = 5,
-    CONNECTION_OTHER   = 6
-} CONNECTION_PROTOCOL;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public enum CONNECTION_PROTOCOL {
     CONNECTION_NONE    = 0,
@@ -46,6 +33,19 @@ public enum CONNECTION_PROTOCOL {
     CONNECTION_OTHER   = 6
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef enum tagCONNECTION_PROTOCOL {
+    CONNECTION_NONE    = 0,
+    CONNECTION_UNKNOWN = 1,
+    CONNECTION_LOCAL   = 2,
+    CONNECTION_PIPE    = 3,
+    CONNECTION_TCPIP   = 4,
+    CONNECTION_HTTP    = 5,
+    CONNECTION_OTHER   = 6
+} CONNECTION_PROTOCOL;
+```
+---
 
 ## Fields
 `CONNECTION_NONE`\
