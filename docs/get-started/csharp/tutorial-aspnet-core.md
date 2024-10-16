@@ -10,6 +10,7 @@ ms.date: 10/17/2024
 dev_langs:
   - CSharp
 ms.devlang: csharp
+#customer intent: As a developer, I want to create a ASP.NET Core web application with C# in Visual Studio.
 ---
 # Tutorial: Get started with C# and ASP.NET Core in Visual Studio
 
