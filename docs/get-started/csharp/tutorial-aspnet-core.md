@@ -30,7 +30,7 @@ This tutorial shows you how to:
 
 To complete this tutorial, you need:
 
-- Visual Studio. Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-tutorial-create-csharp-aspnetcore-web-app-page-cta) for a free version. For more information about upgrading to the latest Visual Studio release, see [Visual Studio updates](../../install/update-visual-studio.md).
+- Visual Studio installed. Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-tutorial-create-csharp-aspnetcore-web-app-page-cta) for a free version. For more information about upgrading to the latest Visual Studio release, see [Visual Studio updates](../../install/update-visual-studio.md).
 - The **ASP.NET and web development** workload installed. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../../install/modify-visual-studio.md#change-workloads-or-individual-components).
 
 ## Create a project
@@ -361,7 +361,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
     
 1. Select **https** or press **Ctrl**+**F5** to run the app and open it in a web browser.
 
-   :::image type="content" source="media/vs-2022/csharp-aspnet-generic-iis-button.png" alt-text="Screenshot shows the IIS Express button highlighted in the toolbar for Visual Studio.":::
+   :::image type="content" source="media/vs-2022/csharp-aspnet-core-https-button.png" alt-text="Screenshot shows the https button highlighted in the toolbar for Visual Studio.":::
 
 1. In the web browser, you see your new changes on the **Home** page.
 
