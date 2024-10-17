@@ -5,7 +5,7 @@ ms.custom: vs-acquisition
 dev_langs:
   - "CSharp"
   - "VB"
-ms.date: 03/15/2023
+ms.date: 10/18/2024
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
@@ -37,7 +37,7 @@ This tutorial builds on a previous tutorial, [Create a math quiz WinForms app](t
 
 1. On the menu bar, select **View** > **Code**. *Form1.cs* or *Form1.vb* appears, depending on the programming language that you're using, so that you can view the code behind the form.
 
-1. Create a <xref:System.Random> object by adding a `new` statement near the top of the code.
+1. Create a <xref:System.Random> object by adding a `new` statement near the top of the code in *Form1.cs* or *Form1.vb*.
 
    ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs" id="Snippet1":::
@@ -46,15 +46,13 @@ This tutorial builds on a previous tutorial, [Create a math quiz WinForms app](t
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb" id="Snippet1":::
    ---
 
-   [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
-
    You can use `new` statements like this one to create buttons, labels, panels, OpenFileDialogs, ColorDialogs, SoundPlayers, Randoms, and even forms. These items are called *objects*.
 
    When you run your program, the form is started. The code behind it creates a Random object and names it **randomizer**.
 
    Your quiz needs variables to store the random numbers that it creates for each problem. Before using variables, you declare them, which means listing their names and data types.
 
-1. Add two integer variables to the form, and name them **addend1** and **addend2**.
+1. Add two integer variables to the form, and name them **addend1** and **addend2** in *Form1.cs* or *Form1.vb*.
 
    > [!NOTE]
    > An integer variable is known as an *int* in C# or an *Integer* in Visual Basic. This kind of variable stores a positive or negative number from -2147483648 through 2147483647 and can store only whole numbers, not decimals.
@@ -68,7 +66,7 @@ This tutorial builds on a previous tutorial, [Create a math quiz WinForms app](t
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb" id="Snippet2":::
    ---
 
-1. Add a method that's named `StartTheQuiz()`. This method uses the Random object's <xref:System.Random.Next> method to generate random numbers for the labels. `StartTheQuiz()` will eventually fill in all the problems and then start the timer, so add this information to the summary comment. The function should look like the following code.
+1. Add a method that's named `StartTheQuiz()` *Form1.cs* or *Form1.vb*. This method uses the Random object's <xref:System.Random.Next> method to generate random numbers for the labels. `StartTheQuiz()` will eventually fill in all the problems and then start the timer, so add this information to the summary comment. The function should look like the following code.
 
    ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs" id="Snippet3":::
@@ -94,7 +92,7 @@ This tutorial builds on a previous tutorial, [Create a math quiz WinForms app](t
 
 The next step is to declare variables and provide random values for the other math problems.
 
-1. Add integer variables for the remaining math problems to your form, after the addition problem variables. The code should look like the following sample.
+1. Add integer variables for the remaining math problems to your form, after the addition problem variables. The code in *Form1.cs* or *Form1.vb* should look like the following sample.
 
    ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step7/cs/form1.cs" range="14-38":::
@@ -103,7 +101,7 @@ The next step is to declare variables and provide random values for the other ma
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step7/vb/form1.vb" range="2-27":::
    ---
 
-1. Modify the `StartTheQuiz()` method by adding the following code, starting with the "Fill in the subtraction problem" comment.
+1. Modify the `StartTheQuiz()` method in *Form1.cs* or *Form1.vb* by adding the following code, starting with the "Fill in the subtraction problem" comment.
 
    ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step7/cs/form1.cs" range="51-94":::
