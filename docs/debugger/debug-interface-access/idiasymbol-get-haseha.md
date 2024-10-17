@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that specifies whether the function contains asynchronous (structured) exception handling."
+description: Retrieves a flag that specifies whether the function contains asynchronous (structured) exception handling.
 title: "IDiaSymbol::get_hasEHa"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_hasEHa
 
 Retrieves a flag that specifies whether the function contains asynchronous (structured) exception handling.

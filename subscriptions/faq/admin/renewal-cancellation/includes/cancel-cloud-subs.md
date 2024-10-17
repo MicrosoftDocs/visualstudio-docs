@@ -1,13 +1,13 @@
 ---
 title: How do I cancel monthly and annual subscriptions?
 description: When you cancel a Visual Studio cloud subscription, you're canceling automatic renewal. 
-comment:  As of August 2023 this include file is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include file is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.faqid: group4_3
 ms.topic: include
 ms.assetid: 2c83cd19-2692-4aef-9cd7-b7842639cbce
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/09/2023
+ms.date: 09/24/2024
 ---
 
 ## How do I cancel monthly and annual subscriptions?

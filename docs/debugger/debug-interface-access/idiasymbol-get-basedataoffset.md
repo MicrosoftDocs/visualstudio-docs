@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the base data offset."
+description: Retrieves the base data offset.
 title: "IDiaSymbol::get_baseDataOffset"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_baseDataOffset
 
 Retrieves the base data offset.

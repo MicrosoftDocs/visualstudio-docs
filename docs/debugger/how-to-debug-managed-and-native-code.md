@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Debug C# and C++ code (mixed mode)"
 description: Debug a native DLL from a .NET Core or .NET Framework application by using mixed-mode debugging to enable more than one debugger type in a debugging session.
-ms.date: 10/19/2023
+ms.date: 09/18/2024
 ms.topic: tutorial
 dev_langs:
   - "CSharp"
@@ -176,8 +176,15 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 1. Enable native code debugging in the properties.
 
     ::: moniker range=">=vs-2022"
+    **.NET code**
+
     Select **Debug** in the left pane, select **Open debug launch profiles UI**, then select the **Enable native code debugging** check box, and then close the properties page to save the changes.
+
     ![Enable mixed mode debugging](../debugger/media/vs-2022/mixed-mode-enable-native-code-debugging.png)
+
+    **.NET Framework code**
+
+    On the left menu, select **Debug**. Then, in the **Debugger engines** section, select the **Enable native code debugging** property, and then close the properties page to save the changes.
     ::: moniker-end
     ::: moniker range="<=vs-2019"
     Select **Debug** in the left pane, select the **Enable native code debugging** check box, and then close the properties page to save the changes.

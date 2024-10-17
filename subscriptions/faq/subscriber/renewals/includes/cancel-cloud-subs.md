@@ -1,13 +1,13 @@
 ---
 title: How do I cancel monthly and annual subscriptions?
 description: Learn how cancellations of cloud subscriptions work.
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.faqid: q4_6
 ms.topic: include
 ms.assetid: 2c83cd19-2692-4aef-9cd7-b7842639cbce
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/14/2023
+ms.date: 09/30/2024
 ---
 
 ## How do I cancel monthly and annual subscriptions?

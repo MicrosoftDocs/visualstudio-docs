@@ -1,13 +1,13 @@
 ---
 title: I have a new agreement. How do I move my subscribers?
 description: 'You can export subscribers from your previous agreement and add them to your new agreement using the Bulk add button. Note: your...'
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.faqid: group1_6
 ms.topic: include
 ms.assetid: cc15e1c7-6b3a-43bf-8ce0-4120dbbb5a47
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/09/2023
+ms.date: 09/23/2024
 ---
 
 ## I have a new agreement.  How do I move my subscribers?

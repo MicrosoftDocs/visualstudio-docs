@@ -1,13 +1,13 @@
 ---
 title: How do I view my invoice? 
 description: 'How do I view my invoice for monthly and annual Visual Studio subscriptions'
-comment:  As of August 2023 this include file is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include file is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.faqid: group4_
 ms.topic: include
 ms.assetid: 2b91ea18-d8d5-4a75-a2cd-4996e63d77e8
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/09/2023
+ms.date: 09/25/2024
 ---
 
 ## How do I view my invoice for monthly and annual subscriptions?

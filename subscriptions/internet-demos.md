@@ -1,9 +1,9 @@
 ---
 title: Internet demos via Terminal Services in Visual Studio subscriptions| Microsoft Docs
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/06/2024
+ms.date: 09/16/2024
 ms.topic: conceptual
 description: Learn how to use product keys to support internet demonstrations via Terminal Services and enable RDS access.
 ---

@@ -20,6 +20,9 @@ Python support is available only on Visual Studio for Windows. On Mac and Linux,
 
 - Visual Studio on Windows. To install the product, follow the steps in [Install Visual Studio](../install/install-visual-studio.md).
 
+> [!NOTE]
+> You also need a Python interpreter installed in order to work with Python in Visual Studio. We recommend installing one from [python.org](https://www.python.org/downloads/) or Anaconda. For more information on Python interpreters, see [Installing Python Interpreters](installing-python-interpreters.md). 
+
 ## Download and install the Python workload
 
 Complete the following steps to download and install the Python workload.

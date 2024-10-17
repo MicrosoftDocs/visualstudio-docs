@@ -237,7 +237,7 @@ To load symbols for a specific system component:
 
 ## <a name="BKMK_Step_into_properties_and_operators_in_managed_code"></a> Step into properties and operators in managed code
 
-The debugger steps over properties and operators in managed code by default. In most cases, this behavior provides a better debugging experience. To disable stepping into properties or operators, select **Debug** > **Options**. On the **Debugging** > **General** page, clear the **Step over properties and operators (Managed only)** checkbox.
+The debugger steps over properties and operators in managed code by default. In most cases, this behavior provides a better debugging experience. To enable stepping into properties or operators, select **Debug** > **Options**. On the **Debugging** > **General** page, clear the **Step over properties and operators (Managed only)** checkbox.
 
 ## <a name="BKMK_Set_the_next_statement_to_execute"></a> Move the pointer to change the execution flow
 

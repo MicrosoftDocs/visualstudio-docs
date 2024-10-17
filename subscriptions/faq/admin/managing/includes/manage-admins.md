@@ -1,19 +1,19 @@
 ---
 title: How do I manage administrators?
 description: If you're a Super Admin, you can add or remove other Super Admins or Administrators. Administrators can only add or remove subscribers...
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.faqid: group1_2
 ms.topic: include
 ms.assetid: 11274272-d834-44c7-acdb-09c9ba2f852d
 ms.subservice: 
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 08/09/2023
+ms.date: 09/19/2024
 ---
 
 ## How do I manage administrators?
 
-If you're a Super Admin, you can add or remove other Super Admins or Administrators. Administrators can only add or remove subscribers and don't see the Manage Administrators tab in the [Admin Portal](https://manage.visualstudio.com).
+If you're a Super Admin, you can add or remove other Super Admins or admins. Administrators can only add or remove subscribers and don't see the Manage Administrators tab in the [Admin Portal](https://manage.visualstudio.com).
 
 To manage administrators:
 

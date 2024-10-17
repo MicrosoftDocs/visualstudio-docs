@@ -1,6 +1,6 @@
 ---
-description: "Provides an extended query context for debug symbols."
-title: "IDiaSessionEx"
+description: Provides an extended query context for debug symbols.
+title: IDiaSessionEx
 ms.date: "07/05/2024"
 ms.topic: "reference"
 dev_langs:
@@ -12,23 +12,22 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSessionEx
 
 Provides an extended query context for debug symbols.
 
 ## Syntax
 
-```
-IDiaSessionEx : IDiaSession
-```
+`IDiaSessionEx : IDiaSession`
 
 ## Methods
 The following table shows the methods of `IDiaSessionEx`.
 
 |Method|Description|
 |------------|-----------------|
-|[`IDiaSessionEx::isFastLinkPDB`](../../debugger/debug-interface-access/idiasessionex-isfastlinkpdb.md)|Retrieves a boolean indicating that the source debug information was produced with `/DEBUG:fastlink`.|
-|[`IDiaSessionEx::isPortablePDB`](../../debugger/debug-interface-access/idiasessionex-isportablepdb.md)|Retrieves a boolean indicating that the source debug information is using the [Portable PDB format](https://github.com/dotnet/runtime/blob/main/docs/design/specs/PortablePdb-Metadata.md).|
+|[`IDiaSessionEx::isFastLinkPDB`](../../debugger/debug-interface-access/idiasessionex-isfastlinkpdb.md)|Retrieves a Boolean indicating that the source debug information was produced with `/DEBUG:fastlink`.|
+|[`IDiaSessionEx::isPortablePDB`](../../debugger/debug-interface-access/idiasessionex-isportablepdb.md)|Retrieves a Boolean indicating that the source debug information is using the [Portable PDB format](https://github.com/dotnet/runtime/blob/main/docs/design/specs/PortablePdb-Metadata.md).|
 |[`IDiaSessionEx::getSourceLinkInfo'](../../debugger/debug-interface-access/idiasessionex-getsourcelinkinfo.md)|Retrieves an enumeration of source link information.|
 
 ## Remarks
@@ -39,7 +38,7 @@ Because `IDiaSessionEx` inherits from `IDiaSession`, it alos has all the same me
 
 ## Example
 
-This example shows how to obtain the `IDiaSessionEx` interface as part of a general initialization of the DIA SDK.
+This example shows how to obtain the `IDiaSessionEx` interface as part of a general initialization of the Debug Interface Access (DIA) SDK.
 
 ```C++
 CComPtr<IDiaDataSource> pSource;

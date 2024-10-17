@@ -1,7 +1,7 @@
 ---
 title: 'Tips & Tricks for GitHub Copilot Chat in Visual Studio'
 description: Use slash commands, references, and threads to form better questions and get better answers with scoped context in GitHub Copilot Chat.
-ms.date: 8/13/2024
+ms.date: 10/02/2024
 ms.topic: how-to 
 author: anandmeg
 ms.author: meghaanand
@@ -15,9 +15,9 @@ monikerRange: '>= vs-2022'
 ---
 # Get better answers by setting the context for GitHub Copilot Chat in Visual Studio
 
-You can use [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) in Visual Studio to get coding information and support, such as syntax, programming concepts, context-specific code help, test cases, debugging, and more, without leaving the IDE. Copilot Chat is integrated into Visual Studio, which means it can understand what you're working on by gathering useful clues from what you have in the IDE. 
+You can use [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) in Visual Studio to get coding information and support, such as syntax, programming concepts, context-specific code help, test cases, debugging, and more, without leaving the IDE. Copilot Chat is integrated into Visual Studio, which means it can understand what you're working on by gathering useful clues from what you have in the IDE.
 
-In this article, you'll learn how to get better answers by providing more information to Copilot Chat including:
+ In addition to your prompt, Copilot uses additional context, like the code in your current file and the chat history, to generate a response. In this article, you learn how to get better answers by providing more information to Copilot Chat including:
 + Use [slash commands](#slash-commands) to quickly specify common tasks like `/explain` to get code explanations.
 + Scope the chat to specific files using [references](#reference).
 + Review the [source used](#find-context) by Copilot to generate the answer.
@@ -80,6 +80,10 @@ Use *@workspace* to refer to the solution active in the IDE for context. When us
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-at-workspace.gif" alt-text="Screenshot of referencing solution context in Copilot Chat.":::
 
+With Visual Studio 2022 version 17.11, [GitHub Copilot Enterprise](https://docs.github.com/en/enterprise-cloud@latest/copilot/about-github-copilot/subscription-plans-for-github-copilot) subscribers can now use `@github` in chat to include context from their entire repository and to search the web (if [search is enabled by your admin](https://docs.github.com/en/enterprise-cloud@latest/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise#give-copilot-access-to-bing)). To learn more about the collection of GitHub-specific skills that Copilot can use to answer your question when using `@github`, see [Using GitHub skills for Copilot](https://docs.github.com/en/enterprise-cloud@latest/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide?tool=visualstudio#using-github-skills-for-copilot-preview).
+
+:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-at-github.png" alt-text="Screenshot of using GitHub skills in Copilot Chat.":::
+
 ### Usage examples
 Here are some examples of using references for context control:
 
@@ -121,6 +125,15 @@ With [Visual Studio 2022 version 17.11](/visualstudio/releases/2022/release-note
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/promote-inline-chat-to-chat-window.png" alt-text="Screenshot of promoting ongoing thread in inline chat to the chat window.":::
 
+### Best practices
+
+Copilot Chat uses the chat history to get context about your request. To give Copilot only the relevant history:
+
+* Use threads to start a new conversation for a new task.
+* Delete requests that are no longer relevant or that didn’t give you the desired result.
+
+Keep the chat conversation open and continue to iterate and prompt Copilot to improve the suggested solution. Copilot has both the context of the generated code and your current conversation history. As you keep asking additional questions, Copilot further refines the response according to your requirements. See [Prompt engineering for Github Copilot](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot) for strategies on effective prompting to improve your Copilot results.
+
 ## Next steps
 
 - [GitHub Copilot experience for Visual Studio](visual-studio-github-copilot-extension.md)
@@ -128,3 +141,4 @@ With [Visual Studio 2022 version 17.11](/visualstudio/releases/2022/release-note
 - [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/)
 - [Send us suggestions, feedback, and issues](how-to-report-a-problem-with-visual-studio.md)
 - [Support for GitHub Copilot Chat](https://support.github.com)
+- [How to use GitHub Copilot: Prompts, tips, and use cases](https://github.blog/developer-skills/github/how-to-write-better-prompts-for-github-copilot/)

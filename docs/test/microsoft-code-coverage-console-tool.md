@@ -1,18 +1,19 @@
 ---
 title: Microsoft.CodeCoverage.Console tool
 description: Use the Microsoft.CodeCoverage.Console tool to collect code coverage for C++ and C# code in nontest scenarios, and merge and convert code coverage reports.
-ms.date: 04/10/2024
+ms.date: 09/16/2024
 ms.topic: conceptual
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: test-tools
 author: mikejo5000
+monikerRange: '>= vs-2022'
 ---
 # Microsoft.CodeCoverage.Console tool
 
 Microsoft.CodeCoverage.Console is a command-line tool. You can use it to collect code coverage for C++ and C# code. It supports also merging and converting code coverage reports. This tool can be used to collect code coverage in non-test scenarios (for example, for a simple console application).
 
-Microsoft.CodeCoverage.Console is available in Visual Studio 2022 17.3 under folder `Common7\IDE\Extensions\Microsoft\CodeCoverage.Console`. You can use it in a Developer Command Prompt and a Developer PowerShell:
+Microsoft.CodeCoverage.Console is available in Visual Studio 2022 17.3 under the folder `Common7\IDE\Extensions\Microsoft\CodeCoverage.Console`. You can use it in a Developer Command Prompt and a Developer PowerShell:
 
 >[!NOTE]
 > The tool is available only with Visual Studio Enterprise. For .NET code coverage, you can alternatively use the command-line tool, [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage).
@@ -42,9 +43,10 @@ Commands:
 
 ## Collect, connect, shutdown, merge and snapshot commands
 
-The Microsoft.CodeCoverage.Console tool is extension to the [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) dotnet tool. The documentation for collect, connect, shutdown, merge and snapshot commands can be found [here](/dotnet/core/additional-tools/dotnet-coverage). Additionally, the Microsoft.CodeCoverage.Console tool supports collecting code coverage for C++ code.
+The Microsoft.CodeCoverage.Console tool is extension to the [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) dotnet tool. The documentation for collect, connect, shutdown, merge, and snapshot commands can be found [here](/dotnet/core/additional-tools/dotnet-coverage).
 
-::: moniker range=">=vs-2022"
+Microsoft.CodeCoverage.Console supports additional security features to enable collecting ASP.NET code coverage data from IIS. Additionally, the Microsoft.CodeCoverage.Console tool supports collecting code coverage for C++ code. The `instrument` command is specific to these scenarios.
+
 ## Instrument command
 
 The instrument command is used to instrument native or managed binary on disk. 
@@ -73,7 +75,7 @@ Microsoft.CodeCoverage.Console instrument
 
 * **`-id|--session-id <session-id>`**
 
-  Specifies the code coverage session ID. If not provided, the tool will generate a random GUID.
+  Specifies the code coverage session ID. If not provided, the tool generates a random GUID.
 
 * **`-o|--output <output>`**
 
@@ -96,9 +98,9 @@ D:\ConsoleApplication\x64\Debug> .\ConsoleApplication.exe
 Hello World!
 ```
 
-### Using only collect command with configuration
+### Code coverage using collect command with configuration file
 
-If you don't want to use the `instrument` command, then the files to be instrumented need to be specified in a configuration file as follows:
+If you don't want to use the `instrument` command, you can instead use a configuration file to specify the files to instrument, as follows:
 
 ```xml
 <ModulePaths>
@@ -108,7 +110,7 @@ If you don't want to use the `instrument` command, then the files to be instrume
 </ModulePaths>
 ```
 
-Then you can collect code coverage as follows:
+Then, collect code coverage as follows:
 
 ```console
 D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console collect --settings coverage.config .\ConsoleApplication.exe
@@ -117,16 +119,16 @@ Hello World!
 Code coverage results: output.coverage.
 ```
 
-### Using instrument and collect commands
+### Code coverage using instrument and collect commands
 
-In this case, first binary needs to be instrumented as follows:
+Before collecting code coverage data, first instrument the binary as follows:
 
 ```console
 D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console instrument ConsoleApplication.exe
 Input file successfully instrumented.
 ```
 
-Then you can collect code coverage as follows:
+Then, collect code coverage as follows:
 
 ```console
 D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console collect .\ConsoleApplication.exe
@@ -135,9 +137,9 @@ Hello World!
 Code coverage results: output.coverage.
 ```
 
-### Using instrument command and collect command in server mode
+### Code coverage using instrument command and collect command in server mode
 
-In this case, you can completely separate coverage collection from running your application. First, instrument your binary as follows:
+Using this method, you can separate code coverage collection from running your application. First, instrument your binary as follows:
 
 ```console
 D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console instrument --session-id 73c34ce5-501c-4369-a4cb-04d31427d1a4 ConsoleApplication.exe
@@ -147,14 +149,14 @@ Input file successfully instrumented.
 > [!NOTE]
 > Session ID needs to be used in this scenario to make sure that the application can connect and provide data to external collector.
 
-In the second step, you need to start coverage collector as follows:
+In the second step, you need to start the code coverage collector as follows:
 
 ```console
 D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console collect --session-id 73c34ce5-501c-4369-a4cb-04d31427d1a4 --server-mode
 SessionId: 73c34ce5-501c-4369-a4cb-04d31427d1a4
 ```
 
-Then the application can be started as follows:
+Then, start the application as follows:
 
 ```console
 D:\ConsoleApplication\x64\Debug>.\ConsoleApplication.exe
@@ -163,13 +165,11 @@ Hello World!
 > [!NOTE]
 > Instrumented native binary contains a reference to `static_covrun64.dll`. Make sure that this file is next to the instrumented binary or the directory where `static_covrun64.dll` is located is listed in the `Path` environment variable. The `collect` and `connect` commands are adding proper directories to `Path` automatically.
 
-Finally, the collector can be closed as follows:
+Finally, close the collector as follows:
 
 ```console
 D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console shutdown 73c34ce5-501c-4369-a4cb-04d31427d1a4
 ```
-
-::: moniker-end
 
 ## Related content
 

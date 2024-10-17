@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackFrame::get_maxStack
 
 Retrieves the maximum number of bytes pushed on the stack in the frame.
@@ -19,7 +20,7 @@ Retrieves the maximum number of bytes pushed on the stack in the frame.
 ## Syntax
 
 ```C++
-HRESULT get_maxStack ( 
+HRESULT get_maxStack ( 
    DWORD* pRetVal
 );
 ```

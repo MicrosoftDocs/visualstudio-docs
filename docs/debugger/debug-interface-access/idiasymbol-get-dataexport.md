@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag indicating whether this export is DATA."
+description: Retrieves a flag indicating whether this export is DATA.
 title: "IDiaSymbol::get_dataExport"
 ms.date: "07/09/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_dataExport
 
 Retrieves a flag indicating whether this export is `DATA`.
@@ -19,7 +20,7 @@ Retrieves a flag indicating whether this export is `DATA`.
 ## Syntax
 
 ```C++
-HRESULT get_privateExport ( 
+HRESULT get_privateExport ( 
    BOOL* pRetVal
 );
 ```

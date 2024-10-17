@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a simple integer key value that is unique for this image."
+description: Retrieves a simple integer key value that is unique for this image.
 title: "IDiaSourceFile::get_uniqueId"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSourceFile::get_uniqueId
 
 Retrieves a simple integer key value that is unique for this image.
@@ -19,7 +20,7 @@ Retrieves a simple integer key value that is unique for this image.
 ## Syntax
 
 ```C++
-HRESULT get_uniqueId ( 
+HRESULT get_uniqueId ( 
    DWORD* pRetVal
 );
 ```

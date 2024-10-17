@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the checksum bytes."
+description: Retrieves the checksum bytes.
 title: "IDiaSourceFile::get_checksum"
 ms.date: "07/18/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # `IDiaSourceFile::get_checksum`
 
 Retrieves the checksum bytes.
@@ -19,7 +20,7 @@ Retrieves the checksum bytes.
 ## Syntax
 
 ```C++
-HRESULT get_checksum ( 
+HRESULT get_checksum ( 
    DWORD  cbData,
    DWORD* pcbData,
    BYTE   data[]

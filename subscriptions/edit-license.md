@@ -1,9 +1,9 @@
 ---
 title: Edit Visual Studio subscriptions in the Admin Portal
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/19/2024
+ms.date: 09/16/2024
 ms.topic: how-to
 description:  Learn how admins can edit subscription assignments.
 ---

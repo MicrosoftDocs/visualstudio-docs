@@ -1,10 +1,10 @@
 ---
 title: Why am I only seeing my Visual Studio Dev Essentials and not my Visual Studio subscription?
 description:  Learn what to do if you aren't seeing all of your Visual Studio subscriptions.
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.topic: include
 ms.assetid: ab387e76-baec-4f27-9769-b2fc86e0c932
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 ms.date: 04/09/2024
 user.type: subscriber

@@ -11,7 +11,7 @@ metadata:
   ms.topic: landing-page
   author: anandmeg
   ms.author: meghaanand
-  ms.date: 10/23/2023
+  ms.date: 10/15/2024
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -24,8 +24,8 @@ landingContent:
     linkLists:
       - linkListType: tutorial
         links:
-          - text: Create a new project
-            url: create-new-project.md
+          - text: Work with solutions and projects
+            url: creating-solutions-and-projects.md
           - text: Open a project from a repo
             url: ../get-started/tutorial-open-project-from-repo.md
       - linkListType: how-to-guide
@@ -48,6 +48,8 @@ landingContent:
             url: code-generation-in-visual-studio.md
           - text: Manage code style preferences
             url: code-styles-and-code-cleanup.md
+          - text: Manage project and solution properties
+            url: managing-project-and-solution-properties.md
           - text: Code analysis
             url: ../code-quality/roslyn-analyzers-overview.md
 
@@ -58,7 +60,9 @@ landingContent:
         links:
           - text: AI assistance tools
             url: ai-assisted-development-visual-studio.md
-          - text: GitHub Copilot
+          - text: Install and manage GitHub Copilot
+            url: visual-studio-github-copilot-install-and-states.md
+          - text: GitHub Copilot Completions
             url: visual-studio-github-copilot-extension.md
           - text: GitHub Copilot Chat
             url: visual-studio-github-copilot-chat.md

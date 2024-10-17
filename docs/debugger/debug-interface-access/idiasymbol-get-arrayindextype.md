@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the symbol interface of the array index type of the symbol."
+description: Retrieves the symbol interface of the array index type of the symbol.
 title: "IDiaSymbol::get_arrayIndexType"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_arrayIndexType
 
 Retrieves the symbol interface of the array index type of the symbol.
@@ -19,7 +20,7 @@ Retrieves the symbol interface of the array index type of the symbol.
 ## Syntax
 
 ```C++
-HRESULT get_arrayIndexType ( 
+HRESULT get_arrayIndexType ( 
    IDiaSymbol** pRetVal
 );
 ```

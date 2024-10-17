@@ -1,7 +1,7 @@
 ---
 title: Admin controls for GitHub Copilot in Visual Studio
 description: Learn about the new features for administrators in GitHub Copilot for Visual Studio that enable admins to manage Copilot effectively. 
-ms.date: 8/27/2024
+ms.date: 9/12/2024
 ms.topic: how-to 
 author: anandmeg
 ms.author: meghaanand
@@ -9,11 +9,12 @@ ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: vs-2022
+ms.custom: ai-learning-hub
 ---
 
 # Admin controls for GitHub Copilot
 
-Visual Studio 2022 introduces new features for administrators to configure and manage GitHub Copilot for their enterprise effectively. These features provide administrators greater control over the use of Copilot within their organization. Admins can disable Copilot 
+Visual Studio 2022 introduces new features for administrators to configure and manage GitHub Copilot for their enterprise effectively. These features provide administrators greater control over the use of Copilot within their organization. Admins can disable Copilot for individual accounts or disable it altogether, and configure content exclusion to prevent certain files from being available to Copilot in Visual Studio.
 
 In this article, you learn how to:
 - [Disable Copilot](#disabling-copilot-for-individual-enterprise-visual-studio-accounts)
@@ -41,7 +42,7 @@ To configure and deploy these policies, you can use [Microsoft Intune](../instal
 
 ## Configure content exclusion
 
-Content exclusion for GitHub Copilot enables administrators to prevent certain files from being available to Copilot and keep sensitive content secure from Copilot use. You can use content exclusions to configure GitHub Copilot to ignore specific files in a [repository](https://docs.github.com/en/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot#configuring-content-exclusions-for-your-organization) or [organization](https://docs.github.com/en/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot#configuring-content-exclusions-for-your-repository). Content exclusion is only available with a GitHub Copilot Business or a GitHub Copilot Enterprise subscription. 
+Content exclusion for GitHub Copilot enables administrators to prevent certain files from being available to Copilot and keep sensitive content secure from Copilot use. You can use content exclusions to configure GitHub Copilot to ignore specific files in a [repository](https://docs.github.com/en/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot#configuring-content-exclusions-for-your-repository) or [organization](https://docs.github.com/en/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot#configuring-content-exclusions-for-your-organization). Content exclusion is only available with a GitHub Copilot Business or a GitHub Copilot Enterprise subscription. 
 
 With [Visual Studio 2022 version 17.11](/visualstudio/releases/2022/release-notes), GitHub Copilot for Visual Studio will ignore excluded content. When you exclude content from Copilot, completions and chat aren't available on the affected files.
 

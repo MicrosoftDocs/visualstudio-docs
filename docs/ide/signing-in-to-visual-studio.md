@@ -2,7 +2,7 @@
 title: Sign in or switch Visual Studio accounts 
 titleSuffix: ""
 description: Explore sign in concepts for working with Visual Studio, and find out how to sign in and how to add and switch user accounts.
-ms.date: 6/27/2024
+ms.date: 10/02/2024
 ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
@@ -11,7 +11,7 @@ ms.subservice: general-ide
 ---
 # Sign in or switch Visual Studio user accounts 
 
-In this article, you learn how to sign in to Visual Studio, add and switch user accounts, update your profile, sign out of your account, and the benefits to signing in.  If you are looking to learn how to use multiple accounts for sign-ins, check out our article, [Access multiple accounts associated with the Visual Studio sign-in account](sign-in-access-multiple-accounts.md).
+In this article, you learn how to sign in to Visual Studio, add and switch user accounts, update your profile, sign out of your account, and the benefits to signing in. To learn how to access multiple user accounts in Visual Studio, see [Access multiple accounts associated with the Visual Studio sign-in account](sign-in-access-multiple-accounts.md). For guidance on how to add your public GitHub or GitHub Enterprise account to your Visual Studio keychain, see [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md).
 
 You can get subscription support and search the frequently asked questions about subscriptions, accounts, and billing [on our Subscription support page](https://visualstudio.microsoft.com/subscriptions/support/).
 
@@ -81,6 +81,8 @@ While you don't have to sign in, there are many advantages to doing so.
 If you have multiple accounts, you can add them all to Visual Studio so that you can access the resources from any account without having to sign in to it separately.
 
 After you add multiple accounts on one machine, that group of accounts roams with you if you sign in to Visual Studio on another machine.  However, your account credentials do not roam therefore you'll be prompted to enter credentials for those other accounts the first time you attempt to use their resources on a new machine.
+
+To authenticate and access Azure resources from Visual Studio, sign in to Visual Studio with an account that has access to Azure resources and select this account for [Azure Service Authentication](/dotnet/api/overview/azure/service-to-service-authentication#authenticating-with-visual-studio) in **Tools** > **Options** > **Azure Service Authentication** > **Account Selection**.
 
 There are several types of accounts you can add: 
 
@@ -167,3 +169,10 @@ To sign out of all accounts:
 You can also use the **Account Settings** dialog to sign out of all accounts.
 
 ::: moniker-end
+
+## Related content
+
+- [Access multiple accounts associated with the Visual Studio sign-in account](sign-in-access-multiple-accounts.md)
+- [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md)
+- [Extend a trial version or update a license](how-to-unlock-visual-studio.md)
+- [Sign in to Visual Studio with accounts that require multifactor authentication (MFA)](work-with-multi-factor-authentication.md)

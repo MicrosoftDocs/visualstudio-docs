@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that specifies whether the user-defined data type has a constructor or destructor."
+description: Retrieves a flag that specifies whether the user-defined data type has a constructor or destructor.
 title: "IDiaSymbol::get_constructor"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_constructor
 
 Retrieves a flag that specifies whether the user-defined data type has a constructor or destructor.
@@ -19,7 +20,7 @@ Retrieves a flag that specifies whether the user-defined data type has a constru
 ## Syntax
 
 ```C++
-HRESULT get_constructor ( 
+HRESULT get_constructor ( 
    BOOL* pRetVal
 );
 ```

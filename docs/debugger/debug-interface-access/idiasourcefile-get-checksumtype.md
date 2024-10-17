@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the checksum type."
+description: Retrieves the checksum type.
 title: "IDiaSourceFile::get_checksumType"
 ms.date: "07/18/2024"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # `IDiaSourceFile::get_checksumType`
 
 Retrieves the checksum type.
@@ -19,7 +20,7 @@ Retrieves the checksum type.
 ## Syntax
 
 ```C++
-HRESULT get_checksumType ( 
+HRESULT get_checksumType ( 
    DWORD* pRetVal
 );
 ```

@@ -2,7 +2,7 @@
 title: Create a pull request in Visual Studio
 titleSuffix: ""
 description: Create a pull request in Visual Studio by using GitHub or Azure DevOps.
-ms.date: 10/23/2023
+ms.date: 10/7/2024
 ms.topic: how-to
 author: houghj16
 ms.author: jehoughton
@@ -55,7 +55,11 @@ To create a pull request, follow these steps:
 
    :::image type="content" source="media/vs-2022/git-create-pr-issue-search.png" alt-text="The New Pull Request with # in the description box and a list of the related GitHub issues and pull requests shown in Visual Studio 2022."::: 
 
-1. Once you’ve clicked **Create** on your pull request, other developers can review your changes and provide feedback.
+1. Once you’ve clicked **Create** on your pull request, other developers can review your changes and provide feedback. Or, with Visual Studio 17.12 and later, click the dropdown and choose **Create as draft**.
+
+   :::image type="content" source="media/vs-2022/git-new-pull-request-create-draft.png" alt-text="Screenshot showing the option to create a new pull request as a draft." :::
+
+With Visual Studio 17.12 and later, you can enable the **Pull Request Templates** feature (in **Tools** > **Options** > **Environment** > **Preview Features**) so that your default PR template in your repo will be used when creating a new pull request for both GitHub and Azure DevOps. Learn more about how to add a pull request template to your repository in the [GitHub documentation](https://docs.github.com/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository) and [Azure DevOps documentation](/azure/devops/repos/git/pull-request-templates#default-pull-request-templates).
 
 ## View pull request comments in the editor
 

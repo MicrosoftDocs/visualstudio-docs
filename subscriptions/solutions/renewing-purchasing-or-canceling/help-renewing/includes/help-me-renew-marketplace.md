@@ -1,10 +1,10 @@
 ---
 title: Renew or change quantity of monthly Visual Studio subscriptions purchased from marketplace.visualstudio.com
 description: Renew or change quantity of monthly Visual Studio subscriptions purchased from marketplace.visualstudio.com.
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.topic: include
 ms.assetid: 80459599-378e-42da-a589-c1a7c7407caa
-author: larissacrawford
+author: joseb-rdc
 ms.author: amast
 ms.date: 08/17/2023
 user.type: subscriber
