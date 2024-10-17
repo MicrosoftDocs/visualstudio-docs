@@ -58,7 +58,7 @@ You don't need to regenerate anything to view or edit new assets added outside o
 
 You can edit, build, and debug your Unreal Engine project in Visual Studio. To learn how to add Unreal Engine modules, classes, and plugins in Visual Studio, see [Add Unreal Engine classes, modules, and plugins in Visual Studio](vs-tools-unreal-add-class-module-plugin.md). You can set breakpoints in your code and then run the game in the Unreal Engine Editor. When a breakpoint is hit, you can debug the code in Visual Studio.
 
-By default, Visual Studio generates only one target-configuration-platform combination: [ProjectName]Editor_Debug_Win64. This allows you to build and launch the Unreal Editor with the project loaded.
+By default, Visual Studio generates only one target-configuration-platform combination: **Development - Win64**. This configuration allows you to build and launch the Unreal Editor with the project loaded.
 
 If you opened the folder for the Lyra game sample project in Visual Studio, you can follow these steps to try debugging.
 
