@@ -201,8 +201,6 @@ Learn more about Bridge to Kubernetes at [How Bridge to Kubernetes works][btk-ho
 
 If you need to debug multiple services at the same time in parallel, see [Debug multiple services at the same time](parallel-services.md).
 
-Information about the currently supported features and a future roadmap for Bridge to Kubernetes may be found at [Bridge to Kubernetes roadmap](https://github.com/microsoft/mindaro/projects/1).
-
 [azure-kubernetes-service]: /azure/aks/kubernetes-walkthrough
 [azds-cli]: /azure/dev-spaces/how-to/install-dev-spaces#install-the-client-side-tools
 [azds-tmp-dir]: /azure/dev-spaces/troubleshooting#before-you-begin
