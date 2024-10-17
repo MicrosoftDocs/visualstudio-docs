@@ -34,6 +34,80 @@ The connected service functionality adds all the needed references and connectio
 
 ## Connect to Azure SQL Database using Connected Services
 
+:::moniker range=">=vs-2022"
+
+1. Open your project in Visual Studio.
+
+1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add** to open the menu of available services.
+
+   ![Screenshot showing Connected Services context menu options.](./media/vs-2022/add-connected-service-context-menu-2.png)
+
+   If you don't see the **Connected Services** node, choose **Project** > **Connected Services** > **Add**.
+
+1. Choose **SQL Server Database**. The **Connect to dependency** page appears. You should see several options:
+
+   - SQL Server Express LocalDB, the built-in SQL Database offering installed with Visual Studio
+   - SQL Server Database on a local container on your machine
+   - SQL Server Database, an on-premises SQL Server on the local network
+   - Azure SQL Database, for the SQL Database running as an Azure service
+
+   You can reduce cost and simplify early development by starting with a local database. You can migrate to the live service in Azure later by repeating these steps and choosing another option. If you create a database locally that you want to re-create in Azure, you can migrate your database to Azure at that time.
+
+   ![Screenshot showing SQL Database choices.](./media/vs-2022/sql-database-choices-2.png)
+
+   If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign in to your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+
+1. In the **Configure Azure SQL Database** screen, select an existing Azure SQL Database, and select **Next**.
+
+    If you need to create a new component, go to the next step. Otherwise, skip to step 7.
+
+    ![Screenshot showing "Connect to existing Azure SQL Database component" screen.](./media/azure-sql-database-add-connected-service/created-azure-sql-database.png)
+
+1. To create an Azure SQL database:
+
+   1. Select **Create New** by the green plus sign.
+
+   1. Fill out the **Azure SQL Database: Create new** screen, and select **Create**.
+
+       ![Screenshot showing "New Azure SQL database" screen.](./media/azure-sql-database-add-connected-service/create-new-azure-sql-database.png)
+
+   1. When the **Configure Azure SQL Database** screen is displayed, the new database appears in the list. Select the new database in the list, and select **Next**.
+
+1. Enter a connection string name, or choose the default, and then choose **Additional Settings**.
+
+   ![Screenshot showing "Specify connection string" screen.](./media/vs-2022/connect-to-azure-sql-database-light.png)
+
+   > [!NOTE]
+   > With Visual Studio 2022 version 17.12 and later, this procedure uses Microsoft Entra passwordless authentication to connect to the database. The warning on this screen means that you need to perform a manual step in the Azure Portal after completing this procedure in Visual Studio. See [Microsoft Entra authentication](#microsoft-entra-authentication).
+
+1. Choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault), and then choose **Next**.
+
+   ![Screenshot showing the options for where to store the Azure SQL Database connection string.](media/vs-2022/connect-to-azure-sql-database-options-light.png)
+
+1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
+
+   ![Screenshot showing "Summary of changes" section.](./media/vs-2022/connect-to-azure-sql-database-summary-light.png)
+
+   If prompted to set a firewall rules, choose **Yes**.
+
+   ![Screenshot showing firewall rules.](./media/azure-sql-database-add-connected-service/firewall-rules.png)
+
+1. In Solution Explorer, double-click on the **Connected Services** node to open the **Connected Services** tab. The connection appears under the **Service Dependencies** section:
+
+   ![Screenshot showing "Service Dependencies" section.](./media/azure-sql-database-add-connected-service/service-dependencies-after.png)
+
+   If you click on the three dots next to the dependency you added, you can see various options such as **Connect** to reopen the wizard and change the connection. You can also click the three dots at the top right of the window to see options to start local dependencies, change settings, and more.
+
+## Microsoft Entra authentication
+
+With Visual Studio 2022 version 17.12 and later, the connected services procedure uses Microsoft Entra authentication, which is the most secure method of authentication. However, Visual Studio doesn't create the Microsoft Entra admin user on the Azure SQL database for you automatically. If there isn't a Microsoft Entra admin user, the connection will fail to authenticate successfully.
+
+You can use the Azure Portal, PowerShell, or the Azure CLI to create the Microsoft Entra admin user. For detailed instructions for each of these methods, see [Set the Microsoft Entra admin user](/azure/azure-sql/database/authentication-aad-configure?view=azuresql&tabs=azure-portal#azure-sql-database-and-azure-synapse-analytics).
+
+:::moniker-end
+
+:::moniker range="<=vs-2019"
+
 1. Open your project in Visual Studio.
 
 1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add** to open the menu of available services.
@@ -88,6 +162,8 @@ The connected service functionality adds all the needed references and connectio
    ![Screenshot showing "Service Dependencies" section.](./media/azure-sql-database-add-connected-service/service-dependencies-after.png)
 
    If you click on the three dots next to the dependency you added, you can see various options such as **Connect** to reopen the wizard and change the connection. You can also click the three dots at the top right of the window to see options to start local dependencies, change settings, and more.
+
+:::moniker-end
 
 ## Access the connection string
 
