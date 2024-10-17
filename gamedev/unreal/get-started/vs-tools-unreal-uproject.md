@@ -17,7 +17,7 @@ Visual Studio 2022 version 17.12 provides direct support for Unreal Engine proje
 
 Previously, you had to generate a Microsoft Visual Studio project before you could work with an Unreal Engine project in Visual Studio. That process was cumbersome. And whenever a new asset was added from within the Unreal Engine Editor, or by another team member, the Visual Studio project had to be regenerated.
 
-Now, with direct support for Unreal Engine projects (`.uproject` files) in Visual Studio, you can work directly with the Unreal Engine project from within Visual Studio. This integration enables seamless editing, debugging, and project file management without the repetitive and time-consuming process of generating and regenerating a project file between Visual Studio and Unreal Engine.
+Now, with direct support for Unreal Engine projects (`.uproject` files) in Visual Studio, you can work directly with the Unreal Engine project from within Visual Studio. This integration enables seamless editing, debugging, and project file management. Without the repetitive and time-consuming process of generating and regenerating a project file between Visual Studio and Unreal Engine.
 
 ## Prerequisites
 
@@ -31,20 +31,20 @@ The following must be installed to work with Unreal Engine projects in Visual St
 ## Open a native Unreal Engine project in Visual Studio
 
 There are two ways to open a native Unreal Engine project in Visual Studio:
-- **File** > **Open** > **Folder...** which is the used when there is only one project (`.uproject`) in the folder.
+- **File** > **Open** > **Folder...** which is the used when there's only one project (`.uproject`) in the folder.
 - **File** > **Open** > **Unreal Engine Project...** to pick a specific `.uproject` file to open when there are multiple Unreal Engine project files in a folder.
 
-In this example, we'll use the Lyra game project to demonstrate opening a native Unreal Engine project in Visual Studio.
+In this example, we use the Lyra game project to demonstrate opening a native Unreal Engine project in Visual Studio.
 
 1. In Visual Studio, open the **File** menu, and then select **Open** > **Open Folder**.
 1. Navigate to the directory where the Lyra game project (`LyraStarterGame.uproject`) is installed and choose **Select Folder**.
-1. Once the folder is selected, you'll see the project files in the **Solution Explorer** and messages in the **Output** window regarding the steps of setting up the workspace.
+1. Once the folder is selected, you see the project files in the **Solution Explorer** and messages in the **Output** window regarding the steps of setting up the workspace.
 
     :::image type="complex" source="../media/vs-open-folder.png" alt-text="A screenshot of Visual Studio following opening the folder for the Lyra game sample." lightbox="./media/vs-open-folder.png":::
-    There is a message at the top of the editor indicating that other build systems have been disabled because an Unreal Engine project has been opened. The **Output** window shows some last messages about the project workspace being setup. To the right is the solution explorer and it shows the folders and files in the Lyra game sample such as Platforms, Plugins, Source, and so on.
+    There's a message at the top of the editor that other build systems are disabled because an Unreal Engine project has been opened. The **Output** window shows some last messages about the project workspace being set up. To the right is the solution explorer and it shows the folders and files in the Lyra game sample such as Platforms, Plugins, Source, and so on.
     :::image-end:::
 
-A message appears at the top indicating the Unreal Engine project support has been activated and that other build systems like CMake and MSBUILD are disabled. Dismiss this message by clicking the **X** in the corner of the message.
+A message appears at the top that the Unreal Engine project support is activated and that other build systems like CMake and MSBUILD are disabled. Dismiss this message by clicking the **X** in the corner of the message.
 
 ## View the project in the Solution Explorer
 
@@ -58,7 +58,9 @@ You don't need to regenerate anything to view or edit new assets added outside o
 
 You can edit, build, and debug your Unreal Engine project in Visual Studio. To learn how to add Unreal Engine modules, classes, and plugins in Visual Studio, see [Add Unreal Engine classes, modules, and plugins in Visual Studio](vs-tools-unreal-add-class-module-plugin.md). You can set breakpoints in your code and then run the game in the Unreal Engine Editor. When a breakpoint is hit, you can debug the code in Visual Studio.
 
-If you've opened the folder for the Lyra game sample project in Visual Studio, you can follow these steps to try debugging.
+By default, Visual Studio generates only one target-configuration-platform combination: [ProjectName]Editor_Debug_Win64. This allows you to build and launch the Unreal Editor with the project loaded.
+
+If you opened the folder for the Lyra game sample project in Visual Studio, you can follow these steps to try debugging.
 
 1. In Visual Studio, open `LyraGameplayAbility_RangedWeapon.cpp`. Either search for that file in the Search pane of the **Solution Explorer**, or find it under **Games** > **LyraStarterGame** > **Source** > **LyraGame** > **Weapons** > **LyraGameplayAbility_RangedWeapon.cpp**.
 1. In `LyraGameplayAbility_RangedWeapon.cpp`, go to line 477. You should see this function: `void ULyraGameplayAbility_RangedWeapon::OnTargetDataReadyCallback`
@@ -74,7 +76,7 @@ If you've opened the folder for the Lyra game sample project in Visual Studio, y
 To edit Unreal Engine target properties, right-click on the bolded target file in the Solution Explorer and choose **Edit Unreal Engine target properties**. For example, if `LyraEditor.Target.cs` is the startup project (in which case it is bolded in the Solution Explorer), right-click on it and choose **Edit this Unreal Engine target properties**. This opens the `UETargetProperties.json` file in the editor. You can then change target properties such as command-line arguments, and so on.
 
 :::image type="complex" source="../media/vs-unreal-engine-target-properties.png" alt-text="A screenshot of a right click on the LyraEditor.Target.cs solution explorer item.":::
-A menu appears and at the bottom is the option to edit this Unreal Engine target. Selecting this option opens the UETargetProperties.json file in the editor.
+A menu appears and at the bottom is the option to edit this Unreal Engine target. Selecting this option opens UETargetProperties.json in the editor.
 :::image-end:::
 
 ## Edit project settings
@@ -82,17 +84,17 @@ A menu appears and at the bottom is the option to edit this Unreal Engine target
 To edit the Unreal Engine project settings, right-click on the `.uproject` file in the Solution Explorer and choose **Edit Unreal Engine project settings**. This opens the `ProjectSettings.json` file in the editor. You can then change project settings such as which project files and engine files to exclude from the Solution explorer view, what shared include paths to exclude from IntelliSense, and so on.
 
 :::image type="complex" source="../media/vs-unreal-engine-project-properties.png" alt-text="A screenshot of a right click on the LyraStarterGame.uproject solution explorer item.":::
-A menu appears and at the bottom is the option to edit the Unreal Engine project settings. Selecting this options opens the .uproject file in the editor.
+A menu appears and at the bottom is the option to edit the Unreal Engine project settings. Selecting this option opens the `.uproject` file in the editor.
 :::image-end:::
 
 ## Common issues and solutions
 
 - Your engine and game code must be on the same drive.
-- Folders with multiple `.uproject` files in the same folder are not supported. To open a specific `.uproject` file when there are multiple project files in the same folder, use **File** > **Open** > **Unreal Engine project**.
+- Folders with multiple `.uproject` files in the same folder aren't supported. To open a specific `.uproject` file when there are multiple project files in the same folder, use **File** > **Open** > **Unreal Engine project**.
 - If you open an Unreal Engine project via **File** > **Open** > **Unreal Engine project**, the project won't appear in Visual Studio's **File** > **Recent Projects and Solutions** list. If you open the Unreal Engine project via **File** > **Open Folder**, then the opened Unreal Engine project appears in the recently opened projects list.
-- Some extensions may not work with a project that has been opened as an Unreal Engine project.
+- Some extensions may not work with a project opened as an Unreal Engine project.
 - The property window is empty for source files. This is currently by design.
-- There is a solution file in the folder view. This is generated by Unreal Engine and is not used by Visual Studio. You can ignore it.
+- There's a solution file in the folder view. Unreal Engine generates this file. It isn't used by Visual Studio and you can ignore it.
 
 ## Related content
 
