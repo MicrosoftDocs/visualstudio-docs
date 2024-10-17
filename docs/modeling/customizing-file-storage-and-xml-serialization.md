@@ -251,7 +251,7 @@ We recommend that you study the code in **Dsl\Generated Code\Serializer.cs** and
 1. Override methods in Dsl\GeneratedCode\SerializationHelper.cs
 
 > [!NOTE]
-> Starting with Visual Studio 2022 v17.13, the default serialization implementation will no longer support the serialization or deserialization of custom data types using BinaryFormatter due to [security risks with BinaryFormatter](https://learn.microsoft.com/dotnet/standard/serialization/binaryformatter-security-guide).
+> Starting with Visual Studio 2022 v17.13, the default serialization implementation will no longer support the serialization or deserialization of custom data types using BinaryFormatter due to [security risks with BinaryFormatter](/dotnet/standard/serialization/binaryformatter-security-guide).
 >
 > This means that if you use a custom data type for any domain properties, you will need to either override the serialization methods in the SerializationHelper class or implement a TypeConverter capable of converting each custom data type to and from a string.
 >
