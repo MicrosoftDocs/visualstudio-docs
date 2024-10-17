@@ -79,7 +79,7 @@ Notice the following points about the serialized model:
 
 - Each relationship is serialized as an XML node nested inside the source end of the relationship. The node has the same name as the source role property, but with a lower case initial character.
 
-     For example, in the DSL Definition, a role that is named **People** is sourced at the **FamilyTree** class.  In the XML, this is represented by the node named `people` nested inside the `familyTreeModel` node.
+     For example, in the DSL Definition, a role that is named **People** is sourced at the **FamilyTree** class.  In the XML, the **People** role is represented with a node named `people` nested inside the `familyTreeModel` node.
 
 - The target end of each embedding relationship is serialized as a node nested under the relationship. For example, the `people` node contains several `person` nodes.
 
@@ -101,7 +101,7 @@ Monikers are used to represent cross-references between different parts of the m
     <personShapeMoniker Id="f79734c0-3da1-4d72-9514-848fa9e75157" />
     ```
 
-- *Qualified key monikers* identify the target element by the value of a designated domain property called the moniker key. The moniker of the target element is prefixed by the moniker of its parent element in the tree of embedding relationships.
+- *Qualified key monikers* identify the target element by the value of a designated domain property called the moniker key. The moniker of the target element is prefixed with the moniker of its parent element in the tree of embedding relationships.
 
      The following examples are taken from a DSL in which there's a domain class named Album, which has an embedding relationship to a domain class named Song:
 
@@ -112,7 +112,7 @@ Monikers are used to represent cross-references between different parts of the m
 
      Qualified key monikers are used if the target class has a domain property for which the option **Is Moniker Key** is set to `true` in **Xml Serialization Behavior**. In the example, this option is set for domain properties named "Title" in the domain classes "Album" and "Song".
 
-Qualified key monikers are easier to read than ID monikers. If you intend the XML of your model files to be read by people, consider using qualified key monikers. However, it's possible for the user to set more than one element to have the same moniker key. Duplicate keys could cause the file not to reload correctly. Therefore, if you define a domain class that is referenced using qualified key monikers, you should consider ways of preventing the user from saving a file that has duplicate monikers.
+Qualified key monikers are easier to read than ID monikers. If you intend the XML of your model files to be human-readable, consider using qualified key monikers. However, it's possible for the user to set more than one element to have the same moniker key. Duplicate keys could cause the file not to reload correctly. Therefore, if you define a domain class that is referenced using qualified key monikers, you should consider ways of preventing the user from saving a file that has duplicate monikers.
 
 ### To set a domain class to be referenced by ID monikers
 
