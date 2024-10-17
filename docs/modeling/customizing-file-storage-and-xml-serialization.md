@@ -53,7 +53,7 @@ This DSL was used to create a model that has the following appearance on the scr
 
 ![Family tree diagram, toolbox, and explorer](../modeling/media/familyt_instance.png)
 
-This model was saved and then re-opened in the XML text editor:
+This model was saved and then reopened in the XML text editor:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -158,7 +158,7 @@ There are several methods that help avoid this situation:
 
 - Enable validation for the DSL. In DSL Explorer, select Editor\Validation, and set the **Uses...** properties to `true`.
 
-     There's an automatically generated validation method that checks for ambiguities. The method is in the `Load` validation category. This makes sure that the user will be warned that it might not be possible to re-open the file.
+     There's an automatically generated validation method that checks for ambiguities. The method is in the `Load` validation category. This makes sure that the user will be warned that it might not be possible to reopen the file.
 
      For more information, see [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md).
 
@@ -310,7 +310,7 @@ class MyCustomDataType
 
 ## Options in Xml Serialization Behavior
 
-In DSL Explorer, the Xml Serialization Behavior node contains a child node for each domain class, relationship, shape, connector and diagram class. Under each of those nodes is a list of properties and relationships sourced at that element. Relationships are represented both in their own right and under their source classes.
+In DSL Explorer, the Xml Serialization Behavior node contains a child node for each domain class, relationship, shape, connector, and diagram class. Under each of those nodes is a list of properties and relationships sourced at that element. Relationships are represented both in their own right and under their source classes.
 
 The following table summarizes the options that you can set in this section of the DSL Definition. In each case, select an element in DSL Explorer, and set the options in the Properties window.
 
@@ -321,13 +321,13 @@ These elements are found in DSL Explorer under **Xml Serialization Behavior\Clas
 |Property|Description|
 |-|-|
 |Has Custom Element Schema|If True, indicates that the domain class has a custom element schema|
-|Is Custom|Set this to **True** if you want to write your own serialization and deserialization code for this domain class.<br /><br /> Build the solution and investigate the errors to discover detailed instructions.|
+|Is Custom|Set the value to **True** if you want to write your own serialization and deserialization code for this domain class.<br /><br /> Build the solution and investigate the errors to discover detailed instructions.|
 |Domain Class|Domain class to which this class data node applies. Read-only.|
 |Element Name|Xml node name for elements of this class. The default value is a lower-case version of the domain class name.|
 |Moniker Attribute Name|Name of the attribute used in moniker elements to contain the reference. If blank, the name of the key property or id is used.<br /><br /> In this example, it's "name":  `<personMoniker name="/Mike Nash"/>`|
 |Moniker Element Name|Name of the xml element used for monikers that refer to elements of this class.<br /><br /> The default value is a lowercase version of the class name suffixed with "Moniker". For example, `personMoniker`.|
 |Moniker Type Name|Name of the xsd type generated for monikers to elements of this class. The XSD is in **Dsl\Generated Code\\\*Schema.xsd**|
-|Serialize Id|If True, the element GUID is included in the file. This must be true if there's no property that is marked **Is Moniker Key** and the DSL defines reference relationships to this class.|
+|Serialize Id|If True, the element GUID is included in the file. The value *must* be set to **True** if there's no property that is marked **Is Moniker Key** and the DSL defines reference relationships to this class.|
 |Type Name|Name of the xml type generated in the xsd from the designated domain class.|
 |Notes|Informal notes associated with this element|
 
@@ -338,10 +338,10 @@ Xml Property nodes are found under the class nodes.
 |Property|Description|
 |-|-|
 |Domain Property|Property to which the xml serialization configuration data applies. Read-only.|
-|Is Moniker Key|If True, the property is used as the key for creating monikers that reference instances of this domain class.|
-|Is Moniker Qualifier|If True, the property is used for creating the qualifier in monikers. If false, and if SerializeId isn't true for this domain class, monikers are qualified by the moniker of the parent element in the embedding tree.|
-|Representation|If Attribute, the property is serialized as an xml attribute; if Element, it's serialized as an element; if Ignore, it'sn't serialized.|
-|Xml Name|Name used for the xml attribute or element representing the property. By default, this is a lower-case version of the domain property name.|
+|Is Moniker Key|If the value is set to **True**, the property is used as the key for creating monikers that reference instances of this domain class.|
+|Is Moniker Qualifier|If the value is set to **True**, the property is used for creating the qualifier in monikers. If false, and if SerializeId isn't true for this domain class, monikers are qualified by the moniker of the parent element in the embedding tree.|
+|Representation|If the value is set to **Attribute**, then the property is serialized as an xml attribute; if the value is set to **Element**, then it's serialized as an element; if the value is set to **Ignore**, then it isn't serialized.|
+|Xml Name|Name used for the xml attribute or element representing the property. By default, the value is a lower-case version of the domain property name.|
 |Notes|Informal notes associated with this element|
 
 ### Xml Role data
