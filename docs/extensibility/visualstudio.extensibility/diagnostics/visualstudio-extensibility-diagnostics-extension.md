@@ -11,7 +11,7 @@ ms.date: 05/09/2024
 
 # Overview
 
-The VisualStudio.Extensibility Diagnostics Explorer extension is designed to help debug VisualStudio.Extensibility extensions while developing them. The target audience for this extension is extension authors, not extension consumers. This extension provides an interface for inspecting the extensibility points that extensions are interacting with, and what configuration objects extensions are providing to the IDE, and the metadata of those configuration objects. 
+The VisualStudio.Extensibility Diagnostics Explorer extension is designed to help debug VisualStudio.Extensibility extensions while developing them. The target audience for this extension is extension authors, not extension consumers. This extension provides an interface for inspecting the extensibility points that extensions are interacting with, and what configuration objects extensions are providing to the IDE, and the metadata of those configuration objects.
 
 ## Get Started
 
@@ -22,7 +22,7 @@ Follow these instructions to install, launch, and configure the Diagsnotics Expl
 You can get the Diagnostics Explorer either directly through the Extension Manager in Visual Studio, or from the Visual Studio Marketplace [here](https://aka.ms/VisualStudio.Extensibility/DiagnosticsExplorer).
 
 > [!NOTE]
-> The VisualStudio.Extensibility Diagnostics Explorer extension is compatable with Visual Studio 2022 17.12 and higher.
+> The VisualStudio.Extensibility Diagnostics Explorer extension is compatible with Visual Studio 2022 17.12 and higher.
 
 ### Open the Diagnostics Explorer in Visual Studio
 
@@ -40,7 +40,7 @@ The Diagnostics Explorer is configured to collect relevant diagnostic data from 
 
 The left-hand panel of the Diagnostics Explorer tool window contains a list different *feature pages*. These pages correspond to the extensible features for which you can find diagnostic information about the components and configurations that Visual Studio discovered from your extensions. For example, you can select **Commands** to view diagnostics related to your commands, command sets, menus and toolbars, placements, and more.
 
-Also in the list are two special pages that aren't directly related to any components in your extension: [**Events**](#events-page), a live viewer for extensibility-related events, and [**Client Contexts**](#activation-constraints-page), which shows relevant IDE state to help you craft your activation constraints, which will appear in the **Activation Constraints** feature page.
+Also in the list are two special pages that aren't directly related to any components in your extension: [**Events**](#events-page), a live viewer for extensibility-related events, and [**Client Contexts**](#client-contexts-page), which shows relevant IDE state to help you craft your activation constraints, which will appear in the **Activation Constraints** feature page.
 
 ![Screenshot of the left hand panel of the tool window.](./media/image-2.png)
 
