@@ -25,11 +25,11 @@ You can also write program code for more advanced customization.
 
 ## Model and Diagram Files
 
-Each model is usually saved in two files:
+Each model is saved in two files:
 
 - The model file has a name such as **Model1.mydsl**. It stores the model elements and relationships and their properties. The file extension such as **.mydsl** is determined by the **FileExtension** property of the **Editor** node in the DSL Definition.
 
-- The diagram file has a name such as **Model1.mydsl.diagram**. It stores the shapes, connectors, and their positions, colors, line thicknesses, and other details of the appearance of the diagram. If the user deletes a **.diagram** file, the essential information in the model isn't lost. Only the layout of the diagram is lost. When the model file is opened, a default set of shapes and connectors will be created.
+- The diagram file has a name such as **Model1.mydsl.diagram**. It stores the shapes, connectors, and their positions, colors, line thicknesses, and other details of the appearance of the diagram. If the user deletes a **.diagram** file, the essential information in the model isn't lost. Only the layout of the diagram is lost. When the model file is opened, a default set of shapes and connectors are created.
 
 ### To change the file extension of a DSL
 
@@ -110,7 +110,7 @@ Monikers are used to represent cross-references between different parts of the m
     <songMoniker title="/My Favorites/Jazz after Teatime/Hot tea" />
     ```
 
-     Qualified key monikers will be used if the target class has a domain property for which the option **Is Moniker Key** is set to `true` in **Xml Serialization Behavior**. In the example, this option is set for domain properties named "Title" in the domain classes "Album" and "Song".
+     Qualified key monikers are used if the target class has a domain property for which the option **Is Moniker Key** is set to `true` in **Xml Serialization Behavior**. In the example, this option is set for domain properties named "Title" in the domain classes "Album" and "Song".
 
 Qualified key monikers are easier to read than ID monikers. If you intend the XML of your model files to be read by people, consider using qualified key monikers. However, it's possible for the user to set more than one element to have the same moniker key. Duplicate keys could cause the file not to reload correctly. Therefore, if you define a domain class that is referenced using qualified key monikers, you should consider ways of preventing the user from saving a file that has duplicate monikers.
 
@@ -185,7 +185,7 @@ However, if Albums are referenced by ID instead, then the monikers would be as f
 
 Notice that because a GUID is unique, it's never prefixed by the moniker of its parent.
 
-If you know that a particular domain property will always have a unique value within a model, you can set **Is Moniker Qualifier** to `true` for that property. This will cause it to be used as a qualifier, without using the moniker of the parent. For example, if you set both **Is Moniker Qualifier** and **Is Moniker Key** for the Title domain property of the Album class, the model's name or identifier isn't used in monikers for Album and its embedded children:
+If you know that a particular domain property will always have a unique value within a model, you can set **Is Moniker Qualifier** to `true` for that property. This causes it to be used as a qualifier, without using the moniker of the parent. For example, if you set both **Is Moniker Qualifier** and **Is Moniker Key** for the Title domain property of the Album class, the model's name or identifier isn't used in monikers for Album and its embedded children:
 
 ```xml
 <albumMoniker name="Jazz after Teatime" />
