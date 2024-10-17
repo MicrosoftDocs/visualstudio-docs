@@ -40,7 +40,7 @@ In this example, we use the Lyra game project to demonstrate opening a native Un
 1. Navigate to the directory where the Lyra game project (`LyraStarterGame.uproject`) is installed and choose **Select Folder**.
 1. Once the folder is selected, you see the project files in the **Solution Explorer** and messages in the **Output** window regarding the steps of setting up the workspace.
 
-    :::image type="complex" source="../media/vs-open-folder.png" alt-text="A screenshot of Visual Studio following opening the folder for the Lyra game sample." lightbox="./media/vs-open-folder.png":::
+    :::image type="complex" source="../media/vs-open-folder.png" alt-text="A screenshot of Visual Studio following opening the folder for the Lyra game sample." lightbox="../media/vs-open-folder.png":::
     There's a message at the top of the editor that other build systems are disabled because an Unreal Engine project has been opened. The **Output** window shows some last messages about the project workspace being set up. To the right is the solution explorer and it shows the folders and files in the Lyra game sample such as Platforms, Plugins, Source, and so on.
     :::image-end:::
 
