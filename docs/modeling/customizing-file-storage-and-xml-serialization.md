@@ -255,7 +255,7 @@ We recommend that you study the code in **Dsl\Generated Code\Serializer.cs** and
 >
 > This means that if you use a custom data type for any domain properties, you will need to either override the serialization methods in the SerializationHelper class or implement a TypeConverter capable of converting each custom data type to and from a string.
 >
-> To maintain backward compatibility with models that use BinaryFormatter serialization, you can implement a TypeConverter that deserializes the binary data. The following code snippet serves as a template for implementing this compatibility:
+> To maintain backward compatibility with models that use `BinaryFormatter` serialization, you can implement a `TypeConverter` that deserializes the binary data. The following code snippet serves as a template for implementing this compatibility:
 
 ```csharp
 class MyCustomDataTypeConverter : TypeConverter
