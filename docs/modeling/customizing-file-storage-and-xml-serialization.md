@@ -16,7 +16,7 @@ ms.subservice: modeling
 
 When the user saves an instance, or *model*, of a domain-specific language (DSL) in Visual Studio, an XML file is created or updated. The file can be reloaded to recreate the model in the Store.
 
-You can customize the serialization scheme by adjusting the settings under **Xml Serialization Behavior** in DSL Explorer. there's a node under **Xml Serialization Behavior** for every domain class, property, and relationship. The relationships are located under their source classes. There are also nodes corresponding to the shape, connector, and diagram classes.
+You can customize the serialization scheme by adjusting the settings under **Xml Serialization Behavior** in DSL Explorer. There's a node under **Xml Serialization Behavior** for every domain class, property, and relationship. The relationships are located under their source classes. There are also nodes corresponding to the shape, connector, and diagram classes.
 
 You can also write program code for more advanced customization.
 
@@ -27,15 +27,15 @@ You can also write program code for more advanced customization.
 
 Each model is saved in two files:
 
-- The model file has a name such as **Model1.mydsl**. It stores the model elements and relationships and their properties. The file extension such as **.mydsl** is determined by the **FileExtension** property of the **Editor** node in the DSL Definition.
+- The model file has a name such as `Model1.mydsl`. It stores the model elements and relationships and their properties. The file extension such as `.mydsl` is determined by the **FileExtension** property of the **Editor** node in the DSL Definition.
 
-- The diagram file has a name such as **Model1.mydsl.diagram**. It stores the shapes, connectors, and their positions, colors, line thicknesses, and other details of the appearance of the diagram. If the user deletes a **.diagram** file, the essential information in the model isn't lost. Only the layout of the diagram is lost. When the model file is opened, a default set of shapes and connectors are created.
+- The diagram file has a name such as `Model1.mydsl.diagram`. It stores the shapes, connectors, and their positions, colors, line thicknesses, and other details of the appearance of the diagram. If the user deletes a `.diagram` file, the essential information in the model isn't lost. Only the layout of the diagram is lost. When the model file is opened, a default set of shapes and connectors is created.
 
 ### To change the file extension of a DSL
 
 1. Open the DSL Definition. In DSL Explorer, click the Editor node.
 
-2. In the Properties window, edit the **FileExtension** property. Do not include the initial "." of the file name extension.
+2. In the Properties window, edit the **FileExtension** property. Don't include the initial `.` of the file name extension.
 
 3. In Solution Explorer, change the name of the two item template files in **DslPackage\ProjectItemTemplates**. These files have names that follow this format:
 
@@ -93,7 +93,7 @@ Notice the following points about the serialized model:
 
 ## Understand Monikers
 
-Monikers are used to represent cross-references between different parts of the model and diagram files. They are also used in the `.diagram` file to refer to nodes in the model file. There are two forms of moniker:
+Monikers are used to represent cross-references between different parts of the model and diagram files. They're also used in the `.diagram` file to refer to nodes in the model file. There are two forms of moniker:
 
 - *Id monikers* quote the GUID of the target element. For example:
 
