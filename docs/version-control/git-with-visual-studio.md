@@ -29,7 +29,7 @@ Not only can you add both [GitHub and GitHub Enterprise accounts to your keychai
 
 :::image type="content" source="media/vs-2022/git-source-control-create-repository.png" alt-text="Screenshot of the Create a Git Repository dialog box in Visual Studio." lightbox="media/vs-2022/git-source-control-create-repository.png":::
 
-If you want to use git commands at the command line, you should also install [Git for Windows](https://book.git-scm.com/download/win) (not a Microsoft product).
+If you want to use git commands at the command line, you should also install [Git for Windows](https://git-scm.com/downloads/win) (not a Microsoft product).
 
 ## View files in Solution Explorer
 
