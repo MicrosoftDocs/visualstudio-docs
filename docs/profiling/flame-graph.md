@@ -15,7 +15,7 @@ monikerRange: '>= vs-2022'
 
 Visual Studio profiling tools for CPU utilization and instrumentation include the **Flame Graph** view. The **Flame Graph** helps you identify *hot paths* in your code by showing a visualization of the call tree. The *hot path* is the call stack for the functions that are using the most CPU or the most time, and is often a good place to look for potential performance optimizations. The graph gives a visual overview of where time is being spent in your application and you can click on specific nodes to dig into them further.
 
-:::image type="content" source="./media/vs-2022/flame-graph-tooltips.png" alt-text="Screenshot showing Flame Graph with context menu displayed." lightbox="media/vs-2022/flame-graph-tooltips.png":::
+:::image type="content" source="./media/vs-2022/flame-graph-tooltips.gif" alt-text="Screenshot showing Flame Graph with context menu displayed." lightbox="media/vs-2022/flame-graph-tooltips.gif":::
 
 For a tutorial that shows how to improve performance using the flame graph, see [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md). For information on the CPU profiler, see [Analyze performance by using CPU profiling](../profiling/cpu-usage.md).
 
