@@ -192,7 +192,7 @@ You can of course switch back to a background thread after this call, but as an 
 
 Because Community Toolkit hides away a lot of the intricacies of VSSDK, it could give extenders a false sense of simplicity. Following the code from the previous section, if an extender did not know about the threading requirements of Visual Studio development, they might assume that their code is run from a background thread the whole time and take no issue with the fact that the call to read a file from text is synchronous. If it's on a background thread, it won't freeze the UI if the file in question is large. However, when the code is unwrapped to VSSDK, they'll realize that that's not the case. So, while the API from Community Toolkit certainly looks simpler to understand and more cohesive to write, because it's tied to VSSDK, it is subject to VSSDK limitations. The simplicities can gloss over important concepts that if extenders do not understand, it can cause more harm.  VisualStudio.Extensibility avoids the many issues caused by main-thread dependencies by focusing on the out-of-process model and async APIs as our foundation. While running out of the process would simplify threading the most, many of these benefits carry over to extensions that are run in-process as well. For example, VisualStudio.Extensibility commands are always executed on a background thread. Interacting with VSSDK APIs still requires in-depth knowledge of how threading works, but at least you won't pay the cost of accidental hangs, as in this example.
 
-## Comparison Chart
+## Comparison chart
 
 To summarize what we covered in detail in the previous section, the following table shows a quick comparison:
 
