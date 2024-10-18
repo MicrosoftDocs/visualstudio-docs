@@ -10,7 +10,7 @@ ms.subservice: extensibility-integration
 ---
 # Choose the right Visual Studio extensibility model for you
 
-You can extend Visual Studio using three main extensibility models, VSSDK, Community Toolkit, and VisualStudio.Extensibility. This article covers the pros and cons of each and shows a simple example to show the differences between the three models. We will also use a simple example to highlight the code differences between the 3 models.
+You can extend Visual Studio using three main extensibility models, VSSDK, Community Toolkit, and VisualStudio.Extensibility. This article covers the pros and cons of each and shows a simple example to show the differences between the three models. We will also use a simple example to highlight the code differences between the models.
 
 ## VSSDK
 
