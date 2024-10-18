@@ -129,7 +129,7 @@ public override CommandConfiguration CommandConfiguration => new("%VisualStudio.
 
 This code is easier to understand and follow. For the most part, you can write this extension purely through the editor with the help of IntelliSense, even for command configuration. 
 
-## Comparing the Different Visual Studio Extensibility Models
+## Comparing the different Visual Studio extensibility models
 
 From the sample above, you may notice that using VisualStudio.Extensibility, there are more lines of code than Community Toolkit in the command handler.  Community Toolkit is an excellent ease-of-use wrapper on top of building extensions with the VSSDK; however, there are pitfalls that are not immediately obvious which is what led to the development of VisualStudio.Extensiblity. To understand the transition and need, especially when it seems like the Community Toolkit also results in code that's easy to write and understand, let's review the example and compare what's happening in the deeper layers of the code.
 
