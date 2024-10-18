@@ -164,7 +164,7 @@ private void Execute(object sender, EventArgs e)
 
 There are few issues to get into here, and they all revolve around threading and async code. We'll go through each one in detail.
 
-### Async API versus Async Code Execution
+### Async API versus async code execution
 
 The first thing to note is that the `ExecuteAsync` method in Community Toolkit is a wrapped async fire and forget call in VSSDK:
 
