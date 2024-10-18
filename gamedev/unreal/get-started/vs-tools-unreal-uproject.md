@@ -17,7 +17,7 @@ Visual Studio 2022 version 17.12 provides direct support for Unreal Engine proje
 
 Previously, you had to generate a Microsoft Visual Studio project before you could work with an Unreal Engine project in Visual Studio. That process was cumbersome. And whenever a new asset was added from within the Unreal Engine Editor, or by another team member, the Visual Studio project had to be regenerated.
 
-Now, with direct support for Unreal Engine projects (`.uproject` files) in Visual Studio, you can work directly with the Unreal Engine project from within Visual Studio. This integration enables seamless editing, debugging, and project file management. Without the repetitive and time-consuming process of generating and regenerating a project file between Visual Studio and Unreal Engine.
+Now, with direct support for Unreal Engine projects (`.uproject` files), you can work directly with Unreal Engine projects from within Visual Studio. This integration enables seamless editing, debugging, and project file management. Without the repetitive and time-consuming process of generating and regenerating a Visual Studio project file.
 
 ## Prerequisites
 
@@ -27,6 +27,15 @@ The following must be installed to work with Unreal Engine projects in Visual St
 - Unreal Engine version 4.27 or version 5 and later.
 - Visual Studio Tools for Unreal Engine. See [Install Visual Studio Tools for Unreal Engine](vs-tools-unreal-install.md) for installation instructions.
 - Download the Lyra sample game. See the **Downloading the Lyra Starter Game** section at [Lyra Sample Game](https://docs.unrealengine.com/5.0/lyra-sample-game-in-unreal-engine/) for download instructions. If you acquired it via the source code installation of Unreal Engine, that version doesn't contain the assets required to build and run the game. Use the download instructions to get everything you need via the Epic installer.
+
+### If you use Unreal Engine 5.3 or earlier
+
+For version of Unreal Engine prior to 5.4, follow these steps to enable `.uproject` integration with Visual Studio. These steps work whether you installed Unreal Engine from the Epic Games Launcher or built it from source code.
+
+1. Download the patch specific to your version of Unreal Engine from the [Unreal Engine GitHub repository](https://github.com/EpicGames/UnrealEngine/tree/ue5-main/Engine/Extras/VisualStudioWorkspace)
+1. Open either a PowerShell or Command Prompt window and navigate to the root directory where Unreal Engine is installed such as `C:\Program Files\Epic Games\UE_5.3. The path may vary depending on where you installed Unreal Engine.
+1. Apply the patch with the command `git apply <path to the downloaded patch file>`, for example `git apply C:\Users\someuser\Downloads\UnrealBuiltTool-5.3.patch`.
+  That command may fail. If it does, try `git apply -v --ignore-whitespace --ignore-space-change <path to the downloaded patch file>`.
 
 ## Open a native Unreal Engine project in Visual Studio
 
@@ -71,6 +80,44 @@ If you opened the folder for the Lyra game sample project in Visual Studio, you 
 1. Once the game is running, click the mouse button to fire, and you should see the breakpoint be hit in Visual Studio:
     :::image type="content" source="../media/vs-unreal-engine-debugging.png" alt-text="A screenshot of debugging in Visual Studio. A breakpoint is hit in the OnTargetDataReadyCallback function.":::
 
+## Unreal Engine configuration page
+
+Visual Studio provides an Unreal Engine project configuration page. This page shows you the status of various Unreal Engine features and allows you to access additional features. To access this page from the Visual Studio main menu, choose **Project** > **Configure Tools for Unreal Engine**:
+
+:::image type="complex" source="../media/vs-unreal-engine-configuration-page.png" alt-text="A screenshot of the Unreal Engine project configuration page.":::
+The configuration page has a red/green status indicator and a refresh button for options such as Overall Configuration Status, Unreal Build Tool Status, Unreal Engine Targets, Blueprint Support, Visual Studio Integration Tool Status, and so on.
+:::image-end:::
+
+A description of some of these options follows:
+
+### Unreal Built Tool Status
+
+To ensure that you have the latest Unreal Build Tool (UBT), select the refresh icon for **Unreal Build Tool Status**. In this example, a message appears that Unreal Build Tool is not using the latest available version for the Workspace Generator. Choose **Update** to update the Unreal Build Tool to the latest version:
+
+:::image type="complex" source="../media/vs-unreal-engine-build-tool-status.png" alt-text="A screenshot of the Unreal Engine Build Tool Status option in the configuration page.":::
+The Unreal Build Tool Status has the message "Your current installation of Unreal Build Tool is not using the latest available version for the Workspace Generator. You can update it now to use all the available features that Visual Studio has to offer." There's a refresh button above the message.
+:::image-end:::
+
+You may see a message that a restart is required. Choose **OK** to restart.
+
+In the **Output** window, messages appear related to building the unreal engine build tool. A message that the Workspace is ready will appear, after which you can start adding and editing files.
+
+### Unreal Engine Targets
+
+When you build an Unreal Engine project, there are different build configurations, called *targets*, that you can choose from. The **Unreal Engine Targets** option allows you generate those targets. Choose the refresh icon to load all available Unreal Engine targets:
+
+:::image type="complex" source="../media/vs-unreal-engine-targets.png" alt-text="A screenshot of the Unreal Engine Build Targets option in the configuration page.":::
+The Unreal Build Targets option displays the message: Need to run status check. There's a refresh button above the message.
+:::image-end:::
+
+Choosing refresh opens a window where you can select the target configurations you want to create:
+
+:::image type="complex" source="../media/vs-unreal-engine-targets-configuration.png" alt-text="A screenshot of the Unreal Engine Build Targets combinations window.":::
+There are three configuration option dropdowns and an Add button. Below are the combinations you have chosen and a Generate Targets button.
+:::image-end:::
+
+For more information about the target combinations that you can choose, see Unreal Engine's documentation for [Build Configuration Descriptions](https://dev.epicgames.com/documentation/en-us/unreal-engine/build-configurations-reference-for-unreal-engine?application_version=5.4)  In this example, LyraClient, DebugGame, and Win64 are selected in the dropdowns. Choose **Add** to add them to the list of configurations to generate. Choose **Generate Targets** to create the selected configurations for each configuration that has its checkbox selected.
+
 ## Edit target properties
 
 To edit Unreal Engine target properties, right-click on the bolded target file in the Solution Explorer and choose **Edit Unreal Engine target properties**. For example, if `LyraEditor.Target.cs` is the startup project (in which case it is bolded in the Solution Explorer), right-click on it and choose **Edit this Unreal Engine target properties**. This opens the `UETargetProperties.json` file in the editor. You can then change target properties such as command-line arguments, and so on.
@@ -87,14 +134,65 @@ To edit the Unreal Engine project settings, right-click on the `.uproject` file 
 A menu appears and at the bottom is the option to edit the Unreal Engine project settings. Selecting this option opens the `.uproject` file in the editor.
 :::image-end:::
 
+## Choose the build configuration
+
+To change the build configuration, choose the Configuration drop-down and select the configuration you want to build.
+
+:::image type="complex" source="../media/vs-unreal-engine-configuration-dropdown.png" alt-text="A screenshot of the configuration dropdown.":::
+The configuration dropdown menu contains the items: DebuGame - Win64 and Development - Win64.
+:::image-end:::
+
+If the target you want to build isn't in the list, you can add it by choosing **Project** > **Configure Tools for Unreal Engine** > **Unreal Engine Targets** as described in [Unreal Engine Targets](#unreal-engine-targets).
+
 ## Common issues and solutions
 
-- Your engine and game code must be on the same drive.
+- Your engine and game code must be on the same drive. If they aren't, see []().
 - Folders with multiple `.uproject` files in the same folder aren't supported. To open a specific `.uproject` file when there are multiple project files in the same folder, use **File** > **Open** > **Unreal Engine project**.
 - If you open an Unreal Engine project via **File** > **Open** > **Unreal Engine project**, the project won't appear in Visual Studio's **File** > **Recent Projects and Solutions** list. If you open the Unreal Engine project via **File** > **Open Folder**, then the opened Unreal Engine project appears in the recently opened projects list.
 - Some extensions may not work with a project opened as an Unreal Engine project.
 - The property window is empty for source files. This is currently by design.
 - There's a solution file in the folder view. Unreal Engine generates this file. It isn't used by Visual Studio and you can ignore it.
+
+### Game source and engine source are on different drives
+
+If your Unreal Engine source code and game source code are on different drives, an error appears when you open your game code project. For example: if you have a game project located at `C:\Users\MyUser\MyGame` then the Unreal Engine must be located somewhere on the `C:\` drive; otherwise `.uproject` support in Visual Studio isn't available.
+
+:::image type="content" source="../media/vs-same-drive-error.png" alt-text="A screenshot of the multi-drive error window.":::
+
+We recommend one of the following solutions.
+
+### Move the game source and engine source to the same drive
+
+The most straight-forward solution is to move the game project to the same logical drive where the Unreal Engine resides using the `Windows File Explorer`.
+
+If you are moving the Unreal Engine source and you installed it via the `Epic Games Launcher`, uninstall and reinstall the engine to the same drive as the game. This also updates engine configuration files.
+
+After you move them to same drive, you can open the `.uproject` in Visual Studio.
+
+### Create a symbolic link to the Unreal Engine and changing the `EngineAssociation` in `.uproject`
+
+If moving the engine source and game source to the same drive isn't feasible, you can create a symbolic link to the Unreal Engine and change the `EngineAssociation` property in the `.uproject` file.
+
+For this example, assume that the Unreal Engine is located at `C:\UE_5.4` and your game is at `Q:\src\Game`.
+
+1. Open a command prompt (not a PowerShell) window.
+1. Navigate to the drive your game source is on. For example, `cd /d Q:\`.
+1. Create a symlink for the Unreal Engine. The `mklink` command takes a link parameter that specifies the symbolic link name which is how the location for your directory will look to the file system. The target parameter is what you are linking to. For example, `mklink /d "Q:\UE-Link" "C:\UE_5.4"` creates a symbolic link named `q:\UE-Link` that points to the Unreal Engine directory.
+1. Open your game's `.uproject` file and set the `EngineAssociation` property to the symlink folder that you created. For example, `"EngineAssociation": "Q:\\UE-Link"`.
+
+Now you can open the `.uproject` in Visual Studio.
+
+### Create a symbolic link to Unreal Engine and change configuration files
+
+This solution is more fragile because it changes configuration files that may get reverted when doing an update.
+
+For this example, assume that the Unreal Engine is located at `C:\UE_5.4` and your game is at `Q:\src\Game`
+
+1. Open a command prompt (not a PowerShell) window.
+1. Navigate to the drive your game source is on. For example, `cd /d Q:\`.
+1. Create a symlink for the Unreal Engine. The `mklink` command takes a link parameter that specifies the symbolic link name which is how the location for your directory will look to the file system. The target parameter is what you are linking to. For example, `mklink /d "Q:\UE-Link" "C:\UE_5.4"` creates a symbolic link named `q:\UE-Link` that points to the Unreal Engine directory.
+
+The following steps differ depending on which engine type you have. Please follow the tutorial accordingly.
 
 ## Related content
 
