@@ -223,7 +223,7 @@ To help you apply the comparison to your Visual Studio extensibility needs, here
       - VSSDK-CommonCode (this is the common library which is used to call Visual Studio APIs through VSSDK. Both of your VSIX projects can reference this library to share code.)
       - MyExtension-BusinessLogic (this is the common library which contains all the code that's pertinent to your extension's business logic. Both of your VSIX projects can reference this library to share code.)
 
-## Next Steps
+## Next steps
 
 Our recommendation is that extenders start with VisualStudio.Extensibility when creating new extensions or enhancing existing ones, and use VSSDK or the Community Toolkit if you run into unsupported scenarios. To get started, with VisualStudio.Extensibility, browse through the documentation presented in this section. You can also reference the VSExtensibility GitHub [repo](https://github.com/microsoft/VSExtensibility) for [samples](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples) or to file [issues](https://github.com/microsoft/VSExtensibility/issues).
 
