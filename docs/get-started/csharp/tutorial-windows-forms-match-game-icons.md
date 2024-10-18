@@ -135,7 +135,7 @@ This code uses the keyword `foreach` in C# or `For Each` in Visual Basic.
 
    The icons are visible now because you haven't hidden them. To hide them from the player, you can set each label's **ForeColor** property to the same color as its **BackColor** property.
 
-1. Stop the program. Remove the comment marks for the commented line of code inside the loop in the `AssignIconsToSquares()` method
+1. Stop the program. Remove the comment marks for the commented line of code inside the loop in the `AssignIconsToSquares()` method.
 
    ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet15":::
