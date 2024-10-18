@@ -47,8 +47,6 @@ They keep track of, or refer to Label objects.
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step5/vb/form1.vb" id="Snippet5":::
    ---
 
-   [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
-
    These statements don't cause Label controls to appear on the form because there's no `new` keyword.
    When the program starts, both `firstClicked` and `secondClicked` are set to `null` for C# or `Nothing` for Visual Basic.
 
