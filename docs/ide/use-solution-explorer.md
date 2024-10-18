@@ -1,7 +1,7 @@
 ---
 title: Learn about Solution Explorer
 description: Use Solution Explorer in Visual Studio and review the context menu options to manage the projects and files in a solution.
-ms.date: 10/04/2024
+ms.date: 10/18/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - solution explorer [Visual Studio]
@@ -38,6 +38,8 @@ The following table is a text-equivalent of the annotated screenshot, but with a
 |**Dependencies** node | Manage your solution & project dependencies |
 |**Program** node |  View, edit, and manage your program or application (app) |
 |[**Git Changes** tab](../version-control/git-with-visual-studio.md) |  Use Git & GitHub within Visual Studio to collaborate on projects with your team |
+
+To view more of the application images and icons that appear in Visual Studio, download the [Visual Studio Image Library](https://www.microsoft.com/download/details.aspx?id=35825).
 
 ### Solution Explorer toolbar
 
@@ -168,3 +170,4 @@ You can use the **New Solution Explorer View** to add a new scoped Solution Expl
 - [What are solutions and projects in Visual Studio?](solutions-and-projects-in-visual-studio.md)
 - [What is the .NET Project Designer?](reference/project-properties-reference.md)
 - [Customize window layouts and personalize tabs in Visual Studio](customizing-window-layouts-in-visual-studio.md)
+- [Visual Studio Image Library](https://www.microsoft.com/download/details.aspx?id=35825)
