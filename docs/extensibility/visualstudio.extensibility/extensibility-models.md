@@ -117,7 +117,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 }
 ```
 
-To configure the command for placement, text, and so on, you no longer need to provide a VSCT file. Instead, it is done through code:
+To configure the command for placement, text, and so on, you no longer need to provide a `.vsct` file. Instead, it is done through code:
 
 ``` csharp
 public override CommandConfiguration CommandConfiguration => new("%VisualStudio.Extensibility.Command1.DisplayName%")
