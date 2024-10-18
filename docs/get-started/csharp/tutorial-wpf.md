@@ -2,8 +2,7 @@
 title: "Hello World app with WPF in C#"
 description: Create a simple Windows Desktop .NET application in C# with Visual Studio by using the Windows Presentation Foundation (WPF) UI framework.
 ms.custom: vs-acquisition
-ms.date: 11/17/2023
-
+ms.date: 10/18/2024
 ms.subservice: general-ide
 ms.topic: tutorial
 dev_langs:
@@ -160,7 +159,7 @@ We add three types of controls to this application: a <xref:System.Windows.Contr
 
 ### Customize the text in the text block
 
-1. In the XAML view, locate the markup for **TextBlock** and change the **Text** attribute from `TextBox` to `Select a message option and then choose the Display button.`
+1. In the XAML view, locate the markup for **TextBlock** and change the **Text** attribute from `TextBlock` to `Select a message option and then choose the Display button.`
 
    The XAML markup should look something like the following example:
 
