@@ -41,13 +41,21 @@ The Flame Graph view is in the details view of *.diagession* report.
 
    By default, the data shown in the Flame Graph represents the same data as shown in the **Call tree** view for the data collection period. Specifically, for CPU Usage, it shows the **Total CPU** values. This value is inclusive, so it includes CPU utilization (that is, CPU computation time) used by calls to the function, and any other functions called by the function. In the same way, for Instrumentation, the graph shows the values equivalent to the **Total** column in the call tree view.
 
-   However, if you select a node, the selected node becomes the new baseline and uses 100% of the flame graph width. This allows you to better visualize a complex call tree and view long names when they're truncated. Choose **Reset Zoom** to return to the default view.
+   However, if you select a node, the selected node becomes the new baseline and uses 100% of the flame graph width. This allows you to better visualize a complex call tree and view long names when they're truncated or hidden. Here is an example of a flame graph that shows a more complex call tree.
+
+   :::image type="content" source="./media/vs-2022/flame-graph-complex-call-tree.gif" alt-text="Screenshot showing Flame Graph with context menu displayed." lightbox="media/vs-2022/flame-graph-complex-call-tree.gif":::
+
+   To view details about any node, select the node.
+
+   :::image type="content" source="./media/vs-2022/flame-graph-select-node.gif" alt-text="Screenshot showing Flame Graph with context menu displayed." lightbox="media/vs-2022/flame-graph-select-node.gif":::
+
+   Choose **Reset Zoom** to return to the default view. 
 
    You can also navigate to different views in the profiling report by selecting a node, and then choosing an option such as **View in call tree** from the context menu.
 
 ## Flip the Flame Graph
 
-By default, the flame graph in the tool is shown upside down or as an "icicle chart," where the y-axis is counting stack depth downwards from zero at the top. 
+By default, the flame graph in the tool is shown upside down or as an *icicle chart*, where the y-axis is counting stack depth downwards from zero at the top. 
 
 You can view a standard flame chart layout by clicking **Flip Flame Graph**.
 
