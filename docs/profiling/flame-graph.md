@@ -43,11 +43,11 @@ The Flame Graph view is in the details view of *.diagession* report.
 
    However, if you select a node, the selected node becomes the new baseline and uses 100% of the flame graph width. This allows you to better visualize a complex call tree and view long names when they're truncated or hidden. Here is an example of a flame graph that shows a more complex call tree.
 
-   :::image type="content" source="./media/vs-2022/flame-graph-complex-call-tree.gif" alt-text="Screenshot showing Flame Graph with context menu displayed." lightbox="media/vs-2022/flame-graph-complex-call-tree.gif":::
+   :::image type="content" source="./media/vs-2022/flame-graph-complex-call-tree.gif" alt-text="Screenshot showing Flame Graph for a complex call tree." lightbox="media/vs-2022/flame-graph-complex-call-tree.gif":::
 
    To view details about any node, select the node.
 
-   :::image type="content" source="./media/vs-2022/flame-graph-select-node.gif" alt-text="Screenshot showing Flame Graph with context menu displayed." lightbox="media/vs-2022/flame-graph-select-node.gif":::
+   :::image type="content" source="./media/vs-2022/flame-graph-select-node.gif" alt-text="Screenshot showing Flame Graph when selecting a node." lightbox="media/vs-2022/flame-graph-select-node.gif":::
 
    Choose **Reset Zoom** to return to the default view. 
 
