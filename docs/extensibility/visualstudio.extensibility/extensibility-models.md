@@ -75,7 +75,7 @@ In addition, you would also need to provide a .vsct file, which defines the comm
 </Commands>
   ```
 
-As you can see in the sample, the code may seem unintuitive and is unlikely for someone familiar with .NET to pick up easily. There are many concepts to learn and the API patterns to access the active editor text are antiquated. For most extenders, VSSDK extensions are constructed from copying and pasting from online sources, which can lead to difficult debugging sessions, trial and error, and frustration. In many cases, VSSDK extensions may not be the easiest way to achieve the extension goals (though sometimes they're the only choice).
+As you can see in the sample, the code may seem unintuitive and is unlikely for someone familiar with .NET to pick up easily. There are many concepts to learn and the API patterns to access the active editor text are antiquated. For most extenders, VSSDK extensions are constructed from copying and pasting from online sources, which can lead to difficult debugging sessions, trial and error, and frustration. In many cases, VSSDK extensions may not be the easiest way to achieve the extension goals (though sometimes, they're the only choice).
 
 ## Community Toolkit
 
