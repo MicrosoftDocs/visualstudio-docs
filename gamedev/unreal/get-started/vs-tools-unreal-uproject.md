@@ -33,7 +33,7 @@ The following must be installed to work with Unreal Engine projects in Visual St
 For versions of Unreal Engine before 5.4, follow these steps to enable `.uproject` integration with Visual Studio. These steps work whether you installed Unreal Engine from the Epic Games Launcher or built it from source code.
 
 1. Download the patch specific to your version of Unreal Engine from [Unreal Engine GitHub repository](https://github.com/EpicGames/UnrealEngine/tree/ue5-main/Engine/Extras/VisualStudioWorkspace)
-1. Open either a PowerShell or command prompt window and navigate to the root directory where Unreal Engine is installed. For example, `C:\Program Files\Epic Games\UE_5.3`.
+1. Open either a PowerShell or command prompt window and navigate to the root directory where Unreal Engine is installed. You'll need admin elevation to apply the patch if Unreal Engine is installed in a protected directory like `C:\Program Files\Epic Games\UE_5.3`.
 1. Apply the patch with the command `git apply <path to the downloaded patch file>`. For example `git apply C:\Users\someuser\Downloads\UnrealBuiltTool-5.3.patch`.
   If that fails, try `git apply -v --ignore-whitespace --ignore-space-change <path to the downloaded patch file>`.
 
@@ -104,7 +104,7 @@ In the **Output** window, messages appear related to building the Unreal Engine 
 
 ### Unreal Engine Targets
 
-When you build an Unreal Engine project, there are different build configurations, called *targets*, to choose from. The **Unreal Engine Targets** option is where you generate those targets. Choose the refresh icon to load all available Unreal Engine targets:
+When you build an Unreal Engine project, there are different build configurations, called *targets*, you can choose. The **Unreal Engine Targets** option is where you generate those targets. Choose the refresh icon to load all available Unreal Engine targets:
 
 :::image type="complex" source="../media/vs-unreal-engine-targets.png" alt-text="A screenshot of the Unreal Engine Build Targets option in the configuration page.":::
 The Unreal Build Targets option displays the message: Need to run status check. There's a refresh button above the message.
@@ -121,6 +121,8 @@ For more information about the target combinations that you can choose, see Unre
 In this example, **LyraClient**, **DebugGame**, and **Win64** are selected in the dropdowns. Choose **Add** to add them to the list of configurations to generate. Then choose **Generate Targets** to create the selected configurations for each configuration that has its checkbox selected.
 
 Once the targets are generated, you can select them as described in [Choose the build configuration](#choose-the-build-configuration).
+
+You can remove targets by unchecking the targets you don't want and selecting the **Generate Targets** button. When you select **Generate Targets**, all targets targets that aren't selected are removed immediately. The unchecked targets will disappear from the list the next time you reload the project. Watch for errors in the output window when you generate targets because some combinations you choose may not be supported.
 
 ## Edit target properties
 
@@ -195,10 +197,6 @@ For this example, assume that the Unreal Engine is located at `C:\UE_5.4` and yo
 1. Open a command prompt (not a PowerShell) window.
 1. Navigate to the drive your game source is on. For example, `cd /d Q:\`.
 1. Create a symlink for the Unreal Engine. The `mklink` command takes a link parameter that specifies the symbolic link name which is how the location for your directory appears to the file system. The target parameter is what you're linking to. For example, `mklink /d "Q:\UE-Link" "C:\UE_5.4"` creates a symbolic link named `q:\UE-Link` that points to the Unreal Engine directory.
-
-The following steps differ depending on which engine type you have. Please follow the tutorial accordingly.
-
-> Content missing from the read.md I was working from. Add here when I get it.
 
 ## Related content
 
