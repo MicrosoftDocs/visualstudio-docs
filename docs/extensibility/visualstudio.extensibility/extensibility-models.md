@@ -41,7 +41,7 @@ private void Execute(object sender, EventArgs e)
 }
 ```
 
-In addition, you would also need to provide a .vsct file, which defines the command configuration, like where to place it in the UI, the text associated, and so on:
+In addition, you would also need to provide a `.vsct` file, which defines the command configuration, like where to place it in the UI, the text associated, and so on:
 
 ``` xml
 <Commands package="guidVSSDKPackage">
