@@ -45,13 +45,13 @@ The Flame Graph view is in the details view of *.diagession* report.
 
    :::image type="content" source="./media/vs-2022/flame-graph-complex-call-tree.gif" alt-text="Screenshot showing Flame Graph for a complex call tree." lightbox="media/vs-2022/flame-graph-complex-call-tree.gif":::
 
-   To view details about any node, select the node. The following illustration shows the selection of a node. The selected node becomes the new baseline at the top of the call tree.
-
-   :::image type="content" source="./media/vs-2022/flame-graph-select-node.gif" alt-text="Screenshot showing Flame Graph when selecting a node." lightbox="media/vs-2022/flame-graph-select-node.gif":::
+   To view details about any node, select the node. 
 
    Choose **Reset Zoom** to return to the default view. 
 
    You can also navigate to different views in the profiling report by selecting a node, and then choosing an option such as **View in call tree** from the context menu.
+
+   :::image type="content" source="./media/vs-2022/flame-graph-view-in-call-tree.gif" alt-text="Screenshot showing Flame Graph option to view in call tree." lightbox="media/vs-2022/flame-graph-view-in-call-tree.gif":::
 
 ## Flip the Flame Graph
 
