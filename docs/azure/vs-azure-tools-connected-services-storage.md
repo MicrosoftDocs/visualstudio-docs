@@ -98,7 +98,7 @@ The connected service functionality adds all the needed references and connectio
 
     If you need to create a storage account, go to the next step. Otherwise, skip to the following step.
 
-    ![Screenshot showing adding an existing storage account to project.](./media/vs-2022/connect-to-azure-storage.png)
+    ![Screenshot showing adding an existing storage account to project.](./media/vs-2022/connect-to-azure-storage-dark.png)
 
 1. To create a storage account:
 
