@@ -51,7 +51,7 @@ The Flame Graph view is in the details view of *.diagession* report.
 
    You can also navigate to different views in the profiling report by selecting a node, and then choosing an option such as **View in call tree** from the context menu.
 
-   :::image type="content" source="./media/vs-2022/flame-graph-view-in-call-tree.gif" alt-text="Screenshot showing Flame Graph option to view in call tree." lightbox="media/vs-2022/flame-graph-view-in-call-tree.gif":::
+   :::image type="content" source="./media/vs-2022/flame-graph-view-in-call-tree.png" alt-text="Screenshot showing Flame Graph option to view in call tree." lightbox="media/vs-2022/flame-graph-view-in-call-tree.png":::
 
 ## Flip the Flame Graph
 
