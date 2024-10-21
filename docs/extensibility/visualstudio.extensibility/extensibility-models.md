@@ -91,7 +91,7 @@ protected override async Task ExecuteAsync(OleMenuCmdEventArgs e)
 }
 ```
 
-The resulting code is much improved from VSSDK in terms of simplicity and intuitiveness! Not only did we decrease the number of lines significantly, but the resulting code looks reasonable as well. There's no need to understand what the difference is between `SVsTextManager` and `IVsTextManager`. The APIs look and feel more .NET-friendly, embracing common naming and async patterns, along with prioritization of common operations. However, Community Toolkit is still built on the existing VSSDK model and so, vestiges of the underlying structure bleed through. For example, a `.vsct` file is still necessary. While Community Toolkit does a great job of simplifying the APIs, it's bound the limitations of VSSDK and doesn't have a way to make extension configuration simpler.
+The resulting code is much improved from VSSDK in terms of simplicity and intuitiveness! Not only did we decrease the number of lines significantly, but the resulting code looks reasonable as well. There's no need to understand what the difference is between `SVsTextManager` and `IVsTextManager`. The APIs look and feel more .NET-friendly, embracing common naming and async patterns, along with prioritization of common operations. However, Community Toolkit is still built on the existing VSSDK model and so, vestiges of the underlying structure bleed through. For example, a `.vsct` file is still necessary. While Community Toolkit does a great job of simplifying the APIs, it's bound to the limitations of VSSDK and doesn't have a way to make extension configuration simpler.
 
 ## VisualStudio.Extensibility
 
