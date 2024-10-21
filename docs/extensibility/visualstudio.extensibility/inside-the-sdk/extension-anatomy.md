@@ -39,7 +39,7 @@ public class MarkdownLinterExtension : Extension
     ...
 ```
 
-For extension developers who are familiar with the existing VS SDK APIs, the `Metadata` contained in [`ExtensionConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.extensionconfiguration) is used to generate the [`.vsixmanifest`](/visualstudio/extensibility/anatomy-of-a-vsix-package#the-vsix-manifest) file. Also, the [`Extension`](/dotnet/api/microsoft.visualstudio.extensibility.extension) class is similar to the [`AsyncPackage`](/dotnet/api/microsoft.visualstudio.shell.asyncpackage) class that is used in the VS SDK extensibility model.
+For extension developers who are familiar with the existing VSSDK APIs, the `Metadata` contained in [`ExtensionConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.extensionconfiguration) is used to generate the [`.vsixmanifest`](/visualstudio/extensibility/anatomy-of-a-vsix-package#the-vsix-manifest) file. Also, the [`Extension`](/dotnet/api/microsoft.visualstudio.extensibility.extension) class is similar to the [`AsyncPackage`](/dotnet/api/microsoft.visualstudio.shell.asyncpackage) class that is used in the VSSDK extensibility model.
 
 ## VisualStudioExtensibility object
 

@@ -36,7 +36,7 @@ When the VSIX project builds, it automatically deploys itself to the Experimenta
 :::image type="content" source="../media/deploy-vsix-experimental-instance.png" alt-text="VSIX project properties.":::
 
 ## Experimental instance
-To safeguard your Visual Studio development environment from untested applications that might change it, the VS SDK provides an experimental space that you can use to experiment. You develop new applications by using Visual Studio as usual, but you run them by using this Experimental Instance.
+To safeguard your Visual Studio development environment from untested applications that might change it, the VSSDK provides an experimental space that you can use to experiment. You develop new applications by using Visual Studio as usual, but you run them by using this Experimental Instance.
 
 Every application that has a VSIX package launches the Visual Studio experimental instance in debug mode.
 
