@@ -166,7 +166,7 @@ There are few issues to get into here, and they all revolve around threading and
 
 ### Async API versus async code execution
 
-The first thing to note is that the `ExecuteAsync` method in Community Toolkit is a wrapped async fire and forget call in VSSDK:
+The first thing to note is that the `ExecuteAsync` method in Community Toolkit is a wrapped async fire-and-forget call in VSSDK:
 
 ``` csharp
 package.JoinableTaskFactory.RunAsync(async delegate
