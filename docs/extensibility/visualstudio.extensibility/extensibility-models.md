@@ -79,7 +79,7 @@ As you can see in the sample, the code may seem unintuitive and is unlikely for 
 
 ## Community Toolkit
 
-[Community Toolkit](/visualstudio/extensibility/vsix/visual-studio-community-toolkit) is the open source, community-based extensibility model for Visual Studio that wraps the VSSDK for an easier development experience. Because it's VSSDK based, it's subject to the same limitations as VSSDK (that is, .NET Framework only, no isolation from the rest of Visual Studio, and so on). Continuing with the same example of writing an extension that inserts the text read from filesystem, using Community Toolkit, the extension would be written as follows for command handler:
+[Community Toolkit](/visualstudio/extensibility/vsix/visual-studio-community-toolkit) is the open source, community-based extensibility model for Visual Studio that wraps the VSSDK for an easier development experience. Because it's based on the VSSDK, it's subject to the same limitations as VSSDK (that is, .NET Framework only, no isolation from the rest of Visual Studio, and so on). Continuing with the same example of writing an extension that inserts the text read from filesystem, using Community Toolkit, the extension would be written as follows for a command handler:
 
 ``` csharp
 protected override async Task ExecuteAsync(OleMenuCmdEventArgs e)
