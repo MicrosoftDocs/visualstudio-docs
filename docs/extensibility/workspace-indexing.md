@@ -52,7 +52,7 @@ Workspace indexing roughly follows the following sequence:
 1. Per file, the matching provider with the highest priority is asked to scan for `SymbolDefinition`s.
 1. Per file, all providers are asked for `FileDataValue`s.
 
-Extensions can export a scanner by implementing `IWorkspaceProviderFactory<IFileScanner>` and exporting the type with <xref:Microsoft.VisualStudio.Workspace.Indexing.ExportFileScannerAttribute>. The `SupportedTypes` attribute argument should be one or more values from <xref:Microsoft.VisualStudio.Workspace.Indexing.FileScannerTypeConstants>. For an example scanner, see the VS SDK [sample](https://github.com/Microsoft/VSSDK-Extensibility-Samples/blob/master/Open_Folder_Extensibility/C%23/SymbolScannerSample/TxtFileSymbolScanner.cs).
+Extensions can export a scanner by implementing `IWorkspaceProviderFactory<IFileScanner>` and exporting the type with <xref:Microsoft.VisualStudio.Workspace.Indexing.ExportFileScannerAttribute>. The `SupportedTypes` attribute argument should be one or more values from <xref:Microsoft.VisualStudio.Workspace.Indexing.FileScannerTypeConstants>. For an example scanner, see the VSSDK [sample](https://github.com/Microsoft/VSSDK-Extensibility-Samples/blob/master/Open_Folder_Extensibility/C%23/SymbolScannerSample/TxtFileSymbolScanner.cs).
 
 > [!WARNING]
 > Do not export a file scanner that supports the `FileScannerTypeConstants.FileScannerContentType` type. It is used for Microsoft internal purposes, only.

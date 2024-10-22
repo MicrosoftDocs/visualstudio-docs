@@ -16,7 +16,7 @@ ms.subservice: extensibility-integration
 
 # Visual Studio SDK analyzer error VsixCompatibility1001
 
-The extension is incompatible with the targeted version of Visual Studio because of referencing the incompatible VS SDK version.
+The extension is incompatible with the targeted version of Visual Studio because of referencing the incompatible VSSDK version.
 
 The following conditions generate VsixCompatibility1001:
 
