@@ -2,7 +2,7 @@
 title: "Tutorial 2: Extend your C# console app"
 description: Extend a C# console application in Visual Studio, including debugging features, managing multiple projects, and referencing third-party packages.
 ms.custom: vs-acquisition
-ms.date: 09/05/2024
+ms.date: 10/18/2024
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.devlang: csharp
@@ -232,14 +232,10 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
    using CalculatorLibrary;
    ```
 
-   Adding the `using` directive should let you remove the `CalculatorLibrary` namespace from the call site, but now there's an ambiguity. Is `Calculator` the class in `CalculatorLibrary`, or is `Calculator` the namespace?
-   
-   To resolve the ambiguity, rename the namespace from `Calculator` to `CalculatorProgram` in *Program.cs*.
+   Adding the `using` directive should let you remove the `CalculatorLibrary` namespace from the call site.
 
-   ```csharp
-   // Program.cs
-   namespace CalculatorProgram
-   ```
+   If your `Program.cs` code is in the `Calculator` namespace, rename the namespace from `Calculator` to `CalculatorProgram` to remove ambiguity between class name and namespace name.
+    
 ::: moniker-end
 
 ## Reference .NET libraries: Write to a log
