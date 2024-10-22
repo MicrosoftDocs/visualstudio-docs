@@ -1,6 +1,6 @@
 ---
 title: 'Set multiple startup projects'
-description: Discover the Visual Studio process that allows you to specify how more than one project is run when you start the debugger.
+description: Discover the Visual Studio process that allows you to specify how more than one project is run when you start the debugger, and create launch profiles you can share with others.
 ms.date: 10/21/2024
 ms.topic: how-to
 helpviewer_keywords:
@@ -42,8 +42,6 @@ Multi-project launch profiles are available in Visual Studio 2022 17.11 and late
 
 1. Open your Visual Studio solution that contains multiple projects.
 1. In Solution Explorer, right-click on your solution, and select **Configure Startup Projects...**.
-
-   :::image type="content" source="media/launch-multiple-projects/configure-startup-projects-menu-item.jpg" alt-text="Screenshot showing the Configure startup projects menu item." border="true":::
 
    You can also press **Ctrl**+**Q** (Quick Launch) and search for "Configure startup projects" in Feature Search.
 
