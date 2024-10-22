@@ -16,7 +16,7 @@ monikerRange: '>= vs-2022'
 With the release of Visual Studio 2022 version 17.5, you can use the new dynamic Instrumentation tool. This tool shows the exact number of times your functions are called and is faster than the previous version of the Instrumentation tool. This tool supports .NET Core instrumentation without needing PDBs.
 Starting in Visual Studio 2022 version 17.6 Preview 2, the tool also supports C/C++.
 
-The tool is similar to the CPU Usage tool except it's based on wall clock time instead of CPU utilization. This means blocked time such as time spent waiting for locks will show up in the instrumentation trace, unlike the CPU Usage tool. For additional information on learning to use the Instrumentation tool effectively, see [Instrumentation Overview](../profiling/instrumentation-overview.md) and [Improving Visual Studio performance with the new Instrumentation Tool](https://devblogs.microsoft.com/visualstudio/improving-visual-studio-performance-with-the-new-instrumentation-tool/).
+The tool is similar to the CPU Usage tool except it's based on wall clock time instead of CPU utilization. This means blocked time such as time spent waiting for locks will show up in the instrumentation trace, unlike the CPU Usage tool. For additional information on learning to use the Instrumentation tool effectively, see [Instrumentation Overview](../profiling/instrumentation-overview.md) and [Case study: Isolate a performance issue](../profiling/isolate-performance-issue.md).
 
 ## Instrument your application
 
@@ -102,4 +102,5 @@ Here is more information on the column values:
 ## Related content
 
 - [Instrumentation](../profiling/instrumentation.md)
+- [Improving Visual Studio performance with the new Instrumentation Tool](https://devblogs.microsoft.com/visualstudio/improving-visual-studio-performance-with-the-new-instrumentation-tool/)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)
