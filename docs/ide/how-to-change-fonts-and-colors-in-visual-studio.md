@@ -139,9 +139,9 @@ You can change the font and text size for all the IDE frame and tool windows, or
 
 With Visual Studio 2002 version 17.12, you can now preserve your font and font size preferences across theme changes. This functionality is enabled by default. When you switch themes in Visual Studio, your custom font face and size settings remain unchanged, while the font color updates with the new theme.
 
-If you prefer to have font selections change with the theme, select **Tools** > **Manage Preview Features** and uncheck **Separate font settings from color theme selection**. 
+If you prefer to have font selections change with the theme, select **Tools** > **Manage Preview Features** and uncheck **Separate font settings from color themes selection (requires restart)**. 
 
-:::image type="content" source="media/vs-2022/preserve-font-settings-across-themes.png" alt-text="Screenshot of the Tools dialog showing the setting that enables preserving font settings across themes.":::
+:::image type="content" source="media/vs-2022/preserve-font-settings-across-themes.png" alt-text="Screenshot of the setting that enables preserving font settings across themes.":::
 
 ::: moniker-end
 
