@@ -35,7 +35,7 @@ While the VisualStudio.Extensibility model was created primarily to host extensi
 
 ### Create the extension project
 
-* Use the *VisualStudio.Extensibility Extension with VS SDK Compatibility* template to create a new solution.
+* Use the *VisualStudio.Extensibility Extension with VSSDK Compatibility* template to create a new solution.
 
 ![Screenshot of the VisualStudio.Extensibility in-process extension project template.](./media/in-proc-project-template.png)
 
@@ -85,7 +85,7 @@ The following example shows how the `DTE2` and `IBufferTagAggregatorFactoryServi
 
 ## Anatomy of a VSSDK-compatible VisualStudio.Extensibility extension
 
-While using the *VisualStudio.Extensibility Extension with VS SDK Compatibility* template takes care of setting up the entire project, it's useful to know what are the basic components of a VS-SDK-compatible VisualStudio.Extensibility extension and how it differs from the common variant described in the ["create your first extension" guide](create-your-first-extension.md).
+While using the *VisualStudio.Extensibility Extension with VSSDK Compatibility* template takes care of setting up the entire project, it's useful to know what are the basic components of a VS-SDK-compatible VisualStudio.Extensibility extension and how it differs from the common variant described in the ["create your first extension" guide](create-your-first-extension.md).
 
 ### TargetFramework and VssdkCompatibleExtension
 

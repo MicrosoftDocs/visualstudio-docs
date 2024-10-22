@@ -10,6 +10,8 @@ items:
     href: ./get-started/oop-extensibility-model-overview.md
   - name: In-process extensions
     href: ./get-started/in-proc-extensions.md
+  - name: Compare extensibility models
+    href: extensibility-models.md
 - name: Get started
   expanded: true
   items:

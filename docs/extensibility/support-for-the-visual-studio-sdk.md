@@ -31,7 +31,7 @@ Several support options are available for customers who have questions about how
 
 ### Visual Studio SDK Samples
 
-You can find open source examples of VS SDK extensions on GitHub at [Visual Studio Samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples). This GitHub repository contains samples that illustrate various extensible features in Visual Studio.
+You can find open source examples of VSSDK extensions on GitHub at [Visual Studio Samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples). This GitHub repository contains samples that illustrate various extensible features in Visual Studio.
 
 ## Included Support
 
