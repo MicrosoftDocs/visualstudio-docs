@@ -1,6 +1,6 @@
 ---
 title: APIs removed in Visual Studio 2022
-description: Learn about VS SDK APIs removed in Visual Studio 2022, for extension authors updating their extensions to work with Visual Studio 2022.
+description: Learn about VSSDK APIs removed in Visual Studio 2022, for extension authors updating their extensions to work with Visual Studio 2022.
 ms.date: 06/08/2021
 ms.topic: reference
 author: maiak
