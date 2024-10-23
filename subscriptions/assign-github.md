@@ -60,9 +60,12 @@ For those subscribers that renewed from regular Visual Studio subscriptions to V
    > [!div class="mx-imgBorder"]
    > ![Fly out panel](_img/assign-github/fly-out.png "Screenshot of the dialog showing the current and suggested subscriber allocations. Move subscriptions is selected in the drop down menu.")
 
-You can review the impacted subscribers and specify whether you would like to notify them to receive an email notification after the move is complete. This email informs subscribers that their benefits remain unchanged and encourages them to begin setting up a presence in GitHub. 
+You can review the impacted subscribers and specify whether you would like to notify them to receive an email notification after the move is complete. This email informs subscribers that their benefits remain unchanged and encourage them to begin setting up a presence in GitHub. 
 
 Selecting the **Move subscribers** button allows you to move all recommended subscribers or choose individuals from a list. After you confirm your selections, it takes a few seconds for the subscription moves to complete. If applicable, perform these steps for Professional and Enterprise separately. 
+
+> [!NOTE]
+> If you need to update a single subscriber currently assigned through a Microsoft Entra group, see our article about [Editing Visual Studio subscription assignments](https://learn.microsoft.com/en-us/visualstudio/subscriptions/edit-license]). 
 
 ## Invite subscribers to your organization
 
@@ -92,7 +95,7 @@ If you have questions, contact your GitHub or Microsoft account manager. You can
 + Find answers to questions on a wide array of GitHub articles at [GitHub Help](https://help.github.com/en).
 + Get help from other GitHub users in the [GitHub Community Forum](https://github.community/).
 + For assistance with administration of Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vsadminhelp).
-+ Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services? Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
++ Have a question about Visual Studio IDE, Azure DevOps Services, or other Visual Studio products or services? Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 + Get [technical support](https://support.microsoft.com/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24) for GitHub Enterprise. 
 
 ## See also
