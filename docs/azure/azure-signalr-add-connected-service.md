@@ -123,9 +123,9 @@ The connected service functionality adds all the needed references and connectio
    ![Screenshot showing "Specify connection string" screen.](./media/vs-2022/azure-signalr-configuration-setting.png)
 
    > [!NOTE]
-   > For improved security, in Visual Studio 17.12 and later, this step creates a connection setting name; previous versions of Visual Studio create a connection string. Connection strings stored in the local filesystem can lead to a security risk, if they're inadvertently exposed. Storing the setting only means the secrets are accessed from a specified endpoint using a secure connection, and are not persisted in a local file in plain text.
+   > For improved security, in Visual Studio 17.12 and later, this step creates a connection setting name; previous versions create a connection string. Connection strings stored in the local filesystem can lead to a security risk, if they're inadvertently exposed.
 
-1. Click on **Additional settings** and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
+1. Click on **Additional settings** and choose whether you want the connection information stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
 
    ![Screenshot showing additional settings with options for storing the connection setting.](./media/vs-2022/azure-signalr-additional-settings.png)
 
