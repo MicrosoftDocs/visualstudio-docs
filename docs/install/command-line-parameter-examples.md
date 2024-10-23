@@ -1,12 +1,11 @@
 ---
 title: Command-line parameter examples for installation
 description: Customize command-line parameter examples to create your own installation of Visual Studio by setting parameters, such as installPath, wait, all, remove, and more.
-ms.date: 3/11/2024
+ms.date: 10/14/2024
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
-
 ms.subservice: installation
 ---
 # Command-line parameter examples for Visual Studio installation
@@ -21,7 +20,7 @@ You can use the `^` character at the end of a command line to concatenate multip
 
 For lists of the workloads and components that you can install by using the command line, see the [Visual Studio workload and component IDs](workload-and-component-ids.md) page.
 
-## Install using --installPath alongside the bootstrapper
+## Install using --installPath and --add alongside the bootstrapper
 
 * Install a minimal instance of Visual Studio, with no interactive prompts, but progress displayed:
 

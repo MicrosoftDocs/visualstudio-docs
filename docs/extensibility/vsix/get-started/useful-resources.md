@@ -22,8 +22,8 @@ Here are some useful resources that can help you in your extension journey.
 
 * [VSIX Community on GitHub](https://github.com/VsixCommunity)
 * [VSIX Community Samples repo](https://github.com/VsixCommunity/Samples)
-* [Official VS SDK documentation](../../index.yml)
-* [VS SDK Samples repo](https://github.com/Microsoft/VSSDK-Extensibility-Samples)
+* [Official VSSDK documentation](../../index.yml)
+* [VSSDK Samples repo](https://github.com/Microsoft/VSSDK-Extensibility-Samples)
 * [Extensibility chatroom on Gitter.im](https://gitter.im/Microsoft/extendvs)
 
 ## Know how to search for help
