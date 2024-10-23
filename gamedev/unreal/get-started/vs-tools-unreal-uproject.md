@@ -177,29 +177,58 @@ If you're moving the Unreal Engine source that you installed via the `Epic Games
 
 After you have the game source and engine source on the same drive, you can open the `.uproject` in Visual Studio.
 
-#### Solution #2: Create a symbolic link and change the engine association property
+#### Solution #2: Create a symbolic link to Unreal Engine and change the engine association property
 
 If moving the engine source and game source to the same drive isn't feasible, you can create a symbolic link to the Unreal Engine source and change the `EngineAssociation` property in the `.uproject` file to match.
 
-For this example, assume that the Unreal Engine is located at `C:\UE_5.4` and your game is at `Q:\src\game`.
+For this example, assume that the Unreal Engine is located at `C:\Program Files\Epic Games\UE_5.4` and your game is located at `Q:\src\game`.
 
 1. Open a command prompt (not a PowerShell) window.
 1. Navigate to the drive your game source is on. For example, `cd /d Q:\`.
-1. Create a symlink for the Unreal Engine. The `mklink` command takes a link parameter that specifies the symbolic link name which is how the location for your directory appears to the file system. The target parameter is what you're linking to. For example, `mklink /d "Q:\UE-Link" "C:\UE_5.4"` creates a symbolic link named `q:\UE-Link` that points to the Unreal Engine directory.
-1. Open your game's `.uproject` file and set the `EngineAssociation` property to the symlink folder that you created. For example, `"EngineAssociation": "Q:\\UE-Link"`.
+1. Create a symlink that points to the Unreal Engine. The `mklink` command takes a link parameter that specifies the symbolic link name which is how the location for your directory appears to the file system. The target parameter is what you're linking to. For example, `mklink /d "Q:\UE-Link" "C:\Program Files\Epic Games\UE_5.4"` creates a symbolic link named `Q:\UE-Link` that points to the Unreal Engine directory on the `C:` drive.
+1. Open your game's `.uproject` file and change the `EngineAssociation` property to be the symlink folder that you created. For example, `"EngineAssociation": "Q:\\UE-Link"`.
 
-Now you can open the `.uproject` in Visual Studio.
+Now you can open the `.uproject` in Visual Studio because the game source and engine source appear to be on the same drive. The symlink will take care of redirecting references to the engine to where it is actually installed.
 
 ### Solution #3: Create a symbolic link to Unreal Engine and change configuration files
 
-This solution is more fragile because it changes configuration files that may be reverted whenever you update Unreal Engine.
+This solution is more fragile because it changes a configuration file and the change may be reverted the next time you update Unreal Engine.
 
-For this example, assume that the Unreal Engine is located at `C:\UE_5.4` and your game is at `Q:\src\Game`
+For this example, assume that the Unreal Engine is located at `C:\Program Files\Epic Games\UE_5.4` and your game is located at `Q:\src\Game`
 
 1. Open a command prompt (not a PowerShell) window.
 1. Navigate to the drive your game source is on. For example, `cd /d Q:\`.
-1. Create a symlink for the Unreal Engine. The `mklink` command takes a link parameter that specifies the symbolic link name which is how the location for your directory appears to the file system. The target parameter is what you're linking to. For example, `mklink /d "Q:\UE-Link" "C:\UE_5.4"` creates a symbolic link named `q:\UE-Link` that points to the Unreal Engine directory.
-1. === UNDONE === What configuration files are supposed to be updated?
+1. Create a symlink that points to the Unreal Engine. The `mklink` command takes a link parameter that specifies the symbolic link name which is how the location for your directory appears to the file system. The target parameter is what you're linking to. For example, `mklink /d "Q:\UE-Link" "C:\Program Files\Epic Games\UE_5.4"` creates a symbolic link named `Q:\UE-Link` that points to the Unreal Engine directory on the `C:` drive.
+1. Open `C:\ProgramData\Epic\UnrealEngineLauncher\LauncherInstalled.dat` in an editor.
+1. Replace the value for `InstallLocation` with the symlink path you created. This example is for UE 5.4 installed on the `C:` drive and the symlink is on the `Q:` drive.
+
+Before:
+
+```json
+{
+    "InstallationList": [
+        {
+            "InstallLocation": "C:\\Program Files\\Epic Games\\UE_5.3,
+        ...
+            "AppName": "UE_5.4"
+        },
+}
+```
+
+After:
+
+```json
+{
+    "InstallationList": [
+        {
+            "InstallLocation": "Q:\\UE-Link",
+            ...
+            "AppName": "UE_5.4"
+        },
+}
+```
+
+Now you can open the `.uproject` in Visual Studio because the game source and engine source appear to be on the same drive. The symlink will take care of redirecting references to the engine to where it is actually installed.
 
 ## Related content
 
