@@ -99,7 +99,7 @@ Visual Studio opens your new project.
        "noEmitOnError": true,
        "removeComments": false,
        "sourceMap": true,
-       "target": "es5",
+       "target": "ES6",
        "outDir": "wwwroot/js"
      },
      "include": [
