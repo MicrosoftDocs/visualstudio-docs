@@ -92,76 +92,14 @@ See code examples of working with secrets at [Azure Key Vault Secrets client lib
 
 ## Configure access to the key vault
 
+If you followed this tutorial with Visual Studio 2022 version 17.11 or earlier, your Key Vault permissions are set up to run with your own Azure subscription, but that might not be desirable for a production scenario. You can create a managed identity to manage Key Vault access for your app. See [How to Authenticate to Key Vault](/azure/key-vault/general/authentication) and [Assign a Key Vault access policy](/azure/key-vault/general/assign-access-policy-portal).
+
 If your key vault is running on a different Microsoft account than the one you're signed in to Visual Studio (for example, the key vault is running on your work account, but Visual Studio is using your private account) you get an error in your Program.cs file, that Visual Studio can't get access to the key vault. To fix this issue, go to the [Azure portal](https://portal.azure.com), open your key vault, and choose **Access control (IAM)** to set permissions. See [Provide access to Key Vault keys, certificates, and secrets with an Azure role-based access control (RBAC)](/azure/key-vault/general/rbac-guide?tabs=azure-cli).
 
 > [!NOTE]
 > Older key vaults might use a legacy access policy model. It is recommended to migrate older key vaults to use Azure RBAC. See [Azure role-based access control (RBAC) vs. access policies](/azure/key-vault/general/rbac-access-policy).
 
-## How your ASP.NET Core project is modified
-
-This section identifies the exact changes made to an ASP.NET project when adding the key vault connected service using Visual Studio.
-
-### Added references for ASP.NET Core
-
-Affects the project file .NET references and NuGet package references.
-
-| Type | Reference |
-| --- | --- |
-| NuGet | Microsoft.AspNetCore.AzureKeyVault.HostingStartup |
-
-### Added files for ASP.NET Core
-
-- `ConnectedService.json` added, which records some information about the Connected Service provider, version, and a link the documentation.
-
-### Project file changes for ASP.NET Core
-
-- Added the Connected Services ItemGroup and `ConnectedServices.json` file.
-
-### launchsettings.json changes for ASP.NET Core
-
-- Added the following environment variable entries to both the Internet Information Services (IIS) Express profile and the profile that matches your web project name:
-
-    ```json
-      "environmentVariables": {
-        "ASPNETCORE_HOSTINGSTARTUP__KEYVAULT__CONFIGURATIONENABLED": "true",
-        "ASPNETCORE_HOSTINGSTARTUP__KEYVAULT__CONFIGURATIONVAULT": "<your keyvault URL>"
-      }
-    ```
-
-### Changes on Azure for ASP.NET Core
-
-- Created a resource group (or used an existing one).
-- Created a key vault in the specified resource group.
-
-## How your ASP.NET Framework project is modified
-
-This section identifies the exact changes made to an ASP.NET project when adding the key vault connected service using Visual Studio.
-
-### Added references for ASP.NET Framework
-
-Affects the project file .NET references and `packages.config` (NuGet references).
-
-| Type | Reference |
-| --- | --- |
-| .NET; NuGet | Azure.Identity |
-| .NET; NuGet | Azure.Security.KeyVault.Keys |
-| .NET; NuGet | Azure.Security.key vault.Secrets |
-
-> [!IMPORTANT]
-> By default Azure.Identity 1.1.1 is installed, which does not support Visual Studio Credential. You can update package reference manually to 1.2+ use Visual Studio Credential.
-
-### Added files for ASP.NET Framework
-
-- `ConnectedService.json` added, which records some information about the Connected Service provider, version, and a link to the documentation.
-
-### Project file changes for ASP.NET Framework
-
-- Added the Connected Services ItemGroup and ConnectedServices.json file.
-- References to the .NET assemblies described in the [Added references](#added-references-for-aspnet-framework) section.
-
 ## Next steps
-
-If you followed this tutorial, your Key Vault permissions are set up to run with your own Azure subscription, but that might not be desirable for a production scenario. You can create a managed identity to manage Key Vault access for your app. See [How to Authenticate to Key Vault](/azure/key-vault/general/authentication) and [Assign a Key Vault access policy](/azure/key-vault/general/assign-access-policy-portal).
 
 Learn more about Key Vault development by reading the [Key Vault Developer's Guide](/azure/key-vault/general/developers-guide).
 
