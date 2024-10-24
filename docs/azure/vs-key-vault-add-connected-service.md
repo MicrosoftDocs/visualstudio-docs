@@ -50,7 +50,7 @@ Before you begin, make sure that you're signed in to Visual Studio. Sign in with
    > [!NOTE]
    > For improved security, in Visual Studio 17.12 and later, this step creates a connection setting name; previous versions create a connection string. Connection strings stored locally can lead to a security risk, if they're inadvertently exposed.
 
-1. Click **Next** to review a summary of the changes and then **Finish**.
+1. Click **Next** until you see a summary of the changes and then **Finish**.
 
 :::moniker-end
 
