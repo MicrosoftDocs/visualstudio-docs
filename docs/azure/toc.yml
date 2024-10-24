@@ -74,8 +74,6 @@ items:
     href: vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md
   - name: Use Emulator Express to debug locally
     href: vs-azure-tools-emulator-express-debug-run.md
-  - name: Migrate and Deploy a Web Application
-    href: vs-azure-tools-migrate-publish-web-app-to-cloud-service.md
   - name: Deploy to Azure
     href: vs-azure-tools-publishing-a-cloud-service.md
   - name: Manage service configurations and profiles

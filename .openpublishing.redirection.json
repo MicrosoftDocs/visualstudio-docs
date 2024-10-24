@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "docs/azure/vs-azure-tools-migrate-publish-web-app-to-cloud-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-migrate-publish-web-app-to-cloud-service",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/azure/vs-azure-tools-access-private-azure-clouds-with-visual-studio.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-access-private-azure-clouds-with-visual-studio",
       "redirect_document_id": false
