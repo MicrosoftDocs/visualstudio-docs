@@ -14,8 +14,6 @@ ms.author: ghogen
 
 In this tutorial, you will learn how to easily add everything you need to start using Azure Key Vault to manage your secrets for web projects in Visual Studio, whether you are using ASP.NET Core or any type of ASP.NET project. By using the Connected Services feature in Visual Studio, you can have Visual Studio automatically add all the NuGet packages and configuration settings you need to connect to Key Vault in Azure.
 
-For details on the changes that Connected Services makes in your project to enable Key Vault, see [Key Vault Connected Service - What happened to my ASP.NET project](#how-your-aspnet-framework-project-is-modified) or [Key Vault Connected Service - What happened to my ASP.NET Core project](#how-your-aspnet-core-project-is-modified).
-
 ## Prerequisites
 
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
@@ -23,7 +21,7 @@ For details on the changes that Connected Services makes in your project to enab
 
 ## Add Key Vault support to your project
 
-:::moniker range="<=vs-2022"
+:::moniker range=">=vs-2022"
 
 Before you begin, make sure that you're signed in to Visual Studio. Sign in with the same account that you use for your Azure subscription. Then open an ASP.NET 4.7.1 or later, or ASP.NET Core web project, and do the following steps. The steps shown are for Visual Studio 2022 version 17.4. The flow might be slightly different for other versions of Visual Studio.
 
@@ -47,7 +45,7 @@ Before you begin, make sure that you're signed in to Visual Studio. Sign in with
 
 1. In the **Configure Key Vault** screen, you can change the name of the environment variable that references the Key Vault URI. The connection string is not stored here; it's stored in the key vault.
 
-   ![Screenshot of Connect to Azure Key Vault screen.](./media/vs-2022//connect-to-azure-key-vault-connection-setting.png.png)
+   ![Screenshot of Connect to Azure Key Vault screen.](./media/vs-2022//connect-to-azure-key-vault-connection-setting.png)
 
    > [!NOTE]
    > For improved security, in Visual Studio 17.12 and later, this step creates a connection setting name; previous versions create a connection string. Connection strings stored locally can lead to a security risk, if they're inadvertently exposed.
