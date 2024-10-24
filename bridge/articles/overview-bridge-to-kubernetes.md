@@ -11,6 +11,8 @@ ms.author: ghogen
 ---
 # How Bridge to Kubernetes works
 
+[!INCLUDE [Bridge to Kubernetes deprecation note](./includes/deprecation.md)]
+
 *Bridge to Kubernetes* is an iterative development tool for authoring microservice applications that target Kubernetes. The Bridge to Kubernetes extension is available for Visual Studio and Visual Studio Code (VS Code).
 
 Bridge to Kubernetes allows you to run and debug code on your development computer. That computer is still connected to your Kubernetes cluster with the rest of your application or services. If you have a large microservices architecture with many interdependent services and databases, replicating those dependencies on your development computer can be difficult. Building and deploying code to your Kubernetes cluster for each code change can be slow, time-consuming, and difficult.
