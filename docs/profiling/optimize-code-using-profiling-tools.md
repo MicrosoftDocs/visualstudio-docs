@@ -137,9 +137,9 @@ foreach (var blog in db.Blogs.Select(b => new { b.Url, b.Posts }).ToList())
 
 This code uses `foreach` loops to search the database for any blogs with "Fred Smith" as the author. Looking at it, you can see that a lot of objects are getting generated in memory: a new object array for each blog in the database, associated strings for each URL, and values for properties contained in the posts, such as blog ID.
 
-We do a little research and find some common recommendations for how to optimize LINQ queries and come up with this code. Alternatively, we can save time and let [Copilot](../ide/visual-studio-github-copilot-extension.md) do the research for us.
+We do a little research and find some common recommendations for how to optimize LINQ queries. Alternatively, we can save time and let [Copilot](../ide/visual-studio-github-copilot-extension.md) do the research for us.
 
-If we're using Copilot, we can ask Copilot to research performance issues for us. We select **Ask Copilot** from the context menu and type the following question:
+If we're using Copilot, we select **Ask Copilot** from the context menu and type the following question:
 
 ```cmd
 Can you make the LINQ query in this method faster?
@@ -165,7 +165,7 @@ public void GetBlogTitleX()
 }
 ```
 
-In this code, we made several changes to help optimize the query:
+This code includes several changes to help optimize the query:
 
 - Added the `Where` clause and eliminated one of the `foreach` loops.
 - Projected only the Title property in the `Select` statement, which is all we need in this example.
