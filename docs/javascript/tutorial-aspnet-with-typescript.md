@@ -1,7 +1,7 @@
 ---
 title: "Add TypeScript to an ASP.NET Core app"
 description: Create a simple web application by using ASP.NET Core and TypeScript, add TypeScript code, run the app, and debug with breakpoints.
-ms.date: 10/25/2023
+ms.date: 10/23/2024
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -54,7 +54,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
 3. On the **Create a new project** window, enter *web app* in the search box. Next, choose **C#** as the language.
 
-   After you apply the language filter, choose **ASP.NET Core Web Application (Model-View-Controller)**, and then select **Next**.
+   After you apply the language filter, choose **ASP.NET Core Web App (Model-View-Controller)**, and then select **Next**.
    
    > [!NOTE]
    > If you don't see the **ASP.NET Core Web Application** project template, you must add the **ASP.NET and web development** workload. For detailed instructions, see the [Prerequisites](#prerequisites).
@@ -99,11 +99,15 @@ Visual Studio opens your new project.
        "noEmitOnError": true,
        "removeComments": false,
        "sourceMap": true,
-       "target": "es5",
+       "target": "ES6",
        "outDir": "wwwroot/js"
      },
      "include": [
        "scripts/**/*"
+     ],
+     "exclude": [
+       "node_modules",
+       "wwwroot"
      ]
    }
    ```
