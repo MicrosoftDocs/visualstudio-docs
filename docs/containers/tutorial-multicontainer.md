@@ -294,7 +294,8 @@ Congratulations, you're running a Docker Compose application with a custom Docke
          // A delay is a quick and dirty way to work around the fact that
          // the mywebapi service might not be immediately ready on startup.
          // See the text for some ideas on how you can improve this.
-         await System.Threading.Tasks.Task.Delay(10000);
+         // Uncomment for .NET 8 only
+         // await System.Threading.Tasks.Task.Delay(10000);
 
          // mywebapi is the service name, as listed in docker-compose.yml.
          // Docker Compose creates a default network with the services
@@ -318,7 +319,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
     The code shown here works with .NET 8 and later, which sets up a user account in the Dockerfile without administrator privileges, and exposes port 8080 because the HTTP default port 80 is not accessible without elevated privilege.
 
-    The delay is used here because this example code could run immediately on application launch, before the MyWebAPI service is ready to receive web requests. Docker Compose provides more robust ways to handle timing issues between dependent containers that can occur during startup. For example, you can use `depends_on` to control the order in which containers are started, and you can specify a health check or other conditions that must be met before a service is considered ready, before starting the next service. See [Control startup order in Docker Compose](https://docs.docker.com/compose/how-tos/startup-order).
+    The delay is used here as a workaround for .NET 8 only, because this example code could run immediately on application launch, before the MyWebAPI service is ready to receive web requests.
 
 1. In the `Index.cshtml` file, add a line to display `ViewData["Message"]` so that the file looks like the following code:
 
