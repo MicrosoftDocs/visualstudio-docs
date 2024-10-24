@@ -167,7 +167,7 @@ public void GetBlogTitleX()
 
 In this code, we made several changes to help optimize the query:
 
-- Added the `Where` clause and eliminate one of the `foreach` loops.
+- Added the `Where` clause and eliminated one of the `foreach` loops.
 - Projected only the Title property in the `Select` statement, which is all we need in this example.
 
 Next, we retest using the profiling tools.
