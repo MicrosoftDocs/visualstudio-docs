@@ -10,6 +10,8 @@ ms.topic: how-to
 ---
 # Debug multiple services (VS Code)
 
+[!INCLUDE [Bridge to Kubernetes deprecation note](./includes/deprecation.md)]
+
 Bridge to Kubernetes provides the ability to debug your Kubernetes services in a local environment, as described in [Use Bridge to Kubernetes (VS Code)](bridge-to-kubernetes-vs-code.md). With Bridge to Kubernetes, you redirect traffic to a locally running instance of a service and can debug using VS Code's debugger. However, in some scenarios, you want to work with more than one service and debug into them all at the same time. You can debug multiple services in parallel by following these steps.
 
 ## To debug multiple services at the same time
