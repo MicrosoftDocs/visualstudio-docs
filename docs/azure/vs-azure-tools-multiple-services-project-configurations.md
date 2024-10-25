@@ -1,6 +1,6 @@
 ---
 title: Configure cloud service with multiple configurations
-description: Learn how to configure an Azure cloud service project by changing the ServiceDefinition.csdef, ServiceConfiguration.Local.cscfg, and ServiceConfiguration.Cloud.cscfg files.
+description: Learn how to configure an Azure Cloud Services (extended support) project by changing the ServiceDefinition.csdef, ServiceConfiguration.Local.cscfg, and ServiceConfiguration.Cloud.cscfg files.
 author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
@@ -13,7 +13,7 @@ ms.author: ghogen
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
-An Azure cloud service project in Visual Studio includes three configuration files: `ServiceDefinition.csdef`, `ServiceConfiguration.Local.cscfg`, and `ServiceConfiguration.Cloud.cscfg`:
+An Azure Cloud Services (extended support) project in Visual Studio includes three configuration files: `ServiceDefinition.csdef`, `ServiceConfiguration.Local.cscfg`, and `ServiceConfiguration.Cloud.cscfg`:
 
 - `ServiceDefinition.csdef` is deployed to Azure to describe the requirements of the cloud service and its roles, and to provide settings that apply to all instances. Settings can be read at run time using the Azure Service Hosting Runtime API. This file can be updated on Azure only when the cloud service is stopped.
 - `ServiceConfiguration.Local.cscfg` and `ServiceConfiguration.Cloud.cscfg` provide values for settings in the definition file and specify the number of instances to run for each role. The "Local" file contains values used in local debugging; the "Cloud" file is deployed to Azure as `ServiceConfiguration.cscfg` and provides settings for the server environment. This file can be updated while your cloud service is running in Azure.
@@ -34,8 +34,6 @@ Selects which `ServiceConfiguration.*.cscfg` file is affected by changes. By def
 
 Set the **Instance** count property to the number of instances the service should run for this role.
 
-Set the **VM size** property to **Extra Small**, **Small**, **Medium**, **Large**, or **Extra Large**. For more information, see [Sizes for Cloud Services](/azure/cloud-services/cloud-services-sizes-specs).
-
 ### Startup Action (Web role only)
 
 Set this property to specify that Visual Studio should launch a web browser for either the HTTP endpoints or the HTTPS endpoints, or both when you start debugging.
@@ -43,10 +41,6 @@ Set this property to specify that Visual Studio should launch a web browser for 
 The **HTTPS endpoint** option is available only if you have already defined an HTTPS endpoint for your role. You can define an HTTPS endpoint on the **Endpoints** property page.
 
 If you have already added an HTTPS endpoint, the HTTPS endpoint option is enabled by default, and Visual Studio launches a browser for this endpoint when you start debugging, in addition to a browser for your HTTP endpoint, assuming both startup options are enabled.
-
-### Diagnostics
-
-By default, diagnostics are enabled for the Web role. The Azure cloud service project and storage account are set to use the local storage emulator. When you are ready to deploy to Azure, you can select the builder button (**...**) to use Azure Storage instead. You can transfer the diagnostics data to the storage account on demand or at automatically scheduled intervals. For more information about Azure Diagnostics, see [Enabling Diagnostics in Azure Cloud Services and Virtual Machines](/azure/cloud-services/cloud-services-dotnet-diagnostics).
 
 ## Settings page
 
