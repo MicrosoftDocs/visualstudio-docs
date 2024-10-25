@@ -1,7 +1,7 @@
 ---
 title: Configure installation defaults with a response file
 description: Create a response JSON file to help automate your Visual Studio installation with default settings for workloads, components, and other installation options.
-ms.date: 3/11/2024
+ms.date: 10/25/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - response file
@@ -107,7 +107,9 @@ When you create or update a layout, a response.template.json file is also create
 
 ## Example customized layout response file content
 
-The following `response.json` file example will initialize a Visual Studio 2019 Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to look for sources in a network hosted layout. Note that for Visual Studio 2019, the update location (channelUri) can only be configured during initial installation and cannot be changed after the fact *unless* you use the functionality in the latest installer. Refer to the [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md#configuring-source-location-for-updates) and the [Configure your layout to always include and provide the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) for information on how to configure this.
+The following `response.json` file example will initialize a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to look for sources in a network hosted layout. Note that for Visual Studio 2019, the update location (channelUri) can only be configured during initial installation and cannot be changed after the fact *unless* you use the functionality in the latest installer. Refer to the [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md#configuring-source-location-for-updates) and the [Configure your layout to always include and provide the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) for information on how to configure this.
+
+::: moniker range="=vs-2019"
 
 ```Example response.json
 {
@@ -141,8 +143,44 @@ The following `response.json` file example will initialize a Visual Studio 2019 
     ]
 }
 ```
+::: moniker-end
 
-In the following example, the `response.json` file initializes a Visual Studio 2022 Enterprise client install that:
+::: moniker range="=vs-2022"
+
+```Example response.json
+{
+  "installChannelUri": ".\\ChannelManifest.json",
+  "channelUri": "\\\\server\\share\\layoutdirectory\\ChannelManifest.json",
+  "installCatalogUri": ".\\Catalog.json",
+  "channelId": "VisualStudio.17.Release",
+  "productId": "Microsoft.VisualStudio.Product.Enterprise",
+
+  "installPath": "C:\\VS2022",
+  "quiet": false,
+  "passive": false,
+  "includeRecommended": true,
+  "norestart": false,
+  "useLatestInstaller": true,
+  "removeOos": true,
+  
+  "addProductLang": [
+    "en-US",
+    "fr-FR"
+    ],
+
+    "add": [
+        "Microsoft.VisualStudio.Workload.ManagedDesktop",
+        "Microsoft.VisualStudio.Workload.Data",
+        "Microsoft.VisualStudio.Workload.NativeDesktop",
+        "Microsoft.VisualStudio.Workload.NetWeb",
+        "Microsoft.VisualStudio.Workload.Office",
+        "Microsoft.VisualStudio.Workload.Universal",
+        "Component.GitHub.VisualStudio"
+    ]
+}
+```
+
+In the following example, the `response.json` file initializes a Visual Studio Enterprise client install that:
 - [Uses a configuration *.vsconfig file that defines what workloads, components, and extensions to install](import-export-installation-configurations.md#use-a-configuration-file-to-initialize-the-contents-of-a-layout)
 - Selects both the English and French UI languages
 - Configures the [update location to look for sources in an http hosted layout](create-a-network-installation-of-visual-studio.md#making-your-layout-accessible-via-an-intranet-site)
@@ -174,6 +212,7 @@ In the following example, the `response.json` file initializes a Visual Studio 2
 
 }
 ```
+::: moniker-end
 
 > [!WARNING]
 > If you're using intranet webhosted layouts, you can’t set “noWeb”: true in the response.json and expect it to work. This will disable the http protocol and prevent the client from accessing the website. 
