@@ -12,6 +12,8 @@ ms.date: 06/20/2024
 
 # Tutorial: Run and debug locally with Bridge to Kubernetes on Visual Studio
 
+[!INCLUDE [Bridge to Kubernetes deprecation note](./includes/deprecation.md)]
+
 In this tutorial, you'll learn how to redirect traffic between your Kubernetes cluster and your development computer.
 This tutorial uses Bridge to Kubernetes and Visual Studio for debugging a service.
 To use Visual Studio Code, see [Run and debug locally with Bridge to Kubernetes with VS Code](bridge-to-kubernetes-vs-code.md).

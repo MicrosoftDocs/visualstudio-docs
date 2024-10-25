@@ -59,8 +59,6 @@ It stores the randomly chosen symbols.
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb" id="Snippet1":::
    ---
 
-   [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
-
    If you're using C#, be sure you put the code after the opening curly brace and just after the class declaration (`public partial class Form1 : Form`). If you're using Visual Basic, put the code right after the class declaration (`Public Class Form1`).
 
 You can use list objects to keep track of different types of items.
@@ -79,7 +77,7 @@ To learn more about lists, see <xref:System.Collections.Generic.List%601>. To se
 Each time you run the program, it assigns the icons randomly to the Label controls on your form by using an `AssignIconsToSquares()` method.
 This code uses the keyword `foreach` in C# or `For Each` in Visual Basic.
 
-1. Add the `AssignIconsToSquares()` method.
+1. Add the `AssignIconsToSquares()` method to `Form1.cs` or `Form1.vb`.
 
    ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet2":::
@@ -110,13 +108,13 @@ This code uses the keyword `foreach` in C# or `For Each` in Visual Basic.
      The line is commented out here so you can verify the rest of the code before proceeding.
    - The last line in the `if` statement removes the icon that has been added to the form from the list.
 
-1. Add a call to the `AssignIconsToSquares()` method to the **Form1** *constructor*.
+1. Add a call to the `AssignIconsToSquares()` method to the **Form1** *constructor* in `Form1.cs`.
    This method fills the game board with icons.
    Constructors are called when you create an object.
 
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet13":::
 
-   For Visual Basic, add the `AssignIconsToSquares()` method call to the `Form1_Load` method.
+   For Visual Basic, add the `AssignIconsToSquares()` method call to the `Form1_Load` method in `Form1.vb`.
 
    ```vb
    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -137,7 +135,7 @@ This code uses the keyword `foreach` in C# or `For Each` in Visual Basic.
 
    The icons are visible now because you haven't hidden them. To hide them from the player, you can set each label's **ForeColor** property to the same color as its **BackColor** property.
 
-1. Stop the program. Remove the comment marks for the commented line of code inside the loop.
+1. Stop the program. Remove the comment marks for the commented line of code inside the loop in the `AssignIconsToSquares()` method.
 
    ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs" id="Snippet15":::
@@ -170,7 +168,7 @@ To get your game to work this way, add a <xref:System.Windows.Forms.Control.Clic
 
      ![Screenshot shows the Properties window showing Click event.](../media/tutorial-windows-forms-match-game-icons/click-event.png)
 
-1. Select the **Enter** key. The IDE adds a `Click` event handler called **label1 _Click()** to the code.
+1. Select the **Enter** key. The IDE adds a `Click` event handler called **label1 _Click()** to the code in **Form1.cs** or **Form1.vb**.
    Because you selected all the labels, the handler is hooked to each of the labels.
 
 1. Fill in the rest of the code.

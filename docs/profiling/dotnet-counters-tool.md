@@ -17,6 +17,8 @@ The .NET Counters tool allows you to visualize [dotnet counters](/dotnet/core/di
 > [!NOTE]
 > The .NET Counters tool requires Visual Studio 2019 version 16.7 or later and targets .NET Core 3.0+ and .NET 5+.
 
+For additional information on learning to use the .NET Counters tool effectively, see [Case study: Isolate a performance issue](../profiling/isolate-performance-issue.md).
+
 ## Setup
 
 1. Open the Performance Profiler (**Alt + F2** or **Debug -> Performance Profiler**) in Visual Studio.

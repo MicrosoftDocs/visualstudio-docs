@@ -1,6 +1,76 @@
 {
   "redirections": [
     {
+      "source_path": "docs/azure/vs-azure-tools-migrate-publish-web-app-to-cloud-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-migrate-publish-web-app-to-cloud-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/azure/vs-azure-tools-access-private-azure-clouds-with-visual-studio.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-access-private-azure-clouds-with-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/azure/vs-azure-tools-cloud-service-publish-set-up-required-services-in-visual-studio.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-cloud-service-publish-set-up-required-services-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/azure/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/azure/vs-azure-tools-debugging-cloud-services-overview.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-debugging-cloud-services-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/azure/vs-azure-tools-intellitrace-debug-published-cloud-services.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-intellitrace-debug-published-cloud-services",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/azure/vs-azure-tools-performance-profiling-cloud-services.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-performance-profiling-cloud-services",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/azure/vs-azure-tools-publish-azure-application-wizard.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-publish-azure-application-wizard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/azure/vs-azure-tools-publish-webapplicationvm.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-publish-webapplicationvm",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/azure/vs-azure-tools-publish-webapplicationwebsite-windows-powershell-script.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-publish-webapplicationwebsite-windows-powershell-script",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/azure/vs-azure-tools--publishing-using-powershell-scripts.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools--publishing-using-powershell-scripts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/azure/vs-azure-tools-resources-managing-with-cloud-explorer.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-resources-managing-with-cloud-explorer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/azure/vs-azure-tools-setting-up-named-authentication-credentials.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-setting-up-named-authentication-credentials",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/azure/vs-azure-tools-upgrade-projects-to-the-current-version-of-the-azure-tools.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-upgrade-projects-to-the-current-version-of-the-azure-tools",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/extensibility/internals/microsoft-help-viewer-sdk.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/microsoft-help-viewer-sdk",
       "redirect_document_id": false
