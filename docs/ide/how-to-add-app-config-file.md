@@ -26,7 +26,7 @@ To add an application configuration file to a C# project:
 
      The **Add New Item** dialog box appears.
 
-1. Expand **Installed** > **Visual C# Items**.
+1. Expand **Installed** > **C# Items**.
 
 1. In the middle pane, select the **Application Configuration File** template.
 
