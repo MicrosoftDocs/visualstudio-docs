@@ -36,7 +36,7 @@ To add an application configuration file to a C# project:
 
      A file named *App.config* is added to your project.
     
-     :::image type="content" source="media/vs-2022/app-config-file-csharp-project.png" alt-text="Screenshot of the App.config file added to your project.":::
+     :::image type="content" source="media/vs-2022/app-config-file-csharp-project.png" alt-text="Screenshot of the App dot config file added to your project.":::
 
 For more information about application configuration files or about assemblies in .NET, see [How the runtime locates assemblies (.NET Framework)](/dotnet/framework/deployment/how-the-runtime-locates-assemblies) and [Assemblies in .NET](/dotnet/standard/assembly/).
 
