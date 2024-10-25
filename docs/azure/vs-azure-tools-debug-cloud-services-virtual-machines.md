@@ -1,6 +1,6 @@
 ---
-title: Debug an Azure cloud service or virtual machine
-description: Debug an Azure cloud service or virtual machine in Visual Studio by running the operation on your local computer or debugging remotely in Azure.
+title: Debug an Azure Cloud Services (extended support) service or virtual machine
+description: Debug an Azure Cloud Services (extended support) service or virtual machine in Visual Studio by running the operation on your local computer or debugging remotely in Azure.
 author: mikejo5000
 manager: mijacobs
 ms.topic: how-to
@@ -9,12 +9,13 @@ ms.author: mikejo
 ms.subservice: debug-diagnostics
 ---
 
-# Debug an Azure cloud service in Visual Studio
+# Debug an Azure Cloud Services (extended support) service in Visual Studio
 
-Visual Studio gives you different options for debugging Azure Cloud Services and virtual machines.
+Visual Studio gives you different options for debugging Azure Cloud Services (extended support) and virtual machines.
 
 ## Prerequisites
 
+- Visual Studio (see [Visual Studio downloads] (https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)) with the **Azure development** workload installed, and the Individual Component **.NET Framework project and item templates** installed. See [Modify Visual Studio](../install/modify-visual-studio.md).
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Debug your cloud service on your local computer
@@ -25,7 +26,7 @@ The emulator simulates the Azure Compute service and runs in your local environm
 
 ### To debug your cloud service on your local computer
 
-1. On the menu bar, select **Debug** > **Start Debugging** to run your Azure cloud service project. As an alternative, you can press F5. You'll see a message that the Compute Emulator is starting. When the emulator starts, the system tray icon confirms it.
+1. On the menu bar, select **Debug** > **Start Debugging** to run your Azure Cloud Services (extended support) project. As an alternative, you can press F5. You'll see a message that the Compute Emulator is starting. When the emulator starts, the system tray icon confirms it.
 
     ![Azure emulator in the system tray](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC783828.png)
 
@@ -40,14 +41,7 @@ The emulator simulates the Azure Compute service and runs in your local environm
 
 ## Debug a cloud service in Azure
 
-:::moniker range="vs-2019"
-The debug procedures depend on whether you are using [Cloud Services (extended support)](cloud-services-extended-support.md) or the classic cloud services model. For Cloud Services (extended support), continue reading. For the classic model, see [Debug a cloud service in Azure (classic model)](#debug-a-cloud-service-in-azure-classic-model).
-:::moniker-end
-
 If you enable remote debugging for a cloud service using the procedure in this section, it doesn't exhibit degraded performance or incur additional charges. Don't use remote debugging on a production service, because clients who use the service might be adversely affected.
-
-> [!NOTE]
-> When you publish a cloud service from Visual Studio, you can enable **IntelliTrace** for any roles in that service that target the .NET Framework 4 or the .NET Framework 4.x. By using **IntelliTrace**, you can examine events that occurred in a role instance in the past and reproduce the context from that time. See [Debugging a published cloud service with IntelliTrace and Visual Studio](vs-azure-tools-IntelliTrace-debug-published-cloud-services.md) and [Using IntelliTrace](../debugger/intellitrace.md).
 
 :::moniker range="<=vs-2019"
 
@@ -157,7 +151,7 @@ If you enable remote debugging for a cloud service using the procedure in this s
 
 1. On the Remote Azure virtual machine, install the Visual Studio 2022 Remote tools as described at [Remote debugging](../debugger/remote-debugging.md).
 
-1. From the desktop on the virtual machine, execute the command *D:\Program Files\Microsoft Visual Studio 17.0\Common7\IDE\Remote Debugger\x64\msvsmon.exe*. Be sure to run as Administrator.
+1. From the desktop on the virtual machine, execute the command *msvsmon.exe* in the Visual Studio installation folder under `Common7\IDE\Remote Debugger\x64`. Be sure to run as Administrator.
 
 1. Accept prompts to allow access through the firewall. You should see a message indicating that *msvsmon.exe* has started listening for connections.
 
@@ -187,55 +181,8 @@ If you enable remote debugging for a cloud service using the procedure in this s
 1. Set breakpoints (navigate to the line, and press **F9**), access the site's public URL, and reproduce the scenario to debug.
 
 :::moniker-end
+
 :::moniker range="<=vs-2019"
-
-## Debug a cloud service in Azure (classic model)
-
-To debug a cloud service from a remote machine, you must enable that functionality explicitly when you deploy your cloud service so that required services (*msvsmon.exe*, for example) are installed on the virtual machines that run your role instances. If you didn't enable remote debugging when you published the service, you have to republish the service with remote debugging enabled.
-
-If you enable remote debugging for a cloud service, it doesn't exhibit degraded performance or incur additional charges. Don't use remote debugging on a production service, because clients who use the service might be adversely affected.
-
-> [!NOTE]
-> When you publish a cloud service from Visual Studio, you can enable **IntelliTrace** for any roles in that service that target the .NET Framework 4 or the .NET Framework 4.5. By using **IntelliTrace**, you can examine events that occurred in a role instance in the past and reproduce the context from that time. See [Debugging a published cloud service with IntelliTrace and Visual Studio](vs-azure-tools-IntelliTrace-debug-published-cloud-services.md) and [Using IntelliTrace](../debugger/intellitrace.md).
-
-### To enable remote debugging for a cloud service (classic model)
-
-1. Open the shortcut menu for the Azure project, and then select **Publish**.
-
-2. Select the **Staging** environment and the **Debug** configuration.
-
-    This is only a guideline. You can opt to run your test environments in a Production environment. However, you may adversely affect users if you enable remote debugging on the Production environment. You can choose the Release configuration, but the Debug configuration makes debugging easier.
-
-    ![Choose the Debug configuration](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC746717.gif)
-
-3. Follow the usual steps, but select the **Enable Remote Debugger for all roles** checkbox on the **Advanced Settings** tab.
-
-    ![Debug Configuration](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC746718.gif)
-
-### To attach the debugger to a cloud service in Azure (classic model)
-
-1. In Server Explorer, expand the node for your cloud service.
-
-2. Open the shortcut menu for the role or role instance to which you want to attach, and then select **Attach Debugger**.
-
-    If you debug a role, the Visual Studio debugger attaches to each instance of that role. The debugger will break on a breakpoint for the first role instance that runs that line of code and meets any conditions of that breakpoint. If you debug an instance, the debugger attaches to only that instance and breaks on a breakpoint only when that specific instance runs that line of code and meets the breakpoint's conditions.
-
-    ![Attach Debugger](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC746719.gif)
-
-3. After the debugger attaches to an instance, debug as usual. The debugger automatically attaches to the appropriate host process for your role. Depending on what the role is, the debugger attaches to w3wp.exe, WaWorkerHost.exe, or WaIISHost.exe. To verify the process to which the debugger is attached, expand the instance node in Server Explorer. See [Azure Role Architecture](/archive/blogs/kwill/windows-azure-role-architecture) for more information about Azure processes.
-
-    ![Select code type dialog box](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC718346.png)
-
-4. To identify the processes to which the debugger is attached, on the menu bar, select **Debug** > **Windows** > **Processes**, and open the **Processes** dialog box. (Keyboard: Ctrl+Alt+Z) To detach a specific process, open its shortcut menu, and then select **Detach Process**. Or, locate the instance node in Server Explorer, find the process, open its shortcut menu, and then select **Detach Process**.
-
-    ![Debug Processes](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC690787.gif)
-
-> [!WARNING]
-> Avoid long stops at breakpoints when remote debugging. Azure treats a process that's stopped for longer than a few minutes as unresponsive and stops sending traffic to that instance. If you stop for too long, msvsmon.exe detaches from the process.
-
-To detach the debugger from all processes in your instance or role, open the shortcut menu for the role or instance that you're debugging, and then select **Detach Debugger**.
-
-:::moniker-end
 
 ## Limitations of remote debugging in Azure
 
@@ -247,6 +194,8 @@ Remote debugging has the following limitations:
   - Error validating the .cscfg file against the .csdef file.
     The reserved port range 'range' for endpoint `Microsoft.WindowsAzure.PlugIns.RemoteDebugger.Connector` of role 'role' overlaps with an already defined port or range.
   - Allocation failed. Retry later, try reducing the VM size or number of role instances, or try deploying to a different region.
+
+:::moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -376,8 +325,6 @@ Visual Studio ASP.NET projects offer an option to create a handy virtual machine
 
 ## Related content
 
-- Use **IntelliTrace** to collect a log of calls and events from a release server. See [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](vs-azure-tools-IntelliTrace-debug-published-cloud-services.md).
-
-- Use **Azure Diagnostics** to log detailed information from code running within roles, whether the roles are running in the development environment or in Azure. See [Collecting logging data by using Azure Diagnostics](/azure/cloud-services/cloud-services-dotnet-diagnostics).
+- Use **Azure Diagnostics** to log detailed information from code running within roles, in Azure. See [Collecting logging data by using Azure Diagnostics](/azure/cloud-services/cloud-services-dotnet-diagnostics).
 
 - For other remote debugging scenarios, see [Remote debugging](../debugger/remote-debugging.md).
