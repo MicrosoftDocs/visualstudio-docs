@@ -36,7 +36,7 @@ You can set up and save profiles for launching specific projects within a multi-
 
 Multi-project launch profiles are available in Visual Studio 2022 17.11 and later. To enable or disable the **Multi-project Launch Profiles** feature, go to **Tools > Options > Preview Features** and toggle the checkbox for **Enable Multi Launch Profiles**.
 
-:::image type="content" source="media/launch-multiple-projects/tools-options-enable-multi-project-launch.png" alt-text="Screenshot showing the option to enable Multi-project Launch Profiles in the Tools > Options dialog." border="true":::
+:::image type="content" source="media/launch-multiple-projects/tools-options-enable-multi-project-launch.png" alt-text="Screenshot showing the option to enable Multi-project Launch Profiles in the Tools Options dialog." border="true":::
 
 ### Create a multi-project launch profile
 
@@ -52,7 +52,7 @@ Multi-project launch profiles are available in Visual Studio 2022 17.11 and late
 1. In the Solution Property Pages, click on the **Common Properties** tab, and select **Configure Startup Projects**.
 1. In the **Configure Startup Projects** section, choose the **Multiple startup projects** radio button.
 
-     :::image type="content" source="media/launch-multiple-projects/solution-property-pages.jpg" alt-text="Screenshot showing the Multiple startup projects radio button." border="true":::
+     :::image type="content" source="media/launch-multiple-projects/solution-property-pages.jpg" alt-text="Screenshot showing the Multiple startup projects radio button." border="true" lightbox="media/launch-multiple-projects/solution-property-pages.jpg":::
 
    Below the radio button, you'll see a list of all the projects in your solution, and whether they are set to be launched or not when you press **F5**, and whether each project is started under the debugger or without debugging.
 
@@ -65,7 +65,7 @@ Multi-project launch profiles are available in Visual Studio 2022 17.11 and late
 1. Enable the **Share Profile** checkbox if you want to share the profile with other Visual Studio users by checking it into the `.config` file in the Source Control repo.
    Launch profiles are saved to a JSON file in the same directory as the solution. The **Share Profile** checkbox determines whether the profile is saved to a user-specific file (unchecked) or to a file intended for source control tracking, such as in Git (checked).
 
-   :::image type="content" source="media/launch-multiple-projects/share-profile.png" alt-text="{alt-text}" border="true":::
+   :::image type="content" source="media/launch-multiple-projects/share-profile.png" alt-text="Screenshot that shows the Share Profile checkbox on the Solution Property pages dialog." border="true":::
 
 1. Once you've configured the startup action for each project, click the **OK** or **Apply** button to save the profile.
    The created launch profile appears in the toolbar dropdown list, allowing you to select the profile you want to debug.
