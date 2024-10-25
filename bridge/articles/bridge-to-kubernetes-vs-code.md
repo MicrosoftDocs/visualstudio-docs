@@ -11,6 +11,8 @@ description: Use Bridge to Kubernetes to redirect traffic between your Kubernete
 
 # Use Bridge to Kubernetes (VS Code)
 
+[!INCLUDE [Bridge to Kubernetes deprecation note](./includes/deprecation.md)]
+
 Bridge to Kubernetes allows you to run and debug code on your development computer, while still connected to your Kubernetes cluster with the rest of your application or services. In this guide, you will learn how to use Bridge to Kubernetes to redirect traffic between your Kubernetes cluster and code running on your development computer.
 
 ## Before you begin
