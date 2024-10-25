@@ -38,7 +38,7 @@ The .NET CLI commands [dotnet build](/dotnet/core/tools/dotnet-build), [dotnet p
 
 The first column in the following table shows a long and short form of each switch. Both forms are equivalent.
 
-Square brackets `[]` indicate optional parts.
+Square brackets `[]` indicate optional parts, and curly braces `{}`indicate user-supplied values.
 
 |Switch|Description|
 |------------|-----------------|
