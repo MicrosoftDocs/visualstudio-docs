@@ -62,10 +62,38 @@ Multi-project launch profiles are available in Visual Studio 2022 17.11 and late
 
    ![Screenshot showing the options for starting a project.](media/launch-multiple-projects/launch-profiles-start-options.png)
 
-1. Enable the **Share Profile** checkbox if you want to share the profile with other Visual Studio users by checking it into the `.config` file in the Source Control repo.
-   Launch profiles are saved to a JSON file in the same directory as the solution. The **Share Profile** checkbox determines whether the profile is saved to a user-specific file (unchecked) or to a file intended for source control tracking, such as in Git (checked).
+1. Enable the **Share Profile** checkbox if you want to share the profile with other Visual Studio users by checking it into the configuration file in the Source Control repo.
+   Launch profiles are saved to a JSON file with the extension `.slnLaunch` in the same directory as the solution. The **Share Profile** checkbox determines whether the profile is saved to a user-specific file (unchecked) or to a file intended for source control tracking, such as in Git (checked).
 
    :::image type="content" source="media/launch-multiple-projects/share-profile.png" alt-text="Screenshot that shows the Share Profile checkbox on the Solution Property pages dialog." border="true":::
+
+   Here's an example of the profile in the `.slnLaunch` file:
+
+   ```json
+   [
+      {
+         "Name": "Feature Profile",
+         "Projects": [
+            {
+            "Path": "src\\OrchardCore.Cms.Web\\OrchardCore.Cms.Web.csproj",
+            "Action": "Start"
+            },
+            {
+            "Path": "src\\OrchardCore\\OrchardCore.DisplayManagement\\OrchardCore.DisplayManagement.csproj",
+            "Action": "Start"
+            },
+            {
+            "Path": "src\\OrchardCore\\OrchardCore.Data\\OrchardCore.Data.csproj",
+            "Action": "StartWithoutDebugging"
+            },
+            {
+            "Path": "src\\OrchardCore\\OrchardCore.ContentManagement.Display\\OrchardCore.ContentManagement.Display.csproj",
+            "Action": "Start"
+            }
+         ]
+      }
+   ]
+   ```
 
 1. Once you've configured the startup action for each project, click the **OK** or **Apply** button to save the profile.
    The created launch profile appears in the toolbar dropdown list, allowing you to select the profile you want to debug.
