@@ -97,11 +97,13 @@ You may frequently launch your game with different combinations of command-line 
 The command-line arguments dropdown is shown following the Solutions Platforms dropdown on the Standard toolbar. There is an entry for C:\UE\LyraStarterGame\LyraStarterGame.uproject -fullscreen, and C:\UE\LyraStarterGame\LyraStarterGame.uproject -JsonDebugOutput.
 :::image-end:::
 
-To add command-line arguments, type them in the dropdown and press **Enter**. The arguments are saved in the order that you enter them and appear in the dropdown for future use. There's a limit of five command lines that you can add before the oldest one is removed to make room for a new one.
+To add command-line arguments, type them in the dropdown and press **Enter**. The arguments are saved in the order that you enter them and appear in the dropdown for future use.
 
-The first argument when debugging an Unreal Engine project must be the path to the project, e.g. `C:\UE\LyraStarterGame\LyraStarterGame.uproject`.
+There's a limit of five command lines that you can add before the oldest one is removed to make room for a new one.
 
-For more information about using the command-line arguments dropdown, see [Specify command-line arguments](../../../docs/debugger/specify-command-line-args.md).
+The first argument when debugging an Unreal Engine project that runs in the Unreal Engine editor must be the path to the project. For example: `C:\UE\LyraStarterGame\LyraStarterGame.uproject`.
+
+For more information about using the command-line arguments dropdown, see [Specify command-line arguments](/visualstudio/debugger/specify-command-line-args).
 
 ## Next steps
 
