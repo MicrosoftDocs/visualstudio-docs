@@ -107,9 +107,9 @@ When you create or update a layout, a response.template.json file is also create
 
 ## Example customized layout response file content
 
-The following `response.json` file example will initialize a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to look for sources in a network hosted layout. Note that for Visual Studio 2019, the update location (channelUri) can only be configured during initial installation and cannot be changed after the fact *unless* you use the functionality in the latest installer. Refer to the [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md#configuring-source-location-for-updates) and the [Configure your layout to always include and provide the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) for information on how to configure this.
-
 ::: moniker range="=vs-2019"
+
+The following `response.json` file example will initialize a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to look for sources in a network hosted layout. Note that for Visual Studio 2019, the update location (channelUri) can only be configured during initial installation and cannot be changed after the fact *unless* you use the functionality in the latest installer. Refer to the [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md#configuring-source-location-for-updates) and the [Configure your layout to always include and provide the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) for information on how to configure this.
 
 ```Example response.json
 {
@@ -146,6 +146,8 @@ The following `response.json` file example will initialize a Visual Studio Enter
 ::: moniker-end
 
 ::: moniker range="=vs-2022"
+
+The following `response.json` file example will initialize a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to look for sources in a network hosted layout. Refer to the [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md#configuring-source-location-for-updates) and the [Configure your layout to always include and provide the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) for information on how to configure this.
 
 ```Example response.json
 {
