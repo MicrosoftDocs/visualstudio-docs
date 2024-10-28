@@ -233,11 +233,32 @@ For convenience, this command lets you jump to the SQL Server Object Explorer, s
 
 You can continue with the quickstarts for Azure SQL Database, but instead of starting from the beginning, you can start after the initial connection is set up. If you're using Entity Framework, you can start at [Add the code to connect to Azure SQL Database](/azure/azure-sql/database/azure-sql-dotnet-entity-framework-core-quickstart?view=azuresql&preserve-view=true&tabs=visual-studio%2Cservice-connector%2Cportal#add-the-code-to-connect-to-azure-sql-database). If you're using `SqlClient` or ADO.NET data classes, you can start at [Add the code to connect to Azure SQL Database](/azure/azure-sql/database/azure-sql-dotnet-quickstart?view=azuresql&preserve-view=true&tabs=visual-studio%2Cpasswordless%2Cservice-connector%2Cportal#add-the-code-to-connect-to-azure-sql-database).
 
-Your code won't exactly match what is used in the quickstarts, which use a different way of getting the connection string. The connection strings are secrets and are securely stored as explained in [Safe storage of app secrets in development in ASP.NET Core](/aspnet/core/security/app-secrets?tabs=windows). In particular, to read the connection string from the secrets store, you can add code as in [Read the secret via the configuration API](/aspnet/core/security/app-secrets?tabs=windows#read-the-secret-via-the-configuration-api). In ASP.NET Core projects, the connection string created by Connected Services is available in a configuration object. You can access it by a property on the `WebApplicationBuilder` class (`builder` in many project templates), as in the following example:
+Your code won't exactly match what is used in the quickstarts, which use a different way of getting the connection string. The connection strings are secrets and are securely stored as explained in [Safe storage of app secrets in development in ASP.NET Core](/aspnet/core/security/app-secrets?tabs=windows). In particular, to read the connection string from the secrets store, you can add code as in [Read the secret via the configuration API](/aspnet/core/security/app-secrets?tabs=windows#read-the-secret-via-the-configuration-api).
+
+:::moniker range=">=vs-2022"
+In ASP.NET Core projects, the connection setting or connection string created by Connected Services is available in a configuration object. You can access it by a property on the `WebApplicationBuilder` class (`builder` in many project templates), as in the following example:
+
+```csharp
+var connection = builder.Configuration["ConnectionStrings:DatabaseConnection"];
+```
+
+The string to provide to the Configuration property should match the key in *secrets.json* or in Azure Key Vault, which you provided in the Connected Services procedure. For example, with Visual Studio 2022 17.12 and later, the connection setting is stored in *secrets.json* as:
+
+```json
+{
+  "ConnectionStrings:DatabaseConnection": "Server=tcp:webapplication16dbserver.database.windows.net;Authentication=Active Directory Default;Database=WebApplication16_db;",
+}
+:::moniker-end
+
+:::moniker range="<=vs-2019"
+
+In ASP.NET Core projects, the connection setting or connection string created by Connected Services is available in a configuration object. You can access it by a property on the `WebApplicationBuilder` class (`builder` in many project templates), as in the following example:
 
 ```csharp
 var connection = builder.Configuration["ConnectionStrings:ConnectionString1"];
 ```
+
+:::moniker-end
 
 ## Related content
 
