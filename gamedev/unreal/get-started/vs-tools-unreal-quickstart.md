@@ -91,7 +91,7 @@ The toolbar buttons, left to right:
 
 ## Command-line argument dropdown
 
-You may frequently launch your game with different combinations of command-line arguments during the editing and debugging part of your inner loop. This is now easier with the command-line arguments dropdown:
+You might frequently launch your game with different combinations of command-line arguments during the editing and debugging part of your inner loop. This is now easier with the command-line arguments dropdown:
 
 :::image type="complex" source="../media/vs-command-line-args-dropdown.png" alt-text="A screenshot of the command-line args dropdown.":::
 The command-line arguments dropdown is shown following the Solutions Platforms dropdown on the Standard toolbar. There is an entry for C:\UE\LyraStarterGame\LyraStarterGame.uproject -fullscreen, and C:\UE\LyraStarterGame\LyraStarterGame.uproject -JsonDebugOutput.
@@ -103,7 +103,7 @@ There's a limit of five command lines that you can add before the oldest one is 
 
 The first argument when debugging an Unreal Engine project that runs in the Unreal Engine editor must be the path to the project. For example: `C:\UE\LyraStarterGame\LyraStarterGame.uproject`.
 
-For more information about using the command-line arguments dropdown, see [Specify command-line arguments](/visualstudio/debugger/specify-command-line-args).
+For more information about using the command-line arguments dropdown, see [Pass command-line arguments while debugging (C++)](/visualstudio/debugger/specify-command-line-args).
 
 ## Next steps
 
