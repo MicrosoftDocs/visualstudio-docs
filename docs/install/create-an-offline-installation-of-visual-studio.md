@@ -1,7 +1,7 @@
 ---
 title: Create an offline installation
 description: Create an offline installation package to install Visual Studio offline when you have an unreliable internet connection or low bandwidth.
-ms.date: 10/25/2024
+ms.date: 10/28/2024
 ms.topic: conceptual
 f1_keywords:
 - offline installation [Visual Studio]
@@ -21,6 +21,21 @@ Visual Studio is designed to work well in various computer configurations. In th
 
 > [!IMPORTANT]
 > If you are an enterprise IT administrator who wants to perform a deployment of Visual Studio throughout a network of client workstations, or if you need to create an installation package of files to transfer to or install onto *another* machine, refer to our [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide), the [create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md) page, and the [deploy a layout onto a client machine](deploy-a-layout-onto-a-client-machine.md) documentation.
+
+## Use the "Download all, then install" feature
+
+Sometimes online access is problematic. For example, you might have an unreliable internet connection or your internet connection might have low bandwidth. For situations like these, you have other methods available for acquiring Visual Studio. You can use the **Download all, then install** feature from the Visual Studio Installer to download an installation package on the local machine *before* you install it locally, or you can use the command line to create a local installation package to install locally later.
+
+After you [download the bootstrapper](#step-1---download-the-visual-studio-bootstrapper), run it to install the latest version of the Visual Studio Installer. The installer is a separate program that provides everything you need to both install and customize Visual Studio. After you install the Visual Studio Installer, you can use it to download installation packages. To download a local installation package, select the **Download all, then install** option in the dropdown at the bottom of the **Workloads** tab of the Visual Studio Installer. The purpose of this feature is to download the Visual Studio packages in advance on the computer where Visual Studio will eventually be installed. By downloading the packages locally first, you can then safely disconnect from the internet before you install Visual Studio.
+
+   ![The "Download all, then install" option](media/vs-2019/download-all-then-install-from-installer.png)
+
+> [!NOTE]
+> The **Download all, then install** functionality downloads a Visual Studio installation package that is customized to the local machine. Don't transfer this downloaded installation package to another computer, as it's not designed to work that way.
+>
+> If you want to download an installation package, host it on a network share or an intranet website, and transfer it to or install it on another machine, then you'll need to create a network layout as described in the [create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md) documentation.
+
+You can also configure future updates of Visual Studio to respect the **Download all, then install** behavior. For more information, see the [installation and download behavior](/visualstudio/install/update-visual-studio?#installation-and-download-behaviors-1) documentation.
 
 ## Use the command line to create a local layout
 
@@ -110,21 +125,6 @@ c:\localVSlayout\vs_enterprise.exe --noWeb --add Microsoft.VisualStudio.Workload
 > If you get an error that a signature is invalid, you must [install updated certificates](install-certificates-for-visual-studio-offline.md). Open the Certificates folder in your local layout. Double-click each of the certificate files, and then click through the Certificate Manager wizard. If you're asked for a password, leave it blank.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
-
-## Use the "Download all, then install" feature
-
-Sometimes online access is problematic. For example, you might have an unreliable internet connection or your internet connection might have low bandwidth. For situations like these, you have other methods available for acquiring Visual Studio. You can use the **Download all, then install** feature from the Visual Studio Installer to download an installation package on the local machine *before* you install it locally, or you can use the command line to create a local installation package to install locally later.
-
-After you [download the bootstrapper](#step-1---download-the-visual-studio-bootstrapper), run it to install the latest version of the Visual Studio Installer. The installer is a separate program that provides everything you need to both install and customize Visual Studio. After you install the Visual Studio Installer, you can use it to download installation packages. To download a local installation package, select the **Download all, then install** option in the dropdown at the bottom of the **Workloads** tab of the Visual Studio Installer. The purpose of this feature is to download the Visual Studio packages in advance on the computer where Visual Studio will eventually be installed. By downloading the packages locally first, you can then safely disconnect from the internet before you install Visual Studio.
-
-   ![The "Download all, then install" option](media/vs-2019/download-all-then-install-from-installer.png)
-
-> [!NOTE]
-> The **Download all, then install** functionality downloads a Visual Studio installation package that is customized to the local machine. Don't transfer this downloaded installation package to another computer, as it's not designed to work that way.
->
-> If you want to download an installation package, host it on a network share or an intranet website, and transfer it to or install it on another machine, then you'll need to create a network layout as described in the [create a network-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md) documentation.
-
-You can also configure future updates of Visual Studio to respect the **Download all, then install** behavior. For more information, see the [installation and download behavior](/visualstudio/install/update-visual-studio?#installation-and-download-behaviors-1) documentation.
 
 ## Related content
 
