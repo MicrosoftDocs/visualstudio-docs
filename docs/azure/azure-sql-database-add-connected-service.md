@@ -104,18 +104,18 @@ With Visual Studio 2022 version 17.12 and later, the connected services procedur
 
 You can use the Azure Portal, PowerShell, or the Azure CLI to create the Microsoft Entra admin user. For detailed instructions for each of these methods, see [Set the Microsoft Entra admin user](/azure/azure-sql/database/authentication-aad-configure?view=azuresql&preserve-view=true&tabs=azure-portal#azure-sql-database-and-azure-synapse-analytics).
 
-After completing the Connected Services process, you'll need to create a SQL user that corresponds to the managed identity, and set permissions by executing SQL statements in the database. Use the [query editor](/azure/azure-sql/database/connect-query-portal?view=azuresql) in the Azure portal to execute statements like the following:
+After completing the Connected Services process, you'll need to create a SQL user that corresponds to the managed identity, and set permissions by executing SQL statements in the database. Sign in to the [query editor](/azure/azure-sql/database/connect-query-portal?view=azuresql) in the Azure portal as your Microsoft Entra admin user, and execute statements like the following:
 
 ```tsql
-CREATE USER [<identity-name>] FROM EXTERNAL PROVIDER;
-ALTER ROLE db_datareader ADD MEMBER [<identity-name>];
-ALTER ROLE db_datawriter ADD MEMBER [<identity-name>];
-ALTER ROLE db_ddladmin ADD MEMBER [<identity-name>];
+CREATE USER [someone@contoso.com] FROM EXTERNAL PROVIDER;
+ALTER ROLE db_datareader ADD MEMBER [someone@contoso.com];
+ALTER ROLE db_datawriter ADD MEMBER [someone@contoso.com];
+ALTER ROLE db_ddladmin ADD MEMBER [someone@contoso.com];
 
 GO
 ```
 
-The identity-name in this code is the managed identity your app uses. The roles that you add depend on your use cases. See [ALTER ROLE](/sql/t-sql/statements/alter-role-transact-sql?view=azuresqldb-current).
+Substitute your own managed identity for `someone@contoso.com`. The roles that you add depend on your use cases. See [ALTER ROLE](/sql/t-sql/statements/alter-role-transact-sql?view=azuresqldb-current).
 
 If your code references `System.Data.SqlClient`, you'll need to upgrade to `Microsoft.Data.SqlClient`, since `System.Data.SqlClient` doesn't support Microsoft Entra authentication. To upgrade, add a reference the [Microsoft.Data.SqlClient NuGet package](https://www.nuget.org/packages/Microsoft.Data.SqlClient), and update any using directives that reference `System.Data.SqlClient` to reference the `Microsoft.Data.SqlClient` namespace. There are some behavior changes; see [Porting cheat sheet](https://github.com/dotnet/SqlClient/blob/main/porting-cheat-sheet.md).
 
