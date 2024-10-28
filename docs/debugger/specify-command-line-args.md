@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 ---
 # Pass command-line arguments while debugging (C++)
 
-In Visual C++, you can use the command-line arguments dropdown to quickly specify or use previously specified command-line arguments to pass to the app you're debugging. This feature is available in Visual Studio 2022 version 17.12 and later.
+In Visual C++, use the command-line arguments dropdown to quickly specify or reuse arguments for debugging.
 
 ## Prerequisites
 
@@ -24,21 +24,21 @@ In Visual C++, you can use the command-line arguments dropdown to quickly specif
 
 ## Specify command-line arguments
 
-The command-line arguments dropdown is available in the **Standard** toolbar. If the **Standard** toolbar isn't visible, from the Visual Studio main menu choose **Tools** > **Customize**. In the **Customize** dialog, choose **Toolbars**, and then select **Standard**.
+The command-line arguments dropdown is available in the **Standard** toolbar. If the **Standard** toolbar isn't visible, from the Visual Studio main menu choose **Tools** > **Customize**. In the **Customize** dialog, choose **Toolbars**. Then select **Standard**.
 
 :::image type="complex" source="./media/select-standard-toolbar.png" alt-text="A screenshot of the Customize dialog.":::
 The Toolbars tab is selected in the Customize dialog. The entry for Standard, meaning the standard toolbar, is selected.
 :::image-end:::
 
-The command-line arguments dropdown is shown following the Solutions Platforms dropdown on the Standard toolbar. The dropdown is empty. A tooltip reads, "empty".
+The command-line arguments dropdown follows the **Solutions Platforms** dropdown on the **Standard** toolbar. The dropdown is empty. The tooltip says, "empty".
 
 :::image type="complex" source="./media/command-line-argument-dropdown-empty.png" alt-text="A screenshot of the command-line arguments dropdown.":::
 The command-line arg dropdown is shown following the Solutions Platforms dropdown on the Standard toolbar. The dropdown is empty. A tooltip reads, "empty".
 :::image-end:::
 
-It's currently empty. The tooltip initially contains "empty". When you add command-line arguments, the tooltip shows the selected argument list and expands it so that you can see all of the arguments.
+When you add command-line arguments, the tooltip shows the selected argument list so that you can see all of the arguments.
 
-To add command-line arguments, type them in the dropdown and press **Enter**. The arguments are saved in the order that you enter them and appear in the dropdown for future use. There's a limit of five command lines that you can add before the oldest one is removed and the new one added.
+To add command-line arguments, type them in the dropdown and press **Enter**. The arguments are saved in the order that you enter them and appear in the dropdown for future use. There's a limit of five command lines that you can add before the oldest one is removed to make room for a new one.
 
 In this example, the command-line argument `-arg1` is added to the dropdown:
 
@@ -63,7 +63,7 @@ int main(int argc, char* argv[])
 }
 ```
 
-In this example, the `-arg1 -arg2` arguments are selected:
+In this example, the `-arg1 -arg2` arguments are selected in the command-line arguments dropdown:
 
 :::image type="content" source="./media/command-line-argument-dropdown-selected-args.png" alt-text="A screenshot of the command-line args dropdown. The entry for `-arg1 -arg2` is selected.":::
 
@@ -74,21 +74,21 @@ Argument 1: -arg1
 Argument 2: -arg2
 ```
 
-The command-line arguments dropdown is a convenient way to specify and reuse command-line arguments. Particularly when you need different arguments for different scenarios you're testing.
+The command-line arguments dropdown is a convenient way to specify and reuse command-line arguments. Particularly when you need to quickly switch between different arguments for different scenarios you're testing.
 
-Another useful feature is that you can click in the command-line arguments dropdown and press Ctrl+C to copy the highlighted command-line to the clipboard.
+You can also click in the command-line arguments dropdown and press **Ctrl+C** to copy the highlighted command-line to the clipboard.
 
 ## Relationship to project settings
 
-The other way to specify command-line arguments is through the project settings. If you right-click the project in the **Solution Explorer** and choose **Properties**, you can specify command-line arguments in the **Debugging** > **Command Arguments** section.
+Another way to specify command-line arguments is in project settings.
+
+If you right-click the project in the **Solution Explorer** and choose **Properties**, you can specify command-line arguments in **Debugging** > **Command Arguments**.
 
 :::image type="complex" source="./media/debugging-property-page-command-args.png" alt-text="A screenshot of the project property pages debugging options.":::
 The Command Arguments entry is shown and it has the same arguments as the command-line arguments dropdown: -arg1 -arg2.
 :::image-end:::
 
-Command-line arguments specified in the project settings override the command-line arguments specified in the command-line arguments dropdown. If you make a change here, they're added to the top of the list of command-line arguments specified in the dropdown.
-
-Conversely, if you select arguments in the command-line arguments dropdown, they replace the arguments specified in the project settings. Either way you specify the arguments, they're kept in sync. Both are saved with the project settings, so they're available when you reopen the project.
+Command-line arguments specified in the project settings are added to the command-line arguments dropdown. Conversely, if you select arguments in the command-line arguments dropdown, they replace the arguments specified in the project settings. Either way you specify the arguments, they're kept in sync. Both are saved with the project settings, so they're available when you reopen the project.
 
 ## Related content
 
