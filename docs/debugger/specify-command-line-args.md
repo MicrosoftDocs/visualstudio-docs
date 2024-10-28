@@ -65,7 +65,7 @@ int main(int argc, char* argv[])
 
 In this example, the `-arg1 -arg2` arguments are selected:
 
-:::image type="content" source="../media/command-line-argument-dropdown-selected-args.png" alt-text="A screenshot of the command-line args dropdown. The entry for `-arg1 -arg2` is selected.":::
+:::image type="content" source="./media/command-line-argument-dropdown-selected-args.png" alt-text="A screenshot of the command-line args dropdown. The entry for `-arg1 -arg2` is selected.":::
 
 Which results in this output when the app is run:
 
@@ -82,7 +82,7 @@ Another useful feature is that you can click in the command-line arguments dropd
 
 The other way to specify command-line arguments is through the project settings. If you right-click the project in the **Solution Explorer** and choose **Properties**, you can specify command-line arguments in the **Debugging** > **Command Arguments** section.
 
-:::image type="complex" source="../media/debugging-property-page-command-args.png" alt-text="A screenshot of the project property pages debugging options.":::
+:::image type="complex" source="./media/debugging-property-page-command-args.png" alt-text="A screenshot of the project property pages debugging options.":::
 The Command Arguments entry is shown and it has the same arguments as the command-line arguments dropdown: -arg1 -arg2.
 :::image-end:::
 
