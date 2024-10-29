@@ -133,6 +133,10 @@ On the web server, install **IIS 6 Metabase Compatibility**. In Windows Settings
 To configure IIS for ASP.NET Core applications, install the [.NET Core Hosting Bundle installer (direct download)](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer). For more information, see [.NET Core hosting bundle](/aspnet/core/host-and-deploy/iis/hosting-bundle).
 
 If you're working with ASP.NET 4.8 or earlier, or if you need to configure IIS on Windows Server for publishing, you can find detailed steps in [Remote debugging ASP.NET on an IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) and for ASP.NET Core, [Remote debugging ASP.NET Core on an IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md).
+
+> [!CAUTION]
+> A web server must be configured with security best practices in mind. Refer to the [IIS documentation](/iis/) for recommended security practices.
+
 ### Publish to IIS web server
 
 Choose **Publish**, and then **Web Server (IIS)**.
@@ -152,7 +156,7 @@ Provide the necessary connection details and choose **Finish**. The following sc
 The first time you publish, create a username and password. These credentials are specific to WebDeploy deployment. Once they're created, you can't change them in Visual Studio, but you can reset them in IIS. See [Sites - Set Credentials dialog box](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831681(v=ws.11)?redirectedfrom=MSDN#set-credentials-dialog-box). If you don't have the password, you can download a `.publishsettings` file, and read it from there. See [Import publish settings from IIS](./tutorial-import-publish-settings-iis.md).
 
 > [!WARNING]
-> Using username and password credentials is not the most secure method of authentication. Whenever possible, use alternative methods. For example, when hosting a web site in Azure App Service, you can use authentication tokens for improved security.
+> Using username and password credentials is not the most secure method of authentication. Whenever possible, use alternative methods. For example, when hosting a web site in Azure App Service, you can use authentication tokens for improved security. When no alternative exists, as in the case of Web Deploy for a on-premises IIS server, be sure to use a strong password, keep the password from being leaked or shared, and properly manage password rotation according to a strict schedule.
 
 For troubleshooting, see [Web Deploy error codes](/troubleshoot/developer/webapps/iis/deployment-migration/web-deploy-error-codes#ERROR_DESTINATION_NOT_REACHABLE).
 
