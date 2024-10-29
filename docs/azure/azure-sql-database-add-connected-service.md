@@ -109,15 +109,15 @@ You can use the Azure Portal, PowerShell, or the Azure CLI to create the Microso
 After completing the Connected Services process, you'll need to create a SQL user that corresponds to the managed identity, and set permissions by executing SQL statements in the database. Sign in to the [query editor](/azure/azure-sql/database/connect-query-portal?view=azuresql&preserve-view=true) in the Azure portal as your Microsoft Entra admin user, and execute statements like the following:
 
 ```tsql
-CREATE USER [someone@contoso.com] FROM EXTERNAL PROVIDER;
-ALTER ROLE db_datareader ADD MEMBER [someone@contoso.com];
-ALTER ROLE db_datawriter ADD MEMBER [someone@contoso.com];
-ALTER ROLE db_ddladmin ADD MEMBER [someone@contoso.com];
+CREATE USER [<identity-name>] FROM EXTERNAL PROVIDER;
+ALTER ROLE db_datareader ADD MEMBER [<identity-name>];
+ALTER ROLE db_datawriter ADD MEMBER [<identity-name>];
+ALTER ROLE db_ddladmin ADD MEMBER [<identity-name>];
 
 GO
 ```
 
-Substitute your managed identity for `someone@contoso.com`, and repeat this step with other managed identities that you wish to add. See [Managed Identity types](/entra/identity/managed-identities-azure-resources/overview#managed-identity-types) and [Managed identities in Microsoft Entra for Azure SQL](/azure/azure-sql/database/authentication-azure-ad-user-assigned-managed-identity?view=azuresql&preserve-view=true). The identities and roles that you add depend on your use cases. See [ALTER ROLE](/sql/t-sql/statements/alter-role-transact-sql?view=azuresqldb-current&preserve-view=true).
+The `<identity-name>` is the name of the managed identity in Microsoft Entra ID. If the identity is system-assigned, the name is always the same as the name of your App Service app. For a deployment slot, the name of its system-assigned identity is `<app-name>/slots/<slot-name>`. To grant permissions for a Microsoft Entra group, use the group's display name instead (for example, `myAzureSQLDBAccessGroup`). See [Managed Identity types](/entra/identity/managed-identities-azure-resources/overview#managed-identity-types) and [Managed identities in Microsoft Entra for Azure SQL](/azure/azure-sql/database/authentication-azure-ad-user-assigned-managed-identity?view=azuresql&preserve-view=true). The roles that you add depend on your use cases. See [ALTER ROLE](/sql/t-sql/statements/alter-role-transact-sql?view=azuresqldb-current&preserve-view=true).
 
 If your code references `System.Data.SqlClient`, you'll need to upgrade to `Microsoft.Data.SqlClient`, since `System.Data.SqlClient` doesn't support Microsoft Entra authentication. To upgrade, add a reference the [Microsoft.Data.SqlClient NuGet package](https://www.nuget.org/packages/Microsoft.Data.SqlClient), and update any using directives that reference `System.Data.SqlClient` to reference the `Microsoft.Data.SqlClient` namespace. There are some behavior changes; see [Porting cheat sheet](https://github.com/dotnet/SqlClient/blob/main/porting-cheat-sheet.md).
 
