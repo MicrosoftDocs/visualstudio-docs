@@ -52,17 +52,7 @@ You can use the right-click context menu to customize the view:
 - Select **Expand Column** to see more details items in the complex data.
 - Select **Hide Children** to get a more concise view of your data.
 
-## Filter, sort, and export visualizer data
-
-- Both DataSet and IEnumerable support filtering, sorting, and exporting of visualizer data.
-- You can sort the visualizer columns in ascending/descending order by clicking on the column name.
-- You also can filter visualizer data based on a filter string. Enter the string in the filter box in the upper right corner and press Enter. The Visualizer returns all the rows that contain a value that matches the filter string.
-- You can export the data from IEnumerable visualizers in CSV/Excel format using the dropdown on the top right corner.
-- You can also export the filtered and sorted results in CSV/Excel format.
-
-:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-filtering.png" alt-text="Screenshot of View the visualizer data filter.":::
-
-## Modify the expression in the IEnumerable visualizer
+### Modify the expression in the IEnumerable visualizer
 
 Starting in Visual Studio 2022 version 17.11, you can directly change the **Expression** textbox for the IEnumerable visualizer with a modified LINQ expression. The visualizer data gets updated, reflecting the data change resulting from your new query.
 
@@ -75,6 +65,16 @@ Starting in Visual Studio 2022 version 17.12 Preview 2, you can get AI assitance
 In the Copilot Chat, you see LINQ syntax examples. Additionally, you can describe your query in natural language, and GitHub Copilot will generate the corresponding LINQ query. To apply LINQ query filtering to the visualizer, use the **Show in Visualizer** button in the chat.
 
 :::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-edit-expression-copilot-show-in-visualizer.png" alt-text="Screenshot of Show in Visualizer button in Copilot Chat.":::
+
+## Filter, sort, and export visualizer data
+
+- Both DataSet and IEnumerable support filtering, sorting, and exporting of visualizer data.
+- You can sort the visualizer columns in ascending/descending order by clicking on the column name.
+- You also can filter visualizer data based on a filter string. Enter the string in the filter box in the upper right corner and press Enter. The Visualizer returns all the rows that contain a value that matches the filter string.
+- You can export the data from IEnumerable visualizers in CSV/Excel format using the dropdown on the top right corner.
+- You can also export the filtered and sorted results in CSV/Excel format.
+
+:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-filtering.png" alt-text="Screenshot of View the visualizer data filter.":::
 
 ## Related content
 - [View strings in a string visualizer](../debugger/view-strings-visualizer.md)
