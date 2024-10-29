@@ -19,11 +19,13 @@ Describes the variety of user-defined type (UDT).
 ## Syntax
 
 ```C++
-enum UdtKind {
+enum UdtKind
+{
     UdtStruct,
     UdtClass,
     UdtUnion,
-    UdtInterface
+    UdtInterface,
+    UdtTaggedUnion
 };
 ```
 

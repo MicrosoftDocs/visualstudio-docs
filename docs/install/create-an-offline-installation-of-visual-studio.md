@@ -1,7 +1,7 @@
 ---
 title: Create an offline installation
 description: Create an offline installation package to install Visual Studio offline when you have an unreliable internet connection or low bandwidth.
-ms.date: 7/19/2024
+ms.date: 10/28/2024
 ms.topic: conceptual
 f1_keywords:
 - offline installation [Visual Studio]
@@ -10,7 +10,6 @@ f1_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
-
 ms.subservice: installation
 ---
 # Create an offline installation package of Visual Studio for local installation
@@ -27,7 +26,9 @@ Visual Studio is designed to work well in various computer configurations. In th
 
 Sometimes online access is problematic. For example, you might have an unreliable internet connection or your internet connection might have low bandwidth. For situations like these, you have other methods available for acquiring Visual Studio. You can use the **Download all, then install** feature from the Visual Studio Installer to download an installation package on the local machine *before* you install it locally, or you can use the command line to create a local installation package to install locally later.
 
-To download a local installation package, select the **Download all, then install** option in the dropdown at the bottom of the **Workloads** tab of the Visual Studio Installer. The purpose of this feature is to download the Visual Studio packages in advance on the computer where Visual Studio will eventually be installed. By downloading the packages locally first, you can then safely disconnect from the internet before you install Visual Studio.
+After you [download the bootstrapper](#step-1---download-the-visual-studio-bootstrapper), run it to install Visual Studio. It'll first install and then launch the latest version of the Visual Studio Installer, which you can use to customize and configure your installation, download installation packages, and install the product.
+
+To complete downloading the product before installation starts, select the **Download all, then install** option in the dropdown at the bottom of the default **Workloads** tab of the Visual Studio Installer. The purpose of this feature is to download the Visual Studio packages in advance on the computer where Visual Studio will eventually be installed. By downloading the packages locally first, you can then safely disconnect from the internet before you install Visual Studio.
 
    ![The "Download all, then install" option](media/vs-2019/download-all-then-install-from-installer.png)
 
