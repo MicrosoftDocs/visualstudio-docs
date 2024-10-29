@@ -14,6 +14,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
+ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
 ---
 
@@ -63,9 +64,17 @@ You can use the right-click context menu to customize the view:
 
 ## Modify the visualizer expression
 
-Starting in Visual Studio 2022 version 17.11 Preview 6, you can directly change the **Expression** textbox with a modified LINQ expression. The visualizer data gets updated, reflecting the data change resulting from your new query.
+Starting in Visual Studio 2022 version 17.11, you can directly change the **Expression** textbox with a modified LINQ expression. The visualizer data gets updated, reflecting the data change resulting from your new query.
 
 :::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-edit-expression.png" alt-text="Screenshot of View the visualizer data edit the expression.":::
+
+Starting in Visual Studio 2022 version 17.12 Preview X, you can get AI assitance to edit the LINQ expression. If you have Copilot activated, click the GitHub [Copilot](../ide/visual-studio-github-copilot-extension.md) icon to open Copilot chat.
+
+:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-edit-expression-copilot.png" alt-text="Screenshot of View the visualizer data edit the expression.":::
+
+In the Copilot chat, you see LINQ syntax examples. Additionally, you can describe your query in natural language, and GitHub Copilot will generate the corresponding LINQ query. To apply LINQ query filtering to the visualizer, use the **Show in Visualizer** button in the chat.
+
+:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-edit-expression-copilot-show-in-visualizer.png" alt-text="Screenshot of View the visualizer data edit the expression.":::
 
 ## Related content
 - [View strings in a string visualizer](../debugger/view-strings-visualizer.md)
