@@ -135,7 +135,7 @@ To configure IIS for ASP.NET Core applications, install the [.NET Core Hosting B
 If you're working with ASP.NET 4.8 or earlier, or if you need to configure IIS on Windows Server for publishing, you can find detailed steps in [Remote debugging ASP.NET on an IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) and for ASP.NET Core, [Remote debugging ASP.NET Core on an IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md).
 
 > [!CAUTION]
-> A web server must be configured with security best practices in mind. Refer to the [IIS documentation](/iis/) for recommended security practices.
+> A web server must be configured with security best practices in mind. Refer to the [IIS documentation](/iis/) for recommended security practices. For IIS 8, see [Security Best Practices for IIS 8](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/jj635855(v=ws.11)).
 
 ### Publish to IIS web server
 
