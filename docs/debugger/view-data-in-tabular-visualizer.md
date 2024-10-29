@@ -68,13 +68,13 @@ Starting in Visual Studio 2022 version 17.11, you can directly change the **Expr
 
 :::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-edit-expression.png" alt-text="Screenshot of View the visualizer data edit the expression.":::
 
-Starting in Visual Studio 2022 version 17.12 Preview X, you can get AI assitance to edit the LINQ expression. If you have Copilot activated, click the GitHub [Copilot](../ide/visual-studio-github-copilot-extension.md) icon to open Copilot chat.
+Starting in Visual Studio 2022 version 17.12 Preview X, you can get AI assitance to edit the LINQ expression. If you have Copilot activated, click the GitHub [Copilot](../ide/visual-studio-github-copilot-extension.md) icon to open Copilot Chat.
 
-:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-edit-expression-copilot.png" alt-text="Screenshot of View the visualizer data edit the expression.":::
+:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-edit-expression-copilot.png" alt-text="Screenshot of Copilot button to get help to edit the expression.":::
 
-In the Copilot chat, you see LINQ syntax examples. Additionally, you can describe your query in natural language, and GitHub Copilot will generate the corresponding LINQ query. To apply LINQ query filtering to the visualizer, use the **Show in Visualizer** button in the chat.
+In the Copilot Chat, you see LINQ syntax examples. Additionally, you can describe your query in natural language, and GitHub Copilot will generate the corresponding LINQ query. To apply LINQ query filtering to the visualizer, use the **Show in Visualizer** button in the chat.
 
-:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-edit-expression-copilot-show-in-visualizer.png" alt-text="Screenshot of View the visualizer data edit the expression.":::
+:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-edit-expression-copilot-show-in-visualizer.png" alt-text="Screenshot of Show in Visualizer button in Copilot Chat.":::
 
 ## Related content
 - [View strings in a string visualizer](../debugger/view-strings-visualizer.md)
