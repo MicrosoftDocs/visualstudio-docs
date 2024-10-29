@@ -98,6 +98,8 @@ The connected service functionality adds all the needed references and connectio
 
    If you click on the three dots next to the dependency you added, you can see various options such as **Connect** to reopen the wizard and change the connection. You can also click the three dots at the top right of the window to see options to start local dependencies, change settings, and more.
 
+1. If you're using managed identity (Visual Studio 17.12 and later), see the next section to set up the managed identity user in your Azure SQL database.
+
 ## Microsoft Entra authentication
 
 With Visual Studio 2022 version 17.12 and later, the connected services procedure uses Microsoft Entra authentication, which is the most secure method of authentication. However, Visual Studio doesn't create the Microsoft Entra admin user on the Azure SQL database for you automatically. If there isn't a Microsoft Entra admin user, the connection will fail to authenticate successfully.
