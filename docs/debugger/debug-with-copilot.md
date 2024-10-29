@@ -1,7 +1,7 @@
 ---
 title: Debug with GitHub Copilot
 description: Use Copilot to help debug your apps and provide performance insights.
-ms.date: 09/06/2024
+ms.date: 10/29/2024
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -214,6 +214,10 @@ In this example, we show AI suggestions for a conditional breakpoint. For tracep
    1. Restart the debugger.
    
    When the debugger pauses at the breakpoint, check the value of `item` and verify that the current value is `Fred`.
+
+## Get AI assistance in the IEnumerable tabular visualizer
+
+For AI assistance for the IEnumberable tabular visualizer, see [Modify the visualizer expression](../debugger/view-data-in-tabular-visualizer.md#modify-the-visualizer-expression).
 
 ## Get AI assistance for auto insights
 
