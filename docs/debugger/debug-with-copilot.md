@@ -217,7 +217,7 @@ In this example, we show AI suggestions for a conditional breakpoint. For tracep
 
 ## Get AI assistance in the IEnumerable tabular visualizer
 
-For AI assistance for the IEnumberable tabular visualizer, see [Modify the visualizer expression](../debugger/view-data-in-tabular-visualizer.md#modify-the-visualizer-expression).
+For AI assistance for the IEnumberable tabular visualizer, see [Modify the visualizer expression](../debugger/view-data-in-tabular-visualizer.md#modify-the-expression-in-the-ienumerable-visualizer).
 
 ## Get AI assistance for auto insights
 
