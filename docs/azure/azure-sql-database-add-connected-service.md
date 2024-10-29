@@ -78,7 +78,7 @@ The connected service functionality adds all the needed references and connectio
    ![Screenshot showing "Specify connection string" screen.](./media/vs-2022/connect-to-azure-sql-database-light.png)
 
    > [!NOTE]
-   > With Visual Studio 2022 version 17.12 and later, this procedure uses Microsoft Entra passwordless authentication to connect to the database. The warning on this screen means that you need to perform a manual step in the Azure Portal after completing this procedure in Visual Studio. See [Microsoft Entra authentication](#microsoft-entra-authentication).
+   > With Visual Studio 2022 version 17.12 and later, this procedure uses Microsoft Entra managed identity, a passwordless authentication method, to connect to the database. The warning on this screen means that you need to perform a manual step in the Azure Portal after completing this procedure in Visual Studio. See [Microsoft Entra authentication](#microsoft-entra-authentication).
 
 1. Choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault), and then choose **Next**.
 
