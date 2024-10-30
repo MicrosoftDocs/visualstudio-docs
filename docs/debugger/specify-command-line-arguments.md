@@ -19,7 +19,7 @@ In Visual C++, use the command-line arguments dropdown to quickly specify or reu
 
 ## Prerequisites
 
-- Visual Studio 2022 version 17.12 or later.
+- Visual Studio 2022 version 17.12 preview 5 or later.
 - Visual Studio Tools for Unreal Engine. See [Install Visual Studio Tools for Unreal Engine](/visualstudio/gamedev/unreal/get-started/vs-tools-unreal-install)) for installation instructions.
 
 ## Specify command-line arguments

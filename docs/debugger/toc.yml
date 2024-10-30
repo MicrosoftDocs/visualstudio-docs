@@ -137,7 +137,7 @@
         - name: Enable debug features in C++ (-D_DEBUG)
           href: enabling-debug-features-in-visual-cpp-d-debug.md
         - name: Send command-line arguments to a debugee (C++)
-          href: specify-command-line-args.md
+          href: specify-command-line-arguments.md
       - name: Project settings (C#)
         href: project-settings-for-csharp-debug-configurations.md
       - name: Project settings (.NET C#)
