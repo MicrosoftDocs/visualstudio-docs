@@ -47,7 +47,7 @@ In this example, we use the Lyra game project to demonstrate opening a native Un
 
 1. In Visual Studio, open the **File** menu and then select **Open** > **Open Folder**.
 1. Navigate to the directory where the Lyra game project (`LyraStarterGame.uproject`) is installed and choose **Select Folder**.
-1. Once the folder is selected, the project files appear in the **Solution Explorer** and messages in the **Output** window regarding the steps of setting up the workspace.
+1. Once the folder is selected, the project files appear in the **Solution Explorer** and messages appear in the **Output** window regarding setting up the workspace.
 
     :::image type="complex" source="../media/vs-open-folder.png" alt-text="A screenshot of Visual Studio following opening the folder for the Lyra game sample." lightbox="../media/vs-open-folder.png":::
     There's a message at the top of the editor that other build systems are disabled because an Unreal Engine project is open. The **Output** window shows some last messages about the project workspace being set up. To the right is the solution explorer and it shows the folders and files in the Lyra game sample such as Platforms, Plugins, Source, and so on.
@@ -57,7 +57,7 @@ A message appears the Unreal Engine project support is activated and that other 
 
 ## View the project in the Solution Explorer
 
-The **Solution Explorer** window shows many of the files and folders that are part of the Unreal Engine project, such as the `Platforms`, `Plugins`, and `Source` folders. You can also see the Unreal Engine `.uproject` file. The **Engine** folder contains the sources directory from Unreal Engine.
+The **Solution Explorer** window shows many of the files and folders that are part of the Unreal Engine project, such as the `Platforms`, `Plugins`, and `Source` folders. You can also see the Unreal Engine `.uproject` file. The **Engine** folder contains the sources directory for Unreal Engine.
 
 The **Solution Explorer** is filtered to focus on the source code. By default, the `Content` folders are filtered out, which contain binary assets like textures, models, and so on. You can open these assets in the Unreal Engine Editor. In general, binary files aren't displayed in the Visual Studio **Solution Explorer**.
 
@@ -87,19 +87,23 @@ In the **Output** window, messages appear while readying the Unreal Engine Build
 
 ### Unreal Engine Targets
 
-When you build an Unreal Engine project, there are different build configurations, called *targets*, you can choose. The **Unreal Engine Targets** option is where you generate those targets. Choose the refresh icon to refresh the list of Unreal Engine targets and open the window where you can select the target configurations you want to create:
+When you build an Unreal Engine project, there are different build configurations, called *targets*, that you can choose.
+
+The **Unreal Engine Targets** option is where you generate those targets. Choose the refresh icon to refresh the list of Unreal Engine targets and open the window where you can select the target configurations you want to create:
 
 :::image type="complex" source="../media/vs-unreal-engine-targets-configuration.png" alt-text="A screenshot of the Unreal Engine Build Targets combinations window." lightbox="../media/vs-unreal-engine-targets-configuration.png":::
 There are three configuration option dropdowns and an **Add** and a **Generate Targets** button. The refresh button near the top is also highlighted.
 :::image-end:::
 
-For more information about the target combinations that you can choose, see Unreal Engine's documentation [Build Configuration Descriptions](https://dev.epicgames.com/documentation/en-us/unreal-engine/build-configurations-reference-for-unreal-engine?application_version=5.4).
+For more information about target combinations, see Unreal Engine's documentation [Build Configuration Descriptions](https://dev.epicgames.com/documentation/en-us/unreal-engine/build-configurations-reference-for-unreal-engine?application_version=5.4).
 
-In this example, **LyraClient**, **DebugGame**, and **Win64** are selected in the dropdowns. Choose **Add** to add them to the list of configurations to generate. Then choose **Generate Targets** to create the selected configurations for each configuration that has its checkbox selected.
+In this example, **LyraClient**, **DebugGame**, and **Win64** are selected in the dropdowns.
+1. Choose **Add** to add them to the list of configurations to generate.
+1. Choose **Generate Targets** to create the selected configurations for each configuration that has its checkbox selected.
 
-Once the targets are generated, you can select them as described in [Choose the build configuration](#choose-the-build-configuration).
+Once the targets are generated, you can select them as described in [Choose the build configuration](#choose-the-build-configuration). Watch for errors in the output window when you generate targets because some combinations may not be supported.
 
-You can remove targets by unchecking the ones you don't want and then selecting the **Generate Targets** button. When you select **Generate Targets**, targets that aren't selected are removed, though they won't disappear from this list until you reload the project. Watch for errors in the output window when you generate targets because some combinations may not be supported.
+You can remove targets by unchecking the ones you don't want and then selecting the **Generate Targets** button. When you select **Generate Targets**, targets that aren't selected are removed, though they won't disappear from this list until you reload the project.
 
 ## Edit target properties
 
@@ -111,13 +115,13 @@ For example, if `LyraEditor.Target.cs` is the startup target (in which case it's
 A menu appears and at the bottom is the option to edit this Unreal Engine target. Selecting this option opens UETargetProperties.json in the editor.
 :::image-end:::
 
-You can then change target properties such as command-line arguments, and so on.
+You can then change target properties such as command-line arguments.
 
 ## Edit project settings
 
 To edit the Unreal Engine project settings, right-click on the `.uproject` file in the Solution Explorer and choose **Edit Unreal Engine project settings**.
 
-The `ProjectSettings.json` file opens in the editor. You can then change project settings such as which project files and engine files to exclude from the Solution explorer view, what shared include paths to exclude from IntelliSense, and so on. You can use these settings to exclude files that are slowing down IntelliSense.
+The `ProjectSettings.json` file opens in the editor. You can then change project settings such as which project files and engine files to exclude from the Solution Explorer view, which shared include paths to exclude from IntelliSense, and so on. You can use these settings to exclude files that you don't need to speed up IntelliSense.
 
 :::image type="complex" source="../media/vs-unreal-engine-project-properties.png" alt-text="A screenshot of a right click on the LyraStarterGame.uproject solution explorer item.":::
 A menu appears and at the bottom is the option to edit the Unreal Engine project settings. Selecting this option opens the `.uproject` file in the editor.
@@ -131,7 +135,7 @@ To choose a build configuration, choose the target you want from the Configurati
 The configuration dropdown menu contains the items: DebugGame - Win64 and Development - Win64.
 :::image-end:::
 
-If the target you want to build isn't in the list, you can add it as described in [Unreal Engine Targets](#unreal-engine-targets).
+If the target you want to build isn't in the list, add it as described in [Unreal Engine Targets](#unreal-engine-targets).
 
 ## Editing and debugging in Visual Studio
 
@@ -141,10 +145,10 @@ You can set breakpoints in your code and then run the game in the Unreal Engine 
 
 By default, Visual Studio generates only one target: **Development - Win64**. This target builds and launches the Unreal Editor with your game project loaded.
 
-If you opened the folder for the Lyra game sample project in Visual Studio, try debugging by following these steps:
+If you opened the folder for the Lyra game sample project in Visual Studio, try out debugging by following these steps:
 
 1. In Visual Studio, open `LyraGameplayAbility_RangedWeapon.cpp`. Either search for that file in the Search pane of the **Solution Explorer** or find it under **Games** > **LyraStarterGame** > **Source** > **LyraGame** > **Weapons** > **LyraGameplayAbility_RangedWeapon.cpp**.
-1. In `LyraGameplayAbility_RangedWeapon.cpp`, go to line 477. You should see the function: `void ULyraGameplayAbility_RangedWeapon::OnTargetDataReadyCallback`
+1. In `LyraGameplayAbility_RangedWeapon.cpp`, go to about line 477. Look for the function: `void ULyraGameplayAbility_RangedWeapon::OnTargetDataReadyCallback`.
 1. Place a breakpoint on the function by pressing **F9**.
 1. Run the sample game in Visual Studio by choosing **Debug** > **Start Debugging**. Give the Unreal Engine Editor some time to load the game.
 1. In the Unreal Engine Editor, choose the Play button on the toolbar (or press `Alt+p`) to start the game.
@@ -155,7 +159,7 @@ If you opened the folder for the Lyra game sample project in Visual Studio, try 
 ## Common issues and solutions
 
 - Your engine and game code must be on the same drive. If they aren't, see [Game source and engine source are on different drives](#game-source-and-engine-source-are-on-different-drives).
-- Folders with multiple `.uproject` files in the same folder aren't supported. To open a specific `.uproject` file when there are multiple project files in the same folder, use **File** > **Open** > **Unreal Engine project**.
+- Multiple `.uproject` files in the same folder isn't supported. To open a specific `.uproject` file when there are multiple project files in the same folder, use **File** > **Open** > **Unreal Engine project**.
 - If you open an Unreal Engine project via **File** > **Open** > **Unreal Engine project**, the project doesn't appear in Visual Studio's **File** > **Recent Projects and Solutions** list. If you open the Unreal Engine project via **File** > **Open Folder**, then the opened Unreal Engine project appears in the recently opened projects list.
 - Some extensions may not work with a project opened as an Unreal Engine project.
 - The property window is empty for source files. This is currently by design.
@@ -163,7 +167,7 @@ If you opened the folder for the Lyra game sample project in Visual Studio, try 
 
 ### Game source and engine source are on different drives
 
-If your Unreal Engine source code and game source code are on different drives, an error appears when you open your game code project. For example: if you have a game project located at `C:\Users\MyUser\MyGame` then the Unreal Engine must be located somewhere on the `C:\` drive; otherwise Unreal Engine project support in Visual Studio isn't available:
+If your Unreal Engine source code and game source code are on different drives, an error appears when you open your game code project. For example: if you're game is located at `C:\Users\MyUser\MyGame` then the Unreal Engine must be located somewhere on the `C:\` drive; otherwise Unreal Engine project support in Visual Studio isn't available:
 
 :::image type="content" source="../media/vs-same-drive-error.png" alt-text="A screenshot of the multi-drive error window.":::
 
@@ -173,7 +177,7 @@ We recommend one of the following solutions:
 
 The easiest solution is to move the game project to the same logical drive where the Unreal Engine resides using the `Windows File Explorer`.
 
-If you're moving the Unreal Engine source that you installed via the `Epic Games Launcher`, uninstall the engine and then reinstall it to the same drive as the game. This has the advantage of ensuring that the engine configuration files reflect the new location.
+If you're moving the Unreal Engine source that you installed via the `Epic Games Launcher`, uninstall the engine and then reinstall it to the same drive as the game. This way the engine configuration files reflect the new location.
 
 After you have the game source and engine source on the same drive, you can open the `.uproject` in Visual Studio.
 
@@ -188,11 +192,11 @@ For this example, assume that the Unreal Engine is located at `C:\Program Files\
 1. Create a symlink that points to the Unreal Engine. The `mklink` command takes a link parameter that specifies the symbolic link name which is how the location for your directory appears to the file system. The target parameter is what you're linking to. For example, `mklink /d "Q:\UE-Link" "C:\Program Files\Epic Games\UE_5.4"` creates a symbolic link named `Q:\UE-Link` that points to the Unreal Engine directory on the `C:` drive.
 1. Open your game's `.uproject` file and change the `EngineAssociation` property to be the symlink folder that you created. For example, `"EngineAssociation": "Q:\\UE-Link"`.
 
-Now you can open the `.uproject` in Visual Studio because the game source and engine source appear to be on the same drive. The symlink will take care of redirecting references to the engine to where it is actually installed.
+Now you can open the `.uproject` in Visual Studio because the game source and engine source appear to be on the same drive. The symlink will take care of redirecting file references to the engine.
 
 ### Solution #3: Create a symbolic link to Unreal Engine and change configuration files
 
-This solution is more fragile because it changes a configuration file and the change may be reverted the next time you update Unreal Engine.
+This solution is fragile because it changes a configuration file and the change may be reverted the next time you update Unreal Engine.
 
 For this example, assume that the Unreal Engine is located at `C:\Program Files\Epic Games\UE_5.4` and your game is located at `Q:\src\Game`
 
@@ -228,7 +232,7 @@ After:
 }
 ```
 
-Now you can open the `.uproject` in Visual Studio because the game source and engine source appear to be on the same drive. The symlink will take care of redirecting references to the engine to where it is actually installed.
+Now you can open the `.uproject` in Visual Studio because the game source and engine source appear to be on the same drive. The symlink will take care of redirecting file references to the engine.
 
 ## Related content
 

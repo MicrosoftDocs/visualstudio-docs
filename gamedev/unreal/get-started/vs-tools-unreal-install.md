@@ -32,7 +32,7 @@ You should have the following installed before you install Visual Studio Tools f
 This article covers installing two tools that connect Visual Studio and Unreal Engine:
 
 - **Visual Studio Tools for Unreal Engine** are installed with the Visual Studio installer. It lets you add UE classes, see Unreal Engine header tool warnings, view UE logging, and more--all from within Visual Studio.
-- **Unreal Engine Visual Studio Integration Tool plugin** is installed into Unreal Engine from the Epic Games marketplace. It supports viewing UE Blueprints from within Visual Studio, and the Unreal Engine test adapter in Visual Studio which lets you discover, run, manage, and debug your Unreal Engine tests from within Visual Studio. As of Visual Studio 2022 17.10, you no longer need the plugin to view UE Blueprints in Visual Studio, however, you do need it to use the Unreal Engine test adapter in Visual Studio.
+- **Unreal Engine Visual Studio Integration Tool plugin** is installed into Unreal Engine from the Epic Games marketplace or from source. It supports viewing UE Blueprints from within Visual Studio, and the Unreal Engine test adapter in Visual Studio which lets you discover, run, manage, and debug your Unreal Engine tests from within Visual Studio. As of Visual Studio 2022 17.10, you no longer need the plugin to view UE Blueprints in Visual Studio, however, you do need it to use the Unreal Engine test adapter in Visual Studio.
 
 To install Visual Studio Tools for Unreal Engine:
 
