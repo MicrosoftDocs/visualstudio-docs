@@ -13,6 +13,7 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
+ms.collection: ce-skilling-ai-copilot
 ---
 
 # Inspect variables in the Autos and Locals windows
