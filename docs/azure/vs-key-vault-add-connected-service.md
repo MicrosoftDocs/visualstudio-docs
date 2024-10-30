@@ -6,7 +6,7 @@ author: ghogen
 manager: mijacobs
 ms.custom: devx-track-csharp
 ms.topic: how-to
-ms.date: 04/10/2024
+ms.date: 10/30/2024
 ms.author: ghogen
 ---
 
@@ -33,15 +33,15 @@ Before you begin, make sure that you're signed in to Visual Studio. Sign in with
    The Connected Service page appears with services you can add to your project.
 1. In the menu of available services, choose **Azure Key Vault** and click **Next**.
 
-   ![Choose "Azure Key Vault"](./media/vs-key-vault-add-connected-service/key-vault-connected-service.png)
+   ![Screenshot showing Connected Services screen, with option to choose Azure Key Vault.](./media/vs-key-vault-add-connected-service/key-vault-connected-service.png)
 
 1. Select the subscription you want to use, and then if you already have a key vault you want to use, select it and click **Next**.
 
-   ![Screenshot Select your subscription](./media/vs-key-vault-add-connected-service/key-vault-connected-service-select-vault.png)
+   ![Screenshot showing Select your subscription.](./media/vs-key-vault-add-connected-service/key-vault-connected-service-select-vault.png)
 
 1. If you don't have an existing Key Vault, or if you need a Key Vault that you can set with different permissions than an existing one, click on **Create new Key Vault**. You'll be asked to provide the resource group, location, and SKU.
 
-   ![Screenshot of "Create Azure Key Vault" screen](./media/vs-key-vault-add-connected-service/create-new-key-vault.png)
+   ![Screenshot of "Create Azure Key Vault" screen.](./media/vs-key-vault-add-connected-service/create-new-key-vault.png)
 
 1. In the **Configure Key Vault** screen, you can change the name of the environment variable that references the Key Vault URI. The connection string is not stored here; it's stored in the key vault.
 
@@ -66,15 +66,15 @@ Before you begin, make sure that you're signed in to Visual Studio. Sign in with
    The Connected Service page appears with services you can add to your project.
 1. In the menu of available services, choose **Azure Key Vault** and click **Next**.
 
-   ![Choose "Azure Key Vault"](./media/vs-key-vault-add-connected-service/key-vault-connected-service.png)
+   ![Screenshot showing Connected Services screen and option to choose Azure Key Vault.](./media/vs-key-vault-add-connected-service/key-vault-connected-service.png)
 
 1. Select the subscription you want to use, and then if you already have a key vault you want to use, select it and click **Next**.
 
-   ![Screenshot Select your subscription](./media/vs-key-vault-add-connected-service/key-vault-connected-service-select-vault.png)
+   ![Screenshot showing Select your subscription.](./media/vs-key-vault-add-connected-service/key-vault-connected-service-select-vault.png)
 
 1. If you don't have an existing Key Vault, click on **Create new Key Vault**. You'll be asked to provide the resource group, location, and SKU.
 
-   ![Screenshot of "Create Azure Key Vault" screen](./media/vs-key-vault-add-connected-service/create-new-key-vault.png)
+   ![Screenshot of "Create Azure Key Vault" screen.](./media/vs-key-vault-add-connected-service/create-new-key-vault.png)
 
 1. In the **Configure Key Vault** screen, you can change the name of the environment variable that references the Key Vault URI. The connection string is not stored here; it's stored in the key vault.
 

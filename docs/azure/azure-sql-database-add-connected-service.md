@@ -5,7 +5,7 @@ author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
 ms.topic: conceptual
-ms.date: 10/17/2024
+ms.date: 10/30/2024
 ms.author: ghogen
 monikerRange: ">= vs-2019"
 ---
@@ -106,7 +106,7 @@ With Visual Studio 2022 version 17.12 and later, the connected services procedur
 
 You can use the Azure Portal, PowerShell, or the Azure CLI to create the Microsoft Entra admin user. For detailed instructions for each of these methods, see [Set the Microsoft Entra admin user](/azure/azure-sql/database/authentication-aad-configure?view=azuresql&preserve-view=true&tabs=azure-portal#azure-sql-database-and-azure-synapse-analytics).
 
-After completing the Connected Services process, you'll need to create a SQL user that corresponds to the managed identity, and set permissions by executing SQL statements in the database. Sign in to the [query editor](/azure/azure-sql/database/connect-query-portal?view=azuresql&preserve-view=true) in the Azure portal as your Microsoft Entra admin user, and execute statements like the following:
+After completing the Connected Services process, you'll need to create a SQL user that corresponds to the managed identity, and set permissions by executing SQL statements in the database. Sign in to the [query editor](/azure/azure-sql/database/connect-query-portal?view=azuresql&preserve-view=true) in the Azure Portal as your Microsoft Entra admin user, and execute statements like the following:
 
 ```tsql
 CREATE USER [<identity-name>] FROM EXTERNAL PROVIDER;
