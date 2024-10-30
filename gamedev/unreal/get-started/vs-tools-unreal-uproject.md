@@ -167,7 +167,7 @@ If you opened the folder for the Lyra game sample project in Visual Studio, try 
 
 ### Game source and engine source are on different drives
 
-If your Unreal Engine source code and game source code are on different drives, an error appears when you open your game code project. For example: if you're game is located at `C:\Users\MyUser\MyGame` then the Unreal Engine must be located somewhere on the `C:\` drive; otherwise Unreal Engine project support in Visual Studio isn't available:
+If your Unreal Engine source code and game source code are on different drives, an error appears when you open your game code project. For example: if your game is located at `C:\Users\MyUser\MyGame` then the Unreal Engine must be located somewhere on the `C:\` drive; otherwise Unreal Engine project support in Visual Studio isn't available:
 
 :::image type="content" source="../media/vs-same-drive-error.png" alt-text="A screenshot of the multi-drive error window.":::
 
