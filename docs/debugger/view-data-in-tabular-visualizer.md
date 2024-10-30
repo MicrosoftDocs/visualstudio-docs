@@ -56,15 +56,15 @@ You can use the right-click context menu to customize the view:
 
 Starting in Visual Studio 2022 version 17.11, you can directly change the **Expression** textbox for the IEnumerable visualizer with a modified LINQ expression. The visualizer data gets updated, reflecting the data change resulting from your new query.
 
-:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-edit-expression.png" alt-text="Screenshot of View the visualizer data edit the expression.":::
+:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-edit-expression.png" alt-text="Screenshot of view the visualizer data and edit the expression.":::
 
-Starting in Visual Studio 2022 version 17.12 Preview 2, you can get AI assitance to edit the LINQ expression. If you have Copilot activated, click the GitHub [Copilot](../ide/visual-studio-github-copilot-extension.md) icon to open Copilot Chat.
+Starting in Visual Studio 2022 version 17.12 Preview 2, you can get AI assistance to edit the LINQ expression. If you have Copilot activated, click the GitHub [Copilot](../ide/visual-studio-github-copilot-extension.md) icon to open Copilot Chat.
 
-:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-edit-expression-copilot.png" alt-text="Screenshot of Copilot button to get help to edit the expression.":::
+:::image type="content" source="../debugger/media/vs-2022/debug-ienumerable-visualizer-edit-expression-copilot.png" alt-text="Screenshot of Copilot button to get help to edit the expression.":::
 
 In the Copilot Chat, you see LINQ syntax examples. Additionally, you can describe your query in natural language, and GitHub Copilot will generate the corresponding LINQ query. To apply LINQ query filtering to the visualizer, use the **Show in Visualizer** button in the chat.
 
-:::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-visualizer-edit-expression-copilot-show-in-visualizer.png" alt-text="Screenshot of Show in Visualizer button in Copilot Chat.":::
+:::image type="content" source="../debugger/media/vs-2022/debug-ienumerable-visualizer-edit-expression-copilot-show-in-visualizer.png" alt-text="Screenshot of Show in Visualizer button in Copilot Chat.":::
 
 ## Filter, sort, and export visualizer data
 
