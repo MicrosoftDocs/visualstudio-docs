@@ -1,7 +1,7 @@
 ---
 title: "Install Visual Studio Tools for Unreal Engine"
 description: "Learn how to connect Unreal Engine and Visual Studio. Visual Studio Tools for Unreal Engine offers support for writing and debugging C++ Unreal Engine games."
-ms.date: 10/25/2024
+ms.date: 10/30/2024
 ms.service: visual-studio
 ms.subservice: unreal-engine-tools
 ms.topic: get-started
@@ -13,6 +13,7 @@ manager: Coxford
 # Install Visual Studio Tools for Unreal Engine
 
 This article helps you install Visual Studio Tools for Unreal Engine (UE). These tools allow you to do the following from within Visual Studio:
+
 - Add UE classes
 - View UE logging
 - View and expand UE macros
@@ -27,12 +28,12 @@ You should have the following installed before you install Visual Studio Tools f
 - Visual Studio version 17.7 or later. To install, see [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
 - Unreal Engine version 4.27 or 5.0 or later. To install, see [Download instructions](https://www.unrealengine.com/download)
 
-## Install Visual Studio Tools for Unreal Engine
+## Installation
 
 This article covers installing two tools that connect Visual Studio and Unreal Engine:
 
-- **Visual Studio Tools for Unreal Engine** are installed with the Visual Studio installer. It lets you add UE classes, see Unreal Engine header tool warnings, view UE logging, and more--all from within Visual Studio.
-- **Unreal Engine Visual Studio Integration Tool plugin** is installed into Unreal Engine from the Epic Games marketplace or from source. It supports viewing UE Blueprints from within Visual Studio, and the Unreal Engine test adapter in Visual Studio which lets you discover, run, manage, and debug your Unreal Engine tests from within Visual Studio. As of Visual Studio 2022 17.10, you no longer need the plugin to view UE Blueprints in Visual Studio, however, you do need it to use the Unreal Engine test adapter in Visual Studio.
+- **Visual Studio Tools for Unreal Engine** are installed into Visual Studio with the Visual Studio installer. It lets you add UE classes, view UE logging, and more--all from within Visual Studio.
+- **Unreal Engine Visual Studio Integration Tool plugin** is installed into Unreal Engine via the Epic Games marketplace (now called HAB) or from source. It supports the Unreal Engine test adapter in Visual Studio, which lets you discover, run, manage, and debug your Unreal Engine tests from within Visual Studio. As of Visual Studio 2022 17.10, you no longer need the plugin to view UE Blueprints in Visual Studio. But you do need it to use the Unreal Engine test adapter in Visual Studio.
 
 To install Visual Studio Tools for Unreal Engine:
 
@@ -52,7 +53,9 @@ To install Visual Studio Tools for Unreal Engine:
 
 The UnrealVS extension provides convenience features in Visual Studio such as making it easier to build UE projects, switching between startup projects, set command-line arguments, batch build projects, and so on. The UnrealVS extension isn't required to use Visual Studio Tools for Unreal Engine. For more information, see [UnrealVS Extension](https://docs.unrealengine.com/using-the-unrealvs-extension-for-unreal-engine-cplusplus-projects/).
 
-Install the plugin by cloning and installing the plugin from the [GitHub vc-ue-extensions repo](https://aka.ms/vc-ue-extensions). See the [README](https://github.com/microsoft/vc-ue-extensions#unreal-engine-plugin-for-visual-studio) in the repo for installation instructions. If you have difficulty with the UE plugin, see the [Troubleshooting guide](https://github.com/microsoft/vc-ue-extensions/blob/main/Docs/Troubleshooting.md).
+You can install the Unreal Engine Visual Studio Integration Tool plugin via the [Unreal Engine Marketplace (now called FAB)](https://aka.ms/vsituemarketplace) website. Search for "Visual Studio Integration Tool". The website provides instructions for installing the plugin.
+
+If you build Unreal Engine from source, or if your project isn't compatible with Unreal Engine Marketplace plugins, install the plugin manually by cloning and installing the plugin from the [GitHub vc-ue-extensions repo](https://aka.ms/vc-ue-extensions). See the [README](https://github.com/microsoft/vc-ue-extensions#unreal-engine-plugin-for-visual-studio) in the repo for installation instructions. If you have difficulty with the UE plugin, see the [Troubleshooting guide](https://github.com/microsoft/vc-ue-extensions/blob/main/Docs/Troubleshooting.md).
 
 For more information about customizations you can make to the Visual Studio IDE to work well with Unreal Engine, see the **Recommended Settings** section at [Setting Up Visual Studio for Unreal Engine](https://docs.unrealengine.com/en-US/setting-up-visual-studio-development-environment-for-cplusplus-projects-in-unreal-engine/).
 

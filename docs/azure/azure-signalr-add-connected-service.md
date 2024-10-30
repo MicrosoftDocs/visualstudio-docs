@@ -118,9 +118,16 @@ The connected service functionality adds all the needed references and connectio
 
    1. When the **Configure Azure SignalR Service** screen is displayed, the new instance appears in the list. Select the new instance in the list, and select **Next**.
 
-1. Enter a connection string name, or choose the default, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
+1. Enter a connection setting name, or accept the default.
 
-   ![Screenshot showing "Specify connection string" screen.](./media/azure-signalr-add-connected-service/connection-string.png)
+   ![Screenshot showing "Specify connection string" screen.](./media/vs-2022/azure-signalr-configuration-setting.png)
+
+   > [!NOTE]
+   > For improved security, in Visual Studio 17.12 and later, this step creates a connection setting name; previous versions create a connection string. Connection strings stored in the local filesystem can lead to a security risk, if they're inadvertently exposed.
+
+1. Click on **Additional settings** and choose whether you want the connection information stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
+
+   ![Screenshot showing additional settings with options for storing the connection setting.](./media/vs-2022/azure-signalr-additional-settings.png)
 
 1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
 
