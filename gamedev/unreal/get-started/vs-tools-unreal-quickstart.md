@@ -89,6 +89,22 @@ The toolbar buttons, left to right:
 - A button that opens the Unreal Engine log window.
 - A button to open the **Unreal Engine Integration Configuration** window where you can refresh and see the overall configuration status and Visual Studio Integration Tool status, check for Blueprint support, see whether get Unreal Engine naming convention checker status, and so on.
 
+## Command-line argument dropdown
+
+You might frequently launch your game with different combinations of command-line arguments during the editing and debugging part of your inner loop. This is now easier with the command-line arguments dropdown:
+
+:::image type="complex" source="../media/vs-command-line-args-dropdown.png" alt-text="A screenshot of the command-line args dropdown.":::
+The command-line arguments dropdown is shown following the Solutions Platforms dropdown on the Standard toolbar. There is an entry for C:\UE\LyraStarterGame\LyraStarterGame.uproject -fullscreen, and C:\UE\LyraStarterGame\LyraStarterGame.uproject -JsonDebugOutput.
+:::image-end:::
+
+To add command-line arguments, type them in the dropdown and press **Enter**. The arguments are saved in the order that you enter them and appear in the dropdown for future use.
+
+There's a limit of five command lines that you can add before the oldest one is removed to make room for a new one.
+
+The first argument when debugging an Unreal Engine project that runs in the Unreal Engine editor must be the path to the project. For example: `C:\UE\LyraStarterGame\LyraStarterGame.uproject`.
+
+For more information about using the command-line arguments dropdown, see [Pass command-line arguments while debugging (C++)](/visualstudio/debugger/specify-command-line-arguments).
+
 ## Next steps
 
 [Add Unreal Engine classes, modules, and plugins in Visual Studio](vs-tools-unreal-add-class-module-plugin.md)\
