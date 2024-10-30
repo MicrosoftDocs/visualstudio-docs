@@ -1,7 +1,7 @@
 ---
 title: "Send command-line arguments while debugging (C++)"
 description: Learn how to send command-line argument to a debuggee using the new command line arguments dropdown.
-ms.date: "10/25/2024"
+ms.date: 10/30/2024
 ms.topic: "conceptual"
 dev_langs:
   - "C++"
@@ -30,7 +30,7 @@ The command-line arguments dropdown is available in the **Standard** toolbar. If
 The Toolbars tab is selected in the Customize dialog. The entry for Standard, meaning the standard toolbar, is selected.
 :::image-end:::
 
-The command-line arguments dropdown follows the **Solutions Platforms** dropdown on the **Standard** toolbar. The dropdown is empty. The tooltip says, "empty".
+The command-line arguments dropdown follows the **Solutions Platforms** dropdown on the **Standard** toolbar. If no arguments have been specified, the dropdown is empty and the tooltip displays "empty".
 
 :::image type="complex" source="./media/command-line-argument-dropdown-empty.png" alt-text="A screenshot of the command-line arguments dropdown.":::
 The command-line arg dropdown is shown following the Solutions Platforms dropdown on the Standard toolbar. The dropdown is empty. A tooltip reads, "empty".
