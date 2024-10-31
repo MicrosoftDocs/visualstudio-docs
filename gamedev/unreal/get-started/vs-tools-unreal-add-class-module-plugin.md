@@ -49,6 +49,18 @@ To add an Unreal Engine module in Visual Studio, follow these steps after comple
 Modules can only be created in the **Source** folder or as a module of a plugin inside the **Plugins** folder.\
 The **Build** path shows where the `Build.cs` file is created. The `Build.cs` file contains configuration information for the module.
 
+### Build the module
+
+After adding the module, you need to build it to make it available in the Unreal Engine Editor. To build the module, follow these steps:
+
+In **Solution Explorer**, right-click on the module folder and choose **Build**. This builds the plugin and makes it available in the Unreal Engine Editor.
+
+    :::image type="complex" source="../media/vs-build-module-menu.png" alt-text="A screenshot of the menu to build the module.":::
+     The menu options after right-clicking the module folder MyModule are visible. The entry Build this Unreal Engine module, is highlighted.
+    :::image-end:::
+
+Build output is displayed in the **Output** window. If the build is successful, the module is available in the Unreal Engine Editor. If the build fails, the **Output** window displays the error messages.
+
 ## Add Unreal Engine classes in Visual Studio
 
 You can now add Unreal Engine classes to your Unreal Engine project from within Visual Studio. You no longer have to switch between the Unreal Editor and Visual Studio to add a class, or need to synchronize the Visual Studio solution with your Unreal Engine project file afterwards.
@@ -89,7 +101,19 @@ To add an Unreal Engine plugin in Visual Studio, follow these steps after comple
 1. Provide the **Plugin name**, **Plugin author**, **Plugin Description**, and **Plugin url**.
 1. Check the **Is plugin in beta** box as needed.
 1. Select the **Refresh IntelliSense information using Unreal Editor tools** checkbox to choose whether Visual Studio uses the Unreal Editor tools to update the IntelliSense information. This causes the Unreal Build Tool to regenerate the Visual Studio solution file.
-1. Choose **Add** to generate the plugin header and source files for the new plugin and add them to the Visual Studio solution file. This results in a prompt to reload the project. Choose **Reload** to reload the project.
+1. Choose **Add** to create the plugin header and source files for the new plugin and add them to the Visual Studio solution file. This results in a prompt to reload the project. Choose **Reload** to reload the project.
+
+### Build the plugin
+
+After adding the plugin, you need to build it to make it available in the Unreal Engine Editor. To build the plugin, follow these steps:
+
+In **Solution Explorer**, right-click on the plugin folder and choose **Build this Unreal Engine plugin**. This builds the plugin and makes it available in the Unreal Engine Editor.
+
+    :::image type="complex" source="../media/vs-build-plugin-menu.png" alt-text="A screenshot of the menu to build the plugin.":::
+     The menu options after right-clicking the plugin folder MyPlugin are visible. The entry Build this Unreal Engine plugin, is highlighted.
+    :::image-end:::
+
+Build output is displayed in the **Output** window. If the build is successful, the plugin is available in the Unreal Engine Editor. If the build fails, the **Output** window displays the error messages.
 
 ## Related content
 
