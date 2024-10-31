@@ -1,5 +1,5 @@
 ---
-title: "Send command-line arguments while debugging (C++)"
+title: "Send command-line arguments to a debugee (C++)"
 description: Learn how to send command-line argument to a debuggee using the new command line arguments dropdown.
 ms.date: 10/30/2024
 ms.topic: "conceptual"
@@ -13,7 +13,7 @@ ms.author: "TWhitney"
 manager: coxford
 ms.subservice: debug-diagnostics
 ---
-# Pass command-line arguments while debugging (C++)
+# Send command-line arguments to a debugee (C++)
 
 In Visual C++, use the command-line arguments dropdown to quickly specify or reuse arguments for debugging.
 
