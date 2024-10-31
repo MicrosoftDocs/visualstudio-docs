@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Visual Studio Tools for Unreal Engine"
 description: "Learn about Visual Studio Tools for Unreal Engine, a free Visual Studio extension that helps you develop games with Unreal Engine"
-ms.date: 09/13/2024
+ms.date: 10/14/2024
 ms.topic: quickstart
 ms.service: visual-studio
 ms.subservice: unreal-engine-tools
@@ -12,7 +12,7 @@ manager: Coxford
 
 # Quickstart: Visual Studio Tools for Unreal Engine
 
-In this article, download an Unreal Engine (UE) game sample and configure Visual Studio Tools for Unreal Engine. Visual Studio Tools for Unreal Engine is a free Visual Studio extension that helps you develop games with Unreal Engine. It provides a set of features that improve the Unreal Engine development experience in Visual Studio.
+In this article, download an Unreal Engine (UE) game sample and configure Visual Studio Tools for Unreal Engine. Visual Studio Tools for Unreal Engine is a free extension that helps you develop games with Unreal Engine. It provides features that improve the Unreal Engine development experience in Visual Studio.
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ The following must be installed:
 
 ## Download and build the Lyra game sample in Visual Studio
 
-Lyra is a sample game project for learning about Unreal Engine. See the **Downloading the Lyra Starter Game** section at [Lyra Sample Game](https://docs.unrealengine.com/5.0/lyra-sample-game-in-unreal-engine/) for download instructions.
+Lyra is a sample game project for learning about Unreal Engine. See the **Downloading the Lyra Starter Game** section at [Lyra Sample Game](https://docs.unrealengine.com/5.0/lyra-sample-game-in-unreal-engine/) for download instructions. If you acquired it via the source code installation of Unreal Engine, that version doesn't contain the assets required to build and run the game. Use the download instructions to get everything you need via the Epic installer.
 
 ## Configure the Lyra game sample to use Visual Studio Tools for Unreal Engine
 
@@ -88,6 +88,22 @@ The toolbar buttons, left to right:
 - A button to rescan Unreal Engine Blueprint assets. This updates the Visual Studio solution with the latest Blueprint assets from the Unreal Engine project.
 - A button that opens the Unreal Engine log window.
 - A button to open the **Unreal Engine Integration Configuration** window where you can refresh and see the overall configuration status and Visual Studio Integration Tool status, check for Blueprint support, see whether get Unreal Engine naming convention checker status, and so on.
+
+## Command-line argument dropdown
+
+You might frequently launch your game with different combinations of command-line arguments during the editing and debugging part of your inner loop. This is now easier with the command-line arguments dropdown:
+
+:::image type="complex" source="../media/vs-command-line-args-dropdown.png" alt-text="A screenshot of the command-line args dropdown.":::
+The command-line arguments dropdown is shown following the Solutions Platforms dropdown on the Standard toolbar. There is an entry for C:\UE\LyraStarterGame\LyraStarterGame.uproject -fullscreen, and C:\UE\LyraStarterGame\LyraStarterGame.uproject -JsonDebugOutput.
+:::image-end:::
+
+To add command-line arguments, type them in the dropdown and press **Enter**. The arguments are saved in the order that you enter them and appear in the dropdown for future use.
+
+There's a limit of five command lines that you can add before the oldest one is removed to make room for a new one.
+
+The first argument when debugging an Unreal Engine project that runs in the Unreal Engine editor must be the path to the project. For example: `C:\UE\LyraStarterGame\LyraStarterGame.uproject`.
+
+For more information about using the command-line arguments dropdown, see [Pass command-line arguments while debugging (C++)](/visualstudio/debugger/specify-command-line-arguments).
 
 ## Next steps
 
