@@ -51,13 +51,13 @@ The **Build** path shows where the `Build.cs` file is created. The `Build.cs` fi
 
 ### Build the module
 
-After adding the module, you need to build it to make it available in the Unreal Engine Editor. To build the module, follow these steps:
+After adding the module, build it to make it available in the Unreal Engine Editor. To build the module, follow these steps:
 
 In **Solution Explorer**, right-click on the module folder and choose **Build**. This builds the plugin and makes it available in the Unreal Engine Editor.
 
-    :::image type="complex" source="../media/vs-build-module-menu.png" alt-text="A screenshot of the menu to build the module.":::
-     The menu options after right-clicking the module folder MyModule are visible. The entry Build this Unreal Engine module, is highlighted.
-    :::image-end:::
+:::image type="complex" source="../media/vs-build-module-menu.png" alt-text="A screenshot of the menu to build the module.":::
+    The menu options after right-clicking the module folder MyModule are visible. The entry Build this Unreal Engine module, is highlighted.
+:::image-end:::
 
 Build output is displayed in the **Output** window. If the build is successful, the module is available in the Unreal Engine Editor. If the build fails, the **Output** window displays the error messages.
 
@@ -105,13 +105,13 @@ To add an Unreal Engine plugin in Visual Studio, follow these steps after comple
 
 ### Build the plugin
 
-After adding the plugin, you need to build it to make it available in the Unreal Engine Editor. To build the plugin, follow these steps:
+After adding the plugin, build it to make it available in the Unreal Engine Editor. To build the plugin, follow these steps:
 
 In **Solution Explorer**, right-click on the plugin folder and choose **Build this Unreal Engine plugin**. This builds the plugin and makes it available in the Unreal Engine Editor.
 
-    :::image type="complex" source="../media/vs-build-plugin-menu.png" alt-text="A screenshot of the menu to build the plugin.":::
-     The menu options after right-clicking the plugin folder MyPlugin are visible. The entry Build this Unreal Engine plugin, is highlighted.
-    :::image-end:::
+:::image type="complex" source="../media/vs-build-plugin-menu.png" alt-text="A screenshot of the menu to build the plugin.":::
+    The menu options after right-clicking the plugin folder MyPlugin are visible. The entry Build this Unreal Engine plugin, is highlighted.
+:::image-end:::
 
 Build output is displayed in the **Output** window. If the build is successful, the plugin is available in the Unreal Engine Editor. If the build fails, the **Output** window displays the error messages.
 
