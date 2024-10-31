@@ -119,9 +119,16 @@ The connected service functionality adds all the needed references and connectio
 
    1. When the **Configure Azure Application Insights** screen is displayed, the new component appears in the list. Select the new component in the list, and select **Next**.
 
-1. Enter an instrumentation key name, or choose the default, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
+1. Enter a name for the connection setting, and an instrumentation key name, or accept the defaults.
 
-   ![Screenshot showing "Specify connection string" screen.](./media/azure-app-insights-add-connected-service/connection-string.png)
+   ![Screenshot showing "Provide connection configuration settings" screen.](./media/vs-2022/connect-to-application-insights-connection-setting.png)
+
+   > [!NOTE]
+   > For improved security, in Visual Studio 17.12 and later, this step creates a connection setting name; previous versions create a connection string. Connection strings stored in the local filesystem can lead to a security risk, if they're inadvertently exposed.
+
+1. Click **Additional settings**, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
+
+   ![Screenshot showing Connect to Application Insights - additional settings screen.](./media/vs-2022/connect-to-application-insights-additional-settings.png)
 
 1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
 
