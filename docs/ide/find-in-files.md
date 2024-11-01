@@ -161,7 +161,7 @@ If you want to repeat the same search after doing further work, you can click th
 
 ## Modify find
 
-Use the **Modify Find** button in the results window to refine the search criteria without having to recreate the same search criteria in the Find window. Clicking **Modify Find** reopens Find in Files with your prior search criteria for that set of results.
+Use the **Modify Find** button (**Repeat Find** in some versions) in the results window to refine the search criteria without having to recreate the same search criteria in the Find window. Clicking **Modify Find** reopens Find in Files with your prior search criteria for that set of results.
 
 ![Screenshot showing the Modify Find button and search criteria you can modify.](./media/vs-2022/find-in-files-modify-find.png)
 
