@@ -133,7 +133,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Visual Studio documentation](../windows/index.yml) - Remove low traffic and out-of-date links, add some links
 
-## Community contributors
+### Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
@@ -197,7 +197,7 @@ The following people contributed to the Visual Studio docs during this period. T
 
 - [Microsoft.CodeCoverage.Console tool](../test/microsoft-code-coverage-console-tool.md) - Add usage details related to Microsoft.CodeCoverage.Console usage
 
-## Community contributors
+### Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
@@ -208,7 +208,6 @@ The following people contributed to the Visual Studio docs during this period. T
 - [sailro](https://github.com/sailro) - Sebastien Lebreton ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [Vincezhaoc](https://github.com/Vincezhaoc) - Vince Zhao ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [vritme](https://github.com/vritme) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-
 
 ## August 2024
 
