@@ -155,7 +155,7 @@ When you perform a search for all results, results appear as they become availab
 > [!NOTE]
 > Visual Studio begins building an index after your code context is loaded, such as when opening a new project, changing branches, or otherwise changing the file list. If you search while Visual Studio is still indexing your source files, you might see a warning that results are incomplete.
 
-If you want to repeat the same search after doing further work, you can click the clockwise arrow icon to refresh the results. This ensures all changes you've made since the last Find are reflected without having to reopen the Find window.
+With Visual Studio 17.12 and later, if you want to repeat the same search after doing further work, you can click the clockwise arrow icon to refresh the results. This ensures all changes you've made since the last Find are reflected without having to reopen the Find window.
 
 ![Screenshot showing the refresh button.](./media/vs-2022/find-in-files-refresh.png)
 
