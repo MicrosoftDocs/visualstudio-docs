@@ -72,8 +72,23 @@ You can also go to a line in a different document by typing the filename, colon,
 > [!TIP]
 > To learn more about the new search experience, see both the [Better search in Visual Studio](https://devblogs.microsoft.com/visualstudio/new-better-search-in-visual-studio/) and [All-In-One Search available in 17.6](https://devblogs.microsoft.com/visualstudio/all-in-one-search-available-in-17-6/) blog posts.
 
-The text filter (**Shift**+**Alt**+**F**) in Code Search is available in preview in Visual Studio 17.9 and later. See [17.9 Preview 3 brings exciting changes to Code Search
-](https://devblogs.microsoft.com/visualstudio/17-9-preview-3-brings-exciting-changes-to-code-search/). Search for a text string, with options to match the case, match whole words, or use a regular expression. The regular expression format is described at [Regular expressions](/dotnet/standard/base-types/regular-expression-language-quick-reference).
+#### Dock as a tool window
+
+With Visual Studio 17.12 or later, you can dock the search window instead of having it floating in front. This can be helpful to avoid interrupting your code editing. Use the icon near the top right of the window to enable docking as a tool window.
+
+![Screenshot showing docking icon on the search window.](./media/vs-2022/all-in-one-search-docking-icon.png)
+
+You can use a similar icon on the tool window to revert back to the floating window.
+
+#### Toggle preview pane
+
+With Visual Studio 17.12 or later, you can toggle the preview pane. Use the eye icon to disable or enable the preview pane.
+
+![Screenshot showing the icon to toggle the preview pane in the search window.](./media/vs-2022/all-in-one-search-toggle-preview.png)
+
+Also new with Visual Studio 17.12, the preview panel's position automatically adjusts based on the dimensions of the search window.
+
+The text filter (**Shift**+**Alt**+**F**) in Code Search is available in preview in Visual Studio 17.9 and later. See [17.9 Preview 3 brings exciting changes to Code Search](https://devblogs.microsoft.com/visualstudio/17-9-preview-3-brings-exciting-changes-to-code-search/). Search for a text string, with options to match the case, match whole words, or use a regular expression. The regular expression format is described at [Regular expressions](/dotnet/standard/base-types/regular-expression-language-quick-reference).
 
 :::image type="content" alt-text="Screenshot of text search with various options." source="./media/vs-2022/search-text-search-text-options-highlighted.png" :::
 
