@@ -1,7 +1,7 @@
 ---
 title: Use Visual Studio search to find code & do queries
 description: Explore the Visual Studio search feature and discover how to find settings, menus, code, and work with filters, queries, and more.
-ms.date: 07/02/2024
+ms.date: 11/1/2024
 ms.topic: how-to
 helpviewer_keywords:
 - environments [Visual Studio], navigation
