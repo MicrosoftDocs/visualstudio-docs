@@ -57,6 +57,18 @@ In Visual Studio 17.11 and later, you can set the scope of code search to the cu
 
 :::image type="content" alt-text="Screenshot of code search scope options." source="./media/vs-2022/search-code-scope.png" :::
 
+#### Navigate to a specific line in Code Search
+
+With Visual Studio 17.12 and later, you can now navigate to a specific line in the current document or other specified document.
+
+To go to a line in the *current* document, type colon (`:`) followed by the line number. For example, `:39` navigates to line 39 in the active file.
+
+![Screenshot showing Go to line in current document.](./media/vs-2022/all-in-one-search-go-to-line-same-document.png)
+
+You can also go to a line in a different document by typing the filename, colon, and then the line number. For example, `Order:43` navigates to line 43 in *Order.cs*. If you don't specify the exact file name, then the search will try to find the best match.
+
+![Screenshot showing Go to line in different document.](./media/vs-2022/all-in-one-search-go-to-line-different-document.png)
+
 > [!TIP]
 > To learn more about the new search experience, see both the [Better search in Visual Studio](https://devblogs.microsoft.com/visualstudio/new-better-search-in-visual-studio/) and [All-In-One Search available in 17.6](https://devblogs.microsoft.com/visualstudio/all-in-one-search-available-in-17-6/) blog posts.
 
