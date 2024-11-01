@@ -38,6 +38,8 @@ You can choose the **Errors**, **Warnings**, and **Messages** tabs to see differ
 
 To sort the list, click any column header. To sort again by an additional column, hold down the **Shift** key and click another column header. To select which columns are displayed and which are hidden, choose **Show Columns** from the shortcut menu. To change the order in which columns are displayed, drag any column header to the left or right.
 
+To get information about an error, press **F1** to bring up the error's page in the documentation. If a page exists for this specific error code, it will open in the default browser, or in the Help Viewer, if you installed and enabled offline help. With Visual Studio 17.12 and later, when you copy an error from the Error List using **Ctrl**+**C**, the description is copied to the clipboard. You can paste this into the browser to search for the error online, or share it with others. You can also copy the entire row by right-clicking the error and selecting **Copy Row** from the context menu or hitting **Ctrl**+**Shift**+**C**. To open the browser and initiate a search on the error description with one keystroke, press **Ctrl**+**F1**.
+
 ## Error List Filters
 
 There are two types of filter in two dropdown boxes, one on the right side of the toolbar and one to the left of the toolbar. The dropdown list on the left side of the toolbar specifies the set of code files to use (**Entire Solution**, **Open Documents**, **Current Project**, **Current Document**).
