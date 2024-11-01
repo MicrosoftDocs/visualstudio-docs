@@ -10,7 +10,7 @@ description: Review potential sign-in issues for Visual Studio subscriptions, in
 
 # Issues signing in to Visual Studio subscriptions
 
-To use your Visual Studio subscription, you must first sign in. Depending on your subscription, you might have either a Microsoft account (MSA) or a Microsoft Entra identity. This article discusses some of the issues you might encounter while signing in to your subscription.
+To use your Visual Studio subscription, you must first sign in. Depending on your subscription, you might have either a Microsoft account (MSA) or a Microsoft Entra identity. This article discusses some of the issues you might encounter while signing in to your subscription, including  what happens when your Admin updates your Visual Studio subscriber's sign-in address. 
 
 ## Microsoft Accounts (MSA) can't be created using work/school email addresses
 
@@ -69,6 +69,24 @@ Aliasing can be encountered when a company has a Microsoft Online Service for th
 ### What options do I have?
 
 From a subscriber perspective, it's important to first work with your admin to understand your company’s identity configuration. If necessary, your admin might have to update your account settings from their admin portal, or you might need to create a Microsoft Account (MSA) using your corporate email address. Before taking the steps to create an MSA, speak with your admin regarding any policies or issues with taking this action.
+
+### What happens when my Admin updates my Visual Studio subscription's sign-in address?
+
+> [!NOTE]
+> When your Admin edits the sign in email address this updates the email used by you to sign in to your subscription on https://my.visualstudio.com. You can use the newly updated email address going forward when activating benefits. For previously activated benefits, continue reading below for more informaiton about which email address you should use. 
+
+**Impact on Benefits**
+
+If the admin changed the sign-in email address on your subscription, you should use this new email address for any new benefit activations. Refer to the chart below for insights on any currently active benefits that might be impacted. 
+
+| Benefit Name | Use updated email address? | If subscriber hasn't activated the benefit yet | If subscriber activated with the previous sign-in email address | If the subscriber is using an alternate email address | 
+| ------------------------ | -------------------------- |--------------------------------- | --------------------------- |------------------------------------ |
+| Power BI Pro <br>Microsoft 365 apps for Enterprise <br>PARASOFT Virtualize/SOAtest Professional Desktop <br>WhiteSource Bolt <br>DataCamp - 3-month subscription <br>CODE Magazine | No | Use new sign-in email address to | Continue using the old email address for access. | N/A |
+| Pluralsight <br>LinkedIn Learning <br>Dometrain <br>DevForge | No | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. |
+| Visual Studio LIVE! Events discount  | No | No email address is needed. | No email address is needed. | No email address is needed. |
+| GitHub Enterprise  | No\* | This benefit is set up by the GitHub admin in your org. Subscribers should use the email address where their invitation was sent. | This benefit is set up by the GitHub admin in your org. Subscribers should use the email address where their invitation was sent. | This benefit is set up by the GitHub admin in your org. Subscribers should use the email address where their invitation was sent.             |
+| Visual Studio IDE <br>Azure DevOps <br>Azure dev/test monthly credit <br>Azure Dev/Test PAYG subscription (Unlimited) | Yes | Use new sign-in email address to activate. | Use the new sign-in email address to continue accessing. | Continue using alternate email address. |
+| TFS License <br>TFS CAL <br>Visual Studio App Center <br>Windows Developer Account <br>Microsoft 365 Developer <br>Microsoft R Server <br>Most Microsoft Server trials <br>Microsoft Office Pro Plus 2021, Project, Visio <br>Windows, Windows Server, Windows Embedded, SQL Server <br>SharePoint, Exchange, Dynamics & other MS <br>Technical Support <br>Developer Community Forums <br>Azure Community Forum <br>Online Concierge Chat <br>Code Search (included as Basic license) <br>Exploratory Testing (included in Basic license) <br>Azure Artifacts <br>C# Dev Kit for VS Code <br>Azure Test Plans | Yes | Use new sign-in email address to activate. | Use the new sign-in email address to continue accessing. | N/A |
 
 ## Resources
 
