@@ -29,17 +29,17 @@ HRESULT getNumberOfFunctionFragmentsForVA(
 
 ### Parameters
 
- `vaFunc`
+ `[in] vaFunc`
 
-[in] The virtual address of the function.
+ The virtual address of the function.
 
- `cbFunc`
+ `[in] cbFunc`
 
-[in] The total size in bytes of the function (that is, the length of the function).
+ The total size in bytes of the function (that is, the length of the function).
 
-`pNumFragments`
+ `[out] pNumFragments`
 
-[out] The number of fragments.
+ The number of fragments.
 
 ## Return Value
 

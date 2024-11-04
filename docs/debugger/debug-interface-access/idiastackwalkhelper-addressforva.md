@@ -29,17 +29,17 @@ HRESULT addressForVA(
 
 ### Parameters
 
- `va`
+ `[in] va`
 
-[in] Specifies the virtual address to translate.
+ Specifies the virtual address to translate.
 
- `pISect`
+ `[out] pISect`
 
-[out] Returns the equivalent section for the specified address.
+ Returns the equivalent section for the specified address.
 
- `pOffset`
+ `[out] pOffset`
 
-[out] Returns the equivalent offset within the section for the specified address.
+ Returns the equivalent offset within the section for the specified address.
 
 ## Return Value
 

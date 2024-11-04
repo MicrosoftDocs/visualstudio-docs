@@ -52,7 +52,7 @@ A buffer that is filled in with the requested data. Can't be `NULL`.
 
 ## Remarks
 
- The `.pdata` section of a compiland contains information about exception handling for functions. In the [PE Format](https://learn.microsoft.com/en-us/windows/win32/debug/pe-format), it's listed as the "Exception Table" within the "Optional Header Data Directories."
+ The `.pdata` section of a compiland contains information about exception handling for functions. It appears in the [PE Format](https://learn.microsoft.com/en-us/windows/win32/debug/pe-format) as the "Exception Table" within the "Optional Header Data Directories."
 
  The caller knows how much data is to be returned so the caller has no need to ask for how much data is available. Therefore, it's acceptable for an implementation of this method to return an error if the `pbData` parameter is `NULL`.
 

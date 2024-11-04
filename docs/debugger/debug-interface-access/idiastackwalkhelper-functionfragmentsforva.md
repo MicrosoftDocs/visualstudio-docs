@@ -31,25 +31,25 @@ HRESULT getFunctionFragmentsVA(
 
 ### Parameters
 
- `vaFunc`
+ `[in] vaFunc`
 
-[in] The virtual address of the function.
+ The virtual address of the function.
 
- `cbFunc`
+ `[in] cbFunc`
 
-[in] The total size in bytes of the function (that is, the length of the function).
+ The total size in bytes of the function (that is, the length of the function).
 
-`cFragments`
+ `[in] cFragments`
 
-[in] The count of elements allocated for `pVaFragment` and `pLenFragment`.
+ The count of elements allocated for `pVaFragment` and `pLenFragment`.
 
- `pVaFragment`
+ `[out] pVaFragment`
 
-[out] Array buffer to receive the virtual addresses of each fragment. This buffer must be at least `cFragments` elements long.
+ Array buffer to receive the virtual addresses of each fragment. This buffer must be at least `cFragments` elements long.
 
- `pLenFragment`
+ `[out] pLenFragment`
 
-[out] Array buffer to receive the length, in bytes, of each fragment. This buffer must be at least `cFragments` elements long.
+ Array buffer to receive the length, in bytes, of each fragment. This buffer must be at least `cFragments` elements long.
 
 ## Return Value
 
