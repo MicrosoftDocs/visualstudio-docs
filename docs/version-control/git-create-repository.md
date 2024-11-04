@@ -38,7 +38,7 @@ To follow this article, you'll need:
 
     With Visual Studio 2022 version 17.12 and later, you can choose the visibility of the new repo, **public**, **private**, or if you're using a GitHub Enterprise account, **internal** (see [About internal repositories](https://docs.github.com/enterprise-cloud@latest/repositories/creating-and-managing-repositories/about-repositories#about-internal-repositories)). With earlier versions, select the checkbox if you want a private repo.
 
-    Under **Initialize a local Git Repository**, you can use the **.gitignore template** option to specify any intentionally untracked files that you want Git to ignore. To learn more about .gitignore, see [Ignoring files](https://docs.github.com/get-started/getting-started-with-git/ignoring-files). And to learn more about licensing, see [Licensing a repository](https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
+1. Under **Initialize a local Git Repository**, you can use the **.gitignore template** option to specify any intentionally untracked files that you want Git to ignore. To learn more about .gitignore, see [Ignoring files](https://docs.github.com/get-started/getting-started-with-git/ignoring-files). And to learn more about licensing, see [Licensing a repository](https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
 
     > [!TIP]
     > You can update and change these settings whenever you want to. For detailed instructions, see [Git settings in Visual Studio](git-settings.md).
