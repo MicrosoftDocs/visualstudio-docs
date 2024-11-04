@@ -212,8 +212,8 @@ Before:
 {
     "InstallationList": [
         {
-            "InstallLocation": "C:\\Program Files\\Epic Games\\UE_5.3,
-        ...
+            "InstallLocation": "C:\\Program Files\\Epic Games\\UE_5.3",
+            ...
             "AppName": "UE_5.4"
         },
 }
