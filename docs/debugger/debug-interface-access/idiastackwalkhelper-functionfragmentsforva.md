@@ -1,5 +1,5 @@
 ---
-description: Retrieves the addresses and lengths of discontiguous fragments for the function at the specified virtual address (VA).
+description: Returns the addresses and lengths of discontiguous fragments for the function at the specified virtual address (VA).
 title: "IDiaStackWalkHelper::getFunctionFragmentsForVA"
 ms.date: "11/04/2024"
 ms.topic: "reference"
@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 # IDiaStackWalkHelper::getFunctionFragmentsForVA
 
-Retrieves the addresses and lengths of discontiguous fragments for the function at the specified virtual address (VA).
+Returns the addresses and lengths of discontiguous fragments for the function at the specified virtual address (VA).
 
 ## Syntax
 

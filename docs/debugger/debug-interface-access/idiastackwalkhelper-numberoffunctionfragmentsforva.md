@@ -1,5 +1,5 @@
 ---
-description: Retrieves the number of discontiguous fragments for the function at the specified virtual address (VA).
+description: Returns the number of discontiguous fragments for the function at the specified virtual address (VA).
 title: "IDiaStackWalkHelper::getNumberOfFunctionFragmentsForVA"
 ms.date: "11/04/2024"
 ms.topic: "reference"
@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 # IDiaStackWalkHelper::getNumberOfFunctionFragmentsForVA
 
-Retrieves the number of discontiguous fragments for the function at the specified virtual address (VA).
+Returns the number of discontiguous fragments for the function at the specified virtual address (VA).
 
 ## Syntax
 
