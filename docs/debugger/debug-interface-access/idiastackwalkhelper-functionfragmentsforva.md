@@ -1,19 +1,19 @@
 ---
 description: Retrieves the addresses and lengths of discontiguous fragments for the function at the specified virtual address (VA).
-title: "IDiaStackWalkHelper::getFunctionFragmentsVA"
+title: "IDiaStackWalkHelper::getFunctionFragmentsForVA"
 ms.date: "11/04/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
-  - "IDiaSesIDiaStackWalkHelpersion::getFunctionFragmentsVA method"
+  - "IDiaSesIDiaStackWalkHelpersion::getFunctionFragmentsForVA method"
 author: "grantri"
 ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
 
-# IDiaStackWalkHelper::getFunctionFragmentsVA
+# IDiaStackWalkHelper::getFunctionFragmentsForVA
 
 Retrieves the addresses and lengths of discontiguous fragments for the function at the specified virtual address (VA).
 
@@ -45,11 +45,11 @@ HRESULT getFunctionFragmentsVA(
 
  `pVaFragment`
 
-[out] Array buffer to receive the virtual addresses of each fragment. This must be at least `cFragments` long.
+[out] Array buffer to receive the virtual addresses of each fragment. This buffer must be at least `cFragments` elements long.
 
  `pLenFragment`
 
-[out] Array buffer to receive the length, in bytes, of each fragment. This must be at least `cFragments` long.
+[out] Array buffer to receive the length, in bytes, of each fragment. This buffer must be at least `cFragments` elements long.
 
 ## Return Value
 

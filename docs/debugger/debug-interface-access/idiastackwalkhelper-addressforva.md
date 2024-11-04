@@ -43,7 +43,7 @@ HRESULT addressForVA(
 
 ## Return Value
 
- If successful, returns `S_OK`. Returns `E_NOTIMPL` if the helper does not support translation. Otherwise, returns an error code.
+ If successful, returns `S_OK`. Returns `E_NOTIMPL` if the helper doesn't support translation; otherwise, returns an error code.
 
 ## See also
 

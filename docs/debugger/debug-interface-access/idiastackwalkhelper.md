@@ -27,7 +27,7 @@ IDiaStackWalkHelper: IUnknown
 
 ## Methods in VTable Order
 
- The table below shows the methods of `IDiaStackWalkHelper`:
+ This table shows the methods of `IDiaStackWalkHelper`:
 
 |Method|Description|
 |------------|-----------------|

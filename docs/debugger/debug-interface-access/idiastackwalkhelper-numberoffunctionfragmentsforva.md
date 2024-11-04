@@ -1,26 +1,26 @@
 ---
 description: Retrieves the number of discontiguous fragments for the function at the specified virtual address (VA).
-title: "IDiaStackWalkHelper::getNumberOfFunctionFragmentsVA"
+title: "IDiaStackWalkHelper::getNumberOfFunctionFragmentsForVA"
 ms.date: "11/04/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
-  - "IDiaStackWalkHelper::getNumberOfFunctionFragmentsVA method"
+  - "IDiaStackWalkHelper::getNumberOfFunctionFragmentsForVA method"
 author: "grantri"
 ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
 
-# IDiaStackWalkHelper::getNumberOfFunctionFragmentsVA
+# IDiaStackWalkHelper::getNumberOfFunctionFragmentsForVA
 
 Retrieves the number of discontiguous fragments for the function at the specified virtual address (VA).
 
 ## Syntax
 
 ```C++
-HRESULT getNumberOfFunctionFragmentsVA(
+HRESULT getNumberOfFunctionFragmentsForVA(
     ULONGLONG vaFunc,
     DWORD cbFunc,
     DWORD *pNumFragments
