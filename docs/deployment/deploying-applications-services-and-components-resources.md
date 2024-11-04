@@ -114,6 +114,16 @@ For more information on publishing to App Service, see:
 - [Publish an ASP.NET Core app to Azure App Service](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)
 - [Troubleshoot ASP.NET Core on Azure App Service and IIS](/aspnet/core/test/troubleshoot-azure-iis).
 
+### Azure WebJobs
+
+Azure WebJobs is supported through App Service.
+
+### When to choose Azure WebJobs
+
+- You have a worker process, a computation that can run without user interaction
+
+In this case, you might also choose Azure Functions. To choose the right option for you, see [Choose the right integration and automation services in Azure](/azure/azure-functions/functions-compare-logic-apps-ms-flow-webjobs).
+
 ### Azure Container Registry
 
 [Azure Container Registry](/azure/container-registry/) allows you to build, store, and manage Docker container images and artifacts in a private registry for all types of container deployments.
