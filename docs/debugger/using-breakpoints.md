@@ -385,7 +385,11 @@ To set a default breakpoint group, right-click a group and select **Set as defau
 
 ### Export and import breakpoints
 
- To save or share the state and location of your breakpoints, you can export or import them.
+To save or share the state and location of your breakpoints, you can export or import them.
+
+::: moniker range=">= vs-2022"
+Starting in Visual Studio 2022 version 17.12 Preview 3, breakpoint groups are also included with the exported and imported breakpoints.
+::: moniker-end
 
 - To export a single breakpoint to an XML file, right-click the breakpoint in the source code or **Breakpoints** window, and select **Export** or **Export selected**. Select an export location, and then select **Save**. The default location is the solution folder.
 - To export several breakpoints, in the **Breakpoints** window, select the boxes next to the breakpoints, or enter search criteria in the **Search** field. Select the **Export all breakpoints matching the current search criteria** icon, and save the file.
