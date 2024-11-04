@@ -44,18 +44,19 @@ HRESULT pdataForVA(
 
  `pbData`
 
-[in, out] A buffer that is filled in with the requested data. Cannot be `NULL`.
+[in, out] A buffer that is filled in with the requested data. Can't be `NULL`.
 
 ## Return Value
 
- If successful, returns `S_OK`. Returns `S_FALSE` if there is no PDATA for the specified address. Otherwise, returns an error code.
+ If successful, returns `S_OK`. Returns `S_FALSE` if there's no PDATA for the specified address. Otherwise, return an error code.
 
 ## Remarks
 
- The PDATA (the section named ".pdata") of a compiland contains information about exception handling for functions.
+ The `.pdata` section of a compiland contains information about exception handling for functions. In the [PE Format](https://learn.microsoft.com/en-us/windows/win32/debug/pe-format), it is listed as the "Exception Table" within the "Optional Header Data Directories".
 
- The caller knows how much data is to be returned so the caller has no need to ask for how much data is available. Therefore, it is acceptable for an implementation of this method to return an error if the `pbData` parameter is `NULL`.
+ The caller knows how much data is to be returned so the caller has no need to ask for how much data is available. Therefore, it's acceptable for an implementation of this method to return an error if the `pbData` parameter is `NULL`.
 
 ## See also
 
 - [`IDiaStackWalkHelper`](../../debugger/debug-interface-access/idiastackwalkhelper.md)
+- [PE Format - The `.pdata` Section](https://learn.microsoft.com/windows/win32/debug/pe-format#the-pdata-section)
