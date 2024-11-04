@@ -116,11 +116,12 @@ For more information on publishing to App Service, see:
 
 ### Azure WebJobs
 
-Azure WebJobs is supported through App Service.
+Azure WebJobs is supported through App Service. See [Develop and deploy WebJobs using Visual Studio](/azure/app-service/webjobs-dotnet-deploy-vs).
 
 ### When to choose Azure WebJobs
 
 - You have a worker process, a computation that can run without user interaction
+- The job can be on-demand, triggered by an event, or continuous
 
 In this case, you might also choose Azure Functions. To choose the right option for you, see [Choose the right integration and automation services in Azure](/azure/azure-functions/functions-compare-logic-apps-ms-flow-webjobs).
 
