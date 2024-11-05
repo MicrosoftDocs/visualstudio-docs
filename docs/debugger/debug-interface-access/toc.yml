@@ -874,10 +874,16 @@
         items:
         - name: IDiaStackWalkHelper
           href: idiastackwalkhelper.md
+        - name: IDiaStackWalkHelper::addressForVA
+          href: idiastackwalkhelper-addressforva.md
         - name: IDiaStackWalkHelper::frameForVA
           href: idiastackwalkhelper-frameforva.md
+        - name: IDiaStackWalkHelper::functionFragmentsForVA
+          href: idiastackwalkhelper-functionfragmentsforva.md
         - name: IDiaStackWalkHelper::imageForVA
           href: idiastackwalkhelper-imageforva.md
+        - name: IDiaStackWalkHelper::nuberOfFunctionFragmentsForVA
+          href: idiastackwalkhelper-numberoffunctionfragmentsforva.md
         - name: IDiaStackWalkHelper::pdataForVA
           href: idiastackwalkhelper-pdataforva.md
         - name: IDiaStackWalkHelper::get_registerValue
