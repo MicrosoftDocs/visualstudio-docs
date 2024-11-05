@@ -184,7 +184,7 @@ In this example, the `this` object and the object `f` are in scope. For more inf
 ::: moniker range=">= vs-2022"
 ## View return values of method calls
 
-In .NET and C++ code, you can examine return values in the **Autos** window when you step over or out of a method call, which can be useful when the return value is not stored in a local variable. For more information, see [View return values of method calls](../debugger/autos-and-locals-window.md#view-return-values-of-method-calls).
+In .NET and C++ code, you can examine return values in the **Autos** window when you step over or out of a method call, which can be useful when the return value is not stored in a local variable. For more information, see [View return values of method calls](../debugger/autos-and-locals-windows.md#view-return-values-of-method-calls).
 
 Starting in Visual Studio 2022 version 17.12 Preview 3, you can also view return values of method calls inline and not just in the Autos window.
 
