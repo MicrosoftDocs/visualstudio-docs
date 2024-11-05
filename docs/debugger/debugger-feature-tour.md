@@ -188,7 +188,7 @@ In .NET and C++ code, you can examine return values in the **Autos** window when
 
 Starting in Visual Studio 2022 version 17.12 Preview 3, you can also view return values of method calls inline and not just in the Autos window.
 
-[![Screenshot showing the return values of method calls.](../debugger/media/vs-2022/view-return-values.png)](../debugger/media/vs-2022/view-return-values.png#lightbox)
+[ ![Screenshot showing the return values of method calls.](../debugger/media/vs-2022/view-return-values.png) ](../debugger/media/vs-2022/view-return-values.png#lightbox)
 
 ::: moniker-end
 
