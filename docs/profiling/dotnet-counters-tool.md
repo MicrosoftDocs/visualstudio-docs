@@ -68,7 +68,7 @@ Starting in Visual Studio 2022 version 17.8, .NET Counters tool supports integra
 
 The `Counter` keeps track of a value changing over time, with the caller reporting updates using `Counter.Add`. In contrast, `ObservableCounter` is similar to `Counter`, but the caller takes care of keeping track of the total value. The .NET Counters tool reports the rate of change in the total.
 
-## View Meter histogram data
+## View .NET Meter histogram data
 
 Starting in Visual Studio 2022 version 17.12 Preview 2, .NET Counters tool supports the .NET Meter Histogram support.
 
