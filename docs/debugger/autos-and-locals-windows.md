@@ -167,6 +167,9 @@ Different code languages display different variables in the **Autos** window.
 
 In .NET and C++ code, you can examine return values in the **Autos** window when you step over or out of a method call. Viewing method call return values can be useful when they are not stored in local variables. A method could be used as a parameter, or as the return value of another method.
 
+> [!NOTE]
+> Starting in Visual Studio 2022 version 17.12 Preview 3, you can also view [return values inline](../debugger/debugger-feature-tour.md#view-return-values-of-method-calls) and not just in the Autos window.
+
 For example, the following C# code adds the return values of two functions:
 
 ```csharp

@@ -181,6 +181,17 @@ Next, look at the **Locals** window. The **Locals** window shows you the variabl
 
 In this example, the `this` object and the object `f` are in scope. For more info, see [Inspect Variables in the Autos and Locals Windows](../debugger/autos-and-locals-windows.md).
 
+::: moniker range=">= vs-2022"
+## View return values of method calls
+
+In .NET and C++ code, you can examine return values in the **Autos** window when you step over or out of a method call, which can be useful when the return value is not stored in a local variable. For more information, see [View return values of method calls](../debugger/autos-and-locals-window.md#view-return-values-of-method-calls).
+
+Starting in Visual Studio 2022 version 17.12 Preview 3, you can also view return values of method calls inline and not just in the Autos window.
+
+![View return values of method calls](../debugger/media/vs-2022/view-return-values.png)
+
+::: moniker-end
+
 ## Set a watch
 
 You can use a **Watch** window to specify a variable (or an expression) that you want to keep an eye on. For detailed information, see [Set a Watch using the Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md).
