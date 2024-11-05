@@ -42,7 +42,7 @@ Visual Studio also makes it easy to commit and sync with one click by using the 
 
 New in [**version 17.6**](/visualstudio/releases/2022/release-notes-v17.6): You can also reference an issue or a pull request by typing `#` or selecting the **#** button in the lower right side of the commit message text box. For more information, see the [Reference issues and pull requests](https://devblogs.microsoft.com/visualstudio/reference-github-issues-and-pull-requests-in-visual-studio/) blog post.
 
-New in **version 17.12**: When you rename a file, you'll see a notification bar at the top of the **Git Changes** window that a file was renamed, and prompting you to stage that change. This notification appears before you stage or commit anything. You might want to stage and commit the change before making other changes, in order to ensure that Git treats the change as a rename, not a deletion and addition of a new file.
+New in **version 17.12**: When you rename a file, you'll see a notification bar at the top of the **Git Changes** window informing you that a file was renamed, and prompting you to stage that change. This notification appears before you stage or commit anything. You might want to stage and commit the change before making other changes, in order to ensure that Git treats the change as a rename, not a deletion and addition of a new file.
 
 ## Revert, reset, or amend a commit
 
