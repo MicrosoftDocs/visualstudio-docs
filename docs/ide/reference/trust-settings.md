@@ -38,7 +38,7 @@ To enable the **Trusted locations** feature, follow these steps:
 :::image type="content" source="media/vs-2022/trusted-settings-options-dialog.png" alt-text="Screenshot showing how to enable trusted locations by using the Trust Settings options.":::
 
 > [!NOTE]
-> The **Skip trust checks for temporary locations Visual Studio creates automatically** option is not enabled by default. It has no impact unless the **Require a trust decision before opening content** option is also enabled.
+> The **Skip trust checks for temporary locations Visual Studio creates automatically** option is not enabled by default. It has no impact unless the **Always require a trust decision** option is also enabled.
 
 After it's enabled, Visual Studio detects if you're attempting to open content that isn't designated as *trusted* and shows a new dialog that warns you about the security implications.
 
