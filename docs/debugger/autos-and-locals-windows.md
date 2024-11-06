@@ -1,7 +1,7 @@
 ---
 title: Inspect variables - Autos and Locals windows
 description: Inspect variables in the Autos and Locals windows while debugging in Visual Studio. The Autos and Locals windows show variable values while you are debugging.
-ms.date: 09/06/2024
+ms.date: 11/05/2024
 ms.topic: how-to
 f1_keywords:
   - vs.debug.autos
@@ -167,6 +167,9 @@ Different code languages display different variables in the **Autos** window.
 
 In .NET and C++ code, you can examine return values in the **Autos** window when you step over or out of a method call. Viewing method call return values can be useful when they are not stored in local variables. A method could be used as a parameter, or as the return value of another method.
 
+> [!NOTE]
+> Starting in Visual Studio 2022 version 17.12 Preview 3, you can also view [return values inline](../debugger/debugger-feature-tour.md#view-return-values-of-method-calls) and not just in the Autos window.
+
 For example, the following C# code adds the return values of two functions:
 
 ```csharp
@@ -198,7 +201,7 @@ To see the return values of the `sumVars()` and `subtractVars()` method calls in
 1. Start debugging, and when execution pauses at the breakpoint, select **Step Over** or press **F10**. You should see the following return values in the **Autos** window:
 
    ::: moniker range=">= vs-2022"
-   ![Screenshot of Autos return value C#.](../debugger/media/vs-2022/autos-return-value-csharp-2.png "Autos return value C#")
+   [ ![Screenshot of Autos return value C#.](../debugger/media/vs-2022/autos-return-value-csharp-2.png "Autos return value C#") ](../debugger/media/vs-2022/autos-return-value-csharp-2.png#lightbox)
    ::: moniker-end
    ::: moniker range="vs-2019"
    ![Screenshot of Autos return value C#.](../debugger/media/autosreturnvaluecsharp2.png "Autos return value C#")

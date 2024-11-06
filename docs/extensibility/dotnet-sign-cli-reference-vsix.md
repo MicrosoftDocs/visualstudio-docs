@@ -171,25 +171,25 @@ dotnet tool install --global --add-source <path-to-folder> <tool-name> --version
 - Sign *contoso.vsix* with certificate *cert.pfx* (password protected):
 
   ```dotnetcli
-  sign code certificate-store contoso.vsix -s 24D58920B2D24D00A7DF07FB9523B36E -cf cert.pfx -p <password> -d "Constoso VSIX Signature" -u "http://www.contoso.com"
+  sign code certificate-store contoso.vsix -cfp 24D589...FB9523B36E -cf cert.pfx -p <password> -d "Constoso VSIX Signature" -u "http://www.contoso.com"
   ```
 
 - Sign multiple VSIX packages - *contoso.vsix* and *all .vsix files in the directory specified* with certificate *cert.pfx* (not password protected):
 
   ```dotnetcli
-  sign code certificate-store *.vsix -s 24D58920B2D24D00A7DF07FB9523B36E -cf cert.pfx -d "Constoso VSIX Signature" -u "http://www.contoso.com"
+  sign code certificate-store *.vsix -cfp 24D589...FB9523B36E -cf cert.pfx -d "Constoso VSIX Signature" -u "http://www.contoso.com"
   ```
 
 - Sign *contoso.vsix* with a certificate stored in a secure USB drive.
 
   ```dotnetcli
-  sign code certificate-store contoso.vsix -s 24D58920B2D24D00A7DF07FB9523B36E -csp "Microsoft Software Key Storage Provider" -k "NuGetSigning 0B2D249223B36D00A7DF07FB95E24D58" -d "Constoso VSIX Signature" -u "http://www.contoso.com"
+  sign code certificate-store contoso.vsix -cfp 24D589...FB9523B36E -csp "Microsoft Software Key Storage Provider" -k "VsixSigning 0B2D249223B36D00A7DF07FB95E24D58" -d "Constoso VSIX Signature" -u "http://www.contoso.com"
   ```
 
 - Sign *contoso.vsix* with a certificate stored in a secure USB drive and accessed from the **machine** certificate store (-km option).
 
   ```dotnetcli
-  sign code certificate-store contoso.vsix -s 24D58920B2D24D00A7DF07FB9523B36E -csp "Microsoft Software Key Storage Provider" -k "NuGetSigning 0B2D249223B36D00A7DF07FB95E24D58" -km -d "Constoso VSIX Signature" -u "http://www.contoso.com"
+  sign code certificate-store contoso.vsix -cfp 24D589...FB9523B36E -csp "Microsoft Software Key Storage Provider" -k "VsixSigning 0B2D249223B36D00A7DF07FB95E24D58" -km -d "Constoso VSIX Signature" -u "http://www.contoso.com"
   ```
 
   > [!NOTE]
@@ -198,5 +198,5 @@ dotnet tool install --global --add-source <path-to-folder> <tool-name> --version
 - Sign *contoso.vsix* with a certificate stored in a secure USB drive specifying file digest algorithm (-fd), timestamp server (-t), and a custom output path (-o) for the signed VSIX.
 
   ```dotnetcli
-  sign code certificate-store contoso.vsix -s 24D58920B2D24D00A7DF07FB9523B36E -csp "Microsoft Software Key Storage Provider" -k "NuGetSigning 0B2D249223B36D00A7DF07FB95E24D58" -d "Constoso VSIX Signature" -u "http://www.contoso.com" -t "http://timestamp.acs.microsoft.com/" -fd sha256 -o "ContosoSigned.vsix"
+  sign code certificate-store contoso.vsix -cfp 24D589...FB9523B36E -csp "Microsoft Software Key Storage Provider" -k "VsixSigning 0B2D249223B36D00A7DF07FB95E24D58" -d "Constoso VSIX Signature" -u "http://www.contoso.com" -t "http://timestamp.acs.microsoft.com/" -fd sha256 -o "ContosoSigned.vsix"
   ```
