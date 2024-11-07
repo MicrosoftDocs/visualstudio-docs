@@ -32,7 +32,7 @@
       href: unreal/get-started/vs-tools-unreal-install.md
     - name: Quickstart-Visual Studio Tools for Unreal Engine
       href: unreal/get-started/vs-tools-unreal-quickstart.md
-    - name: Open an Unreal Engine project in Visual Studio
+    - name: Open Unreal Engine projects in Visual Studio
       href: unreal/get-started/vs-tools-unreal-uproject.md
     - name: Add Unreal Engine classes, modules, and plugins in Visual Studio
       href: unreal/get-started/vs-tools-unreal-add-class-module-plugin.md
