@@ -1,7 +1,7 @@
 ---
 title: "MSBuild properties for JavaScript Project System (JSPS)"
 description: Reference for the MSBuild properties and items that are understood by JSPS projects.
-ms.date: 10/19/2023
+ms.date: 11/07/2024
 ms.custom: updateeachrelease
 ms.topic: reference
 ms.devlang: javascript
@@ -49,7 +49,7 @@ The `ShouldRunBuildScript` property specifies whether or not to run `npm run bui
 
 ```xml
 <PropertyGroup>
-  <ShouldRunNpmBuildScript>false</ShouldRunNpmBuildScript>
+  <ShouldRunBuildScript>false</ShouldRunBuildScript>
 </PropertyGroup>
 ```
 
