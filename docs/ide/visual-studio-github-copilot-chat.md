@@ -1,7 +1,7 @@
 ---
 title: About GitHub Copilot Chat in Visual Studio
 description: Learn about the fully integrated GitHub Copilot Chat in Visual Studio. Use the chat interface to ask coding-related questions from right within the IDE.
-ms.date: 8/13/2024
+ms.date: 11/12/2024
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
@@ -82,6 +82,10 @@ The chat window of Copilot Chat in Visual Studio enables you to ask your questio
     1. If you select **Insert in new file**, you'll see the code suggestions in a new file. The file is not saved by default.
     
         :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-window-insert-in-new-file.png" alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-window-insert-in-new-file.png":::
+    
+    Visual Studio 2022 version 17.12 now includes [code referencing in GitHub Copilot](https://github.blog/news-insights/product-news/introducing-code-referencing-for-github-copilot/). When copilot suggests code that matches public code, it now lets you know of this match. You can view the matching code, its source file, and any associated licensing information directly within Visual Studio. This allows you to make more informed decisions about whether to use the suggested code. 
+
+    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/code-referencing.png" alt-text="Screenshot of code referencing for public code.":::
 
 ### Ask questions in the inline chat view
 
