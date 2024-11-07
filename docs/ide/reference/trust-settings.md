@@ -21,7 +21,7 @@ helpviewer_keywords:
 ::: moniker range=">=vs-2022"
 
 In Visual Studio 2022, we've revamped the **Trust Settings** functionality to show a warning whenever untrusted code is opened in the IDE.
-With Visual Studio 2022 version 17.12 and later, [Mark of the web (MotW) security warnings](#mark-of-the-web-motw-security-warnings) are now integrated into the overall trust functionality.
+With Visual Studio 2022 version 17.12 and later, Mark of the web (MotW) security warnings are now integrated into the overall trust functionality.
 
 Software developers are increasingly being targeted by malware. The new **Trust Settings** functionality aims to raise awareness about the risks of handling unfamiliar code, and helps protect against malicious actors, who are targeting scenarios ranging from opening content (for example, repositories, solutions, projects, and files) to building and running applications with Visual Studio. 
 
