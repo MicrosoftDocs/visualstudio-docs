@@ -53,7 +53,7 @@ The `ShouldRunBuildScript` property specifies whether or not to run `npm run bui
 </PropertyGroup>
 ```
 
-For projects containing only JavaScript that do not require building, set this property to `false`. Newly created React, Vue, and Angular projects usually fall in this category. In this scenario, build is used for production and not for debugging. Note that the `Build` and `Publish` commands are separate in JSPS projects, and `Publish` still runs even if this property is set.
+For projects containing only JavaScript that don't require building, set this property to `false`. Newly created React, Vue, and Angular projects usually fall in this category. In this scenario, build is used for production and not for debugging. Note that the `Build` and `Publish` commands are separate in JSPS projects, and `Publish` still runs even if this property is set.
 
 ## Command Properties
 
@@ -119,7 +119,7 @@ If you modify the command, include `npm run` when using `npm`.
 
 ### PublishCommand
 
-The `PublishCommand` property specifies the behavior for the `publish` target. If the associated `package.json` contains a `publish` script, the default `PublishCommand` value is already set to run this script. In npm, it is common to have pre- and post- publish scripts, which will also run.
+The `PublishCommand` property specifies the behavior for the `publish` target. If the associated `package.json` contains a `publish` script, the default `PublishCommand` value is already set to run this script. In npm, it's common to have pre- and post- publish scripts, which will also run.
 
 If you modify the command, include `npm run` when using `npm`.
 
