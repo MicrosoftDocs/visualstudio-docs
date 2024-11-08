@@ -133,6 +133,8 @@ The React app appears and is populated via the API. If you don't see the app, se
 
    The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run build` command gets invoked when publishing. The [BuildCommand](../javascript/javascript-project-system-msbuild-reference.md#buildcommand) runs `npm run build` by default.
 
+   If you publish to a folder, see [ASP.NET Core directory structure](/aspnet/core/host-and-deploy/directory-structure) for more information on the files added to the *publish* folder.
+
 ## Troubleshooting
 
 ### Proxy error
