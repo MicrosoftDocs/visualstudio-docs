@@ -52,7 +52,7 @@ Starting in Visual Studio 2022 version 17.12 Preview 2, you can get quick assist
 - Choose **Explain failure with Copilot**, or
 - Choose **Debug with Copilot**.
 
-![Debug tests with Copilot](../test/media/vs-2022/debug-tests-with-copilot.png)
+![Screenshot of debugging tests with Copilot.](../test/media/vs-2022/debug-tests-with-copilot.png)
 
 If you debug with Copilot, GitHub Copilot provides you with a debug plan, it sets appropriate breakpoints and watch variables, and it starts the debug session. When the debugger hits the breakpoint, it provides GitHub Copilot with values for the watched variables and Copilot determines your next step: either to continue debugging or fix the problem code. You can continue the Copilot Chat conversation until you have a passing test.
 
