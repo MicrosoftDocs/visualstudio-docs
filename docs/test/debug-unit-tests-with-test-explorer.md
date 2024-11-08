@@ -1,7 +1,7 @@
 ---
 title: Debug unit tests with Test Explorer
 description: Debug and analyze unit tests with Test Explorer in Visual Studio by setting breakpoints to diagnose test method performance issues.
-ms.date: 02/13/2024
+ms.date: 11/08/2024
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -41,6 +41,18 @@ To diagnose why a test method is taking too much time, select the method in Test
 
 > [!NOTE]
 > This feature is not currently supported for .NET Core.
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+## Get AI assistance to debug tests
+
+Starting in Visual Studio 2022 version 17.12 Preview 2, you can get help from GitHub Copilot to debug tests. To get help, select a failed test in Test Explorer, and then do one of the following:
+
+- Choose **Explain failure with Copilot**, or
+- Choose **Debug with Copilot**.
+
+![Debug tests with Copilot](../test/media/vs-2022/debug-tests-with-copilot.png)
+
 ::: moniker-end
 
 ## Related content
