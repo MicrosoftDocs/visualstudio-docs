@@ -1,7 +1,7 @@
 ---
 title: "Search within Specific Files with 'Find in Files'"
 description: Explore the Find in Files feature in Visual Studio and discover how to use the feature to search a specific set of files.
-ms.date: 1/12/2024
+ms.date: 11/1/2024
 ms.topic: conceptual
 f1_keywords:
 - vs.findinfiles
@@ -137,7 +137,7 @@ The **File types** option indicates the types of files to search through in the 
 
 :::image type="content" source="media/find-file-types.png" alt-text="Screenshot of the File Types section of the Find In Files dialog box.":::
 
-You can search for multiple file types by separating them with a semicolon (`;`). You can also can exclude folders and files by prefixing any path or file type with an exclamation mark (`!`).
+You can search for multiple file types by separating them with a semicolon (`;`). You can also exclude folders and files by prefixing any path or file type with an exclamation mark (`!`).
 
 ### Append results
 
@@ -145,14 +145,25 @@ Use this option to append the results from the current search to previous search
 
 ::: moniker-end
 
-## Search results
 
 :::moniker range=">=vs-2022"
+
+## Search results
 
 When you perform a search for all results, results appear as they become available.
 
 > [!NOTE]
 > Visual Studio begins building an index after your code context is loaded, such as when opening a new project, changing branches, or otherwise changing the file list. If you search while Visual Studio is still indexing your source files, you might see a warning that results are incomplete.
+
+With Visual Studio 17.12 and later, if you want to repeat the same search after doing further work, you can click the clockwise arrow icon to refresh the results. This ensures all changes you've made since the last Find are reflected without having to reopen the Find window.
+
+![Screenshot showing the refresh button.](./media/vs-2022/find-in-files-refresh.png)
+
+## Modify find
+
+Use the **Modify Find** button (**Repeat Find** in some versions) in the results window to refine the search criteria without having to recreate the same search criteria in the Find window. Clicking **Modify Find** reopens Find in Files with your prior search criteria for that set of results.
+
+![Screenshot showing the Modify Find button and search criteria you can modify.](./media/vs-2022/find-in-files-modify-find.png)
 
 :::moniker-end
 
