@@ -79,10 +79,10 @@ Starting in Visual Studio 2019 version 16.8, which includes the .NET 5.0 RC2 SDK
 
 For C# code files, Visual Studio has a **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**) to apply code styles from an EditorConfig file or from the **Code Style** options page. If an *.editorconfig* file exists for the project, those are the settings that take precedence.
 
-![Screenshot of Execute code cleanup.](media/vs-2019/execute-code-cleanup.png)
-
 > [!TIP]
 > Rules configured with a severity of **None** don't participate in code cleanup but can be individually applied via the **Quick Actions and Refactorings** menu.
+
+To apply code styles:
 
 1. First, configure which code styles you want to apply (in one of two profiles) in the **Configure Code Cleanup** dialog box. To open this dialog box, click the expander arrow next to the code cleanup broom icon and then choose **Configure Code Cleanup**.
 
@@ -92,9 +92,11 @@ For C# code files, Visual Studio has a **Code Cleanup** button at the bottom of 
 
    - Click on the broom icon or press **Ctrl**+**K**, **Ctrl**+**E** to run code cleanup.
 
+     ![Screenshot of Execute code cleanup.](media/vs-2019/execute-code-cleanup.png)
+
    - To run code cleanup across your entire project or solution, right-click on the project or solution name in **Solution Explorer**, select **Analyze and Code Cleanup**, and then select **Run Code Cleanup**.
 
-   ![Screenshot of Run Code Cleanup across entire project or solution.](media/vs-2019/run-code-cleanup-project-solution.png)
+     ![Screenshot of Run Code Cleanup across entire project or solution.](media/vs-2019/run-code-cleanup-project-solution.png)
 
    If you want your code style settings to be applied every time you save a file, you may like the [Code Cleanup on Save](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CodeCleanupOnSave) extension.
 ::: moniker-end
@@ -102,8 +104,6 @@ For C# code files, Visual Studio has a **Code Cleanup** button at the bottom of 
 ::: moniker range=">=vs-2022"
 
 For C# code files, Visual Studio has a **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**) to apply code styles from an EditorConfig file or from the **Code Style** options page. If an *.editorconfig* file exists for the project, those are the settings that take precedence.
-
-![Screenshot of Execute code cleanup.](media/vs-2022/execute-code-cleanup.png)
 
 > [!TIP]
 > Rules configured with a severity of **None** don't participate in code cleanup but can be individually applied via the **Quick Actions and Refactorings** menu.
@@ -116,9 +116,11 @@ For C# code files, Visual Studio has a **Code Cleanup** button at the bottom of 
 
    - Click on the broom icon or press **Ctrl**+**K**, **Ctrl**+**E**.
 
+     ![Screenshot of Execute code cleanup.](media/vs-2022/execute-code-cleanup.png)
+
    - To run code cleanup across your entire project or solution, right-click on the project or solution name in **Solution Explorer**, select **Analyze and Code Cleanup**, and then select **Run Code Cleanup**.
 
-   ![Screenshot of Run Code Cleanup across entire project or solution.](media/vs-2022/run-code-cleanup-project-solution.png)
+     ![Screenshot of Run Code Cleanup across entire project or solution.](media/vs-2022/run-code-cleanup-project-solution.png)
 
    If you want your code style settings to be applied every time you save a file, go to **Options** > **Text Editor** > **Code Cleanup** and select **Run Code Cleanup profile on save**.
 
