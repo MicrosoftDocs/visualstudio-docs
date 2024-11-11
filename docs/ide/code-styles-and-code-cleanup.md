@@ -108,6 +108,8 @@ For C# code files, Visual Studio has a **Code Cleanup** button at the bottom of 
 > [!TIP]
 > Rules configured with a severity of **None** don't participate in code cleanup but can be individually applied via the **Quick Actions and Refactorings** menu.
 
+To apply code styles:
+
 1. First, configure which code styles you want to apply (in one of two profiles) in the **Configure Code Cleanup** dialog box. To open this dialog box, click the expander arrow next to the code cleanup broom icon and then choose **Configure Code Cleanup**.
 
    ![Screenshot of Configure Code Cleanup.](media/vs-2022/configure-code-cleanup.png)
