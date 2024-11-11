@@ -2,7 +2,7 @@
 title: "First look at the debugger"
 description: Get started debugging your applications by using the Visual Studio debugger and see what your code is doing while it runs.
 ms.topic: conceptual
-ms.date: 09/20/2024
+ms.date: 11/5/2024
 helpviewer_keywords:
   - "debugger"
 author: mikejo5000
@@ -180,6 +180,17 @@ Next, look at the **Locals** window. The **Locals** window shows you the variabl
 ::: moniker-end
 
 In this example, the `this` object and the object `f` are in scope. For more info, see [Inspect Variables in the Autos and Locals Windows](../debugger/autos-and-locals-windows.md).
+
+::: moniker range=">= vs-2022"
+## View return values of method calls
+
+In .NET and C++ code, you can examine return values in the **Autos** window when you step over or out of a method call, which can be useful when the return value is not stored in a local variable. For more information, see [View return values of method calls](../debugger/autos-and-locals-windows.md#bkmk_returnValue).
+
+Starting in Visual Studio 2022 version 17.12 Preview 3, you can also view return values of method calls inline and not just in the Autos window.
+
+[ ![Screenshot showing the return values of method calls.](../debugger/media/vs-2022/view-return-values.png) ](../debugger/media/vs-2022/view-return-values.png#lightbox)
+
+::: moniker-end
 
 ## Set a watch
 

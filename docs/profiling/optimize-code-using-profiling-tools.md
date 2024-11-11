@@ -198,7 +198,7 @@ Multiple optimizations may be necessary and we can continue to iterate with code
 
 The following articles and blog posts provide more information to help you learn to use the Visual Studio performance tools effectively.
 
-- [Isolate a performance issue](../profiling/isolate-performance-issue.md)
+- [Case study: Isolate a performance issue](../profiling/isolate-performance-issue.md)
 - [Case Study: Double performance in under 30 minutes](https://devblogs.microsoft.com/visualstudio/case-study-double-performance-in-under-30-minutes/)
 - [Improving Visual Studio performance with the new Instrumentation Tool](https://devblogs.microsoft.com/visualstudio/improving-visual-studio-performance-with-the-new-instrumentation-tool/)
 

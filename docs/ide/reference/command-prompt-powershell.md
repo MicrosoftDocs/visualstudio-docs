@@ -232,7 +232,13 @@ Start the Developer PowerShell for the Community Edition of [Visual Studio 2022 
 
 For Developer PowerShell, the starting directory of the shell is the Visual Studio Project Location. This default locale overrides any other paths, such as working directory. This behavior can be turned off by using the command-line argument `-SkipAutomaticLocation`. This can be useful if you want the shell to stay in the current directory after initialization.
 
+::: moniker range="vs-2019"
 The Project Location can be adjusted in **Tools** > **Options** > **Projects &amp; Solutions** > **Project Location**.
+::: moniker-end
+
+::: moniker range="vs-2022"
+The Project Location can be adjusted in **Tools** > **Options** > **Projects &amp; Solutions** > **Locations**.
+::: moniker-end
 
 > [!TIP]
 > The command-line arguments `-Arch`, `-HostArch`, and `-SkipAutomaticLocation` are supported by both the `Launch-VsDevShell.ps1` script and the `Enter-VsDevShell` cmdlet.
