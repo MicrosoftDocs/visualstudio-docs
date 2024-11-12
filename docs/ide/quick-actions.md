@@ -76,7 +76,14 @@ If there's an error in your code, and Visual Studio has a recommended fix, you s
 > [!TIP]
 > You can turn off some of the code fix Quick Actions. For more informatio, see [Disable source code analysis for .NET](../code-quality/disable-code-analysis.md).
 
+::: moniker range=">=vs-2022"
+## Get AI assistance
 
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while using the Quick Actions lightbulb. From the lightbulb menu, choose **Fix with Copilot**. This opens an inline chat with GitHub Copilot Chat, offering you an available fix.
+
+
+:::image type="content" source="../ide/media/vs-2022/quick-action-lightbulb-github-copilot.png" border="false" alt-text="Screenshot that shows the Quick Action GitHub Copilot option for the lightbulb.":::
+::: moniker-end
 ## Related content
 
 - [Common Quick Actions](../ide/common-quick-actions.md)
