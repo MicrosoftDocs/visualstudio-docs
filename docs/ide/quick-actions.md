@@ -10,6 +10,7 @@ ms.subservice: general-ide
 dev_langs:
 - CSharp
 - VB
+- ms.collection: ce-skilling-ai-copilot
 
 #customer intent: As a developer, I want to use Quick Actions in Visual Studio, so I can modify my code files to apply updates and fixes or generate code.
 ---
@@ -79,11 +80,11 @@ If there's an error in your code, and Visual Studio has a recommended fix, you s
 ::: moniker range=">=vs-2022"
 ## Get AI assistance
 
-If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while using the Quick Actions lightbulb. From the lightbulb menu, choose **Fix with Copilot**. This opens an inline chat with GitHub Copilot Chat, offering you an available fix.
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while using the Quick Actions light bulb. From the light bulb menu, choose **Fix with Copilot**. This opens an inline chat with GitHub Copilot Chat, offering you an available fix.
 
-
-:::image type="content" source="../ide/media/vs-2022/quick-action-lightbulb-github-copilot.png" border="false" alt-text="Screenshot that shows the Quick Action GitHub Copilot option for the lightbulb.":::
+:::image type="content" source="../ide/media/vs-2022/quick-action-lightbulb-github-copilot.png" border="false" alt-text="Screenshot that shows the Quick Action GitHub Copilot option for the light bulb.":::
 ::: moniker-end
+
 ## Related content
 
 - [Common Quick Actions](../ide/common-quick-actions.md)
