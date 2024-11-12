@@ -35,11 +35,11 @@ You can customize the trust policies to configure the security settings for open
 
 Visual Studio 2022 version 17.12 and later now shows a security warning when you try to open content tagged with the Mark of the Web (MotW) identifier. This new trust-related alert informs you of the possible security risks associated with opening files from potentially unsafe sources, such as internet downloads.
 
-:::image type="content" source="media/vs-2022/mark-of-the-web-alert.png" alt-text="Screenshot showing the mark of the web alert.":::
+:::image type="content" source="media/vs-2022/web-content-alert.png" alt-text="Screenshot showing the mark of the web alert.":::
 
 You can modify the default trust experience from **Tools** > **Options** > **Environment** > **Security**.
 
-:::image type="content" source="media/vs-2022/mark-of-the-web-trust-settings.png" alt-text="Screenshot showing how to modify the Security options related to opening content from the web.":::
+:::image type="content" source="media/vs-2022/web-content-trust-settings.png" alt-text="Screenshot showing how to modify the Security options related to opening content from the web.":::
 
 The Mark of the Web is a security feature used by Windows to identify files that originate from the internet. When you download a file, Windows adds this identifier to the file's metadata, signaling that the content may be unsafe to execute or open. Visual Studio 2022 uses this identifier to protect your development environment from potential threats.
 
