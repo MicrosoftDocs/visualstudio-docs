@@ -10,7 +10,7 @@ ms.subservice: general-ide
 dev_langs:
 - CSharp
 - VB
-- ms.collection: ce-skilling-ai-copilot
+ms.collection: ce-skilling-ai-copilot
 
 #customer intent: As a developer, I want to use Quick Actions in Visual Studio, so I can modify my code files to apply updates and fixes or generate code.
 ---
