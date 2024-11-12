@@ -40,7 +40,7 @@ Support for GitHub Copilot Chat will be provided by GitHub and can be reached at
 
 The guided chat experience in Visual Studio 17.12 and later helps refine your prompts to clarify context for better answers. GitHub Copilot Chat now guides you with clarifying questions when context is unclear.
 
-:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-guided-chat.png" alt-text="Screenshot of guided chat experience with GitHub Copilot Chat":::
+:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-guided-chat.png" alt-text="Screenshot of guided chat experience with GitHub Copilot Chat.":::
 
 ## <a name="slash-commands"></a>Use slash commands in Copilot Chat for common tasks
 
