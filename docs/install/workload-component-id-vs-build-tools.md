@@ -6,7 +6,7 @@ keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
-ms.date: 08/13/2024
+ms.date: 11/12/2024
 ms.topic: reference
 helpviewer_keywords:
 - workload ID, Visual Studio
