@@ -1,7 +1,7 @@
 ---
 title: "Create projects & solutions"
 description: Create Visual Studio solutions and projects and use them to store artifacts, including source code files, bitmaps, icons, and component and service references.
-ms.date: 10/03/2024
+ms.date: 11/12/2024
 ms.topic: how-to
 f1_keywords:
 - vs.openprojectfromweb
@@ -61,6 +61,21 @@ If you have a file that applies to multiple projects, like a readme file for the
 ### Compare files
 
 Starting with [version 17.7](/visualstudio/releases/2022/release-notes), you can compare files in Solution Explorer by using the right-click context menu options. For more information, see [The file comparison tool](use-solution-explorer.md#the-file-comparison-tool) in [Learn about Solution Explorer](use-solution-explorer.md).
+
+## Copy files between Visual Studio instances
+
+With Visual Studio version 17.12 and later, you can now copy and paste code files and folders between different Visual Studio instances using the Solution Explorer.
+
+1. Select the desired file or folder in Solution Explorer.
+1. Copy or cut the selected file or folder using **Ctrl+C** or **Ctrl+X**.
+1. Switch to another Visual Studio instance where you want to paste the file or folder.
+1. Paste the file or folder using **Ctrl+V** to include those files or folders in your new solution.
+
+All copied changes will be accurately reflected in the file system.
+
+:::image type="content" source="media/vs-2022/copy-between-visual-studio-instances-using-solution-explorer.gif" alt-text="Copy files or folders between Visual Studio instances using Solution Explorer." lightbox="media/vs-2022/copy-between-visual-studio-instances-using-solution-explorer.gif":::
+
+In addition to copy and paste, you can also drag the files and folders from one instance of Visual Studio to another.
 
 ::: moniker-end
 
