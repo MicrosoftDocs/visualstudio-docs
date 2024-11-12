@@ -246,6 +246,26 @@ These errors may be caused by the following:
 #### Support for network related issues
 Network related issues are normally related to the machine or network configuration rather than Visual Studio. [Developer Community](https://developercommunity.visualstudio.com/VisualStudio) may provide some support, but it's focused on features within Visual Studio rather than machine configuration. For network-specific support, the [Microsoft Support Community](https://answers.microsoft.com/en-us) or [Technical support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8) can be helpful.
 
+### Errors on first launch
+
+You may encounter errors when launching Visual Studio for the first time. The error dialog will show the issue that prevented Visual Studio from opening.
+
+#### Access denied
+You may see one of the following errors:
+
+ :::image type="content" source="media/vs-2022/access-denied-first-launch-file.png" alt-text="Screenshot showing the error Access to the path 'C:\Users\<UserName>\AppData\Local\.IdentityService\<Some file name>' is denied.":::
+
+:::image type="content" source="media/vs-2022/access-denied-first-launch-directory.png" alt-text="Screenshot showing the error Access to the path 'C:\Users\<UserName>\AppData\Local\.IdentityService\' is denied.":::
+
+If you encounter these errors, close any open instances of Visual Studio and delete the file or directory mentioned in the error message to resolve the issue.
+
+ Before deleting the file, check the security permissions on the file and consider logging a [Developer Community](https://developercommunity.visualstudio.com/VisualStudio) feedback ticket.  This will help us better understand why access to these files or directories is being denied.
+
+In your feedback ticket, please include the following information to help us investigate the issue:
+1. A description or screenshot of the groups and users with permissions for the file or directory mentioned in the error. To view this, right-click the file or directory, then select **Properties** > **Security**.
+1. The user account you're using to run Visual Studio.
+1. If the error persists when launching Visual Studio a second time.
+
 
 ## Related content
 

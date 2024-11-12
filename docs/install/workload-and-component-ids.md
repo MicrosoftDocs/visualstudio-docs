@@ -44,7 +44,7 @@ For more information about how to use these lists, see the [Use command-line par
 
 ::: moniker range=">=vs-2022"
 
-**Updated for the [17.11 release](/visualstudio/releases/2022/release-notes/)**
+**Updated for the [17.12 release](/visualstudio/releases/2022/release-notes/)**
 
 | **Edition** | **ID** | **Description** |
 | ----------- | ------ | --------------- |
