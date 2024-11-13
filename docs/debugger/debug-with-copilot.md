@@ -23,12 +23,12 @@ monikerRange: '>= vs-2022'
 
 In this article, you'll learn how to debug more efficiently using GitHub Copilot. Copilot can provide code fixes along with in-depth analysis and explanations of how code works. It helps with proposed fixes to bugs, and explains things such as exceptions. Copilot understands call stacks, frames, variable names, and values. As a result, you can interact with the debugger-aware AI to ask detailed questions related to your code and to debugging issues in general.
 
-In addition, Copilot provides more precise help for a few targeted scenarios including the following:
+In addition, Copilot provides more precise help for some targeted scenarios, such as the following:
 
 - Exceptions
 - Variables
 - Deadlocks
-- Auto Insights for CPU Usage
+- Quick Actions (light bulb)
 
 To get AI assistance while you're debugging in these scenarios, look for the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In these scenarios, Copilot already knows the context for your questions. For example, it knows the current call stack, the code line you are asking about, and the name of the exception (if one occurred), so you don't need to provide context yourself in chat. Copilot also provides suggestions for the use of conditional breakpoints and tracepoints.
 
