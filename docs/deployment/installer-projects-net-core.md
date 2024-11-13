@@ -62,7 +62,7 @@ To learn more about these deployment strategies, see [.NET application publishin
   :::image type="content" source="../deployment/media/vs-2022/installer-projects-net-core-publish-profile.png" border="false" alt-text="Screenshot that shows setting the publish profile on the Publish Items project output item." lightbox="../deployment/media/vs-2022/installer-projects-net-core-publish-profile.png":::
   ::: moniker-end
   ::: moniker range="vs-2019"
-  ![Setting the publish profile on the Publish Items project output item](../deployment/media/installer-projects-net-core-publish-profile.png "Set Publish Profile")
+  ![Screenshot of setting the publish profile on the Publish Items project output item](../deployment/media/installer-projects-net-core-publish-profile.png "Set Publish Profile")
   ::: moniker-end
 
   Before you can set this property, create a publish profile from the application project by choosing **Publish** from the application project's context menu in Solution Explorer, and deploy the application to a folder.
