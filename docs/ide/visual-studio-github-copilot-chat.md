@@ -69,7 +69,7 @@ The chat window of Copilot Chat in Visual Studio enables you to ask your questio
     
     :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-window-ask-copilot-textbox.png" alt-text="Screenshot of Copilot Chat window.":::
    
-   Use the example starter prompts in Visual Studio 2022 version 17.12 and later to start exploring GitHub Copilot Chat.
+   Use the example starter prompts and the prompt library (book icon) in Visual Studio 2022 version 17.12 and later to start exploring GitHub Copilot Chat.
 
 1. If Copilot Chat offers a code suggestion you want to use, select **Copy code block** to copy the code suggestion, **Insert in new files** to insert the code suggestion in a new file, or select **Preview** to insert the code suggestion in your current code file. Using the **Preview** button lets you preview the code in the target location so you can easily see what's being updated.
     
