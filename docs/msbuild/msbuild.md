@@ -199,7 +199,7 @@ If you're developing a build tool, you might want to invoke MSBuild programmatic
 
 ## MSBuild is open source
 
-MSBuild is an open-source project that accepts user contributions, just like the rest of the .NET ecosystem. The repo that contains the MSBuild source is available in GitHub: [MSBuild GitHub repo](https://github.com/dotnet/msbuild).
+MSBuild is an open-source project that accepts user contributions at the [MSBuild GitHub repo](https://github.com/dotnet/msbuild).
 
 ## See also
 
