@@ -36,7 +36,7 @@ Use build events to specify commands that run before the build starts or after t
 5. In the **Post-build event command line** box, specify the syntax of the build event.
 
    > [!NOTE]
-   > Add a `call` statement before all post-build commands that run *.bat* files. For example, `call MyFile.bat` or `call MyFile.bat call MyFile2.bat`. Paths can be absolute, or relative to the project folder.
+   > Add a `call` statement before all post-build commands that run *.bat* files. For example, `call MyFile.bat` or `call MyFile.bat call MyFile2.bat`. Paths can be absolute, or relative to the output folder.
 
 6. In the **Run the post-build event** box, specify under what conditions to run the post-build event.
 
