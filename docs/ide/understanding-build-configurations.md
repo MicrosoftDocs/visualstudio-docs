@@ -1,7 +1,7 @@
 ---
 title: Understand build configurations
 description: Discover how to work with build configurations when you need to build your projects with different settings in Visual Studio.
-ms.date: 11/01/2023
+ms.date: 11/14/2024
 ms.subservice: compile-build
 ms.topic: conceptual
 f1_keywords:
