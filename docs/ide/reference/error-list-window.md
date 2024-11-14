@@ -63,7 +63,7 @@ Use the **Search Error List** text box on the right side of the **Error List** t
 
 ## Search online
 
-To get information about an error, press **F1** to bring up the error's page in the documentation. If a page exists for this specific error code, it will open in the default browser, or in the Help Viewer, if you installed and enabled offline help. With Visual Studio 17.12 and later, when you copy an error from the Error List using **Ctrl**+**C**, the description is copied to the clipboard. You can paste this into the browser to search for the error online, or share it with others. You can also copy the entire row by right-clicking the error and selecting **Copy Row** from the context menu or hitting **Ctrl**+**Shift**+**C**. To open the browser and initiate a search on the error description with one keystroke, press **Ctrl**+**F1**.
+To get information about an error, press **F1** to bring up the error's page in the documentation. If a page exists for this specific error code, it will open in the default browser, or in the Help Viewer, if you installed and enabled offline help. With Visual Studio 17.12 and later, when you copy an error from the Error List using **Ctrl**+**C**, the description is copied to the clipboard. You can paste this into the browser to search for the error online, or share it with others. You can also copy the entire row by right-clicking the error and selecting **Copy Row** from the context menu or hitting **Ctrl**+**Shift**+**C**. To open the browser and initiate a search with Bing on the error description with one keystroke, press **Ctrl**+**F1**.
 
 ## Save
 
