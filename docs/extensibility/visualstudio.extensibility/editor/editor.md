@@ -22,6 +22,7 @@ For the initial release of the new Visual Studio extensibility model, only the f
 - Performing text edits and selection/caret changes.
 - Defining new document types.
 - Extending text views with new text view margins.
+- Extending text views with new Code Lenses.
 
 The Visual Studio editor generally refers to the functionality of editing text files, known as documents, of any type. Individual files may be opened for editing, and the open editor window is referred to as a `TextView`.
 
@@ -222,6 +223,20 @@ To avoid misplaced edits, edits from editor extensions are applied as follows:
 1. Edit requests are sent to Visual Studio IDE, where it succeeds only if the object being mutated hasn't changed since the version the request was made one. If the document has changed, the change may be rejected, requiring the extension to retry on newer version. Outcome of mutation operation is stored in `result`.
 1. Edits are applied atomically, meaning without interruption from other executing threads. The best practice is to do all changes that should occur within a narrow time frame into a single `EditAsync()` call, to reduce the likelihood of unexpected behavior arising from user edits, or language service actions that occur between edits (for example, extension edits getting interleaved with Roslyn C# moving the caret).
 
+## Changing caret position or selecting text from an extension
+
+Editing text document from an extension implicitly affects caret position. For example, inserting some text at the caret will move the caret to the end of the inserted text. Extensions can also use [`ITextViewSnapshot.AsEditable().SetSelections()`](/dotnet/api/microsoft.visualstudio.text.itextvieweditor.setselections) to set the caret explicitly to a different position or make text selections. To illustrate, the following code would insert some text, but keep the caret at the original position:
+
+```csharp
+await this.Extensibility.Editor().EditAsync(batch =>
+{
+    var caret = textView.Selection.Extent.Start;
+    textView.Document.AsEditable(batch).Replace(textView.Selection.Extent, newGuidString);
+    textView.AsEditable(batch).SetSelections([new Selection(activePosition: caret, anchorPosition: caret, insertionPosition: caret)]);
+},
+cancellationToken);
+```
+
 ### Asynchronous execution
 
 [ITextViewSnapshot.GetTextDocumentAsync](/visualstudio/extensibility/visualstudio.extensibility/editor/editor-concepts?view=vs-2022#itextviewsnapshot) opens a copy of the text document in the Visual Studio extension. Since extensions run in a separate process, all extension interactions are asynchronous, cooperative, and have some caveats:
@@ -282,6 +297,97 @@ Visual Studio only creates one instance of your text view margin provider regard
 For more information, see [Word Count Margin Sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/WordCountMargin/).
 
 Vertical text view margins whose content needs to be aligned with text view lines are not yet supported.
+
+## Extending Visual Studio editor with a new Code Lens
+
+Extensions can contribute new Code Lenses to the Visual Studio editor. A Code Lens is a visual indicator displayed above lines of text providing actionable contextual information such as number of references to a code element, results of the last unit test run or actions to run/debug a unit test.
+
+### Text view Code Lens
+Text view Code Lens provide text-based information to segments of code. This is the simplest forms of Code Lens. The following concepts illustrate how to create a text view Code Lens:
+- [`ICodeLensProvider`](/dotnet/api/microsoft.visualstudio.extensibility.editor.icodelensprovider) interface is the main interface to implement. Your implementation of this interface will define when your Code Lens will be activated, and which segments of code your Code Lens will be applicable to, and how it will be displayed.
+- Within your implementation of [`ICodeLensProvider`](/dotnet/api/microsoft.visualstudio.extensibility.editor.icodelensprovider), you will need to define when the Code Lens should be activated by implementing [`CodeLensProviderConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.editor.codelensproviderconfiguration).
+- You will also need to implement the [`TryCreateCodeLensAsync`](/dotnet/api/microsoft.visualstudio.extensibility.editor.icodelensprovider.trycreatecodelensasync) method. This method will be invoked when your Code Lens is activated. In this method, you can define how you want your Code Lens to be displayed and when it should be displayed. This method returns an instance of [`CodeLens`](/dotnet/api/microsoft.visualstudio.extensibility.editor.codelens).
+- You will need to create your own sub-class of [`CodeLens`](/dotnet/api/microsoft.visualstudio.extensibility.editor.codelens), where you get to define how you want your display text to appear through the [`GetLabelAsync`](/dotnet/api/microsoft.visualstudio.extensibility.editor.codelens.getlabelasync) method. This method returns an instance of [`CodeLensLabel`](/dotnet/api/microsoft.visualstudio.extensibility.editor.codelenslabel), which you can use to configure the text, tooltip, and an optional icon.
+
+### Invokable Code Lens
+Invokable Code Lens allows extensions to perform some action (e.g. run a unit test) when user clicks on the Code Lens. Extensions can contribute invokable Code Lens by implementing [`InvokableCodeLens`](/dotnet/api/microsoft.visualstudio.extensibility.editor.invokablecodelens), which derives from [`CodeLens`](/dotnet/api/microsoft.visualstudio.extensibility.editor.codelens).
+
+### Visual Code Lens
+Visual Code Lens allows extensions to provide custom UI, like a list of references to a method, to be displayed in a popup above the Code Lens when user clicks on the Code Lens. Extensions can contribute visual Code Lens by implementing [`VisualCodeLens`](/dotnet/api/microsoft.visualstudio.extensibility.editor.visualcodelens), which derives from [`CodeLens`](/dotnet/api/microsoft.visualstudio.extensibility.editor.codelens). Similar to text view margins, because extensions in VisualStudio.Extensibility might be out-of-process from the Visual Studio, visual Code Lenses provide UI by creating a [`RemoteUserControl`](./../inside-the-sdk/remote-ui.md) and the corresponding data template for that control. While there are some simple examples below, we recommend reading the [Remote UI documentation](./../inside-the-sdk/remote-ui.md) when creating visual Code Lens' UI content.
+
+The sample code below demonstrates how to create a text view Code Lens and an invokable Code Lens:
+
+```csharp
+public TextViewExtensionConfiguration TextViewExtensionConfiguration => new()
+{
+    AppliesTo = new[]
+    {
+        DocumentFilter.FromDocumentType(DocumentType.KnownValues.Code),
+    },
+};
+
+public CodeLensProviderConfiguration CodeLensProviderConfiguration =>
+    new("CodeLens Sample Provider") {};
+
+public Task<CodeLens?> TryCreateCodeLensAsync(CodeElement codeElement, CodeElementContext codeElementContext, CancellationToken token)
+{
+    if (codeElement.Kind == CodeElementKind.KnownValues.Method)
+    {
+        return Task.FromResult<CodeLens?>(new ClickableCodeLens(codeElement, this.Extensibility));
+    }
+    
+    return Task.FromResult<CodeLens?>(new WordCountCodeLens(codeElement, codeElementContext, this.Extensibility, this));
+}
+
+...
+
+public class ClickableCodeLens : InvokableCodeLens
+{
+    public override Task ExecuteAsync(CodeElementContext codeElementContext, IClientContext clientContext, CancellationToken cancelToken)
+    {
+        this.clickCount++;
+        this.Invalidate();
+        return Task.CompletedTask;
+    }
+
+    public override Task<CodeLensLabel> GetLabelAsync(CodeElementContext codeElementContext, CancellationToken token)
+    {
+        return Task.FromResult(new CodeLensLabel()
+        {
+            Text = this.clickCount == 0 ? "Click me" : $"Clicked {this.clickCount} times",
+            Tooltip = "Invokable CodeLens Sample Tooltip",
+        });
+    }
+}
+
+public class WordCountCodeLens : VisualCodeLens
+{   
+    public override Task<IRemoteUserControl> GetVisualizationAsync(CodeElementContext codeElementContext, IClientContext clientContext, CancellationToken token)
+    {
+        return Task.FromResult<IRemoteUserControl>(new WordCountCodeLensVisual(this.wordCountData));
+    }
+
+    public override Task<CodeLensLabel> GetLabelAsync(CodeElementContext codeElementContext, CancellationToken token)
+    {
+        this.wordCountData.WordCount = CountWords(codeElementContext.Range);
+        return Task.FromResult(new CodeLensLabel()
+        {
+            Text = $"Words: {this.wordCountData.WordCount}",
+            Tooltip = "Number of words in this code element",
+        });
+    }
+}
+```
+
+In addition to configuring Code Lens provider display name, Code Lens providers can also configure priority of their Code Lens. The priority value is used to determine the relative ordering of your Code Lens respective to other Code Lenses. This is done through the [`Priority`](/dotnet/api/microsoft.visualstudio.extensibility.editor.codelensproviderconfiguration.priority) property in the [`CodeLensProviderConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.editor.codelensproviderconfiguration) object.
+
+Code Lenses typically visualize some data related to the text view. For example, they might want to display the number of references to a method. To do so, your Code Lens provider should also [listen to text view events](#add-a-text-view-listener) to react to opening, closing of text views and user typing.
+
+Visual Studio only creates one instance of your Code Lens provider regardless of how many applicable text views a user opens. This means that if your Code Lens needs to maintain state, you need to ensure your Code Lens provider has a way to keep the state of currently open text views.
+
+For more information, see [Code Lens Sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CodeLensSample/).
+
+*Contributing Code Lenses to new documents types (or existing document types not supporting Code Lens) is not yet supported.*
 
 ## Related content
 
