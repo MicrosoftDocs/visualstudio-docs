@@ -14,7 +14,7 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_modifierValues
 
-Retrieves the total invocation count in PGO training.
+Retrieves an array of [`modifiers`](../../debugger/debug-interface-access/cv-modifier-e.md) affecting the symbol.
 
 ## Syntax
 
