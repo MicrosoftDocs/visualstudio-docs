@@ -236,7 +236,7 @@
       - name: Create web templates
         href: ide/how-to-manually-create-web-templates.md
       - name: Troubleshoot templates
-        href: /troubleshoot/developer/visualstudio/project-build/how-to-troubleshoot-templates?toc=%2Fvisualstudio%2Fmsbuild%2Ftoc.json
+        href: /troubleshoot/developer/visualstudio/project-build/how-to-troubleshoot-templates?toc=%2Fvisualstudio%2Ftoc.json
     - name: Locate project and item templates
       href: ide/how-to-locate-and-organize-project-and-item-templates.md
     - name: Customize templates
