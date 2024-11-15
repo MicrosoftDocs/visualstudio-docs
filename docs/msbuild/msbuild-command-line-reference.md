@@ -88,17 +88,11 @@ Square brackets `[]` indicate optional parts, and curly braces `{}`indicate user
 |`-noConsoleLogger`<br/><br/>`-noconlog`|Disable the default console logger, and don't log events to the console.|
 |`-terminalLogger[:auto`,`on`,`off]`<br/><br/>`-tl[:auto`,`on`,`off]`|Enable or disable the [terminal logger](https://devblogs.microsoft.com/dotnet/announcing-dotnet-8-preview-4/#msbuild-new-modern-terminal-build-output). Terminal logger provides enhanced build output on the console in real time, organized logically by project, and designed to highlight actionable information. Specify `auto` (or use the option without arguments) to use the terminal logger only if the standard output is not redirected. Don't parse the output or otherwise rely on it remaining unchanged in future versions. This option is available in MSBuild 17.8 and later.|
 
-## Example 1
+## Example
 
  The following example builds the `rebuild` target of the *MyProject.proj* project.
 
 `MSBuild.exe MyProject.proj -t:rebuild`
-
-## Example 2
-
- You can use *MSBuild.exe* to perform more complex builds. For example, you can use it to build specific targets of specific projects in a solution. The following example rebuilds the project `NotInSolutionFolder` and cleans the project `InSolutionFolder`, which is in the *NewFolder* solution folder.
-
-`msbuild SlnFolders.sln -t:NotInSolutionfolder:Rebuild;NewFolder\InSolutionFolder:Clean`
 
 ## See also
 
