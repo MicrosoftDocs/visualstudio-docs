@@ -94,12 +94,6 @@ Square brackets `[]` indicate optional parts, and curly braces `{}`indicate user
 
 `MSBuild.exe MyProject.proj -t:rebuild`
 
-## Example 2
-
- You can use *MSBuild.exe* to perform more complex builds. For example, you can use it to build specific targets of specific projects in a solution. The following example rebuilds the project `NotInSolutionFolder` and cleans the project `InSolutionFolder`, which is in the *NewFolder* solution folder.
-
-`msbuild SlnFolders.sln -t:NotInSolutionfolder:Rebuild;NewFolder\InSolutionFolder:Clean`
-
 ## See also
 
 - [MSBuild reference](../msbuild/msbuild-reference.md)
