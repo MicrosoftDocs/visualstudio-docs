@@ -146,6 +146,9 @@ When you're ready, switch to a debug configuration.
 1. Select a **Debug** configuration, and then select **Remove additional files at destination** under the **File Publish** options.
 ::: moniker-end
 
+> [!WARNING]
+> In a production environment, using username and password credentials (basic authentication) is not the most secure method of authentication. Whenever possible, use alternative methods. For example, consider publishing to a package from Visual Studio, and then use *WebDeploy.exe* from a command line to deploy the package. With that method, you can use IIS Manager to configure authorized Windows users who can publish to the web server, and run *WebDeploy.exe* under that Windows user account. See [Installing and Configuring Web Deploy on IIS 8.0 or Later](/iis/install/installing-publishing-technologies/installing-and-configuring-web-deploy-on-iis-80-or-later). If you do use password credentials, be sure to use a strong password, and secure the password from being leaked or shared.
+
 ## (Optional) Deploy by publishing to a local folder
 
 You can use this option to deploy your app if you want to copy the app to IIS using PowerShell, RoboCopy, or you want to manually copy the files.
