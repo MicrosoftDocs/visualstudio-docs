@@ -101,26 +101,13 @@ If you haven't installed the **Class Designer** component, follow these steps to
    > [!NOTE]
    > If you don't see the **Class Diagram** template, [follow the steps](#install-the-class-designer-component) to install the **Class Designer** component for Visual Studio. As stated earlier in this article, Class Designer is not available for .NET Core and .NET 5 and later.
 
-   The class diagram opens in Class Designer and appears as a file that has a *.cd* extension in **Solution Explorer**. You can drag shapes and lines to the diagram from **Toolbox**.
+   The class diagram opens in Class Designer and appears as a file that has a *.cd* extension in **Solution Explorer**. You can drag shapes and lines to the diagram from **Toolbox**, or drag a project node from Solution Explorer to add the classes in that project.
 
 To add multiple class diagrams, repeat the steps in this procedure.
 
-## Add a class diagram based on existing types
-
-In **Solution Explorer**, open a file's context menu (right-click) and then choose **View Class Diagram**.
-
--or-
-
-In **Class View**, open the namespace or type context menu and then choose **View Class Diagram**.
-
-> [!TIP]
-> If **Class View** is not open, open **Class View** from the **View** menu. Or, press **Ctrl**+**Shift**+**C**.
-
 ### To display the contents of a complete project in a class diagram
 
-In **Solution Explorer** or Class View, right-click the project and choose **View**, then choose **View Class Diagram**.
-
-An auto-populated class diagram is created.
+Open a blank class diagram, then drag the project node from Solution Explorer to the class diagram surface. An auto-populated class diagram is created.
 
 > [!IMPORTANT]
 > Class Designer is not available in .NET Core projects.
