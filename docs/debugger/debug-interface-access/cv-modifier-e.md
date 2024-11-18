@@ -57,7 +57,8 @@ typedef enum CV_modifier_e
 | ------------ | ---------------------------- |
 | `CV_MOD_INVALID` | Invalid modifier (unused) |
 | `CV_MOD_CONST` | C++ `const` |
-| `CV_MOD_CONST` | C++ `volatile` |
+| `CV_MOD_VOLATILE` | C++ `volatile` |
+| `CV_MOD_UNALIGNED` | C++ `__unaligned` |
 | `CV_MOD_HLSL_UNIFORM` | HLSL uniform |
 | `CV_MOD_HLSL_LINE` | HLSL line |
 | `CV_MOD_HLSL_TRIANGLE` | HLSL triangle |
