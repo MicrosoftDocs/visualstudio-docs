@@ -225,7 +225,7 @@ To avoid misplaced edits, edits from editor extensions are applied as follows:
 
 ## Changing caret position or selecting text from an extension
 
-Editing text document from an extension implicitly affects caret position. For example, inserting some text at the caret will move the caret to the end of the inserted text. Extensions can also use [`ITextViewSnapshot.AsEditable().SetSelections()`](/dotnet/api/microsoft.visualstudio.text.itextvieweditor.setselections) to set the caret explicitly to a different position or make text selections. To illustrate, the following code would insert some text, but keep the caret at the original position:
+Editing text document from an extension implicitly affects caret position. For example, inserting some text at the caret will move the caret to the end of the inserted text. Extensions can also use [`ITextViewSnapshot.AsEditable().SetSelections()`](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextvieweditor.setselections) to set the caret explicitly to a different position or make text selections. To illustrate, the following code would insert some text, but keep the caret at the original position:
 
 ```csharp
 await this.Extensibility.Editor().EditAsync(batch =>
@@ -264,7 +264,7 @@ Text view margins are placed into a margin container (see [ContainerMarginPlacem
 
 Text view margin providers implement [ITextViewMarginProvider](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewmarginprovider) interface, configure the margin they provide by implementing [TextViewMarginProviderConfiguration](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewmarginprovider.textviewmarginproviderconfiguration) and when activated, provide UI control to be hosted in the margin via [CreateVisualElementAsync](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewmarginprovider.createvisualelementasync).
 
-Because extensions in VisualStudio.Extensibility might be out-of-process from the Visual Studio, we can't directly use WPF as a presentation layer for content of text view margins. Instead, providing a content to a text view margin requires creating a [RemoteUserControl](./../inside-the-sdk/remote-ui.md) and the corresponding data template for that control. While there are some simple examples below, we recommend reading the [Remote UI documentation](./../inside-the-sdk/remote-ui.md) when creating text view margin UI content.
+Because extensions in VisualStudio.Extensibility might be out-of-process from the Visual Studio, we can't directly use WPF as a presentation layer for content of text view margins. Instead, providing a content to a text view margin requires creating a [RemoteUserControl](./../inside-the-sdk/remote-ui.md#create-the-remote-user-control) and the corresponding data template for that control. While there are some simple examples below, we recommend reading the [Remote UI documentation](./../inside-the-sdk/remote-ui.md) when creating text view margin UI content.
 
 ```csharp
 /// <summary>
