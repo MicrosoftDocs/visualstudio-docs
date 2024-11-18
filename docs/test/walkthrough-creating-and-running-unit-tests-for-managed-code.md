@@ -1,7 +1,7 @@
 ---
 title: Create, run, and customize C# unit tests
 description: Learn how to create, run, and customize a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio Test Explorer.
-ms.date: 11/03/2023
+ms.date: 11/18/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - unit tests, walkthrough
