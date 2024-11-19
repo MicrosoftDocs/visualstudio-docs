@@ -42,9 +42,7 @@ To avoid having to sign in when you connect to an Azure service or publish to Az
 > [!NOTE]
 > If you have a personal and a work (or school) account, that are both owners on the same subscription, you might encounter a situation where the personal account doesn't get the expected role-based permissions on a service dependency, such as a storage account, but the work account does. The indication that this issue is happening is a timeout in the Connected Services summary screen:
 >
-> ```output
-> Create Azure Resource Connector Service result: Succeeded. resourceid: <resourceid> Error code: MaxWaitingTimeHit. Error message: Max running time hit when operating service connector resource.
-> ```
+>`Create Azure Resource Connector Service result: Succeeded. resourceid: <resourceid> Error code: MaxWaitingTimeHit. Error message: Max running time hit when operating service connector resource.`
 >
 > To get around this, manually add the required roles for the personal account in the [Azure portal](https://portal.azure.com).
 
