@@ -90,6 +90,7 @@ Assuming that the assembly is named myAssembly, the following code generates an 
 <ItemGroup>
     <EmbeddedResource Include="myResource.resx">
         <LogicalName>someQualifier.someResource.resources</LogicalName>
+        <WithCulture>false</WithCulture>
     </EmbeddedResource>
 </ItemGroup>
 ```
