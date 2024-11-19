@@ -3,7 +3,7 @@ title: Using product keys in Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/16/2024
+ms.date: 11/18/2024
 ms.topic: conceptual
 description: Obtain and manage your product keys in Visual Studio subscriptions for products that require keys for installation or activation.
 ---
@@ -69,9 +69,12 @@ Various key types are available, depending on the product.
 |  Azure Dev Tools for Teaching Retail Key |  These retail keys are for Azure Dev Tools for Teaching and allow one activation. These keys are primarily intended for student consumption. |
 |  Azure Dev Tools for Teaching Lab Key |  These lab use keys are for Azure Dev Tools for Teaching programs and allow multiple activations. They're intended for use in university computer lab scenarios. |
 |  Azure Dev Tools for Teaching MAK Key |  These keys are MAK keys for Azure Dev Tools for Teaching program customers. |
-|
 
 You can claim a key from the download page for the product, or you can search for the key you need on the [Product Keys](https://my.visualstudio.com/productkeys) page.
+
+### Products that leverage PINs, rather than product keys
+
+As of October 2024, access to Office 2024 and related Office 2024 products is still available to subscribers; however, the link on the downloads page in the subscriptions portal will redirect subscribers to office.setup.com where subscribers can create a new account or sign-in with their Microsoft account credentials. The product keys listed here are used on setup.microsoft.com for obtaining and setting up Office applications. Unlike the product key, PINs are used for redemption rather than activation. Once redeemed successfully, the product will show-up under Service & Subscriptions ready for installation. Learn how to [redeem products using PINs](https://support.microsoft.com/en-US/office/get-help-with-setup-office-com-6e1bc8e8-9e8e-4cce-8b9d-80dcbe17f253).
 
 ## Support resources
 
