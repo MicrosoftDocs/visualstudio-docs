@@ -1,7 +1,7 @@
 ---
 title: View memory for variables in the debugger
 description: Learn how to use Memory windows as you debug, to see the memory space your app is using. Other windows show variables and where they reside in memory.
-ms.date: 11/30/2023
+ms.date: 11/19/2024
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.memory
