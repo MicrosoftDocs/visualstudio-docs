@@ -69,7 +69,7 @@ To attach to a running process in a Linux Docker container:
 
       - To connect to a remote machine via SSH:
 
-        1. Select **Add...** to connect to a remote system.
+        1. From Tools - Options - Connection Manager, select **Add...** to connect to a remote system.
            ::: moniker range=">= vs-2022"
            ![Screenshot of Connect to a Remote System.](../debugger/media/vs-2022/connect-remote-system.png "Connect to a Remote System")
            ::: moniker-end
