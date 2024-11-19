@@ -29,7 +29,7 @@ HRESULT get__NewEnum (
 
 `[out] pRetVal`
 
-Returns the `IUnknown` interface that represents the <xref:System.Runtime.InteropServices.ComTypes.IEnumVARIANT> version of this enumerator. Note that the returned enumerator is clone of the same state at the time this method is called.
+Returns the `IUnknown` interface that represents the <xref:System.Runtime.InteropServices.ComTypes.IEnumVARIANT> version of this enumerator. The returned enumerator is clone of the same state at the time this method is called.
 
 ## Return Value
 

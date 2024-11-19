@@ -33,7 +33,7 @@ The number of names in the enumeration sequence to skip.
 
 ## Return Value
 
-If successful, returns `S_OK`. Returns `S_FALSE` if there are no more named streams. Otherwise, returns an error code.
+If successful, returns `S_OK`. Returns `S_FALSE` if there are no more named streams. Otherwise, it returns an error code.
 
 ## See also
 

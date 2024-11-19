@@ -32,7 +32,7 @@ The following table shows the methods of `IDiaEnumNamedStreams`.
 |[`IDiaEnumNamedStreams::Next`](../../debugger/debug-interface-access/idiaenumnamedstreams-next.md)|Retrieves the next named stream in the enumeration sequence.|
 |[`IDiaEnumNamedStreams::Skip`](../../debugger/debug-interface-access/idiaenumnamedstreams-skip.md)|Advances a specified number of names in the enumeration sequence.|
 |[`IDiaEnumNamedStreams::Reset`](../../debugger/debug-interface-access/idiaenumnamedstreams-reset.md)|Resets this enumeration sequence to the beginning.|
-|[`IDiaEnumNamedStreams::Clone`](../../debugger/debug-interface-access/idiaenumnamedstreams-clone.md)|Creates an enumerator that contains the same enumeration state as the current enumerator.|
+|[`IDiaEnumNamedStreams::Clone`](../../debugger/debug-interface-access/idiaenumnamedstreams-clone.md)|Creates an new enumerator that contains the same enumeration state as the current enumerator.|
 
 ## Remarks
 

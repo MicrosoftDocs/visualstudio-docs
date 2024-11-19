@@ -47,7 +47,7 @@ Returns an [`IDiaEnumNamedStreams`](../../debugger/debug-interface-access/idiaen
 
 ## Example
 
- The following example shows how to find all named streams that begin with "sourcelink", and dump their length.
+ The following example shows how to find all named streams that begin with `"sourcelink"` and dump their length.
 
 ```C++
 CComPtr<IDiaEnumNamedStreams> pEnum;
@@ -76,7 +76,7 @@ do {
 ## See also
 
 - [Overview](../../debugger/debug-interface-access/overview-debug-interface-access-sdk.md)
-- [`IDiaEnumNamedSstreams`](../../debugger/debug-interface-access/idiaenumnamedsstreams.md)
+- [`IDiaEnumNamedSstreams`](../../debugger/debug-interface-access/idiaenumnamedstreams.md)
 - [`IDiaDataSourceEx2`](../../debugger/debug-interface-access/idiadatasourceex2.md)
 - [`NameSearchOptions` Enumeration](../../debugger/debug-interface-access/namesearchoptions.md)
 - [`IDiaDataSourceEx::getStreamSize`](../../debugger/debug-interface-access/idiadatasourceex-getstreamsize.md)
