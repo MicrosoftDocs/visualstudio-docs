@@ -80,7 +80,7 @@ Entering a location in the Address field to move to a memory location:
 
   That address appears in the **Address** field, and the **Memory** window adjusts to display that address at the top.
 
-  ![Screenshot of the Memory window.](../profiling/media/memory-window.png)
+  ![Screenshot of the Memory window.](../debugger/media/memory-window.png)
 
 ## Customize the Memory window
 
