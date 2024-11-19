@@ -31,7 +31,7 @@ The following table shows the methods of `IDiaDataSourceEx2`.
 
 ## Remarks
 
-A call to one of the load methods of the `IDiaDataSource` interface opens the symbol source. A successful call to the [`IDiaDataSource::openSession`](../../debugger/debug-interface-access/idiadatasource-opensession.md) method returns an [`IDiaSession`](../../debugger/debug-interface-access/idiasession.md) interface that supports querying the data source. If the load method returns a file-related error then the [`IDiaDataSource::get_lastError`](../../debugger/debug-interface-access/idiadatasource-get-lasterror.md) method return value contains the file name associated with the error.
+A call to one of the load methods of the `IDiaDataSource` interface opens the symbol source. A successful call to the [`IDiaDataSource::openSession`](../../debugger/debug-interface-access/idiadatasource-opensession.md) method returns an [`IDiaSession`](../../debugger/debug-interface-access/idiasession.md) interface that supports querying the data source. If the load method returns a file-related error, then the [`IDiaDataSource::get_lastError`](../../debugger/debug-interface-access/idiadatasource-get-lasterror.md) method return value contains the file name associated with the error.
 
 ## Notes for Callers
 
