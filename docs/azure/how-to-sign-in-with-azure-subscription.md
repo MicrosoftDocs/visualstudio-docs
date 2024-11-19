@@ -46,7 +46,7 @@ To avoid having to sign in when you connect to an Azure service or publish to Az
 > Create Azure Resource Connector Service result: Succeeded. resourceid: <resourceid> Error code: MaxWaitingTimeHit. Error message: Max running time hit when operating service connector resource.
 > ```
 >
-> To get around this, manually add those roles for the personal account in the Azure portal.
+> To get around this, manually add those roles for the personal account in the [Azure portal](https://portal.azure.com).
 
 ## Filter multiple tenants
 
