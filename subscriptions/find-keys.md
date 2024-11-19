@@ -3,7 +3,7 @@ title: Find and claim product keys in subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/16/2024
+ms.date: 11/18/2024
 ms.topic: conceptual
 description: Find, claim, and export product keys in Visual Studio subscriptions, and review types of product keys such as OEM Key, Retail, and Static Activation Key.
 ---
@@ -37,7 +37,6 @@ Various key types are available, depending on the product.
 |    Azure Dev Tools for Teaching Retail Key  | Retail keys for Azure Dev Tools for Teaching allow activation on one device. These keys are intended for student consumption. |
 |    Azure Dev Tools for Teaching Lab Key | Lab use keys for allow multiple activations. Azure Dev Tools for Teaching Lab Keys are intended for use in university computer lab scenarios. |
 |    Azure Dev Tools for Teaching MAK Key | MAK keys for Azure Dev Tools for Teaching program customers. |
-|
 
 You can claim a key from the download page for the product, or you can search for the key you need on the [Product Keys](https://my.visualstudio.com/productkeys) page.
 
@@ -66,6 +65,10 @@ You can export a list of the keys you claim. This list includes a large selectio
 
 To export your keys, select the **Export all keys** link at the far right of the Product Keys page. An .xml file entitled KeysExport.xml is created. You can choose to open or save the file. You need to open the file with an application capable of handling .xml files. For example, you can open the file as a read-only workbook in Microsoft Excel.
 
+### Products that leverage PINs, rather than product keys
+
+As of October 2024, access to Office 2024 and related Office 2024 products is still available to subscribers; however, the link on the downloads page in the subscriptions portal will redirect you to office.setup.com where subscribers can create a new account or sign-in with their Microsoft account credentials. The product keys listed here are used on setup.microsoft.com for obtaining and setting up Office applications. Unlike the product key, PINs are used for redemption rather than activation. Once redeemed successfully, the product will show-up under Service & Subscriptions ready for installation. Older Office products are still available on the downloads page where users will be redirected to office.setup.com and will be required to create a new account or sign in with their Microsoft credentials. Learn how to [redeem products using PINs](https://support.microsoft.com/office/get-help-with-setup-office-com-6e1bc8e8-9e8e-4cce-8b9d-80dcbe17f253).
+
 ## Resources
 
 [Visual Studio subscriptions support](https://aka.ms/vssubscriberhelp).
@@ -79,4 +82,4 @@ To export your keys, select the **Export all keys** link at the far right of the
 
 ## Next steps
 
-When you're ready to download software and use keys, visit https://my.visualstudio.com/downloads.  For more information about downloading software, see the [downloading overview](download-software.md).
+When you're ready to download software and use keys, visit https://my.visualstudio.com/downloads. For more information about downloading software, see the [downloading overview](download-software.md).
