@@ -31,7 +31,7 @@ You can also download an Excel spreadsheet containing an extensive list of [avai
 
 ### Products available without downloads
 
-As of October 2024, access to Office 2024 and related Office 2024 products is still available to subscribers; however, the link on the downloads page in the subscriptions portal will redirect you to office.setup.com where you can create a new account or sign-in with your Microsoft account credentials. Once redeemed successfully, the product will show-up under Service & Subscriptions ready for installation. Learn how to [redeed product using PINs](https://support.microsoft.com/office/get-help-with-setup-office-com-6e1bc8e8-9e8e-4cce-8b9d-80dcbe17f253).
+As of October 2024, access to Office 2024 and related Office 2024 products is still available to subscribers; however, the link on the downloads page in the subscriptions portal will redirect you to office.setup.com where you can create a new account or sign-in with your Microsoft account credentials. Once redeemed successfully, the product will show-up under Service & Subscriptions ready for installation. Learn how to [redeem product using PINs](https://support.microsoft.com/office/get-help-with-setup-office-com-6e1bc8e8-9e8e-4cce-8b9d-80dcbe17f253).
 
 ## Resources
 
