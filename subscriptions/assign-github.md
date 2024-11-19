@@ -65,7 +65,7 @@ You can review the impacted subscribers and specify whether you would like to no
 Selecting the **Move subscribers** button allows you to move all recommended subscribers or choose individuals from a list. After you confirm your selections, it takes a few seconds for the subscription moves to complete. If applicable, perform these steps for Professional and Enterprise separately. 
 
 > [!NOTE]
-> If you need to update a single subscriber currently assigned through a Microsoft Entra group, see our article about [Editing Visual Studio subscription assignments](https://learn.microsoft.com/visualstudio/subscriptions/edit-license]). 
+> If you need to update a single subscriber currently assigned through a Microsoft Entra group, see our article about [Editing Visual Studio subscription assignments](/visualstudio/subscriptions/edit-license). 
 
 ## Invite subscribers to your organization
 
