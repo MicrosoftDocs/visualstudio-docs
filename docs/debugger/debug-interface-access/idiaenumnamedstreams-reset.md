@@ -25,7 +25,7 @@ HRESULT Reset ();
 
 ## Return Value
 
-If successful, returns `S_OK`. Otherwise, returns an error code.
+If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## See also
 

@@ -1,5 +1,5 @@
 ---
-description: Creates an new enumerator that contains the same enumeration state as the current enumerator.
+description: Creates a new enumerator that contains the same enumeration state as the current enumerator.
 title: "IDiaEnumNamedStreams::Clone"
 ms.date: "11/19/2024"
 ms.topic: "reference"
@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 # IDiaEnumNamedStreams::Clone
 
-Creates an new enumerator that contains the same enumeration state as the current enumerator.
+Creates a new enumerator that contains the same enumeration state as the current enumerator.
 
 ## Syntax
 

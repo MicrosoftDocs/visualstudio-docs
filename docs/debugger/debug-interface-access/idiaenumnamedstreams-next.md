@@ -33,7 +33,7 @@ Optionally returns the name of the next named stream in this enumeration.
 
 ## Return Value
 
-If successful, returns `S_OK`. Returns `S_FALSE` if there are no more named streams. Otherwise, returns an error code.
+If successful, returns `S_OK`. Returns `S_FALSE` if there are no more named streams. Otherwise, it returns an error code.
 
 ## See also
 
