@@ -39,6 +39,15 @@ Visual Studio allows you to sign in with multiple accounts and it let's you work
 
 To avoid having to sign in when you connect to an Azure service or publish to Azure, you can use Visual Studio's account management features to add your Azure subscription to your Visual Studio accounts. In that case, you are automatically signed in whenever you're using Visual Studio. See [Add and switch user accounts to Visual Studio](../ide/signing-in-to-visual-studio.md#add-and-switch-user-accounts-in-visual-studio).
 
+> [!NOTE]
+> If you have a personal and a work (or school) account, that are both owners on the same subscription, you might encounter a situation where the personal account doesn't get the expected role-based permissions on a service dependency, such as a storage account, but the work account does. The indication that this issue is happening is a timeout in the Connected Services summary screen:
+>
+> ```output
+> Create Azure Resource Connector Service result: Succeeded. resourceid: <resourceid> Error code: MaxWaitingTimeHit. Error message: Max running time hit when operating service connector resource.
+> ```
+>
+> To get around this, manually add those roles for the personal account in the Azure portal.
+
 ## Filter multiple tenants
 
 If you have multiple tenants, you can filter them, so that you only see the Azure resources relevant to your current work. See [Opt out of a specific Microsoft Entra tenant in Visual Studio](../ide/work-with-multi-factor-authentication.md#how-to-opt-out-of-using-a-specific-microsoft-entra-tenant-in-visual-studio).
