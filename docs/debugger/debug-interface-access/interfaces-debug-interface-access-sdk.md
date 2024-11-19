@@ -31,6 +31,10 @@ Initiates access to a source of debugging symbols.
 
 Initiates access to a source of debugging symbols. Supersedes [`IDiaDataSource`](../../debugger/debug-interface-access/idiadatasource.md)
 
+[`IDiaDataSourceEx2`](../../debugger/debug-interface-access/idiadatasourceex2.md)
+
+Initiates access to a source of debugging symbols. Supersedes [`IDiaDataSource`](../../debugger/debug-interface-access/idiadatasource.md) and [`IDiaDataSourceEx`](../../debugger/debug-interface-access/idiadatasourceex.md)
+
 [`IDiaEnumDebugStreamData`](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md)
 
 Provides access to the records in a debug data stream.

@@ -70,5 +70,6 @@ DLL: msdia140.dll
 
 ## See also
 
-- [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [`IDiaDataSourceEx`](../../debugger/debug-interface-access/idiadatasourceex.md)
+- [`IDiaDataSourceEx2`](../../debugger/debug-interface-access/idiadatasourceex2.md)
+- [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)

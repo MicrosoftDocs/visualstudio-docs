@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 # IDiaDataSourceEx
 
-Initiates access to a source of debugging symbols.
+Initiates access to a source of debugging symbols and retrieves information about that source.
 
 ## Syntax
 
@@ -70,4 +70,6 @@ DLL: msdia140.dll
 
 ## See also
 
+- [`IDiaDataSource`](../../debugger/debug-interface-access/idiadatasource.md)
+- [`IDiaDataSourceEx2`](../../debugger/debug-interface-access/idiadatasourceex2.md)
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
