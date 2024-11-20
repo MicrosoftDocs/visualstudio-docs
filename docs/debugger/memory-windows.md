@@ -92,7 +92,7 @@ Change the format of the memory contents:
 
 Change the number of columns in the Memory window:
 
-- Select the drop down arrow next to the **Columns** field, and select the number of columns to display, or select **Auto** for automatic adjustment based on window width.
+- Select the dropdown arrow next to the **Columns** field, and select the number of columns to display, or select **Auto** for automatic adjustment based on window width.
 
 If you do not want the contents of the **Memory** window to change as your app runs, you can turn off live expression evaluation.
 
