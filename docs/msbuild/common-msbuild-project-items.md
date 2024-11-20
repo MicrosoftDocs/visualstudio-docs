@@ -20,7 +20,7 @@ In MSBuild, an item is a named reference to one or more files. Items contain met
 
 This article lists all the common project items.
 
-## Reference
+## `Reference`
 
 Represents an assembly (managed) reference in the project.
 
