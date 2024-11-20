@@ -24,7 +24,7 @@ open_to_public_contributors: false
 
 [!INCLUDE[workloads-components-header-2019_md](includes/workloads-components-header-2019_md.md)]
 
-To install these components by using the manual installer, download and run the [Test Agent for Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/).
+To install these components by using the manual installer, download and run the [Test Controller for Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/).
 
 [!include[Visual Studio Test Controller 2019](includes/vs-2019/workload-component-id-vs-test-controller.md)]
 
