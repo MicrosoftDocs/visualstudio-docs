@@ -4,7 +4,7 @@ description: Sign in to Visual Studio for Windows with an Azure subscription and
 author: ghogen
 ms.subservice: azure-development
 ms.author: ghogen
-ms.date: 06/12/2024
+ms.date: 11/19/2024
 ms.topic: how-to
 ---
 
@@ -39,6 +39,11 @@ Visual Studio allows you to sign in with multiple accounts and it let's you work
 
 To avoid having to sign in when you connect to an Azure service or publish to Azure, you can use Visual Studio's account management features to add your Azure subscription to your Visual Studio accounts. In that case, you are automatically signed in whenever you're using Visual Studio. See [Add and switch user accounts to Visual Studio](../ide/signing-in-to-visual-studio.md#add-and-switch-user-accounts-in-visual-studio).
 
+## Filter multiple tenants
+
+If you have multiple tenants, you can filter them, so that you only see the Azure resources relevant to your current work. See [Opt out of a specific Microsoft Entra tenant in Visual Studio](../ide/work-with-multi-factor-authentication.md#how-to-opt-out-of-using-a-specific-microsoft-entra-tenant-in-visual-studio).
+
 ## Related content
 
+- [Access multiple user accounts](../ide/sign-in-access-multiple-accounts.md)
 - [Sign in to Visual Studio with accounts that require multifactor authentication (MFA)](../ide/work-with-multi-factor-authentication.md)
