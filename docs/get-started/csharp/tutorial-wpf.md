@@ -82,7 +82,7 @@ After you create the project, you can customize it. To do so, choose **Propertie
 
 1. On the start window, choose **Create a new project**.
 
-   :::image type="content" source="media/vs-2022/start-window-create-new-project.png" alt-text="Screenshot of the start window in Visual Studio 2022 with the 'Create a new project' option highlighted." lightboxes="media/vs-2022/start-window-create-new-project.png":::
+   :::image type="content" source="media/vs-2022/start-window-create-new-project.png" alt-text="Screenshot of the start window in Visual Studio 2022 with the 'Create a new project' option highlighted." lightbox="media/vs-2022/start-window-create-new-project.png":::
 
 1. On the **Create a new project** screen, search for *WPF*. Choose **WPF Application**, and then choose **Next**.
 
