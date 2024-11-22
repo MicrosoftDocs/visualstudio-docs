@@ -101,7 +101,7 @@ Visual Studio creates the HelloWPFApp project and solution. **Solution Explorer*
 :::image type="content" source="media/vs-2022/explore-ide-wpf-project-cs.png" alt-text="Screenshot of the project and solution in Solution Explorer, and the XAML and designer views of 'MainWindow.xaml' open." lightbox="media/vs-2022/explore-ide-wpf-project-cs.png":::
 
 > [!NOTE]
-> For more information about XAML (eXtensible Application Markup Language), see the [XAML overview for WPF](/dotnet/framework/wpf/advanced/xaml-overview-wpf) page.
+> For more information the Extensible Application Markup Language (XAML)), see [XAML overview for WPF](/dotnet/framework/wpf/advanced/xaml-overview-wpf).
 
 After you create the project, you can customize it. To do so, choose **Properties Window** from the **View** menu, or press **F4**. Then, you can display and change options for project items, controls, and other items in an application.
 
@@ -199,7 +199,7 @@ Next, add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) controls
 
    :::image type="content" source="media/explore-ide-window-with-radio-buttons.png" alt-text="Screenshot of the Design window for MainWindow.xaml, showing a TextBlock and two RadioButton controls on the design surface.":::
 
-1. In the **Properties** window for the left RadioButton control, change the **Name** property, at the top of the **Properties** window, to `HelloButton`.
+1. In the **Properties** window for the left RadioButton control, at the top, change the **Name** property to `HelloButton`.
 
    :::image type="content" source="../media/exploreide-buttonproperties.png" alt-text="Screenshot of the Properties window for a RadioButton control with the value of the Name property changed to HelloButton.":::
 
@@ -219,7 +219,7 @@ Next, add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) controls
 
    :::image type="content" source="media/vs-2022/explore-ide-greetings-with-radiobuttons.png" alt-text="Screenshot of the Design window for Greetings.xaml with a TextBlock and two RadioButton controls on the design surface.":::
 
-1. In the **Properties** window for the left RadioButton control, change the **Name** property, at the top of the **Properties** window, to `HelloButton`.
+1. In the **Properties** window for the left RadioButton control, at the top, change the **Name** property to `HelloButton`.
 
    :::image type="content" source="media/vs-2022/explore-ide-button-properties.png" alt-text="Screenshot of the Properties window for a RadioButton control with the value of the Name property changed to HelloButton.":::
 
@@ -288,7 +288,7 @@ The final UI element that you add is a [Button](/dotnet/framework/wpf/controls/b
 
 ::: moniker range=">=vs-2022"
 
-1. In the **Toolbox**, find the **Button** control, and then add it to the design surface under the RadioButton controls by dragging it to the form in the design view. The guidelines can help you center the control.
+1. In the **Toolbox**, find the **Button** control. Add it to the design surface under the RadioButton controls by dragging it to the form in the design view. The guidelines can help you center the control.
 
 1. In the XAML view, change the value of **Content** for the Button control from `Content="Button"` to `Content="Display"`, and then save the changes.
 
@@ -326,7 +326,7 @@ When this application runs, a message box appears after a user chooses a radio b
    }
    ```
 
-1. Enter the following code:
+1. Inside the braces, add the following code:
 
    ```csharp
    if (HelloButton.IsChecked == true)
@@ -371,7 +371,7 @@ When this application runs, a message box appears after a user chooses a radio b
    </Grid>
    ```
 
-1. Enter the following code:
+1. Inside the `Button_Click` braces, add the following code:
 
    ```csharp
    if (HelloButton.IsChecked == true)
@@ -475,7 +475,7 @@ You can test the code during debugging by adding some breakpoints. You can add b
 
 1. In the **Greetings** window, choose the **Hello** radio button, and then choose the **Display** button.
 
-   The line `MessageBox.Show("Hello.")` is highlighted in yellow. At the bottom of the IDE, the Autos, Locals, and Watch windows are docked together on the left side. The Call Stack, Breakpoints, Exception Settings, Command, Immediate, and Output windows are docked together on the right side.
+   The line `MessageBox.Show("Hello.")` is highlighted in yellow. At the bottom of the IDE, the Autos, Locals, and Watch windows are docked together on the left side. The **Call Stack**, **Breakpoints**, **Exception Settings**, **Command**, **Immediate**, and **Output** windows are docked together on the right side.
 
    :::image type="content" source="media/exploreide-debugbreakpoint.png" alt-text="Screenshot of a debug session, with the code window showing execution stopped at a breakpoint highlighted in yellow." lightbox="media/exploreide-debugbreakpoint.png":::
 
@@ -511,7 +511,7 @@ You can test the code during debugging by adding some breakpoints. You can add b
 
 1. In the **Greetings** window, choose the **Hello** radio button, and then choose the **Display** button.
 
-   The line `MessageBox.Show("Hello.")` is highlighted in yellow. At the bottom of the IDE, the Autos, Locals, and Watch windows are docked together on the left side. The Call Stack, Breakpoints, Exception Settings, Command, Immediate, and Output windows are docked together on the right side.
+   The line `MessageBox.Show("Hello.")` is highlighted in yellow. At the bottom of the IDE, the Autos, Locals, and Watch windows are docked together on the left side. The **Call Stack**, **Breakpoints**, **Exception Settings**, **Command**, **Immediate**, and **Output** windows are docked together on the right side.
 
    :::image type="content" source="media/vs-2022/explore-ide-debug-breakpoint.png" alt-text="Screenshot of a debug session, with the code window showing execution stopped at a breakpoint highlighted in yellow." lightbox="media/vs-2022/explore-ide-debug-breakpoint.png":::
 
