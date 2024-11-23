@@ -28,7 +28,7 @@ This article shows how to use different types of breakpoints in Visual Studio to
 ## Scenarios
 
 | Scenario | Description   |
-|----------|---------==----|
+|----------|---------------|
 | How do I pause running code to inspect a line of code that may contain a bug? | Set a breakpoint. For more information, see [Get started with breakpoints](get-started-with-breakpoints.md). |
 | Does my variable have an unexpected value? Or, do I want to inspect my app when it reaches a specific state? | Try a conditional breakpoint to control where and when a breakpoint gets activated by using conditional logic. Right-click on a breakpoint to add conditions. Set the condition to be true when the variable equals the unexpected value. For more information, see [Breakpoint conditions](#breakpoint-conditions). |
 | How do I log information to the Output window under configurable conditions without modifying or stopping my code? | Tracepoints allow you to log information to the Output window under configurable conditions without modifying or stopping your code. |
