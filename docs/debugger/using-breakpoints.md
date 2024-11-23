@@ -27,6 +27,8 @@ This article shows how to use different types of breakpoints in Visual Studio to
 
 ## Scenarios
 
+The following table shows common debugging scenarios for breakpoints and the recommended breakpoint type for the scenario.
+
 | Scenario | Description   |
 |----------|---------------|
 | How do I pause running code to inspect a line of code that may contain a bug? | Set a breakpoint. For more information, see [Get started with breakpoints](get-started-with-breakpoints.md). |
