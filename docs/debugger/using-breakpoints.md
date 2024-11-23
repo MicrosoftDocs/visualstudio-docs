@@ -23,7 +23,7 @@ ms.subservice: debug-diagnostics
 ---
 # Use the right type of breakpoint
 
-Breakpoints are one of the most important debugging techniques in your developer's toolbox. You set breakpoints wherever you want to pause debugger execution. For example, you may want to see the state of code variables or look at the call stack at a certain breakpoint.  If you are trying to resolve a warning or issue while using breakpoints, see [Troubleshoot breakpoints in the Visual Studio debugger](../debugger/troubleshooting-breakpoints.md).
+This article shows how to use different types of breakpoints in Visual Studio to improve debugging efficiency. It covers various scenarios where breakpoints can be applied, such as pausing code execution, logging information, and tracking changes in variable states. The article explains how to set conditional breakpoints, tracepoints, data breakpoints, dependent breakpoints, and temporary breakpoints. It also includes detailed instructions on setting function breakpoints. This guide is essential for developers looking to leverage breakpoints for effective debugging in Visual Studio.
 
 ## Scenarios
 
