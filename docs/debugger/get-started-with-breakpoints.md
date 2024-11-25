@@ -45,7 +45,7 @@ To set a breakpoint in source code:
 
 - Click in the far left margin next to a line of code. You can also select the line and press **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert breakpoint**. The breakpoint appears as a red dot in the left margin.
 
-For most languages, including C#, Visual Studio automatically highlights breakpoint and current execution lines. For C++ code, you can turn on highlighting of breakpoint and current lines by selecting **Tools** (or **Debug**) > **Options** > **Debugging** >  **Highlight entire source line for breakpoints and current statement (C++ only)**.
+For most languages (including C#), Visual Studio automatically highlights breakpoint and current execution lines. For some languages, such as C++, which isn't highlighted by default, you can turn on highlighting of breakpoint and current lines by selecting **Tools** (or **Debug**) > **Options** > **Debugging** >  **Highlight entire source line for breakpoints and current statement (C++ only)**.
 
 ::: moniker range=">= vs-2022"
 ![Set a breakpoint](../debugger/media/vs-2022/basic-breakpoint.png "Basic breakpoint")
@@ -53,6 +53,8 @@ For most languages, including C#, Visual Studio automatically highlights breakpo
 ::: moniker range="<= vs-2019"
 ![Set a breakpoint](../debugger/media/basicbreakpoint.png "Basic breakpoint")
 ::: moniker-end
+
+To debug, press **F5** or select **Debug** > **Start Debugging**.
 
 When you debug, execution pauses at the breakpoint, before the code on that line is executed. The breakpoint symbol shows a yellow arrow.
 
@@ -69,6 +71,12 @@ At the breakpoint in the following example, the value of `testInt` is still 1. S
 ::: moniker-end
 
 When the debugger stops at the breakpoint, you can look at the current state of the app, including [variable values](../debugger/debugger-feature-tour.md#inspect-variables-with-data-tips) and the [call stack](../debugger/how-to-use-the-call-stack-window.md).
+
+::: moniker range=">= vs-2022"
+For example, in the following illustration, you can see the value of `testInt` in a datatip and in the **Locals** window.
+
+![Screenshot of viewing app state](../debugger/media/vs-2022/basic-breakpoint-viewing-app-state.png)
+::: moniker-end
 
 Here are a few general instructions for working with breakpoints.
 
