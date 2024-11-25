@@ -39,7 +39,7 @@ Before you begin, make sure that you're signed in to Visual Studio. Sign in with
 
    ![Screenshot showing Select your subscription.](./media/vs-key-vault-add-connected-service/key-vault-connected-service-select-vault.png)
 
-1. If you don't have an existing Key Vault, or if you need a Key Vault that you can set with different permissions than an existing one, click on **Create new Key Vault**. You'll be asked to provide the resource group, location, and SKU.
+1. If you don't have an existing Key Vault, or if you need a key vault that you can set with different permissions than an existing one, click on **Create new Key Vault**. You'll be asked to provide the resource group, location, and SKU.
 
    ![Screenshot of "Create Azure Key Vault" screen.](./media/vs-key-vault-add-connected-service/create-new-key-vault.png)
 
