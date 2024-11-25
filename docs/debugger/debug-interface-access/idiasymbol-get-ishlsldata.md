@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_isHLSLData
 
 Specifies whether this symbol represents High Level Shader Language (HLSL) data.
