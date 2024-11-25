@@ -42,7 +42,7 @@
     href: navigating-through-code-with-the-debugger.md
   - name: Get started with breakpoints
     href: get-started-with-breakpoints.md
-  - name: Using the right type of breakpoint
+  - name: Use the right type of breakpoint
     href: using-breakpoints.md
   - name: Move the execution pointer
     href: move-the-execution-pointer-with-the-debugger.md
@@ -58,6 +58,8 @@
     href: autos-and-locals-windows.md
   - name: Set a watch on variables
     href: watch-and-quickwatch-windows.md
+  - name: View data values in data tips
+    href: view-data-values-in-data-tips-in-the-code-editor.md
   - name: Expressions in the debugger
     items:
     - name: Use debugger expressions
@@ -70,8 +72,6 @@
       href: format-specifiers-in-csharp.md
     - name: Pseudovariables
       href: pseudovariables.md
-  - name: View data values in DataTips
-    href: view-data-values-in-data-tips-in-the-code-editor.md
   - name: View string values in a visualizer
     href: view-strings-visualizer.md
   - name: View .NET collections in a tabular visualizer
