@@ -48,4 +48,4 @@ The following steps guide you through removing a web or worker role from an Azur
 
 ## Related content
 
-- [Configure the Roles for an Azure Cloud Services (extended support) project with Visual Studio.](vs-azure-tools-configure-roles-for-cloud-service.md)
+- [Configure the Roles for an Azure Cloud Services (extended support) project with Visual Studio](vs-azure-tools-configure-roles-for-cloud-service.md).
