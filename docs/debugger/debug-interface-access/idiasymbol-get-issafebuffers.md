@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_isSafeBuffers
 
 Retrieves a flag that specifies whether the preprocessor directive for a safe buffer is used. Use when the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) is set to `SymTagFunction`.
@@ -19,7 +20,7 @@ Retrieves a flag that specifies whether the preprocessor directive for a safe bu
 ## Syntax
 
 ```C++
-HRESULT get_isSafeBuffers( 
+HRESULT get_isSafeBuffers( 
    BOOL* pRetVal)
 );
 ```

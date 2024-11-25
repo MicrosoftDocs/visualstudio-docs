@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_isWinRTPointer
 
 Retrieves a flag indicating whether this is a WinRT pointer type.
@@ -19,7 +20,7 @@ Retrieves a flag indicating whether this is a WinRT pointer type.
 ## Syntax
 
 ```C++
-HRESULT get_isWinRTPointer ( 
+HRESULT get_isWinRTPointer ( 
    BOOL* pRetVal
 );
 ```

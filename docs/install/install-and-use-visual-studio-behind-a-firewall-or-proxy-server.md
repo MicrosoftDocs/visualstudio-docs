@@ -79,9 +79,6 @@ Because the Visual Studio Installer downloads files from various domains and the
 
 ## Use Visual Studio and Azure Services
 
-> [!NOTE]
-> With [Visual Studio 17.8](/visualstudio/releases/2022/release-notes-v17.8), we've updated the configuration process for default proxy credentials in web requests. To enable default proxy credentials following this update, create a new environment variable named `VS_USE_DEFAULTPROXY`, set its value to `true`, and then restart Visual Studio.
-
 ### URLs to add to an allowlist and ports and protocols to open
 
 To make sure that you have access to everything you want when you use Visual Studio or Azure Services behind a firewall or proxy server, here are the URLs you should add to an allowlist and the ports and protocols that you might want to open.
@@ -89,6 +86,7 @@ To make sure that you have access to everything you want when you use Visual Stu
 | Service or scenario    | DNS endpoint   | Protocol/Port  | Description |
 |-----------------------|---------------|---------------|------------|
 | URL<br>resolution  | go.microsoft.com<br><br>aka.ms | <br/>  | Used to shorten URLs, which then resolve into longer URLs  |
+| Sign In | &#42;.msftauth.net<br><br>&#42;.live.com<br><br>visualstudio.microsoft.com<br><br>app.vsspsext.visualstudio.com<br><br>app.vssps.visualstudio.com<br><br>api.vstsusers.visualstudio.com<br><br>go.microsoft.com<br><br>graph.windows.net<br><br>graph.microsoft.com<br><br>login.microsoftonline.com<br><br>management.core.windows.net<br><br>management.azure.com<br><br>api.subscriptions.visualstudio.microsoft.com | 443 | Sign in or add account  for work or school and personal accounts |
 | Start Page         | vsstartpage.blob.core.windows.net | 443  | Used to display Developer News shown on the start page (Visual Studio 2017 only) |
 | Start Page | vsstartpagenewsfeed.azureedge.net | 443  | Used to display Developer News shown on the start page (Visual Studio 2019 onward) |
 | Targeted<br> Notification <br>Service  | targetednotifications-tm.trafficmanager.net <br><br>www.research.net | 443<br><br>443  | Used to filter a global list of notifications to a list that is applicable only to specific types of machines/usage scenarios |

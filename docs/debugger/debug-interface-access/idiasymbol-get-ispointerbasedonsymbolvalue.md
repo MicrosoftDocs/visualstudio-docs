@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_isPointerBasedOnSymbolValue
 
 Specifies whether the `this` pointer is based on a symbol value.
