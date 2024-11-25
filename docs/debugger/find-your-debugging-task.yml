@@ -2,7 +2,7 @@
 metadata:
   title: "FAQ - Debugger feature finder"
   description: Review frequently asked questions to help you identify the Visual Studio debugger feature to help you debug your application.
-  ms.date: "06/07/2023"
+  ms.date: "11/22/2024"
   ms.topic: faq
   helpviewer_keywords:
     - "debugging [Visual Studio], find your feature"
@@ -24,50 +24,19 @@ sections:
         answer: |
           - **How do I pause running code to inspect a line of code that may contain a bug?**
             
-             Set a breakpoint. For more information, see [Using breakpoints](using-breakpoints.md).
+             Set a breakpoint. For more information, see [Use the right type of breakpoint](using-breakpoints.md) and [Get started with breakpoints](get-started-with-breakpoints.md).
 
-          - **Does my variable have an unexpected value. Or, do I want to inspect my app when it reaches a specific state?**
-
-             Try a conditional breakpoint to control where and when a breakpoint gets activated by using conditional logic. Right-click on a breakpoint to add conditions. Set the condition to be true when the variable equals the unexpected value.  
+          - **How do I pause running code based on specific criteria?**
             
-             For more information, see [Breakpoint conditions](using-breakpoints.md#breakpoint-conditions).
+             Set the correct type of breakpoint. For more information, see [Use the right type of breakpoint](using-breakpoints.md).
 
           - **How do I log information to the Output window under configurable conditions without modifying or stopping my code?**
               
-             Tracepoints allow you to log information to the Output window under configurable conditions without modifying or stopping your code.          
+             Tracepoints allow you to log information to the Output window under configurable conditions without modifying or stopping your code. For more information, see [Use tracepoints in the Visual Studio debugger](../debugger/using-tracepoints.md)         
                     
-          -  **How do I know when the value of my variable changes?**
-          
-             For C++, set a [data breakpoint](using-breakpoints.md#BKMK_set_a_data_breakpoint_native_cplusplus). 
-             ::: moniker range=">= vs-2019"
-             For apps using .NET Core 3, you can also set a [data breakpoint](using-breakpoints.md#BKMK_set_a_data_breakpoint_managed).
-             ::: moniker-end
-          
-             Otherwise, for C# and F# only, you can [track an object ID with a conditional breakpoint](using-breakpoints.md#using-object-ids-in-breakpoint-conditions-c-and-f).
-          
-          - **How do I break execution only if another breakpoint is hit?**
-          
-            Set a Dependent Breakpoint that breaks execution only if another breakpoint is first hit. For more information, see [Dependent Breakpoint](using-breakpoints.md#BKMK_set_a_dependent_breakpoint).
-
-          - **Can I hit a breakpoint only once?**
- 
-            Set a temporary breakpoint which lets you break the code only once. For more information, see [Temporary Breakpoint](using-breakpoints.md#BKMK_set_a_temporary_breakpoint).
-          
-          - **Can I pause code inside a loop at a certain iteration?**
-          
-            Set a Dependent breakpoint that breaks execution only if another breakpoint is first hit. For more information, see [Hit count](using-breakpoints.md#set-a-hit-count-condition).
-          
-          - **How can I pause code at the start of a function when I know the function name but not its location?**
-          
-            You can do this with a function breakpoint. For more information, see [Set function breakpoints](using-breakpoints.md#BKMK_Set_a_breakpoint_in_a_source_file).
-          
-          - **How can I pause code at the start of multiple functions with the same name?**
-          
-            When you have multiple functions with the same name (overloaded functions or functions in different projects), you can use a [function breakpoint](using-breakpoints.md#BKMK_Set_a_breakpoint_in_a_source_file).
-          
           - **Manage and keep track of my breakpoints**
           
-            Use the **Breakpoints** window. For more information, see [Manage breakpoints](using-breakpoints.md#BKMK_Specify_advanced_properties_of_a_breakpoint_).
+            Use the **Breakpoints** window. For more information, see [Manage breakpoints](get-started-with-breakpoints.md#BKMK_Specify_advanced_properties_of_a_breakpoint_).
           
           - **Pause code and debug when a specific handled or unhandled exception is thrown**
           
@@ -75,11 +44,11 @@ sections:
           
           - **Set a breakpoint from the call stack**
           
-            If you want to pause and debug code while examining execution flow or viewing functions in the **Call Stack** windows, see [Set a breakpoint in the Call Stack window](using-breakpoints.md#BKMK_Set_a_breakpoint_from_debugger_windows).
+            If you want to pause and debug code while examining execution flow or viewing functions in the **Call Stack** windows, see [Set a breakpoint in the Call Stack window](get-started-with-breakpoints.md#BKMK_Set_a_breakpoint_from_debugger_windows).
           
           - **Pause code at a specific assembly instruction**
           
-            You can do this by [setting a breakpoint from the Disassembly window](using-breakpoints.md#BKMK_Set_a_breakpoint_from_debugger_windows).
+            You can do this by [setting a breakpoint from the Disassembly window](get-started-with-breakpoints.md#BKMK_Set_a_breakpoint_from_debugger_windows).
           
       - question: |
           Navigate code

@@ -107,7 +107,7 @@ In the **Call Stack** window, select the function, right-click, and then choose 
 
 ## Set a breakpoint on the exit point of a function call
 
-See [Set a breakpoint at a call stack function](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_from_debugger_windows).
+See [Set a breakpoint at a call stack function](../debugger/get-started-with-breakpoints.md#BKMK_Set_a_breakpoint_from_debugger_windows).
 
 ## Display calls to or from another thread
 
