@@ -33,7 +33,7 @@ The following table shows common debugging scenarios for breakpoints and the rec
 |----------|---------------|
 | How do I pause running code to inspect a line of code that may contain a bug? | Set a breakpoint. For more information, see [Get started with breakpoints](get-started-with-breakpoints.md). |
 | Does my variable have an unexpected value? Or, do I want to inspect my app when it reaches a specific state? | Try a conditional breakpoint to control where and when a breakpoint gets activated by using conditional logic. Right-click on a breakpoint to add conditions. Set the condition to be true when the variable equals the unexpected value. For more information, see [Breakpoint conditions](#breakpoint-conditions). |
-| How do I log information to the Output window under configurable conditions without modifying or stopping my code? | Tracepoints allow you to log information to the Output window under configurable conditions without modifying or stopping your code. |
+| How do I log information to the Output window under configurable conditions without modifying or stopping my code? | Tracepoints allow you to log information to the Output window under configurable conditions without modifying or stopping your code. For more information, see [Use tracepoints in the Visual Studio debugger](../debugger/using-tracepoints.md).|
 | How do I know when the value of my variable changes? | For C++, set a [data breakpoint](#BKMK_set_a_data_breakpoint_native_cplusplus). <br> For apps using .NET Core 3 and later, you can also set a [data breakpoint](#BKMK_set_a_data_breakpoint_managed). <br> Otherwise, for C# and F# only, you can [track an object ID with a conditional breakpoint](#using-object-ids-in-breakpoint-conditions-c-and-f). |
 | How do I break execution only if another breakpoint is hit?  | Set a Dependent Breakpoint that breaks execution only if another breakpoint is first hit. For more information, see [Dependent Breakpoint](#BKMK_set_a_dependent_breakpoint).  |
 | Can I hit a breakpoint only once? | Set a temporary breakpoint which lets you break the code only once. For more information, see [Temporary Breakpoint](#BKMK_set_a_temporary_breakpoint).  |
@@ -47,7 +47,7 @@ A *tracepoint* is a breakpoint that prints a message to the **Output** window. A
 
 ## Breakpoint conditions
 
-You can control when and where a breakpoint executes by setting conditions. The condition can be any valid expression that the debugger recognizes. For more information about valid expressions, see [Expressions in the debugger](../debugger/expressions-in-the-debugger.md).
+You can control when and where a breakpoint executes by setting conditions. The condition can be any valid expression that the debugger recognizes. (For more information about valid expressions, see [Expressions in the debugger](../debugger/expressions-in-the-debugger.md).)
 
 **To set a breakpoint condition:**
 
