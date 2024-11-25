@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_isPGO
 
 Retrieves a flag indicating whether profile-guided optimizations (PGO) were performed for this function.
@@ -19,7 +20,7 @@ Retrieves a flag indicating whether profile-guided optimizations (PGO) were perf
 ## Syntax
 
 ```C++
-HRESULT get_isPGO ( 
+HRESULT get_isPGO ( 
    BOOL* pRetVal
 );
 ```
