@@ -1,7 +1,7 @@
 ---
 title: Get started with breakpoints
 description: Learn about breakpoints, one of the most important debugging techniques.
-ms.date: 08/13/2024
+ms.date: 11/22/2024
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.breakpointswin
@@ -22,22 +22,30 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
-# Use breakpoints in the Visual Studio debugger
+# Get started with breakpoints in the Visual Studio debugger
 
-Breakpoints are one of the most important debugging techniques in your developer's toolbox. You set breakpoints wherever you want to pause debugger execution. For example, you may want to see the state of code variables or look at the call stack at a certain breakpoint.  If you are trying to resolve a warning or issue while using breakpoints, see [Troubleshoot breakpoints in the Visual Studio debugger](../debugger/troubleshooting-breakpoints.md).
-
-> [!NOTE]
-> If you know the task or problem you're trying to solve, but you need to know what kind of breakpoint to use, see [FAQ - Find your debugging feature](../debugger/find-your-debugging-task.yml#breakpoints).
+Breakpoints are one of the most important debugging techniques in your developer's toolbox. You set breakpoints wherever you want to pause debugger execution. For example, you may want to see the state of code variables or look at the call stack at a certain breakpoint.
 
 ## <a name="BKMK_Overview"></a> Set breakpoints in source code
 
-You can set a breakpoint on any line of executable code. For example, in the following C# code, you could set a breakpoint on the line of code with the variable assignment (`int testInt = 1`), the `for` loop, or any code inside the `for` loop. You can't set a breakpoint on method signatures, declarations for a namespace or class, or variable declarations if there's no assignment and no getter/setter.
+You can set a breakpoint on any line of executable code. For example, take a look at this simple C# code that creates a simple loop.
+
+```csharp
+int testInt = 3;
+
+for (int i = 0; i < 10; i++)
+{
+    testInt += i;
+}
+```
+
+You could set a breakpoint on the line of code with the variable assignment (`int testInt = 3`), the `for` loop, or any code inside the `for` loop. You can't set a breakpoint on method signatures, declarations for a namespace or class, or variable declarations if there's no assignment and no getter/setter.
 
 To set a breakpoint in source code:
 
 - Click in the far left margin next to a line of code. You can also select the line and press **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert breakpoint**. The breakpoint appears as a red dot in the left margin.
 
-For most languages including C#, breakpoint and current execution lines are automatically highlighted. For C++ code, you can turn on highlighting of breakpoint and current lines by selecting **Tools** (or **Debug**) > **Options** > **Debugging** >  **Highlight entire source line for breakpoints and current statement (C++ only)**.
+For most languages, including C#, Visual Studio automatically highlights breakpoint and current execution lines. For C++ code, you can turn on highlighting of breakpoint and current lines by selecting **Tools** (or **Debug**) > **Options** > **Debugging** >  **Highlight entire source line for breakpoints and current statement (C++ only)**.
 
 ::: moniker range=">= vs-2022"
 ![Set a breakpoint](../debugger/media/vs-2022/basic-breakpoint.png "Basic breakpoint")
@@ -69,6 +77,10 @@ Here are a few general instructions for working with breakpoints.
 - To disable a breakpoint without deleting it, hover over or right-click it, and select **Disable breakpoint**. Disabled breakpoints appear as empty dots in the left margin or the **Breakpoints** window. To re-enable a breakpoint, hover over or right-click it, and select **Enable breakpoint**.
 
 - Set conditions and actions, add and edit labels, or export a breakpoint by right-clicking it and selecting the appropriate command, or hovering over it and selecting the **Settings** icon.
+
+## Types of breakpoints
+
+Visual Studio supports different types of breakpoints to support different debugging scenarios, such as conditional breakpoints that only activate based on specified criteria. For more information, see [Use the right type of breakpoint](../debugger/using-breakpoints.md).
 
 ## <a name="BKMK_Specify_advanced_properties_of_a_breakpoint_"></a> Manage breakpoints in the Breakpoints window
 
