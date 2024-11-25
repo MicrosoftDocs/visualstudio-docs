@@ -19,7 +19,7 @@ You can easily run and debug your .NET Core and .NET 5+ apps in Linux without le
 
 For a Windows .NET user targeting Linux, WSL lives in a sweet spot between production realism and productivity. In Visual Studio, you can already debug in a remote Linux environment using the [remote debugger](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md), or with containers using the [Container Tools](../containers/overview.md). When production realism is your main concern, you should use one of those options. When an easy and fast inner-loop is more important, WSL is a great option.
 
-You don't have to choose just one method! You can have a launch profile for Docker and WSL in the same project and pick whichever is appropriate for a particular run. And once your app is deployed, you can always use the remote debugger to attach to it if there's an issue.
+You don't have to choose just one method! You can have a launch profile for Docker and WSL in the same project and pick whichever is appropriate for a particular run. And once your app is deployed, you can always use the remote debugger to attach to it if there's an issue. To debug a Linux Docker container running in WSL, see [Attach to a process running on a Docker container](../debugger/attach-to-process-running-in-docker-container.md).
 
 > [!NOTE]
 > Starting in Visual Studio 2019 version 16.11 Preview 3, the WSL 2 debug target was renamed to WSL.
