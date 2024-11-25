@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_isOptimizedForSpeed
 
 Retrieves a flag indicating whether the function is optimized for speed.
