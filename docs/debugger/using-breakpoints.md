@@ -5,6 +5,7 @@ ms.date: 08/13/2024
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.breakpt.new
+  - vs.debug.breakpoints
   - vs.debug.breakpt.constraints
   - vs.debug.breakpt.condition
   - vs.debug.breakpt.location.file
