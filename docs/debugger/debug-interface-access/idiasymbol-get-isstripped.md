@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_isStripped
 
 Retrieves flag indicating whether private symbols were stripped from the symbol file.
