@@ -201,7 +201,7 @@ To see the return values of the `sumVars()` and `subtractVars()` method calls in
 1. Start debugging, and when execution pauses at the breakpoint, select **Step Over** or press **F10**. You should see the following return values in the **Autos** window:
 
    ::: moniker range=">= vs-2022"
-   [ ![Screenshot of Autos return value C#.](../debugger/media/vs-2022/autos-return-value-csharp-2.png "Autos return value C#") ](../debugger/media/vs-2022/autos-return-value-csharp-2.png#lightbox)
+   [ ![Screenshot of Autos return value C#.](../debugger/media/vs-2022/autos-return-value-csharp-2.png "Autos return value C#")](../debugger/media/vs-2022/autos-return-value-csharp-2.png#lightbox)
    ::: moniker-end
    ::: moniker range="vs-2019"
    ![Screenshot of Autos return value C#.](../debugger/media/autosreturnvaluecsharp2.png "Autos return value C#")
