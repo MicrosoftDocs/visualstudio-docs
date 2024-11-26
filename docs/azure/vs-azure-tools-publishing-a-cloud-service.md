@@ -47,7 +47,7 @@ When you publish your Azure application, you can do one of the following tasks:
    1. On the shortcut menu for the Azure project, choose **Package**.
 
    1. In the **Package Azure Application** dialog box, choose the service configuration for which you want to create a package, and then choose the build configuration.
-   
+
    1. (Optional) To turn on Remote Desktop for the cloud service after you publish it, select **Enable Remote Desktop for all Roles**, and then select **Settings** to configure Remote Desktop credentials. For more information, see [Enable Remote Desktop Connection for a Role in Azure Cloud Services using Visual Studio](/azure/cloud-services/cloud-services-role-enable-remote-desktop-visual-studio).
 
    1. To create the package, choose the **Package** link.
