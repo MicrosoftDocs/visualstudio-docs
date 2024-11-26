@@ -57,6 +57,18 @@ You can run all the tests in the solution, all the tests in a group, or a set of
 
 - If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution in the settings menu of the toolbar. This can noticeably reduce the time taken to run all the tests.
 
+### Process architecture for AnyCPU
+
+For **vstest** test projects, the default architecture matches the operating system's architecture. You can override this behavior for AnyCPU projects through the Test Explorer menu shown in the image below.
+
+![alt text](../test/media/vs-2022/menu-process-architecture-for-anycpu.png)
+
+For **testing.platform** projects, the architecture is determined strictly by MSBuild and runtime rules. Executables are generated based on the preferred architecture specified in MSBuild/runtime settings. You can adjust this preference using MSBuild properties (e.g., **PreferNativeArm64**), but the Test Explorer menu **Procesor Architecture for AnyCPU Projects** cannot be used to change the architecture for these projects.
+
+#### PreferNativeArm64
+
+When using this MSBuild property, the project will prefer running natively on ARM64 architecture if available. This property is applicable to projects that generate executables and follow MSBuild/runtime rules. It is important to note that this setting is ignored for vstest test projects and only applies to testing.platform projects. 
+
 ### Run tests after every build
 
 To run your unit tests after each local build, open the settings icon in the Test Explorer toolbar and select **Run Tests After Build**.
