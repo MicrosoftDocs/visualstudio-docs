@@ -75,7 +75,7 @@ When the debugger stops at the breakpoint, you can look at the current state of 
 ::: moniker range=">= vs-2022"
 For example, in the following illustration, you can see the value of `testInt` in a datatip and in the **Locals** window.
 
-![Screenshot of viewing app state](../debugger/media/vs-2022/basic-breakpoint-viewing-app-state.png)
+![Screenshot of viewing app state.](../debugger/media/vs-2022/basic-breakpoint-viewing-app-state.png)
 ::: moniker-end
 
 Here are a few general instructions for working with breakpoints.
