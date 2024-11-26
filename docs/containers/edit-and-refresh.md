@@ -87,7 +87,7 @@ To quickly iterate changes in your Razor pages, you can start your application i
    Application started. Press Ctrl+C to shut down.
    ```
 
-Your changes have been applied! 
+Your changes have been applied!
 
 ### Debug with breakpoints
 
