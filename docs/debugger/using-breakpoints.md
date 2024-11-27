@@ -5,6 +5,7 @@ ms.date: 08/13/2024
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.breakpt.new
+  - vs.debug.breakpoints
   - vs.debug.breakpt.constraints
   - vs.debug.breakpt.condition
   - vs.debug.breakpt.location.file
@@ -25,6 +26,8 @@ ms.subservice: debug-diagnostics
 
 This article shows how to use different types of breakpoints in Visual Studio to improve debugging efficiency. It covers various scenarios where breakpoints can be applied, such as pausing code execution, logging information, and tracking changes in variable states. The article explains how to set conditional breakpoints, tracepoints, data breakpoints, dependent breakpoints, and temporary breakpoints. It also includes detailed instructions on setting function breakpoints. This guide is essential for developers looking to leverage breakpoints for effective debugging in Visual Studio.
 
+If you're unfamiliar with using breakpoints in Visual Studio, see [Get started with breakpoints](get-started-with-breakpoints.md) before going through this article.
+ 
 ## Scenarios
 
 The following table shows common debugging scenarios for breakpoints and the recommended breakpoint type for the scenario.
