@@ -16,6 +16,8 @@ dev_langs:
 
 In this tutorial, you use Visual Studio to connect to a repository, or *repo*, for the first time, clone it, and then open a project from it.
 
+In this tutorial, you learn how to:
+
 > [!div class="checklist"]
 > - Open a project from a GitHub repo
 > - Browse to an Azure DevOps repo
@@ -208,11 +210,11 @@ Here's how to use Git in Visual Studio 2019 [version 16.7](/visualstudio/release
 
    Visual Studio opens the project from the repo.
 
-1. If you have a solution file available, it appears in the **Solutions and Folders**" flyout menu. Select it, and Visual Studio opens your solution.
+1. If you have a solution file available, it appears in the **Solutions and Folders** flyout menu. Select it, and Visual Studio opens your solution.
 
    :::image type="content" source="./media/open-proj-repo-github-solutions-folders-picker.png" alt-text="Screenshot of the Solution Explorer drop-down list in Visual Studio 2019 version 16.7 and earlier.":::
 
-   If you don't have a solution file (specifically, an *.sln* file) in your repo, the flyout menu says **No Solutions Found**." However, you can double-click any file from the folder menu to open it in the Visual Studio editor.
+   If you don't have a solution file (specifically, an *.sln* file) in your repo, the flyout menu says **No Solutions Found**. However, you can double-click any file from the folder menu to open it in the Visual Studio editor.
 
    Start coding!
 
