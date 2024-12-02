@@ -59,10 +59,9 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Code style preferences](../ide/code-styles-and-code-cleanup.md) - Clarify code cleanup instructions
 - [Create, work with, and delete Visual Studio projects and solutions](../ide/creating-solutions-and-projects.md) - Add new copy between VS instances features
-- [Configure trust settings for files and folders](../ide/reference/trust-settings.md) - Add VS 17.12 feature motw
+- [Configure trust settings for files and folders](../ide/reference/trust-settings.md) - Add VS 17.12 feature MOTW (Mark of the Web)
 - [Find in Files](../ide/find-in-files.md) - Update Find in Files for 17.12 for refresh and modify options
 - [Use Visual Studio search](../ide/visual-studio-search.md) - Update for 17.12 for new All In One Search features
-- [Title not found in: ](../ide/whats-new-visual-studio-docs.md) - Update for October changes
 - [Quick Actions](../ide/quick-actions.md) - Add instruction for invoking quick actions, refactor
 - [Fonts and Colors, Environment, Options dialog box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) - Add collapsible text indicators to table
 - [Sign in to Visual Studio with accounts that require multifactor authentication (MFA)](../ide/work-with-multi-factor-authentication.md) - Add access denied text
@@ -83,24 +82,11 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
-- [ghogen](https://github.com/ghogen) - Gordon Hogenson ![24 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-24-green)
-- [Mikejo5000](https://github.com/Mikejo5000) - Mike Jones ![20 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-20-green)
-- [anandmeg](https://github.com/anandmeg) - Megha Anand ![10 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-10-green)
-- [JoseB-RDC](https://github.com/JoseB-RDC) -  ![6 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-6-green)
 - [Michael-K-Stein](https://github.com/Michael-K-Stein) - Michael Kuperfish Steinberg ![4 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-4-green)
-- [crmann1](https://github.com/crmann1) - Chris Mann ![2 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-2-green)
-- [grantri](https://github.com/grantri) - Grant Richins ![2 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-2-green)
-- [shujingMS](https://github.com/shujingMS) - Shujing Zhang ![2 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-2-green)
-- [tinaschrepfer](https://github.com/tinaschrepfer) - Tina Schrepfer ![2 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-2-green)
-- [TylerMSFT](https://github.com/TylerMSFT) - Tyler Whitney ![2 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-2-green)
 - [alexravenna](https://github.com/alexravenna) - Alex Ravenna ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [cathei](https://github.com/cathei) - Maxwell Keonwoo Kang ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [davilimap](https://github.com/davilimap) - Davi Paulino ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [dtivel](https://github.com/dtivel) - Damon Tivel ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [murphymcquet-msft](https://github.com/murphymcquet-msft) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [PhilKang0704](https://github.com/PhilKang0704) - Phil ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [prasoonpankaj](https://github.com/prasoonpankaj) - Prasoon Pankaj ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [Rick-Anderson](https://github.com/Rick-Anderson) - Rick Anderson ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [saranshsaini](https://github.com/saranshsaini) - Saransh Saini ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 
 ## October 2024
