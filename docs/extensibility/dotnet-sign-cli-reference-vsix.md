@@ -50,6 +50,7 @@ sign code certificate-store [<PATH(s)>]
     [-f|--force]
     [-m|--max-concurrency <MAXCONCURRENCY>]
     [-fl|--filelist <FILELISTPATH>]
+    [-i]|--interactive
 
 sign code certificate-store -h|--help
 ```
@@ -153,6 +154,10 @@ dotnet tool install --global --add-source <path-to-folder> <tool-name> --version
 - **`-?|-h|--help`**
 
   Prints a description of how to use the command.
+
+- **`-i|--interactive`**
+
+  Prompt for user input, which is required in some scenarios, such as when using a user-protected key, where a password must be entered by the user.
 
 ## Examples
 
