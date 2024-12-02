@@ -29,9 +29,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [Use the right type of breakpoint](../debugger/using-breakpoints.md) - Refactor breakpoints article and incorporate review feedback
-- [Use the Memory windows in the Visual Studio debugger (C#, C++, Visual Basic, F#)](../debugger/memory-windows.md)
-  - Update article on Memory windows
-  - Repo sync for protected branch
+- [Use the Memory windows in the Visual Studio debugger (C#, C++, Visual Basic, F#)](../debugger/memory-windows.md) - Update article on Memory windows
 - [First look at the Visual Studio Debugger](../debugger/debugger-feature-tour.md) - Update debugger content for viewing return values
 - [IDiaStackWalkHelper::pdataForVA](../debugger/debug-interface-access/idiastackwalkhelper-pdataforva.md) - Add docs for 3 missing IDiaStackWalkHelper functions
 - [IDiaStackWalkHelper](../debugger/debug-interface-access/idiastackwalkhelper.md) - Add docs for 3 missing IDiaStackWalkHelper functions
@@ -49,9 +47,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Overview](../extensibility/visualstudio.extensibility/diagnostics/visualstudio-extensibility-diagnostics-extension.md) - Add 17.12 documentation to VisualStudio.Extensibility
 - [Use Visual Studio editor extensibility](../extensibility/visualstudio.extensibility/editor/editor.md) - Add 17.12 documentation to VisualStudio.Extensibility
-- [Write to the Visual Studio output window](../extensibility/visualstudio.extensibility/output-window/output-window.md)
-  - Add 17.12 documentation to VisualStudio.Extensibility
-  - Updating docs for VS.Extensibility output window in 17.12
+- [Write to the Visual Studio output window](../extensibility/visualstudio.extensibility/output-window/output-window.md) - Updating docs for VS.Extensibility output window in 17.12
 
 ### IDE
 
