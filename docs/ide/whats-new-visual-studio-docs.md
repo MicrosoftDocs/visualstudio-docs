@@ -78,7 +78,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Debug and analyze unit tests with Test Explorer](../test/debug-unit-tests-with-test-explorer.md) - Add content for debugging unit tests with Copilot
 
-## Community contributors
+### Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
