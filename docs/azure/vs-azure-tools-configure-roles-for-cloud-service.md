@@ -46,7 +46,7 @@ You can configure an Azure Cloud Services (extended support) project from Soluti
 
     ![Project properties page - development tab](./media/vs-azure-tools-configure-roles-for-cloud-service/project-properties-development-tab.png)
 
-1. In the **Service Configuration** list, select the name of the service configuration that you want to edit. 
+1. In the **Service Configuration** list, select the name of the service configuration that you want to edit.
 
     ![Screenshot showing the Service Configuration list for an Azure Cloud Services (extended support) project.](./media/vs-azure-tools-configure-roles-for-cloud-service/cloud-service-service-configuration-property.png)
 

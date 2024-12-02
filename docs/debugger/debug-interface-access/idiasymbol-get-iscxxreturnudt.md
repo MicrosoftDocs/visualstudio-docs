@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_isCxxReturnUdt
 
 Retrieves a flag indicating whether return C++ style UDT.
@@ -19,7 +20,7 @@ Retrieves a flag indicating whether return C++ style UDT.
 ## Syntax
 
 ```C++
-HRESULT get_isCxxReturnUdt ( 
+HRESULT get_isCxxReturnUdt ( 
    BOOL* pRetVal
 );
 ```

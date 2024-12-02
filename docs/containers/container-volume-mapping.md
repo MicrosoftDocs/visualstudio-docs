@@ -9,7 +9,6 @@ ms.topic: how-to
 
 
 #customer intent: As a developer, I want to customize the volumes on my application's container so that I can access the files from my running app.
-
 ---
 
 # Customize container volume mapping
@@ -36,7 +35,7 @@ Here are the volumes that are mounted in your container:
 :::moniker-end
 
 ::: moniker range=">=vs-2022"
-Here are the volumes that are mounted in your container. What you see in your containers might differ depending on the minor version of Visual Studio 2022 you are using. 
+Here are the volumes that are mounted in your container. What you see in your containers might differ depending on the minor version of Visual Studio 2022 you are using.
 
 |Volume|Description|
 |-|-|

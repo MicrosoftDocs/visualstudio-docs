@@ -42,15 +42,22 @@ To avoid having to sign in when you connect to an Azure service or publish to Az
 > [!NOTE]
 > If you have a personal and a work (or school) account, that are both owners on the same subscription, you might encounter a situation where the personal account doesn't get the expected role-based permissions on a service dependency, such as a storage account, but the work account does. The indication that this issue is happening is a timeout in the Connected Services summary screen:
 >
-> ```output
-> Create Azure Resource Connector Service result: Succeeded. resourceid: <resourceid> Error code: MaxWaitingTimeHit. Error message: Max running time hit when operating service connector resource.
-> ```
+>`Create Azure Resource Connector Service result: Succeeded. resourceid: <resourceid> Error code: MaxWaitingTimeHit. Error message: Max running time hit when operating service connector resource.`
 >
-> To get around this, manually add those roles for the personal account in the Azure portal.
+> To get around this, manually add the required roles for the personal account in the [Azure portal](https://portal.azure.com).
+
+:::moniker range=">=vs-2022"
 
 ## Filter multiple tenants
 
 If you have multiple tenants, you can filter them, so that you only see the Azure resources relevant to your current work. See [Opt out of a specific Microsoft Entra tenant in Visual Studio](../ide/work-with-multi-factor-authentication.md#how-to-opt-out-of-using-a-specific-microsoft-entra-tenant-in-visual-studio).
+
+## Tokens and chained credentials
+
+Visual Studio 2022 uses security tokens to authenticate to Azure services in most cases. The underlying API used is the
+[Microsoft Authentication Library (MSAL)](/entra/identity-platform/msal-overview). On the same machine, you might also use other ways to sign in to Azure, for example, `az login` from the Azure CLI, or through Visual Studio Code. These methods of authentication are designed to work together as a set of chained credentials. For example, in cases where a client application uses an API like <xref:Azure.Identity.DefaultAzureCredential> to authenticate to Azure on your development machine, there's a well-defined sequence in which credentials in the chain are attempted. For more information, see [Credential chains in the Azure Identity Library for .NET](/dotnet/azure/sdk/authentication/credential-chains?tabs=dac).
+
+:::moniker-end
 
 ## Related content
 
