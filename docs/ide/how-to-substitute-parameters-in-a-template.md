@@ -22,7 +22,7 @@ The following section shows you how to modify a template to replace the name of 
 
 ## Example - namespace name
 
-To follow this example, you need an existing template. If you don't have one, see [Create project templates](how-to-create-project-templates.md) to learn how to export a project or solution to a template, or [Create item templates](how-to-create-item-templates.md).
+To follow this procedure, you need an existing template. If you don't have one, see [Create project templates](how-to-create-project-templates.md) to learn how to export a project or solution to a template, or [Create item templates](how-to-create-item-templates.md).
 
 1. Insert the parameter in one or more of the code files in the template. For example:
 
