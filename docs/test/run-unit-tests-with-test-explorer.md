@@ -61,9 +61,9 @@ You can run all the tests in the solution, all the tests in a group, or a set of
 
 For MSTest projects using Visual Studio Testing Platform (vstest) as the test runner, the default architecture matches the operating system's architecture. You can override this behavior for AnyCPU projects through the Test Explorer menu shown in the image below.
 
-:::image type="content" source="../test/media/vs-2022/menu-process-architecture-for-anycpu.png" alt-text="Screenshot showing menu for selecting the processor architecture for AnyCPU":::
+:::image type="content" source="../test/media/vs-2022/menu-process-architecture-for-anycpu.png" alt-text="Screenshot showing menu for selecting the processor architecture for AnyCPU." lightbox="../test/media/vs-2022/menu-process-architecture-for-anycpu.png":::
 
-For projects using MSTest as the test runner instead of Visual Studio Test Platform (vstest), the architecture is determined strictly by MSBuild and runtime rules. Executables are generated based on the preferred architecture specified in MSBuild/runtime settings. You can adjust this preference using MSBuild properties (e.g., **PreferNativeArm64**), but the Test Explorer menu **Procesor Architecture for AnyCPU Projects** cannot be used to change the architecture for these projects.
+For projects using MSTest as the test runner instead of Visual Studio Test Platform (vstest), the architecture is determined strictly by MSBuild and runtime rules. Executables are generated based on the preferred architecture specified in MSBuild/runtime settings. You can adjust this preference using MSBuild properties (e.g., **PreferNativeArm64**), but the Test Explorer menu **Processor Architecture for AnyCPU Projects** cannot be used to change the architecture for these projects.
 
 #### PreferNativeArm64
 
@@ -351,7 +351,7 @@ For example, `FullName:"MyClass" - FullName:"PerfTest"` returns all tests that i
 
 ### Analyze unit test code coverage
 
-You can determine the amount of product code that is actually being tested by your unit tests by using the Visual Studio code coverage tool that's available in Visual Studio Enterprise edition. You can run code coverage on selected tests or on all tests in a solution.
+You can determine the amount of product code that is actually being tested by your unit tests by using the Visual Studio Code coverage tool that's available in Visual Studio Enterprise edition. You can run code coverage on selected tests or on all tests in a solution.
 
 To run code coverage for test methods in a solution:
 
