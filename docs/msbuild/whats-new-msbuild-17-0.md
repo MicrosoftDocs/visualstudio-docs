@@ -9,7 +9,7 @@ manager: mijacobs
 ms.subservice: msbuild
 monikerRange: '>=vs-2019'
 ---
-# What's new in MSBuild 17.0
+# What's new in MSBuild 17
 
 This article describes significant updates in MSBuild 17.0. For the detailed release notes for each version, see [MSBuild releases](https://github.com/dotnet/msbuild/releases).
 
