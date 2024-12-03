@@ -57,7 +57,7 @@ You can run all the tests in the solution, all the tests in a group, or a set of
 
 - If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution in the settings menu of the toolbar. This can noticeably reduce the time taken to run all the tests.
 
-### Process architecture for AnyCPU
+### Configure process architecture for AnyCPU (MSTest)
 
 For **vstest** test projects, the default architecture matches the operating system's architecture. You can override this behavior for AnyCPU projects through the Test Explorer menu shown in the image below.
 
