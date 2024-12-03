@@ -66,7 +66,7 @@ dotnet tool install --global --add-source D:\NuGetTools sign --version 99.0
 ```
 
 ### Using Sign CLI
-Once installed, Sign CLI can be accessed in a Developer PowerShell instance using `sign code <command> <options>`. For a breakdown of the options see [Sign CLI Reference for VSIX Packages](../extensibility/dotnet-sign-CLI-reference-vsix.md).
+Once installed, Sign CLI can be accessed in a Developer PowerShell instance using `sign code <command> <options>`. For a breakdown of the options see [Sign CLI Reference for VSIX Packages](../extensibility/dotnet-sign-CLI-reference-vsix.md). You can get help from command line by typing `sign code -h`.
 
 > [!IMPORTANT]
 > Sign CLI only supports `SHA-256`, `SHA-384`, and `SHA-512` as valid fingerprint algorithms. You can use PowerShell to get fingerprints using: `Get-FileHash -Algorithm SHA256 <path to .cer file> | Format-Table -AutoSize`
