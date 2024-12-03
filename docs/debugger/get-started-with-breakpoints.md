@@ -6,7 +6,6 @@ ms.topic: how-to
 f1_keywords: 
   - vs.debug.breakpointswin
   - vc.breakpoints
-  - vs.debug.breakpoints
   - vs.debug.disassembly.insert
   - vs.debug.sourcewin.edit
   - vs.debug.file
@@ -73,9 +72,9 @@ At the breakpoint in the following example, the value of `testInt` is still 1. S
 When the debugger stops at the breakpoint, you can look at the current state of the app, including [variable values](../debugger/debugger-feature-tour.md#inspect-variables-with-data-tips) and the [call stack](../debugger/how-to-use-the-call-stack-window.md).
 
 ::: moniker range=">= vs-2022"
-For example, in the following illustration, you can see the value of `testInt` in a datatip and in the **Locals** window.
+For example, in the following illustration, you can see the value of `testInt` in a data tip and in the **Locals** window.
 
-![Screenshot of viewing app state.](../debugger/media/vs-2022/basic-breakpoint-viewing-app-state.png)
+![Screenshot of viewing app state](../debugger/media/vs-2022/basic-breakpoint-viewing-app-state.png)
 ::: moniker-end
 
 Here are a few general instructions for working with breakpoints.
