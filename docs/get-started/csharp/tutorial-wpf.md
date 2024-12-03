@@ -2,7 +2,7 @@
 title: "Hello World app with WPF in C#"
 description: In this tutorial, create a Windows Desktop .NET application in C# with Visual Studio by using the Windows Presentation Foundation (WPF) UI framework.
 ms.custom: vs-acquisition
-ms.date: 10/18/2024
+ms.date: 12/03/2024
 ms.subservice: general-ide
 ms.topic: tutorial
 dev_langs:
@@ -557,7 +557,7 @@ After you verify that everything works, you can prepare a release build of the a
 
 Congratulations on completing this tutorial! You can find the `.exe` you built under your solution and project directory (*...\HelloWPFApp\HelloWPFApp\bin\Release*).
 
-## See also
+## Related content
 
 - [Productivity tips](../../ide/productivity-features.md)
 
