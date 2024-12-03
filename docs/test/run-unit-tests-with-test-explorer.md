@@ -63,7 +63,7 @@ For MSTest projects using Visual Studio Testing Platform (vstest) as the test ru
 
 :::image type="content" source="../test/media/vs-2022/menu-process-architecture-for-anycpu.png" alt-text="Screenshot showing menu for selecting the processor architecture for AnyCPU":::
 
-For **testing.platform** projects, the architecture is determined strictly by MSBuild and runtime rules. Executables are generated based on the preferred architecture specified in MSBuild/runtime settings. You can adjust this preference using MSBuild properties (e.g., **PreferNativeArm64**), but the Test Explorer menu **Procesor Architecture for AnyCPU Projects** cannot be used to change the architecture for these projects.
+For projects using MSTest as the test runner instead of Visual Studio Test Platform (vstest), the architecture is determined strictly by MSBuild and runtime rules. Executables are generated based on the preferred architecture specified in MSBuild/runtime settings. You can adjust this preference using MSBuild properties (e.g., **PreferNativeArm64**), but the Test Explorer menu **Procesor Architecture for AnyCPU Projects** cannot be used to change the architecture for these projects.
 
 #### PreferNativeArm64
 
