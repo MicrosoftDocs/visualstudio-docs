@@ -67,7 +67,7 @@ For **testing.platform** projects, the architecture is determined strictly by MS
 
 #### PreferNativeArm64
 
-When using this MSBuild property, the project will prefer running natively on ARM64 architecture if available. This property is applicable to projects that generate executables and follow MSBuild/runtime rules. It is important to note that this setting is ignored for vstest test projects and only applies to testing.platform projects. 
+When using this MSBuild property, the project will prefer running natively on ARM64 architecture if available. This property is applicable to projects that generate executables and follow MSBuild/runtime rules. It is important to note that this setting is ignored for Visual Studio Test Platform (vstest) test projects and only applies to MSTest projects with MSTest configured as the test runner. 
 
 ### Run tests after every build
 
