@@ -59,7 +59,7 @@ You can run all the tests in the solution, all the tests in a group, or a set of
 
 ### Configure process architecture for AnyCPU (MSTest)
 
-For **vstest** test projects, the default architecture matches the operating system's architecture. You can override this behavior for AnyCPU projects through the Test Explorer menu shown in the image below.
+For MSTest projects using Visual Studio Testing Platform (vstest) as the test runner, the default architecture matches the operating system's architecture. You can override this behavior for AnyCPU projects through the Test Explorer menu shown in the image below.
 
 :::image type="content" source="../test/media/vs-2022/menu-process-architecture-for-anycpu.png" alt-text="Screenshot showing menu for selecting the processor architecture for AnyCPU":::
 
