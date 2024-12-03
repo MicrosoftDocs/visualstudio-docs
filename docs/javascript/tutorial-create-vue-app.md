@@ -43,7 +43,9 @@ Make sure to install the following:
 
 ## View the project properties
 
-The default project settings allow you to build and debug the project. But, if you need to change settings, right-click the project in Solution Explorer, select **Properties**, and then go the **Build** or **Debugging** section.
+The default project settings allow you to build and debug the project. But, if you need to change settings, right-click the project in Solution Explorer, select **Properties**, and then go the **Linting**, **Build** or **Deploy** section.
+
+For debugger configuration, use [launch.json](../javascript/debug-nodejs.md#configure-debugging).
 
 >[!NOTE]
 > `launch.json` stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, `launch.json` must be located under the `.vscode` folder.
