@@ -61,7 +61,7 @@ Visual Studio provides client-side debugging support only for Chrome and Microso
 
   For more detailed information, see this [blog post for Google Chrome](https://devblogs.microsoft.com/aspnet/client-side-debugging-of-asp-net-projects-in-google-chrome). For debugging TypeScript in ASP.NET Core, see [Add TypeScript to an existing ASP.NET Core app](tutorial-aspnet-with-typescript.md).
 
-- For Node.js applications and other JavaScript projects, follow the steps described here.
+- For Node.js applications and other JavaScript projects, follow the steps described in this article.
 
 >[!NOTE]
 > For ASP.NET and ASP.NET Core, debugging embedded scripts in *.CSHTML* files is not supported. JavaScript code must be in separate files to enable debugging.
