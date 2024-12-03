@@ -61,7 +61,7 @@ You can run all the tests in the solution, all the tests in a group, or a set of
 
 For **vstest** test projects, the default architecture matches the operating system's architecture. You can override this behavior for AnyCPU projects through the Test Explorer menu shown in the image below.
 
-![alt text](../test/media/vs-2022/menu-process-architecture-for-anycpu.png)
+:::image type="content" source="../test/media/vs-2022/menu-process-architecture-for-anycpu.png" alt-text="Screenshot showing menu for selecting the processor architecture for AnyCPU":::
 
 For **testing.platform** projects, the architecture is determined strictly by MSBuild and runtime rules. Executables are generated based on the preferred architecture specified in MSBuild/runtime settings. You can adjust this preference using MSBuild properties (e.g., **PreferNativeArm64**), but the Test Explorer menu **Procesor Architecture for AnyCPU Projects** cannot be used to change the architecture for these projects.
 
