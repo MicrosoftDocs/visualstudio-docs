@@ -23,7 +23,7 @@ For MSTest projects using Visual Studio Testing Platform (VSTest) as the test ru
 
 From the **Test** menu, select **Processor Architecture for AnyCPU Projects**.
 
-For projects using MSTest as the test runner instead of Visual Studio Test Platform (VSTest), the architecture is determined strictly by MSBuild and runtime rules. Executables are generated based on the preferred architecture specified in MSBuild/runtime settings. You can adjust this preference using MSBuild properties (e.g., **PreferNativeArm64**), but the setting **Processor Architecture for AnyCPU Projects** cannot be used to change the architecture for these projects.
+For projects using MSTest as the test runner instead of Visual Studio Test Platform (VSTest), the architecture is determined strictly by MSBuild and runtime rules. Executables are generated based on the preferred architecture specified in MSBuild/runtime settings. You can adjust this preference using MSBuild properties (for example, **PreferNativeArm64**), but the setting **Processor Architecture for AnyCPU Projects** cannot be used to change the architecture for these projects.
 
 > [!NOTE]
 > You can set the test runner when you create a unit test project using the MSTest project template, or by using MSBuild properties. For more information on the difference between MSTest and VSTest test runners, see [Microsoft.Testing.Platform and VSTest comparison](/dotnet/core/testing/unit-testing-platform-vs-vstest).
@@ -50,6 +50,9 @@ To run a unit test as a 64-bit process:
    \- or -
 
    Specify `<TargetPlatform>x64</TargetPlatform>` in a *.runsettings* file. An advantage of this method is that you can specify groups of settings in different files and quickly switch between different settings. You can also copy settings between solutions. For more information, see [Configure unit tests by using a .runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md).
+
+   > [!NOTE]
+   > The **Processor Architecture for AnyCPU projects** setting is not supported in an MSTest project if you set MSTest as the test runner instead of VSTest.
 
 ## Related content
 
