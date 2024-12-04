@@ -1,13 +1,14 @@
 ---
 title: "Add Unreal Engine classes, modules, and plugins in Visual Studio"
 description: "Learn how to add Unreal Engine classes, modules, and plugins to your Unreal Engine project from within Visual Studio"
-ms.date: 07/25/2024
+ms.date: 12/4/2024
 ms.topic: how-to
 ms.service: visual-studio
 ms.subservice: unreal-engine-tools
 author: TylerMSFT
 ms.author: TWhitney
 manager: Coxford
+
 #customer intent: As a C++ game developer using Unreal Engine and Visual Studio, I want to add classes, modules, and plugins to my Unreal Engine project from within Visual Studio so that I can stay in my development environment and not have to switch between the Unreal Engine Editor and Visual Studio.
 ---
 
@@ -80,7 +81,7 @@ To add an Unreal Engine class in Visual Studio, follow these steps after complet
 1. Choose a **Base class**. Selecting a base class ensures that the right headers and macros are included for that class type.
 1. Choose a module to add to your class to using the **Select a module to add the class** dropdown. The module name is the name of the folder that contains the module.
 1. Select the **Refresh IntelliSense information using Unreal Editor tools** checkbox to choose whether Visual Studio uses Unreal Editor tools to update the IntelliSense information. Choose this to cause the Unreal Build Tool to regenerate the Visual Studio solution file.
-1. Choose **OK** to generate the header and source files for the new class and add them to the Visual Studio solution file. This results in a prompt to reload the project. Choose **Reload** to reload the project.
+1. Choose **OK** to generate the header and source files for the new class and add them to the Visual Studio solution file. Choose **Reload** in the prompt that appears to reload the project.
 
 ## Add Unreal Engine plugins in Visual Studio
 
@@ -113,7 +114,7 @@ In **Solution Explorer**, right-click on the plugin folder and choose **Build th
     The menu options after right-clicking the plugin folder MyPlugin are visible. The entry Build this Unreal Engine plugin, is highlighted.
 :::image-end:::
 
-Build output is displayed in the **Output** window. If the build is successful, the plugin is available in the Unreal Engine Editor. If the build fails, the **Output** window displays the error messages.
+If the build is successful, the plugin is available in the Unreal Engine Editor. If the build fails, the **Output** window displays the error messages.
 
 ## Related content
 
