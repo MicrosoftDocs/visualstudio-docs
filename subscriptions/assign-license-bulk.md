@@ -3,7 +3,7 @@ title: Assign subscriptions to multiple users
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/16/2024
+ms.date: 11/04/2024
 ms.topic: conceptual
 description: Assign multiple subscriptions to one or more users at the same time with the bulk operation features in the Subscriptions Admin Portal.
 ---
@@ -12,7 +12,7 @@ description: Assign multiple subscriptions to one or more users at the same time
 
 The Subscriptions Admin Portal lets you add users one-at-a-time, or in large groups. To add individual users, see [Add single users](assign-license.md).
 
-To add large groups of users, you can use the bulk add feature, or if your organization is using Microsoft Entra ID **and your organization has a trusted agreement**, you can use Microsoft Entra groups. This article explains the process for both options. Watch this video or read on to learn more about the bulk add feature. 
+To add large groups of users, you can use the bulk add feature, or if your organization is using Microsoft Entra **and your organization has a trusted agreement**, you can use Microsoft Entra groups. This article explains the process for both options. Watch this video or read on to learn more about the bulk add feature. 
 
 ## Use Bulk add to assign subscriptions
 

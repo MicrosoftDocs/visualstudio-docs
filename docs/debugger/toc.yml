@@ -40,7 +40,9 @@
   items:
   - name: Navigation
     href: navigating-through-code-with-the-debugger.md
-  - name: Breakpoints
+  - name: Get started with breakpoints
+    href: get-started-with-breakpoints.md
+  - name: Use the right type of breakpoint
     href: using-breakpoints.md
   - name: Move the execution pointer
     href: move-the-execution-pointer-with-the-debugger.md
@@ -56,6 +58,8 @@
     href: autos-and-locals-windows.md
   - name: Set a watch on variables
     href: watch-and-quickwatch-windows.md
+  - name: View data values in data tips
+    href: view-data-values-in-data-tips-in-the-code-editor.md
   - name: Expressions in the debugger
     items:
     - name: Use debugger expressions
@@ -68,8 +72,6 @@
       href: format-specifiers-in-csharp.md
     - name: Pseudovariables
       href: pseudovariables.md
-  - name: View data values in DataTips
-    href: view-data-values-in-data-tips-in-the-code-editor.md
   - name: View string values in a visualizer
     href: view-strings-visualizer.md
   - name: View .NET collections in a tabular visualizer
@@ -136,7 +138,7 @@
           href: project-settings-for-a-cpp-debug-configuration.md
         - name: Enable debug features in C++ (-D_DEBUG)
           href: enabling-debug-features-in-visual-cpp-d-debug.md
-        - name: Send command-line arguments to a debugee (C++)
+        - name: Pass command-line arguments while debugging (C++)
           href: specify-command-line-arguments.md
       - name: Project settings (C#)
         href: project-settings-for-csharp-debug-configurations.md

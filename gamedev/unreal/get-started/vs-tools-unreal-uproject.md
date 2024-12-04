@@ -1,6 +1,6 @@
 ---
-title: "Open native Unreal Engine projects in Visual Studio"
-description: "Learn how to work with native Unreal Engine projects from within Visual Studio"
+title: "Open Unreal Engine projects in Visual Studio"
+description: "Learn how to work with native Unreal Engine projects from within Visual Studio."
 ms.date: 10/30/2024
 ms.topic: how-to
 ms.service: visual-studio
@@ -11,7 +11,7 @@ manager: Coxford
 #customer intent: As a C++ game developer using Unreal Engine and Visual Studio, I want to work in Visual Studio with native Unreal Engine projects so that I can use Visual Studio's features and tools to develop my game without having to switch back-and-forth between the Unreal Engine Editor and Visual Studio.
 ---
 
-# Open native Unreal Engine projects in Visual Studio
+# Open Unreal Engine projects in Visual Studio
 
 Visual Studio 2022 version 17.12 provides direct support for Unreal Engine projects.
 
@@ -212,8 +212,8 @@ Before:
 {
     "InstallationList": [
         {
-            "InstallLocation": "C:\\Program Files\\Epic Games\\UE_5.3,
-        ...
+            "InstallLocation": "C:\\Program Files\\Epic Games\\UE_5.3",
+            ...
             "AppName": "UE_5.4"
         },
 }

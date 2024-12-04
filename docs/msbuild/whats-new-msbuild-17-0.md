@@ -1,7 +1,7 @@
 ---
-title: What's New in MSBuild 17.0 
+title: What's New in MSBuild 17
 description: Review the changed, updated, and new features of MSBuild 17, including support for .NET Framework 4.7.2 and .NET 6.0, and access links to release notes.
-ms.date: 11/01/2023
+ms.date: 12/3/2024
 ms.topic: whats-new
 author: ghogen
 ms.author: ghogen
@@ -9,9 +9,9 @@ manager: mijacobs
 ms.subservice: msbuild
 monikerRange: '>=vs-2019'
 ---
-# What's new in MSBuild 17.0
+# What's new in MSBuild 17
 
-This article describes significant updates in MSBuild 17.0. For the detailed release notes, see [MSBuild 17.0.0](https://github.com/dotnet/msbuild/releases/tag/v17.0.0).
+This article describes significant updates in MSBuild 17.0. For the detailed release notes for each version, see [MSBuild releases](https://github.com/dotnet/msbuild/releases).
 
 MSBuild 17.0 shipped with [Visual Studio 2022](../ide/whats-new-visual-studio-2022.md) and [.NET 6.0](/dotnet/).
 

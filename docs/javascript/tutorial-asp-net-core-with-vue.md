@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: Create an ASP.NET Core project to serve as an API backend and a Vue project to provide the user interface in Visual Studio.
-ms.date: 04/30/2024
+ms.date: 11/06/2024
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -24,13 +24,13 @@ You can use the method described in this article to create ASP.NET Core Single P
 - Create the client project based on the framework CLI installed on your computer
 
 > [!NOTE]
-> This article describes the project creation process using the updated template in Visual Studio 2022 version 17.8, which uses the Vite CLI.
+> This article describes the project creation process using the updated template in Visual Studio 2022 version 17.11, which uses the Vite CLI.
 
 ## Prerequisites
 
 Make sure to install the following:
 
-- Visual Studio 2022 version 17.8 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+- Visual Studio 2022 version 17.11 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 - npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js.
 
@@ -135,6 +135,8 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 1. To publish, right click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, etc.
 
    The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run build` command gets invoked when publishing. The [BuildCommand](../javascript/javascript-project-system-msbuild-reference.md#buildcommand) runs `npm run build` by default.
+
+   If you publish to a folder, see [ASP.NET Core directory structure](/aspnet/core/host-and-deploy/directory-structure) for more information on the files added to the *publish* folder.
 
 ## Troubleshooting
 

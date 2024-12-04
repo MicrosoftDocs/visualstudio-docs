@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_length
 
 Retrieves the number of bits or bytes of memory used by the object represented by this symbol.
@@ -19,7 +20,7 @@ Retrieves the number of bits or bytes of memory used by the object represented b
 ## Syntax
 
 ```C++
-HRESULT get_length ( 
+HRESULT get_length ( 
    ULONGLONG* pRetVal
 );
 ```

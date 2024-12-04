@@ -1,7 +1,7 @@
 ---
 title: Quick Actions, light bulbs, and screwdrivers
 description: Use a single Quick Action in Visual Studio to refactor, generate, or modify your C#, C++, or Visual Basic code files to apply updates and fixes or generate code.
-ms.date: 08/14/2024
+ms.date: 11/01/2024
 ms.topic: concept-article
 author: Mikejo5000
 ms.author: mikejo
@@ -10,6 +10,7 @@ ms.subservice: general-ide
 dev_langs:
 - CSharp
 - VB
+ms.collection: ce-skilling-ai-copilot
 
 #customer intent: As a developer, I want to use Quick Actions in Visual Studio, so I can modify my code files to apply updates and fixes or generate code.
 ---
@@ -37,6 +38,22 @@ Visual Studio uses several icons to indicate when Quick Actions are available. T
 
 For any language, third parties can provide custom diagnostics and suggestions, such as part of an SDK. Visual Studio shows light bulbs based on those rules.
 
+## Find available actions
+
+You can check your code for available Quick Actions in Visual Studio by scanning for the light bulb ![light bulb icon](media/light-bulb-icon.png), screwdriver ![screwdriver icon](media/screwdriver-icon.png), and error light bulb ![error light bulb icon](media/error-light-bulb-icon.png):
+
+- Move your mouse over your code and notice any Quick Action icons:
+
+   :::image type="content" source="../ide/media/vs2022-lightbulb-hover.png" border="false" alt-text="Screenshot that shows the basic Quick Action recommendation and light bulb icon in Visual Studio.":::
+
+- Move the insertion cursor (|) into a line of code, and check for Quick Action icons in the left margin of the code editor.
+
+You can also manually check for any available Quick Actions:
+
+- Right-click a line of code and choose **Quick Actions and Refactorings** for a list of available Quick Actions and refactoring options.
+
+- Select Ctrl + period (.) anywhere on a line.
+
 ## Apply recommendations to improve code
 
 When Quick Actions are available, you can select the light bulb ![light bulb icon](media/light-bulb-icon.png) or screwdriver ![screwdriver icon](media/screwdriver-icon.png) icon next to the applicable code.
@@ -60,17 +77,13 @@ If there's an error in your code, and Visual Studio has a recommended fix, you s
 > [!TIP]
 > You can turn off some of the code fix Quick Actions. For more informatio, see [Disable source code analysis for .NET](../code-quality/disable-code-analysis.md).
 
-## Find available actions
+::: moniker range=">=vs-2022"
+## Get AI assistance
 
-You can check your code for available Quick Actions in Visual Studio by scanning for the light bulb ![light bulb icon](media/light-bulb-icon.png), screwdriver ![screwdriver icon](media/screwdriver-icon.png), and error light bulb ![error light bulb icon](media/error-light-bulb-icon.png):
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while using the Quick Actions light bulb. From the light bulb menu, choose **Fix with Copilot**. This opens an inline chat with GitHub Copilot Chat, offering you an available fix.
 
-- Move your mouse over your code and notice any Quick Action icons:
-
-   :::image type="content" source="../ide/media/vs2022-lightbulb-hover.png" border="false" alt-text="Screenshot that shows the basic Quick Action recommendation and light bulb icon in Visual Studio.":::
-
-- Move the insertion cursor (|) into a line of code, and check for Quick Action icons in the left margin of the code editor.
-
-- Select Ctrl + period (.) anywhere on a line for a list of available Quick Actions and refactoring options.
+:::image type="content" source="../ide/media/vs-2022/quick-action-lightbulb-github-copilot.png" border="false" alt-text="Screenshot that shows the Quick Action GitHub Copilot option for the light bulb.":::
+::: moniker-end
 
 ## Related content
 

@@ -28,7 +28,6 @@ You can create a typed <xref:System.Data.DataSet> class in Visual Studio at desi
 
 - SQL Server Express LocalDB. If you don't have SQL Server Express LocalDB, you can install it from the [SQL Server download page](https://www.microsoft.com/sql-server/sql-server-downloads).
 
-
 ## Create a new dataset by using the Data Source Configuration Wizard
 
 1. Open your project in Visual Studio, and then choose **Project** > **Add New Data Source** to start the **Data Source Configuration Wizard**.
