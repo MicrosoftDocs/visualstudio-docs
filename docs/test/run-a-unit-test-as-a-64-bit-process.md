@@ -1,7 +1,7 @@
 ---
 title: Configure process architecture for unit tests
 description: Configure process architecture for unit tests and run unit tests and capture code coverage information as a 64-bit process, and recompile code or tests compiled as 32-bit/x86 to run them as a 64-bit process.
-ms.date: 03/10/2020
+ms.date: 12/4/2024
 ms.topic: how-to
 helpviewer_keywords: 
   - unit tests, process architecture
@@ -59,8 +59,10 @@ To run a unit test as a 64-bit process:
 
    Specify `<TargetPlatform>x64</TargetPlatform>` in a *.runsettings* file. An advantage of this method is that you can specify groups of settings in different files and quickly switch between different settings. You can also copy settings between solutions. For more information, see [Configure unit tests by using a .runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md).
 
+   ::: moniker range=">=vs-2022"
    > [!NOTE]
    > The **Processor Architecture for AnyCPU projects** setting is not supported in an MSTest project if you set MSTest as the test runner instead of VSTest.
+   ::: moniker-end
 
 ## Related content
 
