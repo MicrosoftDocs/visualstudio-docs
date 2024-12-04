@@ -13,24 +13,32 @@ author: mikejo5000
 ---
 # Configure process architecture for a unit test
 
+::: moniker range=">=vs-2022"
 This article provides information on the process architecture used for running unit tests, how to set the process architecture, and how to run unit tests as a 64-bit process.
+::: moniker-end
 
+::: moniker range="<=vs-2019"
+This article provides information on how to set the process architecture for unit tests and how to run unit tests as a 64-bit process.
+::: moniker-end
+
+::: moniker range=">=vs-2022"
 ## Configure process architecture for MSTest projects
 
-For MSTest projects using Visual Studio Testing Platform (VSTest) as the test runner, the default architecture matches the operating system's architecture. You can override this behavior for projects set to **Any CPU** as the target platform using either the Test Explorer **Settings**, as shown in the following illustration, or using the **Test** menu.
+For MSTest projects using Visual Studio Testing Platform (VSTest) as the test runner, the default target platform (process architecture) matches the operating system's architecture. You can override this behavior for projects set to **Any CPU** as the target platform using either the Test Explorer **Settings**, as shown in the following illustration, or using the **Test** menu.
 
 :::image type="content" source="../test/media/vs-2022/menu-process-architecture-for-anycpu.png" alt-text="Screenshot showing menu for selecting the processor architecture for AnyCPU." lightbox="../test/media/vs-2022/menu-process-architecture-for-anycpu.png":::
 
 From the **Test** menu, select **Processor Architecture for AnyCPU Projects**.
 
-For projects using MSTest as the test runner instead of Visual Studio Test Platform (VSTest), the architecture is determined strictly by MSBuild and runtime rules. Executables are generated based on the preferred architecture specified in MSBuild/runtime settings. You can adjust this preference using MSBuild properties (for example, **PreferNativeArm64**), but the setting **Processor Architecture for AnyCPU Projects** cannot be used to change the architecture for these projects.
+For projects using MSTest as the test runner instead of VSTest, the architecture is determined strictly by MSBuild and runtime rules. Executables are generated based on the preferred architecture specified in MSBuild/runtime settings. You can adjust this preference using MSBuild properties (for example, **PreferNativeArm64**), but the setting **Processor Architecture for AnyCPU Projects** cannot be used to change the architecture for these projects.
 
 > [!NOTE]
 > You can set the test runner when you create a unit test project using the MSTest project template, or by using MSBuild properties. For more information on the difference between MSTest and VSTest test runners, see [Microsoft.Testing.Platform and VSTest comparison](/dotnet/core/testing/unit-testing-platform-vs-vstest).
 
 ### PreferNativeArm64 (MSTest)
 
-When using this MSBuild property, the project will prefer running natively on ARM64 architecture if available. This property is applicable to projects that generate executables and follow MSBuild/runtime rules. This setting is ignored for Visual Studio Test Platform (VSTest) test runners and only applies to MSTest projects with MSTest configured as the test runner. 
+When using the `PreferNativeArm64` MSBuild property, the project prefers running natively on ARM64 architecture if it's available. This property is applicable to projects that generate executables and follow MSBuild runtime rules. This setting is ignored for Visual Studio Test Platform (VSTest) test runners and only applies to MSTest projects with MSTest configured as the test runner. 
+::: moniker-end
 
 ## Run a unit test as a 64-bit process
 
