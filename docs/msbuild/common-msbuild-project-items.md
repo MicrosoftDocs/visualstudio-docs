@@ -104,6 +104,8 @@ Represents resources to be embedded in the generated assembly.
 
 | Item metadata name | Description |
 |-----------------------| - |
+| Culture | Optional string. Specifies the culture of the resource file. If specified, the build process doesn't auto-infer the culture based on file extension (which is dependent on the cultures available to .NET/OS on the machine hosting the build). Setting either `Culture={culture identifier}` or `WithCulture=false` metadata is highly recommended. |
+| WithCulture | Optional bool. Specifies that the file is culture neutral and culture detection by [`AssignCulture`](./assignculture-task.md) task should be skipped. Setting either `Culture={culture identifier}` or `WithCulture=false` metadata is highly recommended. |
 | DependentUpon | Optional string. Specifies the file this file depends on to compile correctly |
 | Generator | Optional string. The name of any file generator that is run on this item. |
 | LastGenOutput | Optional string. The name of the file that was created by any file generator that ran on this item. |

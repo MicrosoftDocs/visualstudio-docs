@@ -57,6 +57,18 @@ You can run all the tests in the solution, all the tests in a group, or a set of
 
 - If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution in the settings menu of the toolbar. This can noticeably reduce the time taken to run all the tests.
 
+### Configure process architecture for AnyCPU (MSTest)
+
+For MSTest projects using Visual Studio Testing Platform (vstest) as the test runner, the default architecture matches the operating system's architecture. You can override this behavior for AnyCPU projects through the Test Explorer menu shown in the image below.
+
+:::image type="content" source="../test/media/vs-2022/menu-process-architecture-for-anycpu.png" alt-text="Screenshot showing menu for selecting the processor architecture for AnyCPU." lightbox="../test/media/vs-2022/menu-process-architecture-for-anycpu.png":::
+
+For projects using MSTest as the test runner instead of Visual Studio Test Platform (vstest), the architecture is determined strictly by MSBuild and runtime rules. Executables are generated based on the preferred architecture specified in MSBuild/runtime settings. You can adjust this preference using MSBuild properties (e.g., **PreferNativeArm64**), but the Test Explorer menu **Processor Architecture for AnyCPU Projects** cannot be used to change the architecture for these projects.
+
+#### PreferNativeArm64
+
+When using this MSBuild property, the project will prefer running natively on ARM64 architecture if available. This property is applicable to projects that generate executables and follow MSBuild/runtime rules. It is important to note that this setting is ignored for Visual Studio Test Platform (vstest) test projects and only applies to MSTest projects with MSTest configured as the test runner. 
+
 ### Run tests after every build
 
 To run your unit tests after each local build, open the settings icon in the Test Explorer toolbar and select **Run Tests After Build**.
@@ -339,7 +351,7 @@ For example, `FullName:"MyClass" - FullName:"PerfTest"` returns all tests that i
 
 ### Analyze unit test code coverage
 
-You can determine the amount of product code that is actually being tested by your unit tests by using the Visual Studio code coverage tool that's available in Visual Studio Enterprise edition. You can run code coverage on selected tests or on all tests in a solution.
+You can determine the amount of product code that is actually being tested by your unit tests by using the Visual Studio Code coverage tool that's available in Visual Studio Enterprise edition. You can run code coverage on selected tests or on all tests in a solution.
 
 To run code coverage for test methods in a solution:
 
