@@ -1,7 +1,7 @@
 ---
 title: Create an Angular project in Visual Studio
 description: Create, build, and run a simple Angular front-end web application project from a Visual Studio template, and set basic properties for the project.
-ms.date: 10/02/2024
+ms.date: 12/4/2024
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
@@ -20,7 +20,7 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
 ## Prerequisites
 
-Make sure to install the following:
+Make sure to install the following software:
 
 - Visual Studio 2022 or later. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
 - npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js
@@ -44,7 +44,9 @@ Make sure to install the following:
 
 ## View the project properties
 
-The default project settings allow you to build and debug the project. But, if you need to change settings, right-click the project in Solution Explorer, select **Properties**, and then go the **Build** or **Debugging** section.
+The default project settings allow you to build and debug the project. But, if you need to change settings, right-click the project in Solution Explorer, select **Properties**, and then go the **Linting**, **Build** or **Deploy** section.
+
+For debugger configuration, use [launch.json](../javascript/debug-nodejs.md#configure-debugging).
 
 >[!NOTE]
 > `launch.json` stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, `launch.json` must be located under the `.vscode` folder.
@@ -53,11 +55,11 @@ The default project settings allow you to build and debug the project. But, if y
 
 Choose **Build** > **Build Solution**  to build the project.
 
-Note, the initial build may take a while, as the Angular CLI will run the npm install command.
+Note, the initial build may take a while, as the Angular CLI runs the npm install command.
 
 ## Start Your Project
 
-Press **F5** or select the **Start** button at the top of the window, and you'll see a command prompt:
+Press **F5** or select the **Start** button at the top of the window, and you will see a command prompt:
 
 - The Angular CLI running the ng start command
 
