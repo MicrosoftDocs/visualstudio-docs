@@ -19,7 +19,7 @@ This article provides information on the process architecture used for running u
 
 For MSTest projects using Visual Studio Testing Platform (VSTest) as the test runner, the default architecture matches the operating system's architecture. You can override this behavior for projects set to **Any CPU** as the target platform using either the Test Explorer **Settings**, as shown in the following illustration, or using the **Test** menu.
 
-:::image type="content" source="../test/media/vs-2022/menu-process-architecture-for-anycpu.png" alt-text="Screenshot showing menu for selecting the processor architecture for AnyCPU." lightbox="../test/media/vs-2022/menu-process-architecture-for-anycpu.png" lightbox="../test/media/vs-2022/menu-process-architecture-for-anycpu.png":::
+:::image type="content" source="../test/media/vs-2022/menu-process-architecture-for-anycpu.png" alt-text="Screenshot showing menu for selecting the processor architecture for AnyCPU." lightbox="../test/media/vs-2022/menu-process-architecture-for-anycpu.png":::
 
 From the **Test** menu, select **Processor Architecture for AnyCPU Projects**.
 
