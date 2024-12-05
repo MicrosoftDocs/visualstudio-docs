@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug a C++ Project"
 description: Debug a Visual Studio C++ application from a remote computer, install and run remote tools, configure your project to connect, and deploy and run your app.
-ms.date: "03/20/2023"
+ms.date: "12/04/2024"
 ms.topic: "conceptual"
 dev_langs:
   - "C++"
@@ -93,9 +93,9 @@ The remote debugger is supported on Windows 7 and newer and versions of Windows 
     > [!TIP]
     > Alternatively, you can deploy the files as a separate step. In the **Solution Explorer,** right-click the project node and then choose **Deploy**.
 
-    If you have non-code files that are required by the application, you can specify them in a semicolon delimited list in **Additional Files to Deploy** on the **Remote Windows Debugger** page.
+    If you have non-code files that are required by the application, you can specify them in a semicolon delimited list in **Additional Files to Deploy** on the **Debugger** properties page with **Remote Windows Debugger** selected.
 
-    Alternatively, you can include the files in your project, and set the **Content** property to **Yes** in the **Properties** page for each file. These files are copied to the **Deployment Directory** specified on the **Remote Windows Debugger** page. You can also change the **Item Type** to **Copy File** and specify additional properties there if you need the files to be copied to a subfolder of the **Deployment Directory**.
+    Alternatively, you can include the files in your project, and set the **Content** property to **Yes** in the **Properties** page for each file. These files are copied to the **Deployment Directory** specified on the **Debugger** properties page with **Remote Windows Debugger** selected. You can also change the **Item Type** to **Copy File** and specify additional properties there if you need the files to be copied to a subfolder of the **Deployment Directory**.
 
 ## Set Up Debugging with Remote Symbols
 
