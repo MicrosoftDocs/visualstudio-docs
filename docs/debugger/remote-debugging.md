@@ -28,7 +28,6 @@ For in-depth instructions on remote debugging, see these topics.
 |-|-|
 |Azure App Service|[Remote debug ASP.NET Core on Azure](../debugger/remote-debugging-azure-app-service.md) or, for Visual Studio Enterprise, the [Snapshot Debugger](../debugger/debug-live-azure-applications.md)|
 |Azure VM|[Remote debug ASP.NET on an Azure VM](../debugger/remote-debugging-azure.md)|
-|Azure Service Fabric|[Debug an Azure Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application)|
 |ASP.NET|[Remote debug ASP.NET Core](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) or [Remote Debug ASP.NET](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
 |C# or Visual Basic|[Remote debug a C# or Visual Basic project](../debugger/remote-debugging-csharp.md)|
 |C++|[Remote debug a C++ project](../debugger/remote-debugging-cpp.md)|
