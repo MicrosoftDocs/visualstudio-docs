@@ -1,7 +1,7 @@
 ---
 title: Run unit tests with Test Explorer
 description: Run tests with Test Explorer in Visual Studio, enable automatic tests after build, view results, group and filter the test list, create playlists, and use shortcuts.
-ms.date: 11/18/2024
+ms.date: 12/3/2024
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -57,17 +57,8 @@ You can run all the tests in the solution, all the tests in a group, or a set of
 
 - If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution in the settings menu of the toolbar. This can noticeably reduce the time taken to run all the tests.
 
-### Configure process architecture for AnyCPU (MSTest)
-
-For MSTest projects using Visual Studio Testing Platform (vstest) as the test runner, the default architecture matches the operating system's architecture. You can override this behavior for AnyCPU projects through the Test Explorer menu shown in the image below.
-
-:::image type="content" source="../test/media/vs-2022/menu-process-architecture-for-anycpu.png" alt-text="Screenshot showing menu for selecting the processor architecture for AnyCPU." lightbox="../test/media/vs-2022/menu-process-architecture-for-anycpu.png":::
-
-For projects using MSTest as the test runner instead of Visual Studio Test Platform (vstest), the architecture is determined strictly by MSBuild and runtime rules. Executables are generated based on the preferred architecture specified in MSBuild/runtime settings. You can adjust this preference using MSBuild properties (e.g., **PreferNativeArm64**), but the Test Explorer menu **Processor Architecture for AnyCPU Projects** cannot be used to change the architecture for these projects.
-
-#### PreferNativeArm64
-
-When using this MSBuild property, the project will prefer running natively on ARM64 architecture if available. This property is applicable to projects that generate executables and follow MSBuild/runtime rules. It is important to note that this setting is ignored for Visual Studio Test Platform (vstest) test projects and only applies to MSTest projects with MSTest configured as the test runner. 
+>![NOTE]
+> To configure the target platform (process architecture) for running unit tests, see [Configure process architecture for a unit test](../test/run-a-unit-test-as-a-64-bit-process.md).
 
 ### Run tests after every build
 
