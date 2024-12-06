@@ -57,7 +57,7 @@ Visual Studio loads the solutions from the repository by using the **Folder View
 
 :::image type="content" source="./media/vs-2022/tutorial-open-project-from-repo/git-solution-explorer-folder-view.png" alt-text="Screenshot of the Folder View in Solution Explorer in Visual Studio 2022.":::
 
-You can view a solution in **Solution View** by double-clicking its *.sln* file.
+You can view a solution in **Solution View** by double-clicking its `.sln` file.
 
 You can select **Switch Views** to switch between folder view and solution view.
 
@@ -149,7 +149,7 @@ Here's how to use Git in Visual Studio 2019 [version 16.8](/visualstudio/release
 
    :::image type="content" source="../ide/media/vs-2019/git-user-information-dialog.png" alt-text="Screenshot of the Git User Information dialog where you edit your account info in Visual Studio 2019 version 16.8 and later.":::
 
-   Select **Save** to add the info to your global *.gitconfig* file. (Or, you can select **Cancel** if you'd like to save the info later.)
+   Select **Save** to add the info to your global `.gitconfig` file. (Or, you can select **Cancel** if you'd like to save the info later.)
 
    > [!TIP]
    > For more information about signing in to Visual Studio, see [Sign in or switch Visual Studio user accounts](../ide/signing-in-to-visual-studio.md?view=vs-2019&preserve-view=true). For more information about how to use your GitHub account to sign in, see [Add your GitHub accounts to your Visual Studio keychain](../ide/work-with-github-accounts.md?view=vs-2019&preserve-view=true).
@@ -214,7 +214,7 @@ Here's how to use Git in Visual Studio 2019 [version 16.7](/visualstudio/release
 
    :::image type="content" source="./media/open-proj-repo-github-solutions-folders-picker.png" alt-text="Screenshot of the Solution Explorer drop-down list in Visual Studio 2019 version 16.7 and earlier.":::
 
-   If you don't have a solution file (specifically, an *.sln* file) in your repo, the flyout menu says **No Solutions Found**. However, you can double-click any file from the folder menu to open it in the Visual Studio editor.
+   If you don't have a solution file (specifically, an `.sln` file) in your repo, the flyout menu says **No Solutions Found**. However, you can double-click any file from the folder menu to open it in the Visual Studio editor.
 
    Start coding!
 
@@ -282,7 +282,7 @@ But no matter which version you installed, you can always browse to and clone an
 
    Visual Studio opens **Solution Explorer**.
 
-1. Choose the **Solutions and Folders** link to search for a solution file (specifically, an *.sln* file) to open.
+1. Choose the **Solutions and Folders** link to search for a solution file (specifically, an `.sln` file) to open.
 
    :::image type="content" source="./media/open-proj-repo-solutions-folders.png" alt-text="Screenshot of the 'Solutions and Folders' notification from Team Explorer in Visual Studio 2019 version 16.7 and earlier.":::
 
