@@ -1,7 +1,7 @@
 ---
 title: Create, run, and customize C# unit tests
 description: Learn how to create, run, and customize a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio Test Explorer.
-ms.date: 11/18/2024
+ms.date: 12/3/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - unit tests, walkthrough
@@ -121,7 +121,7 @@ You now have a project with methods you can test. In this article, the tests foc
    > [!TIP]
    > You can also right-click on the solution in **Solution Explorer** and choose **Add** > **New Project**.
 
-1. Type **test** in the search box, select **C#** as the language, and then select the C# **MSTest Unit Test Project** for .NET template, and then click **Next**.
+1. Type **test** in the search box, select **C#** as the language, and then select the C# **MSTest Test Project** for .NET template, and then click **Next**.
 
    > [!NOTE]
    > In Visual Studio 2019 version 16.9, the MSTest project template is **Unit Test Project**.
@@ -129,6 +129,10 @@ You now have a project with methods you can test. In this article, the tests foc
 1. Name the project **BankTests** and click **Next**.
 
 1. Choose either the recommended target framework or .NET 8, and then choose **Create**.
+
+   ::: moniker range=">=vs-2022"
+   Starting in Visual Studio 2022 version 17.10, you can also select a test runner. For the test runner, you can choose either **VSTest** or **MSTest**. For more information on the difference between test runners, see [Microsoft.Testing.Platform and VSTest comparison](/dotnet/core/testing/unit-testing-platform-vs-vstest).
+   ::: moniker-end
 
    The **BankTests** project is added to the **Bank** solution.
 
