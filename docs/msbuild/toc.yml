@@ -1,6 +1,6 @@
 items:
 - name: MSBuild
-  href: errors/msbuild.md
+  href: msbuild.md
   items:
   - name: What's new in MSBuild 17.0
     href: whats-new-msbuild-17-0.md
@@ -27,13 +27,13 @@ items:
     items:
     - name: Overview
       displayName: msbuild concepts
-      href: errors/msbuild-concepts.md
+      href: msbuild-concepts.md
     - name: How MSBuild builds projects
       href: build-process-overview.md
     - name: Properties
       items:
       - name: MSBuild properties
-        href: errors/msbuild-properties.md
+        href: msbuild-properties.md
       - name: Use environment variables in a build
         href: how-to-use-environment-variables-in-a-build.md
       - name: Reference the name or location of the project file
@@ -45,7 +45,7 @@ items:
     - name: Items
       items:
       - name: MSBuild items
-        href: errors/msbuild-items.md
+        href: msbuild-items.md
       - name: Select the files to build
         href: how-to-select-the-files-to-build.md
       - name: Exclude files from the build
@@ -59,7 +59,7 @@ items:
     - name: Targets
       items:
       - name: MSBuild targets
-        href: errors/msbuild-targets.md
+        href: msbuild-targets.md
       - name: Target build order
         href: target-build-order.md
       - name: Incremental builds
@@ -79,11 +79,11 @@ items:
     - name: Tasks
       items:
       - name: MSBuild tasks
-        href: errors/msbuild-tasks.md
+        href: msbuild-tasks.md
       - name: Task writing
         href: task-writing.md
       - name: Formats for errors and warnings
-        href: errors/msbuild-diagnostic-format-for-tasks.md
+        href: msbuild-diagnostic-format-for-tasks.md
       - name: Ignore errors in tasks
         href: how-to-ignore-errors-in-tasks.md
       - name: Build a project that has resources
@@ -91,11 +91,11 @@ items:
       - name: Inline tasks
         items:
         - name: MSBuild inline tasks
-          href: errors/msbuild-inline-tasks.md
+          href: msbuild-inline-tasks.md
         - name: 'Walkthrough: Creating an inline task'
           href: walkthrough-creating-an-inline-task.md
       - name: MSBuild inline tasks with RoslynCodeTaskFactory
-        href: errors/msbuild-roslyncodetaskfactory.md
+        href: msbuild-roslyncodetaskfactory.md
     - name: Comparing properties and items
       href: comparing-properties-and-items.md
     - name: Evaluate items and properties
@@ -103,7 +103,7 @@ items:
     - name: Special characters
       items:
       - name: MSBuild special characters
-        href: errors/msbuild-special-characters.md
+        href: msbuild-special-characters.md
       - name: Escape special characters in MSBuild
         href: how-to-escape-special-characters-in-msbuild.md
       - name: Use reserved XML characters in project files
@@ -115,15 +115,15 @@ items:
     - name: Batching
       items:
       - name: MSBuild batching
-        href: errors/msbuild-batching.md
+        href: msbuild-batching.md
       - name: Item metadata in task batching
         href: item-metadata-in-task-batching.md
       - name: Item metadata in target batching
         href: item-metadata-in-target-batching.md
     - name: MSBuild transforms
-      href: errors/msbuild-transforms.md
+      href: msbuild-transforms.md
     - name: MSBuild Server
-      href: errors/msbuild-server.md
+      href: msbuild-server.md
     - name: Visual Studio integration
       items:
       - name: Visual Studio integration (MSBuild)
@@ -147,17 +147,17 @@ items:
     - name: Multitargeting
       items:
       - name: MSBuild multitargeting overview
-        href: errors/msbuild-multitargeting-overview.md
+        href: msbuild-multitargeting-overview.md
       - name: Toolset (ToolsVersion)
         items:
         - name: MSBuild toolset (ToolsVersion)
-          href: errors/msbuild-toolset-toolsversion.md
+          href: msbuild-toolset-toolsversion.md
         - name: Standard and custom toolset configurations
           href: standard-and-custom-toolset-configurations.md
         - name: Overriding ToolsVersion settings
           href: overriding-toolsversion-settings.md
       - name: MSBuild target framework and target platform
-        href: errors/msbuild-target-framework-and-target-platform.md
+        href: msbuild-target-framework-and-target-platform.md
       - name: Resolving assemblies at design time
         href: resolving-assemblies-at-design-time.md
       - name: Task configuration
@@ -185,7 +185,7 @@ items:
       - name: Handle code generation
         href: customize-builds-for-generated-files.md
     - name: MSBuild best practices
-      href: errors/msbuild-best-practices.md
+      href: msbuild-best-practices.md
   - name: Logging
     items:
     - name: Obtaining build logs with MSBuild
@@ -200,12 +200,12 @@ items:
     items:
     - name: Overview
       displayName: msbuild reference
-      href: errors/msbuild-reference.md
+      href: msbuild-reference.md
     - name: MSBuild project file schema reference
       items:
       - name: Overview
         displayName: Project File Schema Reference
-        href: errors/msbuild-project-file-schema-reference.md
+        href: msbuild-project-file-schema-reference.md
       - name: Choose element
         href: choose-element-msbuild.md
       - name: Import element
@@ -254,12 +254,12 @@ items:
       items:
       - name: Overview
         displayName: task reference
-        href: errors/msbuild-task-reference.md
+        href: msbuild-task-reference.md
       - name: Tasks specific to C++
         items:
         - name: Overview
           displayName: C++ tasks
-          href: errors/msbuild-tasks-specific-to-visual-cpp.md
+          href: msbuild-tasks-specific-to-visual-cpp.md
         - name: BscMake task
           href: bscmake-task.md
         - name: CL task
@@ -385,7 +385,7 @@ items:
       - name: Move task
         href: move-task.md
       - name: MSBuild task
-        href: errors/msbuild-task.md
+        href: msbuild-task.md
       - name: ReadLinesFromFile task
         href: readlinesfromfile-task.md
       - name: RegisterAssembly task
@@ -439,11 +439,11 @@ items:
       - name: ZipDirectory task
         href: zipdirectory-task.md
     - name: MSBuild conditions
-      href: errors/msbuild-conditions.md
+      href: msbuild-conditions.md
     - name: MSBuild conditional constructs
-      href: errors/msbuild-conditional-constructs.md
+      href: msbuild-conditional-constructs.md
     - name: MSBuild reserved and well-known properties
-      href: errors/msbuild-reserved-and-well-known-properties.md
+      href: msbuild-reserved-and-well-known-properties.md
     - name: Common MSBuild project properties
       href: common-msbuild-project-properties.md
     - name: Common MSBuild project items
@@ -451,13 +451,13 @@ items:
     - name: Common MSBuild item metadata
       href: common-msbuild-item-metadata.md
     - name: MSBuild command-line reference
-      href: errors/msbuild-command-line-reference.md
+      href: msbuild-command-line-reference.md
     - name: MSBuild .targets files
-      href: errors/msbuild-dot-targets-files.md
+      href: msbuild-dot-targets-files.md
     - name: MSBuild well-known item metadata
-      href: errors/msbuild-well-known-item-metadata.md
+      href: msbuild-well-known-item-metadata.md
     - name: MSBuild response files
-      href: errors/msbuild-response-files.md
+      href: msbuild-response-files.md
     - name: Solution filters in MSBuild
       href: solution-filters.md
     - name: WPF reference
@@ -1908,8 +1908,8 @@ items:
     items:
     - name: Overview
       displayName: Use MSBuild programmatically
-      href: errors/msbuild-api.md
+      href: msbuild-api.md
     - name: Find and use a version of MSBuild
       href: find-and-use-msbuild-versions.md
   - name: MSBuild glossary
-    href: errors/msbuild-glossary.md
+    href: msbuild-glossary.md
