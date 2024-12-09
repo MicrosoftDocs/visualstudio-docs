@@ -13,11 +13,11 @@ dev_langs:
 # Compile TypeScript code (Node.js)
 
 ::: moniker range=">=vs-2022"
-Use the TypeScript npm package to add TypeScript support to projects based on the [JavaScript Project System (JSPS)](../javascript/javascript-in-visual-studio.md#project-templates), or *.esproj*. Starting in Visual Studio 2019, it is recommended that you use the npm package instead of the TypeScript SDK. The TypeScript npm package provides greater portability across different platforms and environments.
+Use the TypeScript npm package to add TypeScript support to projects based on the [JavaScript Project System (JSPS)](../javascript/javascript-in-visual-studio.md#project-templates), or *.esproj*. Starting in Visual Studio 2019, it's recommended that you use the npm package instead of the TypeScript SDK. The TypeScript npm package provides greater portability across different platforms and environments.
 ::: moniker-end
 
 ::: moniker range="vs-2019"
-Use the TypeScript npm package to add TypeScript support to Node.js projects (.njsproj). Starting in Visual Studio 2019, it is recommended that you use the npm package instead of the TypeScript SDK. The TypeScript npm package provides greater portability across different platforms and environments.
+Use the TypeScript npm package to add TypeScript support to Node.js projects (.njsproj). Starting in Visual Studio 2019, it's recommended that you use the npm package instead of the TypeScript SDK. The TypeScript npm package provides greater portability across different platforms and environments.
 ::: moniker-end
 
 > [!IMPORTANT]
@@ -100,7 +100,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
    },
    ```
 
-   To build using a third-party tool like webpack, you can add a command-line build script to your *package.json* file:
+   To build using a third-party tool like Webpack, you can add a command-line build script to your *package.json* file:
 
    ```json
    "scripts": {
@@ -109,7 +109,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
    ```
 
    ::: moniker range="vs-2019"
-   For an example of using webpack with React and a webpack configuration file, see [Create a web app with Node.js and React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
+   For an example of using Webpack with React and a Webpack configuration file, see [Create a web app with Node.js and React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
 
    For an example of using Vue.js with TypeScript, see [Create a Vue.js application](create-application-with-vuejs.md).
    ::: moniker-end
@@ -139,10 +139,10 @@ Press **Ctrl+F5** (or **Debug > Start Without Debugging**) to run the applicatio
 
 ## Automate build tasks
 
-You can use Task Runner Explorer in Visual Studio to help automate tasks for third-party tools like npm and webpack.
+You can use Task Runner Explorer in Visual Studio to help automate tasks for third-party tools like npm and Webpack.
 
 - [NPM Task Runner](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.NPMTaskRunner) - Adds support for npm scripts defined in *package.json*. Supports yarn.
-- [Webpack Task Runner](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebPackTaskRunner) - Adds support for webpack.
+- [Webpack Task Runner](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebPackTaskRunner) - Adds support for Webpack.
 
 ## Related content
 
