@@ -36,7 +36,7 @@ Here's how.
 
 ### Use the start window
 
-1. Open Visual Studio 2022.
+1. Open Visual Studio.
 
 1. On the start window, select **Clone a repository**.
 
@@ -290,7 +290,7 @@ But no matter which version you installed, you can always browse to and clone an
 
 ::: moniker-end
 
-## Related articles
+## Related content
 
 Feel free to dive into any of the following language-specific tutorials:
 
