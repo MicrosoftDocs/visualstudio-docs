@@ -1,7 +1,7 @@
 ---
 title: "Linting JavaScript in Visual Studio"
 description: Use ESLint to lint JavaScript and TypeScript in Visual Studio, install dependencies, configure linting rules, and access troubleshooting support.
-ms.date: 06/28/2023
+ms.date: 12/09/2024
 ms.topic: how-to
 ms.devlang: javascript
 author: mikejo5000
@@ -23,7 +23,7 @@ To enable linting support in Visual Studio 2022 or later versions, enable the **
 
 :::image type="content" source="media/vs-2022/linting-tools-options.png" alt-text="Screenshot of linting Tools Options page.":::
 
-In the options page, you can also modify the set of files that you want to lint. By default, all file extensions that can be linted (*.js*, *.jsx*, *.ts*, *.tsx*, *.vue*, *.html*) will be linted. The HTML LSP-based editor must be enabled for linting Vue and HTML files. The respective setting can be found in **Tools > Options > Environment > Preview Features**.
+In the options page, you can also modify the set of files that you want to lint. By default, all file extensions that can be linted (*.js*, *.jsx*, *.ts*, *.tsx*, *.vue*, *.html*) will be linted. The HTML LSP-based editor must be enabled for linting Vue and HTML files. The respective setting can be found in **Tools > Options > Environment > Preview Features** > **HTML LSP-based editor**.
 
 You can override these options in some project types, like the [standalone React project templates](../javascript/tutorial-create-react-app.md). In these projects, you can override the settings from the **Tools > Options** page using project properties:
 
