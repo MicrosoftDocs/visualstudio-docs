@@ -54,13 +54,13 @@ The following table shows which projects support .NET Hot Reload with the debugg
 
 The [types of edits you can make](../debugger/supported-code-changes-csharp.md) with Hot Reload are determined by the runtime and compiler version, not by the method you used to start the application (F5 or Ctrl+F5).
 
-In the following sections, we’ll expand on the preceding summary and dive into more details.
+In the following sections, we provide additional details.
 
 ## Support for C++ applications
 
 When using Visual Studio 2022 and starting your app with the debugger, you can hot reload a native C++ application when running under the debugger (F5) using the **Hot Reload** button. Hot Reload is also supported for apps built using CMake and OpenFolder projects.
 
-For your project to support Hot Reload, you need the following:
+For your project to support Hot Reload, you need the following options set:
 
 * Project > Properties > C/C++ > General > **Debug Information Format** must be set to "Program Database for Edit and Continue `/ZI`"
 * Project > Properties > Linker > General > **Enable Incremental Linking** must be set to "Yes `/INCREMENTAL`"
@@ -82,7 +82,7 @@ Hot Reload is available without the debugger when targeting most types of .NET 6
 
 This feature is exclusive to .NET 6+. Those apps not targeting .NET 6+ (that is, they target .NET 5 or below) do not support the "no debugger" scenario and must use the debugger to get access to Hot Reload functionality.
 
-Also, be aware that not all project types currently support the "no debugger" scenario, see [Support for .NET applications](#support-for-net-applications).
+Also, not all project types currently support the "no debugger" scenario, see [Support for .NET applications](#support-for-net-applications).
 
 ## Visual Studio 2022 with a .NET 6+ app
 
