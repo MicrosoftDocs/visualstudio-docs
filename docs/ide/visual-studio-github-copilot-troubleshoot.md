@@ -38,7 +38,7 @@ The Copilot service is down.
 
 Due to the expected timeout, you need to occasionally refresh your credentials.
 
-**Action:** Select **"Refresh your credentials"** from the Copilot badge in the upper-right corner of your Visual Studio environment.
+**Action:** Select **"Refresh your credentials"** from the Copilot badge in the upper-right corner of your Visual Studio environment to refresh your GitHub account and sign in again.
 
 :::image type="content" source="media/vs-2022/copilot-inbox/copilot-refresh-credentials.png "alt-text="Screenshot of Refresh your credentials option." lightbox="media/vs-2022/copilot-inbox/copilot-refresh-credentials.png":::
 
