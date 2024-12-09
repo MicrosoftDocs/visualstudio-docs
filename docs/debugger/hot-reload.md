@@ -34,9 +34,9 @@ To see the changes in the user interface, the code needs to be re-executed. For 
 
 ## Support for .NET applications
 
-* **When using Visual Studio 2022 and starting your app with the debugger**, the basic Hot Reload experience works with most types of .NET apps and framework versions. This includes .NET Framework, .NET Core and .NET 5+ (for both C# and Visual Basic as applicable). The expectation in this scenario is that if you’re using the debugger, assume Hot Reload is available to you and give it a try!
-* **When using Visual Studio 2022 but not using the debugger** (for example, using CTRL-F5 to start the app), Hot Reload is available when targeting most types of .NET 6 apps. This means that apps not targeting .NET 6 (.NET 5 or below) don't support the "no debugger" scenario and must use the debugger to get Hot Reload support.
-* **When using Visual Studio 2022 with a .NET 6 app, most scenarios are supported**. This isn't limited to the new "no debugger" feature mentioned above. It also includes other new capabilities, such as support for hot reloading Blazor projects and, more generally, editing Razor files in any ASP.NET Core apps, and CSS Hot Reload. Using Visual Studio 2022 and apps that target .NET 6 together gives you the most powerful Hot Reload experience.
+* **When using Visual Studio 2022 and starting your app with the debugger**, the basic Hot Reload experience works with most types of .NET apps and framework versions. This support includes .NET Framework, .NET Core and .NET 5+ (for both C# and Visual Basic as applicable). The expectation in this scenario is that if you’re using the debugger, assume Hot Reload is available to you and give it a try!
+* **When using Visual Studio 2022 but not using the debugger** (for example, using CTRL-F5 to start the app), Hot Reload is available when targeting most types of .NET 6 apps. In this scenario, apps not targeting .NET 6+ (that is, they target .NET 5 or below) don't support the "no debugger" scenario and must use the debugger to get Hot Reload support.
+* **When using Visual Studio 2022 with a .NET 6+ app, most scenarios are supported**. This support isn't limited to the new "no debugger" feature mentioned above. It also includes other new capabilities, such as support for hot reloading Blazor projects and, more generally, editing Razor files in any ASP.NET Core apps, and CSS Hot Reload. Using Visual Studio 2022 and apps that target .NET 6 together gives you the most powerful Hot Reload experience.
 
 The following table shows which projects support .NET Hot Reload with the debugger attached (F5) and without the debugger attached (Ctrl+F5), according to the minimum .NET version required for support in Visual Studio 2022 (17.8).
 
@@ -54,7 +54,7 @@ The following table shows which projects support .NET Hot Reload with the debugg
 
 The [types of edits you can make](../debugger/supported-code-changes-csharp.md) with Hot Reload are determined by the runtime and compiler version, not by the method you used to start the application (F5 or Ctrl+F5).
 
-In the following sections, we’ll expand on the above summary and dive into more details.
+In the following sections, we’ll expand on the preceding summary and dive into more details.
 
 ## Support for C++ applications
 
@@ -80,7 +80,7 @@ Anywhere you have .NET and you’re using the Visual Studio managed debugger, yo
 
 Hot Reload is available without the debugger when targeting most types of .NET 6+ apps.
 
-This feature is exclusive to .NET 6+. Those apps not targeting .NET 6+ (that is, .NET 5 or below) do not support the "no debugger" scenario and must use the debugger to get access to Hot Reload functionality.
+This feature is exclusive to .NET 6+. Those apps not targeting .NET 6+ (that is, they target .NET 5 or below) do not support the "no debugger" scenario and must use the debugger to get access to Hot Reload functionality.
 
 Also, be aware that not all project types currently support the "no debugger" scenario, see [Support for .NET applications](#support-for-net-applications).
 
