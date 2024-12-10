@@ -17,7 +17,7 @@ monikerRange: '>= vs-2022'
 
 Linting JavaScript and TypeScript in Visual Studio is powered by [ESLint](https://eslint.org/). If you're new to ESLint, you can begin by checking their [documentation](https://eslint.org/docs/latest/user-guide/getting-started).
 
-## Enabling linting support
+## Enable linting support
 
 To enable linting support in Visual Studio 2022 or later versions, enable the **Enable ESLint** setting in **Tools > Options > Text Editor > JavaScript/TypeScript > Linting**.
 
@@ -29,7 +29,7 @@ You can override these options in some project types, like the [standalone React
 
 :::image type="content" source="media/vs-2022/linting-project-properties.png" alt-text="Screenshot of linting project properties.":::
 
-## Installing ESLint dependencies
+## Install ESLint dependencies
 
 Once linting is enabled, the necessary dependencies need to be installed. Dependencies include the [ESLint `npm` package](https://www.npmjs.com/package/eslint) and other plugins applicable to your project. This package can be installed locally in each project where you want to enable linting, or you can install it globally using `npm install -g eslint`. However, a global installation isn't recommended because plugins and shareable configs always need to be installed locally.
 
@@ -45,7 +45,7 @@ Similarly, when an *.eslintrc* file isn't found, a gold bar is displayed to run 
 
 :::image type="content" source="media/vs-2022/no-config-goldbar.png" alt-text="Screenshot of Run ESLint wizard gold bar.":::
 
-## Disabling linting rules and auto-fixes
+## Disable linting rules and auto-fixes
 
 You can disable linting errors on a [specific line or file](https://eslint.org/docs/latest/user-guide/configuring/rules#disabling-rules). You can disable the errors by using the Quick Actions lightbulb menu:
 
