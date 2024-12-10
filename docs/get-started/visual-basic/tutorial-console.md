@@ -2,9 +2,8 @@
 title: "Tutorial: Create simple Visual Basic console apps"
 description: Create a Visual Basic console application in Visual Studio that asks the user for input and displays the value along with the current time.
 ms.custom: vs-acquisition
-ms.date: 11/17/2023
+ms.date: 12/06/2024
 ms.subservice: general-ide
-
 ms.topic: tutorial
 ms.devlang: vb
 author: anandmeg
@@ -12,11 +11,13 @@ ms.author: meghaanand
 manager: mijacobs
 dev_langs:
   - vb
-# Customer intent: As a novice, I want to create my first app so that I see how Visual Basic works.
+# Customer intent: As a novice, I want to create my first app so that I see how Visual Basic works in Visual Studio.
 ---
-# Tutorial: Create a simple Visual Basic (VB) console app
+# Tutorial: Create a simple Visual Basic console app
 
-This article shows how you use Visual Studio to create a simple Visual Basic application, a *console app*. In this app, you ask the user for their name, and then display it back with the current time. You also explore some features of the [Visual Studio integrated development environment (IDE)](visual-studio-ide.md), including [source control in Git](/visualstudio/version-control). Visual Basic is a type-safe programming language that's designed to be easy to learn. A console app takes input and displays output in a command-line window, also known as a console.
+In this tutorial, you use Visual Studio to create a Visual Basic application. Visual Basic (VB) is an easy to learn type-safe programming language. This tutorial also explores some features of the [Visual Studio integrated development environment (IDE)](visual-studio-ide.md), including [source control in Git](/visualstudio/version-control).
+
+A *console app* takes input and displays output in a command-line window, also known as a console. The console app that you create asks the user for their name, and then displays it, along with the current time.
 
 In this tutorial, you learn how to:
 
@@ -30,7 +31,7 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+- If you don't have Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) to install it for free.
 
 ## Create a project
 
@@ -49,18 +50,18 @@ First, you create a Visual Basic app project. The default project template inclu
 
 1. In the start window, choose **Create a new project**.
 
-   :::image type="content" source="media/vs-2019/create-new-project-dark-theme.png" alt-text="Screenshot showing the Visual Studio start window with 'Create a new project' selected.":::
+   :::image type="content" source="media/vs-2019/create-new-project-dark-theme.png" alt-text="Screenshot showing the Visual Studio start window with 'Create a new project' selected." lightbox="media/vs-2019/create-new-project-dark-theme.png":::
 
-1. In the **Create a new project** window, choose **Visual Basic** from the Language list. Next, choose **Windows** from the Platform list and **Console** from the project types list.
+1. In the **Create a new project** window, choose **Visual Basic** from the language list. Next, choose **Windows** from the platform list and **Console** from the project types list.
 
    After you apply the language, platform, and project type filters, choose the **Console Application** template, and then choose **Next**.
 
-   :::image type="content" source="media/vs-2019/vb-create-new-project-console-net-core.png" alt-text="Screenshot that shows how to choose the Visual Basic, Windows, and Console filter options and select the Console Application project template.":::
+   :::image type="content" source="media/vs-2019/vb-create-new-project-console-net-core.png" alt-text="Screenshot that shows how to choose the Visual Basic, Windows, and Console filter options and select the Console Application project template." lightbox="media/vs-2019/vb-create-new-project-console-net-core.png":::
 
    > [!NOTE]
    > If you do not see the **Console Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
    >
-   > :::image type="content" source="media/vs-2019/not-finding-what-looking-for.png" alt-text="Screenshot showing the 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window.":::
+   > :::image type="content" source="media/vs-2019/not-finding-what-looking-for.png" alt-text="Screenshot showing the 'Install more tools and features' link in the 'Create new project' window.":::
    >
    > Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
    >
@@ -88,16 +89,16 @@ First, you create a Visual Basic app project. The default project template inclu
 
    :::image type="content" source="media/vs-2022/create-new-project-dark-theme.png" alt-text="Screenshot showing the Visual Studio start window with 'Create a new project' selected.":::
 
-1. In the **Create a new project** window, choose **Visual Basic** from the Language list. Next, choose **Windows** from the Platform list and **Console** from the Project types list.
+1. In the **Create a new project** window, choose **Visual Basic** from the language list. Next, choose **Windows** from the platform list and **Console** from the project types list.
 
    After you apply the language, platform, and project type filters, choose the **Console App** template, and then choose **Next**.
 
-   :::image type="content" source="media/vs-2022/vb-create-new-project-console-net-core.png" alt-text="Screenshot that shows how to choose the Visual Basic, Windows, and Console filter options and select the Console Application project template.":::
+   :::image type="content" source="media/vs-2022/vb-create-new-project-console-net-core.png" alt-text="Screenshot that shows how to choose the Visual Basic, Windows, and Console filter options and select the Console Application project template." lightbox="media/vs-2022/vb-create-new-project-console-net-core.png":::
 
    > [!NOTE]
    > If you do not see the **Console App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
    >
-   > :::image type="content" source="media/vs-2022/not-finding-what-looking-for.png" alt-text="Screenshot showing the 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window.":::
+   > :::image type="content" source="media/vs-2022/not-finding-what-looking-for.png" alt-text="Screenshot showing the 'Install more tools and features' link in the 'Create new project' window.":::
    >
    > Then, in the Visual Studio Installer, choose the **.NET desktop development** workload.
    >
@@ -127,25 +128,25 @@ There are two ways to run this code, inside Visual Studio in *debug mode*, and f
 
 ::: moniker range="vs-2019"
 
-   :::image type="content" source="media/vs-2019/vb-ide-default-code.png" alt-text="Screenshot showing the default 'Hello World!' code.":::
+   :::image type="content" source="media/vs-2019/vb-ide-default-code.png" alt-text="Screenshot showing the default 'Hello World' code." lightbox="media/vs-2019/vb-ide-default-code.png":::
 
 1. Select the **WhatIsYourName** button or press **F5** to run the default code in Debug mode.
 
-   :::image type="content" source="media/vs-2019/vb-ide-whatisyourname-button.png" alt-text="Screenshot showing the 'What Is Your Name' button highlighted in the Visual Studio toolbar.":::
+   :::image type="content" source="media/vs-2019/vb-ide-whatisyourname-button.png" alt-text="Screenshot showing the 'What Is Your Name' button highlighted in the Visual Studio toolbar." lightbox="media/vs-2019/vb-ide-whatisyourname-button.png":::
 
 1. When the app runs in the Microsoft Visual Studio Debug Console, "Hello World!" displays. Press any key to close the debug console window and end the app:
 
-    :::image type="content" source="media/vs-2019/vb-console-hello-world-press-any-key.png" alt-text="Screenshot showing 'Hello World!' and the 'Press any key to close this window' messages.":::
+    :::image type="content" source="media/vs-2019/vb-console-hello-world-press-any-key.png" alt-text="Screenshot showing 'Hello World!' and the 'Press any key to close this window' messages." lightbox="media/vs-2019/vb-console-hello-world-press-any-key.png":::
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/vs-2022/vb-ide-default-code.png" alt-text="Screenshot showing the default 'Hello World!' code.":::
+   :::image type="content" source="media/vs-2022/vb-ide-default-code.png" alt-text="Screenshot showing the default 'Hello World!' code." lightbox="media/vs-2022/vb-ide-default-code.png":::
 
 1. Select the **WhatIsYourName** button or press **F5** to run the default code in Debug mode.
 
-   :::image type="content" source="media/vs-2022/vb-ide-whatisyourname-button.png" alt-text="Screenshot showing the 'What Is Your Name' button highlighted in the Visual Studio toolbar.":::
+   :::image type="content" source="media/vs-2022/vb-ide-whatisyourname-button.png" alt-text="Screenshot showing the 'What Is Your Name' button highlighted in the Visual Studio toolbar." lightbox="media/vs-2022/vb-ide-whatisyourname-button.png":::
 
 1. When the app runs in the Microsoft Visual Studio Debug Console, "Hello World!" displays. Press any key to close the debug console window and end the app:
 
@@ -155,7 +156,7 @@ There are two ways to run this code, inside Visual Studio in *debug mode*, and f
 
 ### Run the app as a standalone
 
-To see the output outside of Visual Studio, in a system console window, build and run the executable (.exe file). 
+To see the output outside of Visual Studio, in a system console window, build and run the executable (`.exe` file).
 
 ::: moniker range="vs-2019"
 
@@ -163,7 +164,7 @@ To see the output outside of Visual Studio, in a system console window, build an
 
 1. In **Solution Explorer**, right-click on **WhatIsYourName** and choose **Open File in File Explorer**.
 
-1. In **File Explorer**, navigate to the **bin\Debug\net5.0** directory and run **WhatIsYourName.exe**.
+1. In **File Explorer**, navigate to the *bin\Debug\net5.0* directory and run *WhatIsYourName.exe*.
 
 1. The `Main` procedure terminates after its single statement executes and the console window closes immediately. To keep the console visible until the user presses a key, see the next section.
 
@@ -175,7 +176,7 @@ To see the output outside of Visual Studio, in a system console window, build an
 
 1. In **Solution Explorer**, right-click on **WhatIsYourName** and choose **Open File in File Explorer**.
 
-1. In **File Explorer**, navigate to the **bin\Debug\net8.0** directory and run **WhatIsYourName.exe**.
+1. In **File Explorer**, navigate to the *bin\Debug\net8.0* directory and run *WhatIsYourName.exe*.
 
 1. The `Main` procedure terminates after its single statement executes and the console window closes immediately. To keep the console visible until the user presses a key, see the next section.
 
@@ -203,7 +204,7 @@ Next, you add Visual Basic code that prompts you for your name and then displays
    - <xref:System.DateTime> represents a datetime, and <xref:System.DateTime.Now> returns the current time. 
    - <xref:System.Console.ReadKey> pauses the app and waits for a keypress.
 
-   :::image type="content" source="media/vs-2019/vb-code-window-whatisyourname-dark.png" alt-text="Screenshot showing the code for the 'Program.vb' file in the 'WhatIsYourName' project loaded in the Visual Basic code editor.":::
+   :::image type="content" source="media/vs-2019/vb-code-window-whatisyourname-dark.png" alt-text="Screenshot showing the code for the 'Program.vb' file in the 'WhatIsYourName' project loaded in the Visual Basic code editor." lightbox="media/vs-2019/vb-code-window-whatisyourname-dark.png":::
 
 1. Select the **WhatIsYourName** button or press **F5** to build and run your first app in Debug mode.
 
@@ -245,7 +246,7 @@ Next, you add Visual Basic code that prompts you for your name and then displays
 
 ::: moniker-end
 
-Now that your new code is in the app, build and run the executable (.exe file) in a system console window, as described previously in [Run the app as a standalone](#run-the-app-as-a-standalone). Now when you press a key, the app exits, which closes the console window.
+Now that your new code is in the app, build and run the executable (`.exe` file) in a system console window, as described previously in [Run the app as a standalone](#run-the-app-as-a-standalone). Now when you press a key, the app exits, which closes the console window.
 
 ## Extra credit: Add two numbers
 
@@ -264,7 +265,7 @@ Module Program
 End Module
 ```
 
-to:
+To:
 
 ```vb
 Module Program
@@ -296,19 +297,19 @@ If you're not going to continue to use this app, delete the project.
 
 1. Close Visual Studio.
 
-1. In the **File Explorer** dialog, go up two levels of folders.
+1. In the **File Explorer** dialog box, go up two levels of folders.
 
 1. Right-click on the **WhatIsYourName** folder and select **Delete**.
 
-## Next steps
+## Related content
+
+- [Visual Basic language walkthroughs](/dotnet/visual-basic/walkthroughs)
+- [Visual Basic language reference](/dotnet/visual-basic/language-reference/index)
+- [IntelliSense for Visual Basic code files](../../ide/visual-basic-specific-intellisense.md)
+
+## Next step
 
 Congratulations on completing this tutorial! To learn more, see the following tutorial.
 
 > [!div class="nextstepaction"]
-> [Build a library with Visual Basic and the .NET Core SDK in Visual Studio](/dotnet/core/tutorials/vb-library-with-visual-studio)
-
-## See also
-
-* [Visual Basic language walkthroughs](/dotnet/visual-basic/walkthroughs)
-* [Visual Basic language reference](/dotnet/visual-basic/language-reference/index)
-* [IntelliSense for Visual Basic code files](../../ide/visual-basic-specific-intellisense.md)
+> [Tutorial: Create a .NET class library using Visual Studio](/dotnet/core/tutorials/vb-library-with-visual-studio)
