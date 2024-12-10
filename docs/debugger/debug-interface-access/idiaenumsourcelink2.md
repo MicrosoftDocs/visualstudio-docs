@@ -42,7 +42,7 @@ Obtain this interface by calling the [`IDiaSessionEx::getSourceLinkInfo`](../../
 
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [`IDiaSessionEx::getSourceLinkInfo`](../../debugger/debug-interface-access/idiasessionex-getsourcelinkinfo.md)
-- [Source Link](https://github.com/dotnet/designs/blob/master/accepted/2020/diagnostics/source-link.md)
+- [Source Link](https://github.com/dotnet/designs/blob/main/accepted/2020/diagnostics/source-link.md)
 - [Using Source Link](https://github.com/dotnet/sourcelink#using-source-link-in-c-projects)
 - [/SOURCELINK (Include Source Link file in PDB)](/cpp/build/reference/sourcelink)
 - [`IDiaEnumSourceLink`](../../debugger/debug-interface-access/idiaenumsourcelink.md)

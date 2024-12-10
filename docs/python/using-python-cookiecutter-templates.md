@@ -130,7 +130,7 @@ Cookiecutter options are available through **Tools** > **Options** > **Cookiecut
 | Option | Description |
 | --- | --- |
 | **Check for updated templates** | Controls whether Cookiecutter automatically checks online for updates to the installed templates. |
-| **Recommended feed URL** | The location of the recommended templates feed file. The location can be a URL or a path to a local file. Leave the URL empty to use the default Microsoft curated feed. The feed provides a simple list of template locations, separated by newlines. To request changes to the curated feed, make a pull request against [the source on GitHub](https://github.com/Microsoft/PTVS/blob/master/Python/Product/Cookiecutter/CookiecutterFeed.txt). |
+| **Recommended feed URL** | The location of the recommended templates feed file. The location can be a URL or a path to a local file. Leave the URL empty to use the default Microsoft curated feed. The feed provides a simple list of template locations, separated by newlines. To request changes to the curated feed, make a pull request against [the source on GitHub](https://github.com/Microsoft/PTVS/blob/main/Python/Product/Cookiecutter/CookiecutterFeed.txt). |
 | **Show Help** | Controls the visibility of the help information bar at the top of the Cookiecutter window. |
 
 ## Optimize Cookiecutter templates for Visual Studio
