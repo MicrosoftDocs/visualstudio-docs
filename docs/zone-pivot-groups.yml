@@ -2,7 +2,7 @@
 groups:
 - id: programming-languages-set-one
   title: Programming languages
-  prompt: Choose a programming language
+  prompt: Choose a supported programming language
   pivots:
   - id: programming-language-dotnet
     title: .NET
@@ -17,7 +17,7 @@ groups:
 # Note: Set two is not used currently, but is present as an example set two.
 - id: programming-languages-set-two
   title: Programming languages
-  prompt: Choose a programming language
+  prompt: Choose a supported programming language
   pivots:
   - id: programming-language-csharp
     title: C#
