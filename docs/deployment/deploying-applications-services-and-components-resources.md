@@ -120,8 +120,8 @@ Azure WebJobs is supported through App Service. See [Develop and deploy WebJobs 
 
 ### When to choose Azure WebJobs
 
-- You have a worker process, a computation that can run without user interaction
-- The job is on-demand, triggered by an event, or continuous
+- You have a worker process, a computation that can run without user interaction.
+- The job is on-demand, triggered by an event, or continuous.
 - The job runs on Windows, or .NET Core on Linux (with Visual Studio 17.12 or later).
 
 In this case, you might also choose Azure Functions. To choose the right option for you, see [Choose the right integration and automation services in Azure](/azure/azure-functions/functions-compare-logic-apps-ms-flow-webjobs).
