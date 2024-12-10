@@ -33,19 +33,19 @@ You can override these options in some project types, like the [standalone React
 
 Once linting is enabled, the necessary dependencies need to be installed. Dependencies include the [ESLint `npm` package](https://www.npmjs.com/package/eslint) and other plugins applicable to your project. This package can be installed locally in each project where you want to enable linting, or you can install it globally using `npm install -g eslint`. However, a global installation isn't recommended because plugins and shareable configs always need to be installed locally.
 
-Starting in Visual Studio 2022 version 17.7 Preview 2, you can also use the **ESLint Path** setting in **Tools > Options > Text Editor > JavaScript/TypeScript > Linting** to specify a directory from which to load ESLint. This is useful when ESLint is installed globally, where you might set the corresponding path to *C:\Program Files\nodejs\node_modules*.
+Starting in Visual Studio 2022 version 17.7 Preview 2, you can also use the **ESLint Path** setting in **Tools > Options > Text Editor > JavaScript/TypeScript > Linting** to specify a directory from which to load ESLint. This setting is useful when ESLint is installed globally, where you might set the corresponding path to *C:\Program Files\nodejs\node_modules*.
 
 Depending on the files you want to lint, other [ESLint plugins](https://eslint.org/docs/latest/user-guide/configuring/plugins) may be needed. For example, you may need [TypeScript ESLint](https://typescript-eslint.io/), which enables ESLint to run on TypeScript code and includes rules that are specific to the extra type information.
 
-When ESLint is enabled but the ESLint `npm` package isn't found, a gold bar is displayed that allows you to install ESLint as a local `npm` development dependency.
+When ESLint is enabled but the ESLint `npm` package isn't found, a gold bar is displayed. This message allows you to install ESLint as a local `npm` development dependency.
 
 :::image type="content" source="media/vs-2022/no-package-goldbar.png" alt-text="Screenshot of Install ESLint gold bar.":::
 
-Similarly, when an *.eslintrc* file isn't found, a gold bar is displayed to run a configuration wizard that will install the plugins applicable to the current project.
+Similarly, when an *.eslintrc* file isn't found, a gold bar is displayed. This message allows you to run a configuration wizard that installs the plugins applicable to the current project.
 
 :::image type="content" source="media/vs-2022/no-config-goldbar.png" alt-text="Screenshot of Run ESLint wizard gold bar.":::
 
-## Disable linting rules and auto-fixes
+## Disable linting rules and autofixes
 
 You can disable linting errors on a [specific line or file](https://eslint.org/docs/latest/user-guide/configuring/rules#disabling-rules). You can disable the errors by using the Quick Actions lightbulb menu:
 
@@ -55,7 +55,7 @@ The following illustration shows the result if you disable a linting error for t
 
 :::image type="content" source="media/vs-2022/disabled-rule.png" alt-text="Screenshot of disabled linting rule.":::
 
-In addition, auto-fix code actions allow you to apply an auto-fix to address the respective linting error.
+In addition, autofix code actions allow you to apply an autofix to address the respective linting error.
 
 ## Troubleshooting
 
