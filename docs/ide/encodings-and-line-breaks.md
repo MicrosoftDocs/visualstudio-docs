@@ -32,7 +32,7 @@ Special characters are commonly used to format code, file data, and program outp
 | **LS** | Line separator | 2028 |
 | **PS** | Paragraph separator | 2029 |
 
-When you copy text from another file or application, Visual Studio maintains the original encoding and line break characters in the copied value. For example, text copied from a Notepad file and pasted into a Visual Studio file use the original settings applied in Notepad. If you open a file that has unrecognized line break characters, Visual Studio might prompt you for instructions to normalize the inconsistent characters. You cal also specify the type of line breaks to apply to the imported data.
+When you copy text from another file or application, Visual Studio maintains the original encoding and line break characters in the copied value. For example, text copied from a Notepad file and pasted into a Visual Studio file use the original settings applied in Notepad. If you open a file that has unrecognized line break characters, Visual Studio might prompt you for instructions to normalize the inconsistent characters. You might also need to specify the type of line breaks to apply to the imported data.
 
 ## Configure encoding for special characters
 
@@ -40,7 +40,7 @@ You can specify the type of line break characters to apply to your data with the
 
 :::image type="content" source="media/advanced-save-options-dialog.png" border="false" alt-text="Screenshot of the Advanced Save Options dialog in Visual Studio.":::
 
-The **Advanced Save Options** dialog is available when you select **File** > **Save \<file\> As**. In the **Save File As** dialog, expand the **Save** dropdown list and select **Save with Encoding**:
+The **Advanced Save Options** dialog is available when you select **File** > **Save \<filename\> As**. In the **Save File As** dialog, expand the **Save** dropdown list and select **Save with Encoding**:
 
 :::image type="content" source="media/save-with-encoding.png" border="false" alt-text="Screenshot that shows how to select the Save with Encoding option in Visual Studio.":::
 
@@ -58,4 +58,4 @@ For more information, see [Customize menus and toolbars](./how-to-customize-menu
 
 ## Related content
 
-- [Features of the code editor](./encodings-and-line-breaks.md)
+- [Features of the code editor](./writing-code-in-the-code-and-text-editor.md)
