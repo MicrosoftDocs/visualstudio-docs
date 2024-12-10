@@ -28,7 +28,8 @@ zone_pivot_groups: programming-languages-set-one
 This article shows how to use different types of breakpoints in Visual Studio to improve debugging efficiency. It covers various scenarios where breakpoints can be applied, such as pausing code execution, logging information, and tracking changes in variable states. The article explains how to set conditional breakpoints, tracepoints, data breakpoints, dependent breakpoints, and temporary breakpoints. It also includes detailed instructions on setting function breakpoints. This guide is essential for developers looking to leverage breakpoints for effective debugging in Visual Studio.
 
 If you're unfamiliar with using breakpoints in Visual Studio, see [Get started with breakpoints](get-started-with-breakpoints.md) before going through this article.
- 
+
+::: zone pivot="programming-language-dotnet,programming-language-dotnetf,programming-language-all"
 ## Scenarios
 
 The following table shows common debugging scenarios for breakpoints and the recommended breakpoint type for the scenario.
@@ -44,6 +45,7 @@ The following table shows common debugging scenarios for breakpoints and the rec
 | Can I pause code inside a loop at a certain iteration? | Set a Dependent breakpoint that breaks execution only if another breakpoint is first hit. For more information, see [Hit count](#set-a-hit-count-condition). |
 | Can I pause code at the start of a function when I know the function name but not its location? | You can do this with a function breakpoint. For more information, see [Set function breakpoints](#BKMK_Set_a_breakpoint_in_a_source_file). |
 | Can I pause code at the start of multiple functions with the same name? | When you have multiple functions with the same name (overloaded functions or functions in different projects), you can use a [function breakpoint](#BKMK_Set_a_breakpoint_in_a_source_file). |
+::: zone-end
 
 ## <a name="BKMK_Print_to_the_Output_window_with_tracepoints"></a> Breakpoint actions and tracepoints
 
