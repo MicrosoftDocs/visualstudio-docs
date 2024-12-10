@@ -37,11 +37,11 @@ Let's take a look at a (hypothetical) larger code base.
 
 ![Cyclomatic complexity example 5](media/cyclomatic-complexity-example-5.png)
 
-Notice that most of the items, as you drill down into the Products_Related class, have a value of one but a couple of them have a complexity of five. By itself, this might not be a big deal, but given that most other members have a 1 in the same class, you should definitely look closer at those two items and see what is in them. You can do this by right-clicking the item and choosing **Go To Source Code** from the context menu. Take a closer look at `Product.set(Product)`:
+Notice that most of the items, as you drill down into the Products_Related class, have a value of one but a couple of them have a complexity of five. By itself, this difference might not be a big deal, but given that most other members have a one in the same class, you should definitely look closer at those two items and see what is in them. You can do take a closer look by right-clicking the item and choosing **Go To Source Code** from the context menu. Take a closer look at `Product.set(Product)`:
 
 ![Cyclomatic complexity example 6](media/cyclomatic-complexity-example-6.png)
 
-Given all the if statements, you can see why the cyclomatic complexity is at a five. At this point, you might decide that this is an acceptable level of complexity, or you might refactor to reduce the complexity.
+Given all the if statements, you can see why the cyclomatic complexity is at a five. At this point, you might decide that this result is an acceptable level of complexity, or you might refactor to reduce the complexity.
 
 ## The Magic Number
 
