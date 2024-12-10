@@ -29,7 +29,7 @@ This article shows how to use different types of breakpoints in Visual Studio to
 
 If you're unfamiliar with using breakpoints in Visual Studio, see [Get started with breakpoints](get-started-with-breakpoints.md) before going through this article.
 
-::: zone pivot="programming-language-dotnet,programming-language-dotnetf,programming-language-all"
+::: zone pivot="programming-language-dotnet,programming-language-dotnetf,programming-language-cpp,programming-language-all"
 ## Scenarios
 
 The following table shows common debugging scenarios for breakpoints and the recommended breakpoint type for the scenario.
@@ -266,6 +266,7 @@ Data breakpoints don't work under the following conditions:
 > - If you set a data breakpoint on a local variable, the breakpoint remains enabled when the function ends, but the memory address is no longer applicable, so the behavior of the breakpoint is unpredictable. If you set a data breakpoint on a local variable, you should delete or disable the breakpoint before the function ends.
 ::: zone-end
 
+::: zone pivot="programming-language-dotnet,programming-language-cpp"
 ## Data breakpoint hardware limits
 
 The Windows kernel and the underlying hardware have the following limits when setting data breakpoints. The limit refers to the maximum number of data breakpoints that you can set.
@@ -275,7 +276,7 @@ The Windows kernel and the underlying hardware have the following limits when se
 |x64 and x86|4|
 |ARM64|2|
 |ARM|1|
-
+::: zone-end
 ::: moniker range=">= vs-2022"
 ## <a name="BKMK_set_a_dependent_breakpoint"></a>Set a dependent breakpoint
 
