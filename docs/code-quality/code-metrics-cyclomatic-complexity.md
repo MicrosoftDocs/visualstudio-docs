@@ -1,6 +1,6 @@
 ---
 title: Code metrics - Cyclomatic complexity
-ms.date: 5/7/2021
+ms.date: 12/10/2024
 description: Explore the cyclomatic complexity metric for code metrics in Visual Studio and estimate the difficulty to test, maintain, and troubleshoot your code.
 ms.topic: conceptual
 author: mikejo5000
