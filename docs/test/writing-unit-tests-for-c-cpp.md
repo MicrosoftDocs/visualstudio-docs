@@ -88,7 +88,7 @@ To enable access to the functions in the project under test, add a reference to 
 ::: moniker-end
 
 ::: moniker range="=vs-2019"
-:::image type="content" source="media/vs-2010/cpp-add-ref-test-project-2019.png" alt-text="Screenshot shows the Add Reference dialog box in Visual Studio 2019." lightbox=media/vs-2010/cpp-add-ref-test-project-2019.png":::
+:::image type="content" source="media/vs-2010/cpp-add-ref-test-project-2019.png" alt-text="Screenshot shows the Add Reference dialog box in Visual Studio 2019." lightbox="media/vs-2010/cpp-add-ref-test-project-2019.png":::
 ::: moniker-end
 
 ### Link to object or library files
@@ -104,7 +104,7 @@ In your unit test `.cpp` file, add an `#include` directive for any header files 
 ::: moniker-end
 
 ::: moniker range="=vs-2019"
-:::image type="content" source="media/vs-2019/cpp-add-includes-test-project-2019.png" alt-text="Screenshot shows Solution Explorer with an #include statement with IntelliSense highlighting a header file in Visual Studio 2019." lightbox="cpp-add-includes-test-project-2019.png:::
+:::image type="content" source="media/vs-2019/cpp-add-includes-test-project-2019.png" alt-text="Screenshot shows Solution Explorer with an #include statement with IntelliSense highlighting a header file in Visual Studio 2019." lightbox="cpp-add-includes-test-project-2019.png":::
 ::: moniker-end
 
 > [!TIP]
@@ -120,7 +120,7 @@ In your unit test `.cpp` file, add an `#include` directive for any header files 
 The `.cpp` file in your test project has a stub class and method defined for you. They show an example of how to write test code. The signatures use the TEST_CLASS and TEST_METHOD macros, which make the methods discoverable from the **Test Explorer** window.
 
 ::: moniker range=">=vs-2022"
-:::image type="content" source="media/cpp-write-test-methods-2022.png" alt-text="Screenshot shows a stub class and method using the TEST_CLASS and TEST_METHOD macros in Visual Studio 2022.":::
+:::image type="content" source="media/vs-2022/cpp-write-test-methods-2022.png" alt-text="Screenshot shows a stub class and method using the TEST_CLASS and TEST_METHOD macros in Visual Studio 2022.":::
 ::: moniker-end
 
 ::: moniker range="=vs-2019"
