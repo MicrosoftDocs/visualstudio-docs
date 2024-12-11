@@ -30,7 +30,7 @@ How to run a program or start an app depends on what you start from, the type of
 
 You can run a C# project (`.csproj` file) if it's a runnable program. If the project contains a C# file with a `Main` method, and its output is an executable or `.exe` file, it will probably run if it builds successfully. If your project output is an executable file, and doesn't have a `Main` method, program executions starts with top-level statements. See [Programs without Main methods](/dotnet/csharp/fundamentals/program-structure/top-level-statements). Some project types, such as class libraries, are not runnable. Class libraries are not runnable on their own, but they can be referenced by other projects.
 
-If you're not sure if the project you have is an executable file, select the project node in Solution Explorer, and open the project properties. Either right-click on the node to bring up the context menu, and choose **Properties**, or press **Alt**+**Enter**. If the project is a .NET Framework project, go to the **Application**, and look for the **Output type**. If it's **Console Application**, then it's a runnable program.
+If you're not sure if the project you have is an executable file, select the project node in Solution Explorer, and open the project properties. Either right-click on the node to bring up the context menu, and choose **Properties**, or press **Alt**+**Enter**. In the **Application** section, look for the **Output type**. If it's **Console Application**, then it's a runnable program.
 
 1. Open the project. To do so, you can double-click or tap on the `.csproj` file in Windows File Explorer, or choose **Open a project** in Visual Studio, browse to find the `.csproj` file, and select the file.
 
