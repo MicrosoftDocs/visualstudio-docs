@@ -88,7 +88,7 @@ To enable access to the functions in the project under test, add a reference to 
 ::: moniker-end
 
 ::: moniker range="=vs-2019"
-:::image type="content" source="media/vs-2019/cpp-add-ref-test-project-2019.png" alt-text="Screenshot shows the Add Reference dialog box in Visual Studio 2019." lightbox="media/vs-2010/cpp-add-ref-test-project-2019.png":::
+:::image type="content" source="media/vs-2019/cpp-add-ref-test-project-2019.png" alt-text="Screenshot shows the Add Reference dialog box in Visual Studio 2019." lightbox="media/vs-2019/cpp-add-ref-test-project-2019.png":::
 ::: moniker-end
 
 ### Link to object or library files
