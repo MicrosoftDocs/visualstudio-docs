@@ -93,7 +93,7 @@ You can choose the following options for debug symbols.
 
 - **PDB file, portable**
 
-   Produces a .PDB file, a non-platform-specific, portable symbol file that provides other tools, especially debuggers, information about what is in the main executable file and how it was produced. See [Portable PDB](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/portable_pdb.md) for more information.
+   Produces a .PDB file, a non-platform-specific, portable symbol file that provides other tools, especially debuggers, information about what is in the main executable file and how it was produced. See [Portable PDB](https://github.com/dotnet/designs/blob/main/accepted/2020/diagnostics/portable-pdb.md) for more information.
 
 - **Embedded in DLL/EXE, portable across platforms**
 

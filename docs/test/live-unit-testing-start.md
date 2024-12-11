@@ -16,7 +16,7 @@ When you enable Live Unit Testing in a Visual Studio solution, it visually depic
 
 Live Unit Testing can be used to test solutions that target either .NET Framework, .NET Core, or .NET 5+. In this tutorial, you'll learn to use Live Unit Testing by creating a simple class library that targets .NET, and you'll create an MSTest project that targets .NET to test it.
 
-The complete C# solution can be downloaded from the [MicrosoftDocs/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs/tree/master/docs/test/samples/csharp/UtilityLibraries/) repo on GitHub.
+The complete C# solution can be downloaded from the [MicrosoftDocs/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs/tree/main/docs/test/samples/csharp/UtilityLibraries/) repo on GitHub.
 
 ## Prerequisites
 

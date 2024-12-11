@@ -33,7 +33,7 @@ SettingsMigrator.exe E:\MyTest\MyTestSettings.testsettings
 SettingsMigrator.exe E:\MyTest\MyTestSettings.testsettings E:\MyTest\MyNewRunSettings.runsettings
 ```
 
-If you're interested in reading more on how the *.testsettings* options convert to *.runsettings* you can find more implementation details in the [open source test platform repository](https://github.com/microsoft/vstest-docs/blob/master/RFCs/0023-TestSettings-Deprecation.md#migration) on GitHub.
+If you're interested in reading more on how the *.testsettings* options convert to *.runsettings* you can find more implementation details in the [open source test platform repository](https://github.com/microsoft/vstest-docs/blob/main/RFCs/0023-TestSettings-Deprecation.md#migration) on GitHub.
 
 ## Related content
 

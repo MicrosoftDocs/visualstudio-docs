@@ -14,9 +14,9 @@ Light bulbs are icons in the Visual Studio editor that expand to display a set o
 
  In the Visual C# and Visual Basic editors, you can also use the .NET Compiler Platform ("Roslyn") to write and package your own code analyzers with actions that display light bulbs automatically. For more information, see:
 
-- [How To: Write a C# diagnostic and code fix](https://github.com/dotnet/roslyn/blob/master/docs/wiki/How-To-Write-a-C%23-Analyzer-and-Code-Fix.md)
+- [How To: Write a C# diagnostic and code fix](https://github.com/dotnet/roslyn/blob/main/docs/wiki/How-To-Write-a-C%23-Analyzer-and-Code-Fix.md)
 
-- [How To: Write a Visual Basic diagnostic and code fix](https://github.com/dotnet/roslyn/blob/master/docs/wiki/How-To-Write-a-Visual-Basic-Analyzer-and-Code-Fix.md)
+- [How To: Write a Visual Basic diagnostic and code fix](https://github.com/dotnet/roslyn/blob/main/docs/wiki/How-To-Write-a-Visual-Basic-Analyzer-and-Code-Fix.md)
 
   Other languages such as C++ also provide light bulbs for some quick actions, such as, a suggestion to create a stub implementation of that function.
 
