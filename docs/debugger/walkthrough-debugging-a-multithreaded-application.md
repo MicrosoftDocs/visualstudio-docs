@@ -30,17 +30,17 @@ ms.subservice: debug-diagnostics
 
 The **Threads** window in the Visual Studio debugger lets you examine and work with threads in the application you're debugging. The window provides features to group, sort, flag, freeze, thaw, and search for threads in your code, and display call stacks. 
 
-The **Threads** windows is available only while the Visual Studio debugger is running. During a debugging session, open the window by selecting **Debug** > **Windows** > **Threads**.
+The **Threads** window is available only while the Visual Studio debugger is running. During a debugging session, you can open the window by selecting **Debug** > **Windows** > **Threads**.
 
 This article describes how to work with the **Threads** window for your C#, Visual Basic, or C++ programs. If you're looking for step-by-step guidance on how to use the **Threads** window, see [Walkthrough: Debug by using the Threads window](./how-to-use-the-threads-window.md).
 
 ## Explore the Threads window table
 
-The **Threads** window presents a table where each row corresponds to a separate thread in your application. In the default view, the table shows all threads in your application. You can configure the filter settings to show only the threads that interest you. The table provides multiple columns to describe the threads in detail. You can adjust the column placement and hide unnecessary columns.
+The **Threads** window presents a table where each row corresponds to a separate thread in your application. In the default view, the table shows all threads in your application. You can configure the table settings to show only the threads that interest you. The table provides multiple columns to describe the threads in detail. You can adjust the column placement and hide unnecessary columns.
 
-The following table describes all available columns for the **Thread** window table and indicates whether the column is visible or hidden in the default view. The columns are listed according to their default table position from left to right.
+The following table describes all available columns for the **Threads** window table and indicates whether the column is visible or hidden in the default view. The columns are listed according to their default table position from left to right.
 
-| Column name | Default view | Description |
+| Column | Default | Description |
 | --- | --- | --- |
 | **Flag** | Visible, unlabeled | Red flags in this column indicate threads marked for special attention. Select the flag (icon color changes to red) to mark or unmark (icon changes to flag outline) a thread. The colored flag icon helps to distinguish a marked thread from other threads in the table. For more information, see [Flag and unflag threads](./how-to-flag-and-unflag-threads.md). |
 | **Current thread** | Visible, unlabeled | The yellow arrow icon in this column indicates the current thread in the application running in the debugger. An arrow outline icon in this column indicates the current debugger context for a noncurrent thread. |
@@ -144,7 +144,7 @@ By default, the full call stack isn't searched. Visual Studio searches for a mat
 
 You can include the full call stack by selecting **Include call stacks in search** (list item icon) in the **Threads** window toolbar. When the option is enabled, the list item icon has a border.
 
-## Display thread call stacks and switch between frames
+## Display call stacks and switch between frames
 
 In a multithreaded program, each thread has its own call stack. The **Threads** window provides a convenient way to view these stacks.
 
