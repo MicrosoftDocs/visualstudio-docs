@@ -19,7 +19,7 @@ ms.subservice: test-tools
 
 ## Dynamic test discovery
 
-**Test Explorer is not discovering my tests that are dynamically defined (for example, theories, custom adapters, custom traits, and #ifdef statements). How can I discover these tests?**
+**Test Explorer is not discovering my tests that are dynamically defined (for example, theories, custom adapters, custom traits, and #ifdef statements). How can I make sure it discovers these tests?**
 
 Build your project to run assembly-based discovery.
 
@@ -71,11 +71,11 @@ The hierarchy view sorts tests alphabetically, not by outcome. Previous group-by
 
 **In the hierarchy view, there are passed, failed, skipped, and not-run icons next to parent-node groupings. What do these icons mean?**
 
-The icons next to the **Project**, **Namespace**, and **Class** groupings show the state of the tests within that grouping. See the following table.
+The icons next to the **Project**, **Namespace**, and **Class** groupings show the state of the tests within each grouping. See the following table.
 
 ![Table of Test Explorer hierarchy icons.](media/testex-hierarchy-icons.png)
 
-## Search by file path
+## Searches by file path
 
 **Why is there is no longer a file path filter in the Test Explorer search box?**
 
@@ -85,7 +85,7 @@ The file path filter in the Test Explorer search box was removed in Visual Studi
 
 **Some test-related APIs are no longer present in Visual Studio 2019. What changed?**
 
-In Visual Studio 2019, some test window APIs that were previously marked public but were never officially documented were removed. They were marked as deprecated in Visual Studio 2017 to give extension maintainers an early warning. To our knowledge, very few extensions found these APIs and took a dependency on them. They include `IGroupByProvider`, `IGroupByProvider<T>`, `KeyComparer`, `ISearchFilter`, `ISearchFilterToken`, `ISearchToken`, and `SearchFilterTokenType`.
+In Visual Studio 2019, some test window APIs that were previously marked public but were never officially documented will be removed. They were marked as deprecated in Visual Studio 2017 to give extension maintainers an early warning. To our knowledge, very few extensions found these APIs and took a dependency on them. They include `IGroupByProvider`, `IGroupByProvider<T>`, `KeyComparer`, `ISearchFilter`, `ISearchFilterToken`, `ISearchToken`, and `SearchFilterTokenType`.
 
 If this change affects your extension, let us know by filing a bug on [Developer Community](https://aka.ms/feedback/suggest?space=8).
 
@@ -93,9 +93,9 @@ If this change affects your extension, let us know by filing a bug on [Developer
 
 **Why don't my tests run in Visual Studio 2017 version 15.8, even though they're discovered?**
 
-All test projects must include their .NET test adapter NuGet reference in their .csproj file. If they don't, the following test output appears on the project if discovery by a test adapter extension starts after a build, or if the user tries to run the selected tests:
+All test projects must include their .NET test adapter NuGet reference in their .csproj file. If they don't, the following test output appears on the project if discovery by a test adapter extension starts after a build, or if you try to run the selected tests:
 
-**Test project {} does not reference any .NET NuGet adapter. Test discovery or execution might not work for this project. It is recommended to reference NuGet test adapters in each .NET test project in the solution.**
+> **Test project {} does not reference any .NET NuGet adapter. Test discovery or execution might not work for this project. It is recommended to reference NuGet test adapters in each .NET test project in the solution.**
 
 Instead of using test adapter extensions, projects are required to use test adapter NuGet packages. This requirement greatly improves performance and causes fewer problems with continuous integration. Read more about the deprecation of .NET test adapter extensions in the [release notes](/visualstudio/releasenotes/vs2017-relnotes-v15.8#testadapterextension).
 
@@ -105,7 +105,7 @@ Instead of using test adapter extensions, projects are required to use test adap
 
 Recent UWP test projects specify a build property that allows better performance for identifying test apps. If you have a UWP test project that was initialized before Visual Studio version 15.7, you might see this error in **Output** > **Tests**:
 
-**System.AggregateException: One or more errors occurred. ---> System.InvalidOperationException: The following TestContainer was not found {} at Microsoft.VisualStudio.TestWindow.Controller.TestContainerProvider \<GetTestContainerAsync>d__61.MoveNext()**
+> **System.AggregateException: One or more errors occurred. ---> System.InvalidOperationException: The following TestContainer was not found {} at Microsoft.VisualStudio.TestWindow.Controller.TestContainerProvider \<GetTestContainerAsync>d__61.MoveNext()**
 
 To fix this error:
 

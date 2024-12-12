@@ -55,7 +55,7 @@ Choose one of these options for running tests:
 
 - To run all the tests in a default group, select the **Run** icon and then select the group on the menu.
 
-- To run individual tests, select one or more tests, right-click on the pane, and then select **Run Selected Tests** (or select Ctrl+R, T).
+- To run individual tests, select one or more tests, right-click somewhere on the pane, and then select **Run Selected Tests** (or select Ctrl+R, T).
 
   If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution on the settings menu of the toolbar. This action can reduce the time for running all the tests.
 
@@ -98,13 +98,13 @@ If the test fails, the details pane also displays:
 
 ### View the source code of a test method
 
-To display the source code for a test method in the Visual Studio editor, select the test, right-click on the pane, and then select **Open Test** (or select the F12 key).
+To display the source code for a test method in the Visual Studio editor, right-click the test, and then select **Open Test** (or select the F12 key).
 
 ## Group and filter the test list
 
 In Test Explorer, you can group your tests into predefined categories. Most unit test frameworks that run in Test Explorer let you define your own categories and category/value pairs to group your tests. You can also filter the list of tests by matching strings against test properties.
 
-### Group tests in the test list
+### Grouping tests in the test list
 
 ::: moniker range="vs-2019"
 Test Explorer lets you group your tests into a hierarchy. The default hierarchy grouping is **Project**, **Namespace**, and then **Class**. To change the way that tests are organized, select the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and then select a new grouping criterion.
@@ -166,7 +166,7 @@ You can create and save a list of tests that you want to run or view as a group.
 To create a playlist:
 
 1. Choose one or more tests in Test Explorer.
-1. Right-click on the pane, point to **Add to Playlist**, and then select **New Playlist**.
+1. Right-click somewhere on the pane, point to **Add to Playlist**, and then select **New Playlist**.
 
 ![Screenshot that shows selections for creating a playlist.](../test/media/vs-2019/test-explorer-playlist-16-2.png)
 
@@ -194,7 +194,7 @@ You can learn more about the rules by saving the playlist via the **Save** butto
 
 ![Screenshot that shows the contents of a playlist XML file.](../test/media/vs-2019/test-explorer-playlist-xml-file.png)
 
-If you want to make a playlist for traits, use the following format for the Microsoft Testing Framework (MSTest):
+If you want to make a playlist for traits, use the following format for the MSTest framework:
 
 ```xml
 <Playlist Version="2.0">
@@ -226,7 +226,7 @@ You can create and save a list of tests that you want to run or view as a group.
 To create a playlist:
 
 1. Choose one or more tests in Test Explorer.
-1. Right-click on the pane, point to **Add to Playlist**, and then select **New Playlist**.
+1. Right-click somewhere on the pane, point to **Add to Playlist**, and then select **New Playlist**.
 
 ![Screenshot that shows selections for creating a playlist.](../test/media/vs-2022/test-explorer-playlist-17-0.png)
 
@@ -254,7 +254,7 @@ You can learn more about the rules by saving the playlist via the **Save** butto
 
 ![Screenshot that shows the contents of a playlist XML file.](../test/media/vs-2022/test-explorer-playlist-xml-file.png)
 
-If you want to make a playlist for traits, use the following format for the Microsoft Testing Framework (MSTest):
+If you want to make a playlist for traits, use the following format for the MSTest framework:
 
 ```xml
 <Playlist Version="2.0">
@@ -283,11 +283,9 @@ Use the following format for the xUnit framework. Make sure there's a space betw
 ::: moniker range="vs-2019"
 ### Test Explorer columns
 
-[Groups](#test-explorer-groups) are also available as columns in Test Explorer, along with **Trait**, **Stack Trace**, **Error Message**, and **Fully Qualified Name**. Most columns are not visible by default. You can customize which columns appear and their order.
+[Groups](#test-explorer-groups) are also available as columns in Test Explorer, along with **Traits**, **Stack Trace**, **Error Message**, and **Fully Qualified Name**. Most columns are not visible by default. You can customize which columns appear.
 
 ![Screenshot of Visual Studio Test Explorer that shows a menu with Columns selected and a submenu with Duration, Traits, and Error Message selected.](../test/media/vs-2019/test-explorer-columns-16-2.png)
-
-### Filter, sort, and rearrange test columns
 
 Columns can be filtered, rearranged, and sorted:
 
@@ -305,11 +303,9 @@ Columns can be filtered, rearranged, and sorted:
 ::: moniker range=">=vs-2022"
 ### Test Explorer columns
 
-[Groups](#test-explorer-groups) are also available as columns in Test Explorer, along with **Trait**, **Stack Trace**, **Error Message**, and **Fully Qualified Name**. Most columns are not visible by default. You can customize which columns appear and their order.
+[Groups](#test-explorer-groups) are also available as columns in Test Explorer, along with **Traits**, **Stack Trace**, **Error Message**, and **Fully Qualified Name**. Most columns are not visible by default. You can customize which columns appear.
 
 ![Screenshot of Visual Studio Test Explorer that shows a menu with Columns selected and a submenu with Duration, Traits, and Error Message selected.](../test/media/vs-2022/test-explorer-columns-17-0.png)
-
-### Filter, sort, and rearrange test columns
 
 Columns can be filtered, rearranged, and sorted:
 
@@ -328,7 +324,7 @@ Columns can be filtered, rearranged, and sorted:
 
 You can also use Test Explorer search filters to limit the test methods in your projects that you view and run.
 
-When you type a string in the **Test Explorer** search box and select **Enter**, the test list is filtered to display only those tests whose fully qualified names contain the string.
+When you type a string in the **Test Explorer** search box and select the Enter key, the test list is filtered to display only tests whose fully qualified names contain the string.
 
 To filter by a different criterion:
 
@@ -347,7 +343,7 @@ To filter by a different criterion:
 ::: moniker-end
 
 > [!NOTE]
-> Searches are case insensitive and match the specified string to any part of the criterion value.
+> Searches are case-insensitive and match the specified string to any part of the criterion value.
 
 |Qualifier|Description|
 |-|-----------------|
@@ -383,10 +379,10 @@ For more information, see [Use code coverage to determine how much code is being
 
 You can run tests from Test Explorer by either:
 
-- Right-clicking in the code editor on a test and then selecting **Run test**
+- Right-clicking a test in the code editor and then selecting **Run test**
 - Using the default [Test Explorer shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorerGLOBAL) in Visual Studio
 
-Some of the shortcuts are context based. They run, [debug](../test/debug-unit-tests-with-test-explorer.md), or [profile](../test/debug-unit-tests-with-test-explorer.md#diagnose-performance-problems-with-a-test-method) tests based on where your cursor is in the code editor. If your cursor is inside a test method, then that test method runs. If your cursor is at the class level, then all the tests in that class run. The same behavior is true for the namespace level.
+Some of the shortcuts are context-based. They run, [debug](../test/debug-unit-tests-with-test-explorer.md), or [profile](../test/debug-unit-tests-with-test-explorer.md#diagnose-performance-problems-with-a-test-method) tests based on where your cursor is in the code editor. If your cursor is inside a test method, then that test method runs. If your cursor is at the class level, then all the tests in that class run. The same behavior is true for the namespace level.
 
 |Frequent commands| Keyboard shortcuts|
 |-|------------------------|
@@ -409,7 +405,7 @@ You can set up these sounds in the default Windows 11 **Sound** dialog. This fea
 
 1. Open the default Windows 11 **Sound** dialog.
 2. Go to the **Sounds** tab.
-3. Find the **Microsoft Visual Studio** category. Choose the **Test Run Succeeded** or **Test Run Failed** preset sounds, or browse to your own audio file.  
+3. Find the **Microsoft Visual Studio** category. Choose the **Test Run Succeeded** or **Test Run Failed** preset sound, or browse to your own audio file.  
 
 ![Screenshot of the Windows 11 Sound dialog.](../test/media/default-windows-11-sound-dialog.png)
 

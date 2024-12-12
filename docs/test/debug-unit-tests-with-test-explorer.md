@@ -18,7 +18,7 @@ You can use Test Explorer to start a debugging session for your tests. Stepping 
     > [!NOTE]
     > Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.
 
-2. In Test Explorer, select the test methods, right-click on the pane, and then select **Debug**.
+2. In Test Explorer, select the test methods, right-click somewhere on the pane, and then select **Debug**.
 
    ::: moniker range=">=vs-2022"
    ![Screenshot that shows test execution details.](../test/media/vs-2022/test-explorer-debug.png)
