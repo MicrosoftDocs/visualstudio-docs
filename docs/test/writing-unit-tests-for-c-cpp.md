@@ -148,13 +148,13 @@ You can add *traits* to test methods to specify test owners, priority, and other
 
 1. On the **Test** menu, choose **Test Explorer**. The following illustration shows a test project before you run tests.
 
-::: moniker range=">=vs-2022"
+   ::: moniker range=">=vs-2022"
    :::image type="content" source="media/vs-2022/cpp-test-explorer-2022.png" alt-text="Screenshot shows Test Explorer before running tests in Visual Studio 2022.":::
-::: moniker-end
+   ::: moniker-end
 
-::: moniker range="=vs-2019"
+   ::: moniker range="=vs-2019"
    :::image type="content" source="media/vs-2019/cpp-test-explorer-2019.png" alt-text="Screenshot shows Test Explorer before running tests in Visual Studio 2019.":::
-::: moniker-end
+   ::: moniker-end
 
    > [!NOTE]
    > CTest integration with **Test Explorer** is not yet available. Run CTest tests from the CMake main menu.
@@ -163,13 +163,13 @@ You can add *traits* to test methods to specify test owners, priority, and other
 
 1. In **Test Explorer**, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled. After all the tests run, the window shows the tests that passed and the ones that failed.
 
-::: moniker range=">=vs-2022"
+   ::: moniker range=">=vs-2022"
    :::image type="content" source="media/vs-2022/cpp-test-explorer-passed-2022.png" alt-text="Screenshot shows Test Explorer after tests are run in Visual Studio 2022.":::
-::: moniker-end
+   ::: moniker-end
 
-::: moniker range="=vs-2019"
+   ::: moniker range="=vs-2019"
    :::image type="content" source="media/vs-2019/cpp-test-explorer-passed-2019.png" alt-text="Screenshot shows Test Explorer after tests are run in Visual Studio 2019.":::
-::: moniker-end
+   ::: moniker-end
 
 For failed tests, the message displays details that help to diagnose the cause. Right-click on the failing test for a pop-up menu. Choose **Debug** to step through the function where the failure occurred.
 
