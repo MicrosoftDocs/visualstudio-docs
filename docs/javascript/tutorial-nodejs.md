@@ -87,7 +87,7 @@ The default project settings allow you to build and debug the project. You can c
 1. To configure debug settings, select **Debug** > **ExpressProject Debug Properties**.
 
 > [!NOTE]
-> The `launch.json` file stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, the `launch.json` must be located under the `.vscode` folder.
+> The _launch.json_ file stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, the _launch.json_ must be located in the _.vscode_ folder.
 
 ## Build your project
 
@@ -108,7 +108,7 @@ GET /stylesheets/style.css 200 18.967 ms - 111
 ```
 
 > [!NOTE]
-> Check the terminal output for messages. Watch for instructions to update your version of Node.js.
+> Check the terminal output for messages. Also check the **Output** pane in Visual Studio. Watch for instructions to update your version of Node.js.
 
 When the app launches successfully, a browser window opens showing the Express app:
 
@@ -118,7 +118,7 @@ When the app launches successfully, a browser window opens showing the Express a
 
 ## Debug your app
 
-Now you can explore a few ways you can debug your app.
+Now you're ready to explore ways to debug your app.
 
 If your app is still running, select **Shift + F5** to end the current session or use the **Stop** (red stop icon) action at the top of the window. You might notice that ending the session closes the browser that shows your app, but the terminal window running the Node process remains open. For now, go ahead and close any lingering windows. Later in this article, you review scenarios for when you might want to leave the Node process running.
 
@@ -128,8 +128,7 @@ The dropdown list to the left of the **Start** action shows available start opti
 
 - localhost (Edge)
 - localhost (Chrome)
-- Launch ExpressProject
-- Debug Dev Env
+- Launch ExpressProject     
 - Launch Node and Browser
 
 <!-- Reviewer: "Debug Dev Env" option isn't in the dropdown list. It seems "Launch ExpressProject" has replaced the option. Should I add monikers to list this option for VS 2019? -->
@@ -142,9 +141,9 @@ Follow these steps to debug the Node process for the app:
 
 1. In the code editor, set a breakpoint in the _index.js_ file:
 
-  1. Locate the code statement `res.render('index', { title: 'Express' });`.
+   1. Locate the code statement `res.render('index', { title: 'Express' });`.
   
-  1. Select in the left gutter on the line for the statement. Visual Studio adds a red circle in the gutter to indicate the set breakpoint.
+   1. Select in the left gutter on the line for the statement. Visual Studio adds a red circle in the gutter to indicate the set breakpoint.
 
    > [!TIP]
    > You can also place your cursor on a line of code and select **F9** to toggle the breakpoint for that line. 
@@ -165,8 +164,8 @@ Follow these steps to examine the _launch.json_ file for the project:
 
 1. In **Solution Explorer**, expand the _.vscode_ folder and open the _launch.json_ file.
 
-  > [!TIP]
-  > If you don't see the _.vscode_ folder in **Solution Explorer**, select the **Show All Files** action in the **Solution Explorer** toolbar. 
+   > [!TIP]
+   > If you don't see the _.vscode_ folder in **Solution Explorer**, select the **Show All Files** action in the **Solution Explorer** toolbar. 
 
 1. Take a look at the file in the code editor. If you have experience with Visual Studio Code, the _launch.json_ file probably looks familiar. The _launch.json_ file in this project is similar to the file used by Visual Studio Code to denote launch configurations used for debugging. Each entry specifies one or more targets to debug. 
 
@@ -200,11 +199,11 @@ Follow these steps to examine the _launch.json_ file for the project:
 
 1. Review the third entry in the _launch.json_ file. This entry specifies `node` as the debug type:
 
-   <!-- Reviewer: "Debug Dev Env" option isn't in the file. Should I add monikers to list this file version for VS 2019? -->
+   <!-- Reviewer: "Debug Dev Env" option isn't in the file. It seems "Launch ExpressProject" has replaced the option. Should I add monikers to list this file version for VS 2019? -->
 
-   ```
+   ```json
        {
-         "name": "Launch ExpressProject",                   <!-- Reviewer: Current article lists "Debug Dev Env" -->
+         "name": "Launch ExpressProject",
          "type": "node",
          "request": "launch",
          "cwd": "${workspaceFolder}/bin",
@@ -217,13 +216,13 @@ Follow these steps to examine the _launch.json_ file for the project:
 
 1. Examine the fourth entry in the _launch.json_ file, which defines a compound launch configuration:
 
-   <!-- Reviewer: "Debug Dev Env" option isn't in the file. Should I add monikers to list this file version for VS 2019? -->
+   <!-- Reviewer: "Debug Dev Env" option isn't in the file. It seems "Launch ExpressProject" has replaced the option. Should I add monikers to list this file version for VS 2019? -->
 
-   ```
+   ```json
        {
          "name": "Launch Node and Browser",
          "configurations": [
-           "Launch ExpressProject",                        <!-- Reviewer: Current article lists "Debug Dev Env" -->
+           "Launch ExpressProject",                   
            "localhost (Edge)"
          ]
        }
@@ -233,7 +232,7 @@ Follow these steps to examine the _launch.json_ file for the project:
 
    There are many other attributes you can use in a launch configuration. For example, you can hide a configuration to remove it from the **Start** dropdown list, but allow references to the configuration by setting the `hidden` attribute in the `presentation` object to `true`:
 
-   ```
+   ```json
        {
          "name": "localhost (Chrome)",
          "type": "chrome",
