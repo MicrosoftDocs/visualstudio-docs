@@ -1,6 +1,6 @@
 ---
 title: Code metrics - Cyclomatic complexity
-ms.date: 5/7/2021
+ms.date: 12/10/2024
 description: Explore the cyclomatic complexity metric for code metrics in Visual Studio and estimate the difficulty to test, maintain, and troubleshoot your code.
 ms.topic: conceptual
 author: mikejo5000
@@ -25,11 +25,11 @@ Notice the cyclomatic complexity is at 2 (the lowest value possible). If you add
 
 ![Cyclomatic complexity example 2](media/cyclomatic-complexity-example-2.png)
 
-If you add a decision, the cyclomatic complexity value goes up by 1:
+If you add a decision, the cyclomatic complexity value goes up by one:
 
 ![Cyclomatic complexity example 3](media/cyclomatic-complexity-example-3.png)
 
-When you change the if statement to a switch statement with 4 decisions to be made then, it goes from the original 2 to 6:
+When you change the if statement to a switch statement with four decisions to be made then, it goes from the original two to six:
 
 ![Cyclomatic complexity example 4](media/cyclomatic-complexity-example-4.png)
 
@@ -37,21 +37,21 @@ Let's take a look at a (hypothetical) larger code base.
 
 ![Cyclomatic complexity example 5](media/cyclomatic-complexity-example-5.png)
 
-Notice that most of the items, as you drill down into the Products_Related class, have a value of 1 but a couple of them have a complexity of 5. By itself, this might not be a big deal, but given that most other members have a 1 in the same class, you should definitely look closer at those two items and see what is in them. You can do this by right-clicking the item and choosing **Go To Source Code** from the context menu. Take a closer look at `Product.set(Product)`:
+Notice that most of the items, as you drill down into the Products_Related class, have a value of one but a couple of them have a complexity of five. By itself, this difference might not be a big deal, but given that most other members have a one in the same class, you should definitely look closer at those two items and see what is in them. You can do take a closer look by right-clicking the item and choosing **Go To Source Code** from the context menu. Take a closer look at `Product.set(Product)`:
 
 ![Cyclomatic complexity example 6](media/cyclomatic-complexity-example-6.png)
 
-Given all the if statements, you can see why the cyclomatic complexity is at a 5. At this point, you might decide that this is an acceptable level of complexity, or you might refactor to reduce the complexity.
+Given all the if statements, you can see why the cyclomatic complexity is at a five. At this point, you might decide that this result is an acceptable level of complexity, or you might refactor to reduce the complexity.
 
 ## The Magic Number
 
-As with many metrics in this industry, there is no exact cyclomatic complexity limit that fits all organizations. However, [NIST235](#nist235) does indicate that a limit of 10 is a good starting point:
+As with many metrics in this industry, there's no exact cyclomatic complexity limit that fits all organizations. However, [NIST235](#nist235) does indicate that a limit of 10 is a good starting point:
 
-"The precise number to use as a limit, however, remains somewhat controversial. The original limit of 10 as proposed by McCabe has significant supporting evidence, but limits as high as 15 have been used successfully as well. Limits over 10 should be reserved for projects that have several operational advantages over typical projects, for example experienced staff, formal design, a modern programming language, structured programming, code walkthroughs, and a comprehensive test plan. In other words, an organization can pick a complexity limit greater than 10, but only if it is sure it knows what it is doing and is willing to devote the additional testing effort required by more complex modules." [NIST235](#nist235)
+"The precise number to use as a limit, however, remains somewhat controversial. The original limit of 10 as proposed by McCabe has significant supporting evidence, but limits as high as 15 have been used successfully as well. Limits over 10 should be reserved for projects that have several operational advantages over typical projects, for example experienced staff, formal design, a modern programming language, structured programming, code walkthroughs, and a comprehensive test plan. In other words, an organization can pick a complexity limit greater than 10, but only if it's sure it knows what it's doing and is willing to devote the additional testing effort required by more complex modules." [NIST235](#nist235)
 
 ## Cyclomatic Complexity and Line Numbers
 
-Just looking at the number of lines of code by itself is, at best, a very broad predictor of code quality. There is some basic truth to the idea that the more lines of code in a function, the more likely it is to have errors. However, when you combine cyclomatic complexity with lines of code, then you have a much clearer picture of the potential for errors.
+Just looking at the number of lines of code by itself is, at best, a very broad predictor of code quality. There's some basic truth to the idea that the more lines of code in a function, the more likely it's to have errors. However, when you combine cyclomatic complexity with lines of code, then you have a much clearer picture of the potential for errors.
 
 As described by the Software Assurance Technology Center (SATC) at NASA:
 
