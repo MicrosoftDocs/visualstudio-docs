@@ -386,7 +386,7 @@ You can run tests from Test Explorer by either:
 - Right-clicking in the code editor on a test and then selecting **Run test**
 - Using the default [Test Explorer shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorerGLOBAL) in Visual Studio
 
-Some of the shortcuts are context based. They run, [debug](../test/debug-unit-tests-with-test-explorer.md), or [profile](../test/debug-unit-tests-with-test-explorer.md#diagnose-test-method-performance-issues) tests based on where your cursor is in the code editor. If your cursor is inside a test method, then that test method runs. If your cursor is at the class level, then all the tests in that class run. The same behavior is true for the namespace level.
+Some of the shortcuts are context based. They run, [debug](../test/debug-unit-tests-with-test-explorer.md), or [profile](../test/debug-unit-tests-with-test-explorer.md#diagnose-performance-problems-with-a-test-method) tests based on where your cursor is in the code editor. If your cursor is inside a test method, then that test method runs. If your cursor is at the class level, then all the tests in that class run. The same behavior is true for the namespace level.
 
 |Frequent commands| Keyboard shortcuts|
 |-|------------------------|
