@@ -43,7 +43,7 @@ Build your development skill set with training and content from providers like:
 
 Access to training partners with exclusive subscriber discounts
 
-+ [Dometrain with Nick Chapsas](https://dometraincom/courses/)
++ [Dometrain with Nick Chapsas](https://dometrain.com/courses/)
 + [Time Corey's DevForge](https://www.iamtimcorey.com/devpass-business)
 + [Visual Studio Live! Conferences](https://vslive.com/Home.aspx)
 
