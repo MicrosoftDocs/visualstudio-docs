@@ -16,7 +16,7 @@ ms.subservice: general-ide
 
 In Visual Studio, you can specify the version of .NET that you want your project to target. Framework targeting helps guarantee that the application uses only functionality that is available in the specified framework version. For .NET Framework apps to run on another computer, the framework version that the application targets must be compatible with the framework version that's installed on the computer.
 
-A Visual Studio solution can contain projects that target different versions of .NET.  However, note that you can only build against a single version of .NET either using reference conditionals for a single build or recursively build different binaries for each version.  For more information about target frameworks, see [Target frameworks](/dotnet/standard/frameworks).
+A Visual Studio solution can contain projects that target different versions of .NET.  However, note that you can only build against a single version of .NET either using reference conditionals for a single build or build different binaries for each target framework.  For more information about target frameworks, see [Target frameworks](/dotnet/standard/frameworks).
 
 > [!TIP]
 > You can also target applications for different platforms. For more information, see [Multitargeting](../msbuild/msbuild-multitargeting-overview.md).
@@ -100,6 +100,14 @@ In an existing Visual Basic, C#, or F# project, you change the target .NET versi
 1. If a verification dialog box appears, choose the **Yes** button.
 
    The project unloads. When it reloads, it targets the .NET version that you just chose.
+
+With .NET 5 and later, you can set up a build that builds multiple frameworks in a single build by manually editing the project file. Open the project file and replace the `TargetFramework` property with `TargetFrameworks`, as in the following code:
+
+```
+   <TargetFrameworks>net7.0;net8.0</TargetFrameworks>
+```
+
+You must reload the project after making this change. After that, if you open the **Properties** window, you can edit the list of target frameworks.
 
 ::: moniker-end
 
