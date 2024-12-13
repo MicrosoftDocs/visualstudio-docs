@@ -101,7 +101,7 @@ In an existing Visual Basic, C#, or F# project, you change the target .NET versi
 
    The project unloads. When it reloads, it targets the .NET version that you just chose.
 
-With .NET 5 and later, you can set up a build that builds multiple frameworks in a single build by manually editing the project file. Open the project file and replace the `TargetFramework` property with `TargetFrameworks`, and specify your list of target versions using the monikers, as in the following code:
+With .NET 5 and later, you can build a project for multiple frameworks in a single build by manually editing the project file. Open the project file and replace the `TargetFramework` property with `TargetFrameworks`, and specify your list of target versions using the monikers, as in the following code:
 
 ```xml
    <TargetFrameworks>net7.0;net8.0</TargetFrameworks>
@@ -109,7 +109,7 @@ With .NET 5 and later, you can set up a build that builds multiple frameworks in
 
 See the list of available Target Framework Monikers (TFMs) at [Target frameworks in SDK-style projects](/dotnet/standard/frameworks).
 
-You must reload the project after making this change. After that, if you open the **Properties** window, you can edit the list of target frameworks.
+You must reload the project after making this change. After that, if you open the **Properties** window, in the **Application** tab, you can edit the list of target frameworks.
 
 :::image type="content" source="media/vs-2022/visual-studio-multi-targeting-overview/project-properties-target-frameworks.png" alt-text="Screenshot of the General tab in the Project Properties dialog box, with the 'Target frameworks' list showing.":::
 
