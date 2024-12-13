@@ -107,7 +107,7 @@ With .NET 5 and later, you can set up a build that builds multiple frameworks in
    <TargetFrameworks>net7.0;net8.0</TargetFrameworks>
 ```
 
-See the list of available Target Framework Monikers (TFMs) at [Target frameworks in SDK-style projects](/dotnet/standard/target-frameworks).
+See the list of available Target Framework Monikers (TFMs) at [Target frameworks in SDK-style projects](/dotnet/standard/frameworks).
 
 You must reload the project after making this change. After that, if you open the **Properties** window, you can edit the list of target frameworks.
 
