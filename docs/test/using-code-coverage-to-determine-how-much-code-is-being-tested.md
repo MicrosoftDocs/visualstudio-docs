@@ -78,7 +78,7 @@ Don't forget to run code coverage again after updating your code. Coverage resul
 
 ::: moniker range=">=vs-2022"
 > [!TIP]
-> Starting in Visual Studio 2022 Update 2, you can try latest code coverage features by selecting **Tools > Options > Environment > Preview Features**, then selecting **Code coverage experience improvements**, and then restarting Visual Studio.
+> Starting in Visual Studio 2022 Update 2, you can enable latest code coverage features by selecting **Tools > Options > Environment > Preview Features**, then selecting **Code coverage experience improvements**, and then restarting Visual Studio.
 ::: moniker-end
 
 ## Report in blocks or lines
