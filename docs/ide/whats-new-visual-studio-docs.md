@@ -79,7 +79,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Display URLs as Links in the Editor](../ide/reference/how-to-display-urls-as-links-in-the-editor.md) - Fix UIref
 - [What is Class Designer?](../ide/class-designer/designing-and-viewing-classes-and-types.md) - Update/fix class designer instructions
 - [Quick Actions](../ide/quick-actions.md)
   - Add Copilot content for Quick Actions light bulb
