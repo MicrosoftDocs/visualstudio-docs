@@ -1,5 +1,5 @@
 ---
-title: Create a Node.js and Express app
+title: "Tutorial: Create a Node.js and Express app"
 description: Follow this tutorial and learn how to create a basic Node.js application by using the Express web application framework in Visual Studio.
 ms.date: 12/12/2024
 ms.custom: vs-acquisition
@@ -33,7 +33,7 @@ In this tutorial, you:
 
 ## Prerequisites
 
-- Visual Studio 2022 **version 17.4** or later with the **ASP.NET and web development** workload installed.
+- Visual Studio 2022 **version 17.12** or later with the **ASP.NET and web development** workload installed.
 
    - To install Visual Studio for free, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page.
 
@@ -63,7 +63,7 @@ Follow these steps to create a new Node.js app in Visual Studio:
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot that shows how to select the Create a new project option in the Visual Studio Start window.":::
    
-1. In the **Search** box, enter _Express_, and select **JavaScript Express Application** in the list of results:
+1. In the **Search** box, enter _Express_, and select the **JavaScript Express Application** template in the list of results:
 
    :::image type="content" source="media/vs-2022/express-choose-template.png" alt-text="Screenshot that shows how to search for and select the JavaScript Express Application template in the Visual Studio Start window.":::
 
@@ -73,10 +73,9 @@ Follow these steps to create a new Node.js app in Visual Studio:
 
 1. Select **Create** to create the new Node.js project.
 
-## View your project properties
+Visual Studio creates your new project and opens your project hierarchy in **Solution Explorer**.
 
-<!-- Reviewer: In VS 2022, there are no default Debug properties for the Express project.
-     The Debug > ExpressProject Debug Properties option shows an empty box above the Properties pane. -->
+## View your project properties
 
 The default project settings allow you to build and debug the project. You can change the settings as needed.
 
@@ -87,7 +86,7 @@ The default project settings allow you to build and debug the project. You can c
 1. To configure debug settings, select **Debug** > **ExpressProject Debug Properties**.
 
 > [!NOTE]
-> The _launch.json_ file stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, the _launch.json_ must be located in the _.vscode_ folder.
+> The _launch.json_ file stores the startup settings associated with the **Start** action in the Debug toolbar. Currently, the _launch.json_ must be located in the _.vscode_ folder.
 
 ## Build your project
 
@@ -95,7 +94,7 @@ Build your project by selecting **Build** > **Build Solution**.
 
 ## Start your app
 
-Start your new app by selecting **F5** or use the **Start** (green play arrow icon) action at the top of the window.
+Start your new app by selecting **Ctrl** + ***F5** or **Start Without Debugging** (green arrow outline icon) in the toolbar.
 
 A terminal opens and shows the executing command:
 
@@ -114,13 +113,11 @@ When the app launches successfully, a browser window opens showing the Express a
 
 :::image type="content" source="media/vs-2022/express-app-running-browser.png" alt-text="Screenshot that shows the running Express app in the browser.":::
 
-<!-- Reviewer: App doesn't launch. App stalls loading localhost:3000. -->
-
 ## Debug your app
 
 Now you're ready to explore ways to debug your app.
 
-If your app is still running, select **Shift + F5** to end the current session or use the **Stop** (red stop icon) action at the top of the window. You might notice that ending the session closes the browser that shows your app, but the terminal window running the Node process remains open. For now, go ahead and close any lingering windows. Later in this article, you review scenarios for when you might want to leave the Node process running.
+If your app is still running, select **Shift + F5** to end the current session or **Stop** :::image type="icon" source="./media/debugger-stop.png"::: (red square icon) in the Debug toolbar. You might notice that ending the session closes the browser that shows your app, but the terminal window running the Node process remains open. For now, go ahead and close any lingering windows. Later in this article, you review scenarios for when you might want to leave the Node process running.
 
 ### Debug the Node process 
 
@@ -130,8 +127,6 @@ The dropdown list to the left of the **Start** action shows available start opti
 - localhost (Chrome)
 - Launch ExpressProject     
 - Launch Node and Browser
-
-<!-- Reviewer: "Debug Dev Env" option isn't in the dropdown list. It seems "Launch ExpressProject" has replaced the option. Should I add monikers to list this option for VS 2019? -->
 
 Follow these steps to debug the Node process for the app:
 
@@ -148,7 +143,7 @@ Follow these steps to debug the Node process for the app:
    > [!TIP]
    > You can also place your cursor on a line of code and select **F9** to toggle the breakpoint for that line. 
 
-1. Start your app in the debugger by selecting **F5** or **Debug** > **Start Debugging**.
+1. Start your app in the debugger by selecting **F5** or **Start Debugging** :::image type="icon" source="./media/debugger-start.png"::: (green arrow icon) in the Debug toolbar.
 
    Visual Studio starts execution of your app. When the debugger reaches your set breakpoint, the debugging process pauses.
 
@@ -156,7 +151,7 @@ Follow these steps to debug the Node process for the app:
 
 1. When you're ready to continue, select **F5**. Processing continues and your app opens in the browser. 
 
-This time, if you select the **Stop** action, notice that both the browser and terminal windows close. To understand why the behavior is different, take a closer look at the _launch.json_ file.
+This time, if you select **Stop**, notice that both the browser and terminal windows close. To understand why the behavior is different, take a closer look at the _launch.json_ file.
 
 ### Examine the launch.json file
 
@@ -199,8 +194,6 @@ Follow these steps to examine the _launch.json_ file for the project:
 
 1. Review the third entry in the _launch.json_ file. This entry specifies `node` as the debug type:
 
-   <!-- Reviewer: "Debug Dev Env" option isn't in the file. It seems "Launch ExpressProject" has replaced the option. Should I add monikers to list this file version for VS 2019? -->
-
    ```json
        {
          "name": "Launch ExpressProject",
@@ -215,8 +208,6 @@ Follow these steps to examine the _launch.json_ file for the project:
    The third entry launches only the Node process in debug mode. Visual Studio doesn't launch the browser.
 
 1. Examine the fourth entry in the _launch.json_ file, which defines a compound launch configuration:
-
-   <!-- Reviewer: "Debug Dev Env" option isn't in the file. It seems "Launch ExpressProject" has replaced the option. Should I add monikers to list this file version for VS 2019? -->
 
    ```json
        {
@@ -245,9 +236,7 @@ Follow these steps to examine the _launch.json_ file for the project:
        }
    ```
 
-1. Select **Options** for a list of attributes you can use to enhance your debugging experience. Currently, only **launch** configurations are supported. Any attempt to use an **attach** configuration results in a deployment failure. For more information, see [Options](https://github.com/microsoft/vscode-js-debug/blob/main/OPTIONS.md).
-
-<!-- Reviewer: Where does the user select "Options"? Is this step a reference to Tools > Options > Debug ? -->
+1. Configure options by using supported attributes to enhance your debugging experience. Currently, only **launch** configurations are supported. Any attempt to use an **attach** configuration results in a deployment failure. For more information, see [Options](https://github.com/microsoft/vscode-js-debug/blob/main/OPTIONS.md).
 
 ## Related links
 
