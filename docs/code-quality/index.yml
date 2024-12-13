@@ -10,7 +10,7 @@ metadata:
   ms.topic: landing-page
   author: Mikejo5000
   ms.author: mikejo
-  ms.date: 10/15/2019
+  ms.date: 12/10/2024
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -53,9 +53,9 @@ landingContent:
             url: /dotnet/fundamentals/productivity/code-analysis#code-style-analysis
       - linkListType: reference
         links:
-          - text: .NET code quality rules
+          - text: .NET code quality rules >>
             url: /dotnet/fundamentals/code-analysis/quality-rules/
-          - text: .NET code style rules
+          - text: .NET code style rules >>
             url: /dotnet/fundamentals/code-analysis/style-rules/
 
   # Card

@@ -1,7 +1,7 @@
 ---
 title: Run unit tests with Test Explorer
 description: Run tests with Test Explorer in Visual Studio, enable automatic tests after build, view results, group and filter the test list, create playlists, and use shortcuts.
-ms.date: 11/18/2024
+ms.date: 12/3/2024
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -56,6 +56,9 @@ You can run all the tests in the solution, all the tests in a group, or a set of
 - Select the individual tests that you want to run, open the right-click menu for a selected test and then choose **Run Selected Tests** (or press **Ctrl** + **R**, **T**).
 
 - If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution in the settings menu of the toolbar. This can noticeably reduce the time taken to run all the tests.
+
+>![NOTE]
+> To configure the target platform (process architecture) for running unit tests, see [Configure process architecture for a unit test](../test/run-a-unit-test-as-a-64-bit-process.md).
 
 ### Run tests after every build
 
@@ -339,7 +342,7 @@ For example, `FullName:"MyClass" - FullName:"PerfTest"` returns all tests that i
 
 ### Analyze unit test code coverage
 
-You can determine the amount of product code that is actually being tested by your unit tests by using the Visual Studio code coverage tool that's available in Visual Studio Enterprise edition. You can run code coverage on selected tests or on all tests in a solution.
+You can determine the amount of product code that is actually being tested by your unit tests by using the Visual Studio Code coverage tool that's available in Visual Studio Enterprise edition. You can run code coverage on selected tests or on all tests in a solution.
 
 To run code coverage for test methods in a solution:
 

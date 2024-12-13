@@ -1,7 +1,7 @@
 ---
 title: "Debugging code for absolute beginners"
 description: "If you're debugging for the first time, learn a few principles to help you run your app in debugging mode with Visual Studio."
-ms.date: 10/19/2023
+ms.date: 12/5/2024
 ms.topic: tutorial
 helpviewer_keywords:
   - "debugger"
@@ -309,7 +309,7 @@ Maffei 1, 11,  ConsoleApp_FirstApp.GType
 
 1. With the app still running, insert a breakpoint.
 
-    Right-click next to the `Console.WriteLine` method to get the context menu and select **Breakpoint** > **Insert Breakpoint** from the fly-out menu.
+    In the `foreach` loop, right-click next to the `Console.WriteLine` method to get the context menu and select **Breakpoint** > **Insert Breakpoint** from the fly-out menu.
 
     #### [C#](#tab/csharp)
 
@@ -339,26 +339,36 @@ Maffei 1, 11,  ConsoleApp_FirstApp.GType
 
 1. Hover over the `GalaxyType` variable on the right, and then, to the left of the wrench icon, expand `theGalaxy.GalaxyType`. You see that `GalaxyType` contains a property `MyGType`, and the property value is set to `Spiral`.
 
-    :::image type="content" source="../debugger/media/beginners-inspect-variable.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code in yellow and a menu open below the Galaxy GalaxyType property.":::
+    :::image type="content" source="../debugger/media/beginners-inspect-variable.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code in yellow and a menu open below the Galaxy GalaxyType property." lightbox="../debugger/media/beginners-inspect-variable.png":::
 
     "Spiral" is actually the correct value you were expecting to print to the console! So it's a good start that you can access the value in this code while running the app. In this scenario, we're using the incorrect API. Let's see if you can fix this while running code in the debugger.
 
-1. In the same code, while still debugging, put your cursor at the end of `theGalaxy.GalaxyType` and change it to `theGalaxy.GalaxyType.MyGType`. Although you can make the change, the code editor shows you an error indicating it can't compile this code. (In Visual Basic, the error isn't shown and this section of code works.)
+1. In the same code, while still debugging, put your cursor at the end of `theGalaxy.GalaxyType` and change it to `theGalaxy.GalaxyType.MyGType`. Although you can make the edit, the code editor shows you an error (red squiggly line). (In Visual Basic, the error isn't shown and this section of code works.)
 
 1. Press **F11** (**Debug** > **Step Into** or the **Step Into** button in the Debug Toolbar) to execute the current line of code.
 
     **F11** advances the debugger (and executes code) one statement at a time. **F10** (**Step Over**) is a similar command, and both are useful when learning how to use the debugger.
 
+   ::: moniker range=">= vs-2022"
+
+   When you try to advance the debugger, the Hot Reload dialog box appears, indicating that edits can't be compiled.
+
+   :::image type="content" source="../debugger/media/vs-2022/beginners-edit.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and a message box with the Edit option selected.":::
+   ::: moniker-end
+
+   ::: moniker range="<= vs-2019"
+
    The Edit and Continue dialog box appears, indicating that edits can't be compiled.
 
-    :::image type="content" source="../debugger/media/beginners-edit.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and a message box with the Edit option selected.":::
+   :::image type="content" source="../debugger/media/beginners-edit.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and a message box with the Edit option selected.":::
+   ::: moniker-end
 
    > [!NOTE]
    > For debugging the Visual Basic example code, skip the next few steps until you're instructed to click the **Restart** :::image type="content" source="../debugger/media/dbg-tour-restart.png" alt-text="Icon showing Restart app button in Debug toolbar."::: button.
 
-1. Select **Edit** in the **Edit and Continue** message box. You see an error message now in the **Error List** window. The error indicates that the `'object'` doesn't contain a definition for `MyGType`.
+1. Select **Edit** in the **Hot Reload** or **Edit and Continue** message box. You see an error message now in the **Error List** window. The error indicates that the `'object'` doesn't contain a definition for `MyGType`.
 
-    :::image type="content" source="../debugger/media/beginners-no-definition.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and an Error List window with two errors listed.":::
+    :::image type="content" source="../debugger/media/beginners-no-definition.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and an Error List window with two errors listed." lightbox="../debugger/media/beginners-no-definition.png":::
 
     Even though we set each galaxy with an object of type `GType` (which has the `MyGType` property), the debugger doesn't recognize the `theGalaxy` object as an object of type `GType`. What's going on? You want to look through any code that sets the galaxy type. When you do this, you see that the `GType` class definitely has a property of `MyGType`, but something isn't right. The error message about `object` turns out to be the clue; to the language interpreter, the type appears to be an object of type `object` instead of an object of type `GType`.
 
