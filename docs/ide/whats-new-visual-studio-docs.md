@@ -41,9 +41,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [FAQ - Debugger feature finder](../debugger/find-your-debugging-task.yml) - Refactor breakpoints article and incorporate review feedback
 - [View and change variable values with data tips in the code editor](../debugger/view-data-values-in-data-tips-in-the-code-editor.md) - Refactor breakpoints article and incorporate review feedback
 - [Attach to a process running on a Docker container](../debugger/attach-to-process-running-in-docker-container.md) - Updates for Attach to Process for Docker with WSL scenarios
-- [Use the Memory windows in the Visual Studio debugger (C#, C++, Visual Basic, F#)](../debugger/memory-windows.md)
-  - Update article on Memory windows
-  - Repo sync for protected branch
+- [Use the Memory windows in the Visual Studio debugger (C#, C++, Visual Basic, F#)](../debugger/memory-windows.md) - Update article on Memory windows
 - [IDiaSymbol::get_value](../debugger/debug-interface-access/idiasymbol-get-value.md) - Update example usage for IDiaSymbol::get_value
 - [Remote Debug ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) - Add security information to remote debugging IIS articles
 - [Remote Debug ASP.NET Core on a Remote IIS Computer in Visual Studio](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) - Add security information to remote debugging IIS articles
@@ -100,17 +98,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Fonts and Colors, Environment, Options dialog box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) - Add collapsible text indicators to table
 - [Change fonts, colors, and themes in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md) - Preserve font settings across themes
 - [Sign in to Visual Studio with accounts that require multifactor authentication (MFA)](../ide/work-with-multi-factor-authentication.md) - Add access denied text
-
-### Install
-
-**Updated articles**
-
-- [Visual Studio Test Agent component directory](../install/workload-component-id-vs-test-agent.md)
-  - Add links to bootstrappers
-  - Repo sync for protected branch
-- [Visual Studio Test Controller component directory](../install/workload-component-id-vs-test-controller.md)
-  - Add links to bootstrappers
-  - Repo sync for protected branch
 
 ### JavaScript
 
