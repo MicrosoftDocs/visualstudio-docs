@@ -17,12 +17,7 @@ manager: mijacobs
 
 # Tutorial: Debug C++ code with Visual Studio
 
-This article introduces features of the Visual Studio debugger in a step-by-step walkthrough. When you *debug your app*, you usually run your application with the debugger attached. The debugger provides many ways to examine what your code is doing during program execution, including:
-
-- Step through your code and look at values stored in variables
-- Set watches on variables to see when values change
-- Examine the execution path of your code
-- See if a branch of code is running
+This article introduces features of the Visual Studio debugger in a step-by-step walkthrough. When you debug an application, you usually run your app with the debugger attached. The debugger provides many ways to examine what your code is doing during program execution. You can step through your code and look at values stored in variables and set watches on variables to see when values change. The debugger helps you examine the execution path of your code and confirm a branch of code is running.
 
 In this tutorial, you:
 
@@ -61,7 +56,8 @@ If you're new to debugging, you might want to read [Debugging for absolute begin
 
 - This tutorial uses a C++ demo application and the screenshots present C++ syntax. Most of the demonstrated features are also applicable to C#, Visual Basic, F#, Python, JavaScript, and other languages supported by Visual Studio. There are a few limitations to keep in mind:
 
-   - **F#**: Edit-and-continue isn't supported.
+   - **F#**: The **Edit-and-continue** feature isn't supported.
+
    - **F#** and **JavaScript**: The **Autos** window isn't supported.
 
 ## Create a project
@@ -100,37 +96,37 @@ Visual Studio creates your new project and opens your project hierarchy in **Sol
 
 ## Create the application
 
-Create a new application for your project:
+Create a new application for your project by editing the _get-started-debugging.cpp_ file in the code editor.
 
-1. Edit the _get-started-debugging.cpp_ file in the code editor. Replace the default content provided by the template with the following code:
+Replace the default content provided by the template with the following code:
 
-   ```cpp
-   #include <string>
-   #include <vector>
-   #include <iostream>
+```cpp
+#include <string>
+#include <vector>
+#include <iostream>
 
-   void SendMessage(const std::wstring& name, int msg)
+void SendMessage(const std::wstring& name, int msg)
+{
+   std::wcout << L"Hello, " << name << L"! Count to " << msg << std::endl;
+}
+
+int main()
+{
+   std::vector<wchar_t> letters = { L'f', L'r', L'e', L'd', L' ', L's', L'm', L'i', L't', L'h' };
+   std::wstring name = L"";
+   std::vector<int> a(10);
+   std::wstring key = L"";
+
+   for (int i = 0; i < letters.size(); i++)
    {
-      std::wcout << L"Hello, " << name << L"! Count to " << msg << std::endl;
+      name += letters[i];
+      a[i] = i + 1;
+      SendMessage(name, a[i]);
    }
-
-   int main()
-   {
-      std::vector<wchar_t> letters = { L'f', L'r', L'e', L'd', L' ', L's', L'm', L'i', L't', L'h' };
-      std::wstring name = L"";
-      std::vector<int> a(10);
-      std::wstring key = L"";
-
-      for (int i = 0; i < letters.size(); i++)
-      {
-         name += letters[i];
-         a[i] = i + 1;
-         SendMessage(name, a[i]);
-      }
-      std::wcin >> key;
-      return 0;
-   }
-   ```
+   std::wcin >> key;
+   return 0;
+}
+```
 
 ## Start the debugger
 
@@ -313,11 +309,9 @@ Another approach for inspecting variables and values is by using the **Autos** a
 
 If you're interested in watching the behavior of a specific variable, you can set a **watch**:
 
-- In the code editor, right-click the `name` variable and select **Add Watch**.
+In the code editor, right-click the `name` variable and select **Add Watch**. The **Watch** window opens below the code editor. You can use a **Watch** window to specify a variable (or an expression) that you want to track.
 
-   The **Watch** window opens below the code editor. You can use a **Watch** window to specify a variable (or an expression) that you want to track.
-
-   :::image type="content" source="./media/vs-2022/debugger-watch-window.png" border="false" alt-text="Screenshot that shows the Watch window showing values for the name variable in Visual Studio.":::
+:::image type="content" source="./media/vs-2022/debugger-watch-window.png" border="false" alt-text="Screenshot that shows the Watch window showing values for the name variable in Visual Studio.":::
 
 As you watch the `name` variable during app execution in the debugger, you can see its value change. Unlike the other variable windows, the **Watch** window always shows the variables that you're watching. When a watched variable isn't in scope, the variable name is dimmed.
 

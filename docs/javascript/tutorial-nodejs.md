@@ -94,7 +94,7 @@ Build your project by selecting **Build** > **Build Solution**.
 
 ## Start your app
 
-Start your new app by selecting **Ctrl** + ***F5** or **Start Without Debugging** (green arrow outline icon) in the toolbar.
+Start your new app by selecting **Ctrl** + **F5** or **Start Without Debugging** (green arrow outline icon) in the toolbar.
 
 A terminal opens and shows the executing command:
 
