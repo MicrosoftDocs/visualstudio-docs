@@ -10,7 +10,7 @@
         "labels": [
             "-label:CLA"
         ],
-        "minAdditionsToFile": 10
+        "minAdditionsToFile": 2
     },
     "areas": [
         {
