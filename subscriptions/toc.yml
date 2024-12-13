@@ -8,6 +8,8 @@
     items:
     - name: Retail
       href: buy-activate-retail.md
+    - name: Volume Licensing
+      href: buy-activate-volume-license.md
     - name: Cloud
       items:
       - name: Overview
