@@ -101,6 +101,8 @@ In an existing Visual Basic, C#, or F# project, you change the target .NET versi
 
    The project unloads. When it reloads, it targets the .NET version that you just chose.
 
+### Target multiple frameworks
+
 With .NET 5 and later, you can build a project for multiple frameworks in a single build by manually editing the project file. Open the project file and replace the `TargetFramework` property with `TargetFrameworks`, and specify your list of Target Framework Monikers (TFMs), separated by semicolons, as in the following code:
 
 ```xml
