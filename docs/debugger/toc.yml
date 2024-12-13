@@ -294,6 +294,8 @@
         href: error-unable-to-connect-to-the-machine-name-the-machine-cannot-be-found-on-the-network.md
       - name: Remote machine does not appear in a Remote Connections dialog
         href: error-remote-machine-does-not-appear-in-a-remote-connections-dialog.md
+      - name: Adapting To Removal of Windows ARM32 .NET Debugging
+        href: adapting-to-removal-of-windows-arm32-dotnet-debugging.md
   - name: Attach to process
     items:
     - name: Attach to running processes with the debugger
