@@ -12,9 +12,7 @@ monikerRange: '>= vs-2022'
 ---
 # Use GitHub Copilot for free in Visual Studio
 
-GitHub Copilot Free enables you to experience AI-powered coding assistance in your IDE by providing limited access to select Copilot features, without requiring a subscription. With [Copilot Free]((https://aka.ms/ghdocscopilotfreepage)), individual developers can now use [Completions](visual-studio-github-copilot-extension.md) and [Chat](visual-studio-github-copilot-chat.md) for free in Visual Studio.
-
-Copilot Free is not available if you have an EMU account or an existing Copilot subscription.
+GitHub Copilot Free enables you to experience AI-powered coding assistance in your IDE by providing limited access to select Copilot features. With [Copilot Free](https://aka.ms/ghdocscopilotfreepage), you can now access all AI-integrated features in Visual Studio, including [Completions](visual-studio-github-copilot-extension.md) and [Chat](visual-studio-github-copilot-chat.md).
 
 ## Prerequisites
 
@@ -22,37 +20,72 @@ To get started with Copilot Free in Visual Studio, you need:
 + Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later
 + [GitHub Copilot](visual-studio-github-copilot-install-and-states.md) in Visual Studio
 
-Support for GitHub Copilot is provided by GitHub and can be reached at https://support.github.com.
+## Get started with Copilot Free in Visual Studio
 
-## Set up Copilot Free
+**Set up Copilot Free using Visual Studio**
 
-To use Copilot Free in Visual Studio, you first have to activate it in your GitHub account settings.
+- In Visual Studio, select the **GitHub Copilot** badge in the upper-right corner of the IDE. 
+- Select **Get Copilot Subscription** or **Add GitHub account to Visual Studio**.
+- If you have an existing GitHub account, sign in when prompted. If not, follow the steps to create a new GitHub account. 
+- Select **Sign up for Free** to complete the setup. Once finished, you’ll be redirected back to Visual Studio. 
 
-- Select **Get Copilot** from the chat window to open the [GitHub account settings](https://github.com/settings/copilot) page.
-  You can also select **Get Copilot Subscription** from the **GitHub Copilot** badge dropdown in the Visual Studio upper-right corner..
+**Set up Copilot Free using GitHub.com**
+
+- In the upper-right corner of any GitHub page, select your profile photo, and then select **Your Copilot**. 
 - Select **Start using Copilot Free** to activate Copilot Free and open a conversation thread.
-- Select **Use Copilot in other IDEs** and follow the steps for Visual Studio. 
+- Select **Use Copilot in other IDEs**, select **Visual Studio** and follow the instructions provided for Visual Studio. 
 
-## Limitations of Copilot Free
+## Copilot Free usage limits in Visual Studio 
 
-Copilot Free provides a limited number of code completions and chat responses for free per month.
+### Why doesn't Copilot Free work for me?
 
-Completions and Chat won't function as expected when you hit the usage limits on the free plan.
+Copilot Free provides a limited number of code completions and chat responses for free per month. Changes in Copilot functionality may indicate you've reached your monthly usage limit.
 
-| **Feature limit reached** | **Functionality change** | **Copilot status** |
-|-------------|----------------------|:----------:|
-| Completions | IntelliCode suggestions instead of Copilot completions. <br/> Suggestions are shorter and less contextual. | Active |
-| Chat | No chat responses. <br/> Chat interface may appear unresponsive | Active |
-| Completions & Chat |  IntelliCode suggestions. <br/> No completions and no chat responses. | Inactive |
+When you hit the usage limits, your Copilot experience in Visual Studio is impacted as follows:
+
+:::row::: 
+    :::column span="1"::: 
+       **Scenario**
+    :::column-end::: 
+    :::column span="2"::: 
+       User experience
+    :::column-end::: 
+:::row-end:::
+:::row::: 
+:::row::: 
+    :::column span="1"::: 
+       **Usage limit for Completions is reached**
+    :::column-end::: 
+    :::column span="2"::: 
+       User receives IntelliCode suggestions instead of Copilot completions. The Copilot badge stays green, indicating **Active** status. 
+    :::column-end::: 
+:::row-end:::
+:::row::: 
+    :::column span="1"::: 
+       **Usage limit for Chat is reached**
+    :::column-end::: 
+    :::column span="2"::: 
+       User no longers receive chat responses when sending prompts. The Copilot badge stays green, indicating **Active** status. 
+    :::column-end::: 
+:::row-end:::
+:::row::: 
+    :::column span="1"::: 
+       **Usage limit for both Completions & Chat is reached**
+    :::column-end::: 
+    :::column span="2"::: 
+       Copilot may appear inactive. Check the Copilot badge in the top-right corner of the IDE to verify your subscription status. 
+    :::column-end::: 
+:::row-end:::
 
 When you reach usage limits for Copilot Free, you can wait for them to reset at the end of the monthly cycle or upgrade to Copilot Pro to continue using Copilot.
-You can check your monthly usage limits on the GitHub account settings page.
+You can check the current status of your Copilot Free account on the [GitHub account settings page](https://github.com/settings/copilot).
 
 ## Frequently asked questions
 
 #### Who can access Copilot Free?
 
-Copilot Free is not avilable if you have an EMU account, access to a Copilot seat through an organization, an existing Copilot Pro subscription or trial, or free access to Copilot Pro as a student, teacher, or open-source maintainer.
+Copilot Free is not available if you have an EMU account, access to a Copilot seat through an organization, an existing Copilot Pro subscription or trial, or free access to Copilot Pro as a student, teacher, or open-source maintainer.
+For the latest information, see [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage).
 
 #### Can I turn off completions to save them for later?
 
@@ -70,12 +103,11 @@ Limits renew every 30 days after you first activate Copilot Free.
 #### What features are included in Copilot Free?
 
 Copilot Free includes the following features: Copilot Completions, Edits, and Chat.
-Learn more at [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage)
+Learn more at [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage).
 
-#### Why doesn't Copilot Free work for me?
+#### What are the Copilot Free limits for Completions and Chat?
 
-If you signed up for Copilot Free but Completions or Chat no longer work, you may have reached the monthly usage [limits](#limitations-of-copilot-free) on the free plan for either or both of them.
-Check your status on the GitHub account settings page.
+See [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage) for information.
 
 ## Related content
 
