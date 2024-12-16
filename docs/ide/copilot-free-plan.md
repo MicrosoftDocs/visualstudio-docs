@@ -12,7 +12,7 @@ monikerRange: '>= vs-2022'
 ---
 # Use GitHub Copilot for free in Visual Studio
 
-GitHub Copilot Free enables you to experience AI-powered coding assistance in your IDE by providing limited access to select Copilot features, without requiring a subscription. With [Copilot Free]((https://aka.ms/ghdocscopilotfreepage)), individual developers can now use [Completions](visual-studio-github-copilot-extension.md) and [**Chat**](visual-studio-github-copilot-chat.md) for free in Visual Studio.
+GitHub Copilot Free enables you to experience AI-powered coding assistance in your IDE by providing limited access to select Copilot features, without requiring a subscription. With [Copilot Free]((https://aka.ms/ghdocscopilotfreepage)), individual developers can now use [Completions](visual-studio-github-copilot-extension.md) and [Chat](visual-studio-github-copilot-chat.md) for free in Visual Studio.
 
 Copilot Free is not available if you have an EMU account or an existing Copilot subscription.
 
@@ -21,7 +21,6 @@ Copilot Free is not available if you have an EMU account or an existing Copilot 
 To get started with Copilot Free in Visual Studio, you need:
 + Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later
 + [GitHub Copilot](visual-studio-github-copilot-install-and-states.md) in Visual Studio
-+ No active GitHub Copilot subscription
 
 Support for GitHub Copilot is provided by GitHub and can be reached at https://support.github.com.
 
