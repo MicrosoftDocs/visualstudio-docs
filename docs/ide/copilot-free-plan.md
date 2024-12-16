@@ -12,16 +12,14 @@ monikerRange: '>= vs-2022'
 ---
 # Use GitHub Copilot for free in Visual Studio
 
-GitHub Copilot Free enables you to experience AI-powered coding assistance in your IDE by providing limited access to select Copilot features, without requiring a subscription. With Visual Studio 17.13 Preview 2, individual developers can use [Completions](visual-studio-github-copilot-extension.md) and [**Chat**](visual-studio-github-copilot-chat.md) for free in Visual Studio.
+GitHub Copilot Free enables you to experience AI-powered coding assistance in your IDE by providing limited access to select Copilot features, without requiring a subscription. With [Copilot Free]((https://aka.ms/ghdocscopilotfreepage)), individual developers can now use [Completions](visual-studio-github-copilot-extension.md) and [**Chat**](visual-studio-github-copilot-chat.md) for free in Visual Studio.
 
 Copilot Free is not available if you have an EMU account or an existing Copilot subscription.
-
-Learn more about [GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage).
 
 ## Prerequisites
 
 To get started with Copilot Free in Visual Studio, you need:
-+ Visual Studio 2022 [version 17.12 Preview 2](/visualstudio/releases/2022/release-history) or later
++ Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later
 + [GitHub Copilot](visual-studio-github-copilot-install-and-states.md) in Visual Studio
 + No active GitHub Copilot subscription
 
@@ -53,30 +51,31 @@ You can check your monthly usage limits on the GitHub account settings page.
 
 ## Frequently asked questions
 
-**Who can access Copilot Free?**
+#### Who can access Copilot Free?
 
 Copilot Free is not avilable if you have an EMU account, access to a Copilot seat through an organization, an existing Copilot Pro subscription or trial, or free access to Copilot Pro as a student, teacher, or open-source maintainer.
 
-**Can I turn off completions to save them for later?**
+#### Can I turn off completions to save them for later?
 
-Yes. You can enable or disable completions at any time. From the upper-right corner of your IDE, select the **GitHub Copilot** badge > **Options** > **Disable Copilot Completions**. 
+Yes. You can enable or disable completions at any time.
+From **GitHub Copilot** badge in the upper-right corner of your IDE, select **Settings** > **Options** and then select or unselect **Enable Copilot Completions**. 
 
-**Can I block suggestions matching public code with Copilot Free?**
+#### Can I block suggestions matching public code with Copilot Free?
 
 Yes. You can configure these settings from the [GitHub Copilot Settings](https://github.com/settings/copilot) page.
 
-**When will my free usage limits renew?**
+#### When will my free usage limits renew?
 
 Limits renew every 30 days after you first activate Copilot Free.
 
-**What features are included in Copilot Free?**
+#### What features are included in Copilot Free?
 
 Copilot Free includes the following features: Copilot Completions, Edits, and Chat.
 Learn more at [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage)
 
-**Why doesn't Copilot Free work for me?**
+#### Why doesn't Copilot Free work for me?
 
-You've signed up for Copilot Free and now you're seeing reduced or no functionality, you may have reached the monthly usage limits on the free plan.
+If you signed up for Copilot Free but Completions or Chat no longer work, you may have reached the monthly usage [limits](#limitations-of-copilot-free) on the free plan for either or both of them.
 Check your status on the GitHub account settings page.
 
 ## Related content
