@@ -3,7 +3,7 @@ title: Using product keys in Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 11/18/2024
+ms.date: 12/13/2024
 ms.topic: conceptual
 description: Obtain and manage your product keys in Visual Studio subscriptions for products that require keys for installation or activation.
 ---
@@ -46,7 +46,7 @@ Our research shows that most subscribers are covered by the number of product ke
  When multiple keys exist for a single product, notes are displayed on the Notes column for the download to assist you in identifying which key should be used.
 
 Some products bundle multiple editions of the product into a single download. In these cases, the product key entered determines which edition of the product is installed.
-Some keys are provided automatically, such as “static” keys, which you can use as many times as needed because activation isn't required. Other keys must be claimed by selecting the **Get Key** link for the product.
+Some keys are provided automatically, such as "static" keys, which you can use as many times as needed because activation isn't required. Other keys must be claimed by selecting the **Get Key** link for the product.
 > [!div class="mx-imgBorder"]
 > ![Get Key from Downloads Page](_img/product-keys/download-get-key.png "Screenshot of the download page for Visual Studio Professional 2019. The Get key link is highlighted.")
 
@@ -60,7 +60,7 @@ Various key types are available, depending on the product.
 |  Key Type | Description  |
 |-----------|--------------|
 |  Not Applicable  |  No key is needed to install this product. |
-|  Retail |  Retail keys allow multiple activations and are used for retail builds of the product. In many cases, 10 activations are allowed per key, though often more are allowed on the same machine. |
+|  Retail |  Retail keys allow multiple activations and are used for retail builds of the product. |
 |  Multiple Activation |  A Multiple Activation Key (MAK) enables you to activate multiple installations of a product with the same key. MAKs are most often used with Volume Licensing versions of products. Typically, only one MAK key is provided per subscription. |
 |  Static Activation Key |  Static activation keys are provided for products that don't require activation. They can be used for any number of installations. |
 |  Custom Key  |  Custom keys provide special actions or information to activate or install the product. |
@@ -72,9 +72,13 @@ Various key types are available, depending on the product.
 
 You can claim a key from the download page for the product, or you can search for the key you need on the [Product Keys](https://my.visualstudio.com/productkeys) page.
 
-### Products that leverage PINs, rather than product keys
+### Office 2024 deployment
 
-As of October 2024, access to Office 2024 and related Office 2024 products is still available to subscribers; however, the link on the downloads page in the subscriptions portal will redirect subscribers to office.setup.com where subscribers can create a new account or sign-in with their Microsoft account credentials. The product keys listed here are used on setup.microsoft.com for obtaining and setting up Office applications. Unlike the product key, PINs are used for redemption rather than activation. Once redeemed successfully, the product will show-up under Service & Subscriptions ready for installation. Learn how to [redeem products using PINs](https://support.microsoft.com/en-US/office/get-help-with-setup-office-com-6e1bc8e8-9e8e-4cce-8b9d-80dcbe17f253).
+As of October 2024, access to Office 2024 and related Office 2024 products is still available to subscribers; however, the link on the downloads page in the subscriptions portal will redirect subscribers to setup.office.com where subscribers can create a new account or sign-in with their Microsoft account credentials. The product keys listed here are used on setup.office.com for obtaining and setting up Office applications.
+
+[Get help with setting up Office](https://support.microsoft.com/office/get-help-with-setup-office-com-6e1bc8e8-9e8e-4cce-8b9d-80dcbe17f253).
+
+For more information, visit [Office 2024 and Office LTSC 2024 FAQ](https://support.microsoft.com/office/office-2024-and-office-ltsc-2024-faq-1c454a7d-3d0a-4139-b1bd-c61725ea436c).
 
 ## Support resources
 
