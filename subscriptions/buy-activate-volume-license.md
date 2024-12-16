@@ -3,14 +3,14 @@ title: Subscriptions available through Volume Licensing
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 12/12/2024
+ms.date: 12/13/2024
 ms.topic: how-to
 description: Purchase Visual Studio subscriptions via Volume Licensing and activate them in the Visual Studio subscriptions portal.
 ---
 
 # Visual Studio subscriptions are available through Volume Licensing
 
-Visual Studio subscriptions are available through various channels. Choose from Volume Licensing, Cloud Solution Providers, the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions), and [Microsoft Store](https://learn.microsoft.com/visualstudio/subscriptions/buy-activate-retail). This article explores purchasing and activating subscriptions through the [Microsoft Store](https://www.microsoft.com/store/collections/visualstudio). This article explores purchasing and activating subscriptions through [Volume Licensing](https://www.microsoft.com/licensing/default).
+Visual Studio subscriptions are available through various channels. Choose from Volume Licensing, Cloud Solution Providers, the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions), and [Microsoft Store](https://learn.microsoft.com/visualstudio/subscriptions/buy-activate-retail). This article explores purchasing and activating subscriptions through [Volume Licensing](https://www.microsoft.com/licensing/default).
 
 ## How to buy subscriptions
 

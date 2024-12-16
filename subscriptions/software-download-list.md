@@ -3,7 +3,7 @@ title: Available software downloads
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 11/18/2024
+ms.date: 12/13/2024
 ms.topic: how-to
 description: Find software downloads that are available with your Visual Studio subscription, including searching by software title by subscription type.
 ---
@@ -31,7 +31,11 @@ You can also download an Excel spreadsheet containing an extensive list of [avai
 
 ### Products available without downloads
 
-As of October 2024, access to Office 2024 and related Office 2024 products is still available to subscribers; however, the link on the downloads page in the subscriptions portal will redirect you to office.setup.com where you can create a new account or sign-in with your Microsoft account credentials. Once redeemed successfully, the product will show-up under Service & Subscriptions ready for installation. Learn how to [redeem product using PINs](https://support.microsoft.com/office/get-help-with-setup-office-com-6e1bc8e8-9e8e-4cce-8b9d-80dcbe17f253).
+As of October 2024, access to Office 2024 and related Office 2024 products is still available to subscribers; however, the link on the downloads page in the subscriptions portal will redirect you to setup.office.com where you can create a new account or sign-in with your Microsoft account credentials.
+
+[Get help with setting up Office](https://support.microsoft.com/office/get-help-with-setup-office-com-6e1bc8e8-9e8e-4cce-8b9d-80dcbe17f253).
+
+For more information, visit [Office 2024 and Office LTSC 2024 FAQ](https://support.microsoft.com/office/office-2024-and-office-ltsc-2024-faq-1c454a7d-3d0a-4139-b1bd-c61725ea436c).
 
 ## Resources
 
