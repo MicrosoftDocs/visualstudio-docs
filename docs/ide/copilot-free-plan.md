@@ -40,18 +40,10 @@ To get started with Copilot Free in Visual Studio, you need:
 ### Why doesn't Copilot Free work for me?
 
 Copilot Free provides a limited number of code completions and chat responses for free per month. Changes in Copilot functionality may indicate you've reached your monthly usage limit.
+You can check the current status of your Copilot Free account on the [GitHub account settings page](https://github.com/settings/copilot).
 
-When you hit the usage limits, your Copilot experience in Visual Studio is impacted as follows:
+When you hit the usage limits, your Copilot experience in Visual Studio may be impacted as follows:
 
-:::row::: 
-    :::column span="1"::: 
-       **Scenario**
-    :::column-end::: 
-    :::column span="2"::: 
-       User experience
-    :::column-end::: 
-:::row-end:::
-:::row::: 
 :::row::: 
     :::column span="1"::: 
        **Usage limit for Completions is reached**
@@ -76,9 +68,10 @@ When you hit the usage limits, your Copilot experience in Visual Studio is impac
        Copilot may appear inactive. Check the Copilot badge in the top-right corner of the IDE to verify your subscription status. 
     :::column-end::: 
 :::row-end:::
+:::row::: 
+:::row-end:::
 
 When you reach usage limits for Copilot Free, you can wait for them to reset at the end of the monthly cycle or upgrade to Copilot Pro to continue using Copilot.
-You can check the current status of your Copilot Free account on the [GitHub account settings page](https://github.com/settings/copilot).
 
 ## Frequently asked questions
 
@@ -100,7 +93,7 @@ Yes. You can configure these settings from the [GitHub Copilot Settings](https:/
 
 Limits renew every 30 days after you first activate Copilot Free.
 
-#### What features are included in Copilot Free?
+#### What Copilot features are included in Copilot Free?
 
 Copilot Free includes the following features: Copilot Completions, Edits, and Chat.
 Learn more at [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage).
