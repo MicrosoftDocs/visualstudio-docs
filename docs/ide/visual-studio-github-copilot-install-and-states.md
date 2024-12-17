@@ -90,7 +90,7 @@ With Visual Studio 2022 version 17.10, you see a Copilot status icon in the uppe
 
 ### Copilot is active
 
-Copilot is in an active state and fully functional if you [signed into Visual Studio with a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot).
+Copilot is in an active state and fully functional if you [signed into Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot).
 Using the dropdown menu, you can easily open the Chat window, access Copilot settings, and manage Copilot subscription.
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-active.png" alt-text="Screenshot of Copilot badge when Copilot is in active state.":::
