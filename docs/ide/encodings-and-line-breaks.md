@@ -1,7 +1,7 @@
 ---
 title: Encoding and line break characters
 description: Explore the special characters that Visual Studio interprets as line breaks and separators and understand how to configure and maintain your encoding and line break.
-ms.date: 12/10/2024
+ms.date: 12/17/2024
 ms.topic: concept-article
 f1_keywords:
 - vs.Encoding

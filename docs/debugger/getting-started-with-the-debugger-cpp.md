@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Debug C++ code"
 description: Follow this tutorial to explore features of the Visual Studio debugger, start the debugger, step through code, and inspect data in a C++ application.
-ms.date: 12/13/2024
+ms.date: 12/17/2024
 ms.subservice: debug-diagnostics
 ms.topic: tutorial
 dev_langs:
@@ -188,7 +188,7 @@ Try setting a breakpoint and pausing at the selected point in the debugger:
    > [!NOTE]
    > The **F5** action is relative to the current execution state of your application. If your app isn't running and you select **F5**, the debugger starts your app and continues execution until it reaches the first set breakpoint. This behavior maps to the **Debug** > **Start Debugging** command. If your app is already running and you select **F5**, app execution continues until the debugger reaches the next breakpoint or end of program. This behavior maps to the **Debug** > **Continue** command. 
 
-Breakpoints are a useful feature when you know the line of code or section of code that you want to examine in detail. For information on the different types of breakpoints you can set, such as conditional breakpoints, see [Using breakpoints](./using-breakpoints.md).
+Breakpoints are a useful feature when you know the line of code or section of code that you want to examine in detail. For information on the different types of breakpoints you can set, such as conditional breakpoints, see [Use the right type of breakpoint](./using-breakpoints.md).
 
 ## Step through your code in the debugger
 

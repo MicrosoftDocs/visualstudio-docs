@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Create a Node.js and Express app"
 description: Follow this tutorial and learn how to create a basic Node.js application by using the Express web application framework in Visual Studio.
-ms.date: 12/12/2024
+ms.date: 12/17/2024
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
@@ -162,7 +162,7 @@ Follow these steps to examine the _launch.json_ file for the project:
    > [!TIP]
    > If you don't see the _.vscode_ folder in **Solution Explorer**, select the **Show All Files** action in the **Solution Explorer** toolbar. 
 
-1. Take a look at the file in the code editor. If you have experience with Visual Studio Code, the _launch.json_ file probably looks familiar. The _launch.json_ file in this project is similar to the file used by Visual Studio Code to denote launch configurations used for debugging. Each entry specifies one or more targets to debug. 
+1. Take a look at the file in the code editor. If you have experience with Visual Studio Code, the _launch.json_ file probably looks familiar. The _launch.json_ file in this project corresponds to the file used by Visual Studio Code to denote launch configurations used for debugging. Each entry specifies one or more targets to debug. 
 
 1. Examine the first two entries in the file. These entries define behavior for different internet browsers:
 

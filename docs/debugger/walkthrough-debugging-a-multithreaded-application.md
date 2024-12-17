@@ -1,7 +1,7 @@
 ---
 title: View threads in the debugger
 description: Explore the Threads window in the Visual Studio debugger. Group, sort, flag, freeze, thaw, and search for threads. Display call stacks in C#, Visual Basic, and C++.
-ms.date: 12/11/2024
+ms.date: 12/17/2024
 ms.topic: concept-article
 f1_keywords:
   - "vs.debug.threads"
