@@ -49,7 +49,7 @@ When you hit the usage limits, your Copilot experience in Visual Studio may be i
        **Usage limit for Completions is reached**
     :::column-end::: 
     :::column span="2"::: 
-       User receives IntelliCode suggestions instead of Copilot completions. The Copilot badge stays green, indicating **Active** status. 
+       User receives IntelliCode suggestions instead of Copilot completions. The Copilot badge stays green, indicating **active** status. 
     :::column-end::: 
 :::row-end:::
 :::row::: 
@@ -57,7 +57,7 @@ When you hit the usage limits, your Copilot experience in Visual Studio may be i
        **Usage limit for Chat is reached**
     :::column-end::: 
     :::column span="2"::: 
-       User no longers receive chat responses when sending prompts. The Copilot badge stays green, indicating **Active** status. 
+       User no longers receive chat responses when sending prompts. The Copilot badge stays green, indicating **active** status. 
     :::column-end::: 
 :::row-end:::
 :::row::: 
@@ -65,7 +65,7 @@ When you hit the usage limits, your Copilot experience in Visual Studio may be i
        **Usage limit for both Completions & Chat is reached**
     :::column-end::: 
     :::column span="2"::: 
-       Copilot may appear inactive. Check the Copilot badge in the top-right corner of the IDE to verify your subscription status. 
+       Copilot may appear **inactive**. Check the Copilot badge in the top-right corner of the IDE to verify your subscription status. 
     :::column-end::: 
 :::row-end:::
 :::row::: 
