@@ -34,7 +34,7 @@ You can also use GitHub Copilot to convert comments to code, create unit tests, 
 To get started, you need:
 + Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later
 + [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
-  <sup>*</sup> You can get started with [GitHub Copilot for Free](copilot-free-plan.md). Sign up to leverage AI to code faster and more efficiently.
+  <sup>**</sup> You can use [GitHub Copilot for Free](copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
 
 GitHub Copilot supports several programming languages and frameworks, including but not limited to: C#, C++, and Python.
 
