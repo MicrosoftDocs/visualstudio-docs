@@ -78,7 +78,7 @@ Don't forget to run code coverage again after updating your code. Coverage resul
 
 ::: moniker range=">=vs-2022"
 > [!TIP]
-> Starting in Visual Studio 2022 Update 2, you can enable latest code coverage features by selecting **Tools > Options > Environment > Preview Features**, then selecting **Code coverage experience improvements**, and then restarting Visual Studio.
+> Starting in Visual Studio 2022 version 17.2, you can enable latest code coverage features by selecting **Tools > Options > Environment > Preview Features**, then selecting **Code coverage experience improvements**, and then restarting Visual Studio.
 ::: moniker-end
 
 ## Report in blocks or lines
@@ -92,7 +92,7 @@ You can also have the results displayed for lines by choosing **Add/Remove Colum
 ::: moniker range=">=vs-2022"
 ## Code coverage results views
 
-The **Code Coverage Results** window usually structures the report in the project/class/method hierarchy. This can be changed to show the coverage on directory/file/method level.
+The **Code Coverage Results** window usually structures the report in the project/class/method hierarchy. You can change this to show the coverage on directory/file/method level.
 
 - **To view the source Report**, select the **Configure Code Coverage Views** icon in the **Code Coverage Results** window. Then select **Source View** from the **Report Style** drop-down.
 
