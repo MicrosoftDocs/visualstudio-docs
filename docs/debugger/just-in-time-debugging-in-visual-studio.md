@@ -1,7 +1,7 @@
 ---
 title: Disable the Just-In-Time (JIT) Debugger
 description: Disable the Just-In-Time Debugger dialog in Visual Studio after errors occur in your application to enable app execution to continue.
-ms.date: 08/20/2024
+ms.date: 12/16/2024
 ms.topic: how-to
 helpviewer_keywords:
   - debugging [Visual Studio], Just-In-Time
@@ -33,7 +33,7 @@ The following table summarizes your options:
 | Visual Studio installed | Try JIT Debugger | [Debug the error by using the Just-In-Time Debugger](../debugger/debug-using-the-just-in-time-debugger.md) |
 | Visual Studio installed | Disable JIT Debugger | [Disable JIT debugging from Visual Studio](debug-using-the-just-in-time-debugger.md#BKMK_Enabling) |
 | Visual Studio previously installed, but not currently | Disable JIT Debugger  | [Disable JIT debugging from the Windows registry](debug-using-the-just-in-time-debugger.md#disable-just-in-time-debugging-from-the-windows-registry) |
-| Visual Studio never installed | Prevent JIT debugging | Prevent JIT debugging by [disabling script debugging](#disable-script-debugging-for-web-app) or [disabling server-side debugging](#disable-server-side-debugging-for-web-app) |
+| Visual Studio never installed | Prevent JIT debugging | Prevent JIT debugging by [disabling script debugging](#disable-script-debugging-for-web-app), [disabling server-side debugging](#disable-server-side-debugging-for-web-app), or by [disabling debugging for ASP.NET applications](/troubleshoot/developer/webapps/aspnet/development/disable-debugging-application). |
 
 ## Disable script debugging or server-side debugging
 
@@ -63,6 +63,8 @@ If you're hosting an ASP.NET Web app in Internet Information Services (IIS), dis
 1. Open IIS Manager, and go to the **Features View**.
 
 1. In the **ASP.NET** section, double-click or select **.NET Compilation**.
+
+   The ASP.NET section option is only present if the .NET features were installed using Server Manager.
 
 1. In the **Actions** pane, select **Open Feature**.
 
