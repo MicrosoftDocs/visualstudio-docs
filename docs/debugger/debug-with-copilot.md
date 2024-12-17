@@ -39,7 +39,7 @@ For more information on GitHub Copilot Completions in Visual Studio, see [About 
 To get started, you need:
 
 + Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later
-+ Active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business)
++ Active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot Pro](https://docs.github.com/en/copilot/about-github-copilot/subscription-plans-for-github-copilot) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business)
 + [**GitHub Copilot**](../ide/visual-studio-github-copilot-install-and-states.md) in Visual Studio
 + [**GitHub Copilot Chat**](../ide/visual-studio-github-copilot-chat.md#get-github-copilot-chat-for-visual-studio)
 
