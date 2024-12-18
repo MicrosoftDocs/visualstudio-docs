@@ -32,7 +32,7 @@ To get started with Copilot Free in Visual Studio, you need:
 **Set up Copilot Free using GitHub.com**
 
 - In the upper-right corner of any GitHub page, select your profile photo, and then select **Your Copilot**. 
-- Select **Start using Copilot Free** to activate Copilot Free and open a conversation thread.
+- Select **Start using Copilot Free** to activate Copilot Free.
 - Select **Use Copilot in other IDEs**, select **Visual Studio** and follow the instructions provided for Visual Studio. 
 
 ## Copilot Free usage limits in Visual Studio
