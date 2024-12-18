@@ -294,7 +294,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
          // A delay is a quick and dirty way to work around the fact that
          // the mywebapi service might not be immediately ready on startup.
          // See the text for some ideas on how you can improve this.
-         // Uncomment for .NET 8 only
+         // Uncomment if not using healthcheck (Visual Studio 17.13 or later)
          // await System.Threading.Tasks.Task.Delay(10000);
 
          // mywebapi is the service name, as listed in docker-compose.yml.
@@ -319,7 +319,58 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
     The code shown here works with .NET 8 and later, which sets up a user account in the Dockerfile without administrator privileges, and exposes port 8080 because the HTTP default port 80 is not accessible without elevated privilege.
 
-    The delay is used here as a workaround for .NET 8 only, because this example code could run immediately on application launch, before the MyWebAPI service is ready to receive web requests.
+    1. (Visual Studio 17.13 or later) The dependent services demonstrate a common problem. The HTTP request in the front end's main page could run immediately on application launch, before the MyWebAPI service is ready to receive web requests. If you're using Visual Studio 17.13 or later, you can use the Docker Compose features `depends_on` and `healthcheck` in the Docker Compose file to make the projects start in the right sequence, and have them be ready to serve requests when required. See [Docker Compose - Startup order](https://docs.docker.com/compose/how-tos/startup-order/).
+
+    ```yml
+   services:
+      webfrontend:
+         image: ${DOCKER_REGISTRY-}webfrontend
+         depends_on:
+            mywebapi:
+            condition: service_healthy
+         build:
+            context: .
+            dockerfile: WebFrontEnd/Dockerfile
+
+      mywebapi:
+         image: ${DOCKER_REGISTRY-}mywebapi
+         depends_on:
+            redis:
+            condition: service_started
+         healthcheck:
+            test: curl --fail http://mywebapi:8080/ || exit 1
+            interval: 20s
+            timeout: 20s
+            retries: 5
+         build:
+            context: .
+            dockerfile: MyWebAPI/Dockerfile
+
+      redis:
+         image: redis
+   ```
+
+   In this example, the health check uses `curl` to verify that the service is ready to process requests. If the image you're using doesn't have `curl` installed, add lines to the `base` stage of the MyWebAPI Dockerfile to install it. This step requires elevated privileges, but you can restore the normal user privileges after installing it as shown here:
+
+   ```dockerfile
+   USER root
+   RUN apt-get update && apt-get install -y curl
+   USER $APP_UID
+   ```
+
+   > [!NOTE]
+   > You don't have to add `curl` to the image. In a [chiseled](https://devblogs.microsoft.com/dotnet/announcing-dotnet-chiseled-containers/) container scenario, you want to avoid adding any unnecessary tools and other files, you could set up the web API's own executable to take a command-line argument that runs a health check, returning a success code (0) when ready, instead of installing and using `curl`.
+
+   These Docker Compose features require a property setting in the Docker Compose project file (`.dcproj`). Set the property `DependencyAwareStart` to true:
+
+   ```xml
+   <PropertyGroup>
+      <!-- existing properties -->
+      <DependencyAwareStart>true</DependencyAwareStart>
+   </PropertyGroup>
+   ```
+
+   With these changes, the `webfrontend` service will not start until MyWebAPI starts and successfully handles a web request.
 
 1. In the `Index.cshtml` file, add a line to display `ViewData["Message"]` so that the file looks like the following code:
 
