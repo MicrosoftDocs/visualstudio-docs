@@ -1,7 +1,7 @@
 ---
-title: Project Designer for .NET C# project properties
-description: Learn how to use the C# Project Designer to specify the project's application settings and properties.
-ms.date: 02/27/2024
+title: Project Designer for .NET project properties
+description: Learn how to use the .NET Project Designer to specify the project's application settings and properties.
+ms.date: 12/13/2024
 ms.topic: reference
 f1_keywords:
 - cs.ProjectPropertiesApplicationWPF
@@ -14,9 +14,9 @@ manager: mijacobs
 ms.subservice: general-ide
 monikerRange: '>= vs-2022'
 ---
-# .NET Project Designer (C#)
+# .NET Project Designer
 
-Use the **Project Designer** to specify the project's settings and properties for .NET Core and .NET 5+. For .NET Framework and Visual Basic projects, see [What is the .NET Project Designer?](../reference/project-properties-reference.md).
+Use the **Project Designer** to specify the project's settings and properties for .NET Core and .NET 5+. For .NET Framework, see [What is the .NET Project Designer?](../reference/project-properties-reference.md).
 
 To access the Project Designer, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project** > **Properties** on the menu bar. The **Project Designer** appears.
 
