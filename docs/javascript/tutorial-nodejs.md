@@ -1,7 +1,7 @@
 ---
-title: "Create a Node.js and Express app"
-description: In this tutorial, learn how to create a basic Node.js application by using the Express web application framework in Visual Studio.
-ms.date: 01/18/2023
+title: "Tutorial: Create a Node.js and Express app"
+description: Follow this tutorial and learn how to create a basic Node.js application by using the Express web application framework in Visual Studio.
+ms.date: 12/17/2024
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
@@ -12,171 +12,234 @@ ms.subservice: javascript-typescript
 monikerRange: '>= vs-2022'
 dev_langs:
   - JavaScript
+
+#customer intent: As a developer, I want to create Node.js applications with the Express web application framework in Visual Studio, so I can access features to support my development.
 ---
+
 # Tutorial: Create a Node.js and Express app in Visual Studio
 
-In this article, you will learn how to use Visual Studio to build a simple Node.js web app that uses the Express framework.
+This article demonstrates how to use Visual Studio to build a basic Node.js web app that uses the Express framework.
 
-Before you begin, here's a quick FAQ to introduce you to some key concepts:
+Node.js is a server-side JavaScript runtime environment that executes JavaScript code. By default, Node.js uses the npm package manager to make it easy to use and share Node.js source code libraries. The npm package manager simplifies the installation, updating, and uninstallation of libraries.
 
-- **What is Node.js?**
-  
-  Node.js is a server-side JavaScript runtime environment that executes JavaScript code.
+Express is a server web application framework that Node.js uses to build web apps. With Express, there are many different ways to create a user interface. The implementation provided in this tutorial uses the Express application generator's default template engine, called Pug, to render the frontend.
 
-- **What is npm?**
-  
-  A package manager makes it easier to use and share Node.js source code libraries. The default package manager for Node.js is npm. The npm package manager simplifies the installation, updating, and uninstallation of libraries.
+In this tutorial, you:
 
-- **What is Express?**
-  
-  Express is a server web application framework that Node.js uses to build web apps. With Express, there are many different ways to create a user interface. The implementation provided in this tutorial uses the Express application generator's default template engine, called Pug, to render the front-end.
+> [!div class="checklist"]
+> * Create a Node.js app by using a JavaScript template
+> * Build the app and examine the running process 
+> * Debug the app in the Visual Studio debugger
 
 ## Prerequisites
 
-Make sure to install the following:
+- Visual Studio 2022 **version 17.12** or later with the **ASP.NET and web development** workload installed.
 
-- Visual Studio 2022 **version 17.4** or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
-  If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
-- npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js
-- npx ([`https://www.npmjs.com/package/npx`](https://www.npmjs.com/package/npx))
+   - To install Visual Studio for free, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page.
+
+   - If you already have Visual Studio, you can install the workload from within the Interactive Development Environment (IDE):
+   
+      1. Select **Tools** > **Get Tools and Features**.
+
+      1. In the Visual Studio Installer, select the **Workloads** tab.
+
+      1. Select the **ASP.NET and web development** workload, and then select **Modify**.
+
+      1. Follow the prompts and complete the installation.
+
+- Node.js with the npm package manager and the npx package.
+
+   You can check your Node.js installation with the `node -v` command. The command output should show the installed version of Node.js, such as `v23.4.0`. For more information, see [Downloading and installing Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+
+   - The [npm package manager](https://www.npmjs.com/package/npm) is included in the Node.js installation. Verify the installation with the `npm -v` command. The command output should show the installed version of the package manager, such as `10.9.2`.
+
+   - The [npx package](https://www.npmjs.com/package/npx) is part of the npm CLI. Confirm the package installation with the `npx -v` command. The command output should show the installed package version, such as `10.9.2`.
 
 ## Create your app
 
-1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
+Follow these steps to create a new Node.js app in Visual Studio:
 
-   :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Create a new project":::
+1. In the Visual Studio **Start** window (**File** > **Start Window**), select **Create a new project**:
+
+   :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot that shows how to select the Create a new project option in the Visual Studio Start window.":::
    
-1. Search for Express in the search bar at the top and then select **JavaScript Express Application**.
+1. In the **Search** box, enter _Express_, and select the **JavaScript Express Application** template in the list of results:
 
-   :::image type="content" source="media/vs-2022/express-choose-template.png" alt-text="Choose a template":::
-   
-1. Give your project and solution a name. 
+   :::image type="content" source="media/vs-2022/express-choose-template.png" alt-text="Screenshot that shows how to search for and select the JavaScript Express Application template in the Visual Studio Start window.":::
 
-## View the project properties
+1. Select **Next** to continue to the configuration page.
 
-The default project settings allow you to build and debug the project. But, if you need to change settings, right-click the project in Solution Explorer, select **Properties**, and then go the **Build** or **Debugging** section.
+1. Enter a **Project name** and **Solution name** for your new app. Choose the default **Location** or browse to a different path in your environment.
 
->[!NOTE]
-> `launch.json` stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, `launch.json` must be located under the `.vscode` folder.
+1. Select **Create** to create the new Node.js project.
+
+Visual Studio creates your new project and opens your project hierarchy in **Solution Explorer**.
+
+## View your project properties
+
+The default project settings allow you to build and debug the project. You can change the settings as needed.
+
+1. In **Solution Explorer**, right-click the project and select **Properties**. You can also access these properties by selecting **Project** > **ExpressProject Properties**.
+
+1. In the **Project Properties** pane, go to the **Build** section and configure the properties as desired.
+
+1. To configure debug settings, select **Debug** > **ExpressProject Debug Properties**.
+
+> [!NOTE]
+> The _launch.json_ file stores the startup settings associated with the **Start** action in the Debug toolbar. Currently, the _launch.json_ must be located in the _.vscode_ folder.
 
 ## Build your project
 
-Choose **Build** > **Build Solution**  to build the project.
+Build your project by selecting **Build** > **Build Solution**.
 
 ## Start your app
 
-Press **F5** or select the **Start** button at the top of the window, and you'll see a command prompt: 
+Start your new app by selecting **Ctrl** + **F5** or **Start Without Debugging** (green arrow outline icon) in the toolbar.
 
-- npm running the node ./bin/www command
+A terminal opens and shows the executing command:
 
->[!NOTE]
-> Check console output for messages, such as a message instructing you to update your version of Node.js.
+```output
+> expressproject@0.0.0 start
+> node ./bin/www
 
-Next, you should see the base Express app appear!
+GET / 200 29342.066 ms - 170
+GET /stylesheets/style.css 200 18.967 ms - 111
+```
+
+> [!NOTE]
+> Check the terminal output for messages. Also check the **Output** pane in Visual Studio. Watch for instructions to update your version of Node.js.
+
+When the app launches successfully, a browser window opens showing the Express app:
+
+:::image type="content" source="media/vs-2022/express-app-running-browser.png" alt-text="Screenshot that shows the running Express app in the browser.":::
 
 ## Debug your app
 
-We will now go through a couple of ways you can debug your app. 
+Now you're ready to explore ways to debug your app.
 
-First, if your app is still running, press **Shift + F5** or select the red stop button at the top of the window in order to stop the current session. You might notice that stopping the session closes the browser showing your app, but leaves behind the command prompt window running the Node process. For now, go ahead and close any lingering command prompts. Later in this article, we describe why you might want to leave the Node process running.
+If your app is still running, select **Shift + F5** to end the current session or **Stop** :::image type="icon" source="./media/debugger-stop.png"::: (red square icon) in the Debug toolbar. You might notice that ending the session closes the browser that shows your app, but the terminal window running the Node process remains open. For now, go ahead and close any lingering windows. Later in this article, you review scenarios for when you might want to leave the Node process running.
 
-### Debugging the Node process 
+### Debug the Node process 
 
-In the dropdown next to the **Start** button, you should see the following start options:
+The dropdown list to the left of the **Start** action shows available start options for the app:
+
 - localhost (Edge)
 - localhost (Chrome)
-- Debug Dev Env
+- Launch ExpressProject     
 - Launch Node and Browser
 
-Go ahead and select the **Launch Node and Browser** option. Now, before pressing **F5** or selecting the **Start** button again, set a breakpoint in `index.js` (in the **routes** folder) by selecting the left gutter before the following line of code: `res.render('index', { title: 'Express' });`
+Follow these steps to debug the Node process for the app:
 
-> [!TIP]
-> You can also put your cursor on a line of code and hit **F9** to toggle the breakpoint for that line. 
+1. In the **Start** dropdown list, select **Launch Node and Browser**.
 
-Then, press **F5** or select **Debug** > **Start Debugging** to debug your app.
+1. In **Solution Explorer**, expand the _routes_ folder and open the _index.js_ file.
 
-You should see the debugger pause at the breakpoint you just set. While it is paused, you can inspect your app state. Hovering over variables will let you examine their properties.
+1. In the code editor, set a breakpoint in the _index.js_ file:
 
-When you're finished inspecting the state, hit **F5** to continue, and your app should load as expected. 
+   1. Locate the code statement `res.render('index', { title: 'Express' });`.
+  
+   1. Select in the left gutter on the line for the statement. Visual Studio adds a red circle in the gutter to indicate the set breakpoint.
 
-This time, if you hit stop, you will notice that both the browser and the command prompt windows close. To see why, take a closer look at the *launch.json*.
+   > [!TIP]
+   > You can also place your cursor on a line of code and select **F9** to toggle the breakpoint for that line. 
 
-### Understanding the *launch.json*
+1. Start your app in the debugger by selecting **F5** or **Start Debugging** :::image type="icon" source="./media/debugger-start.png"::: (green arrow icon) in the Debug toolbar.
 
-The `launch.json` is currently located in the `.vscode` folder. If you cannot see the `.vscode` folder in **Solution Explorer**, select **Show All Files**. 
+   Visual Studio starts execution of your app. When the debugger reaches your set breakpoint, the debugging process pauses.
 
-If you have worked with Visual Studio Code before, the `launch.json` file will look familiar. The `launch.json` here works in much the same way as it does in Visual Studio Code to denote launch configurations used for debugging. Each entry specifies one or more targets to be debugged. 
+1. While execution is paused, you can inspect the state of your app. Hover over variables and examine their properties.
 
-The first two entries are browser entries, and they should look something like this:
+1. When you're ready to continue, select **F5**. Processing continues and your app opens in the browser. 
 
-```json
-    {
-      "name": "localhost (Edge)",
-      "type": "edge",
-      "request": "launch",
-      "url": "http://localhost:3000",
-      "webRoot": "${workspaceFolder}\\public"
-    },
-    {
-      "name": "localhost (Chrome)",
-      "type": "chrome",
-      "request": "launch",
-      "url": "http://localhost:3000",
-      "webRoot": "${workspaceFolder}\\public"
-    }
-```
+This time, if you select **Stop**, notice that both the browser and terminal windows close. To understand why the behavior is different, take a closer look at the _launch.json_ file.
 
-You can see in the above entries that the `type` is set to a browser type. If you launch with only a browser type as the sole debug target, Visual Studio will debug only the frontend browser process, and the Node process will be started without a debugger attached, meaning that any breakpoints that are set in the Node process **will not** bind. 
+### Examine the launch.json file
 
-Upon stopping the session, the Node process will also continue to run. It is intentionally left running when a browser is the debug target, because if work is solely being done on the frontend, having the backend process continuously running eases the development workflow.
+Follow these steps to examine the _launch.json_ file for the project:
 
-At the start of [this section](#debug-your-app), you closed the lingering command prompt window in order to set breakpoints in the Node process. For the Node process to be debuggable, it must be restarted with the debugger attached. If a non-debuggable Node process is left running, attempting to launch the Node process in debug mode (without reconfiguring the port) **will fail**. 
+1. In **Solution Explorer**, expand the _.vscode_ folder and open the _launch.json_ file.
 
-> [!NOTE]
-> Currently, `edge` and `chrome` are the only supported browser types for debugging.
+   > [!TIP]
+   > If you don't see the _.vscode_ folder in **Solution Explorer**, select the **Show All Files** action in the **Solution Explorer** toolbar. 
 
-The third entry in the `launch.json` specifies `node` as the debug type, and it should look something like this:
+1. Take a look at the file in the code editor. If you have experience with Visual Studio Code, the _launch.json_ file probably looks familiar. The _launch.json_ file in this project corresponds to the file used by Visual Studio Code to denote launch configurations used for debugging. Each entry specifies one or more targets to debug. 
 
-```
-    {
-      "name": "Debug Dev Env",
-      "type": "node",
-      "request": "launch",
-      "cwd": "${workspaceFolder}/bin",
-      "program": "${workspaceFolder}/bin/www",
-      "stopOnEntry": true
-    }
-```
+1. Examine the first two entries in the file. These entries define behavior for different internet browsers:
 
-This entry will launch only the Node process in debug mode. No browser will be launched.
+   ```json
+       {
+         "name": "localhost (Edge)",
+         "type": "edge",
+         "request": "launch",
+         "url": "http://localhost:3000",
+         "webRoot": "${workspaceFolder}\\public"
+       },
+       {
+         "name": "localhost (Chrome)",
+         "type": "chrome",
+         "request": "launch",
+         "url": "http://localhost:3000",
+         "webRoot": "${workspaceFolder}\\public"
+       }
+   ```
 
-The fourth entry provided in the "launch.json* is the following compound launch configuration.
+   The supported browsers are indicated with the `type` property. If you launch the app with only a browser type as the sole debug target, Visual Studio debugs only the front-end browser process. The Node process starts without a debugger attached. Visual Studio **doesn't bind** any breakpoints set in the Node process. 
 
-```
-    {
-      "name": "Launch Node and Browser",
-      "configurations": [
-        "Debug Dev Env",
-        "localhost (Edge)"
-      ]
-    }
-```
+   > [!NOTE]
+   > Currently, `edge` and `chrome` are the only supported browser types for debugging.
 
-This compound configuration is the same as a [vscode compound launch configuration](https://code.visualstudio.com/docs/editor/debugging#_compound-launch-configurations), and selecting it allows you to debug both the frontend and backend. You can see that it simply references the individual launch configurations for the Node and browser processes. 
+   When you end the session, the Node process continues to run, by design. The process is intentionally left running when a browser is the debug target. If work is solely being done on the frontend, having the backend process continuously running eases the development workflow.
 
-There are many other attributes you can use in a launch configuration. For example, you can hide a configuration from the dropdown, but still have it be referenceable, by setting the `hidden` attribute in the `presentation` object to `true`.
+   At the start of [this section](#debug-your-app), you closed the lingering terminal window so you could set breakpoints in the Node process. To enable Visual Studio to debug the Node process, the process must be restarted with the debugger attached. If a nondebuggable Node process is left running, attempting to launch the Node process in debug mode (without reconfiguring the port) **fails**. 
 
-```
-    {
-      "name": "localhost (Chrome)",
-      "type": "chrome",
-      "request": "launch",
-      "url": "http://localhost:3000",
-      "webRoot": "${workspaceFolder}\\public",
-      "presentation": {
-        "hidden": true
-      }
-    }
-```
+1. Review the third entry in the _launch.json_ file. This entry specifies `node` as the debug type:
 
-Click [Options](https://github.com/microsoft/vscode-js-debug/blob/main/OPTIONS.md) for a list of attributes you can use to enhance your debugging experience. Please note that at the moment, only **launch** configurations are supported. Any attempt to use an **attach** configuration will result in a deployment failure.
+   ```json
+       {
+         "name": "Launch ExpressProject",
+         "type": "node",
+         "request": "launch",
+         "cwd": "${workspaceFolder}/bin",
+         "program": "${workspaceFolder}/bin/www",
+         "stopOnEntry": true
+       }
+   ```
+
+   The third entry launches only the Node process in debug mode. Visual Studio doesn't launch the browser.
+
+1. Examine the fourth entry in the _launch.json_ file, which defines a compound launch configuration:
+
+   ```json
+       {
+         "name": "Launch Node and Browser",
+         "configurations": [
+           "Launch ExpressProject",                   
+           "localhost (Edge)"
+         ]
+       }
+   ```
+
+   This compound configuration is the same as a [Visual Studio Code compound launch configuration](https://code.visualstudio.com/docs/editor/debugging#_compound-launch-configurations). When you select this configuration, you can debug both the frontend and backend. Notice that the definition simply references the individual launch configurations for the Node and browser processes. 
+
+   There are many other attributes you can use in a launch configuration. For example, you can hide a configuration to remove it from the **Start** dropdown list, but allow references to the configuration by setting the `hidden` attribute in the `presentation` object to `true`:
+
+   ```json
+       {
+         "name": "localhost (Chrome)",
+         "type": "chrome",
+         "request": "launch",
+         "url": "http://localhost:3000",
+         "webRoot": "${workspaceFolder}\\public",
+         "presentation": {
+           "hidden": true
+         }
+       }
+   ```
+
+1. Configure options by using supported attributes to enhance your debugging experience. Currently, only **launch** configurations are supported. Any attempt to use an **attach** configuration results in a deployment failure. For more information, see [Options](https://github.com/microsoft/vscode-js-debug/blob/main/OPTIONS.md).
+
+## Related links
+
+- [Debug a JavaScript or TypeScript app in Visual Studio](./debug-nodejs.md)
+- [Migrate Node.js projects in Visual Studio](./migrate-nodejs-projects.md)
+- [Manage npm packages in Visual Studio](./npm-package-management.md)
