@@ -473,7 +473,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
    This property activates a different way of starting the containers for debugging that supports the service dependency features.
 
-   With these changes, the `webfrontend` service will not start until MyWebAPI starts and successfully handles a web request.
+   With these changes, the `webfrontend` service will not start until `mywebapi` starts and successfully handles a web request.
 
 1. The first project that you add container orchestration to is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the Docker Compose project. On the Docker Compose project node, right-click to open the context menu, and then choose **Properties**, or use **Alt**+**Enter**. For example, you can change the page that is loaded by customizing the **Service URL** property.
 
