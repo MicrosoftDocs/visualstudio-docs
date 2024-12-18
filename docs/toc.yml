@@ -157,6 +157,8 @@
       href: ide/visual-studio-github-copilot-troubleshoot.md
     - name: Admin controls for GitHub Copilot
       href: ide/visual-studio-github-copilot-admin.md
+    - name: GitHub Copilot Free
+      href: ide/copilot-free-plan.md
   - name: IntelliCode
     items:
     - name: 'What is IntelliCode?'

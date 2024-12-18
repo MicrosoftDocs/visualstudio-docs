@@ -1,7 +1,7 @@
 ---
 title: Install and manage GitHub Copilot in Visual Studio
 description: Learn how to install GitHub Copilot to get GitHub Copilot Completions and Chat in Visual Studio. Use the Copilot badge in the IDE to access options to manage or troubleshoot your Copilot state. 
-ms.date: 9/12/2024
+ms.date: 12/18/2024
 ms.topic: install-set-up-deploy
 author: anandmeg
 ms.author: meghaanand
@@ -90,8 +90,7 @@ With Visual Studio 2022 version 17.10, you see a Copilot status icon in the uppe
 
 ### Copilot is active
 
-Copilot is in an active state and fully functional if you [signed into Visual Studio with a GitHub account](work-with-github-accounts.md) that has an active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business).
-
+Copilot is in an active state and fully functional if you [signed into Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot).
 Using the dropdown menu, you can easily open the Chat window, access Copilot settings, and manage Copilot subscription.
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-active.png" alt-text="Screenshot of Copilot badge when Copilot is in active state.":::
