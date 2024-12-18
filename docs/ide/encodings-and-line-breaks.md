@@ -1,8 +1,8 @@
 ---
 title: Encoding and line break characters
-description: Learn about the characters that Visual Studio interprets as line breaks and how original encoding and line break characters are maintained.
-ms.date: 11/04/2016
-ms.topic: conceptual
+description: Explore the special characters that Visual Studio interprets as line breaks and separators and understand how to configure and maintain your encoding and line break.
+ms.date: 12/17/2024
+ms.topic: concept-article
 f1_keywords:
 - vs.Encoding
 helpviewer_keywords:
@@ -16,41 +16,46 @@ author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide
+
+#customer intent: As a developer, I want to understand how Visual Studio interprets line breaks and separators so I can ensure my desired encoding and line breaks are maintained.
 ---
+
 # Encodings and line endings
 
-The following characters are interpreted as line breaks in Visual Studio:
+Special characters are commonly used to format code, file data, and program output. You might use the tab key to control spacing across a single line or apply a soft or hard line break to format multi-line data. Visual Studio interprets specific characters as line breaks or separators. The following table lists the recognized characters and their corresponding Unicode values:
 
-- CR LF: Carriage return + line feed, Unicode characters 000D + 000A
+| Character | Description | Unicode value |
+| --- | --- | --- |
+| **CR LF** | Carriage return plus Line feed | 000D plus 000A |
+| **LF** | Line feed | 000A | 
+| **NEL** | Next line | 0085 |
+| **LS** | Line separator | 2028 |
+| **PS** | Paragraph separator | 2029 |
 
-- LF: Line feed, Unicode character 000A
+When you copy text from another file or application, Visual Studio maintains the original encoding and line break characters in the copied value. For example, text copied from a Notepad file and pasted into a Visual Studio file use the original settings applied in Notepad. If you open a file that has unrecognized line break characters, Visual Studio might prompt you for instructions to normalize the inconsistent characters. You might also need to specify the type of line breaks to apply to the imported data.
 
-- NEL: Next line, Unicode character 0085
+## Configure encoding for special characters
 
-- LS: Line separator, Unicode character 2028
+You can specify the type of line break characters to apply to your data with the **Advanced Save Options** dialog. Visual Studio applies your desired encoding when you save your project files:
 
-- PS: Paragraph separator, Unicode character 2029
+:::image type="content" source="media/advanced-save-options-dialog.png" border="false" alt-text="Screenshot of the Advanced Save Options dialog in Visual Studio.":::
 
-Text that is copied from other applications keeps the original encoding and line break characters. For example, when you copy text from Notepad and paste it into a text file in Visual Studio, the text has the same settings that it had in Notepad.
+The **Advanced Save Options** dialog is available when you select **File** > **Save \<filename\> As**. In the **Save File As** dialog, expand the **Save** dropdown list and select **Save with Encoding**:
 
-When you open a file that has different line break characters, you may see a dialog box that asks whether the inconsistent line break characters should be normalized, and which type of line breaks to choose.
+:::image type="content" source="media/save-with-encoding.png" border="false" alt-text="Screenshot that shows how to select the Save with Encoding option in Visual Studio.":::
 
-## Advanced save options
+You can also place the **Advanced Save Options** command directly on the **File** menu for quick access:
 
-You can use the **File** > **Advanced Save Options** dialog box to determine the type of line break characters you want. You can also change the encoding of a file with the same settings.
+1. On the Visual Studio toolbar, select **Tools** > **Customize**.
+1. In the **Customize** dialog, select the **Commands** tab.
+1. Choose the **Menu bar** option, select **File** in the corresponding dropdown list, and then select **Add Command**. 
+1. In the **Add Command** dialog, under **Categories**, select **File**.
+1. In the **Commands** list, select **Advanced Save Options**, and then select **OK**.
+1. In the **Customize** dialog, select the **Advanced Save Options** command and use the **Move Up** and **Move Down** actions to change the position of the command in the menu.
+1. Select **Close** to apply the menu change.
 
-![Advanced Save Options dialog box](media/line_endings.png)
-
-> [!NOTE]
-> If you don't see **Advanced Save Options** on the **File** menu, you can add it. 
-> 1. Choose **Tools**, **Customize**, 
-> 1. Choose the **Commands** tab, select the **Menu bar** radio button and from the corresponding drop-down list choose **File**. Choose the **Add Command** button. 
-> 1. In the **Add Command** dialog box, under **Categories**, choose **File**, and then in the **Commands** list, choose **Advanced Save Options**. Choose **OK** button.
-> 1. Use the **Move Up** and **Move Down** buttons to move the command to any place in the menu. Choose **Close** to close the **Customize** dialog box. 
-> For more information, see [Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md#customizing_menu).
->
-> Alternatively, you can access the **Advanced Save Options** dialog box by choosing **File** > **Save \<file\> As**. In the **Save File As** dialog box, choose the drop-down triangle next to the **Save** button and then choose **Save with encoding**.
+For more information, see [Customize menus and toolbars](./how-to-customize-menus-and-toolbars-in-visual-studio.md#customize-a-menu-or-a-toolbar).
 
 ## Related content
 
-- [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Features of the code editor](./writing-code-in-the-code-and-text-editor.md)

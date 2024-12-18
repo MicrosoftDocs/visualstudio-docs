@@ -21,10 +21,10 @@ Microsoft.CodeCoverage.Console is available in Visual Studio 2022 17.3 under the
 ```console
 C:\Program Files\Microsoft Visual Studio\2022\Enterprise> Microsoft.CodeCoverage.Console --help
 Description:
-  Dynamic code coverage tools.
+  Code coverage tools.
 
 Usage:
-  codecoverage [command] [options]
+  Microsoft.CodeCoverage.Console [command] [options]
 
 Options:
   --version       Show version information
@@ -37,13 +37,13 @@ Commands:
   merge <files>                       Merge coverage reports
   shutdown <session>                  Close existing code coverage collection.
   snapshot <session>                  Creates coverage file for existing code coverage collection.
-  instrument <input-file>             Instruments native binary.
-
+  instrument <input-file>             Instruments native and managed binary.
+  uninstrument <input-file>           Restore original binary.
 ```
 
-## Collect, connect, shutdown, merge and snapshot commands
+## Collect, connect, shutdown, merge, snapshot, and uninstrument commands
 
-The Microsoft.CodeCoverage.Console tool is extension to the [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) dotnet tool. The documentation for collect, connect, shutdown, merge, and snapshot commands can be found [here](/dotnet/core/additional-tools/dotnet-coverage).
+The Microsoft.CodeCoverage.Console tool is extension to the [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) dotnet tool. The documentation for collect, connect, shutdown, merge, snapshot, and uninstrument commands can be found [here](/dotnet/core/additional-tools/dotnet-coverage).
 
 Microsoft.CodeCoverage.Console supports additional security features to enable collecting ASP.NET code coverage data from IIS. Additionally, the Microsoft.CodeCoverage.Console tool supports collecting code coverage for C++ code. The `instrument` command is specific to these scenarios.
 
@@ -55,10 +55,12 @@ The instrument command is used to instrument native or managed binary on disk.
 
 ```console
 Microsoft.CodeCoverage.Console instrument
-    [-s|--settings <settings>] [-id|--session-id <session-id>]
-    [-o|--output <output>] [-l|--log-file <log-file>]
-    [-ll|--log-level <log-level>] [-?|-h|--help]
     <input-file>
+    [-s|--settings <settings>] [-id|--session-id <session-id>]
+    [-o|--output <output>]
+    [-l|--log-file <log-file>] [-ll|--log-level <log-level>]
+    [-dco|--disable-console-output] [--nologo]
+    [-?|-h|--help]
 ```
 
 ### Arguments
@@ -88,6 +90,14 @@ Microsoft.CodeCoverage.Console instrument
 * **`-ll|--log-level <log-level>`**
 
   Sets the log level. Supported values: `Error`, `Info`, and  `Verbose`.
+
+* **`-dco|--disable-console-output`**
+
+  Disables console output.
+
+* **`--nologo`**
+
+  Do not display Code Coverage banner.
 
 ## Static code coverage for C++ code
 
@@ -162,6 +172,7 @@ Then, start the application as follows:
 D:\ConsoleApplication\x64\Debug>.\ConsoleApplication.exe
 Hello World!
 ```
+
 > [!NOTE]
 > Instrumented native binary contains a reference to `static_covrun64.dll`. Make sure that this file is next to the instrumented binary or the directory where `static_covrun64.dll` is located is listed in the `Path` environment variable. The `collect` and `connect` commands are adding proper directories to `Path` automatically.
 

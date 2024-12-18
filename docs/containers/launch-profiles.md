@@ -6,14 +6,14 @@ manager: mijacobs
 ms.subservice: container-tools
 ms.devlang: dotnet
 ms.topic: how-to
-ms.date: 10/08/2021
+ms.date: 12/10/2024
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
 
 # Launch a subset of Compose services
 
-If you have an application that consists of multiple services and uses Docker Compose, you can configure which services run and debug by creating or editing an existing launch profile in Docker Compose launch settings. Launch profiles allow you to dynamically run only the services that matter to your current scenario. You can create and select from launch profiles in order to customize your debugging experience and set specific launch actions such as `Browser Launch URL`. You will also have the option of either choosing each service individually or by choosing a Docker Compose profile, which also looks at your Compose file to determine the group of services to run.
+If you have an application that consists of multiple services and uses Docker Compose, you can configure which services run and debug by creating or editing an existing launch profile in Docker Compose launch settings. Launch profiles allow you to dynamically run only the services that matter to your current scenario. You can create and select from launch profiles in order to customize your debugging experience and set specific launch actions such as `Browser Launch URL`. You also have the option of either choosing each service individually or by choosing a Docker Compose profile, which also looks at your Compose file to determine the group of services to run.
 
 For information about Docker Compose profiles, see [Using profiles with Compose](https://docs.docker.com/compose/profiles/).
 
@@ -97,7 +97,7 @@ The next example demonstrates selecting between individual services instead of f
 
 ![Screenshot of launch settings dialog with some services deselected](media/launch-settings/launch-settings-selected.png)
 
-And this information will be saved in *launchSettings.json* as shown below
+And this information is saved in *launchSettings.json* as shown below
 
 ```json
 {
@@ -124,14 +124,14 @@ And this information will be saved in *launchSettings.json* as shown below
 
 You can also further customize launch behaviors by creating Visual Studio launch profiles that make use of the Compose profiles.
 
-To create another profile that makes use of the Compose profile, select **Use Docker Compose profiles** and choose `web1`. Now the launch profile includes three services – `webapplication1` (which belongs to both `web` and `web1` Compose profiles), `external1` and `external2`. By default, the services without source code such as `external1` and  `external2` have the default action of **Start without debugging**. .NET applications with source code will default to **Start debugging**.
+To create another profile that makes use of the Compose profile, select **Use Docker Compose profiles** and choose `web1`. Now the launch profile includes three services: `webapplication1` (which belongs to both `web` and `web1` Compose profiles), `external1`, and `external2`. By default, the services without source code such as `external1` and  `external2` have the default action of **Start without debugging**. .NET applications with source code defaults to **Start debugging**.
 
 > [!IMPORTANT]
-> If a service doesn't specify a Compose profile, it will be included in all Compose profiles implicitly.
+> If a service doesn't specify a Compose profile, it's included in all Compose profiles implicitly.
 
 ![Screenshot of launch settings dialog with another profile created](media/launch-settings/launch-settings-create-profile.png)
 
-This information will be saved as shown in the following code. The configuration for the service and its default action are not saved unless you change the default action.
+This information is saved as shown in the following code. The configuration for the service and its default action are not saved unless you change the default action.
 
 ```json
 {
@@ -172,7 +172,7 @@ You can also change the action of webapplication1 to **Start without debugging**
 
 ## Properties
 
-Here is a description of each property in the *launchSettings.json*:
+Here's a description of each property in the *launchSettings.json*:
 
 |Property| Description|
 | - | - |
