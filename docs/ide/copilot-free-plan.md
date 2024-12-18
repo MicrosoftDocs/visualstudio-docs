@@ -12,7 +12,7 @@ monikerRange: '>= vs-2022'
 ---
 # Use GitHub Copilot for free in Visual Studio
 
-GitHub Copilot Free enables you to experience AI-powered coding assistance in your IDE by providing limited access to select Copilot features. With [Copilot Free](https://aka.ms/ghdocscopilotfreepage), you can now access all AI-integrated features in Visual Studio, including [Completions](visual-studio-github-copilot-extension.md), Edits, and [Chat](visual-studio-github-copilot-chat.md).
+GitHub Copilot Free enables you to experience AI-powered coding assistance in your IDE by providing limited access to select Copilot features. With [Copilot Free](https://devblogs.microsoft.com/visualstudio/github-copilot-free-is-here-in-visual-studio/), you can now access all AI-integrated features in Visual Studio, including [Completions](visual-studio-github-copilot-extension.md), Edits, and [Chat](visual-studio-github-copilot-chat.md).
 
 ## Prerequisites
 
@@ -32,7 +32,7 @@ To get started with Copilot Free in Visual Studio, you need:
 **Set up Copilot Free using GitHub.com**
 
 - In the upper-right corner of any GitHub page, select your profile photo, and then select **Your Copilot**. 
-- Select **Start using Copilot Free** to activate Copilot Free.
+- Select **Start using Copilot Free** to activate Copilot Free and open a conversation thread.
 - Select **Use Copilot in other IDEs**, select **Visual Studio** and follow the instructions provided for Visual Studio. 
 
 ## Copilot Free usage limits in Visual Studio
