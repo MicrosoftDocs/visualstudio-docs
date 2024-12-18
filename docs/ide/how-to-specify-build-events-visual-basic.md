@@ -22,7 +22,7 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
 
 ## How to specify pre-build and post-build events
 
-To view or change build events for a Visual Basic .NET Core or .NET 5 and later project, right-click the project node, and choose **Properties** (or press **Alt**+**Enter**), then go to **Compile** > **Events**.
+To view or change build events for a Visual Basic .NET Core or .NET 5 and later project, right-click the project node, and choose **Properties** (or press **Alt**+**Enter**), then go to **Compile** > **Events**. Enter the desired command line. The working directory is the output directory.
 
 For .NET Framework projects, follow these steps:
 
