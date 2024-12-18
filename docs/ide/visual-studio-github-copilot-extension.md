@@ -1,7 +1,7 @@
 ---
 title: About GitHub Copilot Completions in Visual Studio
 description: Use GitHub Copilot completions in Visual Studio to use AI assistance to generate information about your code, including suggested edits and new code snippets.
-ms.date: 9/05/2024
+ms.date: 12/18/2024
 ms.topic: overview
 author: anandmeg
 ms.author: meghaanand
@@ -33,11 +33,8 @@ You can also use GitHub Copilot to convert comments to code, create unit tests, 
 
 To get started, you need:
 + Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later
-+ Active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business)
-+ [Sign in to Visual Studio with the GitHub account](work-with-github-accounts.md) that has an active GitHub Copilot subscription
-
-  > [!TIP]
-  > GitHub Copilot is free for verified students and for maintainers of popular open source projects on GitHub. If you are not a student or maintainer of a popular open source project, you can [try GitHub Copilot for free with a one-time 30-day trial](https://github.com/settings/copilot). After the free trial, you will need a [paid subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) for continued use.
++ [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
+  <sup>**</sup> You can use [GitHub Copilot for Free](copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
 
 GitHub Copilot supports several programming languages and frameworks, including but not limited to: C#, C++, and Python.
 
