@@ -1001,11 +1001,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/ide/copilot-free-plan.md",
-      "redirect_url": "/visualstudio/ide/visual-studio-github-copilot-install-and-states",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/msbuild/logging-in-a-multi-processor-environment.md",
       "redirect_url": "/visualstudio/msbuild/writing-multi-processor-aware-loggers",
       "redirect_document_id": false
