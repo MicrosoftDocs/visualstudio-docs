@@ -149,7 +149,7 @@ Copilot Chat uses the chat history to get context about your request. To give Co
 * Use threads to start a new conversation for a new task.
 * Delete requests that are no longer relevant or that didn’t give you the desired result.
 
-Keep the chat conversation open and continue to iterate and prompt Copilot to improve the suggested solution. Copilot has both the context of the generated code and your current conversation history. As you keep asking additional questions, Copilot further refines the response according to your requirements. See [Prompt engineering for Github Copilot](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot) for strategies on effective prompting to improve your Copilot results.
+Keep the chat conversation open and continue to iterate and prompt Copilot to improve the suggested solution. Copilot has both the context of the generated code and your current conversation history. As you keep asking additional questions, Copilot further refines the response according to your requirements. See [Prompt engineering for GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot) for strategies on effective prompting to improve your Copilot results.
 
 ## Next steps
 

@@ -55,7 +55,7 @@ When you hit the usage limits, your Copilot experience in Visual Studio may be i
        **Usage limit for Chat is reached**
     :::column-end::: 
     :::column span="2"::: 
-       User no longers receive chat responses when sending prompts. The Copilot badge stays green, indicating **active** status. 
+       User no longer receives chat responses when sending prompts. The Copilot badge stays green, indicating **active** status. 
     :::column-end::: 
 :::row-end:::
 :::row::: 
