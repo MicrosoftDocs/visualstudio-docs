@@ -37,11 +37,11 @@ For more information on GitHub Copilot Completions in Visual Studio, see [About 
 ## Prerequisites
 
 To get started, you need:
-
 + Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later
-+ Active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business)
-+ [**GitHub Copilot**](../ide/visual-studio-github-copilot-install-and-states.md) in Visual Studio
-+ [**GitHub Copilot Chat**](../ide/visual-studio-github-copilot-chat.md#get-github-copilot-chat-for-visual-studio)
++ [Sign in to Visual Studio using a GitHub account](../ide/work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
+  <sup>**</sup> You can use [GitHub Copilot for Free](../ide/copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
++ [GitHub Copilot](../ide/visual-studio-github-copilot-install-and-states.md) in Visual Studio
++ [GitHub Copilot Chat](../ide/visual-studio-github-copilot-chat.md#get-github-copilot-chat-for-visual-studio) in Visual Studio
 
    > [!NOTE]
    > If you experience authentication issues after installing the extension, see [Troubleshooting authentication issues with GitHub Copilot Chat](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-authentication-issues-with-github-copilot-chat).
