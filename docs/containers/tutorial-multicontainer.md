@@ -390,7 +390,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
       </div>
       ```
 
-      This code displays the value of the counter returned from the Web API project.
+      This code displays the value of the counter returned from the Web API project. It increments every time the user accesses or refreshes the page.
 
 ## Add Docker Compose support
 
