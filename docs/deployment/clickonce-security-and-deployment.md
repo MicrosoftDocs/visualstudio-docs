@@ -1,5 +1,5 @@
 ---
-title: "ClickOnce Security and Deployment"
+title: "ClickOnce Deployment and Security"
 description: Learn about Visual Studio support for ClickOnce, a deployment technology that enables you to create self-updating Windows-based applications.
 ms.date: "09/23/2024"
 ms.topic: "conceptual"
@@ -17,7 +17,7 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: deployment
 ---
-# ClickOnce security and deployment
+# ClickOnce deployment and security
 
 ClickOnce is a deployment technology that enables you to create self-updating Windows-based applications that can be installed and run with minimal user interaction. Visual Studio provides full support for publishing and updating applications deployed with ClickOnce technology if you have developed your projects with Visual Basic and Visual C#. For information about deploying Visual C++ applications, see [ClickOnce Deployment for Visual C++ Applications](/cpp/windows/clickonce-deployment-for-visual-cpp-applications).
 
