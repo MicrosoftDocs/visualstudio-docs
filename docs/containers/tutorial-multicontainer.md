@@ -459,8 +459,8 @@ Congratulations, you're running a Docker Compose application with a custom Docke
    >    {
    >    }
    >    Environment.Exit(-1);
-   >}
-   >```
+   > }
+   > ```
 
    These Docker Compose features require a property setting in the Docker Compose project file (`.dcproj`). Set the property `DependencyAwareStart` to true:
 
