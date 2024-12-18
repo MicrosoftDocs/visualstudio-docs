@@ -441,7 +441,26 @@ Congratulations, you're running a Docker Compose application with a custom Docke
    ```
 
    > [!NOTE]
-   > You don't have to add `curl` to the image. If you're using [chiseled images](https://devblogs.microsoft.com/dotnet/announcing-dotnet-chiseled-containers/), and you want to avoid adding any unnecessary tools and other files that would increase the image size, you could set up the web API's own executable to take a command-line argument that runs a health check, returning a success code (0) when ready, instead of installing and using `curl`.
+   > You don't have to add `curl` to the image. If you're using [chiseled images](https://devblogs.microsoft.com/dotnet/announcing-dotnet-chiseled-containers/), and you want to avoid adding any unnecessary tools and other files that would increase the image size, you could set up the web API's own executable to take a command-line argument that runs a health check, returning a success code (0) when ready, instead of installing and using `curl`. For example, you could use code like this to check the service's readiness:
+   >
+   > ```csharp
+   > if (args.Length == 1)
+   > {
+   >    System.Net.Http.HttpClient client = new System.Net.Http.HttpClient();
+   >    try
+   >    {
+   >        var res = await client.GetAsync(args[0]);
+   >        if (res.StatusCode == System.Net.HttpStatusCode.OK)
+   >        {
+   >            Environment.Exit(0);
+   >        }
+   >    }
+   >    catch
+   >    {
+   >    }
+   >    Environment.Exit(-1);
+   >}
+   >```
 
    These Docker Compose features require a property setting in the Docker Compose project file (`.dcproj`). Set the property `DependencyAwareStart` to true:
 
