@@ -370,6 +370,8 @@ Congratulations, you're running a Docker Compose application with a custom Docke
    </PropertyGroup>
    ```
 
+   This property activates a different way of starting the containers for debugging that supports the service dependency features.
+
    With these changes, the `webfrontend` service will not start until MyWebAPI starts and successfully handles a web request.
 
 1. In the `Index.cshtml` file, add a line to display `ViewData["Message"]` so that the file looks like the following code:
