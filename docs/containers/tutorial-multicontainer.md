@@ -401,7 +401,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
    Make sure the indentation is at the same level as the other two services.
 
-1. (Visual Studio 17.13 or later) The dependent services demonstrate a common problem. The HTTP request in the front end's main page could run immediately on application launch, before the MyWebAPI service is ready to receive web requests. If you're using Visual Studio 17.13 or later, you can use the Docker Compose features `depends_on` and `healthcheck` in *docker-compose.yml* to make the projects start in the right sequence, and have them be ready to serve requests when required. See [Docker Compose - Startup order](https://docs.docker.com/compose/how-tos/startup-order/).
+1. (Visual Studio 17.13 or later) The dependent services demonstrate a common problem. The HTTP request in the front end's main page could run immediately on application launch, before the `mywebapi` service is ready to receive web requests. If you're using Visual Studio 17.13 or later, you can use the Docker Compose features `depends_on` and `healthcheck` in *docker-compose.yml* to make the projects start in the right sequence, and have them be ready to serve requests when required. See [Docker Compose - Startup order](https://docs.docker.com/compose/how-tos/startup-order/).
 
     ```yml
    services:
@@ -441,7 +441,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
    ```
 
    > [!NOTE]
-   > You don't have to add `curl` to the image. If you're using [chiseled images](https://devblogs.microsoft.com/dotnet/announcing-dotnet-chiseled-containers/), and you want to avoid adding any unnecessary tools and other files that would increase the image size, you could set up the web API's own executable to take a command-line argument that runs a health check, returning a success code (0) when ready, instead of installing and using `curl`. For example, you could use code like this to check the service's readiness:
+   > You don't have to add `curl` to the image. If you're using [chiseled images](https://devblogs.microsoft.com/dotnet/announcing-dotnet-chiseled-containers/), or you just want to avoid adding any unnecessary tools and other files that would increase the image size, you could set up the web API's own executable to take a command-line argument that runs a health check, returning a success code (0) when ready, instead of installing and using `curl`. For example, you could use code like this to check the service's readiness:
    >
    > ```csharp
    > if (args.Length == 1)
