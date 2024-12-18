@@ -11,7 +11,9 @@ ms.collection: ce-skilling-ai-copilot
 ---
 # Debug and analyze unit tests by using Test Explorer
 
-You can use Test Explorer to start a debugging session for your tests. Stepping through your code with the Visual Studio debugger seamlessly takes you back and forth between the unit tests and the project under test. To start debugging:
+You can use Test Explorer to start a debugging session for your tests. Stepping through your code with the Visual Studio debugger seamlessly takes you back and forth between the unit tests and the project under test.
+
+To start debugging:
 
 1. In the Visual Studio editor, set a breakpoint in one or more test methods that you want to debug.
 
