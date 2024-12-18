@@ -33,7 +33,7 @@ In a low memory condition, the following actions take place:
 
 ## Improve Visual Studio performance
 
-For tips and tricks on how to improve Visual Studio performance when dealing with large solutions or low-memory conditions, see [Performance considerations for large solutions](https://github.com/dotnet/roslyn/blob/master/docs/wiki/Performance-considerations-for-large-solutions.md).
+For tips and tricks on how to improve Visual Studio performance when dealing with large solutions or low-memory conditions, see [Performance considerations for large solutions](https://github.com/dotnet/roslyn/blob/main/docs/wiki/Performance-considerations-for-large-solutions.md).
 
 ::: moniker range="<=vs-2019"
 
@@ -66,4 +66,4 @@ In addition, caches used for internal Visual Studio operations are also cleared.
 
 - [How to: Configure live code analysis scope for managed code](./configure-live-code-analysis-scope-managed-code.md)
 - [Fundamentals of Garbage Collection](/dotnet/standard/garbage-collection/fundamentals)
-- [Performance considerations for large solutions](https://github.com/dotnet/roslyn/blob/master/docs/wiki/Performance-considerations-for-large-solutions.md)
+- [Performance considerations for large solutions](https://github.com/dotnet/roslyn/blob/main/docs/wiki/Performance-considerations-for-large-solutions.md)

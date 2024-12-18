@@ -99,7 +99,7 @@ End Function
  The revised query calls the function `IsEven` on each pass through the `items`. You can use the debugger windows to see whether each item meets the specified condition, and you can step through the code in `IsEven`. The predicate in this example is fairly simple. However, if you have a more difficult predicate you have to debug, this technique can be very useful.
 
 ## <a name="BKMK_EditandContinueNotSupportedforLINQ"></a> Edit and Continue Not Supported for LINQ
- Edit and Continue supports changes to LINQ queries with limitations. For details, see [EnC Supported Changes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)
+ Edit and Continue supports changes to LINQ queries with limitations. For details, see [EnC Supported Changes](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md)
 
 ## Related content
 
