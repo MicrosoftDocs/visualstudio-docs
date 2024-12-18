@@ -312,14 +312,14 @@ Congratulations, you're running a Docker Compose application with a custom Docke
    }
    ```
 
-    > [!NOTE]
-    > In real-world code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
+   > [!NOTE]
+   > In real-world code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
 
-    The URI given references a service name defined in the *docker-compose.yml* file. Docker Compose sets up a default network for communication between containers using the listed service names as hosts.
+   The URI given references a service name defined in the *docker-compose.yml* file. Docker Compose sets up a default network for communication between containers using the listed service names as hosts.
 
-    The code shown here works with .NET 8 and later, which sets up a user account in the Dockerfile without administrator privileges, and exposes port 8080 because the HTTP default port 80 is not accessible without elevated privilege.
+   The code shown here works with .NET 8 and later, which sets up a user account in the Dockerfile without administrator privileges, and exposes port 8080 because the HTTP default port 80 is not accessible without elevated privilege.
 
-    1. (Visual Studio 17.13 or later) The dependent services demonstrate a common problem. The HTTP request in the front end's main page could run immediately on application launch, before the MyWebAPI service is ready to receive web requests. If you're using Visual Studio 17.13 or later, you can use the Docker Compose features `depends_on` and `healthcheck` in the Docker Compose file to make the projects start in the right sequence, and have them be ready to serve requests when required. See [Docker Compose - Startup order](https://docs.docker.com/compose/how-tos/startup-order/).
+1. (Visual Studio 17.13 or later) The dependent services demonstrate a common problem. The HTTP request in the front end's main page could run immediately on application launch, before the MyWebAPI service is ready to receive web requests. If you're using Visual Studio 17.13 or later, you can use the Docker Compose features `depends_on` and `healthcheck` in the Docker Compose file to make the projects start in the right sequence, and have them be ready to serve requests when required. See [Docker Compose - Startup order](https://docs.docker.com/compose/how-tos/startup-order/).
 
     ```yml
    services:
