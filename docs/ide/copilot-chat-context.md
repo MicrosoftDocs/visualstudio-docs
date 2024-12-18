@@ -1,7 +1,7 @@
 ---
 title: 'Tips & Tricks for GitHub Copilot Chat in Visual Studio'
 description: Use slash commands, references, and threads to form better questions and get better answers with scoped context in GitHub Copilot Chat.
-ms.date: 12/13/2024
+ms.date: 12/18/2024
 ms.topic: how-to 
 author: anandmeg
 ms.author: meghaanand
@@ -30,10 +30,10 @@ Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-d
 
 To get started using GitHub Copilot Chat in Visual Studio, you need:
 + Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later
-+ Active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to either [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business)
++ [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
+  <sup>**</sup> You can use [GitHub Copilot for Free](copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
 + [GitHub Copilot](visual-studio-github-copilot-install-and-states.md) in Visual Studio
 + [GitHub Copilot Chat](visual-studio-github-copilot-chat.md#get-github-copilot-chat-for-visual-studio) in Visual Studio
-+ [Sign in to Visual Studio with the GitHub account](work-with-github-accounts.md) that has an active GitHub Copilot subscription
 
 Support for GitHub Copilot Chat will be provided by GitHub and can be reached at https://support.github.com.
 
@@ -149,7 +149,7 @@ Copilot Chat uses the chat history to get context about your request. To give Co
 * Use threads to start a new conversation for a new task.
 * Delete requests that are no longer relevant or that didn’t give you the desired result.
 
-Keep the chat conversation open and continue to iterate and prompt Copilot to improve the suggested solution. Copilot has both the context of the generated code and your current conversation history. As you keep asking additional questions, Copilot further refines the response according to your requirements. See [Prompt engineering for Github Copilot](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot) for strategies on effective prompting to improve your Copilot results.
+Keep the chat conversation open and continue to iterate and prompt Copilot to improve the suggested solution. Copilot has both the context of the generated code and your current conversation history. As you keep asking additional questions, Copilot further refines the response according to your requirements. See [Prompt engineering for GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot) for strategies on effective prompting to improve your Copilot results.
 
 ## Next steps
 
