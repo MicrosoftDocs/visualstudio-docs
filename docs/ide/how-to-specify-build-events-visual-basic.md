@@ -1,7 +1,7 @@
 ---
 title: 'Specify build events (Visual Basic)'
 description: Explore how to use build events in Visual Basic to run scripts, macros, or other actions as a part of the compilation process.
-ms.date: 11/04/2016
+ms.date: 12/13/2024
 ms.subservice: compile-build
 ms.topic: how-to
 helpviewer_keywords:
@@ -18,10 +18,26 @@ manager: mijacobs
 
 Build events in Visual Basic can be used to run scripts, macros, or other actions as a part of the compilation process. Pre-build events occur before compilation; post-build events occur after compilation.
 
-Build events are specified in the **Build Events** dialog box, available from the **Compile** page of the **Project Designer**.
+:::moniker range=">=vs-2022"
 
-> [!NOTE]
-> Visual Basic Express does not support entry of build events. This is supported only in the full Visual Studio product.
+## How to specify pre-build and post-build events
+
+To view or change build events for a Visual Basic .NET Core or .NET 5 and later project, right-click the project node, and choose **Properties** (or press **Alt**+**Enter**), then go to **Compile** > **Events**. Enter the desired command line. The working directory is the output directory.
+
+For .NET Framework projects, follow these steps:
+
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+
+2. Click the **Compile** tab.
+
+3. Click the **Build Events** button to open the **Build Events** dialog box.
+
+4. Enter the command-line arguments for your pre-build or post-build action, and then click **OK**.
+    
+:::moniker-end
+
+:::moniker range="<=vs-2019"
+Build events are specified in the **Build Events** dialog box, available from the **Compile** page of the **Project Designer**.
 
 ## How to specify pre-build and post-build events
 
@@ -35,11 +51,13 @@ Build events are specified in the **Build Events** dialog box, available from th
 
 4. Enter the command-line arguments for your pre-build or post-build action, and then click **OK**.
 
-    > [!NOTE]
-    > Add a `call` statement before all post-build commands that run *.bat* files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.
+:::moniker-end
 
-    > [!NOTE]
-    > If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0), which indicates a successful action.
+> [!NOTE]
+> Add a `call` statement before all post-build commands that run *.bat* files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.
+
+> [!NOTE]
+> If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0), which indicates a successful action.
 
 ## Example: How to change manifest information using a post-build event
 
