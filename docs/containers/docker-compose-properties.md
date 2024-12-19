@@ -37,7 +37,7 @@ The following table shows the MSBuild properties available for Docker Compose pr
 |DockerComposeDownArguments|Specifies the extra parameters to pass to the `docker-compose down` command. For example, `--timeout 500`.|
 | DockerComposeEnvFilePath | The relative path to an .env file that's passed to `docker compose` commands via `--env-file`. See [Use the env_file attribute](https://docs.docker.com/compose/how-tos/environment-variables/set-environment-variables/#use-the-env_file-attribute).<br/><br/>Default value:  Empty |
 |DockerComposeProjectName | If specified, overrides the project name for a Docker Compose project. <br/><br/>Default value:  "dockercompose" + auto-generated hash |
-|DockerComposeProjectsToIgnore| Specifies projects to be ignored by Docker Compose tools during debug. This property can be used for any project. File paths can be specified one of two ways: <br> 1. Relative to dcproj. For example, `<DockerComposeProjectsToIgnore>path\to\AngularProject1.csproj</DockerComposeProjectsToIgnore>`. <br> 2. Absolute paths.<br> **Note**: The paths should be separated by the delimiter character `;`.|
+|DockerComposeProjectsToIgnore| Specifies projects to be ignored by Docker Compose tools during debug. This property can be used for any project. File paths can be specified one of two ways: <br> 1. Relative to dcproj. For example, `<DockerComposeProjectsToIgnore> path\to\AngularProject1.csproj </DockerComposeProjectsToIgnore>`. <br> 2. Absolute paths.<br> **Note**: The paths should be separated by the delimiter character `;`.|
 |DockerComposeUpArguments|Specifies the extra parameters to pass to the `docker-compose up` command. For example, `--timeout 500`.|
 |DockerDevelopmentMode | Controls whether the user project is built in the container. The allowed values of **Fast** or **Regular** control [which stages are built](https://aka.ms/containerfastmode) in a Dockerfile. The Debug configuration is Fast mode by default and Regular mode otherwise. <br/><br/>Default value:  Fast |
 |DockerLaunchAction | Specifies the launch action to perform on F5 or Ctrl+F5. Allowed values are None, LaunchBrowser, and LaunchWCFTestClient.<br/><br/>Default value: None |
@@ -47,7 +47,6 @@ The following table shows the MSBuild properties available for Docker Compose pr
 |DockerTargetOS | The target OS used when building the Docker image.|
 
 In addition, the property `DockerComposeProjectPath` in a `.csproj` or `.vbproj` project file specifies the relative path to the Docker Compose project (`.dcproj`) file. Set this property when publishing the service project to find the associated image build settings stored in the *docker-compose.yml* file.
-
 
 ## Example
 
