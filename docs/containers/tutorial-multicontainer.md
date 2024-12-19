@@ -409,7 +409,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
          image: ${DOCKER_REGISTRY-}webfrontend
          depends_on:
             mywebapi:
-            condition: service_healthy
+              condition: service_healthy
          build:
             context: .
             dockerfile: WebFrontEnd/Dockerfile
@@ -418,7 +418,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
          image: ${DOCKER_REGISTRY-}mywebapi
          depends_on:
             redis:
-            condition: service_started
+              condition: service_started
          healthcheck:
             test: curl --fail http://mywebapi:8080/ || exit 1
             interval: 20s
@@ -441,7 +441,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
    ```
 
    > [!NOTE]
-   > If you're using a Linux distro, like Alpine, that doesn't support `apt_get`, try `apk` instead. See [Alpine - install curl](https://www.shellhacks.com/alpine-install-curl/).
+   > If you're using a Linux distro, like Alpine, that doesn't support `apt-get`, try `apk` instead. See this [StackOverflow post](https://stackoverflow.com/questions/51192713/how-to-make-curl-available-in-docker-image-based-java8-jdk-alpine-and-keep-the).
 
    These Docker Compose features require a property setting in the Docker Compose project file (`.dcproj`). Set the property `DependencyAwareStart` to true:
 
