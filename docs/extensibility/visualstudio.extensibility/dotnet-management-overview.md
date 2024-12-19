@@ -32,7 +32,7 @@ For end-users of VS.Extensibiltiy extensions, the experience of using and managi
 * If an extension is only supported up to a .NET version that is near end-of-life, an info icon will be displayed on the extension tile in the Extension Manager window to inform the user that the extension is in danger of being unsupported.
 * If an extension is only supported up to a .NET version that is past end-of-life, a warning icon will be displayed on the extension tile in the Extension Manager window to inform the user that the extension is being run as best-effort on a version of .NET that has not declared support for, and may not work correctly.
 
-![image info](./.media/installed-extensions-extensionManager.png)
+![image info](./.media/GladstoneDotnetManagement/installed-extensions-extensionManager.png)
 
 In both scenarios, the user should contact the extension developer and ask them to ensure the extension works on a supported .NET LTS version and publish the updated extension.
 
@@ -42,5 +42,5 @@ For developers of VS.Extensibility extensions, the F5 debugging experience has b
 
 Now, when the selected startup project is a VS.Extensbility project, a combo box with a list of the .NET runtimes that are shipped with VS will appear beside the debug launch button. Choosing a runtime and launching the debug will ensure that the debugged extension will be executed using the selected runtime. In the experimental instance, the extension tile in the Extension Manager tool window will display a test icon and specify the .NET version that it's being evaluated for.
 
-![image info](./.media/set-f5-net-target-toolbarOnly.png)
-![image info](./.media/f5-extensionManager-tile.png)
+![image info](./.media/GladstoneDotnetManagement/set-f5-net-target-toolbarOnly.png)
+![image info](./.media/GladstoneDotnetManagement/f5-extensionManager-toolwindow.png)
