@@ -441,7 +441,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
    ```
 
    > [!NOTE]
-   > If you're using a Linux distro, like Alpine, that doesn't support `apt-get`, try `apk` instead. Add a line to the Dockerfile base image like `RUN apk --no-cache add curl`.
+   > If you're using a Linux distro, like Alpine, that doesn't support `apt-get`, try `RUN apk --no-cache add curl` instead.
 
    These Docker Compose features require a property setting in the Docker Compose project file (`.dcproj`). Set the property `DependencyAwareStart` to true:
 
