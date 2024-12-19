@@ -3,7 +3,7 @@ title: Docker Compose build settings
 author: ghogen
 description: Learn how to edit the Docker Compose build properties to customize how Visual Studio builds and runs a Docker Compose application.
 ms.author: ghogen
-ms.date: 04/06/2021
+ms.date: 12/19/2024
 ms.subservice: container-tools
 ms.topic: reference
 ---
@@ -31,6 +31,7 @@ The following table shows the MSBuild properties available for Docker Compose pr
 | Property name | Location | Description | Default value  |
 |---------------|----------|-------------|----------------|
 |AdditionalComposeFilePaths|dcproj|Specifies additional compose files in a semicolon-delimited list to be sent out to docker-compose.exe for all commands. Relative paths from the Docker Compose project file (dcproj) are allowed.|-|
+|DependencyAwareStart|dcproj|Enables a way of launching the app that supports Docker Compose properties that are used to control service startup and health checks: depends_on, healthcheck.| False | 
 |DockerComposeBaseFilePath|dcproj|Specifies the first part of the filenames of the Docker Compose files, without the `.yml` extension. For example: <br>1. DockerComposeBaseFilePath = null/undefined: use the base file path `docker-compose`, and files will be named *docker-compose.yml* and *docker-compose.override.yml*.<br>2. DockerComposeBaseFilePath = *mydockercompose*: files will be named *mydockercompose.yml* and *mydockercompose.override.yml*.<br> 3. DockerComposeBaseFilePath = *..\mydockercompose*: files will be up one level. |`docker-compose`|
 |DockerComposeBuildArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose build` command. For example, `--parallel --pull`. |
 |DockerComposeDownArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose down` command. For example, `--timeout 500`.|-|
