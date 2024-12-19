@@ -29,7 +29,7 @@ You can add the property setting to an existing `PropertyGroup` element, or if t
 The following table shows the MSBuild properties available for Docker Compose projects (`.dcproj` files).
 
 | Property name | Description | Default value  |
-|---------------|----------|-------------|----------------|
+|---------------|-------------|----------------|
 |AdditionalComposeFilePaths|Specifies additional compose files in a semicolon-delimited list to be sent out to docker-compose.exe for all commands. Relative paths from the Docker Compose project file (dcproj) are allowed.|-|
 |DependencyAwareStart|Enables a different way of launching the app that supports the Docker Compose properties [`depends_on`](https://docs.docker.com/reference/compose-file/services/#depends_on) and [`healthcheck`](https://docs.docker.com/reference/compose-file/services/#healthcheck), which control service startup order and health checks.<br/><br/>Requires Visual Studio 17.13 or later. | False |
 |DockerComposeBaseFilePath|Specifies the first part of the filenames of the Docker Compose files, without the `.yml` extension. For example: <br>1. DockerComposeBaseFilePath = null/undefined: use the base file path `docker-compose`, and files will be named *docker-compose.yml* and *docker-compose.override.yml*.<br>2. DockerComposeBaseFilePath = *mydockercompose*: files will be named *mydockercompose.yml* and *mydockercompose.override.yml*.<br> 3. DockerComposeBaseFilePath = *..\mydockercompose*: files will be up one level. |`docker-compose`|
