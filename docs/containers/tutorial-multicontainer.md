@@ -412,7 +412,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
               condition: service_healthy
          build:
             context: .
-            dockerfile: WebFrontEnd/Dockerfile
+              dockerfile: WebFrontEnd/Dockerfile
 
       mywebapi:
          image: ${DOCKER_REGISTRY-}mywebapi
@@ -426,7 +426,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
             retries: 5
          build:
             context: .
-            dockerfile: MyWebAPI/Dockerfile
+              dockerfile: MyWebAPI/Dockerfile
 
       redis:
          image: redis
