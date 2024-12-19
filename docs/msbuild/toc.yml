@@ -1893,7 +1893,7 @@ items:
         - name: MSB6011
           href: errors/msb6011.md
         - name: MSB6012
-          href: msb6012.md
+          href: errors/msb6012.md
       - name: MSB8000 - MSB8066
         items: 
           - name: MSB8000
