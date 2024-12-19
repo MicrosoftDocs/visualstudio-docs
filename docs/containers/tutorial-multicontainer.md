@@ -440,7 +440,8 @@ Congratulations, you're running a Docker Compose application with a custom Docke
    USER $APP_UID
    ```
 
-   (If you're using a Linux image that doesn't support `apt_get`, try using `apk` instead.)
+   > [!NOTE]
+   > If you're using a Linux distro, like Alpine, that doesn't support `apt_get`, try `apk` instead. See [Alpine - install curl](https://www.shellhacks.com/alpine-install-curl/).
 
    These Docker Compose features require a property setting in the Docker Compose project file (`.dcproj`). Set the property `DependencyAwareStart` to true:
 
