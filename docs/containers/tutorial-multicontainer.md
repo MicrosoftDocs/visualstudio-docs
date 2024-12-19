@@ -432,7 +432,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
          image: redis
    ```
 
-   In this example, the health check uses `curl` to verify that the service is ready to process requests. If the image you're using doesn't have `curl` installed, add lines to the `base` stage of the MyWebAPI Dockerfile to install it. This step requires elevated privileges, but you can restore the normal user privileges after installing it as shown here:
+   In this example, the health check uses `curl` to verify that the service is ready to process requests. If the image you're using doesn't have `curl` installed, add lines to the `base` stage of the MyWebAPI Dockerfile to install it. This step requires elevated privileges, but you can restore the normal user privileges after installing it as shown here (for the Debian images used in this example):
 
    ```dockerfile
    USER root
@@ -440,27 +440,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
    USER $APP_UID
    ```
 
-   > [!NOTE]
-   > You don't have to add `curl` to the image. If you're using [chiseled images](https://devblogs.microsoft.com/dotnet/announcing-dotnet-chiseled-containers/), or you just want to avoid adding any unnecessary tools and other files that would increase the image size, you could set up the web API's own executable to take a command-line argument that runs a health check, returning a success code (0) when ready, instead of installing and using `curl`. For example, you could use code like this to check the service's readiness:
-   >
-   > ```csharp
-   > if (args.Length == 1)
-   > {
-   >    System.Net.Http.HttpClient client = new System.Net.Http.HttpClient();
-   >    try
-   >    {
-   >        var res = await client.GetAsync(args[0]);
-   >        if (res.StatusCode == System.Net.HttpStatusCode.OK)
-   >        {
-   >            Environment.Exit(0);
-   >        }
-   >    }
-   >    catch
-   >    {
-   >    }
-   >    Environment.Exit(-1);
-   > }
-   > ```
+   (If you're using a Linux image that doesn't support `apt_get`, try using `apk` instead.)
 
    These Docker Compose features require a property setting in the Docker Compose project file (`.dcproj`). Set the property `DependencyAwareStart` to true:
 
