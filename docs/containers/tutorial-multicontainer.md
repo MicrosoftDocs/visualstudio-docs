@@ -441,7 +441,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
    ```
 
    > [!NOTE]
-   > If you're using a Linux distro, like Alpine, that doesn't support `apt-get`, try `apk` instead. See this [StackOverflow post](https://stackoverflow.com/questions/51192713/how-to-make-curl-available-in-docker-image-based-java8-jdk-alpine-and-keep-the).
+   > If you're using a Linux distro, like Alpine, that doesn't support `apt-get`, try `apk` instead. Add a line to the Dockerfile base image like `RUN apk --no-cache add curl`.
 
    These Docker Compose features require a property setting in the Docker Compose project file (`.dcproj`). Set the property `DependencyAwareStart` to true:
 
