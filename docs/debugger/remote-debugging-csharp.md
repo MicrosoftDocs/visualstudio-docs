@@ -68,7 +68,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 
     Otherwise, for .NET Framework, you change remote debug settings directly in the **Debug** tab.
 
-    ![Screenshot of the Debug tab in the Visual Studio Project Properties. The Use remote machine property is set to 'MJO-DL:4026'.](../debugger/media/vs-2022/remotedebuggercsharp.png)
+    ![Screenshot of the Debug tab in the Visual Studio Project Properties. The Use remote machine property is set to 'MJO-DL:4026'.](../debugger/media/vs-2022/remote-debugger-csharp.png)
     ::: moniker-end
     ::: moniker range="vs-2019"
     ![Screenshot of the Debug tab in the Visual Studio Project Properties. The Use remote machine property is set to 'MJO-DL:4022'.](../debugger/media/remotedebuggercsharp.png)
