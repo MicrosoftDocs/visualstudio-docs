@@ -1,7 +1,7 @@
 ---
 title: Find code changes and other history with CodeLens
 description: Explore CodeLens in Visual Studio and learn how to use the tool to explore the history of your code without having to leave the editor.
-ms.date: 12/19/2024
+ms.date: 12/20/2024
 ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.All_Languages.CodeLens
@@ -37,8 +37,6 @@ To choose the indicators that you want to see, or to turn CodeLens off and on, g
 Many of the operations described in the following sections are available by using keyboard shortcuts in the Visual Studio code editor window.
 
 To use the keyboard to select indicators, select and hold the **Alt** key to display the related number keys, then select the number on the keyboard that corresponds to the desired indicator:
-
-<!-- Reviewer: I wasn't able to identify all of the possible ALT key numbers in VS 2022 -->
 
 :::image type="content" source="./media/vs-2022/codelens-alt-keys.png" alt-text="Screenshot that shows the CodeLens keyboard access numbers in Visual Studio.":::
 
