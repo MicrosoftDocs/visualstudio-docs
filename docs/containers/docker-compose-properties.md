@@ -3,7 +3,7 @@ title: Docker Compose build settings
 author: ghogen
 description: Learn how to edit the Docker Compose build properties to customize how Visual Studio builds and runs a Docker Compose application.
 ms.author: ghogen
-ms.date: 04/06/2021
+ms.date: 12/19/2024
 ms.subservice: container-tools
 ms.topic: reference
 ---
@@ -26,25 +26,27 @@ You can add the property setting to an existing `PropertyGroup` element, or if t
 
 ## Docker Compose MSBuild properties
 
-The following table shows the MSBuild properties available for Docker Compose projects.
+The following table shows the MSBuild properties available for Docker Compose projects (`.dcproj` files).
 
-| Property name | Location | Description | Default value  |
-|---------------|----------|-------------|----------------|
-|AdditionalComposeFilePaths|dcproj|Specifies additional compose files in a semicolon-delimited list to be sent out to docker-compose.exe for all commands. Relative paths from the Docker Compose project file (dcproj) are allowed.|-|
-|DockerComposeBaseFilePath|dcproj|Specifies the first part of the filenames of the Docker Compose files, without the `.yml` extension. For example: <br>1. DockerComposeBaseFilePath = null/undefined: use the base file path `docker-compose`, and files will be named *docker-compose.yml* and *docker-compose.override.yml*.<br>2. DockerComposeBaseFilePath = *mydockercompose*: files will be named *mydockercompose.yml* and *mydockercompose.override.yml*.<br> 3. DockerComposeBaseFilePath = *..\mydockercompose*: files will be up one level. |`docker-compose`|
-|DockerComposeBuildArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose build` command. For example, `--parallel --pull`. |
-|DockerComposeDownArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose down` command. For example, `--timeout 500`.|-|
-| DockerComposeEnvFilePath | dcproj | The relative path to an .env file that's passed to `docker compose` commands via `--env-file`. See [Use the env_file attribute](https://docs.docker.com/compose/how-tos/environment-variables/set-environment-variables/#use-the-env_file-attribute). | Empty |
-|DockerComposeProjectName| dcproj | If specified, overrides the project name for a Docker Compose project. | "dockercompose" + auto-generated hash |
-|DockerComposeProjectPath|csproj or vbproj|The relative path to the Docker Compose project (dcproj) file. Set this property when publishing the service project to find the associated image build settings stored in the docker-compose.yml file.|-|
-|DockerComposeProjectsToIgnore|dcproj| Specifies projects to be ignored by Docker Compose tools during debug. This property can be used for any project. File paths can be specified one of two ways: <br> 1. Relative to dcproj. For example, `<DockerComposeProjectsToIgnore>path\to\AngularProject1.csproj</DockerComposeProjectsToIgnore>`. <br> 2. Absolute paths.<br> **Note**: The paths should be separated by the delimiter character `;`.|-|
-|DockerComposeUpArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose up` command. For example, `--timeout 500`.|-|
-|DockerDevelopmentMode| dcproj | Controls whether the user project is built in the container. The allowed values of **Fast** or **Regular** control [which stages are built](https://aka.ms/containerfastmode) in a Dockerfile. The Debug configuration is Fast mode by default and Regular mode otherwise. | Fast |
-|DockerLaunchAction| dcproj | Specifies the launch action to perform on F5 or Ctrl+F5. Allowed values are None, LaunchBrowser, and LaunchWCFTestClient. | None |
-|DockerLaunchBrowser| dcproj | Indicates whether to launch the browser. Ignored if DockerLaunchAction is specified. | False |
-|DockerServiceName| dcproj| If DockerLaunchAction or DockerLaunchBrowser are specified, then DockerServiceName specifies which service referenced in the `docker-compose` file gets launched.|-|
-|DockerServiceUrl| dcproj | The URL to use when launching the browser. Valid replacement tokens are "{ServiceIPAddress}", "{ServicePort}", and "{Scheme}". For example: {Scheme}://{ServiceIPAddress}:{ServicePort}|-|
-|DockerTargetOS| dcproj | The target OS used when building the Docker image.|-|
+| Property name | Description |
+|---------------|-------------|
+|AdditionalComposeFilePaths|Specifies additional compose files in a semicolon-delimited list to be sent out to docker-compose.exe for all commands. Relative paths from the Docker Compose project file (dcproj) are allowed.|
+|DependencyAwareStart|Enables a different way of launching the app that supports the Docker Compose properties [`depends_on`](https://docs.docker.com/reference/compose-file/services/#depends_on) and [`healthcheck`](https://docs.docker.com/reference/compose-file/services/#healthcheck), which control service startup order and health checks.<br/><br/>Requires Visual Studio 17.13 or later.<br/><br/>Default value: False |
+|DockerComposeBaseFilePath|Specifies the first part of the filenames of the Docker Compose files, without the `.yml` extension. For example: <br>1. DockerComposeBaseFilePath = null/undefined: use the base file path `docker-compose`, and files will be named *docker-compose.yml* and *docker-compose.override.yml*.<br>2. DockerComposeBaseFilePath = *mydockercompose*: files will be named *mydockercompose.yml* and *mydockercompose.override.yml*.<br> 3. DockerComposeBaseFilePath = *..\mydockercompose*: files will be up one level.<br/><br/>Default value: `docker-compose`|
+|DockerComposeBuildArguments|Specifies the extra parameters to pass to the `docker-compose build` command. For example, `--parallel --pull`. |
+|DockerComposeDownArguments|Specifies the extra parameters to pass to the `docker-compose down` command. For example, `--timeout 500`.|
+| DockerComposeEnvFilePath | The relative path to an .env file that's passed to `docker compose` commands via `--env-file`. See [Use the env_file attribute](https://docs.docker.com/compose/how-tos/environment-variables/set-environment-variables/#use-the-env_file-attribute).<br/><br/>Default value:  Empty |
+|DockerComposeProjectName | If specified, overrides the project name for a Docker Compose project. <br/><br/>Default value:  "dockercompose" + auto-generated hash |
+|DockerComposeProjectsToIgnore| Specifies projects to be ignored by Docker Compose tools during debug. This property can be used for any project. File paths can be specified one of two ways: <br> 1. Relative to dcproj. For example, `<DockerComposeProjectsToIgnore> path\to\AngularProject1.csproj </DockerComposeProjectsToIgnore>`. <br> 2. Absolute paths.<br> **Note**: The paths should be separated by the delimiter character `;`.|
+|DockerComposeUpArguments|Specifies the extra parameters to pass to the `docker-compose up` command. For example, `--timeout 500`.|
+|DockerDevelopmentMode | Controls whether the user project is built in the container. The allowed values of **Fast** or **Regular** control [which stages are built](https://aka.ms/containerfastmode) in a Dockerfile. The Debug configuration is Fast mode by default and Regular mode otherwise. <br/><br/>Default value:  Fast |
+|DockerLaunchAction | Specifies the launch action to perform on F5 or Ctrl+F5. Allowed values are None, LaunchBrowser, and LaunchWCFTestClient.<br/><br/>Default value: None |
+|DockerLaunchBrowser | Indicates whether to launch the browser. Ignored if DockerLaunchAction is specified. <br/><br/>Default value:  False |
+|DockerServiceName| If DockerLaunchAction or DockerLaunchBrowser are specified, then DockerServiceName specifies which service referenced in the `docker-compose` file gets launched.|
+|DockerServiceUrl | The URL to use when launching the browser. Valid replacement tokens are "{ServiceIPAddress}", "{ServicePort}", and "{Scheme}". For example: {Scheme}://{ServiceIPAddress}:{ServicePort}|
+|DockerTargetOS | The target OS used when building the Docker image.|
+
+In addition, the property `DockerComposeProjectPath` in a `.csproj` or `.vbproj` project file specifies the relative path to the Docker Compose project (`.dcproj`) file. Set this property when publishing the service project to find the associated image build settings stored in the *docker-compose.yml* file.
 
 ## Example
 
