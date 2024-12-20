@@ -58,7 +58,7 @@ You can find references in C# or Visual Basic code.
 
 1. To view the referencing code, hover over the reference in the list.
 
-   :::image type="content" source="./media/vs-2022/codelens-peek-reference.png"  border="false" alt-text="Screenshot that shows how to see the file with the reference by using CodeLens - Peek reference for Visual Studio 2019.":::
+   :::image type="content" source="./media/vs-2022/codelens-peek-reference.png"  border="false" alt-text="Screenshot that shows how to see the file with the reference by using CodeLens - Peek reference for Visual Studio.":::
 
 1. To open the file that contains the reference, double-click the reference.
 
@@ -66,7 +66,7 @@ You can find references in C# or Visual Basic code.
 
 To see relationships between the code and its references, you can [create a code map](../modeling/map-dependencies-across-your-solutions.md). In the **Code Map** toolbar, expand the **Show Related** dropdown menu and select **Find All References**:
 
-:::image type="content" source="./media/vs-2022/codelens-references-map.png" border="false" alt-text="Screenshot that shows how to create a map of all references to specific code by using CodeLens in Visual Studio.":::
+:::image type="content" source="./media/vs-2022/codelens-references-map.png" border="false" alt-text="Screenshot that shows how to create a map of all references to specific code by using CodeLens in Visual Studio." lightbox="./media/vs-2022/codelens-references-map.png":::
 
 ## Find changes in your code
 
@@ -188,11 +188,11 @@ You can discover unit tests that exist for your C# or Visual Basic code without 
 
 1. Review the tests for the code use the **Alt** + **3** keyboard shortcut.
 
-1. If you see the **Warning** icon :::image type="icon" source=".../media/codelens-test-warning-icon.png":::, the tests haven't run yet, so run them.
+1. If you see the **Warning** icon :::image type="icon" source="./media/codelens-test-warning-icon.png":::, the tests haven't run yet, so run them.
 
 1. To review a test's definition, double-click the test item in the CodeLens indicator window and open the code file in the editor.
 
-1. To review the test's results, choose the test status **Failed** or **Passed** indicator (:::image type="icon" source=".../media/codelens-test-failed-icon.png"::: or :::image type="icon" source=".../media/codelens-test-passed-icon.png":::) or use the **Alt**+**1** keyboard shortcut.
+1. To review the test's results, choose the test status **Failed** or **Passed** indicator (:::image type="icon" source="./media/codelens-test-failed-icon.png"::: or :::image type="icon" source="./media/codelens-test-passed-icon.png":::) or use the **Alt**+**1** keyboard shortcut.
 
 1. To see how many contributors changed this test, who changed this test, or how many changes were made to this test, [find your code's history](#find-changes-in-your-code) and linked items.
 
@@ -239,7 +239,7 @@ To use the keyboard:
 
 ### Q: Can I move the CodeLens heads-up display?
 
-**A:** Yes, choose the **Dock** icon :::image type="icon" source=".../media/codelens-dock-window.png"::: to dock CodeLens as a window.
+**A:** Yes, choose the **Dock** icon :::image type="icon" source="./media/codelens-dock-window.png"::: to dock CodeLens as a window.
 
 ### Q: How do I refresh the indicators?
 
@@ -421,14 +421,14 @@ The icon in the **Branch** column indicates how the branch is related to the bra
 
 | Icon | The change came from |
 | --- | --- |
-| :::image type="icon" source=".../media/codelens-branch-current-icon.png":::            | The current branch |
-| :::image type="icon" source=".../media/codelens-branch-parent-icon.png":::             | The parent branch |
-| :::image type="icon" source=".../media/codelens-branch-child-icon.png":::              | A child branch |
-| :::image type="icon" source=".../media/codelens-branch-peer-icon.png":::               | A peer branch |
-| :::image type="icon" source=".../media/codelens-branch-further-away-icon.png":::        | A branch further away than a parent, child, or peer |
-| :::image type="icon" source=".../media/codelens-branch-merge-from-parent-icon.png":::    | A merge from the parent branch to a child branch |
-| :::image type="icon" source=".../media/codelens-branch-merge-from-child-icon.png":::     | A merge from a child branch to the parent branch |
-| :::image type="icon" source=".../media/codelens-branch-merge-from-unrelated-icon.png"::: | A merge from an unrelated branch (baseless merge) |
+| :::image type="icon" source="./media/codelens-branch-current-icon.png":::            | The current branch |
+| :::image type="icon" source="./media/codelens-branch-parent-icon.png":::             | The parent branch |
+| :::image type="icon" source="./media/codelens-branch-child-icon.png":::              | A child branch |
+| :::image type="icon" source="./media/codelens-branch-peer-icon.png":::               | A peer branch |
+| :::image type="icon" source="./media/codelens-branch-further-away-icon.png":::        | A branch further away than a parent, child, or peer |
+| :::image type="icon" source="./media/codelens-branch-merge-from-parent-icon.png":::    | A merge from the parent branch to a child branch |
+| :::image type="icon" source="./media/codelens-branch-merge-from-child-icon.png":::     | A merge from a child branch to the parent branch |
+| :::image type="icon" source="./media/codelens-branch-merge-from-unrelated-icon.png"::: | A merge from an unrelated branch (baseless merge) |
 
 ## Linked work items in Visual Studio 2019
 
@@ -470,15 +470,15 @@ You can discover unit tests that exist for your C# or Visual Basic code without 
 
    :::image type="content" source="./media/codelens-choose-test-indicator.png" alt-text="Screenshot that shows how to choose test status in the code editor with CodeLens in Visual Studio 2019.":::
 
-1. If you see the **Warning** icon :::image type="icon" source=".../media/codelens-test-warning-icon.png":::, the tests haven't run yet, so run them.
+1. If you see the **Warning** icon :::image type="icon" source="./media/codelens-test-warning-icon.png":::, the tests haven't run yet, so run them.
 
    :::image type="content" source="./media/codelens-tests-not-yet-run.png" alt-text="Screenshot that shows how to view unit tests not yet run with CodeLens in Visual Studio 2019.":::
 
 1. To review a test's definition, double-click the test item in the CodeLens indicator window and open the code file in the editor:
 
- :::image type="content" source="./media/codelens-unit-test-definition.png" alt-text="Screenshot that shows how to go to a unit test definition with CodeLens in Visual Studio 2019.":::
+   :::image type="content" source="./media/codelens-unit-test-definition.png" alt-text="Screenshot that shows how to go to a unit test definition with CodeLens in Visual Studio 2019.":::
 
-1. To review the test's results, choose the test status **Failed** or **Passed** indicator (:::image type="icon" source=".../media/codelens-test-failed-icon.png"::: or :::image type="icon" source=".../media/codelens-test-passed-icon.png":::) or use the **Alt** + **1** keyboard shortcut:
+1. To review the test's results, choose the test status **Failed** or **Passed** indicator (:::image type="icon" source="./media/codelens-test-failed-icon.png"::: or :::image type="icon" source="./media/codelens-test-passed-icon.png":::) or use the **Alt** + **1** keyboard shortcut:
 
    :::image type="content" source="./media/codelens-unit-test-result.png" alt-text="Screenshot that shows how to view the unit test result with CodeLens in Visual Studio 2019.":::
 
@@ -533,7 +533,7 @@ To use the keyboard:
 
 ### Q: Can I move the CodeLens heads-up display?
 
-**A:** Yes, choose the **Dock** icon :::image type="icon" source=".../media/codelens-dock-window.png"::: to dock CodeLens as a window.
+**A:** Yes, choose the **Dock** icon :::image type="icon" source="./media/codelens-dock-window.png"::: to dock CodeLens as a window.
 
 :::image type="content" source="./media/codelens-select-dock-window.png" alt-text="Screenshot of Dock button in CodeLens indicator window in Visual Studio 2019.":::
 
