@@ -26,7 +26,7 @@ CodeLens can show you both where and how the individual parts of your code are u
 
 :::image type="content" source="./media/vs-2022/codelens-overview.png" border="false" alt-text="Screenshot of CodeLens indicators in the Visual Studio code editor." lightbox="./media/codelens-overview.png":::
 
-View details about user's code changes, and use the right-click > **Send email to <user>** option to contact users without leaving the code editor:
+View details about user's code changes, and use the right-click **Send email to \<user>** option to contact users without leaving the code editor:
 
 :::image type="content" source="./media/vs-2022/codelens-contact-info.png"  border="false" alt-text="Screenshot that shows how to view details about changes made by your team members in CodeLens for Visual Studio.":::
 
@@ -80,7 +80,7 @@ You need:
 
 For C# (*.cs*) or Visual Basic (*.vb*) code stored with TFVC or Git, CodeLens details are visible at the class and method levels (*code element-level* indicators) within the file:
 
-:::image type="content" source="./media/vs-2022/codelens-element-level-indicators.png" "border="false" alt-text="Screenshot that shows code element-level indicators for team contributions in CodeLens for Visual Studio.":::
+:::image type="content" source="./media/vs-2022/codelens-element-level-indicators.png" border="false" alt-text="Screenshot that shows code element-level indicators for team contributions in CodeLens for Visual Studio.":::
 
 For file types other than *.cs* or *.vb*, the **Show file level Codelens indicator** option lets you view CodeLens details for the entire file. The *file-level* indicators are displayed at the bottom of the file in the code editor:
 
@@ -111,7 +111,7 @@ To get more details about a change, right-click the item. Depending on whether y
 
 The indicators show who changed your code over time, which can help you find patterns in your team's changes and assess their impact:
 
-:::image type="content" source="./media/vs-2022/codelens-element-level-indicators.png" "border="false" alt-text="Screenshot that shows code element-level indicators for team contributions as a graph in CodeLens for Visual Studio.":::
+:::image type="content" source="./media/vs-2022/codelens-element-level-indicators.png" border="false" alt-text="Screenshot that shows code element-level indicators for team contributions as a graph in CodeLens for Visual Studio.":::
 
 Starting in Visual Studio 2022 version 17.12 Preview 2, you can show or hide file-level indicators on the code editor horizontal scrollbar with the **Tools > Options > Text Editor > Advanced** > **Show file level CodeLens indicator** option. This option updates visibility for file types that implement the file-level CodeLens control in the bottom editor scrollbar, such as XAML, HTML, and CSS. The option doesn't affect files that contain inline CodeLens (C# and VB).
 
@@ -151,14 +151,14 @@ The icon in the **Branch** column indicates how the branch is related to the bra
 
 | Icon | The change came from |
 | --- | --- |
-| :::image type="icon" source=".../media/codelens-branch-current-icon.png":::            | The current branch |
-| :::image type="icon" source=".../media/codelens-branch-parent-icon.png":::             | The parent branch |
-| :::image type="icon" source=".../media/codelens-branch-child-icon.png":::              | A child branch |
-| :::image type="icon" source=".../media/codelens-branch-peer-icon.png":::               | A peer branch |
-| :::image type="icon" source=".../media/codelens-branch-further-away-icon.png":::        | A branch further away than a parent, child, or peer |
-| :::image type="icon" source=".../media/codelens-branch-merge-from-parent-icon.png":::    | A merge from the parent branch to a child branch |
-| :::image type="icon" source=".../media/codelens-branch-merge-from-child-icon.png":::     | A merge from a child branch to the parent branch |
-| :::image type="icon" source=".../media/codelens-branch-merge-from-unrelated-icon.png"::: | A merge from an unrelated branch (baseless merge) |
+| :::image type="icon" source="./media/codelens-branch-current-icon.png":::            | The current branch |
+| :::image type="icon" source="./media/codelens-branch-parent-icon.png":::             | The parent branch |
+| :::image type="icon" source="./media/codelens-branch-child-icon.png":::              | A child branch |
+| :::image type="icon" source="./media/codelens-branch-peer-icon.png":::               | A peer branch |
+| :::image type="icon" source="./media/codelens-branch-further-away-icon.png":::        | A branch further away than a parent, child, or peer |
+| :::image type="icon" source="./media/codelens-branch-merge-from-parent-icon.png":::    | A merge from the parent branch to a child branch |
+| :::image type="icon" source="./media/codelens-branch-merge-from-child-icon.png":::     | A merge from a child branch to the parent branch |
+| :::image type="icon" source="./media/codelens-branch-merge-from-unrelated-icon.png"::: | A merge from an unrelated branch (baseless merge) |
 
 ## Linked work items
 
@@ -288,7 +288,7 @@ Many of the operations described in the following sections are available by usin
 
 To use the keyboard to select indicators, select and hold the **Alt** key to display the related number keys, then select the number on the keyboard that corresponds to the desired indicator:
 
-:::image type="content" source="./media/codelens-alt-keys.png" alt-text="Screenshot that shows the CodeLens keyboard access numbers in Visual Studio 2019.":::
+:::image type="content" source="./media/vs-2019/codelens-alt-keys.png" alt-text="Screenshot that shows the CodeLens keyboard access numbers in Visual Studio 2019.":::
 
 > [!NOTE]
 > To select the **reviews** indicator, select **Alt** while using the **Left Arrow** and **Right Arrow key** to browse.
