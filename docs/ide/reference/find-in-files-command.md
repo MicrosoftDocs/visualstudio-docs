@@ -19,7 +19,7 @@ monikerRange: "<=vs-2019"
 Search files using a subset of the options available on the **Find in Files** tab of the **Find and Replace** window.
 
 > [!IMPORTANT]
-> Support for this command was discontinued in version 16.5 of Visual Studio 2019. If you use this command with version 16.5 or a later version, you might see an error message that says, *Command "Edit.FindinFiles" does not accept arguments or switches.*
+> Support for this command was removed in version 16.5 of Visual Studio 2019, and restored in version 17.12 of Visual Studio 2022. If you use this command with versions 16.5-17.11, you might see an error message that says, *Command "Edit.FindinFiles" does not accept arguments or switches.*
 
 ## Syntax
 
