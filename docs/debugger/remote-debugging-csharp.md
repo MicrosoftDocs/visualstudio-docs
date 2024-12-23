@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug a C# or VB project"
 description: Learn how to debug a Visual Studio C# or Visual Basic application from a remote computer by following these step-by-step instructions.
-ms.date: "12/17/2023"
+ms.date: "12/18/2024"
 ms.topic: "conceptual"
 dev_langs:
   - "C++"
@@ -64,12 +64,15 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
     ::: moniker range="vs-2022"
     For C# projects targeting .NET Core or .NET 5+, starting in Visual Studio 2022, choose the **Debug launch profiles UI** from the **Debug** tab to configure settings for remote debugging.
 
-    ![Screenshot of the Debug launch profile UI in the Visual Studio Project Properties for C# and .NET.](../debugger/media/vs-2022/remote-debugger-csharp.png)
+    ![Screenshot of the Debug launch profile UI in the Visual Studio Project Properties for C# and .NET.](../debugger/media/vs-2022/remote-debugger-csharp-launch-profile.png)
 
-    Otherwise, you change remote debug settings directly in the **Debug** tab.
+    Otherwise, for .NET Framework, you change remote debug settings directly in the **Debug** tab.
+
+    ![Screenshot of the Debug tab in the Visual Studio Project Properties. The Use remote machine property is set to 'MJO-DL:4026'.](../debugger/media/vs-2022/remote-debugger-csharp.png)
     ::: moniker-end
-
+    ::: moniker range="vs-2019"
     ![Screenshot of the Debug tab in the Visual Studio Project Properties. The Use remote machine property is set to 'MJO-DL:4022'.](../debugger/media/remotedebuggercsharp.png)
+    ::: moniker-end
 
 5. Make sure the **Working directory** text box is empty.
 
