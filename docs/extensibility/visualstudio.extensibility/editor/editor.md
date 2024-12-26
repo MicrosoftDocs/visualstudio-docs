@@ -394,7 +394,7 @@ If a Code Lens provider has to reference code elements that are not already bein
 
 ## Extending text views with new taggers
 
-Extensions can contribute new tagger to Visual Studio. Taggers are used to associate data with spans of documents, such data is consumed by other Visual Studio features (E.g., CodeLens).
+Extensions can contribute new tagger to Visual Studio. Taggers are used to associate data with spans of text, such data is consumed by other Visual Studio features (E.g., CodeLens).
 
 VisualStudio.Extensibility only supports tag types that are provided by the [Microsoft.VisualStudio.Extensibility](https://www.nuget.org/packages/Microsoft.VisualStudio.Extensibility) package and implement the `Microsoft.VisualStudio.Extensibility.Editor.ITag` interface:
 
