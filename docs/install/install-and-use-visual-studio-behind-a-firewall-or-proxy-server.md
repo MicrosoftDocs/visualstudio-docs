@@ -37,8 +37,6 @@ The Visual Studio Installer downloads files from various domains and their downl
 | download.visualstudio.microsoft.com   | Setup packages download location            |
 | download.microsoft.com                | Setup packages download location            |
 | download.visualstudio.com             | Setup packages download location            |
-| dl.xamarin.com                        | Setup packages download location            |
-| xamarin-downloads.azureedge.net       | Android SDK packages download list location |
 | marketplace.visualstudio.com          | Visual Studio Extensions download location  |
 | \*.gallerycdn.vsassets.io             | Visual Studio Extensions download location  |
 | visualstudio.microsoft.com            | Documentation location                      |
