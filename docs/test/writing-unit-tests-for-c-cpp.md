@@ -115,7 +115,7 @@ In your unit test `.cpp` file, add an `#include` directive for any header files 
 > [!NOTE]
 > This section shows syntax for the Microsoft Unit Testing Framework for C/C++. For more information, see [Microsoft.VisualStudio.TestTools.CppUnitTestFramework API reference](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md).
 >
-> For Google Test documentation, see [Google Test primer](https://github.com/google/googletest/blob/master/docs/primer.md). For Boost.Test, see [Boost Test library: The unit test framework](https://www.boost.org/doc/libs/1_46_0/libs/test/doc/html/utf.html).
+> For Google Test documentation, see [Google Test primer](https://github.com/google/googletest/blob/main/docs/primer.md). For Boost.Test, see [Boost Test library: The unit test framework](https://www.boost.org/doc/libs/1_46_0/libs/test/doc/html/utf.html).
 
 The `.cpp` file in your test project has a stub class and method defined for you. They show an example of how to write test code. The signatures use the TEST_CLASS and TEST_METHOD macros, which make the methods discoverable from the **Test Explorer** window.
 

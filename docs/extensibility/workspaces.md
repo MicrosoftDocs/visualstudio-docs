@@ -9,7 +9,7 @@ manager: "viveis"
 ---
 # Workspaces
 
-A workspace is how Visual Studio represents any collection of files in [Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md), and it's represented by the <xref:Microsoft.VisualStudio.Workspace.IWorkspace> type. By itself, the workspace doesn't understand the contents or features related to files within the folder. Rather, it provides a general set of APIs for features and extensions to produce and consume data that others can act upon. The producers are composed through the [Managed Extensibility Framework](https://github.com/Microsoft/vs-mef/blob/master/doc/index.md) (MEF) using various export attributes.
+A workspace is how Visual Studio represents any collection of files in [Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md), and it's represented by the <xref:Microsoft.VisualStudio.Workspace.IWorkspace> type. By itself, the workspace doesn't understand the contents or features related to files within the folder. Rather, it provides a general set of APIs for features and extensions to produce and consume data that others can act upon. The producers are composed through the [Managed Extensibility Framework](https://github.com/Microsoft/vs-mef/blob/main/doc/index.md) (MEF) using various export attributes.
 
 ## Workspace providers and services
 

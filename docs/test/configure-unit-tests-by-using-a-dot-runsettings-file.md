@@ -487,6 +487,6 @@ The **RunConfiguration** node should contain an **EnvironmentVariables** node. A
 
 ## Related content
 
-- [Configure a test run](https://github.com/microsoft/vstest-docs/blob/master/docs/configure.md)
+- [Configure a test run](https://github.com/microsoft/vstest-docs/blob/main/docs/configure.md)
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)
 - [Visual Studio test task (Azure Test Plans)](/azure/devops/pipelines/tasks/test/vstest?view=vsts&preserve-view=true)

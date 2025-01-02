@@ -24,7 +24,7 @@ Some of the more common build actions for C# and Visual Basic project files are:
 
 |Build Action | Project types | Description |
 |-|-|
-| **AdditionalFiles** | C#, Visual Basic | A non-source text file that's passed to the C# or Visual Basic compiler as input. This build action is mainly used to provide inputs to [analyzers](../code-quality/roslyn-analyzers-overview.md) that are referenced by a project to verify code quality. For more information, see [Use additional files](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Using%20Additional%20Files.md).|
+| **AdditionalFiles** | C#, Visual Basic | A non-source text file that's passed to the C# or Visual Basic compiler as input. This build action is mainly used to provide inputs to [analyzers](../code-quality/roslyn-analyzers-overview.md) that are referenced by a project to verify code quality. For more information, see [Use additional files](https://github.com/dotnet/roslyn/blob/main/docs/analyzers/Using%20Additional%20Files.md).|
 | **ApplicationDefinition** | WPF | The file that defines your application. When you first create a project, this file is *App.xaml*. |
 | **CodeAnalysisDictionary** | .NET | A custom word dictionary, used by Code Analysis for spell checking. See [How to: Customize the Code Analysis Dictionary](../code-quality/how-to-customize-the-code-analysis-dictionary.md)|
 | **Compile** | any | The file is passed to the compiler as a source file.|
