@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Create a pull request in Visual Studio by using GitHub or Azure DevOps.
 ms.date: 10/7/2024
 ms.topic: how-to
-author: houghj16
-ms.author: jehoughton
+author: ghogen
+ms.author: ghogen
 ms.manager: mijacobs
 ms.collection: ce-skilling-ai-copilot
 ms.subservice: general-ide
