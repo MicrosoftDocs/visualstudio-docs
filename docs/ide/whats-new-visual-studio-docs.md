@@ -113,15 +113,13 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Find code changes and other history with CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) - Review and update
 - [Change text case in the editor](../ide/how-to-change-text-case-in-the-editor.md) - Add link to keyboard shortcuts
-
-- [Use GitHub Copilot for free in Visual Studio](../ide/copilot-free-plan.md)
-- [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md)
-- [Get better answers by setting the context for GitHub Copilot Chat in Visual Studio](../ide/copilot-chat-context.md)
-- [What is the GitHub Copilot Chat experience for Visual Studio?](../ide/visual-studio-github-copilot-chat.md)
-- [What is GitHub Copilot Completions for Visual Studio?](../ide/visual-studio-github-copilot-extension.md)
-- [Install GitHub Copilot in Visual Studio](../ide/visual-studio-github-copilot-install-and-states.md)
-  - Updates for Copilot Free
-
+- Updates for Copilot Free
+  - [Use GitHub Copilot for free in Visual Studio](../ide/copilot-free-plan.md)
+  - [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md)
+  - [Get better answers by setting the context for GitHub Copilot Chat in Visual Studio](../ide/copilot-chat-context.md)
+  - [What is the GitHub Copilot Chat experience for Visual Studio?](../ide/visual-studio-github-copilot-chat.md)
+  - [What is GitHub Copilot Completions for Visual Studio?](../ide/visual-studio-github-copilot-extension.md)
+  - [Install GitHub Copilot in Visual Studio](../ide/visual-studio-github-copilot-install-and-states.md)
 - [.NET Project Designer](../ide/reference/project-designer-dotnet-csharp.md) - Update for Visual Basic now using the .NET Project Designer
 - [What is the .NET Project Designer?](../ide/reference/project-properties-reference.md) - Update for Visual Basic now using the .NET Project Designer
 - [Specify build events (Visual Basic)](../ide/how-to-specify-build-events-visual-basic.md) - Update for Visual Studio 2022
