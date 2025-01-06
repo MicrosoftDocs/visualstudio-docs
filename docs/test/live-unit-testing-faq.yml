@@ -209,7 +209,7 @@ sections:
           Yes, but you need to make sure it's enabled. If you are using a Dev Drive, make sure that the [projected file system (ProjFS)](/windows/dev-drive/#filters-for-common-scenarios) filter is enabled. For example, the following command enables ProjFS and Windows Defender:
           
           ```cmd
-          fsutil devdrv setfiltersallowed PrjFlt, WdFilter
+          fsutil devdrv setfiltersallowed PrjFlt,WdFilter
           ```
           
 additionalContent: |
