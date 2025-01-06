@@ -18,7 +18,7 @@ ms.subservice: xaml-tools
 
 The XAML Designer in Visual Studio and Blend for Visual Studio provides a visual interface to help you design XAML-based apps, such as WPF and UWP. You can create user interfaces for your apps by dragging controls from the Toolbox window (Assets window in Blend for Visual Studio) and setting properties in the Properties window. You can also edit XAML directly in XAML view.
 
-For advanced users, you can even [customize the XAML Designer](https://github.com/microsoft/xaml-designer-extensibility/blob/master/documents/xaml-designer-extensibility-migration.md).
+For advanced users, you can even [customize the XAML Designer](https://github.com/microsoft/xaml-designer-extensibility/blob/main/documents/xaml-designer-extensibility-migration.md).
 
 > [!NOTE]
 > WinUI 3 / .NET MAUI XAML designer is not supported in Visual Studio 2022. To view your WinUI 3 / .NET MAUI XAML UIs and edit them while the app is running, use XAML Hot Reload for WinUI 3 / .NET MAUI. For more information, see the [XAML Hot Reload](../xaml-tools/xaml-hot-reload.md) page.

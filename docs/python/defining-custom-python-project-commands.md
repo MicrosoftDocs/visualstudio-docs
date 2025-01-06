@@ -425,7 +425,7 @@ The following command runs the `where` function to show the location of Python f
 
 ### Run server and run debug server commands
 
-To explore how the **Start server** and **Start debug server** commands for web projects are defined, examine the [Microsoft.PythonTools.Web.targets](https://github.com/Microsoft/PTVS/blob/master/Python/Product/BuildTasks/Microsoft.PythonTools.Web.targets) repository on GitHub.
+To explore how the **Start server** and **Start debug server** commands for web projects are defined, examine the [Microsoft.PythonTools.Web.targets](https://github.com/Microsoft/PTVS/blob/main/Python/Product/BuildTasks/Microsoft.PythonTools.Web.targets) repository on GitHub.
 
 ### Install package for development
 

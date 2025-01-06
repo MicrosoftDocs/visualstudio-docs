@@ -32,28 +32,28 @@ The following table shows the changes that might be made to C# and Visual Basic 
 ::: moniker range=">=vs-2022"
 | Language element or feature | Supported edit operation | Limitations |
 |---|---|---|
-| Types |Add methods, fields, constructors, and more |[Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) |
+| Types |Add methods, fields, constructors, and more |[Yes](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) |
 | Iterators | Add or modify | No |
-| async/await expressions | Add or modify | [Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) |
+| async/await expressions | Add or modify | [Yes](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) |
 | Dynamic objects | Add or modify | No |
-| lambda expressions | Add or modify | [Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) |
-| LINQ expressions | Add or modify | [Same as lambda expressions](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) |
-| Generics | Add or modify | [Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)
+| lambda expressions | Add or modify | [Yes](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) |
+| LINQ expressions | Add or modify | [Same as lambda expressions](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) |
+| Generics | Add or modify | [Yes](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md)
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 | Language element or feature | Supported edit operation | Limitations |
 |---|---|---|
-| Types |Add methods, fields, constructors, and more |[Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) |
+| Types |Add methods, fields, constructors, and more |[Yes](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) |
 | Iterators | Add or modify | No |
-| async/await expressions | Add or modify | [Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) |
+| async/await expressions | Add or modify | [Yes](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) |
 | Dynamic objects | Add or modify | No |
-| lambda expressions | Add or modify | [Yes](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) |
-| LINQ expressions | Add or modify | [Same as lambda expressions](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) |
+| lambda expressions | Add or modify | [Yes](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) |
+| LINQ expressions | Add or modify | [Same as lambda expressions](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) |
 ::: moniker-end
 
 > [!NOTE]
-> Newer language features such as string interpolation and null-conditional operators are generally supported by Edit and Continue. For the most current information, see the [Enc Supported Edits](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) page.
+> Newer language features such as string interpolation and null-conditional operators are generally supported by Edit and Continue. For the most current information, see the [Enc Supported Edits](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) page.
 
 ::: moniker range=">=vs-2022"
 
@@ -84,7 +84,7 @@ The following changes can't be applied to C# and Visual Basic code during a debu
    | Namespaces | Add |
    | Namespaces, types, members | Delete |
    | Interfaces | Modify |
-   | Types | Add abstract or virtual member, add override (see [details](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)) |
+   | Types | Add abstract or virtual member, add override (see [details](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md)) |
    | Types | Add destructor |
    | Members | - Modify a member referencing an embedded interop type <br> - Modify a static member after it has already been accessed by executing code |
    | Members (Visual Basic) | - Modify a member with On Error or Resume statement <br> - Modify a member containing an Aggregate, Group By, Simple Join, or Group Join LINQ query clause |
@@ -95,8 +95,8 @@ The following changes can't be applied to C# and Visual Basic code during a debu
    | catch blocks | Modify when it contains an active statement |
    | try-catch-finally blocks | Modify when it contains an active statement |
    | using statements | Add |
-   | async methods/lambdas | Modify an async method/lambda in a project targeting .NET Framework 4 and lower (see [details](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)) |
-   | Iterators | Modify an iterator in a project targeting .NET Framework 4 and earlier (see [details](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)) |
+   | async methods/lambdas | Modify an async method/lambda in a project targeting .NET Framework 4 and lower (see [details](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md)) |
+   | Iterators | Modify an iterator in a project targeting .NET Framework 4 and earlier (see [details](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md)) |
    ::: moniker-end
 
    ::: moniker range="vs-2019"
@@ -107,7 +107,7 @@ The following changes can't be applied to C# and Visual Basic code during a debu
    | Namespaces, types, members | Delete |
    | Generics | Add or modify |
    | Interfaces | Modify |
-   | Types | Add abstract or virtual member, add override (see [details](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)) |
+   | Types | Add abstract or virtual member, add override (see [details](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md)) |
    | Types | Add destructor |
    | Members | - Modify a member referencing an embedded interop type <br> - Modify a static member after it has already been accessed by executing code |
    | Members (Visual Basic) | - Modify a member with On Error or Resume statement <br> - Modify a member containing an Aggregate, Group By, Simple Join, or Group Join LINQ query clause |
@@ -118,8 +118,8 @@ The following changes can't be applied to C# and Visual Basic code during a debu
    | catch blocks | Modify when it contains an active statement |
    | try-catch-finally blocks | Modify when it contains an active statement |
    | using statements | Add |
-   | async methods/lambdas | Modify an async method/lambda in a project targeting .NET Framework 4 and lower (see [details](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)) |
-   | Iterators | Modify an iterator in a project targeting .NET Framework 4 and earlier (see [details](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md)) |
+   | async methods/lambdas | Modify an async method/lambda in a project targeting .NET Framework 4 and lower (see [details](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md)) |
+   | Iterators | Modify an iterator in a project targeting .NET Framework 4 and earlier (see [details](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md)) |
    ::: moniker-end
 
 ## Unsafe code
