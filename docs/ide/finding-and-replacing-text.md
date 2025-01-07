@@ -1,7 +1,7 @@
 ---
 title: Find and replace text, and multi-caret selection
 description: Explore the Find and Replace feature in Visual Studio and discover how to use the feature to find and replace instances of a pattern.
-ms.date: 01/11/2024
+ms.date: 01/07/2025
 ms.topic: conceptual
 f1_keywords:
 - vs.find
@@ -39,7 +39,7 @@ In this article, you learn how to find and replace text in the Visual Studio edi
 > If you're looking for information on Visual Studio Code, visit the [**VS Code find and replace docs**](https://code.visualstudio.com/docs/editor/codebasics#_find-and-replace).
 
 > [!TIP]
-> If you want to rename code symbols such as variables and methods, it's better to *[refactor](../ide/reference/rename.md)* them than to use find-and-replace. Refactoring is intelligent and understands scope, whereas find-and-replace blindly replaces all instances.
+> If you want to rename code symbols such as variables and methods, it's better to *[refactor](../ide/reference/rename.md)* them than to use find-and-replace. Refactoring is intelligent and understands scope, whereas find-and-replace blindly replaces all instances. With Visual Studio 2022 version 17.6 or later, you can also use [All in One Search](visual-studio-search.md) to search code intelligently, in a way that accounts for the semantic meaning of your code, not just the text itself.
 
 You can scope searches to the current document, the current solution, or a custom set of folders. You can also specify a set of file name extensions for multi-file searches. Customize search syntax by using .NET [regular expressions](../ide/using-regular-expressions-in-visual-studio.md).
 
