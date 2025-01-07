@@ -27,7 +27,7 @@ The CPU Usage tool can help you:
 
 The **CPU Usage** tool is helpful for both local trace sessions and production. You can run the CPU Usage tool by using the keyboard shortcut, **Alt+F2**, and then choosing **CPU Usage**, or by opening an already collected trace using a tool like [dotnet-trace](/dotnet/core/diagnostics/dotnet-trace) or [dotnet-monitor](/dotnet/core/diagnostics/dotnet-monitor). (For .NET production code, this is most likely how you would collect traces.)
 
-You can run the CPU Usage tool on an open Visual Studio project, on an installed Microsoft Store app, or attached to a running app or process. You can run the CPU Usage tool with or without debugging. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+You can run the CPU Usage tool on an open Visual Studio project, on an installed Microsoft Store app, or attached to a running app or process. You can run the CPU Usage tool on release or debug builds. For more information, see [Run profiling tools on release or debug builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
 The following instructions show how to use the CPU Usage tool without the debugger, using the Visual Studio Performance Profiler. The examples use a Release build on a local machine. Release builds provide the best view of actual app performance. For a tutorial that shows how to improve performance using the CPU Usage tool, see [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
 
