@@ -88,7 +88,7 @@
       href: memory-usage-without-debugging2.md
     - name: Custom native ETW heap events
       href: custom-native-etw-heap-events.md
-    - name: Hot paths to root
+    - name: Analyze hot path to root
       href: hot-path-to-root.md
   - name: Instrumentation
     items:

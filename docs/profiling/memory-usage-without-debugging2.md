@@ -189,5 +189,5 @@ Many types in apps aren't required for app developers. The snapshot report filte
 
 - [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)
-- [Performance best practices for UWP apps using C++, C#, and Visual Basic](/previous-versions/windows/apps/hh750313\(v\=win.10\))
+- [Analyze hot path to root](../profiling/hot-path-to-root.md)
 - [Diagnosing memory issues with the new Memory Usage tool in Visual Studio](https://devblogs.microsoft.com/devops/diagnosing-memory-issues-with-the-new-memory-usage-tool-in-visual-studio/)
