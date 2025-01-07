@@ -20,7 +20,7 @@ To help you decide between using the profiling tools in release or debug builds,
 
   - Release builds provide optimizations like inlining function calls and constants, pruning unused code paths, and storing variables in ways that can't be used by the debugger. Performance numbers in debug builds are less accurate, because debug builds lack these optimizations.
   - In addition to differences between release builds and debug builds, the debugger itself changes performance times, as it does necessary debugger operations like intercepting exception and module load events.
-  - For performance problems caused by CPU-intensive calls, there might be considerable performance differences between release and debug builds. Check to see whether the CPU issue exists in release builds.
+  - For performance problems caused by CPU-intensive calls, there might be considerable performance differences between release and debug builds. Check to see whether the CPU performance issue exists in release builds.
   - External performance problems, like file I/O or network responsiveness issues, won't look much different in a release build or a debug build.
   - If the problem occurs only with debug builds, you probably don't need to run the tools with release builds.
   - Some tools, such as the .NET Object Allocation tool, are only available in the Performance Profiler (non-debugger scenarios).
