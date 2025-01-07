@@ -10,7 +10,7 @@ ms.subservice: debug-diagnostics
 ---
 # Run profiling tools on release or debug builds (C#, Visual Basic, C++, F#)
 
-Visual Studio offers a choice of performance measurement and profiling tools. Some tools, like CPU Usage and Memory Usage, can run either on release builds or while debugging your app. Tools that appear in the [Diagnostics Tools window](../profiling/profiling-feature-tour.md#measure-performance-while-debugging) run only during a debugging session using a debug build. Tools that appear in the [Performance Profiler](../profiling/profiling-feature-tour.md#post_mortem) run without the debugger, typically on release builds, and you analyze the results after you choose to stop and collect data (for post-mortem analysis).
+Visual Studio offers a choice of performance measurement and profiling tools. Some tools, like CPU Usage and Memory Usage, can run either on release builds or while debugging your app (debug build). Tools that appear in the [Diagnostics Tools window](../profiling/profiling-feature-tour.md#measure-performance-while-debugging) run only during a debugging session. Tools that appear in the [Performance Profiler](../profiling/profiling-feature-tour.md#post_mortem) run without the debugger, typically on release builds, and you analyze the results after you choose to stop and collect data (for post-mortem analysis).
 
 The Performance Profiler and the debugger-integrated Diagnostic Tools provide different information and experiences. While using the Diagnostic Tools, the debugger shows you variable values and lets you use breakpoints.
 
@@ -66,14 +66,16 @@ You can save the reports, and open them from the **Recently Opened Sessions** li
 ![Screenshot of Diagnostic Tools Recently Opened Sessions list.](../profiling/media/diaghubopenexistingdiagsession.png "PDHUB_OpenExistingDiagSession")
 ::: moniker-end
 
-For more information, see:
+For more information about the tools available for use in release builds, see:
 
 - [Analyze performance by using CPU profiling](../profiling/cpu-usage.md)
 - [Analyze memory usage](../profiling/memory-usage-without-debugging2.md)
 - [Analyze memory usage for .NET code](../profiling/dotnet-alloc-tool.md)
 - [Analyze instrumentation data](../profiling/instrumentation.md)
+- [Analyze .NET Counters](../profiling/dotnet-counters-tool.md)
 - [Analyze performance of .NET asynchronous code](../profiling/analyze-async.md)
 - [Analyze database performance](../profiling/analyze-database.md)
+- [View events](../profiling/events-viewer.md)
 - [Analyze GPU usage](../profiling/gpu-usage.md)
 
 ## <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Collect profiling data while debugging
@@ -100,12 +102,13 @@ The diagnostic session ends when you stop debugging.
 >[!NOTE]
 >Use relaunch to skip the launch page and automatically run with your previous settings with **Alt+F2** or by clicking **Debug > Performance Profiler**.
 
-For more information, see:
+For more information about the tools available while debugging, see:
 
 - [Measure application performance by analyzing CPU usage](../profiling/beginners-guide-to-performance-profiling.md)
 - [Measure memory usage in Visual Studio](../profiling/memory-usage.md)
+- [Analyze .NET Counters](../profiling/dotnet-counters-tool.md)
 
-### The Events tab
+### Events tab
 
 During a debugging session, the Events tab of the Diagnostic Tools window lists the diagnostic events that occur. The category prefixes *Breakpoint*, *File*, and others, let you quickly scan the list for a category, or skip the categories you don't care about.
 
