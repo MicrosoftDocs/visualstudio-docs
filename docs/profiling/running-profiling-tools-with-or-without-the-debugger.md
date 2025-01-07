@@ -16,7 +16,7 @@ The Performance Profiler and the debugger-integrated Diagnostic Tools provide di
 
 Release build performance numbers in the Performance Profiler are the most precise and accurate. These tools give you results closer to the end-user experience. Typically, this is the preferred method for using the profiling tools. However, there may be scenarios where using the debugger in a debug build may help to narrow down the performance problem, especially if you want to use debugger features such as breakpoints and code stepping.
 
-To help you decide between using the profiling tools in release or debug builds, you might also consider the following:
+To help you decide between using the profiling tools in release or debug builds, consider the following:
 
   - Release builds provide optimizations like inlining function calls and constants, pruning unused code paths, and storing variables in ways that can't be used by the debugger. Performance numbers in debug builds are less accurate, because debug builds lack these optimizations.
   - In addition to differences between release builds and debug builds, the debugger itself changes performance times, as it does necessary debugger operations like intercepting exception and module load events.

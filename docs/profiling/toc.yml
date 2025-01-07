@@ -84,7 +84,7 @@
           href: perf-insights-excessive-induced-gcs.md
         - name: High LOH fragmentation
           href: perf-insights-high-loh-fragmentation.md
-    - name: Analyze memory usage without the debugger
+    - name: Analyze memory usage on release builds
       href: memory-usage-without-debugging2.md
     - name: Custom native ETW heap events
       href: custom-native-etw-heap-events.md
