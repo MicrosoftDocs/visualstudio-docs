@@ -65,7 +65,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Remote Debugging a C# or Visual Basic project in Visual Studio](../debugger/remote-debugging-csharp.md) - Update article on remote debugging C#
 - [Debug your app with GitHub Copilot in Visual Studio](../debugger/debug-with-copilot.md)
-  - Updates for copilot free
+  - Updates for Copilot Free
 - [Disable the Just-In-Time Debugger](../debugger/just-in-time-debugging-in-visual-studio.md) - Add links and more info for disabling ASP.NET applications
 - [Tutorial: Debug C++ code with Visual Studio](../debugger/getting-started-with-the-debugger-cpp.md) - Review and update
 - [View threads in the Visual Studio debugger (C#, Visual Basic, C++)](../debugger/walkthrough-debugging-a-multithreaded-application.md) - Review and update
