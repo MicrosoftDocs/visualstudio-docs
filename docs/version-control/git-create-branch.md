@@ -1,7 +1,7 @@
 ---
 title: Create a branch to track code changes
 description: Create a branch for source code control in Visual Studio with Git based off an existing branch for your project or solution.
-ms.date: 1/11/2024
+ms.date: 1/07/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
