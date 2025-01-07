@@ -43,7 +43,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Deploy an ASP.NET Core container to Azure App Service using Visual Studio](../containers/deploy-app-service.md) - Add links for Azure Container Apps
 - [Docker container development tools documentation](../containers/index.yml) - Add links for Azure Container Apps
 - [Visual Studio Container Tools for Docker](../containers/overview.md) - Add links for Azure Container Apps
-- [Launch a subset of Compose services](../containers/launch-profiles.md) - Review and update date
+- [Launch a subset of Compose services](../containers/launch-profiles.md) - Review and update
 - [Quickstart: Docker in Visual Studio](../containers/container-tools.md) - Review and update Container Tools overview
 
 ### Data tools
@@ -111,7 +111,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Find code changes and other history with CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) - Review and update
 - [Change text case in the editor](../ide/how-to-change-text-case-in-the-editor.md) - Add link to keyboard shortcuts
-- Updates for Copilot Free
+- Updates for Copilot Free:
   - [Use GitHub Copilot for free in Visual Studio](../ide/copilot-free-plan.md)
   - [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md)
   - [Get better answers by setting the context for GitHub Copilot Chat in Visual Studio](../ide/copilot-chat-context.md)
