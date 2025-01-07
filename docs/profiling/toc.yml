@@ -8,7 +8,7 @@
     href: what-is-a-profiler.md
   - name: Which tool should I use?
     href: choose-performance-tool.md
-  - name: Run profiling tools with or without the debugger
+  - name: Run profiling tools on release or debug builds
     href: running-profiling-tools-with-or-without-the-debugger.md
   - name: Case study - Beginner's guide to optimizing code
     href: optimize-code-using-profiling-tools.md
