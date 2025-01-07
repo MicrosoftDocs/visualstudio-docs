@@ -57,26 +57,29 @@ To collect performance data on release builds, run the Performance Profiler tool
 
    The analyzed data appears on the **Report** page.
 
-You can save the reports, and open them from the **Recently Opened Sessions** list on the Diagnostic Tools launch page.
+   For more information about the tools available for use in release builds and how to analyze the reports, see:
 
-::: moniker range=">=vs-2022"
-![Screenshot of Diagnostic Tools Recently Opened Sessions list.](../profiling/media/vs-2022/performance-profiler-open-existing-diagnostics-session.png "PDHUB_OpenExistingDiagSession")
-::: moniker-end
-::: moniker range="<=vs-2019"
-![Screenshot of Diagnostic Tools Recently Opened Sessions list.](../profiling/media/diaghubopenexistingdiagsession.png "PDHUB_OpenExistingDiagSession")
-::: moniker-end
+   - [Analyze performance by using CPU profiling](../profiling/cpu-usage.md)
+   - [Analyze memory usage](../profiling/memory-usage-without-debugging2.md)
+   - [Analyze memory usage for .NET code](../profiling/dotnet-alloc-tool.md)
+   - [Analyze instrumentation data](../profiling/instrumentation.md)
+   - [Analyze .NET Counters](../profiling/dotnet-counters-tool.md)
+   - [Analyze performance of .NET asynchronous code](../profiling/analyze-async.md)
+   - [Analyze database performance](../profiling/analyze-database.md)
+   - [View events](../profiling/events-viewer.md)
+   - [Analyze GPU usage](../profiling/gpu-usage.md)
 
-For more information about the tools available for use in release builds, see:
+   >[!NOTE]
+   > Use relaunch to skip the launch page and automatically run with your previous settings with **Alt+F2** or by clicking **Debug > Performance Profiler**.
 
-- [Analyze performance by using CPU profiling](../profiling/cpu-usage.md)
-- [Analyze memory usage](../profiling/memory-usage-without-debugging2.md)
-- [Analyze memory usage for .NET code](../profiling/dotnet-alloc-tool.md)
-- [Analyze instrumentation data](../profiling/instrumentation.md)
-- [Analyze .NET Counters](../profiling/dotnet-counters-tool.md)
-- [Analyze performance of .NET asynchronous code](../profiling/analyze-async.md)
-- [Analyze database performance](../profiling/analyze-database.md)
-- [View events](../profiling/events-viewer.md)
-- [Analyze GPU usage](../profiling/gpu-usage.md)
+1. (Optional) Save the report, and then you can open it later from the **Recently Opened Sessions** list on the Diagnostic Tools launch page.
+
+   ::: moniker range=">=vs-2022"
+   ![Screenshot of Diagnostic Tools Recently Opened Sessions list.](../profiling/media/vs-2022/performance-profiler-open-existing-diagnostics-session.png "PDHUB_OpenExistingDiagSession")
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
+   ![Screenshot of Diagnostic Tools Recently Opened Sessions list.](../profiling/media/diaghubopenexistingdiagsession.png "PDHUB_OpenExistingDiagSession")
+   ::: moniker-end
 
 ## <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Collect profiling data while debugging
 
@@ -84,23 +87,22 @@ For more information about the tools available for use in release builds, see:
 When you start debugging in Visual Studio by selecting **Debug** > **Start Debugging**, or pressing **F5**, the **Diagnostic Tools** window appears by default. To open it manually, select **Debug** > **Windows** > **Show Diagnostic Tools**. The **Diagnostic Tools** window shows information about events, process memory, CPU usage, and .NET Counters.
 
 ![Screenshot of the Diagnostic Tools window.](../profiling/media/vs-2022/diagnostic-tools-window.png "Diagnostic Tools Window")
+
+- Use the **Settings** icon in the toolbar to select whether to view **CPU Usage**, **Memory Usage**, or **.NET Counters**.
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 When you start debugging in Visual Studio by selecting **Debug** > **Start Debugging**, or pressing **F5**, the **Diagnostic Tools** window appears by default. To open it manually, select **Debug** > **Windows** > **Show Diagnostic Tools**. The **Diagnostic Tools** window shows information about events, process memory, and CPU usage.
 
 ![Screenshot of the Diagnostic Tools window](../profiling/media/diagnostictoolswindow.png "Diagnostic Tools Window")
-::: moniker-end
 
-- Use the **Settings** icon in the toolbar to select whether to view **Memory Usage**, **UI Analysis**, and **CPU Usage**.
+- Use the **Settings** icon in the toolbar to select whether to view **CPU Usage**, **Memory Usage**, or **UI Analysis**.
+::: moniker-end
 
 - Select **Settings** in the **Settings** drop-down list to open the **Diagnostic Tools Property Pages** with more options.
 
 - If you're running Visual Studio Enterprise, you can enable or disable IntelliTrace by going to **Tools** > **Options** > **IntelliTrace**.
 
 The diagnostic session ends when you stop debugging.
-
->[!NOTE]
->Use relaunch to skip the launch page and automatically run with your previous settings with **Alt+F2** or by clicking **Debug > Performance Profiler**.
 
 For more information about the tools available while debugging, see:
 
