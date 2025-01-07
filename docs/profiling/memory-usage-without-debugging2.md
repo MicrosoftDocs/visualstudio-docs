@@ -127,7 +127,7 @@ For C++, the **Objects (Diff)** column is named **Allocations (Diff)**.
 
 ### <a name="BKMK_Report_tree_filters_"></a> Report tree filters
 
-Many types in apps aren't required for app developers. The snapshot report filters can hide most of these types in the **Managed Memory** and **Paths to Root** trees.
+Many types in apps aren't required for app developers to investigate memory issues. The snapshot report filters can hide most of these types in the **Managed Memory** and **Paths to Root** trees.
 
 ::: moniker range=">=vs-2022"
 ![Sort and filter options](../profiling/media/vs-2022/memory-usage-sort-and-filter-vs-2022.png "Memory usage sort and filter")
