@@ -29,7 +29,7 @@ The **Types View** displays the number and size of the types in the snapshot.
 
 - Choose the **View Instances** icon next to a selected type to display information about the objects of the selected type in the snapshot.
 
-     The **Instances** view displays each instance of the selected type. Selecting an instance displays the call stack that resulted in the creation of the instance in the **Allocation Call Stack** pane.
+     The **Instances** view displays each instance of the selected type. Selecting an instance displays the call stack that resulted in the creation of the instance in the **Allocation Call Stack** pane. (This information is only available while debugging.)
 
      [![Screenshot of the Instances view and Allocation Call Stack pane.](../media/vs-2022/dbgdiag-mem-native-instances.png)](../media/vs-2022/dbgdiag-mem-native-instances.png#lightbox)
 
