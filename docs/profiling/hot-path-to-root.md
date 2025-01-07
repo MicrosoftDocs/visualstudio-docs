@@ -8,7 +8,7 @@ ms.author: "asundheim"
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
 ---
-# Hot paths to root in the Memory Usage tool
+# Analyze hot path to root in the Memory Usage tool
 
 When profiling .NET code in the Memory Usage profiling tool in Visual Studio, the *hot path to root* may help you to identify objects retained on the heap that are causing memory usage issues. In the context of memory usage, the *hot path* is a reference chain identified by the profiler that points to a root object that is a potential source of memory issues.
 
@@ -18,7 +18,7 @@ In the Memory Usage tool reference graph for .NET code, this path to root is cal
 
 ## Example
 
-In this example, there's a WPF control (`AttachToProcess.Dialog`) being leaked through a binding that is ultimately rooted by an `AutomationPeer`. In the filtered view, enabled using the **Show hot paths only** option, the retention path is obvious; only the direct path to the root is visible.
+In this example, there's a WPF control (`AttachToProcess.Dialog`) being leaked through a binding that is ultimately rooted by an `AutomationPeer`. In the filtered view of the **Paths ro Root** list, enabled using the **Show hot paths only** option, the retention path is obvious; only the direct path to the root is visible.
 
 [ ![Screenshot of the Paths to Root reference graph. Show hot paths only is checked, highlighting a linear chain of references.](../profiling/media/hot-path-to-root-example-1.png) ](../profiling/media/hot-path-to-root-example-1.png#lightbox)
 
