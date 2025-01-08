@@ -673,7 +673,7 @@ While the `ExpandedItem` element provides a flatter view of data by eliminating 
 
  ![Concurrency::Array with Synthetic element expansion](../debugger/media/dbg_natvis_expand_synthetic.png "Concurrency::Array with Synthetic element expansion")
 
-### Instrinsic expansion
+### Intrinsic expansion
 
 A custom intrinsic function that can be called from an expression. An `<Intrinsic>` element must be accompanied by a debugger component that implements the function through the IDkmIntrinsicFunctionEvaluator140 interface.
 
