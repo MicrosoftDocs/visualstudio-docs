@@ -33,7 +33,7 @@ Make sure to install the following:
 - Visual Studio 2022 version 17.8 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-create-aspnetcore-app-with-angular-page-cta) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 - npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js
-- Angular CLI ([`https://angular.dev/tools/cli`](https://angular.dev/tools/cli)), which can be the version of your choice.
+- Angular CLI ([`https://angular.dev/tools/cli`](https://angular.dev/tools/cli)), which can be the version of your choice. The front-end project is created using the framework CLI tools you have installed on your local machine, so this determines the Angular version used in the template.
 
 ## Create the frontend app
 
@@ -93,7 +93,11 @@ Press **F5** or select the **Start** button at the top of the window to start th
 >[!NOTE]
 > Check console output for messages. For example there might be a message to update Node.js.
 
-The Angular app appears and is populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
+The Angular app appears and is populated via the API (the localhost port may vary from the screenshot). 
+
+:::image type="content" source="media/vs-2022/asp-net-core-weather-forecast-app.png" alt-text="Screenshot showing the weather forecast app."::: 
+
+If you don't see the app, see [Troubleshooting](#troubleshooting).
 
 ## Publish the project
 
