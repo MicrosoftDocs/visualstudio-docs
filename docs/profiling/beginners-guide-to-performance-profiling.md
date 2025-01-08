@@ -16,7 +16,7 @@ ms.subservice: debug-diagnostics
 
 # Measure application performance by analyzing CPU utilization (C#, Visual Basic, C++, F#)
 
-Find performance issues while you're debugging with the debugger-integrated **CPU Usage** diagnostic tool.  You can also analyze CPU usage without a debugger attached or by targeting a running app. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md) and [Analyze performance by using CPU profiling](../profiling/cpu-usage.md).
+Find performance issues while you're debugging with the debugger-integrated **CPU Usage** diagnostic tool.  You can also analyze CPU usage without a debugger attached or by targeting a running app. For more information, see [Run profiling tools on release or debug builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md) and [Analyze performance by using CPU profiling](../profiling/cpu-usage.md).
 
 When the debugger pauses, the **CPU Usage** tool in the Diagnostic Tools window collects information about the functions that are executing in your application. The tool lists the functions that were performing work, and provides a timeline graph you can use to focus on specific segments of the sampling session.
 
