@@ -18,8 +18,6 @@ ms.subservice: general-ide
 
 You can change the fonts and the colors in Visual Studio in several ways. For example, you can change the default dark theme (also referred to as "dark mode") to a light theme, a blue theme, an extra-contrast theme, or a theme that matches your system settings. You can also change the default font and text size in both the IDE and the code editor.
 
-To learn more about setting default font settings for the user interface (UI) in your application, check out the tutorials on [Create a simple Windows Forms app](create-csharp-winform-visual-studio.md) or [Create a WPF application](../get-started/csharp/tutorial-wpf.md).
-
 > [!TIP]
 > See the [**We’ve upgraded the UI in Visual Studio 2022**](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/) blog post to learn more about the subtle color contrast ratio adjustments and a new [Cascadia Code](#use-the-cascadia-code-font) font we've added to make Visual Studio more accessible for everyone.
 
@@ -99,6 +97,8 @@ You can change the font and text size for all the IDE frame and tool windows, or
 1. Modify the **Font** and **Size** options to change the font and text size for the IDE.
 
 1. Select the appropriate item in **Display items**, and then modify the **Item foreground** and **Item background** options.
+
+To learn more about setting default font settings for the user interface (UI) in an application you're building with Visual Studio, check out the tutorials on [Create a simple Windows Forms app](create-csharp-winform-visual-studio.md) or [Create a WPF application](../get-started/csharp/tutorial-wpf.md).
 
 ::: moniker-end
 
