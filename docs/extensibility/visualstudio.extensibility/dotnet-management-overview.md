@@ -59,3 +59,9 @@ The below picutres show an example of an extension which is built targeting .NET
 
 ![image info](./.media/GladstoneDotnetManagement/extension-configuration.png)
 ![image info](./.media/GladstoneDotnetManagement/invalid-extension-configuration-warning.png)
+
+## Testing & Early-Access
+
+If you would like to try managing your extension with multiple .NET runtimes, please use [this setup script](./.resources/GladstoneDotnetManagement/NET-LTS-Setup.ps1) to update any of your Visual Studio instances with .NET 9. When you no longer want to test out the new experience, you can rollback the changes with [this cleanup script](./.resources/GladstoneDotnetManagement/NET-LTS-Cleanup.ps1). Because both scripts make changes to the Visual Studio instance files, they'll need to be run with system admin privileges.
+
+Please note that .NET 9 is *not* an LTS version of .NET and that this is *not* a supported scenario, but will provide a sample of the future experience of developing VisualStudio.Extensibility extensions with multiple .NET runtimes available.
