@@ -14,7 +14,7 @@ When profiling .NET code in the [Memory Usage](../profiling/memory-usage-without
 
 When calculating the inclusive size of an object (the total amount of memory retained on the heap by keeping the object alive), it's often helpful to reduce the strongly connected heap graph into a tree. Unlike a graph, a node in a tree has arbitrarily many children but only a single parent. Rather than consider every possible path to root for an object, choosing the most likely path to root using various heuristics is typically sufficient to find the reference chain that, if removed, will make the object eligible for garbage collection. Some of these heuristics include prioritizing the shortest path to root, certain root types, and user code paths. For various reasons, this strategy doesn't always find the most interesting or longest-living retention chain, but it often provides a useful starting point in a memory usage investigation.
 
-In the Memory Usage tool **Paths to Root** tree for .NET code, the path with the flame icon (![Screenshot that shows Hot Path icon.](../profiling/media/optimize-code-hot-path-icon.png)) is called the hot path to root.
+In the **Paths to Root** tree of the Memory Usage tool, the path with the flame icon (![Screenshot that shows Hot Path icon.](../profiling/media/optimize-code-hot-path-icon.png)) is called the hot path to root.
 
 ## Example
 
