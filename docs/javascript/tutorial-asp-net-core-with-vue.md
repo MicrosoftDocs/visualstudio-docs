@@ -87,7 +87,11 @@ Press **F5** or select the **Start** button at the top of the window to start th
 >[!NOTE]
 > Check console output for messages. For example there might be a message to update Node.js.
 
-The Vue app appears and is populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
+The Vue app appears and is populated via the API (the localhost port may vary from the screenshot). 
+
+:::image type="content" source="media/vs-2022/asp-net-core-weather-forecast-app.png" alt-text="Screenshot showing the weather forecast app.":::
+
+If you don't see the app, see [Troubleshooting](#troubleshooting).
 
 ## Publish the project
 
