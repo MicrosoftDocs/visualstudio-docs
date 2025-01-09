@@ -1,6 +1,6 @@
 ---
 title: Code metrics - Maintainability index range and meaning
-ms.date: 1/8/2021
+ms.date: 1/9/2025
 description: Explore the maintainability index range metric for code metrics in Visual Studio and how the reset values are established.
 ms.topic: conceptual
 author: mikejo5000
@@ -23,6 +23,8 @@ In addition to that, we decided to be conservative with the thresholds. The desi
 
 For the thresholds, we decided to break down this 0-100 range 80-20 to keep the noise level low and we only flagged code that was suspicious. We've used the following thresholds:
 
-- 0-9 = Red
-- 10-19 = Yellow
-- 20-100 = Green
+|Index value|Color|Meaning|
+|------|----------|-------|
+|0-9   | Red | Low maintainability of code|
+|10-19 | Yellow | Moderate maintainability of code|
+|20-100| Green | Good maintainability of code|
