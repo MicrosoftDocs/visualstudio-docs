@@ -137,7 +137,7 @@ By following these steps, you can successfully target multiple .NET versions in 
 
 ## Related content
 
-- [Specify the targeted .NET Frameworks - Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-multi-targeting-overview?view=vs-2022)
+- [Specify the targeted .NET Frameworks - Visual Studio](../ide/visual-studio-multi-targeting-overview.md)
 
 [!INCLUDE[AI generated](../includes/ai-generated-attribution.md)]
 <!--Feel free to customize this document further based on your specific requirements. If you have any questions or need more details, let me know![4](https://learn.microsoft.com/en-us/dotnet/standard/library-guidance/cross-platform-targeting)[3](https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-multitargeting-overview?view=vs-2022)[5](https://www.cafe-encounter.net/p2312/multi-targetting-net-framework-and-net-core-in-a-single-project)[6](https://outlook.office365.com/owa/?ItemID=AAMkADQ3MGUyYTdjLWVlZjAtMTFkMi04ZjE2LTAwMDhjNzRiODU1NwBGAAAAAADTVNsYj0hgR4sxn9WZ7wmLBwDJVGB64pzuTrBVf1ajg%2bXSAAADlABCAADEZUcpFkhnRp34X5f8TC7dAAQZeajRAAA%3d&exvsurl=1&viewmodel=ReadMessageItem)[7](https://outlook.office365.com/owa/?ItemID=AAMkADQ3MGUyYTdjLWVlZjAtMTFkMi04ZjE2LTAwMDhjNzRiODU1NwBGAAAAAADTVNsYj0hgR4sxn9WZ7wmLBwC32%2b13n3XLR6QySQK29U4TAAAA99pvAADEZUcpFkhnRp34X5f8TC7dAAGOiN21AAA%3d&exvsurl=1&viewmodel=ReadMessageItem)-->
