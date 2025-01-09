@@ -142,7 +142,7 @@ Select the new commit to confirm that it undoes the changes of the reverted comm
 
 :::image type="content" source="media/vs-2022/git-repository-revert-confirmation.png" alt-text="Screenshot of confirming a revert operation." lightbox="media/vs-2022/git-repository-revert-confirmation.png":::
 
-The **Revert** menu item might be grayed out (disabled) in certain circumstances, such as for merge commits or when a git operation is running.
+The **Revert** menu item might be grayed out (disabled) in certain circumstances, such as for merge commits or when a Git operation is running.
 
 To learn more about reverting changes, see the [Git webpage for the revert command](https://git-scm.com/docs/git-revert).
 
