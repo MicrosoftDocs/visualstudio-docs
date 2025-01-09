@@ -24,7 +24,7 @@ You can use the method described in this article to create ASP.NET Core Single P
 - Create the client project based on the framework CLI installed on your computer
 
 > [!NOTE]
-> This article describes the project creation process using the updated template in Visual Studio 2022 version 17.11, which uses the Vite CLI.
+> This article describes the project creation process using the updated template in Visual Studio 2022 version 17.11, which uses the Vite CLI. Vite determines the version of Vue using project dependencies, such as those configured in *package.json*.
 
 ## Prerequisites
 
@@ -87,7 +87,11 @@ Press **F5** or select the **Start** button at the top of the window to start th
 >[!NOTE]
 > Check console output for messages. For example there might be a message to update Node.js.
 
-The Vue app appears and is populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
+The Vue app appears and is populated via the API (the localhost port may vary from the screenshot). 
+
+:::image type="content" source="media/vs-2022/asp-net-core-weather-forecast-app.png" alt-text="Screenshot showing the weather forecast app.":::
+
+If you don't see the app, see [Troubleshooting](#troubleshooting).
 
 ## Publish the project
 
