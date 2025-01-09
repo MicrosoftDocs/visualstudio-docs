@@ -20,13 +20,13 @@ Multitargeting for .NET Core and .NET 5 and later projects is significantly diff
 
 2. Edit the project file. Edit the `.csproj` file to support multiple target frameworks. Change the `<TargetFramework>` element to `<TargetFrameworks>` and list the frameworks you want to target.
 
-    ```xml
-    <Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-        <TargetFrameworks>netstandard2.0;net45;netcoreapp3.1;net5.0</TargetFrameworks>
-    </PropertyGroup>
-    </Project>
-    ```
+   ```xml
+   <Project Sdk="Microsoft.NET.Sdk">
+   <PropertyGroup>
+       <TargetFrameworks>netstandard2.0;net45;netcoreapp3.1;net5.0</TargetFrameworks>
+   </PropertyGroup>
+   </Project>
+   ```
 
 3. Use conditional compilation symbols to separate code that is specific to a particular version.
 
@@ -49,22 +49,72 @@ Multitargeting for .NET Core and .NET 5 and later projects is significantly diff
 
 4. Build and pack. Use the `dotnet pack` or `MSBuild.exe /t:pack` command to create the package. This will generate a `.nupkg` file that targets all specified frameworks.
 
-    ```sh
-    MSBuild.exe /t:pack MyProject.csproj
-    ```
+   ```sh
+   MSBuild.exe /t:pack MyProject.csproj
+   ```
 
-## Handling dependencies
+## Handle dependencies
 
 When targeting multiple framework versions, you might need to handle dependencies differently for each version. Use conditional `ItemGroup` elements in your project file to specify framework-specific dependencies.
 
-    ```xml
+```xml
+<ItemGroup Condition="'$(TargetFramework)' == 'net45'">
+<PackageReference Include="SomePackage" Version="1.0.0" />
+</ItemGroup>
+<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+<PackageReference Include="SomeOtherPackage" Version="2.0.0" />
+</ItemGroup>
+```
+
+Handling version-specific dependencies in a .NET project involves using conditional `PackageReference` elements in your project file. This allows you to specify different versions of a package for different target frameworks. Here's how you can do it:
+
+### Add version-specific dependencies
+
+1. **Edit the Project File**: Open your `.csproj` file and add conditional `PackageReference` elements inside an `ItemGroup` element. This way, you can specify different versions of a package based on the target framework.
+
+   ```xml
+    <Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFrameworks>net45;netstandard2.0;netcoreapp3.1;net5.0</TargetFrameworks>
+    </PropertyGroup>
     <ItemGroup Condition="'$(TargetFramework)' == 'net45'">
-    <PackageReference Include="SomePackage" Version="1.0.0" />
+        <PackageReference Include="SomePackage" Version="1.0.0" />
     </ItemGroup>
     <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
-    <PackageReference Include="SomeOtherPackage" Version="2.0.0" />
+        <PackageReference Include="SomePackage" Version="2.0.0" />
     </ItemGroup>
-    ```
+    <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp3.1'">
+        <PackageReference Include="SomePackage" Version="3.0.0" />
+    </ItemGroup>
+    <ItemGroup Condition="'$(TargetFramework)' == 'net5.0'">
+        <PackageReference Include="SomePackage" Version="4.0.0" />
+    </ItemGroup>
+    </Project>
+   ```
+
+2. **Use the CLI**: You can also add dependencies using the .NET CLI. For example, to add a dependency for a specific target framework, you can use the following command:
+
+   ```sh
+    dotnet add package SomePackage --version 1.0.0 --framework net45
+   ```
+
+### Manage transitive dependencies
+
+Transitive dependencies are dependencies of your dependencies. It's important to review and manage these to avoid conflicts and ensure compatibility. You can use the `dotnet list package` command to see all the dependencies and their versions.
+
+```sh
+dotnet list package
+```
+
+### Handle diamond dependencies
+
+Diamond dependencies occur when multiple versions of a package are present in the dependency tree. NuGet resolves these by selecting the lowest applicable version. To avoid issues, you can specify version ranges or use binding redirects in .NET Framework projects.
+
+```xml
+<PackageReference Include="ExamplePackage" Version="[1.0,2.0)" />
+```
+
+By following these practices, you can effectively manage version-specific dependencies in your .NET projects, ensuring compatibility and stability across different target frameworks. See [Manage package dependencies in .NET applications](/dotnet/core/tools/dependencies), [Dependencies](/dotnet/standard/library-guidance/dependencies), and [How NuGet resolves package dependencies](/nuget/concepts/dependency-resolution).
 
 ## Comparison Between .NET Framework and .NET Core Multitargeting
 
