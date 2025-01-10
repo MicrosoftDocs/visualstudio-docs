@@ -156,9 +156,7 @@ implementation to have side effects without declaring the function as having sid
 By default, when you call an intrinsic function, the expression is given the pink diamond icon in the **Watch** window associated with function calls. You can override this behavior by specifying the `Category` attribute using one of the following values:
 
 - Method. Use the pink diamond icon, typically used with method calls (default).
-
 - Property. Use the black wrench icon, typically used with properties.
-
 - Data. Use the blue diamond icon, typically used with data.
 
 By combining intrinsic functions with the <Item> element, it's possible to author a NatVis file where item expressions have the wrench property icon:

@@ -170,6 +170,8 @@
       items:
       - name: Create custom views of C++ objects
         href: create-custom-views-of-native-objects.md
+      - name: Implement NatVis custom intrinsic function
+        href: implementing-natvis-custom-intrinsic-function.md
       - name: C++ custom visualizer compatibility
         href: visual-cpp-custom-visualizer-compatibility.md
     - name: Custom views (.NET)
