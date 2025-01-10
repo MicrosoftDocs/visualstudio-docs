@@ -55,7 +55,7 @@ Be aware of the following guidelines when using an intrinsic function:
 
 - Intrinsic functions may be overloaded, either with PDB-defined functions, or with each other.
 
-- When an intrinsic function conflicts with a PDB-defined function with the same name and argument list, the intrinsic function will win. You cannot func-eval the PDB function if an equivelant intrinsic function exists.
+- When an intrinsic function conflicts with a PDB-defined function with the same name and argument list, the intrinsic function will win. You can't func-eval the PDB function if an equivalant intrinsic function exists.
 
 - You can't take the address of an intrinsic function; you can only call it.
 
@@ -86,13 +86,13 @@ Be aware of the following guidelines when using an intrinsic function:
         </Intrinsic>
     ```
 
-- By default, intrinsic functions are assumed to be side-effect free.  That is, they can be called in contexts that disallow side effects, and the implementation expression is not allowed to contain side effects.
+- By default, intrinsic functions are assumed to be side-effect free. That is, they can be called in contexts that disallow side effects, and the implementation expression isn't allowed to contain side effects.
 
   The definition can override this behavior by specifying the `SideEffect` attribute in the declaration. If the function is marked as having side effects, side effects in the implementation expression become permitted. However, invoking the function in contexts where side effects are prohibited is no longer permitted.
 
 - When the definitions of two intrinsic functions conflict with each other (same name, same signature), the last one wins (within the same file).
 
-   Within different files, the instance in the file with higher priority wins (project is higher than user directory, which is higher than install directory).  If a higher-priority definition contains an expression that does not parse, that definition is ignored, and the next-highest priority definition is used instead.
+   Within different files, the instance in the file with higher priority wins (project is higher than user directory, which is higher than install directory). If a higher-priority definition contains an expression that does not parse, that definition is ignored, and the next-highest priority definition is used instead.
 
 ## Guidelines to implement an Intrinsic function
 
@@ -104,7 +104,7 @@ Intrinsic functions support two possible forms of implementation:
 
 - Extension-based
 
-  The NatVis file provides instructions for invoking a debugger extension to actually evaluate the function.  A debugger extension has full access to the Concord API, and has the ability to perform tasks that are not possible within a NatVis expression.
+  The NatVis file provides instructions for invoking a debugger extension to actually evaluate the function. A debugger extension has full access to the Concord API, and has the ability to perform tasks that aren't possible within a NatVis expression.
 
 To provide an extension-based implementation, the `<Intrinsic>` element should omit the `Expression` attribute and, instead, provide `SourceId`, `LanguageId`, `Id`, and `ReturnType` attributes, as provided in the following example:
 
@@ -117,7 +117,7 @@ To provide an extension-based implementation, the `<Intrinsic>` element should o
 ```
 
 To implement the function, the debugger extension must implement the `IDkmIntrinsicFunctionEvaluator140` interface, using `LanguageId` and
-`SourceId` filters that match the corresponding values of the `<Intrinsic>` element in the NatVis file.  When the function is called, the call translates into the component's `Execute()` method:
+`SourceId` filters that match the corresponding values of the `<Intrinsic>` element in the NatVis file. When the function is called, the call translates into the component's `Execute()` method:
 
 ```cpp
 STDMETHOD(Execute)(
@@ -131,25 +131,25 @@ STDMETHOD(Execute)(
     );
 ```
 
-The component receives the bytes of each argument via the `Arguments` argument.  If the function in question is a member function,
-the `this` pointer comes first, followed by the explicit arguments.  The component should return the result by allocating
+The component receives the bytes of each argument via the `Arguments` argument. If the function in question is a member function,
+the `this` pointer comes first, followed by the explicit arguments. The component should return the result by allocating
 a single-element array in `pResults`, storing the bytes of the return value.
 
 Use the following guidelines to implement functions:
 
-- It is illegal to "mix and match" the two implementation forms.  That is, you cannot include both an expression and a source id.
+- It's illegal to "mix and match" the two implementation forms. That is, you can't include both an expression and a source id.
 
-- Specifying a return type for an expression-based implementation is allowed, but not required.  If a return type is specified, the return type of the expression must exactly match it (no implicit casting allowed). If a return type is not specified, the return type is inferred from the expression. Any extension-based implementation must state a return type in the NatVis file.
+- Specifying a return type for an expression-based implementation is allowed, but not required. If a return type is specified, the return type of the expression must exactly match it (no implicit casting allowed). If a return type isn't specified, the return type is inferred from the expression. Any extension-based implementation must state a return type in the NatVis file.
 
-- Non-recursive calls to other intrinsic functions are allowed.  Recursion is not allowed.
+- Non-recursive calls to other intrinsic functions are allowed. Recursion isn't allowed.
 
-- If the function has side effects, you must specify `SideEffect="true"` in the declaration.  It is illegal for an expression-based
-implementation to have side effects in the expression without declaring the function to have side effects.  Invoking an extension-based
+- If the function has side effects, you must specify `SideEffect="true"` in the declaration. It's illegal for an expression-based
+implementation to have side effects in the expression without declaring the function to have side effects. Invoking an extension-based
 implementation to have side effects without declaring the function as having side effects is undefined behavior, and should be avoided.
 
-- Varargs intrinsic functions are allowed.  To declare a varargs function, specify `Varargs="true"` in the declaration.  While it is legal for an expression-based implementation to declare a `vararg` function, currently, only extension-based implementations have a way to access the variable arguments.  With an extension-based implementation, the `Execute()` function receives all the arguments that are actually passed in, not just the declared arguments.
+- Varargs intrinsic functions are allowed. To declare a varargs function, specify `Varargs="true"` in the declaration. While it's legal for an expression-based implementation to declare a `vararg` function, currently, only extension-based implementations have a way to access the variable arguments. With an extension-based implementation, the `Execute()` function receives all the arguments that are actually passed in, not just the declared arguments.
 
-- Intrinsic functions consuming a class/struct/union type as an argument type are not supported. Returning a class/struct/union type is OK. (A pointer or reference to a class/struct/union type is OK as an argument type).
+- Intrinsic functions consuming a class/struct/union type as an argument type aren't supported. Returning a class/struct/union type is OK. (A pointer or reference to a class/struct/union type is OK as an argument type).
 
 ## Customize the icon for calls to intrinsic functions.
 
@@ -161,7 +161,7 @@ By default, when you call an intrinsic function, the expression is given the pin
 
 - Data. Use the blue diamond icon, typically used with data.
 
-By combining intrinsic functions with the <Item> element, it's possible to author a NatVis file where item expressions have the wrench property icon:  
+By combining intrinsic functions with the <Item> element, it's possible to author a NatVis file where item expressions have the wrench property icon:
 
 ```xml
 <Type Name="MyClass">
