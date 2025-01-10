@@ -21,13 +21,15 @@ In this article, you learn about the guidelines for implementing a NatVis Intrin
 
 A NatVis file may define an intrinsic function using the following syntax:
 
-  <Intrinsic Name="Func" Expression="arg + 1">
-    <Parameter Name="arg" Type="int" />
-  </Intrinsic>
+```xml
+<Intrinsic Name="Func" Expression="arg + 1">
+  <Parameter Name="arg" Type="int" />
+</Intrinsic>
+```
 
 Once the definition exists, any debugger expression may call the function, like any other function. For example, using the preceding NatVis definition, the expression `Func(3)` evaluates to 4.
 
-An <Intrinsic> element may appear either on the file-level, or inside a <Type> element, before any other elements. Intrinsic functions defined within a <Type> define member functions of that type, while intrinsic functions defined outside a <Type> define global functions. For example:
+An `<Intrinsic>` element may appear either on the file-level, or inside a `<Type>` element, before any other elements. Intrinsic functions defined within a `<Type>` define member functions of that type, while intrinsic functions defined outside a `<Type>` define global functions. For example:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
