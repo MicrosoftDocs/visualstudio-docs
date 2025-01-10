@@ -100,13 +100,13 @@ Intrinsic functions support two possible forms of implementation:
 
 - Expression-based 
 
-  The NatVis file defines an expression that evaluates to the return value of the function. The expression may use any arguments passed into it declared as <Parameter> elements.Functions defined within a class are also assumed to be "instance" functions, and may access the "this" pointer as well.
+  The NatVis file defines an expression that evaluates to the return value of the function. The expression may use any arguments passed into it declared as `<Parameter>` elements.Functions defined within a class are also assumed to be "instance" functions, and may access the "this" pointer as well.
 
 - Extension-based
 
   The NatVis file provides instructions for invoking a debugger extension to actually evaluate the function.  A debugger extension has full access to the Concord API, and has the ability to perform tasks that are not possible within a NatVis expression.
 
-To provide an extension-based implementation, the <Intrinsic> element should omit the `Expression` attribute and, instead, provide `SourceId`, `LanguageId`, `Id`, and `ReturnType` attributes, as provided in the following example:
+To provide an extension-based implementation, the `<Intrinsic>` element should omit the `Expression` attribute and, instead, provide `SourceId`, `LanguageId`, `Id`, and `ReturnType` attributes, as provided in the following example:
 
 ```xml
 <Intrinsic Name="MyFunc" SourceId="a665fa54-6e7d-480e-a80b-1fc1202e9646" LanguageId="3a12d0b7-c26c-11d0-b442-00a0244a1dd2" Id="1000" ReturnType="double">
@@ -117,7 +117,7 @@ To provide an extension-based implementation, the <Intrinsic> element should omi
 ```
 
 To implement the function, the debugger extension must implement the `IDkmIntrinsicFunctionEvaluator140` interface, using `LanguageId` and
-`SourceId` filters that match the corresponding values of the <Intrinsic> element in the NatVis file.  When the function is called, the call translates into the component's `Execute()` method:
+`SourceId` filters that match the corresponding values of the `<Intrinsic>` element in the NatVis file.  When the function is called, the call translates into the component's `Execute()` method:
 
 ```cpp
 STDMETHOD(Execute)(
@@ -173,5 +173,5 @@ By combining intrinsic functions with the <Item> element, it's possible to autho
 ```
 
 > ![NOTE]
-> Placing the icon choice on the function level, rather than the <Item> level, avoids issues where the icon customization is lost when the full name is evaluated. Because the full name includes a call to the function, it has the same icon customization as the <Item> itself.
+> Placing the icon choice on the function level, rather than the `<Item>` level, avoids issues where the icon customization is lost when the full name is evaluated. Because the full name includes a call to the function, it has the same icon customization as the `<Item>` itself.
 
