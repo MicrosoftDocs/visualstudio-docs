@@ -67,25 +67,25 @@ Be aware of the following guidelines when using an intrinsic function:
 
     ```xml
     <!-- OK -->
-        <Intrinsic Name="Func2" Expression="this-&gt;Func3(arg + 1)">
-          <Parameter Name="arg" Type="int" />
-        </Intrinsic>
-        <Intrinsic Name="Func3" Expression="arg + 1">
-          <Parameter Name="arg" Type="int"/>
-        </Intrinsic>
+    <Intrinsic Name="Func2" Expression="this-&gt;Func3(arg + 1)">
+      <Parameter Name="arg" Type="int" />
+    </Intrinsic>
+    <Intrinsic Name="Func3" Expression="arg + 1">
+      <Parameter Name="arg" Type="int"/>
+    </Intrinsic>
     
     <!-- Unsupported -->
-        <Intrinsic Name="Func2" Expression="this-&gt;Func3(arg + 1)">
-          <Parameter Name="arg" Type="int" />
-        </Intrinsic>
-        <Intrinsic Name="Func3" Expression="Func2(arg + 1)">
-          <Parameter Name="arg" Type="int"/>
-        </Intrinsic>
+    <Intrinsic Name="Func2" Expression="this-&gt;Func3(arg + 1)">
+      <Parameter Name="arg" Type="int" />
+    </Intrinsic>
+    <Intrinsic Name="Func3" Expression="Func2(arg + 1)">
+      <Parameter Name="arg" Type="int"/>
+    </Intrinsic>
     
     <!-- Also unsupported-->
-        <Intrinsic Name="Fib" Expression="(n &lt;= 1) ? 1 : Fib(n - 1) + Fib(n - 2)">
-          <Parameter Name="n" Type="int"/>
-        </Intrinsic>
+    <Intrinsic Name="Fib" Expression="(n &lt;= 1) ? 1 : Fib(n - 1) + Fib(n - 2)">
+      <Parameter Name="n" Type="int"/>
+    </Intrinsic>
     ```
 
 - By default, intrinsic functions are assumed to be side-effect free. That is, they can be called in contexts that disallow side effects, and the implementation expression isn't allowed to contain side effects.
@@ -172,6 +172,6 @@ By combining intrinsic functions with the `<Item>` element, it's possible to aut
 </Type>
 ```
 
-> ![NOTE]
+> [!NOTE]
 > Placing the icon choice on the function level, rather than the `<Item>` level, avoids issues where the icon customization is lost when the full name is evaluated. Because the full name includes a call to the function, it has the same icon customization as the `<Item>` itself.
 
