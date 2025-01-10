@@ -13,9 +13,9 @@ manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 
-# Implement NatVis custom intrinsic function for native code
+# Implement NatVis custom intrinsic function for C++
 
-In this article, you learn about the guidelines for implementing a NatVis Intrinsic expansion. For more information about NatVis, see [Intrinsic expansion](../debugger/create-custom-views-of-native-objects.md#intrinsic-expansion).
+In this article, you learn about the guidelines for implementing a NatVis Intrinsic expansion. For more information about NatVis, see [Create custom views of C++ objects](../debugger/create-custom-views-of-native-objects.md).
 
 ## Syntax
 
