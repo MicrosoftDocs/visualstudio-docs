@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 # Implement NatVis custom intrinsic function for native code
 
-In this article, you learn about the guidelines for implementing a NatVis Intrinsic expansion. For more information, see [Intrinsic expansion](../debugger/create-custom-views-of-native-objects.md#intrinsic-expansion).
+In this article, you learn about the guidelines for implementing a NatVis Intrinsic expansion. For more information about NatVis, see [Intrinsic expansion](../debugger/create-custom-views-of-native-objects.md#intrinsic-expansion).
 
 ## Syntax
 
@@ -48,6 +48,8 @@ In the preceding example, `size()` and `capacity()` are defined as member functi
 so whenever an expression evaluates `vector.size()`, it will actually evaluate
 `vector._Mypair._Myval2._Mylast - vector._Mypair._Myval2._Myfirst`, rather than perform a func-eval.
 Similarly, `LOWORD(0x12345678)` returns `0x5678`, also without func-eval.
+
+For another example, see the [Intrinsic expansion](../debugger/create-custom-views-of-native-objects.md#intrinsic-expansion).
 
 ## Guidelines for using an intrinsic function
 
