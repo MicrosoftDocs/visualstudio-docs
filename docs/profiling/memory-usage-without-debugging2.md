@@ -127,7 +127,7 @@ For C++, the **Objects (Diff)** column is named **Allocations (Diff)**.
 
 ### <a name="BKMK_Report_tree_filters_"></a> Report tree filters
 
-Many types in apps aren't required to app developers. The snapshot report filters can hide most of these types in the **Managed Memory** and **Paths to Root** trees.
+Many types in apps aren't required for app developers to investigate memory issues. The snapshot report filters can hide most of these types in the **Managed Memory** and **Paths to Root** trees.
 
 ::: moniker range=">=vs-2022"
 ![Sort and filter options](../profiling/media/vs-2022/memory-usage-sort-and-filter-vs-2022.png "Memory usage sort and filter")
@@ -189,5 +189,5 @@ Many types in apps aren't required to app developers. The snapshot report filter
 
 - [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)
-- [Performance best practices for UWP apps using C++, C#, and Visual Basic](/previous-versions/windows/apps/hh750313\(v\=win.10\))
+- [Analyze hot path to root](../profiling/hot-path-to-root.md)
 - [Diagnosing memory issues with the new Memory Usage tool in Visual Studio](https://devblogs.microsoft.com/devops/diagnosing-memory-issues-with-the-new-memory-usage-tool-in-visual-studio/)
