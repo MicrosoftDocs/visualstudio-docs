@@ -57,7 +57,7 @@ Be aware of the following guidelines when using an intrinsic function:
 
 - Intrinsic functions may be overloaded, either with PDB-defined functions, or with each other.
 
-- When an intrinsic function conflicts with a PDB-defined function with the same name and argument list, the intrinsic function will win. You can't func-eval the PDB function if an equivalant intrinsic function exists.
+- When an intrinsic function conflicts with a PDB-defined function with the same name and argument list, the intrinsic function will win. You can't func-eval the PDB function if an equivalent intrinsic function exists.
 
 - You can't take the address of an intrinsic function; you can only call it.
 
@@ -102,7 +102,7 @@ Intrinsic functions support two possible forms of implementation:
 
 - Expression-based 
 
-  The NatVis file defines an expression that evaluates to the return value of the function. The expression may use any arguments passed into it declared as `<Parameter>` elements.Functions defined within a class are also assumed to be "instance" functions, and may access the "this" pointer as well.
+  The NatVis file defines an expression that evaluates to the return value of the function. The expression may use any arguments passed into it declared as `<Parameter>` elements. Functions defined within a class are also assumed to be "instance" functions, and may access the "this" pointer as well.
 
 - Extension-based
 
@@ -139,7 +139,7 @@ a single-element array in `pResults`, storing the bytes of the return value.
 
 Use the following guidelines to implement functions:
 
-- It's illegal to "mix and match" the two implementation forms. That is, you can't include both an expression and a source id.
+- It's illegal to "mix and match" the two implementation forms. That is, you can't include both an expression and a source ID.
 
 - Specifying a return type for an expression-based implementation is allowed, but not required. If a return type is specified, the return type of the expression must exactly match it (no implicit casting allowed). If a return type isn't specified, the return type is inferred from the expression. Any extension-based implementation must state a return type in the NatVis file.
 
