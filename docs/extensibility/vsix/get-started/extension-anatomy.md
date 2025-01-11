@@ -15,7 +15,7 @@ A VSIX package is a .vsix file that contains one or more Visual Studio extension
 
 An extension project is a C# project with a few extras that make it unique. The following video explores an extension project to better understand how extension projects work:
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWPhtJ]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=cc3dbbb6-c221-469e-8320-208d816eff0a]
 
 ## File structure
 When creating new extensions using the **VSIX Project w/Command (Community)** template, the file structure looks as follows:

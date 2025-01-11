@@ -17,7 +17,7 @@ The extension you'll be writing today adds a command that inserts a new guid int
 
 If you're a visual learner, check out this short video of someone following the tutorial.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWPmjK]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=fbe3f134-ac8d-461b-aa19-b114e73e0090]
 
 Before you start writing your first Visual Studio extension (it's easy, I promise!), make sure you've got the [tools needed](get-tools.md).
 

@@ -13,7 +13,7 @@ ms.subservice: extensibility-integration
 This article shows you how to create an Extension Pack. An Extension Pack is a set of extensions that can be installed together. Extension Packs enable you to easily share your favorite extensions with other users or bundle a set of extensions together for a particular scenario.
 
 The following video introduces how to create Extension Packs.
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWP8KA]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=00230c46-d0f6-4439-8fa0-a205243e764e]
 
 ## Create from project template
 The Extension Pack project template creates an Extension Pack with set of extensions that can be installed together.
