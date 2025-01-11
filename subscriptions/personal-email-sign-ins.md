@@ -29,7 +29,7 @@ To correct the problem, select the **Connect Emails** button. The system attempt
 
 Watch this video or keep reading to learn how to fix this problem. 
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4th6B]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=5a397f88-8287-42d3-ac7f-903298ce500c]
 
 > [!div class="mx-imgBorder"]
 > ![Connect Emails Button](_img/connect-emails/connect-emails-button.png "Screenshot of the Manage subscribers page. The Connect Emails option is highlighted.")
