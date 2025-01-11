@@ -14,7 +14,7 @@ A new feature in the Visual Studio subscriptions admin portal helps you track ho
 ## Maximum usage overview
 
 Watch the video or read on to learn how to use the maximum usage feature. 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4tdQK] 
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=0f65b980-130c-4404-8b68-21b2817aaf51] 
 
 ## View your maximum usage
 

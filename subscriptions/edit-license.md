@@ -31,7 +31,7 @@ You can edit multiple subscribers at once using the bulk edit process. This feat
 
 Watch this video or read on to learn how to edit multiple subscribers using bulk edit. 
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vkAF]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=78f7b5b8-1d0d-4083-b220-df3816147e5b]
 
 > [!NOTE]
 > Do not change subscription GUIDs in the template. Please see our article about [assigning specific subscription GUIDs](assign-guid.md).
