@@ -51,7 +51,7 @@ Make sure to install the following:
 
 1. Select **Create**.
 
-   Solution Explorer shows the following::
+   Solution Explorer shows the following:
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-angular-solution-explorer.png" alt-text="Screenshot showing Solution Explorer.":::
 
@@ -78,7 +78,7 @@ Make sure to install the following:
 
    This value prevents opening the web page with the source weather data.
 
-   >[!NOTE]
+   > [!NOTE]
    > In Visual Studio, `launch.json` stores the startup settings associated with the **Start** button in the Debug toolbar. `launch.json` must be located under the `.vscode` folder.
 
 1. Right-click the solution in Solution Explorer and select **Properties**. Verify that the Startup project settings are set to **Multiple projects**, and that the Action for both projects is set to **Start**.
@@ -90,7 +90,7 @@ Press **F5** or select the **Start** button at the top of the window to start th
 - The ASP.NET Core API project running
 - The Angular CLI running the ng start command
 
->[!NOTE]
+> [!NOTE]
 > Check console output for messages. For example there might be a message to update Node.js.
 
 The Angular app appears and is populated via the API (the localhost port may vary from the screenshot). 
@@ -103,7 +103,7 @@ If you don't see the app, see [Troubleshooting](#troubleshooting).
 
 Starting in Visual Studio 2022 version 17.3, you can publish the integrated solution using the Visual Studio Publish tool.
 
->[!NOTE]
+> [!NOTE]
 > To use publish, create your JavaScript project using Visual Studio 2022 version 17.3 or later.
 
 1. In Solution Explorer, right-click the **AngularWithASP.Server** project and select **Add** > **Project Reference**.
@@ -118,7 +118,7 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 
 1. In the `.csproj` file, make sure the project reference includes a `<ReferenceOutputAssembly>` element with the value set to `false`.
 
-   This reference should look like the following.
+   This reference should look like the following:
 
    ```xml
     <ProjectReference Include="..\angularwithasp.client\angularwithasp.client.esproj">
@@ -192,7 +192,7 @@ If you create the project with [Docker support](../containers/overview.md#prereq
       env.ASPNETCORE_URLS ? env.ASPNETCORE_URLS.split(';')[0] : 'https://localhost:7209';
    ```
 
-   change `https://localhost:7209` to the matching HTTPS port (in this example, `https://localhost:62958`).
+   Change `https://localhost:7209` to the matching HTTPS port (in this example, `https://localhost:62958`).
 
 1. Restart the app.
 
