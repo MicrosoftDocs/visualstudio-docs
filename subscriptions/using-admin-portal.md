@@ -14,7 +14,7 @@ The Visual Studio Subscriptions Admin Portal gives you the tools to manage your 
 
 Take a tour of the portal.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4t9aW]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=4c7a9034-17fc-4aef-ab48-435fcd5076ab]
 
 ## Important considerations
 

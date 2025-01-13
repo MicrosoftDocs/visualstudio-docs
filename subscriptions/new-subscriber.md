@@ -22,7 +22,7 @@ Learn how to:
 
 ## A quick tour of the portal
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1U7cj]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=4373d1ad-357c-4263-a213-3587517066e0]
 
 There are four pages in the portal, each of which provides you with different capabilities.
 + **Benefits** - Go to this tab to see which benefits are included in your subscription, and activate them. You can filter the list of benefits by Tools, Professional Development, or Support to make it easy to find the benefits you want to activate.
@@ -69,4 +69,3 @@ As an active Visual Studio subscriber, you can use a range of features in Azure 
 
 ## Next steps
 Get started using your benefits by signing in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits) . 
-
