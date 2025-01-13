@@ -49,6 +49,8 @@ New in [**version 17.12**](/visualstudio/releases/2022/release-notes-v17.12): Wh
 New in **version 17.13**: With GitHub Copilot installed, you can have GitHub Copilot review your code changes before you commit them. In the **Git Changes** window, click on the **Review changes** icon.
 
 After a few moments, a link showing the number of code review comments appears in the **Git Changes** window that you can click on to view and navigate the comments. You can read the brief summary of the potential problem, and decide to make a change, or minimize the comment box by using the downward arrow button on the top right of the comment box. If no issues are detected, the message **Copilot did not comment on any files** appears.
+
+To remove all comments, use the **X** in the Git Changes window to close the Copilot code review link.
 :::moniker-end
 
 ## Revert, reset, or amend a commit
