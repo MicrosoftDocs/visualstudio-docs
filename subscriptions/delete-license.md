@@ -18,7 +18,7 @@ When a subscriber no longer requires a Visual Studio subscription, you can remov
 
 Watch this video or read on to learn how to delete assignments. 
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yG2q]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=f7d7388b-d823-4020-9f04-baaa1677e3d7]
 
 ## Delete a subscription assignment
 

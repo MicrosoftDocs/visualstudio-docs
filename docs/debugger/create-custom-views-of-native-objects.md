@@ -1,7 +1,7 @@
 ---
 title: Create custom views of C++ objects
 description: Use the Natvis framework to customize the way Visual Studio displays native types in the debugger for your applications.
-ms.date: 02/20/2024
+ms.date: 01/10/2025
 ms.topic: how-to
 f1_keywords:
   - natvis
@@ -675,7 +675,7 @@ While the `ExpandedItem` element provides a flatter view of data by eliminating 
 
 ### Intrinsic expansion
 
-A custom intrinsic function that can be called from an expression. An `<Intrinsic>` element must be accompanied by a debugger component that implements the function through the IDkmIntrinsicFunctionEvaluator140 interface.
+A custom intrinsic function that can be called from an expression. An `<Intrinsic>` element must be accompanied by a debugger component that implements the function through the IDkmIntrinsicFunctionEvaluator140 interface. For more information on implementing a custom intrinsic function, see [Implement NatVis custom intrinsic function](../debugger/implementing-natvis-intrinsic-function.md).
 
 ```xml
 <Type Name="std::vector&lt;*&gt;">

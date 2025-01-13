@@ -14,7 +14,7 @@ Customers who have Enterprise Agreements (EA) with Microsoft are eligible to pur
 
 Check out this video for steps to set up your organization and invite new members, or follow the step-by-step instructions below the video.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWVcut]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=f3e34a55-addb-4b08-8e4d-680c196f80dd]
 
 Now that you purchased Visual Studio subscriptions with GitHub Enterprise, let’s get your organization set up. We begin with instructions for new GitHub Enterprise customers. If you’re an existing GitHub Enterprise customer, skip ahead to [Assigning Visual Studio subscriptions to organization members](#assign-visual-studio-subscriptions-to-organization-members).
 

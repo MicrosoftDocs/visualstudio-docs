@@ -16,7 +16,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
 ## Use Bulk add to assign subscriptions
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vxNq]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=c825bc20-33c8-4b8f-9999-09cfc17b6bcd]
 
 ## Follow these steps to use the Bulk add feature:
 
@@ -91,7 +91,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
 
 ## Watch this video or read on to learn more about adding subscribers using the Microsoft Entra group feature. 
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4rvvW]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=78496cc2-03f3-4fde-b8a4-5c895093d2c3]
 
 1. Sign in to the Visual Studio Subscriptions Admin Portal at [https://manage.visualstudio.com](https://manage.visualstudio.com).
 
