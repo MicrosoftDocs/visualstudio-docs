@@ -85,6 +85,12 @@ To add a comment, click on the **Add comment** icon to the left side of the edit
 
 ![Screenshot showing the Add Comment icon when reviewing a file change in a pull request.]()
 
+The comment text is not published until you click the **Add Comment** button.
+
+You can continue the conversation on an existing comment by using the **Reply** section in the comment box.
+
+You can toggle your like status on a comment by clicking on the icon, or by clicking on the three dots, you can copy the comment text to the clipboard, copy a link to the comment to the clipboard, delete the comment, or open the comment in the web browser at the provider's site (such as github.com or your Azure DevOps project site).
+
 The ability to add comments to a pull request is limited for some Git providers. For example, with GitHub as the provider, you can only add comments on lines within 3 lines of a change, but with the Azure DevOps provider, you can add comments at any line of a file involved in the pull request. In any case, you can only add comments on files that are included in the pull request.
 
 ### Use the keyboard
