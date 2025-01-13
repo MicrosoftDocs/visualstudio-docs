@@ -87,7 +87,7 @@ To add a comment, click on the **Add comment** icon to the left side of the edit
 
 The comment text is not published until you click the **Add Comment** button.
 
-You can continue the conversation on an existing comment by using the **Reply** section in the comment box.
+You can continue the conversation on an existing comment by using the **Reply** section in the comment box. Comments are either active or resolved. You can click **Reply and Resolve** to reply to a comment and change the status to resolved in one click, or change the status using the dropdown above the comment text.
 
 You can toggle your like status on a comment by clicking on the icon, or by clicking on the three dots, you can copy the comment text to the clipboard, copy a link to the comment to the clipboard, delete the comment, or open the comment in the web browser at the provider's site (such as github.com or your Azure DevOps project site).
 
