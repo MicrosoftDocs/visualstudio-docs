@@ -2,10 +2,10 @@
 title: Create a pull request in Visual Studio
 titleSuffix: ""
 description: Create a pull request in Visual Studio by using GitHub or Azure DevOps.
-ms.date: 10/7/2024
+ms.date: 1/13/2025
 ms.topic: how-to
-author: houghj16
-ms.author: jehoughton
+author: ghogen
+ms.author: ghogen
 ms.manager: mijacobs
 ms.collection: ce-skilling-ai-copilot
 ms.subservice: general-ide
@@ -61,17 +61,33 @@ To create a pull request, follow these steps:
 
 With Visual Studio 17.12 and later, you can enable the **Pull Request Templates** feature (in **Tools** > **Options** > **Environment** > **Preview Features**) so that your default PR template in your repo will be used when creating a new pull request for both GitHub and Azure DevOps. Learn more about how to add a pull request template to your repository in the [GitHub documentation](https://docs.github.com/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository) and [Azure DevOps documentation](/azure/devops/repos/git/pull-request-templates#default-pull-request-templates).
 
-## View pull request comments in the editor
+## View or add pull request comments in the editor
 
-As of Visual Studio 17.11, you can view comments and suggestions from reviewers without switching contexts to the browser.
+With Visual Studio 17.11 or later, you can view comments and suggestions from reviewers without switching contexts to the browser.
 
 ![Screenshot showing PR comments.](./media/vs-2022/git-pull-request-comments.png)
 
 To enable this feature, open **Tools** > **Options** > **Preview features** and make sure that **Pull Request Comments** is selected.
 
+### View pull request comments
+
 To view the comments for a pull request, check out any branch with an active pull request branch and select **Show comments in files** from the infobar. You can also select the PR number in the **Git Changes** window or from the Git top level menu with **Git** > **GitHub** or **Azure DevOps** > **Show comments in files**.
 
 ![Screenshot showing link to view comments in Git Changes window.](./media/vs-2022/git-pull-request-link-and-PR-number.png)
+
+### Add pull request comments
+
+With Visual Studio 17.13 or later, you can review a pull request, or add comments.
+
+To enable this feature, open **Tools** > **Options** > **Preview features** and make sure that **Pull Request Comments** is selected. Once these are activated, checkout any branch with an active pull request and click on **Show comments in files** in the infobar, and navigate through the changes using the toolbar buttons above the code file.
+
+To add a comment, click on the **Add comment** icon to the left side of the editor.
+
+![Screenshot showing the Add Comment icon when reviewing a file change in a pull request.]()
+
+The ability to add comments to a pull request is limited for some Git providers. For example, with GitHub as the provider, you can only add comments on lines within 3 lines of a change, but with the Azure DevOps provider, you can add comments at any line of a file involved in the pull request. In any case, you can only add comments on files that are included in the pull request.
+
+### Use the keyboard
 
 You can navigate across files and individual comments using the icons in the toolbar, or use the following keyboard shortcuts:
 
