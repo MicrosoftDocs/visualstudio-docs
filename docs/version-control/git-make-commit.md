@@ -40,13 +40,16 @@ Visual Studio also makes it easy to commit and sync with one click by using the 
 
 :::image type="content" source="media/vs-2022/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio 2022.":::
 
+:::moniker range=">=vs-2022"
+
 New in [**version 17.6**](/visualstudio/releases/2022/release-notes-v17.6): You can also reference an issue or a pull request by typing `#` or selecting the **#** button in the lower right side of the commit message text box. For more information, see the [Reference issues and pull requests](https://devblogs.microsoft.com/visualstudio/reference-github-issues-and-pull-requests-in-visual-studio/) blog post.
 
-New in **version 17.12**: When you rename a file, you'll see a notification bar at the top of the **Git Changes** window informing you that a file was renamed, and prompting you to stage that change. This notification appears before you stage or commit anything. You might want to stage and commit the change before making other changes, in order to ensure that Git detects the change as a rename, not a deletion and addition of a new file.
+New in [**version 17.12**](/visualstudio/releases/2022/release-notes-v17.12): When you rename a file, you'll see a notification bar at the top of the **Git Changes** window informing you that a file was renamed, and prompting you to stage that change. This notification appears before you stage or commit anything. You might want to stage and commit the change before making other changes, in order to ensure that Git detects the change as a rename, not a deletion and addition of a new file.
 
 New in **version 17.13**: With GitHub Copilot installed, you can have GitHub Copilot review your code changes before you commit them. In the **Git Changes** window, click on the **Review changes** icon.
 
-After a few moments, links will appear in the **Git Changes** window that you can click on to navigate to the section of your code that triggered GitHub Copilot to add a comment. You can read the brief summary of the potential problem, and decide to make a change, or dismiss the feedback.
+After a few moments, links will appear in the **Git Changes** window that you can click on to navigate to a code review comment. You can read the brief summary of the potential problem, and decide to make a change, or dismiss the feedback.
+:::moniker-end
 
 ## Revert, reset, or amend a commit
 
