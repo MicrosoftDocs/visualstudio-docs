@@ -46,9 +46,11 @@ New in [**version 17.6**](/visualstudio/releases/2022/release-notes-v17.6): You 
 
 New in [**version 17.12**](/visualstudio/releases/2022/release-notes-v17.12): When you rename a file, you'll see a notification bar at the top of the **Git Changes** window informing you that a file was renamed, and prompting you to stage that change. This notification appears before you stage or commit anything. You might want to stage and commit the change before making other changes, in order to ensure that Git detects the change as a rename, not a deletion and addition of a new file.
 
-New in **version 17.13**: With GitHub Copilot installed, you can have GitHub Copilot review your code changes before you commit them. In the **Git Changes** window, click on the **Review changes** icon.
+New in **version 17.13**: With GitHub Copilot installed, you can have GitHub Copilot review your code changes before you commit them. In the **Git Changes** window, click on the **Review changes** button.
 
 After a few moments, a link showing the number of code review comments appears in the **Git Changes** window that you can click on to view and navigate the comments. If no issues are detected, the message **Copilot did not comment on any files** appears.
+
+![Screenshot showing Git Changes window with Review changes button.](./media/vs-2022/git-code-review-changes-button.png)
 
 You can read the brief summary of the potential problem, and decide to make a change, or minimize the comment box by using the downward arrow button on the top right of the comment box.
 
