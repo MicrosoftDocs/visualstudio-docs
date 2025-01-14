@@ -52,7 +52,7 @@ After a few moments, a link showing the number of code review comments appears i
 
 ![Screenshot showing Git Changes window with Review changes button.](./media/vs-2022/git-code-review-changes-button.png)
 
-You can read the brief summary of the potential problem, and decide to make a change, or minimize the comment box by using the downward arrow button on the top right of the comment box.
+The code review feedback shows up as comments, which show brief summary of the potential problem, and you can decide to make a change, or dismiss the comment box by using the downward arrow button on the top right of the comment box.
 
 ![Screenshot showing GitHub code review comment.](./media/vs-2022/git-code-review-comment.png)
 
