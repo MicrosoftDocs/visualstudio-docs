@@ -15,7 +15,7 @@ To write extensions you have to install the extensibility workload. That's techn
 
 The following video introduces the tools you'll need.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWPhtT]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=6535f5f1-df90-4ab7-ba5e-c5131357e2a2]
 
 ## Install extensibility workload
 

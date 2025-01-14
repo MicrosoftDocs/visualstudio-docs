@@ -42,7 +42,7 @@ To diagnose why a test method is taking more time than you'd like, or using more
 1. Right-click the method in Test Explorer, and then select **Profile**.
 1. In the Performance Profiler, select a profiling tool to test your code.
 
-For more information, see [this blog post](https://devblogs.microsoft.com/visualstudio/a-unit-of-profiling-makes-the-allocations-go-away/) or see [Collect profiling data without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-without-debugging).
+For more information, see [this blog post](https://devblogs.microsoft.com/visualstudio/a-unit-of-profiling-makes-the-allocations-go-away/) or see [Collect profiling data on release builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-on-release-builds).
 ::: moniker-end
 
 ::: moniker range="vs-2019"

@@ -1,6 +1,6 @@
 ---
-description: Enumerates the various frame data elements contained in the data source.
 title: IDiaEnumFrameData
+description: Enumerates the various frame data elements contained in the data source.
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -78,7 +78,7 @@ This example shows how to obtain (the `GetEnumFrameData` function) and use (the 
 
 void ShowFrameData(IDiaSession *pSession)
 {
-    IDiaEnumFrameData* pEnumFrameData = GetEnumFrameData(pSession);;
+    IDiaEnumFrameData* pEnumFrameData = GetEnumFrameData(pSession);
 
     if (pEnumFrameData != NULL)
     {

@@ -44,7 +44,7 @@ This scenario applies to new partners placing new Open License orders but who re
 
 This scenario applies to partners that have access to the [Visual Studio Subscriptions Admin Portal](https://manage.visualstudio.com), but placed an order for Open Licenses with Visual Studio subscriptions that they need to manage. 
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vkAG]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=02100a5f-9ee7-4fbe-ba60-73201d928aa5]
 
 Steps for partners to add a new license:
 1. Sign in to <https://manage.visualstudio.com>.
