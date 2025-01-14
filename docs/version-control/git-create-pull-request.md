@@ -105,6 +105,7 @@ You can navigate across files and individual comments using the icons in the too
 | Go to the next file in the pull request | **Ctrl**+**Alt**+**F6** |
 | Go to the previous comment | **Ctrl**+**Shift**+**Alt**+**F8** |
 | Go to the next comment | **Ctrl**+**Alt**+**F8** |
+| Hide comments in files | **Ctrl**+**Shift**+**F1** |
 
 ## Next steps
 
