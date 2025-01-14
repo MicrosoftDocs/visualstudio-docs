@@ -83,9 +83,9 @@ To enable this feature, open **Tools** > **Options** > **Preview features** and 
 
 To add a comment, click on the **Add comment** icon to the left side of the editor, or right-click on a line of code and, on the context menu, choose **Git** > **Add comment**.
 
-![Screenshot showing the Add Comment icon when reviewing a file change in a pull request.]()
+![Screenshot showing the Add comment icon when reviewing a file change in a pull request.](./media/vs-2022/pull-request-add-comment.png)
 
-The comment text is not published until you click the **Add Comment** button.
+The comment text is not published until you click the **Add Comment** button on the comment window.
 
 You can continue the conversation on an existing comment by using the **Reply** section in the comment box. Comments are either active or resolved. You can click **Reply and Resolve** to reply to a comment and change the status to resolved in one click, or change the status using the dropdown above the comment text.
 
