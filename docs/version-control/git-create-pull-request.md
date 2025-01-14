@@ -81,9 +81,11 @@ With Visual Studio 17.13 or later, you can review a pull request, or add comment
 
 To enable this feature, open **Tools** > **Options** > **Preview features** and make sure that **Pull Request Comments** is selected. Once these are activated, checkout any branch with an active pull request and click on **Show comments in files** in the infobar, and navigate through the changes using the toolbar buttons above the code file.
 
-To add a comment, click on the **Add comment** icon to the left side of the editor, or right-click on a line of code and, on the context menu, choose **Git** > **Add comment**.
+To add a comment, click on the **Add comment** icon to the left side of the editor, as shown in the following screenshot.
 
 ![Screenshot showing the Add comment icon when reviewing a file change in a pull request.](./media/vs-2022/pull-request-add-comment.png)
+
+You can also right-click on a line of code and, on the context menu, choose **Git** > **Add comment**.
 
 The comment text is not published until you click the **Add Comment** button on the comment window.
 
