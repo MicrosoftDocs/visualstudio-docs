@@ -22,7 +22,7 @@ This walkthrough shows how to create a basic "forms over data" application in Vi
 
 This article focuses on using data tools in Visual Studio, and does not attempt to explain the underlying technologies in any depth. It assumes that you have a basic familiarity with XAML, Entity Framework, and SQL. This example also does not demonstrate Model-View-ViewModel (MVVM) architecture, which is standard for WPF applications. However, you can copy this code into your own MVVM application with few modifications.
 
-The final code for this tutorial can be found in GitHub at [Visual Studio Tutorial Samples - EF6](https://github.com/MicrosoftDocs/vs-tutorial-samples/tree/master/ef6).
+The final code for this tutorial can be found in GitHub at [Visual Studio Tutorial Samples - EF6](https://github.com/MicrosoftDocs/vs-tutorial-samples/tree/main/ef6).
 
 ## Install and connect to Northwind
 

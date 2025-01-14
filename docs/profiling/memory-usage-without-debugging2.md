@@ -1,6 +1,6 @@
 ---
 title: Analyze memory usage in the Performance Profiler
-description: Learn how to use the Memory Usage tool without the debugger in the Visual Studio Performance Profiler to monitor your app's memory use.
+description: Learn how to use the Memory Usage tool in release builds in the Visual Studio Performance Profiler to monitor your app's memory use.
 ms.date: 02/06/2024
 ms.topic: how-to
 dev_langs: 
@@ -13,11 +13,11 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
-# Analyze memory usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)
+# Analyze memory usage in release builds (C#, Visual Basic, C++, F#)
 
 The **Memory Usage** tool monitors your app's memory use. You can use the tool to study the real-time memory effects of scenarios you're actively developing in Visual Studio. You can take detailed snapshots of the app's memory states, and compare snapshots to find the root causes of memory issues. The Memory Usage tool is supported on .NET, ASP.NET, C++, or mixed mode (.NET and native) apps.
 
-The Memory Usage tool can run [with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). In this article, we show how to use the Memory Usage tool without the debugger in the Visual Studio **Performance Profiler**, which is recommended for release builds. For information on choosing the best memory analysis tool for your needs, see [Choose a memory analysis tool](../profiling/analyze-memory-usage.md).
+The Memory Usage tool can run [on release or debug builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md). In this article, we show how to use the Memory Usage tool in the Visual Studio **Performance Profiler**, which is recommended for release builds. For information on choosing the best memory analysis tool for your needs, see [Choose a memory analysis tool](../profiling/analyze-memory-usage.md).
 
 ## Memory Usage diagnostic sessions
 
@@ -127,7 +127,7 @@ For C++, the **Objects (Diff)** column is named **Allocations (Diff)**.
 
 ### <a name="BKMK_Report_tree_filters_"></a> Report tree filters
 
-Many types in apps aren't required to app developers. The snapshot report filters can hide most of these types in the **Managed Memory** and **Paths to Root** trees.
+Many types in apps aren't required for app developers to investigate memory issues. The snapshot report filters can hide most of these types in the **Managed Memory** and **Paths to Root** trees.
 
 ::: moniker range=">=vs-2022"
 ![Sort and filter options](../profiling/media/vs-2022/memory-usage-sort-and-filter-vs-2022.png "Memory usage sort and filter")
@@ -189,5 +189,5 @@ Many types in apps aren't required to app developers. The snapshot report filter
 
 - [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)
-- [Performance best practices for UWP apps using C++, C#, and Visual Basic](/previous-versions/windows/apps/hh750313\(v\=win.10\))
+- [Analyze hot path to root](../profiling/hot-path-to-root.md)
 - [Diagnosing memory issues with the new Memory Usage tool in Visual Studio](https://devblogs.microsoft.com/devops/diagnosing-memory-issues-with-the-new-memory-usage-tool-in-visual-studio/)

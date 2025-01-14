@@ -78,4 +78,4 @@ In the Flame Graph view, you can navigate by clicking on a node with a mouse or 
 ## Related content
 
 - [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md)
-- [Analyze CPU usage without debugging](../profiling/cpu-usage.md)
+- [Analyze CPU usage on release builds](../profiling/cpu-usage.md)
