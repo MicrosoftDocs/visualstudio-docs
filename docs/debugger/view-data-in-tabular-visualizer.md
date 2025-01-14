@@ -1,7 +1,7 @@
 ---
 title: "View  data with the Tabular visualizer "
 description: View large collection objects with built-in tabular visualizers in the Visual Studio debugger and examine data by row and column for fields and properties.
-ms.date: "07/30/2024"
+ms.date: "01/13/2025"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
