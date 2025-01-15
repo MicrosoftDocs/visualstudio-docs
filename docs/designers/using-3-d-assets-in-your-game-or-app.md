@@ -39,6 +39,9 @@ Before you can deploy your 3D assets as part of your build, Visual Studio has to
     |3D Models|**MeshContentTask(.targets, .props)**|
     |Shaders|**ShaderGraphContentTask(.targets, .props)**|
 
+    > [!NOTE]
+    > Visual Studio 2022 17.9.3 removed support for the Model Editor and MeshContentTask due to security concerns in the Autodesk FBX SDK. See [CVE-2023-27911](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-27911).
+
 3. Choose the **OK** button.
 
 ## Include assets in your build
