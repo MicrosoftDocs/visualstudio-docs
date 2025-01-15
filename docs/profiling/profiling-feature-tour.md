@@ -33,7 +33,7 @@ Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (
 ![Screenshot of Performance Profiler.](../profiling/media/prof-tour-performance-profiler.png "Performance Profiler")
 ::: moniker-end
 
-For more information on using the CPU Usage or Memory usage tool in the Performance Profiler vs. the debugger-integrated tools, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). 
+For more information on using the CPU Usage or Memory usage tool in the Performance Profiler vs. the debugger-integrated tools, see [Run profiling tools on release or debug builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md). 
 
 Tools available in the Performance Profiler include:
 
@@ -73,7 +73,7 @@ While you are debugging, you can use the **Diagnostic Tools** window to analyze 
 ![Diagnostic Tools Summary view](../profiling/media/prof-tour-cpu-and-memory-graph.gif "Diagnostic Tools Summary")
 ::: moniker-end
 
-The **Diagnostic Tools** window is a common way to profile apps, but for Release builds you can also do a post-mortem analysis of your app instead. For more information on different approaches, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). To see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md).
+The **Diagnostic Tools** window is a common way to profile apps, but for Release builds you can also do a post-mortem analysis of your app instead. For more information on different approaches, see [Run profiling tools on release or debug builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md). To see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md).
 
 Tools available in the Diagnostic Tools window or during a debugging session include:
 ::: moniker range=">=vs-2022"
@@ -312,4 +312,4 @@ In Visual Studio 2019,  the legacy Performance Explorer and related profiling to
 
 - [Which tool should I use?](../profiling/choose-performance-tool.md)
 - [Reduce compute costs by using profiling tools](../profiling/optimize-code-using-profiling-tools.md)
-- [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
+- [Run profiling tools on release or debug builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md)

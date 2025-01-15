@@ -3,6 +3,8 @@ title: "Adapt to removal of Windows Arm32 .NET debugging"
 description: Provides guidance on how to adapt to the removal of Windows Arm32 .NET Debugging support
 ms.date: "12/12/2024"
 ms.topic: "error-reference"
+f1_keywords:
+  - "vs.debug.error.arm32_windows_dotnet_debugging"
 dev_langs:
   - "CSharp"
   - "VB"

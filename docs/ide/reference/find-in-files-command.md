@@ -19,14 +19,14 @@ monikerRange: "<=vs-2019"
 Search files using a subset of the options available on the **Find in Files** tab of the **Find and Replace** window.
 
 > [!IMPORTANT]
-> Support for this command was discontinued in version 16.5 of Visual Studio 2019. If you use this command with version 16.5 or a later version, you might see an error message that says, *Command "Edit.FindinFiles" does not accept arguments or switches.*
+> Support for this command was removed in version 16.5 of Visual Studio 2019, and restored in version 17.12 of Visual Studio 2022. If you use this command with versions 16.5-17.11, you might see an error message that says, *Command "Edit.FindinFiles" does not accept arguments or switches.* Some options have been changed in Visual Studio 2022.
 
 ## Syntax
 
 ```cmd
-Edit.FindinFiles findwhat [/case] [/ext:extensions]
-[/lookin:searchpath] [/names] [/options] [/reset] [/stop] [/sub]
-[/text2] [/wild|/regex] [/word]
+Edit.FindinFiles findwhat [/append] [/case] [/ext:extensions]
+[/lookin:searchpath] [/options] [/reset] [/stop] [/sub]
+[/regex] [/word]
 ```
 
 ## Arguments
@@ -35,6 +35,9 @@ Edit.FindinFiles findwhat [/case] [/ext:extensions]
 Required. The text to match.
 
 ## Switches
+/append  (new in Visual Studio 2022)\
+Optional. Directs the results from the current search to be appended to previous search results.
+
 /case or /c\
 Optional. Matches occur only if the uppercase and lowercase characters exactly match those specified in the `findwhat` argument.
 
@@ -44,7 +47,7 @@ Optional. Specifies the file extensions for the files to be searched. If not spe
 /lookin: `searchpath`\
 Optional. Directory to search. If the path contains spaces, enclose the entire path in quotation marks.
 
-/names or /n\
+/names or /n\ (not supported in Visual Studio 2022)
 Optional. Displays a list of file names that contain matches.
 
 /options or /t\
@@ -66,10 +69,10 @@ Optional. Halts the current search operation if one is in progress. Search ignor
 /sub or /s\
 Optional. Searches the subfolders within the directory specified in the /lookin:`searchpath` argument.
 
-/text2 or /2\
+/text2 or /2\ (not supported in Visual Studio 2022)
 Optional. Displays the results of the search in the Find Results 2 window.
 
-/wild or /l\
+/wild or /l\ (not supported in Visual Studio 2022)
 Optional. Uses pre-defined special characters in the `findwhat` argument as notations to represent a character or sequence of characters.
 
 /word or /w\

@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 # IDiaSessionEx::getSourceLinkInfo
 
-Retrieves an enumeration of [Source Link](https://github.com/dotnet/designs/blob/master/accepted/2020/diagnostics/source-link.md) information.
+Retrieves an enumeration of [Source Link](https://github.com/dotnet/designs/blob/main/accepted/2020/diagnostics/source-link.md) information.
 
 ## Syntax
 
@@ -43,6 +43,6 @@ HRESULT getSourceLinkInfo(
 ## See also
 
 - [`IDiaSessionEx`](../../debugger/debug-interface-access/idiasessionex.md)
-- [Source Link](https://github.com/dotnet/designs/blob/master/accepted/2020/diagnostics/source-link.md)
+- [Source Link](https://github.com/dotnet/designs/blob/main/accepted/2020/diagnostics/source-link.md)
 - [Using Source Link](https://github.com/dotnet/sourcelink#using-source-link-in-c-projects)
 - [/SOURCELINK (Include Source Link file in PDB)](/cpp/build/reference/sourcelink)

@@ -16,7 +16,7 @@ Visual Studio subscriptions are available through various channels. Choose from 
 
 Need help with deciding which subscription is right for you? Check out our [subscription benefits page](https://visualstudio.microsoft.com/vs/benefits/).  
 
-Visual Studio subscriptions available through the Microsoft Store include:
+Visual Studio subscriptions available through the Volume Licensing include:
 + [Visual Studio Enterprise](https://www.microsoft.com/p/visual-studio-enterprise-subscription/dg7gmgf0dst4?activetab=pivot%3aoverviewtab)
 + [Visual Studio Professional](https://www.microsoft.com/p/visual-studio-professional-subscription/dg7gmgf0dst3?activetab=pivot%3aoverviewtab)
 + [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab)

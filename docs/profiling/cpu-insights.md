@@ -1,7 +1,7 @@
 ---
 title: Diagnose high latency with CPU Insights
 description: Use CPU Insights to diagnose and optimize your code's performance
-ms.date: 09/06/2024
+ms.date: 01/13/2025
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo

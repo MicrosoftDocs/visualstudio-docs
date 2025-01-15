@@ -130,7 +130,7 @@ The **Interactive Window** supports several meta-commands. All meta-commands sta
 | `$reset`         | Reset the execution environment to the initial state, but keep the history.              |
 | `$wait`          | Wait for at least the specified number of milliseconds.                                  |
 
-You can also extend the commands with Visual Studio extensions by implementing and exporting the `IInteractiveWindowCommand` class. For more information, review an ([example on GitHub](https://github.com/Microsoft/PTVS/blob/master/Python/Product/PythonTools/PythonTools/Repl/InteractiveWindowCommands.cs#L85)).
+You can also extend the commands with Visual Studio extensions by implementing and exporting the `IInteractiveWindowCommand` class. For more information, review an ([example on GitHub](https://github.com/Microsoft/PTVS/blob/main/Python/Product/PythonTools/PythonTools/Repl/InteractiveWindowCommands.cs#L85)).
 
 ## Switch Interactive Window scope
 

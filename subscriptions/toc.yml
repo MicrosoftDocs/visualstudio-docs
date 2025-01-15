@@ -147,7 +147,7 @@
   - name: Partners managing for customers
     href: open-migration.md
   - name: 'Video tutorial: Access the admin portal'
-    href:  https://www.microsoft.com/videoplayer/embed/RE4th6L
+    href:  https://learn-video.azurefd.net/vod/player?id=6fc722fe-af29-45f7-864d-b4e32c0fea4f
 - name: Use the admin portal
   items:
   - name: Super admins and administrators

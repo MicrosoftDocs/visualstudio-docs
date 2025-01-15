@@ -456,7 +456,7 @@ void CWordPadView::OnInsertDateTime()
 {
 	CDateDialog dlg;
 	if (dlg.DoModal() == IDOK)
-		GetRichEditCtrl().ReplaceSel(dlg.m_strSel);;
+		GetRichEditCtrl().ReplaceSel(dlg.m_strSel);
 }
 
 void CWordPadView::OnFormatParagraph()

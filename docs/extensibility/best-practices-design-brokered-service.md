@@ -13,7 +13,7 @@ ms.subservice: extensibility-integration
 ---
 # Best practices for designing a brokered service
 
-Follow the general [guidance and restrictions documented for RPC interfaces](https://github.com/microsoft/vs-streamjsonrpc/blob/master/doc/dynamicproxy.md) for StreamJsonRpc.
+Follow the general [guidance and restrictions documented for RPC interfaces](https://github.com/microsoft/vs-streamjsonrpc/blob/main/doc/dynamicproxy.md) for StreamJsonRpc.
 
 In addition, the following guidelines apply to brokered services.
 
@@ -61,7 +61,7 @@ Use <xref:System.Collections.Generic.IReadOnlyCollection%601> for unordered coll
 Consider <xref:System.Collections.Generic.IAsyncEnumerable%601>.
 Any other collection type or <xref:System.Collections.Generic.IEnumerable%601> will result in the entire collection being sent in one message.
 Using <xref:System.Collections.Generic.IAsyncEnumerable%601> allows for a small initial message and provides the receiver the means to get just as many items from the collection as they want, enumerating it asynchronously.
-[Learn more about this novel pattern](https://github.com/microsoft/vs-streamjsonrpc/blob/master/doc/asyncenumerable.md).
+[Learn more about this novel pattern](https://github.com/microsoft/vs-streamjsonrpc/blob/main/doc/asyncenumerable.md).
 
 ## Observer pattern
 

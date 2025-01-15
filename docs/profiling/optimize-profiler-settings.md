@@ -61,6 +61,6 @@ The Visual Studio profiler uses a collection scratch directory to store performa
 
 ## Related content
 
-- [Running profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
+- [Running profiling tools on release or debug builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
 - [Using multiple profiler tools simultaneously](../profiling/use-multiple-profiler-tools-simultaneously.md)
 - [Understanding performance collection methods](../profiling/understanding-performance-collection-methods-perf-profiler.md)
