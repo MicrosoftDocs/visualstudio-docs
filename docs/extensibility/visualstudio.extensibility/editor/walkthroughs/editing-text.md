@@ -3,7 +3,7 @@ title: Changing text in the editor
 description: A walkthrough of how to change text in the Visual Studio editor using extensions
 ms.date: 1/13/2025
 ms.topic: conceptual
-ms.author: tinaschrepfer
+ms.author: tinali
 monikerRange: ">=vs-2022"
 author: tinaschrepfer
 manager: mijacobs

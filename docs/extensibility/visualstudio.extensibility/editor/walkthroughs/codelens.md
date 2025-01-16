@@ -3,7 +3,7 @@ title: Customizing CodeLens in the editor
 description: A walkthrough of how to provide your own CodeLens in the Visual Studio editor using extensions
 ms.date: 1/13/2025
 ms.topic: conceptual
-ms.author: tinaschrepfer
+ms.author: tinali
 monikerRange: ">=vs-2022"
 author: tinaschrepfer
 manager: mijacobs
@@ -24,7 +24,7 @@ Text view CodeLens provide text-based information to segments of code. This is t
 Invokable CodeLens allows extensions to perform some action (e.g. run a unit test) when user clicks on the CodeLens. Extensions can contribute invokable CodeLens by implementing [`InvokableCodeLens`](/dotnet/api/microsoft.visualstudio.extensibility.editor.invokablecodelens), which derives from [`CodeLens`](/dotnet/api/microsoft.visualstudio.extensibility.editor.codelens).
 
 ## Visual CodeLens
-Visual CodeLens allows extensions to provide custom UI, like a list of references to a method, to be displayed in a popup above the CodeLens when user clicks on the CodeLens. Extensions can contribute visual CodeLens by implementing [`VisualCodeLens`](/dotnet/api/microsoft.visualstudio.extensibility.editor.visualcodelens), which derives from [`CodeLens`](/dotnet/api/microsoft.visualstudio.extensibility.editor.codelens). Similar to text view margins, because extensions in VisualStudio.Extensibility might be out-of-process from the Visual Studio, visual CodeLenses provide UI by creating a [`RemoteUserControl`](./../inside-the-sdk/remote-ui.md) and the corresponding data template for that control. While there are some simple examples below, we recommend reading the [Remote UI documentation](./../inside-the-sdk/remote-ui.md) when creating visual CodeLens' UI content.
+Visual CodeLens allows extensions to provide custom UI, like a list of references to a method, to be displayed in a popup above the CodeLens when user clicks on the CodeLens. Extensions can contribute visual CodeLens by implementing [`VisualCodeLens`](/dotnet/api/microsoft.visualstudio.extensibility.editor.visualcodelens), which derives from [`CodeLens`](/dotnet/api/microsoft.visualstudio.extensibility.editor.codelens). Similar to text view margins, because extensions in VisualStudio.Extensibility might be out-of-process from the Visual Studio, visual CodeLenses provide UI by creating a [`RemoteUserControl`](./../../inside-the-sdk/remote-ui.md) and the corresponding data template for that control. While there are some simple examples below, we recommend reading the [Remote UI documentation](./../../inside-the-sdk/remote-ui.md) when creating visual CodeLens' UI content.
 
 The sample code below demonstrates how to create a text view CodeLens and an invokable CodeLens:
 
@@ -92,7 +92,7 @@ public class WordCountCodeLens : VisualCodeLens
 
 In addition to configuring CodeLens provider display name, CodeLens providers can also configure priority of their CodeLens. The priority value is used to determine the relative ordering of your CodeLens respective to other CodeLenses. This is done through the [`Priority`](/dotnet/api/microsoft.visualstudio.extensibility.editor.codelensproviderconfiguration.priority) property in the [`CodeLensProviderConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.editor.codelensproviderconfiguration) object.
 
-CodeLenses typically visualize some data related to the text view. For example, they might want to display the number of references to a method. To do so, your CodeLens provider should also [listen to text view events](#add-a-text-view-listener) to react to opening, closing of text views and user typing.
+CodeLenses typically visualize some data related to the text view. For example, they might want to display the number of references to a method. To do so, your CodeLens provider should also [listen to text view events](working-with-text.md) to react to opening, closing of text views and user typing.
 
 Visual Studio only creates one instance of your CodeLens provider regardless of how many applicable text views a user opens. This means that if your CodeLens needs to maintain state, you need to ensure your CodeLens provider has a way to keep the state of currently open text views.
 

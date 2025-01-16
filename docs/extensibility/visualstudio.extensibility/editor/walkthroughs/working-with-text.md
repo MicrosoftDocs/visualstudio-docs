@@ -3,7 +3,7 @@ title: Working with text in the editor
 description: A walkthrough of how to read text and track text changes in the Visual Studio editor using extensions
 ms.date: 1/13/2025
 ms.topic: conceptual
-ms.author: tinaschrepfer
+ms.author: tinali
 monikerRange: ">=vs-2022"
 author: tinaschrepfer
 manager: mijacobs
@@ -172,4 +172,4 @@ EditorExtensibility editorService = this.Extensibility.Editor();
 using ITextViewSnapshot textView = await this.Extensibility.Editor().GetActiveTextViewAsync(clientContext, cancellationToken);
 ```
 
-Once you have `ITextViewSnapshot`, you can access editor state. [`ITextViewSnapshot`](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewsnapshot) is an immutable view of editor state at a point in time, so you need to use the other interfaces in the [Editor object model](editor-concepts.md) to make edits.
+Once you have `ITextViewSnapshot`, you can access editor state. [`ITextViewSnapshot`](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewsnapshot) is an immutable view of editor state at a point in time, so you need to use the other interfaces in the [Editor object model](./../editor-concepts.md) to make edits.
