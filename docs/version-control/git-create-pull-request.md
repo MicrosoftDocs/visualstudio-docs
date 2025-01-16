@@ -2,7 +2,7 @@
 title: Create a pull request in Visual Studio
 titleSuffix: ""
 description: Create a pull request in Visual Studio by using GitHub or Azure DevOps.
-ms.date: 1/7/2025
+ms.date: 1/13/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -61,17 +61,41 @@ To create a pull request, follow these steps:
 
 With Visual Studio 17.12 and later, you can enable the **Pull Request Templates** feature (in **Tools** > **Options** > **Environment** > **Preview Features**) so that your default PR template in your repo will be used when creating a new pull request for both GitHub and Azure DevOps. Learn more about how to add a pull request template to your repository in the [GitHub documentation](https://docs.github.com/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository) and [Azure DevOps documentation](/azure/devops/repos/git/pull-request-templates#default-pull-request-templates).
 
-## View pull request comments in the editor
+## View or add pull request comments in the editor
 
-As of Visual Studio 17.11, you can view comments and suggestions from reviewers without switching contexts to the browser.
+With Visual Studio 17.11 or later, you can view comments and suggestions from reviewers without switching contexts to the browser.
 
 ![Screenshot showing PR comments.](./media/vs-2022/git-pull-request-comments.png)
 
 To enable this feature, open **Tools** > **Options** > **Preview features** and make sure that **Pull Request Comments** is selected.
 
+### View pull request comments
+
 To view the comments for a pull request, check out any branch with an active pull request branch and select **Show comments in files** from the infobar. You can also select the PR number in the **Git Changes** window or from the Git top level menu with **Git** > **GitHub** or **Azure DevOps** > **Show comments in files**.
 
 ![Screenshot showing link to view comments in Git Changes window.](./media/vs-2022/git-pull-request-link-and-PR-number.png)
+
+### Add pull request comments
+
+With Visual Studio 17.13 or later, you can review a pull request, or add comments.
+
+To enable this feature, open **Tools** > **Options** > **Preview features** and make sure that **Pull Request Comments** is selected. Once these are activated, checkout any branch with an active pull request and click on **Show comments in files** in the infobar, and navigate through the changes using the toolbar buttons above the code file.
+
+To add a comment, click on the **Add comment** icon to the left side of the editor, as shown in the following screenshot.
+
+![Screenshot showing the Add comment icon when reviewing a file change in a pull request.](./media/vs-2022/pull-request-add-comment.png)
+
+You can also right-click on a line of code and, on the context menu, choose **Git** > **Add comment**.
+
+The comment text is not published until you click the **Add Comment** button on the comment window.
+
+You can continue the conversation on an existing comment by using the **Reply** section in the comment box. Comments are either active or resolved. You can click **Reply and Resolve** to reply to a comment and change the status to resolved in one click, or change the status using the dropdown above the comment text.
+
+You can toggle your like status on a comment by clicking on the icon, or by clicking on the three dots, you can copy the comment text to the clipboard, copy a link to the comment to the clipboard, delete the comment, or open the comment in the web browser at the provider's site (such as github.com or your Azure DevOps project site).
+
+The ability to add comments to a pull request is limited for some Git providers. For example, with GitHub as the provider, you can only add comments on lines within 3 lines of a change, but with the Azure DevOps provider, you can add comments at any line of a file involved in the pull request. In any case, you can only add comments on files that are included in the pull request.
+
+### Use the keyboard
 
 You can navigate across files and individual comments using the icons in the toolbar, or use the following keyboard shortcuts:
 
@@ -81,6 +105,7 @@ You can navigate across files and individual comments using the icons in the too
 | Go to the next file in the pull request | **Ctrl**+**Alt**+**F6** |
 | Go to the previous comment | **Ctrl**+**Shift**+**Alt**+**F8** |
 | Go to the next comment | **Ctrl**+**Alt**+**F8** |
+| Hide comments in files | **Ctrl**+**Shift**+**F1** |
 
 ## Next steps
 
