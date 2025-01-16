@@ -1,3 +1,20 @@
+---
+title: Virbox Protector for .NET applications
+ms.date: 01/16/2025
+ms.devlang: dotnet
+ms.topic: overview
+keywords: Dotnet obfuscator, SenseShield, Virbox, Virbox Protector, protector, obfuscation, .NET, Visual Studio
+helpviewer_keywords:
+- Virbox Protector
+- obfuscation
+- protector
+description: Protect your .NET applications with Virbox Protector.
+author: Vito
+ms.author: Vito
+manager: Vito
+ms.subservice: general-ide
+---
+
 # Virbox Protector for .NET applications
 
 .NET is an open-source and cross-platform development platform to build many types of applications. and widely used to  web, mobile, desktop, IoT applications. 
