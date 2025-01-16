@@ -1266,6 +1266,8 @@
       href: ide/exempt-visual-studio-from-wip.md
     - name: Federal Information Processing Standard (FIPS)
       href: ide/fips-support-visual-studio.md
+    - name: Virbox Protector
+      href: ide/virbox-protector/index.md
     - name: Dotfuscator Community
       href: ide/dotfuscator/index.md
 - name: Resources
