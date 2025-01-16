@@ -56,7 +56,7 @@ cancellationToken);
 
 ### Asynchronous execution
 
-[ITextViewSnapshot.GetTextDocumentAsync](/visualstudio/extensibility/visualstudio.extensibility/editor/editor-concepts?view=vs-2022#itextviewsnapshot) opens a copy of the text document in the Visual Studio extension. Since extensions run in a separate process, all extension interactions are asynchronous, cooperative, and have some caveats:
+[ITextViewSnapshot.GetTextDocumentAsync](/visualstudio/extensibility/visualstudio.extensibility/editor/editor-concepts?#itextviewsnapshot) opens a copy of the text document in the Visual Studio extension. Since extensions run in a separate process, all extension interactions are asynchronous, cooperative, and have some caveats:
 
 > [!CAUTION]
 > `GetTextDocumentAsync` might fail if called on an old `ITextDocument`, because it may no longer be cached by the Visual Studio client, if the user has made many changes since it was created. For  this reason, if you plan to store an `ITextView` to access its document later, and can't tolerate failure, it may be a good idea to call `GetTextDocumentAsync` immediately. Doing so fetches the text content for that version of the document into your extension, ensuring that a copy of that version is sent to your extension before it expires.

@@ -18,7 +18,7 @@ Event listeners get triggered when certain actions occur in an editor window, re
 
 The editor service object is an instance of the [`EditorExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.editor.editorextensibility) class, which exposes real-time editor functionality, such as performing text edits.
 
-[Commands](../command/command.md) are initiated by the user by clicking on an item, which you can place on a menu, context menu, or toolbar.
+[Commands](../../command/command.md) are initiated by the user by clicking on an item, which you can place on a menu, context menu, or toolbar.
 
 ## Add a text view listener
 
