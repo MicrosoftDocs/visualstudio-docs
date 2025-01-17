@@ -14,8 +14,20 @@ groups:
     title: Other languages
 # Notice how the ids, titles, and prompts are
 # consistent and in order.
-# Note: Set two is not used currently, but is present as an example set two.
 - id: programming-languages-set-two
+  title: Programming languages
+  prompt: Choose a programming language or runtime
+  pivots:
+  - id: programming-language-dotnet
+    title: .NET
+  - id: programming-language-cpp
+    title: C++
+  - id: programming-language-all
+    title: Other languages
+# Notice how the ids, titles, and prompts are
+# consistent and in order.
+# Note: This set is not used currently, but is present as an example.
+- id: programming-languages-set-three
   title: Programming languages
   prompt: Choose a supported programming language
   pivots:
