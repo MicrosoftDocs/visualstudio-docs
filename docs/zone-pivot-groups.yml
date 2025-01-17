@@ -20,10 +20,10 @@ groups:
   pivots:
   - id: programming-language-dotnet
     title: .NET
+  - id: programming-language-dotnetf
+    title: .NET Framework
   - id: programming-language-cpp
     title: C++
-  - id: programming-language-all
-    title: Other languages
 # Notice how the ids, titles, and prompts are
 # consistent and in order.
 # Note: This set is not used currently, but is present as an example.

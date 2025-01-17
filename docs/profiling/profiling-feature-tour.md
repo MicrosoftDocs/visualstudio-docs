@@ -21,7 +21,7 @@ Application performance measuring tools are essential for developers who want to
 
 For help with choosing the correct tool, or to see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md) For a tutorial that shows a general approach to optimizing code using the profiling tools, see [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
 
-::: zone pivot="programming-language-dotnet,programming-language-cpp,programming-language-all"
+::: zone pivot="programming-language-dotnet,programming-language-dotnetf,programming-language-cpp"
 ## <a name="post_mortem"></a> Measure performance in release builds
 
 Tools in the Performance Profiler are intended to provide analysis for **Release** builds. In the Performance Profiler, you can collect diagnostic info while the app is running, and then examine the collected information after the app is stopped (a post-mortem analysis).
@@ -271,7 +271,7 @@ The tool shows each event in a list view. Columns provide information about each
 You can programatically create custom events that appear as icons in the timeline graphs such as the CPU utilization and memory usage timeline graphs. For more information, see [Add user marks to timeline](../profiling/add-timeline-graph-user-marks.md).
 ::: moniker-end
 
-::: zone pivot="programming-language-dotnet"
+::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
 ## Analyze resource consumption (XAML)
 
 In XAML apps, such as Windows desktop WPF apps and UWP apps, you can analyze resource consumption using the Application Timeline tool. For example, you can analyze the time spent by your application preparing UI frames (layout and render), servicing network and disk requests, and in scenarios like application startup, page load, and Window resize. To use the tool, choose **Application Timeline** in the Performance Profiler, and then choose **Start**. In your app, go through the scenario with a suspected resource consumption issue, and then choose **Stop collection** to generate the report.
