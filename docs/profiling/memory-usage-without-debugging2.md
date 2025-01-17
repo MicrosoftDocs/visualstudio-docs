@@ -20,6 +20,8 @@ The **Memory Usage** tool monitors your app's memory use. You can use the tool t
 
 The Memory Usage tool can run [on release or debug builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md). In this article, we show how to use the Memory Usage tool in the Visual Studio **Performance Profiler**, which is recommended for release builds. For information on choosing the best memory analysis tool for your needs, see [Choose a memory analysis tool](../profiling/analyze-memory-usage.md).
 
+For the best experience with this documentation, choose your preferred development language or runtime from the list at the top of the article.
+
 ::: zone pivot="programming-language-dotnet,programming-language-dotnetf,programming-language-cpp"
 ## Memory Usage diagnostic sessions
 

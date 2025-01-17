@@ -21,6 +21,8 @@ Application performance measuring tools are essential for developers who want to
 
 For help with choosing the correct tool, or to see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md) For a tutorial that shows a general approach to optimizing code using the profiling tools, see [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
 
+For the best experience with this documentation, choose your preferred development language or runtime from the list at the top of the article.
+
 ## <a name="post_mortem"></a> Measure performance in release builds
 
 Tools in the Performance Profiler are intended to provide analysis for **Release** builds. In the Performance Profiler, you can collect diagnostic info while the app is running, and then examine the collected information after the app is stopped (a post-mortem analysis).
