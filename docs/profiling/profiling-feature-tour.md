@@ -1,7 +1,7 @@
 ---
 title: "First look at profiling tools"
 description: Review the different diagnostic tools available in Visual Studio for profiling your C#, Visual Basic, C++, and F# applications.
-ms.date: 11/19/2024
+ms.date: 1/17/2025
 ms.topic: conceptual
 f1_keywords:
   - vs.diagnosticshub.overview
@@ -21,7 +21,6 @@ Application performance measuring tools are essential for developers who want to
 
 For help with choosing the correct tool, or to see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md) For a tutorial that shows a general approach to optimizing code using the profiling tools, see [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
 
-::: zone pivot="programming-language-dotnet,programming-language-dotnetf,programming-language-cpp"
 ## <a name="post_mortem"></a> Measure performance in release builds
 
 Tools in the Performance Profiler are intended to provide analysis for **Release** builds. In the Performance Profiler, you can collect diagnostic info while the app is running, and then examine the collected information after the app is stopped (a post-mortem analysis).
@@ -39,6 +38,7 @@ For more information on using the CPU Usage or Memory usage tool in the Performa
 
 Tools available in the Performance Profiler include:
 
+::: zone pivot="programming-language-dotnet"
 - [CPU usage](../profiling/cpu-usage.md)
 - [.NET object allocation](../profiling/dotnet-alloc-tool.md)
 - [Memory usage](../profiling/memory-usage-without-debugging2.md)
@@ -48,11 +48,26 @@ Tools available in the Performance Profiler include:
 - [.NET Counters](../profiling/dotnet-counters-tool.md)
 - [Database tool](../profiling/analyze-database.md)
 - [GPU usage](../profiling/gpu-usage.md)
+::: zone-end
+
+::: zone pivot="programming-language-dotnetf"
+- [CPU usage](../profiling/cpu-usage.md)
+- [Memory usage](../profiling/memory-usage-without-debugging2.md)
+- [Instrumentation](../profiling/instrumentation-overview.md)
+- [File I/O](../profiling/use-file-io.md)
+::: zone-end
+
+::: zone pivot="programming-language-cpp"
+- [CPU usage](../profiling/cpu-usage.md)
+- [Memory usage](../profiling/memory-usage-without-debugging2.md)
+- [Instrumentation](../profiling/instrumentation-overview.md)
+- [File I/O](../profiling/use-file-io.md)
+- [GPU usage](../profiling/gpu-usage.md)
+::: zone-end
 
 To see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md).
 
 In some scenarios, the window allows you to select [multiple profiling tools](../profiling/use-multiple-profiler-tools-simultaneously.md). Tools such as CPU Usage may provide complementary data that you can use to help in your analysis. You can also use the [command-line profiler](../profiling/profile-apps-from-command-line.md) to enable scenarios involving multiple profiling tools.
-::: zone-end
 
 ## Measure performance while debugging
 
