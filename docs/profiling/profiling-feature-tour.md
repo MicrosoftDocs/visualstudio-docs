@@ -98,7 +98,9 @@ Tools available in the Diagnostic Tools window or during a debugging session inc
 
 - [CPU usage](../profiling/beginners-guide-to-performance-profiling.md)
 - [Memory usage](../profiling/memory-usage.md)
+::: zone pivot="programming-language-dotnet"
 - [.NET Counters](../profiling/dotnet-counters-tool.md)
+::: zone-end
 - [PerfTips](../profiling/perftips.md)
 ::: moniker-end
 ::: moniker range="<=vs-2019"
