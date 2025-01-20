@@ -1,5 +1,5 @@
 ---
-title: Use the right type of breakpoints
+title: Use the right type of breakpoint
 description: Learn about the different types of breakpoints, one of the most important debugging techniques. The article covers breakpoint actions, tracepoints, conditions, and much more.
 ms.date: 08/13/2024
 ms.topic: how-to
@@ -28,6 +28,8 @@ zone_pivot_groups: programming-languages-set-one
 This article shows how to use different types of breakpoints in Visual Studio to improve debugging efficiency. It covers various scenarios where breakpoints can be applied, such as pausing code execution, logging information, and tracking changes in variable states. The article explains how to set conditional breakpoints, tracepoints, data breakpoints, dependent breakpoints, and temporary breakpoints. It also includes detailed instructions on setting function breakpoints. This guide is essential for developers looking to leverage breakpoints for effective debugging in Visual Studio.
 
 If you're unfamiliar with using breakpoints in Visual Studio, see [Get started with breakpoints](get-started-with-breakpoints.md) before going through this article.
+
+For the best experience with this documentation, choose your preferred development language or runtime from the list at the top of the article.
 
 ::: zone pivot="programming-language-dotnet,programming-language-dotnetf,programming-language-cpp,programming-language-all"
 ## Scenarios
