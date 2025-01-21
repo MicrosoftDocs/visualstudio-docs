@@ -121,7 +121,7 @@ A Dockerfile is a text-based script of instructions that is used to create a con
 1. Go to the [Docker Getting Started Tutorial](https://github.com/docker/getting-started) repo, and then select **Code** > **Download ZIP**.
    Extract the contents to a local folder.
 
-   ![Screenshot shows part of the Github site, with the green Code button and Download ZIP option highlighted.](media/download-zip.png)
+   ![Screenshot shows part of the GitHub site, with the green Code button and Download ZIP option highlighted.](media/download-zip.png)
 
 1. In VS Code, select **File** > **Open Folder**.
    Navigate to the *app* folder in the extracted project and open that folder.
