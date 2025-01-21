@@ -84,7 +84,7 @@ You can change some aspects of the configuration of the remote debugger after yo
 - If you need to add permissions for other users to connect to the remote debugger, choose **Tools > Permissions**. You must have administrator privileges to grant or deny permissions.
 
      > [!IMPORTANT]
-     > You can run the remote debugger under a user account that differs from the user account you are using on the Visual Studio computer, but you must add the different user account to the remote debugger's permissions.
+     > You can run the remote debugger under a user account that differs from the user account you're using on the Visual Studio computer, but you must add the different user account to the remote debugger's permissions.
 
      Alternatively, you can start the remote debugger from the command line with the **/allow \<username>** parameter: **msvsmon /allow \<username@computer>**.
 
@@ -93,7 +93,7 @@ You can change some aspects of the configuration of the remote debugger after yo
      For a listing of the port numbers used by default, see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md).
 
      > [!WARNING]
-     > You can choose to run the remote tools in No Authentication mode, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose the No Authentication mode only if you are sure that the network is not at risk from malicious or hostile traffic.
+     > You can choose to run the remote tools in No Authentication mode, but this mode is strongly discouraged. There's no network security when you run in this mode. Choose the No Authentication mode only if you're sure that the network isn't at risk from malicious or hostile traffic.
 
 ## <a name="bkmk_configureService"></a> (Optional) Configure the remote debugger as a service
 
@@ -101,7 +101,7 @@ For debugging in ASP.NET and other server environments, you must either run the 
 
  If you want to configure the remote debugger as a service, follow these steps.
 
-1. Find the **Remote Debugger Configuration Wizard** (rdbgwiz.exe). (This is a separate application from the Remote Debugger.) It is available only when you install the remote tools. It is not installed with Visual Studio.
+1. Find the **Remote Debugger Configuration Wizard** (rdbgwiz.exe). (This is a separate application from the Remote Debugger.) It is available only when you install the remote tools. It isn't installed with Visual Studio.
 
 2. Start running the configuration wizard. When the first page comes up, click **Next**.
 
@@ -113,7 +113,7 @@ For debugging in ASP.NET and other server environments, you must either run the 
 
 5. Select the type of network that you want the remote tools to communicate with. At least one network type must be selected. If the computers are connected through a domain, you should choose the first item. If the computers are connected through a workgroup or homegroup, you should choose the second or third items. Click **Next**.
 
-6. If the service can be started, you will see **You have successfully completed the Visual Studio Remote Debugger Configuration Wizard**. If the service cannot be started, you will see **Failed to complete the Visual Studio Remote Debugger Configuration Wizard**. The page also gives some tips to follow to get the service to start.
+6. If the service can be started, you'll see **You have successfully completed the Visual Studio Remote Debugger Configuration Wizard**. If the service can't be started, you'll see **Failed to complete the Visual Studio Remote Debugger Configuration Wizard**. The page also gives some tips to follow to get the service to start.
 
 7. Click **Finish**.
 
