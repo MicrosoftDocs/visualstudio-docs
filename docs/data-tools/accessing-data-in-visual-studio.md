@@ -118,11 +118,11 @@ Most of the other SQL and NoSQL database products that are listed here can be ho
 :::moniker-end
 
 > [!NOTE]
-> Extended support for SQL Server 2005 ended on April 12, 2016. There is no guarantee that data tools in Visual Studio 2015 and later will continue to work with SQL Server 2005.
+> Extended support for SQL Server 2005 ended on April 12, 2016. There's no guarantee that data tools in Visual Studio 2015 and later will continue to work with SQL Server 2005.
 
 ## .NET languages
 
-The data access technology described in the Visual Studio documentation uses ADO.NET. ADO.NET is a legacy data access framework and is not recommended for modern data applications. We recommend targeting .NET Core or .NET 5 and later and using [Entity Framework Core](/ef/) for data access development.
+The data access technology described in the Visual Studio documentation uses ADO.NET. ADO.NET is a legacy data access framework and isn't recommended for modern data applications. We recommend targeting .NET Core or .NET 5 and later and using [Entity Framework Core](/ef/) for data access development.
 
 ADO.NET is a set of classes that defines an interface for accessing any kind of data source, both relational and non-relational. Visual Studio has several tools and designers that work with ADO.NET to help you connect to databases, manipulate the data, and present the data to the user. The documentation in this section describes how to use those tools. You can also program directly against the ADO.NET command objects. For more information about calling the ADO.NET APIs directly, see [ADO.NET](/dotnet/framework/data/adonet/index).
 
@@ -132,20 +132,20 @@ Universal Windows Platform (UWP) apps in C# or Visual Basic can use the Microsof
 
 For data storage on the local machine, the recommended approach is to use SQLite, which runs in the same process as the app. If an object-relational mapping (ORM) layer is required, you can use Entity Framework. For more information, see [Data access](/windows/uwp/data-access/index).
 
-If you are connecting to Azure services, be sure to download the latest [Azure SDK tools](https://azure.microsoft.com/downloads/).
+If you're connecting to Azure services, be sure to download the latest [Azure SDK tools](https://azure.microsoft.com/downloads/).
 
 ### Data providers
 
 For a database to be consumable in ADO.NET, it must have a custom *ADO.NET data provider* or else must expose an ODBC or OLE DB interface. Microsoft provides a [list of ADO.NET data providers](/dotnet/framework/data/adonet/data-providers) for SQL Server products, as well as ODBC and OLE DB providers.
 
 > [!NOTE]
-> If you're using Visual Studio to connect to databases using OLEDB or ODBC data providers, you will need to be aware that versions of Visual Studio prior to Visual Studio 2022 are all 32-bit processes. This means some of the data tools in Visual Studio will only be able to connect to OLEDB or ODBC databases using 32-bit data providers. This includes the Microsoft Access 32-bit OLEDB data provider as well as other third-party 32-bit providers.
+> If you're using Visual Studio to connect to databases using OLEDB or ODBC data providers, you'll need to be aware that versions of Visual Studio prior to Visual Studio 2022 are all 32-bit processes. This means some of the data tools in Visual Studio will only be able to connect to OLEDB or ODBC databases using 32-bit data providers. This includes the Microsoft Access 32-bit OLEDB data provider as well as other third-party 32-bit providers.
 >
-> If you're using Visual Studio 2022 to connect to databases, you will need to be aware that Visual Studio 2022 is a 64-bit process. This means some of the data tools in Visual Studio will not be able to connect to OLEDB or ODBC databases using 32-bit data providers.
+> If you're using Visual Studio 2022 to connect to databases, you'll need to be aware that Visual Studio 2022 is a 64-bit process. This means some of the data tools in Visual Studio will not be able to connect to OLEDB or ODBC databases using 32-bit data providers.
 >
-> If you need to maintain 32-bit applications that connect to OLEDB or ODBC databases, you will still be able to build and run the application with Visual Studio 2022. However, if you need to use any of the Visual Studio Data Tools such as Server Explorer, Data Source Wizard, or the DataSet Designer, you will need to use an earlier version of Visual Studio that is still a 32-bit process. The last version of Visual Studio that was a 32-bit process was Visual Studio 2019.
+> If you need to maintain 32-bit applications that connect to OLEDB or ODBC databases, you'll still be able to build and run the application with Visual Studio 2022. However, if you need to use any of the Visual Studio Data Tools such as Server Explorer, Data Source Wizard, or the DataSet Designer, you'll need to use an earlier version of Visual Studio that is still a 32-bit process. The last version of Visual Studio that was a 32-bit process was Visual Studio 2019.
 >
-> If you plan on converting the project to be a 64-bit process, it's recommended that you use the 64-bit Microsoft Access database Engine, also called Access Connectivity Engine (ACE). Please see [OLE DB Provider for Jet and ODBC driver are 32-bit versions only](/office/troubleshoot/access/jet-odbc-driver-available-32-bit-version) for more information.
+> If you plan on converting the project to be a 64-bit process, it's recommended that you use the 64-bit Microsoft Access database Engine, also called Access Connectivity Engine (ACE). See [OLE DB Provider for Jet and ODBC driver are 32-bit versions only](/office/troubleshoot/access/jet-odbc-driver-available-32-bit-version) for more information.
 
 ### Data modeling
 
@@ -155,9 +155,9 @@ In .NET, you have three choices for modeling and manipulating data in memory aft
 
 - [LINQ to SQL](../data-tools/linq-to-sql-tools-in-visual-studio2.md): An earlier-generation object-relational mapper. It works well for less complex scenarios but is no longer in active development.
 
-- [Datasets](../data-tools/dataset-tools-in-visual-studio.md): The oldest of the three modeling technologies. It is designed primarily for rapid development of "forms over data" applications in which you are not processing huge amounts of data or performing complex queries or transformations. A DataSet object consists of DataTable and DataRow objects that logically resemble SQL Database objects much more than .NET objects. For relatively simple applications based on SQL data sources, datasets might still be a good choice.
+- [Datasets](../data-tools/dataset-tools-in-visual-studio.md): The oldest of the three modeling technologies. It's designed primarily for rapid development of "forms over data" applications in which you aren't processing huge amounts of data or performing complex queries or transformations. A DataSet object consists of DataTable and DataRow objects that logically resemble SQL Database objects much more than .NET objects. For relatively simple applications based on SQL data sources, datasets might still be a good choice.
 
-There is no requirement to use any of these technologies. In some scenarios, especially where performance is critical, you can simply use a DataReader object to read from the database and copy the values that you need into a collection object such as List\<T>.
+There's no requirement to use any of these technologies. In some scenarios, especially where performance is critical, you can simply use a DataReader object to read from the database and copy the values that you need into a collection object such as List\<T>.
 
 ## Native C++
 
@@ -165,7 +165,7 @@ C++ applications that connect to SQL Server should use the [Microsoft® ODBC Dri
 
 C++ programs that consume REST services can use the [C++ REST SDK](https://github.com/Microsoft/cpprestsdk).
 
-Data modeling&mdash;Visual Studio does not provide an ORM layer for C++. [ODB](https://www.codesynthesis.com/products/odb/) is a popular open-source ORM for C++.
+Data modeling&mdash;Visual Studio doesn't provide an ORM layer for C++. [ODB](https://www.codesynthesis.com/products/odb/) is a popular open-source ORM for C++.
 
 To learn more about connecting to databases from C++ apps, see [Visual Studio data tools for C++](../data-tools/visual-studio-data-tools-for-cpp.md).
 
