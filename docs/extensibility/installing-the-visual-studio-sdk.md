@@ -25,11 +25,11 @@ To install the Visual Studio SDK after completing your Visual Studio installatio
 If you open a solution with an extensibility project without first installing the VSSDK, you'll be prompted by an **Install Missing Feature** dialog to install the **Visual Studio extension development** workload:
 
 ::: moniker range="vs-2019"
-:::image type="content" source="media/install-extension-development.png" alt-text="Screenshot showing the Visual studio dialog to Install extension development workload.":::
+:::image type="content" source="media/install-extension-development.png" alt-text="Screenshot showing the Visual Studio dialog to Install extension development workload.":::
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-:::image type="content" source="media/vs-2022/install-extension-development.png" alt-text="Screenshot showing the Visual studio dialog to Install extension development workload.":::
+:::image type="content" source="media/vs-2022/install-extension-development.png" alt-text="Screenshot showing the Visual Studio dialog to Install extension development workload.":::
 ::: moniker-end
 
 ## Install the Visual Studio SDK from the command line
