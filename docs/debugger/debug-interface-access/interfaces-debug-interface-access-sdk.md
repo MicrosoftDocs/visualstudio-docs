@@ -1,7 +1,7 @@
 ---
 description: "Methods are listed alphabetically under each interface in the table of contents and on the interface page in Vtable order."
 title: "Interfaces (Debug Interface Access SDK)"
-ms.date: "07/18/2024"
+ms.date: "11/19/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 ---
 # Interfaces (Debug Interface Access SDK)
 
-Methods are listed alphabetically under each interface in the table of contents and on the interface page in Vtable order.
+Methods of the Debug Interface Access (DIA) SDK are listed alphabetically under each interface in the table of contents and on the interface page in Vtable order.
 
 ## In This Section
 
@@ -30,6 +30,10 @@ Initiates access to a source of debugging symbols.
 [`IDiaDataSourceEx`](../../debugger/debug-interface-access/idiadatasourceex.md)
 
 Initiates access to a source of debugging symbols. Supersedes [`IDiaDataSource`](../../debugger/debug-interface-access/idiadatasource.md)
+
+[`IDiaDataSourceEx2`](../../debugger/debug-interface-access/idiadatasourceex2.md)
+
+Initiates access to a source of debugging symbols. Supersedes [`IDiaDataSource`](../../debugger/debug-interface-access/idiadatasource.md) and [`IDiaDataSourceEx`](../../debugger/debug-interface-access/idiadatasourceex.md)
 
 [`IDiaEnumDebugStreamData`](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md)
 
@@ -109,7 +113,7 @@ Accesses the program source code stored in the DIA data source.
 
 [`IDiaInputAssemblyFile`](../../debugger/debug-interface-access/idiainputassemblyfile.md)
 
-Accesses information that describes an input or source assembly file for a .Net Native binary.
+Accesses information that describes an input or source assembly file for a .NET Native binary.
 
 [`IDiaLineNumber`](../../debugger/debug-interface-access/idialinenumber.md)
 
@@ -181,43 +185,43 @@ Describes the properties of a symbol instance.
 
 [`IDiaSymbol2`](../../debugger/debug-interface-access/idiasymbol2.md)
 
-Describes additional properties of a symbol instance. Supersedes [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md)
+Describes more properties of a symbol instance. Supersedes [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md)
 
 [`IDiaSymbol3`](../../debugger/debug-interface-access/idiasymbol3.md)
 
-Describes additional properties of a symbol instance. Supersedes [`IDiaSymbol2`](../../debugger/debug-interface-access/idiasymbol2.md)
+Describes more properties of a symbol instance. Supersedes [`IDiaSymbol2`](../../debugger/debug-interface-access/idiasymbol2.md)
 
 [`IDiaSymbol4`](../../debugger/debug-interface-access/idiasymbol4.md)
 
-Describes additional properties of a symbol instance. Supersedes [`IDiaSymbol3`](../../debugger/debug-interface-access/idiasymbol3.md)
+Describes more properties of a symbol instance. Supersedes [`IDiaSymbol3`](../../debugger/debug-interface-access/idiasymbol3.md)
 
 [`IDiaSymbol5`](../../debugger/debug-interface-access/idiasymbol5.md)
 
-Describes additional properties of a symbol instance. Supersedes [`IDiaSymbol4`](../../debugger/debug-interface-access/idiasymbol4.md)
+Describes more properties of a symbol instance. Supersedes [`IDiaSymbol4`](../../debugger/debug-interface-access/idiasymbol4.md)
 
 [`IDiaSymbol6`](../../debugger/debug-interface-access/idiasymbol6.md)
 
-Describes additional properties of a symbol instance. Supersedes [`IDiaSymbol5`](../../debugger/debug-interface-access/idiasymbol5.md)
+Describes more properties of a symbol instance. Supersedes [`IDiaSymbol5`](../../debugger/debug-interface-access/idiasymbol5.md)
 
 [`IDiaSymbol7`](../../debugger/debug-interface-access/idiasymbol7.md)
 
-Describes additional properties of a symbol instance. Supersedes [`IDiaSymbol6`](../../debugger/debug-interface-access/idiasymbol6.md)
+Describes more properties of a symbol instance. Supersedes [`IDiaSymbol6`](../../debugger/debug-interface-access/idiasymbol6.md)
 
 [`IDiaSymbol8`](../../debugger/debug-interface-access/idiasymbol8.md)
 
-Describes additional properties of a symbol instance primarily related to coroutines. Supersedes [`IDiaSymbol7`](../../debugger/debug-interface-access/idiasymbol7.md)
+Describes more properties of a symbol instance primarily related to coroutines. Supersedes [`IDiaSymbol7`](../../debugger/debug-interface-access/idiasymbol7.md)
 
 [`IDiaSymbol9`](../../debugger/debug-interface-access/idiasymbol9.md)
 
-Describes additional properties of a symbol instance. Supersedes [`IDiaSymbol8`](../../debugger/debug-interface-access/idiasymbol8.md)
+Describes more properties of a symbol instance. Supersedes [`IDiaSymbol8`](../../debugger/debug-interface-access/idiasymbol8.md)
 
 [`IDiaSymbol10`](../../debugger/debug-interface-access/idiasymbol10.md)
 
-Describes additional properties of a symbol instance. Supersedes [`IDiaSymbol9`](../../debugger/debug-interface-access/idiasymbol9.md)
+Describes more properties of a symbol instance. Supersedes [`IDiaSymbol9`](../../debugger/debug-interface-access/idiasymbol9.md)
 
 [`IDiaSymbol11`](../../debugger/debug-interface-access/idiasymbol11.md)
 
-Describes additional properties of a symbol instance. Supersedes [`IDiaSymbol10`](../../debugger/debug-interface-access/idiasymbol10.md)
+Describes more properties of a symbol instance. Supersedes [`IDiaSymbol10`](../../debugger/debug-interface-access/idiasymbol10.md)
 
 [`IDiaTable`](../../debugger/debug-interface-access/idiatable.md)
 
