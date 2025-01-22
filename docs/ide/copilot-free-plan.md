@@ -1,7 +1,7 @@
 ---
 title: 'GitHub Copilot Free in Visual Studio'
 description: Use GitHub Copilot Completions, Chat, and Edits for free in Visual Studio.
-ms.date: 12/18/2024
+ms.date: 1/22/2025
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
@@ -22,23 +22,28 @@ To get started with Copilot Free in Visual Studio, you need:
 
 ## Get started with Copilot Free in Visual Studio
 
-**Set up Copilot Free using Visual Studio**
+Set up Copilot Free using Visual Studio as follows:
 
-- In Visual Studio, select the **GitHub Copilot** badge in the upper-right corner of the IDE. 
-- Select **Get Copilot Subscription** or **Add GitHub account to Visual Studio**.
-- If you have an existing GitHub account, sign in when prompted. If not, follow the steps to create a new GitHub account. 
-- Select **Sign up for Free** to complete the setup. Once finished, you’ll be redirected back to Visual Studio. 
+1. In Visual Studio, select the **GitHub Copilot** badge in the upper-right corner of the IDE. 
+1. Select **Open Chat Window** from the dropdown.
+1. Select **Sign up for Copilot Free**.
 
-**Set up Copilot Free using GitHub.com**
+   :::image type="content" source="media/vs-2022/copilot-free/sign-up-for-copilot-free.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
-- In the upper-right corner of any GitHub page, select your profile photo, and then select **Your Copilot**. 
-- Select **Start using Copilot Free** to activate Copilot Free and open a conversation thread.
-- Select **Use Copilot in other IDEs**, select **Visual Studio** and follow the instructions provided for Visual Studio. 
+1. If you have an existing GitHub account, sign in when prompted. If not, follow the steps to create a new GitHub account. 
+1. Once finished, you’re redirected back to Visual Studio. 
 
 ## Copilot Free usage limits in Visual Studio
 
-Copilot Free provides a limited number of code completions and chat responses for free per month. Changes in Copilot functionality may indicate you've reached your monthly usage limit.
-You can check the current status of your Copilot Free account on the [GitHub account settings page](https://github.com/settings/copilot).
+Copilot Free provides a limited number of code completions and chat responses for free per month. When you reach your monthly usage limit for chat or code completions or both, you'll get a notification and notice a change in Copilot functionality.
+
+You can check your free tier status anytime by selecting **Copilot Free Status** from the Copilot badge dropdown in the top-right corner of the IDE.
+
+:::image type="content" source="media/vs-2022/copilot-free/copilot-free-status.png" alt-text="Screenshot of Copilot Free Status menu option.":::
+
+You can also check the current status of your Copilot Free account on the [GitHub account settings page](https://github.com/settings/copilot).
+
+### Usage limit reached
 
 When you hit the usage limits, your Copilot experience in Visual Studio may be impacted as follows:
 
@@ -73,7 +78,7 @@ For the latest information, see [About GitHub Copilot Free](https://aka.ms/ghdoc
 #### Can I turn off completions to save them for later?
 
 Yes. You can enable or disable completions at any time.
-To enable or disable, select **Settings** > **Options** from **GitHub Copilot** badge in the upper-right corner of your IDE, and then select or unselect **Enable Copilot Completions**. 
+To enable or disable completions, select **Settings** from **GitHub Copilot** badge in the upper-right corner of your IDE, and then select or unselect **Enable Copilot Completions**. You can also get to it from **Settings** > **Options**.
 
 #### Can I block suggestions matching public code with Copilot Free?
 
@@ -81,7 +86,7 @@ Yes. You can configure these settings from the [GitHub Copilot Settings](https:/
 
 #### What Copilot features are included in Copilot Free?
 
-Copilot Free includes the following features: Copilot Completions, Edits, and Chat.
+Copilot Free includes the following features: Copilot [Completions](visual-studio-github-copilot-extension.md), [Edits](copilot-edits.md), and [Chat](visual-studio-github-copilot-chat.md).
 Learn more at [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage).
 
 #### What are the Copilot Free limits for Completions and Chat?
