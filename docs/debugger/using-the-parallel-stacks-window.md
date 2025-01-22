@@ -162,13 +162,12 @@ The following table describes the main features of the **Threads** view:
 |4|Node header|Shows the number of processes and threads for the node.|
 |5|Method|Represents one or more stack frames in the same method.|
 |6|Tooltip on method|Appears when you hover over a method. In **Threads** view, the tooltip shows all threads, in a table similar to the **Threads** window. |
-|7|Thread description|AI-generated description of the thread. This description is only present when [Copilot]() is installed and activated. |
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-The following illustration shows one thread that goes from Main to a Managed to Native code transition. Five threads are in the current method. One continues to ServerClass.InstanceMethod, and another continues to Worker.Thread.Start and then to StartupHook.Initialize.AnonymousMethod.
+The following illustration shows the Main thread in a Managed to Native code transition. Five threads are in the current method. One call path shows four threads executing in the thread pool, and another shows a Managed to Native code transition for setting the name on a worker thread.
 
  [![Screenshot of Threads view in Parallel Stacks window 2022.](../debugger/media/vs-2022/parallel-stacks-toolbar-threads-view.png "Threads view in Parallel Stacks window.")](../debugger/media/vs-2022/parallel-stacks-toolbar-threads-view.png#lightbox)
 
@@ -182,6 +181,7 @@ The following table describes the main features of the **Threads** view:
 |4|Node header|Shows the number of processes/threads, thread name, and thread ID for the node.|
 |5|Method|Represents one or more stack frames in the same method.|
 |6|Tooltip on method|Appears when you hover over a method. In **Threads** view, the tooltip shows all threads, in a table similar to the **Threads** window. |
+|7|Thread description|AI-generated description of the thread. This description is only present when [Copilot]() is installed and activated. |
 ::: moniker-end
 
 ## Tasks view
