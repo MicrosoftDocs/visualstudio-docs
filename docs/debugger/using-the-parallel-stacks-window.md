@@ -1,7 +1,7 @@
 ---
 title: "View threads in the Parallel Stacks window"
 description: Use Parallel Stacks to help debug multithreaded applications. You can view stack information for all threads, and task-centered call stack information.
-ms.date: "03/05/2024"
+ms.date: "01/22/2025"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.parallelstacks"
@@ -162,6 +162,7 @@ The following table describes the main features of the **Threads** view:
 |4|Node header|Shows the number of processes and threads for the node.|
 |5|Method|Represents one or more stack frames in the same method.|
 |6|Tooltip on method|Appears when you hover over a method. In **Threads** view, the tooltip shows all threads, in a table similar to the **Threads** window. |
+|7|Thread description|AI-generated description of the thread. This description is only present when [Copilot]() is installed and activated. |
 
 ::: moniker-end
 
@@ -182,6 +183,7 @@ The following table describes the main features of the **Threads** view:
 |5|Method|Represents one or more stack frames in the same method.|
 |6|Tooltip on method|Appears when you hover over a method. In **Threads** view, the tooltip shows all threads, in a table similar to the **Threads** window. |
 ::: moniker-end
+
 ## Tasks view
 If your app uses <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects (managed code) or `task_handle` objects (native code) to express parallelism, you can use **Tasks** view. **Tasks** view shows call stacks of tasks instead of threads.
 
