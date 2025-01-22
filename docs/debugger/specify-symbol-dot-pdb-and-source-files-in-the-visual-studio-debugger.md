@@ -151,7 +151,7 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
    ::: moniker range=">= vs-2022"
 
    - Select **Automatically choose what module symbols to search for** (recommended) to allow
-   Visual studio to decide what symbols to search for and load. By default, Visual Studio
+   Visual Studio to decide what symbols to search for and load. By default, Visual Studio
    automatically loads symbols that were built by your opened solution, and loads any
    additional symbols that are needed to perform common debugging operations. This reduces
    the number of files that must be searched for and loaded by Visual Studio, which 
