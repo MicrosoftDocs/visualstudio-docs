@@ -3,7 +3,7 @@ title: "Tour the Visual Studio IDE"
 description: Learn about some of the windows, menus, and other UI features of the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
 titleSuffix: ''
-ms.date: 12/23/2023
+ms.date: 1/23/2025
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
