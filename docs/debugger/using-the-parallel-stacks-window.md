@@ -148,7 +148,7 @@ When the **Threads** view graph is too large to fit into the window, a **Bird's 
 
 ::: moniker range="vs-2019"
 
-The following illustration shows one thread that goes from Main to a Managed to Native code transition. Six threads are in the current method. One continues to Thread.Sleep, and another continues to Console.WriteLine and then to SyncTextWriter.WriteLine.
+The following illustration shows one thread that goes from Main to a Managed to Native code transition. Six threads are in the current method. Two threads continue to Thread.Sleep, and two continue to Console.WriteLine and the current thread continues to SyncTextWriter.WriteLine.
 
  ![Screenshot of Threads view in Parallel Stacks window.](../debugger/media/parallel-stack1.png "Threads view in Parallel Stacks window.")
 
@@ -167,7 +167,7 @@ The following table describes the main features of the **Threads** view:
 
 ::: moniker range=">=vs-2022"
 
-The following illustration shows the Main thread in a Managed to Native code transition. Five threads are in the current method. The call path for the current thread shows four threads executing in the thread pool, and another call path shows a Managed to Native code transition for setting the name on a worker thread.
+The following illustration shows the Main thread in a Managed to Native code transition. Five threads are in the current method. Four threads continue executing in the S.C method context, while one worker thread continues in a Managed to Native code transition, setting the name on a worker thread.
 
  [![Screenshot of Threads view in Parallel Stacks window 2022.](../debugger/media/vs-2022/parallel-stacks-toolbar-threads-view.png "Threads view in Parallel Stacks window.")](../debugger/media/vs-2022/parallel-stacks-toolbar-threads-view.png#lightbox)
 
