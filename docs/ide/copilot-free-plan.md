@@ -24,8 +24,8 @@ To get started with Copilot Free in Visual Studio, you need:
 
 Set up Copilot Free using Visual Studio as follows:
 
-1. In Visual Studio, select the **GitHub Copilot** badge in the upper-right corner of the IDE. 
-1. Select **Open Chat Window** from the dropdown.
+1. In Visual Studio, use **Ctrl+\\** to open the chat window.
+   Or select the **GitHub Copilot** badge in the upper-right corner of the IDE, and then select **Open Chat Window** from the dropdown.
 1. Select **Sign up for Copilot Free**.
 
    :::image type="content" source="media/vs-2022/copilot-free/sign-up-for-copilot-free.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
