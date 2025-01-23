@@ -3,7 +3,7 @@ title: "Tour the Visual Studio IDE"
 description: Learn about some of the windows, menus, and other UI features of the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
 titleSuffix: ''
-ms.date: 12/18/2023
+ms.date: 12/23/2023
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -21,16 +21,16 @@ To develop any type of app or learn a language, you work in the Visual Studio In
 
 To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) and install it on your system.
 
-In the Visual Studio Installer, you choose and install *workloads*, which are groups of features you need for the programming languages or platforms you want. To follow along this tutorial, be sure to select the **.NET desktop development** workload during installation. 
+In the Visual Studio Installer, you choose and install *workloads*, which are groups of features you need for the programming languages or platforms you want. To follow along this article, be sure to select the **.NET desktop development** workload during installation. 
 
 :::image type="content" source="media/vs-2022/dot-net-development-workload.png" alt-text="Screenshot of the .NET desktop development workload selected in the Visual Studio Installer.":::
 
 If you already have Visual Studio, you can add the **.NET desktop development** workload as follows:
 * Launch the Visual Studio Installer.
 * If prompted, allow the installer to update itself.
-* If an update for Visual Studio is available, an Update button is shown. Select it to update before modifying the installation.
-* Find your Visual Studio installation and select the Modify button.
-* If not selected already, select the **.NET desktop development** workload and select the Modify button. Otherwise, just close the dialog window.
+* If an update for Visual Studio is available, an **Update** button is shown. Select it to update before modifying the installation.
+* Find your Visual Studio installation and select the **Modify** button.
+* If not selected already, select the **.NET desktop development** workload and select the **Modify** button. Otherwise, just close the dialog window.
 
 ::: moniker range="vs-2019"
 
@@ -162,12 +162,12 @@ To explore Visual Studio's features, let's create a new project.
     
     :::image type="content" source="media/vs-2022/menu-bar.png" alt-text="Screenshot of the Menu bar in Visual Studio 2022.":::
 
-* Get AI assistance with [GitHub Copilot](visual-studio-github-copilot-extension.md) directly in the editor with context-aware code completions, suggestions, code explanations, and more. For example, you can receive code suggestions by writing a natural language comment describing what you want the code to do.
+* Get AI assistance with [GitHub Copilot](visual-studio-github-copilot-extension.md) directly in the editor with context-aware code completions, suggestions, code explanations, and more. For example, you can receive code suggestions by writing a natural language comment describing what you want the code to do, or ask coding-related questions in chat.
 
     :::image type="content" source="media/vs-2022/quickstart-ide-orientation/github-copilot-extension-example.gif" alt-text="Screenshot of the GitHub Copilot extension in Visual Studio 2022." lightbox="media/vs-2022/quickstart-ide-orientation/github-copilot-extension-example.gif":::
 
     > [!div class="button"]
-    > [Get GitHub Copilot](visual-studio-github-copilot-extension.md#prerequisites)
+    > [Get GitHub Copilot](visual-studio-github-copilot-install-and-states.md)
 
     Learn more about [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md). 
 
@@ -247,6 +247,8 @@ Visual Studio has many built-in debugging capabilities. Set a break point at any
    var name = Console.ReadLine();
    ``` 
 
+  As you type, you can also press `Tab` to accept the code suggestions.
+
 1. Select the **Start Debugging** button (green arrow) in the debug toolbar in Visual Studio to run your app.
 
     :::image type="content" source="media/vs-2019/ide-tour-menu-run-app-button.png" alt-text="Screenshot of the Start Debugging button in the debug toolbar.":::
@@ -288,3 +290,5 @@ You looked at just a few of the features of Visual Studio to get acquainted with
 - [More features of Visual Studio](../ide/advanced-feature-overview.md)
 - [Change theme and font colors](../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
 - [Optimize the Visual Studio experience on Microsoft Dev Box](/azure/dev-box/how-to-generate-visual-studio-caches)
+- [GitHub Copilot Completions in Visual Studio](../ide/visual-studio-github-copilot-extension.md)
+- [GitHub Copilot Chat in Visual Studio](../ide//visual-studio-github-copilot-chat.md)
