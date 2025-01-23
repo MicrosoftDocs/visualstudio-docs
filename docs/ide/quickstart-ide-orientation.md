@@ -245,9 +245,7 @@ Visual Studio has many built-in debugging capabilities. Set a break point at any
    ```csharp
    Console.WriteLine("\nWhat is your name?");
    var name = Console.ReadLine();
-   ``` 
-
-  As you type, you can also press `Tab` to accept the code suggestions.
+   ```
 
 1. Select the **Start Debugging** button (green arrow) in the debug toolbar in Visual Studio to run your app.
 
@@ -265,6 +263,8 @@ Visual Studio has many built-in debugging capabilities. Set a break point at any
    Console.WriteLine("\nWhat is your name?");
    var name = Console.ReadLine();
    ``` 
+
+    As you type, you can also press `Tab` to accept the code suggestions.
 
 1. Select the **Start Debugging** button (green arrow) in the debug toolbar in Visual Studio to run your app.
 
