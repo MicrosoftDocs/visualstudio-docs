@@ -19,7 +19,7 @@ In this 10-minute introduction to the code editor in Visual Studio, we'll add co
 ::: moniker range="vs-2019"
 
 > [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+> If you don't have Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) to install it for free.
 
 ::: moniker-end
 
@@ -44,11 +44,11 @@ Start by creating a new file and adding some code to it.
 
 ::: moniker range="vs-2019"
 
-1. Open Visual Studio. Press **Esc** or click **Continue without code** on the start window to open the development environment.
+1. Open Visual Studio. Press **Esc** or select **Continue without code** on the start window to open the development environment.
 
-1. From the **File** menu on the menu bar, choose **New** > **File**.
+1. From the **File** menu on the menu bar, select **New** > **File**.
 
-1. In the **New File** dialog box, under the **General** category, choose **Visual C# Class**, and then choose **Open**.
+1. In the **New File** dialog box, under the **General** category, select **Visual C# Class**, and then select **Open**.
 
    A new file opens in the editor with the skeleton of a C# class. (Notice that we don't have to create a full Visual Studio project to gain some of the benefits that the code editor offers; all you need is a code file!)
 
@@ -58,11 +58,11 @@ Start by creating a new file and adding some code to it.
 
 ::: moniker range=">=vs-2022"
 
-1. Open Visual Studio. Select the **Esc** key, or choose **Continue without code** on the start window, to open the development environment.
+1. Open Visual Studio. Select the **Esc** key, or select **Continue without code** on the start window, to open the development environment.
 
-1. From the **File** menu on the menu bar, choose **New** > **File**, or select the **Ctrl**+**N** keys.
+1. From the **File** menu on the menu bar, select **New** > **File**, or select the **Ctrl**+**N** keys.
 
-1. In the **New File** dialog box, under the **General** category, choose **C# Class**, and then choose **Open**.
+1. In the **New File** dialog box, under the **General** category, select **C# Class**, and then select **Open**.
 
    A new file opens in the editor with the skeleton of a C# class.
 
