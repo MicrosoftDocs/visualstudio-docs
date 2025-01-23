@@ -1,7 +1,7 @@
 ---
 title: Introduction to editing in the code editor
 description: Use the code editor in Visual Studio to add code to a file, and also how to write code, navigate to it, and refactor it.
-ms.date: 12/23/2023
+ms.date: 1/23/2025
 ms.subservice: general-ide
 ms.custom: vs-acquisition
 ms.topic: tutorial
