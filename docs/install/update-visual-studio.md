@@ -209,7 +209,7 @@ There are two ways to bring up the Update Settings dialog, which allows you to m
 
   ![Screenshot showing the Updates settings in the Update available dialog in the IDE.](media/vs-2022/invoke-update-settings-in-the-ide.png)
     
-The **Update Settings** dialog will look something like this. In this example, the Visual studio instance is using the LTSC 17.8 channel.
+The **Update Settings** dialog will look something like this. In this example, the Visual Studio instance is using the LTSC 17.8 channel.
 
    ![Screenshot showing the Updates settings dialog in the Visual Studio 2022 IDE.](media/vs-2022/update-setting-dialog-one.png)
 
