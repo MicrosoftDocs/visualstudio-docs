@@ -121,7 +121,7 @@ These steps require vue-cli 3.0, which is currently in beta.
 
 1. Type `vue create client-app`, and then choose **Manually select features**.
 
-1. Choose **Typescript**, and then select other desired options.
+1. Choose **TypeScript**, and then select other desired options.
 
 1. Follow the remaining steps and respond to the questions.
 
