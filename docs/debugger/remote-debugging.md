@@ -95,11 +95,11 @@ You can change some aspects of the configuration of the remote debugger after yo
      > [!WARNING]
      > You can choose to run the remote tools in No Authentication mode, but this mode is strongly discouraged. There's no network security when you run in this mode. Choose the No Authentication mode only if you're sure that the network isn't at risk from malicious or hostile traffic.
 
-## Connect to the app from Visual Studio
+## Configure Visual Studio for remote debugging
 
 For detailed instructions to connect to the app from Visual Studio, use the links related to your specific scenario at the beginning of this article.
 
-Many scenarios require the use of Attach to Process to connect to a remote app that is already started. However, for .NET Core, .NET 5+, .NET Framework, and C++ apps, you can start the remote app from Visual Studio by configuring project properties and starting the debugger. For more information, see [Remote debug a C# or Visual Basic project](../debugger/remote-debugging-csharp.md) or [Remote debug a C++ project](../debugger/remote-debugging-cpp.md).
+Some scenarios require the use of Attach to Process to connect to a remote app that is already started. However, for .NET Core, .NET 5+, .NET Framework, and C++ apps, you can start the remote app from Visual Studio by configuring project properties and starting the debugger. For more information, see [Remote debug a C# or Visual Basic project](../debugger/remote-debugging-csharp.md) or [Remote debug a C++ project](../debugger/remote-debugging-cpp.md).
 
 You can also remote debug an executable that is not part of a Visual Studio project, although the supported debugging features depend on configuration such as the availability of symbols. For more information, see [Debug an app that isn't part of a Visual Studio solution](../debugger/how-to-debug-an-executable-not-part-of-a-visual-studio-solution.md).
 
