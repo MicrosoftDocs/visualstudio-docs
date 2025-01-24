@@ -73,11 +73,11 @@ For this example, you use an empty ASP.NET Core Application (C#). However, you c
     app.UseStaticFiles(); // Marks files on the web root as servable.
     ```
 
-### Install the vue CLI
+### Install the Vue CLI
 
 To install the vue-cli npm module, open a command prompt and type `npm install --g vue-cli` or `npm install -g @vue/cli` for version 3.0 (currently in beta).
 
-### Scaffold a new client application using the vue CLI
+### Scaffold a new client application using the Vue CLI
 
 1. Go to your command prompt and change the current directory to your project root folder.
 
