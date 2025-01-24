@@ -22,7 +22,7 @@ ms.subservice: debug-diagnostics
 You can debug ASP.NET and ASP.NET Core apps in Visual Studio. The process differs between ASP.NET and ASP.NET Core, and whether you run it on IIS Express or a local IIS server.
 
 >[!NOTE]
->The following steps and settings apply only to debugging apps on a local server. Debugging apps on a remote IIS server uses **Attach to Process**, and ignores these settings. For more information and instructions for remote debugging ASP.NET apps on IIS, see [Remote debug ASP.NET on an IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) or [Remote debug ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md).
+>The following steps and settings apply only to debugging apps on a local server. Debugging apps on a remote IIS server uses **Attach to Process**, and ignores these settings. For more information and instructions for remote debugging ASP.NET and ASP.NET Core, see [Remote debug ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md), and [Remote debug Azure App Service](../debugger/remote-debugging-azure-app-service.md).
 
 ::: moniker range=">=vs-2022"
 The built-in Kestrel and IIS Express servers are included with Visual Studio. Kestrel is the default debug server for ASP.NET Core projects, and is preconfigured. IIS Express is the default debug server for ASP.NET.
@@ -43,7 +43,7 @@ You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version
 
 - Run Visual Studio as an administrator.
 - Install and correctly configure IIS with the appropriate version(s) of ASP.NET and/or ASP.NET Core. For more information on using IIS with ASP.NET Core, see [Host ASP.NET Core on Windows with IIS](/aspnet/core/host-and-deploy/iis/index). For ASP.NET, see [Install IIS and ASP.NET Modules](/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules).
-- Make sure the app runs on IIS without errors.
+- Make sure the app runs on IIS and opens in the browser.
 
 ::: moniker range=">=vs-2022"
 ## Debug ASP.NET Core apps

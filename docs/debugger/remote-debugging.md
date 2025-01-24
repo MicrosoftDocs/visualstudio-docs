@@ -26,13 +26,13 @@ For in-depth instructions on remote debugging, see these topics.
 
 |Scenario|Link|
 |-|-|
-|Azure App Service|[Remote debug ASP.NET Core on Azure](../debugger/remote-debugging-azure-app-service.md) or, for Visual Studio Enterprise, the [Snapshot Debugger](../debugger/debug-live-azure-applications.md)|
-|Azure VM|[Remote debug ASP.NET on an Azure VM](../debugger/remote-debugging-azure.md)|
-|ASP.NET|[Remote debug ASP.NET Core](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) or [Remote Debug ASP.NET](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
 |C# or Visual Basic|[Remote debug a C# or Visual Basic project](../debugger/remote-debugging-csharp.md)|
 |C++|[Remote debug a C++ project](../debugger/remote-debugging-cpp.md)|
-|Docker|[Attach to a process running in a Docker container](../debugger/attach-to-process-running-in-docker-container.md)|
+|Azure App Service|[Remote debug ASP.NET Core on Azure](../debugger/remote-debugging-azure-app-service.md) or, for Visual Studio Enterprise, the [Snapshot Debugger](../debugger/debug-live-azure-applications.md)|
+|ASP.NET|[Remote debug ASP.NET Core](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) or [Remote Debug ASP.NET](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
+|Azure VM|[Remote debug ASP.NET on an Azure VM](../debugger/remote-debugging-azure.md)|
 |Linux|[Debug .NET Core on Linux using SSH by attaching to a process](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md)|
+|Docker|[Attach to a process running in a Docker container](../debugger/attach-to-process-running-in-docker-container.md)|
 |Universal Windows Apps (UWP)|[Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md) or [Debug an installed app package](../debugger/debug-installed-app-package.md)|
 
 If you just want to download and install the remote debugger and don't need any additional instructions for your scenario, follow the steps in this article.
@@ -94,6 +94,12 @@ You can change some aspects of the configuration of the remote debugger after yo
 
      > [!WARNING]
      > You can choose to run the remote tools in No Authentication mode, but this mode is strongly discouraged. There's no network security when you run in this mode. Choose the No Authentication mode only if you're sure that the network isn't at risk from malicious or hostile traffic.
+
+## Connect to the app from Visual Studio
+
+For detailed instructions to connect to the app from Visual Studio, use the links related to your specific scenario at the beginning of this article.
+
+Most scenarios require the use of Attach to Process to connect to a remote app that is already started. However, for .NET Core, .NET 5+, .NET Framework, and C++ apps, you can start the remote app from Visual Studio by configuring project properties and starting the debugger. For more information, see [Remote debug a C# or Visual Basic project](../debugger/remote-debugging-csharp.md) or [Remote debug a C++ project](../debugger/remote-debugging-cpp.md).
 
 ## <a name="bkmk_configureService"></a> (Optional) Configure the remote debugger as a service
 
