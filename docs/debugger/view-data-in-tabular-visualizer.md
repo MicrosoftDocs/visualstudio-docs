@@ -60,7 +60,7 @@ Starting in Visual Studio 2022 version 17.11, you can directly change the **Expr
 
 Starting in Visual Studio 2022 version 17.12 Preview 3, you get IntelliSense support to help you edit the expression.
 
-Starting in Visual Studio 2022 version 17.12 Preview 2, you can get AI assistance to edit the LINQ expression. If you have Copilot activated, click the GitHub [Copilot](../ide/visual-studio-github-copilot-extension.md) icon to open Copilot Chat.
+Starting in Visual Studio 2022 version 17.12 Preview 2, you can get AI assistance to edit the LINQ expression. If you have Copilot activated, click the GitHub [Copilot](../ide/visual-studio-github-copilot-install-and-states.md) icon to open Copilot Chat.
 
 :::image type="content" source="../debugger/media/vs-2022/debug-ienumerable-visualizer-edit-expression-copilot.png" alt-text="Screenshot of Copilot button to get help to edit the expression.":::
 
