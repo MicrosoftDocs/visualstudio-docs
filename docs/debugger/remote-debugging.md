@@ -99,7 +99,9 @@ You can change some aspects of the configuration of the remote debugger after yo
 
 For detailed instructions to connect to the app from Visual Studio, use the links related to your specific scenario at the beginning of this article.
 
-Most scenarios require the use of Attach to Process to connect to a remote app that is already started. However, for .NET Core, .NET 5+, .NET Framework, and C++ apps, you can start the remote app from Visual Studio by configuring project properties and starting the debugger. For more information, see [Remote debug a C# or Visual Basic project](../debugger/remote-debugging-csharp.md) or [Remote debug a C++ project](../debugger/remote-debugging-cpp.md).
+Many scenarios require the use of Attach to Process to connect to a remote app that is already started. However, for .NET Core, .NET 5+, .NET Framework, and C++ apps, you can start the remote app from Visual Studio by configuring project properties and starting the debugger. For more information, see [Remote debug a C# or Visual Basic project](../debugger/remote-debugging-csharp.md) or [Remote debug a C++ project](../debugger/remote-debugging-cpp.md).
+
+You can also remote debug an executable that is not part of a Visual Studio project, although the supported debugging features depend on configuration such as the availability of symbols. For more information, see [Debug an app that isn't part of a Visual Studio solution](../debugger/how-to-debug-an-executable-not-part-of-a-visual-studio-solution.md).
 
 ## <a name="bkmk_configureService"></a> (Optional) Configure the remote debugger as a service
 
