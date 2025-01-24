@@ -1,7 +1,7 @@
 ---
 title: "View threads in the Parallel Stacks window"
 description: Use Parallel Stacks to help debug multithreaded applications. You can view stack information for all threads, and task-centered call stack information.
-ms.date: "03/05/2024"
+ms.date: "01/22/2025"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.parallelstacks"
@@ -148,7 +148,7 @@ When the **Threads** view graph is too large to fit into the window, a **Bird's 
 
 ::: moniker range="vs-2019"
 
-The following illustration shows one thread that goes from Main to a Managed to Native code transition. Six threads are in the current method. One continues to Thread.Sleep, and another continues to Console.WriteLine and then to SyncTextWriter.WriteLine.
+The following illustration shows one thread that goes from Main to a Managed to Native code transition. Six threads are in the current method. Two threads continue to Thread.Sleep, and two continue to Console.WriteLine and the current thread continues to SyncTextWriter.WriteLine.
 
  ![Screenshot of Threads view in Parallel Stacks window.](../debugger/media/parallel-stack1.png "Threads view in Parallel Stacks window.")
 
@@ -167,7 +167,7 @@ The following table describes the main features of the **Threads** view:
 
 ::: moniker range=">=vs-2022"
 
-The following illustration shows one thread that goes from Main to a Managed to Native code transition. Five threads are in the current method. One continues to ServerClass.InstanceMethod, and another continues to Worker.Thread.Start and then to StartupHook.Initialize.AnonymousMethod.
+The following illustration shows the Main thread in a Managed to Native code transition. Five threads are in the current method. Four threads continue executing in the S.C method context, while one worker thread continues in a Managed to Native code transition, setting the name on a worker thread.
 
  [![Screenshot of Threads view in Parallel Stacks window 2022.](../debugger/media/vs-2022/parallel-stacks-toolbar-threads-view.png "Threads view in Parallel Stacks window.")](../debugger/media/vs-2022/parallel-stacks-toolbar-threads-view.png#lightbox)
 
@@ -181,7 +181,9 @@ The following table describes the main features of the **Threads** view:
 |4|Node header|Shows the number of processes/threads, thread name, and thread ID for the node.|
 |5|Method|Represents one or more stack frames in the same method.|
 |6|Tooltip on method|Appears when you hover over a method. In **Threads** view, the tooltip shows all threads, in a table similar to the **Threads** window. |
+|7|Thread description|AI-generated description of the thread. Starting in Visual Studio 2022 version 17.13 Preview 1, this description is present when [Copilot](../ide/visual-studio-github-copilot-install-and-states.md) is installed and activated. |
 ::: moniker-end
+
 ## Tasks view
 If your app uses <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects (managed code) or `task_handle` objects (native code) to express parallelism, you can use **Tasks** view. **Tasks** view shows call stacks of tasks instead of threads.
 

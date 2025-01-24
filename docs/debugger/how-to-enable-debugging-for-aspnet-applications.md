@@ -1,7 +1,7 @@
 ---
 title: Enable debugging for ASP.NET apps
 description: Learn how to enable debugging for ASP.NET and ASP.NET Core apps in Visual Studio. You can run the process on an IIS Express server or a local IIS server. 
-ms.date: 01/30/2024
+ms.date: 01/21/2025
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -48,7 +48,7 @@ You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version
 ::: moniker range=">=vs-2022"
 ## Debug ASP.NET Core apps
 
-A default profile based for https or one based on the project name may be present, which are configured for the Kestrel web server. If you're debugging on local IIS instead, make sure you meet the [prerequisites for local IIS debugging](#prerequisites-for-local-iis-server).
+A default profile named **https** or one based on the project name may be present, which are configured for the Kestrel web server. If you're debugging on local IIS instead, make sure you meet the [prerequisites for local IIS debugging](#prerequisites-for-local-iis-server).
 
 1. Select the ASP.NET Core project in Visual Studio **Solution Explorer** and click the **Properties** icon, or press **Alt**+**Enter**, or right-click and choose **Properties**.
 
@@ -66,9 +66,13 @@ A default profile based for https or one based on the project name may be presen
 
 1. Make sure that **Url**, **App URL**, and **App SSL URL** are correct.
 
-   **Url** specifies the location of host URL for .NET or .NET Core. For a profile named after the project (that is, the commandName property in `launchSettings.json` is *Project*), the Kestrel server listens to the port specified. For an IIS profile, this is typically the same value as the **App URL**. For more information, see the IIS launch profile section under [Configure the project](/aspnet/core/host-and-deploy/iis/development-time-iis-support#configure-the-project).
+   **Url** specifies the location of host URL for .NET Core or .NET 5+. For a profile named after the project (that is, the commandName property in `launchSettings.json` is *Project*), the Kestrel server listens to the port specified. For an IIS profile, this is typically the same value as the **App URL**. For more information, see the IIS launch profile section under [Configure the project](/aspnet/core/host-and-deploy/iis/development-time-iis-support#configure-the-project).
 
-   **App URL** and **App SSL URL** specify the application URL(s). For a profile named after the project, this property specifies the Kestrel server URLs, typically `https://localhost:5001` and `http://localhost:5000`. For IIS Express, the **App SSL URL** is typically `http://localhost:44334`.
+   **App URL** and **App SSL URL** specify the application URL(s).
+
+   - For an **https** profile, the **App URL** property is typically `https://localhost:7241;http://localhost:5175`.
+   - For a profile named after the project, these properties are typically `http://localhost:5000` and `https://localhost:5001`.
+   - For IIS Express, the **App SSL URL** is typically `https://localhost:44334`.
 
 1. Under **Environment variables**, make sure that **ASPNETCORE_ENVIRONMENT** is present with a value of **Development**. If not, add the variable.
 
