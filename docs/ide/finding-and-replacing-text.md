@@ -117,6 +117,8 @@ The **Find and Replace** tool does not search directories with the `Hidden` or `
 
 To cancel a Find or Replace operation, press **Ctrl**+**Break**.
 
+For more information, see [Find in files](../ide/find-in-files.md) and [Replace in files](../ide/replace-in-files.md), and for more about using regular expressions, see [Use Regular Expressions](../ide/using-regular-expressions-in-visual-studio.md).
+
 ### Find Results
 
 When you choose **Find All**, a **Find Results** window opens and lists the matches for your search. Selecting a result in the list displays the associated file and highlights the match. If the file is not already open for editing, it is opened in a preview tab in the right side of the tab well. You can use the **Find** control to search through the **Find Results** list.
