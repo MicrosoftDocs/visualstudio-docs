@@ -216,9 +216,9 @@ In addition, Copilot provides more precise help for some targeted scenarios, suc
 
 |Scenario|Link|
 |-|-|
-|Exceptions|[Debug an exception with Copilot](#debug-an-exception-with-copilot)|
-|Variables|[Debug using Copilot](#debug-using-copilot)|
-|Quick Actions (light bulb)||
+|Exceptions|See [Debug an exception with Copilot](#debug-an-exception-with-copilot)|
+|Variables|See [Debug using Copilot](#debug-using-copilot)|
+|Quick Actions (light bulb)|See [Get AI assistance with Quick Actions](../ide/quick-actions.md#get-ai-assistance)|
 |Deadlocks||
 |IEnumerable tabular visualizer|See [Modify the visualizer expression](../debugger/view-data-in-tabular-visualizer.md#modify-the-expression-in-the-ienumerable-visualizer)|
 |Inline return values||
