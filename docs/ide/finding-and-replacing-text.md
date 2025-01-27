@@ -102,7 +102,7 @@ Open the **Find and Replace** dialog box by pressing **Ctrl**+**Shift**+**F**, o
 
 :::moniker-end
 
-To expose the **Replace** text box, use the down arrow to the left of the **Find** text.
+To expose the **Replace** text box, use the down arrow to the left of the **Find** text, or choose the tab **Replace in Files**. When you switch to replace mode, an additional text field appears for the replacement text, and a checkbox appears that provides the option to preserve case when replacing text.
 
 Set the scope of your search and replace operation to:
 
