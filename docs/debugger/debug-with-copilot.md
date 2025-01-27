@@ -216,12 +216,12 @@ In addition, Copilot provides more precise help for some targeted scenarios, suc
 
 |Scenario|Link|
 |-|-|
-|Exceptions|See [Debug an exception with Copilot](#debug-an-exception-with-copilot)|
+|Exceptions|See [Debug an exception with Copilot](#debug-an-exception-with-copilot), including deadlock detection errors.|
 |Variables|See [Debug using Copilot](#debug-using-copilot)|
 |Quick Actions (light bulb)|See [Get AI assistance with Quick Actions](../ide/quick-actions.md#get-ai-assistance)|
 |Deadlocks||
 |IEnumerable tabular visualizer|See [Modify the visualizer expression](../debugger/view-data-in-tabular-visualizer.md#modify-the-expression-in-the-ienumerable-visualizer)|
-|Inline return values||
+|Inline return values|See [View return values of method calls](../debugger/debugger-feature-tour.md#view-return-values-of-method-calls)|
 |Summary thread descriptions|See [Threads View (Parallel Stacks)](../debugger/using-the-parallel-stacks-window.md#threads-view)|
 |Auto insights for profiling|See [Get AI assistance with Auto insights](../profiling/cpu-insights.md#get-ai-assitance)|
 |BenchmarkDotNet||

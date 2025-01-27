@@ -1,7 +1,7 @@
 ---
 title: "Analyze BenchmarkDotNet data in Visual Studio"
 description: Learn how to profile console apps using BenchmarkDotNet.
-ms.date: 07/16/2024
+ms.date: 01/27/2025
 ms.topic: conceptual
 dev_langs:
   - "CSharp"
@@ -116,6 +116,11 @@ Each diagnoser generates performance data related to that diagnoser. For example
    ![Screenshot of BenchmarkDotNet data in Visual Studio.](../profiling/media/vs-2022/benchmark-dotnet-diagsession.png)
 
 For more information about the results, see [BenchmarkDotNet](https://benchmarkdotnet.org/articles/overview.html) documentation.
+
+## Get AI assistance
+
+In CPU Usage, sourceline view after selecting **Open Details**, and the other in the 
+Summary View.
 
 ## Related content
 
