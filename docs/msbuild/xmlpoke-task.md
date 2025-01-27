@@ -69,7 +69,7 @@ In this example, if you want to modify `/Package/mp:PhoneIdentity/PhoneProductId
 </Project>
 ```
 
-`dn` is here used as an artificial namespace prefix for default namespace.
+`dn` is here used as an artificial namespace prefix for default namespace; you can use it whenever there isn't a specified prefix in the target xml.
 
 ## See also
 
