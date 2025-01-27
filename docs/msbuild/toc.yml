@@ -146,7 +146,9 @@ items:
         href: fix-intermittent-build-failures.md
     - name: Multitargeting
       items:
-      - name: MSBuild multitargeting overview
+      - name: .NET SDK multitargeting
+        href: net-sdk-multitargeting.md
+      - name: .NET Framework multitargeting
         href: msbuild-multitargeting-overview.md
       - name: Toolset (ToolsVersion)
         items:
