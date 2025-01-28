@@ -11,9 +11,9 @@ ms.subservice: extensibility-integration
 ---
 
 # Changing text in the editor
-Edits, that is, changes to a text document open in the Visual Studio editor, may arise from user interactions, threads in Visual Studio such as language services and other extensions. Your extension must be prepared to deal with changes in the document text occurring in real time.
+Edits, that is, changes to a text document open in the Visual Studio editor, may arise from user interactions in Visual Studio or programmatic changes from language services and other extensions. Your extension must be prepared to deal with changes in the document text occurring in real time.
 
-Extensions running outside the main Visual Studio IDE process that use asynchronous design patterns to communicate with the Visual Studio IDE process. This means the use of asynchronous method calls, as indicated by the `async` keyword in C# and reinforced by the `Async` suffix on method names. Asynchronicity is a significant advantage in the context of an editor that is expected to be responsive to user actions. A traditional synchronous API call, if it takes longer than expected, will stop responding to user input, creating a UI freeze that lasts until the API call completes. User expectations of modern interactive applications are that text editors always remain responsive, and never block them from working. Having extensions be asynchronous is therefore essential to meet user expectations.
+Extensions running outside the main Visual Studio IDE process use asynchronous design patterns to communicate with the Visual Studio IDE process. This means the use of asynchronous method calls, as indicated by the `async` keyword in C# and reinforced by the `Async` suffix on method names. Asynchronicity is a significant advantage in the context of an editor that is expected to be responsive to user actions. A traditional synchronous API call, if it takes longer than expected, will stop responding to user input, creating a UI freeze that lasts until the API call completes. User expectations of modern interactive applications are that text editors always remain responsive, and never block them from working. Having extensions be asynchronous is therefore essential to meet user expectations.
 
 Learn more about asynchronous programming at [Asynchronous programming with async and await](/dotnet/csharp/programming-guide/concepts/async/).
 
@@ -53,16 +53,6 @@ await this.Extensibility.Editor().EditAsync(batch =>
 },
 cancellationToken);
 ```
-
-### Asynchronous execution
-
-[ITextViewSnapshot.GetTextDocumentAsync](/visualstudio/extensibility/visualstudio.extensibility/editor/editor-concepts?#itextviewsnapshot) opens a copy of the text document in the Visual Studio extension. Since extensions run in a separate process, all extension interactions are asynchronous, cooperative, and have some caveats:
-
-> [!CAUTION]
-> `GetTextDocumentAsync` might fail if called on an old `ITextDocument`, because it may no longer be cached by the Visual Studio client, if the user has made many changes since it was created. For  this reason, if you plan to store an `ITextView` to access its document later, and can't tolerate failure, it may be a good idea to call `GetTextDocumentAsync` immediately. Doing so fetches the text content for that version of the document into your extension, ensuring that a copy of that version is sent to your extension before it expires.
-
-> [!CAUTION]
-> `GetTextDocumentAsync` or `MutateAsync` might fail if the user closes the document.
 
 #### Concurrent execution
 

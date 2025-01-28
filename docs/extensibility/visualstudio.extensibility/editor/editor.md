@@ -18,10 +18,10 @@ The Visual Studio editor generally refers to the functionality of editing text f
 
 The editor object model is described at [Editor concepts](editor-concepts.md).
 
-The following sections summarize the high level extensibility scenarios that VisualStudio.Extensibility supports. However, because each of these scenarios are rich in concepts and APIs, a separate, more detailed section will be linked to provide a more in-depth explanation of the APIs and how to use them.
+The following sections summarize the high level editor extensibility scenarios that VisualStudio.Extensibility supports. However, because each of these scenarios are rich in concepts and APIs, a separate, more detailed section will be linked to provide a more in-depth explanation of the APIs and how to use them.
 
 ## Reading text and observing changes in the editor
-The most fundamental extensibility point for the Visual Studio editor is to manipulate text, either reading the text in the editor, or editing the text. These scenarios are core to any editor based extensions. For example, in order to provide diagnostics information such as warnings or errors, the extension has to read the code that's in the editor, and then interpret it. An extension also needs a way to detect when the text in the editor is being changed, or if there's a new file being opened, or an existing file being closed. 
+The most fundamental extensibility point for the Visual Studio editor is to manipulate text, either reading the text in the editor, or editing the text. These scenarios are core to any editor based extensions. For example, in order to provide diagnostics information such as warnings or errors, the extension has to read the code that's in the editor, and then interpret it. An extension also needs a way to detect when the text in the editor is being changed, or if there's a new file being opened, or an open file is being closed. 
 
 For detailed walkthrough of how to do read text and track text changes using VisualStudio.Extensibility, refer to [Working with text in the editor](./walkthroughs/working-with-text.md)
 
