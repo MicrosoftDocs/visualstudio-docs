@@ -23,7 +23,7 @@ monikerRange: '>= vs-2022'
 
 In this article, you'll learn how to debug more efficiently using GitHub Copilot. Copilot can provide code fixes along with in-depth analysis and explanations of how code works. It helps with proposed fixes to bugs, and explains things such as exceptions. Copilot understands call stacks, frames, variable names, and values. As a result, you can interact with the debugger-aware AI to ask detailed questions related to your code and to debugging issues in general.
 
-In addition, Copilot provides more precise help for some targeted scenarios, such as Exceptions, and all those described in [Targeted scenarios for AI assistance](#targeted-scenarios-for-ai-assistance). In most of these scenarios, look for the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In these scenarios, Copilot already knows the context for your questions.
+In addition, Copilot provides more precise help for some targeted scenarios, such as Exceptions, and all those described in [Targeted scenarios for AI assistance](#targeted-debugger-and-profiling-scenarios-for-ai-assistance). In most of these scenarios, look for the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In these scenarios, Copilot already knows the context for your questions.
 
 For more information on GitHub Copilot Completions in Visual Studio, see [About GitHub Copilot Completions in Visual Studio](../ide/visual-studio-github-copilot-extension.md).
 
@@ -208,7 +208,7 @@ In this example, we show AI suggestions for a conditional breakpoint. For tracep
    
    When the debugger pauses at the breakpoint, check the value of `item` and verify that the current value is `Fred`.
 
-## Targeted scenarios for AI assistance
+## Targeted debugger and profiling scenarios for AI assistance
 
 Copilot understands call stacks, frames, variable names, and values. As a result, you can interact with the debugger-aware AI to ask detailed questions related to your code and to debugging issues in general.
 
