@@ -102,7 +102,7 @@ Open the **Find and Replace** dialog box by pressing **Ctrl**+**Shift**+**F**, o
 
 :::moniker-end
 
-To expose the **Replace** text box, use the down arrow to the left of the **Find** text.
+To expose the **Replace** text box, use the down arrow to the left of the **Find** text, or choose the tab **Replace in Files**. When you switch to replace mode, an additional text field appears for the replacement text, and a checkbox appears that provides the option to preserve case when replacing text.
 
 Set the scope of your search and replace operation to:
 
@@ -116,6 +116,8 @@ Set the scope of your search and replace operation to:
 The **Find and Replace** tool does not search directories with the `Hidden` or `System` attribute.
 
 To cancel a Find or Replace operation, press **Ctrl**+**Break**.
+
+For more information, see [Find in files](../ide/find-in-files.md) and [Replace in files](../ide/replace-in-files.md), and for more about using regular expressions, see [Use Regular Expressions](../ide/using-regular-expressions-in-visual-studio.md).
 
 ### Find Results
 
