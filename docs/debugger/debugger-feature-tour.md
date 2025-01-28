@@ -192,7 +192,7 @@ Starting in Visual Studio 2022 version 17.12 Preview 3, you can also view return
 
 With Copilot enabled, you can also get targeted assistance related to the inline return value by using the Ask Copilot button that appears in the data tip for the return value.
 
-[ ![Screenshot showing the return values of method calls.](../debugger/media/vs-2022/view-return-values-copilot.png) ](../debugger/media/vs-2022/view-return-values-copilot.png#lightbox)
+[ ![Screenshot showing the return values of method calls with Copilot icon.](../debugger/media/vs-2022/view-return-values-copilot.png) ](../debugger/media/vs-2022/view-return-values-copilot.png#lightbox)
 ::: moniker-end
 
 ## Set a watch
