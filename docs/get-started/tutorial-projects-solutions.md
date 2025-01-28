@@ -124,7 +124,7 @@ Now add your first project to the solution. Start with an empty project, and add
 1. Select the C# **Empty Project (.NET Framework)** template, and then select **Next**.
 
    > [!NOTE]
-   > Visual Studio uses workload-based installation to install only the components you need for the type of development you do. If you don't see the **Empty Project (.NET Framework)** template, nstall the **.NET desktop development** Visual Studio workload.
+   > Visual Studio uses workload-based installation to install only the components you need for the type of development you do. If you don't see the **Empty Project (.NET Framework)** template, install the **.NET desktop development** Visual Studio workload.
    >
    > An easy way to install a new workload when you create a new project is to select the **Install more tools and features** link under the text that says **Not finding what you're looking for?**. In the Visual Studio Installer, select the **.NET desktop development** workload, and then select **Modify**.
    >
