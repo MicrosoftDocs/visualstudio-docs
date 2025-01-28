@@ -1,7 +1,7 @@
 ---
 title: Microsoft.CodeCoverage.Console tool
 description: Use the Microsoft.CodeCoverage.Console tool to collect code coverage for C++ and C# code in nontest scenarios, and merge and convert code coverage reports.
-ms.date: 09/16/2024
+ms.date: 01/28/2025
 ms.topic: conceptual
 ms.author: mikejo
 manager: mijacobs
@@ -11,15 +11,17 @@ monikerRange: '>= vs-2022'
 ---
 # Microsoft.CodeCoverage.Console tool
 
-Microsoft.CodeCoverage.Console is a command-line tool. You can use it to collect code coverage for C++ and C# code. It supports also merging and converting code coverage reports. This tool can be used to collect code coverage in non-test scenarios (for example, for a simple console application).
+Microsoft.CodeCoverage.Console is a command-line tool that you can use to collect code coverage for C++ and C# code. It also supports merging and converting code coverage reports. This tool can be used to collect code coverage in non-test scenarios (for example, for a simple console application).
 
-Microsoft.CodeCoverage.Console is available in Visual Studio 2022 17.3 under the folder `Common7\IDE\Extensions\Microsoft\CodeCoverage.Console`. You can use it in a Developer Command Prompt and a Developer PowerShell:
+This tool is extension to the [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) dotnet tool that adds support for collecting code coverage for C++ code. Additionally, Microsoft.CodeCoverage.Console supports security features to enable collecting ASP.NET code coverage data from IIS.
 
 >[!NOTE]
 > The tool is available only with Visual Studio Enterprise. For .NET code coverage, you can alternatively use the command-line tool, [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage).
 
+Microsoft.CodeCoverage.Console is available in Visual Studio 2022 17.3 under the folder `Common7\IDE\Extensions\Microsoft\CodeCoverage.Console`. You can use it in a Developer Command Prompt and a Developer PowerShell:
+
 ```console
-C:\Program Files\Microsoft Visual Studio\2022\Enterprise> Microsoft.CodeCoverage.Console --help
+D:\ConsoleApplication\x64\Debug> Microsoft.CodeCoverage.Console --help
 Description:
   Code coverage tools.
 
