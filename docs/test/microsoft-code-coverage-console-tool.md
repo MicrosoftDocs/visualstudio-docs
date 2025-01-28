@@ -75,7 +75,7 @@ Microsoft.CodeCoverage.Console instrument
 
 * **`-s|--settings <settings>`**
 
-  Sets the path to the XML code coverage settings.
+  Sets the path to the XML code coverage settings. The settings file can be used to exclude some modules or methods from code coverage analysis. The format is the same as the data collector configuration inside a *.runsettings* file. For more information, see [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md). 
 
 * **`-id|--session-id <session-id>`**
 
@@ -130,6 +130,8 @@ SessionId: 85d9d49e-38a7-43a4-81ff-9e12f0e6b04b
 Hello World!
 Code coverage results: output.coverage.
 ```
+
+The settings file can be used to exclude some modules or methods from code coverage analysis. The format is the same as the data collector configuration inside a *.runsettings* file. For more information, see [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md). 
 
 ### Code coverage using instrument and collect commands
 
