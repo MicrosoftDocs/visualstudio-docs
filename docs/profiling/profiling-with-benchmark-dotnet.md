@@ -117,11 +117,6 @@ Each diagnoser generates performance data related to that diagnoser. For example
 
 For more information about the results, see [BenchmarkDotNet](https://benchmarkdotnet.org/articles/overview.html) documentation.
 
-## Get AI assistance
-
-In CPU Usage, sourceline view after selecting **Open Details**, and the other in the 
-Summary View.
-
 ## Related content
 
 - [First look at profiling](../profiling/choose-performance-tool.md)
