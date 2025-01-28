@@ -40,7 +40,7 @@ If you have a project that you still want to run but doesn't require debugging, 
 
 If your project is a Universal Windows Platform (UWP) project, and the target device is running an Arm32 version of Windows, then you need to manually deploy the project to run it. To do so, build your project to an .appx file, copy the appx to your device, use the WinAppDeployCmd.exe tool to install the .appx, and then start the application from the start menu. For more information, see [Install apps with the WinAppDeployCmd.exe tool](/windows/uwp/packaging/install-universal-windows-apps-with-the-winappdeploycmd-tool).
 
-For other types of projects, you can still use **Debug->Start without debugging** to run the project. 
+For other types of projects, you can still use **Debug > Start without debugging** to run the project. 
 
 > [!NOTE]
 > This option isn't recommended since .NET support for Windows on Arm32 has ended.
