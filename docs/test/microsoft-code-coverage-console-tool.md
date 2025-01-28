@@ -110,7 +110,7 @@ D:\ConsoleApplication\x64\Debug> .\ConsoleApplication.exe
 Hello World!
 ```
 
-### Code coverage using collect command with configuration file
+### Code coverage using collect command with configuration file (C++)
 
 If you don't want to use the `instrument` command, you can instead use a configuration file to specify the files to instrument, as follows:
 
@@ -133,7 +133,7 @@ Code coverage results: output.coverage.
 
 The settings file can be used to exclude some modules or methods from code coverage analysis. The format is the same as the data collector configuration inside a *.runsettings* file. For more information, see [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md). 
 
-### Code coverage using instrument and collect commands
+### Code coverage using instrument and collect commands (C++)
 
 Before collecting code coverage data, first instrument the binary as follows:
 
@@ -151,7 +151,7 @@ Hello World!
 Code coverage results: output.coverage.
 ```
 
-### Code coverage using instrument command and collect command in server mode
+### Code coverage using instrument command and collect command in server mode (C++)
 
 Using this method, you can separate code coverage collection from running your application. First, instrument your binary as follows:
 
