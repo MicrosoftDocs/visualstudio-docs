@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.assetid: 4e529a43-7aed-4eee-895d-862a631952df
-ms.date: 09/16/2024
+ms.date: 01/28/2025
 ms.topic: conceptual
 description: Assign license subscriptions to users (subscribers) in the Subscriptions Admin Portal, set up email notifications, and send assignment messages.
 ---
@@ -23,7 +23,7 @@ For groups of users, you have choices for how you assign subscriptions.
 Watch the video or read on to learn how to assign a Visual Studio subscription to a new user so that they can access the subscription benefits.
  
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=0d290542-7a8f-4a8b-963e-6a2af0c4aaff]
+> [!VIDEO https://medius.microsoft.com/Embed/video-nc/b28f7c0a-74b9-450f-b3b6-9a6c3489b105?r=903677913064]
 
 1. Sign in to the [admin portal](https://manage.visualstudio.com).
 2. To assign a license to a single Visual Studio subscriber, at the top of the table, select **Add**, then choose **Individual subscriber**.
