@@ -1,7 +1,7 @@
 ---
 title: XmlPoke Task
 description: Learn how MSBuild uses the XmlPoke task to set values as specified by an XPath query into an XML file.
-ms.date: 11/04/2016
+ms.date: 1/28/2025
 ms.topic: reference
 dev_langs:
 - VB
@@ -25,7 +25,7 @@ Sets values as specified by an XPath query into an XML file.
 
 |Parameter|Description|
 |---------------|-----------------|
-|`Namespaces`|Optional `String` parameter.<br /><br /> Specifies the namespaces for XPath query prefixes. `Namespaces` is an XML snippet consisting of `Namespace` elements with attributes `Prefix` and `Uri`. The attribute `Prefix` specifies the prefix to associate with the namespace specified in `Uri` attribute. Do not use an empty `Prefix`.|
+|`Namespaces`|Optional `String` parameter.<br /><br /> Specifies the namespaces for XPath query prefixes. `Namespaces` is an XML snippet consisting of `Namespace` elements with attributes `Prefix` and `Uri`. The attribute `Prefix` specifies the prefix to associate with the namespace specified in `Uri` attribute. Don't use an empty `Prefix`.|
 |`Query`|Optional `String` parameter.<br /><br /> Specifies the XPath query.|
 |`Value`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the value to be inserted into the specified path.|
 |`XmlInputPath`|Optional <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the XML input as a file path.|
@@ -36,7 +36,7 @@ Sets values as specified by an XPath query into an XML file.
 
 ## Example
 
-Here is a sample.xml to modify:
+Here's a sample.xml to modify:
 
 ```xml
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
@@ -69,7 +69,7 @@ In this example, if you want to modify `/Package/mp:PhoneIdentity/PhoneProductId
 </Project>
 ```
 
-`dn` is here used as an artificial namespace prefix for default namespace; you can use it whenever there isn't a specified prefix in the target xml.
+`dn` is here used as an artificial namespace prefix for the default namespace; you can use it whenever there isn't a specified prefix in the target XML.
 
 ## See also
 
