@@ -13,7 +13,10 @@ monikerRange: '>= vs-2022'
 
 Microsoft.CodeCoverage.Console is a command-line tool that you can use to collect code coverage for C++ and C# code. It also supports merging and converting code coverage reports. This tool can be used to collect code coverage in non-test scenarios (for example, for a simple console application).
 
-This tool is extension to the [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) dotnet tool that adds support for collecting code coverage for C++ code. Additionally, Microsoft.CodeCoverage.Console supports security features to enable collecting ASP.NET code coverage data from IIS.
+This tool is extension to the [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) dotnet tool that adds support for the following scenarios:
+
+- Adds security features to enable collecting ASP.NET code coverage data from IIS.
+- Collecting code coverage for C++ code.
 
 >[!NOTE]
 > The tool is available only with Visual Studio Enterprise. For .NET code coverage, you can alternatively use the command-line tool, [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage).
@@ -21,7 +24,8 @@ This tool is extension to the [dotnet-coverage](/dotnet/core/additional-tools/do
 Microsoft.CodeCoverage.Console is available in Visual Studio 2022 17.3 under the folder `Common7\IDE\Extensions\Microsoft\CodeCoverage.Console`. You can use it in a Developer Command Prompt and a Developer PowerShell:
 
 ```console
-D:\ConsoleApplication\x64\Debug> Microsoft.CodeCoverage.Console --help
+D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console --help
+
 Description:
   Code coverage tools.
 
