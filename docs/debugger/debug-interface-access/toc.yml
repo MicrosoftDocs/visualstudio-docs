@@ -272,7 +272,7 @@
           href: idiaenumlinenumbers-reset.md
         - name: IDiaEnumLineNumbers::Skip
           href: idiaenumlinenumbers-skip.md
-      - name: IDiaEnumDebugStreams
+      - name: IDiaEnumNamedStreams
         items:
         - name: IDiaEnumNamedStreams
           href: idiaenumnamedstreams.md
