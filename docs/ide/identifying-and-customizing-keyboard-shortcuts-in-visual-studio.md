@@ -45,11 +45,11 @@ If a shortcut is assigned to a command in the **Global** context and no other co
 
 1. In the **Show commands containing** box, enter all or part of the name of the command without spaces.
 
-   For example, you can find commands for `solutionexplorer`.
+   For example, you can find commands that contain *solutionexplorer*.
 
 1. In the list, choose the correct command.
 
-    For example, you can choose `View.SolutionExplorer`.
+    For example, you can choose **View.SolutionExplorer**.
 
 1. If the command has a keyboard shortcut, it appears in the **Shortcuts for selected command** list.
 

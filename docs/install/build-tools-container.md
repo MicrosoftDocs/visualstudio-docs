@@ -89,7 +89,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    > [!WARNING]
    > If you base your image directly on *microsoft/windowsservercore*, the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on *microsoft/dotnet-framework:4.8* or later. Also note that images that are tagged version 4.8 or later might use PowerShell as the default `SHELL`, which causes the `RUN` and `ENTRYPOINT` instructions to fail.
    >
-   > To learn which container OS versions are supported on which host OS versions, see [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility). Check [Troubleshoot Windows and Build Tools containers](#troubleshoot-windows-and-build-tools-containers) for known issues.
+   > To learn which container OS versions are supported on which host OS versions, see [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility). Check [Troubleshooting Windows and Build Tools containers](#troubleshooting-windows-and-build-tools-containers) for known issues.
 
    ::: moniker-end
 
@@ -135,7 +135,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    > [!WARNING]
    > If you base your image directly on *microsoft/windowsservercore*, the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on *microsoft/dotnet-framework:4.8* or later. Also note that images that are tagged version 4.8 or later might use PowerShell as the default `SHELL`, which causes the `RUN` and `ENTRYPOINT` instructions to fail.
    >
-   > To learn which container OS versions are supported on which host OS versions, see [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility). Check [Troubleshoot Windows and Build Tools containers](#troubleshoot-windows-and-build-tools-containers) for known issues.
+   > To learn which container OS versions are supported on which host OS versions, see [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility). Check [Troubleshooting Windows and Build Tools containers](#troubleshooting-windows-and-build-tools-containers) for known issues.
 
    ::: moniker-end
    > [!NOTE]
@@ -200,9 +200,9 @@ To use this image for your CI/CD workflow, you can publish it to your own [Azure
    >
    > After you identify and fix the installation issue, you can add the `C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat` and `&&` parameters back to the `ENTRYPOINT` command and rebuild your Dockerfile.
    >
-   > For more information, see [Troubleshoot Windows and Build Tools containers](#troubleshoot-windows-and-build-tools-containers).
+   > For more information, see [Troubleshooting Windows and Build Tools containers](#troubleshooting-windows-and-build-tools-containers).
 
-## Troubleshoot Windows and Build Tools containers
+## Troubleshooting Windows and Build Tools containers
 
 There are a few issues when installing Visual Studio into a Docker container.
 
