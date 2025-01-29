@@ -2,8 +2,8 @@
 title: Install Visual Studio Build Tools into a container to support a consistent build system
 titleSuffix: ''
 description: Learn how to install Visual Studio Build Tools into a Windows container to support continuous integration and continuous delivery (CI/CD) workflows.
-ms.date: 1/23/2024
-ms.topic: conceptual
+ms.date: 1/29/2025
+ms.topic: concept-article
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
@@ -12,24 +12,24 @@ ms.subservice: installation
 ---
 # Install Build Tools into a container
 
-You can install Visual Studio Build Tools into a Windows container to support continuous integration and continuous delivery (CI/CD) workflows. This article guides you through what Docker configuration changes are required as well as what [workloads and components](workload-component-id-vs-build-tools.md) you can install in a container.
+You can install Visual Studio Build Tools into a Windows container to support continuous integration and continuous delivery (CI/CD) workflows. This article guides you through what Docker configuration changes are required, as well as what [workloads and components](workload-component-id-vs-build-tools.md) you can install in a container.
 
-[Containers](https://www.docker.com/what-container) are a great way to package a consistent build system you can use not only in a CI/CD server environment but for development environments as well. For example, you can mount your source code into a container to be built by a customized environment while you continue to use Visual Studio or other tools to write your code. If your CI/CD workflow uses the same container image, you can rest assured that your code builds consistently. You can use containers for runtime consistency as well, which is common for micro-services using multiple containers with an orchestration system; however, is beyond the scope of this article.
+[Containers](https://www.docker.com/what-container) are a great way to package a consistent build system you can use, not only in a CI/CD server environment but for development environments as well. For example, you can mount your source code into a container to be built by a customized environment while you continue to use Visual Studio or other tools to write your code. If your CI/CD workflow uses the same container image, you can rest assured that your code builds consistently. You can use containers for runtime consistency as well, which is common for micro-services using multiple containers with an orchestration system; however, that's beyond the scope of this article.
 
-If Visual Studio Build Tools does not have what you require to build your source code, these same steps can be used for other Visual Studio products. Do note, however, that Windows containers don't support an interactive user interface so all commands must be automated.
+If Visual Studio Build Tools doesn't have what you require to build your source code, these same steps can be used for other Visual Studio products. Do note, however, that Windows containers don't support an interactive user interface so all commands must be automated.
 
 ## Before you begin
 
-Some familiarity with [Docker](https://www.docker.com/what-docker) is assumed below. If you're not already familiar with running Docker on Windows, read about how to [install and configure the Docker engine on Windows](/virtualization/windowscontainers/manage-docker/configure-docker-daemon).
+Some familiarity with [Docker](https://www.docker.com/what-docker) is assumed. If you're not familiar with it, learn how to install and configure the [Docker engine on Windows](/virtualization/windowscontainers/manage-docker/configure-docker-daemon).
 
-The base image below is a sample and may not work for your system. Read [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility) to determine which base image you should use for your environment.
+The following base image is a sample and might not work for your system. Read [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility) to determine which base image you should use for your environment.
 
 ## Create and build the Dockerfile
 
-Save the following example Dockerfile to a new file on your disk. If the file is named simply "Dockerfile", it is recognized by default.
+Save the following example Dockerfile to a new file on your disk. If the file is named simply *Dockerfile*, it's recognized by default.
 
 > [!WARNING]
-> This example Dockerfile excludes only earlier Windows SDKs that cannot be installed into containers. Earlier releases cause the build command to fail.
+> This example Dockerfile excludes only earlier Windows SDKs that can't be installed into containers. Earlier releases cause the build command to fail.
 
 1. Open a command prompt.
 
@@ -87,12 +87,12 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    > `ENTRYPOINT ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "-arch=amd64", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]`
 
    > [!WARNING]
-   > If you base your image directly on microsoft/windowsservercore, the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on microsoft/dotnet-framework:4.8] or later. Also note that images that are tagged version 4.8 or later might use PowerShell as the default `SHELL`, which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
+   > If you base your image directly on *microsoft/windowsservercore*, the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on *microsoft/dotnet-framework:4.8* or later. Also note that images that are tagged version 4.8 or later might use PowerShell as the default `SHELL`, which causes the `RUN` and `ENTRYPOINT` instructions to fail.
    >
-   > See [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility) to see which container OS versions are supported on which host OS versions, and [Troubleshooting Windows and Build Tools containers](#troubleshooting-windows-and-build-tools-containers) for known issues.
+   > To learn which container OS versions are supported on which host OS versions, see [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility). Check [Troubleshoot Windows and Build Tools containers](#troubleshoot-windows-and-build-tools-containers) for known issues.
 
    ::: moniker-end
-   
+
    ::: moniker range=">=vs-2022"
 
    ```dockerfile
@@ -127,19 +127,19 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    ```
 
    > [!TIP]
-   > To target 64-bit,  specify the `-arch=amd64` option in the `ENTRYPOINT` command to start the [Developer Command Prompt for Visual Studio](../ide/reference/command-prompt-powershell.md#developer-command-prompt) (`VSDevCmd.bat`).
+   > To target 64-bit, specify the `-arch=amd64` option in the `ENTRYPOINT` command to start the [Developer Command Prompt for Visual Studio](../ide/reference/command-prompt-powershell.md#developer-command-prompt) (`VSDevCmd.bat`).
    >
    > For example:
    > `ENTRYPOINT ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "-arch=amd64", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]`
 
    > [!WARNING]
-   > If you base your image directly on microsoft/windowsservercore, the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on microsoft/dotnet-framework:4.8 or later. Also note that images that are tagged version 4.8 or later might use PowerShell as the default `SHELL`, which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
+   > If you base your image directly on *microsoft/windowsservercore*, the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on *microsoft/dotnet-framework:4.8* or later. Also note that images that are tagged version 4.8 or later might use PowerShell as the default `SHELL`, which causes the `RUN` and `ENTRYPOINT` instructions to fail.
    >
-   > See [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility) to see which container OS versions are supported on which host OS versions, and [Troubleshooting Windows and Build Tools containers](#troubleshooting-windows-and-build-tools-containers) for known issues.
+   > To learn which container OS versions are supported on which host OS versions, see [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility). Check [Troubleshoot Windows and Build Tools containers](#troubleshoot-windows-and-build-tools-containers) for known issues.
 
    ::: moniker-end
    > [!NOTE]
-   > Error code `3010` is used to indicate success with a reboot required, see [MsiExec.exe error messages](/windows/win32/msi/error-codes) for more information.
+   > Error code `3010` is used to indicate success with a reboot required. For more information, see [MsiExec.exe error messages](/windows/win32/msi/error-codes).
 
 1. Run the following command within that directory.
 
@@ -151,7 +151,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
 
    This command builds the Dockerfile in the current directory using 2 GB of memory. The default 1 GB isn't sufficient when some workloads are installed; however, you might be able to build with only 1 GB of memory depending on your build requirements.
 
-   The final image is tagged `buildtools2019:latest` so you can easily run it in a container as `buildtools2019` since the "latest" tag is the default if no tag is specified. If you want to use a specific version of Visual Studio Build Tools 2019 in a more [advanced scenario](advanced-build-tools-container.md), you might instead tag the container with a specific Visual Studio build number as well as "latest" so containers can use a specific version consistently.
+   The final image is tagged *buildtools2019:latest* so you can easily run it in a container as *buildtools2019* since the *latest* tag is the default if no tag is specified. If you want to use a specific version of Visual Studio Build Tools 2019 in a more [advanced scenario](advanced-build-tools-container.md), you might instead tag the container with a specific Visual Studio build number as well as *latest* so containers can use a specific version consistently.
 
    ::: moniker-end
 
@@ -161,13 +161,13 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    docker build -t buildtools:latest -m 2GB .
    ```
 
-   This command builds the Dockerfile in the current directory using 2 GB of memory. The default 1 GB is not sufficient when some workloads are installed; however, you might be able to build with only 1 GB of memory depending on your build requirements.
+   This command builds the Dockerfile in the current directory using 2 GB of memory. The default 1 GB isn't sufficient when some workloads are installed; however, you might be able to build with only 1 GB of memory depending on your build requirements.
 
-   The final image is tagged "buildtools:latest" so you can easily run it in a container as "buildtools" since the "latest" tag is the default if no tag is specified. If you want to use a specific version of Visual Studio Build Tools in a more [advanced scenario](advanced-build-tools-container.md), you might instead tag the container with a specific Visual Studio build number as well as "latest" so containers can use a specific version consistently.
+   The final image is tagged *buildtools:latest* so you can easily run it in a container as *buildtools* since the *latest* tag is the default if no tag is specified. If you want to use a specific version of Visual Studio Build Tools in a more [advanced scenario](advanced-build-tools-container.md), you might instead tag the container with a specific Visual Studio build number as well as *latest* so containers can use a specific version consistently.
 
    ::: moniker-end
 
-## Using the built image
+## Use the built image
 
 Now that you have created an image, you can run it in a container to do both interactive and automated builds. The example uses the Developer Command Prompt, so your PATH and other environment variables are already configured.
 
@@ -191,7 +191,7 @@ Now that you have created an image, you can run it in a container to do both int
 
    ::: moniker-end
 
-To use this image for your CI/CD workflow, you can publish it to your own [Azure Container Registry](https://azure.microsoft.com/services/container-registry) or other internal [Docker registry](https://docs.docker.com/registry/deploying) so servers need only to pull it.
+To use this image for your CI/CD workflow, you can publish it to your own [Azure Container Registry](https://azure.microsoft.com/services/container-registry) or other internal Docker registry so servers need only to pull it.
 
    > [!NOTE]
    > If the Docker container fails to start, there's likely a Visual Studio installation issue. You can update the Dockerfile to remove the step that calls the Visual Studio batch command. This enables you to start the Docker container and read the installation error logs.
@@ -200,9 +200,9 @@ To use this image for your CI/CD workflow, you can publish it to your own [Azure
    >
    > After you identify and fix the installation issue, you can add the `C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat` and `&&` parameters back to the `ENTRYPOINT` command and rebuild your Dockerfile.
    >
-   > For more information, see [Troubleshooting Windows and Build Tools containers](#troubleshooting-windows-and-build-tools-containers).
+   > For more information, see [Troubleshoot Windows and Build Tools containers](#troubleshoot-windows-and-build-tools-containers).
 
-## Troubleshooting Windows and Build Tools containers
+## Troubleshoot Windows and Build Tools containers
 
 There are a few issues when installing Visual Studio into a Docker container.
 
@@ -222,8 +222,8 @@ The following known issues occur when you install Visual Studio Build Tools into
 The following known issues might occur when you use a Build Tools container. To see whether issues have been fixed or if there are other known issues, visit [Developer Community](https://aka.ms/feedback/suggest?space=8).
 
 * IntelliTrace might not work in [some scenarios](https://github.com/Microsoft/vstest/issues/940) within a container.
-* On older versions of Docker for Windows, the default container image size is only 20 GB and will not fit Build Tools. Follow [instructions to change image size](/virtualization/windowscontainers/manage-containers/container-storage#storage-limits) to 127 GB or more.
-To confirm a disk space issue, check the log files for more information. Your `vslogs\dd_setup_<timestamp>_errors.log` file will include the following if you run out of disk space: 
+* On older versions of Docker for Windows, the default container image size is only 20 GB and doesn't fit Build Tools. Follow [instructions to change image size](/virtualization/windowscontainers/manage-containers/container-storage#storage-limits) to 127 GB or more.
+To confirm a disk space issue, check the log files for more information. Your `vslogs\dd_setup_<timestamp>_errors.log` file includes the following if you run out of disk space: 
 ```
 Pre-check verification: Visual Studio needs at least 91.99 GB of disk space. Try to free up space on C:\ or change your target drive.
 Pre-check verification failed with error(s) :  SizePreCheckEvaluator.
@@ -231,5 +231,5 @@ Pre-check verification failed with error(s) :  SizePreCheckEvaluator.
 
 ## Related content
 
-* [Advanced Example for Containers](advanced-build-tools-container.md)
-* [Visual Studio Build Tools workload and component IDs](workload-component-id-vs-build-tools.md)
+* [Advanced example for containers](advanced-build-tools-container.md)
+* [Visual Studio Build Tools component directory](workload-component-id-vs-build-tools.md)
