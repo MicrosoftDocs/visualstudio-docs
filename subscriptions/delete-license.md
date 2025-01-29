@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.assetid: e49242bc-e9f2-49e8-8caa-f574d508aba6
-ms.date: 01/24/2025
+ms.date: 01/28/2025
 ms.topic: how-to
 description:  Learn how admins can delete subscription assignments in the Visual Studio Subscriptions Admin Portal.
 ---
@@ -18,7 +18,7 @@ When a subscriber no longer requires a Visual Studio subscription, you can remov
 
 Watch this video or read on to learn how to delete assignments. 
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yG2q]
+> [!VIDEO https://medius.microsoft.com/Embed/video-nc/b1db51e8-18e2-4432-9f8c-9a172cb1ca02?r=455207584654]
 
 ## Delete a subscription assignment
 

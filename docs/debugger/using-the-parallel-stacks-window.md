@@ -86,7 +86,7 @@ Icon|Description|
 |![Status Excluded](media/vs-2022/icon-status-excluded.png)|Indicates the deadlocked node.|
 |![Status Information](media/vs-2022/icon-status-information.png)|Indicates that the current stack frame has additional information such as Waiting on, Waiting on lock, owned by, etc. |
 |![Status Blocked](media/vs-2022/icon-status-block.png)|Indicates that the current task is in blocked/waiting state, etc. |
-|![Status Running](media/vs-2022/icon-status-running.png)|Indicates that the currently running task.|
+|![Status Running](media/vs-2022/icon-status-running.png)|Indicates the currently running task.|
 
 ::: moniker-end
 
