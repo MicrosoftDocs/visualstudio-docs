@@ -13,7 +13,7 @@ monikerRange: '>= vs-2022'
 
 Microsoft.CodeCoverage.Console is a command-line tool that you can use to collect code coverage for C++ and C# code. It also supports merging and converting code coverage reports. This tool can be used to collect code coverage in non-test scenarios (for example, for a simple console application).
 
-This tool is extension to the [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) dotnet tool that adds support for the following scenarios:
+This tool is an extension to the [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) dotnet tool that adds support for the following scenarios:
 
 - Adds security features to enable collecting ASP.NET code coverage data from IIS.
 - Collecting code coverage for C++ code.
@@ -49,7 +49,7 @@ Commands:
 
 ## Collect, connect, shutdown, merge, snapshot, and uninstrument commands
 
-The Microsoft.CodeCoverage.Console tool is extension to the [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) dotnet tool. The documentation for collect, connect, shutdown, merge, snapshot, and uninstrument commands can be found [here](/dotnet/core/additional-tools/dotnet-coverage).
+The Microsoft.CodeCoverage.Console tool is an extension to the [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) dotnet tool. The documentation for collect, connect, shutdown, merge, snapshot, and uninstrument commands can be found [here](/dotnet/core/additional-tools/dotnet-coverage).
 
 Microsoft.CodeCoverage.Console supports additional security features to enable collecting ASP.NET code coverage data from IIS. Additionally, the Microsoft.CodeCoverage.Console tool supports collecting code coverage for C++ code. The `instrument` command is specific to these scenarios.
 
