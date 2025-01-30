@@ -1,9 +1,9 @@
 ---
 author: ghogen
 ms.topic: include
-ms.date: 10/23/2024
+ms.date: 1/29/2025
 ms.author: ghogen
 ---
 
 > [!NOTE]
-> Microsoft plans to no longer actively maintain the Bridge to Kubernetes project. Over the next few months, we will transition the project to an archival state. In the meantime, the project is still available to use and [download](https://github.com/Azure/Bridge-To-Kubernetes?tab=readme-ov-file#documentation). During this period, we hope to explore and recommend community projects that provide similar benefits to Bridge to Kubernetes for your future use. If you have questions, please contact us on our [issues board at GitHub](https://github.com/Azure/Bridge-To-Kubernetes/issues).
+> Bridge to Kubernetes will be retired on April 30, 2025. For details about the retirement and open-source alternatives, please see the GitHub [issue](https://github.com/Azure/Bridge-To-Kubernetes/issues/655).
