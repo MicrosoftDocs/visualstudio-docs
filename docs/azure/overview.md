@@ -62,7 +62,7 @@ If you need help configuring CI/CD for a GitHub repo for the first time, Visual 
 
 Visual Studio 17.9 and later, with the **ASP.NET and web development** and **Azure development** workloads installed, includes the [.NET Aspire SDK](/dotnet/aspire/fundamentals/dotnet-aspire-sdk) and provides [project templates](/dotnet/aspire/fundamentals/aspire-sdk-templates?pivots=visual-studio) for .NET Aspire.
 
-ASP.NET Core projects include an option to enlist in Aspire orchestration at project creation time, and a context menu item, **Add** > **NET Aspire Orchestrator Support** in Solution Explorer that you can use to enlist a project in Aspire orchestration. These actions add Aspire orchestration projects (AppHost and ServiceDefaults) to the solution (unless already present). In Visual Studio 17.13 and later, this functionality is also supported for Azure Functions projects.
+ASP.NET Core projects include an option to enlist in Aspire orchestration at project creation time, and a context menu item, **Add** > **NET Aspire Orchestrator Support** in Solution Explorer that you can use to enlist a project in Aspire orchestration. These actions add Aspire orchestration projects (AppHost and ServiceDefaults) to the solution (unless already present). In Visual Studio 17.13 and later, this functionality is also supported for Azure Functions projects. For more detailed information, see [.NET Aspire tooling](/dotnet/aspire/fundamentals/setup-tooling?tabs=windows&pivots=visual-studio).
 
 ## Debug in Azure using Visual Studio
 
