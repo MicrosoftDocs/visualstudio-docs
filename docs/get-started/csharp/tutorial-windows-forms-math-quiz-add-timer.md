@@ -33,7 +33,7 @@ This tutorial builds on previous tutorials, starting with [Create a math quiz Wi
 
 To keep track of time during the quiz, you use a Timer component. You also need a variable to store the amount of time that's left.
 
-1. Add an integer variable that's named `timeLeft` in the same way that you declared variables in previous tutorials. Put the `timeLeft` declaration right after the other declarations. Your code should look like the following sample.
+1. Add an integer variable that's named **timeLeft** in the same way that you declared variables in previous tutorials. Put the **timeLeft** declaration right after the other declarations. Your code should look like the following sample.
 
    ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step7/cs/form1.cs" id="Snippet15":::
@@ -46,7 +46,7 @@ To keep track of time during the quiz, you use a Timer component. You also need 
 
    :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/add-timer-control.png" alt-text="Screenshot that shows the Timer control in the Toolbox.":::
 
-3. On the form, select the **Timer1** icon that you just added, and set its **Interval** property to **1000**. Because this interval is in milliseconds, a value of 1000 causes the timer to raise a <xref:System.Windows.Forms.Timer.Tick> event every second.
+3. On the form, select the **Timer1** icon that you just added, and set its **Interval** property to *1000*. Because this interval is in milliseconds, a value of 1000 causes the timer to raise a <xref:System.Windows.Forms.Timer.Tick> event every second.
 
 ## Check the answers
 
