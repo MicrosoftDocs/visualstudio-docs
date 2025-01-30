@@ -1,12 +1,13 @@
 ---
-title: .NET SDK Multitargeting Overview
-description: Use MSBuild to compile an application to run on any one of several versions of .NET
+title: Run an MSBuild target exactly once
+description: Configure a .NET project to run a target once and once only, regardless of whether the project is built for multiple frameworks or only one.
 ms.date: 1/27/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
+# Customer intent: Configure a .NET project to run a target exactly once whether or not you're building for multiple frameworks for only one, for example to increment a version number.
 ---
 
 # Run a target exactly once
