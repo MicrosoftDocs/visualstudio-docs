@@ -1,7 +1,7 @@
 ---
 title: Command-line parameter examples for installation
 description: Customize command-line parameter examples to create your own installation of Visual Studio by setting parameters, such as installPath, wait, all, remove, and more.
-ms.date: 10/14/2024
+ms.date: 1/31/2025
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -17,6 +17,8 @@ In each example, `vs_enterprise.exe`, `vs_professional.exe`, and `vs_community.e
 All commands require administrative elevation, and a User Account Control prompt will be displayed if the process isn't started from an elevated prompt.
 
 You can use the `^` character at the end of a command line to concatenate multiple lines into a single command. Alternatively, you can place these lines together onto a single row. In PowerShell, the equivalent is the backtick (`` ` ``) character.
+
+To execute commands in a non-interactive manner, you can use`--passive` or `--quiet`. For more information on these parameters, see the [commands and command-line paremeters](use-command-line-parameters-to-install-visual-studio.md#install-update-modify-repair-uninstall-and-export-commands-and-command-line-parameters) page.
 
 For lists of the workloads and components that you can install by using the command line, see the [Visual Studio workload and component IDs](workload-and-component-ids.md) page.
 
