@@ -1,7 +1,7 @@
 ---
 title: Debug using the Just-In-Time Debugger
 description: Debug using the Just-In-Time Debugger in Visual Studio. Just-In-Time debugging can launch Visual Studio automatically when an app returns errors or crashes.
-ms.date: 10/09/2024
+ms.date: 01/29/2025
 ms.topic: how-to
 helpviewer_keywords: 
   - debugging [Visual Studio], Just-In-Time
@@ -52,17 +52,17 @@ Just-In-Time debugging might still be enabled even if Visual Studio is no longer
 
 2. In the **Registry Editor** window, locate and delete the following registry entries if they exist:
 
-    - **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\DbgManagedDebugger**
-
     - **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger**
+
+    - **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\DbgManagedDebugger**
 
     :::image type="content" source="../debugger/media/dbg-jit-registry.png" alt-text="JIT registry key" border="true":::
 
 3. Also delete the following registry entries if they exist:
 
-    - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\DbgManagedDebugger**
-
     - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger**
+
+    - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\DbgManagedDebugger**
 
     Make sure not to delete or change any other registry keys.
 
