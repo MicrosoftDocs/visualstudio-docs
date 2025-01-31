@@ -1,7 +1,7 @@
 ---
 title: Attach to running processes with the debugger
 description: Attach the Visual Studio debugger to a running process on a local or remote computer to debug running apps, apps not created in Visual Studio, and other scenarios.
-ms.date: "04/24/2024"
+ms.date: "01/31/2025"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.processes.attach"
@@ -25,6 +25,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
+zone_pivot_groups: programming-languages-set-two
 ---
 
 # Attach to running processes with the Visual Studio debugger
@@ -36,6 +37,7 @@ You can use **Attach to Process** to debug running apps on local or remote compu
 > [!TIP]
 > Not sure whether to use **Attach to Process** for your debugging scenario? See [Common debugging scenarios](#BKMK_Scenarios).
 
+::: zone pivot="programming-language-dotnet,programming-language-dotnetf,programming-language-cpp,programming-language-all"
 ## <a name="BKMK_Attach_to_a_running_process"></a> Attach to a running process on your local machine
 
 To quickly reattach to a process you attached to previously, see [Reattach to a process](#BKMK_reattach).
@@ -112,6 +114,7 @@ To attach to a process on your local computer:
 
 > [!NOTE]
 > You can be attached to multiple apps for debugging, but only one app is active in the debugger at a time. You can set the active app in the Visual Studio **Debug Location** toolbar or **Processes** window.
+::: zone-end
 
 ## <a name="BKMK_Attach_to_a_process_on_a_remote_computer"></a> Attach to a process on a remote computer
 
@@ -224,6 +227,7 @@ In some cases, when you debug in a Remote Desktop (Terminal Services) session, t
 
 If neither of those workarounds is possible, a third option is to attach to the process by running `vsjitdebugger.exe -p <ProcessId>` from the Windows command line. You can determine the process ID using *tlist.exe*. To obtain *tlist.exe*, download and install Debugging Tools for Windows, available at [WDK and WinDbg downloads](/windows-hardware/drivers/download-the-wdk).
 
+::: zone pivot="programming-language-dotnet"
 ::: moniker range=">= vs-2022"
 
 ## Attach to a .NET Core process running on Azure App Service (Windows)
@@ -243,6 +247,7 @@ If you're publishing to Azure App Service (Windows), you'll find the **Attach De
 ## Attach to a .NET Core process running on Linux using SSH
 
 For more information, see [Remote debug .NET Core running on Linux using SSH](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md).
+::: zone-end
 
 ## <a name="BKMK_Linux_Docker_Attach"></a> Attach to a process running on a Docker container
 
