@@ -24,7 +24,7 @@ Retail Visual Studio subscriptions available through the Microsoft Store include
 
 Each of these subscriptions offers the option to make an initial purchase or to renew an existing subscription. Renewal pricing reflects a significant discount and is only available for existing subscriptions. To qualify to renew subscriptions at the discounted renewal price, subscriptions should be renewed before they expire. 
 
-If you’re looking to make a one-time purchase of Visual Studio without a subscription or any of the benefits that are included with a subscription, visit the Microsoft Store for [Visual Studio Professional 2019](https://www.microsoft.com/p/visual-studio-professional-2019/dg7gmgf0f6q1?cid=msft_web_collection&activetab=pivot%3aoverviewtab). 
+If you’re looking to make a one-time purchase of Visual Studio without a subscription or any of the benefits that are included with a subscription, visit the Microsoft Store for [Visual Studio Professional 2022](https://www.microsoft.com/d/visual-studio-professional-2022/dg7gmgf0d3sj?activetab=pivot:overviewtab). 
 
 ### Visual Studio Marketplace 
 With monthly subscriptions, you can rent Visual Studio and Azure DevOps without a long-term contract. Billing is handled through your Microsoft Azure subscription. If you don’t have an Azure subscription yet—it’s free to set up and you can do it while you make your first purchase.  

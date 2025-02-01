@@ -3,7 +3,7 @@ title: Edit Visual Studio subscriptions in the Admin Portal
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/16/2024
+ms.date: 01/28/2025
 ms.topic: how-to
 description:  Learn how admins can edit subscription assignments.
 ---
@@ -31,7 +31,7 @@ You can edit multiple subscribers at once using the bulk edit process. This feat
 
 Watch this video or read on to learn how to edit multiple subscribers using bulk edit. 
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=78f7b5b8-1d0d-4083-b220-df3816147e5b]
+> [!VIDEO https://medius.microsoft.com/Embed/video-nc/325f5ca9-c8c9-4a15-a93d-8190423c9ef7?r=552201291173]
 
 > [!NOTE]
 > Do not change subscription GUIDs in the template. Please see our article about [assigning specific subscription GUIDs](assign-guid.md).

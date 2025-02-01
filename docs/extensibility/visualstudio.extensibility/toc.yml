@@ -31,12 +31,22 @@ items:
     href: ./command/menus-and-toolbars.md
 - name: Editor
   items:
-  - name: About the editor
+  - name: Extending the editor
     href: ./editor/editor.md
+  - name: Walkthroughs
+    items:
+      - name: Working with text in the editor
+        href: ./editor/walkthroughs/working-with-text.md
+      - name: Changing text in the editor
+        href: ./editor/walkthroughs/editing-text.md
+      - name: Extending Visual Studio editor with a new margin
+        href: ./editor/walkthroughs/textview-margin.md  
+      - name: Extending Visual Studio editor with a new CodeLens
+        href: ./editor/walkthroughs/codelens.md  
   - name: Editor concepts
     href: ./editor/editor-concepts.md
   - name: Editor RPC
-    href: ./editor/editor-rpc.md
+    href: ./editor/editor-rpc.md  
 - name: Documents
   href: ./document/documents.md
 - name: Output window

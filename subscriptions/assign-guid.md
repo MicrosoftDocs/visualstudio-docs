@@ -3,7 +3,7 @@ title: Assign specific GUIDs to Visual Studio subscribers
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/16/2024
+ms.date: 01/28/2025
 ms.topic: conceptual
 description:  Learn how admins can  assign specific subscription GUID to subscribers.
 ---
@@ -14,7 +14,7 @@ Admins can now use the Visual Studio Subscriptions Admin Portal to assign specif
 
 Watch the video or read on to learn how to assign specific subscriptions GUIDs to users. 
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=8d05e05a-2069-4e9a-ade1-c302b818e8e8]
+> [!VIDEO https://medius.microsoft.com/Embed/video-nc/0873adfc-6e4b-4676-9eee-76e79103c44e?r=253107379154]
 
 ## Assign specific subscription GUIDs to users
 

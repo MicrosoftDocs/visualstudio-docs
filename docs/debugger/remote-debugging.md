@@ -88,7 +88,7 @@ You can change some aspects of the configuration of the remote debugger after yo
 
      Alternatively, you can start the remote debugger from the command line with the **/allow \<username>** parameter: **msvsmon /allow \<username@computer>**.
 
-- If you need to change the Authentication mode or the port number, or specify a timeout value for the remote tools: choose **Tools > Options**.
+- If you need to change the Authentication mode or the port number, or specify a time-out value for the remote tools: choose **Tools > Options**.
 
      For a listing of the port numbers used by default, see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md).
 

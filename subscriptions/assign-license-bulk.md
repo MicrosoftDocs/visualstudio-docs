@@ -3,7 +3,7 @@ title: Assign subscriptions to multiple users
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 11/04/2024
+ms.date: 01/28/2025
 ms.topic: conceptual
 description: Assign multiple subscriptions to one or more users at the same time with the bulk operation features in the Subscriptions Admin Portal.
 ---
@@ -16,7 +16,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
 ## Use Bulk add to assign subscriptions
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=c825bc20-33c8-4b8f-9999-09cfc17b6bcd]
+> [!VIDEO https://medius.microsoft.com/Embed/video-nc/3bf6504c-8d82-4466-b6fb-93d46fdf9b17?r=553875033020]
 
 ## Follow these steps to use the Bulk add feature:
 
@@ -91,7 +91,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
 
 ## Watch this video or read on to learn more about adding subscribers using the Microsoft Entra group feature. 
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=78496cc2-03f3-4fde-b8a4-5c895093d2c3]
+> [!VIDEO https://medius.microsoft.com/Embed/video-nc/6e8cd58e-548b-4019-9b36-ec6462c0666b?r=499726314265]
 
 1. Sign in to the Visual Studio Subscriptions Admin Portal at [https://manage.visualstudio.com](https://manage.visualstudio.com).
 
