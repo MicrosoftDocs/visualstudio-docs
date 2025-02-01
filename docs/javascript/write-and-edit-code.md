@@ -94,7 +94,7 @@ Close the peeked definition window by choosing the small box with an "x" at the 
 ::: moniker range=">=vs-2022"
 ## View inlay hints
 
-Inlay hints show additional information about source code that is rendered inline. This is usually used to show inferred types, parameter names, and other implicit information from your code directly in your editor.
+Starting in Visual Studio 2022 version 17.12, inlay hints show additional information about source code that is rendered inline. This is usually used to show inferred types, parameter names, and other implicit information from your code directly in your editor.
 
 ![Inlay hints](../javascript/media/vs-2022/write-code-inlay-hints.png)
 
@@ -103,6 +103,8 @@ To configure inlay hints:
 1. Go to **Tools > Options > Text Editor > All Languages > Inlay Hints**, and select an option for viewing inlay hints.
 
 1. Go to **Tools > Options > Text Editor > JavaScript/TypeScript > Advanced > General** and configure the inlay hints you want to hide or show.
+
+   By default, most of these options are disabled.
 
 ::: moniker-end
 
