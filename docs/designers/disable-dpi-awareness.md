@@ -1,7 +1,7 @@
 ---
 title: Fix DPI display issues in Windows Form Designer
 description: Fix DPI display problems in Windows Forms Designer in Visual Studio to correct scaling and rendering on HDPI (high dots per inch) monitors.
-ms.date: 02/08/2024
+ms.date: 02/03/2025
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
