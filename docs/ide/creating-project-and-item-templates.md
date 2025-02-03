@@ -1,7 +1,7 @@
 ---
 title: Templates for projects and files
 description: Explore how project and item templates in Visual Studio provide reusable stubs that give users some basic code and structure.
-ms.date: 1/07/2025
+ms.date: 2/3/2025
 ms.topic: conceptual
 helpviewer_keywords:
 - templates [Visual Studio], project
