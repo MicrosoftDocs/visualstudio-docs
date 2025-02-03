@@ -2,7 +2,7 @@
 
 ## Overview
 
-The new VisualStudio.Extensibilty model allows extensions to be run outside the main VS process in a seperate .NET host process. Because .NET is used as the runtime to execute VisualStudio.Extensibility extensions, extensions built using the VisualStudio.Extensibility framework must stay up-to-date with the publicly supported .NET long-term servicing (LTS) runtimes.
+The new VisualStudio.Extensibilty model allows extensions to be run outside the main Visual Studio process in a seperate .NET host process. Because .NET is used as the runtime to execute VisualStudio.Extensibility extensions, extensions built using the VisualStudio.Extensibility framework must stay up-to-date with the publicly supported .NET long-term servicing (LTS) runtimes.
 
 ## .NET Runtime Support Model
 
@@ -10,18 +10,11 @@ The .NET runtime has its own lifetime and servicing timelines, independent of Vi
 
 For Visual Studio, the versions shipped will be according to the below timeline.
 
-| Date | Runtimes |
-|--|--|
-| November, 2025 | .NET 8, .NET 10 |
-| November, 2026 | .NET 10, .NET 12 (preview) |
-| November, 2027 | .NET 10, .NET 12 |
-| November, 2028 | .NET 12, .NET 14 (preview) |
-| November, 2029 | .NET 12, .NET 14 |
-| ... | ... |
+![image info](./.media/RuntimeManagement/visual-studio-dotnet-timeline.png)
 
 By default, Visual Studio will build VisualStudio.Extensibility extensions to target whatever the oldest supported .NET LTS runtime is. However, extension developers can specify in their extension metadata which versions of .NET their extension is known to support. Given this information, Visual Studio will choose an appropriate target based on the runtimes the extension has declared support for and their known end-of-life dates.
 
-It's important to note that developers using VisualStudio.Extensibility should ensure that they develop targeting a current .NET SDK. If an extension is developed for .NET version that is no longer publicly supported - and therefore no longer shipped with Visual Studio - then it will be built and run using the oldest publicly supported SDK and runtime that is available with Visual Studio. Although the likelihood of being affected by a breaking change between major .NET versions is low, it is not guaranteed that an application running on a previous .NET version will work on a newer one, and so the extension is not guaranteed to work.
+It's important to note that developers using VisualStudio.Extensibility should target a current .NET SDK. If an extension is developed for .NET version that is no longer publicly supported - and therefore no longer shipped with Visual Studio - then it will be run on the oldest publicly supported runtime that is available with Visual Studio. Although the likelihood of being affected by a breaking change between major .NET versions is low, it is not guaranteed that an application running on a previous .NET version will work on a newer one, and so the extension is not guaranteed to work.
 
 ## Experiences
 
@@ -32,7 +25,7 @@ Visual Studio will choose which .NET runtime to use for an extension based on it
 * If an extension is only supported up to a .NET version that is near end-of-life, an info icon will be displayed on the extension tile in the Extension Manager window to inform the user that the extension is in danger of being unsupported.
 * If an extension is only supported up to a .NET version that is past end-of-life, a warning icon will be displayed on the extension tile in the Extension Manager window to inform the user that the extension is being run as best-effort on a version of .NET that has not declared support for, and may not work correctly.
 
-![image info](./.media/GladstoneDotnetManagement/installed-extensions-extensionManager.png)
+![image info](./.media/RuntimeManagement/installed-extensions-extensionManager.png)
 
 In both scenarios, the user should contact the extension developer and ask them to ensure the extension works on a supported .NET LTS version and publish the updated extension.
 
@@ -40,12 +33,12 @@ In both scenarios, the user should contact the extension developer and ask them 
 
 For developers of VisualStudio.Extensibility extensions, the F5 debugging experience has been updated to allow the selection of the .NET runtime to use when debugging or testing an extension. The objective of this experience is to facilitate compatability testing of VisualStudio.Extensibility extensions on different .NET runtimes.
 
-Now, when the selected startup project is a VisualStudio.Extensibility project, a combo box with a list of the .NET runtimes that are shipped with VS will appear beside the debug launch button. Choosing a runtime and launching the debug will ensure that the debugged extension will be executed using the selected runtime. In the experimental instance, the extension tile in the Extension Manager tool window will display a lab icon and specify the .NET version that it's being evaluated for. In the images below this icon appears alongside the `Command Sample` extension.
+Now, when the selected startup project is a VisualStudio.Extensibility project, an additional menu item with a list of the .NET runtimes that are shipped with Visual Studio will appear under the debug menu dropdown. Debugging the extension under the chosen runtime will ensure that the debugged extension will be executed using the selected runtime. In the experimental instance, the extension tile in the Extension Manager tool window will display a lab icon and specify the .NET version that it's being evaluated for. In the images below this icon appears alongside the `Command Sample` extension.
 
-Please note that the below example is a contrived scenario where Visual Studio includes .NET 8 and .NET 9 (not an LTS version). In actual releases only LTS versions of .NET will be included with Visual Studio.
+Please note that the below example is a contrived scenario where Visual Studio includes .NET 6 and .NET 8. In actual releases only supported LTS versions of .NET will be included with Visual Studio.
 
-![image info](./.media/GladstoneDotnetManagement/set-f5-net-target-toolbarOnly.png)
-![image info](./.media/GladstoneDotnetManagement/f5-extensionManager-toolwindow.png)
+![image info](./.media/RuntimeManagement/f5-runtime-target.png)
+![image info](./.media/RuntimeManagement/f5-extensionManager-toolwindow.png)
 
 ### Developer Experience - Extension Configuration
 
@@ -57,11 +50,9 @@ For example, if an extension builds targeting `netstandard2.0`, then it will be 
 
 The below picutres show an example of an extension which is built targeting .NET 8, but specified .NET 6 in the `DotnetTargetVersions`.
 
-![image info](./.media/GladstoneDotnetManagement/extension-configuration.png)
-![image info](./.media/GladstoneDotnetManagement/invalid-extension-configuration-warning.png)
+![image info](./.media/RuntimeManagement/extension-configuration.png)
+![image info](./.media/RuntimeManagement/invalid-extension-configuration-warning.png)
 
 ## Testing & Early-Access
 
-If you would like to try managing your extension with multiple .NET runtimes, please use [this setup script](./.resources/GladstoneDotnetManagement/NET-LTS-Setup.ps1) to update any of your Visual Studio instances with .NET 9. When you no longer want to test out the new experience, you can rollback the changes with [this cleanup script](./.resources/GladstoneDotnetManagement/NET-LTS-Cleanup.ps1). Because both scripts make changes to the Visual Studio instance files, they'll need to be run with system admin privileges.
-
-Please note that .NET 9 is *not* an LTS version of .NET and that this is *not* a supported scenario, but will provide a sample of the future experience of developing VisualStudio.Extensibility extensions with multiple .NET runtimes available.
+If you would like to try managing your extension with multiple .NET runtimes, please see the scripts included in the [VSExtensibility repo](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model). The included scripts enable you to update any of your Visual Studio instances with .NET 9. Please note that .NET 9 is *not* an LTS version of .NET and that this is *not* a supported scenario, but will provide a sample of the future experience of developing VisualStudio.Extensibility extensions with multiple .NET runtimes available.
