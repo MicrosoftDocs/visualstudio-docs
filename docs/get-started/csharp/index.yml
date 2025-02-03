@@ -8,7 +8,7 @@ metadata:
   description: Explore how to create different C# applications by using Visual Studio, including console, web, Windows Forms, and Windows Desktop apps, and find coding resources.
   ms.custom: vs-acquisition
   ms.topic: landing-page
-  ms.date: 2/13/2024
+  ms.date: 2/3/2025
   author: ghogen
   ms.author: ghogen  
   manager: mijacobs
@@ -51,6 +51,8 @@ landingContent:
             url: tutorial-wpf.md
           - text: Create a Windows Forms app
             url: ../../ide/create-csharp-winform-visual-studio.md
+          - text: Create a mobile app
+            url: /dotnet/maui/get-started/first-app?tabs=vswin
           - text: Learn about the C# language
             url: /dotnet/csharp/tutorials/intro-to-csharp/
           - text: Windows Forms Match Game
