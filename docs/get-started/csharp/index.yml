@@ -51,7 +51,7 @@ landingContent:
             url: tutorial-wpf.md
           - text: Create a Windows Forms app
             url: ../../ide/create-csharp-winform-visual-studio.md
-          - text: Create a mobile app
+          - text: Create a mobile app with .NET MAUI
             url: /dotnet/maui/get-started/first-app?tabs=vswin
           - text: Learn about the C# language
             url: /dotnet/csharp/tutorials/intro-to-csharp/
