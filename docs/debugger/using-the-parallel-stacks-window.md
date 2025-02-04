@@ -62,6 +62,7 @@ The **Parallel Stacks** window has the following toolbar controls:
 |![Search icon](media/vs-2022/parallel-stacks-toolbar-search.png   "Search icon")|Search Control|With this feature you can easily search through stack frames and then use arrows to navigate between those results.|
 |![Save icon](media/vs-2022/parallel-stacks-toolbar-save.png   "Save icon")|Save Control| Enables you to save/export the content from the parallel stack window as an image.|
 |![External Code icon](media/vs-2022/parallel-stacks-toolbar-external-code.png   "External Code icon")|Show External Code Control| Using this feature, you can show/hide the stacks from the external code/libraries.|
+|![Copilot Summarize icon](media/vs-2022/parallel-stacks-copilot-summarize.png   "Summarize icon")|Summarize call stacks| Starting in Visual Studio 2022 version 17.13 Preview 4, you can choose **Summarize** when [Copilot](../ide/visual-studio-github-copilot-install-and-states.md) is installed and activated. This button opens the Copilot Chat window, preloaded with relevant thread context, allowing you to explore details, including thread states, function calls, and suggested fixes.|
 ::: moniker-end
 
 ### Stack Frame icons
