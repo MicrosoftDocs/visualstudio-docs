@@ -101,11 +101,13 @@ Here is more information on the column values:
 
 ### Async calls in the Instrumentation call tree (.NET)
 
-Starting in Visual Studio 2022 version 17.13 Preview 2, the call tree view nests .NET asynchronous calls under the functions where the asynchronous call was made, making it easier to trace the execution flow within a single, unified stack trace. This can help you quickly identify performance bottlenecks.
+Starting in Visual Studio 2022 version 17.13 Preview 2, views representing a visual call tree nest .NET asynchronous calls under the functions where the asynchronous call was made, making it easier to trace the execution flow within a single, unified stack trace. This can help you quickly identify performance bottlenecks.
+
+The unified stack trace shows in the **Call Tree** view and the **Hot Path** section of the Summary page. Async nodes appear with the **[Async Call]** descriptor.
 
 ![Screenshot that shows Call tree structure for async calls.](../profiling/media/vs-2022/instrumentation-call-tree-async.png)
 
-You can toggle the display of a stitched together asynchronous call stack by selecting **Stitch Async Stacks** from the **Filter** option in the profiler's Summary view.
+You can toggle the display of a stitched together asynchronous call stack by selecting **Stitch Async Stacks** from the **Filter** option in the profiler's Summary view. The setting is enabled by default.
 
 ![Screenshot that shows the Stick Async Stacks option.](../profiling/media/vs-2022/instrumentation-stitch-async-calls.png)
 
