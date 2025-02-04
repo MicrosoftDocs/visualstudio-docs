@@ -10,7 +10,7 @@ The .NET runtime has its own lifetime and servicing timelines, independent of Vi
 
 For Visual Studio, the versions shipped will be according to the below timeline.
 
-![image info](../media/visual-studio-dotnet-timeline.png)
+![image info](../media/vs-dotnet-timeline.png)
 
 By default, Visual Studio will build VisualStudio.Extensibility extensions to target whatever the oldest supported .NET LTS runtime is. However, extension developers can specify in their extension metadata which versions of .NET their extension is known to support. Given this information, Visual Studio will choose an appropriate target based on the runtimes the extension has declared support for and their known end-of-life dates.
 
