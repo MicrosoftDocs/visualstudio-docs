@@ -12,6 +12,8 @@ items:
     href: ./get-started/in-proc-extensions.md
   - name: Compare extensibility models
     href: extensibility-models.md
+  - name: Managing extension .NET targets
+    href: dotnet-management-overview.md
 - name: Get started
   expanded: true
   items:
