@@ -61,7 +61,7 @@ The available data is similar to the CPU Usage tool, except that it's based on w
 
 If any insights show up in the **Top Insights** section, use the provided link to get more information about the issue identified. For more information, see [CPU insights](../profiling/cpu-insights.md), but be aware that information for the Instrumentation tool is specific to wall clock time and not CPU utilization. 
 
-In addition, if you are using Copilot, use the **Ask Copilot** button to open the Copilot chat window, and Copilot will provide suggestions based on an examination of your code and any identified issues.
+In addition, if you're using Copilot, use the **Ask Copilot** button to open the Copilot chat window, and Copilot will provide suggestions based on an examination of your code and any identified issues.
 
 ## Analyze instrumentation detailed reports
 
@@ -75,7 +75,7 @@ The report provides different views of the diagnostic data:
 - Functions
 - Flame graph
 
-In all views except Caller/callee, the diagnostic report is sorted by **Total [unit, %]**, from highest to lowest. Change the sort order or sort column by selecting the column headers. You can double-click on a function that you are interested in, and you will see the source for the function as well as highlighting that shows where time is spent in that function. The table shows columns with data such as the time spent in the function, including called functions (Total), and a second column that shows the time spent in a function, excluding called functions (Self).
+In all views except Caller/callee, the diagnostic report is sorted by **Total [unit, %]**, from highest to lowest. Change the sort order or sort column by selecting the column headers. You can double-click on a function that you're interested in, and you'll see the source for the function as well as highlighting that shows where time is spent in that function. The table shows columns with data such as the time spent in the function, including called functions (Total), and a second column that shows the time spent in a function, excluding called functions (Self).
 
 This data can help you assess whether the function itself is a performance bottleneck. Determine how much data the method is displaying to see if third-party code or runtime libraries are the reason for your endpoints being slow or resource-consumption heavy.
 
@@ -89,7 +89,7 @@ You can click the **Expand Hot Path** and **Show Hot Path** buttons to see the f
 
 ![Screenshot that shows Call tree structure.](../profiling/media/vs-2022/instrumentation-with-call-tree.png)
 
-Here is more information on the column values:
+Here's more information on the column values:
 
 - **Total** indicates how much time was spent in the function and any functions called by it. High **Total** values point to the functions that are consuming the most clock time.
 
