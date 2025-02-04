@@ -23,7 +23,7 @@ Visual Studio 2019 version 16.4 and earlier uses the [ptvsd library](https://pyp
 
 - Visual Studio installed with support for Python workloads. For more information, see [Install Python support in Visual Studio](../../installing-python-support-in-visual-studio.md).
 
-- A remote computer running Python on an operating system like Mac OSX or Linux.
+- A remote computer running Python on an operating system like macOS or Linux.
 
 - Port 5678 (inbound) open on the remote computer's firewall, which is the default for remote debugging.
 
