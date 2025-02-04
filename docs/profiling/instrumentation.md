@@ -99,6 +99,16 @@ Here is more information on the column values:
 
 - **Module** The name of the module containing the function.
 
+### Async calls in the Instrumentation call tree (.NET)
+
+Starting in Visual Studio 2022 version 17.13 Preview 2, the call tree view nests .NET asynchronous calls under the functions where the asynchronous call was made, making it easier to trace the execution flow within a single, unified stack trace. This can help you quickly identify performance bottlenecks.
+
+![Screenshot that shows Call tree structure for async calls.](../profiling/media/vs-2022/instrumentation-call-tree-async.png)
+
+You can toggle the display of a stitched together asynchronous call stack by selecting **Stitch Async Stacks** from the **Filter** option in the profiler's Summary view.
+
+![Screenshot that shows the Stick Async Stacks option.](../profiling/media/vs-2022/instrumentation-stitch-async-calls.png)
+
 ## Related content
 
 - [Instrumentation](../profiling/instrumentation.md)
