@@ -1,7 +1,7 @@
 ---
 title: Identify and customize keyboard shortcuts
 description: Learn how to identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use.
-ms.date: 1/29/2025
+ms.date: 02/05/2025
 ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.Keyboard
