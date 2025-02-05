@@ -39,7 +39,9 @@ The tool is similar to the CPU Usage tool except it's based on wall clock time i
 
    ![Screenshot showing Select items to instrument dialog.](./media/vs-2022/instrumentation-select-items-to-instrument.png "Screenshot showing Select items to instrument dialog.")
 
-   Starting in Visual Studio 2022 version 17.11 Preview 1, the profiler persists the selected items for the next profiling run.
+   Starting in Visual Studio 2022 version 17.11, the profiler persists the selected items for the next profiling run.
+
+   Starting in Visual Studio 2022 version 17.13 Preview 1, you can select items to instrument for C++.
 
 1. Select **OK**.
 
