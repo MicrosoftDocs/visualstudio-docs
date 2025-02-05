@@ -99,5 +99,3 @@ Visual Studio only creates one instance of your CodeLens provider regardless of 
 For more information, see [CodeLens Sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CodeLensSample/).
 
 If a Code Lens provider has to reference code elements that are not already being tagged by an existing Visual Studio feature, you can create a new [tagger](./taggers.md) implementing `ITextViewTaggerProvider<CodeLensTag>`.
-
-*Contributing CodeLenses to new documents types (or existing document types not supporting CodeLens) is not yet supported.*
