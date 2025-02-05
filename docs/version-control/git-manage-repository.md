@@ -2,7 +2,7 @@
 title: Manage Git repos in Visual Studio
 titleSuffix: ""
 description: Manage any Git repository in Visual Studio by using the Git Repository window and change your last commit, merge commits (squash), cherry-pick commits, and more.
-ms.date: 04/04/2024
+ms.date: 12/17/2024
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -141,6 +141,8 @@ In the previous example, the commands will undo the changes made in commit 53333
 Select the new commit to confirm that it undoes the changes of the reverted commit.
 
 :::image type="content" source="media/vs-2022/git-repository-revert-confirmation.png" alt-text="Screenshot of confirming a revert operation." lightbox="media/vs-2022/git-repository-revert-confirmation.png":::
+
+The **Revert** menu item might be grayed out (disabled) in certain circumstances, such as for merge commits or when a Git operation is running.
 
 To learn more about reverting changes, see the [Git webpage for the revert command](https://git-scm.com/docs/git-revert).
 

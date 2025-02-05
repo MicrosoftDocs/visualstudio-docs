@@ -73,20 +73,20 @@ For this example, you use an empty ASP.NET Core Application (C#). However, you c
     app.UseStaticFiles(); // Marks files on the web root as servable.
     ```
 
-### Install the vue CLI
+### Install the Vue CLI
 
 To install the vue-cli npm module, open a command prompt and type `npm install --g vue-cli` or `npm install -g @vue/cli` for version 3.0 (currently in beta).
 
-### Scaffold a new client application using the vue CLI
+### Scaffold a new client application using the Vue CLI
 
 1. Go to your command prompt and change the current directory to your project root folder.
 
 1. Type `vue init webpack client-app` and follow steps when prompted to answer additional questions.
 
     > [!NOTE]
-    > For *.vue* files, you need to use Webpack or a similar framework with a loader to do the conversion. TypeScript and Visual Studio does not know how to compile *.vue* files. The same is true for bundling; TypeScript doesn't know how to convert ES2015 modules (that is, `import` and `export` statements) into a single final *.js* file to load in the browser. Again, Webpack is the best choice here. To drive this process from within Visual Studio using MSBuild, you need to do start from a Visual Studio template. At present, there is no ASP.NET template for Vue.js development in-the-box.
+    > For *.vue* files, you need to use webpack or a similar framework with a loader to do the conversion. TypeScript and Visual Studio does not know how to compile *.vue* files. The same is true for bundling; TypeScript doesn't know how to convert ES2015 modules (that is, `import` and `export` statements) into a single final *.js* file to load in the browser. Again, webpack is the best choice here. To drive this process from within Visual Studio using MSBuild, you need to do start from a Visual Studio template. At present, there is no ASP.NET template for Vue.js development in-the-box.
 
-#### Modify the Webpack configuration to output the built files to wwwroot
+#### Modify the webpack configuration to output the built files to wwwroot
 
 * Open the file *./client-app/config/index.js*, and change the `build.index` and `build.assetsRoot` to wwwroot path:
 
@@ -104,7 +104,7 @@ To install the vue-cli npm module, open a command prompt and type `npm install -
 
 1. On **Pre-build event command line**, type `npm --prefix ./client-app run build`.
 
-#### Configure Webpack's output module names
+#### Configure webpack's output module names
 
 * Open the file *./client-app/build/webpack.base.conf.js*, and add the following properties to the output property:
 
@@ -121,7 +121,7 @@ These steps require vue-cli 3.0, which is currently in beta.
 
 1. Type `vue create client-app`, and then choose **Manually select features**.
 
-1. Choose **Typescript**, and then select other desired options.
+1. Choose **TypeScript**, and then select other desired options.
 
 1. Follow the remaining steps and respond to the questions.
 
@@ -146,7 +146,7 @@ These steps require vue-cli 3.0, which is currently in beta.
     };
     ```
 
-    The preceding code configures Webpack and sets the wwwroot folder.
+    The preceding code configures webpack and sets the wwwroot folder.
 
 #### Build with vue-cli 3.0
 

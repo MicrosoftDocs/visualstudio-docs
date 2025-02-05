@@ -74,7 +74,7 @@ Learn more about [AI-assisted development](../ide/ai-assisted-development-visual
 
 Get started with GitHub Copilot in Visual Studio:
 
-- [Install and manage Github Copilot](../ide/visual-studio-github-copilot-install-and-states.md)
+- [Install and manage GitHub Copilot](../ide/visual-studio-github-copilot-install-and-states.md)
 - [Use GitHub Copilot Completions in Visual Studio](../ide/visual-studio-github-copilot-extension.md)
 - [Use GitHub Copilot Chat in Visual Studio](../ide/visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio)
 - [Debug with Copilot](../debugger/debug-with-copilot.md)

@@ -170,6 +170,8 @@
       items:
       - name: Create custom views of C++ objects
         href: create-custom-views-of-native-objects.md
+      - name: Implement NatVis custom intrinsic function
+        href: implementing-natvis-intrinsic-function.md
       - name: C++ custom visualizer compatibility
         href: visual-cpp-custom-visualizer-compatibility.md
     - name: Custom views (.NET)
@@ -294,6 +296,8 @@
         href: error-unable-to-connect-to-the-machine-name-the-machine-cannot-be-found-on-the-network.md
       - name: Remote machine does not appear in a Remote Connections dialog
         href: error-remote-machine-does-not-appear-in-a-remote-connections-dialog.md
+      - name: Adapt to removal of Windows Arm32 .NET debugging
+        href: adapt-to-removal-of-windows-arm32-dotnet-debugging.md
   - name: Attach to process
     items:
     - name: Attach to running processes with the debugger

@@ -46,7 +46,7 @@ Before you begin, here's a quick FAQ to introduce you to some key concepts:
   
   JSX is a JavaScript syntax extension typically used with React to describe UI elements. You must transpile JSX code to plain JavaScript before it can run in a browser.
 
-- **What is Webpack?**
+- **What is webpack?**
 
   Webpack bundles JavaScript files so they can run in a browser, and can also transform or package other resources and assets. Webpack can specify a compiler, such as Babel or TypeScript, to transpile JSX or TypeScript code to plain JavaScript.
 
@@ -255,9 +255,9 @@ For this simple app, you add the new project files in the project root. For most
 
     This HTML page loads *app-bundle.js*, which contains the JSX and React code transpiled to plain JavaScript. Currently, *app-bundle.js* is an empty file. In the next section, you configure options to transpile the code.
 
-## Configure Webpack and TypeScript compiler options
+## Configure webpack and TypeScript compiler options
 
-Next, you add Webpack configuration code to *webpack-config.js*. You add a simple Webpack configuration that specifies an input file, *app.tsx*, and an output file, *app-bundle.js*, for bundling and transpiling JSX to plain JavaScript. For transpiling, you also configure some TypeScript compiler options. This basic configuration code is an introduction to Webpack and the TypeScript compiler.
+Next, you add webpack configuration code to *webpack-config.js*. You add a simple webpack configuration that specifies an input file, *app.tsx*, and an output file, *app-bundle.js*, for bundling and transpiling JSX to plain JavaScript. For transpiling, you also configure some TypeScript compiler options. This basic configuration code is an introduction to webpack and the TypeScript compiler.
 
 1. In **Solution Explorer**, open **webpack-config.js** and add the following code.
 
@@ -286,7 +286,7 @@ Next, you add Webpack configuration code to *webpack-config.js*. You add a simpl
     }
     ```
 
-    The Webpack configuration code instructs Webpack to use the TypeScript loader to transpile the JSX.
+    The webpack configuration code instructs webpack to use the TypeScript loader to transpile the JSX.
 
 1. Open **tsconfig.json** and replace the contents with the following code, which specifies the TypeScript compiler options:
 
@@ -318,13 +318,13 @@ Next, you add Webpack configuration code to *webpack-config.js*. You add a simpl
 
 1. In **Solution Explorer**, right-click the project name and select **Open Command Prompt Here**.
 
-1. In the command prompt, enter the following Webpack command:
+1. In the command prompt, enter the following webpack command:
 
     `node_modules\.bin\webpack --config webpack-config.js`
 
     The command prompt window shows the result.
 
-    ![Screenshot that shows results of running the Webpack command.](media/tutorial-nodejs-react-run-webpack-cmd.png)
+    ![Screenshot that shows results of running the webpack command.](media/tutorial-nodejs-react-run-webpack-cmd.png)
 
     If you see any errors instead of the preceding output, you must resolve them before your app will work. If your npm package versions are different than the versions this tutorial specifies, that can cause errors. To fix the errors, try the following:
 
@@ -348,7 +348,7 @@ Next, you add Webpack configuration code to *webpack-config.js*. You add a simpl
 
     ![Screenshot showing a prompt whether to load modified files.](media/tutorial-nodejs-react-reload-files.png)
 
-Anytime you make changes to *app.tsx*, you must rerun the Webpack command. To automate this step, you can add a build script to transpile the JSX.
+Anytime you make changes to *app.tsx*, you must rerun the webpack command. To automate this step, you can add a build script to transpile the JSX.
 
 ### Add a build script to transpile the JSX
 
@@ -465,7 +465,7 @@ The browser starts with debugging enabled. The app isn't running yet, so the bro
       },
       ```
 
-      This development-only setting enables debugging in Visual Studio. By default, Webpack references in the source map file include the *webpack:///* prefix, which prevents Visual Studio from finding the source file *app.tsx*. This setting overrides the generated references in the source map file, *app-bundle.js.map*, when building the app. Specifically, this setting changes the reference to the source file from *webpack:///./app.tsx* to *./app.tsx*, which enables debugging.
+      This development-only setting enables debugging in Visual Studio. By default, webpack references in the source map file include the *webpack:///* prefix, which prevents Visual Studio from finding the source file *app.tsx*. This setting overrides the generated references in the source map file, *app-bundle.js.map*, when building the app. Specifically, this setting changes the reference to the source file from *webpack:///./app.tsx* to *./app.tsx*, which enables debugging.
 
 1. Select your target browser as the debug target in Visual Studio, and then press **Ctrl**+**F5**, or select **Debug** > **Start Without Debugging**, to run the app in the browser.
 

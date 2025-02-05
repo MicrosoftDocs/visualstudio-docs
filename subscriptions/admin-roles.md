@@ -3,7 +3,7 @@ title: Use super admin and admin roles for subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/13/2024
+ms.date: 01/28/2025
 ms.topic: conceptual
 description: Review the responsibilities and roles for super admins and admins of Visual Studio subscriptions and how to assign admins. 
 ---
@@ -17,7 +17,7 @@ There are two different roles in the new Visual Studio Subscriptions Admin Porta
 **Admins:** Only super admins can assign new admins and add them to agreements. An admin can only manage subscribers in the agreements that the super admin assigns to them.
 
 Watch a demonstration about how to manage admins. 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4th6L]
+> [!VIDEO https://medius.microsoft.com/Embed/video-nc/b2a63234-a82a-402b-a729-8e1259bc12fd?r=484038674989]
 
 ## Assigning admins
 
