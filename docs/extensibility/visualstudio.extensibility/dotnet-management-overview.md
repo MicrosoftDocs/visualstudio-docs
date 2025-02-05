@@ -18,7 +18,7 @@ The .NET runtime has its own lifetime and servicing timelines, independent of Vi
 
 The following timeline illustrates an approximation of the different .NET versions shipped with Visual Studio.
 
-![dotnet runtime timeline](../media/vs-dotnet-timeline.png "Screenshot of .NET runtime timeline.")
+![Screenshot of .NET runtime timeline.](../media/vs-dotnet-timeline.png "Screenshot of .NET runtime timeline.")
 
 By default, VisualStudio.Extensibility extensions target whatever the oldest supported .NET LTS runtime is. However, extension developers can specify in their extension metadata which versions of .NET their extension is known to support. Given this information, Visual Studio chooses an appropriate target based on the extension's declared .NET runtime version and its known end-of-life dates.
 
@@ -33,7 +33,7 @@ Visual Studio will choose which .NET runtime to use for an extension based on it
 * If an extension is only supported up to a .NET version that is near end-of-life, an info icon will be displayed on the extension tile in the Extension Manager window to inform the user that the extension is in danger of being unsupported.
 * If an extension is only supported up to a .NET version that is past end-of-life, a warning icon will be displayed on the extension tile in the Extension Manager window to inform the user that the extension is being run as best-effort on a version of .NET that hasn't declared support for, and may not work correctly.
 
-![dotnet runtime extension manager](../media/installed-extensions-extension-manager.png "Screenshot of extensions with different .NET runtime configurations.")
+![Screenshot of extensions with different .NET runtime configurations.](../media/installed-extensions-extension-manager.png "Screenshot of extensions with different .NET runtime configurations.")
 
 In both scenarios, the user should contact the extension developer and ask them to ensure the extension works on a supported .NET LTS version and publish the updated extension.
 
@@ -45,8 +45,8 @@ Now, when the selected startup project is a VisualStudio.Extensibility project, 
 
 Note that the example is a contrived scenario where Visual Studio includes .NET 6 and .NET 8. In actual releases only supported LTS versions of .NET will be included with Visual Studio.
 
-![dotnet runtime F5 debug selector](../media/f5-runtime-target.png "Screenshot of setting F5 Debug runtime target.")
-![dotnet runtime F5 debug extension manager](../media/f5-extension-manager-tool-window.png "Screenshot of extension manager during F5 debug.")
+![Screenshot of setting F5 Debug runtime target.](../media/f5-runtime-target.png "Screenshot of setting F5 Debug runtime target.")
+![Screenshot of extension manager during F5 debug.](../media/f5-extension-manager-tool-window.png "Screenshot of extension manager during F5 debug.")
 
 ### Developer Experience - Extension Configuration
 
@@ -58,8 +58,8 @@ For example, if an extension builds targeting `netstandard2.0`, then it's compat
 
 The below pictures show an example of an extension which is built targeting .NET 8, but specified .NET 6 in the `DotnetTargetVersions`.
 
-![dotnet runtime extension code configuration](../media/extension-configuration.png "Screenshot of extension code configured to run on .NET 6.")
-![dotnet runtime build warning](../media/invalid-extension-configuration-warning.png "Screenshot of build warning for extension where the target .NET runtime is out of support.")
+![Screenshot of extension code configured to run on .NET 6.](../media/extension-configuration.png "Screenshot of extension code configured to run on .NET 6.")
+![Screenshot of build warning for extension where the target .NET runtime is out of support.](../media/invalid-extension-configuration-warning.png "Screenshot of build warning for extension where the target .NET runtime is out of support.")
 
 ## Testing & Early Access
 
