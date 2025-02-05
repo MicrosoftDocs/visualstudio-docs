@@ -103,11 +103,13 @@ To analyze the CPU Usage report, click **Open details**, or click one of the top
 
 The report provides different views of the diagnostic data:
 
-- Caller/callee
-- Call tree
-- Modules
-- Functions
-- Flame graph
+|View|Description|
+|-|-|
+|Caller/callee|Detailed view of CPU usage for a specific function, the function that called it, and the function(s) that it calls. The performance data is aggregated for the entire data collection period.|
+|Call tree|Hierarchical view of the function call path. Used to identify call paths that are taking the most time.|
+|Modules|Agregated view of the time spent in individual modules. Used to identify modules that might be performance bottlenecks.|
+|Functions|Aggregated view of the time spent in individual functions. Used to identify functions that might be performance bottlenecks.|
+|Flame graph|Hierarchical view of the function call path in a flame graph visualization. Used to identify call paths that are taking the most time.|
 
 ::: moniker-end
 
