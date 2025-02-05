@@ -1,7 +1,7 @@
 ---
 title: Convert text to uppercase or lowercase
 description: Learn how to use menu commands or keyboard shortcuts to convert the case of selected text to all upper case or to all lower case.
-ms.date: 11/04/2016
+ms.date: 12/18/2024
 ms.topic: how-to
 helpviewer_keywords:
 - editors, text case
@@ -32,3 +32,4 @@ You can use menu commands or keyboard shortcuts to convert the case of selected 
 ## Related content
 
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md)

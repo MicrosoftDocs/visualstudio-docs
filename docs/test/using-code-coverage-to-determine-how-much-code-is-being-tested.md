@@ -1,7 +1,7 @@
 ---
 title: Determine code testing coverage
 description: Learn how to use the code coverage feature of Visual Studio to determine what proportion of your project code is being tested by coded tests.
-ms.date: 12/05/2023
+ms.date: 12/13/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - code coverage
@@ -78,7 +78,7 @@ Don't forget to run code coverage again after updating your code. Coverage resul
 
 ::: moniker range=">=vs-2022"
 > [!TIP]
-> Starting in Visual Studio 2022 Update 2, you can enable faster code coverage test results by selecting **Tools > Options > Environment > Preview Features**, then selecting **Code coverage experience improvements**, and then restarting Visual Studio.
+> Starting in Visual Studio 2022 version 17.2, you can enable latest code coverage features by selecting **Tools > Options > Environment > Preview Features**, then selecting **Code coverage experience improvements**, and then restarting Visual Studio.
 ::: moniker-end
 
 ## Report in blocks or lines
@@ -90,7 +90,11 @@ You can also have the results displayed for lines by choosing **Add/Remove Colum
 > A line of code can contain more than one code block. If this is the case, and the test run exercises all the code blocks in the line, it is counted as one line. If some but not all code blocks in the line are exercised, it is counted as a partial line.
 
 ::: moniker range=">=vs-2022"
-## Filter code coverage results
+## Code coverage results views
+
+The **Code Coverage Results** window usually structures the report in the project/class/method hierarchy. You can change this to show the coverage on directory/file/method level.
+
+- **To view the source Report**, select the **Configure Code Coverage Views** icon in the **Code Coverage Results** window. Then select **Source View** from the **Report Style** drop-down.
 
 The **Code Coverage Results** window usually shows the result for the entire solution. The results can be filtered to show the results for only the files that have been updated in the current branch. 
 
@@ -115,13 +119,13 @@ You can merge the results of several runs, for example from runs that use differ
 
 - **To view a previous set of results**, select it from the drop-down menu. The menu shows a temporary list that is cleared when you open a new solution.
 
-- **To view results from a previous session**, choose **Import Code Coverage Results**, navigate to the **TestResults** folder in your solution, and import a *.coverage* file.
+- **To view results from a previous session**, choose **Import Results**, navigate to the **TestResults** folder in your solution, and import a *.coverage* file.
 
    The coverage coloring might be incorrect if the source code has changed since the *.coverage* file was generated.
 
-- **To make results readable as text**, choose **Export Code Coverage Results**. This generates a readable *.coveragexml* file, which you could process with other tools or send easily in mail. You can also select export formats such as Cobertura.
+- **To make results readable as text**, choose **Export Results**, select *.xml* as **Save as type**. This generates a readable *.xml* file, which you could process with other tools or send easily in mail. You can also select export formats such as Cobertura.
 
-- **To send results to someone else**, send either a *.coverage* file or an exported *.coveragexml* file. They can then import the file. If they have the same version of the source code, they can see coverage coloring.
+- **To send results to someone else**, send either a *.coverage* file or an exported *.xml* file. They can then import the file. If they have the same version of the source code, they can see coverage coloring.
 
 ## Merge results from different runs
 
@@ -129,9 +133,9 @@ In some situations, different blocks in your code will be used depending on the 
 
 For example, suppose that when you run a test with input "2", you find that 50% of a particular function is covered. When you run the test a second time with the input "-2", you see in the coverage coloring view that the other 50% of the function is covered. Now you merge the results from the two test runs, and the report and coverage coloring view shows that 100% of the function was covered.
 
-Use ![Icon for Merge button in Code Coverage window.](../test/media/codecoverage-mergeicon.png) **Merge Code Coverage Results** to do this. You can choose any combination of recent runs or imported results. If you want to combine exported results, you must import them first.
+Use ![Icon for Merge button in Code Coverage window.](../test/media/codecoverage-mergeicon.png) **Merge Results** to do this. You can choose any combination of recent runs or imported results. If you want to combine exported results, you must import them first.
 
-Use **Export Code Coverage Results** to save the results of a merge operation.
+Use **Export Results** to save the results of a merge operation.
 
 ### Limitations in merging
 
@@ -271,6 +275,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
 #pragma managed(pop)
 
 ```
+
 ---
 
 Use the following macros:

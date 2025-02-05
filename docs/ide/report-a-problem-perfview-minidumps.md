@@ -27,7 +27,7 @@ PerfView is a tool that creates ETL (event trace log) files based on [Event Trac
 
 ### Install PerfView
 
-Download PerfView from [GitHub](https://github.com/Microsoft/perfview/blob/master/documentation/Downloading.md).
+Download PerfView from [GitHub](https://github.com/Microsoft/perfview/blob/main/documentation/Downloading.md).
 
 ### Run PerfView
 

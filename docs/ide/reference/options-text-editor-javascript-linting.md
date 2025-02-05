@@ -19,7 +19,7 @@ Use the **Linting** page of the **Options** dialog box to set options for analyz
 
 ## ESLint Settings
 
-These options let you enable static JavaScript and TypeSCript code analysis, and choose which files are analyzed. For more information about ESLint, see [ESLint.org](https://eslint.org/).
+These options let you enable static JavaScript and TypeScript code analysis, and choose which files are analyzed. For more information about ESLint, see [ESLint.org](https://eslint.org/).
 
 ### UIElement list
 

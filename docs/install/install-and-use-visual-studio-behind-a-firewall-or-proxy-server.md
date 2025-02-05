@@ -37,8 +37,6 @@ The Visual Studio Installer downloads files from various domains and their downl
 | download.visualstudio.microsoft.com   | Setup packages download location            |
 | download.microsoft.com                | Setup packages download location            |
 | download.visualstudio.com             | Setup packages download location            |
-| dl.xamarin.com                        | Setup packages download location            |
-| xamarin-downloads.azureedge.net       | Android SDK packages download list location |
 | marketplace.visualstudio.com          | Visual Studio Extensions download location  |
 | \*.gallerycdn.vsassets.io             | Visual Studio Extensions download location  |
 | visualstudio.microsoft.com            | Documentation location                      |
@@ -68,7 +66,6 @@ The Visual Studio Installer downloads files from various domains and their downl
 | dl.google.com                     | Mobile development with JavaScript (Android SDK and NDK, Emulator) <br /><br />Mobile Development with .NET (Android SDK and NDK, Emulator) |
 | ib-downloads-official.s3.amazonaws.com | Game development with C++ (IncrediBuild)                                                                                               |
 | www\.incredibuild.com             | Game development with C++ (IncrediBuild)                                                                                                    |
-| incredibuildvs2017i.azureedge.net | Game development with C++ (IncrediBuild)                                                                                                    |
 | www\.python.org                   | Python development (Python) <br /><br />Data science and analytical applications (Python)                                                   |
 | developerservices2.apple.com      | Xamarin.iOS provisioning                                                                                                                    |
 | developer.apple.com               | Xamarin.iOS provisioning                                                                                                                    |
