@@ -97,8 +97,7 @@ private async Task DoSomethingAsync()
 The `MyCategoryObserver` class is generated under the `Settings` child namespace of the extension's
 namespace.
 
-It is also possible to use the observer to use the observer to raise events when any value
-in the category changes.
+It is also possible to use the observer to raise events when any value in the category changes.
 
 ```csharp
 public MyToolWindow(Settings.MyCategoryObserver settingsObserver)
