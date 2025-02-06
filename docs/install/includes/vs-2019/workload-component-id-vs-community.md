@@ -87,7 +87,7 @@ Microsoft.Net.Component.4.TargetingPack | .NET Framework 4 targeting pack | 16.1
 Microsoft.Net.ComponentGroup.TargetingPacks.Common | .NET Framework 4 – 4.6 development tools | 16.0.28516.191 | Recommended
 Microsoft.VisualStudio.Component.AspNet45 | Advanced ASP.NET features | 16.10.31205.252 | Recommended
 Microsoft.VisualStudio.Component.Azure.Kubernetes.Tools | Visual Studio Tools for Kubernetes | 16.10.31205.252 | Recommended
-Microsoft.VisualStudio.Component.Azure.Powershell | Azure Powershell | 16.5.29515.121 | Recommended
+Microsoft.VisualStudio.Component.Azure.Powershell | Azure PowerShell | 16.5.29515.121 | Recommended
 Microsoft.VisualStudio.Component.Azure.ResourceManager.Tools | Azure Resource Manager core tools | 16.4.29409.204 | Recommended
 Microsoft.VisualStudio.Component.Azure.ServiceFabric.Tools | Service Fabric Tools | 16.4.29313.120 | Recommended
 Microsoft.VisualStudio.Component.Azure.Waverton | Azure Cloud Services core tools | 16.10.31205.252 | Recommended
