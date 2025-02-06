@@ -1,7 +1,7 @@
 ---
 title: AI-assistance for developers in Visual Studio
 description: Learn about the AI-assisted development tools in Visual Studio, such as GitHub Copilot Completions and Chat, and IntelliCode, and how they can help you write code more efficiently.
-ms.date: 12/18/2024
+ms.date: 2/5/2025
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
@@ -113,7 +113,7 @@ The following table compares the capabilities of GitHub Copilot (and GitHub Copi
 
 To learn more, consider exploring the following resources:
 
-- [GitHub Copilot extension: Getting started](visual-studio-github-copilot-extension.md)
-- [GitHub Copilot Chat extension: Getting started](visual-studio-github-copilot-chat.md)
+- [GitHub Copilot Completions](visual-studio-github-copilot-extension.md)
+- [GitHub Copilot Chat](visual-studio-github-copilot-chat.md)
 - [GitHub Copilot: Compare plans](https://github.com/features/copilot)
 - [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/)
