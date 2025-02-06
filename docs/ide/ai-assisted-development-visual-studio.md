@@ -103,9 +103,9 @@ The following table compares the capabilities of GitHub Copilot (and GitHub Copi
 | Whole function & multi-line completions in gray text | **Yes** <br/>[Learn more](visual-studio-github-copilot-extension.md#how-github-copilot-works) | No |
 | Repeated edits detection | No | **Yes** <br/>[Learn more](intellicode-suggestions.md)|
 | Convert Natural language comments to code| **Yes** <br/>[Learn more](visual-studio-github-copilot-extension.md#how-github-copilot-works) | No |
-| Solve code problems with Natural language driven dev assistance | **Yes**, with Chat extension enabled. <br/>[Learn more](visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio)| No |
-| Code debugging | **Yes**, with Chat extension enabled. <br/>[Learn more](../debugger/debug-with-copilot.md)| No |
-| Measure app performance through profiling | **Yes**, with Chat extension enabled. <br/>[Learn more](https://devblogs.microsoft.com/visualstudio/simplified-code-refinement-and-debugging-with-github-copilot-chat/#cpu-usage-auto-insights-in-the-profiler) | No |
+| Solve code problems with Natural language driven dev assistance | **Yes**, with Copilot Chat. <br/>[Learn more](visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio)| No |
+| Code debugging | **Yes**, with Copilot Chat. <br/>[Learn more](../debugger/debug-with-copilot.md)| No |
+| Measure app performance through profiling | **Yes**, with Copilot Chat. <br/>[Learn more](https://devblogs.microsoft.com/visualstudio/simplified-code-refinement-and-debugging-with-github-copilot-chat/#cpu-usage-auto-insights-in-the-profiler) | No |
 | API usage examples | No | **Yes** <br/>[Learn more](https://devblogs.microsoft.com/visualstudio/intellicode-api-usage-examples/)|
 | Languages supported | Supports several programming languages and frameworks, including but not limited to: C#, C++, Python, JavaScript, and TypeScript| C#, XAML, C++, JavaScript, TypeScript, Visual Basic |
 
