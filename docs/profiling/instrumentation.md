@@ -1,7 +1,7 @@
 ---
 title: "Instrument your .NET application"
 description: Explore how to use the dynamic Instrumentation tool for your .NET applications (C#, C++, Visual Basic, F#) in Visual Studio and analyze the report.
-ms.date: "08/14/2024"
+ms.date: "02/05/2025"
 ms.topic: "conceptual"
 ms.custom: "profiling-seo"
 author: "mikejo5000"
@@ -39,7 +39,9 @@ The tool is similar to the CPU Usage tool except it's based on wall clock time i
 
    ![Screenshot showing Select items to instrument dialog.](./media/vs-2022/instrumentation-select-items-to-instrument.png "Screenshot showing Select items to instrument dialog.")
 
-   Starting in Visual Studio 2022 version 17.11 Preview 1, the profiler persists the selected items for the next profiling run.
+   Starting in Visual Studio 2022 version 17.11, the profiler persists the selected items for the next profiling run.
+
+   Starting in Visual Studio 2022 version 17.13 Preview 1, you can select items to instrument for C++.
 
 1. Select **OK**.
 
