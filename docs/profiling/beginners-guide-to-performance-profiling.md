@@ -189,7 +189,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 
 5. To see views of the data aggregated by function or by module, select **Functions** or **Modules** from the drop-down list at the top of the pane.
 
-   These views help to identify functions or modules that might be performance bottlenecks due to a combination of high usage and/or performance issues.
+   These views help to identify functions or modules that might be performance bottlenecks due to a combination of high call counts and/or performance issues.
 
     ![Screenshot that shows Diagnostics Tools Functions view.](../profiling/media/vs-2022/diag-tools-functions-view.png)
 ::: moniker-end
