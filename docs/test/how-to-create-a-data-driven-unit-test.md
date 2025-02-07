@@ -78,7 +78,10 @@ public void AddIntegers_FromDataRowTest(int x, int y, int expected)
 
 ### Member data-driven test
 
-MSTest uses `DynamicData` attribute to specify the name, kind (property, the default, or method) and defining type (by default current type is used) of the member that will provide the data used by the data-driven test.
+MSTest uses `DynamicData` attribute to specify the name, kind, and defining type (by default current type is used) of the member that will provide the data used by the data-driven test.
+
+> [!NOTE]
+> Before MSTest 3.8, `DynamicDataSourceType` enumeration had two members, `Property` and `Method`. The default was `Property`. Starting with MSTest 3.8, a new member `AutoDetect` is added to the enumeration and is the default. So, you no longer need to specify `DynamicDataSourceType`.
 
 ```csharp
 public static IEnumerable<object[]> AdditionData
