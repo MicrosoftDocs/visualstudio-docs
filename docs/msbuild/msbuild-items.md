@@ -157,6 +157,12 @@ For more information about wildcard characters, see [How to: Select the files to
 </Target>
 ```
 
+The following code filters an item list like `abcdef;abc;def;xyz` by creating a string using the `new` property function, and then using the String.Contains method to apply a substring test as a filter. This code only works in a target, since it uses a metadata expresion that only works in a target.
+
+```xml
+<Filtered Include="@(Unfiltered)" Condition="$([System.String]::new('%(Unfiltered.Identity)').Contains('abc'))"></Filtered>
+```
+
 For more operations on items, see [MSBuild item functions](item-functions.md) and [Transforms](../msbuild/msbuild-transforms.md).
 
 ## Item definitions
