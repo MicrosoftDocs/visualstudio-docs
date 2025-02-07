@@ -73,7 +73,7 @@ The report provides different views of the diagnostic data:
 
 |View|Description|
 |-|-|
-|Caller/callee|Detailed view of time spent in a specific function, the function(s) that called it, and the function(s) that it calls. The performance data is aggregated for the data collection period. You can selected calling functions and called functions to traverse the call path.|
+|Caller/callee|Detailed view of time spent in a specific function, the function(s) that called it, and the function(s) that it calls. The performance data is aggregated for the data collection period. You can select calling functions and called functions to traverse the call path.|
 |Call tree|Hierarchical view of the function call path. Used to identify call paths that are taking the most time (hot path).|
 |Modules|View of the time spent in individual modules, aggregated over the data collection period. Used to identify modules that might be performance bottlenecks due to a combination of high call counts and/or performance issues.|
 |Functions|View of the time spent in individual functions, aggregated over the data collection period. Used to identify functions that might be performance bottlenecks due to a combination of high call counts and/or performance issues.|
