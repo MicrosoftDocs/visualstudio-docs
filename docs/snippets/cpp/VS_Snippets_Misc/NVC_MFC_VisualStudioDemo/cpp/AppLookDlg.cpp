@@ -34,7 +34,7 @@ CAppLookDlg::CAppLookDlg(BOOL bStartup, CWnd* pParent /*=NULL*/) :
 	m_bActiveTabCloseButton = FALSE;
 
 	m_nAppLook = theApp.GetInt(_T("AppLook"), 3);
-	m_nStyle = theApp.GetInt(_T("AppStyle"), 0);;
+	m_nStyle = theApp.GetInt(_T("AppStyle"), 0);
 	m_bShowAtStartup = theApp.GetInt(_T("ShowAppLookAtStartup"), TRUE);
 	m_bOneNoteTabs = theApp.GetInt(_T("OneNoteTabs"), TRUE);
 	m_bDockTabColors = theApp.GetInt(_T("DockTabColors"), FALSE);

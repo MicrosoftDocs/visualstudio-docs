@@ -359,7 +359,7 @@ F:\TEST\CONSOLEAPPLICATION1\DEBUG\CONSOLEAPPLICATION1.PDB
 
 In the IDE, .vcxproj projects use a set of MSBuild targets to get additional information from the project and to regenerate output files. Some of these targets are only used in design-time builds, but many of them are used in both regular builds and design-time builds.
 
-For general information about design-time builds, see the CPS documentation for [Design-time builds](https://github.com/dotnet/project-system/blob/master/docs/design-time-builds.md). This documentation is only partly applicable to Visual C++ projects.
+For general information about design-time builds, see the CPS documentation for [Design-time builds](https://github.com/dotnet/project-system/blob/main/docs/design-time-builds.md). This documentation is only partly applicable to Visual C++ projects.
 
 The `CompileDesignTime` and `Compile` targets mentioned in the design-time builds documentation never run for .vcxproj projects. Visual C++ .vcxproj projects use different design-time targets to get IntelliSense information.
 

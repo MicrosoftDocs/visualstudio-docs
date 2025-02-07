@@ -20,7 +20,7 @@ To safeguard your Visual Studio development environment from untested applicatio
 
  If you want to start the experimental instance of Visual Studio outside a specific solution, run the following command at the command window:
 
- "*\<Visual studio installation path>*\Common7\IDE\devenv.exe" /RootSuffix Exp
+ "*\<Visual Studio installation path>*\Common7\IDE\devenv.exe" /RootSuffix Exp
 
 > [!NOTE]
 > The experimental instance is written to the registry under the `<version number>Exp` and `<version number>Exp_Config` nodes. For example the Visual Studio 2015 experimental registry area is

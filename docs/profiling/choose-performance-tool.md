@@ -87,4 +87,4 @@ The following articles and blog posts provide more information to help you learn
 ## Related content
 
 - [Profiling feature tour](../profiling/choose-performance-tool.md)
-- [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
+- [Run profiling tools on release or debug builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md)

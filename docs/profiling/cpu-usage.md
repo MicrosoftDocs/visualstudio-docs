@@ -27,7 +27,7 @@ The CPU Usage tool can help you:
 
 The **CPU Usage** tool is helpful for both local trace sessions and production. You can run the CPU Usage tool by using the keyboard shortcut, **Alt+F2**, and then choosing **CPU Usage**, or by opening an already collected trace using a tool like [dotnet-trace](/dotnet/core/diagnostics/dotnet-trace) or [dotnet-monitor](/dotnet/core/diagnostics/dotnet-monitor). (For .NET production code, this is most likely how you would collect traces.)
 
-You can run the CPU Usage tool on an open Visual Studio project, on an installed Microsoft Store app, or attached to a running app or process. You can run the CPU Usage tool with or without debugging. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+You can run the CPU Usage tool on an open Visual Studio project, on an installed Microsoft Store app, or attached to a running app or process. You can run the CPU Usage tool on release or debug builds. For more information, see [Run profiling tools on release or debug builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
 The following instructions show how to use the CPU Usage tool without the debugger, using the Visual Studio Performance Profiler. The examples use a Release build on a local machine. Release builds provide the best view of actual app performance. For a tutorial that shows how to improve performance using the CPU Usage tool, see [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
 
@@ -103,11 +103,13 @@ To analyze the CPU Usage report, click **Open details**, or click one of the top
 
 The report provides different views of the diagnostic data:
 
-- Caller/callee
-- Call tree
-- Modules
-- Functions
-- Flame graph
+|View|Description|
+|-|-|
+|Caller/callee|Detailed view of CPU time for a specific function, the function(s) that called it, and the function(s) that it calls. The performance data is aggregated for the data collection period. You can select calling functions and called functions to traverse the call path.|
+|Call tree|Hierarchical view of the function call path. Used to identify call paths that are taking the most CPU time (hot path).|
+|Modules|View of the CPU time spent in individual modules, aggregated over the data collection period. Used to identify modules that might be performance bottlenecks due to a combination of high call counts and/or performance issues.|
+|Functions|View of the CPU time spent in individual functions, aggregated over the data collection period. Used to identify functions that might be performance bottlenecks due to a combination of high call counts and/or performance issues.|
+|Flame graph|Hierarchical view of the function call path in a flame graph visualization. Used to identify call paths that are taking the most CPU time (hot path).|
 
 ::: moniker-end
 

@@ -149,6 +149,8 @@
       href: ide/visual-studio-github-copilot-chat.md
     - name: Tips to improve Copilot Chat results 
       href: ide/copilot-chat-context.md
+    - name: Copilot Edits (Preview)
+      href: ide/copilot-edits.md
     - name: Debug with GitHub Copilot
       href: debugger/debug-with-copilot.md
     - name: Deploy GitHub Copilot to your enterprise

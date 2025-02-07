@@ -22,10 +22,10 @@ With live, project-based code analyzers in Visual Studio, API authors can ship d
 
 [Real world Roslyn analyzer](../extensibility/roslyn-analyzers-and-code-aware-library-for-immutablearrays.md)
 
-[Several examples on GitHub, grouped into three kinds of analyzers](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Analyzer%20Samples.md)
+[Several examples on GitHub, grouped into three kinds of analyzers](https://github.com/dotnet/roslyn/blob/main/docs/analyzers/Analyzer%20Samples.md)
 
 ## Related content
 
 - [.NET compiler platform package version reference](roslyn-version-support.md)
-- [More docs on the GitHub OSS site](https://github.com/dotnet/roslyn/tree/master/docs/analyzers)
+- [More docs on the GitHub OSS site](https://github.com/dotnet/roslyn/tree/main/docs/analyzers)
 - [FxCop rules implemented with Roslyn analyzers](../code-quality/fxcop-rule-port-status.md)

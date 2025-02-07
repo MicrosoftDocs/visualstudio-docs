@@ -114,7 +114,7 @@ Visual Studio opens your new project.
 
    The *outDir* option specifies the output folder for the plain JavaScript files that the TypeScript compiler transpiles.
 
-   This configuration provides a basic introduction to using TypeScript. In other scenarios, such as when using [gulp or Webpack](https://www.typescriptlang.org/docs/handbook/asp-net-core.html), you might want a different intermediate location for the transpiled JavaScript files instead of *wwwroot/js*. The location depends on your tools and configuration preferences.
+   This configuration provides a basic introduction to using TypeScript. In other scenarios, such as when using [gulp or webpack](https://www.typescriptlang.org/docs/handbook/asp-net-core.html), you might want a different intermediate location for the transpiled JavaScript files instead of *wwwroot/js*. The location depends on your tools and configuration preferences.
 
 1. In Solution Explorer, right-click the project node and select **Add > New Folder**. Use the name *scripts* for the new folder.
 

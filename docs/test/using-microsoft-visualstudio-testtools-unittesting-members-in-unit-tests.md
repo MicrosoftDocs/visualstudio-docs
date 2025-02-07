@@ -20,11 +20,8 @@ To help provide a clearer overview of the unit testing framework, this section o
 > Attribute elements, whose names end with "Attribute", can be used either with or without "Attribute" on the end and for parameterless constructors with or without parenthesis. For example, the following code examples function identically:
 >
 > `[TestClass()]`
->
 > `[TestClassAttribute()]`
->
 > `[TestClass]`
->
 > `[TestClassAttribute]`
 
 ### Attributes used to identify test classes and methods
@@ -330,9 +327,11 @@ Unit tests can verify specific application behavior by their use of various kind
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException>
 
-## The TestContext class
+## TestContext class
 
-The following attributes and the values assigned to them appear in the Visual Studio Properties window for a particular test method. These attributes aren't meant to be accessed through the code of the unit test. Instead, they affect the ways the unit test is used or run, either by you through the IDE of Visual Studio, or by the Visual Studio test engine. For example, some of these attributes appear as columns in the **Test Manager** window and **Test Results** window, which means that you can use them to group and sort tests and test results. One such attribute is <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute>, which you use to add arbitrary metadata to unit tests. For example, you could use it to store the name of a "test pass" that this test covers, by marking the unit test with `[TestProperty("TestPass", "Accessibility")]`. Or, you could use it to store an indicator of the kind of test It's with `[TestProperty("TestKind", "Localization")]`. The property you create by using this attribute, and the property value you assign, are both displayed in the Visual Studio **Properties** window under the heading **Test specific**.
+The [TestContext](xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext) class provides information about the test run and allows you to adjust the test environment. You can use the attributes listed here in this section to provide these services. The values assigned to these attributes appear in the Visual Studio Properties window for a particular test method. These attributes aren't meant to be accessed through the code of the unit test. Instead, they affect the ways the unit test is used or run, either by you through the IDE of Visual Studio, or by the Visual Studio test engine.
+
+For example, some of these attributes appear as columns in the **Test Manager** window and **Test Results** window, which means that you can use them to group and sort tests and test results. One such attribute is <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute>, which you use to add arbitrary metadata to unit tests. For example, you could use it to store the name of a "test pass" that this test covers, by marking the unit test with `[TestProperty("TestPass", "Accessibility")]`. Or, you could use it to store an indicator of the kind of test it's for with `[TestProperty("TestKind", "Localization")]`. The property you create by using this attribute, and the property value you assign it, are both displayed in the Visual Studio **Properties** window under the heading **Test specific**.
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute>
 
@@ -345,6 +344,8 @@ The following attributes and the values assigned to them appear in the Visual St
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute>
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.WorkItemAttribute>
+
+For additional information, see [TestContext Class](/dotnet/core/testing/unit-testing-mstest-writing-tests-testcontext).
 
 ### DeploymentItemAttribute
 

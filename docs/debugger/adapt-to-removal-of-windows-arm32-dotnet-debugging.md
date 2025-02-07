@@ -3,6 +3,8 @@ title: "Adapt to removal of Windows Arm32 .NET debugging"
 description: Provides guidance on how to adapt to the removal of Windows Arm32 .NET Debugging support
 ms.date: "12/12/2024"
 ms.topic: "error-reference"
+f1_keywords:
+  - "vs.debug.error.arm32_windows_dotnet_debugging"
 dev_langs:
   - "CSharp"
   - "VB"
@@ -34,10 +36,14 @@ Visual Studio 17.12 can be used from the Long-Term Servicing Channel (LTSC). For
 
 ## Option 3: Start without debugging 
 
-If you have a project that you still want to run but doesn't require debugging, use **Debug->Start without debugging** to run the project. Since the debugger isn't available, you would need to diagnose any problems by using logging. 
+If you have a project that you still want to run but doesn't require debugging, you could launch it without debugging. Since the debugger isn't available, you would need to diagnose any problems by using logging.
+
+If your project is a Universal Windows Platform (UWP) project, and the target device is running an Arm32 version of Windows, then you need to manually deploy the project to run it. To do so, build your project to an .appx file, copy the appx to your device, use the WinAppDeployCmd.exe tool to install the .appx, and then start the application from the start menu. For more information, see [Install apps with the WinAppDeployCmd.exe tool](/windows/uwp/packaging/install-universal-windows-apps-with-the-winappdeploycmd-tool).
+
+For other types of projects, you can still use **Debug > Start without debugging** to run the project. 
 
 > [!NOTE]
-> This option is not recommended since .NET support for Windows on Arm32 has ended.
+> This option isn't recommended since .NET support for Windows on Arm32 has ended.
 
 
 ## Option 4: Target Linux 
