@@ -1,7 +1,7 @@
 ---
 title: Compile Page, Project Designer (Visual Basic)
 description: Learn how to specify compilation instructions in Visual Studio. You can also specify advanced compiler options and pre-build or post-build events on this page.
-ms.date: 11/04/2016
+ms.date: 2/7/2025
 ms.subservice: compile-build
 ms.topic: reference
 f1_keywords:
@@ -20,6 +20,9 @@ manager: mijacobs
 monikerRange: 'vs-2019'
 ---
 # Compile Page, Project Designer (Visual Basic)
+
+> [!NOTE]
+> This page refers to the Project Designer experience in Visual Studio 2019 and for .NET Framework projects with Visual Studio 2022.
 
 Use the **Compile** page of the Project Designer to specify compilation instructions. You can also specify advanced compiler options and pre-build or post-build events on this page.
 
