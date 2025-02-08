@@ -152,6 +152,12 @@
           href: idiadatasourceex-setpfnminipdberrorcallback2.md
         - name: IDiaDataSourceEx::ValidatePdb
           href: idiadatasourceex-validatepdb.md
+      - name: IDiaDataSourceEx2
+        items:
+        - name: IDiaDataSourceEx2
+          href: idiadatasourceex2.md
+        - name: IDiaDataSourceEx2::findNamedStreams
+          href: idiadatasourceex2-findnamedstreams.md
       - name: IDiaEnumDebugStreamData
         items:
         - name: IDiaEnumDebugStreamData
@@ -266,6 +272,22 @@
           href: idiaenumlinenumbers-reset.md
         - name: IDiaEnumLineNumbers::Skip
           href: idiaenumlinenumbers-skip.md
+      - name: IDiaEnumNamedStreams
+        items:
+        - name: IDiaEnumNamedStreams
+          href: idiaenumnamedstreams.md
+        - name: IDiaEnumNamedStreams::Clone
+          href: idiaenumnamedstreams-clone.md
+        - name: IDiaEnumNamedStreams::get__NewEnum
+          href: idiaenumnamedstreams-get-newenum.md
+        - name: IDiaEnumNamedStreams::get_Count
+          href: idiaenumnamedstreams-get-count.md
+        - name: IDiaEnumNamedStreams::Next
+          href: idiaenumnamedstreams-next.md
+        - name: IDiaEnumNamedStreams::Reset
+          href: idiaenumnamedstreams-reset.md
+        - name: IDiaEnumNamedStreams::Skip
+          href: idiaenumnamedstreams-skip.md
       - name: IDiaEnumSectionContribs
         items:
         - name: IDiaEnumSectionContribs

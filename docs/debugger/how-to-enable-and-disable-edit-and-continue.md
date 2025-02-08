@@ -1,7 +1,7 @@
 ---
 title: Configure Edit and Continue
 description: Learn how to enable, disable, and configure Edit and Continue, in Visual Studio Options at design time. Edit and Continue works only in debug builds.
-ms.date: 02/22/2023
+ms.date: 01/24/2025
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -56,13 +56,13 @@ Or, open **Tools** > **Options** > **Debugging** > **.NET/C++ Hot Reload**.
 
 The settings for Hot Reload include:
 
-* **Enable Hot Reload and Edit and Continue when debugging**. Enables Hot Reload when starting with the debugger attached (F5).
+- **Enable Hot Reload**. Enables Hot Reload when starting with the debugger attached (F5).
 
-* **Enable Hot Reload when starting without debugging**. Enables Hot Reload when starting without the debugger attached (Ctrl+F5).
+- **Enable Hot Reload when starting without debugging**. Enables Hot Reload when starting without the debugger attached (Ctrl+F5).
 
-* **Apply Hot Reload on File Save**. Applies code changes when you save the file.
+- **Apply Hot Reload on File Save**. Applies code changes when you save the file.
 
-* **Logging Verbosity**. Filters amount of information displayed in the Hot Reload Output window.
+- **Logging Verbosity**. Filters amount of information displayed in the Hot Reload Output window.
 
 ![Screenshot of settings for .NET Hot Reload.](../debugger/media/vs-2022/dotnet-hot-reload-settings.png)
 

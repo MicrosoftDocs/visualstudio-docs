@@ -1,6 +1,6 @@
 ---
 title: .NET SDK Multitargeting Overview
-description: Use MSBuild to compile an application to run on any one of several versions of .NET
+description: Use MSBuild to compile an application to run on any one of several versions of .NET.
 ms.date: 1/9/2025
 ms.topic: how-to
 author: ghogen
@@ -10,11 +10,11 @@ ms.subservice: msbuild
 ---
 # Targeting multiple .NET versions in a build
 
-Targeting multiple .NET versions in a build allows you to ensure that your application or library is available for different versions of .NET.
+Targeting multiple .NET frameworks in a build allows you to ensure that your application or library is available for different versions or editions of .NET.
 
 Multitargeting for .NET Core and .NET 5 and later projects is significantly different from and more advanced than multitargeting for .NET Framework projects. See [Comparison between .NET Framework and .NET Core multitargeting](#comparison-between-net-framework-and-net-core-multitargeting).
 
-## Setting up .NET multitargeting
+## Set up .NET multitargeting
 
 1. Create a new .NET Standard class library either in Visual Studio or using the `dotnet new classlib` command.
 
@@ -123,16 +123,13 @@ Multitargeting for .NET Core (and .NET 5 and later) is very different and more p
 ### .NET Framework
 - **Limited Multitargeting**: .NET Framework supports multitargeting, but it is more limited compared to .NET Core. It can target different versions of the .NET Framework, but not multiple frameworks simultaneously. See [MSBuild multitargeting](msbuild-multitargeting-overview.md).
 - **Older Toolset**: Uses an older type of multitargeting with MSBuild, where a project can target only one framework and one platform at a time.
-- **Compatibility Issues**: Certain APIs and functionalities available in .NET Core or .NET 5+ may not be available in .NET Framework, which can limit the compatibility and functionality of your application.
 
 ### .NET Core
 - **Advanced Multitargeting**: .NET Core supports advanced multitargeting, allowing you to target multiple frameworks simultaneously using the `<TargetFrameworks>` property in the project file. See [Target frameworks](/dotnet/targetframeworks).
 - **Modern Toolset**: Uses a newer type of multitargeting with MSBuild, where multiple builds occur for each target framework listed.
-- **Broader Compatibility**: .NET Core provides broader compatibility and supports more modern APIs and functionalities compared to .NET Framework.
 
 ## Related content
 
 - [Specify the targeted .NET Frameworks - Visual Studio](../ide/visual-studio-multi-targeting-overview.md)
 
 [!INCLUDE[AI generated](../includes/ai-generated-attribution.md)]
-<!--Feel free to customize this document further based on your specific requirements. If you have any questions or need more details, let me know![4](https://learn.microsoft.com/en-us/dotnet/standard/library-guidance/cross-platform-targeting)[3](https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-multitargeting-overview?view=vs-2022)[5](https://www.cafe-encounter.net/p2312/multi-targetting-net-framework-and-net-core-in-a-single-project)[6](https://outlook.office365.com/owa/?ItemID=AAMkADQ3MGUyYTdjLWVlZjAtMTFkMi04ZjE2LTAwMDhjNzRiODU1NwBGAAAAAADTVNsYj0hgR4sxn9WZ7wmLBwDJVGB64pzuTrBVf1ajg%2bXSAAADlABCAADEZUcpFkhnRp34X5f8TC7dAAQZeajRAAA%3d&exvsurl=1&viewmodel=ReadMessageItem)[7](https://outlook.office365.com/owa/?ItemID=AAMkADQ3MGUyYTdjLWVlZjAtMTFkMi04ZjE2LTAwMDhjNzRiODU1NwBGAAAAAADTVNsYj0hgR4sxn9WZ7wmLBwC32%2b13n3XLR6QySQK29U4TAAAA99pvAADEZUcpFkhnRp34X5f8TC7dAAGOiN21AAA%3d&exvsurl=1&viewmodel=ReadMessageItem)-->

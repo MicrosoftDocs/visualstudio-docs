@@ -8,7 +8,7 @@ ms.subservice: general-ide
 ms.topic: tutorial
 dev_langs:
   - VB
-ms.date: 03/28/2024
+ms.date: 01/24/2025
 ms.custom: vs-acquisition
 #customer intent: As a developer, I want to create a simple Visual Basic program to understand how Visual Studio handles Forms.
 ---
@@ -28,11 +28,11 @@ In this tutorial, you learn how to:
 ## Prerequisites
 
 ::: moniker range="vs-2019"
-- You need Visual Studio to complete this tutorial. Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
+- You need Visual Studio to complete this tutorial. Visit [Visual Studio downloads](https://visualstudio.microsoft.com/vs/) for a free version.
 - The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../install/modify-visual-studio.md#change-workloads-or-individual-components).
 ::: moniker-end
 ::: moniker range=">=vs-2022"
-- You need Visual Studio to complete this tutorial. Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) for a free version.
+- You need Visual Studio to complete this tutorial. Visit [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) for a free version.
 - The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../install/modify-visual-studio.md#change-workloads-or-individual-components).
 ::: moniker-end
 
@@ -42,11 +42,9 @@ Create a Visual Basic application project.
 The project type comes with all the template files that you need.
 
 ::: moniker range="vs-2019"
-1. Open Visual Studio.
+1. Open Visual Studio, then select **Create a new project** on the start window.
 
-1. On the start window, select **Create a new project**.
-
-   :::image type="content" source="../get-started/media/vs-2019/create-new-project-dark-theme.png" alt-text="Screenshot shows the Visual Studio 2019 start window with Create a new project selected.":::
+   :::image type="content" source="../get-started/media/vs-2019/create-new-project-dark-theme.png" alt-text="Screenshot showing the Visual Studio 2019 start window with Create a new project selected.":::
 
 1. On the **Create a new project** window, select the **Windows Forms App (.NET Framework)** template for Visual Basic.
 
@@ -54,7 +52,7 @@ The project type comes with all the template files that you need.
    For example, enter *Windows Forms App* in the search box.
    Next, select **Visual Basic** from the languages list, and then **Windows** from the platform list.  
 
-   :::image type="content" source="../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png" alt-text="Screenshot shows the Create a new project window with Windows Forms App (.NET Framework) selected." lightbox="../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png":::
+   :::image type="content" source="../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png" alt-text="Screenshot showing the Create a new project window with Windows Forms App (.NET Framework) selected." lightbox="../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png":::
 
 1. In the **Configure your new project** window, enter *HelloWorld* as the **Project name**. Then, select **Create**.
 
@@ -65,11 +63,9 @@ The project type comes with all the template files that you need.
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-1. Open Visual Studio.
+1. Open Visual Studio, then select **Create a new project** on the start window.
 
-1. On the start window, choose **Create a new project**.
-
-   :::image type="content" source="../get-started/media/vs-2022/create-new-project.png" alt-text="Screenshot shows the Visual Studio 2022 start window with Create a new project selected.":::
+   :::image type="content" source="../get-started/media/vs-2022/create-new-project.png" alt-text="Screenshot that shows the Visual Studio 2022 start window with Create a new project selected.":::
 
 1. On the **Create a new project** window, select the **Windows Forms App (.NET Framework)** template for Visual Basic.
 
@@ -77,7 +73,7 @@ The project type comes with all the template files that you need.
    For example, enter *Windows Forms App* in the search box.
    Next, select **Visual Basic** from the language list, and then **Windows** from the platform list.  
 
-   :::image type="content" source="../get-started/visual-basic/media/vs-2022/vb-create-new-project-search-winforms-filtered.png" alt-text="Screenshot shows the Create a new project window with Windows Forms App (.NET Framework) selected." lightbox="../get-started/visual-basic/media/vs-2022/vb-create-new-project-search-winforms-filtered.png":::
+   :::image type="content" source="../get-started/visual-basic/media/vs-2022/vb-create-new-project-search-winforms-filtered.png" alt-text="Screenshot that shows the Create a new project window with Windows Forms App (.NET Framework) selected." lightbox="../get-started/visual-basic/media/vs-2022/vb-create-new-project-search-winforms-filtered.png":::
 
 1. In the **Configure your new project** window, enter *HelloWorld* as the **Project name**. Then, select **Create**.
 
@@ -100,7 +96,7 @@ You create a *Hello World* application by adding controls to the form.
 
    If you want, select the **Pin** icon to dock the **Toolbox** window.
 
-1. Select the **Button** control and then drag it onto the form.
+1. In the **Common Controls** section, select the **Button** control and then drag it onto the form.
 
    :::image type="content" source="media/create-a-visual-basic-winform-in-visual-studio/toolbox-button-form.png" alt-text="Screenshot shows the Button control added to the form.":::
 
@@ -119,7 +115,7 @@ You create a *Hello World* application by adding controls to the form.
 
 ## Add a label and code
 
-After you add a button control to create an action, add a label control to send text to.
+After you add a button control to create an action, add a label control to receive the text.
 
 1. Select the **Label** control in the **Toolbox** window, and then drag it onto the form.
    Place it beneath the **Click this** button.
@@ -166,4 +162,4 @@ Or try these other tutorials:
 
 - [Visual Basic tutorials](../get-started/visual-basic/index.yml)
 - [C# tutorials](../get-started/csharp/index.yml)
-- [C++ tutorials](/cpp/get-started/tutorial-console-cpp)
+- [C++ tutorial](/cpp/get-started/tutorial-console-cpp)

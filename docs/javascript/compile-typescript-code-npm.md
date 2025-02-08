@@ -100,7 +100,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
    },
    ```
 
-   To build using a third-party tool like Webpack, you can add a command-line build script to your *package.json* file:
+   To build using a third-party tool like webpack, you can add a command-line build script to your *package.json* file:
 
    ```json
    "scripts": {
@@ -109,7 +109,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
    ```
 
    ::: moniker range="vs-2019"
-   For an example of using Webpack with React and a Webpack configuration file, see [Create a web app with Node.js and React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
+   For an example of using webpack with React and a webpack configuration file, see [Create a web app with Node.js and React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
 
    For an example of using Vue.js with TypeScript, see [Create a Vue.js application](create-application-with-vuejs.md).
    ::: moniker-end
@@ -139,10 +139,10 @@ Press **Ctrl+F5** (or **Debug > Start Without Debugging**) to run the applicatio
 
 ## Automate build tasks
 
-You can use Task Runner Explorer in Visual Studio to help automate tasks for third-party tools like npm and Webpack.
+You can use Task Runner Explorer in Visual Studio to help automate tasks for third-party tools like npm and webpack.
 
 - [NPM Task Runner](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.NPMTaskRunner) - Adds support for npm scripts defined in *package.json*. Supports yarn.
-- [Webpack Task Runner](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebPackTaskRunner) - Adds support for Webpack.
+- [Webpack Task Runner](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebPackTaskRunner) - Adds support for webpack.
 
 ## Related content
 

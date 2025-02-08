@@ -22,14 +22,14 @@ The Visual Studio Editor extensibility object model is composed of a few integra
 
 - This object is immutable and will never change after it is created.
 - You can use `ITextViewSnapshot.GetTextDocumentAsync()` to get the content from the document. Calling this method is expensive and only should be done if you need the document content.
-- `ITextViewSnapshot` can't be changed directly. All changes are requested via mutation. See [Make changes in a text document from an extension](editor.md#make-changes-in-a-text-document-from-an-extension).
+- `ITextViewSnapshot` can't be changed directly. All changes are requested via mutation. See [Make changes in a text document from an extension](./walkthroughs/editing-text.md).
 
 ## ITextDocumentSnapshot
 
 [ITextDocumentSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextdocumentsnapshot) contains the content of the text document from a point in time or version.
 
 - This object is immutable and will never change after it is created.
-- `ITextDocumentSnapshot` can't be changed directly. All changes are requested via mutation. See [Make changes in a text document from an extension](editor.md#make-changes-in-a-text-document-from-an-extension).
+- `ITextDocumentSnapshot` can't be changed directly. All changes are requested via mutation. See [Make changes in a text document from an extension](./walkthroughs/editing-text.md).
 
 If you're familiar with legacy Visual Studio extensions, [ITextDocumentSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextdocumentsnapshot) is almost the same as
 [ITextSnapshot](/dotnet/api/microsoft.visualstudio.text.itextsnapshot) and supports most of the same methods for accessing the text.

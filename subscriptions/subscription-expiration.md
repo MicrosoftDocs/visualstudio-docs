@@ -3,14 +3,14 @@ title: What happens when a subscription expires?
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/17/2024
+ms.date: 02/07/2025
 ms.topic: conceptual
 description: Understand what happens when a Visual Studio subscription expires, including changes to available downloads, product keys, Azure credits, and other benefits.
 ---
 
 # What happens when your subscription expires
 
-Visual Studio subscriptions have specific durations, and unless they're renewed, they'll expire. When a subscription expires, the benefits provided by the subscription are impacted in different ways. This article explains how expiration affects various aspects of a Visual Studio subscription. 
+Visual Studio subscriptions have specific durations and expire unless renewed. When a subscription expires, the benefits provided by the subscription are impacted in different ways. This article explains how expiration affects various aspects of a Visual Studio subscription. 
 
 If you would like to purchase a new subscription, you can explore purchasing options on our [pricing page](https://visualstudio.microsoft.com/vs/pricing).
 
@@ -26,7 +26,7 @@ The product keys page, <https://my.visualstudio.com/productkeys>, is no longer a
 
 ## Benefits 
 
-Not all benefits are impacted in the same way when a subscription expires. No benefits can be activated after your subscription expires. Benefits you've previously activated might still be available, depending on how they are authenticated. Most third party benefits such as Pluralsight training are still available for the duration of the benefit. Benefits that require validation that a Visual Studio subscription is still current are not available.
+Not all benefits are impacted in the same way when a subscription expires. No benefits can be activated after your subscription expires. Benefits you've previously activated might still be available, depending on how they're authenticated. Most third-party benefits, such as Pluralsight training, are still available for the duration of the benefit. Benefits that require validation that a Visual Studio subscription is still current aren't available.
 
 ### Visual Studio IDE
 
@@ -57,6 +57,6 @@ For assistance with sales, subscriptions, accounts, and billing for Visual Studi
 
 ## Next steps
 
-+ To prevent your subscription from expiring, be sure to renew it prior to its expiration date. You can find the expiration date for your subscription(s) at <https://my.visualstudio.com/subscriptions>.
++ To prevent your subscription from expiring, be sure to renew it prior to its expiration date. You can find the expiration date for your subscription at <https://my.visualstudio.com/subscriptions>.
 + If your subscription is provided to you by your work or school, you might want to [contact your subscriptions admin](contact-my-admin.md) for assistance with your subscription or questions you have about transferring Azure resources to another subscription, etc.
 + If you would like to purchase a new subscription, you can explore purchasing options on our [pricing page](https://visualstudio.microsoft.com/vs/pricing).

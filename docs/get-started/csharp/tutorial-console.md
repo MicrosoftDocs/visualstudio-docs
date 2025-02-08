@@ -1,8 +1,8 @@
 ---
-title: "Tutorial: Create a simple C# console app "
+title: "Tutorial: Create a simple C# console app"
 description: Create a C# console application in Visual Studio and explore some features of the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
-ms.date: 03/15/2024
+ms.date: 01/24/2025
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.devlang: csharp
@@ -25,13 +25,13 @@ In this tutorial, you complete the following tasks:
 > * Close your app.
 > * Inspect your complete code.
 
-[In part 2](tutorial-console-part-2.md), you extend this app to add more projects, learn debugging tricks, and reference third-party packages.
+In [part 2 of this tutorial](tutorial-console-part-2.md), you extend this app to add more projects, learn debugging tricks, and reference non-Microsoft packages.
 
 ## Prerequisites
 
 You must have Visual Studio installed.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-tutorial-create-simple-csharp-console-app-page-cta) page to install it for free.
+If you don't have Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-tutorial-create-simple-csharp-console-app-page-cta) to install it for free.
 
 ## Create a project
 
@@ -39,62 +39,62 @@ To start, create a C# application project. The project type comes with all the t
 
 ::: moniker range="vs-2019"
 
-1. Open Visual Studio, and select **Create a new project** in the Start window.
+1. Open Visual Studio, and select **Create a new project** in the start window.
 
-   ![Screenshot that shows the Create a new project window.](../../get-started/media/vs-2019/create-new-project-dark-theme.png)
+   :::image type="content" source="../../get-started/media/vs-2019/create-new-project-dark-theme.png" alt-text="Screenshot showing the Create a new project window.":::
 
-1. In the **Create a new project** window, choose **C#** from the Language list. Next, choose **Windows** from the Platform list and **Console** from the project types list.
+1. In the **Create a new project** window, select **C#** from the language dropdown list. Choose **Windows** from the platform list and **Console** from the project types list.
 
    After you apply the language, platform, and project type filters, choose the **Console Application** template, and then select **Next**.
 
    > [!NOTE]
    > If you don't see the **Console Application** template, select **Install more tools and features**.
-   > 
-   > ![Screenshot that shows the Install more tools and features link.](../../get-started/media/vs-2019/not-finding-what-looking-for.png)
+   >
+   > :::image type="content" source="../../get-started/media/vs-2019/not-finding-what-looking-for.png" alt-text="Screenshot that shows the Install more tools and features link.":::
    >
    > In the Visual Studio Installer, select the **.NET Core cross-platform development** workload.
    >
-   > ![Screenshot showing the .NET Core cross-platform development workload in the Visual Studio Installer.](./media/dot-net-core-xplat-dev-workload.png)
+   > :::image type="content" source="media/dot-net-core-xplat-dev-workload.png" alt-text="Screenshot showing the .NET Core cross-platform development workload in the Visual Studio Installer.":::
    >
    > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Select **Continue** to install the workload.
    >
-   > Return to step 2 in this "[Create a project](#create-a-project)" procedure.
+   > Return to step 2 in the [Create a project](#create-a-project) procedure.
 
 1. In the **Configure your new project** window, type or enter *Calculator* in the **Project name** box. Then, select **Next**.
 
-   :::image type="content" source="./media/vs-2019/csharp-name-your-calculator-project.png" alt-text="Screenshot that shows how to name your project 'Calculator' in the 'Configure your new project' window in Visual Studio." lightbox="./media/vs-2019/csharp-name-your-calculator-project.png":::
+   :::image type="content" source="./media/vs-2019/csharp-name-your-calculator-project.png" alt-text="Screenshot showing how to name your project 'Calculator' in the 'Configure your new project' window in Visual Studio." lightbox="./media/vs-2019/csharp-name-your-calculator-project.png":::
 
 1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** field. Then, select **Create**.
 
    :::image type="content" source="./media/vs-2019/csharp-target-framework.png" alt-text="Screenshot of the Additional information window in Visual Studio showing .NET Core 3.1 as the target framework for the new project." lightbox="./media/vs-2019/csharp-target-framework.png":::
 
-Visual Studio opens your new project, which includes default "Hello World" code. To view it in the editor, select the code file *Program.cs* in the Solution Explorer window, which is typically on the right-hand side of Visual Studio.
+Visual Studio opens your new project, which includes default *Hello World* code. To view it in the editor, select the code file *Program.cs* in the Solution Explorer window, which is typically on the right-hand side of Visual Studio.
 
-The default "Hello World" code calls the <xref:System.Console.WriteLine%2A> method to display the literal string "Hello, World!" in the console window. If you press F5, you can run the default program in Debug mode. After the application runs in the debugger, the console window stays open. Press any key to close the console window.
+The default *Hello World* code calls the <xref:System.Console.WriteLine%2A> method to display the literal string **Hello, World!** in the console window. If you press F5, you can run the default program in Debug mode. After the application runs in the debugger, the console window stays open. Press any key to close the console window.
 
 ::: moniker-end
 ::: moniker range=">=vs-2022"
 
-1. Open Visual Studio, and select **Create a new project** in the Start window.
+1. Open Visual Studio, and select **Create a new project** in the start window.
 
-   ![Screenshot that shows the Create a new project window.](media/vs-2022/create-new-project.png)
+   :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot that shows the Create a new project window.":::
 
-1. In the **Create a new project** window, select **All languages**, and then choose **C#** from the dropdown list. Choose **Windows** from the **All platforms** list, and choose **Console** from the **All project types** list.
+1. In the **Create a new project** window, select **C#** from the language dropdown list. Choose **Windows** from the platform list and **Console** from the project types list.
 
    After you apply the language, platform, and project type filters, choose the **Console App** template, and then select **Next**.
 
    > [!NOTE]
    > If you don't see the **Console App** template, select **Install more tools and features**.
    > 
-   > ![Screenshot that shows the Install more tools and features link.](media/vs-2022/not-finding-what-looking-for.png)
+   > :::image type="content" source="media/vs-2022/not-finding-what-looking-for.png" alt-text="Screenshot that shows the Install more tools and features link.":::
    >
    > In the Visual Studio Installer, select the **.NET desktop development** workload.
    >
-   > ![Screenshot showing the .NET desktop development workload in the Visual Studio Installer.](media/vs-2022/dot-net-development-workload.png)
+   > :::image type="content" source="media/vs-2022/dot-net-development-workload.png" alt-text="Screenshot that shows the .NET desktop development workload in the Visual Studio Installer.":::
    >
    > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Select **Continue** to install the workload.
    >
-   > Return to step 2 in this "[Create a project](#create-a-project)" procedure.
+   > Return to step 2 in this [Create a project](#create-a-project) procedure.
 
 1. In the **Configure your new project** window, type or enter *Calculator* in the **Project name** box, and then select **Next**.
 
@@ -102,14 +102,14 @@ The default "Hello World" code calls the <xref:System.Console.WriteLine%2A> meth
 
 1. In the **Additional information** window, select **.NET 8.0** for the **Target Framework** field. Then, select **Create**.
 
-   :::image type="content" source="./media/vs-2022/csharp-target-framework.png" alt-text="Screenshot of the Additional information window in Visual Studio showing .NET 8.0 selected as the target framework for the new project." lightbox="./media/vs-2022/csharp-target-framework.png":::
+   :::image type="content" source="./media/vs-2022/csharp-target-framework.png" alt-text="Screenshot of the Additional information window in Visual Studio that shows .NET 8.0 selected as the target framework for the new project." lightbox="./media/vs-2022/csharp-target-framework.png":::
 
-Visual Studio opens your new project, which includes default "Hello World" code. To view it in the editor, select the code file *Program.cs* in the Solution Explorer window, which is typically on the right-hand side of Visual Studio.
+Visual Studio opens your new project, which includes default *Hello World* code. To view it in the editor, select the code file *Program.cs* in the Solution Explorer window, which is typically on the right-hand side of Visual Studio.
 
-The single code statement calls the <xref:System.Console.WriteLine%2A> method to display the literal string "Hello, World!" in the console window. If you press F5, you can run the default program in Debug mode. After the application runs in the debugger, the console window stays open. Press any key to close the console window.
-   
+The single code statement calls the <xref:System.Console.WriteLine%2A> method to display the literal string *Hello, World!* in the console window. If you press F5, you can run the default program in Debug mode. After the application runs in the debugger, the console window stays open. Press any key to close the console window.
+
 > [!NOTE]
-> Starting with .NET 6, new projects using the console template generate different code than previous versions. To learn more, see the [New C# templates generate top-level statements](/dotnet/core/tutorials/top-level-templates) page. 
+> Starting with .NET 6, new projects using the console template generate different code than previous versions. To learn more, see [New C# templates generate top-level statements](/dotnet/core/tutorials/top-level-templates).
 
 ::: moniker-end
 
@@ -127,9 +127,11 @@ In this section, you complete the following tasks:
 Start with some basic integer math in C#.
 
 ::: moniker range="<=vs-2019"
-1. In the code editor, delete the default "Hello World" code.
+1. In the right pane, select *Program.cs* to display the file in the code editor.
 
-   ![Screenshot that shows deleting the default Hello World code from your new calculator app.](./media/csharp-console-calculator-deletehelloworld.png)
+1. In the code editor, delete the default *Hello World* code.
+
+   :::image type="content" source="media/csharp-console-calculator-deletehelloworld.png" alt-text="Screenshot showing the default Hello World code to delete from your new calculator app.":::
 
    Specifically, delete the line that says, `Console.WriteLine("Hello World!");`.
 
@@ -145,15 +147,15 @@ Start with some basic integer math in C#.
 
    Notice that when you enter the code, the IntelliSense feature in Visual Studio offers you the option to autocomplete the entry.
 
-   ![Animation of integer math code that shows the IntelliSense autocomplete feature in the Visual Studio IDE.](./media/integer-math-intellisense.gif)
+   :::image type="content" source="media/integer-math-intellisense.gif" alt-text="Animation of integer math code showing the IntelliSense autocomplete feature in the Visual Studio IDE.":::
 
 1. Select the green **Start** button next to **Calculator** to build and run your program, or press **F5**.
 
-   ![Screenshot that shows choosing the Calculator button to run the app from the toolbar.](./media/csharp-console-calculator-button.png)
+   :::image type="content" source="media/csharp-console-calculator-button.png" alt-text="Screenshot showing the Calculator button to run the app from the toolbar.":::
 
    A console window opens that reveals the sum of 42 + 119, which is **161**.
 
-   ![Screenshot that shows a console window with the results of integer math.](./media/csharp-console-integer-math.png)
+   :::image type="content" source="media/csharp-console-integer-math.png" alt-text="Screenshot showing a console window with the results of integer math.":::
 
 1. **(Optional)** You can change the operator to change the result. For example, you can change the `+` operator in the `int c = a + b;` line of code to `-` for subtraction, `*` for multiplication, or `/` for division. Then, when you run the program, the result changes, too.
 
@@ -161,11 +163,11 @@ Start with some basic integer math in C#.
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-1. In **Solution Explorer**, in the right pane, select **Program.cs** to display the file in the code editor
+1. In **Solution Explorer**, in the right pane, select *Program.cs* to display the file in the code editor.
 
-1. In the code editor, replace the default "Hello World" code that says `Console.WriteLine("Hello World!");`.
+1. In the code editor, replace the default *Hello World* code that says `Console.WriteLine("Hello World!");`.
 
-   ![Screenshot that shows the line to replace in the program file.](media/vs-2022/csharp-console-calculator-delete-hello-world.png)
+   :::image type="content" source="media/vs-2022/csharp-console-calculator-delete-hello-world.png" alt-text="Screenshot that shows the line to replace in the program file.":::
 
    Replace the line with the following code:
 
@@ -179,19 +181,19 @@ Start with some basic integer math in C#.
 
     If you enter the code, the Visual Studio IntelliSense feature offers you the option to autocomplete the entry.
 
-    ![Animation of integer math code that shows the IntelliSense autocomplete feature in the Visual Studio IDE.](media/vs-2022/integer-math-intellisense.gif)
+   :::image type="content" source="media/vs-2022/integer-math-intellisense.gif" alt-text="Animation of integer math code that shows the IntelliSense autocomplete feature in the Visual Studio IDE.":::
 
 1. To build and run your app, press **F5**, or select the green arrow next to the name **Calculator** in the top toolbar.
 
-   ![Screenshot that showing selecting the Calculator button to run the app from the Debug toolbar.](media/vs-2022/csharp-console-calculator-button.png)
+   :::image type="content" source="media/vs-2022/csharp-console-calculator-button.png" alt-text="Screenshot that shows selecting the Calculator button to run the app from the Debug toolbar.":::
 
    A console window opens that shows the sum of 42 + 119, which is **161**.
 
-   ![Screenshot of a Console window showing the results of integer math.](media/vs-2022/csharp-console-integer-math.png)
+   :::image type="content" source="media/vs-2022/csharp-console-integer-math.png" alt-text="Screenshot of a Console window showing the results of integer math.":::
 
 1. Close the console window.
 
-1. Optionally, you can change the operator to change the result. For example, you can change the `+` operator in the `int c = a + b;` line of code to `-` for subtraction, `*` for multiplication, or `/` for division. When you run the app, the result changes accordingly.
+1. **(Optional)** You can change the operator to change the result. For example, you can change the `+` operator in the `int c = a + b;` line of code to `-` for subtraction, `*` for multiplication, or `/` for division. When you run the app, the result changes accordingly.
 
 ::: moniker-end
 
@@ -267,7 +269,7 @@ Continue by adding a more complex set of calculator code to your project.
 
    Your app should look similar to the following screenshot:
 
-   ![Screenshot of a Console window showing the Calculator app with prompts.](media/csharp-console-calculator.png)
+   :::image type="content" source="media/csharp-console-calculator.png" alt-text="Screenshot of a Console window showing the Calculator app with prompts.":::
 
 ::: moniker-end
 
@@ -328,7 +330,7 @@ Continue by adding a more complex set of calculator code to your project.
 
    Your app should look similar to the following screenshot:
 
-   ![Screenshot of a Console window showing the Calculator app with prompts.](media/csharp-console-calculator.png)
+   :::image type="content" source="media/csharp-console-calculator.png" alt-text="Screenshot that shows a Console window with the Calculator app with prompts.":::
 
 ::: moniker-end
 
@@ -338,7 +340,7 @@ Now, tweak the code to add more functionality.
 
 The current calculator app only accepts and returns whole numbers. For example, if you run the app and divide the number 42 by the number 119, your result is zero, which isn't exact.
 
-![Screenshot of a Console window that shows the Calculator app returning an inexact whole number as a result.](./media/csharp-console-calculator-nodecimal.png)
+:::image type="content" source="media/csharp-console-calculator-nodecimal.png" alt-text="Screenshot of a Console window that shows the Calculator app returning an inexact whole number as a result.":::
 
 To fix the code to improve precision by handling decimals:
 
@@ -350,13 +352,13 @@ To fix the code to improve precision by handling decimals:
 
 1. Select the **Replace all** icon or press **Alt**+**A** to run the search and replace.
 
-   ![Animation of the Find and Replace control showing how to change the int variable to float.](media/find-replace-control-animation.gif)
+   :::image type="content" source="media/find-replace-control-animation.gif" alt-text="Animation of the Find and Replace control showing how to change the int variable to float.":::
 
 1. Run your calculator app again, and divide the number **42** by the number **119**.
 
    The app now returns a decimal number instead of zero.
 
-   ![Screenshot of a Console window showing the Calculator app that now returns a decimal numeral as a result.](media/csharp-console-calculator-decimal.png)
+   :::image type="content" source="media/csharp-console-calculator-decimal.png" alt-text="Screenshot of a Console window showing the Calculator app that now returns a decimal numeral as a result.":::
 
    Now the app can produce decimal results. Make a few more tweaks to the code so the app can calculate decimals too.
 
@@ -366,7 +368,7 @@ To fix the code to improve precision by handling decimals:
 
    The app now accepts decimal values, and returns a longer decimal numeral as its result.
 
-   ![Screenshot of a Console window showing the Calculator app that now accepts decimal numbers and returns a longer decimal result.](media/csharp-console-calculator-usedecimals.png)
+   :::image type="content" source="media/csharp-console-calculator-usedecimals.png" alt-text="Screenshot of a Console window showing the Calculator app that now accepts decimal numbers and returns a longer decimal result.":::
 
    In the [Revise the code](#revise-the-code) section, you reduce the number of decimal places in the results.
 
@@ -379,14 +381,14 @@ Let's walk through a few common user input errors, locate them in the debugger i
 > [!TIP]
 > For more information about the debugger and how it works, see [First look at the Visual Studio debugger](../../debugger/debugger-feature-tour.md).
 
-### Fix the "divide by zero" error
+### Fix the *divide by zero* error
 
 If you try to divide a number by zero, the console app might freeze, and then shows you what's wrong in the code editor.
 
-![Screenshot of the Visual Studio code editor showing a line highlighted in yellow and an Exception Unhandled error for 'Attempted to divide by zero'.](./media/csharp-console-calculator-dividebyzero-error.png)
+:::image type="content" source="media/csharp-console-calculator-dividebyzero-error.png" alt-text="Screenshot of the Visual Studio code editor showing a line highlighted in yellow and an Exception Unhandled error for 'Attempted to divide by zero'.":::
 
 > [!NOTE]
-> Sometimes the app doesn't freeze, and the debugger doesn't show a divide-by-zero error. Instead, the app might return an unexpected nonnumeric result, such as an infinity symbol. The following code fix still applies.
+> Sometimes the app doesn't freeze, and the debugger doesn't show a divide-by-zero error. Instead, the app might return an unexpected non-numeric result, such as an infinity symbol. The following code fix still applies.
 
 Let's change the code to handle this error. In *Program.cs*, replace the code for `case "d":` with the following code:
 
@@ -399,30 +401,33 @@ Let's change the code to handle this error. In *Program.cs*, replace the code fo
                 }
                 Console.WriteLine($"Your result: {num1} / {num2} = " + (num1 / num2));
                 break;
-        }
 ```
 
 After you replace the code, the section with the `switch` statement should look similar to the following screenshot:
 
-![Screenshot showing the revised switch section in the Visual Studio code editor.](media/csharp-console-calculator-switch-code.png)
+:::image type="content" source="media/csharp-console-calculator-switch-code.png" alt-text="Screenshot showing the revised switch section in the Visual Studio code editor.":::
 
 Now, when you divide any number by zero, the app asks for another number, and keeps asking until you provide a nonzero number.
 
-![Screenshot of a Console window with a repeated prompt to provide a nonzero number.](media/csharp-console-calculator-dividebyzero.png)
+:::image type="content" source="media/csharp-console-calculator-dividebyzero.png" alt-text="Screenshot of a Console window with a repeated prompt to provide a nonzero number.":::
 
-### Fix the "format" error
+### Fix the *format* error
 
 If you enter an alphabetic character when the app expects a numeric character, the app freezes. Visual Studio shows you what's wrong in the code editor.
 
 ::: moniker range="<=vs-2019"
-![Screenshot showing an unhandled format error in the Visual Studio code editor.](media/csharp-console-calculator-format-error.png)
+
+:::image type="content" source="media/csharp-console-calculator-format-error.png" alt-text="Screenshot showing an unhandled format error in the Visual Studio code editor.":::
+
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-![Screenshot showing an unhandled format error in the Visual Studio code editor.](media/vs-2022/csharp-console-calculator-format-error.png)
+
+:::image type="content" source="media/vs-2022/csharp-console-calculator-format-error.png" alt-text="Screenshot that shows an unhandled format error in the Visual Studio code editor.":::
+
 ::: moniker-end
 
-To prevent this exception, you can refactor the code you've previously entered.
+To prevent this exception, you can refactor the code you previously entered.
 
 :::moniker range="<=vs-2019"
 #### Revise the code
@@ -553,7 +558,7 @@ Let's get started.
 
 1. Follow the prompts and divide the number **42** by the number **119**. Your results should look similar to the following screenshot:
 
-   ![Screenshot showing a Console window with the refactored Calculator app.](media/csharp-console-calculator-refactored.png)
+   :::image type="content" source="media/csharp-console-calculator-refactored.png" alt-text="Screenshot showing a Console window with the refactored Calculator app.":::
 
    You can now run more calculations until you choose to close the console app. There are also fewer decimal places in the results. And if you enter an incorrect character, you get an appropriate error response.
 
@@ -699,7 +704,7 @@ Let's get started.
 
 1. Follow the prompts and divide the number **42** by the number **119**. Your results should look similar to the following screenshot:
 
-   ![Screenshot showing a Console window with the refactored Calculator app.](media/vs-2022/csharp-console-calculator-refactored.png)
+   :::image type="content" source="media/vs-2022/csharp-console-calculator-refactored.png" alt-text="Screenshot showing a Console window with the refactored Calculator app.":::
 
    You can now run more calculations until you choose to close the console app. There are also fewer decimal places in the results. And if you enter an incorrect character, you get an appropriate error response.
 
@@ -711,7 +716,7 @@ Let's get started.
 
 1. Close the **Output** pane in Visual Studio.
 
-   ![Screenshot that shows closing the Output pane in Visual Studio.](media/csharp-calculator-close-output-pane.png)
+   :::image type="content" source="media/csharp-calculator-close-output-pane.png" alt-text="Screenshot that shows closing the Output pane in Visual Studio.":::
 
 1. In Visual Studio, press **Ctrl**+**S** to save your app.
 
@@ -958,10 +963,9 @@ class Program
 ```
 :::moniker-end
 
-## Next steps
+## Next step
 
 Continue with the second part of this tutorial:
 
 > [!div class="nextstepaction"]
-> [Tutorial Part 2: Extend and debug your C# console app](tutorial-console-part-2.md)
-
+> [Part 2: Extend and debug your C# console app](tutorial-console-part-2.md)

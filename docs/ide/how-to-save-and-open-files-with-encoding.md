@@ -1,7 +1,7 @@
 ---
 title: Save and open files with encoding
 description: Learn how to save and open files with specific encoding in Visual Studio, and ensure files open correctly in subsequent use.
-ms.date: 08/15/2024
+ms.date: 01/13/2025
 ms.topic: how-to
 helpviewer_keywords:
 - Unicode, bidirectional language support
@@ -46,6 +46,14 @@ Follow these steps to save your file with encoding:
 
 > [!NOTE]
 > To save the project file with encoding, first unload the project. The **Save File As** option isn't enabled until you unload the project.
+
+::: moniker range=">= vs-2022"
+## Set the default encoding
+
+Starting in Visual Studio 2022 version 17.13 Preview 1, you can set the default encoding for saving files.
+
+To set the default, choose **Tools** > **Options** > **Environment**, **Documents**. Next, select **Save files with the following encoding**, and then select the encoding you want as the default.
+::: moniker-end
 
 ## Open encoded file with project
 

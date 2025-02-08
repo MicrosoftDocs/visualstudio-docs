@@ -80,7 +80,7 @@ Microsoft.Net.ComponentGroup.4.8.DeveloperTools | .NET Framework 4.8 development
 Microsoft.VisualStudio.Component.AppInsights.Tools | Developer Analytics tools | 17.12.35410.122 | Recommended
 Microsoft.VisualStudio.Component.Azure.AuthoringTools | Azure Authoring Tools | 17.12.35410.122 | Recommended
 Microsoft.VisualStudio.Component.Azure.Compute.Emulator | Azure Compute Emulator | 17.12.35410.122 | Recommended
-Microsoft.VisualStudio.Component.Azure.Powershell | Azure Powershell | 17.12.35410.122 | Recommended
+Microsoft.VisualStudio.Component.Azure.Powershell | Azure PowerShell | 17.12.35410.122 | Recommended
 Microsoft.VisualStudio.Component.Azure.ResourceManager.Tools | Azure Resource Manager core tools | 17.12.35410.122 | Recommended
 Microsoft.VisualStudio.Component.Azure.ServiceFabric.Tools | Service Fabric Tools | 17.12.35410.122 | Recommended
 Microsoft.VisualStudio.Component.Azure.Waverton | Azure Cloud Services core tools | 17.12.35410.122 | Recommended
