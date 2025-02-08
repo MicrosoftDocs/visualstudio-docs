@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: Discover recent changes in the Visual Studio documentation, including updated articles about getting started, the IDE, and deployment.
-ms.date: 01/06/2025
+ms.date: 02/03/2025
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -14,6 +14,192 @@ ms.topic: conceptual
 # What's new in Visual Studio docs
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
+
+## January 2025
+
+### Code quality
+
+**Updated articles**
+
+- [Code metrics - Maintainability index range and meaning](../code-quality/code-metrics-maintainability-index-range-and-meaning.md) - Add descriptions for color coding related to code quality maintainability index
+
+### Debugger
+
+**New articles**
+
+- [Implement NatVis custom intrinsic function for C++](../debugger/implementing-natvis-intrinsic-function.md)
+- [IDiaDataSourceEx2::findNamedStreams](../debugger/debug-interface-access/idiadatasourceex2-findnamedstreams.md)
+- [IDiaDataSourceEx2](../debugger/debug-interface-access/idiadatasourceex2.md)
+- [IDiaEnumNamedStreams::Clone](../debugger/debug-interface-access/idiaenumnamedstreams-clone.md)
+- [IDiaEnumNamedStreams::get_Count](../debugger/debug-interface-access/idiaenumnamedstreams-get-count.md)
+- [IDiaEnumNamedStreams::get__NewEnum](../debugger/debug-interface-access/idiaenumnamedstreams-get-newenum.md)
+- [IDiaEnumNamedStreams::Next](../debugger/debug-interface-access/idiaenumnamedstreams-next.md)
+- [IDiaEnumNamedStreams::Reset](../debugger/debug-interface-access/idiaenumnamedstreams-reset.md)
+- [IDiaEnumNamedStreams::Skip](../debugger/debug-interface-access/idiaenumnamedstreams-skip.md)
+- [IDiaEnumNamedStreams](../debugger/debug-interface-access/idiaenumnamedstreams.md)
+
+**Updated articles**
+
+- [Debug your app with GitHub Copilot in Visual Studio](../debugger/debug-with-copilot.md)
+  - Updates to debugging with Copilot
+  - Add more details for Copilot debugging features, list of features, and some refactoring
+- [Attach to running processes with the Visual Studio debugger](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md) - Add language configuration for Attach to Process article using zone pivots
+- [Debug using the Just-In-Time Debugger in Visual Studio](../debugger/debug-using-the-just-in-time-debugger.md) - Clarify instructions for disabling JIT debugger
+- [Adapt to removal of Windows Arm32 .NET debugging](../debugger/adapt-to-removal-of-windows-arm32-dotnet-debugging.md) - Update Arm32 debugger documentation with UWP deployment steps
+- [First look at the Visual Studio Debugger](../debugger/debugger-feature-tour.md) - Add more details for Copilot debugging features, list of features, and some refactoring
+- [Configure Edit and Continue (C#, VB, C++)](../debugger/how-to-enable-and-disable-edit-and-continue.md) - Update Hot Reload settings
+- [Debug ASP.NET or ASP.NET Core apps in Visual Studio](../debugger/how-to-enable-debugging-for-aspnet-applications.md)
+  - Add instructions and links to clarify remote debugging scenarios for C# and C++
+  - Update for Copilot multi-threaded debugging and updates related to ASP.NET Core launch profile default settings
+- [Remote Debugging](../debugger/remote-debugging.md)
+  - Add instructions and links to clarify remote debugging scenarios for C# and C++
+  - Update for Copilot multi-threaded debugging and updates related to ASP.NET Core launch profile default settings
+- [View threads and tasks in the Parallel Stacks window (C#, Visual Basic, C++)](../debugger/using-the-parallel-stacks-window.md) - Update for Copilot multi-threaded debugging and updates related to ASP.NET Core launch profile default settings
+- [Use the right type of breakpoint](../debugger/using-breakpoints.md) - Add language and runtime pivots to profiling articles
+- [Create custom views of C++ objects in the debugger using the Natvis framework](../debugger/create-custom-views-of-native-objects.md) - Add article documenting guidelines for using NatVis Intrinsic expansion
+- [IDiaDataSource](../debugger/debug-interface-access/idiadatasource.md) - Document `IDiaEnumNamedStreams` and related interfaces and APIs
+- [IDiaDataSourceEx](../debugger/debug-interface-access/idiadatasourceex.md) - Document `IDiaEnumNamedStreams` and related interfaces and APIs
+- [Interfaces (Debug Interface Access SDK)](../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md) - Document `IDiaEnumNamedStreams` and related interfaces and APIs
+
+### Designers
+
+**Updated articles**
+
+- [Model editor](../designers/model-editor.md) - Add note about support changes to MeshContentTask for 3D graphics
+- [Use 3D assets in your game or app](../designers/using-3-d-assets-in-your-game-or-app.md) - Add note about support changes to MeshContentTask for 3D graphics
+
+### Extensibility
+
+**New articles**
+
+- [Extending Visual Studio editor with a new CodeLens](../extensibility/visualstudio.extensibility/editor/walkthroughs/codelens.md)
+- [Changing text in the editor](../extensibility/visualstudio.extensibility/editor/walkthroughs/editing-text.md)
+- [Extending Visual Studio editor with a new margin](../extensibility/visualstudio.extensibility/editor/walkthroughs/textview-margin.md)
+- [Working with text in the editor](../extensibility/visualstudio.extensibility/editor/walkthroughs/working-with-text.md)
+
+**Updated articles**
+
+- [Editor extensibility concepts](../extensibility/visualstudio.extensibility/editor/editor-concepts.md) - Initial refactor of editor documentation.
+- [Extending the Visual Studio editor](../extensibility/visualstudio.extensibility/editor/editor.md) - Initial refactor of editor documentation.
+
+### Get started
+
+**Updated articles**
+
+- [Learn to use the code editor](../get-started/tutorial-editor.md) - Review and update
+- [Tutorial: Create a simple C# console app in Visual Studio (part 1 of 2)](../get-started/csharp/tutorial-console.md) - Review and update
+
+### IDE
+
+**New articles**
+
+- [What is GitHub Copilot Edits (Preview)?](../ide/copilot-edits.md)
+
+**Updated articles**
+
+- [What is the GitHub Copilot Chat experience for Visual Studio?](../ide/visual-studio-github-copilot-chat.md) - Add more details for Copilot debugging features, list of features, and some refactoring
+- [Find and replace text in Visual Studio](../ide/finding-and-replacing-text.md)
+  - Explain more about Replace in Files options
+  - Review and update
+- [Compare files in Visual Studio](../ide/compare-with.md) - Add text to explain that you can edit the target file in the usual ways
+- [Tour the Visual Studio IDE](../ide/quickstart-ide-orientation.md) - Freshness update
+- [Use GitHub Copilot for free in Visual Studio](../ide/copilot-free-plan.md)
+  - Add keyboard shortcut for chat
+  - Copilot free update
+- [Tutorial: Create a WinForms app with Visual Basic](../ide/create-a-visual-basic-winform-in-visual-studio.md) - Review and update
+- [IntelliSense in Visual Studio](../ide/using-intellisense.md) - Review and update
+- [Tutorial: Create a Windows Forms app in Visual Studio with C\#](../ide/create-csharp-winform-visual-studio.md) - Review and update
+- [Save and open files with encoding](../ide/how-to-save-and-open-files-with-encoding.md) - Add content for changing the default file encoding
+- [Change fonts, colors, and themes in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md) - Add info on fonts for UI elements in apps
+- [Compile and build in Visual Studio](../ide/compiling-and-building-in-visual-studio.md) - Review and update
+- [Find in Files Command](../ide/reference/find-in-files-command.md) - Update Find/Replace in Files options for Visual Studio` 2022
+- [Replace In Files Command](../ide/reference/replace-in-files-command.md) - Update Find/Replace in Files options for Visual Studio 2022
+
+### Install
+
+**Updated articles**
+
+- [Command-line parameter examples for Visual Studio installation](../install/command-line-parameter-examples.md) - Add information for UUF verbatim on non-interactive install
+
+### JavaScript
+
+**Updated articles**
+
+- [Tutorial: Create an ASP.NET Core app with Angular in Visual Studio](../javascript/tutorial-asp-net-core-with-angular.md)
+  - Add content showing final app state for JSTS templates
+- [Tutorial: Create an ASP.NET Core app with React in Visual Studio](../javascript/tutorial-asp-net-core-with-react.md) - Add content showing final app state for JSTS templates
+- [Tutorial: Create an ASP.NET Core app with Vue in Visual Studio](../javascript/tutorial-asp-net-core-with-vue.md) - Add content showing final app state for JSTS templates
+
+### Modeling
+
+**Updated articles**
+
+- [Analyze and model your architecture](../modeling/analyze-and-model-your-architecture.md) - Update analyze-and-model-your-architecture.md
+
+### MSBuild
+
+**Updated articles**
+
+- [XmlPoke task](../msbuild/xmlpoke-task.md) - Mention what to do if there's no prefix
+- Add details for MSBuild error messages:
+  - [MSB3103: Invalid Resx file](../msbuild/errors/msb3103.md)
+  - [MSB3202](../msbuild/errors/msb3202.md)
+  - [MSB3245](../msbuild/errors/msb3245.md)
+  - [MSB3248 diagnostic code](../msbuild/errors/msb3248.md)
+  - [MSB3249 diagnostic code](../msbuild/errors/msb3249.md)
+  - [MSB4066 diagnostic code](../msbuild/errors/msb4066.md)
+  - [MSB4186 diagnostic code](../msbuild/errors/msb4186.md)
+  - [MSB4211 diagnostic code](../msbuild/errors/msb4211.md)
+  - [MSB4248 diagnostic code](../msbuild/errors/msb4248.md)
+- [Common MSBuild project items](../msbuild/common-msbuild-project-items.md) - Document MSBuild support for 'IfDifferent' for 'CopyToOutputDirectory'
+
+### Profiling
+
+**Updated articles**
+
+- [Diagnose high latency with CPU Insights](../profiling/cpu-insights.md) - Add more details for Copilot debugging features, list of features, and some refactoring
+- [Analyze memory usage in release builds (C#, Visual Basic, C++, F#)](../profiling/memory-usage-without-debugging2.md)
+  - Add language and runtime pivots to profiling articles
+  - Update and clarify Hot paths to root profiling article, SEO edits
+  - Clarify scenarios for running profiling tools in debug or release builds
+- [First look at profiling tools (C#, Visual Basic, C++, F#)](../profiling/profiling-feature-tour.md)
+  - Add language and runtime pivots to profiling articles
+  - Clarify scenarios for running profiling tools in debug or release builds
+- [Analyze hot path to root in the Memory Usage tool](../profiling/hot-path-to-root.md) - Update and clarify Hot paths to root profiling article, SEO edits
+- [Measure memory usage in Visual Studio (C#, Visual Basic, C++, F#)](../profiling/memory-usage.md)
+  - Update and clarify Hot paths to root profiling article, SEO edits
+  - Clarify scenarios for running profiling tools in debug or release builds
+- [Choose a memory analysis tool in Visual Studio (C#, Visual Basic, C++, F#)](../profiling/analyze-memory-usage.md) - Clarify scenarios for running profiling tools in debug or release builds
+- [Analyze resource consumption and UI thread activity (XAML)](../profiling/application-timeline.md) - Clarify scenarios for running profiling tools in debug or release builds
+- [Run profiling tools on release or debug builds (C#, Visual Basic, C++, F#)](../profiling/running-profiling-tools-with-or-without-the-debugger.md) - Clarify scenarios for running profiling tools in debug or release builds
+
+### Test
+
+**Updated articles**
+
+- [Microsoft.CodeCoverage.Console tool](../test/microsoft-code-coverage-console-tool.md) - Clarify instructions and scenarios for Microsoft.CodeCoverage.Console
+
+### Version control
+
+**Updated articles**
+
+- [Make a Git commit in Visual Studio](../version-control/git-make-commit.md)
+  - Add new feature: Custom commit message format
+  - New feature: Git code review
+- [Create a pull request in Visual Studio](../version-control/git-create-pull-request.md)
+  - Add PR comment feature
+  - Review and update
+- [Manage Git repositories in Visual Studio](../version-control/git-manage-repository.md) - Add info about when Revert might be disabled
+
+### Community contributors
+
+The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
+
+- [changeworld](https://github.com/changeworld) - Takashi Takebayashi ![10 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-10-green)
+- [Rageking8](https://github.com/Rageking8) -  ![3 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-3-green)
+- [cdpark](https://github.com/cdpark) - CD Park ![2 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-2-green)
+- [PhilKang0704](https://github.com/PhilKang0704) - Phil ![2 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-2-green)
+- [stevenwdv](https://github.com/stevenwdv) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 
 ## December 2024
 
@@ -316,130 +502,4 @@ The following people contributed to the Visual Studio docs during this period. T
 - [PhilKang0704](https://github.com/PhilKang0704) - Phil ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [prasoonpankaj](https://github.com/prasoonpankaj) - Prasoon Pankaj ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [saranshsaini](https://github.com/saranshsaini) - Saransh Saini ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-
-## October 2024
-
-### Azure
-
-**Updated articles**
-
-- [Add a connection to an Azure SQL Database](../azure/azure-sql-database-add-connected-service.md) - Connected Services security updates for 17.12
-- [Adding Azure Storage by using Visual Studio Connected Services](../azure/vs-azure-tools-connected-services-storage.md) - Connected Services security updates for 17.12
-- [Add Key Vault to your web application by using Visual Studio Connected Services](../azure/vs-key-vault-add-connected-service.md) - Connected Services security updates for 17.12
-- [Create an Azure Cloud Services (extended support) project with Visual Studio](../azure/vs-azure-tools-azure-project-create.md) - Retire classic cloud services
-- [Manage roles in Azure Cloud Services (extended support)](../azure/vs-azure-tools-cloud-service-project-managing-roles.md) - Retire classic cloud services
-- [Configure Azure Cloud Services (extended support) roles with Visual Studio](../azure/vs-azure-tools-configure-roles-for-cloud-service.md) - Retire classic cloud services
-- [Debug an Azure Cloud Services (extended support) service in Visual Studio](../azure/vs-azure-tools-debug-cloud-services-virtual-machines.md) - Retire classic cloud services
-- [Set up diagnostics for Azure Cloud Services (extended support) and virtual machines](../azure/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md) - Retire classic cloud services
-
-### Containers
-
-**New articles**
-
-- [Build a container project from the command line](../containers/container-build-from-command-line.md)
-- [Use SSL for containerized ASP.NET Core apps](../containers/container-certificate-management.md)
-- [Customize container images for debugging](../containers/container-debug-customization.md)
-- [Set the container entry point](../containers/container-entry-point.md)
-- [Customize container volume mapping](../containers/container-volume-mapping.md)
-
-**Updated articles**
-
-- [Container Tools launch settings](../containers/container-launch-settings.md) - Launch profile settings for 17.12
-- [Tutorial: Create a multi-container app with Docker Compose](../containers/tutorial-multicontainer.md) - Update the Docker Compose multicontainer tutorial for .NET 8
-- [Customize Docker containers in Visual Studio](../containers/container-build.md) - Split up large article about customizing containerized app projects
-- [Debug apps in a local Docker container](../containers/edit-and-refresh.md) - Split up large article about customizing containerized app projects
-
-### Debugger
-
-**New articles**
-
-- [Send command-line arguments to a debugee (C++)](../debugger/specify-command-line-arguments.md)
-
-**Updated articles**
-
-- [Tabular visualizers in Visual Studio](../debugger/view-data-in-tabular-visualizer.md) - Update debugger article on tabular visualizer with Copilot content
-- [Project settings for a C++ debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md) - draft new command arguments topic
-- [Specify symbol (.pdb) and source files in the Visual Studio debugger (C#, C++, Visual Basic, F#)](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) - Update debug pdb documentation.
-
-### Deployment
-
-**New articles**
-
-- [Manage web deployment settings](../deployment/web-deployment-settings.md)
-
-**Updated articles**
-
-- [Quickstart: Publish an ASP.NET web app](../deployment/quickstart-deploy-aspnet-web-app.md) - Web deployment settings - new article
-
-### Extensibility
-
-**New articles**
-
-- [Choose the right Visual Studio extensibility model for you](../extensibility/visualstudio.extensibility/extensibility-models.md)
-
-### Get started
-
-**Updated articles**
-
-- [Tutorial: Get started with C# and ASP.NET Core in Visual Studio](../get-started/csharp/tutorial-aspnet-core.md) - Freshness updates
-
-### IDE
-
-**Updated articles**
-
-- [Set multiple startup projects](../ide/how-to-set-multiple-startup-projects.md) - Add coverage of multi-project launch profiles
-- [Build and clean projects and solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md) - Review and update. Add batch build.
-- [/Build (devenv.exe)](../ide/reference/build-devenv-exe.md) - Add info about building setup projects
-- [Title not found in: ](../ide/whats-new-visual-studio-docs.md) - What's new in Visual Studio docs - update for September
-
-### Install
-
-**Updated articles**
-
-- [Configure installation default settings using a response file](../install/automated-installation-with-response-file.md) - Add specific 2019 and 2022 examples
-
-### JavaScript
-
-**New articles**
-
-- [Create a React app in Visual Studio](../javascript/create-react-app.md)
-
-**Updated articles**
-
-- [Create a React project](../javascript/tutorial-create-react-app.md) - Add Tutorial for React, update React, Vue, Angular articles
-
-### Modeling
-
-**Updated articles**
-
-- [Customize File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md) - Added a note about DSL modeling changes regarding BinaryFormatter
-
-### MSBuild
-
-**Updated articles**
-
-- [MSBuild command-line reference](../msbuild/msbuild-command-line-reference.md) - Change formatting for better localization
-- [Tutorial: Use MSBuild](../msbuild/walkthrough-using-msbuild.md) - Review and update
-
-### Profiling
-
-**Updated articles**
-
-- [Case study: Isolate a performance issue (C#, Visual Basic, F#)](../profiling/isolate-performance-issue.md) - Update Copilot information in the Visual Studio Profiling case studies
-- [Case Study: Beginner's guide to optimizing code and reducing compute costs (C#, Visual Basic, C++, F#)](../profiling/optimize-code-using-profiling-tools.md) - Update Copilot information in the Visual Studio Profiling case studies
-- [Identify hot paths with a flame graph (C#, Visual Basic, C++, F#)](../profiling/flame-graph.md) - Update Flame Graph article with additional context and information
-
-### Windows
-
-**Updated articles**
-
-- [Visual Studio documentation](../windows/index.yml) - Remove low traffic and out-of-date links, add some links
-
-### Community contributors
-
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
-
-- [Michael-K-Stein](https://github.com/Michael-K-Stein) - Michael Kuperfish Steinberg ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [NenoLoje](https://github.com/NenoLoje) - Neno Loje ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [PhilKang0704](https://github.com/PhilKang0704) - Phil ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 
