@@ -101,4 +101,4 @@ Displays a clickable icon to open the [Problem Details window](../../ide/referen
 
 ## Disable the Error List window
 
-Like any other tool window, there are a variety of ways to manage the window. You can set it to auto-hide, close it, or create a window layout that does or doesn't contain the Error List window. See [Customize window layouts in Visual Studio - Close and autohide tool windows](customizing-window-layouts-in-visual-studio.md#close-and-autohide-tool-windows).
+Like any other tool window, there are a variety of ways to manage the window. You can set it to auto-hide, close it, or create a window layout that does or doesn't contain the Error List window. See [Customize window layouts in Visual Studio - Close and autohide tool windows](../customizing-window-layouts-in-visual-studio.md#close-and-autohide-tool-windows).
