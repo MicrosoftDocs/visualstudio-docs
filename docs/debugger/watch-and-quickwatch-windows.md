@@ -1,7 +1,7 @@
 ---
 title: Set a watch on variables and expressions
 description: While you debug, see variables and expressions in Watch and QuickWatch. Watch can display several variables, QuickWatch only one, and only while in break.
-ms.date: 04/25/2024
+ms.date: 02/10/2025
 ms.topic: how-to
 f1_keywords:
   - "vs.debug.quickwatch"
@@ -356,6 +356,12 @@ To observe the `a` variable,
 1. Select **Close** to close the **QuickWatch** window. (**QuickWatch** is a modal dialog, so you can't continue debugging as long as it is open.)
 
 1. Continue debugging. You can observe the variable in the **Watch** window.
+
+::: moniker range=">= vs-2022"
+## Get AI assistance
+
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at variables in the Watch windows. Right-click on a variable and use the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+::: moniker-end
 
 ## Related content
 - [What is debugging?](../debugger/what-is-debugging.md)
