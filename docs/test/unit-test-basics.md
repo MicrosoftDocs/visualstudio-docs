@@ -195,8 +195,6 @@ For more information about the Microsoft unit testing frameworks, see one of the
 
 - [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
 
-- [Use the MSTest framework in unit tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
-
 ## Set timeouts for unit tests
 
 If you're using the MSTest framework, you can use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute> to set a timeout on an individual test method:

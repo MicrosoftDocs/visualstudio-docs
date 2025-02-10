@@ -62,10 +62,6 @@
       href: walkthrough-creating-and-running-unit-tests-for-managed-code.md
     - name: 'Walkthrough: Test-driven development'
       href: quick-start-test-driven-development-with-test-explorer.md
-    - name: Use the MSTest framework in unit tests
-      href: using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md
-    - name: Use the assert classes
-      href: using-the-assert-classes.md
     - name: Microsoft Fakes
       items:
       - name: Isolate code under test
