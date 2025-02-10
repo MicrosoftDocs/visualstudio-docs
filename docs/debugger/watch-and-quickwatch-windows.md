@@ -149,7 +149,7 @@ To refresh the value, select the refresh icon, or press the spacebar. The debugg
 
 Hover over the refresh icon or see the **Value** column for the reason the expression wasn't evaluated. Reasons include:
 
-- An error occurred as the expression was being evaluated, as in the previous example. A timeout might occur, or a variable might be out of scope.
+- An error occurred as the expression was being evaluated, as in the previous example. A  time-out might occur, or a variable might be out of scope.
 
 - The expression has a function call that could trigger a side effect in the app. See [Expression side effects](#bkmk_sideEffects).
 
