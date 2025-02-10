@@ -54,7 +54,7 @@ The files created in one container aren't available in another.
 
 1. In VS Code, in the Container Explorer, right-click the ubuntu container and select **Attach Shell**.
 
-   ![Screenshot shows the Container Tools extension with a container selected and a context menu with Attach Shell selected.](media/attach_shell.png) <!-- TODO: Image needs updating -->
+   ![Screenshot shows the Container Tools extension with a container selected and a context menu with Attach Shell selected.](media/attach_shell.png)
 
    A terminal opens that is running a shell in the Ubuntu container.
 

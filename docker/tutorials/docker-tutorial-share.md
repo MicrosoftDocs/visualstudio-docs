@@ -43,7 +43,7 @@ Let's make a few changes and learn about managing your containers.
 
    Right-click the **getting-started** container and select **Remove**.
 
-   ![Screenshot shows the Container Tools extension with a container selected and a context menu with Remove selected.](media/vs-remove-container.png) <!-- TODO: Image needs updating -->
+   ![Screenshot shows the Container Tools extension with a container selected and a context menu with Remove selected.](media/vs-remove-container.png)
 
    Or, from the command line, use the following command to get the container ID.
 

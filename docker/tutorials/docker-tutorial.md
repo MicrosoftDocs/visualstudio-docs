@@ -73,7 +73,7 @@ Unless specified, any command labeled as **Bash** can run in a Bash window or th
 
 1. In VS Code, select the Containers icon on the left to view the Container Explorer.
 
-   ![Screenshot shows the Container Tools extension with the docker/getting-started tutorial running.](media/vs-tutorial-docker-extension.png) <!-- TODO: Image needs updating -->
+   ![Screenshot shows the Container Tools extension with the docker/getting-started tutorial running.](media/vs-tutorial-docker-extension.png)
 
    The Container Tools VS Code Extension shows you the containers running on your computer.
    You can access container logs and manage container lifecycle, such as stop and remove.
@@ -127,7 +127,7 @@ A Dockerfile is a text-based script of instructions that is used to create a con
    Navigate to the *app* folder in the extracted project and open that folder.
    You should see a file called *package.json* and two folders called *src* and *spec*.
 
-   ![Screenshot of Visual Studio Code showing the package.json file open with the app loaded.](media/ide-screenshot.png) <!-- TODO: Image needs updating -->
+   ![Screenshot of Visual Studio Code showing the package.json file open with the app loaded.](media/ide-screenshot.png)
 
 1. Create a file named *Dockerfile* in the same folder as the file *package.json* with the following contents.
 

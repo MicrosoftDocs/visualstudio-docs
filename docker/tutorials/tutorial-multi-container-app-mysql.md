@@ -57,7 +57,7 @@ In this tutorial, you:
 This tutorial series describes procedures for Visual Studio Code (VS Code). Review the following considerations for working in this environment:
 
 - Use the left menu to switch between the **CONTAINER EXPLORER** or the **EXPLORER** (file and folder) view:
-<!-- TODO: Image needs updating -->
+
    :::image type="content" source="./media/vs-code-docker-explorer-views.png" border="false" alt-text="Screenshot that shows the Container Explorer and file/folder Explorer view in Visual Studio Code.":::
 
 - Open a command-line window in VS Code by selecting **Terminal** > **New Terminal**. You can also use the **Ctrl**+**Shift**+**`** (back tick) keyboard shortcut.
