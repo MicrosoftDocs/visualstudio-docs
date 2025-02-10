@@ -476,7 +476,7 @@ Now you can try running your *docker-compose.yml* file.
 
    Follow these steps in VS Code:
 
-   1. Open the **DOCKER** (Docker extension) view.
+   1. Open the **CONTAINER EXPLORER** (Container Tools extension).
    
    1. Right-click the app container and select **View Logs**.
 
