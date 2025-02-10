@@ -50,7 +50,7 @@ In addition, the property `DockerComposeProjectPath` in a `.csproj` or `.vbproj`
 
 ## Example
 
-If you change the location of the `docker-compose` files, by setting `DockerComposeBaseFilePath` to a relative path, then you also need to make sure that the build context is changed so that it references the solution folder. For example, if your `docker-compose` file is a folder called *DockerComposeFiles*, then Docker Compose file should set the build context to ".." or "../..", depending on where it's relative to the solution folder.
+If you change the location of the `docker-compose` files, by setting `DockerComposeBaseFilePath` to a relative path, then you also need to make sure that the build context is changed so that it references the solution folder. For example, if your `docker-compose` file is a folder called *DockerComposeFiles*, then Docker Compose file should set the build context to ".." or "../..", depending on where it is relative to the solution folder.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
