@@ -1,6 +1,6 @@
 ---
 title: "Tutorial: Persist data in named volumes (VS Code)"
-description: Persist data in named volumes, use bind mounts to control the mountpoint on the host, and layer (Yarn) your Docker application with Visual Studio Code.
+description: Persist data in named volumes, use bind mounts to control the mountpoint on the host, and layer (Yarn) your container application with Visual Studio Code.
 author: ghogen
 ms.author: ghogen
 ms.service: vs-code
@@ -34,7 +34,7 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-This tutorial continues the previous tutorial, [Create and share a Docker app with Visual Studio Code](docker-tutorial.md).
+This tutorial continues the previous tutorial, [Create and share a container app with Visual Studio Code](docker-tutorial.md).
 Start with that one, which includes prerequisites.
 
 ## Understand data across containers
@@ -52,9 +52,9 @@ The files created in one container aren't available in another.
    The first portion picks a single random number and writes it to `/data.txt`.
    The second command is watching a file to keep the container running.
 
-1. In VS Code, in the **Docker** area, right-click the ubuntu container and select **Attach Shell**.
+1. In VS Code, in the Container Explorer, right-click the ubuntu container and select **Attach Shell**.
 
-   ![Screenshot shows the Docker extension with a container selected and a context menu with Attach Shell selected.](media/attach_shell.png)
+   ![Screenshot shows the Container Tools extension with a container selected and a context menu with Attach Shell selected.](media/attach_shell.png) <!-- TODO: Image needs updating -->
 
    A terminal opens that is running a shell in the Ubuntu container.
 
@@ -129,7 +129,7 @@ Refer to the name of the volume, and Docker provides the right data.
    ![Screenshot shows the sample app with several items added to the list.](media/items-added.png)
 
 1. Remove the **getting-started** container for the todo app.
-   Either right-click the container in the Docker area and select **Remove** or use the `docker stop` and `docker rm` commands.
+   Either right-click the container in the Container Explorer and select **Remove** or use the `docker stop` and `docker rm` commands.
 
 1. Start a new container using the same command:
 

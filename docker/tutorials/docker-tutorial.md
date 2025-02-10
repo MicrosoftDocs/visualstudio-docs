@@ -1,7 +1,7 @@
 ---
-title: Get started with Docker apps in Visual Studio Code
+title: Get started with container apps in Visual Studio Code
 titleSuffix: ""
-description: Create Docker applications with Visual Studio Code, the Docker Visual Studio Code Extension, Docker Desktop, and Docker Hub.
+description: Create container applications with Visual Studio Code, the Container Tools Visual Studio Code Extension, Docker Desktop, and Docker Hub.
 author: ghogen
 ms.author: ghogen
 ms.service: vs-code
@@ -10,11 +10,11 @@ ms.date: 05/30/2024
 # Agreed with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---
 
-# Tutorial: Create a Docker app with Visual Studio Code
+# Tutorial: Create a container app with Visual Studio Code
 
 This tutorial is the beginning of a four-part series introducing [Docker](https://www.docker.com) for use with Visual Studio Code (VS Code).  You'll learn to create and run Docker containers, [persist data](tutorial-persist-data-layer-docker-app-with-vscode.md), and manage multiple containers with Docker Compose.
 
-VS Code offers a Docker extension that lets you work with a local Docker Desktop service. Docker Desktop runs on your computer and manages your local containers, which are compact virtualized environments that provide a platform for building and running apps.  Containers don't require the size and overhead of a complete operating system.
+VS Code offers a Container Tools extension that lets you work with a local Docker Desktop service. Docker Desktop runs on your computer and manages your local containers, which are compact virtualized environments that provide a platform for building and running apps.  Containers don't require the size and overhead of a complete operating system.
 
 In this first tutorial, you learn how to:
 
@@ -26,7 +26,7 @@ In this first tutorial, you learn how to:
 ## Prerequisites
 
 - [Visual Studio Code](https://code.visualstudio.com/download) installed.
-- [Docker VS Code Extension](https://code.visualstudio.com/docs/containers/overview) installed.
+- [Container Tools VS Code Extension](https://code.visualstudio.com/docs/containers/overview) installed.
 - [Docker Desktop](https://docs.docker.com/desktop/) configured to use Linux containers.
 - A [Docker Hub](https://hub.docker.com/signup) account. You can create an account for free.
 
@@ -42,8 +42,8 @@ This custom filesystem is provided by a *container image*.
 The image contains everything needed to run an application, such as all dependencies, configuration, scripts, and binaries.
 The image also contains other configuration for the container, such as environment variables, a default command to run, and other metadata.
 
-After you install the Docker extension for VS Code, you can work with containers in VS Code.
-In addition to context menus in the Docker pane, you can select **Terminal** > **New Terminal** to open a command-line window.
+After you install the Container Tools extension for VS Code, you can work with containers in VS Code.
+In addition to context menus in the Container Explorer, you can select **Terminal** > **New Terminal** to open a command-line window.
 You can also run commands in a Bash window.
 Unless specified, any command labeled as **Bash** can run in a Bash window or the VS Code terminal.
 
@@ -71,11 +71,11 @@ Unless specified, any command labeled as **Bash** can run in a Bash window or th
    > docker run -dp 80:80 docker/getting-started
    > ```
 
-1. In VS Code, select the Docker icon on the left to view the Docker extension.
+1. In VS Code, select the Containers icon on the left to view the Container Explorer.
 
-   ![Screenshot shows the Docker extension with the docker/getting-started tutorial running.](media/vs-tutorial-docker-extension.png)
+   ![Screenshot shows the Container Tools extension with the docker/getting-started tutorial running.](media/vs-tutorial-docker-extension.png) <!-- TODO: Image needs updating -->
 
-   The Docker VS Code Extension shows you the containers running on your computer.
+   The Container Tools VS Code Extension shows you the containers running on your computer.
    You can access container logs and manage container lifecycle, such as stop and remove.
 
    The container name, **modest_shockley** in this example, is randomly created.
@@ -127,7 +127,7 @@ A Dockerfile is a text-based script of instructions that is used to create a con
    Navigate to the *app* folder in the extracted project and open that folder.
    You should see a file called *package.json* and two folders called *src* and *spec*.
 
-   ![Screenshot of Visual Studio Code showing the package.json file open with the app loaded.](media/ide-screenshot.png)
+   ![Screenshot of Visual Studio Code showing the package.json file open with the app loaded.](media/ide-screenshot.png) <!-- TODO: Image needs updating -->
 
 1. Create a file named *Dockerfile* in the same folder as the file *package.json* with the following contents.
 
@@ -178,7 +178,7 @@ Now that you have an image, you can run the application.
    The `-p` value creates a mapping between the host port 3000 and the container port 3000.
    Without the port mapping, you wouldn't be able to access the application.
 
-1. After a few seconds, in VS Code, in the Docker area, under **CONTAINERS**, right-click **getting-started** and select **Open in Browser**.
+1. After a few seconds, in VS Code, in the Container Explorer, under **CONTAINERS**, right-click **getting-started** and select **Open in Browser**.
    You can instead open your web browser to `http://localhost:3000`.
 
    You should see the app running.
@@ -196,7 +196,7 @@ Keep everything that you've done so far to continue this series of tutorials.
 Next, try part II of this series:
 
 > [!div class="nextstepaction"]
-> [Update and share a Docker app](docker-tutorial-share.md)
+> [Update and share a container app](docker-tutorial-share.md)
 
 Here are some resources that might be useful to you:
 - [Docker Cloud Integration](https://github.com/docker/compose-cli)
