@@ -21,7 +21,7 @@ ms.subservice: deployment
 ---
 # Application deployment prerequisites (Windows desktop)
 
-To successfully install and run a Windows desktop application using either [ClickOnce](../deployment/clickonce-security-and-deployment.md) or a [Setup](../deployment/deploying-applications-services-and-components.md?view=vs-2022#create-an-installer-package-windows-desktop-1) project, the components upon which your application depends must be installed onto the target computer.
+To successfully install and run a Windows desktop application using either [ClickOnce](../deployment/clickonce-security-and-deployment.md) or a [Setup](../deployment/deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop-1) project, the components upon which your application depends must be installed onto the target computer.
 
 You can select required components, called prerequisites, such as the .NET Framework and any other redistributable as a part of your installation, a practice known as *bootstrapping*. Visual Studio generates a Windows executable program named *Setup.exe*, also known as a *bootstrapper*. The bootstrapper is responsible for installing these prerequisites before your application runs. For more information about selecting these prerequisites, see [Prerequisites dialog box](../ide/reference/prerequisites-dialog-box.md).
 
