@@ -1,7 +1,7 @@
 ---
 title: "Accessibility tips and tricks for Visual Studio"
 description: Discover tips and tricks that help make the Visual Studio integrated development environment (IDE) more accessible for everyone, including people with disabilities.
-ms.date: 1/30/2025
+ms.date: 02/11/2025
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
@@ -19,7 +19,7 @@ You can also learn how to use annotations to reveal useful information about you
 
 Visual Studio supports screen readers in the IDE. The following screen readers have been tested:
 
-- [NV Access](https://www.nvaccess.org)
+- [NVDA Screen Reader](https://www.nvaccess.org)
 - [Job Access With Speech (JAWS)](https://www.freedomscientific.com/products/software/jaws)
 - [Narrator](https://support.microsoft.com/help/22798)
 

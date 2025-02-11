@@ -5,7 +5,7 @@ ms.custom: vs-acquisition
 dev_langs:
   - "CSharp"
   - "VB"
-ms.date: 01/30/2025
+ms.date: 02/11/2025
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
@@ -44,9 +44,7 @@ To keep track of time during the quiz, you use a Timer component. You also need 
 
 2. In **Windows Forms Designer**, move a <xref:System.Windows.Forms.Timer> control from the **Components** category of the **Toolbox** to your form. The control appears in the gray area at the bottom of the design window.
 
-   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/add-timer-control.png" alt-text="Screenshot that shows the Timer control in the Toolbox.":::
-
-3. On the form, select the **Timer1** icon that you just added, and set its **Interval** property to *1000*. Because this interval is in milliseconds, a value of 1000 causes the timer to raise a <xref:System.Windows.Forms.Timer.Tick> event every second.
+3. On the form, select the Timer icon that you just added, and set its **Interval** property to *1000*. Because this interval is in milliseconds, a value of 1000 causes the timer to raise a <xref:System.Windows.Forms.Timer.Tick> event every second.
 
 ## Check the answers
 
