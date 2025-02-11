@@ -23,11 +23,11 @@ ms.subservice: deployment
 
 To successfully install and run a Windows desktop application using either [ClickOnce](../deployment/clickonce-security-and-deployment.md) or a [Setup](../deployment/deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop-1) project, the components upon which your application depends must be installed onto the target computer.
 
-You can select required components, called prerequisites, such as the .NET Framework and any other redistributable as a part of your installation, a practice known as *bootstrapping*. Visual Studio generates a Windows executable program named *Setup.exe*, also known as a *bootstrapper*. The bootstrapper is responsible for installing these prerequisites before your application runs. For more information about selecting these prerequisites, see [Prerequisites dialog box](../ide/reference/prerequisites-dialog-box.md).
+You can select required components, called prerequisites, such as the .NET Framework and any other redistributable as a part of your installation. The process of installing prerequisites is known as *bootstrapping*. Visual Studio generates a Windows executable program named *Setup.exe*, also known as a *bootstrapper*. The bootstrapper is responsible for installing these prerequisites before your application runs. For more information about selecting these prerequisites, see [Prerequisites dialog box](../ide/reference/prerequisites-dialog-box.md).
 
-A *bootstrapper package* is a group of directories and files containing the manifest files that describe how the prerequisites are installed. Each prerequisite that appears in the **Prerequisites Dialog Box** is a bootstrapper package. If your application prerequisites are not listed in the **Prerequisite Dialog Box**, you can create custom bootstrapper packages and add them to Visual Studio. Then you can select the prerequisites in the **Prerequisites Dialog Box**. For more information, see [Create bootstrapper packages](../deployment/creating-bootstrapper-packages.md).
+A *bootstrapper package* is a group of directories and files containing the manifest files that describe how the prerequisites are installed. Each prerequisite that appears in the **Prerequisites Dialog Box** is a bootstrapper package. If your application prerequisites aren't listed in the **Prerequisite Dialog Box**, you can create custom bootstrapper packages and add them to Visual Studio. Then you can select the prerequisites in the **Prerequisites Dialog Box**. For more information, see [Create bootstrapper packages](../deployment/creating-bootstrapper-packages.md).
 
-By default, bootstrapping is enabled for both Windows Installer deployment (by using Setup projects in Visual Studio) and ClickOnce deployment. The bootstrapper generated for Windows Installer deployment is not signed, but in ClickOnce deployment, the bootstrapper is signed. You can disable bootstrapping for a component, but you should do so only if you are sure that the correct version of the component is already installed on all target computers.
+By default, bootstrapping is enabled for both Windows Installer deployment (by using Setup projects in Visual Studio) and ClickOnce deployment. The bootstrapper generated for Windows Installer deployment isn't signed, but in ClickOnce deployment, the bootstrapper is signed. You can disable bootstrapping for a component, but you should do so only if you're sure that the correct version of the component is already installed on all target computers.
 
 ## Bootstrapping and ClickOnce deployment
  Before installing an application on a client computer, ClickOnce examines the client to ensure that it has the requirements specified in the application manifest. These include the following requirements:
@@ -50,7 +50,7 @@ By default, bootstrapping is enabled for both Windows Installer deployment (by u
  If you generate the bootstrapper by using the ClickOnce Publish Wizard or the Publish Page in Visual Studio, the *Setup.exe* is automatically signed. However, if you want to use your customer's certificate to sign the bootstrapper, you can sign the file later.
 
 ## Bootstrapping and MSBuild
- If you do not use Visual Studio, but rather compile your applications on the command line, you can create the ClickOnce bootstrapping application by using a Microsoft Build Engine (MSBuild) task. For more information, see [GenerateBootstrapper task](../msbuild/generatebootstrapper-task.md).
+ If you don't use Visual Studio, but rather compile your applications on the command line, you can create the ClickOnce bootstrapping application by using a Microsoft Build Engine (MSBuild) task. For more information, see [GenerateBootstrapper task](../msbuild/generatebootstrapper-task.md).
 
  As an alternative to bootstrapping, you can pre-deploy components using an electronic software distribution system, such as Microsoft Systems Management Server (SMS).
 
@@ -68,7 +68,7 @@ By default, bootstrapping is enabled for both Windows Installer deployment (by u
 | **-homesite=** `true` **&#124;** `false` | When `true`, downloads the dependencies from the preferred location on the vendor's site. This setting overrides the **-componentsurl** setting. When `false`, downloads the dependencies from the URL specified by **-componentsurl**. |
 
 ## Operating system support
- The Visual Studio bootstrapper is not supported on Windows Server 2008 Server Core or Windows Server 2008 R2 Server Core, as they provide a low-maintenance server environment with limited functionality. For example, the Server Core installation option only supports the .NET Framework 3.5 Server Core profile, which cannot run the Visual Studio features that depend on the full .NET Framework.
+ The Visual Studio bootstrapper isn't supported on Windows Server 2008 Server Core or Windows Server 2008 R2 Server Core, as they provide a low-maintenance server environment with limited functionality. For example, the Server Core installation option only supports the .NET Framework 3.5 Server Core profile, which can't run the Visual Studio features that depend on the full .NET Framework.
 
 ## Related content
 - [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
