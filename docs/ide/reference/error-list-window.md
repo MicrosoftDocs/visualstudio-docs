@@ -1,7 +1,7 @@
 ---
 title: Error List Window
 description: Learn about the Error List window and how to use it to perform tasks related to resolving the errors it displays.
-ms.date: 11/04/2016
+ms.date: 2/5/2025
 ms.topic: reference
 helpviewer_keywords:
 - Task List
@@ -98,3 +98,7 @@ Displays the line where the problem occurs.
 **Details**
 
 Displays a clickable icon to open the [Problem Details window](../../ide/reference/problem-details-window.md) if this entry has additional details.
+
+## Disable the Error List window
+
+Like any other tool window, there are a variety of ways to manage the window. You can set it to auto-hide, close it, or create a window layout that does or doesn't contain the Error List window. See [Customize window layouts in Visual Studio - Close and autohide tool windows](../customizing-window-layouts-in-visual-studio.md#close-and-autohide-tool-windows).
