@@ -396,8 +396,6 @@
           href: managed-debugging-recommended-property-settings.md
         - name: 'Debugging preparation: Windows Forms applications'
           href: debugging-preparation-windows-forms-applications.md
-        - name: 'Debugging preparation: Windows services'
-          href: debugging-preparation-windows-services.md
       - name: Send messages to the Output window
         href: diagnostic-messages-in-the-output-window.md
       - name: Assertions in managed code
