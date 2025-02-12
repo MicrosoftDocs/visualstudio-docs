@@ -36,7 +36,7 @@ public class CommandParentingSampleExtension : Extension
 }
 ```
 
-The [`Extension`](/dotnet/api/microsoft.visualstudio.extensibility.extension) class is the first instantiated class of the extension and allows you to add your own services to the `IServiceCollection` to be used for dependency injection.
+The [`Extension`](/dotnet/api/microsoft.visualstudio.extensibility.extension) class is the first instantiated class of the extension and allows you to add your own services to the `IServiceCollection` to be used for [dependency injection](./dependency-injection.md).
 
 The Command Parenting sample contributes another class, a [`Command`](/dotnet/api/microsoft.visualstudio.extensibility.commands.command), to Visual Studio:
 
