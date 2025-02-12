@@ -127,6 +127,10 @@ Hot Reload isn't available in some project configurations:
 
 See [Unsupported scenarios](../debugger/supported-code-changes-csharp.md#unsupported-scenarios) for more details.
 
+## Hot Reload Not Supported for F# #
+
+Hot Reload, or Edit and Continue, is not supported when you debug F# code. Edits to F# code are possible during a debugging session but should be avoided. Code changes are not applied during the debugging session. Therefore, any edits made to F# code while you debug will result in source code that does not match the code being debugged.
+
 ## Configure Hot Reload
 
 To enable, disable, or configure Hot Reload, see [Configure Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md).
