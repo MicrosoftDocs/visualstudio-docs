@@ -6207,6 +6207,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/not-in-toc/change-f1-help-key.md",
+      "redirect_url": "/visualstudio/ide/not-in-toc/default",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/wrap-align-indent-parameters.md",
       "redirect_url": "/visualstudio/ide/reference/wrap-indent-align-refactorings",
       "redirect_document_id": false

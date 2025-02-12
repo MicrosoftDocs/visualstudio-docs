@@ -141,8 +141,6 @@ If you still have questions after you try the other resources,
 - Contact Microsoft support services by visiting the [Microsoft Support](https://support.microsoft.com/en-us) website. 
 - For product support available in your area, see the [Developer Community](https://developercommunity.visualstudio.com/home) page.
 
-**Didn't mean to click?** [Remap or disable the `F1` help key](../not-in-toc/change-f1-help-key.md)
-
 ## See also
 
 * [Troubleshoot network-related or proxy errors](../../install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md#troubleshoot-network-related-errors)
