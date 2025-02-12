@@ -71,6 +71,8 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-slash-commands.png" alt-text="Screenshot of slash commands in inline chat view and chat windows.":::
 
+With Visual Studio 2022 version 17.13, as the user types a slash command, the command expands out the prompt in natural language to display the context the command will use.
+
 ## <a name="reference"></a>Reference: scope Copilot results to a particular file or entire solution
 
 You can ask your coding related questions in natural language and GitHub Copilot Chat will answer these in the context of the codebase open in Visual Studio. With references you can get more specific about the information you want Copilot to consider when answering your question.
@@ -126,13 +128,13 @@ If you’re using Copilot Chat extensively to ask questions as you code, you can
 
 ### <a name="new-thread"></a>New chat thread
 
-You can start a new thread by selecting the **Create new thread** in the chat window.
+Select **Create new thread** or <kbd>Ctrl</kbd>+<kbd>N</kbd> in the chat window to start a new thread.
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-new-thread-conversation.png" alt-text="Screenshot of Create new thread icon in Copilot Chat.":::
 
 ### <a name="switch-thread"></a>Switch chat thread
 
-You can select between multiple ongoing threads to provide the right historical context for your question.
+You can select between multiple ongoing threads to provide the right historical context for your question. You can use <kbd>Ctrl</kbd>+<kbd>PgDown</kbd> for previous thread, <kbd>Ctrl</kbd>+<kbd>PgUp</kbd> for next thread in the chat window. <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> expands the thread drop-down.
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-switch-threads.png" alt-text="Screenshot of switching between ongoing threads in Copilot Chat.":::
 
