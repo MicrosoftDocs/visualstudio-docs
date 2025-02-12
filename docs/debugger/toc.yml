@@ -232,8 +232,6 @@
           href: supported-code-changes-csharp.md
       - name: Edit and Continue (Visual Basic)
         href: edit-and-continue-visual-basic.md
-      - name: Edit and Continue not supported for F#
-        href: edit-and-continue-not-supported-for-f-hash.md
     - name: XAML Hot Reload
       items:
       - name: Write and debug running XAML code
