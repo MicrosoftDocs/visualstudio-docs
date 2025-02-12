@@ -6247,17 +6247,22 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/debugger/debugger/debugging-preparation-windows-services.md",
+      "source_path": "docs/debugger/debugging-preparation-windows-forms-applications.md",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-debugger",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugging-preparation-windows-services.md",
       "redirect_url": "/dotnet/framework/windows-services/how-to-debug-windows-service-applications",
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/debugger/debugger/edit-and-continue-not-supported-for-f-hash.md",
+      "source_path": "docs/debugger/edit-and-continue-not-supported-for-f-hash.md",
       "redirect_url": "/visualstudio/debugger/hot-reload",
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/debugger/debugger/error-site-uses-ip-address.md",
+      "source_path": "docs/debugger/error-site-uses-ip-address.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-site-uses-ip-address",
       "redirect_document_id": false
     },
