@@ -389,11 +389,8 @@
       - name: How to trigger suspend, resume, and background events
         href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
     - name: .NET
-      items:
-      - name: Debugging preparation
-        items:
-        - name: Recommended property settings
-          href: managed-debugging-recommended-property-settings.md
+      - name: Recommended property settings
+        href: managed-debugging-recommended-property-settings.md
       - name: Send messages to the Output window
         href: diagnostic-messages-in-the-output-window.md
       - name: Assertions in managed code
