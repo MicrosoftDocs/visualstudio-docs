@@ -27,7 +27,7 @@ This error reads:
 
 - If you are debugging script, you may have hit a breakpoint while there were no threads in your program. Choose **Step** or **Continue** from the **Debug** menu to resume debugging.
 
-- Security considerations may have prevented the debugger from reading stack, thread, register, and other context information from the program you are debugging. This is most likely to happen if you are debugging a Web application and don't have the right permission to access the virtual directory. Set security for the virtual directory to Anonymous and try again.
+- Security considerations may have prevented the debugger from reading stack, thread, register, and other context information from the program you are debugging. This is most likely to happen if you are debugging a Web application and don't have the right permission to access the virtual directory. Set security for the virtual directory to Anonymous and try again. For more information about setting this in IIS, see [IIS](/aspnet/core/security/authentication/windowsauth?tabs=visual-studio#iis).
 
 ## Related content
 - [Debugging in Visual Studio](../debugger/index.yml)
