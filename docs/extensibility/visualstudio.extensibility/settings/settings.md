@@ -41,10 +41,15 @@ As the display names of settings and categories are shown to the user, it's reco
 
 ```cs
 [VisualStudioContribution]
-private static SettingCategory MyCategory { get; } = new("myCategory", "%MyExtension.SettingDefinitions.MyCategory%");
+private static SettingCategory MyCategory { get; } = new("myCategory", "%MyExtension.SettingDefinitions.MyCategory%"){
+    Description = "%MyExtension.SettingDefinitions.MyCategory.Description%",
+    GenerateObserverClass = true,
+};
 
 [VisualStudioContribution]
-private static Setting.Boolean MySetting { get; } = new("mySetting", "%MyExtension.SettingDefinitions.MySetting%", MyCategory, defaultValue: false);
+private static Setting.Boolean MySetting { get; } = new("mySetting", "%MyExtension.SettingDefinitions.MySetting%", MyCategory, defaultValue: false){
+    Description = "%MyExtension.SettingDefinitions.MySetting.Description%",
+};
 ```
 
 You can also nest categories:
@@ -60,9 +65,78 @@ private static SettingCategory ChildCategory { get; } = new("childCategory", "Ch
 private static Setting.Boolean MySetting { get; } = new("mySetting", "My Setting", ChildCategory, defaultValue: false);
 ```
 
+## Read and monitor setting values
+
+When `GenerateObserverClass` is set to `true` in a `SettingCategory` definition, an observer class is
+code-generated. The observer can be used to read and monitor the settings in the category.
+You can make the observer available to dependency injection by calling `serviceCollection.AddSettingsObservers();` in the `Extension` class `InitializeServices` method:
+
+```cs
+    protected override void InitializeServices(IServiceCollection serviceCollection)
+    {
+        serviceCollection.AddSettingsObservers();
+        base.InitializeServices(serviceCollection);
+    }
+```
+
+Then you can consume the observer from any component created through dependency injection, like a command or a tool window:
+
+```csharp
+public MyToolWindow(Settings.MyCategoryObserver settingsObserver)
+{
+    this.settingsObserver = settingsObserver;
+}
+
+private async Task DoSomethingAsync()
+{
+    var settingsSnapshot = await this.settingsObserver.GetSnapshotAsync(cancellationToken);
+    bool mySetting = settingsSnapshot.MySetting.ValueOrDefault(defaultValue: true);
+}
+```
+
+The `MyCategoryObserver` class is generated under the `Settings` child namespace of the extension's
+namespace.
+
+It is also possible to use the observer to raise events when any value in the category changes.
+
+```csharp
+public MyToolWindow(Settings.MyCategoryObserver settingsObserver)
+{
+    settingsObserver.Changed += this.SettingsObserver_ChangedAsync;
+}
+
+private async Task SettingsObserver_ChangedAsync(Settings.MyCategorySnapshot settingsSnapshot)
+{
+    this.MySetting = settingsSnapshot.MySetting.ValueOrDefault(defaultValue: true);
+    ...
+}
+```
+
+The `Changed` event handler is always invoked at least once, with the current value of the settings,
+so there is no need to also read the initial values.
+
+## Write a setting
+
+In certain circumstances, the extension may need to change the value of a setting. You can achieve this through a batch write operation which allows updating multiple settings at the same time.
+
+```cs
+var writeResult = await Extensibility.Settings().WriteAsync(
+    batch =>
+    {
+        batch.WriteSetting(ExtensionEntrypoint.MySetting1, value: true);
+        batch.WriteSetting(ExtensionEntrypoint.MySetting2, value: "foo");
+    },
+    description: "Updating the settings' value to true and `foo`",
+    cancellationToken);
+```
+
+The description passed to the `WriteAsync` call should be localized.
+
 ## Read a setting
 
-You can access a setting's value from anywhere in your extension. While it's preferable to continuously monitor setting values, situations may arise where your extension needs the current value for a point-in-time operation. The code below demonstrates how to read the setting defined above from a command's handler.
+You can access a setting's value from anywhere in your extension. While it's preferable to
+continuously monitor setting values using an observer, situations may arise where your extension doesn't need to continuously monitor an entire settings category. The code below demonstrates how
+to read the setting defined above from a command's handler.
 
 ```cs
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
@@ -95,7 +169,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 ## Monitor a setting
 
-You can also monitor a setting's value from anywhere in your extension code. As the end user may change the value of a setting at any time, it's best practice to continuously monitor the value instead of reading it:
+You can also monitor a setting's value without using an observer:
 
 ```cs
 IDisposable disposeToEndSubscription =
@@ -110,23 +184,6 @@ IDisposable disposeToEndSubscription =
 ```
 
 The `SubscribeAsync` change handler is guaranteed to always be invoked at least once with the current value of the setting.
-
-## Write a setting
-
-In certain circumstances, the extension may need to change the value of a setting. You can achieve this through a batch write operation which allows updating multiple settings at the same time.
-
-```cs
-var writeResult = await Extensibility.Settings().WriteAsync(
-    batch =>
-    {
-        batch.WriteSetting(ExtensionEntrypoint.MySetting1, value: true);
-        batch.WriteSetting(ExtensionEntrypoint.MySetting2, value: "foo");
-    },
-    description: "Updating the settings' value to true and `foo`",
-    cancellationToken);
-```
-
-The description passed to the `WriteAsync` call should be localized.
 
 ## Types of setting values and settings metadata
 
