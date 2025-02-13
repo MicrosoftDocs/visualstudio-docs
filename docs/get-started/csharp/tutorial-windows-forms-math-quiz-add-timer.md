@@ -5,7 +5,7 @@ ms.custom: vs-acquisition
 dev_langs:
   - "CSharp"
   - "VB"
-ms.date: 02/11/2025
+ms.date: 02/13/2025
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
