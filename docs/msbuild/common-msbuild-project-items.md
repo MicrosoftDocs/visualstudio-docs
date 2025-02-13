@@ -54,6 +54,7 @@ Represents a list of type libraries that are passed to the `TypeLibFiles` parame
 
 |Item metadata name|Description|
 |---------------|-----------------|
+|EmbedInteropTypes|Optional boolean. If true, embed the interop types from this reference directly into your assembly rather than generating an interop DLL.|
 |WrapperTool|Optional string. The name of the wrapper tool that is used on the component. Values are:<br /><br />1.  primary<br />2. tlbimp<br />3. primaryortlbimp<br />4. `aximp`|
 
 ## NativeReference
