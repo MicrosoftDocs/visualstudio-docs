@@ -16,7 +16,7 @@ If you're building a .NET project for multiple frameworks using .NET SDK multita
 
 ## Set up the targets
 
-The solution shown here runs the `MyBeforeBuildTarget` onece and once only regardless of whether a single framework is being built, or if multiple frameworks are being built, without a change in the target itself.
+The solution shown here runs the `MyBeforeBuildTarget` once and once only regardless of whether a single framework is being built, or if multiple frameworks are being built, without a change in the target itself.
 
 1. Add `Condition` expressions that use the `Multitarget` property to determine whether to build multiple frameworks, or just one.
 
