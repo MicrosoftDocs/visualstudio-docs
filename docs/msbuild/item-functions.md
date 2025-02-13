@@ -1,7 +1,7 @@
 ---
 title: Call item functions from MSBuild code
 description: Explore how MSBuild code in tasks and targets can call item functions to get information about the items in the project.
-ms.date: 11/04/2016
+ms.date: 2/7/2025
 ms.topic: how-to
 helpviewer_keywords:
 - msbuild, Item functions
@@ -100,7 +100,30 @@ The following example shows how to use intrinsic item functions.
     Reverse: third;second;first
   -->
 ```
+## Calling a String method
 
+If an item function isn't available that matches your scenario, you can achieve a similar effect by creating a string object from the metadata using the `new` property function, and call any `String` method on it. For example, the following code uses a substring search to filter an item list in a target.
+
+```xml
+<Project>
+  <PropertyGroup>
+    <SearchString>abc</SearchString>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <UnfilteredList Include="abcdef;abc;def;xyz"></UnfilteredList>
+  </ItemGroup>
+
+  <Target Name="FilterItemList">
+
+    <ItemGroup>
+      <FilteredList Include="@(UnfilteredList)" Condition="$([System.String]::new('%(UnfilteredList.Identity)').Contains($(SearchString)))"></FilteredList>
+    </ItemGroup>
+
+    <Message Text="Result: @(FilteredList)"/>
+  </Target>
+</Project>
+```
 ## Detecting duplicates when using the Metadata item function
 
 The `Metadata` item function preserves the original metadata of the source items. This has some implications when considering whether the items returned are duplicates or not. To control how duplicate items are handled, you can use the attribute [KeepDuplicates](./msbuild-items.md#BKMK_KeepDuplicates). You can also remove the metadata, if it's not needed, by adding the [RemoveMetadata](./msbuild-items.md#BKMK_RemoveMetadata), in which case only the values themselves are considered when detecting duplicates.
