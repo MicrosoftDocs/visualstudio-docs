@@ -74,13 +74,13 @@ When using Visual Studio 2022 and starting the app with the debugger, Hot Reload
 Anywhere you have .NET and you’re using the Visual Studio managed debugger, you should get basic Hot Reload support. This fact means that even projects such as Azure Functions work great in this scenario.
 
 > [!NOTE]
-> By default, some projects use mixed mode debugging, which does not support Hot Reload. You can modify this setting in project settings, by setting **Project > Properties > Debug > Open debug launch profiles UI > Enable native code debugging** to false.
+> By default, some projects use mixed mode debugging, which doesn't support Hot Reload. You can modify this setting in project settings, by setting **Project > Properties > Debug > Open debug launch profiles UI > Enable native code debugging** to false.
 
 ## Visual Studio 2022 with a .NET app, but not using the debugger
 
 Hot Reload is available without the debugger when targeting most types of .NET 6+ apps.
 
-This feature is exclusive to .NET 6+. Those apps not targeting .NET 6+ (that is, they target .NET 5 or below) do not support the "no debugger" scenario and must use the debugger to get access to Hot Reload functionality.
+This feature is exclusive to .NET 6+. Those apps not targeting .NET 6+ (that is, they target .NET 5 or below) don't support the "no debugger" scenario and must use the debugger to get access to Hot Reload functionality.
 
 Also, not all project types currently support the "no debugger" scenario, see [Support for .NET applications](#support-for-net-applications).
 
@@ -121,7 +121,7 @@ Hot Reload isn't available in some project configurations:
 * If you’re using the Visual Studio debugger to run your app, but you’ve disabled `Enable Hot Reload and Edit and Continue when debugging` in settings, Hot Reload isn't supported.
 * Release or custom build configurations aren't supported. Your project must use the `Debug` build configuration.
 * If you're targeting an F# or .NET Native project.
-* Some startup or compile optimizations are not supported in .NET Hot Reload. For example, if your project's debug profile is configured in the following ways, .NET Hot Reload isn't supported:
+* Some startup or compile optimizations aren't supported in .NET Hot Reload. For example, if your project's debug profile is configured in the following ways, .NET Hot Reload isn't supported:
   * [Trimming](/dotnet/core/deploying/trimming/trimming-options) is enabled for your project. For example, it's not supported if `PublishTrimmed` is set to True in your project file for the debug profile.
   * [ReadyToRun](/dotnet/core/deploying/ready-to-run) is enabled for your project. For example, it's not supported if `PublishReadyToRun` is set to True in your project file for the debug profile.
 
@@ -129,7 +129,7 @@ See [Unsupported scenarios](../debugger/supported-code-changes-csharp.md#unsuppo
 
 ## Hot Reload Not Supported for F# #
 
-Hot Reload, or Edit and Continue, is not supported when you debug F# code. Edits to F# code are possible during a debugging session but should be avoided. Code changes are not applied during the debugging session. Therefore, any edits made to F# code while you debug will result in source code that does not match the code being debugged.
+Hot Reload, or Edit and Continue, is not supported when you debug F# code. Edits to F# code are possible during a debugging session but should be avoided. Code changes aren't applied during the debugging session. Therefore, any edits made to F# code while you debug will result in source code that doesn't match the code being debugged.
 
 ## Configure Hot Reload
 
@@ -145,7 +145,7 @@ If you select the **Always rebuild when changes can't be applied** option in the
 
 ## Troubleshooting
 
-It is highly recommended to check for the **Hot Reload Output** window for detailed diagnostic information regarding the Hot Reload session.
+It's highly recommended to check for the **Hot Reload Output** window for detailed diagnostic information regarding the Hot Reload session.
 
 If you're using response compression on .NET Core, see the information on [response compression](/dotnet/core/tools/dotnet-watch#response-compression).
 
