@@ -7,6 +7,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
+ai-usage: ai-assisted
 ---
 # Targeting multiple .NET versions in a build
 
@@ -132,4 +133,3 @@ Multitargeting for .NET Core (and .NET 5 and later) is very different and more p
 
 - [Specify the targeted .NET Frameworks - Visual Studio](../ide/visual-studio-multi-targeting-overview.md)
 
-[!INCLUDE[AI generated](../includes/ai-generated-attribution.md)]
