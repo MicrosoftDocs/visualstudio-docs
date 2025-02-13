@@ -6267,6 +6267,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/error-site-uses-ip-address.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-site-uses-ip-address",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/error-a-security-check-failed-because-the-iis-admin-service-did-not-respond.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-a-security-check-failed-because-the-iis-admin-service-did-not-respond",
       "redirect_document_id": false
