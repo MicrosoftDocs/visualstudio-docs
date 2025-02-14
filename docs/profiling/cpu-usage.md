@@ -99,7 +99,9 @@ For more information, see [CPU insights](../profiling/cpu-insights.md).
 ## Analyze CPU utilization
 
 ::: moniker range=">=vs-2022"
-To analyze the CPU Usage report, click **Open details**, or click one of the top functions to open the **Functions** view.
+To analyze the CPU Usage report, click **Open details** in the summary page of the report, or click one of the top functions to open the **Functions** view.
+
+![Screenshot that shows the Open details link.](../profiling/media/vs-2022/cpu-use-open-details.png)
 
 The report provides different views of the diagnostic data:
 
