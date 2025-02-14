@@ -18,7 +18,7 @@ ms.subservice: debug-diagnostics
 ---
 # Remote Debugging a C++ Project in Visual Studio
 
-To debug a Visual Studio application on a different computer, install and run the remote tools on the computer where you will deploy your app, configure your project to connect to the remote computer from Visual Studio, and then deploy and run your app.
+To debug a Visual Studio application on a different computer, install and run the remote tools on the computer where you'll deploy your app, configure your project to connect to the remote computer from Visual Studio, and then deploy and run your app.
 
 ![Remote debugger components](../debugger/media/remote-debugger-client-apps.png "Remote_debugger_components")
 
@@ -29,7 +29,7 @@ For information about remote debugging Universal Windows Apps (UWP), see [Debug 
 The remote debugger is supported on Windows 7 and newer and versions of Windows Server starting with Windows Server 2008 Service Pack 2. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
 
 > [!NOTE]
-> Debugging between two computers connected through a proxy is not supported. Debugging over a high latency or low bandwidth connection, such as dialup Internet, or over the Internet across countries/regions is not recommended and may fail or be unacceptably slow.
+> Debugging between two computers connected through a proxy isn't supported. Debugging over a high latency or low bandwidth connection, such as dialup Internet, or over the Internet across countries/regions isn't recommended and may fail or be unacceptably slow.
 
 ## Download and Install the remote tools
 
@@ -40,7 +40,7 @@ The remote debugger is supported on Windows 7 and newer and versions of Windows 
 
 ## <a name="BKMK_setup"></a> Set up the remote debugger
 
-Once you have installed the remote debugger, follow these steps.
+After you install the remote debugger, follow these steps.
 
 [!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
 
@@ -101,7 +101,7 @@ Once you have installed the remote debugger, follow these steps.
 
 ## Set Up Debugging with Remote Symbols
 
-You should be able to debug your code with the symbols you generate on the Visual Studio computer. The performance of the remote debugger is much better when you use local symbols.
+You should be able to debug your code with the symbols you generate on the Visual Studio computer. The performance of the remote debugger is significantly better when you use local symbols.
 
 If you must use remote symbols, you need to specify the remote symbols in Visual Studio by adding a Windows file share to the symbol search path in **Tools > Options > Debugging > Symbols**.
 
