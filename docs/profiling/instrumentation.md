@@ -79,8 +79,6 @@ To analyze the CPU Usage report by using one of the detailed report views:
 
 The following table provides a description of the detailed views.
 
-The report provides different views of the diagnostic data:
-
 |View|Description|
 |-|-|
 |Caller/callee|Detailed view of time spent in a specific function, the function(s) that called it, and the function(s) that it calls. The performance data is aggregated for the data collection period. You can select calling functions and called functions to traverse the call path.|
