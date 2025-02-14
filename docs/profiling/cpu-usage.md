@@ -103,7 +103,11 @@ To analyze the CPU Usage report, click **Open details** in the summary page of t
 
 ![Screenshot that shows the Open details link.](../profiling/media/vs-2022/cpu-use-open-details.png)
 
-The report provides different views of the diagnostic data:
+From the **Current View** list, you can select one of the detailed report views.
+
+![Screenshot that shows the list of detailed reports.](../profiling/media/vs-2022/cpu-use-select-detailed-view.png)
+
+The following table provides a description of the detailed views.
 
 |View|Description|
 |-|-|
