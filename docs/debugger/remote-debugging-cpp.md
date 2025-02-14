@@ -40,6 +40,8 @@ The remote debugger is supported on Windows 7 and newer and versions of Windows 
 
 ## <a name="BKMK_setup"></a> Set up the remote debugger
 
+Once you have installed the remote debugger, follow these steps.
+
 [!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
 
 > [!NOTE]
