@@ -175,7 +175,7 @@ Visual Studio provides a convenient way to configure a rule's severity from the 
 
    If you don't already have an EditorConfig file in the project, Visual Studio creates one for you.
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2019"
 ### Set rule severity from the Error List window
 
 Visual Studio also provides a convenient way to configure a rule's severity from the error list context menu. Follow these steps:
