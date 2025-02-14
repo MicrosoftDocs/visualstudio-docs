@@ -27,8 +27,6 @@ You can configure the severity of analyzer rules in an [EditorConfig file](#set-
 In Visual Studio 2019 version 16.3 and later, you can configure the severity of analyzer rules in an [EditorConfig file](#set-rule-severity-in-an-editorconfig-file), from the [light bulb menu](#set-rule-severity-from-the-light-bulb-menu), and from the **Error List** window.
 ::: moniker-end
 
-In Visual Studio 2019 version 16.3 and later, you can configure the severity of analyzer rules in an [EditorConfig file](#set-rule-severity-in-an-editorconfig-file), from the [light bulb menu](#set-rule-severity-from-the-light-bulb-menu), and from the **Error List** window.
-
 The following table shows the different severity options that you can configure for a diagnostic:
 
 | Severity (Solution Explorer) | Severity (EditorConfig file) | Build-time behavior | Editor behavior |
