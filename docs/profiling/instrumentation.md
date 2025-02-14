@@ -67,7 +67,7 @@ In addition, if you're using Copilot, use the **Ask Copilot** button to open the
 
 ## Analyze instrumentation detailed reports
 
-To analyze the CPU Usage report by using one of the detailed report views:
+For in-depth analysis of the Instrumentation report, first open one of the detailed report views:
 
 1. Click **Open details** in the summary page of the report, or select one of the top functions to open the **Functions** view.
 

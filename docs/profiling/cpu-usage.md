@@ -99,7 +99,7 @@ For more information, see [CPU insights](../profiling/cpu-insights.md).
 ## Analyze CPU utilization
 
 ::: moniker range=">=vs-2022"
-To analyze the CPU Usage report by using one of the detailed report views:
+For in-depth analysis of the CPU Usage report, first open one of the detailed report views:
 
 1. Click **Open details** in the summary page of the report, or select one of the top functions to open the **Functions** view.
 
