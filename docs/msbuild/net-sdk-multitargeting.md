@@ -7,6 +7,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
+ai-usage: ai-assisted
 ---
 # Targeting multiple .NET versions in a build
 
@@ -125,11 +126,10 @@ Multitargeting for .NET Core (and .NET 5 and later) is very different and more p
 - **Older Toolset**: Uses an older type of multitargeting with MSBuild, where a project can target only one framework and one platform at a time.
 
 ### .NET Core
-- **Advanced Multitargeting**: .NET Core supports advanced multitargeting, allowing you to target multiple frameworks simultaneously using the `<TargetFrameworks>` property in the project file. See [Target frameworks](/dotnet/targetframeworks).
+- **Advanced Multitargeting**: .NET Core supports advanced multitargeting, allowing you to target multiple frameworks simultaneously using the `<TargetFrameworks>` property in the project file. See [Target frameworks](/dotnet/standard/frameworks).
 - **Modern Toolset**: Uses a newer type of multitargeting with MSBuild, where multiple builds occur for each target framework listed.
 
 ## Related content
 
 - [Specify the targeted .NET Frameworks - Visual Studio](../ide/visual-studio-multi-targeting-overview.md)
 
-[!INCLUDE[AI generated](../includes/ai-generated-attribution.md)]
