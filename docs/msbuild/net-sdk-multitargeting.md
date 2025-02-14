@@ -116,6 +116,16 @@ Diamond dependencies occur when multiple versions of a package are present in th
 
 By following these practices, you can effectively manage version-specific dependencies in your .NET projects, ensuring compatibility and stability across different target frameworks. See [Manage package dependencies in .NET applications](/dotnet/core/tools/dependencies), [Dependencies](/dotnet/standard/library-guidance/dependencies), and [How NuGet resolves package dependencies](/nuget/concepts/dependency-resolution).
 
+## Specify runtime identifiers
+
+A runtime identifier (RID) specifies a target runtime environment, which consists of a unique combination of operating system and CPU. Runtime identifiers affect the architecture-dependent NuGet packages that are used. Runtime identifiers consist of a shorthand code, for example, `linux-x64`. For more information and a list of RID codes for each supported operating system and CPU, see [.NET RID catalog](dotnet/core/rid-catalog).
+
+RIDs are specified using the `<RuntimeIdentifier>` property in the project file. You can also use the plural form `<RuntimeIdentifiers>` to specify multiple target architectures.
+
+For .NET Core projects, target frameworks and target runtimes specified as RIDs act separately, and may be used in any supported combination, including multiple RIDs and multiple target frameworks. For a .NET Framework target, you can only specify a single RID.
+
+The RID affects the NuGet packages your application binaries depend on, but the binary itself only depends on the target framework. Therefore, although separate output folders are created for each different target framework (for example, `bin\Debug\netstandard2.0` and `bin\Debug\net8.0`), they are not created for each RID.
+
 ## Comparison Between .NET Framework and .NET Core Multitargeting
 
 Multitargeting for .NET Core (and .NET 5 and later) is very different and more powerful than [multitargeting for .NET Framework projects](msbuild-multitargeting-overview.md).
