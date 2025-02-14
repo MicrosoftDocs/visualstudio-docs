@@ -6,7 +6,7 @@ keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
-ms.date: 11/12/2024
+ms.date: 02/11/2025
 
 ms.subservice: installation
 ms.topic: include
@@ -21,7 +21,7 @@ ms.topic: include
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
-Microsoft.VisualStudio.ComponentGroup.TestTools.TestAgent | Test Agent core features | 17.12.35410.122 | Required
+Microsoft.VisualStudio.ComponentGroup.TestTools.TestAgent | Test Agent core features | 17.13.35710.127 | Required
 
 ## Unaffiliated components
 
