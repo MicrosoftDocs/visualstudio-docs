@@ -67,13 +67,15 @@ In addition, if you're using Copilot, use the **Ask Copilot** button to open the
 
 ## Analyze instrumentation detailed reports
 
-To analyze the Instrumentation report, click **Open details** in the summary page of the report, or click one of the top functions to open the **Functions** view.
+To analyze the CPU Usage report by using one of the detailed report views:
 
-![Screenshot that shows the Open details link.](../profiling/media/vs-2022/cpu-use-open-details.png)
+1. Click **Open details** in the summary page of the report, or select one of the top functions to open the **Functions** view.
 
-From the **Current View** list, you can select one of the detailed report views.
+   ![Screenshot that shows the Open details link.](../profiling/media/vs-2022/cpu-use-open-details.png)
 
-![Screenshot that shows the list of detailed reports.](../profiling/media/vs-2022/cpu-use-select-detailed-view.png)
+1. From the **Current View** list, you can select one of the detailed report views.
+
+   ![Screenshot that shows the list of detailed reports.](../profiling/media/vs-2022/cpu-use-select-detailed-view.png)
 
 The following table provides a description of the detailed views.
 
