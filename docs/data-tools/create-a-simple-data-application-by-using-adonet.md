@@ -1,7 +1,7 @@
 ---
 title: Create a .NET Framework data app by using ADO.NET
 description: Create a forms-over-data .NET Framework application with Visual C# or Visual Basic by using Windows Forms and ADO.NET in Visual Studio.
-ms.date: 02/11/2024
+ms.date: 02/14/2025
 ms.topic: conceptual
 dev_langs:
 - VB
@@ -10,13 +10,14 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
+# Customer intent: As a developer, I want to understand how to create a .NET Framework Windows Forms application using ADO.NET with Visual C# or Visual Basic in Visual Studio.
 ---
 
 # Create a basic data application by using ADO.NET
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
-When you create an application that manipulates data in a database, you perform basic tasks such as defining connection strings, inserting data, and running stored procedures. As you follow this article, you can discover how to interact with a database from within a Windows Forms *forms over data* (FOD) application by using Visual C# or Visual Basic and ADO.NET. All .NET data technologies, including datasets, LINQ (Language-Integrated Query) to SQL, and Entity Framework, ultimately perform steps that are similar to those steps shown in this article.
+When you create an application that manipulates data in a database, you typically perform tasks such as defining connection strings, inserting data, and running stored procedures. As you follow this article, you can discover how to interact with a database from within a Windows Forms *forms over data* (FOD) application by using Visual C# or Visual Basic and ADO.NET. All .NET data technologies, including datasets, LINQ (Language-Integrated Query) to SQL, and Entity Framework, ultimately perform steps that are similar to those steps shown in this article.
 
 This article demonstrates how to quickly get data out of a database. If your application needs to modify data in nontrivial ways and update the database, consider using Entity Framework and data binding. Doing so automatically syncs user interface controls to changes in the underlying data.
     
@@ -33,7 +34,7 @@ To create the application, you need:
 
 - SQL Server Express LocalDB. If you don't have SQL Server Express LocalDB, you can install it from the [SQL Server download page](https://www.microsoft.com/sql-server/sql-server-downloads).
 
-This article assumes that you're familiar with the basic functionality of the Visual Studio IDE. It also assumes that you can create a Windows Forms application, add forms to a project, add buttons and other controls on the forms, set properties of the controls, and code simple events. If you aren't comfortable with these tasks, complete the [Create a Windows Forms app in Visual Studio with C#](../ide/create-csharp-winform-visual-studio.md) tutorial or the [Create a Windows Forms app in Visual Studio with Visual Basic](../ide/create-a-visual-basic-winform-in-visual-studio.md) tutorial before you start this walkthrough.
+This article assumes that you're familiar with the basic functionality of the Visual Studio IDE. It also assumes that you can create a Windows Forms application, add forms to a project, add buttons and other controls to the forms, set properties of the controls, and code simple events. If you aren't comfortable with these tasks, complete the [Create a Windows Forms app in Visual Studio with C#](../ide/create-csharp-winform-visual-studio.md) tutorial or the [Create a Windows Forms app in Visual Studio with Visual Basic](../ide/create-a-visual-basic-winform-in-visual-studio.md) tutorial before you start this walkthrough.
 
 ## Set up the sample database
 
@@ -80,7 +81,7 @@ Create the sample database by following these steps:
 
    **Navigation form**
 
-   ![Navigation dialog box](../data-tools/media/simpleappnav.png)
+   ![Screenshot that shows the Navigation form details.](../data-tools/media/simpleappnav.png)
 
    |Controls for the Navigation form|Properties|
    | - |----------------|
@@ -90,7 +91,7 @@ Create the sample database by following these steps:
 
    **NewCustomer form**
 
-   ![Add a new customer and place an order](../data-tools/media/simpleappnewcust.png)
+   ![Screenshot that shows the NewCustomer form details.](../data-tools/media/simpleappnewcust.png)
 
    |Controls for the NewCustomer form|Properties|
    | - |----------------|
@@ -105,7 +106,7 @@ Create the sample database by following these steps:
 
    **FillOrCancel form**
 
-   ![fill or cancel orders](../data-tools/media/simpleappcancelfill.png)
+   ![Screenshot that shows the FillOrCancel form details.](../data-tools/media/simpleappcancelfill.png)
 
    |Controls for the FillOrCancel form|Properties|
    | - |----------------|
@@ -143,7 +144,7 @@ To store the connection string in your project:
 
 1. In the **Value** column, enter your connection string (without any outside quotes), and then save your changes.
 
-   :::image type="content" source="media/vs-2022/simple-data-app-settings.png" alt-text="Screenshot of Connection String in Settings.settings" lightbox="media/vs-2022/simple-data-app-settings.png":::
+   :::image type="content" source="media/vs-2022/simple-data-app-settings.png" alt-text="Screenshot that shows the Connection String data in Settings.settings." lightbox="media/vs-2022/simple-data-app-settings.png":::
 
 > [!CAUTION]
 > In a real application, you should store the connection string securely, as described in [Connection strings and configuration files](/dotnet/framework/data/adonet/connection-strings-and-configuration-files). For best security, use an authentication method that doesn't rely on storing a password in the connection string, for example, Windows Authentication for an on-premises SQL Server database. For more information, see [Save and edit connection strings](how-to-save-and-edit-connection-strings.md).
