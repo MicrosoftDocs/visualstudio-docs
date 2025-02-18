@@ -62,7 +62,7 @@ The solution shown here runs the `MyBeforeBuildTarget` once and once only regard
     </Project>
     ```
 
-This method relies on the way that multitargeting works in .NET SDK projects. The outer build sets `TargetFrameworks` but the inner builds set `TargetFramework` for each desired target. Therefore, to build once for the inner build, remove the `TargetFramework` property. This invokes the outer project with the desired target instead of running it in each of the inner builds. 
+This method relies on the way that multitargeting works in .NET SDK projects. The outer build sets `TargetFrameworks` but the inner builds set `TargetFramework` for each desired target. Therefore, to build once for the inner build, remove the `TargetFramework` property. This invokes the outer build with the desired target instead of running it in each of the inner builds. 
 
 ## Build the project
 
