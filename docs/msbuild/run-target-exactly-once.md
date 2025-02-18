@@ -1,7 +1,7 @@
 ---
 title: Run an MSBuild target exactly once
 description: Configure a .NET project to run a target once and once only, regardless of whether the project is built for multiple frameworks or only one.
-ms.date: 1/27/2025
+ms.date: 2/18/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -47,19 +47,22 @@ The solution shown here runs the `MyBeforeBuildTarget` once and once only regard
         <Warning Text="MyBeforeBuildTarget" />
     </Target>
 
-    <Target Name="TieMyBeforeBuildTargetToOuterBuild"
+    <Target Name="BuildMyBeforeBuildTargetBeforeOuterBuild"
             DependsOnTargets="MyBeforeBuildTarget"
             BeforeTargets="DispatchToInnerBuilds"
             />
 
-    <Target Name="TieMyBeforeBuildTargetToInnerBuild"
-            DependsOnTargets="MyBeforeBuildTarget"
-            BeforeTargets="BeforeBuild"
-            Condition=" '$(TargetFrameworks)' == '' "
-            />
+    <Target Name="BuildMyBeforeBuildTargetBeforeInnerBuild"
+            BeforeTargets="BeforeBuild">
+       <MSBuild Projects="$(MSBuildProjectFullPath)"
+             Targets="MyBeforeBuildTarget"
+             RemoveProperties="TargetFramework" />
+    </Target>
     
     </Project>
     ```
+
+This method relies on the way that multitargeting works in .NET SDK projects. The outer build sets `TargetFrameworks` but the inner builds set `TargetFramework` for each desired target. Therefore, to build once for the inner build, remove the `TargetFramework` property. This invokes the outer project with the desired target instead of running it in each of the inner builds. 
 
 ## Build the project
 
