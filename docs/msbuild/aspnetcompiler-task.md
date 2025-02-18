@@ -27,7 +27,7 @@ The following table describes the parameters of the `AspNetCompiler` task.
 
 |Parameter|Description|
 |---------------|-----------------|
-|`AllowPartiallyTrustedCallers`|Optional `Boolean` parameter.<br /><br /> If this parameter is `true`,, the strong-name assembly will allow partially trusted callers.|
+|`AllowPartiallyTrustedCallers`|Optional `Boolean` parameter.<br /><br /> If this parameter is `true`, the strong-name assembly will allow partially trusted callers.|
 |`Clean`|Optional `Boolean` parameter<br /><br /> If this parameter is `true`, the precompiled application will be built clean. Any previously compiled components will be recompiled. The default value is `false`. This parameter corresponds to the **-c** switch on *aspnet_compiler.exe*.|
 |`Debug`|Optional `Boolean` parameter.<br /><br /> If this parameter is `true`, debug information (.PDB file) is emitted during compilation. The default value is `false`. This parameter corresponds to the **-d** switch on *aspnet_compiler.exe*.|
 |`DelaySign`|Optional `Boolean` parameter.<br /><br /> If this parameter is `true`, the assembly is not fully signed when created.|
