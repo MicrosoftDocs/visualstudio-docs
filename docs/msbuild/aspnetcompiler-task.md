@@ -23,7 +23,7 @@ The `AspNetCompiler` task wraps *aspnet_compiler.exe*, a utility to precompile A
 
 ## Task parameters
 
-The following table describes the parameters of the `AspNetCompiler` task:
+The following table describes the parameters of the `AspNetCompiler` task.
 
 |Parameter|Description|
 |---------------|-----------------|
@@ -46,7 +46,7 @@ The following table describes the parameters of the `AspNetCompiler` task:
 
 ## Example
 
-The following code example uses the `AspNetCompiler` task to precompile an ASP.NET application:
+The following code example uses the `AspNetCompiler` task to precompile an ASP.NET application.
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
