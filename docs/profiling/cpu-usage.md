@@ -160,6 +160,8 @@ You can click the **Expand Hot Path** and **Show Hot Path** buttons to see the f
 |![Step 3](../profiling/media/procguid_3.png "ProcGuid_3")|The children of the second-level node are the user-code methods and asynchronous routines that are called or created by the second-level system and framework code.|
 |![Step 4](../profiling/media/procguid_4.png "ProcGuid_4")|Child nodes of a method have data only for the calls of the parent method. When **Show External Code** is disabled, app methods can also contain an **[External Code]** node.|
 
+For help understanding data in the call tree, see [Understanding the call tree](#understanding-the-call-tree).
+
 #### <a name="BKMK_External_Code"></a> External code
 
 ::: moniker range=">=vs-2022"
@@ -199,7 +201,7 @@ To find a function name you're looking for, use the search box. Hover over the s
 ![Screenshot that shows Search for nested external code.](../profiling/media/vs-2019/cpu-use-wt-show-external-code-too-wide-found.png "Search for nested external code")
 ::: moniker-end
 
-### <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU usage call tree
+#### <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU usage call tree
 
 When the compiler encounters an asynchronous method, it creates a hidden class to control the method's execution. Conceptually, the class is a state machine. The class has compiler-generated functions that asynchronously call the original methods, and the callbacks, scheduler, and iterators needed to run them. When a parent method calls the original method, the compiler removes the method from the execution context of the parent, and runs the hidden class methods in the context of the system and framework code that controls app execution. The asynchronous methods are often, but not always, executed on one or more different threads. This code appears in the **CPU Usage** call tree as children of the **[External Code]** node immediately below the top node of the tree.
 
@@ -223,6 +225,20 @@ Expand the generated methods to show what's going on:
 
 - `MainPage::<GetNumberAsync>b__b` shows the activity of the tasks that call `GetNumber`.
 ::: moniker-end
+
+#### Understanding the call tree
+
+Sometimes, the call paths that appear in the **Call Tree** view for CPU Usage and Instrumentation tools may look different than you expect. To interpret the data you're seeing in the call tree, it helps to understand the common reasons for these differences. For example:
+
+- Release builds perform many optimizations such as inline function calls. Inline functions don't appear in the call tree. In some cases, release build optimizations may also generate unexpected code that appears in the call tree.
+
+- Asynchronous functions execute on their own thread independent of the call path, and they normally appear in a separate node.
+
+  ::: moniker range=">=vs-2022"
+  For Instrumentation, you can [configure options to view .NET async calls](../profiling/instrumentation.md#async-calls-in-the-instrumentation-call-tree-net) in a more intuitive way, within the call path where the async call was made.
+  ::: moniker-end
+
+- For sampling (CPU Usage only), functions that execute very quickly may not get sampled, in which case these functions don't appear in the call tree.
 
 ::: moniker range=">=vs-2022"
 ### Collect call counts (.NET)
