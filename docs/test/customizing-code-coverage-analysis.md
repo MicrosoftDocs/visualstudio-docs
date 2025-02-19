@@ -143,7 +143,7 @@ When static native instrumentation is enabled, Visual Studio will search and ins
 
 To include or exclude test assemblies from the coverage report, you can use the `<IncludeTestAssembly>` element in the `<Configuration>` section of your .runsettings file.
 
-The following XML shows how to exclude test assemblies:
+In this example, setting `<IncludeTestAssembly>` to `False` will exclude test assemblies from the code coverage report. If you want to include test assemblies, set it to `True`.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -161,8 +161,6 @@ The following XML shows how to exclude test assemblies:
   </DataCollectionRunSettings>
 </RunSettings>
 ```
-
-In this example, setting `<IncludeTestAssembly>` to `False`` will exclude test assemblies from the code coverage report. If you want to include test assemblies, set it to True.
 
 ### Regular expressions
 
