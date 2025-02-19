@@ -132,7 +132,7 @@ For more information on using the Flame graph, see [Identify hot paths with Flam
 
 ### <a name="BKMK_The_CPU_Usage_call_tree"></a> CPU Usage call tree
 
-To view the call tree, select the parent node in the report. By default, the **CPU Usage** page opens to the **Caller/Callee** view. In the **Current View** dropdown, select **Call Tree**. For help understanding data in the call tree, see [Understanding the call tree](#understanding-the-call-tree).
+To view the call tree, select the parent node in the report. By default, the **CPU Usage** page opens to the **Caller/Callee** view. In the **Current View** dropdown, select **Call Tree**.
 
 You can click the **Expand Hot Path** and **Show Hot Path** buttons to see the function calls that use the highest percentage of the CPU in the call tree view.
 
@@ -215,20 +215,6 @@ Expand the generated methods to show what's going on:
 
 - `MainPage::<GetNumberAsync>b__b` shows the activity of the tasks that call `GetNumber`.
 ::: moniker-end
-
-#### Understanding the call tree
-
-Sometimes, the call paths that appear in the **Call Tree** view for CPU Usage and Instrumentation tools may look different than you expect. To interpret the data you're seeing in the call tree, it helps to understand the common reasons for these differences. For example:
-
-- Release builds perform many optimizations such as inline function calls. Inline functions don't appear in the call tree. In some cases, release build optimizations may also generate unexpected code that appears in the call tree.
-
-- Asynchronous functions execute on their own thread independent of the call path, and they normally appear in a separate node.
-
-  ::: moniker range=">=vs-2022"
-  For Instrumentation, you can [configure options to view .NET async calls](../profiling/instrumentation.md#async-calls-in-the-instrumentation-call-tree-net) in a more intuitive way, within the call path where the async call was made.
-  ::: moniker-end
-
-- For sampling (CPU Usage only), functions that execute very quickly may not get sampled, in which case these functions don't appear in the call tree.
 
 ::: moniker range=">=vs-2022"
 

@@ -103,8 +103,6 @@ Here's more information on the column values:
 
 - **Module** The name of the module containing the function.
 
-For help understanding data in the call tree, see [Understanding the call tree](../profiling/cpu-usage.md#understanding-the-call-tree).
-
 ### Async calls in the Instrumentation call tree (.NET)
 
 Starting in Visual Studio 2022 version 17.13 Preview 2, views representing a visual call tree nest .NET asynchronous calls under the functions where the asynchronous call was made, making it easier to trace the execution flow within a single, unified stack trace. This can help you quickly identify performance bottlenecks.
