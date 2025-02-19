@@ -700,7 +700,7 @@ private class TrackerObserver : IObserver<IQueryTrackUpdates<IFileSnapshot>>
 
 ## Events to monitor solution open and close
 
-The `QueryableSpaceChanged` event can be subscribed to for monitoring when solutions open and close using a workspace created with a service broker.
+The `QueryableSpaceChanged` event can be subscribed to for monitoring when solutions open and close using a workspace created with a service broker. `ProjectQueryableSpaceChangedEventArgs` contains two fields, `SolutionPath` and `QueryableSpaceVersion`. The string `SolutionPath` is the path the solution that opened or null if a solution closed. The int `QueryableSpaceVersion` increments as solutions are opened or closed.
 
 ```csharp
 private void SubscribeToEvent() 
@@ -712,8 +712,8 @@ private void SubscribeToEvent()
 
 private Task EventCalledAsync(ProjectQueryableSpaceChangedEventArgs e)
 {
-    var solutionPath = e.SolutionPath;
-    var version = e.QueryableSpaceVersion;
+    string? solutionPath = e.SolutionPath;
+    int version = e.QueryableSpaceVersion;
     ...
 }
 ```

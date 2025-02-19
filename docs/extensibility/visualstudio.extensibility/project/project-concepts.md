@@ -141,11 +141,11 @@ Actions in your project query determine what modifications are made to the proje
 
 These queries support the monitoring of updates made to query results.
 
-| Term                          | Description                                                             |
-| ----------------------------- | ----------------------------------------------------------------------- |
-| SubscribeAsync                | Represents the operation to subscribe to results from a query.          |
-| TrackUpdatesAsync             | Represents the operation to track changes from a query.                 |
-| Workspace.QueryableSpaceEvent | An event that fires on solution open and close. Provides initial state. |
+| Term                | Description                                                             |
+| ------------------- | ----------------------------------------------------------------------- |
+| SubscribeAsync      | Represents the operation to subscribe to results from a query.          |
+| TrackUpdatesAsync   | Represents the operation to track changes from a query.                 |
+| QueryableSpaceEvent | An event that fires on solution open and close. Provides initial state. |
 
 ## Related content
 
