@@ -13,7 +13,9 @@ ms.subservice: debug-diagnostics
 
 The profiling tools for CPU Usage and Instrumentation in Visual Studio include a call tree view that provides a visualization of the call paths in your application, along with performance data.
 
-Sometimes, the call paths that appear in the **Call Tree** view may look different than you expect. To interpret the data you see in the call tree, it helps to understand the common reasons for these differences when they occur. For example:
+Sometimes, the call paths that appear in the **Call Tree** view may look different than you expect. To interpret the data you see in the call tree, it helps to understand the common reasons for these differences when they occur.
+
+Here are the most common reasons:
 
 - Release build optimizations. Release builds perform many optimizations such as inline function calls. Inline functions don't appear in the call tree. In some cases, release build optimizations may also generate unexpected code that appears in the call tree.
 
@@ -35,7 +37,7 @@ Sometimes, the call paths that appear in the **Call Tree** view may look differe
 
   ![Screenshot that shows expression tree in the Call Tree view.](media/vs-2022/call-tree-dynamic-code-expression-tree-visual.png)
 
-- Code that defers execution. For code that defers execution, such as LINQ, the call path can appear unexpectedly if you're unfamiliar with how LINQ works. For example, if you use the following code:
+- Code that defers execution. For code that defers execution, such as LINQ, the call path can appear in unexpected ways if you're unfamiliar with how LINQ works. For example, if you use the following code:
 
   ```csharp
   // LINQ query to get all items less than 1,000,000

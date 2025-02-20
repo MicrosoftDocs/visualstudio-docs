@@ -111,7 +111,7 @@ Here's more information on the column values:
 
 - **Module** The name of the module containing the function.
 
-For help understanding data in the call tree, see [Understanding the call tree](../profiling/cpu-usage.md#understanding-the-call-tree).
+For help understanding unexpected data in the call tree, see [Understanding the call tree](../profiling/understanding-call-tree-data.md).
 
 ### Async calls in the Instrumentation call tree (.NET)
 
