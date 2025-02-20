@@ -1,7 +1,7 @@
 ---
 title: About GitHub Copilot Chat in Visual Studio
 description: Learn about the fully integrated GitHub Copilot Chat in Visual Studio. Use the chat interface to ask coding-related questions from right within the IDE.
-ms.date: 12/18/2024
+ms.date: 2/19/2025
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
@@ -28,6 +28,7 @@ Copilot Chat provides AI assistance to help you make informed decisions and writ
 - **Unit testing**: generate unit tests
 - **[Profiling](../profiling/cpu-insights.md#get-ai-assistance)**: optimize code performance
 - **[Debugging](../debugger/debug-with-copilot.md)**: find issues and get proposed fixes to bugs and [exceptions](../debugger/debug-with-copilot.md#debug-an-exception-with-copilot).
+- **[Review and commit code](../version-control/git-make-commit.md): [generate commit messages](../version-control/git-make-commit.md#generate-commit-messages-with-github-copilot-chat) and [review local changes](../version-control/git-make-commit.md#review-local-changes-with-copilot-chat)
 
 ## Prerequisites
 
