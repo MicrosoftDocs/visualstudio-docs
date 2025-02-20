@@ -118,7 +118,7 @@ By following these practices, you can effectively manage version-specific depend
 
 ## Specify runtime identifiers
 
-A runtime identifier (RID) specifies a target runtime environment, which consists of a unique combination of operating system and CPU. Runtime identifiers affect the architecture-dependent NuGet packages that are used. Runtime identifiers consist of a shorthand code, for example, `linux-x64`. For more information and a list of RID codes for each supported operating system and CPU, see [.NET RID catalog](dotnet/core/rid-catalog).
+A runtime identifier (RID) specifies a target runtime environment, which consists of a unique combination of operating system and CPU. Runtime identifiers affect the architecture-dependent NuGet packages that are used. Runtime identifiers consist of a shorthand code, for example, `linux-x64`. For more information and a list of RID codes for each supported operating system and CPU, see [.NET RID catalog](/dotnet/core/rid-catalog).
 
 RIDs are specified using the `<RuntimeIdentifier>` property in the project file. You can also use the plural form `<RuntimeIdentifiers>` to specify multiple target architectures.
 
