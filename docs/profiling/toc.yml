@@ -36,6 +36,8 @@
       href: cpu-usage.md
     - name: Flame Graph 
       href: flame-graph.md
+    - name: Understanding the call tree
+      href: understanding-call-tree.md
     - name: CPU Insights
       items:
       - name: CPU Insights  

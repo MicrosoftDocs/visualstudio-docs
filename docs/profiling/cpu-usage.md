@@ -160,7 +160,7 @@ You can click the **Expand Hot Path** and **Show Hot Path** buttons to see the f
 |![Step 3](../profiling/media/procguid_3.png "ProcGuid_3")|The children of the second-level node are the user-code methods and asynchronous routines that are called or created by the second-level system and framework code.|
 |![Step 4](../profiling/media/procguid_4.png "ProcGuid_4")|Child nodes of a method have data only for the calls of the parent method. When **Show External Code** is disabled, app methods can also contain an **[External Code]** node.|
 
-For help understanding data in the call tree, see [Understanding the call tree](#understanding-the-call-tree).
+For help understanding unexpected data in the call tree, see [Understanding the call tree](../profiling/understanding-call-tree-data.md).
 
 #### <a name="BKMK_External_Code"></a> External code
 
@@ -225,20 +225,6 @@ Expand the generated methods to show what's going on:
 
 - `MainPage::<GetNumberAsync>b__b` shows the activity of the tasks that call `GetNumber`.
 ::: moniker-end
-
-#### Understanding the call tree
-
-Sometimes, the call paths that appear in the **Call Tree** view for CPU Usage and Instrumentation tools may look different than you expect. To interpret the data you're seeing in the call tree, it helps to understand the common reasons for these differences. For example:
-
-- Release builds perform many optimizations such as inline function calls. Inline functions don't appear in the call tree. In some cases, release build optimizations may also generate unexpected code that appears in the call tree.
-
-- Asynchronous functions execute on their own thread independent of the call path, and they normally appear in a separate node.
-
-  ::: moniker range=">=vs-2022"
-  For Instrumentation, you can [configure options to view .NET async calls](../profiling/instrumentation.md#async-calls-in-the-instrumentation-call-tree-net) in a more intuitive way, within the call path where the async call was made.
-  ::: moniker-end
-
-- For sampling (CPU Usage only), functions that execute very quickly may not get sampled, in which case these functions don't appear in the call tree.
 
 ::: moniker range=">=vs-2022"
 ### Collect call counts (.NET)
