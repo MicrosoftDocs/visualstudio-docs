@@ -25,9 +25,9 @@ Here are the most common reasons:
   For Instrumentation, you can [configure options to view .NET async calls](../profiling/instrumentation.md#async-calls-in-the-instrumentation-call-tree-net) in a more intuitive way, within the call path where the async call was made.
   ::: moniker-end
 
-- Sampling collection process. For sampling (CPU Usage only), functions that execute very quickly may not get sampled, in which case these functions don't appear in the call tree.
+- Sampling of fast functions. For sampling (CPU Usage only), functions that execute very quickly may not get sampled, in which case these functions don't appear in the call tree.
 
-- Compiler generated code. Some operations generate code that isn’t immediately obvious. For example, async/await patterns generate state machines. Other examples include getters/setters, pattern matching, event handlers, query syntax for LINQ, source generators (for example, creation of source generators for json serialization), and other scenarios.  In these cases, some generated code may appear in the call tree.
+- Compiler generated code. Some operations generate code that isn’t intuitive. For example, async/await patterns generate state machines. Other examples include getters/setters, pattern matching, event handlers, query syntax for LINQ, source generators (for example, creation of source generators for json serialization), and other code features.  In these scenarios, some generated code may appear in the call tree.
 
 - Dynamically generated code. Unlike compiler-generated code, dynamically-generated code is compiled on the fly. This is not as common as compiler-generated code. The following code using an expression tree will show the 
 
@@ -45,7 +45,7 @@ Here are the most common reasons:
   var count = query.Count();
   ```
   
-  You may expect the call tree to show a lot of time spent in the Where statement, but the enumeration actually happens in Count, so Count may show up as a slower function in the call tree. The following example is the opposite:
+  You may expect the call tree to show a lot of time spent in the `Where` statement, but the enumeration actually happens in `Count`, so `Count` may show up as a slower function in the call tree. The following example is the opposite:
 
   ```csharp
   // LINQ query to get all items less than 1,000,000
@@ -53,5 +53,5 @@ Here are the most common reasons:
   var count = query.Count();
   ```
 
-  In this example, ToList forces the enumeration before Count, so the Count call is optimized and runs very fast. Instead, the Where statement takes most of the time.
+  In this example, `ToList` forces the enumeration before `Count`, so the `Count` call is optimized and runs very fast. Instead, the `Where` statement takes most of the time.
 
