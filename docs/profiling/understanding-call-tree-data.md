@@ -29,7 +29,7 @@ Here are the most common reasons:
 
 - Compiler generated code. Some operations generate code that isn’t intuitive. For example, async/await patterns generate state machines. Other examples include getters/setters, pattern matching, event handlers, query syntax for LINQ, source generators (for example, creation of source generators for json serialization), and other code features.  In these scenarios, some generated code may appear in the call tree.
 
-- Dynamically generated code. Unlike compiler-generated code, dynamically-generated code is compiled on the fly. This is not as common as compiler-generated code. The following code using an expression tree will show the 
+- Dynamically generated code. Unlike compiler-generated code, dynamically-generated code is compiled on the fly. This is not as common as compiler-generated code. The following code uses an expression tree and results in dynamically-generated code.
 
   ![Screenshot that shows expression tree code.](media/vs-2022/call-tree-dynamic-code-expression-tree-example.png)
 
@@ -53,5 +53,5 @@ Here are the most common reasons:
   var count = query.Count();
   ```
 
-  In this example, `ToList` forces the enumeration before `Count`, so the `Count` call is optimized and runs very fast. Instead, the `Where` statement takes most of the time.
+  In this example, `ToList` forces the enumeration before `Count`, so the `Count` call is optimized and runs very fast. Instead, the `Where` statement takes the most time.
 
