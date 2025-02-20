@@ -128,7 +128,7 @@ There's a distinction between a build that is inherently independent of RID (by 
 
 If you specify `RuntimeIdentifiers`, the RID affects the NuGet packages your application binaries depend on, but the binary itself only depends on the target framework. Therefore, in this scenario, although separate output folders are created for each different target framework (for example, `bin\Debug\netstandard2.0` and `bin\Debug\net8.0`), they are not created for each RID.
 
-Specifying `RuntimeIdentifiers` does not inherently mean each build or publish operation targets each of the RIDs that are specified. Instead, it signals to NuGet Restore the set of RID-specific NuGet packages that need to be downloaded during a restore operation. This means that it's feasible to do `dotnet restore` and `dotnet publish -r linux-x64 --no-restore` to download the correct runtime packages for the RID you specify.
+Specifying `RuntimeIdentifiers` does not inherently mean each build or publish operation targets each of the RIDs that are specified. Instead, it signals to NuGet Restore the set of RID-specific NuGet packages that need to be downloaded during a restore operation. This means that it's feasible to do `dotnet restore && dotnet publish -r linux-x64 --no-restore` to download the correct runtime packages for the RID you specify.
 
 If a single RuntimeIdentifier is specified (either via `-r` on the CLI or setting the `RuntimeIdentifier` property in an MSBuild project file), then most operations become platform-specific, including `dotnet publish` and `dotnet build`. In this case, the output paths and several other MSBuild properties are modified. For example, the output directory of a build with a single RID will have the RID appended: `bin\Debug\<TFM>\<RID>`.
 
