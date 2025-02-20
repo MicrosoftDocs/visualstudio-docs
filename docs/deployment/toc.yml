@@ -226,7 +226,7 @@
       - name: Visual Studio Installer Projects Extension and .NET 6.0
         href: installer-projects-net-core.md
       - name: Create an installer package (Windows desktop)
-        href: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
+        href: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop-1
     - name: Custom bootstrapper
       items:
       - name: Application deployment prerequisites

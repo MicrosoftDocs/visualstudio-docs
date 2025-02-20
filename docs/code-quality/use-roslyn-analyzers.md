@@ -19,7 +19,13 @@ Each Roslyn analyzer rule, or *diagnostic*, has a default severity and suppressi
 
 ## Severity levels
 
+::: moniker range=">=vs-2022"
+You can configure the severity of analyzer rules in an [EditorConfig file](#set-rule-severity-in-an-editorconfig-file) and from the [light bulb menu](#set-rule-severity-from-the-light-bulb-menu).
+::: moniker-end
+
+::: moniker range="vs-2019"
 In Visual Studio 2019 version 16.3 and later, you can configure the severity of analyzer rules in an [EditorConfig file](#set-rule-severity-in-an-editorconfig-file), from the [light bulb menu](#set-rule-severity-from-the-light-bulb-menu), and from the **Error List** window.
+::: moniker-end
 
 The following table shows the different severity options that you can configure for a diagnostic:
 
@@ -53,7 +59,6 @@ You can set the rule severity using any of the following methods:
 ::: moniker range=">=vs-2022"
 - [EditorConfig](#set-rule-severity-in-an-editorconfig-file)
 - [Light bulb menu](#set-rule-severity-from-the-light-bulb-menu)
-- [Error List window](#set-rule-severity-from-the-error-list-window)
 - [Solution Explorer](#set-rule-severity-from-solution-explorer)
 ::: moniker-end
 
@@ -170,6 +175,7 @@ Visual Studio provides a convenient way to configure a rule's severity from the 
 
    If you don't already have an EditorConfig file in the project, Visual Studio creates one for you.
 
+::: moniker range="vs-2019"
 ### Set rule severity from the Error List window
 
 Visual Studio also provides a convenient way to configure a rule's severity from the error list context menu. Follow these steps:
@@ -183,6 +189,7 @@ Visual Studio also provides a convenient way to configure a rule's severity from
    Visual Studio adds an entry to the EditorConfig file to configure the rule to the requested level.
 
    If you don't already have an EditorConfig file in the project, Visual Studio creates one for you.
+::: moniker-end
 
 ### Set rule severity from Solution Explorer
 

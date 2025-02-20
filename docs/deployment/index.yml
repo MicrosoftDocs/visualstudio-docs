@@ -60,7 +60,7 @@ landingContent:
           - text: ClickOnce
             url: quickstart-deploy-using-clickonce-folder.md
           - text: Installer package
-            url: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
+            url: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop-1
       - linkListType: how-to-guide
         links:
           - text: Package a desktop app for Windows Store
@@ -74,7 +74,7 @@ landingContent:
           - text: ClickOnce
             url: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
           - text: Installer package
-            url: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
+            url: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop-1
 
   # Card
   - title: Deploy to Azure

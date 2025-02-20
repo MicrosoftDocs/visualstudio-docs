@@ -44,5 +44,4 @@ Unit tests often mirror the structure of the code under test. For example, a uni
 
 - [Unit test your code](../test/unit-test-your-code.md)
 - [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
-- [Use the MSTest framework in unit tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
 - [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
