@@ -1,7 +1,7 @@
 ---
 title: CPU profiling in the Performance Profiler
 description: Learn about the CPU profiler performance tool, which shows the CPU time and percentage spent executing code in C++, C#, Visual Basic, and JavaScript apps.
-ms.date: 09/05/2024
+ms.date: 02/19/2025
 ms.topic: how-to
 ms.custom: "profiling-seo"
 author: mikejo5000
@@ -199,7 +199,7 @@ To find a function name you're looking for, use the search box. Hover over the s
 ![Screenshot that shows Search for nested external code.](../profiling/media/vs-2019/cpu-use-wt-show-external-code-too-wide-found.png "Search for nested external code")
 ::: moniker-end
 
-### <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU usage call tree
+#### <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU usage call tree
 
 When the compiler encounters an asynchronous method, it creates a hidden class to control the method's execution. Conceptually, the class is a state machine. The class has compiler-generated functions that asynchronously call the original methods, and the callbacks, scheduler, and iterators needed to run them. When a parent method calls the original method, the compiler removes the method from the execution context of the parent, and runs the hidden class methods in the context of the system and framework code that controls app execution. The asynchronous methods are often, but not always, executed on one or more different threads. This code appears in the **CPU Usage** call tree as children of the **[External Code]** node immediately below the top node of the tree.
 
@@ -223,6 +223,26 @@ Expand the generated methods to show what's going on:
 
 - `MainPage::<GetNumberAsync>b__b` shows the activity of the tasks that call `GetNumber`.
 ::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+### Analyze multi-process performance
+
+Starting in Visual Studio 2022 version 17.13, you can analyze multi-process data in the CPU Usage tool. This makes it easier to analyzer performance for multi-process apps such as .NET Aspire. This features allows you to distinguish and analyze CPU utilization across processes within a single session, which provides clearer insights into resource consumption.
+
+You need to collect multi-process data before you can analyze it. To collect the data, select **Collect data from multiple processes** for the CPU Usage tool in the Performance Profiler.
+
+![Screenshot that shows selecting multi-process data.](../profiling/media/vs-2022/cpu-usage-collect-multi-process-data.png)
+
+The timeline graph showing your app's CPU use displays performance data with distinct color coding for each process. The graphs are displayed as stacked area charts.
+
+![Screenshot that shows multi-process data in the timeline.](../profiling/media/vs-2022/cpu-usage-view-multi-process-data.png)
+
+You can filter processes using a dropdown on the top left of the CPU timeline graph. When you select or deselect a process, the profiler summary page and detailed reports are updated based on the new selection(s), enabling more precise analysis.
+
+![Screenshot that shows multi-process filter.](../profiling/media/vs-2022/cpu-usage-multi-process-filter.png)
+::: moniker-end
+
 
 ::: moniker range=">=vs-2022"
 ### Collect call counts (.NET)
