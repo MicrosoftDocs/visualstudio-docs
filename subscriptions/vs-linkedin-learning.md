@@ -42,7 +42,7 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 
 0. In this step, you have the chance to identify areas of interest to you.  To expedite the account creation process, select **Not sure yet.  I’m open!**  (You can identify areas of interest later.)
 
-0. When you provided your email address, you were sent a message containing a confirmation code.  The message is from “Linkedin Messages.”  Enter the code from the message and select **Verify**.  If you don’t find it in your inbox, check your junk mail folders.  
+0. When you provided your email address, you were sent a message containing a confirmation code.  The message is from “LinkedIn Messages.”  Enter the code from the message and select **Verify**.  If you don’t find it in your inbox, check your junk mail folders.  
 
 0. If you would like to import your contacts from the email account you entered earlier, you can do that now.  Otherwise, select **Skip**. (If you choose to skip this step, you're asked to confirm your choice.  Select **Yes**.)
 
