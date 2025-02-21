@@ -59,7 +59,7 @@ Build events are specified in the **Build Events** dialog box, available from th
 > [!NOTE]
 > If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0), which indicates a successful action.
 
-You can reference "macros" (actually MSBuild property names) in the scripts. The property is referenced as `$(PropertyName)` and is substituted with the property value when the event script is executed. For a list of commonly used values, see [MSBuild common properties](../msbuild/common-msbuild-project-properties.md). There may be other properties as well as defined in the project file, in any imported files in the project file, in environment variables, or passed on the command line using the `-p` MSBuild switch during command-line builds.
+You can reference "macros" (actually MSBuild property names) in the scripts. To reference a property, use the syntax `$(PropertyName)`, which is substituted with the property value when the event script is executed. For a list of commonly used values, see [MSBuild common properties](../msbuild/common-msbuild-project-properties.md). There may be other properties as well as defined in the project file, in any imported files in the project file, in environment variables, or passed on the command line using the `-p` MSBuild switch during command-line builds.
 
 ## Example: How to change manifest information using a post-build event
 
