@@ -59,6 +59,8 @@ Build events are specified in the **Build Events** dialog box, available from th
 > [!NOTE]
 > If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0), which indicates a successful action.
 
+MSBuild property names may be referenced in the scripts. The property is referened as `$(PropertyName)` and is substituted with the property value when the event script is executed. For a list of commonly used values, see [MSBuild common properties](../msbuild/common-msbuild-project-properties.md). There may be other properties as well as defined in the project file, in any imported files in the project file, in environment variables, or passed on the command line using the `-p` MSBuild switch during command-line builds.
+
 ## Example: How to change manifest information using a post-build event
 
 The following procedure shows how to set the minimum operating system version in the application manifest using an *.exe* command called from a post-build event (the *.exe.manifest* file in the project directory). The minimum operating system version is a four-part number such as 4.10.0.0. To do this, the command will change the `<dependentOS>` section of the manifest:
