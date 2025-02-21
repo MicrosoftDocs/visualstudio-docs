@@ -1,6 +1,6 @@
 ---
 title: Understanding the call tree
-description: Learn how to interpet call tree data in the CPU Usage and Instrumentation.
+description: Learn how to interpret call tree data in the CPU Usage and Instrumentation.
 ms.date: 02/19/2025
 ms.topic: how-to
 author: mikejo5000
@@ -29,7 +29,7 @@ Here are the most common reasons:
 
 - Compiler generated code. Some operations generate code that isn’t intuitive. For example, async/await patterns generate state machines. Other examples include getters/setters, pattern matching, event handlers, query syntax for LINQ, source generators (for example, creation of source generators for json serialization), and other code features.  In these scenarios, some generated code may appear in the call tree.
 
-- Dynamically generated code. Unlike compiler-generated code, dynamically-generated code is compiled on the fly. This is not as common as compiler-generated code. The following code uses an expression tree and results in dynamically-generated code.
+- Dynamically generated code. Unlike compiler-generated code, dynamically generated code is compiled on the fly. This isn't as common as compiler-generated code. The following code uses an expression tree and results in dynamically generated code.
 
   ![Screenshot that shows expression tree code.](media/vs-2022/call-tree-dynamic-code-expression-tree-example.png)
 
@@ -45,7 +45,7 @@ Here are the most common reasons:
   var count = query.Count();
   ```
   
-  You may expect the call tree to show a lot of time spent in the `Where` statement, but the enumeration actually happens in `Count`, so `Count` may show up as a slower function in the call tree. The following example is the opposite:
+  You may expect the call tree to show too much time spent in the `Where` statement, but the enumeration actually happens in `Count`, so `Count` may show up as a slower function in the call tree. The following example is the opposite:
 
   ```csharp
   // LINQ query to get all items less than 1,000,000
