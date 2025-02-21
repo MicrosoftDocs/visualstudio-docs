@@ -79,7 +79,6 @@ Create the sample database by following these steps:
 
    **Navigation form**
 
-   ![Screenshot that shows the Navigation form details.](../data-tools/media/simpleappnav.png)
    :::image type="content" source="../data-tools/media/simpleappnav.png" alt-text="Screenshot that shows the Navigation form details.":::
 
    **Controls for the Navigation form**
@@ -87,7 +86,7 @@ Create the sample database by following these steps:
    | Control text | Control type | Control name |
    | ------------ | ------------ | ------------ |
    | Add an account | Button | btnGoToAdd |
-   | Fill or cancel an account | Button | btnGoToFillOrCancel |
+   | Fill or cancel an order | Button | btnGoToFillOrCancel |
    | Exit | Button | btnExit |
 
    **NewCustomer form**
