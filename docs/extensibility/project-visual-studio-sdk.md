@@ -752,8 +752,6 @@ The `QueryableSpaceChanged` event can be subscribed to for monitoring when solut
 ```csharp
 private void SubscribeToEvent() 
 {
-    IServiceBroker serviceBroker = context.Extensibility.ServiceBroker;
-    ProjectQueryableSpace workspace = new(serviceBroker: serviceBroker, joinableTaskContext: null);
     workspace.QueryableSpaceChanged += EventCalledAsync;
 }
 
