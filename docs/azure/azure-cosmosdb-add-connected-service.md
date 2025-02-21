@@ -21,7 +21,6 @@ With Visual Studio, you can connect any of the following to Azure Cosmos DB by u
 - .NET Core Worker Role
 - Azure Functions
 - Universal Windows Platform App
-- Xamarin
 - Cordova
 
 The connected service functionality adds all the needed references and connection code to your project, and modifies your configuration files appropriately.
