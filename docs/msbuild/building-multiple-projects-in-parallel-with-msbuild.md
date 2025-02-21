@@ -5,13 +5,15 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
-ms.topic: how-to
-ms.date: 02/21/2024
+ms.topic: concept-article
+ms.date: 02/21/2025
 helpviewer_keywords:
 - parallel project builds
 - building multiple projects in parallel
 - msbuild, building projects in parallel
-# Customer intent: As a developer, I want to learn how to use the MSBuild command to run multiple projects in parallel in Visual Studio so that I can build multiple projects faster.
+
+# Customer intent: As a developer, I want to learn how to use the MSBuild command in Visual Studio to run multiple projects in parallel so that I can build projects faster.
+
 ---
 
 # Build multiple projects in parallel with MSBuild
@@ -78,4 +80,4 @@ The following project builds a specified target *DoIt* in a project named *do_it
 
 - [Use multiple processors to build projects](../msbuild/using-multiple-processors-to-build-projects.md)
 - [Write multi-processor-aware loggers](../msbuild/writing-multi-processor-aware-loggers.md)
-- [Tuning C++ build parallelism blog](https://devblogs.microsoft.com/visualstudio/tuning-c-build-parallelism-in-vs2010/)
+- [Tune C++ build parallelism blog](https://devblogs.microsoft.com/visualstudio/tuning-c-build-parallelism-in-vs2010/)
