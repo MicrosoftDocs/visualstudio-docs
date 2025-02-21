@@ -54,7 +54,7 @@ Build events are specified in the **Build Events** dialog box, available from th
 :::moniker-end
 
 > [!NOTE]
-> Add a `call` statement before all post-build commands that run *.bat* files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.
+> Add a `call` statement before all post-build commands that run `.bat` files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.
 
 > [!NOTE]
 > If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0), which indicates a successful action.
@@ -63,7 +63,7 @@ MSBuild property names may be referenced in the scripts. The property is referen
 
 ## Example: How to change manifest information using a post-build event
 
-The following procedure shows how to set the minimum operating system version in the application manifest using an *.exe* command called from a post-build event (the *.exe.manifest* file in the project directory). The minimum operating system version is a four-part number such as 4.10.0.0. To do this, the command will change the `<dependentOS>` section of the manifest:
+The following procedure shows how to set the minimum operating system version in the application manifest using an `.exe` command called from a post-build event (the `.exe.manifest` file in the project directory). The minimum operating system version is a four-part number such as 4.10.0.0. To do this, the command will change the `<dependentOS>` section of the manifest:
 
 ```xml
 <dependentOS>
@@ -161,9 +161,9 @@ The following procedure shows how to set the minimum operating system version in
 
      `C:\TEMP\ChangeOSVersionVB.exe "$(TargetPath).manifest" 5.1.2600.0`
 
-     When you build the project, this command will change the minimum operating system version in the application manifest to 5.1.2600.0.
+     When you build the project, this command changes the minimum operating system version in the application manifest to 5.1.2600.0.
 
-     The `$(TargetPath)` macro expresses the full path for the executable being created. Therefore, *$(TargetPath).manifest* will specify the application manifest created in the *bin* directory. Publishing will copy this manifest to the publishing location that you set earlier.
+     The `$(TargetPath)` macro expresses the full path for the executable being created. Therefore, *$(TargetPath).manifest* will specify the application manifest created in the *bin* directory. Publishing copies this manifest to the publishing location that you set earlier.
 
 8. Publish the project again. Go to the **Publish** page and click **Publish Now**.
 
