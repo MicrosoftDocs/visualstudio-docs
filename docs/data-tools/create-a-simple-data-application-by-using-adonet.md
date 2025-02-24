@@ -20,9 +20,9 @@ dev_langs:
 
 When you create an application that manipulates data in a database, you typically perform tasks such as defining connection strings, inserting data, and running stored procedures. As you follow this article, you can discover how to interact with a database from within a *forms over data* (FOD) Windows Forms application by using Visual C# or Visual Basic and ADO.NET. All .NET data technologies, including datasets, LINQ (Language-Integrated Query) to SQL, and Entity Framework, ultimately perform steps that are similar to those steps shown in this article.
 
-This article demonstrates how to quickly get data out of a database. If your application needs to modify data in nontrivial ways and update the database, consider using Entity Framework and data binding. Doing so automatically syncs user interface controls to changes in the underlying data.
+This article demonstrates how to quickly get data out of a database. If your application needs to modify data in nontrivial ways and update the database, consider using Entity Framework and data binding. Doing so allows your user interface controls to automatically sync to changes in the underlying data.
 
-Access the complete code for this tutorial in the Visual Studio docs GitHub repo in [C#](https://github.com/MicrosoftDocs/visualstudio-docs/tree/main/docs/data-tools/codesnippet/CSharp/SimpleDataApp) and [Visual Basic](https://github.com/MicrosoftDocs/visualstudio-docs/tree/main/docs/data-tools/codesnippet/VisualBasic/SimpleDataApp).
+To access the complete code for this tutorial, see the Visual Studio docs GitHub repo for [C#](https://github.com/MicrosoftDocs/visualstudio-docs/tree/main/docs/data-tools/codesnippet/CSharp/SimpleDataApp) and [Visual Basic](https://github.com/MicrosoftDocs/visualstudio-docs/tree/main/docs/data-tools/codesnippet/VisualBasic/SimpleDataApp).
 
 > [!IMPORTANT]
 > To keep the code simple, it doesn't include production-ready exception handling.
@@ -33,7 +33,7 @@ Access the complete code for this tutorial in the Visual Studio docs GitHub repo
 
 - SQL Server Express LocalDB. If you don't have SQL Server Express LocalDB, you can install it from the [SQL Server download page](https://www.microsoft.com/sql-server/sql-server-downloads).
 
-This article assumes that you're familiar with the basic functionality of the Visual Studio IDE. It also assumes that you can create a Windows Forms application, add forms to a project, add buttons and other controls to the forms, set properties of the controls, and code simple events. If you aren't comfortable with these tasks, complete the [Create a Windows Forms app in Visual Studio with C#](../ide/create-csharp-winform-visual-studio.md) tutorial or the [Create a Windows Forms app in Visual Studio with Visual Basic](../ide/create-a-visual-basic-winform-in-visual-studio.md) tutorial before you start this walkthrough.
+This article assumes that you're familiar with the basic functionality of the Visual Studio IDE. It also assumes that you can create a Windows Forms application, add forms to a project, add buttons and other controls to the forms, set control properties, and code simple events. If you aren't comfortable with these tasks, complete the [Create a Windows Forms app in Visual Studio with C# tutorial](../ide/create-csharp-winform-visual-studio.md) or the [Create a Windows Forms app in Visual Studio with Visual Basic tutorial](../ide/create-a-visual-basic-winform-in-visual-studio.md) before you start this walkthrough.
 
 ## Set up the sample database
 
@@ -47,7 +47,7 @@ Create the sample database by following these steps:
 
 1. For **New database name**, enter **Sales**, and then choose **OK**.
 
-     Visual Studio creates an empty **Sales** database under the Data Connections node in Server Explorer.
+     Visual Studio creates an empty **Sales** database under the **Data Connections** node in Server Explorer.
 
 1. Right-click the **Sales** data connection and select **New Query**.
 
@@ -57,7 +57,7 @@ Create the sample database by following these steps:
 
 1. Paste the T-SQL script into the query editor window, and then select **Execute**.
 
-     After a short time, the query finishes running and the database objects are created. The database contains two tables: Customer and Orders. These tables contain no data initially, but you can add data when you run the application that you create. The database also contains four basic stored procedures.
+     After a short time, the query finishes running and the database objects are created. The database contains two tables: Customer and Orders. These tables contain no data initially, but you can add data when you run the application that you create. The database also contains five basic stored procedures.
 
 ## Create the forms and add controls
 
@@ -65,7 +65,7 @@ Create the sample database by following these steps:
 
     Visual Studio creates the project and several files, including an empty Windows form named **Form1**.
 
-1. In Solution Explorer, add two Windows forms to your project so that it has three forms, and give them the following names:
+1. In Solution Explorer, add two Windows forms to your project so that it has a total of three forms, and give them the following names:
 
    - **Navigation**
 
@@ -125,7 +125,7 @@ Create the sample database by following these steps:
 
 ## Store the connection string
 
-When your application tries to open a connection to the database, your application must have access to the connection string. To avoid entering the string manually on each form, store the string in the *App.config* file in your project. Then, create a method that returns the string when the method is called from any form in your application.
+When your application tries to open a connection to the database, your application must have access to the connection string. To avoid the need to enter the string manually on each form, store the string in the *App.config* file in your project. Then, create a method that returns the string when the method is called from any form in your application.
 
 To find the connection string:
 
@@ -186,8 +186,11 @@ For Visual Basic projects:
 
 To create empty event handler methods, double-click each of the three buttons on the Navigation form. Double-clicking a button adds autogenerated code in the Designer code file, which enables a button selection to raise an event.
 
-> [!NOTE]
-> If you decide to copy and paste code directly into your code files instead of using the double-click action in the designer, ensure you set the event handler to the right method. In the **Properties** window, switch to the **Events** tab by using the lightning bolt toolbar button, and search for the **Click** handler.
+If you decide to copy and paste code directly into your code files instead of using the double-click action in the designer, ensure you set the event handler to the right method:
+
+1. In the **Properties** window of the code file for the form, switch to the **Events** tab by using the lightning bolt toolbar button.
+
+1. Search for the **Click** property and verify its value is the correct event handler method.
 
 #### Add code for the Navigation form logic
 
@@ -205,11 +208,11 @@ In the code page for the Navigation form, complete the method bodies for the thr
 
 ### NewCustomer form
 
-When you enter a customer name and then select the **Create Account** button, the NewCustomer form creates a customer account, and SQL Server returns an IDENTITY value as the new customer ID. You can then place an order for the new account by specifying an amount and an order date, and selecting the **Place Order** button.
+When you enter a customer name and then select the **Create account** button, the NewCustomer form creates a customer account, and SQL Server returns an IDENTITY value as the new customer ID. You can then place an order for the new account by specifying an amount and an order date, and selecting the **Place order** button.
 
 #### Create autogenerated event handlers for the NewCustomer form
 
-Create an empty Click event handler for each button on the NewCustomer form by double-clicking on each of the four buttons. Double-clicking the buttons also adds autogenerated code in the Designer code file that enables a button select to raise an event.
+Create an empty Click event handler for each button on the NewCustomer form by double-clicking each of the four buttons. Double-clicking the buttons also adds autogenerated code in the Designer code file that enables a button select to raise an event.
 
 #### Add code for the NewCustomer form logic
 
@@ -257,7 +260,7 @@ To complete the NewCustomer form logic, follow these steps:
 
 ### FillOrCancel form
 
-The FillOrCancel form runs a query to return an order when you enter an order ID, and then select the **Find Order** button. The returned row appears in a read-only data grid. You can mark the order as canceled (X) if you select the **Cancel Order** button, or you can mark the order as filled (F) if you select the **Fill Order** button. If you select the **Find Order** button again, the updated row appears.
+The FillOrCancel form runs a query to return an order when you enter an order ID, and then select the **Find order** button. The returned row appears in a read-only data grid. You can mark the order as canceled (X) if you select the **Cancel order** button, or you can mark the order as filled (F) if you select the **Fill order** button. If you select the **Find order** button again, the updated row appears.
 
 #### Create autogenerated event handlers for the FillOrCancel form
 
