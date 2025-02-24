@@ -3,9 +3,10 @@ title: Create a .NET Framework data app by using ADO.NET
 description: Create a forms-over-data .NET Framework application with Visual C# or Visual Basic by using Windows Forms and ADO.NET in Visual Studio.
 author: ghogen
 ms.author: ghogen
+manager: mijacobs
 ms.subservice: data-tools
 ms.topic: how-to
-ms.date: 02/21/2025
+ms.date: 02/24/2025
 dev_langs:
 - VB
 - CSharp
@@ -83,40 +84,44 @@ Create the sample database by following these steps:
 
    **Controls for the Navigation form**
 
-   | Control text | Control type | Control name |
-   | ------------ | ------------ | ------------ |
-   | Add an account | Button | btnGoToAdd |
-   | Fill or cancel an order | Button | btnGoToFillOrCancel |
-   | Exit | Button | btnExit |
+   |Control text|Control type|Control properties|
+   |------------|------------|------------|
+   |Add an account|Button|Name = btnGoToAdd|
+   |Fill or cancel an order |Button|Name = btnGoToFillOrCancel|
+   |Exit|Button|Name = btnExit|
 
    **NewCustomer form**
 
-   ![Screenshot that shows the NewCustomer form details.](../data-tools/media/simpleappnewcust.png)
+   :::image type="content" source="../data-tools/media/simpleappnewcust.png" alt-text="Screenshot that shows the NewCustomer form details.":::
 
-   |Controls for the NewCustomer form|Properties|
-   | - |----------------|
-   |TextBox|Name = txtCustomerName|
-   |TextBox|Name = txtCustomerID<br /> Readonly = True|
-   |Button|Name = btnCreateAccount|
-   |NumericUpdown|DecimalPlaces = 0<br /> Maximum = 5000<br /> Name = numOrderAmount|
-   |DateTimePicker|Format = Short<br /> Name = dtpOrderDate|
-   |Button|Name = btnPlaceOrder|
-   |Button|Name = btnAddAnotherAccount|
-   |Button|Name = btnAddFinish|
+   **Controls for the NewCustomer form**
+
+   |Label/Control text|Control type|Control properties|
+   |------------|------------|------------------|
+   |Customer name|TextBox|Name = txtCustomerName|
+   |Customer ID|TextBox|Name = txtCustomerID<br /> ReadOnly = True|
+   |Create account|Button|Name = btnCreateAccount|
+   |Order amount|NumericUpdown|Name = numOrderAmount<br /> DecimalPlaces = 0<br /> Maximum = 5000|
+   |Order date|DateTimePicker|Name = dtpOrderDate<br /> Format = Short|
+   |Place order|Button|Name = btnPlaceOrder|
+   |Finish |Button|Name = btnAddFinish|
+   |Add another account|Button|Name = btnAddAnotherAccount|
 
    **FillOrCancel form**
 
-   ![Screenshot that shows the FillOrCancel form details.](../data-tools/media/simpleappcancelfill.png)
+   :::image type="content" source="../data-tools/media/simpleappcancelfill.png" alt-text="Screenshot that shows the FillOrCancel form details.":::
 
-   |Controls for the FillOrCancel form|Properties|
-   | - |----------------|
-   |TextBox|Name = txtOrderID|
-   |Button|Name = btnFindByOrderID|
-   |DateTimePicker|Format = Short<br /> Name = dtpFillDate|
-   |DataGridView|Name = dgvCustomerOrders<br /> Readonly = True<br /> RowHeadersVisible = False|
-   |Button|Name = btnCancelOrder|
-   |Button|Name = btnFillOrder|
-   |Button|Name = btnFinishUpdates|
+   **Controls for the FillOrCancel form**
+
+   |Label/Control text|Control type|Control properties|
+   |------------------|------------|------------------|
+   |Order ID|TextBox|Name = txtOrderID|
+   |Find order|Button|Name = btnFindByOrderID|
+   |If filling an order...|DateTimePicker|Name = dtpFillDate<br /> Format = Short |
+   |(None)|DataGridView|Name = dgvCustomerOrders<br /> ReadOnly = True<br /> RowHeadersVisible = False|
+   |Cancel order|Button|Name = btnCancelOrder|
+   |Fill order|Button|Name = btnFillOrder|
+   |Finish|Button|Name = btnFinishUpdates|
 
 ## Store the connection string
 
@@ -126,7 +131,7 @@ To find the connection string:
 
 1. In Server Explorer, right-click the **Sales** data connection, and then choose **Properties**.
 
-1. Locate the **Connection String** property copy its string value to the clipboard.
+1. Locate the **Connection String** property and copy its string value to the clipboard.
 
 To store the connection string in your project:
 
@@ -147,7 +152,7 @@ To store the connection string in your project:
    :::image type="content" source="media/vs-2022/simple-data-app-settings.png" alt-text="Screenshot that shows the Connection String data in Settings.settings." lightbox="media/vs-2022/simple-data-app-settings.png":::
 
 > [!CAUTION]
-> In a real application, you should store the connection string securely, as described in [Connection strings and configuration files](/dotnet/framework/data/adonet/connection-strings-and-configuration-files). For best security, use an authentication method that doesn't rely on storing a password in the connection string, for example, Windows Authentication for an on-premises SQL Server database. For more information, see [Save and edit connection strings](how-to-save-and-edit-connection-strings.md).
+> In a real application, you should store the connection string securely, as described in [Connection strings and configuration files](/dotnet/framework/data/adonet/connection-strings-and-configuration-files). For best security, use an authentication method that doesn't rely on storing a password in the connection string. For example, Windows Authentication for an on-premises SQL Server database. For more information, see [Save and edit connection strings](how-to-save-and-edit-connection-strings.md).
 
 ## Write the code for the forms
 
