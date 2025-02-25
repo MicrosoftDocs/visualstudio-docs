@@ -35,7 +35,7 @@ Here are the most common reasons:
 
   The **Call Tree** view shows that this work is happening in a generated method with a generated name, which might be unexpected.
 
-  ![Screenshot that shows expression tree in the Call Tree view.](media/vs-2022/call-tree-dynamic-code-expression-tree-visual.png)
+  :::image type="content" source="./media/vs-2022/call-tree-dynamic-code-expression-tree-visual.png" alt-text="Screenshot that shows expression tree in the Call Tree view." lightbox="media/vs-2022/call-tree-dynamic-code-expression-tree-visual.png":::
 
 - Code that defers execution. For code that defers execution, such as LINQ, the call path can appear in unexpected ways if you're unfamiliar with how LINQ works. For example, if you use the following code:
 

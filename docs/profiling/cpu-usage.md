@@ -160,7 +160,7 @@ You can click the **Expand Hot Path** and **Show Hot Path** buttons to see the f
 |![Step 3](../profiling/media/procguid_3.png "ProcGuid_3")|The children of the second-level node are the user-code methods and asynchronous routines that are called or created by the second-level system and framework code.|
 |![Step 4](../profiling/media/procguid_4.png "ProcGuid_4")|Child nodes of a method have data only for the calls of the parent method. When **Show External Code** is disabled, app methods can also contain an **[External Code]** node.|
 
-For help understanding unexpected data in the call tree, see [Understanding the call tree](../profiling/understanding-call-tree-data.md).
+For help understanding unexpected data in the call tree, see [Understanding the call tree](../profiling/understand-call-tree-data.md).
 
 #### <a name="BKMK_External_Code"></a> External code
 
