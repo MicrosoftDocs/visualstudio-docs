@@ -20,7 +20,7 @@ You can use [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) in V
  In addition to your prompt, Copilot uses additional context, like the code in your current file and the chat history, to generate a response. In this article, you learn how to get better answers by providing more information to Copilot Chat including:
 + Use [slash commands](#slash-commands) to quickly specify common tasks like `/explain` to get code explanations.
 + Use the [guided chat experience](#prompting-guidance) and [custom instructions](#enable-custom-instructions) to refine context in Visual Studio 17.12 or later.
-+ [Attach images](#attach-images) to your prompt to provide additional context and better illustrate your ideas in Visual Studio 17.14 Preview 2 or later.
++ [Attach images](#attach-images) to your prompt to provide additional context and better illustrate your ideas in Visual Studio 17.14 Preview 1 or later.
 + Scope the chat to specific files using [references](#reference).
 + Review the [source used](#find-context) by Copilot to generate the answer.
 + Use different [threads](#threads) for each of your Copilot chats so you can maintain different contexts in each.
@@ -76,7 +76,7 @@ With Visual Studio 2022 version 17.13, as the user types a slash command, the co
 
 ## <a name="attach-images"></a>Attach images to a chat prompt
 
-With vision integration for Copilot Chat in Visual Studio 17.14 Preview 2 and later, you can [attach images](visual-studio-github-copilot-chat.md#attach-images-to-chat-prompts) to your chat prompt, providing Copilot with additional context for improved responses. Use images in combination with [scope](#reference) and other contextual features such as slash commands to generate tailored responses.
+With vision integration for Copilot Chat in Visual Studio 17.14 Preview 1 and later, you can [attach images](visual-studio-github-copilot-chat.md#attach-images-to-chat-prompts) to your chat prompt, providing Copilot with additional context for improved responses. Use images in combination with [scope](#reference) and other contextual features such as slash commands to generate tailored responses.
 
 In the following example, Copilot interprets the attached image to generate a plan and suggest code to create a colorful Breakout game from scratch.
 
