@@ -42,7 +42,7 @@ Edits combines the conversational flow of chat and an inline review experience, 
 
 1.	Select **View** > **GitHub Copilot Chat** to launch GitHub Copilot Chat. You can also launch it from the GitHub Copilot status icon.
 2.	Select **Create new Edit session** to create a new Edits thread.
-3.	Enter a chat prompt using natural language about the specific edit you want to make. To help Copilot Edits provide better code suggestions, you can also add relevant context to your prompt. [Reference context](copilot-chat-context.md#reference) by typing the `#` commands to refer to a file, your solution, errors, or a symbol specifically or [attach images](copilot-chat-context.md#attach-images-to-a-chat-prompt) to provide additional context.
+3.	Enter a chat prompt using natural language about the specific edit you want to make. To help Copilot Edits provide better code suggestions, you can also add relevant context to your prompt. [Reference context](copilot-chat-context.md#reference) by typing the `#` commands to refer to a file, your solution, errors, or a symbol specifically or [attach images](copilot-chat-context.md#attach-images) to provide additional context.
 
 > [!TIP]
 > We suggest you ask for one commit’s worth of changes at a time. The more you can break down a problem, the better the result.
