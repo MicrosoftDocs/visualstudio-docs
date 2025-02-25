@@ -15,7 +15,7 @@ ms.custom: ai-learning-hub
 
 Administrators of Visual Studio 2022 version 17.8 or above can deploy GitHub Copilot to client workstations programmatically using an installation script, similar to deploying other [Visual Studio components](../install/workload-and-component-ids.md). 
 
-This method does NOT install GitHub Copilot chat.
+This method does NOT install the GitHub Copilot Chat extension.
 
 ## Prerequisites
 
