@@ -6,13 +6,13 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
 ms.topic: concept-article
-ms.date: 02/21/2025
+ms.date: 02/26/2025
 helpviewer_keywords:
 - parallel project builds
 - building multiple projects in parallel
 - msbuild, building projects in parallel
 
-# Customer intent: As a developer, I want to learn how to use the MSBuild command in Visual Studio to run multiple projects in parallel so that I can build projects faster.
+# Customer intent: As a developer, I want to learn how to use the MSBuild command in Visual Studio to run multiple build actions in parallel so that I can build projects faster.
 
 ---
 
@@ -22,7 +22,7 @@ To build multiple projects faster, you can use MSBuild to run builds in parallel
 
 - Set the `-maxcpucount` switch when you run MSBuild at a command prompt.
 
-- Set the <xref:Microsoft.Build.Tasks.MSBuild.BuildInParallel%2A> task parameter to `true` on an MSBuild task.
+- Set the <xref:Microsoft.Build.Tasks.MSBuild.BuildInParallel%2A> task parameter to `true` on your MSBuild task.
 
 > [!NOTE]
 > Your build performance might decrease if you use the `-verbosity` (`-v`) switch to set the verbosity of your build log information to detailed or diagnostic. This switch is often used for troubleshooting. For more information, see [Obtain build logs with MSBuild](../msbuild/obtaining-build-logs-with-msbuild.md) and [MSBuild command-line reference](../msbuild/msbuild-command-line-reference.md).
@@ -44,7 +44,7 @@ msbuild.exe myproj.proj -maxcpucount:3
 
 ## BuildInParallel MSBuild task parameter
 
-`BuildInParallel` is an optional boolean parameter on an MSBuild task. When you set `BuildInParallel` to `true` (default value), multiple worker processes are generated to build as many projects at the same time as possible. For this parameter to work correctly, set the `-maxcpucount` switch to a value greater than one.
+`BuildInParallel` is an optional boolean parameter you can set on your MSBuild task. When you set `BuildInParallel` to `true` (default value), multiple worker processes are generated to build as many projects at the same time as possible. For this parameter to work correctly, set the `-maxcpucount` switch to a value greater than one.
 
 When you use MSBuild to building in parallel, it works only for a single invocation of the MSBuild task. Therefore, if you invoke task batching, the parallelism is limited to each batch. For more information, see [MSBuild batching](msbuild-batching.md).
 

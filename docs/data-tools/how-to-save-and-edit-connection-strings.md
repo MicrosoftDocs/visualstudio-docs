@@ -8,7 +8,7 @@ ms.subservice: data-tools
 ms.topic: how-to
 ms.date: 02/25/2025
 
-# Customer intent: As a developer, I want to learn how to save and edit database connection strings for .NET Framework applications in Visual Studio so that I don't need to save them in my applications.
+# Customer intent: As a developer, I want to learn how to save and edit database connection strings for .NET Framework applications in Visual Studio so that I can avoid security risks by not saving them in my applications.
 
 ---
 
@@ -24,7 +24,7 @@ To avoid security risks, it's important to properly handle the connection string
 Connection strings in Visual Studio applications are often saved in the application configuration file (also referred to as application settings), or hard-coded directly in your application. Hard-coding directly into the application isn't recommended, because the sensitive information in the connection string, such as the database credentials, can be read directly from the unencrypted binaries. It's more secure to save your connection strings in the application configuration file, which also simplifies the task of maintaining your application. If the connection string needs to be changed, you can update it in the application settings file, instead of changing it in the source code and recompiling the application.
 
 If you store sensitive information, such as a password, within the connection string it can affect the security of your application. Because connection strings saved to the application configuration file aren't encrypted, it might be possible for someone to access the file and view its contents.
-If your database requires a user name and password, you can omit them from the connection string. However, your application must somehow provide this information to successfully connect to the database. For example, if you create a dialog box that prompts a user for a name and password and dynamically builds a connection string at run time, this information can potentially be intercepted on the way to the database.
+If your database requires a user name and password, you can omit them from the connection string. However, your application must somehow provide this information to successfully connect to the database. For example, if you create a dialog box that prompts a user for a name and password and dynamically builds a connection string at run time, this information might be intercepted on the way to the database.
 
 To avoid these security issues, for databases that support it, use Windows integrated security for a more secure way to control access to a database. For more information, see [Protect connection information](/dotnet/framework/data/adonet/protecting-connection-information).
 
