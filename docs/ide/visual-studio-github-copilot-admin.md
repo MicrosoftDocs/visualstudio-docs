@@ -17,7 +17,7 @@ ms.custom: ai-learning-hub
 Visual Studio 2022 introduces new features that enable administrators to configure and manage GitHub Copilot more effectively within their enterprise. These features provide administrators greater control over the use of Copilot within their organization. Admins can disable Copilot for individual accounts, disable it entirely, and configure content exclusion to prevent certain files from being available to Copilot in Visual Studio.
 
 In this article, you learn how to:
-- [Disable Copilot](#disabling-copilot-for-individual-enterprise-visual-studio-accounts)
+- [Disable Copilot](#disabling-copilot-skus)
 - [Configure content exclusion](#configure-content-exclusion)
 
 ## Disabling Copilot SKUs

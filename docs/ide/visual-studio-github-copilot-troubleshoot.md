@@ -51,7 +51,7 @@ Occasionally, you may need to refresh your credentials due to expected timeouts.
 
 ## Copilot is disabled
 
-Your administrator may have disabled GitHub Copilot for individual or any Copilot license. With Visual Studio version 17.10, your [admin can disable Copilot](visual-studio-github-copilot-admin.md#disabling-copilot-for-individual-enterprise-visual-studio-accounts).
+Your administrator may have disabled GitHub Copilot for individual or any Copilot license. With Visual Studio version 17.10, your [admin can disable Copilot](visual-studio-github-copilot-admin.md#disabling-copilot-skus).
 
 **Action:** Contact your IT department to confirm whether your admin has disabled Copilot.
 
