@@ -178,7 +178,7 @@ public class VSSDKPackage : AsyncPackage
 
 ## Add a VisualStudio.Extensibility extension to an existing VSSDK extension project
 
-If you also want to contribute components like tool windows, editor listeners using the VisualStudio.Extensibility SDK within your existing VSSDK extension, you will have to follow additional steps to create a VisualStudio.Extensibility [Extension](/dotnet/api/microsoft.visualstudio.extensibility.extension) instance in your project.
+If you also want to contribute components like tool windows, editor listeners using the VisualStudio.Extensibility SDK within your existing VSSDK extension, you have to follow more steps to create a VisualStudio.Extensibility [Extension](/dotnet/api/microsoft.visualstudio.extensibility.extension) instance in your project.
 
 * You need an SDK style `.csproj` in order to utilize VisualStudio.Extensibility SDK packages. For existing projects, you might need to update your `.csproj` to an SDK style one.
 
@@ -189,7 +189,7 @@ If you also want to contribute components like tool windows, editor listeners us
     <PackageReference Include="Microsoft.VisualStudio.Extensibility.Build" Version="17.9.2092" PrivateAssets="all" />
 ```
 
-* Add `VssdkCompatibleExtension` property to your project file, setting it to `true`. This property will enable some VSSDK features for compatibility.
+* Add `VssdkCompatibleExtension` property to your project file, setting it to `true`. This property enables some VSSDK features for compatibility.
 
 ```XML
 <PropertyGroup>
