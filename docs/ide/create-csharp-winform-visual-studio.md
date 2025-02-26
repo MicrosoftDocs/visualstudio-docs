@@ -114,7 +114,7 @@ After you select your C# project template and name your project, Visual Studio o
 
    :::image type="content" source="../ide/media/vb-button-control-function.png" alt-text="Screenshot showing the new name for the button.":::
 
-   You can [dock or anchor](/dotnet/desktop/winforms/controls/how-to-dock-and-anchor.md) the controls on your form to help with automatic placement and sizing, when the form changes size.
+   You can [dock or anchor](/dotnet/desktop/winforms/controls/how-to-dock-and-anchor) the controls on your form to help with automatic placement and sizing, when the form changes size.
 
    > [!NOTE]
    > If you alphabetized the list in the **Properties** window, **Button1** appears in the **(DataBindings)** section, instead.
