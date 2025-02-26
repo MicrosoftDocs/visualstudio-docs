@@ -185,8 +185,8 @@ If you also want to contribute components like tool windows, editor listeners us
 * Remove package reference for `Microsoft.VSSDK.BuildTools` and instead add package references for VisualStudio.Extensibility.
 
 ```XML
-    <PackageReference Include="Microsoft.VisualStudio.Extensibility.Sdk" Version="17.9.2092" />
-    <PackageReference Include="Microsoft.VisualStudio.Extensibility.Build" Version="17.9.2092" />
+    <PackageReference Include="Microsoft.VisualStudio.Extensibility.Sdk" Version="17.9.2092" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.VisualStudio.Extensibility.Build" Version="17.9.2092" PrivateAssets="all" />
 ```
 
 * Add `VssdkCompatibleExtension` property to your project file, setting it to `true`. This property will enable some VSSDK features for compatibility.
