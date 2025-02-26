@@ -20,11 +20,13 @@ In this article, you learn how to:
 - [Disable Copilot](#disabling-copilot-for-individual-enterprise-visual-studio-accounts)
 - [Configure content exclusion](#configure-content-exclusion)
 
-## Disabling Copilot for individual Enterprise Visual Studio accounts
+## Disabling Copilot SKUs
 
-With Visual Studio version 17.10, project administrators can disable Copilot for individual accounts or disable it entirely using the [Visual Studio Administrative Templates (ADMX/ADML)](https://www.microsoft.com/en-us/download/details.aspx?id=104405). This helps ensure that your repository remains protected.
+With Visual Studio 2022 version 17.10 or later, project administrators can disable Copilot for individual accounts or disable it entirely using the [Visual Studio Administrative Templates (ADMX/ADML)](https://www.microsoft.com/en-us/download/details.aspx?id=104405). This helps ensure that your repository remains protected.
 
-To configure and deploy these policies, you can use [Microsoft Intune](../install/administrative-templates.md#deploying-the-policies) or the [Local Group Policy Editor](#configure-copilot-group-policy) directly on the client machine.
+With Visual Studio 2022 version 17.13 or later, you can disable Copilot Free. 
+
+To configure and deploy these policies, you can use [Microsoft Intune](../install/administrative-templates.md#deploying-the-policies) or the [Local Group Policy Editor](#configure-copilot-group-policy) directly on the client machine. 
 
 ### Configure Copilot group policy
 
@@ -73,3 +75,9 @@ Note that Visual Studio 2022 version 17.11 respects rules only in the root repos
 - Excluded content isn't included in GitHub Copilot Chat's responses.
 
     :::image type="content" source="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-chat-response.png" alt-text="Screenshot of chat's responses on excluded content." lightbox="media/vs-2022/visual-studio-github-copilot-admin/copilot-content-exclusions-chat-response.png":::
+
+## Related content
+
+- [GitHub Copilot settings](https://github.com/settings/copilot)
+- [GitHub Copilot: Compare plans](https://github.com/features/copilot/plans)
+- [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/)
