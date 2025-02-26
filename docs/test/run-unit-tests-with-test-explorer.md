@@ -1,94 +1,88 @@
 ---
-title: Run unit tests with Test Explorer
-description: Run tests with Test Explorer in Visual Studio, enable automatic tests after build, view results, group and filter the test list, create playlists, and use shortcuts.
-ms.date: 11/18/2024
+title: Run Unit Tests with Test Explorer
+description: Run tests by using Test Explorer in Visual Studio, enable automatic tests after build, view results, group and filter the test list, create playlists, and use shortcuts.
+ms.date: 1/21/2025
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: test-tools
 ---
-# Run unit tests with Test Explorer
+# Run unit tests by using Test Explorer
 
-Use Test Explorer to run unit tests from Visual Studio or third-party unit test projects. You can also use Test Explorer to group tests into categories, filter the test list, and create, save, and run playlists of tests. You can also use Test Explorer to [debug unit tests](../test/debug-unit-tests-with-test-explorer.md) and, in Visual Studio Enterprise, to [analyze code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
+Use Test Explorer to run unit tests from Visual Studio or third-party unit test projects. In Test Explorer, you can group tests into categories, filter the test list, and create, save, and run playlists of tests. You can also use Test Explorer to [debug unit tests](../test/debug-unit-tests-with-test-explorer.md) and, in Visual Studio Enterprise, to [analyze code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
-**Test Explorer** can run tests from multiple test projects in a solution and from test classes that are part of the production code projects. Test projects can use different unit test frameworks. When the code under test is written for .NET, the test project can be written in any language that also targets .NET, regardless of the language of the target code. Native C/C++ code projects must be tested by using a C++ unit test framework.
+Test Explorer can run tests from multiple test projects in a solution and from test classes that are part of the production code projects. Test projects can use various unit test frameworks. When the code under test is written for .NET, the test project can be written in any language that also targets .NET, regardless of the language of the target code. You must test native C and C++ code projects by using a C++ unit test framework.
 
 ## Build your test project
 
-If you do not already have a test project set up in your Visual Studio solution, you must first create and build a test project.
+If you don't already have a test project set up in your Visual Studio solution, you must first create and build a test project. Use these resources:
 
 - [Get started with unit testing (.NET)](../test/getting-started-with-unit-testing.md)
 - [Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
 
-Visual Studio includes the Microsoft unit testing frameworks for both managed and native code. However, Test Explorer can also run any unit test framework that has implemented a Test Explorer adapter. For more information about installing third-party unit test frameworks, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
+Visual Studio includes the Microsoft unit test frameworks for both managed and native code. However, Test Explorer can also run any unit test framework that has implemented a Test Explorer adapter. For more information about installing third-party unit test frameworks, see [Install unit test frameworks](../test/install-third-party-unit-test-frameworks.md).
 
 ## Run tests in Test Explorer
 
-When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, and then choose **Test Explorer** (or press **Ctrl** + **E**, **T**).
+When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, select **Test** on the Visual Studio menu, and then select **Test Explorer** (or select Ctrl+E, T).
 
 ::: moniker range="vs-2019"
-![Test Explorer](../test/media/vs-2019/test-explorer-16-2.png)
+![Screenshot that shows a test list in Test Explorer.](../test/media/vs-2019/test-explorer-16-2.png)
 ::: moniker-end
+
 ::: moniker range=">=vs-2022"
-![Test Explorer](../test/media/vs-2022/test-explorer-17-0.png)
+![Screenshot that shows a test list in Test Explorer.](../test/media/vs-2022/test-explorer-17-0.png)
 ::: moniker-end
 
-As you run, write, and rerun your tests, the Test Explorer displays the results in a default grouping of **Project**, **Namespace**, and **Class**. You can change the way the Test Explorer groups your tests.
+As you run, write, and rerun your tests, Test Explorer displays the results in a default grouping of **Project**, **Namespace**, and **Class**. You can change the way Test Explorer groups your tests.
 
-You can perform much of the work of finding, organizing and running tests from the **Test Explorer** toolbar.
+You can perform much of the work of finding, organizing, and running tests from the **Test Explorer** toolbar.
 
 ::: moniker range="vs-2019"
-![Run tests from the Test Explorer toolbar](../test/media/vs-2019/test-explorer-toolbar-diagram-16-2.png)
+![Screenshot that describes icons for running tests from the Test Explorer toolbar.](../test/media/vs-2019/test-explorer-toolbar-diagram-16-2.png)
 ::: moniker-end
+
 ::: moniker range=">=vs-2022"
-:::image type="content" source="../test/media/vs-2022/test-explorer-toolbar-diagram-17-0.png" alt-text="Run tests from the Test Explorer toolbar":::
+:::image type="content" source="../test/media/vs-2022/test-explorer-toolbar-diagram-17-0.png" alt-text="Screenshot that describes icons for running tests from the Test Explorer toolbar.":::
 ::: moniker-end
 
 ### Run tests
 
-You can run all the tests in the solution, all the tests in a group, or a set of tests that you select. Do one of the following:
+Choose one of these options for running tests:
 
-- To run all the tests in a solution, choose the **Run All** icon (or press **Ctrl** + **R**, **V**).
+- To run all the tests in a solution, select the **Run All** icon (or select Ctrl+R, V).
 
-- To run all the tests in a default group, choose the **Run** icon and then choose the group on the menu.
+- To run all the tests in a default group, select the **Run** icon and then select the group on the menu.
 
-- Select the individual tests that you want to run, open the right-click menu for a selected test and then choose **Run Selected Tests** (or press **Ctrl** + **R**, **T**).
+- To run individual tests, select one or more tests, right-click somewhere on the pane, and then select **Run Selected Tests** (or select Ctrl+R, T).
 
-- If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution in the settings menu of the toolbar. This can noticeably reduce the time taken to run all the tests.
+  If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution on the settings menu of the toolbar. This action can reduce the time for running all the tests.
 
-### Configure process architecture for AnyCPU (MSTest)
-
-For MSTest projects using Visual Studio Testing Platform (vstest) as the test runner, the default architecture matches the operating system's architecture. You can override this behavior for AnyCPU projects through the Test Explorer menu shown in the image below.
-
-:::image type="content" source="../test/media/vs-2022/menu-process-architecture-for-anycpu.png" alt-text="Screenshot showing menu for selecting the processor architecture for AnyCPU." lightbox="../test/media/vs-2022/menu-process-architecture-for-anycpu.png":::
-
-For projects using MSTest as the test runner instead of Visual Studio Test Platform (vstest), the architecture is determined strictly by MSBuild and runtime rules. Executables are generated based on the preferred architecture specified in MSBuild/runtime settings. You can adjust this preference using MSBuild properties (e.g., **PreferNativeArm64**), but the Test Explorer menu **Processor Architecture for AnyCPU Projects** cannot be used to change the architecture for these projects.
-
-#### PreferNativeArm64
-
-When using this MSBuild property, the project will prefer running natively on ARM64 architecture if available. This property is applicable to projects that generate executables and follow MSBuild/runtime rules. It is important to note that this setting is ignored for Visual Studio Test Platform (vstest) test projects and only applies to MSTest projects with MSTest configured as the test runner. 
+> [!NOTE]
+> To configure the target platform (process architecture) for running unit tests, see [Configure process architecture for a unit test](../test/run-a-unit-test-as-a-64-bit-process.md).
 
 ### Run tests after every build
 
-To run your unit tests after each local build, open the settings icon in the Test Explorer toolbar and select **Run Tests After Build**.
+To run your unit tests after each local build, select the settings icon on the Test Explorer toolbar and then select **Run Tests After Build**.
 
 ## View test results
 
-As you run, write, and rerun your tests, Test Explorer displays the results in groups of **Failed Tests**, **Passed Tests**, **Skipped Tests** and **Not Run Tests**. The details pane at the bottom or side of the Test Explorer displays a summary of the test run.
+As you run, write, and rerun your tests, Test Explorer displays the results in groups of **Failed Tests**, **Passed Tests**, **Skipped Tests**, and **Not Run Tests**. The details pane at the bottom or side of Test Explorer displays a summary of the test run.
 
 ### View test details
 
 To view the details of an individual test, select the test.
 
 ::: moniker range="vs-2019"
-![Test execution details](../test/media/vs-2019/test-explorer-detail.png)
-::: moniker-end
-::: moniker range=">=vs-2022"
-![Test execution details](../test/media/vs-2022/test-explorer-details.png)
+![Screenshot of test execution details.](../test/media/vs-2019/test-explorer-detail.png)
 ::: moniker-end
 
-The test details pane displays the following information:
+::: moniker range=">=vs-2022"
+![Screenshot of test execution details.](../test/media/vs-2022/test-explorer-details.png)
+::: moniker-end
+
+The pane for test details displays:
 
 - The source file name and the line number of the test method.
 
@@ -98,97 +92,110 @@ The test details pane displays the following information:
 
 If the test fails, the details pane also displays:
 
-- The message returned by the unit test framework for the test.
+- The message that the unit test framework returns for the test.
 
-- The stack trace at the time the test failed.
+- The stack trace at the time that the test failed.
 
 ### View the source code of a test method
 
-To display the source code for a test method in the Visual Studio editor, select the test and then choose **Open Test** on the right-click menu (or press **F12**).
+To display the source code for a test method in the Visual Studio editor, right-click the test, and then select **Open Test** (or select the F12 key).
 
 ## Group and filter the test list
 
-Test Explorer lets you group your tests into predefined categories. Most unit test frameworks that run in Test Explorer let you define your own categories and category/value pairs to group your tests. You can also filter the list of tests by matching strings against test properties.
+In Test Explorer, you can group your tests into predefined categories. Most unit test frameworks that run in Test Explorer let you define your own categories and category/value pairs to group your tests. You can also filter the list of tests by matching strings against test properties.
 
-### Group tests in the test list
+### Grouping tests in the test list
 
 ::: moniker range="vs-2019"
-Test Explorer lets you group your tests into a hierarchy. The default hierarchy grouping is **Project**, **Namespace**, and then **Class**. To change the way that tests are organized, choose the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and select a new grouping criteria.
+Test Explorer lets you group your tests into a hierarchy. The default hierarchy grouping is **Project**, **Namespace**, and then **Class**. To change the way that tests are organized, select the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and then select a new grouping criterion.
 
-![Group tests by category in Test Explorer](../test/media/vs-2019/test-explorer-groupby-162.png)
+![Screenshot that shows selections for grouping tests by category in Test Explorer.](../test/media/vs-2019/test-explorer-groupby-162.png)
 
-You can define your own levels of the hierarchy and group by **State** and then **Class** for example by selecting Group By options in your preferred order.
+You can define your own levels of the hierarchy (group by **State** and then **Class**, for example) by selecting **Group By** options in your preferred order.
 
-![Screenshot of the Visual Studio Test Explorer showing  a test hierarchy in one pane and the Group By menu in the other with the Class and State options checked.](../test/media/vs-2019/test-explorer-groupby-state-16-2.png)
+![Screenshot of Test Explorer that shows a test hierarchy on one pane and the Group By menu on the other pane, with Class and State options selected.](../test/media/vs-2019/test-explorer-groupby-state-16-2.png)
 ::: moniker-end
+
 ::: moniker range=">=vs-2022"
-Test Explorer lets you group your tests into a hierarchy. The default hierarchy grouping is **Project**, **Namespace**, and then **Class**. To change the way that tests are organized, choose the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and select a new grouping criteria.
+Test Explorer lets you group your tests into a hierarchy. The default hierarchy grouping is **Project**, **Namespace**, and then **Class**. To change the way that tests are organized, select the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and then select a new grouping criterion.
 
-![Group tests by category in Test Explorer](../test/media/vs-2022/test-explorer-groupby-17-0.png)
+![Screenshot that shows selections for grouping tests by category in Test Explorer.](../test/media/vs-2022/test-explorer-groupby-17-0.png)
 
-You can define your own levels of the hierarchy and group by **State** and then **Class** for example by selecting Group By options in your preferred order.
+You can define your own levels of the hierarchy (group by **State** and then **Class**, for example) by selecting **Group By** options in your preferred order.
 
-![Screenshot of the Visual Studio Test Explorer showing  a test hierarchy in one pane and the Group By menu in the other with the Class and State options checked.](../test/media/vs-2022/test-explorer-groupby-state-17-0.png)
+![Screenshot of Test Explorer that shows a test hierarchy on one pane and the Group By menu on the other pane, with the Class and State options selected.](../test/media/vs-2022/test-explorer-groupby-state-17-0.png)
 ::: moniker-end
 
 ### Test Explorer groups
 
 |Group|Description|
 |-|-----------------|
-|**Duration**|Groups tests by execution time: **Fast**, **Medium**, and **Slow**.|
-|**State**|Groups tests by execution results: **Failed Tests**, **Skipped Tests**, **Passed Tests**, **Not Run**|
-|**Target Framework** | Groups tests by the framework their projects target |
+|**Duration**|Groups tests by execution time: **Fast**, **Medium**, **Slow**.|
+|**State**|Groups tests by execution results: **Failed Tests**, **Skipped Tests**, **Passed Tests**, **Not Run**.|
+|**Target Framework** | Groups tests by the framework that their projects target.|
 |**Namespace**|Groups tests by the containing namespace.|
 |**Project**|Groups tests by the containing project.|
 |**Class**|Groups tests by the containing class.|
 
 ### Traits
 
-A trait is usually a category name/value pair, but it can also be a single category. Traits can be assigned to methods that are identified as a test method by the unit test framework. A unit test framework can define trait categories. You can add values to the trait categories to define your own category name/value pairs. The syntax to specify trait categories and values is defined by the unit test framework.
+A trait is usually a category name/value pair, but it can also be a single category. Traits can be assigned to methods that the unit test framework identifies as test methods.
 
-**Traits in the Microsoft Unit Testing Framework for Managed Code**
+A unit test framework can define trait categories. You can add values to the trait categories to define your own category name/value pairs. The unit test framework defines the syntax to specify trait categories and values.
 
-In the Microsoft unit test framework for managed apps, you define a trait name/ value pair in a  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute> attribute. The test framework also contains these predefined traits:
+#### Traits in the Microsoft Unit Testing Framework for Managed Code
+
+In the Microsoft Unit Testing Framework for Managed Code, you define a trait name/value pair in a <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute> attribute. The test framework also contains these predefined traits:
 
 |Trait|Description|
 |-|-----------------|
-|<xref:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute>|The Owner category is defined by the unit test framework and requires you to provide a string value of the owner.|
-|<xref:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute>|The Priority category is defined by the unit test framework and requires you to provide an integer value of the priority.|
-|<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute>|The TestCategory attribute enables you to specify the category of a unit test.|
-|<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute>|The TestProperty attribute enables you to define trait category/value pair.|
+|<xref:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute>|The `Owner` category is defined by the unit test framework and requires you to provide a string value of the owner.|
+|<xref:Microsoft.VisualStudio.TestTools.UnitTesting.PriorityAttribute>|The `Priority` category is defined by the unit test framework and requires you to provide an integer value of the priority.|
+|<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute>|The `TestCategory` attribute enables you to specify the category of a unit test.|
+|<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute>|The `TestProperty` attribute enables you to define a trait category/value pair.|
 
-**Traits in the Microsoft Unit Testing Framework for C++**
+#### Traits in the Microsoft Unit Testing Framework for C++
 
-See [How to use the Microsoft Unit Testing Framework for C++](how-to-use-microsoft-test-framework-for-cpp.md).
+See [Use the Microsoft Unit Testing Framework for C++ in Visual Studio](how-to-use-microsoft-test-framework-for-cpp.md).
 
 ## Create custom playlists
 
 ::: moniker range="vs-2019"
-You can create and save a list of tests that you want to run or view as a group. When you select a playlist, the tests in the list are displayed in a new Test Explorer tab. You can add a test to more than one playlist.
+You can create and save a list of tests that you want to run or view as a group. When you select a playlist, the tests in the list appear on a new Test Explorer tab. You can add a test to more than one playlist.
 
-**To create a playlist**, choose one or more tests in Test Explorer. On the right-click menu, choose **Add to Playlist** > **New Playlist**.
+To create a playlist:
 
-![Create a playlist](../test/media/vs-2019/test-explorer-playlist-16-2.png)
+1. Choose one or more tests in Test Explorer.
+1. Right-click somewhere on the pane, point to **Add to Playlist**, and then select **New Playlist**.
 
-The playlist opens in a new Test Explorer tab. You can use this playlist once and then discard it, or you can click the **Save** button in the playlist window's toolbar, and then select a name and location to save the playlist.
+![Screenshot that shows selections for creating a playlist.](../test/media/vs-2019/test-explorer-playlist-16-2.png)
 
-![Playlist opens in separate test explorer tab](../test/media/vs-2019/test-explorer-playlist-tab-16-7.png)
+The playlist opens on a new Test Explorer tab. You can use this playlist once and then discard it. Or you can select the **Save** button on the playlist window's toolbar, and then select a name and location to save the playlist.
 
-**To create a playlist**, choose one or more tests in Test Explorer. Right-click and choose **Add to Playlist** > **New playlist**.
+![Screenshot that shows a playlist opened on a separate Test Explorer tab.](../test/media/vs-2019/test-explorer-playlist-tab-16-7.png)
 
-**To open a playlist**, choose the playlist icon in the Visual Studio toolbar and select a previously saved playlist file from the menu.
+To open a playlist:
 
-**To edit a playlist**, you can right-click on any test and use the menu options to add or remove it from a playlist.
+1. On the Visual Studio toolbar, select the playlist icon.
+1. On the menu, select a previously saved playlist file.
 
-Starting in Visual Studio 2019 version 16.7, you can choose the **Edit** button in the toolbar. Check boxes will appear next to your tests showing what tests are included and excluded in the playlist. Edit groups as desired.
+To edit a playlist, use one of these options:
 
-![Edit Playlist button](../test/media/vs-2019/test-explorer-playlist-edit-16-7.png)
+- Right-click any test, and then use the menu commands to add or remove it from a playlist.
+- On the toolbar, select the **Edit Playlist** button. Checkboxes that appear next to your tests show what tests are included and excluded in the playlist. Edit groups as desired. This capability started in Visual Studio 2019 version 16.7.
 
-You can also check or uncheck the boxes of the parent groups in the hierarchy. This action creates a dynamic playlist that always updates the playlist based on the tests that are in that group. For example, if you place a check mark next to a class, any test added from that class becomes part of this playlist. If you delete a test from that class, it is removed from the playlist. You can learn more about the rules by saving the playlist with the Save button in the toolbar and opening the *.playlist* file that is created on your disk. This file lists all the rules and individual tests that make up a playlist.
+  ![Screenshot that shows the Edit Playlist button on the toolbar.](../test/media/vs-2019/test-explorer-playlist-edit-16-7.png)
 
-![Playlist xml file](../test/media/vs-2019/test-explorer-playlist-xml-file.png)
+You can also select or clear the boxes for the parent groups in the hierarchy. This action creates a dynamic playlist that always updates the playlist based on the tests that are in that group.
 
-If you would like to make a playlist for traits, use the following format for MSTest.
+For example, if you select a checkbox next to a class, any test added from that class becomes part of this playlist. If you delete a test from that class, it's removed from the playlist.
+
+You can learn more about the rules by saving the playlist via the **Save** button on the toolbar, and then opening the *.playlist* XML file that's created on your disk. This file lists all the rules and individual tests that make up a playlist.
+
+![Screenshot that shows the contents of a playlist XML file.](../test/media/vs-2019/test-explorer-playlist-xml-file.png)
+
+If you want to make a playlist for traits, use the following format for the MSTest framework:
+
 ```xml
 <Playlist Version="2.0">
   <Rule Name="Includes" Match="Any">
@@ -197,7 +204,7 @@ If you would like to make a playlist for traits, use the following format for MS
 </Playlist>
 ```
 
-Use the following format for xUnit. Make sure there is a space between your `TestCategory` name and the `[Value]`.
+Use the following format for the xUnit framework. Make sure there's a space between your `TestCategory` name and the `[Value]` value.
 
 ```xml
 <Playlist Version="2.0">
@@ -211,35 +218,43 @@ Use the following format for xUnit. Make sure there is a space between your `Tes
   </Rule>
 </Playlist>
 ```
-
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-You can create and save a list of tests that you want to run or view as a group. When you select a playlist, the tests in the list are displayed in a new Test Explorer tab. You can add a test to more than one playlist.
+You can create and save a list of tests that you want to run or view as a group. When you select a playlist, the tests in the list appear on a new Test Explorer tab. You can add a test to more than one playlist.
 
-**To create a playlist**, choose one or more tests in Test Explorer. On the right-click menu, choose **Add to Playlist** > **New Playlist**.
+To create a playlist:
 
-![Create a playlist](../test/media/vs-2022/test-explorer-playlist-17-0.png)
+1. Choose one or more tests in Test Explorer.
+1. Right-click somewhere on the pane, point to **Add to Playlist**, and then select **New Playlist**.
 
-The playlist opens in a new Test Explorer tab. You can use this playlist once and then discard it, or you can click the **Save** button in the playlist window's toolbar, and then select a name and location to save the playlist.
+![Screenshot that shows selections for creating a playlist.](../test/media/vs-2022/test-explorer-playlist-17-0.png)
 
-![Playlist opens in separate test explorer tab](../test/media/vs-2022/test-explorer-playlist-tab-17-0.png)
+The playlist opens on a new Test Explorer tab. You can use this playlist once and then discard it. Or you can select the **Save** button on the playlist window's toolbar, and then select a name and location to save the playlist.
 
-**To create a playlist**, choose one or more tests in Test Explorer. Right-click and choose **Add to Playlist** > **New playlist**.
+![Screenshot that shows a playlist opened on separate Test Explorer tab.](../test/media/vs-2022/test-explorer-playlist-tab-17-0.png)
 
-**To open a playlist**, choose the playlist icon in the Visual Studio toolbar and select a previously saved playlist file from the menu.
+To open a playlist:
 
-**To edit a playlist**, you can right-click on any test and use the menu options to add or remove it from a playlist.
+1. On the Visual Studio toolbar, select the playlist icon.
+1. On the menu, select a previously saved playlist file.
 
-Starting in Visual Studio 2019 version 16.7, you can choose the **Edit** button in the toolbar. Check boxes will appear next to your tests showing what tests are included and excluded in the playlist. Edit groups as desired.
+To edit a playlist, use one of these options:
 
-![Edit Playlist button](../test/media/vs-2022/test-explorer-playlist-edit-17-0.png)
+- Right-click any test, and then use the menu commands to add or remove it from a playlist.
+- On the toolbar, select the **Edit Playlist** button. Checkboxes that appear next to your tests show what tests are included and excluded in the playlist. Edit groups as desired. This capability started in Visual Studio 2019 version 16.7.
 
-You can also check or uncheck the boxes of the parent groups in the hierarchy. This action creates a dynamic playlist that always updates the playlist based on the tests that are in that group. For example, if you place a check mark next to a class, any test added from that class becomes part of this playlist. If you delete a test from that class, it is removed from the playlist. You can learn more about the rules by saving the playlist with the Save button in the toolbar and opening the *.playlist* file that is created on your disk. This file lists all the rules and individual tests that make up a playlist.
+  ![Screenshot that shows the Edit Playlist button on the toolbar.](../test/media/vs-2022/test-explorer-playlist-edit-17-0.png)
 
-![Playlist xml file](../test/media/vs-2022/test-explorer-playlist-xml-file.png)
+You can also select or clear the boxes for the parent groups in the hierarchy. This action creates a dynamic playlist that always updates the playlist based on the tests that are in that group.
 
-If you would like to make a playlist for traits, use the following format for MSTest.
+For example, if you select a checkbox next to a class, any test added from that class becomes part of this playlist. If you delete a test from that class, it's removed from the playlist.
+
+You can learn more about the rules by saving the playlist via the **Save** button on the toolbar, and then opening the *.playlist* XML file that's created on your disk. This file lists all the rules and individual tests that make up a playlist.
+
+![Screenshot that shows the contents of a playlist XML file.](../test/media/vs-2022/test-explorer-playlist-xml-file.png)
+
+If you want to make a playlist for traits, use the following format for the MSTest framework:
 
 ```xml
 <Playlist Version="2.0">
@@ -249,7 +264,7 @@ If you would like to make a playlist for traits, use the following format for MS
 </Playlist>
 ```
 
-Use the following format for xUnit. Make sure there is a space between your `TestCategory` name and the `[Value]`.
+Use the following format for the xUnit framework. Make sure there's a space between your `TestCategory` name and the `[Value]` value.
 
 ```xml
 <Playlist Version="2.0">
@@ -263,78 +278,77 @@ Use the following format for xUnit. Make sure there is a space between your `Tes
   </Rule>
 </Playlist>
 ```
-
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 ### Test Explorer columns
 
-The [groups](#test-explorer-groups) are also available as columns in Test Explorer, along with Trait, Stack Trace, Error Message, and Fully Qualified Name. Most columns are not visible by default, and you can customize which columns you see and the order in which they appear.
+[Groups](#test-explorer-groups) are also available as columns in Test Explorer, along with **Traits**, **Stack Trace**, **Error Message**, and **Fully Qualified Name**. Most columns are not visible by default. You can customize which columns appear.
 
-![Screenshot of the Visual Studio Test Explorer showing a menu with Columns selected and a sub-menu with Duration, Traits, and Error Message selected.](../test/media/vs-2019/test-explorer-columns-16-2.png)
+![Screenshot of Visual Studio Test Explorer that shows a menu with Columns selected and a submenu with Duration, Traits, and Error Message selected.](../test/media/vs-2019/test-explorer-columns-16-2.png)
 
-### Filter, sort, and rearrange test columns
+Columns can be filtered, rearranged, and sorted:
 
-Columns can be filtered, sorted, and rearranged.
-* To filter to specific traits, click the filter icon at the top of the Traits column.
+- To filter to specific traits, select the filter icon at the top of the **Traits** column.
 
-  ![Column filter](../test/media/vs-2019/test-explorer-filter-column-16-2.png)
+  ![Screenshot of the column filter.](../test/media/vs-2019/test-explorer-filter-column-16-2.png)
 
-* To change the order of the columns, click on a column header and drag it left or right.
+- To change the order of the columns, select a column header and drag it left or right.
 
-* To sort a column, click on the column header. Not all columns can be sorted. You can also sort by a secondary column by holding the **Shift** key and clicking on an additional column header.
+- To sort a column, select the column header. Not all columns can be sorted. You can also sort by a secondary column by holding the Shift key and selecting an additional column header.
 
-  ![Column sort](../test/media/vs-2019/test-explorer-sort-column-16-2.png)
+  ![Screenshot of a column sort.](../test/media/vs-2019/test-explorer-sort-column-16-2.png)
 ::: moniker-end
+
 ::: moniker range=">=vs-2022"
 ### Test Explorer columns
 
-The [groups](#test-explorer-groups) are also available as columns in Test Explorer, along with Trait, Stack Trace, Error Message, and Fully Qualified Name. Most columns are not visible by default, and you can customize which columns you see and the order in which they appear.
+[Groups](#test-explorer-groups) are also available as columns in Test Explorer, along with **Traits**, **Stack Trace**, **Error Message**, and **Fully Qualified Name**. Most columns are not visible by default. You can customize which columns appear.
 
-![Screenshot of the Visual Studio Test Explorer showing a menu with Columns selected and a sub-menu with Duration, Traits, and Error Message selected.](../test/media/vs-2022/test-explorer-columns-17-0.png)
+![Screenshot of Visual Studio Test Explorer that shows a menu with Columns selected and a submenu with Duration, Traits, and Error Message selected.](../test/media/vs-2022/test-explorer-columns-17-0.png)
 
-### Filter, sort, and rearrange test columns
+Columns can be filtered, rearranged, and sorted:
 
-Columns can be filtered, sorted, and rearranged.
-* To filter to specific traits, click the filter icon at the top of the Traits column.
+- To filter to specific traits, select the filter icon at the top of the **Traits** column.
 
-  ![Column filter](../test/media/vs-2022/test-explorer-filter-column-17-0.png)
+  ![Screenshot of the column filter.](../test/media/vs-2022/test-explorer-filter-column-17-0.png)
 
-* To change the order of the columns, click on a column header and drag it left or right.
+- To change the order of the columns, select a column header and drag it left or right.
 
-* To sort a column, click on the column header. Not all columns can be sorted. You can also sort by a secondary column by holding the **Shift** key and clicking on an additional column header.
+- To sort a column, select the column header. Not all columns can be sorted. You can also sort by a secondary column by holding the Shift key and selecting an additional column header.
 
-  ![Column sort](../test/media/vs-2022/test-explorer-sort-column-17-0.png)
+  ![Screenshot of a column sort.](../test/media/vs-2022/test-explorer-sort-column-17-0.png)
 ::: moniker-end
 
 ## Search and filter the test list
 
 You can also use Test Explorer search filters to limit the test methods in your projects that you view and run.
 
-When you type a string in the **Test Explorer** search box and choose **Enter**, the test list is filtered to display only those tests whose fully qualified names contain the string.
+When you type a string in the **Test Explorer** search box and select the Enter key, the test list is filtered to display only tests whose fully qualified names contain the string.
 
-To filter by a different criteria:
+To filter by a different criterion:
 
-1. Open the drop-down list to the right of the search box.
+1. Open the dropdown list to the right of the search box.
 
-2. Choose a new criteria.
+2. Choose a new criterion.
 
-3. Enter the filter value between the quotation marks. If you want to search for an exact match on the string instead of a containing match use an equals sign (=) instead of the colon (:).
+3. Enter the filter value between the quotation marks. If you want to search for an exact match on the string instead of a containing match, use an equal sign (=) instead of the colon (:).
 
 ::: moniker range="vs-2019"
-![Filter tests in Test Explorer](../test/media/vs-2019/test-explorer-search-filter-16-2.png)
+![Screenshot of filter tests in Test Explorer.](../test/media/vs-2019/test-explorer-search-filter-16-2.png)
 ::: moniker-end
+
 ::: moniker range=">=vs-2022"
-![Filter tests in Test Explorer](../test/media/vs-2022/test-explorer-search-filter-17-0.png)
+![Screenshot of filter tests in Test Explorer.](../test/media/vs-2022/test-explorer-search-filter-17-0.png)
 ::: moniker-end
 
 > [!NOTE]
-> Searches are case insensitive and match the specified string to any part of the criteria value.
+> Searches are case-insensitive and match the specified string to any part of the criterion value.
 
 |Qualifier|Description|
 |-|-----------------|
 |**State**|Searches the Test Explorer category names for matches: **Failed Tests**, **Skipped Tests**, **Passed Tests**.|
-|**Traits**|Searches both trait category and value for matches. The syntax to specify trait categories and values are defined by the unit test framework.|
+|**Traits**|Searches both trait categories and values for matches. The unit test framework defines the syntax to specify trait categories and values.|
 |**Fully Qualified Name**|Searches the fully qualified name of test namespaces, classes, and methods for matches.|
 |**Project**|Searches the test project names for matches.|
 |**Target Framework**|Searches the test frameworks for matches.|
@@ -351,38 +365,49 @@ For example, `FullName:"MyClass" - FullName:"PerfTest"` returns all tests that i
 
 ### Analyze unit test code coverage
 
-You can determine the amount of product code that is actually being tested by your unit tests by using the Visual Studio Code coverage tool that's available in Visual Studio Enterprise edition. You can run code coverage on selected tests or on all tests in a solution.
+You can determine the amount of product code that your unit tests are actually testing by using the Visual Studio Code coverage tool that's available in Visual Studio Enterprise. You can run code coverage on selected tests or on all tests in a solution.
 
 To run code coverage for test methods in a solution:
 
-* Right-click in Test Explorer and select **Analyze Code Coverage for Selected tests**
+- Right-click in Test Explorer, and then select **Analyze Code Coverage for Selected tests**.
 
-The **Code Coverage Results** window displays the percentage of the blocks of product code that were exercised by line, function, class, namespace and module.
+The **Code Coverage Results** window displays the percentage of the blocks of product code that were exercised by line, function, class, namespace, and module.
 
 For more information, see [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
 ## Test shortcuts
 
-Tests can be run from Test Explorer by right-clicking in the code editor on a test and selecting **Run test** or by using the default [Test Explorer shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorerGLOBAL) in Visual Studio. Some of the shortcuts are context-based. This means that they run, [debug](../test/debug-unit-tests-with-test-explorer.md), or [profile](../test/debug-unit-tests-with-test-explorer.md#diagnose-test-method-performance-issues) tests based on where your cursor is in the code editor. If your cursor is inside a test method, then that test method runs. If your cursor is at the class level, then all the tests in that class run. This is the same for the namespace level as well.
+You can run tests from Test Explorer by either:
 
-|Frequent Commands| Keyboard Shortcuts|
+- Right-clicking a test in the code editor and then selecting **Run test**
+- Using the default [Test Explorer shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorerGLOBAL) in Visual Studio
+
+Some of the shortcuts are context-based. They run, [debug](../test/debug-unit-tests-with-test-explorer.md), or [profile](../test/debug-unit-tests-with-test-explorer.md#diagnose-performance-problems-with-a-test-method) tests based on where your cursor is in the code editor. If your cursor is inside a test method, then that test method runs. If your cursor is at the class level, then all the tests in that class run. The same behavior is true for the namespace level.
+
+|Frequent commands| Keyboard shortcuts|
 |-|------------------------|
-|TestExplorer.DebugAllTestsInContext|**Ctrl**+**R**, **Ctrl**+**T**|
-|TestExplorer.RunAllTestsInContext|**Ctrl**+**R**, **T**|
-|TestExplorer.RunAllTests|**Ctrl**+**R**, **A**|
-|TestExplorer.RepeatLastRun|**Ctrl**+**R**, **L**|
+|`TestExplorer.DebugAllTestsInContext`|Ctrl+R, Ctrl+T|
+|`TestExplorer.RunAllTestsInContext`|Ctrl+R, T|
+|`TestExplorer.RunAllTests`|Ctrl+R, A|
+|`TestExplorer.RepeatLastRun`|Ctrl+R, L|
 
 > [!NOTE]
 > You can't run a test in an abstract class, because tests are only defined in abstract classes and not instantiated. To run tests in abstract classes, create a class that derives from the abstract class.
 
-## Test audio cue
+## Set up audio cues
 
-Test Explorer can play a sound when a test run completes. There are two sounds: one sound to indicate the test run succeeded with all passing tests, and a second sound to indicate the test run completed with at least one failing test. You can set up these sounds in the default Windows 11 sound dialog. This feature is available starting in Visual Studio 2019 Update 16.9 Preview 3.
+Test Explorer can play one of these sounds when a test run finishes:
 
-1. Open the default Windows 11 sound dialog.
-2. Navigate to the **Sounds** tab.
-3. Find the **Microsoft Visual Studio** category. Choose the **Test Run Succeeded** or **Test Run Failed** sounds to select the preset sounds or browse to your own audio file.  
-![Windows 11 sound dialog](../test/media/default-windows-11-sound-dialog.png)
+- A sound that indicates that the test run succeeded with all passing tests
+- A sound that indicates that the test run finished with at least one failing test
+
+You can set up these sounds in the default Windows 11 **Sound** dialog. This feature is available starting in Visual Studio 2019 Update 16.9 Preview 3.
+
+1. Open the default Windows 11 **Sound** dialog.
+2. Go to the **Sounds** tab.
+3. Find the **Microsoft Visual Studio** category. Choose the **Test Run Succeeded** or **Test Run Failed** preset sound, or browse to your own audio file.  
+
+![Screenshot of the Windows 11 Sound dialog.](../test/media/default-windows-11-sound-dialog.png)
 
 ## Related content
 

@@ -2524,6 +2524,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md",
+      "redirect_url": "/dotnet/core/testing/unit-testing-mstest-writing-tests-attributes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/using-the-assert-classes.md",
+      "redirect_url": "/dotnet/core/testing/unit-testing-mstest-writing-tests-assertions",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/test/analyzing-coded-ui-tests-using-coded-ui-test-logs.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/analyzing-coded-ui-tests-using-coded-ui-test-logs",
       "redirect_document_id": false
@@ -6197,6 +6207,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/not-in-toc/change-f1-help-key.md",
+      "redirect_url": "/visualstudio/ide/not-in-toc/default",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/wrap-align-indent-parameters.md",
       "redirect_url": "/visualstudio/ide/reference/wrap-indent-align-refactorings",
       "redirect_document_id": false
@@ -6232,7 +6247,27 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/debugging-preparation-windows-forms-applications.md",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-debugger",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugging-preparation-windows-services.md",
+      "redirect_url": "/dotnet/framework/windows-services/how-to-debug-windows-service-applications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/edit-and-continue-not-supported-for-f-hash.md",
+      "redirect_url": "/visualstudio/debugger/hot-reload",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/debugger/error-site-uses-ip-address.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-site-uses-ip-address",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/error-site-uses-ip-address.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-site-uses-ip-address",
       "redirect_document_id": false
     },

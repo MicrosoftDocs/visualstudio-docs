@@ -74,6 +74,9 @@ Learn more:
 
 ## <a name="VersionSupport"></a> Edition support for architecture and modeling tools
 
+> [!NOTE]
+> Architecture tools are not supported on ARM64 Visual Studio.
+
 Visual Studio is available in several editions. Not all of these provide support for the architecture and modeling tools. The following table shows the availability of each tool.
 
 |**Feature**|**Enterprise edition**|**Professional edition**|**Community edition**|

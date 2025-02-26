@@ -16,7 +16,7 @@ ms.subservice: debug-diagnostics
 
 # Measure application performance by analyzing CPU utilization (C#, Visual Basic, C++, F#)
 
-Find performance issues while you're debugging with the debugger-integrated **CPU Usage** diagnostic tool.  You can also analyze CPU usage without a debugger attached or by targeting a running app. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md) and [Analyze performance by using CPU profiling](../profiling/cpu-usage.md).
+Find performance issues while you're debugging with the debugger-integrated **CPU Usage** diagnostic tool.  You can also analyze CPU usage without a debugger attached or by targeting a running app. For more information, see [Run profiling tools on release or debug builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md) and [Analyze performance by using CPU profiling](../profiling/cpu-usage.md).
 
 When the debugger pauses, the **CPU Usage** tool in the Diagnostic Tools window collects information about the functions that are executing in your application. The tool lists the functions that were performing work, and provides a timeline graph you can use to focus on specific segments of the sampling session.
 
@@ -182,9 +182,17 @@ We recommend that you begin analyzing your data by examining the list of functio
     > [!NOTE]
     > If you see code in the call tree marked as "broken" code or "unwalkable stack", this indicates that Event Tracing for Windows (ETW) events were likely dropped. Try collecting the same trace a second time to resolve the issue.
 
+::: moniker range=">=vs-2022"
 4. To see a different view of the data, select **Flame Graph** from the drop-down list at the top of the pane.
 
    The flame graph provides a different visualization of the call tree that may help you to analyze the data. For more information, see [Identify hot paths with a flame graph](../profiling/flame-graph.md).
+
+5. To see views of the data aggregated by function or by module, select **Functions** or **Modules** from the drop-down list at the top of the pane.
+
+   These views help to identify functions or modules that might be performance bottlenecks due to a combination of high call counts and/or performance issues.
+
+    ![Screenshot that shows Diagnostics Tools Functions view.](../profiling/media/vs-2022/diag-tools-functions-view.png)
+::: moniker-end
 
 ## View external code
 

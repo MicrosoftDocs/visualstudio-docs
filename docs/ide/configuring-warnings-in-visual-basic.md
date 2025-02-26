@@ -21,9 +21,21 @@ Sometimes the compiler provides extra logic on the user's behalf so that the use
 You may want to customize your project and turn off some warnings not pertinent to your application while turning other warnings into errors. This page explains how to turn individual warnings on and off.
 
 ## Turning warnings off and on
-There are two different ways to configure warnings: you can configure them using the **Project Designer**, or you can use the **/warnaserror** and **/nowarn** compiler options.
 
+There are several different ways to configure warnings: you can configure them using the **Project Designer**, you can use the **/warnaserror** and **/nowarn** compiler options, or you can edit the project file (`vbproj` file) and use the `NoWarn` MSBuild property. To use the MSBuild property, see [Suppress specific warnings for an entire Visual Basic project](how-to-suppress-compiler-warnings.md#to-suppress-specific-warnings-for-an-entire-visual-basic-project).
+
+:::moniker range=">=vs-2022"
+The **Project Designer** experience differs depending on whether you're working with a .NET Framework project or a .NET Core (or .NET 5 or later) project.
+
+In .NET Core (or .NET 5 and later) projects, the **Compile** section of the **Project Designer** contains a setting called **Warning severity** that you can use to disable all warnings, promote all warnings to errors, or you can choose to control each category of warning separately (the default). The warning category settings appear in the same area of the **Project Designer**.
+
+In .NET Framework projects, in the **Compile** tab of the **Project Designer**, select the **Disable All Warnings** check box to disable all warnings; select the **Treat All Warnings as Errors** to treat all warnings as errors. Some individual warnings can be toggled as error or warning as desired in the displayed table.
+
+:::moniker-end
+
+:::moniker range="<=vs-2019"
 The **Compile** tab of the **Project Designer** page allows you to turn warnings on and off. Select the **Disable All Warnings** check box to disable all warnings; select the **Treat All Warnings as Errors** to treat all warnings as errors. Some individual warnings can be toggled as error or warning as desired in the displayed table.
+:::moniker-end
 
 When **Option Strict** is set to **Off**, **Option Strict** related warnings cannot be treated independently of each other. When **Option Strict** is set to **On**, the associated warnings are treated as errors, no matter what their status is. When **Option Strict** is set to **Custom** by specifying `/optionstrict:custom` in the command line compiler, **Option Strict** warnings can be toggled on or off independently.
 
@@ -31,8 +43,8 @@ The **/warnaserror** command-line option of the compiler can also be used to spe
 
 |Command-line option|Specifies|
 | - |---------------|
-|`/warnaserror+`|Treat all warnings as errors|
-|`/warnsaserror`-|Do not treat as warnings as errors. This is the default.|
+|`/warnaserror+` or `/warnaserror`|Treat all warnings as errors|
+|`/warnsaserror-`|Do not treat warnings as errors. This setting is the default.|
 |`/warnaserror+:<warning list` `>`|Treat specific warnings as errors, listed by their error ID number in a comma delimited list r.|
 |`/warnaserror-:<warning list>`|Do not treat specific warnings as errors, listed by their error ID number in a comma delimited list.|
 |`/nowarn`|Do not report warnings.|

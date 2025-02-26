@@ -5,7 +5,7 @@ author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide
-ms.date: 08/08/2023
+ms.date: 12/10/2024
 ms.topic: conceptual
 helpviewer_keywords:
 - editor
@@ -244,6 +244,12 @@ Visual Studio has many features to help you search and [navigate your code](../i
 ## Improved IntelliSense
 
 Use [IntelliCode](/visualstudio/intellicode/intellicode-visual-studio) for Visual Studio to get context-aware code completions instead of just an alphabetical list. 
+
+::: moniker range=">=vs-2022"
+## AI assistance
+
+If you're using [Copilot](../ide/visual-studio-github-copilot-install-and-states.md), get AI assistance to [help you write and debug code](../ide/ai-assisted-development-visual-studio.md#ai-capabilities-side-by-side).
+::: moniker-end
 
 ## Unit testing
 

@@ -17,6 +17,9 @@ This document describes how to work with the Visual Studio **Model Editor** to v
 
 You can use **Model Editor** to create basic 3D models from scratch, or to view and modify more-complex 3D models that were created by using full-featured 3D modeling tools.
 
+> [!NOTE]
+> Visual Studio 2022 17.9.3 removed support for the Model Editor and MeshContentTask due to security concerns in the Autodesk FBX SDK. See [CVE-2023-27911](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-27911).
+
 ## Supported formats
 
 The **Model Editor** supports several 3D model formats that are used in DirectX app development:

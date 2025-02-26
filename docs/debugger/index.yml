@@ -12,7 +12,7 @@ metadata:
   author: mikejo5000
   ms.author: mikejo
   manager: mijacobs
-  ms.date: 06/13/2023
+  ms.date: 12/06/2024
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -93,7 +93,7 @@ landingContent:
           - text: Get started measuring memory usage
             url: ../profiling/memory-usage.md
           - text: AI-assisted CPU usage auto insights with Copilot
-            url: debug-with-copilot.md#get-ai-assistance-for-auto-insights
+            url: ../profiling/cpu-insights.md#get-ai-assistance
       - linkListType: overview
         links:
           - text: First look at profiling tools

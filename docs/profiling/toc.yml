@@ -8,7 +8,7 @@
     href: what-is-a-profiler.md
   - name: Which tool should I use?
     href: choose-performance-tool.md
-  - name: Run profiling tools with or without the debugger
+  - name: Run profiling tools on release or debug builds
     href: running-profiling-tools-with-or-without-the-debugger.md
   - name: Case study - Beginner's guide to optimizing code
     href: optimize-code-using-profiling-tools.md
@@ -36,6 +36,8 @@
       href: cpu-usage.md
     - name: Flame Graph 
       href: flame-graph.md
+    - name: Understanding the call tree
+      href: understand-call-tree-data.md
     - name: CPU Insights
       items:
       - name: CPU Insights  
@@ -84,11 +86,11 @@
           href: perf-insights-excessive-induced-gcs.md
         - name: High LOH fragmentation
           href: perf-insights-high-loh-fragmentation.md
-    - name: Analyze memory usage without the debugger
+    - name: Analyze memory usage on release builds
       href: memory-usage-without-debugging2.md
     - name: Custom native ETW heap events
       href: custom-native-etw-heap-events.md
-    - name: Hot paths to root
+    - name: Analyze hot path to root
       href: hot-path-to-root.md
   - name: Instrumentation
     items:

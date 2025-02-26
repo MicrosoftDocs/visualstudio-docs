@@ -19,7 +19,7 @@ ms.subservice: debug-diagnostics
 ---
 # Debugging Preparation: Console Projects (C#, C++, Visual Basic, F#)
 
-Preparing to debug a Console project is similar to preparing to debug a Windows project, with some additional considerations such as setting command-line arguments and how to pause the app for debugging. For more information, see [Debugging preparation for a Windows Form apps](../debugger/debugging-preparation-windows-forms-applications.md). Because of the similarity of all console applications, this topic covers the following project types:
+Preparing to debug a Console project is similar to preparing to debug a Windows project, with some additional considerations such as setting command-line arguments and how to pause the app for debugging. Because of the similarity of all console applications, this topic covers the following project types:
 
 - C#, Visual Basic, and F# Console Application
 

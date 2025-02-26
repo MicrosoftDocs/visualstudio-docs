@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Debug C++ code"
-description: Learn features of the Visual Studio debugger and how to start the debugger, step through code, and inspect data in a C++ application.
-ms.date: 08/18/2022
+description: Follow this tutorial to explore features of the Visual Studio debugger, start the debugger, step through code, and inspect data in a C++ application.
+ms.date: 12/17/2024
 ms.subservice: debug-diagnostics
 ms.topic: tutorial
 dev_langs:
@@ -11,299 +11,362 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
+
+#customer intent: As a developer, I want to use the Visual Studio debugger, so I can access features like stepping through my application code and inspecting data values.
 ---
-# Tutorial: Learn to debug C++ code using Visual Studio
 
-This article introduces the features of the Visual Studio debugger in a step-by-step walkthrough. If you want a higher-level view of the debugger features, see [First look at the debugger](../debugger/debugger-feature-tour.md). When you *debug your app*, it usually means that you are running your application with the debugger attached. When you do this, the debugger provides many ways to see what your code is doing while it runs. You can step through your code and look at the values stored in variables, you can set watches on variables to see when values change, you can examine the execution path of your code, see whether a branch of code is running, and so on. If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before going through this article.
+# Tutorial: Debug C++ code with Visual Studio
 
-Although the demo app is C++, most of the features are applicable to C#, Visual Basic, F#, Python, JavaScript, and other languages supported by Visual Studio (F# does not support Edit-and-continue. F# and JavaScript do not support the **Autos** window). The screenshots are in C++.
+This article introduces features of the Visual Studio debugger in a step-by-step walkthrough. When you debug an application, you usually run your app with the debugger attached. The debugger provides many ways to examine what your code is doing during program execution. You can step through your code and look at values stored in variables and set watches on variables to see when values change. The debugger helps you examine the execution path of your code and confirm a branch of code is running.
 
-In this tutorial, you will:
+In this tutorial, you:
 
 > [!div class="checklist"]
-> * Start the debugger and hit breakpoints.
+> * Start the debugger and pause at breakpoints
 > * Learn commands to step through code in the debugger
 > * Inspect variables in data tips and debugger windows
 > * Examine the call stack
 
+If you're new to debugging, you might want to read [Debugging for absolute beginners](./debugging-absolute-beginners.md) before you start this tutorial. If you want a higher-level view of the debugger features, see [First look at the debugger](./debugger-feature-tour.md).
+
 ## Prerequisites
 
-You must have Visual Studio installed and the **Desktop development with C++** workload.
+- Visual Studio 2022 **version 17.12** or later with the **Desktop development with C++** workload installed.
 
-::: moniker range="<=vs-2019"
+   ::: moniker range="vs-2022"
 
-If you haven't already installed Visual Studio, go to the [Release and Build History](/visualstudio/releases/2019/history) page to learn more.
+   - To install Visual Studio 2022 for free, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page.
 
-::: moniker-end
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
 
-::: moniker range="vs-2022"
+   - To install Visual Studio for free, go to the [Release and Build History](/visualstudio/releases/2019/history) page to learn more.
 
-If you haven't already installed Visual Studio 2022, go to the [Visual Studio 2022 downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+   ::: moniker-end
 
-::: moniker-end
+   - If you already have Visual Studio, you can install the workload from within the Interactive Development Environment (IDE):
+   
+      1. Select **Tools** > **Get Tools and Features**.
 
-If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
+      1. In the Visual Studio Installer, select the **Workloads** tab.
+
+      1. Select the **Desktop development with C++** workload, and then select **Modify**.
+
+      1. Follow the prompts and complete the installation.
+
+- This tutorial uses a C++ demo application and the screenshots present C++ syntax. Most of the demonstrated features are also applicable to C#, Visual Basic, F#, Python, JavaScript, and other languages supported by Visual Studio. There are a few limitations to keep in mind:
+
+   - **F#**: The **Edit-and-continue** feature isn't supported.
+
+   - **F#** and **JavaScript**: The **Autos** window isn't supported.
 
 ## Create a project
 
-First, you'll create a C++ console application project. The project type comes with all the template files you'll need, before you've even added anything!
+Follow these steps to create a C++ console application project in Visual Studio. The project type provides all the template files you need to get started quickly:
 
-1. Open Visual Studio.
+1. In the Visual Studio **Start** window (**File** > **Start Window**), select **Create a new project**:
 
-   If the start window is not open, choose **File** > **Start Window**.
+   :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot that shows how to select the Create a new project option in the Visual Studio Start window.":::
 
-1. On the start window, choose **Create a new project**.
+1. Set the **Language** filter to **C++** and set the **Platform** filter to **Windows**. 
 
-1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C++** from the Language list, and then choose **Windows** from the Platform list. 
-
-   After you apply the language and platform filters, choose the **Console App** template, and then choose **Next**.
+1. In the **Search** box, enter _console_, and select the **Console App** template in the list of results:
 
    ::: moniker range=">= vs-2022"
-   ![Screenshot of choosing the C++ template for the Console App.](../debugger/media/vs-2022/get-started-create-console-project-cpp.png)
+
+   :::image type="content" source="media/vs-2022/get-started-create-console-project-cpp.png" alt-text="Screenshot that shows how to search for and select the Console App template in the Visual Studio 2022 Start window.":::
+
    ::: moniker-end
    ::: moniker range="vs-2019"
-   ![Screenshot of choosing the C++ template for the Console App.](../debugger/media/vs-2019/get-started-create-console-project-cpp.png)
+
+   :::image type="content" source="media/vs-2019/get-started-create-console-project-cpp.png" alt-text="Screenshot that shows how to search for and select the Console App template in the Visual Studio Start window.":::
+
    ::: moniker-end
 
    > [!NOTE]
-   > If you do not see the **Console App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **Desktop development with C++** workload.
+   > If you don't see the **Console App** template, you can install it from the **Create a new project** window. Locate the **Not finding what you're looking for?** section that follows the search results and select **Install more tools and features**. In the Visual Studio Installer, select the **Desktop development with C++** workload and update your installation. For more information, see the [Prerequisites](#prerequisites) section.
 
-1. In the **Configure your new project** window, type or enter *get-started-debugging* in the **Project name** box. Then, choose **Create**.
+1. Select **Next** to continue to the configuration page.
 
-   Visual Studio opens your new project.
+1. Enter _get-started-debugging_ as the **Project name** and **Solution name** for your new app. Choose the default **Location** or browse to a different path in your environment.
+
+1. Select **Create** to create the new Node.js project.
+
+Visual Studio creates your new project and opens your project hierarchy in **Solution Explorer**. The _get-started-debugging.cpp_ file is open in the code editor.
 
 ## Create the application
 
-1. In *get-started-debugging.cpp*, replace all of the default code with the following code instead:
+Create a new application for your project by editing the _get-started-debugging.cpp_ file in the code editor.
 
-    ```cpp
-    #include <string>
-    #include <vector>
-    #include <iostream>
+Replace the default content provided by the template with the following code:
 
-    void SendMessage(const std::wstring& name, int msg)
-    {
-        std::wcout << L"Hello, " << name << L"! Count to " << msg << std::endl;
-    }
+```cpp
+#include <string>
+#include <vector>
+#include <iostream>
 
-    int main()
-    {
-        std::vector<wchar_t> letters = { L'f', L'r', L'e', L'd', L' ', L's', L'm', L'i', L't', L'h' };
-        std::wstring name = L"";
-        std::vector<int> a(10);
-        std::wstring key = L"";
+void SendMessage(const std::wstring& name, int msg)
+{
+   std::wcout << L"Hello, " << name << L"! Count to " << msg << std::endl;
+}
 
-        for (int i = 0; i < letters.size(); i++)
-        {
-            name += letters[i];
-            a[i] = i + 1;
-            SendMessage(name, a[i]);
-        }
-        std::wcin >> key;
-        return 0;
-    }
-    ```
+int main()
+{
+   std::vector<wchar_t> letters = { L'f', L'r', L'e', L'd', L' ', L's', L'm', L'i', L't', L'h' };
+   std::wstring name = L"";
+   std::vector<int> a(10);
+   std::wstring key = L"";
 
-## Start the debugger!
+   for (int i = 0; i < letters.size(); i++)
+   {
+      name += letters[i];
+      a[i] = i + 1;
+      SendMessage(name, a[i]);
+   }
+   std::wcin >> key;
+   return 0;
+}
+```
 
-1. Press **F5** (**Debug > Start Debugging**) or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug Toolbar.
+## Start the debugger
 
-     **F5** starts the app with the debugger attached to the app process, but right now we haven't done anything special to examine the code. So the app just loads and you see the console output.
+Now you're ready to start debugging your updated code:
 
-    ```cmd
-    Hello, f! Count to 1
-    Hello, fr! Count to 2
-    Hello, fre! Count to 3
-    Hello, fred! Count to 4
-    Hello, fred ! Count to 5
-    Hello, fred s! Count to 6
-    Hello, fred sm! Count to 7
-    Hello, fred smi! Count to 8
-    Hello, fred smit! Count to 9
-    Hello, fred smith! Count to 10
-    ```
+1. Start the debugging session by selecting **F5** or **Debug > Start Debugging**. You can also select **Start Debugging** :::image type="icon" source="./media/dbg-tour-start-debugging.png"::: (solid green arrow icon) in the Debug toolbar.
 
-     In this tutorial, we'll take a closer look at this app using the debugger and get a look at the debugger features.
+   The **F5** keyboard shortcut starts the application with the debugger attached to the app process, but you don't yet have anything special to examine in the code. The app simply loads and you see the console output:
 
-2. Stop the debugger by pressing the red stop ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") button (**Shift** + **F5**).
+   ```console
+   Hello, f! Count to 1
+   Hello, fr! Count to 2
+   Hello, fre! Count to 3
+   Hello, fred! Count to 4
+   Hello, fred ! Count to 5
+   Hello, fred s! Count to 6
+   Hello, fred sm! Count to 7
+   Hello, fred smi! Count to 8
+   Hello, fred smit! Count to 9
+   Hello, fred smith! Count to 10
+   ```
 
-3. In the console window, press a key and **Enter** to close the console window.
+   Later in the tutorial, you look more closely at this app in the debugger and explore other debugging features.
+
+1. Halt the debugger by selecting **Stop** :::image type="icon" source="./media/dbg-tour-stop-debugging.png"::: (red square icon) in the Debug toolbar. You can also use the **Shift** + **F5** keyboard shortcut.
+
+1. In the console window for the running application, select any key and then select **Enter** to close the window.
 
 ## Set a breakpoint and start the debugger
 
-1. In the `for` loop of the `main` function, set a breakpoint by clicking the left margin of the following line of code:
+Try setting a breakpoint and pausing at the selected point in the debugger:
 
-    `name += letters[i];`
+1. Return to the _get-started-debugging.cpp_ file in the code editor, and locate the `for` loop of the `main` function:
 
-    A red circle ![Breakpoint](../debugger/media/dbg-breakpoint.png "Breakpoint") appears where you set the breakpoint.
+   ```cpp
+      for (int i = 0; i < letters.size(); i++)
+      {
+         name += letters[i];
+         a[i] = i + 1;
+         SendMessage(name, a[i]);
+      }
+   ```
 
-    Breakpoints are one of the most basic and essential features of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run.
+1. Set a breakpoint on the line that contains the code statement `name += letters[i];` by selecting in the left gutter on the line for the statement. Visual Studio adds a red circle :::image type="icon" source="./media/dbg-breakpoint.png"::: in the gutter to indicate the set breakpoint.
 
-2. Press **F5** or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging"), the app starts, and the debugger runs to the line of code where you set the breakpoint.
+   > [!TIP]
+   > You can also place your cursor on a line of code and select **F9** to toggle the breakpoint for that line. 
 
-    ![Screenshot of setting and hitting a breakpoint.](../debugger/media/get-started-set-breakpoint-cpp.png)
+   Breakpoints are one of the most basic and essential features of reliable debugging. A breakpoint indicates where you want Visual Studio to suspend your running code. When the execution is paused, you can take a look at the values of variables, examine the behavior of memory, or check if a branch of code is getting run.
 
-    The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point (this statement has not yet executed).
+1. Start your app in the debugger by selecting **F5** or **Start Debugging**.
 
-     If the app is not yet running, **F5** starts the debugger and stops at the first breakpoint. Otherwise, **F5** continues running the app to the next breakpoint.
+   Visual Studio starts execution of your app. When the debugger reaches your set breakpoint, the debugging process pauses.
+   
+   Visual Studio adds a yellow arrow to the red breakpoint circle in the gutter to represent the code statement where the debugger is paused. Program execution is paused and the indicated statement is waiting to be processed.
 
-    Breakpoints are a useful feature when you know the line of code or the section of code that you want to examine in detail. For information on the different types of breakpoints you can set, such as conditional breakpoints, see [Using breakpoints](../debugger/using-breakpoints.md).
-
-## Navigate code in the debugger using step commands
-
-Mostly, we use the keyboard shortcuts here, because it's a good way to get fast at executing your app in the debugger (equivalent commands such as menu commands are shown in parentheses).
-
-1. While paused in the `for` loop in the `main` method, press **F11** (or choose **Debug > Step Into**) twice to advance to the `SendMessage` method call.
-
-     After pressing **F11** twice, you should be at this line of code:
-
-     `SendMessage(name, a[i]);`
-
-1. Press **F11** one more time to step into the `SendMessage` method.
-
-     The yellow pointer advances into the `SendMessage` method.
-
-     ![Screenshot of  using F11 to Step Into code.](../debugger/media/get-started-f11-cpp.png "F10 Step Into")
-
-     F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. (To move faster through code, we show you some other options also.) By default, the debugger skips over non-user code (if you want more details, see [Just My Code](../debugger/just-my-code.md)).
-
-     Let's say that you are done examining the `SendMessage` method, and you want to get out of the method but stay in the debugger. You can do this using the **Step Out** command.
-
-1. Press **Shift** + **F11** (or **Debug > Step Out**).
-
-     This command resumes app execution (and advances the debugger) until the current method or function returns.
-
-     You should be back in the `for` loop in the `main` method, paused at the `SendMessage` method call.
-
-1. Press **F11** several times until you get back to the `SendMessage` method call again.
-
-1. While paused at the method call, press **F10** (or choose **Debug > Step Over**) once.
-
-     ![Screenshot of using F10 to Step Over code.](../debugger/media/get-started-step-over-cpp.png "F10 Step Over")
-
-     Notice this time that the debugger does not step into the `SendMessage` method. **F10** advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing **F10** on the `SendMessage` method call (instead of **F11**), we skipped over the implementation code for `SendMessage` (which maybe we're not interested in right now). For more information on different ways to move through your code, see [Navigate code in the debugger](../debugger/navigating-through-code-with-the-debugger.md).
-
-## Navigate code using Run to Click
-
-1. Press **F5** to advance to the breakpoint.
-
-1. In the code editor, scroll down and hover over the `std::wcout` function in the `SendMessage` method until the green **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left. The tooltip for the button shows "Run execution to here".
-
-     ![Screenshot of using the Run to Click feature.](../debugger/media/get-started-run-to-click-cpp.png "Run to Click")
+   :::image type="content" source="./media/get-started-set-breakpoint-cpp.png" border="false" alt-text="Screenshot that shows the debugger paused on the set breakpoint in Visual Studio.":::
 
    > [!NOTE]
-   > The **Run to Click** button is new in Visual Studio 2017. (If you don't see the green arrow button, use **F11** in this example instead to advance the debugger to the right place.)
+   > The **F5** action is relative to the current execution state of your application. If your app isn't running and you select **F5**, the debugger starts your app and continues execution until it reaches the first set breakpoint. This behavior maps to the **Debug** > **Start Debugging** command. If your app is already running and you select **F5**, app execution continues until the debugger reaches the next breakpoint or end of program. This behavior maps to the **Debug** > **Continue** command. 
 
-2. Click the **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick").
+Breakpoints are a useful feature when you know the line of code or section of code that you want to examine in detail. For information on the different types of breakpoints you can set, such as conditional breakpoints, see [Use the right type of breakpoint](./using-breakpoints.md).
 
-    The debugger advances to the `std::wcout` function.
+## Step through your code in the debugger
 
-    Using this button is similar to setting a temporary breakpoint. **Run to Click** is handy for getting around quickly within a visible region of app code (you can click in any open file).
+A convenient way to browse your code in the debugger is to use **step commands**. These commands let you **Step Into**, **Step Over**, and **Step Out** of a section of code, and also **Step Backward** in app execution.
+
+:::image type="content" source="./media/debugger-toolbar-step-commands.png" border="false" alt-text="Screenshot that shows the step commands in the debugger toolbar.":::
+
+The following procedure highlights how to use keyboard shortcuts with step commands to quickly work through your code. (The equivalent menu actions are shown in parenthesis.)
+
+1. Start your app in the debugger by selecting **F5** or **Start Debugging**.
+
+1. While the debugger is paused in the `for` loop in the `main` function, select **F11** (**Debug > Step Into**) _twice_ to advance to the `SendMessage` method call.
+
+   After you select **F11** twice, execution continues to the code statement `SendMessage(name, a[i]);`.
+
+1. Select **F11** again to step into the `SendMessage` method.
+
+   Notice that the yellow pointer advances into the `SendMessage` method:
+
+   :::image type="content" source="./media/get-started-f11-cpp.png" border="false" alt-text="Screenshot that shows the debugger stepped into the SendMessage method and the yellow pointer indicating the pause location.":::
+
+   The **F11** keyboard shortcut initiates the **Step Into** command, which advances app execution one statement at a time. It's a good way to examine the execution flow in the most detail. By default, the debugger skips over nonuser code. For more information, see [Just My Code](./just-my-code.md). Later in the tutorial, you learn ways to move faster through your code. 
+
+1. After you examine the `SendMessage` method, you can continue debugging with the **Step Out** command. Select **Shift** + **F11** (**Debug > Step Out**).
+
+   This command resumes app execution (and advances the debugger) until the current method or function returns.
+
+   When the command completes, the debugger pauses in the `for` loop of the `main` method at the `SendMessage` method call.
+
+1. Select **F11** several times until you return again to the `SendMessage` method call.
+
+1. While the debugger is paused at the method call, select **F10** (**Debug > Step Over**).
+
+   :::image type="content" source="./media/get-started-step-over-cpp.png" border="false" alt-text="Screenshot that shows the debugger stepped over the SendMessage method and the yellow pointer indicating the pause location.":::
+
+   Notice this time that the debugger doesn't step into the `SendMessage` method. The **F10** shortcut advances the debugger without stepping into functions or methods in your app code (the code still executes). When you select **F10** on the `SendMessage` method call (instead of **F11**), you **Step Over** the implementation code for `SendMessage`. This approach is useful to move past code that you don't need to currently inspect. For more information on different ways to move through your code, see [Navigate code in the debugger](./navigating-through-code-with-the-debugger.md).
+
+## Browse your code with Run to Click
+
+Another way to work through your code in the debugger is with the **Run to Click** feature. This action is similar to setting a temporary breakpoint. 
+
+Continue with your debugging session:
+
+1. Select **F5** to advance to the breakpoint in your code.
+
+1. In the code editor, scroll to the `SendMessage` method definition, and hover over the `std::wcout` function.
+
+   Hover until the **Run to Click** :::image type="icon" source="./media/dbg-tour-run-to-click.png"::: (green arrow icon) appears to the left of the code statement. If you hover over the icon, you see the tooltip "Run execution to here":
+
+   :::image type="content" source="./media/get-started-run-to-click-cpp.png" border="false" alt-text="Screenshot that shows the Run to Click feature and the action tooltip in the debugger.":::
+
+1. Select **Run to Click** :::image type="icon" source="./media/dbg-tour-run-to-click.png":::.
+
+   The debugger advances execution to the indicated position. In this example, the debugger reaches the call to the `std::wcout` function.
+
+The **Run to Click** action is handy for getting around quickly within a visible region of app code. You can use the feature in any file open in the code editor.
 
 ## Restart your app quickly
 
-Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**).
+Quickly restart your app by selecting **Restart** :::image type="icon" source="./media/dbg-tour-restart.png"::: (circular arrow icon) in the Debug Toolbar. You can also select **Debug > Restart** or use the **Ctrl** + **Shift** + **F5** keyboard shortcut.
 
-When you press **Restart**, it saves time versus stopping the app and restarting the debugger. The debugger pauses at the first breakpoint that is hit by executing code.
+The **Restart** feature is more efficient than stopping the app and starting the debugger again.
 
-The debugger stops again at the breakpoint you previously set inside the `for` loop.
+When you select **Restart**, the debugger pauses at the first breakpoint it encounters during execution. In this example, the debugger stops again at the breakpoint you set inside the `for` loop.
 
 ## Inspect variables with data tips
 
-Features that allow you to inspect variables are one of the most useful features of the debugger, and there are different ways to do it. Often, when you try to debug an issue, you are attempting to find out whether variables are storing the values that you expect them to have at a particular time.
+Features that help you inspect variables are one of the most useful benefits of working with the debugger. Often, when you're debugging an issue, you're trying to discover whether variables are storing expected values at particular times. Visual Studio provides several ways to help you complete this task.
 
-1. While paused on the `name += letters[i]` statement, hover over the `letters` variable and you see it's default value, `size={10}`.
+Continue with your debugging session:
 
-1. Expand the `letters` variable to see its properties, which include all the elements that the variable contains.
+1. While the debugger is paused on the `name += letters[i]` statement, hover over the `letters` variable. Select the expand/collapse arrow to the left of the variable name and view its properties in the flyout menu.
 
-1. Next, hover over the `name` variable, and you see its current value, an empty string.
+   The **data tips** feature shows all the elements that the variable contains. Notice the default value, `size={10}`:
 
-1. Press **F5** (or **Debug** > **Continue**) a few times to iterate several times through the `for` loop, pausing again at the breakpoint, and hovering over the `name` variable each time to check its value.
+   :::image type="content" source="./media/vs-2022/debugger-inspect-letter-variable.gif" border="false" alt-text="Animation that shows how to inspect the properties and values for a variable in the debugger.":::
 
-     ![Screenshot of viewing a data tip.](../debugger/media/get-started-data-tip-cpp.png "View a Data Tip")
+1. Next, hover over the `name` variable and notice its current value, an empty string (`""`).
 
-     The value of the variable changes with each iteration of the `for` loop, showing values of `f`, then `fr`, then `fre`, and so on.
+1. Select **F5** (**Debug** > **Continue**) a few times to iterate several times through the `for` loop. Each time the debugger pauses at the breakpoint, hover over the `name` variable and check the current value:
 
-     Often, when debugging, you want a quick way to check property values on variables, to see whether they are storing the values that you expect them to store, and the data tips are a good way to do it.
+   :::image type="content" source="./media/get-started-data-tip-cpp.png" border="false" alt-text="Screenshot that shows how to check the value of a variable by using hover to show the data tip in the debugger.":::
+
+   The value of the variable changes with each iteration of the `for` loop, showing values of `f`, then `fr`, then `fre`, and so on.
 
 ## Inspect variables with the Autos and Locals windows
 
-1. Look at the **Autos** window at the bottom of the code editor.
+Another approach for inspecting variables and values is by using the **Autos** and **Locals** windows. By default, these windows appear below the code editor in the Visual Studio IDE while you're debugging your app:
 
-    If it is closed, open it while paused in the debugger by choosing **Debug** > **Windows** > **Autos**.
+:::image type="content" source="./media/vs-2022/debugger-autos-locals-windows.png" border="false" alt-text="Screenshot that shows the Autos and Locals windows below the code editor in the debugger during a debugging session.":::
 
-    In the **Autos** window, you see variables and their current value. The **Autos** window shows all variables used on the current line or the preceding line (Check documentation for language-specific behavior).
+1. Notice the **Autos** window below the code editor.
 
-1. Next, look at the **Locals** window, in a tab next to the **Autos** window.
+   If you don't see the window during your debugging session, select **Debug** > **Windows** > **Autos** to open the window.
 
-1. Expand the `letters` variable to show the elements that it contains.
+   The **Autos** window shows all variables used on the current line or the preceding line along with their current value. Keep in mind that specific programming languages can demonstrate unique behavior for variables and properties. For more information, see the [Visual Studio Language Guidance](/visualstudio/index).
+
+1. Next, take a look at the **Locals** window. By default, this window is aligned next to the **Autos** window.
+
+   If you don't see the window during your debugging session, select **Debug** > **Windows** > **Locals** to open the window
+
+1. In the **Locals** window, expand the `letters` variable to show the elements that it contains.
 
    ::: moniker range=">= vs-2022"
-   ![Screenshot of inspecting variables in the Locals Window.](../debugger/media/vs-2022/get-started-locals-window-cpp.png "Locals Window")
+
+   :::image type="content" source="./media/vs-2022/get-started-locals-window-cpp.png" border="false" alt-text="Screenshot that shows how to inspect variables and values in the Locals window in Visual Studio 2022.":::
+
    ::: moniker-end
    ::: moniker range="vs-2019"
-   ![Screenshot of inspecting variables in the Locals Window.](../debugger/media/get-started-locals-window-cpp.png "Locals Window")
+
+   :::image type="content" source="./media/get-started-locals-window-cpp.png" border="false" alt-text="Screenshot that shows how to inspect variables and values in the Locals window in Visual Studio.":::
+
    ::: moniker-end
 
-   The **Locals** window shows you the variables that are in the current [scope](https://www.wikipedia.org/wiki/Scope_(computer_science)), that is, the current execution context.
+   The **Locals** window shows you the variables that are in the current [scope](https://en.cppreference.com/w/cpp/language/scope), that is, the current execution context.
 
-## Set a watch
+## Watch a variable
 
-1. In the main code editor window, right-click the `name` variable and choose **Add Watch**.
+If you're interested in watching the behavior of a specific variable, you can set a **watch**:
 
-    The **Watch** window opens at the bottom of the code editor. You can use a **Watch** window to specify a variable (or an expression) that you want to keep an eye on.
+In the code editor, right-click the `name` variable and select **Add Watch**. The **Watch** window opens below the code editor. You can use a **Watch** window to specify a variable (or an expression) that you want to track.
 
-    Now, you have a watch set on the `name` variable, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** window always shows the variables that you are watching (they're grayed out when out of scope).
+:::image type="content" source="./media/vs-2022/debugger-watch-window.png" border="false" alt-text="Screenshot that shows the Watch window showing values for the name variable in Visual Studio.":::
+
+As you watch the `name` variable during app execution in the debugger, you can see its value change. Unlike the other variable windows, the **Watch** window always shows the variables that you're watching. When a watched variable isn't in scope, the variable name is dimmed.
 
 ## Examine the call stack
 
-1. While paused in the `for` loop, click the **Call Stack** window, which is by default open in the lower right pane.
+The **Call Stack** window in Visual Studio shows the order in which methods and functions are called. This window is similar to the Debug perspective in some IDEs like Eclipse. By default, the call stack is visible in the lower right pane during the debugging session below the code editor.
 
-    If it is closed, open it while paused in the debugger by choosing **Debug** > **Windows** > **Call Stack**.
+1. While the debugger is paused in the `for` loop, select the **Call Stack** window to see the current calling structure.
 
-2. Click **F11** a few times until you see the debugger pause in the `SendMessage` method. Look at the **Call Stack** window.
+   If you don't see the window during your debugging session, select **Debug** > **Windows** > **Call Stack** to open the window.
 
-    ::: moniker range=">= vs-2022"
-    ![Screenshot of examining the call stack.](../debugger/media/vs-2022/get-started-call-stack-cpp.png "ExamineCallStack")
-    ::: moniker-end
-    ::: moniker range="vs-2019"
-    ![Screenshot of examining the call stack.](../debugger/media/get-started-call-stack-cpp.png "ExamineCallStack")
-    ::: moniker-end
+1. Select **F11** (**Debug** > **Step Into**) a few times until you see the debugger pause in the `SendMessage` method.
 
-    The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `SendMessage` method in this app). The second line shows that `SendMessage` was called from the `main` method, and so on.
+1. Look at the **Call Stack** window again:
 
-   > [!NOTE]
-   > The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
+   ::: moniker range=">= vs-2022"
 
-    The call stack is a good way to examine and understand the execution flow of an app.
+   :::image type="content" source="./media/vs-2022/get-started-call-stack-cpp.png" border="false" alt-text="Screenshot that shows how to examine the call stack in Visual Studio 2022.":::
 
-    You can double-click a line of code to go look at that source code and that also changes the current scope being inspected by the debugger. This action does not advance the debugger.
+   ::: moniker-end
+   ::: moniker range="vs-2019"
 
-    You can also use right-click menus from the **Call Stack** window to do other things. For example, you can insert breakpoints into specified functions, advance the debugger using **Run to Cursor**, and go examine source code. For more information, see [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md).
+   :::image type="content" source="./media/get-started-call-stack-cpp.png" border="false" alt-text="Screenshot that shows how to examine the call stack in Visual Studio.":::
+
+   ::: moniker-end
+
+   In the **Call Stack** window, the top line shows the current function (the `SendMessage` method in this app). The second line shows that the `SendMessage` method was called from the `main` method, and so on.
+
+The call stack is a good way to examine and understand the execution flow of an app:
+
+- Double-click a line of code to browse to the source code. This action also changes the current scope under inspection by the debugger, but it doesn't advance the debugger.
+
+- Access right-click menus for programming elements in the **Call Stack** window. For example, you can insert breakpoints into specified functions, advance the debugger by using **Run to Cursor**, and browse to source code. For more information, see [View the call stack and use the Call Stack window in the debugger](./how-to-use-the-call-stack-window.md).
 
 ## Change the execution flow
 
-1. Press **F11** twice to run the `std::wcout` function.
+Another feature of the debugger in Visual Studio is the ability to change the execution flow of your app:
 
-1. With the debugger paused in the `SendMessage` method call, use the mouse to grab the yellow arrow (the execution pointer) on the left and move the yellow arrow up one line, back to `std::wcout`.
+1. Select **F11** (**Debug** > **Step Into**) twice to run the `std::wcout` function.
 
-1. Press **F11**.
+1. While the debugger is paused in the `SendMessage` method call, select and drag the yellow arrow (the execution pointer) to the left of the variable and move the arrow to the previous code statement, `std::wcout`.
 
-    The debugger reruns the `std::wcout` function (you see this in the console window output).
+1. Select **F11** again.
 
-    By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger.
+   The debugger reruns the `std::wcout` function. You can track the process in the terminal output.
 
-    > [!WARNING]
-    > Often you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer cannot revert your application to an earlier app state.
+   By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger.
 
-1. Press **F5** to continue running the app.
+   > [!CAUTION]
+   > Pay careful attention when working with this feature. When you select the yellow arrow, Visual Studio displays a warning in the tooltip indicating that the execution change can have unintended consequences. You might see other warnings as well, depending on your scenario. Keep in mind that moving the pointer can't revert your application to an earlier app state.
 
-    Congratulations on completing this tutorial!
+1. Select **F5** to complete app execution.
 
-## Next steps
+## Related content
 
-In this tutorial, you've learned how to start the debugger, step through code, and inspect variables. You may want to get a high-level look at debugger features along with links to more information.
-
-> [!div class="nextstepaction"]
-> [First look at the debugger](../debugger/debugger-feature-tour.md)
-
+- [First look at the Visual Studio debugger](./debugger-feature-tour.md)
+- [Navigate through code by using the Visual Studio debugger](./navigating-through-code-with-the-debugger.md)
+- [Use the right type of breakpoint (.NET, .NET Framework, C++, All languages)](./using-breakpoints.md)

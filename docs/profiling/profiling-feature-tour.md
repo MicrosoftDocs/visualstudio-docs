@@ -1,7 +1,7 @@
 ---
 title: "First look at profiling tools"
 description: Review the different diagnostic tools available in Visual Studio for profiling your C#, Visual Basic, C++, and F# applications.
-ms.date: 11/19/2024
+ms.date: 1/17/2025
 ms.topic: conceptual
 f1_keywords:
   - vs.diagnosticshub.overview
@@ -13,12 +13,15 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
+zone_pivot_groups: programming-languages-set-two
 ---
 # First look at profiling tools (C#, Visual Basic, C++, F#)
 
 Application performance measuring tools are essential for developers who want to optimize their code and improve application performance. Visual Studio offers a range of profiling and diagnostics tools that can help you diagnose memory and CPU usage and other application-level issues. With these tools, you can accumulate performance data while you run your application. A profiler can help you make informed decisions quickly by providing a visual depiction of execution times and CPU usage for your application. In this article, we give a quick look at the most common profiling tools.
 
 For help with choosing the correct tool, or to see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md) For a tutorial that shows a general approach to optimizing code using the profiling tools, see [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
+
+For the best experience with this documentation, choose your preferred development language or runtime from the list at the top of the article.
 
 ## <a name="post_mortem"></a> Measure performance in release builds
 
@@ -33,10 +36,11 @@ Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (
 ![Screenshot of Performance Profiler.](../profiling/media/prof-tour-performance-profiler.png "Performance Profiler")
 ::: moniker-end
 
-For more information on using the CPU Usage or Memory usage tool in the Performance Profiler vs. the debugger-integrated tools, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). 
+For more information on using the CPU Usage or Memory usage tool in the Performance Profiler vs. the debugger-integrated tools, see [Run profiling tools on release or debug builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md). 
 
 Tools available in the Performance Profiler include:
 
+::: zone pivot="programming-language-dotnet"
 - [CPU usage](../profiling/cpu-usage.md)
 - [.NET object allocation](../profiling/dotnet-alloc-tool.md)
 - [Memory usage](../profiling/memory-usage-without-debugging2.md)
@@ -46,6 +50,22 @@ Tools available in the Performance Profiler include:
 - [.NET Counters](../profiling/dotnet-counters-tool.md)
 - [Database tool](../profiling/analyze-database.md)
 - [GPU usage](../profiling/gpu-usage.md)
+::: zone-end
+
+::: zone pivot="programming-language-dotnetf"
+- [CPU usage](../profiling/cpu-usage.md)
+- [Memory usage](../profiling/memory-usage-without-debugging2.md)
+- [Instrumentation](../profiling/instrumentation-overview.md)
+- [File I/O](../profiling/use-file-io.md)
+::: zone-end
+
+::: zone pivot="programming-language-cpp"
+- [CPU usage](../profiling/cpu-usage.md)
+- [Memory usage](../profiling/memory-usage-without-debugging2.md)
+- [Instrumentation](../profiling/instrumentation-overview.md)
+- [File I/O](../profiling/use-file-io.md)
+- [GPU usage](../profiling/gpu-usage.md)
+::: zone-end
 
 To see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md).
 
@@ -73,14 +93,16 @@ While you are debugging, you can use the **Diagnostic Tools** window to analyze 
 ![Diagnostic Tools Summary view](../profiling/media/prof-tour-cpu-and-memory-graph.gif "Diagnostic Tools Summary")
 ::: moniker-end
 
-The **Diagnostic Tools** window is a common way to profile apps, but for Release builds you can also do a post-mortem analysis of your app instead. For more information on different approaches, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). To see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md).
+The **Diagnostic Tools** window is a common way to profile apps, but for Release builds you can also do a post-mortem analysis of your app instead. For more information on different approaches, see [Run profiling tools on release or debug builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md). To see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md).
 
 Tools available in the Diagnostic Tools window or during a debugging session include:
 ::: moniker range=">=vs-2022"
 
 - [CPU usage](../profiling/beginners-guide-to-performance-profiling.md)
 - [Memory usage](../profiling/memory-usage.md)
+::: zone pivot="programming-language-dotnet"
 - [.NET Counters](../profiling/dotnet-counters-tool.md)
+::: zone-end
 - [PerfTips](../profiling/perftips.md)
 ::: moniker-end
 ::: moniker range="<=vs-2019"
@@ -211,6 +233,7 @@ PerfTips show the same events that also show up in the **Events** view of the Di
  > [!NOTE]
  > If you have Visual Studio Enterprise, you can also see [IntelliTrace events](../debugger/intellitrace.md) in this tab.
 
+::: zone pivot="programming-language-dotnet"
 ::: moniker range=">=vs-2022"
 ## Analyze asynchronous code (.NET)
 
@@ -219,6 +242,8 @@ The [.NET Async tool](../profiling/analyze-async.md) allows you to analyze the p
 The tool shows each async operation in a list view. You can see information such as the start time, end time, and total time for an async operation.
 
 ![.NET Async Tool Stopped](../profiling/media/vs-2022/prof-tour-async-tool.png ".NET Async Tool Stopped")
+
+This tool is supported for For .NET Core and .NET 5+ apps.
 ::: moniker-end
 ::: moniker range="vs-2019"
 ## Analyze asynchronous code (.NET)
@@ -228,23 +253,28 @@ The [.NET Async tool](../profiling/analyze-async.md) allows you to analyze the p
 The tool shows each async operation in a list view. You can see information such as the start time, end time, and total time for an async operation.
 
 ![.NET Async Tool Stopped](../profiling/media/async-tool-opened.png ".NET Async Tool Stopped")
+
+This tool is supported for For .NET Core and .NET 5+ apps.
 ::: moniker-end
 
-## Analyze database performance (.NET Core)
+## Analyze database performance (.NET)
 
-For .NET Core apps that use ADO.NET or Entity Framework Core, the [Database tool](../profiling/analyze-database.md) allows you to record the database queries that your application makes during a diagnostic session. You can then analyze information about individual queries in order to find places where your app's performance can be improved. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
+For .NET Core and .NET 5+ apps that use ADO.NET or Entity Framework Core, the [Database tool](../profiling/analyze-database.md) allows you to record the database queries that your application makes during a diagnostic session. You can then analyze information about individual queries in order to find places where your app's performance can be improved. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
 
 The tool shows each query in a list view. You can see information such as the query start time and duration.
 
 ![Allocation](./media/db-gotosource.png "Allocation")
 
-## Visualize .NET counters (.NET Core)
+## Visualize .NET counters (.NET)
 
 Starting in Visual Studio 2019 version 16.7, you can use the [.NET Counters tool](../profiling/dotnet-counters-tool.md) in Visual Studio to visualize performance counters. You can visualize counters created using [dotnet counters](/dotnet/core/diagnostics/dotnet-counters). dotnet counters supports many counters such as CPU usage and garbage collector heap size.
 
 The tool shows live values for each counter in a list view.
 
 :::image type="content" source="../profiling/media/dotnet-counters-tool-collecting.png" alt-text=".NET Counter tool collecting.":::
+
+This tool is supported for For .NET Core and .NET 5+ apps.
+::: zone-end
 
 ## Examine application events
 
@@ -260,6 +290,7 @@ The tool shows each event in a list view. Columns provide information about each
 You can programatically create custom events that appear as icons in the timeline graphs such as the CPU utilization and memory usage timeline graphs. For more information, see [Add user marks to timeline](../profiling/add-timeline-graph-user-marks.md).
 ::: moniker-end
 
+::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
 ## Analyze resource consumption (XAML)
 
 In XAML apps, such as Windows desktop WPF apps and UWP apps, you can analyze resource consumption using the Application Timeline tool. For example, you can analyze the time spent by your application preparing UI frames (layout and render), servicing network and disk requests, and in scenarios like application startup, page load, and Window resize. To use the tool, choose **Application Timeline** in the Performance Profiler, and then choose **Start**. In your app, go through the scenario with a suspected resource consumption issue, and then choose **Stop collection** to generate the report.
@@ -286,7 +317,9 @@ In your UWP apps, you can enable **UI Analysis** in the **Diagnostic Tools** win
 ::: moniker range="<=vs-2019"
 ![View UI analysis events in the diagnostic tools](../profiling/media/prof-tour-ui-analysis.png "Diagnostic Tools View UI Analysis Events")
 ::: moniker-end
+::: zone-end
 
+::: zone pivot="programming-language-cpp"
 ## Analyze GPU Usage (Direct3D)
 
 In Direct3D apps (Direct3D components must be in C++), you can examine activity on the GPU and analyze performance issues. For more information, see [GPU Usage](./gpu-usage.md). To use the tool, choose **GPU Usage** in the Performance Profiler, and then choose **Start**. In your app, go through the scenario that you're interested in profiling, and then choose **Stop collection** to generate a report.
@@ -301,6 +334,7 @@ When you select a time period in the graphs and choose **view details**, a detai
 ::: moniker-end
 
 You can also use the graphs to determine whether there are CPU bound or GPU bound performance bottlenecks.
+::: zone-end
 
 ## Analyze performance (legacy tools)
 
@@ -312,4 +346,4 @@ In Visual Studio 2019,  the legacy Performance Explorer and related profiling to
 
 - [Which tool should I use?](../profiling/choose-performance-tool.md)
 - [Reduce compute costs by using profiling tools](../profiling/optimize-code-using-profiling-tools.md)
-- [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
+- [Run profiling tools on release or debug builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md)

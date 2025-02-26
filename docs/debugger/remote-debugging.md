@@ -1,7 +1,7 @@
 ---
 title: Remote debugging
 description: Debug a Visual Studio application that has been deployed on a different computer by using the Visual Studio remote debugger.
-ms.date: 01/19/2024
+ms.date: 01/21/2025
 ms.topic: conceptual
 f1_keywords:
   - "vs.debug.remote.overview"
@@ -26,14 +26,13 @@ For in-depth instructions on remote debugging, see these topics.
 
 |Scenario|Link|
 |-|-|
-|Azure App Service|[Remote debug ASP.NET Core on Azure](../debugger/remote-debugging-azure-app-service.md) or, for Visual Studio Enterprise, the [Snapshot Debugger](../debugger/debug-live-azure-applications.md)|
-|Azure VM|[Remote debug ASP.NET on an Azure VM](../debugger/remote-debugging-azure.md)|
-|Azure Service Fabric|[Debug an Azure Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application)|
-|ASP.NET|[Remote debug ASP.NET Core](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) or [Remote Debug ASP.NET](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
 |C# or Visual Basic|[Remote debug a C# or Visual Basic project](../debugger/remote-debugging-csharp.md)|
 |C++|[Remote debug a C++ project](../debugger/remote-debugging-cpp.md)|
-|Docker|[Attach to a process running in a Docker container](../debugger/attach-to-process-running-in-docker-container.md)|
+|Azure App Service|[Remote debug ASP.NET Core on Azure](../debugger/remote-debugging-azure-app-service.md) or, for Visual Studio Enterprise, the [Snapshot Debugger](../debugger/debug-live-azure-applications.md)|
+|ASP.NET|[Remote debug ASP.NET Core](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) or [Remote Debug ASP.NET](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
+|Azure VM|[Remote debug ASP.NET on an Azure VM](../debugger/remote-debugging-azure.md)|
 |Linux|[Debug .NET Core on Linux using SSH by attaching to a process](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md)|
+|Docker|[Attach to a process running in a Docker container](../debugger/attach-to-process-running-in-docker-container.md)|
 |Universal Windows Apps (UWP)|[Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md) or [Debug an installed app package](../debugger/debug-installed-app-package.md)|
 
 If you just want to download and install the remote debugger and don't need any additional instructions for your scenario, follow the steps in this article.
@@ -85,16 +84,24 @@ You can change some aspects of the configuration of the remote debugger after yo
 - If you need to add permissions for other users to connect to the remote debugger, choose **Tools > Permissions**. You must have administrator privileges to grant or deny permissions.
 
      > [!IMPORTANT]
-     > You can run the remote debugger under a user account that differs from the user account you are using on the Visual Studio computer, but you must add the different user account to the remote debugger's permissions.
+     > You can run the remote debugger under a user account that differs from the user account you're using on the Visual Studio computer, but you must add the different user account to the remote debugger's permissions.
 
      Alternatively, you can start the remote debugger from the command line with the **/allow \<username>** parameter: **msvsmon /allow \<username@computer>**.
 
-- If you need to change the Authentication mode or the port number, or specify a timeout value for the remote tools: choose **Tools > Options**.
+- If you need to change the Authentication mode or the port number, or specify a time-out value for the remote tools: choose **Tools > Options**.
 
      For a listing of the port numbers used by default, see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md).
 
      > [!WARNING]
-     > You can choose to run the remote tools in No Authentication mode, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose the No Authentication mode only if you are sure that the network is not at risk from malicious or hostile traffic.
+     > You can choose to run the remote tools in No Authentication mode, but this mode is strongly discouraged. There's no network security when you run in this mode. Choose the No Authentication mode only if you're sure that the network isn't at risk from malicious or hostile traffic.
+
+## Configure Visual Studio for remote debugging
+
+For detailed instructions to connect to the app from Visual Studio, use the links related to your specific scenario at the beginning of this article.
+
+Some scenarios require the use of Attach to Process to connect to a remote app that is already started. However, for .NET Core, .NET 5+, .NET Framework, and C++ apps, you can start the remote app from Visual Studio by configuring project properties and starting the debugger. For more information, see [Remote debug a C# or Visual Basic project](../debugger/remote-debugging-csharp.md) or [Remote debug a C++ project](../debugger/remote-debugging-cpp.md).
+
+You can also remote debug an executable that is not part of a Visual Studio project, although the supported debugging features depend on configuration such as the availability of symbols. For more information, see [Debug an app that isn't part of a Visual Studio solution](../debugger/how-to-debug-an-executable-not-part-of-a-visual-studio-solution.md).
 
 ## <a name="bkmk_configureService"></a> (Optional) Configure the remote debugger as a service
 
@@ -102,7 +109,7 @@ For debugging in ASP.NET and other server environments, you must either run the 
 
  If you want to configure the remote debugger as a service, follow these steps.
 
-1. Find the **Remote Debugger Configuration Wizard** (rdbgwiz.exe). (This is a separate application from the Remote Debugger.) It is available only when you install the remote tools. It is not installed with Visual Studio.
+1. Find the **Remote Debugger Configuration Wizard** (rdbgwiz.exe). (This is a separate application from the Remote Debugger.) It is available only when you install the remote tools. It isn't installed with Visual Studio.
 
 2. Start running the configuration wizard. When the first page comes up, click **Next**.
 
@@ -114,7 +121,7 @@ For debugging in ASP.NET and other server environments, you must either run the 
 
 5. Select the type of network that you want the remote tools to communicate with. At least one network type must be selected. If the computers are connected through a domain, you should choose the first item. If the computers are connected through a workgroup or homegroup, you should choose the second or third items. Click **Next**.
 
-6. If the service can be started, you will see **You have successfully completed the Visual Studio Remote Debugger Configuration Wizard**. If the service cannot be started, you will see **Failed to complete the Visual Studio Remote Debugger Configuration Wizard**. The page also gives some tips to follow to get the service to start.
+6. If the service can be started, you'll see **You have successfully completed the Visual Studio Remote Debugger Configuration Wizard**. If the service can't be started, you'll see **Failed to complete the Visual Studio Remote Debugger Configuration Wizard**. The page also gives some tips to follow to get the service to start.
 
 7. Click **Finish**.
 

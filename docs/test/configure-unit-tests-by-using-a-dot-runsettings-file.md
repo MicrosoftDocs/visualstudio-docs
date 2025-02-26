@@ -260,13 +260,12 @@ The XML configuration should be placed directly into `<RunSettings>` node:
 Test run parameters provide a way to define variables and values that are available to the tests at run time. Access the parameters using the MSTest <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties%2A?displayProperty=nameWithType> property (or the NUnit [TestContext](https://docs.nunit.org/articles/nunit/writing-tests/TestContext.html)):
 
 ```csharp
-private string _appUrl;
 public TestContext TestContext { get; set; }
 
 [TestMethod] // [Test] for NUnit
 public void HomePageTest()
 {
-    string _appUrl = TestContext.Properties["webAppUrl"];
+    string appUrl = TestContext.Properties["webAppUrl"];
 }
 ```
 
@@ -487,6 +486,6 @@ The **RunConfiguration** node should contain an **EnvironmentVariables** node. A
 
 ## Related content
 
-- [Configure a test run](https://github.com/microsoft/vstest-docs/blob/master/docs/configure.md)
+- [Configure a test run](https://github.com/microsoft/vstest-docs/blob/main/docs/configure.md)
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)
 - [Visual Studio test task (Azure Test Plans)](/azure/devops/pipelines/tasks/test/vstest?view=vsts&preserve-view=true)

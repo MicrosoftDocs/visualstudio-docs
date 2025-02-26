@@ -1,5 +1,5 @@
 ---
-ms.date: 04/18/2024
+ms.date: 12/04/2024
 ms.subservice: general-ide
 ms.custom: vs-get-started, devdivchpfy22
 ms.author: ghogen
@@ -37,13 +37,13 @@ To associate your code with Git, start by creating a new Git repository where yo
 ## Use Git actions in Visual Studio
 
 Here's a brief summary of Git actions available in the Visual Studio status bar:
-   
-- The **Up/Down** arrows show how many outgoing/incoming commits are in your current branch. You can use this icon to pull any incoming commits or push any outgoing commits. 
-   
+
+- The **Up/Down** arrows show how many outgoing/incoming commits are in your current branch. You can use this icon to pull any incoming commits or push any outgoing commits.
+
 - To view a specific commit, select the **Up/Down** arrow, and then select **View Outgoing/Incoming**.
 
 - The **Pencil** shows the number of uncommitted changes to your code. You can select this icon to view those changes in the **Git Changes** window.
 
 The **Git** menu provides tools for repository actions on your files. You can [use git fetch, pull, push, and sync for version control in Visual Studio](../../version-control/git-fetch-pull-sync.md).
 
-To learn more about how to use Git with your app, see the [Visual Studio version control documentation](../../version-control/git-with-visual-studio.md).
+For more information about how to use Git with your app, see [About Git in Visual Studio](../../version-control/git-with-visual-studio.md).

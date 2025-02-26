@@ -16,6 +16,9 @@ To exclude test code from the code coverage results and only include application
 
 To include assemblies that aren't part of your solution, obtain the *.pdb* files for these assemblies and copy them into the same folder as the assembly *.dll* files.
 
+>[!NOTE]
+> Code coverage is available only with Visual Studio Enterprise. For .NET code coverage, you can alternatively use the command-line tool, [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage).
+
 ## Run settings file
 
 The [run settings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) is the configuration file used by unit testing tools. Advanced code coverage settings are specified in a *.runsettings* file.
@@ -115,8 +118,6 @@ You can also specify different formats from the command-line by either specifyin
 
 In Visual Studio 2022 version 17.2, we added the option to instrument native binary statically (on disk). In previous versions, we supported only dynamic instrumentation, which was often not able to instrument methods. Static native instrumentation is more stable and it is recommended. Static native instrumentation requires enabling the [/PROFILE](/cpp/build/reference/profile-performance-tools-profiler) link option for all native projects for which you need code coverage collection. 
 
-You can enable native static instrumentation by enabling the preview feature **Code Coverage native static instrumentation** in  **Tools > Options > Environment > Preview Features**.
-
 You can also enable native static instrumentation in runsettings by adding `<EnableStaticNativeInstrumentation>True</EnableStaticNativeInstrumentation>` under `<CodeCoverage>` tag. Use this method for command line scenarios.
 
 By default, dynamic native instrumentation is always enabled. If both static and dynamic instrumentation is enabled, Visual Studio tries to instrument your C++ code statically, but if this is not possible (for example, when the `/PROFILE` link option is not enabled), dynamic instrumentation will be used. You can fully disable dynamic native instrumentation in runsettings by adding `<EnableDynamicNativeInstrumentation>False</EnableDynamicNativeInstrumentation>` under `<CodeCoverage>`.
@@ -137,6 +138,29 @@ When static native instrumentation is enabled, Visual Studio will search and ins
 ```
 
 ::: moniker-end
+
+### Include or exclude test assemblies
+
+To include or exclude test assemblies from the coverage report, you can use the `<IncludeTestAssembly>` element in the `<Configuration>` section of your .runsettings file.
+
+In this example, setting `<IncludeTestAssembly>` to `False` will exclude test assemblies from the code coverage report. If you want to include test assemblies, set it to `True`.
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File name extension must be .runsettings -->
+<RunSettings>
+  <DataCollectionRunSettings>
+    <DataCollectors>
+      <DataCollector friendlyName="Code Coverage" uri="datacollector://Microsoft/CodeCoverage/2.0" assemblyQualifiedName="Microsoft.VisualStudio.Coverage.DynamicCoverageDataCollector, Microsoft.VisualStudio.TraceCollector, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+        <Configuration>
+          <IncludeTestAssembly>False</IncludeTestAssembly>
+          ...
+        </Configuration>
+      </DataCollector>
+    </DataCollectors>
+  </DataCollectionRunSettings>
+</RunSettings>
+```
 
 ### Regular expressions
 
@@ -198,6 +222,7 @@ For more information about regular expressions, see [Use regular expressions in 
 Copy this code and edit it to suit your needs.
 
 ::: moniker range=">=vs-2022"
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <!-- File name extension must be .runsettings -->
@@ -207,6 +232,7 @@ Copy this code and edit it to suit your needs.
       <DataCollector friendlyName="Code Coverage" uri="datacollector://Microsoft/CodeCoverage/2.0" assemblyQualifiedName="Microsoft.VisualStudio.Coverage.DynamicCoverageDataCollector, Microsoft.VisualStudio.TraceCollector, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
         <Configuration>
           <CodeCoverage>
+            <Format>coverage</Format>
 <!--
 Additional paths to search for .pdb (symbol) files. Symbols must be found for modules to be instrumented.
 If .pdb files are in the same folder as the .dll or .exe files, they are automatically found. Otherwise, specify them here.
@@ -314,7 +340,8 @@ Included items must then not match any entries in the exclude list to remain inc
             <EnableDynamicNativeInstrumentation>True</EnableDynamicNativeInstrumentation>
             <!-- When set to True, instrumented binaries on disk are removed and original files are restored. -->
             <EnableStaticNativeInstrumentationRestore>True</EnableStaticNativeInstrumentationRestore>
-
+            <!-- When set to False, test assemblies will not be added to the coverage report. -->
+            <IncludeTestAssembly>True</IncludeTestAssembly>
           </CodeCoverage>
         </Configuration>
       </DataCollector>
@@ -322,9 +349,11 @@ Included items must then not match any entries in the exclude list to remain inc
   </DataCollectionRunSettings>
 </RunSettings>
 ```
+
 ::: moniker-end
 
 ::: moniker range="vs-2019"
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <!-- File name extension must be .runsettings -->
@@ -443,6 +472,7 @@ Included items must then not match any entries in the exclude list to remain inc
   </DataCollectionRunSettings>
 </RunSettings>
 ```
+
 ::: moniker-end
 
 ## Related content

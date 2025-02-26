@@ -45,4 +45,4 @@ For assistance with sales, subscriptions, accounts and billing for Visual Studio
 ## Next steps
 
 + [Learn more about Microsoft for Startups](https://startups.microsoft.com)
-+ [Microsoft for Startups blog](https://startups.microsoft.com/Blog?search=Microsoft%20for%20Startups)
++ [Microsoft for Startups blog](https://www.microsoft.com/startups/blog/?search=Microsoft%20for%20Startups)

@@ -98,6 +98,7 @@
       "feedback_help_link_type": "ask-the-community",      
       "feedback_product_url": "https://developercommunity.visualstudio.com/VisualStudio/suggest",
       "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
+      "zone_pivot_group_filename": "zone-pivot-groups.json",
       "manager": "jmartens",
       "audience": "developer",
       "defaultDevLang": "csharp",

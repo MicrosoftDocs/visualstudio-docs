@@ -2,7 +2,7 @@
 title: Change themes, fonts, text, & accessibility options in Visual Studio
 description: Learn how to change Visual Studio color themes, font colors, text sizes, extra-contrast colors, and more for ease of use and accessibility concerns.
 titleSuffix: ''
-ms.date: 11/12/2024
+ms.date: 2/26/2025
 ms.topic: how-to
 helpviewer_keywords:
 - Visual Studio, color themes
@@ -45,8 +45,8 @@ Here's how to change the color theme of the IDE frame and the tool windows in Vi
 
    :::image type="content" source="media/vs-2022/fonts-colors-theme.png" alt-text="Screenshot of the Options dialog box where you can change the color theme.":::
 
-   > [!NOTE]
-   > When you change a color theme, text in the IDE reverts to the default or previously customized fonts and sizes for that theme.
+Visual Studio remembers the color theme and other UI settings, and synchronizes them across all Visual Studio environments depending on your [account setup](signing-in-to-visual-studio.md#sign-in-to-your-account-1).
+With Visual Studio 2022 version 17.12, your [font settings are preserved across theme changes](#preserve-font-settings-across-theme-changes).
 
    > [!TIP]
    > Want even more themes to choose from? Check out the wide range of custom themes on the [**Visual Studio Marketplace**](https://marketplace.visualstudio.com/search?target=VS&category=Tools&vsVersion=&subCategory=Themes&sortBy=Installs). And to see examples of new Visual Studio 2022 custom themes based on VS Code, take a look at the [**Introducing a collection of new Visual Studio themes**](https://devblogs.microsoft.com/visualstudio/custom-themes/) blog post. 
@@ -98,6 +98,8 @@ You can change the font and text size for all the IDE frame and tool windows, or
 
 1. Select the appropriate item in **Display items**, and then modify the **Item foreground** and **Item background** options.
 
+To learn more about setting default font settings for the user interface (UI) in an application you're building with Visual Studio, check out the tutorials on [Create a simple Windows Forms app](create-csharp-winform-visual-studio.md) or [Create a WPF application](../get-started/csharp/tutorial-wpf.md).
+
 ::: moniker-end
 
 ::: moniker range="<=vs-2019"
@@ -137,7 +139,7 @@ You can change the font and text size for all the IDE frame and tool windows, or
 
 ### Preserve font settings across theme changes
 
-With Visual Studio 2002 version 17.12, you can now preserve your font and font size preferences across theme changes. This functionality is enabled by default. When you switch themes in Visual Studio, your custom font face and size settings remain unchanged, while the font color updates with the new theme.
+With Visual Studio 2022 version 17.12, you can now preserve your font and font size preferences across theme changes. This functionality is enabled by default. When you switch themes in Visual Studio, your custom font face and size settings remain unchanged, while the font color updates with the new theme.
 
 If you prefer to have font selections change with the theme, select **Tools** > **Manage Preview Features** and uncheck **Separate font settings from color themes selection (requires restart)**. 
 

@@ -2,7 +2,7 @@
 title: Compare files in Visual Studio
 titleSuffix: ""
 description: Compare or diff two files in Visual Studio to see where changes are by viewing the files side-by-side in a split screen, and to see line-by-line what is different.
-ms.date: 03/12/2024
+ms.date: 01/27/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -34,7 +34,7 @@ From the [Developer Command Prompt](./reference/command-prompt-powershell.md), u
 devenv /Diff SourceFile TargetFile [SourceDisplayName [TargetDisplayName]]
 ```
 
-Visual Studio opens with the two files shown side-by-side, but a project is not opened. The `TargetFile` is considered the newer version, and is editable.
+Visual Studio opens with the two files shown side-by-side, but a project is not opened. The `TargetFile` is considered the newer version, and is editable. In the target file, you can make changes in the usual ways such as typing, pasting code from the clipboard, and so on.
 
 ## Understand differences
 

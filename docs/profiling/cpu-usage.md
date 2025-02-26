@@ -1,7 +1,7 @@
 ---
 title: CPU profiling in the Performance Profiler
 description: Learn about the CPU profiler performance tool, which shows the CPU time and percentage spent executing code in C++, C#, Visual Basic, and JavaScript apps.
-ms.date: 09/05/2024
+ms.date: 02/19/2025
 ms.topic: how-to
 ms.custom: "profiling-seo"
 author: mikejo5000
@@ -27,7 +27,7 @@ The CPU Usage tool can help you:
 
 The **CPU Usage** tool is helpful for both local trace sessions and production. You can run the CPU Usage tool by using the keyboard shortcut, **Alt+F2**, and then choosing **CPU Usage**, or by opening an already collected trace using a tool like [dotnet-trace](/dotnet/core/diagnostics/dotnet-trace) or [dotnet-monitor](/dotnet/core/diagnostics/dotnet-monitor). (For .NET production code, this is most likely how you would collect traces.)
 
-You can run the CPU Usage tool on an open Visual Studio project, on an installed Microsoft Store app, or attached to a running app or process. You can run the CPU Usage tool with or without debugging. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+You can run the CPU Usage tool on an open Visual Studio project, on an installed Microsoft Store app, or attached to a running app or process. You can run the CPU Usage tool on release or debug builds. For more information, see [Run profiling tools on release or debug builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
 The following instructions show how to use the CPU Usage tool without the debugger, using the Visual Studio Performance Profiler. The examples use a Release build on a local machine. Release builds provide the best view of actual app performance. For a tutorial that shows how to improve performance using the CPU Usage tool, see [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
 
@@ -99,15 +99,25 @@ For more information, see [CPU insights](../profiling/cpu-insights.md).
 ## Analyze CPU utilization
 
 ::: moniker range=">=vs-2022"
-To analyze the CPU Usage report, click **Open details**, or click one of the top functions to open the **Functions** view.
+For in-depth analysis of the CPU Usage report, first open one of the detailed report views:
 
-The report provides different views of the diagnostic data:
+1. Click **Open details** in the summary page of the report, or select one of the top functions to open the **Functions** view.
 
-- Caller/callee
-- Call tree
-- Modules
-- Functions
-- Flame graph
+   ![Screenshot that shows the Open details link.](../profiling/media/vs-2022/cpu-use-open-details.png)
+
+1. From the **Current View** list, you can select one of the detailed report views.
+
+   ![Screenshot that shows the list of detailed reports.](../profiling/media/vs-2022/cpu-use-select-detailed-view.png)
+
+The following table provides a description of the detailed views.
+
+|View|Description|
+|-|-|
+|Caller/callee|Detailed view of CPU time for a specific function, the function(s) that called it, and the function(s) that it calls. The performance data is aggregated for the data collection period. You can select calling functions and called functions to traverse the call path.|
+|Call tree|Hierarchical view of the function call path. Used to identify call paths that are taking the most CPU time (hot path).|
+|Modules|View of the CPU time spent in individual modules, aggregated over the data collection period. Used to identify modules that might be performance bottlenecks due to a combination of high call counts and/or performance issues.|
+|Functions|View of the CPU time spent in individual functions, aggregated over the data collection period. Used to identify functions that might be performance bottlenecks due to a combination of high call counts and/or performance issues.|
+|Flame graph|Hierarchical view of the function call path in a flame graph visualization. Used to identify call paths that are taking the most CPU time (hot path).|
 
 ::: moniker-end
 
@@ -150,6 +160,8 @@ You can click the **Expand Hot Path** and **Show Hot Path** buttons to see the f
 |![Step 3](../profiling/media/procguid_3.png "ProcGuid_3")|The children of the second-level node are the user-code methods and asynchronous routines that are called or created by the second-level system and framework code.|
 |![Step 4](../profiling/media/procguid_4.png "ProcGuid_4")|Child nodes of a method have data only for the calls of the parent method. When **Show External Code** is disabled, app methods can also contain an **[External Code]** node.|
 
+For help understanding unexpected data in the call tree, see [Understanding the call tree](../profiling/understand-call-tree-data.md).
+
 #### <a name="BKMK_External_Code"></a> External code
 
 ::: moniker range=">=vs-2022"
@@ -189,7 +201,7 @@ To find a function name you're looking for, use the search box. Hover over the s
 ![Screenshot that shows Search for nested external code.](../profiling/media/vs-2019/cpu-use-wt-show-external-code-too-wide-found.png "Search for nested external code")
 ::: moniker-end
 
-### <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU usage call tree
+#### <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU usage call tree
 
 When the compiler encounters an asynchronous method, it creates a hidden class to control the method's execution. Conceptually, the class is a state machine. The class has compiler-generated functions that asynchronously call the original methods, and the callbacks, scheduler, and iterators needed to run them. When a parent method calls the original method, the compiler removes the method from the execution context of the parent, and runs the hidden class methods in the context of the system and framework code that controls app execution. The asynchronous methods are often, but not always, executed on one or more different threads. This code appears in the **CPU Usage** call tree as children of the **[External Code]** node immediately below the top node of the tree.
 
@@ -213,6 +225,26 @@ Expand the generated methods to show what's going on:
 
 - `MainPage::<GetNumberAsync>b__b` shows the activity of the tasks that call `GetNumber`.
 ::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+### Analyze multi-process performance
+
+Starting in Visual Studio 2022 version 17.13, you can analyze multi-process data in the CPU Usage tool. This makes it easier to analyzer performance for multi-process apps such as .NET Aspire. This features allows you to distinguish and analyze CPU utilization across processes within a single session, which provides clearer insights into resource consumption.
+
+You need to collect multi-process data before you can analyze it. To collect the data, select **Collect data from multiple processes** for the CPU Usage tool in the Performance Profiler.
+
+![Screenshot that shows selecting multi-process data.](../profiling/media/vs-2022/cpu-usage-collect-multi-process-data.png)
+
+The timeline graph showing your app's CPU use displays performance data with distinct color coding for each process. The graphs are displayed as stacked area charts.
+
+![Screenshot that shows multi-process data in the timeline.](../profiling/media/vs-2022/cpu-usage-view-multi-process-data.png)
+
+You can filter processes using a dropdown on the top left of the CPU timeline graph. When you select or deselect a process, the profiler summary page and detailed reports are updated based on the new selection(s), enabling more precise analysis.
+
+![Screenshot that shows multi-process filter.](../profiling/media/vs-2022/cpu-usage-multi-process-filter.png)
+::: moniker-end
+
 
 ::: moniker range=">=vs-2022"
 ### Collect call counts (.NET)

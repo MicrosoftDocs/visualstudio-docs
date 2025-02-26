@@ -1,7 +1,7 @@
 ---
 title: Use different build methods to build apps
 description: Use the Visual Studio IDE build method, the MSBuild command-line tools build method, or Azure Pipelines build method to build an application.
-ms.date: 1/11/2024
+ms.date: 2/3/2025
 ms.subservice: compile-build
 ms.topic: conceptual
 helpviewer_keywords:
@@ -38,9 +38,9 @@ From there, you can explore a variety of other tasks:
 - [Understand build configurations](understanding-build-configurations.md)
 - [Configure projects to target platforms](how-to-configure-projects-to-target-platforms.md)
 - [Manage project and solution properties](managing-project-and-solution-properties.md).
-- Specify build events in [C#](how-to-specify-build-events-csharp.md) and [Visual Basic](how-to-specify-build-events-visual-basic.md).
+- Specify build events in [C#](how-to-specify-build-events-csharp.md) and [Visual Basic](how-to-specify-build-events-visual-basic.md)
 - [Set build options](reference/options-dialog-box-projects-and-solutions-build-and-run.md)
-- [Build multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md).
+- [Build multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)
 
 ## Related content
 

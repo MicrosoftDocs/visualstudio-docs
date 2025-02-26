@@ -1,7 +1,7 @@
 ---
 title: Specify the targeted .NET Frameworks
 description: Specify the .NET Framework version that you want your project to target so the application can only use functionality that's available in the specified version.
-ms.date: 12/12/2023
+ms.date: 12/13/2024
 ms.topic: overview
 helpviewer_keywords:
 - targeting .NET Framework [Visual Studio]
@@ -16,7 +16,7 @@ ms.subservice: general-ide
 
 In Visual Studio, you can specify the version of .NET that you want your project to target. Framework targeting helps guarantee that the application uses only functionality that is available in the specified framework version. For .NET Framework apps to run on another computer, the framework version that the application targets must be compatible with the framework version that's installed on the computer.
 
-A Visual Studio solution can contain projects that target different versions of .NET.  However, note that you can only build against a single version of .NET either using reference conditionals for a single build or recursively build different binaries for each version.  For more information about target frameworks, see [Target frameworks](/dotnet/standard/frameworks).
+A Visual Studio solution can contain projects that target different versions of .NET.  However, note that you can only build against a single version of .NET either using reference conditionals for a single build or build different binaries for each target framework.  For more information about target frameworks, see [Target frameworks](/dotnet/standard/frameworks).
 
 > [!TIP]
 > You can also target applications for different platforms. For more information, see [Multitargeting](../msbuild/msbuild-multitargeting-overview.md).
@@ -100,6 +100,20 @@ In an existing Visual Basic, C#, or F# project, you change the target .NET versi
 1. If a verification dialog box appears, choose the **Yes** button.
 
    The project unloads. When it reloads, it targets the .NET version that you just chose.
+
+### Target multiple frameworks
+
+With .NET 5 and later, you can build a project for multiple frameworks in a single build by manually editing the project file. Open the project file and replace the `TargetFramework` property with `TargetFrameworks`, and specify your list of Target Framework Monikers (TFMs), separated by semicolons, as in the following code:
+
+```xml
+   <TargetFrameworks>net7.0;net8.0</TargetFrameworks>
+```
+
+See the list of TFMs at [Target frameworks in SDK-style projects](/dotnet/standard/frameworks).
+
+You must reload the project after making this change. After that, if you open the **Properties** window, in the **Application** tab, you can edit the list of target frameworks.
+
+:::image type="content" source="media/vs-2022/visual-studio-multi-targeting-overview/project-properties-target-frameworks.png" alt-text="Screenshot of the General tab in the Project Properties dialog box, with the 'Target frameworks' list showing.":::
 
 ::: moniker-end
 

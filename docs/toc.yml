@@ -143,20 +143,24 @@
     items:
     - name: Install and manage GitHub Copilot
       href: ide/visual-studio-github-copilot-install-and-states.md
+    - name: GitHub Copilot Free
+      href: ide/copilot-free-plan.md
     - name: Use GitHub Copilot Completions
       href: ide/visual-studio-github-copilot-extension.md
     - name: Use GitHub Copilot Chat 
       href: ide/visual-studio-github-copilot-chat.md
     - name: Tips to improve Copilot Chat results 
       href: ide/copilot-chat-context.md
+    - name: Copilot Edits
+      href: ide/copilot-edits.md
     - name: Debug with GitHub Copilot
       href: debugger/debug-with-copilot.md
     - name: Deploy GitHub Copilot to your enterprise
       href: ide/deploy-copilot-to-enterprise.md
-    - name: Troubleshoot GitHub Copilot state
-      href: ide/visual-studio-github-copilot-troubleshoot.md
     - name: Admin controls for GitHub Copilot
       href: ide/visual-studio-github-copilot-admin.md
+    - name: Troubleshoot GitHub Copilot state
+      href: ide/visual-studio-github-copilot-troubleshoot.md
   - name: IntelliCode
     items:
     - name: 'What is IntelliCode?'

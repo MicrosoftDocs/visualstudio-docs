@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022"
 titleSuffix: ""
 description: Discover new features in Visual Studio 2022, including answers to questions and AI consultations while you code with a subscription to GitHub Copilot.
-ms.date: 11/12/2024
+ms.date: 2/11/2025
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -15,7 +15,7 @@ ms.topic: whats-new
 ---
 # What's new in Visual Studio 2022
 
-**Updated for the 17.12 release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
+**Updated for the 17.13 release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
 
 >[!div class="button"]
 >[Download Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
@@ -130,6 +130,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 Review the following blog posts to learn more about the improvements we've made to Visual Studio 2022, to date:
 
+* [Visual Studio 2022 17.13 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-v17-13-is-now-available/)
 * [Visual Studio 2022 17.12 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-v17-12-with-dotnet-9/)
 * [Visual Studio 2022 17.11 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-v17-11-your-feedback-in-action/)
 * [Visual Studio 2022 17.10 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-10-now-available/)

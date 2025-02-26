@@ -2,7 +2,7 @@
 title: "First look at the debugger"
 description: Get started debugging your applications by using the Visual Studio debugger and see what your code is doing while it runs.
 ms.topic: conceptual
-ms.date: 11/5/2024
+ms.date: 1/27/2025
 helpviewer_keywords:
   - "debugger"
 author: mikejo5000
@@ -190,6 +190,9 @@ Starting in Visual Studio 2022 version 17.12 Preview 3, you can also view return
 
 [ ![Screenshot showing the return values of method calls.](../debugger/media/vs-2022/view-return-values.png) ](../debugger/media/vs-2022/view-return-values.png#lightbox)
 
+With Copilot enabled, you can also get targeted assistance related to the inline return value by using the Ask Copilot button that appears in the data tip for the return value.
+
+[ ![Screenshot showing the return values of method calls with Copilot icon.](../debugger/media/vs-2022/view-return-values-copilot.png) ](../debugger/media/vs-2022/view-return-values-copilot.png#lightbox)
 ::: moniker-end
 
 ## Set a watch
