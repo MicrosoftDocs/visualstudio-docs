@@ -107,3 +107,6 @@ Solution properties are stored in a Solution User Options (*.suo*) file. For mor
 ## Related content
 
 - [What are solutions and projects in Visual Studio?](../ide/solutions-and-projects-in-visual-studio.md)
+- [MSBuild Properties](../msbuild/msbuild-properties.md)
+- [Use properties to control build settings](../msbuild/how-to-build-the-same-source-files-with-different-options.md#use-properties-to-control-build-settings)
+- [Understand build configurations](understanding-build-configurations.md)
