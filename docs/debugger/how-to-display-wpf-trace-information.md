@@ -1,5 +1,5 @@
 ---
-title: Display WPF trace Information for data binding
+title: Display WPF trace information for data binding
 description: Visual Studio can receive debug trace information for data binding from WPF applications and display it in the Output window. Learn how to manage and customize WPF tracing. 
 ms.date: 02/25/2025
 ms.topic: how-to
@@ -41,17 +41,17 @@ Visual Studio can receive debug trace information for data binding from WPF appl
 
 7. Click the drop-down list and select the type of trace information that you want to see.
 
-     **Critical** enables tracing of Critical events only.
+   - **Critical** enables tracing of Critical events only.
 
-     **Error** enables tracing of Critical and Error events.
+   - **Error** enables tracing of Critical and Error events.
 
-     **Warning** enables tracing of Critical, Error, and Warning events.
+   - **Warning** enables tracing of Critical, Error, and Warning events.
 
-     **Information** enables tracing of Critical, Error, Warning, and Information events.
+   - **Information** enables tracing of Critical, Error, Warning, and Information events.
 
-     **Verbose** enables tracing of Critical, Error, Warning, Information, and Verbose events.
+   - **Verbose** enables tracing of Critical, Error, Warning, Information, and Verbose events.
 
-     **ActivityTracing** enables tracing of Stop, Start, Suspend, Transfer, and Resume events.
+   - **ActivityTracing** enables tracing of Stop, Start, Suspend, Transfer, and Resume events.
 
      For more information about what these levels of trace information mean, see <xref:System.Diagnostics.SourceLevels>.
 
