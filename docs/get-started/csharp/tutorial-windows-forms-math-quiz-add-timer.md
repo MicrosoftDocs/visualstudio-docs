@@ -5,7 +5,7 @@ ms.custom: vs-acquisition
 dev_langs:
   - "CSharp"
   - "VB"
-ms.date: 03/15/2024
+ms.date: 02/13/2025
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
@@ -21,8 +21,8 @@ The quiz uses a Timer control. The code behind this control tracks the elapsed t
 In this third tutorial, you learn how to:
 
 > [!div class="checklist"]
-> - Add a Timer control.
-> - Add an event handler for the timer.
+> - Add a Timer control to your Windows Forms app.
+> - Add an event handler for the Timer.
 > - Write code to check the user's answers, display messages, and fill in the correct answers.
 
 ## Prerequisites
@@ -31,7 +31,7 @@ This tutorial builds on previous tutorials, starting with [Create a math quiz Wi
 
 ## Add a countdown timer
 
-To keep track of time during the quiz, you use a timer component. You also need a variable to store the amount of time that's left.
+To keep track of time during the quiz, you use a Timer component. You also need a variable to store the amount of time that's left.
 
 1. Add an integer variable that's named **timeLeft** in the same way that you declared variables in previous tutorials. Put the **timeLeft** declaration right after the other declarations. Your code should look like the following sample.
 
@@ -44,7 +44,7 @@ To keep track of time during the quiz, you use a timer component. You also need 
 
 2. In **Windows Forms Designer**, move a <xref:System.Windows.Forms.Timer> control from the **Components** category of the **Toolbox** to your form. The control appears in the gray area at the bottom of the design window.
 
-3. On the form, select the **timer1** icon that you just added, and set its **Interval** property to **1000**. Because this interval is in milliseconds, a value of 1000 causes the timer to raise a <xref:System.Windows.Forms.Timer.Tick> event every second.
+3. On the form, select the Timer icon that you just added, and set its **Interval** property to *1000*. Because this interval is in milliseconds, a value of 1000 causes the timer to raise a <xref:System.Windows.Forms.Timer.Tick> event every second.
 
 ## Check the answers
 
@@ -63,7 +63,7 @@ This method determines the answers to the math problems and compares the results
 
 - The Visual Basic version uses the `Function` keyword instead of the usual `Sub` keyword because this method returns a value.
 
-- You can't easily enter the multiplication sign (×) and the division sign (÷) by using the keyboard, so C# and Visual Basic accept an asterisk (*) for multiplication and a slash mark (/) for division.
+- You can't easily enter the multiplication sign (×) or the division sign (÷) by using the keyboard, so C# and Visual Basic accept an asterisk (`*`) for multiplication and a slash mark (`/`) for division.
 
 - In C#, `&&` is the `logical and` operator. In Visual Basic, the equivalent operator is `AndAlso`. You use the `logical and` operator to check whether more than one condition is true. In this case, if the values are all correct, the method returns a value of `true`. Otherwise, the method returns a value of `false`.
 
@@ -81,7 +81,7 @@ Now that you have a way to check the answers, you can write the code for the Tic
    timer1.Tick += new EventHandler(timer1_Tick);
    ```
 
-   (For Visual Basic, there's no need for that line, but the event handler contains a `handles Timer1.Tick` which does the same thing.)
+   For Visual Basic, there's no need for that line, but the event handler contains a `handles Timer1.Tick` which does the same thing.
 
 1. Add the following statements to the new event handler method.
 
@@ -128,7 +128,7 @@ When your quiz starts, this code sets the **timeLeft** variable to 30 and the **
 
    :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/quiz-end.png" alt-text="Screenshot that shows a completed quiz with 19 seconds remaining. The Start the quiz button is available.":::
 
-## Next steps
+## Next step
 
 Advance to the next tutorial to learn how to customize your math quiz.
 > [!div class="nextstepaction"]

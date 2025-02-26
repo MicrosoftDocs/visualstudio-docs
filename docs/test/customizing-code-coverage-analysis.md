@@ -16,6 +16,9 @@ To exclude test code from the code coverage results and only include application
 
 To include assemblies that aren't part of your solution, obtain the *.pdb* files for these assemblies and copy them into the same folder as the assembly *.dll* files.
 
+>[!NOTE]
+> Code coverage is available only with Visual Studio Enterprise. For .NET code coverage, you can alternatively use the command-line tool, [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage).
+
 ## Run settings file
 
 The [run settings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) is the configuration file used by unit testing tools. Advanced code coverage settings are specified in a *.runsettings* file.
@@ -135,6 +138,29 @@ When static native instrumentation is enabled, Visual Studio will search and ins
 ```
 
 ::: moniker-end
+
+### Include or exclude test assemblies
+
+To include or exclude test assemblies from the coverage report, you can use the `<IncludeTestAssembly>` element in the `<Configuration>` section of your .runsettings file.
+
+In this example, setting `<IncludeTestAssembly>` to `False` will exclude test assemblies from the code coverage report. If you want to include test assemblies, set it to `True`.
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File name extension must be .runsettings -->
+<RunSettings>
+  <DataCollectionRunSettings>
+    <DataCollectors>
+      <DataCollector friendlyName="Code Coverage" uri="datacollector://Microsoft/CodeCoverage/2.0" assemblyQualifiedName="Microsoft.VisualStudio.Coverage.DynamicCoverageDataCollector, Microsoft.VisualStudio.TraceCollector, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+        <Configuration>
+          <IncludeTestAssembly>False</IncludeTestAssembly>
+          ...
+        </Configuration>
+      </DataCollector>
+    </DataCollectors>
+  </DataCollectionRunSettings>
+</RunSettings>
+```
 
 ### Regular expressions
 
@@ -314,7 +340,8 @@ Included items must then not match any entries in the exclude list to remain inc
             <EnableDynamicNativeInstrumentation>True</EnableDynamicNativeInstrumentation>
             <!-- When set to True, instrumented binaries on disk are removed and original files are restored. -->
             <EnableStaticNativeInstrumentationRestore>True</EnableStaticNativeInstrumentationRestore>
-
+            <!-- When set to False, test assemblies will not be added to the coverage report. -->
+            <IncludeTestAssembly>True</IncludeTestAssembly>
           </CodeCoverage>
         </Configuration>
       </DataCollector>

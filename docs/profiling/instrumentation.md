@@ -67,15 +67,25 @@ In addition, if you're using Copilot, use the **Ask Copilot** button to open the
 
 ## Analyze instrumentation detailed reports
 
-To analyze the Instrumentation report, click **Open details**, or click one of the top functions to open the **Functions** view.
+For in-depth analysis of the Instrumentation report, first open one of the detailed report views:
 
-The report provides different views of the diagnostic data:
+1. Click **Open details** in the summary page of the report, or select one of the top functions to open the **Functions** view.
 
-- Caller/callee
-- Call tree
-- Modules
-- Functions
-- Flame graph
+   ![Screenshot that shows the Open details link.](../profiling/media/vs-2022/cpu-use-open-details.png)
+
+1. From the **Current View** list, you can select one of the detailed report views.
+
+   ![Screenshot that shows the list of detailed reports.](../profiling/media/vs-2022/cpu-use-select-detailed-view.png)
+
+The following table provides a description of the detailed views.
+
+|View|Description|
+|-|-|
+|Caller/callee|Detailed view of time spent in a specific function, the function(s) that called it, and the function(s) that it calls. The performance data is aggregated for the data collection period. You can select calling functions and called functions to traverse the call path.|
+|Call tree|Hierarchical view of the function call path. Used to identify call paths that are taking the most time (hot path).|
+|Modules|View of the time spent in individual modules, aggregated over the data collection period. Used to identify modules that might be performance bottlenecks due to a combination of high call counts and/or performance issues.|
+|Functions|View of the time spent in individual functions, aggregated over the data collection period. Used to identify functions that might be performance bottlenecks due to a combination of high call counts and/or performance issues.|
+|Flame graph|Hierarchical view of the function call path in a flame graph visualization. Used to identify call paths that are taking the most time (hot path).|
 
 In all views except Caller/callee, the diagnostic report is sorted by **Total [unit, %]**, from highest to lowest. Change the sort order or sort column by selecting the column headers. You can double-click on a function that you're interested in, and you'll see the source for the function as well as highlighting that shows where time is spent in that function. The table shows columns with data such as the time spent in the function, including called functions (Total), and a second column that shows the time spent in a function, excluding called functions (Self).
 
@@ -100,6 +110,8 @@ Here's more information on the column values:
 - **Call Count** indicates the number of times a function is called.
 
 - **Module** The name of the module containing the function.
+
+For help understanding unexpected data in the call tree, see [Understanding the call tree](../profiling/understand-call-tree-data.md).
 
 ### Async calls in the Instrumentation call tree (.NET)
 
