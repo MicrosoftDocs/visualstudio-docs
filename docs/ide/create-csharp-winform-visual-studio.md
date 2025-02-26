@@ -2,7 +2,7 @@
 title: "Create a Windows Forms app with C#"
 description: Create a Windows Forms app in Visual Studio with C#, add button controls to the form, and run the code to test your application.
 ms.custom: vs-acquisition
-ms.date: 01/24/2025
+ms.date: 02/26/2025
 ms.topic: tutorial
 ms.devlang: csharp
 author: anandmeg
@@ -114,8 +114,8 @@ After you select your C# project template and name your project, Visual Studio o
 
    :::image type="content" source="../ide/media/vb-button-control-function.png" alt-text="Screenshot showing the new name for the button.":::
 
-   > [!NOTE]
-   > If you alphabetized the list in the **Properties** window, **Button1** appears in the **(DataBindings)** section, instead.
+   If you alphabetized the list in the **Properties** window, **Button1** appears in the **(DataBindings)** section, instead.
+   You can [dock or anchor](/dotnet/desktop/winforms/controls/how-to-dock-and-anchor) the controls on your form to help with automatic placement and sizing, when the form changes size.
 
 ### Add a label to the form
 
@@ -167,8 +167,8 @@ After you select your C# project template and name your project, Visual Studio o
 
      :::image type="content" source="media/vs-2022/csharp-winform-button-properties-design-name.png" alt-text="Screenshot that shows the new name for the button.":::
 
-   > [!NOTE]
-   > If you alphabetized the list in the **Properties** window, **button1** appears in the **(DataBindings)** section, instead.
+   If you alphabetized the list in the **Properties** window, **Button1** appears in the **(DataBindings)** section, instead.
+   You can [dock or anchor](/dotnet/desktop/winforms/controls/how-to-dock-and-anchor) the controls on your form to help with automatic placement and sizing, when the form changes size.
 
 ### Add a label to the form
 
