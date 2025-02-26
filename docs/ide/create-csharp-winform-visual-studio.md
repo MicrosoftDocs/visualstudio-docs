@@ -2,7 +2,7 @@
 title: "Create a Windows Forms app with C#"
 description: Create a Windows Forms app in Visual Studio with C#, add button controls to the form, and run the code to test your application.
 ms.custom: vs-acquisition
-ms.date: 01/24/2025
+ms.date: 02/26/2025
 ms.topic: tutorial
 ms.devlang: csharp
 author: anandmeg
@@ -113,6 +113,8 @@ After you select your C# project template and name your project, Visual Studio o
 1. In the **Design** section of the **Properties** window, change the name from **Button1** to `btnClickThis`, and then select **Enter**.
 
    :::image type="content" source="../ide/media/vb-button-control-function.png" alt-text="Screenshot showing the new name for the button.":::
+
+You can [dock or anchor](/dotnet/desktop/winforms/controls/how-to-dock-and-anchor) the controls on your form to help with automatic placement and sizing, when the form changes size.
 
    > [!NOTE]
    > If you alphabetized the list in the **Properties** window, **Button1** appears in the **(DataBindings)** section, instead.
