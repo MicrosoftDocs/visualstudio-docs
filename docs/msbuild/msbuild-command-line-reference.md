@@ -32,7 +32,7 @@ The .NET CLI commands [dotnet build](/dotnet/core/tools/dotnet-build), [dotnet p
 
 |Argument|Description|
 |--------------|-----------------|
-|`ProjectFile`|Builds the targets in the project file that you specify. If you don't specify a project file, MSBuild searches the current working directory for a file name extension that ends in *proj* and uses that file. You can also specify a Visual Studio solution file for this argument.|
+|`ProjectFile`|Builds the targets in the project file that you specify. If you don't specify a project file, MSBuild searches the current working directory for a file name extension that ends in *proj* and uses that file. You can also specify a Visual Studio solution file for this argument. In Visual Studio 17.13 and later, the `.slnx` solution file format is supported, as well as the `.sln` format. Both `.sln` and `.slnx` files for the same solution can be present in the same directory; if both are present, you must explicitly specify one of them to build the solution. |
 
 ## Switches
 
