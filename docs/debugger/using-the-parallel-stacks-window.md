@@ -71,18 +71,18 @@ The following icons provide information about the active and current stack frame
 ::: moniker range="vs-2019"
 |Icon|Description|
 |-|-|
-|![Yellow arrow](media/icon-parallelyellowarrow.gif)|Indicates the current location (active stack frame) of the current thread.|
+|![Yellow arrow](media/icon-parallel-yellow-arrow.png)|Indicates the current location (active stack frame) of the current thread.|
 |![Threads icon](media/icon-parallelthreads.gif)|Indicates the current location (active stack frame) of a non-current thread.|
-|![Green arrow](media/icon-parallelgreenarrow.gif)|Indicates the current stack frame (the current debugger context). The method name is bold wherever it appears.|
+|![Green arrow](media/icon-parallel-green-arrow.png)|Indicates the current stack frame (the current debugger context). The method name is bold wherever it appears.|
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 Icon|Description|
 |-|-|
-|![Yellow arrow](media/icon-parallelyellowarrow.gif)|Indicates the current location (active stack frame) of the current thread.|
+|![Yellow arrow](media/icon-parallel-yellow-arrow.png)|Indicates the current location (active stack frame) of the current thread.|
 |![Threads icon](media/icon-parallelthreads.gif)|Indicates the current location (active stack frame) of a non-current thread.|
-|![Green arrow](media/icon-parallelgreenarrow.gif)|Indicates the current stack frame (the current debugger context). The method name is bold wherever it appears.|
+|![Green arrow](media/icon-parallel-green-arrow.png)|Indicates the current stack frame (the current debugger context). The method name is bold wherever it appears.|
 |![Status Error](media/vs-2022/icon-status-error.png)|Indicates that the current stack frame has Critical status warning such as Deadlock.|
 |![Status Excluded](media/vs-2022/icon-status-excluded.png)|Indicates the deadlocked node.|
 |![Status Information](media/vs-2022/icon-status-information.png)|Indicates that the current stack frame has additional information such as Waiting on, Waiting on lock, owned by, etc. |
