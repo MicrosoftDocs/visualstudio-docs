@@ -28,13 +28,13 @@ The new extensibility model for Visual Studio depends on a set of new NuGet pack
 
 ### Microsoft.VisualStudio.Extensibility.Sdk
 
-Link: [Microsoft.VisualStudio.Extensibility.Sdk 17.xxxxx](https://www.nuget.org/packages/Microsoft.VisualStudio.Extensibility.Sdk/17.6.28-preview-1)
+Link: [Microsoft.VisualStudio.Extensibility.Sdk 17.xxxxx](https://www.nuget.org/packages/Microsoft.VisualStudio.Extensibility.Sdk/)
 
 This is the primary package that contains dependencies to all prerequisite packages mentioned in the following sections. We strongly recommend extension developers to have a reference to this meta-package instead of individual references.
 
 #### Microsoft.VisualStudio.Extensibility.Build
 
-Link: [Microsoft.VisualStudio.Extensibility.Build 17.xxxxx](https://www.nuget.org/packages/Microsoft.VisualStudio.Extensibility.Build/17.6.28-preview-1)
+Link: [Microsoft.VisualStudio.Extensibility.Build 17.xxxxx](https://www.nuget.org/packages/Microsoft.VisualStudio.Extensibility.Build/)
 
 This package contains the build tooling, project capabilities code generators that are necessary for building the extension and for it to work with F5 debugging in the Visual Studio IDE.
 
