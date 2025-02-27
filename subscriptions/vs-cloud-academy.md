@@ -136,6 +136,6 @@ A:  At the end of your free Cloud Academy subscription, you might choose to purc
 
 ## Next steps
 
-- After you create your account, you're ready to start training. Go to [Cloud Academy (a QA company)](https://www.qa.com/library/). In the upper-right corner, select **Sign in** to start a new course or to return to a course that's already in progress.
+- After you create your account, you're ready to start training. Go to [Cloud Academy (a QA company)](https://platform.qa.com/library/). In the upper-right corner, select **Sign in** to start a new course or to return to a course that's already in progress.
 
 - Take advantage of your own development sandbox by activating your [Azure DevTest individual credit](/azure/devtest/offer/quickstart-individual-credit).
