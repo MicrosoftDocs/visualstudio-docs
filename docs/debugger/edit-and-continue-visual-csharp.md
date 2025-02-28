@@ -24,9 +24,9 @@ With Hot Reload, or Edit and Continue for C#, you can make changes to your code 
 
 The basic Hot Reload experience works with most types of .NET apps and framework versions. This includes .NET Framework, .NET Core and .NET 5+ (for both C# and Visual Basic as applicable). The expectation in this scenario is that if you’re using the debugger, assume Hot Reload is available to you and give it a try!
 
-Hot Reload supports most changes you might want to make during a debugging session, but there are some exceptions. For example, Hot Reload is not supported for optimized code or debugging sessions with the managed and native debugger enabled.
+Hot Reload supports most changes you might want to make during a debugging session, but there are some exceptions. For example, Hot Reload isn't supported for optimized code or debugging sessions with the managed and native debugger enabled.
 
-For information on other unsupported scenarios, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md). If you try to apply code changes with one of these scenarios, a message box appears stating that Hot Reload is not supported.
+For information on other unsupported scenarios, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md). If you try to apply code changes with one of these scenarios, a message box appears stating that Hot Reload isn't supported.
 
 ## Use Hot Reload
 
@@ -46,7 +46,7 @@ To use the classic Edit and Continue experience:
 
 1. From the **Debug** menu, click **Continue**, **Step**, or **Set Next Statement**. Debugging continues with the new, compiled code.
 
-Some types of code changes are not supported by Edit and Continue. For more information, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).
+Some types of code changes aren't supported by Edit and Continue. For more information, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).
 ::: moniker-end
 
 ::: moniker range="vs-2019"
@@ -54,9 +54,9 @@ With Edit and Continue for C#, you can make changes to your code in break or run
 
 Edit and Continue is supported in UWP in Windows 10 or later, and x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only).
 
-Edit and Continue supports most changes you might want to make during a debugging session, but there are some exceptions. Edit and Continue is not supported for optimized, mixed, or SQL Server common language runtime (CLR) integration code. For information on other unsupported scenarios, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md). If you try to Edit and Continue with one of these scenarios, a message box appears stating that Edit and Continue is not supported.
+Edit and Continue supports most changes you might want to make during a debugging session, but there are some exceptions. Edit and Continue isn't supported for optimized, mixed, or SQL Server common language runtime (CLR) integration code. For information on other unsupported scenarios, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md). If you try to Edit and Continue with one of these scenarios, a message box appears stating that Edit and Continue isn't supported.
 
-For information on other unsupported scenarios, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md). If you try to apply code changes with one of these scenarios, a message box appears stating that Hot Reload is not supported.
+For information on other unsupported scenarios, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md). If you try to apply code changes with one of these scenarios, a message box appears stating that Hot Reload isn't supported.
 
 ## Use Edit and Continue
 
@@ -78,7 +78,7 @@ To use the Edit and Continue:
 
    Debugging continues with the new, compiled code.
 
-Some types of code changes are not supported by Edit and Continue. For more information, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).
+Some types of code changes aren't supported by Edit and Continue. For more information, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).
 ::: moniker-end
 
 ## Related content
