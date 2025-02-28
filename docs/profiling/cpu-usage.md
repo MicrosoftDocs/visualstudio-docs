@@ -35,7 +35,14 @@ Usually, the local machine best replicates installed app execution. To collect d
 
 ## Collect CPU utilization data
 
-1. In the Visual Studio project, set the solution configuration to **Release** and select **Local Windows Debugger** (or **Local Machine**) as the deployment target.
+1. In the Visual Studio project, set the solution configuration to **Release** and select the deployment target.
+
+   ::: moniker range=">=vs-2022"
+   The deployment target typically matches the project name, indicating a local deployment.
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   The deployment target is typically **Local Windows Debugger** (or **Local Machine**).
+   ::: moniker-end
 
     ::: moniker range=">=vs-2022"
     ![Screenshot that shows Select Release and Local Machine.](../profiling/media/vs-2022/cpu-use-select-release.png "Select Release")
@@ -58,7 +65,7 @@ Usually, the local machine best replicates installed app execution. To collect d
     If you enable the **Start with collection paused** option before starting the profiler, data will not be collected until you select the **Record** button in the diagnostic session view.
 
     > [!NOTE]
-    > For more information on how to make the tool more efficient, see [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md).
+    > For some project types, such as CMake, you must set the startup target to **Executable**. For more information, see [Which tools are supported for my project?](../profiling/choose-performance-tool.md#which-tools-are-supported-for-my-project). For more information on how to make the tool more efficient, see [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md).
 
 1. After the app starts, the diagnostic session begins and displays CPU utilization data. When you're finished collecting data, select **Stop Collection**.
 
