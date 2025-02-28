@@ -153,3 +153,4 @@ If you're using response compression on .NET Core, see the information on [respo
 
 * [Edit and Continue (C#)](../debugger/edit-and-continue-visual-csharp.md)
 * [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md)
+* [Configure Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md)

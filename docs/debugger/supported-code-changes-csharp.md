@@ -190,3 +190,4 @@ Edit and Continue isn't available in the following debugging scenarios:
 
 - [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)
 - [How to: Use Edit and Continue (C#)](../debugger/how-to-use-edit-and-continue-csharp.md)
+- [Configure Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md)

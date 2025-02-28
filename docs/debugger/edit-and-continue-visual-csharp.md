@@ -84,4 +84,5 @@ Some types of code changes are not supported by Edit and Continue. For more info
 ## Related content
 
 - [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md)
+- [Configure Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md)
 - [Write and debug running XAML code with XAML Hot Reload in Visual Studio](../xaml-tools/xaml-hot-reload.md)
