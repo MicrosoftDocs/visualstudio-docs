@@ -35,7 +35,7 @@ The following table describes the Cloud Academy training benefits that are inclu
 |---------------------|----------|---------|------------|
 |  Visual Studio Enterprise (Standard) | Volume Licensing (VL), Azure, Retail | 12 months | No |
 |  Visual Studio Enterprise subscription with GitHub Enterprise | VL | 12 months | No |
-|  Visual Studio Professional (Standard) | VL, Azure, Retail | 12 months | No> |
+|  Visual Studio Professional (Standard) | VL, Azure, Retail | 12 months | No |
 |  Visual Studio Professional subscription with GitHub Enterprise | VL | 12 months | No |
 |  Visual Studio Test Professional (Standard) | VL, Retail | Not available | NA |
 |  MSDN Platforms (Standard) | VL, Retail | Not available | NA |
@@ -77,11 +77,11 @@ Not sure which subscription you're using? To see the subscriptions that are asso
 
 1. Click the Create Your Account link form the email.
 
-   :::image type="content" source="_img/vs-cloud-academy/account-setup-email.png" alt-text="Screenshot of the Cloud Academy email Account Setup instructions"::: 
+   :::image type="content" source="_img/vs-cloud-academy/account-setup-email.png" alt-text="Screenshot of the Cloud Academy email Account Setup instructions."::: 
 
 1. You're redirected to your browser and the Cloud Academy platform opens. It displays a welcome screen where you can get started and take a tour of the platform.
 
-:::image type="content" source="_img/vs-cloud-academy/start-learn.png" alt-text="Screenshot of the Cloud Academy Welcome to QA and the Start button":::
+:::image type="content" source="_img/vs-cloud-academy/start-learn.png" alt-text="Screenshot of the Cloud Academy Welcome to QA and the Start button.":::
 
 That's it! You're now ready to start learning with your Cloud Academy courses.
 
@@ -101,7 +101,7 @@ In Visual Studio Subscriptions, the Cloud Academy (a QA company) tile displays t
 
 When your Cloud Academy benefit expires, the benefit status changes to **0 days remaining** and the link to Cloud Academy (a QA company) is removed. The date you activated your Cloud Academy benefit and the date it expired are still shown on the tile.
 
-:::image type="content" source="_img/vs-cloud-academy/benefit-end-tile.png" alt-text="Screenshot showing the Cloud Academy tile after expiration, the link to Cloud Academy is removed and the dates the subscription was active appear at the bottom of the tile.":::
+:::image type="content" source="_img/vs-cloud-academy/benefit-end-tile.png" alt-text="Screenshot showing the Cloud Academy tile after expiration. The link to Cloud Academy is removed and the dates the subscription was active appear at the bottom of the tile.":::
 
 ## Frequently asked questions
 
