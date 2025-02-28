@@ -98,6 +98,8 @@
     items:
     - name: CODE Magazine
       href: vs-code-magazine.md
+    - name: Cloud Academy
+      href: vs-cloud-academy.md
     - name: DataCamp
       href: vs-datacamp.md
     - name: LinkedIn Learning
