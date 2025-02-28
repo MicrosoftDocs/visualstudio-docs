@@ -163,7 +163,7 @@ You might need to take special care to ensure that your use of the `WriteCodeFra
         </ItemGroup>
     </Target>
 
-    <!-- with all the work done above, this Target looks simple. The main thing we do here
+    <!-- With all the work done above, this Target is straightforward. The main thing we do here
     is, if we write a file, add it to FileWrites for cleanup.  -->
     <Target Name="WriteFile" DependsOnTargets="ComputeVersionFileWrite" Inputs="$(IntermediateOutputPath)AssemblyVersion_cache.txt" Outputs="@(_GeneratedAssemblyVersionFile)">
         <ItemGroup>
