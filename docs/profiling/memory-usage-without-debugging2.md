@@ -1,7 +1,7 @@
 ---
 title: Analyze memory usage in the Performance Profiler
 description: Learn how to use the Memory Usage tool in release builds in the Visual Studio Performance Profiler to monitor your app's memory use.
-ms.date: 02/06/2024
+ms.date: 02/28/2025
 ms.topic: how-to
 dev_langs: 
   - CSharp
