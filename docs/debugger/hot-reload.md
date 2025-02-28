@@ -26,9 +26,9 @@ We improve productivity by making it possible for you to edit your application's
 
 1. Open a code file and change the code.
 
-1. Apply the code changes using the **Hot Reload** ![Screenshot of the Hot Reload button.](../debugger/media/vs-2022/hot-reload-icon.png) button, or press **ALT+F10**.
+1. Apply the code changes using the **Hot Reload** ![Screenshot of the Hot Reload icon.](../debugger/media/vs-2022/hot-reload-icon.png) button, or press **ALT+F10**.
 
-   ![Screenshot of the Hot Reload button.](../debugger/media/vs-2022/dotnet-hot-reload.gif)
+   ![Screenshot of Hot Reload.](../debugger/media/vs-2022/dotnet-hot-reload.gif)
 
 To see the changes in the user interface, the code needs to be re-executed. For example, code-behind for a button must re-execute, or code that is being triggered at an interval through a timer. As another example, ASP.NET Core supports automatic browser refreshing due to the [MetadataUpdateHandler](hot-reload-metadataupdatehandler.md) functionality.
 
