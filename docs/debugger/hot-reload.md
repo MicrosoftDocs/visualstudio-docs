@@ -1,7 +1,7 @@
 ---
 title: "Write and debug code by using Hot Reload"
 description: Explore the Hot Reload feature, also known as Edit and Continue, and make changes to your code while running applications.
-ms.date: 12/06/2024
+ms.date: 02/28/2025
 ms.topic: conceptual
 helpviewer_keywords:
   - "Hot reload"
@@ -26,7 +26,7 @@ We improve productivity by making it possible for you to edit your application's
 
 1. Open a code file and change the code.
 
-1. Apply the code changes using the **Hot Reload** button, or press **ALT+F10**.
+1. Apply the code changes using the **Hot Reload** ![Screenshot of the Hot Reload button.](../debugger/media/vs-2022/hot-reload-icon.png) button, or press **ALT+F10**.
 
    ![Screenshot of the Hot Reload button.](../debugger/media/vs-2022/dotnet-hot-reload.gif)
 
