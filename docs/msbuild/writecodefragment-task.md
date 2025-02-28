@@ -1,7 +1,7 @@
 ---
 title: WriteCodeFragment Task
 description: Learn how MSBuild uses the WriteCodeFragment task to generate a temporary code file from the specified generated code fragment.
-ms.date: 07/26/2023
+ms.date: 02/28/2025
 ms.topic: reference
 dev_langs:
 - VB
@@ -130,6 +130,56 @@ A typical use case for the `WriteCodeFragment` task is in a target that generate
 ```
 
 The `OutputFile` is given a specific filename; if not specified, a filename is randomly generated. Also, to add the generated file to the build, the `Compile` item list is given as an output. The file is also added to the `FileWrites` item list, so that it is deleted when the `Clean` target is run.
+
+### Handle incremental build
+
+You might need to take special care to ensure that your use of the `WriteCodeFragment` task doesn't break [incremental build](how-to-build-incrementally.md). To emit the assembly version in code, you wouldn't want to force everything to rebuilt unless the assembly number changed. To accomplish this, you can emit a file using `WriteLinesToFile` and use that as an input for the `AddAssemblyVersion` task. The input can't just be a property, it has to be a file timestamp comparison in order for the incremental build mechanism to work. The following example shows how you might implement `AddAssemblyVersion` in real-world code to preserve incremental build:
+
+```xml
+<Project DefaultTargets="WriteFile">
+    <PropertyGroup>
+        <Version>1.2.3.4</Version>
+    </PropertyGroup>
+
+    <!-- This target ensures that we cache the inputs to the generated C# file so that we only run that generation
+         when the inputs change. Since some inputs are not Files, we have to 'elevate' them to the file level 
+         in some way. The easiest way is to literally write a file.
+        
+         There are no inputs/outputs because we need to compute paths everytime -
+            however we get 'incrementality' because the WriteLinesToFile task will only write the file if the
+            contents are different.
+
+        We need to
+          * write the cache file to use as an input to the next target
+          * compute the generated file path to use an an output in the next target
+    -->
+    <Target Name="ComputeVersionFileWrite">
+        <WriteLinesToFile File="$(IntermediateOutputPath)AssemblyVersion_cache.txt" Lines="$(Version)"
+            WriteOnlyWhenDifferent="true"
+            Overwrite="true" />
+        <ItemGroup>
+            <FileWrites Include="$(IntermediateOutputPath)AssemblyVersion_cache.txt" />
+            <_GeneratedAssemblyVersionFile Include="$(IntermediateOutputPath)AssemblyVersion.cs" />
+        </ItemGroup>
+    </Target>
+
+    <!-- with all the work done above, this Target looks simple. The main thing we do here
+    is, if we write a file, add it to FileWrites for cleanup.  -->
+    <Target Name="WriteFile" DependsOnTargets="ComputeVersionFileWrite" Inputs="$(IntermediateOutputPath)AssemblyVersion_cache.txt" Outputs="@(_GeneratedAssemblyVersionFile)">
+        <ItemGroup>
+            <AssemblyAttribute Include="AssemblyVersion">
+                <_Parameter1>$(Version)</_Parameter1>
+            </AssemblyAttribute>
+        </ItemGroup>
+        <WriteCodeFragment AssemblyAttributes="@(AssemblyAttribute)"
+                            Language="C#"
+                            OutputDirectory="$(IntermediateOutputPath)"
+                            OutputFile="AssemblyVersion.cs" >
+            <Output TaskParameter="OutputFile" ItemName="FileWrites" />
+        </WriteCodeFragment>
+    </Target>
+</Project>
+```
 
 ## See also
 
