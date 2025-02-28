@@ -22,7 +22,7 @@ When you clean a build by using MSBuild, the build platform deletes all intermed
 
 ## Create a directory for output items
 
-By default, the *.exe* file that the build platform creates when you compile a project is placed in the same directory as the project and source files. Typically, however, output items are created in a separate directory.
+By default, the `.exe` file that the build platform creates when you compile a project is placed in the same directory as the project and source files. Typically, however, output items are created in a separate directory.
 
 To create a directory for output items:
 
@@ -32,7 +32,7 @@ To create a directory for output items:
    <builtdir>BuiltApp</builtdir>
    ```
 
-2. If the directory doesn't exist, use the [MakeDir](../msbuild/makedir-task.md) task to create it. For example:
+1. If the directory doesn't exist, use the [MakeDir](../msbuild/makedir-task.md) task to create it. For example:
 
    ```xml
    <MakeDir Directories = "$(builtdir)"
@@ -49,23 +49,13 @@ To remove a directory from a disk, and all files and directories contained in th
 <RemoveDir Directories="$(builtdir)" />
 ```
 
-## Specify a different target
-
-The default target is defined as `Compile` and is used automatically unless you specify a different target or targets. To specify a different target, use the command-line switch `-target` (or `-t`). For example:
-
-```cmd
-msbuild <file name>.proj -target:Clean
-```
-
-You can use the `-target` switch to specify multiple targets by using a semicolon or comma to separate them in a list. For example, to use the target `Clean` and the target `Compile`, enter:
-
-```cmd
-msbuild <file name>.proj -t:Clean;Compile
-```
-
 ## Example
 
- The following code example contains a new target, `Clean`, that uses the `RemoveDir` task to delete a directory and all files and directories that it contains. Then, the `Compile` target creates a separate directory for the output items that are deleted when the build is cleaned.
+The following code example contains a new target, `Clean`, that uses the `RemoveDir` task to delete a directory and all files and directories that it contains. Then, the `Compile` target creates a separate directory for the output items that are deleted when the build is cleaned.
+
+In this example, the default target is defined as `Compile` and is used automatically unless you specify a different target or targets. To specify a different target, you can use the command-line switch `-target` (or `-t`). For example: `msbuild <file name>.proj -target:Clean`.
+
+To specify multiple targets, you can use the `-target` switch with multiple targets in a list separated by a semicolon. For example, to use the target `Clean`, and then the target `Compile`, enter: `msbuild <file name>.proj -t:Clean;Compile`.
 
 ```xml
 <Project DefaultTargets = "Compile"
