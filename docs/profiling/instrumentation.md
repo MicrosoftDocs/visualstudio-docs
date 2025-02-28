@@ -22,12 +22,7 @@ The tool is similar to the CPU Usage tool except it's based on wall clock time i
 
 1. In the Visual Studio project, set the solution configuration to **Release** and select the deployment target.
 
-   ::: moniker range=">=vs-2022"
    The deployment target typically matches the project name, indicating a local deployment.
-   ::: moniker-end
-   ::: moniker range="vs-2019"
-   The deployment target is typically **Local Windows Debugger** (or **Local Machine**).
-   ::: moniker-end
 
 1. Select **Alt+F2** (or **Debug > Performance Profiler**) to open the performance profiler in Visual Studio.
 
