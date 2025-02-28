@@ -20,6 +20,10 @@ The tool is similar to the CPU Usage tool except it's based on wall clock time i
 
 ## Instrument your application
 
+1. In the Visual Studio project, set the solution configuration to **Release** and select the deployment target.
+
+   The deployment target typically matches the project name, indicating a local deployment.
+
 1. Select **Alt+F2** (or **Debug > Performance Profiler**) to open the performance profiler in Visual Studio.
 
 1. Select the **Instrumentation** check box.
@@ -32,6 +36,8 @@ The tool is similar to the CPU Usage tool except it's based on wall clock time i
    > If the tool isn't available for selection, clear every other tool's check box because some tools need to run alone. To learn more about running tools together, see [Using multiple profiler tools simultaneously](../profiling/use-multiple-profiler-tools-simultaneously.md).
    >
    > If the tool still isn't available, check that your project meets the preceding requirements. Make sure your project is in Release mode to capture the most accurate data.
+   >
+   > For some project types, such as CMake, you must set the startup target to **Executable**. For more information, see [Which tools are supported for my project?](../profiling/choose-performance-tool.md#which-tools-are-supported-for-my-project).
 
 1. Select the **Start** button to run the tool.
 
