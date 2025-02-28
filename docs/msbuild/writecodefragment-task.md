@@ -133,7 +133,7 @@ The `OutputFile` is given a specific filename; if not specified, a filename is r
 
 ### Handle incremental build
 
-You might need to take special care to ensure that your use of the `WriteCodeFragment` task doesn't break [incremental build](how-to-build-incrementally.md). To emit the assembly version in code, you wouldn't want to force everything to rebuilt unless the assembly number changed. To accomplish this, you can emit a file using `WriteLinesToFile` and use that as an input for the `AddAssemblyVersion` task. The input can't just be a property, it has to be a file timestamp comparison in order for the incremental build mechanism to work. The following example shows how you might implement `AddAssemblyVersion` in real-world code to preserve incremental build:
+You might need to take special care to ensure that your use of the `WriteCodeFragment` task doesn't break [incremental build](how-to-build-incrementally.md). When you write out a code file, you don't want to force everything to rebuilt unless the content changed. To accomplish this, you can emit a file using `WriteLinesToFile` and use that as an input for the task that invokes `WriteCodeFragment` . The input can't just be a property, there has to be a file timestamp comparison in order for the incremental build mechanism to work. The following example shows how you might implement `AddAssemblyVersion` in real-world code to preserve incremental build:
 
 ```xml
 <Project DefaultTargets="WriteFile">
