@@ -28,7 +28,7 @@ MSBuild builds the first target it finds, and any dependencies, unless:
 
 The `InitialTargets` attribute of the `Project` element specifies the initial target that runs first. It overrides any targets that you specify with MSBuild on the command line or in the `DefaultTargets` attribute of the `Project` element.
 
-### To specify one initial target
+### Specify a single initial target
 
 Specify the default target in the `InitialTargets` attribute of the `Project` element. For example:
 
@@ -36,7 +36,7 @@ Specify the default target in the `InitialTargets` attribute of the `Project` el
 <Project InitialTargets="Clean">
 ```
 
-### To specify more than one initial target
+### Specify multiple initial targets
 
 You can specify more than one initial target in the `InitialTargets` attribute of the `Project` element. List the targets in order and use a semicolon to separate each target. The targets in the list are run sequentially.
 
@@ -52,7 +52,7 @@ The `DefaultTargets` attribute of the `Project` element specifies which target o
 
 If targets are specified in both the `InitialTargets` and `DefaultTargets` attributes of the `Project` element, and no target is specified on the command line, MSBuild runs the targets specified in the `InitialTargets` attribute followed by the targets specified in the `DefaultTargets` attribute.
 
-### To specify one default target
+### Specify a single default target
 
 Specify the default target in the `DefaultTargets` attribute of the `Project` element. For example:
 
@@ -60,7 +60,7 @@ Specify the default target in the `DefaultTargets` attribute of the `Project` el
 <Project DefaultTargets="Compile">`
 ```
 
-### To specify more than one default target
+### Specify multiple default targets
 
 You can specify more than one default target in the `DefaultTargets` attribute of the `Project` element. List the default targets in order and use a semicolon to separate each target. The targets in the list are run sequentially.
 
@@ -74,7 +74,7 @@ For example, to run the `Clean` target and then the `Compile` target, enter:
 
 If a default target isn't defined in the project file, or if you don't want to use the defined default target, you can use the command line switch `-target` to specify a different target. The target or targets specified with the `-target` switch are run instead of the targets specified by the `DefaultTargets` attribute of the `Project` element. Targets specified in the `InitialTargets` attribute always run first.
 
-### To use a target other than the default target first
+### Override the default target with a single target
 
 Specify the target to use as the first target by using the `-target` command-line switch with a colon (:) and the name of the target. For example:
 
@@ -82,7 +82,7 @@ Specify the target to use as the first target by using the `-target` command-lin
 msbuild file.proj -target:Clean
 ```
 
-### To use multiple targets other than the default targets first
+### Override the default target with multiple targets
 
 Specify a list of targets to use as the first targets and separate them by semicolons with the `-target` command-line switch. For example:
 
