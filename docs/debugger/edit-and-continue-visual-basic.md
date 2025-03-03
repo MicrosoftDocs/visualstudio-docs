@@ -22,11 +22,11 @@ ms.subservice: debug-diagnostics
 # Edit and Continue (Visual Basic)
 
 ::: moniker range=">=vs-2022"
-Hot Reload, previously called Edit and Continue, is a feature for Visual Basic debugging that enables you to change your code while it is executing in Break mode. After code edits have been applied, you can resume code execution with the new edits in place and see the effect.
+Hot Reload, previously called Edit and Continue, is a feature for Visual Basic debugging that enables you to change your code while it's executing in Break mode. After code edits have been applied, you can resume code execution with the new edits in place and see the effect.
 ::: moniker-end
 
 ::: moniker range="vs-2019"
-Edit and Continue is a feature for Visual Basic debugging that enables you to change your code while it is executing in Break mode. After code edits have been applied, you can resume code execution with the new edits in place and see the effect.
+Edit and Continue is a feature for Visual Basic debugging that enables you to change your code while it's executing in Break mode. After code edits have been applied, you can resume code execution with the new edits in place and see the effect.
 ::: moniker-end
 
 You can use the Edit and Continue feature whenever you enter Break mode. In Break mode, the instruction pointer, a yellow arrowhead in the source window, points to the line containing an executable statement in a method or property body that will be executed next.
@@ -35,7 +35,7 @@ When you make an unauthorized edit, the change is marked with a purple wavy unde
 
 Edit and Continue is supported in UWP apps for Windows 10 or later, and x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only).
 
-Edit and Continue supports most changes you might want to make during a debugging session, but there are some exceptions. Edit and Continue is not supported when you start debugging using **Attach to Process**. Edit and Continue is not supported for optimized code or mixed managed and native code. For more information, see [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).
+Edit and Continue supports most changes you might want to make during a debugging session, but there are some exceptions. Edit and Continue isn't supported when you start debugging using **Attach to Process**. Edit and Continue isn't supported for optimized code or mixed managed and native code. For more information, see [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).
 
 ## Apply edits in Break Mode with Edit and Continue
 
@@ -60,7 +60,7 @@ To edit code in Break mode:
      For more information, see [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).
 
     > [!NOTE]
-    > If you attempt to make a code change that is not allowed by Edit and Continue, your edit will be underlined by a purple wavy line and a task will appear in the Task List. You will not be able to continue code execution unless you undo the illegal code change.
+    > If you attempt to make a code change that is not allowed by Edit and Continue, your edit will be underlined by a purple wavy line and a task will appear in the Task List. You won't be able to continue code execution unless you undo the illegal code change.
 
 3. On the **Debug** menu, click **Continue** to resume execution.
 
@@ -69,5 +69,5 @@ To edit code in Break mode:
 ## Related content
 
 - [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md)
-
 - [Edit and Continue](../debugger/edit-and-continue.md)
+- [Configure Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md)
