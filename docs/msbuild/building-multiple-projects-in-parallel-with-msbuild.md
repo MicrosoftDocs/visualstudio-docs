@@ -1,51 +1,56 @@
 ---
 title: Build multiple projects in parallel with MSBuild
 description: Explore the MSBuild settings that you can use to build multiple projects faster by running them in parallel in Visual Studio.
-ms.date: 09/14/2023
-ms.topic: how-to
-helpviewer_keywords:
-- parallel project builds
-- building multiple projects in parallel
-- msbuild, building projects in parallel
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
+ms.topic: concept-article
+ms.date: 02/26/2025
+helpviewer_keywords:
+- parallel project builds
+- building multiple projects in parallel
+- msbuild, building projects in parallel
+
+# Customer intent: As a developer, I want to learn how to use the MSBuild command in Visual Studio to run multiple build actions in parallel so that I can build projects faster.
+
 ---
+
 # Build multiple projects in parallel with MSBuild
 
-You can use MSBuild to build multiple projects faster by running them in parallel. To run builds in parallel, you use the following settings on a multi-core or multiple processor computer:
+To build multiple projects faster, you can use MSBuild to run builds in parallel. To do so, use the following settings on multi-core or multiple processor computers:
 
-- The `-maxcpucount` switch at a command prompt.
+- Set the `-maxcpucount` switch when you run MSBuild at a command prompt.
 
-- The <xref:Microsoft.Build.Tasks.MSBuild.BuildInParallel%2A> task parameter on an MSBuild task.
+- Set the <xref:Microsoft.Build.Tasks.MSBuild.BuildInParallel%2A> task parameter to `true` on your MSBuild task.
 
 > [!NOTE]
-> The **-verbosity** (**-v**) switch in a command line can also affect build performance. Your build performance might decrease if the verbosity of your build log information is set to detailed or diagnostic, which are used for troubleshooting. For more information, see [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md) and [Command-line reference](../msbuild/msbuild-command-line-reference.md).
+> Your build performance might decrease if you use the `-verbosity` (`-v`) switch to set the verbosity of your build log information to detailed or diagnostic. This switch is often used for troubleshooting. For more information, see [Obtain build logs with MSBuild](../msbuild/obtaining-build-logs-with-msbuild.md) and [MSBuild command-line reference](../msbuild/msbuild-command-line-reference.md).
 
-## -maxcpucount Switch
+## -maxcpucount MSBuild switch
 
-If you use the `-maxcpucount` switch, or `-m` for short, MSBuild can create the specified number of *MSBuild.exe* processes that may be run in parallel. These processes are also known as "worker processes." Each worker process uses a separate core or processor, if any are available, to build a project at the same time as other available processors may be building other projects. For example, setting this switch to a value of "4" causes MSBuild to create four worker processes to build the project.
+If you use the `-maxcpucount` (`-m`) switch, which was introduced in MSBuild 3.5, MSBuild creates the specified number of *MSBuild.exe* processes that can be run in parallel. These processes are also known as *worker processes*. Each worker process uses a separate core or processor, if any are available, to build a project at the same time as other available processors might be building other projects.
+For example, setting this switch to a value of `4` causes MSBuild to create four worker processes to build the project.
 
-If you include the `-maxcpucount` switch without specifying a value, MSBuild will use up to the number of processors on the computer.
+If you include the `-maxcpucount` switch without specifying a value, MSBuild uses up to the number of processors on the computer.
 
-For more information about this switch, which was introduced in MSBuild 3.5, see [Command-line reference](../msbuild/msbuild-command-line-reference.md).
+For more information about this switch, see [MSBuild command-line reference](../msbuild/msbuild-command-line-reference.md).
 
-The following example instructs MSBuild to use three worker processes. If you use this configuration, MSBuild can build three projects at the same time.
+The following example instructs MSBuild to use three worker processes. With this configuration, MSBuild can build three projects at the same time.
 
 ```cmd
 msbuild.exe myproj.proj -maxcpucount:3
 ```
 
-## BuildInParallel task parameter
+## BuildInParallel MSBuild task parameter
 
-`BuildInParallel` is an optional boolean parameter on an MSBuild task. When `BuildInParallel` is set to `true` (its default value is `true`), multiple worker processes are generated to build as many projects at the same time as possible. For this to work correctly, the `-maxcpucount` switch must be set to a value greater than 1.
+`BuildInParallel` is an optional boolean parameter you can set on your MSBuild task. When you set `BuildInParallel` to `true` (default value), multiple worker processes are generated to build as many projects at the same time as possible. For this parameter to work correctly, set the `-maxcpucount` switch to a value greater than one.
 
-Building in parallel only works for a single invocation of the MSBuild task, so if you invoke task batching, the parallelism is limited to each batch. See [MSBuild batching](msbuild-batching.md).
+When you use MSBuild to building in parallel, it works only for a single invocation of the MSBuild task. Therefore, if you invoke task batching, the parallelism is limited to each batch. For more information, see [MSBuild batching](msbuild-batching.md).
 
-The following example shows how to build a target in a project file with multiple different property values in parallel by using the `BuildInParallel` parameter.
+The following examples show how to build a target in a project file with multiple different property values in parallel by using the `BuildInParallel` parameter.
 
-Here's the project file `do_it.proj` with a target that just prints a different message for each `SourceValue`:
+In this example, the project file `do_it.proj` has a target that prints a different message for each `SourceValue`.
 
 ```xml
 <Project>
@@ -55,7 +60,7 @@ Here's the project file `do_it.proj` with a target that just prints a different 
 </Project>
 ```
 
-The following project builds a specified target `DoIt` in `do_it.proj` in parallel, using the item list and `AdditionalProperties` metadata to specify different values of the property `SourceValue`.
+The following project builds a specified target *DoIt* in a project named *do_it.proj* in parallel, using the item list and `AdditionalProperties` metadata to specify different values of the property `SourceValue`.
 
 ```xml
 <Project>
@@ -75,4 +80,4 @@ The following project builds a specified target `DoIt` in `do_it.proj` in parall
 
 - [Use multiple processors to build projects](../msbuild/using-multiple-processors-to-build-projects.md)
 - [Write multi-processor-aware loggers](../msbuild/writing-multi-processor-aware-loggers.md)
-- [Tuning C++ build parallelism blog](https://devblogs.microsoft.com/visualstudio/tuning-c-build-parallelism-in-vs2010/)
+- [Tune C++ build parallelism blog](https://devblogs.microsoft.com/visualstudio/tuning-c-build-parallelism-in-vs2010/)

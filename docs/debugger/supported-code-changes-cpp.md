@@ -156,4 +156,6 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
  Setting this value at the start of a debug session causes the various components of Edit and Continue to spew verbose logging to the **Output Window** > **Debug** pane.
 
 ## Related content
+
 - [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md)
+- [Configure Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md)
