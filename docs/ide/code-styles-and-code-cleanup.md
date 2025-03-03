@@ -178,8 +178,6 @@ Most of the code cleanup settings map to one or more .NET code styles supported 
 |Apply using statement preferences|[csharp_prefer_simple_using_statement](/dotnet/fundamentals/code-analysis/style-rules/ide0063#csharp_prefer_simple_using_statement)|
 |Apply throw expression preferences|[csharp_style_throw_expression](/dotnet/fundamentals/code-analysis/style-rules/ide0016#csharp_style_throw_expression)|
 
-::: moniker-end
-
 ## Related content
 
 - [Quick Actions](../ide/quick-actions.md)
