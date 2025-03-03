@@ -1,60 +1,61 @@
 ---
 title: Clean a build with MSBuild
 description: Use MSBuild to clean a build, delete all of the intermediate and output files, and leave only the project and component files.
-ms.date: 11/04/2016
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: msbuild
 ms.topic: how-to
+ms.date: 02/27/2025
 helpviewer_keywords:
 - Exec task [MSBuild]
 - MSBuild, cleaning a build
 - directories [.NET Framework], for output items
 - output, removing items
-author: ghogen
-ms.author: ghogen
-manager: mijacobs
-ms.subservice: msbuild
----
-# Clean a build
 
-When you clean a build, all intermediate and output files are deleted, leaving only the project and component files. From the project and component files, new instances of the intermediate and output files can then be built. 
+# Customer intent: As a developer, I want to understand how to clean a build by using MSBuild so that intermediate and output files are deleted.
+---
+
+# Clean a build with MSBuild
+
+When you clean a build by using MSBuild, the build platform deletes all intermediate and output files, leaving only the project and component files. From the project and component files, new instances of the intermediate and output files can then be built.
 
 ## Create a directory for output items
 
- By default, the *.exe* file that is created when you compile a project is placed in the same directory as the project and source files. Typically, however, output items are created in a separate directory.
+By default, the `.exe` file that the build platform creates when you compile a project is placed in the same directory as the project and source files. Typically, however, output items are created in a separate directory.
 
-### To create a directory for output items
+To create a directory for output items:
 
 1. Use the `Property` element to define the location and name of the directory. For example, create a directory named *BuiltApp* in the directory that contains the project and source files:
 
-     `<builtdir>BuiltApp</builtdir>`
+   ```xml
+   <builtdir>BuiltApp</builtdir>
+   ```
 
-2. Use the [MakeDir](../msbuild/makedir-task.md) task to create the directory if the directory does not exist. For example:
+1. If the directory doesn't exist, use the [MakeDir](../msbuild/makedir-task.md) task to create it. For example:
 
-     ```xml
-     <MakeDir Directories = "$(builtdir)"
-      Condition = "!Exists('$(builtdir)')" />
-     ```
+   ```xml
+   <MakeDir Directories = "$(builtdir)"
+   Condition = "!Exists('$(builtdir)')" />
+   ```
 
 ## Remove the output items
 
- Prior to creating new instances of intermediate and output files, you may want to clear all previous instances of intermediate and output files. Use the [RemoveDir](../msbuild/removedir-task.md) task to delete a directory and all files and directories that it contains from a disk.
+Before you create new instances of intermediate and output files, you might want to clear all previous instances of intermediate and output files.
 
-#### To remove a directory and all files contained in the directory
+To remove a directory from a disk, and all files and directories contained in that directory, use the [RemoveDir](../msbuild/removedir-task.md) task. For example:
 
-- Use the `RemoveDir` task to remove the directory. For example:
-
-     `<RemoveDir Directories="$(builtdir)" />`
+```xml
+<RemoveDir Directories="$(builtdir)" />
+```
 
 ## Example
 
- The following code example project contains a new target, `Clean`, that uses the `RemoveDir` task to delete a directory and all files and directories that it contains. Also in this example, the `Compile` target creates a separate directory for the output items that are deleted when the build is cleaned.
+The following code example contains a new target, `Clean`, that uses the `RemoveDir` task to delete a directory and all files and directories that it contains. Then, the `Compile` target creates a separate directory for the output items that are deleted when the build is cleaned.
 
- `Compile` is defined as the default target and is therefore used automatically unless you specify a different target or targets. You use the command line switch **-target** to specify a different target. For example:
+In this example, the default target is defined as `Compile` and is used automatically unless you specify a different target or targets. To specify a different target, you can use the command-line switch `-target` (or `-t`). For example: `msbuild <file name>.proj -target:Clean`.
 
- `msbuild <file name>.proj -target:Clean`
-
- The **-target** switch can be shortened to **-t** and can specify more than one target. For example, to use the target `Clean` then the target `Compile`, type:
-
- `msbuild <file name>.proj -t:Clean;Compile`
+To specify multiple targets, you can use the `-target` switch with multiple targets in a list separated by a semicolon. For example, to use the target `Clean`, and then the target `Compile`, enter: `msbuild <file name>.proj -t:Clean;Compile`.
 
 ```xml
 <Project DefaultTargets = "Compile"
@@ -101,4 +102,4 @@ When you clean a build, all intermediate and output files are deleted, leaving o
 - [MakeDir task](../msbuild/makedir-task.md)
 - [RemoveDir task](../msbuild/removedir-task.md)
 - [Csc task](../msbuild/csc-task.md)
-- [Targets](../msbuild/msbuild-targets.md)
+- [MSBuild targets](../msbuild/msbuild-targets.md)
