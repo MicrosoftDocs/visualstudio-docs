@@ -24,7 +24,7 @@ ms.subservice: debug-diagnostics
 
 This preview feature, available starting with Visual Studio 2022 Version 17.14 Preview 2, applies only to x64 projects.
 
-C++ Dynamic Debugging allows you to debug optimized code as if it were unoptimized. This is helpful for developers who work with optimized code. Game developers, for instance, need high frame rates possible with release builds. C++ Dynamic Debugging allows you to debug with the performance of optimized code, but with the rich debugging experience of unoptimized code.
+C++ Dynamic Debugging enables you to debug optimized code as if it were unoptimized. This feature is particularly useful for developers who require the performance benefits of optimized code, such as game developers who need high frame rates. With C++ Dynamic Debugging, you can enjoy the debugging experience of unoptimized code without sacrificing the performance advantages of optimized builds.
 
 Debugging optimized code presents challenges. The compiler optimizes code by repositioning and reorganizing instructions, resulting in more efficient code. However, this means:
 
@@ -32,13 +32,11 @@ Debugging optimized code presents challenges. The compiler optimizes code by rep
 - Code inside a function may no longer align with source code when the optimizer merges blocks of code.
 - Function names for functions on the call stack might be wrong if the optimizer merges two functions.
 
-In the past, developers dealt with these problems, and others, while debugging optimized code. C++ Dynamic Debugging does away with these challenges by allowing you to step into optimized code as if it were unoptimized.
+In the past, developers dealt with these and other problems when debugging optimized code. C++ Dynamic Debugging does away with these challenges by allowing you to step into optimized code as if it were unoptimized.
 
-In addition to the optimized binaries, compiling with [`/dynamicdeopt`](/cpp/build/reference/dynamic-deopt) generates unoptimized binaries used during debugging. When you add a breakpoint, or step into a function, the debugger loads the unoptimized binary and you debug the function there instead of in the optimized binary. This allows you to debug as if you're debugging unoptimized code while still getting the performance advantages of optimized code.
+In addition to generating the optimized binaries, compiling with [`/dynamicdeopt`](/cpp/build/reference/dynamic-deopt) generates unoptimized binaries used during debugging. When you add a breakpoint, or step into a function, the debugger loads the unoptimized binary and you debug the unoptimized code for the function instead of the optimized code. This allows you to debug as if you're debugging unoptimized code while still getting the performance advantages of optimized code in the rest of the program.
 
 ## Try out C++ Dynamic Debugging
-
-Compile the following code that simulates Conway's Game of Life as a release build.
 
 We'll first refresh on what debugging optimized code is like, and then see how C++ Dynamic Debugging makes debugging optimized code much easier.
 
@@ -144,9 +142,9 @@ int main()
 }
 ```
 
-2. Change the **Solution Configurations** dropdown to `Release`. Make sure the solutions platform dropdown is set to `x64`.
+2. Change the **Solution Configurations** dropdown to `Release`. Ensure the solutions platform dropdown is set to `x64`.
 3. Rebuild by selecting **Build** > **Rebuild Solution**
-4. Set a breakpoint on line 50, `int neighbors = countNeighbors(grid, i, j);` in `updateGrid()`. Run the program.
+4. Set a breakpoint on line 55, `int neighbors = countNeighbors(grid, i, j);` in `updateGrid()`. Run the program.
 5. When you hit the breakpoint, view the **Locals** window by selecting from the main menu: **Debug** > **Windows** > **Locals**. Notice that you can't see the value of `i` or `j` in the **Locals** window. The compiler has optimized them away.
 6. Try to set a breakpoint on line 19, `cout << (grid[i][j] ? '*' : ' ');` in `printGrid()`. You can't. This is expected because the compiler has optimized the code.
 
@@ -165,7 +163,7 @@ Stop the program and enable C++ Dynamic Debugging and try it again:
 
 10. Rerun the app.
 
-    Now when you hit the breakpoint on line 50, you see the values of `i` and `j` in the locals window. The **Call Stack** window shows that `updateGrid()` is deoptimized and the filename is `life.alt.exe`. That's the alternate binary used to debug optimized code:
+    Now when you hit the breakpoint on line 55, you see the values of `i` and `j` in the locals window. The **Call Stack** window shows that `updateGrid()` is deoptimized and the filename is `life.alt.exe`. That's the alternate binary used to debug optimized code:
 
     :::image type="complex" source="media/vs-2022/dbg-deopt-update-grid-callstack.png" alt-text="A screenshot of debugging the updateGrid function.":::
     A breakpoint is shown in the function updateGrid. The call stack shows that the function is deoptimized and the filename is life.alt.exe. The locals window shows the values of i and j, and the other local variables in the function.
@@ -178,14 +176,13 @@ Stop the program and enable C++ Dynamic Debugging and try it again:
     Conditional and dependent breakpoints work too!
 
 11. Try setting a breakpoint again on line 19, `cout << (grid[i][j] ? '*' : ' ');` in `printGrid()`. This works now. That's because setting a breakpoint in the function deoptimizes it so that you can debug it normally.
-12. Right-click the breakpoint on line 19, choose **Conditions...**, and set the condition to `i == 10 && j== 10`.
-13. Select **Only enable when the following breakpoint is hit:** and select the breakpoint on line 50 from the drop-down. Now the breakpoint on line 19 won't hit until the breakpoint on line 50 is first hit, and then when `grid[10][10]` is about to output to the console. The point here is that you can set conditional and dependent breakpoints in an optimized function and make use of local variables and lines of code that in an optimized build may be unavailable to the debugger.
+12. Right-click the breakpoint on line 19, choose **Conditions...**, and set the condition to `i == 10 && j== 10`. Then select **Only enable when the following breakpoint is hit:** and select the breakpoint on line 55 from the drop-down. Now the breakpoint on line 19 won't hit until the breakpoint on line 50 is first hit, and then when `grid[10][10]` is about to output to the console. The point here is that you can set conditional and dependent breakpoints in an optimized function and make use of local variables and lines of code that in an optimized build may be unavailable to the debugger.
 
     :::image type="complex" source="media/vs-2022/dbg-deopt-conditional-breakpoint.png" alt-text="A screenshot of the conditional breakpoint settings for line 19.":::
-    A conditional breakpoint is shown on line 19, cout < < (grid[i][j] ? '*' : ' '); The condition is set to i == 10 && j== 10. The checkbox for Only enable when the following breakpoint is hit is selected. The breakpoint dropdown is set to life.cpp line 50.
+    A conditional breakpoint is shown on line 19, cout < < (grid[i][j] ? '*' : ' '); The condition is set to i == 10 && j== 10. The checkbox for Only enable when the following breakpoint is hit is selected. The breakpoint dropdown is set to life.cpp line 55.
     :::image-end:::
 
-14. Continue running the app. When the breakpoint on line 19 is hit, you can even right click on line 15 and choose **Set Next Statement** to rerun the loop again.
+13. Continue running the app. When the breakpoint on line 19 is hit, you can even right click on line 15 and choose **Set Next Statement** to rerun the loop again.
 
     :::image type="complex" source="media/vs-2022/dbg-deopt-conditional-breakpoint-hit.png" alt-text="A screenshot of debugging the printGrid function.":::
     A conditional and dependent breakpoint is hit on line 19, out < < (grid[i][j] ? '*' : ' '); The Locals window shows the values of i and j, and the other local variables in the function. The Call Stack window shows that the function is deoptimized and the filename is life.alt.exe.
