@@ -43,7 +43,7 @@ To display window properties or messages:
 
 5. Press **OK**.
 
-    If you selected **Properties**, the [Window Properties dialog box](window-properties-dialog-box.md) opens. If you selected **Messages**, a [Messages view](messages-view.md) window opens.
+    If you selected **Properties**, the [Window Properties dialog box](/previous-versions/visualstudio/visual-studio-2017/debugger/window-properties-dialog-box) opens. If you selected **Messages**, a [Messages view](/previous-versions/visualstudio/visual-studio-2017/debugger/messages-view) window opens.
 
 ## Search for a window in Windows view
 
@@ -53,7 +53,7 @@ Start with the tree expanded to the second level (all windows that are children 
 
 To search for a window in Windows view:
 
-1. Arrange your windows so that Spy++, the [Windows view](windows-view.md) window, and the target window are visible.
+1. Arrange your windows so that Spy++, the [Windows view](/previous-versions/visualstudio/visual-studio-2017/debugger/windows-view) window, and the target window are visible.
 
 2. From the **Search** menu, choose **Find Window**.
 
@@ -71,7 +71,7 @@ To search for a window in Windows view:
 
 5. Select **OK**.
 
-    If a matching window is found, it's highlighted in the [Windows view](windows-view.md) window.
+    If a matching window is found, it's highlighted in the [Windows view](/previous-versions/visualstudio/visual-studio-2017/debugger/windows-view) window.
 
 ## Related content
 

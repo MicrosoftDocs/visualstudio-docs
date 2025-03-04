@@ -13,7 +13,7 @@ ms.subservice: debug-diagnostics
 
 # Message codes
 
-Each message line shown in [Messages view](messages-view.md) contains a 'P,' 'S,' 's,' or 'R' code. These codes have the following meanings:
+Each message line shown in [Messages view](/previous-versions/visualstudio/visual-studio-2017/debugger/messages-view) contains a 'P,' 'S,' 's,' or 'R' code. These codes have the following meanings:
 
 |Code|Meaning|
 |----------|-------------|
