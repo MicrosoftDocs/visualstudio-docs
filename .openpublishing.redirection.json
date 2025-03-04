@@ -7197,6 +7197,41 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/thread-properties-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/thread-properties-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/process-properties-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/process-properties-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/message-properties-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/message-properties-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/message-options-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/message-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/window-properties-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/window-properties-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/search-tools-for-spy-increment-views.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/search-tools-for-spy-increment-views",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/menu-commands.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/menu-commands",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/spy-menu-commands.md",
       "redirect_url": "/visualstudio/debugger/menu-commands",
       "redirect_document_id": false
