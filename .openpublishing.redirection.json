@@ -7197,6 +7197,26 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/threads-view.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/threads-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/processes-view.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/processes-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/messages-view.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/messages-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/windows-view.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/windows-view",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/thread-properties-dialog-box.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/thread-properties-dialog-box",
       "redirect_document_id": false

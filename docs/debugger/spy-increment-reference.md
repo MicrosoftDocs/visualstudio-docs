@@ -14,9 +14,21 @@ ms.subservice: debug-diagnostics
 
 # Spy++ reference overview
 
-See the following descriptions for each Spy++ menu and dialog box:
+See the following descriptions for each Spy++ view, menu, and dialog box.
 
-## In this section
+Spy++ reference documentation is no longer actively maintained. The following links open the most recent version of the Spy++ reference documentation.
+
+## Views
+
+ [Windows view](/previous-versions/visualstudio/visual-studio-2017/debugger/windows-view)
+
+ [Messages view](/previous-versions/visualstudio/visual-studio-2017/debugger/messages-view)
+
+ [Processes view](/previous-versions/visualstudio/visual-studio-2017/debugger/processes-view)
+
+ [Threads view](/previous-versions/visualstudio/visual-studio-2017/debugger/threads-view)
+
+## Dialog boxes and menus
 
  [Menu commands](/previous-versions/visualstudio/visual-studio-2017/debugger/menu-commands): Describes the commands available on each Spy++ menu.
 
