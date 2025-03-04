@@ -88,7 +88,7 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
    **Tips**
 
    - Manually trigger a completion using <kbd>Alt</kbd>+<kbd>,</kbd>
-   - Cycle through available completions using `Alt+.` (next) and `Alt+,` (previous)
+   - Cycle through available completions using <kbd>Alt</kbd>+<kbd>.</kbd> (next) and <kbd>Alt</kbd>+<kbd>,</kbd> (previous)
 
 ## Content exclusions
 
