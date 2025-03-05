@@ -75,7 +75,7 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
   
    If the command palette doesn't appear, you might have reached the default limit for its display. To change this, go to **Tools** > **Options** > **IntelliCode** > **Advanced**, and adjust the value for **Minimum commits to suppress hint text**.
 
-1. Add following code to see whole line completions from GitHub Copilot.
+1. Add following code to see completions from GitHub Copilot.
 
    ```csharp
        int a = 5;
@@ -84,6 +84,11 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
    ```
   
     :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-whole-line-completions.gif" alt-text="Animated screenshot that shows using the GitHub Copilot completions in Visual Studio.":::
+
+   **Tips**
+
+   - Manually trigger a completion using <kbd>Alt</kbd>+<kbd>,</kbd>
+   - Cycle through available completions using <kbd>Alt</kbd>+<kbd>.</kbd> (next) and <kbd>Alt</kbd>+<kbd>,</kbd> (previous)
 
 ## Content exclusions
 
