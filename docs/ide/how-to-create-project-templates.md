@@ -21,14 +21,14 @@ This article shows you how to create a template by using the **Export Template W
 1. Create a project.
 
     > [!NOTE]
-    > Use only valid identifier characters when you name a project that's the source for a template. Otherwise, compilation errors can occur in projects that're created from the template. For more information about valid identifier characters, see [Declared element names (Visual Basic)](/dotnet/visual-basic/programming-guide/language-features/declared-elements/declared-element-names) or [Identifiers (C++)](/cpp/cpp/identifiers-cpp). Alternatively, you can use [Template parameters](template-parameters.md) to use "safe" names for classes and namespaces.
+    > Use only valid identifier characters when you name a project that is the source for a template. Otherwise, compilation errors can occur in projects that are created from the template. For more information about valid identifier characters, see [Declared element names (Visual Basic)](/dotnet/visual-basic/programming-guide/language-features/declared-elements/declared-element-names) or [Identifiers (C++)](/cpp/cpp/identifiers-cpp). Alternatively, you can use [Template parameters](template-parameters.md) to use "safe" names for classes and namespaces.
 
-2. Edit the project until it's ready to be exported as a template. For example, you might want to edit code files to indicate where parameter replacement should take place. For more information, see [How to: Substitute parameters in a template](how-to-substitute-parameters-in-a-template.md).
+2. Edit the project until it is ready to be exported as a template. For example, you might want to edit code files to indicate where parameter replacement should take place. For more information, see [How to: Substitute parameters in a template](how-to-substitute-parameters-in-a-template.md).
 
 3. On the **Project** menu, choose **Export Template**.
 
    > [!NOTE]
-   > If you don't see the **Export Template** menu item, you can add it by choosing **Tools** > **Customize**, and then select **Commands**, choose the **Project** menu bar, select the **Add Command** button, and then under **Project**, select **Export Template...**.
+   > If you don not see the **Export Template** menu item, you can add it by choosing **Tools** > **Customize**, and then select **Commands**, choose the **Project** menu bar, select the **Add Command** button, and then under **Project**, select **Export Template...**.
 
    The **Export Template Wizard** opens.
 
@@ -38,7 +38,7 @@ This article shows you how to create a template by using the **Export Template W
 
    The project is exported into a *.zip* file and placed in the specified output location, and, if selected, imported into Visual Studio.
 
-To find your template in the dialog box where you create a new project, search for it by name or scroll through the list. (Filtering based on language or project type isn't currently possible for user templates.)
+To find your template in the dialog box where you create a new project, search for it by name or scroll through the list. (Filtering based on language or project type is not currently possible for user templates.)
 
 ## Other ways to create project templates
 
