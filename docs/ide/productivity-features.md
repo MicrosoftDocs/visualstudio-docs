@@ -28,7 +28,7 @@ Save time digging through menus by quickly searching for anything you need, incl
 
 - **Make Visual Studio more accessible**. Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. See [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) for the full list of available features.
 
-- ::: moniker range="vs-2022"
+::: moniker range="vs-2022"
 - **Version Control** In Visual Studio 2022, you can use Git directly from the IDE to create, review, check out, and run pull requests. To learn more, see [How Visual Studio makes version control easy with Git](../version-control/git-with-visual-studio.md?view=vs-2022&preserve-view=true).
 ::: moniker-end
 ::: zone-end
