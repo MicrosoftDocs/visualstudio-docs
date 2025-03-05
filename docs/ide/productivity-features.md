@@ -28,7 +28,9 @@ Save time digging through menus by quickly searching for anything you need, incl
 
 - **Make Visual Studio more accessible**. Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. See [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) for the full list of available features.
 
-::: moniker range="vs-2022"
+- **Customize the appearance of the IDE**. To change themes and other viusal aspects of the IDE, see [Change fonts, colors, and themes](../ide/how-to-change-fonts-and-colors-in-visual-studio.md).
+
+::: moniker range=">=vs-2022"
 - **Version Control** In Visual Studio 2022, you can use Git directly from the IDE to create, review, check out, and run pull requests. To learn more, see [How Visual Studio makes version control easy with Git](../version-control/git-with-visual-studio.md?view=vs-2022&preserve-view=true).
 ::: moniker-end
 ::: zone-end
@@ -105,7 +107,7 @@ You can use various techniques to find and move to specific locations in your co
 
 - **Move the [Properties window](../ide/reference/properties-window.md) to the right-hand side**. If you're looking for a more familiar window layout, you can move the Properties window in Visual Studio by pressing **F4**.
 
-## Find items faster
+## Find commands, files, and options faster
 
 You can search across the IDE for commands, files, and options, in addition to filtering the contents of tool windows to show only relevant information for your current task.
 
