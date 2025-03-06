@@ -152,7 +152,7 @@ A project can reference another project that targets a different framework versi
 
 ## Shared Projects tab
 
-Add a reference to a shared project on the **Shared Projects** tab of the Reference Manager dialog box. [Shared Projects](/xamarin/cross-platform/app-fundamentals/shared-projects?tabs=windows) let you write common code that's referenced by many different application projects.
+Add a reference to a shared project on the **Shared Projects** tab of the Reference Manager dialog box. Shared Projects let you write common code that's referenced by many different application projects.
 
 ## Universal Windows tab
 

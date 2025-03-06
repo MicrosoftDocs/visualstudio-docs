@@ -20,7 +20,6 @@ With Visual Studio, you can connect any of the following to Azure Storage by usi
 - .NET Core Worker Role
 - Azure Functions
 - Universal Windows Platform App
-- Xamarin
 - Cordova
 
 The connected service functionality adds all the needed references and connection code to your project, and modifies your configuration files appropriately.

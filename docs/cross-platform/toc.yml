@@ -1,9 +1,6 @@
 items:
 - name: Cross-Platform Mobile Development in Visual Studio
   href: cross-platform-mobile-development-in-visual-studio.md
-- name: Visual Studio Tools for Xamarin
-  displayName: .NET Mobile Developer Tools (Android & iOS)
-  href: /xamarin/
 - name: Visual Studio Tools for Unity
   items:
   - name: Visual Studio Tools for Unity

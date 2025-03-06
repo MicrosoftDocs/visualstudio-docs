@@ -211,3 +211,4 @@ Try closing and reopening the XAML file, and cleaning and rebuilding your projec
 - [XAML in WPF apps](/dotnet/framework/wpf/advanced/xaml-in-wpf)
 - [XAML in UWP apps](/windows/uwp/xaml-platform/xaml-overview)
 - [XAML in Xamarin.Forms apps](/xamarin/xamarin-forms/xaml/)
+- [XAML in .NET MAUI apps](/dotnet/maui/xaml)
