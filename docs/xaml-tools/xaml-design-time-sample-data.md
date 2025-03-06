@@ -99,3 +99,4 @@ If you experience a problem that isn't listed in this section or that can't be f
 - [XAML in WPF apps](/dotnet/framework/wpf/advanced/xaml-in-wpf)
 - [XAML in UWP apps](/windows/uwp/xaml-platform/xaml-overview)
 - [XAML in Xamarin.Forms apps](/xamarin/xamarin-forms/xaml/)
+- [XAML in .NET MAUI apps](/dotnet/maui/xaml/)
