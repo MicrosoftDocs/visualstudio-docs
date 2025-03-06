@@ -24,7 +24,7 @@ ms.subservice: debug-diagnostics
 
 This preview feature, available starting with Visual Studio 2022 Version 17.14 Preview 2, applies only to x64 projects.
 
-C++ Dynamic Debugging enables you to debug optimized code as if it were unoptimized. This feature is particularly useful for developers who require the performance benefits of optimized code, such as game developers who need high frame rates. With C++ Dynamic Debugging, you can enjoy the debugging experience of unoptimized code without sacrificing the performance advantages of optimized builds.
+C++ Dynamic Debugging enables you to debug optimized code as if it were unoptimized. This feature is useful for developers who require the performance benefits of optimized code, such as game developers who need high frame rates. With C++ Dynamic Debugging, you can enjoy the debugging experience of unoptimized code without sacrificing the performance advantages of optimized builds.
 
 Debugging optimized code presents challenges. The compiler optimizes code by repositioning and reorganizing instructions, resulting in more efficient code. However, this means:
 
@@ -159,11 +159,7 @@ Stop the program and enable C++ Dynamic Debugging and try it again:
 
     This has the effect of adding the `/dynamicdeopt` switch to the compiler and to the linker. It also turns off the C++ optimization switche `/OPT:ICF`. This setting doesn't overwrite switches you've added manually to the command line or other optimization switches that are set such as `/O1`.
 
-9. Rebuild with **Build** > **Rebuild Solution**. Build diagnostic code [`MSB8088`](../msbuild/errors/msb8088.md) appears indicating that dynamic debugging and whole program optimization are incompatible. This means that whole program optimization (`/GL`) was automatically turned off during compilation. You can manually turn whole program optimization off in the project properties by setting **Configuration Properties** > **Advanced** > **Whole Program Optimization** to **Off**. `MSB8088` is treated as a warning, but may be treated as as an error in a future version of Visual Studio.
-
-    :::image type="complex" source="media/vs-2022/build-msb8088.png" alt-text="A screenshot of the build output showing the MSB8088 warning.":::
-    The build output shows the MSB8088 warning.
-    :::image-end:::
+9. Rebuild with **Build** > **Rebuild Solution**. Build diagnostic code [`MSB8088`](../msbuild/errors/msb8088.md) appears indicating that dynamic debugging and whole program optimization are incompatible. This means that whole program optimization (`/GL`) was automatically turned off during compilation. You can manually turn off whole program optimization in the project properties by setting **Configuration Properties** > **Advanced** > **Whole Program Optimization** to **Off**. `MSB8088` is treated as a warning, but may be treated as an error in a future version of Visual Studio.
 
 10. Rerun the app.
 
@@ -180,7 +176,7 @@ Stop the program and enable C++ Dynamic Debugging and try it again:
     Conditional and dependent breakpoints work too!
 
 11. Try setting a breakpoint again on line 19, `cout << (grid[i][j] ? '*' : ' ');` in `printGrid()`. This works now. That's because setting a breakpoint in the function deoptimizes it so that you can debug it normally.
-12. Right-click the breakpoint on line 19, choose **Conditions...**, and set the condition to `i == 10 && j== 10`. Then select **Only enable when the following breakpoint is hit:** and select the breakpoint on line 55 from the drop-down. Now the breakpoint on line 19 won't hit until the breakpoint on line 50 is first hit, and then when `grid[10][10]` is about to output to the console. The point here is that you can set conditional and dependent breakpoints in an optimized function and make use of local variables and lines of code that in an optimized build may be unavailable to the debugger.
+12. Right-click the breakpoint on line 19, choose **Conditions...**, and set the condition to `i == 10 && j== 10`. Then select **Only enable when the following breakpoint is hit:** and select the breakpoint on line 55 from the drop-down. Now the breakpoint on line 19 doesn't hit until the breakpoint on line 50 is first hit, and then when `grid[10][10]` is about to output to the console. The point is that you can set conditional and dependent breakpoints in an optimized function and make use of local variables and lines of code that in an optimized build may be unavailable to the debugger.
 
     :::image type="complex" source="media/vs-2022/dbg-deopt-conditional-breakpoint.png" alt-text="A screenshot of the conditional breakpoint settings for line 19.":::
     A conditional breakpoint is shown on line 19, cout < < (grid[i][j] ? '*' : ' '); The condition is set to i == 10 && j== 10. The checkbox for Only enable when the following breakpoint is hit is selected. The breakpoint dropdown is set to life.cpp line 55.
@@ -192,7 +188,7 @@ Stop the program and enable C++ Dynamic Debugging and try it again:
     A conditional and dependent breakpoint is hit on line 19, out < < (grid[i][j] ? '*' : ' '); The Locals window shows the values of i and j, and the other local variables in the function. The Call Stack window shows that the function is deoptimized and the filename is life.alt.exe.
     :::image-end:::
 
-14. Delete all the breakpoints to return deoptimized functions to their optimized state. From the Visual Studio main menu, choose **Debug** > **Delete All Breakpoints**. All functions return to their optimized state. If you had added breakpoints via the **Call Stack** window **Deoptimize on next entry** option, which we didn't do in this walkthrough, you could right-click the **Deoptimized Functions** group and select **Delete** to revert only the functions in that group back to their optimized state:
+14. Delete all the breakpoints to return deoptimized functions to their optimized state. From the Visual Studio main menu, choose **Debug** > **Delete All Breakpoints**. All functions return to their optimized state. If you add breakpoints via the **Call Stack** window **Deoptimize on next entry** option, which we didn't do in this walkthrough, you could right-click the **Deoptimized Functions** group and select **Delete** to revert only the functions in that group back to their optimized state:
 
     :::image type="complex" source="media/vs-2022/dbg-deopt-delete-breakpoints.png" alt-text="A screenshot of the Breakpoints window.":::
     The Breakpoints window shows the Deoptimized Functions group. The group is selected and the context menu is open with Delete Breakpoint Group selected.
@@ -204,7 +200,7 @@ Functions that are inlined are deoptimized on demand. If you set a breakpoint on
 
 A function remains deoptimized even if you disable the breakpoints within it. You must remove the breakpoint for the function to revert to its optimized state.
 
-The compiler flags used for the deoptimized version are the same as the flags used for the optimized version--except for optimization flags and `/dynamicdeopt`. This means any flags you set to define macros, and so on, are set in the deoptimized version as well. However, deoptimized code is not the same as debug code. The deoptimized code is compiled with the same optimization flags as the optimized version, so asserts and other code that rely on debug-specific settings will not be included.
+The compiler flags used for the deoptimized version are the same as the flags used for the optimized version--except for optimization flags and `/dynamicdeopt`. This means any flags you set to define macros, and so on, are set in the deoptimized version as well. However, deoptimized code isn't the same as debug code. The deoptimized code is compiled with the same optimization flags as the optimized version, so asserts and other code that rely on debug-specific settings aren't included.
 
 ## Incompatible options
 
