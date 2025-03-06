@@ -25,10 +25,6 @@ You can switch back and forth between Visual Studio and Blend for Visual Studio,
 
      ![Screenshot of the Universal Windows Platform Development workload from the Visual Studio Installer](../xaml-tools/media/uwp-workload.png)
 
-- To create Xamarin.Forms apps, install the **Mobile development with .NET** workload in Visual Studio. Blend for Visual Studio is *not* installed; Blend doesn't support Xamarin.Forms apps.
-
-     ![Screenshot of the Mobile Development with .NET workload from the Visual Studio Installer](../xaml-tools/media/mobile-dev-dotnet-workload.png)
-
 ## Shared capabilities
 
 For most fundamental development tasks, Visual Studio and Blend for Visual Studio share the same set of windows and capabilities, with some subtle differences. Some highlights include:

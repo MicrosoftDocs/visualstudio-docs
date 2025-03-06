@@ -99,7 +99,7 @@ If you are unsure what version of Dotfuscator you are running, you can determine
 
   This screen lists Dotfuscator's version.
 
-* If you have Dotfuscator integrated into your build with the [command-line interface][cli] (such as with [Xamarin][xamarin] apps), you can also check your build logs for a line like the following example:
+* If you have Dotfuscator integrated into your build with the [command-line interface][cli], you can also check your build logs for a line like the following example:
 
   ```no-highlight
   Dotfuscator Community Version 5.42.0.9514-e0e25f754
@@ -145,7 +145,7 @@ If you had previously [registered][register] Dotfuscator Community 5, that regis
 
 #### Update paths to the CLI
 
-If you previously used Dotfuscator 5's [command-line interface][cli] (CLI) to protect your app, you need to update the path to the CLI in any projects and build scripts that reference it. It includes projects that use Dotfuscator Community's [Xamarin][xamarin] integration.
+If you previously used Dotfuscator 5's [command-line interface][cli] (CLI) to protect your app, you need to update the path to the CLI in any projects and build scripts that reference it.
 
 The reason a path to Dotfuscator's CLI may now be invalid is because the names of some of the executables installed with Dotfuscator Community have changed in Dotfuscator 6. This change makes these executable names the same across Dotfuscator Community and Dotfuscator Professional.
 
@@ -164,8 +164,6 @@ If your build is using an invalid Dotfuscator CLI path, you may get errors such 
 
 `The command ""[...]\PreEmptiveSolutions\DotfuscatorCE\dotfuscatorCLI.exe" Dotfuscator.xml" exited with code 9009.`
 
-`When the DotfuscatorXamarinEnabled property is 'true', the Dotfuscator command line interface specified by DotfuscatorXamarinCliPath ('[...]\DotfuscatorCE\dotfuscatorCLI.exe') must exist.`
-
 To update your build to use the correct CLI path:
 
 1. Start the Dotfuscator Community [GUI][gui] by going to Visual Studio's **Tools** menu and selecting **PreEmptive Protection - Dotfuscator Community**.
@@ -179,13 +177,8 @@ To update your build to use the correct CLI path:
 
     * For Visual Studio projects, open the project file (`.csproj`, `.vbproj`, or `.fsproj`) as plain text. [Open a project file](../solutions-and-projects-in-visual-studio.md#project-file) in Visual Studio.
 
-    * If you previously used Dotfuscator Community's [Xamarin][xamarin] integration to protect a Xamarin app, recall that Dotfuscator is integrated into each individual app project (such as `MyProject.Android.csproj` and `MyProject.iOS.csproj`) separately and not into shared library projects.
-     Update all of the app projects that are currently using Dotfuscator.
-
 5. Locate any places within your project or build configuration where an old path to Dotfuscator Community 5's CLI is used.
    It typically is a path ending in `dotfuscatorCLI.exe`.
-
-    * When updating a project using Dotfuscator Community's [Xamarin][xamarin] integration, the old path is located between the `<DotfuscatorXamarinCliPath>` and `</DotfuscatorXamarinCliPath>` tags.
 
 6. Replace the old paths located in step 5 with the new path you noted in step 3.
 
@@ -236,27 +229,6 @@ To upgrade a config file:
 
 5. If you are using a source control system, such as Git, then ensure the changes to the Dotfuscator config file are reflected in that system.
    Distribute these changes to the rest of your team as may be appropriate for your system and organization.
-
-#### Update Xamarin Integration
-
-If you integrated Dotfuscator Community 5 into your [Xamarin][xamarin] project, [one of the steps][xamarin-download] required you to download custom MSBuild targets and tasks, such as `PreEmptive.Dotfuscator.Xamarin.targets`. These targets and tasks have been updated in Dotfuscator Community 6, so you need to replace the old versions with the new versions.
-
-To update your Xamarin integration files:
-
-1. Locate the directory where you initially downloaded these files.
-   The example given in [the instructions][xamarin-download] uses a subdirectory named `PreEmptive.Dotfuscator.Xamarin`, but you may have downloaded the files into a different directory, which may or may not also have files unrelated to Dotfuscator.
-
-2. In the directory located in step 1, delete the files related to the Dotfuscator Xamarin integration.
-
-3. Download the ZIP file linked at the current version of the following User Guide section: [Download the custom set of MSBuild Targets and Tasks for Dotfuscator][xamarin-download].
-
-4. Extract the contents of the ZIP file to the same directory as noted in step 1.
-
-5. If you are using a source control system, such as Git, then ensure the removal of the old files and addition of the new files are reflected in that system.
-   Depending on the kind of system, these changes may appear as files changing contents, rather than being replaced.
-   Distribute these changes to the rest of your team as may be appropriate for your system and organization.
-
-Other subsections on this page also apply to Xamarin projects, so be sure to review the rest of this page's instructions.
 
 ### Update references to attribute libraries
 
@@ -335,14 +307,13 @@ The following application types are no longer supported in Dotfuscator 6:
 * WinRT (Windows 8 apps)
 * Silverlight
 * Unity (game engine)
-
-Additionally, Universal Windows Platform (UWP) apps are only supported for [Xamarin][xamarin] scenarios.
+* Universal Windows Platform (UWP)
 
 To protect other kinds of UWP apps, [upgrade to Dotfuscator Professional][pro] and follow the [Protect Your App][pro-pya] instructions.
 
 #### Unsupported inputs
 
-Dotfuscator Community no longer supports Universal Windows Platform (UWP) `.appx` packages as [inputs][inputs]. You can continue to protect Xamarin apps targeting UWP with the [Xamarin][xamarin] integration. To protect other kinds of UWP apps, [upgrade to Dotfuscator Professional][pro] and follow the [Protect Your App][pro-pya] instructions.
+Dotfuscator Community no longer supports Universal Windows Platform (UWP) `.appx` packages as [inputs][inputs]. To protect UWP apps, [upgrade to Dotfuscator Professional][pro] and follow the [Protect Your App][pro-pya] instructions.
 
 Additionally, `.xap` packages can no longer be used as inputs because Silverlight is no longer supported.
 
@@ -370,8 +341,6 @@ See [the full Dotfuscator Community User Guide at preemptive.com][full] for deta
 
 [gui]:  https://www.preemptive.com/dotfuscator/ce/docs/help/getting_started_gui.html
 [cli]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_cli.html
-[xamarin]: https://www.preemptive.com/dotfuscator/ce/docs/help/getting_started_xamarin.html
-[xamarin-download]: https://www.preemptive.com/dotfuscator/ce/docs/help/getting_started_xamarin.html#pctoc-download-the-custom-set-of-msbuild-targets-and-tasks-for-dotfuscator
 
 [inputs]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_inputs.html
 

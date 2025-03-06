@@ -15,6 +15,7 @@ Extensible Application Markup Language (XAML) is a declarative language that's b
 - [Windows Presentation Foundation (WPF) apps](/dotnet/framework/wpf/advanced/xaml-in-wpf)
 - [Universal Windows Platform (UWP) apps](/windows/uwp/xaml-platform/xaml-overview)
 - [Xamarin.Forms apps](/xamarin/xamarin-forms/xaml/)
+- [.NET MAUI apps](/dotnet/maui/xaml)
 
 The following XAML code defines a simple button control.
 
@@ -26,7 +27,7 @@ XAML is also used to define workflows in [Windows WorkFlow Foundation (WF) apps]
 
 ## XAML code editor
 
-The [XAML code editor](xaml-code-editor.md) in the Visual Studio IDE includes all the tools you need to create WPF and UWP apps for the Windows platform, and for Xamarin.Forms. And although the IDE (integrated development environment) in Visual Studio has many features that you can use to develop apps for other platforms, it also has some features that are unique to XAML, too.
+The [XAML code editor](xaml-code-editor.md) in the Visual Studio IDE includes all the tools you need to create WPF and UWP apps for the Windows platform, and for Xamarin.Forms and .NET MAUI. And although the IDE (integrated development environment) in Visual Studio has many features that you can use to develop apps for other platforms, it also has some features that are unique to XAML, too.
 
 ## XAML Designer
 
@@ -45,3 +46,4 @@ For the latest information, refer the following resources:
 - [XAML in WPF apps](/dotnet/framework/wpf/advanced/xaml-in-wpf)
 - [XAML in UWP apps](/windows/uwp/xaml-platform/xaml-overview)
 - [XAML in Xamarin.Forms apps](/xamarin/xamarin-forms/xaml/)
+- [XAML in .NET MAUI apps](/dotnet/maui/xaml/)
