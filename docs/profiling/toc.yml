@@ -86,6 +86,8 @@
           href: perf-insights-excessive-induced-gcs.md
         - name: High LOH fragmentation
           href: perf-insights-high-loh-fragmentation.md
+        - name: Zero-length array allocations
+          href: perf-insights-zero-length-array-allocations.md
     - name: Analyze memory usage on release builds
       href: memory-usage-without-debugging2.md
     - name: Custom native ETW heap events
