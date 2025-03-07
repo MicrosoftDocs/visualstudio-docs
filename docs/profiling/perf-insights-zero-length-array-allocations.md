@@ -23,7 +23,7 @@ When a zero-length array is allocated, it results in a memory allocation that's 
 
 ## How to investigate a warning
 
-Click the **Investigate** link to go to the [Allocation](../profiling/dotnet-alloc-tool.md#allocation) view showing the allocated zero length array. Double clicking on the allocation will show you the code paths where the allocations are occurring. Consider reducing these allocations using the statically-allocated empty array instance provided by `Array.Empty<T>()`.
+Click the **Investigate** link to go to the [Allocation](../profiling/dotnet-alloc-tool.md#allocation) view showing the allocated zero length array. Double clicking on the allocation shows you the code paths where the allocations are occurring. Consider reducing these allocations using the statically-allocated empty array instance provided by `Array.Empty<T>()`.
 
 Here is an example of an empty array allocation and its resolution:
 
@@ -53,7 +53,7 @@ class Example
 
 ## Additional resources
 
-For more information on avoiding zero-length array allocations and other performance best practices, refer to the following resources:
+For more information on avoiding zero-length array allocations and other performance best practices, see the following resource:
 
 [CA1825: Avoid zero-length array allocations (code analysis)](/dotnet/fundamentals/code-analysis/quality-rules/ca1825)
  
