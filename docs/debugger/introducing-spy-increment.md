@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 Spy++ (SPYXX.EXE) is a Win32-based utility that gives you a graphical view of the system's processes, threads, windows, and window messages. Spy++ lets you perform the following tasks:
 
-- Display a graphical tree of relationships among system objects. These include the [Processes view](/previous-versions/visualstudio/visual-studio-2017/debugger/processes-view), [Threads view](/previous-versions/visualstudio/visual-studio-2017/debugger/threads-view), and [Windows view](/previous-versions/visualstudio/visual-studio-2017/debugger/windows-view).
+- Display a graphical tree of relationships among system objects. These include the [Processes view](/previous-versions/visualstudio/visual-studio-2017/debugger/processes-view), [Threads view](/previous-versions/visualstudio/visual-studio-2017/debugger/threads-view), and [Windows view](../debugger/how-to-use-windows-view.md).
 
 - Search for specified [windows](how-to-use-windows-view.md#search-for-a-window-in-windows-view), [threads](search-tools-for-spy-increment-views.md#thread-search), [processes](how-to-search-for-a-process-in-processes-view.md), or [messages](how-to-use-messages-view.md#search-for-a-message-in-messages-view).
 

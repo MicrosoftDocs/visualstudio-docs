@@ -21,7 +21,7 @@ To install required components for Spy++, see [Start Spy++](../debugger/how-to-s
 
 ## Display Spy++ views
 
-When Spy++ starts, it opens in [Windows view](/previous-versions/visualstudio/visual-studio-2017/debugger/windows-view), a tree view of all windows and controls available on your machine. This root window is captioned **Windows 1**. There are also three other Spy++ views available: [Messages view](/previous-versions/visualstudio/visual-studio-2017/debugger/messages-view), [Processes view](/previous-versions/visualstudio/visual-studio-2017/debugger/processes-view), and [Threads view](/previous-versions/visualstudio/visual-studio-2017/debugger/threads-view). You can display the desired view from the **Spy** menu.
+When Spy++ starts, it opens in [Windows view](../debugger/how-to-use-windows-view.md), a tree view of all windows and controls available on your machine. This root window is captioned **Windows 1**. There are also three other Spy++ views available: [Messages view](../debugger/how-to-use-messages-view.md), [Processes view](/previous-versions/visualstudio/visual-studio-2017/debugger/processes-view), and [Threads view](/previous-versions/visualstudio/visual-studio-2017/debugger/threads-view). You can display the desired view from the **Spy** menu.
 
 ## Refresh the view
 
