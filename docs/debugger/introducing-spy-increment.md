@@ -15,11 +15,11 @@ ms.subservice: debug-diagnostics
 
 Spy++ (SPYXX.EXE) is a Win32-based utility that gives you a graphical view of the system's processes, threads, windows, and window messages. Spy++ lets you perform the following tasks:
 
-- Display a graphical tree of relationships among system objects. These include the [Processes view](/previous-versions/visualstudio/visual-studio-2017/debugger/processes-view), [Threads view](/previous-versions/visualstudio/visual-studio-2017/debugger/threads-view), and [Windows view](../debugger/how-to-use-windows-view.md).
+- Display a graphical tree of relationships among system objects. These include the [Processes view](../debugger/using-spy-increment.md#processes-view), [Threads view](../debugger/using-spy-increment.md#threads-view), and [Windows view](../debugger/how-to-use-windows-view.md).
 
 - Search for specified [windows](how-to-use-windows-view.md#search-for-a-window-in-windows-view), [threads](search-tools-for-spy-increment-views.md#thread-search), [processes](how-to-search-for-a-process-in-processes-view.md), or [messages](how-to-use-messages-view.md#search-for-a-message-in-messages-view).
 
-- View the properties of selected [windows](/previous-versions/visualstudio/visual-studio-2017/debugger/window-properties-dialog-box), [threads](/previous-versions/visualstudio/visual-studio-2017/debugger/thread-properties-dialog-box), [processes](/previous-versions/visualstudio/visual-studio-2017/debugger/process-properties-dialog-box), or [messages](/previous-versions/visualstudio/visual-studio-2017/debugger/message-properties-dialog-box).
+- View the properties of selected windows, threads, processes, or messages.
 
 - Select a window, thread, process, or message directly in the view.
 

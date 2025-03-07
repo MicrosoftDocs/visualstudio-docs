@@ -19,9 +19,37 @@ You can use Spy++ to perform the following tasks.
 
 To install required components for Spy++, see [Start Spy++](../debugger/how-to-start-spy-increment.md).
 
-## Display Spy++ views
+## Spy++ views
 
-When Spy++ starts, it opens in [Windows view](../debugger/how-to-use-windows-view.md), a tree view of all windows and controls available on your machine. This root window is captioned **Windows 1**. There are also three other Spy++ views available: [Messages view](../debugger/how-to-use-messages-view.md), [Processes view](/previous-versions/visualstudio/visual-studio-2017/debugger/processes-view), and [Threads view](/previous-versions/visualstudio/visual-studio-2017/debugger/threads-view). You can display the desired view from the **Spy** menu.
+When Spy++ starts, it opens in [Windows view](../debugger/how-to-use-windows-view.md), a tree view of all windows and controls available on your machine. This root window is captioned **Windows 1**. There are also three other Spy++ views available:
+
+- Messages view
+- Processes view
+- Threads view
+
+You can display the desired view from the **Spy** menu.
+
+### Messages view
+
+You can choose the windows and message types shown in a Messages view window.
+
+For more information on using Messages view, see [Using Messages view](../debugger/how-to-use-messages-view.md)
+
+### Processes view
+
+The Processes view displays a tree of all active processes on your system. The process ID and module name are shown. Use the Processes view if you want to examine a particular system process, which usually corresponds to an executing program. Processes are identified by module names, or they're designated *system processes*.
+
+Microsoft Windows supports multiple processes. Each process can have one or more threads, and each thread can have one or more associated top-level windows. Each top-level window can own a series of windows. A **+** symbol indicates that a level is collapsed. The collapsed view consists of one line per process. Select the **+** symbol to expand the level.
+
+Use the Processes view if you want to examine a particular system process, which usually corresponds to an executing program. Processes are identified by module names, or they're designated *system processes*. To find a process, collapse the tree and search the list.
+
+For information on searching for a process, see [Search for a process in Processes view](../debugger/how-to-search-for-a-process-in-processes-view.md).
+
+### Threads view
+
+The Threads view is a flat listing of all threads associated with windows on your system. The Thread ID and module name for each thread are shown. Processes aren't included, but you can easily find the process that owns a selected thread.
+
+For information on searching for a thread, see [Search for a thread in Threads view](../debugger/how-to-search-for-a-thread-in-threads-view.md).
 
 ## Refresh the view
 
