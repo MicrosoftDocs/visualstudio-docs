@@ -17,7 +17,7 @@ You can search for a specific thread in Threads view by using its thread ID or m
 
 ### To search for a thread in Threads view
 
-1. Arrange your windows so that Spy++ and an active [Threads view](threads-view.md) window are visible.
+1. Arrange your windows so that Spy++ and an active [Threads view](/previous-versions/visualstudio/visual-studio-2017/debugger/threads-view) window are visible.
 
 2. From the **Search** menu, choose **Find Thread**.
 

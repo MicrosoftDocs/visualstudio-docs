@@ -1,7 +1,7 @@
 ---
 title: "Spy++ reference overview"
 description: Review a list of reference links to articles that describe each menu command and dialog box in the Spy++ debugging tool.
-ms.date: 02/05/2024
+ms.date: 03/04/2025
 ms.topic: "ui-reference"
 helpviewer_keywords:
   - "reference, Spy++"
@@ -14,23 +14,35 @@ ms.subservice: debug-diagnostics
 
 # Spy++ reference overview
 
-See the following descriptions for each Spy++ menu and dialog box:
+See the following descriptions for each Spy++ view, menu, and dialog box.
 
-## In this section
+Spy++ reference documentation is no longer actively maintained. The following links open the most recent version of the Spy++ reference documentation.
 
- [Menu commands](menu-commands.md): Describes the commands available on each Spy++ menu.
+## Views
 
- [Search tools for Spy++ views](search-tools-for-spy-increment-views.md): Dialog boxes used to find a specific node in a Spy++ Views window.
+ [Windows view](/previous-versions/visualstudio/visual-studio-2017/debugger/windows-view)
 
- [Window Properties dialog box](window-properties-dialog-box.md): Used to display the properties of a window selected in Windows View.
+ [Messages view](/previous-versions/visualstudio/visual-studio-2017/debugger/messages-view)
 
- [Message Options dialog box](message-options-dialog-box.md): Used to select which messages are listed in Messages View.
+ [Processes view](/previous-versions/visualstudio/visual-studio-2017/debugger/processes-view)
 
- [Message Properties dialog box](message-properties-dialog-box.md): Used to display the properties of a message selected in Messages View.
+ [Threads view](/previous-versions/visualstudio/visual-studio-2017/debugger/threads-view)
 
- [Process Properties dialog box](process-properties-dialog-box.md): Used to display the properties of a process selected in Processes View.
+## Dialog boxes and menus
 
- [Thread Properties dialog box](thread-properties-dialog-box.md): Used to display the properties of a thread selected in Threads View.
+ [Menu commands](/previous-versions/visualstudio/visual-studio-2017/debugger/menu-commands): Describes the commands available on each Spy++ menu.
+
+ [Search tools for Spy++ views](/previous-versions/visualstudio/visual-studio-2017/debugger/search-tools-for-spy-increment-views): Dialog boxes used to find a specific node in a Spy++ Views window.
+
+ [Window Properties dialog box](/previous-versions/visualstudio/visual-studio-2017/debugger/window-properties-dialog-box): Used to display the properties of a window selected in Windows View.
+
+ [Message Options dialog box](/previous-versions/visualstudio/visual-studio-2017/debugger/message-options-dialog-box): Used to select which messages are listed in Messages View.
+
+ [Message Properties dialog box](/previous-versions/visualstudio/visual-studio-2017/debugger/message-properties-dialog-box): Used to display the properties of a message selected in Messages View.
+
+ [Process Properties dialog box](/previous-versions/visualstudio/visual-studio-2017/debugger/process-properties-dialog-box): Used to display the properties of a process selected in Processes View.
+
+ [Thread Properties dialog box](/previous-versions/visualstudio/visual-studio-2017/debugger/thread-properties-dialog-box): Used to display the properties of a thread selected in Threads View.
 
 ## About Microsoft Spy++
 
