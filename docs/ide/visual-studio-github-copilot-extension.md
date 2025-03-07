@@ -1,7 +1,7 @@
 ---
 title: About GitHub Copilot Completions in Visual Studio
 description: Use GitHub Copilot completions in Visual Studio to use AI assistance to generate information about your code, including suggested edits and new code snippets.
-ms.date: 12/18/2024
+ms.date: 2/11/2025
 ms.topic: overview
 author: anandmeg
 ms.author: meghaanand
@@ -75,7 +75,7 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
   
    If the command palette doesn't appear, you might have reached the default limit for its display. To change this, go to **Tools** > **Options** > **IntelliCode** > **Advanced**, and adjust the value for **Minimum commits to suppress hint text**.
 
-1. Add following code to see whole line completions from GitHub Copilot.
+1. Add following code to see completions from GitHub Copilot.
 
    ```csharp
        int a = 5;
@@ -85,8 +85,26 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
   
     :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-whole-line-completions.gif" alt-text="Animated screenshot that shows using the GitHub Copilot completions in Visual Studio.":::
 
->[!NOTE]
->With Visual Studio 2022 version 17.11, [content exclusion is available for GitHub Copilot Completions](visual-studio-github-copilot-admin.md#github-copilot-completions-in-visual-studio-and-content-exclusions) in Visual Studio. Completions and suggestions won't be available on content excluded by your admin. See [configuring content exclusions for GitHub Copilot](https://docs.github.com/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot?tool=visualstudio) to learn more.
+   **Tips**
+
+   - Manually trigger a completion using <kbd>Alt</kbd>+<kbd>,</kbd>
+   - Cycle through available completions using <kbd>Alt</kbd>+<kbd>.</kbd> (next) and <kbd>Alt</kbd>+<kbd>,</kbd> (previous)
+
+## Content exclusions
+
+With Visual Studio 2022 version 17.11, [content exclusion is available for GitHub Copilot Completions](visual-studio-github-copilot-admin.md#github-copilot-completions-in-visual-studio-and-content-exclusions) in Visual Studio. Completions and suggestions won't be available on content excluded by your admin. See [configuring content exclusions for GitHub Copilot](https://docs.github.com/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot?tool=visualstudio) to learn more.
+
+## Code referencing
+
+With Visual Studio 2022 version 17.13, code referencing is available for GitHub Copilot Completions in Visual Studio. If you or your organization have [enabled suggestions that match public code](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-policies-as-an-individual-subscriber#enabling-or-disabling-suggestions-matching-public-code), Copilot will notify you when you accept a completion that matches code from a public GitHub repository. 
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-completions-code-referencing.png" alt-text="Screenshot that shows using the GitHub Copilot completions code referencing in Visual Studio." lightbox="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-completions-code-referencing.png"::::::
+
+Select **View code matches** to see detailed information in GitHub Copilot logs in the **Output** window. The log entry includes a link to a GitHub.com page where you can view details on license type  and references to similar code in public GitHub repositories. 
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/code-referencing-copilot-logs.png" alt-text="Screenshot that shows the code reference log entry in Output Window." lightbox="media/vs-2022/visual-studio-github-copilot-extension/code-referencing-copilot-logs.png":::
+
+Code referencing enables you to make an informed decision on using code attribution or removing the code from your project.
 
 ## Exploring GitHub Copilot
 

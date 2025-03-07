@@ -146,7 +146,9 @@ items:
         href: fix-intermittent-build-failures.md
     - name: Multitargeting
       items:
-      - name: MSBuild multitargeting overview
+      - name: .NET SDK multitargeting
+        href: net-sdk-multitargeting.md
+      - name: .NET Framework multitargeting
         href: msbuild-multitargeting-overview.md
       - name: Toolset (ToolsVersion)
         items:
@@ -166,6 +168,8 @@ items:
           href: configure-tasks.md
         - name: Configure targets and tasks
           href: how-to-configure-targets-and-tasks.md
+      - name: Run a target exactly once
+        href: run-target-exactly-once.md
       - name: Troubleshoot .NET Framework targeting errors
         href: /troubleshoot/developer/visualstudio/project-build/troubleshooting-dotnet-framework-targeting-errors?toc=%2Fvisualstudio%2Fmsbuild%2Ftoc.json
     - name: Customization

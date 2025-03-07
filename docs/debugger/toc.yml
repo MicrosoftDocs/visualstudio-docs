@@ -232,8 +232,6 @@
           href: supported-code-changes-csharp.md
       - name: Edit and Continue (Visual Basic)
         href: edit-and-continue-visual-basic.md
-      - name: Edit and Continue not supported for F#
-        href: edit-and-continue-not-supported-for-f-hash.md
     - name: XAML Hot Reload
       items:
       - name: Write and debug running XAML code
@@ -392,14 +390,8 @@
         href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
     - name: .NET
       items:
-      - name: Debugging preparation
-        items:
-        - name: Recommended property settings
-          href: managed-debugging-recommended-property-settings.md
-        - name: 'Debugging preparation: Windows Forms applications'
-          href: debugging-preparation-windows-forms-applications.md
-        - name: 'Debugging preparation: Windows services'
-          href: debugging-preparation-windows-services.md
+      - name: Recommended property settings
+        href: managed-debugging-recommended-property-settings.md
       - name: Send messages to the Output window
         href: diagnostic-messages-in-the-output-window.md
       - name: Assertions in managed code

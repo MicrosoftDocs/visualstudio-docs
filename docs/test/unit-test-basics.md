@@ -1,7 +1,7 @@
 ---
-title: Run unit tests by using Test Explorer
+title: Unit test basics with Test Explorer
 description: Learn how Visual Studio Test Explorer provides a flexible and efficient way to run your unit tests and view their results. 
-ms.date: 11/29/2023
+ms.date: 2/28/2025
 ms.topic: conceptual
 f1_keywords:
 - vs.UnitTest.CreateUnitTest
@@ -194,8 +194,6 @@ For more information about the Microsoft unit testing frameworks, see one of the
 - [Unit test your code](unit-test-your-code.md)
 
 - [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
-
-- [Use the MSTest framework in unit tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
 
 ## Set timeouts for unit tests
 

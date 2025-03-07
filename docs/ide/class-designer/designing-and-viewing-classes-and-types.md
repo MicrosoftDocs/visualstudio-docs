@@ -1,7 +1,7 @@
 ---
 title: Design, visualize, & refactor with Class Designer
 description: Design, visualize, and refactor classes, other types, and their relationships in your code with Class Designer in Visual Studio.
-ms.date: 01/07/2025
+ms.date: 02/03/2025
 ms.topic: conceptual
 f1_keywords:
 - vs.classdesigner.diagram
@@ -285,7 +285,7 @@ You can resize a comment shape but you can't change other aspects of its appeara
 
 ## Use the mouse and keyboard shortcuts in the Class Diagram and Class Details window
 
-You can use the keyboard in addition to the mouse to perform navigational actions in **Class Designer** and in the **Class Details** window.
+You can use the keyboard in addition to the mouse (or other pointing device) to perform navigational actions in **Class Designer** and in the **Class Details** window.
 
 ### Use the mouse in Class Designer
 

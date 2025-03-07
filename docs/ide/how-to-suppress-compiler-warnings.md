@@ -1,7 +1,7 @@
 ---
 title: Suppress warnings for projects and NuGet packages
 description: Use Visual Studio to declutter a build log by filtering out one or more kinds of compiler warnings for C#, F#, C++, or Visual Basic code.
-ms.date: 01/11/2024
+ms.date: 2/7/2025
 ms.subservice: compile-build
 ms.topic: how-to
 author: ghogen
@@ -75,11 +75,12 @@ If the warning is from another tool, refer to the documentation for the specific
 
 ## Suppress warnings for Visual Basic
 
-You can hide specific compiler warnings for Visual Basic by editing the *.vbproj* file for the project. To suppress warnings by *category*, you can use the [Compile property page](../ide/reference/compile-page-project-designer-visual-basic.md). If you want to disable a warning in a specific part of a code file, use [#Disable and #Enable directives](/dotnet/visual-basic/language-reference/directives/disable-enable). For more information, see [Configure warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).
+:::moniker range="<=vs-2019"
+You can hide specific compiler warnings for Visual Basic by editing the `.vbproj` file for the project. To suppress warnings by *category*, you can use the [Compile property page](../ide/reference/compile-page-project-designer-visual-basic.md). If you want to disable a warning in a specific part of a code file, use [#Disable and #Enable directives](/dotnet/visual-basic/language-reference/directives/disable-enable). For more information, see [Configure warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).
 
 ### To suppress specific warnings for an entire Visual Basic project
 
-This example shows you how to edit the *.vbproj* file to suppress specific compiler warnings.
+This example shows you how to edit the `.vbproj` file to suppress specific compiler warnings.
 
 1. In **Solution Explorer**, choose the project in which you want to suppress warnings.
 
@@ -124,7 +125,7 @@ This example shows you how to edit the *.vbproj* file to suppress specific compi
    > </Project>
    > ```
 
-1. Save the changes to the *.vbproj* file.
+1. Save the changes to the `.vbproj` file.
 
 1. On the menu bar, choose **Project** > **Reload Project**.
 
@@ -133,6 +134,85 @@ This example shows you how to edit the *.vbproj* file to suppress specific compi
     The **Output** window no longer shows the warnings that you specified.
 
 For more information, see the [/nowarn compiler option](/dotnet/visual-basic/reference/command-line-compiler/nowarn) for the Visual Basic command-line compiler.
+
+:::moniker-end
+
+:::moniker range=">=vs-2022"
+
+You can suppress warnings for individual warnings, or by category. The experience differs depending on whether you are working with a .NET Framework project or a .NET Core (or .NET 5 and later) project.
+
+If you want to disable a warning in a specific part of a code file, use [#Disable and #Enable directives](/dotnet/visual-basic/language-reference/directives/disable-enable).  For more information, see [Configure warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).
+
+### .NET 5 or later projects
+
+You can edit the project file to suppress specific compiler warnings by the diagnostic codes, or you can suppress warnings by category by using the Project Designer. To open the project designer, select the project node, right-click, and choose **Properties**, or press **Alt**+**Enter**.
+
+In the **Compile** section, choose **Warnings**. Under **Warning severity**, you can choose **Set warning severities individually**. The categories are shown, and you have the option to set each category to **None** to disable the category of warning, or set it to **Warning** or **Error** to enable it either as a warning or error.
+
+![Screenshot showing the Warning severity setting for a Visual Basic .NET project.](./media/vs-2022/visual-basic-warnings.png)
+
+### .NET Framework projects
+
+You can hide specific compiler warnings for Visual Basic by editing the `.vbproj` file for the project. To suppress warnings by *category*, you can use the [Compile property page](../ide/reference/compile-page-project-designer-visual-basic.md). 
+
+### To suppress specific warnings for an entire Visual Basic project
+
+This example shows you how to edit the `.vbproj` file to suppress specific compiler warnings.
+
+1. In **Solution Explorer**, choose the project in which you want to suppress warnings.
+
+1. (.NET) Double-click on the project node to open the project file.
+
+   (.NET Framework) On the menu bar, choose **Project** > **Unload Project**. Then, in **Solution Explorer**, open the right-click or shortcut menu for the project, and then choose **Edit \<ProjectName>.vbproj**.
+
+    The MSBuild project file opens in the code editor. This is an XML file.
+
+1. Locate the `<NoWarn>` element for the build configuration you're building with, and add one or more warning numbers as the value of the `<NoWarn>` element. If you specify multiple warning numbers, separate them with a comma.
+
+     The following example shows the `<NoWarn>` element for the *Debug* build configuration on an x86 platform, with two compiler warnings suppressed:
+
+    ```xml
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+        <PlatformTarget>x86</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineDebug>true</DefineDebug>
+        <DefineTrace>true</DefineTrace>
+        <ErrorReport>prompt</ErrorReport>
+        <NoWarn>40059,42024</NoWarn>
+        <WarningLevel>1</WarningLevel>
+      </PropertyGroup>
+    ```
+
+   > [!NOTE]
+   > .NET Core and .NET 5 and later projects do not contain build configuration property groups by default. To suppress warnings in a .NET Core project, add the build configuration section to the file manually. For example:
+   >
+   > ```xml
+   > <Project Sdk="Microsoft.NET.Sdk">
+   >   <PropertyGroup>
+   >     <OutputType>Exe</OutputType>
+   >     <TargetFramework>netcoreapp2.0</TargetFramework>
+   >     <RootNamespace>VBDotNetCore_1</RootNamespace>
+   >   </PropertyGroup>
+   >   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+   >     <NoWarn>42016,41999,42017</NoWarn>
+   >   </PropertyGroup>
+   > </Project>
+   > ```
+
+1. Save the changes to the `.vbproj` file.
+
+1. On the menu bar, choose **Project** > **Reload Project**.
+
+1. On the menu bar, choose **Build** > **Rebuild Solution**.
+
+    The **Output** window no longer shows the warnings that you specified.
+
+For more information, see the [/nowarn compiler option](/dotnet/visual-basic/reference/command-line-compiler/nowarn) for the Visual Basic command-line compiler.
+
+:::moniker-end
 
 ## Suppress a warning by editing the project file
 

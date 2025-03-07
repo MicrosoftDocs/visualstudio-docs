@@ -1,65 +1,51 @@
 ---
-title: Build cross-platform mobile apps in Visual Studio
-description: Build cross-platform mobile applications for Android, iOS, and Windows devices by using Visual Studio and target devices from a single code base.
+title: Build cross-platform apps in Visual Studio
+description: Build cross-platform applications for Android, iOS, Mac Catalyst, and Windows devices by using Visual Studio and target devices from a single code base.
 titleSuffix: ""
-ms.date: 08/26/2022
+ms.date: 02/21/2025
 ms.subservice: mobile-development
 ms.topic: conceptual
 author: therealjohn
 ms.author: johmil
 ---
 
-# Cross-platform mobile development in Visual Studio
+# Cross-platform app development in Visual Studio
 
-You can build apps for Android, iOS, and Windows devices by using Visual Studio. As you design your app, use tools in Visual Studio to easily add connected services such as Microsoft 365, Azure App Service, and Application Insights.
+You can build apps for Android, iOS, Mac Catalyst, and Windows devices by using Visual Studio. As you design your app, use tools in Visual Studio to easily add connected services such as Microsoft 365, Azure App Service, and Application Insights.
 
-Build your apps by using C# and the .NET Framework, HTML and JavaScript, or C++. Share code, strings, images, and in some cases even the user interface.
+Build your apps by using C# an .NET, HTML and JavaScript, or C++. Share code, strings, images, and in some cases even the user interface.
 
 If you want to build a game or immersive graphical app, install Visual Studio Tools for Unity (VSTU) and enjoy all of the powerful productivity features of Visual Studio with Unity, the popular cross-platform game/graphics engine and development environment for apps that run on iOS, Android, Windows, and other platforms.
 
-## Build an app for Android, iOS, and Windows (.NET Framework)
+## Build an app for Android, iOS, Mac Catalyst, and Windows (.NET)
 
-:::image type="content" source="../cross-platform/media/homedevices.png" alt-text="Screenshot showing different types of home devices.":::
-
-With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows in the same solution, sharing code and even UI.
+With .NET Multi-platform App UI (.NET MAUI) you can target Android, iOS, Mac Catalyst, and Windows in the same solution, sharing code and even UI.
 
 |**Learn more**|
 |--------------------|
 |[Install Visual Studio](https://visualstudio.microsoft.com/vs/community/) (VisualStudio.com)|
-|Learn about [Xamarin in Visual Studio](https://visualstudio.microsoft.com/xamarin/) (VisualStudio.com)|
-|[Xamarin mobile app development documentation](/xamarin/) |
-|[DevOps with Xamarin apps](/xamarin/tools/ci/devops/) |
-|Learn about [Universal Windows apps in Visual Studio](https://visualstudio.microsoft.com/vs/universal-windows-platform/) (VisualStudio.com)|
+|Learn about .NET MAUI](https://dotnet.microsoft.com/apps/maui) (dotnet.microsoft.com)|
+|[.NET MAUI app development documentation](/dotnet/maui/) |
 |Learn about the [similarities between Swift and C#](https://aka.ms/scposter) (download.microsoft.com)|
 
-### <a name="AndroidHTML"></a> Target Android, iOS, and Windows from a single code base
+### <a name="AndroidHTML"></a> Target Android, iOS, Mac Catalyst, and Windows from a single code base
 
-You can build native apps for Android, iOS, and Windows by using C# or F# (Visual Basic isn't supported at this time). To get started, install Visual Studio, select the **Mobile Development with .NET** option in the installer.
+.NET MAUI is a cross-platform framework for creating native mobile and desktop apps with C# and XAML. .NET MAUI is the evolution of Xamarin.Forms, extended from mobile to desktop scenarios, with UI controls rebuilt from the ground up for performance and extensibility. If you've previously used Xamarin.Forms to build cross-platform user interfaces, you'll notice many similarities with .NET MAUI. However, there are also some differences. Using .NET MAUI, you can create multi-platform apps using a single project, but you can add platform-specific source code and resources if necessary. One of the key aims of .NET MAUI is to enable you to implement as much of your app logic and UI layout as possible in a single code-base.
 
-If you already have Visual Studio installed, rerun the **Visual Studio Installer** and select the same **Mobile Development with .NET** option for Xamarin (as shown earlier).
+To get started, install Visual Studio, select the **.NET Multi-platform App UI development** option in the installer. If you already have Visual Studio installed, rerun the **Visual Studio Installer** and select the same **.NET Multi-platform App UI development** option. When you're done, project templates appear in the **New Project** dialog box. The easiest way to find .NET MAUI templates is to just search on "MAUI". For more information about installing .NET MAUI and building your first app, see [Installation](/dotnet/maui/get-started/installation?tabs=visual-studio) and [Build your first app](/dotnet/maui/get-started/first-app?tabs=vswin).
 
-When you're done, project templates appear in the **New Project** dialog box. The easiest way to find Xamarin templates is to just search on "Xamarin."
+.NET MAUI exposes the native functionality of Android, iOS, Mac Catalyst, and Windows as .NET classes and methods. Your apps have full access to native APIs and native controls, and they're as responsive as apps written in the native platform languages.
 
-Xamarin exposes the native functionality of Android, iOS, and Windows as .NET classes and methods. Your apps have full access to native APIs and native controls, and they're as responsive as apps written in the native platform languages.
+After you create a project, you'll use all of the productivity features of Visual Studio. For example, you'll use IntelliSense to explore the native APIs of the mobile platforms, and hot reload to modify your managed source code while the app is running, without the need to manually pause or hit a breakpoint. When you're ready to run your app and see how it looks, you can use the Android SDK emulator and run Windows apps natively. You can also use tethered Android and Windows devices directly. For iOS projects, connect to a networked Mac and start the iOS emulator from Visual Studio, or connect to a tethered device.
 
-After you create a project, you'll use all of the productivity features of Visual Studio. For example, you'll use a designer to create your pages, and use IntelliSense to explore the native APIs of the mobile platforms. When you're ready to run your app and see how it looks, you can use the Android SDK emulator and run Windows apps natively. You can also use tethered Android and Windows devices directly. For iOS projects, connect to a networked Mac and start the iOS emulator from Visual Studio, or connect to a tethered device.
+.NET MAUI apps compile into native app packages:
 
-#### Design one set of pages that render across all devices by using Xamarin.Forms
+- Android apps built using .NET MAUI compile from C# into an intermediate language (IL) which is then just-in-time (JIT) compiled to a native assembly when the app launches.
+- iOS apps built using .NET MAUI are fully ahead-of-time (AOT) compiled from C# into native ARM assembly code.
+- macOS apps built using .NET MAUI use Mac Catalyst, a solution from Apple that brings your iOS app built with UIKit to the desktop, and augments it with additional AppKit and platform APIs as required.
+- Windows apps built using .NET MAUI use the Windows UI 3 (WinUI 3) library to create native apps that target the Windows desktop.
 
-Depending on the complexity of your apps design, you might consider building it by using *Xamarin.Forms* templates in the **Mobile Apps** group of project templates. Xamarin.Forms is a UI toolkit that lets you create a single interface that you can share across Android, iOS, and Windows. When you compile a Xamarin.Forms solution, you'll get an Android app, an iOS app, and a Windows app. For more information, see learn about [mobile development with Xamarin](/xamarin/cross-platform/get-started/introduction-to-mobile-development/) and the [Xamarin.Forms documentation](/xamarin/xamarin-forms/).
-
-#### <a name="ShareHTML"></a> Share code between Android, iOS, and Windows apps
-
-If you're not using Xamarin.Forms and choose to design for each platform individually, you can share most of your non-UI code between platform projects (Android, iOS, and Windows). This includes any business logic, cloud integration, database access, or any other code that targets the .NET Framework. The only code that you can't share is code that targets a specific platform.
-
- :::image type="content" source="../cross-platform/media/sharecode.png" alt-text="Screenshot showing Logical diagram showing share code between Windows, iOS, and Android UIs.":::
-
-You can share your code by using a shared project, a Portable Class Library project, or both. You might find that some code fits best in a shared project, and some code makes more sense inside a Portable Class Library project.
-
-|**Learn more**|
-|--------------------|
-|[Sharing Code Options](/xamarin/cross-platform/app-fundamentals/code-sharing/) (Xamarin) |
-|[Code sharing options with .NET](/dotnet/standard/cross-platform/) |
+For more information about .NET MAUI, see [What is .NET MAUI?](/dotnet/maui/what-is-maui).
 
 ### <a name="WindowsHTML"></a> Target Windows 10 devices
 
@@ -95,7 +81,7 @@ You can share C++ code between Android, iOS, and Windows by creating a static or
 
  :::image type="content" source="../cross-platform/media/cross_plat_cpp_libraries.png" alt-text="Screenshot showing static and dynamic shared libraries.":::
 
-You can consume that library in a Windows, iOS, or Android project, like the ones described earlier in this article. You can also consume it in an app that you build by using Xamarin, Java, or any language that lets you invoke functions in an unmanaged DLL.
+You can consume that library in a Windows, iOS, or Android project, like the ones described earlier in this article. You can also consume it in an app that you build by using .NET MAUI, Java, or any language that lets you invoke functions in an unmanaged DLL.
 
 As you write code in these libraries, you can use IntelliSense to explore the native APIs of the Android and Windows platforms. These library projects are fully integrated with the Visual Studio debugger so you can set breakpoints. Step through code, and find and fix issues by using all of the advanced features of the debugger.
 

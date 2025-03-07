@@ -1,7 +1,7 @@
 ---
-title: 'GitHub Copilot Edits (Preview) in Visual Studio'
-description: Use GitHub Copilot Edits (Preview) to iterate quickly on code changes across multiple files in Visual Studio version 17.13 Preview 2 and later.
-ms.date: 1/16/2025
+title: 'GitHub Copilot Edits in Visual Studio'
+description: Use GitHub Copilot Edits to iterate quickly on code changes across multiple files in Visual Studio version 17.13 and later.
+ms.date: 2/11/2025
 ms.topic: overview
 author: anandmeg
 ms.author: meghaanand
@@ -10,9 +10,9 @@ ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
 ---
-# What is GitHub Copilot Edits (Preview)?
+# What is GitHub Copilot Edits?
 
-GitHub Copilot Edits, a preview feature of GitHub Copilot Chat, is designed to help iterating across multiple files more efficient. This feature is available as a preview experience in Visual Studio 2022 version 17.13 Preview 2 and later.
+GitHub Copilot Edits, a feature of GitHub Copilot Chat, is designed to help iterating across multiple files more efficient. This feature is available with the release of Visual Studio 2022 version 17.13.
 
 Edits combines the conversational flow of chat and an inline review experience, offering the following benefits:
 - **Preview with clarity**: Know exactly what's being modified with a summary of the affected files and the proposed changes.
@@ -20,8 +20,7 @@ Edits combines the conversational flow of chat and an inline review experience, 
 - **Iterate with confidence**: Use checkpoints to revisit earlier iterations of a code file or try an alternative approach anytime for new ideas.
 
 ## Prerequisites
-
-+ [Visual Studio 2022 version 17.13 Preview 2](/visualstudio/releases/2022/release-history) or later.
++ [Visual Studio 2022 version 17.13](/visualstudio/releases/2022/release-history) and later offer Copilot Edits.
 + [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot). <br/>
     + You can use [GitHub Copilot for Free](copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
 
@@ -43,8 +42,7 @@ Edits combines the conversational flow of chat and an inline review experience, 
 
 1.	Select **View** > **GitHub Copilot Chat** to launch GitHub Copilot Chat. You can also launch it from the GitHub Copilot status icon.
 2.	Select **Create new Edit session** to create a new Edits thread.
-
-3.	Enter a chat prompt using natural language about the specific edit you want to make. To help Copilot Edits provide better code suggestions, you can also add relevant context to your prompt. [Reference context](copilot-chat-context.md#reference) by typing the `#` commands to refer to a file, your solution, errors, or a symbol specifically.
+3.	Enter a chat prompt using natural language about the specific edit you want to make. To help Copilot Edits provide better code suggestions, you can also add relevant context to your prompt. [Reference context](copilot-chat-context.md#reference) by typing the `#` commands to refer to a file, your solution, errors, or a symbol specifically or [attach images](copilot-chat-context.md#attach-images) to provide additional context.
 
 > [!TIP]
 > We suggest you ask for one commit’s worth of changes at a time. The more you can break down a problem, the better the result.

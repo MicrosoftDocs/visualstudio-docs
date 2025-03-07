@@ -1,7 +1,7 @@
 ---
 title: 'Tips & Tricks for GitHub Copilot Chat in Visual Studio'
 description: Use slash commands, references, and threads to form better questions and get better answers with scoped context in GitHub Copilot Chat.
-ms.date: 12/18/2024
+ms.date: 2/26/2025
 ms.topic: how-to 
 author: anandmeg
 ms.author: meghaanand
@@ -20,6 +20,7 @@ You can use [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) in V
  In addition to your prompt, Copilot uses additional context, like the code in your current file and the chat history, to generate a response. In this article, you learn how to get better answers by providing more information to Copilot Chat including:
 + Use [slash commands](#slash-commands) to quickly specify common tasks like `/explain` to get code explanations.
 + Use the [guided chat experience](#prompting-guidance) and [custom instructions](#enable-custom-instructions) to refine context in Visual Studio 17.12 or later.
++ [Attach images](#attach-images) to your prompt to provide additional context and better illustrate your ideas in Visual Studio 17.14 Preview 1 or later.
 + Scope the chat to specific files using [references](#reference).
 + Review the [source used](#find-context) by Copilot to generate the answer.
 + Use different [threads](#threads) for each of your Copilot chats so you can maintain different contexts in each.
@@ -48,7 +49,7 @@ The guided chat experience in Visual Studio 17.12 and later helps refine your pr
 The custom instructions feature enables you to automatically add pre-specified contextual details to your chat questions. Copilot Chat uses these instructions tailored to your specific context, such as, the way your team works, the tools you use, or the specifics of your project, when generating responses. 
 
 To configure custom instructions:
-1. [Create/add](https://docs.github.com/en/enterprise-cloud@latest/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot) a custom instructions file `.github/copilot-instruction.md` in the root of your repository.
+1. [Create/add](https://docs.github.com/en/enterprise-cloud@latest/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot) a custom instructions file `.github/copilot-instructions.md` in the root of your repository.
 1. Enable the feature in Visual Studio via **Tools** > **Options** > **GitHub** > **Copilot** > select **(Preview) Enable custom instructions to be loaded from .github/copilot-instructions.md files and added to requests.**.
 
 Custom instructions are not visible in the Chat view or inline chat. However, when used by Copilot, the`.github/copilot-instructions.md` file is listed in the References list of a response.
@@ -70,6 +71,16 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 | /tests| Create unit tests for the selected code.<br>  Example: select desired code and enter `/tests using XUnit Framework`| Yes | Yes | 
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-slash-commands.png" alt-text="Screenshot of slash commands in inline chat view and chat windows.":::
+
+With Visual Studio 2022 version 17.13, as the user types a slash command, the command expands out the prompt in natural language to display the context the command will use.
+
+## <a name="attach-images"></a>Attach images to a chat prompt
+
+With vision integration for Copilot Chat in Visual Studio 17.14 Preview 1 and later, you can [attach images](visual-studio-github-copilot-chat.md#attach-images-to-chat-prompts) to your chat prompt, providing Copilot with additional context for improved responses. Use images in combination with [scope](#reference) and other contextual features such as slash commands to generate tailored responses.
+
+In the following example, Copilot interprets the attached image to generate a plan and suggest code to create a colorful Breakout game from scratch.
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/example-attach-image-chat.png" alt-text="Screenshot of an example scenario of adding an image in Copilot Chat." lightbox="media/vs-2022/visual-studio-github-copilot-chat/example-attach-image-chat.png" :::
 
 ## <a name="reference"></a>Reference: scope Copilot results to a particular file or entire solution
 
@@ -126,13 +137,13 @@ If you’re using Copilot Chat extensively to ask questions as you code, you can
 
 ### <a name="new-thread"></a>New chat thread
 
-You can start a new thread by selecting the **Create new thread** in the chat window.
+Select **Create new thread** or <kbd>Ctrl</kbd>+<kbd>N</kbd> in the chat window to start a new thread.
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-new-thread-conversation.png" alt-text="Screenshot of Create new thread icon in Copilot Chat.":::
 
 ### <a name="switch-thread"></a>Switch chat thread
 
-You can select between multiple ongoing threads to provide the right historical context for your question.
+You can select between multiple ongoing threads to provide the right historical context for your question. You can use <kbd>Ctrl</kbd>+<kbd>PgDown</kbd> for previous thread or <kbd>Ctrl</kbd>+<kbd>PgUp</kbd> for next thread in the chat window. <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> expands the thread dropdown.
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-switch-threads.png" alt-text="Screenshot of switching between ongoing threads in Copilot Chat.":::
 
