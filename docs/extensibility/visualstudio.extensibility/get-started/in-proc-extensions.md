@@ -53,7 +53,7 @@ A VS-SDK-compatible extension project references the [Microsoft.VisualStudio.Sdk
 
 Traditionally, such services are consumed through either [MEF](/visualstudio/extensibility/managed-extensibility-framework-in-the-editor) or the [AsyncServiceProvider](/dotnet/api/microsoft.visualstudio.shell.asyncserviceprovider). A VisualStudio.Extensibility extender is instead encouraged to  [.NET dependency injection](/dotnet/core/extensions/dependency-injection).
 
-The `MefInjection<TService>` and `AsyncServiceProviderInjection<TService, TInterface>` classes (both from the `Microsoft.VisualStudio.Extensibility.VSSdkCompatibility` namespace) allow you to consume the Visual Studio SDK's services by adding them to the constructor of a class that is instantiated through dependency injection (like a command, tool window or extension part).
+The `MefInjection<TService>` and `AsyncServiceProviderInjection<TService, TInterface>` classes (both from the `Microsoft.VisualStudio.Extensibility.VSSdkCompatibility` namespace) allow you to consume the Visual Studio SDK's services by adding them to the constructor of a class that is instantiated through [dependency injection](../inside-the-sdk/dependency-injection.md) (like a command, tool window or extension part).
 
 The following example shows how the `DTE2` and `IBufferTagAggregatorFactoryService` services can be added to a command.
 

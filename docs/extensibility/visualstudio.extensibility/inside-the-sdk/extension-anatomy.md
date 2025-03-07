@@ -72,31 +72,9 @@ The lifetime of each part is managed by the respective component that loads thos
 
 In general, for complex extensions we recommend that extensions provide local services that parts can import in their constructor and using those services to share state across parts and across instances of the same part. This practice ensures that extension state isn't affected by lifetime changes of extension parts.
 
-### Services provided by SDK for injection
+### Services provided by SDK for injection and local extension services
 
-The following services are provided by the SDK that can be used in constructor for any extension part:
-
-* [`VisualStudioExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.visualstudioextensibility): Every extension part can inject an instance of `VisualStudioExtensibility` to interact with Visual Studio IDE.
-
-* [`Extension`](/dotnet/api/microsoft.visualstudio.extensibility.extension): Parts can inject `Microsoft.VisualStudio.Extensibility.Extension` type or the extensions own type inheriting from it to extension parts.
-
-* [`TraceSource`](/dotnet/api/microsoft.visualstudio.extensibility.extensibilitypoint.tracesource): A trace source instance is created on demand for each extension that can be used to record diagnostic information. These instances are registered with Visual Studio diagnostics provider which can be used to merge logs from multiple services and utilize future tooling to access real time logging. See [Logging](logging.md).
-
-* Local services: Any local services provided by the extension itself will also be available for dependency injection.
-
-* `MefInjection<TService>` and `AsyncServiceProviderInjection<TService, TInterface>`: In-proc extensions can inject [Visual Studio SDK](https://www.nuget.org/packages/Microsoft.VisualStudio.SDK) services that would be traditionally consumed through either [MEF](/visualstudio/extensibility/managed-extensibility-framework-in-the-editor) or the [AsyncServiceProvider](/dotnet/api/microsoft.visualstudio.shell.asyncserviceprovider).
-
-## Local extension services
-
-In certain scenarios, an extension might want to share state between different components, such as a command handler and a text view change listener, as can be seen in `MarkdownLinter` example. These services can be added to in-process service collection by overriding [`Extension.InitializeServices`](/dotnet/api/microsoft.visualstudio.extensibility.extension.initializeservices) method and as instances of extension parts are created, the services are injected based on the constructor arguments.
-
-There are three options for adding a service:
-
-* `AddTransient`: A new instance of the service is created for each part that ingests it.
-* `AddScoped`: A new instance of the service is created within a certain scope. In context of Visual Studio extensibility, scope refers to a single extension part.
-* `AddSingleton`: There's a single shared instance of service that is created on first ingestion.
-
-Due to lifetime of [`VisualStudioExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.visualstudioextensibility) object being bound to the scope of a single extension part, any local service that ingests it has to be a scoped or transient service. Trying to create a singleton service that injects `VisualStudioExtensibility` will result in failure.
+VisualStudio.Extensibility SDK utilizes dependency injection to allow components to ingest both built-in services and also services offered by the extension locally to be shared between different components. Please refer to [dependency injection](./dependency-injection.md) section for more details on services offered by the SDK, service life times and example use cases of dependency injection.
 
 For an example of how local services are used, see [MarkdownLinter extension](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/MarkdownLinter/).
 
