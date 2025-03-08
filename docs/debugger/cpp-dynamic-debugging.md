@@ -157,7 +157,7 @@ Stop the program and enable C++ Dynamic Debugging and try it again:
     The property page is opened to Configuration Properties > Advanced > Use C++ Dynamic Debugging. The property is set to Yes.
     :::image-end:::
 
-    This has the effect of adding the `/dynamicdeopt` switch to the compiler and to the linker. It also turns off the C++ optimization switche `/OPT:ICF`. This setting doesn't overwrite switches you've added manually to the command line or other optimization switches that are set such as `/O1`.
+    This adds the `/dynamicdeopt` switch to the compiler and to the linker. It also turns off the C++ optimization switches `/GL` and `/OPT:ICF`. This setting doesn't overwrite switches you've added manually to the command line or other optimization switches that are set such as `/O1`.
 
 9. Rebuild with **Build** > **Rebuild Solution**. Build diagnostic code [`MSB8088`](../msbuild/errors/msb8088.md) appears indicating that dynamic debugging and whole program optimization are incompatible. This means that whole program optimization (`/GL`) was automatically turned off during compilation. You can manually turn off whole program optimization in the project properties by setting **Configuration Properties** > **Advanced** > **Whole Program Optimization** to **Off**. `MSB8088` is treated as a warning, but may be treated as an error in a future version of Visual Studio.
 
@@ -196,11 +196,88 @@ Stop the program and enable C++ Dynamic Debugging and try it again:
 
 ## General notes
 
+Unreal Engine 5.6 will introduce support for C++ Dynamic Debugging for both Unreal Build Tool and Unreal Build Accelerator.
+
+IncrediBuild 10.23 supports C++ Dynamic Debugging builds.
+
 Functions that are inlined are deoptimized on demand. If you set a breakpoint on an inlined function, the debugger deoptimizes the function and its caller. The breakpoint will hit where you expect it to, as if your program was built without compiler optimizations.
 
 A function remains deoptimized even if you disable the breakpoints within it. You must remove the breakpoint for the function to revert to its optimized state.
 
 The compiler flags used for the deoptimized version are the same as the flags used for the optimized version--except for optimization flags and `/dynamicdeopt`. This means any flags you set to define macros, and so on, are set in the deoptimized version as well. However, deoptimized code isn't the same as debug code. The deoptimized code is compiled with the same optimization flags as the optimized version, so asserts and other code that rely on debug-specific settings aren't included.
+
+## Build system integration
+
+C++ Dynamic Debugging requires that certain flags be set a particular way. The following sections describe how to setup your build to use C++ Dynamic Debugging.
+
+If you use the Visual Studio build system, a good way to make a Dynamic Debugging configuration is to use the Configuration Manager to clone the Release or Debug configuration and make changes, as described in the following sections.
+
+ into ReleaseDD, then in ReleaseDD enable Dynamic Debugging & disable WPO. Or they can clone Debug into DebugDD and enable optimizations & disable JMC, EnC, RTC, plus others.
+
+### How to create a new Release configuration
+
+1. From the Visual Studio main menu, open the configuration manager with **Build** > **Configuration Manager**.
+1. Choose the Configuration dropdown and then **<New...>**.
+
+    :::image type="complex" source="media/vs-2022/dbg-clone-configuration-release.png" alt-text="A screenshot of the Configuration Manager.":::
+    In the Configuration Manager, in the Project contexts part of the window, the Configuration dropdown is open and <New...> is highlighted.
+    :::image-end:::
+
+1. The **New Solution Configuration** dialog box opens. In the **Name** field, enter a name for the new configuration such as `ReleaseDD`. Ensure that **Copy settings from:** is set to **Release**, then choose **OK** to create the new configuration
+
+    :::image type="complex" source="media/vs-2022/dbg-clone-configuration-details-release.png" alt-text="A screenshot of the New Project Configuration dialog box.":::
+    The name field is set to ReleaseDD. The copy settings from dropdown is set to Release.
+    :::image-end:::
+
+1. The new configuration appears in the **Active solution configuration"** drop-down list. Choose **Close**.
+1. With the Configuration dropdown set to **ReleaseDD**, right-click your project in the **Solution Explorer** and choose **Properties**.
+1. In **Configuration Properties** > **Advanced**, set **Use C++ Dynamic Debugging** to **Yes**. choose  the project enable the following settings: dynamic deopt, disable WPA and OPTICF & OPTREF).
+
+    :::image type="complex" source="media/vs-2022/property-use-cpp-debugging.png" alt-text="A screenshot of the project properties.":::
+    The property page is opened to Configuration Properties > Advanced > Use C++ Dynamic Debugging. The property is set to Yes.
+    :::image-end:::
+
+This adds the `/dynamicdeopt` switch to the compiler and to the linker. It also turns off the C++ optimization switches `/GL` and `/OPT:ICF`. You can now build and run your project in the new configuration when you want an optimized build that you can use with C++ dynamic debugging.
+
+For more information about configurations in Visual Studio, see [Create and edit configurations](/visualstudio/ide/how-to-create-and-edit-configurations).
+
+### How to make a new Debug configuration
+
+If you want to use debug binaries, but want them to run faster, you can modify your Debug configuration as follows:
+
+1. From the Visual Studio main menu, open the configuration manager with **Build** > **Configuration Manager**.
+1. Choose the Configuration dropdown and then **<New...>**.
+
+    :::image type="complex" source="media/vs-2022/dbg-clone-configuration.png" alt-text="A screenshot of the Configuration Manager.":::
+    In the Configuration Manager, in the Project contexts part of the window, the Configuration dropdown is open and <New...> is highlighted.
+    :::image-end:::
+
+1. The **New Solution Configuration** dialog box opens. In the **Name** field, enter a name for the new configuration such as `ReleaseDD`. Ensure that **Copy settings from:** is set to **Release**, then choose **OK** to create the new configuration
+
+    :::image type="complex" source="media/vs-2022/dbg-clone-configuration-details-release.png" alt-text="A screenshot of the New Project Configuration dialog box.":::
+    The name field is set to ReleaseDD. The copy settings from dropdown is set to Release.
+    :::image-end:::
+
+1. The new configuration appears in the **Active solution configuration"** drop-down list. Choose **Close**.
+1. With the Configuration dropdown set to **DebugDD**, right-click your project in the **Solution Explorer** and choose **Properties**.
+1. In **Configuration Properties** >> **C/C++** >> **Optimization**, turn on the optimizations you would like to enable. For example, you can set **Optimization** to **Maximize Speed (/O2)**.
+1. In **C/C++** >> **Code Generation**,  set **Basic Runtime Checks** to **Default**.
+1. In **C/C++** >> **General**, disable **Support Just My Code Debugging** and set **Debug Information Format** to **None**.
+
+For more information about configurations in Visual Studio, see [Create and edit configurations](/visualstudio/ide/how-to-create-and-edit-configurations).
+
+### Custom build system considerations
+
+If you have a custom build system, ensure that you:
+- Pass `/dynamicdeopt` to both `cl.exe` and `link.exe`. The compiler produces files such as `test.alt.obj`, `test.alt.exp`, `test.obj`, and `test.exp`. The linker produces files such as `test.alt.exe` & `test.pdb` along with `test.exe` & `test.pdb`.
+- Don't use [`/Zi`](/cpp/build/reference/z7-zi-zi-debug-information-format), any of the [`/RTC`](/cpp/build/reference/rtc-run-time-error-checks) flags, or [`/JMC`](/cpp/build/reference/jmc).
+
+### Build system details
+
+For build distributors: c2dd.dll is a new toolset binary to be deployed alongside c2.dll.
+Incredibuild 10.23 supports dynamic deoptimization builds
+FastBuild <we're working on it -- details next week>
+Unreal 5.6 supports dynamic deoptimization builds <get right messaging>
 
 ## Incompatible options
 
@@ -235,10 +312,8 @@ The following linker options are incompatible with C++ Dynamic Debugging:
 ```cpp
 /DEBUG:FASTLINK
 /INCREMENTAL
-/OPT:ICF
+/OPT:ICF  You can specify /OPT:ICF but the debugging experience may be poor
 ```
-
-Although you can use `/OPT:ICF`, the debugging experience may be poor.
 
 ## Related content
 
