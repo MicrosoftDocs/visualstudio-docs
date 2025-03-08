@@ -219,7 +219,7 @@ If you use the Visual Studio build system, a good way to make a Dynamic Debuggin
 1. From the Visual Studio main menu, open the configuration manager with **Build** > **Configuration Manager**.
 1. Choose the Configuration dropdown and then **<New...>**.
 
-    :::image type="complex" source="media/vs-2022/dbg-clone-configuration-release.png" alt-text="A screenshot of the Configuration Manager.":::
+    :::image type="complex" source="media/vs-2022/dbg-clone-configuration.png" alt-text="A screenshot of the Configuration Manager.":::
     In the Configuration Manager, in the Project contexts part of the window, the Configuration dropdown is open and <New...> is highlighted.
     :::image-end:::
 
@@ -272,12 +272,7 @@ If you have a custom build system, ensure that you:
 - Pass `/dynamicdeopt` to both `cl.exe` and `link.exe`. The compiler produces files such as `test.alt.obj`, `test.alt.exp`, `test.obj`, and `test.exp`. The linker produces files such as `test.alt.exe` & `test.pdb` along with `test.exe` & `test.pdb`.
 - Don't use [`/Zi`](/cpp/build/reference/z7-zi-zi-debug-information-format), any of the [`/RTC`](/cpp/build/reference/rtc-run-time-error-checks) flags, or [`/JMC`](/cpp/build/reference/jmc).
 
-### Build system details
-
-For build distributors: c2dd.dll is a new toolset binary to be deployed alongside c2.dll.
-Incredibuild 10.23 supports dynamic deoptimization builds
-FastBuild <we're working on it -- details next week>
-Unreal 5.6 supports dynamic deoptimization builds <get right messaging>
+For build distributors: `c2dd.dll` is a new toolset binary that you need to deploy alongside `c2.dll`.
 
 ## Incompatible options
 
