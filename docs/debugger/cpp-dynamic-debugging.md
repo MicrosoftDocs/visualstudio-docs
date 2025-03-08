@@ -208,14 +208,14 @@ The compiler flags used for the deoptimized version are the same as the flags us
 
 ## Build system integration
 
-C++ Dynamic Debugging requires that flags be set a particular way. The following sections describe how to setup your build to use C++ Dynamic Debugging.
+C++ Dynamic Debugging requires that compiler and linker flags be set a particular way. The following sections describe how to setup your build to use C++ Dynamic Debugging.
 
-If you use the Visual Studio build system, a good way to make a Dynamic Debugging configuration is to use the Configuration Manager to clone your Release or Debug configuration and make changes to accomodate Dynamic Debugging as described in the following sections.
+If you use the Visual Studio build system, a good way to make a Dynamic Debugging configuration is to use the Configuration Manager to clone your Release or Debug configuration and make changes to accomodate Dynamic Debugging as described in the following two sections.
 
 ### How to create a new Release configuration
 
 1. From the Visual Studio main menu, open the configuration manager via **Build** > **Configuration Manager**.
-1. Choose the Configuration dropdown, and then **<New...>**.
+1. Choose the Configuration dropdown and then **<New...>**.
 
     :::image type="complex" source="media/vs-2022/dbg-clone-configuration.png" alt-text="A screenshot of the Configuration Manager.":::
     In the Configuration Manager, under Project contexts, the Configuration dropdown is open and <New...> is highlighted.
@@ -227,15 +227,15 @@ If you use the Visual Studio build system, a good way to make a Dynamic Debuggin
     The name field is set to ReleaseDD. The copy settings from dropdown is set to Release.
     :::image-end:::
 
-1. The new configuration appears in the **Active solution configuration"** drop-down list. Choose **Close**.
+1. The new configuration appears in the **Active solution configuration** drop-down list. Choose **Close**.
 1. With the Configuration dropdown set to **ReleaseDD**, right-click your project in the **Solution Explorer** and choose **Properties**.
-1. In **Configuration Properties** > **Advanced**, set **Use C++ Dynamic Debugging** to **Yes**. choose  the project enable the following settings: dynamic deopt, disable WPA and OPTICF & OPTREF).
+1. In **Configuration Properties** > **Advanced**, set **Use C++ Dynamic Debugging** to **Yes**.
 
     :::image type="complex" source="media/vs-2022/property-use-cpp-debugging.png" alt-text="A screenshot of the project properties.":::
     The property page is opened to Configuration Properties > Advanced > Use C++ Dynamic Debugging. The property is set to Yes.
     :::image-end:::
 
-This adds the `/dynamicdeopt` switch to the compiler and to the linker. It also turns off the C++ optimization switches `/GL` and `/OPT:ICF`. You can now build and run your project in the new configuration when you want an optimized build that you can use with C++ dynamic debugging.
+This adds the `/dynamicdeopt` switch to the compiler and to the linker. It also turns off the C++ optimization switches `/GL` and `/OPT:ICF`. You can now build and run your project in the new configuration when you want an optimized release build that you can use with C++ dynamic debugging.
 
 For more information about configurations in Visual Studio, see [Create and edit configurations](/visualstudio/ide/how-to-create-and-edit-configurations).
 
@@ -250,27 +250,30 @@ If you want to use debug binaries, but want them to run faster, you can modify y
     In the Configuration Manager, in the Project contexts part of the window, the Configuration dropdown is open and <New...> is highlighted.
     :::image-end:::
 
-1. The **New Solution Configuration** dialog box opens. In the **Name** field, enter a name for the new configuration such as `DebugDD`. Ensure that **Copy settings from:** is set to **Release**, then choose **OK** to create the new configuration
+1. The **New Solution Configuration** dialog box opens. In the **Name** field, enter a name for the new configuration such as `DebugDD`. Ensure that **Copy settings from:** is set to **Debug**, then choose **OK** to create the new configuration
 
-    :::image type="complex" source="media/vs-2022/dbg-clone-configuration-details-release.png" alt-text="A screenshot of the New Project Configuration dialog box.":::
-    The name field is set to DebugDD. The copy settings from dropdown is set to Release.
+    :::image type="complex" source="media/vs-2022/dbg-clone-configuration-details-debug.png" alt-text="A screenshot of the New Project Configuration dialog box.":::
+    The name field is set to DebugDD. The copy settings from dropdown is set to Debug.
     :::image-end:::
 
-1. The new configuration appears in the **Active solution configuration"** drop-down list. Choose **Close**.
+1. The new configuration appears in the **Active solution configuration** drop-down list. Choose **Close**.
 1. With the Configuration dropdown set to **DebugDD**, right-click your project in the **Solution Explorer** and choose **Properties**.
-1. In **Configuration Properties** >> **C/C++** >> **Optimization**, turn on the optimizations you would like to enable. For example, you can set **Optimization** to **Maximize Speed (/O2)**.
+1. In **Configuration Properties** >> **C/C++** >> **Optimization**, turn on the optimizations you want. For example, you could set **Optimization** to **Maximize Speed (/O2)**.
 1. In **C/C++** >> **Code Generation**,  set **Basic Runtime Checks** to **Default**.
-1. In **C/C++** >> **General**, disable **Support Just My Code Debugging** and set **Debug Information Format** to **None**.
+1. In **C/C++** >> **General**, disable **Support Just My Code Debugging**.  Set **Debug Information Format** to **None**.
 
 For more information about configurations in Visual Studio, see [Create and edit configurations](/visualstudio/ide/how-to-create-and-edit-configurations).
 
 ### Custom build system considerations
 
 If you have a custom build system, ensure that you:
-- Pass `/dynamicdeopt` to both `cl.exe` and `link.exe`. The compiler produces files such as `test.alt.obj`, `test.alt.exp`, `test.obj`, and `test.exp`. The linker produces files such as `test.alt.exe` & `test.pdb` along with `test.exe` & `test.pdb`.
+- Pass `/dynamicdeopt` to both `cl.exe` and `link.exe`.
 - Don't use [`/Zi`](/cpp/build/reference/z7-zi-zi-debug-information-format), any of the [`/RTC`](/cpp/build/reference/rtc-run-time-error-checks) flags, or [`/JMC`](/cpp/build/reference/jmc).
 
-For build distributors: `c2dd.dll` is a new toolset binary that you need to deploy alongside `c2.dll`.
+For build distributors:
+
+- Given a project named `test`, the compiler produces: `test.alt.obj`, `test.alt.exp`, `test.obj`, and `test.exp`. The linker produces `test.alt.exe`, `test.pdb`, `test.exe`, and `test.pdb`.
+- `c2dd.dll` is a new toolset binary that you need to deploy alongside `c2.dll`.
 
 ## Incompatible options
 
