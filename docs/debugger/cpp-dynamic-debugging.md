@@ -208,22 +208,20 @@ The compiler flags used for the deoptimized version are the same as the flags us
 
 ## Build system integration
 
-C++ Dynamic Debugging requires that certain flags be set a particular way. The following sections describe how to setup your build to use C++ Dynamic Debugging.
+C++ Dynamic Debugging requires that flags be set a particular way. The following sections describe how to setup your build to use C++ Dynamic Debugging.
 
-If you use the Visual Studio build system, a good way to make a Dynamic Debugging configuration is to use the Configuration Manager to clone the Release or Debug configuration and make changes, as described in the following sections.
-
- into ReleaseDD, then in ReleaseDD enable Dynamic Debugging & disable WPO. Or they can clone Debug into DebugDD and enable optimizations & disable JMC, EnC, RTC, plus others.
+If you use the Visual Studio build system, a good way to make a Dynamic Debugging configuration is to use the Configuration Manager to clone your Release or Debug configuration and make changes to accomodate Dynamic Debugging as described in the following sections.
 
 ### How to create a new Release configuration
 
-1. From the Visual Studio main menu, open the configuration manager with **Build** > **Configuration Manager**.
-1. Choose the Configuration dropdown and then **<New...>**.
+1. From the Visual Studio main menu, open the configuration manager via **Build** > **Configuration Manager**.
+1. Choose the Configuration dropdown, and then **<New...>**.
 
     :::image type="complex" source="media/vs-2022/dbg-clone-configuration.png" alt-text="A screenshot of the Configuration Manager.":::
-    In the Configuration Manager, in the Project contexts part of the window, the Configuration dropdown is open and <New...> is highlighted.
+    In the Configuration Manager, under Project contexts, the Configuration dropdown is open and <New...> is highlighted.
     :::image-end:::
 
-1. The **New Solution Configuration** dialog box opens. In the **Name** field, enter a name for the new configuration such as `ReleaseDD`. Ensure that **Copy settings from:** is set to **Release**, then choose **OK** to create the new configuration
+1. The **New Solution Configuration** dialog box opens. In the **Name** field, enter a name for the new configuration such as `ReleaseDD`. Ensure that **Copy settings from:** is set to **Release**, then choose **OK** to create the new configuration:
 
     :::image type="complex" source="media/vs-2022/dbg-clone-configuration-details-release.png" alt-text="A screenshot of the New Project Configuration dialog box.":::
     The name field is set to ReleaseDD. The copy settings from dropdown is set to Release.
@@ -252,10 +250,10 @@ If you want to use debug binaries, but want them to run faster, you can modify y
     In the Configuration Manager, in the Project contexts part of the window, the Configuration dropdown is open and <New...> is highlighted.
     :::image-end:::
 
-1. The **New Solution Configuration** dialog box opens. In the **Name** field, enter a name for the new configuration such as `ReleaseDD`. Ensure that **Copy settings from:** is set to **Release**, then choose **OK** to create the new configuration
+1. The **New Solution Configuration** dialog box opens. In the **Name** field, enter a name for the new configuration such as `DebugDD`. Ensure that **Copy settings from:** is set to **Release**, then choose **OK** to create the new configuration
 
     :::image type="complex" source="media/vs-2022/dbg-clone-configuration-details-release.png" alt-text="A screenshot of the New Project Configuration dialog box.":::
-    The name field is set to ReleaseDD. The copy settings from dropdown is set to Release.
+    The name field is set to DebugDD. The copy settings from dropdown is set to Release.
     :::image-end:::
 
 1. The new configuration appears in the **Active solution configuration"** drop-down list. Choose **Close**.
