@@ -1,7 +1,7 @@
 ---
 title: How MSBuild builds projects
 description: Discover how MSBuild processes your project files, whether you invoke the build tool from Visual Studio or from a command line or script.
-ms.date: 02/13/2024
+ms.date: 3/10/2025
 ms.topic: overview
 helpviewer_keywords:
 - MSBuild, build process overview
