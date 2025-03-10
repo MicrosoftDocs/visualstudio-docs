@@ -1,7 +1,7 @@
 ---
 title: Create an MSBuild project file from scratch
 description: Create an MSBuild project file from scratch to understand how the XML is organized and how you can change it to control a build.
-ms.date: 02/13/2024
+ms.date: 03/10/2025
 ms.topic: tutorial
 helpviewer_keywords:
 - MSBuild, tutorial
@@ -12,14 +12,14 @@ ms.subservice: msbuild
 ---
 # Create an MSBuild project file from scratch
 
-Programming languages that target the .NET Framework use MSBuild project files to describe and control the application build process. When you use Visual Studio to create an MSBuild project file, the appropriate XML is added to the file automatically. However, you may find it helpful to understand how the XML is organized and how you can change it to control a build.
+Programming languages that target the .NET platform use MSBuild project files to describe and control the application build process. When you use Visual Studio to create an MSBuild project file, the appropriate XML is added to the file automatically. However, you may find it helpful to understand how the XML is organized and how you can change it to control a build.
 
 > [!NOTE]
 > This article is appropriate if you want to learn the basic fundamentals of how MSBuild works independently of any SDK. Building with an SDK, such as when you use `dotnet build` or you add the `Sdk` attribute to the root project element, is not covered in this article. See [.NET Project SDKs](/dotnet/core/project-sdk/overview).
 >
 > The build logic imported by standard `.csproj` files supports many more options and a much more complex build process than this example.
 
- For information about creating a project file for a C++ project, see [MSBuild (C++)](/cpp/build/msbuild-visual-cpp).
+ For information about creating a project file for a C++ project, see [Use MSBuild to create a Visual C++ project](/cpp/build/walkthrough-using-msbuild-to-create-a-visual-cpp-project) and 
 
  This tutorial shows how to create a basic project file incrementally, by using only a text editor. The walkthrough follows these steps:
 
