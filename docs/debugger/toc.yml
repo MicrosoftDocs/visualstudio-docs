@@ -676,49 +676,19 @@
         href: using-spy-increment.md
       - name: Spy++ toolbar
         href: spy-increment-toolbar.md
-    - name: Views in Spy++
-      items:
-      - name: Windows
-        items:
-        - name: Windows view
-          href: windows-view.md
-        - name: Use Windows view
-          href: how-to-use-windows-view.md
+      - name: Use Windows view
+        href: how-to-use-windows-view.md
       - name: Messages
         items:
-        - name: Messages view
-          href: messages-view.md
         - name: Use Messages view
           href: how-to-use-messages-view.md
         - name: Message codes
           href: message-codes.md
-      - name: Processes
-        items:
-        - name: Processes view
-          href: processes-view.md
-        - name: Search for a process
-          href: how-to-search-for-a-process-in-processes-view.md
-      - name: Threads
-        items:
-        - name: Threads view
-          href: threads-view.md
-        - name: Search for a thread
-          href: how-to-search-for-a-thread-in-threads-view.md
+      - name: Search for a process
+        href: how-to-search-for-a-process-in-processes-view.md
+      - name: Search for a thread
+        href: how-to-search-for-a-thread-in-threads-view.md
     - name: Spy++ reference
       items:
       - name: Spy++ reference overview
         href: spy-increment-reference.md
-      - name: Spy++ menu commands
-        href: menu-commands.md
-      - name: Search tools for Spy++ views
-        href: search-tools-for-spy-increment-views.md
-      - name: Window Properties dialog box
-        href: window-properties-dialog-box.md
-      - name: Message Options dialog box
-        href: message-options-dialog-box.md
-      - name: Message Properties dialog box
-        href: message-properties-dialog-box.md
-      - name: Process Properties dialog box
-        href: process-properties-dialog-box.md
-      - name: Thread Properties dialog box
-        href: thread-properties-dialog-box.md
