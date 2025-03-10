@@ -215,15 +215,15 @@ Unreal Engine 5.6 supports C++ Dynamic Debugging for both Unreal Build Tool and 
         <bDynamicDebugging>true</bDynamicDebugging>
     </WindowsPlatform>
     ```
-- Another way is modify your `Target.cs` file for your project to contain `WindowsPlatform.bDynamicDebugging = true`.
+- Or modify your project's `Target.cs` file to contain `WindowsPlatform.bDynamicDebugging = true`.
 
-For more information, see the Unreal Engine article [Build Configuration](https://dev.epicgames.com/documentation/en-us/unreal-engine/build-configuration-for-unreal-engine).
+For more information, see Unreal Engine's article [Build Configuration](https://dev.epicgames.com/documentation/en-us/unreal-engine/build-configuration-for-unreal-engine).
 
 ## Troubleshooting
 
-If breakpoints don't hit in [Deoptimized] frames:
+If breakpoints don't hit in deoptimized functions:
 - Ensure that the `alt.exe` and `alt.pdb` files built. Given `test.exe` and `test.pdb`, `test.alt.exe` and `test.alt.pdb` must exist in the same directory. Ensure that the right build switches are set per this guide.
-- A "debug directory" entry exists in `test.exe` that tells the debugger the name of the `alt` binary to use for Deoptimized Debugging. Open a x64-native Visual Studio command prompt and run: `link /dump /headers <your executable.exe>` to see if a `deopt` entry exists. A `deopt` entry appears in the `Type` column as shown in the last line this example:
+- A "debug directory" entry exists in `test.exe` that the debugger uses to find the `alt` binary to use for Deoptimized Debugging. Open a x64-native Visual Studio command prompt and run: `link /dump /headers <your executable.exe>` to see if a `deopt` entry exists. A `deopt` entry appears in the `Type` column as shown in the last line of this example:
 
     ```Output
       Debug Directories
@@ -238,7 +238,7 @@ If breakpoints don't hit in [Deoptimized] frames:
 
     If the `deopt` debug directory entry isn't there, confirm that you're passing `/dynamicdeopt` to `cl.exe`, `lib.exe`, and `link.exe`.    
 
-- When `/dynamicdeopt` isn't passed to `cl.exe`, `lib.exe`, and `link.exe`, for all `.cpp`, `.lib`, and binary files, Dynamic Deoptimization doesn't work well. Confirm that the proper switches are set while running all C/C++ build tools.
+- Dynamic Deoptimization won't work consistently if `/dynamicdeopt` isn't passed to `cl.exe`, `lib.exe`, and `link.exe` for all `.cpp`, `.lib`, and binary files. Confirm that the proper switches are set when building your project.
 - See our list of known issues:
   - JTW
 
