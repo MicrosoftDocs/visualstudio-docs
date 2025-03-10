@@ -1,7 +1,7 @@
 ---
 title: Analyze memory usage in the Performance Profiler
 description: Learn how to use the Memory Usage tool in release builds in the Visual Studio Performance Profiler to monitor your app's memory use.
-ms.date: 02/06/2024
+ms.date: 02/28/2025
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -31,7 +31,15 @@ For the best experience with this documentation, choose your preferred developme
 
    The Memory Usage tool supports .NET, ASP.NET, C++, or mixed mode (.NET and native) apps.
 
-1. In the Debug menu, set the solution configuration to **Release** and select **Local Windows Debugger** (or **Local Machine**) as the deployment target.
+1. In the Debug menu, set the solution configuration to **Release** and select the deployment target.
+
+   ::: moniker range=">=vs-2022"
+   The deployment target typically matches the project name, indicating a local deployment.
+   ::: moniker-end
+
+   ::: moniker range="vs-2019"
+   The deployment target is typically **Local Windows Debugger** (or **Local Machine**).
+   ::: moniker-end
 
 1. On the menu bar, select  **Debug** > **Performance Profiler**.
 
@@ -44,6 +52,9 @@ For the best experience with this documentation, choose your preferred developme
    ::: moniker range="vs-2019"
    ![Start a Memory Usage diagnostic session.](../profiling/media/memory-usage-start-diagnostics-session.png "Start a Memory Usage diagnostic session")
    ::: moniker-end
+
+   > ![NOTE]
+   > For some project types, such as CMake, you must set the startup target to **Executable**. For more information, see [Which tools are supported for my project?](../profiling/choose-performance-tool.md#which-tools-are-supported-for-my-project).
 ::: zone-end
 
 ### Monitor memory use

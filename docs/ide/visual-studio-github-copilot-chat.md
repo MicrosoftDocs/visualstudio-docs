@@ -1,7 +1,7 @@
 ---
 title: About GitHub Copilot Chat in Visual Studio
 description: Learn about the fully integrated GitHub Copilot Chat in Visual Studio. Use the chat interface to ask coding-related questions from right within the IDE.
-ms.date: 2/19/2025
+ms.date: 2/26/2025
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
@@ -110,6 +110,19 @@ The inline chat view of Copilot Chat in Visual Studio enables you to ask your qu
     :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/promote-inline-chat-to-chat-window.png" alt-text="Screenshot of how to continue the inline chat thread in the chat window." :::
 
 1. You can close the inline chat view by pressing **Esc**.
+
+### Attach images to chat prompts
+
+With Visual Studio 17.14 Preview 1, you can attach images in chat to add contextual input and generate better responses.
+To attach an image to a prompt, paste an image from the clipboard or select the paperclip icon in the chat window to upload an image from File Explorer. Copilot analyzes the image and uses it as additional context to generate a better response.
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/attach-image-copilot-chat.png" alt-text="Screenshot of how to attach images in Copilot Chat." lightbox="media/vs-2022/visual-studio-github-copilot-chat/attach-image-copilot-chat.png" :::
+
+Supported image formats: PNG, JPEG, and GIF (single-frame only). You can attach upto three images per prompt.
+
+Example scenarios where adding an image in the prompt provides Copilot additional context:
+- UI development, add an image of your design
+- Debugging, add a screenshot of the error
 
 ## Next steps
 

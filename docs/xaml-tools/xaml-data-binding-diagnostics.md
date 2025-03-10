@@ -26,6 +26,7 @@ XAML data binding is explained in these articles:
 - For WPF: [Data binding overview - WPF .NET](/dotnet/desktop/wpf/data/)
 - For UWP: [Data binding overview - UWP applications](/windows/uwp/data-binding/data-binding-quickstart/)
 - For Xamarin.Forms: [Xamarin.Forms Data Binding - Xamarin](/xamarin/xamarin-forms/app-fundamentals/data-binding/)
+- For .NET MAUI: [.NET MAUI Data Binding](/dotnet/maui/fundamentals/data-binding/)
 
 Binding failures have always been written to the debug output window in Visual Studio. But it’s easy to miss the binding failures within debug output since it contains other debugging information that scrolls binding failures out of view. Here's an example of a WPF binding failure within the debug output window:
 

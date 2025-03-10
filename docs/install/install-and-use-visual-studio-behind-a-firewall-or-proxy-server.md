@@ -67,10 +67,10 @@ The Visual Studio Installer downloads files from various domains and their downl
 | ib-downloads-official.s3.amazonaws.com | Game development with C++ (IncrediBuild)                                                                                               |
 | www\.incredibuild.com             | Game development with C++ (IncrediBuild)                                                                                                    |
 | www\.python.org                   | Python development (Python) <br /><br />Data science and analytical applications (Python)                                                   |
-| developerservices2.apple.com      | Xamarin.iOS provisioning                                                                                                                    |
-| developer.apple.com               | Xamarin.iOS provisioning                                                                                                                    |
-| appstoreconnect.apple.com         | Xamarin.iOS provisioning                                                                                                                    |
-| idmsa.apple.com                   | Xamarin.iOS provisioning                                                                                                                    |
+| developerservices2.apple.com      | .NET for iOS provisioning                                                                                                                    |
+| developer.apple.com               | .NET for iOS provisioning                                                                                                                    |
+| appstoreconnect.apple.com         | .NET for iOS provisioning                                                                                                                    |
+| idmsa.apple.com                   | .NET for iOS provisioning                                                                                                                    |
 | akamaized.net                     | Content Delivery Network (Akamai Technologies)                                                                                              |
 | developer.arm.com                 | ARM Development                                                                                                                             |
 
@@ -132,7 +132,7 @@ When you use Visual Studio or Azure Services behind a firewall or proxy server, 
 | Visual Studio Subscriptions Licensing Service    | 1. app.vssps.visualstudio.com/apis/<br/>Licensing/ClientRights <br><br> 2. api.subscriptions.visualstudio.microsoft.com/<br/>Me/Entitlements/IDEBenefits  | https/443     | Licensing for online activation   |
 | Debugger    | 1. <br>vsdebugger.blob.core.windows.net <br>vsdebugger.azureedge.net <br><br>2. <br>download.visualstudio.com/\*/<br/>onecore.msvsmon.\*.zip<br><br> 3. referencesource.microsoft.com/symbols <br><br> 4. <br>symbols.nuget.org/download/symbols<br><br> 5. visualstudio.com<br><br>6. msdl.microsoft.com/download/symbols  | https/443    | 1. <br>Used for downloading debugger bits for .NET Core debugging on Unix / macOS over SSH <br><br>2. <br>Used for downloading debugger bits for remote Windows Docker container debugging<br><br> 3. Used for .NET Framework source stepping <br><br> 4. <br>(If user opts in) Used for downloading symbols published to nuget.org symbol server.<br><br> 5. (If user opts in) Used for downloading MS symbols and binaries, might also be needed for debugging managed code in dumps   |
 | GitHub Codespaces     | \*.online.visualstudio.com    | https/443     | Used to call GitHub Codespaces APIs     |
-| Xamarin Android App Publishing     | \*.googleapis.com <br/> play.google.com <br/>accounts.google.com    | https/443     | Used to interact with Google Play Store service to publish/upload Xamarin Android Applications directly from Visual Studio   |
+| .NET for Android App Publishing     | \*.googleapis.com <br/> play.google.com <br/>accounts.google.com    | https/443     | Used to interact with Google Play Store service to publish/upload .NET for Android Applications directly from Visual Studio   |
 | Visual Studio Search Service   | data-ai.microsoft.com/search   | https/443     | Used to provide AI-enabled Visual Studio Search Service in **Ctrl**+**Q** search box     |
 | Azure Container Registry    | *.azurecr.io     | https/443      | Access container registries hosted on Azure, for configuration of CICD pipelines  |
 | Visual Studio for Mac Updater  | software.xamarin.com   | https/443    | Used to get the list of available updates   |

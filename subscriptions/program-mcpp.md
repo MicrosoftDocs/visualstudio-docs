@@ -3,41 +3,39 @@ title: Subscriptions offered in Cloud Partner Program
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/16/2024
+ms.date: 02/28/2025
 ms.topic: conceptual
 description: Explore available subscriptions, what rules apply, and how many subscriptions are offered in the Microsoft Cloud Partner Program.
 ---
 # Visual Studio subscriptions offered to partners in the Microsoft Cloud Partner Program
 
-Partners who earn a competency or who purchase the Action Pack in the Microsoft Cloud Partner Program, formerly known as the Microsoft Partner Network (MPN) are eligible to use Visual Studio subscriptions. These subscriptions are licensed per user, and are only valid when assigned to a specific named user who works for the partner company.
+Partners who earn a competency or who purchase the Action Pack in the Microsoft Cloud Partner Program, formerly known as the Microsoft Partner Network (MPN) are eligible to use Visual Studio subscriptions. These subscriptions are licensed per user and are only valid when assigned to a specific named user who works for the partner company.
 
 ## Solutions partners and partners with legacy competency offers
 
-When a partner earns a competency--either at the silver or gold level--they earn a core number of Visual Studio Enterprise subscriptions. This core benefit changes if the partner earns at least one gold competency. The Visual Studio Enterprise subscription is a custom offering that is roughly equivalent to the [Visual Studio Enterprise Standard subscription](https://visualstudio.microsoft.com/vs/pricing/), but with certain benefits removed.  Many of these benefits are available separately to partners as general Microsoft Cloud Partner benefits rather than as part of the Visual Studio Enterprise subscriptions.
+When a partner earns a competency--either at the silver or gold level--they earn a core number of Visual Studio Enterprise subscriptions. This core benefit changes if the partner earns at least one gold competency. The Visual Studio Enterprise subscription is a custom offering that is roughly equivalent to the [Visual Studio Enterprise Standard subscription](https://visualstudio.microsoft.com/vs/pricing/), but with certain benefits removed. Many of these benefits are available separately to partners as general Microsoft Cloud Partner benefits rather than as part of the Visual Studio Enterprise subscriptions.
 
 ### Core Visual Studio benefit for earning at least one competency of any kind
 
-| Competencies earned only at silver level  | At least one competency earned at gold level |
-|-------------------------------------------|----------------------------------------------|
-| Five Visual Studio Enterprise subscriptions  | 10 Visual Studio Enterprise subscriptions    |
+* Competencies at the silver level, you earn five Visual Studio Enterprise subscriptions
+* With one competency at gold level, you earn 10 Visual Studio Entperise subscriptions
 
-### Additional Visual Studio benefit for select competencies
+### Other Visual Studio benefit for select competencies
 
-| Competency | Additional subscriptions earned for **silver** competency | Additional subscriptions earned for **gold** competency |
-|------------|-----------------------------------------------------------|---------------------------------------------------------|
-| Application Development  |  Five Visual Studio Enterprise subscriptions   | 25 Visual Studio Enterprise subscriptions  |
-| Cloud Customer Relationship Management  | Five Visual Studio Enterprise subscriptions  | 25 Visual Studio Enterprise subscriptions  |
-| Cloud Platform  | Five Visual Studio Enterprise subscriptions  | 25 Visual Studio Enterprise subscriptions  |
-| Cloud Productivity  | Five Visual Studio Enterprise subscriptions  | 25 Visual Studio Enterprise subscriptions  |
-| DevOps  | Five Visual Studio Enterprise subscriptions  | 25 Visual Studio Enterprise subscriptions  |
+* Competencies at the silver level, you earn five Visual Studio Enterprise subscriptions
+* With one competency at gold level, you earn 25 Visual Studio Enterprise subscriptions
+  + Application Development
+  + Cloud customer Relationship Management
+  + Cloud Platform
+  + Cloud Productivity
+  + DevOps
 
 Regardless of how many competencies a partner earns, the number of Visual Studio subscriptions is limited as follows:
 
 ### Limits for Visual Studio subscriptions earned through competencies
 
-| Maximum benefit for partners with only silver competencies | Maximum benefit for partners with at least one gold competency |
-|------------------------------------------------------------|----------------------------------------------------------------|
-| 25 Visual Studio Enterprise subscriptions per country/region; 75 worldwide | 50 Visual Studio Enterprise subscriptions per country/region; 150 worldwide |
+* Maximum benefit for partners with only silver competencies, 25 Visual Studio Enterprise subscriptins per country/region; 75 worldwide
+* Maximum benefit for partners with at least one gold competency, 50 Visual Studio Enterprise subscriptions per country/region; 150 worldwide
 
 ## Subscriptions for partners purchasing the Action Pack
 
@@ -45,18 +43,18 @@ Partners with a competency are eligible to purchase the Action Pack. Only one Ac
 
 With the Action Pack, the partner earns **three Visual Studio Professional subscriptions for the Microsoft Cloud Partner Program**. Visual Studio Professional for the Microsoft Cloud Partner Program is a custom offering without a commercially available equivalent in the market. Here's what's included:
 
-+ Visual Studio Professional--latest version only
-+ Windows Enterprise--latest version only, to use for development and testing only
-+ Windows Server--latest version only, to use for development and testing only
+* Visual Studio Professional--latest version only
+* Windows Enterprise--latest version only, to use for development and testing only
+* Windows Server--latest version only, to use for development and testing only
 
 Visual Studio Professional for the Microsoft Cloud Partner Program subscribers can also download and use software for their development, including the SQL Server Developer Edition.
 
 The Visual Studio Professional for the Microsoft Cloud Partner Program subscription doesn't include:
-+ Azure DevOps Services benefits
-+ Azure DevTest individual credits
-+ Technical support 
-+ Training 
-+ Other subscriber benefits included with some other Visual Studio subscriptions
+* Azure DevOps Services benefits
+* Azure DevTest individual credits
+* Technical support 
+* Training 
+* Other subscriber benefits included with some other Visual Studio subscriptions
 
 ## Internal use-only restriction
 
@@ -70,16 +68,16 @@ With Visual Studio subscriptions offered via the Microsoft Cloud Partner Program
 
 ## Resources
 
-+ Download the [Terms of participation in the Microsoft Cloud Partner Program](https://aka.ms/partner-benefits-use-guide)
-+ [Assign Visual Studio subscriptions to Microsoft Cloud Partner Program member employees](manage-mcpp-subscriptions.md)
-+ For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vssubscriberhelp).
+* Download the [Terms of participation in the Microsoft Cloud Partner Program](https://aka.ms/partner-benefits-use-guide)
+* [Assign Visual Studio subscriptions to Microsoft Cloud Partner Program member employees](manage-mcpp-subscriptions.md)
+* For assistance with sales, subscriptions, accounts, and billing for Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vssubscriberhelp).
 
 ## See also
 
-+ [Visual Studio documentation](/visualstudio/)
-+ [Azure DevOps Services documentation](/azure/devops/)
-+ [Azure documentation](/azure/)
-+ [Microsoft 365 documentation](/microsoft-365/)
+* [Visual Studio documentation](/visualstudio/)
+* [Azure DevOps Services documentation](/azure/devops/)
+* [Azure documentation](/azure/)
+* [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 

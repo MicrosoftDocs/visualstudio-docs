@@ -1,7 +1,7 @@
 ---
 title: Manage project and solution properties
 description: Manage both the project properties and the solution properties in Visual Studio for C#, Visual Basic, F#, C++, and JavaScript projects.
-ms.date: 09/10/2024
+ms.date: 02/25/2025
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -14,6 +14,8 @@ ms.subservice: general-ide
 Projects have properties that govern many aspects of compilation, debugging, testing, and deploying. Some properties are common among all project types, and some are unique to specific languages or platforms.
 
 You access project properties by right-clicking the [project node](use-solution-explorer.md#solution-explorer-ui) in **Solution Explorer** and selecting **Properties**, or by typing **properties** into the search box on the menu bar and selecting **Properties Window** from the results.
+
+Most project properties are not dependent on the configuration or the platform, but some are. Learn more about [setting properties based on configurations](how-to-create-and-edit-configurations.md#set-properties-based-on-configurations).
 
 ::: moniker range="vs-2022"
 
@@ -105,3 +107,6 @@ Solution properties are stored in a Solution User Options (*.suo*) file. For mor
 ## Related content
 
 - [What are solutions and projects in Visual Studio?](../ide/solutions-and-projects-in-visual-studio.md)
+- [MSBuild Properties](../msbuild/msbuild-properties.md)
+- [Use properties to control build settings](../msbuild/how-to-build-the-same-source-files-with-different-options.md#use-properties-to-control-build-settings)
+- [Understand build configurations](understanding-build-configurations.md)

@@ -20,6 +20,15 @@ For a tutorial that shows how to improve performance using the .NET Object Alloc
 
 ## Setup
 
+1. In the Visual Studio project, set the solution configuration to **Release** and select the deployment target.
+
+   ::: moniker range=">=vs-2022"
+   The deployment target typically matches the project name, indicating a local deployment.
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   The deployment target is typically **Local Windows Debugger** (or **Local Machine**).
+   ::: moniker-end
+
 1. Select **Alt+F2** to open the Performance Profiler in Visual Studio.
 
 1. Select the **.NET Object Allocation Tracking** check box.

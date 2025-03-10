@@ -1,7 +1,7 @@
 ---
 title: "Write and debug code by using Hot Reload"
 description: Explore the Hot Reload feature, also known as Edit and Continue, and make changes to your code while running applications.
-ms.date: 12/06/2024
+ms.date: 02/28/2025
 ms.topic: conceptual
 helpviewer_keywords:
   - "Hot reload"
@@ -26,9 +26,9 @@ We improve productivity by making it possible for you to edit your application's
 
 1. Open a code file and change the code.
 
-1. Apply the code changes using the **Hot Reload** button, or press **ALT+F10**.
+1. Apply the code changes using the **Hot Reload** ![Screenshot of the Hot Reload icon.](../debugger/media/vs-2022/hot-reload-icon.png) button, or press **ALT+F10**.
 
-   ![Screenshot of the Hot Reload button.](../debugger/media/vs-2022/dotnet-hot-reload.gif)
+   ![Screenshot of Hot Reload.](../debugger/media/vs-2022/dotnet-hot-reload.gif)
 
 To see the changes in the user interface, the code needs to be re-executed. For example, code-behind for a button must re-execute, or code that is being triggered at an interval through a timer. As another example, ASP.NET Core supports automatic browser refreshing due to the [MetadataUpdateHandler](hot-reload-metadataupdatehandler.md) functionality.
 
@@ -153,3 +153,4 @@ If you're using response compression on .NET Core, see the information on [respo
 
 * [Edit and Continue (C#)](../debugger/edit-and-continue-visual-csharp.md)
 * [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md)
+* [Configure Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md)

@@ -1,7 +1,7 @@
 ---
-title: Run unit tests by using Test Explorer
+title: Unit test basics with Test Explorer
 description: Learn how Visual Studio Test Explorer provides a flexible and efficient way to run your unit tests and view their results. 
-ms.date: 11/29/2023
+ms.date: 2/28/2025
 ms.topic: conceptual
 f1_keywords:
 - vs.UnitTest.CreateUnitTest
