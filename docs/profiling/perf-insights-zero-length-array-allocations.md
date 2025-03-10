@@ -19,7 +19,7 @@ Allocating zero-length arrays in .NET can lead to unnecessary memory allocations
 
 ## Performance insight description
 
-When a zero-length array is allocated, it results in a memory allocation that's often unnecessary. Instead of creating a new array, it's more efficient to use the statically allocated empty array instance provided by the `Array.Empty<T>()` method. This method returns a cached, empty array of the specified type, avoiding the overhead of a new allocation.
+When a zero-length array is allocated, it results in a memory allocation that's not necessary. Instead of creating a new array, it's more efficient to use the statically allocated empty array instance provided by the `Array.Empty<T>()` method. This method returns a cached, empty array of the specified type, avoiding the overhead of a new allocation.
 
 ## How to investigate a warning
 
