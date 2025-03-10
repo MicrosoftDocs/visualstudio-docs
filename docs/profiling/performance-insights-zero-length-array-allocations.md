@@ -1,5 +1,5 @@
 ---
-title: Perf insights for zero-length array allocations
+title: Performance insights for zero-length array allocations
 description: Learn how to improve performance for zero-length array allocations.
 ms.date: 3/7/2025
 ms.topic: reference
@@ -23,7 +23,7 @@ When a zero-length array is allocated, it results in a memory allocation that's 
 
 ## How to investigate a warning
 
-Click the **Investigate** link to go to the [Allocation](../profiling/dotnet-alloc-tool.md#allocation) view showing the allocated zero length array. Double clicking on the allocation shows you the code paths where the allocations are occurring. Consider reducing these allocations using the statically-allocated empty array instance provided by `Array.Empty<T>()`.
+Click the **Investigate** link to go to the [Allocation](../profiling/dotnet-alloc-tool.md#allocation) view showing the allocated zero length array. Double clicking on the allocation shows you the code paths where the allocations are occurring. Consider reducing these allocations using the statically allocated empty array instance provided by `Array.Empty<T>()`.
 
 Here is an example of an empty array allocation and its resolution:
 
