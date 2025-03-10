@@ -74,7 +74,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [Application deployment prerequisites (Windows desktop)](../deployment/application-deployment-prerequisites.md) - Clarify bootstrapper deployment scenarios and improve introduction
-- [Deployment documentation # Required; page title displayed in search results. Include the brand. < 60 chars.](../deployment/index.yml) - Clarify bootstrapper deployment scenarios and improve introduction
+- [Deployment documentation](../deployment/index.yml) - Clarify bootstrapper deployment scenarios and improve introduction
 
 ### Extensibility
 
