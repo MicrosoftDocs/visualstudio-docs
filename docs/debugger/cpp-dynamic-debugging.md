@@ -148,7 +148,7 @@ int main()
 5. When you hit the breakpoint, view the **Locals** window by selecting from the main menu: **Debug** > **Windows** > **Locals**. Notice that you can't see the value of `i` or `j` in the **Locals** window. The compiler has optimized them away.
 6. Try to set a breakpoint on line 19, `cout << (grid[i][j] ? '*' : ' ');` in `printGrid()`. You can't. This is expected because the compiler has optimized the code.
 
-Stop the program and enable C++ Dynamic Debugging and try it again:
+**Stop the program and enable C++ Dynamic Debugging and try it again:**
 
 7. In **Solution Explorer**, right-click the project and select **Properties** to open the project property pages.
 8. Choose **Advanced** > **Use C++ Dynamic Debugging** and set it to **Yes**:
@@ -173,7 +173,7 @@ Stop the program and enable C++ Dynamic Debugging and try it again:
 
     You can also deoptimize a function in the **Call Stack** window by right-clicking the function, or a selected group of functions, and selecting **Deoptimize on next entry**. This is useful when you want to view local variables in an optimized function that you haven't set a breakpoint in elsewhere on the callstack. Functions deoptimized in this way are grouped together in the **Breakpoints** window as a breakpoint group named **Deoptimized Functions**. Deleting the breakpoint group reverts the associated functions to their optimized state.
 
-    Conditional and dependent breakpoints work too!
+    **Conditional and dependent breakpoints work too!**
 
 11. Try setting a breakpoint again on line 19, `cout << (grid[i][j] ? '*' : ' ');` in `printGrid()`. This works now. That's because setting a breakpoint in the function deoptimizes it so that you can debug it normally.
 12. Right-click the breakpoint on line 19, choose **Conditions...**, and set the condition to `i == 10 && j== 10`. Then select **Only enable when the following breakpoint is hit:** and select the breakpoint on line 55 from the drop-down. Now the breakpoint on line 19 doesn't hit until the breakpoint on line 50 is first hit, and then when `grid[10][10]` is about to output to the console. The point is that you can set conditional and dependent breakpoints in an optimized function and make use of local variables and lines of code that in an optimized build may be unavailable to the debugger.
@@ -194,22 +194,55 @@ Stop the program and enable C++ Dynamic Debugging and try it again:
     The Breakpoints window shows the Deoptimized Functions group. The group is selected and the context menu is open with Delete Breakpoint Group selected.
     :::image-end:::
 
+## Turn off C++ Dynamic Debugging
 
-## C++ Dynamic Debugging and Unreal Engine
+You may need to debug optimized code without it being deoptimized, or put a breakpoint in optimized code and have the code stay optimized when the breakpoint hits. There are several ways to turn Dynamic Debugging off, or to keep it from deoptimizing code when you hit a breakpoint:
+
+- From the Visual Studio main menu: **Tools** > **Options** > **Debugging** > **General**, uncheck **Automatically deoptimize debugged functions when possible (.NET 8+, C++ Dynamic Debugging)**. The next time the debugger starts, code remains optimized.
+- Many dynamic debugging breakpoints are two breakpoints: one in the optimized binary and one in the unoptimized binary. In the **Breakpoints** window, choose **Show Columns** > **Function**, and deselect the breakpoint that belongs to the the `alt` binary. The other breakpoint in the pair will break in the optimized code.
+- While debugging, from the Visual Studio main menu choose **Debug** > **Windows** > **Dissassembly** and ensure it has focus. When you step-into a function via the disassembly window, the function won't be deoptimized.
+- Disable dynamic debugging entirely by not passing `/dynamicdeopt` to `cl.exe`, `lib.exe`, and `link.exe`. If you are consuming 3rd party libraries and can't rebuild them, don't pass `/dynamicdeopt` during the final `link.exe` to disable Dynamic Debugging for that binary.
+- To quickly disable dynamic debugging for a single binary (for example, `test.dll`), rename or delete the `alt` binary (for example, `test.alt.dll`).
+- To disable Dynamic Debugging for one or more `.cpp` files, don't pass `/dynamicdeopt` when building them. The remainder of your project is built with dynamic debugging.
+
+## Enable C++ Dynamic Debugging in Unreal Engine
 
 Unreal Engine 5.6 supports C++ Dynamic Debugging for both Unreal Build Tool and Unreal Build Accelerator. There are two ways to enable it:
 
-Use the **Development Editor** configuration, and modify your `BuildConfiguration.xml` to include:
+- Use the **Development Editor** configuration, and modify your `BuildConfiguration.xml` to include:
+    ```xml
+    <WindowsPlatform>
+        <bDynamicDebugging>true</bDynamicDebugging>
+    </WindowsPlatform>
+    ```
+- Another way is modify your `Target.cs` file for your project to contain `WindowsPlatform.bDynamicDebugging = true`.
 
-```xml
-<WindowsPlatform>
-    <bDynamicDebugging>true</bDynamicDebugging>
-</WindowsPlatform>
+For more information, see the Unreal Engine article [Build Configuration](https://dev.epicgames.com/documentation/en-us/unreal-engine/build-configuration-for-unreal-engine).
+
+## Troubleshooting
+
+Breakpoints don't hit in [Deoptimized] frames:
+- Ensure that the `alt.exe` and `alt.pdb` files built. Given, `test.exe` and `test.pdb`, `test.alt.exe` and `test.alt.pdb` must exist in the same directory. Ensure that the right build switches are set per this guide.
+- A "debug directory" entry exists in `test.exe` that informs the debugger the name of the `alt` binary. Open an x64-native Visual Studio command prompt and run: `link /dump /headers test.exe` to see if a `deopt` entry exists, as it does in this example output:
+
+```Output
+  Debug Directories
+
+        Time Type        Size      RVA  Pointer
+    -------- ------- -------- -------- --------
+    67CF0DA2 cv            30 00076330    75330    Format: RSDS, {7290497A-E223-4DF6-9D61-2D7F2C9F54A0}, 58, D:\work\shadow\test.pdb
+    67CF0DA2 feat          14 00076360    75360    Counts: Pre-VC++ 11.00=0, C/C++=205, /GS=205, /sdl=0, guardN=204
+    67CF0DA2 coffgrp      36C 00076374    75374
+    67CF0DA2 deopt         22 00076708    75708    Timestamp: 0x67cf0da2, size: 532480, name: test.alt.exe
 ```
 
-Another way is modify your `Target.cs` file for your project to contain `WindowsPlatform.bDynamicDebugging = true`.
+If the 'deopt' debug directory entry doesn't exist, confirm that you are passing `/dynamicdeopt` to `cl.exe`, `lib.exe`, and `link.exe`.
 
-For more information, see The Unreal Engine article [Build Configuration](https://dev.epicgames.com/documentation/en-us/unreal-engine/build-configuration-for-unreal-engine).
+- If `/dynamicdeopt` isn't passed to `cl.exe`, `lib.exe`, and `link.exe`, for all `.cpp`, `.lib`, and binary files, you'll get an uneven dynamic deoptimization experience. Confirm that the proper switches are set while running all C/C++ build tools.
+- See our list of known issues:
+•	<list here>
+
+If you don't see what you need, or things aren't working as expected, please open a ticket at [Developer Community](https://developercommunity.visualstudio.com/cpp), containing as much information as possible about the issue.
 
 ## General notes
 
@@ -218,6 +251,8 @@ IncrediBuild 10.23 supports C++ Dynamic Debugging builds.
 Functions that are inlined are deoptimized on demand. If you set a breakpoint on an inlined function, the debugger deoptimizes the function and its caller. The breakpoint will hit where you expect it to, as if your program was built without compiler optimizations.
 
 A function remains deoptimized even if you disable the breakpoints within it. You must remove the breakpoint for the function to revert to its optimized state.
+
+Many dynamic debugging breakpoints are two breakpoints: one in the optimized binary and one in the unoptimized binary. This is why you see more than one breakpoint in the **Breakpoints** window.
 
 The compiler flags used for the deoptimized version are the same as the flags used for the optimized version--except for optimization flags and `/dynamicdeopt`. This means any flags you set to define macros, and so on, are set in the deoptimized version as well. However, deoptimized code isn't the same as debug code. The deoptimized code is compiled with the same optimization flags as the optimized version, so asserts and other code that rely on debug-specific settings aren't included.
 
