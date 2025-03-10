@@ -50,3 +50,4 @@ For more information about using SSL with ASP.NET Core apps in containers, see [
 
 For a code sample that demonstrates creating custom certificates for a multi-service app that are trusted on the host and in the containers for HTTPS service-to-service communication, see [CertExample](https://github.com/NCarlsonMSFT/CertExample).
 
+If you plan to deploy your containerized app to Azure, see [Configure HTTPS when deploying containerized applications to Azure](manage-certificates.md).
