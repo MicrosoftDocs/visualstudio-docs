@@ -3,7 +3,7 @@ title: Issues signing in to Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/17/2024
+ms.date: 03/11/2025
 ms.topic: conceptual
 description: Review potential sign-in issues for Visual Studio subscriptions, including Microsoft Accounts (MSA) limitations, failures due to aliases or deleted addresses.
 ---
@@ -44,9 +44,12 @@ The sign-up block described here only prevents the creation of new accounts. It 
 > [!NOTE]
 > If your IT department asked you to create a personal Microsoft account with your work/school email, for example to access Microsoft business services like Premier Support, then talk to your admin team before renaming your account.
 
-## Signing in fails when using GCC High tenants
+## Signing in fails when using private cloud identities
 
-Visual Studio [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) don't support [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This limitation also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization needs to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
+Visual Studio [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) don't support private cloud identities or [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This limitation also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization needs to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
+
+> [!NOTE]
+> A legacy authentication process has allowed a subset of government cloud identities to license the Visual Studio IDE, but that functionality will be removed April 2025.
 
 ## Deleting a sign-in address can prevent access to a subscription
 
