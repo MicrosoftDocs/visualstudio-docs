@@ -1,74 +1,97 @@
 ---
-title: 'Specify Which Target to Build First'
-description: Specify the initial targets (InitialTargets) or the default targets (DefaultTargets) to build first in MSBuild project files.
-ms.date: 11/04/2016
-ms.topic: how-to
-helpviewer_keywords:
-- DefaultTargets attribute [MSBuild]
-- MSBuild, specifying the defalut target
-- MSBuild, DefaultTargets attribute
+title: Specify which MSBuild target to build first
+description: Learn how to specify the initial targets or the default targets to build first in MSBuild project files.
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
----
-# Specify which target to build first
+ms.topic: how-to
+ms.date: 02/28/2025
+helpviewer_keywords:
+- DefaultTargets attribute [MSBuild]
+- MSBuild, specifying the defalut target
+- MSBuild, DefaultTargets attribute
 
-A project file can contain one or more `Target` elements that define how the project is built. The Microsoft Build Engine (MSBuild) engine builds the first target it finds, and any dependencies, unless the project file contains a `DefaultTargets` attribute, an `InitialTargets` attribute, or a target is specified at the command line using the **-target** switch.
+# Customer intent: As a developer, I want to understand how to specify which MSBuild targets to build first so I can control how my project is built.
+---
+
+# Specify which MSBuild target to build first
+
+MSBuild project files can contain one or more targets that define how the project is built.
+MSBuild builds the first target it finds, and any dependencies, unless:
+
+- The `Project` element contains an `InitialTargets` attribute.
+- The `Project` element contains a `DefaultTargets` attribute.
+- The MSBuild command has a `-target` switch that specifies a target.
+
 ## Use the InitialTargets attribute
 
-The `InitialTargets` attribute of the `Project` element specifies a target that will run first, even if targets are specified on the command line or in the `DefaultTargets` attribute.
+The `InitialTargets` attribute of the `Project` element specifies the initial target that runs first. It overrides any targets that you specify with MSBuild on the command line or in the `DefaultTargets` attribute of the `Project` element.
 
-#### To specify one initial target
+### Specify a single initial target
 
-- Specify the default target in the `InitialTargets` attribute of the `Project` element. For example:
+Specify the default target in the `InitialTargets` attribute of the `Project` element. For example:
 
-   `<Project InitialTargets="Clean">`
+```xml
+<Project InitialTargets="Clean">
+```
 
-  You can specify more than one initial target in the `InitialTargets` attribute by listing the targets in order, and using a semicolon to separate each target. The targets in the list will be run sequentially.
+### Specify multiple initial targets
 
-#### To specify more than one initial target
+You can specify more than one initial target in the `InitialTargets` attribute of the `Project` element. List the targets in order and use a semicolon to separate each target. The targets in the list are run sequentially.
 
-- List the initial targets, separated by semicolons, in the `InitialTargets` attribute of the `Project` element. For example, to run the `Clean` target and then the `Compile` target, type:
+For example, to run the `Clean` target and then the `Compile` target, enter:
 
-     `<Project InitialTargets="Clean;Compile">`
+```xml
+<Project InitialTargets="Clean;Compile">
+```
 
 ## Use the DefaultTargets attribute
 
- The `DefaultTargets` attribute of the `Project` element specifies which target or targets are built if a target is not specified explicitly on the command line. If targets are specified in both the `InitialTargets` and `DefaultTargets` attributes and no target is specified on the command line, MSBuild runs the targets specified in the `InitialTargets` attribute followed by the targets specified in the `DefaultTargets` attribute.
+The `DefaultTargets` attribute of the `Project` element specifies which target or targets are built if a target isn't specified explicitly on the command line.
 
-#### To specify one default target
+If targets are specified in both the `InitialTargets` and `DefaultTargets` attributes of the `Project` element, and no target is specified on the command line, MSBuild runs the targets specified in the `InitialTargets` attribute followed by the targets specified in the `DefaultTargets` attribute.
 
-- Specify the default target in the `DefaultTargets` attribute of the `Project` element. For example:
+### Specify a single default target
 
-   `<Project DefaultTargets="Compile">`
+Specify the default target in the `DefaultTargets` attribute of the `Project` element. For example:
 
-  You can specify more than one default target in the `DefaultTargets` attribute by listing the targets in order, and using a semicolon to separate each target. The targets in the list will be run sequentially.
+```xml
+<Project DefaultTargets="Compile">`
+```
 
-#### To specify more than one default target
+### Specify multiple default targets
 
-- List the default targets, separated by semicolons, in the `DefaultTargets` attribute of the `Project` element. For example, to run the `Clean` target and then the `Compile` target, type:
+You can specify more than one default target in the `DefaultTargets` attribute of the `Project` element. List the default targets in order and use a semicolon to separate each target. The targets in the list are run sequentially.
 
-     `<Project DefaultTargets="Clean;Compile">`
+For example, to run the `Clean` target and then the `Compile` target, enter:
 
-## Use the -target Switch
+```xml
+<Project DefaultTargets="Clean;Compile">
+```
 
- If a default target is not defined in the project file, or if you do not want to use that default target, you can use the command line switch **-target** to specify a different target. The target or targets specified with the **-target** switch are run instead of the targets specified by the `DefaultTargets` attribute. Targets specified in the `InitialTargets` attribute always run first.
+## Use the -target switch to override the default target
 
-#### To use a target other than the default target first
+If a default target isn't defined in the project file, or if you don't want to use the defined default target, you can use the command line switch `-target` to specify a different target. The target or targets specified with the `-target` switch are run instead of the targets specified by the `DefaultTargets` attribute of the `Project` element. Targets specified in the `InitialTargets` attribute always run first.
 
-- Specify the target as the first target using the **-target** command line switch. For example:
+### Override the default target with a single target
 
-     `msbuild file.proj -target:Clean`
+Specify the target to use as the first target by using the `-target` command-line switch with a colon (:) and the name of the target. For example:
 
-#### To use several targets other than the default targets first
+```cmd
+msbuild file.proj -target:Clean
+```
 
-- List the targets, separated by semicolons or commas, using the **-target** command line switch. For example:
+### Override the default target with multiple targets
 
-     `msbuild <file name>.proj -t:Clean;Compile`
+Specify a list of targets to use as the first targets and separate them by semicolons with the `-target` command-line switch. For example:
+
+```cmd
+msbuild <file name>.proj -t:Clean;Compile
+```
 
 ## Related content
 
-- [MSBuild](../msbuild/msbuild.md)
-- [Targets](../msbuild/msbuild-targets.md)
-- [How to: Clean a build](../msbuild/how-to-clean-a-build.md)
+- [MSBuild overview](../msbuild/msbuild.md)
+- [MSBuild targets](../msbuild/msbuild-targets.md)
+- [Clean a build](../msbuild/how-to-clean-a-build.md)
