@@ -74,7 +74,7 @@ Because of output inference, you must examine the properties and items of a targ
 </CreateProperty>
 ```
 
-This code creates the property `CompileRan` and gives it the value `true`, but only if the target is executed. If the target is skipped,`CompileRan` isn't created.
+This code creates the property `CompileRan` and gives it the value `true`, but only if the target is executed. If the target is skipped, `CompileRan` isn't created.
 
 ## Related content
 
