@@ -45,7 +45,7 @@ With Visual Studio 17.13, GitHub Copilot Chat is integrated with Feature Search.
 
 For example, suppose you searched for "prettify file" in Feature Search. That doesn't return any results, because the name of the menu item is different ("Format document"). GitHub Copilot Chat is able to interpret your query and return the result.
 
-:::image type="content" source="./media/vs-2022/feature-search-ask-copilot-prettify.png" lightbox="./media/vs-2022/feature-search-ask-copilot-prettify.png"" alt-text="Screenshot showing the Ask Copilot button in All-In-One Search.":::
+:::image type="content" source="./media/vs-2022/feature-search-ask-copilot-prettify.png" lightbox="./media/vs-2022/feature-search-ask-copilot-prettify.png" alt-text="Screenshot showing the Ask Copilot button in All-In-One Search.":::
 
 In Visual Studio 17.13 and later, when you open Code Search without a query, you'll see a list of your recently navigated files. These include the files you opened through Code Search, but also any other files you opened in the solution. This makes it easy to jump back to a file you were recently working on without having to remember or type the file name.
 
