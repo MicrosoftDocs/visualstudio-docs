@@ -12,7 +12,7 @@ ms.subservice: extensibility-integration
 
 # Dependency injection in VisualStudio.Extensibility extensions
 
-Many components of the VisualStudio.Extensibility SDK, such as command handlers and tool window providers, are implemented as individual classes. To help share components between these classes, the SDK utilizes [.Net dependency injection](/dotnet/core/extensions/dependency-injection) to instantiate these classes as needed. To simplify data sharing between these components, we encourage extension developers to contribute their shared components to the dependency injection graph as well.
+Many components of the VisualStudio.Extensibility SDK, such as command handlers and tool window providers, are implemented as individual classes. To help share components between these classes, the SDK utilizes [.NET dependency injection](/dotnet/core/extensions/dependency-injection) to instantiate these classes as needed. To simplify data sharing between these components, we encourage extension developers to contribute their shared components to the dependency injection graph as well.
 
 ## Adding internal services to dependency injection graph
 
@@ -56,7 +56,7 @@ When adding a new service to the dependency injection graph in `InitializeServic
 
 * `AddTransient`: Transient services create a new instance of the implementation class or call the factory method each time a service queries it. As a result, each component gets its own instance of the service.
 
-* `AddScoped`: This scope only applies to classes that have the `VisualStudioContribution` attribute and services queried by them. In the context of VisualStudio.Extensibility SDK, a scope is defined by the lifetime of a contributed component. In most cases, this lifetime is same as the extension lifetime so scoped vs singletion services will behave same. Documentation will make a special note if there are contributed components with different lifetimes.
+* `AddScoped`: This scope only applies to classes that have the `VisualStudioContribution` attribute and services queried by them. In the context of VisualStudio.Extensibility SDK, a scope is defined by the lifetime of a contributed component. In most cases, this lifetime is same as the extension lifetime so scoped vs singleton services will behave same. Documentation will make a special note if there are contributed components with different lifetimes.
 
 ## Example use case
 
