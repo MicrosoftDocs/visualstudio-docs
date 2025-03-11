@@ -1,7 +1,7 @@
 ---
 title: "Add Unreal Engine classes, modules, and plugins in Visual Studio"
 description: "Learn how to add Unreal Engine classes, modules, and plugins to your Unreal Engine project from within Visual Studio"
-ms.date: 12/4/2024
+ms.date: 03/11/2025
 ms.topic: how-to
 ms.service: visual-studio
 ms.subservice: unreal-engine-tools
@@ -24,7 +24,7 @@ In this article, learn how to use Visual Studio Tools for Unreal Engine to:
 
 The following must be installed:
 
-- Visual Studio version 17.11 (17.11 preview versions ok) or later.
+- Visual Studio version 17.11 or later.
 - Unreal Engine version 5 or later.
 - Visual Studio Tools for Unreal Engine. See [Install Visual Studio Tools for Unreal Engine](vs-tools-unreal-install.md) for installation instructions.
 - Complete the [Quickstart: Visual Studio Tools for Unreal Engine](vs-tools-unreal-quickstart.md) to download and build the Lyra game and configure it to use Visual Studio Tools for Unreal Engine.
