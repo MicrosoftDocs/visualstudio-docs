@@ -31,9 +31,9 @@ If you're using Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/re
 > [!TIP]
 > To learn more about the new search experience, see both the [Better search in Visual Studio](https://devblogs.microsoft.com/visualstudio/new-better-search-in-visual-studio/) and [All-In-One Search available in 17.6](https://devblogs.microsoft.com/visualstudio/all-in-one-search-available-in-17-6/) blog posts.
 
-### About the All-In-One Search experience
+## About the All-In-One Search experience
 
-With **All-In-One Search**, not only can you search for features, but you can also search your code elements, such as files and symbols.
+With **All-In-One Search**, not only can you search for features using **Feature Search**, but you can also search your code elements, such as files and symbols, using **Code Search**.
 
 :::image type="content" source="media/vs-2022/all-in-one-search-member-filter.png" alt-text="Screenshot of the All-In-One Search experience in Visual Studio 2022 version 17.6 or later."::: 
 
@@ -43,7 +43,7 @@ The new search experience appears as an option next to the menu bar.
 
 With Visual Studio 17.13, GitHub Copilot Chat is integrated with Feature Search. When you're trying to find something in Feature Search, you can use the **Ask Copilot** button to get AI assistance that accounts for your Visual Studio version. To enable GitHub Copilot Chat, see [GitHub Copilot Chat](./visual-studio-github-copilot-chat.md).
 
-For example, suppose you searched for "prettify code" in Feature Search. That doesn't return any results, because the name of the menu item is different ("Format document" or "Format selection"). GitHub Copilot Chat is able to interpret your query and return the result.
+For example, suppose you searched for "prettify file" in Feature Search. That doesn't return any results, because the name of the menu item is different ("Format document"). GitHub Copilot Chat is able to interpret your query and return the result.
 
 :::image type="content" source="./media/vs-2022/feature-search-ask-copilot-prettify.png" lightbox="./media/vs-2022/feature-search-ask-copilot-prettify.png"" alt-text="Screenshot showing the Ask Copilot button in All-In-One Search.":::
 
@@ -51,11 +51,11 @@ In Visual Studio 17.13 and later, when you open Code Search without a query, you
 
 :::image type="content" source="./media/vs-2022/code-search-recently-navigated-files.png" alt-text="Screenshot of All-In-One Search showing recently navigated files.":::
 
-#### Keyboard shortcuts for search
+### Keyboard shortcuts for search
 
 You can use the **Ctrl**+**Q** keyboard shortcut for feature searches, and the **Ctrl**+**T** keyboard shortcut for code searches. 
 
-#### Filters for Code Search queries
+### Filters for Code Search queries
 
 To quickly get a filtered experience, you can type the corresponding prefixes before your query or use the corresponding keyboard shortcuts to open the search with the filter you want.
 
@@ -74,7 +74,7 @@ The text filter (**Shift**+**Alt**+**F**) in Code Search is available in preview
 
 :::image type="content" alt-text="Screenshot of text search with various options." source="./media/vs-2022/search-text-search-text-options-highlighted.png" :::
 
-#### Navigate to a specific line in Code Search
+### Navigation in Code Search
 
 With Visual Studio 17.12 and later, you can now navigate to a specific line in the current document or other specified document.
 
@@ -90,7 +90,7 @@ In Visual Studio 17.13 and later, you can also use parentheses to navigate to a 
 
 ![Screenshot showing navigation to file, line, and column.](./media/vs-2022/code-search-go-to-line-parentheses.png)
 
-#### Dock as a tool window
+### Dock as a tool window
 
 With Visual Studio 17.12 or later, you can dock the search window instead of having it floating in front. This can be helpful to avoid interrupting your code editing. Use the icon near the top right of the window to enable docking as a tool window.
 
@@ -98,7 +98,7 @@ With Visual Studio 17.12 or later, you can dock the search window instead of hav
 
 You can use a similar icon on the tool window to revert back to the floating window.
 
-#### Toggle preview pane
+### Toggle preview pane
 
 With Visual Studio 17.12 or later, you can toggle the preview pane. Use the eye icon to disable or enable the preview pane.
 
