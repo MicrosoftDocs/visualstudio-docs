@@ -22,11 +22,12 @@ Features that allow you to inspect variables are some of the most useful feature
 
 In this article, you'll learn how to inspect variables using the debugger in Visual Studio. The Visual Studio debugger provides several convenient ways to view variable values while debugging, including the following:
 
-- Inspect variables in the Autos and Locals window
-- View data tips
-- Set a watch on variables
-- View return values
-- Inspect variables in a visualizer
+- Variable inspection windows (Autos, Locals, and Watch windows)
+- Data tips in the code editor
+- Inline return values
+- Visualizers for large strings or complex .NET objects
+
+These features are only available while debugging. To learn how to start a debugging session, see [Start debugging and enter break mode](../debugger/navigating-through-code-with-the-debugger.md#start-debugging-and-enter-break-mode).
 
 > [!NOTE]
 > If this is the first time that you've tried to debug code, you might want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before going through this article.
@@ -188,7 +189,7 @@ While paused in the debugger, hover over an object with the mouse and you see it
 
 If the variable has properties, you can expand the object to see all its properties.
 
-### Set a watch on variables
+## Set a watch on variables
 
 You can use a **Watch** window to specify a variable (or an expression) that you want to keep an eye on. For detailed information, see [Set a Watch using the Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md).
 
@@ -203,7 +204,7 @@ While debugging, right-click an object and choose **Add Watch**.
 
 In this example, you have a watch set on the object, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** windows always show the variables that you are watching (they're grayed out when out of scope).
 
-## <a name="bkmk_returnValue"></a> View return values of method calls (.NET, C++)
+## <a name="bkmk_returnValue"></a> View return values of method calls
 
 In .NET and C++ code, you can examine return values in the **Autos** window when you step over or out of a method call, which can be useful when the return value is not stored in a local variable. A method could be used as a parameter, or as the return value of another method.
 
@@ -258,6 +259,24 @@ To see the return values of the `sumVars()` and `subtractVars()` method calls in
 
 ## Inspect variables in a visualizer
 
+While you are debugging in Visual Studio, you can view large strings or complex objects with built-in visualizers that make the data easier to inspect. For example:
+
+- The string visualizer shows text, XML, HTML, and JSON strings that are too long for a data tip or debugger window. It can also help you identify malformed strings. For more information, see [View strings in a string visualizer](../debugger/view-strings-visualizer.md). 
+- The DataSet and IEnumerable visualizers show .NET collection objects in a tabular visualizer. For more information, see [Tabular visualizers in Visual Studio](../debugger/view-data-in-tabular-visualizer.md)) objects.
+
+The visualizers appear in the **Autos** windows and other debugger windows.
+
+> [!NOTE]
+> If you need to inspect XAML or WPF UI elements in a visualizer, see or [Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md) or [How to use the WPF tree visualizer](../debugger/how-to-use-the-wpf-tree-visualizer.md).
+
+To open a visualizer, you must be paused during debugging. Hover over a variable that has a supported visualizer value, and select the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png).
+
+::: moniker range=">= vs-2022"
+![Open a string visualizer](../debugger/media/vs-2022/debug-tips-string-visualizers.png "Open string visualizer")
+::: moniker-end
+::: moniker range="vs-2019"
+![Open a string visualizer](../debugger/media/dbg-tips-string-visualizers.png "Open string visualizer")
+::: moniker-end
 
 ## Related content
 
