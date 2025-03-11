@@ -101,4 +101,4 @@ If your key vault is running on a different Microsoft account than the one you'r
 
 Learn more about Key Vault development by reading the [Key Vault Developer's Guide](/azure/key-vault/general/developers-guide).
 
-If your goal is to store configuration for an ASP.NET Core app in an Azure key vault, see [Azure Key Vault configuration provider in ASP.NET Core](/aspnet/core/security/key-vault-configuration).
+If your goal is to store configuration for an ASP.NET Core app in an Azure Key Vault, see [Azure Key Vault configuration provider in ASP.NET Core](/aspnet/core/security/key-vault-configuration).
