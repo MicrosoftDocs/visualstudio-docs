@@ -36,9 +36,9 @@ These features are only available while debugging. To learn how to start a debug
 
 The **Autos** and **Locals** windows show variable values while you are debugging. The windows are only available during a debugging session. The **Autos** window shows variables used around the current statement where the debugger is paused. The **Locals** window shows variables defined in the local scope, which is usually the current function or method.
 
-The **Autos** window is available for C#, Visual Basic, C++, and Python code, but not for JavaScript or F#.
-
 - To open the **Autos** window, while debugging, select **Debug** > **Windows** > **Autos**, or press **Ctrl**+**Alt**+**V** > **A**.
+
+  The **Autos** window is available for C#, Visual Basic, C++, and Python code, but not for JavaScript or F#.
 
 - To open the **Locals** window, while debugging, select **Debug** > **Windows** > **Locals**, or press **Alt**+**4**.
 
