@@ -61,7 +61,7 @@ To understand how to work with VisualStudio.Extensibility, we recommend a thorou
 
 If you're familiar with the Visual Studio SDK, refer to [Introduction to VisualStudio.Extensibility for VSSDK users](./get-started/oop-extensibility-model-overview.md).
 
-To build your mental model of how Visual Studio extensions work, see [Parts of a new Visual Studio extension](./inside-the-sdk/extension-anatomy.md).
+To build your mental model of how Visual Studio extensions work, see [Parts of a new Visual Studio extension](./inside-the-sdk/extension-anatomy.md) to learn about an extension's architecture. Further, you can read about [dependency injection](./inside-the-sdk/dependency-injection.md) which is used to share components between components of an extension.
 
 To find out what is included in the SDK, see [Functional areas of the SDK](./inside-the-sdk/inside-the-sdk.md).
 
