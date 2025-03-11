@@ -18,7 +18,7 @@ You can search for a specific process in the Processes view by using its process
 
 To search for a process in Processes view:
 
-1. Arrange your windows so that Spy++ and an active [Processes view](processes-view.md) window are visible.
+1. Arrange your windows so that Spy++ and an active [Processes view](/previous-versions/visualstudio/visual-studio-2017/debugger/processes-view) window are visible.
 
 2. From the **Search** menu, choose **Find Process**
 

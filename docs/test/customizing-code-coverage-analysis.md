@@ -1,7 +1,7 @@
 ---
 title: Customizing Code Coverage Analysis
 description: Learn how to use the ExcludeFromCodeCoverageAttribute attribute to exclude test code from coverage results. You can include assemblies outside your solution.
-ms.date: 02/20/2024
+ms.date: 12/13/2024
 ms.topic: conceptual
 ms.author: mikejo
 manager: mijacobs

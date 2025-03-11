@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot GitHub Copilot state
 description: Learn how to use the GitHub Copilot badge in the Visual Studio IDE to troubleshoot Copilot's state and resolve common issues.
-ms.date: 2/25/2025
+ms.date: 2/27/2025
 ms.topic: troubleshooting-problem-resolution
 author: anandmeg
 ms.author: meghaanand
@@ -25,6 +25,8 @@ GitHub Copilot may be offline due to one of the following reasons:
 - Copilot service being unavailable
 - Credentials requiring a refresh
 - Copilot being disabled
+
+If you're running into an issue not in this list, [report your problem](#send-feedback) to us.
 
 ## Network issues
 
@@ -56,3 +58,13 @@ Your administrator may have disabled GitHub Copilot for individual or any Copilo
 **Action:** Contact your IT department to confirm whether your admin has disabled Copilot.
 
 :::image type="content" source="media/vs-2022/copilot-inbox/copilot-disable-badge.png "alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/vs-2022/copilot-inbox/copilot-disable-badge.png":::
+
+## Send feedback
+
+ - [Report a problem](how-to-report-a-problem-with-visual-studio.md) to us from either the Visual Studio IDE or the installer. The built-in Feedback Tool allows you to easily add diagnostic information that helps the Visual Studio teams diagnose and fix the issues.
+ - Suggest a feature, track product issues, and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/VisualStudio).
+
+ ## Related content
+
+ - [Troubleshooting network errors for GitHub Copilot](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-network-errors-for-github-copilot)
+ - [Troubleshooting firewall settings for GitHub Copilot](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-firewall-settings-for-github-copilot)

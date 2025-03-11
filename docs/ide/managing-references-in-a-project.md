@@ -28,19 +28,19 @@ Before you write code against an external component or connected service, your p
 
 How you add a reference depends on the project type for the code you're working on:
 
-- If you see a **Dependencies** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to select **Add Project Reference**. 
+- If you see a **Dependencies** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to select **Add Project Reference**.
 
   :::image type="content" source="media/add-project-reference.png" alt-text="Screenshot of the Add Project Reference option from the right-click context menu.":::
-  
-  ::: moniker range="<=vs-2019" 
+
+  ::: moniker range="<=vs-2019"
   You can also right-click the [project node](use-solution-explorer.md#solution-explorer-ui) and select **Add** > **Project Reference**.
   ::: moniker-end
 
-- If you see a **References** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to select **Add Reference**. 
+- If you see a **References** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to select **Add Reference**.
 
   :::image type="content" source="media/add-reference.png" alt-text="Screenshot of the Add Reference option from the right-click context menu.":::
 
-  ::: moniker range="<=vs-2019" 
+  ::: moniker range="<=vs-2019"
   Or, right-click the [project node](use-solution-explorer.md#solution-explorer-ui) and select **Add** > **Reference**.
   ::: moniker-end
 
@@ -68,7 +68,7 @@ The [Universal Windows Platform](/windows/uwp/get-started/universal-application-
 
 Universal Windows Platform (UWP) projects can create references to other UWP projects in the solution, or to Windows 8.1 projects or binaries, provided that these projects don't use APIs that have been deprecated in Windows 10 and later. For more information, see [Move from Windows Runtime 8 to UWP](/windows/uwp/porting/w8x-to-uwp-root).
 
-If you choose to retarget Windows 8.1 projects to Windows 10 and later, see [Port, migrate, and upgrade Visual Studio projects](/visualstudio/releases/2022/port-migrate-and-upgrade-visual-studio-projects). 
+If you choose to retarget Windows 8.1 projects to Windows 10 and later, see [Port, migrate, and upgrade Visual Studio projects](/visualstudio/releases/2022/port-migrate-and-upgrade-visual-studio-projects).
 
 > [!TIP]
 > For information about how to create and build a new UWP app for Windows 10 and Windows 11, see [Choose a UWP version](/windows/uwp/updates-and-versions/choose-a-uwp-version?ocid=VSClient_VerX_NewProject_version&preserve-view=true).
@@ -135,7 +135,7 @@ When you have a project that produces an assembly, you should reference the proj
 
 ## Shared project references
 
-Unlike most other project types, a *shared project* doesn't have any binary output. Instead, the code is compiled into each project that references it. [Shared Projects](/xamarin/cross-platform/app-fundamentals/shared-projects?tabs=windows) let you write common code that's referenced by many different application projects. The code is compiled as part of each referencing project and can include compiler directives to help incorporate platform-specific functionality into the shared code base. Add a reference to a shared project on the **Shared Projects** tab of the Reference Manager dialog box.
+Unlike most other project types, a *shared project* doesn't have any binary output. Instead, the code is compiled into each project that references it. Shared Projects let you write common code that's referenced by many different application projects. The code is compiled as part of each referencing project and can include compiler directives to help incorporate platform-specific functionality into the shared code base. Add a reference to a shared project on the **Shared Projects** tab of the Reference Manager dialog box.
 
 ## File references
 

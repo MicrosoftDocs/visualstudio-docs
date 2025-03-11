@@ -25,7 +25,7 @@ For advanced users, you can even [customize the XAML Designer](https://github.co
 
 ::: moniker range="vs-2019"
 > [!NOTE]
-> Xamarin.Forms does not support a XAML designer. To view your Xamarin.Forms XAML UIs and edit them while the app is running, use XAML Hot Reload for Xamarin.Forms. For more information, see the [XAML Hot Reload for Xamarin.Forms (Preview)](/xamarin/xamarin-forms/xaml/hot-reload/) page.
+> Xamarin.Forms does not support a XAML designer. To view your Xamarin.Forms XAML UIs and edit them while the app is running, use XAML Hot Reload for Xamarin.Forms. For more information, see the [XAML Hot Reload for Xamarin.Forms](/xamarin/xamarin-forms/xaml/hot-reload/) page.
 ::: moniker-end
 
 ## XAML Designer workspace

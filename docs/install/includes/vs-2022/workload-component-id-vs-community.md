@@ -98,7 +98,7 @@ Microsoft.Net.ComponentGroup.4.6.2-4.7.1.DeveloperTools | .NET Framework 4.6.2-4
 Microsoft.Net.ComponentGroup.4.8.1.DeveloperTools | .NET Framework 4.8.1 development tools | 17.13.35710.127 | Optional
 Microsoft.VisualStudio.Component.AspNet | .NET Framework project and item templates | 17.13.35710.127 | Optional
 Microsoft.VisualStudio.Component.AspNet45 | Advanced ASP.NET features | 17.13.35710.127 | Optional
-Microsoft.VisualStudio.Component.Azure.Powershell | Azure Powershell | 17.13.35710.127 | Optional
+Microsoft.VisualStudio.Component.Azure.Powershell | Azure PowerShell | 17.13.35710.127 | Optional
 Microsoft.VisualStudio.Component.Wcf.Tooling | Windows Communication Foundation | 17.13.35710.127 | Optional
 
 ## Data storage and processing

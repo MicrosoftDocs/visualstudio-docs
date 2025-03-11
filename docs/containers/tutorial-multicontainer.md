@@ -3,7 +3,7 @@ title: Work with multiple containers using Docker Compose
 author: ghogen
 description: Create and manage multi-container applications with Docker Compose and Container Tools in Visual Studio, including custom launch profiles.
 ms.author: ghogen
-ms.date: 12/20/2024
+ms.date: 2/27/2025
 ms.subservice: container-tools
 ms.topic: tutorial
 ---
@@ -38,7 +38,7 @@ In Visual Studio, create an **ASP.NET Core Web App** project, named `WebFrontEnd
 
 ![Screenshot showing Create ASP.NET Core Web App project.](./media/tutorial-multicontainer/vs-2019/create-web-project1.png)
 
-Don't select **Enable Docker Support**. You add Docker support later in the process.
+Don't select **Enable container support**. You add support for Docker Compose later in the process.
 
 ![Screenshot of the Additional information screen when creating a web project. The option to Enable Docker Support is not selected.](./media/tutorial-multicontainer/vs-2019/create-web-project-additional-information.png)
 
@@ -412,7 +412,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
               condition: service_healthy
          build:
             context: .
-              dockerfile: WebFrontEnd/Dockerfile
+            dockerfile: WebFrontEnd/Dockerfile
 
       mywebapi:
          image: ${DOCKER_REGISTRY-}mywebapi
@@ -420,13 +420,13 @@ Congratulations, you're running a Docker Compose application with a custom Docke
             redis:
               condition: service_started
          healthcheck:
-            test: curl --fail http://mywebapi:8080/ || exit 1
+            test: curl --fail http://mywebapi:8080/Counter || exit 1
             interval: 20s
             timeout: 20s
             retries: 5
          build:
             context: .
-              dockerfile: MyWebAPI/Dockerfile
+            dockerfile: MyWebAPI/Dockerfile
 
       redis:
          image: redis
