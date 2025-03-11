@@ -115,12 +115,6 @@ Set a breakpoint and start debugging. When the breakpoint is hit, execution paus
 ![Screenshot of Debug Location toolbar.](../debugger/media/debuglocationtoolbar.png "Debug Location toolbar")
 ::: moniker-end
 
-::: moniker range=">= vs-2022"
-### Get AI assistance
-
-If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at variables in the Autos or Locals windows, or in data tips. Right-click on a variable and use the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
-::: moniker-end
-
 ### <a name="bkmk_whatvariables"></a> Language differences in the Autos window (C#, C++, Visual Basic, Python)
 
 Different code languages display different variables in the **Autos** window.
@@ -276,6 +270,12 @@ To open a visualizer, you must be paused during debugging. Hover over a variable
 ::: moniker-end
 ::: moniker range="vs-2019"
 ![Open a string visualizer](../debugger/media/dbg-tips-string-visualizers.png "Open string visualizer")
+::: moniker-end
+
+::: moniker range=">= vs-2022"
+## Get AI assistance
+
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at variables in the Autos or Locals windows, or in data tips. Right-click on a variable and use the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
 ::: moniker-end
 
 ## Related content
