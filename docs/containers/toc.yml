@@ -48,6 +48,8 @@
       href: container-entry-point.md
     - name: Use SSL for containerized ASP.NET Core apps
       href: container-certificate-management.md
+    - name: Configure HTTPS for Azure deployment
+      href: manage-certificates.md
   - name: Troubleshooting
     href: /troubleshoot/developer/visualstudio/ide/troubleshooting-docker-errors?toc=%2Fvisualstudio%2Fcontainers%2Ftoc.json
   - name: Reference
