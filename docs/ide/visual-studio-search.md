@@ -80,6 +80,10 @@ You can also go to a line in a different document by typing the filename, colon,
 
 ![Screenshot showing Go to line in different document.](./media/vs-2022/all-in-one-search-go-to-line-different-document.png)
 
+In Visual Studio 17.13 and later, you can also use parentheses to navigate to a specific line and column in a specified file. Use `file(line)` to navigate to a specific line in a specified file, or `file(line,col)` to navigate to a specific line and column in a specified file.
+
+![Screenshot showing navigation to file, line, and column.](./media/vs-2022/code-search-go-to-line-parentheses.png)
+
 #### Dock as a tool window
 
 With Visual Studio 17.12 or later, you can dock the search window instead of having it floating in front. This can be helpful to avoid interrupting your code editing. Use the icon near the top right of the window to enable docking as a tool window.
