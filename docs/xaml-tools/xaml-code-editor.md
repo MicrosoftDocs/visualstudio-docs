@@ -1,6 +1,6 @@
 ---
 title: What is the XAML code editor?
-description: Explore the XAML code editor in Visual Studio for tools to create Windows Presentation Foundation (WPF) or Universal Windows Platform (UWP) apps and Xamarin forms.
+description: Explore the XAML code editor in Visual Studio for tools to create Windows Presentation Foundation (WPF) or Universal Windows Platform (UWP) apps and Xamarin.Forms.
 ms.date: 06/16/2020
 ms.topic: overview
 f1_keywords:
@@ -13,7 +13,7 @@ ms.subservice: xaml-tools
 ---
 # XAML code editor
 
-The XAML code editor in the [Visual Studio IDE](../get-started/visual-studio-ide.md) includes all the tools you need to create WPF and UWP apps for the Windows platform, and for [Xamarin.Forms](/xamarin/xamarin-forms/user-interface/text/editor/). This article outlines both the role the code editor plays when you develop XAML-based apps, and the features that are unique to the XAML code editor in Visual Studio 2019.
+The XAML code editor in the [Visual Studio IDE](../get-started/visual-studio-ide.md) includes all the tools you need to create WPF and UWP apps for the Windows platform, and for  [Xamarin.Forms](/xamarin/xamarin-forms/) or [.NET MAUI](/dotnet/maui). This article outlines both the role the code editor plays when you develop XAML-based apps, and the features that are unique to the XAML code editor in Visual Studio 2019.
 
 To start, let's take a look at the IDE (integrated development environment) with an open WPF project. The following image shows several of the key IDE tools you'll use along with the XAML code editor.
 
@@ -186,7 +186,7 @@ For more information, see the [Code snippets](../ide/code-snippets.md) and [C# c
 
 ### XAML #region support
 
-In Visual Studio, #region support is available for XAML developers in WPF, UWP, and [Xamarin.Forms](/xamarin/xamarin-forms/user-interface/text/editor/). In Visual Studio 2019, we continue to make incremental improvements to #region support. For example, in [version 16.4](/visualstudio/releases/2019/release-notes-v16.4/) and later, #region options show as you begin to type `<!`.
+In Visual Studio, #region support is available for XAML developers in WPF, UWP, [Xamarin.Forms](/xamarin/xamarin-forms/), and [.NET MAUI](/dotnet/maui). In Visual Studio 2019, we continue to make incremental improvements to #region support. For example, in [version 16.4](/visualstudio/releases/2019/release-notes-v16.4/) and later, #region options show as you begin to type `<!`.
 
 ![The XAML code editor with #region options showing in IntelliSense](media/code-editor-xaml-region.png "Screenshot of the XAML code editor with #region options showing in IntelliSense")
 
@@ -301,3 +301,4 @@ To learn more about how to edit your code in real time while you're running your
 - [Visual Studio code editor features](../ide/writing-code-in-the-code-and-text-editor.md)
 - [XAML in UWP apps](/windows/uwp/xaml-platform/xaml-overview/)
 - [XAML in Xamarin.Forms apps](/xamarin/xamarin-forms/xaml/)
+- [XAML in .NET MAUI apps](/dotnet/maui/xaml/)

@@ -64,14 +64,14 @@ Not sure which subscription you're using? To see the subscriptions that are asso
    1. Provide the contact information that's requested.
    1. Select **Redeem**.
 
-   :::image type="content" source="_img/vs-cloud-academy/web-form.png" alt-text="Screenshot of the Cloud Academy registration form and the Redeem button highlighted.":::
+   :::image type="content" source="_img/vs-cloud-academy/web-form-rev.png" alt-text="Screenshot of the Cloud Academy registration form and the Redeem button highlighted.":::
 
    > [!NOTE]
    > The registration page expires after a few minutes. If you don't finish the registration process before the page expires, return to the Cloud Academy benefit tile in [Visual Studio Subscriptions](https://my.visualstudio.com/benefits) and select **Activate** again.
 
 1. It might take a moment to set up your Cloud Academy account. When your account is set up, the Cloud Academy webpage displays a confirmation. An email that has your sign-in information is sent to the email address you entered when you created the account. If you have trouble finding the email, be sure to check your spam folder.
 
-   :::image type="content" source="_img/vs-cloud-academy/web-form-confirm.png" alt-text="Screenshot of the Cloud Academy confirmation webpage.":::
+   :::image type="content" source="_img/vs-cloud-academy/web-form-confirm-rev.png" alt-text="Screenshot of the Cloud Academy confirmation webpage.":::
 
 1. Check your inbox for further instructions to how to access your benefit.
 

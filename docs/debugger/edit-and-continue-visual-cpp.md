@@ -101,3 +101,4 @@ You can use Edit and Continue in C++ projects. See [Supported Code Changes (C++)
 ## Related content
 
 - [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md)
+- [Configure Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md)
