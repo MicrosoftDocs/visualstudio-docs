@@ -18,7 +18,8 @@ Many components of the VisualStudio.Extensibility SDK, such as command handlers 
 
 Each extension in the VisualStudio.Extensibility SDK has its own service graph that is created when the extension is first loaded. Extensions can override the [InitializeServices](/dotnet/api/microsoft.visualstudio.extensibility.extension.initializeservices) method to add their own services to the dependency injection graph. You can refer to [Markdown Linter](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/MarkdownLinter) for an example of using dependency injection to share a service.
 
-**Note**: Unlike Visual Studio SDK's `IServiceProvider` pattern, these services are only visible to other components within the same extension and are not intended to be shared with other extensions.
+> [!NOTE] 
+> Unlike Visual Studio SDK's `IServiceProvider` pattern, these services are only visible to other components within the same extension and are not intended to be shared with other extensions.
 
 ## Services provided by VisualStudio.Extensibility SDK
 
