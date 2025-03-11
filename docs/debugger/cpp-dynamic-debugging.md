@@ -18,6 +18,7 @@ manager: coxford
 ms.subservice: debug-diagnostics
 ---
 # C++ Dynamic Debugging (Preview)
+
 > [!IMPORTANT]
 > C++ Dynamic Debugging is currently in PREVIEW.
 > This information relates to a prerelease feature that might be substantially modified before release. Microsoft makes no warranties, expressed or implied, with respect to the information provided here.
@@ -199,7 +200,7 @@ int main()
 You may need to debug optimized code without it being deoptimized, or put a breakpoint in optimized code and have the code stay optimized when the breakpoint hits. There are several ways to turn off Dynamic Debugging or keep it from deoptimizing code when you hit a breakpoint:
 
 - From the Visual Studio main menu: **Tools** > **Options** > **Debugging** > **General**, uncheck **Automatically deoptimize debugged functions when possible (.NET 8+, C++ Dynamic Debugging)**. The next time the debugger starts, code remains optimized.
-- Many dynamic debugging breakpoints are two breakpoints: one in the optimized binary and one in the unoptimized binary. In the **Breakpoints** window, choose **Show Columns** > **Function**, and deselect the breakpoint that belongs to the the `alt` binary. The other breakpoint in the pair breaks in the optimized code.
+- Many dynamic debugging breakpoints are two breakpoints: one in the optimized binary and one in the unoptimized binary. In the **Breakpoints** window, choose **Show Columns** > **Function**, and deselect the breakpoint associated with the the `alt` binary. The other breakpoint in the pair breaks in the optimized code.
 - While debugging, from the Visual Studio main menu choose **Debug** > **Windows** > **Dissassembly** and ensure it has focus. When you step-into a function via the disassembly window, the function won't be deoptimized.
 - Disable dynamic debugging entirely by not passing `/dynamicdeopt` to `cl.exe`, `lib.exe`, and `link.exe`. If you're consuming third party libraries and can't rebuild them, don't pass `/dynamicdeopt` during the final `link.exe` to disable Dynamic Debugging for that binary.
 - To quickly disable dynamic debugging for a single binary (for example, `test.dll`), rename or delete the `alt` binary (for example, `test.alt.dll`).
@@ -209,19 +210,20 @@ You may need to debug optimized code without it being deoptimized, or put a brea
 
 Unreal Engine 5.6 supports C++ Dynamic Debugging for both Unreal Build Tool and Unreal Build Accelerator. There are two ways to enable it:
 
-- Use the **Development Editor** configuration, and modify your `BuildConfiguration.xml` to include:
+- Modify your project's `Target.cs` file to contain `WindowsPlatform.bDynamicDebugging = true`.
+- Or use the **Development Editor** configuration, and modify your `BuildConfiguration.xml` to include:
     ```xml
     <WindowsPlatform>
         <bDynamicDebugging>true</bDynamicDebugging>
     </WindowsPlatform>
     ```
-- Or modify your project's `Target.cs` file to contain `WindowsPlatform.bDynamicDebugging = true`.
 
 For more information, see Unreal Engine's article [Build Configuration](https://dev.epicgames.com/documentation/en-us/unreal-engine/build-configuration-for-unreal-engine).
 
 ## Troubleshooting
 
 If breakpoints don't hit in deoptimized functions:
+
 - Ensure that the `alt.exe` and `alt.pdb` files built. Given `test.exe` and `test.pdb`, `test.alt.exe` and `test.alt.pdb` must exist in the same directory. Ensure that the right build switches are set per this guide.
 - A "debug directory" entry exists in `test.exe` that the debugger uses to find the `alt` binary to use for Deoptimized Debugging. Open a x64-native Visual Studio command prompt and run: `link /dump /headers <your executable.exe>` to see if a `deopt` entry exists. A `deopt` entry appears in the `Type` column as shown in the last line of this example:
 
@@ -236,13 +238,13 @@ If breakpoints don't hit in deoptimized functions:
         67CF0DA2 deopt         22 00076708    75708    Timestamp: 0x67cf0da2, size: 532480, name: test.alt.exe
     ```
 
-    If the `deopt` debug directory entry isn't there, confirm that you're passing `/dynamicdeopt` to `cl.exe`, `lib.exe`, and `link.exe`.    
+    If the `deopt` debug directory entry isn't there, confirm that you're passing `/dynamicdeopt` to `cl.exe`, `lib.exe`, and `link.exe`.
 
 - Dynamic Deoptimization won't work consistently if `/dynamicdeopt` isn't passed to `cl.exe`, `lib.exe`, and `link.exe` for all `.cpp`, `.lib`, and binary files. Confirm that the proper switches are set when building your project.
 - See our list of known issues:
   - JTW
 
-If you don't see what you need, or things aren't working as expected, open a ticket at [Developer Community](https://developercommunity.visualstudio.com/cpp), containing as much information as possible about the issue.
+If things aren't working as expected, open a ticket at [Developer Community](https://developercommunity.visualstudio.com/cpp), containing as much information as possible about the issue.
 
 ## General notes
 
