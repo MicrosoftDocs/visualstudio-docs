@@ -1,7 +1,7 @@
 ---
 title: Use Visual Studio search to find code & do queries
 description: Explore the Visual Studio search feature and discover how to find settings, menus, code, and work with filters, queries, and more.
-ms.date: 11/1/2024
+ms.date: 3/11/2025
 ms.topic: how-to
 helpviewer_keywords:
 - environments [Visual Studio], navigation
@@ -40,6 +40,10 @@ With **All-In-One Search**, not only can you search for features, but you can al
 The new search experience appears as an option next to the menu bar. 
 
 :::image type="content" source="media/vs-2022/all-one-search-from-menu-bar.png" alt-text="Screenshot of the All-In-One Search experience from the Visual Studio menu bar.":::
+
+In Visual Studio 17.13 and later, when you open Code Search without a query, you'll see a list of your recently navigated files. These include the files you opened through Code Search, but also any other files you opened in the solution. This makes it easy to jump back to a file you were recently working on without having to remember or type the file name.
+
+:::image type="content" source="./media/vs-2022/code-search-recently-navigated-files.png" alt-text="Screenshot of All-In-One Search showing recently navigated files.":::
 
 #### Keyboard shortcuts for search
 
