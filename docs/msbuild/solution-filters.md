@@ -48,6 +48,9 @@ The solution filter doesn't have to be in the same folder as the solution. The p
 
 The backslashes in paths must be doubled, since they're escaped.
 
+> [!NOTE]
+> In the case where you're using the `.slnx` solution file format, supported in MSBuild 17.12 and later, the `.slnx` file takes priority over the `.slnf` file.
+
 ## Example
 
 Here's an example of a filtered solution in Visual Studio:

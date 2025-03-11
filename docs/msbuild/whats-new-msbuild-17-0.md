@@ -55,6 +55,7 @@ In MSBuild 17.8 and later, try the new Terminal Logger (`-terminalLogger` or `-t
 ## Other behavior changes
 
 - `MSBuildCopyContentTransitively` is now on by default, ensuring consistency in output folders on incremental builds.
+- In MSBuild 17.12 and later, MSBuild can build solution files in the `.slnx` format. See [MSBuild command-line reference](./msbuild-command-line-reference.md).
 
 For more changes in this version, see the detailed release notes and for changes in MSBuild versions that you can opt out of, see [change waves](change-waves.md).
 
