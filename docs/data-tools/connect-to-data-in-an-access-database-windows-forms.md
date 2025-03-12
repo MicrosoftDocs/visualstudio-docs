@@ -1,7 +1,7 @@
 ---
 title: Connect to Access database in .NET Framework apps
 description: Connect to data stored in an Access database (.mdb file or .accdb file) from .NET Framework applications with ADO.NET in Visual Studio.
-ms.date: 05/02/2024
+ms.date: 03/12/2025
 ms.topic: how-to
 helpviewer_keywords:
 - data [Visual Studio], connecting
@@ -99,7 +99,7 @@ Connect to databases created with Microsoft 365, Access 2016, Access 2013, Acces
 
     ![Screenshot of Data Sources Window, populated with database objects](media/vs-2022/data-sources-window-populated.png)
 
-14. On 64-bit machines with the 64-bit Access database engine, you need to ensure that the application runs as a 64-bit application. Open the project properties (press **Alt**+**Enter** or right-click on the project node, and select **Properties**). In the **Build** tab, clear the **Prefer 32-bit** checkbox.
+14. On 64-bit machines with the 64-bit Access database engine, you need to ensure that the application runs as a 64-bit application. Open the project properties (press **Alt**+**Enter** or right-click on the project node, and select **Properties**). In the **Build** tab for C#, or the **Compile** tab for Visual Basic, clear the **Prefer 32-bit** checkbox.
 
 The connection string is stored in *app.config*, and in the *Settings.settings* file under **Properties** in Solution Explorer.
 
