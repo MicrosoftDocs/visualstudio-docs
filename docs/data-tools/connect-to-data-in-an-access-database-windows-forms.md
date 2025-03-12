@@ -26,7 +26,7 @@ You can connect to an Access database (either an `.mdb` file or an `.accdb` file
 >
 > If you need to maintain 32-bit applications that connect to Access databases, you can still build and run the application with Visual Studio 2022. However, if you need to use any of the Visual Studio Data Tools such as Server Explorer, Data Source Wizard, or the DataSet Designer, you need to use an earlier version of Visual Studio that is still a 32-bit process. The last version of Visual Studio that was a 32-bit process was Visual Studio 2019.
 >
-> If you plan on converting the project to be a 64-bit process, it's recommended that you use the 64-bit Microsoft Access database Engine, also called Access Connectivity Engine (ACE). See [OLE DB Provider for Jet and ODBC driver are 32-bit versions only](/office/troubleshoot/access/jet-odbc-driver-available-32-bit-version) for more information.
+> If you plan on converting the project to be a 64-bit process, it's recommended that you use the 64-bit Microsoft Access database Engine, also called Access Connectivity Engine (ACE). See [OLE DB Provider for Jet and ODBC driver are 32-bit versions only](/office/troubleshoot/access/jet-odbc-driver-available-32-bit-version).
 
 ## Prerequisites
 
@@ -77,7 +77,7 @@ Connect to databases created with Microsoft 365, Access 2016, Access 2013, Acces
 8. Choose **Browse** next to **Database file name**, and then navigate to your `.accdb` file and choose **Open**.
 
    > [!NOTE]
-   > If the bitness (32-bit or 64-bit) of Microsoft Office and Visual Studio do not match, you will see an error while connecting to an Access database. In Visual Studio 2019, you will get an error that the database provider is not registered. In Visual Studio 2022, you will see an error that you can't connect to a 32-bit data provider. To resolve this error, make sure that if you are using a 32-bit version of Office, you are using Visual Studio 2019 or earlier; for a 64-bit version of Office, you need Visual Studio 2022 or later.
+   > If the bitness (32-bit or 64-bit) of Microsoft Office and Visual Studio do not match, you see an error while connecting to an Access database. In Visual Studio 2019, you get an error that the database provider is not registered. In Visual Studio 2022, you see an error that you can't connect to a 32-bit data provider. To resolve this error, make sure that if you are using a 32-bit version of Office, you are using Visual Studio 2019 or earlier; for a 64-bit version of Office, you need Visual Studio 2022 or later.
 
 9. Enter a user name and password (if necessary), and then choose **OK**.
 
@@ -144,7 +144,7 @@ Connect to databases created with Microsoft 365, Access 2016, Access 2013, Acces
 8. Choose **Browse** next to **Database file name**, and then navigate to your `.accdb` file and choose **Open**.
 
    > [!NOTE]
-   > If the bitness (32-bit or 64-bit) of Microsoft Office and Visual Studio do not match, you will see an error while connecting to an Access database. In Visual Studio 2019, you will get an error that the database provider is not registered. In Visual Studio 2022, you will see an error that you can't connect to a 32-bit data provider. To resolve this error, make sure that if you are using a 32-bit version of Office, you are using Visual Studio 2019 or earlier; for a 64-bit version of Office, you need Visual Studio 2022 or later.
+   > If the bitness (32-bit or 64-bit) of Microsoft Office and Visual Studio do not match, you see an error while connecting to an Access database. In Visual Studio 2019, you get an error that the database provider is not registered. In Visual Studio 2022, you see an error that you can't connect to a 32-bit data provider. To resolve this error, make sure that if you're using a 32-bit version of Office, you're using Visual Studio 2019 or earlier; for a 64-bit version of Office, you need Visual Studio 2022 or later.
 
 9. Enter a user name and password (if necessary), and then choose **OK**.
 
@@ -206,7 +206,7 @@ Congratulations! With a little help from Visual Studio, you've created a form-ba
 
 ## Next steps
 
-The dataset that you just created is available in the **Data Sources** window. You can now perform any of the following tasks:
+The dataset that you created is available in the **Data Sources** window. You can now perform any of the following tasks:
 
 - Select items in the **Data Sources** window and drag them onto your form or design surface (see [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md) or [WPF data binding overview](/dotnet/desktop-wpf/data/data-binding-overview)).
 
