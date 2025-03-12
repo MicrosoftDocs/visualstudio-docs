@@ -20,20 +20,20 @@ ms.subservice: data-tools
 You can connect to an Access database (either an `.mdb` file or an `.accdb` file) by using Visual Studio. After you define the connection, the data appears in the **Data Sources** window. From there, you can drag tables or views onto your design surface.
 
 > [!NOTE]
-> If you're using Visual Studio to connect to Access databases, you will need to be aware that versions of Visual Studio prior to Visual Studio 2022 are all 32-bit processes. This means some of the data tools in Visual Studio 2019 and earlier will only be able to connect to Access databases using 32-bit data providers.
+> If you're using Visual Studio to connect to Access databases, be aware that versions of Visual Studio prior to Visual Studio 2022 are all 32-bit processes. This means some of the data tools in Visual Studio 2019 and earlier can only connect to Access databases using 32-bit data providers.
 >
-> If you're using Visual Studio 2022 to connect to Access databases, you will need to be aware that Visual Studio 2022 is now a 64-bit process. This means some of the data tools in Visual Studio will not be able to connect to Access databases using 32-bit data providers.
+> If you're using Visual Studio 2022 to connect to Access databases, be aware that Visual Studio 2022 is now a 64-bit process. This means some of the data tools in Visual Studio can't connect to Access databases using 32-bit data providers.
 >
-> If you need to maintain 32-bit applications that connect to Access databases, you will still be able to build and run the application with Visual Studio 2022. However, if you need to use any of the Visual Studio Data Tools such as Server Explorer, Data Source Wizard, or the DataSet Designer, you will need to use an earlier version of Visual Studio that is still a 32-bit process. The last version of Visual Studio that was a 32-bit process was Visual Studio 2019.
+> If you need to maintain 32-bit applications that connect to Access databases, you can still build and run the application with Visual Studio 2022. However, if you need to use any of the Visual Studio Data Tools such as Server Explorer, Data Source Wizard, or the DataSet Designer, you need to use an earlier version of Visual Studio that is still a 32-bit process. The last version of Visual Studio that was a 32-bit process was Visual Studio 2019.
 >
-> If you plan on converting the project to be a 64-bit process, it's recommended that you use the 64-bit Microsoft Access database Engine, also called Access Connectivity Engine (ACE). Please see [OLE DB Provider for Jet and ODBC driver are 32-bit versions only](/office/troubleshoot/access/jet-odbc-driver-available-32-bit-version) for more information.
+> If you plan on converting the project to be a 64-bit process, it's recommended that you use the 64-bit Microsoft Access database Engine, also called Access Connectivity Engine (ACE). See [OLE DB Provider for Jet and ODBC driver are 32-bit versions only](/office/troubleshoot/access/jet-odbc-driver-available-32-bit-version) for more information.
 
 ## Prerequisites
 
 To use these procedures, you need:
 
 - [Visual Studio](../install/install-visual-studio.md)
-- A Windows Forms or WPF project
+- A Windows Forms or Windows Presentation Foundation (WPF) project
 - Either an Access database (`.accdb` file), or an Access 2000-2003 database (`.mdb` file). Follow the procedure that corresponds to your file type.
 
 :::moniker range=">=vs-2022"
