@@ -19,7 +19,7 @@ monikerRange: 'vs-2019'
 # Build Events Page, Project Designer (C#)
 
 > [!NOTE]
-> This page applies to Visual Studio 2019. If you're using Visual Studio 2022, the project designer for .NET Core and .NET 5 and later projects is quite different. See [Specify build events (C#)](../how-to-specify-build-events-csharp.md?view=vs-2022).
+> This page applies to Visual Studio 2019. If you're using Visual Studio 2022, the project designer for .NET Core and .NET 5 and later projects is quite different. See [Specify build events (C#)](../how-to-specify-build-events-csharp.md?view=vs-2022&preserve-view=true).
 
 Use the **Build Events** page of the **Project Designer** to specify build configuration instructions. You can also specify the conditions under which any post-build events are run. For more information, see [How to: Specify Build Events (C#)](../../ide/how-to-specify-build-events-csharp.md) and [How to: Specify Build Events (Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md).
 
