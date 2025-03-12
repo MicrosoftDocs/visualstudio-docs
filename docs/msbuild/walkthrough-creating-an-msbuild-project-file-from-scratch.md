@@ -19,7 +19,7 @@ Programming languages that target the .NET platform use MSBuild project files to
 >
 > The build logic imported by standard `.csproj` files supports many more options and a much more complex build process than this example.
 
- For information about creating a project file for a C++ project, see [Use MSBuild to create a Visual C++ project](/cpp/build/walkthrough-using-msbuild-to-create-a-visual-cpp-project) and 
+ For information about creating a project file for a C++ project, see [Use MSBuild to create a Visual C++ project](/cpp/build/walkthrough-using-msbuild-to-create-a-visual-cpp-project) and [MSBuild on the command line](/cpp/build/msbuild-visual-cpp).
 
  This tutorial shows how to create a basic project file incrementally, by using only a text editor. The walkthrough follows these steps:
 
