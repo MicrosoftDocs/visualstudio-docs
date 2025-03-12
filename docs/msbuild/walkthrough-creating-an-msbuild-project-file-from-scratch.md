@@ -1,7 +1,7 @@
 ---
-title: Create an MSBuild project file from scratch
-description: Create an MSBuild project file from scratch to understand how the XML is organized and how you can change it to control a build.
-ms.date: 02/13/2024
+title: Create a project file from scratch
+description: Create a project file from scratch to understand how the XML is organized and how you can change it to control a build.
+ms.date: 03/10/2025
 ms.topic: tutorial
 helpviewer_keywords:
 - MSBuild, tutorial
@@ -10,16 +10,16 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
 ---
-# Create an MSBuild project file from scratch
+# Create a project file from scratch
 
-Programming languages that target the .NET Framework use MSBuild project files to describe and control the application build process. When you use Visual Studio to create an MSBuild project file, the appropriate XML is added to the file automatically. However, you may find it helpful to understand how the XML is organized and how you can change it to control a build.
+Programming languages that target the .NET platform use MSBuild project files to describe and control the application build process. When you use Visual Studio to create a project file, the appropriate XML is added to the file automatically. However, you may find it helpful to understand how the XML is organized and how you can change it to control a build.
 
 > [!NOTE]
-> This article is appropriate if you want to learn the basic fundamentals of how MSBuild works independently of any SDK. Building with an SDK, such as when you use `dotnet build` or you add the `Sdk` attribute to the root project element, is not covered in this article. See [.NET Project SDKs](/dotnet/core/project-sdk/overview).
+> This article is appropriate if you want to learn the basic fundamentals of how MSBuild works independently of any SDK. Building with an SDK, such as when you use `dotnet build` or you add the `Sdk` attribute to the root project element, isn't covered in this article. See [.NET Project SDKs](/dotnet/core/project-sdk/overview).
 >
 > The build logic imported by standard `.csproj` files supports many more options and a much more complex build process than this example.
 
- For information about creating a project file for a C++ project, see [MSBuild (C++)](/cpp/build/msbuild-visual-cpp).
+ For information about creating a project file for a C++ project, see [Use MSBuild to create a Visual C++ project](/cpp/build/walkthrough-using-msbuild-to-create-a-visual-cpp-project) and [MSBuild on the command line](/cpp/build/msbuild-visual-cpp).
 
  This tutorial shows how to create a basic project file incrementally, by using only a text editor. The walkthrough follows these steps:
 
@@ -144,7 +144,7 @@ Your minimal project file should resemble the following code:
 Tasks in the Build target are executed sequentially. In this case, the C# compiler `Csc` task is the only task. It expects a list of source files to compile, and this is given by the value of the `Compile` item. The `Compile` item references just one source file, *Helloworld.cs*.
 
 > [!NOTE]
-> In the item element, you can use the asterisk wildcard character (\*) to reference all files that have the *.cs* file name extension, as follows:
+> In the item element, you can use the asterisk wildcard character (\*) to reference all files that have the `.cs` file name extension, as follows:
 >
 > ```xml
 > <Compile Include="*.cs" />
@@ -154,7 +154,7 @@ Tasks in the Build target are executed sequentially. In this case, the C# compil
 
  Now, to build the application, use the project file that you just created.
 
-1. At the command prompt, type **msbuild helloworld.fromscratchproj -t:Build**.
+1. At the command prompt, type `msbuild helloworld.fromscratchproj -t:Build`.
 
      This builds the Build target of the Helloworld project file by invoking the C# compiler to create the Helloworld application.
 
@@ -165,7 +165,7 @@ Tasks in the Build target are executed sequentially. In this case, the C# compil
 > [!NOTE]
 > You can see more details about the build by increasing the verbosity level. To set the verbosity level to "detailed", type this command at the command prompt:
 >
-> **msbuild helloworld.fromscratchproj -t:Build -verbosity:detailed**
+> `msbuild helloworld.fromscratchproj -t:Build -verbosity:detailed`
 
 ## Add build properties
 
@@ -241,7 +241,7 @@ Your project file should now resemble the following code:
 
  Now you can build the application by using the project file in which you used build properties to specify the output folder and application name.
 
-1. At the command prompt, type **msbuild helloworld.fromscratchproj -t:Build**.
+1. At the command prompt, type `msbuild helloworld.fromscratchproj -t:Build`.
 
      This creates the *\Bin\\* folder and then invokes the C# compiler to create the *MSBuildSample* application and puts it in the *\Bin\\* folder.
 
@@ -255,9 +255,9 @@ Your project file should now resemble the following code:
 
  Next, add two more targets to the project file, as follows:
 
-- A Clean target that deletes old files.
+- A `Clean` target that deletes old files.
 
-- A Rebuild target that uses the `DependsOnTargets` attribute to force the Clean task to run before the Build task.
+- A `Rebuild` target that uses the `DependsOnTargets` attribute to force the `Clean` task to run before the `Build` task.
 
 Now that you have multiple targets, you can set the Build target as the default target.
 
@@ -272,7 +272,7 @@ Now that you have multiple targets, you can set the Build target as the default 
     <Target Name="Rebuild" DependsOnTargets="Clean;Build" />
     ```
 
-     The Clean target invokes the Delete task to delete the application. The Rebuild target does not run until both the Clean target and the Build target have run. Although the Rebuild target has no tasks, it causes the Clean target to run before the Build target.
+     The `Clean` target invokes the `Delete` task to delete the application. The `Rebuild` target doesn't run until both the `Clean` target and the `Build` target have run. Although the `Rebuild` target has no tasks, it causes the `Clean` target to run before the `Build` target.
 
 2. Add this `DefaultTargets` attribute to the opening `Project` element:
 
@@ -320,7 +320,7 @@ Your project file should now resemble the following code:
 
 1. At the command prompt, type **msbuild helloworld.fromscratchproj -p:AssemblyName=Greetings**.
 
-     Because you did not use the **-t** switch to explicitly set the target, MSBuild runs the default Build target. The **-p** switch overrides the `AssemblyName` property and gives it the new value, `Greetings`. This causes a new application, *Greetings.exe*, to be created in the *\Bin\\* folder.
+     Because you didn't use the **-t** switch to explicitly set the target, MSBuild runs the default Build target. The **-p** switch overrides the `AssemblyName` property and gives it the new value, `Greetings`. This causes a new application, *Greetings.exe*, to be created in the *\Bin\\* folder.
 
 2. To verify that the *\Bin\\* folder contains both the *MSBuildSample* application and the new *Greetings* application, type **dir Bin**.
 
@@ -340,7 +340,7 @@ Your project file should now resemble the following code:
 
 7. Type **msbuild**.
 
-     Although a project file is not specified, MSBuild builds the *helloworld.fromscratchproj* file because there is only one project file in the current folder. This causes the *MSBuildSample* application to be created in the *\Bin\\* folder.
+     Although a project file isn't specified, MSBuild builds the *helloworld.fromscratchproj* file because there's only one project file in the current folder. This causes the *MSBuildSample* application to be created in the *\Bin\\* folder.
 
      To verify that the *\Bin\\* folder contains the *MSBuildSample* application, type **dir Bin**.
 
@@ -358,7 +358,7 @@ Your project file should now resemble the following code:
 
      This specifies that the Build target depends on the input files that are specified in the `Compile` item group, and that the output target is the application file.
 
-     The resulting Build target should resemble the following code:
+     The resulting `Build` target should resemble the following code:
 
     ```xml
     <Target Name="Build" Inputs="@(Compile)" Outputs="$(OutputPath)$(AssemblyName).exe">
@@ -367,17 +367,17 @@ Your project file should now resemble the following code:
     </Target>
     ```
 
-2. Test the Build target by typing **msbuild -v:d** at the command prompt.
+2. Test the Build target by typing `msbuild -v:d` at the command prompt.
 
      Remember that *helloworld.fromscratchproj* is the default project file, and that Build is the default target.
 
-     The **-v:d** switch is an abbreviation of **-verbosity:detailed** that you used previously.
+     The `-v:d` switch is an abbreviation of `-verbosity:detailed` that you used previously.
 
     If you already built the output, these lines should be displayed:
 
      **Skipping target "Build" because all output files are up-to-date with respect to the input files.**
 
-     MSBuild skips the Build target because none of the source files have changed since the application was last built.
+     MSBuild skips the `Build` target because none of the source files have changed since the application was last built.
 
 ## C# example
 
