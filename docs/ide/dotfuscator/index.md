@@ -1,6 +1,6 @@
 ---
 title: Use Dotfuscator Community to protect .NET apps
-ms.date: 07/25/2024
+ms.date: 3/11/2025
 ms.devlang: dotnet
 ms.topic: overview
 keywords: Dotfuscator, Dotfuscator CE, Dotfuscator Community, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2019, Visual Studio 2017, Visual Studio
@@ -64,11 +64,8 @@ Examples of [.NET Obfuscation][obfuscation] and other [Application Protection][a
 * *[Anti-rooted device][root]* to detect if the application is running on a rooted Android device and terminate or respond to sessions on these devices.
 * *[Application expiration behaviors][shelflife]* that encode an "end-of-life" date and terminate expired application sessions.
 
-For details on these features, including how they fit into your application protection strategy, see the [Capabilities page][capabilities].
-
 Dotfuscator Community offers basic protection out-of-the-box.
 Even more application protection measures are available to registered users of Dotfuscator Community, and to users of ***PreEmptive Protection - Dotfuscator Professional***, the world's leading [.NET Obfuscator][net-obfuscator].
-For information about enhancing Dotfuscator, see the [Upgrades page][upgrades].
 
 ## Getting started
 
@@ -79,19 +76,19 @@ To begin using Dotfuscator Community from Visual Studio, type `dotfuscator` into
 
 You can also get the **latest version** of Dotfuscator Community from [the Dotfuscator Downloads page on preemptive.com][download].
 
-:::moniker range="vs-2019"
+:::moniker range=">=vs-2019"
 
 ## Upgrade from Dotfuscator Community 5
 
 Learn how to upgrade to PreEmptive Protection - Dotfuscator Community 6.
 
-Depending on your installation history and version of Visual Studio, you may be currently running Dotfuscator Community 5, the prior major version. If so, you should upgrade, because it is important to ensure your code is being given the [latest protection measures][always-improving]. Upgrades are available at no charge.
+Depending on your installation history and version of Visual Studio, you might be currently running Dotfuscator Community 5, the prior major version. If so, you should upgrade, because it is important to ensure your code is being given the [latest protection measures][always-improving]. Upgrades are available at no charge.
 
 This article explains how to determine what version you currently have, how to upgrade to version 6 if necessary, and what features have been replaced or removed between the two versions.
 
 ### Determine the Dotfuscator version
 
-If you are unsure what version of Dotfuscator you are running, you can determine the version by doing one of the following options:
+If you are unsure what version of Dotfuscator you're running, you can determine the version by doing one of the following options:
 
 * Launch the Dotfuscator Community [graphical user interface][gui] (GUI) by going to Visual Studio's **Tools** menu and selecting **PreEmptive Protection - Dotfuscator Community**.
 
@@ -155,10 +152,10 @@ The reason a path to Dotfuscator's CLI may now be invalid is because the names o
 | [CLI][cli]   | `dotfuscatorCLI.exe`  | `dotfuscator.exe`     |
 
 > [!NOTE]
-> The CLI path may also be invalid if you upgrade between major versions of Visual Studio or switch Visual Studio editions, as the Dotfuscator CLI is installed under Visual Studio's installation directory.
+> The CLI path might also be invalid if you upgrade between major versions of Visual Studio or switch Visual Studio editions, as the Dotfuscator CLI is installed under Visual Studio's installation directory.
 The symptoms and solution listed below also apply to this scenario.
 
-If your build is using an invalid Dotfuscator CLI path, you may get errors such as one of the following examples:
+If your build is using an invalid Dotfuscator CLI path, you might get errors such as one of the following examples:
 
 `'"[...]\PreEmptiveSolutions\DotfuscatorCE\dotfuscatorCLI.exe"' is not recognized as an internal or external command, operable program or batch file.`
 
@@ -243,7 +240,7 @@ There have been no changes to the [Obfuscation Attributes][attributes-obfuscatio
 
 #### Check Attributes
 
-The library containing the [Check Attributes][attributes-checks] has changed. In Dotfuscator Community 5, it was distributed as a file alongside Dotfuscator itself. Starting in Dotfuscator Community 6, it is instead distributed as a public NuGet package.
+The library containing the [Check Attributes][attributes-checks] has changed. In Dotfuscator Community 5, it was distributed as a file alongside Dotfuscator itself. Starting in Dotfuscator Community 6, it's available as a public NuGet package.
 
 If you try to build a Visual Studio project that still references the old location, you may get errors like the following examples:
 
@@ -269,7 +266,7 @@ These parameters were ignored in Dotfuscator Community 5, but if your source cod
 
 ##### Instrumentation attributes
 
-Instrumentation attributes were used to configure the PreEmptive Analytics feature in Dotfuscator 5. However, PreEmptive Analytics has been removed in Dotfuscator 6; see the Removed Feature subsection [PreEmptive Analytics](#removed-analytics). As a result, the instrumentation attributes have also been removed.
+Instrumentation attributes were used to configure the PreEmptive Analytics feature in Dotfuscator 5. However, PreEmptive Analytics was removed in Dotfuscator 6; see the Removed Feature subsection [PreEmptive Analytics](#removed-analytics). As a result, the instrumentation attributes were also removed.
 
 If you try to build a Visual Studio project that used instrumentation attributes, you may get the same kinds of errors and warnings as noted in [Check Attributes](#steps-attrs-check), though the attribute names differ (for example, `FeatureAttribute` instead of `TamperCheckAttribute`).
 
@@ -283,7 +280,7 @@ You also need to remove the assembly references to the library that defined the 
 
 ## Removed features
 
-Dotfuscator Community 6 introduces breaking changes from Dotfuscator Community 5. If you have been using Dotfuscator Community 5, this section describes how to deal with the changes that might require build modifications or affect Dotfuscator's output.
+Dotfuscator Community 6 introduces breaking changes from Dotfuscator Community 5. If you upgraded from Dotfuscator Community 5, this section describes how to deal with the changes that might require build modifications or affect Dotfuscator's output.
 
 A full list of the changes is available in the [changelog][changelog].
 
@@ -319,7 +316,7 @@ Additionally, `.xap` packages can no longer be used as inputs because Silverligh
 
 #### Introduce explicit method overrides
 
-The Renaming option to introduce explicit method overrides has been removed from Dotfuscator. To use Dotfuscator 6, [upgrade your configuration file](#steps-config-files) to remove this setting.
+The Renaming option to introduce explicit method overrides was removed from Dotfuscator. To use Dotfuscator 6, [upgrade your configuration file](#steps-config-files) to remove this setting.
 
 :::moniker-end
 
