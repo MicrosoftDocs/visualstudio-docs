@@ -48,7 +48,7 @@ Having the UE logging window open while you're debugging is convenient because y
 
 ## Unreal Engine logging options
 
-Starting with Visual Studio 2022 17.12, you can configure the Unreal Engine logging window. Choose **Tools** > **Options** > **Unreal Engine** >> **Log Tool Window** to see the following options:
+Starting with Visual Studio 2022 17.12, you can configure the Unreal Engine logging window. Choose **Tools** > **Options** > **Unreal Engine** > **Log Tool Window** to see the following options:
 
 :::image type="content" source="../media/vs-unreal-engine-log-options.png" alt-text="A screenshot of the Unreal Engine Log window options.":::
 
