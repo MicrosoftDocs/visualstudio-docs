@@ -15,44 +15,10 @@ ms.custom: [copilot-learning-hub]
 
 **GitHub Copilot Completions** and **GitHub Copilot Chat** in Visual Studio enable enhanced [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping you be more productive and efficient when writing code.
 
-In this article, you learn how to install GitHub Copilot in Visual Studio. If you're using [Visual Studio 2022 version 17.10 or later](/visualstudio/releases/2022/release-notes), you learn to use the Copilot badge in the IDE to manage your Copilot state.
+In this article, you learn how to install and manage GitHub Copilot in Visual Studio on [Visual Studio 2022 version 17.10 or later](/visualstudio/releases/2022/release-notes).
  
-## Get GitHub Copilot for Visual Studio 2022 version 17.10 or later
-
-With [Visual Studio 2022 version 17.10](/visualstudio/releases/2022/release-notes), GitHub Copilot and GitHub Copilot Chat are available to install as a single experience that combines both Copilot and Copilot Chat into one package. The unified GitHub Copilot experience is included as a built-in, recommended component by default in all workloads and is available through the Visual Studio Installer.
-
-To get the new unified GitHub Copilot experience:
-- Install [Visual Studio 2022 version 17.10 or later](/visualstudio/releases/2022/release-notes). 
-- Select at least one workload in the installer. Make sure to leave the preselected component **GitHub Copilot** selected.
-  OR
-  If no workload is selected, install **GitHub Copilot** by selecting it from **Individual components** in the installer.
-
-GitHub Copilot is installed by default with all workloads. If you choose to exclude it, you can install it later by using the Visual Studio Installer to **modify** your installation, and selecting the **GitHub Copilot** component. 
-
-## Get GitHub Copilot for Visual Studio 2022 versions 17.8 to 17.9 
-
-In Visual Studio 2022 versions 17.8 to 17.9, GitHub Copilot and GitHub Copilot Chat are available to install as two separate extensions. 
-> [!NOTE]
-> Installing GitHub Copilot extension is a prerequisite to installing GitHub Copilot Chat.
-
-### Install GitHub Copilot
-
-You can get the **GitHub Copilot extension** in one of the following ways:
-
-- Install the GitHub Copilot extension using the [Visual Studio Installer](#install-using-the-visual-studio-installer) (**recommended**)
-- Install using the [Extension Manager](#install-using-the-manage-extensions-dialog-box)
-- Install directly from [Visual Studio Marketplace](#install-from-visual-studio-marketplace): [**GitHub Copilot on Marketplace**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs)
-
-### Install GitHub Copilot Chat
-
-You can get the **GitHub Copilot Chat extension** in one of the following ways:
-
-- Install using the [Extension Manager](#install-using-the-manage-extensions-dialog-box)
-- Install directly from [Visual Studio Marketplace](#install-from-visual-studio-marketplace): [**GitHub Copilot Chat on Marketplace**](https://aka.ms/VSXGHCopilot)
-
-Support for GitHub Copilot Chat will be provided by GitHub and can be reached at https://support.github.com.
  
-#### Install using the Visual Studio Installer
+## Install using the Visual Studio Installer
 
 1. Launch the Visual Studio Installer.
 1. Select the installation of Visual Studio you want to modify, and then select **Modify**.
@@ -64,26 +30,9 @@ Support for GitHub Copilot Chat will be provided by GitHub and can be reached at
     > [!NOTE]
     > In versions 17.9 or earlier, you'll use the **Manage Extensions** dialog to manage updates to the GitHub Copilot extension.
 
-#### Install using the Manage Extensions dialog box
-
-1. Open Visual Studio.
-1. On the menu bar, select **Extensions** > **Manage Extensions**.
-1. In the Search box, enter "GitHub Copilot" or "GitHub Copilot Chat".
-1. Select the extension, and then select the **Download** button.
-1. Restart Visual Studio to complete the installation process.
-
-> [!NOTE]
-> For more information about activation & authorization, see the [Installing the Visual Studio extension](https://docs.github.com/en/copilot/getting-started-with-github-copilot?tool=visualstudio#installing-the-visual-studio-extension) section in GitHub Docs.
-
-#### Install from Visual Studio Marketplace
-
-Download and install the extensions directly from [Visual Studio Marketplace](https://marketplace.visualstudio.com/).
-- [GitHub Copilot extension for Visual Studio 2022 version 17.9 or earlier][**GitHub Copilot on Marketplace**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs)
-- [GitHub Copilot Chat extension for Visual Studio 2022 version 17.9 or earlier](https://aka.ms/VSXGHCopilot)
-
 ## Manage your Copilot state 
 
-With Visual Studio 2022 version 17.10, you see a Copilot status icon in the upper-right corner of the Visual Studio environment that indicates if Copilot is active, inactive, unavailable, or not installed. Using the dropdown menu from the status icon, you can easily access options that help manage or [troubleshoot](visual-studio-github-copilot-troubleshoot.md) your Copilot state. Some options are available or greyed out depending on your Copilot state.
+With Visual Studio 2022 version 17.10 or later, there is a Copilot status icon in the upper-right corner of the Visual Studio environment that indicates if Copilot is active, inactive, unavailable, or not installed. Using the dropdown menu from the status icon, you can easily access options that help manage or [troubleshoot](visual-studio-github-copilot-troubleshoot.md) your Copilot state. Some options are available or greyed out depending on your Copilot state.
 
 > [!NOTE]
 > Note that the status icon is moving from the bottom panel of the Visual Studio editor. 
@@ -143,6 +92,10 @@ You can remove the GitHub Copilot component from your Visual Studio instance by 
 1. Type "copilot" in the search box.
 1. Uncheck **GitHub Copilot** and select **Modify**.
 1. Restart Visual Studio, and select **Hide Copilot** from the Copilot status icon dropdown to hide the badge.
+
+### Support
+
+Support for GitHub Copilot Chat will be provided by GitHub and can be reached at https://support.github.com.
 
 ## Next steps
 
