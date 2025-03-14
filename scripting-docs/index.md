@@ -1,6 +1,6 @@
 ---
 title: Create JavaScript apps in Visual Studio
-description: Learn how use Visual Studio to create JavaScript applications.
+description: Learn how to use Visual Studio to create JavaScript applications.
 ms.topic: conceptual
 ms.date: "3/14/2025"
 ms.service: visual-studio-windows
