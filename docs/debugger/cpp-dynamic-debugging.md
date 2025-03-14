@@ -247,6 +247,8 @@ If breakpoints don't hit in deoptimized functions:
     If the `deopt` debug directory entry isn't there, confirm that you're passing `/dynamicdeopt` to `cl.exe`, `lib.exe`, and `link.exe`.
 
 - Dynamic Deoptimization won't work consistently if `/dynamicdeopt` isn't passed to `cl.exe`, `lib.exe`, and `link.exe` for all `.cpp`, `.lib`, and binary files. Confirm that the proper switches are set when you build your project.
+- A function is deoptimized when you add a breakpoint before entering the function, or when you step into a function. If you step out of a `[Deoptimized]` frame, you may be in optimized code unless the caller was deoptimized beforehand.
+
 - See our list of known issues:
   - JTW
 
