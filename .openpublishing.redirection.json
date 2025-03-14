@@ -2101,6 +2101,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/walkthrough-debugging-a-windows-form.md",
+      "redirect_url": "/visualstudio/debugger/debugger-feature-tour",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "docs/debugger/tips-for-debugging-threads-in-native-code.md",
       "redirect_url": "/visualstudio/debugger/tips-for-debugging-threads",
       "redirect_document_id": true
