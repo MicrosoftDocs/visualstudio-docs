@@ -198,7 +198,7 @@ While debugging, right-click an object and choose **Add Watch**.
 
 In this example, you have a watch set on the object, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** windows always show the variables that you are watching (they're grayed out when out of scope).
 
-## <a name="bkmk_returnValue"></a> View return values of method calls
+## View return values of method calls
 
 In .NET and C++ code, you can examine return values in the **Autos** window when you step over or out of a method call, which can be useful when the return value is not stored in a local variable. A method could be used as a parameter, or as the return value of another method.
 
