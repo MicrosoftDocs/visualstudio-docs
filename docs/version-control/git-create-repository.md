@@ -34,6 +34,8 @@ To follow this article, you'll need:
 
 1. In the **Create a new GitHub repository** section of the **Create a Git repository** dialog, enter the name of the repo you want to create. (If you haven't yet signed in to your GitHub account, you can do so from this screen, too.)
 
+   Visual Studio 17.12 and later support multiple GitHub accounts, so you can also use the **Account** dropdown to switch to another GitHub account if your current active account is the one you want to use for the new repo.
+
     :::image type="content" source="../get-started/media/vs-2022/git-create-repo-dialog.png" alt-text="Screenshot of the Create Git Repository dialog in Visual Studio with the GitHub selection highlighted.":::
 
     With Visual Studio 2022 version 17.12 and later, you can choose the visibility of the new repo. Next to **Visibility**, choose **public**, **private**, or **internal** (see [About internal repositories](https://docs.github.com/enterprise-cloud@latest/repositories/creating-and-managing-repositories/about-repositories#about-internal-repositories)). To create an internal repo, you must be signed in with a [GitHub Enterprise](https://enterprise.github.com/login) account. With earlier versions, select the checkbox if you want a private repo.
