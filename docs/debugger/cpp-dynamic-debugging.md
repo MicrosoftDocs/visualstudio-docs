@@ -308,7 +308,7 @@ You can add other switches that you use with your retail builds to this configur
 
 For more information about configurations in Visual Studio, see [Create and edit configurations](/visualstudio/ide/how-to-create-and-edit-configurations).
 
-### Creat a new Debug configuration
+### Create a new Debug configuration
 
 If you want to use debug binaries but you want them to run faster, you can modify your Debug configuration.
 
