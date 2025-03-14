@@ -2,7 +2,7 @@
 title: Clone a repo in Visual Studio
 titleSuffix: ""
 description: Clone a repo in Visual Studio by using the Git Clone Repository option or browse to and then clone an Azure DevOps repo.
-ms.date: 04/04/2024
+ms.date: 03/14/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -55,6 +55,8 @@ To follow this article, you'll need:
     After you link your GitHub account with Visual Studio, a Success notification appears.
 
     :::image type="content" source="../ide/media/github-success-signin.png" alt-text="Screenshot of the Success notification you receive after you link your GitHub account with Visual Studio.":::
+
+    If you have more than one GitHub account, you can sign in with any of your accounts. If you're already signed in with one account, you can use the account dropdown to switch to a different account.
 
 1. After you sign in, Visual Studio returns to the **Clone a repository** dialog, where the **Open from GitHub** window lists all the repositories that you have access to. Select the one you want, and then select **Clone**.
 
