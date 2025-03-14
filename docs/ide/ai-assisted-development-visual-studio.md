@@ -95,7 +95,7 @@ The following table compares the capabilities of GitHub Copilot (and GitHub Copi
 
 | **AI-assistance feature** | **GitHub Copilot** | **IntelliCode** |
 |---------------------------|:--------------------:|:-----------------:|
-| Available as | - [Built-in by default in all workloads](visual-studio-github-copilot-install-and-states.md#get-github-copilot-for-visual-studio-2022-version-1710-or-later) & available through the Visual Studio Installer in Visual Studio version 17.10 and later <br/> - [Downloadable extensions](visual-studio-github-copilot-install-and-states.md#get-github-copilot-for-visual-studio-2022-versions-178-to-179) in Visual Studio versions 17.8 & 17.9| Built-in by default in most [workloads](../install/modify-visual-studio.md#change-workloads-or-individual-components) & available through the Visual Studio Installer |
+| Available as |[Built-in by default in all workloads](visual-studio-github-copilot-install-and-states.md#get-github-copilot-for-visual-studio-2022-version-1710-or-later) & available through the Visual Studio Installer in Visual Studio version 17.10 and later <br/>| Built-in by default in most [workloads](../install/modify-visual-studio.md#change-workloads-or-individual-components) & available through the Visual Studio Installer |
 | Subscription-based | **Yes** <br/>[Learn more](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot)| No |
 | User interface   | Inline <br/>Chat window | Inline |
 | Context-aware AI-assisted [IntelliSense](using-intellisense.md) | **Yes** <br/>[Learn more](visual-studio-github-copilot-extension.md#exploring-github-copilot) | **Yes** <br/>[Learn more](#intellicode-in-visual-studio) |
