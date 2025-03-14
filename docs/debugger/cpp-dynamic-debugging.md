@@ -154,7 +154,7 @@ First, let's review what it's like to debug optimized code. Then you can see how
 1. In **Solution Explorer**, right-click the project and select **Properties** to open the project property pages.
 1. Select **Advanced** > **Use C++ Dynamic Debugging**, and change the setting to **Yes**.
 
-    :::image type="complex" source="media/vs-2022/property-use-cpp-debugging.png" alt-text="A screenshot that shows the project properties.":::
+    :::image type="complex" source="media/vs-2022/property-use-cpp-debugging.png" alt-text="A screenshot that shows the advanced project properties.":::
     The property page opens to Configuration Properties > Advanced > Use C++ Dynamic Debugging. The property is set to Yes.
     :::image-end:::
 
@@ -294,17 +294,17 @@ If your project is built with the Visual Studio build system, a good way to make
 1. In **Configuration Properties** > **Advanced**, set **Use C++ Dynamic Debugging** to **Yes**.
 1. Ensure that **Whole Program Optimization** is set to **No**.
 
-    :::image type="complex" source="media/vs-2022/property-use-cpp-debugging.png" alt-text="A screenshot that shows the project properties.":::
-    The property page is opened to Configuration Properties > Advanced > Use C++ Dynamic Debugging. The property is set to Yes.
+    :::image type="complex" source="media/vs-2022/property-use-cpp-debugging.png" alt-text="A screenshot that shows the advanced project properties.":::
+    The property page is opened to Configuration Properties > Advanced. Use C++ Dynamic Debugging. The property is set to Yes. Whole Program Optimization is set to No.
     :::image-end:::
 
-1. In **Configuration Properties** > **Linker** > **Optimization**, ensure that **Enable Incremental Linking** is set to **No (/OPT:NOICF)**.
+1. In **Configuration Properties** > **Linker** > **Optimization**, ensure that **Enable COMDAT folding** is set to **No (/OPT:NOICF)**.
 
-    :::image type="complex" source="media/vs-2022/property-incremental-linking.png" alt-text="A screenshot that shows the project properties.":::
-    The property page is opened to Configuration Properties > Linker > Optimization > Enable Incremental Linking. The property is set to No.
+    :::image type="complex" source="media/vs-2022/dbg-no-COMDAT-folding.png" alt-text="A screenshot that shows the Linker optimization project properties.":::
+    The property page is opened to Configuration Properties > Linker > Optimization > Enable CMDAT Folding. The property is set to No (/OPT:NOICF).
     :::image-end:::
 
-This setting adds the `/dynamicdeopt` switch to the compiler and the linker. With C++ optimization switches `/GL` and `/OPT:ICF` also turned off, you can now build and run your project in the new configuration when you want an optimized release build that you can use with C++ Dynamic Debugging. 
+This setting adds the `/dynamicdeopt` switch to the compiler and the linker. With C++ optimization switches `/GL` and `/OPT:ICF` also turned off, you can now build and run your project in the new configuration when you want an optimized release build that you can use with C++ Dynamic Debugging.
 
 You can add other switches that you use with your retail builds to this configuration so that you always have exactly the switches turned on or off that you expect when you use Dynamic Debugging. For more information about switches that you shouldn't use with Dynamic Debugging, see [Incompatible options](#incompatible-options).
 
@@ -385,8 +385,8 @@ The following linker options are incompatible with C++ Dynamic Debugging:
 /OPT:ICF  You can specify /OPT:ICF but the debugging experience may be poor
 ```
 
-## Related content
+## See also
 
-See [/dynamicdeopt compiler flag (preview)](/cpp/build/reference/dynamic-deopt)\.
-See [/DYNAMICDEOPT linker flag (preview)](/cpp/build/reference/dynamic-deopt-linker)\.
-See [Debug optimized code](how-to-debug-optimized-code.md).
+[/dynamicdeopt compiler flag (preview)](/cpp/build/reference/dynamic-deopt)\
+[/DYNAMICDEOPT linker flag (preview)](/cpp/build/reference/dynamic-deopt-linker)\
+[Debug optimized code](how-to-debug-optimized-code.md)
