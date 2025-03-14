@@ -16,12 +16,23 @@ ms.subservice: office-development
 ---
 # Visual Studio Tools for Office Runtime
 
+## Visual Studio Tools for Office Support Statement
+
+The Visual Studio Tools for Office (VSTO) Runtime Add-Ins platform is supported and serviced in Office with .NET Framework 4.8 as the last major version. If you have existing .NET Framework solutions that you are maintaining, there is no need to move them to .NET.
+
+However, VSTO Add-Ins cannot be created with .NET due to technical limitations with running .NET and .NET Framework in the same process. Microsoft will not update the VSTO platform to use .NET. You can take advantage of .NET, including ASP.NET Core, to create the server side of Office Web Add-ins.
+
+The VSTO Add-Ins platform was built before today’s cross-platform world. Moving forward, to take advantage of opportunities with cloud-centered, cross-platform, and cross-device development, we recommend using the cross-platform JavaScript APIs. More can be found at [Office Add-ins platform overview](/office/dev/add-ins/overview/office-add-ins).
+
+## Visual Studio Tools for Office Runtime Lifecycle
+
 The Visual Studio 2010 Tools for Office Runtime (VSTO Runtime) ships with various versions of Visual Studio and Microsoft Office and follows the support lifecycle of the parent product.
 
 It's also [available to download](https://aka.ms/VSTORuntimeDownload) and install independently. The versions of VSTO Runtime that are available on the download center follow the support lifecycle of the latest version of Microsoft Office that was available at the time of its release.
 
 Developers should install the latest version of the VSTO Runtime with their applications. It's only supported when running with supported versions Office. If the VSTO Runtime needs to be serviced, only the latest version will be updated.
 
+## VSTO Runtime Versions
 The following list contains the VSTO Runtime releases and the corresponding version of Office for which its support lifecycle follows: 
 
 | VSTO Runtime version | Release date | Microsoft Office version |
