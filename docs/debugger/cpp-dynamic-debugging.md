@@ -166,7 +166,7 @@ First, let's review what it's like to debug optimized code. Then you can see how
 
 1. Rerun the app.
 
-    Now when you hit the breakpoint on line 55, you see the values of `i` and `j` on the **Locals** window. The **Call Stack** window shows that `updateGrid()` is deoptimized and the filename is `life.alt.exe`. This alternate binary is used to debug optimized code.
+    Now when you hit the breakpoint on line 55, you see the values of `i` and `j` in the **Locals** window. The **Call Stack** window shows that `updateGrid()` is deoptimized and the filename is `life.alt.exe`. This alternate binary is used to debug optimized code.
 
     :::image type="complex" source="media/vs-2022/dbg-deopt-update-grid-callstack.png" alt-text="A screenshot that shows debugging the updateGrid function.":::
     A breakpoint is shown in the function updateGrid. The call stack shows that the function is deoptimized and the filename is life.alt.exe. The Locals window shows the values of i and j and the other local variables in the function.
@@ -174,12 +174,12 @@ First, let's review what it's like to debug optimized code. Then you can see how
 
     The `updateGrid()` function is deoptimized on demand because you set a breakpoint in it. If you step over an optimized function while debugging, it isn't deoptimized. If you step *into* a function, it's deoptimized. The main way to cause a function to be deoptimized is if you set a breakpoint in it or step into it.
 
-    You can also deoptimize a function on the **Call Stack** window. Right-click the function, or a selected group of functions, and select **Deoptimize on next entry**. This feature is useful when you want to view local variables in an optimized function for which you haven't set a breakpoint elsewhere on the call stack. Functions that are deoptimized in this way are grouped together on the **Breakpoints** window as a breakpoint group named **Deoptimized Functions**. If you delete the breakpoint group, the associated functions revert to their optimized state.
+    You can also deoptimize a function in the **Call Stack** window. Right-click the function, or a selected group of functions, and select **Deoptimize on next entry**. This feature is useful when you want to view local variables in an optimized function for which you haven't set a breakpoint elsewhere on the call stack. Functions that are deoptimized in this way are grouped together in the **Breakpoints** window as a breakpoint group named **Deoptimized Functions**. If you delete the breakpoint group, the associated functions revert to their optimized state.
 
 #### Use conditional and dependent breakpoints
 
 1. Try setting a breakpoint again on line 19, `cout << (grid[i][j] ? '*' : ' ');` in `printGrid()`. Now it works. Setting a breakpoint in the function deoptimizes it so that you can debug it normally.
-1. Right-click the breakpoint on line 19, select **Conditions**, and set the condition to `i == 10 && j== 10`. Then select the **Only enable when the following breakpoint is hit:** checkbox. Select the breakpoint on line 55 from the dropdown list. Now the breakpoint on line 19 doesn't hit until the breakpoint on line 50 is first hit, and then when `grid[10][10]` is about to output to the console. 
+1. Right-click the breakpoint on line 19, select **Conditions**, and set the condition to `i == 10 && j== 10`. Then select the **Only enable when the following breakpoint is hit:** checkbox. Select the breakpoint on line 55 from the dropdown list. Now the breakpoint on line 19 doesn't hit until the breakpoint on line 50 is hit first, and then when `grid[10][10]` is about to output to the console. 
 
     The point is that you can set conditional and dependent breakpoints in an optimized function and make use of local variables and lines of code that in an optimized build might be unavailable to the debugger.
 
@@ -206,7 +206,7 @@ First, let's review what it's like to debug optimized code. Then you can see how
 You might need to debug optimized code without it being deoptimized, or put a breakpoint in optimized code and have the code stay optimized when the breakpoint hits. There are several ways to turn off Dynamic Debugging or keep it from deoptimizing code when you hit a breakpoint:
 
 - On the Visual Studio main menu, select **Tools** > **Options** > **Debugging** > **General**. Clear the **Automatically deoptimize debugged functions when possible (.NET 8+, C++ Dynamic Debugging)** checkbox. The next time the debugger starts, code remains optimized.
-- Many dynamic debugging breakpoints are two breakpoints: one in the optimized binary and one in the unoptimized binary. On the **Breakpoints** window, select **Show Columns** > **Function**. Clear the breakpoint associated with the `alt` binary. The other breakpoint in the pair breaks in the optimized code.
+- Many dynamic debugging breakpoints are two breakpoints: one in the optimized binary and one in the unoptimized binary. In the **Breakpoints** window, select **Show Columns** > **Function**. Clear the breakpoint associated with the `alt` binary. The other breakpoint in the pair breaks in the optimized code.
 - When you're debugging, on the Visual Studio main menu, select **Debug** > **Windows** > **Dissassembly**. Ensure that it has focus. When you step into a function via the **Dissassembly** window, the function won't be deoptimized.
 - Disable dynamic debugging entirely by not passing `/dynamicdeopt` to `cl.exe`, `lib.exe`, and `link.exe`. If you're consuming third-party libraries and can't rebuild them, don't pass `/dynamicdeopt` during the final `link.exe` to disable Dynamic Debugging for that binary.
 - To quickly disable Dynamic Debugging for a single binary (for example, `test.dll`), rename or delete the `alt` binary (for example, `test.alt.dll`).
@@ -289,14 +289,14 @@ If your project is built with the Visual Studio build system, a good way to make
 
 1. The new configuration appears in the **Active solution configuration** dropdown list. Select **Close**.
 1. With the **Configuration** dropdown list set to **ReleaseDD**, right-click your project in **Solution Explorer** and select **Properties**.
-1. On **Configuration Properties** > **Advanced**, set **Use C++ Dynamic Debugging** to **Yes**.
+1. In **Configuration Properties** > **Advanced**, set **Use C++ Dynamic Debugging** to **Yes**.
 1. Ensure that **Whole Program Optimization** is set to **No**.
 
     :::image type="complex" source="media/vs-2022/property-use-cpp-debugging.png" alt-text="A screenshot that shows the project properties.":::
     The property page is opened to Configuration Properties > Advanced > Use C++ Dynamic Debugging. The property is set to Yes.
     :::image-end:::
 
-1. On **Configuration Properties** > **Linker** > **Optimization**, ensure that **Enable Incremental Linking** is set to **No (/OPT:NOICF)**.
+1. In **Configuration Properties** > **Linker** > **Optimization**, ensure that **Enable Incremental Linking** is set to **No (/OPT:NOICF)**.
 
     :::image type="complex" source="media/vs-2022/property-incremental-linking.png" alt-text="A screenshot that shows the project properties.":::
     The property page is opened to Configuration Properties > Linker > Optimization > Enable Incremental Linking. The property is set to No.
@@ -308,7 +308,7 @@ You can add other switches that you use with your retail builds to this configur
 
 For more information about configurations in Visual Studio, see [Create and edit configurations](/visualstudio/ide/how-to-create-and-edit-configurations).
 
-### Make a new Debug configuration
+### Creat a new Debug configuration
 
 If you want to use debug binaries but you want them to run faster, you can modify your Debug configuration.
 
@@ -327,9 +327,9 @@ If you want to use debug binaries but you want them to run faster, you can modif
 
 1. The new configuration appears in the **Active solution configuration** dropdown list. Select **Close**.
 1. With the **Configuration** dropdown list set to **DebugDD**, right-click your project in **Solution Explorer** and select **Properties**.
-1. On **Configuration Properties** > **C/C++** > **Optimization**, turn on the optimizations that you want. For example, you could set **Optimization** to **Maximize Speed (/O2)**.
-1. On **C/C++** > **Code Generation**, set **Basic Runtime Checks** to **Default**.
-1. On **C/C++** > **General**, disable **Support Just My Code Debugging**.
+1. In **Configuration Properties** > **C/C++** > **Optimization**, turn on the optimizations that you want. For example, you could set **Optimization** to **Maximize Speed (/O2)**.
+1. In **C/C++** > **Code Generation**, set **Basic Runtime Checks** to **Default**.
+1. In **C/C++** > **General**, disable **Support Just My Code Debugging**.
 1. Set **Debug Information Format** to **Program Database (/Zi)**.
 
 You can add other switches that you use with your debug builds to this configuration so that you always have exactly the switches turned on or off that you expect when you use Dynamic Debugging. For more information about switches that you shouldn't use with Dynamic Debugging, see [Incompatible options](#incompatible-options).
@@ -349,7 +349,7 @@ For build distributors:
 
 ## Incompatible options
 
-Some compiler and linker options are incompatible with C++ Dynamic Debugging. If you turn on C++ Dynamic Debugging by using the Visual Studio project settings, incompatible options are automatically turned off unless you specifically set them in the other command-line options setting.
+Some compiler and linker options are incompatible with C++ Dynamic Debugging. If you turn on C++ Dynamic Debugging by using the Visual Studio project settings, incompatible options are automatically turned off unless you specifically set them in the additional command-line options setting.
 
 The following compiler options are incompatible with C++ Dynamic Debugging:
 
