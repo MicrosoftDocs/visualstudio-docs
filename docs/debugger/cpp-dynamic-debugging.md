@@ -1,7 +1,7 @@
 ---
 title: C++ Dynamic Debugging (Preview)
 description: Learn how to use C++ Dynamic Debugging to easily debug optimized code.
-ms.date: 03/11/2025
+ms.date: 03/14/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.debug
@@ -230,6 +230,7 @@ For more information, see the Unreal Engine article [Build Configuration](https:
 
 If breakpoints don't hit in deoptimized functions:
 
+- If you step out of a `[Deoptimized]` frame, you might be in optimized code unless the caller was deoptimized due to a breakpoint in it or you stepped into the caller on your way to the current function.
 - Ensure that the `alt.exe` and `alt.pdb` files built. For `test.exe` and `test.pdb`, `test.alt.exe` and `test.alt.pdb` must exist in the same directory. Ensure that the right build switches are set according to this article.
 - A `debug directory` entry exists in `test.exe` that the debugger uses to find the `alt` binary to use for Deoptimized Debugging. Open an x64-native Visual Studio command prompt and run `link /dump /headers <your executable.exe>` to see if a `deopt` entry exists. A `deopt` entry appears in the `Type` column, as shown in the last line of this example:
 
@@ -247,7 +248,6 @@ If breakpoints don't hit in deoptimized functions:
     If the `deopt` debug directory entry isn't there, confirm that you're passing `/dynamicdeopt` to `cl.exe`, `lib.exe`, and `link.exe`.
 
 - Dynamic Deoptimization won't work consistently if `/dynamicdeopt` isn't passed to `cl.exe`, `lib.exe`, and `link.exe` for all `.cpp`, `.lib`, and binary files. Confirm that the proper switches are set when you build your project.
-- A function is deoptimized when you add a breakpoint before entering the function, or when you step into a function. If you step out of a `[Deoptimized]` frame, you may be in optimized code unless the caller was deoptimized beforehand.
 
 - See our list of known issues:
   - JTW
