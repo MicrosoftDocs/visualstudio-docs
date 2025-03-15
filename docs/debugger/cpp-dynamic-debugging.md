@@ -279,13 +279,13 @@ If your project is built with the Visual Studio build system, a good way to make
 1. On the Visual Studio main menu, select **Build** > **Configuration Manager** to open Configuration Manager.
 1. Select the **Configuration** dropdown list and then select **<New...>**.
 
-    :::image type="complex" source="media/vs-2022/dbg-clone-configuration.png" alt-text="A screenshot that shows Configuration Manager.":::
+    :::image type="complex" source="media/vs-2022/debug-clone-configuration.png" alt-text="A screenshot that shows Configuration Manager.":::
     In Configuration Manager, under Project contexts, the Configuration dropdown list is open and <New...> is highlighted.
     :::image-end:::
 
 1. The **New Solution Configuration** dialog opens. In the **Name** field, enter a name for the new configuration, such as `ReleaseDD`. Ensure that **Copy settings from:** is set to **Release**. Then select **OK** to create the new configuration.
 
-    :::image type="complex" source="media/vs-2022/dbg-clone-configuration-details-release.png" alt-text="A screenshot that shows the New Project Configuration dialog.":::
+    :::image type="complex" source="media/vs-2022/debug-clone-configuration-details-release.png" alt-text="A screenshot that shows the New Project Configuration dialog.":::
     The Name field is set to ReleaseDD. The Copy settings from: dropdown list is set to Release.
     :::image-end:::
 
