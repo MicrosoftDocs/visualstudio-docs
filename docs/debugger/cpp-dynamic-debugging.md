@@ -168,7 +168,7 @@ First, let's review what it's like to debug optimized code. Then you can see how
 
     Now when you hit the breakpoint on line 55, you see the values of `i` and `j` in the **Locals** window. The **Call Stack** window shows that `updateGrid()` is deoptimized and the filename is `life.alt.exe`. This alternate binary is used to debug optimized code.
 
-    :::image type="complex" source="media/vs-2022/dbg-deopt-update-grid-callstack.png" alt-text="A screenshot that shows debugging the updateGrid function.":::
+    :::image type="complex" source="media/vs-2022/debug-deoptimize-update-grid-callstack.png" alt-text="A screenshot that shows debugging the updateGrid function.":::
     A breakpoint is shown in the function updateGrid. The call stack shows that the function is deoptimized and the filename is life.alt.exe. The Locals window shows the values of i and j and the other local variables in the function.
     :::image-end:::
 
@@ -183,13 +183,13 @@ First, let's review what it's like to debug optimized code. Then you can see how
 
     The point is that you can set conditional and dependent breakpoints in an optimized function and make use of local variables and lines of code that in an optimized build might be unavailable to the debugger.
 
-    :::image type="complex" source="media/vs-2022/dbg-deopt-conditional-breakpoint.png" alt-text="A screenshot that shows the conditional breakpoint settings for line 19.":::
+    :::image type="complex" source="media/vs-2022/debug-deoptimize-conditional-breakpoint.png" alt-text="A screenshot that shows the conditional breakpoint settings for line 19.":::
     A conditional breakpoint is shown on line 19, cout < < (grid[i][j] ? '*' : ' ');. The condition is set to i == 10 && j== 10. The checkbox for Only enable when the following breakpoint is hit is selected. The breakpoint dropdown list is set to life.cpp line 55.
     :::image-end:::
 
 1. Continue running the app. When the breakpoint on line 19 is hit, you can right-click line 15 and select **Set Next Statement** to rerun the loop again.
 
-    :::image type="complex" source="media/vs-2022/dbg-deopt-conditional-breakpoint-hit.png" alt-text="A screenshot that shows debugging the printGrid function.":::
+    :::image type="complex" source="media/vs-2022/debug-deoptimize-conditional-breakpoint-hit.png" alt-text="A screenshot that shows debugging the printGrid function.":::
     A conditional and dependent breakpoint is hit on line 19, cout < < (grid[i][j] ? '*' : ' ');. The Locals window shows the values of i and j and the other local variables in the function. The Call Stack window shows that the function is deoptimized and the filename is life.alt.exe.
     :::image-end:::
 
@@ -197,7 +197,7 @@ First, let's review what it's like to debug optimized code. Then you can see how
 
     If you add breakpoints via the **Call Stack** window **Deoptimize on next entry** option, which we didn't do in this walkthrough, you can right-click the **Deoptimized Functions** group and select **Delete** to revert only the functions in that group back to their optimized state.
 
-    :::image type="complex" source="media/vs-2022/dbg-deopt-delete-breakpoints.png" alt-text="A screenshot that shows the Breakpoints window.":::
+    :::image type="complex" source="media/vs-2022/debug-deoptimize-delete-breakpoints.png" alt-text="A screenshot that shows the Breakpoints window.":::
     The Breakpoints window shows the Deoptimized Functions group. The group is selected and the context menu is open with Delete Breakpoint Group selected.
     :::image-end:::
 
@@ -207,7 +207,7 @@ You might need to debug optimized code without it being deoptimized, or put a br
 
 - On the Visual Studio main menu, select **Tools** > **Options** > **Debugging** > **General**. Clear the **Automatically deoptimize debugged functions when possible (.NET 8+, C++ Dynamic Debugging)** checkbox. The next time the debugger starts, code remains optimized.
 - Many dynamic debugging breakpoints are two breakpoints: one in the optimized binary and one in the unoptimized binary. In the **Breakpoints** window, select **Show Columns** > **Function**. Clear the breakpoint associated with the `alt` binary. The other breakpoint in the pair breaks in the optimized code.
-- When you're debugging, on the Visual Studio main menu, select **Debug** > **Windows** > **Dissassembly**. Ensure that it has focus. When you step into a function via the **Dissassembly** window, the function won't be deoptimized.
+- When you're debugging, on the Visual Studio main menu, select **Debug** > **Windows** > **Disassembly**. Ensure that it has focus. When you step into a function via the **Dissassembly** window, the function won't be deoptimized.
 - Disable dynamic debugging entirely by not passing `/dynamicdeopt` to `cl.exe`, `lib.exe`, and `link.exe`. If you're consuming third-party libraries and can't rebuild them, don't pass `/dynamicdeopt` during the final `link.exe` to disable Dynamic Debugging for that binary.
 - To quickly disable Dynamic Debugging for a single binary (for example, `test.dll`), rename or delete the `alt` binary (for example, `test.alt.dll`).
 - To disable Dynamic Debugging for one or more `.cpp` files, don't pass `/dynamicdeopt` when you build them. The remainder of your project is built with Dynamic Debugging.
@@ -300,7 +300,7 @@ If your project is built with the Visual Studio build system, a good way to make
 
 1. In **Configuration Properties** > **Linker** > **Optimization**, ensure that **Enable COMDAT folding** is set to **No (/OPT:NOICF)**.
 
-    :::image type="complex" source="media/vs-2022/dbg-no-COMDAT-folding.png" alt-text="A screenshot that shows the Linker optimization project properties.":::
+    :::image type="complex" source="media/vs-2022/debug-no-COMDAT-folding.png" alt-text="A screenshot that shows the Linker optimization project properties.":::
     The property page is opened to Configuration Properties > Linker > Optimization > Enable CMDAT Folding. The property is set to No (/OPT:NOICF).
     :::image-end:::
 
@@ -317,13 +317,13 @@ If you want to use debug binaries but you want them to run faster, you can modif
 1. On the Visual Studio main menu, select **Build** > **Configuration Manager** to open Configuration Manager.
 1. Select the **Configuration** dropdown list and then select **<New...>**.
 
-    :::image type="complex" source="media/vs-2022/dbg-clone-configuration.png" alt-text="A screenshot that shows Configuration Manager.":::
+    :::image type="complex" source="media/vs-2022/debug-clone-configuration.png" alt-text="A screenshot that shows Configuration Manager.":::
     In Configuration Manager, in the Project contexts part of the window, the Configuration dropdown list is open and <New...> is highlighted.
     :::image-end:::
 
 1. The **New Project Configuration** dialog opens. In the **Name** field, enter a name for the new configuration, such as **DebugDD**. Ensure that **Copy settings from:** is set to **Debug**. Then select **OK** to create the new configuration.
 
-    :::image type="complex" source="media/vs-2022/dbg-clone-configuration-details-debug.png" alt-text="A screenshot that shows the New Project Configuration dialog.":::
+    :::image type="complex" source="media/vs-2022/debug-clone-configuration-details-debug.png" alt-text="A screenshot that shows the New Project Configuration dialog.":::
     The name field is set to DebugDD. The Copy settings from: dropdown list is set to Debug.
     :::image-end:::
 
