@@ -57,7 +57,7 @@ After adding the module, build it to make it available in the Unreal Engine Edit
 In **Solution Explorer**, right-click on the module folder and select **Build**. This builds the plugin and makes it available in the Unreal Engine Editor.
 
 :::image type="complex" source="../media/vs-build-module-menu.png" alt-text="A screenshot of the menu to build the module.":::
-    The menu options after right-clicking the module folder MyModule are visible. The entry Build this Unreal Engine module, is highlighted.
+    The menu options after right-clicking the module folder MyModule are visible. The entry Build this Unreal Engine module is highlighted.
 :::image-end:::
 
 Build output is displayed in the **Output** window. If the build is successful, the module is available in the Unreal Engine Editor. If the build fails, the **Output** window displays the error messages.
