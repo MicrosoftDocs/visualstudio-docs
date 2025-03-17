@@ -79,7 +79,7 @@ To add an Unreal Engine class in Visual Studio, follow these steps after complet
     :::image-end:::
 1. Select a **Class name**. Visual Studio warns you if the name conflicts with an existing class or file.
 1. Select a **Base class**. Selecting a base class ensures that the right headers and macros are included for that class type.
-1. Select a module to add to your class to using the **Select a module to add the class** dropdown. The module name is the name of the folder that contains the module.
+1. Select a module to add to your class using the **Select a module to add the class** dropdown. The module name is the name of the folder that contains the module.
 1. Select the **Refresh IntelliSense information using Unreal Editor tools** checkbox to choose whether Visual Studio uses Unreal Editor tools to update the IntelliSense information. Choose this to cause the Unreal Build Tool to regenerate the Visual Studio solution file.
 1. Select **OK** to generate the header and source files for the new class and add them to the Visual Studio solution file. Select **Reload** in the prompt that appears to reload the project.
 
