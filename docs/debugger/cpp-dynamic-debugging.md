@@ -224,7 +224,7 @@ Unreal Engine 5.6 supports C++ Dynamic Debugging for both Unreal Build Tool and 
     </WindowsPlatform>
     ```
 
-For Unreal Engine 5.5 or earlier, cherry-pick the Unreal Build Tool changes from [GitHub](https://aka.ms/vcdd_ue) into your repo. Then enable `bDynamicDebugging` as indicated above. You also need Unreal Build Accelerator from Unreal Engine 5.6. Either use the latest bits from ue5-main, or disable UBA by modifying `BuildConfiguration.xml` to include:
+For Unreal Engine 5.5 or earlier, cherry-pick the Unreal Build Tool changes from [GitHub](https://aka.ms/vcdd_ue) into your repo. Then enable `bDynamicDebugging` as indicated above. You also need to use Unreal Build Accelerator from Unreal Engine 5.6. Either use the latest bits from ue5-main, or disable UBA by adding the following to `BuildConfiguration.xml`:
 
 ```xml
 <BuildConfiguration>
@@ -258,8 +258,7 @@ If breakpoints don't hit in deoptimized functions:
 
 - Dynamic Deoptimization won't work consistently if `/dynamicdeopt` isn't passed to `cl.exe`, `lib.exe`, and `link.exe` for all `.cpp`, `.lib`, and binary files. Confirm that the proper switches are set when you build your project.
 
-- See our list of known issues:
-  - JTW
+- For more information about known issues, see [Known issues](https://aka.ms/vcdd_knownissues).
 
 If things aren't working as expected, open a ticket at [Developer Community](https://developercommunity.visualstudio.com/cpp). Include as much information as possible about the issue.
 
