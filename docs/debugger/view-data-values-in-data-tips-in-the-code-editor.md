@@ -1,7 +1,7 @@
 ---
 title: View and change variable values with data tips
 description: Use data tips while debugging code in the Visual Studio Code editor to view and change variable values like arrays and structures.
-ms.date: 09/06/2024
+ms.date: 3/17/2025
 ms.topic: how-to
 dev_langs:
   - CSharp
@@ -39,6 +39,10 @@ This article explores how to work with the data tips feature in Visual Studio. D
 
 Data tips are visible during a debugging session when you have breakpoints set in your code. When the debugger pauses program execution at a breakpoint, data tips are available for any variables in the current scope.
 
+::: moniker range=">= vs-2022"
+Starting in Visual Studio 2022 version 17.14, you can also view data tips for LINQ expressions.
+::: moniker-end
+
 Here's the process:
 
 1. Set a breakpoint in your code, and start debugging by selecting **Debug** > **Start Debugging** or use the F5 keyboard shortcut.
@@ -55,6 +59,7 @@ Here's the process:
 Visual Studio supports many actions for data tips and working with the variables and values, including:
 
 - Pin or float a data tip to keep it visible as code execution continues
+- Make data tips transparent
 - Enable *sticky* data tips that remain expanded until you select elsewhere
 - Expand the data tip for an array, structure, or object to view its members in a tree format
 - Change the value for a variable in a data tip
@@ -235,11 +240,13 @@ The following image shows the various options on the right-click menu for the me
 ## Get AI assistance
 
 If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at variables in data tips. Right-click on a variable and use the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+
+Starting in Visual Studio 2022 version 17.14, you can also get Copilot assistance from data tips for LINQ expressions.
 ::: moniker-end
 
 ## Visualize complex data types
 
-Visualizers display information in a more meaningful, and sometimes graphical, manner. Examples of visualizers include XML, HTML, JSON, and the [Text Visualizer](../debugger/string-visualizer-dialog-box.md). You can use visualizations to examine complex data types in your code during debugging.
+Visualizers display information in a more meaningful, and sometimes graphical, manner. Examples of visualizers include XML, HTML, JSON, [Text Visualizer](../debugger/string-visualizer-dialog-box.md), and the [tabular visualizers](../debugger/view-data-in-tabular-visualizer.md). You can use visualizations to examine complex data types in your code during debugging.
 
 If visualizers are available for an element, Visual Studio displays the **View** magnifying glass next to the element name in the data tip. When you select a visualization, Visual Studio opens a separate window to display the complex data in a readable format.
 
