@@ -93,6 +93,8 @@ items:
     href: ./inside-the-sdk/other-remote-ui.md
   - name: Contributions and configurations
     href: ./inside-the-sdk/contributions-and-configurations.md
+  - name: Dependency injection
+    href: ./inside-the-sdk/dependency-injection.md    
   - name: Inside the SDK
     href: ./inside-the-sdk/inside-the-sdk.md
   - name: Logging
