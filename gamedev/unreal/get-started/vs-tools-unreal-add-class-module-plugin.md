@@ -50,7 +50,7 @@ To add an Unreal Engine module in Visual Studio, follow these steps after comple
 Modules can only be created in the **Source** folder or as a module of a plugin inside the **Plugins** folder.\
 The **Build** path shows where the `Build.cs` file is created. The `Build.cs` file contains configuration information for the module.
 
-## Build a single UE module
+## Build a single Unreal Engine module
 
 After adding the module, build it to make it available in the Unreal Engine Editor. Rather than build the entire project, you can build just the module.
 
