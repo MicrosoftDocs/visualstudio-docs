@@ -1,8 +1,12 @@
 ---
-title: Create WCF Service in .NET Framework Windows Forms
+title: Create a WCF Service in .NET Framework Windows Forms
 description: Create a Windows Communication Foundation (WCF) service in Visual Studio, test the service, and access it from a Windows Forms application.
-ms.date: 06/30/2023
-ms.topic: conceptual
+author: ghogen
+ms.author: ghogen
+manager: mijacobs
+ms.subservice: data-tools
+ms.topic: how-to
+ms.date: 03/16/2025
 dev_langs:
 - VB
 - CSharp
@@ -11,144 +15,172 @@ helpviewer_keywords:
 - WCF, Visual Studio tools for
 - WCF services
 - WCF services, walkthrough
-author: ghogen
-ms.author: ghogen
-manager: mijacobs
-ms.subservice: data-tools
+
+# Customer intent: As a developer, I want to understand how to create a WCF Service in .NET Framework so I can access it from a Windows Forms app.
+
 ---
 
-# Walkthrough: Create a simple WCF service in .NET Framework Windows Forms
+# Walkthrough: Create a WCF service in .NET Framework Windows Forms
 
-This walkthrough demonstrates how to create a simple Windows Communication Foundation (WCF) service, test it, and then access it from a .NET Framework Windows Forms application.
+This walkthrough demonstrates how to create a Windows Communication Foundation (WCF) service, test it, and then access it from a .NET Framework Windows Forms application.
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 
 ## Prerequisites
 
-The WCF tools are not installed with the .NET workload; use the Visual Studio Installer to modify your installation. In the installer, choose **Windows Communication Foundation** under Individual Components. See [Modify Visual Studio](../install/modify-visual-studio.md).
+[Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Windows Communication Foundation** component installed. To install it:
+
+1. Open **Visual Studio Installer** or select **Tools** > **Get Tools and Features**.
+1. In the installer, choose **Modify** next to the version of Visual Studio you want to modify.
+1. Select the **Individual components** tab, and then choose **Windows Communication Foundation** under **Development activities**.
+1. Select **Modify**.
+
+For more information, see [Modify Visual Studio workloads, components, and language packs](../install/modify-visual-studio.md).
 
 ## Create a service
 
-1. Open Visual Studio.
+1. In Visual Studio, select **File** > **New** > **Project** from the menu.
 
-2. On the start window, choose **Create a new project**.
+1. On the **Create a new project** page, enter **wcf service library** in the search box. Select either the C# or Visual Basic template for **WCF Service Library**, and then select **Next**.
 
-3. Type **wcf service library** in the search box on the **Create a new project** page. Select either the C# or Visual Basic template for **WCF Service Library**, and then select **Next**.
-
-   ![Create new WCF Service Library project in Visual Studio](media/vs-2019/create-new-wcf-service-library.png)
+   :::image type="content" alt-text="Screen shot that shows how to create a WCF Service Library project in Visual Studio." source="../data-tools/media/vs-2022/create-new-wcf-service-library.png":::
 
    > [!TIP]
-   > If you don't see any templates, you might need to install the **Windows Communication Foundation** component of Visual Studio. Choose **Install more tools and features** to open Visual Studio Installer. Choose the **Individual components** tab, scroll down to **Development activities**, and then select **Windows Communication Foundation**. Click **Modify**.
+   > If you don't see any templates, you might need to install the **Windows Communication Foundation** component of Visual Studio. For more information, see [Prerequisites](#prerequisites)
 
-4. On the **Configure your new project** page, click **Create**.
+1. On the **Configure your new project** page, verify the settings, and then select **Create**.
 
-   > [!NOTE]
-   > This creates a working service that can be tested and accessed. The following two steps demonstrate how you might modify the default method to use a different data type. In a real application, you would also add your own functions to the service.
+   This step creates a working WCF service that you can test and access. The following two steps demonstrate how to modify the default method to use a different data type. In a real application, you'd also add your own functions to the service.
 
-5. In **Solution Explorer**, double-click **IService1.vb** or **IService1.cs**.
+1. In Solution Explorer, double-click **IService1.cs** or **IService1.vb** in your WCF service library project, depending on which type of project you created.
 
-   ![The IService1 file](../data-tools/media/wcf2.png)
+   :::image type="content" alt-text="Screen shot that shows the IService1 file in Solution Explorer." source="../data-tools/media/wcf2.png":::
 
-   Find the following line:
+1. Find the following line:
 
    ### [C#](#tab/csharp)
+
    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/iservice1_2.cs" id="Snippet4":::
 
    ### [VB](#tab/vb)
+
    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/iservice1_2.vb" id="Snippet4":::
+
    ---
 
-   Change the type for the `value` parameter to string:
+1. Change the type for the `value` parameter to string, as follows:
 
    ### [C#](#tab/csharp)
+
    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/iservice1.cs" id="Snippet1":::
 
    ### [VB](#tab/vb)
+
    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/iservice1.vb" id="Snippet1":::
+
    ---
 
-   In the above code, note the `OperationContract` attribute. This attribute is required for any method exposed by the service.
+   In the previous code example, note the `OperationContract` attribute. This attribute is required for any method exposed by the service.
 
-6. In **Solution Explorer**, double-click **Service1.vb** or **Service1.cs**.
+1. In Solution Explorer, double-click **Service1.vb** or **Service1.cs**.
 
-   ![The Service1 file](../data-tools/media/wcf3.png)
+   :::image type="content" alt-text="Screen shot that shows the Service1 file in Solution Explorer." source="../data-tools/media/wcf3.png":::
 
-   Find the following line:
+1. In the editor, find the following line:
 
    ### [C#](#tab/csharp)
+
    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/service1_2.cs" id="Snippet5":::
 
    ### [VB](#tab/vb)
+
    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/service1_2.vb" id="Snippet5":::
+
    ---
 
-   Change the type for the `value` parameter to string:
+1. Change the type for the `value` parameter to string, as follows:
 
    ### [C#](#tab/csharp)
+
    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/service1.cs" id="Snippet2":::
 
    ### [VB](#tab/vb)
+
    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/service1.vb" id="Snippet2":::
+
    ---
 
 ## Test the service
 
-1. Press **F5** to run the service. A **WCF Test Client** form appears and loads the service.
+1. Press **F5** to run the service.
 
-2. In the **WCF Test Client** form, double-click the **GetData()** method under **IService1**. The **GetData** tab appears.
+   The **WCF Test Client** form appears and loads the service.
 
-     ![The GetData&#40;&#41; method](../data-tools/media/wcf4.png)
+1. In the **WCF Test Client** form, under **IService1**, double-click the **GetData()** method.
 
-3. In the **Request** box, select the **Value** field and type `Hello`.
+   The **GetData** tab appears.
 
-     ![The Value field](../data-tools/media/wcf5.png)
+   :::image type="content" alt-text="Screenshot that shows the GetData method in the WCF Test Client form." source="../data-tools/media/wcf4.png":::
 
-4. Click the **Invoke** button. If a **Security Warning** dialog box appears, click **OK**. The result displays in the **Response** box.
+1. In the **Request** box, select the **Value** field and enter **Hello**.
 
-     ![The result in the Response box](../data-tools/media/wcf6.png)
+   :::image type="content" alt-text="Screenshot that shows the Value field in the GetData tab." source="../data-tools/media/wcf5.png":::
 
-5. On the **File** menu, click **Exit** to close the test form.
+1. Select the **Invoke** button. If a **Security Warning** dialog box appears, select **OK**.
+
+   The result displays in the **Response** box.
+
+   :::image type="content" alt-text="Screenshot that shows the result displayed in the Response box." source="../data-tools/media/wcf6.png":::
+
+1. On the **File** menu, select **Exit** to close the test form.
 
 ## Access the Service
 
 ### Reference the WCF service
 
-1. On the **File** menu, point to **Add > New Project**. Choose **Windows Forms App (.NET Framework)** project.
+1. Select **File** > **Add** > **New Project**.
 
-1. Right-click on the project node, and click **Add > Service Reference**. The **Add Service Reference** dialog box appears.
+1. In the **Add a New Project** window, choose either a C# or Visual Basic **Windows Forms App (.NET Framework)** project. Select **Next**, and then **Create** to create the project.
 
-1. In the **Add Service Reference** dialog box, click **Discover**.
+1. In Solution Explorer, right-click the project node of the new project, and select **Add** > **Service Reference**.
 
-     ![Screenshot showing the Add Service Reference dialog box.](../data-tools/media/vs-2022/add-service-reference-dialog-box.png)
+   The **Add Service Reference** dialog box appears.
+
+1. Select **Discover**.
+
+   :::image type="content" alt-text="Screenshot that shows the Add Service Reference dialog box." source="../data-tools/media/vs-2022/add-service-reference-dialog-box.png":::
 
      **Service1** displays in the **Services** pane.
 
-1. Click **OK** to add the service reference.
+1. Select **OK** to add the service reference.
 
 ### Build a client application
 
-1. In **Solution Explorer**, double-click **Form1.vb** or **Form1.cs** to open the Windows Forms Designer if it is not already open.
+1. In Solution Explorer, depending on which type of project you created, double-click **Form1.cs**, or **Form1.vb**, in the Windows Forms app to open the Windows Forms Designer.
 
-1. Open the **Toolbox** by clicking on **View** > **Toolbox** (or **Ctrl**+**Alt**+**X** on the keyboard).
+1. Open the **Toolbox** by selecting **View** > **Toolbox** from the menu, or press **Ctrl**+**Alt**+**X** on the keyboard.
 
-1. From the **Toolbox**, drag a `TextBox` control, a `Label` control, and a `Button` control onto the form.
+1. From the **Toolbox**, drag a **TextBox** control, a **Label** control, and a **Button** control onto the form.
 
-     :::image type="content" alt-text="Screenshot showing adding controls to the form." source="../data-tools/media/vs-2022/windows-communication-foundation-client-app.png" lightbox="../data-tools/media/vs-2022/windows-communication-foundation-client-app.png":::
+     :::image type="content" alt-text="Screenshot that shows how to add controls to the form." source="../data-tools/media/vs-2022/windows-communication-foundation-client-app.png" lightbox="../data-tools/media/vs-2022/windows-communication-foundation-client-app.png":::
 
-1. Double-click the `Button`, and add the following code in the `Click` event handler:
+1. Double-click the **Button**, and add the following code in the `Click` event handler:
 
      ### [C#](#tab/csharp)
+
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/form1.cs" id="Snippet3":::
 
      ### [VB](#tab/vb)
+
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/form1.vb" id="Snippet3":::
+
      ---
 
-1. In **Solution Explorer**, right-click the project node (for example, **WindowsFormsApp1**), and click **Set as StartUp Project**.
+1. In Solution Explorer, right-click the project node (for example, **WindowsFormsApp1**), and select **Set as StartUp Project**.
 
-1. Press **F5** to run the project. Enter some text and click the button. The label displays "You entered:" and shows the text that you entered.
+1. Press **F5** to run the project. Enter some text and select the button. The label displays **You entered:** followed by the text that you entered.
 
-     ![Screenshot of the running form showing the result.](../data-tools/media/vs-2022/windows-forms-app.png)
+   :::image type="content" alt-text="Screenshot that shows the result displayed in the running form." source="../data-tools/media/vs-2022/windows-forms-app.png":::
 
 ## Related content
 
