@@ -6,7 +6,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ms.topic: how-to
-ms.date: 03/16/2025
+ms.date: 03/17/2025
 dev_langs:
 - VB
 - CSharp
@@ -30,33 +30,35 @@ This walkthrough demonstrates how to create a Windows Communication Foundation (
 
 [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Windows Communication Foundation** component installed. To install it:
 
-1. Open **Visual Studio Installer** or select **Tools** > **Get Tools and Features**.
-1. In the installer, choose **Modify** next to the version of Visual Studio you want to modify.
+1. Open **Visual Studio Installer** or select **Tools** > **Get Tools and Features** from the menu.
+1. In **Visual Studio Installer**, choose **Modify** next to the version of Visual Studio you want to modify.
 1. Select the **Individual components** tab, and then choose **Windows Communication Foundation** under **Development activities**.
 1. Select **Modify**.
 
 For more information, see [Modify Visual Studio workloads, components, and language packs](../install/modify-visual-studio.md).
 
-## Create a service
+## Create a WCF service
+
+To create a WCF service in Visual Studio, follow these steps:
 
 1. In Visual Studio, select **File** > **New** > **Project** from the menu.
 
-1. On the **Create a new project** page, enter **wcf service library** in the search box. Select either the C# or Visual Basic template for **WCF Service Library**, and then select **Next**.
+2. On the **Create a new project** page, enter **wcf service library** in the search box. Select either the C# or Visual Basic template for **WCF Service Library**, and then select **Next**.
 
-   :::image type="content" alt-text="Screen shot that shows how to create a WCF Service Library project in Visual Studio." source="../data-tools/media/vs-2022/create-new-wcf-service-library.png":::
+   :::image type="content" alt-text="Screenshot that shows how to create a WCF Service Library project in Visual Studio." source="../data-tools/media/vs-2022/create-new-wcf-service-library.png":::
 
    > [!TIP]
    > If you don't see any templates, you might need to install the **Windows Communication Foundation** component of Visual Studio. For more information, see [Prerequisites](#prerequisites)
 
-1. On the **Configure your new project** page, verify the settings, and then select **Create**.
+3. On the **Configure your new project** page, verify the settings, and then select **Create**.
 
-   This step creates a working WCF service that you can test and access. The following two steps demonstrate how to modify the default method to use a different data type. In a real application, you'd also add your own functions to the service.
+   This step creates a working WCF service that you can test and access. The following steps demonstrate how to modify the default method to use a different data type. In a real application, you'd also add your own functions to the service.
 
-1. In Solution Explorer, double-click **IService1.cs** or **IService1.vb** in your WCF service library project, depending on which type of project you created.
+4. In Solution Explorer, double-click **IService1.cs** or **IService1.vb** in your WCF service library project, depending on which type of project you created.
 
-   :::image type="content" alt-text="Screen shot that shows the IService1 file in Solution Explorer." source="../data-tools/media/wcf2.png":::
+   :::image type="content" alt-text="Screenshot that shows the IService1 file in Solution Explorer." source="../data-tools/media/wcf2.png":::
 
-1. Find the following line:
+5. Find the following line:
 
    ### [C#](#tab/csharp)
 
@@ -68,7 +70,7 @@ For more information, see [Modify Visual Studio workloads, components, and langu
 
    ---
 
-1. Change the type for the `value` parameter to string, as follows:
+6. Change the type for the `value` parameter to string, as follows:
 
    ### [C#](#tab/csharp)
 
@@ -78,15 +80,15 @@ For more information, see [Modify Visual Studio workloads, components, and langu
 
    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/iservice1.vb" id="Snippet1":::
 
+   In this code example, note the `OperationContract` attribute. This attribute is required for any method exposed by the service.
+
    ---
 
-   In the previous code example, note the `OperationContract` attribute. This attribute is required for any method exposed by the service.
+7. In Solution Explorer, double-click **Service1.cs** or **Service1.vb**.
 
-1. In Solution Explorer, double-click **Service1.vb** or **Service1.cs**.
+   :::image type="content" alt-text="Screenshot that shows the Service1 file in Solution Explorer." source="../data-tools/media/wcf3.png":::
 
-   :::image type="content" alt-text="Screen shot that shows the Service1 file in Solution Explorer." source="../data-tools/media/wcf3.png":::
-
-1. In the editor, find the following line:
+8. In the editor, find the following line:
 
    ### [C#](#tab/csharp)
 
@@ -98,7 +100,7 @@ For more information, see [Modify Visual Studio workloads, components, and langu
 
    ---
 
-1. Change the type for the `value` parameter to string, as follows:
+9. Change the type for the `value` parameter to string, as follows:
 
    ### [C#](#tab/csharp)
 
@@ -110,19 +112,21 @@ For more information, see [Modify Visual Studio workloads, components, and langu
 
    ---
 
-## Test the service
+## Test the WCF service
+
+To test the WCF service you created, follow these steps:
 
 1. Press **F5** to run the service.
 
    The **WCF Test Client** form appears and loads the service.
 
-1. In the **WCF Test Client** form, under **IService1**, double-click the **GetData()** method.
+1. Under **IService1**, double-click the **GetData()** method.
 
-   The **GetData** tab appears.
+   The **GetData** tab appears in the **WCF Test Client** form.
 
    :::image type="content" alt-text="Screenshot that shows the GetData method in the WCF Test Client form." source="../data-tools/media/wcf4.png":::
 
-1. In the **Request** box, select the **Value** field and enter **Hello**.
+1. In the **Request** box of the **GetData** tab, select the **Value** field and enter **Hello**.
 
    :::image type="content" alt-text="Screenshot that shows the Value field in the GetData tab." source="../data-tools/media/wcf5.png":::
 
@@ -130,13 +134,17 @@ For more information, see [Modify Visual Studio workloads, components, and langu
 
    The result displays in the **Response** box.
 
-   :::image type="content" alt-text="Screenshot that shows the result displayed in the Response box." source="../data-tools/media/wcf6.png":::
+   :::image type="content" alt-text="Screenshot that shows the result displayed in the Response box in the GetData tab." source="../data-tools/media/wcf6.png":::
 
 1. On the **File** menu, select **Exit** to close the test form.
 
-## Access the Service
+## Access the WCF service
+
+Now that you created and tested the WCF service, you can reference it from a project and use it to build a client application.
 
 ### Reference the WCF service
+
+To reference the WCF service from a project, follow these steps:
 
 1. Select **File** > **Add** > **New Project**.
 
@@ -156,15 +164,17 @@ For more information, see [Modify Visual Studio workloads, components, and langu
 
 ### Build a client application
 
-1. In Solution Explorer, depending on which type of project you created, double-click **Form1.cs**, or **Form1.vb**, in the Windows Forms app to open the Windows Forms Designer.
+1. In Solution Explorer, depending on which type of project you created, double-click **Form1.cs**, or **Form1.vb**, in the Windows Forms app.
+
+   The form opens in Windows Forms Designer.
 
 1. Open the **Toolbox** by selecting **View** > **Toolbox** from the menu, or press **Ctrl**+**Alt**+**X** on the keyboard.
 
 1. From the **Toolbox**, drag a **TextBox** control, a **Label** control, and a **Button** control onto the form.
 
-     :::image type="content" alt-text="Screenshot that shows how to add controls to the form." source="../data-tools/media/vs-2022/windows-communication-foundation-client-app.png" lightbox="../data-tools/media/vs-2022/windows-communication-foundation-client-app.png":::
+     :::image type="content" alt-text="Screenshot that shows how to add controls to the client application form." source="../data-tools/media/vs-2022/windows-communication-foundation-client-app.png" lightbox="../data-tools/media/vs-2022/windows-communication-foundation-client-app.png":::
 
-1. Double-click the **Button**, and add the following code in the `Click` event handler:
+1. Double-click the **Button** control, and add the following code in the `Click` event handler:
 
      ### [C#](#tab/csharp)
 
@@ -180,7 +190,7 @@ For more information, see [Modify Visual Studio workloads, components, and langu
 
 1. Press **F5** to run the project. Enter some text and select the button. The label displays **You entered:** followed by the text that you entered.
 
-   :::image type="content" alt-text="Screenshot that shows the result displayed in the running form." source="../data-tools/media/vs-2022/windows-forms-app.png":::
+   :::image type="content" alt-text="Screenshot that shows the result displayed in the running client application form." source="../data-tools/media/vs-2022/windows-forms-app.png":::
 
 ## Related content
 
