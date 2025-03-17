@@ -1,7 +1,7 @@
 ---
 title: C++ Dynamic Debugging (Preview)
 description: Learn how to use C++ Dynamic Debugging to easily debug optimized code.
-ms.date: 03/14/2025
+ms.date: 03/17/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.debug
@@ -35,7 +35,7 @@ Debugging optimized code presents challenges. The compiler repositions and reorg
 
 In the past, developers dealt with these problems and others when they were in the process of debugging optimized code. Now these challenges are eliminated because with C++ Dynamic Debugging you can step into optimized code as if it were unoptimized.
 
-In addition to generating the optimized binaries, compiling with [`/dynamicdeopt`](/cpp/build/reference/dynamic-deopt) generates unoptimized binaries that are used during debugging. When you add a breakpoint, or step into a function, the debugger loads the unoptimized binary. Then you can debug the unoptimized code for the function instead of the optimized code. You can debug as if you're debugging unoptimized code while you still get the performance advantages of optimized code in the rest of the program.
+In addition to generating the optimized binaries, compiling with [`/dynamicdeopt`](/cpp/build/reference/dynamic-deopt) generates unoptimized binaries that are used during debugging. When you add a breakpoint, or step into a function (including `__forceinline` functions), the debugger loads the unoptimized binary. Then you can debug the unoptimized code for the function instead of the optimized code. You can debug as if you're debugging unoptimized code while you still get the performance advantages of optimized code in the rest of the program.
 
 ## Try out C++ Dynamic Debugging
 
@@ -193,7 +193,7 @@ First, let's review what it's like to debug optimized code. Then you can see how
     A conditional and dependent breakpoint is hit on line 19, cout < < (grid[i][j] ? '*' : ' ');. The Locals window shows the values of i and j and the other local variables in the function. The Call Stack window shows that the function is deoptimized and the filename is life.alt.exe.
     :::image-end:::
 
-1. Delete all the breakpoints to return deoptimized functions to their optimized state. On the Visual Studio main menu, select **Debug** > **Delete All Breakpoints**. All functions then return to their optimized state. 
+1. Delete all the breakpoints to return deoptimized functions to their optimized state. On the Visual Studio main menu, select **Debug** > **Delete All Breakpoints**. All functions then return to their optimized state.
 
     If you add breakpoints via the **Call Stack** window **Deoptimize on next entry** option, which we didn't do in this walkthrough, you can right-click the **Deoptimized Functions** group and select **Delete** to revert only the functions in that group back to their optimized state.
 
@@ -224,7 +224,16 @@ Unreal Engine 5.6 supports C++ Dynamic Debugging for both Unreal Build Tool and 
     </WindowsPlatform>
     ```
 
-For more information, see the Unreal Engine article [Build Configuration](https://dev.epicgames.com/documentation/en-us/unreal-engine/build-configuration-for-unreal-engine).
+For Unreal Engine 5.5 or earlier, cherry-pick the Unreal Build Tool changes from [GitHub](https://aka.ms/vcdd_ue) into your repo. Then enable `bDynamicDebugging` as indicated above. You also need Unreal Build Accelerator from Unreal Engine 5.6. Either use the latest bits from ue5-main, or disable UBA by modifying `BuildConfiguration.xml` to include:
+
+```xml
+<BuildConfiguration>
+	<bAllowUBAExecutor>false</bAllowUBAExecutor>
+	<bAllowUBALocalExecutor>false</bAllowUBALocalExecutor>
+</BuildConfiguration>
+```
+
+For more information about configuring how Unreal Engine is built, see [Build Configuration](https://dev.epicgames.com/documentation/en-us/unreal-engine/build-configuration-for-unreal-engine).
 
 ## Troubleshooting
 
@@ -256,7 +265,7 @@ If things aren't working as expected, open a ticket at [Developer Community](htt
 
 ## General notes
 
-IncrediBuild 10.23 supports C++ Dynamic Debugging builds.
+IncrediBuild 10.24 supports C++ Dynamic Debugging builds.
 
 Functions that are inlined are deoptimized on demand. If you set a breakpoint on an inlined function, the debugger deoptimizes the function and its caller. The breakpoint hits where you expect it to, as if your program was built without compiler optimizations.
 
