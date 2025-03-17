@@ -1,7 +1,7 @@
 ---
 title: "Add Unreal Engine classes, modules, and plugins in Visual Studio"
 description: "Learn how to add Unreal Engine classes, modules, and plugins to your Unreal Engine project from within Visual Studio"
-ms.date: 03/14/2025
+ms.date: 03/17/2025
 ms.topic: how-to
 ms.service: visual-studio
 ms.subservice: unreal-engine-tools
@@ -52,7 +52,7 @@ The **Build** path shows where the `Build.cs` file is created. The `Build.cs` fi
 
 ## Build a single UE module
 
-After adding the module, build it to make it available in the Unreal Engine Editor. Rather than build the entire project, you can build just the module by following these steps:
+After adding the module, build it to make it available in the Unreal Engine Editor. Rather than build the entire project, you can build just the module.
 
 In **Solution Explorer**, right-click on the module folder and select **Build**. This builds the plugin and makes it available in the Unreal Engine Editor.
 
@@ -106,7 +106,7 @@ To add an Unreal Engine plugin in Visual Studio, follow these steps after comple
 
 ## Build a single UE plugin
 
-After adding the plugin, build it to make it available in the Unreal Engine Editor. Rather than build the entire project, you can build just the plugin by following these steps:
+After adding the plugin, build it to make it available in the Unreal Engine Editor. Rather than build the entire project, you can build just the plugin.
 
 In **Solution Explorer**, right-click on the plugin folder and choose **Build this Unreal Engine plugin**. This builds the plugin and makes it available in the Unreal Engine Editor.
 
