@@ -111,7 +111,7 @@ After adding the plugin, build it to make it available in the Unreal Engine Edit
 In **Solution Explorer**, right-click on the plugin folder and choose **Build this Unreal Engine plugin**. This builds the plugin and makes it available in the Unreal Engine Editor.
 
 :::image type="complex" source="../media/vs-build-plugin-menu.png" alt-text="A screenshot of the menu to build the plugin.":::
-    The menu options after right-clicking the plugin folder MyPlugin are visible. The entry Build this Unreal Engine plugin, is highlighted.
+    The menu options after right-clicking the plugin folder MyPlugin are visible. The entry Build this Unreal Engine plugin is highlighted.
 :::image-end:::
 
 If the build is successful, the plugin is available in the Unreal Engine Editor. If the build fails, the **Output** window displays the error messages.
