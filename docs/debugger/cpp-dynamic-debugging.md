@@ -259,8 +259,6 @@ If breakpoints don't hit in deoptimized functions:
 
 - Dynamic Deoptimization won't work consistently if `/dynamicdeopt` isn't passed to `cl.exe`, `lib.exe`, and `link.exe` for all `.cpp`, `.lib`, and binary files. Confirm that the proper switches are set when you build your project.
 
-- For more information about known issues, see [Known issues](https://aka.ms/vcdd_knownissues).
-
 If things aren't working as expected, open a ticket at [Developer Community](https://developercommunity.visualstudio.com/cpp). Include as much information as possible about the issue.
 
 ## General notes
@@ -398,4 +396,5 @@ The following linker options are incompatible with C++ Dynamic Debugging:
 
 [/dynamicdeopt compiler flag (preview)](/cpp/build/reference/dynamic-deopt)\
 [/DYNAMICDEOPT linker flag (preview)](/cpp/build/reference/dynamic-deopt-linker)\
+[C++ Dynamic Debugging: Full Debuggability for Optimized Builds](https://devblogs.microsoft.com/cppblog/?p=35229&preview=1&_ppp=311c983177)\
 [Debug optimized code](how-to-debug-optimized-code.md)
