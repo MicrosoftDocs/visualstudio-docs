@@ -432,6 +432,8 @@
         href: debugging-preparation-visual-cpp-project-types.md
       - name: Debug optimized code
         href: how-to-debug-optimized-code.md
+      - name: C++ Dynamic debugging
+        href: cpp-dynamic-debugging.md
       - name: DebugBreak and __debugbreak
         href: debugbreak-and-debugbreak.md
       - name: C/C++ assertions
