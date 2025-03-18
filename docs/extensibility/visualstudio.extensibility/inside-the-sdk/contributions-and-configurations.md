@@ -36,7 +36,7 @@ public class CommandParentingSampleExtension : Extension
 }
 ```
 
-The [`Extension`](/dotnet/api/microsoft.visualstudio.extensibility.extension) class is the first instantiated class of the extension and allows you to add your own services to the `IServiceCollection` to be used for dependency injection.
+The [`Extension`](/dotnet/api/microsoft.visualstudio.extensibility.extension) class is the first instantiated class of the extension and allows you to add your own services to the `IServiceCollection` to be used for [dependency injection](./dependency-injection.md).
 
 The Command Parenting sample contributes another class, a [`Command`](/dotnet/api/microsoft.visualstudio.extensibility.commands.command), to Visual Studio:
 
@@ -54,7 +54,7 @@ When extending a base class provided by the VisualStudio.Extensibility SDK, you 
 
 Visual Studio contribution classes are lazily instantiated singletons: only one instance is created and its creation is delayed until Visual Studio needs to interact with it (for example when a `Command` is first invoked by the user).
 
-The VisualStudio.Extensibility infrastructure also allows you to receive services through dependency injection as constructor parameters of Visual Studio contribution classes (see [Services provided by SDK for injection](./extension-anatomy.md#services-provided-by-sdk-for-injection)), including any service that you added to the `IServiceCollection` in the `Extension` class' `InitializeServices` method.
+The VisualStudio.Extensibility infrastructure also allows you to receive services through dependency injection as constructor parameters of Visual Studio contribution classes (see [Dependency injection in VisualStudio.Extensibility extensions](./dependency-injection.md)), including any service that you added to the `IServiceCollection` in the `Extension` class' `InitializeServices` method.
 
 Visual Studio often requires a unique identifier to be associated with contributions. In most cases, the VisualStudio.Extensibility infrastructure uses the full name of the Visual Studio contribution class as the contribution identifier. For example, the identifier of the `Extension` class above would be `CommandParentingSample.CommandParentingSampleExtension`. You might want to carefully choose the type name and namespace of your Visual Studio contribution classes, since they might appear in Visual Studio logs and error messages.
 

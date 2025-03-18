@@ -3,7 +3,7 @@ title: Cloud Academy benefit in Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 02/27/2025
+ms.date: 03/11/2025
 ms.topic: how-to
 description: Activate and explore the Cloud Academy (a QA Company) training benefit available in eligible Visual Studio subscriptions, and find answers to frequently asked questions.
 ---
@@ -42,8 +42,7 @@ The following table describes the Cloud Academy training benefits that are inclu
 |  Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | NA |
 |  Visual Studio Enterprise (NFR<sup>1</sup>) | Program | Not available | NA |
 
-<sup>1</sup> *Includes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Services, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Cloud Partner Program, FTE, Imagine.  
-Excludes: NFR Basic.*
+<sup>1</sup> *Includes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Services, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Cloud Partner Program, FTE, Imagine, NFR Basic.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional annual subscriptions and Visual Studio Enterprise annual subscriptions in cloud subscriptions. Current customers continue to have the same experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [Visual Studio pricing](https://visualstudio.microsoft.com/vs/pricing/?tab=paid-subscriptions) to explore different options to purchase Visual Studio.
@@ -64,14 +63,14 @@ Not sure which subscription you're using? To see the subscriptions that are asso
    1. Provide the contact information that's requested.
    1. Select **Redeem**.
 
-   :::image type="content" source="_img/vs-cloud-academy/web-form.png" alt-text="Screenshot of the Cloud Academy registration form and the Redeem button highlighted.":::
+   :::image type="content" source="_img/vs-cloud-academy/web-form-rev.png" alt-text="Screenshot of the Cloud Academy registration form and the Redeem button highlighted.":::
 
    > [!NOTE]
    > The registration page expires after a few minutes. If you don't finish the registration process before the page expires, return to the Cloud Academy benefit tile in [Visual Studio Subscriptions](https://my.visualstudio.com/benefits) and select **Activate** again.
 
 1. It might take a moment to set up your Cloud Academy account. When your account is set up, the Cloud Academy webpage displays a confirmation. An email that has your sign-in information is sent to the email address you entered when you created the account. If you have trouble finding the email, be sure to check your spam folder.
 
-   :::image type="content" source="_img/vs-cloud-academy/web-form-confirm.png" alt-text="Screenshot of the Cloud Academy confirmation webpage.":::
+   :::image type="content" source="_img/vs-cloud-academy/web-form-confirm-rev.png" alt-text="Screenshot of the Cloud Academy confirmation webpage.":::
 
 1. Check your inbox for further instructions to how to access your benefit.
 

@@ -1025,25 +1025,21 @@
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/add-validation-to-an-n-tier-dataset?view=vs-2017",
       "redirect_document_id": false
     },
-    
     {
       "source_path": "docs/data-tools/add-code-to-tableadapters-in-n-tier-applications.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/add-code-to-tableadapters-in-n-tier-applications?view=vs-2017",
       "redirect_document_id": false
     },
-    
     {
       "source_path": "docs/data-tools/separate-datasets-and-tableadapters-into-different-projects.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/separate-datasets-and-tableadapters-into-different-projects?view=vs-2017",
       "redirect_document_id": false
     },
-    
     {
       "source_path": "docs/data-tools/add-code-to-datasets-in-n-tier-applications.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/add-code-to-datasets-in-n-tier-applications?view=vs-2017",
       "redirect_document_id": false
     },
-    
     {
       "source_path": "docs/azure/vs-active-directory-dotnet-getting-started.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-active-directory-dotnet-getting-started?view=vs-2017",
@@ -1063,7 +1059,7 @@
       "source_path": "docs/azure/vs-active-directory-webapi-what-happened.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-active-directory-webapi-what-happened?view=vs-2017",
       "redirect_document_id": false
-    }, 
+    },
     {
       "source_path": "docs/extensibility/what-s-new-in-the-visual-studio-2017-sdk.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/what-s-new-in-the-visual-studio-2017-sdk",
@@ -2049,60 +2045,65 @@
       "redirect_url": "/visualstudio/msbuild/obtaining-build-logs-with-msbuild",
       "redirect_document_id": false
     },
-    {            
+    {
       "source_path": "docs/msbuild/file-tracking.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/file-tracking",
       "redirect_document_id": false
     },
-    {            
+    {
       "source_path": "docs/msbuild/resumetracking.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/resumetracking",
       "redirect_document_id": false
     },
-    {            
+    {
       "source_path": "docs/msbuild/endtrackingcontext.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/endtrackingcontext",
       "redirect_document_id": false
     },
-    {            
+    {
       "source_path": "docs/msbuild/setthreadcount.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/setthreadcount",
       "redirect_document_id": false
     },
-    {            
+    {
       "source_path": "docs/msbuild/starttrackingcontext.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/starttrackingcontext",
       "redirect_document_id": false
     },
-    {            
+    {
       "source_path": "docs/msbuild/starttrackingcontextwithroot.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/starttrackingcontextwithroot",
       "redirect_document_id": false
     },
-    {            
+    {
       "source_path": "docs/msbuild/stoptrackingandcleanup.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/stoptrackingandcleanup",
       "redirect_document_id": false
     },
-    {            
+    {
       "source_path": "docs/msbuild/suspendtracking.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/suspendtracking",
       "redirect_document_id": false
     },
-    {            
+    {
       "source_path": "docs/msbuild/writealltlogs.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/writealltlogs",
       "redirect_document_id": false
     },
-    {            
+    {
       "source_path": "docs/msbuild/writecontexttlogs.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/writecontexttlogs",
       "redirect_document_id": false
     },
-    {            
+    {
       "source_path": "docs/ide/understanding-build-platforms.md",
       "redirect_url": "/visualstudio/ide/how-to-configure-projects-to-target-platforms",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/walkthrough-debugging-a-windows-form.md",
+      "redirect_url": "/visualstudio/debugger/debugger-feature-tour",
+      "redirect_document_id": true
     },
     {
       "source_path": "docs/debugger/tips-for-debugging-threads-in-native-code.md",
@@ -2308,7 +2309,8 @@
       "source_path": "docs/debugger/graphics/copy-programmatic-capture.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/copy-programmatic-capture",
       "redirect_document_id": false
-    },    {
+    },
+    {
       "source_path": "docs/debugger/graphics/dont-save-vsglog-to-temp.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/dont-save-vsglog-to-temp",
       "redirect_document_id": false
@@ -2539,74 +2541,74 @@
       "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/anatomy-of-a-coded-ui-test.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/anatomy-of-a-coded-ui-test",
-        "redirect_document_id": false
+      "source_path": "docs/test/anatomy-of-a-coded-ui-test.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/anatomy-of-a-coded-ui-test",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/best-practices-for-coded-ui-tests.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/best-practices-for-coded-ui-tests",
-        "redirect_document_id": false
+      "source_path": "docs/test/best-practices-for-coded-ui-tests.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/best-practices-for-coded-ui-tests",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/creating-a-data-driven-coded-ui-test.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/creating-a-data-driven-coded-ui-test",
-        "redirect_document_id": false
+      "source_path": "docs/test/creating-a-data-driven-coded-ui-test.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/creating-a-data-driven-coded-ui-test",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/editing-coded-ui-tests-using-the-coded-ui-test-editor",
-        "redirect_document_id": false
+      "source_path": "docs/test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/editing-coded-ui-tests-using-the-coded-ui-test-editor",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/enable-coded-ui-testing-of-your-controls.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/enable-coded-ui-testing-of-your-controls",
-        "redirect_document_id": false
+      "source_path": "docs/test/enable-coded-ui-testing-of-your-controls.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/enable-coded-ui-testing-of-your-controls",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel",
-        "redirect_document_id": false
+      "source_path": "docs/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/making-coded-ui-tests-wait-for-specific-events-during-playback.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/making-coded-ui-tests-wait-for-specific-events-during-playback",
-        "redirect_document_id": false
+      "source_path": "docs/test/making-coded-ui-tests-wait-for-specific-events-during-playback.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/making-coded-ui-tests-wait-for-specific-events-during-playback",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/set-a-unique-automation-property-for-windows-store-controls-for-testing.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/set-a-unique-automation-property-for-windows-store-controls-for-testing",
-        "redirect_document_id": false
+      "source_path": "docs/test/set-a-unique-automation-property-for-windows-store-controls-for-testing.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/set-a-unique-automation-property-for-windows-store-controls-for-testing",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings",
-        "redirect_document_id": false
+      "source_path": "docs/test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/test-uwp-app-with-coded-ui-test.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/test-uwp-app-with-coded-ui-test",
-        "redirect_document_id": false
+      "source_path": "docs/test/test-uwp-app-with-coded-ui-test.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/test-uwp-app-with-coded-ui-test",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/testing-a-large-application-with-multiple-ui-maps.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/testing-a-large-application-with-multiple-ui-maps",
-        "redirect_document_id": false
+      "source_path": "docs/test/testing-a-large-application-with-multiple-ui-maps.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/testing-a-large-application-with-multiple-ui-maps",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/using-different-web-browsers-with-coded-ui-tests.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/using-different-web-browsers-with-coded-ui-tests",
-        "redirect_document_id": false
+      "source_path": "docs/test/using-different-web-browsers-with-coded-ui-tests.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/using-different-web-browsers-with-coded-ui-tests",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/using-html5-controls-in-coded-ui-tests.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/using-html5-controls-in-coded-ui-tests",
-        "redirect_document_id": false
+      "source_path": "docs/test/using-html5-controls-in-coded-ui-tests.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/using-html5-controls-in-coded-ui-tests",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test",
-        "redirect_document_id": false
+      "source_path": "docs/test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/test/troubleshooting-code-coverage.md",
@@ -2619,424 +2621,424 @@
       "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/analyze-load-test-results-and-errors-in-the-tables-view.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/analyze-load-test-results-and-errors-in-the-tables-view",
-        "redirect_document_id": false
+      "source_path": "docs/test/analyze-load-test-results-and-errors-in-the-tables-view.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/analyze-load-test-results-and-errors-in-the-tables-view",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/analyze-load-test-results-in-the-graphs-view.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/analyze-load-test-results-in-the-graphs-view",
-        "redirect_document_id": false
+      "source_path": "docs/test/analyze-load-test-results-in-the-graphs-view.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/analyze-load-test-results-in-the-graphs-view",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/analyze-load-test-results-using-the-load-test-analyzer.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/analyze-load-test-results-using-the-load-test-analyzer",
-        "redirect_document_id": false
+      "source_path": "docs/test/analyze-load-test-results-using-the-load-test-analyzer.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/analyze-load-test-results-using-the-load-test-analyzer",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/analyze-load-test-virtual-user-activity-in-the-details-view.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/analyze-load-test-virtual-user-activity-in-the-details-view",
-        "redirect_document_id": false
+      "source_path": "docs/test/analyze-load-test-virtual-user-activity-in-the-details-view.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/analyze-load-test-virtual-user-activity-in-the-details-view",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/analyze-threshold-rule-violations-in-load-tests.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/analyze-threshold-rule-violations-in-load-tests",
-        "redirect_document_id": false
+      "source_path": "docs/test/analyze-threshold-rule-violations-in-load-tests.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/analyze-threshold-rule-violations-in-load-tests",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/assign-roles-to-a-test-controller-and-test-agent.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/assign-roles-to-a-test-controller-and-test-agent",
-        "redirect_document_id": false
+      "source_path": "docs/test/assign-roles-to-a-test-controller-and-test-agent.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/assign-roles-to-a-test-controller-and-test-agent",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/code-a-custom-extraction-rule-for-a-web-performance-test.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/code-a-custom-extraction-rule-for-a-web-performance-test",
-        "redirect_document_id": false
+      "source_path": "docs/test/code-a-custom-extraction-rule-for-a-web-performance-test.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/code-a-custom-extraction-rule-for-a-web-performance-test",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/code-a-custom-validation-rule-for-a-web-performance-test.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/code-a-custom-validation-rule-for-a-web-performance-test",
-        "redirect_document_id": false
+      "source_path": "docs/test/code-a-custom-validation-rule-for-a-web-performance-test.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/code-a-custom-validation-rule-for-a-web-performance-test",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/collect-diagnostic-information-using-test-settings.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/collect-diagnostic-information-using-test-settings",
-        "redirect_document_id": false
+      "source_path": "docs/test/collect-diagnostic-information-using-test-settings.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/collect-diagnostic-information-using-test-settings",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/compare-load-test-results.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/compare-load-test-results",
-        "redirect_document_id": false
+      "source_path": "docs/test/compare-load-test-results.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/compare-load-test-results",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/configure-load-test-run-settings.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/configure-load-test-run-settings",
-        "redirect_document_id": false
+      "source_path": "docs/test/configure-load-test-run-settings.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/configure-load-test-run-settings",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/configure-ports-for-test-controllers-and-test-agents.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/configure-ports-for-test-controllers-and-test-agents",
-        "redirect_document_id": false
+      "source_path": "docs/test/configure-ports-for-test-controllers-and-test-agents.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/configure-ports-for-test-controllers-and-test-agents",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/configure-scenario-start-delays.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/configure-scenario-start-delays",
-        "redirect_document_id": false
+      "source_path": "docs/test/configure-scenario-start-delays.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/configure-scenario-start-delays",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/configure-test-agents-and-controllers-for-load-tests.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/configure-test-agents-and-controllers-for-load-tests",
-        "redirect_document_id": false
+      "source_path": "docs/test/configure-test-agents-and-controllers-for-load-tests.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/configure-test-agents-and-controllers-for-load-tests",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/configure-test-iterations-in-a-load-test-scenario.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/configure-test-iterations-in-a-load-test-scenario",
-        "redirect_document_id": false
+      "source_path": "docs/test/configure-test-iterations-in-a-load-test-scenario.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/configure-test-iterations-in-a-load-test-scenario",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/create-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/create-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine",
-        "redirect_document_id": false
+      "source_path": "docs/test/create-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/create-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/create-custom-code-and-plug-ins-for-load-tests.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/create-custom-code-and-plug-ins-for-load-tests",
-        "redirect_document_id": false
+      "source_path": "docs/test/create-custom-code-and-plug-ins-for-load-tests.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/create-custom-code-and-plug-ins-for-load-tests",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/edit-load-patterns-to-model-virtual-user-activities.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/edit-load-patterns-to-model-virtual-user-activities",
-        "redirect_document_id": false
+      "source_path": "docs/test/edit-load-patterns-to-model-virtual-user-activities.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/edit-load-patterns-to-model-virtual-user-activities",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/edit-load-test-scenarios.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/edit-load-test-scenarios",
-        "redirect_document_id": false
+      "source_path": "docs/test/edit-load-test-scenarios.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/edit-load-test-scenarios",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/edit-load-tests.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/edit-load-tests",
-        "redirect_document_id": false
+      "source_path": "docs/test/edit-load-tests.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/edit-load-tests",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test",
-        "redirect_document_id": false
+      "source_path": "docs/test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/edit-the-test-mix-in-a-load-test-scenario.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/edit-the-test-mix-in-a-load-test-scenario",
-        "redirect_document_id": false
+      "source_path": "docs/test/edit-the-test-mix-in-a-load-test-scenario.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/edit-the-test-mix-in-a-load-test-scenario",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/edit-the-test-mix-to-specify-which-web-browsers-types-in-a-load-test-scenario.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/edit-the-test-mix-to-specify-which-web-browsers-types-in-a-load-test-scenario",
-        "redirect_document_id": false
+      "source_path": "docs/test/edit-the-test-mix-to-specify-which-web-browsers-types-in-a-load-test-scenario.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/edit-the-test-mix-to-specify-which-web-browsers-types-in-a-load-test-scenario",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/edit-think-times-in-load-test-scenarios.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/edit-think-times-in-load-test-scenarios",
-        "redirect_document_id": false
+      "source_path": "docs/test/edit-think-times-in-load-test-scenarios.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/edit-think-times-in-load-test-scenarios",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/emulate-real-world-usage-of-a-web-site-in-a-load-test-using-test-mix-models.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/emulate-real-world-usage-of-a-web-site-in-a-load-test-using-test-mix-models",
-        "redirect_document_id": false
+      "source_path": "docs/test/emulate-real-world-usage-of-a-web-site-in-a-load-test-using-test-mix-models.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/emulate-real-world-usage-of-a-web-site-in-a-load-test-using-test-mix-models",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/fix-non-detectable-dynamic-parameters-in-a-web-performance-test.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/fix-non-detectable-dynamic-parameters-in-a-web-performance-test",
-        "redirect_document_id": false
+      "source_path": "docs/test/fix-non-detectable-dynamic-parameters-in-a-web-performance-test.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/fix-non-detectable-dynamic-parameters-in-a-web-performance-test",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/generate-and-run-a-coded-web-performance-test.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/generate-and-run-a-coded-web-performance-test",
-        "redirect_document_id": false
+      "source_path": "docs/test/generate-and-run-a-coded-web-performance-test.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/generate-and-run-a-coded-web-performance-test",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-access-load-test-results-for-analysis.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-access-load-test-results-for-analysis",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-access-load-test-results-for-analysis.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-access-load-test-results-for-analysis",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-add-a-threshold-rule-using-the-load-test-editor.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-add-a-threshold-rule-using-the-load-test-editor",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-add-a-threshold-rule-using-the-load-test-editor.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-add-a-threshold-rule-using-the-load-test-editor",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-add-additional-run-settings-to-a-load-test.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-add-additional-run-settings-to-a-load-test",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-add-additional-run-settings-to-a-load-test.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-add-additional-run-settings-to-a-load-test",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-add-and-delete-counters-on-graphs-in-load-test-results.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-add-and-delete-counters-on-graphs-in-load-test-results",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-add-and-delete-counters-on-graphs-in-load-test-results.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-add-and-delete-counters-on-graphs-in-load-test-results",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-add-context-parameters-to-a-load-test-run-setting.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-add-context-parameters-to-a-load-test-run-setting",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-add-context-parameters-to-a-load-test-run-setting.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-add-context-parameters-to-a-load-test-run-setting",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-add-counters-to-counter-sets-using-the-load-test-editor.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-add-counters-to-counter-sets-using-the-load-test-editor",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-add-counters-to-counter-sets-using-the-load-test-editor.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-add-counters-to-counter-sets-using-the-load-test-editor",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-add-custom-counter-sets-using-the-load-test-editor.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-add-custom-counter-sets-using-the-load-test-editor",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-add-custom-counter-sets-using-the-load-test-editor.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-add-custom-counter-sets-using-the-load-test-editor",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-analyze-virtual-user-activity-during-a-load-test.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-analyze-virtual-user-activity-during-a-load-test",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-analyze-virtual-user-activity-during-a-load-test.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-analyze-virtual-user-activity-during-a-load-test",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-apply-distribution-to-pacing-delay-when-using-a-user-pace-test-mix-model.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-apply-distribution-to-pacing-delay-when-using-a-user-pace-test-mix-model",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-apply-distribution-to-pacing-delay-when-using-a-user-pace-test-mix-model.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-apply-distribution-to-pacing-delay-when-using-a-user-pace-test-mix-model",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-bind-a-test-controller-or-test-agent-to-a-network-adapter.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-bind-a-test-controller-or-test-agent-to-a-network-adapter",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-bind-a-test-controller-or-test-agent-to-a-network-adapter.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-bind-a-test-controller-or-test-agent-to-a-network-adapter",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-collect-intellitrace-data-to-help-debug-difficult-issues.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-collect-intellitrace-data-to-help-debug-difficult-issues",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-collect-intellitrace-data-to-help-debug-difficult-issues.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-collect-intellitrace-data-to-help-debug-difficult-issues",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-configure-aspnet-profiler-for-load-tests-using-test-settings.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-configure-aspnet-profiler-for-load-tests-using-test-settings",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-configure-aspnet-profiler-for-load-tests-using-test-settings.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-configure-aspnet-profiler-for-load-tests-using-test-settings",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-configure-network-emulation-using-test-settings-in-visual-studio.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-configure-network-emulation-using-test-settings-in-visual-studio",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-configure-network-emulation-using-test-settings-in-visual-studio.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-configure-network-emulation-using-test-settings-in-visual-studio",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-create-a-custom-http-body-editor-for-the-web-performance-test-editor.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-a-custom-http-body-editor-for-the-web-performance-test-editor",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-create-a-custom-http-body-editor-for-the-web-performance-test-editor.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-a-custom-http-body-editor-for-the-web-performance-test-editor",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-create-a-diagnostic-data-adapter.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-a-diagnostic-data-adapter",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-create-a-diagnostic-data-adapter.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-a-diagnostic-data-adapter",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-create-a-load-test-plug-in.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-a-load-test-plug-in",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-create-a-load-test-plug-in.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-a-load-test-plug-in",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-create-a-recorder-plug-in.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-a-recorder-plug-in",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-create-a-recorder-plug-in.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-a-recorder-plug-in",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-create-a-request-level-plug-in.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-a-request-level-plug-in",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-create-a-request-level-plug-in.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-a-request-level-plug-in",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-create-a-test-setting-for-a-distributed-load-test.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-a-test-setting-for-a-distributed-load-test",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-create-a-test-setting-for-a-distributed-load-test.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-a-test-setting-for-a-distributed-load-test",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-create-a-web-performance-test-plug-in.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-a-web-performance-test-plug-in",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-create-a-web-performance-test-plug-in.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-a-web-performance-test-plug-in",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-create-an-add-in-for-the-web-performance-test-results-viewer.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-an-add-in-for-the-web-performance-test-results-viewer",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-create-an-add-in-for-the-web-performance-test-results-viewer.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-an-add-in-for-the-web-performance-test-results-viewer",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-create-custom-graphs-in-load-test-results.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-custom-graphs-in-load-test-results",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-create-custom-graphs-in-load-test-results.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-custom-graphs-in-load-test-results",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-create-load-test-performance-reports-using-microsoft-excel.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-load-test-performance-reports-using-microsoft-excel",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-create-load-test-performance-reports-using-microsoft-excel.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-create-load-test-performance-reports-using-microsoft-excel",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-delete-load-test-results-from-a-repository.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-delete-load-test-results-from-a-repository",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-delete-load-test-results-from-a-repository.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-delete-load-test-results-from-a-repository",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-export-load-test-results-from-a-repository.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-export-load-test-results-from-a-repository",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-export-load-test-results-from-a-repository.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-export-load-test-results-from-a-repository",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-import-load-test-results-into-a-repository.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-import-load-test-results-into-a-repository",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-import-load-test-results-into-a-repository.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-import-load-test-results-into-a-repository",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-include-recordings-of-the-screen-and-voice-during-tests.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-include-recordings-of-the-screen-and-voice-during-tests",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-include-recordings-of-the-screen-and-voice-during-tests.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-include-recordings-of-the-screen-and-voice-during-tests",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-manage-counter-sets-using-the-load-test-editor.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-manage-counter-sets-using-the-load-test-editor",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-manage-counter-sets-using-the-load-test-editor.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-manage-counter-sets-using-the-load-test-editor",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-manually-create-a-load-test-performance-report-using-microsoft-word.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-manually-create-a-load-test-performance-report-using-microsoft-word",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-manually-create-a-load-test-performance-report-using-microsoft-word.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-manually-create-a-load-test-performance-report-using-microsoft-word",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-select-a-load-test-results-repository.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-select-a-load-test-results-repository",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-select-a-load-test-results-repository.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-select-a-load-test-results-repository",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-select-a-load-test-run-setting-from-the-command-line.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-select-a-load-test-run-setting-from-the-command-line",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-select-a-load-test-run-setting-from-the-command-line.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-select-a-load-test-run-setting-from-the-command-line",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-select-the-active-run-setting-for-a-load-test.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-select-the-active-run-setting-for-a-load-test",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-select-the-active-run-setting-for-a-load-test.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-select-the-active-run-setting-for-a-load-test",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-set-up-your-test-agent-to-run-tests-that-interact-with-the-desktop.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-set-up-your-test-agent-to-run-tests-that-interact-with-the-desktop",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-set-up-your-test-agent-to-run-tests-that-interact-with-the-desktop.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-set-up-your-test-agent-to-run-tests-that-interact-with-the-desktop",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-specify-if-test-failures-are-saved-to-test-logs.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-specify-if-test-failures-are-saved-to-test-logs",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-specify-if-test-failures-are-saved-to-test-logs.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-specify-if-test-failures-are-saved-to-test-logs",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-specify-test-agents-to-use-in-load-test-scenarios.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-specify-test-agents-to-use-in-load-test-scenarios",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-specify-test-agents-to-use-in-load-test-scenarios.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-specify-test-agents-to-use-in-load-test-scenarios",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-specify-the-number-of-test-iterations-in-a-load-test.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-specify-the-number-of-test-iterations-in-a-load-test",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-specify-the-number-of-test-iterations-in-a-load-test.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-specify-the-number-of-test-iterations-in-a-load-test",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-specify-the-percentage-of-virtual-users-that-use-web-cache-data.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-specify-the-percentage-of-virtual-users-that-use-web-cache-data",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-specify-the-percentage-of-virtual-users-that-use-web-cache-data.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-specify-the-percentage-of-virtual-users-that-use-web-cache-data",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-specify-the-sample-rate-for-a-load-test.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-specify-the-sample-rate-for-a-load-test",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-specify-the-sample-rate-for-a-load-test.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-specify-the-sample-rate-for-a-load-test",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-specify-the-step-ramp-time-property-for-a-step-load-pattern.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-specify-the-step-ramp-time-property-for-a-step-load-pattern",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-specify-the-step-ramp-time-property-for-a-step-load-pattern.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-specify-the-step-ramp-time-property-for-a-step-load-pattern",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-specify-the-timing-details-storage-property-for-a-load-test.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-specify-the-timing-details-storage-property-for-a-load-test",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-specify-the-timing-details-storage-property-for-a-load-test.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-specify-the-timing-details-storage-property-for-a-load-test",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-specify-timeout-periods-for-test-controllers-and-test-agents.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-specify-timeout-periods-for-test-controllers-and-test-agents",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-specify-timeout-periods-for-test-controllers-and-test-agents.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-specify-timeout-periods-for-test-controllers-and-test-agents",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-use-the-load-test-api.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-use-the-load-test-api",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-use-the-load-test-api.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-use-the-load-test-api",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-use-the-web-performance-test-api.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-use-the-web-performance-test-api",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-use-the-web-performance-test-api.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-use-the-web-performance-test-api",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-view-web-page-response-time-in-a-load-test.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-view-web-page-response-time-in-a-load-test",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-view-web-page-response-time-in-a-load-test.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-view-web-page-response-time-in-a-load-test",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/how-to-zoom-in-on-a-region-of-the-graph-in-load-test-results.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-zoom-in-on-a-region-of-the-graph-in-load-test-results",
-        "redirect_document_id": false
+      "source_path": "docs/test/how-to-zoom-in-on-a-region-of-the-graph-in-load-test-results.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/how-to-zoom-in-on-a-region-of-the-graph-in-load-test-results",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/load-test-results-summary-overview.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/load-test-results-summary-overview",
-        "redirect_document_id": false
+      "source_path": "docs/test/load-test-results-summary-overview.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/load-test-results-summary-overview",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/load-test-run-settings-properties.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/load-test-run-settings-properties",
-        "redirect_document_id": false
+      "source_path": "docs/test/load-test-run-settings-properties.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/load-test-run-settings-properties",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/load-test-scenario-properties.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/load-test-scenario-properties",
-        "redirect_document_id": false
+      "source_path": "docs/test/load-test-scenario-properties.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/load-test-scenario-properties",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/manage-load-test-results-in-the-load-test-results-repository.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/manage-load-test-results-in-the-load-test-results-repository",
-        "redirect_document_id": false
+      "source_path": "docs/test/manage-load-test-results-in-the-load-test-results-repository.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/manage-load-test-results-in-the-load-test-results-repository",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/manage-test-controllers-and-test-agents.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/manage-test-controllers-and-test-agents",
-        "redirect_document_id": false
+      "source_path": "docs/test/manage-test-controllers-and-test-agents.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/manage-test-controllers-and-test-agents",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/modify-load-test-logging-settings.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/modify-load-test-logging-settings",
-        "redirect_document_id": false
+      "source_path": "docs/test/modify-load-test-logging-settings.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/modify-load-test-logging-settings",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/specify-counter-sets-and-threshold-rules-for-load-testing.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/specify-counter-sets-and-threshold-rules-for-load-testing",
-        "redirect_document_id": false
+      "source_path": "docs/test/specify-counter-sets-and-threshold-rules-for-load-testing.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/specify-counter-sets-and-threshold-rules-for-load-testing",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/specify-virtual-network-types-in-a-load-test-scenario.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/specify-virtual-network-types-in-a-load-test-scenario",
-        "redirect_document_id": false
+      "source_path": "docs/test/specify-virtual-network-types-in-a-load-test-scenario.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/specify-virtual-network-types-in-a-load-test-scenario",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/test-controller-and-test-agent-requirements-for-load-testing.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/test-controller-and-test-agent-requirements-for-load-testing",
-        "redirect_document_id": false
+      "source_path": "docs/test/test-controller-and-test-agent-requirements-for-load-testing.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/test-controller-and-test-agent-requirements-for-load-testing",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/troubleshoot-test-controllers-and-test-agents.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/troubleshoot-test-controllers-and-test-agents",
-        "redirect_document_id": false
+      "source_path": "docs/test/troubleshoot-test-controllers-and-test-agents.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/troubleshoot-test-controllers-and-test-agents",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/use-the-graphs-view-legend-to-analyze-load-tests.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/use-the-graphs-view-legend-to-analyze-load-tests",
-        "redirect_document_id": false
+      "source_path": "docs/test/use-the-graphs-view-legend-to-analyze-load-tests.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/use-the-graphs-view-legend-to-analyze-load-tests",
+      "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/walkthrough-create-and-run-a-load-test.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/walkthrough-create-and-run-a-load-test",
-        "redirect_document_id": false
+      "source_path": "docs/test/walkthrough-create-and-run-a-load-test.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/walkthrough-create-and-run-a-load-test",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/deployment/clickonce-deployment-on-windows-vista.md",
@@ -3079,7 +3081,7 @@
       "redirect_document_id": false,
       "monikers": [
         "vs-2022"
-    ]
+      ]
     },
     {
       "source_path": "docs/install/visual-studio-build-numbers-and-release-dates.md",
@@ -3087,7 +3089,7 @@
       "redirect_document_id": false,
       "monikers": [
         "vs-2019"
-    ]
+      ]
     },
     {
       "source_path": "docs/porting/port-migrate-and-upgrade-visual-studio-projects.md",
@@ -3095,7 +3097,7 @@
       "redirect_document_id": false,
       "monikers": [
         "vs-2022"
-    ]
+      ]
     },
     {
       "source_path": "docs/porting/port-migrate-and-upgrade-visual-studio-projects.md",
@@ -3103,7 +3105,7 @@
       "redirect_document_id": false,
       "monikers": [
         "vs-2019"
-    ]
+      ]
     },
     {
       "source_path": "docs/install/build-tools-container-issues.md",
@@ -3126,7 +3128,7 @@
       "redirect_document_id": false,
       "monikers": [
         "vs-2022"
-    ]
+      ]
     },
     {
       "source_path": "docs/ide/reference/accessibility-products-and-services-from-microsoft.md",
@@ -3134,7 +3136,7 @@
       "redirect_document_id": false,
       "monikers": [
         "vs-2019"
-    ]
+      ]
     },
     {
       "source_path": "docs/ide/how-to-troubleshoot-templates.md",
@@ -3331,16 +3333,16 @@
       "redirect_url": "/visualstudio/ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio",
       "redirect_document_id": false
     },
-  {
+    {
       "source_path": "docs/ide/reference/how-to-set-ide-accessibility-options.md",
       "redirect_url": "/visualstudio/ide/how-to-change-fonts-and-colors-in-visual-studio#set-accessibility-options",
       "redirect_document_id": false
-  },
-  {
+    },
+    {
       "source_path": "docs/ide/reference/how-to-change-fonts-and-colors-in-the-editor.md",
       "redirect_url": "/visualstudio/ide/how-to-change-fonts-and-colors-in-visual-studio",
       "redirect_document_id": false
-  },
+    },
     {
       "source_path": "docs/ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md",
       "redirect_url": "/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio",
@@ -6325,12 +6327,12 @@
       "source_path": "docs/debugger/how-to-debug-an-activex-control.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/how-to-debug-an-activex-control",
       "redirect_document_id": false
-    },  
+    },
     {
       "source_path": "docs/debugger/com-debugging-tools.md",
       "redirect_url": "/windows/win32/com/ole-com-object-viewer",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "docs/debugger/how-can-i-debug-access-violations-when-running-my-program-outside-the-debugger-q.md",
       "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
@@ -6940,17 +6942,17 @@
       "source_path": "docs/designers/parameter-nodes.md",
       "redirect_url": "/visualstudio/designers/shader-designer-nodes",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "docs/designers/texture-nodes.md",
       "redirect_url": "/visualstudio/designers/shader-designer-nodes",
       "redirect_document_id": false
-    }, 
+    },
     {
       "source_path": "docs/designers/math-nodes.md",
       "redirect_url": "/visualstudio/designers/shader-designer-nodes",
       "redirect_document_id": false
-    }, 
+    },
     {
       "source_path": "docs/designers/utility-nodes.md",
       "redirect_url": "/visualstudio/designers/shader-designer-nodes",
@@ -6990,7 +6992,7 @@
       "source_path": "docs/designers/walkthrough-creating-a-realistic-3-d-billiard-ball.md",
       "redirect_url": "/visualstudio/designers/how-to-create-a-basic-color-shader",
       "redirect_document_id": false
-    },	
+    },
     {
       "source_path": "docs/debugger/how-to-change-the-graphics-diagnostics-playback-machine.md",
       "redirect_url": "/visualstudio/debugger/graphics/how-to-change-the-graphics-diagnostics-playback-machine",
@@ -20589,7 +20591,7 @@
       "source_path": "subscriptions/search-license.md",
       "redirect_url": "/visualstudio/subscriptions",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "subscriptions/admin-inventory.md",
       "redirect_url": "/visualstudio/subscriptions/admin-responsibilities",
@@ -20614,6 +20616,11 @@
       "source_path": "subscriptions/whats-new-in-subscriptions.md",
       "redirect_url": "/visualstudio/subscriptions",
       "redirect_document_id": false
-    }   
+    },
+    {
+      "source_path": "docs/debugger/specify-command-line-arguments.md",
+      "redirect_url": "../../visualstudio/debugger/project-settings-for-a-cpp-debug-configuration",
+      "redirect_document_id": false
+    }
   ]
 }

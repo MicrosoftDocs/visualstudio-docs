@@ -1,7 +1,7 @@
 ---
 title: 'Specify build events (C#)'
 description: Use build events in Visual Studio to specify commands that run before the build starts or after the build finishes for C# programs.
-ms.date: 02/03/2025
+ms.date: 3/11/2025
 ms.subservice: compile-build
 ms.topic: how-to
 helpviewer_keywords:
@@ -62,7 +62,7 @@ Use build events to specify commands that run before the build starts or after t
 5. In the **Post-build event** section, specify the syntax of the build event.
 
    > [!NOTE]
-   > Add a `call` statement before all post-build commands that run *.bat* files. For example, `call MyFile.bat` or `call MyFile.bat call MyFile2.bat`. Paths can be absolute, or relative to the project folder.
+   > Add a `call` statement before all post-build commands that run *.bat* files. For example, `call MyFile.bat` or `call MyFile.bat call MyFile2.bat`. Paths can be absolute, or relative to the output folder.
 
 6. In the **When to run the post-build event** section, specify under what conditions to run the post-build event.
 

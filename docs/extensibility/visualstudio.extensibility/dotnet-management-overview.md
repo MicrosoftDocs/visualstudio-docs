@@ -8,7 +8,7 @@ ms.date: 02/04/2025
 ms.topic: conceptual
 ms.subservice: extensibility-integration
 ---
-# .NET Companatibilty for VisualStudio.Extensibility Extensions
+# .NET Compatibility for VisualStudio.Extensibility Extensions
 
 The new VisualStudio.Extensibilty model allows extensions to be run outside the main Visual Studio process in a separate .NET host process. Because .NET is used as the runtime to execute VisualStudio.Extensibility extensions, extensions built using the VisualStudio.Extensibility framework must stay up-to-date with the publicly supported .NET long-term servicing (LTS) runtimes.
 
