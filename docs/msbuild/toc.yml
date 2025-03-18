@@ -2022,7 +2022,7 @@ items:
           href: errors/msb6011.md
         - name: MSB6012
           href: errors/msb6012.md
-      - name: MSB8000 - MSB8088
+      - name: MSB8000 - MSB8066
         items: 
           - name: MSB8000
             href: errors/msb8000.md
@@ -2104,8 +2104,6 @@ items:
             href: errors/msb8061.md
           - name: MSB8066
             href: errors/msb8066.md
-          - name: MSB8088
-            href: errors/msb8088.md
       - name: MSB9901 - MSB9904
         items:
         - name: MSB9901
