@@ -30,7 +30,7 @@ This walkthrough demonstrates how to create a Windows Communication Foundation (
 
 [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Windows Communication Foundation** component installed. To install it:
 
-1. Open **Visual Studio Installer** or select **Tools** > **Get Tools and Features** from the menu.
+1. Open the **Visual Studio Installer** app, or select **Tools** > **Get Tools and Features** from the Visual Studio menu.
 1. In **Visual Studio Installer**, choose **Modify** next to the version of Visual Studio you want to modify.
 1. Select the **Individual components** tab, and then choose **Windows Communication Foundation** under **Development activities**.
 1. Select **Modify**.
@@ -70,7 +70,9 @@ To create a WCF service in Visual Studio, follow these steps:
 
    ---
 
-6. Change the type for the `value` parameter to string, as follows:
+6. Change the type for the `value` parameter to string.
+
+      In this code example, note the `OperationContract` attribute. This attribute is required for any method exposed by the service.
 
    ### [C#](#tab/csharp)
 
@@ -79,8 +81,6 @@ To create a WCF service in Visual Studio, follow these steps:
    ### [VB](#tab/vb)
 
    :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/iservice1.vb" id="Snippet1":::
-
-   In this code example, note the `OperationContract` attribute. This attribute is required for any method exposed by the service.
 
    ---
 
@@ -140,7 +140,7 @@ To test the WCF service you created, follow these steps:
 
 ## Access the WCF service
 
-Now that you created and tested the WCF service, you can reference it from a project and use it to build a client application.
+After you create and test the WCF service, you can reference it from a project and use it to build a client application.
 
 ### Reference the WCF service
 
@@ -164,11 +164,13 @@ To reference the WCF service from a project, follow these steps:
 
 ### Build a client application
 
-1. In Solution Explorer, depending on which type of project you created, double-click **Form1.cs**, or **Form1.vb**, in the Windows Forms app.
+To use a WCF service reference to build a client application, follow these steps.
+
+1. In Solution Explorer, double-click **Form1.cs** or **Form1.vb** in the Windows Forms app.
 
    The form opens in Windows Forms Designer.
 
-1. Open the **Toolbox** by selecting **View** > **Toolbox** from the menu, or press **Ctrl**+**Alt**+**X** on the keyboard.
+1. Open the **Toolbox** by selecting **View** > **Toolbox** from the menu, or press **Ctrl**+**Alt**+**X** from the keyboard.
 
 1. From the **Toolbox**, drag a **TextBox** control, a **Label** control, and a **Button** control onto the form.
 
@@ -188,7 +190,7 @@ To reference the WCF service from a project, follow these steps:
 
 1. In Solution Explorer, right-click the project node (for example, **WindowsFormsApp1**), and select **Set as StartUp Project**.
 
-1. Press **F5** to run the project. Enter some text and select the button. The label displays **You entered:** followed by the text that you entered.
+1. Press **F5** to run the project. Enter some text and select the button. The label displays **You entered:**, followed by your text.
 
    :::image type="content" alt-text="Screenshot that shows the result displayed in the running client application form." source="../data-tools/media/vs-2022/windows-forms-app.png":::
 
