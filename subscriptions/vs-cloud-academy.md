@@ -74,7 +74,7 @@ Not sure which subscription you're using? To see the subscriptions that are asso
 
 1. Check your inbox for further instructions to how to access your benefit.
 
-1. Click the Create Your Account link form the email.
+1. Click the Create Your Account link from the email.
 
    :::image type="content" source="_img/vs-cloud-academy/account-setup-email-rev.png" alt-text="Screenshot of the Cloud Academy email Account Setup instructions."::: 
 
