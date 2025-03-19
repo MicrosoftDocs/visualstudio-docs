@@ -229,8 +229,8 @@ For Unreal Engine 5.5 or earlier, cherry-pick the Unreal Build Tool changes from
 
 ```xml
 <BuildConfiguration>
-    bAllowUBAExecutor>false</bAllowUBAExecutor>
-    bAllowUBALocalExecutor>false</bAllowUBALocalExecutor>
+    <bAllowUBAExecutor>false</bAllowUBAExecutor>
+    <bAllowUBALocalExecutor>false</bAllowUBALocalExecutor>
 </BuildConfiguration>
 ```
 
