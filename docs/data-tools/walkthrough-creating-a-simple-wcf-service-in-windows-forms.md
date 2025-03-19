@@ -6,7 +6,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ms.topic: how-to
-ms.date: 03/17/2025
+ms.date: 03/19/2025
 dev_langs:
 - VB
 - CSharp
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - WCF services
 - WCF services, walkthrough
 
-# Customer intent: As a developer, I want to understand how to create a WCF Service in .NET Framework so I can access it from a Windows Forms app.
+# Customer intent: As a developer, I want to understand how to create a WCF Service in .NET Framework so that I can access it from a Windows Forms app.
 
 ---
 
@@ -54,7 +54,7 @@ To create a WCF service in Visual Studio, follow these steps:
 
    This step creates a working WCF service that you can test and access. The following steps demonstrate how to modify the default method to use a different data type. In a real application, you'd also add your own functions to the service.
 
-4. In Solution Explorer, double-click **IService1.cs** or **IService1.vb** in your WCF service library project, depending on which type of project you created.
+4. In **Solution Explorer**, double-click **IService1.cs** or **IService1.vb** in your WCF service library project, depending on which type of project you created.
 
    :::image type="content" alt-text="Screenshot that shows the IService1 file in Solution Explorer." source="../data-tools/media/wcf2.png":::
 
@@ -84,7 +84,7 @@ To create a WCF service in Visual Studio, follow these steps:
 
    ---
 
-7. In Solution Explorer, double-click **Service1.cs** or **Service1.vb**.
+7. In **Solution Explorer**, double-click **Service1.cs** or **Service1.vb**.
 
    :::image type="content" alt-text="Screenshot that shows the Service1 file in Solution Explorer." source="../data-tools/media/wcf3.png":::
 
@@ -150,7 +150,7 @@ To reference the WCF service from a project, follow these steps:
 
 1. In the **Add a New Project** window, choose either a C# or Visual Basic **Windows Forms App (.NET Framework)** project. Select **Next**, and then **Create** to create the project.
 
-1. In Solution Explorer, right-click the project node of the new project, and select **Add** > **Service Reference**.
+1. In **Solution Explorer**, right-click the project node of the new project, and select **Add** > **Service Reference**.
 
    The **Add Service Reference** dialog box appears.
 
@@ -166,7 +166,7 @@ To reference the WCF service from a project, follow these steps:
 
 To use a WCF service reference to build a client application, follow these steps.
 
-1. In Solution Explorer, double-click **Form1.cs** or **Form1.vb** in the Windows Forms app.
+1. In **Solution Explorer**, double-click **Form1.cs** or **Form1.vb** in the Windows Forms app.
 
    The form opens in Windows Forms Designer.
 
@@ -188,7 +188,7 @@ To use a WCF service reference to build a client application, follow these steps
 
      ---
 
-1. In Solution Explorer, right-click the project node (for example, **WindowsFormsApp1**), and select **Set as StartUp Project**.
+1. In **Solution Explorer**, right-click the project node (for example, **WindowsFormsApp1**), and select **Set as StartUp Project**.
 
 1. Press **F5** to run the project. Enter some text and select the button. The label displays **You entered:**, followed by your text.
 
