@@ -25,8 +25,10 @@ The steps to link monthly subscriptions depend on what kinds of subscriptions yo
 0. Choose **New monthly subscriptions** in the drop-down.
    > [!div class="mx-imgBorder"]
    > ![Add new monthly subscriptions drop-down](_img/add-monthly-subs/add-subs-drop-down.png "Screenshot of Add agreement drop-down. New monthly subscriptions option is highlighted.")
+
 > [!NOTE]
 > If the "New monthly subscription(s)" option isn't visible when you select the "Add agreements" drop-down, it indicates that a monthly subscription hasn't been purchased in the marketplace or the monthly subscriptions were automatically linked, allowing for immediate assignment.
+
 4. The system searches for any Azure subscriptions on which you have User Access Administrator rights and imports any Visual Studio subscriptions purchased with those Azure subscriptions.
 0. If you don't have User Access Administrator rights on any Azure subscriptions, or no Visual Studio subscriptions are found, you receive the following message:
    > [!div class="mx-imgBorder"]
