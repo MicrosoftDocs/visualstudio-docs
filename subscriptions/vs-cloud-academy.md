@@ -3,7 +3,7 @@ title: Cloud Academy benefit in Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/11/2025
+ms.date: 03/19/2025
 ms.topic: how-to
 description: Activate and explore the Cloud Academy (a QA Company) training benefit available in eligible Visual Studio subscriptions, and find answers to frequently asked questions.
 ---
@@ -74,9 +74,9 @@ Not sure which subscription you're using? To see the subscriptions that are asso
 
 1. Check your inbox for further instructions to how to access your benefit.
 
-1. Click the Create Your Account link form the email.
+1. Click the Create Your Account link from the email.
 
-   :::image type="content" source="_img/vs-cloud-academy/account-setup-email.png" alt-text="Screenshot of the Cloud Academy email Account Setup instructions."::: 
+   :::image type="content" source="_img/vs-cloud-academy/account-setup-email-rev.png" alt-text="Screenshot of the Cloud Academy email Account Setup instructions."::: 
 
 1. You're redirected to your browser and the Cloud Academy platform opens. It displays a welcome screen where you can get started and take a tour of the platform.
 
