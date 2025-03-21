@@ -35,7 +35,7 @@ Edit.FindinFiles findwhat [/append] [/case] [/ext:extensions]
 Required. The text to match.
 
 ## Switches
-/append:`resultwindowname`\  (new in Visual Studio 2022)\
+/append:`resultwindowname`  (new in Visual Studio 2022)\
 Optional. Directs the results from the current search to be appended to previous search results, identified by `resultwindowname` argument. Find Result windows are named by the first search term that resulted in creation of the window. 
 
 #### Example
@@ -60,7 +60,7 @@ Optional. Displays a list of file names that contain matches.
 Optional. Displays a list of the current find option settings and does not perform a search.
 
 /regex or /r\
-Optional. Uses pre-defined special characters in the `findwhat` argument as notations that represent patterns of text rather than the literal characters. For a complete list of regular expression characters, see [Regular Expressions](../../ide/using-regular-expressions-in-visual-studio.md).
+Optional. Uses predefined special characters in the `findwhat` argument as notations that represent patterns of text rather than the literal characters. For a complete list of regular expression characters, see [Regular Expressions](../../ide/using-regular-expressions-in-visual-studio.md).
 
 /reset or /e\
 Optional. Returns the find options to their default settings and does not perform a search.
@@ -79,7 +79,7 @@ Optional. Searches the subfolders within the directory specified in the /lookin:
 Optional. Displays the results of the search in the Find Results 2 window.
 
 /wild or /l\ (not supported in Visual Studio 2022)
-Optional. Uses pre-defined special characters in the `findwhat` argument as notations to represent a character or sequence of characters.
+Optional. Uses predefined special characters in the `findwhat` argument as notations to represent a character or sequence of characters.
 
 /word or /w\
 Optional. Searches only for whole words.
