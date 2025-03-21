@@ -14,10 +14,10 @@ monikerRange: ">= vs-2019"
 ---
 # Solution filters in MSBuild
 
-Solution filter files are JSON files with the extension *.slnf* that indicate which projects to build or load from all the projects in a solution. Starting with MSBuild 16.7, you can invoke MSBuild on the solution filter file to build the solution with filtering enabled. 
+Solution filter files are JSON files with the extension `.slnf` that indicate which projects to build or load from all the projects in a solution. Starting with MSBuild 16.7, you can invoke MSBuild on the solution filter file to build the solution with filtering enabled.
 
 > [!NOTE]
-> The solution filter file reduces the set of projects that will be loaded or built and simplifies the format. The solution file is still required.
+> The solution filter file reduces the set of projects that are loaded or built and simplifies the format. The solution file is still required.
 
 ## Build a solution filter from the command line
 
@@ -31,7 +31,7 @@ You can also append switches and extra properties as normal. See [MSBuild comman
 
 ## Solution filter files
 
-You can use Visual Studio to work with solution filter files. Opening a solution filter in Visual Studio displays the unloaded projects as well as the loaded projects and gives you the option of loading more projects to select them for building. You can load all projects the initial project(s) depend on to build as well, but this is not required. See [Filtered solutions](../ide/filtered-solutions.md).
+You can use Visual Studio to work with solution filter files. Opening a solution filter in Visual Studio displays the unloaded projects as well as the loaded projects and gives you the option of loading more projects to select them for building. You can load all projects that the initial project or projects depend on to build as well, but it's not required. See [Filtered solutions](../ide/filtered-solutions.md).
 
 The solution filter doesn't have to be in the same folder as the solution. The path to the solution file is relative to the location of solution filter file, but the paths to each project are relative to the solution file itself and should match the project paths in the solution file. The following example demonstrates the use of relative paths:
 
@@ -73,7 +73,7 @@ Here's the solution filter file that Visual Studio generates:
 }
 ```
 
-In this example, when you build with filtering enabled (by using the command `MSBuild [options] MyFilter.slnf`), MSBuild builds MyApplication and ProjectA because they're explicitly listed in the solution filter file. As part of building ProjectA, MSBuild builds ClassLibrary1 because ProjectA depends on it.  ProjectB is not built. (This discussion assumes a clean build. If projects were built previously, the usual rules apply for skipping projects that are already up-to-date.)
+In this example, when you build with filtering enabled (by using the command `MSBuild [options] MyFilter.slnf`), MSBuild builds MyApplication and ProjectA because they're explicitly listed in the solution filter file. As part of building ProjectA, MSBuild builds ClassLibrary1 because ProjectA depends on it.  ProjectB isn't built. (This discussion assumes a clean build. If projects were built previously, the usual rules apply for skipping projects that are already up-to-date.)
 
 ## See also
 
