@@ -78,7 +78,7 @@ The following changes can't be applied to C# and Visual Basic code during a debu
 - Any unsupported changes to code by language element as outlined in the following table.
 
    ::: moniker range=">=vs-2022"
-   For .NET 6+ and Visual Studio 2022, see [Supported Edits](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) for the types of edits currently unsupported.
+   For .NET 6+ and Visual Studio 2022, see [Supported Edits](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) for the types of edits currently supported and unsupported.
    ::: moniker-end
 
    ::: moniker range=">=vs-2022"
