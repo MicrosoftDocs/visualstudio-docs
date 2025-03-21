@@ -1,7 +1,7 @@
 ---
 title: "Supported Code Changes (C# and Visual Basic)"
 description: Understand what code changes are supported when you're using the Edit and Continue feature while debugging a C# or Visual Basic project in Visual Studio.
-ms.date: "12/12/2023"
+ms.date: "3/21/2025"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -76,6 +76,10 @@ The following changes can't be applied to C# and Visual Basic code during a debu
    The current statement appears on a yellow background in the source window. Other active statements appear on a shaded background and are read-only. These default colors can be changed in the **Options** dialog box.
 
 - Any unsupported changes to code by language element as outlined in the following table.
+
+   ::: moniker range=">=vs-2022"
+   For .NET 6+ and Visual Studio 2022, see [Supported Edits](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) for the types of edits currently supported by Roslyn.
+   ::: moniker-end
 
    ::: moniker range=">=vs-2022"
    | Language element or feature | Unsupported edit operation |
