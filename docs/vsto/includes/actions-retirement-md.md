@@ -10,8 +10,8 @@ ms.topic: include
 >
 > This feature is only available in the following releases of Office:
 >
-> Microsoft 365
-> Office LTSC Professional Plus 2021
-> Office LTSC Standard 2021
-> Office Professional Plus 2016, 2019​​​​​​​
-> Office Standard 2016, 2019
+> - Microsoft 365
+> - Office LTSC Professional Plus 2021
+> - Office LTSC Standard 2021
+> - Office Professional Plus 2016, 2019​​​​​​​
+> - Office Standard 2016, 2019
