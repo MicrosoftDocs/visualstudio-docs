@@ -35,8 +35,14 @@ Edit.FindinFiles findwhat [/append] [/case] [/ext:extensions]
 Required. The text to match.
 
 ## Switches
-/append  (new in Visual Studio 2022)\
-Optional. Directs the results from the current search to be appended to previous search results.
+/append:`resultwindowname`\  (new in Visual Studio 2022)\
+Optional. Directs the results from the current search to be appended to previous search results, identified by `resultwindowname` argument. Find Result windows are named by the first search term that resulted in creation of the window. 
+
+#### Example
+```cmd
+Edit.FindinFiles "AdornmentTagComparer" /lookin:"Entire Solution"
+Edit.FindinFiles "TagComparer" /lookin:"Entire Solution" /append:"AdornmentTagComparer"
+```
 
 /case or /c\
 Optional. Matches occur only if the uppercase and lowercase characters exactly match those specified in the `findwhat` argument.
