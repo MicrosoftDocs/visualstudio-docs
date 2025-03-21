@@ -35,7 +35,8 @@ Edit.FindinFiles findwhat [/append] [/case] [/ext:extensions]
 Required. The text to match.
 
 ## Switches
-/append:`resultwindowname`  (new in Visual Studio 2022)\
+/append:`resultwindowname`  (new in Visual Studio 2022)
+
 Optional. Directs the results from the current search to be appended to previous search results, identified by `resultwindowname` argument. Find Result windows are named by the first search term that resulted in creation of the window. 
 
 #### Example
