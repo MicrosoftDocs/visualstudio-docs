@@ -75,7 +75,7 @@ Optional. Preserves the original casing of each match in your code.
 
 /regex or /r
 
-Optional. Uses pre-defined special characters in the `findwhat` argument as notations that represent patterns of text rather than the literal characters. For a complete list of regular expression characters, see [Regular Expressions](../../ide/using-regular-expressions-in-visual-studio.md).
+Optional. Uses predefined special characters in the `findwhat` argument as notations that represent patterns of text rather than the literal characters. For a complete list of regular expression characters, see [Regular Expressions](../../ide/using-regular-expressions-in-visual-studio.md).
 
 /reset or /e
 
@@ -99,7 +99,7 @@ Optional. Displays the results of the replacement in the **Find Results 2** wind
 
 /wild or /l  (not supported in Visual Studio 2022)
 
-Optional. Uses pre-defined special characters in the `findwhat` argument as notations to represent a character or sequence of characters.
+Optional. Uses predefined special characters in the `findwhat` argument as notations to represent a character or sequence of characters.
 
 /word or /w
 
