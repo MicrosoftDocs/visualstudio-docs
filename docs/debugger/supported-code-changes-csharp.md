@@ -53,7 +53,7 @@ The following table shows the changes that might be made to C# and Visual Basic 
 ::: moniker-end
 
 > [!NOTE]
-> Newer language features such as string interpolation and null-conditional operators are generally supported by Edit and Continue. For the most current information, see the [Enc Supported Edits](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) page.
+> Newer language features such as string interpolation and null-conditional operators are generally supported by Edit and Continue. For the most current information, see the [Enc Supported Edits](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) page. For .NET Framework, the supported features are a subset of the listed features and are dependent on the compiler version.
 
 ::: moniker range=">=vs-2022"
 
