@@ -146,9 +146,9 @@ You can also further filter this view by only including stacks that contain modu
 PerfView has detailed guidance under the **Help** menu that you can use to identify performance bottlenecks in your code. Additionally, the following links provide more information on how to utilize Visual Studio threading APIs to optimize your code:
 
 * [`https://github.com/Microsoft/vs-threading/blob/main/doc/index.md`](https://github.com/Microsoft/vs-threading/blob/main/doc/index.md)
-* [`https://github.com/Microsoft/vs-threading/blob/main/doc/cookbook_vs.md`](https://github.com/Microsoft/vs-threading/blob/main/doc/cookbook_vs.md)
+* [`https://github.com/microsoft/vs-threading/blob/main/docfx/docs/cookbook_vs.md`](https://github.com/microsoft/vs-threading/blob/main/docfx/docs/cookbook_vs.md)
 
-You can also use the new Visual Studio static analyzers for extensions (NuGet package [here](https://www.nuget.org/packages/microsoft.visualstudio.sdk.analyzers)), that provide guidance on best practices for writing efficient extensions. See a list of [VSSDK analyzers](https://github.com/Microsoft/VSSDK-Analyzers/blob/main/doc/index.md) and [threading analyzers](https://github.com/Microsoft/vs-threading/blob/main/doc/analyzers/index.md).
+You can also use the new Visual Studio static analyzers for extensions (NuGet package [here](https://www.nuget.org/packages/microsoft.visualstudio.sdk.analyzers)), that provide guidance on best practices for writing efficient extensions. See a list of [VSSDK analyzers](https://github.com/Microsoft/VSSDK-Analyzers/blob/main/doc/index.md) and [threading analyzers](https://github.com/microsoft/vs-threading/blob/main/docfx/analyzers/index.md).
 
 > [!NOTE]
 > If you are unable to address the unresponsiveness due to dependencies you do not have control over (for example, if your extension has to call synchronous VS services on the UI thread), we would like to know about it. If you are a member of our Visual Studio Partner program, you can contact us by submitting a developer support request. Otherwise, use the 'Report a Problem' tool to submit your feedback and include `"Extension UI Delay Notifications"` in the title. Please also include a detailed description of your analysis.
