@@ -47,7 +47,7 @@ Builds MSBuild projects from another MSBuild project.
 
  Unlike using the [Exec task](../msbuild/exec-task.md) to start *MSBuild.exe*, this task uses the same MSBuild process to build the child projects. The list of already-built targets that can be skipped is shared between the parent and child builds. This task is also faster because no new MSBuild process is created.
 
- This task can process not only project files but also solution files. In MSBuild 17.13 and later, both `.slnx` and `.sln` solution file formats are accepted.
+ This task can process not only project files but also solution files. In MSBuild 17.12 and later, both `.slnx` and `.sln` solution file formats are accepted.
 
  Any configuration that is required by MSBuild to enable projects to build at the same time, even if the configuration involves remote infrastructure (for example, ports, protocols, time-outs, retries, and so forth), must be made configurable by using a configuration file. When possible, configuration items should be able to be specified as task parameters on the `MSBuild` task.
 

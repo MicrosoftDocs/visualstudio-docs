@@ -24,7 +24,7 @@ The next sections are about the input files, such as solution files or project f
 
 ### Solutions and projects
 
-MSBuild instances may consist of one project, or many projects as part of a solution. Solution files may be in the `.slnx` format or the `.sln` format. The solution file (`.sln`) isn't an MSBuild XML file, but MSBuild interprets it to know all the projects that are required to be built for the given configuration and platform settings. When MSBuild processes this input, it's referred to as the solution build. It has some extensible points that allow you to run something at every solution build, but since this build is a separate run from the individual project builds, no settings of properties or target definitions from the solution build are relevant to each project build.
+MSBuild instances may consist of one project, or many projects as part of a solution. Solution files in the `.slnx` format or the `.sln` format are both supported (in MSBuild 17.12 and later). The solution file (`.sln`) isn't an MSBuild XML file, but MSBuild interprets it to know all the projects that are required to be built for the given configuration and platform settings. When MSBuild processes this input, it's referred to as the solution build. It has some extensible points that allow you to run something at every solution build, but since this build is a separate run from the individual project builds, no settings of properties or target definitions from the solution build are relevant to each project build.
 
 You can find out how to extend the solution build at [Customize the solution build](customize-solution-build.md).
 
