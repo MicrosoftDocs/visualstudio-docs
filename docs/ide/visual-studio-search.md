@@ -1,7 +1,7 @@
 ---
 title: Use Visual Studio search to find code & do queries
 description: Explore the Visual Studio search feature and discover how to find settings, menus, code, and work with filters, queries, and more.
-ms.date: 11/1/2024
+ms.date: 3/11/2025
 ms.topic: how-to
 helpviewer_keywords:
 - environments [Visual Studio], navigation
@@ -31,9 +31,9 @@ If you're using Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/re
 > [!TIP]
 > To learn more about the new search experience, see both the [Better search in Visual Studio](https://devblogs.microsoft.com/visualstudio/new-better-search-in-visual-studio/) and [All-In-One Search available in 17.6](https://devblogs.microsoft.com/visualstudio/all-in-one-search-available-in-17-6/) blog posts.
 
-### About the All-In-One Search experience
+## About the All-In-One Search experience
 
-With **All-In-One Search**, not only can you search for features, but you can also search your code elements, such as files and symbols.
+With **All-In-One Search**, not only can you search for features using **Feature Search**, but you can also search your code elements, such as files and symbols, using **Code Search**.
 
 :::image type="content" source="media/vs-2022/all-in-one-search-member-filter.png" alt-text="Screenshot of the All-In-One Search experience in Visual Studio 2022 version 17.6 or later."::: 
 
@@ -41,11 +41,21 @@ The new search experience appears as an option next to the menu bar.
 
 :::image type="content" source="media/vs-2022/all-one-search-from-menu-bar.png" alt-text="Screenshot of the All-In-One Search experience from the Visual Studio menu bar.":::
 
-#### Keyboard shortcuts for search
+With Visual Studio 17.13, GitHub Copilot Chat is integrated with Feature Search. When you're trying to find something in Feature Search, you can use the **Ask Copilot** button to get AI assistance that accounts for your Visual Studio version. To enable GitHub Copilot Chat, see [GitHub Copilot Chat](./visual-studio-github-copilot-chat.md).
+
+For example, suppose you searched for "prettify file" in Feature Search. That doesn't return any results, because the name of the menu item is different ("Format document"). GitHub Copilot Chat is able to interpret your query and return the result.
+
+:::image type="content" source="./media/vs-2022/feature-search-ask-copilot-prettify.png" lightbox="./media/vs-2022/feature-search-ask-copilot-prettify.png" alt-text="Screenshot showing the Ask Copilot button in All-In-One Search.":::
+
+In Visual Studio 17.13 and later, when you open Code Search without a query, you'll see a list of your recently navigated files. These include the files you opened through Code Search, but also any other files you opened in the solution. This makes it easy to jump back to a file you were recently working on without having to remember or type the file name.
+
+:::image type="content" source="./media/vs-2022/code-search-recently-navigated-files.png" alt-text="Screenshot of All-In-One Search showing recently navigated files.":::
+
+### Keyboard shortcuts for search
 
 You can use the **Ctrl**+**Q** keyboard shortcut for feature searches, and the **Ctrl**+**T** keyboard shortcut for code searches. 
 
-#### Filters for Code Search queries
+### Filters for Code Search queries
 
 To quickly get a filtered experience, you can type the corresponding prefixes before your query or use the corresponding keyboard shortcuts to open the search with the filter you want.
 
@@ -64,7 +74,7 @@ The text filter (**Shift**+**Alt**+**F**) in Code Search is available in preview
 
 :::image type="content" alt-text="Screenshot of text search with various options." source="./media/vs-2022/search-text-search-text-options-highlighted.png" :::
 
-#### Navigate to a specific line in Code Search
+### Navigation in Code Search
 
 With Visual Studio 17.12 and later, you can now navigate to a specific line in the current document or other specified document.
 
@@ -76,7 +86,11 @@ You can also go to a line in a different document by typing the filename, colon,
 
 ![Screenshot showing Go to line in different document.](./media/vs-2022/all-in-one-search-go-to-line-different-document.png)
 
-#### Dock as a tool window
+In Visual Studio 17.13 and later, you can also use parentheses to navigate to a specific line and column in a specified file. Use `file(line)` to navigate to a specific line in a specified file, or `file(line,col)` to navigate to a specific line and column in a specified file.
+
+![Screenshot showing navigation to file, line, and column.](./media/vs-2022/code-search-go-to-line-parentheses.png)
+
+### Dock as a tool window
 
 With Visual Studio 17.12 or later, you can dock the search window instead of having it floating in front. This can be helpful to avoid interrupting your code editing. Use the icon near the top right of the window to enable docking as a tool window.
 
@@ -84,7 +98,7 @@ With Visual Studio 17.12 or later, you can dock the search window instead of hav
 
 You can use a similar icon on the tool window to revert back to the floating window.
 
-#### Toggle preview pane
+### Toggle preview pane
 
 With Visual Studio 17.12 or later, you can toggle the preview pane. Use the eye icon to disable or enable the preview pane.
 
