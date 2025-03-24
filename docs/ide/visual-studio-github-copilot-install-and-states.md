@@ -93,7 +93,7 @@ You can remove the GitHub Copilot component from your Visual Studio instance by 
 1. Uncheck **GitHub Copilot** and select **Modify**.
 1. Restart Visual Studio, and select **Hide Copilot** from the Copilot status icon dropdown to hide the badge.
 
-### Support
+## Support
 
 Support for GitHub Copilot Chat will be provided by GitHub and can be reached at https://support.github.com.
 
