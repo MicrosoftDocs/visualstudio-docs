@@ -11,6 +11,8 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
+zone_pivot_groups: programming-languages-set-two
+
 ---
 # Write and debug running code with Hot Reload in Visual Studio (C#, Visual Basic, C++)
 
@@ -32,6 +34,7 @@ We improve productivity by making it possible for you to edit your application's
 
 To see the changes in the user interface, the code needs to be re-executed. For example, code-behind for a button must re-execute, or code that is being triggered at an interval through a timer. As another example, ASP.NET Core supports automatic browser refreshing due to the [MetadataUpdateHandler](hot-reload-metadataupdatehandler.md) functionality.
 
+::: zone pivot="programming-language-dotnet"
 ## Support for .NET applications
 
 * **When using Visual Studio 2022 and starting your app with the debugger**, the basic Hot Reload experience works with most types of .NET apps and framework versions. This support includes .NET Framework, .NET Core and .NET 5+ (for both C# and Visual Basic as applicable). The expectation in this scenario is that if you’re using the debugger, assume Hot Reload is available to you and give it a try!
@@ -55,7 +58,15 @@ The following table shows the minimum .NET version required to support .NET Hot 
 The [types of edits you can make](../debugger/supported-code-changes-csharp.md) with Hot Reload are determined by the runtime and compiler version, not by the method you used to start the application (F5 or Ctrl+F5).
 
 In the following sections, we provide additional details.
+::: zone-end
 
+::: zone pivot="programming-language-dotnetf"
+## Support for .NET Framework applications
+
+When using Visual Studio 2022 and starting your app with the debugger, the basic Hot Reload experience works with most types of .NET apps and framework versions. This support includes .NET Framework, .NET Core and .NET 5+ (for both C# and Visual Basic as applicable). The expectation in this scenario is that if you’re using the debugger, assume Hot Reload is available to you and give it a try!
+::: zone-end
+
+::: zone pivot="programming-language-cpp"
 ## Support for C++ applications
 
 When using Visual Studio 2022 and starting your app with the debugger, you can hot reload a native C++ application when running under the debugger (F5) using the **Hot Reload** button. Hot Reload is also supported for apps built using CMake and OpenFolder projects.
@@ -66,8 +77,10 @@ For your project to support Hot Reload, you need the following options set:
 * Project > Properties > Linker > General > **Enable Incremental Linking** must be set to "Yes `/INCREMENTAL`"
 
 For supported edits, see [C++ Supported Code Changes](../debugger/supported-code-changes-cpp.md#BKMK_Requirements).
+::: zone-end
 
-## Visual Studio 2022 with a .NET app, when using the debugger
+::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
+## Visual Studio 2022 with a .NET or .NET Framework app, when using the debugger
 
 When using Visual Studio 2022 and starting the app with the debugger, Hot Reload works with most app frameworks. 
 
@@ -75,7 +88,9 @@ Anywhere you have .NET and you’re using the Visual Studio managed debugger, yo
 
 > [!NOTE]
 > By default, some projects use mixed mode debugging, which doesn't support Hot Reload. You can modify this setting in project settings, by setting **Project > Properties > Debug > Open debug launch profiles UI > Enable native code debugging** to false.
+::: zone-end
 
+::: zone pivot="programming-language-dotnet"
 ## Visual Studio 2022 with a .NET app, but not using the debugger
 
 Hot Reload is available without the debugger when targeting most types of .NET 6+ apps.
@@ -108,12 +123,22 @@ For ASP.NET Core developers who are targeting .NET 6+, there are additional capa
 * **Browser Refresh:** Editing a razor file automatically refreshes the changes in your web browser when debugging. This feature was previously only available when starting the app without the debugger.
 * **CSS Hot Reload:** You can change CSS files while the app is running, and changes are applied immediately to the running app as you type.
 * **No Debugger:** You get Hot Reload support when using Visual Studio to start your web app without the debugger (CTRL-F5).
+::: zone-end
 
+::: zone pivot="programming-language-dotnet"
 ## Supported .NET changes
 
 The .NET Hot Reload experience is powered by the [debugger](../debugger/edit-and-continue-visual-csharp.md) and C# compiler ([Roslyn](https://github.com/dotnet/roslyn)). [Roslyn supported edits](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) and [Supported code changes (C# and VB)](../debugger/supported-code-changes-csharp.md) list the types of edits currently supported and potential future enhancements.
+::: zone-end
 
-## Unsupported .NET projects
+::: zone pivot="programming-language-dotnetf"
+## Supported .NET Framework changes
+
+The .NET Hot Reload experience is powered by the [debugger](../debugger/edit-and-continue-visual-csharp.md) and C# compiler. [Supported code changes (C# and VB)](../debugger/supported-code-changes-csharp.md) list the types of edits currently supported and potential future enhancements.
+::: zone-end
+
+::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
+## Unsupported .NET and .NET Framework projects
 
 Hot Reload isn't available in some project configurations:
 
@@ -130,6 +155,7 @@ See [Unsupported scenarios](../debugger/supported-code-changes-csharp.md#unsuppo
 ## Hot Reload Not Supported for F# #
 
 Hot Reload, or Edit and Continue, is not supported when you debug F# code. Edits to F# code are possible during a debugging session but should be avoided. Code changes aren't applied during the debugging session. Therefore, any edits made to F# code while you debug will result in source code that doesn't match the code being debugged.
+::: zone-end
 
 ## Configure Hot Reload
 
@@ -147,7 +173,9 @@ If you select the **Always rebuild when changes can't be applied** option in the
 
 It's highly recommended to check for the **Hot Reload Output** window for detailed diagnostic information regarding the Hot Reload session.
 
+::: zone pivot="programming-language-dotnet"
 If you're using response compression on .NET Core, see the information on [response compression](/dotnet/core/tools/dotnet-watch#response-compression).
+::: zone-end
 
 ## Related content
 
