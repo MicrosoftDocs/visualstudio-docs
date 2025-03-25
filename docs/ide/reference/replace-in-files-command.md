@@ -40,7 +40,7 @@ Required. The text to substitute for the matched text.
 
 Optional. Replaces all occurrences of the search text with the replacement text.
 
-/append:`resultwindowname`  (new in Visual Studio 2022)
+/append: `resultwindowname`  (new in Visual Studio 2022)
 
 Optional. Directs the results from the current search to be appended to previous replace results, identified by `resultwindowname` argument. Replace Result windows are named following the following pattern: Replace "findWhat" with "replaceWith".
 
