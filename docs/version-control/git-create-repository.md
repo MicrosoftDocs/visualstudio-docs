@@ -34,7 +34,7 @@ To follow this article, you'll need:
 
 1. In the **Create a new GitHub repository** section of the **Create a Git repository** dialog, enter the name of the repo you want to create. (If you haven't yet signed in to your GitHub account, you can do so from this screen, too.)
 
-   Visual Studio 17.12 and later support multiple GitHub accounts, so you can use the **Account** dropdown to switch to another GitHub account if your current active account is the one you want to use for the new repo.
+   Visual Studio 17.12 and later support multiple GitHub accounts, so you can use the **Account** dropdown to switch to another GitHub account that you want to use for the new repository.
 
     :::image type="content" source="../get-started/media/vs-2022/git-create-repo-dialog.png" alt-text="Screenshot of the Create Git Repository dialog in Visual Studio with the GitHub selection highlighted.":::
 
