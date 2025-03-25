@@ -40,8 +40,7 @@ GitHub Copilot supports several programming languages and frameworks, including 
 
 ## Get GitHub Copilot for Visual Studio
 
-- If you're using Visual Studio version 17.10 or later, the [unified GitHub Copilot extension](visual-studio-github-copilot-install-and-states.md#get-github-copilot-for-visual-studio-2022-version-1710-or-later) is available as a recommended component in the Visual Studio Installer. It is installed by default with all workloads, unless you choose to exclude it during installation.
-- If you're using Visual Studio versions 17.9 or earlier, [install the GitHub Copilot extension](visual-studio-github-copilot-install-and-states.md#install-github-copilot-chat).
+With Visual Studio version 17.10 or later, the [unified GitHub Copilot extension](visual-studio-github-copilot-install-and-states.md) is available as a recommended component in the Visual Studio Installer. It is installed by default with all workloads, unless you choose to exclude it during installation.
 
 ## Using GitHub Copilot for code completions and suggestions
 

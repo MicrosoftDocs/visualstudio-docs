@@ -39,11 +39,9 @@ To get started, you need:
 
 ## Get GitHub Copilot Chat for Visual Studio
 
-- If you're using Visual Studio version 17.10 or later, GitHub Copilot Chat is included in the [new unified GitHub Copilot experience](visual-studio-github-copilot-install-and-states.md#get-github-copilot-for-visual-studio-2022-version-1710-or-later) available as a recommended component in the Visual Studio Installer. It is installed by default with all workloads, unless you choose to exclude it during installation.
-- If you're using Visual Studio versions 17.9 or earlier, [install the GitHub Copilot Chat extension](visual-studio-github-copilot-install-and-states.md#install-github-copilot-chat).
+If you're using Visual Studio version 17.10 or later, GitHub Copilot Chat is included in the [new unified GitHub Copilot experience](visual-studio-github-copilot-install-and-states.md) available as a recommended component in the Visual Studio Installer. It is installed by default with all workloads, unless you choose to exclude it during installation.
 
    > [!NOTE]
-   > * The GitHub Copilot and GitHub Copilot Chat *extension* should only be used in Visual Studio versions 17.9 or earlier. For Visual Studio versions 17.10+, GitHub Copilot experience is available as a recommended component in the Visual Studio Installer, and includes both GitHub Copilot Chat and Completions experiences.
    > * If you experience authentication issues after installing the extension, see [Troubleshooting authentication issues with GitHub Copilot Chat](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-authentication-issues-with-github-copilot-chat).
    > * GitHub Copilot is not included in Visual Studio Subscriptions and is a separate subscription managed by GitHub. For questions regarding GitHub Copilot subscriptions and Support, see [Individual Subscriptions](https://docs.github.com/en/billing/managing-billing-for-github-copilot/managing-your-github-copilot-business-subscription) or [Business subscriptions](https://docs.github.com/en/billing/managing-billing-for-github-copilot/managing-your-github-copilot-individual-subscription).
 
