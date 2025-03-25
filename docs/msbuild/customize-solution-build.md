@@ -35,6 +35,9 @@ When you have many solution files that you want to extend in the same way, but y
 
 When you have *Directory.Solution.props* or *Directory.Solution.targets* in a root folder, but you have a solution under that folder that you don't want to import them, you can use the solution-specific files mentioned previously `before.{solutionname}.sln.targets` and `after.{solutionname}.sln.targets` to set the properties `$(ImportDirectorySolutionProps)` and `$(ImportDirectorySolutionTargets)` to false. Or, you can use the properties `$(DirectorySolutionPropsPath)` and `$(DirectorySolutionTargetsPath)` to specify a different location for those files. This could be helpful if you have various subsets of your solutions that require certain property values or targets common to the subsets.
 
+> [!NOTE]
+> The solution build is supported with the `.slnx` solution file format in MSBuild 17.12 and later. Both `before.{solutionname}.slnx.targets` and `before.{solutionname}.sln.targets` work (and likewise for the `after` forms) with MSBuild 17.14 and later.
+
 ## Related content
 
 - [Customize your build](customize-your-build.md).
