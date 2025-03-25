@@ -40,8 +40,8 @@ Optional. Directs the results from the current search to be appended to previous
 
 #### Example
 ```cmd
-Edit.FindinFiles "AdornmentTagComparer" /lookin:"Entire Solution"
-Edit.FindinFiles "TagComparer" /lookin:"Entire Solution" /append:"AdornmentTagComparer"
+>Edit.FindinFiles "AdornmentTagComparer" /lookin:"Entire Solution"
+>Edit.FindinFiles "TagComparer" /lookin:"Entire Solution" /append:"AdornmentTagComparer"
 ```
 
 /case or /c\

@@ -46,8 +46,8 @@ Optional. Directs the results from the current search to be appended to previous
 
 #### Example (note that Command Window uses ^ character to escape quotes)
 ```cmd
-Edit.ReplaceInFiles "Console.WriteLine(" "//Console.WriteLine("  /lookin:"Entire Solution" /a
-Edit.ReplaceInFiles "Console.Write(" "//Console.Write("  /lookin:"Entire Solution" /a /append:"Replace ^"Console.WriteLine(^" with ^"//Console.WriteLine(^""
+>Edit.ReplaceInFiles "Console.WriteLine(" "//Console.WriteLine("  /lookin:"Entire Solution" /a
+>Edit.ReplaceInFiles "Console.Write(" "//Console.Write("  /lookin:"Entire Solution" /a /append:"Replace ^"Console.WriteLine(^" with ^"//Console.WriteLine(^""
 ```
 
 /case or /c
