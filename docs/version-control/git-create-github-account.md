@@ -2,7 +2,7 @@
 title: Create a GitHub account to use with Visual Studio
 titleSuffix: ""
 description: Create a GitHub account to use with Visual Studio so that you can manage your code and collaborate on projects with your team.
-ms.date: 10/29/2021
+ms.date: 3/14/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -51,6 +51,10 @@ If you don't already have a GitHub account, here's how to create one.
     :::image type="content" source="media/vs-2022/welcome-github-new-user-page.png" alt-text="Your new user page.":::
 
 Congratulations! You've successfully created your GitHub account.
+
+## Multiple GitHub accounts
+
+You can manage more than one GitHub account in Visual Studio. Different accounts can have access to a different set of repositories and have their own access tokens. For example, if you have an account you use for work or school, you might need to create a separate account for personal use, or the other way around. Or, you might need to manage separate GitHub accounts for different employers to keep access to private assets and tokens clearly separated. See [Add GitHub accounts to your keychain](../ide/work-with-github-accounts.md). When using version control, you can switch accounts as needed.
 
 ## Related content
 
