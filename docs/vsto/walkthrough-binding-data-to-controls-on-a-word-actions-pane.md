@@ -21,6 +21,8 @@ ms.subservice: office-development
 ---
 # Walkthrough: Bind data to controls on a Word actions pane
 
+[!INCLUDE[actions-retirement-md](../vsto/includes/actions-retirement-md.md)]
+
   This walkthrough demonstrates data binding to controls on an actions pane in Word. The controls demonstrate a master/detail relation between tables in a SQL Server database.
 
  [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]

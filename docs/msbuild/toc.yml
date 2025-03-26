@@ -188,6 +188,8 @@ items:
         href: customize-cpp-builds.md
       - name: Handle code generation
         href: customize-builds-for-generated-files.md
+    - name: MSBuild security best practices
+      href: msbuild-security-best-practices.md
     - name: MSBuild best practices
       href: msbuild-best-practices.md
   - name: Logging

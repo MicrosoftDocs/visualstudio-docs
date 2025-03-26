@@ -217,6 +217,7 @@ MSBuild is an open-source project that accepts user contributions at the [MSBuil
 | [Multitargeting](../msbuild/msbuild-multitargeting-overview.md) | Shows how to target multiple .NET versions and/or multiple platforms. |
 | [Obtaining build logs](obtaining-build-logs-with-msbuild.md) | Describes how to log build events, messages, and errors. |
 | [How MSBuild builds projects](build-process-overview.md) | Describes the internal build process used within MSBuild |
+| [Secure MSBuild usage best practices](msbuild-security-best-practices.md) | Describes the best practices to configure and run your builds with MSBuild |
 | [Create a custom task for code generation](tutorial-custom-task-code-generation.md) | Shows how to create a custom task, with a code example. |
 | [Use MSBuild to generate a REST API client](tutorial-rest-api-client-msbuild.md) | Shows how to extend the build to handle REST API client generation, with a code example. |
 | [Additional resources](https://social.msdn.microsoft.com/forums/vstudio/home?forum=msbuild) | Lists community and support resources for more information about MSBuild. |
