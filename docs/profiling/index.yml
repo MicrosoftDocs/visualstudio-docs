@@ -77,8 +77,6 @@ landingContent:
             url: events-viewer.md
           - text: .NET Async
             url: analyze-async.md
-          - text: Analyze resource consumption (XAML)
-            url: application-timeline.md
 
   # Card (optional)
   - title: Guides
