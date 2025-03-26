@@ -96,7 +96,7 @@ To bind a keyboard shortcut to a custom menu command, just add an entry to the *
  This example binds the keyboard shortcut **Ctrl**+**B** to a command named `cmdidBold` in a project named `TestEditor`. The command is available only in the custom editor and not in other editors.
 
 ```xml
-<KeyBinding guid="guidVSStd97" id="cmdidBold" editor="guidTestEditorEditorFactory" key1="B" mod1="Control" />
+<KeyBinding guid="guidTestEditorEditorFactory" id="cmdidBold" editor="guidVSStd97" key1="B" mod1="Control" />
 ```
 
 ## Related content
