@@ -35,6 +35,8 @@ To create a pull request, follow these steps:
 
    :::image type="content" source="media/vs-2022/git-create-pr-git-repository-branch-context-menu.png" alt-text="The Git Repository window with the outgoing / incoming link text highlighted in Visual Studio 2022."::: 
 
+   When you try and create a pull request but you have multiple accounts in your keychain, you see a prompt asking you which account to use. See [Add GitHub accounts to your keychain](../ide/work-with-github-accounts.md).
+
 1. Select the branch that you want to merge into and give your pull request a descriptive title and description. You can use [markdown syntax](https://www.markdownguide.org/) to format your pull request description from Visual Studio. Try it out by typing the markdown symbols in the **Description** box and preview your markdown by selecting the **Preview** button.
 
    > [!TIP]
