@@ -10,7 +10,7 @@ f1_keywords:
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
 - '{{PLACEHOLDER}}'
-author: jasonchlus_microsoft
+author: jasonchlus
 ms.author: jasonchlus
 manager: dominicn
 
