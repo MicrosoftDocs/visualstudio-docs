@@ -387,7 +387,6 @@
       href: creating-a-windows-forms-toolbox-control.md
     - name: Extend the Status Bar
       href: extending-the-status-bar.md
-    - name: Creating a Custom Start Page
     - name: Use the Activity Log
       href: how-to-use-the-activity-log.md
   - name: Visual Studio C++ project extensibility
