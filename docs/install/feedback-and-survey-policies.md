@@ -1,61 +1,44 @@
-If needed for reference: Privacy Controls Admin Optout.docx 
+---
+title: Configure feedback group policies
+description: Configure Group Policies that control submission of feedback and survey responses for enterprise deployments of Visual Studio.
+ms.date: 3/27/2025
+ms.topic: conceptual
+f1_keywords:
+- gpo
+- policy
+- feedback
+helpviewer_keywords:
+- '{{PLACEHOLDER}}'
+- '{{PLACEHOLDER}}'
+author: 
+ms.author: jasonchlus
+manager: dominicn
 
-Update this page to link to the below content 
+ms.subservice: installation
+---
+# Configure Feedback Group Policies
 
-The below page will need to link in this aka: https://aka.ms/VSFeedbackPolicy (for newsletter) 
+Visual Studio allows you to configure and deploy global machine-wide policies across your organization by using the [Microsoft Intune settings catalog](/mem/intune/configuration/settings-catalog) or by importing [Visual Studio Administrative Templates (ADMX)](administrative-templates.md) into legacy tools like Group Policy editor. To learn more, see [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md).
 
-Configure Feedback Group Policies in Visual Studio 
+One of the main categories included in the Visual Studio ADMX templates is feedback. Feedback Group Policies can be used to control the types of feedback sent through Visual Studio. IT administrators may find these policies useful to control whether Visual Studio users in their organization are permitted to submit feedback or survey responses to Microsoft. By default, users can submit both feedback and survey responses through Visual Studio.
 
-To control feedback in Visual Studio you can now use  Group Policy Administrative Templates (ADMX/ADML files). To configure and deploy these policies, you can use Microsoft Intune or the Local Group Policy Editor directly on the client machine. 
+## Supported policies
 
-With these policies, your organization will be able to add an extra layer of protection to prevent accidents on Visual Studio Live Share and increase productivity. 
+> [!IMPORTANT]
+> These policies require Visual Studio 2022 version 17.13 or later
 
-To take advantage of these policies your team will need to be using Visual Studio 17.13+. 
+Feedback Group Poicies for Visual Studio include the following:
 
-Supported Policies for feedback 
+| **Name**                         | **Description**                                               |
+|----------------------------------|---------------------------------------------------------------|
+| `SurveysDisabled`                | **Controls whether the user receives survey links in Visual Studio:** If enabled, Visual Studio and the Visual Studio Installer will not display any product survey requests or links to surveys to the user. |
+| `ProductFeedbackDisabled`        | **Controls whether the user can submit feedback through Visual Studio:** If enabled, Visual Studio and the Visual Studio Installer will not allow users to submit feedback to Microsoft. This includes, but is not limited to reporting feedback, submitting suggestions, and providing feedback on features via a thumbs up/thumbs down control. |
 
-We are introducing some more policies for better granularity.  
+   > [!NOTE]
+   > `DisableFeedbackDialog` is an older feedback policy that may be avaialble on your machine depending on the ADMX template version on box. This policy controls Send a Smile feedback. We do not recommend using this policy and instead recommend using the newer `SurveysDisabled` and `ProductFeedbackDisabled` policies.
 
-SurveysDisabled – prevents users from seeing survey links 
+## Related content
 
-ProductFeedbackDisabled – prevents users from seeing all other types of feedback (this includes thumbs up/down, developer community, etc) 
-
- 
-
-NOTE 
-
-Currently we have DisableFeedbackDialog. This will be retired at VS18 
-
-The feedback policies replacing 
-
- 
-
-Configure policies with Microsoft Endpoint Manager (Intune) settings 
-
-Visual Studio global policies are included in the Microsoft Endpoint Manager (Intune) settings. This makes it easier for administrators to configure their organization's devices now that the Visual Studio software policies are readily accessible in the Device Configuration Profile UI. Since Visual Studio will be keeping the policies up to date in Intune's settings catalog, administrators will be able to always access the most current Visual Studio Live Share configuration options without having to do manual imports. 
-
-To take advantage of Visual Studio's built-in configuration policy settings in Intune, simply create a Device Configuration Profile, choose "Settings catalog", and then add the desired polices that you want configured on your devices. 
-
-Configure policies with Local Group Policy Editor 
-
-Step 1: Download the templates 
-
-Head over to the Microsoft Download Center and grab the Visual Studio Group Policy Administrative Template files (ADMX/ADML). It’ll ask you where you want the files to be downloaded, please ensure the location is ‘C:\Windows\PolicyDefinitions'. 
-
-Step 2: Test using the Local Group Policy Editor 
-
-Open the Windows Local Group Policy Editor 
-
-Navigate to Computer Configuration > Administrative Templates > Visual Studio > Live Share Settings 
-
-Apply the desired policy changes to Visual Studio Live Share 
-
-[Optional] Ensure the new group policy changes are applied to the respective product's path in the Registry Editor: Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\LiveShare Screenshot that shows the Registry Editor 
-
-Restart your Visual Studio instance to pick up the new policy changes 
-
-Note: Depending on your organization’s policy, you might need to force a group policy update via gpupdate.exe to apply the change. 
-
-After all desired policies are set, teams across your organization can confidently collaborate with Visual Studio Live Share. 
-
- 
+* [Visual Studio administrator guide](../install/visual-studio-administrator-guide.md)
+* [Visual Studio Administrative Templates (ADMX)](administrative-templates.md)
+* [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md) 
