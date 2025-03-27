@@ -1,7 +1,7 @@
 ---
 title: Install and manage GitHub Copilot in Visual Studio
 description: Learn how to install GitHub Copilot to get GitHub Copilot Completions and Chat in Visual Studio. Use the Copilot badge in the IDE to access options to manage or troubleshoot your Copilot state. 
-ms.date: 12/18/2024
+ms.date: 3/27/2024
 ms.topic: install-set-up-deploy
 author: anandmeg
 ms.author: meghaanand
@@ -16,7 +16,6 @@ ms.custom: [copilot-learning-hub]
 **GitHub Copilot Completions** and **GitHub Copilot Chat** in Visual Studio enable enhanced [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping you be more productive and efficient when writing code.
 
 In this article, you learn how to install and manage GitHub Copilot in [Visual Studio 2022 version 17.10 or later](/visualstudio/releases/2022/release-notes).
- 
  
 ## Install using the Visual Studio Installer
 
@@ -47,12 +46,13 @@ Using the dropdown menu, you can easily open the Chat window, access Copilot set
 ### Copilot is inactive
 
 If Copilot is installed but in an inactive state, it may be because:
--  you're not yet signed into Visual Studio with a GitHub account
--  your signed in GitHub account doesn't have an active [Copilot subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot)
+- you're not yet signed into Visual Studio with a GitHub account
+- your signed in GitHub account doesn't have an active [Copilot subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot)
+  If you added multiple GitHub accounts in Visual Studio, ensure the [active account](work-with-github-accounts.md#switch-the-active-account) is the one with the active Copilot subscription.
 
-Select **Add GitHub Account with a Copilot Subscription** in the dropdown from the status icon to open **Account Settings** and [sign in with a GitHub account](work-with-github-accounts.md) that has an active subscription to use Copilot. When you're signed in, the Copilot status icon updates to active.
+Select **Sign in to use Copilot** in the dropdown from the status icon and [sign in with a GitHub account](work-with-github-accounts.md) that has an active subscription to use Copilot. When you're signed in, the Copilot status icon updates to active.
 
-:::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-inactive.png" alt-text="Screenshot of Copilot badge when Copilot is in an inactive state.":::
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-inactive-sign-in.png" alt-text="Screenshot of Copilot badge when Copilot is in an inactive state.":::
 
 If Copilot is inactive as the signed in GitHub account credentials need to be refreshed, select [**Refresh your GitHub credentials**](visual-studio-github-copilot-troubleshoot.md#refresh-your-credentials) from the dropdown to refresh your GitHub account and sign in again.
 
