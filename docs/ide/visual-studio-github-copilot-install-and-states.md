@@ -48,9 +48,12 @@ Using the dropdown menu, you can easily open the Chat window, access Copilot set
 If Copilot is installed but in an inactive state, it may be because:
 - you're not yet signed into Visual Studio with a GitHub account
     
-    Select **Sign in to use Copilot** in the dropdown from the status icon and [sign in with a GitHub account](work-with-github-accounts.md) that has an active subscription to use Copilot. When you're signed in, the Copilot status icon updates to active.
+    Select **Sign in to use Copilot** in the dropdown from the status icon and [sign in with a GitHub account](work-with-github-accounts.md) that has an active subscription to use Copilot.
     Or
+    
     Select **Open Chat Window** > **Sign up for Copilot Free** to sign up for [Copilot Free](copilot-free-plan.md).
+
+    When you're signed in, the Copilot status icon updates to active.
 
     :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-inactive-sign-in-copilot-free.png" alt-text="Screenshot of Copilot badge when Copilot is in an inactive state.":::
 
