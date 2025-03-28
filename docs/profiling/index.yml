@@ -71,12 +71,12 @@ landingContent:
             url: use-file-io.md
           - text: Database
             url: analyze-database.md
+          - text: Benchmark.NET
+            url: profiling-with-benchmark-dotnet.md
           - text: Events Viewer
             url: events-viewer.md
           - text: .NET Async
             url: analyze-async.md
-          - text: Analyze resource consumption (XAML)
-            url: application-timeline.md
 
   # Card (optional)
   - title: Guides
