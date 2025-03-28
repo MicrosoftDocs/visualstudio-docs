@@ -1,7 +1,7 @@
 ---
 title: About GitHub Copilot Completions in Visual Studio
 description: Use GitHub Copilot completions in Visual Studio to use AI assistance to generate information about your code, including suggested edits and new code snippets.
-ms.date: 2/11/2025
+ms.date: 3/27/2025
 ms.topic: overview
 author: anandmeg
 ms.author: meghaanand
@@ -104,6 +104,21 @@ Select **View code matches** to see detailed information in GitHub Copilot logs 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/code-referencing-copilot-logs.png" alt-text="Screenshot that shows the code reference log entry in Output Window." lightbox="media/vs-2022/visual-studio-github-copilot-extension/code-referencing-copilot-logs.png":::
 
 Code referencing enables you to make an informed decision on using code attribution or removing the code from your project.
+
+## Completions model
+
+GPT-4o Copilot code completions model is available for GitHub Copilot in Visual Studio version 17.14 Preview 2 or later.
+To try the new model for better suggestions and performance, select **GPT-4o Copilot** from the **Copilot Completions Model** dropdown in **Tools > Options > GitHub > Copilot > Copilot Completions**. You can also access **Settings > Options** from the Copilot badge in the upper right corner of the IDE.
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/completions-model-picker.png" alt-text="Screenshot that shows the Completions Model Picker.":::
+
+If you don’t see the new GPT-4o model in the dropdown, try restarting Visual Studio to retreive the latest model list.
+
+### Access
+
+- If you're a Copilot Pro user, the new model is available for you in 17.14 Preview 2 and later.
+- If you're a Copilot Business or Enterprise user, your administrator needs to enable this model for your organization by opting in to [**Editor preview features**](https://docs.github.com/en/enterprise-cloud@latest/copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-policies-for-copilot-in-your-organization#about-policies-for-github-copilot) in the Copilot policy settings on *github.com*.
+- If you're a [Copilot Free](copilot-free-plan.md) user, using this model counts towards your 2,000 free monthly completions.
 
 ## Exploring GitHub Copilot
 
