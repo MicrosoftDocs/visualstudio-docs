@@ -53,11 +53,11 @@ You can create a typed <xref:System.Data.DataSet> class in Visual Studio at desi
 
 1. Select **Finish**.
 
-   The dataset appears as a node in Solution Explorer.
+   The dataset appears as a node in **Solution Explorer**.
 
    :::image type="content" source="../data-tools/media/vs-2022/dataset-in-solution-explorer.png" alt-text="Screenshot that shows how the dataSet appears in Solution Explorer.":::
 
-1. Double-click the dataset node in Solution Explorer.
+1. Double-click the dataset node in **Solution Explorer**.
 
    The dataset opens in the Dataset Designer.
 
@@ -85,7 +85,7 @@ You can create a typed <xref:System.Data.DataSet> class in Visual Studio at desi
 
 This procedure shows how to add a table from the same database that you used to first create the dataset:
 
-1. Double-click the dataset node in Solution Explorer.
+1. Double-click the dataset node in **Solution Explorer**.
 
    The dataset opens in the Dataset Designer.
 

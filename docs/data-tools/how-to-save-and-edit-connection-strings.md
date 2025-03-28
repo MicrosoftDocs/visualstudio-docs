@@ -36,7 +36,7 @@ You can save a database connection string in application settings or in a datase
 
 To save a connection string directly in application settings, follow these steps:
 
-1. In Solution Explorer, do one of the following steps, depending on your project type:
+1. In **Solution Explorer**, do one of the following steps, depending on your project type:
 
    - For a C# project, expand the project and double-click the **Properties** node.
    - For a Visual Basic project, expand the project and double-click the **My Project** node.
@@ -69,7 +69,7 @@ You can edit an existing database connection string in application settings or i
 
 To edit a connection string in application settings:
 
-1. In Solution Explorer, do one of the following steps, depending on your project type:
+1. In **Solution Explorer**, do one of the following steps, depending on your project type:
 
    - For a C# project, expand the project and double-click the **Properties** node.
    - For a Visual Basic project, expand the project and double-click the **My Project** node.
@@ -88,7 +88,7 @@ You can modify connection information for a TableAdapter or query in a dataset.
 
 To edit a connection string in a dataset, follow these steps:
 
-1. In Solution Explorer, double-click the dataset (*.xsd* file) that has the connection you want to edit.
+1. In **Solution Explorer**, double-click the dataset (*.xsd* file) that has the connection you want to edit.
 
 1. Select the **TableAdapter** or query that has the connection you want to edit.
 

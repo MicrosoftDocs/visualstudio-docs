@@ -65,7 +65,7 @@ Create the sample database by following these steps:
 
     Visual Studio creates the project and several files, including an empty Windows form named **Form1**.
 
-1. In Solution Explorer, add two Windows forms to your project so that it has a total of three forms, and give them the following names:
+1. In **Solution Explorer**, add two Windows forms to your project so that it has a total of three forms, and give them the following names:
 
    - **Navigation**
 
@@ -135,7 +135,7 @@ To find the connection string:
 
 To store the connection string in your project:
 
-1. In Solution Explorer, do one of the following steps, depending on your project type:
+1. In **Solution Explorer**, do one of the following steps, depending on your project type:
 
    - For a C# project, expand the **Properties** node under the project, and then open the **Settings.settings** file.
 
@@ -172,13 +172,13 @@ The Navigation form opens when you run the application and includes the followin
 
 For C# projects:
 
-1. In Solution Explorer, open **Program.cs**.
+1. In **Solution Explorer**, open **Program.cs**.
 
 1. Change the `Application.Run` line to: `Application.Run(new Navigation());`
 
 For Visual Basic projects:
 
-1. In Solution Explorer, right-click the project and choose **Properties**.
+1. In **Solution Explorer**, right-click the project and choose **Properties**.
 
 1. In the Project Designer, select the **Application** tab, and then select **Navigation** in the **Startup object** list.
 
