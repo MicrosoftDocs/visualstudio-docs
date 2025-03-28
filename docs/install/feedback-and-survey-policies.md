@@ -27,15 +27,15 @@ One of the main categories included in the Visual Studio ADMX templates is feedb
 > [!IMPORTANT]
 > These policies require Visual Studio 2022 version 17.13 or later
 
-Feedback Group Poicies for Visual Studio include the following:
+Feedback Group Policies for Visual Studio include the following:
 
 | **Name**                         | **Description**                                               |
 |----------------------------------|---------------------------------------------------------------|
-| `SurveysDisabled`                | **Controls whether the user receives survey links in Visual Studio:** If enabled, Visual Studio and the Visual Studio Installer will not display any product survey requests or links to surveys to the user. |
-| `ProductFeedbackDisabled`        | **Controls whether the user can submit feedback through Visual Studio:** If enabled, Visual Studio and the Visual Studio Installer will not allow users to submit feedback to Microsoft. This includes, but is not limited to reporting feedback, submitting suggestions, and providing feedback on features via a thumbs up/thumbs down control. |
+| `SurveysDisabled`                | **Controls whether the user receives survey links in Visual Studio:** If enabled, Visual Studio and the Visual Studio Installer doesn't display any product survey requests or links to surveys to the user. |
+| `ProductFeedbackDisabled`        | **Controls whether the user can submit feedback through Visual Studio:** If enabled, Visual Studio and the Visual Studio Installer doesn't allow users to submit feedback to Microsoft. Examples include, but are not limited to reporting feedback, submitting suggestions, and providing feedback on features via a thumbs up/down control. |
 
    > [!NOTE]
-   > `DisableFeedbackDialog` is an older feedback policy that may be avaialble on your machine depending on the ADMX template version on box. This policy controls Send a Smile feedback. We do not recommend using this policy and instead recommend using the newer `SurveysDisabled` and `ProductFeedbackDisabled` policies.
+   > `DisableFeedbackDialog` is an older feedback policy that may be available on your machine depending on the ADMX template version on box. This policy controls Send a Smile feedback. We recommend using the newer `SurveysDisabled` and `ProductFeedbackDisabled` policies only.
 
 ## Related content
 
