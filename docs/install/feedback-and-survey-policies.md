@@ -32,7 +32,7 @@ Feedback Group Policies for Visual Studio include the following:
 | `ProductFeedbackDisabled`        | **Controls whether the user can submit feedback through Visual Studio:** If enabled, Visual Studio and the Visual Studio Installer don't allow users to submit feedback to Microsoft. Examples include, but aren't limited to reporting feedback, submitting suggestions, and providing feedback on features via a thumbs up/down control. |
 
    > [!NOTE]
-   > `DisableFeedbackDialog` is an older feedback policy that may be available on your machine depending on the ADMX template version on box. This policy controls feedback mechanisms that no longer exist in Visual Studio 2022. We recommend using the newer `SurveysDisabled` and `ProductFeedbackDisabled` policies only.
+   > `DisableFeedbackDialog` is an older feedback policy that may be available on your machine depending on the ADMX template version on box. This policy controls feedback mechanisms in Visual Studio 2019 and earlier. We recommend using the newer `SurveysDisabled` and `ProductFeedbackDisabled` policies only.
 
 ## Related content
 
