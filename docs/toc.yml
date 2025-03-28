@@ -93,7 +93,7 @@
         href: install/administrative-templates.md
       - name: Configure policies for enterprise deployments
         href: install/configure-policies-for-enterprise-deployments.md
-      - name: Configure feedack policies
+      - name: Configure feedback policies
         href: install/feedback-and-survey-policies.md
     - name: Manage & update installations
       items:
