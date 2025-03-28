@@ -1,6 +1,6 @@
 ---
-title: Configure feedback group policies
-description: Configure group policies that control submission of feedback and survey responses for enterprise deployments of Visual Studio.
+title: Configure feedback Group Policies
+description: Configure Group Policies that control submission of feedback and survey responses for enterprise deployments of Visual Studio.
 ms.date: 3/27/2025
 ms.topic: conceptual
 f1_keywords:
@@ -13,7 +13,7 @@ manager: dominicn
 
 ms.subservice: installation
 ---
-# Configure Feedback Group Policies
+# Configure feedback Group Policies
 
 Visual Studio allows you to configure and deploy global machine-wide policies across your organization by using the [Microsoft Intune settings catalog](/intune/intune-service/configuration/settings-catalog) or by importing [Visual Studio Administrative Templates (ADMX)](administrative-templates.md) into legacy tools like Group Policy editor. To learn more, see [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md).
 
