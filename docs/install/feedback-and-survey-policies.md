@@ -7,9 +7,6 @@ f1_keywords:
 - gpo
 - policy
 - feedback
-helpviewer_keywords:
-- '{{PLACEHOLDER}}'
-- '{{PLACEHOLDER}}'
 author: jasonchlus
 ms.author: jasonchlus
 manager: dominicn
