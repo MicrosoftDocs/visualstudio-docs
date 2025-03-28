@@ -1,6 +1,6 @@
 ---
 title: Configure feedback group policies
-description: Configure Group Policies that control submission of feedback and survey responses for enterprise deployments of Visual Studio.
+description: Configure group policies that control submission of feedback and survey responses for enterprise deployments of Visual Studio.
 ms.date: 3/27/2025
 ms.topic: conceptual
 f1_keywords:
