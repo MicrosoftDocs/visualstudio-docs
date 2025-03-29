@@ -18,9 +18,9 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 1. Open Visual Studio and create a project.
 
-    On the Welcome Page, select "Create a new project". Select "Empty Project". Make sure you are selecting the Project Template for C++.
+    On the Welcome Page, select **Create a new project**. Select **Empty Project**. Make sure you are selecting the Project Template for C++.
 
-   If you don't see the project template, open the Visual Studio Installer. Choose the Desktop development with C++ workload, then choose Modify.
+   If you don't see the project template, open the **Visual Studio Installer**. Choose the **Desktop development with C++ workload**, then choose **Modify**.
 
    Visual Studio creates the project.
 
