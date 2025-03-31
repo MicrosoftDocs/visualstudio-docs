@@ -89,11 +89,11 @@ In this example, you create the network and attach the MySQL container at startu
        --network todo-app --network-alias mysql 
        -v todo-mysql-data:/var/lib/mysql 
        -e MYSQL_ROOT_PASSWORD=<your-password> 
-       -e MYSQL_DB=todos 
+       -e MYSQL_DATABASE=todos 
        mysql:5.7
    ```
 
-   This command also defines the `MYSQL_ROOT_PASSWORD` and `MYSQL_DB` environment variables. For more information, see [MySQL Docker Hub listing](https://hub.docker.com/_/mysql/).
+   This command also defines the `MYSQL_ROOT_PASSWORD` and `MYSQL_DATABASE` environment variables. For more information, see [MySQL Docker Hub listing](https://hub.docker.com/_/mysql/).
 
    > [!WARNING]
    > This tutorial illustrates password credentials to authenticate with a MySQL database, which is not the most secure method. Refer to the [MySQL documentation](https://dev.mysql.com/doc/) to learn about more secure methods of authentication.
@@ -146,7 +146,7 @@ The `todo` app supports setting certain environment variables to specify your My
 | `MYSQL_HOST` | `mysql` | The host name for the MySQL server. |
 | `MYSQL_USER` | `root` | The username to use for the connection. |
 | `MYSQL_PASSWORD` | `<your-password>` | The password to use for the connection. In this example, substitute your root password for the `<your-password>` placeholder. |
-| `MYSQL_DB` | `todos` | The name of the database to use after the connection is established. |
+| `MYSQL_DATABASE` | `todos` | The name of the database to use after the connection is established. |
 
 > [!WARNING]
 > Using environment variables to set connection settings is acceptable for development, but this practice isn't recommended for running applications in production. For more information, see [Why you shouldn't use environment variables for secret data](https://diogomonica.com/2017/03/27/why-you-shouldnt-use-env-variables-for-secret-data/).
@@ -166,7 +166,7 @@ In the following example, you start your app and connect your app container to y
      -e MYSQL_HOST=mysql 
      -e MYSQL_USER=root 
      -e MYSQL_PASSWORD=<your-password> 
-     -e MYSQL_DB=todos 
+     -e MYSQL_DATABASE=todos 
      node:20-alpine 
      sh -c "yarn install && yarn run dev"
    ```
@@ -255,7 +255,7 @@ In the following example, you configure a Docker Compose file for your multi-con
      -e MYSQL_HOST=mysql 
      -e MYSQL_USER=root 
      -e MYSQL_PASSWORD=<your-password> 
-     -e MYSQL_DB=todos 
+     -e MYSQL_DATABASE=todos 
      node:20-alpine 
      sh -c "yarn install && yarn run dev"
    ```
@@ -320,7 +320,7 @@ In the following example, you configure a Docker Compose file for your multi-con
          MYSQL_HOST: mysql
          MYSQL_USER: root
          MYSQL_PASSWORD: <your-password>
-         MYSQL_DB: todos
+         MYSQL_DATABASE: todos
    ```
 
    Remember to enter your MySQL root password for the `<your-password>` placeholder. 
@@ -361,7 +361,7 @@ In the following example, you configure a Docker Compose file for your multi-con
          - todo-mysql-data:/var/lib/mysql
        environment: 
          MYSQL_ROOT_PASSWORD: <your-password>
-         MYSQL_DB: todos
+         MYSQL_DATABASE: todos
    ```
 
    Remember to enter your MySQL root password for the `<your-password>` placeholder. 
@@ -394,7 +394,7 @@ In the following example, you configure a Docker Compose file for your multi-con
          MYSQL_HOST: mysql
          MYSQL_USER: root
          MYSQL_PASSWORD: <your-password>
-         MYSQL_DB: todos
+         MYSQL_DATABASE: todos
 
      mysql:
        image: mysql:5.7
@@ -402,7 +402,7 @@ In the following example, you configure a Docker Compose file for your multi-con
          - todo-mysql-data:/var/lib/mysql
        environment: 
          MYSQL_ROOT_PASSWORD: <your-password>
-         MYSQL_DB: todos
+         MYSQL_DATABASE: todos
 
    volumes:
      todo-mysql-data:

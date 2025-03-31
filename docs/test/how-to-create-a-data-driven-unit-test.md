@@ -197,7 +197,7 @@ The DataSource attribute has three constructors.
 [DataSource(dataSourceSettingName)]
 ```
 
-A constructor with one parameter uses connection information that is stored in the *app.config* file for the solution. The *dataSourceSettingsName* is the name of the Xml element in the config file that specifies the connection information.
+A constructor with one parameter uses connection information that is stored in the *app.config* file for the solution. The *dataSourceSettingsName* is the name of the XML element in the config file that specifies the connection information.
 
 Using an *app.config* file allows you to change the location of the data source without making changes to the unit test itself. For information about how to create and use an *app.config* file, see [Walkthrough: Using a Configuration File to Define a Data Source](../test/walkthrough-using-a-configuration-file-to-define-a-data-source.md)
 
