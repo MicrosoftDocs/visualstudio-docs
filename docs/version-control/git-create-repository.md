@@ -1,7 +1,7 @@
 ---
 title: Create a Git repo or work remotely with a provider
 description: Create a repo in Visual Studio by using Git, browse to an Azure DevOps repo, or work remotely with the Git provider of your choice.
-ms.date: 02/13/2024
+ms.date: 03/13/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -33,6 +33,8 @@ To follow this article, you'll need:
 1. In the **Create a Git repository** dialog, under the **Push to a new remote** section, choose **GitHub**.
 
 1. In the **Create a new GitHub repository** section of the **Create a Git repository** dialog, enter the name of the repo you want to create. (If you haven't yet signed in to your GitHub account, you can do so from this screen, too.)
+
+   Visual Studio 17.12 and later support multiple GitHub accounts, so you can use the **Account** dropdown to switch to another GitHub account that you want to use for the new repository.
 
     :::image type="content" source="../get-started/media/vs-2022/git-create-repo-dialog.png" alt-text="Screenshot of the Create Git Repository dialog in Visual Studio with the GitHub selection highlighted.":::
 

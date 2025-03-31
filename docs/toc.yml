@@ -93,6 +93,8 @@
         href: install/administrative-templates.md
       - name: Configure policies for enterprise deployments
         href: install/configure-policies-for-enterprise-deployments.md
+      - name: Configure feedback policies
+        href: install/feedback-survey-policies.md
     - name: Manage & update installations
       items:
       - name: Enabling administrator updates
