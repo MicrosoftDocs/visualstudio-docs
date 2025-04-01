@@ -163,7 +163,7 @@ In this example, setting `<IncludeTestAssembly>` to `False` will exclude test as
 ```
 
 > [!NOTE]
-> The default value of `IncludeTestAssembly` in [VSTest](https://learn.microsoft.com/en-us/visualstudio/test/vstest-console-options?view=vs-2022) is `true`, while it is `false` in [Microsoft.Testing.Platform](https://learn.microsoft.com/en-us/dotnet/core/testing/microsoft-testing-platform-extensions-code-coverage). This means that test projects are included by default. For more information, see [Code Coverage configuration](https://github.com/microsoft/codecoverage/blob/main/docs/configuration.md).
+> The default value of `IncludeTestAssembly` in [VSTest](https:/visualstudio/test/vstest-console-options) is `true`, while it is `false` in [Microsoft.Testing.Platform](/dotnet/core/testing/microsoft-testing-platform-extensions-code-coverage). This means that test projects are included by default. For more information, see [Code Coverage configuration](https://github.com/microsoft/codecoverage/blob/main/docs/configuration.md).
 
 ### Regular expressions
 
