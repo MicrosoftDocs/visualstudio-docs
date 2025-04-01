@@ -19,7 +19,7 @@ When you open a file that isn't included in a project, Visual Studio provides so
 
 If a file isn't open in single-file mode, and IntelliSense isn't working correctly, the first place to check is the **Error List** window. To see all the IntelliSense errors for the current source file together with all included header files, choose **Build + IntelliSense** in the dropdown:
 
-:::image type="content" source="media/visual-cpp-intellisense-error-list.png" alt-text="Screenshot that shows the IntelliSense Error List window.":::
+:::image type="content" source="media/visual-cpp-intellisense-error-list.png" alt-text="Screenshot of the Error List window. Build + IntelliSense is selected in the filter dropdown.":::
 
 IntelliSense produces a maximum of 1,000 errors. If there are more than 1,000 errors in the header files included by a source file, then the source file shows only a single error squiggle at the very start of the source file.
 
@@ -37,7 +37,7 @@ To see the current values for build macros such as **VC_IncludePath**, select th
 
 For Makefile projects that are based on the NMake project template, choose **NMake** under **Configuration Properties**, and then choose **Include search path** in the **IntelliSense** category:
 
-:::image type="content" source="media/vcpp-intellisense-makefile-include-paths.png" alt-text="Screenshot that shows the Include Search Path setting under Intellisense.":::
+:::image type="content" source="media/vcpp-intellisense-makefile-include-paths.png" alt-text="Screenshot that shows the Configuration Properties > N Make > Include Search Path setting.":::
 
 ### CMake projects
 
@@ -53,13 +53,12 @@ For example, it doesn't evaluate preprocessor macros, and therefore it might inc
 
 There are two common ways in which this problem manifests in Visual Studio:
 
+1. The IDE offers to create a function definition for a function that is already defined.
 1. If the navigation bar shows an innermost macro, then the current function definition was skipped:
 
-    :::image type="content" source="media/vcpp-intellisense-tag-parser-macro.png" alt-text="Screenshot that shows the tag parser skipping the function definition.":::
-
-1. The IDE offers to create a function definition for a function that is already defined:
-
-    :::image type="content" source="media/vcpp-intellisense-tag-parser-function.png" alt-text="Screenshot that shows the tag parser offering to define an existing function.":::
+    :::image type="complex" source="media/vcpp-intellisense-tag-parser-macro.png" alt-text="Screenshot that shows the tag parser skipping the function definition.":::
+    The code snippet shows a macro definition for do_if that is used inside of the function main. The tag parser doesn't understand the macro, so instead of the navigation dropdown showing that the name of the current function is main, it shows the name of the macro: do_if.
+    :::image-end:::
 
 To fix these kinds of problems, add a file named *`cpp.hint`* to the root of your solution directory. For more information, see [Hint Files](/cpp/build/reference/hint-files).
 
@@ -98,7 +97,7 @@ However, in some cases Visual Studio might not update the IntelliSense database 
 
 An IntelliSense build doesn't produce binaries, but it can still fail. One possible cause for failure is custom *`.props`* or *`.targets`* files. In Visual Studio 2017 version 15.6 and later, IntelliSense-only build errors are logged to the Output window. To see them, set **Show output from** to **Solution**:
 
-:::image type="content" source="media/visual-cpp-intellisense-output-window.png" alt-text="Screenshot that shows the Output window for solution errors.":::
+:::image type="content" source="media/visual-cpp-intellisense-output-window.png" alt-text="Screenshot that shows the Output window. The Show output from dropdown is set to Solution.":::
 
 The error message might instruct you to enable design-time tracing:
 
