@@ -1,7 +1,7 @@
 ---
 title: C++ Dynamic Debugging (Preview)
 description: Learn how to use C++ Dynamic Debugging to easily debug optimized code.
-ms.date: 03/17/2025
+ms.date: 04/01/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.debug
@@ -265,7 +265,8 @@ If things aren't working as expected, open a ticket at [Developer Community](htt
 
 ## General notes
 
-IncrediBuild 10.24 supports C++ Dynamic Debugging builds.
+IncrediBuild 10.24 supports C++ Dynamic Debugging builds.\
+FastBuild v1.15 supports C++ Dynamic Debugging builds.
 
 Functions that are inlined are deoptimized on demand. If you set a breakpoint on an inlined function, the debugger deoptimizes the function and its caller. The breakpoint hits where you expect it to, as if your program was built without compiler optimizations.
 
@@ -294,8 +295,8 @@ If your project is built with the Visual Studio build system, a good way to make
 
 1. The **New Solution Configuration** dialog opens. In the **Name** field, enter a name for the new configuration, such as `ReleaseDD`. Ensure that **Copy settings from:** is set to **Release**. Then select **OK** to create the new configuration.
 
-    :::image type="complex" source="media/vs-2022/debug-clone-configuration-details-release.png" alt-text="A screenshot that shows the New Project Configuration dialog.":::
-    The Name field is set to ReleaseDD. The Copy settings from: dropdown list is set to Release.
+    :::image type="complex" source="media/vs-2022/debug-clone-configuration-details-release.png" alt-text="A screenshot that shows the New Project Configuration dialog for a release build.":::
+    The Name field is set to ReleaseDD. The 'Copy settings from' dropdown list is set to Release.
     :::image-end:::
 
 1. The new configuration appears in the **Active solution configuration** dropdown list. Select **Close**.
@@ -332,7 +333,7 @@ If you want to use debug binaries but you want them to run faster, you can modif
 
 1. The **New Project Configuration** dialog opens. In the **Name** field, enter a name for the new configuration, such as **DebugDD**. Ensure that **Copy settings from:** is set to **Debug**. Then select **OK** to create the new configuration.
 
-    :::image type="complex" source="media/vs-2022/debug-clone-configuration-details-debug.png" alt-text="A screenshot that shows the New Project Configuration dialog.":::
+    :::image type="complex" source="media/vs-2022/debug-clone-configuration-details-debug.png" alt-text="A screenshot that shows the `New Project Configuration dialog` for a debug build.":::
     The name field is set to DebugDD. The Copy settings from: dropdown list is set to Debug.
     :::image-end:::
 
