@@ -23,7 +23,10 @@ To get started, open the **Git Repository** window by selecting **Git Repository
 
 The **Git Repository** window contains three main sections, as numbered in the preceding screenshot:
 
-1. **Branches**: Git empowers users to multitask and experiment with their code through branches. If you're working on multiple features at the same time or if you want to explore ideas without affecting your working code, branching can be helpful.
+1. **Branches / Tags**: Git empowers users to multitask and experiment with their code through branches. If you're working on multiple features at the same time or if you want to explore ideas without affecting your working code, branching can be helpful. With Visual Studio 17.12 and later, you can see tags in the repo, and navigate to any tag. Your team can use git tags (for example, `v1.0`), to mark points in the history of your repo and view the state of the repo at that point in history. See [Git - Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging).
+
+   :::image type="content" alt-text="Screenshot that shows git tags in the Git Repository window" source="./media/vs-2022/git-tags.png" lightbox="./media/vs-2022/git-tags.png" :::
+
 1. **Graph**: This section visualizes the state of your branch. It has three subsections:
 
    - **Incoming** shows incoming commits that your team has been contributing.
