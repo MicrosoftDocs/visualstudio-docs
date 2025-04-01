@@ -1,7 +1,7 @@
 ---
 title: C++ Dynamic Debugging (Preview)
 description: Learn how to use C++ Dynamic Debugging to easily debug optimized code.
-ms.date: 03/17/2025
+ms.date: 04/01/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.debug
@@ -265,7 +265,8 @@ If things aren't working as expected, open a ticket at [Developer Community](htt
 
 ## General notes
 
-IncrediBuild 10.24 supports C++ Dynamic Debugging builds.
+IncrediBuild 10.24 supports C++ Dynamic Debugging builds.\
+FastBuild v1.15 supports C++ Dynamic Debugging builds.
 
 Functions that are inlined are deoptimized on demand. If you set a breakpoint on an inlined function, the debugger deoptimizes the function and its caller. The breakpoint hits where you expect it to, as if your program was built without compiler optimizations.
 
