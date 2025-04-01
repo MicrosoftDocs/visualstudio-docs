@@ -1,6 +1,6 @@
 ---
 title: IntelliCode Whole-line autocompletions 
-ms.date: 9/26/2023
+ms.date: 4/1/2025
 ms.service: visual-studio-family
 ms.subservice: intellicode
 ms.topic: conceptual
