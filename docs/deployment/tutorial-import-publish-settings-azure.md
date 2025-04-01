@@ -18,7 +18,7 @@ You can use the **Publish** tool to import publish settings and then deploy your
 > A publish settings file (`*.publishsettings`) is different than a publishing profile (`*.pubxml`) created in Visual Studio. A publish settings file is created by Azure App Service, and then it can be imported into Visual Studio.
 
 > [!NOTE]
-> The technique described in this article (the use of `.publishsettings` files) is inherently insecure, because this technology uses Basic Authentication, which relies on passwords for authentication, rather than managed identities. For best security, we recommend using [managed identities](/entra/identity/managed-identities-azure-resources/overview) and the Azure services that support them. Visual Studio 17.12 and later are set up to deploy to Azure services such as Azure App Service with managed identities rather than Basic Authentication.
+> The technique described in this article (the use of `.publishsettings` files) is inherently insecure, because this technology uses Basic Authentication, which relies on passwords for authentication, rather than managed identities. For best security, we recommend using [managed identities](/entra/identity/managed-identities-azure-resources/overview) and the Azure services that support them. Visual Studio 17.12 and later are set up to deploy to Azure services that support managed identities. For web applications, use [Azure App Service](/azure/app-service/overview), and for Cloud Services (Extended Support), we recommend [Service Fabric managed clusters](/azure/service-fabric/overview-managed-cluster).
 
 ## Prerequisites
 
