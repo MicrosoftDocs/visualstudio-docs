@@ -2,7 +2,7 @@
 title: About Git in Visual Studio
 titleSuffix: ""
 description: Explore Git options for source control in Visual Studio and track the code changes you make over time or revert to specific versions.
-ms.date: 03/14/2025
+ms.date: 4/1/2025
 ms.topic: overview
 author: ghogen
 ms.author: ghogen
