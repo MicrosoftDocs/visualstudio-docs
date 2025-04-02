@@ -2232,7 +2232,7 @@
     },
     {
       "source_path": "docs/debugger/error-mixed-mode-debugging-for-ia64-processes-is-unsupported.md",
-      "redirect_url": "/visualstudio/debugger/mixed-mode-debugging-for-ia64-processes-is-unsupported",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/mixed-mode-debugging-for-ia64-processes-is-unsupported",
       "redirect_document_id": false
     },
     {
@@ -3320,7 +3320,7 @@
     },
     {
       "source_path": "docs/ide/reference/convert-dialog-box.md",
-      "redirect_url": "/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects",
+      "redirect_url": "/visualstudio/releases/2019/port-migrate-and-upgrade-visual-studio-projects",
       "redirect_document_id": false
     },
     {
@@ -3790,22 +3790,22 @@
     },
     {
       "source_path": "docs/code-quality/how-to-configure-code-analysis-for-an-aspnet-web-application.md",
-      "redirect_url": "/visualstudio/code-quality/how-to-configure-code-analysis-for-a-managed-code-project",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-configure-code-analysis-for-a-managed-code-project",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/how-to-create-a-work-item-for-a-managed-code-defect.md",
-      "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/code-analysis-for-managed-code-overview",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/anonymous-methods-and-code-analysis.md",
-      "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/code-analysis-for-managed-code-overview",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/analyzing-application-quality-by-using-code-analysis-tools.md",
-      "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/code-analysis-for-managed-code-overview",
       "redirect_document_id": false
     },
     {
@@ -3815,32 +3815,32 @@
     },
     {
       "source_path": "docs/code-quality/analyzing-managed-code-quality-by-using-code-analysis.md",
-      "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/code-analysis-for-managed-code-overview",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/code-analysis-rule-set-reference.md",
-      "redirect_url": "/visualstudio/code-quality/rule-set-reference",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/rule-set-reference",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/creating-and-using-code-analysis-check-in-policies.md",
-      "redirect_url": "/visualstudio/code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/creating-custom-code-analysis-rule-sets.md",
-      "redirect_url": "/visualstudio/code-quality/how-to-create-a-custom-rule-set",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-create-a-custom-rule-set",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/enhancing-code-quality-with-team-project-check-in-policies.md",
-      "redirect_url": "/visualstudio/code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/how-to-specify-managed-code-rule-sets-for-multiple-projects-in-a-solution.md",
-      "redirect_url": "/visualstudio/code-quality/how-to-configure-code-analysis-for-a-managed-code-project",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-configure-code-analysis-for-a-managed-code-project",
       "redirect_document_id": false
     },
     {
@@ -3850,7 +3850,7 @@
     },
     {
       "source_path": "docs/code-quality/how-to-view-managed-code-defects.md",
-      "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/code-analysis-for-managed-code-overview",
       "redirect_document_id": false
     },
     {
@@ -3875,7 +3875,7 @@
     },
     {
       "source_path": "docs/code-quality/walkthrough-configuring-and-using-a-custom-rule-set.md",
-      "redirect_url": "/visualstudio/code-quality/how-to-create-a-custom-rule-set",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-create-a-custom-rule-set",
       "redirect_document_id": false
     },
     {
@@ -5970,7 +5970,7 @@
     },
     {
       "source_path": "docs/cross-platform/overview-of-visual-studio-tools-for-unity.md",
-      "redirect_url": "/visualstudio/cross-platform/visual-studio-tools-for-unity",
+      "redirect_url": "/visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity",
       "redirect_document_id": false
     },
     {
@@ -6055,7 +6055,7 @@
     },
     {
       "source_path": "docs/csharp-ide/code-generation-csharp.md",
-      "redirect_url": "/visualstudio/ide/code-generation-in-visual-studio",
+      "redirect_url": "/visualstudio/ide/writing-code-in-the-code-and-text-editor#generate-fix-or-refactor-code",
       "redirect_document_id": false
     },
     {
@@ -6105,7 +6105,7 @@
     },
     {
       "source_path": "docs/csharp-ide/code-generation/index.md",
-      "redirect_url": "/visualstudio/ide/code-generation-in-visual-studio",
+      "redirect_url": "/visualstudio/ide/writing-code-in-the-code-and-text-editor#generate-fix-or-refactor-code",
       "redirect_document_id": false
     },
     {
@@ -6135,7 +6135,7 @@
     },
     {
       "source_path": "docs/csharp-ide/index.md",
-      "redirect_url": "/visualstudio/ide/code-generation-in-visual-studio",
+      "redirect_url": "/visualstudio/ide/writing-code-in-the-code-and-text-editor#generate-fix-or-refactor-code",
       "redirect_document_id": false
     },
     {
@@ -6435,22 +6435,22 @@
     },
     {
       "source_path": "docs/debugger/how-to-display-message-properties.md",
-      "redirect_url": "/visualstudio/debugger/messages-view",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/messages-view",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/how-to-display-process-properties.md",
-      "redirect_url": "/visualstudio/debugger/processes-view",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/processes-view",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/how-to-display-thread-properties.md",
-      "redirect_url": "/visualstudio/debugger/threads-view",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/threads-view",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/how-to-display-window-properties.md",
-      "redirect_url": "/visualstudio/debugger/windows-view",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/windows-view",
       "redirect_document_id": false
     },
     {
@@ -6470,57 +6470,57 @@
     },
     {
       "source_path": "docs/debugger/0x-2x-4x-msaa-variants.md",
-      "redirect_url": "/visualstudio/debugger/graphics/0x-2x-4x-msaa-variants",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/0x-2x-4x-msaa-variants",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/16bpp-render-target-format-variant.md",
-      "redirect_url": "/visualstudio/debugger/graphics/16bpp-render-target-format-variant",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/16bpp-render-target-format-variant",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/1x1-viewport-size-variant.md",
-      "redirect_url": "/visualstudio/debugger/graphics/1x1-viewport-size-variant",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/1x1-viewport-size-variant",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/addmessage.md",
-      "redirect_url": "/visualstudio/debugger/graphics/addmessage",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/addmessage",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/bc-texture-compression-variant.md",
-      "redirect_url": "/visualstudio/debugger/graphics/bc-texture-compression-variant",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/bc-texture-compression-variant",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/begincapture.md",
-      "redirect_url": "/visualstudio/debugger/graphics/begincapture",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/begincapture",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/capturecurrentframe.md",
-      "redirect_url": "/visualstudio/debugger/graphics/capturecurrentframe",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/capturecurrentframe",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/capturing-graphics-information.md",
-      "redirect_url": "/visualstudio/debugger/graphics/capturing-graphics-information",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/capturing-graphics-information",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/command-line-capture-tool.md",
-      "redirect_url": "/visualstudio/debugger/graphics/command-line-capture-tool",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/command-line-capture-tool",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/control-execution-of-a-store-app-in-a-visual-studio-debug-session-for-windows-store-apps-javascript.md",
-      "redirect_url": "/visualstudio/debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml",
+      "redirect_url": "/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/copy-programmatic-capture.md",
-      "redirect_url": "/visualstudio/debugger/graphics/copy-programmatic-capture",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/copy-programmatic-capture",
       "redirect_document_id": false
     },
     {
@@ -6550,7 +6550,7 @@
     },
     {
       "source_path": "docs/debugger/debug-store-apps-in-visual-studio.md",
-      "redirect_url": "/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps",
+      "redirect_url": "/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps",
       "redirect_document_id": false
     },
     {
@@ -6580,12 +6580,12 @@
     },
     {
       "source_path": "docs/debugger/dont-save-vsglog-to-temp.md",
-      "redirect_url": "/visualstudio/debugger/graphics/dont-save-vsglog-to-temp",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/dont-save-vsglog-to-temp",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/endcapture.md",
-      "redirect_url": "/visualstudio/debugger/graphics/endcapture",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/endcapture",
       "redirect_document_id": false
     },
     {
@@ -6595,7 +6595,7 @@
     },
     {
       "source_path": "docs/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-on-the-remote-computer-does-not-have-permission-to-connect-to-this-computer.md",
-      "redirect_url": "/visualstudio/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-no-permission",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-no-permission",
       "redirect_document_id": false
     },
     {
@@ -6615,7 +6615,7 @@
     },
     {
       "source_path": "docs/debugger/getting-started-with-visual-studio-graphics-diagnostics.md",
-      "redirect_url": "/visualstudio/debugger/graphics/getting-started-with-visual-studio-graphics-diagnostics",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/getting-started-with-visual-studio-graphics-diagnostics",
       "redirect_document_id": false
     },
     {
@@ -6865,47 +6865,47 @@
     },
     {
       "source_path": "docs/debugger/graphics-diagnostics-examples.md",
-      "redirect_url": "/visualstudio/debugger/graphics/graphics-diagnostics-examples",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-diagnostics-examples",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/graphics-event-call-stack.md",
-      "redirect_url": "/visualstudio/debugger/graphics/graphics-event-call-stack",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-event-call-stack",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/graphics-event-list.md",
-      "redirect_url": "/visualstudio/debugger/graphics/graphics-event-list",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-event-list",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/graphics-frame-analysis.md",
-      "redirect_url": "/visualstudio/debugger/graphics/graphics-frame-analysis",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-frame-analysis",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/graphics-log-document.md",
-      "redirect_url": "/visualstudio/debugger/graphics/graphics-log-document",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-log-document",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/graphics-object-table.md",
-      "redirect_url": "/visualstudio/debugger/graphics/graphics-object-table",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-object-table",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/graphics-pipeline-stages.md",
-      "redirect_url": "/visualstudio/debugger/graphics/graphics-pipeline-stages",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-pipeline-stages",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/graphics-pixel-history.md",
-      "redirect_url": "/visualstudio/debugger/graphics/graphics-pixel-history",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-pixel-history",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/graphics-state.md",
-      "redirect_url": "/visualstudio/debugger/graphics/graphics-state",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-state",
       "redirect_document_id": false
     },
     {
@@ -6915,22 +6915,22 @@
     },
     {
       "source_path": "docs/debugger/graphics/how-to-use-graphics-diagnostics-with-an-arm-device.md",
-      "redirect_url": "/visualstudio/debugger/graphics/graphics-diagnostics-examples",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-diagnostics-examples",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/graphics/index.md",
-      "redirect_url": "/visualstudio/debugger/graphics/overview-of-visual-studio-graphics-diagnostics",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/overview-of-visual-studio-graphics-diagnostics",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/half-quarter-texture-dimensions-variant.md",
-      "redirect_url": "/visualstudio/debugger/graphics/half-quarter-texture-dimensions-variant",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/half-quarter-texture-dimensions-variant",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/hlsl-shader-debugger.md",
-      "redirect_url": "/visualstudio/debugger/graphics/hlsl-shader-debugger",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/hlsl-shader-debugger",
       "redirect_document_id": false
     },
     {
@@ -6995,7 +6995,7 @@
     },
     {
       "source_path": "docs/debugger/how-to-change-the-graphics-diagnostics-playback-machine.md",
-      "redirect_url": "/visualstudio/debugger/graphics/how-to-change-the-graphics-diagnostics-playback-machine",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/how-to-change-the-graphics-diagnostics-playback-machine",
       "redirect_document_id": false
     },
     {
@@ -7020,7 +7020,7 @@
     },
     {
       "source_path": "docs/debugger/how-to-use-graphics-diagnostics-with-an-arm-device.md",
-      "redirect_url": "/visualstudio/debugger/graphics/graphics-diagnostics-examples",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-diagnostics-examples",
       "redirect_document_id": false
     },
     {
@@ -7035,12 +7035,12 @@
     },
     {
       "source_path": "docs/debugger/init.md",
-      "redirect_url": "/visualstudio/debugger/graphics/init",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/init",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/mip-map-generation-variant.md",
-      "redirect_url": "/visualstudio/debugger/graphics/mip-map-generation-variant",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/mip-map-generation-variant",
       "redirect_document_id": false
     },
     {
@@ -7050,17 +7050,17 @@
     },
     {
       "source_path": "docs/debugger/navigate-a-debugging-session-in-visual-studio-xaml-and-csharp.md",
-      "redirect_url": "/visualstudio/debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml",
+      "redirect_url": "/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/overview-of-visual-studio-graphics-diagnostics.md",
-      "redirect_url": "/visualstudio/debugger/graphics/overview-of-visual-studio-graphics-diagnostics",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/overview-of-visual-studio-graphics-diagnostics",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md",
-      "redirect_url": "/visualstudio/debugger/graphics/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants",
       "redirect_document_id": false
     },
     {
@@ -7075,17 +7075,17 @@
     },
     {
       "source_path": "docs/debugger/reference-programmatic-capture.md",
-      "redirect_url": "/visualstudio/debugger/graphics/reference-programmatic-capture",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/reference-programmatic-capture",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/run-store-apps-from-visual-studio.md",
-      "redirect_url": "/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps",
+      "redirect_url": "/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/run-windows-store-apps-on-the-local-machine.md",
-      "redirect_url": "/visualstudio/debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml",
+      "redirect_url": "/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps",
       "redirect_document_id": false
     },
     {
@@ -7100,17 +7100,17 @@
     },
     {
       "source_path": "docs/debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md",
-      "redirect_url": "/visualstudio/debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml",
+      "redirect_url": "/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/togglehud.md",
-      "redirect_url": "/visualstudio/debugger/graphics/togglehud",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/togglehud",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/uninit.md",
-      "redirect_url": "/visualstudio/debugger/graphics/uninit",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/uninit",
       "redirect_document_id": false
     },
     {
@@ -7130,62 +7130,62 @@
     },
     {
       "source_path": "docs/debugger/vsg-default-run-filename.md",
-      "redirect_url": "/visualstudio/debugger/graphics/vsg-default-run-filename",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/vsg-default-run-filename",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/vsg-nodefault-instance.md",
-      "redirect_url": "/visualstudio/debugger/graphics/vsg-nodefault-instance",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/vsg-nodefault-instance",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/vsgdbg-class.md",
-      "redirect_url": "/visualstudio/debugger/graphics/vsgdbg-class",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/vsgdbg-class",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/vsgdbg-tilde-vsgdbg-destructor.md",
-      "redirect_url": "/visualstudio/debugger/graphics/vsgdbg-tilde-vsgdbg-destructor",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/vsgdbg-tilde-vsgdbg-destructor",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/vsgdbg-vsgdbg-constructor.md",
-      "redirect_url": "/visualstudio/debugger/graphics/vsgdbg-vsgdbg-constructor",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/vsgdbg-vsgdbg-constructor",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/walkthrough-capturing-graphics-information-programmatically.md",
-      "redirect_url": "/visualstudio/debugger/graphics/walkthrough-capturing-graphics-information-programmatically",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-capturing-graphics-information-programmatically",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/walkthrough-capturing-graphics-information.md",
-      "redirect_url": "/visualstudio/debugger/graphics/walkthrough-capturing-graphics-information",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-capturing-graphics-information",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/walkthrough-debugging-rendering-errors-due-to-shading.md",
-      "redirect_url": "/visualstudio/debugger/graphics/walkthrough-debugging-rendering-errors-due-to-shading",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-debugging-rendering-errors-due-to-shading",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/walkthrough-missing-objects-due-to-device-state.md",
-      "redirect_url": "/visualstudio/debugger/graphics/walkthrough-missing-objects-due-to-device-state",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-missing-objects-due-to-device-state",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/walkthrough-missing-objects-due-to-misconfigured-pipeline.md",
-      "redirect_url": "/visualstudio/debugger/graphics/walkthrough-missing-objects-due-to-misconfigured-pipeline",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-missing-objects-due-to-misconfigured-pipeline",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/walkthrough-missing-objects-due-to-vertex-shading.md",
-      "redirect_url": "/visualstudio/debugger/graphics/walkthrough-missing-objects-due-to-vertex-shading",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-missing-objects-due-to-vertex-shading",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader.md",
-      "redirect_url": "/visualstudio/debugger/graphics/walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader",
       "redirect_document_id": false
     },
     {
@@ -7385,22 +7385,22 @@
     },
     {
       "source_path": "docs/debugger/other-dialog-boxes.md",
-      "redirect_url": "/visualstudio/debugger/about-microsoft-spy-increment",
+      "redirect_url": "/visualstudio/debugger/spy-increment-reference",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/copyright-notice-for-spy-increment-help.md",
-      "redirect_url": "/visualstudio/debugger/about-microsoft-spy-increment",
+      "redirect_url": "/visualstudio/debugger/spy-increment-reference",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/version-compatibility-for-code-analysis-check-in-policies.md",
-      "redirect_url": "/visualstudio/code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/debugging-a-data-bound-activex-control.md",
-      "redirect_url": "/visualstudio/debugger/how-to-debug-an-activex-control",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/how-to-debug-an-activex-control",
       "redirect_document_id": false
     },
     {
@@ -7615,7 +7615,7 @@
     },
     {
       "source_path": "docs/debugger/prefetch-content-for-windows-store-apps.md",
-      "redirect_url": "/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps",
+      "redirect_url": "/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps",
       "redirect_document_id": false
     },
     {
@@ -7625,8 +7625,8 @@
     },
     {
       "source_path": "docs/debugger/xaml-hot-reload-troubleshooting.md",
-      "redirect_url": "/visualstudio/xaml-tools/xaml-hot-reload-troubleshooting",
-      "redirect_document_id": true
+      "redirect_url": "/troubleshoot/developer/visualstudio/tools-utilities/xaml-hot-reload-troubleshooting",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/debugger/xaml-hot-reload.md",
@@ -7725,7 +7725,7 @@
     },
     {
       "source_path": "docs/designers/accessibility-products-and-services-blend.md",
-      "redirect_url": "/visualstudio/ide/reference/accessibility-products-and-services-from-microsoft",
+      "redirect_url": "https://www.microsoft.com/accessibility",
       "redirect_document_id": false
     },
     {
@@ -7740,7 +7740,7 @@
     },
     {
       "source_path": "docs/designers/image-editor-examples.md",
-      "redirect_url": "/visualstudio/designers/how-to-create-a-basic-texture",
+      "redirect_url": "/visualstudio/designers/image-editor",
       "redirect_document_id": false
     },
     {
@@ -7755,7 +7755,7 @@
     },
     {
       "source_path": "docs/designers/create-modern-desktop-applications-with-windows-presentation-foundation.md",
-      "redirect_url": "/visualstudio/designers/getting-started-with-wpf",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-wpf",
       "redirect_document_id": false
     },
     {
@@ -7805,7 +7805,7 @@
     },
     {
       "source_path": "docker/vs-azure-tools-docker-troubleshooting-docker-errors.md",
-      "redirect_url": "/visualstudio/containers/troubleshooting-docker-errors",
+      "redirect_url": "/troubleshoot/developer/visualstudio/ide/troubleshooting-docker-errors",
       "redirect_document_id": false
     },
     {
@@ -7870,7 +7870,7 @@
     },
     {
       "source_path": "docs/extensibility/lightweight-solution-load-extension-impact.md",
-      "redirect_url": "/visualstudio/extensibility/what-s-new-in-the-visual-studio-2017-sdk",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/what-s-new-in-the-visual-studio-2017-sdk",
       "redirect_document_id": false
     },
     {
@@ -8060,47 +8060,47 @@
     },
     {
       "source_path": "docs/ide/tutorial-2-create-a-timed-math-quiz.md",
-      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-create-project-add-controls",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-math-quiz-create-project-add-controls",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/step-1-create-a-project-and-add-labels-to-your-form.md",
-      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-create-project-add-controls",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-math-quiz-create-project-add-controls",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/step-2-create-a-random-addition-problem.md",
-      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-add-math-problems",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-math-quiz-add-math-problems",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/step-3-add-a-countdown-timer.md",
-      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-add-timer",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-math-quiz-add-timer",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/step-4-add-the-checktheanswer-parens-method.md",
-      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-add-timer",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-math-quiz-add-timer",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md",
-      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-customize-ui",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-math-quiz-customize-ui",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/step-6-add-a-subtraction-problem.md",
-      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-add-math-problems",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-math-quiz-add-math-problems",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/step-7-add-multiplication-and-division-problems.md",
-      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-add-math-problems",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-math-quiz-add-math-problems",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/step-8-customize-the-quiz.md",
-      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-math-quiz-customize-ui",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-math-quiz-customize-ui",
       "redirect_document_id": false
     },
     {
@@ -8135,12 +8135,12 @@
     },
     {
       "source_path": "docs/ide/additional-information-about-class-designer-errors.md",
-      "redirect_url": "/visualstudio/ide/class-designer/additional-information-about-errors",
+      "redirect_url": "/troubleshoot/developer/visualstudio/ide/troubleshoot-class-designer-errors",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/advanced-search-operators-in-search-expressions.md",
-      "redirect_url": "/visualstudio/help-viewer/logical-operators-search-expressions",
+      "redirect_url": "/visualstudio/help-viewer/find-topics",
       "redirect_document_id": false
     },
     {
@@ -8245,7 +8245,7 @@
     },
     {
       "source_path": "docs/ide/getting-started-with-visual-csharp-and-visual-basic.md",
-      "redirect_url": "/visualstudio/ide/quickstart-visual-basic-console",
+      "redirect_url": "/visualstudio/get-started/visual-basic/tutorial-console",
       "redirect_document_id": false
     },
     {
@@ -8255,7 +8255,7 @@
     },
     {
       "source_path": "docs/ide/git-visual-studio-source-control.md",
-      "redirect_url": "/visualstudio/version-control/git-visual-studio-source-control",
+      "redirect_url": "/visualstudio/version-control/git-with-visual-studio",
       "redirect_document_id": false
     },
     {
@@ -8290,22 +8290,22 @@
     },
     {
       "source_path": "docs/ide/how-to-add-class-diagrams-to-projects-class-designer.md",
-      "redirect_url": "/visualstudio/ide/class-designer/how-to-add-class-diagrams-to-projects",
+      "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/how-to-add-comments-to-class-diagrams-class-designer.md",
-      "redirect_url": "/visualstudio/ide/class-designer/how-to-add-comments-to-class-diagrams",
+      "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/how-to-change-between-member-notation-and-association-notation-class-designer.md",
-      "redirect_url": "/visualstudio/ide/class-designer/how-to-change-between-member-notation-and-association-notation",
+      "redirect_url": "/visualstudio/ide/class-designer/how-to-view-existing-types",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/how-to-copy-class-diagram-elements-to-a-microsoft-office-document-class-designer.md",
-      "redirect_url": "/visualstudio/ide/class-designer/how-to-copy-class-diagram-elements-to-a-microsoft-office-document",
+      "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
       "redirect_document_id": false
     },
     {
@@ -8315,12 +8315,12 @@
     },
     {
       "source_path": "docs/ide/how-to-create-associations-between-types-class-designer.md",
-      "redirect_url": "/visualstudio/ide/class-designer/how-to-create-associations-between-types",
+      "redirect_url": "/visualstudio/ide/class-designer/how-to-create-types",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/how-to-create-inheritance-between-types-class-designer.md",
-      "redirect_url": "/visualstudio/ide/class-designer/how-to-create-inheritance-between-types",
+      "redirect_url": "/visualstudio/ide/class-designer/how-to-create-types",
       "redirect_document_id": false
     },
     {
@@ -8335,7 +8335,7 @@
     },
     {
       "source_path": "docs/ide/how-to-customize-class-diagrams-class-designer.md",
-      "redirect_url": "/visualstudio/ide/class-designer/how-to-customize-class-diagrams",
+      "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
       "redirect_document_id": false
     },
     {
@@ -8350,18 +8350,18 @@
     },
     {
       "source_path": "docs/ide/how-to-export-class-diagrams-as-images-class-designer.md",
-      "redirect_url": "/visualstudio/ide/class-designer/how-to-export-class-diagrams-as-images",
+      "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/how-to-find-topics-in-the-index.md",
-      "redirect_url": "/visualstudio/help-viewer/find-topics-index",
-      "redirect_document_id": true
+      "redirect_url": "/visualstudio/help-viewer/find-topics",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/how-to-find-topics-in-the-table-of-contents.md",
-      "redirect_url": "/visualstudio/help-viewer/find-topics-toc",
-      "redirect_document_id": true
+      "redirect_url": "/visualstudio/help-viewer/find-topics",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/how-to-implement-an-interface-class-designer.md",
@@ -8370,7 +8370,7 @@
     },
     {
       "source_path": "docs/ide/how-to-print-class-diagrams-class-designer.md",
-      "redirect_url": "/visualstudio/ide/class-designer/how-to-print-class-diagrams",
+      "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
       "redirect_document_id": false
     },
     {
@@ -8400,17 +8400,17 @@
     },
     {
       "source_path": "docs/ide/how-to-view-inheritance-between-types-class-designer.md",
-      "redirect_url": "/visualstudio/ide/class-designer/how-to-view-inheritance-between-types",
+      "redirect_url": "/visualstudio/ide/class-designer/how-to-view-existing-types",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/how-to-visualize-a-collection-association-class-designer.md",
-      "redirect_url": "/visualstudio/ide/class-designer/how-to-visualize-a-collection-association",
+      "redirect_url": "/visualstudio/ide/class-designer/how-to-create-types",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/index-search-tips.md",
-      "redirect_url": "/visualstudio/help-viewer/find-topics-index",
+      "redirect_url": "/visualstudio/help-viewer/find-topics",
       "redirect_document_id": false
     },
     {
@@ -8430,7 +8430,7 @@
     },
     {
       "source_path": "docs/ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md",
-      "redirect_url": "/visualstudio/ide/class-designer/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window",
+      "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
       "redirect_document_id": false
     },
     {
@@ -8445,8 +8445,8 @@
     },
     {
       "source_path": "docs/ide/logical-operators-in-search-expressions.md",
-      "redirect_url": "/visualstudio/help-viewer/logical-operators-search-expressions",
-      "redirect_document_id": true
+      "redirect_url": "/visualstudio/help-viewer/find-topics",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/maintaining-security.md",
@@ -8555,7 +8555,7 @@
     },
     {
       "source_path": "docs/ide/reference/accessibility-for-people-with-disabilities.md",
-      "redirect_url": "/visualstudio/ide/reference/accessibility-features-of-visual-studio",
+      "redirect_url": "/visualstudio/ide/how-to-change-fonts-and-colors-in-visual-studio#accessibility-options",
       "redirect_document_id": false
     },
     {
@@ -8580,7 +8580,7 @@
     },
     {
       "source_path": "docs/ide/reference/proxy-authorization-required.md",
-      "redirect_url": "/visualstudio/install/troubleshooting-network-related-errors-in-visual-studio",
+      "redirect_url": "/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors",
       "redirect_document_id": false
     },
     {
@@ -8645,7 +8645,7 @@
     },
     {
       "source_path": "docs/ide/talk-to-us.md",
-      "redirect_url": "/visualstudio/ide/feedback-options",
+      "redirect_url": "https://developercommunity.visualstudio.com/home",
       "redirect_document_id": false
     },
     {
@@ -8720,22 +8720,22 @@
     },
     {
       "source_path": "docs/ide/visual-cpp-classes-in-class-designer.md",
-      "redirect_url": "/visualstudio/ide/class-designer/visual-cpp-classes",
+      "redirect_url": "/visualstudio/ide/class-designer/working-with-visual-cpp-code",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/visual-cpp-enumerations-in-class-designer.md",
-      "redirect_url": "/visualstudio/ide/class-designer/visual-cpp-enumerations",
+      "redirect_url": "/visualstudio/ide/class-designer/working-with-visual-cpp-code",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/visual-cpp-structures-in-class-designer.md",
-      "redirect_url": "/visualstudio/ide/class-designer/visual-cpp-structures",
+      "redirect_url": "/visualstudio/ide/class-designer/working-with-visual-cpp-code",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/visual-cpp-typedefs-in-class-designer.md",
-      "redirect_url": "/visualstudio/ide/class-designer/visual-cpp-typedefs",
+      "redirect_url": "/visualstudio/ide/class-designer/working-with-visual-cpp-code",
       "redirect_document_id": false
     },
     {
@@ -8820,7 +8820,7 @@
     },
     {
       "source_path": "docs/install/install-faqs.md",
-      "redirect_url": "/visualstudio/install/troubleshooting-installation-issues",
+      "redirect_url": "/troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues",
       "redirect_document_id": false
     },
     {
@@ -9205,7 +9205,7 @@
     },
     {
       "source_path": "docs/porting/port-migrate-upgrade-visual-studio-projects-2019.md",
-      "redirect_url": "/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects",
+      "redirect_url": "/visualstudio/releases/2019/port-migrate-and-upgrade-visual-studio-projects",
       "redirect_document_id": false
     },
     {
@@ -9240,7 +9240,7 @@
     },
     {
       "source_path": "docs/profiling/collecting-detailed-timing-data-for-a-stand-alone-application-by-using-the-profiler-command-line.md",
-      "redirect_url": "/visualstudio/profiling/collecting-detailed-timing-data-for-a-stand-alone-application",
+      "redirect_url": "/visualstudio/profiling/profile-apps-from-command-line",
       "redirect_document_id": false
     },
     {
@@ -9415,12 +9415,12 @@
     },
     {
       "source_path": "docs/python/debugging-azure-remote-troubleshooting.md",
-      "redirect_url": "/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio",
+      "redirect_url": "/visualstudio/python",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/python/debugging-azure-remote.md",
-      "redirect_url": "/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio",
+      "redirect_url": "/visualstudio/python",
       "redirect_document_id": false
     },
     {
@@ -9435,12 +9435,12 @@
     },
     {
       "source_path": "docs/python/debugging-remote-python-code-on-azure-troubleshooting.md",
-      "redirect_url": "/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio",
+      "redirect_url": "/visualstudio/python",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/python/debugging-remote-python-code-on-azure.md",
-      "redirect_url": "/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio",
+      "redirect_url": "/visualstudio/python",
       "redirect_document_id": false
     },
     {
@@ -9455,7 +9455,7 @@
     },
     {
       "source_path": "docs/python/getting-started-with-ptvs-building-a-website-in-azure.md",
-      "redirect_url": "/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio",
+      "redirect_url": "/visualstudio/python",
       "redirect_document_id": false
     },
     {
@@ -9515,7 +9515,7 @@
     },
     {
       "source_path": "docs/python/publishing-to-azure.md",
-      "redirect_url": "/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio",
+      "redirect_url": "/visualstudio/python",
       "redirect_document_id": false
     },
     {
@@ -9710,7 +9710,7 @@
     },
     {
       "source_path": "docs/scripting/javascript/javascript-in-vs-2017.md",
-      "redirect_url": "/visualstudio/javascript/javascript-in-vs-2017",
+      "redirect_url": "/visualstudio/javascript/javascript-in-visual-studio",
       "redirect_document_id": false
     },
     {
@@ -9740,7 +9740,7 @@
     },
     {
       "source_path": "docs/test/walkthrough-use-the-virtual-user-activity-chart-to-isolate-issues.md",
-      "redirect_url": "/visualstudio/test/analyze-load-test-virtual-user-activity-in-the-details-view",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/analyze-load-test-virtual-user-activity-in-the-details-view",
       "redirect_document_id": false
     },
     {
@@ -9770,12 +9770,12 @@
     },
     {
       "source_path": "docs/test/analyze-the-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md",
-      "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/code-analysis-for-managed-code-overview",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/test/analyze-visual-basic-and-csharp-code-quality-in-store-apps-using-visual-studio-static-code-analysis.md",
-      "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/code-analysis-for-managed-code-overview",
       "redirect_document_id": false
     },
     {
@@ -9810,7 +9810,7 @@
     },
     {
       "source_path": "docs/test/how-to-specify-the-maximum-size-for-the-log-file.md",
-      "redirect_url": "/visualstudio/test/modify-load-test-logging-settings",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/modify-load-test-logging-settings",
       "redirect_document_id": false
     },
     {
@@ -9855,7 +9855,7 @@
     },
     {
       "source_path": "docs/test/install-configure-test-agents.md",
-      "redirect_url": "/visualstudio/test/lab-management/install-configure-test-agents",
+      "redirect_url": "/visualstudio/test/lab-management/using-a-lab-environment-for-your-application-lifecycle",
       "redirect_document_id": false
     },
     {
@@ -9870,42 +9870,42 @@
     },
     {
       "source_path": "docs/test/sample-coded-ui-test-extension-for-excel.md",
-      "redirect_url": "/visualstudio/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/test/sample-excel-add-in-for-coded-ui-testing.md",
-      "redirect_url": "/visualstudio/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/test/sample-excel-communicator-interface.md",
-      "redirect_url": "/visualstudio/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/test/sample-excel-extension-actionfilter-class.md",
-      "redirect_url": "/visualstudio/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/test/sample-excel-extension-element-classes.md",
-      "redirect_url": "/visualstudio/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/test/sample-excel-extension-extensionpackage-class.md",
-      "redirect_url": "/visualstudio/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/test/sample-excel-extension-propertyprovider-class.md",
-      "redirect_url": "/visualstudio/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/test/sample-excel-extension-technologymanager-class.md",
-      "redirect_url": "/visualstudio/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel",
       "redirect_document_id": false
     },
     {
@@ -9915,12 +9915,12 @@
     },
     {
       "source_path": "docs/test/test-windows-phone-8-1-apps-with-coded-ui-tests.md",
-      "redirect_url": "/visualstudio/test/test-uwp-app-with-coded-ui-test",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/test-uwp-app-with-coded-ui-test",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/test/test-windows-store-8-1-apps-with-coded-ui-tests.md",
-      "redirect_url": "/visualstudio/test/test-uwp-app-with-coded-ui-test",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/test-uwp-app-with-coded-ui-test",
       "redirect_document_id": false
     },
     {
@@ -9930,7 +9930,7 @@
     },
     {
       "source_path": "docs/test/troubleshooting-code-analysis-issues.md",
-      "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/code-analysis-for-managed-code-overview",
       "redirect_document_id": false
     },
     {
@@ -9940,7 +9940,7 @@
     },
     {
       "source_path": "docs/test/troubleshooting-quality-tools.md",
-      "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/code-analysis-for-managed-code-overview",
       "redirect_document_id": false
     },
     {
@@ -9975,7 +9975,7 @@
     },
     {
       "source_path": "docs/vb-ide/code-generation-vb.md",
-      "redirect_url": "/visualstudio/ide/code-generation-in-visual-studio",
+      "redirect_url": "/visualstudio/ide/writing-code-in-the-code-and-text-editor#generate-fix-or-refactor-code",
       "redirect_document_id": false
     },
     {
@@ -10020,7 +10020,7 @@
     },
     {
       "source_path": "docs/vb-ide/code-generation/index.md",
-      "redirect_url": "/visualstudio/ide/code-generation-in-visual-studio",
+      "redirect_url": "/visualstudio/ide/writing-code-in-the-code-and-text-editor#generate-fix-or-refactor-code",
       "redirect_document_id": false
     },
     {
@@ -10140,7 +10140,7 @@
     },
     {
       "source_path": "docs/vs-2015/misc/port-migrate-and-upgrade-visual-studio-projects-in-visual-studio-15-rc.md",
-      "redirect_url": "/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects",
+      "redirect_url": "/visualstudio/releases/2019/port-migrate-and-upgrade-visual-studio-projects",
       "redirect_document_id": false
     },
     {
@@ -10510,7 +10510,7 @@
     },
     {
       "source_path": "scripting-docs/chakra-hosting/index.md",
-      "redirect_url": "/script/chakra-hosting/javascript-runtime-hosting",
+      "redirect_url": "/microsoft-edge/hosting/javascript-runtime-hosting",
       "redirect_document_id": false
     },
     {
@@ -11295,7 +11295,7 @@
     },
     {
       "source_path": "scripting-docs/javascript/advanced/index.md",
-      "redirect_url": "/script/javascript/advanced/advanced-javascript",
+      "redirect_url": "https://developer.mozilla.org/docs/Web/JavaScript",
       "redirect_document_id": false
     },
     {
@@ -11400,7 +11400,7 @@
     },
     {
       "source_path": "scripting-docs/javascript/index.md",
-      "redirect_url": "/scripting/index",
+      "redirect_url": "/visualstudio/docker/tutorials/docker-tutorial",
       "redirect_document_id": false
     },
     {
@@ -11420,7 +11420,7 @@
     },
     {
       "source_path": "scripting-docs/javascript/misc/index.md",
-      "redirect_url": "/script/javascript/misc/expected-left-curly-brace",
+      "redirect_url": "/archive/scripting-docs/javascript/misc/expected-left-curly-brace",
       "redirect_document_id": false
     },
     {
@@ -12495,7 +12495,7 @@
     },
     {
       "source_path": "scripting-docs/javascript/reference/index.md",
-      "redirect_url": "/script/javascript/reference/javascript-reference",
+      "redirect_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference",
       "redirect_document_id": false
     },
     {
@@ -14145,7 +14145,7 @@
     },
     {
       "source_path": "scripting-docs/jswinrt/index.md",
-      "redirect_url": "/script/jswinrt/using-the-windows-runtime-in-javascript",
+      "redirect_url": "/microsoft-edge/windows-runtime/using-the-windows-runtime-in-javascript",
       "redirect_document_id": false
     },
     {
@@ -14175,12 +14175,12 @@
     },
     {
       "source_path": "scripting-docs/winscript/index.md",
-      "redirect_url": "/scripting/winscript/active-script-debugging-overview",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/active-script-debugging-overview",
       "redirect_document_id": false
     },
     {
       "source_path": "scripting-docs/winscript/reference/index.md",
-      "redirect_url": "/scripting/winscript/reference/windows-script-interfaces-reference",
+      "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/windows-script-interfaces-reference",
       "redirect_document_id": false
     },
     {
@@ -14280,8 +14280,8 @@
     },
     {
       "source_path": "docs/containers/vs-azure-tools-docker-troubleshooting-docker-errors.md",
-      "redirect_url": "/visualstudio/containers/troubleshooting-docker-errors",
-      "redirect_document_id": true
+      "redirect_url": "/troubleshoot/developer/visualstudio/ide/troubleshooting-docker-errors",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/azure/vs-azure-tools-resource-groups-ci.md",
@@ -14395,38 +14395,38 @@
     },
     {
       "source_path": "docs/code-quality/ca2102-catch-non-clscompliant-exceptions-in-general-handlers.md",
-      "redirect_url": "/visualstudio/code-quality/ca2102",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2102",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2103-review-imperative-security.md",
-      "redirect_url": "/visualstudio/code-quality/ca2103",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2103",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2104-do-not-declare-read-only-mutable-reference-types.md",
-      "redirect_url": "/visualstudio/code-quality/ca2104",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2104",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2105-array-fields-should-not-be-read-only.md",
-      "redirect_url": "/visualstudio/code-quality/ca2105",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2105",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2106-secure-asserts.md",
-      "redirect_url": "/visualstudio/code-quality/ca2106",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2106",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2107-review-deny-and-permit-only-usage.md",
-      "redirect_url": "/visualstudio/code-quality/ca2107",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2107",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2108-review-declarative-security-on-value-types.md",
-      "redirect_url": "/visualstudio/code-quality/ca2108",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2108",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2109-review-visible-event-handlers.md",
@@ -14435,38 +14435,38 @@
     },
     {
       "source_path": "docs/code-quality/ca2111-pointers-should-not-be-visible.md",
-      "redirect_url": "/visualstudio/code-quality/ca2111",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2111",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2112-secured-types-should-not-expose-fields.md",
-      "redirect_url": "/visualstudio/code-quality/ca2112",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2112",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2114-method-security-should-be-a-superset-of-type.md",
-      "redirect_url": "/visualstudio/code-quality/ca2114",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2114",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2115-call-gc-keepalive-when-using-native-resources.md",
-      "redirect_url": "/visualstudio/code-quality/ca2115",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2115",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2116-aptca-methods-should-only-call-aptca-methods.md",
-      "redirect_url": "/visualstudio/code-quality/ca2116",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2116",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2117-aptca-types-should-only-extend-aptca-base-types.md",
-      "redirect_url": "/visualstudio/code-quality/ca2117",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2117",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2118-review-suppressunmanagedcodesecurityattribute-usage.md",
-      "redirect_url": "/visualstudio/code-quality/ca2118",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2118",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2119-seal-methods-that-satisfy-private-interfaces.md",
@@ -14475,138 +14475,138 @@
     },
     {
       "source_path": "docs/code-quality/ca2120-secure-serialization-constructors.md",
-      "redirect_url": "/visualstudio/code-quality/ca2120",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2120",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2121-static-constructors-should-be-private.md",
-      "redirect_url": "/visualstudio/code-quality/ca2121",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2121",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2122-do-not-indirectly-expose-methods-with-link-demands.md",
-      "redirect_url": "/visualstudio/code-quality/ca2122",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2122",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2123-override-link-demands-should-be-identical-to-base.md",
-      "redirect_url": "/visualstudio/code-quality/ca2123",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2123",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2124-wrap-vulnerable-finally-clauses-in-outer-try.md",
-      "redirect_url": "/visualstudio/code-quality/ca2124",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2124",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2126-type-link-demands-require-inheritance-demands.md",
-      "redirect_url": "/visualstudio/code-quality/ca2126",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2126",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2130-security-critical-constants-should-be-transparent.md",
-      "redirect_url": "/visualstudio/code-quality/ca2130",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2130",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2131-security-critical-types-may-not-participate-in-type-equivalence.md",
-      "redirect_url": "/visualstudio/code-quality/ca2131",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2131",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2132-default-constructors-must-be-at-least-as-critical-as-base-type-default-constructors.md",
-      "redirect_url": "/visualstudio/code-quality/ca2132",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2132",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2133-delegates-must-bind-to-methods-with-consistent-transparency.md",
-      "redirect_url": "/visualstudio/code-quality/ca2133",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2133",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2134-methods-must-keep-consistent-transparency-when-overriding-base-methods.md",
-      "redirect_url": "/visualstudio/code-quality/ca2134",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2134",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2135-level-2-assemblies-should-not-contain-linkdemands.md",
-      "redirect_url": "/visualstudio/code-quality/ca2135",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2135",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2136-members-should-not-have-conflicting-transparency-annotations.md",
-      "redirect_url": "/visualstudio/code-quality/ca2136",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2136",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2137-transparent-methods-must-contain-only-verifiable-il.md",
-      "redirect_url": "/visualstudio/code-quality/ca2137",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2137",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2138-transparent-methods-must-not-call-methods-with-the-suppressunmanagedcodesecurity-attribute.md",
-      "redirect_url": "/visualstudio/code-quality/ca2138",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2138",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2139-transparent-methods-may-not-use-the-handleprocesscorruptingexceptions-attribute.md",
-      "redirect_url": "/visualstudio/code-quality/ca2139",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2139",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2140-transparent-code-must-not-reference-security-critical-items.md",
-      "redirect_url": "/visualstudio/code-quality/ca2140",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2140",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2141-transparent-methods-must-not-satisfy-linkdemands.md",
-      "redirect_url": "/visualstudio/code-quality/ca2141",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2141",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2142-transparent-code-should-not-be-protected-with-linkdemands.md",
-      "redirect_url": "/visualstudio/code-quality/ca2142",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2142",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2143-transparent-methods-should-not-use-security-demands.md",
-      "redirect_url": "/visualstudio/code-quality/ca2143",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2143",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2144-transparent-code-should-not-load-assemblies-from-byte-arrays.md",
-      "redirect_url": "/visualstudio/code-quality/ca2144",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2144",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2145-transparent-methods-should-not-be-decorated-with-the-suppressunmanagedcodesecurityattribute.md",
-      "redirect_url": "/visualstudio/code-quality/ca2145",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2145",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2146-types-must-be-at-least-as-critical-as-their-base-types-and-interfaces.md",
-      "redirect_url": "/visualstudio/code-quality/ca2146",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2146",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2147-transparent-methods-may-not-use-security-asserts.md",
-      "redirect_url": "/visualstudio/code-quality/ca2147",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2147",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2149-transparent-methods-must-not-call-into-native-code.md",
-      "redirect_url": "/visualstudio/code-quality/ca2149",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2149",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2151-fields-with-critical-types-should-be-security-critical.md",
-      "redirect_url": "/visualstudio/code-quality/ca2151",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2151",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca5122-p-invoke-declarations-should-not-be-safe-critical.md",
-      "redirect_url": "/visualstudio/code-quality/ca5122",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca5122",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2153-avoid-handling-corrupted-state-exceptions.md",
@@ -14640,8 +14640,8 @@
     },
     {
       "source_path": "docs/code-quality/ca2001-avoid-calling-problematic-methods.md",
-      "redirect_url": "/visualstudio/code-quality/ca2001",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2001",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2002-do-not-lock-on-objects-with-weak-identity.md",
@@ -14650,18 +14650,18 @@
     },
     {
       "source_path": "docs/code-quality/ca2003-do-not-treat-fibers-as-threads.md",
-      "redirect_url": "/visualstudio/code-quality/ca2003",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2003",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2004-remove-calls-to-gc-keepalive.md",
-      "redirect_url": "/visualstudio/code-quality/ca2004",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2004",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2006-use-safehandle-to-encapsulate-native-resources.md",
-      "redirect_url": "/visualstudio/code-quality/ca2006",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2006",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2007-do-not-directly-await-task.md",
@@ -14670,23 +14670,23 @@
     },
     {
       "source_path": "docs/code-quality/ca1900-value-type-fields-should-be-portable.md",
-      "redirect_url": "/visualstudio/code-quality/ca1900",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1900",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1901-p-invoke-declarations-should-be-portable.md",
-      "redirect_url": "/visualstudio/code-quality/ca1901",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1901",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1903-use-only-api-from-targeted-framework.md",
-      "redirect_url": "/visualstudio/code-quality/ca1903",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1903",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1800-do-not-cast-unnecessarily.md",
-      "redirect_url": "/visualstudio/code-quality/ca1800",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1800",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1801-review-unused-parameters.md",
@@ -14700,8 +14700,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1804-remove-unused-locals.md",
-      "redirect_url": "/visualstudio/code-quality/ca1804",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1804",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1806-do-not-ignore-method-results.md",
@@ -14710,8 +14710,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1809-avoid-excessive-locals.md",
-      "redirect_url": "/visualstudio/code-quality/ca1809",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1809",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1810-initialize-reference-type-static-fields-inline.md",
@@ -14720,8 +14720,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1811-avoid-uncalled-private-code.md",
-      "redirect_url": "/visualstudio/code-quality/ca1811",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1811",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1812-avoid-uninstantiated-internal-classes.md",
@@ -14785,18 +14785,18 @@
     },
     {
       "source_path": "docs/code-quality/ca2202-do-not-dispose-objects-multiple-times.md",
-      "redirect_url": "/visualstudio/code-quality/ca2202",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2202",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2204-literals-should-be-spelled-correctly.md",
-      "redirect_url": "/visualstudio/code-quality/ca2204",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2204",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2205-use-managed-equivalents-of-win32-api.md",
-      "redirect_url": "/visualstudio/code-quality/ca2205",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2205",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2207-initialize-value-type-static-fields-inline.md",
@@ -14810,8 +14810,8 @@
     },
     {
       "source_path": "docs/code-quality/ca2210-assemblies-should-have-valid-strong-names.md",
-      "redirect_url": "/visualstudio/code-quality/ca2210",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2210",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2211-non-constant-fields-should-not-be-visible.md",
@@ -14820,8 +14820,8 @@
     },
     {
       "source_path": "docs/code-quality/ca2212-do-not-mark-serviced-components-with-webmethod.md",
-      "redirect_url": "/visualstudio/code-quality/ca2212",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2212",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2213-disposable-fields-should-be-disposed.md",
@@ -14850,8 +14850,8 @@
     },
     {
       "source_path": "docs/code-quality/ca2218-override-gethashcode-on-overriding-equals.md",
-      "redirect_url": "/visualstudio/code-quality/ca2218",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2218",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2219-do-not-raise-exceptions-in-exception-clauses.md",
@@ -14860,28 +14860,28 @@
     },
     {
       "source_path": "docs/code-quality/ca2220-finalizers-should-call-base-class-finalizer.md",
-      "redirect_url": "/visualstudio/code-quality/ca2220",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2220",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2221-finalizers-should-be-protected.md",
-      "redirect_url": "/visualstudio/code-quality/ca2221",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2221",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2222-do-not-decrease-inherited-member-visibility.md",
-      "redirect_url": "/visualstudio/code-quality/ca2222",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2222",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2223-members-should-differ-by-more-than-return-type.md",
-      "redirect_url": "/visualstudio/code-quality/ca2223",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2223",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2224-override-equals-on-overloading-operator-equals.md",
-      "redirect_url": "/visualstudio/code-quality/ca2224",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2224",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2225-operator-overloads-have-named-alternates.md",
@@ -14900,8 +14900,8 @@
     },
     {
       "source_path": "docs/code-quality/ca2228-do-not-ship-unreleased-resource-formats.md",
-      "redirect_url": "/visualstudio/code-quality/ca2228",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2228",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2229-implement-serialization-constructors.md",
@@ -14910,8 +14910,8 @@
     },
     {
       "source_path": "docs/code-quality/ca2230-use-params-for-variable-arguments.md",
-      "redirect_url": "/visualstudio/code-quality/ca2230",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2230",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2231-overload-operator-equals-on-overriding-valuetype-equals.md",
@@ -14920,13 +14920,13 @@
     },
     {
       "source_path": "docs/code-quality/ca2232-mark-windows-forms-entry-points-with-stathread.md",
-      "redirect_url": "/visualstudio/code-quality/ca2232",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2232",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2233-operations-should-not-overflow.md",
-      "redirect_url": "/visualstudio/code-quality/ca2233",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2233",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2234-pass-system-uri-objects-instead-of-strings.md",
@@ -14940,8 +14940,8 @@
     },
     {
       "source_path": "docs/code-quality/ca2236-call-base-class-methods-on-iserializable-types.md",
-      "redirect_url": "/visualstudio/code-quality/ca2236",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2236",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2237-mark-iserializable-types-with-serializableattribute.md",
@@ -14950,18 +14950,18 @@
     },
     {
       "source_path": "docs/code-quality/ca2238-implement-serialization-methods-correctly.md",
-      "redirect_url": "/visualstudio/code-quality/ca2238",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2238",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2239-provide-deserialization-methods-for-optional-fields.md",
-      "redirect_url": "/visualstudio/code-quality/ca2239",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2239",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2240-implement-iserializable-correctly.md",
-      "redirect_url": "/visualstudio/code-quality/ca2240",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca2240",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2241-provide-correct-arguments-to-formatting-methods.md",
@@ -15005,8 +15005,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1009-declare-event-handlers-correctly.md",
-      "redirect_url": "/visualstudio/code-quality/ca1009",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1009",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1016-mark-assemblies-with-assemblyversionattribute.md",
@@ -15020,8 +15020,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1049-types-that-own-native-resources-should-be-disposable.md",
-      "redirect_url": "/visualstudio/code-quality/ca1049",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1049",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1060-move-p-invokes-to-nativemethods-class.md",
@@ -15045,13 +15045,13 @@
     },
     {
       "source_path": "docs/code-quality/ca1301-avoid-duplicate-accelerators.md",
-      "redirect_url": "/visualstudio/code-quality/ca1301",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1301",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1400-p-invoke-entry-points-should-exist.md",
-      "redirect_url": "/visualstudio/code-quality/ca1400",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1400",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1401-p-invokes-should-not-be-visible.md",
@@ -15060,28 +15060,28 @@
     },
     {
       "source_path": "docs/code-quality/ca1403-auto-layout-types-should-not-be-com-visible.md",
-      "redirect_url": "/visualstudio/code-quality/ca1403",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1403",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1404-call-getlasterror-immediately-after-p-invoke.md",
-      "redirect_url": "/visualstudio/code-quality/ca1404",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1404",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1405-com-visible-type-base-types-should-be-com-visible.md",
-      "redirect_url": "/visualstudio/code-quality/ca1405",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1405",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1410-com-registration-methods-should-be-matched.md",
-      "redirect_url": "/visualstudio/code-quality/ca1410",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1410",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1415-declare-p-invokes-correctly.md",
-      "redirect_url": "/visualstudio/code-quality/ca1415",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1415",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1000-do-not-declare-static-members-on-generic-types.md",
@@ -15100,8 +15100,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1004-generic-methods-should-provide-type-parameter.md",
-      "redirect_url": "/visualstudio/code-quality/ca1004",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1004",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1005-avoid-excessive-parameters-on-generic-types.md",
@@ -15110,13 +15110,13 @@
     },
     {
       "source_path": "docs/code-quality/ca1006-do-not-nest-generic-types-in-member-signatures.md",
-      "redirect_url": "/visualstudio/code-quality/ca1006",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1006",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1007-use-generics-where-appropriate.md",
-      "redirect_url": "/visualstudio/code-quality/ca1007",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1007",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1008-enums-should-have-zero-value.md",
@@ -15130,8 +15130,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1011-consider-passing-base-types-as-parameters.md",
-      "redirect_url": "/visualstudio/code-quality/ca1011",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1011",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1012-abstract-types-should-not-have-constructors.md",
@@ -15140,8 +15140,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1013-overload-operator-equals-on-overloading-add-and-subtract.md",
-      "redirect_url": "/visualstudio/code-quality/ca1013",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1013",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1014-mark-assemblies-with-clscompliantattribute.md",
@@ -15165,8 +15165,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1023-indexers-should-not-be-multidimensional.md",
-      "redirect_url": "/visualstudio/code-quality/ca1023",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1023",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1024-use-properties-where-appropriate.md",
@@ -15175,13 +15175,13 @@
     },
     {
       "source_path": "docs/code-quality/ca1025-replace-repetitive-arguments-with-params-array.md",
-      "redirect_url": "/visualstudio/code-quality/ca1025",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1025",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1026-default-parameters-should-not-be-used.md",
-      "redirect_url": "/visualstudio/code-quality/ca1026",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1026",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1027-mark-enums-with-flagsattribute.md",
@@ -15215,8 +15215,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1035-icollection-implementations-have-strongly-typed-members.md",
-      "redirect_url": "/visualstudio/code-quality/ca1035",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1035",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1036-override-methods-on-comparable-types.md",
@@ -15225,13 +15225,13 @@
     },
     {
       "source_path": "docs/code-quality/ca1038-enumerators-should-be-strongly-typed.md",
-      "redirect_url": "/visualstudio/code-quality/ca1038",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1038",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1039-lists-are-strongly-typed.md",
-      "redirect_url": "/visualstudio/code-quality/ca1039",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1039",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1041-provide-obsoleteattribute-message.md",
@@ -15260,8 +15260,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1048-do-not-declare-virtual-members-in-sealed-types.md",
-      "redirect_url": "/visualstudio/code-quality/ca1048",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1048",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1050-declare-types-in-namespaces.md",
@@ -15300,8 +15300,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1057-string-uri-overloads-call-system-uri-overloads.md",
-      "redirect_url": "/visualstudio/code-quality/ca1057",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1057",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1058-types-should-not-extend-certain-base-types.md",
@@ -15310,8 +15310,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1059-members-should-not-expose-certain-concrete-types.md",
-      "redirect_url": "/visualstudio/code-quality/ca1059",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1059",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1064-exceptions-should-be-public.md",
@@ -15320,8 +15320,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1500-variable-names-should-not-match-field-names.md",
-      "redirect_url": "/visualstudio/code-quality/ca1500",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1500",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1502-avoid-excessive-complexity.md",
@@ -15340,8 +15340,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1020-avoid-namespaces-with-few-types.md",
-      "redirect_url": "/visualstudio/code-quality/ca1020",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1020",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1021-avoid-out-parameters.md",
@@ -15365,13 +15365,13 @@
     },
     {
       "source_path": "docs/code-quality/ca1300-specify-messageboxoptions.md",
-      "redirect_url": "/visualstudio/code-quality/ca1300",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1300",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1302-do-not-hardcode-locale-specific-strings.md",
-      "redirect_url": "/visualstudio/code-quality/ca1302",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1302",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1303-do-not-pass-literals-as-localized-parameters.md",
@@ -15390,8 +15390,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1306-set-locale-for-data-types.md",
-      "redirect_url": "/visualstudio/code-quality/ca1306",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1306",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1307-specify-stringcomparison.md",
@@ -15410,48 +15410,48 @@
     },
     {
       "source_path": "docs/code-quality/ca1402-avoid-overloads-in-com-visible-interfaces.md",
-      "redirect_url": "/visualstudio/code-quality/ca1402",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1402",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1406-avoid-int64-arguments-for-visual-basic-6-clients.md",
-      "redirect_url": "/visualstudio/code-quality/ca1406",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1406",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1407-avoid-static-members-in-com-visible-types.md",
-      "redirect_url": "/visualstudio/code-quality/ca1407",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1407",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1408-do-not-use-autodual-classinterfacetype.md",
-      "redirect_url": "/visualstudio/code-quality/ca1408",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1408",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1409-com-visible-types-should-be-creatable.md",
-      "redirect_url": "/visualstudio/code-quality/ca1409",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1409",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1411-com-registration-methods-should-not-be-visible.md",
-      "redirect_url": "/visualstudio/code-quality/ca1411",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1411",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1412-mark-comsource-interfaces-as-idispatch.md",
-      "redirect_url": "/visualstudio/code-quality/ca1412",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1412",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1413-avoid-non-public-fields-in-com-visible-value-types.md",
-      "redirect_url": "/visualstudio/code-quality/ca1413",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1413",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1414-mark-boolean-p-invoke-arguments-with-marshalas.md",
-      "redirect_url": "/visualstudio/code-quality/ca1414",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1414",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1501-avoid-excessive-inheritance.md",
@@ -15460,8 +15460,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1504-review-misleading-field-names.md",
-      "redirect_url": "/visualstudio/code-quality/ca1504",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1504",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1505-avoid-unmaintainable-code.md",
@@ -15475,13 +15475,13 @@
     },
     {
       "source_path": "docs/code-quality/ca1600-do-not-use-idle-process-priority.md",
-      "redirect_url": "/visualstudio/code-quality/ca1600",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1600",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1601-do-not-use-timers-that-prevent-power-state-changes.md",
-      "redirect_url": "/visualstudio/code-quality/ca1601",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1601",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1700-do-not-name-enum-values-reserved.md",
@@ -15490,23 +15490,23 @@
     },
     {
       "source_path": "docs/code-quality/ca1701-resource-string-compound-words-should-be-cased-correctly.md",
-      "redirect_url": "/visualstudio/code-quality/ca1701",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1701",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1702-compound-words-should-be-cased-correctly.md",
-      "redirect_url": "/visualstudio/code-quality/ca1702",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1702",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1703-resource-strings-should-be-spelled-correctly.md",
-      "redirect_url": "/visualstudio/code-quality/ca1703",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1703",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1704-identifiers-should-be-spelled-correctly.md",
-      "redirect_url": "/visualstudio/code-quality/ca1704",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1704",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1707-identifiers-should-not-contain-underscores.md",
@@ -15515,8 +15515,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1709-identifiers-should-be-cased-correctly.md",
-      "redirect_url": "/visualstudio/code-quality/ca1709",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1709",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1710-identifiers-should-have-correct-suffix.md",
@@ -15555,8 +15555,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1719-parameter-names-should-not-match-member-names.md",
-      "redirect_url": "/visualstudio/code-quality/ca1719",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1719",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1720-identifiers-should-not-contain-type-names.md",
@@ -15570,8 +15570,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1722-identifiers-should-not-have-incorrect-prefix.md",
-      "redirect_url": "/visualstudio/code-quality/ca1722",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1722",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1724-type-names-should-not-match-namespaces.md",
@@ -15585,8 +15585,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1726-use-preferred-terms.md",
-      "redirect_url": "/visualstudio/code-quality/ca1726",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1726",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca2300-do-not-use-insecure-deserializer-binaryformatter.md",
@@ -20349,7 +20349,7 @@
     },
     {
       "source_path": "docs/ide/step-1-create-a-project-and-add-a-table-to-your-form.md",
-      "redirect_url": "/visualstudio/ide/tutorial-windows-forms-create-match-game",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-create-match-game",
       "redirect_document_id": false
     },
     {
