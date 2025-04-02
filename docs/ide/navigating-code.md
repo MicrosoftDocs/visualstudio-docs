@@ -1,6 +1,6 @@
 ---
-title: Review options for browsing code in the editor
-description: Explore the different options in Visual Studio for browsing your code with the editor, including the Navigation bar, and Backward / Forward commands.
+title: Options for Browsing Code in the Editor
+description: Explore the options for using the Visual Studio editor for browsing your code, including the Navigation bar and Navigate Backward and Forward commands.
 ms.date: 04/04/2025
 ms.topic: conceptual
 helpviewer_keywords:
@@ -17,20 +17,22 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: j-martens
+
+#customer intent: As a developer, I want to learn about browsing code in Visual Studio so that I can write code more efficiently.
 ---
 # Navigate code
 
-Visual Studio provides numerous ways to navigate code in the editor. This topic summarizes the different ways you can navigate your code, and provides links to topics that go into more detail.
+Visual Studio provides numerous ways to navigate code in the editor. This article summarizes the different ways you can navigate your code. It also provides links to topics that go into more detail.
 
 ## Navigate Backward and Navigate Forward commands
 
-You can use the **Navigate Backward** (**Ctrl**+**-**) and **Navigate Forward** (**Ctrl**+**Shift**+**-**) buttons on the toolbar to move the insertion point to previous locations, or to return to a more recent location from a previous location. These buttons retain the last 20 locations of the insertion point. These commands are also available on the **View** menu, under **Navigate Backward** and **Navigate Forward**.
+You can use the **Navigate Backward** (**Ctrl**+**-**) and **Navigate Forward** (**Ctrl**+**Shift**+**-**) buttons on the toolbar to move the insertion point to previous locations or to return to a more recent location from a previous location. These commands retain the last 20 locations of the insertion point.
 
-![Forward and back navigation buttons](../ide/media/vs2017_nav_buttons.png)
+:::image type="content" source="../ide/media/vs2017_nav_buttons.png" alt-text="Screenshot that shows the forward and back navigation buttons." lightbox="../ide/media/vs2017_nav_buttons.png":::
 
 ## Navigation bar
 
-You can use the **navigation bar** (the drop-down boxes at the top of the code window) to navigate to code in a codebase. You can choose a type or member to go directly to it. The navigation bar appears when you edit code in a Visual Basic, C#, or C++ code base. In a partial class, members defined outside the current code file may be disabled (they appear in gray).
+You can use the **navigation bar** (the drop-down boxes at the top of the code window) to navigate to code in a codebase. You can select a type or member to go directly to it. The navigation bar appears when you edit code in a Visual Basic, C#, or C++ code base. In a partial class, members defined outside the current code file may be disabled (they appear in gray).
 
 ![Code navigation bar](../ide/media/vside_navigation_bar.png)
 
