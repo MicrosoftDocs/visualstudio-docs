@@ -18,7 +18,7 @@ ms.subservice: msbuild
 
 In MSBuild, an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in Visual Studio have several items in common. These items are defined in the file *Microsoft.Build.CommonTypes.xsd*.
 
-This article lists all the common project items defined in MSBuild itself. Items and properties provided by the .NET SDK are documented at [MSBuild properties for Microsoft.Net.Sdk](/dotnet/core/project-sdk/msbuild-props).
+This article lists all the common project items defined in MSBuild itself. Items and properties provided by the .NET SDK are documented at [MSBuild reference for Microsoft.Net.Sdk](/dotnet/core/project-sdk/msbuild-props).
 
 ## `Reference`
 
