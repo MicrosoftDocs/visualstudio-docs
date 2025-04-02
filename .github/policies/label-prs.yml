@@ -22,3 +22,5 @@ configuration:
       then:
       - addLabel:
           label: ':octocat: auto-merge'
+      - removeLabel:
+          label: 'do-not-merge'
