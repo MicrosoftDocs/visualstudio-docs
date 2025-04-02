@@ -1,7 +1,7 @@
 name: GitOps.PullRequestIssueManagement - Scheduled PRs
 description: Creates pull requests on a schedule
 resource: repository
-disabled: true
+disabled: false
 where:
 configuration:
   resourceManagementConfiguration:
