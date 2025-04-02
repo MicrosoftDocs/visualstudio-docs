@@ -1,7 +1,7 @@
 ---
 title: Finding references in your code
 description: Explore the Find All References command in Visual Studio to find references to particular code elements in your code, including by reference type.
-ms.date: 04/10/2024
+ms.date: 4/1/2025
 ms.topic: conceptual
 helpviewer_keywords:
 - code editor, find all references
@@ -23,11 +23,17 @@ The results appear in a tool window named **\<element> references**, where *elem
 - Remove any filters on the returned results by choosing the **Clear All Filters** button.
 - Change how returned items are grouped by choosing a setting in the **Group by:** drop-down list box.
 - Keep the current search results window by choosing the **Keep Results** button. When you choose this button, the current search results stay in this window, and new search results appear in a new tool window.
+- **List View** toggles between the treeview and a plaintext list. Some functionality is disabled in list view mode.
 - Search for strings within the search results by entering text in the **Search Find All References** text box.
 
 You can also hover the mouse over any search result to see the reference in the context of the surrounding code.
 
+:::moniker range="vs-2019"
 ![Screenshot of the Find All References tool window.](../ide/media/vside_findallreferences.png)
+:::moniker-end
+:::moniker range="vs-2022"
+![Screenshot of the Find All References tool window.](media/vs-2022/find-all-references.png)
+:::moniker-end
 
 ## Navigate to references
 
@@ -43,12 +49,18 @@ By default, references are grouped by project, then by definition. However, you 
 
 **Definition** and **Project** are the two default groupings used, but you can add others by choosing the **Grouping** command on the selected item's right-click or context menu. Adding more groupings can be helpful if your solution has numerous files and paths.
 
+Grouping is not available in **List View** mode.
+
 ## Filter by reference type in .NET
 
-In C# or Visual Basic, the **Find References** window has a **Kind** column where it lists what type of reference it found. You can use this column to filter by reference type. Select the filter icon that appears when you hover over the column header. You can filter references by Read, Write, Reference, Name, Namespace, and Type.
+In C# or Visual Basic, the **Find References** window has a **Kind** column where it lists what type of reference it found. You can use this column to filter by reference type. Select the filter icon that appears when you hover over the column header. You can filter references by Read, Write, Reference, Name, Namespace, and Type, but the filter only shows the kinds that are relevant in the current set of results.
 
+:::moniker range="vs-2019"
 ![Screenshot of the Find References window that highlights the Kind column.](../ide/media/vside_findallreferencesKind.png)
-
+:::moniker-end
+:::moniker range=">=vs-2022"
+![Screenshot of the Find References window that highlights the Kind column.](media/vs-2022/find-all-references-kind-filter.png)
+:::moniker-end
 After you apply a filter or a filter set, you can easily remove it by using the **Clear All Filters** button.
 
 ## Customize the experience
