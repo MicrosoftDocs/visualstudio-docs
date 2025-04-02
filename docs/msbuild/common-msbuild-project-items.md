@@ -185,7 +185,7 @@ Represents assemblies whose namespaces should be imported by the Visual Basic co
 
 ## Using
 
-Represents namespaces that should be imported by the C# compiler (version 10 or later) as part of [global using directives](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/using-directive#the-global-modifier).
+Represents namespaces to be imported by the C# compiler (version 10 or later) as part of [global using directives](/dotnet/csharp/language-reference/keywords/using-directive#the-global-modifier).
 
 ```xml
 <ItemGroup>
