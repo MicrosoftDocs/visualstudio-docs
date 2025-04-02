@@ -162,6 +162,9 @@ In this example, setting `<IncludeTestAssembly>` to `False` will exclude test as
 </RunSettings>
 ```
 
+> [!NOTE]
+> The default value of `IncludeTestAssembly` in [VSTest](/visualstudio/test/vstest-console-options) is `true`, while it is `false` in [Microsoft.Testing.Platform](/dotnet/core/testing/microsoft-testing-platform-extensions-code-coverage). This means that test projects are included by default. For more information, see [Code Coverage configuration](https://github.com/microsoft/codecoverage/blob/main/docs/configuration.md).
+
 ### Regular expressions
 
 Include and exclude nodes use regular expressions, which aren't the same as wildcards. All matches are case-insensitive. Some examples are:
