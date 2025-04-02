@@ -132,6 +132,8 @@ ms.subservice: msbuild
 
 The following table lists frequently used properties that are defined in the Visual Studio project files or included in *.targets* files that MSBuild provides.
 
+Properties provided by the .NET SDK are documented at [MSBuild reference for Microsoft.Net.Sdk](/dotnet/core/project-sdk/msbuild-props).
+
 Project files in Visual Studio (*.csproj*, *.vbproj*, *.vcxproj*, and others) contain MSBuild XML code that runs when you build a project by using the IDE. Projects typically import one or more *.targets* files to define their build process. For more information, see [MSBuild .targets files](../msbuild/msbuild-dot-targets-files.md).
 
 When setting property values, keep in mind that common properties may be set, reset, or used in a number of imported files. Therefore, it matters where you set a property--in your project file, in *Directory.Build.props*, or in another imported file. If you're setting a property somewhere and not getting the expected result, consider where and how the property is changed or used in all the files imported by your project, including imports that are added implicitly when you're using the `Sdk` attribute. See [Choose between adding properties to a .props or .targets file](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file). Preprocessing can help with this (see the `/preprocess` or `/pp` command-line option at [MSBuild command-line reference](./msbuild-command-line-reference.md)).
