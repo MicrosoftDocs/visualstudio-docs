@@ -58,9 +58,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Quickstart: Debug with C++ using the Visual Studio debugger](../debugger/quickstart-debug-with-cplusplus.md) - C++ debugging quickstart, potentially confusing section about creating a new project
 - [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md) - Clarify list of unsupported Hot Reload edits
 - [Write and debug running code with Hot Reload in Visual Studio (C#, Visual Basic, C++)](../debugger/hot-reload.md) - Add zone pivots to article on Hot Reload
-- [C++ Dynamic Debugging (Preview)](../debugger/cpp-dynamic-debugging.md)
-  - fix typo
-- [Debug in mixed mode (C#, C++, Visual Basic)](../debugger/how-to-debug-in-mixed-mode.md) - Clarify mixed mode debugging settings for .NET and .NET Framework, ad…
+- [Debug in mixed mode (C#, C++, Visual Basic)](../debugger/how-to-debug-in-mixed-mode.md) - Clarify mixed mode debugging settings for .NET and .NET Framework
 - [Debug your app with GitHub Copilot in Visual Studio](../debugger/debug-with-copilot.md) - Add information on support for data tips in LINQ expressions
 - [View and change variable values with data tips in the code editor](../debugger/view-data-values-in-data-tips-in-the-code-editor.md) - Add information on support for data tips in LINQ expressions
 - [Inspect variables in the Visual Studio debugger](../debugger/autos-and-locals-windows.md) - Refactor article on Autos and Locals window, add general information on variable inspection
