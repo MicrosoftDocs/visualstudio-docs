@@ -166,7 +166,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Measure performance in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.](../profiling/index.yml) - Update Profiling landing page, metadata updates
+- [Measure performance in Visual Studio](../profiling/index.yml) - Update Profiling landing page, metadata updates
 
 ### Test
 
