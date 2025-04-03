@@ -48,9 +48,9 @@ You can use the navigation drop-down boxes in the following ways:
 
 - To shift focus from box to box on the navigation bar, select the **Tab** key.
 
-- To select the navigation bar item that has focus and return to the code window, press the Enter key.
+- To select the navigation bar item that has focus and return to the code window, select the **Enter** key.
 
-- To return focus from the navigation bar to the code  without selecting anything, press the Esc key.
+- To return focus from the navigation bar to the code  without selecting anything, select the **Esc** key.
 
 To hide the navigation bar, change the **Navigation bar** option in the **Text Editor All Languages** settings (**Tools** > **Options** > **Text Editor** > **All Languages**). Alternatively, you can change the settings for individual languages.
 
@@ -58,7 +58,7 @@ To hide the navigation bar, change the **Navigation bar** option in the **Text E
 
 You can use **Find all references** to locate references to the selected element in the solution. You can use this feature to check possible side-effects of a large refactoring, or to verify "dead" code. Select the **F8** key to jump among results. For more information, see [Find references in your code](finding-references.md).
 
-Input | Function
+Input method | Steps
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and then select **Shift**+**F12**
 **Mouse** | Right-click the element and then select **Find All References**
@@ -120,7 +120,7 @@ For more information about these commands, see [Find code using Go To commands](
 
 Go To Definition takes you to the definition of the selected element. For more information, see [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md).
 
-Input | Function
+Input method| Steps
 ------------ | ---
 **Keyboard** | Place the cursor somewhere in the type name, and then select **F12**
 **Mouse** | Right-click the type name and then select **Go To Definition**,  or select **Ctrl** and then select the type name
@@ -129,7 +129,7 @@ Input | Function
 
 Peek Definition displays the definition of the selected element in a window without navigating away from your current location in the code editor. For more information, see [How to: View and edit code by using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md) and [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md).
 
-Input | Function
+Input method| Steps
 ------------ | ---
 **Keyboard** | Place the cursor somewhere in the type name, and then select **Alt**+**F12**
 **Mouse** | Right-click the type name and then select **Peek Definition**, or select **Ctrl** and then select the type name (if you have the **Open definition in peek view** option selected)
@@ -138,7 +138,7 @@ Input | Function
 
 You can use Go To Implementation to navigate from a base class or type to its implementations. If there are multiple implementations, you'll see them listed in the **Find Symbol Results** window.
 
-Input | Function
+Input method| Steps
 ------------ | ---
 **Keyboard** | Place the cursor somewhere in the type name, and then select **Ctrl**+**F12**
 **Mouse** | Right-click the type name and then select **Go To Implementation**
@@ -147,7 +147,7 @@ Input | Function
 
 You can use Go To Base to navigate up the inheritance chain of the selected element. If there are multiple results, you'll see them listed in the **Go To Base** window.
 
-Input | Function
+Input method| Steps
 ------------ | ---
 **Keyboard** | Place the cursor somewhere ins the type name, and then select **Alt**+**Home**
 **Mouse** | Right-click the type name and then select **Go To Base**
@@ -156,7 +156,7 @@ Input | Function
 
 You can view calls to and from a method in the [Call Hierarchy window](../ide/reference/call-hierarchy.md):
 
-Input | Function
+Input method| Steps
 ------------ | ---
 **Keyboard** | Place the cursor somewhere in the type name, and then press **Ctrl**+**K**, **Ctrl**+**T**
 **Mouse** | Right-click the member name and then select **View Call Hierarchy**
@@ -179,7 +179,7 @@ You can use the enhanced scroll bar in a code window to get a bird's-eye view of
 
 ## CodeLens information
 
-You can get info about specific code, like changes and who made the changes, references, bugs, work items, code reviews, and unit test status by using CodeLens in the code editor. CodeLens works like a heads-up display when you use Visual Studio Enterprise with a version control provider. See [Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md).
+You can get info about specific code, like changes and who made the changes, references, bugs, work items, code reviews, and unit test status by using CodeLens in the code editor. CodeLens works like a heads-up display when you use Visual Studio Enterprise with a version control provider. For more information, see [Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md).
 
 ## Related content
 
