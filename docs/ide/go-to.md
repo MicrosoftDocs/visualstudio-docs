@@ -1,6 +1,6 @@
 ---
-title: Go to file, go to symbol, go to line
-description: Explore Go To commands in Visual Studio and discover how you can use them to to perform focused and filtered searches of your code.
+title: Go to File, Go to Symbol, Go to Line
+description: Explore how you can use Go To commands in Visual Studio to perform focused and filtered searches of your code.
 ms.date: 04/03/2025
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,58 +12,61 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
----
-# Find code using Go To commands
 
-Visual Studio's **Go To** commands perform a focused search of your code to help you quickly find specified items. You can go to a specific line, type, symbol, file, and member from a simple, unified interface.
+#customer intent: As a developer, I want to explore Go To commands in Visual Studio so that I can quickly find specific items. 
+---
+
+# Find code by using Go To commands
+
+The Visual Studio **Go To** commands perform a focused search of your code to help you quickly find specific items. You can go to a specific line, type, symbol, file, or member by using a simple, unified interface.
 
 :::moniker range=">=vs-2022"
 
-In Visual Studio 2022, a new search experience replaces much of the functionality described here. For example, **Go to type** or **Ctrl**+**T** goes (by default) to the new search experience in Visual Studio 2022, rather than opening the **Go to type** window. The new search experience is documented at [Visual Studio search](visual-studio-search.md).
+In Visual Studio 2022, a new search experience replaces much of the functionality described here. For example, **Go to type** (**Ctrl**+**T**) goes, by default, to the new search experience in Visual Studio 2022 rather than opening the **Go to type** window. For information about the new search experience, see [Visual Studio search](visual-studio-search.md).
 
 :::moniker-end
 
-## How to use it
+## How to use Go To
 
-Input | Function
+Input method | Steps
 ------------ | ---
-**Keyboard** | Press **Ctrl**+**T** or **Ctrl**+**,**
+**Keyboard** | Select **Ctrl**+**T** or **Ctrl**+**,**
 **Mouse** | Select **Edit** > **Go To** > **Go To All**
 
-A small window is displayed at the top right of your code editor.
+A small window is displayed in the top right corner of the code editor:
 
-![Go To All window](media/go-to-all.png)
+:::image type="content" source="media/go-to-all.png" alt-text="Screenshot that shows the Go to All window.":::
 
-As you type in the text box, the results appear in a drop-down list below the text box. To go to an element, choose it in the list.
+As you type in the text box, the results appear in a drop-down list below the text box. To go to an element, select it.
 
-![Navigate To window](../ide/media/vside_navigatetowindow.png)
+:::image type="content" source="../ide/media/vside_navigatetowindow.png" alt-text="Screenshot that shows the Navigate To window." lightbox="../ide/media/vside_navigatetowindow.png":::
 
-You can also enter a question mark (**?**) to get additional help.
+You can also enter a question mark (**?**) to get additional help:
 
-![Go To All Help](media/go-to-all-help.png)
+:::image type="content" source="media/go-to-all-help.png" alt-text="Screenshot that shows the Go to All Help window.":::
 
 ## Filtered searches
 
-By default, the specified item is searched for in all solution items. However, you can limit your code search to specific element types by prefacing the search terms with certain characters. You can also quickly change the search filter by choosing buttons on the **Go To** dialog box toolbar. Buttons that change the type filters are on the left side, and buttons that change the scope of the search are on the right side.
+By default, the specified item is searched for among all solution items. However, you can limit your code search to specific element types by prefacing the search terms with certain characters. You can also quickly change the search filter by selecting buttons on the **Go To** dialog toolbar. Buttons that change the type filters are on the left side, and buttons that change the scope of the search are on the right side:
 
-![Go to members](../ide/media/vside_navigation_toolbar.png)
+:::image type="content" source="../ide/media/vside_navigation_toolbar.png" alt-text="Screenshot that shows the filter and scope buttons in the toolbar." lightbox="../ide/media/vside_navigation_toolbar.png":::
 
-### Filter to a specific type of code element
+### Filter by a specific type of code element
 
-To narrow your search to a specific type of code element, you can either specify a prefix in the search box, or select one of the five filter icons:
+To narrow your search to return only a specific type of code element, you can either specify a prefix in the search box or select one of the five filter icons:
 
 Prefix | Icon | Shortcut | Description
 :-: | - | - | -
 :| ![Line icon](media/gotoall-line-icon.png) | **Ctrl**+**G** | Go to the specified line number
 f| ![Files icon](media/gotoall-files-icon.png) | **Ctrl**+**1**, **Ctrl**+**F** | Go to the specified file
-r| ![Recent files icon](media/gotoall-recent-files-icon.png) | **Ctrl**+**1**, **Ctrl**+**R** | Go to the specified, recently visited file
+r| ![Recent files icon](media/gotoall-recent-files-icon.png) | **Ctrl**+**1**, **Ctrl**+**R** | Go to the specified recently visited file
 t| ![Types icon](media/gotoall-types-icon.png) | **Ctrl**+**1**, **Ctrl**+**T** | Go to the specified type
 m| ![Members icon](media/gotoall-members-icon.png) | **Ctrl**+**1**, **Ctrl**+**M** | Go to the specified member
 \#| ![Symbols icon](media/gotoall-symbols-icon.png) | **Ctrl**+**1**, **Ctrl**+**S** | Go to the specified symbol
 
-### Filter to a specific location
+### Filter by a specific location
 
-To narrow your search to a specific location, select one of the two document icons:
+To narrow your search to return only items from a specific location, select one of the two document icons:
 
 Icon | Description
 ---- | ---
