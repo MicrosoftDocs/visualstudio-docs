@@ -22,7 +22,7 @@ manager: j-martens
 ---
 # Navigate code
 
-Visual Studio provides numerous ways to navigate code in the editor. This article summarizes the different ways you can navigate your code. It also provides links to topics that go into more detail.
+Visual Studio provides numerous ways to navigate code in the editor. This article summarizes the different ways you can navigate your code. It also provides links to articles that go into more detail.
 
 ## Navigate Backward and Navigate Forward commands
 
@@ -106,7 +106,7 @@ For more information about these commands, see [Find code using Go To commands](
 
 The following commands work differently in Visual Studio 2022 version 17.10 and later (and in earlier versions if the optional feature **All in One Search** is enabled). For more information, see [All in One Search experience](visual-studio-search.md#about-the-all-in-one-search-experience). With **All in One Search**, the search dialog opens, and you can search for any code element. In earlier versions of Visual Studio, a UI tool in which you can enter the search text appears.
 
-- **Go To All** (**Ctrl**+**T** or **Ctrl**+**,**): Move to the specified line, type, file, member, or symbol. Selecting this options opens a search window. For more information, see [Visual Studio search](./visual-studio-search.md).
+- **Go To All** (**Ctrl**+**T** or **Ctrl**+**,**): Move to the specified line, type, file, member, or symbol. Selecting this option opens a search window. For more information, see [Visual Studio search](./visual-studio-search.md).
 
 - **Go To Type** (**Ctrl**+**1**, **Ctrl**+**T**): Move to the specified type in the solution.
 
