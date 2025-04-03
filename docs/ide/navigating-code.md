@@ -32,7 +32,7 @@ You can use the **Navigate Backward** (**Ctrl**+**-**) and **Navigate Forward** 
 
 ## Navigation bar
 
-You can use the **navigation bar** (the drop-down boxes at the top of the code window) to navigate to code in a codebase. You can select a type or member to go directly to it. The navigation bar appears when you edit code in a Visual Basic, C#, or C++ code base. In a partial class, members defined outside the current code file might be disabled (grayed out).
+You can use the **navigation bar** (the drop-down boxes at the top of the code window) to navigate to code in a codebase. You can select a type or member to go directly to it. The navigation bar appears when you edit code in a Visual Basic, C#, or C++ codebase. In a partial class, members that are defined outside the current code file might be disabled (grayed out).
 
 :::image type="content" source="../ide/media/vside_navigation_bar.png" alt-text="Screenshot that shows the code navigation bar." lightbox="../ide/media/vside_navigation_bar.png":::
 
@@ -149,7 +149,7 @@ You can use Go To Base to navigate up the inheritance chain of the selected elem
 
 Input method| Steps
 ------------ | ---
-**Keyboard** | Place the cursor somewhere ins the type name, and then select **Alt**+**Home**
+**Keyboard** | Place the cursor somewhere in the type name, and then select **Alt**+**Home**
 **Mouse** | Right-click the type name and then select **Go To Base**
 
 ## Call Hierarchy
