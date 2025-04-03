@@ -49,13 +49,13 @@ If you are working in a team, or if you are using different machines, you might 
 
 :::image type="content" source="media/git-source-control-inner-loop.png" alt-text="The Visual Studio IDE with the Git menu and the Git Changes tab in Solution Explorer showing.":::
 
-::: moniker-end
+:::moniker-end
 
 :::moniker range=">=vs-2022"
 
 :::image type="content" source="media/vs-2022/git-source-control-inner-loop.png" alt-text="The Visual Studio IDE with the Git menu and the Git Changes tab in Solution Explorer showing." lightbox="media/vs-2022/git-source-control-inner-loop.png":::
 
-::: moniker-end
+:::moniker-end
 
 ## Repository management and collaboration
 
