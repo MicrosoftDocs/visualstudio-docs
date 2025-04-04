@@ -57,12 +57,12 @@ To narrow your search to return only a specific type of code element, you can ei
 
 Prefix | Icon | Shortcut | Description
 :-: | - | - | -
-:| ![Line icon](media/gotoall-line-icon.png) | **Ctrl**+**G** | Go to the specified line number
-f| ![Files icon](media/gotoall-files-icon.png) | **Ctrl**+**1**, **Ctrl**+**F** | Go to the specified file
-r| ![Recent files icon](media/gotoall-recent-files-icon.png) | **Ctrl**+**1**, **Ctrl**+**R** | Go to the specified recently visited file
-t| ![Types icon](media/gotoall-types-icon.png) | **Ctrl**+**1**, **Ctrl**+**T** | Go to the specified type
-m| ![Members icon](media/gotoall-members-icon.png) | **Ctrl**+**1**, **Ctrl**+**M** | Go to the specified member
-\#| ![Symbols icon](media/gotoall-symbols-icon.png) | **Ctrl**+**1**, **Ctrl**+**S** | Go to the specified symbol
+:| :::image type="icon" source="media/gotoall-line-icon.png":::| **Ctrl**+**G** | Go to the specified line number
+f| :::image type="icon" source="media/gotoall-files-icon.png"::: | **Ctrl**+**1**, **Ctrl**+**F** | Go to the specified file
+r| :::image type="icon" source="media/gotoall-recent-files-icon.png":::| **Ctrl**+**1**, **Ctrl**+**R** | Go to the specified recently visited file
+t| :::image type="icon" source="media/gotoall-types-icon.png":::| **Ctrl**+**1**, **Ctrl**+**T** | Go to the specified type
+m| :::image type="icon" source="media/gotoall-members-icon.png"::: | **Ctrl**+**1**, **Ctrl**+**M** | Go to the specified member
+\#| :::image type="icon" source="media/gotoall-symbols-icon.png"::: | **Ctrl**+**1**, **Ctrl**+**S** | Go to the specified symbol
 
 ### Filter by a specific location
 
@@ -70,24 +70,24 @@ To narrow your search to return only items from a specific location, select one 
 
 Icon | Description
 ---- | ---
-![Current Document](media/gotoall_currentdocument.png) | Search current document only
-![External Documents](media/gotoall_external.png) | Search external documents in addition to those located in the project/solution
+|:::image type="icon" source="media/gotoall_currentdocument.png":::| Search current document only|
+|:::image type="icon" source="media/gotoall_external.png"::: | Search external documents in addition to those located in the project/solution|
 
 ## Camel casing
 
-If you use [camel casing](https://en.wikipedia.org/wiki/Camel_case) in your code, you can find code elements faster by entering only the capital letters of the code element name. For example, if your code has a type called `CredentialViewModel`, you can narrow down the search by choosing the **Type** filter (**t**) and then entering just the capital letters of the name (`CVM`) in the Go To dialog box. This feature can be helpful if your code has long names.
+If you use [camel casing](https://en.wikipedia.org/wiki/Camel_case) in your code, you can find code elements faster by entering only the capital letters of the code element name. For example, if your code has a type called `CredentialViewModel`, you can narrow the search by choosing the **Type** filter (**t**) and then entering just the capital letters of the name (`CVM`) in the **Go To** dialog. This feature can be helpful if your code has long names.
 
-![Navigate To window - searching with uppercase letters](../ide/media/vside_uppercasesearch.png)
+:::image type="content" source="../ide/media/vside_uppercasesearch.png" alt-text="Screenshot that shows how to search with uppercase letters." lightbox="../ide/media/vside_uppercasesearch.png":::
 
 ## Settings
 
-Selecting the gear icon ![Gear icon](media/gotoall_gear.png) lets you change how this feature works:
+You can select the gear icon :::image type="icon" source="media/gotoall_gear.png"::: to change how this feature works:
 
 Setting | Description
 ------- | ---
 Use preview tab | Display the selected item immediately in the IDE's preview tab
 Show details | Display project, file, line, and summary information from documentation comments in the window
-Center window | Move this window to the top-center of the code editor, instead of the top-right
+Center window | Move the window to the center of the top of the code editor, instead of the top-right corner
 
 ## Related content
 
