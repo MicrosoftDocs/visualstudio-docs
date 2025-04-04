@@ -2,7 +2,7 @@
 title: Update Visual Studio installation to recent release
 titleSuffix: ''
 description: Update your Visual Studio installation to the most recent release to access the latest feature changes and fixes for known issues. 
-ms.date: 5/22/2024
+ms.date: 9/3/2024
 ms.custom: vs-acquisition
 ms.topic: how-to
 
