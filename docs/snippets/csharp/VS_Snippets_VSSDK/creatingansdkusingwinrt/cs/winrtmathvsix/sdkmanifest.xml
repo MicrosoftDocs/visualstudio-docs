@@ -6,6 +6,6 @@
   TargetFramework=".NETCore,version=v4.5"
   AppliesTo="WindowsAppContainer"
   SupportsMultipleVersions="Error"
-  MoreInfo="https://docs.microsoft.com/">
+  MoreInfo="https://learn.microsoft.com/">
 </FileList>
 <!-- </snippet1> -->
