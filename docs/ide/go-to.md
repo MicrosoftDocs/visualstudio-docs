@@ -47,7 +47,7 @@ You can also enter a question mark (**?**) to get additional help:
 
 ## Filtered searches
 
-By default, the specified item is searched for among all solution items. However, you can limit your code search to specific element types by prefacing the search terms with certain characters. You can also quickly change the search filter by selecting buttons on the **Go To** dialog toolbar. Buttons that change the type filters are on the left side, and buttons that change the scope of the search are on the right side:
+By default, the specified item is searched for among all solution items. However, you can limit your code search to specific element types by prefacing the search terms with certain characters. You can also quickly change the search filter by selecting buttons on the toolbar of the **Go To** dialog. Buttons that change the type filters are on the left side, and buttons that change the scope of the search are on the right side:
 
 :::image type="content" source="../ide/media/vside_navigation_toolbar.png" alt-text="Screenshot that shows the filter and scope buttons in the toolbar." lightbox="../ide/media/vside_navigation_toolbar.png":::
 
@@ -75,7 +75,7 @@ Icon | Description
 
 ## Camel casing
 
-If you use [camel casing](https://en.wikipedia.org/wiki/Camel_case) in your code, you can find code elements faster by entering only the capital letters of the code element name. For example, if your code has a type called `CredentialViewModel`, you can narrow the search by choosing the **Type** filter (**t**) and then entering just the capital letters of the name (`CVM`) in the **Go To** dialog. This feature can be helpful if your code has long names.
+If you use [camel casing](https://en.wikipedia.org/wiki/Camel_case) in your code, you can find code elements faster by entering only the capital letters of the code element name. For example, if your code has a type called `CredentialViewModel`, you can narrow the search by selecting the **Type** filter (**t**) and then entering just the capital letters of the name (**CVM**) in the **Go To** dialog. This feature can be helpful if your code has long names.
 
 :::image type="content" source="../ide/media/vside_uppercasesearch.png" alt-text="Screenshot that shows how to search with uppercase letters." lightbox="../ide/media/vside_uppercasesearch.png":::
 
