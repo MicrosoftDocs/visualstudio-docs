@@ -1,20 +1,25 @@
 ---
-title: Creating a Windows Forms Toolbox Control
-description: Use the Windows Forms Toolbox Control template to build and test a simple counter control with the Visual Studio Extensibility Tools SDK.
+title: Creating a Windows Forms Toolbox Control | Microsoft Docs
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
 - winforms
 - toolbox
 - windows forms
-author: maiak
-ms.author: maiak
-manager: mijacobs
-ms.subservice: extensibility-integration
+ms.assetid: 0be6ffc1-8afd-4d02-9a5d-e27dde05fde6
+author: acangialosi
+ms.author: anthc
+manager: jillfra
+ms.workload:
+- vssdk
 ---
 # Create a Windows Forms Toolbox Control
 
-The Windows Forms Toolbox Control item template that is included in the Visual Studio Extensibility Tools (VSSDK), lets you create a **Toolbox** control that is automatically added when the extension is installed. This walkthrough shows how to use the template to create a simple counter control that you can distribute to other users.
+The Windows Forms Toolbox Control item template that is included in the Visual Studio Extensibility Tools (VS SDK), lets you create a **Toolbox** control that is automatically added when the extension is installed. This walkthrough shows how to use the template to create a simple counter control that you can distribute to other users.
+
+## Prerequisites
+
+Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## Create the Toolbox Control
 
@@ -119,7 +124,7 @@ The `Counter` control will expose a method to increment the counter, an event to
 
     Callers can add handlers to this event to respond to changes in the value of the counter.
 
-7. Return to design view and double-click the **Reset** button to generate the `btnReset_Click` event handler. Then, fill it in as shown in the following example.
+7. Return to design view and double-click the **Reset** button to generate the `btnReset_Click` event handler, and then fill it in as shown in the following example.
 
     ```csharp
     private void btnReset_Click(object sender, EventArgs e)
@@ -184,7 +189,7 @@ The `Counter` control will expose a method to increment the counter, an event to
 
     **Count: 0**
 
-14. Select **Test**.
+14. Click **Test**.
 
     The counter increments and Visual Studio displays a message box.
 
@@ -192,11 +197,11 @@ The `Counter` control will expose a method to increment the counter, an event to
 
     The **Reset** button disappears.
 
-16. Select **Test** until the counter reaches **5** closing the message boxes each time.
+16. Click **Test** until the counter reaches **5** closing the message boxes each time.
 
     The **Reset** button reappears.
 
-17. Select **Reset**.
+17. Click **Reset**.
 
     The counter resets to **0**.
 
@@ -204,7 +209,7 @@ The `Counter` control will expose a method to increment the counter, an event to
 
 When you build a **Toolbox** control, Visual Studio creates a file named *ProjectName.vsix* in the \bin\debug\ folder of your project. You can deploy the control by uploading the *.vsix* file to a network or to a Web site. When a user opens the *.vsix* file, the control is installed and added to the Visual Studio **Toolbox** on the user's computer. Alternatively, you can upload the *.vsix* file to [Visual Studio Marketplace](https://marketplace.visualstudio.com/) so that users can find it by browsing in the **Tools** > **Extensions and Updates** dialog.
 
-## Related content
+## See also
 
 - [Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
 - [Create a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)
