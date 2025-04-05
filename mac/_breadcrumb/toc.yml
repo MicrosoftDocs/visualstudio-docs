@@ -1,7 +1,0 @@
-- name: Docs
-  tocHref: /
-  topicHref: /
-  items:
-  - name: Visual Studio for Mac
-    tocHref: /visualstudio/mac/
-    topicHref: /visualstudio/mac
