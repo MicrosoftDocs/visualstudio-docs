@@ -187,7 +187,7 @@ If you create the project with [Docker support](../containers/container-tools-re
    :::image type="content" source="media/vs-2022/asp-net-core-with-react-docker-container-ports.png" alt-text="Screenshot showing Docker container ports.":::
 
 > [!NOTE]
-> If you do not see the Environment Name `ASPNETCORE_HTTPS_PORT` this will need to be added manually via the **launchSettings.json** file, look for the Section `Container (Dockerfile)` and after `"useSSL": true` add `"sslPort": <any port>` in this example it would be: `"sslPort": 44307` 
+> If you do not see the environment name `ASPNETCORE_HTTPS_PORT`, add it manually using the **launchSettings.json** file. In the section `Container (Dockerfile)` and after the entry `"useSSL": true`, add `"sslPort": <any port>`. In this example, use the following: `"sslPort": 44307` 
 
 2. Open the `vite.config.js` file for the React project. Update the `target` variable to match the HTTPS port in the Containers window. For example, in the following code:
 
