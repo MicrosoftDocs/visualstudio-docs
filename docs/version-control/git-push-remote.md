@@ -2,7 +2,7 @@
 title: Push to a remote branch in Visual Studio
 titleSuffix: ""
 description: Push your local project directory to a remote in Visual Studio by using GitHub or Azure DevOps for a safe place to store your code in the cloud.
-ms.date: 04/04/2024
+ms.date: 4/1/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen

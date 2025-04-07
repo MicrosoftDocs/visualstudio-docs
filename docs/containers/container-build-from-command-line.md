@@ -63,6 +63,12 @@ msbuild /p:SolutionPath=<solution-name>.sln /p:Configuration=Release docker-comp
 
 To view the MSBuild logs, see [Obtaining build logs with MSBuild](../msbuild/obtaining-build-logs-with-msbuild.md).
 
+## Build from the command line
+
+Visual Studio uses Fast Mode (if enabled) to produce a container image configured to work best for development and debugging, so we don't recommend copying the docker build commands from the Output window after a Fast Mode build. To build a standard image without nonstandard optimizations, you can right-click on the Dockerfile and choose the **Build Docker image** option.
+
+Visual Studio uses the `dev` tag to designate images that it has specially prepared to optimize the startup time during debugging. However, these images shouldn't be used outside of the context of Visual Studio. This tag is an indication the images have nonstandard modifications and customizations, for example, to support Fast Mode debugging. See [Customize Docker containers in Visual Studio](container-build.md).
+
 ## Related content
 
 - [MSBuild properties for container projects](container-msbuild-properties.md).

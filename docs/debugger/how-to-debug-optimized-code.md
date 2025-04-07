@@ -23,22 +23,24 @@ ms.subservice: debug-diagnostics
 ---
 # Debug Optimized Code
 
+This article explains which compiler switches to set to enable you to debug optimized code better.
+
+A better experience is available starting in Visual Studio 2022 version 17.14 that allows you to debug optimized code as if it were compiled unoptimized, while retaining the speed of optimized code. For more information, see [C++ Dynamic Debugging (Preview)](cpp-dynamic-debugging.md).
+
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset all settings](../ide/personalizing-the-visual-studio-ide.md#reset-all-settings).
 
 > [!NOTE]
-> The [/Zo (Enhance Optimized Debugging)](/cpp/build/reference/zo-enhance-optimized-debugging) compiler option (introduced in Visual Studio Update 3) generates richer debugging information for optimized code (projects that are not built with the **/Od** compiler option. See [/O Options (Optimize Code)](/cpp/build/reference/o-options-optimize-code)). This includes improved support for debugging local variables and inlined functions.
+> The [/Zo (Enhance Optimized Debugging)](/cpp/build/reference/zo-enhance-optimized-debugging) compiler option (introduced in Visual Studio Update 3) generates richer debugging information for optimized code (projects that aren't built with the **/Od** compiler option. See [/O Options (Optimize Code)](/cpp/build/reference/o-options-optimize-code)). This includes improved support for debugging local variables and inlined functions.
 >
 > [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md) is disabled when the **/Zo** compiler option is used.
 
- When the compiler optimizes code, it repositions and reorganizes instructions. This results in more efficient compiled code. Because of this rearrangement, the debugger cannot always identify the source code that corresponds to a set of instructions.
+ When the compiler optimizes code, it repositions and reorganizes instructions. This results in more efficient compiled code. Because of this rearrangement, the debugger can't always identify the source code that corresponds to a set of instructions.
 
  Optimization can affect:
 
-- Local variables, which can be removed by the optimizer or moved to locations the debugger does not understand.
-
+- The optimizer can remove local variables or move them to locations that the debugger doesn't understand.
 - Positions inside a function, which are changed when the optimizer merges blocks of code.
-
 - Function names for frames on the call stack, which might be wrong if the optimizer merges two functions.
 
   The frames that you see on the call stack are almost always correct, however, assuming you have symbols for all frames. The frames on the call stack will be wrong if you have stack corruption, if you have functions written in assembly language, or if there are operating system frames without matching symbols on the call stack.
@@ -51,7 +53,7 @@ ms.subservice: debug-diagnostics
 
 ## To turn on optimization in a Debug build configuration
 
-1. When you create a new project, select the `Win32 Debug` target. Use the `Win32 Debug` target until your program is fully debugged and you are ready to build a `Win32 Release` target. The compiler does not optimize the `Win32 Debug` target.
+1. When you create a new project, select the `Win32 Debug` target. Use the `Win32 Debug` target until your program is fully debugged and you're ready to build a `Win32 Release` target. The compiler doesn't optimize the `Win32 Debug` target.
 
 2. Select the project in Solution Explorer.
 
@@ -71,9 +73,9 @@ ms.subservice: debug-diagnostics
 
     > [!WARNING]
     >
-    >  Adding `/Zo` will disable [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md).
+    > Adding `/Zo` disables [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md).
 
-   When you debug optimized code, use the **Disassembly** window to see what instructions are actually created and executed. When you set breakpoints, you need to know that the breakpoint might move together with an instruction. For example, consider the following code:
+   When you debug optimized code, use the **Disassembly** window to see what instructions are created and executed. When you set breakpoints, you need to know that the breakpoint might move together with an instruction. For example, consider the following code:
 
 ```cpp
 for (x=0; x<10; x++)

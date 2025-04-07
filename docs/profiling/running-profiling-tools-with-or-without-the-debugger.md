@@ -1,7 +1,7 @@
 ---
 title: "Run profiling tools on release or debug builds"
 description: Explore the differences between running profiling tools for your applications in Visual Studio on release or debug builds.
-ms.date: "01/06/2024"
+ms.date: "01/07/2025"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"

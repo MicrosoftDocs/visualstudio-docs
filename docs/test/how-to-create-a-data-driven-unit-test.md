@@ -1,7 +1,7 @@
 ---
 title: Create Data-Driven Unit Tests
 description: Learn how to use the Microsoft unit test framework for managed code to set up a unit test method to retrieve values from a data source.
-ms.date: 12/18/2024
+ms.date: 3/19/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.test.testresults.unittest.datadriven
@@ -135,6 +135,9 @@ Creating a data source driven unit test involves the following steps:
 
 5. Use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow%2A> indexer property to retrieve the values that you use in a test.
 
+> [!NOTE]
+> DataSourceAttribute is currently supported only on .NET Framework. If you try to access test data using this method in a .NET Core, .NET 5+, UWP or WinUI unit test project, you will see an error similar to **"'TestContext' does not contain a definition for 'DataRow' and no accessible extension method 'DataRow' accepting a first argument of type 'TestContext' could be found (are you missing a using directive or an assembly reference?)"**.
+
 #### Create a data source
 
 To test the `AddIntegers` method, create a data source that specifies a range of values for the parameters and the sum that you expect to be returned. In this example, we'll create a Sql Compact database named `MathsData` and a table named `AddIntegersData` that contains the following column names and values
@@ -154,9 +157,6 @@ public TestContext TestContext { get; set; }
 ```
 
 In your test method, you access the data through the `DataRow` indexer property of the `TestContext`.
-
-> [!NOTE]
-> .NET Core does not support the [DataSource](xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute) attribute. If you try to access test data in this way in a .NET Core, UWP or WinUI unit test project, you will see an error similar to **"'TestContext' does not contain a definition for 'DataRow' and no accessible extension method 'DataRow' accepting a first argument of type 'TestContext' could be found (are you missing a using directive or an assembly reference?)"**.
 
 #### Write the test method
 
@@ -197,7 +197,7 @@ The DataSource attribute has three constructors.
 [DataSource(dataSourceSettingName)]
 ```
 
-A constructor with one parameter uses connection information that is stored in the *app.config* file for the solution. The *dataSourceSettingsName* is the name of the Xml element in the config file that specifies the connection information.
+A constructor with one parameter uses connection information that is stored in the *app.config* file for the solution. The *dataSourceSettingsName* is the name of the XML element in the config file that specifies the connection information.
 
 Using an *app.config* file allows you to change the location of the data source without making changes to the unit test itself. For information about how to create and use an *app.config* file, see [Walkthrough: Using a Configuration File to Define a Data Source](../test/walkthrough-using-a-configuration-file-to-define-a-data-source.md)
 

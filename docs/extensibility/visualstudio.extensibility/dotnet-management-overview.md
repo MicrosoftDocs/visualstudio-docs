@@ -14,7 +14,7 @@ The new VisualStudio.Extensibilty model allows extensions to be run outside the 
 
 ## .NET Runtime Support Model
 
-The .NET runtime has its own lifetime and servicing timelines, independent of Visual Studio. The current cadence sees a new .NET release every year, with odd-numbered major releases receiving 18 months of support, and even-numbered releases receiving long-term support (LTS) of 36 months. At any given time, Visual Studio ships with .NET LTS versions still in public support. For the official list of .NET runtimes and their lifetimes, see [here](https://learn.microsoft.com/lifecycle/products/microsoft-net-and-net-core).
+The .NET runtime has its own lifetime and servicing timelines, independent of Visual Studio. The current cadence sees a new .NET release every year, with odd-numbered major releases receiving 18 months of support, and even-numbered releases receiving long-term support (LTS) of 36 months. At any given time, Visual Studio ships with .NET LTS versions still in public support. For the official list of .NET runtimes and their lifetimes, see [here](/lifecycle/products/microsoft-net-and-net-core).
 
 The following timeline illustrates an approximation of the different .NET versions shipped with Visual Studio.
 

@@ -130,6 +130,7 @@ Use double quotes around the values, as in the preceding example, and use the ba
 |com.microsoft.visualstudio.debuggee.noattach.program|The program launched when you use **Start without debugging** (**Ctrl**+**F5**) in an Azure functions project that runs in an [isolated process](/azure/azure-functions/dotnet-isolated-process-guide). Typically both **F5** and **Ctrl**+**F5** uses the same program, but if any project type like Azure Functions in an isolated process requires a different program than **F5**, then this will be used.|
 |com.microsoft.visualstudio.debuggee.noattach.arguments|The arguments passed to the program when you use **Start without debugging** (**Ctrl**+**F5**) in an Azure functions project that runs in an isolated process.|
 |com.microsoft.visual-studio.project-name|The name of the project, which helps Visual Studio find the project if the project is not in the same folder as the Dockerfile.|
+|com.microsoft.visualstudio.launch-url.path-query|The path and query used by the containers window when opening links in the ports tab.<br/><br/>Requires Visual Studio 17.13 or later.|
 :::moniker-end
 
 ### Customize the Docker build process

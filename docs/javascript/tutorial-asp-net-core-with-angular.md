@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Angular"
 description: Create an ASP.NET Core project to serve as an API backend and an Angular project to provide the user interface in Visual Studio.
-ms.date: 03/20/2024
+ms.date: 01/08/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
