@@ -13,7 +13,11 @@ helpviewer_keywords:
 ms.date: 04/04/2024
 ---
 
+<<<<<<< HEAD
 # Customize Roslyn analyzer rules
+=======
+.NET Compiler Platform ("Roslyn") code analyzers analyze your C# or Visual Basic code as you type. Each *diagnostic* or rule has a default severity and suppression state that can be overwritten for your project. This article covers setting rule severity, using rule sets, and suppressing violations.  
+>>>>>>> origin/Mikejo5000-patch-1
 
 Each Roslyn analyzer rule, or *diagnostic*, has a default severity and suppression state that you can customize for your project. This article covers setting analyzer severities and suppressing analyzer violations.
 

@@ -1,12 +1,12 @@
 ---
-title: Get started with Docker apps in Visual Studio Code
-titleSuffix: ""
+title: Start with Docker apps in Visual Studio Code
+titleSuffix: \\
 description: Create Docker applications with Visual Studio Code, the Docker Visual Studio Code Extension, Docker Desktop, and Docker Hub.
-author: ghogen
-ms.author: ghogen
+author: usahospitals [unknown, unknown]
+ms.author: usahospitals
 ms.service: vs-code
-ms.topic: tutorial 
-ms.date: 05/30/2024
+ms.topic: docker
+ms.date: 04/05/2026
 # Agreed with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---
 
