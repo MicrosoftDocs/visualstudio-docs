@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Angular"
 description: Create an ASP.NET Core project to serve as an API backend and an Angular project to provide the user interface in Visual Studio.
-ms.date: 01/08/2025
+ms.date: 04/07/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -193,6 +193,9 @@ If you create the project with [Docker support](../containers/overview.md#prereq
    ```
 
    Change `https://localhost:7209` to the matching HTTPS port (in this example, `https://localhost:62958`).
+
+   > [!NOTE]
+   > If the HTTPS port is missing in the Containers window, you can use **launchSettings.json** file to add the port. In the section `Container (Dockerfile)` and after the entry `"useSSL": true`, add `"sslPort": <any port>`. In this example, use the following: `"sslPort": 62958`.
 
 1. Restart the app.
 
