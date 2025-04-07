@@ -1,6 +1,6 @@
 ---
-title: Customizing project and item templates
-description: Customize existing projects, item templates, and wizards in Visual Studio to make adjustments after objects are already created.
+title: Customizing Project and Item Templates
+description: Customize existing project templates, item templates, and wizards in Visual Studio to meet your current needs.
 ms.date: 04/08/2025
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,10 +10,12 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
+
+# customer intent: As a developer, I want to customize project templates, item templates, and wizards to meet my current needs.
 ---
 # Customize project and item templates
 
-Even after project and item templates have been created, you can further customize them to meet your needs.
+Even after project and item templates are created, you can further customize them to meet your needs.
 
 ## Customizations
 
