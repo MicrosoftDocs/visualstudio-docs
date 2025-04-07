@@ -1,7 +1,7 @@
 ---
 title: Debug C++ code, set breakpoints, inspect variables
 description: Debug native C++ code by using the Visual Studio debugger, create a project, set breakpoints, inspect variables, and edit code while debugging.
-ms.date: 08/06/2018
+ms.date: 04/07/2025
 ms.topic: quickstart
 helpviewer_keywords:
   - "debugger"
@@ -18,7 +18,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 1. Open Visual Studio and create a project.
 
-    On the Welcome Page, select **Create a new project**. Select **Empty Project**. Make sure you are selecting the Project Template for C++.
+    If the Start window is not already open, select **File > Start Window**. In the Start window, select **Create a new project**. In the search box, type "Empty project", and then select the C++ **Empty Project** template.
 
    If you don't see the project template, open the **Visual Studio Installer**. Choose the **Desktop development with C++ workload**, then choose **Modify**.
 

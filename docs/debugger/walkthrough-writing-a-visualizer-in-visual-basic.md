@@ -34,7 +34,13 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
 
 1. Create a new class library project.
 
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **visual basic**, choose **Templates**, then choose **Create a new Class Library (.NET Framework)**. In the dialog box that appears, choose **Create**.
+    ::: moniker range=">=vs-2022"
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **class library**, and then select the Visual Basic **Class Library (.NET Framework)**.
+    ::: moniker-end
+
+    ::: moniker range="vs-2019"
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **visual basic**, choose **Templates**, then choose **Create a new Class Library (.NET Framework)**.
+    ::: moniker-end
 
 2. Type an appropriate name for the class library, such as `MyFirstVisualizer`, and then click **Create** or **OK**.
 
