@@ -17,15 +17,15 @@ As a subscription admin, you can make changes to the subscriptions assigned to m
 
 ## Change subscriber information
 
-You can edit a subscriber’s information to correct errors or update information.
+You can edit a subscriber's information to correct errors or update information.
 
-To edit a subscriber, select the ellipses (…) that appears next to the subscriber’s email address when you hover your mouse over it. Use the dropdown to select **Edit** to modify the subscriber’s details.
+To edit a subscriber, select the ellipses (…) that appears next to the subscriber's email address when you hover your mouse over it. Use the dropdown to select **Edit** to modify the subscriber’s details.
 > [!div class="mx-imgBorder"]
 > ![Select subscriber to edit](_img/edit-license/select-subscriber.png "Screenshot of flyout menu. Select the ellipses and choose Edit.")
 
-You can update the following fields: subscriber’s first name, family name, subscription level, email address, country/region, language, downloads, and reference. Edit the subscriber’s information, and select **Save**.
+You can update the following fields: subscriber's first name, family name, subscription level, email address, country/region, language, downloads, and reference. Edit the subscriber’s information, and select **Save**.
 
-## Edit multiple subscribers by using bulk edit
+## <a name = "edit-multiple-subscribers-using-bulk-edit"></a> Edit multiple subscribers by using bulk edit
 
 You can edit multiple subscribers at the same time by using the bulk edit process. This feature is primarily used for organizations that are going through corporate email address changes or that want to restrict access to downloads.
 
