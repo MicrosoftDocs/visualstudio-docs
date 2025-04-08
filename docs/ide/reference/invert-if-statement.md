@@ -41,4 +41,4 @@ This refactoring applies to:
 ## See also
 
 - [Refactoring](../refactoring-in-visual-studio.md)
-- [Tips for .NET Developers](../csharp-developer-productivity.md)
+- [Productivity features](../productivity-features.md)
