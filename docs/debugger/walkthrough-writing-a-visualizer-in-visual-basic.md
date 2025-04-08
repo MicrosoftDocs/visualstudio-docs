@@ -21,7 +21,7 @@ ms.subservice: debug-diagnostics
 > [!IMPORTANT]
 > Starting with Visual Studio 2022 version 17.9, visualizers can now be written in .NET 6.0+ that run out-of-process using the new VisualStudio.Extensibility model. We encourage visualizer authors to reference the new documentation at [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md) unless they want to support older versions of Visual Studio or want to ship their custom visualizers as part of a library DLL.
 
-This walkthrough shows how to write a simple visualizer by using Visual Basic. The visualizer you will create in this walkthrough displays the contents of a string using a Windows Forms message box. This simple string visualizer is a basic example to show how you can create visualizers for other data types more applicable to your projects.
+This walkthrough shows how to write a simple visualizer by using Visual Basic. The visualizer you'll create in this walkthrough displays the contents of a string using a Windows Forms message box. This simple string visualizer is a basic example to show how you can create visualizers for other data types more applicable to your projects.
 
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, go to the **Tools** menu and choose **Import and Export** . For more information, see [Reset settings](../ide/personalizing-the-visual-studio-ide.md#reset-all-settings).
@@ -70,7 +70,7 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
    ```
 
 ## Add the Debugger-side Code
- Now, you are ready to create the debugger-side code. This is the code that runs within the debugger to display the information that you want to visualize. First, you have to change the declaration of the `DebuggerSide` object so that it inherits from the base class `DialogDebuggerVisualizer`.
+ Now, you're ready to create the debugger-side code. This is the code that runs within the debugger to display the information that you want to visualize. First, you have to change the declaration of the `DebuggerSide` object so that it inherits from the base class `DialogDebuggerVisualizer`.
 
 ### To inherit from DialogDebuggerVisualizer
 
@@ -102,7 +102,7 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
       End Sub
   ```
 
-  The `Show` method contains the code that actually creates the visualizer dialog box, or other user interface, and displays the information that has been passed to the visualizer from the debugger. You must add the code that creates the dialog box and displays the information. In this walkthrough, you will do this using a Windows Forms message box. First, you must add a reference and `Imports` statement for <xref:System.Windows.Forms>.
+  The `Show` method contains the code that actually creates the visualizer dialog box, or other user interface, and displays the information that has been passed to the visualizer from the debugger. You must add the code that creates the dialog box and displays the information. In this walkthrough, you'll do this using a Windows Forms message box. First, you must add a reference and `Imports` statement for <xref:System.Windows.Forms>.
 
 ### To add System.Windows.Forms
 
@@ -121,7 +121,7 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
     ```
 
 ## Create Your Visualizer's User Interface
- Now you will add some code to create and show the user interface for your visualizer. Because this is your first visualizer, you will keep the user interface simple and use a Message Box.
+ Now you'll add some code to create and show the user interface for your visualizer. Because this is your first visualizer, you'll keep the user interface simple and use a Message Box.
 
 ### To show the visualizer output in a dialog box
 
@@ -131,12 +131,12 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
     MessageBox.Show(objectProvider.GetObject().ToString())
     ```
 
-     This example code does not include error handling. You should include error handling in a real visualizer, or any other kind of application.
+     This example code doesn't include error handling. You should include error handling in a real visualizer, or any other kind of application.
 
 2. On the **Build** menu, click **Build MyFirstVisualizer**. The project should build successfully. Correct any build errors before continuing.
 
 ## Add the Necessary Attribute
- That is the end of the debugger-side code. There is one more step, however: the attribute that tells the debuggee side which collection of classes comprises the visualizer.
+ That is the end of the debugger-side code. There's one more step, however: the attribute that tells the debuggee side which collection of classes comprises the visualizer.
 
 ### To add the type to visualize for the debuggee-side code
 
@@ -151,7 +151,7 @@ In the debugger-side code, you specify the type to visualize (the object source)
 2. On the **Build** menu, click **Build MyFirstVisualizer**. The project should build successfully. Correct any build errors before continuing.
 
 ## Create a Test Harness
- At this point, your first visualizer is finished. If you have followed the steps correctly, you can build the visualizer and install it into Visual Studio. Before you install a visualizer into Visual Studio, however, you should test it to make sure that it runs correctly. You will now create a test harness to run the visualizer without installing it into Visual Studio.
+ At this point, your first visualizer is finished. If you have followed the steps correctly, you can build the visualizer and install it into Visual Studio. Before you install a visualizer into Visual Studio, however, you should test it to make sure that it runs correctly. you'll now create a test harness to run the visualizer without installing it into Visual Studio.
 
 ### To add a test method to show the visualizer
 
@@ -193,7 +193,7 @@ In the debugger-side code, you specify the type to visualize (the object source)
 6. Click **OK**.
 
 ## Finish Your Test Harness and Test Your Visualizer
- Now, you will add the code to finish the test harness.
+ Now, you'll add the code to finish the test harness.
 
 ### To add code to MyTestConsole
 
@@ -216,7 +216,7 @@ In the debugger-side code, you specify the type to visualize (the object source)
    DebuggerSide.TestShowVisualizer(myString)
    ```
 
-   Now you are ready to test your first visualizer.
+   Now you're ready to test your first visualizer.
 
 ### To test the visualizer
 
