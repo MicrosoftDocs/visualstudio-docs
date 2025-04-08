@@ -10,7 +10,7 @@ description:  Learn how to link newly purchased monthly Visual Studio subscripti
 
 # Link new monthly Visual Studio subscriptions to the Subscriptions Admin portal
 
-If you're an Azure admin and already completed the purchase process of new monthly Visual Studio subscriptions by using an Azure subscription in the [Marketplace](https://marketplace.visualstudio.com/subscriptions), you might need to link them into your specific admin group by using the Subscriptions Admin portal.
+If you're an Azure admin and purchased new monthly Visual Studio subscriptions by using an Azure subscription in the [Marketplace](https://marketplace.visualstudio.com/subscriptions), you might need to link them into your specific admin group. You can link them by using the Subscriptions Admin portal.
 
 ## How do I know if I need to link my subscriptions?
 
