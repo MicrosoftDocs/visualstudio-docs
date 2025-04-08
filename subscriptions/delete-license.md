@@ -11,7 +11,7 @@ description:  Learn how admins can delete subscription assignments in the Visual
 
 # Delete assignments in Visual Studio subscriptions
 
-When a subscriber no longer requires a Visual Studio subscription, you can remove their subscription and assign it to someone else. When you reassign a subscription, not all the subscriber benefits are reset. The new user is able to claim any unclaimed keys and view previously claimed keys but claim limits are *not* reset. For organizations that have Enterprise Agreements (EA), any benefits that were used by the original user, such as Pluralsight training, are reset.
+When a subscriber no longer requires a Visual Studio subscription, you can remove their subscription and assign it to someone else. When you reassign a subscription, not all the subscriber benefits are reset. The new user is able to claim any unclaimed keys and view previously claimed keys but claim limits are *not* reset. For organizations that have Enterprise Agreements (EAs), any benefits that were used by the original user, such as Pluralsight training, are reset.
 
 > [!IMPORTANT]
 > Subscriptions can only be assigned to different users if a minimum of 90 days have passed after the subscription was last assigned. For example, if a subscription was assigned to a subscriber on June 1, it can't be assigned to a new subscriber until at least August 30.
@@ -22,7 +22,7 @@ To learn how to delete assignments, watch the following video or continue readin
 
 ## Delete a subscription assignment
 
-1. Select the name of the subscriber that you want to remove. To select multiple subscribers for removal, you can select the circle to the left of the subscriber name to select each one. Or you can hold down the **CTRL** key and select each subscriber you wish to remove. To remove a range of subscribers, select the first one, select the **Shift** key, and then select the last one. Select the `CTRL+A` buttons to select and remove all subscribers. In this example, three subscribers named Amber, Kai, and Madison are deleted.
+1. Select the name of the subscriber who you want to remove. To select multiple subscribers for removal, you can select the circle to the left of the subscriber name to select each one. Or you can hold down the `CTRL` key and select each subscriber you wish to remove. To remove a range of subscribers, select the first one, select the **Shift** key, and then select the last one. Select the `CTRL+A` buttons to select and remove all subscribers. In this example, three subscribers named Amber, Kai, and Madison are deleted.
 2. To delete the selected subscribers, select **Delete**.
 
    > [!div class="mx-imgBorder"]
@@ -31,11 +31,11 @@ To learn how to delete assignments, watch the following video or continue readin
 3. When a message appears that asks you to confirm the deletion, select **OK**.
 
 > [!NOTE]
-> If you added subscription assignments through Microsoft Entra groups, it might take up to 24 hours for the deletion to be updated in the admin portal. For more information about by using Microsoft Entra groups to manage subscriptions, see [this section](assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions) in the **Add multiple users** article.
+> If you added subscription assignments through Microsoft Entra groups, it might take up to 24 hours for the deletion to be updated in the admin portal. For more information about by using Microsoft Entra groups to manage subscriptions, see [this article about adding multiple users](assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions).
 
 ## Delete large numbers of subscriptions
 
-If you need to delete a large number of subscription assignments, you can use the "bulk edit" feature.
+If you need to delete a large number of subscription assignments, you can use the **Bulk edit** feature.
 
   > [!IMPORTANT]
   > Before making large changes to your subscriber list, we recommend that you create a backup of your current list. Select the **Export** option to create a backup. This action places an Excel copy of your current list in your downloads folder.
@@ -53,7 +53,7 @@ If you need to delete a large number of subscription assignments, you can use th
    > ![Select Export this excel](_img/delete-license/export-this-excel-select.png "Screenshot of Edit multiple subscribers dialog. The Export this excel link in the first step is highlighted.")
 
 0. Your subscriber list downloads as an Excel file. Locate the file in your downloads folder, and then open it. The file name contains the name of your agreement and the current date.
-0. In a column to the right of the template, paste the email addresses of the subscribers that you want to remove. (In the current template, column **V** is the first one available. Don't unhide any hidden columns and use them.) For this example, we're removing these users:
+0. In a column to the right of the template, paste the email addresses of the subscribers who you want to remove. (In the current template, column **V** is the first one available. Don't unhide any hidden columns and use them.) For this example, we're removing these users:
     * `aa-user1@contoso.com`
     * `a-user3@contoso.com`
     * `a-user5@contoso.com`
@@ -63,7 +63,7 @@ If you need to delete a large number of subscription assignments, you can use th
    > [!div class="mx-imgBorder"]
    > ![Add the users who you want to delete](_img/delete-license/user-list-added.png "Screenshot of bulk edit template that shows the users who you want to delete listed in the right-most column. The list of users is highlighted.")
 
-0. Select both the column with the users you want to delete, and the column that contains the email addresses of all the users. In this case, that's column **B** and column **V**. To select the columns, select the first column heading, and then `CTRL+select` the second column heading. The template should now look like this:
+0. Select both the column that contains the users you want to delete, and the column that contains the email addresses of all the users. In this case, that's column **B** and column **V**. To select the columns, select the first column heading, and then `CTRL+select` the second column heading. The template should now look like this:
    > [!div class="mx-imgBorder"]
    > ![Select both user columns](_img/delete-license/columns-selected.png "Screenshot of bulk edit template that shows the columns for all users with the users who you want to delete selected.")
 
