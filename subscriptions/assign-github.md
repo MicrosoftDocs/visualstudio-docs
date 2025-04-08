@@ -10,20 +10,20 @@ description: Manage an organization's Visual Studio subscriptions by using GitHu
 
 # Set up GitHub Enterprise licenses with Visual Studio subscriptions
 
-Customers who have Enterprise Agreements (EA) with Microsoft are eligible to purchase a subscription offer that brings together Visual Studio standard subscriptions and GitHub Enterprise. It's the easy and economical way for Visual Studio subscribers to acquire GitHub Enterprise.
+Customers who have Enterprise Agreements (EA) with Microsoft are eligible to purchase a subscription offer that brings together Visual Studio standard subscriptions and GitHub Enterprise. It's an easy and economical way for Visual Studio subscribers to acquire GitHub Enterprise.
 
-Watch the following video learn how to set up your organization and invite new members, or read on for step-by-step instructions.
+Watch the following video to learn how to set up your organization and invite new members, or read on for step-by-step instructions.
 
 > [!VIDEO https://medius.microsoft.com/Embed/video-nc/a453595a-8166-40e0-b1a6-03070413d193?r=813985405783]
 
-Now that you purchased Visual Studio subscriptions with GitHub Enterprise, let’s get your organization set up. Follow the instructions for new GitHub Enterprise customers. If you’re an existing GitHub Enterprise customer, skip ahead to [Assigning Visual Studio subscriptions to organization members](#assign-visual-studio-subscriptions-to-organization-members).
+After you purchase Visual Studio subscriptions with GitHub Enterprise, you can set your organization up. Follow the instructions for new GitHub Enterprise customers. If you’re an existing GitHub Enterprise customer, skip ahead to [Assigning Visual Studio subscriptions to organization members](#assign-visual-studio-subscriptions-to-organization-members).
 
 > [!IMPORTANT]
 > If subscription admins assign Visual Studio subscriptions with GitHub Enterprise before they purchase any subscriptions, GitHub isn't notified that you want to create a GitHub Enterprise account. A purchase *of at least one* Visual Studio subscription with GitHub Enterprise should be made before subscriptions are assigned. If you already purchased Visual Studio subscriptions with GitHub Enterprise, you don't need to wait for the GitHub setup process to be completed before you assign subscriptions.
 
 ## Create your organization
 
-As a new GitHub Enterprise customer, you and your team need to get access to your GitHub Enterprise account. As soon as GitHub processes your order, an Enterprise account is created with your allocated license count. At this time, you're added to the account as the Enterprise Admin and you receive an email invitation.
+As a new GitHub Enterprise customer, you and your team need to get access to your GitHub Enterprise account. As soon as GitHub processes your order, an Enterprise account is created with your allocated license count. At this time, you're added to the account as the Enterprise admin and you receive an email invitation.
 
 1. In the email, select the **Become an owner...** button to go to your GitHub Enterprise account, and then select **Accept invitation**.
    > [!div class="mx-imgBorder"]
@@ -60,7 +60,7 @@ If any of your subscribers renewed from regular Visual Studio subscriptions to V
    > [!div class="mx-imgBorder"]
    > ![Flyout panel](_img/assign-github/fly-out.png "Screenshot of the dialog that shows the current and suggested subscriber allocations. Move subscriptions is selected in the drop down menu.")
 
-You can review the impacted subscribers and specify if you want them to receive an email after the move is complete. This email informs subscribers that their benefits remain unchanged and encourage them to begin setting up a presence in GitHub.
+You can review the impacted subscribers and specify if you want them to receive an email after the move is complete. This email informs subscribers that their benefits remain unchanged and encourages them to begin setting up a presence in GitHub.
 
 When you select the **Move subscribers** button, you can move all recommended subscribers or choose individuals from a list. After you confirm your selections, it takes a few seconds for the subscription moves to complete. If applicable, perform these steps for Professional and Enterprise separately.
 
@@ -69,7 +69,7 @@ When you select the **Move subscribers** button, you can move all recommended su
 
 ## Invite subscribers to your organization
 
-After a subscriber is assigned a subscription in the Visual Studio Subscriptions Admin portal, GitHub will be updated with these users and will reflect them as **Pending Members**. An organization owner needs to invite pending members to an organization to access their GitHub Enterprise benefits.
+After a subscriber is assigned a subscription in the Visual Studio Subscriptions Admin portal, GitHub is updated with these users and reflects them as **Pending Members**. An organization owner needs to invite pending members to an organization to access their GitHub Enterprise benefits.
 
 To add a user to your organization in GitHub:
 
@@ -108,10 +108,10 @@ If you have questions, contact your GitHub or Microsoft account manager. You can
 
 Learn more about managing Visual Studio subscriptions.
 
-* [Assign individual subscriptions](assign-license.md)
-* [Assign multiple subscriptions](assign-license-bulk.md)
-* [Edit subscriptions](edit-license.md)
-* [Delete subscriptions](delete-license.md)
-* [Determine maximum usage](maximum-usage.md)
+* [Assign individual subscriptions](assign-license.md).
+* [Assign multiple subscriptions](assign-license-bulk.md).
+* [Edit subscriptions](edit-license.md).
+* [Delete subscriptions](delete-license.md).
+* [Determine maximum usage](maximum-usage.md).
 
 For more information about managing Visual Studio subscriptions with GitHub Enterprise, check out the Visual Studio [Subscriptions Admin portal](https://visualstudio.microsoft.com/subscriptions-administration/).
