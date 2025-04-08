@@ -15,7 +15,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
 > [!NOTE]
 > The Text Template Transformation SDK and the Visual Studio Modeling SDK are installed automatically when you install specific features of Visual Studio. For more details, see [this blog post](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/).
 
-If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this site: [Visualization and Modeling SDK](https://code.msdn.microsoft.com/Visualization-and-Modeling-313535db)
+If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this repository: https://github.com/lumon-Ind/MoSDK-Lab
 
 ## What can you do with a Domain-Specific Language?
 
@@ -49,31 +49,41 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
 1. On the **File** menu, point to **New**, and then click **Project**.
 
-2. Under **Project types**, expand the **Other Project Types** node, and click **Extensibility**.
+2. **Create a new project.**
+     - In the search field type **domain**
 
-3. Click **Domain-Specific Language Designer**.
+     - Click **Domain-Specific Language Designer**, and then click **Next**.
 
-     ![Create DSL dialog](../modeling/media/create_dsldialog.png)
+   ![image](https://github.com/user-attachments/assets/4a344a53-6a6d-4aef-b469-085889b64b4e)
 
-4. In the **Name** box, type **FamilyTree**. Click **OK**.
+3. **Configure your new project**.
 
-     The **Domain-Specific Language Wizard** opens, and displays a list of template DSL solutions.
+     ![image](https://github.com/user-attachments/assets/67b233e8-7c74-42a8-9c70-91d0154e17f1)
 
-     Click each template to see a description,
+     - In the **Project name** box, type **FamilyTree**. Click **Create**.
+5. The **Domain-Specific Language Designer Wizard** opens, and displays a list of template DSL solutions.
+
+     ![image](https://github.com/user-attachments/assets/056bd69f-0c99-4b44-ab00-84b703f9947b)
+
+     - Click each template to see a description,
 
      The templates are useful starting points. Each of them provides a complete working DSL, which you can edit to suit your needs. Ordinarily, you would choose the template nearest what you want to create.
 
-5. For this walkthrough, choose the **Minimal Language** template.
+     - For this walkthrough, choose the **Minimal Language** template. Click **Next**.
+6. **Define New Model File Type**
 
-6. Enter a file name extension for your DSL in the appropriate wizard page. This is the extension that files containing instances of your DSL will use.
+     ![image](https://github.com/user-attachments/assets/dc9ea978-f66a-480a-8998-9ac70ab67639)
 
-    - Choose an extension that is not associated with any application in your computer, or in any computer where you want to install the DSL. For example, **docx** and **htm** would be unacceptable file name extensions.
+     - Enter a file name extension **ftree** for your DSL in the field **What extension should model files use?**. This is the extension that files containing instances of your DSL will use.
+     > [!IMPORTANT]
+     > You must choose an extension that is not associated with any application in your computer, or in any computer where you want to install the DSL. For example, **docx** and **htm** would be unacceptable file name extensions.
+     > The wizard will warn you if the extension that you have entered is being used as a DSL. In this case consider using a different file name extension. You can also reset the Visual Studio SDK Experimental instance to clear out old experimental designers. In the Windows **Start** menu, type **Reset the Visual Studio**, and then run the **Reset the Microsoft Visual Studio Experimental Instance** command matching your version of Visual Studio.
 
-    - The wizard will warn you if the extension that you have entered is being used as a DSL. Consider using a different file name extension. You can also reset the Visual Studio SDK Experimental instance to clear out old experimental designers. In the Windows **Start** menu, type **reset the Visual Studio**, and then run the **Reset the Microsoft Visual Studio Experimental Instance** command matching your version of Visual Studio.
+7. Inspect the other pages (click **Next**) and then click **Finish**.
 
-7. Inspect the other pages and then click **Finish**.
+   ![image](https://github.com/user-attachments/assets/0f00c29f-3954-4faa-add6-8075ed531242)
 
-     A solution is generated that contains two projects. They are named Dsl and DslPackage. A diagram file opens that is named DslDefinition.dsl.
+    A solution is generated that contains two projects. They are named **Dsl** and **DslPackage**. A diagram file opens that is named **DslDefinition.dsl**.
 
     > [!NOTE]
     > Most of the code that you can see in the folders in the two projects is generated from DslDefinition.dsl. For this reason, most modifications to your DSL are made in this file.
