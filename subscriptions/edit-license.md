@@ -38,7 +38,7 @@ To learn how to edit multiple subscribers by using bulk edit, watch the followin
 
 1. To edit multiple subscribers at the same time, navigate to the **Subscribers** tab. In the ribbon at the top, select **Bulk Edit**.
 
-2. Bulk edit makes edits to subscriber information by using an Excel template. In the **Bulk Edit** box, select **Export this excel** to download the current list of subscribers including all of their information.
+2. The **Bulk edit** feature makes edits to subscriber information by using an Excel template. In the **Bulk Edit** box, select **Export this excel** to download the current list of subscribers including all of their information.
    > [!div class="mx-imgBorder"]
    > ![Editing a License - Export Bulk Edits List](_img/edit-license/edit-license-bulk-edit-export.png "Screenshot of the Edit multiple subscribers dialog with the Export this excel link highlighted.")
 
