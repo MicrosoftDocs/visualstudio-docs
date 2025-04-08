@@ -24,7 +24,9 @@ Save time digging through menus by quickly searching for anything you need, incl
 
 - **Use Solution Explorer shortcuts**. If you're new to Visual Studio, these shortcuts come in handy and save you time while you're coming up to speed on a new codebase. For the full list of shortcuts, see [Default keyboard shortcuts in Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_solutionexplorerGLOBAL).
 
+::: zone pivot="programming-language-csharp"
 - **Use keyboard shortcuts from a different editor**. If you're coming from another IDE or coding environment, you can change your keyboard scheme to *Visual Studio Code* or *ReSharper (Visual Studio)* using **Tools > Options** settings for **Environment > Keyboard**. Some extensions also offer keyboard schemes: [HotKeys for Visual Studio (ReSharper/IntelliJ)](https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.HotKeys) and [VSVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim).
+::: zone-end
 
 - **[Identify and customize keyboard shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)**. You can identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use. You can always find and change a keyboard shortcut in the Options dialog box.
 
@@ -83,6 +85,12 @@ Write code more quickly by using the following features.
 
 ::: zone pivot="programming-language-csharp"
 - **Apply code styles with code cleanup** Visual Studio provides on-demand formatting of your code file, including code style preferences, through the Code Cleanup feature. To run Code Cleanup, select the broom icon at the bottom of the editor or press **Ctrl+K, Ctrl+E**. For detailed instructions, see [Code style preferences](../ide/code-styles-and-code-cleanup.md).
+::: zone-end
+
+::: zone pivot="programming-language-csharp,programming-language-cpp,programming-language-vb"
+::: moniker range=">=vs-2022" 
+- **Write or generate unit tests** Test Explorer automatically discovers unit tests written using supported test frameworks. You can use Copilot or built-in features to generate unit tests. For more information, see [Unit test basics](/test/unit-test-basics.md) and [Create unit test method stubs from code](../test/create-unit-tests-menu.md). 
+::: moniker-end
 ::: zone-end
 
 ::: zone pivot="programming-language-csharp,programming-language-vb"
