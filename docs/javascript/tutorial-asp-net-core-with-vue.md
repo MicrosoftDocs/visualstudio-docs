@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: Create an ASP.NET Core project to serve as an API backend and a Vue project to provide the user interface in Visual Studio.
-ms.date: 11/06/2024
+ms.date: 4/07/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -203,6 +203,9 @@ If you create the project with [Docker support](../containers/overview.md#prereq
    ```
 
    change `https://localhost:7163` to the matching HTTPS port (in this example, `https://localhost:60833`).
+
+   > [!NOTE]
+   > If the HTTPS port is missing in the Containers window, you can use **launchSettings.json** file to add the port. In the section `Container (Dockerfile)` and after the entry `"useSSL": true`, add `"sslPort": <any port>`. In this example, use the following: `"sslPort": 60833` 
 
 1. Restart the app.
 
