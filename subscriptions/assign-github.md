@@ -10,7 +10,7 @@ description: Manage an organization's Visual Studio subscriptions by using GitHu
 
 # Set up GitHub Enterprise licenses with Visual Studio subscriptions
 
-Customers who have Enterprise Agreements (EA) with Microsoft are eligible to purchase a subscription offer that brings together Visual Studio standard subscriptions and GitHub Enterprise. It's an easy and economical way for Visual Studio subscribers to acquire GitHub Enterprise.
+Customers who have Enterprise Agreements (EAs) with Microsoft are eligible to purchase a subscription offer that brings together Visual Studio standard subscriptions and GitHub Enterprise. It's an easy and economical way for Visual Studio subscribers to acquire GitHub Enterprise.
 
 Watch the following video to learn how to set up your organization and invite new members, or read on for step-by-step instructions.
 
