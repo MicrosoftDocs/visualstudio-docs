@@ -41,9 +41,11 @@ ms.subservice: office-development
 
  ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs" id="Snippet7":::
+ ---
 
  ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet7":::
+ ---
  The actions pane becomes visible at run time as soon as you explicitly add a control to it. After the actions pane is displayed, you can dynamically add or remove controls in response to the user's actions. Typically, you add the code to display the actions pane in the `Startup` event handler of `ThisDocument` or `ThisWorkbook` so that the actions pane is visible when the user first opens the document. However, you might want to display the actions pane only in response to a user's action in the document. For example, you might add the code to the `Click` event of a control on the document.
 
 ### Add multiple controls to the actions pane
@@ -72,7 +74,6 @@ ms.subservice: office-development
 
      ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet34":::
-     ---
 
 - For Excel, set the <xref:Microsoft.Office.Interop.Excel._Application.DisplayDocumentActionTaskPane%2A> property of the <xref:Microsoft.Office.Tools.Excel.Workbook.Application%2A> object to **false**. The following code example is intended to be run from the `ThisWorkbook` class in your project.
 
@@ -81,7 +82,6 @@ ms.subservice: office-development
 
      ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneExcelVB/ThisWorkbook.vb" id="Snippet11":::
-     ---
 
 - For Word or Excel, you can alternatively set the <xref:Microsoft.Office.Core.CommandBar.Visible%2A> property of the command bar that represents the task pane to **false**. The following code example is intended to be run from the `ThisDocument` or `ThisWorkbook` class in your project.
 
@@ -90,7 +90,6 @@ ms.subservice: office-development
 
      ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneExcelVB/ThisWorkbook.vb" id="Snippet9":::
-     ---
 
 ### Clear the actions pane when the document is opened
  When a user saves the document while the actions pane is visible, the actions pane is visible every time the document is opened, whether or not the actions pane contains any controls. If you want to control when it appears, call the <xref:Microsoft.Office.Tools.ActionsPane.Clear%2A> method of the `ActionsPane` field in the `Startup` event handler of `ThisDocument` or `ThisWorkbook` to ensure that the actions pane is not visible when the document is opened.
@@ -136,9 +135,11 @@ ms.subservice: office-development
 
  ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneExcelCS/ThisWorkbook.cs" id="Snippet10":::
+ ---
 
  ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneExcelVB/ThisWorkbook.vb" id="Snippet10":::
+ ---
 ## Anchor controls
  If the user resizes the actions pane at run time, the controls can resize with the actions pane. You can use the <xref:System.Windows.Forms.Control.Anchor%2A> property of a Windows Forms control to anchor controls to the actions pane. You can also anchor the Windows Forms controls onto the user control in the same manner. For more information, see [How to: Anchor controls on Windows Forms](/dotnet/framework/winforms/controls/how-to-anchor-controls-on-windows-forms).
 
@@ -149,9 +150,12 @@ ms.subservice: office-development
 
  ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs" id="Snippet102":::
+ ---
 
  ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet102":::
+ ---
+
 ## Reposition the actions pane
  You cannot directly reposition the <xref:Microsoft.Office.Tools.ActionsPane> because it is embedded in the task pane. However, you can programmatically move the task pane by setting the <xref:Microsoft.Office.Core.CommandBar.Position%2A> property of the <xref:Microsoft.Office.Core.CommandBar> that represents the task pane.
 
@@ -159,9 +163,12 @@ ms.subservice: office-development
 
  ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs" id="Snippet100":::
+ ---
 
  ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet100":::
+ ---
+
 > [!NOTE]
 > End users can manually reposition the task pane at any time. There is no way to ensure that the task pane will remain docked at the position you indicate programmatically. However, you can check for orientation changes and ensure that the controls on the actions pane are stacked in the correct direction. For more information, see [How to: Manage control layout on actions panes](../vsto/how-to-manage-control-layout-on-actions-panes.md).
 
@@ -171,9 +178,12 @@ ms.subservice: office-development
 
  ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs" id="Snippet101":::
+  ---
 
  ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet101":::
+ ---
+
 ## Related content
 - [Use WPF controls in Office solutions](../vsto/using-wpf-controls-in-office-solutions.md)
 - [Office UI customization](../vsto/office-ui-customization.md)
