@@ -18,9 +18,16 @@ ms.subservice: office-development
 ---
 # Actions pane overview
 
-[!INCLUDE[actions-retirement-md](../vsto/includes/actions-retirement-md.md)]
-
-  An actions pane is a customizable **Document Actions** task pane that is attached to a specific Microsoft Office Word document or Microsoft Office Excel workbook. The actions pane is hosted inside the Office task pane along with other built-in task panes, such as the **XML Source** task pane in Excel or the **Styles and Formatting** task pane in Word. You can use Windows Forms controls or WPF controls to design the actions pane user interface.
+> [!IMPORTANT]
+> The Actions feature has been retired from Microsoft Word starting in Office 2024.
+> This feature is only available in Microsoft Word with the following releases of Office:
+> - Microsoft 365
+> - Office LTSC Professional Plus 2021
+> - Office LTSC Standard 2021
+> - Office Professional Plus 2016, 2019
+> - Office Standard 2016, 2019
+> 
+ An actions pane is a customizable **Document Actions** task pane that is attached to a specific Microsoft Office Word document or Microsoft Office Excel workbook. The actions pane is hosted inside the Office task pane along with other built-in task panes, such as the **XML Source** task pane in Excel or the **Styles and Formatting** task pane in Word. You can use Windows Forms controls or WPF controls to design the actions pane user interface.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
 
@@ -37,8 +44,6 @@ ms.subservice: office-development
 
  ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet7":::
- ---
-
  The actions pane becomes visible at run time as soon as you explicitly add a control to it. After the actions pane is displayed, you can dynamically add or remove controls in response to the user's actions. Typically, you add the code to display the actions pane in the `Startup` event handler of `ThisDocument` or `ThisWorkbook` so that the actions pane is visible when the user first opens the document. However, you might want to display the actions pane only in response to a user's action in the document. For example, you might add the code to the `Click` event of a control on the document.
 
 ### Add multiple controls to the actions pane
@@ -134,8 +139,6 @@ ms.subservice: office-development
 
  ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneExcelVB/ThisWorkbook.vb" id="Snippet10":::
- ---
-
 ## Anchor controls
  If the user resizes the actions pane at run time, the controls can resize with the actions pane. You can use the <xref:System.Windows.Forms.Control.Anchor%2A> property of a Windows Forms control to anchor controls to the actions pane. You can also anchor the Windows Forms controls onto the user control in the same manner. For more information, see [How to: Anchor controls on Windows Forms](/dotnet/framework/winforms/controls/how-to-anchor-controls-on-windows-forms).
 
@@ -149,8 +152,6 @@ ms.subservice: office-development
 
  ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet102":::
- ---
-
 ## Reposition the actions pane
  You cannot directly reposition the <xref:Microsoft.Office.Tools.ActionsPane> because it is embedded in the task pane. However, you can programmatically move the task pane by setting the <xref:Microsoft.Office.Core.CommandBar.Position%2A> property of the <xref:Microsoft.Office.Core.CommandBar> that represents the task pane.
 
@@ -161,8 +162,6 @@ ms.subservice: office-development
 
  ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet100":::
- ---
-
 > [!NOTE]
 > End users can manually reposition the task pane at any time. There is no way to ensure that the task pane will remain docked at the position you indicate programmatically. However, you can check for orientation changes and ensure that the controls on the actions pane are stacked in the correct direction. For more information, see [How to: Manage control layout on actions panes](../vsto/how-to-manage-control-layout-on-actions-panes.md).
 
@@ -175,8 +174,6 @@ ms.subservice: office-development
 
  ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet101":::
- ---
-
 ## Related content
 - [Use WPF controls in Office solutions](../vsto/using-wpf-controls-in-office-solutions.md)
 - [Office UI customization](../vsto/office-ui-customization.md)
