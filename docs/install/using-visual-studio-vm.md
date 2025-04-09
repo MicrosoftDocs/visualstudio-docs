@@ -23,7 +23,7 @@ New to Azure? [Create a free Azure account](https://azure.microsoft.com/free).
 
 ## What configurations and versions are available?
 
-Images for the most recent major versions, Visual Studio 2022, Visual Studio 2019, and Visual Studio 2017 can be found in the [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps?exp=ubp8&search=visual%20studio&page=1&filters=microsoft%3Bwindows). These images are updated at least every month to include the latest Visual Studio and Windows updates.  While the names of the images remain the same, each image's description includes the installed product version and the image's "as of" date.
+Images for the latest major versions, Visual Studio 2022, Visual Studio 2019, and Visual Studio 2017 are available in the [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps?exp=ubp8&search=visual%20studio&page=1&filters=microsoft%3Bwindows). These images are updated at least once a month to include the latest Visual Studio and Windows updates.  While the image names stay the same, the description of each image specifies the installed product version and the "as of" date.
 
 | Release version                                                                                                                                                | Editions              | Product version       |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|-----------------------|
