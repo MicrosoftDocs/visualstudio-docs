@@ -16,7 +16,21 @@ ms.subservice: office-development
 ---
 # Add a custom task pane to an application
 
-  You can add a custom task pane to the applications listed above by using VSTO Add-in. For more information, see [Custom task panes](../vsto/custom-task-panes.md).
+
+
+
+> [!IMPORTANT]
+> The Actions feature has been retired from Microsoft Word starting in Office 2024.
+> This feature is only available in Microsoft Word with the following releases of Office:
+> - Microsoft 365
+> - Office LTSC Professional Plus 2021
+> - Office LTSC Standard 2021
+> - Office Professional Plus 2016, 2019
+> - Office Standard 2016, 2019
+
+ 
+
+You can add a custom task pane to the applications listed above by using VSTO Add-in. For more information, see [Custom task panes](../vsto/custom-task-panes.md).
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
