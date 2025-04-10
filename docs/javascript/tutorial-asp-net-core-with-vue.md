@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: Create an ASP.NET Core project to serve as an API backend and a Vue project to provide the user interface in Visual Studio.
-ms.date: 4/07/2025
+ms.date: 4/09/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -34,7 +34,7 @@ Make sure to install the following:
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 - npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js.
 
-## Create the frontend app
+## Create the app
 
 1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
 
@@ -56,7 +56,7 @@ Make sure to install the following:
 
    Compared to the [standalone Vue template](../javascript/tutorial-create-vue-app.md), you see some new and modified files for integration with ASP.NET Core:
 
-   - vite.config.json (modified)
+   - vite.config.js (modified)
    - HelloWorld.vue (modified)
    - package.json (modified)
 
@@ -91,7 +91,7 @@ The Vue app appears and is populated via the API (the localhost port may vary fr
 
 :::image type="content" source="media/vs-2022/asp-net-core-weather-forecast-app.png" alt-text="Screenshot showing the weather forecast app.":::
 
-If you don't see the app, see [Troubleshooting](#troubleshooting).
+If you don't see the weather forecast data in the browser, see [Troubleshooting](#troubleshooting).
 
 ## Publish the project
 
