@@ -16,7 +16,7 @@ Watch the following video to learn how to set up your organization and invite ne
 
 > [!VIDEO https://medius.microsoft.com/Embed/video-nc/a453595a-8166-40e0-b1a6-03070413d193?r=813985405783]
 
-After you purchase Visual Studio subscriptions with GitHub Enterprise, you can set your organization up. Follow the instructions for new GitHub Enterprise customers. If you’re an existing GitHub Enterprise customer, skip ahead to [Assigning Visual Studio subscriptions to organization members](#assign-visual-studio-subscriptions-to-organization-members).
+After you purchase Visual Studio subscriptions with GitHub Enterprise, you can set up your organization. Follow the instructions for new GitHub Enterprise customers. If you’re an existing GitHub Enterprise customer, skip ahead to [Assigning Visual Studio subscriptions to organization members](#assign-visual-studio-subscriptions-to-organization-members).
 
 > [!IMPORTANT]
 > If subscription admins assign Visual Studio subscriptions with GitHub Enterprise before they purchase any subscriptions, GitHub isn't notified that you want to create a GitHub Enterprise account. A purchase *of at least one* Visual Studio subscription with GitHub Enterprise should be made before subscriptions are assigned. If you already purchased Visual Studio subscriptions with GitHub Enterprise, you don't need to wait for the GitHub setup process to be completed before you assign subscriptions.
@@ -73,13 +73,13 @@ After a subscriber is assigned a subscription in the Visual Studio Subscriptions
 
 To add a user to your organization in GitHub:
 
-1. Select **Organizations** in the left nav pane.
+1. Select **Organizations** in the left menu.
 0. Choose the organization to which you want to add subscribers.
    > [!div class="mx-imgBorder"]
-   > ![Choose Organizations](_img/assign-github/organizations.png "Screenshot of left nav pane in GitHub. Organizations is highlighted.")
+   > ![Choose Organizations](_img/assign-github/organizations.png "Screenshot of left menu in GitHub. Organizations is highlighted.")
 0. Select the **People** tab.
 0. If you're an owner of the organization, you see an **Invite member** button. Select it.
-0. Enter the email address you used to assign a subscription to the new member, and select **Invite**.
+0. Enter the email address you used to assign a subscription to the new member and select **Invite**.
    > [!div class="mx-imgBorder"]
    > ![Invite members](_img/assign-github/invite-member.png "Screenshot of dialog for inviting new members to your organization.")
 0. Select **Send invitation**. The user appears in the list of pending invitations.
@@ -106,7 +106,7 @@ If you have questions, contact your GitHub or Microsoft account manager. You can
 * [Azure documentation](/azure/)
 * [Microsoft 365 documentation](/microsoft-365/)
 
-Learn more about managing Visual Studio subscriptions.
+Learn more about managing Visual Studio subscriptions:
 
 * [Assign individual subscriptions](assign-license.md).
 * [Assign multiple subscriptions](assign-license-bulk.md).
