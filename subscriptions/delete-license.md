@@ -22,7 +22,7 @@ To learn how to delete assignments, watch the following video or continue readin
 
 ## Delete a subscription assignment
 
-1. Select the name of the subscriber who you want to remove. To select multiple subscribers for removal, you can select the circle to the left of the subscriber name to select each one. Or you can hold down the `CTRL` key and select each subscriber you wish to remove. To remove a range of subscribers, select the first one, press the **Shift** key, and then select the last one. Press the `CTRL+A` buttons to select and remove all subscribers. In this example, three subscribers named Amber, Kai, and Madison are deleted.
+1. Select the name of the subscriber you want to remove. To select multiple subscribers for removal, you can select the circle to the left of the subscriber name to select each one. Or you can hold down the `CTRL` key and select each subscriber you want to remove. To remove a range of subscribers, select the first one, press the **Shift** key, and then select the last one. Press the `CTRL+A` buttons to select and remove all subscribers. In this example, three subscribers named Amber, Kai, and Madison are deleted.
 2. To delete the selected subscribers, select **Delete**.
 
    > [!div class="mx-imgBorder"]
@@ -30,19 +30,19 @@ To learn how to delete assignments, watch the following video or continue readin
 
 3. When a message appears that asks you to confirm the deletion, select **OK**.
 
-> [!NOTE]
-> If you added subscription assignments through Microsoft Entra groups, it might take up to 24 hours for the deletion to be updated in the admin portal. For more information about by using Microsoft Entra groups to manage subscriptions, see [this article about adding multiple users](assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions).
+   > [!NOTE]
+   > If you added subscription assignments through Microsoft Entra groups, it might take up to 24 hours for the deletion to be updated in the admin portal. For more information about by using Microsoft Entra groups to manage subscriptions, see [this article about adding multiple users](assign-license-bulk.md#use-entra-id-groups-to-assign-subscriptions).
 
 ## Delete a large number of subscriptions
 
 If you need to delete a large number of subscription assignments, you can use the **Bulk edit** feature.
 
-  > [!IMPORTANT]
-  > Before making large changes to your subscriber list, we recommend that you create a backup of your current list. Select the **Export** option to create a backup. This action places an Excel copy of your current list in your downloads folder.
- > 
- > Don't use this approach to manage cloud subscriptions. While you can download and complete the bulk edit template, you can't upload the template with your changes.
+> [!IMPORTANT]
+> Before you make large changes to your subscriber list, we recommend that you create a backup of your current list. Select the **Export** option to create a backup. This action places an Excel copy of your current list in your downloads folder.
+> 
+> Don't use this approach to manage cloud subscriptions. Although you can download and complete the bulk edit template, you can't upload the template with your changes.
 
-1. Sign in to <https://manage.visualstudio.com> by using an email address with admin rights for the agreement that was used to purchase the subscriptions.
+1. [Sign in](https://manage.visualstudio.com) by using an email address with admin rights for the agreement that was used to purchase the subscriptions.
 0. Select the **Bulk edit** option.
    > [!div class="mx-imgBorder"]
    > ![Select Bulk edit](_img/delete-license/bulk-edit-select.png "Screenshot of manage subscribers page in the admin portal. The Bulk edit menu option is highlighted.")
@@ -53,7 +53,7 @@ If you need to delete a large number of subscription assignments, you can use th
    > ![Select Export this excel](_img/delete-license/export-this-excel-select.png "Screenshot of Edit multiple subscribers dialog. The Export this excel link in the first step is highlighted.")
 
 0. Your subscriber list downloads as an Excel file. Locate the file in your downloads folder, and then open it. The file name contains the name of your agreement and the current date.
-0. In a column to the right of the template, paste the email addresses of the subscribers who you want to remove. (In the current template, column **V** is the first one available. Don't unhide any hidden columns and use them.) For this example, we're removing these users:
+0. In a column to the right of the template, paste the email addresses of the subscribers you want to remove. (In the current template, column **V** is the first one available. Don't unhide any hidden columns and use them.) For this example, we're removing these users:
     * `aa-user1@contoso.com`
     * `a-user3@contoso.com`
     * `a-user5@contoso.com`
@@ -61,21 +61,21 @@ If you need to delete a large number of subscription assignments, you can use th
     * `b-user4@contoso.com`
 
    > [!div class="mx-imgBorder"]
-   > ![Add the users who you want to delete](_img/delete-license/user-list-added.png "Screenshot of bulk edit template that shows the users who you want to delete listed in the right-most column. The list of users is highlighted.")
+   > ![Add the users you want to delete](_img/delete-license/user-list-added.png "Screenshot of bulk edit template that shows the users you want to delete listed in the right-most column. The list of users is highlighted.")
 
 0. Select both the column that contains the users you want to delete, and the column that contains the email addresses of all the users. In this case, that's column **B** and column **V**. To select the columns, select the first column heading, and then `CTRL+select` the second column heading. The template should now look like this:
    > [!div class="mx-imgBorder"]
-   > ![Select both user columns](_img/delete-license/columns-selected.png "Screenshot of bulk edit template that shows the columns for all users with the users who you want to delete selected.")
+   > ![Select both user columns](_img/delete-license/columns-selected.png "Screenshot of bulk edit template that shows the columns for all users with the users you want to delete selected.")
 
 0. On the **Home** tab in Excel, select **Conditional Formatting**, choose **Highlight Cells Rules**, and then select **Duplicate Values**.
 0. Select **OK** to accept the default color choice. The users you want to delete should be highlighted in both columns.
    > [!div class="mx-imgBorder"]
-   > ![Duplicates highlighted](_img/delete-license/duplicates-highlighted.png "Screenshot of bulk edit template that shows the columns for all users and the users who you want to delete selected. The user names that you want to delete are highlighted.")
+   > ![Duplicates highlighted](_img/delete-license/duplicates-highlighted.png "Screenshot of bulk edit template that shows the columns for all users and the users you want to delete selected. The user names that you want to delete are highlighted.")
 
 0. To deselect the two columns, select a cell in the spreadsheet.
-0. On the **Data** tab, choose **Filter**.
-0. Select the filter dropdown in column **B**, choose **Sort by color**, and select the color that was applied to the duplicate cells. You should now see only the users you want to delete.
-0. In the **Reference** column for each user, identify the users you want to delete by entering a specific word or phrase. Use the same term for all of the users. In our example, we use "DELETE USER." You can use the "fill down" feature in Excel to replicate the phrase for all of the users. Your template show now look like this:
+0. On the **Data** tab, select **Filter**.
+0. Select the filter dropdown menu in column **B**, select **Sort by color**, and select the color that was applied to the duplicate cells. You should now see only the users you want to delete.
+0. In the **Reference** column for each user, identify the users you want to delete by entering a specific word or phrase. Use the same term for all of the users. In the following example, the phrase is **DELETE USER**. You can use the "fill down" feature in Excel to replicate the phrase for all of the users. Your template show now look like this:
    > [!div class="mx-imgBorder"]
    > ![Filtered User List](_img/delete-license/reference-added.png "Screenshot of template that shows the columns filtered by color. The phrase Delete User has been added to the reference field for each user.")
 
@@ -87,7 +87,7 @@ If you need to delete a large number of subscription assignments, you can use th
    > [!div class="mx-imgBorder"]
    > ![List Showing Reference](_img/delete-license/reference-list.png "Screenshot of subscriber list in the admin portal showing the addition of the reference term marking the users you want to delete.")
 
-0. In the **Filter by name, email or reference** field, enter the word or phrase that you used to mark the users who you want to delete. The filter is applied even if the **Reference** column isn't displayed.
+0. In the **Filter by name, email or reference** field, enter the word or phrase that you used to mark the users you want to delete. The filter is applied even if the **Reference** column isn't displayed.
 0. You should now see only the users you need to delete. You can select one user, then use `CTRL+A` to select them all, and choose **Delete**.
 0. Clear the filter field to display your updated subscriber list.
 
