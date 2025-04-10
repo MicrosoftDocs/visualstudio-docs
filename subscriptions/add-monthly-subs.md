@@ -28,7 +28,7 @@ Whether you need to link your subscription depends on the type of subscriptions 
    > ![Add new monthly subscriptions dropdown menu](_img/add-monthly-subs/add-subs-drop-down.png "Screenshot of Add agreement dropdown menu with the new monthly subscriptions option highlighted.")
 
 > [!NOTE]
-> If the **New monthly subscriptions** option isn't visible when you select the "Add agreements" dropdown menu, it indicates that no monthly subscriptions were purchased in the marketplace or that the monthly subscriptions were automatically linked, allowing for immediate assignment.
+> If the **New monthly subscriptions** option isn't visible when you select the **Add agreement** dropdown menu, it indicates that no monthly subscriptions were purchased in the marketplace or that the monthly subscriptions were automatically linked, allowing for immediate assignment.
 
 4. The system searches to see if you have User Access Administrator rights for any Azure subscriptions and imports any Visual Studio subscriptions purchased with those Azure subscriptions.
 0. If you don't have User Access Administrator rights on any Azure subscriptions, or no Visual Studio subscriptions are found, you receive the following message:
@@ -41,7 +41,7 @@ Whether you need to link your subscription depends on the type of subscriptions 
 ## Things to keep in mind
 
 * The option to link new monthly subscriptions is available only the first time you purchase them. After you link monthly subscriptions, we check for new subscriptions each time you sign in to the portal.
-* When new subscriptions are found, you might see that they're already assigned to subscribers. That behavior is because there are other admins with access to the Azure subscription, and they can also assign the new Visual Studio subscriptions to users. Now that you linked them to your portal, you can administer those subscriptions.
+* When new subscriptions are found, you might see that they're already assigned to subscribers. The reason is that there are other admins with access to the Azure subscription, and they can also assign the new Visual Studio subscriptions to users. Now that you linked them to your portal, you can administer those subscriptions.
 
 ## Support resources
 
