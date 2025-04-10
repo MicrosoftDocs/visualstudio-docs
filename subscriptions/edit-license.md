@@ -19,11 +19,11 @@ As a subscription admin, you can make changes to the subscriptions assigned to m
 
 You can edit a subscriber's information to correct errors or update information.
 
-To edit a subscriber, select the ellipses (…) that appears next to the subscriber's email address when you hover your mouse over it. Use the dropdown to select **Edit** to modify the subscriber’s details.
+To edit a subscriber, select the ellipses (…) that appears next to the subscriber's email address when you hover your mouse over it. Use the dropdown menu to select **Edit** to modify the subscriber's details.
 > [!div class="mx-imgBorder"]
 > ![Select subscriber to edit](_img/edit-license/select-subscriber.png "Screenshot of flyout menu. Select the ellipses and choose Edit.")
 
-You can update the following fields: subscriber's first name, family name, subscription level, email address, country/region, language, downloads, and reference. Edit the subscriber’s information, and select **Save**.
+You can update the following fields: subscriber's first name, family name, subscription level, email address, country/region, language, downloads, and reference. Edit the subscriber's information, and select **Save**.
 
 ## <a name = "edit-multiple-subscribers-using-bulk-edit"></a> Edit multiple subscribers by using bulk edit
 
@@ -34,17 +34,17 @@ To learn how to edit multiple subscribers by using bulk edit, watch the followin
 > [!VIDEO https://medius.microsoft.com/Embed/video-nc/325f5ca9-c8c9-4a15-a93d-8190423c9ef7?r=552201291173]
 
 > [!NOTE]
-> Don't change subscription Globally Unique Identifiers (GUIDs) in the template. See our article about [assigning specific subscription GUIDs](assign-guid.md).
+> Don't change subscription GUIDs in the template. See this article about [assigning specific subscription GUIDs](assign-guid.md).
 
-1. To edit multiple subscribers at the same time, navigate to the **Subscribers** tab. In the ribbon at the top, select **Bulk Edit**.
+1. To edit multiple subscribers at the same time, go to the **Subscribers** tab. In the ribbon at the top, select **Bulk Edit**.
 
-2. The **Bulk edit** feature makes edits to subscriber information by using an Excel template. In the **Bulk Edit** box, select **Export this excel** to download the current list of subscribers including all of their information.
+2. The **Bulk edit** feature makes edits to subscriber information by using an Excel template. In the **Bulk Edit** box, select **Export this excel** to download the current list of subscribers, including all of their information.
    > [!div class="mx-imgBorder"]
    > ![Editing a License - Export Bulk Edits List](_img/edit-license/edit-license-bulk-edit-export.png "Screenshot of the Edit multiple subscribers dialog with the Export this excel link highlighted.")
 
-3. Next, save the file locally so that you can easily find it and make any necessary changes before uploading it.
+3. Save the file locally so that you can easily find it and make any necessary changes before uploading it.
 
-4. Return to the Visual Studio Subscriptions Admin portal and in the **Bulk Edit** dialog box, select **Browse**. Choose the Excel file you saved and select **OK**. The upload progress appears.
+4. Return to the Visual Studio Subscriptions Admin portal and in the **Bulk Edit** dialog, select **Browse**. Choose the Excel file you saved and select **OK**. The upload progress appears.
    > [!div class="mx-imgBorder"]
    > ![Editing a License - Bulk Edits File Upload](_img/edit-license/edit-license-bulk-file-upload1.png "Screenshot of the Edit multiple subscribers dialog with the name of the completed template highlighted.")
 
