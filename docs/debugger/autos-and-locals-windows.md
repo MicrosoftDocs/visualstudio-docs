@@ -22,9 +22,9 @@ When you try to debug an issue, you are often attempting to find out whether var
 
 This article shows you how to inspect variables and view return values using the debugger in Visual Studio. The debugger provides several convenient ways to perform these tasks, including the following:
 
-- In the code editor, view data tips and inline return values
-- View variables in debugger windows (Autos, Locals, and Watch windows)
-- Opne visualizers for large strings or complex .NET objects
+- In the code editor, you can view data tips and inline return values
+- In debugger windows (Autos, Locals, and Watch windows), you can view variable values
+- In visualizers, you can view large strings or complex .NET objects
 
 These features are only available while debugging. To learn how to start a debugging session, see [Start debugging and enter break mode](../debugger/navigating-through-code-with-the-debugger.md#start-debugging-and-enter-break-mode).
 
