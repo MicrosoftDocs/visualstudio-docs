@@ -52,5 +52,5 @@ The information in the overview shows the *current* assignments and available su
 * [Azure DevOps services documentation](/azure/devops/)
 * [Azure documentation](/azure/)
 * [Microsoft 365 documentation](/microsoft-365/)
-* If you have any questions about subscription assignments or other aspects of the admin portal, contact https://visualstudio.microsoft.com/subscriptions/support/ for assistance.
+* If you have any questions about subscription assignments or other aspects of the admin portal, go to [Visual Studio Subscription Support](https://visualstudio.microsoft.com/subscriptions/support/) for assistance.
 * Find out what to do if you assign more subscriptions than you purchased, known as [overallocations](handle-overclaimed-license.md).
