@@ -19,7 +19,7 @@ Watch the following video to learn how to set up your organization and invite ne
 After you purchase Visual Studio subscriptions with GitHub Enterprise, you can set up your organization. Follow the instructions for new GitHub Enterprise customers. If you're an existing GitHub Enterprise customer, skip ahead to [Assigning Visual Studio subscriptions to organization members](#assign-visual-studio-subscriptions-to-organization-members).
 
 > [!IMPORTANT]
-> If subscription admins assign Visual Studio subscriptions with GitHub Enterprise before they purchase any subscriptions, GitHub isn't notified that you want to create a GitHub Enterprise account. 
+> If subscription admins assign Visual Studio subscriptions with GitHub Enterprise before they purchase any subscriptions, GitHub isn't notified that they want to create a GitHub Enterprise account. 
 >
 > A purchase *of at least one* Visual Studio subscription with GitHub Enterprise should be made before subscriptions are assigned. If you already purchased Visual Studio subscriptions with GitHub Enterprise, you don't need to wait for the GitHub setup process to be completed before you assign subscriptions.
 
