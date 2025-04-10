@@ -35,7 +35,7 @@ As a new GitHub Enterprise customer, you and your team need to get access to you
 
 0. Enter a name for your new organization. This name appears on [GitHub](https://github.com/). Select **Create organization**.
 
-0. Add users with **Organization Owner** permissions. These users can add members and manage organization-level settings. Be sure to select **Finish** when you’re done adding Organization Owners. Now your new organization is ready for members to be added.
+0. Add users with **Organization Owner** permissions. These users can add members and manage organization-level settings. Be sure to select **Finish** when you’re done adding organization owners. Now your new organization is ready for members to be added.
 
 ## Assign Visual Studio subscriptions to organization members
 
@@ -64,7 +64,7 @@ If any of your subscribers renewed from regular Visual Studio subscriptions to V
 
 You can review the impacted subscribers and specify if you want them to receive an email after the move is finished. This email informs subscribers that their benefits remain unchanged and encourages them to begin setting up a presence in GitHub.
 
-When you select the **Move subscribers** button, you can move all recommended subscribers or choose individuals from a list. After you confirm your selections, it takes a few seconds for the subscription moves to complete. If applicable, perform these steps for Professional and Enterprise separately.
+When you select the **Move subscribers** button, you can move all recommended subscribers or choose individuals from a list. After you confirm your selections, it takes a few seconds for the subscription moves to finish. If applicable, perform these steps for Professional and Enterprise separately.
 
 > [!NOTE]
 > If you need to update a single subscriber who is currently assigned through a Microsoft Entra group, see this article about [Editing Visual Studio subscription assignments](/visualstudio/subscriptions/edit-license).

@@ -11,7 +11,7 @@ description:  Learn how admins can delete subscription assignments in the Visual
 
 # Delete assignments in Visual Studio subscriptions
 
-When a subscriber no longer requires a Visual Studio subscription, you can remove their subscription and assign it to someone else. When you reassign a subscription, not all the subscriber benefits are reset. The new user is able to claim any unclaimed keys and view previously claimed keys but claim limits are *not* reset. For organizations that have Enterprise Agreements (EAs), any benefits that were used by the original user, such as Pluralsight training, are reset.
+When a subscriber no longer requires a Visual Studio subscription, you can remove their subscription and assign it to someone else. When you reassign a subscription, not all the subscriber benefits are reset. The new user is able to claim any unclaimed keys and view previously claimed keys, but claim limits are *not* reset. For organizations that have Enterprise Agreements (EAs), any benefits that were used by the original user, such as Pluralsight training, are reset.
 
 > [!IMPORTANT]
 > Subscriptions can only be assigned to different users if a minimum of 90 days have passed after the subscription was last assigned. For example, if a subscription was assigned to a subscriber on June 1, it can't be assigned to a new subscriber until at least August 30.
@@ -74,8 +74,8 @@ If you need to delete a large number of subscription assignments, you can use th
 
 0. To deselect the two columns, select a cell in the spreadsheet.
 0. On the **Data** tab, select **Filter**.
-0. Select the filter dropdown menu in column **B**, select **Sort by color**, and select the color that was applied to the duplicate cells. You should now see only the users you want to delete.
-0. In the **Reference** column for each user, identify the users you want to delete by entering a specific word or phrase. Use the same term for all of the users. In the following example, the phrase is **DELETE USER**. You can use the "fill down" feature in Excel to replicate the phrase for all of the users. Your template show now look like this:
+0. Select the filter dropdown menu in column **B**, choose **Sort by color**, and select the color that was applied to the duplicate cells. You should now see only the users you want to delete.
+0. In the **Reference** column for each user, identify the users you want to delete by entering a specific word or phrase. Use the same term for all of the users. In the following example, the phrase is **DELETE USER**. You can use the **fill down** feature in Excel to replicate the phrase for all of the users. Your template show now look like this:
    > [!div class="mx-imgBorder"]
    > ![Filtered User List](_img/delete-license/reference-added.png "Screenshot of template that shows the columns filtered by color. The phrase Delete User has been added to the reference field for each user.")
 
