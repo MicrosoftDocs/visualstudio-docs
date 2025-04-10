@@ -16,7 +16,7 @@ Watch the following video to learn how to set up your organization and invite ne
 
 > [!VIDEO https://medius.microsoft.com/Embed/video-nc/a453595a-8166-40e0-b1a6-03070413d193?r=813985405783]
 
-After you purchase Visual Studio subscriptions with GitHub Enterprise, you can set up your organization. Follow the instructions for new GitHub Enterprise customers. If you’re an existing GitHub Enterprise customer, skip ahead to [Assigning Visual Studio subscriptions to organization members](#assign-visual-studio-subscriptions-to-organization-members).
+After you purchase Visual Studio subscriptions with GitHub Enterprise, you can set up your organization. Follow the instructions for new GitHub Enterprise customers. If you're an existing GitHub Enterprise customer, skip ahead to [Assigning Visual Studio subscriptions to organization members](#assign-visual-studio-subscriptions-to-organization-members).
 
 > [!IMPORTANT]
 > If subscription admins assign Visual Studio subscriptions with GitHub Enterprise before they purchase any subscriptions, GitHub isn't notified that you want to create a GitHub Enterprise account. 
@@ -33,7 +33,7 @@ As a new GitHub Enterprise customer, you and your team need to get access to you
 
 0. To add users, you need to have an organization to invite them to. To create an organization, select the **New Organization** button.
 
-0. Enter a name for your new organization. This name is the name that appears on https://github.com/. Select **Create organization**.
+0. Enter a name for your new organization. This name appears on [GitHub](https://github.com/). Select **Create organization**.
 
 0. Add users with **Organization Owner** permissions. These users can add members and manage organization-level settings. Be sure to select **Finish** when you’re done adding Organization Owners. Now your new organization is ready for members to be added.
 

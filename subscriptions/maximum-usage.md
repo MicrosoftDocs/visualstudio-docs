@@ -21,7 +21,7 @@ To learn how to use the maximum usage feature, watch the following video or read
 To see the peak number of subscriptions assigned for any agreement and subscription level:
 
 1. Select the agreement that you want to view in the dropdown menu at the top left of the portal. (If you have only one agreement, it's automatically selected.)
-2. Select the **maximum usage** icon that is the third icon from the top on the left side of the subscriber grid.  
+2. Select the **maximum usage** icon (the third icon from the top on the left side of the subscriber grid).  
 
     > [!div class="mx-imgBorder"]
     > ![Maximum Usage Fly Out](_img/maximum-usage/maximum-usage-menu.png "Screenshot of the maximum usage dialog.  The maximum usage button in the left pane is highlighted.")
