@@ -10,7 +10,7 @@ description:  Learn how to link newly purchased monthly Visual Studio subscripti
 
 # Link new monthly Visual Studio subscriptions to the Subscriptions Admin portal
 
-If you're an Azure admin and purchased new monthly Visual Studio subscriptions by using an Azure subscription in the [Marketplace](https://marketplace.visualstudio.com/subscriptions), you might need to link them into your specific admin group. You can link them by using the Subscriptions Admin portal.
+If you're an Azure admin and purchased new monthly Visual Studio subscriptions by using an Azure subscription in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions), you might need to link them into your specific admin group. You can link them by using the Subscriptions Admin portal.
 
 ## How do I know if I need to link my subscriptions?
 
@@ -23,13 +23,12 @@ Whether you need to link your subscription depends on the type of subscriptions 
 ## How to link monthly subscriptions
 
 1. Sign in to the Subscriptions Admin portal at <https://manage.visualstudio.com>.
-0. On the **Manage subscribers** tab, choose the **Add agreement** dropdown.
-0. Choose **New monthly subscriptions** in the dropdown.
+0. On the **Manage subscribers** tab, select the **Add agreement** dropdown menu and select **New monthly subscriptions**.
    > [!div class="mx-imgBorder"]
-   > ![Add new monthly subscriptions dropdown](_img/add-monthly-subs/add-subs-drop-down.png "Screenshot of Add agreement dropdown with the new monthly subscriptions option highlighted.")
+   > ![Add new monthly subscriptions dropdown menu](_img/add-monthly-subs/add-subs-drop-down.png "Screenshot of Add agreement dropdown menu with the new monthly subscriptions option highlighted.")
 
 > [!NOTE]
-> If the **New monthly subscriptions** option isn't visible when you select the "Add agreements" dropdown, it indicates that no monthly subscriptions were purchased in the marketplace or that the monthly subscriptions were automatically linked, allowing for immediate assignment.
+> If the **New monthly subscriptions** option isn't visible when you select the "Add agreements" dropdown menu, it indicates that no monthly subscriptions were purchased in the marketplace or that the monthly subscriptions were automatically linked, allowing for immediate assignment.
 
 4. The system searches to see if you have User Access Administrator rights for any Azure subscriptions and imports any Visual Studio subscriptions purchased with those Azure subscriptions.
 0. If you don't have User Access Administrator rights on any Azure subscriptions, or no Visual Studio subscriptions are found, you receive the following message:
@@ -59,4 +58,4 @@ For more help, visit:
 * [Visual Studio documentation](/visualstudio/)
 * [Azure DevOps Services documentation](/azure/devops/)
 * [Azure documentation](/azure/)
-* [Microsoft 365 documentation](/microsoft-365/)
+* [Microsoft 365 documentation](/microsoft-365/)S
