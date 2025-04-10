@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with React"
 description: Create an ASP.NET Core project to serve as an API backend and a React project to provide the user interface in Visual Studio.
-ms.date: 11/06/2024
+ms.date: 04/09/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -32,7 +32,7 @@ You can use the method described in this article to create ASP.NET Core Single P
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 - npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js
 
-## Create the frontend app
+## Create the app
 
 1. In the Start window, select **Create a new project**. <!-- Avoid parenthetical clauses. https://review.learn.microsoft.com/en-us/help/contribute/localization-mt-guidance?branch=main-->
 
@@ -55,8 +55,7 @@ You can use the method described in this article to create ASP.NET Core Single P
    Compared to the [standalone React template](../javascript/tutorial-create-react-app.md), you see some new and modified files for integration with ASP.NET Core:
 
    - vite.config.js
-   - App.js (modified)
-   - App.test.js (modified)
+   - App.jsx (modified)
 
 1. Select an installed browser from the Debug toolbar, such as Chrome or Microsoft Edge.
 
@@ -87,13 +86,13 @@ Press **F5** or select the **Start** button at the top of the window to start th
 - The Vite CLI showing a message such as `VITE v4.4.9 ready in 780 ms`
 
    >[!NOTE]
-   > Check console output for messages. For example there might be a message to update Node.js.
+   > Check console output for messages. For example, there might be a message to update Node.js.
 
 The React app appears and is populated via the API (the localhost port may vary from the screenshot).
 
 :::image type="content" source="media/vs-2022/asp-net-core-weather-forecast-app.png" alt-text="Screenshot showing the weather forecast app.":::
 
-If you don't see the app, see [Troubleshooting](#troubleshooting).
+If you don't see the weather forecast data in the browser, see [Troubleshooting](#troubleshooting).
 
 ## Publish the project
 
