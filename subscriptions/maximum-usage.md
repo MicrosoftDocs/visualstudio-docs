@@ -47,7 +47,7 @@ A: The information in the overview shows the *current* assignments and available
 
 * [Visual Studio licensing white paper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
 * [Visual Studio administration and subscriptions support](https://aka.ms/vsadminhelp)
-* [Volume Licensing terms](https://www.microsoft.com/licensing/product-licensing/products.aspx)
+* [Volume Licensing terms](https://www.microsoft.com/licensing/docs/view/Licensing-Use-Rights)
 * [Visual Studio documentation](/visualstudio/)
 * [Azure DevOps services documentation](/azure/devops/)
 * [Azure documentation](/azure/)
