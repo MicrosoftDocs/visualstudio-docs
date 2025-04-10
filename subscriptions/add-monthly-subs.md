@@ -22,7 +22,7 @@ Whether you need to link your subscription depends on the type of subscriptions 
 
 ## How to link monthly subscriptions
 
-1. Sign in to the Subscriptions Admin portal at <https://manage.visualstudio.com>.
+1. Sign in to the [Subscriptions Admin portal](https://manage.visualstudio.com).
 0. On the **Manage subscribers** tab, select the **Add agreement** dropdown menu and select **New monthly subscriptions**.
    > [!div class="mx-imgBorder"]
    > ![Add new monthly subscriptions dropdown menu](_img/add-monthly-subs/add-subs-drop-down.png "Screenshot of Add agreement dropdown menu with the new monthly subscriptions option highlighted.")
