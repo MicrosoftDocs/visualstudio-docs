@@ -17,7 +17,7 @@ When all of your subscriber information is in one place, it can help you do thin
 * Get an overall view of which subscriptions are used by teams and/or locations across your organization.
 * Develop plans and budgets for future subscription purchases.
 * Encourage users to activate their assigned subscriptions.
-* Identify where subscriptions might be over-allocated.
+* Identify where subscriptions might be overallocated.
 * Assign subscriptions by using the subscription ID to control subscription expiration dates.
 * Migrate subscriptions from expiring agreements to new ones.  
 
