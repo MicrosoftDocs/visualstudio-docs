@@ -16,7 +16,7 @@ If you're an Azure admin and purchased new monthly Visual Studio subscriptions b
 
 Whether you need to link your subscription depends on the type of subscriptions your organization already has, and whether you're a new admin.
 
-* If you're a new admin, the first time you sign in to the Subscriptions Admin portal, we check to see if you have **User Access Administrator** rights for any Azure subscriptions. If we find monthly subscriptions for you, we link them automatically.
+* If you're a new admin, the first time you sign in to the Subscriptions Admin portal, we check to see if you have User Access Administrator rights for any Azure subscriptions. If we find monthly subscriptions for you, we link them automatically.
 * If you linked or administered monthly subscriptions that you purchased by using an Azure subscription, we check for new monthly subscriptions each time you sign in.
 * If you're already an admin for Volume Licensing subscriptions but *haven't* linked or managed monthly subscriptions, you need to link them by using the following steps.
 
@@ -31,8 +31,8 @@ Whether you need to link your subscription depends on the type of subscriptions 
 > [!NOTE]
 > If the **New monthly subscriptions** option isn't visible when you select the "Add agreements" dropdown, it indicates that no monthly subscriptions were purchased in the marketplace or that the monthly subscriptions were automatically linked, allowing for immediate assignment.
 
-4. The system searches to see if you have **User Access Administrator** rights for any Azure subscriptions and imports any Visual Studio subscriptions purchased with those Azure subscriptions.
-0. If you don't have **User Access Administrator** rights on any Azure subscriptions, or no Visual Studio subscriptions are found, you receive the following message:
+4. The system searches to see if you have User Access Administrator rights for any Azure subscriptions and imports any Visual Studio subscriptions purchased with those Azure subscriptions.
+0. If you don't have User Access Administrator rights on any Azure subscriptions, or no Visual Studio subscriptions are found, you receive the following message:
    > [!div class="mx-imgBorder"]
    > ![No new monthly subscriptions found](_img/add-monthly-subs/no-subs-found.png "Screenshot of error message that indicates that no Azure subscriptions or Visual Studio subscriptions are available to you.")
 0. If new monthly subscriptions are found, you receive a confirmation message.
