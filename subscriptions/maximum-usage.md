@@ -11,7 +11,6 @@ description: Learn how to view the maximum number of assigned subscriptions in t
 
 A new feature in the Visual Studio Subscriptions Admin portal helps you track how many subscriptions you purchased and assigned. It also identifies the peak number of subscriptions for each level that you assigned. You can sort information by the past year or throughout the duration of your agreements.
 
-
 ## Maximum usage overview
 
 To learn how to use the maximum usage feature, watch the following video or read on.
