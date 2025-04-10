@@ -81,7 +81,7 @@ To add a user to your organization in GitHub:
    > ![Select Organizations](_img/assign-github/organizations.png "Screenshot of left menu in GitHub. Organizations is highlighted.")
 0. Select the **People** tab.
 0. If you're an owner of the organization, you see an **Invite member** button. Select it.
-0. Enter the email address you used to assign a subscription to the new member and select **Invite**.
+0. Enter the email address you used to assign a subscription to the new member, and then select **Invite**.
    > [!div class="mx-imgBorder"]
    > ![Invite members](_img/assign-github/invite-member.png "Screenshot of dialog for inviting new members to your organization.")
 0. Select **Send invitation**. The user appears in the list of pending invitations.

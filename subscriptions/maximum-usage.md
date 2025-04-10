@@ -20,13 +20,13 @@ To learn how to use the maximum usage feature, watch the following video or read
 
 To see the peak number of subscriptions assigned for any agreement and subscription level:
 
-1. Select the agreement that you wish to view in the dropdown at the top left of the portal. (If you have only one agreement, it's automatically selected.)
+1. Select the agreement that you want to view in the dropdown menu at the top left of the portal. (If you have only one agreement, it's automatically selected.)
 2. Select the **maximum usage** icon that is the third icon from the top on the left side of the subscriber grid.  
 
     > [!div class="mx-imgBorder"]
     > ![Maximum Usage Fly Out](_img/maximum-usage/maximum-usage-menu.png "Screenshot of the maximum usage dialog.  The maximum usage button in the left pane is highlighted.")
 
-3. A dialog that shows the "12-month maximum usage" appears, and the maximum number of subscriptions you assigned within the past year for each level is displayed. You can also see the month in which you reached that peak.
+3. A dialog that shows the 12-month maximum usage appears, and the maximum number of subscriptions you assigned within the past year for each level is displayed. You can also see the month in which you reached that peak.
 
 ## View your assignment history
 
@@ -39,9 +39,9 @@ For each subscription level, the report shows the date you reached a new maximum
 
 ## Frequently asked questions
 
-### Q: How is the information in the maximum usage feature different from the assignment information available in the "Overview" section on the left side of the portal?
+### How is the information in the maximum usage feature different from the assignment information available in the Overview section on the left side of the portal?
 
-A: The information in the overview shows the *current* assignments and available subscriptions for each subscription level. This information might be different from the maximum number of subscriptions assigned for the agreement during the current year or the life of the agreement. The maximum usage feature allows you to see when the maximum assignment levels were reached and what the levels were. This distinction is important, because billing for subscriptions during true-up is based on the maximum number of subscriptions assigned at any point throughout the year.
+The information in the overview shows the *current* assignments and available subscriptions for each subscription level. This information might be different from the maximum number of subscriptions assigned for the agreement during the current year or the life of the agreement. The maximum usage feature allows you to see when the maximum assignment levels were reached and what the levels were. This distinction is important, because billing for subscriptions during true-up is based on the maximum number of subscriptions assigned at any point throughout the year.
 
 ## Related content
 
