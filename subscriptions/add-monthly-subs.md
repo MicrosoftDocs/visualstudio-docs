@@ -27,8 +27,8 @@ Whether you need to link your subscription depends on the type of subscriptions 
    > [!div class="mx-imgBorder"]
    > ![Add new monthly subscriptions dropdown menu](_img/add-monthly-subs/add-subs-drop-down.png "Screenshot of Add agreement dropdown menu with the new monthly subscriptions option highlighted.")
 
-> [!NOTE]
-> If the **New monthly subscriptions** option isn't visible when you select the **Add agreement** dropdown menu, it indicates that no monthly subscriptions were purchased in the marketplace or that the monthly subscriptions were automatically linked, allowing for immediate assignment.
+   > [!NOTE]
+   > If the **New monthly subscriptions** option isn't visible when you select the **Add agreement** dropdown menu, it indicates that no monthly subscriptions were purchased in the marketplace or that the monthly subscriptions were automatically linked, allowing for immediate assignment.
 
 4. The system searches to see if you have User Access Administrator rights for any Azure subscriptions and imports any Visual Studio subscriptions purchased with those Azure subscriptions.
 0. If you don't have User Access Administrator rights on any Azure subscriptions, or no Visual Studio subscriptions are found, you receive the following message:
@@ -50,12 +50,12 @@ For assistance with administration of Visual Studio subscriptions, contact [Visu
 ## Related content
 
 Now that you linked subscriptions, you're ready to assign them to users. You can do that in several ways:
-* [Assign subscriptions individually](assign-license.md).
-* [Assign subscriptions to multiple users](assign-license-bulk.md).
-* [Assign specific subscriptions to specific users](assign-guid.md).
+* [Assign subscriptions individually](assign-license.md)
+* [Assign subscriptions to multiple users](assign-license-bulk.md)
+* [Assign specific subscriptions to specific users](assign-guid.md)
 
 For more help, visit:
 * [Visual Studio documentation](/visualstudio/)
 * [Azure DevOps Services documentation](/azure/devops/)
 * [Azure documentation](/azure/)
-* [Microsoft 365 documentation](/microsoft-365/)S
+* [Microsoft 365 documentation](/microsoft-365/)
