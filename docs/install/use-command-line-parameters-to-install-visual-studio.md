@@ -287,6 +287,12 @@ It's not possible to use either the `--override` switch or the Visual Studio DSC
 
 Note that Visual Studio Installer operations currently require administrator privileges, so winget will prompt you to elevate your privileges if necessary to complete the command. Also, it's currently not possible to use winget to install multiple editions (that is, different SKUs) or multiple instances of the same SKU at the same time on a client machine. Lastly, Visual Studio must be closed if you're going to configure (modify) it to add components, or upgrade it to the latest version.
 
+winget can also install Visual Studio BuildTools separately.
+
+ ```shell
+  winget install --id Microsoft.VisualStudio.2022.BuildTools
+  ```
+
 ## List of workload IDs and component IDs
 
 For a list of workload and component IDs sorted by Visual Studio product, see the [Visual Studio workload and component IDs](workload-and-component-ids.md) page.
