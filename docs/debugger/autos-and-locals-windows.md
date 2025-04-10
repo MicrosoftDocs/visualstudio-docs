@@ -1,7 +1,7 @@
 ---
 title: Inspect variables - Visual Studio debugger
 description: Inspect variables in the Autos and Locals windows while debugging in Visual Studio. The Autos and Locals windows show variable values while you are debugging.
-ms.date: 3/11/2025
+ms.date: 4/10/2025
 ms.topic: how-to
 f1_keywords:
   - vs.debug.autos
@@ -16,21 +16,68 @@ ms.subservice: debug-diagnostics
 ms.collection: ce-skilling-ai-copilot
 ---
 
-# Inspect variables in the Visual Studio debugger
+# Inspect variables and return values in the Visual Studio debugger
 
-Features that allow you to inspect variables are some of the most useful features of the debugger, and there are different ways to do it. Often, when you try to debug an issue, you are attempting to find out whether variables are storing the values that you expect them to have in a particular app state.
+When you try to debug an issue, you are often attempting to find out whether variables are storing the values that you expect them to have in a particular app state. Some of the most useful features of the debugger are those that allow you to inspect variables.
 
-In this article, you'll learn how to inspect variables using the debugger in Visual Studio. The Visual Studio debugger provides several convenient ways to view variable values while debugging, including the following:
+This article shows you how to inspect variables and view return values using the debugger in Visual Studio. The debugger provides several convenient ways to perform these tasks, including the following:
 
-- Variable inspection windows (Autos, Locals, and Watch windows)
-- Data tips in the code editor
-- Inline return values
-- Visualizers for large strings or complex .NET objects
+- In the code editor, view data tips and inline return values
+- View variables in debugger windows (Autos, Locals, and Watch windows)
+- Opne visualizers for large strings or complex .NET objects
 
 These features are only available while debugging. To learn how to start a debugging session, see [Start debugging and enter break mode](../debugger/navigating-through-code-with-the-debugger.md#start-debugging-and-enter-break-mode).
 
 > [!NOTE]
 > If this is the first time that you've tried to debug code, you might want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before going through this article.
+
+## View data tips in the code editor
+
+Often, when debugging, you want a quick way to check property values on objects in the code editor, and the data tips are a good way to do it.
+
+While paused in the debugger, hover over an object with the mouse and you see its value, or its default property value.
+
+::: moniker range=">= vs-2022"
+![View a Data Tip](../debugger/media/vs-2022/dbg-tour-data-tips.png "View a data tip")
+::: moniker-end
+::: moniker range="<= vs-2019"
+![View a Data Tip](../debugger/media/dbg-tour-data-tips.gif "View a data tip")
+::: moniker-end
+
+If the variable has properties, you can expand the object to see all its properties.
+
+For detailed information on using data tips, see [View data values in data tips](../debugger/view-data-values-in-data-tips-in-the-code-editor.md).
+
+::: moniker range=">= vs-2022"
+## View inline return values of method calls in the code editor
+
+In .NET and C++ code, you can examine return values when you step over or out of a method call, which can be useful when the return value is not stored in a local variable. A method could be used as a parameter, or as the return value of another method.
+
+Starting in Visual Studio 2022 version 17.12, you can view return values of method calls inline and not just in the [Autos window](#view-return-values-in-the-autos-window).
+
+[ ![Screenshot showing the return values of method calls.](../debugger/media/vs-2022/view-return-values.png) ](../debugger/media/vs-2022/view-return-values.png#lightbox)
+
+With Copilot enabled, you can also get targeted assistance related to the inline return value by using the Ask Copilot button that appears in the data tip for the return value.
+
+[ ![Screenshot showing the return values of method calls with Copilot icon.](../debugger/media/vs-2022/view-return-values-copilot.png) ](../debugger/media/vs-2022/view-return-values-copilot.png#lightbox)
+::: moniker-end
+
+## Set a watch on variables
+
+You can use a **Watch** window to specify a variable (or an expression) that you want to keep an eye on.
+
+While debugging, right-click an object and choose **Add Watch**.
+
+::: moniker range=">= vs-2022"
+![Watch Window](../debugger/media/vs-2022/dbg-tour-watch-window.png "Watch window")
+::: moniker-end
+::: moniker range="<= vs-2019"
+![Watch Window](../debugger/media/dbg-tour-watch-window.png "Watch window")
+::: moniker-end
+
+In this example, you have a watch set on the object, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** windows always show the variables that you are watching (they're grayed out when out of scope).
+
+For detailed information, see [Set a Watch using the Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md).
 
 ## Inspect variables in the Autos and Locals windows
 
@@ -168,51 +215,7 @@ Different code languages display different variables in the **Autos** window.
 
     The variable `e` is uninitialized, because the line `e = 5` has not yet been executed.
 
-## View data tips
-
-Often, when debugging, you want a quick way to check property values on objects in the code editor, and the data tips are a good way to do it. For detailed information on using data tips, see [View data values in data tips](../debugger/view-data-values-in-data-tips-in-the-code-editor.md).
-
-While paused in the debugger, hover over an object with the mouse and you see its value, or its default property value.
-
-::: moniker range=">= vs-2022"
-![View a Data Tip](../debugger/media/vs-2022/dbg-tour-data-tips.png "View a data tip")
-::: moniker-end
-::: moniker range="<= vs-2019"
-![View a Data Tip](../debugger/media/dbg-tour-data-tips.gif "View a data tip")
-::: moniker-end
-
-If the variable has properties, you can expand the object to see all its properties.
-
-## Set a watch on variables
-
-You can use a **Watch** window to specify a variable (or an expression) that you want to keep an eye on. For detailed information, see [Set a Watch using the Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md).
-
-While debugging, right-click an object and choose **Add Watch**.
-
-::: moniker range=">= vs-2022"
-![Watch Window](../debugger/media/vs-2022/dbg-tour-watch-window.png "Watch window")
-::: moniker-end
-::: moniker range="<= vs-2019"
-![Watch Window](../debugger/media/dbg-tour-watch-window.png "Watch window")
-::: moniker-end
-
-In this example, you have a watch set on the object, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** windows always show the variables that you are watching (they're grayed out when out of scope).
-
-## View return values of method calls
-
-In .NET and C++ code, you can examine return values in the **Autos** window when you step over or out of a method call, which can be useful when the return value is not stored in a local variable. A method could be used as a parameter, or as the return value of another method.
-
-::: moniker range=">= vs-2022"
-Starting in Visual Studio 2022 version 17.12 Preview 3, you can also view return values of method calls inline and not just in the Autos window.
-
-[ ![Screenshot showing the return values of method calls.](../debugger/media/vs-2022/view-return-values.png) ](../debugger/media/vs-2022/view-return-values.png#lightbox)
-
-With Copilot enabled, you can also get targeted assistance related to the inline return value by using the Ask Copilot button that appears in the data tip for the return value.
-
-[ ![Screenshot showing the return values of method calls with Copilot icon.](../debugger/media/vs-2022/view-return-values-copilot.png) ](../debugger/media/vs-2022/view-return-values-copilot.png#lightbox)
-::: moniker-end
-
-### View return values in the Autos windows
+### View return values in the Autos window
 
 In the following example, this C# code adds the return values of two functions:
 
@@ -251,14 +254,14 @@ To see the return values of the `sumVars()` and `subtractVars()` method calls in
    ![Screenshot of Autos return value C#.](../debugger/media/autosreturnvaluecsharp2.png "Autos return value C#")
    ::: moniker-end
 
-## Inspect variables in a visualizer
+## Open a visualizer to inspect variables
 
 While you are debugging in Visual Studio, you can view large strings or complex objects with built-in visualizers that make the data easier to inspect. For example:
 
 - The string visualizer shows text, XML, HTML, and JSON strings that are too long for a data tip or debugger window. It can also help you identify malformed strings. For more information, see [View strings in a string visualizer](../debugger/view-strings-visualizer.md). 
 - The DataSet and IEnumerable visualizers show .NET collection objects in a tabular visualizer. For more information, see [Tabular visualizers in Visual Studio](../debugger/view-data-in-tabular-visualizer.md)) objects.
 
-The visualizers appear in the **Autos** windows and other debugger windows.
+The visualizers appear in the **Autos** windows, data tips, and other debugger windows.
 
 > [!NOTE]
 > If you need to inspect XAML or WPF UI elements in a visualizer, see or [Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md) or [How to use the WPF tree visualizer](../debugger/how-to-use-the-wpf-tree-visualizer.md).
