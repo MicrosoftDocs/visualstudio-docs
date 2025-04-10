@@ -28,7 +28,7 @@ Whether you need to link your subscription depends on the type of subscriptions 
    > ![Add new monthly subscriptions dropdown menu](_img/add-monthly-subs/add-subs-drop-down.png "Screenshot of Add agreement dropdown menu with the new monthly subscriptions option highlighted.")
 
    > [!NOTE]
-   > If the **New monthly subscriptions** option isn't visible when you select the **Add agreement** dropdown menu, it indicates that no monthly subscriptions were purchased in the marketplace. It can also indicate that the monthly subscriptions were automatically linked, allowing for immediate assignment.
+   > If the **New monthly subscription(s)** option isn't visible when you select the **Add agreement** dropdown menu, it indicates that no monthly subscriptions were purchased in the marketplace. It can also indicate that the monthly subscriptions were automatically linked, allowing for immediate assignment.
 
 4. The system searches to see if you have User Access Administrator rights for any Azure subscriptions and imports any Visual Studio subscriptions purchased with those Azure subscriptions.
 0. If you don't have User Access Administrator rights on any Azure subscriptions, or no Visual Studio subscriptions are found, you receive the following message:
@@ -54,7 +54,7 @@ Now that you linked subscriptions, you're ready to assign them to users. You can
 * [Assign subscriptions to multiple users](assign-license-bulk.md)
 * [Assign specific subscriptions to specific users](assign-guid.md)
 
-For more help, visit:
+For more help, see:
 * [Visual Studio documentation](/visualstudio/)
 * [Azure DevOps Services documentation](/azure/devops/)
 * [Azure documentation](/azure/)
