@@ -22,7 +22,7 @@ To learn how to delete assignments, watch the following video or continue readin
 
 ## Delete a subscription assignment
 
-1. Select the name of the subscriber who you want to remove. To select multiple subscribers for removal, you can select the circle to the left of the subscriber name to select each one. Or you can hold down the `CTRL` key and select each subscriber you wish to remove. To remove a range of subscribers, select the first one, select the **Shift** key, and then select the last one. Select the `CTRL+A` buttons to select and remove all subscribers. In this example, three subscribers named Amber, Kai, and Madison are deleted.
+1. Select the name of the subscriber who you want to remove. To select multiple subscribers for removal, you can select the circle to the left of the subscriber name to select each one. Or you can hold down the `CTRL` key and select each subscriber you wish to remove. To remove a range of subscribers, select the first one, press the **Shift** key, and then select the last one. Press the `CTRL+A` buttons to select and remove all subscribers. In this example, three subscribers named Amber, Kai, and Madison are deleted.
 2. To delete the selected subscribers, select **Delete**.
 
    > [!div class="mx-imgBorder"]
