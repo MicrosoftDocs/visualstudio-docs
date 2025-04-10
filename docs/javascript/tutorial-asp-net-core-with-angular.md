@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Angular"
 description: Create an ASP.NET Core project to serve as an API backend and an Angular project to provide the user interface in Visual Studio.
-ms.date: 04/07/2025
+ms.date: 04/09/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -35,7 +35,7 @@ Make sure to install the following:
 - npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js
 - Angular CLI ([`https://angular.dev/tools/cli`](https://angular.dev/tools/cli)), which can be the version of your choice. The front-end project is created using the framework CLI tools you have installed on your local machine, so this determines the Angular version used in the template.
 
-## Create the frontend app
+## Create the app
 
 1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
 
@@ -97,7 +97,7 @@ The Angular app appears and is populated via the API (the localhost port may var
 
 :::image type="content" source="media/vs-2022/asp-net-core-weather-forecast-app.png" alt-text="Screenshot showing the weather forecast app."::: 
 
-If you don't see the app, see [Troubleshooting](#troubleshooting).
+If you don't see the weather forecast data in the browser, see [Troubleshooting](#troubleshooting).
 
 ## Publish the project
 
