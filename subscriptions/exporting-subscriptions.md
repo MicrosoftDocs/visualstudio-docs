@@ -10,7 +10,7 @@ description:  Learn how to export a list of subscribers and the details of their
 
 # Export subscription information in Visual Studio
 
-In the Visual Studio Subscriptions [Admin portal](https://manage.visualstudio.com), you can export a list of your subscribers with details about their subscriptions. The exported list contains all of the fields in the subscriber list in the admin portal.
+In the [Visual Studio Subscriptions Admin portal](https://manage.visualstudio.com), you can export a list of your subscribers with details about their subscriptions. The exported list contains all of the fields in the subscriber list in the admin portal.
 
 When all of your subscriber information is in one place, it can help you do things like:
 
@@ -29,7 +29,7 @@ To perform the export:
 2. Select the **Export** tab. The file downloads to your local machine. The file includes the name of the agreement that contains your user subscriptions, and the date of the export.
 
    > [!div class="mx-imgBorder"]
-   > ![Export subscribers](_img/exporting-subscriptions/exporting-subscriptions.png "Screenshot of the Manage subscribers page in the admin portal. The Export menu item is highlighted.")
+   > ![Export subscribers](_img/exporting-subscriptions/exporting-subscriptions.png "Screenshot of the Manage Subscribers page in the admin portal. The Export menu item is highlighted.")
 
 3. The exported list appears as a .csv file in your normal downloads location. The file name includes the agreement number and the date that you exported the list.  
 

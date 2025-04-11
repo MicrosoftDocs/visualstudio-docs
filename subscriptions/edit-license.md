@@ -19,9 +19,9 @@ As a subscription admin, you can make changes to the subscriptions assigned to m
 
 You can edit a subscriber's information to correct errors or update information.
 
-To edit a subscriber, select the ellipses (…) that appears next to the subscriber's email address when you hover your mouse over it. Use the dropdown menu to select **Edit** to modify the subscriber's details.
+To edit a subscriber, select the ellipsis (…) that appears next to the subscriber's email address when you hover your mouse over it. Use the dropdown menu to select **Edit** to modify the subscriber's details.
 > [!div class="mx-imgBorder"]
-> ![Select subscriber to edit](_img/edit-license/select-subscriber.png "Screenshot of flyout menu. Select the ellipses and choose Edit.")
+> ![Select subscriber to edit](_img/edit-license/select-subscriber.png "Screenshot of the flyout menu. Select the ellipsis and choose Edit.")
 
 You can update the following fields: subscriber's first name, family name, subscription level, email address, country/region, language, downloads, and reference. Edit the subscriber's information, and select **Save**.
 
@@ -57,6 +57,6 @@ To learn how to edit multiple subscribers by using bulk edit, watch the followin
 * [Azure DevOps documentation](/azure/devops/)
 * [Azure documentation](/azure/)
 * [Microsoft 365 documentation](/microsoft-365/)
-* Need to assign a specific subscription ID? Check out [Assigning a subscription ID](https://learn.microsoft.com/visualstudio/subscriptions/assign-guid).
-* For help with finding a particular subscription, check out [Search for a subscription](search-license.md).
-* Need to create a list of all your subscriptions? Check out [Export subscriptions](exporting-subscriptions.md).
+* Need to assign a specific subscription ID? Check out [Assigning a subscription ID](https://learn.microsoft.com/visualstudio/subscriptions/assign-guid)
+* For help with finding a particular subscription, check out [Search for a subscription](search-license.md)
+* Need to create a list of all your subscriptions? Check out [Export subscriptions](exporting-subscriptions.md)
