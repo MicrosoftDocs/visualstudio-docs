@@ -18,7 +18,7 @@ ms.collection: ce-skilling-ai-copilot
 
 # Inspect variables and return values in the Visual Studio debugger
 
-When you try to debug an issue, you are often attempting to find out whether variables are storing the values that you expect them to have in a particular app state. Some of the most useful features of the debugger are those that allow you to inspect variables.
+When you try to debug an issue, you're often attempting to find out whether variables are storing the values that you expect them to have in a particular app state. Some of the most useful features of the debugger are those that allow you to inspect variables.
 
 This article shows you how to inspect variables and view return values using the debugger in Visual Studio. The debugger provides several convenient ways to perform these tasks, including the following:
 
@@ -31,7 +31,7 @@ These features are only available while debugging. To learn how to start a debug
 > [!NOTE]
 > If this is the first time that you've tried to debug code, you might want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before going through this article.
 
-## View data tips in the code editor
+## View variables in the code editor
 
 Often, when debugging, you want a quick way to check property values on objects in the code editor, and the data tips are a good way to do it.
 
@@ -51,7 +51,7 @@ For detailed information on using data tips, see [View data values in data tips]
 ::: moniker range=">= vs-2022"
 ## View inline return values of method calls in the code editor
 
-In .NET and C++ code, you can examine return values when you step over or out of a method call, which can be useful when the return value is not stored in a local variable. A method could be used as a parameter, or as the return value of another method.
+In .NET and C++ code, you can examine return values when you step over or out of a method call, which can be useful when the return value isn't stored in a local variable. A method could be used as a parameter, or as the return value of another method.
 
 Starting in Visual Studio 2022 version 17.12, you can view return values of method calls inline and not just in the [Autos window](#view-return-values-in-the-autos-window).
 
@@ -66,7 +66,7 @@ With Copilot enabled, you can also get targeted assistance related to the inline
 
 You can use a **Watch** window to specify a variable (or an expression) that you want to keep an eye on.
 
-While debugging, right-click an object and choose **Add Watch**.
+While debugging, right-click an object and choose **Add Watch**. A Watch window opens.
 
 ::: moniker range=">= vs-2022"
 ![Watch Window](../debugger/media/vs-2022/dbg-tour-watch-window.png "Watch window")
@@ -75,13 +75,19 @@ While debugging, right-click an object and choose **Add Watch**.
 ![Watch Window](../debugger/media/dbg-tour-watch-window.png "Watch window")
 ::: moniker-end
 
-In this example, you have a watch set on the object, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** windows always show the variables that you are watching (they're grayed out when out of scope).
+In this example, you've a watch set on the object, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** windows always show the variables that you're watching (they're grayed out when out of scope).
 
 For detailed information, see [Set a Watch using the Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md).
 
-## Inspect variables in the Autos and Locals windows
+::: moniker range=">= vs-2022"
+## Get AI assistance
 
-The **Autos** and **Locals** windows show variable values while you are debugging. The windows are only available during a debugging session. The **Autos** window shows variables used around the current statement where the debugger is paused. The **Locals** window shows variables defined in the local scope, which is usually the current function or method.
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at variables in the Autos or Locals windows, or in data tips in the code editor. Right-click on a variable and use the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+::: moniker-end
+
+## Inspect variables in debugger windows (Autos and Locals)
+
+The **Autos** and **Locals** windows show variable values while you're debugging. The windows are only available during a debugging session. The **Autos** window shows variables used around the current statement where the debugger is paused. The **Locals** window shows variables defined in the local scope, which is usually the current function or method.
 
 - To open the **Autos** window, while debugging, select **Debug** > **Windows** > **Autos**, or press **Ctrl**+**Alt**+**V** > **A**.
 
@@ -89,7 +95,7 @@ The **Autos** and **Locals** windows show variable values while you are debuggin
 
 - To open the **Locals** window, while debugging, select **Debug** > **Windows** > **Locals**, or press **Alt**+**4**.
 
-Arrays and objects show in the **Autos** and **Locals** windows as tree controls. Select the arrow to the left of a variable name to expand the view to show fields and properties. Here is an example of a <xref:System.IO.FileStream?displayProperty=fullName> object in the **Locals** window:
+Expandable arrays and objects show up in the **Autos** and **Locals** windows. Select the arrow to the left of a variable name to expand the view to show fields and properties. Here is an example of a <xref:System.IO.FileStream?displayProperty=fullName> object in the **Locals** window:
 
 ::: moniker range=">= vs-2022"
 ![Screenshot of the Locals window, with file set to a System.IO.FileStream value.](../debugger/media/vs-2022/locals-filestream.png)
@@ -102,7 +108,7 @@ A red value in the **Locals** or **Autos** window means the value has changed si
 
 The default numeric format in debugger windows is decimal. To change it to hexadecimal, right-click in the **Locals** or **Autos** window and select **Hexadecimal Display**. This change affects all debugger windows.
 
-### Edit variable values in the Autos or Locals window
+## Edit variable values in the Autos or Locals window
 
 To edit the values of most variables in the **Autos** or **Locals** windows, double-click the value and enter the new value.
 
@@ -113,11 +119,11 @@ In native C++ code, you might have to qualify the context of a variable name. Fo
 >[!CAUTION]
 > Make sure you understand the consequences before you change values and expressions. Some possible issues are:
 >
->- Evaluating some expressions can change the value of a variable or otherwise affect the state of your program. For example, evaluating `var1 = ++var2` changes the value of both `var1` and `var2`. These expressions are said to have [side effects](https://en.wikipedia.org/wiki/Side_effect_\(computer_science\)). Side effects can cause unexpected results if you are not aware of them.
+>- Evaluating some expressions can change the value of a variable or otherwise affect the state of your program. For example, evaluating `var1 = ++var2` changes the value of both `var1` and `var2`. These expressions are said to have [side effects](https://en.wikipedia.org/wiki/Side_effect_\(computer_science\)). Side effects can cause unexpected results if you're not aware of them.
 >
 >- Editing floating-point values can result in minor inaccuracies because of decimal-to-binary conversion of fractional components. Even a seemingly harmless edit can result in changes to some of the bits in the floating-point variable.
 
-### Search in the Autos or Locals window
+## Search in the Autos or Locals window
 
 You can search for keywords in the Name, Value, and Type columns of the **Autos** or **Locals** window using the search bar above each window. Hit ENTER or select one of the arrows to execute a search. To cancel an ongoing search, select the "x" icon in the search bar.
 
@@ -132,7 +138,7 @@ Use the left and right arrows (Shift+F3 and F3, respectively) to navigate betwee
 
 To make your search more or less thorough, use the **Search Deeper** dropdown list at the top of the **Autos** or **Locals** window to select how many levels deep you want to search into nested objects.
 
-### Pin properties in the Autos or Locals window
+## Pin properties in the Autos or Locals window
 
 > [!NOTE]
 > This feature is supported for .NET Core 3.0 or higher.
@@ -147,7 +153,7 @@ You can also toggle property names and filter out non-pinned properties when vie
 
 ![Screenshot of Toggle property names.](../debugger/media/toggle-property-names.gif "Toggle property names")
 
-### Change the context for the Autos or Locals window
+## Change the context for the Autos or Locals window
 
 You can use the **Debug Location** toolbar to select a desired function, thread, or process, which changes the context for the **Autos** and **Locals** windows.
 
@@ -162,7 +168,7 @@ Set a breakpoint and start debugging. When the breakpoint is hit, execution paus
 ![Screenshot of Debug Location toolbar.](../debugger/media/debuglocationtoolbar.png "Debug Location toolbar")
 ::: moniker-end
 
-### <a name="bkmk_whatvariables"></a> Language differences in the Autos window (C#, C++, Visual Basic, Python)
+## <a name="bkmk_whatvariables"></a> Language differences in the Autos window (C#, C++, Visual Basic, Python)
 
 Different code languages display different variables in the **Autos** window.
 
@@ -215,7 +221,7 @@ Different code languages display different variables in the **Autos** window.
 
     The variable `e` is uninitialized, because the line `e = 5` has not yet been executed.
 
-### View return values in the Autos window
+## View return values in the Autos window
 
 In the following example, this C# code adds the return values of two functions:
 
@@ -256,7 +262,7 @@ To see the return values of the `sumVars()` and `subtractVars()` method calls in
 
 ## Open a visualizer to inspect variables
 
-While you are debugging in Visual Studio, you can view large strings or complex objects with built-in visualizers that make the data easier to inspect. For example:
+While you're debugging in Visual Studio, you can view large strings or complex objects with built-in visualizers that make the data easier to inspect. For example:
 
 - The string visualizer shows text, XML, HTML, and JSON strings that are too long for a data tip or debugger window. It can also help you identify malformed strings. For more information, see [View strings in a string visualizer](../debugger/view-strings-visualizer.md). 
 - The DataSet and IEnumerable visualizers show .NET collection objects in a tabular visualizer. For more information, see [Tabular visualizers in Visual Studio](../debugger/view-data-in-tabular-visualizer.md)) objects.
@@ -273,12 +279,6 @@ To open a visualizer, you must be paused during debugging. Hover over a variable
 ::: moniker-end
 ::: moniker range="vs-2019"
 ![Open a string visualizer](../debugger/media/dbg-tips-string-visualizers.png "Open string visualizer")
-::: moniker-end
-
-::: moniker range=">= vs-2022"
-## Get AI assistance
-
-If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at variables in the Autos or Locals windows, or in data tips. Right-click on a variable and use the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
 ::: moniker-end
 
 ## Related content
