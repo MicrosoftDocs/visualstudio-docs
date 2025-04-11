@@ -42,8 +42,8 @@ As a new GitHub Enterprise customer, you and your team need to get access to you
 In the Visual Studio Subscriptions Admin portal, the Visual Studio subscriptions admin can assign a subscription to a user. If you're new to Visual Studio subscription administration, you receive an invitation to the Visual Studio Subscriptions Admin portal to begin assigning subscriptions. After you select the link to sign in to the [Admin portal](https://manage.visualstudio.com), you'll be able to use the **Add** dropdown menu to add Visual Studio subscribers individually, or in bulk by using Microsoft Excel or Microsoft Entra groups. Follow the prompts for adding subscribers. Make sure to use email domains that can receive email, and choose subscription levels that contain GitHub Enterprise.
 
 For more information about assigning subscriptions, see:
-* [Add single users](assign-license.md).
-* [Add multiple users](assign-license-bulk.md).
+* [Add single users](assign-license.md)
+* [Add multiple users](assign-license-bulk.md)
 
 > [!NOTE]
 > If you don't have existing subscribers to move, you still need to invite your subscribers to your GitHub organization. For more information, see [Invite subscribers to your organization](#invite-subscribers-to-your-organization).

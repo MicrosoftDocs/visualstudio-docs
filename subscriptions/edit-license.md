@@ -57,6 +57,6 @@ To learn how to edit multiple subscribers by using bulk edit, watch the followin
 * [Azure DevOps documentation](/azure/devops/)
 * [Azure documentation](/azure/)
 * [Microsoft 365 documentation](/microsoft-365/)
-* Need to assign a specific subscription ID? Check out [Assigning a subscription ID](https://learn.microsoft.com/visualstudio/subscriptions/assign-guid)
-* For help with finding a particular subscription, check out [Search for a subscription](search-license.md)
-* Need to create a list of all your subscriptions? Check out [Export subscriptions](exporting-subscriptions.md)
+* Need to assign a specific subscription ID? Check out [Assigning a subscription ID](https://learn.microsoft.com/visualstudio/subscriptions/assign-guid).
+* For help with finding a particular subscription, check out [Search for a subscription](search-license.md).
+* Need to create a list of all your subscriptions? Check out [Export subscriptions](exporting-subscriptions.md).
