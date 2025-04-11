@@ -22,7 +22,7 @@ To learn how to delete assignments, watch the following video or continue readin
 
 ## Delete a subscription assignment
 
-1. Select the name of the subscriber you want to remove. To select multiple subscribers for removal, you can select the circle to the left of the subscriber name to select each one. Or you can hold down the Ctrl key and select each subscriber you want to remove. To remove a range of subscribers, select the first one, press the Shift key, and then select the last one. Press the `CTRL+A` buttons to select and remove all subscribers. In this example, three subscribers named Amber, Kai, and Madison are deleted.
+1. Select the name of the subscriber you want to remove. To select multiple subscribers for removal, you can select the circle to the left of the subscriber name to select each one. Or you can hold down the Ctrl key and select each subscriber you want to remove. To remove a range of subscribers, select the first one, press the Shift key, and then select the last one. Press the Ctrl+A buttons to select and remove all subscribers. In this example, three subscribers named Amber, Kai, and Madison are deleted.
 2. To delete the selected subscribers, select **Delete**.
 
    > [!div class="mx-imgBorder"]
@@ -63,7 +63,7 @@ If you need to delete a large number of subscription assignments, you can use th
    > [!div class="mx-imgBorder"]
    > ![Add the users you want to delete](_img/delete-license/user-list-added.png "Screenshot of the bulk edit template that shows the users you want to delete listed in the right-most column. The list of users is highlighted.")
 
-0. Select both the column that contains the users you want to delete, and the column that contains the email addresses of all the users. In this case, that's column **B** and column **V**. To select the columns, select the first column heading, and then `CTRL+select` the second column heading. The template should now look like this:
+0. Select both the column that contains the users you want to delete, and the column that contains the email addresses of all the users. In this case, that's column **B** and column **V**. To select the columns, select the first column heading, and then Ctrl+Select the second column heading. The template should now look like this:
    > [!div class="mx-imgBorder"]
    > ![Select both user columns](_img/delete-license/columns-selected.png "Screenshot of the bulk edit template that shows the columns for all users with the users you want to delete selected.")
 
