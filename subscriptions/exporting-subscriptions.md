@@ -29,7 +29,7 @@ To perform the export:
 2. Select the **Export** tab. The file downloads to your local machine. The file includes the name of the agreement that contains your user subscriptions, and the date of the export.
 
    > [!div class="mx-imgBorder"]
-   > ![Export subscribers](_img/exporting-subscriptions/exporting-subscriptions.png "Screenshot of the Manage Subscribers page in the admin portal. The Export menu item is highlighted.")
+   > ![Export subscribers](_img/exporting-subscriptions/exporting-subscriptions.png "Screenshot of the Manage subscribers page in the admin portal. The Export menu item is highlighted.")
 
 3. The exported list appears as a .csv file in your normal downloads location. The file name includes the agreement number and the date that you exported the list.  
 

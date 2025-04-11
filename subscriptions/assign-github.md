@@ -54,7 +54,7 @@ If any of your subscribers renewed from regular Visual Studio subscriptions to V
 
 1. Select the **Overview** icon on the left menu.
    > [!div class="mx-imgBorder"]
-   > ![Open the Overview](_img/assign-github/overview.png "Screenshot of the tools icons on the Manage Subscribers page. The Overview button is highlighted.")
+   > ![Open the Overview](_img/assign-github/overview.png "Screenshot of the tools icons on the Manage subscribers page. The Overview button is highlighted.")
 0. Select **Move now**, and follow the prompts to finish the transition.
    > [!div class="mx-imgBorder"]
    > ![Move existing subscribers to GitHub](_img/assign-github/move-now.png "Screenshot of the message asking owners to move subscribers to the new subscriptions with GitHub.")

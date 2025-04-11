@@ -26,7 +26,7 @@ To learn how to delete assignments, watch the following video or continue readin
 2. To delete the selected subscribers, select **Delete**.
 
    > [!div class="mx-imgBorder"]
-   > ![Delete subscribers](_img/delete-license/delete-subscribers.png "Screenshot of the Manage Subscribers page in the admin portal. The Delete menu option is highlighted.")
+   > ![Delete subscribers](_img/delete-license/delete-subscribers.png "Screenshot of the Manage subscribers page in the admin portal. The Delete menu option is highlighted.")
 
 3. When a message appears that asks you to confirm the deletion, select **OK**.
 
@@ -45,7 +45,7 @@ If you need to delete a large number of subscription assignments, you can use th
 1. [Sign in](https://manage.visualstudio.com) by using an email address with admin rights for the agreement that was used to purchase the subscriptions.
 0. Select the **Bulk edit** option.
    > [!div class="mx-imgBorder"]
-   > ![Select Bulk edit](_img/delete-license/bulk-edit-select.png "Screenshot of the Manage Subscribers page in the admin portal. The Bulk edit menu option is highlighted.")
+   > ![Select Bulk edit](_img/delete-license/bulk-edit-select.png "Screenshot of the Manage subscribers page in the admin portal. The Bulk edit menu option is highlighted.")
 
 0. The **Edit Multiple Subscribers** dialog appears.
 0. Select the **Export this excel** link in step 1.
