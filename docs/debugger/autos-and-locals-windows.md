@@ -66,7 +66,7 @@ With Copilot enabled, you can also get targeted assistance related to the inline
 
 You can use a **Watch** window to specify a variable (or an expression) that you want to keep an eye on.
 
-While debugging, right-click an object and choose **Add Watch**. A Watch window opens.
+While debugging, right-click an object in the code editor and choose **Add Watch**. A Watch window opens.
 
 ::: moniker range=">= vs-2022"
 ![Watch Window](../debugger/media/vs-2022/dbg-tour-watch-window.png "Watch window")
@@ -82,7 +82,7 @@ For detailed information, see [Set a Watch using the Watch and QuickWatch Window
 ::: moniker range=">= vs-2022"
 ## Get AI assistance
 
-If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at variables in the Autos or Locals windows, or in data tips in the code editor. Right-click on a variable and use the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at variables in the code editor or in the Autos or Locals windows. While you're debugging, right-click on a variable and use the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
 ::: moniker-end
 
 ## Inspect variables in debugger windows (Autos and Locals)
