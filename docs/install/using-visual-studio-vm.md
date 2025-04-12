@@ -2,7 +2,7 @@
 title: Using Visual Studio on an Azure Virtual Machine
 titleSuffix: ''
 description: Use Visual Studio on an Azure virtual machine with system images for different Visual Studio configurations in the Azure Marketplace.
-ms.date: 08/19/2023
+ms.date: 4/9/2025
 ms.topic: conceptual
 helpviewer_keywords:
 - azure services
@@ -23,21 +23,16 @@ New to Azure? [Create a free Azure account](https://azure.microsoft.com/free).
 
 ## What configurations and versions are available?
 
-Images for the most recent major versions, Visual Studio 2022, Visual Studio 2019, Visual Studio 2017 and Visual Studio 2015, can be found in the Azure Marketplace.  Each of these versions offers the Visual Studio Enterprise and the Visual Studio Community editions.  These images are updated at least every month to include the latest Visual Studio and Windows updates.  While the names of the images remain the same, each image's description includes the installed product version and the image's "as of" date.
+Images for the latest major versions, Visual Studio 2022, Visual Studio 2019, and Visual Studio 2017 are available in the [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps?exp=ubp8&search=visual%20studio&page=1&filters=microsoft%3Bwindows). These images are updated at least once a month to include the latest Visual Studio and Windows updates. Although the image names remain unchanged, each image's description includes the installed product version and the date it reflects
 
 | Release version                                                                                                                                                | Editions              | Product version       |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|-----------------------|
-| [Visual Studio 2022](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2022?tab=Overview) | Enterprise, Community | Version 17.2        |
-| [Visual Studio 2022 (Microsoft Dev Box compatible)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudioplustools?exp=ubp8&tab=Overview) | Enterprise, Professional | Version 17.5        |
-| [Visual Studio 2019: Latest (Version 16.11)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2019latest?tab=Overview) | Enterprise, Community | Version 16.11        |
-| [Visual Studio 2019 (Microsoft Dev Box compatible)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2019plustools?exp=ubp8&tab=Overview) | Enterprise, Professional | Version 16.11        |
+| [Visual Studio 2022 (Microsoft Dev Box compatible)](https://azuremarketplace.microsoft.com/en-US/marketplace/apps/microsoftvisualstudio.visualstudioplustools?exp=ubp8&tab=Overview) | Enterprise, Professional, Community | Version 17.12        |
+| [Visual Studio 2019 (Microsoft Dev Box compatible)](https://azuremarketplace.microsoft.com/en-US/marketplace/apps/microsoftvisualstudio.visualstudio2019plustools?exp=ubp8&tab=Overview) | Enterprise, Professional | Version 16.11        |
 | [Visual Studio 2017: Latest (Version 15.9)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio?tab=Overview)           | Enterprise, Community | Version 15.9      |
-| [Visual Studio 2015: Latest (Update 3)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio?tab=Overview)               | Enterprise, Community | Version 14.0.25431.01 |
+| [Visual Studio on Windows Server](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoftvisualstudio.visualstudiowsplustools?exp=ubp8&tab=Overview) | Enterprise, Professional, Community | VS 2022 and VS 2019 on Windows Server 2025        |
 
-> [!NOTE]
-> In accordance with Microsoft servicing policy, the originally released (RTW) version of Visual Studio 2015 has expired for servicing. Visual Studio 2015 Update 3 is the only remaining version offered for the Visual Studio 2015 product line.
-
-For more information, see the [Visual Studio Servicing Policy](/visualstudio/productinfo/vs-servicing-vs).
+The Azure VM image offers help you create and test applications more quickly and easily on both Azure VMs and the [Microsoft Dev Box](/azure/dev-box/overview-what-is-microsoft-dev-box) service. For updates on newly added or deprecated images, see the DevBlog post [Giving our Azure marketplace images a makeover](https://devblogs.microsoft.com/visualstudio/giving-our-visual-studio-azure-marketplace-images-a-makeover/). To learn more, visit the [Visual Studio Servicing Policy](/visualstudio/productinfo/vs-servicing-vs).
 
 [Windows client for developers (Microsoft Dev Box compatible)](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoftvisualstudio.windowsplustools?tab=Overview), a Windows 11 Enterprise image is meant to be used as a starting point for creating custom Dev Box images, and contains additional tools and settings to optimize the developer experience. This image doesn't include Visual Studio. For Visual Studio developers, we recommend using our [Visual Studio 2022](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudioplustools?exp=ubp8&tab=Overview) or [Visual Studio 2019](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoftvisualstudio.visualstudio2019plustools?tab=Overview) Dev Box compatible images as a starting point.
 
