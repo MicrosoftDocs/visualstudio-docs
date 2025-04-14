@@ -106,6 +106,12 @@ You can filter the tabular data to display activity for only a specified time ra
 
 You can also zoom into or out of the graph.
 
+::: moniker range=">=vs-2022"
+## Insights
+
+If any insights show up in the **Insights** view, use the provided link to get more information about the issue identified. In addition, if you are using Copilot, the **Ask Copilot** button will open the Copilot chat window, and Copilot will provide suggestions based on your code and any identified issues.
+::: moniker-end
+
 ### Allocation
 
 The **Allocation** view shows the location of objects that are allocating memory and how much memory those objects are allocating.
