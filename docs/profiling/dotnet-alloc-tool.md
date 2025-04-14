@@ -1,7 +1,7 @@
 ---
 title: Analyze memory usage for .NET objects
 description: View how much memory your app uses and what code paths allocate the most memory by using the .NET Object Allocation tool.
-ms.date: 01/31/2024
+ms.date: 04/14/2025
 ms.topic: how-to
 helpviewer_keywords: 
   - memory allocation, memory usage
