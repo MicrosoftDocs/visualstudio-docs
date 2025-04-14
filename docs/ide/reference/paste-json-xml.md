@@ -163,5 +163,4 @@ namespace PasteDemo
 ## See also
 
 - [Features of the code editor](../../ide/writing-code-in-the-code-and-text-editor.md)
-- Get started tips in [Visual Studio productivity guide for C# developers](../csharp-developer-productivity.md)
 - [Productivity guide for Visual Studio](../productivity-features.md)
