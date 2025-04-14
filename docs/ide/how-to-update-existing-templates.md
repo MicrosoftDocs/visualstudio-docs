@@ -12,7 +12,10 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
+
+#customer intent: As a developer, I want to learn how to edit project and item templates in Visual Studio, so I can easily keep my templates up to date.
 ---
+
 # Update existing project or item templates
 
 After you create a Visual Studio project or item template by compressing the template files into a *.zip* file, you might want to modify the template. This article explains how to modify an existing template by exporting a new template from a project that's based on the template, or by manually changing the files in the template.
