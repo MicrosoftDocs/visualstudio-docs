@@ -584,9 +584,6 @@
       href: ide/productivity-features.md
     - name: Productivity shortcuts
       href: ide/productivity-shortcuts.md
-    - name: Tips for C# developers
-      displayName: ReSharper
-      href: ide/csharp-developer-productivity.md
     - name: Customize keyboard shortcuts
       href: ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md
     - name: Use the keyboard exclusively
