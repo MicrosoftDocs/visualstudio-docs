@@ -18,7 +18,16 @@ ms.subservice: office-development
 ---
 # Add an Actions Pane to Word Documents or Excel Workbooks
 
-  To add an actions pane to a Microsoft Office Word document or a Microsoft Excel workbook, first create a Windows Forms user control. Then, add the user control to the <xref:Microsoft.Office.Tools.ActionsPane.Controls%2A> property of the `ThisDocument.ActionsPane` field (Word) or `ThisWorkbook.ActionsPane` field (Excel) in your project.
+> [!IMPORTANT]
+> The Actions feature has been retired from Microsoft Word starting in Office 2024.
+> This feature is only available in Microsoft Word with the following releases of Office:
+> - Microsoft 365
+> - Office LTSC Professional Plus 2021
+> - Office LTSC Standard 2021
+> - Office Professional Plus 2016, 2019
+> - Office Standard 2016, 2019
+
+ To add an actions pane to a Microsoft Office Word document or a Microsoft Excel workbook, first create a Windows Forms user control. Then, add the user control to the <xref:Microsoft.Office.Tools.ActionsPane.Controls%2A> property of the `ThisDocument.ActionsPane` field (Word) or `ThisWorkbook.ActionsPane` field (Excel) in your project.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
 
