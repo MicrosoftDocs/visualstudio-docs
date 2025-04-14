@@ -996,6 +996,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/csharp-developer-productivity.md",
+      "redirect_url": "/visualstudio/ide/productivity-features",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md",
       "redirect_url": "/visualstudio/ide/understanding-build-configurations",
       "redirect_document_id": false
