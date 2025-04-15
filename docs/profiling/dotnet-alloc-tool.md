@@ -1,7 +1,7 @@
 ---
 title: Analyze memory usage for .NET objects
 description: View how much memory your app uses and what code paths allocate the most memory by using the .NET Object Allocation tool.
-ms.date: 01/31/2024
+ms.date: 04/14/2025
 ms.topic: how-to
 helpviewer_keywords: 
   - memory allocation, memory usage
@@ -105,6 +105,12 @@ You can filter the tabular data to display activity for only a specified time ra
 ::: moniker-end
 
 You can also zoom into or out of the graph.
+
+::: moniker range=">=vs-2022"
+## Insights
+
+If any insights show up in the **Insights** view, use the provided link to get more information about the issue identified. In addition, if you are using Copilot, the **Ask Copilot** button will open the Copilot chat window, and Copilot will provide suggestions based on your code and any identified issues.
+::: moniker-end
 
 ### Allocation
 
