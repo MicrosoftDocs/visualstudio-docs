@@ -27,7 +27,7 @@ ms.subservice: debug-diagnostics
 ---
 # MFC Debugging Techniques
 
-If you are debugging an MFC program, these debugging techniques may be useful.
+If you're debugging an MFC program, these debugging techniques may be useful.
 
 ## <a name="BKMK_AfxDebugBreak"></a> AfxDebugBreak
 MFC provides a special [AfxDebugBreak](/cpp/mfc/reference/diagnostic-services#afxdebugbreak) function for hard-coding breakpoints in source code:
@@ -45,8 +45,6 @@ _asm int 3
 On other platforms, `AfxDebugBreak` merely calls `DebugBreak`.
 
 Be sure to remove `AfxDebugBreak` statements when you create a release build or use `#ifdef _DEBUG` to surround them.
-
-[In this topic](#BKMK_In_this_topic)
 
 ## <a name="BKMK_The_TRACE_macro"></a> The TRACE macro
 To display messages from your program in the debugger [Output window](../ide/reference/output-window.md), you can use the [ATLTRACE](/previous-versions/6xkxyz08(v=vs.140)) macro or the MFC [TRACE](/previous-versions/6w95a4ha(v=vs.140)) macro. Like [assertions](../debugger/c-cpp-assertions.md), the trace macros are active only in the Debug version of your program and disappear when compiled in the Release version.
@@ -78,15 +76,13 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
 
 For more information on the **TRACE** macro, see [Diagnostic Services](/cpp/mfc/reference/diagnostic-services).
 
-[In this topic](#BKMK_In_this_topic)
-
 ## <a name="BKMK_Memory_leak_detection_in_MFC"></a> Detecting memory leaks in MFC
 MFC provides classes and functions for detecting memory that is allocated but never deallocated.
 
 ### <a name="BKMK_Tracking_memory_allocations"></a> Tracking memory allocations
 In MFC, you can use the macro [DEBUG_NEW](/previous-versions/tz7sxz99(v=vs.140)) in place of the **new** operator to help locate memory leaks. In the Debug version of your program, `DEBUG_NEW` keeps track of the file name and line number for each object that it allocates. When you compile a Release version of your program, `DEBUG_NEW` resolves to a simple **new** operation without the file name and line number information. Thus, you pay no speed penalty in the Release version of your program.
 
-If you do not want to rewrite your entire program to use `DEBUG_NEW` in place of **new**, you can define this macro in your source files:
+If you don't want to rewrite your entire program to use `DEBUG_NEW` in place of **new**, you can define this macro in your source files:
 
 ```cpp
 #define new DEBUG_NEW
@@ -94,9 +90,7 @@ If you do not want to rewrite your entire program to use `DEBUG_NEW` in place of
 
 When you do an [object dump](#BKMK_Taking_object_dumps), each object allocated with `DEBUG_NEW` will show the file and line number where it was allocated, allowing you to pinpoint the sources of memory leaks.
 
-The Debug version of the MFC framework uses `DEBUG_NEW` automatically, but your code does not. If you want the benefits of `DEBUG_NEW`, you must use `DEBUG_NEW` explicitly or **#define new** as shown above.
-
-[In this topic](#BKMK_In_this_topic)
+The Debug version of the MFC framework uses `DEBUG_NEW` automatically, but your code doesn't. If you want the benefits of `DEBUG_NEW`, you must use `DEBUG_NEW` explicitly or **#define new** as shown above.
 
 ### <a name="BKMK_Enabling_memory_diagnostics"></a> Enabling memory diagnostics
 Before you can use the memory diagnostics facilities, you must enable diagnostic tracing.
@@ -121,15 +115,13 @@ Before you can use the memory diagnostics facilities, you must enable diagnostic
   afxMemDF = allocMemDF | delayFreeMemDF | checkAlwaysMemDF;
   ```
 
-  [In this topic](#BKMK_In_this_topic)
-
 ### <a name="BKMK_Taking_memory_snapshots"></a> Taking memory snapshots
 
 1. Create a [CMemoryState](/previous-versions/visualstudio/visual-studio-2010/2ads32e2(v=vs.100)) object and call the [CMemoryState::Checkpoint](/cpp/mfc/reference/cmemorystate-structure#checkpoint) member function. This creates the first memory snapshot.
 
 2. After your program performs its memory allocation and deallocation operations, create another `CMemoryState` object and call `Checkpoint` for that object. This gets a second snapshot of memory usage.
 
-3. Create a third `CMemoryState` object and call its [CMemoryState::Difference](/cpp/mfc/reference/cmemorystate-structure#difference) member function, supplying as arguments the two previous `CMemoryState` objects. If there is a difference between the two memory states, the `Difference` function returns a nonzero value. This indicates that some memory blocks have not been deallocated.
+3. Create a third `CMemoryState` object and call its [CMemoryState::Difference](/cpp/mfc/reference/cmemorystate-structure#difference) member function, supplying as arguments the two previous `CMemoryState` objects. If there's a difference between the two memory states, the `Difference` function returns a nonzero value. This indicates that some memory blocks haven't been deallocated.
 
     This example shows what the code looks like:
 
@@ -154,14 +146,12 @@ Before you can use the memory diagnostics facilities, you must enable diagnostic
     #endif
     ```
 
-    Notice that the memory-checking statements are bracketed by **#ifdef _DEBUG / #endif** blocks so that they are compiled only in Debug versions of your program.
+    Notice that the memory-checking statements are bracketed by **#ifdef _DEBUG / #endif** blocks so that they're compiled only in Debug versions of your program.
 
     Now that you know a memory leak exists, you can use another member function, [CMemoryState::DumpStatistics](/cpp/mfc/reference/cmemorystate-structure#dumpstatistics) that will help you locate it.
 
-    [In this topic](#BKMK_In_this_topic)
-
 ### <a name="BKMK_Viewing_memory_statistics"></a> Viewing memory statistics
-The [CMemoryState::Difference](/cpp/mfc/reference/cmemorystate-structure#difference) function looks at two memory-state objects and detects any objects not deallocated from the heap between the beginning and end states. After you have taken memory snapshots and compared them using `CMemoryState::Difference`, you can call [CMemoryState::DumpStatistics](/cpp/mfc/reference/cmemorystate-structure#dumpstatistics) to get information about the objects that have not been deallocated.
+The [CMemoryState::Difference](/cpp/mfc/reference/cmemorystate-structure#difference) function looks at two memory-state objects and detects any objects not deallocated from the heap between the beginning and end states. After you have taken memory snapshots and compared them using `CMemoryState::Difference`, you can call [CMemoryState::DumpStatistics](/cpp/mfc/reference/cmemorystate-structure#dumpstatistics) to get information about the objects that haven't been deallocated.
 
 Consider the following example:
 
@@ -193,16 +183,14 @@ Non-object blocks include arrays and structures allocated with `new`. In this ca
 
 `Total allocations` gives the total amount of memory used by the program.
 
-[In this topic](#BKMK_In_this_topic)
-
 ### <a name="BKMK_Taking_object_dumps"></a> Taking object dumps
-In an MFC program, you can use [CMemoryState::DumpAllObjectsSince](/cpp/mfc/reference/cmemorystate-structure#dumpallobjectssince) to dump a description of all objects on the heap that have not been deallocated. `DumpAllObjectsSince` dumps all objects allocated since the last [CMemoryState::Checkpoint](/cpp/mfc/reference/cmemorystate-structure#checkpoint). If no `Checkpoint` call has taken place, `DumpAllObjectsSince` dumps all objects and nonobjects currently in memory.
+In an MFC program, you can use [CMemoryState::DumpAllObjectsSince](/cpp/mfc/reference/cmemorystate-structure#dumpallobjectssince) to dump a description of all objects on the heap that haven't been deallocated. `DumpAllObjectsSince` dumps all objects allocated since the last [CMemoryState::Checkpoint](/cpp/mfc/reference/cmemorystate-structure#checkpoint). If no `Checkpoint` call has taken place, `DumpAllObjectsSince` dumps all objects and nonobjects currently in memory.
 
 > [!NOTE]
 > Before you can use MFC object dumping, you must [enable diagnostic tracing](#BKMK_Enabling_memory_diagnostics).
 
 > [!NOTE]
-> MFC automatically dumps all leaked objects when your program exits, so you do not need to create code to dump objects at that point.
+> MFC automatically dumps all leaked objects when your program exits, so you don't need to create code to dump objects at that point.
 
 The following code tests for a memory leak by comparing two memory states and dumps all objects if a leak is detected.
 
@@ -239,8 +227,6 @@ You can set a breakpoint on a particular memory allocation by setting the global
 
 The C run-time library has a similar function, [_CrtSetBreakAlloc](/cpp/c-runtime-library/reference/crtsetbreakalloc), that you can use for C run-time allocations.
 
-[In this topic](#BKMK_In_this_topic)
-
 #### <a name="BKMK_Interpreting_memory_dumps"></a> Interpreting memory dumps
 Look at this object dump in more detail:
 
@@ -266,7 +252,7 @@ CString s("This is a frame variable");
 CPerson* p = new CPerson( "Smith", "Alan", "581-0215" );
 ```
 
-The `CPerson` constructor takes three arguments that are pointers to `char`, which are used to initialize `CString` member variables. In the memory dump, you can see the `CPerson` object along with three nonobject blocks (3, 4, and 5). These hold the characters for the `CString` member variables and will not be deleted when the `CPerson` object destructor is invoked.
+The `CPerson` constructor takes three arguments that are pointers to `char`, which are used to initialize `CString` member variables. In the memory dump, you can see the `CPerson` object along with three nonobject blocks (3, 4, and 5). These hold the characters for the `CString` member variables and won't be deleted when the `CPerson` object destructor is invoked.
 
 Block number 2 is the `CPerson` object itself. `$51A4` represents the address of the block and is followed by the contents of the object, which were output by `CPerson`::`Dump` when called by [DumpAllObjectsSince](/cpp/mfc/reference/cmemorystate-structure#dumpallobjectssince).
 
@@ -274,7 +260,7 @@ You can guess that block number 1 is associated with the `CString` frame variabl
 
 **Frame Variables**
 
-In general, you should not worry about heap objects associated with frame variables because they are automatically deallocated when the frame variables go out of scope. To avoid clutter in your memory diagnostic dumps, you should position your calls to `Checkpoint` so that they are outside the scope of frame variables. For example, place scope brackets around the previous allocation code, as shown here:
+In general, you shouldn't worry about heap objects associated with frame variables because they're automatically deallocated when the frame variables go out of scope. To avoid clutter in your memory diagnostic dumps, you should position your calls to `Checkpoint` so that they're outside the scope of frame variables. For example, place scope brackets around the previous allocation code, as shown here:
 
 ```cpp
 oldMemState.Checkpoint();
@@ -308,7 +294,7 @@ Notice that some allocations are objects (such as `CPerson`) and some are nonobj
 
 **Preventing Memory Leaks**
 
-Notice in the code above that the memory block associated with the `CString` frame variable has been deallocated automatically and does not show up as a memory leak. The automatic deallocation associated with scoping rules takes care of most memory leaks associated with frame variables.
+Notice in the code above that the memory block associated with the `CString` frame variable has been deallocated automatically and doesn't show up as a memory leak. The automatic deallocation associated with scoping rules takes care of most memory leaks associated with frame variables.
 
 For objects allocated on the heap, however, you must explicitly delete the object to prevent a memory leak. To clean up the last memory leak in the previous example, delete the `CPerson` object allocated on the heap, as follows:
 
@@ -321,8 +307,6 @@ For objects allocated on the heap, however, you must explicitly delete the objec
     delete p;
 }
 ```
-
-[In this topic](#BKMK_In_this_topic)
 
 #### <a name="BKMK_Customizing_object_dumps"></a> Customizing object dumps
 When you derive a class from [CObject](/cpp/mfc/reference/cobject-class), you can override the `Dump` member function to provide additional information when you use [DumpAllObjectsSince](/cpp/mfc/reference/cmemorystate-structure#dumpallobjectssince) to dump objects to the [Output window](../ide/reference/output-window.md).
@@ -347,7 +331,7 @@ public:
 };
 ```
 
-Because object dumping only makes sense when you are debugging your program, the declaration of the `Dump` function is bracketed with an **#ifdef _DEBUG / #endif** block.
+Because object dumping only makes sense when you're debugging your program, the declaration of the `Dump` function is bracketed with an **#ifdef _DEBUG / #endif** block.
 
 In the following example, the `Dump` function first calls the `Dump` function for its base class. It then writes a short description of each member variable along with the member's value to the diagnostic stream.
 
@@ -376,8 +360,6 @@ CPerson* pMyPerson = new CPerson;
 pMyPerson->Dump( afxDump );
 #endif
 ```
-
-[In this topic](#BKMK_In_this_topic)
 
 ## <a name="BKMK_Reducing_the_size_of_an_MFC_Debug_build"></a> Reducing the size of an MFC Debug build
 The debug information for a large MFC application can take up a lot of disk space. You can use one of these procedures to reduce the size:
@@ -425,7 +407,7 @@ Building selected modules with the MFC debug libraries enables you to use steppi
 
    6. Click **OK** to save the new build options and close the **Property Pages** dialog box.
 
-5. From the **Build** menu, select **Rebuild**. This removes all debug information from your modules but does not affect the MFC library.
+5. From the **Build** menu, select **Rebuild**. This removes all debug information from your modules but doesn't affect the MFC library.
 
 6. Now you must add debug information back to selected modules in your application. Remember that you can set breakpoints and perform other debugger functions only in modules you have compiled with debug information. For each project file in which you want to include debug information, carry out the following steps:
 
@@ -441,13 +423,11 @@ Building selected modules with the MFC debug libraries enables you to use steppi
 
    6. Click the **Debug Information Format** settings and select the desired option (usually **/ZI**) for debug information.
 
-   7. If you are using an application wizard-generated application or have precompiled headers, you have to turn off the precompiled headers or recompile them before compiling the other modules. Otherwise, you will receive warning C4650 and error message C2855. You can turn off precompiled headers by changing the **Create/Use Precompiled Headers** setting in the **\<Project> Properties** dialog box (**Configuration Properties** folder, **C/C++** subfolder, **Precompiled Headers** category).
+   7. If you're using an application wizard-generated application or have precompiled headers, you have to turn off the precompiled headers or recompile them before compiling the other modules. Otherwise, you will receive warning C4650 and error message C2855. You can turn off precompiled headers by changing the **Create/Use Precompiled Headers** setting in the **\<Project> Properties** dialog box (**Configuration Properties** folder, **C/C++** subfolder, **Precompiled Headers** category).
 
 7. From the **Build** menu, select **Build** to rebuild project files that are out of date.
 
    As an alternative to the technique described in this topic, you can use an external makefile to define individual options for each file. In that case, to link with the MFC debug libraries, you must define the [_DEBUG](/cpp/c-runtime-library/debug) flag for each module. If you want to use MFC release libraries, you must define NDEBUG. For more information on writing external makefiles, see the [NMAKE Reference](/cpp/build/running-nmake).
-
-   [In this topic](#BKMK_In_this_topic)
 
 ## Related content
 - [Debugging Native Code](../debugger/debugging-native-code.md)
