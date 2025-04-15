@@ -29,31 +29,6 @@ ms.subservice: debug-diagnostics
 
 If you are debugging an MFC program, these debugging techniques may be useful.
 
-## <a name="BKMK_In_this_topic"></a> In this topic
-[AfxDebugBreak](#BKMK_AfxDebugBreak)
-
-[The TRACE macro](#BKMK_The_TRACE_macro)
-
-[Detecting memory leaks in MFC](#BKMK_Memory_leak_detection_in_MFC)
-
-- [Tracking memory allocations](#BKMK_Tracking_memory_allocations)
-
-- [Enabling memory diagnostics](#BKMK_Enabling_memory_diagnostics)
-
-- [Taking memory snapshots](#BKMK_Taking_memory_snapshots)
-
-- [Viewing memory statistics](#BKMK_Viewing_memory_statistics)
-
-- [Taking object dumps](#BKMK_Taking_object_dumps)
-
-  - [Interpreting memory dumps](#BKMK_Interpreting_memory_dumps)
-
-  - [Customizing object dumps](#BKMK_Customizing_object_dumps)
-
-  - [Reducing the size of an MFC Debug build](#BKMK_Reducing_the_size_of_an_MFC_Debug_build)
-
-  - [Building an MFC app with debug information for selected modules](#BKMK_Building_an_MFC_app_with_debug_information_for_selected_modules)
-
 ## <a name="BKMK_AfxDebugBreak"></a> AfxDebugBreak
 MFC provides a special [AfxDebugBreak](/cpp/mfc/reference/diagnostic-services#afxdebugbreak) function for hard-coding breakpoints in source code:
 
