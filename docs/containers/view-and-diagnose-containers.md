@@ -154,13 +154,13 @@ The confirmation dialogs for various tasks, such as removing containers and imag
 
 You can also enable or disable these options by using the settings at **Tools** > **Options** > **Container Tools** > **Containers Tool Window**. For more information, see [Configure Container Tools](container-tools-configure.md).
 
-## Start, stop, and remove containers
+### Start, stop, and remove containers
 
 By default, the **Containers** window shows all containers on the machine that Docker manages. You can use the toolbar buttons in the **Containers** window to start, stop, or delete a container. The containers list dynamically updates as containers are created or removed.
 
 To select multiple containers, for example to remove more than one container at a time, use **Ctrl**+**SELECT**. You are prompted to confirm if you try to start or remove more than 10 containers at a time. You can disable the confirmation prompt if desired.
 
-## Open a terminal window in a running container
+### Open a terminal window in a running container
 
 You can open a terminal window (command prompt or interactive shell) in the container by using the **Open Terminal Window** button in the **Container** window.
 
@@ -184,7 +184,7 @@ For Windows containers, the Windows command prompt opens. For Linux containers, 
 If you're targeting .NET 8 in Visual Studio 2022 version 17.7 and later, your Dockerfile can specify the `USER app` command, which means your app runs with normal user permissions rather than elevated permissions. The terminal opens as the user specified in the Dockerfile, which is `app` by default for .NET 8 projects. If no user is specified, the terminal runs as the `root` user.
 :::moniker-end
 
-## Attach debugger to a container process
+### Attach the debugger to a container process
 
 You can attach the debugger to a process running in the container by using the **Attach to Process** button on the **Containers** window toolbar. When you use this button, the **Attach to Process** dialog box appears and shows the available processes that are running in the container.
 
@@ -230,7 +230,7 @@ You can easily remove containers and images you're not using by using the **Prun
 ![Screenshot showing the prune button.](media/view-and-diagnose-containers/vs-2022/containers-prune.png)
 :::moniker-end
 
-You're prompted whether you want to remove all stopped containers. If you select the **Prune** button when the **Images** tab is selected, the prompt asks if you want to remove all dangling images. Dangling images are images of layers that are no longer associated with a tagged image. Remove them occasionally to help conserve disk space.
+When you select the **Prune** button with the **Containers** tab selected, you're prompted whether you want to remove all stopped containers. If you select the **Prune** button when the **Images** tab is selected, the prompt asks if you want to remove all dangling images. Dangling images are images of layers that are no longer associated with a tagged image. Remove dangling images occasionally to help conserve disk space.
 
 ## Related content
 
