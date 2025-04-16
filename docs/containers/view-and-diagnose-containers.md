@@ -189,7 +189,7 @@ If you're targeting .NET 8 in Visual Studio 2022 version 17.7 and later, your Do
 You can attach the debugger to a process running in the container by using the **Attach to Process** button on the **Containers** window toolbar. When you use this button, the **Attach to Process** dialog box appears and shows the available processes that are running in the container.
 
 :::moniker range="vs-2019"
-![Screenshot of Attach to Process dialog box.](media/view-and-diagnose-containers/containers-attach-to-process.jpg)
+![Screenshot of Attach to Process dialog box.](media/view-and-diagnose-containers/containers-attach-to-process.png)
 :::moniker-end
 :::moniker range=">=vs-2022"
 ![Screenshot of Attach to Process dialog box.](media/view-and-diagnose-containers/vs-2022/containers-attach-to-process.png)
