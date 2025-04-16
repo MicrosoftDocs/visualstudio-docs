@@ -14,7 +14,7 @@ monikerRange: ">=vs-2019"
 
 # Use the Containers window
 
-You can use the Visual Studio **Containers** window to view what's going on inside the containers that host your apps and to see your container images. If you're used to running Docker commands to view and analyze your containers, this window provides a convenient way to monitor abd interact with containers without leaving the Visual Studio IDE.
+You can use the Visual Studio **Containers** window to see what's going on inside the Docker containers that host your apps and to view your container images. If you're used to running Docker commands to view and analyze your containers, this window provides a convenient way to monitor and interact with containers without leaving the Visual Studio IDE.
 
 ## Prerequisites
 
