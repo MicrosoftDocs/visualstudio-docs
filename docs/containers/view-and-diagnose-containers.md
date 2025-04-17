@@ -4,7 +4,7 @@ description: Use the Visual Studio Containers window to view, debug, and interac
 author: ghogen
 ms.author: ghogen
 ms.topic: how-to
-ms.date: 04/16/2025
+ms.date: 04/17/2025
 ms.subservice: container-tools
 monikerRange: ">=vs-2019"
 
@@ -26,7 +26,9 @@ You can use the Visual Studio **Containers** window to see what's going on insid
 :::moniker range=">=vs-2022"
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 - [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) or [Visual Studio 2019 version 16.4](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) or later.
-- For the Docker Compose node: [Visual Studio 2022 version 17.7 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) and Docker v2. Docker v2 installs with Docker Desktop and is on by default.
+- For the Docker Compose node:
+  - [Visual Studio 2022 version 17.7 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
+  - Docker v2, which installs with Docker Desktop and is on by default.
 
 :::moniker-end
 
@@ -34,7 +36,7 @@ You can use the Visual Studio **Containers** window to see what's going on insid
 
 :::moniker range="vs-2019"
 
-The **Containers** window opens automatically when you start a containerized .NET project. To open the **Containers** window any time, select **View** > **Other Windows** > **Containers** from the Visual Studio menu. You can also use **Ctrl**+**Q** to activate the Visual Studio Search box, type *Containers*, and choose the first item.
+The **Containers** window opens automatically when you start a containerized .NET project. To open the **Containers** window any time, select **View** > **Other Windows** > **Containers** from the Visual Studio menu. You can also use **Ctrl**+**Q** to open the Visual Studio Search box, type *Containers*, and select the **Containers** item.
 
 ![Screenshot of the Containers window in Visual Studio with a container selected in the left pane, and the Environment tab selected in the right pane.](media/view-and-diagnose-containers/container-window.png)
 
@@ -43,7 +45,7 @@ The left side of the window shows the list of containers on your local machine. 
 :::moniker-end
 :::moniker range="vs-2022"
 
-The **Containers** window opens automatically when you start a containerized .NET project. To open the **Containers** window any time, select **View** > **Other Windows** > **Containers** from the Visual Studio menu, or press **Ctrl**+**K**, **Ctrl**+**O**.
+The **Containers** window opens automatically when you start a containerized .NET project. To open the **Containers** window any time, select **View** > **Other Windows** > **Containers** from the Visual Studio menu, or press **Ctrl**+**K**, **Ctrl**+**O**. You can also use **Ctrl**+**Q** to open the Visual Studio Search box, type *Containers*, and select the **Containers** item.
 
 ![Screenshot of the Containers window in Visual Studio with a container selected in the left pane, and the Environment tab selected in the right pane.](media/view-and-diagnose-containers/vs-2022/container-tools-window.png)
 
@@ -60,7 +62,7 @@ If you're using Docker Compose and Visual Studio 2022 version 17.7 or later, you
 
 ### View environment variables
 
-The **Environment** tab shows the environment variables in the container. You can set these variables in the Dockerfile, in an .env file, or by using the `-e` option when you start a container using a Docker command.
+The **Environment** tab shows the environment variables in the container. You can set these variables in the Dockerfile, in an *.env* file, or by using the `-e` option when you start a container using a Docker command.
 
 > [!NOTE]
 > Changes to the environment variables aren't reflected in real time. Also, the environment variables in this tab are the system environment variables on the container, not the user environment variables local to the app.
@@ -89,7 +91,7 @@ The **Labels** tab shows the labels for the container. Labels are a way of setti
 
 ### View port mappings
 
-On the **Ports** tab, you can check the port mappings for your container. Well-known ports are linked, so if there's content available on a port, you can select the link to open the browser.
+On the **Ports** tab, you can check the port mappings for your container. Well-known ports are linked, so you can select the link to open a browser to the host port address.
 
 :::moniker range="vs-2019"
 ![Screenshot of Ports tab in Containers window.](media/view-and-diagnose-containers/containers-ports.png)
