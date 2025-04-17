@@ -4,7 +4,7 @@ description: Use the Visual Studio Containers window to view, debug, and interac
 author: ghogen
 ms.author: ghogen
 ms.topic: how-to
-ms.date: 04/15/2025
+ms.date: 04/16/2025
 ms.subservice: container-tools
 monikerRange: ">=vs-2019"
 
@@ -139,14 +139,14 @@ The **Logs** tab shows the results of the `docker logs` command. By default, the
 
 :::moniker range="vs-2019"
 
-By default, the **Logs** tab streams the logs, but you can pause the stream by selecting the **Stream Logs** button on the tab. Select **Stream Logs** again to resume the streaming from where it left off.
+By default, the **Logs** tab streams the logs. You can pause the stream by selecting the **Stream Logs** button on the tab. Select **Stream Logs** again to resume the streaming from where it left off.
 
 ![Screenshot of Logs tab in Containers window.](media/view-and-diagnose-containers/containers-logs.png)
 
 :::moniker-end
 :::moniker range=">=vs-2022"
 
-By default, the **Logs** tab streams the logs, but you can pause the stream by selecting the **Stream** button on the tab. Select **Stream** again to resume the streaming from where it left off.
+By default, the **Logs** tab streams the logs. You can pause the stream by selecting the **Stream** button on the tab. Select **Stream** again to resume the streaming from where it left off.
 
 ![Screenshot of Logs tab in Containers window.](media/view-and-diagnose-containers/vs-2022/containers-logs.png)
 
@@ -170,11 +170,19 @@ The **Details** tab displays metadata and runtime information about the containe
 
 :::moniker-end
 
-## Configuration options
+## Interact with containers
 
 The confirmation dialogs for various tasks, such as removing containers and images or launching more than 10 containers at a time, might display prompts. You can disable each prompt by using the checkbox on the dialog window.
 
+:::moniker range="vs-2019"
+
 You can also enable or disable these options by using the settings at **Tools** > **Options** > **Container Tools** > **Containers Tool Window**. For more information, see [Configure Container Tools](container-tools-configure.md).
+
+:::moniker-end
+:::moniker range=">=vs-2022"
+
+You can also enable or disable these options by using the settings at **Tools** > **Options** > **Container Tools** > **Containers Window**. For more information, see [Configure Container Tools](container-tools-configure.md).
+:::moniker-end
 
 ### Start, stop, and remove containers
 
