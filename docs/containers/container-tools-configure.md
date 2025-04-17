@@ -21,7 +21,7 @@ You can control some aspects of how Visual Studio works with Docker containers b
 
 ## Container Tools settings
 
-Select **Tools > Options** from the main Visual Studio menu. In the left pane, scroll down and expand **Container Tools** to access the settings.
+To access the settings, select **Tools > Options** from the main Visual Studio menu. In the left pane, scroll down and expand **Container Tools**.
 
 ### General settings
 
@@ -30,7 +30,7 @@ Select **Tools > Options** from the main Visual Studio menu. In the left pane, s
 
 The following table describes the **General** settings:
 
-|Name|Default setting|Applies To|Description|
+|Setting|Default value|Applies to|Description|
 |-----|---------------|----------|-----------|
 |Install Docker Desktop if needed|Prompt me|Choose whether you want to be prompted if Docker Desktop isn't installed.|
 |Start Docker Desktop if needed|Always|If Docker Desktop isn't started, choose whether to start it automatically or to prompt you.|
@@ -42,7 +42,7 @@ The following table describes the **General** settings:
 
 The following table describes the **General** settings:
 
-|Name|Default setting|Description|
+|Setting|Default value|Description|
 |-----|---------------|-----------|
 |Install Docker Desktop if needed|Prompt me|Choose whether you want to be prompted if Docker Desktop isn't installed.|
 |Start Docker Desktop if needed|Prompt me|If Docker Desktop isn't started, choose whether to start it automatically or to prompt you.|
@@ -67,17 +67,17 @@ The Container Tools **Single Project** and **Docker Compose** settings are ident
 The following table describes **Single Project** and **Docker Compose** settings:
 
 :::moniker range="<=vs-2019"
-|Name|Default setting|Description|
+|Setting|Default value|Description|
 |-----|---------------|-----------|
-|Pull required Docker images on project open|True|Visual Studio starts a background Docker pull operation when it loads a container project, so the image is already downloaded or downloading when you're ready to run your code. To simply browse the code, you can set to **False** to avoid downloading container images you don't need.|
-|Pull updated Docker images on project open|.NET Core projects|When you open a project, check for updates to images and download if available.|
+|Pull required Docker images on project open|True|Visual Studio starts a background Docker pull operation when it loads a container project, so the image is already downloaded or downloading when you're ready to run your code. If you just want to browse the code, you can set to **False** to avoid downloading container images you don't need.|
+|Pull updated Docker images on project open|.NET Core projects|Whether and on which projects to check for image updates on opening and download if available.|
 |Run containers on project open|True|Visual Studio creates a container when it loads a container project, so it's ready when you build and run. To control when your container is created, set to **False**.|
 |Remove containers on project close|True|Set to **False** to retain containers for your solution after closing the solution or closing Visual Studio.|
 :::moniker-end
 :::moniker range=">=vs-2022"
-|Name|Default setting|Description|
+|Setting|Default value|Description|
 |-----|:---------------|-----------|
-|Pull required Docker images on project open|True|Visual Studio starts a background Docker pull operation when it loads a container project, so the image is already downloaded or downloading when you're ready to run your code. If you want to simply browse the code, you can set to **False** to avoid downloading container images you don't need.|
+|Pull required Docker images on project open|True|Visual Studio starts a background Docker pull operation when it loads a container project, so the image is already downloaded or downloading when you're ready to run your code. If you just want to browse the code, you can set to **False** to avoid downloading container images you don't need.|
 |Pull updated Docker images on project open|.NET Core projects|When you open a project, check for updates to images and download if available.|
 |Run containers on project open|True|Visual Studio creates a container when it loads a container project, so it's ready when you build and run. To control when your container is created, set to **False**.|
 |Remove containers on project close|True|Set to **False** to retain containers for your solution after closing the solution or closing Visual Studio.|
@@ -85,6 +85,7 @@ The following table describes **Single Project** and **Docker Compose** settings
 |Run a service in containers to enable Hot Reload|True|The Hot Reload service is available in Visual Studio 2022 version 17.7 and later, and only supports running without debugging. Set to **False** if you don't want to install and run this service.|
 :::moniker-end
 
+:::moniker range="<=vs-2019"
 ### Containers Tool Window settings
 
 The **Containers Tool Window** settings apply to the **Containers** tool window, which shows information about Docker containers and images in the Visual Studio IDE. For more information, see [Use the Containers window](view-and-diagnose-containers.md).
@@ -93,7 +94,7 @@ The **Containers Tool Window** settings apply to the **Containers** tool window,
 
 The following table describes the **Containers Tool Window** settings:
 
-|Name|Default setting|Description|
+|Setting|Default value|Description|
 |-----|---------------|-----------|
 |Confirm before pruning containers|Always|Whether to prompt you when pruning unused containers.|
 |Confirm before pruning images|Always|Whether to prompt you when pruning unused images.|
@@ -101,8 +102,8 @@ The following table describes the **Containers Tool Window** settings:
 |Confirm before removing an image|Always|Whether to prompt you when removing an image.|
 |Confirm before running large number of images|Always|Whether to prompt you before starting containers from more than 10 images at a time.|
 
+:::moniker-end
 :::moniker range=">=vs-2022"
-
 ### Containers Window settings
 
 The **Containers Window** settings apply to the **Containers** window, which shows information about Docker containers and images in the Visual Studio IDE. For more information, see [Use the Containers window](view-and-diagnose-containers.md).
@@ -111,7 +112,7 @@ The **Containers Window** settings apply to the **Containers** window, which sho
 
 The following table describes the **Containers Window** settings:
 
-|Name|Default setting|Description|
+|Setting|Default value|Description|
 |-----|---------------|-----------|
 |Confirm before pruning containers|Always|Whether to prompt you when pruning unused containers.|
 |Confirm before pruning images|Always|Whether to prompt you when pruning unused images.|
@@ -123,9 +124,9 @@ The following table describes the **Containers Window** settings:
 
 ## Configure Azure authentication
 
-If your app uses Azure services, it needs appropriate credentials to authenticate with Azure services when it runs in a container. During development, you can usually use your own Azure credentials, but credentials are required in the container environment to be useful for the running containerized app.
+If your app uses Azure services, it needs appropriate credentials to authenticate with Azure services when it runs in a container. During development, you can usually use your own Azure credentials, but running the containerized app in the container environment requires the credentials the app uses in production.
 
-Starting with Visual Studio 2022 version 17.6, in both single-container and Docker Compose projects, a [token](https://www.nuget.org/packages/Azure.Identity#readme-body-tab) proxy service deploys and runs in your containers that helps your apps and services authenticate in Azure. The feature requires [Azure Identity 1.9.0](https://www.nuget.org/packages/Azure.Identity/1.9.0#readme-body-tab) or later.
+In Visual Studio 2022 version 17.6 and later, in both single-container and Docker Compose projects, a [token](https://www.nuget.org/packages/Azure.Identity#readme-body-tab) proxy service deploys and runs in your containers to help your apps and services authenticate in Azure. The feature requires [Azure Identity 1.9.0](https://www.nuget.org/packages/Azure.Identity/1.9.0#readme-body-tab) or later.
 
 With this service enabled, you can automatically use most Azure services without any added configuration or setup within the container. Your code can use `DefaultAzureCredential` and `VisualStudioCredential` to authenticate with Azure services the same way as outside of a container. For more information, see the [Azure Identity 1.9.0 README](https://www.nuget.org/packages/Azure.Identity/1.9.0#readme-body-tab).
 
@@ -134,7 +135,7 @@ To disable this feature, set **Run a service in containers to enable Azure Authe
 > [!CAUTION]
 > There's a potential security concern if you use the token proxy and enable certain Container Tools diagnostic logs. When logging is enabled, authentication credentials could be logged as plain text.
 > 
-> These logs are enabled by certain environment variables. For single container projects, the environment variable is `MS_VS_CONTAINERS_TOOLS_LOGGING_ENABLED`, which logs in `%tmp%\Microsoft.VisualStudio.Containers.Tools`. For Docker Compose projects, the variable is `MS_VS_DOCKER_TOOLS_LOGGING_ENABLED`, which logs in `%tmp%\Microsoft.VisualStudio.DockerCompose.Tools`.
+> Certain environment variables enable these logs. For single container projects, the environment variable is `MS_VS_CONTAINERS_TOOLS_LOGGING_ENABLED`, which logs in `%tmp%\Microsoft.VisualStudio.Containers.Tools`. For Docker Compose projects, the variable is `MS_VS_DOCKER_TOOLS_LOGGING_ENABLED`, which logs in `%tmp%\Microsoft.VisualStudio.DockerCompose.Tools`.
 
 :::moniker-end
 
