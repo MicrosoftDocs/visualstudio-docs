@@ -89,7 +89,7 @@ The **Labels** tab shows the labels for the container. Labels are a way of setti
 
 ### View port mappings
 
-On the **Ports** tab, you can check the port mappings for your container. Well-known ports are linked, so if there's content available on a port, you can click on the link to open the browser.
+On the **Ports** tab, you can check the port mappings for your container. Well-known ports are linked, so if there's content available on a port, you can select the link to open the browser.
 
 :::moniker range="vs-2019"
 ![Screenshot of Ports tab in Containers window.](media/view-and-diagnose-containers/containers-ports.png)
@@ -239,7 +239,7 @@ You can view images on the local machine by using the **Images** tab on the left
 
 ![Screenshot showing Containers window showing container images.](media/view-and-diagnose-containers/containers-images.png)
 
-The right pane has the tabs applicable to images: **Labels** and **Layers**. The **Details** tab shows the configuration details for the image in JSON format.
+The right pane has the tabs applicable to images: **Labels** and **Details**. The **Details** tab shows the configuration details for the image in JSON format.
 
 ![Screenshot showing Images > Details tab of the Containers window.](media/view-and-diagnose-containers/containers-images-details.png)
 
