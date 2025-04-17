@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Angular"
 description: Create an ASP.NET Core project to serve as an API backend and an Angular project to provide the user interface in Visual Studio.
-ms.date: 01/08/2025
+ms.date: 04/09/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -35,7 +35,7 @@ Make sure to install the following:
 - npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js
 - Angular CLI ([`https://angular.dev/tools/cli`](https://angular.dev/tools/cli)), which can be the version of your choice. The front-end project is created using the framework CLI tools you have installed on your local machine, so this determines the Angular version used in the template.
 
-## Create the frontend app
+## Create the app
 
 1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
 
@@ -97,7 +97,7 @@ The Angular app appears and is populated via the API (the localhost port may var
 
 :::image type="content" source="media/vs-2022/asp-net-core-weather-forecast-app.png" alt-text="Screenshot showing the weather forecast app."::: 
 
-If you don't see the app, see [Troubleshooting](#troubleshooting).
+If you don't see the weather forecast data in the browser, see [Troubleshooting](#troubleshooting).
 
 ## Publish the project
 
@@ -193,6 +193,9 @@ If you create the project with [Docker support](../containers/overview.md#prereq
    ```
 
    Change `https://localhost:7209` to the matching HTTPS port (in this example, `https://localhost:62958`).
+
+   > [!NOTE]
+   > If the HTTPS port is missing in the Containers window, you can use **launchSettings.json** file to add the port. In the section `Container (Dockerfile)` and after the entry `"useSSL": true`, add `"sslPort": <any port>`. In this example, use the following: `"sslPort": 62958`.
 
 1. Restart the app.
 

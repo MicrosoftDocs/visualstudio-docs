@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with React"
 description: Create an ASP.NET Core project to serve as an API backend and a React project to provide the user interface in Visual Studio.
-ms.date: 11/06/2024
+ms.date: 04/09/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -32,7 +32,7 @@ You can use the method described in this article to create ASP.NET Core Single P
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 - npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js
 
-## Create the frontend app
+## Create the app
 
 1. In the Start window, select **Create a new project**. <!-- Avoid parenthetical clauses. https://review.learn.microsoft.com/en-us/help/contribute/localization-mt-guidance?branch=main-->
 
@@ -55,8 +55,7 @@ You can use the method described in this article to create ASP.NET Core Single P
    Compared to the [standalone React template](../javascript/tutorial-create-react-app.md), you see some new and modified files for integration with ASP.NET Core:
 
    - vite.config.js
-   - App.js (modified)
-   - App.test.js (modified)
+   - App.jsx (modified)
 
 1. Select an installed browser from the Debug toolbar, such as Chrome or Microsoft Edge.
 
@@ -87,13 +86,13 @@ Press **F5** or select the **Start** button at the top of the window to start th
 - The Vite CLI showing a message such as `VITE v4.4.9 ready in 780 ms`
 
    >[!NOTE]
-   > Check console output for messages. For example there might be a message to update Node.js.
+   > Check console output for messages. For example, there might be a message to update Node.js.
 
 The React app appears and is populated via the API (the localhost port may vary from the screenshot).
 
 :::image type="content" source="media/vs-2022/asp-net-core-weather-forecast-app.png" alt-text="Screenshot showing the weather forecast app.":::
 
-If you don't see the app, see [Troubleshooting](#troubleshooting).
+If you don't see the weather forecast data in the browser, see [Troubleshooting](#troubleshooting).
 
 ## Publish the project
 
@@ -184,9 +183,12 @@ If you create the project with [Docker support](../containers/container-tools-re
 
 1. After the app loads, get the Docker HTTPS port using the [Containers window](../containers/container-tools-react.md#containers-window) in Visual Studio. Check the **Environment** or **Ports** tab.
 
-   :::image type="content" source="media/vs-2022/asp-net-core-with-react-docker-container-ports.png" alt-text="Screenshot showing Docker container ports."::: 
+   :::image type="content" source="media/vs-2022/asp-net-core-with-react-docker-container-ports.png" alt-text="Screenshot showing Docker container ports.":::
 
-1. Open the `vite.config.js` file for the React project. Update the `target` variable to match the HTTPS port in the Containers window. For example, in the following code:
+> [!NOTE]
+> If you do not see the environment name `ASPNETCORE_HTTPS_PORT`, add it manually using the **launchSettings.json** file. In the section `Container (Dockerfile)` and after the entry `"useSSL": true`, add `"sslPort": <any port>`. In this example, use the following: `"sslPort": 44307` 
+
+2. Open the `vite.config.js` file for the React project. Update the `target` variable to match the HTTPS port in the Containers window. For example, in the following code:
 
    ```js
    const target = env.ASPNETCORE_HTTPS_PORT ? `https://localhost:${env.ASPNETCORE_HTTPS_PORT}` :

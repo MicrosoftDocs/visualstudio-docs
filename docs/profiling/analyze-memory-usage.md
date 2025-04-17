@@ -1,7 +1,7 @@
 ---
 title: "Choose a memory analysis tool"
 description: Learn about the tools you can use to find memory leaks and inefficient memory usage, tools such as the Memory Usage tool and the .NET Object Allocation tool.
-ms.date: "01/06/2024"
+ms.date: "04/14/2025"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -23,6 +23,12 @@ C++ developers can use Memory Usage tool on debug or release builds:
 
 - [Measure memory usage on debug builds](../profiling/memory-usage.md)
 - [Analyze memory usage on release builds](../profiling/memory-usage-without-debugging2.md)
+
+## Learn more
+
+You may want to read about a general approach to optimizing code using the profiling tools. This article shows you how to use different tools, including the .NET Object Allocation tool, to optimize code.
+
+[Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md)
 
 ## Blogs and videos
 

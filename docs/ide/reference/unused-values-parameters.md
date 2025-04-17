@@ -37,4 +37,4 @@ This refactoring applies to:
 ## See also
 
 - [Overview of Code Refactoring in Visual Studio](../refactoring-in-visual-studio.md)
-- [The Visual Studio productivity guide for C# developers](../csharp-developer-productivity.md)
+- [Productivity features](../productivity-features.md)
