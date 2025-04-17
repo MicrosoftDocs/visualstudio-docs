@@ -1,5 +1,5 @@
 ---
-title: Configure Visual Studio Container Tools
+title: Configure Container Tools
 description: Use Visual Studio Container Tools to control how Visual Studio works with Docker containers, including performance settings and resource usage.
 author: ghogen
 ms.author: ghogen
@@ -11,6 +11,8 @@ f1_keywords:
  - VS.ToolsOptionsPages.Container_Tools.Docker
  - VS.ToolsOptionsPages.Container_Tools.Containers_Tool_Window
  - VS.ToolsOptionsPages.Container_Tools.Settings
+
+#customer intent: As a deveoloper, I want to learn how to configure Visual Studio Container Tools so I can get the best performance and resource usage for my container projects.
 ---
 
 # Configure Visual Studio Container Tools
