@@ -16,7 +16,7 @@ ms.subservice: debug-diagnostics
 
 You can start Spy++ either from Visual Studio or at a command prompt.
 
-When you start Spy++, if a message displays requesting permission to make changes to the computer, select **Yes**.
+When you start Spy++, if a message appears requesting permission to make changes to the computer, select **Yes**.
 
 > [!NOTE]
 > You can run only one instance of Spy++. If you try to start a second instance, the current running instance gets the focus.
