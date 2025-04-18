@@ -3,6 +3,7 @@ title: Generate Comparison Operators for IComparable
 description: For increased performance, generate Comparison Operators for types that implement IComparable.
 ms.date: 05/12/2020
 ms.topic: reference
+ms.custom: "ide-ref"
 author: mikadumont
 ms.author: midumont
 manager: mijacobs

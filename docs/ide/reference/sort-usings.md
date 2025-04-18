@@ -3,6 +3,7 @@ title: Sort usings
 description: How to sort `using` directives at the top of your file so that they are in alphabetical order.
 ms.date: 04/05/2022
 ms.topic: reference
+ms.custom: "ide-ref"
 author: mikadumont
 ms.author: midumont
 manager: mijacobs

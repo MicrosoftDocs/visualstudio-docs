@@ -3,6 +3,7 @@ title: Convert switch statement to switch expression
 description: Learn how to use the Quick Actions and Refactorings menu to convert a switch statement to a C# 8.0 switch expression.
 ms.date: 06/19/2019
 ms.topic: reference
+ms.custom: "ide-ref"
 author: mikadumont
 ms.author: midumont
 manager: mijacobs

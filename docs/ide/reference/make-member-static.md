@@ -3,6 +3,7 @@ title: Make member static
 description: Learn how to use the Quick Actions and Refactorings menu to make a member static.
 ms.date: 02/19/2020
 ms.topic: reference
+ms.custom: "ide-ref"
 author: mikadumont
 ms.author: midumont
 manager: mijacobs

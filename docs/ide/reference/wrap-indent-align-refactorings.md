@@ -3,6 +3,7 @@ title: Wrap, indent, and align refactorings
 description: Learn how to wrap and align chains of method calls.
 ms.date: 03/10/2020
 ms.topic: reference
+ms.custom: "ide-ref"
 author: mikadumont
 ms.author: midumont
 manager: mijacobs

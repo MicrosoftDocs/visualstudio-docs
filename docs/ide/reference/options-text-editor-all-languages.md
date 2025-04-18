@@ -36,6 +36,7 @@ helpviewer_keywords:
 - General dialog box
 - line numbers
 - virtual space
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs

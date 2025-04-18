@@ -9,6 +9,7 @@ helpviewer_keywords:
 - JSON002
 dev_langs:
 - CSharp
+ms.custom: "ide-ref"
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens

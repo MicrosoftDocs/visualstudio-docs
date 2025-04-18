@@ -3,6 +3,7 @@ title: Invert if statement
 description: Learn how to use the Quick Actions and Refactorings menu to invert an if or if else statement without changing the meaning of the code.
 ms.date: 02/19/2019
 ms.topic: reference
+ms.custom: "ide-ref"
 author: mikadumont
 ms.author: midumont 
 manager: mijacobs
