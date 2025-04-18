@@ -59,7 +59,7 @@ Opens the Publish Options dialog box, which is used to specify additional advanc
 
  **Publish Version**
 
-Sets the publish version number for the application; when the version number is changed, the application is published as an update. Each part of the publish version (**Major**, **Minor**, **Build**, **Revision**) can have a maximum value of 65355 (<xref:System.UInt16.MaxValue>), the maximum allowed by <xref:System.Version>.
+Sets the publish version number for the application; when the version number is changed, the application is published as an update. Each part of the publish version (**Major**, **Minor**, **Build**, **Revision**) can have a maximum value of 65535 (<xref:System.UInt16.MaxValue>), the maximum allowed by <xref:System.Version>.
 
 When you install more than one version of an application by using ClickOnce, the installation moves earlier versions of the application into a folder named Archive, in the publish location that you specify. Archiving earlier versions in this manner keeps the installation directory clear of folders from the earlier version.
 
