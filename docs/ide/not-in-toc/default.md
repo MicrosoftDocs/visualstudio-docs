@@ -112,11 +112,9 @@ manager: mijacobs
 author: mikejo5000
 ms.author: mikejo
 ---
-# Oops! No `F1` help match was found
+# No `F1` help match was found
 
-## Now what?
-
-We're sorry! It looks like we couldn't find what you were looking for. 
+It looks like we couldn't find what you were looking for. 
 
 **Looking for `F1` help on a window, a keyword, or an API name?**
 - **Try your favorite search engine [Recommended]**
