@@ -1,7 +1,7 @@
 ---
 title: View Disassembly Code in the debugger
 description: Use the Disassembly window in Visual Studio to show assembly code corresponding to the instructions created by the compiler.
-ms.date: 08/15/2023
+ms.date: 04/18/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.disassembly
@@ -52,10 +52,10 @@ To view machine-code instructions in their raw numeric form, rather than as asse
 
 To enable the **Disassembly** window, under **Tools** > **Options** > **Debugging**, select **Enable address-level debugging**.
 
-To open the **Disassembly** window during debugging, select **Windows** > **Disassembly** or press **Alt**+**8**.
+To open the **Disassembly** window during debugging, select **Debug** > **Windows** > **Disassembly** or press **Ctrl** + **Alt** + **D**.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset all settings](../ide/personalizing-the-visual-studio-ide.md#reset-all-settings).
+> The dialog boxes and menu commands you see might differ from those described in this article depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset all settings](../ide/personalizing-the-visual-studio-ide.md#reset-all-settings).
 
 To turn optional information on or off, right-click in the **Disassembly** window, and set or clear the desired options in the shortcut menu.
 
