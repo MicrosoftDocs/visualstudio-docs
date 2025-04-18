@@ -72,7 +72,7 @@ The following table describes **Single Project** and **Docker Compose** settings
 |Pull required Docker images on project open|True|Whether to start a background Docker pull operation when loading a container project. Required images are downloaded or downloading when you're ready to run your code. If you just want to browse the code, you can set to **False** to avoid downloading container images you don't need.|
 |Pull updated Docker images on project open|.NET Core projects|Whether or on which projects to run a Docker pull for all images on project open to get the latest updates.|
 |Run containers on project open|True|Whether to create a container when loading a container project, so it's ready when you build and run. If you prefer to control when your container is created, set to **False**.|
-|Remove containers on project close|True|Whether to retain containers for your solution after closing the solution or closing Visual Studio.|
+|Remove containers on project close|True|Whether to remove containers for your solution after closing the solution or closing Visual Studio.|
 :::moniker-end
 :::moniker range=">=vs-2022"
 |Setting|Default value|Description|
@@ -80,7 +80,7 @@ The following table describes **Single Project** and **Docker Compose** settings
 |Pull required Docker images on project open|True|Whether to start a background Docker pull operation when loading a container project. Required images are downloaded or downloading when you're ready to run your code. If you just want to browse the code, you can set to **False** to avoid downloading container images you don't need.|
 |Pull updated Docker images on project open|.NET Core projects|Whether or on which projects to run a Docker pull for all images on project open to get the latest updates.|
 |Run containers on project open|True|Whether to create a container when loading a container project, so it's ready when you build and run. If you prefer to control when your container is created, set to **False**.|
-|Remove containers on project close|True|Whether to retain containers for your solution after closing the solution or closing Visual Studio.|
+|Remove containers on project close|True|Whether to remove containers for your solution after closing the solution or closing Visual Studio.|
 |Run a service in containers to enable Azure Authentication|True|For Visual Studio version 17.6 or later, whether to install and run a token proxy service in the container to enable Azure Authentication. This service lets your apps use Azure services during development. For more information, see the [Configure Azure authentication](#configure-azure-authentication) section.|
 |Run a service in containers to enable Hot Reload|True|For Visual Studio version 17.7 and later, whether to install and run the Hot Reload service. This service only supports running without debugging, **Ctrl**+**F5**.|
 :::moniker-end
@@ -88,7 +88,7 @@ The following table describes **Single Project** and **Docker Compose** settings
 :::moniker range="<=vs-2019"
 ### Containers Tool Window settings
 
-The **Containers Tool Window** settings apply to the **Containers** tool window in the Visual Studio IDE, which shows information about Docker containers and images. For more information, see [Use the Containers window](view-and-diagnose-containers.md).
+The **Containers Tool Window** settings apply to the **Containers** window in the Visual Studio IDE, which shows information about Docker containers and images. For more information, see [Use the Containers window](view-and-diagnose-containers.md).
 
 ![Screenshot of the Visual Studio Container Tools Options, showing the settings available for the Containers Tool window.](media/configure-container-tools/tools-options-3.png)
 
