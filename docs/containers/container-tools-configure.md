@@ -17,7 +17,7 @@ f1_keywords:
 
 # Configure Visual Studio Container Tools
 
-You can control some aspects of how Visual Studio works with Docker containers by using Visual Studio **Container Tools** settings. This article describes how to configure **Container Tools** settings that can affect performance and resource usage when you work with Docker containers.
+You can control some aspects of how Visual Studio works with Docker containers by using **Container Tools** settings. This article describes how to configure **Container Tools** settings that can affect Visual Studio performance and resource usage when you work with Docker containers.
 
 ## Container Tools settings
 
@@ -30,11 +30,11 @@ To access the settings, select **Tools > Options** from the main Visual Studio m
 
 The following table describes the **General** settings:
 
-|Setting|Default value|Applies to|Description|
+|Setting|Default value|Description|
 |-----|---------------|----------|-----------|
 |Install Docker Desktop if needed|Prompt me|Choose whether you want to be prompted if Docker Desktop isn't installed.|
 |Start Docker Desktop if needed|Always|If Docker Desktop isn't started, choose whether to start it automatically or to prompt you.|
-|Trust ASP.NET Core SSL certificate|Prompt me|ASP.NET Core 2.x projects|When set to **Prompt me**, if the `localhost` SSL certificate isn't trusted, Visual Studio prompts whenever you run an ASP.NET Core 2.x project.|
+|Trust ASP.NET Core SSL certificate|Prompt me|When set to **Prompt me**, if the `localhost` SSL certificate isn't trusted, Visual Studio prompts whenever you run an ASP.NET Core 2.x project.|
 
 :::moniker-end
 :::moniker range=">=vs-2022"
@@ -88,7 +88,7 @@ The following table describes **Single Project** and **Docker Compose** settings
 :::moniker range="<=vs-2019"
 ### Containers Tool Window settings
 
-The **Containers Tool Window** settings apply to the **Containers** tool window, which shows information about Docker containers and images in the Visual Studio IDE. For more information, see [Use the Containers window](view-and-diagnose-containers.md).
+The **Containers Tool Window** settings apply to the **Containers** tool window in the Visual Studio IDE, which shows information about Docker containers and images. For more information, see [Use the Containers window](view-and-diagnose-containers.md).
 
 ![Screenshot of the Visual Studio Container Tools Options, showing the settings available for the Containers Tool window.](media/configure-container-tools/tools-options-3.png)
 
@@ -106,7 +106,7 @@ The following table describes the **Containers Tool Window** settings:
 :::moniker range=">=vs-2022"
 ### Containers Window settings
 
-The **Containers Window** settings apply to the **Containers** window, which shows information about Docker containers and images in the Visual Studio IDE. For more information, see [Use the Containers window](view-and-diagnose-containers.md).
+The **Containers Window** settings apply to the **Containers** window in the Visual Studio IDE, which shows information about Docker containers and images. For more information, see [Use the Containers window](view-and-diagnose-containers.md).
 
 ![Screenshot of the Visual Studio Container Tools Options, showing the settings available for the Containers Window.](media/configure-container-tools/vs-2022/containers-window.png)
 
