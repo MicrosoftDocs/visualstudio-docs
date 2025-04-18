@@ -29,7 +29,7 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.XAML.ScrollBars
 - VS.ToolsOptionsPages.Text_Editor.XML.ScrollBars
 ms.custom: "ide-ref"
-author:anandmeg
+author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

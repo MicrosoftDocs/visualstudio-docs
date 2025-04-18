@@ -4,7 +4,7 @@ description: Learn how to insert XML documentation comments in your code and cre
 ms.date: 04/11/2024
 ms.topic: how-to
 ms.custom: "ide-ref"
-author:mikadumont
+author: mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide

@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "debug configurations, JavaScript"
   - "debug configurations, esproj"
 ms.custom: "ide-ref"
-author:"mikejo5000"
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: javascript-typescript

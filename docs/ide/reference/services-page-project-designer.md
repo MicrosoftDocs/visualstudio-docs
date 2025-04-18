@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Services page in Project Designer
 - Project Designer, Services page
 ms.custom: "ide-ref"
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

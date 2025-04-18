@@ -12,7 +12,7 @@ helpviewer_keywords:
 - Command mode in Command window
 - IDE Command window
 ms.custom: "ide-ref"
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

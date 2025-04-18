@@ -9,7 +9,7 @@ f1_keywords:
 helpviewer_keywords:
 - Advanced Compiler Settings dialog box
 ms.custom: "ide-ref"
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: ghogen
 monikerRange: 'vs-2019'

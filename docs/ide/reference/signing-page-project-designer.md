@@ -16,7 +16,7 @@ helpviewer_keywords:
 - Project Designer, Signing page
 - Signing page in Project Designer
 ms.custom: "ide-ref"
-author:Mikejo5000
+author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 monikerRange: 'vs-2019'

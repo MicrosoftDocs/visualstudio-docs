@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "extensions, files built by C or C++ compiler"
   - "BuildLog.htm"
 ms.custom: "ide-ref"
-author:tylermsft
+author: tylermsft
 ms.author: twhitney
 manager: markl
 ---

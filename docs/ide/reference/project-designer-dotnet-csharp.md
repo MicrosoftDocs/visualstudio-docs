@@ -9,7 +9,7 @@ f1_keywords:
 helpviewer_keywords:
 - Project Designer
 ms.custom: "ide-ref"
-author:mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide

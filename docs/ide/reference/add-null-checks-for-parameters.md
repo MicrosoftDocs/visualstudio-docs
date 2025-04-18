@@ -4,7 +4,7 @@ description: Learn how to create and add if statements to your code that check n
 ms.date: 09/17/2019 
 ms.topic: reference 
 ms.custom: "ide-ref"
-author:mikadumont
+author: mikadumont
 ms.author: midumont
 manager: mijacobs 
 dev_langs: 

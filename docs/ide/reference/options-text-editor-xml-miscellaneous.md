@@ -6,7 +6,7 @@ ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.XML.Miscellaneous
 ms.custom: "ide-ref"
-author:maddymontaquila
+author: maddymontaquila
 ms.author: maleger
 manager: mijacobs
 ms.subservice: general-ide

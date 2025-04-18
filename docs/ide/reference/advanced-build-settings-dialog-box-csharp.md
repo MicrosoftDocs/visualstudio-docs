@@ -9,7 +9,7 @@ f1_keywords:
 helpviewer_keywords:
 - Build options [C#], advanced
 ms.custom: "ide-ref"
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: mijacobs
 monikerRange: 'vs-2019'

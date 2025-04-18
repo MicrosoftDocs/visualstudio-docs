@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Data tab, Toolbox
 - data [Visual Studio], Toolbox
 ms.custom: "ide-ref"
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

@@ -7,7 +7,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.U-SQL.IntelliSense"
   - "VS.ToolsOptionsPages.Text_Editor.HQL.IntelliSense"
 ms.custom: "ide-ref"
-author:anandmeg
+author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

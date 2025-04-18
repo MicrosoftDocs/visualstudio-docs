@@ -5,7 +5,7 @@ ms.date: 02/13/2025
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
-author:anandmeg
+author: anandmeg
 ms.author: meghaanand
 ms.subservice: general-ide
 ---

@@ -4,7 +4,7 @@ description: Learn how to use the Quick Actions and Refactorings menu in Visual 
 ms.date: 11/03/2020
 ms.topic: reference
 ms.custom: "ide-ref"
-author:mikadumont
+author: mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide

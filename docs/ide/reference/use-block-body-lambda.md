@@ -4,7 +4,7 @@ description: Learn how to use the Quick Actions and Refactorings menu to refacto
 ms.date: 02/14/2019
 ms.topic: reference
 ms.custom: "ide-ref"
-author:mikadumont 
+author: mikadumont 
 ms.author: midumont 
 manager: mijacobs
 ms.subservice: general-ide

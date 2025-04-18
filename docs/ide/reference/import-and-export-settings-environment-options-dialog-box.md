@@ -6,7 +6,7 @@ ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.Profiles
 ms.custom: "ide-ref"
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

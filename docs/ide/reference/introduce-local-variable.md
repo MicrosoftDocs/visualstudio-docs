@@ -4,7 +4,7 @@ description: Generate a local variable to replace an existing expression. Select
 ms.date: 01/26/2018
 ms.topic: reference
 ms.custom: "ide-ref"
-author:Mikejo5000
+author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide

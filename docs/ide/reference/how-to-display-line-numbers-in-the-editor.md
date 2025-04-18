@@ -9,7 +9,7 @@ helpviewer_keywords:
 - editors, line numbers
 - code, line number displaying
 ms.custom: "ide-ref"
-author:anandmeg
+author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

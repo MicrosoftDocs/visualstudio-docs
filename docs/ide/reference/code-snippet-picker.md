@@ -10,7 +10,7 @@ helpviewer_keywords:
 - IntelliSense code snippets, Code Snippet Picker
 - code snippets, Code Snippet Picker
 ms.custom: "ide-ref"
-author:Mikejo5000
+author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide

@@ -8,7 +8,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.View"
   - "VS.ToolsOptionsPages.Text_Editor.C\\C++.View"
 ms.custom: "ide-ref"
-author:tylermsft
+author: tylermsft
 ms.author: twhitney
 manager: markl
 ---

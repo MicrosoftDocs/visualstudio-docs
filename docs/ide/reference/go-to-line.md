@@ -7,7 +7,7 @@ helpviewer_keywords:
 - code, locating lines
 - Go To Line dialog box
 ms.custom: "ide-ref"
-author:anandmeg
+author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

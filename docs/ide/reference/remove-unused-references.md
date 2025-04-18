@@ -4,7 +4,7 @@ description: Learn how to clean up project references and NuGet packages that ha
 ms.date: 3/6/2024
 ms.topic: reference
 ms.custom: "ide-ref"
-author:mikadumont
+author: mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide

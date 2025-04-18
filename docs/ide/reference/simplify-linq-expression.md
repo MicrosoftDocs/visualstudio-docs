@@ -4,7 +4,7 @@ description: "This refactoring is used to remove unnecessary calls to the Enumer
 ms.date: 07/05/2021
 ms.topic: reference
 ms.custom: "ide-ref"
-author:m-redding
+author: m-redding
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide

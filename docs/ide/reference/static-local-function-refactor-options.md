@@ -4,7 +4,7 @@ description: Learn how to use the Quick Actions and Refactorings menu to make a 
 ms.date: 02/10/2020
 ms.topic: reference
 ms.custom: "ide-ref"
-author:governesss
+author: governesss
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Clean Devenv switch
 - /Clean Devenv switch
 - Devenv, /Clean switch
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

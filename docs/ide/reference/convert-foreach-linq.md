@@ -4,7 +4,7 @@ description: Convert any foreach loop that uses an IEnumerable to a LINQ query o
 ms.date: 07/10/2020
 ms.topic: reference
 ms.custom: "ide-ref"
-author:mikadumont
+author: mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide

@@ -4,7 +4,7 @@ description: Learn about unused value assignments, variables, and parameters and
 ms.date: 02/15/2019
 ms.topic: reference
 ms.custom: "ide-ref"
-author:mikadumont
+author: mikadumont
 ms.author: midumont 
 manager: mijacobs
 ms.subservice: general-ide

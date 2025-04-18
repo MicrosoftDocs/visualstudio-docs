@@ -24,7 +24,7 @@ helpviewer_keywords:
 - WPF Designer, XAML formatting
 - XAML view settings, attribute spacing
 ms.custom: "ide-ref"
-author:maddymontaquila
+author: maddymontaquila
 ms.author: maleger
 manager: mijacobs
 ms.subservice: general-ide

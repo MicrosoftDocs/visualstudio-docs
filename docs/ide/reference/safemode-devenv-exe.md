@@ -7,7 +7,7 @@ helpviewer_keywords:
 - /SafeMode Devenv switch
 - Devenv, /SafeMode switch
 - SafeMode switch
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

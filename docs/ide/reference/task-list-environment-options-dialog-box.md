@@ -18,7 +18,7 @@ helpviewer_keywords:
 - tokens, and the Task List
 - Task List, comment tasks
 ms.custom: "ide-ref"
-author:anandmeg
+author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

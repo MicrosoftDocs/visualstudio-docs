@@ -4,7 +4,7 @@ description: Learn how to use the Quick Actions and Refactorings menu to convert
 ms.date: 04/05/2022
 ms.topic: reference
 ms.custom: "ide-ref"
-author:mikadumont
+author: mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide

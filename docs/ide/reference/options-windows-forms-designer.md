@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Windows Forms Designer options
 - Options dialog box, Windows Forms Designer
 ms.custom: "ide-ref"
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

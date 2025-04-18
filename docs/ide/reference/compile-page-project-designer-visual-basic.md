@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Project Designer, Compile page
 - Compile page in Project Designer
 ms.custom: "ide-ref"
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: mijacobs
 monikerRange: 'vs-2019'

@@ -10,7 +10,7 @@ helpviewer_keywords:
 dev_langs:
 - CSharp
 ms.custom: "ide-ref"
-author:Mikejo5000
+author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.subservice: general-ide

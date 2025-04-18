@@ -4,7 +4,7 @@ description: Learn how to automatically add an explicit cast to an expression ba
 ms.date: 03/26/2020
 ms.topic: reference
 ms.custom: "ide-ref"
-author:Mikejo5000
+author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide

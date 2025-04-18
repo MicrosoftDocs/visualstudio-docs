@@ -30,7 +30,7 @@ helpviewer_keywords:
 - $(ProjectName)
 - build events, macros
 ms.custom: "ide-ref"
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: mijacobs
 monikerRange: 'vs-2019'

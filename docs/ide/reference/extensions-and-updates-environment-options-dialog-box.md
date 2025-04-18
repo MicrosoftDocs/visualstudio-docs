@@ -6,7 +6,7 @@ ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.ExtensionManager
 ms.custom: "ide-ref"
-author:anandmeg
+author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

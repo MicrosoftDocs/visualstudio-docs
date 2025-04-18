@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Edit.ReplaceInFiles command
 - Replace In Files command
 - ReplaceInFiles command
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

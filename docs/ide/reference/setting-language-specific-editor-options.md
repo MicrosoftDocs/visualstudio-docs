@@ -8,7 +8,7 @@ helpviewer_keywords:
 - configure editor
 - editor settings
 ms.custom: "ide-ref"
-author:anandmeg
+author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

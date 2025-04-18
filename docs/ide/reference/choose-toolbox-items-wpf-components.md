@@ -9,7 +9,7 @@ helpviewer_keywords:
 - WPF Components tab, Choose Toolbox Items dialog box
 - Choose Toolbox Items dialog box, WPF Components tab
 ms.custom: "ide-ref"
-author:anandmeg
+author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

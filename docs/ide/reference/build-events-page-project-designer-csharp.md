@@ -12,7 +12,7 @@ helpviewer_keywords:
 - pre-build events
 - post-build events
 ms.custom: "ide-ref"
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: mijacobs
 monikerRange: 'vs-2019'

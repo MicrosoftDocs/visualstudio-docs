@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Project Designer, My Extensions page
 - My Extensions page in Project Designer
 ms.custom: "ide-ref"
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

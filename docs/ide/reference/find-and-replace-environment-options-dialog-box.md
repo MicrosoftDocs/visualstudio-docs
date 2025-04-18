@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Find and Replace, Options dialog box
 - Find and Replace, customizing
 ms.custom: "ide-ref"
-author:anandmeg
+author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

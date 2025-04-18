@@ -4,7 +4,7 @@ description: "Learn how to make your class abstract after you write an abstract 
 ms.date: 11/03/2020
 ms.topic: reference
 ms.custom: "ide-ref"
-author:mikadumont
+author: mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide

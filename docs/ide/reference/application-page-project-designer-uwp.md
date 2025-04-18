@@ -8,7 +8,7 @@ f1_keywords:
 helpviewer_keywords:
 - Application page [UWP project]
 ms.custom: "ide-ref"
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

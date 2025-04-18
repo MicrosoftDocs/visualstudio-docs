@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Project Designer, Publish page"
   - "Publish page in Project Designer"
 ms.custom: "ide-ref"
-author:mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 monikerRange: 'vs-2019'

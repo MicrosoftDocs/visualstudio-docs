@@ -10,7 +10,7 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting
 - VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting.General
 ms.custom: "ide-ref"
-author:anandmeg
+author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

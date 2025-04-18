@@ -22,7 +22,7 @@ f1_keywords:
   - "javascript.project.property.reference.resolvedpath"
   - "javascript.project.property.reference.version"
 ms.custom: "ide-ref"
-author:mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ---

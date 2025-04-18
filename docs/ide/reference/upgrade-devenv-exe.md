@@ -7,7 +7,7 @@ helpviewer_keywords:
 - /upgrade Devenv switch
 - Devenv, /upgrade switch
 - upgrade Devenv switch
-author:anandmeg
+author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

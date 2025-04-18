@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Option Compare statement, setting in the IDE
 - Option Strict statement, setting in the IDE
 ms.custom: "ide-ref"
-author:anandmeg
+author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

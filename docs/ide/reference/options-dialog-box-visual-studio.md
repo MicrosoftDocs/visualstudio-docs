@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Options dialog box, development environment
 - tools [Visual Studio], customizing
 ms.custom: "ide-ref"
-author:anandmeg
+author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

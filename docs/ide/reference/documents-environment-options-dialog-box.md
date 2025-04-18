@@ -27,7 +27,7 @@ helpviewer_keywords:
 - warnings, files changed
 - Solution Explorer, displaying files in
 ms.custom: "ide-ref"
-author:anandmeg
+author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

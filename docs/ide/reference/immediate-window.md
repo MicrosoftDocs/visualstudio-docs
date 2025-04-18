@@ -12,7 +12,7 @@ helpviewer_keywords:
 - Immediate window
 - first-chance exception notifications
 ms.custom: "ide-ref"
-author:Mikejo5000
+author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide

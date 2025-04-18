@@ -4,7 +4,7 @@ description: Learn how to use an EditorConfig file to add file headers to existi
 ms.date: 07/10/2020
 ms.topic: reference
 ms.custom: "ide-ref"
-author:mikadumont
+author: mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide

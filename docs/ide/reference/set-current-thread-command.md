@@ -8,7 +8,7 @@ f1_keywords:
 helpviewer_keywords:
   - "Set Current Thread command"
   - "Debug.SetCurrentThread command"
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

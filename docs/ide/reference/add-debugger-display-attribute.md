@@ -4,7 +4,7 @@ description: Learn how to add the DebuggerDisplay attribute to control how the d
 ms.date: 04/26/2022
 ms.topic: reference
 ms.custom: "ide-ref"
-author:mikadumont
+author: mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide

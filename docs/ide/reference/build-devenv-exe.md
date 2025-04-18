@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Devenv, /build switch
 - build Devenv switch
 - command-line builds
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

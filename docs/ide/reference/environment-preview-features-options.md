@@ -8,7 +8,7 @@ f1_keywords:
 helpviewer_keywords:
 - Preview Features Options dialog box
 ms.custom: "ide-ref"
-author:anandmeg
+author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

@@ -10,7 +10,7 @@ f1_keywords:
 helpviewer_keywords:
   - "Text Editor Options dialog box, advanced"
 ms.custom: "ide-ref"
-author:tylermsft
+author: tylermsft
 ms.author: twhitney
 manager: markl
 ---

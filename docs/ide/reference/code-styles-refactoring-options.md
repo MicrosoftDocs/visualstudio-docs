@@ -7,7 +7,7 @@ dev_langs:
 - CSharp
 - VB
 ms.custom: "ide-ref"
-author:mikejo5000
+author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide

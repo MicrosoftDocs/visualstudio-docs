@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Build Events dialog box"
   - "post-build events"
 ms.custom: "ide-ref"
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: mijacobs
 monikerRange: 'vs-2019'

@@ -4,7 +4,7 @@ description: Learn how to use the Refactor Rename feature to rename identifiers 
 ms.date: 05/04/2020
 ms.topic: reference
 ms.custom: "ide-ref"
-author:Mikejo5000
+author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide

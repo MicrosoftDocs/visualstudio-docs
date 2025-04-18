@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Error List window
 - errors [Visual Studio], Error List window
 ms.custom: "ide-ref"
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

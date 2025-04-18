@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Devenv, /Diff switch
 - /Diff Devenv switch
 - Diff Devenv switch
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

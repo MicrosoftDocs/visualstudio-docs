@@ -4,7 +4,7 @@ description: Turn a fragment of code into its own function by selecting the code
 ms.date: 02/19/2020
 ms.topic: reference
 ms.custom: "ide-ref"
-author:mikadumont
+author: mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide

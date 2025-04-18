@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Web applications, accessibility"
   - "accessibility, Web applications"
 ms.custom: "ide-ref"
-author:anandmeg
+author: anandmeg
 ms.author: meghaanand
 ms.subservice: general-ide
 ---

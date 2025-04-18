@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Settings page in Project Designer
 - Project Designer, Settings page
 ms.custom: "ide-ref"
-author:anandmeg
+author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

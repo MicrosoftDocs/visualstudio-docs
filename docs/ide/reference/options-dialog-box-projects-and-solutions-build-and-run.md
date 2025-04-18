@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "run actions"
   - "debugger, run options"
 ms.custom: "ide-ref"
-author:ghogen
+author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ---

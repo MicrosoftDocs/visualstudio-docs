@@ -14,7 +14,7 @@ f1_keywords:
 helpviewer_keywords:
 - Basic Text Editor Options dialog box
 ms.custom: "ide-ref"
-author:akhera99
+author: akhera99
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide
