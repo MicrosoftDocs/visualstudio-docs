@@ -9,7 +9,8 @@ f1_keywords:
 helpviewer_keywords:
 - Build options [C#]
 - Project Designer, Build page
-author: ghogen
+ms.custom: "ide-ref"
+author:ghogen
 ms.author: ghogen
 manager: mijacobs
 monikerRange: 'vs-2019'

@@ -6,7 +6,8 @@ ms.subservice: javascript-typescript
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Code_Validation.JavaScript_Errors"
-author: mikejo5000
+ms.custom: "ide-ref"
+author:mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ---

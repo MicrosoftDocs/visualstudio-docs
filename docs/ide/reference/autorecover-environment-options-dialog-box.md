@@ -12,7 +12,8 @@ helpviewer_keywords:
 - AutoRecover page
 - saving files, automatically
 - files, saving automatically
-author: anandmeg
+ms.custom: "ide-ref"
+author:anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

@@ -3,7 +3,8 @@ title: Use lambda expression or block body
 description: Learn how to use the Quick Actions and Refactorings menu to refactor a lambda expression to use an expression body or a block body.
 ms.date: 02/14/2019
 ms.topic: reference
-author: mikadumont 
+ms.custom: "ide-ref"
+author:mikadumont 
 ms.author: midumont 
 manager: mijacobs
 ms.subservice: general-ide

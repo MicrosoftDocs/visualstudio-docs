@@ -3,7 +3,8 @@ title: Add DebuggerDisplay Attribute
 description: Learn how to add the DebuggerDisplay attribute to control how the debugger variable window displays an object, a property, or a field.  
 ms.date: 04/26/2022
 ms.topic: reference
-author: mikadumont
+ms.custom: "ide-ref"
+author:mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide

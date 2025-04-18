@@ -9,7 +9,8 @@ f1_keywords:
 helpviewer_keywords:
 - Project Designer, Application page
 - Application page in Project Designer
-author: ghogen
+ms.custom: "ide-ref"
+author:ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

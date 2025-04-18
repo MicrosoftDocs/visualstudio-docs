@@ -5,7 +5,8 @@ ms.date: 01/16/2019
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.F%2523.CodeLens
-author: anandmeg
+ms.custom: "ide-ref"
+author:anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

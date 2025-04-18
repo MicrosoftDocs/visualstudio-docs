@@ -3,7 +3,8 @@ title: Generate a method override
 description: Learn how to immediately generate the code for any method which can be overridden from a base class.
 ms.date: 01/26/2018
 ms.topic: reference
-author: Mikejo5000
+ms.custom: "ide-ref"
+author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide

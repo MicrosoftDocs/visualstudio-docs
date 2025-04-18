@@ -3,7 +3,8 @@ title: Convert typeof to nameof
 description: Learn how to use the Quick Actions and Refactorings menu in Visual Studio to convert typeof to nameof in C# and GetType to NameOf in Visual Basic.
 ms.date: 08/12/2020
 ms.topic: reference
-author: m-redding
+ms.custom: "ide-ref"
+author:m-redding
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide

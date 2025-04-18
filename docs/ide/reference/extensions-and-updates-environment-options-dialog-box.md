@@ -5,7 +5,8 @@ ms.date: 03/28/2019
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.ExtensionManager
-author: anandmeg
+ms.custom: "ide-ref"
+author:anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

@@ -5,7 +5,8 @@ ms.date: 12/10/2018
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.RoamingSettings
-author: anandmeg
+ms.custom: "ide-ref"
+author:anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

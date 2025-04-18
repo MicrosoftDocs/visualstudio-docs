@@ -24,7 +24,8 @@ helpviewer_keywords:
 - tag wrapping, XAML view settings
 - WPF Designer, XAML formatting
 - XAML view settings, attribute spacing
-author: maddymontaquila
+ms.custom: "ide-ref"
+author:maddymontaquila
 ms.author: maleger
 manager: mijacobs
 ms.subservice: general-ide

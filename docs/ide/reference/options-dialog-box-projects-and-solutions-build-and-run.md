@@ -10,7 +10,8 @@ helpviewer_keywords:
   - "builds [Visual Studio], setting up"
   - "run actions"
   - "debugger, run options"
-author: ghogen
+ms.custom: "ide-ref"
+author:ghogen
 ms.author: ghogen
 manager: mijacobs
 ---

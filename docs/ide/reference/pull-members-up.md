@@ -3,7 +3,8 @@ title: Pull Members Up
 description: Learn how to use the Quick Actions and Refactorings menu to pull members up to the base type.
 ms.date: 02/13/2019
 ms.topic: reference
-author: mikadumont
+ms.custom: "ide-ref"
+author:mikadumont
 ms.author: midumont 
 manager: mijacobs
 ms.subservice: general-ide

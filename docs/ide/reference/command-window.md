@@ -11,7 +11,8 @@ helpviewer_keywords:
 - Command window
 - Command mode in Command window
 - IDE Command window
-author: ghogen
+ms.custom: "ide-ref"
+author:ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

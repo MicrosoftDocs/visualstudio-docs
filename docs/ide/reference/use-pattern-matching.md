@@ -3,7 +3,8 @@ title: Use pattern matching
 description: "Learn how to use C# pattern matching."
 ms.date: 11/03/2020
 ms.topic: reference
-author: mikadumont
+ms.custom: "ide-ref"
+author:mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide

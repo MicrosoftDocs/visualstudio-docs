@@ -8,7 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - Data UI customization options
 - Options dialog box, Windows Forms Designer, Data UI Customization
-author: ghogen
+ms.custom: "ide-ref"
+author:ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

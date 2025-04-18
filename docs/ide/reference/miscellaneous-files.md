@@ -13,7 +13,8 @@ helpviewer_keywords:
 - Solution Explorer, miscellaneous files
 - Miscellaneous Files folder
 - files [Visual Studio], miscellaneous
-author: anandmeg
+ms.custom: "ide-ref"
+author:anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

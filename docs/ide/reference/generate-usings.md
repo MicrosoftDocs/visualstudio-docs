@@ -3,7 +3,8 @@ title: Generate usings
 description: Learn how to use the Quick Actions and Refactorings menu to immediately add the necessary imports or using directives for copy-and-pasted code.
 ms.date: 03/10/2020
 ms.topic: reference
-author: mikadumont
+ms.custom: "ide-ref"
+author:mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide

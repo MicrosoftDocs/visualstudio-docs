@@ -3,7 +3,8 @@ title: Generate private field and property from constructor
 description: Learn how to use the Quick Actions and Refactorings menu to generate a private field or property from a constructor.
 ms.date: 06/20/2020 
 ms.topic: reference 
-author: mikadumont
+ms.custom: "ide-ref"
+author:mikadumont
 ms.author: midumont
 manager: mijacobs 
 dev_langs: 

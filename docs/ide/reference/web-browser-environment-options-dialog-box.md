@@ -16,7 +16,8 @@ helpviewer_keywords:
 - home page
 - Options dialog box, Web settings
 - Internet Explorer, setting options
-author: anandmeg
+ms.custom: "ide-ref"
+author:anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

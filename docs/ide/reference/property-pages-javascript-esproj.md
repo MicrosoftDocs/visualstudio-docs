@@ -8,7 +8,8 @@ dev_langs:
 helpviewer_keywords:
   - "debug configurations, JavaScript"
   - "debug configurations, esproj"
-author: "mikejo5000"
+ms.custom: "ide-ref"
+author:"mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: javascript-typescript

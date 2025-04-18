@@ -8,7 +8,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Intellisense.References"
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Intellisense.General"
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.IntelliSense.General"
-author: mikejo5000
+ms.custom: "ide-ref"
+author:mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ---

@@ -7,7 +7,8 @@ helpviewer_keywords:
 - Problem Details window
 - build errors
 - Error List window../
-author: tartanllama
+ms.custom: "ide-ref"
+author:tartanllama
 ms.author: sybrand
 manager: mluparu
 ms.subservice: general-ide

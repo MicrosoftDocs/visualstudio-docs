@@ -8,7 +8,8 @@ f1_keywords:
 - cs.AdvancedBuildSettings
 helpviewer_keywords:
 - Build options [C#], advanced
-author: ghogen
+ms.custom: "ide-ref"
+author:ghogen
 ms.author: ghogen
 manager: mijacobs
 monikerRange: 'vs-2019'

@@ -7,7 +7,8 @@ helpviewer_keywords:
 - Devenv, /Log switch
 - Log switch [devenv.exe]
 - /Log Devenv switch
-author: ghogen
+ms.custom: "ide-ref"
+author:ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

@@ -3,7 +3,8 @@ title: Generate C# Equals and GetHashCode Method Overrides
 description: Learn how to use the Quick Actions and Refactorings menu to generate Equals and GetHashCode methods.
 ms.date: 03/08/2021
 ms.topic: reference
-author: Mikejo5000
+ms.custom: "ide-ref"
+author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide

@@ -8,7 +8,8 @@ helpviewer_keywords:
   - "Windows applications, accessibility"
   - "Web applications, accessibility"
   - "accessibility, Web applications"
-author: anandmeg
+ms.custom: "ide-ref"
+author:anandmeg
 ms.author: meghaanand
 ms.subservice: general-ide
 ---

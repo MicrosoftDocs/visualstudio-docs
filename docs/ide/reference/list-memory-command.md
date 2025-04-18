@@ -9,7 +9,8 @@ helpviewer_keywords:
 - Debug.ListMemory command
 - ListMemory command
 - list memory command
-author: Mikejo5000
+ms.custom: "ide-ref"
+author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide

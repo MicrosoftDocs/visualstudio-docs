@@ -3,7 +3,8 @@ title: Add parameter to a method quick action
 description: Learn how to use a Quick Action to automatically add and declare a parameter, based on usage, to a method.
 ms.date: 09/28/2018
 ms.topic: reference
-author: Mikejo5000
+ms.custom: "ide-ref"
+author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide

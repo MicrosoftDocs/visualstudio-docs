@@ -7,7 +7,8 @@ f1_keywords:
 - AppPackage.Properties.Application
 helpviewer_keywords:
 - Application page [UWP project]
-author: ghogen
+ms.custom: "ide-ref"
+author:ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

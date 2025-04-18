@@ -3,7 +3,8 @@ title: DateTime and TimeSpan completion with IntelliSense
 description: Use the IntelliSense menu to complete a DateTime and TimeSpan string literal and format string.
 ms.date: 07/31/2020
 ms.topic: reference
-author: mikadumont
+ms.custom: "ide-ref"
+author:mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide

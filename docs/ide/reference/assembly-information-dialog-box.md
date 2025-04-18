@@ -7,7 +7,8 @@ f1_keywords:
 - vb.ProjectPropertiesAssemblyInfo
 helpviewer_keywords:
 - Assembly Information dialog box
-author: ghogen
+ms.custom: "ide-ref"
+author:ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

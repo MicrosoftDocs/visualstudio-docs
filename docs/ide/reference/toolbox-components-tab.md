@@ -9,7 +9,8 @@ f1_keywords:
 - VS.CHOOSEITEMS.UniversalWindowsComponents
 helpviewer_keywords:
 - Toolbox, Components tab
-author: ghogen
+ms.custom: "ide-ref"
+author:ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

@@ -3,7 +3,8 @@ title: Convert Anonymous Type to Tuple
 description: Learn how to use the Quick Actions and Refactorings menu to convert an anonymous type to a tuple in Visual Studio.
 ms.date: 04/05/2022
 ms.topic: reference
-author: mikadumont
+ms.custom: "ide-ref"
+author:mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide

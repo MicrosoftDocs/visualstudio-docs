@@ -13,7 +13,8 @@ helpviewer_keywords:
 - /L Devenv switch
 - LCID devenv switch
 - /LCID Devenv switch
-author: ghogen
+ms.custom: "ide-ref"
+author:ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

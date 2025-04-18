@@ -7,7 +7,8 @@ f1_keywords:
 - VS.ToolsOptionsPages.Environment.PreviewFeatures
 helpviewer_keywords:
 - Preview Features Options dialog box
-author: anandmeg
+ms.custom: "ide-ref"
+author:anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

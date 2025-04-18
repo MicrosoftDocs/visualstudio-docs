@@ -28,7 +28,8 @@ helpviewer_keywords:
 - Code Editor
 - Text Editor [Visual Studio]
 - editors, global settings
-author: anandmeg
+ms.custom: "ide-ref"
+author:anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

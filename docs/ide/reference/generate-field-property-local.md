@@ -3,7 +3,8 @@ title: Generate field, property, local variable
 description: Learn how to use the Quick Actions and Refactorings menu to generate the code for a previously undeclared field, property, or local.
 ms.date: 01/26/2018
 ms.topic: reference
-author: Mikejo5000
+ms.custom: "ide-ref"
+author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide

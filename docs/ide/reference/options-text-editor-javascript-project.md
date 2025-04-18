@@ -9,7 +9,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Project"
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Project.General"
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Project"
-author: mikejo5000
+ms.custom: "ide-ref"
+author:mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ---

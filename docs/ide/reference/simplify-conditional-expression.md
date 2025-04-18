@@ -3,7 +3,8 @@ title: Simplify conditional expression
 description: Learn how to use the Quick Actions and Refactorings menu to simplify a conditional expression.
 ms.date: 06/08/2020
 ms.topic: reference
-author: mikadumont
+ms.custom: "ide-ref"
+author:mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide

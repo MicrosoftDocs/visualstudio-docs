@@ -14,7 +14,8 @@ helpviewer_keywords:
 - compiler options, Visual Basic
 - Project Designer, Compile page
 - Compile page in Project Designer
-author: ghogen
+ms.custom: "ide-ref"
+author:ghogen
 ms.author: ghogen
 manager: mijacobs
 monikerRange: 'vs-2019'

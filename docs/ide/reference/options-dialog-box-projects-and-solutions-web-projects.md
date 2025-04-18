@@ -5,7 +5,8 @@ ms.date: 07/14/2017
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Projects.WebProjects
-author: anandmeg
+ms.custom: "ide-ref"
+author:anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

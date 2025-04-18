@@ -6,7 +6,8 @@ ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.XAMLDesigner
 - VS.ToolsOptionsPages.XAML_Designer.General
-author: maddymontaquila
+ms.custom: "ide-ref"
+author:maddymontaquila
 ms.author: maleger
 manager: mijacobs
 ms.subservice: general-ide

@@ -4,7 +4,8 @@ description: Learn about the various functions in Team Explorer to manage work a
 ms.date: 11/02/2022
 ms.topic: reference
 ms.author: ghogen
-author: ghogen
+ms.custom: "ide-ref"
+author:ghogen
 ms.manager: mijacobs
 monikerRange: "<=vs-2019"
 ---

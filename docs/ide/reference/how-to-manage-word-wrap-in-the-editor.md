@@ -7,7 +7,8 @@ helpviewer_keywords:
 - word wrap
 - editors, text viewing
 - Code Editor, word wrap
-author: anandmeg
+ms.custom: "ide-ref"
+author:anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

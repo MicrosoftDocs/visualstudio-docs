@@ -14,7 +14,8 @@ f1_keywords:
 helpviewer_keywords:
 - formatting options [C#]
 - Text editor Options dialog box, formatting
-author: Mikejo5000
+ms.custom: "ide-ref"
+author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide

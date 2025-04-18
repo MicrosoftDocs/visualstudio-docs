@@ -8,7 +8,8 @@ f1_keywords:
 - vs.err.debug_in_zone_no_hostproc
 helpviewer_keywords:
 - Advanced Security Settings dialog box
-author: Mikejo5000
+ms.custom: "ide-ref"
+author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 monikerRange: 'vs-2019'

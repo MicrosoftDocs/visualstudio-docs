@@ -8,7 +8,8 @@ helpviewer_keywords:
   - "Devenv, /NoSplash switch"
   - "/NoSplash Devenv switch"
   - "NoSplash Devenv switch"
-author: ghogen
+ms.custom: "ide-ref"
+author:ghogen
 ms.author: ghogen
 manager: mijacobs
 ---

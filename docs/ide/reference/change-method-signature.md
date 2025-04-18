@@ -3,7 +3,8 @@ title: Change method signature
 description: Add, Remove, or change the order of a method's parameters. Right-click the method, select Quick Actions and Refactorings, and select Change Signature.
 ms.date: 07/20/2020
 ms.topic: reference
-author: mikadumont
+ms.custom: "ide-ref"
+author:mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide

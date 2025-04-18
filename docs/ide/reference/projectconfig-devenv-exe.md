@@ -15,7 +15,8 @@ helpviewer_keywords:
 - ProjectConfig Devenv switch (/ProjectConfig)
 - projects [Visual Studio], build configuration
 - projects [Visual Studio], cleaning
-author: ghogen
+ms.custom: "ide-ref"
+author:ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

@@ -3,7 +3,8 @@ title: Paste JSON or XML as classes
 description: Learn how to copy any JSON or XML text from the clipboard and then paste it as .NET classes into C# or Visual Basic code.
 ms.date: 04/04/2023
 ms.topic: reference
-author: anandmeg
+ms.custom: "ide-ref"
+author:anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide

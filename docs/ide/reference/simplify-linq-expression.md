@@ -3,7 +3,8 @@ title: Simplify LINQ expression
 description: "This refactoring is used to remove unnecessary calls to the Enumerable for the Where method."
 ms.date: 07/05/2021
 ms.topic: reference
-author: m-redding
+ms.custom: "ide-ref"
+author:m-redding
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide

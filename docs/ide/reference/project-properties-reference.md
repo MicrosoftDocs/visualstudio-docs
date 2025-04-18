@@ -6,7 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - user interface [Visual Studio], projects
 - projects [Visual Studio], user interface
-author: ghogen
+ms.custom: "ide-ref"
+author:ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

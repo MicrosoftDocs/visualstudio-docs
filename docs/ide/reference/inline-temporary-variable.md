@@ -3,7 +3,8 @@ title: Replace a temporary variable with its value
 description: Learn how to use the Quick Actions and Refactorings menu to remove a temporary variable and replace it with its value instead.
 ms.date: 01/26/2018
 ms.topic: reference
-author: Mikejo5000
+ms.custom: "ide-ref"
+author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide

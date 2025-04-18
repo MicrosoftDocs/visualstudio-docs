@@ -9,7 +9,8 @@ helpviewer_keywords:
 - Edit.ReplaceInFiles command
 - Replace In Files command
 - ReplaceInFiles command
-author: ghogen
+ms.custom: "ide-ref"
+author:ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

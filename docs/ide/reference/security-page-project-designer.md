@@ -10,7 +10,8 @@ f1_keywords:
 helpviewer_keywords:
 - Project Designer, Security page
 - Security page in Project Designer
-author: Mikejo5000
+ms.custom: "ide-ref"
+author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 monikerRange: 'vs-2019'

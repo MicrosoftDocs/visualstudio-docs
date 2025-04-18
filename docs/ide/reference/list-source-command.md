@@ -9,7 +9,8 @@ helpviewer_keywords:
   - "Debug.ListSource command"
   - "list source command"
   - "ListSource command"
-author: Mikejo5000
+ms.custom: "ide-ref"
+author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide

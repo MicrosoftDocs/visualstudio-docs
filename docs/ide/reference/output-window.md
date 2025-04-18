@@ -10,7 +10,8 @@ helpviewer_keywords:
 - Output window, about Output window
 - Output window
 - Toolbox, removing controls
-author: ghogen
+ms.custom: "ide-ref"
+author:ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

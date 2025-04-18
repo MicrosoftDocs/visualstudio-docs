@@ -3,7 +3,8 @@ title: Add null checks for all (parameters)
 description: Learn how to create and add if statements to your code that check nullity of all the nullable, non-checked parameters.
 ms.date: 09/17/2019 
 ms.topic: reference 
-author: mikadumont
+ms.custom: "ide-ref"
+author:mikadumont
 ms.author: midumont
 manager: mijacobs 
 dev_langs: 

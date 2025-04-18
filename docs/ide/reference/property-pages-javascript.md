@@ -12,7 +12,8 @@ f1_keywords:
   - "javascript.project.property.defaultlanguage"
   - "javascript.project.property.debugging.machinename"
   - "javascript.project.property.debugging.allowlocalnetworkloopback"
-author: mikejo5000
+ms.custom: "ide-ref"
+author:mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ---

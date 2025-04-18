@@ -9,7 +9,8 @@ helpviewer_keywords:
 - Toolbox, HTML tab
 - HTML Designer, setting options
 - HTML tab in Toolbox
-author: ghogen
+ms.custom: "ide-ref"
+author:ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide

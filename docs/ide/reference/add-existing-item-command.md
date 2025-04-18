@@ -8,7 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - File.AddExistingItem command
 - Add Existing Item command
-author: Mikejo5000
+ms.custom: "ide-ref"
+author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide
