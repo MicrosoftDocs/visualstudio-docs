@@ -7,7 +7,6 @@ helpviewer_keywords:
 - Visual Studio, commands
 - commands, Visual Studio
 - command syntax
-ms.custom: "ide-ref"
 author:anandmeg
 ms.author: meghaanand
 manager: mijacobs

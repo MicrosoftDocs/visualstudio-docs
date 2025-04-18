@@ -11,7 +11,6 @@ helpviewer_keywords:
 - Visual Studio commands
 - pre-defined command aliases
 - command aliases
-ms.custom: "ide-ref"
 author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs

@@ -8,7 +8,6 @@ f1_keywords:
 helpviewer_keywords:
 - File.NewFile command
 - New File command
-ms.custom: "ide-ref"
 author:anandmeg
 ms.author: meghaanand
 manager: mijacobs

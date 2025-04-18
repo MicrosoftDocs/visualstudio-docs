@@ -8,7 +8,6 @@ f1_keywords:
 helpviewer_keywords:
 - Find command
 - Edit.Find command
-ms.custom: "ide-ref"
 author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs

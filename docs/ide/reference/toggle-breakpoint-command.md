@@ -9,7 +9,6 @@ helpviewer_keywords:
 - ToggleBreakpoint command
 - Debug.ToggleBreakPoint command
 - Toggle Breakpoint command
-ms.custom: "ide-ref"
 author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs

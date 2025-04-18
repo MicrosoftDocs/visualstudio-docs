@@ -11,7 +11,6 @@ helpviewer_keywords:
 - Tools.Alias command
 - command aliases
 - alias command
-ms.custom: "ide-ref"
 author:ghogen
 ms.author: ghogen
 manager: mijacobs

@@ -9,7 +9,6 @@ helpviewer_keywords:
 - symbol path command
 - Debug.SymbolPath command
 - SymbolPath command
-ms.custom: "ide-ref"
 author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs

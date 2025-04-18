@@ -10,7 +10,6 @@ helpviewer_keywords:
 - op command
 - File.OpenProject command
 - Open Project command
-ms.custom: "ide-ref"
 author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs

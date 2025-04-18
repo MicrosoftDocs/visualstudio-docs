@@ -9,7 +9,6 @@ helpviewer_keywords:
 - Debug.ListModules command
 - ListModules command
 - list modules command
-ms.custom: "ide-ref"
 author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs

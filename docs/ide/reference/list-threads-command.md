@@ -9,7 +9,6 @@ helpviewer_keywords:
 - ListThreads command
 - list threads command
 - Debug.ListThreads command
-ms.custom: "ide-ref"
 author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs

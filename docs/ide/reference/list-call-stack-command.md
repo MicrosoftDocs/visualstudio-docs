@@ -8,7 +8,6 @@ f1_keywords:
 helpviewer_keywords:
   - "list call stack command"
   - "Debug.ListCallStack command"
-ms.custom: "ide-ref"
 author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs

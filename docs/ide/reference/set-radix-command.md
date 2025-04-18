@@ -8,7 +8,6 @@ f1_keywords:
 helpviewer_keywords:
   - "Set Radix command"
   - "Debug.SetRadix command"
-ms.custom: "ide-ref"
 author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs

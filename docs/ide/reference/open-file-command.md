@@ -9,7 +9,6 @@ helpviewer_keywords:
 - Open File command
 - File.OpenFile command
 - of command
-ms.custom: "ide-ref"
 author:Mikejo5000
 ms.author: mikejo
 manager: mijacobs
