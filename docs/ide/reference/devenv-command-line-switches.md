@@ -8,7 +8,6 @@ helpviewer_keywords:
 - command-line switches, Devenv
 - command line [Visual Studio], switches
 - Devenv
-ms.custom: "ide-ref"
 author:ghogen
 ms.author: ghogen
 manager: mijacobs
