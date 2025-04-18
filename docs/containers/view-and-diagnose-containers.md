@@ -51,7 +51,7 @@ The **Containers** window opens automatically when you start a containerized .NE
 
 The left side of the window shows the list of containers on your local machine. The containers associated with your current solution are under **Solution Containers**. On the right is a pane with tabs for **Environment**, **Labels**, **Ports**, **Volumes**, **Files**, **Logs**, and **Details**.
 
-If you're using Docker Compose and Visual Studio 2022 version 17.7 or later, you see a tree of nodes, with a parent node for your solution and child nodes for each project that's enrolled in Docker Compose.
+If you're using Docker Compose and Visual Studio 2022 version 17.7 or later, you see a tree of nodes, with a parent node for your solution and child nodes for each project enrolled in Docker Compose.
 
 ![Screenshot showing Docker Compose nodes in the Containers window.](./media/view-and-diagnose-containers/vs-2022/containers-logs-interleaved.png)
 
