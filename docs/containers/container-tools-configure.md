@@ -51,7 +51,7 @@ The following table describes the **General** settings:
 :::moniker-end
 
 > [!IMPORTANT]
-> If the `localhost` SSL certificate isn't trusted, and you set **Prompt me** to **Never**, HTTPS web requests might fail at run time. In that case, set **Trust ASP.NET Core SSL certificate** to **Prompt me**, run your project, and indicate trust at the prompt.
+> If the `localhost` SSL certificate isn't trusted, and you set **Trust ASP.NET Core SSL certificate** to **Never**, HTTPS web requests might fail at run time. In that case, set **Trust ASP.NET Core SSL certificate** to **Prompt me**, run your project, and indicate trust at the prompt.
 
 ### Single Project or Docker Compose settings
 
@@ -71,18 +71,18 @@ The following table describes **Single Project** and **Docker Compose** settings
 |-----|---------------|-----------|
 |Pull required Docker images on project open|True|Visual Studio starts a background Docker pull operation when it loads a container project, so the image is already downloaded or downloading when you're ready to run your code. If you just want to browse the code, you can set to **False** to avoid downloading container images you don't need.|
 |Pull updated Docker images on project open|.NET Core projects|Whether and on which projects to check for image updates on opening and download if available.|
-|Run containers on project open|True|Visual Studio creates a container when it loads a container project, so it's ready when you build and run. To control when your container is created, set to **False**.|
+|Run containers on project open|True|Visual Studio creates a container when it loads a container project, so it's ready when you build and run. If you prefer to control when your container is created, set to **False**.|
 |Remove containers on project close|True|Set to **False** to retain containers for your solution after closing the solution or closing Visual Studio.|
 :::moniker-end
 :::moniker range=">=vs-2022"
 |Setting|Default value|Description|
 |-----|:---------------|-----------|
 |Pull required Docker images on project open|True|Visual Studio starts a background Docker pull operation when it loads a container project, so the image is already downloaded or downloading when you're ready to run your code. If you just want to browse the code, you can set to **False** to avoid downloading container images you don't need.|
-|Pull updated Docker images on project open|.NET Core projects|When you open a project, check for updates to images and download if available.|
-|Run containers on project open|True|Visual Studio creates a container when it loads a container project, so it's ready when you build and run. To control when your container is created, set to **False**.|
+|Pull updated Docker images on project open|.NET Core projects|Whether and on which projects to check for image updates on opening and download if available.|
+|Run containers on project open|True|Visual Studio creates a container when it loads a container project, so it's ready when you build and run. If you prefer to control when your container is created , set to **False**.|
 |Remove containers on project close|True|Set to **False** to retain containers for your solution after closing the solution or closing Visual Studio.|
 |Run a service in containers to enable Azure Authentication|True|Visual Studio version 17.6 or later runs a token proxy service in the container that enables Azure Authentication, so your apps can use Azure services during development. Set to **False** if you don't want to install and run this service. For more information, see the [Configure Azure authentication](#configure-azure-authentication) section.|
-|Run a service in containers to enable Hot Reload|True|The Hot Reload service is available in Visual Studio 2022 version 17.7 and later, and only supports running without debugging. Set to **False** if you don't want to install and run this service.|
+|Run a service in containers to enable Hot Reload|True|The Hot Reload service is available in Visual Studio 2022 version 17.7 and later, and only supports running without debugging (**Ctrl**+**F5**). Set to **False** if you don't want to install and run this service.|
 :::moniker-end
 
 :::moniker range="<=vs-2019"
