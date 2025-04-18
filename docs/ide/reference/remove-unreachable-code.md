@@ -3,7 +3,6 @@ title: Remove unreachable code refactoring
 description: Learn how to use the Quick Actions and Refactorings menu to remove code that will never be executed.
 ms.date: 03/10/2020
 ms.topic: reference
-ms.custom: "ide-ref"
 author: mikadumont
 ms.author: midumont
 manager: mijacobs

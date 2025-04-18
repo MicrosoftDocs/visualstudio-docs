@@ -3,7 +3,6 @@ title: Convert between regular and verbatim string literals
 description: Learn how to use the Quick Actions and Refactorings menu to convert between regular string and verbatim string literals.
 ms.date: 06/08/2020
 ms.topic: reference
-ms.custom: "ide-ref"
 author: mikadumont
 ms.author: midumont
 manager: mijacobs

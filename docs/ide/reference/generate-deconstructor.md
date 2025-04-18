@@ -3,7 +3,6 @@ title: Generate a deconstructor quick action
 description: Learn how to use the Quick Actions and Refactorings menu to immediately generate the method stub for a new deconstructor.
 ms.date: 02/19/2019
 ms.topic: reference
-ms.custom: "ide-ref"
 author: mikadumont 
 ms.author: midumont 
 manager: mijacobs

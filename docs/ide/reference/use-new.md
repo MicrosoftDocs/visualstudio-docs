@@ -3,7 +3,6 @@ title: Use new()
 description: "Learn how to use `new()` when you can't use `var`."
 ms.date: 11/03/2020
 ms.topic: reference
-ms.custom: "ide-ref"
 author: mikadumont
 ms.author: midumont
 manager: mijacobs

@@ -3,7 +3,6 @@ title: Make class abstract
 description: "Learn how to make your class abstract after you write an abstract method."
 ms.date: 11/03/2020
 ms.topic: reference
-ms.custom: "ide-ref"
 author: mikadumont
 ms.author: midumont
 manager: mijacobs

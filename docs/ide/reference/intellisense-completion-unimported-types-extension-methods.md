@@ -3,7 +3,6 @@ title: IntelliSense completion for types & extension methods
 description: How to use IntelliSense completion for types and extension methods that you haven't imported yet with a `using` directive.
 ms.date: 07/27/2020
 ms.topic: reference
-ms.custom: "ide-ref"
 author: mikadumont
 ms.author: midumont
 manager: mijacobs

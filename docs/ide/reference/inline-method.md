@@ -3,7 +3,6 @@ title: Inline method
 description: Learn how to use the Quick Actions and Refactorings menu in Visual Studio to refactor inline method declarations and provide a clearer syntax. 
 ms.date: 11/03/2020
 ms.topic: reference
-ms.custom: "ide-ref"
 author: mikadumont
 ms.author: midumont
 manager: mijacobs

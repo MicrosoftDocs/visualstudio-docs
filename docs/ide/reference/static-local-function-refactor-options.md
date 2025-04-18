@@ -3,7 +3,6 @@ title: Static local function refactor options
 description: Learn how to use the Quick Actions and Refactorings menu to make a local function static and pass in variables defined outside the function to the function’s declaration and calls.
 ms.date: 02/10/2020
 ms.topic: reference
-ms.custom: "ide-ref"
 author: governesss
 ms.author: midumont
 manager: mijacobs

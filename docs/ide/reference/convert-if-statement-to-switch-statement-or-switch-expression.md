@@ -3,7 +3,6 @@ title: Convert if statement to switch statement or expression
 description: Learn how to use the Quick Actions and Refactorings menu to convert an if statement into a switch statement or a C# 8.0 switch expression.
 ms.date: 03/10/2020
 ms.topic: reference
-ms.custom: "ide-ref"
 author: mikadumont
 ms.author: midumont
 manager: mijacobs
