@@ -3,7 +3,6 @@ title: Remove unused references
 description: Learn how to clean up project references and NuGet packages that have no usage with the new Remove Unused References command.
 ms.date: 3/6/2024
 ms.topic: reference
-ms.custom: "ide-ref"
 author: mikadumont
 ms.author: midumont
 manager: mijacobs

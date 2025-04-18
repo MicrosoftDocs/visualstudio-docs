@@ -3,7 +3,6 @@ title: Split or merge if statements
 description: Learn how to use the Quick Actions and Refactorings menu to split or merge if statements.
 ms.date: 03/10/2020
 ms.topic: reference
-ms.custom: "ide-ref"
 author: mikadumont
 ms.author: midumont
 manager: mijacobs

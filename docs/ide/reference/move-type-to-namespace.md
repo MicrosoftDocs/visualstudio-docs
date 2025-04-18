@@ -3,7 +3,6 @@ title: Move type to namespace
 description: Learn how to use the Quick Actions and Refactorings menu to move a type to a different namespace or folder.
 ms.date: 06/17/2019
 ms.topic: reference
-ms.custom: "ide-ref"
 author: mikadumont
 ms.author: midumont
 manager: mijacobs
