@@ -13,7 +13,6 @@ helpviewer_keywords:
 - Out Devenv switch
 - builds [Visual Studio], errors
 - output files, build errors
-ms.custom: "ide-ref"
 author:ghogen
 ms.author: ghogen
 manager: mijacobs

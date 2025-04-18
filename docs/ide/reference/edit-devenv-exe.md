@@ -7,7 +7,6 @@ helpviewer_keywords:
 - Edit Devenv switch
 - Devenv, /Edit switch
 - /Edit Devenv switch
-ms.custom: "ide-ref"
 author:ghogen
 ms.author: ghogen
 manager: mijacobs

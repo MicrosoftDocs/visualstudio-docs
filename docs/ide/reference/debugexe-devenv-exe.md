@@ -8,7 +8,6 @@ helpviewer_keywords:
 - DebugExe switch
 - /DebugExe [devenv.exe]
 - debugging executables
-ms.custom: "ide-ref"
 author:ghogen
 ms.author: ghogen
 manager: mijacobs

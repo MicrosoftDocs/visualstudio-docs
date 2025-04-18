@@ -7,7 +7,6 @@ helpviewer_keywords:
 - RunExit Devenv switch
 - Devenv, /RunExit switch
 - /RunExit Devenv switch
-ms.custom: "ide-ref"
 author:ghogen
 ms.author: ghogen
 manager: mijacobs

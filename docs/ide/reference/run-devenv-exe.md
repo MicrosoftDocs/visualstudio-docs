@@ -10,7 +10,6 @@ helpviewer_keywords:
 - /R Devenv switch
 - Devenv, /Run switch
 - R Devenv switch (/R)
-ms.custom: "ide-ref"
 author:ghogen
 ms.author: ghogen
 manager: mijacobs

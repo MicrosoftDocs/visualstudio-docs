@@ -7,7 +7,6 @@ helpviewer_keywords:
 - Devenv, /Diff switch
 - /Diff Devenv switch
 - Diff Devenv switch
-ms.custom: "ide-ref"
 author:ghogen
 ms.author: ghogen
 manager: mijacobs

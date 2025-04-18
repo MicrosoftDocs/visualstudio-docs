@@ -8,7 +8,6 @@ helpviewer_keywords:
 - Deploy Devenv switch
 - deploying applications [Visual Studio], after build
 - /Deploy Devenv switch
-ms.custom: "ide-ref"
 author:ghogen
 ms.author: ghogen
 manager: mijacobs

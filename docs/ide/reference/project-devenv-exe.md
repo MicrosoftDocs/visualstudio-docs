@@ -11,7 +11,6 @@ helpviewer_keywords:
 - Project Devenv switch (/Project)
 - Devenv, /Project switch
 - projects [Visual Studio], cleaning
-ms.custom: "ide-ref"
 author:ghogen
 ms.author: ghogen
 manager: mijacobs
