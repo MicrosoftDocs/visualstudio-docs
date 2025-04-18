@@ -366,26 +366,6 @@
     items:
     - name: 64-Bit applications
       href: debug-64-bit-applications.md
-    - name: UWP apps
-      items:
-      - name: Debug UWP apps >>
-        href: /windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps
-      - name: Debug UWP apps on a remote machine
-        href: run-windows-store-apps-on-a-remote-machine.md
-      - name: Run UWP apps in the simulator
-        href: run-windows-store-apps-in-the-simulator.md
-      - name: Deploy UWP apps from Visual Studio
-        href: deploy-windows-store-apps-from-visual-studio.md
-      - name: Debug an installed app package
-        href: debug-installed-app-package.md
-      - name: Inspect XAML properties while debugging >>
-        href: ../xaml-tools/inspect-xaml-properties-while-debugging.md
-      - name: Write and debug running XAML code >>
-        href: ../xaml-tools/xaml-hot-reload.md
-      - name: Debug XAML in Blend >>
-        href: ../xaml-tools/debug-xaml-in-blend.md
-      - name: How to trigger suspend, resume, and background events
-        href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
     - name: .NET
       items:
       - name: Recommended property settings
@@ -424,6 +404,26 @@
           href: how-to-debug-the-onstart-method.md
       - name: F#
         href: debugging-f-hash.md
+    - name: UWP apps
+      items:
+      - name: Debug UWP apps >>
+        href: /windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps
+      - name: Debug UWP apps on a remote machine
+        href: run-windows-store-apps-on-a-remote-machine.md
+      - name: Run UWP apps in the simulator
+        href: run-windows-store-apps-in-the-simulator.md
+      - name: Deploy UWP apps from Visual Studio
+        href: deploy-windows-store-apps-from-visual-studio.md
+      - name: Debug an installed app package
+        href: debug-installed-app-package.md
+      - name: Inspect XAML properties while debugging >>
+        href: ../xaml-tools/inspect-xaml-properties-while-debugging.md
+      - name: Write and debug running XAML code >>
+        href: ../xaml-tools/xaml-hot-reload.md
+      - name: Debug XAML in Blend >>
+        href: ../xaml-tools/debug-xaml-in-blend.md
+      - name: How to trigger suspend, resume, and background events
+        href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
     - name: C/C++ code
       items:
       - name: Debug native code
