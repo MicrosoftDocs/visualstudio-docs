@@ -11,6 +11,7 @@ dev_langs:
 helpviewer_keywords:
 - Text Editor Options dialog box, formatting
 - ClangFormat
+ms.custom: "ide-ref"
 author: tylermsft
 ms.author: twhitney
 manager: markl
@@ -19,9 +20,21 @@ manager: markl
 
 Use these property pages to change the default behavior of the code editor when you are programming in C or C++.
 
-![C++ Formatting property pages](media/cpp-formatting.png)
+::: moniker range=">=vs-2022"
+
+:::image type="content" source="media/vs-2022/tools-options-text-editor-c-cpp-formatting.png" alt-text="Screenshot of the Formatting settings for the C/C++ text editor in the Options dialog box.":::
+
+To access this page, in the **Options** dialog box, in the left pane, expand **Text Editor**, expand **C/C++**, expand **Code Style**, and then click **Formatting**.
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
+
+:::image type="content" source="media/vs-2019/tools-options-text-editor-c-cpp-formatting.png" alt-text="Screenshot of the Formatting settings for the C/C++ text editor in the Options dialog box.":::
 
 To access this page, in the **Options** dialog box, in the left pane, expand **Text Editor**, expand **C/C++**, and then click **Formatting**.
+
+::: moniker-end
 
 > [!NOTE]
 > Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).

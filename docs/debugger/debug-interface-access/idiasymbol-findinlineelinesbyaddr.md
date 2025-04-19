@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::findInlineeLinesByAddr
 
 Retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, in this symbol within the specified address range.
@@ -17,7 +18,7 @@ Retrieves an enumeration that allows a client to iterate through the line number
 ## Syntax
 
 ```C++
-HRESULT findInlineeLinesByAddr ( 
+HRESULT findInlineeLinesByAddr ( 
    DWORD                 isect,
    DWORD                 offset,
    DWORD                 length,

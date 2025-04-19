@@ -1,7 +1,7 @@
 ---
 description: "Retrieves a flag that specifies whether the preprocesser directive for a safe buffer is used."
 title: "IDiaSymbol::get_isSafeBuffers"
-ms.date: "11/04/2016"
+ms.date: "07/22/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_isSafeBuffers
 
 Retrieves a flag that specifies whether the preprocessor directive for a safe buffer is used. Use when the [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) is set to `SymTagFunction`.
@@ -19,7 +20,7 @@ Retrieves a flag that specifies whether the preprocessor directive for a safe bu
 ## Syntax
 
 ```C++
-HRESULT get_isSafeBuffers( 
+HRESULT get_isSafeBuffers( 
    BOOL* pRetVal)
 );
 ```
@@ -46,4 +47,5 @@ HRESULT get_isSafeBuffers( 
 
 ## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
-- [strict_gs_check](/cpp/preprocessor/strict-gs-check)
+- [`safebuffers`](/cpp/cpp/safebuffers)
+- [`strict_gs_check` pragma](/cpp/preprocessor/strict-gs-check)

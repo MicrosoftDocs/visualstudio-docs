@@ -16,7 +16,7 @@ When you enable Live Unit Testing in a Visual Studio solution, it visually depic
 
 Live Unit Testing can be used to test solutions that target either .NET Framework, .NET Core, or .NET 5+. In this tutorial, you'll learn to use Live Unit Testing by creating a simple class library that targets .NET, and you'll create an MSTest project that targets .NET to test it.
 
-The complete C# solution can be downloaded from the [MicrosoftDocs/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs/tree/master/docs/test/samples/csharp/UtilityLibraries/) repo on GitHub.
+The complete C# solution can be downloaded from the [MicrosoftDocs/visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs/tree/main/docs/test/samples/csharp/UtilityLibraries/) repo on GitHub.
 
 ## Prerequisites
 
@@ -86,7 +86,7 @@ Now that you've created the solution, you'll create a class library named String
 
    - `StartsWithUpper` returns `true` if a string starts with an uppercase character; otherwise, it returns `false`.
 
-   - `StartsWithLower`returns `true` if a string starts with a lowercase character; otherwise, it returns `false`.
+   - `StartsWithLower` returns `true` if a string starts with a lowercase character; otherwise, it returns `false`.
 
    - `HasEmbeddedSpaces` returns `true` if a string contains an embedded whitespace character; otherwise, it returns `false`.
 

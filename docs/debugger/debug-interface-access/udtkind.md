@@ -1,7 +1,7 @@
 ---
 description: "Describes the variety of user-defined type (UDT)."
 title: "UdtKind"
-ms.date: "11/04/2016"
+ms.date: "07/22/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -19,11 +19,13 @@ Describes the variety of user-defined type (UDT).
 ## Syntax
 
 ```C++
-enum UdtKind {
+enum UdtKind
+{
     UdtStruct,
     UdtClass,
     UdtUnion,
-    UdtInterface
+    UdtInterface,
+    UdtTaggedUnion
 };
 ```
 
@@ -35,6 +37,7 @@ enum UdtKind {
 | UdtClass     | UDT is a class.      |
 | UdtUnion     | UDT is a union.      |
 | UdtInterface | UDT is an interface. |
+| UdtTaggedUnion | UDT is a tagged union. |
 
 ## Remarks
 The values in this enumeration are returned by the [IDiaSymbol::get_udtKind](../../debugger/debug-interface-access/idiasymbol-get-udtkind.md) method.

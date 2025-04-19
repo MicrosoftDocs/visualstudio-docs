@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: Create an ASP.NET Core project to serve as an API backend and a Vue project to provide the user interface in Visual Studio.
-ms.date: 04/30/2024
+ms.date: 4/09/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -24,17 +24,17 @@ You can use the method described in this article to create ASP.NET Core Single P
 - Create the client project based on the framework CLI installed on your computer
 
 > [!NOTE]
-> This article describes the project creation process using the updated template in Visual Studio 2022 version 17.8, which uses the Vite CLI.
+> This article describes the project creation process using the updated template in Visual Studio 2022 version 17.11, which uses the Vite CLI. Vite determines the version of Vue using project dependencies, such as those configured in *package.json*.
 
 ## Prerequisites
 
 Make sure to install the following:
 
-- Visual Studio 2022 version 17.8 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+- Visual Studio 2022 version 17.11 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 - npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js.
 
-## Create the frontend app
+## Create the app
 
 1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
 
@@ -56,7 +56,7 @@ Make sure to install the following:
 
    Compared to the [standalone Vue template](../javascript/tutorial-create-vue-app.md), you see some new and modified files for integration with ASP.NET Core:
 
-   - vite.config.json (modified)
+   - vite.config.js (modified)
    - HelloWorld.vue (modified)
    - package.json (modified)
 
@@ -87,7 +87,11 @@ Press **F5** or select the **Start** button at the top of the window to start th
 >[!NOTE]
 > Check console output for messages. For example there might be a message to update Node.js.
 
-The Vue app appears and is populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
+The Vue app appears and is populated via the API (the localhost port may vary from the screenshot). 
+
+:::image type="content" source="media/vs-2022/asp-net-core-weather-forecast-app.png" alt-text="Screenshot showing the weather forecast app.":::
+
+If you don't see the weather forecast data in the browser, see [Troubleshooting](#troubleshooting).
 
 ## Publish the project
 
@@ -136,6 +140,8 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 
    The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run build` command gets invoked when publishing. The [BuildCommand](../javascript/javascript-project-system-msbuild-reference.md#buildcommand) runs `npm run build` by default.
 
+   If you publish to a folder, see [ASP.NET Core directory structure](/aspnet/core/host-and-deploy/directory-structure) for more information on the files added to the *publish* folder.
+
 ## Troubleshooting
 
 ### Proxy error
@@ -146,7 +152,10 @@ You may see the following error:
 [HPM] Error occurred while trying to proxy request /weatherforecast from localhost:4200 to https://localhost:5173 (ECONNREFUSED) (https://nodejs.org/api/errors.html#errors_common_system_errors)
 ```
 
-If you see this issue, most likely the frontend started before the backend. Once you see the backend command prompt up and running, just refresh the Vue app in the browser.
+If you see this issue, most likely the frontend started before the backend.
+
+- Once you see the backend command prompt up and running, just refresh the Vue app in the browser.
+- Also, verify that the backend is configured to start before the front end. To verify, select the solution in Solution Explorer, choose **Properties** from the **Project menu**. Next, select **Configure Startup Projects** and make sure that the backend ASP.NET Core project is first in the list. If it's not first, select the project and use the Up arrow button to make it the first project in the launch list.
 
 Otherwise, if the port is in use, try incrementing the port number by **1** in `launchSettings.json` and *vite.config.js*.
 
@@ -193,7 +202,10 @@ If you create the project with [Docker support](../containers/overview.md#prereq
       env.ASPNETCORE_URLS ? env.ASPNETCORE_URLS.split(';')[0] : 'https://localhost:7163';
    ```
 
-   change `https://localhost:7163` to `https://localhost:60833`.
+   change `https://localhost:7163` to the matching HTTPS port (in this example, `https://localhost:60833`).
+
+   > [!NOTE]
+   > If the HTTPS port is missing in the Containers window, you can use **launchSettings.json** file to add the port. In the section `Container (Dockerfile)` and after the entry `"useSSL": true`, add `"sslPort": <any port>`. In this example, use the following: `"sslPort": 60833` 
 
 1. Restart the app.
 
@@ -208,6 +220,6 @@ Edit the Docker profile in the `launchSettings.json` by adding the following pro
 
 ## Next steps
 
-For more information about SPA applications in ASP.NET Core, see [Developing Single Page Apps](/aspnet/core/client-side/spa/intro#developing-single-page-apps). The linked article provides additional context for project files such as *aspnetcore-https.js*, although details of the implementation are different due to differences between the project templates and the Vue.js framework vs. other frameworks. For example, instead of a ClientApp folder, the Vue files are contained in a separate project.
+For more information about SPA applications in ASP.NET Core, see [Developing Single Page Apps](/aspnet/core/client-side/spa/intro?view=aspnetcore-7.0&preserve-view=true#developing-single-page-apps). The linked article provides additional context for project files such as *aspnetcore-https.js*, although details of the implementation are different due to differences between the project templates and the Vue.js framework vs. other frameworks. For example, instead of a ClientApp folder, the Vue files are contained in a separate project.
 
 For MSBuild information specific to the client project, see [MSBuild properties for JSPS](../javascript/javascript-project-system-msbuild-reference.md).

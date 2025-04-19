@@ -104,7 +104,7 @@ Now that you have created the table, create a new project to demonstrate configu
 
 1. On the **Project** menu, click **Add New Item**.
 
-2. Click the **LINQ to SQL Classes** template and then click **Add**.
+2. Click the **LINQ to SQL Classes** template, and then select **Add**.
 
      The `.dbml` file is added to the project and the **O/R Designer** opens.
 

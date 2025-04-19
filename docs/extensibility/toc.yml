@@ -29,7 +29,7 @@
       href: migration/migrated-assemblies.md
     - name: ARM64 support
       href: arm64/target-arm64-visual-studio-extension.md
-    - name: VS SDK messages
+    - name: VSSDK messages
       href: vssdk-messages/index.md
   - name: What's New Visual Studio 2019 SDK
     items:
@@ -217,6 +217,8 @@
     items:
     - name: Extend Projects
       href: extending-projects.md
+    - name: Query the Project API
+      href: project-visual-studio-sdk.md
     - name: Creating a Basic Project System, Part 1
       href: creating-a-basic-project-system-part-1.md
     - name: Creating a Basic Project System, Part 2
@@ -385,7 +387,6 @@
       href: creating-a-windows-forms-toolbox-control.md
     - name: Extend the Status Bar
       href: extending-the-status-bar.md
-    - name: Creating a Custom Start Page
     - name: Use the Activity Log
       href: how-to-use-the-activity-log.md
   - name: Visual Studio C++ project extensibility
@@ -526,6 +527,8 @@
       href: preparing-extensions-for-windows-installer-deployment.md
     - name: Sign VSIX Packages
       href: signing-vsix-packages.md
+    - name: Sign CLI Reference
+      href: dotnet-sign-cli-reference-vsix.md
     - name: Private Galleries
       items:
       - name: Private Galleries

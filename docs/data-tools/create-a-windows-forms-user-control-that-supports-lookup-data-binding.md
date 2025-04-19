@@ -90,7 +90,7 @@ This walkthrough creates a lookup control from a **User Control**, so add a **Us
 
 1. From the **Project** menu, select **Add User Control**.
 
-2. Type `LookupBox` in the **Name** area, and then click **Add**.
+2. Type `LookupBox` in the **Name** area, and then select **Add**.
 
      The **LookupBox** control is added to **Solution Explorer**, and opens in the designer.
 
@@ -123,7 +123,7 @@ This step creates a data source using the **Data Source Configuration** wizard, 
 
 2. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
 
-3. Select **Database** on the **Choose a Data Source Type** page, and then click **Next**.
+3. Select **Database** on the **Choose a Data Source Type** page, and then select **Next**.
 
 4. On the **Choose your Data Connection** page do one of the following:
 
@@ -131,13 +131,13 @@ This step creates a data source using the **Data Source Configuration** wizard, 
 
     - Select **New Connection** to launch the **Add/Modify Connection** dialog box.
 
-5. If your database requires a password, select the option to include sensitive data, and then click **Next**.
+5. If your database requires a password, select the option to include sensitive data, and then select **Next**.
 
 6. On the **Save connection string to the Application Configuration file** page, click **Next**.
 
 7. On the **Choose your Database Objects** page, expand the **Tables** node.
 
-8. Select the `Customers` and `Orders` tables, and then click **Finish**.
+8. Select the `Customers` and `Orders` tables, and then select **Finish**.
 
      The **NorthwindDataSet** is added to your project, and the `Customers` and `Orders` tables appear in the **Data Sources** window.
 

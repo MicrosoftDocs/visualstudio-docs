@@ -1,5 +1,5 @@
 ---
-description: "Retrieves an enumeration that allows a client to iterate through the line number information of all inlined functions that match a specified name."
+description: Retrieves an enumeration that allows a client to iterate through the line number information of all inlined functions that match a specified name.
 title: "IDiaSession::findInlineesByName"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findInlineesByName
 
 Retrieves an enumeration that allows a client to iterate through the line number information of all inlined functions that match a specified name.
@@ -17,7 +18,7 @@ Retrieves an enumeration that allows a client to iterate through the line number
 ## Syntax
 
 ```C++
-HRESULT findInlineesByName ( 
+HRESULT findInlineesByName ( 
    LPCOLESTR             name,
    DWORD                 option,
    IDiaEnumLineNumbers** ppResult

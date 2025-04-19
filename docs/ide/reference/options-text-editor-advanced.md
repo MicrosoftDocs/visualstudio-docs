@@ -10,6 +10,7 @@ helpviewer_keywords:
 - Code Editor
 - Text Editor [Visual Studio]
 - editors, global settings
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
@@ -53,7 +54,7 @@ Selected by default, this option enables the editor to suggest possible completi
 
 ## Click to peek in margin
 
-The **Single click** setting is selected by default. The settings you choose from allow you to customize how Peek Definition works when you use it to display the differences between Git commits. You can change the default **Single click** setting to **Double click**, or you can select **None** to turn off the [Peek Difference UI](../../version-control/git-line-staging.md#peek-difference-support).
+The **Single click** setting is selected by default. The settings you choose from allow you to customize how Peek Definition works when you use it to display the differences between Git commits. You can change the default **Single click** setting to **Double click**, or you can select **None** to turn off the [Peek Difference UI](../../version-control/git-line-staging.md#view-staged-changes-with-peek-difference).
 
 ::: moniker-end
 

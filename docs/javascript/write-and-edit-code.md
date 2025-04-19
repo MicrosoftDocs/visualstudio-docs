@@ -81,7 +81,7 @@ The code block collapses to just the first line, followed by an ellipsis (`...`)
 
 ## View definitions
 
-The Visual Studio editor makes it easy to inspect the definition of a type, function, etc. One way is to navigate to the file that contains the definition, for example by choosing **Go to Definition** anywhere the programming element is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../ide/go-to-and-peek-definition.md#peek-definition). Let's peek at the definition of the `render` method in the example below.
+The Visual Studio editor makes it easy to inspect the definition of a type, function, etc. One way is to navigate to the file that contains the definition, for example by choosing **Go to Definition** anywhere the programming element is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../ide/go-to-and-peek-definition.md#peek-at-a-definition). Let's peek at the definition of the `render` method in the example below.
 
 Right-click on `render` and choose **Peek Definition** from the content menu. Or, press **Alt**+**F12**.
 
@@ -90,6 +90,23 @@ Right-click on `render` and choose **Peek Definition** from the content menu. Or
    ![Peek definition window](../javascript/media/write-code-peek-definition.png)
 
 Close the peeked definition window by choosing the small box with an "x" at the top right of the pop-up window.
+
+::: moniker range=">=vs-2022"
+## View inlay hints
+
+Starting in Visual Studio 2022 version 17.12, inlay hints show additional information about source code that is rendered inline. This is usually used to show inferred types, parameter names, and other implicit information from your code directly in your editor.
+
+![Screenshot of inlay hints.](../javascript/media/vs-2022/write-code-inlay-hints.png)
+
+To configure inlay hints:
+
+1. Go to **Tools > Options > Text Editor > All Languages > Inlay Hints**, and select an option for viewing inlay hints.
+
+1. Go to **Tools > Options > Text Editor > JavaScript/TypeScript > Advanced > General** and configure the inlay hints you want to hide or show.
+
+   By default, most of these options are disabled.
+
+::: moniker-end
 
 ## Use code snippets
 

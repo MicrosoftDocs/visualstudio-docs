@@ -18,7 +18,16 @@ ms.subservice: office-development
 ---
 # Actions pane overview
 
-  An actions pane is a customizable **Document Actions** task pane that is attached to a specific Microsoft Office Word document or Microsoft Office Excel workbook. The actions pane is hosted inside the Office task pane along with other built-in task panes, such as the **XML Source** task pane in Excel or the **Styles and Formatting** task pane in Word. You can use Windows Forms controls or WPF controls to design the actions pane user interface.
+> [!IMPORTANT]
+> The Actions feature has been retired from Microsoft Word starting in Office 2024.
+> This feature is only available in Microsoft Word with the following releases of Office:
+> - Microsoft 365
+> - Office LTSC Professional Plus 2021
+> - Office LTSC Standard 2021
+> - Office Professional Plus 2016, 2019
+> - Office Standard 2016, 2019
+> 
+ An actions pane is a customizable **Document Actions** task pane that is attached to a specific Microsoft Office Word document or Microsoft Office Excel workbook. The actions pane is hosted inside the Office task pane along with other built-in task panes, such as the **XML Source** task pane in Excel or the **Styles and Formatting** task pane in Word. You can use Windows Forms controls or WPF controls to design the actions pane user interface.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
 
@@ -36,7 +45,7 @@ ms.subservice: office-development
  ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet7":::
  ---
-
+ 
  The actions pane becomes visible at run time as soon as you explicitly add a control to it. After the actions pane is displayed, you can dynamically add or remove controls in response to the user's actions. Typically, you add the code to display the actions pane in the `Startup` event handler of `ThisDocument` or `ThisWorkbook` so that the actions pane is visible when the user first opens the document. However, you might want to display the actions pane only in response to a user's action in the document. For example, you might add the code to the `Click` event of a control on the document.
 
 ### Add multiple controls to the actions pane
@@ -75,7 +84,7 @@ ms.subservice: office-development
      ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneExcelVB/ThisWorkbook.vb" id="Snippet11":::
      ---
-
+     
 - For Word or Excel, you can alternatively set the <xref:Microsoft.Office.Core.CommandBar.Visible%2A> property of the command bar that represents the task pane to **false**. The following code example is intended to be run from the `ThisDocument` or `ThisWorkbook` class in your project.
 
      ### [C#](#tab/csharp)
@@ -157,6 +166,7 @@ ms.subservice: office-development
  ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs" id="Snippet100":::
 
+
  ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet100":::
  ---
@@ -170,6 +180,7 @@ ms.subservice: office-development
 
  ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs" id="Snippet101":::
+
 
  ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb" id="Snippet101":::

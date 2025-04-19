@@ -2,7 +2,7 @@
 title: "C++ EditorConfig formatting conventions"
 titleSuffix: ""
 description: "Learn about how to use EditorConfig to format C++ code in Visual Studio."
-ms.date: 9/14/2020
+ms.date: 08/22/2024
 author: jureid
 ms.author: ghogen 
 manager: mijacobs
@@ -11,17 +11,23 @@ dev_langs:
  - CPP
 
 ms.topic: reference
-monikerRange: vs-2019
 ---
 # C++ EditorConfig formatting conventions
 
-The Visual Studio C++ formatter has a rich set of configurable settings that can be applied globally. To set C++ formatting settings for a specific workspace, use [clangformat](https://clang.llvm.org/docs/ClangFormat.html) or [EditorConfig](https://editorconfig.org/). Both Visual Studio and Visual Studio Code have built-in EditorConfig support for each of the global Visual Studio C++ formatting settings, with the EditorConfig settings taking precedence. This means you can add EditorConfig files to your workspace to configure C++ formatting on a more granular level and enforce consistent code style for everyone contributing to the project.
+You can add EditorConfig files to your project to configure C++ formatting to enforce a consistent code style for everyone contributing to the project. Both Visual Studio and Visual Studio Code have built-in [EditorConfig](https://editorconfig.org/) support for each of the global Visual Studio C++ formatting settings. The EditorConfig settings are stored in an `.editorconfig` file. When that file is present in your project, it takes precedence over the Visual Studio formatting settings.
+
+This document lists all the EditorConfig C++ formatting settings supported by Visual Studio and Visual Studio Code.
+
+For more information about:
+
+- Using an EditorConfig file in Visual Studio, see [Define consistent coding styles with EditorConfig](create-portable-custom-editor-options.md).
+- Manually create an EditorConfig file based on clang formatting settings, see [clangformat](https://clang.llvm.org/docs/ClangFormat.html). Rename that file `.editorconfig` and save it in your project.
 
 ## C++ formatting conventions
 
-C++ formatting EditorConfig settings are prefixed with `cpp_`. Here's an example of what your EditorConfig file might look like:
+C++ formatting EditorConfig settings are prefixed with `cpp_`. Here's an example of what an `.editorconfig` file might look like:
 
-```ini
+```
 [*.{c++,cc,cpp,cxx,h,h++,hh,hpp,hxx,inl,ipp,tlh,tli}]
 
 cpp_indent_case_contents_when_block = true

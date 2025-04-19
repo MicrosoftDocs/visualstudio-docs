@@ -4,9 +4,9 @@ description: Adding an alternate account allows your developers to access some o
 ms.faqid: group3_2
 ms.topic: include
 ms.assetid: a8fa961b-4e81-4af4-9913-67dd2c28897e
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 05/03/2021
+ms.date: 09/26/2024
 ---
 
 ## What does it mean when my subscribers add alternate identities?

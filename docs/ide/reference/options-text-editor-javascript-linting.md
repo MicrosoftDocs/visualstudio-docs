@@ -9,6 +9,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Linting"
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Linting.General"
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Linting"
+ms.custom: "ide-ref"
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
@@ -19,7 +20,7 @@ Use the **Linting** page of the **Options** dialog box to set options for analyz
 
 ## ESLint Settings
 
-These options let you enable static JavaScript and TypeSCript code analysis, and choose which files are analyzed. For more information about ESLint, see [ESLint.org](https://eslint.org/).
+These options let you enable static JavaScript and TypeScript code analysis, and choose which files are analyzed. For more information about ESLint, see [ESLint.org](https://eslint.org/).
 
 ### UIElement list
 

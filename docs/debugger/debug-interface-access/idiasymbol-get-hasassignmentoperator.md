@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that specifies whether the user-defined data type has any assignment operators defined."
+description: Retrieves a flag that specifies whether the user-defined data type has any assignment operators defined.
 title: "IDiaSymbol::get_hasAssignmentOperator"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_hasAssignmentOperator
 
 Retrieves a flag that specifies whether the user-defined data type has any assignment operators defined.
@@ -19,7 +20,7 @@ Retrieves a flag that specifies whether the user-defined data type has any assig
 ## Syntax
 
 ```C++
-HRESULT get_hasAssignmentOperator ( 
+HRESULT get_hasAssignmentOperator ( 
    BOOL* pRetVal
 );
 ```

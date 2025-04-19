@@ -7,7 +7,7 @@ ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 10/19/2023
 ms.author: ghogen
-monikerRange: >=vs-2019
+monikerRange: ">=vs-2019"
 ---
 
 # Find and provision Azure resources in Visual Studio

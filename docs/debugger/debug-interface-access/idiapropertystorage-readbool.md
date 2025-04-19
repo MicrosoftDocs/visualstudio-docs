@@ -1,5 +1,5 @@
 ---
-description: "Reads BOOL values in a property set."
+description: Reads BOOL values in a property set.
 title: "IDiaPropertyStorage::ReadBOOL"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaPropertyStorage::ReadBOOL
 
 Reads `BOOL` values in a property set.
@@ -19,7 +20,7 @@ Reads `BOOL` values in a property set.
 ## Syntax
 
 ```C++
-HRESULT ReadBOOL ( 
+HRESULT ReadBOOL ( 
    PROPID id,
    BOOL*  pValue
 );

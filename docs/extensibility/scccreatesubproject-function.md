@@ -1,6 +1,6 @@
 ---
-description: "This function creates a subproject with the given name under an existing parent project specified by the lpParentProjPath argument."
 title: SccCreateSubProject Function
+description: "This function creates a subproject with the given name under an existing parent project specified by the lpParentProjPath argument."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -77,7 +77,7 @@ SCCRTN SccCreateSubProject(
 |SCC_E_NONSPECIFICERROR<br /><br /> SCC_E_UNKNOWNERROR|Nonspecific failure.|
 
 ## Remarks
- If a subproject with the name already exists, the function can change the default name to create a unique one, for example by adding "_\<number>" to it. The caller must be prepared to accept changes to `lpUser`, `lpSubProjPath`, and `lpAuxProjPath`. The `lpSubProjPath` and`lpAuxProjPath` arguments are then used in a call to the [SccOpenProject](../extensibility/sccopenproject-function.md). They should not be modified by the caller upon return. These strings provide a way for the source control plug-in to track information that it needs to associate with a project. The caller IDE will not display these two parameters upon return, because the plug-in can use a formatted string that might not be suitable for viewing. The function returns a success or failure code and, if successful, fills the variable `lpSubProjPath` with the full project path to the new project.
+ If a subproject with the name already exists, the function can change the default name to create a unique one, for example by adding "_\<number>" to it. The caller must be prepared to accept changes to `lpUser`, `lpSubProjPath`, and `lpAuxProjPath`. The `lpSubProjPath` and `lpAuxProjPath` arguments are then used in a call to the [SccOpenProject](../extensibility/sccopenproject-function.md). They should not be modified by the caller upon return. These strings provide a way for the source control plug-in to track information that it needs to associate with a project. The caller IDE will not display these two parameters upon return, because the plug-in can use a formatted string that might not be suitable for viewing. The function returns a success or failure code and, if successful, fills the variable `lpSubProjPath` with the full project path to the new project.
 
  This function is similar to the [SccGetProjPath](../extensibility/sccgetprojpath-function.md), except that it silently creates a project rather than prompting the user to select one. When the `SccCreateSubProject` function is called, `lpParentProjName` and `lpAuxProjPath` will not be empty and will correspond to a valid project. These strings are usually received by the IDE from a previous call to the `SccGetProjPath` function or the [SccGetParentProjectPath](../extensibility/sccgetparentprojectpath-function.md).
 

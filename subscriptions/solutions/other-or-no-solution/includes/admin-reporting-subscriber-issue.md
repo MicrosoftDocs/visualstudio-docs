@@ -1,10 +1,10 @@
 ---
 title: I'm an admin and would like to report an issue of a subscriber
 description: What to do if you're a Visual Studio Subscriptions admin trying to report an issue for a subscriber you manage
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.topic: include
 ms.assetid: 347ce1de-7582-4d88-812e-2aa7f32af937
-author: larissacrawford
+author: joseb-rdc
 ms.author: amast
 ms.date: 04/09/2024
 user.type: subscriber, admin

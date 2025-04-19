@@ -52,7 +52,7 @@ To complete this tutorial, you need the **.NET desktop development** and **Data 
 
 ## Add columns to the DataTable
 
-1. Right-click the **Music** table. Point to **Add**, and then click **Column**.
+1. Right-click the **Music** table. Point to **Add**, and then select **Column**.
 
 2. Name the column `SongID`.
 
@@ -70,7 +70,7 @@ To complete this tutorial, you need the **.NET desktop development** and **Data 
 
 All data tables should have a primary key. A primary key uniquely identifies a specific record in a data table.
 
-To set the primary key, right-click the **SongID** column, and then click **Set Primary Key**. A key icon appears next to the **SongID** column.
+To set the primary key, right-click the **SongID** column, and then select **Set Primary Key**. A key icon appears next to the **SongID** column.
 
 ## Save Your Project
 

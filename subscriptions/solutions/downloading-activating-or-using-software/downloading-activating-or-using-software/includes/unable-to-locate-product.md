@@ -1,10 +1,10 @@
 ---
 title: Unable to locate a product
 description: I'm unable to locate a product to download with my Visual Studio subscription.
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.topic: include
 ms.assetid: a3635d25-8f9d-4cf8-a9c3-db41d155f989
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 ms.date: 05/16/2024
 user.type: subscriber

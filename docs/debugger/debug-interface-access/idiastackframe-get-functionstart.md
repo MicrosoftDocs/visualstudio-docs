@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackFrame::get_functionStart
 
 Retrieves a flag that indicates whether the block contains the entry point of a function.
@@ -19,7 +20,7 @@ Retrieves a flag that indicates whether the block contains the entry point of a 
 ## Syntax
 
 ```C++
-HRESULT get_functionStart ( 
+HRESULT get_functionStart ( 
    BOOL* pRetVal
 );
 ```

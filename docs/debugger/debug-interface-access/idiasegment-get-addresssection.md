@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the section number that maps to this segment."
+description: Retrieves the section number that maps to this segment.
 title: "IDiaSegment::get_addressSection"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSegment::get_addressSection
 
 Retrieves the section number that maps to this segment.
@@ -19,7 +20,7 @@ Retrieves the section number that maps to this segment.
 ## Syntax
 
 ```C++
-HRESULT get_addressSection ( 
+HRESULT get_addressSection ( 
    DWORD* pRetVal
 );
 ```

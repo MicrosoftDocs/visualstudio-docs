@@ -12,12 +12,15 @@ ms.subservice: extensibility-integration
 ---
 # .NET compiler platform package version reference
 
-The following table shows which [.NET compiler platform (Roslyn) package](https://www.nuget.org/packages/Microsoft.Net.Compilers/) versions are supported for different versions of Visual Studio.
+The following table shows which [.NET compiler platform (Roslyn) package](https://www.nuget.org/packages/Microsoft.Net.Compilers.Toolset/) versions are supported for different versions of Visual Studio.
 
 As an example, to ensure that your custom analyzer works on all versions of Visual Studio 2017, it should target version 2.0 of Microsoft.Net.Compilers.
 
 | Roslyn package version | Minimum supported Visual Studio version |
 | - | - |
+| 4.13.0 | Visual Studio 2022 version 17.13 |
+| 4.12.0 | Visual Studio 2022 version 17.12 |
+| 4.11.0 | Visual Studio 2022 version 17.11 |
 | 4.10.0 | Visual Studio 2022 version 17.10 |
 | 4.9.2 | Visual Studio 2022 version 17.9 |
 | 4.8.0 | Visual Studio 2022 version 17.8 |

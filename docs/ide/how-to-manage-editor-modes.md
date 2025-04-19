@@ -1,7 +1,7 @@
 ---
 title: Full screen and virtual space mode
 description: Learn how to manage the Visual Studio editor modes to display all of the tools and windows in a way that works best for you.
-ms.date: 02/06/2023
+ms.date: 10/03/2024
 ms.topic: how-to
 helpviewer_keywords:
 - word wrap
@@ -30,6 +30,8 @@ With Visual Studio, you can view the code editor in various display modes.
 
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in this article depending on your active settings or edition. To change your settings, for example to **General** or **Visual C++** settings, select **Tools** > **Import and Export Settings**, and then select **Reset all settings**.
+
+The keyboard shortcuts in Visual Studio may vary depending on your keyboard layout and language settings. You can [identify the keyboard shortcut for a command](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md#identify-a-keyboard-shortcut) or [customize your keyboard shortcut](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md#customize-a-keyboard-shortcut). See the [Dev Community ticket](https://developercommunity.visualstudio.com/t/Issue-with-New-Ctrl---Comment-Shortc/10725157?q=keyboard+language&ftype=idea&stateGroup=active) related to this issue for more information.
 
 ## Enable full screen mode
 

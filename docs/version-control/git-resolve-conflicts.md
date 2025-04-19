@@ -2,7 +2,7 @@
 title: Resolve merge conflicts in Visual Studio
 titleSuffix: ""
 description: Understand how Git works to resolve conflicting changes that cause merge conflicts in your code branches and project files in Visual Studio.
-ms.date: 04/04/2024
+ms.date: 3/13/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -80,7 +80,7 @@ Git is good at automatically merging file changes in most circumstances, as long
 
 ## Configure your diff tool
 
-If you set your [`.gitconfig` file](https://git-scm.com/docs/git-config) to use a third-party diff tool such as BeyondCompare or KDiff3, Visual Studio respects it. Whenever Visual Studio would normally display a diff, a separate window is opened in the tool of your choice. For an example, see this [StackOverflow](https://stackoverflow.com/questions/4466238/how-to-configure-visual-studio-to-use-beyond-compare) question.
+If you set your [`.gitconfig` file](https://git-scm.com/docs/git-config) to use a third-party diff tool such as BeyondCompare or KDiff3, Visual Studio respects it. Whenever Visual Studio would normally display a diff, a separate window is opened in the tool of your choice. For an example, see this [Stack Overflow](https://stackoverflow.com/questions/4466238/how-to-configure-visual-studio-to-use-beyond-compare) question.
 
 ## Related content
 

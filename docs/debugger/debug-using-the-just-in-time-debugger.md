@@ -1,7 +1,7 @@
 ---
 title: Debug using the Just-In-Time Debugger
 description: Debug using the Just-In-Time Debugger in Visual Studio. Just-In-Time debugging can launch Visual Studio automatically when an app returns errors or crashes.
-ms.date: 11/29/2023
+ms.date: 01/29/2025
 ms.topic: how-to
 helpviewer_keywords: 
   - debugging [Visual Studio], Just-In-Time
@@ -52,17 +52,17 @@ Just-In-Time debugging might still be enabled even if Visual Studio is no longer
 
 2. In the **Registry Editor** window, locate and delete the following registry entries if they exist:
 
-    - **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\DbgManagedDebugger**
-
     - **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger**
+
+    - **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\DbgManagedDebugger**
 
     :::image type="content" source="../debugger/media/dbg-jit-registry.png" alt-text="JIT registry key" border="true":::
 
 3. Also delete the following registry entries if they exist:
 
-    - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\DbgManagedDebugger**
-
     - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger**
+
+    - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\DbgManagedDebugger**
 
     Make sure not to delete or change any other registry keys.
 
@@ -153,17 +153,17 @@ If Just-In-Time debugging doesn't start when an app crashes, even though it's en
 
   The fix is to add a **DWORD Value** of **Auto**, with **Value data** of **1**, to the following registry keys:
 
-  - **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug**
+  - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug**
 
-  - (For 32-bit machines) **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug**
+  - (For 32-bit apps on 64-bit machines) **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug**
 
 - Windows Error Reporting could be taking over the error handling on your computer.
 
   To fix this issue, use Registry Editor to add a **DWORD Value** of **Disabled**, with **Value data** of **1**, to the following registry keys:
-
-  - **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows\Windows Error Reporting**
   
-  - (For 32-bit machines) **HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Windows Error Reporting**
+  - **HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Windows Error Reporting**
+
+  - (For 32-bit apps on 64-bit machines) **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows\Windows Error Reporting**
 
   For more information, see [.WER settings](/windows/desktop/wer/wer-settings).
 

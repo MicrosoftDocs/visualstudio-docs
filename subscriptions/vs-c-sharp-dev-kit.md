@@ -1,10 +1,11 @@
 ---
 title: C# Dev Kit for Visual Studio Code
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 04/11/2024
+ms.date: 10/31/2024
 ms.topic: how-to
+
 description: Explore the C# Dev Kit for Visual Studio Code that provides a rich C# editing experience, AI-powered development, solution management, and integrated testing.
 ---
 
@@ -32,10 +33,11 @@ To learn more about the C# Dev Kit and to install it, check out these resources:
 + For information about the features and capabilities of the C# Dev Kit, see the blog post [Announcing C# Dev Kit for Visual Studio Code](https://devblogs.microsoft.com/visualstudio/announcing-csharp-dev-kit-for-visual-studio-code/).
 + The [C# Dev Kit FAQ](https://code.visualstudio.com/docs/csharp/cs-dev-kit-faq#_who-can-use-c-dev-kit) provides answers to common questions about the kit.
 
-
 ## Eligibility
 
-| Subscription Level  |  Channels  | Benefit  | Renewable?    |
+C# Dev Kit builds on the same foundations as Visual Studio for some of its functionality, it uses the same license model as Visual Studio. This means it's free for individuals, as well as academia and open-source development, the same terms that apply to Visual Studio Community. For organizations, the C# Dev Kit is included with Visual Studio Professional and Enterprise subscriptions (as noted below), as well as GitHub Codespaces. **For full terms and details see the [license terms](https://marketplace.visualstudio.com/items/ms-dotnettools.csdevkit/license)** 
+
+| Subscription  |  Channels  | Benefit  | Renewable?    |
 |---------------------|------------|----------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Retail| Available |  N/A  |
 | Visual Studio Enterprise subscription with GitHub Enterprise   | VL | Available |  N/A |
@@ -44,11 +46,12 @@ To learn more about the C# Dev Kit and to install it, check out these resources:
 | Visual Studio Enterprise NFR\* | NFR | Available | N/A |
 | Visual Studio Test Professional (Standard) | VL, Retail | Not available  |  N/A  |
 | MSDN Platforms (Standard) | VL, Retail | Not available  |  N/A  |
-| Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
+| Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Available | N/A |
+|GitHub Codespaces | Any | Available | N/A |
 
 \* *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, BizSpark, Imagine, Imagine Premium, Microsoft Cloud Partner Program, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services Developer, MCT Software & Services.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you might have one or more assigned to a different email address. You need to sign in with that email address to see those subscriptions.
+Not sure which subscription you're using? Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you might have one or more assigned to a different email address. You need to sign in with that email address to see those subscriptions.

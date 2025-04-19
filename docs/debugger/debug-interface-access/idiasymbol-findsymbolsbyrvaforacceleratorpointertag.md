@@ -1,5 +1,5 @@
 ---
-description: "Given a corresponding tag value, this method returns an enumeration of symbols that are contained in this stub function at a specified relative virtual address."
+description: Given a corresponding tag value, this method returns an enumeration of symbols that are contained in this stub function at a specified relative virtual address.
 title: "IDiaSymbol::findSymbolsByRVAForAcceleratorPointerTag"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::findSymbolsByRVAForAcceleratorPointerTag
 
 Given a corresponding tag value, this method returns an enumeration of symbols that are contained in this stub function at a specified relative virtual address.

@@ -8,7 +8,7 @@ ms.author: maiak
 manager: mijacobs
 ms.subservice: extensibility-integration
 monikerRange: "vs-2022"
-feedback_system: GitHub
+
 ---
 # Target a previous version when creating an extension in Visual Studio 2022
 
@@ -36,7 +36,7 @@ Follow these steps on the VSIX project that should target Visual Studio 2019:
 
     Review the file for any other updates that may be necessary.
 
-1. Change the versions of the VS SDK packages that you reference in your project file:
+1. Change the versions of the VSSDK packages that you reference in your project file:
 
     ```diff
     -<PackageReference Include="Microsoft.VisualStudio.SDK" Version="17.0.0-preview.1" />

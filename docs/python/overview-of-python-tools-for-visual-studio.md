@@ -163,7 +163,7 @@ For more information, see [Azure SDK for Python](/azure/python/) and [Azure libr
 
 **Q. Is Python support available with Visual Studio for Mac?**
 
-A. Visual Studio for Mac isn't currently supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
+A. Visual Studio for Mac isn't supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
 **Q. What can I use to build UI with Python?**
 
@@ -171,7 +171,7 @@ A. The main offering in this area is the [Qt Project](https://www.qt.io/qt-for-a
 
 **Q. Can a Python project produce a stand-alone executable?**
 
-A. Python is generally an interpreted language, where code is run on demand in a suitable Python-capable environment such as Visual Studio and web servers. Visual Studio doesn't currently provide the means to create a stand-alone executable, which essentially means a program with an embedded Python interpreter. However, the Python community offers different means to create executables as described on [StackOverflow](https://stackoverflow.com/questions/5458048/how-to-make-a-python-script-standalone-executable-to-run-without-any-dependency). CPython also supports being embedded within a native application, as described on the blog post, [Using CPython's embeddable zip file](https://devblogs.microsoft.com/python/cpython-embeddable-zip-file/).
+A. Python is generally an interpreted language, where code is run on demand in a suitable Python-capable environment such as Visual Studio and web servers. Visual Studio doesn't currently provide the means to create a stand-alone executable, which essentially means a program with an embedded Python interpreter. However, the Python community offers different means to create executables as described on [Stack Overflow](https://stackoverflow.com/questions/5458048/how-to-make-a-python-script-standalone-executable-to-run-without-any-dependency). CPython also supports being embedded within a native application, as described on the blog post, [Using CPython's embeddable zip file](https://devblogs.microsoft.com/python/cpython-embeddable-zip-file/).
 
 ## Related content
 

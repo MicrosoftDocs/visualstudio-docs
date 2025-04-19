@@ -1,7 +1,7 @@
 ---
 description: "Indicates the kind of location information contained in a symbol."
 title: "LocationType"
-ms.date: "11/04/2016"
+ms.date: "07/18/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -12,7 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
-# LocationType
+# `LocationType`
 
 Indicates the kind of location information contained in a symbol.
 
@@ -31,6 +31,7 @@ enum LocationType {
     LocIsIlRel,
     LocInMetaData,
     LocIsConstant,
+    LocIsRegRelAliasIndir,
     LocTypeMax
 };
 ```
@@ -50,18 +51,22 @@ enum LocationType {
 | `LocIsIlRel`        | Location is MSIL-relative.                                 |
 | `LocInMetaData`     | Location is in metadata.                                   |
 | `LocIsConstant`     | Location is in a constant value.                           |
+| `LocIsRegRelAliasIndir` | Location is register-relative, and an alias for part of a user defined type (UDT) . |
 | `LocTypeMax`        | The number of location types in this enumeration.          |
 
 ## Remarks
-The properties available to the [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) interface depend on the symbol's location within the image file. For more information, see [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md).
 
-The values in this enumeration are returned by a call to the [IDiaSymbol::get_locationType](../../debugger/debug-interface-access/idiasymbol-get-locationtype.md) method.
+The properties available to the [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md) interface depend on the symbol's location within the image file. For more information, see [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md).
+
+The values in this enumeration are returned by a call to the [`IDiaSymbol::get_locationType`](../../debugger/debug-interface-access/idiasymbol-get-locationtype.md) method.
 
 ## Requirements
+
 Header: cvconst.h
 
 ## See also
+
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
-- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
-- [IDiaSymbol::get_locationType](../../debugger/debug-interface-access/idiasymbol-get-locationtype.md)
+- [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md)
+- [`IDiaSymbol::get_locationType`](../../debugger/debug-interface-access/idiasymbol-get-locationtype.md)
 - [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md)

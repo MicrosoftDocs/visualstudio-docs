@@ -3,7 +3,7 @@ title: Work with multiple containers using Docker Compose
 author: ghogen
 description: Create and manage multi-container applications with Docker Compose and Container Tools in Visual Studio, including custom launch profiles.
 ms.author: ghogen
-ms.date: 10/18/2023
+ms.date: 2/27/2025
 ms.subservice: container-tools
 ms.topic: tutorial
 ---
@@ -38,22 +38,16 @@ In Visual Studio, create an **ASP.NET Core Web App** project, named `WebFrontEnd
 
 ![Screenshot showing Create ASP.NET Core Web App project.](./media/tutorial-multicontainer/vs-2019/create-web-project1.png)
 
-Don't select **Enable Docker Support**. You add Docker support later in the process.
+Don't select **Enable container support**. You add support for Docker Compose later in the process.
 
 ![Screenshot of the Additional information screen when creating a web project. The option to Enable Docker Support is not selected.](./media/tutorial-multicontainer/vs-2019/create-web-project-additional-information.png)
 
 ::: moniker-end
 ::: moniker range=">=vs-2022"
 
-> [!NOTE]
-> In Visual Studio 2022 17.2 and later, you can use Azure Functions for this project instead.
-
-![Screenshot showing Create ASP.NET Core Web App project.](./media/tutorial-multicontainer/vs-2022/create-web-project.png)
-
 Don't select **Enable Docker Support**. You add Docker support later in the process.
 
-![Screenshot of the Additional information screen when creating a web project. The option to Enable Docker Support is not selected.](./media/tutorial-multicontainer/vs-2022/create-web-project-additional-information.png)
-
+![Screenshot of the Additional information screen when creating a web project. The option to Enable Docker Support is not selected.](./media/tutorial-multicontainer/vs-2022/create-web-project.png)
 ::: moniker-end
 
 ## Create a Web API project
@@ -66,7 +60,10 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 ::: moniker-end
 
 :::moniker range=">=vs-2022"
-1. Add a project to the same solution and call it *WebAPI*. Select **API** as the project type, and clear the checkbox for **Configure for HTTPS**. In this design, we're only using SSL for communication with the client, not for communication from between containers in the same web application. Only `WebFrontEnd` needs HTTPS and the code in the examples assumes that you have cleared that checkbox. In general, the .NET developer certificates used by Visual Studio are only supported for external-to-container requests, not for container-to-container requests.
+1. Add a project to the same solution and call it *MyWebAPI*. Select **API** as the project type, and clear the checkbox for **Configure for HTTPS**.
+
+   > [!NOTE]
+   > In this design, we're only using HTTPS for communication with the client, not for communication from between containers in the same web application. Only `WebFrontEnd` needs HTTPS and the code in the examples assumes that you have cleared that checkbox. In general, the .NET developer certificates used by Visual Studio are only supported for external-to-container requests, not for container-to-container requests.
 
    ![Screenshot of creating the Web API project.](media/tutorial-multicontainer/vs-2022/create-web-api-project.png)
 
@@ -289,12 +286,25 @@ Congratulations, you're running a Docker Compose application with a custom Docke
    ```csharp
    public async Task OnGet()
    {
+      // Call *mywebapi*, and display its response in the page
       using (var client = new System.Net.Http.HttpClient())
       {
-         // Call *mywebapi*, and display its response in the page
          var request = new System.Net.Http.HttpRequestMessage();
-         // webapi is the container name
-         request.RequestUri = new Uri("http://webapi/Counter");
+
+         // A delay is a quick and dirty way to work around the fact that
+         // the mywebapi service might not be immediately ready on startup.
+         // See the text for some ideas on how you can improve this.
+         // Uncomment if not using healthcheck (Visual Studio 17.13 or later)
+         // await System.Threading.Tasks.Task.Delay(10000);
+
+         // mywebapi is the service name, as listed in docker-compose.yml.
+         // Docker Compose creates a default network with the services
+         // listed in docker-compose.yml exposed as host names.
+         // The port 8080 is exposed in the WebAPI Dockerfile.
+         // If your WebAPI is exposed on port 80 (the default for HTTP, used
+         // with earlier versions of the generated Dockerfile), change
+         // or delete the port number here.
+         request.RequestUri = new Uri("http://mywebapi:8080/Counter");
          var response = await client.SendAsync(request);
          string counter = await response.Content.ReadAsStringAsync();
          ViewData["Message"] = $"Counter value from cache :{counter}";
@@ -302,8 +312,12 @@ Congratulations, you're running a Docker Compose application with a custom Docke
    }
    ```
 
-    > [!NOTE]
-    > In real-world code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
+   > [!NOTE]
+   > In real-world code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
+
+   The URI given references a service name defined in the *docker-compose.yml* file. Docker Compose sets up a default network for communication between containers using the listed service names as hosts.
+
+   The code shown here works with .NET 8 and later, which sets up a user account in the Dockerfile without administrator privileges, and exposes port 8080 because the HTTP default port 80 is not accessible without elevated privilege.
 
 1. In the `Index.cshtml` file, add a line to display `ViewData["Message"]` so that the file looks like the following code:
 
@@ -321,7 +335,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
       </div>
       ```
 
-      This code displays the value of the counter returned from the Web API project.
+      This code displays the value of the counter returned from the Web API project. It increments every time the user accesses or refreshes the page.
 
 ## Add Docker Compose support
 
@@ -329,7 +343,11 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
 1. Choose **Docker Compose**.
 
-1. Choose your Target OS, for example, Linux.
+1. **Visual Studio 17.12 and later** Choose the scaffolding options for the WebFrontEnd project.
+
+   ![Screenshot showing Container Scaffolding Options dialog for the WebFrontEnd project.](media/tutorial-multicontainer/vs-2022/webfrontend-container-options.png)
+
+   **Visual Studio 17.11 and earlier** Choose your Target OS, for example, Linux.
 
    ![Screenshot of choosing the Target OS.](media/tutorial-multicontainer/docker-tutorial-docker-support-options.PNG)
 
@@ -347,8 +365,6 @@ Congratulations, you're running a Docker Compose application with a custom Docke
           context: .
           dockerfile: WebFrontEnd/Dockerfile
    ```
-
-   The `version` specified in the first line is the [Docker Compose file version](https://docs.docker.com/compose/compose-file/#version-top-level-element). You normally shouldn't change it, since it's used by the tools to understand how to interpret the file.
 
    The `.dockerignore` file contains file types and extensions that you don't want Docker to include in the container. These files are generally associated with the development environment and source control, not part of the app or service you're developing.
 
@@ -384,6 +400,61 @@ Congratulations, you're running a Docker Compose application with a custom Docke
    ```
 
    Make sure the indentation is at the same level as the other two services.
+
+1. (Visual Studio 17.13 or later) The dependent services demonstrate a common problem. The HTTP request in the front end's main page could run immediately on application launch, before the `mywebapi` service is ready to receive web requests. If you're using Visual Studio 17.13 or later, you can use the Docker Compose features `depends_on` and `healthcheck` in *docker-compose.yml* to make the projects start in the right sequence, and have them be ready to serve requests when required. See [Docker Compose - Startup order](https://docs.docker.com/compose/how-tos/startup-order/).
+
+    ```yml
+   services:
+      webfrontend:
+         image: ${DOCKER_REGISTRY-}webfrontend
+         depends_on:
+            mywebapi:
+              condition: service_healthy
+         build:
+            context: .
+            dockerfile: WebFrontEnd/Dockerfile
+
+      mywebapi:
+         image: ${DOCKER_REGISTRY-}mywebapi
+         depends_on:
+            redis:
+              condition: service_started
+         healthcheck:
+            test: curl --fail http://mywebapi:8080/Counter || exit 1
+            interval: 20s
+            timeout: 20s
+            retries: 5
+         build:
+            context: .
+            dockerfile: MyWebAPI/Dockerfile
+
+      redis:
+         image: redis
+   ```
+
+   In this example, the health check uses `curl` to verify that the service is ready to process requests. If the image you're using doesn't have `curl` installed, add lines to the `base` stage of the MyWebAPI Dockerfile to install it. This step requires elevated privileges, but you can restore the normal user privileges after installing it as shown here (for the Debian images used in this example):
+
+   ```dockerfile
+   USER root
+   RUN apt-get update && apt-get install -y curl
+   USER $APP_UID
+   ```
+
+   > [!NOTE]
+   > If you're using a Linux distro, like Alpine, that doesn't support `apt-get`, try `RUN apk --no-cache add curl` instead.
+
+   These Docker Compose features require a property setting in the Docker Compose project file (`.dcproj`). Set the property `DependencyAwareStart` to true:
+
+   ```xml
+   <PropertyGroup>
+      <!-- existing properties -->
+      <DependencyAwareStart>true</DependencyAwareStart>
+   </PropertyGroup>
+   ```
+
+   This property activates a different way of starting the containers for debugging that supports the service dependency features.
+
+   With these changes, the `webfrontend` service will not start until `mywebapi` starts and successfully handles a web request.
 
 1. The first project that you add container orchestration to is set up to be launched when you run or debug. You can configure the launch action in the **Project Properties** for the Docker Compose project. On the Docker Compose project node, right-click to open the context menu, and then choose **Properties**, or use **Alt**+**Enter**. For example, you can change the page that is loaded by customizing the **Service URL** property.
 

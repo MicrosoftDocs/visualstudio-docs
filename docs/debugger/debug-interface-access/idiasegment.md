@@ -1,6 +1,6 @@
 ---
-description: "Maps data from the section number to segments of address space."
-title: "IDiaSegment"
+description: Maps data from the section number to segments of address space.
+title: IDiaSegment
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,15 +12,14 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSegment
 
 Maps data from the section number to segments of address space.
 
 ## Syntax
 
-```
-IDiaSegment : IUnknown
-```
+`IDiaSegment : IUnknown`
 
 ## Methods in Vtable Order
 The following table shows the methods of `IDiaSegment`.
@@ -38,7 +37,7 @@ The following table shows the methods of `IDiaSegment`.
 |[IDiaSegment::get_virtualAddress](../../debugger/debug-interface-access/idiasegment-get-virtualaddress.md)|Retrieves the virtual address (VA) of the beginning of the section.|
 
 ## Remarks
-Because the DIA SDK already performs translations from the section offset to relative virtual addresses, most applications will not make use of the information in the segment map.
+Because the Debug Interface Access (DIA) SDK already performs translations from the section offset to relative virtual addresses, most applications will not make use of the information in the segment map.
 
 ## Notes for Callers
 Obtain this interface by calling the [IDiaEnumSegments::Item](../../debugger/debug-interface-access/idiaenumsegments-item.md) or [IDiaEnumSegments::Next](../../debugger/debug-interface-access/idiaenumsegments-next.md) methods. See the example for details.

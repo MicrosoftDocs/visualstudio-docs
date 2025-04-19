@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_language
 
 Retrieves the language of the source.
@@ -19,7 +20,7 @@ Retrieves the language of the source.
 ## Syntax
 
 ```C++
-HRESULT get_language ( 
+HRESULT get_language ( 
    DWORD* pRetVal
 );
 ```

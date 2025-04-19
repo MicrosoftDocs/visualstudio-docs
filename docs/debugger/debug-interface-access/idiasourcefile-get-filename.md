@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the source file name."
+description: Retrieves the source file name.
 title: "IDiaSourceFile::get_fileName"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSourceFile::get_fileName
 
 Retrieves the source file name.
@@ -19,7 +20,7 @@ Retrieves the source file name.
 ## Syntax
 
 ```C++
-HRESULT get_fileName ( 
+HRESULT get_fileName ( 
    BSTR* pRetVal
 );
 ```

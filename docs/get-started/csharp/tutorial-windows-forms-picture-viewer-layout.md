@@ -1,15 +1,15 @@
 ---
-title: Create WinForms projects for picture viewer apps
-description: Create a C# or VB WinForms project for a picture viewer application in the Visual Studio integrated development environment (IDE).
+title: Create a WinForms project for a picture viewer app
+description: Create a C# or VB Windows Forms (.NET Framework) project for a picture viewer application in the Visual Studio integrated development environment (IDE).
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial
-ms.date: 03/29/2024
+ms.date: 9/19/2024
 #customer intent: As a developer, I want to learn how to use Visual Studio to create C# or VB WinForms projects, starting with adding a layout element.
 ---
-# Tutorial: Create a picture viewer Windows Forms app in Visual Studio
+# Tutorial: Create a picture viewer Windows Forms App (.NET Framework)
 
 In this series of three tutorials, you create a Windows Forms application that loads a picture and displays it.
 The Visual Studio Integrated Design Environment (IDE) provides the tools you need to create the app.
@@ -20,6 +20,8 @@ In this first tutorial, you learn how to:
 > - Create a Visual Studio project that uses Windows Forms
 > - Add a layout element
 > - Run your application
+
+To create a new Windows Forms App with .NET, follow the tutorial [Create a Windows Forms app with .NET](/dotnet/desktop/winforms/get-started/create-app-visual-studio/). See the [Desktop Guide on Windows Forms .NET](/dotnet/desktop/winforms/overview/) to learn more.
 
 ## Prerequisites
 

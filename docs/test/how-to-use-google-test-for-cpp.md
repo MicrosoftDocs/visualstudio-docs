@@ -58,7 +58,7 @@ In your test *.cpp* file, add any needed `#include` directives to make your prog
 
 ## Write and run tests
 
-You're now ready to write and run Google Tests. For information about the test macros, see the [Google Test primer](https://github.com/google/googletest/blob/master/docs/primer.md). For information about discovering, running, and grouping your tests by using **Test Explorer**, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md).
+You're now ready to write and run Google Tests. For information about the test macros, see the [Google Test primer](https://github.com/google/googletest/blob/main/docs/primer.md). For information about discovering, running, and grouping your tests by using **Test Explorer**, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md).
 
 ## Related content
 

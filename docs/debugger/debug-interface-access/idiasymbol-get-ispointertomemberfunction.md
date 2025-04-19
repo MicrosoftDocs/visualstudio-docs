@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_isPointerToMemberFunction
 
 Specifies whether this symbol is a pointer to a member function.

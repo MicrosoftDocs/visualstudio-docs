@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a specified symbol type that contains, or is closest to, a specified relative virtual address (RVA)."
+description: Retrieves a specified symbol type that contains, or is closest to, a specified relative virtual address (RVA).
 title: "IDiaSession::findSymbolByRVA"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findSymbolByRVA
 
 Retrieves a specified symbol type that contains, or is closest to, a specified relative virtual address (RVA).
@@ -19,7 +20,7 @@ Retrieves a specified symbol type that contains, or is closest to, a specified r
 ## Syntax
 
 ```C++
-HRESULT findSymbolByRVA ( 
+HRESULT findSymbolByRVA ( 
    DWORD        rva,
    SymTagEnum   symtag,
    IDiaSymbol** ppSymbol

@@ -53,8 +53,6 @@ The quiz contains <xref:System.Windows.Forms.NumericUpDown> controls that quiz t
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step5_6/vb/form1.vb" id="Snippet11":::
    ---
 
-   [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
-
    In this code:
 
    - The first line declares the method. It includes a parameter that's named `sender`. In C#, the parameter is `object sender`. In Visual Basic, it's `sender As System.Object`. This parameter refers to the object whose event is firing, which is known as the sender. In this case, the sender object is the NumericUpDown control. 

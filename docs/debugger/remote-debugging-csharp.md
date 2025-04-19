@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug a C# or VB project"
 description: Learn how to debug a Visual Studio C# or Visual Basic application from a remote computer by following these step-by-step instructions.
-ms.date: "12/17/2023"
+ms.date: "12/18/2024"
 ms.topic: "conceptual"
 dev_langs:
   - "C++"
@@ -29,7 +29,7 @@ For information about remote debugging Universal Windows Apps (UWP), see [Debug 
 The remote debugger is supported on Windows 7 and newer and on versions of Windows Server starting with Windows Server 2008 Service Pack 2. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
 
 > [!NOTE]
-> Debugging between two computers connected through a proxy is not supported. Debugging over a high latency or low bandwidth connection, such as dialup Internet, or over the Internet across countries/regions is not recommended and may fail or be unacceptably slow.
+> Debugging between two computers connected through a proxy isn't supported. Debugging over a high latency or low bandwidth connection, such as dialup Internet, or over the Internet across countries/regions isn't recommended and may fail or be unacceptably slow.
 
 ## Download and Install the remote tools
 
@@ -40,6 +40,8 @@ The remote debugger is supported on Windows 7 and newer and on versions of Windo
 
 ## <a name="BKMK_setup"></a> Set up the remote debugger
 
+After you install the remote debugger, follow these steps.
+
 [!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
 
 > [!NOTE]
@@ -47,11 +49,11 @@ The remote debugger is supported on Windows 7 and newer and on versions of Windo
 
 ## <a name="remote_csharp"></a> Remote debug the project
 
-The debugger cannot deploy Visual C# or Visual Basic desktop applications to a remote machine, but you can still debug them remotely as follows. The following procedure assumes that you want to debug it on a computer named **MJO-DL**, as shown in the illustration below.
+The debugger can't deploy Visual C# or Visual Basic desktop applications to a remote machine, but you can still debug them remotely as follows. The following procedure assumes that you want to debug it on a computer named **MJO-DL**, as shown in the illustration below.
 
 1. Create a WPF project named **MyWpf**.
 
-   If you are trying to remote debug a MAUI app instead of WPF, see [Remote debug a .NET MAUI app on Windows](#remote-debug-a-net-maui-app-on-windows).
+   If you're trying to remote debug a MAUI app instead of WPF, see [Remote debug a .NET MAUI app on Windows](#remote-debug-a-net-maui-app-on-windows).
 
 2. Set a breakpoint somewhere in the code that is easily reached.
 
@@ -64,12 +66,15 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
     ::: moniker range="vs-2022"
     For C# projects targeting .NET Core or .NET 5+, starting in Visual Studio 2022, choose the **Debug launch profiles UI** from the **Debug** tab to configure settings for remote debugging.
 
-    ![Screenshot of the Debug launch profile UI in the Visual Studio Project Properties for C# and .NET.](../debugger/media/vs-2022/remote-debugger-csharp.png)
+    ![Screenshot of the Debug launch profile UI in the Visual Studio Project Properties for C# and .NET.](../debugger/media/vs-2022/remote-debugger-csharp-launch-profile.png)
 
-    Otherwise, you change remote debug settings directly in the **Debug** tab.
+    Otherwise, for .NET Framework, you change remote debug settings directly in the **Debug** tab.
+
+    ![Screenshot of the Debug tab in the Visual Studio Project Properties. The Use remote machine property is set to 'MJO-DL:4026'.](../debugger/media/vs-2022/remote-debugger-csharp.png)
     ::: moniker-end
-
+    ::: moniker range="vs-2019"
     ![Screenshot of the Debug tab in the Visual Studio Project Properties. The Use remote machine property is set to 'MJO-DL:4022'.](../debugger/media/remotedebuggercsharp.png)
+    ::: moniker-end
 
 5. Make sure the **Working directory** text box is empty.
 
@@ -83,7 +88,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
     **MJO-DL:4024** on Visual Studio 2019
     ::: moniker-end
 
-7. Make sure that **Enable native code debugging** is not selected.
+7. Make sure that **Enable native code debugging** isn't selected.
 
 8. Build the project.
 
@@ -92,7 +97,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 10. Copy the executable that you just built from your Visual Studio computer to the newly created folder on the remote computer.
 
     > [!CAUTION]
-    > Do not make changes to the code or rebuild (or you must repeat this step). The executable you copied to the remote machine must exactly match your local source and symbols.
+    > Don't make changes to the code or rebuild (or you must repeat this step). The executable you copied to the remote machine must exactly match your local source and symbols.
 
     You can copy the project manually, use XCopy, Robocopy, PowerShell, or other options.
 

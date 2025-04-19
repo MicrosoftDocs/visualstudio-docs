@@ -11,6 +11,8 @@ description: Use Bridge to Kubernetes to run and debug locally in a single pod w
 
 # Use Bridge to Kubernetes with AKS
 
+[!INCLUDE [Bridge to Kubernetes deprecation note](./includes/deprecation.md)]
+
 In this tutorial, you use a specific AKS sample microservices web app to learn how to use Bridge to Kubernetes to debug locally in a single pod that's part of an Azure Kubernetes Service (AKS) cluster.
 
 ## Before you begin

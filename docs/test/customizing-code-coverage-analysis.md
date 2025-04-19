@@ -1,7 +1,7 @@
 ---
 title: Customizing Code Coverage Analysis
 description: Learn how to use the ExcludeFromCodeCoverageAttribute attribute to exclude test code from coverage results. You can include assemblies outside your solution.
-ms.date: 02/20/2024
+ms.date: 12/13/2024
 ms.topic: conceptual
 ms.author: mikejo
 manager: mijacobs
@@ -15,6 +15,9 @@ By default, code coverage analyzes all solution assemblies that are loaded durin
 To exclude test code from the code coverage results and only include application code, add the <xref:System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute> attribute to your test class.
 
 To include assemblies that aren't part of your solution, obtain the *.pdb* files for these assemblies and copy them into the same folder as the assembly *.dll* files.
+
+>[!NOTE]
+> Code coverage is available only with Visual Studio Enterprise. For .NET code coverage, you can alternatively use the command-line tool, [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage).
 
 ## Run settings file
 
@@ -105,7 +108,7 @@ The following table shows the various ways that assemblies and members can be ma
 ::: moniker range=">=vs-2022"
 ### Code coverage formats
 
-By default code coverage is collected and saved in a `.coverage` file. You can also collect coverage using other formats including Xml and Cobertura. Different formats may be useful across different editors and pipelines. You can enable this in runsettings by adding `<Format>Cobertura</Format>` or `<Format>Xml</Format>` in the [DataCollector configuration section in your runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#codecoverage-data-collector). This format can be viewed in the code coverage results window in Visual Studio Enterprise.
+By default code coverage is collected and saved in a `.coverage` file. You can also collect coverage using other formats including XML and Cobertura. Different formats may be useful across different editors and pipelines. You can enable this in runsettings by adding `<Format>Cobertura</Format>` or `<Format>Xml</Format>` in the [DataCollector configuration section in your runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#codecoverage-data-collector). This format can be viewed in the code coverage results window in Visual Studio Enterprise.
 
 You can also specify different formats from the command-line by either specifying it in the runsettings file or specifying it in a parameter. For example, the dotnet command-line use `dotnet test --collect:"Code Coverage;Format=Cobertura"`. For vstest use `vstest.console.exe /collect:"Code Coverage;Format=Cobertura"`. The collect parameter will override the format specified in runsettings.
 ::: moniker-end
@@ -114,8 +117,6 @@ You can also specify different formats from the command-line by either specifyin
 ### Static and dynamic native instrumentation
 
 In Visual Studio 2022 version 17.2, we added the option to instrument native binary statically (on disk). In previous versions, we supported only dynamic instrumentation, which was often not able to instrument methods. Static native instrumentation is more stable and it is recommended. Static native instrumentation requires enabling the [/PROFILE](/cpp/build/reference/profile-performance-tools-profiler) link option for all native projects for which you need code coverage collection. 
-
-You can enable native static instrumentation by enabling the preview feature **Code Coverage native static instrumentation** in  **Tools > Options > Environment > Preview Features**.
 
 You can also enable native static instrumentation in runsettings by adding `<EnableStaticNativeInstrumentation>True</EnableStaticNativeInstrumentation>` under `<CodeCoverage>` tag. Use this method for command line scenarios.
 
@@ -137,6 +138,32 @@ When static native instrumentation is enabled, Visual Studio will search and ins
 ```
 
 ::: moniker-end
+
+### Include or exclude test assemblies
+
+To include or exclude test assemblies from the coverage report, you can use the `<IncludeTestAssembly>` element in the `<Configuration>` section of your .runsettings file.
+
+In this example, setting `<IncludeTestAssembly>` to `False` will exclude test assemblies from the code coverage report. If you want to include test assemblies, set it to `True`.
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File name extension must be .runsettings -->
+<RunSettings>
+  <DataCollectionRunSettings>
+    <DataCollectors>
+      <DataCollector friendlyName="Code Coverage" uri="datacollector://Microsoft/CodeCoverage/2.0" assemblyQualifiedName="Microsoft.VisualStudio.Coverage.DynamicCoverageDataCollector, Microsoft.VisualStudio.TraceCollector, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+        <Configuration>
+          <IncludeTestAssembly>False</IncludeTestAssembly>
+          ...
+        </Configuration>
+      </DataCollector>
+    </DataCollectors>
+  </DataCollectionRunSettings>
+</RunSettings>
+```
+
+> [!NOTE]
+> The default value of `IncludeTestAssembly` in [VSTest](/visualstudio/test/vstest-console-options) is `true`, while it is `false` in [Microsoft.Testing.Platform](/dotnet/core/testing/microsoft-testing-platform-extensions-code-coverage). This means that test projects are included by default. For more information, see [Code Coverage configuration](https://github.com/microsoft/codecoverage/blob/main/docs/configuration.md).
 
 ### Regular expressions
 
@@ -198,6 +225,7 @@ For more information about regular expressions, see [Use regular expressions in 
 Copy this code and edit it to suit your needs.
 
 ::: moniker range=">=vs-2022"
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <!-- File name extension must be .runsettings -->
@@ -207,6 +235,7 @@ Copy this code and edit it to suit your needs.
       <DataCollector friendlyName="Code Coverage" uri="datacollector://Microsoft/CodeCoverage/2.0" assemblyQualifiedName="Microsoft.VisualStudio.Coverage.DynamicCoverageDataCollector, Microsoft.VisualStudio.TraceCollector, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
         <Configuration>
           <CodeCoverage>
+            <Format>coverage</Format>
 <!--
 Additional paths to search for .pdb (symbol) files. Symbols must be found for modules to be instrumented.
 If .pdb files are in the same folder as the .dll or .exe files, they are automatically found. Otherwise, specify them here.
@@ -314,7 +343,8 @@ Included items must then not match any entries in the exclude list to remain inc
             <EnableDynamicNativeInstrumentation>True</EnableDynamicNativeInstrumentation>
             <!-- When set to True, instrumented binaries on disk are removed and original files are restored. -->
             <EnableStaticNativeInstrumentationRestore>True</EnableStaticNativeInstrumentationRestore>
-
+            <!-- When set to False, test assemblies will not be added to the coverage report. -->
+            <IncludeTestAssembly>True</IncludeTestAssembly>
           </CodeCoverage>
         </Configuration>
       </DataCollector>
@@ -322,9 +352,11 @@ Included items must then not match any entries in the exclude list to remain inc
   </DataCollectionRunSettings>
 </RunSettings>
 ```
+
 ::: moniker-end
 
 ::: moniker range="vs-2019"
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <!-- File name extension must be .runsettings -->
@@ -443,6 +475,7 @@ Included items must then not match any entries in the exclude list to remain inc
   </DataCollectionRunSettings>
 </RunSettings>
 ```
+
 ::: moniker-end
 
 ## Related content

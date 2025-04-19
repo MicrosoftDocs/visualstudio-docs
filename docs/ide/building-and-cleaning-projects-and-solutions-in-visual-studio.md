@@ -1,7 +1,7 @@
 ---
 title: Build and clean projects and solutions
 description: Build, rebuild, or clean some of your projects or project items, or all of your projects, in your Visual Studio project solution.
-ms.date: 10/17/2023
+ms.date: 10/3/2024
 ms.subservice: compile-build
 ms.topic: conceptual
 f1_keywords:
@@ -27,12 +27,11 @@ manager: mijacobs
 By using the procedures in this topic, you can build, rebuild, or clean all or some of the projects or project items in a solution. For a step-by-step tutorial, see [Walkthrough: Building an application](../ide/walkthrough-building-an-application.md).
 
 > [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Build and clean projects and solutions in Visual Studio for Mac](/visualstudio/mac/building-and-cleaning-projects-and-solutions).
-
-> [!NOTE]
 > The UI in your edition of Visual Studio might differ from what this topic describes, depending on your active settings. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools** > **Import and Export Settings**, and then choose **Reset all settings**.
 
-## To build, rebuild, or clean an entire solution
+## To build, rebuild, or clean a solution
+
+Use this procedure to build the solution in the current configuration (for example, `Debug` or `Release`). If you want to build multiple configurations at once, see [Batch build](#batch-build).
 
 1. In **Solution Explorer**, choose or open the solution.
 
@@ -73,6 +72,21 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
 
     When this check box is cleared, all projects, their dependencies, and the solution files are built when you run any of the preceding commands.
 
+## Batch build
+
+When you build using **Build solution** or **Build project** options, Visual Studio builds the current configuration. You can use the batch build command to build multiple configurations in one operation.
+
+From the menu bar, choose **Build** > **Batch build**. The **Batch build** dialog box appears.
+
+:::image type="content" source="media/building-and-cleaning-projects-and-solutions/batch-build.png" border="false" alt-text="Screenshot of the Batch build dialog box.":::
+
+Select the desired projects and configurations and use the buttons to build, rebuild, or clean. The build operations start immediately, and all the output appears in the **Output** window.
+
+The selections you made are remembered the next time you open the **Batch build** dialog box.
+
+> [!NOTE]
+> Batch build is not available for all project types. See [Build multiple configurations simultaneously](how-to-build-multiple-configurations-simultaneously.md).
+
 ## To build only the selected Visual C++ project
 
 Choose a C++ project, and then, on the menu bar, choose **Build** > **Project Only**, and one of the following commands:
@@ -111,4 +125,3 @@ Perform either of the following steps:
 - [C/C++ building reference](/cpp/build/reference/c-cpp-building-reference)
 - [Devenv command line switches](../ide/reference/devenv-command-line-switches.md)
 - [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)
-- [Build and clean projects and solutions (Visual Studio for Mac)](/visualstudio/mac/building-and-cleaning-projects-and-solutions)

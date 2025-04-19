@@ -1,6 +1,6 @@
 ---
-description: "Exposes the properties of a stack frame."
-title: "IDiaStackFrame"
+description: Exposes the properties of a stack frame.
+title: IDiaStackFrame
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,15 +12,14 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackFrame
 
 Exposes the properties of a stack frame.
 
 ## Syntax
 
-```
-IDiaStackFrame : IUnknown
-```
+`IDiaStackFrame : IUnknown`
 
 ## Methods in Vtable Order
 The following are methods supported by this interface:

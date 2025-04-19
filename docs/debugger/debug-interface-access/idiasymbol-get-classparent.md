@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a reference to the class parent of the symbol."
+description: Retrieves a reference to the class parent of the symbol.
 title: "IDiaSymbol::get_classParent"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_classParent
 
 Retrieves a reference to the class parent of the symbol.
@@ -19,7 +20,7 @@ Retrieves a reference to the class parent of the symbol.
 ## Syntax
 
 ```C++
-HRESULT get_classParent ( 
+HRESULT get_classParent ( 
    IDiaSymbol** pRetVal
 );
 ```

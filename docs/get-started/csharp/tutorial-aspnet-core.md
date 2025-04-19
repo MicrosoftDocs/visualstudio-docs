@@ -6,11 +6,11 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial
-ms.date: 11/17/2023
-
+ms.date: 10/17/2024
 dev_langs:
   - CSharp
 ms.devlang: csharp
+#customer intent: As a developer, I want to create a ASP.NET Core web application with C# in Visual Studio.
 ---
 # Tutorial: Get started with C# and ASP.NET Core in Visual Studio
 
@@ -28,11 +28,10 @@ This tutorial shows you how to:
 
 ## Prerequisites
 
-You need Visual Studio to complete this tutorial. Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-tutorial-create-csharp-aspnetcore-web-app-page-cta) for a free version.
+To complete this tutorial, you need:
 
-- For more information about upgrading to the latest Visual Studio release, see [Visual Studio updates](../../install/update-visual-studio.md).
-
-- To customize your Visual Studio experience, see [personalize the Visual Studio IDE and Editor](../../ide/personalizing-the-visual-studio-ide.md).
+- Visual Studio installed. Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-tutorial-create-csharp-aspnetcore-web-app-page-cta) for a free version. For more information about upgrading to the latest Visual Studio release, see [Visual Studio updates](../../install/update-visual-studio.md).
+- The **ASP.NET and web development** workload installed. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../../install/modify-visual-studio.md#change-workloads-or-individual-components).
 
 ## Create a project
 
@@ -49,21 +48,6 @@ First, you create an ASP.NET Core project. The project type comes with all the t
    After you apply the language, platform, and project type filters, select the **ASP.NET Core Web App** template, and then select **Next**.
 
    :::image type="content" source="./media/vs-2019/csharp-create-new-project-aspnet-core.png" alt-text="Screenshot that shows the ASP.NET Core Web App project template highlighted in the New Project dialog box in Visual Studio." lightbox="./media/vs-2019/csharp-create-new-project-aspnet-core.png":::
-
-   > [!NOTE]
-   > If you don't see the **ASP.NET Core Web App** template, you can install it from the **Create a new project** window.
-   > 
-   > In the **Not finding what you're looking for?** message at the bottom of the list of templates, select the **Install more tools and features** link.
-   >
-   > ![Screenshot shows the Install more tools and features link that is part of the Not finding what you're looking for message.](../../get-started/media/vs-2019/not-finding-what-looking-for.png)
-   >
-   > In the Visual Studio Installer, select **ASP.NET and web development**.
-   >
-   > ![Screenshot shows the dot NET Core cross-platform development workload in the Visual Studio Installer.](../../get-started/media/aspnet-core-web-dev-workload.png)
-   >
-   > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Select **Continue** to install the workload.
-   >
-   > Return to step 2 in this "[Create a project](#create-a-project)" procedure.
 
 1. In the **Configure your new project** window, enter **MyCoreApp** in the **Project name** field. Then, select **Next**.
 
@@ -94,26 +78,11 @@ Visual Studio opens your new project.
 
    :::image type="content" source="media/vs-2022/start-window-create-new-project.png" border="false" alt-text="Screenshot shows the start window for Visual Studio. Create a new project option is highlighted.":::
 
-1. In the **Create a new project** window, select **C#** from the Language list. Next, select **Windows** from the platform list, and **Web** from the project types list.
+1. In the **Create a new project** window, select **C#** from the Language list. Next, select **Windows** from the **All platforms** list, and **Web** from the **All project types** list.
 
-   After you apply the language, platform, and project type filters, select the **ASP.NET Core Web App** template, and then select **Next**.
+   After you apply the language, platform, and project type filters, select the **ASP.NET Core Web App (Razor Pages)** template, and then select **Next**.
 
    :::image type="content" source="media/vs-2022/csharp-create-new-project-aspnet-core.png" border="false" alt-text="Screenshot that shows the ASP.NET Core Web App project template selected and highlighted on the Create a new project page." lightbox="media/vs-2022/csharp-create-new-project-aspnet-core.png":::
-
-   > [!NOTE]
-   > If you don't see the **ASP.NET Core Web App** template, you can install it from the **Create a new project** window.
-   > 
-   > In the **Not finding what you're looking for?** message at the bottom of the list of templates, select the **Install more tools and features** link.
-   >
-   > :::image type="content" source="media/vs-2022/not-finding-what-looking-for.png" alt-text="Screenshot shows the Install more tools and features link that is part of the Not finding what you're looking for message.":::
-   >
-   > In the Visual Studio Installer, select the **ASP.NET and web development** workload.
-   >
-   > :::image type="content" source="media/vs-2022/aspnet-core-web-dev-workload.png" alt-text="Screenshot shows the ASP.NET and web development workload in the Visual Studio Installer.":::
-   >
-   > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Select **Continue** to install the workload.
-   > 
-   > Return to step 2 in this "[Create a project](#create-a-project)" procedure.
 
 1. In the **Configure your new project** window, enter **MyCoreApp** in the **Project name** field. Then, select **Next**.
 
@@ -121,16 +90,16 @@ Visual Studio opens your new project.
 
 1. In the **Additional information** window, verify that **.NET 8.0** appears in the **Target Framework** field.
 
-   From this window, you can enable Docker support and add authentication support. The drop-down menu for **Authentication Type** has the following four options:
+   From this window, you can enable container support and add authentication support. The drop-down menu for **Authentication Type** has the following four options:
 
    - **None**: No authentication.
    - **Individual accounts**: These authentications are stored in a local or Azure-based database.
    - **Microsoft identity platform**: This option uses Microsoft Entra ID or Microsoft 365 for authentication.
    - **Windows**: Suitable for intranet applications.
 
-   Leave the **Enable Docker** box unchecked, and select **None** for Authentication Type.
+   Leave the **Enable container support** box unchecked, and select **None** for Authentication Type.
 
-   :::image type="content" source="media/vs-2022/aspnet-core-additional-information.png" border="false" alt-text="Screenshot that shows the default settings in the Additional information window where the target framework is set to .NET 8.0." lightbox="media/vs-2022/aspnet-core-additional-information.png":::
+   :::image type="content" source="media/vs-2022/aspnet-core-enable-container-window.png" border="false" alt-text="Screenshot that shows the default settings in the Additional information window where the target framework is set to .NET 8.0." lightbox="media/vs-2022/aspnet-core-additional-information.png":::
 
 1. Select **Create**.
 
@@ -309,14 +278,13 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 ## Run, debug, and make changes
 
-1. In the toolbar, select the **IIS Express** button to build and run the app in debug mode. Alternatively, press **F5**, or go to **Debug** > **Start Debugging** from the menu bar.
+1. In the toolbar, select the **https** button to build and run the app in debug mode. Alternatively, press **F5**, or go to **Debug** > **Start Debugging** from the menu bar.
 
-   :::image type="content" source="media/vs-2022/csharp-aspnet-razor-iis-express.png" alt-text="Screenshot shows the I I S Express button highlighted in the toolbar in Visual Studio.":::
+   :::image type="content" source="media/vs-2022/aspnet-core-https-build-run.png" alt-text="Screenshot shows the https button highlighted in the toolbar in Visual Studio.":::
 
    > [!NOTE]
-   > If you get an error message that says **Unable to connect to web server 'IIS Express'**, close Visual Studio and then relaunch the program as an administrator. You can do this task by right-clicking the Visual Studio icon from the Start Menu, and then selecting the **Run as administrator** option from the context menu.
-   >
-   > You might also get a message that asks if you want to accept an IIS SSL Express certificate. To view the code in a web browser, select **Yes**, and then select **Yes** if you receive a follow-up security warning message.
+   > You might also get a message that asks if you want to accept an ASP.NET Core SSL certificate. To view the code in a web browser, select **Yes**, and then select **Yes** if you receive a follow-up security warning message.
+   > Learn more about [enforcing SSL in ASP.NET Core](/aspnet/core/security/enforcing-ssl).
 
 1. Visual Studio launches a browser window. You should then see **Home** and **Privacy** pages in the menu bar.
 
@@ -347,7 +315,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
    - The first argument for the method specifies how the date should be displayed. This example uses the format specifier (`d`) which indicates the short date format.
    - The second argument is the [CultureInfo](/dotnet/api/system.globalization.cultureinfo) object that specifies the culture or region for the date. The second argument determines, among other things, the language of any words in the date, and the type of separators used.
 
-   Change the body of the `OnGet()` method to the following code:
+   Change the body of the `OnGet()` method in **Privacy.cshtml.cs** to the following code:
 
    ```csharp
    public void OnGet()
@@ -391,9 +359,9 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-index-cshtml-page-hello-world.png" alt-text="Screenshot shows the Index.cshtml file in the Visual Studio Code editor with the 'Welcome' text changed to 'Hello World!'.":::
     
-1. Select **IIS Express** or press **Ctrl**+**F5** to run the app and open it in a web browser.
+1. Select **https** or press **Ctrl**+**F5** to run the app and open it in a web browser.
 
-   :::image type="content" source="media/vs-2022/csharp-aspnet-generic-iis-button.png" alt-text="Screenshot shows the IIS Express button highlighted in the toolbar for Visual Studio.":::
+   :::image type="content" source="media/vs-2022/csharp-aspnet-core-https-button.png" alt-text="Screenshot shows the https button highlighted in the toolbar for Visual Studio.":::
 
 1. In the web browser, you see your new changes on the **Home** page.
 
@@ -415,6 +383,7 @@ Or, learn how to containerize your web app with Docker:
 > [!div class="nextstepaction"]
 > [Container Tools in Visual Studio](../../containers/overview.md)
 
-## See also
+## Related links
 
-[Publish your web app to Azure App Service by using Visual Studio](../../deployment/quickstart-deploy-aspnet-web-app.md)
+- [Publish your web app to Azure App Service by using Visual Studio](../../deployment/quickstart-deploy-aspnet-web-app.md)
+- [Personalize the Visual Studio IDE and Editor](../../ide/personalizing-the-visual-studio-ide.md)

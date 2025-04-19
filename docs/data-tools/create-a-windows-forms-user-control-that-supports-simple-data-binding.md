@@ -128,7 +128,7 @@ This step uses the **Data Source Configuration** wizard to create a data source 
 
 2. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
 
-3. On the **Choose a Data Source Type** page, select **Database**, and then click **Next**.
+3. On the **Choose a Data Source Type** page, select **Database**, and then select **Next**.
 
 4. On the **Choose your Data Connection** page, do one of the following:
 
@@ -136,13 +136,13 @@ This step uses the **Data Source Configuration** wizard to create a data source 
 
     - Select **New Connection** to launch the **Add/Modify Connection** dialog box.
 
-5. If your database requires a password, select the option to include sensitive data, and then click **Next**.
+5. If your database requires a password, select the option to include sensitive data, and then select **Next**.
 
 6. On the **Save connection string to the Application Configuration file** page, click **Next**.
 
 7. On the **Choose your Database Objects** page, expand the **Tables** node.
 
-8. Select the `Customers` table, and then click **Finish**.
+8. Select the `Customers` table, and then select **Finish**.
 
      The **NorthwindDataSet** is added to your project, and the `Customers` table appears in the **Data Sources** window.
 

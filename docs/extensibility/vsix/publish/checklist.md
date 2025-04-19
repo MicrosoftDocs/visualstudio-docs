@@ -14,7 +14,7 @@ Here's a list of things to make sure to remember before publishing your Visual S
 
 The following video introduces best practices to ensure your extension is the best it can be.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWPmjM]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=1572ac04-7818-426c-a453-1a5c2ac3f0fb]
 
 ## Adhere to threading rules
 Add the [Microsoft.VisualStudio.SDK.Analyzers](https://www.nuget.org/packages/Microsoft.VisualStudio.SDK.Analyzers/) NuGet package to your VSIX project, which will help you discover and fix common violations of best practices on threading.

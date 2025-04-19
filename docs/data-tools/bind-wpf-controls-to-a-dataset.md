@@ -72,17 +72,17 @@ Before you can create data-bound controls, you must define a data model for your
 
    The **Data Source Configuration** wizard opens.
 
-3. On the **Choose a Data Source Type** page, select **Database**, and then click **Next**.
+3. On the **Choose a Data Source Type** page, select **Database**, and then select **Next**.
 
-4. On the **Choose a Database Model** page, select **Dataset**, and then click **Next**.
+4. On the **Choose a Database Model** page, select **Dataset**, and then select **Next**.
 
 5. On the **Choose Your Data Connection** page, select one of the following options:
 
-   - If a data connection to the AdventureWorksLT sample database is available in the dropdown list, select it and then click **Next**.
+   - If a data connection to the AdventureWorksLT sample database is available in the dropdown list, select it, and then select **Next**.
 
    - Click **New Connection**, and create a connection to the AdventureWorksLT database.
 
-6. On the **Save the Connection String to the Application Configure File** page, select the **Yes, save the connection as** checkbox, and then click **Next**.
+6. On the **Save the Connection String to the Application Configure File** page, select the **Yes, save the connection as** checkbox, and then select **Next**.
 
 7. On the **Choose Your Database Objects** page, expand **Tables**, and then select the **Product (SalesLT)** table.
 
@@ -236,7 +236,7 @@ Build and run the application. Verify that you can view and update product recor
 
     - You can click the **>** or **<** buttons to navigate through other product records.
 
-2. In one of the product records, change the **Size** value, and then click **Save changes**.
+2. In one of the product records, change the **Size** value, and then select **Save changes**.
 
 3. Close the application, and then restart the application by pressing **F5** in Visual Studio.
 

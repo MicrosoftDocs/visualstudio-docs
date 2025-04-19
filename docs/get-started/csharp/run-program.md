@@ -2,9 +2,8 @@
 title: "How to run a program (C#)"
 description: Start programming with C# in Visual Studio and run programs from a project or code file, work with assemblies, references, NuGet packages, and .NET. 
 ms.custom: vs-acquisition
-ms.date: 2/13/2024
+ms.date: 12/10/2024
 ms.subservice: general-ide
-
 ms.topic: tutorial
 ms.devlang: csharp
 author: ghogen
@@ -13,9 +12,9 @@ manager: mijacobs
 dev_langs:
   - csharp
 ---
-# Run a C# program in Visual Studio
+# Run a C# program or app in Visual Studio
 
-How to run a program depends on what you start from, the type of program, and whether you want to run under the debugger. In the simplest case, to build and run an open project in Visual Studio:
+How to run a program or start an app depends on what you start from, the type of program or app, and whether you want to run under the debugger. In the simplest case, to build and run an open project in Visual Studio:
 
 - Press **F5**, choose **Debug** > **Start with debugging** from the Visual Studio menu, or select the green **Start** arrow and project name on the Visual Studio toolbar.
 - Or, to run without debugging, press **Ctrl**+**F5** or choose **Debug** > **Start without debugging** from the Visual Studio menu.
@@ -29,9 +28,11 @@ How to run a program depends on what you start from, the type of program, and wh
 
 ## Start from a project
 
-You can run a C# project (*.csproj* file) if it's a runnable program. If the project contains a C# file with a `Main` method, and its output is an executable or *.exe* file, it will probably run if it builds successfully. Newer versions of C# don't require a `Main` method; instead, program executions starts with top-level statements. See [Programs without Main methods](/dotnet/csharp/fundamentals/program-structure/top-level-statements). If a project has no `Main` method and no top-level statements, then it might be a class library. If so, it's not runnable on its own, but it can be referenced by other projects.
+You can run a C# project (`.csproj` file) if it's a runnable program. If the project contains a C# file with a `Main` method, and its output is an executable or `.exe` file, it will probably run if it builds successfully. If your project output is an executable file, and doesn't have a `Main` method, program executions starts with top-level statements. See [Programs without Main methods](/dotnet/csharp/fundamentals/program-structure/top-level-statements). Some project types, such as class libraries, are not runnable. Class libraries are not runnable on their own, but they can be referenced by other projects.
 
-1. If your program code is already in a Visual Studio project, open the project. To do so, you can double-click or tap on the *.csproj* file in Windows File Explorer, or choose **Open a project** in Visual Studio, browse to find the *.csproj* file, and select the file.
+If you're not sure if the project you have is an executable file, select the project node in Solution Explorer, and open the project properties. Either right-click on the node to bring up the context menu, and choose **Properties**, or press **Alt**+**Enter**. In the **Application** section, look for the **Output type**. If it's **Console Application**, then it's a runnable program.
+
+1. Open the project. To do so, you can double-click or tap on the `.csproj` file in Windows File Explorer, or choose **Open a project** in Visual Studio, browse to find the `.csproj` file, and select the file.
 
 1. After the project loads in Visual Studio, if your Visual Studio solution has more than one project, make sure to set the project with the `Main` method as the startup project. To set the startup project, right-click on the project name or node in **Solution Explorer** and choose **Set as Startup Project** from the context menu.
 
@@ -50,15 +51,17 @@ You can run a C# project (*.csproj* file) if it's a runnable program. If the pro
 
 ## Start from code
 
-If you start from a code listing, code file, or small number of files, first make sure the code is a runnable program from a trusted source. Any app with a `Main` method is probably a runnable program, but with the current version of C#, programs without `Main` methods with top-level statements can also run. You can use the Console Application template to create a project to work with the app in Visual Studio.
+If have a runnable C# code sample in mind such as [this one](https://www.sanfoundry.com/csharp-program-check-given-number-even-odd/), or a runnable C# code file or files on disk, follow these steps.
 
-### Code listing for a single file
+First make sure the code is a runnable program from a trusted source. Any app with a `Main` method is probably a runnable program, but with the current version of C#, programs without `Main` methods with top-level statements can also run. You can use the Console Application template to create a project in Visual Studio, and then copy the code intoit.
+
+### A single code file
 
 1. Start Visual Studio, choose **Create a new project**, and choose the C# **Console App** project.
-1. Replace all the code in the project *.cs* file with the contents of your code listing or file. If the code you want to use is on the web, or in a single file, it might be easiest to select the code, copy it to the clipboard, and paste it into a code file in the Visual Studio project.
-1. Rename the project *.cs* file to match your code file name.
+1. Replace all the code in the project `.cs` file with the contents of your code or file. If the code you want to use is on the web, or in a single file, it might be easiest to select the code, copy it to the clipboard, and paste it into a code file in the Visual Studio project.
+1. Rename the project `.cs` file to match your code file name.
 
-### Several code listings or files on disk
+### Several code files on disk
 
 1. Start Visual Studio, and create a new project of the appropriate type. Use the C# **Console App** if you're not sure.
 1. In the new project, replace all the code in the project code file with the contents of your first code listing or file.
@@ -69,7 +72,7 @@ If you start from a code listing, code file, or small number of files, first mak
 
 ### Several files in a folder
 
-If you have a folder with many files, first check for a project or solution file. Programs that Visual Studio creates have project and solution files. In Windows File Explorer, look for files with the *.csproj* or *.sln* extension. Double-click the *.csproj* file to open it in Visual Studio. See [Start from a Visual Studio solution or project](#start-from-a-project).
+If you have a folder with many files, first check for a project or solution file. Programs that Visual Studio creates have project and solution files. In Windows File Explorer, look for files with the `.csproj` or `.sln` extension. Double-click the `.csproj` file to open it in Visual Studio. See [Start from a Visual Studio solution or project](#start-from-a-project).
 
 If the code is from another development environment, there's no project file. Open the folder by choosing **Open** > **Folder** in Visual Studio. See [Develop code without projects or solutions](../../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 

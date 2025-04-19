@@ -1,7 +1,7 @@
 ---
 title: Create UIs with Visual Studio XAML Designer
 description: Explore XAML Designer workspace UI and features in Blend for Visual Studio that provides a visual interface to help you design XAML-based apps.
-ms.date: 07/04/2023
+ms.date: 08/30/2024
 ms.topic: conceptual
 f1_keywords:
 - VS.XamlDesigner
@@ -18,13 +18,15 @@ ms.subservice: xaml-tools
 
 The XAML Designer in Visual Studio and Blend for Visual Studio provides a visual interface to help you design XAML-based apps, such as WPF and UWP. You can create user interfaces for your apps by dragging controls from the Toolbox window (Assets window in Blend for Visual Studio) and setting properties in the Properties window. You can also edit XAML directly in XAML view.
 
-For advanced users, you can even [customize the XAML Designer](https://github.com/microsoft/xaml-designer-extensibility/blob/master/documents/xaml-designer-extensibility-migration.md).
-
-> [!NOTE]
-> Xamarin.Forms does not support a XAML designer. To view your Xamarin.Forms XAML UIs and edit them while the app is running, use XAML Hot Reload for Xamarin.Forms. For more information, see the [XAML Hot Reload for Xamarin.Forms (Preview)](/xamarin/xamarin-forms/xaml/hot-reload/) page.
+For advanced users, you can even [customize the XAML Designer](https://github.com/microsoft/xaml-designer-extensibility/blob/main/documents/xaml-designer-extensibility-migration.md).
 
 > [!NOTE]
 > WinUI 3 / .NET MAUI XAML designer is not supported in Visual Studio 2022. To view your WinUI 3 / .NET MAUI XAML UIs and edit them while the app is running, use XAML Hot Reload for WinUI 3 / .NET MAUI. For more information, see the [XAML Hot Reload](../xaml-tools/xaml-hot-reload.md) page.
+
+::: moniker range="vs-2019"
+> [!NOTE]
+> Xamarin.Forms does not support a XAML designer. To view your Xamarin.Forms XAML UIs and edit them while the app is running, use XAML Hot Reload for Xamarin.Forms. For more information, see the [XAML Hot Reload for Xamarin.Forms](/xamarin/xamarin-forms/xaml/hot-reload/) page.
+::: moniker-end
 
 ## XAML Designer workspace
 

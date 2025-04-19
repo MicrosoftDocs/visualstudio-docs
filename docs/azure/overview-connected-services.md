@@ -5,7 +5,7 @@ author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
 ms.topic: overview
-ms.date: 08/01/2022
+ms.date: 12/3/2024
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
@@ -90,7 +90,7 @@ Use Connected Services to connect your application to any of the following servi
 
 | Name | ASP.NET Link | Description |
 |-|-|-|
-| [OpenAPI](https://github.com/OAI/OpenAPI-Specification) endpoints | [Develop ASP.NET Core apps with OpenAPI](/aspnet/core/web-api/Microsoft.dotnet-openapi) | A standard format for describing the capabilities of a service in computer-readable and human-readable form. |
+| [OpenAPI](https://github.com/OAI/OpenAPI-Specification) endpoints | [OpenAPI support in ASP.NET Core API apps](/aspnet/core/fundamentals/openapi/overview) | A standard format for describing the capabilities of a service in computer-readable and human-readable form. |
 | [gRPC](https://grpc.io/docs/) endpoints | [Introduction to gRPC services on .NET](/aspnet/core/grpc/) | An open-source real-time procedure calling service. |
 | [WCF](/dotnet/framework/wcf/) endpoints | N/A | A .NET Framework solution supporting programming with a distributed network of services. |
 

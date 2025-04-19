@@ -11,6 +11,8 @@ description: Use Bridge to Kubernetes to redirect traffic between your Kubernete
 
 # Use Bridge to Kubernetes (VS Code)
 
+[!INCLUDE [Bridge to Kubernetes deprecation note](./includes/deprecation.md)]
+
 Bridge to Kubernetes allows you to run and debug code on your development computer, while still connected to your Kubernetes cluster with the rest of your application or services. In this guide, you will learn how to use Bridge to Kubernetes to redirect traffic between your Kubernetes cluster and code running on your development computer.
 
 ## Before you begin
@@ -200,8 +202,6 @@ When you are using Bridge to Kubernetes in a remote SSH session, if EndpointMana
 Learn more about Bridge to Kubernetes at [How Bridge to Kubernetes works][btk-how-it-works].
 
 If you need to debug multiple services at the same time in parallel, see [Debug multiple services at the same time](parallel-services.md).
-
-Information about the currently supported features and a future roadmap for Bridge to Kubernetes may be found at [Bridge to Kubernetes roadmap](https://github.com/microsoft/mindaro/projects/1).
 
 [azure-kubernetes-service]: /azure/aks/kubernetes-walkthrough
 [azds-cli]: /azure/dev-spaces/how-to/install-dev-spaces#install-the-client-side-tools

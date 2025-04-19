@@ -37,7 +37,7 @@ The following table shows the methods of `IDiaEnumSymbols`.
 
 ## Remarks
 
-This interface provides symbols grouped by a specific type of symbol, for example, `SymTagUDT` (user-defined types) or `SymTagBaseClass`. To work with symbols grouped by address, use the [IDiaEnumSymbolsByAddr](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr.md) interface.
+This interface provides symbols grouped by a specific type of symbol, for example, `SymTagUDT` (user-defined types (UDTs)) or `SymTagBaseClass`. To work with symbols grouped by address, use the [IDiaEnumSymbolsByAddr](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr.md) interface.
 
 ## Notes for Callers
 

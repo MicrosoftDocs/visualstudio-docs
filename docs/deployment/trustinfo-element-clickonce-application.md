@@ -67,7 +67,7 @@ Describes the minimum security permissions required for the application to run o
  Required. This element is a child of the `trustInfo` element. It contains the `applicationRequestMinimum` element and has no attributes.
 
 ## applicationRequestMinimum
- Required. This element is a child of the `security` element and contains the `PermissionSet`, `assemblyRequest`, and `defaultAssemblyRequest`elements. This element has no attributes.
+ Required. This element is a child of the `security` element and contains the `PermissionSet`, `assemblyRequest`, and `defaultAssemblyRequest` elements. This element has no attributes.
 
 ## PermissionSet
  Required. This element is a child of the `applicationRequestMinimum` element and contains the `IPermission` element. This element has the following attributes.

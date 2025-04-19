@@ -1,7 +1,7 @@
 ---
-title: 'Save and open files with encoding'
-description: Learn how to save and open files with specific encoding so, when you open the file, Visual Studio displays the file correctly.
-ms.date: 11/04/2016
+title: Save and open files with encoding
+description: Learn how to save and open files with specific encoding in Visual Studio, and ensure files open correctly in subsequent use.
+ms.date: 01/13/2025
 ms.topic: how-to
 helpviewer_keywords:
 - Unicode, bidirectional language support
@@ -12,48 +12,79 @@ author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide
+
+#customer intent: As a developer, I want to save and open files with specific encoding in Visual Studio, so I can ensure my files open correctly.
 ---
+
 # Save and open files with encoding
 
-You can save files with specific character encoding to support bidirectional languages. You can also specify an encoding when opening a file, so that Visual Studio displays the file correctly.
+You can save files with specific character encoding in Visual Studio to support bidirectional languages. You can also specify an encoding when you open a file to ensure Visual Studio displays the file correctly.
 
-## To save a file with encoding
+## Prerequisites
 
-1. From the **File** menu, choose **Save File As**, and then click the drop-down button next to the **Save** button.
+- Visual Studio. If you don't have Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
 
-     The **Advanced Save Options** dialog box is displayed.
+## Save file with encoding
 
-2. Under **Encoding**, select the encoding to use for the file.
+Follow these steps to save your file with encoding:
 
-3. Optionally, under **Line endings**, select the format for end-of-line characters.
+1. In Visual Studio, select **File** > **Save <Filename\> As** for the file you want to save.
 
-     This option is useful if you intend to exchange the file with users of a different operating system.
+1. In the **Save File As** dialog, expand the **Save** dropdown menu and select **Save with Encoding**:
 
-     If you want to work with a file that you know is encoded in a specific way, you can tell Visual Studio to use that encoding when opening the file. The method you use depends on whether the file is part of your project.
+   :::image type="content" source="./media/save-with-encoding.png" border="false" alt-text="Screenshot that shows how to select the option to save a file with encoding in Visual Studio.":::
+
+1. In the **Advanced Save Options** dialog, use the **Encoding** dropdown list to select the desired encoding for the file.
+
+1. (Optional) Use the **Line endings** dropdown list to select the desired format for end-of-line characters.
+
+   This option is useful if you intend to exchange the file with users of a different operating system.
+
+   If you want to work with a file with a specific encoding, you can instruct Visual Studio to use that encoding when it opens the file. The method you use depends on whether the file is part of your project.
+
+1. To save the file, select **OK**.
 
 > [!NOTE]
-> If you want to save the project file with encoding, the **Save File As** option is not enabled until you unload the project.
+> To save the project file with encoding, first unload the project. The **Save File As** option isn't enabled until you unload the project.
 
-## To open an encoded file that is part of a project
+::: moniker range=">= vs-2022"
+## Set the default encoding
 
-1. In **Solution Explorer**, right-click the file and choose **Open With**.
+Starting in Visual Studio 2022 version 17.13 Preview 1, you can set the default encoding for saving files.
 
-2. In the **Open With** dialog box, choose the editor to open the file with.
+To set the default, choose **Tools** > **Options** > **Environment**, **Documents**. Next, select **Save files with the following encoding**, and then select the encoding you want as the default.
+::: moniker-end
 
-     Many Visual Studio editors, such as the forms editor, will auto-detect the encoding and open the file appropriately. If you choose an editor that allows you to choose an encoding, the **Encoding** dialog box is displayed.
+## Open encoded file with project
 
-3. In the **Encoding** dialog box, select the encoding that the editor should use.
+To open an encoded file located within a project, follow these steps:
 
-## To open an encoded file that is not part of a project
+1. In Visual Studio **Solution Explorer**, right-click the file and select **Open With**.
 
-1. On the **File** menu, point to **Open**, choose **File** or **File From Web**, and then select the file to open.
+1. In the **Open With** dialog, select the program to open the file, and select **OK**.
 
-2. Click the drop-down button next to the **Open** button and choose **Open With**.
+   Many Visual Studio editors, such as the forms editor, can autodetect the encoding and open the file appropriately.
+   
+   If you choose an editor that allows you to specify an encoding, the **Encoding** dialog opens:
 
-3. Follow Steps 2 and 3 from the preceding procedure.
+   - In the **Encoding** dialog, select the encoding for the editor to use, and select **OK**.
+
+Visual Studio opens your file.
+
+## Open encoded file without project
+
+To open an encoded file *not* located within a project, follow these steps:
+
+1. In Visual Studio, select **File** > **Open**, and then select **File**.
+
+1. In the **Open File** dialog, browse to the file to open, and select the file.
+
+1. Expand the **Open** dropdown menu and select **Open With**.
+
+1. To complete this process, follow Step 2 in the [previous procedure](#open-encoded-file-with-project).
 
 ## Related content
 
 - [Encoding and line breaks](encodings-and-line-breaks.md)
-- [Encoding and Windows Forms globalization](/dotnet/framework/winforms/advanced/encoding-and-windows-forms-globalization)
+- [Encoding and Windows Forms globalization](/previous-versions/visualstudio/visual-studio-2010/401dkz3c(v=vs.100))
 - [Globalize and localize applications](../ide/globalizing-and-localizing-applications.md)

@@ -19,7 +19,7 @@ ms.subservice: debug-diagnostics
 
 Visual Studio provides a variety of profiling tools to help you diagnose different kinds of app performance issues depending on your app type. In this article, we provide information to help you find the right tool for your scenario and application type.
 
-For a general approach to optimizing code using the profiling tools, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
+For a general approach to optimizing code using the profiling tools, see [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
 
 ## Which tool should I use?
 
@@ -64,6 +64,8 @@ The following table lists the different tools Visual Studio offers and the diffe
 |[Performance Explorer](../profiling/profiling-feature-tour.md#analyze-performance-legacy-tools)|no|no|no|no|
 |[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|no|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
 
+Support for CMake projects are the same as C++. However, you must set the executable as the target in the Performance Profiler (**Alt** + **F2**) by selecting **Executable** as the **Startup Project**.
+
 ## Which tools are supported on Linux?
 
 The following tools are supported with Linux as the target platform as well as Windows:
@@ -79,12 +81,12 @@ The following tools are supported with Linux as the target platform as well as W
 
 The following articles and blog posts provide more information to help you learn to use the Visual Studio performance tools effectively.
 
-- [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md)
-- [Isolate a performance issue](../profiling/isolate-performance-issue.md)
+- [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md)
+- [Case study: Isolate a performance issue](../profiling/isolate-performance-issue.md)
 - [Improving Visual Studio performance with the new Instrumentation Tool](https://devblogs.microsoft.com/visualstudio/improving-visual-studio-performance-with-the-new-instrumentation-tool/)
 - [Case Study: Double performance in under 30 minutes](https://devblogs.microsoft.com/visualstudio/case-study-double-performance-in-under-30-minutes/)
 
 ## Related content
 
 - [Profiling feature tour](../profiling/choose-performance-tool.md)
-- [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
+- [Run profiling tools on release or debug builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md)

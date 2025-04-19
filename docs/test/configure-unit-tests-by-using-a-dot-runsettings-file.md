@@ -1,7 +1,7 @@
 ---
 title: Configure unit tests with a .runsettings file
 description: Learn how to use the .runsettings file in Visual Studio to configure unit tests that are run from the command line, from the IDE, or in a build workflow.
-ms.date: 09/05/2023
+ms.date: 09/11/2024
 ms.topic: conceptual
 ms.author: mikejo
 manager: mijacobs
@@ -260,13 +260,12 @@ The XML configuration should be placed directly into `<RunSettings>` node:
 Test run parameters provide a way to define variables and values that are available to the tests at run time. Access the parameters using the MSTest <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties%2A?displayProperty=nameWithType> property (or the NUnit [TestContext](https://docs.nunit.org/articles/nunit/writing-tests/TestContext.html)):
 
 ```csharp
-private string _appUrl;
 public TestContext TestContext { get; set; }
 
 [TestMethod] // [Test] for NUnit
 public void HomePageTest()
 {
-    string _appUrl = TestContext.Properties["webAppUrl"];
+    string appUrl = TestContext.Properties["webAppUrl"];
 }
 ```
 
@@ -308,6 +307,7 @@ These settings are specific to the test adapter that runs test methods that have
     <CaptureTraceOutput>false</CaptureTraceOutput>
     <DeleteDeploymentDirectoryAfterTestRunIsComplete>False</DeleteDeploymentDirectoryAfterTestRunIsComplete>
     <DeploymentEnabled>False</DeploymentEnabled>
+    <ConsiderFixturesAsSpecialTests>False</ConsiderFixturesAsSpecialTests>
     <AssemblyResolution>
       <Directory path="D:\myfolder\bin\" includeSubDirectories="false"/>
     </AssemblyResolution>
@@ -330,6 +330,7 @@ These settings are specific to the test adapter that runs test methods that have
 |**DeployTestSourceDependencies**|true|A value indicating whether the test source references are to be deployed.|
 |**DeleteDeploymentDirectoryAfterTestRunIsComplete**|true|To retain the deployment directory after a test run, set this value to **false**.|
 |**MapInconclusiveToFailed**|false|If a test completes with an inconclusive status, it's mapped to the skipped status in **Test Explorer**. If you want inconclusive tests to be shown as failed, set the value to **true**.|
+|**ConsiderFixturesAsSpecialTests**|false|To display `AssemblyInitialize`, `AssemblyCleanup`, `ClassInitialize`, `ClassCleanup` as individual entries in Visual Studio and Visual Studio Code `Test Explorer` and `.trx` log, set this value to **true**|
 |**AssemblyResolution**|false|You can specify paths to extra assemblies when finding and running unit tests. For example, use these paths for dependency assemblies that aren't in the same directory as the test assembly. To specify a path, use a **Directory Path** element. Paths can include environment variables.<br /><br />`<AssemblyResolution>  <Directory path="D:\myfolder\bin\" includeSubDirectories="false"/> </AssemblyResolution>`<br /><br />Note that this feature is only being applied when using .NET Framework target.|
 
 ## Example *.runsettings* file
@@ -485,6 +486,6 @@ The **RunConfiguration** node should contain an **EnvironmentVariables** node. A
 
 ## Related content
 
-- [Configure a test run](https://github.com/microsoft/vstest-docs/blob/master/docs/configure.md)
+- [Configure a test run](https://github.com/microsoft/vstest-docs/blob/main/docs/configure.md)
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)
 - [Visual Studio test task (Azure Test Plans)](/azure/devops/pipelines/tasks/test/vstest?view=vsts&preserve-view=true)

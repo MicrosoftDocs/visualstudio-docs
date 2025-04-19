@@ -59,7 +59,7 @@ You can add or remove results columns from the **Code Metrics Results** window. 
 
 ### Add or remove a column
 
-1. Click the **Add/Remove Columns** button, or right-click any column heading and then click **Add/Remove Columns**.
+1. Click the **Add/Remove Columns** button, or right-click any column heading, and then select **Add/Remove Columns**.
 
 1. In the **Add/Remove Columns** dialog box, select, or clear the checkbox for the column that you want to add or remove, and then choose **OK**.
 
@@ -85,7 +85,7 @@ For more information about Azure Boards work items, see [Work items](/azure/devo
 
 1. Right-click the result.
 
-2. Point to **Create Work Item**, and then click the type of work item you want to create (**Bug**, **Task**, and so forth).
+2. Point to **Create Work Item**, and then select the type of work item you want to create (**Bug**, **Task**, and so forth).
 
 3. Complete the work item form by filling in all required fields.
 

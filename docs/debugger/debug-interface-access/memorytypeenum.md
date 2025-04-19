@@ -1,7 +1,7 @@
 ---
 description: "Specifies the type of memory to access."
 title: "MemoryTypeEnum"
-ms.date: "11/04/2016"
+ms.date: "07/18/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -12,7 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
-# MemoryTypeEnum
+# `MemoryTypeEnum`
 
 Specifies the type of memory to access.
 
@@ -23,6 +23,7 @@ enum MemoryTypeEnum {
     MemTypeCode,
     MemTypeData,
     MemTypeStack,
+    MemTypeCodeOnHeap,              // Read only memory for code generated on heap by runtime
     MemTypeAny = -1
 };
 ```
@@ -35,9 +36,10 @@ enum MemoryTypeEnum {
 | `MemTypeData`  | Accesses data or stack memory. |
 | `MemTypeStack` | Accesses only stack memory.    |
 | `MemTypeAny`   | Accesses any kind of memory.   |
+| `MemTypeCodeOnHeap` | Accesses only code memory generated on heap by runtime. |
 
 ## Remarks
-The values in this enumeration are passed to the [IDiaStackWalkHelper::readMemory](../../debugger/debug-interface-access/idiastackwalkhelper-readmemory.md) method to limit access to different types of memory.
+The values in this enumeration are passed to the [`IDiaStackWalkHelper::readMemory`](../../debugger/debug-interface-access/idiastackwalkhelper-readmemory.md) method to limit access to different types of memory.
 
 ## Requirements
 Header: cvconst.h

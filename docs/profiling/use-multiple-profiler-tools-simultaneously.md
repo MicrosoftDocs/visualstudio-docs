@@ -28,5 +28,5 @@ During analysis, time filtering operations are applied across tools, so you can 
 ## Related content
 
 - [Optimizing profiler settings](../profiling/optimize-profiler-settings.md)
-- [Running profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
+- [Running profiling tools on release or debug builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
 - [Understanding performance collection methods](../profiling/understanding-performance-collection-methods-perf-profiler.md)

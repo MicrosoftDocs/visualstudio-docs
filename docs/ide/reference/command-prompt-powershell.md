@@ -3,7 +3,7 @@ title: 'Command-line shells & prompt for developers'
 description:  Start from the Tools > Command Line menu. Select the Visual Studio Developer Command Prompt, Developer PowerShell, or terminal to use .NET and C++ tools more easily.
 author: Mikejo5000
 ms.author: mikejo
-ms.date: 08/11/2023
+ms.date: 08/23/2024
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio command prompt"
@@ -55,10 +55,10 @@ Both shells have specific environment variables set that enable you to use comma
 |Popular commands|Description|
 |--|--|
 |[`MSBuild`](../../msbuild/msbuild-command-line-reference.md)|Build a project or solution|
-|[`clrver`](/dotnet/framework/tools/clrver-exe-clr-version-tool)| A [.NET Framework tool](/dotnet/framework/tools/index) for CLR|
-|[`ildasm`](/dotnet/framework/tools/ildasm-exe-il-disassembler)|A [.NET Framework tool](/dotnet/framework/tools/index) for disassembler|
 |[`dotnet`](/dotnet/core/tools/dotnet)|A [.NET CLI command](/dotnet/core/tools/index)|
 |[`dotnet run`](/dotnet/core/tools/dotnet-run)|A [.NET CLI command](/dotnet/core/tools/index)|
+|[`clrver`](/dotnet/framework/tools/clrver-exe-clr-version-tool)| A [.NET Framework tool](/dotnet/framework/tools/index) for CLR|
+|[`ildasm`](/dotnet/framework/tools/ildasm-exe-il-disassembler)|A [.NET Framework tool](/dotnet/framework/tools/index) for disassembler|
 |[`CL`](/cpp/build/reference/compiler-command-line-syntax)|C/C++ compile tool|
 |[`NMAKE`](/cpp/build/reference/running-nmake)|C/C++ compile tool|
 |[`LIB`](/cpp/build/reference/lib-reference)| C/C++ build tool|
@@ -110,16 +110,6 @@ Another way to start the shells is from the Start menu. You may have multiple co
 
 1. If you're running Visual Studio 2019, select either **Developer Command Prompt for VS 2019** or **Developer PowerShell for VS 2019**. If you're running Visual Studio 2022, select **Developer Command Prompt for VS 2022** or **Developer PowerShell for VS 2022**.
 
-### Windows 7
-
-1. Select **Start** and then expand **All Programs**.
-
-1. Select **Visual Studio 2019** > **Visual Studio Tools** > **Developer Command Prompt for VS 2019** or **Developer PowerShell for VS 2019**. (If you're running Visual Studio 2022, look for the same items that include "2022" instead of "2019".)
-
-   ![Screenshot of the Windows 7 Start menu with the command prompt highlighted.](./media/developer-command-prompt-for-vs/windows-7-menu.png)
-   
-If you have other SDKs installed, such as the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-sdk/) or [previous versions](https://developer.microsoft.com/windows/downloads/sdk-archive), you may see additional command prompts. Check the documentation for the individual tools to determine which version of the command prompt you should use.
-
 ## Start from file browser
 
 Usually, the shortcuts for the shells you have installed are placed in the **Start Menu** folder for Visual Studio, such as in *%ProgramData%\Microsoft\Windows\Start Menu\Programs\Visual Studio 2019\Visual Studio Tools*. But if searching for the command prompt doesn't produce the expected results, you can try to manually locate the files on your machine.
@@ -167,16 +157,18 @@ Since Visual Studio 2015, the Developer Command Prompt sets the `VSCMD_VER` envi
 
 Search for a PowerShell script file named *Launch-VsDevShell.ps1*, or go to the Tools folder for Visual Studio, such as *%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Community\Common7\Tools*. (The path changes according to your Visual Studio version, edition, and installation location.) Once you've located the PowerShell file, run it by entering the following command at a Windows PowerShell or PowerShell 6 prompt.
 
-For Visual Studio 2019:
-
-```powershell
-& 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\Launch-VsDevShell.ps1'
-```
-
+::: moniker range="vs-2022"
 For Visual Studio 2022:
 
 ```powershell
 & 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\Launch-VsDevShell.ps1'
+```
+::: moniker-end
+
+For Visual Studio 2019:
+
+```powershell
+& 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\Launch-VsDevShell.ps1'
 ```
 
 By default, the Developer PowerShell that launches is configured for the Visual Studio installation whose install path the *Launch-VsDevShell.ps1* file is located in.
@@ -240,7 +232,13 @@ Start the Developer PowerShell for the Community Edition of [Visual Studio 2022 
 
 For Developer PowerShell, the starting directory of the shell is the Visual Studio Project Location. This default locale overrides any other paths, such as working directory. This behavior can be turned off by using the command-line argument `-SkipAutomaticLocation`. This can be useful if you want the shell to stay in the current directory after initialization.
 
+::: moniker range="vs-2019"
 The Project Location can be adjusted in **Tools** > **Options** > **Projects &amp; Solutions** > **Project Location**.
+::: moniker-end
+
+::: moniker range="vs-2022"
+The Project Location can be adjusted in **Tools** > **Options** > **Projects &amp; Solutions** > **Locations**.
+::: moniker-end
 
 > [!TIP]
 > The command-line arguments `-Arch`, `-HostArch`, and `-SkipAutomaticLocation` are supported by both the `Launch-VsDevShell.ps1` script and the `Enter-VsDevShell` cmdlet.

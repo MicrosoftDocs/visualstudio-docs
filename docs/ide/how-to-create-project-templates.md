@@ -1,7 +1,7 @@
 ---
 title: Create project templates with wizard or XML file
 description: Create project templates in Visual Studio with the Export Template Wizard, or by grouping the project files and using a .vstemplate XML file.
-ms.date: 04/04/2024
+ms.date: 3/10/2025
 ms.topic: how-to
 f1_keywords:
 - VS.ExportTemplateWizard
@@ -26,6 +26,9 @@ This article shows you how to create a template by using the **Export Template W
 2. Edit the project until it's ready to be exported as a template. For example, you might want to edit code files to indicate where parameter replacement should take place. For more information, see [How to: Substitute parameters in a template](how-to-substitute-parameters-in-a-template.md).
 
 3. On the **Project** menu, choose **Export Template**.
+
+   > [!NOTE]
+   > If you don't see the **Export Template** menu item, you can add it by choosing **Tools** > **Customize**, and then select **Commands**, choose the **Project** menu bar, select the **Add Command** button, and then under **Project**, select **Export Template...**.
 
    The **Export Template Wizard** opens.
 

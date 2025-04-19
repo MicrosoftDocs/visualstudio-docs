@@ -6,7 +6,7 @@ keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
-ms.date: 05/21/2024
+ms.date: 02/11/2025
 ms.topic: reference
 helpviewer_keywords:
 - workload ID, Visual Studio
@@ -24,6 +24,8 @@ open_to_public_contributors: false
 
 [!INCLUDE[workloads-components-header-2019_md](includes/workloads-components-header-2019_md.md)]
 
+To install these components by using the manual installer, download and run the [Test Agent for Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/).
+
 [!include[Visual Studio Test Agent 2019](includes/vs-2019/workload-component-id-vs-test-agent.md)]
 
 ::: moniker-end
@@ -31,6 +33,8 @@ open_to_public_contributors: false
 ::: moniker range=">= vs-2022"
 
 [!INCLUDE[workloads-components-header-2022_md](includes/workloads-components-header-2022.md)]
+
+To install these components by using the manual installer, download and run the [Test Agent for Visual Studio](https://visualstudio.microsoft.com/downloads/#agents-for-visual-studio-2022).
 
 [!include[Visual Studio Test Agent 2022](includes/vs-2022/workload-component-id-vs-test-agent.md)]
 

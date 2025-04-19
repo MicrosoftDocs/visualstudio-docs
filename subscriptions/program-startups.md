@@ -1,9 +1,9 @@
 ---
 title: Visual Studio subscriptions offered through Microsoft for Startups
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/30/2023
+ms.date: 09/17/2024
 ms.topic: conceptual
 description:  Details on subscriptions offered through the Microsoft for Startups program.
 ---
@@ -45,4 +45,4 @@ For assistance with sales, subscriptions, accounts and billing for Visual Studio
 ## Next steps
 
 + [Learn more about Microsoft for Startups](https://startups.microsoft.com)
-+ [Microsoft for Startups blog](https://startups.microsoft.com/Blog?search=Microsoft%20for%20Startups)
++ [Microsoft for Startups blog](https://www.microsoft.com/startups/blog/?search=Microsoft%20for%20Startups)

@@ -1,7 +1,7 @@
 ---
 title: Manage npm packages for Node.js and ASP.NET Core projects
 description: Manage packages in Visual Studio by using the Node.js package manager (npm) for both Node.js and ASP.NET Core applications.
-ms.date: "1/30/2024"
+ms.date: "2/11/2025"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -36,7 +36,7 @@ Visual Studio integration with npm is different depending on your project type.
 
 Starting in Visual Studio 2022, the npm package manager is available for [CLI-based projects](../javascript/javascript-in-vs-2022.md#project-templates), so you can now download npm modules similarly to the way you download NuGet packages for ASP.NET Core projects. Then you can use *package.json* to modify and delete packages.
 
-To open the package manager, from Solution Explorer, right-click the **npm** node in your project.
+To open the package manager, from Solution Explorer, right-click the **npm** node in your project and choose **Add npm package**.
 
 :::image type="content" source="../javascript/media/vs-2022/npm-packages-open-manager-esproj.png" alt-text="Open package manager from Solution Explorer" border="true":::
 
@@ -151,6 +151,9 @@ If your project does not already include a *package.json* file, you can add one 
    ```
 
    When you save the file, Visual Studio adds the package under the **Dependencies / npm** node in Solution Explorer. If you don't see the node, right-click **package.json** and choose **Restore Packages**. To view package installation status, select **npm** output in the Output window.
+
+   >[!NOTE]
+   > The npm node is available for most ASP.NET Core project types, including Blazor. For MAUI Blazor projects, you must use the npm command line because no npm node will be present in Solution Explorer.
 
    You can configure npm packages using `package.json`. Either open `package.json` directly, or right-click the npm node in Solution Explorer and choose **Open package.json**.
 

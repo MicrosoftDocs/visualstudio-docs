@@ -1,7 +1,7 @@
 ---
 title: "View threads in the Parallel Stacks window"
 description: Use Parallel Stacks to help debug multithreaded applications. You can view stack information for all threads, and task-centered call stack information.
-ms.date: "03/05/2024"
+ms.date: "01/22/2025"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.parallelstacks"
@@ -62,6 +62,7 @@ The **Parallel Stacks** window has the following toolbar controls:
 |![Search icon](media/vs-2022/parallel-stacks-toolbar-search.png   "Search icon")|Search Control|With this feature you can easily search through stack frames and then use arrows to navigate between those results.|
 |![Save icon](media/vs-2022/parallel-stacks-toolbar-save.png   "Save icon")|Save Control| Enables you to save/export the content from the parallel stack window as an image.|
 |![External Code icon](media/vs-2022/parallel-stacks-toolbar-external-code.png   "External Code icon")|Show External Code Control| Using this feature, you can show/hide the stacks from the external code/libraries.|
+|![Copilot Summarize icon](media/vs-2022/parallel-stacks-copilot-summarize.png   "Summarize icon")|Summarize call stacks| Starting in Visual Studio 2022 version 17.13 Preview 4, you can choose **Summarize** when [Copilot](../ide/visual-studio-github-copilot-install-and-states.md) is installed and activated. This button opens the Copilot Chat window, preloaded with relevant thread context, allowing you to explore details, including thread states, function calls, and suggested fixes.|
 ::: moniker-end
 
 ### Stack Frame icons
@@ -70,23 +71,23 @@ The following icons provide information about the active and current stack frame
 ::: moniker range="vs-2019"
 |Icon|Description|
 |-|-|
-|![Yellow arrow](media/icon-parallelyellowarrow.gif)|Indicates the current location (active stack frame) of the current thread.|
+|![Yellow arrow](media/icon-parallel-yellow-arrow.png)|Indicates the current location (active stack frame) of the current thread.|
 |![Threads icon](media/icon-parallelthreads.gif)|Indicates the current location (active stack frame) of a non-current thread.|
-|![Green arrow](media/icon-parallelgreenarrow.gif)|Indicates the current stack frame (the current debugger context). The method name is bold wherever it appears.|
+|![Green arrow](media/icon-parallel-green-arrow.png)|Indicates the current stack frame (the current debugger context). The method name is bold wherever it appears.|
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 Icon|Description|
 |-|-|
-|![Yellow arrow](media/icon-parallelyellowarrow.gif)|Indicates the current location (active stack frame) of the current thread.|
+|![Yellow arrow](media/icon-parallel-yellow-arrow.png)|Indicates the current location (active stack frame) of the current thread.|
 |![Threads icon](media/icon-parallelthreads.gif)|Indicates the current location (active stack frame) of a non-current thread.|
-|![Green arrow](media/icon-parallelgreenarrow.gif)|Indicates the current stack frame (the current debugger context). The method name is bold wherever it appears.|
+|![Green arrow](media/icon-parallel-green-arrow.png)|Indicates the current stack frame (the current debugger context). The method name is bold wherever it appears.|
 |![Status Error](media/vs-2022/icon-status-error.png)|Indicates that the current stack frame has Critical status warning such as Deadlock.|
 |![Status Excluded](media/vs-2022/icon-status-excluded.png)|Indicates the deadlocked node.|
 |![Status Information](media/vs-2022/icon-status-information.png)|Indicates that the current stack frame has additional information such as Waiting on, Waiting on lock, owned by, etc. |
 |![Status Blocked](media/vs-2022/icon-status-block.png)|Indicates that the current task is in blocked/waiting state, etc. |
-|![Status Running](media/vs-2022/icon-status-running.png)|Indicates that the currently running task.|
+|![Status Running](media/vs-2022/icon-status-running.png)|Indicates the currently running task.|
 
 ::: moniker-end
 
@@ -148,7 +149,7 @@ When the **Threads** view graph is too large to fit into the window, a **Bird's 
 
 ::: moniker range="vs-2019"
 
-The following illustration shows one thread that goes from Main to a Managed to Native code transition. Six threads are in the current method. One continues to Thread.Sleep, and another continues to Console.WriteLine and then to SyncTextWriter.WriteLine.
+The following illustration shows one thread that goes from Main to a Managed to Native code transition. Six threads are in the current method. Two threads continue to Thread.Sleep, and two continue to Console.WriteLine and the current thread continues to SyncTextWriter.WriteLine.
 
  ![Screenshot of Threads view in Parallel Stacks window.](../debugger/media/parallel-stack1.png "Threads view in Parallel Stacks window.")
 
@@ -167,7 +168,7 @@ The following table describes the main features of the **Threads** view:
 
 ::: moniker range=">=vs-2022"
 
-The following illustration shows one thread that goes from Main to a Managed to Native code transition. Five threads are in the current method. One continues to ServerClass.InstanceMethod, and another continues to Worker.Thread.Start and then to StartupHook.Initialize.AnonymousMethod.
+The following illustration shows the Main thread in a Managed to Native code transition. Five threads are in the current method. Four threads continue executing in the S.C method context, while one worker thread continues in a Managed to Native code transition, setting the name on a worker thread.
 
  [![Screenshot of Threads view in Parallel Stacks window 2022.](../debugger/media/vs-2022/parallel-stacks-toolbar-threads-view.png "Threads view in Parallel Stacks window.")](../debugger/media/vs-2022/parallel-stacks-toolbar-threads-view.png#lightbox)
 
@@ -181,7 +182,9 @@ The following table describes the main features of the **Threads** view:
 |4|Node header|Shows the number of processes/threads, thread name, and thread ID for the node.|
 |5|Method|Represents one or more stack frames in the same method.|
 |6|Tooltip on method|Appears when you hover over a method. In **Threads** view, the tooltip shows all threads, in a table similar to the **Threads** window. |
+|7|Thread description|AI-generated description of the thread. Starting in Visual Studio 2022 version 17.13 Preview 1, this description is present when [Copilot](../ide/visual-studio-github-copilot-install-and-states.md) is installed and activated. |
 ::: moniker-end
+
 ## Tasks view
 If your app uses <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects (managed code) or `task_handle` objects (native code) to express parallelism, you can use **Tasks** view. **Tasks** view shows call stacks of tasks instead of threads.
 

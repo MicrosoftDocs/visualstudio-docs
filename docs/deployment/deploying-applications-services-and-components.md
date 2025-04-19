@@ -1,7 +1,7 @@
 ---
 title: "First look at deployment"
 description: Explore application deployment options in Visual Studio, including Azure, the web, network shares, devices, Microsoft Store, and Windows desktop installer packages.
-ms.date: 11/02/2023
+ms.date: 11/14/2024
 ms.topic: conceptual
 dev_langs:
   - "FSharp"
@@ -85,10 +85,10 @@ If you require a more complex installation of a desktop application than ClickOn
 
 - An MSI or EXE installer package can be created by using a Setup project (vdproj). To use this option, see [Visual Studio Installer Projects Extension and .NET 6.0](../deployment/installer-projects-net-core.md) or, go directly to the [Visual Studio Installer Projects extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects#overview).
 
-- An MSI or EXE installer package can be created by using [InstallShield](https://www.revenera.com/install/products/installshield/installshield-requirements) from Flexera Software. InstallShield may be used with Visual Studio 2017 and later versions. Community Edition isn't supported.
+- An MSI or EXE installer package can be created by using [InstallShield](https://www.revenera.com/install/products/installshield/installshield-requirements) from Revenera Software. InstallShield may be used with Visual Studio 2017 and later versions. Community Edition isn't supported.
 
   > [!NOTE]
-  > InstallShield Limited Edition is no longer included with Visual Studio and isn't supported in Visual Studio 2017 and later versions. Check with Flexera Software about future availability.
+  > InstallShield Limited Edition is no longer included with Visual Studio and isn't supported in Visual Studio 2017 and later versions. Check with Revenera Software about future availability.
 
 - You can also install prerequisite components for desktop applications by configuring a generic installer package, which is known as a bootstrapper. For more information, see [Application deployment prerequisites](../deployment/application-deployment-prerequisites.md).
 :::moniker-end
@@ -99,12 +99,12 @@ If you require a more complex installation of a desktop application than ClickOn
 
 - An MSI-based installer package can be created by using the [WiX Toolset Visual Studio 2022 Extension](https://marketplace.visualstudio.com/items?itemName=WixToolset.WixToolsetVisualStudio2022Extension). This is a command-line toolset.
 
-- An MSI or EXE installer package can be created by using a Setup project (vdproj). To use this option, see [Visual Studio Installer Projects Extension and .NET 6.0](../deployment/installer-projects-net-core.md) or, go directly to the [Visual Studio Installer Projects extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects#overview).
+- An MSI or EXE installer package can be created by using a Setup project (vdproj). To use this option, see [Visual Studio Installer Projects Extension and .NET 6.0](../deployment/installer-projects-net-core.md) or, go directly to the [Visual Studio Installer Projects extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioClient.MicrosoftVisualStudio2022InstallerProjects).
 
-- An MSI or EXE installer package can be created by using [InstallShield](https://www.revenera.com/install/products/installshield/installshield-requirements) from Flexera Software. InstallShield may be used with Visual Studio 2017 and later versions. Community Edition isn't supported.
+- An MSI or EXE installer package can be created by using [InstallShield](https://www.revenera.com/install/products/installshield/installshield-requirements) from Revenera Software. InstallShield may be used with Visual Studio 2017 and later versions. Community Edition isn't supported.
 
   > [!NOTE]
-  > InstallShield Limited Edition is no longer included with Visual Studio and isn't supported in Visual Studio 2017 and later versions. Check with Flexera Software about future availability.
+  > InstallShield Limited Edition is no longer included with Visual Studio and isn't supported in Visual Studio 2017 and later versions. Check with Revenera Software about future availability.
 
 - You can also install prerequisite components for desktop applications by configuring a generic installer package, which is known as a bootstrapper. For more information, see [Application deployment prerequisites](../deployment/application-deployment-prerequisites.md).
 :::moniker-end

@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the number of valid address ranges associated with the local symbol."
+description: Retrieves the number of valid address ranges associated with the local symbol.
 title: "IDiaSymbol::get_countLiveRanges"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_countLiveRanges
 
 Retrieves the number of valid address ranges associated with the local symbol.
@@ -19,7 +20,7 @@ Retrieves the number of valid address ranges associated with the local symbol.
 ## Syntax
 
 ```C++
-HRESULT get_countLiveRanges ( 
+HRESULT get_countLiveRanges ( 
    DWORD* count
 );
 ```

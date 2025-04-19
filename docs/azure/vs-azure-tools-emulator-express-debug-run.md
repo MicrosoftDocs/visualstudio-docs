@@ -1,6 +1,6 @@
 ---
 title: Run and debug Azure service locally with Emulator Express
-description: Use Emulator Express to run and debug an Azure cloud service on a local machine without running Visual Studio as an administrator.
+description: Use Emulator Express to run and debug an Azure Cloud Services (extended support) on a local machine without running Visual Studio as an administrator.
 author: mikejo5000
 manager: mijacobs
 ms.subservice: azure-development
@@ -9,7 +9,7 @@ ms.date: 03/06/2024
 ms.author: mikejo
 ---
 
-# Using Emulator Express to run and debug an Azure cloud service on a local machine
+# Using Emulator Express to run and debug an Azure Cloud Services (extended support) on a local machine
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
@@ -19,15 +19,15 @@ By using Emulator Express, you can test and debug a cloud service without runnin
 
 When you create an Azure project, Emulator Express is automatically used. For existing projects that were created with an earlier version of the Azure SDK, use the following steps to select Emulator Express:
 
-1. Create or open an Azure cloud service project in Visual Studio.
+1. Create or open an Azure Cloud Services (extended support) project in Visual Studio.
 
 1. In Solution Explorer, right-click the project, and, from the context menu, select **Properties**.
 
 1. In the projects properties pages, select the **Web** tab.
 
-    ![Properties for an Azure cloud service project](./media/vs-azure-tools-emulator-express-debug-run/web-properties.png)
+    ![Properties for an Azure Cloud Services (extended support) project](./media/vs-azure-tools-emulator-express-debug-run/web-properties.png)
 
-1. Under **Local Development Server**, select **Use IIS Express option**.
+1. Under **Local Development Server**, select **Use Internet Information Services (IIS) Express option**.
 
 1. Under **Emulator**, select **Use Emulator Express**.
 
@@ -46,4 +46,4 @@ The following issues are known limitations of Emulator Express:
 
 ## Related content
 
-[Debugging Azure Cloud Services](vs-azure-tools-debugging-cloud-services-overview.md)
+[Debugging Azure Cloud Services (extended support)](vs-azure-tools-debugging-cloud-services-overview.md)

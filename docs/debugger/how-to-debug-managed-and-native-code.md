@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Debug C# and C++ code (mixed mode)"
 description: Debug a native DLL from a .NET Core or .NET Framework application by using mixed-mode debugging to enable more than one debugger type in a debugging session.
-ms.date: 10/19/2023
+ms.date: 04/07/2025
 ms.topic: tutorial
 dev_langs:
   - "CSharp"
@@ -54,7 +54,13 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
 1. Open Visual Studio and create a project.
 
+    ::: moniker range=">=vs-2022"
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **Empty Project**, and then select the **Empty Project** for C++. In the **Configure your new project** dialog box that appears, type a name like **Mixed_Mode_Debugging** and click **Create**.
+    ::: moniker-end
+
+    ::: moniker range="vs-2019"
     Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **Empty Project**, choose **Templates**, then choose **Empty Project** for C++. In the dialog box that appears, choose **Create**. Then, type a name like **Mixed_Mode_Debugging** and click **Create**.
+    ::: moniker-end
 
     If you don't see the **Empty Project** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
 
@@ -124,11 +130,17 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
 1. Open Visual Studio and create a new project.
 
+    ::: moniker range=">=vs-2022"
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **console**, and then select the C# **Console App** for .NET or .NET Framework.
+    ::: moniker-end
+
+    ::: moniker range="vs-2019"
     Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **console**, choose **Templates**, and then choose **Console App** for .NET Core or **Console App (.NET Framework)** for C#. In the dialog box that appears, choose **Next**.
+    ::: moniker-end
 
     Then, type a name like **Mixed_Mode_Calling_App** and click **Next** or **Create**, whichever option is available.
 
-    For .NET Core, choose either the recommended target framework or .NET 8, and then choose **Create**.
+    For .NET Core or .NET 5+, choose either the recommended target framework or .NET 8, and then choose **Create**.
 
     If you don't see the correct project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the correct .NET workload as described in the prerequisites, and then choose **Modify**.
 
@@ -176,8 +188,15 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 1. Enable native code debugging in the properties.
 
     ::: moniker range=">=vs-2022"
+    **.NET code**
+
     Select **Debug** in the left pane, select **Open debug launch profiles UI**, then select the **Enable native code debugging** check box, and then close the properties page to save the changes.
+
     ![Enable mixed mode debugging](../debugger/media/vs-2022/mixed-mode-enable-native-code-debugging.png)
+
+    **.NET Framework code**
+
+    On the left menu, select **Debug**. Then, in the **Debugger engines** section, select the **Enable native code debugging** property, and then close the properties page to save the changes.
     ::: moniker-end
     ::: moniker range="<=vs-2019"
     Select **Debug** in the left pane, select the **Enable native code debugging** check box, and then close the properties page to save the changes.

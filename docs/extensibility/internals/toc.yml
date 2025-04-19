@@ -474,5 +474,3 @@
     href: commands-that-must-be-run-after-installation.md
   - name: Uninstalling a VSPackage With Windows Installer
     href: uninstalling-a-vspackage-with-windows-installer.md
-- name: Microsoft Help Viewer SDK
-  href: microsoft-help-viewer-sdk.md

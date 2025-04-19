@@ -1,7 +1,7 @@
 ---
 title: Use the MSBuild XML schema to control builds
 description: Explore how the Microsoft Build Engine (MSBuild) platform provides a project file with an XML schema to control builds with properties, items, tasks, and targets.
-ms.date: 11/03/2023
+ms.date: 11/14/2024
 ms.topic: overview
 helpviewer_keywords:
 - MSBuild, about MSBuild
@@ -15,7 +15,7 @@ ms.subservice: msbuild
 
 The Microsoft Build Engine is a platform for building applications. This engine, which is also known as MSBuild, provides an XML schema for a project file that controls how the build platform processes and builds software. Visual Studio uses MSBuild, but MSBuild doesn't depend on Visual Studio. By invoking *msbuild.exe* or *dotnet build* on your project or solution file, you can orchestrate and build products in environments where Visual Studio isn't installed.
 
-Visual Studio uses MSBuild to load and build managed projects. The project files in Visual Studio (*.csproj*, *.vbproj*, *.vcxproj*, and others) contain MSBuild XML code that executes when you build a project by using the IDE. Visual Studio projects import all the necessary settings and build processes to do typical development work, but you can extend or modify them from within Visual Studio or by using an XML editor.
+Visual Studio uses MSBuild to load and build managed projects. The project files in Visual Studio (*.csproj*, *.vbproj*, *.vcxproj*, and others) contain MSBuild XML code that executes when you build a project in the IDE. Visual Studio projects import all the necessary settings and build processes to do typical development work, but you can extend or modify them from within Visual Studio or by using a text editor.
 
 To install MSBuild on a Windows system that doesn't have Visual Studio, go to **Build Tools for Visual Studio** on the [downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta). Installing MSBuild by this method gives you *MSBuild.exe*.
 
@@ -199,7 +199,7 @@ If you're developing a build tool, you might want to invoke MSBuild programmatic
 
 ## MSBuild is open source
 
-MSBuild is an open-source project that accepts user contributions, just like the rest of the .NET ecosystem. The repo that contains the MSBuild source is available in GitHub: [MSBuild GitHub repo](https://github.com/dotnet/msbuild).
+MSBuild is an open-source project that accepts user contributions at the [MSBuild GitHub repo](https://github.com/dotnet/msbuild).
 
 ## See also
 
@@ -217,6 +217,7 @@ MSBuild is an open-source project that accepts user contributions, just like the
 | [Multitargeting](../msbuild/msbuild-multitargeting-overview.md) | Shows how to target multiple .NET versions and/or multiple platforms. |
 | [Obtaining build logs](obtaining-build-logs-with-msbuild.md) | Describes how to log build events, messages, and errors. |
 | [How MSBuild builds projects](build-process-overview.md) | Describes the internal build process used within MSBuild |
+| [Secure MSBuild usage best practices](msbuild-security-best-practices.md) | Describes the best practices to configure and run your builds with MSBuild |
 | [Create a custom task for code generation](tutorial-custom-task-code-generation.md) | Shows how to create a custom task, with a code example. |
 | [Use MSBuild to generate a REST API client](tutorial-rest-api-client-msbuild.md) | Shows how to extend the build to handle REST API client generation, with a code example. |
 | [Additional resources](https://social.msdn.microsoft.com/forums/vstudio/home?forum=msbuild) | Lists community and support resources for more information about MSBuild. |

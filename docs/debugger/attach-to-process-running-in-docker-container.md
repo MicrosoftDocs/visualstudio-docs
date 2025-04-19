@@ -1,7 +1,7 @@
 ---
 title: Attach to a process running on a Docker container
 description: Explore how to debug an application running a Windows Docker container or a Linux .NET Core Docker container by using Visual Studio.
-ms.date: "05/01/2024"
+ms.date: "11/19/2024"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugging, linux Docker container"
@@ -33,6 +33,9 @@ You can attach the Visual Studio debugger to a process running in a Linux .NET C
 
 > [!IMPORTANT]
 > To use this feature, you must have local access to the source code.
+
+> [!NOTE]
+> You can use these instructions to attach to Linux Docker running in WSL over SSH, but your WSL instance must first run an SSH server. For example, you could install Open SSH Server (for example: `sudo apt-get install openssh-server`), configure the server by editing the configuration file (for example: /etc/ssh/sshd_config), and then start the server (for example: `sudo service ssh start`).
 
 To attach to a running process in a Linux Docker container:
 

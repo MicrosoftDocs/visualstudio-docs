@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "mac/index.yml",
+      "redirect_url": "/previous-versions/visualstudio/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "mac/samples/index.yml",
+      "redirect_url": "/previous-versions/visualstudio/",
+      "redirect_document_id": false
+    },
+    {
       "source_path_from_root": "/mac/accessibility-ide-options.md",
       "redirect_url": "/visualstudio/mac/accessibility",
       "redirect_document_id": false
@@ -28,7 +38,10 @@
     {
       "source_path_from_root": "/mac/javascript.md",
       "redirect_url": "/visualstudio/mac/javascript-and-typescript-support",
-      "redirect_document_id": false
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2019","vsmac-2022"
+      ]
     },
     {
       "source_path_from_root": "/mac/net-core-support.md",
@@ -48,11 +61,19 @@
     {
       "source_path_from_root": "/mac/user-accounts.md",
       "redirect_url": "/visualstudio/mac/signing-in",
-      "redirect_document_id": false
+      "redirect_document_id": false,
+      "monikers":[
+        "vsmac-2019", "vsmac-2022"
+      ]
     },
     {
       "source_path_from_root": "/mac/setup-vsmac-tools-unity.md",
       "redirect_url": "/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path_from_root": "/mac/what-happened-to-vs-for-mac.md",
+      "redirect_url": "/visualstudio/releases/2022/what-happened-to-vs-for-mac",
       "redirect_document_id": false
     },
     {
@@ -861,6 +882,638 @@
       "redirect_document_id": false,
       "monikers": [
         "vsmac-2019"
+      ]
+    },
+    {
+      "source_path": "mac/accessibility-keyboard.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/accessibility-keyboard",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/accessibility.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/accessibility",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/add-and-remove-project-items.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/add-and-remove-project-items",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/asp-net-core.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/asp-net-core",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/azure-functions-lab.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/azure-functions-lab",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/azure-functions.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/azure-functions",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/azure-workload.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/azure-workload",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/blazor.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/blazor",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/block-selection.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/block-selection",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/build-actions.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/build-actions",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/building-and-cleaning-projects-and-solutions.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/building-and-cleaning-projects-and-solutions",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/building-asp-net-core.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/building-asp-net-core",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/comments.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/comments",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/compiling-and-building.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/compiling-and-building",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/configurations.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/configurations",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/connected-services.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/connected-services",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/create-and-edit-configurations.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/create-and-edit-configurations",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/create-new-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/create-new-projects",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/create-offline-installer.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/create-offline-installer",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/customizing-build-system.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/customizing-build-system",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/customizing-the-ide.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/customizing-the-ide",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/data-visualizations.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/data-visualizations",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/debugging.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/debugging",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/docker-multi-container.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/docker-multi-container",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/docker-quickstart.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/docker-quickstart",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/editor-behavior.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/editor-behavior",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/editor-themes.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/editor-themes",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/editorconfig.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/editorconfig",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/enable-subscription.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/enable-subscription",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/ide-tour.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/ide-tour",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/install-behind-a-firewall-or-proxy-server.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/install-behind-a-firewall-or-proxy-server",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/install-preview.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/install-preview",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/installation.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/installation",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/integrated-terminal.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/integrated-terminal",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/intellisense.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/intellisense",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/javascript-and-typescript-support.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/javascript-and-typescript-support",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/keyboard-shortcuts.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/keyboard-shortcuts",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/launch-settings.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/launch-settings",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/managing-app-resources.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/managing-app-resources",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/managing-references-in-a-project.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/managing-references-in-a-project",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/managing-solutions-and-project-properties.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/managing-solutions-and-project-properties",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/migrate-extensions.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/migrate-extensions",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/multi-caret-editing.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/multi-caret-editing",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/nuget-walkthrough.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/nuget-walkthrough",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/open-multiple-solutions.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/open-multiple-solutions",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/project-multitargeting.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/project-multitargeting",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/projects-and-solutions.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/projects-and-solutions",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/publish-app-svc.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/publish-app-svc",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/publish-folder.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/publish-folder",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/razor.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/razor",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/refactoring.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/refactoring",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/report-a-problem.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/report-a-problem",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/set-startup-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/set-startup-projects",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/set-up-git-repository.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/set-up-git-repository",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/show-imports.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/show-imports",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/signing-in.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/signing-in",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/snippets.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/snippets",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/source-editor.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/source-editor",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/source-link.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/source-link",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/supported-versions-net.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/supported-versions-net",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/task-comments.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/task-comments",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/testing.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/testing",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/troubleshooting-no-templates.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/troubleshooting-no-templates",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/troubleshooting.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/troubleshooting",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/tutorial-aspnet-core-vsmac-extending.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/tutorial-aspnet-core-vsmac-extending",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/tutorial-aspnet-core-vsmac-getting-started.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/tutorial-aspnet-core-vsmac-getting-started",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/uninstall-net-2019.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/uninstall-net-2019",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/uninstall-net-2022.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/uninstall-net-2022",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/uninstall.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/uninstall",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/unity-walkthrough.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/unity-walkthrough",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/update.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/update",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/updater-troubleshooting.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/updater-troubleshooting",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/version-control.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/version-control",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/visual-studio-experience-improvement-program.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/visual-studio-experience-improvement-program",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/vsmac-for-windows-users.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/vsmac-for-windows-users",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/web-app-deployment.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/web-app-deployment",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/working-with-git.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/working-with-git",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/workloads.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/workloads",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
+      ]
+    },
+    {
+      "source_path": "mac/xamarin.md",
+      "redirect_url": "/previous-versions/visualstudio/mac/xamarin",
+      "redirect_document_id": false,
+      "monikers": [
+        "vsmac-2022"
       ]
     }
   ]

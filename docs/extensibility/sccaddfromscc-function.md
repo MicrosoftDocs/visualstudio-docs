@@ -1,6 +1,6 @@
 ---
-description: "This function allows the user to browse for files that are already in the source control system and subsequently make those files part of the current project."
 title: SccAddFromScc Function
+description: "This function allows the user to browse for files that are already in the source control system and subsequently make those files part of the current project."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -63,7 +63,7 @@ SCCRTN SccAddFromScc (
  `lplpFileNames` is a `char ***` pointer. The source control plug-in places a pointer to an array of pointers to file names, thus passing the list in the standard way for this API.
 
 > [!NOTE]
-> Initial versions of the VSSCI API did not provide a way to indicate the target project for the added files. To accommodate this, the semantics of the `lplpFIleNames` parameter have been enhanced to make it an in/out parameter rather than an output parameter. If only a single file is specified, that is, the value pointed to by `lpnFiles` = 1, then the first element of `lplpFileNames` contains the target folder. To use these new semantics, the IDE calls the `SccSetOption` function with the `nOption`parameter set to `SCC_OPT_SHARESUBPROJ`. If a source control plug-in does not support the semantics, it returns `SCC_E_OPTNOTSUPPORTED`. Doing so disables the use of the **Add from Source Control** feature. If a plug-in supports the **Add from Source Control** feature (`SCC_CAP_ADDFROMSCC`), then it must support the new semantics and return `SCC_I_SHARESUBPROJOK`.
+> Initial versions of the VSSCI API did not provide a way to indicate the target project for the added files. To accommodate this, the semantics of the `lplpFIleNames` parameter have been enhanced to make it an in/out parameter rather than an output parameter. If only a single file is specified, that is, the value pointed to by `lpnFiles` = 1, then the first element of `lplpFileNames` contains the target folder. To use these new semantics, the IDE calls the `SccSetOption` function with the `nOption` parameter set to `SCC_OPT_SHARESUBPROJ`. If a source control plug-in does not support the semantics, it returns `SCC_E_OPTNOTSUPPORTED`. Doing so disables the use of the **Add from Source Control** feature. If a plug-in supports the **Add from Source Control** feature (`SCC_CAP_ADDFROMSCC`), then it must support the new semantics and return `SCC_I_SHARESUBPROJOK`.
 
 ## See also
 - [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)

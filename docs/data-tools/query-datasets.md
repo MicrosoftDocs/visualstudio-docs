@@ -87,7 +87,7 @@ The following code examples demonstrate how to navigate up and down relationship
 
 - An `Orders` table.
 
-- A relationship named `FK_Orders_Customers`relating the two tables.
+- A relationship named `FK_Orders_Customers` relating the two tables.
 
 Additionally, both tables need to be filled with data for any records to be returned.
 

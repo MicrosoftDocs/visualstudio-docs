@@ -1,6 +1,6 @@
 ---
 title: Use Dotfuscator Community to protect .NET apps
-ms.date: 03/28/2019
+ms.date: 3/11/2025
 ms.devlang: dotnet
 ms.topic: overview
 keywords: Dotfuscator, Dotfuscator CE, Dotfuscator Community, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2019, Visual Studio 2017, Visual Studio
@@ -64,11 +64,8 @@ Examples of [.NET Obfuscation][obfuscation] and other [Application Protection][a
 * *[Anti-rooted device][root]* to detect if the application is running on a rooted Android device and terminate or respond to sessions on these devices.
 * *[Application expiration behaviors][shelflife]* that encode an "end-of-life" date and terminate expired application sessions.
 
-For details on these features, including how they fit into your application protection strategy, see the [Capabilities page][capabilities].
-
 Dotfuscator Community offers basic protection out-of-the-box.
 Even more application protection measures are available to registered users of Dotfuscator Community, and to users of ***PreEmptive Protection - Dotfuscator Professional***, the world's leading [.NET Obfuscator][net-obfuscator].
-For information about enhancing Dotfuscator, see the [Upgrades page][upgrades].
 
 ## Getting started
 
@@ -79,17 +76,19 @@ To begin using Dotfuscator Community from Visual Studio, type `dotfuscator` into
 
 You can also get the **latest version** of Dotfuscator Community from [the Dotfuscator Downloads page on preemptive.com][download].
 
+:::moniker range=">=vs-2019"
+
 ## Upgrade from Dotfuscator Community 5
 
 Learn how to upgrade to PreEmptive Protection - Dotfuscator Community 6.
 
-Depending on your installation history and version of Visual Studio, you may be currently running Dotfuscator Community 5, the prior major version. If so, you should upgrade, because it is important to ensure your code is being given the [latest protection measures][always-improving]. Upgrades are available at no charge.
+Depending on your installation history and version of Visual Studio, you might be currently running Dotfuscator Community 5, the prior major version. If so, you should upgrade, because it is important to ensure your code is being given the [latest protection measures][always-improving]. Upgrades are available at no charge.
 
 This article explains how to determine what version you currently have, how to upgrade to version 6 if necessary, and what features have been replaced or removed between the two versions.
 
 ### Determine the Dotfuscator version
 
-If you are unsure what version of Dotfuscator you are running, you can determine the version by doing one of the following options:
+If you are unsure what version of Dotfuscator you're running, you can determine the version by doing one of the following options:
 
 * Launch the Dotfuscator Community [graphical user interface][gui] (GUI) by going to Visual Studio's **Tools** menu and selecting **PreEmptive Protection - Dotfuscator Community**.
 
@@ -97,7 +96,7 @@ If you are unsure what version of Dotfuscator you are running, you can determine
 
   This screen lists Dotfuscator's version.
 
-* If you have Dotfuscator integrated into your build with the [command-line interface][cli] (such as with [Xamarin][xamarin] apps), you can also check your build logs for a line like the following example:
+* If you have Dotfuscator integrated into your build with the [command-line interface][cli], you can also check your build logs for a line like the following example:
 
   ```no-highlight
   Dotfuscator Community Version 5.42.0.9514-e0e25f754
@@ -115,6 +114,9 @@ This section includes sets of instructions for upgrading typical usages of Dotfu
 ### Install Dotfuscator 6
 
 Dotfuscator Community is distributed as an extension for Visual Studio. The instructions to install Dotfuscator 6 vary by which version of Visual Studio you have:
+
+* **Visual Studio 2022**
+  Dotfuscator Community 6 is included in Visual Studio 2022.
 
 * **Visual Studio 2019**
   Dotfuscator Community 6 is included in later versions of Visual Studio 2019 (version 16.10.0 and later).
@@ -140,7 +142,7 @@ If you had previously [registered][register] Dotfuscator Community 5, that regis
 
 #### Update paths to the CLI
 
-If you previously used Dotfuscator 5's [command-line interface][cli] (CLI) to protect your app, you need to update the path to the CLI in any projects and build scripts that reference it. It includes projects that use Dotfuscator Community's [Xamarin][xamarin] integration.
+If you previously used Dotfuscator 5's [command-line interface][cli] (CLI) to protect your app, you need to update the path to the CLI in any projects and build scripts that reference it.
 
 The reason a path to Dotfuscator's CLI may now be invalid is because the names of some of the executables installed with Dotfuscator Community have changed in Dotfuscator 6. This change makes these executable names the same across Dotfuscator Community and Dotfuscator Professional.
 
@@ -150,16 +152,14 @@ The reason a path to Dotfuscator's CLI may now be invalid is because the names o
 | [CLI][cli]   | `dotfuscatorCLI.exe`  | `dotfuscator.exe`     |
 
 > [!NOTE]
-> The CLI path may also be invalid if you upgrade between major versions of Visual Studio or switch Visual Studio editions, as the Dotfuscator CLI is installed under Visual Studio's installation directory.
+> The CLI path might also be invalid if you upgrade between major versions of Visual Studio or switch Visual Studio editions, as the Dotfuscator CLI is installed under Visual Studio's installation directory.
 The symptoms and solution listed below also apply to this scenario.
 
-If your build is using an invalid Dotfuscator CLI path, you may get errors such as one of the following examples:
+If your build is using an invalid Dotfuscator CLI path, you might get errors such as one of the following examples:
 
 `'"[...]\PreEmptiveSolutions\DotfuscatorCE\dotfuscatorCLI.exe"' is not recognized as an internal or external command, operable program or batch file.`
 
 `The command ""[...]\PreEmptiveSolutions\DotfuscatorCE\dotfuscatorCLI.exe" Dotfuscator.xml" exited with code 9009.`
-
-`When the DotfuscatorXamarinEnabled property is 'true', the Dotfuscator command line interface specified by DotfuscatorXamarinCliPath ('[...]\DotfuscatorCE\dotfuscatorCLI.exe') must exist.`
 
 To update your build to use the correct CLI path:
 
@@ -174,13 +174,8 @@ To update your build to use the correct CLI path:
 
     * For Visual Studio projects, open the project file (`.csproj`, `.vbproj`, or `.fsproj`) as plain text. [Open a project file](../solutions-and-projects-in-visual-studio.md#project-file) in Visual Studio.
 
-    * If you previously used Dotfuscator Community's [Xamarin][xamarin] integration to protect a Xamarin app, recall that Dotfuscator is integrated into each individual app project (such as `MyProject.Android.csproj` and `MyProject.iOS.csproj`) separately and not into shared library projects.
-     Update all of the app projects that are currently using Dotfuscator.
-
 5. Locate any places within your project or build configuration where an old path to Dotfuscator Community 5's CLI is used.
    It typically is a path ending in `dotfuscatorCLI.exe`.
-
-    * When updating a project using Dotfuscator Community's [Xamarin][xamarin] integration, the old path is located between the `<DotfuscatorXamarinCliPath>` and `</DotfuscatorXamarinCliPath>` tags.
 
 6. Replace the old paths located in step 5 with the new path you noted in step 3.
 
@@ -232,27 +227,6 @@ To upgrade a config file:
 5. If you are using a source control system, such as Git, then ensure the changes to the Dotfuscator config file are reflected in that system.
    Distribute these changes to the rest of your team as may be appropriate for your system and organization.
 
-#### Update Xamarin Integration
-
-If you integrated Dotfuscator Community 5 into your [Xamarin][xamarin] project, [one of the steps][xamarin-download] required you to download custom MSBuild targets and tasks, such as `PreEmptive.Dotfuscator.Xamarin.targets`. These targets and tasks have been updated in Dotfuscator Community 6, so you need to replace the old versions with the new versions.
-
-To update your Xamarin integration files:
-
-1. Locate the directory where you initially downloaded these files.
-   The example given in [the instructions][xamarin-download] uses a subdirectory named `PreEmptive.Dotfuscator.Xamarin`, but you may have downloaded the files into a different directory, which may or may not also have files unrelated to Dotfuscator.
-
-2. In the directory located in step 1, delete the files related to the Dotfuscator Xamarin integration.
-
-3. Download the ZIP file linked at the current version of the following User Guide section: [Download the custom set of MSBuild Targets and Tasks for Dotfuscator][xamarin-download].
-
-4. Extract the contents of the ZIP file to the same directory as noted in step 1.
-
-5. If you are using a source control system, such as Git, then ensure the removal of the old files and addition of the new files are reflected in that system.
-   Depending on the kind of system, these changes may appear as files changing contents, rather than being replaced.
-   Distribute these changes to the rest of your team as may be appropriate for your system and organization.
-
-Other subsections on this page also apply to Xamarin projects, so be sure to review the rest of this page's instructions.
-
 ### Update references to attribute libraries
 
 Dotfuscator allows you to configure certain features via [.NET attributes][dotnet-attributes] in your source code.
@@ -266,7 +240,7 @@ There have been no changes to the [Obfuscation Attributes][attributes-obfuscatio
 
 #### Check Attributes
 
-The library containing the [Check Attributes][attributes-checks] has changed. In Dotfuscator Community 5, it was distributed as a file alongside Dotfuscator itself. Starting in Dotfuscator Community 6, it is instead distributed as a public NuGet package.
+The library containing the [Check Attributes][attributes-checks] has changed. In Dotfuscator Community 5, it was distributed as a file alongside Dotfuscator itself. Starting in Dotfuscator Community 6, it's available as a public NuGet package.
 
 If you try to build a Visual Studio project that still references the old location, you may get errors like the following examples:
 
@@ -292,7 +266,7 @@ These parameters were ignored in Dotfuscator Community 5, but if your source cod
 
 ##### Instrumentation attributes
 
-Instrumentation attributes were used to configure the PreEmptive Analytics feature in Dotfuscator 5. However, PreEmptive Analytics has been removed in Dotfuscator 6; see the Removed Feature subsection [PreEmptive Analytics](#removed-analytics). As a result, the instrumentation attributes have also been removed.
+Instrumentation attributes were used to configure the PreEmptive Analytics feature in Dotfuscator 5. However, PreEmptive Analytics was removed in Dotfuscator 6; see the Removed Feature subsection [PreEmptive Analytics](#removed-analytics). As a result, the instrumentation attributes were also removed.
 
 If you try to build a Visual Studio project that used instrumentation attributes, you may get the same kinds of errors and warnings as noted in [Check Attributes](#steps-attrs-check), though the attribute names differ (for example, `FeatureAttribute` instead of `TamperCheckAttribute`).
 
@@ -306,7 +280,7 @@ You also need to remove the assembly references to the library that defined the 
 
 ## Removed features
 
-Dotfuscator Community 6 introduces breaking changes from Dotfuscator Community 5. If you have been using Dotfuscator Community 5, this section describes how to deal with the changes that might require build modifications or affect Dotfuscator's output.
+Dotfuscator Community 6 introduces breaking changes from Dotfuscator Community 5. If you upgraded from Dotfuscator Community 5, this section describes how to deal with the changes that might require build modifications or affect Dotfuscator's output.
 
 A full list of the changes is available in the [changelog][changelog].
 
@@ -330,20 +304,21 @@ The following application types are no longer supported in Dotfuscator 6:
 * WinRT (Windows 8 apps)
 * Silverlight
 * Unity (game engine)
-
-Additionally, Universal Windows Platform (UWP) apps are only supported for [Xamarin][xamarin] scenarios.
+* Universal Windows Platform (UWP)
 
 To protect other kinds of UWP apps, [upgrade to Dotfuscator Professional][pro] and follow the [Protect Your App][pro-pya] instructions.
 
 #### Unsupported inputs
 
-Dotfuscator Community no longer supports Universal Windows Platform (UWP) `.appx` packages as [inputs][inputs]. You can continue to protect Xamarin apps targeting UWP with the [Xamarin][xamarin] integration. To protect other kinds of UWP apps, [upgrade to Dotfuscator Professional][pro] and follow the [Protect Your App][pro-pya] instructions.
+Dotfuscator Community no longer supports Universal Windows Platform (UWP) `.appx` packages as [inputs][inputs]. To protect UWP apps, [upgrade to Dotfuscator Professional][pro] and follow the [Protect Your App][pro-pya] instructions.
 
 Additionally, `.xap` packages can no longer be used as inputs because Silverlight is no longer supported.
 
 #### Introduce explicit method overrides
 
-The Renaming option to introduce explicit method overrides has been removed from Dotfuscator. To use Dotfuscator 6, [upgrade your configuration file](#steps-config-files) to remove this setting.
+The Renaming option to introduce explicit method overrides was removed from Dotfuscator. To use Dotfuscator 6, [upgrade your configuration file](#steps-config-files) to remove this setting.
+
+:::moniker-end
 
 ## Full documentation
 
@@ -363,8 +338,6 @@ See [the full Dotfuscator Community User Guide at preemptive.com][full] for deta
 
 [gui]:  https://www.preemptive.com/dotfuscator/ce/docs/help/getting_started_gui.html
 [cli]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_cli.html
-[xamarin]: https://www.preemptive.com/dotfuscator/ce/docs/help/getting_started_xamarin.html
-[xamarin-download]: https://www.preemptive.com/dotfuscator/ce/docs/help/getting_started_xamarin.html#pctoc-download-the-custom-set-of-msbuild-targets-and-tasks-for-dotfuscator
 
 [inputs]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_inputs.html
 
@@ -376,7 +349,7 @@ See [the full Dotfuscator Community User Guide at preemptive.com][full] for deta
 [attributes-checks]: https://www.preemptive.com/dotfuscator/ce/docs/help/attributes_checks.html
 [attributes-obfuscation]: https://www.preemptive.com/dotfuscator/ce/docs/help/attributes_obfuscation.html
 
-[verbosity]: ../how-to-view-save-and-configure-build-log-files.md#to-change-the-amount-of-information-included-in-the-build-log
+[verbosity]: ../how-to-view-save-and-configure-build-log-files.md#specify-data-verbosity-for-build-logs
 [dotnet-attributes]: /dotnet/standard/attributes
 [application-insights]: /azure/azure-monitor/app/app-insights-overview
 [nuget-org]: https://www.nuget.org/

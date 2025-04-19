@@ -1,5 +1,5 @@
 ---
-description: "Reads ULONGLONG values in a property set."
+description: Reads ULONGLONG values in a property set.
 title: "IDiaPropertyStorage::ReadULONGLONG"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaPropertyStorage::ReadULONGLONG
 
 Reads `ULONGLONG` values in a property set.
@@ -19,7 +20,7 @@ Reads `ULONGLONG` values in a property set.
 ## Syntax
 
 ```C++
-HRESULT ReadULONGLONG ( 
+HRESULT ReadULONGLONG ( 
    PROPID     id,
    ULONGLONG* pValue
 );

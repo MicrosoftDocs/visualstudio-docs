@@ -1,6 +1,6 @@
 ---
-title: VS SDK NuGet packages
-description: Learn about VS SDK metapackage and other NuGet packages that you might need when migrating a Visual Studio extension to Visual Studio 2022.
+title: VSSDK NuGet packages
+description: Learn about VSSDK metapackage and other NuGet packages that you might need when migrating a Visual Studio extension to Visual Studio 2022.
 ms.date: 06/08/2021
 ms.topic: conceptual
 author: maiak
@@ -8,7 +8,7 @@ ms.author: maiak
 manager: mijacobs
 ms.subservice: extensibility-integration
 monikerRange: "vs-2022"
-feedback_system: GitHub
+
 ---
 # SDK reference packages
 
@@ -16,7 +16,7 @@ The easiest way to author Visual Studio extensions is with a reference to the
 [`Microsoft.VisualStudio.Sdk` NuGet package](https://www.nuget.org/packages/microsoft.visualstudio.sdk).
 This package is available for targeting Visual Studio 2017 (15.0), Visual Studio 2019 (16.0, 16.9), and now Visual Studio 2022.
 
-Depending on your extension, adding extra VS SDK packages that are not included in the above meta-package may be necessary.
+Depending on your extension, adding extra VSSDK packages that are not included in the above meta-package may be necessary.
 When referencing specific other SDK packages, these packages may vary across major VS versions.
 
 Note that many interop assemblies were embeddable prior to Visual Studio 2022. Beginning in Visual Studio 2022, embedding is no longer required or supported.

@@ -1,9 +1,9 @@
 ---
 title: Find and claim product keys in subscriptions
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/06/2024
+ms.date: 12/13/2024
 ms.topic: conceptual
 description: Find, claim, and export product keys in Visual Studio subscriptions, and review types of product keys such as OEM Key, Retail, and Static Activation Key.
 ---
@@ -19,7 +19,7 @@ You must be signed in to your Visual Studio subscription to view your product ke
 > ![Get Key from Downloads Page](_img/product-keys/download-get-key.png "Select Get key on the information page for any download to get a key for that product.")
 
 Some products bundle multiple editions of the product into a single download. In these cases, the product key entered determines which edition of the product is installed.
-Some keys are provided automatically, such as “static” keys, which you can use as many times as needed because activation isn't required. Other keys must be claimed by selecting the **Get Key** link for the product.
+Some keys are provided automatically, such as "static" keys, which you can use as many times as needed because activation isn't required. Other keys must be claimed by selecting the **Get Key** link for the product.
 
 Various key types are available, depending on the product.
 
@@ -28,16 +28,15 @@ Various key types are available, depending on the product.
 |  Key Type   |  Description |
 |-------------|--------------|
 |    Not Applicable  | No key is needed to install this product. |
-|    Retail | Retail keys allow multiple activations and are used for retail builds of the product. In many cases, 10 activations are allowed per key, though often more are allowed on the same machine. |
+|    Retail | Retail keys allow multiple activations and are used for retail builds of the product. |
 |    Multiple Activation | A Multiple Activation Key (MAK) enables you to activate multiple installations of a product with the same key. MAK are used with Volume Licensing   versions of products. Typically, only one MAK key is provided per subscription. |
 |    Static Activation Key | Static activation keys are provided for products that don't require activation. They can be used for any number of installations. |
 |    Custom Key | Custom keys provide special actions or information to activate or install the product. |
 |    VA 1.0  |  Multiple activation keys similar to a MAK. |
 |    OEM Key |  Original Equipment Manufacturer keys that allow multiple activations. |
-|    ADT4T Retail Key  | Retail keys for Azure Dev Tools for Teaching allow activation on one device. These keys are issued in batches and are primarily intended for student consumption. |
-|    ADT4T Lab Key | Lab use keys for allow multiple activations. Azure Dev Tools for Teaching Lab Keys are intended for use in university computer lab scenarios. |
-|    ADT4T MAK Key | MAK keys for Azure Dev Tools for Teaching program customers. |
-|
+|    Azure Dev Tools for Teaching Retail Key  | Retail keys for Azure Dev Tools for Teaching allow activation on one device. These keys are intended for student consumption. |
+|    Azure Dev Tools for Teaching Lab Key | Lab use keys for allow multiple activations. Azure Dev Tools for Teaching Lab Keys are intended for use in university computer lab scenarios. |
+|    Azure Dev Tools for Teaching MAK Key | MAK keys for Azure Dev Tools for Teaching program customers. |
 
 You can claim a key from the download page for the product, or you can search for the key you need on the [Product Keys](https://my.visualstudio.com/productkeys) page.
 
@@ -59,12 +58,20 @@ Notice that you can record a brief note about claimed keys in the **Notes** colu
 
 ### Exporting your claimed keys
 
-You can export a list of the keys you claim. This list includes a large selection of static and other keys that are automatically marked as “claimed” for you.
+You can export a list of the keys you claim. This list includes a large selection of static and other keys that are automatically marked as "claimed" for you.
 
 > [!IMPORTANT]
 > If your subscription expires, you'll no longer be able to claim new keys or export your claimed keys.
 
 To export your keys, select the **Export all keys** link at the far right of the Product Keys page. An .xml file entitled KeysExport.xml is created. You can choose to open or save the file. You need to open the file with an application capable of handling .xml files. For example, you can open the file as a read-only workbook in Microsoft Excel.
+
+### Office 2024 installation update
+
+As of October 2024, access to Office 2024 and related Office 2024 products is still available to subscribers; however, the link on the downloads page in the subscriptions portal will redirect you to setup.office.com where subscribers can create a new account or sign-in with their Microsoft account credentials. The product keys listed here are used on setup.office.com for obtaining and setting up Office applications.
+
+[Get help with setting up Office](https://support.microsoft.com/office/get-help-with-setup-office-com-6e1bc8e8-9e8e-4cce-8b9d-80dcbe17f253).
+
+For more information, visit [Office 2024 and Office LTSC 2024 FAQ](https://support.microsoft.com/office/office-2024-and-office-ltsc-2024-faq-1c454a7d-3d0a-4139-b1bd-c61725ea436c).
 
 ## Resources
 
@@ -79,4 +86,4 @@ To export your keys, select the **Export all keys** link at the far right of the
 
 ## Next steps
 
-When you're ready to download software and use keys, visit https://my.visualstudio.com/downloads.  For more information about downloading software, see the [downloading overview](download-software.md).
+When you're ready to download software and use keys, visit https://my.visualstudio.com/downloads. For more information about downloading software, see the [downloading overview](download-software.md).

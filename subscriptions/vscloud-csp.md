@@ -1,9 +1,9 @@
 ---
 title: Buy and manage cloud subscriptions for CSPs
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/06/2024
+ms.date: 09/11/2024
 ms.topic: conceptual
 description: Help for Cloud Solution Providers on how to buy and manage Visual Studio cloud subscriptions for customers and answers to frequently asked questions.
 ---
@@ -50,7 +50,7 @@ also access the Subscription Admin portal from the Partner Center by choosing **
 
 ## How to manage Visual Studio cloud subscriptions for your customer
 
-1. sign in to [Partner Center](https://partner.microsoft.com/dashboard/home).
+1. Sign in to [Partner Center](https://partner.microsoft.com/dashboard/home).
 0. Choose **Customers** and the customer's name.
 0. Choose **Service Management**.
 0. Choose **Manage Visual Studio Subscriptions**.

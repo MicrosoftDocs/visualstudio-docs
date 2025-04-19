@@ -46,7 +46,7 @@ Here are the steps to report a problem.
     ![Take a screenshot](../ide/media/feedback-screenshot.png)
     *Only Microsoft engineers can see the screenshot*
 
-<a name="trace"></a>1. Record your actions to reproduce the issue.
+1. <a name="trace"></a> Record your actions to reproduce the issue.
 
    One of the best ways to help the Visual Studio engineering team solve the problem is to provide a trace and heap dump files for them to look through. You can do that by recording the steps that resulted in the bug. A screenshot will be captured every time the mouse is clicked, but keyboard entry will not record screenshots.
    1. Click **Start recording**. Wait a moment for the permissions prompt.
@@ -59,12 +59,12 @@ Here are the steps to report a problem.
    > [!Warning]
    > There may be a several seconds delay between clicking **Start recording** and the prompt where Windows asks for permission to start a program with elevated permissions.
 
-5. Review the attached files and upload additional files if you believe it would help diagnose the issue.
+1. Review the attached files and upload additional files if you believe it would help diagnose the issue.
 
     ![Attached files](../ide/media/feedback-attachments.png)
     *Only Microsoft engineers can see the attached files*
 
-6. The last step is to hit the **Submit** button. Submitting the report will send it directly into the internal Visual Studio bug reporting system awaiting triage.
+1. The last step is to hit the **Submit** button. Submitting the report will send it directly into the internal Visual Studio bug reporting system awaiting triage.
 
 Each one of your problem reports becomes a work item in our core engineering system, empowering you to engage directly with our product teams to help us identify and resolve impactful issues. Your feedback submitted with rich diagnostic information is critical to improving the Visual Studio product family. We really appreciate you taking the time to report problems.
 
@@ -146,8 +146,8 @@ If you don't have a problem to report but want to suggest a feature, there's a p
 
 ## Related content
 
-* [Developer Community Guidelines](./developer-community-guidelines.md)
-* [Report a problem with Visual Studio for Mac](/visualstudio/mac/report-a-problem)
-* [Report a problem with C++](/cpp/how-to-report-a-problem-with-the-visual-cpp-toolset)
 * [Visual Studio Developer Community](https://developercommunity.visualstudio.com/home)
-* [Developer Community data privacy](developer-community-privacy.md)
+* [Report a problem with .NET](https://developercommunity.microsoft.com/dotnet/report)
+* [Report a problem with C++](https://developercommunity.microsoft.com/cpp/report)
+* [Developer Community Guidelines](/visualstudio/ide/developer-community-guidelines)
+* [Developer Community data privacy](/visualstudio/ide/developer-community-privacy)

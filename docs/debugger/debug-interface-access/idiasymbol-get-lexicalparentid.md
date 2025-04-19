@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_lexicalParentId
 
 Retrieves the lexical parent identifier of the symbol.
@@ -19,7 +20,7 @@ Retrieves the lexical parent identifier of the symbol.
 ## Syntax
 
 ```C++
-HRESULT get_lexicalParentId ( 
+HRESULT get_lexicalParentId ( 
    DWORD* pRetVal
 );
 ```

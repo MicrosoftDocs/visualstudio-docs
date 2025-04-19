@@ -1,10 +1,10 @@
 ---
 title: Should I use Microsoft Account or Microsoft Entra ID? 
 description: The admin has both an MSA and Microsoft Entra account but doesn't know which one to use
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.topic: include
 ms.assetid: 8cb1b018-b97a-42e9-a71e-68e60cb8cec1
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 ms.date: 08/18/2023
 user.type: admin

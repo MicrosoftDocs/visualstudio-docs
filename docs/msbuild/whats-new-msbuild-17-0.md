@@ -1,7 +1,7 @@
 ---
-title: What's New in MSBuild 17.0 
+title: What's New in MSBuild 17
 description: Review the changed, updated, and new features of MSBuild 17, including support for .NET Framework 4.7.2 and .NET 6.0, and access links to release notes.
-ms.date: 11/01/2023
+ms.date: 12/3/2024
 ms.topic: whats-new
 author: ghogen
 ms.author: ghogen
@@ -9,9 +9,9 @@ manager: mijacobs
 ms.subservice: msbuild
 monikerRange: '>=vs-2019'
 ---
-# What's new in MSBuild 17.0
+# What's new in MSBuild 17
 
-This article describes significant updates in MSBuild 17.0. For the detailed release notes, see [MSBuild 17.0.0](https://github.com/dotnet/msbuild/releases/tag/v17.0.0).
+This article describes significant updates in MSBuild 17.0. For the detailed release notes for each version, see [MSBuild releases](https://github.com/dotnet/msbuild/releases).
 
 MSBuild 17.0 shipped with [Visual Studio 2022](../ide/whats-new-visual-studio-2022.md) and [.NET 6.0](/dotnet/).
 
@@ -55,6 +55,7 @@ In MSBuild 17.8 and later, try the new Terminal Logger (`-terminalLogger` or `-t
 ## Other behavior changes
 
 - `MSBuildCopyContentTransitively` is now on by default, ensuring consistency in output folders on incremental builds.
+- In MSBuild 17.12 and later, MSBuild can build solution files in the `.slnx` format. See [MSBuild command-line reference](./msbuild-command-line-reference.md). For information about the `.slnx` solution file format, see [New, simpler solution file format](https://devblogs.microsoft.com/visualstudio/new-simpler-solution-file-format/).
 
 For more changes in this version, see the detailed release notes and for changes in MSBuild versions that you can opt out of, see [change waves](change-waves.md).
 

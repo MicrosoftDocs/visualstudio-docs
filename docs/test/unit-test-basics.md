@@ -1,7 +1,7 @@
 ---
-title: Run unit tests by using Test Explorer
+title: Unit test basics with Test Explorer
 description: Learn how Visual Studio Test Explorer provides a flexible and efficient way to run your unit tests and view their results. 
-ms.date: 11/29/2023
+ms.date: 2/28/2025
 ms.topic: conceptual
 f1_keywords:
 - vs.UnitTest.CreateUnitTest
@@ -195,8 +195,6 @@ For more information about the Microsoft unit testing frameworks, see one of the
 
 - [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
 
-- [Use the MSTest framework in unit tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
-
 ## Set timeouts for unit tests
 
 If you're using the MSTest framework, you can use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute> to set a timeout on an individual test method:
@@ -344,3 +342,7 @@ Learn more about [isolating unit test methods with Microsoft Fakes](../test/isol
 ![Select other installed unit test framework](../test/media/createunittestsdialogextensions.png)
 
 Your unit test stubs will be created using the selected framework.
+
+**Q: How do I export my unit test results?**
+
+**A:** You can use a *.runsettings* file with either the command-line or the Visual Studio IDE to configure unit tests and set the test results file. For more information, see [LoggerRunSettings element](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#loggerrunsettings-element).

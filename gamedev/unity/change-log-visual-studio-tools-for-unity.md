@@ -13,6 +13,113 @@ manager: crdun
 
 Visual Studio Tools for Unity change log.
 
+## 17.13.1.0
+Released February 11, 2025
+
+### New Features
+
+- **Integration:**
+
+  - Add support for `Awaitable` and `Awaitable<T>` in all compatible analyzers and suppressors.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Improved handling of solution events for the UPE.
+
+## 17.13.0.0
+Released January 22, 2025
+
+### Bug fixes
+
+- **Debugging:**
+
+  - Properly report line and column information to the IDE.
+
+  - Prevent exception when evaluating on a stackframe that doesn't exist anymore.
+
+  - Fixed stepping issues.
+
+## 17.12.2.0
+Released Janary 7, 2025
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed [`UNT0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0006.md) when a unity message is wrongly referenced.
+
+- **Debugging:**
+
+  - Improved type-filtering stability when debugging.
+
+## 17.12.1.0
+Released November 12, 2024
+
+### Bug fixes
+
+- **Integration:**
+
+  - Improved Editor detection (and introduce a new setting to filter background processes).
+
+  - Improved [`UNT0014`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0014.md) detection consistency.
+
+- **Debugging:**
+
+  - Improved handling of dynamically generated assemblies.
+
+  - Properly display the name of the domain the modules belong to.
+
+## 17.12.0.0
+Released September 10, 2024
+
+### New Features
+
+- **Integration:**
+
+  - Added keyboard search to the UPE
+
+### Bug fixes
+
+- **Debugging:**
+
+  - Fixed mapping of package cache files.
+
+  - Properly display the name of the domain the modules belong to.
+
+## 17.11.2.0
+Released August 13, 2024
+
+### Bug fixes
+
+- **Integration:**
+
+  - Improve accessibility.
+
+  - Simplify [`UNT0026`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0026.md), to only support variable declaration constructs.
+
+## 17.11.1.0  
+Released July 23, 2024
+
+### Bug fixes
+
+- **Integration:**
+
+  - Stability fixes.
+
+  - fix android player detection.
+
+  - improve editor and player detection.
+
+## 17.11.0.0
+Released June 11, 2024
+
+### New Features
+
+- **Integration:**
+
+  - Add light-build support for SDK-style projects
 
 ## 17.10.1.0
 Released May 21, 2024

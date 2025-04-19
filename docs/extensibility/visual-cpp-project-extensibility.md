@@ -359,7 +359,7 @@ F:\TEST\CONSOLEAPPLICATION1\DEBUG\CONSOLEAPPLICATION1.PDB
 
 In the IDE, .vcxproj projects use a set of MSBuild targets to get additional information from the project and to regenerate output files. Some of these targets are only used in design-time builds, but many of them are used in both regular builds and design-time builds.
 
-For general information about design-time builds, see the CPS documentation for [Design-time builds](https://github.com/dotnet/project-system/blob/master/docs/design-time-builds.md). This documentation is only partly applicable to Visual C++ projects.
+For general information about design-time builds, see the CPS documentation for [Design-time builds](https://github.com/dotnet/project-system/blob/main/docs/design-time-builds.md). This documentation is only partly applicable to Visual C++ projects.
 
 The `CompileDesignTime` and `Compile` targets mentioned in the design-time builds documentation never run for .vcxproj projects. Visual C++ .vcxproj projects use different design-time targets to get IntelliSense information.
 
@@ -632,7 +632,7 @@ To disable project upgrades, use a `NoUpgrade` value:
 
 To improve performance when working with large C++ solutions in Visual Studio 2017, the [project cache](https://devblogs.microsoft.com/cppblog/faster-c-solution-load-with-vs-15/) was introduced. It's implemented as a SQLite database populated with project data, and then used to load projects without loading MSBuild or CPS projects into memory.
 
-Because there are no CPS objects present for .vcxproj projects loaded from cache, the extension's MEF components that import `UnconfiguredProject` or `ConfiguredProject` can`t be created. To support extensibility, the project cache isn't used when Visual Studio detects whether a project uses (or is likely to use) MEF extensions.
+Because there are no CPS objects present for .vcxproj projects loaded from cache, the extension's MEF components that import `UnconfiguredProject` or `ConfiguredProject` can't be created. To support extensibility, the project cache isn't used when Visual Studio detects whether a project uses (or is likely to use) MEF extensions.
 
 These project types are always fully loaded and have CPS objects in memory, so all MEF extensions are created for them:
 

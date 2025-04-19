@@ -1,7 +1,7 @@
 ---
 title: Debug .NET apps in Linux using WSL
 description: Discover how to run and debug your .NET applications in WSL without leaving the Visual Studio integrated development environment (IDE).
-ms.date: "06/06/2023"
+ms.date: "07/03/2024"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugging, linux"
@@ -15,13 +15,13 @@ monikerRange: '>= vs-2019'
 
 # Debug .NET Apps in WSL with Visual Studio
 
-You can easily run and debug your .NET Core and .NET 5+ apps in Linux without leaving Visual Studio using WSL. If you are a cross-platform developer, you can use this method as a simple way to test more of your target environments.
+You can easily run and debug your .NET Core and .NET 5+ apps in Linux without leaving Visual Studio using Windows Subsystem for Linux (WSL). If you are a cross-platform developer, you can use this method as a simple way to test more of your target environments.
 
 For a Windows .NET user targeting Linux, WSL lives in a sweet spot between production realism and productivity. In Visual Studio, you can already debug in a remote Linux environment using the [remote debugger](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md), or with containers using the [Container Tools](../containers/overview.md). When production realism is your main concern, you should use one of those options. When an easy and fast inner-loop is more important, WSL is a great option.
 
-You don't have to choose just one method! You can have a launch profile for Docker and WSL in the same project and pick whichever is appropriate for a particular run. And once your app is deployed, you can always use the remote debugger to attach to it if there's an issue.
+You don't have to choose just one method! You can have a launch profile for Docker and WSL in the same project and pick whichever is appropriate for a particular run. And once your app is deployed, you can always use the remote debugger to attach to it if there's an issue. To debug a Linux Docker container running in WSL, see [Attach to a process running on a Docker container](../debugger/attach-to-process-running-in-docker-container.md).
 
->[!NOTE]
+> [!NOTE]
 > Starting in Visual Studio 2019 version 16.11 Preview 3, the WSL 2 debug target was renamed to WSL.
 
 ## Prerequisites
@@ -48,7 +48,7 @@ You don't have to choose just one method! You can have a launch profile for Dock
 
     ::: moniker range=">=vs-2022"
 
-    >[!NOTE]
+    > [!NOTE]
     > Starting in Visual Studio 2022 Preview 3, the command name in the Launch Profile changed from WSL2 to WSL.
 
     ```json
@@ -88,7 +88,7 @@ You don't have to choose just one method! You can have a launch profile for Dock
 
    An easy way to verify that you're running in Linux is to check the value of `Environment.OSVersion`.
 
->[!NOTE]
+> [!NOTE]
 > Only Ubuntu and Debian have been tested and are supported. Other distributions supported by .NET should work but require manually installing the [.NET Runtime](https://aka.ms/wsldotnet) and [Curl](https://curl.haxx.se/).
 
 ## Choose a specific distribution
@@ -183,7 +183,12 @@ In addition to debugging from app startup using F5, you can debug by attaching t
 
 1. Choose **Attach**.
 
-   ![Screenshot of WSL process in the attach to process dialog box](media/linux-wsl2-debugging-attach-to-process.png)
+   ::: moniker range=">=vs-2022"
+   ![Screenshot of WSL process in the attach to process dialog box.](media/vs-2022/linux-wsl2-debugging-attach-to-process.png)
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   ![Screenshot of WSL process in the attach to process dialog box.](media/linux-wsl2-debugging-attach-to-process.png)
+   ::: moniker-end
 
 ## WSL settings in the launch profile
 
@@ -206,7 +211,7 @@ Supported tokens:
 
 {*OutDir*} - The value of the MSBuild property `OutDir`
 
->[!NOTE]
+> [!NOTE]
 > All paths are for WSL not Windows.
 
 ## Pass a command line argument

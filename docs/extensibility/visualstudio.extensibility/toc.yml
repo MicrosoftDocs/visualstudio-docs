@@ -10,6 +10,10 @@ items:
     href: ./get-started/oop-extensibility-model-overview.md
   - name: In-process extensions
     href: ./get-started/in-proc-extensions.md
+  - name: Compare extensibility models
+    href: extensibility-models.md
+  - name: Managing extension .NET targets
+    href: dotnet-management-overview.md
 - name: Get started
   expanded: true
   items:
@@ -29,12 +33,24 @@ items:
     href: ./command/menus-and-toolbars.md
 - name: Editor
   items:
-  - name: About the editor
+  - name: Extending the editor
     href: ./editor/editor.md
+  - name: Walkthroughs
+    items:
+      - name: Working with text in the editor
+        href: ./editor/walkthroughs/working-with-text.md
+      - name: Changing text in the editor
+        href: ./editor/walkthroughs/editing-text.md
+      - name: Extending Visual Studio editor with a new margin
+        href: ./editor/walkthroughs/textview-margin.md
+      - name: Extending Visual Studio editor with a new CodeLens
+        href: ./editor/walkthroughs/codelens.md
+      - name: Extending Visual Studio editor with a new tagger
+        href: ./editor/walkthroughs/taggers.md  
   - name: Editor concepts
     href: ./editor/editor-concepts.md
   - name: Editor RPC
-    href: ./editor/editor-rpc.md
+    href: ./editor/editor-rpc.md  
 - name: Documents
   href: ./document/documents.md
 - name: Output window
@@ -47,6 +63,8 @@ items:
     href: ./project/project.md
   - name: Project query API concepts
     href: ./project/project-concepts.md
+- name: Settings
+  href: ./settings/settings.md
 - name: Tool windows
   href: ./tool-window/tool-window.md
 - name: Prompts
@@ -67,14 +85,18 @@ items:
     href: ./inside-the-sdk/extension-anatomy.md
   - name: Activation constraints
     href: ./inside-the-sdk/activation-constraints.md
+  - name: Remote UI
+    href: ./inside-the-sdk/remote-ui.md
   - name: Advanced Remote UI
     href: ./inside-the-sdk/advanced-remote-ui.md
+  - name: Other Remote UI concepts
+    href: ./inside-the-sdk/other-remote-ui.md
   - name: Contributions and configurations
     href: ./inside-the-sdk/contributions-and-configurations.md
+  - name: Dependency injection
+    href: ./inside-the-sdk/dependency-injection.md    
   - name: Inside the SDK
     href: ./inside-the-sdk/inside-the-sdk.md
   - name: Logging
     href: ./inside-the-sdk/logging.md
-  - name: Remote UI
-    href: ./inside-the-sdk/remote-ui.md
-
+    

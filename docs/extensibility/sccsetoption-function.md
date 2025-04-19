@@ -1,6 +1,6 @@
 ---
-description: "This function sets options that control the behavior of the source control plug-in."
 title: SccSetOption Function
+description: "This function sets options that control the behavior of the source control plug-in."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -75,7 +75,7 @@ SCCRTN SccSetOption(
  If nOption is set to `SCC_OPT_SCCCHECKOUTONLY`, the IDE is indicating that the files in the currently open project should never be checked out manually through the source control system's user interface. Instead, the files should be checked out only through the source control plug-in under IDE control. If `dwValue` is set to `SCC_OPT_SCO_NO`, it means that the files should be treated normally by the plug-in and can be checked out through the source control UI. If `dwValue` is set to `SCC_OPT_SCO_YES`, then only the plug-in is allowed to check out files, and the source control system's UI should not be invoked. This is for situations where the IDE might have "pseudo-files" that make sense to check out only through the IDE.
 
 ## SCC_OPT_SHARESUBPROJ
- If`nOption` is set to `SCC_OPT_SHARESUBPROJ`, the IDE is testing whether the source control plug-in can use a specified local folder when adding files from source control. The value of the `dwVal` parameter does not matter in this case. If the plug-in allows the IDE to specify the local destination folder where the files will be added from source control when the [SccAddFromScc](../extensibility/sccaddfromscc-function.md) is called, then the plug-in must return `SCC_I_SHARESUBPROJOK` when the `SccSetOption` function is called. The IDE then uses the `lplpFileNames` parameter of the `SccAddFromScc` function to pass in the destination folder. The plug-in uses that destination folder to place the files added from source control. If the plug-in does not return `SCC_I_SHARESUBPROJOK` when the `SCC_OPT_SHARESUBPROJ` option is set, the IDE assumes that the plug-in is able to add files only in the current local folder.
+ If `nOption` is set to `SCC_OPT_SHARESUBPROJ`, the IDE is testing whether the source control plug-in can use a specified local folder when adding files from source control. The value of the `dwVal` parameter does not matter in this case. If the plug-in allows the IDE to specify the local destination folder where the files will be added from source control when the [SccAddFromScc](../extensibility/sccaddfromscc-function.md) is called, then the plug-in must return `SCC_I_SHARESUBPROJOK` when the `SccSetOption` function is called. The IDE then uses the `lplpFileNames` parameter of the `SccAddFromScc` function to pass in the destination folder. The plug-in uses that destination folder to place the files added from source control. If the plug-in does not return `SCC_I_SHARESUBPROJOK` when the `SCC_OPT_SHARESUBPROJ` option is set, the IDE assumes that the plug-in is able to add files only in the current local folder.
 
 ## See also
 - [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

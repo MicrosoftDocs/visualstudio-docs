@@ -8,7 +8,7 @@ ms.author: maiak
 manager: mijacobs
 ms.subservice: extensibility-integration
 monikerRange: "vs-2022"
-feedback_system: GitHub
+
 ---
 # ImageOptimizer - Update a Visual Studio extension step by step
 

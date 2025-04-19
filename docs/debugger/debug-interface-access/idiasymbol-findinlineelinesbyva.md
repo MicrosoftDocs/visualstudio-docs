@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::findInlineeLinesByVA
 
 Retrieves an enumeration that allows a client to iterate through the line number information of all functions that are inlined, directly or indirectly, in this symbol within the specified virtual address (VA).
@@ -17,7 +18,7 @@ Retrieves an enumeration that allows a client to iterate through the line number
 ## Syntax
 
 ```C++
-HRESULT findInlineeLinesByVA ( 
+HRESULT findInlineeLinesByVA ( 
    ULONGLONG             va,
    DWORD                 length,
    IDiaEnumLineNumbers** ppResult

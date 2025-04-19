@@ -2,7 +2,7 @@
 title: Blend for Visual Studio feature tour
 titleSuffix: ''
 description: Explore the features and workspace UI in Blend for Visual Studio, a component for designing XAML-based Windows and Web applications.
-ms.date: 07/31/2019
+ms.date: 07/31/2024
 ms.topic: overview
 f1_keywords:
 - Blend.Start.Dev12
@@ -11,6 +11,7 @@ ms.author: maleger
 manager: mijacobs
 ms.subservice: xaml-tools
 ---
+
 # Blend for Visual Studio overview
 
 Blend for Visual Studio helps you design XAML-based Windows and Web applications. It provides the same basic XAML design experience as Visual Studio and adds visual designers for advanced tasks such as animations and behaviors. For a comparison between Blend and Visual Studio, see [Design XAML in Visual Studio and Blend for Visual Studio](../xaml-tools/designing-xaml-in-visual-studio.md).

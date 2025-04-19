@@ -20,13 +20,9 @@ With Visual Studio, you can connect any of the following to Azure Application In
 - .NET Core Worker Role
 - Azure Functions
 - Universal Windows Platform App
-- Xamarin
 - Cordova
 
 The connected service functionality adds all the needed references and connection code to your project, and modifies your configuration files appropriately.
-
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Connected services in Visual Studio for Mac](/visualstudio/mac/connected-services).
 
 ## Prerequisites
 
@@ -45,6 +41,8 @@ The connected service functionality adds all the needed references and connectio
 1. In the **Connected Services** tab, select the + icon for **Service Dependencies**.
 
     ![Screenshot showing "Add Service Dependency" screen.](./media/vs-azure-tools-connected-services-storage/vs-2019/connected-services-tab.png)
+
+   If you don't see the **Connected Services** node, choose **Project** > **Connected Services** > **Add**.
 
 1. In the **Add Dependency** page, select **Azure Application Insights**.
 
@@ -94,6 +92,8 @@ The connected service functionality adds all the needed references and connectio
 
    ![Screenshot showing Connected Services context menu options.](./media/azure-app-insights-add-connected-service/vs-2022/add-connected-service-context-menu-2.png)
 
+   If you don't see the **Connected Services** node, choose **Project** > **Connected Services** > **Add**.
+
 1. Choose **Azure Application Insights**. The **Connect to dependency** page appears. You should see two options, one for a local emulator, **Application Insights Sdk (Local)**, and one for connecting to the live Azure Application Insights service. You can reduce cost and simplify early development by starting with the local emulator. You can migrate to the live service later by repeating these steps and choosing the other option.
 
    ![Screenshot showing Application Insights choices.](./media/azure-app-insights-add-connected-service/vs-2022/application-insights-choices-2.png)
@@ -118,9 +118,16 @@ The connected service functionality adds all the needed references and connectio
 
    1. When the **Configure Azure Application Insights** screen is displayed, the new component appears in the list. Select the new component in the list, and select **Next**.
 
-1. Enter an instrumentation key name, or choose the default, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
+1. Enter a name for the connection setting, and an instrumentation key name, or accept the defaults.
 
-   ![Screenshot showing "Specify connection string" screen.](./media/azure-app-insights-add-connected-service/connection-string.png)
+   ![Screenshot showing "Provide connection configuration settings" screen.](./media/vs-2022/connect-to-application-insights-connection-setting.png)
+
+   > [!NOTE]
+   > For improved security, in Visual Studio 17.12 and later, this step creates a connection setting name; previous versions create a connection string. Connection strings stored in the local filesystem can lead to a security risk, if they're inadvertently exposed.
+
+1. Click **Additional settings**, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
+
+   ![Screenshot showing Connect to Application Insights - additional settings screen.](./media/vs-2022/connect-to-application-insights-additional-settings.png)
 
 1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
 
@@ -152,4 +159,3 @@ The links take you to the section of the articles after the initial setup steps,
 
 - [Azure Monitor product page](https://azure.microsoft.com/services/monitor/)
 - [Azure App Insights documentation](/azure/azure-monitor/app/app-insights-overview/)
-- [Connected services (Visual Studio for Mac)](/visualstudio/mac/connected-services)

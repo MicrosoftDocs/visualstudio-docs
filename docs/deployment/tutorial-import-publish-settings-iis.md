@@ -1,7 +1,7 @@
 ---
 title: "Publish to IIS by importing publish settings"
 description: Create and import a publishing profile (.pubxml file) to deploy ASP.NET and ASP.NET Core web applications from Visual Studio to IIS.
-ms.date: 10/17/2023
+ms.date: 12/3/2024
 ms.topic: tutorial
 helpviewer_keywords:
   - "deployment, publish settings"
@@ -26,7 +26,7 @@ These steps apply to ASP.NET and ASP.NET Core web applications.
   * Install the latest updates in Visual Studio by selecting **Help** > **Check for Updates**.
   * Add the workload by selecting **Tools** > **Get Tools and Features**.
 
-* On your server, you must be running Windows Server 2012 or greater, and you must have the [IIS Web Server role](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45#solution) correctly installed (required to generate the publish settings file (*\*.publishsettings*)). Either ASP.NET 4.5 or ASP.NET Core must also be installed on the server. The steps in this tutorial were tested in Windows Server 2022.
+* On your server, you must be running Windows Server 2012 or greater, and you must have the [IIS Web Server role](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45#solution) correctly installed (required to generate the publish settings file (`.publishsettings`). Either ASP.NET 4.5 or ASP.NET Core must also be installed on the server. The steps in this tutorial were tested in Windows Server 2022.
 
   * To set up ASP.NET Core, see [Host ASP.NET Core on Windows with IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration). For ASP.NET Core, make sure you configure the Application Pool to use **No Managed Code**, as described in the article.
 

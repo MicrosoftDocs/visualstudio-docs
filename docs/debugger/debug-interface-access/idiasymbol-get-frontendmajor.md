@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the front end major version number."
+description: Retrieves the front end major version number.
 title: "IDiaSymbol::get_frontEndMajor"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_frontEndMajor
 
 Retrieves the front end major version number.
@@ -19,7 +20,7 @@ Retrieves the front end major version number.
 ## Syntax
 
 ```C++
-HRESULT get_frontEndMajor ( 
+HRESULT get_frontEndMajor ( 
    DWORD* pRetVal
 );
 ```

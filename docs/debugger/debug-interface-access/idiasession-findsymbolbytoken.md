@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the symbol that contains a specified metadata token."
+description: Retrieves the symbol that contains a specified metadata token.
 title: "IDiaSession::findSymbolByToken"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findSymbolByToken
 
 Retrieves the symbol that contains a specified metadata token.
@@ -19,7 +20,7 @@ Retrieves the symbol that contains a specified metadata token.
 ## Syntax
 
 ```C++
-HRESULT findSymbolByToken ( 
+HRESULT findSymbolByToken ( 
    ULONG        token,
    SymTagEnum   symtag,
    IDiaSymbol** ppSymbol

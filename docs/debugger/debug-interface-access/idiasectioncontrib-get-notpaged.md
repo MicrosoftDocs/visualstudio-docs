@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that indicates whether the section cannot be paged out of memory."
+description: Retrieves a flag that indicates whether the section cannot be paged out of memory.
 title: "IDiaSectionContrib::get_notPaged"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_notPaged
 
 Retrieves a flag that indicates whether the section cannot be paged out of memory.
@@ -19,7 +20,7 @@ Retrieves a flag that indicates whether the section cannot be paged out of memor
 ## Syntax
 
 ```C++
-HRESULT get_notPaged ( 
+HRESULT get_notPaged ( 
    BOOL* pRetVal
 );
 ```

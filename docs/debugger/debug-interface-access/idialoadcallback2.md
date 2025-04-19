@@ -1,6 +1,6 @@
 ---
-description: "Receives callbacks from the DIA symbol locating procedure, allowing restrictions to be imposed on the locating process."
-title: "IDiaLoadCallback2"
+description: Receives callbacks from the DIA symbol locating procedure, allowing restrictions to be imposed on the locating process.
+title: IDiaLoadCallback2
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,15 +12,14 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaLoadCallback2
 
-Receives callbacks from the DIA symbol locating procedure, allowing restrictions to be imposed on the locating process.
+Receives callbacks from the Debug Interface Access (DIA) symbol locating procedure, allowing restrictions to be imposed on the locating process.
 
 ## Syntax
 
-```
-IDiaLoadCallback2 : IDiaLoadCallback
-```
+`IDiaLoadCallback2 : IDiaLoadCallback`
 
 ## Methods in Vtable Order
  In addition to the methods in the [IDiaLoadCallback](../../debugger/debug-interface-access/idialoadcallback.md) interface, this interface exposes the following methods:

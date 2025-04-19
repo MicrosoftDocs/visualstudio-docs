@@ -1,6 +1,6 @@
 ---
-description: "Enables a client application to supply bytes of an executable file as  specified by file position."
-title: "IDiaReadExeAtOffsetCallback"
+description: Enables a client application to supply bytes of an executable file as specified by file position.
+title: IDiaReadExeAtOffsetCallback
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,15 +12,14 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaReadExeAtOffsetCallback
 
 Enables a client application to supply bytes of an executable file as  specified by file position.
 
 ## Syntax
 
-```
-IDiaReadExeAtOffsetCallback : IUnknown
-```
+`IDiaReadExeAtOffsetCallback : IUnknown`
 
 ## Methods in Vtable Order
  The following table shows the methods of `IDiaReadExeAtOffsetCallback`.

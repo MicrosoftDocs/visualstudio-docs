@@ -1,9 +1,9 @@
 ---
 title: Sign into subscription with your GitHub account
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 11/02/2023
+ms.date: 09/17/2024
 ms.topic: conceptual
 description: Sign into your Visual Studio subscriptions with your GitHub account for verification and find answers to frequently asked questions.
 ---

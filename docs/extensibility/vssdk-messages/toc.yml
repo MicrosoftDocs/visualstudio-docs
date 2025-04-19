@@ -1,5 +1,5 @@
 items:
-- name: VS SDK messages
+- name: VSSDK messages
   href: index.md
 - name: Error messages
   items:

@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_isStatic
 
 Retrieves a flag that specifies whether the function or thunk layer has been marked as static.

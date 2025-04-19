@@ -32,6 +32,7 @@ The following table describes the parameters of the `AssignCulture` task.
 |`AssignedFilesWithNoCulture`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the subset of the items from the `AssignedFiles` parameter that don't have a `Culture` metadata entry.|
 |`CultureNeutralAssignedFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the same list of items that is produced in the `AssignedFiles` parameter, except with the culture removed from the file name.<br /><br /> The task only removes the culture from the file name if it's a valid culture identifier.|
 |`Files`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the list of files with embedded culture names to assign a culture to. The task tries to figure out if each file is a culture-specific resource, and if so, what culture. To skip this detection process and force a file to be culture-neutral, set the metadata entry `WithCulture` to `false`.|
+|`RespectAlreadyAssignedItemCulture`|Optional `bool` parameter.<br /><br /> If set to `true` - the already set Culture metadata on the `Files` item parameter is respected and the `CultureNeutralAssignedFiles` will be populated with unchanged filename from `Files`.|
 
 ## Remarks
 

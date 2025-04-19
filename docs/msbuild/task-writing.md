@@ -165,6 +165,10 @@ A task should not depend on any relative order of parameter-property setter invo
 
 The MSBuild natively handles properties of type `string`, `bool`, `ITaskItem` and `ITaskItem[]`. If a task accepts a parameter of a different type, MSBuild invokes <xref:System.Convert.ChangeType%2A> to convert from `string` (with all property and item references expanded) to the destination type. If the conversion fails for any input parameter, MSBuild emits an error and does not call the task's `Execute()` method.
 
+## Packaging the task
+
+The recommended way to distribute a task is in a NuGet package. The package needs to bundle all dependencies. This topic is explained thoroughly in a tutorial that walks you through creating a custom task. See [Create a NuGet package](tutorial-custom-task-code-generation.md#create-a-nuget-package).
+
 ## Example 1
 
 ### Description

@@ -128,6 +128,36 @@
           href: idiadatasource-loaddatafrompdb.md
         - name: IDiaDataSource::openSession
           href: idiadatasource-opensession.md
+        - name: IDiaDataSource::loadDataFromCodeViewInfo
+          href: idiadatasource-loaddatafromcodeviewinfo.md
+        - name: IDiaDataSource::loadDataFromMiscInfo
+          href: idiadatasource-loaddatafrommiscinfo.md
+      - name: IDiaDataSourceEx
+        items:
+        - name: IDiaDataSourceEx
+          href: idiadatasourceex.md
+        - name: IDiaDataSourceEx::loadDataFromPdbEx
+          href: idiadatasourceex-loaddatafrompdbex.md
+        - name: IDiaDataSourceEx::loadAndValidateDataFromPdbEx
+          href: idiadatasourceex-loadandvalidatedatafrompdbex.md
+        - name: IDiaDataSourceEx::loadDataForExeEx
+          href: idiadatasourceex-loaddataforexeex.md
+        - name: IDiaDataSourceEx::loadDataFromIStreamEx
+          href: idiadatasourceex-loaddatafromistreamex.md
+        - name: IDiaDataSourceEx::getStreamSize
+          href: idiadatasourceex-getstreamsize.md
+        - name: IDiaDataSourceEx::getStreamRawData
+          href: idiadatasourceex-getstreamrawdata.md
+        - name: IDiaDataSourceEx::setPfnMiniPDBErrorCallback2
+          href: idiadatasourceex-setpfnminipdberrorcallback2.md
+        - name: IDiaDataSourceEx::ValidatePdb
+          href: idiadatasourceex-validatepdb.md
+      - name: IDiaDataSourceEx2
+        items:
+        - name: IDiaDataSourceEx2
+          href: idiadatasourceex2.md
+        - name: IDiaDataSourceEx2::findNamedStreams
+          href: idiadatasourceex2-findnamedstreams.md
       - name: IDiaEnumDebugStreamData
         items:
         - name: IDiaEnumDebugStreamData
@@ -206,6 +236,24 @@
           href: idiaenuminjectedsources-reset.md
         - name: IDiaEnumInjectedSources::Skip
           href: idiaenuminjectedsources-skip.md
+      - name: IDiaEnumInputAssemblyFiles
+        items:
+        - name: IDiaEnumInputAssemblyFiles
+          href: idiaenuminputassemblyfiles.md
+        - name: IDiaEnumInputAssemblyFiles::Clone
+          href: idiaenuminputassemblyfiles-clone.md
+        - name: IDiaEnumInputAssemblyFiles::get__NewEnum
+          href: idiaenuminputassemblyfiles-get-newenum.md
+        - name: IDiaEnumInputAssemblyFiles::get_Count
+          href: idiaenuminputassemblyfiles-get-count.md
+        - name: IDiaEnumInputAssemblyFiles::Item
+          href: idiaenuminputassemblyfiles-item.md
+        - name: IDiaEnumInputAssemblyFiles::Next
+          href: idiaenuminputassemblyfiles-next.md
+        - name: IDiaEnumInputAssemblyFiles::Reset
+          href: idiaenuminputassemblyfiles-reset.md
+        - name: IDiaEnumInputAssemblyFiles::Skip
+          href: idiaenuminputassemblyfiles-skip.md
       - name: IDiaEnumLineNumbers
         items:
         - name: IDiaEnumLineNumbers
@@ -224,6 +272,22 @@
           href: idiaenumlinenumbers-reset.md
         - name: IDiaEnumLineNumbers::Skip
           href: idiaenumlinenumbers-skip.md
+      - name: IDiaEnumNamedStreams
+        items:
+        - name: IDiaEnumNamedStreams
+          href: idiaenumnamedstreams.md
+        - name: IDiaEnumNamedStreams::Clone
+          href: idiaenumnamedstreams-clone.md
+        - name: IDiaEnumNamedStreams::get__NewEnum
+          href: idiaenumnamedstreams-get-newenum.md
+        - name: IDiaEnumNamedStreams::get_Count
+          href: idiaenumnamedstreams-get-count.md
+        - name: IDiaEnumNamedStreams::Next
+          href: idiaenumnamedstreams-next.md
+        - name: IDiaEnumNamedStreams::Reset
+          href: idiaenumnamedstreams-reset.md
+        - name: IDiaEnumNamedStreams::Skip
+          href: idiaenumnamedstreams-skip.md
       - name: IDiaEnumSectionContribs
         items:
         - name: IDiaEnumSectionContribs
@@ -278,6 +342,30 @@
           href: idiaenumsourcefiles-reset.md
         - name: IDiaEnumSourceFiles::Skip
           href: idiaenumsourcefiles-skip.md
+      - name: IDiaEnumSourceLink
+        items:
+        - name: IDiaEnumSourceLink
+          href: idiaenumsourcelink.md
+        - name: IDiaEnumSourceLink::Count
+          href: idiaenumsourcelink-count.md
+        - name: IDiaEnumSourceLink::SizeOfNext
+          href: idiaenumsourcelink-sizeofnext.md
+        - name: IDiaEnumSourceLink::Next
+          href: idiaenumsourcelink-next.md
+        - name: IDiaEnumSourceLink::Skip
+          href: idiaenumsourcelink-skip.md
+        - name: IDiaEnumSourceLink::Reset
+          href: idiaenumsourcelink-reset.md
+        - name: IDiaEnumSourceLink::Clone
+          href: idiaenumsourcelink-clone.md
+      - name: IDiaEnumSourceLink2
+        items:
+        - name: IDiaEnumSourceLink2
+          href: idiaenumsourcelink2.md
+        - name: IDiaEnumSourceLink2::SizeOfNext2
+          href: idiaenumsourcelink2-sizeofnext2.md
+        - name: IDiaEnumSourceLink2::Next2
+          href: idiaenumsourcelink2-next2.md
       - name: IDiaEnumStackFrames
         items:
         - name: IDiaEnumStackFrames
@@ -320,6 +408,20 @@
           href: idiaenumsymbolsbyaddr-symbolbyrva.md
         - name: IDiaEnumSymbolsByAddr::symbolByVA
           href: idiaenumsymbolsbyaddr-symbolbyva.md
+      - name: IDiaEnumSymbolsByAddr2
+        items:
+        - name: IDiaEnumSymbolsByAddr2
+          href: idiaenumsymbolsbyaddr2.md
+        - name: IDiaEnumSymbolsByAddr2::NextEx
+          href: idiaenumsymbolsbyaddr2-nextex.md
+        - name: IDiaEnumSymbolsByAddr2::PrevEx
+          href: idiaenumsymbolsbyaddr2-prevex.md
+        - name: IDiaEnumSymbolsByAddr2::symbolByAddrEx
+          href: idiaenumsymbolsbyaddr2-symbolbyaddrex.md
+        - name: IDiaEnumSymbolsByAddr2::symbolByRVAEx
+          href: idiaenumsymbolsbyaddr2-symbolbyrvaex.md
+        - name: IDiaEnumSymbolsByAddr2::symbolByVAEx
+          href: idiaenumsymbolsbyaddr2-symbolbyvaex.md
       - name: IDiaEnumTables
         items:
         - name: IDiaEnumTables
@@ -406,6 +508,22 @@
           href: idiainjectedsource-get-sourcecompression.md
         - name: IDiaInjectedSource::get_virtualFilename
           href: idiainjectedsource-get-virtualfilename.md
+      - name: IDiaInputAssemblyFile
+        items:
+        - name: IDiaInputAssemblyFile
+          href: idiainputassemblyfile.md
+        - name: IDiaInputAssemblyFile::get_fileName
+          href: idiainputassemblyfile-get-filename.md
+        - name: IDiaInputAssemblyFile::get_index
+          href: idiainputassemblyfile-get-index.md
+        - name: IDiaInputAssemblyFile::get_pdbAvailableAtILMerge
+          href: idiainputassemblyfile-get-pdbavailableatilmerge.md
+        - name: IDiaInputAssemblyFile::get_timestamp
+          href: idiainputassemblyfile-get-timestamp.md
+        - name: IDiaInputAssemblyFile::get_uniqueId
+          href: idiainputassemblyfile-get-uniqueid.md
+        - name: IDiaInputAssemblyFile::get_version
+          href: idiainputassemblyfile-get-version.md
       - name: IDiaLineNumber
         items:
         - name: IDiaLineNumber
@@ -574,16 +692,34 @@
         items:
         - name: IDiaSession
           href: idiasession.md
+        - name: IDiaSession::addressForRVA
+          href: idiasession-addressforrva.md
+        - name: IDiaSession::addressForVA
+          href: idiasession-addressForVA.md
         - name: IDiaSession::findAcceleratorInlineesByLinenum
           href: idiasession-findacceleratorinlineesbylinenum.md
         - name: IDiaSession::findAcceleratorInlineesByName
           href: idiasession-findacceleratorinlineesbyname.md
         - name: IDiaSession::findChildren
           href: idiasession-findchildren.md
+        - name: IDiaSession::findChildrenEx
+          href: idiasession-findchildrenex.md
+        - name: IDiaSession::findChildrenExByAddr
+          href: idiasession-findchildrenexbyaddr.md
+        - name: IDiaSession::findChildrenExByVA
+          href: idiasession-findchildrenexbyva.md
+        - name: IDiaSession::findChildrenExByRVA
+          href: idiasession-findchildrenexbyrva.md
         - name: IDiaSession::findFile
           href: idiasession-findfile.md
         - name: IDiaSession::findFileById
           href: idiasession-findfilebyid.md
+        - name: IDiaSession::findIlOffsetsByAddr
+          href: idiasession-findiloffsetsbyaddr.md
+        - name: IDiaSession::findIlOffsetsByRVA
+          href: idiasession-findiloffsetsbyrva.md
+        - name: IDiaSession::findIlOffsetsByVA
+          href: idiasession-findiloffsetsbyva.md
         - name: IDiaSession::findInjectedSource
           href: idiasession-findinjectedsource.md
         - name: IDiaSession::findInlineeLines
@@ -604,6 +740,14 @@
           href: idiasession-findinlineframesbyrva.md
         - name: IDiaSession::findInlineFramesByVA
           href: idiasession-findinlineframesbyva.md
+        - name: IDiaSession::findInputAssembly
+          href: idiasession-findinputassembly.md
+        - name: IDiaSession::findInputAssemblyById
+          href: idiasession-findinputassemblybyid.md
+        - name: IDiaSession::findInputAssemblyFile
+          href: idiasession-findinputassemblyfile.md
+        - name: IDiaSession::findInputAssemblyFiles
+          href: idiasession-findinputassemblyfiles.md
         - name: IDiaSession::findLines
           href: idiasession-findlines.md
         - name: IDiaSession::findLinesByAddr
@@ -638,14 +782,44 @@
           href: idiasession-getenumdebugstreams.md
         - name: IDiaSession::getEnumTables
           href: idiasession-getenumtables.md
+        - name: IDiaSession::getExports
+          href: idiasession-getexports.md
+        - name: IDiaSession::getFuncMDTokenMap
+          href: idiasession-getfuncmdtokenmap.md
+        - name: IDiaSession::getFuncMDTokenMapSize
+          href: idiasession-getfuncmdtokenmapsize.md
+        - name: IDiaSession::getFunctionFragments_RVA
+          href: idiasession-getfunctionfragments_rva.md
+        - name: IDiaSession::getFunctionFragments_VA
+          href: idiasession-getfunctionfragments_va.md
+        - name: IDiaSession::getHeapAllocationSites
+          href: idiasession-getheapallocationsites.md
+        - name: IDiaSession::getNumberOfFunctionFragments_RVA
+          href: idiasession-getnumberoffunctionfragments_rva.md
+        - name: IDiaSession::getNumberOfFunctionFragments_VA
+          href: idiasession-getnumberoffunctionfragments_va.md
         - name: IDiaSession::getSymbolsByAddr
           href: idiasession-getsymbolsbyaddr.md
+        - name: IDiaSession::getTypeMDTokenMap
+          href: idiasession-gettypemdtokenmap.md
+        - name: IDiaSession::getTypeMDTokenMapSize
+          href: idiasession-gettypemdtokenmapsize.md
         - name: IDiaSession::put_loadAddress
           href: idiasession-put-loadaddress.md
         - name: IDiaSession::symbolById
           href: idiasession-symbolbyid.md
         - name: IDiaSession::symsAreEquiv
           href: idiasession-symsareequiv.md
+      - name: IDiaSessionEx
+        items:
+        - name: IDiaSessionEx
+          href: idiasessionex.md
+        - name: IDiaSessionEx::getSourceLinkInfo
+          href: idiasessionex-getsourcelinkinfo.md
+        - name: IDiaSessionEx::isFastLinkPdb
+          href: idiasessionex-isfastlinkpdb.md
+        - name: IDiaSessionEx::isPortablePdb
+          href: idiasessionex-isportablepdb.md
       - name: IDiaSourceFile
         items:
         - name: IDiaSourceFile
@@ -722,10 +896,16 @@
         items:
         - name: IDiaStackWalkHelper
           href: idiastackwalkhelper.md
+        - name: IDiaStackWalkHelper::addressForVA
+          href: idiastackwalkhelper-addressforva.md
         - name: IDiaStackWalkHelper::frameForVA
           href: idiastackwalkhelper-frameforva.md
+        - name: IDiaStackWalkHelper::functionFragmentsForVA
+          href: idiastackwalkhelper-functionfragmentsforva.md
         - name: IDiaStackWalkHelper::imageForVA
           href: idiastackwalkhelper-imageforva.md
+        - name: IDiaStackWalkHelper::nuberOfFunctionFragmentsForVA
+          href: idiastackwalkhelper-numberoffunctionfragmentsforva.md
         - name: IDiaStackWalkHelper::pdataForVA
           href: idiastackwalkhelper-pdataforva.md
         - name: IDiaStackWalkHelper::get_registerValue
@@ -740,6 +920,12 @@
           href: idiastackwalkhelper-searchforreturnaddressstart.md
         - name: IDiaStackWalkHelper::symbolForVA
           href: idiastackwalkhelper-symbolforva.md
+      - name: IDiaStackWalkHelper2
+        items:
+        - name: IDiaStackWalkHelper2
+          href: idiastackwalkhelper2.md
+        - name: IDiaStackWalkHelper2::GetPointerAuthenticationMask
+          href: idiastackwalkhelper2-getpointerauthenticationmask.md
       - name: IDiaSymbol
         items:
         - name: IDiaSymbol
@@ -754,12 +940,6 @@
           href: idiasymbol-findchildrenexbyrva.md
         - name: IDiaSymbol::findChildrenExByVA
           href: idiasymbol-findchildrenexbyva.md
-        - name: IDiaSymbol::findInlineFramesByAddr
-          href: idiasymbol-findinlineframesbyaddr.md
-        - name: IDiaSymbol::findInlineFramesByRVA
-          href: idiasymbol-findinlineframesbyrva.md
-        - name: IDiaSymbol::findInlineFramesByVA
-          href: idiasymbol-findinlineframesbyva.md
         - name: IDiaSymbol::findInlineeLines
           href: idiasymbol-findinlineelines.md
         - name: IDiaSymbol::findInlineeLinesByAddr
@@ -768,6 +948,14 @@
           href: idiasymbol-findinlineelinesbyrva.md
         - name: IDiaSymbol::findInlineeLinesByVA
           href: idiasymbol-findinlineelinesbyva.md
+        - name: IDiaSymbol::findInlineFramesByAddr
+          href: idiasymbol-findinlineframesbyaddr.md
+        - name: IDiaSymbol::findInlineFramesByRVA
+          href: idiasymbol-findinlineframesbyrva.md
+        - name: IDiaSymbol::findInlineFramesByVA
+          href: idiasymbol-findinlineframesbyva.md
+        - name: IDiaSymbol::findInputAssemblyFile
+          href: idiasymbol-findinputassemblyfile.md
         - name: IDiaSymbol::findSymbolsByRVAForAcceleratorPointerTag
           href: idiasymbol-findsymbolsbyrvaforacceleratorpointertag.md
         - name: IDiaSymbol::findSymbolsForAcceleratorPointerTag
@@ -794,6 +982,8 @@
           href: idiasymbol-get-backendmajor.md
         - name: IDiaSymbol::get_backEndMinor
           href: idiasymbol-get-backendminor.md
+        - name: IDiaSymbol::get_backEndQFE
+          href: idiasymbol-get-backendqfe.md
         - name: IDiaSymbol::get_baseDataOffset
           href: idiasymbol-get-basedataoffset.md
         - name: IDiaSymbol::get_baseDataSlot
@@ -810,16 +1000,22 @@
           href: idiasymbol-get-builtinkind.md
         - name: IDiaSymbol::get_callingConvention
           href: idiasymbol-get-callingconvention.md
+        - name: IDiaSymbol::get_characteristics
+          href: idiasymbol-get-characteristics.md
         - name: IDiaSymbol::get_classParent
           href: idiasymbol-get-classparent.md
         - name: IDiaSymbol::get_classParentId
           href: idiasymbol-get-classparentid.md
         - name: IDiaSymbol::get_code
           href: idiasymbol-get-code.md
+        - name: IDiaSymbol::get_coffGroup
+          href: idiasymbol-get-coffgroup.md
         - name: IDiaSymbol::get_compilerGenerated
           href: idiasymbol-get-compilergenerated.md
         - name: IDiaSymbol::get_compilerName
           href: idiasymbol-get-compilername.md
+        - name: IDiaSymbol::get_constantExport
+          href: idiasymbol-get-constantexport.md
         - name: IDiaSymbol::get_constructor
           href: idiasymbol-get-constructor.md
         - name: IDiaSymbol::get_constType
@@ -834,26 +1030,48 @@
           href: idiasymbol-get-customcallingconvention.md
         - name: IDiaSymbol::get_dataBytes
           href: idiasymbol-get-databytes.md
+        - name: IDiaSymbol::get_dataExport
+          href: idiasymbol-get-dataexport.md
         - name: IDiaSymbol::get_dataKind
           href: idiasymbol-get-datakind.md
         - name: IDiaSymbol::get_editAndContinueEnabled
           href: idiasymbol-get-editandcontinueenabled.md
+        - name: IDiaSymbol::get_exceptionHandlerAddressOffset
+          href: idiasymbol-get-exceptionhandleraddressoffset.md
+        - name: IDiaSymbol::get_exceptionHandlerAddressSection
+          href: idiasymbol-get-exceptionhandleraddresssection.md
+        - name: IDiaSymbol::get_exceptionHandlerRelativeVirtualAddress
+          href: idiasymbol-get-exceptionhandlerrelativevirtualaddress.md
+        - name: IDiaSymbol::get_exceptionHandlerVirtualAddress
+          href: idiasymbol-get-exceptionhandlervirtualaddress.md
+        - name: IDiaSymbol::get_exportHasExplicitlyAssignedOrdinal
+          href: idiasymbol-get-exporthasexplicitlyassignedordinal.md
+        - name: IDiaSymbol::get_exportIsForwarder
+          href: idiasymbol-get-exportisforwarder.md
         - name: IDiaSymbol::get_farReturn
           href: idiasymbol-get-farreturn.md
+        - name: IDiaSymbol::get_finalLiveStaticSize
+          href: idiasymbol-get-finallivestaticsize.md
         - name: IDiaSymbol::get_framePadOffset
           href: idiasymbol-get-framepadoffset.md
         - name: IDiaSymbol::get_framePadSize
           href: idiasymbol-get-framepadsize.md
         - name: IDiaSymbol::get_framePointerPresent
           href: idiasymbol-get-framepointerpresent.md
+        - name: IDiaSymbol::get_frameSize
+          href: idiasymbol-get-framesize.md
         - name: IDiaSymbol::get_frontEndBuild
           href: idiasymbol-get-frontendbuild.md
         - name: IDiaSymbol::get_frontEndMajor
           href: idiasymbol-get-frontendmajor.md
         - name: IDiaSymbol::get_frontEndMinor
           href: idiasymbol-get-frontendminor.md
+        - name: IDiaSymbol::get_frontEndQFE
+          href: idiasymbol-get-frontendqfe.md
         - name: IDiaSymbol::get_function
           href: idiasymbol-get-function.md
+        - name: IDiaSymbol::get_get_hasControlFlowCheck
+          href: idiasymbol-get-hascontrolflowcheck.md
         - name: IDiaSymbol::get_guid
           href: idiasymbol-get-guid.md
         - name: IDiaSymbol::get_hasAlloca
@@ -882,10 +1100,12 @@
           href: idiasymbol-get-hasseh.md
         - name: IDiaSymbol::get_hasSetJump
           href: idiasymbol-get-hassetjump.md
-        - name: IDiaSymbol::get_hfaFloat
-          href: idiasymbol-get-hfafloat.md
+        - name: IDiaSymbol::get_hasValidPGOCounts
+          href: idiasymbol-get-hasvalidpgocounts.md
         - name: IDiaSymbol::get_hfaDouble
           href: idiasymbol-get-hfadouble.md
+        - name: IDiaSymbol::get_hfaFloat
+          href: idiasymbol-get-hfafloat.md
         - name: IDiaSymbol::get_indirectVirtualBaseClass
           href: idiasymbol-get-indirectvirtualbaseclass.md
         - name: IDiaSymbol::get_InlSpec
@@ -904,16 +1124,24 @@
           href: idiasymbol-get-isacceleratorstubfunction.md
         - name: IDiaSymbol::get_isAggregated
           href: idiasymbol-get-isaggregated.md
+        - name: IDiaSymbol::get_isConstructorVirtualBase
+          href: idiasymbol-get-isconstructorvirtualbase.md
         - name: IDiaSymbol::get_isCTypes
           href: idiasymbol-get-isctypes.md
         - name: IDiaSymbol::get_isCVTCIL
           href: idiasymbol-get-iscvtcil.md
+        - name: IDiaSymbol::get_isCxxReturnUdt
+          href: idiasymbol-get-iscxxreturnudt.md
         - name: IDiaSymbol::get_isDataAligned
           href: idiasymbol-get-isdataaligned.md
         - name: IDiaSymbol::get_isHLSLData
           href: idiasymbol-get-ishlsldata.md
         - name: IDiaSymbol::get_isHotpatchable
           href: idiasymbol-get-ishotpatchable.md
+        - name: IDiaSymbol::get_isInterfaceUdt
+          href: idiasymbol-get-isinterfaceudt.md
+        - name: IDiaSymbol::get_isLocationControlFlowDependent
+          href: idiasymbol-get-islocationcontrolflowdependent.md
         - name: IDiaSymbol::get_isLTCG
           href: idiasymbol-get-isltcg.md
         - name: IDiaSymbol::get_isMatrixRowMajor
@@ -926,12 +1154,18 @@
           href: idiasymbol-get-isnaked.md
         - name: IDiaSymbol::get_isOptimizedAway
           href: idiasymbol-get-isoptimizedaway.md
+        - name: IDiaSymbol::get_isOptimizedForSpeed
+          href: idiasymbol-get-isoptimizedforspeed.md
+        - name: IDiaSymbol::get_isPGO
+          href: idiasymbol-get-ispgo.md
         - name: IDiaSymbol::get_isPointerBasedOnSymbolValue
           href: idiasymbol-get-ispointerbasedonsymbolvalue.md
         - name: IDiaSymbol::get_isPointerToDataMember
           href: idiasymbol-get-ispointertodatamember.md
         - name: IDiaSymbol::get_isPointerToMemberFunction
           href: idiasymbol-get-ispointertomemberfunction.md
+        - name: IDiaSymbol::get_isRefUdt
+          href: idiasymbol-get-isrefudt.md
         - name: IDiaSymbol::get_isReturnValue
           href: idiasymbol-get-isreturnvalue.md
         - name: IDiaSymbol::get_isRTCs
@@ -948,8 +1182,12 @@
           href: idiasymbol-get-isstatic.md
         - name: IDiaSymbol::get_isStripped
           href: idiasymbol-get-isstripped.md
+        - name: IDiaSymbol::get_isValueUdt
+          href: idiasymbol-get-isvalueudt.md
         - name: IDiaSymbol::get_isVirtualInheritance
           href: idiasymbol-get-isvirtualinheritance.md
+        - name: IDiaSymbol::get_isWinRTPointer
+          href: idiasymbol-get-iswinrtpointer.md
         - name: IDiaSymbol::get_language
           href: idiasymbol-get-language.md
         - name: IDiaSymbol::get_length
@@ -982,6 +1220,8 @@
           href: idiasymbol-get-managed.md
         - name: IDiaSymbol::get_memorySpaceKind
           href: idiasymbol-get-memoryspacekind.md
+        - name: IDiaSymbol::get_modifierValues
+          href: idiasymbol-get-modifiervalues.md
         - name: IDiaSymbol::get_msil
           href: idiasymbol-get-msil.md
         - name: IDiaSymbol::get_name
@@ -990,6 +1230,8 @@
           href: idiasymbol-get-nested.md
         - name: IDiaSymbol::get_noInline
           href: idiasymbol-get-noinline.md
+        - name: IDiaSymbol::get_noNameExport
+          href: idiasymbol-get-nonameexport.md
         - name: IDiaSymbol::get_noReturn
           href: idiasymbol-get-noreturn.md
         - name: IDiaSymbol::get_noStackOrdering
@@ -1006,6 +1248,8 @@
           href: idiasymbol-get-numberofregisterindices.md
         - name: IDiaSymbol::get_numberOfRows
           href: idiasymbol-get-numberofrows.md
+        - name: IDiaSymbol::get_numericProperties
+          href: idiasymbol-get-numericproperties.md
         - name: IDiaSymbol::get_objectFileName
           href: idiasymbol-get-objectfilename.md
         - name: IDiaSymbol::get_objectPointerType
@@ -1020,14 +1264,26 @@
           href: idiasymbol-get-offsetinudt.md
         - name: IDiaSymbol::get_optimizedCodeDebugInfo
           href: idiasymbol-get-optimizedcodedebuginfo.md
+        - name: IDiaSymbol::get_ordinal
+          href: idiasymbol-get-ordinal.md
         - name: IDiaSymbol::get_overloadedOperator
           href: idiasymbol-get-overloadedoperator.md
         - name: IDiaSymbol::get_packed
           href: idiasymbol-get-packed.md
         - name: IDiaSymbol::get_paramBasePointerRegisterId
           href: idiasymbol-get-parambasepointerregisterid.md
+        - name: IDiaSymbol::get_PGODynamicInstructionCount
+          href: idiasymbol-get-pgodynamicinstructioncount.md
+        - name: IDiaSymbol::get_PGOEdgeCount
+          href: idiasymbol-get-pgoedgecount.md
+        - name: IDiaSymbol::get_PGOEntryCount
+          href: idiasymbol-get-pgoentrycount.md
+        - name: IDiaSymbol::get_phaseName
+          href: idiasymbol-get-phasename.md
         - name: IDiaSymbol::get_platform
           href: idiasymbol-get-platform.md
+        - name: IDiaSymbol::get_privateExport
+          href: idiasymbol-get-privatexport.md
         - name: IDiaSymbol::get_pure
           href: idiasymbol-get-pure.md
         - name: IDiaSymbol::get_rank
@@ -1058,8 +1314,10 @@
           href: idiasymbol-get-slot.md
         - name: IDiaSymbol::get_sourceFileName
           href: idiasymbol-get-sourcefilename.md
-        - name: IDiaSymbol::getSrcLineOnTypeDefn
-          href: idiasymbol-getsrclineontypedefn.md
+        - name: IDiaSymbol::get_staticSize
+          href: idiasymbol-get-staticsize.md
+        - name: IDiaSymbol::get_strictGSCheck
+          href: idiasymbol-get-strictgscheck.md
         - name: IDiaSymbol::get_stride
           href: idiasymbol-get-stride.md
         - name: IDiaSymbol::get_subType
@@ -1112,6 +1370,8 @@
           href: idiasymbol-get-unmodifiedtype.md
         - name: IDiaSymbol::get_unmodifiedTypeId
           href: idiasymbol-get-unmodifiedtypeid.md
+        - name: IDiaSymbol::get_unused
+          href: idiasymbol-get-unused.md
         - name: IDiaSymbol::get_upperBound
           href: idiasymbol-get-upperbound.md
         - name: IDiaSymbol::get_upperBoundId
@@ -1128,16 +1388,108 @@
           href: idiasymbol-get-virtualbasedispindex.md
         - name: IDiaSymbol::get_virtualBaseOffset
           href: idiasymbol-get-virtualbaseoffset.md
-        - name: IDiaSymbol::get_virtualBaseTableType
-          href: idiasymbol-get-virtualbasetabletype.md
         - name: IDiaSymbol::get_virtualBasePointerOffset
           href: idiasymbol-get-virtualbasepointeroffset.md
+        - name: IDiaSymbol::get_virtualBaseTableType
+          href: idiasymbol-get-virtualbasetabletype.md
         - name: IDiaSymbol::get_virtualTableShape
           href: idiasymbol-get-virtualtableshape.md
         - name: IDiaSymbol::get_virtualTableShapeId
           href: idiasymbol-get-virtualtableshapeid.md
         - name: IDiaSymbol::get_volatileType
           href: idiasymbol-get-volatiletype.md
+        - name: IDiaSymbol::get_wasInlined
+          href: idiasymbol-get-wasinlined.md
+        - name: IDiaSymbol::getBindID
+          href: idiasymbol-get-bindid.md
+        - name: IDiaSymbol::getBindSlot
+          href: idiasymbol-get-bindslot.md
+        - name: IDiaSymbol::getBindSpace
+          href: idiasymbol-get-bindspace.md
+        - name: IDiaSymbol::getSrcLineOnTypeDefn
+          href: idiasymbol-getsrclineontypedefn.md
+      - name: IDiaSymbol2
+        items:
+        - name: IDiaSymbol2
+          href: idiasymbol2.md
+        - name: IDiaSymbol2::get_isObjCCategory
+          href: idiasymbol2-get-isobjccategory.md
+        - name: IDiaSymbol2::get_isObjCClass
+          href: idiasymbol2-get-isobjcclass.md
+        - name: IDiaSymbol2::get_isObjCProtocol
+          href: idiasymbol2-get-isobjcprotocol.md
+      - name: IDiaSymbol3
+        items:
+        - name: IDiaSymbol3
+          href: idiasymbol3.md
+        - name: IDiaSymbol3::get_inlinee
+          href: idiasymbol3-get-inlinee.md
+        - name: IDiaSymbol3::get_inlineeId
+          href: idiasymbol3-get-inlineeid.md
+      - name: IDiaSymbol4
+        items:
+        - name: IDiaSymbol4
+          href: idiasymbol4.md
+        - name: IDiaSymbol4::get_noexcept
+          href: idiasymbol4-get-noexcept.md
+      - name: IDiaSymbol5
+        items:
+        - name: IDiaSymbol5
+          href: idiasymbol5.md
+        - name: IDiaSymbol5::get_hasAbsoluteAddress
+          href: idiasymbol5-get-hasabsoluteaddress.md
+      - name: IDiaSymbol6
+        items:
+        - name: IDiaSymbol6
+          href: idiasymbol6.md
+        - name: IDiaSymbol6::get_isStaticMemberFunc
+          href: idiasymbol6-get-isstaticmemberfunc.md
+      - name: IDiaSymbol7
+        items:
+        - name: IDiaSymbol7
+          href: idiasymbol7.md
+        - name: IDiaSymbol7::get_isSignRet
+          href: idiasymbol7-get-issignret.md
+      - name: IDiaSymbol8
+        items:
+        - name: IDiaSymbol8
+          href: idiasymbol8.md
+        - name: IDiaSymbol8::get_associatedSymbolAddr
+          href: idiasymbol8-get-associatedsymboladdr.md
+        - name: IDiaSymbol8::get_associatedSymbolKind
+          href: idiasymbol8-get-associatedsymbolkind.md
+        - name: IDiaSymbol8::get_associatedSymbolOffset
+          href: idiasymbol8-get-associatedsymboloffset.md
+        - name: IDiaSymbol8::get_associatedSymbolRva
+          href: idiasymbol8-get-associatedsymbolrva.md
+        - name: IDiaSymbol8::get_associatedSymbolSection
+          href: idiasymbol8-get-associatedsymbolsection.md
+        - name: IDiaSymbol8::get_coroutineKind
+          href: idiasymbol8-get-coroutinekind.md
+      - name: IDiaSymbol9
+        items:
+        - name: IDiaSymbol9
+          href: idiasymbol9.md
+        - name: IDiaSymbol9::get_framePadOffset
+          href: idiasymbol9-get-framepadoffset.md
+        - name: IDiaSymbol9::get_framePadSize
+          href: idiasymbol9-get-framepadsize.md
+        - name: IDiaSymbol9::get_isRTCs
+          href: idiasymbol9-get-isrtcs.md
+      - name: IDiaSymbol10
+        items:
+        - name: IDiaSymbol10
+          href: idiasymbol10.md
+        - name: IDiaSymbol10::get_sourceLink
+          href: idiasymbol10-get-sourcelink.md
+      - name: IDiaSymbol11
+        items:
+        - name: IDiaSymbol11
+          href: idiasymbol11.md
+        - name: IDiaSymbol11::get_discriminatedUnionTag
+          href: idiasymbol11-get-discriminateduniontag.md
+        - name: IDiaSymbol11::get_tagRanges
+          href: idiasymbol11-get-tagranges.md
       - name: IDiaTable
         items:
         - name: IDiaTable
@@ -1156,26 +1508,46 @@
         href: enumerations-and-structures.md
       - name: BasicType
         href: basictype.md
+      - name: Common HRESULT Values
+        href: common-hresult-values.md
       - name: CV_access_e
         href: cv-access-e.md
+      - name: CV_AssociationKind_e
+        href: cv-associationkind-e.md
+      - name: CV_builtin_e
+        href: cv-builtin-e.md
       - name: CV_call_e
         href: cv-call-e.md
       - name: CV_CFL_LANG
         href: cv-cfl-lang.md
+      - name: CV_CoroutineKind_e
+        href: cv-coroutinekind-e.md
       - name: CV_CPU_TYPE_e
         href: cv-cpu-type-e.md
+      - name: CV_HLSLMemorySpace_e
+        href: cv-hlslmemoryspace-e.md
+      - name: CV_HLSLREG_e
+        href: cv-hlslreg-e.md
       - name: CV_HREG_e
         href: cv-hreg-e.md
+      - name: CV_modifier_e
+        href: cv-modifier-e.md
+      - name: CV_SourceChksum_t
+        href: cv-sourcechksum-t.md
       - name: DataKind
         href: datakind.md
       - name: DiaAddressMapEntry
         href: diaaddressmapentry.md
+      - name: DiaTagValue
+        href: diatagvalue.md
       - name: LocationType
         href: locationtype.md
       - name: MemoryTypeEnum
         href: memorytypeenum.md
       - name: NameSearchOptions
         href: namesearchoptions.md
+      - name: PFNMINIPDBERRORCALLBACK2
+        href: pfnminipdberrorcallback2.md
       - name: StackFrameTypeEnum
         href: stackframetypeenum.md
       - name: SymTagEnum

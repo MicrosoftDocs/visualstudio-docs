@@ -234,8 +234,6 @@
       href: msi-and-vsix-deployment-of-a-dsl.md
     - name: Multiple DSLs in One Solution
       href: multiple-dsls-in-one-solution.md
-    - name: VS Shell deployment
-      href: vs-shell-deployment.md
   - name: Create a Windows Forms-Based Domain-Specific Language
     href: creating-a-windows-forms-based-domain-specific-language.md
   - name: Create a WPF-Based Domain-Specific Language

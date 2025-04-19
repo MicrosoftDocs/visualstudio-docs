@@ -1,7 +1,7 @@
 ---
 title: Options, Text Editor, C#, IntelliSense
 description: Learn how to use the IntelliSense page in the C# section to modify settings that affect the behavior of IntelliSense for C#.
-ms.date: 11/04/2016
+ms.date: 09/26/2024
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Intellisense
@@ -11,6 +11,7 @@ helpviewer_keywords:
 - IntelliSense [C#], wavy underlines
 - wavy underlines
 - Text Editor Options dialog box, IntelliSense
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
@@ -18,7 +19,9 @@ ms.subservice: general-ide
 ---
 # Options, Text Editor, C#, IntelliSense
 
-Use the **IntelliSense** options page to modify settings that affect the behavior of IntelliSense for C#. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **C#** > **IntelliSense**.
+Use the **IntelliSense** options page to modify settings that affect the behavior of IntelliSense for C#. 
+
+To access this options page, choose **Tools** > **Options** > **Text Editor** > **C#** > **IntelliSense**.
 
 The **IntelliSense** options page contains the following options:
 
@@ -30,9 +33,13 @@ The **IntelliSense** options page contains the following options:
 
 - Show completion list after a character is deleted
 
+- Automatically show completion list in argument lists
+
 - Highlight matching portions of completion list items
 
 - Show completion item filters
+
+- Automatically complete statement on semicolon
 
 ## Snippets behavior
 
@@ -75,6 +82,14 @@ The **IntelliSense** options page contains the following options:
 ## Show name suggestions
 
 Performs automatic object name completion for the members that you have recently selected.
+
+## Show items from unimported namespaces
+
+Performs completion for types and extension methods that you haven't imported yet with a `using` directive.
+
+## Tab twice to insert arguments
+
+Automatically inserts arguments when writing a method call. To use this feature, start writing a method call and press tab twice.
 
 ## See also
 

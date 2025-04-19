@@ -9,9 +9,9 @@ ms.subservice: container-tools
 ms.topic: quickstart
 ---
 
-# Quickstart: Use Docker with a React Single-page App in Visual Studio
+# Quickstart: Use Docker with a React Single-page application in Visual Studio
 
-With Visual Studio, you can easily build, debug, and run containerized ASP.NET Core apps, including those with client-side JavaScript such as React.js single-page app, and publish them to Azure Container Registry, Docker Hub, Azure App Service, or your own Container Registry. In this article, we publish to Azure Container Registry.
+With Visual Studio, you can easily build, debug, and run containerized ASP.NET Core apps, including those with client-side JavaScript such as React.js single-page application (SPA), and publish them to Azure Container Registry, Docker Hub, Azure App Service, or your own Container Registry. In this article, we publish to Azure Container Registry.
 
 ## Prerequisites
 
@@ -133,7 +133,7 @@ Open the project file by double-clicking on the project node, and update the pro
    ```
 
 > [!NOTE]
-> The change to **DockerfileFastModeStage** is required, because the Dockerfile here adds a stage to the beginning of the Dockerfile. In order to optimize performance, Visual Studio uses **Fast mode**, but it only works if the right stage is used. The default is the first stage in the Dockerfile, which in this example, is changed from `base` to something else in order to download Node.js. For more explanation of **Fast mode**, see [Customize Docker containers in Visual Studio](container-build.md#debugging).
+> The change to **DockerfileFastModeStage** is required, because the Dockerfile here adds a stage to the beginning of the Dockerfile. In order to optimize performance, Visual Studio uses **Fast mode**, but it only works if the right stage is used. The default is the first stage in the Dockerfile, which in this example, is changed from `base` to something else in order to download Node.js. For more explanation of **Fast mode**, see [Customize Docker containers in Visual Studio](container-build.md).
 
 Update the Dockerfile by adding the following lines. These lines will copy Node and `npm`` to the container.
 
@@ -239,7 +239,7 @@ Use the following steps for Visual Studio 2022 version 17.0 to 17.7:
 ## Debug
 
 :::moniker range=">=vs-2022"
-With Visual Studio 2022 version 17.9 or later and the **React and ASP.NET Core** template that uses `vite.js`, the projects are already configured to start both the client and server projects with debugging support, but you need to set up the right port for the SPA proxy to use to access the ASP.NET Core server running in the container. You can get the host port from the **Containers** window in Visual Studio and set it in the React project as described in [Create a React app - Docker](../javascript/tutorial-asp-net-core-with-react.md#docker).
+With Visual Studio 2022 version 17.9 or later and the **React and ASP.NET Core** template that uses `vite.js`, the projects are already configured to start both the client and server projects with debugging support, but you need to set up the right port for the single-page application (SPA) proxy to use to access the ASP.NET Core server running in the container. You can get the host port from the **Containers** window in Visual Studio and set it in the React project as described in [Create a React app - Docker](../javascript/tutorial-asp-net-core-with-react.md#docker).
 
 You can also disable the launch in the browser for the server, which is set up to open with Swagger, which is not required for this scenario. To disable the browser launch, open the **Properties** (**Alt**+**Enter**), go to the **Debug** tab, and click on the link **Open debug launch profiles UI**, and clear the **Launch browser** checkbox.
 

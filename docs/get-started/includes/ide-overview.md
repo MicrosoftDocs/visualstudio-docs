@@ -31,7 +31,7 @@ The preceding image shows Visual Studio with an open project that shows key wind
 
 ## Editions
 
-Visual Studio is available for Windows and Mac. [Visual Studio for Mac](/visualstudio/mac/) has many of the same features as Visual Studio for Windows, and is optimized for developing cross-platform and mobile apps. This article focuses on the Windows version of Visual Studio.
+Visual Studio is available for Windows.
 
 There are three editions of Visual Studio: Community, Professional, and Enterprise. See [Compare Visual Studio editions](https://visualstudio.microsoft.com/vs/compare/) to learn about which features are supported in each edition.
 

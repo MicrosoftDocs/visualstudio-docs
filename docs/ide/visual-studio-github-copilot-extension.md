@@ -1,12 +1,13 @@
 ---
 title: About GitHub Copilot Completions in Visual Studio
 description: Use GitHub Copilot completions in Visual Studio to use AI assistance to generate information about your code, including suggested edits and new code snippets.
-ms.date: 5/22/2024
-ms.topic: overview 
+ms.date: 3/27/2025
+ms.topic: overview
 author: anandmeg
 ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
+ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
 content_well_notification: 
   - AI-contribution
@@ -32,18 +33,14 @@ You can also use GitHub Copilot to convert comments to code, create unit tests, 
 
 To get started, you need:
 + Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later
-+ Active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business)
-+ [Sign in to Visual Studio with the GitHub account](work-with-github-accounts.md) that has an active GitHub Copilot subscription
-
-  > [!TIP]
-  > GitHub Copilot is free for verified students and for maintainers of popular open source projects on GitHub. If you are not a student or maintainer of a popular open source project, you can [try GitHub Copilot for free with a one-time 30-day trial](https://github.com/settings/copilot). After the free trial, you will need a [paid subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) for continued use.
++ [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
+  <sup>**</sup> You can use [GitHub Copilot for Free](copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
 
 GitHub Copilot supports several programming languages and frameworks, including but not limited to: C#, C++, and Python.
 
 ## Get GitHub Copilot for Visual Studio
 
-- If you're using Visual Studio version 17.10 or later, the [unified GitHub Copilot extension](visual-studio-github-copilot-install-and-states.md#get-github-copilot-for-visual-studio-2022-version-1710-or-later) is available as a recommended component in the Visual Studio Installer. It is installed by default with all workloads, unless you choose to exclude it during installation.
-- If you're using Visual Studio versions 17.9 or earlier, [install the GitHub Copilot extension](visual-studio-github-copilot-install-and-states.md#install-github-copilot-chat).
+With Visual Studio version 17.10 or later, the [unified GitHub Copilot extension](visual-studio-github-copilot-install-and-states.md) is available as a recommended component in the Visual Studio Installer. It is installed by default with all workloads, unless you choose to exclude it during installation.
 
 ## Using GitHub Copilot for code completions and suggestions
 
@@ -61,11 +58,23 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
        int subtractNumbers(
    ```
 
-1. Hover over the suggestion to see the GitHub Copilot command palette. You can select **Tab** or press `Tab` to accept the suggestion or continue typing to reject it. If alternate suggestions are available, you can select **next suggestion** or use the `Alt + .` keyboard shortcut to cycle through them.
-  
-  :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-code-suggestions.gif" alt-text="Animated screenshot that shows using the GitHub Copilot code suggestions in Visual Studio":::
+1. Hover over the suggestion to see the GitHub Copilot command palette.
 
-1. Add following code to see whole line completions from GitHub Copilot.
+    **Accept suggestion**
+
+    Select **Tab** or press `Tab` **to accept** the suggestion or continue typing to reject it.
+
+    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/copilot-accept-code-suggestions.png" alt-text="Screenshot that shows accepting the GitHub Copilot code suggestions in Visual Studio":::
+
+    **Modify suggestion**
+
+    Select **Alt+/** or press `Alt+/` **to modify** the suggestion from Copilot. You can modify and curate the GitHub Copilot suggestions by adding context in inline chat or by editing the completion.
+  
+    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/copilot-modify-code-completions.png" alt-text="Screenshot that shows modifying the GitHub Copilot code suggestions in Visual Studio":::
+  
+   If the command palette doesn't appear, you might have reached the default limit for its display. To change this, go to **Tools** > **Options** > **IntelliCode** > **Advanced**, and adjust the value for **Minimum commits to suppress hint text**.
+
+1. Add following code to see completions from GitHub Copilot.
 
    ```csharp
        int a = 5;
@@ -73,7 +82,43 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
        int sum
    ```
   
-  :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-whole-line-completions.gif" alt-text="Animated screenshot that shows using the GitHub Copilot completions in Visual Studio":::
+    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-whole-line-completions.gif" alt-text="Animated screenshot that shows using the GitHub Copilot completions in Visual Studio.":::
+
+   **Tips**
+
+   - Manually trigger a completion using <kbd>Alt</kbd>+<kbd>,</kbd>
+   - Cycle through available completions using <kbd>Alt</kbd>+<kbd>.</kbd> (next) and <kbd>Alt</kbd>+<kbd>,</kbd> (previous)
+
+## Content exclusions
+
+With Visual Studio 2022 version 17.11, [content exclusion is available for GitHub Copilot Completions](visual-studio-github-copilot-admin.md#github-copilot-completions-in-visual-studio-and-content-exclusions) in Visual Studio. Completions and suggestions won't be available on content excluded by your admin. See [configuring content exclusions for GitHub Copilot](https://docs.github.com/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot?tool=visualstudio) to learn more.
+
+## Code referencing
+
+With Visual Studio 2022 version 17.13, code referencing is available for GitHub Copilot Completions in Visual Studio. If you or your organization have [enabled suggestions that match public code](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-policies-as-an-individual-subscriber#enabling-or-disabling-suggestions-matching-public-code), Copilot will notify you when you accept a completion that matches code from a public GitHub repository. 
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-completions-code-referencing.png" alt-text="Screenshot that shows using the GitHub Copilot completions code referencing in Visual Studio." lightbox="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-completions-code-referencing.png"::::::
+
+Select **View code matches** to see detailed information in GitHub Copilot logs in the **Output** window. The log entry includes a link to a GitHub.com page where you can view details on license type  and references to similar code in public GitHub repositories. 
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/code-referencing-copilot-logs.png" alt-text="Screenshot that shows the code reference log entry in Output Window." lightbox="media/vs-2022/visual-studio-github-copilot-extension/code-referencing-copilot-logs.png":::
+
+Code referencing enables you to make an informed decision on using code attribution or removing the code from your project.
+
+## Completions model
+
+GPT-4o Copilot code completions model is available for GitHub Copilot in Visual Studio version 17.14 Preview 2 or later.
+To try the new model for better suggestions and performance, select **GPT-4o Copilot** from the **Copilot Completions Model** dropdown in **Tools > Options > GitHub > Copilot > Copilot Completions**. You can also access **Settings > Options** from the Copilot badge in the upper right corner of the IDE.
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/completions-model-picker.png" alt-text="Screenshot that shows the Completions Model Picker.":::
+
+If you don’t see the new GPT-4o model in the dropdown, try restarting Visual Studio to retreive the latest model list.
+
+### Access
+
+- If you're a Copilot Pro user, the new model is available for you in 17.14 Preview 2 and later.
+- If you're a Copilot Business or Enterprise user, your administrator needs to enable this model for your organization by opting in to [**Editor preview features**](https://docs.github.com/en/enterprise-cloud@latest/copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-policies-for-copilot-in-your-organization#about-policies-for-github-copilot) in the Copilot policy settings on *github.com*.
+- If you're a [Copilot Free](copilot-free-plan.md) user, using this model counts towards your 2,000 free monthly completions.
 
 ## Exploring GitHub Copilot
 

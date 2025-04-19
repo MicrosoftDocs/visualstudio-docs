@@ -1,7 +1,7 @@
 ---
 title: Constants (Debug Interface Access SDK)
-description: See a list of string constants that can be used to identify various sections of a program debug database (PDB) file through the debug interface access (DIA) SDK.
-ms.date: "11/04/2016"
+description: See a list of string constants that can be used to identify various sections of a program debug database (PDB) file through the Debug Interface Access (DIA) SDK.
+ms.date: "07/22/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -16,7 +16,7 @@ ms.subservice: debug-diagnostics
 
 # Constants (Debug Interface Access SDK)
 
-These string constants can be used to identify various sections of a program debug database (PDB) file through the DIA SDK.
+These string constants can be used to identify various sections of a program debug database (PDB) file through the Debug Interface Access (DIA) SDK.
 
 ## Constants
 
@@ -32,6 +32,7 @@ The following are declared as C/C++ macros.
 |`DiaTable_Dbg`|L"Dbg"|
 |`DiaTable_InjSrc`|L"InjectedSource"|
 |`DiaTable_FrameData`|L"FrameData"|
+|`DiaTable_InputAssemblyFiles`|L"InputAssemblyFiles"|
 
 ## Example
 

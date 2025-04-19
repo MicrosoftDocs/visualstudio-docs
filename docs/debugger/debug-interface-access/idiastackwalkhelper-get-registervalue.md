@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackWalkHelper::get_registerValue
 
 Retrieves the value of a register.
@@ -19,7 +20,7 @@ Retrieves the value of a register.
 ## Syntax
 
 ```C++
-HRESULT get_registerValue ( 
+HRESULT get_registerValue ( 
    DWORD      index,
    ULONGLONG* pRetVal
 );

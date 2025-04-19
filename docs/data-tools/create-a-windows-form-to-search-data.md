@@ -74,9 +74,9 @@ This step creates a data source from a database using the **Data Source Configur
 
 1. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
 
-1. Select **Database** on the **Choose a Data Source Type** page, and then click **Next**.
+1. Select **Database** on the **Choose a Data Source Type** page, and then select **Next**.
 
-1. On the **Choose a Database Model** screen, choose **Dataset**, and then click **Next**.
+1. On the **Choose a Database Model** screen, choose **Dataset**, and then select **Next**.
 
 1. On the **Choose your Data Connection** page do one of the following:
 
@@ -88,7 +88,7 @@ This step creates a data source from a database using the **Data Source Configur
 
 1. On the **Choose your Database Objects** page, expand the **Tables** node.
 
-1. Select the **Customers** table, and then click **Finish**.
+1. Select the **Customers** table, and then select **Finish**.
 
      The **NorthwindDataSet** is added to your project, and the **Customers** table appears in the **Data Sources** window.
 
@@ -136,7 +136,7 @@ Running the application opens your form and makes it ready to take the parameter
 
 1. Press **F5** to run the application.
 
-2. Type **London** into the **City** text box, and then click **FillByCity**.
+2. Type **London** into the **City** text box, and then select **FillByCity**.
 
      The data grid is populated with customers that meet the criteria. In this example, the data grid only displays customers that have a value of **London** in their **City** column.
 

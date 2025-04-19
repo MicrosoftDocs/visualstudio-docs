@@ -1,7 +1,7 @@
 ---
 title: Documents, Environment, Options Dialog Box
 description: Learn how to use the Environments page in the Documents section to control the display of documents in the IDE and manage external changes to documents and files.
-ms.date: 10/23/2023
+ms.date: 9/26/2024
 ms.topic: reference
 f1_keywords:
 - VS.Environment.Documents
@@ -26,6 +26,7 @@ helpviewer_keywords:
 - Options dialog box, Documents page
 - warnings, files changed
 - Solution Explorer, displaying files in
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
@@ -33,7 +34,11 @@ ms.subservice: general-ide
 ---
 # Options dialog box: Environment \> Documents
 
-Use this page of the **Options** dialog box to control the display of documents in the integrated development environment (IDE) and manage external changes to documents and files. You can access this dialog box by clicking **Options** on the **Tools** menu and then selecting **Environment** > **Documents**.
+Use this page of the **Options** dialog box to control the display of documents in the integrated development environment (IDE) and manage external changes to documents and files.
+
+To access this dialog box, go to **Tools** > **Options** > **Environment** > **Documents**.
+
+:::image type="content" source="media/documents-options.png" alt-text="Screenshot of the Documents section in the Options dialog box":::
 
 **Detect when file is changed outside the environment**
 

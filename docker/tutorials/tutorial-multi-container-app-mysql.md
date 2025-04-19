@@ -1,101 +1,118 @@
 ---
 title: Build multi-container apps (MySQL, Docker Compose)
-description: Create multi-container applications with MySQL and Docker Compose and use the containers to scale your project in Visual Studio.
+description: Complete a tutorial to create multi-container applications with MySQL and Docker Compose and use the containers to scale your project in Visual Studio.
 author: ghogen
 ms.author: ghogen
 ms.service: vs-code
 ms.topic: tutorial
-ms.date: 05/31/2023
+ms.date: 08/29/2024
 # Under agreement with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
+
+#customer intent: As a developer, I want to create multi-container applications with MySQL and Docker Compose, so I can use the containers to scale my project in Visual Studio.
 ---
 
 # Tutorial: Create multi-container apps with MySQL and Docker Compose
 
-In this tutorial, you'll learn how to create multi-container apps. This tutorial builds on the getting started tutorials, [Get started with Docker and Visual Studio Code](docker-tutorial.md).  In this advanced tutorial, you'll update your application to work as described in this diagram and learn how to:
+This article describes how to create multi-container apps with [MySQL](https://dev.mysql.com/) and [Docker Compose](https://docs.docker.com/compose/). An app with multiple containers allows you to dedicate containers for specialized tasks, so each container can focus on a single task. There are many advantages to using multi-container apps:
+
+- Separate containers allow you to manage APIs and front-end resources differently than databases.
+- Multiple containers let you version and update versions in isolation.
+- Local databases can be maintained in containers and managed services used for databases in production.
+- Multi-container apps are more efficient than running multiple processes with a process manager, which adds complexity to container startup/shutdown.
+
+In this tutorial, you:
+
 > [!div class="checklist"]
-> - Start MySQL.
-> - Run your app with MySQL.
-> - Create the compose file.
-> - Run the application stack.
-
-![Diagram shows two containers labeled Todo App and MySQL connected with a line.](media/multi-app-architecture.png)
-
-Using multiple containers allows you to dedicate containers for specialized tasks.  Each container should do one thing and do it well.
-
-Here are some reasons you might want to use multi-container apps:
-
-- Separate containers you to manage APIs and front-ends differently than databases.
-- Containers let you version and update versions in isolation.
-- While you might use a container for the database locally, you may want to use a managed service for the database in production.
-- Running multiple processes requires a process manager, which adds complexity to container startup/shutdown.
+> - Start MySQL
+> - Run your multi-container app with MySQL
+> - Create a Docker Compose file for your app
+> - Run the application stack with Docker Compose
 
 ## Prerequisites
 
-This tutorial continues the series of tutorials, starting with [Create a container app](docker-tutorial.md).
-Start with that one, which includes prerequisites.
-Then do the tutorial [Persist data in your app](tutorial-persist-data-layer-docker-app-with-vscode.md).
+- This article is part of a tutorial series. The procedures build on an established example that requires [Docker Desktop](https://docs.docker.com/desktop/) for Linux containers.
 
-You also need the following items:
+   The recommended approach is to complete the first tutorial, [Create a Docker container app](docker-tutorial.md), including satisfying the prerequisites, and also the tutorial, [Persist data in your app](tutorial-persist-data-layer-docker-app-with-vscode.md). After you work through these tutorials, continue with the procedures described in this article.
 
-- [Docker Compose](https://docs.docker.com/compose/).
+- The example in this article uses [Docker Compose](https://docs.docker.com/compose/).
 
-  Docker Desktop for Windows or Mac includes Docker Compose.
-  Run this command to verify:
+   # [Windows](#tab/windows)
 
-  ```bash
-  docker-compose version
-  ```
+   Docker Desktop for Windows includes Docker Compose.
 
-  If you use the Linux operating system, [Install Docker Compose](https://docs.docker.com/compose/install/).
+   Run the following command to verify your Docker installation:
 
-As with the previous tutorials, you can accomplish most tasks from the VS Code **EXPLORER** view or the **DOCKER** view.
-You can select **Terminal** > **New Terminal** to open a command-line window in VS Code.
-You can also run commands in a Bash window.
-Unless specified, any command labeled as **Bash** can run in a Bash window or the VS Code terminal.
+   ```bash
+   docker-compose version
+   ```
 
-## Start MySQL
+   # [Linux](#tab/linux)
 
-Containers, by default, run in isolation.
-They don't know anything about other processes or containers on the same computer.
-To allow one container to talk to another, use networking.
+   For Linux, follow the instructions to [install Docker Compose](https://docs.docker.com/compose/install/).
 
-If two containers are on the same network, they can talk to each other.
-If they aren't, they can't.
+   ---
 
-There are two ways to put a container on a network: assign it at start or connect an existing container.
-In this example, you create the network first and attach the MySQL container at startup.
+### Visual Studio Code
 
-1. Create the network by using this command.
+This tutorial series describes procedures for Visual Studio Code (VS Code). Review the following considerations for working in this environment:
+
+- Use the left menu to switch between **DOCKER** (Docker extension) view or the **EXPLORER** (file and folder) view:
+
+   :::image type="content" source="./media/vs-code-docker-explorer-views.png" border="false" alt-text="Screenshot that shows the Docker extension view and file/folder Explorer view in Visual Studio Code.":::
+
+- Open a command-line window in VS Code by selecting **Terminal** > **New Terminal**. You can also use the **Ctrl**+**Shift**+**`** (back tick) keyboard shortcut.
+
+- Unless otherwise specified, run commands in a Bash window. Most commands labeled for `Bash` run in a Bash window or in the VS Code command-line window.
+
+## Start MySQL database management system
+
+By default, containers run in isolation. A container isn't aware of other processes or other containers on the same computer.
+
+To enable communication between containers, they need to attach to the same network. Multiple containers on the same network can share data and process information with each other.
+
+There are two ways to attach a container to a network. You can attach a container to a network during creation, or attach an existing container to a network at a later time.
+
+In this example, you create the network and attach the MySQL container at startup.
+
+1. Create a network named `todo-app`:
 
    ```bash
    docker network create todo-app
    ```
 
-1. Start a MySQL container and attach it the network.
+1. Start a MySQL container named `todo-mysql-data` and attach it to the `todo-app` network. The command creates a network alias `mysql` for the MySQL database `todos`.
 
-    ```bash
-    docker run -d 
-        --network todo-app --network-alias mysql 
-        -v todo-mysql-data:/var/lib/mysql 
-        -e MYSQL_ROOT_PASSWORD=<your-password> 
-        -e MYSQL_DATABASE=todos 
-        mysql:5.7
-    ```
+   When you run the command, enter your MySQL root password for the `<your-password>` placeholder.
 
-   This command also defines environment variables.
-   For more information, see [MySQL Docker Hub listing](https://hub.docker.com/_/mysql/).
+   ```bash
+   docker run -d 
+       --network todo-app --network-alias mysql 
+       -v todo-mysql-data:/var/lib/mysql 
+       -e MYSQL_ROOT_PASSWORD=<your-password> 
+       -e MYSQL_DATABASE=todos 
+       mysql:5.7
+   ```
 
-   The command specifies a network alias, `mysql`.
+   This command also defines the `MYSQL_ROOT_PASSWORD` and `MYSQL_DATABASE` environment variables. For more information, see [MySQL Docker Hub listing](https://hub.docker.com/_/mysql/).
 
-1. Get your container ID by using the `docker ps` command.
+   > [!WARNING]
+   > This tutorial illustrates password credentials to authenticate with a MySQL database, which is not the most secure method. Refer to the [MySQL documentation](https://dev.mysql.com/doc/) to learn about more secure methods of authentication.
 
-1. To confirm you have the database up and running, connect to the database.
+1. Get your container ID for use in the next step.
+
+   ```bash
+   docker ps
+   ```
+
+1. Confirm you can connect to the container on the `mysql` network.
+
+   When you run the command, enter your container ID for the `<mysql-container-id>` placeholder.
 
    ```bash
    docker exec -it <mysql-container-id> mysql -p
    ```
 
-   Enter the password you used, above, when prompted.
+   At the prompt, enter the password you supplied when you created the `todo-mysql-data` container.
 
 1. In the MySQL shell, list the databases and verify you see the `todos` database.
 
@@ -103,7 +120,7 @@ In this example, you create the network first and attach the MySQL container at 
    SHOW DATABASES;
    ```
 
-   You should see the following output.
+   You should see the following output:
 
    ```output
    +--------------------+
@@ -118,47 +135,47 @@ In this example, you create the network first and attach the MySQL container at 
    5 rows in set (0.00 sec)
    ```
 
-1. Enter `exit` when you're ready to return to the terminal command prompt.
+1. To end the connection and return to the command-line prompt, enter **exit**.
 
 ## Run your app with MySQL
 
-The todo app supports the setting of environment variables to specify MySQL connection settings.
+The `todo` app supports setting certain environment variables to specify your MySQL connection settings. The following table lists the supported variables, and the values used in the example presented in this section.
 
-- `MYSQL_HOST` The hostname for the MySQL server.
-- `MYSQL_USER` The username to use for the connection.
-- `MYSQL_PASSWORD` The password to use for the connection.
-- `MYSQL_DB` The database to use once connected.
+| Variable name | Example value | Description |
+| --- | :---: | --- |
+| `MYSQL_HOST` | `mysql` | The host name for the MySQL server. |
+| `MYSQL_USER` | `root` | The username to use for the connection. |
+| `MYSQL_PASSWORD` | `<your-password>` | The password to use for the connection. In this example, substitute your root password for the `<your-password>` placeholder. |
+| `MYSQL_DATABASE` | `todos` | The name of the database to use after the connection is established. |
 
 > [!WARNING]
-> Using environment variables to set connection settings is acceptable for development.
-> We recommend against this practice for running applications in production.
-> For more information, see [Why you shouldn't use environment variables for secret data](https://diogomonica.com/2017/03/27/why-you-shouldnt-use-env-variables-for-secret-data/).
+> Using environment variables to set connection settings is acceptable for development, but this practice isn't recommended for running applications in production. For more information, see [Why you shouldn't use environment variables for secret data](https://diogomonica.com/2017/03/27/why-you-shouldnt-use-env-variables-for-secret-data/).
 >
-> A more secure mechanism is to use the secret support provided by your container orchestration framework.
-> In most cases, these secrets are mounted as files in the running container.
->
+> A more secure mechanism is to use the secret support provided by your container orchestration framework. In most cases, these secrets are mounted as files in the running container.
 
-This procedure starts your app and connects that container to your MySQL container.
+In the following example, you start your app and connect your app container to your MySQL container.
 
-1. Use the following docker run command.
-   It specifies the environment variables above.
+1. Run the following `docker` command. Notice how the command specifies the environment variables described earlier.
 
-    ```bash
-    docker run -dp 3000:3000 
-      -w /app -v ${PWD}:/app 
-      --network todo-app 
-      -e MYSQL_HOST=mysql 
-      -e MYSQL_USER=root 
-      -e MYSQL_PASSWORD=<your-password> 
-      -e MYSQL_DB=todos 
-      node:20-alpine 
-      sh -c "yarn install && yarn run dev"
-    ```
+   When you run the command, remember to enter your MySQL root password for the `<your-password>` placeholder.
 
-1. In VS Code, in the Docker view, right-click the app container and select **View Logs**.
-   To view the logs from the command line, use the `docker logs` command.
+   ```bash
+   docker run -dp 3000:3000 
+     -w /app -v ${PWD}:/app 
+     --network todo-app 
+     -e MYSQL_HOST=mysql 
+     -e MYSQL_USER=root 
+     -e MYSQL_PASSWORD=<your-password> 
+     -e MYSQL_DATABASE=todos 
+     node:20-alpine 
+     sh -c "yarn install && yarn run dev"
+   ```
 
-   The result includes a line that indicates that the app is connected to the MySQL database.
+1. In the VS Code editor, open the Docker extension view, right-click your app container, and select **View Logs**.
+
+   You can also view the logs from the command line by using the `docker logs` command.
+
+1. Review the log output. Notice the line that indicates the app is connected to the MySQL database: `Connected to mysql db at host mysql`.
 
    ```output
    # Previous log messages omitted
@@ -171,24 +188,28 @@ This procedure starts your app and connects that container to your MySQL contain
    Listening on port 3000
    ```
 
-1. Enter `http://localhost:3000` into your browser.
-   Add some items to your todo list.
+1. In your internet browser, go to your running application: `http://localhost:3000`.
 
-1. Connect to the MySQL database, as you did in the previous section.
-   Run this command to verify that the items are being written to the database.
+1. In your running application, add some items to your todo list.
+
+1. Connect to the MySQL container database on the `mysql` network so you can check the database.
+
+   When you run the command, enter your container ID for the `<mysql-container-id>` placeholder.
 
    ```bash
    docker exec -ti <mysql-container-id> mysql -p todos
    ```
 
-   And in the MySQL shell, run the following commands.
+   At the prompt, enter the password you supplied when you created the `todo-mysql-data` container.
+
+1. In the MySQL shell, verify that the `todo_items` you added are written to the `todos` database.
 
    ```sql
    use todos;
    select * from todo_items;
    ```
 
-   Your result will look like the following output.
+   You should see output similar to the following example:
 
    ```output
    +--------------------------------------+--------------------+-----------+
@@ -199,45 +220,33 @@ This procedure starts your app and connects that container to your MySQL contain
    +--------------------------------------+--------------------+-----------+
    ```
 
-At this point, you have an application that stores data in an external database.
-That database runs in a separate container.
-You learned about container networking.
+You now have an application that stores data in an external database running in a separate container. This procedure demonstrates how you can enable communication between containers by using networking.
 
-## Create a Docker Compose file
+## Create Docker Compose file
 
-Docker Compose helps define and share multi-container applications.
-With Docker Compose, you can create a file to define the services.
-With a single command, you can spin up everything or tear it all down.
+Docker Compose helps you define and share multi-container applications. A Docker Compose file can specify all your required services, so you can start or end all related processes with a single command. You can define your application stack in a Docker Compose file at the root of your project repo, and maintain your configuration under version control. This approach allows others to contribute to your project when they clone your repo.
 
-You can define your application stack in a file and keep that file at the root of your project repo, under version control.
-This approach enables others to contribute to your project.
-They would only need to clone your repo.
+In the following example, you configure a Docker Compose file for your multi-container application `todo`.
 
-1. At the root of the app project, create a file named `docker-compose.yml`.
+1. At the root of your `todo` app project, create a Docker Compose file named *docker-compose.yml*.
 
-1. In the compose file, start by defining the schema version.
+   > [!NOTE]
+   > By default, the YAML schema version is set to the most recent version. When you run your app, if your schema version is obsolete, you receive a warning message. To review current schema versions and a compatibility matrix, see [Overview (Compose file)](https://docs.docker.com/reference/compose-file/).
+
+1. In the *docker-compose.yml* file, add the following elements. Specify your app `name` and start the list of `services` (or containers) that you want to run as part of your application. 
 
    ```yaml
-   version: "3.7"
+   name: todo
+   
+   services:
    ```
 
-   In most cases, it's best to use the latest supported version.
-   For current schema versions and compatibility matrix, see [Compose file](https://docs.docker.com/compose/compose-file/).
-
-1. Define the services, or containers, you want to run as part of your application.
-
-    ```yaml hl_lines="3"
-    version: "3.7"
-
-    services:
-    ```
+   The list of services is unique for your app. Examples include `app`, `web`, `db`, `proxy`, and so on. You extend the definition for the `services` element in a later step.
 
    > [!TIP]
-   > Indentation is significant in *.yml* files.
-   > If you're editing in VS Code, Intellisense indicates errors.
+   > Indentation is significant in *.yml* files. If you're editing in VS Code, Intellisense indicates any errors in the format or syntax.
 
-1. Here's the command you used to your app container.
-   You'll add this information to your *.yml* file.
+1. Add the following code to your *docker-compose.yml* file after the `services` section. 
 
    ```bash
    docker run -dp 3000:3000 
@@ -246,218 +255,247 @@ They would only need to clone your repo.
      -e MYSQL_HOST=mysql 
      -e MYSQL_USER=root 
      -e MYSQL_PASSWORD=<your-password> 
-     -e MYSQL_DB=todos 
+     -e MYSQL_DATABASE=todos 
      node:20-alpine 
      sh -c "yarn install && yarn run dev"
    ```
 
-   Define the service entry and the image for the container.
+   Remember to enter your MySQL root password for the `<your-password>` placeholder. You used this same command earlier to [run your app container with MySQL](#run-your-app-with-mysql).
+
+1. Return to the `services` definition in the *docker-compose.yml* file. Extend the definition by adding an entry to define the `app` service element, which includes the image for the container.
 
    ```yaml
-   version: "3.7"
-
    services:
      app:
        image: node:20-alpine
    ```
 
-   You can pick any name for the service.
-   The name automatically becomes a network alias, which is useful when defining the MySQL service.
+   You can pick any name for the service. The name automatically becomes a network alias, which is useful when you define the MySQL service.
 
-1. Add the command.
+1. Extend the `app` element definition to specify a `command` to execute.
 
-    ```yaml
-    version: "3.7"
-
-    services:
-      app:
-        image: node:20-alpine
-        command: sh -c "yarn install && yarn run dev"
-    ```
-
-1. Specify the ports for the service, which correspond to `-p 3000:3000` in the command above.
-
-    ```yaml
-    version: "3.7"
-
-    services:
-      app:
-        image: node:20-alpine
-        command: sh -c "yarn install && yarn run dev"
-        ports:
-          - 3000:3000
-    ```
-
-1. Specify the working directory and the volume mapping
-
-    ```yaml
-    version: "3.7"
-
-    services:
-      app:
-        image: node:20-alpine
-        command: sh -c "yarn install && yarn run dev"
-        ports:
-          - 3000:3000
-        working_dir: /app
-        volumes:
-          - ./:/app
-    ```
-
-   In Docker Compose volume definitions, you can use relative paths from the current directory.
-
-1. Specify the environment variable definitions.
-
-    ```yaml
-    version: "3.7"
-
-    services:
-      app:
-        image: node:20-alpine
-        command: sh -c "yarn install && yarn run dev"
-        ports:
-          - 3000:3000
-        working_dir: /app
-        volumes:
-          - ./:/app
-        environment:
-          MYSQL_HOST: mysql
-          MYSQL_USER: root
-          MYSQL_PASSWORD: <your-password>
-          MYSQL_DB: todos
-    ```
-
-1. Add the definitions for the MySQL service.
-   Here's the command you used above:
-
-   ```bash
-   docker run -d 
-     --network todo-app --network-alias mysql 
-     -v todo-mysql-data:/var/lib/mysql 
-     -e MYSQL_ROOT_PASSWORD=<your-password> 
-     -e MYSQL_DATABASE=todos 
-     mysql:5.7
+   ```yaml
+     app:
+       image: node:20-alpine
+       command: sh -c "yarn install && yarn run dev"
    ```
 
-   Define the new service and name it *mysql*.
-   Add your text after the `app` definition, at the same level of indentation.
+1. Define the `ports` to use with the `app` service. Notice these ports correspond to the `-p 3000:3000` argument for the command used to run the app with MySQL.
 
-    ```yaml hl_lines="6 7"
-    version: "3.7"
+   ```yaml
+     app:
+       image: node:20-alpine
+       command: sh -c "yarn install && yarn run dev"
+       ports:
+         - 3000:3000
+   ```
 
-    services:
-      app:
-        # The app service definition
-      mysql:
-        image: mysql:5.7
-    ```
+1. Identify the working directory `working_dir` for the `app` service and also the mapped `volumes`.
 
-   The service automatically gets the network alias.
-   Specify the image to use.
+   ```yaml
+     app:
+       image: node:20-alpine
+       command: sh -c "yarn install && yarn run dev"
+       ports:
+         - 3000:3000
+       working_dir: /app
+       volumes:
+         - ./:/app
+   ```
 
-1. Define the volume mapping.
+   When you define Docker Compose volumes, you can use relative paths based on the current directory.
 
-   Specify the volume with a `volumes:` section at the same level as `services:`.
-   Specify the volume mapping under the image.
+1. Specify `environment` variable definitions to use when you execute commands for the `app` service.
 
-    ```yaml
-    version: "3.7"
+   ```yaml
+     app:
+       image: node:20-alpine
+       command: sh -c "yarn install && yarn run dev"
+       ports:
+         - 3000:3000
+       working_dir: /app
+       volumes:
+         - ./:/app
+       environment:
+         MYSQL_HOST: mysql
+         MYSQL_USER: root
+         MYSQL_PASSWORD: <your-password>
+         MYSQL_DATABASE: todos
+   ```
 
-    services:
-      app:
-        # The app service definition
-      mysql:
-        image: mysql:5.7
-        volumes:
-          - todo-mysql-data:/var/lib/mysql
-    
-    volumes:
-      todo-mysql-data:
-    ```
+   Remember to enter your MySQL root password for the `<your-password>` placeholder. 
 
-1. Specify the environment variables.
+1. Add the definition for the MySQL service `mysql` after the `app` service definition. Specify the element names and values as shown and with the same indentation.
 
-    ```yaml
-    version: "3.7"
+   ```yaml
+   services:
+     app:
+       ...
+     mysql:
+       image: mysql:5.7
+   ```
 
-    services:
-      app:
-        # The app service definition
-      mysql:
-        image: mysql:5.7
-        volumes:
-          - todo-mysql-data:/var/lib/mysql
-        environment: 
-          MYSQL_ROOT_PASSWORD: <your-password>
-          MYSQL_DATABASE: todos
-    
-    volumes:
-      todo-mysql-data:
-    ```
+   The `mysql` service definition corresponds to the command you used earlier to [start MySQL](#start-mysql-database-management-system). When you define the service, it automatically receives the network alias.
 
-At this point, the complete `docker-compose.yml` looks like this:
+1. Identify the mapped `volumes` for the `mysql` service.
 
-```yaml
-version: "3.7"
+   ```yaml
+   services:
+     app:
+       ...
+     mysql:
+       image: mysql:5.7
+       volumes:
+         - todo-mysql-data:/var/lib/mysql
+   ```
 
-services:
-  app:
-    image: node:20-alpine
-    command: sh -c "yarn install && yarn run dev"
-    ports:
-      - 3000:3000
-    working_dir: /app
-    volumes:
-      - ./:/app
-    environment:
-      MYSQL_HOST: mysql
-      MYSQL_USER: root
-      MYSQL_PASSWORD: <your-password>
-      MYSQL_DB: todos
+1. Specify `environment` variable definitions to use when you execute commands for the `mysql` service.
 
-  mysql:
-    image: mysql:5.7
-    volumes:
-      - todo-mysql-data:/var/lib/mysql
-    environment: 
-      MYSQL_ROOT_PASSWORD: <your-password>
-      MYSQL_DATABASE: todos
+   ```yaml
+   services:
+     app:
+       ...
+     mysql:
+       image: mysql:5.7
+       volumes:
+         - todo-mysql-data:/var/lib/mysql
+       environment: 
+         MYSQL_ROOT_PASSWORD: <your-password>
+         MYSQL_DATABASE: todos
+   ```
 
-volumes:
-  todo-mysql-data:
-```
+   Remember to enter your MySQL root password for the `<your-password>` placeholder. 
 
-## Run the application stack
+1. Define volume mapping for the entire app. Add a `volumes:` section after the `services:` section and with the same indentation.
 
-Now that you have the `docker-compose.yml` file, try it.
+   ```yaml
+   services:
+      ...
+   
+   volumes:
+     todo-mysql-data:
+   ```
 
-1. Make sure no other copies of the app and database are running.
-   In the Docker extension, right-click any running container and select **Remove**.
-   Or, at the command line, use the command `docker rm` as in previous examples.
+1. Confirm your completed *docker-compose.yml* file looks like the following example. You should see your MySQL root password for the `<your-password>` placeholder. 
 
-1. In the VS Code Explorer, right-click *docker-compose.yml* and select **Compose Up**.
-   Or, at the command line, use this docker command.
+   ```yaml
+   name: todo
+
+   services:
+     app:
+       image: node:20-alpine
+       command: sh -c "yarn install && yarn run dev"
+       ports:
+         - 3000:3000
+       working_dir: /app
+       volumes:
+         - ./:/app
+       environment:
+         MYSQL_HOST: mysql
+         MYSQL_USER: root
+         MYSQL_PASSWORD: <your-password>
+         MYSQL_DATABASE: todos
+
+     mysql:
+       image: mysql:5.7
+       volumes:
+         - todo-mysql-data:/var/lib/mysql
+       environment: 
+         MYSQL_ROOT_PASSWORD: <your-password>
+         MYSQL_DATABASE: todos
+
+   volumes:
+     todo-mysql-data:
+   ```
+
+## Run the application stack with Docker Compose
+
+Now you can try running your *docker-compose.yml* file.
+
+1. Stop any running instances of your application and database.
+
+   # [Visual Studio Code](#tab/visual-studio-code)
+
+   Follow these steps in VS Code:
+
+   1. Open the **DOCKER** (Docker extension) view.
+   
+   1. For each running container, right-click the container and select **Remove**.
+
+   # [Command Line](#tab/command-line)
+   
+   Run the following commands in a command-line window or terminal:
+
+   1. Get the list of running containers and their identifiers `<container-id>`:
+
+      ```bash
+      docker ps
+      ```
+
+   1. Stop and remove each running container:
+
+      ```bash
+      docker stop <container-id>
+      docker rm <container-id>
+      ```
+   ---
+
+1. Start your multi-container app and all services.
+
+   # [Visual Studio Code](#tab/visual-studio-code)
+
+   Follow these steps in VS Code:
+
+   1. Open the **EXPLORER** (file and folder) view.
+   
+   1. Right-click the *docker-compose.yml* file and select **Compose Up**.
+
+   # [Command Line](#tab/command-line)
+   
+   Run the following command with the `-d` argument, which executes the command as a background process:
 
    ```bash
    docker-compose up -d
    ```
+   ---
 
-   The `-d` parameter makes the command run in the background.
-
-   You should see output like the following results.
+   You should see output similar to the following example:
 
    ```output
    [+] Building 0.0s (0/0)
    [+] Running 2/2
-   ✔ Container app-app-1    Started                                                                                                       0.9s 
+   ✔ Container app-app-1    Started  0.9s 
    ✔ Container app-mysql-1  Running
    ```
 
-   The volume was created as well as a network.
-   By default, Docker Compose creates a network specifically for the application stack.
+   This operation creates the mapped volume for the app and the network. By default, Docker Compose creates a network specifically for the application stack.
 
-1. In the Docker extension, right-click the app container and select **View Logs**.
-   To view the logs from the command line, use the `docker logs` command.
+1. Review the logs for the running container.
+
+   # [Visual Studio Code](#tab/visual-studio-code)
+
+   Follow these steps in VS Code:
+
+   1. Open the **DOCKER** (Docker extension) view.
+   
+   1. Right-click the app container and select **View Logs**.
+
+   # [Command Line](#tab/command-line)
+   
+   Run the following command:
+
+   ```bash
+   docker logs
+   ```
+
+   You can view logs for a specific service by adding the service name, such as `app` to the end of the `logs` command:
+
+   ```bash
+   docker logs <service-name>
+   ```
+   ---
+
+   You should see output similar to the following example:
 
    ```output
    mysql_1  | 2019-10-03T03:07:16.083639Z 0 [Note] mysqld: ready for connections.
@@ -466,37 +504,40 @@ Now that you have the `docker-compose.yml` file, try it.
    app_1    | Listening on port 3000
    ```
 
-   The logs from each of the services are interleaved into a single stream.
-   With this behavior, you can watch for timing-related issues.
+   The logs show the service name and instance number, such as `app_1` at the start of each line. This format helps you to distinguish messages by service and instance. The logs from each service are interleaved into a single stream. This approach enables you to watch for timing-related issues.
 
-   The service name is displayed at the beginning of the line to help distinguish messages.
-   To view logs for a specific service, add the service name to the end of the logs command.
+1. You can now go to your running application in your internet browser: `http://localhost:3000`.
 
-1. At this point, you should be able to open your app.
-   Enter `http://localhost:3000` into your browser.
+## Stop Docker Compose and running containers
 
-When you're done with these containers, you can remove them all simply.
+When you're done with the app and containers, you can remove them.
 
-- In VS Code Explorer, right-click **docker-compose.yml** and select **Compose Down**.
-- At the command line, run `docker-compose down`.
+# [Visual Studio Code](#tab/visual-studio-code)
 
-The containers stop.
-The network is removed.
+Follow these steps in VS Code:
 
-By default, named volumes in your compose file aren't removed.
-If you want to remove the volumes, run `docker-compose down --volumes`.
+1. Open the **EXPLORER** (file and folder) view.
+   
+1. Right-click the *docker-compose.yml* file and select **Compose Down**.
+
+# [Command Line](#tab/command-line)
+   
+Run the following command to stop the running app and containers:
+
+```bash
+docker-compose down
+```
+---
+
+This operation stops all running containers and removes the network.
+
+By default, named volumes in your compose file aren't removed. If you want to remove these volumes, you can use the `docker-compose down --volumes` command.
 
 ## Clean up resources
 
-The prerequisites you used in this tutorial series can be used for future Docker development.
-There's no reason to delete or uninstall anything.
+If you applied the [Prerequisites](#prerequisites) components in this tutorial series to your installation, you can reuse the configuration for future Docker development. It's not essential to delete or uninstall any component.
 
-## Next steps
-
-In this tutorial, you learned about multi-container apps and Docker Compose.
-Docker Compose helps dramatically simplify the defining and sharing of multi-service applications.
-
-Here are some resources that might be useful to you:
+## Related content
 
 - [Docker Cloud Integration](https://github.com/docker/compose-cli)
 - [Examples](https://github.com/docker/awesome-compose)

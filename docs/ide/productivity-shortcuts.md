@@ -14,9 +14,6 @@ You can navigate in Visual Studio more easily by using the shortcuts in this art
 
 For a comprehensive list of command shortcuts and a printable keyboard shortcut cheat sheet, see [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md).
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Default keyboard shortcuts in Visual Studio for Mac](/visualstudio/mac/keyboard-shortcuts).
-
 ## Window management
 
 |Task|Shortcut|
@@ -125,4 +122,3 @@ For a comprehensive list of command shortcuts and a printable keyboard shortcut 
 - [Accessibility tips and tricks](../ide/reference/accessibility-tips-and-tricks.md)
 - [Productivity features in Visual Studio](productivity-features.md)
 - [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md)
-- [Default keyboard shortcuts in Visual Studio for Mac](/visualstudio/mac/keyboard-shortcuts)

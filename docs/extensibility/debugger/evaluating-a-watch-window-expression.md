@@ -27,7 +27,7 @@ ms.subservice: debug-diagnostics
 
 3. `IDebugExpressionContext2::ParseText` calls [Parse](../../extensibility/debugger/reference/idebugexpressionevaluator-parse.md) to do the actual work of parsing the text and produce an [IDebugParsedExpression](../../extensibility/debugger/reference/idebugparsedexpression.md) object.
 
-4. `IDebugExpressionContext2::ParseText` creates an [IDebugExpression2](../../extensibility/debugger/reference/idebugexpression2.md) object and puts the `IDebugParsedExpression` object into it. This I`DebugExpression2` object is then returned to Visual Studio.
+4. `IDebugExpressionContext2::ParseText` creates an [IDebugExpression2](../../extensibility/debugger/reference/idebugexpression2.md) object and puts the `IDebugParsedExpression` object into it. This `IDebugExpression2` object is then returned to Visual Studio.
 
 5. Visual Studio calls [EvaluateSync](../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) to evaluate the parsed expression.
 

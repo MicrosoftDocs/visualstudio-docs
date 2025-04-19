@@ -21,7 +21,7 @@ ms.subservice: general-ide
 
 Visual Studio uses [.NET regular expressions](/dotnet/standard/base-types/regular-expressions) to find and replace text.
 
-## Regular expression examples
+## Regular expression syntax
 
 The following table contains some regular expression characters, operators, constructs, and pattern examples. For a more complete reference, see [Regular expression language](/dotnet/standard/base-types/regular-expression-language-quick-reference).
 
@@ -47,7 +47,7 @@ The following table contains some regular expression characters, operators, cons
 |Specify the number of occurrences of the preceding character or group. For more information, see [Match exactly n times](/dotnet/standard/base-types/quantifiers-in-regular-expressions#match-exactly-n-times-n).|{n}, where 'n' is the number of occurrences|`x(ab){2}x` matches "xababx"<br/>`x(ab){2,3}x` matches "xababx" and "xabababx" but not "xababababx"|
 |[Match text in a Unicode category](/dotnet/standard/base-types/character-classes-in-regular-expressions#unicode-category-or-unicode-block-p). For more information about Unicode character classes, see [Unicode Standard 15.0 Character Properties](https://www.unicode.org/versions/Unicode15.0.0/ch04.pdf#G39).|\p{X}, where "X" is the Unicode number.|`\p{Lu}` matches "T" and "D" in "Thomas Doe"|
 |[Match a word boundary](/dotnet/standard/base-types/anchors-in-regular-expressions#word-boundary-b)|\b (Outside a character class `\b` specifies a word boundary, and inside a character class `\b` specifies a backspace.)|`\bin` matches "in" in "inside" but finds no matches in "pinto"|
-|Match a line break (that is, a carriage return followed by a new line)|\r?\n|`End\r?\nBegin` matches "End" and "Begin" only when "End" is the last string in a line and "Begin" is the first string in the next line|
+|Match a line break (that is, a carriage return followed by a new line, or a new line only)|\r?\n|`End\r?\nBegin` matches "End" and "Begin" only when "End" is the last string in a line and "Begin" is the first string in the next line|
 |Match any [word character](/dotnet/standard/base-types/character-classes-in-regular-expressions#word-character-w)|\w|`a\wd` matches "add" and "a1d" but not "a d"|
 |Match any [whitespace character](/dotnet/standard/base-types/character-classes-in-regular-expressions#whitespace-character-s)|\s|`Public\sInterface` matches the phrase "Public Interface"|
 |Match any [decimal digit character](/dotnet/standard/base-types/character-classes-in-regular-expressions#decimal-digit-character-d)|\d|`\d` matches "4" and "0" in "wd40"|
@@ -55,7 +55,7 @@ The following table contains some regular expression characters, operators, cons
 An example regular expression that combines some of the operators and constructs to match a hexadecimal number is `\b0[xX]([0-9a-fA-F]+)\b`. This expression matches "0xc67f" but not "0xc67g".
 
 > [!TIP]
-> In Windows operating systems, most lines end in "\r\n" (a carriage return followed by a new line). These characters aren't visible but are present in the editor and passed to the .NET regular expression service.
+> In Windows operating systems, most lines end in "\r\n" (a carriage return followed by a new line). These characters aren't visible but are present in the editor and passed to the .NET regular expression service. When you deal with files from the web or from a non-Windows operating system, be sure to account for the possibility that they use new line only for a line break.
 
 ## Capture groups and replacement patterns
 
@@ -92,6 +92,16 @@ The following image shows a regular expression `(?<repeated>\w+)\s\k<repeated>` 
 > Make sure to select the **Use Regular Expressions** button (or press **Alt**+**E**) in the **Quick Replace** dialog box.
 
 For more information about named capture groups, see [Named matched subexpressions](/dotnet/standard/base-types/grouping-constructs-in-regular-expressions#named-matched-subexpressions). For more information about regular expressions that are used in replacement patterns, see [Substitutions in regular expressions](/dotnet/standard/base-types/substitutions-in-regular-expressions).
+
+## Examples
+
+| Pattern | Description |
+| - | - |
+| `int ([_A-Za-z][_A-Za-z0-9]*)` | Match single integer definitions. Identifiers begin with one uppercase or lowercase letter, followed by zero or more (indicated by `*`) letters or numbers. The identifier is captured as `$1` by the outer parentheses. |
+| `(private|internal|public)*\s*([\w]+\s+)int\s+([_A-Za-z][_A-Za-z0-9]*)\s+=\s+[+-]+(\d)+` | Match C# integer declarations that are initialized to integer literals, capturing the various parts, including the access level, modifiers like `const` or `static`, the identifier, and the defined value. Note the use of `\s+` for at least one whitespace character, or `\s*` if whitespace might or might not occur. |
+| `foreach\s*\(([\w\d]*)\s+([\w\d]*)\s+in\s+(.*)\)` | Match the opening line of a `foreach` loop. The literal parentheses  are escaped with backslash (`\`). The various groups are captured as `$1`, `$2`, and `$3` by the unescaped parentheses. |
+| `#define\s+([_A-Za-z][_A-Za-z0-9]*)` | Matches `#define` definitions (without the value, if any). The defined token is stored in `$1`. |
+| `#include\s+["<](.*)[">]` | Match includes in a C++ source file. |
 
 ## Related content
 

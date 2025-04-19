@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_isPointerToDataMember
 
 Specifies whether this symbol is a pointer to a data member.

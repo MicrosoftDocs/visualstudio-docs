@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 # IDiaAddressMap
 
-Provides control over how the DIA SDK computes virtual and relative virtual addresses for debug objects.
+Provides control over how the Debug Interface Access (DIA) SDK computes virtual and relative virtual addresses for debug objects.
 
 ## Syntax
 

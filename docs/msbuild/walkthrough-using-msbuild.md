@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Tutorial: Install and create a project"
 description: Explore the various parts of an MSBuild project file, including items, item metadata, properties, targets, and build tasks.
-ms.date: 10/17/2023
+ms.date: 10/3/2024
 ms.topic: tutorial
 helpviewer_keywords:
 - MSBuild, tutorial
@@ -40,7 +40,7 @@ If you have Visual Studio, then you already have MSBuild installed. With Visual 
 
 In the Visual Studio installer, navigate to **Individual Components**, and locate the checkbox for **MSBuild**. It's automatically selected when you choose any of the other workloads to install.
 
-To install MSBuild on a system that doesn't have Visual Studio, go to Build Tools for Visual Studio 2022 on the [downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta). Another way of getting MSBuild is to install the [.NET SDK](/dotnet/core/sdk#acquiring-the-net-sdk).
+To install MSBuild on a system that doesn't have Visual Studio, go to **Build Tools for Visual Studio 2022** on the [downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta). Another way of getting MSBuild is to install the [.NET SDK](/dotnet/core/sdk#acquiring-the-net-sdk).
 
 ::: moniker-end
 
@@ -79,12 +79,7 @@ To install MSBuild on a system that doesn't have Visual Studio, go to Build Tool
 
 Project files are XML-formatted files with the root node [Project](../msbuild/project-element-msbuild.md).
 
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0"  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-```
-
-Most .NET projects have an `Sdk` attribute. These projects are called SDK-style projects.
+Most .NET projects have an `Sdk` attribute. These projects are called SDK-style projects. Referencing an SDK means MSBuild imports a set of files that provide the build infrastructure for that SDK. If you don't reference any SDK, you can still use MSBuild, you just won't automatically have all the SDK-specific properties and targets available to you.
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
@@ -129,7 +124,8 @@ MSBuild keeps track of the targets of a build, and guarantees that each target i
 
     ```xml
     <Target Name="HelloWorld">
-      <Message Text="Hello"></Message>  <Message Text="World"></Message>
+      <Message Text="Hello"></Message>
+      <Message Text="World"></Message>
     </Target>
     ```
 
@@ -137,13 +133,13 @@ MSBuild keeps track of the targets of a build, and guarantees that each target i
 
 The `Message` task is one of the many tasks that ships with MSBuild. For a complete list of available tasks and usage information, see [Task reference](../msbuild/msbuild-task-reference.md).
 
-The `Message` task takes the string value of the Text attribute as input and displays it on the output device (or writes it to one or more logs, if applicable). The HelloWorld target executes the Message task twice: first to display "Hello", and then to display "World."
+The `Message` task takes the string value of the `Text` attribute as input and displays it on the output device (or writes it to one or more logs, if applicable). The `HelloWorld` target executes the Message task twice: first to display "Hello", and then to display "World."
 
 ## Build the target
 
 If you try to build this project from Visual Studio, it doesn't build the target you defined. That's because Visual Studio chooses the default target, which is still the one in the imported `.targets` file.
 
-Run MSBuild from the **Developer Command Prompt** for Visual Studio to build the HelloWorld target defined previously. Use the -target or -t command-line switch to select the target.
+Run MSBuild from the **Developer Command Prompt** for Visual Studio to build the HelloWorld target defined previously. Use the `-target` or `-t` command-line switch to select the target.
 
 > [!NOTE]
 > We will refer to the **Developer Command Prompt** as the **Command Window** in the following sections.
@@ -152,7 +148,7 @@ Run MSBuild from the **Developer Command Prompt** for Visual Studio to build the
 
 1. Open the **Command Window**.
 
-   In the search box on the taskbar, start typing the name of the tool, such as `dev` or `developer command prompt`. This brings up a list of installed apps that match your search pattern.
+   In the search box on the taskbar, start typing the name of the tool, such as `dev` or `developer command prompt`. A list of installed apps that match your search pattern appears.
 
    If you need to find it manually, the file is *LaunchDevCmd.bat* in the *{Visual Studio installation folder}\Common7\Tools* folder.
 
@@ -194,18 +190,18 @@ Run MSBuild from the **Developer Command Prompt** for Visual Studio to build the
  All properties are child elements of PropertyGroup elements. The name of the property is the name of the child element, and the value of the property is the text element of the child element. For example,
 
 ```xml
-<TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+<TargetFrameworkVersion>net8.0</TargetFrameworkVersion>
 ```
 
- defines the property named TargetFrameworkVersion, giving it the string value "v4.5."
+ defines the property named `TargetFrameworkVersion`, giving it the string value "net8.0"
 
  Build properties can be redefined at any time. If
 
 ```xml
-<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+<TargetFrameworkVersion>net6.0</TargetFrameworkVersion>
 ```
 
- appears later in the project file, or in a file imported later in the project file, then TargetFrameworkVersion takes the new value "v3.5."
+ appears later in the project file, or in a file imported later in the project file, then `TargetFrameworkVersion` takes the new value "net6.0"
 
 ## Examine a property value
 
@@ -261,24 +257,24 @@ Use this syntax to examine some of the properties in the project file.
 Many properties like `Configuration` are defined conditionally, that is, the `Condition` attribute appears in the property element. Conditional properties are defined or redefined only if the condition evaluates to "true." Undefined properties are given the default value of an empty string. For example,
 
 ```xml
-<Configuration   Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
 ```
 
 means "If the Configuration property hasn't been defined yet, define it and give it the value 'Debug'."
 
-Almost all MSBuild elements can have a Condition attribute. For more discussion about using the Condition attribute, see [Conditions](../msbuild/msbuild-conditions.md).
+Almost all MSBuild elements can have a `Condition` attribute. For more discussion about using the `Condition` attribute, see [Conditions](../msbuild/msbuild-conditions.md).
 
 ### Reserved properties
 
-MSBuild reserves some property names to store information about the project file and the MSBuild binaries. MSBuildToolsPath is an example of a reserved property. Reserved properties are referenced with the $ notation like any other property. For more information, see [How to: Reference the name or location of the project file](../msbuild/how-to-reference-the-name-or-location-of-the-project-file.md) and [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md).
+MSBuild reserves some property names to store information about the project file and the MSBuild binaries. MSBuildToolsPath is an example of a reserved property. Reserved properties are referenced with the `$` notation like any other property. For more information, see [How to: Reference the name or location of the project file](../msbuild/how-to-reference-the-name-or-location-of-the-project-file.md) and [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md).
 
 ### Environment variables
 
-You can reference environment variables in project files the same way as build properties. For example, to use the PATH environment variable in your project file, use $(Path). If the project contains a property definition that has the same name as an environment variable, the property in the project overrides the value of the environment variable. For more information, see [How to: Use environment variables in a build](../msbuild/how-to-use-environment-variables-in-a-build.md).
+You can reference environment variables in project files the same way as build properties. For example, to use the `PATH` environment variable in your project file, use `$(Path`). If the project contains a property definition that has the same name as an environment variable, the property in the project overrides the value of the environment variable. For more information, see [How to: Use environment variables in a build](../msbuild/how-to-use-environment-variables-in-a-build.md).
 
 ## Set properties from the command line
 
-Properties can be defined on the command line using the -property or -p command line switch. Property values received from the command line override property values set in the project file and environment variables.
+Properties can be defined on the command line using the `-property` or `-p` command line switch. Property values received from the command line override property values set in the project file and environment variables.
 
 **To set a property value from the command line:**
 
@@ -298,7 +294,7 @@ MSBuild creates the Configuration property and gives it the value "Release."
 
 ## Special characters
 
-Certain characters have special meaning in MSBuild project files. Examples of these characters include semicolons (;) and asterisks (*). In order to use these special characters as literals in a project file, they must be specified by using the syntax %\<xx>, where \<xx> represents the ASCII hexadecimal value of the character.
+Certain characters have special meaning in MSBuild project files. Examples of these characters include semicolons (`;`) and asterisks (`*`). In order to use these special characters as literals in a project file, they must be specified by using the syntax `%<xx>`, where `<xx>` represents the ASCII hexadecimal value of the character.
 
 Change the Message task to show the value of the Configuration property with special characters to make it more readable.
 
@@ -396,7 +392,7 @@ To change the separator of an item type, use the following syntax, where ItemTyp
 @(ItemType, Separator)
 ```
 
-Change the Message task to use carriage returns and line feeds (%0A%0D) to display Compile items one per line.
+Change the `Message` task to use carriage returns and line feeds (%0A%0D) to display Compile items one per line.
 
 **To display item type values one per line**
 
@@ -427,7 +423,7 @@ Change the Message task to use carriage returns and line feeds (%0A%0D) to displ
 
 ### Include, Exclude, and wildcards
 
- You can use the wildcards "*", "\*\*", and "?" with the Include attribute to add items to an item type. For example,
+ You can use the wildcards "*", "\*\*", and "?" with the `Include` attribute to add items to an item type. For example,
 
 ```xml
 <Photos Include="images\*.jpeg" />
@@ -460,9 +456,9 @@ Change the Message task to use carriage returns and line feeds (%0A%0D) to displ
 <Compile Include="*.cs" Exclude="*Designer*">
 ```
 
- adds all files with the file extension *.cs* to the Compile item type, except for files whose names contain the string *Designer*. For more examples, see [How to: Exclude files from the build](../msbuild/how-to-exclude-files-from-the-build.md).
+ adds all files with the file extension *.cs* to the `Compile` item type, except for files whose names contain the string *Designer*. For more examples, see [How to: Exclude files from the build](../msbuild/how-to-exclude-files-from-the-build.md).
 
-The `Exclude` attribute only affects the items added by the Include attribute in the item element that contains them both. For example,
+The `Exclude` attribute only affects the items added by the `Include` attribute in the item element that contains them both. For example,
 
 ```xml
 <Compile Include="*.cs" />
@@ -550,7 +546,7 @@ Notice how the phrase "Compile.DependentUpon" appears several times. The use of 
 
 ### Well-known metadata
 
- Whenever an item is added to an item list, that item is assigned some well-known metadata. For example, %(Filename) returns the file name of any item. For a complete list of well-known metadata, see [Well-known item metadata](../msbuild/msbuild-well-known-item-metadata.md).
+ Whenever an item is added to an item list, that item is assigned some well-known metadata. For example, `%(Filename)` returns the file name of any item. For a complete list of well-known metadata, see [Well-known item metadata](../msbuild/msbuild-well-known-item-metadata.md).
 
 **To examine well-known metadata:**
 
@@ -579,11 +575,11 @@ Notice how the phrase "Compile.DependentUpon" appears several times. The use of 
     Compile Filename: Settings.Designer
     ```
 
-By comparing the preceding two examples, you can see that while not every item in the Compile item type has DependentUpon metadata, all items have the well-known Filename metadata.
+By comparing the preceding two examples, you can see that while not every item in the `Compile` item type has DependentUpon metadata, all items have the well-known Filename metadata.
 
 ### Metadata transformations
 
- Item lists can be transformed into new item lists. To transform an item list, use the following syntax, where \<ItemType> is the name of the item type and \<MetadataName> is the name of the metadata:
+ Item lists can be transformed into new item lists. To transform an item list, use the following syntax, where `<ItemType>` is the name of the item type and `<MetadataName>` is the name of the metadata:
 
 ```xml
 @(ItemType -> '%(MetadataName)')

@@ -100,13 +100,13 @@ function Foo(param1) {
 }
 ```
 
-See the JsDoc information in [Type Checking JavaScript Files](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html#supported-jsdoc) for the JsDoc annotations currently supported.
+See the JSDoc information in [Type Checking JavaScript Files](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html#supported-jsdoc) for the JSDoc annotations currently supported.
 
 ## IntelliSense based on TypeScript declaration files
 
-Because JavaScript and TypeScript are based on the same language service, they are able to interact in a rich way. For example, JavaScript IntelliSense can be provided for values declared in a *.d.ts* file (see [TypeScript documentation](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html)), and types such as interfaces and classes declared in TypeScript are available for use as types in JsDoc comments.
+Because JavaScript and TypeScript are based on the same language service, they are able to interact in a rich way. For example, JavaScript IntelliSense can be provided for values declared in a *.d.ts* file (see [TypeScript documentation](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html)), and types such as interfaces and classes declared in TypeScript are available for use as types in JSDoc comments.
 
-Below, we show a simple example of a TypeScript definition file providing such type information (via an interface) to a JavaScript file in the same project (using a `JsDoc` tag).
+Below, we show a simple example of a TypeScript definition file providing such type information (via an interface) to a JavaScript file in the same project (using a `JSDoc` tag).
 
 ![TypeScript definition file](https://raw.githubusercontent.com/wiki/Microsoft/TypeScript/images/decl1.png)
 
@@ -124,4 +124,3 @@ Currently, auto-detection works for dependencies downloaded from npm (by reading
 ## Related content
 
 - [Using IntelliSense](../ide/using-intellisense.md)
-- [JavaScript support (Visual Studio for Mac)](/visualstudio/mac/javascript)

@@ -1,5 +1,5 @@
 ---
-description: "Returns an indicator of a methods calling convention."
+description: Returns an indicator of a methods calling convention.
 title: "IDiaSymbol::get_callingConvention"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_callingConvention
 
 Returns an indicator of a methods calling convention.
@@ -19,7 +20,7 @@ Returns an indicator of a methods calling convention.
 ## Syntax
 
 ```C++
-HRESULT get_callingConvention ( 
+HRESULT get_callingConvention ( 
    DWORD* pRetVal
 );
 ```

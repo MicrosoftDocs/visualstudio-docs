@@ -16,7 +16,7 @@
         ],
         "src": "2017",
         "group": "vsmac-2017"
-      }, 
+      },
       {
         "files": [
           "**/*.md",
@@ -140,12 +140,12 @@
       "exclude_monikers": {
         "**/*.md": [
           "vsmac-2017",
-          "vsmac-2019"
+          "vsmac-2019",
+          "vsmac-2022"
         ]
       }
     },
     "template": [],
-    "dest": "mac",
     "markdownEngineName": "markdig",
     "xref": [],
     "groups": {
@@ -161,6 +161,7 @@
         "dest": "2022",
         "moniker_range": ">=vsmac-2022"
       }
-    }
+    },
+    "dest": "mac"
   }
 }

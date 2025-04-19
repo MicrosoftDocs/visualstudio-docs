@@ -1,7 +1,7 @@
 ---
 description: Positions the enumerator by performing a lookup by virtual address (VA).
 title: "IDiaEnumSymbolsByAddr::symbolByVA"
-ms.date: "11/04/2016"
+ms.date: "07/22/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -20,21 +20,21 @@ Positions the enumerator by performing a lookup by virtual address (VA).
 ## Syntax
 
 ```c++
-HRESULT symbolByVA ( 
-   DWORD**      virtualAddress,
+HRESULT symbolByVA (
+   ULONGLONG    virtualAddress,
    IDiaSymbol** ppsymbol
 );
 ```
 
 #### Parameters
 
-virtualAddress
+`virtualAddress`
 
 [in] Virtual address.
 
-ppsymbol
+`ppsymbol`
 
-[out] Returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object representing the symbol found.
+[out] Returns an [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md) object representing the symbol found.
 
 ## Return Value
 
@@ -42,5 +42,5 @@ If successful, returns `S_OK`. Returns `S_FALSE` if the symbol could not be foun
 
 ## See also
 
-- [IDiaEnumSymbolsByAddr](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr.md)
-- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+- [`IDiaEnumSymbolsByAddr`](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr.md)
+- [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md)

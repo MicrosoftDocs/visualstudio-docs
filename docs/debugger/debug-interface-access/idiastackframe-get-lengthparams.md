@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackFrame::get_lengthParams
 
 Retrieves the number of bytes of parameters pushed on the stack.
@@ -19,7 +20,7 @@ Retrieves the number of bytes of parameters pushed on the stack.
 ## Syntax
 
 ```C++
-HRESULT get_lengthParams ( 
+HRESULT get_lengthParams ( 
    DWORD* pRetVal
 );
 ```

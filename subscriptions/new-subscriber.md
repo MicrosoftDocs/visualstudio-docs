@@ -1,9 +1,9 @@
 ---
 title: Get started with your new Visual Studio subscription
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/06/2024
+ms.date: 01/28/2025
 ms.topic: how-to
 description: Learn how to get started with your new Visual Studio subscription.
 ---
@@ -22,7 +22,7 @@ Learn how to:
 
 ## A quick tour of the portal
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1U7cj]
+> [!VIDEO https://medius.microsoft.com/Embed/video-nc/6d1b9008-3c87-4a29-87ac-c1b134130f51?r=779528946203]
 
 There are four pages in the portal, each of which provides you with different capabilities.
 + **Benefits** - Go to this tab to see which benefits are included in your subscription, and activate them. You can filter the list of benefits by Tools, Professional Development, or Support to make it easy to find the benefits you want to activate.
@@ -69,4 +69,3 @@ As an active Visual Studio subscriber, you can use a range of features in Azure 
 
 ## Next steps
 Get started using your benefits by signing in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits) . 
-

@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::findInlineFramesByVA
 
 Retrieves an enumeration that allows a client to iterate through all of the inline frames on a specified virtual address (VA).
@@ -17,7 +18,7 @@ Retrieves an enumeration that allows a client to iterate through all of the inli
 ## Syntax
 
 ```C++
-HRESULT findInlineFramesByVA ( 
+HRESULT findInlineFramesByVA ( 
    ULONGLONG         va,
    IDiaEnumSymbols** ppResult
 );

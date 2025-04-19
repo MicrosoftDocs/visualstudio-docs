@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the value of a specified register as stored in the stack frame."
+description: Retrieves the value of a specified register as stored in the stack frame.
 title: "IDiaStackFrame::get_registerValue"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackFrame::get_registerValue
 
 Retrieves the value of a specified register as stored in the stack frame.

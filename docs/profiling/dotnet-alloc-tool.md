@@ -1,7 +1,7 @@
 ---
 title: Analyze memory usage for .NET objects
 description: View how much memory your app uses and what code paths allocate the most memory by using the .NET Object Allocation tool.
-ms.date: 01/31/2024
+ms.date: 04/14/2025
 ms.topic: how-to
 helpviewer_keywords: 
   - memory allocation, memory usage
@@ -16,9 +16,18 @@ You can see how much memory your app uses and what code paths allocate the most 
 
 After running the tool, you can see the function execution paths where objects are being allocated. You can then trace back to the root of the call tree that is taking up the most memory.
 
-For a tutorial that shows how to improve performance using the .NET Object Allocation tool, see [Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
+For a tutorial that shows how to improve performance using the .NET Object Allocation tool, see [Case study: Beginner's guide to optimizing code](../profiling/optimize-code-using-profiling-tools.md).
 
 ## Setup
+
+1. In the Visual Studio project, set the solution configuration to **Release** and select the deployment target.
+
+   ::: moniker range=">=vs-2022"
+   The deployment target typically matches the project name, indicating a local deployment.
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   The deployment target is typically **Local Windows Debugger** (or **Local Machine**).
+   ::: moniker-end
 
 1. Select **Alt+F2** to open the Performance Profiler in Visual Studio.
 
@@ -96,6 +105,12 @@ You can filter the tabular data to display activity for only a specified time ra
 ::: moniker-end
 
 You can also zoom into or out of the graph.
+
+::: moniker range=">=vs-2022"
+## Insights
+
+If any insights show up in the **Insights** view, use the provided link to get more information about the issue identified. In addition, if you are using Copilot, the **Ask Copilot** button will open the Copilot chat window, and Copilot will provide suggestions based on your code and any identified issues.
+::: moniker-end
 
 ### Allocation
 

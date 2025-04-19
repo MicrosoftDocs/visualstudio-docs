@@ -18,7 +18,7 @@ jobs:
       pull-requests: write
 
     steps:
-      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 
       - name: "Print manual run reason"
         if: ${{ github.event_name == 'workflow_dispatch' }}
@@ -41,7 +41,7 @@ jobs:
           savefile: './docs/ide/whats-new-visual-studio-docs.md'
 
       - name: create-pull-request
-        uses: peter-evans/create-pull-request@c5a7806660adbe173f04e3e038b0ccdcd758773c
+        uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e
         with:
           branch: create-whatsnew-pull-request/patch
           title: "What's new article"

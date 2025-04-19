@@ -1,7 +1,7 @@
 ---
 title: Tutorial projects and solutions Visual Basic
 description: Create a new project and a solution to organize and contain your code projects in Visual Studio as a Visual Basic developer.
-ms.date: 09/14/2021
+ms.date: 09/26/2024
 ms.subservice: general-ide
 ms.custom: vs-acquisition
 ms.topic: tutorial
@@ -136,6 +136,8 @@ We have an empty project. Let's add a code file.
 1. Open the project properties by double-clicking **My Project** in **Solution Explorer**. On the **Application** tab, change **Application type** to **Class Library**. This step is necessary to build the project successfully.
 
 1. Build the project by right-clicking on **QuickDate** in **Solution Explorer** and choosing **Build**. You should see a successful build message in the **Output** window.
+
+   :::image type="content" source="media/vs-2022/output-window.png" alt-text="Screenshot of the Output window in Visual Studio.":::
 
 ## Add a second project
 

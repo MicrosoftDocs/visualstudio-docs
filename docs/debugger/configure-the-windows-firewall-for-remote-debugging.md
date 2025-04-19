@@ -15,7 +15,7 @@ On a network protected by Windows Firewall, the firewall must be configured to p
 
 This topic describes how to configure the Windows Firewall to enable remote debugging on Windows 10, 8/8.1, and 7; and Windows Server 2012 R2, 2012, and 2008 R2 computers. The Visual Studio and remote computer don't have to be running the same operating system. For example, the Visual Studio computer can run Windows 11, and the remote computer can run Windows Server 2012 R2.
 
->[!NOTE]
+> [!NOTE]
 > The instructions for configuring the Windows Firewall differ slightly on different operating systems, and for older versions of Windows. Windows 8/8.1, Windows 10 and newer versions, and Windows Server 2012 settings use the word *app*, while Windows 7 and Windows Server 2008 use the word *program*.
 
 ## Configure ports for remote debugging
@@ -38,7 +38,7 @@ To open a port:
 
 1. Select one or more network types to enable, including the network type for the remote connection, and then select **Next**.
 
-1. Add a name for the rule (for example, **msvsmon**, **IIS**, or **Web Deploy**), and then select **Finish**.
+1. Add a name for the rule (for example, `msvsmon`, `IIS`, or `Web Deploy`), and then select **Finish**.
 
    The new rule should appear and be selected in the **Inbound Rules** or **Outbound Rules** list.
 
@@ -94,11 +94,11 @@ If you select **Use Managed Compatibility Mode** under **Tools** > **Options** >
 
 ::: moniker-end
 
-If your domain policy requires network communication to be performed through Internet Protocol Security (IPSec), you must open additional ports on both the Visual Studio and remote computers. To debug on a remote IIS web server, open port 80 on the remote computer.
+If your domain policy requires network communication to be performed through Internet Protocol Security (IPsec), you must open additional ports on both the Visual Studio and remote computers. To debug on a remote Internet Information Services (IIS) web server, open port 80 on the remote computer.
 
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|
 |-|-|-|-|
-|500, 4500|Outgoing|UDP|Required if your domain policy requires network communication to be performed through IPSec.|
+|500, 4500|Outgoing|UDP|Required if your domain policy requires network communication to be performed through IPsec.|
 |80|Outgoing|TCP|Required for web server debugging.|
 
 To allow specific apps through the Windows Firewall, see [Configure remote debugging through Windows Firewall](#allow-the-remote-debugger-through-windows-firewall).

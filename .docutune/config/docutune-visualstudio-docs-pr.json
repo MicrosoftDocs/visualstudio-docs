@@ -52,6 +52,8 @@
     "*-caution-*",
     "abbreviation-linq-language-integrated-query",
     "casing-prefixes",
-    "product-microsoft-visual-studio"
+    "product-microsoft-visual-studio",
+    "formatting-minimum-0002",
+    "invalid-compound-word-verb-0002-005"
   ]
 }

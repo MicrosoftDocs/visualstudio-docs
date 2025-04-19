@@ -1,7 +1,7 @@
 ---
 title: 'Use Environment Variables in a Build'
 description: Work with environment variables in MSBuild project files, and use environment variables to set build options without modifying the project file.
-ms.date: 08/15/2023
+ms.date: 08/14/2024
 ms.topic: how-to
 helpviewer_keywords:
 - environment variables, referencing

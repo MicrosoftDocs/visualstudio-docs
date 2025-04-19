@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_isCVTCIL
 
 Retrieves a flag indicating whether the module was converted from a Common Intermediate Language (CIL) module to a native module.

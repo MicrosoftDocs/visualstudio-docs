@@ -1,7 +1,7 @@
 ---
 title: "Learn about the Spell Checker"
 description: Learn how to use the Spell Checker in Visual Studio to correct misspelled words in multiple languages and to customize it to share with your dev team.
-ms.date: 05/24/2023
+ms.date: 08/27/2024
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -36,7 +36,7 @@ Because C#, C++, and Markdown all use English as the language for their keywords
 > [!NOTE]
 > C# and C++ also have additional dictionaries for keywords in those languages, which prevents words like ‘namespace’ or ‘alloc’ from being flagged as misspelled words.
 
-Feedback from early users of this feature informed us that developers only want to know about errors in the document they are currently working with. In response to that feedback, the spell checker only scans the document(s) that are active in the editor. In direct response to this feedback, the spell checker scans documents that are open.
+Feedback from early users of this feature informed us that developers only want to know about errors in the document they're currently working with. In response to that feedback, the spell checker only scans the documents that are active in the editor.
 
 The following table shows some of the heuristics that the **Spell Checker** looks at when it scans a code document:
 
@@ -50,7 +50,7 @@ The following table shows some of the heuristics that the **Spell Checker** look
 | btnWorld | World, world | Fragments of three characters or fewer are ignored |
 | helloworld | Helloworld, helloworld | No indicator to identify word boundaries |
 
-If Visual Studio finds a match for the token in any of the dictionaries it's using, the token is considered acceptable and the scan carries on. Otherwise, the token is considered misspelled and Visual Studio flags it as a spelling error.
+If Visual Studio identifies a match for the token in any of the dictionaries it's using, the token is deemed acceptable, and the scan proceeds. Otherwise, the token is considered misspelled and Visual Studio flags it as a spelling error.
 
 :::image type="content" source="media/vs-2022/text-spell-checker-error-list-example.png" alt-text="Screenshot of an example of spelling errors in the Error List.":::
 
@@ -59,6 +59,11 @@ If Visual Studio finds a match for the token in any of the dictionaries it's usi
 You can customize the spell checker so that it's optimized for a collaborative environment. As such, Visual Studio uses an [EditorConfig](create-portable-custom-editor-options.md) file for configuration so that you can control the spell checker behavior in a repository.
 
 By configuring an EditorConfig file, you can establish the coding standards that you expect everyone to follow, which allows you to maintain a coding consistency that might be difficult through other methods.
+
+> [!IMPORTANT]
+> Spelling error options are file-specific. You must specify which files spelling options are applied to. In the following example, the spelling options are applied to all C# files in the solution:
+>
+>```[*.cs]```
 
 Here are some examples and use-case scenarios of the switches you can configure in an EditorConfig file:
 
@@ -80,7 +85,7 @@ Here are some examples and use-case scenarios of the switches you can configure 
     ```spelling_error_severity = error OR warning OR information OR hint```<br>
     ```(Example: = error)```
 
-- Create your own exclusion dictionary to specify words you consider to be correctly spelled. In this example, the first time the Spell Checker is run against any file in the solution, Visual Studio checks for an exclusion.dic file in the same directory as the .sln file (for a C# project) or in the root directory (for a C++ directory). If no exclusion.dic file exists, the Visual Studio creates one. Then, whenever the user chooses to ignore a word, Visual Studio adds it to this exclusion.dic file. Visual Studio considers any word that appears in this exclusion.dic file as a correctly spelled word.
+- Create your own exclusion dictionary to specify words you consider to be correctly spelled. In this example, the first time the Spell Checker runs against any file in the solution, Visual Studio checks for an exclusion.dic file. Visual Studio checks the same directory of the .sln file for a C# project or in the root directory for a C++ directory. If no exclusion.dic file exists, the Visual Studio creates one. Then, whenever the user chooses to ignore a word, Visual Studio adds it to this exclusion.dic file. Visual Studio considers any word that appears in this exclusion.dic file as a correctly spelled word.
 
     ```spelling_exclusion_path = absolute OR relative path to exclusion dictionary```<br>
     ```(Example: = .\exclusion.dic)```
@@ -88,16 +93,27 @@ Here are some examples and use-case scenarios of the switches you can configure 
     > [!NOTE]
     > Visual Studio uses the exclusion dictionary specified by the `spelling_exclusion_path` switch in your .editorconfig file or an exclusion.dic file in your `%localappdata%\Microsoft\VisualStudio\<Version>` directory if a switch can’t be found.  
 
-- Control whether the language-specific exclusion dictionary so use. When set to false, any words specified in the exclusion dictionaries specific to C++ or C# won't be used. The default is true.
+- Control whether the default language-specific exclusion dictionary is used. This flag is set to true by default. Any words added to the language-specific exclusion dictionary will be considered correctly spelled. Set to false to ignore the exclusion dictionaries specific to C++ or C#.
 
     ```spelling_use_default_exclusion_dictionary = true OR false```<br> 
     ```(Example: = spelling_use_default_exclusion_dictionary = false)```
 
+Here's a complete example:
+
+```
+[*.{cs,vb}]                                         //specify which files the spelling options apply to
+spelling_languages = en-us,fr-fr                    //specifies the en-us and fr-fr dictionaries for use in spell checking
+spelling_checkable_types = identifiers,comments     //specifies that identifiers and comments are the only checked elements
+spelling_error_severity = error                     //sets severity assigned to spelling errors to error in the error list
+spelling_exclusion_path = exclusion.dic             //defines a custom exclusion dictionary location and file
+spelling_use_default_exclusion_dictionary = false   //ignores the language-specific default exclusion dictionary
+```
+
 ## Special case handling
 
-There are a few special behaviors in how Visual Studio checks code for spelling errors that are different from a traditional spell checker that's designed for written text. Some of these behaviors include:
+Visual Studio has some unique behaviors when checking code for spelling errors that differ from those of a traditional spell checker designed for written text. Some of these behaviors include:
 
-- In a string that includes punctuation, for example, 'misc.", Visual Studio won't suggest a correction because punctuation in an identifier might result in code that won't compile.
+- In a string that includes punctuation, for example, 'misc.", Visual Studio won't suggest a correction because punctuation in an identifier might result in code that doesn't compile.
 - Backslashes in a string will omit the subsequent character from being spell-checked and treat the backslash and subsequent character as a word delimiter. For example, in the string `hello\nworld`, Visual Studio detects the backslash first. Visual Studio treats the `\n` as a word delimiter, which leaves "hello" and "world", each of which are checked individually.
 - Strings that contain URLs such as `https://...` or `mailto:..` won't be spell-checked over the entire string.
 

@@ -1,7 +1,7 @@
 ---
 title: "Write and debug code by using Hot Reload"
 description: Explore the Hot Reload feature, also known as Edit and Continue, and make changes to your code while running applications.
-ms.date: 11/01/2023
+ms.date: 02/28/2025
 ms.topic: conceptual
 helpviewer_keywords:
   - "Hot reload"
@@ -11,12 +11,14 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
+zone_pivot_groups: programming-languages-set-two
+
 ---
 # Write and debug running code with Hot Reload in Visual Studio (C#, Visual Basic, C++)
 
-Starting in Visual Studio 2022, the Hot Reload experience in Visual Studio works for both managed .NET and native C++ apps. Regardless of the type of app you’re working on, the intention of Hot Reload is to save you as many app restarts between edits as possible, making you more productive by reducing the time you spend waiting for apps to rebuild, restart, re-navigate to the previous location where you were in the app itself, et al.
+Starting in Visual Studio 2022, the Hot Reload experience in Visual Studio works for both managed .NET and native C++ apps. Regardless of the type of app you’re working on, the intention of Hot Reload is to save you as many app restarts between edits as possible, making you more productive by reducing the time you spend waiting for apps to rebuild, restart, and re-navigate to the previous location where you were in the app itself.
 
-We accomplish this by making it possible for you to edit your application's code files and apply the code changes immediately to the running application, also known as *Hot Reload*. Once your changes are applied, re-execute your code again by taking an action in the app itself (or through some sort of timer, etc.) and see the changes immediately; no pausing of the app through breakpoints is required!
+We improve productivity by making it possible for you to edit your application's code files and apply the code changes immediately to the running application, also known as *Hot Reload*. Once your changes are applied, re-execute your code again by taking an action in the app itself (or through some sort of timer, etc.) and see the changes immediately; no pausing of the app through breakpoints is required!
 
 ## Update running code with Hot Reload
 
@@ -26,19 +28,20 @@ We accomplish this by making it possible for you to edit your application's code
 
 1. Open a code file and change the code.
 
-1. Apply the code changes using the **Hot Reload** button, or press **ALT+F10**.
+1. Apply the code changes using the **Hot Reload** ![Screenshot of the Hot Reload icon.](../debugger/media/vs-2022/hot-reload-icon.png) button, or press **ALT+F10**.
 
-   ![Screenshot of the Hot Reload button.](../debugger/media/vs-2022/dotnet-hot-reload.gif)
+   ![Screenshot of Hot Reload.](../debugger/media/vs-2022/dotnet-hot-reload.gif)
 
 To see the changes in the user interface, the code needs to be re-executed. For example, code-behind for a button must re-execute, or code that is being triggered at an interval through a timer. As another example, ASP.NET Core supports automatic browser refreshing due to the [MetadataUpdateHandler](hot-reload-metadataupdatehandler.md) functionality.
 
+::: zone pivot="programming-language-dotnet"
 ## Support for .NET applications
 
-* **When using Visual Studio 2022 and starting your app with the debugger**, the basic Hot Reload experience works with most types of .NET apps and framework versions. This includes .NET Framework, .NET Core and .NET 5+ (for both C# and Visual Basic as applicable). The expectation in this scenario is that if you’re using the debugger, assume Hot Reload is available to you and give it a try!
-* **When using Visual Studio 2022 but not using the debugger** (for example, using CTRL-F5 to start the app), Hot Reload is available when targeting most types of .NET 6 apps. This means that apps not targeting .NET 6 (.NET 5 or below) don't support the "no debugger" scenario and must use the debugger to get Hot Reload support.
-* **When using Visual Studio 2022 with a .NET 6 app, most scenarios are supported**. This isn't limited to the new "no debugger" feature mentioned above. It also includes other new capabilities, such as support for hot reloading Blazor projects and, more generally, editing Razor files in any ASP.NET Core apps, and CSS Hot Reload. Using Visual Studio 2022 and apps that target .NET 6 together will give you the most powerful Hot Reload experience.
+* **When using Visual Studio 2022 and starting your app with the debugger**, the basic Hot Reload experience works with most types of .NET apps and framework versions. This support includes .NET Framework, .NET Core and .NET 5+ (for both C# and Visual Basic as applicable). The expectation in this scenario is that if you’re using the debugger, assume Hot Reload is available to you and give it a try!
+* **When using Visual Studio 2022 but not using the debugger** (for example, using CTRL-F5 to start the app), Hot Reload is available when targeting most types of .NET 6 apps. In this scenario, apps not targeting .NET 6+ (that is, they target .NET 5 or below) don't support the "no debugger" scenario and must use the debugger to get Hot Reload support.
+* **When using Visual Studio 2022 with a .NET 6+ app, most scenarios are supported**. This support isn't limited to the new "no debugger" feature mentioned previously. It also includes other new capabilities, such as support for hot reloading Blazor projects and, more generally, editing Razor files in any ASP.NET Core apps, and CSS Hot Reload. Using Visual Studio 2022 and apps that target .NET 6 together gives you the most powerful Hot Reload experience.
 
-The following table shows which projects support .NET Hot Reload with the debugger attached (F5) and without the debugger attached (Ctrl+F5), according to the minimum .NET version required for support in Visual Studio 2022 (17.8).
+The following table shows the minimum .NET version required to support .NET Hot Reload with the debugger attached (F5) and without the debugger attached (Ctrl+F5), based on project type. Visual Studio 2022 version 17.8 or later is required.
 
 |Application type|F5|Ctrl+F5|`MetadataUpdateHandler` support|
 |-|-|-|-|
@@ -54,35 +57,47 @@ The following table shows which projects support .NET Hot Reload with the debugg
 
 The [types of edits you can make](../debugger/supported-code-changes-csharp.md) with Hot Reload are determined by the runtime and compiler version, not by the method you used to start the application (F5 or Ctrl+F5).
 
-In the following sections, we’ll expand on the above summary and dive into more details.
+In the following sections, we provide additional details.
+::: zone-end
 
+::: zone pivot="programming-language-dotnetf"
+## Support for .NET Framework applications
+
+When using Visual Studio 2022 and starting your app with the debugger, the basic Hot Reload experience works with most types of .NET apps and framework versions. This support includes .NET Framework, .NET Core and .NET 5+ (for both C# and Visual Basic as applicable). The expectation in this scenario is that if you’re using the debugger, assume Hot Reload is available to you and give it a try!
+::: zone-end
+
+::: zone pivot="programming-language-cpp"
 ## Support for C++ applications
 
 When using Visual Studio 2022 and starting your app with the debugger, you can hot reload a native C++ application when running under the debugger (F5) using the **Hot Reload** button. Hot Reload is also supported for apps built using CMake and OpenFolder projects.
 
-In order for your project to support Hot Reload, you will need:
+For your project to support Hot Reload, you need the following options set:
 
 * Project > Properties > C/C++ > General > **Debug Information Format** must be set to "Program Database for Edit and Continue `/ZI`"
 * Project > Properties > Linker > General > **Enable Incremental Linking** must be set to "Yes `/INCREMENTAL`"
 
 For supported edits, see [C++ Supported Code Changes](../debugger/supported-code-changes-cpp.md#BKMK_Requirements).
+::: zone-end
 
-## Visual Studio 2022 with a .NET app, when using the debugger
+::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
+## Visual Studio 2022 with a .NET or .NET Framework app, when using the debugger
 
 When using Visual Studio 2022 and starting the app with the debugger, Hot Reload works with most app frameworks. 
 
 Anywhere you have .NET and you’re using the Visual Studio managed debugger, you should get basic Hot Reload support. This fact means that even projects such as Azure Functions work great in this scenario.
 
 > [!NOTE]
-> Some projects use by default mixed mode debugging, which does not support Hot Reload. You can modify this in project settings, by setting **Project > Properties > Debug > Open debug launch profiles UI > Enable native code debugging** to false.
+> By default, some projects use mixed mode debugging, which doesn't support Hot Reload. You can modify this setting in project settings, by setting **Project > Properties > Debug > Open debug launch profiles UI > Enable native code debugging** to false.
+::: zone-end
 
+::: zone pivot="programming-language-dotnet"
 ## Visual Studio 2022 with a .NET app, but not using the debugger
 
 Hot Reload is available without the debugger when targeting most types of .NET 6+ apps.
 
-This feature is exclusive to .NET 6+. Those apps not targeting .NET 6+ (that is, .NET 5 or below) will not support the "no debugger" scenario and must use the debugger to get access to Hot Reload functionality.
+This feature is exclusive to .NET 6+. Those apps not targeting .NET 6+ (that is, they target .NET 5 or below) don't support the "no debugger" scenario and must use the debugger to get access to Hot Reload functionality.
 
-Also, be aware that not all project types currently support the "no debugger" scenario, see [Support for .NET applications](#support-for-net-applications).
+Also, not all project types currently support the "no debugger" scenario, see [Support for .NET applications](#support-for-net-applications).
 
 ## Visual Studio 2022 with a .NET 6+ app
 
@@ -108,12 +123,22 @@ For ASP.NET Core developers who are targeting .NET 6+, there are additional capa
 * **Browser Refresh:** Editing a razor file automatically refreshes the changes in your web browser when debugging. This feature was previously only available when starting the app without the debugger.
 * **CSS Hot Reload:** You can change CSS files while the app is running, and changes are applied immediately to the running app as you type.
 * **No Debugger:** You get Hot Reload support when using Visual Studio to start your web app without the debugger (CTRL-F5).
+::: zone-end
 
+::: zone pivot="programming-language-dotnet"
 ## Supported .NET changes
 
 The .NET Hot Reload experience is powered by the [debugger](../debugger/edit-and-continue-visual-csharp.md) and C# compiler ([Roslyn](https://github.com/dotnet/roslyn)). [Roslyn supported edits](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) and [Supported code changes (C# and VB)](../debugger/supported-code-changes-csharp.md) list the types of edits currently supported and potential future enhancements.
+::: zone-end
 
-## Unsupported .NET projects
+::: zone pivot="programming-language-dotnetf"
+## Supported .NET Framework changes
+
+The .NET Hot Reload experience is powered by the [debugger](../debugger/edit-and-continue-visual-csharp.md) and C# compiler. [Supported code changes (C# and VB)](../debugger/supported-code-changes-csharp.md) list the types of edits currently supported and potential future enhancements.
+::: zone-end
+
+::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
+## Unsupported .NET and .NET Framework projects
 
 Hot Reload isn't available in some project configurations:
 
@@ -121,11 +146,16 @@ Hot Reload isn't available in some project configurations:
 * If you’re using the Visual Studio debugger to run your app, but you’ve disabled `Enable Hot Reload and Edit and Continue when debugging` in settings, Hot Reload isn't supported.
 * Release or custom build configurations aren't supported. Your project must use the `Debug` build configuration.
 * If you're targeting an F# or .NET Native project.
-* Some startup or compile optimizations are not supported in .NET Hot Reload. For example, if your project's debug profile is configured in the following ways, .NET Hot Reload isn't supported:
+* Some startup or compile optimizations aren't supported in .NET Hot Reload. For example, if your project's debug profile is configured in the following ways, .NET Hot Reload isn't supported:
   * [Trimming](/dotnet/core/deploying/trimming/trimming-options) is enabled for your project. For example, it's not supported if `PublishTrimmed` is set to True in your project file for the debug profile.
   * [ReadyToRun](/dotnet/core/deploying/ready-to-run) is enabled for your project. For example, it's not supported if `PublishReadyToRun` is set to True in your project file for the debug profile.
 
 See [Unsupported scenarios](../debugger/supported-code-changes-csharp.md#unsupported-scenarios) for more details.
+
+## Hot Reload Not Supported for F# #
+
+Hot Reload, or Edit and Continue, is not supported when you debug F# code. Edits to F# code are possible during a debugging session but should be avoided. Code changes aren't applied during the debugging session. Therefore, any edits made to F# code while you debug will result in source code that doesn't match the code being debugged.
+::: zone-end
 
 ## Configure Hot Reload
 
@@ -141,11 +171,14 @@ If you select the **Always rebuild when changes can't be applied** option in the
 
 ## Troubleshooting
 
-It is highly recommended to check for the **Hot Reload Output** window for detailed diagnostic information regarding the Hot Reload session.
+It's highly recommended to check for the **Hot Reload Output** window for detailed diagnostic information regarding the Hot Reload session.
 
+::: zone pivot="programming-language-dotnet"
 If you're using response compression on .NET Core, see the information on [response compression](/dotnet/core/tools/dotnet-watch#response-compression).
+::: zone-end
 
 ## Related content
 
 * [Edit and Continue (C#)](../debugger/edit-and-continue-visual-csharp.md)
 * [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md)
+* [Configure Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md)

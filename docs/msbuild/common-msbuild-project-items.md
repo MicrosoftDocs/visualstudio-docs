@@ -1,7 +1,7 @@
 ---
 title: Common MSBuild Project Items
 description: Learn about common MSBuild project items. Items are named references to one or more files, and have metadata like file names, paths, and version numbers.
-ms.date: 10/29/2020
+ms.date: 4/2/2025
 ms.topic: reference
 dev_langs:
 - VB
@@ -18,9 +18,9 @@ ms.subservice: msbuild
 
 In MSBuild, an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in Visual Studio have several items in common. These items are defined in the file *Microsoft.Build.CommonTypes.xsd*.
 
-This article lists all the common project items.
+This article lists all the common project items defined in MSBuild itself. Items and properties provided by the .NET SDK are documented at [MSBuild reference for Microsoft.Net.Sdk](/dotnet/core/project-sdk/msbuild-props).
 
-## Reference
+## `Reference`
 
 Represents an assembly (managed) reference in the project.
 
@@ -54,6 +54,7 @@ Represents a list of type libraries that are passed to the `TypeLibFiles` parame
 
 |Item metadata name|Description|
 |---------------|-----------------|
+|EmbedInteropTypes|Optional boolean. If true, embed the interop types from this reference directly into your assembly rather than generating an interop DLL.|
 |WrapperTool|Optional string. The name of the wrapper tool that is used on the component. Values are:<br /><br />1.  primary<br />2. tlbimp<br />3. primaryortlbimp<br />4. `aximp`|
 
 ## NativeReference
@@ -96,7 +97,7 @@ Represents the source files for the compiler.
 | AutoGen | Optional boolean. Indicates whether the file was generated for the project by the Visual Studio integrated development environment (IDE). |
 | Link | Optional string. The notational path to be displayed when the file is physically located outside the influence of the project file. |
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. |
-| CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1. Never<br />2. Always<br />3. PreserveNewest |
+| CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1. Never<br />2. Always<br />3. PreserveNewest<br />4. IfDifferent |
 
 ## EmbeddedResource
 
@@ -104,13 +105,15 @@ Represents resources to be embedded in the generated assembly.
 
 | Item metadata name | Description |
 |-----------------------| - |
+| Culture | Optional string. Specifies the culture of the resource file. If specified, the build process doesn't auto-infer the culture based on file extension (which is dependent on the cultures available to .NET/OS on the machine hosting the build). Setting either `Culture={culture identifier}` or `WithCulture=false` metadata is highly recommended. |
+| WithCulture | Optional bool. Specifies that the file is culture neutral and culture detection by [`AssignCulture`](./assignculture-task.md) task should be skipped. Setting either `Culture={culture identifier}` or `WithCulture=false` metadata is highly recommended. |
 | DependentUpon | Optional string. Specifies the file this file depends on to compile correctly |
 | Generator | Optional string. The name of any file generator that is run on this item. |
 | LastGenOutput | Optional string. The name of the file that was created by any file generator that ran on this item. |
 | CustomToolNamespace | Optional string. The namespace in which any file generator that runs on this item should create code. |
 | Link | Optional string. The notational path is displayed if the file is physically located outside the influence of the project. |
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. |
-| CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1. Never<br />2. Always<br />3. PreserveNewest |
+| CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1. Never<br />2. Always<br />3. PreserveNewest<br />4. IfDifferent |
 | LogicalName | Required string. The logical name of the embedded resource. |
 
 ## Content
@@ -124,10 +127,10 @@ Represents files that aren't compiled into the project, but may be embedded or p
 | LastGenOutput | Optional string. The name of the file that was created by any file generator that was run on this item. |
 | CustomToolNamespace | Optional string. The namespace in which any file generator that runs on this item should create code. |
 | Link | Optional string. The notational path to be displayed if the file is physically located outside the influence of the project. |
-| PublishState | Required string. The publish state of the content, either:<br /><br /> - Default<br />-   Included<br />-  xcluded<br />- DataFile<br />- Prerequisite |
+| PublishState | Required string. The publish state of the content, either:<br /><br /> - Default<br />-   Included<br />-  Excluded<br />- DataFile<br />- Prerequisite |
 | IsAssembly | Optional boolean. Specifies whether the file is an assembly. |
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. |
-| CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1. Never<br />2. Always<br />3. PreserveNewest |
+| CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1. Never<br />2. Always<br />3. PreserveNewest<br />4. IfDifferent |
 | TargetPath | Optional string. The output path (relative to the configuration- and/or platform-specific output directory) of an item, including the filename. This respects the `Link` metadata, if provided. If TargetPath isn't provided, it's computed during the build process. See [AssignTargetPath](assigntargetpath-task.md). |
 
 ## None
@@ -142,7 +145,7 @@ Represents files that should have no role in the build process.
 | CustomToolNamespace | Optional string. The namespace in which any file generator that runs on this item should create code. |
 | Link | Optional string. The notational path to be displayed if the file is physically located outside the influence of the project. |
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. |
-| CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1. Never<br />2. Always<br />3. PreserveNewest |
+| CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1. Never<br />2. Always<br />3. PreserveNewest<br />4. IfDifferent |
 
 ## AssemblyMetadata
 

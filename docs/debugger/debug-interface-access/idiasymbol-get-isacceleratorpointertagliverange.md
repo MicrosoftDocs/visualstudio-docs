@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that indicates whether the symbol corresponds to the definition range symbol for the tag component of a pointer variable in code compiled for a C++ AMP Accelerator."
+description: Retrieves a flag that indicates whether the symbol corresponds to the definition range symbol for the tag component of a pointer variable in code compiled for a C++ AMP Accelerator.
 title: "IDiaSymbol::get_isAcceleratorPointerTagLiveRange"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_isAcceleratorPointerTagLiveRange
 
 Retrieves a flag that indicates whether the symbol corresponds to the *definition range symbol* for the tag component of a pointer variable in code compiled for a C++ AMP Accelerator. The definition range symbol is the location of a variable for a span of addresses.

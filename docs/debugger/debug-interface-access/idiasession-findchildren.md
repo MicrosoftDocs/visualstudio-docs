@@ -1,5 +1,5 @@
 ---
-description: "Retrieves all children of a specified parent identifier that match the name and symbol type."
+description: Retrieves all children of a specified parent identifier that match the name and symbol type.
 title: "IDiaSession::findChildren"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findChildren
 
 Retrieves all children of a specified parent identifier that match the name and symbol type.
@@ -19,7 +20,7 @@ Retrieves all children of a specified parent identifier that match the name and 
 ## Syntax
 
 ```C++
-HRESULT findChildren ( 
+HRESULT findChildren ( 
    IDiaSymbol*       parent,
    SymTagEnum        symtag,
    LPCOLESTR         name,

@@ -1,5 +1,5 @@
 ---
-description: "Checks to see if two symbols are equivalent."
+description: Checks to see if two symbols are equivalent.
 title: "IDiaSession::symsAreEquiv"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::symsAreEquiv
 
 Checks to see if two symbols are equivalent.
@@ -19,7 +20,7 @@ Checks to see if two symbols are equivalent.
 ## Syntax
 
 ```C++
-HRESULT symsAreEquiv ( 
+HRESULT symsAreEquiv ( 
    IDiaSymbol* symbolA,
    IDiaSymbol* symbolB
 );

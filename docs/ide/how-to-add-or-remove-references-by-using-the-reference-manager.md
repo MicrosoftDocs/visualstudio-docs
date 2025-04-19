@@ -1,7 +1,7 @@
 ---
 title: Add references in the Reference Manager
 description: Use the Reference Manager in Visual Studio to add and manage references to components that you, Microsoft, or another company developed.
-ms.date: 10/31/2023
+ms.date: 08/22/2024
 ms.topic: how-to
 f1_keywords:
 - VS.ReferenceManager
@@ -25,6 +25,8 @@ ms.subservice: general-ide
 # Add or remove references by using the Reference Manager
 
 You can use the Reference Manager dialog box to add and manage references to components that you, Microsoft, or another company developed. If you're developing a Universal Windows app, your project automatically references all of the correct Windows SDK DLLs. When you create a .NET project, your project automatically references the components it needs, such as the .NET SDK, but you need to add references as you add functionality. Some .NET APIs are exposed in components that you have to add manually. References to COM components or custom components have to be added manually.
+
+If a NuGet package is available for the library you're referencing, use the NuGet Package Manager. See [Install and use a NuGet package](/nuget/consume-packages/install-use-packages-visual-studio).
 
 ## Reference Manager dialog box
 
@@ -63,7 +65,7 @@ The Reference Manager dialog box shows different categories on the left side, de
 ## Assemblies tab (.NET Framework only)
 
 > [!NOTE]
-> The **Assemblies** tab is not available for projects that target .NET Core, or .NET 5 and later, because assemblies for those projects are added either as NuGet packages, or are included by targeting a particular version of .NET. To see the referenced assemblies in a project, expand the **Dependencies** node in the project and look under **Frameworks**. From the **Dependencies** node, you can right-click to add or remove project references, or open the NuGet package browser to manage NuGet packages. See [Install and manage packages in Visual Studio using the NuGet Package Manager](/nuget/consume-packages/install-use-packages-visual-studio) in the NuGet documentation.
+> The **Assemblies** tab is not available for projects that target .NET Core, or .NET 5 and later. Select **Browse** to find an assembly in the filesystem and add it as a reference. To see the referenced assemblies in a project, expand the **Dependencies** node in the project. From the **Dependencies** node, you can right-click to add or remove project references, view or remove assemblies in the **Assemblies** node, or open the NuGet package browser to manage NuGet packages. See [Install and manage packages in Visual Studio using the NuGet Package Manager](/nuget/consume-packages/install-use-packages-visual-studio) in the NuGet documentation.
 
 For .NET Framework projects, the **Assemblies** tab lists all .NET assemblies that are available for referencing. The **Assemblies** tab doesn't list any assemblies from the global assembly cache (GAC) because assemblies in the GAC are part of the run-time environment. If you deploy or copy an application that contains a reference to an assembly that's registered in the GAC, the assembly isn't deployed or copied with the application, regardless of the **Copy Local** setting. For more information, see [Manage references in a project](../ide/managing-references-in-a-project.md).
 
@@ -150,7 +152,7 @@ A project can reference another project that targets a different framework versi
 
 ## Shared Projects tab
 
-Add a reference to a shared project on the **Shared Projects** tab of the Reference Manager dialog box. [Shared Projects](/xamarin/cross-platform/app-fundamentals/shared-projects?tabs=windows) let you write common code that's referenced by many different application projects.
+Add a reference to a shared project on the **Shared Projects** tab of the Reference Manager dialog box. Shared Projects let you write common code that's referenced by many different application projects.
 
 ## Universal Windows tab
 
@@ -182,7 +184,7 @@ If a project type doesn't support COM, the tab doesn't appear in the Reference M
 
 ## Browse
 
-You can use the **Browse** button to browse for a component in the file system.
+You can use the **Browse** button to browse for a component or assembly in the file system.
 
 A project can reference a component that targets a different framework version. For example, you could create an application that targets .NET Framework 4.7.2 but references a component that targets .NET Framework 4. For more information, see [Framework targeting overview](../ide/visual-studio-multi-targeting-overview.md).
 

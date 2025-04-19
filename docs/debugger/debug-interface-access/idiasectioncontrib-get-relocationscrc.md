@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the cyclic redundancy check (CRC) of the relocation information for the section."
+description: Retrieves the cyclic redundancy check (CRC) of the relocation information for the section.
 title: "IDiaSectionContrib::get_relocationsCrc"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_relocationsCrc
 
 Retrieves the cyclic redundancy check (CRC) of the relocation information for the section.
@@ -19,7 +20,7 @@ Retrieves the cyclic redundancy check (CRC) of the relocation information for th
 ## Syntax
 
 ```C++
-HRESULT get_relocationsCrc ( 
+HRESULT get_relocationsCrc ( 
    DWORD* pRetVal
 );
 ```

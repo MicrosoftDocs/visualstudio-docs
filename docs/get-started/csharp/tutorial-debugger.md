@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Debug C# code and inspect data"
 description: Learn features of the Visual Studio debugger and how to start the debugger, step through code, and inspect data in a C# application.
-ms.date: 10/25/2023
+ms.date: 10/24/2024
 ms.subservice: debug-diagnostics
 ms.topic: tutorial
 dev_langs:
@@ -360,7 +360,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
    :::image type="content" source="media/vs-2022/get-started-run-to-click.png" alt-text="Screenshot showing the Run to Click button in Visual Studio 2022.":::
 
-1. Choose the **Run to Click** button. Alternatively, with your cursor at the `Console.WriteLine`statement, select **Ctrl+F10**. Or, right-click the `Console.WriteLine` method call, and choose **Run to Cursor** from the context menu.
+1. Choose the **Run to Click** button. Alternatively, with your cursor at the `Console.WriteLine` statement, select **Ctrl+F10**. Or, right-click the `Console.WriteLine` method call, and choose **Run to Cursor** from the context menu.
 
    The debugger advances to the `Console.WriteLine` method call.
 
@@ -507,58 +507,6 @@ The **Call Stack** can help you understand the execution flow of your app, by sh
    You can also use right-click menus from the **Call Stack** window to do other things. For example, you can insert breakpoints into specified functions, advance the debugger by using **Run to Cursor**, or go to source code. 
 
 For more about the **Call Stack**, see [How to: Examine the Call Stack](../../debugger/how-to-use-the-call-stack-window.md).
-
-::: moniker-end
-
-## Change the execution flow
-
-::: moniker range="<=vs-2019"
-
-1. Press **F11** twice to run the `Console.WriteLine` method.
-
-1. With the debugger paused in the `SendMessage` method call, use the mouse to grab the yellow arrow or execution pointer (in the left margin), and drag the pointer up one line to the `Console.WriteLine` statement.
-
-1. Press **F11**.
-
-   The debugger reruns the `Console.WriteLine` method (you see this action in the console window output).
-
-   By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger.
-
-   > [!WARNING]
-   > Often you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer cannot revert your application to an earlier app state.
-
-1. Press **F5** to continue running the app.
-
-   Congratulations on completing this tutorial!
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
-
-You can move the execution pointer to change the flow of your app while debugging.
-
-1. With the debugger paused at the `SendMessage` method call in the `for` loop, select **F11** three times to step into the `SendMessage` method and to move past the `Console.WriteLine` method after executing it.
-
-   The debugger is now paused at the final closing brace of the `SendMessage` method.
-
-1. Use the mouse to grab the yellow arrow or execution pointer (in the left margin), and then drag the pointer up one line.
-
-   The debugger is now back on the `Console.WriteLine` statement.
-
-1. Select **F11**.
-
-   The debugger reruns the `Console.WriteLine` method, and you see a duplicate line in the console window output.
-
-1. Select **F5** to continue running the app.
-
-By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger.
-
-> [!WARNING]
-> Use this feature with care. You'll see a warning in the tooltip of the execution pointer about the possibility of unintended consequences. You might see other warnings, too. Moving the execution pointer can't revert your application to an earlier state.
-
-For more about the changing the execution flow, see [Move the pointer to change the execution flow](/visualstudio/debugger/navigating-through-code-with-the-debugger?view=vs-2022#BKMK_Set_the_next_statement_to_execute&preserve-view=true).
-
-Congratulations on completing this tutorial!
 
 ::: moniker-end
 

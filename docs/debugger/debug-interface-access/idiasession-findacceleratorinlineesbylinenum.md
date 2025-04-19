@@ -1,5 +1,5 @@
 ---
-description: "Returns an enumeration of symbols for inline frames that correspond to the specified source location."
+description: Returns an enumeration of symbols for inline frames that correspond to the specified source location.
 title: "IDiaSession::findAcceleratorInlineesByLinenum"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findAcceleratorInlineesByLinenum
 
 Returns an enumeration of symbols for inline frames that correspond to the specified source location.
@@ -17,7 +18,7 @@ Returns an enumeration of symbols for inline frames that correspond to the speci
 ## Syntax
 
 ```C++
-HRESULT findAcceleratorInlineeLinesByName ( 
+HRESULT findAcceleratorInlineeLinesByName ( 
    IDiaSymbol*           parent,
    IDiaSourceFile*       file,
    DWORD                 linenum,

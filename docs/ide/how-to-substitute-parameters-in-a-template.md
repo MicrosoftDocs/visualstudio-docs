@@ -1,7 +1,7 @@
 ---
 title: Add name parameters to project and item templates
 description: Modify template parameters in Visual Studio to replace identifiers like class names and namespaces in existing templates or your own templates.
-ms.date: 01/02/2018
+ms.date: 12/03/2024
 ms.topic: how-to
 helpviewer_keywords:
 - template parameters
@@ -21,6 +21,8 @@ Template parameters are written in the format $*parameter*$. For a complete list
 The following section shows you how to modify a template to replace the name of a namespace with the "safe project name".
 
 ## Example - namespace name
+
+To follow this procedure, you need an existing template. If you don't have one, see [Create project templates](how-to-create-project-templates.md) to learn how to export a project or solution to a template, or [Create item templates](how-to-create-item-templates.md).
 
 1. Insert the parameter in one or more of the code files in the template. For example:
 

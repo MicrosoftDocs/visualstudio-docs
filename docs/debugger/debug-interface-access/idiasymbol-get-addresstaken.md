@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that indicates whether another symbol references this symbol's address."
+description: Retrieves a flag that indicates whether another symbol references this symbol's address.
 title: "IDiaSymbol::get_addressTaken"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_addressTaken
 
 Retrieves a flag that indicates whether another symbol references this symbol's address.
@@ -19,7 +20,7 @@ Retrieves a flag that indicates whether another symbol references this symbol's 
 ## Syntax
 
 ```C++
-HRESULT get_addressTaken ( 
+HRESULT get_addressTaken ( 
    BOOL* pRetVal
 );
 ```

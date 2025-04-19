@@ -1,7 +1,7 @@
 ---
 title: Options, Text Editor, All Languages, Scroll Bars
 description: Learn how to use the Scroll Bars page in the All Languages section to change the default behavior of the code editor scroll bars within Visual Studio.
-ms.date: 10/25/2018
+ms.date: 9/26/2024
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.All_Languages.ScrollBars
@@ -28,6 +28,7 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.U-SQL.ScrollBars
 - VS.ToolsOptionsPages.Text_Editor.XAML.ScrollBars
 - VS.ToolsOptionsPages.Text_Editor.XML.ScrollBars
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
@@ -76,7 +77,7 @@ The scroll bar has two modes: bar mode and map mode.
 
 ### Use map mode for vertical scroll bar
 
-In *map mode*, when you click a location on the scroll bar, the cursor jumps to that location in the file instead of just scrolling up or down a page. Lines of code are shown, in miniature, on the scroll bar. You can choose how wide the map column is by selecting a value in **Source overview**. To enable a larger preview of the code when you rest the pointer on the map, select the **Show Preview Tooltip** option. Collapsed regions are shaded differently and expand when you double-click them.
+In *map mode*, when you click a location on the scroll bar, the cursor jumps to that location in the file instead of just scrolling up or down a page. Lines of code are shown, in miniature, on the scroll bar. You can adjust the width of the scroll bar, that is, the map column, by selecting a value in **Source overview**. To enable a larger preview of the code when you rest the pointer on the map, select the **Show Preview Tooltip** option. Collapsed regions are shaded differently and expand when you double-click them.
 
 > [!TIP]
 > You can turn the miniature code view off in map mode by setting **Source overview** to **Off**. If **Show Preview Tooltip** is selected, you still see a preview of the code at that location when you hover your pointer on the scroll bar, and the cursor still jumps to that location in the file when you click.
@@ -84,3 +85,5 @@ In *map mode*, when you click a location on the scroll bar, the cursor jumps to 
 ## See also
 
 - [How to: Customize the scroll bar](../how-to-track-your-code-by-customizing-the-scrollbar.md)
+- [Suggest a feature](https://aka.ms/feedback/suggest)
+- [Report a problem](../how-to-report-a-problem-with-visual-studio.md)

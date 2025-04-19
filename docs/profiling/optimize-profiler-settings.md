@@ -1,7 +1,7 @@
 ---
 title: Optimizing Profiler settings
 description: Learn how the Performance Profiler and Diagnostic Tools window in Visual Studio have many different settings that affect the overall performance of the tools.
-ms.date: 02/28/2023
+ms.date: 07/22/2024
 ms.topic: how-to
 helpviewer_keywords: 
   - Profiler, improve performance
@@ -28,7 +28,13 @@ Once downloaded, symbols are cached, which will speed up future analysis but sti
 
 ## Show External Code
 
-Many of the tools within the **Performance Profiler** and **Diagnostic Tools** window have a concept of user code versus external code. User code is any code built by the open solution or open workspace. External code is anything else. By keeping the **Show external code** setting disabled, or **Show just my code** enabled, you allow the tools to aggregate external code to a single first level frame, greatly reducing the amount of processing required to show results. This allows users to see what was called in external code that created the slow down while keeping the data to be processed to a minimum. When possible, leave **Show external code** disabled and ensure that you have the solution or workspace open for the diagsession you're analyzing.
+Many of the tools within the **Performance Profiler** and **Diagnostic Tools** window have a concept of user code versus external code. User code is any code built by the open solution or open workspace. External code is anything else. By keeping the **Show just my code** setting enabled, or the **Show external code** setting disabled, you allow the tools to aggregate external code to a single first level frame, greatly reducing the amount of processing required to show results. This allows users to see what was called in external code that created the slow down while keeping the data to be processed to a minimum. When possible, enable **Show external code** and make sure that you have the solution or workspace open for the *.diagsession* file that you're analyzing.
+
+For most profiling tools, the user code option is present in the settings for the summary page of the report.
+
+::: moniker range=">=vs-2022"
+![Screenshot of Show just my code option.](../profiling/media/vs-2022/cpu-usage-show-just-my-code.png "Screenshot of Show just my code option.")
+::: moniker-end
 
 ## Trace Duration
 
@@ -55,6 +61,6 @@ The Visual Studio profiler uses a collection scratch directory to store performa
 
 ## Related content
 
-- [Running profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
+- [Running profiling tools on release or debug builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
 - [Using multiple profiler tools simultaneously](../profiling/use-multiple-profiler-tools-simultaneously.md)
 - [Understanding performance collection methods](../profiling/understanding-performance-collection-methods-perf-profiler.md)

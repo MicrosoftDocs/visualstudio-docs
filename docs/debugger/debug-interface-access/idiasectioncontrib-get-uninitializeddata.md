@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that indicates whether the section contains uninitialized data."
+description: Retrieves a flag that indicates whether the section contains uninitialized data.
 title: "IDiaSectionContrib::get_uninitializedData"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_uninitializedData
 
 Retrieves a flag that indicates whether the section contains uninitialized data.
@@ -19,7 +20,7 @@ Retrieves a flag that indicates whether the section contains uninitialized data.
 ## Syntax
 
 ```C++
-HRESULT get_uninitializedData ( 
+HRESULT get_uninitializedData ( 
    BOOL* pRetVal
 );
 ```

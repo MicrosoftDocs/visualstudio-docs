@@ -16,7 +16,10 @@
       href: tutorial-multicontainer.md
     expanded: true
   - name: How to
+    expanded: true
     items:
+    - name: Add Docker support to a project
+      href: add-container-support.md
     - name: Debug app in a local Docker container
       href: edit-and-refresh.md
     - name: Use the Containers window
@@ -35,7 +38,18 @@
       href: deploy-containerized.md
     - name: Customize container builds
       href: container-build.md
-    expanded: true
+    - name: Configure images for debugging
+      href: container-debug-customization.md
+    - name: Container volume mappings
+      href: container-volume-mapping.md
+    - name: Build from the command line
+      href: container-build-from-command-line.md
+    - name: Container entry point
+      href: container-entry-point.md
+    - name: Use SSL for containerized ASP.NET Core apps
+      href: container-certificate-management.md
+    - name: Configure HTTPS for Azure deployment
+      href: manage-certificates.md
   - name: Troubleshooting
     href: /troubleshoot/developer/visualstudio/ide/troubleshooting-docker-errors?toc=%2Fvisualstudio%2Fcontainers%2Ftoc.json
   - name: Reference

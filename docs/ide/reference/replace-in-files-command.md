@@ -21,9 +21,9 @@ Replaces text in files using a subset of the options available on the **Replace 
 ## Syntax
 
 ```
-Edit.ReplaceinFiles findwhat replacewith [/all] [/case]
-[/ext:extensions] [/keep] [/lookin:searchpath] [/options] [/regex]
-[/reset] [/stop] [/sub] [/text2] [/wild] [/word]
+Edit.ReplaceinFiles findwhat replacewith [/all] [/append] [/case]
+[/ext:extensions] [/lookin:searchpath] [/options] [/preserveCase]
+[/regex] [/reset] [/stop] [/sub] [/word]
 ```
 
 ## Arguments
@@ -40,6 +40,16 @@ Required. The text to substitute for the matched text.
 
 Optional. Replaces all occurrences of the search text with the replacement text.
 
+/append: `resultwindowname`  (new in Visual Studio 2022)
+
+Optional. Directs the results from the current search to be appended to previous replace results, identified by `resultwindowname` argument. Replace Result windows are named following the following pattern: Replace "findWhat" with "replaceWith".
+
+#### Example (note that Command Window uses ^ character to escape quotes)
+```cmd
+>Edit.ReplaceInFiles "Console.WriteLine(" "//Console.WriteLine("  /lookin:"Entire Solution" /a
+>Edit.ReplaceInFiles "Console.Write(" "//Console.Write("  /lookin:"Entire Solution" /a /append:"Replace ^"Console.WriteLine(^" with ^"//Console.WriteLine(^""
+```
+
 /case or /c
 
 Optional. Matches occur only if when the uppercase and lowercase characters exactly match those specified in the `findwhat` argument.
@@ -48,7 +58,7 @@ Optional. Matches occur only if when the uppercase and lowercase characters exac
 
 Optional. Specifies the file extensions for the files to be searched.
 
-/keep or /k
+/keep or /k  (not supported in Visual Studio 2022)
 
 Optional. Specifies that all modified files are left open.
 
@@ -60,9 +70,13 @@ Optional. Directory to search. If the path contains spaces, enclose the entire p
 
 Optional. Displays a list of the current find option settings and does not perform a search.
 
+/preserveCase (new in Visual Studio 2022)
+
+Optional. Preserves the original casing of each match in your code.
+
 /regex or /r
 
-Optional. Uses pre-defined special characters in the `findwhat` argument as notations that represent patterns of text rather than the literal characters. For a complete list of regular expression characters, see [Regular Expressions](../../ide/using-regular-expressions-in-visual-studio.md).
+Optional. Uses predefined special characters in the `findwhat` argument as notations that represent patterns of text rather than the literal characters. For a complete list of regular expression characters, see [Regular Expressions](../../ide/using-regular-expressions-in-visual-studio.md).
 
 /reset or /e
 
@@ -80,13 +94,13 @@ Optional. Halts the current search operation if one is in progress. Replace igno
 
 Optional. Searches the subfolders within the directory specified in the /lookin:`searchpath` argument.
 
-/text2 or /2
+/text2 or /2  (not supported in Visual Studio 2022)
 
 Optional. Displays the results of the replacement in the **Find Results 2** window.
 
-/wild or /l
+/wild or /l  (not supported in Visual Studio 2022)
 
-Optional. Uses pre-defined special characters in the `findwhat` argument as notations to represent a character or sequence of characters.
+Optional. Uses predefined special characters in the `findwhat` argument as notations to represent a character or sequence of characters.
 
 /word or /w
 

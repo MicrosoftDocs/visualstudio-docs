@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the children of the symbol that are valid at a specified virtual address."
+description: Retrieves the children of the symbol that are valid at a specified virtual address.
 title: "IDiaSymbol::findChildrenExByVA"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::findChildrenExByVA
 
 Retrieves the children of the symbol that are valid at a specified virtual address.
@@ -19,7 +20,7 @@ Retrieves the children of the symbol that are valid at a specified virtual addre
 ## Syntax
 
 ```C++
-HRESULT findChildrenExByVA ( 
+HRESULT findChildrenExByVA ( 
    enum SymTagEnum   symtag,
    LPCOLESTR         name,
    DWORD             compareFlags,

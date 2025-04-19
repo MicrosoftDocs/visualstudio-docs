@@ -22,8 +22,6 @@ This article shows you how to publish an existing instance of Azure Cloud Servic
 
 ## Publish to Cloud Services (extended support)
 
-When you publish your existing Azure Cloud Services (classic) project to Azure Cloud Services (extended support), you still retain the capability to publish to an instance of Cloud Services (classic).
-
 In Visual Studio 2019 version 16.9 and later, Cloud Services (classic) projects have a special version of the **Publish** command: **Publish (extended support)**. This command appears on the shortcut menu in Solution Explorer in Visual Studio.
 
 There are some differences when you publish to Cloud Services (extended support). For example, you don't select whether to publish to **Staging** or to **Production**, because these deployment slots aren't part of the extended support publishing model. Instead, with Cloud Services (extended support), you can set up multiple deployments, and you can swap deployments in the Azure portal. Although it's possible to use this setting in Visual Studio version 16.9, the swap feature isn't available until a later release of Cloud Services (extended support).
@@ -57,7 +55,7 @@ Also be sure to check the storage account that Azure Diagnostics uses. To check 
 
 1. On **Common Settings**, in the dropdown list, either select an existing instance of Cloud Services (extended support) or select **Create new**, and then create a new instance. The datacenter displays in parentheses for each instance of Cloud Services (extended support). We recommend that the datacenter location for Cloud Services (extended support) be the same as the datacenter location of your storage account.
 
-   If you choose to create a new service, the **Create Cloud Service (extended support)** dialog appears. Specify the name, location, and resource group to use for your Cloud Services (extended support) deployment.
+   If you choose to create a new service, the **Create Cloud Service (extended support)** dialog appears. Specify the service name, DNS name if different from the service name, location, and resource group to use for your Cloud Services (extended support) deployment.
 
    ![Screenshot that shows the Create a Cloud Services (extended support) deployment pane.](./media/cloud-services-extended-support/extended-support-dialog.png)
 
@@ -74,12 +72,6 @@ Also be sure to check the storage account that Azure Diagnostics uses. To check 
 1. For **Enable Remote Desktop for all roles**, select this option if you want to be able to remotely connect to the service. Then, enter sign-in credentials for the remote desktop.
 
    ![Screenshot that shows remote desktop settings.](./media/cloud-services-extended-support/remote-desktop-configuration.png)
-
-1. Select **Next** to move to the **Diagnostics Settings** pane.
-
-   ![Screenshot that shows the Diagnostics Settings pane.](./media/cloud-services-extended-support/diagnostics-settings.png)
-
-   You can use Azure Diagnostics to troubleshoot an instance of Cloud Services (extended support). For information about using Diagnostics, see [Set up diagnostics for Azure Cloud Services and virtual machines](./vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md). For information about Application Insights, see [What is Application Insights?](/azure/application-insights/app-insights-overview).
 
 1. Select **Next** to move to the **Summary** pane.
 

@@ -51,7 +51,7 @@ The complete code is in the *PetReaderExecTaskExample* folder; you can download 
 
 1. In the `PetShopRestClient` project, add a folder (named `PetShopRestClient`) for the code generation and delete the *Class1.cs* that was automatically generated.
 
-1. Create a text file named *petshop-openapi-spec.json* at the root of the project. Copy the OpenApi spec from [here](https://petstore.swagger.io/v2/swagger.json) and save it in the file. It's best to copy a snapshot of the spec instead of reading it online during the build. You always want a consistently reproducible build that depends only on the input. Consuming the API directly could transform a build which works today to a build which fails tomorrow from the same source. The snapshot saved on *petshop-openapi-spec.json* will allow us to still have a version that builds even if the spec changes.
+1. Create a text file named *petshop-openapi-spec.json* at the root of the project. Copy the OpenAPI spec from [here](https://petstore.swagger.io/v2/swagger.json) and save it in the file. It's best to copy a snapshot of the spec instead of reading it online during the build. You always want a consistently reproducible build that depends only on the input. Consuming the API directly could transform a build which works today to a build which fails tomorrow from the same source. The snapshot saved on *petshop-openapi-spec.json* will allow us to still have a version that builds even if the spec changes.
 
 1. Next, modify PetShopRestClient.csproj and add a [MSBuild targets](msbuild-targets.md) to generate the client during build process.
 
@@ -121,7 +121,7 @@ Congratulations! Now, you can execute the program to see how it works.
 
 In many cases, using the `Exec` task is good enough to execute an external tool to do something like REST API client code generation, but what if you want to allow REST API client code generation if and only if you don't use an absolute Windows path as input? Or what if you need to calculate in some way where the executable is? When there's any situation where you need to execute some code to do extra work, the [MSBuild Tool Task](/dotnet/api/microsoft.build.utilities.tooltask) is the best solution. The `ToolTask` class is an abstract class derived from MSBuild `Task`. You can define a concrete subclass, which creates a custom MSBuild task. This approach lets you run any code that is needed to prepare for command execution. You should read the tutorial [Create a custom task for code generation](tutorial-custom-task-code-generation.md) first.
 
-You'll create a custom task derived from [MSBuild ToolTask](/dotnet/api/microsoft.build.utilities.tooltask) which will generate a REST API client, but it will be designed to emit an error if you try to reference the OpenApi spec using an http address. NSwag supports an http address as OpenApi spec input, but for the purposes of this example, let's suppose there's a design requirement to disallow that.
+You'll create a custom task derived from [MSBuild ToolTask](/dotnet/api/microsoft.build.utilities.tooltask) which will generate a REST API client, but it will be designed to emit an error if you try to reference the OpenAPI spec using an http address. NSwag supports an http address as OpenAPI spec input, but for the purposes of this example, let's suppose there's a design requirement to disallow that.
 
 The complete code is in this `PetReaderToolTaskExample` folder; you can download and take a look. In this tutorial, you'll go through step by step and learn some concepts that you can apply to your own scenarios.
 
@@ -237,7 +237,7 @@ The next step is to create an app that uses the task.
    - Newtonsoft.Json, needed to compile the generated client
    - System.ComponentModel.Annotations, needed to compile the generated client
 
-1. In the `PetRestApiClient` project, create a text file named *petshop-openapi-spec.json* (in the project folder). To add the OpenApi spec, copy the content from [here](https://petstore.swagger.io/v2/swagger.json) into the file. We like a reproducible build that depends only on the input, as discussed previously. In this example, you'll raise a build error if a user chooses a URL as the OpenApi spec input.
+1. In the `PetRestApiClient` project, create a text file named *petshop-openapi-spec.json* (in the project folder). To add the OpenAPI spec, copy the content from [here](https://petstore.swagger.io/v2/swagger.json) into the file. We like a reproducible build that depends only on the input, as discussed previously. In this example, you'll raise a build error if a user chooses a URL as the OpenAPI spec input.
 
    > [!IMPORTANT]
    > A general rebuild won't work. You'll see errors that indicate it's unable to copy or delete `RestApiClientGenerator`.dll'. This is because it's trying to build the MBuild custom task in the same build process which uses it. Select `PetReaderToolTaskConsoleApp` and rebuild only that project. The another solution is put the custom task in a completely independent Visual Studio solution as you did in [Tutorial: Create a custom task](tutorial-custom-task-code-generation.md) example.
@@ -276,7 +276,7 @@ The next step is to create an app that uses the task.
 
       ```xml
        <PropertyGroup>
-          <!--The place where the OpenApi spec is in-->
+          <!--The place where the OpenAPI spec is in-->
          <PetClientInputOpenApiSpec>petshop-openapi-spec.json</PetClientInputOpenApiSpec>
          <PetClientClientClassName>PetRestApiClient</PetClientClientClassName>
          <PetClientClientNamespaceName>PetRestApiClient</PetClientClientNamespaceName>
@@ -302,7 +302,7 @@ The next step is to create an app that uses the task.
       </Target>
       ```
 
-     `Input` and `Output` are related to [Incremental Build](how-to-build-incrementally.md), and the`forceReGenerationOnRebuild` target deletes the generated file after `CoreClean`, which forces the client to be regenerated during the rebuild operation.
+     `Input` and `Output` are related to [Incremental Build](how-to-build-incrementally.md), and the `forceReGenerationOnRebuild` target deletes the generated file after `CoreClean`, which forces the client to be regenerated during the rebuild operation.
 
 1. Select `PetReaderToolTaskConsoleApp` and rebuild only that project. Now, the client code is generated and the code compiles. You can execute it and see how it works. This code generates the code from a file, and that is allowed.
 

@@ -35,7 +35,7 @@ In this context, the term *object* refers to a custom business object, an entity
    > [!TIP]
    > If the **Data Sources** window is not open, you can open it by selecting **View** > **Other Windows** > **Data Sources**.
 
-3. Click the dropdown list menu for the item, and then click one of the following items in the menu:
+3. Click the dropdown list menu for the item, and then select one of the following items in the menu:
 
     - To display each data field in a separate control, click **Details**. When you drag the data item to the designer, this action will create a different data-bound control for each column or property of the parent data table or object, along with labels for each control.
 

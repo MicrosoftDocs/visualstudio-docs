@@ -1,7 +1,7 @@
 ---
 title: Create custom views of C++ objects
 description: Use the Natvis framework to customize the way Visual Studio displays native types in the debugger for your applications.
-ms.date: 02/20/2024
+ms.date: 01/10/2025
 ms.topic: how-to
 f1_keywords:
   - natvis
@@ -83,10 +83,10 @@ The Visual Studio debugger loads *.natvis* files in C++ projects automatically, 
 
 1. Dropdown list the arrow next to **Excluded From Build** and select **Yes**, and then select **OK**.
 
->[!NOTE]
+> [!NOTE]
 > For debugging executable projects, use the solution items to add any *.natvis* files that are not in the *.pdb*, since there is no C++ project available.
 
->[!NOTE]
+> [!NOTE]
 > Natvis rules loaded from a *.pdb* apply only to the types in the modules that the *.pdb* refers to. For example, if *Module1.pdb* has a Natvis entry for a type named `Test`, it only applies to the `Test` class in *Module1.dll*. If another module also defines a class named `Test`, the *Module1.pdb* Natvis entry does not apply to it.
 
 **To install and register a *.natvis* file via a VSIX package:**
@@ -163,7 +163,7 @@ Natvis visualizations use C++ expressions to specify the data items to display. 
 
 - To control how an expression displays, you can use any of the format specifiers described in [Format specifiers in C++](format-specifiers-in-cpp.md#BKMK_Visual_Studio_2012_format_specifiers). Format specifiers are ignored when the entry is used internally by Natvis, such as the `Size` expression in an [ArrayItems expansion](../debugger/create-custom-views-of-native-objects.md#BKMK_ArrayItems_expansion).
 
->[!NOTE]
+> [!NOTE]
 > Because the Natvis document is XML, your expressions cannot directly use the ampersand, greater than, less than, or shift operators. You must escape these characters in both the item body and the condition statements. For example:<br>
 > `\<Item Name="HiByte"\>(byte)(_flags \&gt;\&gt; 24),x\</Item\>`<br>
 > `\<Item Name="HiByteStatus" Condition="(_flags \&amp; 0xFF000000) == 0"\>"None"\</Item\>`<br>
@@ -475,7 +475,7 @@ The `ArrayItems` node must have:
 
 The default value of the array lower bound is 0. To override the value, use a `LowerBound` element. The *.natvis* files shipped with Visual Studio have examples.
 
->[!NOTE]
+> [!NOTE]
 > You can use the `[]` operator, for example `vector[i]`, with any single-dimensional array visualization that uses `ArrayItems`, even if the type itself (for example `CATLArray`) does not allow this operator.
 
 You can also specify multi-dimensional arrays. In that case, the debugger needs slightly more information to properly display child elements:
@@ -527,7 +527,7 @@ You can use `ArrayItems` expansion only if the array elements are laid out conti
 
 The only difference between `ArrayItems` and `IndexListItems` is the `ValueNode`, which expects the full expression to the i<sup>th</sup> element with the implicit `$i` parameter.
 
->[!NOTE]
+> [!NOTE]
 > You can use the `[]` operator, for example `vector[i]`, with any single-dimensional array visualization that uses `IndexListItems`, even if the type itself (for example `CATLArray`) does not allow this operator.
 
 #### <a name="BKMK_LinkedListItems_expansion"></a> LinkedListItems expansion
@@ -673,9 +673,9 @@ While the `ExpandedItem` element provides a flatter view of data by eliminating 
 
  ![Concurrency::Array with Synthetic element expansion](../debugger/media/dbg_natvis_expand_synthetic.png "Concurrency::Array with Synthetic element expansion")
 
-### Instrinsic expansion
+### Intrinsic expansion
 
-A custom intrinsic function that can be called from an expression. An `<Intrinsic>` element must be accompanied by a debugger component that implements the function through the IDkmIntrinsicFunctionEvaluator140 interface.
+A custom intrinsic function that can be called from an expression. An `<Intrinsic>` element must be accompanied by a debugger component that implements the function through the IDkmIntrinsicFunctionEvaluator140 interface. For more information on implementing a custom intrinsic function, see [Implement NatVis custom intrinsic function](../debugger/implementing-natvis-intrinsic-function.md).
 
 ```xml
 <Type Name="std::vector&lt;*&gt;">

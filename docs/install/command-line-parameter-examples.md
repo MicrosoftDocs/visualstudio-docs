@@ -1,12 +1,11 @@
 ---
 title: Command-line parameter examples for installation
 description: Customize command-line parameter examples to create your own installation of Visual Studio by setting parameters, such as installPath, wait, all, remove, and more.
-ms.date: 3/11/2024
+ms.date: 1/31/2025
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
-
 ms.subservice: installation
 ---
 # Command-line parameter examples for Visual Studio installation
@@ -19,9 +18,11 @@ All commands require administrative elevation, and a User Account Control prompt
 
 You can use the `^` character at the end of a command line to concatenate multiple lines into a single command. Alternatively, you can place these lines together onto a single row. In PowerShell, the equivalent is the backtick (`` ` ``) character.
 
+To execute commands in a non-interactive manner, you can use`--passive` or `--quiet`. For more information on these parameters, see the [commands and command-line paremeters](use-command-line-parameters-to-install-visual-studio.md#install-update-modify-repair-uninstall-and-export-commands-and-command-line-parameters) page.
+
 For lists of the workloads and components that you can install by using the command line, see the [Visual Studio workload and component IDs](workload-and-component-ids.md) page.
 
-## Install using --installPath alongside the bootstrapper
+## Install using --installPath and --add alongside the bootstrapper
 
 * Install a minimal instance of Visual Studio, with no interactive prompts, but progress displayed:
 
@@ -49,24 +50,26 @@ For lists of the workloads and components that you can install by using the comm
    \\layoutserver\share\path\vs_enterprise.exe update --wait --passive --norestart --installPath "C:\installPathVS"
    ```
  
-Alternatively, you can also update your Visual Studio instance in one step by using the installer on the client. [Standard users, if they've been granted appropriate permissions](https://aka.ms/vs/setup/policies), can programmatically execute the update command using the installer, but they aren't allowed to use the `--passive` or `--quiet` switch. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.
+  Alternatively, you can also update your Visual Studio instance in one step by using the installer on the client. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.
  
    ```shell
    "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" update --passive --norestart --installPath "C:\installPathVS"
    ```
 
+  [Standard users, if they've been granted appropriate permissions](https://aka.ms/vs/setup/policies), can programmatically execute the update command using the installer, but they aren't allowed to use the `--passive` or `--quiet` switch. 
+
 ## Using --wait
 
 * Use `--wait` in batch files or scripts to wait for the initial command to complete before the next command is executed. For batch files, an `%ERRORLEVEL%` environment variable contains the return value of the command, as documented in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page. Some command utilities require other parameters to wait for completion and to get the installer's return value. 
  
-The `--wait` parameter is only supported by the bootstrapper. 
+  The `--wait` parameter is only supported by the bootstrapper. 
 
    ```shell
    start /wait vs_professional.exe --installPath "C:\VS" --passive --wait > nul
    echo %errorlevel%
    ```
 
-The following command is an example of using `--wait` with the PowerShell script command `Start-Process`:
+  The following command is an example of using `--wait` with the PowerShell script command `Start-Process`:
 
    ```powershell
    $process = Start-Process -FilePath vs_enterprise.exe -ArgumentList "--installPath", "C:\VS", "--passive", "--wait" -Wait -PassThru

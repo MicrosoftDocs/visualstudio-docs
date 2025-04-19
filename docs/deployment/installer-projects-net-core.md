@@ -2,7 +2,7 @@
 title: "Visual Studio Installer Projects and .NET"
 description: Explore how to use the Visual Studio Installer Projects Extension to package .NET Core 3.1 or .NET 5 and later version applications for Microsoft Installer (MSI).
 titleSuffix: ""
-ms.date: "11/01/2023"
+ms.date: "11/13/2024"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "installer projects"
@@ -17,7 +17,7 @@ monikerRange: '>= vs-2019'
 
 Packaging applications as an MSI is often accomplished using the Visual Studio Installer Projects Extension.
 
-This article applies to apps targeting .NET Core 3.1, .NET 5, .NET 6, and later.
+This article applies to apps targeting .NET Core 3.1 and .NET 5 or later versions.
 
 You can download the extension here:
 
@@ -52,13 +52,20 @@ To learn more about these deployment strategies, see [.NET application publishin
 
 ### Workflow changes for .NET Core 3.1 and .NET 5 or later
 
-1. Select **Publish Items** instead of **Primary Output** to get the correct output for .NET Core 3.1 and .NET 5.0 or later projects.  To bring up this dialog, select **Add** > **Project Output...** from the project's context menu.
+- To get the correct output for .NET Core 3.1 and .NET 5.0 or later projects, select **Publish Items** instead of **Primary Output** in the **Add Project Output Group** dialog box.  To open this dialog, select **Add** > **Project Output...** from the Setup project's context menu.
 
-    ![The Publish Items output group in the Add Project Output Group dialog](../deployment/media/installer-projects-net-core-publish-items-output.png "Pick Publish Items")
+  ![The Publish Items output group in the Add Project Output Group dialog](../deployment/media/installer-projects-net-core-publish-items-output.png "Pick Publish Items")
 
-2. To create a self-contained installer, set the **PublishProfilePath** property on the **Publish Items** node in the setup project, using the relative path of a publish profile with the correct properties set.
+- To create a self-contained installer, set the **PublishProfilePath** property on the **Publish Items** node in the Setup project, using the relative path of a publish profile with the correct properties set.
 
-    ![Setting the publish profile on the Publish Items project output item](../deployment/media/installer-projects-net-core-publish-profile.png "Set Publish Profile")
+  ::: moniker range=">= vs-2022"
+  :::image type="content" source="../deployment/media/vs-2022/installer-projects-net-core-publish-profile.png" border="false" alt-text="Screenshot that shows setting the publish profile on the Publish Items project output item." lightbox="../deployment/media/vs-2022/installer-projects-net-core-publish-profile.png":::
+  ::: moniker-end
+  ::: moniker range="vs-2019"
+  ![Screenshot of setting the publish profile on the Publish Items project output item.](../deployment/media/installer-projects-net-core-publish-profile.png "Set Publish Profile")
+  ::: moniker-end
+
+  Before you can set this property, create a publish profile from the application project by choosing **Publish** from the application project's context menu in Solution Explorer, and deploy the application to a folder.
 
 >[!NOTE]
 >This workflow is not supported for ASP.NET Core applications, only Windows Desktop applications.
@@ -69,7 +76,7 @@ If you would like your installer to be able to install the necessary runtime for
 
 ![.NET Core items in the Prerequisites dialog](../deployment/media/installer-projects-net-core-prerequisites.png ".NET Core Prerequisites")
 
-The **.NET Core Runtime...** option should be selected for console applications, **.NET Desktop Runtime...** should be selected for WPF/WinForms applications.
+The **.NET Core Runtime...** option should be selected for console applications, **.NET Desktop Runtime...** should be selected for WPF and WinForms applications.
 
 >[!NOTE]
 >These items are present starting with the Visual Studio 2019 Update 7 release.

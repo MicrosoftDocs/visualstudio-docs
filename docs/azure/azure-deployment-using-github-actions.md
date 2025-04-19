@@ -267,7 +267,7 @@ If you ran the `az ad sp create-for-rbac` command to set up a service principal 
 If the Dockerfile works correctly, and authentication is correct, and you're still seeing problems with your workflow, consider the following resources:
 
 - [Azure Container Apps on GitHub](https://github.com/microsoft/azure-container-apps)
-- [Azure Container Apps on StackOverflow](https://stackoverflow.com/questions/tagged/azure-container-apps)
+- [Azure Container Apps on Stack Overflow](https://stackoverflow.com/questions/tagged/azure-container-apps)
 
 ## Which project types are supported?
 

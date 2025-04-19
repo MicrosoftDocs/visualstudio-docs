@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackFrame::get_lengthLocals
 
 Retrieves the number of bytes of local variables pushed on the stack.
@@ -19,7 +20,7 @@ Retrieves the number of bytes of local variables pushed on the stack.
 ## Syntax
 
 ```C++
-HRESULT get_lengthLocals ( 
+HRESULT get_lengthLocals ( 
    DWORD* pRetVal
 );
 ```

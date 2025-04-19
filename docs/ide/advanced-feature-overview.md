@@ -89,7 +89,7 @@ Visual Studio can build apps and games for macOS, Linux, and Windows, and for An
 
 - [.NET Core](/dotnet/core/) apps that run on Windows, macOS, and Linux.
 
-- Mobile apps for iOS, Android, and Windows in C# and F# by using [Xamarin](https://developer.xamarin.com/guides/cross-platform/windows/visual-studio/).
+- Cross-platform apps for Android, iOS, Mac Catalyst, and Windows in C# by using [.NET MAUI](/dotnet/maui).
 
 - 2D and 3D games in C# by using [Visual Studio Tools for Unity](/visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity).
 
@@ -157,14 +157,14 @@ And, for a step-by-step tutorial on how to connect to a Git or Azure DevOps repo
 > [!NOTE]
 > This feature is currently in public preview. This information relates to a feature that may be substantially modified before it's released. Microsoft makes no warranties, expressed or implied, with respect to the information provided here.
 
-With [Visual Studio 17.7 Preview 3](https://visualstudio.microsoft.com/vs/preview/), you can [pregenerate Visual Studio caches and include them in your dev box image](/azure/dev-box/how-to-generate-visual-studio-caches#enable-visual-studio-caches-in-dev-box-images). As a result, Visual Studio will load your solution and enable key IDE features faster on your dev box. 
+With [Visual Studio 17.7 Preview 3](https://visualstudio.microsoft.com/vs/preview/), you can [pregenerate Visual Studio caches and include them in your dev box image](/azure/dev-box/how-to-generate-visual-studio-caches#enable-visual-studio-caches-in-dev-box-images). As a result, Visual Studio will load your solution and enable key IDE features faster on your dev box.
 You can also improve the Git performance on large repositories by [enabling Git commit-graph optimizations in dev box images](/azure/dev-box/how-to-generate-visual-studio-caches#enable-git-commit-graph-optimizations-in-dev-box-images).
 
 ::: moniker-end
 
 ## Extend Visual Studio
 
-If Visual Studio doesn't have the exact functionality you need, you can add it. Personalize the IDE based on your workflow and style, add support for external tools that aren't integrated with Visual Studio, and modify existing functionality to increase your productivity. For the latest version of the Visual Studio Extensibility Tools (VS SDK), see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
+If Visual Studio doesn't have the exact functionality you need, you can add it. Personalize the IDE based on your workflow and style, add support for external tools that aren't integrated with Visual Studio, and modify existing functionality to increase your productivity. For the latest version of the Visual Studio Extensibility Tools (VSSDK), see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
 
 You can use the .NET Compiler Platform *Roslyn* to write your own code analyzers and code generators. Find everything you need at [Roslyn](https://github.com/dotnet/Roslyn).
 

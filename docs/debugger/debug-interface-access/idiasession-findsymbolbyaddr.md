@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a specified symbol type that contains, or is closest to, a specified address."
+description: Retrieves a specified symbol type that contains, or is closest to, a specified address.
 title: "IDiaSession::findSymbolByAddr"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findSymbolByAddr
 
 Retrieves a specified symbol type that contains, or is closest to, a specified address.
@@ -19,7 +20,7 @@ Retrieves a specified symbol type that contains, or is closest to, a specified a
 ## Syntax
 
 ```C++
-HRESULT findSymbolByAddr ( 
+HRESULT findSymbolByAddr ( 
    DWORD        isect,
    DWORD        offset,
    SymTagEnum   symtag,

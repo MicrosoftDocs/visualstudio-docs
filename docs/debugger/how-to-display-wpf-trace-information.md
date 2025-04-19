@@ -1,7 +1,7 @@
 ---
-title: Display WPF Trace Information
-description: Visual Studio can receive debug trace information from WPF applications and display it in the Output window. Learn how to manage and customize WPF tracing. 
-ms.date: 11/04/2016
+title: Display WPF trace Information for data binding
+description: Visual Studio can receive debug trace information for data binding from WPF applications and display it in the Output window. Learn how to manage and customize WPF tracing. 
+ms.date: 02/25/2025
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -16,13 +16,14 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
-# Display WPF Trace Information
 
-Visual Studio can receive debug trace information from WPF applications and display that information in the **Output** window. To display debug trace information, WPF tracing must be enabled.
+# Display WPF trace information for data binding
+
+Visual Studio can receive debug trace information for data binding from WPF applications and display that information in the **Output** window. To display debug trace information, WPF tracing must be enabled.
 
  You can enable WPF tracing in your App.Config file or programmatically by using the <xref:System.Diagnostics.PresentationTraceSources> class. An easier way to enable WPF tracing is by using the **Options** window. WPF tracing for web applications is not supported.
 
-### To enable or customize WPF trace information
+## Enable or customize WPF trace information
 
 1. On the **Tools** menu, select **Options**.
 
@@ -32,15 +33,13 @@ Visual Studio can receive debug trace information from WPF applications and disp
 
 4. Under **General Output Settings**, select **All debug output**.
 
-5. In the box on the right, look for **WPF Trace Settings**.
+5. In the box on the right, open the **WPF Trace Settings** node.
 
-6. Open the **WPF Trace Settings** node.
+6. Under **WPF Trace Settings**, select **Data Binding**.
 
-7. Under **WPF Trace Settings**, click the category of settings that you want to enable (for example, **Data Binding**).
+   A drop-down list control appears in the Settings column next to **Data Binding**.
 
-     A drop-down list control appears in the Settings column next to **Data Binding** or whatever category you clicked.
-
-8. Click the drop-down list and select the type of trace information that you want to see: **All**, **Critical**, **Error**, **Warning**, **Information**, **Verbose**, or **ActivityTracing**.
+7. Click the drop-down list and select the type of trace information that you want to see.
 
      **Critical** enables tracing of Critical events only.
 
@@ -57,26 +56,6 @@ Visual Studio can receive debug trace information from WPF applications and disp
      For more information about what these levels of trace information mean, see <xref:System.Diagnostics.SourceLevels>.
 
 9. Click **OK**.
-
-### To disable WPF trace information
-
-1. On the **Tools** menu, select **Options**.
-
-2. In the **Options** dialog box, in the box on the left, open the **Debugging** node.
-
-3. Under **Debugging**, click **Output Window**.
-
-4. In the box on the right, look for **WPF Trace Settings**.
-
-5. Open the **WPF Trace Settings** node.
-
-6. Under **WPF Trace Settings**, click the category of settings that you want to enable (for example, **Data Binding**).
-
-     A drop-down list control appears in the Settings column next to **Data Binding** or whatever category you clicked.
-
-7. Click the drop-down list and select **Off**.
-
-8. Click **OK**.
 
 ## Related content
 - [Debugging WPF](../debugger/debugging-wpf.md)

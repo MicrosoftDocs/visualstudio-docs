@@ -8,6 +8,7 @@ helpviewer_keywords:
   - "Windows applications, accessibility"
   - "Web applications, accessibility"
   - "accessibility, Web applications"
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 ms.subservice: general-ide
@@ -48,4 +49,3 @@ Learn more about technologies that support accessible design. We've also include
 ## Related content
 
 * [Accessibility features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)
-* [Accessibility for Visual Studio for Mac](/visualstudio/mac/accessibility/)

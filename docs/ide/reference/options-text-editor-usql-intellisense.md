@@ -6,10 +6,12 @@ ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.U-SQL.IntelliSense"
   - "VS.ToolsOptionsPages.Text_Editor.HQL.IntelliSense"
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
+monikerRange: vs-2019
 ---
 # Options, Text Editor, U-SQL, IntelliSense
 

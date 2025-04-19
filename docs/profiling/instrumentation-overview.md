@@ -58,5 +58,6 @@ To use this tool from the command-line, see the following article:
 
 ## Related content
 
-- [First look at profiling tools](../profiling/profiling-feature-tour.md)
+- [Case study: Isolate a performance issue](../profiling/isolate-performance-issue.md)
 - [Improving Visual Studio performance with the new Instrumentation Tool](https://devblogs.microsoft.com/visualstudio/improving-visual-studio-performance-with-the-new-instrumentation-tool/).
+- [First look at profiling tools](../profiling/profiling-feature-tour.md)

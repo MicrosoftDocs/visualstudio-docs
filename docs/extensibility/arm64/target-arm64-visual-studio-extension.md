@@ -10,7 +10,7 @@ ms.author: anva
 manager: tinali
 ms.subservice: extensibility-integration
 monikerRange: ">=vs-2022"
-feedback_system: GitHub
+
 ---
 
 # Target Visual Studio 2022 (ARM64) when creating an extension in Visual Studio 2022

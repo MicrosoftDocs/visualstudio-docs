@@ -1,11 +1,12 @@
 ---
 title: Trust Settings for files and folders
 description: Learn how to change trust settings for files and folders to keep Visual Studio secure.
+ms.custom: "ide-ref"
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
-ms.date: 10/27/2021
+ms.date: 11/12/2024
 ms.topic: reference
 f1_keywords:
  - VS.ToolsOptionsPages.Environment.PathTrustOptions
@@ -20,26 +21,42 @@ helpviewer_keywords:
 
 ::: moniker range=">=vs-2022"
 
-In Visual Studio 2022, we've revamped the **Trust Settings** functionality to show a warning whenever untrusted code is opened in the IDE. 
+In Visual Studio 2022, we've revamped the **Trust Settings** functionality to show a warning whenever untrusted code is opened in the IDE.
+With Visual Studio 2022 version 17.12 and later, Mark of the web (MotW) security warnings are now integrated into the overall trust functionality.
 
 Software developers are increasingly being targeted by malware. The new **Trust Settings** functionality aims to raise awareness about the risks of handling unfamiliar code, and helps protect against malicious actors, who are targeting scenarios ranging from opening content (for example, repositories, solutions, projects, and files) to building and running applications with Visual Studio. 
 
-The **Trusted locations** feature is not enabled by default. 
+By default, Visual Studio displays a security warning when the [**Mark of the Web** identifier](#when-opening-content-from-the-web-mark-of-the-web) is detected. However, this default behavior can be customized to [always show a security warning](#always-require-a-trust-decision), regardless of the content's original location.
 
-## Enable trusted locations
+## Customize trust settings
 
-To enable the **Trusted locations** feature, follow these steps:
+You can customize the trust policies to configure the security settings for opening content in Visual Studio.
 
-1. Open **Tools** > **Options** > **Trust Settings**.
+### When opening content from the web (Mark of the Web)
 
-2. In the **Trust Policies** pane, select **Require a trust decision before opening content**.
+Visual Studio 2022 version 17.12 and later now shows a security warning when you try to open content tagged with the Mark of the Web (MotW) identifier. This new trust-related alert informs you of the possible security risks associated with opening files from potentially unsafe sources, such as internet downloads.
+
+:::image type="content" source="media/vs-2022/web-content-alert.png" alt-text="Screenshot showing the mark of the web alert.":::
+
+You can modify the default trust experience from **Tools** > **Options** > **Environment** > **Security**.
+
+:::image type="content" source="media/vs-2022/web-content-trust-settings.png" alt-text="Screenshot showing how to modify the Security options related to opening content from the web.":::
+
+The Mark of the Web is a security feature used by Windows to identify files that originate from the internet. When you download a file, Windows adds this identifier to the file's metadata, signaling that the content may be unsafe to execute or open. Visual Studio 2022 uses this identifier to protect your development environment from potential threats.
+
+### Always require a trust decision
+
+When **Always require a trust decision** is enabled, Visual Studio detects if you're attempting to open content that isn't designated as *trusted* and shows a dialog that warns you about the security implications.
+To enable the **Always require a trust decision** feature, follow these steps:
+
+1. Open **Tools** > **Options** > **Environment** > **Security**.
+
+2. In the **Trust Policies** pane, select **Always require a trust decision** from the **Require a trust decision** dropdown.
 
 :::image type="content" source="media/vs-2022/trusted-settings-options-dialog.png" alt-text="Screenshot showing how to enable trusted locations by using the Trust Settings options.":::
 
 > [!NOTE]
-> The **Skip trust checks for temporary locations Visual Studio creates automatically** option is enabled by default but it has no impact unless the **Require a trust decision before opening content** option is also enabled.
-
-After it's enabled, Visual Studio detects if you're attempting to open content that isn't designated as *trusted* and shows a new dialog that warns you about the security implications.
+> The **Skip trust checks for temporary locations Visual Studio creates automatically** option is not enabled by default. It has no impact unless the **Always require a trust decision** option is also enabled.
 
 :::image type="content" source="media/vs-2022/trusted-settings-warning-dialog.png" alt-text="Screenshot of the Trust Settings warning dialog.":::
 
@@ -57,11 +74,11 @@ After you've enabled the feature, all content that you open with Visual Studio 2
 
 1. Select the **Trust and continue** button on the dialog.
 
-   Visual Studio adds the folder path to the **Trusted locations** list at **Tools** > **Options** > **Trust Settings**.
+   Visual Studio adds the folder path to the **Trusted locations** list at **Tools** > **Options** > **Security**.
 
 You can also add folders to **Trusted locations** from the **Trust Settings** dialog. Here's how:
 
-1. Open  **Tools** > **Options** > **Trust Settings**. You can also open **Trust Settings** by selecting **Manage trust settings** from the *warning* dialog.
+1. Open  **Tools** > **Options** > **Security**. You can also open it by selecting **Manage trust settings** from the *warning* dialog.
 
 2. Select **Add a Folder** in the right-hand **Trust Policies** pane.
 

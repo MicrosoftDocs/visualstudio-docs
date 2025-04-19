@@ -31,7 +31,7 @@ The Visual Studio SDK is included as an optional feature in Visual Studio setup.
 
 ## Create a tool window
 
-1. Create a project named **FirstToolWin** using the VSIX template, and add a custom tool window item template named **FirstToolWindow**.
+1. Create a project named **FirstToolWindow** using the VSIX template, and add a custom tool window item template named **FirstToolWindow**.
 
     > [!NOTE]
     > For more information about creating an extension with a tool window, see [Create an extension with a tool window](../extensibility/creating-an-extension-with-a-tool-window.md).

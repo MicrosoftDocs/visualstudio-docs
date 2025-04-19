@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_lexicalParent
 
 Retrieves a reference to the lexical parent of the symbol.
@@ -19,7 +20,7 @@ Retrieves a reference to the lexical parent of the symbol.
 ## Syntax
 
 ```C++
-HRESULT get_lexicalParent ( 
+HRESULT get_lexicalParent ( 
    IDiaSymbol** pRetVal
 );
 ```

@@ -1,6 +1,6 @@
 ---
-title: Diagnostics - Azure Cloud Services and VMs
-description: Learn how to set up diagnostics for debugging Azure Cloud Services and virtual machines (VMs) in Visual Studio.
+title: Diagnostics - Azure Cloud Services (extended support) services and VMs
+description: Learn how to set up diagnostics for debugging Azure Cloud Services (extended support) and virtual machines (VMs) in Visual Studio.
 author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
@@ -9,13 +9,13 @@ ms.date: 03/06/2024
 ms.author: mikejo
 ---
 
-# Set up diagnostics for Azure Cloud Services and virtual machines
+# Set up diagnostics for Azure Cloud Services (extended support) and virtual machines
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
-When you need to troubleshoot an Azure cloud service or virtual machine, you can use Visual Studio to more easily set up Azure Diagnostics. Diagnostics captures system data and logging data on the virtual machines and virtual machine instances that run your cloud service. Diagnostics data is transferred to a storage account that you choose. For more information about diagnostics logging in Azure, see [Enable diagnostics logging for Web Apps in Azure App Service](/azure/app-service/web-sites-enable-diagnostic-log).
+When you need to troubleshoot an Azure Cloud Services (extended support) service or virtual machine, you can use Visual Studio to more easily set up Azure Diagnostics. Diagnostics captures system data and logging data on the virtual machines and virtual machine instances that run your cloud service. Diagnostics data is transferred to a storage account that you choose. For more information about diagnostics logging in Azure, see [Enable diagnostics logging for Web Apps in Azure App Service](/azure/app-service/web-sites-enable-diagnostic-log).
 
-In this article, we show you how to use Visual Studio to turn on and set up Azure Diagnostics, both before and after deployment. Learn how to set up Diagnostics on Azure Virtual Machines, how to select the types of diagnostics information to collect, and how to view the information after it's collected.
+In this article, we show you how to use Visual Studio to turn on and set up Azure Diagnostics. Learn how to set up Diagnostics on Azure Virtual Machines, how to select the types of diagnostics information to collect, and how to view the information after it's collected.
 
 :::moniker range="vs-2019"
 You can use one of the following options to set up Azure Diagnostics:
@@ -32,7 +32,7 @@ To set up Azure Diagnostics, change diagnostics settings in the **Diagnostics Co
 
 > [!WARNING]
 > In Visual Studio 2022, the deprecated Azure Storage Emulator was replaced with the [Azurite emulator](/azure/storage/common/storage-use-azurite) when debugging your Cloud Service projects. This Azurite emulator does not work with the Azure Diagnostics plug-in, which provides support for Azure Diagnostics when running and testing locally. If you need the plug-in for local running and testing scenarios, you can either update the connection string in the local service configuration (`.cscfg`) to an Azure Storage account (see [Manage connection strings for storage accounts](vs-azure-tools-configure-roles-for-cloud-service.md#manage-connection-strings-for-storage-accounts)), or download the previous [Azure Storage emulator](/azure/storage/common/storage-use-emulator).
- > In the Visual Studio 17.10 release, the local Azure Diagnostics plug-in is being deprecated and will be disabled by default with the option to enable in that release. Due to the deprecation, the plug-in might be removed in a future release of Visual Studio. This plug-in is only used with the local Azure Compute emulator and disabling doesn't impact deployed Cloud Services that use the Azure Diagnostics extension in Azure. To enable the diagnostics plug-in in Visual Studio 17.10, add the following property setting to any `PropertyGroup` in your project file: `<EnableEmulatorDiagnosticsPlugin>True</EnableEmulatorDiagnosticsPlugin>`.
+ > In the Visual Studio 17.10 release, the local Azure Diagnostics plug-in is being deprecated and disabled by default with the option to enable in that release. The plug-in was removed in Visual Studio 17.11. This plug-in was only used with the local Azure Compute emulator and disabling doesn't impact deployed Cloud Services that use the Azure Diagnostics extension in Azure. To enable the diagnostics plug-in in Visual Studio 17.10, add the following property setting to any `PropertyGroup` in your project file: `<EnableEmulatorDiagnosticsPlugin>True</EnableEmulatorDiagnosticsPlugin>`.
 
 :::moniker-end
 
@@ -46,44 +46,7 @@ To set up Azure Diagnostics, change diagnostics settings in the **Diagnostics Co
 
 ## What does the "Update development storage connection strings..." checkbox do?
 
-The **Update development storage connection strings for Diagnostics and Caching with Microsoft Azure storage account credentials when publishing to Microsoft Azure** checkbox is a convenient way to update any development storage account connection strings with the Azure Storage account that you specify during publishing.
-
-For example, if you select this checkbox and the diagnostics connection string specifies `UseDevelopmentStorage=true`, when you publish the project to Azure, Visual Studio automatically updates the diagnostics connection string with the storage account that you specified in the Publish wizard. However, if a real storage account was specified as the diagnostics connection string, that account is used instead.
-
-## Turn on diagnostics in cloud service projects before you deploy them
-
-In Visual Studio, you can collect diagnostics data for roles that run in Azure when you run the service in the emulator before deployment. All changes to diagnostics settings in Visual Studio are saved in the diagnostics.wadcfgx configuration file. These settings specify the storage account where diagnostics data is saved when you deploy your cloud service.
-
-[!INCLUDE [cloud-services-wad-warning](./includes/cloud-services-wad-warning.md)]
-
-### To turn on diagnostics in Visual Studio before deployment
-
-1. On the shortcut menu for the role, select **Properties**. In the role's **Properties** dialog box, select the **Configuration** tab.
-2. In the **Diagnostics** section, make sure that the **Enable Diagnostics** checkbox is selected.
-
-    ![Access the Enable Diagnostics option](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796660.png)
-3. To specify the storage account for the diagnostics data, select the ellipsis (...) button.
-
-    ![Specify the storage account to use](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796661.png)
-4. In the **Create Storage Connection String** dialog box, specify whether you want to connect by using the Azure Storage Emulator, an Azure subscription, or manually entered credentials.
-
-    ![Storage account dialog box](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796662.png)
-
-   - If you select **Microsoft Azure Storage Emulator**, the connection string is set to `UseDevelopmentStorage=true`.
-   - If you select **Your subscription**, you can select the Azure subscription that you want to use, and enter an account name. To manage your Azure subscriptions, select **Manage Accounts**.
-   - If you select **Manually entered credentials**, enter the name and key of the Azure account that you want to use.
-5. To view the **Diagnostics configuration** dialog box, select **Configure**. Except for **General** and **Log Directories**, each tab represents a diagnostics data source that you can collect. The default **General** tab offers the following diagnostics data collection options: **Errors only**, **All information**, and **Custom plan**. The default **Errors only** option uses the least amount of storage, because it doesn't transfer warnings or tracing messages. The **All information** option transfers the most information, uses the most storage, and therefore, is the most expensive option.
-
-   > [!NOTE]
-   > Minimum supported size for "Disk Quota in MB" is 50 MB, and the default size is 4 GB. However, if you are collecting Memory dumps, increase this to a higher value like 10 GB.
-   >
-
-    ![Enable Azure Diagnostics and configuration](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758144.png)
-6. For this example, select the **Custom plan** option, so you can customize the collected data.
-7. In the **Disk Quota in MB** box, you can set how much space to allocate in your storage account for diagnostics data. You can change or accept the default value.
-8. On each tab of diagnostics data that you want to collect, select the **Enable Transfer of \<log type\>** checkbox. For example, if you want to collect application logs, on the **Application Logs** tab, select the **Enable transfer of Application Logs** checkbox. Also, specify any other information that's required by each diagnostics data type. For configuration information for each tab, see the section **Set up diagnostics data sources** later in this article.
-9. After you've enabled collection of all the diagnostics data you want, select **OK**.
-10. Run your Azure cloud service project in Visual Studio as usual. As you use your application, the log information that you enabled is saved to the Azure Storage account that you specified.
+The **Update development storage connection strings for Diagnostics and Caching with Microsoft Azure storage account credentials when publishing to Microsoft Azure** checkbox is a convenient way to update any development storage account connection strings with the Azure Storage account that you specify during publishing. When you publish the project to Azure, Visual Studio automatically updates the diagnostics connection string with the storage account that you specified in the Publish wizard. However, if a real storage account was specified as the diagnostics connection string, that account is used instead.
 
 :::moniker range="vs-2019"
 
@@ -180,7 +143,7 @@ The events are captured from event sources and event manifests that you specify.
 
 ![ETW logs](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC766025.png)
 
-The ETW framework is supported in ASP.NET through classes in the [System.Diagnostics.aspx](/dotnet/api/system.diagnostics) namespace. The Microsoft.WindowsAzure.Diagnostics namespace, which inherits from and extends standard [System.Diagnostics.aspx](/dotnet/api/system.diagnostics) classes, enables the use of [System.Diagnostics.aspx](/dotnet/api/system.diagnostics) as a logging framework in the Azure environment. For more information, see [Take control of logging and tracing in Microsoft Azure](/archive/msdn-magazine/2010/june/msdn-magazine-cloud-diagnostics-take-control-of-logging-and-tracing-in-windows-azure) and [Enable diagnostics in Azure Cloud Services and virtual machines](/azure/cloud-services/cloud-services-dotnet-diagnostics).
+The ETW framework is supported in ASP.NET through classes in the [System.Diagnostics.aspx](/dotnet/api/system.diagnostics) namespace. The Microsoft.WindowsAzure.Diagnostics namespace, which inherits from and extends standard [System.Diagnostics.aspx](/dotnet/api/system.diagnostics) classes, enables the use of [System.Diagnostics.aspx](/dotnet/api/system.diagnostics) as a logging framework in the Azure environment. For more information, see [Take control of logging and tracing in Microsoft Azure](/archive/msdn-magazine/2010/june/msdn-magazine-cloud-diagnostics-take-control-of-logging-and-tracing-in-windows-azure) and [Enable diagnostics in Azure Cloud Services (extended support) and virtual machines](/azure/cloud-services/cloud-services-dotnet-diagnostics).
 
 ### Crash dumps
 
@@ -260,7 +223,7 @@ If you're investigating a problem with a cloud service that is already running, 
 
 :::moniker-end
 
-## Troubleshoot Azure cloud service issues
+## Troubleshoot Azure Cloud Services (extended support) issues
 
 If you experience problems with your cloud service projects, like a role that gets stuck in a "busy" status, repeatedly recycles, or throws an internal server error, there are tools and techniques that you can use to diagnose and fix the issue. For specific examples of common problems and solutions, and for an overview of the concepts and tools that you can use to diagnose and fix these errors, see [Azure platform as a service (PaaS) compute diagnostics data](/archive/blogs/kwill/windows-azure-paas-compute-diagnostics-data).
 
@@ -310,4 +273,4 @@ In the **Properties** window, set the **Copy to Output Directory** property to *
 
 ## Related content
 
-To learn more about diagnostics logging in Azure, see [Enable diagnostics in Azure Cloud Services and virtual machines](/azure/cloud-services/cloud-services-dotnet-diagnostics) and [Enable diagnostics logging for Web Apps in Azure App Service](/azure/app-service/web-sites-enable-diagnostic-log).
+To learn more about diagnostics logging in Azure, see [Enable diagnostics in Azure Cloud Services (extended support) and virtual machines](/azure/cloud-services/cloud-services-dotnet-diagnostics) and [Enable diagnostics logging for Web Apps in Azure App Service](/azure/app-service/web-sites-enable-diagnostic-log).

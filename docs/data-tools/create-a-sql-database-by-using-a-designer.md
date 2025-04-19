@@ -1,7 +1,7 @@
 ---
 title: Create database, add tables in .NET Framework apps
 description: Create a database with tables and foreign keys in a .NET Framework application by using Table Designer in Visual Studio.
-ms.date: 02/01/2024
+ms.date: 02/03/2025
 ms.topic: conceptual
 helpviewer_keywords:
 - database tables, creating
@@ -41,7 +41,7 @@ To complete this walkthrough, you need the **.NET desktop development** and **Da
    ![Add New item > Service-based database](media/raddata-vsitemtemplates.png)
    :::moniker-end
 
-4. Name the database **SampleDatabase.mdf**, and then click **Add**.
+4. Name the database **SampleDatabase.mdf**, and then select **Add**.
 
 ### Add a data source
 
@@ -67,6 +67,9 @@ To complete this walkthrough, you need the **.NET desktop development** and **Da
 1. On the **Save the Connection String to the Application Configuration File** page, choose **Next**.
 
 1. On the **Choose your Database Objects** page, you see a message that says the database doesn't contain any objects. Choose **Finish**.
+
+> [!CAUTION]
+> In a real application, you should store the connection string securely, as described in [Connection strings and configuration files](/dotnet/framework/data/adonet/connection-strings-and-configuration-files). For best security, use an authentication method that doesn't rely on storing a password in the connection string, such as Windows Authentication for an on-premises SQL Server database. See [Save and edit connection strings](how-to-save-and-edit-connection-strings.md).
 
 ### View properties of the data connection
 

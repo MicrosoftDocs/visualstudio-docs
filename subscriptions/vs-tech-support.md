@@ -1,9 +1,9 @@
 ---
 title: Activate Technical Support for subscriptions
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 06/15/2023
+ms.date: 09/11/2024
 ms.topic: how-to
 description: Activate the technical support benefit included with your Visual Studio subscription, locate supported products and resources, and learn how to submit incidents.
 ---

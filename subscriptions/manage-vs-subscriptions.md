@@ -1,9 +1,9 @@
 ---
 title: Manage Visual Studio Subscriptions
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/06/2024
+ms.date: 09/16/2024
 ms.topic: conceptual
 description: Explore management tasks for your Visual Studio subscriptions, including renewal, transfer, profile changes, and setting preferences.
 ---

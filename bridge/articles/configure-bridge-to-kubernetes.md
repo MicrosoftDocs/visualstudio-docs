@@ -12,6 +12,8 @@ ms.subservice: bridge
 
 # Configure Bridge to Kubernetes
 
+[!INCLUDE [Bridge to Kubernetes deprecation note](./includes/deprecation.md)]
+
 You can configure the local Bridge to Kubernetes process using two methods. You can annotate services on your cluster and you can supply local configuration.
 
 ## Kubernetes configuration

@@ -5,7 +5,7 @@ author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
 ms.topic: how-to
-ms.date: 05/15/2023
+ms.date: 10/17/2024
 ms.author: ghogen
 ---
 
@@ -20,17 +20,13 @@ With Visual Studio, you can connect any of the following to Azure Storage by usi
 - .NET Core Worker Role
 - Azure Functions
 - Universal Windows Platform App
-- Xamarin
 - Cordova
 
 The connected service functionality adds all the needed references and connection code to your project, and modifies your configuration files appropriately.
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Connected services in Visual Studio for Mac](/visualstudio/mac/connected-services).
-
 ## Prerequisites
 
-- Visual Studio with the Azure workload installed.
+- Visual Studio (see [Visual Studio downloads] (https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)) with the **Azure development** workload installed.
 - A project of one of the supported types
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
@@ -91,7 +87,7 @@ The connected service functionality adds all the needed references and connectio
 
    ![Screenshot of using Feature Search to search for Azure Storage.](./media/vs-2022/feature-search-azure-storage.png)
 
-1. In the **Connect to dependency** page, select **Azure Storage**, and then click **Next**.
+1. In the **Connect to dependency** page, select **Azure Storage**, and then select **Next**.
 
     ![Screenshot showing connecting to dependency - Azure Storage.](./media/vs-2022/connect-to-dependency-azure-storage.png)
 
@@ -101,7 +97,7 @@ The connected service functionality adds all the needed references and connectio
 
     If you need to create a storage account, go to the next step. Otherwise, skip to the following step.
 
-    ![Screenshot showing adding an existing storage account to project.](./media/vs-2022/connect-to-azure-storage.png)
+    ![Screenshot showing adding an existing storage account to project.](./media/vs-2022/connect-to-azure-storage-dark.png)
 
 1. To create a storage account:
 
@@ -113,15 +109,39 @@ The connected service functionality adds all the needed references and connectio
 
    1. When the **Azure Storage** dialog is displayed, the new storage account appears in the list. Select the new storage account in the list, and select **Next**.
 
-1. Enter a connection string name, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
+1. Enter a connection string setting name. The setting name references the name of the connection string setting as it appears in the *secrets.json* file, or in Azure Key Vault.
 
-   ![Screenshot showing how to specify the connection string.](./media/vs-2022/azure-storage-connection-string.png)
+   ![Screenshot showing how to specify the connection string.](./media/vs-2022/connect-to-azure-storage-connection-setting-dark.png)
+
+1. Choose whether you want the connection string stored in a local secrets file, in [Azure Key Vault](/azure/key-vault), or not stored anywhere.
+
+   ![Screenshot showing choices for storing the connection settings.](./media/vs-2022/connect-to-azure-storage-customize-dark.png)
+
+   > [!CAUTION]
+   > If you're using a version of Visual Studio earlier than Visual Studio 17.12, and you choose to use a *secrets.json* file, you must take security precautions, since the connection string in the local secrets.json file could be exposed. If you're using Visual Studio 2022 version 17.12 or later, this procedure produces more secure result, because it yields a connection setting value, instead of a connection string with authentication credentials.
 
 1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
 
    ![Screenshot showing the summary of changes.](./media/vs-2022/summary-of-changes.png)
 
 1. The storage connected service appears under the **Connected Services** node of your project.
+
+## Understand authentication
+
+After you run the previous procedure, your app is set up to use authentication to access the storage account. The connection information for this authentication are stored locally, if you chose the *secrets.json* method, or in your Azure Key Vault.
+
+If you used the *secrets.json* file, open the file by using the three dots next to **Secrets.json** on the **Connected Services** tab to open a menu, and choose **Manage user secrets**. With Visual Studio 2022 version 17.12 and later, this file contains settings that reference a URI to obtain the secure connection string, rather than the connection string itself.
+
+```json
+{
+  "StorageConnection:blobServiceUri": "https://webapplication16storagex.blob.core.windows.net/",
+  "StorageConnection:queueServiceUri": "https://webapplication16storagex.queue.core.windows.net/",
+  "StorageConnection:tableServiceUri": "https://webapplication16storagex.table.core.windows.net/"
+}
+```
+
+With these settings in Visual Studio 17.12 and later, authentication is automatic and flexible. When you run or debug locally from Visual Studio, your Azure credentials saved by Visual Studio are used to access the Azure Storage account. If you launch your app from the command-line, you first need to sign in using the Azure CLI, and those credentials are automatically detected and used. But when your app is deployed to Azure and runs in Azure, it uses managed identity, without any code changes. The authentication works in all hosting environments because the Azure Identity APIs check for all chained credentials in sequence and use them when they're found. See [DefaultAzureCredential](/dotnet/api/azure.identity.defaultazurecredential?view=azure-dotnet&preserve-view=true).
+
 :::moniker-end
 
 ## Next steps
@@ -136,4 +156,3 @@ To learn about working with queues, start at [Azure Queue Storage quickstart (.N
 
 - [Azure Storage forum](https://social.msdn.microsoft.com/forums/azure/home?forum=windowsazuredata)
 - [Azure Storage documentation](/azure/storage/)
-- [Connected services (Visual Studio for Mac)](/visualstudio/mac/connected-services)

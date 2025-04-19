@@ -17,6 +17,8 @@
     href: /azure/app-service/quickstart-dotnetcore?tabs=net60&pivots=development-environment-vs#publish-your-web-app
   - name: Deploy an ASP.NET Core app with Entity Framework to Azure using GitHub Actions
     href: ../azure/end-to-end-deployment-entity-framework-core-github-actions.md
+  - name: Manage settings
+    href: web-deployment-settings.md
   - name: Get publish settings from IIS
     href: tutorial-import-publish-settings-iis.md
   - name: Get publish settings from Azure
@@ -224,7 +226,7 @@
       - name: Visual Studio Installer Projects Extension and .NET 6.0
         href: installer-projects-net-core.md
       - name: Create an installer package (Windows desktop)
-        href: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
+        href: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop-1
     - name: Custom bootstrapper
       items:
       - name: Application deployment prerequisites

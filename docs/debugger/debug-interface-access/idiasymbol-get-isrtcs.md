@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_isRTCs
 
 Returns a value that tells whether the function was compiled with stack frame run-time error checking. This is the /RTCs flag.
@@ -19,7 +20,7 @@ Returns a value that tells whether the function was compiled with stack frame ru
 ## Syntax
 
 ```C++
-HRESULT get_isRTCs ( 
+HRESULT get_isRTCs ( 
    DWORD* pRetVal
 );
 ```

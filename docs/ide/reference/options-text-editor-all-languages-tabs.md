@@ -36,6 +36,7 @@ helpviewer_keywords:
 - editors, Code Editor
 - Code Editor, indenting
 - Code Editor, tabs
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs

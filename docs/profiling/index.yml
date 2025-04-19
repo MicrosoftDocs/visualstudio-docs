@@ -11,7 +11,7 @@ metadata:
   author: mikejo5000
   ms.author: mikejo
   manager: mijacobs
-  ms.date: 09/14/2023
+  ms.date: 09/20/2024
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -27,9 +27,11 @@ landingContent:
             url: beginners-guide-to-performance-profiling.md
           - text: Get started measuring memory usage
             url: memory-usage.md
-          - text: Beginner's guide to optimizing code
+      - linkListType: how-to-guide
+        links:
+          - text: Case study - Beginner's guide to optimizing code
             url: optimize-code-using-profiling-tools.md
-          - text: Isolate a performance issue
+          - text: Case study - Isolate a performance issue
             url: isolate-performance-issue.md
 
   # Card (optional)
@@ -69,12 +71,12 @@ landingContent:
             url: use-file-io.md
           - text: Database
             url: analyze-database.md
+          - text: Benchmark.NET
+            url: profiling-with-benchmark-dotnet.md
           - text: Events Viewer
             url: events-viewer.md
           - text: .NET Async
             url: analyze-async.md
-          - text: Analyze resource consumption (XAML)
-            url: application-timeline.md
 
   # Card (optional)
   - title: Guides

@@ -1,7 +1,7 @@
 ---
 title: View register values in the debugger
 description: View register values in the Registers window in Visual Studio. During debugging, register values change as code executes in your app.
-ms.date: 05/03/2024
+ms.date: 08/13/2024
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.registers
@@ -45,6 +45,10 @@ In C++ code, you can also edit register values. For more information, see [Edit 
 1. Enable address-level debugging, by selecting **Enable address-level debugging** in **Tools** (or **Debug**) > **Options** > **Debugging**.
 
 1. While debugging or while paused at a breakpoint, select **Debug** > **Windows** > **Registers**, or press **Alt**+**5**.
+
+   ::: moniker range=">=vs-2022"
+   ![Screenshot of Registers Window.](../debugger/media/vs-2022/debug-registers-window.png)
+   ::: moniker-end
 
 ## Display and hide Register Groups (C#, C++, Visual Basic, F#)
 

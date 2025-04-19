@@ -34,7 +34,15 @@ MSBuild supports a specific set of conditions that can be applied wherever a `Co
 |()|Grouping mechanism that evaluates to `true` if expressions contained inside evaluate to `true`.|
 |`$if$ ( %expression% ), $else$, $endif$`|Checks whether the specified `%expression%` matches the string value of the passed custom template parameter. If the `$if$` condition evaluates to `true`, then its statements are run; otherwise, the `$else$` condition is checked. If the `$else$` condition is `true`, then its statements are run; otherwise, the `$endif$` condition ends expression evaluation.<br /><br /> For examples of usage, see [Visual Studio project/item template parameter logic](https://stackoverflow.com/questions/6709057/visual-studio-project-item-template-parameter-logic).|
 
-The operator `And` has higher precedence than `Or`, but for clarity, we recommend that you use parentheses when you use multiple Boolean operators to make the order of evaluation explicit. If you don't, MSBuild gives warning MSB4130.
+The `Condition` element is a single string, and so any strings that are used in the expression, including around property values, need to be enclosed with a single-quote. Spaces between operators are allowed and commonly used for readability, but they're not required.
+
+To use the Boolean `And` and `Or` operators, specify operands inside the `Condition` element's string value, as in the following example:
+
+```xml
+Condition="'$(Configuration)' == 'Debug' And '$(MSBuildProjectExtension)' == '.csproj'"
+```
+
+You can chain the Boolean operators. Operator `And` has higher precedence than `Or`, but for clarity, we recommend that you use parentheses when you use multiple Boolean operators to make the order of evaluation explicit. If you don't, MSBuild gives warning MSB4130.
 
 You can use string methods in conditions, as shown in the following example, in which the [TrimEnd()](/dotnet/api/system.string.trimend) function is used to compare only the relevant part of the string, to differentiate between .NET Framework and .NET Core target frameworks.
 

@@ -1,5 +1,5 @@
 ---
-description: "Reads a block of data from the executable's image in memory."
+description: Reads a block of data from the executable's image in memory.
 title: "IDiaStackWalkHelper::readMemory"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackWalkHelper::readMemory
 
 Reads a block of data from the executable's image in memory.
@@ -19,7 +20,7 @@ Reads a block of data from the executable's image in memory.
 ## Syntax
 
 ```C++
-HRESULT readMemory( 
+HRESULT readMemory( 
    enum MemoryTypeEnum type,
    ULONGLONG           va,
    DWORD               cbData,

@@ -15,7 +15,7 @@ monikerRange: ">=vs-2019"
 A publish profile is a file that contains information and settings that Visual Studio uses to deploy applications and services to Azure.
 
 1. In the Azure portal, open the Azure App Service.
-1. Make sure that **Basic authentication** is enabled. Go to **Configuration**, **General settings**, **SCM Basic Auth Publishing Credentials**, and choose **On**.
+1. Make sure that **Basic authentication** is enabled. Go to **Settings**, **Configuration**, **General settings**, **SCM Basic Auth Publishing Credentials**, and choose **On**.
 1. Go to **Download publish profile** and save the profile locally.
 
    :::image type="content" source="./media/app-service-get-publish-profile.png" alt-text="Screenshot showing how to get the publish profile from Azure App Service." lightbox="./media/app-service-get-publish-profile.png":::

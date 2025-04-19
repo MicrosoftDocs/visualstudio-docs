@@ -49,6 +49,7 @@ To suppress violations using the code editor, follow these steps:
 
       :::image type="content" source="media/suppress-diagnostic-from-editor-attribute.png" alt-text="Screenshot that shows in Source (attribute) selection from the Quick Actions Suppress menu." lightbox="media/suppress-diagnostic-from-editor-attribute.png":::
 
+::: moniker range="vs-2019"
 ### Suppress violations using the Error List
 
 To suppress violations using the **Error List** window, follow these steps:
@@ -74,6 +75,7 @@ Diagnostics from live analysis, or IntelliSense, are always up-to-date with curr
    ![Screenshot that shows the Error List source filter.](media/error-list-filter.png)
 
 1. Select the diagnostics you want to suppress and proceed as described previously.
+::: moniker-end
 
 ## Suppress violations using a global suppression file
 
@@ -89,6 +91,7 @@ To suppress violations with a global suppression file by using the code editor, 
 
     Visual Studio creates a tab in the code editor containing the new global suppression file.
 
+::: moniker range="vs-2019"
 ### Use a global suppression file from the Error List
 
 To suppress violations with a global suppression file by using the **Error List** window, follow these steps:
@@ -102,6 +105,7 @@ To suppress violations with a global suppression file by using the **Error List*
    ![Screenshot that shows the Preview Changes dialog box with a SuppressMessageAttribute attribute in the suppression file.](media/preview-changes-in-suppression-file.png)
 
 1. Select **Apply** to save the global suppression file.
+::: moniker-end
 
 ## Suppress all current violations
 

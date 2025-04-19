@@ -6,7 +6,7 @@ metadata:
   title: Visual Studio product family documentation
   description: Explore Visual Studio product documentation for the Visual Studio IDE for Windows and Mac, Visual Studio Code and App Center, GitHub Codespaces, and subscriptions.
   ms.topic: hub-page
-  ms.date: 11/13/2023
+  ms.date: 10/3/2024
   searchScope: []
   titleSuffix: ""
   ms.author: ghogen
@@ -53,7 +53,7 @@ productDirectory:
     - title: GitHub Copilot
       imageSrc: ./media/copilot-icon.svg
       links:
-        - url: /visualstudio/ide/ai-assisted-development-visual-studio
+        - url: /visualstudio/ide/visual-studio-github-copilot-extension
           text: About Copilot in Visual Studio 2022
         - url: https://code.visualstudio.com/docs/editor/github-copilot
           text: About Copilot in Visual Studio Code
@@ -73,5 +73,3 @@ productDirectory:
           text: Azure Dev Tunnels docs
         - url: https://code.visualstudio.com/docs/remote/codespaces/
           text: GitHub Codespaces with Visual Studio Code          
-        - url: /appcenter
-          text: App Center docs

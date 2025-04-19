@@ -1,9 +1,9 @@
 ---
 title: Sign in with work or school account
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/06/2024
+ms.date: 09/17/2024
 ms.topic: how-to
 description: Sign into your Visual Studio subscriptions with your work or school account or use your Microsoft Account (MSA), and get answers to frequently asked questions.
 ---
@@ -30,7 +30,7 @@ This article provides the steps for signing in with an email address provided by
 
 You can now see the type of subscription you're using displayed in the blue bar across the top of the portal.
 
-You can also see your currently selected subscription in the upper right corner, under your username. It says "Showing: ", followed by the subscription. If you have more than one subscription, you can select on the drop-down arrow and select the subscription you would like to use.
+You can also see your currently selected subscription in the upper right corner, under your username. It says "Showing:" followed by the subscription. If you have more than one subscription, you can select on the drop-down arrow and select the subscription you would like to use.
 
 > [!NOTE]
 > Visual Studio [subscriptions portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) do not support [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
@@ -46,7 +46,7 @@ You can also see your currently selected subscription in the upper right corner,
 3. Select **Continue**.
 4. You're redirected to a decision page.
     + Select **Work or school account** if the subscription is associated with a "Work or School" account associated with a Microsoft Entra tenant.
-    + Select **Personal** if the subscription is associated with a "Corporate" email address, but was also converted to a "Personal" Microsoft Account (MSA).
+    + Select **Personal** if the subscription is associated with a "Corporate" email address but was also converted to a "Personal" Microsoft Account (MSA).
 
         > [!NOTE]
         > This will be the case for many subscribers who have used Visual Studio subscriptions (formerly MSDN) in the past.

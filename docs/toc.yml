@@ -93,6 +93,8 @@
         href: install/administrative-templates.md
       - name: Configure policies for enterprise deployments
         href: install/configure-policies-for-enterprise-deployments.md
+      - name: Configure feedback policies
+        href: install/feedback-survey-policies.md
     - name: Manage & update installations
       items:
       - name: Enabling administrator updates
@@ -143,20 +145,24 @@
     items:
     - name: Install and manage GitHub Copilot
       href: ide/visual-studio-github-copilot-install-and-states.md
+    - name: GitHub Copilot Free
+      href: ide/copilot-free-plan.md
     - name: Use GitHub Copilot Completions
       href: ide/visual-studio-github-copilot-extension.md
     - name: Use GitHub Copilot Chat 
       href: ide/visual-studio-github-copilot-chat.md
     - name: Tips to improve Copilot Chat results 
       href: ide/copilot-chat-context.md
+    - name: Copilot Edits
+      href: ide/copilot-edits.md
     - name: Debug with GitHub Copilot
       href: debugger/debug-with-copilot.md
     - name: Deploy GitHub Copilot to your enterprise
       href: ide/deploy-copilot-to-enterprise.md
-    - name: Troubleshoot GitHub Copilot state
-      href: ide/visual-studio-github-copilot-troubleshoot.md
     - name: Admin controls for GitHub Copilot
       href: ide/visual-studio-github-copilot-admin.md
+    - name: Troubleshoot GitHub Copilot state
+      href: ide/visual-studio-github-copilot-troubleshoot.md
   - name: IntelliCode
     items:
     - name: 'What is IntelliCode?'
@@ -236,7 +242,7 @@
       - name: Create web templates
         href: ide/how-to-manually-create-web-templates.md
       - name: Troubleshoot templates
-        href: /troubleshoot/developer/visualstudio/project-build/how-to-troubleshoot-templates?toc=%2Fvisualstudio%2Fmsbuild%2Ftoc.json
+        href: /troubleshoot/developer/visualstudio/project-build/how-to-troubleshoot-templates?toc=%2Fvisualstudio%2Ftoc.json
     - name: Locate project and item templates
       href: ide/how-to-locate-and-organize-project-and-item-templates.md
     - name: Customize templates
@@ -578,9 +584,6 @@
       href: ide/productivity-features.md
     - name: Productivity shortcuts
       href: ide/productivity-shortcuts.md
-    - name: Tips for C# developers
-      displayName: ReSharper
-      href: ide/csharp-developer-productivity.md
     - name: Customize keyboard shortcuts
       href: ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md
     - name: Use the keyboard exclusively
@@ -741,10 +744,10 @@
     href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
 - name: Debug >>
   href: debugger/index.yml
-- name: Track changes with Git
+- name: Git in Visual Studio
   displayName: git, github, azure dev ops, dev ops, version control, source control, source, versioning, clone, integrate, release
   items:
-  - name: Git in Visual Studio
+  - name: About Git in Visual Studio
     href: version-control/git-with-visual-studio.md
   - name: Get started
     expanded: true

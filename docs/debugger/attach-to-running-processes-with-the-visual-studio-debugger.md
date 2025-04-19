@@ -1,7 +1,7 @@
 ---
 title: Attach to running processes with the debugger
 description: Attach the Visual Studio debugger to a running process on a local or remote computer to debug running apps, apps not created in Visual Studio, and other scenarios.
-ms.date: "04/24/2024"
+ms.date: "01/31/2025"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.processes.attach"
@@ -25,6 +25,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
+zone_pivot_groups: programming-languages-set-one
 ---
 
 # Attach to running processes with the Visual Studio debugger
@@ -36,6 +37,7 @@ You can use **Attach to Process** to debug running apps on local or remote compu
 > [!TIP]
 > Not sure whether to use **Attach to Process** for your debugging scenario? See [Common debugging scenarios](#BKMK_Scenarios).
 
+::: zone pivot="programming-language-dotnet,programming-language-dotnetf,programming-language-cpp,programming-language-all"
 ## <a name="BKMK_Attach_to_a_running_process"></a> Attach to a running process on your local machine
 
 To quickly reattach to a process you attached to previously, see [Reattach to a process](#BKMK_reattach).
@@ -61,7 +63,7 @@ To attach to a process on your local computer:
    - If you don't know the process name, browse through the list, or see [Common debugging scenarios](#BKMK_Scenarios) for some common process names.
    - Use the **Track Window** button to enable selecting a window on your computer, which sets the process.
 
-   >[!TIP]
+   > [!TIP]
    > Processes can start and stop in the background while the **Attach to Process** dialog box is open, so the list of running processes might not always be current. You can select **Refresh** at any time to see the current list.
 
 1. In the **Code type** field, make sure the type of code you plan to debug is listed.
@@ -92,7 +94,7 @@ To attach to a process on your local computer:
 
    - If you don't know the process name, browse through the list, or see [Common debugging scenarios](#BKMK_Scenarios) for some common process names.
 
-   >[!TIP]
+   > [!TIP]
    > Processes can start and stop in the background while the **Attach to Process** dialog box is open, so the list of running processes might not always be current. You can select **Refresh** at any time to see the current list.
 
 1. In the **Attach to** field, make sure the type of code you plan to debug is listed. The default **Automatic** setting works for most app types.
@@ -110,8 +112,9 @@ To attach to a process on your local computer:
 
 ::: moniker-end
 
->[!NOTE]
+> [!NOTE]
 > You can be attached to multiple apps for debugging, but only one app is active in the debugger at a time. You can set the active app in the Visual Studio **Debug Location** toolbar or **Processes** window.
+::: zone-end
 
 ## <a name="BKMK_Attach_to_a_process_on_a_remote_computer"></a> Attach to a process on a remote computer
 
@@ -147,7 +150,7 @@ To attach to a running process on a remote computer:
 
 1. Click **Refresh** to populate the **Available processes** list.
 
-    >[!TIP]
+    > [!TIP]
     > Processes can start and stop in the background while the **Attach to Process** dialog box is open, so the list of running processes might not always be current. You can select **Refresh** at any time to see the current list.
 
 1. In the **Available processes** list, find, and select the process or processes you want to attach to.
@@ -158,7 +161,7 @@ To attach to a running process on a remote computer:
 
    - To find processes running under all user accounts, select the **Show processes from all users** checkbox.
 
-     >[!NOTE]
+     > [!NOTE]
      > If you try to attach to a process owned by an untrusted user account, a security warning dialog box confirmation will appear. For more information, see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md).
 
 1. In the **Code type** field, make sure the type of code you plan to debug is listed.
@@ -179,7 +182,7 @@ To attach to a running process on a remote computer:
 
    - Select the dropdown list arrow next to **Connection target**, and select the computer name from the dropdown list.
    - Type the computer name in the **Connection target** box and press **Enter**.
-   - Select the **Find** button next to the **Connection target** box to open the **Remote Connections** dialog box. The **Remote Connections** dialog box lists all the devices that are on your local subnet or directly attached to your computer. You might need to [open outbound UDP port 3702](../debugger/remote-debugger-port-assignments.md) on the server to discover remote devices. Select the computer or device you want, and then click **Select**.
+   - Select the **Find** button next to the **Connection target** box to open the **Remote Connections** dialog box. The **Remote Connections** dialog box lists all the devices that are on your local subnet or directly attached to your computer. You might need to [open outbound UDP port 3702](../debugger/remote-debugger-port-assignments.md) on the server to discover remote devices. Select the computer or device you want, and then select **Select**.
 
    Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
 
@@ -190,7 +193,7 @@ To attach to a running process on a remote computer:
 
 1. Click **Refresh** to populate the **Available processes** list.
 
-    >[!TIP]
+    > [!TIP]
     > Processes can start and stop in the background while the **Attach to Process** dialog box is open, so the list of running processes might not always be current. You can select **Refresh** at any time to see the current list.
 
 1. In the **Available processes** list, find, and select the process or processes you want to attach to.
@@ -201,7 +204,7 @@ To attach to a running process on a remote computer:
 
    - To find processes running under all user accounts, select the **Show processes from all users** checkbox.
 
-     >[!NOTE]
+     > [!NOTE]
      > If you try to attach to a process owned by an untrusted user account, a security warning dialog box confirmation will appear. For more information, see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md).
 
 1. In the **Attach to** field, make sure the type of code you plan to debug is listed. The default **Automatic** setting works for most app types.
@@ -217,13 +220,14 @@ To attach to a running process on a remote computer:
 1. Select **Attach**.
 ::: moniker-end
 
->[!NOTE]
+> [!NOTE]
 > You can be attached to multiple apps for debugging, but only one app is active in the debugger at a time. You can set the active app in the Visual Studio **Debug Location** toolbar or **Processes** window.
 
 In some cases, when you debug in a Remote Desktop (Terminal Services) session, the **Available processes** list won't display all available processes. If you are running Visual Studio as a user who has a limited user account, the **Available processes** list won't show processes that are running in Session 0. Session 0 is used for services and other server processes, including *w3wp.exe*. You can solve the problem by running Visual Studio under an administrator account or by running Visual Studio from the server console instead of a Remote Desktop session.
 
 If neither of those workarounds is possible, a third option is to attach to the process by running `vsjitdebugger.exe -p <ProcessId>` from the Windows command line. You can determine the process ID using *tlist.exe*. To obtain *tlist.exe*, download and install Debugging Tools for Windows, available at [WDK and WinDbg downloads](/windows-hardware/drivers/download-the-wdk).
 
+::: zone pivot="programming-language-dotnet"
 ::: moniker range=">= vs-2022"
 
 ## Attach to a .NET Core process running on Azure App Service (Windows)
@@ -243,6 +247,7 @@ If you're publishing to Azure App Service (Windows), you'll find the **Attach De
 ## Attach to a .NET Core process running on Linux using SSH
 
 For more information, see [Remote debug .NET Core running on Linux using SSH](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md).
+::: zone-end
 
 ## <a name="BKMK_Linux_Docker_Attach"></a> Attach to a process running on a Docker container
 
@@ -273,11 +278,11 @@ For client-side script debugging, script debugging must be enabled in the browse
 
 |Scenario|Debug method|Process name|Notes and links|
 |-|-|-|-|
-|ASP.NET Core - Remote debug on IIS server|Use remote tools and **Attach to Process**|*w3wp.exe* or *dotnet.exe*|Starting in .NET Core 3, the *w3wp.exe* process is used for the default [in-app hosting model](/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-3.1&preserve-view=true#hosting-models). For app deployment, see [Publish to IIS](/aspnet/core/host-and-deploy/iis/). For more detailed information, see [Remote debugging ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md#BKMK_attach)|
+|ASP.NET Core - Remote debug on Internet Information Services (IIS) server|Use remote tools and **Attach to Process**|*w3wp.exe* or *dotnet.exe*|Starting in .NET Core 3, the *w3wp.exe* process is used for the default [in-app hosting model](/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-3.1&preserve-view=true#hosting-models). For app deployment, see [Publish to IIS](/aspnet/core/host-and-deploy/iis/). For more detailed information, see [Remote debugging ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md#BKMK_attach)|
 |ASP.NET Core - Debug on the local machine after you start the app without the debugger|Use **Attach to Process**|*appname.exe* or *iisexpress.exe*|This might be helpful to make your app load faster, such as (for example) when profiling. The default local server (kestrel) process for ASP.NET Core is *appname.exe*.|
 |ASP.NET 4 or 4.5 - Remote debug on an IIS server|Use remote tools and **Attach to Process**|*w3wp.exe*|See [Remote debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
 |Client-side script - Debug on a local IIS server, for supported app types |Use **Attach to Process**|*chrome.exe* or *msedge.exe*|Script debugging must be enabled. For Chrome, you must also run Chrome in debug mode (type `chrome.exe --remote-debugging-port=9222` from a command line) and select **JavaScript or TypeScript** in the **Attach to** field.|
-|C#, Visual Basic, or C++ app - Debug on the local machine|Use either standard debugging (**F5**) or **Attach to Process**|*\<appname>.exe*|In most scenarios, use standard debugging and not **Attach to Process**.|
+|C#, Visual Basic, or C++ app - Debug on the local machine|Use either standard debugging (**F5**) or **Attach to Process**|*{appname}.exe*|In most scenarios, use standard debugging and not **Attach to Process**.|
 |Windows desktop app - Remote debug|Remote tools|N/A| See [Remote debug a C# or Visual Basic app](../debugger/remote-debugging-csharp.md) or [Remote debug a C++ app](../debugger/remote-debugging-cpp.md)|
 |.NET Core on Linux - Debug|Use **Attach to Process**|*dotnet.exe* or a unique process name|To use SSH, see [Remote debug .NET Core running on Linux using SSH](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md). For containerized apps, see [Attach to a process running in a Docker container](../debugger/attach-to-process-running-in-docker-container.md#attach-to-a-process-running-on-a-linux-docker-container).|
 |Containerized app - Debug|Use **Attach to Process**|*dotnet.exe* or a unique process name|See [Attach to a process running in a Docker container](../debugger/attach-to-process-running-in-docker-container.md)|

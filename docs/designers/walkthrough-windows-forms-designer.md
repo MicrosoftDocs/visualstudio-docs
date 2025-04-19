@@ -1,7 +1,7 @@
 ---
 title: Windows Forms Designer tutorial
 description: 'Use Windows Forms Designer to build applications and arrange controls, set margins and padding, adjust layout, size, and display, and set property values.'
-ms.date: 07/10/2023
+ms.date: 08/27/2024
 ms.topic: tutorial
 helpviewer_keywords:
 - Windows Forms Designer, get started
@@ -25,7 +25,7 @@ The Windows Forms Designer provides many tools for building Windows Forms applic
 
 When you're finished, you'll have a custom control that's been assembled by using many of the layout features available in the Windows Forms Designer. This control implements the user interface (UI) for a simple calculator. The following image shows the general layout of the calculator control:
 
-![Screenshot of the completed user interface for the calculator control.](media/calculator-ui.gif)
+![Screenshot of the completed user interface for the calculator control.](media/calculator-ui.png)
 
 > [!TIP]
 > If you're a C++ developer and are looking for a tutorial to help you create a Windows app that includes forms and controls, see [Creating a forms-based MFC application](/cpp/mfc/reference/creating-a-forms-based-mfc-application?view=msvc-170&preserve-view=true). For more generalized info, see [Overview of Windows programming in C++](/cpp/windows/overview-of-windows-programming-in-cpp?view=msvc-170&preserve-view=true).
@@ -46,14 +46,14 @@ The Windows Forms Designer shows the designer surface for the DemoCalculator con
 
 The DemoCalculator control contains several Windows Forms controls. In this procedure, you'll arrange the controls by using the Windows Forms Designer.
 
-1. In the Windows Forms Designer, change the DemoCalculator control to a larger size by selecting the sizing handle in the lower-right corner and dragging it down and to the right. In the lower-right corner of Visual Studio, find the size and location information for controls. Set the size of the control to width 500 and height 400 by watching the size information as you resize the control.
+1. In the Windows Forms Designer, change the DemoCalculator control to a larger size by selecting the sizing handle in the lower-right corner and dragging it to resize. In the lower-right corner of Visual Studio, find the size and location information for controls. Set the size of the control to width 1000 and height 800 by watching the size information as you resize the control. You can also scroll down to the bottom of the **Properties** window, which is usually docked the lower right corner, and manually enter the values in the **Size** property.
 
 1. In **Toolbox**, select the **Containers** node to open it. Select the **SplitContainer** control and drag it onto the designer surface.
 
    The `SplitContainer` is placed on the DemoCalculator control's designer surface.
 
     > [!TIP]
-    > The `SplitContainer` control sizes itself to the fit the size of the DemoCalculator control. Look at the **Properties** window to see the property settings for the `SplitContainer` control. Find the <xref:System.Windows.Forms.SplitContainer.Dock%2A> property. Its value is [DockStyle.Fill](xref:System.Windows.Forms.DockStyle.Fill), which means the `SplitContainer` control will always size itself to the boundaries of the DemoCalculator control. Resize the DemoCalculator control to verify this behavior.
+    > The `SplitContainer` control sizes itself to fit the size of the DemoCalculator control. Look at the **Properties** window to see the property settings for the `SplitContainer` control. Find the <xref:System.Windows.Forms.SplitContainer.Dock%2A> property. Its value is [DockStyle.Fill](xref:System.Windows.Forms.DockStyle.Fill), which means the `SplitContainer` control will always size itself to the boundaries of the DemoCalculator control. Resize the DemoCalculator control to verify this behavior.
 
 1. In the **Properties** window, change the value of the <xref:System.Windows.Forms.SplitContainer.Dock%2A> property to `None`.
 
@@ -152,11 +152,11 @@ Now that the layout of the control is set up, you can populate the DemoCalculato
 
 When your control or form is populated with several controls, you may find it easier to navigate your layout with the Document Outline window.
 
-1. On the menu bar, choose **View** > **Other Windows** > **Document Outline**.
+1. On the menu bar, choose **View** > **Other Windows** > **Document Outline**. Or, on the keyboard, press **Ctrl**+**Alt**+**T**.
 
    The Document Outline window shows a tree view of the DemoCalculator control and its constituent controls. Container controls like the `SplitContainer` show their child controls as subnodes in the tree. You can also rename controls in place by using the Document Outline window.
 
-1. In the **Document Outline** window, right-click **button1**, and then select **Rename**. Change its name to sevenButton.
+1. In the **Document Outline** window, right-click **button1**, and then select **Rename** (keyboard: **F2**). Change its name to sevenButton.
 
 1. Using the **Document Outline** window, rename the `Button` controls from the designer-generated name to the production name according to the following list:
 
@@ -250,6 +250,8 @@ The buttons on the DemoCalculator control have event handlers that can be used t
 
    The Code Editor opens to the event handlers generated by the designer.
 
+Since this tutorial is focused on the designer, we omit the implementation details of the calculator functionality.
+
 ## Test the control
 
 Because the DemoCalculator control inherits from the <xref:System.Windows.Forms.UserControl> class, you can test its behavior with the **UserControl Test Container**. For more information, see [How to: Test the run-time behavior of a UserControl](/dotnet/framework/winforms/controls/how-to-test-the-run-time-behavior-of-a-usercontrol).
@@ -268,15 +270,15 @@ The DemoCalculator control can be used in other composite controls or on a form.
 
 The first step is to create the application project. You'll use this project to build the application that shows your custom control.
 
-1. Create a new **Windows Forms Application** project and name it **DemoCalculatorTest**.
+1. Add a new **Windows Forms App (.NET Framework)** project to the existing solution and name it **DemoCalculatorTest**.
 
-1. In **Solution Explorer**, right-click the **DemoCalculatorTest** project, and then select **Add** > **Project Reference** to open the **Reference Manager** dialog box.
+1. In **Solution Explorer**, right-click the **DemoCalculatorTest** project, and then select **Add** > **Reference** to open the **Reference Manager** dialog box.
 
 1. Go to the **Projects** tab, and then select the DemoCalculatorLib project to add the reference to the test project.
 
 1. In **Solution Explorer**, right-click **DemoCalculatorTest**, and then select **Set as StartUp Project**.
 
-1. In the Windows Forms Designer, increase the size of the form to about **700 x 500**.
+1. In the Windows Forms Designer, increase the size of the form to about **1400 x 1000**.
 
 ### Use the control in the form's layout
 

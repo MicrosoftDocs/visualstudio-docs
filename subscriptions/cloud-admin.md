@@ -1,9 +1,9 @@
 ---
 title: Set up admins for monthly subscriptions
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/19/2024
+ms.date: 09/16/2024
 ms.topic: how-to
 description: Configure admins who can assign subscriptions, edit assignments, add or delete subscriptions, and perform other subscription management tasks.
 ---

@@ -48,26 +48,26 @@ sections:
           
           - If NuGet packages referenced by the projects in the solution haven't been restored, Live Unit Testing won't work. Performing an explicit build of the solution or restoring NuGet packages in the solution before turning on Live Unit Testing should resolve this issue.
           
-          - If you are using MSTest-based tests in your projects, make sure that you remove the reference to `Microsoft.VisualStudio.QualityTools.UnitTestFramework`, and add references to the latest MSTest NuGet packages, `MSTest.TestAdapter` (a minimum version of 1.1.11 is required) and `MSTest.TestFramework` (a minimum version of 1.1.11 is required). For more information, see the "Supported test frameworks" section of the [Use Live Unit Testing in Visual Studio](live-unit-testing.md#supported-test-frameworks) article.
+          - If you're using MSTest-based tests in your projects, make sure that you remove the reference to `Microsoft.VisualStudio.QualityTools.UnitTestFramework`, and add references to the latest MSTest NuGet packages, `MSTest.TestAdapter` (a minimum version of 1.1.11 is required) and `MSTest.TestFramework` (a minimum version of 1.1.11 is required). For more information, see the "Supported test frameworks" section of the [Use Live Unit Testing in Visual Studio](live-unit-testing.md#supported-test-frameworks) article.
           
           - At least one project in your solution should have either a NuGet reference or direct reference to the xUnit, NUnit, or MSTest test framework. This project should also reference a corresponding Visual Studio test adapters NuGet package.
 
       - question: |
           Why is my project not building?
         answer: |
-          The build errors get reported to the Output window when the Live Unit Testing drop-down is selected. There are a few common issues caused by incorrect configuration  in the [setup wizard](../test/live-unit-testing.md#configure) that can cause build issues in Live Unit Testing.
+          The build errors get reported to the Output window when the Live Unit Testing drop-down is selected. There are a few common issues caused by incorrect configuration in the [setup wizard](../test/live-unit-testing.md#configure) that can cause build issues in Live Unit Testing.
           
           - If the [Workspace Root](../test/live-unit-testing.md#workspace-root) property is too long, it’s possible that the build will fail due to exceptions indicating that the path is too long.
           
           - If the [Repository Root](../test/live-unit-testing.md#repository-root) property doesn't point towards the repository root, the workspace will be populated with the wrong set of files.
           
-          - For git repositories, the [Exclude files](../test/live-unit-testing.md#specify-the-excluded-files) property usually avoids copying the files specified in the *gitignore* file. However, it’s possible to check in files to the git repository that are ignored, or it’s possible to run tools that auto generate files, but these are not generated during the build. In these cases, the "&lt;Custom&gt;" option should be chosen and a custom set of rules that only list the artifacts folders should be listed.
+          - For git repositories, the [Exclude files](../test/live-unit-testing.md#specify-the-excluded-files) property usually avoids copying the files specified in the *gitignore* file. However, it’s possible to check in files to the git repository that are ignored, or it’s possible to run tools that auto generate files, but these aren't generated during the build. In these cases, the "&lt;Custom&gt;" option should be chosen and a custom set of rules that only list the artifacts folders should be listed.
           
           Besides the issues described previously, the following project configurations that might not build correctly.
           
           - If project dependencies are specified as a global solution configuration and not as `ProjectReferences` for each project, Live Unit Testing might end up building the incorrect set of projects. To fix this, add explicit references between projects.
           
-          - Until a [Live Unit Testing playlist](../test/live-unit-testing.md#specify-the-excluded-files) is chosen, Live Unit Testing will not build any projects. To fix this, include some tests in the Live Unit Testing playlist.
+          - Until a [Live Unit Testing playlist](../test/live-unit-testing.md#specify-the-excluded-files) is chosen, Live Unit Testing won't build any projects. To fix this, include some tests in the Live Unit Testing playlist.
           
           - If you're using MSTest-based tests in your projects, make sure that you remove the reference to `Microsoft.VisualStudio.QualityTools.UnitTestFramework`, and add references to the latest MSTest NuGet packages, `MSTest.TestAdapter` (a minimum version of 1.1.11 is required) and `MSTest.TestFramework` (a minimum version of 1.1.11 is required). For more information, see [Supported test frameworks](../test/live-unit-testing.md#supported-test-frameworks).
           
@@ -80,6 +80,23 @@ sections:
               </RunConfiguration>
           </RunSettings>
           ```
+
+      - question: |
+          Does Live Unit Testing support source generator projects?
+        answer: |
+          Live Unit Testing can't build the source generator projects with instrumentation.
+          Due to how the C# compiler sets up assembly loading for source generators, the attempt to build source generator projects with instrumentation fails to load Live Unit Testing assemblies.
+          
+          You can set `<ExcludeFromCodeCoverage>true</ExcludeFromCodeCoverage>` property in the source generator
+          csproj files, to make these projects build in Live Unit Testing.
+
+      - question: |
+          How to resolve error "Could not load file or assembly 'Microsoft.Bcl.AsyncInterfaces'"?
+
+        answer: |
+          Live Unit Testing runs the build inside of its own process for performance reasons.
+          If this separate build process is causing an error, you can set `<UseInProcMSBuildNode>false</UseInProcMSBuildNode>` to the *.lutconfig* file to ensure
+          that all of the build happens in the MSBuild process.
 
       - question: |
           Why are my tests failing to run? 
@@ -108,7 +125,7 @@ sections:
         answer: |
           If your solution requires custom steps to build for instrumentation (Live Unit Testing) that aren't required for the "regular" non-instrumented build, then you can add code to your project or *.targets* files that checks for the `BuildingForLiveUnitTesting` property and performs custom pre/post build steps. You can also choose to remove certain build steps (like publishing or generating packages) or to add build steps (like copying prerequisites) to a Live Unit Testing build based on this project property. Customizing your build based on this property doesn't alter your regular build in any way, and only impacts Live Unit Testing builds.
           
-          For example, there may be a target that produces NuGet packages during a regular build. You probably do not want NuGet packages to be generated after every edit you make. So you can disable that target in the Live Unit Testing build by doing something like the following:  
+          For example, there may be a target that produces NuGet packages during a regular build. You probably don't want NuGet packages to be generated after every edit you make. So you can disable that target in the Live Unit Testing build by doing something like the following:  
           
           ```xml
           <Target Name="GenerateNuGetPackages" BeforeTargets="AfterBuild" Condition="'$(BuildingForLiveUnitTesting)' != 'true'">
@@ -164,7 +181,7 @@ sections:
   - name: Continuous builds
     questions:
       - question: |
-          Why does Live Unit testing keep building my solution all the time even if I am not making any edits?
+          Why does Live Unit testing keep building my solution all the time even if I'm not making any edits?
         answer: |
           Your solution can build even if you're not making edits if the build process generates source code that's part of the solution itself, and your build target files don't have appropriate inputs and outputs specified. Targets should be given a list of inputs and outputs so that MSBuild can perform the appropriate up-to-date checks and determine whether a new build is required.
           
@@ -173,7 +190,7 @@ sections:
   - name: Editor icons
     questions:
       - question: |
-          Why do I not see any icons in the editor even though Live Unit Testing seems to be running the tests based on the messages in the Output window?
+          Why don't I see any icons in the editor even though Live Unit Testing seems to be running the tests based on the messages in the Output window?
         answer: |
           You might not see icons in the editor if the assemblies that Live Unit Testing is operating on aren't instrumented for any reason. For example, Live Unit Testing isn't compatible with projects that set `<UseHostCompilerIfAvailable>false</UseHostCompilerIfAvailable>`. In this case, your build process needs to be updated to either remove this setting or to change it to `true` for Live Unit Testing to work. 
 
@@ -197,7 +214,7 @@ sections:
       - question: |
           Can I edit the files under the workspace folder?
         answer: |
-          No, you should not open or edit the files under the build and test directories of the workspace folder.
+          No, you shouldn't open or edit the files under the build and test directories of the workspace folder.
           Live Unit Testing should manage all of the files in the *src* folder, to keep them in sync between
           the [Repository Root](../test/live-unit-testing.md#repository-root) and [Workspace Root](../test/live-unit-testing.md#workspace-root).
 
@@ -206,10 +223,10 @@ sections:
       - question: |
           Does live unit testing support Dev Drive for the default workspace root?
         answer: |
-          Yes, but you need to make sure it's enabled. If you are using a Dev Drive, make sure that the [projected file system (ProjFS)](/windows/dev-drive/#filters-for-common-scenarios) filter is enabled. For example, the following command enables ProjFS and Windows Defender:
+          Yes, but you need to make sure it's enabled. If you're using a Dev Drive, make sure that the [projected file system (ProjFS)](/windows/dev-drive/#filters-for-common-scenarios) filter is enabled. For example, the following command enables ProjFS and Windows Defender:
           
           ```cmd
-          fsutil devdrv setfiltersallowed PrjFlt, WdFilter
+          fsutil devdrv setfiltersallowed PrjFlt,WdFilter
           ```
           
 additionalContent: |

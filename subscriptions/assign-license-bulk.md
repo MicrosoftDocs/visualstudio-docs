@@ -1,9 +1,9 @@
 ---
 title: Assign subscriptions to multiple users
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 05/13/2024
+ms.date: 01/28/2025
 ms.topic: conceptual
 description: Assign multiple subscriptions to one or more users at the same time with the bulk operation features in the Subscriptions Admin Portal.
 ---
@@ -12,11 +12,11 @@ description: Assign multiple subscriptions to one or more users at the same time
 
 The Subscriptions Admin Portal lets you add users one-at-a-time, or in large groups. To add individual users, see [Add single users](assign-license.md).
 
-To add large groups of users, you can use the bulk add feature, or if your organization is using Microsoft Entra ID **and your organization has a trusted agreement**, you can use Microsoft Entra groups. This article explains the process for both options. Watch this video or read on to learn more about the bulk add feature. 
+To add large groups of users, you can use the bulk add feature, or if your organization is using Microsoft Entra **and your organization has a trusted agreement**, you can use Microsoft Entra groups. This article explains the process for both options. Watch this video or read on to learn more about the bulk add feature. 
 
 ## Use Bulk add to assign subscriptions
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vxNq]
+> [!VIDEO https://medius.microsoft.com/Embed/video-nc/3bf6504c-8d82-4466-b6fb-93d46fdf9b17?r=553875033020]
 
 ## Follow these steps to use the Bulk add feature:
 
@@ -91,7 +91,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
 
 ## Watch this video or read on to learn more about adding subscribers using the Microsoft Entra group feature. 
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4rvvW]
+> [!VIDEO https://medius.microsoft.com/Embed/video-nc/6e8cd58e-548b-4019-9b36-ec6462c0666b?r=499726314265]
 
 1. Sign in to the Visual Studio Subscriptions Admin Portal at [https://manage.visualstudio.com](https://manage.visualstudio.com).
 

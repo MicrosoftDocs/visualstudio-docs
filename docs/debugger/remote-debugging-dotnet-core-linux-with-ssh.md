@@ -1,7 +1,7 @@
 ---
 title: "Debug .NET Core on Linux"
 description: Debug .NET Core and .NET 5 and later applications on Linux with Secure Shell (SSH), attach to a process, build and deploy the app, and attach the debugger.
-ms.date: "03/20/2023"
+ms.date: "07/09/2024"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "remote debugging, linux"
@@ -55,7 +55,7 @@ When the application is running on the Linux machine, you are ready to attach th
 
 1. Change the **Connection Target** to the IP address or host name of the target computer.
 
-   If you haven't already provided credentials, you will be prompted to enter a password and/or private key file.
+   If you haven't already provided credentials, you'll be prompted to enter a password and/or private key file. For more information on using a private key file, see [Set up a remote connection](/cpp/linux/connect-to-your-remote-linux-computer#set-up-the-remote-connection).
 
    There are no port requirements to configure, except the port that the SSH server is running on.
 
@@ -65,14 +65,28 @@ When the application is running on the Linux machine, you are ready to attach th
 
    In the following example, you see a list of processes from a remote Linux machine over an SSH transport displayed in the **Attach to Process** dialog box.
 
-   ![Attach to Linux process](media/remote-debug-linux-over-ssh-attach.png)
+   ::: moniker range=">=vs-2022"
+   ![Screenshot of Attach to Linux process.](media/vs-2022/remote-debug-linux-over-ssh-attach.png)
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   ![Screenshot of Attach to Linux process.](media/remote-debug-linux-over-ssh-attach.png)
+   ::: moniker-end
 
 1. Choose **Attach**.
 
-1. In the dialog that appears, select the type of code you would like to debug. Choose **Managed (.NET Core for Unix)**.
+   In the dialog that appears, select the type of code you would like to debug. Choose **Managed (.NET Core for Unix)**.
 
 1. Use Visual Studio debugging features to debug the app.
 
    In the following example, you see the Visual Studio debugger stopped at a breakpoint in code running on a remote Linux machine.
 
-   ![Hit a breakpoint](media/remote-debug-linux-over-ssh-hit-breakpoint.png)
+   ::: moniker range=">=vs-2022"
+   ![Screenshot of Hit a breakpoint.](media/vs-2022/remote-debug-linux-over-ssh-hit-breakpoint.png)
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   ![Screenshot of Hit a breakpoint.](media/remote-debug-linux-over-ssh-hit-breakpoint.png)
+   ::: moniker-end
+
+## Related content
+
+- [Set up a remote connection](/cpp/linux/connect-to-your-remote-linux-computer#set-up-the-remote-connection)

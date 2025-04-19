@@ -19,7 +19,7 @@ You need the following to build this example:
 
 * Visual Studio 2015 (not an Express Edition) or a later version. You can use the free [Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/)
 * [Visual Studio SDK](../extensibility/visual-studio-sdk.md). You can also, when installing Visual Studio, check **Visual Studio Extensibility Tools** under **Common Tools** to install the SDK at the same time. If you have already installed Visual Studio, you can also install this SDK by going to the main menu **File** > **New** > **Project**, choosing **C#** in the left navigation pane, and then choosing **Extensibility**. When you choose the "**Install the Visual Studio Extensibility Tools**" breadcrumb project template, it prompts you to download and install the SDK.
-* [.NET Compiler Platform ("Roslyn") SDK](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.NETCompilerPlatformSDK). You can also install this SDK by going to the main menu **File** > **New** > **Project**, choosing **C#** in the left navigation pane, and then choosing **Extensibility**. When you choose "**Download the .NET Compiler Platform SDK**" breadcrumb project template, it prompts you to download and install the SDK. This SDK includes the [Roslyn Syntax Visualizer](https://github.com/dotnet/roslyn/blob/master/docs/wiki/Syntax-Visualizer.md). This useful tool helps you figure out what code model types you should look for in your analyzer. The analyzer infrastructure calls into your code for specific code model types, so your code only executes when necessary and can focus only on analyzing relevant code.
+* [.NET Compiler Platform ("Roslyn") SDK](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.NETCompilerPlatformSDK). You can also install this SDK by going to the main menu **File** > **New** > **Project**, choosing **C#** in the left navigation pane, and then choosing **Extensibility**. When you choose "**Download the .NET Compiler Platform SDK**" breadcrumb project template, it prompts you to download and install the SDK. This SDK includes the [Roslyn Syntax Visualizer](https://github.com/dotnet/roslyn/blob/main/docs/wiki/Syntax-Visualizer.md). This useful tool helps you figure out what code model types you should look for in your analyzer. The analyzer infrastructure calls into your code for specific code model types, so your code only executes when necessary and can focus only on analyzing relevant code.
 
 ## What's the problem?
 
@@ -29,18 +29,18 @@ Users are familiar with writing code like the following:
 
 ```csharp
 var a1 = new int[0];
-Console.WriteLine("a1.Length = { 0}", a1.Length);
+Console.WriteLine("a1.Length = {0}", a1.Length);
 var a2 = new int[] { 1, 2, 3, 4, 5 };
-Console.WriteLine("a2.Length = { 0}", a2.Length);
+Console.WriteLine("a2.Length = {0}", a2.Length);
 ```
 
 Creating empty arrays to fill in with subsequent lines of code and using collection initializer syntax are familiar to C# developers. However, writing the same code for an ImmutableArray crashes at run time:
 
 ```csharp
 var b1 = new ImmutableArray<int>();
-Console.WriteLine("b1.Length = { 0}", b1.Length);
+Console.WriteLine("b1.Length = {0}", b1.Length);
 var b2 = new ImmutableArray<int> { 1, 2, 3, 4, 5 };
-Console.WriteLine("b2.Length = { 0}", b2.Length);
+Console.WriteLine("b2.Length = {0}", b2.Length);
 ```
 
 The first error is due to ImmutableArray implementation's using a struct to wrap the underlying data storage. Structs must have parameter-less constructors so that `default(T)` expressions can return structs with all zero or null members. When the code accesses `b1.Length`, there is a run time null dereference error because there is no underlying storage array in the ImmutableArray struct. The correct way to create an empty ImmutableArray is `ImmutableArray<int>.Empty`.
@@ -61,7 +61,7 @@ The template opens a *DiagnosticAnalyzer.cs* file. Choose that editor buffer tab
 
 ```csharp
 [DiagnosticAnalyzer(LanguageNames.CSharp)]
-public class ImmutableArrayAnalyzerAnalyzer : DiagnosticAnalyzer
+public class ImmutableArrayAnalyzer : DiagnosticAnalyzer
 {}
 ```
 
@@ -222,7 +222,7 @@ namespace ImmutableArrayAnalyzer
 **Implement the property.** Fill in the `FixableDiagnosticIds` property's `get` body with the following code:
 
 ```csharp
-return ImmutableArray.Create(ImmutableArrayAnalyzerAnalyzer.DiagnosticId);
+return ImmutableArray.Create(ImmutableArrayAnalyzer.DiagnosticId);
 ```
 
 Roslyn brings together diagnostics and fixes by matching these identifiers, which are just strings. The project template generated a diagnostic ID for you, and you are free to change it. The code in the property just returns the ID from the analyzer class.
@@ -302,6 +302,6 @@ You can see all the finished code [here](https://github.com/DustinCampbell/CoreF
 
 * \\\Build 2015 talk
 * [Completed code on GitHub](https://github.com/DustinCampbell/CoreFxAnalyzers/tree/master/Source/CoreFxAnalyzers)
-* [Several examples on GitHub, grouped into three kinds of analyzers](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Analyzer%20Samples.md)
-* [Other docs on the GitHub OSS site](https://github.com/dotnet/roslyn/tree/master/docs/analyzers)
-* [FxCop rules implemented with Roslyn analyzers on GitHub](https://github.com/dotnet/roslyn/tree/master/src/Features/Core/Portable/Diagnostics/Analyzers)
+* [Several examples on GitHub, grouped into three kinds of analyzers](https://github.com/dotnet/roslyn/blob/main/docs/analyzers/Analyzer%20Samples.md)
+* [Other docs on the GitHub OSS site](https://github.com/dotnet/roslyn/tree/main/docs/analyzers)
+* [FxCop rules implemented with Roslyn analyzers on GitHub](https://github.com/dotnet/roslyn/tree/main/src/Features/Core/Portable/Diagnostics/Analyzers)

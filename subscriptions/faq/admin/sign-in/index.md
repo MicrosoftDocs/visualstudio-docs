@@ -3,9 +3,9 @@ title: Visual Studio subscriptions sign-in
 description: FAQs list for signing in to Visual Studio subscriptions. This FAQ addresses questions for administrators, such as account types and alternate identities.
 ms.faqid: Section3
 ms.topic: troubleshooting
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 12/01/2020
+ms.date: 09/26/2024
 ---
 
 # Signing in

@@ -19,12 +19,9 @@ You can use the App Configuration Connected Services feature in the following pr
 - .NET Core Console
 - .NET Framework projects.
 
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Connected services in Visual Studio for Mac](/visualstudio/mac/connected-services).
-
 ## Prerequisites
 
-- Visual Studio with the Azure workload installed.
+- Visual Studio (see [Visual Studio downloads] (https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)) with the **Azure development** workload installed.
 - A project of one of the supported types
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
@@ -130,4 +127,3 @@ You can use the App Configuration Connected Services feature in the following pr
 
 - [Azure App Configuration documentation](/azure/azure-app-configuration/overview)
 - [Tutorial for using dynamic configuration in an App Configuration connected ASP.NET Core app](/azure/azure-app-configuration/enable-dynamic-configuration-aspnet-core)
-- [Connected services (Visual Studio for Mac)](/visualstudio/mac/connected-services)

@@ -1,5 +1,5 @@
 ---
-description: "Returns an enumeration of symbols for inline frames corresponding to the specified inline function name."
+description: Returns an enumeration of symbols for inline frames corresponding to the specified inline function name.
 title: "IDiaSession::findAcceleratorInlineesByName"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findAcceleratorInlineesByName
 
 Returns an enumeration of symbols for inline frames corresponding to the specified inline function name.
@@ -17,7 +18,7 @@ Returns an enumeration of symbols for inline frames corresponding to the specifi
 ## Syntax
 
 ```C++
-HRESULT findAcceleratorInlineeLinesByName ( 
+HRESULT findAcceleratorInlineeLinesByName ( 
    LPCOLESTR             name,
    DWORD                 option,
    IDiaEnumSymbols**     ppResult

@@ -175,7 +175,7 @@ valuable feedback is a high-level description of what you were trying to do, alo
 
 **Advanced Performance Traces**
 
-Trace collection capabilities in the Report-a-problem tool are sufficient for most scenarios. But there are times where more control over trace collection is needed (for example, trace with a larger buffer size), in which case PerfView is a great tool to use. Steps for manually recording performance trace using the PerfView tool can be found on the [Recording performance traces with PerfView](https://github.com/dotnet/roslyn/blob/master/docs/wiki/Recording-performance-traces-with-PerfView.md) page.
+Trace collection capabilities in the Report-a-problem tool are sufficient for most scenarios. But there are times where more control over trace collection is needed (for example, trace with a larger buffer size), in which case PerfView is a great tool to use. Steps for manually recording performance trace using the PerfView tool can be found on the [Recording performance traces with PerfView](https://github.com/dotnet/roslyn/blob/main/docs/wiki/Recording-performance-traces-with-PerfView.md) page.
 
 ## Out-Of-Process Issues
 
@@ -197,7 +197,6 @@ What makes these types of issues most actionable is to provide additional logs t
 
 ## Related content
 
-* [Report a problem with Visual Studio for Mac](/visualstudio/mac/report-a-problem)
 * [Report a problem with C++](/cpp/how-to-report-a-problem-with-the-visual-cpp-toolset)
 * [Visual Studio Developer Community](https://developercommunity.visualstudio.com/home)
 * [Developer Community data privacy](developer-community-privacy.md)

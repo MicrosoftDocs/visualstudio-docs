@@ -25,7 +25,7 @@ This topic describes the software and security requirements for ASP.NET debuggin
 
   - The ASP.NET code resides on the file system.
 
-  - The ASP.NET code resides in an IIS Web site.
+  - The ASP.NET code resides in an Internet Information Services (IIS) Web site.
 
 - Remote debugging, in which Visual Studio runs on a client computer and debugs a Web application that is running on a remote server computer.
 

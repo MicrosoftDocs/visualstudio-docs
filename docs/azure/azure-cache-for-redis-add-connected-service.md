@@ -21,13 +21,9 @@ With Visual Studio, you can connect any of the following to Azure Cache for Redi
 - .NET Core Worker Role
 - Azure Functions
 - Universal Windows Platform App
-- Xamarin
 - Cordova
 
 The connected service functionality adds all the needed references and connection code to your project, and modifies your configuration files appropriately.
-
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Connected services in Visual Studio for Mac](/visualstudio/mac/connected-services).
 
 ## Prerequisites
 
@@ -41,6 +37,8 @@ The connected service functionality adds all the needed references and connectio
 1. Open your project in Visual Studio.
 
 1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add Connected Service**.
+
+   If you don't see the **Connected Services** node, choose **Project** > **Connected Services** > **Add**.
 
 1. In the **Connected Services** tab, select the + icon for **Service Dependencies**.
 
@@ -92,6 +90,8 @@ The connected service functionality adds all the needed references and connectio
 
    ![Screenshot showing Connected Services context menu options.](./media/azure-redis-cache-add-connected-service/vs-2022/add-connected-service-context-menu-2.png)
 
+   If you don't see the **Connected Services** node, choose **Project** > **Connected Services** > **Add**.
+
 1. Choose **Azure Cache for Redis**. The **Connect to dependency** page appears. You should see two options, one for a local emulator, **Redis Cache on container (Local)**, and one for connecting to the live Azure Cache for Redis service. You can reduce cost and simplify early development by starting with the local emulator. You can migrate to the live service later by repeating these steps and choosing the other option.
 
    ![Screenshot showing Azure Cache for Redis choices](./media/azure-redis-cache-add-connected-service/vs-2022/azure-cache-for-redis-add-dependency-2.png)
@@ -126,9 +126,16 @@ The connected service functionality adds all the needed references and connectio
 
    1. When the **Configure Azure Cache for Redis** screen is displayed, the new cache appears in the list. Select the new database in the list, and select **Next**.
 
-1. Enter a connection string name, or choose the default, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
+1. Enter a connection setting name, or accept the default.
 
-   ![Screenshot of the Azure Cache for Redis connection information page. Next is highlighted.](./media/azure-redis-cache-add-connected-service/connection-string.png)
+   ![Screenshot of the Azure Cache for Redis connection information page. Next is highlighted.](./media/vs-2022/connect-to-azure-cache-for-redis.png)
+
+   > [!NOTE]
+   > For improved security, in Visual Studio 17.12 and later, this step creates a connection setting name; previous versions create a connection string. Connection strings stored in the local filesystem can lead to a security risk, if they're inadvertently exposed.
+
+1. Click on **Additional settings** and choose whether you want the connection setting stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
+
+   ![Screenshot of the Azure Cache for Redis additional settings page.](./media/vs-2022/connect-to-azure-cache-additional-settings.png)
 
 1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
 
@@ -154,4 +161,3 @@ To cache page output in an ASP.NET app, see [ASP.NET Output Cache Provider](/azu
 
 - [Azure Cache for Redis product page](https://azure.microsoft.com/services/cache)
 - [Azure Cache for Redis documentation](/azure/azure-cache-for-redis/)
-- [Connected services (Visual Studio for Mac)](/visualstudio/mac/connected-services)

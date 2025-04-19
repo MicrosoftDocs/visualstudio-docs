@@ -1,7 +1,7 @@
 ---
 title: Customize your build by folder or solution
 description: Explore the special imports Directory.Build.props and Directory.Build.targets that you can use to customize the build system in Visual Studio.
-ms.date: 02/01/2024
+ms.date: 02/03/2025
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, transforms
@@ -46,7 +46,9 @@ For example, here's a *Directory.Build.props* file that sets the output director
 
 1. Clean the solution to remove any old output files.
 
-   `msbuild /t:Clean SolutionName.sln`
+   ```
+   msbuild /t:Clean SolutionName.sln
+   ```
 
 1. Create a new file in the root of your repo called *Directory.Build.props*.
 
@@ -115,7 +117,9 @@ It might be desirable to have common properties for all projects *(1)*, common p
 
 To make MSBuild correctly merge the "inner" files (*2-src* and *2-test*) with the "outer" file (*1*), you must take into account that once MSBuild finds a *Directory.Build.props* file, it stops further scanning. To continue scanning and merge into the outer file, place this code into both inner files:
 
-`<Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />`
+```xml
+<Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+```
 
 A summary of MSBuild's general approach is as follows:
 
@@ -131,7 +135,7 @@ The Boolean properties `$(ImportDirectoryBuildProps)` and `$(ImportDirectoryBuil
 
 ## Example
 
-This example shows the use the preprocessed output to determine where to set a property.
+This example shows the use of the preprocessed output to determine where to set a property.
 
 To help you analyze the usage of a particular property you want to set, you can run MSBuild with the `/preprocess` or `/pp` argument. The output text is the result of all the imports, including the system imports like *Microsoft.Common.props* that are implicitly imported, and any of your own imports. With this output, you can see where your property needs to be set relative to where its value is used.
 

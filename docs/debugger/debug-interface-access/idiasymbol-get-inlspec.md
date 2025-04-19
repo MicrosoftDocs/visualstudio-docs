@@ -1,5 +1,5 @@
 ---
-description: "This function retrieves a flag indicating whether the function was marked as inline (using one of the inline, _inline, __forceinline) attributes)."
+description: This function retrieves a flag indicating whether the function was marked as inline (using one of the inline, _inline, __forceinline) attributes).
 title: "IDiaSymbol::get_InlSpec"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_InlSpec
 
 This function retrieves a flag indicating whether the function was marked as inline (using one of the [inline, __inline, \__forceinline](/cpp/cpp/inline-functions-cpp) attributes).

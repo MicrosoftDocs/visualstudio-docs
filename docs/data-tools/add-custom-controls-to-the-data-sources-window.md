@@ -34,7 +34,7 @@ To add or remove controls from the list of available controls for items in the D
 
 1. Make sure that the WPF Designer or the Windows Forms Designer is open.
 
-2. In the **Data Sources** window, click an item that is part of a data source you added to the window, and then click the dropdown list menu for the item.
+2. In the **Data Sources** window, click an item that is part of a data source you added to the window, and then select the dropdown list menu for the item.
 
    > [!TIP]
    > If the Data Sources window isn't open, open it by selecting **View** > **Other Windows** > **Data Sources**.
@@ -60,7 +60,7 @@ To add or remove controls from the list of available controls for items in the D
 
 6. Click **OK**.
 
-7. In the **Data Sources** window, click an item of the data type that you just associated one or more controls, and then click the dropdown list menu for the item.
+7. In the **Data Sources** window, click an item of the data type that you just associated one or more controls, and then select the dropdown list menu for the item.
 
      The controls you selected in the **Associated controls** box now appear in the dropdown list menu for the item.
 

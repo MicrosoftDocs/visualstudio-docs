@@ -1,7 +1,7 @@
 ---
 title: 'Specify build events (C#)'
 description: Use build events in Visual Studio to specify commands that run before the build starts or after the build finishes for C# programs.
-ms.date: 02/01/2024
+ms.date: 3/11/2025
 ms.subservice: compile-build
 ms.topic: how-to
 helpviewer_keywords:
@@ -36,7 +36,7 @@ Use build events to specify commands that run before the build starts or after t
 5. In the **Post-build event command line** box, specify the syntax of the build event.
 
    > [!NOTE]
-   > Add a `call` statement before all post-build commands that run *.bat* files. For example, `call MyFile.bat` or `call MyFile.bat call MyFile2.bat`. Paths can be absolute, or relative to the project folder.
+   > Add a `call` statement before all post-build commands that run *.bat* files. For example, `call MyFile.bat` or `call MyFile.bat call MyFile2.bat`. Paths can be absolute, or relative to the output folder.
 
 6. In the **Run the post-build event** box, specify under what conditions to run the post-build event.
 
@@ -62,7 +62,7 @@ Use build events to specify commands that run before the build starts or after t
 5. In the **Post-build event** section, specify the syntax of the build event.
 
    > [!NOTE]
-   > Add a `call` statement before all post-build commands that run *.bat* files. For example, `call MyFile.bat` or `call MyFile.bat call MyFile2.bat`. Paths can be absolute, or relative to the project folder.
+   > Add a `call` statement before all post-build commands that run *.bat* files. For example, `call MyFile.bat` or `call MyFile.bat call MyFile2.bat`. Paths can be absolute, or relative to the output folder.
 
 6. In the **When to run the post-build event** section, specify under what conditions to run the post-build event.
 
@@ -70,7 +70,7 @@ Use build events to specify commands that run before the build starts or after t
 
 ## Create the build event commands
 
-The build event commands can include any command that is valid at a command prompt or in a *.bat* file. The name of a batch file should be preceded by `call` to ensure that all subsequent commands are executed. The batch file itself runs from the output folder, for example, `bin/Debug`. If you need the same batch file for all configurations, you could put it in the same folder as the project file and use a relative path to it, for example, `call ../../prebuild.bat`.
+The build event commands can include any command that is valid at a command prompt or in a *.bat* file. Available commands are documented in the [Windows command reference](/windows-server/administration/windows-commands/windows-commands). The name of a batch file should be preceded by `call` to ensure that all subsequent commands are executed. The batch file itself runs from the output folder, for example, `bin/Debug`. If you need the same batch file for all configurations, you could put it in the same folder as the project file and use a relative path to it, for example, `call ../../prebuild.bat`.
 
 You can execute [PowerShell](/powershell/scripting/overview) scripts by entering a command like `PowerShell MyPowerShellScript.ps1`. The path to the PowerShell script may be absolute, or may be relative to the project directory. You would need to make sure that the execution policy for PowerShell scripts on your operating system is set appropriately in order to run the script. See [About execution policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
 
@@ -121,7 +121,7 @@ For guidance on the commands you can use in batch files, see [Windows commands](
 
 Commonly available "macros" (actually MSBuild properties) are listed at [MSBuild common properties](../msbuild/common-msbuild-project-properties.md). For .NET SDK projects (.NET Core or .NET 5 and later), additional properties are listed at [MSBuild properties for Microsoft.NET.Sdk](/dotnet/core/project-sdk/msbuild-props).
 
-In your scripts for build events, you might want to reference the values of some project-level variables such as the name of the project or the location of the output folder. In prior versions of Visual Studio, these were called *macros*. The equivalent to macros in recent versions of Visual Studio are MSBuild properties. MSBuild is the build engine that Visual Studio uses to process your project file when it performs a build. A build event in the IDE results in an MSBuild [target](../msbuild/msbuild-targets.md) in the project file. You can use any MSBuild property that is available in the target in your project file (for example, `$(OutDir)` or `$(Configuration)`) . The MSBuild properties that are available to you in these events depend on the files implicitly or explicitly imported in a project file, such `.props` and `.targets` files, and properties set in your project file, such as in `PropertyGroup` elements. Be careful to use the exact spelling of each property. No error is reported if you misspell a property; instead, an undefined property evaluates to an empty string.
+In your scripts for build events, you might want to reference the values of some project-level variables such as the name of the project or the location of the output folder. In prior versions of Visual Studio, these were called *macros*. The equivalent to macros in recent versions of Visual Studio are MSBuild properties. MSBuild is the build engine that Visual Studio uses to process your project file when it performs a build. A build event in the IDE results in an MSBuild [target](../msbuild/msbuild-targets.md) in the project file. You can use any MSBuild property that is available in the target in your project file (for example, `$(OutDir)` or `$(Configuration)`). The MSBuild properties that are available to you in these events depend on the files implicitly or explicitly imported in a project file, such `.props` and `.targets` files, and properties set in your project file, such as in `PropertyGroup` elements. Be careful to use the exact spelling of each property. No error is reported if you misspell a property; instead, an undefined property evaluates to an empty string.
 
 For example, suppose you specify a pre-build event as follows:
 

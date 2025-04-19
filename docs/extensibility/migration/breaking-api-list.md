@@ -8,7 +8,7 @@ ms.author: maiak
 manager: mijacobs
 ms.subservice: extensibility-integration
 monikerRange: "vs-2022"
-feedback_system: GitHub
+
 ---
 # Breaking API changes in Visual Studio 2022
 

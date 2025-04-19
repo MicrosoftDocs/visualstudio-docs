@@ -1,7 +1,7 @@
 ---
 title: Debug user code with Just My Code
 description: Just My Code is a debugging feature that automatically steps over calls to non-user code. Learn how to enable, disable, and use this feature.
-ms.date: 08/14/2023
+ms.date: 10/14/2024
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -123,7 +123,7 @@ If first chance exceptions are enabled for the exception, the calling user-code 
 Starting in Visual Studio 2017 version 15.8, Just My Code for code stepping is also supported. This feature also requires use of the [/JMC (Just my code debugging)](/cpp/build/reference/jmc) compiler switch. The switch is enabled by default in C++ projects. For **Call Stack** window and call stack support in Just My Code, the /JMC switch isn't required.
 
 <a name="BKMK_CPP_User_and_non_user_code"></a>
-To be classified as user code, the PDB for the binary containing the user code must be loaded by the debugger (use the **Modules** window to check this).
+To be classified as user code, the PDB for the binary containing the user code must be loaded by the debugger (use the **Modules** window to check loading status).
 
 For call stack behavior, such as in the **Call Stack** window, Just My Code in C++ considers only these functions to be *non-user code*:
 
@@ -249,111 +249,6 @@ A *.natstepfilter* file is an XML file with this syntax:
 ## <a name="BKMK_JavaScript_Just_My_Code"></a> JavaScript Just My Code
 
 <a name="BKMK_JS_User_and_non_user_code"></a>
-JavaScript Just My Code controls stepping and call stack display by categorizing code in one of these classifications:
+For *.esproj* projects in Visual Studio 2022, Visual Studio Code uses a *launch.json* file to configure and customize the debugger. *launch.json* is a debugger configuration file.
 
-|Classification|Description|
-|-|-|
-|**MyCode**|User code that you own and control.|
-|**LibraryCode**|Non-user code from libraries that you use regularly and your app relies on to function correctly (for example, jQuery).|
-|**UnrelatedCode**|Non-user code in your app that you don't own and your app doesn't rely on to function correctly. For example, an advertising SDK that displays ads could be UnrelatedCode.|
-
-The JavaScript debugger classifies code as user or non-user in this order:
-
-1. The default classifications.
-   - Script executed by passing a string to the host-provided `eval` function is **MyCode**.
-   - Script executed by passing a string to the `Function` constructor is **LibraryCode**.
-   - Script in a framework reference, such as WinJS or the Azure SDK, is **LibraryCode**.
-   - Script executed by passing a string to the `setTimeout`, `setImmediate`, or `setInterval` functions is **UnrelatedCode**.
-
-2. Classifications in the *mycode.json* file of the current project.
-
-Each classification step overrides the previous steps.
-
-All other code is classified as **MyCode**.
-
-You can modify the default classifications, and classify specific files and URLs as user or non-user code, by adding a *.json* file named *mycode.json* to the root folder of a JavaScript project. See [Customize JavaScript Just My Code](#BKMK_JS_Customize_Just_My_Code).
-
-<a name="BKMK_JS_Stepping_behavior"></a>
-During JavaScript debugging:
-
-- If a function is non-user code, **Debug** > **Step Into** (or **F11**) behaves the same as **Debug** > **Step Over** (or **F10**).
-- If a step begins in non-user (**LibraryCode** or **UnrelatedCode**) code, stepping temporarily behaves as if Just My Code isn't enabled. When you step back to user code, Just My Code stepping is re-enabled.
-- When a user code step results in leaving the current execution context, the debugger stops at the next executed user code line. For example, if a callback executes in **LibraryCode** code, the debugger continues until the next line of user code executes.
-- **Step Out** (or **Shift**+**F11**) stops on the next line of user code.
-
-If there's no more user code, debugging continues until it ends, hits another breakpoint, or throws an error.
-
-Breakpoints set in code are always hit, but the code is classified.
-
-- If the `debugger` keyword occurs in **LibraryCode**, the debugger always breaks.
-- If the `debugger` keyword occurs in **UnrelatedCode**, the debugger doesn't stop.
-
-<a name="BKMK_JS_Exception_behavior"></a>
-If an unhandled exception occurs in **MyCode** or **LibraryCode** code, the debugger always breaks.
-
-If an unhandled exception occurs in **UnrelatedCode**, and **MyCode** or **LibraryCode** is on the call stack, the debugger breaks.
-
-If first-chance exceptions are enabled for the exception, and the exception occurs in **LibraryCode** or **UnrelatedCode**:
-
-- If the exception is handled, the debugger doesn't break.
-- If the exception isn't handled, the debugger breaks.
-
-### <a name="BKMK_JS_Customize_Just_My_Code"></a> Customize JavaScript Just My Code
-
-To categorize user and non-user code for a single JavaScript project, you can add a *.json* file named *mycode.json* to the root folder of the project.
-
-The *mycode.json* file doesn't need to list all key value pairs. The **MyCode**, **Libraries**, and **Unrelated** values can be empty arrays.
-
-*Mycode.json* files use this syntax:
-
-```json
-{
-    "Eval" : "Classification",
-    "Function" : "Classification",
-    "ScriptBlock" : "Classification",
-    "MyCode" : [
-        "UrlOrFileSpec",
-        . . .
-        "UrlOrFileSpec"
-    ],
-    "Libraries" : [
-        "UrlOrFileSpec",
-        . .
-        "UrlOrFileSpec"
-    ],
-    "Unrelated" : [
-        "UrlOrFileSpec",
-        . . .
-        "UrlOrFileSpec"
-    ]
-}
-
-```
-
-**Eval, Function, and ScriptBlock**
-
-The **Eval**, **Function**, and **ScriptBlock** key value pairs determine how dynamically generated code is classified:
-
-|Name|Description|
-|-|-|
-|**Eval**|Script that is executed by passing a string to the host-provided `eval` function. By default, Eval script is classified as **MyCode**.|
-|**Function**|Script that is executed by passing a string to the `Function` constructor. By default, Function script is classified as **LibraryCode**.|
-|**ScriptBlock**|Script that is executed by passing a string to the `setTimeout`, `setImmediate`, or `setInterval` functions. By default, ScriptBlock script is classified as **UnrelatedCode**.|
-
-You can change the value to one of these keywords:
-
-- `MyCode` classifies the script as **MyCode**.
-- `Library` classifies the script as **LibraryCode**.
-- `Unrelated` classifies the script as **UnrelatedCode**.
-
-**MyCode, Libraries, and Unrelated**
-
-The **MyCode**, **Libraries**, and **Unrelated** key value pairs specify the URLs or files that you want to include in a classification:
-
-|Name|Description|
-|-|-|
-|**MyCode**|An array of URLs or files that are classified as **MyCode**.|
-|**Libraries**|An array of URLs or files that are classified as **LibraryCode**.|
-|**Unrelated**|An array of URLs or files that are classified as **UnrelatedCode**.|
-
-The URL or file string can have one or more `*` characters, which match zero or more characters. `*` is the same as the regular expression `.*`.
+Visual Studio attaches the debugger only to user code. For *.esproj* projects, you can configure user code (that is, *Just My Code* settings) in Visual Studio using the `skipFiles` setting in *launch.json*. This setting works the same as the *launch.json* settings in VS Code. For more information about *skipFiles*, see [Skipping Uninteresting Code](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_skipping-uninteresting-code).

@@ -48,7 +48,7 @@ In Step 1 of the tutorial, you learn how to:
 
 Django project templates in Visual Studio are included with all earlier versions of Python Tools for Visual Studio. The template details might differ from the descriptions in this tutorial series, especially for earlier versions of the Django web framework.
 
-Visual Studio for Mac isn't currently supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
+Visual Studio for Mac isn't supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
 ### Visual Studio projects and Django projects
 

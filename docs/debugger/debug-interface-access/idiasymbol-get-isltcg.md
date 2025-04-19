@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_isLTCG
 
 Retrieves a flag that specifies whether the [Compiland](../../debugger/debug-interface-access/compiland.md) has been linked with the linker switch [/LTCG (Link-time Code Generation)](/cpp/build/reference/ltcg-link-time-code-generation), which aids in whole program optimization. This switch applies only to managed code.

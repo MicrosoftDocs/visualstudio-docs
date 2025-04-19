@@ -1,7 +1,7 @@
 ---
 title: "Browse repos, compare branches & commits"
 description: Browse any Git repository in Visual Studio by using the Git Repository window to view local and remote branches and multiple branches at the same time.
-ms.date: 08/08/2023
+ms.date: 08/13/2024
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -23,7 +23,10 @@ To get started, open the **Git Repository** window by selecting **Git Repository
 
 The **Git Repository** window contains three main sections, as numbered in the preceding screenshot:
 
-1. **Branches**: Git empowers users to multitask and experiment with their code through branches. If you're working on multiple features at the same time or if you want to explore ideas without affecting your working code, branching can be helpful.
+1. **Branches / Tags**: Git empowers users to multitask and experiment with their code through branches. Branching in Git is helpful in several scenarios, especially when working on complex projects with multiple features or when collaborating with a team. With Visual Studio 17.13 and later, you can see tags in the repo, and navigate to any tag. Your team can use git tags (for example, `v1.0`), to mark points in the history of your repo and view the state of the repo at that point in history. See [Git - Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging).
+
+   :::image type="content" alt-text="Screenshot that shows git tags in the Git Repository window." source="./media/vs-2022/git-tags.png" lightbox="./media/vs-2022/git-tags.png" :::
+
 1. **Graph**: This section visualizes the state of your branch. It has three subsections:
 
    - **Incoming** shows incoming commits that your team has been contributing.
@@ -52,8 +55,6 @@ You can browse through any local or remote branch without having to switch your 
 :::image type="content" source="media/vs-2022/git-repository-multigraph-branch-view.png" alt-text="Screenshot of the multi-graph branch view in Visual Studio." lightbox="media/vs-2022/git-repository-multigraph-branch-view.png":::
 
 There's both line coloring and branch labels on the left side of the **Local History** view that help make it easier to trace which commits belong to each branch. You can use the list of branches at the top of the table to scroll between branches more easily and know immediately which branches appear in the graph.
-
-<a name="compare-commits"/>
 
 ## Compare commits
 

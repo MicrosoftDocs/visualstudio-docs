@@ -14,6 +14,8 @@ ms.author: ghogen
 
 This tutorial walks you through using Visual Studio to publish your containerized ASP.NET Core web application to an [Azure App Service](/azure/app-service). Azure App Service is an appropriate service for a single-container web app hosted in Azure.
 
+You can also deploy to [Azure Container Apps](/azure/container-apps/overview). For a tutorial, see [Deploy to Azure Container Apps using Visual Studio](/azure/container-apps/deploy-visual-studio).
+
 If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/dotnet/?utm_source=acr-publish-doc&utm_medium=docs&utm_campaign=docs) before you begin.
 
 ## Prerequisites
@@ -99,7 +101,10 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 
 1. You can use an existing app service or create a new one by clicking on the **Create new Azure App Service** link. Find your existing app service in the treeview by expanding its resource group, or change the **View** setting to **Resource type** to sort by type.
 
-   ![Screenshot showing choosing an App Service.](media/deploy-app-service/vs-2022/publish-app-service-linux-2.png)
+   ![Screenshot showing choosing an App Service.](media/deploy-app-service/vs-2022/publish-app-service-linux-1.png)
+
+   > [!NOTE]
+   > In Visual Studio 2022 version 17.11, the default authentication method used for publishing to Azure changed from basic authentication to using an access token for authentication. To use basic authentication with Visual Studio 17.11 or later, clear the checkbox **Enable secure publishing** (not recommended).
 
 1. If you create a new one, a resource group and app service will be generated in Azure. You can change the names if desired, as long as they are unique.
 

@@ -56,15 +56,23 @@ What are you deploying?
 
 If you need help configuring CI/CD for a GitHub repo for the first time, Visual Studio can help you get started with GitHub Action starter workflows. Learn more at [Deploy your application to Azure using GitHub Actions workflows created by Visual Studio](azure-deployment-using-github-actions.md). Read more about setting up CI/CD for deployment to Azure at [Continuous deployment to Azure App Service](/azure/app-service/deploy-continuous-deployment?tabs=github).
 
+## .NET Aspire
+
+[.NET Aspire](/dotnet/aspire) provides infrastructure for orchestrating services and components of observable, cloud-based apps. *Observable apps* are those that are set up to be thoroughly monitored in real-time while executing. .NET Aspire is particularly relevant during development time as a means of organizing and coordinating multiple services, databases, and other dependencies.
+
+Visual Studio 17.9 and later, with the **ASP.NET and web development** and **Azure development** workloads installed, includes the [.NET Aspire SDK](/dotnet/aspire/fundamentals/dotnet-aspire-sdk) and provides [project templates](/dotnet/aspire/fundamentals/aspire-sdk-templates?pivots=visual-studio) for .NET Aspire.
+
+ASP.NET Core projects include an option to enlist in Aspire orchestration at project creation time, and a context menu item, **Add** > **NET Aspire Orchestrator Support** in Solution Explorer that you can use to enlist a project in Aspire orchestration. These actions add Aspire orchestration projects (AppHost and ServiceDefaults) to the solution (unless already present). In Visual Studio 17.13 and later, this functionality is also supported for Azure Functions projects. For more detailed information, see [.NET Aspire tooling](/dotnet/aspire/fundamentals/setup-tooling?tabs=windows&pivots=visual-studio).
+
 ## Debug in Azure using Visual Studio
 
 You can use Visual Studio debug your application while it's running in Azure, so that you can identify and reproduce problems in an environment that is as close as possible to a production environment. For web apps hosted in Azure App Service, see [Remote debug ASP.NET Core on Azure App Service](../debugger/remote-debugging-azure-app-service.md). For Azure Functions, see [Develop Azure Functions with Visual Studio - Remote debugging](/azure/azure-functions/functions-develop-vs#remote-debugging?tabs=isolated-process).
 
-If you're using a virtual machine (VM) to host an ASP.NET Core web app, see [Remote debug ASP.NET Core on IIS using an Azure VM from Visual Studio](../debugger/remote-debugging-azure.md).
+If you're using a virtual machine (VM) to host an ASP.NET Core web app, see [Remote debug ASP.NET Core on Internet Information Services (IIS) using an Azure VM from Visual Studio](../debugger/remote-debugging-azure.md).
 
 ## Use integrated Azure features
 
-When running in the Azure cloud, apps can benefit from Azure's standards for high availability, [scaling up](/azure/app-service/manage-scale-up) and [scaling out](/azure/app-service/manage-automatic-scaling?tabs=azure-portal) capabilities, [monitoring](/azure/azure-monitor/app/asp-net), [load testing](/azure/load-testing/overview-what-is-azure-load-testing), and other benefits. Visual Studio comes integrated with Azure functionality like [Remote debugging](../debugger/remote-debugging.md), viewing logs, and more.
+When running in the Azure cloud, apps can benefit from the Azure standards for high availability, [scaling up](/azure/app-service/manage-scale-up) and [scaling out](/azure/app-service/manage-automatic-scaling?tabs=azure-portal) capabilities, [monitoring](/azure/azure-monitor/app/asp-net), [load testing](/azure/load-testing/overview-what-is-azure-load-testing), and other benefits. Visual Studio comes integrated with Azure functionality like [Remote debugging](../debugger/remote-debugging.md), viewing logs, and more.
 
 ## Save money with local emulation support
 

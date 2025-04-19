@@ -1,10 +1,10 @@
 ---
 title: Missing subscriptions
 description: The super admin or admin discovered some subscriptions removed, but they don't know who removed them.
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.topic: include
 ms.assetid: 002442ae-e4c0-4a05-853b-fb32516b1bbc
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 ms.date: 04/09/2024
 user.type: admin

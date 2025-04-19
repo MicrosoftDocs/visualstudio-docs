@@ -12,7 +12,13 @@ dev_langs:
 ---
 # Compile TypeScript code (Node.js)
 
-Use the TypeScript npm package to add TypeScript support to projects based on the JavaScript Project System (JSPS), or *.esproj*. Starting in Visual Studio 2019, it is recommended that you use the npm package instead of the TypeScript SDK. The TypeScript npm package provides greater portability across different platforms and environments.
+::: moniker range=">=vs-2022"
+Use the TypeScript npm package to add TypeScript support to projects based on the [JavaScript Project System (JSPS)](../javascript/javascript-in-visual-studio.md#project-templates), or *.esproj*. Starting in Visual Studio 2019, it's recommended that you use the npm package instead of the TypeScript SDK. The TypeScript npm package provides greater portability across different platforms and environments.
+::: moniker-end
+
+::: moniker range="vs-2019"
+Use the TypeScript npm package to add TypeScript support to Node.js projects (.njsproj). Starting in Visual Studio 2019, it's recommended that you use the npm package instead of the TypeScript SDK. The TypeScript npm package provides greater portability across different platforms and environments.
+::: moniker-end
 
 > [!IMPORTANT]
 > For ASP.NET Core projects, use the [NuGet package](../javascript/compile-typescript-code-nuget.md) instead of npm to add TypeScript support.
@@ -21,9 +27,19 @@ Use the TypeScript npm package to add TypeScript support to projects based on th
 
 The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds TypeScript support. When the npm package for TypeScript 2.1 or higher is installed into your project, the corresponding version of the TypeScript language service gets loaded in the editor.
 
-1. [Follow instructions](./tutorial-nodejs.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json) to install the Node.js development workload and the Node.js runtime.
+1. Check if you need to install any development workload for Visual Studio or the Node.js runtime.
+
+   ::: moniker range=">=vs-2022"
+   For projects created using the JavaScript Project System (JSPS), or *.esproj*, no additional workloads are needed. You just need to install npm (https://www.npmjs.com/), which is included with Node.js.
+
+   For the older project type (.njsproj), you need to install the Node.js development workload and the Node.js runtime.
+   ::: moniker-end
+
+   ::: moniker range="vs-2019"
+   [Follow instructions](./tutorial-nodejs.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json) to install the Node.js development workload and npm (https://www.npmjs.com/), which is included with Node.js.
 
    For a simple Visual Studio integration, create your project using one of the Node.js TypeScript templates, such as the Blank Node.js Web Application template. Else, use either a Node.js JavaScript template included with Visual Studio and follow instructions here. Or, use an [Open Folder](../javascript/develop-javascript-code-without-solutions-projects.md) project.
+   ::: moniker-end
 
 1. If your project doesn't already include it, install the [TypeScript npm package](https://www.npmjs.com/package/typescript).
 
@@ -92,9 +108,9 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
    }
    ```
 
+   ::: moniker range="vs-2019"
    For an example of using webpack with React and a webpack configuration file, see [Create a web app with Node.js and React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
 
-   ::: moniker range="vs-2019"
    For an example of using Vue.js with TypeScript, see [Create a Vue.js application](create-application-with-vuejs.md).
    ::: moniker-end
 
@@ -113,7 +129,13 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
 ### Run the application
 
+::: moniker range=">=vs-2022"
 For instructions to run the app after you compile it, see [Create a Node.js and Express app](../javascript/tutorial-nodejs.md#start-your-app).
+::: moniker-end
+
+::: moniker range="vs-2019"
+Press **Ctrl+F5** (or **Debug > Start Without Debugging**) to run the application.
+::: moniker-end
 
 ## Automate build tasks
 

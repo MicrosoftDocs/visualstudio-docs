@@ -1,12 +1,13 @@
 ---
 title: Efficient coding, debugging, & keyboard shortcuts
 description: Learn about the keyboard shortcuts and productivity features in Visual Studio that can help you efficiently write code, debug code, and handle errors.
-ms.date: 08/08/2023
+ms.date: 04/08/2025
 ms.topic: conceptual
 author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide
+zone_pivot_groups: programming-languages-set-three
 ---
 # Productivity guide for Visual Studio
 
@@ -14,6 +15,7 @@ If you want to save time while you're writing code, you're in the right place. T
 
 For information about helpful keyboard shortcuts, see [Productivity shortcuts](../ide/productivity-shortcuts.md). For a complete list of command shortcuts, see [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
+::: zone pivot="programming-language-csharp,programming-language-cpp,programming-language-vb,programming-language-all"
 ## Get started
 
 Save time digging through menus by quickly searching for anything you need, including commands, settings, documentation, and install options. See keyboard shortcuts for commands within your search results in Visual Studio so you can memorize them more easily.
@@ -21,14 +23,23 @@ Save time digging through menus by quickly searching for anything you need, incl
 - **Mock code using task list**. If you don't have enough requirements to complete a piece of code, use Task List to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that take you directly to a predefined location in code. For more information, see [Use the Task List](../ide/using-the-task-list.md).
 
 - **Use Solution Explorer shortcuts**. If you're new to Visual Studio, these shortcuts come in handy and save you time while you're coming up to speed on a new codebase. For the full list of shortcuts, see [Default keyboard shortcuts in Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_solutionexplorerGLOBAL).
+::: zone-end 
 
+::: zone pivot="programming-language-csharp"
+- **Use keyboard shortcuts from a different editor**. If you're coming from another IDE or coding environment, you can change your keyboard scheme to *Visual Studio Code* or *ReSharper (Visual Studio)* using **Tools > Options** settings for **Environment > Keyboard**. Some extensions also offer keyboard schemes: [HotKeys for Visual Studio (ReSharper/IntelliJ)](https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.HotKeys) and [VSVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim).
+::: zone-end
+
+::: zone pivot="programming-language-csharp,programming-language-cpp,programming-language-vb,programming-language-all"
 - **[Identify and customize keyboard shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)**. You can identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use. You can always find and change a keyboard shortcut in the Options dialog box.
 
 - **Make Visual Studio more accessible**. Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. See [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) for the full list of available features.
 
-- **Check out the Visual Studio Product Lifecycle and Servicing**. For information on how to get updates for Visual Studio, support options for Enterprise and Professional customers, support for older versions of Visual Studio, and components not covered by Visual Studio servicing, see [Visual Studio Product Lifecycle and Servicing](/visualstudio/productinfo/vs-servicing).
+- **Customize the appearance of the IDE**. To change themes and other visual aspects of the IDE, see [Change fonts, colors, and themes](../ide/how-to-change-fonts-and-colors-in-visual-studio.md).
 
-- **Install and manage NuGet packages in Visual Studio**. The NuGet Package Manager UI in Visual Studio on Windows allows you to easily install, uninstall, and update NuGet packages in projects and solutions. For more information, see [Install and manage packages in Visual Studio using the NuGet Package Manager](/nuget/consume-packages/install-use-packages-visual-studio).
+::: moniker range=">=vs-2022"
+- **Version Control** In Visual Studio 2022, you can use Git directly from the IDE to create, review, check out, and run pull requests. To learn more, see [How Visual Studio makes version control easy with Git](../version-control/git-with-visual-studio.md?view=vs-2022&preserve-view=true).
+::: moniker-end
+::: zone-end
 
 ## Write code
 
@@ -37,6 +48,10 @@ Write code more quickly by using the following features.
 - **Use convenience commands**. Visual Studio contains various commands to help you accomplish common editing tasks faster. For example, you can choose a command to easily duplicate a line of code without having to copy it, reposition the cursor, and then paste it. Choose **Edit** > **Duplicate** or press **Ctrl**+**E**,**V**. You can also quickly expand or contract a selection of text by choosing **Edit** > **Advanced** > **Expand Selection** or **Edit** > **Advanced** > **Contract Selection**, or by pressing **Shift**+**Alt**+**=** or **Shift**+**Alt**+**-**.
 
 - **Use IntelliSense**. As you enter code in the editor, IntelliSense information, such as List Members, Parameter Info, Quick Info, Signature Help, and Complete Word, appears. These features support fuzzy matching of text; for example, the results lists for List Members include not only entries that start with the characters that you have entered but also entries that contain the character combination anywhere in their names. For more information, see [Use IntelliSense](../ide/using-intellisense.md).
+
+::: moniker range=">=vs-2022"
+- **AI assistance**. If you're using [Copilot](../ide/visual-studio-github-copilot-install-and-states.md), get AI assistance to [help you write code](../ide/ai-assisted-development-visual-studio.md#ai-capabilities-side-by-side).
+::: moniker-end
 
 - **Change auto-insertion of IntelliSense options as you enter code**. By switching IntelliSense to suggestion mode, you can specify that IntelliSense options are inserted only if you explicitly choose them.
 
@@ -48,7 +63,7 @@ Write code more quickly by using the following features.
 
 - **[Paste JSON or XML as classes](reference/paste-json-xml.md)**. Copy any JSON or XML text fragment to the clipboard and then paste it as strongly typed .NET classes into any C# or Visual Basic code file. To do so, use **Edit** > **Paste Special** > **Paste JSON As Classes** (or **Paste XML As Classes**).
 
-- **Fix code errors inline**. Quick Actions let you easily refactor, generate, or otherwise modify code with a single action. These actions can be applied using the screwdriver ![Screwdriver icon](media/screwdriver-icon.png) or light bulb ![Light bulb icon](media/light-bulb-icon.png) icons, or by pressing **Alt**+**Enter** or **Ctrl**+**.** when your cursor is on the appropriate line of code. See [Quick Actions](quick-actions.md) for more information.
+- **Fix code errors inline**. Quick Actions let you easily refactor, generate, or otherwise modify code with a single action. These actions can be applied using the light bulb ![Light bulb icon](media/light-bulb-icon.png) or screwdriver ![Screwdriver icon](media/screwdriver-icon.png) icons, or by pressing **Alt**+**Enter** or **Ctrl**+**.** when your cursor is on the appropriate line of code. See [Quick Actions](quick-actions.md) for more information.
 
 - **Show and edit the definition of a code element**. You can quickly show and edit the module in which a code element, such as a member, a variable, or a local, is defined.
 
@@ -63,6 +78,26 @@ Write code more quickly by using the following features.
 ::: moniker range=">=vs-2022" 
 - [**Try automatic copy and trim indentation**](writing-code-in-the-code-and-text-editor.md#copy-and-paste-code). Copy code from Visual Studio to another program (Outlook, Teams, etc.), without having to manually fix indentation after you paste your code. Available in Visual Studio 2022 [version 17.7](/visualstudio/releases/2022/release-notes) and later.
 ::: moniker-end 
+
+::: zone pivot="programming-language-csharp"
+::: moniker range=">=vs-2022" 
+- **Enforce code style rules** You can use an EditorConfig file to codify coding conventions and have them travel with your source. Add a default or .NET-style EditorConfig file to your project by choosing **Add** > **New Item** from the [Add context menu fly-out](use-solution-explorer.md#the-add-menu) in Solution Explorer. Then, in the **Add New Item** dialog box, search for "editorconfig". Select either of the **editorconfig File** item templates and then choose **Add**.
+::: moniker-end
+::: zone-end
+
+::: zone pivot="programming-language-csharp"
+- **Apply code styles with code cleanup** Visual Studio provides on-demand formatting of your code file, including code style preferences, through the Code Cleanup feature. To run Code Cleanup, select the broom icon at the bottom of the editor or press **Ctrl+K, Ctrl+E**. For detailed instructions, see [Code style preferences](../ide/code-styles-and-code-cleanup.md).
+::: zone-end
+
+::: zone pivot="programming-language-csharp,programming-language-cpp,programming-language-vb"
+::: moniker range=">=vs-2022" 
+- **Write or generate unit tests** Test Explorer automatically discovers unit tests written using supported test frameworks. You can use Copilot or built-in features to generate unit tests. For more information, see [Unit test basics](../test/unit-test-basics.md) and [Create unit test method stubs from code](../test/create-unit-tests-menu.md). 
+::: moniker-end
+::: zone-end
+
+::: zone pivot="programming-language-csharp,programming-language-vb"
+- **Install and manage NuGet packages in Visual Studio**. NuGet is a mechanism through which developers can create, share, and consume useful code. The NuGet Package Manager UI in Visual Studio on Windows allows you to easily install, uninstall, and update NuGet packages in projects and solutions. For more information, see [Install and manage packages in Visual Studio using the NuGet Package Manager](/nuget/consume-packages/install-use-packages-visual-studio).
+::: zone-end
 
 ## Navigate within your code and the IDE
 
@@ -84,9 +119,13 @@ You can use various techniques to find and move to specific locations in your co
 
 - **See frequently used files with Edit/Go to Recent File**. Use the Go To commands in Visual Studio to perform a focused search of your code to help you quickly find specified items. For  detailed instructions, see [Find code using Go To commands](../ide/go-to.md).
 
+- **Jump to any file, type, member, or symbol declaration.** Visual Studio has a feature called **Go To All** that you can use to quickly find the code you want. For  detailed instructions, see [Find code using Go To commands](../ide/go-to.md).
+
+- **Synchronize Solution Explorer** For large solutions, use the **Sync with Active Document** button in Solution Explorer to find the active document within the project hierarchy. 
+
 - **Move the [Properties window](../ide/reference/properties-window.md) to the right-hand side**. If you're looking for a more familiar window layout, you can move the Properties window in Visual Studio by pressing **F4**.
 
-## Find items faster
+## Find commands, files, and options faster
 
 You can search across the IDE for commands, files, and options, in addition to filtering the contents of tool windows to show only relevant information for your current task.
 
@@ -106,13 +145,13 @@ Debugging can take time, but the following tips can help you speed up the proces
 
 - **Use the Visual Studio debugger tools**. In the Visual Studio context, when you *debug your app*, it usually means that you're running the application in debugger mode. The debugger provides many ways to see what your code is doing while it runs. See [First look at the Visual Studio Debugger](../debugger/debugger-feature-tour.md) for a guide to getting started.
 
-- **Set temporary breakpoints**. You can create a temporary breakpoint in the current line of code and start the debugger simultaneously. When you hit that line of code, the debugger enters break mode. For more information, see [Navigate through code with the debugger](../debugger/navigating-through-code-with-the-debugger.md).
+::: moniker range=">=vs-2022"
+- **AI assistance**. If you're using [Copilot](../ide/visual-studio-github-copilot-install-and-states.md), get AI assistance to [help you debug code](../debugger/debug-with-copilot.md).
+::: moniker-end
+
+- **Set different types of breakpoints**. You can create a temporary breakpoint in the current line of code and start the debugger simultaneously. When you hit that line of code, the debugger enters break mode. For more information, see [Use the right type of breakpoint](../debugger/using-breakpoints.md).
 
     To use this feature, choose the **Ctrl**+**F10** keys, or open the shortcut menu for the line of code on which you want to break, and then choose **Run To Cursor**.
-
-- **Move the execution point during debugging**. You can move the current execution point to a different section of code and then restart debugging from that point. This technique is useful if you want to debug a section of code without having to recreate all of the steps that are required to reach that section. For more information, see [Navigate through code with the debugger](../debugger/navigating-through-code-with-the-debugger.md).
-
-     To move the execution point, drag the yellow arrowhead  to a location where you want to set the next statement in the same source file, and then choose the **F5** key to continue debugging.
 
 - **Capture value information for variables**. You can add a DataTip to a variable in your code and pin it so that you can access the last known value for the variable after debugging has finished. For more information, see [View data values in Data Tips](../debugger/view-data-values-in-data-tips-in-the-code-editor.md).
 

@@ -9,7 +9,7 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial
-ms.date: 03/16/2023
+ms.date: 10/18/2024
 ms.custom: vs-acquisition
 ---
 # Tutorial: Add reference variables and a timer control to your matching game WinForms app
@@ -38,7 +38,7 @@ Complete those tutorials first.
 In this section, you'll add two *reference variables* to your code.
 They keep track of, or refer to Label objects.
 
-1. Add label references to your form by using the following code.
+1. Add label references to your form by using the following code in `Form1.cs` or `Form1.vb`.
 
    ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step5/cs/form1.cs" id="Snippet5":::
@@ -46,13 +46,13 @@ They keep track of, or refer to Label objects.
    ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step5/vb/form1.vb" id="Snippet5":::
    ---
-
-   [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
+   
+   If you're using C#, put the code after the opening curly brace and just after the class declaration (`public partial class Form1 : Form`). If you're using Visual Basic, put the code right after the class declaration (`Public Class Form1`).
 
    These statements don't cause Label controls to appear on the form because there's no `new` keyword.
    When the program starts, both `firstClicked` and `secondClicked` are set to `null` for C# or `Nothing` for Visual Basic.
 
-2. Modify your <xref:System.Windows.Forms.Control.Click> event handler to use the new `firstClicked` reference variable.
+2. Modify your <xref:System.Windows.Forms.Control.Click> event handler in `Form1.cs` or `Form1.vb` to use the new `firstClicked` reference variable.
    Remove the last statement in the `label1_Click()` event handler method (`clickedLabel.ForeColor = Color.Black;`) and replace it with the `if` statement as follows.
 
    ### [C#](#tab/csharp)
@@ -96,7 +96,7 @@ If the icons don't match, it hides the two icons again after a short period of t
    Your program calls the <xref:System.Windows.Forms.Timer.Start> method to start the timer after the player chooses the second label.
 
 4. Choose the timer control icon and then press **Enter**, or double-click the timer.
-   The IDE adds an empty Tick event handler.
+   The IDE adds an empty Tick event handler to `Form1.cs` or `Form1.vb`.
    Replace the code with the following code.
 
    ### [C#](#tab/csharp)
@@ -111,7 +111,7 @@ If the icons don't match, it hides the two icons again after a short period of t
    - It uses two reference variables, `firstClicked` and `secondClicked`, to make the icons of the two labels that the player chose invisible again.
    - It resets the `firstClicked` and `secondClicked` reference variables to `null` in C# and `Nothing` in Visual Basic.
 
-5. Go to the code editor and add code to the top and bottom of the `label1_Click()` event handler method. 
+5. Go to the code editor and add code to the top and bottom of the `label1_Click()` event handler method in `Form1.cs` or `Form1.vb`. 
    This code will check if the timer is enabled, set the `secondClicked` reference variable, and start the timer.
    The `label1_Click()` event handler method now looks as follows:
 

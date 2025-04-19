@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::findInlineFramesByRVA
 
 Retrieves an enumeration that allows a client to iterate through all of the inline frames on a specified relative virtual address (RVA).
@@ -17,7 +18,7 @@ Retrieves an enumeration that allows a client to iterate through all of the inli
 ## Syntax
 
 ```C++
-HRESULT findInlineFramesByRVA (    DWORD             rva,
+HRESULT findInlineFramesByRVA (    DWORD             rva,
    IDiaEnumSymbols** ppResult
 );
 ```

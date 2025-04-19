@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_isMultipleInheritance
 
 Specifies whether the `this` pointer points to a data member with multiple inheritance.

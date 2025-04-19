@@ -1,5 +1,5 @@
 ---
-description: "Retrieves source files by compiland and name."
+description: Retrieves source files by compiland and name.
 title: "IDiaSession::findFile"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findFile
 
 Retrieves source files by compiland and name.
@@ -19,7 +20,7 @@ Retrieves source files by compiland and name.
 ## Syntax
 
 ```C++
-HRESULT findFile ( 
+HRESULT findFile ( 
    IDiaSymbol*           pCompiland,
    LPCOLESTR             name,
    DWORD                 option,

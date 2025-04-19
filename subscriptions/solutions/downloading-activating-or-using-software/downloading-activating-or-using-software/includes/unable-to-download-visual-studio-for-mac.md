@@ -1,10 +1,10 @@
 ---
 title: Unable to download or activate Visual Studio for Mac
 description: Unable to download or activate Visual Studio for Mac from Visual Studio Subscriptions
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.topic: include
 ms.assetid: afb945a3-b08e-4a9f-92d9-660f5657686b
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 ms.date: 05/16/2024
 user.type: subscriber
@@ -12,6 +12,11 @@ tags: download, activate
 subscription.type: vl, cloud, retail, partner
 sap.id: 53a7a6d4-7755-352a-5a65-715d78af84bf
 ---
+
+> [!IMPORTANT]
+> Visual Studio for Mac was retired on August 31, 2024 in accordance with Microsoft’s [Modern Lifecycle Policy](/lifecycle/policies/modern).
+>  
+> [Learn more about support timelines and alternatives](/visualstudio/mac/what-happened-to-vs-for-mac).
 
 ## I'm unable to download or activate Visual Studio for Mac
 

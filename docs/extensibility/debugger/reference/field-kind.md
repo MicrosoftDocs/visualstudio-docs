@@ -1,6 +1,6 @@
 ---
-description: "Specifies the kind of field contained in an IDebugField object."
 title: FIELD_KIND
+description: "Specifies the kind of field contained in an IDebugField object."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -223,7 +223,7 @@ Indicates a mask for symbol information.
 ## Remarks
 Returned from a call to the [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md) method.
 
-Depending on the kind of field, [QueryInterface](/cpp/atl/queryinterface) can be called on the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface for a more specific form of interface. For example, if [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md) returns `FIELD_TYPE_METHOD`, you can then call `QueryInterface` on I`DebugField` to obtain the [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md) interface.
+Depending on the kind of field, [QueryInterface](/cpp/atl/queryinterface) can be called on the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface for a more specific form of interface. For example, if [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md) returns `FIELD_TYPE_METHOD`, you can then call `QueryInterface` on `IDebugField` to obtain the [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md) interface.
 
 ## Requirements
 Header: sh.h

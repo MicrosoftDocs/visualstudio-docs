@@ -48,7 +48,7 @@ The following table shows the MSBuild properties available for Dockerfile projec
 | ContainerDevelopmentMode | Controls whether "build-on-host" optimization ("Fast Mode" debugging) is enabled. Allowed values are **Fast** and **Regular**. | Fast |1.0.1872750 or newer|
 | ContainerVsDbgPath | The path for VSDBG debugger. | `%USERPROFILE%\vsdbg\vs2017u5` |1.0.1985401 or newer|
 | DockerDebuggeeArguments | When debugging, the debugger is instructed to pass these arguments to the launched executable. | Not applicable to ASP.NET .NET Framework projects |1.7.8 or newer|
-| DockerDebuggeeProgram | When debugging, the debugger is instructed to launch this executable. | For .NET Core and .NET 5 and later projects: dotnet, ASP.NET .NET Framework projects: Not applicable (IIS is always used) |1.7.8 or newer|
+| DockerDebuggeeProgram | When debugging, the debugger is instructed to launch this executable. | For .NET Core and .NET 5 and later projects: dotnet, ASP.NET .NET Framework projects: Not applicable (Internet Information Services (IIS) is always used) |1.7.8 or newer|
 | DockerDebuggeeKillProgram | This command is used to kill the running process in a container. | Not applicable to ASP.NET .NET Framework projects |1.7.8 or newer|
 | DockerDebuggeeWorkingDirectory | When debugging, the debugger is instructed to use this path as the working directory. | C:\app (Windows) or /app (Linux) |1.7.8 or newer|
 | DockerDefaultTargetOS | The default target operating system used when building the Docker image. | Set by Visual Studio. |1.0.1985401 or newer|

@@ -1,9 +1,9 @@
 ---
 title: Concierge Chat benefit in Visual Studio subscription
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 06/15/2023
+ms.date: 09/11/2024
 ms.topic: how-to
 description:  Learn about the Concierge Chat benefit included in Visual Studio subscriptions.
 ---

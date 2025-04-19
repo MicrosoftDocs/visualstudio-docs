@@ -2,7 +2,7 @@
 title: Work with multiple repositories
 titleSuffix: ""
 description: View, manage, and debug your code across 10 active repos at the same time by using the Git tooling within Visual Studio.
-ms.date: 04/04/2024
+ms.date: 03/14/2025
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
@@ -19,6 +19,8 @@ Now, you can have up to 25 active Git repositories at one time in Visual Studio.
 
 > [!NOTE]
 > To see multi-repository support in action, view the [Use multiple Git repositories in Visual Studio](https://www.youtube.com/watch?v=ctnlQzX2YwI&t=34s) video on YouTube.
+
+If you have more than one GitHub account, you can easily switch between them. See [Add your GitHub accounts to your keychain](../ide/work-with-github-accounts.md). You might have access to different repos when you're signed in with a different account. Visual Studio automatically updates the git configuration to track which account is used for each repo, so you don't have to worry about this while you're working.
 
 ## Branch management and track changes
 

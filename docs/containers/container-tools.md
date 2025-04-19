@@ -3,7 +3,7 @@ title: Visual Studio Container Tools with ASP.NET
 author: ghogen
 description: Use Visual Studio Container Tools and Docker for Windows to build and debug containerized apps and publish to a container registry, Docker Hub, or Azure App Service.
 ms.author: ghogen
-ms.date: 11/16/2023
+ms.date: 12/3/2024
 ms.subservice: container-tools
 ms.topic: quickstart
 ---
@@ -55,14 +55,13 @@ Visual Studio creates a *Dockerfile* in your project, which provides the recipe 
 ```dockerfile
 #See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-#Depending on the operating system of the host machines(s) that will build or run the containers, the image specified in the FROM statement may need to be changed.
-#For more information, please see https://aka.ms/containercompat
-
+# This stage is used when running from VS in fast mode (Default for Debug configuration)
 FROM mcr.microsoft.com/dotnet/aspnet:8.0-nanoserver-1809 AS base
 WORKDIR /app
 EXPOSE 8080
 EXPOSE 8081
 
+# This stage is used to build the service project
 FROM mcr.microsoft.com/dotnet/sdk:8.0-nanoserver-1809 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
@@ -72,10 +71,12 @@ COPY . .
 WORKDIR "/src/MyWebApp"
 RUN dotnet build "./MyWebApp.csproj" -c %BUILD_CONFIGURATION% -o /app/build
 
+# This stage is used to publish the service project to be copied to the final stage
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
 RUN dotnet publish "./MyWebApp.csproj" -c %BUILD_CONFIGURATION% -o /app/publish /p:UseAppHost=false
 
+# This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
@@ -104,7 +105,7 @@ The **Container Tools** option in the **Output** window shows what actions are t
 
 After the build completes, the browser opens and displays your app's home page. In the browser address bar, you can see the `localhost` URL and port number for debugging.
 
->[!NOTE]
+> [!NOTE]
 > If you need to change ports for debugging, you can do that in the `launchSettings.json` file. See [Container Launch Settings](container-launch-settings.md).
 
 ## Containers window
@@ -164,5 +165,6 @@ You can now pull the container from the registry to any host capable of running 
 ## Additional resources
 
 - [Container development with Visual Studio](./index.yml)
+- [Create a multi-container app with Docker Compose](tutorial-multicontainer.md)
 - [Troubleshoot Visual Studio development with Docker](troubleshooting-docker-errors.md)
 - [Visual Studio Container Tools GitHub repository](https://github.com/Microsoft/DockerTools)

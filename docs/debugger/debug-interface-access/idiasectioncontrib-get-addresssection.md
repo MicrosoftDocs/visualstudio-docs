@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the section part of the contribution's address."
+description: Retrieves the section part of the contribution's address.
 title: "IDiaSectionContrib::get_addressSection"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_addressSection
 
 Retrieves the section part of the contribution's address.
@@ -19,7 +20,7 @@ Retrieves the section part of the contribution's address.
 ## Syntax
 
 ```C++
-HRESULT get_addressSection ( 
+HRESULT get_addressSection ( 
    DWORD* pRetVal
 );
 ```

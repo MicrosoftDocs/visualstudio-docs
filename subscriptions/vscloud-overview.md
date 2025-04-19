@@ -1,9 +1,9 @@
 ---
 title: Purchase Visual Studio cloud subscriptions
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/06/2024
+ms.date: 09/11/2024
 ms.topic: overview
 description: Purchase (rent) Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
 ---
@@ -85,7 +85,7 @@ A: Microsoft is no longer offering annual cloud subscriptions. Go to [https://vi
 
 A: We provide monthly subscriptions and standard subscriptions in our direct sales channels. For more information, check out [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/).
 There are also many options through our volume licensing program. You can research the options and prices on
-[https://www.microsoft.com/en-us/licensing/how-to-buy/how-to-buy](https://www.microsoft.com/en-us/licensing/how-to-buy/how-to-buy).
+[https://www.microsoft.com/licensing/how-to-buy/how-to-buy](https://www.microsoft.com/licensing/how-to-buy/how-to-buy).
 
 #### Q: The price for a retail subscription is higher. What extra benefits am I receiving?
 

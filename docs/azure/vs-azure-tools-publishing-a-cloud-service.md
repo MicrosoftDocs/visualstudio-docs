@@ -1,6 +1,6 @@
 ---
 title: Publishing a Cloud Service using the Azure Tools
-description: Learn about how to publish Azure cloud service projects by using Visual Studio.
+description: Learn about how to publish Azure Cloud Services (extended support) projects by using Visual Studio.
 author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
@@ -27,6 +27,7 @@ Use the following procedures to publish your Azure application and to update a w
 
 ## Prerequisites
 
+- Visual Studio (see [Visual Studio downloads] (https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)) with the **Azure development** workload installed, and the Individual Component **.NET Framework project and item templates** installed. See [Modify Visual Studio](../install/modify-visual-studio.md).
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Publish or package an Azure application from Visual Studio
@@ -48,8 +49,6 @@ When you publish your Azure application, you can do one of the following tasks:
    1. In the **Package Azure Application** dialog box, choose the service configuration for which you want to create a package, and then choose the build configuration.
 
    1. (Optional) To turn on Remote Desktop for the cloud service after you publish it, select **Enable Remote Desktop for all Roles**, and then select **Settings** to configure Remote Desktop credentials. For more information, see [Enable Remote Desktop Connection for a Role in Azure Cloud Services using Visual Studio](/azure/cloud-services/cloud-services-role-enable-remote-desktop-visual-studio).
-
-      If you want to debug your cloud service after you publish it, turn on remote debugging by selecting **Enable Remote Debugger for all Roles**.
 
    1. To create the package, choose the **Package** link.
 
@@ -79,7 +78,10 @@ The following procedure assumes that you are using the **Publish Azure Applicati
 
 ### Enable Web Deploy when you publish your application
 
-1. To enable the **Enable Web Deploy for all web roles** option, you must first configure remote desktop connections. Select **Enable Remote Desktop** for all roles and then supply the credentials that is used to connect remotely in the **Remote Desktop Configuration** box that appears. See [Enable Remote Desktop Connection for a Role in Azure Cloud Services using Visual Studio](/azure/cloud-services/cloud-services-role-enable-remote-desktop-visual-studio).
+> [!NOTE]
+> Web Deploy is not supported for Azure Cloud Services (extended support).
+
+1. To enable the **Enable Web Deploy for all web roles** option, you must first configure remote desktop connections. Select **Enable Remote Desktop** for all roles and then supply the credentials that is used to connect remotely in the **Remote Desktop Configuration** box that appears. See [Enable Remote Desktop Connection for a Role in Azure Cloud Services (extended support) using Visual Studio](/azure/cloud-services/cloud-services-role-enable-remote-desktop-visual-studio).
 
 1. To enable Web Deploy for all the web roles in your application, select **Enable Web Deploy for all web roles**.
 
@@ -118,7 +120,7 @@ The following procedure assumes that you are using the **Publish Azure Applicati
 
 1. To add a trusted SSL certificate to IIS to use for remote connections, follow these steps:
 
-   1. To connect to the virtual machine that is running the web role, select the instance of the web role in **Cloud Explorer** or **Server Explorer**, and then choose the **Connect using Remote Desktop** command. For detailed steps about how to connect to the virtual machine, see [Enable Remote Desktop Connection for a Role in Azure Cloud Services using Visual Studio](/azure/cloud-services/cloud-services-role-enable-remote-desktop-visual-studio). Your browser prompts you to download an `.rdp` file.
+   1. To connect to the virtual machine that is running the web role, select the instance of the web role in **Cloud Explorer** or **Server Explorer**, and then choose the **Connect using Remote Desktop** command. For detailed steps about how to connect to the virtual machine, see [Enable Remote Desktop Connection for a Role in Azure Cloud Services (extended support) using Visual Studio](/azure/cloud-services/cloud-services-role-enable-remote-desktop-visual-studio). Your browser prompts you to download an `.rdp` file.
 
    1. To add an SSL certificate, open the management service in IIS Manager. In IIS Manager, enable SSL by opening the **Bindings** link in the **Action** pane. The **Add Site Binding** dialog box appears. Choose **Add**, and then choose HTTPS in the **Type** dropdown list. In the **SSL certificate** list, choose the SSL certificate that you had signed by a CA and that you uploaded to the Azure portal. For more information, see [Configure Connection Settings for the Management Service](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770458(v=ws.10)).
 

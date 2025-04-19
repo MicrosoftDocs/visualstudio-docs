@@ -3,9 +3,9 @@ title: Purchasing, renewing, canceling, or billing
 description: Review frequently asked questions (FAQs) for admins about purchasing Visual Studio subscriptions, renewing or canceling subscriptions, and billing for subscriptions.
 ms.faqid: Section4
 ms.topic: conceptual
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 02/15/2021
+ms.date: 09/25/2024
 ---
 
 # Purchasing, renewing, canceling, or billing 

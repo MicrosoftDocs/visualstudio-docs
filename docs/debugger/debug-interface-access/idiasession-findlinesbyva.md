@@ -1,7 +1,7 @@
 ---
-description: "Retrieves the line number information for lines contained in a specified virtual address (VA) range."
+description: Retrieves the line number information for lines contained in a specified virtual address (VA) range.
 title: "IDiaSession::findLinesByVA"
-ms.date: "11/04/2016"
+ms.date: "07/22/2024"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -12,7 +12,8 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
-# IDiaSession::findLinesByVA
+
+# `IDiaSession::findLinesByVA`
 
 Retrieves the line number information for lines contained in a specified virtual address (VA) range.
 
@@ -27,6 +28,7 @@ HRESULT findLinesByVA (
 ```
 
 #### Parameters
+
 `va`
 
 [in] Specifies the address as a VA.
@@ -37,7 +39,7 @@ HRESULT findLinesByVA (
 
 `ppResult`
 
-[out] Returns an [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md) object that contains a list of all the line numbers that cover the specified address range.
+[out] Returns an [`IDiaEnumLineNumbers`](../../debugger/debug-interface-access/idiaenumlinenumbers.md) object that contains a list of all the line numbers that cover the specified address range.
 
 ## Example
 This example shows a function that obtains all line numbers contained in a function using the function's virtual address and length.
@@ -59,5 +61,5 @@ IDiaEnumLineNumbers *GetLineNumbersByVA(IDiaSymbol *pFunc, IDiaSession *pSession
 ```
 
 ## See also
-- [IDiaEnumLineNumbers](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
-- [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+- [`IDiaEnumLineNumbers`](../../debugger/debug-interface-access/idiaenumlinenumbers.md)
+- [`IDiaSession`](../../debugger/debug-interface-access/idiasession.md)

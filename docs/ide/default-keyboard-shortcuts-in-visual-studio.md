@@ -1,7 +1,7 @@
 ---
 title: Keyboard shortcuts
 description: Learn about the default keyboard shortcuts in Visual Studio that allow you to access a variety of commands and windows.
-ms.date: 05/21/2024
+ms.date: 09/9/2024
 ms.topic: reference
 helpviewer_keywords:
 - shortcut keys [Visual Studio], keyboard binding schemes
@@ -25,6 +25,8 @@ For a list of common keyboard shortcuts and other productivity information, see:
 
 For more information about accessibility in Visual Studio, see [Accessibility tips and tricks](../ide/reference/accessibility-tips-and-tricks.md) and [How to: Use the keyboard exclusively](../ide/reference/how-to-use-the-keyboard-exclusively.md).
 
+The keyboard shortcuts in Visual Studio may vary depending on your keyboard layout and language settings. You can [identify the keyboard shortcut for a command](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md#identify-a-keyboard-shortcut) or [customize your keyboard shortcut](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md#customize-a-keyboard-shortcut). See the [Dev Community ticket](https://developercommunity.visualstudio.com/t/Issue-with-New-Ctrl---Comment-Shortc/10725157?q=keyboard+language&ftype=idea&stateGroup=active) related to this issue for more information.
+
 ## Printable shortcut cheatsheet
 
 Click to get our [printable keyboard shortcut cheatsheet for Visual Studio](https://visualstudio.microsoft.com/keyboard-shortcuts.pdf).
@@ -39,7 +41,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 > [!TIP]
 > You can [look up the shortcut](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md) for any command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**.
 
-- [Build](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_build-popular-shortcuts)
+- [Build](#bkmk_build-popular-shortcuts)
 - [Debug](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debug-popular-shortcuts)
 - [Edit](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_edit-popular-shortcuts)
 - [File](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_file-popular-shortcuts)
@@ -124,6 +126,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Toggle all outlining|**Ctrl+M, Ctrl+L** [Text Editor]| Edit.ToggleAllOutlining |
 |Toggle bookmark|**Ctrl+K, Ctrl+K** [Text Editor]| Edit.ToggleBookmark |
 |Toggle completion mode|**Ctrl+Alt+Space** [Text Editor]| Edit.ToggleCompletionMode |
+|Toggle line comment|**Ctrl+/** [Text Editor] <br>(available in [Visual Studio 2022 version 17.11 or later](/visualstudio/releases/2022/release-notes))<br /><br />or **Ctrl+K, Ctrl+/** [Text Editor] | Edit.ToggleLineComment |
 |Toggle outlining expansion|**Ctrl+M, Ctrl+M** [Text Editor]| Edit.ToggleOutliningExpansion |
 |Uncomment selection|**Ctrl+K, Ctrl+U** [Text Editor]| Edit.UncommentSelection |
 |Undo|**Ctrl+Z**<br /><br />or **Alt+Backspace**| Edit.Undo |

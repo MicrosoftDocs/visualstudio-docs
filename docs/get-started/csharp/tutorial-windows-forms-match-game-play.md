@@ -48,8 +48,6 @@ Those labels continue to be displayed.
   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step7/vb/form1.vb" id="Snippet9":::
   ---
 
-  [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
-
   The `if` statement checks whether the icon in the first label that the player chooses is the same as the icon in the second label.
   If the icons are the same, the program runs its three statements.
   The first two statements reset the `firstClicked` and `secondClicked` reference variables.

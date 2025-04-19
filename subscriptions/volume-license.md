@@ -1,9 +1,9 @@
 ---
 title: Access Admin Portal for Volume License customers
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/17/2023
+ms.date: 09/11/2024
 ms.topic: conceptual
 description: Access the Visual Studio subscriptions Admin Portal as an admin on a Volume License agreement and manage subscriptions and other admins as the super admin.
 ---

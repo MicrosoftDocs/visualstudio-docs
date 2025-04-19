@@ -1,7 +1,7 @@
 ---
 title: Add data sources in ADO.NET apps (.NET Framework)
-description: Add .NET Framework data sources by using ADO.NET in Visual Studio and connect your application to information in a data store.
-ms.date: 06/01/2023
+description: Explore how to add .NET Framework data sources by using ADO.NET in Visual Studio and connect your application to information in a data store.
+ms.date: 08/29/2024
 ms.topic: how-to
 f1_keywords:
 - vs.datasource.datasourcefieldspicker
@@ -12,111 +12,202 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
+
+#customer intent: As a developer, I want to add .NET Framework data sources with ADO.NET in Visual Studio, so I can connect data stores to my application.
 ---
 
-# Add new data sources in ADO.NET applications (.NET Framework)
+# Add data sources in ADO.NET applications (.NET Framework)
+
+When you work with .NET data tools in Visual Studio, you can add *data sources* (.NET objects) to connect your .NET application to information in data stores. The Visual Studio designers can consume the data source output to generate boilerplate code that binds the data to forms when you drag and drop database objects from the **Data Sources** window.
+
+Examples of data sources include:
+
+- A class in an Entity Framework model associated with some kind of database
+
+- A dataset associated with some kind of database
+
+- A class that represents a network service, such as a Windows Communication Foundation (WCF) data service or a REST service
+
+- A class that represents a SharePoint service
+
+- A class or collection in your solution
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
-> [!NOTE]
-> The features described in this article apply to .NET Framework Windows Forms and WPF development. The features are not supported for .NET Core development, for both WPF and Windows Forms.
+## Prerequisites
 
-In the context of .NET data tools in Visual Studio, the term *data source* refers to .NET objects that connect to a data store and make the data available to a .NET application. The Visual Studio designers can consume the output of the data source to generate the boilerplate code that binds the data to forms when you drag and drop database objects from the **Data Sources** window. This kind of data source can be:
+- An application that implements Windows Forms or Windows Presentation Format (WPF) objects that target .NET Framework. You can create this type of application by using a template in Visual Studio when your installation includes the **.NET Desktop development** workload. For more information, see [Modify Visual Studio workloads, components, and language packs](../install/modify-visual-studio.md).
 
-- A class in an Entity Framework model that is associated with some kind of database.
+   > [!IMPORTANT]
+   > The features described in this article aren't supported for **.NET Core** development for WPF or Windows Forms.
 
-- A dataset that is associated with some kind of database.
+- The application must use data-binding features: datasets, the Entity Framework, the Language Integrated Query (LINQ) to SQL, a WCF data service, or SharePoint.
 
-- A class that represents a network service such as a Windows Communication Foundation (WCF) data service or a REST service.
+   > [!TIP]
+   > When the application doesn't use one or more of these components, the concept of a "data source" doesn't apply. In these scenarios, you can connect directly to the database by using [SqlCommand class](/dotnet/api/system.data.sqlclient.sqlcommand?view=netframework-4.8.1&preserve-view=true) objects.
 
-- A class that represents a SharePoint service.
+## Work with data sources and Windows forms
 
-- A class or collection in your solution.
+You create and edit data sources for .NET Framework by using the **Data Source Configuration Wizard** in a Windows Forms or WPF application. You can create a data source from a database, a service, an object, or from a SharePoint list:
 
-> [!NOTE]
-> If you're not using data-binding features, datasets, Entity Framework, LINQ to SQL, WCF, or SharePoint, the concept of a "data source" does not apply. Just connect directly to the database by using the SQLCommand objects and communicate directly with the database.
+:::image type="content" source="./media/data-source-configuration-wizard.png" border="false" alt-text="Screenshot that shows the Data Source Configuration Wizard in Visual Studio.":::
 
-You create and edit data sources by using the **Data Source Configuration Wizard** in a Windows Forms or Windows Presentation Foundation application. For Entity Framework, first create your entity classes, and then start the wizard by selecting **Project** > **Add New Data Source** (described in more detail later in this article).
+After you create data sources, they're visible in the **Data Sources** window. When your project is open in Visual Studio, you can access this window by selecting **View** > **Other Windows** > **Data Sources**. You can also use the **Shift**+**Alt**+**D** keyboard shortcut.
 
-![Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png)
+In a Windows Forms project that targets **.NET Framework** (not .NET Core or .NET 5 or later), you can drag a data source from the **Data Sources** window onto a Windows form design surface or control. Some examples of how you can connect a data source with a form include:
 
-## Data Sources window
+- Drag a table to get a [BindingNavigator](/dotnet/desktop/winforms/controls/bindingnavigator-control-overview-windows-forms) and a [DataGridView](/dotnet/desktop/winforms/controls/datagridview-control-windows-forms) for the table.
 
-After you create a data source, it appears in the **Data Sources** tool window.
+- Drag a specific column to get a BindingNavigator with a [Label](/dotnet/desktop/winforms/controls/label-control-windows-forms) and [TextBox](/dotnet/desktop/winforms/controls/textbox-control-windows-forms) for the column.
 
-> [!TIP]
-> To open the **Data Sources** window, make sure your project is open, and then press **Shift**+**Alt**+**D** or choose **View** > **Other Windows** > **Data Sources**.
+- Drag all the table columns to get a complete data viewing form for the table.
 
-In a Windows Forms project targeting the .NET Framework (not .NET Core or .NET 5 or later), you can drag a data source from the **Data Sources** window onto a form design surface or control. If you drag a table, you get a [BindingNavigator](/dotnet/desktop/winforms/controls/bindingnavigator-control-overview-windows-forms) and a [DataGridView](/dotnet/desktop/winforms/controls/datagridview-control-windows-forms) for the table. If you drag an individual column, you get a BindingNavigator and a [Label](/dotnet/desktop/winforms/controls/label-control-windows-forms) and a [TextBox](/dotnet/desktop/winforms/controls/textbox-control-windows-forms) for that column. Drag the columns to get a complete data viewing form for a table. These actions cause boilerplate code to be generated that displays the data from the data store.
+These actions trigger Visual Studio to generate boilerplate code that displays the data from the data store. The following example shows a dataset dropped onto a Windows form. If you select **F5** on the application, the data from the underlying database appears in the form's controls.
 
-The following illustration shows a dataset that has been dropped onto a Windows form. If you select **F5** on the application, the data from the underlying database appears in the form's controls.
-
-:::moniker range="<=vs-2019"
-![Screenshot showing Data Source drag operation.](../data-tools/media/raddata-data-source-drag-operation.png)
-:::moniker-end
 :::moniker range=">=vs-2022"
-![Screenshot showing Data Source drag operation.](../data-tools/media/vs-2022/data-sources-drag-operation.png)
+
+:::image type="content" source="./media/vs-2022/data-sources-drag-operation.png" border="false" alt-text="Screenshot that shows how to drag a dataset onto a Windows form in Visual Studio 2022.":::
+
+:::moniker-end
+:::moniker range="<=vs-2019"
+
+:::image type="content" source="./media/raddata-data-source-drag-operation.png" alt-text="Screenshot that shows how to drag a dataset onto a Windows form in Visual Studio 2019 and earlier.":::
+
 :::moniker-end
 
-## Data source for a database or a database file
+## Create data source from database or database file
 
-You can create a dataset or an Entity Framework model to use as a data source for a database or database file.
+You can create a dataset or an Entity Framework model to use as a data source for a database or database file with the **Data Source Configuration Wizard**. If your configuration uses Entity Framework, first create your [Entity classes](#create-entity-framework-model-as-data-source), and then use the wizard to create data sources.
 
-### Dataset
+### Create dataset as data source
 
-To create a dataset as a data source, run the **Data Source Configuration Wizard** by selecting **Project** > **Add New Data Source**. Choose the **Database** data-source type, and follow the prompts to specify either a new or existing database connection, or a database file.
+The **Data Source Configuration Wizard** provides the option to create a data source by connecting to a database. You can choose the database objects to use as the dataset for your application.
 
-### Entity classes
+Follow these steps to create a dataset as a data source:
 
-To create an Entity Framework model as a data source:
+1. In Visual Studio, select **Project** > **Add New Data Source** to open the **Data Source Configuration Wizard**.
 
-1. Run the **Entity Data Model Wizard** to create the entity classes. Select **Project** > **Add New Item** > **ADO.NET Entity Data Model**.
+1. For the type of data source, select **Database**.
 
-   ![New Entity Framework model project item](../data-tools/media/raddata-new-entity-framework-model-project-item.png)
+1. For the database model, select **Dataset**.
 
-1. Choose the method you want to generate the model by.
+1. Follow the prompts to specify a new or existing database connection, or a database file.
 
-   ![Entity Data Model Wizard](../data-tools/media/raddata-entity-data-model-wizard.png)
+1. Select the database objects to include in the dataset, and complete the wizard.
 
-1. Add the model as a data source. The generated classes appear in the **Data Source Configuration Wizard** when you choose the **Objects** category.
+For detailed instructions to complete the wizard, see [Create and configure datasets in .NET Framework with Visual Studio](create-and-configure-datasets-in-visual-studio.md).
 
-   ![Data Source Configuration Wizard with Entity Classes](../data-tools/media/raddata-data-source-configuration-wizard-with-entity-classes.png)
+### Create Entity Framework model as data source
 
-## Data source for a service
+When your configuration uses Entity Framework, you first create your Entity classes and then use the **Data Source Configuration Wizard** to create the data source.
 
-To create a data source from a service, run the **Data Source Configuration Wizard** and choose the **Service** data-source type. This action is just a shortcut to the **Add Service Reference** dialog box, which you can also access by right-clicking the project in **Solution Explorer** and selecting **Add service reference**.
+Follow these steps to create an Entity Framework model as a data source with the **Entity Data Model Wizard**:
 
-When you create a data source from a service, Visual Studio adds a service reference to your project. Visual Studio also creates proxy objects that correspond to the objects that the service returns. For example, a service that returns a dataset is represented in your project as a dataset; a service that returns a specific type is represented in your project as the type returned.
+1. Select **Project** > **Add New Item**. The **Add New Item** dialog opens.
+
+1. In the dialog, select the **ADO.NET Entity Data Model** template, enter a name for the model instance, and select **Add**:
+
+   :::image type="content" source="./media/raddata-new-entity-framework-model-project-item.png" border="false" alt-text="Screenshot that shows how to create a new ADO.NET Entity Data Model by using the Add New Item dialog.":::
+
+   The **Entity Data Model Wizard** opens.
+
+1. In the wizard, choose the method to generate the Entity Framework model:
+
+   - **EF Designer from database**: Creates a model in the Entity Framework Designer based on an existing database. You can choose the database connection, settings for the model, and database objects to include in the model. The classes your application interacts with are generated from the model.
+
+   - **Empty EF Designer model**: Creates an empty model in the Entity Framework Designer as a starting point for visually designing your model. Later, you can generate a database from your model. The classes your application interacts with are generated from the model.
+
+   - **Empty Code First model**: Creates an empty [Code First](https://entityframeworkcore.com/approach-code-first) model as a starting point for designing your model by using code. Later, you can generate a database from your model.
+
+   - **Code First from database**: Creates a Code First model based on an existing database. You can choose the database connection, settings for the model, and database objects to include in the model.
+
+   :::image type="content" source="./media/raddata-entity-data-model-wizard.png" border="false" alt-text="Screenshot that shows the options for generating the new model in the Entity Data Model wizard.":::
+
+   After you make your choice, select **Next** to continue in the wizard.
+
+1. Add the model as the data source for your application, and complete the wizard.
+
+   For detailed instructions to complete the wizard, see [Create Model Classes with the Entity Framework (C#)](/aspnet/mvc/overview/older-versions-1/models-data/creating-model-classes-with-the-entity-framework-cs).
+
+1. After you generate classes for the model, you can create a data source from an object with the **Data Source Configuration Wizard**.
+
+   - Select the tables (or individual columns), stored procedures, functions, and views from the model for use in the dataset.
+
+      :::image type="content" source="./media/raddata-data-source-configuration-wizard-with-entity-classes.png" alt-text="Screenshot that shows the generated Entity classes for the model in the Data Source Configuration Wizard.":::
+
+   For detailed instructions, see [Create data source from object](#create-data-source-from-object).
+
+## Create data source from service
+
+The **Data Source Configuration Wizard** supports creating a data source from a service. In this approach, Visual Studio adds a service reference to your project and creates proxy objects that correspond to objects returned by the service. When a service returns a dataset, the service is represented in your project as a dataset. If the service returns a specific type, the service is represented in your project as the returned type.
 
 You can create a data source from the following types of services:
 
 - [WCF Data Services](/dotnet/framework/data/wcf/wcf-data-services-overview)
 
-- [WCF services](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)
+- [WCF services](windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)
 
 - Web services
 
-    > [!NOTE]
-    > The items that appear in the **Data Sources** window are dependent on the data that the service returns. Some services might not provide enough information for the **Data Source Configuration Wizard** to create bindable objects. For example, if the service returns an untyped dataset, no items appear in the **Data Sources** window when you complete the wizard. This is because untyped datasets do not provide a schema, and therefore the wizard doesn't have enough information to create the data source.
+> [!NOTE]
+> Items in the **Data Sources** window are dependent on the data returned by the service. Some services might not provide enough information for the **Data Source Configuration Wizard** to create bindable objects. After you complete the wizard, if the service returns an untyped dataset, no items appear in the **Data Sources** window. Untyped datasets don't provide a schema, so the wizard doesn't have enough information to create the data source.
 
-## Data source for an object
+Follow these steps to create a data source from a service:
 
-You can create a data source from any object that exposes one or more public properties by running the **Data Source Configuration Wizard** and then selecting the **Object** data-source type. All public properties of an object are displayed in the **Data Sources** window. If you're using Entity Framework and have generated a model, this is where you find the entity classes that are the data sources for your application.
+1. In Visual Studio, select **Project** > **Add New Data Source** to open the **Data Source Configuration Wizard**.
 
-On the **Select the Data Objects** page, expand the nodes in the tree view to locate the objects that you want to bind to. The tree view contains nodes for your project and for assemblies and other projects that are referenced by your project.
+1. For the type of data source, select **Service**.
 
-If you want to bind to an object in an assembly or project that doesn't appear in the tree view, click **Add Reference** and use the **Add Reference Dialog Box** to add a reference to the assembly or project. After you add the reference, the assembly or project is added to the tree view.
+   The **Add Service Reference** dialog opens. You can also access this dialog by right-clicking your project in **Solution Explorer** and selecting **Add service reference**.
+
+For detailed instructions to complete the wizard, see [Create and configure datasets in .NET Framework with Visual Studio](create-and-configure-datasets-in-visual-studio.md).
+
+## Create data source from object
+
+The **Data Source Configuration Wizard** also lets you create a data source from any object that exposes one or more public properties.
+
+All public properties of an object are visible in the **Data Sources** window. If you're using Entity Framework with a generated model, this window shows the entity classes that are the data sources for your application.
 
 > [!NOTE]
-> You might need to build the project that contains your objects before the objects appear in the tree view.
+> To support drag-and-drop data binding, objects that implement the <xref:System.ComponentModel.ITypedList> or <xref:System.ComponentModel.IListSource> interface must have a default constructor. Otherwise, Visual Studio can't instantiate the data-source object and shows an error when you drag the item to the design surface.
+
+Follow these steps to create a data source from an object:
+
+1. In Visual Studio, select **Project** > **Add New Data Source** to open the **Data Source Configuration Wizard**.
+
+1. For the type of data source, select **Object**.
+
+1. On the **Select the Data Objects** page, expand the nodes in the tree view to locate the objects that you want to bind to.
+
+   The tree view contains nodes for your project and for assemblies and other projects referenced by your project.
+
+   1. To bind to an object in an assembly or project that doesn't appear in the tree view, select **Add Reference**.
+
+   1. Use the **Reference Manager** dialog to add a reference to the assembly or project. After you add the reference, Visual Studio adds the assembly or project to the tree view.
+
+   > [!NOTE]
+   > You might need to build the project that contains your objects before the objects appear in the tree view.
+
+For detailed instructions to complete the wizard, see [Create and configure datasets in .NET Framework with Visual Studio](create-and-configure-datasets-in-visual-studio.md).
+
+## Create data source from SharePoint list
+
+You can also use the **Data Source Configuration Wizard** to crate a data source from a SharePoint list. SharePoint exposes data through WCF Data Services, so creating a SharePoint data source is the same as creating a data source from a service.
 
 > [!NOTE]
-> To support drag-and-drop data binding, objects that implement the <xref:System.ComponentModel.ITypedList> or <xref:System.ComponentModel.IListSource> interface must have a default constructor. Otherwise, Visual Studio cannot instantiate the data-source object, and it displays an error when you drag the item to the design surface.
+> This approach requires the SharePoint SDK.
 
-## Data source for a SharePoint list
+Follow these steps to create a data source from a SharePoint list:
 
-You can create a data source from a SharePoint list by running the **Data Source Configuration Wizard** and selecting the **SharePoint** data-source type. SharePoint exposes data through WCF Data Services, so creating a SharePoint data source is the same as creating a data source from a service. Selecting the **SharePoint** item in the **Data Source Configuration Wizard** opens the **Add Service Reference** dialog box, where you connect to the SharePoint data service by pointing to the SharePoint Server. This action requires the SharePoint SDK.
+1. In Visual Studio, select **Project** > **Add New Data Source** to open the **Data Source Configuration Wizard**.
+
+1. For the type of data source, select **SharePoint**.
+
+1. Use the **Add Service Reference** dialog to connect to the SharePoint data service by pointing to the SharePoint Server.
+
+For detailed instructions to complete the wizard, see [Create and configure datasets in .NET Framework with Visual Studio](create-and-configure-datasets-in-visual-studio.md).
 
 ## Related content
 
-- [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)
+- Explore [Visual Studio data tools for .NET](visual-studio-data-tools-for-dotnet.md)
+- [Create and configure datasets in .NET Framework with Visual Studio](create-and-configure-datasets-in-visual-studio.md)

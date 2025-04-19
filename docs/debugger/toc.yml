@@ -40,7 +40,9 @@
   items:
   - name: Navigation
     href: navigating-through-code-with-the-debugger.md
-  - name: Breakpoints
+  - name: Get started with breakpoints
+    href: get-started-with-breakpoints.md
+  - name: Use the right type of breakpoint
     href: using-breakpoints.md
   - name: Move the execution pointer
     href: move-the-execution-pointer-with-the-debugger.md
@@ -56,6 +58,8 @@
     href: autos-and-locals-windows.md
   - name: Set a watch on variables
     href: watch-and-quickwatch-windows.md
+  - name: View data values in data tips
+    href: view-data-values-in-data-tips-in-the-code-editor.md
   - name: Expressions in the debugger
     items:
     - name: Use debugger expressions
@@ -68,8 +72,6 @@
       href: format-specifiers-in-csharp.md
     - name: Pseudovariables
       href: pseudovariables.md
-  - name: View data values in DataTips
-    href: view-data-values-in-data-tips-in-the-code-editor.md
   - name: View string values in a visualizer
     href: view-strings-visualizer.md
   - name: View .NET collections in a tabular visualizer
@@ -166,6 +168,8 @@
       items:
       - name: Create custom views of C++ objects
         href: create-custom-views-of-native-objects.md
+      - name: Implement NatVis custom intrinsic function
+        href: implementing-natvis-intrinsic-function.md
       - name: C++ custom visualizer compatibility
         href: visual-cpp-custom-visualizer-compatibility.md
     - name: Custom views (.NET)
@@ -226,8 +230,6 @@
           href: supported-code-changes-csharp.md
       - name: Edit and Continue (Visual Basic)
         href: edit-and-continue-visual-basic.md
-      - name: Edit and Continue not supported for F#
-        href: edit-and-continue-not-supported-for-f-hash.md
     - name: XAML Hot Reload
       items:
       - name: Write and debug running XAML code
@@ -290,6 +292,8 @@
         href: error-unable-to-connect-to-the-machine-name-the-machine-cannot-be-found-on-the-network.md
       - name: Remote machine does not appear in a Remote Connections dialog
         href: error-remote-machine-does-not-appear-in-a-remote-connections-dialog.md
+      - name: Adapt to removal of Windows Arm32 .NET debugging
+        href: adapt-to-removal-of-windows-arm32-dotnet-debugging.md
   - name: Attach to process
     items:
     - name: Attach to running processes with the debugger
@@ -362,36 +366,10 @@
     items:
     - name: 64-Bit applications
       href: debug-64-bit-applications.md
-    - name: UWP apps
-      items:
-      - name: Debug UWP apps >>
-        href: /windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps
-      - name: Debug UWP apps on a remote machine
-        href: run-windows-store-apps-on-a-remote-machine.md
-      - name: Run UWP apps in the simulator
-        href: run-windows-store-apps-in-the-simulator.md
-      - name: Deploy UWP apps from Visual Studio
-        href: deploy-windows-store-apps-from-visual-studio.md
-      - name: Debug an installed app package
-        href: debug-installed-app-package.md
-      - name: Inspect XAML properties while debugging >>
-        href: ../xaml-tools/inspect-xaml-properties-while-debugging.md
-      - name: Write and debug running XAML code >>
-        href: ../xaml-tools/xaml-hot-reload.md
-      - name: Debug XAML in Blend >>
-        href: ../xaml-tools/debug-xaml-in-blend.md
-      - name: How to trigger suspend, resume, and background events
-        href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
     - name: .NET
       items:
-      - name: Debugging preparation
-        items:
-        - name: Recommended property settings
-          href: managed-debugging-recommended-property-settings.md
-        - name: 'Debugging preparation: Windows Forms applications'
-          href: debugging-preparation-windows-forms-applications.md
-        - name: 'Debugging preparation: Windows services'
-          href: debugging-preparation-windows-services.md
+      - name: Recommended property settings
+        href: managed-debugging-recommended-property-settings.md
       - name: Send messages to the Output window
         href: diagnostic-messages-in-the-output-window.md
       - name: Assertions in managed code
@@ -426,6 +404,26 @@
           href: how-to-debug-the-onstart-method.md
       - name: F#
         href: debugging-f-hash.md
+    - name: UWP apps
+      items:
+      - name: Debug UWP apps >>
+        href: /windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps
+      - name: Debug UWP apps on a remote machine
+        href: run-windows-store-apps-on-a-remote-machine.md
+      - name: Run UWP apps in the simulator
+        href: run-windows-store-apps-in-the-simulator.md
+      - name: Deploy UWP apps from Visual Studio
+        href: deploy-windows-store-apps-from-visual-studio.md
+      - name: Debug an installed app package
+        href: debug-installed-app-package.md
+      - name: Inspect XAML properties while debugging >>
+        href: ../xaml-tools/inspect-xaml-properties-while-debugging.md
+      - name: Write and debug running XAML code >>
+        href: ../xaml-tools/xaml-hot-reload.md
+      - name: Debug XAML in Blend >>
+        href: ../xaml-tools/debug-xaml-in-blend.md
+      - name: How to trigger suspend, resume, and background events
+        href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
     - name: C/C++ code
       items:
       - name: Debug native code
@@ -434,6 +432,8 @@
         href: debugging-preparation-visual-cpp-project-types.md
       - name: Debug optimized code
         href: how-to-debug-optimized-code.md
+      - name: C++ Dynamic Debugging
+        href: cpp-dynamic-debugging.md
       - name: DebugBreak and __debugbreak
         href: debugbreak-and-debugbreak.md
       - name: C/C++ assertions
@@ -674,49 +674,19 @@
         href: using-spy-increment.md
       - name: Spy++ toolbar
         href: spy-increment-toolbar.md
-    - name: Views in Spy++
-      items:
-      - name: Windows
-        items:
-        - name: Windows view
-          href: windows-view.md
-        - name: Use Windows view
-          href: how-to-use-windows-view.md
+      - name: Use Windows view
+        href: how-to-use-windows-view.md
       - name: Messages
         items:
-        - name: Messages view
-          href: messages-view.md
         - name: Use Messages view
           href: how-to-use-messages-view.md
         - name: Message codes
           href: message-codes.md
-      - name: Processes
-        items:
-        - name: Processes view
-          href: processes-view.md
-        - name: Search for a process
-          href: how-to-search-for-a-process-in-processes-view.md
-      - name: Threads
-        items:
-        - name: Threads view
-          href: threads-view.md
-        - name: Search for a thread
-          href: how-to-search-for-a-thread-in-threads-view.md
+      - name: Search for a process
+        href: how-to-search-for-a-process-in-processes-view.md
+      - name: Search for a thread
+        href: how-to-search-for-a-thread-in-threads-view.md
     - name: Spy++ reference
       items:
       - name: Spy++ reference overview
         href: spy-increment-reference.md
-      - name: Spy++ menu commands
-        href: menu-commands.md
-      - name: Search tools for Spy++ views
-        href: search-tools-for-spy-increment-views.md
-      - name: Window Properties dialog box
-        href: window-properties-dialog-box.md
-      - name: Message Options dialog box
-        href: message-options-dialog-box.md
-      - name: Message Properties dialog box
-        href: message-properties-dialog-box.md
-      - name: Process Properties dialog box
-        href: process-properties-dialog-box.md
-      - name: Thread Properties dialog box
-        href: thread-properties-dialog-box.md

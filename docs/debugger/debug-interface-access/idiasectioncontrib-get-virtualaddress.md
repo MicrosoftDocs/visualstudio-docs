@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the virtual address (VA) of the contribution."
+description: Retrieves the virtual address (VA) of the contribution.
 title: "IDiaSectionContrib::get_virtualAddress"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_virtualAddress
 
 Retrieves the virtual address (VA) of the contribution.
@@ -19,7 +20,7 @@ Retrieves the virtual address (VA) of the contribution.
 ## Syntax
 
 ```C++
-HRESULT get_virtualAddress ( 
+HRESULT get_virtualAddress ( 
    ULONGLONG* pRetVal
 );
 ```

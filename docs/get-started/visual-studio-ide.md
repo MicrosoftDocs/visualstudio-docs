@@ -66,6 +66,19 @@ Learn more about all the features in the IDE that help you organize and edit con
 - [Organize code](tutorial-projects-solutions.md)
 - [Tips and tricks](../ide/productivity-features.md)
 
+### AI-assisted development
+
+[GitHub Copilot](../ide/visual-studio-github-copilot-extension.md), [GitHub Copilot Chat](../ide/visual-studio-github-copilot-chat.md), and [IntelliCode](../ide/intellicode-visual-studio.md) assist developers in writing code faster and with greater accuracy, help develop a deeper understanding of the codebase, and help with other development tasks such as writing unit tests, [debugging](../debugger/debug-with-copilot.md), and profiling.
+
+Learn more about [AI-assisted development](../ide/ai-assisted-development-visual-studio.md) in Visual Studio:
+
+Get started with GitHub Copilot in Visual Studio:
+
+- [Install and manage GitHub Copilot](../ide/visual-studio-github-copilot-install-and-states.md)
+- [Use GitHub Copilot Completions in Visual Studio](../ide/visual-studio-github-copilot-extension.md)
+- [Use GitHub Copilot Chat in Visual Studio](../ide/visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio)
+- [Debug with Copilot](../debugger/debug-with-copilot.md)
+
 ### Build your app
 
 You can compile and build your applications to create builds immediately and test them in a debugger. You can run multi-processor builds for C++ and C# projects. Visual Studio also provides several options that you can configure when you build applications. You can create a custom build configuration in addition to the built-in configurations, hide certain warning messages, or increase build output information.
@@ -123,16 +136,6 @@ Learn more about how to [deploy your app using Visual Studio](/visualstudio/depl
 
 - [Deploy your app from Visual Studio](../deployment/deploying-applications-services-and-components.md)
 - [Deploy your app to a folder, a web server, Azure, or another destination](../deployment/deploying-applications-services-and-components-resources.md)
-
-### AI-assisted development
-
-[GitHub Copilot](../ide/visual-studio-github-copilot-extension.md), [GitHub Copilot Chat](../ide/visual-studio-github-copilot-chat.md), and [IntelliCode](../ide/intellicode-visual-studio.md) assist developers in writing code faster and with greater accuracy, help develop a deeper understanding of the codebase, and help with other development tasks such as writing unit tests, [debugging](../debugger/debug-with-copilot.md), and profiling.
-
-Learn more about [AI-assisted development](../ide/ai-assisted-development-visual-studio.md) in Visual Studio:
-
-- [Use GitHub Copilot in Visual Studio](../ide/visual-studio-github-copilot-extension.md)
-- [Use GitHub Copilot Chat in Visual Studio](../ide/visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio)
-- [Debug with Copilot](../debugger/debug-with-copilot.md)
 
 ## Choose your Visual Studio edition
 

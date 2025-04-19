@@ -9,10 +9,12 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting.Indentation
 - VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting
 - VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting.General
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
+monikerRange: vs-2019
 ---
 # Options, Text Editor, U-SQL, Formatting
 

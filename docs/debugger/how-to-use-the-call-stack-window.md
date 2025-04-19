@@ -1,7 +1,7 @@
 ---
 title: View the call stack in the debugger
 description: Use the Call Stack window in the Visual Studio integrated development environment (IDE) to view the function or procedure calls that are currently on the stack.
-ms.date: 02/21/2024
+ms.date: 02/28/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.callstack
@@ -107,7 +107,7 @@ In the **Call Stack** window, select the function, right-click, and then choose 
 
 ## Set a breakpoint on the exit point of a function call
 
-See [Set a breakpoint at a call stack function](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_from_debugger_windows).
+See [Set a breakpoint at a call stack function](../debugger/get-started-with-breakpoints.md#BKMK_Set_a_breakpoint_from_debugger_windows).
 
 ## Display calls to or from another thread
 

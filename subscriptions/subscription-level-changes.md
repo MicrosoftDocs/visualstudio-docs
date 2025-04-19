@@ -1,9 +1,9 @@
 ---
 title: Effects of changing Visual Studio subscription levels | Visual Studio Marketplace
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/19/2024
+ms.date: 09/11/2024
 ms.topic: conceptual
 description: Learn about the effects of upgrading or downloading your Visual Studio subscription level.
 ---

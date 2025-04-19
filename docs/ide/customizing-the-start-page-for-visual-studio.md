@@ -1,7 +1,7 @@
 ---
 title: Change the startup experience
 description: Customize your startup experience so Visual Studio opens with the tools that are most useful to you, such as opening the most recently opened solution. 
-ms.date: 06/05/2023
+ms.date: 10/25/2024
 ms.topic: conceptual
 f1_keywords:
 - vs.ToolsOptionsPages.Startup
@@ -34,8 +34,11 @@ You can customize the startup experience for Visual Studio in several different 
 
 1. On the menu bar, select **Tools** > **Options**.
 
-2. Expand **Environment**, and then select **General**.
+1. Expand **Environment**, and then select **General**.
 
-3. In the **On startup, open** list, select what you want to happen after Visual Studio launches. You can choose from **Start window** (where you can open a new or existing project), **Most recent solution**, or **Empty environment**.
+1. In the **On startup, open** list, select what you want to happen after Visual Studio launches. You can choose from **Start window** (where you can open a new or existing project), **Most recent solution**, or **Empty environment**.
+
+   :::image type="content" source="media/vs-2022/environment-startup-experience.png" alt-text="Screenshot of the options to customize the startup experience in Visual Studio.":::
+
 
 ::: moniker-end

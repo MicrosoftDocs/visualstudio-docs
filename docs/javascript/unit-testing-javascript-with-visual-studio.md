@@ -1,7 +1,7 @@
 ---
 title: "Unit testing JavaScript and TypeScript"
 description: Explore unit testing support in Visual Studio for JavaScript and TypeScript code by using the Node.js Tools for Visual Studio.
-ms.date: "11/16/2023"
+ms.date: "12/06/2024"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -15,11 +15,22 @@ dev_langs:
 
 You can write and run unit tests in Visual Studio using some of the more popular JavaScript frameworks without the need to switch to a command prompt. Both Node.js and ASP.NET Core projects are supported.
 
+::: moniker range=">=vs-2022"
 The supported frameworks are:
 - Mocha ([mochajs.org](https://mochajs.org/))
 - Jasmine ([Jasmine.github.io](https://jasmine.github.io/))
 - Tape ([github.com/substack/tape](https://github.com/substack/tape))
 - Jest ([jestjs.io](https://jestjs.io/))
+- Vitest ([vitest.dev](https://vitest.dev/))
+::: moniker-end
+
+::: moniker range="<=vs-2019"
+The supported frameworks are:
+- Mocha ([mochajs.org](https://mochajs.org/))
+- Jasmine ([Jasmine.github.io](https://jasmine.github.io/))
+- Tape ([github.com/substack/tape](https://github.com/substack/tape))
+- Jest ([jestjs.io](https://jestjs.io/))
+::: moniker-end
 
 ::: moniker range="<=vs-2019"
 If your favorite framework is not supported, see [Add support for a unit test framework](#addingFramework) for information on adding support.
@@ -28,12 +39,13 @@ If your favorite framework is not supported, see [Add support for a unit test fr
 ::: moniker range=">=vs-2022"
 ## Write unit tests for a CLI-based project (.esproj)
 
-The [CLI-based projects](../javascript/javascript-in-vs-2022.md#project-templates) supported in Visual Studio 2022 work with Test Explorer. Jest is the built-in test framework for React and Vue projects, and Karma and Jasmine is used for Angular projects. By default, you will be able to run the default tests provided by each framework, as well as any additional tests you write.  Just hit the **Run** button in Test Explorer. If you don’t already have Test Explorer open, you can find it by selecting **Test** > **Test Explorer** in the menu bar.
+The [CLI-based projects](../javascript/javascript-in-vs-2022.md#project-templates) supported in Visual Studio 2022 work with Test Explorer. Vitest is the built-in test framework for React and Vue projects (previously Jest), and Karma and Jasmine is used for Angular projects. By default, you will be able to run the default tests provided by each framework, as well as any additional tests you write.  Just hit the **Run** button in Test Explorer. If you don’t already have Test Explorer open, you can find it by selecting **Test** > **Test Explorer** in the menu bar.
 
 To run unit tests from the command-line, right-click the project in Solution Explorer, choose **Open in Terminal**, and run the command specific to the test type.
 
 For information on setting up unit tests, see the following:
 
+- [Testing with Vitest](https://vitest.dev/guide/)
 - [Testing React with Jest](https://jestjs.io/docs/tutorial-react)
 - [Angular testing](https://angular.io/guide/testing)
 - [Testing Vue.js](https://vuejs.org/guide/scaling-up/testing.html#unit-testing)
@@ -42,7 +54,7 @@ A simple example is also provided here. However, use the preceding links for com
 
 ### Add a unit test (.esproj)
 
-The following example is based on the TypeScript React project template provided in Visual Studio 2022 version 17.8 or later, which is the **Standalone TypeScript React Project** template. For Vue and Angular, the steps are similar.
+The following example is based on the TypeScript React project template provided in Visual Studio 2022 version 17.12 or later, which is the **Standalone TypeScript React Project** template. For Vue and Angular, the steps are similar.
 
 1. In Solution Explorer, right-click the React project and choose **Edit Project File**.
 
@@ -51,29 +63,31 @@ The following example is based on the TypeScript React project template provided
    ```xml
    <PropertyGroup>
      <JavaScriptTestRoot>src\</JavaScriptTestRoot>
-     <JavaScriptTestFramework>Jest</JavaScriptTestFramework>
+     <JavaScriptTestFramework>Vitest</JavaScriptTestFramework>
    </PropertyGroup> 
    ```
 
-   This example specifies Jest as the test framework. You could specify Mocha, Tape, or Jasmine instead.
+   This example specifies Vitest as the test framework. You could specify Mocha, Tape, Jasmine, or Jest instead.
 
-   The `JavaScriptTestRoot` element specifies that your unit tests will be in the *src* folder of the project root.
+   The `JavaScriptTestRoot` element specifies that your unit tests will be in the *src* folder of the project root. It's also common to specify the *test* folder.
 
-1. In Solution Explorer, right-click the npm node and choose **Install new npm packages**.
+1. In Solution Explorer, right-click the **npm** node and choose **Install new npm packages**.
 
    Use the npm package installation dialog to install the following npm packages:
 
-   - jest
-   - jest-editor-support
+   - vitest
 
-   These packages are added to the *package.json* file under dependencies.
+   This package are added to the *package.json* file under dependencies.
+
+   > [!NOTE]
+   > If you're using jest, the jest-editor-support npm package is required as well as the jest package.
 
 1. In *package.json*, add the `test` section at the end of the `scripts` section:
 
    ```json
    "scripts": {
       ...
-      "test": "jest"
+      "test": "vitest"
    },
    ```
 
@@ -84,6 +98,8 @@ The following example is based on the TypeScript React project template provided
 1. Add the following code to *App.test.tsx*.
 
    ```javascript
+   import { describe, it, expect } from 'vitest';
+
    describe('testAsuite', () => {
       it('testA1', async () => {
          expect(2).toBe(2);

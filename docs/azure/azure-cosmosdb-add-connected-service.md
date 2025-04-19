@@ -5,7 +5,7 @@ author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
 ms.topic: conceptual
-ms.date: 02/15/2024
+ms.date: 03/20/2025
 ms.author: ghogen
 monikerRange: ">= vs-2019"
 ---
@@ -21,13 +21,9 @@ With Visual Studio, you can connect any of the following to Azure Cosmos DB by u
 - .NET Core Worker Role
 - Azure Functions
 - Universal Windows Platform App
-- Xamarin
 - Cordova
 
 The connected service functionality adds all the needed references and connection code to your project, and modifies your configuration files appropriately.
-
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Connected services in Visual Studio for Mac](/visualstudio/mac/connected-services).
 
 ## Prerequisites
 
@@ -41,6 +37,8 @@ The connected service functionality adds all the needed references and connectio
 1. Open your project in Visual Studio.
 
 1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add Connected Service**.
+
+   If you don't see the **Connected Services** node, choose **Project** > **Connected Services** > **Add**.
 
 1. In the **Connected Services** tab, select the + icon for **Service Dependencies**.
 
@@ -92,6 +90,8 @@ The connected service functionality adds all the needed references and connectio
 
    ![Screenshot showing Connected Services context menu options.](./media/azure-cosmosdb-add-connected-service/vs-2022/add-connected-service-context-menu-2.png)
 
+   If you don't see the **Connected Services** node, choose **Project** > **Connected Services** > **Add**.
+
 1. Choose **Azure Cosmos DB**. The **Connect to dependency** page appears. You should see two options, one for a local emulator, **Azure Cosmos DB Emulator on container (Local)**, and one for connecting to the live Azure Cosmos DB service. You can reduce cost and simplify early development by starting with the local emulator. You can migrate to the live service later by repeating these steps and choosing the other option.
 
    ![Screenshot showing Azure Cosmos DB choices.](./media/azure-cosmosdb-add-connected-service/vs-2022/azure-cosmos-db-choices-2.png)
@@ -118,9 +118,12 @@ The connected service functionality adds all the needed references and connectio
 
 1. Enter a connection string name, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
 
-   ![Screenshot showing "Specify connection string" screen.](./media/azure-cosmosdb-add-connected-service/connection-string.png)
+   ![Screenshot showing "Specify connection string" screen.](./media/azure-cosmosdb-add-connected-service/vs-2022/connection-string.png)
 
-   The connection string is added as a secret and made available in the app configuration. In ASP.NET Core apps, you can access this connection string by using the `Configuration` property on the `WebApplicationBuild` object.
+   The connection string is added as a secret and made available in the app configuration. In ASP.NET Core apps, you can access this connection string by using the `Configuration` property on the `WebApplicationBuilder` object.
+
+   > [!NOTE]
+   > With Visual Studio 2022 version 17.12 and later, this procedure uses [Microsoft Entra managed identity](/entra/identity/managed-identities-azure-resources/overview), a passwordless authentication method, to connect to the database. The warning on this screen means that you need to perform a manual step in the Azure CLI after completing this procedure in Visual Studio. See [Use data plane role-based access control with Azure Cosmos DB for NoSQL](/azure/cosmos-db/nosql/security/how-to-grant-data-plane-role-based-access?tabs=built-in-definition%2Ccsharp&pivots=azure-interface-cli#disable-local-auth).
 
 1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
 
@@ -162,5 +165,4 @@ The `CosmosClient` provides access to Azure Cosmos DB functionality through its 
 
 - [Azure Cosmos DB product page](https://azure.microsoft.com/services/cosmos-db/)
 - [Azure Cosmos DB documentation](/azure/cosmos-db/)
-- [Connected services (Visual Studio for Mac)](/visualstudio/mac/connected-services)
 - [Dependency injection in ASP.NET Core](/aspnet/core/fundamentals/dependency-injection)

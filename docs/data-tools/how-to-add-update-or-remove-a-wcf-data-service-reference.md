@@ -31,11 +31,11 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
 ### To add a reference to an external service (.NET Framework projects)
 
-1. In **Solution Explorer**, right-click the name of the project to which you want to add the service, and then click **Add Service Reference**.
+1. In **Solution Explorer**, right-click the name of the project to which you want to add the service, and then select **Add Service Reference**.
 
    The **Add Service Reference** dialog box appears.
 
-1. In the **Address** box, enter the URL for the service, and then click **Go** to search for the service. If the service implements user name and password security, you might be prompted for a user name and password. You can also choose a service in your own solution. Choose the **Discover** button, and then choose **Services in Solution**.
+1. In the **Address** box, enter the URL for the service, and then select **Go** to search for the service. If the service implements user name and password security, you might be prompted for a user name and password. You can also choose a service in your own solution. Choose the **Discover** button, and then choose **Services in Solution**.
 
     > [!NOTE]
     > You should only reference services from a trusted source. Adding references from an untrusted source might compromise security.
@@ -64,7 +64,7 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
    ![Screenshot of WCF Web Service Provider dialog box](media/vs-2019/configure-wcf-web-service-reference-dialog.png)
 
-1. In the **URI** box, enter the URL for the service, and then click **Go** to search for the service. If the service implements user name and password security, you might be prompted for a user name and password.
+1. In the **URI** box, enter the URL for the service, and then select **Go** to search for the service. If the service implements user name and password security, you might be prompted for a user name and password.
 
     > [!NOTE]
     > You should only reference services from a trusted source. Adding references from an untrusted source might compromise security.
@@ -83,7 +83,7 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
 ### To add a reference to a service in the current solution (.NET Framework projects)
 
-1. In **Solution Explorer**, right-click the name of the project to which you want to add the service, and then click **Add Service Reference**.
+1. In **Solution Explorer**, right-click the name of the project to which you want to add the service, and then select **Add Service Reference**.
 
     The **Add Service Reference** dialog box appears.
 
@@ -128,7 +128,7 @@ The Entity Data Model for a WCF Data Services sometimes changes. When this happe
 ### To update a service reference
 
 :::moniker range="<=vs-2019"
-- In **Solution Explorer**, right-click the service reference and then click **Update Service Reference**.
+- In **Solution Explorer**, right-click the service reference, and then select **Update Service Reference**.
 
      A progress dialog box displays while the reference is updated from its original location, and the service client is regenerated to reflect any changes in the metadata.
 :::moniker-end
@@ -138,7 +138,7 @@ For .NET Core projects, use the `dotnet-svcutil` tool. See [dotnet-svcutil](/dot
 
 For .NET Framework projects:
 
-- In **Solution Explorer**, expand the **Connected Services** node, right-click the service reference, and then click **Update Service Reference**.
+- In **Solution Explorer**, expand the **Connected Services** node, right-click the service reference, and then select **Update Service Reference**.
 
      A progress dialog box displays while the reference is updated from its original location, and the service client is regenerated to reflect any changes in the metadata.
 :::moniker-end
@@ -149,7 +149,7 @@ If a service reference is no longer being used, you can remove it from your solu
 
 ### To remove a service reference
 
-- In **Solution Explorer**, right-click the service reference and then click **Delete**.
+- In **Solution Explorer**, right-click the service reference, and then select **Delete**.
 
      The service client will be removed from the solution, and the metadata that describes the service will be removed from the *app.config* file.
 

@@ -7,7 +7,7 @@ f1_keywords:
 - VSSDK.v90.StartPage
 helpviewer_keywords:
 - Visual Studio SDK
-- VS SDK (see Visual Studio SDK)
+- VSSDK (see Visual Studio SDK)
 - Visual Studio, SDK
 author: maiak
 ms.author: maiak
@@ -35,7 +35,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
   If you've never written a Visual Studio extension before, you should find more information about these features and at [Starting to develop Visual Studio extensions](../extensibility/starting-to-develop-visual-studio-extensions.md).
 
 ## Install the Visual Studio SDK
- The Visual Studio SDK is an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
+ The Visual Studio SDK is an optional feature in Visual Studio setup. You can also install the VSSDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## What's new in the Visual Studio SDK
  The Visual Studio SDK has some new features such as the synchronously autoloaded extensions warning and VSIX v3 format as well as breaking changes, which may require you to update your extension. For more information, see [What's new in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md) and [What's new in the Visual Studio 2017 SDK](../extensibility/what-s-new-in-the-visual-studio-2017-sdk.md).
@@ -54,7 +54,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
  You can find the Visual Studio SDK API reference at [Visual Studio SDK Reference](../extensibility/visual-studio-sdk-reference.md).
 
 ## Visual Studio SDK samples
- You can find open source examples of VS SDK extensions on GitHub at [Visual Studio Samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples). This GitHub repo contains samples that illustrate various extensible features in Visual Studio.
+ You can find open source examples of VSSDK extensions on GitHub at [Visual Studio Samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples). This GitHub repo contains samples that illustrate various extensible features in Visual Studio.
 
 ## Other Visual Studio SDK resources
  If you have questions about the VSSDK or want to share your experiences developing extensions, you can use the [Visual Studio Extensibility Forum](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx) or the [ExtendVS Gitter Chatroom](https://gitter.im/Microsoft/extendvs).
@@ -82,7 +82,6 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
 - [Expose properties to the properties window](exposing-properties-to-the-properties-window.md)
 - [Use and providing services](../extensibility/using-and-providing-services.md)
 - [Manage VSPackages](../extensibility/managing-vspackages.md)
-- [Visual Studio isolated shell](https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/)
 - [Ship Visual Studio extensions](../extensibility/shipping-visual-studio-extensions.md)
 - [Inside the Visual Studio SDK](../extensibility/internals/inside-the-visual-studio-sdk.md)
 - [Support for the Visual Studio SDK](../extensibility/support-for-the-visual-studio-sdk.md)

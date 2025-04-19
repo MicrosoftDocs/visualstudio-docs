@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_isNaked
 
 Retrieves a flag that specifies whether the function has the [naked](/cpp/cpp/naked-cpp) attribute (that is, the function has no prolog or epilog code added by the compiler).

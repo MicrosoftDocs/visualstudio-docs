@@ -15,7 +15,7 @@ This toolkit will help you write successful Visual Studio extensions and there's
 
 The following video introduces you to the Visual Studio extensibility model.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWPht8]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=70bf01cb-3b67-4476-a250-47558b7038b4]
 
 ## Pick your starting point
 

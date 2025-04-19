@@ -1,7 +1,7 @@
 ---
 title: Use MSBuild.exe to build specific targets in solutions
 description: Discover how to use the MSBuild.exe command line to build specific targets of specific projects in your solutions and get help with troubleshooting.
-ms.date: 08/15/2023
+ms.date: 12/3/2024
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, building specific targets in a solution
@@ -33,6 +33,9 @@ msbuild SlnFolders.sln -target:NotInSlnfolder:Rebuild;NewFolder\InSolutionFolder
 ```
 
 Building a specific target also triggers other dependent targets to build.
+
+> [!NOTE]
+> The path used in the `targets` switch is not a filesystem path. It is a path in the solution's internal representation, and visible in **Solution Explorer**. For example, you can't use filesystem path syntax such as `.` or `..` in the `targets` switch. That is why a project referenced in another filesystem location like `NotInSlnFolder` doesn't require an explicit path, but a project within a solution folder `InSolutionFolder` does. Solutions can also have folders, created by **Add** > **Solution folder** in Visual Studio. Those folders are used to organize projects within the solution when viewed in **Solution Explorer** in Visual Studio. The layout in the filesystem can be different from the solution folder structure. See [Solution folders](../ide/solutions-and-projects-in-visual-studio.md#solution-folder).
 
 ## Troubleshooting
 

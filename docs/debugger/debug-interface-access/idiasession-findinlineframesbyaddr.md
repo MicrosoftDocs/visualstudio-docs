@@ -10,6 +10,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSession::findInlineFramesByAddr
 
 Retrieves an enumeration that allows a client to iterate through all of the inline frames on a given address.
@@ -17,7 +18,7 @@ Retrieves an enumeration that allows a client to iterate through all of the inli
 ## Syntax
 
 ```C++
-HRESULT findInlineFramesByAddr ( 
+HRESULT findInlineFramesByAddr ( 
    IDiaSymbol*       parent,   DWORD             isect,
    DWORD             offset,
    IDiaEnumSymbols** ppResult

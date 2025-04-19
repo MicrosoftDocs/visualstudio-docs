@@ -1,6 +1,6 @@
 ---
-description: "Represents a source file."
-title: "IDiaSourceFile"
+description: Represents a source file.
+title: IDiaSourceFile
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -12,15 +12,14 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSourceFile
 
 Represents a source file.
 
 ## Syntax
 
-```
-IDiaSourceFile : IUnknown
-```
+`IDiaSourceFile : IUnknown`
 
 ## Methods in Vtable Order
 The following table shows the methods of `IDiaSourceFile`.

@@ -69,7 +69,7 @@ Use the `SaveAs` method to save a document with a new name. You can use this met
 1. Call the `SaveAs` method of the `ThisDocument` class in your project, using a fully qualified path and file name. If a file by that name already exists in that folder, it is silently overwritten. To use this code example, run it from the `ThisDocument` class.
 
     > [!NOTE]
-    > The `SaveAs` method throws an exception if a target directory does not exist or if there are other problems saving a file. It is a good practice to use a`try...catch` block around the `SaveAs` method or inside a calling method.
+    > The `SaveAs` method throws an exception if a target directory does not exist or if there are other problems saving a file. It is a good practice to use a `try...catch` block around the `SaveAs` method or inside a calling method.
 
      ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs" id="Snippet10":::

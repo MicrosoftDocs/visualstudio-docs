@@ -1,7 +1,7 @@
 ---
 title: Manage application settings (.NET)
 description: Manage application settings that aren't included in the application code but are needed at runtime with the Visual Studio IDE.
-ms.date: 06/20/2024
+ms.date: 10/02/2024
 ms.topic: conceptual
 f1_keywords:
 - msvse_settingsdesigner.err.nameblank
@@ -108,6 +108,10 @@ Properties.Settings.Default.Save();
 ```
 
 For general information about accessing application settings through the `Settings` class, see [Application settings overview (.NET Framework)](/dotnet/framework/winforms/advanced/application-settings-overview).
+
+## Migrating apps from .NET Framework to .NET
+
+.NET Framework uses the *app.config* file to load settings for your app, such as connection strings and log provider configuration. Modern .NET uses the *appsettings.json* file for app settings. To learn more about converting *app.config* files to *appsettings.json*, see [Modernize after upgrading to .NET from .NET Framework](/dotnet/core/porting/modernize#appconfig).
 
 ## Related content
 

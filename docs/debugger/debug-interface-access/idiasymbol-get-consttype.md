@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that specifies whether the user-defined data type is constant."
+description: Retrieves a flag that specifies whether the user-defined data type is constant.
 title: "IDiaSymbol::get_constType"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_constType
 
 Retrieves a flag that specifies whether the user-defined data type is constant.
@@ -19,7 +20,7 @@ Retrieves a flag that specifies whether the user-defined data type is constant.
 ## Syntax
 
 ```C++
-HRESULT get_constType ( 
+HRESULT get_constType ( 
    BOOL* pRetVal
 );
 ```

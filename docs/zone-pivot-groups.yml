@@ -1,0 +1,40 @@
+# YamlMime:ZonePivotGroups
+groups:
+- id: programming-languages-set-one
+  title: Programming languages
+  prompt: Choose a programming language or runtime
+  pivots:
+  - id: programming-language-dotnet
+    title: .NET
+  - id: programming-language-dotnetf
+    title: .NET Framework
+  - id: programming-language-cpp
+    title: C++
+  - id: programming-language-all
+    title: Other languages
+# Notice how the ids, titles, and prompts are
+# consistent and in order.
+- id: programming-languages-set-two
+  title: Programming languages
+  prompt: Choose a programming language or runtime
+  pivots:
+  - id: programming-language-dotnet
+    title: .NET
+  - id: programming-language-dotnetf
+    title: .NET Framework
+  - id: programming-language-cpp
+    title: C++
+# Notice how the ids, titles, and prompts are
+# consistent and in order.
+- id: programming-languages-set-three
+  title: Programming languages
+  prompt: Choose a programming language or runtime
+  pivots:
+  - id: programming-language-csharp
+    title: C#
+  - id: programming-language-vb
+    title: Visual Basic
+  - id: programming-language-cpp
+    title: C++
+  - id: programming-language-all
+    title: Other languages

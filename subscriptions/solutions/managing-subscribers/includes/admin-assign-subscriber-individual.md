@@ -1,10 +1,10 @@
 ---
 title: How do I assign a subscription?
 description: Super admin or admin is looking for help on how to add a single user.
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.topic: include
 ms.assetid: bd97b69d-f07e-43aa-b6a0-82c4633b8d88
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 ms.date: 04/09/2024
 user.type: admin

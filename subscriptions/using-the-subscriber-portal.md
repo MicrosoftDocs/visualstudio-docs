@@ -1,9 +1,9 @@
 ---
 title: Get started in the subscription portal
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/06/2024
+ms.date: 09/11/2024
 ms.topic: overview
 description: Explore the full range of benefits available with your Visual Studio subscriptions from the subscription portal, including tools, services, and partner offers.
 ---

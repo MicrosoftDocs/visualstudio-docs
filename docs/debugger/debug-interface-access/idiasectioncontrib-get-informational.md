@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag indicating whether a section contains comments or similar information."
+description: Retrieves a flag indicating whether a section contains comments or similar information.
 title: "IDiaSectionContrib::get_informational"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_informational
 
 Retrieves a flag indicating whether a section contains comments or similar information.

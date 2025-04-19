@@ -1,9 +1,9 @@
 ---
 title: Migrate subscriptions to a new agreement
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/19/2024
+ms.date: 09/16/2024
 ms.topic: how-to
 description: Migrate assigned Visual Studio subscriptions from one agreement to another, and understand how the move affects subscription benefits and Azure credits.
 ---

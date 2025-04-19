@@ -1,10 +1,10 @@
 ---
 title: Why are my organization’s subscriptions showing expired when they should be active?
 description: The subscriptions are reflecting as expired however the agreement is still active.
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
 ms.topic: include
 ms.assetid: 9654f105-ad1f-42f7-ae4d-e3a56dfea508
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
 ms.date: 04/09/2024
 user.type: admin

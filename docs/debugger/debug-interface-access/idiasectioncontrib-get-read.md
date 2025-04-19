@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that indicates whether the section can be read."
+description: Retrieves a flag that indicates whether the section can be read.
 title: "IDiaSectionContrib::get_read"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_read
 
 Retrieves a flag that indicates whether the section can be read.
@@ -19,7 +20,7 @@ Retrieves a flag that indicates whether the section can be read.
 ## Syntax
 
 ```C++
-HRESULT get_read ( 
+HRESULT get_read ( 
    BOOL* pRetVal
 );
 ```

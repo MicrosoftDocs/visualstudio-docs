@@ -1,7 +1,7 @@
 ---
 title: Create Data-Driven Unit Tests
 description: Learn how to use the Microsoft unit test framework for managed code to set up a unit test method to retrieve values from a data source.
-ms.date: 12/05/2023
+ms.date: 3/19/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.test.testresults.unittest.datadriven
@@ -78,7 +78,10 @@ public void AddIntegers_FromDataRowTest(int x, int y, int expected)
 
 ### Member data-driven test
 
-MSTest uses `DynamicData` attribute to specify the name, kind (property, the default, or method) and defining type (by default current type is used) of the member that will provide the data used by the data-driven test.
+MSTest uses `DynamicData` attribute to specify the name, kind, and defining type (by default current type is used) of the member that will provide the data used by the data-driven test.
+
+> [!NOTE]
+> Before MSTest 3.8, `DynamicDataSourceType` enumeration had two members, `Property` and `Method`. The default was `Property`. Starting with MSTest 3.8, a new member `AutoDetect` is added to the enumeration and is the default. So, you no longer need to specify `DynamicDataSourceType`.
 
 ```csharp
 public static IEnumerable<object[]> AdditionData
@@ -132,6 +135,9 @@ Creating a data source driven unit test involves the following steps:
 
 5. Use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow%2A> indexer property to retrieve the values that you use in a test.
 
+> [!NOTE]
+> DataSourceAttribute is currently supported only on .NET Framework. If you try to access test data using this method in a .NET Core, .NET 5+, UWP or WinUI unit test project, you will see an error similar to **"'TestContext' does not contain a definition for 'DataRow' and no accessible extension method 'DataRow' accepting a first argument of type 'TestContext' could be found (are you missing a using directive or an assembly reference?)"**.
+
 #### Create a data source
 
 To test the `AddIntegers` method, create a data source that specifies a range of values for the parameters and the sum that you expect to be returned. In this example, we'll create a Sql Compact database named `MathsData` and a table named `AddIntegersData` that contains the following column names and values
@@ -151,9 +157,6 @@ public TestContext TestContext { get; set; }
 ```
 
 In your test method, you access the data through the `DataRow` indexer property of the `TestContext`.
-
-> [!NOTE]
-> .NET Core does not support the [DataSource](xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute) attribute. If you try to access test data in this way in a .NET Core, UWP or WinUI unit test project, you will see an error similar to **"'TestContext' does not contain a definition for 'DataRow' and no accessible extension method 'DataRow' accepting a first argument of type 'TestContext' could be found (are you missing a using directive or an assembly reference?)"**.
 
 #### Write the test method
 
@@ -185,13 +188,16 @@ The `DataSource` attribute specifies the connection string for the data source a
 [DataSource(@"Provider=Microsoft.SqlServerCe.Client.4.0;Data Source=C:\Data\MathsData.sdf", "AddIntegersData")]
 ```
 
+> [!CAUTION]
+> The connection string can contain sensitive data (for example, a password). The connection string is stored in plain text in source code and in the compiled assembly. Restrict access to the source code and assembly to protect this sensitive information.
+
 The DataSource attribute has three constructors.
 
 ```csharp
 [DataSource(dataSourceSettingName)]
 ```
 
-A constructor with one parameter uses connection information that is stored in the *app.config* file for the solution. The *dataSourceSettingsName* is the name of the Xml element in the config file that specifies the connection information.
+A constructor with one parameter uses connection information that is stored in the *app.config* file for the solution. The *dataSourceSettingsName* is the name of the XML element in the config file that specifies the connection information.
 
 Using an *app.config* file allows you to change the location of the data source without making changes to the unit test itself. For information about how to create and use an *app.config* file, see [Walkthrough: Using a Configuration File to Define a Data Source](../test/walkthrough-using-a-configuration-file-to-define-a-data-source.md)
 

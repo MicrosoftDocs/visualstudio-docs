@@ -8,18 +8,18 @@
     href: what-is-a-profiler.md
   - name: Which tool should I use?
     href: choose-performance-tool.md
-  - name: Run profiling tools with or without the debugger
+  - name: Run profiling tools on release or debug builds
     href: running-profiling-tools-with-or-without-the-debugger.md
+  - name: Case study - Beginner's guide to optimizing code
+    href: optimize-code-using-profiling-tools.md
+  - name: Case study - Isolate a performance issue
+    href: isolate-performance-issue.md
 - name: Tutorials
   items:
   - name: Measure application performance in Visual Studio
     href: beginners-guide-to-performance-profiling.md
   - name: Measure memory usage in Visual Studio
     href: memory-usage.md
-  - name: Beginner's guide to optimizing code
-    href: optimize-code-using-profiling-tools.md
-  - name: Isolate a performance issue
-    href: isolate-performance-issue.md
 - name: Concepts
   items:
   - name: Understanding performance collection methods
@@ -36,6 +36,8 @@
       href: cpu-usage.md
     - name: Flame Graph 
       href: flame-graph.md
+    - name: Understanding the call tree
+      href: understand-call-tree-data.md
     - name: CPU Insights
       items:
       - name: CPU Insights  
@@ -84,11 +86,13 @@
           href: perf-insights-excessive-induced-gcs.md
         - name: High LOH fragmentation
           href: perf-insights-high-loh-fragmentation.md
-    - name: Analyze memory usage without the debugger
+        - name: Zero-length array allocations
+          href: performance-insights-zero-length-array-allocations.md
+    - name: Analyze memory usage on release builds
       href: memory-usage-without-debugging2.md
     - name: Custom native ETW heap events
       href: custom-native-etw-heap-events.md
-    - name: Hot paths to root
+    - name: Analyze hot path to root
       href: hot-path-to-root.md
   - name: Instrumentation
     items:
@@ -110,6 +114,8 @@
     href: events-viewer.md
   - name: Analyze Resource Consumption
     href: application-timeline.md
+  - name: Add user marks to timeline
+    href: add-timeline-graph-user-marks.md
   - name: BenchmarkDotNet
     href: profiling-with-benchmark-dotnet.md
   - name: Analyze GPU usage

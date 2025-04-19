@@ -3,7 +3,7 @@ title: Subscriptions support solutions
 description: List of INCLUDEs files for Visual Studio subscriptions support widget content
 ms.topic: conceptual
 robots: noindex, nofollow
-author: larissacrawford
+author: joseb-rdc
 ms.author: amast 
 ms.date: 02/14/2023
 ---
@@ -42,8 +42,6 @@ ms.date: 02/14/2023
 [!INCLUDE [Unable to download non-Visual Studio software](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-download-software-non-visualstudio.md)]
 
 [!INCLUDE [Unable to download Visual Studio Community](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-download-visual-studio-community.md)]
-
-[!INCLUDE [Unable to download Visual Studio for Mac](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-download-visual-studio-for-mac.md)]
 
 [!INCLUDE [Unable to download Visual Studio IDE](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-download-visual-studio-ide.md)]
 

@@ -1,13 +1,14 @@
 ---
 title: Error List Window
 description: Learn about the Error List window and how to use it to perform tasks related to resolving the errors it displays.
-ms.date: 11/04/2016
+ms.date: 2/5/2025
 ms.topic: reference
 helpviewer_keywords:
 - Task List
 - build errors
 - Error List window
 - errors [Visual Studio], Error List window
+ms.custom: "ide-ref"
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
@@ -61,6 +62,10 @@ The list on the right side of the toolbar specifies whether to show errors from 
 
 Use the **Search Error List** text box on the right side of the **Error List** toolbar to find specific errors in the error list. You can search on any visible column in the error list, and search results are always sorted based on the column that has sort priority instead of on the query or the filter applied. If you choose the **Esc** key while the focus is in the **Error List**, you can clear the search term and filtered search results. You can also click the **X** on the right side of the text box to clear it.
 
+## Search online
+
+To get information about an error, press **F1** to bring up the error's page in the documentation. If a page exists for this specific error code, it will open in the default browser, or in the Help Viewer, if you installed and enabled offline help. With Visual Studio 17.12 and later, when you copy an error from the Error List using **Ctrl**+**C**, the description is copied to the clipboard. You can paste this into the browser to search for the error online, or share it with others. You can also copy the entire row by right-clicking the error and selecting **Copy Row** from the context menu or hitting **Ctrl**+**Shift**+**C**. To open the browser and initiate a search with Bing on the error description with one keystroke, press **Ctrl**+**F1**.
+
 ## Save
 
 You can copy the error list and save it to a file. Select the errors you want to copy and right-click the selection, then on the context menu select **Copy**. You can then paste the errors into a file. If you paste the errors to an Excel spreadsheet, the fields appear as different columns.
@@ -94,3 +99,7 @@ Displays the line where the problem occurs.
 **Details**
 
 Displays a clickable icon to open the [Problem Details window](../../ide/reference/problem-details-window.md) if this entry has additional details.
+
+## Disable the Error List window
+
+Like any other tool window, there are a variety of ways to manage the window. You can set it to auto-hide, close it, or create a window layout that does or doesn't contain the Error List window. See [Customize window layouts in Visual Studio - Close and autohide tool windows](../customizing-window-layouts-in-visual-studio.md#close-and-autohide-tool-windows).

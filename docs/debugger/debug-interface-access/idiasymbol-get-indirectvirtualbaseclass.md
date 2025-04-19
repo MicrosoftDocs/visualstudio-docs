@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that specifies whether the user-defined data type is an indirect virtual base class."
+description: Retrieves a flag that specifies whether the user-defined data type is an indirect virtual base class.
 title: "IDiaSymbol::get_indirectVirtualBaseClass"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_indirectVirtualBaseClass
 
 Retrieves a flag that specifies whether the user-defined data type is an indirect virtual base class.
@@ -19,7 +20,7 @@ Retrieves a flag that specifies whether the user-defined data type is an indirec
 ## Syntax
 
 ```C++
-HRESULT get_indirectVirtualBaseClass ( 
+HRESULT get_indirectVirtualBaseClass ( 
    BOOL* pRetVal
 );
 ```

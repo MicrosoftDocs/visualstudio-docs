@@ -17,16 +17,8 @@
     href: command-line-arguments.md
   - name: Override Help Content Manager defaults
     href: behavior-overrides.md
-- name: Find content in Help Viewer
-  items:
-  - name: Use the index
-    href: find-topics-index.md
-  - name: Use the Table of Contents
-    href: find-topics-toc.md
-  - name: Use full-text search
-    href: find-topics.md
-  - name: Advanced search with Logical and Advanced Operators
-    href: logical-operators-search-expressions.md
+- name: Find articles
+  href: find-topics.md
 - name: Accessibility
   href: accessibility-features.md
 - name: Shortcut Keys

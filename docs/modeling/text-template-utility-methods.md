@@ -122,7 +122,7 @@ EnvDTE.DTE dte = (EnvDTE.DTE) ((IServiceProvider) this.Host)
 
 ## Using a different set of utility methods
 
-As part of the text generation process, your template file is transformed into a class, which is always named `GeneratedTextTransformation`and inherits from <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation>. If you want to use a different set of methods instead, you can write your own class and specify it in the template directive. Your class must inherit from <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation>.
+As part of the text generation process, your template file is transformed into a class, which is always named `GeneratedTextTransformation` and inherits from <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation>. If you want to use a different set of methods instead, you can write your own class and specify it in the template directive. Your class must inherit from <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation>.
 
 ```
 <#@ template inherits="MyUtilityClass" #>

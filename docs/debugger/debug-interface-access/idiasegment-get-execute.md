@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that indicates whether the segment is executable."
+description: Retrieves a flag that indicates whether the segment is executable.
 title: "IDiaSegment::get_execute"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSegment::get_execute
 
 Retrieves a flag that indicates whether the segment is executable.
@@ -19,7 +20,7 @@ Retrieves a flag that indicates whether the segment is executable.
 ## Syntax
 
 ```C++
-HRESULT get_execute ( 
+HRESULT get_execute ( 
    BOOL* pRetVal
 );
 ```

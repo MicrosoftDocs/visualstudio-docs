@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that specifies if the Compiland) contains debugging information."
+description: Retrieves a flag that specifies if the Compiland) contains debugging information.
 title: "IDiaSymbol::get_hasDebugInfo"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_hasDebugInfo
 
 Retrieves a flag that specifies if the [Compiland](../../debugger/debug-interface-access/compiland.md) contains debugging information.

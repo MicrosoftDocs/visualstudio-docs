@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that indicates whether the section is executable as code."
+description: Retrieves a flag that indicates whether the section is executable as code.
 title: "IDiaSectionContrib::get_execute"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_execute
 
 Retrieves a flag that indicates whether the section is executable as code.
@@ -19,7 +20,7 @@ Retrieves a flag that indicates whether the section is executable as code.
 ## Syntax
 
 ```C++
-HRESULT get_excute ( 
+HRESULT get_excute ( 
    BOOL* pRetVal
 );
 ```

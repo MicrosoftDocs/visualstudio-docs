@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the front end minor version number."
+description: Retrieves the front end minor version number.
 title: "IDiaSymbol::get_frontEndMinor"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_frontEndMinor
 
 Retrieves the front end minor version number.
@@ -19,7 +20,7 @@ Retrieves the front end minor version number.
 ## Syntax
 
 ```C++
-HRESULT get_frontEndMinor ( 
+HRESULT get_frontEndMinor ( 
    DWORD* pRetVal
 );
 ```

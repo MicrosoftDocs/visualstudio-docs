@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Angular"
 description: Create an ASP.NET Core project to serve as an API backend and an Angular project to provide the user interface in Visual Studio.
-ms.date: 03/20/2024
+ms.date: 04/09/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -33,9 +33,9 @@ Make sure to install the following:
 - Visual Studio 2022 version 17.8 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-create-aspnetcore-app-with-angular-page-cta) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 - npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js
-- Angular CLI ([`https://angular.io/cli`](https://angular.io/cli)), which can be the version of your choice.
+- Angular CLI ([`https://angular.dev/tools/cli`](https://angular.dev/tools/cli)), which can be the version of your choice. The front-end project is created using the framework CLI tools you have installed on your local machine, so this determines the Angular version used in the template.
 
-## Create the frontend app
+## Create the app
 
 1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
 
@@ -51,7 +51,7 @@ Make sure to install the following:
 
 1. Select **Create**.
 
-   Solution Explorer shows the following::
+   Solution Explorer shows the following:
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-angular-solution-explorer.png" alt-text="Screenshot showing Solution Explorer.":::
 
@@ -78,7 +78,7 @@ Make sure to install the following:
 
    This value prevents opening the web page with the source weather data.
 
-   >[!NOTE]
+   > [!NOTE]
    > In Visual Studio, `launch.json` stores the startup settings associated with the **Start** button in the Debug toolbar. `launch.json` must be located under the `.vscode` folder.
 
 1. Right-click the solution in Solution Explorer and select **Properties**. Verify that the Startup project settings are set to **Multiple projects**, and that the Action for both projects is set to **Start**.
@@ -90,16 +90,20 @@ Press **F5** or select the **Start** button at the top of the window to start th
 - The ASP.NET Core API project running
 - The Angular CLI running the ng start command
 
->[!NOTE]
+> [!NOTE]
 > Check console output for messages. For example there might be a message to update Node.js.
 
-The Angular app appears and is populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
+The Angular app appears and is populated via the API (the localhost port may vary from the screenshot). 
+
+:::image type="content" source="media/vs-2022/asp-net-core-weather-forecast-app.png" alt-text="Screenshot showing the weather forecast app."::: 
+
+If you don't see the weather forecast data in the browser, see [Troubleshooting](#troubleshooting).
 
 ## Publish the project
 
 Starting in Visual Studio 2022 version 17.3, you can publish the integrated solution using the Visual Studio Publish tool.
 
->[!NOTE]
+> [!NOTE]
 > To use publish, create your JavaScript project using Visual Studio 2022 version 17.3 or later.
 
 1. In Solution Explorer, right-click the **AngularWithASP.Server** project and select **Add** > **Project Reference**.
@@ -114,7 +118,7 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 
 1. In the `.csproj` file, make sure the project reference includes a `<ReferenceOutputAssembly>` element with the value set to `false`.
 
-   This reference should look like the following.
+   This reference should look like the following:
 
    ```xml
     <ProjectReference Include="..\angularwithasp.client\angularwithasp.client.esproj">
@@ -142,6 +146,8 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 
    The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run build` command gets invoked when publishing. The [BuildCommand](../javascript/javascript-project-system-msbuild-reference.md#buildcommand) runs `npm run build` by default.
 
+   If you publish to a folder, see [ASP.NET Core directory structure](/aspnet/core/host-and-deploy/directory-structure) for more information on the files added to the *publish* folder.
+
 ## Troubleshooting
 
 ### Proxy error
@@ -152,7 +158,10 @@ You may see the following error:
 [HPM] Error occurred while trying to proxy request /weatherforecast from localhost:4200 to https://localhost:5001 (ECONNREFUSED) (https://nodejs.org/api/errors.html#errors_common_system_errors)
 ```
 
-If you see this issue, most likely the frontend started before the backend. Once you see the backend command prompt up and running, just refresh the Angular App in the browser.
+If you see this issue, most likely the frontend started before the backend.
+
+- Once you see the backend command prompt up and running, just refresh the Angular app in the browser.
+- Also, verify that the backend is configured to start before the front end. To verify, select the solution in Solution Explorer, choose **Properties** from the **Project menu**. Next, select **Configure Startup Projects** and make sure that the backend ASP.NET Core project is first in the list. If it's not first, select the project and use the Up arrow button to make it the first project in the launch list.
 
 ### Verify port
 
@@ -183,12 +192,15 @@ If you create the project with [Docker support](../containers/overview.md#prereq
       env.ASPNETCORE_URLS ? env.ASPNETCORE_URLS.split(';')[0] : 'https://localhost:7209';
    ```
 
-   change `https://localhost:7209` to `https://localhost:62958`.
+   Change `https://localhost:7209` to the matching HTTPS port (in this example, `https://localhost:62958`).
+
+   > [!NOTE]
+   > If the HTTPS port is missing in the Containers window, you can use **launchSettings.json** file to add the port. In the section `Container (Dockerfile)` and after the entry `"useSSL": true`, add `"sslPort": <any port>`. In this example, use the following: `"sslPort": 62958`.
 
 1. Restart the app.
 
 ## Next steps
 
-For more information about SPA applications in ASP.NET Core, see the Angular section under [Overview of Single-Page Apps (SPAs)](/aspnet/core/client-side/spa/intro?view=aspnetcore-7.0&preserve-view=true). The linked article provides additional context for project files such as *aspnetcore-https.js* and *proxy.conf.js*, although details of the implementation are different due to project template differences. For example, instead of a ClientApp folder, the Angular files are contained in a separate project.
+For more information about SPA applications in ASP.NET Core, see the Angular section under [Developing Single Page Apps](/aspnet/core/client-side/spa/intro?view=aspnetcore-7.0&preserve-view=true#developing-single-page-apps). The linked article provides additional context for project files such as *aspnetcore-https.js* and *proxy.conf.js*, although details of the implementation are different due to project template differences. For example, instead of a ClientApp folder, the Angular files are contained in a separate project.
 
 For MSBuild information specific to the client project, see [MSBuild properties for JSPS](../javascript/javascript-project-system-msbuild-reference.md).

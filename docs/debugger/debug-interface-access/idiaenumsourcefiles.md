@@ -43,7 +43,7 @@ Obtain this interface by calling the `QueryInterface` method on an [IDiaTable](.
 
 ## Example
 
-This example shows how to obtain the `IDiaEnumSourceFiles` interface from the list of tables in a DIA session object. For an example of accessing source file information, see the [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md) interface.
+This example shows how to obtain the `IDiaEnumSourceFiles` interface from the list of tables in a Debug Interface Access (DIA) session object. For an example of accessing source file information, see the [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md) interface.
 
 ```c++
 

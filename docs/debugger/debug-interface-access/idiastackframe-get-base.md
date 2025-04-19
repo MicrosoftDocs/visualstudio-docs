@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the base address of the frame."
+description: Retrieves the base address of the frame.
 title: "IDiaStackFrame::get_base"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackFrame::get_base
 
 Retrieves the base address of the frame.
@@ -19,7 +20,7 @@ Retrieves the base address of the frame.
 ## Syntax
 
 ```C++
-HRESULT get_base ( 
+HRESULT get_base ( 
    ULONGLONG* pRetVal
 );
 ```

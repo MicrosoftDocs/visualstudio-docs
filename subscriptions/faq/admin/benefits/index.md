@@ -2,9 +2,9 @@
 title: Visual Studio subscriber benefits
 description: Subscription benefits FAQs for admins
 ms.topic: conceptual
-author: evanwindom
+author: joseb-rdc
 ms.author: amast
-ms.date: 04/21/2022
+ms.date: 10/1/2024
 ms.faqid: Section3
 ---
 

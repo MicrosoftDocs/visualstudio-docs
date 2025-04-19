@@ -11,7 +11,7 @@ ms.date: 05/09/2024
 
 # Overview
 
-The VisualStudio.Extensibility Diagnostics Explorer extension is designed to help debug VisualStudio.Extensibility extensions while developing them. The target audience for this extension is extension authors, not extension consumers. This extension provides an interface for inspecting the extensibility points that extensions are interacting with, and what configuration objects extensions are providing to the IDE, and the metadata of those configuration objects. 
+The VisualStudio.Extensibility Diagnostics Explorer extension is designed to help debug VisualStudio.Extensibility extensions while developing them. The target audience for this extension is extension authors, not extension consumers. This extension provides an interface for inspecting the extensibility points that extensions are interacting with, and what configuration objects extensions are providing to the IDE, and the metadata of those configuration objects.
 
 ## Get Started
 
@@ -22,7 +22,7 @@ Follow these instructions to install, launch, and configure the Diagsnotics Expl
 You can get the Diagnostics Explorer either directly through the Extension Manager in Visual Studio, or from the Visual Studio Marketplace [here](https://aka.ms/VisualStudio.Extensibility/DiagnosticsExplorer).
 
 > [!NOTE]
-> The VisualStudio.Extensibility Diagnostics Explorer extension is compatable with Visual Studio 2022 17.10 and higher.
+> The VisualStudio.Extensibility Diagnostics Explorer extension is compatible with Visual Studio 2022 17.12 and higher.
 
 ### Open the Diagnostics Explorer in Visual Studio
 
@@ -38,9 +38,7 @@ The Diagnostics Explorer is configured to collect relevant diagnostic data from 
 
 ## Diagnostics Pages
 
-The left-hand panel of the Diagnostics Explorer tool window contains a list different *feature pages*. These pages correspond to the extensible features for which you can find diagnostic information about the components and configurations that Visual Studio discovered from your extensions. For example, you can select **Commands** to view diagnostics related to your commands, command sets, menus and toolbars, placements, and more.
-
-Also in the list are two special pages that aren't directly related to any components in your extension: [**Events**](#events-page), a live viewer for extensibility-related events, and [**Activation Constraints**](#activation-constraints-page), which shows relevant IDE state to help you craft your activation constraints.
+The left-hand panel of the Diagnostics Explorer tool window contains a list different *diagnostics pages*. There are two types of diagnostics pages - extensible features and extensibility infrastructure. Extensible features pages provide diagnostic information about a specific extensible component within Visual Studio, like commands. Extensibility infrastructure pages provide diagnostic information that's relevant regardless of which extensibility points your extension plugs into. The [**Events**](#events-page) page, a live viewer for extensibility-related events, and the [**Client Contexts**](#client-contexts-page) page, which shows relevant IDE state to help you craft your activation constraints, are the two extensibility infrastructure pages.
 
 ![Screenshot of the left hand panel of the tool window.](./media/image-2.png)
 
@@ -64,7 +62,9 @@ Some cells in the DataGrid display **[Click to Expand]**. This message means tha
 
 ![Screenshot of the "Click to Expand" modal dialog."](./media/image-6.png)
 
-### Events Page
+### Extensible Infrastructure Pages
+
+#### Events Page
 
 The events page shows you when "something happens" in the IDE. Each event appears as a new row in the DataGrid, along with any properties related to that event. For example, when a command is executed, a **Commands - Executing** event appears in the view showing the ID of the extension that the command belongs to and the ID of the command that was executed.
 
@@ -76,29 +76,29 @@ Clicking the **Clear All** button deletes all the events currently shown in the 
 
 ![Screenshot of the Events page.](./media/image-7.png)
 
-#### Column Descriptions
+##### Column Descriptions
 
-##### Extension ID
+###### Extension ID
 
 The **Extension Id** column shows the ID of the extension that the instance of the event is related to. It's possible for this cell to be empty for some events if they don't belong to a specific extension but instead apply to the IDE as a whole.
 
-##### Item ID
+###### Item ID
 
 The **Item Id** column shows the ID of the extension item that the instance of the event is related to. For example, the **Item Id** for the **Commands - Executing** event would be the ID of the command that was executed.
 
-##### Properties
+###### Properties
 
 The **Properties** column shows the set of properties related to that instance of the event that could be displayed in a single cell in a DataGrid. More verbose properties would only be visible from the **More Info** dialog, or by changing the **Event** ComboBox to the name of the specific event that you're interested in.
 
-##### More Info
+###### More Info
 
 The **More Info** column displays more verbose metadata related to an event. Clicking a cell in this column opens a modal dialog containing all of the metadata related to the event represented by that row.
 
 ![Screenshot of the More Info dialog.](./media/image-8.png)
 
-### Activation Constraints Page
+#### Client Contexts Page
 
-The activation constraints page shows the state of various properties related to the IDE itself. The **Context** ComboBox changes the data in the view to either show all of the activation constraints related to the currently selected item in the **Acitvation Constraints** ComboBox, or a log of all the times these properties changed since the tool window was opened. When the **Events** context is selected, the **Clear All** button can be used to delete all the events currently being displayed in the view.
+The client contexts page shows the state of various properties related to the IDE itself. The **Context** ComboBox changes the data in the view to either show all of the activation constraints related to the currently selected item in the **Client Contexts** ComboBox, or a log of all the times these properties changed since the tool window was opened. When the **Events** context is selected, the **Clear All** button can be used to delete all the events currently being displayed in the view.
 
 ![Screenshot of the Activation Constraint's Current State page.](./media/image-9.png)
 

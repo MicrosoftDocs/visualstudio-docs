@@ -2,7 +2,7 @@
 title: Update Visual Studio installation to recent release
 titleSuffix: ''
 description: Update your Visual Studio installation to the most recent release to access the latest feature changes and fixes for known issues. 
-ms.date: 5/22/2024
+ms.date: 9/3/2024
 ms.custom: vs-acquisition
 ms.topic: how-to
 
@@ -17,8 +17,6 @@ ms.author: meghaanand
 manager: mijacobs
 ---
 # Update Visual Studio
-
-This topic discusses how to update a client installation of Visual Studio on Windows. For Visual Studio for Mac, see [Update Visual Studio for Mac](/visualstudio/mac/update).
 
 Visual Studio must first be [installed on the machine](../install/install-visual-studio.md) before you can update it. 
 
@@ -211,7 +209,7 @@ There are two ways to bring up the Update Settings dialog, which allows you to m
 
   ![Screenshot showing the Updates settings in the Update available dialog in the IDE.](media/vs-2022/invoke-update-settings-in-the-ide.png)
     
-The **Update Settings** dialog will look something like this. In this example, the Visual studio instance is using the LTSC 17.8 channel.
+The **Update Settings** dialog will look something like this. In this example, the Visual Studio instance is using the LTSC 17.8 channel.
 
    ![Screenshot showing the Updates settings dialog in the Visual Studio 2022 IDE.](media/vs-2022/update-setting-dialog-one.png)
 

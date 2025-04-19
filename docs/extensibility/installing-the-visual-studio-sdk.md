@@ -10,11 +10,11 @@ ms.subservice: extensibility-integration
 ---
 # Install the Visual Studio SDK
 
-The Visual Studio SDK (Software Development Kit) is an optional feature in Visual Studio setup. You can also install the VS SDK later on.
+The Visual Studio SDK (Software Development Kit) is an optional feature in Visual Studio setup. You can also install the VSSDK later on.
 
 ## Install the Visual Studio SDK as part of a Visual Studio installation
 
-To include the VS SDK in your Visual Studio installation, install the **Visual Studio extension development** workload under **Other Toolsets**. This workload will install the Visual Studio SDK and the necessary prerequisites. You can further tune the installation by selecting or unselecting components from the **Summary** view.
+To include the VSSDK in your Visual Studio installation, install the **Visual Studio extension development** workload under **Other Toolsets**. This workload will install the Visual Studio SDK and the necessary prerequisites. You can further tune the installation by selecting or unselecting components from the **Summary** view.
 
 ## Install the Visual Studio SDK after installing Visual Studio
 
@@ -22,14 +22,14 @@ To install the Visual Studio SDK after completing your Visual Studio installatio
 
 ## Install the Visual Studio SDK from a solution
 
-If you open a solution with an extensibility project without first installing the VS SDK, you'll be prompted by an **Install Missing Feature** dialog to install the **Visual Studio extension development** workload:
+If you open a solution with an extensibility project without first installing the VSSDK, you'll be prompted by an **Install Missing Feature** dialog to install the **Visual Studio extension development** workload:
 
 ::: moniker range="vs-2019"
-:::image type="content" source="media/install-extension-development.png" alt-text="Screenshot showing the Visual studio dialog to Install extension development workload.":::
+:::image type="content" source="media/install-extension-development.png" alt-text="Screenshot showing the Visual Studio dialog to Install extension development workload.":::
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-:::image type="content" source="media/vs-2022/install-extension-development.png" alt-text="Screenshot showing the Visual studio dialog to Install extension development workload.":::
+:::image type="content" source="media/vs-2022/install-extension-development.png" alt-text="Screenshot showing the Visual Studio dialog to Install extension development workload.":::
 ::: moniker-end
 
 ## Install the Visual Studio SDK from the command line

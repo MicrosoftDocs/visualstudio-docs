@@ -1,7 +1,7 @@
 ---
 title: "Analyze BenchmarkDotNet data in Visual Studio"
 description: Learn how to profile console apps using BenchmarkDotNet.
-ms.date: 05/08/2024
+ms.date: 01/27/2025
 ms.topic: conceptual
 dev_langs:
   - "CSharp"
@@ -19,7 +19,7 @@ monikerRange: '>= vs-2022'
 
 You can use the profiling tools to collect and view [BenchmarkDotNet](https://benchmarkdotnet.org/articles/overview.html) data in Visual Studio.
 
-When you add a BenchmarkDotNet diagnoser to your benchmark classes as an attribute, a *.diagsession* is generated after the benchmark runs. You can then open the *.diagsession* in Visual Studio and view profiling data for the benchmarks. 
+When you add a BenchmarkDotNet diagnoser to your benchmark classes as an attribute, a *.diagsession* file is generated after the benchmark runs. You can then open the *.diagsession* in Visual Studio and view profiling data for the benchmarks. 
 
 The following diagnosers are supported:
 
@@ -44,7 +44,7 @@ Each diagnoser generates performance data related to that diagnoser. For example
 
 1. Create a console project.
 
-   The benchmark functions must be added to a .NET console application. These can be wrapper functions that reference other project types. 
+   The benchmark functions must be added to a .NET console application. These functions can be wrapper functions that reference other project types. 
 
 1. Set your build to a Release build instead of a Debug build.
 
@@ -59,6 +59,7 @@ Each diagnoser generates performance data related to that diagnoser. For example
     using System.Security.Cryptography;
     using BenchmarkDotNet.Attributes;
     using BenchmarkDotNet.Running;
+    using Microsoft.VSDiagnostics;
     
     namespace MyBenchmarks
     {

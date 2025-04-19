@@ -87,8 +87,8 @@ The debugger searches for symbol files in the following locations:
 
      **Third-party symbol servers**: Third-party providers of Windows applications and libraries can provide access to symbol server on the internet.
 
-     > [!WARNING]
-     > If you use a symbol server other than the public Microsoft Symbol Servers, make sure that the symbol server and its path are trustworthy. Because symbol files can contain arbitrary executable code, you can be exposed to security threats.
+  > [!WARNING]
+  > If you use a symbol server other than the public Microsoft Symbol Servers, make sure that the symbol server and its path are trustworthy. Because symbol files can contain arbitrary executable code, you can be exposed to security threats.
 
 ## Configure location of symbol files and loading options
 
@@ -103,6 +103,11 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
 
 **To specify symbol locations and loading options:**
 
+::: moniker range="= vs-2022"
+  > [!NOTE]
+  > These options were updated in Visual Studio 2022 Version 17.12 Preview 1.
+::: moniker-end
+
 1. In Visual Studio, open **Tools** > **Options** > **Debugging** > **Symbols** (or **Debug** > **Options** > **Symbols**).
 
 2. Under **Symbol file (.pdb) locations**,
@@ -112,15 +117,15 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
      1. Select the **+** symbol in the toolbar.
      1. Type the URL (http), network share, or local path of the symbol server or symbol location in the text field. Statement completion helps you find the correct format.
 
-     ::: moniker range=">= vs-2022"
+    ::: moniker range=">= vs-2022"
      ![Tools &#45; Options &#45; Debugging &#45; Symbols page](media/vs-2022/dbg-options-symbols.png "Tools &#45; Options &#45; Debugging &#45; Symbols page")
-     ::: moniker-end
-     ::: moniker range="<= vs-2019"
+    ::: moniker-end
+    ::: moniker range="<= vs-2019"
      ![Tools &#45; Options &#45; Debugging &#45; Symbols page](media/dbg-options-symbols.gif "Tools &#45; Options &#45; Debugging &#45; Symbols page")
-     ::: moniker-end
+    ::: moniker-end
 
-     >[!NOTE]
-     >Only the specified folder is searched. You must add entries for any subfolders that you want to search.
+   > [!NOTE]
+   > Only the specified folder is searched. You must add entries for any subfolders that you want to search.
 
    - To add a new Azure DevOps Symbol Server location:
 
@@ -135,19 +140,78 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
 
 3. (Optional) To improve symbol loading performance, under **Cache symbols in this directory**, type a local folder path that symbol servers can copy symbols to.
 
-   > [!NOTE]
-   > Do not place the local symbol cache in a protected folder, like C:\Windows or a subfolder. Use a read-write folder instead.
+  > [!NOTE]
+  > Do not place the local symbol cache in a protected folder, like C:\Windows or a subfolder. Use a read-write folder instead.
 
-   > [!NOTE]
-   > For C++ projects, if you have the `_NT_SYMBOL_PATH` environment variable set, it will override the value set under **Cache symbols in this directory**.
+  > [!NOTE]
+  > If you have the `_NT_SYMBOL_PATH` environment variable set, it overrides the value set under **Cache symbols in this directory**.
 
 4. Specify the modules that you want the debugger to load from the **Symbol file (.pdb) locations** when it starts.
+
+   ::: moniker range=">= vs-2022"
+
+   - Select **Automatically choose what module symbols to search for** (recommended) to allow
+   Visual Studio to decide what symbols to search for and load. By default, Visual Studio
+   automatically loads symbols that were built by your opened solution, and loads any
+   additional symbols that are needed to perform common debugging operations. This reduces
+   the number of files that must be searched for and loaded by Visual Studio, which 
+   improves debugger performance. You can force additional symbols to load by clicking the
+   **Specify module filters** link.
+
+   - Select **Search for all module symbols unless excluded** to force Visual Studio to
+   load all symbols in your debugged process. This is not recommended because it may
+   slow down your debugging experience. If you select this option, you can force
+   Visual Studio to ignore certain symbols by clicking the **Specify module filters**
+   link.
+
+   ::: moniker-end
+   ::: moniker range="<= vs-2019"
 
    - Select **Load all modules, unless excluded** (the default) to load all the symbols for all modules in the symbol file location, except modules you specifically exclude. To exclude certain modules, select **Specify excluded modules**, select the **+** icon, type the names of the modules to exclude, and select **OK**.
 
    - To load only modules you specify from the symbol file locations, select **Load only specified modules**. Select **Specify included modules**, select the **+** icon, type the names of the modules to include, and then select **OK**. The symbol files for other modules are not loaded.
+   ::: moniker-end
 
 5. Select **OK**.
+
+::: moniker range=">= vs-2022"
+
+### Specify module filters
+Both the **Automatically choose what module symbols to search for** and **Search for all
+module symbols unless excluded** options allow you to have more fine control over what symbols
+are searched for while debugging. Choose **Specify module filters** to fine-tune your experience.
+
+By default, you see the following dialog when **Automatically choose what module symbols to search for** is selected:
+
+![Screenshot of specifying module filters.](media/vs-2022/specify-include-list.png)
+
+You can add a module to the filter by using the '+' icon. Module filters support simple wild-card
+matching. A '\*' matches any group of characters. For example '\*myproduct\*' will match files such
+as 'myproduct.utilities.dll' and 'entrypoint.myproduct.exe', among others.
+
+There are several additional options to further customize your experience:
+
+- **Always load symbols located next to modules** instructs visual studio to load pdb files that
+are stored in the file system beside their corresponding .dll or .exe files. This can be helpful,
+for example, when attempting to debug a deployed web app.
+
+- **Automatically load additional symbols when needed** instructs Visual Studio to search for
+symbols to perform common debug actions, such as stepping, even if the module that you will be
+stepping to is not in your project or in the modules filter. The way that searching is determined
+might be affected by your [Just My Code](just-my-code.md) settings.
+
+If you have selected **Search for all module symbols unless excluded**, then the module filter
+dialog looks like this:
+
+![Screenshot of specifying excluded modules.](media/vs-2022/specify-exclude-list.png)
+
+In this dialog, you can choose what modules you *do not* want Visual Studio to load symbols for.
+In this scenario, Visual Studio attempts to load symbols for every module in your debugged
+proces (including modules by third parties), unless you add a matching filter to exclude them.
+The only other way that this behavior will be modified is by your [Just My Code](just-my-code.md)
+settings.
+
+::: moniker-end
 
 ## Other symbol options for debugging
 
@@ -169,10 +233,10 @@ You can select additional symbol options in **Tools** > **Options** > **Debuggin
 
   You can limit the commands that *srcsrv.dll* can execute from the app's *.pdb* file by listing the allowed commands in a file named *srcsrv.ini*. Place the *srcsrv.ini* file in the same folder as *srcsrv.dll* and *devenv.exe*.
 
-  >[!IMPORTANT]
-  >Arbitrary commands can be embedded in an app's *.pdb* file, so make sure to put only the commands you want to execute into a *srcsrv.ini* file. Any attempt to execute a command not in the *srcsvr.ini* file will cause a confirmation dialog box to appear. For more information, see [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning-debugger-must-execute-untrusted-command.md).
+  > [!IMPORTANT]
+  > Arbitrary commands can be embedded in an app's *.pdb* file, so make sure to put only the commands you want to execute into a *srcsrv.ini* file. Any attempt to execute a command not in the *srcsvr.ini* file will cause a confirmation dialog box to appear. For more information, see [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning-debugger-must-execute-untrusted-command.md).
   >
-  >No validation is done on command parameters, so be careful with trusted commands. For example, if you listed *cmd.exe* in your *srcsrv.ini*, a malicious user might specify parameters on *cmd.exe* that would make it dangerous.
+  > No validation is performed on command parameters, so be careful with trusted commands. For example, if you listed *cmd.exe* in your *srcsrv.ini*, a malicious user might specify parameters on *cmd.exe* that would make it dangerous.
 
   Select this item and the child items you want. **Allow source server for partial trust assemblies (Managed only)** and **Always run untrusted source server commands without prompting** can increase the security risks.
 
@@ -236,6 +300,7 @@ During debugging, the **Modules** window shows the code modules the debugger is 
 |**Symbol Load Information**|Shows the location of a loaded symbol file, or the locations that were searched if the debugger cannot find the file.|
 |**Symbol Settings**|Opens the **Options** > **Debugging** > **Symbols** page, where you can edit and add symbol locations.|
 |**Always Load Automatically**|Adds the selected symbol file to the list of files that are automatically loaded by the debugger.|
+|**Decompile Source to Symbol File**|For .NET code, you can choose this option and then follow instructions in [Generate and embed sources for an assembly](../debugger/decompilation.md#generate-and-embed-sources-for-an-assembly).|
 
 ### Use the No Symbols Loaded/No Source Loaded pages
 

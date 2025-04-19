@@ -1,7 +1,7 @@
 ---
-title: "ClickOnce Security and Deployment"
+title: "ClickOnce Deployment and Security"
 description: Learn about Visual Studio support for ClickOnce, a deployment technology that enables you to create self-updating Windows-based applications.
-ms.date: "09/14/2023"
+ms.date: "09/23/2024"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -17,7 +17,7 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: deployment
 ---
-# ClickOnce security and deployment
+# ClickOnce deployment and security
 
 ClickOnce is a deployment technology that enables you to create self-updating Windows-based applications that can be installed and run with minimal user interaction. Visual Studio provides full support for publishing and updating applications deployed with ClickOnce technology if you have developed your projects with Visual Basic and Visual C#. For information about deploying Visual C++ applications, see [ClickOnce Deployment for Visual C++ Applications](/cpp/windows/clickonce-deployment-for-visual-cpp-applications).
 
@@ -45,7 +45,9 @@ ClickOnce is a deployment technology that enables you to create self-updating Wi
  Authenticode certificates are used to verify the authenticity of the application's publisher. By using Authenticode for application deployment, ClickOnce helps prevent a harmful program from portraying itself as a legitimate program coming from an established, trustworthy source. Optionally, certificates can also be used to sign the application and deployment manifests to prove that the files haven't been tampered with. For more information, see [ClickOnce and Authenticode](../deployment/clickonce-and-authenticode.md). Certificates can also be used to configure client computers to have a list of trusted publishers. If an application comes from a trusted publisher, it can be installed without any user interaction. For more information, see [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md).
 
 ### Code access security
- Code access security helps limit the access that code has to protected resources. In most cases, you can choose the Internet or Local Intranet zones to limit the permissions. Use the **Security** page in the **ProjectDesigner** to request the zone appropriate for the application. You can also debug applications with restricted permissions to emulate the end-user experience. For more information, see [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md).
+ Code access security helps limit the access that code has to protected resources. In most cases, you can choose the Internet or Local Intranet zones to limit the permissions. Use the **Security** page in the **Project Designer** to request the zone appropriate for the application. You can also debug applications with restricted permissions to emulate the end-user experience. For more information, see [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md).
+
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-feature-unsupported.md)]
 
 ### ClickOnce trust prompt
  If the application requests more permissions than the zone allows, the end user can be prompted to make a trust decision. The end user can decide if ClickOnce applications such as Windows Forms applications, Windows Presentation Foundation applications, console applications, XAML browser applications, and Office solutions are trusted to run. For more information, see [How to: Configure the ClickOnce trust prompt behavior](../deployment/how-to-configure-the-clickonce-trust-prompt-behavior.md).

@@ -1,7 +1,7 @@
 ---
 title: Fonts and Colors, Environment, Options dialog box
 description: Learn how to use the Fonts and Colors page in the Environment section to establish a custom font and color scheme for various user interface elements in the IDE.
-ms.date: 12/02/2022
+ms.date: 11/12/2024
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.FontsAndColors
@@ -20,6 +20,7 @@ helpviewer_keywords:
 - designers, customizing environment
 - defaults, colors
 - printers, customizing
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
@@ -92,15 +93,11 @@ Some of display items include:
 |**Selected Text**|Text that is included in the current selection when the editor has focus.|
 |**Inactive Selected Text**|Text that is included in the current selection when the editor has lost focus.|
 |**Indicator Margin**|The margin at the left of the Code Editor where breakpoints and bookmark icons are displayed.|
-|**Line Numbers**|Optional numbers that appear next to each line of code|
+|**Line Number**|Optional numbers that appear next to each line of code|
 |**Visible White Space**|Spaces, tabs and word wrap indicators|
 |**Bookmark**|Lines that have bookmarks. **Bookmark** is only visible if the indicator margin is disabled.|
 |**Brace Matching (Highlight)**|Highlighting that is typically bold formatting for matching braces.|
 |**Brace Matching (Rectangle)**|Highlighting that is typically a grey rectangle in the background.|
-|**Breakpoint (Disabled)**|Not used.|
-|**Breakpoint (Enabled)**|Specifies the highlight color for statements or lines containing simple breakpoints. This option is applicable only if statement-level breakpoints are active or the **Highlight entire source line for breakpoints or current statement** option is selected on [General, Debugging, Options Dialog Box](../../debugger/general-debugging-options-dialog-box.md).|
-|**Breakpoint (Error)**|Specifies the highlight color for statements or lines containing breakpoints that are in an error state. Applicable only if statement-level breakpoints are active or the **Highlight entire source line for breakpoints or current statement** option is selected on [General, Debugging, Options Dialog Box](../../debugger/general-debugging-options-dialog-box.md).|
-|**Breakpoint (Warning)**|Specifies the highlight color for statements or lines containing breakpoints that are in a warning state. Applicable only if statement-level breakpoints are active or the **Highlight entire source line for breakpoints or current statement** option is selected on [General, Debugging, Options Dialog Box](../../debugger/general-debugging-options-dialog-box.md).|
 |**Breakpoint - Advanced (Disabled)**|Specifies the highlight color for statements or lines containing disabled conditional or hit-counted breakpoints. Applicable only if statement-level breakpoints are active or the **Highlight entire source line for breakpoints or current statement** option is selected on [General, Debugging, Options Dialog Box](../../debugger/general-debugging-options-dialog-box.md).|
 |**Breakpoint - Advanced (Enabled)**|Specifies the highlight color for statements or lines containing conditional or hit-counted breakpoints. Applicable only if statement-level breakpoints are active or the **Highlight entire source line for breakpoints or current statement** option is selected on [General, Debugging, Options Dialog Box](../../debugger/general-debugging-options-dialog-box.md).|
 |**Breakpoint - Advanced (Error)**|Specifies the highlight color for statements or lines containing conditional or hit-counted breakpoints that are in an error state. Applicable only if statement-level breakpoints are active or the **Highlight entire source line for breakpoints or current statement** option is selected on [General, Debugging, Options Dialog Box](../../debugger/general-debugging-options-dialog-box.md).|
@@ -109,12 +106,18 @@ Some of display items include:
 |**Breakpoint - Mapped (Enabled)**|Specifies the highlight color for statements or lines containing mapped breakpoints. Applicable for ASP or ASP.NET debugging if statement-level breakpoints are active or the **Highlight entire source line for breakpoints or current statement** option is selected on [General, Debugging, Options Dialog Box](../../debugger/general-debugging-options-dialog-box.md).|
 |**Breakpoint - Mapped (Error)**|Specifies the highlight color for statements or lines containing mapped breakpoints in an error state. Applicable for ASP or ASP.NET debugging if statement-level breakpoints are active or the **Highlight entire source line for breakpoints or current statement** option is selected on [General, Debugging, Options Dialog Box](../../debugger/general-debugging-options-dialog-box.md).|
 |**Breakpoint - Mapped (Warning)**|Specifies the highlight color for statements or lines containing mapped breakpoints in a warning state. Applicable for ASP or ASP.NET debugging if statement-level breakpoints are active or the **Highlight entire source line for breakpoints or current statement** option is selected on [General, Debugging, Options Dialog Box](../../debugger/general-debugging-options-dialog-box.md).|
+|**Breakpoint (Disabled)**|Not used.|
+|**Breakpoint (Enabled)**|Specifies the highlight color for statements or lines containing simple breakpoints. This option is applicable only if statement-level breakpoints are active or the **Highlight entire source line for breakpoints or current statement** option is selected on [General, Debugging, Options Dialog Box](../../debugger/general-debugging-options-dialog-box.md).|
+|**Breakpoint (Error)**|Specifies the highlight color for statements or lines containing breakpoints that are in an error state. Applicable only if statement-level breakpoints are active or the **Highlight entire source line for breakpoints or current statement** option is selected on [General, Debugging, Options Dialog Box](../../debugger/general-debugging-options-dialog-box.md).|
+|**Breakpoint (Warning)**|Specifies the highlight color for statements or lines containing breakpoints that are in a warning state. Applicable only if statement-level breakpoints are active or the **Highlight entire source line for breakpoints or current statement** option is selected on [General, Debugging, Options Dialog Box](../../debugger/general-debugging-options-dialog-box.md).|
 |**C/C++ User Keywords**|A constant within a particular code file defined by means of the `#define` directive.|
 |**Call Return**|Specifies the highlight color for source statements or lines that indicate call return points when context is switched to a non-top stack frame when debugging.|
 |**Code Snippet Dependent Field**|A field that will be updated when the current editable field is modified.|
 |**Code Snippet Field**|Editable field when a code snippet is active.|
-|**Collapsible Text**|A block of text or code that can be toggled in and out of view within the Code Editor.|
-|**Comment**|Code comments.|
+|**Collapsed Text (Collapsed)**|A block of text or code that can be toggled in and out of view within the Code Editor.|
+|**Collapsed Text (Expanded)**|A block of text or code that can be toggled in and out of view within the Code Editor.|
+|**Collapsed Text Indicator (Collapsed)**|Sets custom or predefined colors for the collapsed indicators in the Editor.|
+|**Collapsed Text Indicator (Expanded)**|Sets custom or predefined colors for the expanded indicators in the Editor.|
 |**Compiler Error**|Blue squiggles in the editor indicating a compiler error.|
 |**Coverage Not Touched Area**|Code that has not been covered by a unit test.|
 |**Coverage Partially Touched Area**|Code that has been partially covered by a unit test.|

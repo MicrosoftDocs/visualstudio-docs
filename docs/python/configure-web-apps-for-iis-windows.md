@@ -29,7 +29,7 @@ The `web.config` file for your Python application instructs the IIS web server (
 
 If your project does not already contain a `web.config` file, you can add one by right-clicking the project directory, selecting **Add > New Item** and searching for `web.config` or creating a blank `web.config` XML file.
 
-### Configure the HttpPlatformHandler
+### Option 1 : Configure the HttpPlatformHandler
 
 The HttpPlatform module passes socket connections directly to a standalone Python process. This pass-through allows you to run any web server you like, but it requires a startup script that runs a local web server. This approach is commonly done by using a Python web framework, such as Flask or Django. You specify the script in the `<httpPlatform>` element of the `web.config` file. The `processPath` attribute points to the site extension's Python interpreter. The `arguments` attribute points to your startup script that runs a local web server, in this case `runserver.py`, and any arguments you want to provide:
 
@@ -56,12 +56,12 @@ The HttpPlatform module passes socket connections directly to a standalone Pytho
 
 In this example, the `HTTP_PLATFORM_PORT` environment variable contains the port that your local server should listen on for connections from `localhost`. This example also shows how to create another environment variable, `SERVER_PORT`. You can create and assign environment variables as needed.
 
-### Configure the FastCGI handler
+### Option 2 : Configure the FastCGI handler
 
-FastCGI is an interface that works at the request level. IIS receives incoming connections and forwards each request to a WSGI app running in one or more persistent Python processes.
+Alternatively, you can use FastCGI to configure your apps. FastCGI is an interface that works at the request level. IIS receives incoming connections and forwards each request to a WSGI app running in one or more persistent Python processes.
 
 > [!NOTE]
-> We recommend using **HttpPlatformHandler** to configure your apps, as the [WFastCGI](https://pypi.org/project/wfastcgi/) project is no longer maintained. 
+> Although you can set your project up using FastCGI, we recommend using **HttpPlatformHandler** to configure your apps, as the [WFastCGI](https://pypi.org/project/wfastcgi/) project is no longer maintained and may result in bugs. 
 
 To use FastCGI, first install and configure the wfastcgi package as described in [pypi.org/project/wfastcgi/](https://pypi.io/project/wfastcgi).
 

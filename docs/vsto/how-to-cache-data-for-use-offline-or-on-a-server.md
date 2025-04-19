@@ -31,7 +31,7 @@ ms.subservice: office-development
 
 ### To cache data in the document using code
 
-1. Declare a public field or property for the data item as a member of a host item class in your project, such as the `ThisDocumen`t class in a Word project or the `ThisWorkbook` class in an Excel project.
+1. Declare a public field or property for the data item as a member of a host item class in your project, such as the `ThisDocument` class in a Word project or the `ThisWorkbook` class in an Excel project.
 
 2. Apply the <xref:Microsoft.VisualStudio.Tools.Applications.Runtime.CachedAttribute> attribute to the member to mark the data item to be stored in the document's data cache. The following example applies this attribute to a field declaration for a <xref:System.Data.DataSet>.
 

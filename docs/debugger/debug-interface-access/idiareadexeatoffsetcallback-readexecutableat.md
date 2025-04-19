@@ -1,5 +1,5 @@
 ---
-description: "Reads the specified number of bytes starting at the specified offset from an executable file."
+description: Reads the specified number of bytes starting at the specified offset from an executable file.
 title: "IDiaReadExeAtOffsetCallback::ReadExecutableAt"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaReadExeAtOffsetCallback::ReadExecutableAt
 
 Reads the specified number of bytes starting at the specified offset from an executable file.
@@ -19,7 +20,7 @@ Reads the specified number of bytes starting at the specified offset from an exe
 ## Syntax
 
 ```C++
-HRESULT ReadExecutableAt ( 
+HRESULT ReadExecutableAt ( 
    DWORDLONG fileOffset,
    DWORD     cbData,
    DWORD*    pcbData,

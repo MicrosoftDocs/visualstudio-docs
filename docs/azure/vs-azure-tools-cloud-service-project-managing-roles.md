@@ -1,6 +1,6 @@
 ---
-title: Managing roles in Azure Cloud Services
-description: Learn how to add and remove roles in Azure Cloud Services with Visual Studio.
+title: Manage roles in Azure Cloud Services (extended support)
+description: Learn how to add and remove roles in Azure Cloud Services (extended support) with Visual Studio.
 author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
@@ -9,33 +9,34 @@ ms.date: 03/21/2017
 ms.author: ghogen
 ---
 
-# Managing roles in Azure Cloud Services with Visual Studio
+# Manage roles in Azure Cloud Services (extended support)
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
-After you have created your Azure cloud service, you can add new roles to it or remove existing roles from it. You can also import an existing project and convert it to a role. For example, you can import an ASP.NET web application and designate it as a web role.
+After you have created your Azure Cloud Services (extended support) project, you can add new roles to it or remove existing roles from it. You can also import an existing project and convert it to a role. For example, you can import an ASP.NET web application and designate it as a web role.
 
 ## Prerequisites
 
+- Visual Studio (see [Visual Studio downloads] (https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)) with the **Azure development** workload installed, and the Individual Component **.NET Framework project and item templates** installed. See [Modify Visual Studio](../install/modify-visual-studio.md).
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
-## Adding a role to an Azure cloud service
+## Adding a role to an Azure Cloud Services (extended support) project
 
-The following steps guide you through adding a web or worker role to an Azure cloud service project in Visual Studio.
+The following steps guide you through adding a web or worker role to an Azure Cloud Services (extended support) project in Visual Studio.
 
-1. Create or open an Azure cloud service project in Visual Studio.
+1. Create or open an Azure Cloud Services (extended support) project in Visual Studio.
 
 1. In **Solution Explorer**, expand the project node
 
 1. Right-click the **Roles** node to display the context menu. From the context menu, select **Add**, then select an existing web role or worker role from the current solution, or create a web or worker role project. You can also select an appropriate project, such as an ASP.NET web application project, and associate it with a role project.
 
-   ![Menu options to add a role to an Azure cloud service project](./media/vs-azure-tools-cloud-service-project-managing-roles/add-role.png)
+   ![Screenshot that shows menu option to add a role to an Azure Cloud Services (extended support) project.](./media/vs-azure-tools-cloud-service-project-managing-roles/add-role.png)
 
-## Removing a role from an Azure cloud service
+## Removing a role from an Azure Cloud Services (extended support) project
 
-The following steps guide you through removing a web or worker role from an Azure cloud service project in Visual Studio.
+The following steps guide you through removing a web or worker role from an Azure Cloud Services (extended support) project in Visual Studio.
 
-1. Create or open an Azure cloud service project in Visual Studio.
+1. Create or open an Azure Cloud Services (extended support) project in Visual Studio.
 
 1. In **Solution Explorer**, expand the project node
 
@@ -43,35 +44,8 @@ The following steps guide you through removing a web or worker role from an Azur
 
 1. Right-click the node you want to remove, and, from the context menu, select **Remove**.
 
-   ![Menu options to add a role to an Azure cloud service](./media/vs-azure-tools-cloud-service-project-managing-roles/remove-role.png)
-
-## Reading a role to an Azure cloud service project
-
-If you remove a role from your cloud service project but later decide to add the role back to the project, only the role declaration and basic attributes, such as endpoints and diagnostics information, are added. No additional resources or references are added to the `ServiceDefinition.csdef` file or to the `ServiceConfiguration.cscfg` file. If you want to add this information, you need to manually add it back into these files.
-
-For example, you might remove a web service role and later you decide to add this role back into your solution. If you do this, an error occurs. To prevent this error, you have to add the `<LocalResources>` element shown in the following XML back into the `ServiceDefinition.csdef` file. Use the name of the web service role that you added back into the project as part of the name attribute for the **\<LocalStorage>** element. In this example, the name of the web service role is **WCFServiceWebRole1**.
-
-```xml
-<WebRole name="WCFServiceWebRole1">
-    <Sites>
-      <Site name="Web">
-        <Bindings>
-          <Binding name="Endpoint1" endpointName="Endpoint1" />
-        </Bindings>
-      </Site>
-    </Sites>
-    <Endpoints>
-      <InputEndpoint name="Endpoint1" protocol="http" port="80" />
-    </Endpoints>
-    <Imports>
-      <Import moduleName="Diagnostics" />
-    </Imports>
-    <LocalResources>
-      <LocalStorage name="WCFServiceWebRole1.svclog" sizeInMB="1000" cleanOnRoleRecycle="false" />
-    </LocalResources>
-</WebRole>
-```
+   ![Screenshot that shows menu option to remove a role to an Azure Cloud Services (extended support) project.](./media/vs-azure-tools-cloud-service-project-managing-roles/remove-role.png)
 
 ## Related content
 
-- [Configure the Roles for an Azure cloud service with Visual Studio](vs-azure-tools-configure-roles-for-cloud-service.md)
+- [Configure the Roles for an Azure Cloud Services (extended support) project with Visual Studio](vs-azure-tools-configure-roles-for-cloud-service.md).

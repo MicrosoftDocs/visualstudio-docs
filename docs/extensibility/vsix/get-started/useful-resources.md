@@ -15,15 +15,15 @@ These resources can help you better navigate the world of Visual Studio extensib
 
 The following video introduces useful resources for Visual Studio extension authors.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWP8Kw]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=6348394e-2792-47d4-813c-7f01d6e343fa]
 
 ## Resources
 Here are some useful resources that can help you in your extension journey.
 
 * [VSIX Community on GitHub](https://github.com/VsixCommunity)
 * [VSIX Community Samples repo](https://github.com/VsixCommunity/Samples)
-* [Official VS SDK documentation](../../index.yml)
-* [VS SDK Samples repo](https://github.com/Microsoft/VSSDK-Extensibility-Samples)
+* [Official VSSDK documentation](../../index.yml)
+* [VSSDK Samples repo](https://github.com/Microsoft/VSSDK-Extensibility-Samples)
 * [Extensibility chatroom on Gitter.im](https://gitter.im/Microsoft/extendvs)
 
 ## Know how to search for help

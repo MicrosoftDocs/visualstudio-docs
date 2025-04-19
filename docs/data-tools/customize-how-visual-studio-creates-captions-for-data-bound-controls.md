@@ -18,7 +18,7 @@ ms.subservice: data-tools
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
-When you drag items from the [Data Sources window](add-new-data-sources.md#data-sources-window) onto a designer, a special consideration comes into play: the column names in the caption labels are reformatted into a more readable string when two or more words are found to be concatenated together.
+When you drag items from the [Data Sources window](add-new-data-sources.md#work-with-data-sources-and-windows-forms) onto a designer, a special consideration comes into play: the column names in the caption labels are reformatted into a more readable string when two or more words are found to be concatenated together.
 
 You can customize the way in which these labels are created by setting the **SmartCaptionExpression**, **SmartCaptionReplacement**, and **SmartCaptionSuffix** values in the **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\16.0\Data Designers** registry key.
 
@@ -39,7 +39,7 @@ The following table lists the internal default settings for these registry value
 
 |Registry item|Default value|Explanation|
 |-------------------|-------------------|-----------------|
-|**SmartCaptionExpression**|**(\\\p{Ll})(\\\p{Lu})&#124;_+**|Matches a lowercase character followed by an uppercase character or an underscore.|
+|**SmartCaptionExpression**|`(\\p{Ll})(\\p{Lu})|_+`|Matches a lowercase character followed by an uppercase character or an underscore.|
 |**SmartCaptionReplacement**|**$1 $2**|The **$1** represents any characters matched in the first parentheses of the expression, and the **$2** represents any characters matched in the second parentheses. The replacement is the first match, a space, and then the second match.|
 |**SmartCaptionSuffix**|**:**|Represents a character appended to the returned string. For example, if the caption is `Company Name`, the suffix makes it `Company Name:`|
 

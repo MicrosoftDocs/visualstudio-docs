@@ -8,6 +8,7 @@ f1_keywords:
 - vb.ProjectPropertiesAdvancedCompile
 helpviewer_keywords:
 - Advanced Compiler Settings dialog box
+ms.custom: "ide-ref"
 author: ghogen
 ms.author: ghogen
 manager: ghogen

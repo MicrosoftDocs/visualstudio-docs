@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that specifies whether the public symbol refers to a function."
+description: Retrieves a flag that specifies whether the public symbol refers to a function.
 title: "IDiaSymbol::get_function"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_function
 
 Retrieves a flag that specifies whether the public symbol refers to a function.
@@ -19,7 +20,7 @@ Retrieves a flag that specifies whether the public symbol refers to a function.
 ## Syntax
 
 ```C++
-HRESULT get_function ( 
+HRESULT get_function ( 
    BOOL* pRetVal
 );
 ```

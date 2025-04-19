@@ -1,7 +1,7 @@
 ### YamlMime:Landing
 
 title: VisualStudio.Extensibility SDK
-summary: Learn about the new VisualStudio.Extensibility SDK, current in preview.
+summary: Learn about the new VisualStudio.Extensibility SDK, currently in preview.
 
 metadata:
   title: VisualStudio.Extensibility SDK
@@ -53,6 +53,8 @@ landingContent:
             url: ./output-window/output-window.md
           - text: Project
             url: ./project/project.md
+          - text: Settings
+            url: ./settings/settings.md
           - text: Tool windows
             url: ./tool-window/tool-window.md
           - text: User prompts

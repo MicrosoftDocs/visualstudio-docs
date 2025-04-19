@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaStackFrame::get_systemExceptionHandling
 
 Retrieves a flag that indicates whether system exception handling is in effect.
@@ -19,7 +20,7 @@ Retrieves a flag that indicates whether system exception handling is in effect.
 ## Syntax
 
 ```C++
-HRESULT get_systemExceptionHandling ( 
+HRESULT get_systemExceptionHandling ( 
    BOOL* pRetVal
 );
 ```

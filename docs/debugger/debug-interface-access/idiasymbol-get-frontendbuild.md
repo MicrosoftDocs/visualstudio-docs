@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the front end build number."
+description: Retrieves the front end build number.
 title: "IDiaSymbol::get_frontEndBuild"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_frontEndBuild
 
 Retrieves the front end build number.
@@ -19,7 +20,7 @@ Retrieves the front end build number.
 ## Syntax
 
 ```C++
-HRESULT get_frontEndBuild ( 
+HRESULT get_frontEndBuild ( 
    DWORD* pRetVal
 );
 ```

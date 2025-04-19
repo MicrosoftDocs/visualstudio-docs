@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that specifies whether the user-defined data type has nested type definitions."
+description: Retrieves a flag that specifies whether the user-defined data type has nested type definitions.
 title: "IDiaSymbol::get_hasNestedTypes"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol::get_hasNestedTypes
 
 Retrieves a flag that specifies whether the user-defined data type has nested type definitions.
@@ -19,7 +20,7 @@ Retrieves a flag that specifies whether the user-defined data type has nested ty
 ## Syntax
 
 ```C++
-HRESULT get_hasNestedTypes ( 
+HRESULT get_hasNestedTypes ( 
    BOOL* pRetVal
 );
 ```

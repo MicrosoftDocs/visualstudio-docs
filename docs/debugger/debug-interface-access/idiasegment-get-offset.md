@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the offset, in segments, where the section begins."
+description: Retrieves the offset, in segments, where the section begins.
 title: "IDiaSegment::get_offset"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSegment::get_offset
 
 Retrieves the offset, in segments, where the section begins.
@@ -19,7 +20,7 @@ Retrieves the offset, in segments, where the section begins.
 ## Syntax
 
 ```C++
-HRESULT get_offset ( 
+HRESULT get_offset ( 
    DWORD* pRetVal
 );
 ```

@@ -26,7 +26,7 @@ If Visual Studio detects slow startup, a pop-up message appears, alerting you to
 
 The dialog box lists the extensions and tools windows that are affecting startup performance. You can change extension and tool window settings to improve startup performance.
 
-## <a name="extensions" />To change extension settings to improve startup, solution load, and typing performance
+## <a name="extensions"></a> To change extension settings to improve startup, solution load, and typing performance
 
 1. Open the **Performance Manager** dialog box by choosing **Help** > **Visual Studio Performance Manager** from the menu bar.
 
@@ -38,7 +38,7 @@ The dialog box lists the extensions and tools windows that are affecting startup
 
 You can always re-enable the extension for future sessions by using the **Extension Manager** or the **Visual Studio Performance Manager** dialog box.
 
-## <a name="tool-windows" />To change tool window settings to improve startup time
+## <a name="tool-windows"></a> To change tool window settings to improve startup time
 
 1. Open the **Performance Manager** dialog box by choosing **Help** > **Visual Studio Performance Manager** from the menu bar.
 

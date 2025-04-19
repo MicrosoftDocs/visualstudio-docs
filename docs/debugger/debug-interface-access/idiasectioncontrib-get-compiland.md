@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a reference to the compiland symbol that contributed this section."
+description: Retrieves a reference to the compiland symbol that contributed this section.
 title: "IDiaSectionContrib::get_compiland"
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSectionContrib::get_compiland
 
 Retrieves a reference to the compiland symbol that contributed this section.
@@ -19,7 +20,7 @@ Retrieves a reference to the compiland symbol that contributed this section.
 ## Syntax
 
 ```C++
-HRESULT get_compiland ( 
+HRESULT get_compiland ( 
    IDiaSymbol** pRetVal
 );
 ```
