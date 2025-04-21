@@ -8,6 +8,7 @@ f1_keywords:
 - Microsoft.VisualStudio.Publish.BaseProvider.Dialog.Bootstrapper
 helpviewer_keywords:
 - Prerequisites dialog box
+ms.custom: "ide-ref"
 author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs

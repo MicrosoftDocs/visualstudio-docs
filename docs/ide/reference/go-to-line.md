@@ -6,6 +6,7 @@ ms.topic: reference
 helpviewer_keywords:
 - code, locating lines
 - Go To Line dialog box
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs

@@ -11,6 +11,7 @@ helpviewer_keywords:
 - IntelliSense [C#], wavy underlines
 - wavy underlines
 - Text Editor Options dialog box, IntelliSense
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs

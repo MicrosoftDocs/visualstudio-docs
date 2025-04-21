@@ -20,6 +20,7 @@ helpviewer_keywords:
 - designers, customizing environment
 - defaults, colors
 - printers, customizing
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
