@@ -7,6 +7,7 @@ f1_keywords:
   - "vs.UserNotificationsToolWindowPane"
 helpviewer_keywords:
   - "User Notifications tool window"
+ms.custom: "ide-ref"
 author: ghogen
 ms.author: ghogen
 manager: mijacobs

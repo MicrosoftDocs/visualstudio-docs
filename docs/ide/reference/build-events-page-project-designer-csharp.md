@@ -11,6 +11,7 @@ helpviewer_keywords:
 - Project Designer, Build Events page
 - pre-build events
 - post-build events
+ms.custom: "ide-ref"
 author: ghogen
 ms.author: ghogen
 manager: mijacobs

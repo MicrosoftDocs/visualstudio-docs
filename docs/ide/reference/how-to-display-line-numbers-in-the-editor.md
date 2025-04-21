@@ -8,6 +8,7 @@ helpviewer_keywords:
 - Code Editor, line numbers
 - editors, line numbers
 - code, line number displaying
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs

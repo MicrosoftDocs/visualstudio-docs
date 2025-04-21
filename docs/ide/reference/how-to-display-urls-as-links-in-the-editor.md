@@ -7,6 +7,7 @@ helpviewer_keywords:
 - URLs, opening
 - Code Editor, displaying URLs
 - editors, displaying URLs
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs

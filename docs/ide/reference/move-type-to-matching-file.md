@@ -3,6 +3,7 @@ title: Move type to matching file refactoring
 description: Move a type to a separate file with the same name. Right-click the type, select Quick Actions and Refactorings, and select Move Type to <TypeName>.cs.
 ms.date: 01/26/2018
 ms.topic: reference
+ms.custom: "ide-ref"
 author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
