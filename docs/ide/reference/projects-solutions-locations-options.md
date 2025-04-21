@@ -5,6 +5,7 @@ ms.date: 07/26/2019
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Projects.Locations
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs

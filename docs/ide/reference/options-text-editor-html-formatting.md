@@ -6,6 +6,7 @@ ms.subservice: general-ide
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.HTML.Format
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs

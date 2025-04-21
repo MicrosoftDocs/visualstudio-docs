@@ -8,6 +8,7 @@ f1_keywords:
 - cs.ProjectPropertiesApplication
 helpviewer_keywords:
 - Project Designer
+ms.custom: "ide-ref"
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs

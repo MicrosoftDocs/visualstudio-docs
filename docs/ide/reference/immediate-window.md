@@ -11,6 +11,7 @@ helpviewer_keywords:
 - design-time expression evaluation
 - Immediate window
 - first-chance exception notifications
+ms.custom: "ide-ref"
 author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
