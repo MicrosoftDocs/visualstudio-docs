@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "cl.exe compiler, file extensions"
   - "extensions, files built by C or C++ compiler"
   - "BuildLog.htm"
+ms.custom: "ide-ref"
 author: tylermsft
 ms.author: twhitney
 manager: markl

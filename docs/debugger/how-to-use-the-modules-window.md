@@ -2,7 +2,7 @@
 title: View DLLs and executables in Visual Studio
 description: View DLLs and executables (.exe files) that your app uses in the Modules window during a debugging session in Visual Studio.
 titleSuffix: Visual Studio Modules window
-ms.date: 11/04/2018
+ms.date: 04/16/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.modules
@@ -31,7 +31,7 @@ During Visual Studio debugging, the **Modules** window lists and shows informati
 > [!NOTE]
 > The Modules window is not available for SQL or script debugging.
 
-## Use the Modules window
+## View modules
 
 To open the Modules window, while you're debugging, select **Debug** > **Windows** > **Modules** (or press **Ctrl + Alt + U**).
 
@@ -39,7 +39,9 @@ By default, the **Modules** window sorts modules by load order. To sort by any w
 
 ## Load symbols
 
-The **Symbol Status** column in the **Modules** window shows which modules have debugging symbols loaded. If the status is **Skipped loading symbols**, **Cannot find or open the PDB file**, or **Loading disabled by include/exclude setting**, you can load symbols manually. For more information about loading and using symbols, see [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
+The **Symbol Status** column in the **Modules** window shows which modules have debugging symbols loaded. If the status is **Skipped loading symbols**, **Cannot find or open the PDB file**, or **Loading disabled by include/exclude setting**, you can load symbols manually.
+
+- For more information about loading and using symbols, see [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
 **To load symbols manually:**
 
@@ -48,6 +50,12 @@ The **Symbol Status** column in the **Modules** window shows which modules have 
    - Select **Symbol Load Information** for details about why the symbols didn't load.
 
    - Select **Load Symbols** to load the symbols manually.
+
+   - For .NET code, you can choose **Decompile Source to Symbol File** and then follow instructions in [Generate and embed sources for an assembly](../debugger/decompilation.md#generate-and-embed-sources-for-an-assembly).
+   
+     ::: moniker range=">=vs-2022"
+     Starting in Visual Studio 2022 version 17.7, you can also autodecompile .NET code. For more information, see [Autodecompile code](../debugger/decompilation.md#autodecompile-code).
+     ::: moniker-end
 
 1. If the symbols don't load, select **Symbol Settings** to open the **Options** dialog, and specify or change symbol loading locations.
 

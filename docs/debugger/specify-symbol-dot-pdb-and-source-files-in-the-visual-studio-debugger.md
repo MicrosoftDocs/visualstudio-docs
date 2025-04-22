@@ -300,6 +300,7 @@ During debugging, the **Modules** window shows the code modules the debugger is 
 |**Symbol Load Information**|Shows the location of a loaded symbol file, or the locations that were searched if the debugger cannot find the file.|
 |**Symbol Settings**|Opens the **Options** > **Debugging** > **Symbols** page, where you can edit and add symbol locations.|
 |**Always Load Automatically**|Adds the selected symbol file to the list of files that are automatically loaded by the debugger.|
+|**Decompile Source to Symbol File**|For .NET code, you can choose this option and then follow instructions in [Generate and embed sources for an assembly](../debugger/decompilation.md#generate-and-embed-sources-for-an-assembly).|
 
 ### Use the No Symbols Loaded/No Source Loaded pages
 

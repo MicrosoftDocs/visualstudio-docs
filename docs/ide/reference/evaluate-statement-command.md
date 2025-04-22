@@ -8,6 +8,7 @@ f1_keywords:
 helpviewer_keywords:
 - Debug.EvaluateStatement command
 - Evaluate Statement command
+ms.custom: "ide-ref"
 author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs

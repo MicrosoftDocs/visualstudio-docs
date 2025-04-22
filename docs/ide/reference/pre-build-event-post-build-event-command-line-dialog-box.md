@@ -29,6 +29,7 @@ helpviewer_keywords:
 - $(SolutionFileName)
 - $(ProjectName)
 - build events, macros
+ms.custom: "ide-ref"
 author: ghogen
 ms.author: ghogen
 manager: mijacobs

@@ -7,6 +7,7 @@ f1_keywords:
 - vb.ProjectPropertiesAdvancedServices
 helpviewer_keywords:
 - Advanced Settings for Services dialog box
+ms.custom: "ide-ref"
 author: ghogen
 ms.author: ghogen
 manager: mijacobs

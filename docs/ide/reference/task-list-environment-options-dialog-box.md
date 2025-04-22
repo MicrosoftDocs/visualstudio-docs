@@ -17,6 +17,7 @@ helpviewer_keywords:
 - comments, comment tasks in Task List
 - tokens, and the Task List
 - Task List, comment tasks
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
