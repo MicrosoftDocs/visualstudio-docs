@@ -21,10 +21,10 @@ namespace CS
         private void customersDataGridView_DoubleClick(object sender, EventArgs e)
         {
             System.Data.DataRowView SelectedRowView;
-            NorthwindDataSet.CustomersRow SelectedRow;
+            NorthwndDataSet.CustomersRow SelectedRow;
 
             SelectedRowView = (System.Data.DataRowView)customersBindingSource.Current;
-            SelectedRow = (NorthwindDataSet.CustomersRow)SelectedRowView.Row;
+            SelectedRow = (NorthwndDataSet.CustomersRow)SelectedRowView.Row;
 
             Form2 OrdersForm = new Form2();
             OrdersForm.LoadOrders(SelectedRow.CustomerID);
@@ -43,14 +43,14 @@ namespace CS
         {
             this.Validate();
             this.customersBindingSource.EndEdit();
-            this.customersTableAdapter.Update(this.northwindDataSet.Customers);
+            this.customersTableAdapter.Update(this.NorthwndDataSet.Customers);
         }
 
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'northwindDataSet1.Customers' table. You can move, or remove it, as needed.
-            this.customersTableAdapter.Fill(this.northwindDataSet.Customers);
+            // TODO: This line of code loads data into the 'NorthwndDataSet1.Customers' table. You can move, or remove it, as needed.
+            this.customersTableAdapter.Fill(this.NorthwndDataSet.Customers);
         }
     }
 }
