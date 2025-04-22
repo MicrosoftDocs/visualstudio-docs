@@ -8,15 +8,15 @@ namespace CS
         //<Snippet1>
         internal void LoadOrders(String CustomerID)
         {
-            ordersTableAdapter.FillByCustomerID(northwndDataSet.Orders, CustomerID);
+            ordersTableAdapter.FillByCustomerID(northwindDataSet.Orders, CustomerID);
         }
         //</Snippet1>
 
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'northwndDataSet.Orders' table. You can move, or remove it, as needed.
-            //this.ordersTableAdapter.Fill(this.northwndDataSet.Orders);
+            // TODO: This line of code loads data into the 'northwindDataSet.Orders' table. You can move, or remove it, as needed.
+            //this.ordersTableAdapter.Fill(this.northwindDataSet.Orders);
         }
 
 
@@ -30,7 +30,7 @@ namespace CS
         {
             this.Validate();
             this.ordersBindingSource.EndEdit();
-            this.ordersTableAdapter.Update(this.northwndDataSet.Orders);
+            this.ordersTableAdapter.Update(this.northwindDataSet.Orders);
 
         }
     }
