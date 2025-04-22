@@ -63,7 +63,7 @@ The following steps guide you through creating a basic ASP.NET Core app that you
 
 1. On the **Container Registry** tab, select the **Create a new Azure Container Registry** option at the bottom:
 
-   :::image type="content" source="media/container-tools/vs-2019/select-existing-or-create-new-azure-container-registry.png" border="false" alt-text="Screenshot of the Publish dialog that shows how to choose Create New Azure container registry.":::
+   :::image type="content" source="media/container-tools/vs-2019/select-existing-or-create-new-azure-container-registry.png" border="false" alt-text="Screenshot of the Publish dialog that shows how to choose Create New Azure Container Registry.":::
 
 1. On the **Azure Container Registry** page, enter your values for the new resource:
 
@@ -75,7 +75,7 @@ The following steps guide you through creating a basic ASP.NET Core app that you
    | **[SKU](/azure/container-registry/container-registry-skus)** | "Standard" | Select the service tier of the container registry. |
    | **Registry Location** | A nearby location | Choose a location in a [region](https://azure.microsoft.com/explore/global-infrastructure/geographies/) close to you or close to other services that you expect to use the container registry. |
 
-   :::image type="content" source="media/hosting-web-apps-in-docker/vs-azure-container-registry-provisioning-dialog-2019.png" border="false" alt-text="Screenshot that shows how to enter values in the dialog to create a new Azure container registry.":::
+   :::image type="content" source="media/hosting-web-apps-in-docker/vs-azure-container-registry-provisioning-dialog-2019.png" border="false" alt-text="Screenshot that shows how to enter values in the dialog to create a new Azure Container Registry.":::
 
 1. After you enter the resource values, select **Create**.
 
@@ -97,7 +97,7 @@ The following steps guide you through creating a basic ASP.NET Core app that you
 
 1. On the **Registry** tab, select the **Create new** (+) option at the right:
 
-   :::image type="content" source="media/container-tools/vs-2022/select-existing-or-create-new-azure-container-registry.png" border="false" alt-text="Screenshot of the Publish dialog that shows how to choose Create New Azure container registry.":::
+   :::image type="content" source="media/container-tools/vs-2022/select-existing-or-create-new-azure-container-registry.png" border="false" alt-text="Screenshot of the Publish dialog that shows how to choose Create New Azure Container Registry.":::
 
 1. Fill in your desired values in the **Azure Container Registry** screen.
 
@@ -109,7 +109,7 @@ The following steps guide you through creating a basic ASP.NET Core app that you
    | **[SKU](/azure/container-registry/container-registry-skus)** | "Standard" | Select the service tier of the container registry. |
    | **Registry Location** | A nearby location | Choose a location in a [region](https://azure.microsoft.com/explore/global-infrastructure/geographies/) close to you or close to other services that you expect to use the container registry. |
 
-   :::image type="content" source="media/container-tools/vs-2022/vs-azure-container-registry-provisioning-dialog.png" border="false" alt-text="Screenshot that shows how to enter values in the dialog to create a new Azure container registry.":::
+   :::image type="content" source="media/container-tools/vs-2022/vs-azure-container-registry-provisioning-dialog.png" border="false" alt-text="Screenshot that shows how to enter values in the dialog to create a new Azure Container Registry.":::
 
 1. After you enter the resource values, select **Create**.
 
