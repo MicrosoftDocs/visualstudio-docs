@@ -1,7 +1,7 @@
 ---
 description: "Describes the properties of a symbol instance."
 title: "IDiaSymbol"
-ms.date: "07/08/2024"
+ms.date: "04/22/2025"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -27,7 +27,7 @@ IDiaSymbol : IUnknown
 The following table shows the methods of `IDiaSymbol`.
 
 > [!NOTE]
-> Symbols will return meaningful data for only some of these methods, depending on the type of symbol. If a method returns `S_OK`, then that method has returned meaningful data.
+> Symbols will return meaningful data for only some of these methods, depending on the type of symbol. If a method returns `S_OK`, then that method has returned meaningful data. For a list of symbol types, see [Lexical Hierarchy of Symbol Types](../debug-interface-access/lexical-hierarchy-of-symbol-types.md).
 
 |Method|Description|
 |------------|-----------------|
