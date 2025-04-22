@@ -115,7 +115,7 @@ The publishing features of Visual Studio can handle creating these resources for
         - Select **Ok** to close the container apps environment dialog.
     - Select **Create** to close the original container apps dialog. Visual Studio creates the container app resource in Azure.
 1. Once the resource is created, make sure it's selected in the list of container apps, and then select **Next**.
-1. You'll need to create an Azure container registry to store the published image artifact for your app. Select the green **+** icon on the **Container Registry** screen.
+1. You'll need to create an Azure Container Registry to store the published image artifact for your app. Select the green **+** icon on the **Container Registry** screen.
 
     :::image type="content" source="./media/end-to-end-deployment-entity-framework-core-github-actions/visual-studio-container-registry.png" lightbox="./media/end-to-end-deployment-entity-framework-core-github-actions/visual-studio-container-registry-large.png" alt-text="A screenshot showing how to create a new container registry.":::
 
