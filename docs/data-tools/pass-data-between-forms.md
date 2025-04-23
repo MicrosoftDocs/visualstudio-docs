@@ -61,7 +61,7 @@ In this tutorial, you complete the following tasks:
 
 1. Select either **C#** or **Visual Basic** from the **All languages** dropdown list, **Windows** from the **All platforms** dropdown list, and **Desktop** from the **All project types** list.
 
-1. Select **Windows Forms App (.NET Framework)**, and then select **Next**.
+1. Select **Windows Forms App (.NET Framework)** from the project templates list, and then select **Next**.
 
 1. Name the project **PassingDataBetweenForms**, select **Next**, and then select **Create**.
 
@@ -77,7 +77,7 @@ The **PassingDataBetweenForms** project is created and added to **Solution Explo
 
 1. On the **Choose a Database Model** page, verify that **Dataset** is specified and select **Next**.
 
-1. On the **Choose Your Data Connection** page, if a data connection to the Northwind sample database is available, select it, and proceed to the **Choose your Database Objects** step. Otherwise, select **New Connection**.
+1. On the **Choose Your Data Connection** page, if a data connection to the Northwind sample database is already available, select it, and proceed to the **Choose your Database Objects** step. Otherwise, select **New Connection**.
 
 1. On the **Choose Data Source** screen, select **Microsoft SQL Server Database File**, and then select **Continue**.
 
@@ -99,9 +99,9 @@ The **NorthwindDataSet** is added to your project, and the **Customers** and **O
 
 ## Populate the first form
 
-To create a data-bound grid, drag the **Customers** node from the **Data Sources** window onto **Form1**.
+- To create a data-bound grid, drag the **Customers** node from the **Data Sources** window onto **Form1**.
 
-A <xref:System.Windows.Forms.DataGridView> control and a (<xref:System.Windows.Forms.BindingNavigator>) tool strip for navigating records appear on **Form1**. A [NorthwindDataSet](dataset-tools-in-visual-studio.md), `CustomersTableAdapter`, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.
+  A <xref:System.Windows.Forms.DataGridView> control and a <xref:System.Windows.Forms.BindingNavigator> tool strip for navigating records appear on **Form1**. A [NorthwindDataSet](dataset-tools-in-visual-studio.md), `CustomersTableAdapter`, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.
 
 ## Create the second form
 
@@ -113,9 +113,9 @@ Create a second form to pass data to.
 
 1. Drag the main **Orders** node from the **Data Sources** window onto **Form2**.
 
-   A <xref:System.Windows.Forms.DataGridView> and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on **Form2**. A [NorthwindDataSet](dataset-tools-in-visual-studio.md), `CustomersTableAdapter`, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.
+   A <xref:System.Windows.Forms.DataGridView> and a <xref:System.Windows.Forms.BindingNavigator> tool strip for navigating records appear on **Form2**. A [NorthwindDataSet](dataset-tools-in-visual-studio.md), `CustomersTableAdapter`, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.
 
-1. Delete the **OrdersBindingNavigator** from the component tray. The **OrdersBindingNavigator** disappears from **Form2**.
+1. Delete the **OrdersBindingNavigator** from the component tray. The **BindingNavigator** disappears from **Form2**.
 
 ## Add a TableAdapter query
 
@@ -167,7 +167,7 @@ Add a `TableAdapter` query to Form2 that loads orders for the customer selected 
 
 1. In the **Properties** window, select the **Events** icon in the top toolbar.
 
-1. Double-click the **DoubleClick** event.
+1. Double-click the **DoubleClick** event to open the code editor.
 
 1. In the code editor, update the method definition to match the following sample:
 
