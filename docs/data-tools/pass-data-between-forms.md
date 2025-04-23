@@ -1,6 +1,6 @@
 ---
-title: Pass data between forms controls (.NET Framework)
-description: Pass data between Windows Forms controls in .NET Framework application development with Visual Studio and create a TableAdapter query to fetch customer orders.
+title: Pass data between forms (.NET Framework)
+description: Pass data between Windows Forms in .NET Framework application development with Visual Studio and create a TableAdapter query to fetch customer orders.
 ms.date: 04/22/2025
 ms.topic: how-to
 dev_langs:
@@ -16,6 +16,8 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
+
+#customer intent: I want to know how to pass dataset data between forms in a Windows Forms (.NET Framework) application so that I understand one way to pass data between forms.
 ---
 
 # Pass data between forms
