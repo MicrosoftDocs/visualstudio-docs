@@ -1,6 +1,6 @@
 ---
 title: Pass data between forms (.NET Framework)
-description: Pass data between Windows Forms in .NET Framework application development with Visual Studio and create a TableAdapter query to fetch customer orders.
+description: Pass data between Windows Forms in .NET Framework application development with Visual Studio and create a TableAdapter query that fetches orders per customer.
 ms.date: 04/22/2025
 ms.topic: how-to
 dev_langs:
@@ -24,7 +24,7 @@ ms.subservice: data-tools
 
 [!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
-This tutorial provides step-by-step instructions for passing data from one form to another. Using the Customers and Orders tables from the Northwind sample database, one form allows users to select a customer, and a second form displays the selected customer's orders. This tutorial shows how to create a method on the second form that receives data from the first form.
+This tutorial provides step-by-step instructions for passing data from one form to another. By using the Customers and Orders tables from the Northwind sample database, one form allows users to select a customer, and a second form displays the selected customer's orders. This tutorial shows how to create a method on the second form that receives data from the first form.
 
 In this tutorial, you complete the following tasks:
 
@@ -32,7 +32,7 @@ In this tutorial, you complete the following tasks:
 - Create and configure a dataset by using the **Data Source Configuration Wizard**.
 - Select the control to create on the form when you drag items from the **Data Sources** window. For more information, see [Set the control to be created when dragging from the Data Sources window](set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
 - Create a data-bound control by dragging items from the **Data Sources** window onto a form.
-- Create a second form with a grid to display data.
+- Create a second form with a grid that displays data.
 - Create a `TableAdapter` query to fetch orders for a specific customer.
 - Pass data between forms.
 
@@ -129,7 +129,7 @@ Add a `TableAdapter` query to Form2 that loads orders for the customer selected 
 
 1. Leave the default option of **SELECT which returns rows** and select **Next**.
 
-1. In **What data should the table load**, to return `Orders` based on the `CustomerID`, add a `WHERE` clause to the end of the query. The query should look similar to the following:
+1. In **What data should the table load**, to return `Orders` based on the `CustomerID`, add a `WHERE` clause to the end of the query. The final query should look similar to the following code:
 
    ```sql
    SELECT OrderID, CustomerID, OrderDate, RequiredDate, ShippedDate, ShipVia, Freight, ShipName, ShipAddress, ShipCity, ShipRegion, ShipPostalCode, ShipCountry
