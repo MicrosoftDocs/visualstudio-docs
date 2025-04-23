@@ -384,7 +384,7 @@ Once the develop and debug cycle of the app is completed, you can create a produ
 
 1. Select **Create**, and then select **Finish**.
 
-   ![Screenshot showing Select or create a new Azure container registry.](media/container-tools-react/vs-2019/publish-dialog2.png)
+   ![Screenshot showing Select or create a new Azure Container Registry.](media/container-tools-react/vs-2019/publish-dialog2.png)
 
    When the publish process ends, you can review the publish settings, and edit them, when needed, or publish the image again using the **Publish** button.
 
@@ -420,7 +420,7 @@ Once the develop and debug cycle of the app is completed, you can create a produ
 
 1. Select **Create**, and then select **Finish**.
 
-   ![Screenshot showing Select or create a new Azure container registry.](media/container-tools-react/vs-2022/publish-dialog-2.png)
+   ![Screenshot showing Select or create a new Azure Container Registry.](media/container-tools-react/vs-2022/publish-dialog-2.png)
 
    When the publish process ends, you can review the publish settings, and edit them, when needed, or publish the image again using the **Publish** button.
 

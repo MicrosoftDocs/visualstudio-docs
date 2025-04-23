@@ -134,7 +134,7 @@ Once the develop and debug cycle of the app is completed, you can create a produ
 
 1. Choose **Create New Azure Container Registry**.
 
-   ![Screenshot of Publish dialog - choose Create a new Azure container registry.](media/container-tools/vs-2022/select-existing-or-create-new-azure-container-registry.png)
+   ![Screenshot of Publish dialog - choose Create a new Azure Container Registry.](media/container-tools/vs-2022/select-existing-or-create-new-azure-container-registry.png)
 
 1. Fill in your desired values in the **Create a new Azure Container Registry**.
 
