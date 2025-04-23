@@ -1,7 +1,7 @@
 ---
 description: Retrieves the children of the symbol.
 title: "IDiaSymbol::findChildren"
-ms.date: "11/04/2016"
+ms.date: "04/22/2025"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -50,6 +50,8 @@ HRESULT findChildren (
 
 ## Remarks
  This method is identical to calling the [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md) method with this symbol as the first parameter.
+
+ This method finds only the children of the current symbol. For example, public symbols (SymTagPublicSymbol) are children only of the global scope, regardless of whether the Function symbol or Data symbol that they refer to might be children of other symbols (such as Compilands, types, and others). For a list of symbol types, see [Lexical Hierarchy of Symbol Types](../debug-interface-access/lexical-hierarchy-of-symbol-types.md).
 
 ## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
