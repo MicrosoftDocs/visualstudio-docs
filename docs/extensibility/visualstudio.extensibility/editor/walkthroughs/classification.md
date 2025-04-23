@@ -1,0 +1,69 @@
+---
+title: Customizing classification in the editor
+description: A walkthrough of how to provide your own classification in the Visual Studio editor using extensions
+ms.date: 4/23/2025
+ms.topic: conceptual
+ms.author: maprospe
+monikerRange: ">=vs-2022"
+author: tinaschrepfer
+manager: mijacobs
+ms.subservice: extensibility-integration
+---
+
+# Extending Visual Studio editor with a new classification tagger
+
+A Visual Studio extension can classify a document's syntax allowing for
+the text to be colorized accordingly. This is achieved by contributing
+a tagger that returns `ClassificationTag` values.
+
+A detailed description of how to provide a tagger can be found in the
+[Extending Visual Studio editor with a new tagger](./taggers.md) article.
+
+Following the article linked above, we implement a tagger provider and a
+tagger:
+
+```cs
+[VisualStudioContribution]
+internal class MyClassificationTaggerProvider :
+    ExtensionPart,
+    ITextViewTaggerProvider<ClassificationTag>,
+    ITextViewChangedListener
+{
+```
+
+```cs
+internal class MyClassificationTagger :
+    TextViewTagger<ClassificationTag>
+{
+```
+
+Since we want the document colorization to appear as instantly as possible,
+the tagger will need to be as fast as possible. The article linked above
+stresses the importance of:
+- only generating tags for the requested document portion (or a small
+superset of it), not the whole document;
+- avoiding parsing the whole document in order to generate tags.
+
+Once the tagger structure is ready and the syntax parsing for the specific
+file format is implemented, the tagger can provide text classification by
+simply creating and returning `ClassificationTag` values using the available
+`ClassificationType` know values.
+
+```cs
+tags.Add(
+    new TaggedTrackingTextRange<ClassificationTag>(
+        new TrackingTextRange(
+            document,
+            tagStartPosition,
+            tagLength,
+            TextRangeTrackingMode.ExtendNone),
+        new ClassificationTag(ClassificationType.KnownValues.Operator)));
+```
+
+At this time, VisualStudio.Extensibility doesn't support defining text colors
+for new classification types yet, so we must use existing classification types
+(`ClassificationType.KnownValues`).
+
+[VisualStudio.Extensibility in-proc extension](../../get-started/in-proc-extensions.md), can use [ClassificationTypeDefinition](/dotnet/api/microsoft.visualstudio.text.classification.classificationtypedefinition)
+to define new classification types. Their name can be referenced using
+`ClassificationType.Custom`.

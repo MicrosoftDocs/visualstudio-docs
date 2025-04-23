@@ -44,7 +44,7 @@ Extensions can contribute new CodeLenses to the Visual Studio editor. A CodeLens
 For detailed walkthrough of how to provide your own CodeLens with your extension, refer to [Extending Visual Studio editor with a new CodeLens](./walkthroughs/codelens.md)
 
 ### Taggers
-Extensions can contribute new taggers to the Visual Studio editor. Taggers are used to associate data with spans of text, such data is consumed by other Visual Studio features (E.g., CodeLens).
+Extensions can contribute new taggers to the Visual Studio editor. Taggers are used to associate data with ranges of text, such data is consumed by other Visual Studio features (E.g., [CodeLens](./walkthroughs/codelens.md), [classification](./walkthroughs/classification.md), etc.).
 
 For detailed walkthrough of how to provide your own taggers with your extension, refer to [Extending Visual Studio editor with a new tagger](./walkthroughs/taggers.md)
 

@@ -46,7 +46,9 @@ items:
       - name: Extending Visual Studio editor with a new CodeLens
         href: ./editor/walkthroughs/codelens.md
       - name: Extending Visual Studio editor with a new tagger
-        href: ./editor/walkthroughs/taggers.md  
+        href: ./editor/walkthroughs/taggers.md
+      - name: Extending Visual Studio editor with new classification tagger
+        href: ./editor/walkthroughs/classification.md
   - name: Editor concepts
     href: ./editor/editor-concepts.md
   - name: Editor RPC
