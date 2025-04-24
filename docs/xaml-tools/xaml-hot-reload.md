@@ -1,7 +1,7 @@
 ---
 title: "XAML Hot Reload for WPF and UWP apps"
 description: Modify XAML code in running .NET MAUI, WinUI 3, Windows Presentation Foundation (WPF), or Universal Windows Platform (UWP) apps with edit and continue features in XAML Hot Reload.
-ms.date: 08/27/2024
+ms.date: 04/24/2025
 ms.topic: conceptual
 helpviewer_keywords:
   - "xaml edit and continue"
@@ -23,7 +23,9 @@ With XAML Hot Reload, you can incrementally build and test XAML code for your .N
 
 ## Where to get XAML Hot Reload
 
-Visual Studio XAML Hot Reload is currently supported only when you're running an application in **Visual Studio** -or- **Blend for Visual Studio** (if supported by the framework) with the debugger attached (**F5** or **Start debugging**).
+Visual Studio XAML Hot Reload is supported when you're running an application in **Visual Studio** -or- **Blend for Visual Studio** (if supported by the framework) with the debugger attached (**F5** or **Start debugging**).
+
+Starting in Visual Studio 2022 version 17.14 Preview 2, XAML Hot Reload and [XAML Live Preview](../xaml-tools/xaml-live-preview.md) are available at design-time and not just during a debugging session.
 
 You can't enable this experience by using [Attach to process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md) unless you [manually set an environment variable](xaml-hot-reload-troubleshooting.md#verify-that-you-use-start-debugging-rather-than-attach-to-process).
 
