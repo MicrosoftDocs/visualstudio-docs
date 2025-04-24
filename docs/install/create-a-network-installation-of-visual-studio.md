@@ -19,16 +19,16 @@ ms.subservice: installation
 
 Sometimes an enterprise administrator wants to create a private installation cache (also known as a "layout") that contains Visual Studio files that can be [deployed to client machines within an organization](deploy-a-layout-onto-a-client-machine.md). 
 
-Creating a layout is useful in following situations:
--  A user has limited permissions
--  The client machines have limited access to the internet
--  An organization wants to standardize on a particular version of the developer toolset
+Creating a layout is useful in following scenarios:
+-  The user has limited system permissions
+-  Client machines have restricted internet access
+-  The organization wants to standardize on a specific version of the developer toolset
 
 We designed Visual Studio so that an administrator can both create and maintain a layout and store it on an internal network share and optionally make it available on an organization's intranet. The layout serves as the source location for all Visual Studio files needed for both initial client installation and subsequent updates.
 
 The information on this page is grouped up into three main sections:
 
-* [**Create the layout**](#create-the-layout): describes how to create the layout with the correct product content, configure the default settings, store it on a network file share, and make it available on your intranet. 
+* [**Create the layout**](#create-the-layout): describes how to create a layout with the correct product content, configure the default settings, store the layout on a network file share, and make it available on your intranet. 
 * [**Maintain the layout**](#maintaining-your-layout): information on how to best update the layout's product version, or modify the layout's product content, channel settings, installer version, and folder size. 
 * [**Help and Support**](#get-support-for-your-network-layout): where to ask for help
 
@@ -46,7 +46,7 @@ Download the correct bootstrapper for the edition of Visual Studio you want and 
 
 ::: moniker range="vs-2019"
 
-The following bootstrappers always install the latest most secure version of Visual Studio 2019, no matter when you run them. Alternatively, if you want to create or update a layout to a specific version of Visual Studio 2019, go to the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page that has links to the fixed version bootstrappers for each servicing release, and download the one you want. Copy it into the directory that you want to serve as the source location of the layout.
+The following bootstrappers always install the latest most secure version of Visual Studio 2019, no matter when you run them. If you want to create or update a layout to a specific version of Visual Studio 2019, go to the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page.  It contains links to fixed-version bootstrappers for each servicing release. Download the one you want, and copy it into the directory that you want to use as the source location for the layout.
 
 | Edition                                       | Bootstrapper                                                            |
 |-----------------------------------------------|-------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ Other supported bootstrappers include [vs_teamexplorer.exe](https://aka.ms/vs/16
 
 ::: moniker range="=vs-2022"
 
-The following bootstrappers always install the latest most secure version of Visual Studio 2022 on the Current channel, no matter when you run them. Alternatively, if you want to create or update a layout to a specific version or a specific channel of Visual Studio 2022, download the evergreen and fixed version bootstrapper for the servicing release for the channel that you want from [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers). Copy it into the directory that you want to serve as the source location of the layout. 
+The following bootstrappers always install the latest most secure version of Visual Studio 2022 on the Current channel, no matter when you run them. If you want to create or update a layout to a specific version or a specific channel of Visual Studio 2022, download the appropriate bootstrapper. Both the evergreen and fixed-version bootstrappers for each servicing release and channel are available on the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page. Download the one you want, and copy it into the directory that you want to use as the source location for the layout. 
 
 | Edition                         | Bootstrapper                                                            |
 |---------------------------------|-------------------------------------------------------------------------|
@@ -81,7 +81,7 @@ The following bootstrappers always install the latest most secure version of Vis
 ::: moniker range=">=vs-2022"
 
 >[!TIP]
->If you previously downloaded a bootstrapper file and want to verify what version it will install, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties** and then choose the **Details** tab. The **Product version** field describes the [channel and version](/visualstudio/releases/2022/vs2022-release-rhythm) that the bootstrapper will install. The version number should always be read as "latest servicing version of what is specified", and the channel is assumed to be Current unless explicitly specified. So, a bootstrapper with a Product version of LTSC 17.0 installs the latest 17.0.x servicing release that's available on the 17.0 LTSC channel. A bootstrapper with a Product version that says Visual Studio 2022 installs the latest servicing version of Visual Studio 2022 on the Current channel.
+>If you previously downloaded a bootstrapper file and want to verify the version it installs, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties** and then choose the **Details** tab. The **Product version** field describes the [channel and version](/visualstudio/releases/2022/vs2022-release-rhythm) that the bootstrapper installs. The version number should always be read as "latest servicing version of what is specified", and the channel is assumed to be Current unless explicitly specified. So, a bootstrapper with a Product version of LTSC 17.0 installs the latest 17.0.x servicing release that's available on the 17.0 LTSC channel. A bootstrapper with a Product version that says Visual Studio 2022 installs the latest servicing version of Visual Studio 2022 on the Current channel.
 
 ::: moniker-end
 
