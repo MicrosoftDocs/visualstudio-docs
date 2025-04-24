@@ -4,7 +4,7 @@ description: Use Visual Studio Container Tools to control how Visual Studio work
 author: ghogen
 ms.author: ghogen
 ms.topic: how-to
-ms.date: 04/18/2025
+ms.date: 04/23/2025
 ms.subservice: container-tools
 f1_keywords:
  - VS.ToolsOptionsPages.Container_Tools.General
@@ -58,10 +58,10 @@ The following table describes the **General** settings:
 The Container Tools **Single Project** and **Docker Compose** settings are identical.
 
 :::moniker range="<=vs-2019"
-![Screenshot of Visual Studio Container Tools options, showing: Kill containers on project close, Pull required Docker images on project open, and Run containers on project open.](./media/configure-container-tools/tools-options-2.png)
+![Screenshot of Visual Studio 2019 Container Tools options.](./media/configure-container-tools/tools-options-2.png)
 :::moniker-end
 :::moniker range=">=vs-2022"
-![Screenshot of Visual Studio Container Tools options, showing: Kill containers on project close, Pull required Docker images on project open, Run containers on project open, Run a service in containers to enable Azure Authentication, and Run a service in containers to enable Hot Reload.](./media/configure-container-tools/vs-2022/tools-options-2.png)
+![Screenshot of Visual Studio 2022 Container Tools options.](./media/configure-container-tools/vs-2022/tools-options-2.png)
 :::moniker-end
 
 The following table describes **Single Project** and **Docker Compose** settings:
