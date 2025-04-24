@@ -29,11 +29,11 @@ Starting in Visual Studio 2022 version 17.14 Preview 2, XAML Hot Reload and [XAM
 
 You can't enable this experience by using [Attach to process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md) unless you [manually set an environment variable](xaml-hot-reload-troubleshooting.md#verify-that-you-use-start-debugging-rather-than-attach-to-process).
 
-## Applications for XAML Hot Reload
+## Scenarios for XAML Hot Reload
 
 XAML Hot Reload is especially helpful in these scenarios:
 
-* Fixing UI problems found in your XAML code after the app was started in debug mode.
+* Fixing UI problems found in your XAML code.
 
 * Building a new UI component for an app that is under development, while taking advantage of your app's runtime context.
 
