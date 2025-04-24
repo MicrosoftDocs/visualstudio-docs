@@ -24,6 +24,9 @@ If you've already installed Visual Studio:
 - Install the latest updates in Visual Studio by selecting **Help** > **Check for Updates**.
 - Verify the **ASP.NET and web development** and **Azure development** workloads are installed by selecting **Tools** > **Get Tools and Features**.
 
+> [!WARNING]
+> This article makes use of connection strings. Use caution when managing connections using usernames, passwords, or access keys. These secrets shouldn't be committed to source control or placed in unsecure locations where they might be accessed by unintended users. During local development, you'll generally connect to a local database that doesn't require storing secrets or connecting directly to Azure. During production, [connect to your Azure SQL database using a secretless approach](/azure/azure-sql/database/azure-sql-dotnet-entity-framework-core-quickstart) such as [Microsoft Entra ID](/entra/fundamentals/whatis) when possible.
+
 ## Set up the sample app locally
 
 Use the TODO sample app to follow along with this tutorial. Clone the app from GitHub using the following command:
