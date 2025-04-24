@@ -20,8 +20,8 @@ ms.subservice: installation
 Sometimes an enterprise administrator wants to create a private installation cache (also known as a "layout") that contains Visual Studio files that can be [deployed to client machines within an organization](deploy-a-layout-onto-a-client-machine.md). 
 
 Creating a layout is useful in following scenarios:
--  The user has limited system permissions
--  Client machines have restricted internet access
+-  User with limited system permissions
+-  Client machines with restricted internet access
 -  The organization wants to standardize on a specific version of the developer toolset
 
 We designed Visual Studio so that an administrator can both create and maintain a layout and store it on an internal network share and optionally make it available on an organization's intranet. The layout serves as the source location for all Visual Studio files needed for both initial client installation and subsequent updates.
@@ -89,7 +89,7 @@ The following bootstrappers always install the latest most secure version of Vis
 
 You must have an internet connection to complete this step.
 
-Open an elevated Command Prompt, navigate to the directory where you downloaded the bootstrapper, and use its parameters as defined in the [use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page to create and maintain your network layout. The following examples show common ways to create initial layouts. You can find additional examples on the [command-line parameter examples for a Visual Studio installation](command-line-parameter-examples.md) page.  
+Open an elevated Command Prompt, navigate to the directory where you downloaded the bootstrapper, and use its parameters as defined in the [use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page to create and maintain your network layout. The following examples show common ways to create initial layouts. You can find more examples on the [command-line parameter examples for a Visual Studio installation](command-line-parameter-examples.md) page.  
 
 A complete initial layout for a single language locale requires about 40 GB of disk space for Visual Studio Community and about 50 GB for Visual Studio Enterprise. Extra [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales) require about half a GB each. 
  
@@ -247,7 +247,7 @@ Sometimes you may want to update your layout to a *particular version of the pro
 
 ::: moniker range="vs-2019"
 
-You can go to the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page and download a particular fixed version bootstrapper, copy it into your layout, and use it to update the layout to that exact version specified in the bootstrapper. You would use the exact same syntax as above.
+You can go to the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page and download a particular fixed version bootstrapper, copy it into your layout, and use it to update the layout to that exact version specified in the bootstrapper. You would use the exact same syntax as previously.
 
 You can use an **[administrator update](applying-administrator-updates.md)** to update your layout to a specific version of the product. To get the **administrator update**, go to the [Microsoft Update Catalog](https://catalog.update.microsoft.com) and search for the update version that you want to update your layout to.  Download the `update.exe` to the computer that's hosting the layout, open up an elevated command prompt, and run a command like this:
 
@@ -267,7 +267,7 @@ You can use an **[administrator update](applying-administrator-updates.md)** to 
 ```shell
 visualstudioupdate-17.0.0to17.4.4.exe layout --layoutPath c:\VSLayout
 ```
-An administrator update will not initiate the creation of a new layout; it will only update an existing layout. You will need to use a bootstrapper to create the initial layout.
+An administrator update doesn't initiate the creation of a new layout; it only updates an existing layout. You need to use a bootstrapper to create the initial layout.
 
 ::: moniker-end
 
@@ -275,38 +275,38 @@ An administrator update will not initiate the creation of a new layout; it will 
 
 ### Ensuring your network layout is based off of a supported version
 
-Occasionally, as channels transition out of support, you will need to ensure that the network layout continues to be based off of a supported channel so that your clients can continue to receive notifications of security updates. If your layout is based off of the VisualStudio.17.Release.LTSC.17.0 channel, then once the 17.0 LTSC channel goes out of support in July 2023, we will not release any more security updates to it and your layout and clients will become insecure. [Support dates for various Visual Studio 2022 channels can be found here](/visualstudio/releases/2022/release-history#evergreen-bootstrappers).
+Occasionally, as channels transition out of support, you need to ensure that the network layout continues to be based on a supported channel so that your clients can continue to receive notifications of security updates. If your layout is based on the VisualStudio.17.Release.LTSC.17.0 channel, then once the 17.0 LTSC channel goes out of support in July 2023, we won't release any more security updates to it and your layout and clients will become insecure. [Support dates for various Visual Studio 2022 channels can be found here](/visualstudio/releases/2022/release-history#evergreen-bootstrappers).
 
-To change the channel that the layout is based off of, acquire the desired channel's bootstrapper from the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page, copy it into your layout folder, and perform a normal update. Your clients should then be appropriately notified of an update so they will be able to stay secure too.
+To change the channel that the layout is based off of, acquire the desired channel's bootstrapper from the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page, copy it into your layout folder, and perform a normal update. Your clients should then be appropriately notified of an update so they are able to stay secure too.
 
 ::: moniker-end
 
 ### Modify the contents of a layout
 
-It is possible to modify a partial layout and ***add*** additional workloads, components, or languages. It is **not** possible to reliably remove components from a layout.
+It is possible to modify a partial layout and ***add*** other workloads, components, or languages. It is **not** possible to reliably remove components from a layout.
 
-In the example below, we'll add the Azure workload and a localized language to the layout that was previously created with just the Managed Desktop workload and English language. After we've made the modification, both the Managed Desktop and Azure workloads, and both the English and German resources will be included in this layout. In addition to adding components, the `--layout` command will also cause the layout to be updated to the version specified by the bootstrapper. So, if you're using the [evergreen bootstrapper](#download-the-visual-studio-bootstrapper-to-create-the-layout), then the resultant layout will have the new component, the new language, and all layout contents will be updated to the latest version on the bootstrapper's channel. 
+In the following example, we add the Azure workload and a localized language to the layout that was previously created with just the Managed Desktop workload and English language. After we make the modification, both the Managed Desktop and Azure workloads, and both the English and German resources are included in this layout. In addition to adding components, the `--layout` command also causes the layout to be updated to the version specified by the bootstrapper. So, if you're using the [evergreen bootstrapper](#download-the-visual-studio-bootstrapper-to-create-the-layout), then the resultant layout has the new component, the new language, and all layout contents are updated to the latest version on the bootstrapper's channel. 
 
 ```shell
 vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --lang de-DE
 ```
 
-If you want to modify an existing partial layout so that it becomes a full layout, use the --all option, as shown in the following example. Again, this command will cause the layout contents to be updated to the version specified by the bootstrapper.
+If you want to modify an existing partial layout so that it becomes a full layout, use the --all option, as shown in the following example. Again, this command causes the layout contents to be updated to the version specified by the bootstrapper.
 
 ```shell
 vs_enterprise.exe --layout c:\VSLayout --all
 ```
 
-You can add components to a layout by passing in a `*.vsconfig` file that contains the additional components you want in your layout. If you do this, the new `*.vsconfig` content will overwrite the existing `layout.vsconfig` content. For more information, refer to the previous section [Using a configuration file to initialize the contents of a layout](#use-a-configuration-file-to-initialize-the-contents-of-a-layout).
+You can add components to a layout by passing in a `*.vsconfig` file that contains other components you want in your layout. If you do this, the new `*.vsconfig` content will overwrite the existing `layout.vsconfig` content. For more information, refer to the previous section [Using a configuration file to initialize the contents of a layout](#use-a-configuration-file-to-initialize-the-contents-of-a-layout).
 
 ```shell
 vs_enterprise.exe --layout C:\VSLayout --config "C:\myupdatedconfig.vsconfig"
 ```
 
-Lastly, you can directly edit the `layout.json` configuration file in the layout folder and update the "add" section of this file to include the additional components you want included in your layout. You'll then need to update the layout using `--layout` as previously described to download the latest components. 
+Lastly, you can directly edit the `layout.json` configuration file in the layout folder and update the "add" section of this file to include the additional components you want included in your layout. You then need to update the layout using `--layout` as previously described to download the latest components. 
  
 > [!NOTE]
-> The easiest way to install the newly added layout components onto a client machine is to run the bootstrapper in the layout from the client machine. The 'add' section of the `response.json` file in the layout will determine which components are selected by default in the client's installer UI. If you've modified the layout using one of the methods above, you may want to manually double check and possibly adjust the 'add' section in the `response.json` file so that it more appropriately matches the contents in the 'add' section of the newly modified `layout.json` file. 
+> The easiest way to install the newly added layout components onto a client machine is to run the bootstrapper in the layout from the client machine. The 'add' section of the `response.json` file in the layout will determine which components are selected by default in the client's installer UI. If you've modified the layout using one of the previous methods, you may want to manually double check and possibly adjust the 'add' section in the `response.json` file so that it more appropriately matches the contents in the 'add' section of the newly modified `layout.json` file. 
 
 ### Configure the layout to remove out-of-support components on the client machine.
 
