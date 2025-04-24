@@ -15,7 +15,7 @@ monikerRange: '>= vs-2022'
 ---
 # Coming soon: Agent mode in Visual Studio
 
-Agent mode is *coming soon* to Visual Studio. To learn more about its availability in Visual Studio, visit the [Visual Studio annoucement](https//aka.ms/vsagentmode)
+Agent mode is *coming soon* to Visual Studio. To learn more about its availability in Visual Studio, refer to the [blog post announcement](https//aka.ms/vsagentmode).
 
-With chat agent mode in Visual Studio, you'll be able to use natural language to define a high-level task and to start an agentic code editing session to accomplish that task. In agent mode, Copilot will autonomously plan the work needed and determine the relevant files and context. It'll then make edits to your codebase and invoke tools to accomplish the request you made. Agent mode will monitor the outcome of edits and iterate to resolve any issues that may arise.
+With chat agent mode in Visual Studio, you'll be able to use natural language to define a high-level task and start an agentic code editing session to accomplish that task. In agent mode, Copilot will autonomously plan the work needed and determine the relevant files and context. It'll then make edits to your codebase and invoke tools to accomplish the request you made. Agent mode will monitor the outcome of edits and iterate to resolve any issues that may arise.
 
