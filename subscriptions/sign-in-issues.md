@@ -1,16 +1,16 @@
 ---
-title: Issues signing in to Visual Studio subscriptions
+title: Troubleshooting suggestions for signing in to Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/11/2025
+ms.date: 04/23/2025
 ms.topic: conceptual
-description: Review potential sign-in issues for Visual Studio subscriptions, including Microsoft Accounts (MSA) limitations, failures due to aliases or deleted addresses.
+description: Review potential sign-in troubleshooting steps for Visual Studio subscriptions, including Microsoft Accounts (MSA) limitations, failures due to aliases or deleted addresses.
 ---
 
-# Issues signing in to Visual Studio subscriptions
+# Troubleshooting suggestions for signing in to Visual Studio subscriptions
 
-To use your Visual Studio subscription, you must first sign in. Depending on your subscription, you might have either a Microsoft account (MSA) or a Microsoft Entra identity. This article discusses some of the issues you might encounter while signing in to your subscription, including  what happens when your Admin updates your Visual Studio subscriber's sign-in address. 
+To use your Visual Studio subscription, you must first sign in. Depending on your subscription, you might have either a Microsoft account (MSA) or a Microsoft Entra identity. This article discusses some of the issues you might encounter while signing in to your subscription, including  what happens when your admin updates your Visual Studio subscriber's sign-in address. 
 
 ## Microsoft Accounts (MSA) can't be created using work/school email addresses
 
@@ -39,23 +39,23 @@ However, if you try to sign up for a Microsoft app that supports personal and wo
 
 ### Are existing accounts affected?
 
-The sign-up block described here only prevents the creation of new accounts. It has no effect on users who already have a Microsoft Account with a work/school email address. If you're already in this situation, we make it easier to rename a personal Microsoft account. This [support article](https://windows.microsoft.com/Windows/rename-personal-microsoft-account) provides simple step-by-step guidance. Renaming your personal Microsoft account involves changing the username, and doesn't affect your work email or how you sign in to business services such as Microsoft 365. It also doesn't affect your personal stuff—it just changes the way you sign in to it. You can use another (personal) email address, get a new @outlook.com email address from Microsoft, or use your phone number as a new username.
+The sign-up block described here only prevents the creation of new accounts. It has no effect on users who already have a Microsoft Account with a work/school email address. If you're already in this situation, we make it easier to rename a personal Microsoft account. This [support article](https://windows.microsoft.com/Windows/rename-personal-microsoft-account) provides simple step-by-step guidance. Renaming your personal Microsoft account involves changing the username, and doesn't affect your work email or how you sign in to business services such as Microsoft 365. It also doesn't affect your personal stuff—it just changes the way you sign in to it. You can use another (personal) email address, get a new@outlook.com email address from Microsoft, or use your phone number as a new username.
 
 > [!NOTE]
 > If your IT department asked you to create a personal Microsoft account with your work/school email, for example to access Microsoft business services like Premier Support, then talk to your admin team before renaming your account.
 
 ## Signing in fails when using private cloud identities
 
-Visual Studio [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) don't support private cloud identities or [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This limitation also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization needs to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
+Visual Studio [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) don't support private cloud identities or [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This limitation also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization needs to have a public tenant. For further assistance in creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
 
 > [!NOTE]
 > A legacy authentication process has allowed a subset of government cloud identities to license the Visual Studio IDE, but that functionality will be removed April 2025.
 
 ## Deleting a sign-in address can prevent access to a subscription
 
-If you delete one or more identities (MSA or Microsoft Entra ID) associated with your subscription, your subscriber information including your user name and sign-in ID might be rendered anonymous. "Anonymization" results in the loss of access to your subscription.
+If your admin deletes one or more identities (MSA or Microsoft Entra ID) associated with your subscription, your subscriber information including your user name and sign-in ID might be rendered anonymous. "Anonymization" results in the loss of access to your subscription.
 
-To avoid impacts to your subscription access, use one of these techniques.
+To avoid impacts to your subscription access, your admin can use one of these techniques.
 + Deploy a single identity management system--either MSA or Microsoft Entra ID--but not both.
 + Associate the Microsoft Entra ID and MSA identities via the tenant.
 
@@ -76,11 +76,11 @@ From a subscriber perspective, it's important to first work with your admin to u
 ### What happens when my Admin updates my Visual Studio subscription's sign-in address?
 
 > [!NOTE]
-> When your Admin edits the sign in email address this updates the email used by you to sign in to your subscription on https://my.visualstudio.com. You can use the newly updated email address going forward when activating benefits. For previously activated benefits, continue reading below for more informaiton about which email address you should use. 
+> When your admin edits the sign in email address this action updates the email used by you to sign in to your subscription on https://my.visualstudio.com. You can use the newly updated email address going forward when activating benefits. For previously activated benefits, continue reading below for more information about which email address you should use. 
 
 **Impact on Benefits**
 
-If the admin changed the sign-in email address on your subscription, you should use this new email address for any new benefit activations. Refer to the chart below for insights on any currently active benefits that might be impacted. 
+If your admin changes the sign-in email address on your subscription, you should use this new email address for any new benefit activations. Refer to the chart below for insights on any currently active benefits that might be impacted. 
 
 | Benefit Name | Use updated email address? | If subscriber hasn't activated the benefit yet | If subscriber activated with the previous sign-in email address | If the subscriber is using an alternate email address | 
 | ------------------------ | -------------------------- |--------------------------------- | --------------------------- |------------------------------------ |
@@ -93,7 +93,10 @@ If the admin changed the sign-in email address on your subscription, you should 
 
 ## Resources
 
-For assistance with sales, subscriptions, accounts, and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp). 
++ For assistance with subscriptions, accounts, sales, and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp). This link takes you to the Visual Studio Subscriptions portal, Get Help where you can scroll down and submit a support case. You might still access the Get Help tab of the Visual Studio Subscriptions portal even if you're having trouble seeing your subscription.
++ You might also seek additional support via the Live Chat feature by visiting [Visual Studio website](https://visualstudio.microsoft.com/subscriptions/support/#talktous).
+    1. Scroll down towards the bottom of the page, expand the tab called “Visual Studio Sales, Account, Subscription, and Billing Support.”
+    1. Next, choose your country/region and select “Live Chat.”
 
 ## See also
 
