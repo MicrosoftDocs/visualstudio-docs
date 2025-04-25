@@ -288,6 +288,8 @@ While Visual Studio, *Mage.exe*, and *MageUI.exe* can all be used to generate Cl
 
 The support URL isn't displayed on the dialog box if the application is marked to run in partial trust.
 
+ [!INCLUDE[ndptecclick](../deployment/includes/code-access-security-partial-trust.md)]
+
 ## Change the publish language for a ClickOnce application
 
 When publishing a ClickOnce application, the user interface displayed during installation defaults to the language and culture of your development computer. If you're publishing a localized application, you'll need to specify a language and culture to match the localized version. This is determined by the `Publish language` property for your project.

@@ -74,6 +74,8 @@ Most applications consume or produce data. ClickOnce gives you a variety of opti
 
  Isolated Storage works in all versions of the .NET Framework. Isolated Storage also works in partially trusted applications without the need for additional permission grants. You should use Isolated Storage if your application must run in partial trust, but must maintain application-specific data.
 
+ [!INCLUDE[ndptecclick](../deployment/includes/code-access-security-partial-trust.md)]
+
  For more information, see [Isolated Storage](/dotnet/standard/io/isolated-storage).
 
 ### Other local files
