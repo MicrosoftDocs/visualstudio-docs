@@ -23,7 +23,7 @@ ms.subservice: data-tools
 
 This article describes how to query and edit data in tables in .NET Framework datasets. You can edit data in data tables much like you edit the tables in any database. You can insert, update, and delete records in the table. In a data-bound form, you can specify which fields are user-editable.
 
-In those cases, the data-binding infrastructure handles all the change tracking so that the changes can be sent back to the database. If you edit data programmatically, and you intend to send the changes back to the database, you must use objects and methods that do the change tracking.
+In those cases, the data-binding infrastructure handles all the change tracking so that the changes can be sent back to the database. If you edit data programmatically and want to send the changes back to the database, you must use objects and methods that do the change tracking.
 
 In addition to changing the actual data, you can also query a <xref:System.Data.DataTable> to return specific rows of data. For example, you can query for individual rows, original or proposed versions of rows, rows that changed, or rows that contain errors.
 
@@ -39,7 +39,7 @@ To use Visual Studio to query and edit data in .NET Framework datasets, you need
 
 To edit an existing row in a <xref:System.Data.DataTable>, you need to locate the <xref:System.Data.DataRow> you want to edit, and then assign the updated values to the desired columns.
 
-If you don't know the index of the row you want to edit, use the <xref:System.Data.DataRowCollection.Find> method to search by the primary key.
+If you don't know the index of the row you want to edit, use the `FindBy` method to search by the primary key.
 
 ### [C#](#tab/csharp)
 
@@ -61,11 +61,11 @@ Once you know the row index, you can use it to access and edit the row.
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb" id="Snippet5":::
 ---
 
-## Insert or delete new rows into a dataset
+## Insert new rows into a dataset
 
 Applications that use data-bound controls typically add new records by using the **Add New** button on a [BindingNavigator control](/dotnet/framework/winforms/controls/bindingnavigator-control-windows-forms).
 
-You can also add a new record to a dataset by calling the <xref:System.Data.DataTable.NewRow%2A> method on the `DataTable`. Then, add the row to the <xref:System.Data.DataRow> collection(<xref:System.Data.DataTable.Rows%2A>).
+You can also add a new record to a dataset by calling the <xref:System.Data.DataTable.NewRow%2A> method on the `DataTable`. Then, add the row to the <xref:System.Data.DataRow> collection (<xref:System.Data.DataTable.Rows%2A>).
 ### [C#](#tab/csharp)
 
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs" id="Snippet1":::
@@ -75,9 +75,9 @@ You can also add a new record to a dataset by calling the <xref:System.Data.Data
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb" id="Snippet1":::
 ---
 
-### Delete records from a data table
+## Delete records from a data table
 
-You can delete a <xref:System.Data.DataRow> from the <xref:System.Data.DataRowCollection> by calling the <xref:System.Data.DataRowCollection.Remove%2A> method of the <xref:System.Data.DataRowCollection>, or by calling the <xref:System.Data.DataRow.Delete%2A> method of the <xref:System.Data.DataRow> object.
+You can delete a <xref:System.Data.DataRow> by calling the <xref:System.Data.DataRowCollection.Remove%2A> method of the <xref:System.Data.DataRowCollection>, or by calling the <xref:System.Data.DataRow.Delete%2A> method of the <xref:System.Data.DataRow> object.
 
 The <xref:System.Data.DataRowCollection.Remove%2A> method removes the row from the collection. If your application doesn't need to send updates back to a data source, you can remove records by directly accessing the data row collection with <xref:System.Data.DataRowCollection.Remove%2A>.
 
@@ -97,9 +97,7 @@ The following example shows how to call the <xref:System.Data.DataRow.Delete%2A>
 ---
 
 > [!NOTE]
-> If you get the count property of a <xref:System.Data.DataRowCollection>, the resulting count includes records that are marked for deletion. To get an accurate count of records that aren't marked for deletion, you can loop through the collection looking at the <xref:System.Data.DataRow.RowState%2A> property of each record. Records marked for deletion have a <xref:System.Data.DataRow.RowState%2A> of <xref:System.Data.DataRowState.Deleted>.
-> 
-> Alternatively, you can create a data view of a dataset that filters based on row state and get the count property from it.
+> If you get the count property of a <xref:System.Data.DataRowCollection>, the resulting count includes records that are marked for deletion. To get an accurate count of records not marked for deletion, you can loop through the collection and look at the <xref:System.Data.DataRow.RowState%2A> property of each record. Records marked for deletion have a <xref:System.Data.DataRow.RowState%2A> of <xref:System.Data.DataRowState.Deleted>. Alternatively, you can create a data view of a dataset that filters based on row state and get the count property from it.
 
 <a name='determine-if-there-are-changed-rows'></a>
 ## Determine whether there are changed rows
@@ -110,9 +108,9 @@ Changes are tracked two ways in each data row:
 
 - Each data row contains information related to its <xref:System.Data.DataRow.RowState%2A>, for example <xref:System.Data.DataRowState.Added>, <xref:System.Data.DataRowState.Modified>, <xref:System.Data.DataRowState.Deleted>, or <xref:System.Data.DataRowState.Unchanged>.
 
-- Each changed data row contains multiple versions. The <xref:System.Data.DataRowVersion> includes the original version before changes and the current version after changes. While a change is pending, you can respond to the <xref:System.Data.DataTable.RowChanging> event, and a third proposed version is also available.
+- Each changed data row contains multiple versions. The <xref:System.Data.DataRowVersion> includes the original version before changes and the current version after changes. While a change is pending and you can respond to the <xref:System.Data.DataTable.RowChanging> event, a third proposed version is also available.
 
-Call the <xref:System.Data.DataSet.HasChanges%2A> method of a dataset to check for changed rows. The method returns `true` if changes were made in the dataset. After determining that changes exist, you can call the `GetChanges` method of a <xref:System.Data.DataSet> or <xref:System.Data.DataTable> to return a set of changed rows.
+To check for changed rows, call the <xref:System.Data.DataSet.HasChanges%2A> method of a dataset. The method returns `true` if changes were made in the dataset. After determining that changes exist, you can call the `GetChanges` method of a <xref:System.Data.DataSet> or <xref:System.Data.DataTable> to return a set of changed rows.
 
 The following example shows how to check the return value from the <xref:System.Data.DataSet.HasChanges%2A> method to detect whether there are any changed rows in `NorthwindDataset1`.
 
@@ -127,7 +125,7 @@ The following example shows how to check the return value from the <xref:System.
 
 ## Determine the type of changes
 
-You can also check to see what type of changes were made in a dataset by passing a value from the <xref:System.Data.DataRowState> enumeration to the <xref:System.Data.DataSet.HasChanges%2A> method.
+You can check to see what type of changes were made in a dataset by passing a value from the <xref:System.Data.DataRowState> enumeration to the <xref:System.Data.DataSet.HasChanges%2A> method.
 
 The following example shows how to check the `NorthwindDataset1` dataset to determine whether any new rows were added.
 
