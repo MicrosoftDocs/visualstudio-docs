@@ -12,16 +12,24 @@ ms.subservice: extensibility-integration
 
 # Create Visual Studio user prompts
 
-User prompts are a simple UI mechanism for prompting the user to make a selection. Prompting the user creates a dialog box with a message, one to three buttons for the choices, and a dismiss button.
+User prompts are a simple UI mechanism for prompting the user to make a selection, confirm a message, or provide a 
+single-line string input. Prompting the user creates a dialog box with a message, title bar, dismiss button and optional
+icon. When prompting the user to choose from a set of options, the dialog also contains one to three buttons for the
+choices.
 
 > [!NOTE]
 > The exact UI used to prompt users may change in future versions based on user feedback or other factors.
 
-Common examples are requesting confirmation with an OK/Cancel prompt, or asking the user to choose among a small set of options (no more than three).
+There are two variants of the user prompt: option prompts and input prompts.
 
-The user always has the option of dismissing the prompt without making a selection.
+Common examples of option prompts are requesting confirmation with an OK/Cancel prompt, or asking the user to choose
+among a small set of options (no more than three).
 
 The choices presented to the user are mapped to return values of the type defined in the `TResult` type parameter.
+
+To ask the user to provide a single-line string input -- such as a project name -- use an input prompt.
+
+The user always has the option of dismissing the prompt without making a selection.
 
 ## Parts of a user prompt
 
@@ -51,11 +59,11 @@ Creating a user prompt with the new Extensibility Model is as simple as calling 
 
 The [`ShowPromptAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showpromptasync) method takes three parameters:
 
-| Parameter | Type | Required | Description |
-| ----------|------|----------|-------------|
-| message   | `string` | yes | The text of the message for the prompt. |
-| options   | `PromptOptions<TResult>` | yes | Defines the user choices, mapping them to return values. |
-| cancellationToken | [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) | Yes | The [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) for the async operation. When triggered, the prompt is force-closed. |
+| Parameter         | Type                                                                  | Required | Description                                                                                                                                    |
+|-------------------|-----------------------------------------------------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| message           | `string`                                                              | yes      | The text of the message for the prompt.                                                                                                        |
+| options           | `PromptOptions<TResult>`                                              | yes      | Defines the user choices, mapping them to return values.                                                                                       |
+| cancellationToken | [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) | Yes      | The [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) for the async operation. When triggered, the prompt is force-closed. |
 
 ### Example
 
@@ -74,26 +82,41 @@ Several sets of predefined [`PromptOptions`](/dotnet/api/microsoft.visualstudio.
 
 ### OK
 
-| Choice | Default | Return Value |
-|--------|---------|--------------|
-| "OK"   | Yes | true |
-| *Dismissed* | | false |
+| Choice      | Default | Return Value |
+|-------------|---------|--------------|
+| "OK"        | Yes     | true         |
+| *Dismissed* |         | false        |
 
 ### OKCancel
 
-| Choice | Default | Return Value |
-|--------|---------|--------------|
-| "OK"   | Yes | true |
-| "Cancel" | No | false |
-| *Dismissed* | | false |
+| Choice      | Default | Return Value |
+|-------------|---------|--------------|
+| "OK"        | Yes     | true         |
+| "Cancel"    | No      | false        |
+| *Dismissed* |         | false        |
 
 ### RetryCancel
 
-| Choice | Default | Return Value |
-|--------|---------|--------------|
-| "Retry" | Yes | true |
-| "Cancel" | No | false |
-| *Dismissed* | | false |
+| Choice      | Default | Return Value |
+|-------------|---------|--------------|
+| "Retry"     | Yes     | true         |
+| "Cancel"    | No      | false        |
+| *Dismissed* |         | false        |
+
+### Confirmations with Icon
+
+| Choice      | Default | Return Value |
+|-------------|---------|--------------|
+| "OK"        | Yes     | true         |
+| *Dismissed* |         | false        |
+
+| Option             | Icon                                         |
+|--------------------|----------------------------------------------|
+| ErrorConfirm       | `ImageMoniker.KnownValues.StatusError`       |
+| WarningConfirm     | `ImageMoniker.KnownValues.StatusWarning`     |
+| AlertConfirm       | `ImageMoniker.KnownValues.StatusAlert`       |
+| InformationConfirm | `ImageMoniker.KnownValues.StatusInformation` |
+| HelpConfirm        | `ImageMoniker.KnownValues.StatusConfirm`     |
 
 ### Example
 
@@ -133,7 +156,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 ## Create a prompt with custom options
 
-![Screenshot showing a custom user prompt.](./media/user-prompt-custom.png)
+![Screenshot showing a custom user prompt.](./media/user-prompt-title-icon.png)
 
 In addition to the built-in options, you can customize the choices presented to the user and the return value mapped to each.
 
@@ -153,32 +176,59 @@ public enum TokenThemeResult
 }
 ```
 
-Then create the `PromptOptions<TResult>` instance and pass it to [`ShowPromptAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showpromptasync) along with the required `message` and `cancellationToken` arguments:
+Then create the `PromptOptions<TResult>` instance and pass it to
+[`ShowPromptAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showpromptasync)
+along with the required `message` and `cancellationToken` arguments.
+
+Customize the title and icon by setting the `Title` and `Icon` properties.
 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken ct)
 {
   // Custom prompt
-  var themeResult = await this.Extensibility.Shell().ShowPromptAsync(
-    "Which theme should be used for the generated output?",
-    new PromptOptions<TokenThemeResult>
-    {
-      Choices =
+  Systems selectedSystem = await shell.ShowPromptAsync(
+      "Select the system to configure:",
+      new PromptOptions<Systems>
       {
-        { "Solarized Is Awesome", TokenThemeResult.Solarized },
-        { "OneDark Is The Best", TokenThemeResult.OneDark },
-        { "GruvBox Is Groovy", TokenThemeResult.GruvBox },
+          Choices =
+          {
+              { "Core", Systems.CoreSystem },
+              { "Auxiliary", Systems.AuxiliarySystem },
+              { "Monitoring", Systems.MonitoringSystem },
+          },
+          DismissedReturns = Systems.CoreSystem,
+          DefaultChoiceIndex = 2
+          Title = "Configuration Assistant",
+          Icon = ImageMoniker.KnownValues.Settings,
       },
-      DismissedReturns = TokenThemeResult.None,
-      DefaultChoiceIndex = 2,
-    },
-    ct);
+      cancellationToken);
 
-  Debug.WriteLine($"Selected Token Theme: {themeResult}");
+  Debug.WriteLine($"Selected system: {selectedSystem}");
 }
 ```
 
-The [`Choices`](/dotnet/api/microsoft.visualstudio.extensibility.shell.promptoptions-1.choices) collection maps the user choices to values in the `TokenThemeResult` enum. `DismissedReturns` sets the value that is returned if the user clicks the dismiss button. `DefaultChoiceIndex` is a zero-based index into the `Choices` collection that defines the default choice.
+The [`Choices`](/dotnet/api/microsoft.visualstudio.extensibility.shell.promptoptions-1.choices) collection maps the user
+choices to values in the custom `Systems` enum. `DismissedReturns` sets the value that is returned if the user clicks
+the dismiss button. `DefaultChoiceIndex` is a zero-based index into the `Choices` collection that defines the default choice.
+
+## Create an input prompt
+
+![Screenshot showing a simple input prompt.](./media/user-prompt-simple-input.png)
+
+```csharp
+string? projectName = await shell.ShowPromptAsync(
+    "Enter the name of the project to configure?",
+    InputPromptOptions.Default with { Title = "Configuration Assistant" },
+    cancellationToken);
+```
+
+In addition to custom icons like choice prompts, input prompts also support a default value. Set the `DefaultText`
+property on the `InputPromptOptions` instance.
+
+If the user clicks the 'Cancel' button, the 'X' button to dismiss, or presses the `Esc` key, the return value is `null`.
+If the user leaves the input blank, and presses the 'OK' button or `Enter` key, the return value is the empty string.
+
+Otherwise, the return value is the content of the input when the user confirms their entry.
 
 ## Next steps
 
