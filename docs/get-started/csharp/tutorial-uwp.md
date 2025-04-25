@@ -72,6 +72,8 @@ You need Visual Studio to complete this tutorial. Visit the [Visual Studio downl
 >
 > :::image type="content" source="media/vs-2019/uwp-not-finding.png" alt-text="Screenshot of the Create a new project window showing the 'Install more tools and features' link.":::
 
+::: moniker-end
+
 ## Create a project
 
 First, create a Universal Windows Platform project. The project type comes with all the template files you need, before you even add anything!
