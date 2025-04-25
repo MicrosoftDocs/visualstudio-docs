@@ -3,7 +3,7 @@ title: "Tutorial: Create UWP Apps with Visual Studio & C#"
 description: Create a Universal Windows Platform (UWP) app in Visual Studio by using the Extensible Application Markup Language (XAML) and C#.
 titleSuffix: ""
 ms.custom: vs-acquisition
-ms.date: 06/18/2024
+ms.date: 04/25/2025
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.devlang: csharp
@@ -28,7 +28,38 @@ In this tutorial, you:
 > - Create an application
 > - Run the application
 
+::: moniker range=">=vs-2022"
 ## Prerequisites
+
+You need:
+
+- Visual Studio. Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
+- Workloads and components required for developing a UWP app. To verify or install a workload in Visual Studio, select **Tools** > **Get Tools and Features**, or in the **Create a new project** window, select the **Install more tools and features** link. For more information, see [Change workloads or individual components](../../install/modify-visual-studio.md#change-workloads-or-individual-components).
+    
+    On the **Workloads** tab of the Visual Studio Installer, select the following workloads and components:
+
+    ### [Visual Studio 2022 version 17.10 and later](#tab/vs-2022-17-10)
+    
+    * For app development using UWP, select the **WinUI application development** workload. Then, in the **Installation details** pane, under the **WinUI application development** node, select the UWP option you need (this will also select any additional required components.):
+
+    * For C#, select **Universal Windows Platform tools**.
+
+    * This tutorial requires the **UWP Blank App** project template.
+    
+    ### [Visual Studio 2022 version 17.1 - 17.9](#tab/vs-2022-17-1)
+    
+    * For **C#** app development using UWP, select the **Universal Windows Platform development** workload.
+
+    * This tutorial requires the **Blank App (Universal Windows)** project template.
+    
+    ---
+
+   > [!NOTE]
+   > _In Visual Studio 17.10 - 17.12, this workload is called **Windows application development**._
+
+::: moniker-end
+
+::: moniker range="=vs-2019"
 
 You need Visual Studio to complete this tutorial. Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
 
@@ -49,7 +80,7 @@ First, create a Universal Windows Platform project. The project type comes with 
 
 1. Open Visual Studio, and on the start window, choose **Create a new project**.
 
-1. On the **Create a new project** screen, enter *Universal Windows* in the search box, choose the C# template for **Blank App (Universal Windows)**, and then choose **Next**.
+1. On the **Create a new project** screen, enter *Universal Windows* in the search box, choose the C# template for **Blank App (Universal Windows)** or **UWP Blank App** in Visual Studio 2022 17.10 or later, and then choose **Next**.
 
    :::image type="content" source="media/vs-2019/uwp-create-new-project.png" alt-text="Screenshot of the 'Create a new project' dialog box with 'universal windows' entered in the search box, and the 'Blank App (Universal Windows)' project template highlighted.":::
 
