@@ -1,6 +1,6 @@
 ---
 title: Common MSBuild Project Items
-description: Learn about common MSBuild project items. Items are named references to one or more files, and have metadata like file names, paths, and version numbers.
+description: Learn about common MSBuild project items. Items are named references to one or more strings (for example, filenames), and have metadata like file names, paths, and version numbers.
 ms.date: 4/2/2025
 ms.topic: reference
 dev_langs:
@@ -16,7 +16,7 @@ ms.subservice: msbuild
 ---
 # Common MSBuild project items
 
-In MSBuild, an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in Visual Studio have several items in common. These items are defined in the file *Microsoft.Build.CommonTypes.xsd*.
+In MSBuild, an item is a named reference to one or more strings, such as filenames. Items contain metadata such as file names, paths, and version numbers. All project types in Visual Studio have several items in common. These items are defined in the file *Microsoft.Build.CommonTypes.xsd*.
 
 This article lists all the common project items defined in MSBuild itself. Items and properties provided by the .NET SDK are documented at [MSBuild reference for Microsoft.Net.Sdk](/dotnet/core/project-sdk/msbuild-props).
 
