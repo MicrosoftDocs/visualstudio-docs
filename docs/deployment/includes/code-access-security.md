@@ -9,4 +9,4 @@ ms.topic: include
 ---
 
 > [!NOTE]
-> In ClickOnce for .NET Core and .NET 5 or later, Code Access Security is unsupported. In .NET Framework, the use of Code Access Security is not recommended.
+> In ClickOnce for .NET Core and .NET 5 or later, Code Access Security is unsupported. In .NET Framework, the use of Code Access Security is not a best practice and is not recommended.
