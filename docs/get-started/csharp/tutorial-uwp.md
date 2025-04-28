@@ -40,9 +40,9 @@ You need:
 
     ### [Visual Studio 2022 version 17.10 and later](#tab/vs-2022-17-10)
     
-    * For app development using UWP, select the **WinUI application development** workload. Then, in the **Installation details** pane, under the **WinUI application development** node, select the UWP option you need (this will also select any additional required components.):
+    * For app development using UWP, select the **WinUI application development** workload. Then, in the **Installation details** pane, under the **WinUI application development** node, select the UWP option you need (this will also select any additional required components)
 
-    * For C#, select **Universal Windows Platform tools**.
+    * For C#, select **Universal Windows Platform tools** and **Windows 11 SDK (10.0.26100.0)**.
 
     * This tutorial requires the **UWP Blank App** project template.
     
@@ -82,7 +82,7 @@ First, create a Universal Windows Platform project. The project type comes with 
 
 1. Open Visual Studio, and on the start window, choose **Create a new project**.
 
-1. On the **Create a new project** screen, enter *Universal Windows* in the search box, choose the C# template for **Blank App (Universal Windows)** or **UWP Blank App** in Visual Studio 2022 17.10 or later, and then choose **Next**.
+1. On the **Create a new project** screen, enter *Universal Windows* in the search box, choose the C# template for **Blank App (Universal Windows)**, and then choose **Next**.
 
    :::image type="content" source="media/vs-2019/uwp-create-new-project.png" alt-text="Screenshot of the 'Create a new project' dialog box with 'universal windows' entered in the search box, and the 'Blank App (Universal Windows)' project template highlighted.":::
 
@@ -107,7 +107,7 @@ First, create a Universal Windows Platform project. The project type comes with 
 
 1. Open Visual Studio, and on the start window, choose **Create a new project**.
 
-1. On the **Create a new project** screen, enter *Universal Windows* in the search box, choose the C# template for **Blank App (Universal Windows)**, and then choose **Next**.
+1. On the **Create a new project** screen, enter *Universal Windows* in the search box, choose the C# template for **Blank App (Universal Windows)** or **UWP Blank App** in Visual Studio 2022 17.10 or later, and then choose **Next**.
 
    :::image type="content" source="media/vs-2022/uwp-create-new-project.png" alt-text="Screenshot of the 'Create a new project' dialog box with 'Universal Windows' entered in the search box, and the 'Blank App (Universal Windows)' project template highlighted.":::
 
