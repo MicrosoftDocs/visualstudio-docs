@@ -3,7 +3,7 @@ title: Purchase Visual Studio cloud subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/11/2024
+ms.date: 04/25/2025
 ms.topic: overview
 description: Purchase (rent) Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
 ---
@@ -15,7 +15,7 @@ You can buy [Visual Studio Professional and Visual Studio Enterprise subscriptio
 [Compare cloud subscription benefits and pricing](https://visualstudio.microsoft.com/vs/pricing/).
 
 > [!NOTE]
-> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There'll be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio. You can still purchase new monthly cloud subscriptions.
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There's no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio. You can still purchase new monthly cloud subscriptions.
 
 ## Before you start
 
@@ -77,7 +77,7 @@ This section discusses questions related to the fact that Microsoft is no longer
 
 ### For new customers:
 
-#### Q: I was considering the Annual Cloud subscription, and now I can’t find it.  What should I do?
+#### Q: I was considering the Annual Cloud subscription, and now I can’t find it. What should I do?
 
 A: Microsoft is no longer offering annual cloud subscriptions. Go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) for other purchasing options.
 
@@ -103,11 +103,11 @@ A: No. Your subscriptions remain in place and you're able to manage them as you 
 
 #### Q: What if I want to increase the number of subscriptions for my customers?
 
-A: Annual subscriptions that are purchased during a given month are charged immediately for a full year and are valid for a full year. So, you can modify the number of licenses only in the current month of purchase (they are valid for one year and charged for one year). Outside of the month of purchase, it's no longer possible to increase the number of subscriptions.
+A: Annual subscriptions that are purchased during a given month are charged immediately for a full year and are valid for a full year. So, you can modify the number of licenses only in the current month of purchase (they're valid for one year and charged for one year). Outside of the month of purchase, it's no longer possible to increase the number of subscriptions.
 
 #### Q: What if I want to decrease the number of subscriptions for my customers?
 
-A: Your admin can still decrease the number of subscriptions by visiting https://manage.visualstudio.com and following the instructions in this article to decrease subscription counts. The system *doesn't* generate a pro-rated credit. For a refund, you need to contact the Azure billing team.
+A: Your admin can still decrease the number of subscriptions by visiting https://manage.visualstudio.com and following the instructions in this article to decrease subscription counts. The system *doesn't* generate a prorated credit. To request a refund, contact the Azure billing team.
 
 #### Q: If I cancel my subscription, can I buy another Annual Cloud subscription later?
 
@@ -125,7 +125,7 @@ A: Existing customers aren't impacted. New customers need to decide whether they
 
 #### Q: What if I want to increase the number of subscriptions for my customers?
 
-A: Annual subscriptions purchased during a given month are charged immediately for a full year and are valid for a full year. For that reason, your admin can only modify the number of licenses in the current month of purchase (they are valid for one year and charged for one year). Outside of the month of purchase it's no longer possible to increase the number of subscriptions.
+A: Annual subscriptions purchased during a given month are charged immediately for a full year and are valid for a full year. For that reason, your admin can only modify the number of licenses in the current month of purchase (they're valid for one year and charged for one year). Outside of the month of purchase it's no longer possible to increase the number of subscriptions.
 
 #### Q: What if I want to decrease the number of subscriptions for my customers?
 
