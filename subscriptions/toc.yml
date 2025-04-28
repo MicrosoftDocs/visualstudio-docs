@@ -194,8 +194,6 @@
       href: assign-github.md
   - name: Troubleshoot
     items:
-    - name: Expired subscriptions
-      href: handle-expired-license.md
     - name: Subscriber sign-in scenarios 
       href: aliasing.md
     - name: Subscribers with personal email sign-ins

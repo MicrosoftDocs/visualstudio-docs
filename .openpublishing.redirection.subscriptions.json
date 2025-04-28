@@ -24,6 +24,11 @@
             "source_path": "subscriptions/vs-whitesource.md",
             "redirect_url": "/visualstudio/subscriptions",
             "redirect_document_id": false
+        },
+        {
+           "source_path": "subscriptions/handle-expired-license.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false 
         }
     ]
 }
