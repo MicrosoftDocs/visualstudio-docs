@@ -3,7 +3,7 @@ title: Buy and manage cloud subscriptions for CSPs
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/11/2024
+ms.date: 04/28/2025
 ms.topic: conceptual
 description: Help for Cloud Solution Providers on how to buy and manage Visual Studio cloud subscriptions for customers and answers to frequently asked questions.
 ---
@@ -15,7 +15,7 @@ Visual Studio Enterprise and Visual Studio Professional cloud subscriptions for 
 [Compare cloud subscription options](https://visualstudio.microsoft.com/vs/pricing).
 
 > [!NOTE]
-> Microsoft no longer offers Visual Studio Professional **annual** subscriptions and Visual Studio Enterprise **annual** subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.  Monthly subscriptions are still available. 
+> Microsoft ended the offering of **annual** Cloud Subscriptions for Visual Studio Professional and Visual Studio Enterprise. This change doesn't affect existing customers, who retain the ability to renew, modify, or cancel their current subscriptions without any disruption to their service. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio. Monthly subscriptions are still available. 
 
 ## Prerequisites
 
@@ -42,7 +42,7 @@ Anyone with [owner or contributor access](https://na01.safelinks.protection.outl
 0. Review the order and **Confirm** it.
 
 >[!NOTE]
-> You'll need to follow these steps every time you purchase Visual Studio subscriptions as a CSP. There is no API
+> You need to follow these steps every time you purchase Visual Studio subscriptions as a CSP. There's no API
 > for automation of purchasing.
 
 After you confirm the purchase, you can choose **Manage** to assign subscriptions to your customer's end users. You can
@@ -65,7 +65,7 @@ If a subscriber didn't activate their Visual Studio subscription, it might be be
 
 ## View Visual Studio pricing for CSP partners
 
-To view Visual Studio pricing for CSP partners, sign in to [Partner Center](https://partner.microsoft.com/dashboard/home). Choose the **Pricing** workspace button from the Home page. Choose the current month pricing file under **Azure Plan pricing**. After the Excel spreadsheet downloads, go to the **Azure Price List** sheet, and filter the **Meter Category** column to **Visual Studio**.
+To view Visual Studio pricing for CSP partners, sign in to [Partner Center](https://partner.microsoft.com/dashboard/home). Choose the **Pricing** workspace button from the Home page. Choose the current month's pricing file under **Azure Plan pricing**. After the Excel spreadsheet downloads, go to the **Azure Price List** sheet, and filter the **Meter Category** column to **Visual Studio**.
 
 Here's how to interpret what you see on this spreadsheet:
 
@@ -80,17 +80,17 @@ We offer a 5% discount on the sixth unit you buy (for a given customer) each mon
 
 ### Q: How are **monthly** cloud subscription charges processed?
 
-A: At the first purchase, we bill a prorated quantity to cover the remaining days in the current month. For instance, if a purchase of 10 Visual Studio Professional monthly cloud subscriptions was made on April 15, we would charge five units because there are 15 days left in the 30-day month (50%). We prorate the units charged by 50%. On the first of May, and each month thereafter until you cancel, the full 10 units are billed.
+A: At the first purchase, we bill a prorated quantity to cover the remaining days in the current month. For instance, if a purchase of 10 Visual Studio Professional monthly cloud subscriptions were made on April 15, we would charge five units because there are 15 days left in the 30-day month (50%). We prorate the units charged by 50%. On the May 1, and each month thereafter until you cancel, the full 10 units are billed.
 
-When you increase the paid quantity later, we also prorate the increased units to cover the remaining days in the current month. So if you bought one more Visual Studio Professional monthly cloud subscription on May 10, we would bill roughly 0.677 units (21 days remaining in the 31-day month of May).
+When you increase the paid quantity later, we also prorate the increased units to cover the remaining days in the current month. So, if you bought one more Visual Studio Professional monthly cloud subscription on May 10, we would bill roughly 0.677 units (21 days remaining in the 31-day month of May).
 
 ### Q: How do cancellations work?
 
-A: When you cancel a Visual Studio cloud subscription, you're canceling automatic renewal. The subscription continues until its normal renewal date and then simply expires. At expiration, the Visual Studio subscriber can no longer use Visual Studio or any other benefits from the subscription.
+A: When you cancel a Visual Studio cloud subscription, you cancel automatic renewal. The subscription continues until its normal renewal date and then simply expires. At expiration, the Visual Studio subscriber can no longer use Visual Studio or any other benefits from the subscription.
 
-With monthly cloud subscriptions, cancellations take effect the first day of the next month. If you only cancel some of your customer's monthly cloud subscriptions, be sure to remove users on the first of the next month to ensure that the correct people continue to have active subscriptions assigned.
+With monthly cloud subscriptions, cancellations take effect on the first day of the following month. If you only cancel some of your customer's monthly cloud subscriptions, be sure to remove users on the first day of the next month to ensure that the correct people continue to have active subscriptions assigned.
 
-For annual cloud subscriptions, cancellations take effect the first day of the month following 12 months from the original purchase, or 12 months from the last annual renewal charge. For instance, if you bought a Visual Studio Enterprise annual cloud subscription on January 3, 2018 then it remains active until February 1, 2019 when it automatically renews for another year. If you cancel between then and February 1, 2020, the subscription will expire on February 1, 2020. There's no rebate for canceling part way through the subscription year with annual cloud subscriptions.
+For annual cloud subscriptions, cancellations take effect on the first day of the month following 12 months from the original purchase, or 12 months from the last annual renewal charge. For instance, if you bought a Visual Studio Enterprise annual cloud subscription on January 3, 2018, then it remains active until February 1, 2019, when it automatically renews for another year. If you cancel between then and February 1, 2020, the subscription will expire on February 1, 2020. There's no rebate for canceling part way through the subscription year with annual cloud subscriptions.
 
 ### Q: What kind of volume discounts are available for Visual Studio subscriptions?
 
@@ -100,7 +100,7 @@ A: You get a 5% discount on the sixth and all subsequent subscriptions *within e
 
 So, for example, if you buy six Visual Studio Professional monthly subscriptions and five Visual Studio Enterprise monthly subscriptions, you pay the regular price on five Professional, get a 5% discount on the sixth Professional, and pay regular price on all five Enterprise subscriptions.
 
-Also, the discount only applies to charges in a given monthly billing period. So if you buy five Visual Studio Professional annual subscriptions in one month, and then you buy 5 more the next month, you'll pay the regular price on all 10 subscriptions.
+Also, the discount only applies to charges in any given monthly billing period. So, if you buy five Visual Studio Professional annual subscriptions in one month, and then you buy five more the next month, you'll pay the regular price on all 10 subscriptions.
 
 These discounts are reflected in the pricing data within [Partner Center](https://partner.microsoft.com/dashboard/home).
 
