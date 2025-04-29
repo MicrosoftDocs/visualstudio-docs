@@ -41,6 +41,8 @@ If you're developing an application that requires administrator permissions for 
 
 If your ClickOnce application runs online instead of through an installation, it must fit within the quota set aside for online applications. Also, a network application that runs in partial trust, such as with a restricted set of security permissions, can't be larger than half of the quota size.
 
+ [!INCLUDE[ndptecclick](../deployment/includes/code-access-security-partial-trust.md)]
+
 For more information, and instructions about how to change the online application quota, see [ClickOnce cache overview](../deployment/clickonce-cache-overview.md).
 
 ## Versioning issues
