@@ -17,7 +17,7 @@ ms.subservice: msbuild
 
 # Customize your local build
 
-When you work in a shared code repository like GitHub, in source control, or with any shared codebase, you can temporarily customize builds on your local machine. You might want to temporarily reproduce a bug or test a different configuration, and keep those customizations separate from the files in the shared code repository. This article describes some build extensions available in MSBuild that let you make user-specific or local-only custom build configurations.
+When you work with shared code in a code repository like GitHub, in source control, or with any shared codebase, you can use MSBuild to temporarily customize builds on your local machine. You might want to temporarily reproduce a bug or test a different configuration, and keep those customizations separate from the files in the shared code repository. This article describes some build extensions available in MSBuild that let you make user-specific or local-only custom build configurations.
 
 ## Prerequisites
 
