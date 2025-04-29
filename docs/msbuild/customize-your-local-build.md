@@ -14,38 +14,33 @@ ms.subservice: msbuild
 
 # Customize your local build
 
-When you work in a team that used a code repository like GitHub, source control, or any shared codebase, but you want to customize your builds on your local machine, perhaps temporarily to reproduce a bug or test a different configuration, it can be convenient to keep those customizations separate from the shared project files that are shared with the shared code repository. This article describes some build extensions available in MSBuild that let you make user-specific or local-only custom configurations.
+When you work in a shared code repository like GitHub, in source control, or with any shared codebase, you might want to temporarily customize builds on your local machine. Perhaps you want to temporarily reproduce a bug or test a different configuration, and keep those customizations separate from the files in the shared code repository. This article describes some build extensions available in MSBuild that let you make user-specific or local-only custom configurations.
 
-## .user file
+## Prerequisites
 
-Using `$(MSBuildProjectFullPath).user`, also referred as `.user` file in this context, is also an option. This file is intended to keep extensions, options, or variables that are specific to your local machine. It is not intended to be uploaded to source control, and it is automatically checked on `.gitignore`. For more extensive changes prefer changing the project itself, so that future maintainers do not have to know about this extension mechanism.
+- A Visual Studio project that builds with MSBuild.
 
-On supported multitargeted projects the `.user` file is automatically imported in inner builds and outer builds, so you can just create the file within the solution. If you are working on another type of build, you can still use the `.user` file. You can create it within your solution and then import it in your project file.
+## Use the .user file
+
+You can use *$\<MSBuildProjectFullPath>.user*, also called the *.user* file in this context, to keep extensions, options, or variables that are specific to your local machine. The *.user* file isn't intended to be uploaded to source control, and it's automatically checked on `.gitignore`. For more extensive changes, change the project itself, so future maintainers don't have to know about this extension mechanism.
+
+On supported multitargeted projects, the *.user* file is automatically imported in inner builds and outer builds, so you can create the file within the solution. If you're working on another type of build, you can use the *.user* file by creating it within your solution and then importing it in your project file, as follows:
+
 ```xml
 <Import Project="$(MSBuildProjectFullPath).user" Condition="Exists('$(MSBuildProjectFullPath).user')"/>
 ```
 
-## MSBuildExtensionsPath and MSBuildUserExtensionsPath
+## Use MSBuildExtensionsPath and MSBuildUserExtensionsPath
 
-By convention, many core build logic files import
+By convention, many core build logic files import the *$\<MSBuildExtensionsPath>\\$\<MSBuildToolsVersion>\\\<TargetFileName>\\ImportBefore\\\*.targets* file before their contents, and the *$\<MSBuildExtensionsPath>\\$\<MSBuildToolsVersion>\\\<TargetFileName>\\ImportAfter\\\*.targets* file afterwards. This convention allows installed SDKs to augment the build logic of common project types.
 
-```xml
-$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\{TargetFileName}\ImportBefore\*.targets
-```
+The same directory structure is searched in *$\<MSBuildUserExtensionsPath>*, which is the per-user folder *%LOCALAPPDATA%\\Microsoft\\MSBuild*. Files placed in that folder are imported for all builds of the corresponding project type run under that user's credentials.
 
-before their contents, and
+You can disable the user extensions by setting properties named after the importing file, in the pattern `ImportUserLocationsByWildcardBefore\<ImportingFileNameWithNoDots>`. For example, setting `ImportUserLocationsByWildcardBeforeMicrosoftCommonProps` to `false` prevents importing *$\<MSBuildUserExtensionsPath>\\$\<MSBuildToolsVersion>\\Imports\\Microsoft.Common.props\\ImportBefore\\\**.
 
-```xml
-$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\{TargetFileName}\ImportAfter\*.targets
-```
+## Create custom conditions based on project language
 
-afterward. This convention allows installed SDKs to augment the build logic of common project types.
-
-The same directory structure is searched in `$(MSBuildUserExtensionsPath)`, which is the per-user folder *%LOCALAPPDATA%\Microsoft\MSBuild*. Files placed in that folder will be imported for all builds of the corresponding project type run under that user's credentials. You can disable the user extensions by setting properties named after the importing file in the pattern `ImportUserLocationsByWildcardBefore{ImportingFileNameWithNoDots}`. For example, setting `ImportUserLocationsByWildcardBeforeMicrosoftCommonProps` to `false` would prevent importing `$(MSBuildUserExtensionsPath)\$(MSBuildToolsVersion)\Imports\Microsoft.Common.props\ImportBefore\*`.
-
-## Custom configuration based on project language
-
-If you need different behaviors depending on the .NET language (C#, Visual Basic, or F#), you can add property groups with conditions that depend on the project file extension in `$(MSBuildProjectExtension)` to define language-specific properties and their values.
+If you need different behaviors depending on the .NET language: C#, Visual Basic, or F#, you can add property groups with conditions that depend on the project file extension in *$\<MSBuildProjectExtension>* to define language-specific properties and their values.
 
 ```xml
 <PropertyGroup Condition="'$(MSBuildProjectExtension)' == '.vbproj'">
@@ -61,4 +56,5 @@ If you need different behaviors depending on the .NET language (C#, Visual Basic
 
 ## Related content
 
-- [Customize your build](customize-your-build.md).
+- [Customize your build](customize-your-build.md)
+- [Customize solution builds](customize-solution-build.md)

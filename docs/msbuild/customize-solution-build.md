@@ -1,7 +1,7 @@
 ---
-title: Customize the solution build
-description: Customize the solution build prepared by MSBuild for command-line builds of solutions with settings that don't affect project builds.
-ms.date: 02/28/2023
+title: Customize solution builds
+description: Customize the solution build MSBuild prepares for command-line builds with settings that don't affect project builds.
+ms.date: 04/29/2025
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, transforms
@@ -10,13 +10,16 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
+
+#customer intent: As a builder, I want to know how to customize MSBuild solution builds, so I can extend solution builds with files and settings that affect different subsets of files.
+
 ---
 
-# Customize the solution build
+# Customize solution builds
 
-When MSBuild builds a solution file, it first translates it internally into a project file and then builds that. The generated project file imports `before.{solutionname}.sln.targets` before defining any targets and `after.{solutionname}.sln.targets` after importing targets, including targets installed to the `$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportBefore` and `$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportAfter` directories.
+When MSBuild builds a solution file, it first translates the file internally into a project file, and then builds that project file. The generated project file can import *before.\<solutionname>.sln.targets* before it defines any targets, and import *after.\<solutionname>.sln.targets* after it imports the targets. The *before* and *after* targets files are installed to the *$\<MSBuildExtensionsPath>\\$\<MSBuildToolsVersion)>\\SolutionFile\\ImportBefore* and *$\<MSBuildExtensionsPath>\\$\<MSBuildToolsVersion)>\\SolutionFile\\ImportAfter* directories.
 
-For example, you could define a new target to write a custom log message after building *MyCustomizedSolution.sln* by creating a file in the same directory named *after.MyCustomizedSolution.sln.targets* that contains
+So, for example, you could define a new target to write a custom log message after *MyCustomizedSolution.sln* builds, by creating the following file named *after.MyCustomizedSolution.sln.targets* in the same directory.
 
 ```xml
 <Project>
@@ -26,18 +29,18 @@ For example, you could define a new target to write a custom log message after b
 </Project>
 ```
 
-The solution build is separate from the project builds, so settings here do not affect project builds.
+The solution build is separate from the project builds, so these settings don't affect the project builds.
 
 > [!IMPORTANT]
-> Customizing the solution build in this way applies only to command-line builds with `MSBuild.exe` or `dotnet build`. It **does not** apply to builds inside Visual Studio. For this reason, it is not recommended to put customization at the solution level. A better alternative for customizing all projects in a solution is to use *Directory.Build.props* and *Directory.build.targets* files in the solution folder, as discussed elsewhere in this article.
+> Customizing the solution build this way applies only to command-line builds using `MSBuild.exe` or `dotnet build`, and doesn't apply to builds inside Visual Studio. Therefore, it's not recommended to put customization at the solution level. A better alternative for customizing all projects in a solution is to use *Directory.Build.props* and *Directory.Build.targets* files in the solution folder.
 
-When you have many solution files that you want to extend in the same way, but you don't want to write to the `$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\` folder (which usually requires elevated permissions), you can create the files *Directory.Solution.props* and *Directory.Solution.targets* and place them in the root path above the solution files you want to extend. *Directory.Solution.props* is imported at the beginning of the solution build, and *Directory.Solution.targets* is imported at the end of the solution build. When you build a solution file, *Directory.Build.props* and *Directory.Build.targets* are not imported, so you must use *Directory.Solution.props* and *Directory.Solution.targets* instead. They do not implicitly import each other.
+Writing to the *$\<MSBuildExtensionsPath>\\$\<MSBuildToolsVersion)>\\SolutionFile\\* folder usually requires elevated permissions. If you have many solution files that you want to extend the same way, but you don't want to write to the *SolutionFile* folder, you can create the files *Directory.Solution.props* and *Directory.Solution.targets* and place them in the root path above the solution files you want to extend. *Directory.Solution.props* is imported at the beginning of the solution build, and *Directory.Solution.targets* is imported at the end of the solution build.
 
-When you have *Directory.Solution.props* or *Directory.Solution.targets* in a root folder, but you have a solution under that folder that you don't want to import them, you can use the solution-specific files mentioned previously `before.{solutionname}.sln.targets` and `after.{solutionname}.sln.targets` to set the properties `$(ImportDirectorySolutionProps)` and `$(ImportDirectorySolutionTargets)` to false. Or, you can use the properties `$(DirectorySolutionPropsPath)` and `$(DirectorySolutionTargetsPath)` to specify a different location for those files. This could be helpful if you have various subsets of your solutions that require certain property values or targets common to the subsets.
+When you build a solution file, *Directory.Build.props* and *Directory.Build.targets* aren't imported, so you must use *Directory.Solution.props* and *Directory.Solution.targets* instead. The two types of files don't implicitly import each other.
+
+When you have *Directory.Solution.props* or *Directory.Solution.targets* files in a root folder, but you don't want a solution under that folder to import those files, you can use the *before.\<solutionname>.sln.targets* and *after.\<solutionname>.sln.targets* files to set the properties `$(ImportDirectorySolutionProps)` and `$(ImportDirectorySolutionTargets)` to `false` for that solution. Or, you can use the properties `$(DirectorySolutionPropsPath)` and `$(DirectorySolutionTargetsPath)` to specify a different location for those files. This strategy can help if various subsets of your solutions require certain property values or targets in common.
 
 > [!NOTE]
-> The solution build is supported with the `.slnx` solution file format in MSBuild 17.12 and later. Both `before.{solutionname}.slnx.targets` and `before.{solutionname}.sln.targets` work (and likewise for the `after` forms) with MSBuild 17.14 and later.
+> The solution build is supported with the *.slnx* solution file format in MSBuild 17.12 and later. Both *before.\<solutionname>.slnx.targets* and *before.\<solutionname>.sln.targets*, and the corresponding *after* files, work with MSBuild 17.14 and later.
 
-## Related content
-
-- [Customize your build](customize-your-build.md).
+For more information about build customization options, see [Customize your build](customize-your-build.md).
