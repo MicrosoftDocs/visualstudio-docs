@@ -29,12 +29,14 @@ internal class MyClassificationTaggerProvider :
     ITextViewTaggerProvider<ClassificationTag>,
     ITextViewChangedListener
 {
+    ...
 ```
 
 ```cs
 internal class MyClassificationTagger :
     TextViewTagger<ClassificationTag>
 {
+    ...
 ```
 
 Since we want the document colorization to appear as instantly as possible,
@@ -45,11 +47,17 @@ superset of it), not the whole document;
 - avoiding parsing the whole document in order to generate tags.
 
 Once the tagger structure is ready and the syntax parsing for the specific
-file format is implemented, the tagger can provide text classification by
-simply creating and returning `ClassificationTag` values using the available
-`ClassificationType` know values.
+file format is implemented, the tagger can provide text classification, by
+simply creating `ClassificationTag` values using the available
+`ClassificationType` know values, and calling `UpdateTagsAsync`.
 
 ```cs
+List<TaggedTrackingTextRange<ClassificationTag>> tags = new();
+List<TextRange> ranges = new();
+
+...
+
+ranges.Add(new(document, lineStart, lineLength));
 tags.Add(
     new TaggedTrackingTextRange<ClassificationTag>(
         new TrackingTextRange(
@@ -58,6 +66,10 @@ tags.Add(
             tagLength,
             TextRangeTrackingMode.ExtendNone),
         new ClassificationTag(ClassificationType.KnownValues.Operator)));
+
+...
+
+await this.UpdateTagsAsync(ranges, tags, CancellationToken.None);
 ```
 
 At this time, VisualStudio.Extensibility doesn't support defining text colors
