@@ -1,7 +1,7 @@
 ---
 title: Enable & configure ClickOnce security
 description: Learn how the Publish wizard automatically enables code access security for ClickOnce applications to publish the application.
-ms.date: 08/04/2023
+ms.date: 04/25/2025
 ms.topic: how-to
 dev_langs: 
   - VB
@@ -20,7 +20,7 @@ ms.subservice: deployment
 
 You can enable and configure ClickOnce security settings in the **Security** page of the **Project Designer**. In this article, you learn how to enable security settings, configure security zones, and configure customized security zones.
 
- [!INCLUDE[ndptecclick](../deployment/includes/dotnet-task-unsupported.md)]
+ [!INCLUDE[ndptecclick](../deployment/includes/code-access-security.md)]
 
 ## Enable ClickOnce security settings
 
