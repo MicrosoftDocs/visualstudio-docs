@@ -157,6 +157,10 @@ additionalContent:
               url: /dotnet/maui/
             - text: Windows development with C++
               url: /cpp/windows/desktop-applications-visual-cpp
+            - text: Mobile development with C++
+              url: /cpp/cross-platform/
+            - text: Linux development with C++
+              url: /cpp/linux
         - title: Game development
           links:
             - text: Unity
