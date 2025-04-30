@@ -277,12 +277,14 @@ To use the rule set editor, follow these steps. If your project already uses a s
 
 1. Select the **infobar** link to migrate the rule set editor file.
 
-   > [!NOTE]
-   > In a .NET Framework project, the default rule set file can't be migrated or removed from the project.
-
 1. From the **Save As** dialog, select the directory where you want to generate the EditorConfig file, and then select **Save**.
 
    The generated EditorConfig opens in the editor. Additionally, the MSBuild property `CodeAnalysisRuleSet` is updated in the project file so that it no longer references the original rule set file.
+
+   The original rule set file can be removed from the project.
+
+   > [!NOTE]
+   > In a .NET Framework project, the default rule set file can't be migrated or removed from the project.
 
 To use the command line, follow these steps:
 
