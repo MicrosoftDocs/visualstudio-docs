@@ -25,7 +25,7 @@ When you work with shared code in a code repository like GitHub, in source contr
 
 ## Use the user file
 
-You can use *$\<MSBuildProjectFullPath>.user*, also called the *user* file in this context, to store extensions, options, or variables that are specific to your local machine. The user file isn't intended to be uploaded to source control, and is automatically checked on `.gitignore`. For more extensive changes, change the project itself, so future maintainers don't have to know about this extension mechanism.
+You can use `$(MSBuildProjectFullPath).user`, also called the *user* file in this context, to store extensions, options, or variables that are specific to your local machine. The user file isn't intended to be uploaded to source control, and is automatically checked on `.gitignore`. For more extensive changes, change the project itself, so future maintainers don't have to know about this extension mechanism.
 
 On supported multitargeted projects, the user file is automatically imported in inner builds and outer builds, so you can create this file within the solution. If you're working on another type of build, you can use the user file by creating it within your solution and then importing it in your project file, as follows:
 
@@ -36,11 +36,11 @@ On supported multitargeted projects, the user file is automatically imported in 
 <a name="msbuildextensionspath-and-msbuilduserextensionspath"></a>
 ## Use MSBuildExtensionsPath and MSBuildUserExtensionsPath
 
-By convention, many core build logic files import the *$\<MSBuildExtensionsPath>\\$\<MSBuildToolsVersion>\\\<TargetFileName>\\ImportBefore\\\*.targets* file before their contents, and the *$\<MSBuildExtensionsPath>\\$\<MSBuildToolsVersion>\\\<TargetFileName>\\ImportAfter\\\*.targets* file afterwards. This convention allows installed SDKs to augment the build logic of common project types.
+By convention, many core build logic files import the `$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\TargetFileName\ImportBefore\*.targets` file before their contents, and the `$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\TargetFileName\ImportAfter\*.targets` file afterwards. This convention allows installed SDKs to augment the build logic of common project types.
 
-The same directory structure is searched in *$\<MSBuildUserExtensionsPath>*, which is the per-user folder *%LOCALAPPDATA%\\Microsoft\\MSBuild*. Files placed in that folder are imported for all builds of the corresponding project type run under that user's credentials.
+The same directory structure is searched in `$(MSBuildUserExtensionsPath)`, which is the per-user folder *%LOCALAPPDATA%\\Microsoft\\MSBuild*. Files placed in that folder are imported for all builds of the corresponding project type run under that user's credentials.
 
-You can disable the user extensions by setting properties named after the importing file, in the pattern `ImportUserLocationsByWildcardBefore\<ImportingFileNameWithNoDots>`. For example, setting `ImportUserLocationsByWildcardBeforeMicrosoftCommonProps` to `false` prevents importing *$\<MSBuildUserExtensionsPath>\\$\<MSBuildToolsVersion>\\Imports\\Microsoft.Common.props\\ImportBefore\\\**.
+You can disable the user extensions by setting properties named after the importing file, in the pattern `ImportUserLocationsByWildcardBefore\<ImportingFileNameWithNoDots>`. For example, setting `ImportUserLocationsByWildcardBeforeMicrosoftCommonProps` to `false` prevents importing `$(MSBuildUserExtensionsPath\$(MSBuildToolsVersion)\Imports\Microsoft.Common.props\ImportBefore\*`.
 
 ## Create custom conditions based on project language
 
