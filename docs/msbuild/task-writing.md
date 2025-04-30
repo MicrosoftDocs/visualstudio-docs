@@ -12,12 +12,12 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
 
-#customer intent: As a builder, I want to understand how MSBuild tasks are created and invoked, so I can write my own tasks to run during MSBuild processes.
+#customer intent: As a builder, I want to understand how MSBuild tasks are created and invoked, so I can write my own tasks to run during MSBuild.
 ---
 
 # Write tasks for MSBuild
 
-MSBuild tasks are contained in targets and provide the code that runs during the build process. MSBuild includes a library of typical tasks, and you can also create your own tasks. For more information about the task library that MSBuild includes, see [MSBuild task reference](msbuild-task-reference.md).
+Tasks are contained in MSBuild targets and provide the code that runs during the build process. MSBuild includes a library of typical tasks, and you can also create your own tasks. For more information about the task library that MSBuild includes, see [MSBuild task reference](msbuild-task-reference.md).
 
 ## Prerequisites
 
@@ -33,7 +33,7 @@ You can use either of the following approaches when you implement a task:
 
 - Derive your class from the helper class <xref:Microsoft.Build.Utilities.Task>, which is defined in the *Microsoft.Build.Utilities.dll* assembly. `Task` implements `ITask` and provides default implementations of some `ITask` members. Logging is also easier.
 
-In both cases, you must add a method named `Execute` to your class, which is called when the task runs. This method takes no parameters and returns a `Boolean` value: `true` if the task succeeded or `false` if it failed. The following example shows a task that performs no action, completes successfully, and returns `true`.
+In both cases, you must add a method to your class named `Execute`, which is called when the task runs. This method takes no parameters and returns a `Boolean` value: `true` if the task succeeded or `false` if it failed. The following example shows a task that performs no action, completes successfully, and returns `true`.
 
 ```csharp
 using System;
@@ -52,7 +52,7 @@ namespace MyTasks
 }
 ```
 
-The following project file runs the preceding task:
+The following MSBuild project file runs the preceding task:
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -140,7 +140,7 @@ The `[Required]` attribute is defined by <xref:Microsoft.Build.Framework.Require
 
 ## Raise events from a task
 
-If your task derives from the <xref:Microsoft.Build.Utilities.Task> helper class, you can use any of the following helper methods on the <xref:Microsoft.Build.Utilities.Task> class to raise events that are caught and displayed by any registered loggers:
+If your task derives from the <xref:Microsoft.Build.Utilities.Task> helper class, you can use any of the following helper methods on the <xref:Microsoft.Build.Utilities.Task> class to raise events that are caught and displayed by all registered loggers:
 
 ```csharp
 public override bool Execute()
@@ -173,13 +173,11 @@ public class SimpleTask : ITask
 
 ## Package the task
 
-The recommended way to distribute a task is in a NuGet package. The package needs to bundle all dependencies. For a tutorial that walks you through creating a custom task. See [Create a NuGet package](tutorial-custom-task-code-generation.md#create-a-nuget-package).
+The recommended way to distribute a task is in a NuGet package. The package needs to bundle all dependencies. For a tutorial that walks you through creating a custom task, see [Create a NuGet package](tutorial-custom-task-code-generation.md#create-a-nuget-package).
 
 ## Example 1
 
 The following C# class demonstrates a task deriving from the <xref:Microsoft.Build.Utilities.Task> helper class. This task returns `true`, indicating that it succeeded.
-
-### Code
 
 ```csharp
 using System;
@@ -201,8 +199,6 @@ namespace SimpleTask1
 ## Example 2
 
 The following C# class demonstrates a task implementing the <xref:Microsoft.Build.Framework.ITask> interface. This task returns `true`, indicating that it succeeded.
-
-### Code
 
 ```csharp
 using System;

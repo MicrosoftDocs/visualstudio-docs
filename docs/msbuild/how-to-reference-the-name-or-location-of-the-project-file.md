@@ -16,7 +16,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
 
-#customer intent: As a builder, I want to reference the project file name and other reserved properties in builds so that I don't have to create the properties.
+#customer intent: As a builder, I want to reference reserved properties like the project file name in builds so I don't have to create the properties.
 ---
 # Use reserved properties to reference project file name or location
 
@@ -30,7 +30,7 @@ A Visual Studio project that builds with MSBuild.
 
 MSBuild provides some reserved properties that you can use in your project files without defining them each time. For example, the reserved property `MSBuildProjectName` provides a reference to the project file name. The reserved property `MSBuildProjectDirectory` provides a reference to the project file location.
 
-An advantage of using the reserved property is that any changes to the project file name are incorporated automatically. The next time that you build the project, the output file and other file names automatically have the new name.
+An advantage of using the reserved property is that any changes to the project file name are incorporated automatically. The next time you build the project, the output file and other file names that use the property automatically update to the new name.
 
 To use the project properties, reference the property in the project file with the `$()` notation, just as you would any property. For example:
 
@@ -76,7 +76,7 @@ For information about using special characters in file or project references, se
 
 ## Use MSBuildProjectDirectory to create the full path to a file
 
-The following example project file uses the `MSBuildProjectDirectory` reserved property to create the full path to a file in the project file location. The example uses the [property function](property-functions.md) syntax to call the static .NET Framework method <xref:System.IO.Path.Combine*?displayProperty=fullName>.
+The following example project file uses the `MSBuildProjectDirectory` reserved property to create the full path to a file in the project file location. The example uses the [property function syntax](property-functions.md#property-function-syntax) to call the static .NET Framework method <xref:System.IO.Path.Combine*?displayProperty=fullName>.
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
