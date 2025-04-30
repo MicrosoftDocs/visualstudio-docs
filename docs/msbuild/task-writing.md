@@ -12,11 +12,16 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
 
-
+#customer intent: As a builder, I want to understand how MSBuild tasks are created and invoked, so I can write my own tasks to run during MSBuild processes.
 ---
+
 # Write tasks for MSBuild
 
 MSBuild tasks are contained in targets and provide the code that runs during the build process. MSBuild includes a library of typical tasks, and you can also create your own tasks. For more information about the task library that MSBuild includes, see [MSBuild task reference](msbuild-task-reference.md).
+
+## Prerequisites
+
+A Visual Studio project that builds with MSBuild.
 
 ## Tasks
 
@@ -88,7 +93,7 @@ The following project file runs this task and sets `MyProperty` to the given val
 </Project>
 ```
 
-## How MSBuild invokes a task
+## How MSBuild invokes tasks
 
 When MSBuild invokes a task, it first instantiates the task class, then calls that object's property setters for task parameters that are set in the task element in the project file. If the task element doesn't specify a parameter, or if the expression specified in the element evaluates to an empty string, the property setter isn't called.
 
