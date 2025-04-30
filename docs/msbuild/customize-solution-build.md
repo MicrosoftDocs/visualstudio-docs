@@ -19,7 +19,7 @@ ms.subservice: msbuild
 
 When MSBuild builds a solution file, it first translates the file internally into a project file, and then builds that project file. The generated project file can import a *before.\<solutionname>.sln.targets* file before it defines any targets, and import *after.\<solutionname>.sln.targets* after it imports the targets.
 
-The *before* and *after* targets files are installed to the *$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\SolutionFile\\ImportBefore* and *$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\SolutionFile\\ImportAfter* directories.
+The *before* and *after* targets files are installed to the `$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportBefore` and `$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportAfter` directories.
 
 So, for example, you could define a new target to write a custom log message after *MyCustomizedSolution.sln* builds, by creating the following file named *after.MyCustomizedSolution.sln.targets* in the same directory.
 

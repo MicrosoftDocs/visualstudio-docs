@@ -44,7 +44,7 @@ You can disable the user extensions by setting properties named after the import
 
 ## Create custom conditions based on project language
 
-If you need different behaviors depending on the .NET language: C#, Visual Basic, or F#, you can add property groups with conditions that depend on the project file extension in *$\<MSBuildProjectExtension>* to define language-specific properties and their values.
+If you need different behaviors depending on the .NET language: C#, Visual Basic, or F#, you can add property groups with conditions that depend on the project file extension in `<MSBuildProjectExtension>` to define language-specific properties and their values.
 
 ```xml
 <PropertyGroup Condition="'$(MSBuildProjectExtension)' == '.vbproj'">
