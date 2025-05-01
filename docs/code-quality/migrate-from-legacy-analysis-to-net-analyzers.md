@@ -1,7 +1,7 @@
 ---
 title: Migrate from FxCop to source analysis (.NET)
 description: Analyze code for the first time or migrate your process from binary analysis (FxCop code analysis) to .NET analyzers for source analysis.
-ms.date: 09/17/2021
+ms.date: 04/30/2025
 ms.topic: conceptual
 f1_keywords:
  - "vs.projectpropertypages.codeanalysis"
@@ -49,6 +49,8 @@ To learn more about how to configure the .NET analyzers:
 - To configure .NET analyzers, see [Configure .NET analyzers](/dotnet/fundamentals/code-analysis/code-quality-rule-options).
 
 - To find out about configuring analyzers using predefined rules with EditorConfig or a rule set file, see [Enable a category of rules](/dotnet/fundamentals/code-analysis/code-quality-rule-options).
+
+- To migrate from rule set files to EditorConfig, see [Convert an existing rule set file to an EditorConfig file](../code-quality/use-roslyn-analyzers.md#convert-an-existing-rule-set-file-to-an-editorconfig-file).
 
 ## Related content
 
