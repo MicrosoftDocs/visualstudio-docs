@@ -37,7 +37,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Configure Visual Studio Container Tools](../containers/container-tools-configure.md) - Review and update
 - [Use the Containers window](../containers/view-and-diagnose-containers.md) - Review and update
-- [Build a container project from the command line](../containers/container-build-from-command-line.md) - Add info about command-line builds for containers
+- [Build a container project from the command line](../containers/container-build-from-command-line.md) - Add information about command-line builds for containers
 
 ### Data tools
 
@@ -78,7 +78,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Specify ClickOnce Publish properties](../deployment/how-to-specify-where-visual-studio-copies-the-files.md) - Add security update for CAS in ClickOnce
 - [Security, versioning, and manifest issues in ClickOnce deployments](../deployment/security-versioning-and-manifest-issues-in-clickonce-deployments.md) - Add security update for CAS in ClickOnce
 - [Deploy a .NET Framework desktop application using the ClickOnce Publish wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md) - Review and update
-- [Get publish settings from Azure and import into Visual Studio](../deployment/tutorial-import-publish-settings-azure.md) - SFI: Add security note
+- [Get publish settings from Azure and import into Visual Studio](../deployment/tutorial-import-publish-settings-azure.md) - Add security note
 
 ### Extensibility
 
@@ -102,7 +102,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Oops! No `F1` help match was found](../ide/not-in-toc/default.md) - Change tone of title and intro
 - [Update existing templates](../ide/how-to-update-existing-templates.md) - Review and update
 - [Create item templates](../ide/how-to-create-item-templates.md) - Review and update
 - [Productivity guide for Visual Studio](../ide/productivity-features.md) - Update productivity guide with C# tips
@@ -111,15 +110,14 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Find code by using Go To commands](../ide/go-to.md) - Review and update
 - [Find references in your code](../ide/finding-references.md) - Review and update
 - [Navigate code](../ide/navigating-code.md) - Review and update
-- [Title not found in: ](../ide/whats-new-visual-studio-docs.md) - Update What's New in Docs for March 2025
 
 ### Install
 
 **Updated articles**
 
-- [Create and maintain a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md) - Update for freshness
+- [Create and maintain a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md) - Update
 - [Repair Visual Studio](../install/repair-visual-studio.md) - Update for user feedback
-- [Update Visual Studio](../install/update-visual-studio.md) - Updates for freshness pass
+- [Update Visual Studio](../install/update-visual-studio.md) - Review and update
 - [Visual Studio images on Azure](../install/using-visual-studio-vm.md) - Updates for latest image offers on Azure Marketplace
 
 ### JavaScript
@@ -148,18 +146,19 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Common MSBuild project items](../msbuild/common-msbuild-project-items.md)
   - Clarify what an item is
   - Add noticeable link for .NET items
-- [MSB3176 diagnostic code](../msbuild/errors/msb3176.md) - Two MSBuild errors relating to ClickOnce and manifests
-- [MSB3321 diagnostic code](../msbuild/errors/msb3321.md) - Two MSBuild errors relating to ClickOnce and manifests
-- [MSB1001 diagnostic code](../msbuild/errors/msb1001.md) - Document more MSBuild errors
-- [MSB1003 diagnostic code](../msbuild/errors/msb1003.md) - Document more MSBuild errors
-- [MSB1013 diagnostic code](../msbuild/errors/msb1013.md) - Document more MSBuild errors
-- [MSB3023 diagnostic code](../msbuild/errors/msb3023.md) - Document more MSBuild errors
-- [MSB3024 diagnostic code](../msbuild/errors/msb3024.md) - Document more MSBuild errors
-- [MSB3187 diagnostic code](../msbuild/errors/msb3187.md) - Document more MSBuild errors
-- [MSB4006 diagnostic code](../msbuild/errors/msb4006.md) - Document more MSBuild errors
-- [MSB4066 diagnostic code](../msbuild/errors/msb4066.md) - Document more MSBuild errors
-- [MSB4232 diagnostic code](../msbuild/errors/msb4232.md) - Document more MSBuild errors
-- [MSB5029 diagnostic code](../msbuild/errors/msb5029.md) - Document more MSBuild errors
+- Add details for MSBuild errors
+  - [MSB1001 diagnostic code](../msbuild/errors/msb1001.md)
+  - [MSB1003 diagnostic code](../msbuild/errors/msb1003.md)
+  - [MSB1013 diagnostic code](../msbuild/errors/msb1013.md)
+  - [MSB3023 diagnostic code](../msbuild/errors/msb3023.md)
+  - [MSB3024 diagnostic code](../msbuild/errors/msb3024.md)
+  - [MSB3187 diagnostic code](../msbuild/errors/msb3187.md)
+  - [MSB4006 diagnostic code](../msbuild/errors/msb4006.md)
+  - [MSB4066 diagnostic code](../msbuild/errors/msb4066.md)
+  - [MSB4232 diagnostic code](../msbuild/errors/msb4232.md)
+  - [MSB5029 diagnostic code](../msbuild/errors/msb5029.md)
+  - [MSB3176 diagnostic code](../msbuild/errors/msb3176.md)
+  - [MSB3321 diagnostic code](../msbuild/errors/msb3321.md)
 - [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md) - Add link to .NET SDK reference
 
 ### Profiling
@@ -178,9 +177,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Create a unit test project](../test/create-a-unit-test-project.md) - Review and update
 - [Install unit test frameworks](../test/install-third-party-unit-test-frameworks.md) - Review and update
 - [Walkthrough: Create and run unit tests for UWP apps](../test/walkthrough-creating-and-running-unit-tests-for-windows-store-apps.md) - Update UWP unit testing article for new UWP .NET 9 unit testing template
-- [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)
-  - Confirm merge from repo_sync_working_branch to main to sync with https://github.com/MicrosoftDocs/visualstudio-docs (branch main)
-  - Adding default note for IncludeTestAssembly in code coverage documentation
+- [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md) - Adding default note for IncludeTestAssembly in code coverage documentation
 
 ### VSTO
 
@@ -245,13 +242,11 @@ The following people contributed to the Visual Studio docs during this period. T
 
 **Updated articles**
 
-- [Create a basic data application by using ADO.NET](../data-tools/create-a-simple-data-application-by-using-adonet.md) - Freshness edit: Data Tools and MSBuild articles
-- [Create and configure datasets in the .NET Framework using Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md)
-  - Freshness edit: Data Tools and MSBuild articles
-  - Freshness edit: Data Tools and MSBuild articles
-- [Save and edit database connection strings for .NET Framework applications](../data-tools/how-to-save-and-edit-connection-strings.md) - Freshness edit: Data Tools and MSBuild articles
-- [Create a basic data application with WPF and Entity Framework 6](../data-tools/create-a-simple-data-application-with-wpf-and-entity-framework-6.md) - Freshness edit: Data Tools and MSBuild articles
-- [Walkthrough: Create a WCF service in .NET Framework Windows Forms](../data-tools/walkthrough-creating-a-simple-wcf-service-in-windows-forms.md) - Freshness edit: Data Tools and MSBuild articles
+- [Create a basic data application by using ADO.NET](../data-tools/create-a-simple-data-application-by-using-adonet.md) - Review and update
+- [Create and configure datasets in the .NET Framework using Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md) - Review and update
+- [Save and edit database connection strings for .NET Framework applications](../data-tools/how-to-save-and-edit-connection-strings.md) - Review and update
+- [Create a basic data application with WPF and Entity Framework 6](../data-tools/create-a-simple-data-application-with-wpf-and-entity-framework-6.md) - Review and update
+- [Walkthrough: Create a WCF service in .NET Framework Windows Forms](../data-tools/walkthrough-creating-a-simple-wcf-service-in-windows-forms.md) - Review and update
 - [Connect to an Access database in .NET Framework applications](../data-tools/connect-to-data-in-an-access-database-windows-forms.md) - Add Visual Basic "Compile" tab
 - [Fill datasets by using TableAdapters in .NET Framework applications](../data-tools/fill-datasets-by-using-tableadapters.md) - Freshness edit: Data Tools and MSBuild articles
 
@@ -268,13 +263,7 @@ The following people contributed to the Visual Studio docs during this period. T
   - C++ debugging quickstart, potentially confusing section about creating a new project
 - [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md) - Clarify list of unsupported Hot Reload edits
 - [Write and debug running code with Hot Reload in Visual Studio (C#, Visual Basic, C++)](../debugger/hot-reload.md) - Add zone pivots to article on hot reload
-- [C++ Dynamic Debugging (Preview)](../debugger/cpp-dynamic-debugging.md)
-  - fix typo
-  - [Do not merge] rebuild of deopt branch -- 3-19 - 10:30 AM PST
-  - VS-deopt
-- [Debug Optimized Code](../debugger/how-to-debug-optimized-code.md)
-  - [Do not merge] rebuild of deopt branch -- 3-19 - 10:30 AM PST
-  - VS-deopt
+- [Debug Optimized Code](../debugger/how-to-debug-optimized-code.md) - Update
 - [Debug in mixed mode (C#, C++, Visual Basic)](../debugger/how-to-debug-in-mixed-mode.md) - Clarify mixed mode debugging settings for .NET and .NET Framework, ad…
 - [Debug your app with GitHub Copilot in Visual Studio](../debugger/debug-with-copilot.md) - Add information on support for data tips in LINQ expressions
 - [View and change variable values with data tips in the code editor](../debugger/view-data-values-in-data-tips-in-the-code-editor.md) - Add information on support for data tips in LINQ expressions
@@ -297,7 +286,7 @@ The following people contributed to the Visual Studio docs during this period. T
 **Updated articles**
 
 - [.NET Compatibility for VisualStudio.Extensibility Extensions](../extensibility/visualstudio.extensibility/dotnet-management-overview.md) - Mention multiple GitHub accounts and add link
-- [Diagnose UI delays caused by extensions](../extensibility/how-to-diagnose-ui-delays-caused-by-extensions.md) - Broken links fixing - maiak
+- [Diagnose UI delays caused by extensions](../extensibility/how-to-diagnose-ui-delays-caused-by-extensions.md) - Broken links fixing
 - [Contributions and Configurations](../extensibility/visualstudio.extensibility/inside-the-sdk/contributions-and-configurations.md) - Add documentation on dependency injection
 - [Components of a VisualStudio.Extensibility extension](../extensibility/visualstudio.extensibility/inside-the-sdk/extension-anatomy.md)
   - Add documentation on dependency injection
@@ -329,7 +318,6 @@ The following people contributed to the Visual Studio docs during this period. T
   - Remove/replace some Xamarin references
 - [Build Events Page, Project Designer (C#)](../ide/reference/build-events-page-project-designer-csharp.md) - Add note to older page and provide link for VS 2022 users
 - [Use Visual Studio search](../ide/visual-studio-search.md) - All-In-One Search 17.13 updates
-- [Title not found in: ](../ide/whats-new-visual-studio-docs.md) - What's New in docs for Feb 2025
 - [Productivity guide for Visual Studio](../ide/productivity-features.md) - Add zone pivots to productivity guide
 - [Features of Visual Studio](../ide/advanced-feature-overview.md) - Remove/replace some Xamarin references
 - [Developer Community data privacy](../ide/developer-community-privacy.md) - Remove/replace some Xamarin references
@@ -362,16 +350,13 @@ The following people contributed to the Visual Studio docs during this period. T
 - [Customize the build by folder](../msbuild/customize-by-directory.md)
   - Confirm merge from repo_sync_working_branch to main to sync with https://github.com/MicrosoftDocs/visualstudio-docs (branch main)
   - Change inline code to code block for better copy friendliness
-- [MSB1008 diagnostic code](../msbuild/errors/msb1008.md) - Add docs for four MSBuild error messages
-- [MSB1009 diagnostic code](../msbuild/errors/msb1009.md) - Add docs for four MSBuild error messages
-- [MSB4036 diagnostic code](../msbuild/errors/msb4036.md) - Add docs for four MSBuild error messages
-- [MSB4063 diagnostic code](../msbuild/errors/msb4063.md) - Add docs for four MSBuild error messages
-- [MSB4126 diagnostic code](../msbuild/errors/msb4126.md) - Add docs for four MSBuild error messages
-- [MSBuild MSB8088 diagnostic code](../msbuild/errors/msb8088.md)
-  - Confirm merge from repo_sync_working_branch to main to sync with https://github.com/MicrosoftDocs/visualstudio-docs (branch main)
-  - [Do not merge] rebuild of deopt branch -- 3-19 - 10:30 AM PST
-  - VS-deopt
-  - Fix MSB8088 message in blockquotes
+- Add docs for four MSBuild error messages:
+  - [MSB1008 diagnostic code](../msbuild/errors/msb1008.md)
+  - [MSB1009 diagnostic code](../msbuild/errors/msb1009.md)
+  - [MSB4036 diagnostic code](../msbuild/errors/msb4036.md)
+  - [MSB4063 diagnostic code](../msbuild/errors/msb4063.md)
+  - [MSB4126 diagnostic code](../msbuild/errors/msb4126.md)
+- [MSBuild MSB8088 diagnostic code](../msbuild/errors/msb8088.md) - Fix MSB8088 message in blockquotes
 - [Customize the solution build](../msbuild/customize-solution-build.md)
   - Modify note to mention dotnet build behavior
   - MSBuild support for slnx builds
@@ -380,7 +365,7 @@ The following people contributed to the Visual Studio docs during this period. T
 - [MSB4099 diagnostic code](../msbuild/errors/msb4099.md) - Add explanatory text for error condition and link to more information
 - [Create a project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md) - Review and update
 - [Specify which MSBuild target to build first](../msbuild/how-to-specify-which-target-to-build-first.md) - Freshness edit: Data Tools and MSBuild articles
-- [Incremental builds](../msbuild/incremental-builds.md) - Freshness edit: Data Tools and MSBuild articles
+- [Incremental builds](../msbuild/incremental-builds.md) - Review and update
 - [WriteCodeFragment task](../msbuild/writecodefragment-task.md) - Add example that handles incremental build
 - [MSB3482](../msbuild/errors/msb3482.md) - Add information about signtool.exe
 
