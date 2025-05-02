@@ -36,6 +36,8 @@ If you don't specify a target on the command line by using the `-target` option,
 
 If you specify `-getTargetResult`, any targets requested are automatically built, as if you specified them with `-target`, along with any other targets you requested.
 
+Be aware that properties are evaluated before items, so if you're using `-getProperty` for a property that references an item, you get a different output depending on whether or not you're getting the result before or after item evaluation occurs.  For example, if you use `-getProperty` without using the `-target` option (or `-getTargetResult`), then you get the property value without item evaluation, but if you do specify `-targets` (or `-getTargetResult`), then you get the final result after item evaluation. See [How MSBuild builds projects](build-process-overview.md).
+
 You can use these commands with `MSBuild.exe` or with `dotnet build`, or other `dotnet` commands such as `dotnet publish`. See [MSBuild command-line reference](msbuild-command-line-reference.md) and [dotnet command](/dotnet/core/tools/dotnet).
 
 If you use `-getProperty` to request a single property, the output is emitted as a string of text. That means you can easily consume the value in scripting scenarios, or within a more complex command line.
