@@ -1,7 +1,7 @@
 ---
 title: Add editor support for other languages
 description: Learn about how the Visual Studio editor supports reading and navigating through different computer languages and how you can add support for other languages.
-ms.date: 11/04/2016
+ms.date: 5/02/2025
 ms.topic: conceptual
 helpviewer_keywords:
 - syntax colorization
@@ -92,6 +92,8 @@ Visual Studio provides language support in the editor by using [TextMate Grammar
 Add any new TextMate Grammars for Visual Studio in the following folder:
 
 *%userprofile%\\.vs\Extensions*
+
+> In Windows, *%userprofile%* resolves to the path: *c:\Users\\\<user name>*. If the *Extensions* folder does not exist on your system, you will need to create it. If the folder already exists, it will be hidden.
 
 Under this base path, add the following folders if they apply to your situation:
 
