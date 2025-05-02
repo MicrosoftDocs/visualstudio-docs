@@ -8109,6 +8109,21 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/reference/property-pages-javascript.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/property-pages-javascript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/file-properties-javascript.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/file-properties-javascript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-javascript-project.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-javascript-project",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/options-text-editor-javascript-linting.md",
       "redirect_url": "/visualstudio/javascript/linting-javascript",
       "redirect_document_id": false
