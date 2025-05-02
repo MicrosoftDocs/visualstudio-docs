@@ -3,7 +3,7 @@ title: What are Visual Studio subscriptions?
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 12/12/2024
+ms.date: 05/02/2025
 ms.topic: conceptual
 description:  Learn about Visual Studio subscriptions and how to acquire them
 ---
@@ -21,13 +21,13 @@ In addition to the Visual Studio IDE, subscriptions can include benefits in thes
 + Access to product downloads
 
 > [!IMPORTANT]
-> Benefits included in any subscription depend on the type of subscription.  **Not all benefits are included in all subscriptions.**  Be sure to visit the [Buy Visual Studio page](https://visualstudio.microsoft.com/vs/pricing/?tab=individual) and compare the benefits in each subscription to determine the best fit for your needs.
+> Benefits included in any subscription depend on the type of subscription. **Not all benefits are included in all subscriptions.** To determine the best fit for your needs, be sure to visit the [Buy Visual Studio page](https://visualstudio.microsoft.com/vs/pricing/?tab=individual) and compare the benefits in each subscription.
 
 If you already have a subscription, access your benefits in the portal at my.visualstudio.com  
 
 ### Tools & services
 The tools and services that might be included in a subscription include:
-+ Azure credits. Up to $150 in Azure credits per month are included, depending on the subscription
++ Azure credits. Includes up to $150 in Azure credits per month, depending on the subscription
 + Discounted dev/test pricing on select Azure services for nonproduction workloads
 + Azure DevOps. Receive either the basic plan, or basic + test plans
 + Windows Developer Account
@@ -51,11 +51,11 @@ Access to training partners with exclusive subscriber discounts
 Depending on your subscription, you can receive up to four professional support incidents from Microsoft.
 
 ### Access to product downloads
-A wide range of products are available for use in your development and test environments, depending on your subscription level. [See available software here](https://learn.microsoft.com/visualstudio/subscriptions/product-availability) 
+A wide range of products are available for use in your development and test environments, depending on your subscription level. [See available software here](https://learn.microsoft.com/visualstudio/subscriptions/product-availability). 
 
 ## How can I purchase a subscription? 
 Subscriptions are available through several channels.  
-+ Volume licensing. For larger organizations would need multiple subscriptions, volume licensing provides a cost-effective way to purchase what they need. Volume license purchases frequently use multi-year agreements. Learn more about [licensing programs.](https://www.microsoft.com/Licensing/licensing-programs/licensing-programs?rtc=1)
++ Volume licensing. For larger organizations, multiple subscriptions are often necessary. Volume licensing offers a cost-effective solution, typically involving multi-year agreements. Learn more about [licensing programs.](https://www.microsoft.com/Licensing/licensing-programs/licensing-programs?rtc=1)
 + Retail. Individuals who are looking for a subscription for their own use can purchase subscriptions through the [Microsoft Store.](https://www.microsoft.com/store) 
 + Monthly subscriptions. Sometimes called "cloud subscriptions," monthly subscriptions are billed each month and provide billing flexibility. They're a great option for developers who just need to use the IDE for a short time, and don’t need the other benefits. Monthly subscriptions can be purchased on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions) or through a [Cloud Solution Provider.](https://appsource.microsoft.com/en-us/marketplace/partner-dir)
 
