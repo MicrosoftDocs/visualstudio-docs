@@ -4,6 +4,10 @@ description: Learn how Visual Studio delivers richer IntelliSense, support for m
 ms.date: 02/21/2023
 ms.topic: conceptual
 ms.subservice: javascript-typescript
+f1_keywords:
+  - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Intellisense.References"
+  - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Intellisense.General"
+  - "VS.ToolsOptionsPages.Text_Editor.TypeScript.IntelliSense.General"
 helpviewer_keywords:
 - IntelliSense [JavaScript]
 - <reference> JavaScript XML tag
@@ -120,6 +124,12 @@ By default, the language service tries to detect which JavaScript libraries are 
 > This feature is **disabled** by default if you're using a *tsconfig.json* configuration file, but may be set to enabled as outlined further below.
 
 Currently, auto-detection works for dependencies downloaded from npm (by reading the *package.json* file), Bower (by reading the *bower.json* file), and for loose files in your project that match a list of roughly the top 400 most popular JavaScript libraries. For example, if you have *jquery-1.10.min.js* in your project, the file *jquery.d.ts* will be fetched and loaded in order to provide a better editing experience. This *.d.ts* file will have no impact on your project.
+
+## Configure IntelliSense
+
+You can use change the behavior of IntelliSense statement completion by selecting **Tools > Options > Text Editor > JavaScript/TypeScript > IntelliSense > General**.
+
+When you select **Only use Tab or Enter to commit**, the JavaScript code editor appends statements with items selected in the completion list only after you choose the **Tab** or **Enter** key. When you deselect this check box, other characters – such as a period, comma, colon, open parenthesis, and open brace ({) – can also append statements with the selected items.
 
 ## Related content
 

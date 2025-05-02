@@ -8124,6 +8124,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/reference/options-text-editor-javascript-intellisense.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-javascript-intellisense",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/options-text-editor-javascript-project.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-javascript-project",
       "redirect_document_id": false
