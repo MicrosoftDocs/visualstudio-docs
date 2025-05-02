@@ -78,7 +78,7 @@ In addition to syntax colorization and basic statement completion, Visual Studio
 
 All of these file types have the features described earlier even if support for a given language isn't yet installed. Installing specialized support for some languages may provide additional language support, such as IntelliSense or other advanced language features like light bulbs.
 
-## Add support for non-supported languages
+## Add support for nonsupported languages
 
 Visual Studio provides language support in the editor by using [TextMate Grammars](https://manual.macromates.com/en/language_grammars). If your favorite programming language currently isn't supported in the Visual Studio editor, first, search the web&mdash;a TextMate bundle for the language may already exist. If you can't find one, though, you can add support for it yourself by creating a TextMate bundle model for language grammars and snippets.
 
@@ -106,7 +106,7 @@ For details about how to create TextMate Grammars, see [TextMate - Introduction 
 ## Related content
 
 - [Add a Language Server Protocol extension](../extensibility/adding-an-lsp-extension.md)
-- [Walkthrough: Create a code snippet](../ide/walkthrough-creating-a-code-snippet.md)
-- [Walkthrough: Display statement completion](../extensibility/walkthrough-displaying-statement-completion.md)
-- [Example code: TextMate Grammar](https://github.com/microsoft/VSSDK-Extensibility-Samples/tree/master/TextmateGrammar)
-- [Example code: Custom language support](https://github.com/microsoft/VSSDK-Extensibility-Samples/tree/master/Ook_Language_Integration)
+- [Create a code snippet](../ide/walkthrough-creating-a-code-snippet.md)
+- [Display statement completion](../extensibility/walkthrough-displaying-statement-completion.md)
+- [Ship TextMate grammars inside Visual Studio extensions](https://github.com/microsoft/VSSDK-Extensibility-Samples/tree/master/TextmateGrammar)
+- [Implement custom language support](https://github.com/microsoft/VSSDK-Extensibility-Samples/tree/master/Ook_Language_Integration)
