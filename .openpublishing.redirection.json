@@ -8124,6 +8124,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/reference/options-text-editor-javascript-formatting.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-javascript-formatting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-javascript-code-validation.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-javascript-code-validation",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/options-text-editor-javascript-intellisense.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-javascript-intellisense",
       "redirect_document_id": false

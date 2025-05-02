@@ -3,6 +3,13 @@ title: Introduction to editing for JavaScript developers
 description: This introduction to the code editor in Visual Studio shows some of the ways that Visual Studio makes writing, navigating, and understanding JavaScript code easier.
 ms.date: 05/02/2025
 ms.topic: how-to
+f1_keywords:
+  - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Formatting.Spacing"
+  - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Formatting.General"
+  - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Formatting.New_Lines"
+  - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Formatting.Spacing"
+  - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Formatting.General"
+  - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Formatting.New_Lines"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
@@ -129,6 +136,12 @@ for (var i = 0; i < length; i++) {
 ```
 
 You can look at the available code snippets for your language by choosing **Edit** > **IntelliSense** > **Insert Snippet**, and then choosing your language's folder.
+
+## Configure the text editor
+
+You can configure other text editor options for JavaScript and TypeScript by choosing **Tools > Options > Text Editor > JavaScript/TypeScript**. 
+
+Available options include properties to control formatting, code validation, and many other aspects of the text editor.
 
 ## Related content
 
