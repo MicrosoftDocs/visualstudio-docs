@@ -68,22 +68,15 @@ Visual Studio currently provides syntax colorization and basic statement complet
 In addition to syntax colorization and basic statement completion, Visual Studio also has a feature called [Navigate To](/archive/blogs/benwilli/visual-studio-tip-3-use-navigate-to). This feature enables you to quickly search code files, file paths, and code symbols. Visual Studio provides Navigate To support for the following languages.
 
 - C#
-
 - C++
-
 - TypeScript
-
 - JavaScript
-
 - Visual Basic
-
 - Go
-
 - Java
-
 - PHP
 
-All of these file types have the features described earlier even if support for a given language hasn't yet been installed. Installing specialized support for some languages may provide additional language support, such as IntelliSense or other advanced language features like light bulbs.
+All of these file types have the features described earlier even if support for a given language isn't yet installed. Installing specialized support for some languages may provide additional language support, such as IntelliSense or other advanced language features like light bulbs.
 
 ## Add support for non-supported languages
 
@@ -93,7 +86,7 @@ Add any new TextMate Grammars for Visual Studio in the following folder:
 
 *%userprofile%\\.vs\Extensions*
 
-> In Windows, *%userprofile%* resolves to the path: *c:\Users\\\<user name>*. If the *Extensions* folder does not exist on your system, you will need to create it. If the folder already exists, it will be hidden.
+> In Windows, *%userprofile%* resolves to the path: *c:\Users\\\<user name>*. If the *Extensions* folder does not exist on your system, you need to create it. If the folder already exists, it is hidden.
 
 Under this base path, add the following folders if they apply to your situation:
 
