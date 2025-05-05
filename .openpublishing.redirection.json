@@ -1591,8 +1591,8 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/ide/reference/security-page-project-designer.md",
-      "redirect_url": "/visualstudio/deployment/how-to-enable-clickonce-security-settings",
+      "source_path": "docs/ide/reference/signing-page-project-designer.md",
+      "redirect_url": "/visualstudio/ide/how-to-sign-application-and-deployment-manifests",
       "redirect_document_id": false
     },
     {
