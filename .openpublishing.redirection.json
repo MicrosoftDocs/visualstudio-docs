@@ -1591,6 +1591,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/reference/publish-page-project-designer.md",
+      "redirect_url": "/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/prerequisites-dialog-box.md",
       "redirect_url": "/visualstudio/deployment/how-to-install-prerequisites-for-a-clickonce-application",
       "redirect_document_id": false

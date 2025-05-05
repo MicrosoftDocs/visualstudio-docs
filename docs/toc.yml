@@ -1086,10 +1086,6 @@
         href: ide/reference/debug-page-project-designer.md
       - name: My Extensions Page, Project Designer (Visual Basic)
         href: ide/reference/my-extensions-page-project-designer-visual-basic.md
-      - name: Publish Page, Project Designer
-        items:
-        - name: Publish Page
-          href: ide/reference/publish-page-project-designer.md
       - name: References Page, Project Designer (Visual Basic)
         href: ide/reference/references-page-project-designer-visual-basic.md
       - name: Security Page, Project Designer

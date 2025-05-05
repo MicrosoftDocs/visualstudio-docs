@@ -39,7 +39,7 @@ You can deploy an application that targets multiple versions of the .NET Framewo
 
 ### To generate the application and deployment manifests
 
-- Use the Publish Wizard or the Publish Page of the Project Designer to publish the application and generate the application and deployment manifest files. For more information, see [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md) or [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md).
+- Use the Publish Wizard or the Publish Page of the Project Designer to publish the application and generate the application and deployment manifest files. For more information, see [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md) or [Specify ClickOnce Publish properties](../deployment/how-to-specify-where-visual-studio-copies-the-files.md).
 
 [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
