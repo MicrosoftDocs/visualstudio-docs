@@ -1088,12 +1088,6 @@
         href: ide/reference/my-extensions-page-project-designer-visual-basic.md
       - name: References Page, Project Designer (Visual Basic)
         href: ide/reference/references-page-project-designer-visual-basic.md
-      - name: Security Page, Project Designer
-        items:
-        - name: Security Page
-          href: ide/reference/security-page-project-designer.md
-        - name: Advanced Security Settings Dialog Box
-          href: ide/reference/advanced-security-settings-dialog-box.md
       - name: Services Page, Project Designer
         items:
         - name: Services Page
