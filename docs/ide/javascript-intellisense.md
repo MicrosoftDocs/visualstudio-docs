@@ -46,7 +46,7 @@ TypeScript uses several sources to build up this information:
 
 ## IntelliSense based on type inference
 
-In JavaScript, most of the time there is no explicit type information available. Luckily, it's usually fairly easy to figure out a type given the surrounding code context.
+In JavaScript, most of the time there's no explicit type information available. Luckily, it's usually easy to figure out a type given the surrounding code context.
 This process is called type inference.
 
 For a variable or property, the type is typically the type of the value used to initialize it or the most recent value assignment.
@@ -61,9 +61,9 @@ nextItem; // now we know nextItem is a string
 
 For a function, the return type can be inferred from the return statements.
 
-For function parameters, there is currently no inference, but there are ways to work around this using JSDoc or TypeScript *.d.ts* files (see later sections).
+For function parameters, there's currently no inference, but there are ways to work around this using JSDoc or TypeScript *.d.ts* files (see later sections).
 
-Additionally, there is special inference for the following:
+Additionally, there's special inference for the following:
 
 - "ES3-style" classes, specified using a constructor function and assignments to the prototype property.
 - CommonJS-style module patterns, specified as property assignments on the `exports` object, or assignments to the `module.exports` property.
@@ -82,7 +82,7 @@ exports.Foo = Foo;
 
 ## IntelliSense based on JSDoc
 
-Where type inference doesn't provide the desired type information (or to support documentation), type information may be provided explicitly via JSDoc annotations.  For example, to give a partially declared object a specific type, you can use the `@type` tag as shown below:
+Where type inference doesn't provide the desired type information (or to support documentation), type information may be provided explicitly via JSDoc annotations.  For example, to give a partially declared object a specific type, you can use the `@type` tag as shown here:
 
 ```js
 /**
@@ -108,7 +108,7 @@ See the JSDoc information in [Type Checking JavaScript Files](https://www.typesc
 
 ## IntelliSense based on TypeScript declaration files
 
-Because JavaScript and TypeScript are based on the same language service, they are able to interact in a rich way. For example, JavaScript IntelliSense can be provided for values declared in a *.d.ts* file (see [TypeScript documentation](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html)), and types such as interfaces and classes declared in TypeScript are available for use as types in JSDoc comments.
+Because JavaScript and TypeScript are based on the same language service, they're able to interact in a rich way. For example, JavaScript IntelliSense can be provided for values declared in a *.d.ts* file (see [TypeScript documentation](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html)), and types such as interfaces and classes declared in TypeScript are available for use as types in JSDoc comments.
 
 Below, we show a simple example of a TypeScript definition file providing such type information (via an interface) to a JavaScript file in the same project (using a `JSDoc` tag).
 
@@ -121,7 +121,7 @@ In the TypeScript world, most popular JavaScript libraries have their APIs descr
 By default, the language service tries to detect which JavaScript libraries are in use, and then automatically download and reference the corresponding *.d.ts* file that describes the library in order to provide richer IntelliSense. The files are downloaded to a cache located under the user folder at *%LOCALAPPDATA%\Microsoft\TypeScript*.
 
 > [!NOTE]
-> This feature is **disabled** by default if you're using a *tsconfig.json* configuration file, but may be set to enabled as outlined further below.
+> This feature is **disabled** by default if you're using a *tsconfig.json* configuration file, but may be set to enabled as outlined further in this section.
 
 Currently, auto-detection works for dependencies downloaded from npm (by reading the *package.json* file), Bower (by reading the *bower.json* file), and for loose files in your project that match a list of roughly the top 400 most popular JavaScript libraries. For example, if you have *jquery-1.10.min.js* in your project, the file *jquery.d.ts* will be fetched and loaded in order to provide a better editing experience. This *.d.ts* file will have no impact on your project.
 
