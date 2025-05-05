@@ -578,6 +578,8 @@
       href: /troubleshoot/developer/visualstudio/ide/troubleshoot-class-designer-errors?toc=%2Fvisualstudio%2Ftoc.json
   - name: Improve your code
     href: ide/find-and-fix-code-errors.md
+  - name: Immediate window
+    href: ide/reference/immediate-window.md
   - name: Tips and tricks
     items:
     - name: Productivity features
@@ -880,16 +882,12 @@
       href: ide/reference/code-snippet-picker.md
     - name: Command window
       href: ide/reference/command-window.md
-    - name: Convert dialog box
-      href: ide/reference/convert-dialog-box.md
     - name: Error List window
       href: ide/reference/error-list-window.md
     - name: File Properties, JavaScript
       href: ide/reference/file-properties-javascript.md
     - name: Go To Line
       href: ide/reference/go-to-line.md
-    - name: Immediate window
-      href: ide/reference/immediate-window.md
     - name: Paste JSON or XML as classes
       href: ide/reference/paste-json-xml.md
     - name: Miscellaneous files
