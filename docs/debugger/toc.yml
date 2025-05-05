@@ -4,7 +4,7 @@
   items:
   - name: What is debugging?
     href: what-is-debugging.md
-  - name: First look at the debugger
+  - name: Overview of the debugger
     href: debugger-feature-tour.md
   - name: Debugging techniques and tools
     href: write-better-code-with-visual-studio.md

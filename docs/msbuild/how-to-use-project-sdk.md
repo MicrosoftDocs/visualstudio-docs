@@ -1,7 +1,7 @@
 ---
 title: Reference an MSBuild Project SDK
 description: Use the MSBuild project SDKs to simplify working with software development kits that require properties and targets to be imported.
-ms.date: 05/16/2024
+ms.date: 5/1/2025
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, SDKs, SDK
@@ -44,7 +44,7 @@ There are many SDKs distributed by Microsoft. The project SDK referenced in the 
 
 There are three ways to reference a project SDK:
 
-### Use the `Sdk` attribute on the `<Project/>` element
+### Use the `Sdk` attribute on the `Project` element
 
 ```xml
 <Project Sdk="My.Custom.Sdk">
@@ -62,7 +62,7 @@ To specify a specific version of the SDK, append it to the `Sdk` attribute:
 </Project>
 ```
 
-### Use the top-level `<Sdk/>` element
+### Use the top-level `Sdk` element
 
 ```xml
 <Project>
@@ -75,7 +75,7 @@ An implicit import is added to the top and bottom of the project as discussed pr
 
 The `Version` attribute isn't required.
 
-### Use the `<Import/>` element anywhere in your project
+### Use the `Import` element anywhere in your project
 
 ```xml
 <Project>
@@ -90,10 +90,10 @@ The `Version` attribute isn't required.
 
 When you explicitly include the imports in your project, you have full control over the order.
 
-When using the `<Import/>` element, you can specify an optional `Version` attribute as well. For example, you can specify `<Import Project="Sdk.props" Sdk="My.Custom.Sdk" Version="1.2.3" />`.
+When using the `Import` element, you can specify an optional `Version` attribute as well. For example, you can specify `<Import Project="Sdk.props" Sdk="My.Custom.Sdk" Version="1.2.3" />`.
 
 > [!WARNING]
-> If you change your project to use `<Import/>` elements, make sure you add both `.props` and `.targets` imports, and that you remove the SDK from the `<Project/>` element and `<Sdk/>` elements. Failure to do so will result in doubled imports and an [`MSB4011`](./errors/msb4011.md) warning.
+> If you change your project to use `Import` elements, make sure you add both `.props` and `.targets` imports, and that you remove the SDK from the `Project` element and `Sdk` elements. Failure to do so will result in duplicaate imports and an [`MSB4011`](./errors/msb4011.md) warning.
 
 ## How project SDKs are resolved
 
