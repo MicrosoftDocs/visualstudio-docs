@@ -3,6 +3,8 @@ title: Install prerequisites with a ClickOnce app
 description: Select the appropriate prerequisite components for your configuration to package along with your ClickOnce application during installation.
 ms.date: 11/04/2016
 ms.topic: how-to
+f1_keywords:
+- Microsoft.VisualStudio.Publish.BaseProvider.Dialog.Bootstrapper
 dev_langs: 
   - VB
   - CSharp
@@ -39,6 +41,8 @@ All ClickOnce applications require that the correct version of the .NET Framewor
 2. Select the **Publish** pane.
 
 3. Click the **Prerequisites** button to open the **Prerequisites** dialog box.
+
+   ![Prerequisites dialog box in Visual Studio](media/prerequisites-dialog-box.png)
 
 4. In the **Prerequisites** dialog box, make sure that the **Create setup program to install prerequisite components** check box is selected.
 
