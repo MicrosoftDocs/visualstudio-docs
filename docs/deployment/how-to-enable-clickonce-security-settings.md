@@ -28,7 +28,7 @@ You can enable and configure ClickOnce security settings in the **Security** pag
 
 ## Enable ClickOnce security settings
 
-Code access security for ClickOnce applications must be enabled in order to publish the application. This is done automatically when you publish an application using the Publish wizard. For more information about code access security and security zones, see [Code Access Security for ClickOnce Applications](../../deployment/code-access-security-for-clickonce-applications.md).
+Code access security for ClickOnce applications must be enabled in order to publish the application. This is done automatically when you publish an application using the Publish wizard. For more information about code access security and security zones, see [Code Access Security for ClickOnce Applications](../deployment/code-access-security-for-clickonce-applications.md).
 
 In some cases, enabling code access security can impact performance when building or debugging your application; in these cases, you may wish to temporarily disable the security settings.
 
