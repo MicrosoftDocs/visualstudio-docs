@@ -1006,18 +1006,6 @@
             href: ide/reference/options-text-editor-html-miscellaneous.md
           - name: Validation
             href: ide/reference/options-text-editor-html-validation.md
-        - name: JavaScript/TypeScript
-          items:
-          - name: Code Validation
-            href: ide/reference/options-text-editor-javascript-code-validation.md
-          - name: Formatting
-            href: ide/reference/options-text-editor-javascript-formatting.md
-          - name: IntelliSense
-            href: ide/reference/options-text-editor-javascript-intellisense.md
-          - name: Linting
-            href: ide/reference/options-text-editor-javascript-linting.md
-          - name: Project
-            href: ide/reference/options-text-editor-javascript-project.md
         - name: U-SQL
           items:
           - name: Formatting
