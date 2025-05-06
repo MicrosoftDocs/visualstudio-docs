@@ -4,6 +4,9 @@ description: Explore the signing requirements to publish ClickOnce application a
 ms.date: 6/13/2024
 ms.subservice: deployment
 ms.topic: conceptual
+f1_keywords:
+- vb.ProjectPropertiesSigning
+- vb.ProjectPropertiesSigning.PfxPasswordDialog
 helpviewer_keywords:
 - manifests [Visual Studio]
 - code signing [Visual Studio], Authenticode
@@ -23,11 +26,11 @@ If you want to publish an application by using ClickOnce deployment, the applica
 
 The information in this article applies only if you're using the .NET Framework 4.8.1 or earlier. If you're using .NET 5 or later, follow the steps in [Deploy a .NET Windows desktop application using ClickOnce](../deployment/quickstart-deploy-using-clickonce-folder.md).
 
-For more information about ClickOnce deployment, see [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md).
-
 Signing the ClickOnce manifests is optional for *.exe*-based applications. For more information, see the "Generate unsigned manifests" section of this document.
 
 For information about creating key files, see [How to: Create a public-private key pair](/dotnet/framework/app-domains/how-to-create-a-public-private-key-pair).
+
+For information about signing assemblies and application manifests, see [Manage assembly and manifest signing](../ide/managing-assembly-and-manifest-signing.md).
 
 > [!NOTE]
 > Visual Studio supports only Personal Information Exchange (PFX) key files that have the *.pfx* extension. However, you can select other types of certificates from the current user's Windows certificate store by clicking **Select from Store** on the **Signing** page of project properties.
