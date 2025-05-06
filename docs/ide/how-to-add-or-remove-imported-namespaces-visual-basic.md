@@ -1,7 +1,7 @@
 ---
 title: Add or remove imported namespaces (Visual Basic)
 description: Add or remove imported Visual Basic namespaces and add, remove, or update user imports with the Project Designer in Visual Studio.
-ms.date: 06/21/2017
+ms.date: 5/6/2025
 ms.topic: how-to
 helpviewer_keywords:
 - adding imported namespaces
@@ -22,9 +22,9 @@ Imported namespaces are managed on the **References** page of the **Project Desi
 
 ### To add an imported namespace
 
-1. In **Solution Explorer**, double-click the **My Project** node for the project.
+1. In **Solution Explorer**, right-click the project node and select **Properties**.
 
-2. In the **Project Designer**, click the **References** tab.
+2. In the **Project Designer**, go to **References**.
 
 3. In the **Imported Namespaces** list, select the check box for the namespace that you wish to add.
 
@@ -33,9 +33,9 @@ Imported namespaces are managed on the **References** page of the **Project Desi
 
 ### To remove an imported namespace
 
-1. In **Solution Explorer**, double-click the **My Project** node for the project.
+1. In **Solution Explorer**, right-click the project node, and select **Properties**.
 
-2. In the **Project Designer**, click the **References** tab.
+2. In the **Project Designer**, go to **References**.
 
 3. In the **Imported Namespaces** list, clear the check box for the namespace that you wish to remove.
 
