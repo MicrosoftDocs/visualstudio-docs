@@ -42,7 +42,7 @@ All ClickOnce applications require that the correct version of the .NET Framewor
 
 3. Click the **Prerequisites** button to open the **Prerequisites** dialog box.
 
-   ![Screenshot of Prerequisites dialog box in Visual Studio](media/prerequisites-dialog-box.png)
+   ![Screenshot of Prerequisites dialog box in Visual Studio.](media/prerequisites-dialog-box.png)
 
 4. In the **Prerequisites** dialog box, make sure that the **Create setup program to install prerequisite components** check box is selected.
 
