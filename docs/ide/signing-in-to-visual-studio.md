@@ -2,7 +2,7 @@
 title: Sign in or switch Visual Studio accounts 
 titleSuffix: ""
 description: Explore sign in concepts for working with Visual Studio, and find out how to sign in and how to add and switch user accounts.
-ms.date: 4/13/2025
+ms.date: 5/13/2025
 ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
@@ -79,7 +79,9 @@ You can sign in to your Microsoft or organizational account, or your GitHub acco
 
 1. Choose a Microsoft account or a GitHub account.  If you don't have one, you can [create a Microsoft account for free](https://support.microsoft.com/help/4026324/microsoft-account-how-to-create). The account you sign in with is set as your Personalization Account. GitHub accounts can't be used to roam settings across devices. [Add](#add-and-switch) your Microsoft account to enable roaming settings.
 
-1. Choose to **Sign up for Copilot Free**, sign in with an existing GitHub account, or [add your GitHub account later from the IDE](work-with-github-accounts.md#add-a-github-account-from-the-profile-card).
+1. If you sign in with a Microsoft account, you can choose to **Sign up for Copilot Free**, sign in with an existing GitHub account, or [add your GitHub account later from the IDE](work-with-github-accounts.md#add-a-github-account-from-the-profile-card) at the next step.
+
+   :::image type="content" source="../ide/media/vs-2022/sign-up-for-copilot-free-during-launch.png" alt-text="Screenshot of first launch Sign in dialog in the Visual Studio IDE.":::
 
 1. Choose your preferred color theme and other UI settings to personalize your Visual Studio experience. Visual Studio [remembers these settings and synchronizes](../ide/synchronized-settings-in-visual-studio.md) them across all Visual Studio environments depending on your account setup. You can change the settings later if you open the **Tools** > **Options** menu in Visual Studio.
 

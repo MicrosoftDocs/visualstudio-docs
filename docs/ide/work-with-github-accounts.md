@@ -1,6 +1,6 @@
 ---
 title: Add GitHub accounts to your keychain
-ms.date: 02/11/2025
+ms.date: 05/13/2025
 ms.topic: how-to
 description: Add your public GitHub or GitHub Enterprise account to your Visual Studio keychain so you can track code changes in GitHub repositories from Visual Studio.
 author: anandmeg
@@ -37,7 +37,9 @@ With Visual Studio 17.13 or later, you can now sign in with a GitHub account whe
 
 :::image type="content" source="../ide/media/vs-2022/visual-studio-sign-in-pop-up-first-launch.png" alt-text="Screenshot showing sign in at Visual Studio first launch.":::
 
-If you sign in with a GitHub account that doesn't have an active GitHub Copilot subscription, you can choose to **Activate Copilot Free** during first launch, or [sign up later](copilot-free-plan.md#get-started-with-copilot-free-in-visual-studio) from the GitHub Copilot badge in the IDE or the chat window. If Copilot is disabled by your administrator, 
+If you sign in with a GitHub account that doesn't have an active GitHub Copilot subscription, you can choose to **Activate Copilot Free** during first launch with Visual Studio 17.14 or later, or [sign up later](copilot-free-plan.md#get-started-with-copilot-free-in-visual-studio) from the GitHub Copilot badge in the IDE or the chat window.
+
+> If [Copilot is disabled by your administrator](visual-studio-github-copilot-admin.md#disabling-copilot-skus), the first launch experience respects the group policy.
 
 If you choose to not sign in with GitHub at first launch, you can add your GitHub account later using the **profile card** or the **Account Settings** dialog as follows.
 
