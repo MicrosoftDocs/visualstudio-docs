@@ -75,7 +75,6 @@ As you make changes in the Project Designer, the project file is updated to refl
 
 ```xml
   <ItemGroup>
-    <Import Include="Newtonsoft.Json" />
     <Import Include="System.Collections.Specialized" />
     <Import Include="System.ComponentModel" />
     <Import Include="System.Web" />
