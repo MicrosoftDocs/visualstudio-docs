@@ -22,7 +22,7 @@ Imported namespaces are managed on the **References** page of the **Project Desi
 
 ### To add an imported namespace
 
-1. In **Solution Explorer**, right-click the project node and select **Properties**.
+1. In **Solution Explorer**, right-click the project node and select **Properties**, or press **Alt**+**Enter**.
 
 2. In the **Project Designer**, go to **References**.
 
@@ -33,7 +33,7 @@ Imported namespaces are managed on the **References** page of the **Project Desi
 
 ### To remove an imported namespace
 
-1. In **Solution Explorer**, right-click the project node, and select **Properties**.
+1. In **Solution Explorer**, right-click the project node, and select **Properties**, or press **Alt**+**Enter**.
 
 2. In the **Project Designer**, go to **References**.
 
@@ -46,9 +46,9 @@ If you later change you mind and decide that was really the `EventLog` class tha
 
 ### To add a user import
 
-1. In **Solution Explorer**, double-click the **My Project** node for the project.
+1. In **Solution Explorer**, right-click the project node, and select **Properties**, or press **Alt**+**Enter**.
 
-2. In the **Project Designer**, click the **References** tab.
+2. In the **Project Designer**, go to **References**.
 
 3. In the text box below the **Imported Namespaces** list, enter the full name for the namespace you wish to import, including the root namespace.
 
@@ -59,15 +59,30 @@ If you later change you mind and decide that was really the `EventLog` class tha
 
 ### To update a user import
 
-1. In **Solution Explorer**, double-click the **My Project** node for the project.
+1. In **Solution Explorer**, right-click the project node, and select **Properties**, or press **Alt**+**Enter**.
 
-2. In the **Project Designer**, click the **References** tab.
+2. In the **Project Designer**, go to **References**.
 
 3. In the **Imported Namespaces** list, select the namespace you wish to change.
 
 4. In the text box below the **Imported Namespaces** list, enter the name for the new namespace.
 
 5. Click the **Update user import** button to update the namespace in the **Imported Namespaces** list.
+
+## In the project file
+
+As you make changes in the Project Designer, the project file is updated to reflect your changes. The imported namespaces appear in the project file as shown in the following code:
+
+```xml
+  <ItemGroup>
+    <Import Include="Newtonsoft.Json" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.ComponentModel" />
+    <Import Include="System.Web" />
+    <Import Include="System.Windows.Markup" />
+    <Import Include="System.Xml" />
+  </ItemGroup>
+```
 
 ## Related content
 
