@@ -81,7 +81,7 @@ You can sign in to your Microsoft or organizational account, or your GitHub acco
 
 1. If you sign in with a Microsoft account, you can choose to **Sign up for Copilot Free**, sign in with an existing GitHub account, or [add your GitHub account later from the IDE](work-with-github-accounts.md#add-a-github-account-from-the-profile-card) at the next step.
 
-   :::image type="content" source="../ide/media/vs-2022/sign-up-for-copilot-free-during-launch.png" alt-text="Screenshot of first launch Sign in dialog in the Visual Studio IDE.":::
+   :::image type="content" source="../ide/media/vs-2022/sign-up-for-copilot-free-during-launch.png" alt-text="Screenshot of Sign up for Copilot Free screen during first launch.":::
 
 1. Choose your preferred color theme and other UI settings to personalize your Visual Studio experience. Visual Studio [remembers these settings and synchronizes](../ide/synchronized-settings-in-visual-studio.md) them across all Visual Studio environments depending on your account setup. You can change the settings later if you open the **Tools** > **Options** menu in Visual Studio.
 
