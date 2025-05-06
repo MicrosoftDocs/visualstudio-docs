@@ -1076,20 +1076,8 @@
         href: ide/reference/debug-page-project-designer.md
       - name: My Extensions Page, Project Designer (Visual Basic)
         href: ide/reference/my-extensions-page-project-designer-visual-basic.md
-      - name: Publish Page, Project Designer
-        items:
-        - name: Publish Page
-          href: ide/reference/publish-page-project-designer.md
-        - name: Prerequisites Dialog Box
-          href: ide/reference/prerequisites-dialog-box.md
       - name: References Page, Project Designer (Visual Basic)
         href: ide/reference/references-page-project-designer-visual-basic.md
-      - name: Security Page, Project Designer
-        items:
-        - name: Security Page
-          href: ide/reference/security-page-project-designer.md
-        - name: Advanced Security Settings Dialog Box
-          href: ide/reference/advanced-security-settings-dialog-box.md
       - name: Services Page, Project Designer
         items:
         - name: Services Page
@@ -1098,8 +1086,6 @@
           href: ide/reference/advanced-settings-for-services-dialog-box.md
       - name: Settings Page, Project Designer
         href: ide/reference/settings-page-project-designer.md
-      - name: Signing Page, Project Designer
-        href: ide/reference/signing-page-project-designer.md
     - name: Property Pages, JavaScript
       href: ide/reference/property-pages-javascript.md
     - name: Property Pages, React, Angular, and Vue
