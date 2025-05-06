@@ -3,6 +3,10 @@ title: Enable & configure ClickOnce security
 description: Learn how the Publish wizard automatically enables code access security for ClickOnce applications to publish the application.
 ms.date: 04/25/2025
 ms.topic: how-to
+f1_keywords:
+- vb.ProjectPropertiesSecurity
+- vb.XBAPProjectPropertiesSecurity
+- vs.err.debug_in_zone_no_hostproc
 dev_langs: 
   - VB
   - CSharp
@@ -24,7 +28,7 @@ You can enable and configure ClickOnce security settings in the **Security** pag
 
 ## Enable ClickOnce security settings
 
-Code access security for ClickOnce applications must be enabled in order to publish the application. This is done automatically when you publish an application using the Publish wizard.
+Code access security for ClickOnce applications must be enabled in order to publish the application. This is done automatically when you publish an application using the Publish wizard. For more information about code access security and security zones, see [Code Access Security for ClickOnce Applications](../deployment/code-access-security-for-clickonce-applications.md).
 
 In some cases, enabling code access security can impact performance when building or debugging your application; in these cases, you may wish to temporarily disable the security settings.
 
@@ -100,6 +104,28 @@ You can deploy a ClickOnce application that uses default permissions for the Int
 
     > [!NOTE]
     > You can use the `ToXml` method of a permission set to generate the XML code for the application manifest. For example, to generate the XML for the <xref:System.Security.Permissions.EnvironmentPermission> permission set, call the <xref:System.Security.Permissions.EnvironmentPermission.ToXml%2A> method.
+
+## Configure debugging for a security zone
+
+You can specify security settings related to debugging in a zone.
+
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+
+2. Click the **Security** tab.
+
+3. Select the **Enable ClickOnce Security Settings** check box.
+
+4. Select the **This is a partial trust application** option button.
+
+5. Select **Advanced**.
+
+6. Select **Grant the application access to its site of origin**
+
+   If you select this check box, the application can access the website or server share on which it is published. By default, this option is selected.
+
+7. In the **Debug this application as if it were downloaded from the following URL** box, enter the URL.
+
+   If you need to allow the application to access the website or server share corresponding to the **Installation URL** you specified on the **Publish** page, enter that URL here.
 
 ## Related content
 

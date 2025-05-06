@@ -1,8 +1,10 @@
 ---
 title: Specify ClickOnce Publish properties
 description: Learn how to set the Publish properties for a ClickOnce application, such as the location where the application files and manifest are put, and the installation URL.
-ms.date: 06/26/2024
+ms.date: 05/05/2025
 ms.topic: how-to
+f1_keywords:
+  - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.PropertyPage"
 dev_langs: 
   - VB
   - CSharp
@@ -47,9 +49,9 @@ You can configure ClickOnce Publish properties on the **Publish** page of the **
 
 ## Specify a publishing location
 
-When you publish an application by using ClickOnce, the `Publish Location` property specifies the location where the application files and manifest are put. This can be a file path or the path to an FTP server.
+When you publish an application by using ClickOnce, the `Publish Location` property specifies the location where the application files and manifest are put. This can be a drive path (`C:\deploy\myapplication`), a file share (`\\server\myapplication`), or an FTP server (`ftp://ftp.microsoft.com/myapplication`). Note that text must be present in the **Publishing Location** box in order for the browse (**...**) button to work.
 
- You can specify the `Publish Location` property on the **Publish** page of the **Project Designer**, or by using the Publish Wizard. For more information, see [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).
+You can specify the `Publish Location` property on the **Publish** page of the **Project Designer**, or by using the Publish Wizard. For more information, see [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).
 
 > [!NOTE]
 > When you install more than one version of an application by using ClickOnce, the installation moves earlier versions of the application into a folder named Archive, in the publish location that you specify. Archiving earlier versions in this manner keeps the installation directory clear of folders from the earlier version.
@@ -117,6 +119,10 @@ The `Install Mode` can be set on the **Publish** page of the **Project Designer*
 The ClickOnce `Publish Version` property determines whether or not the application that you're publishing will be treated as an update. Each time version is incremented, the application will be published as an update.
 
 The `Publish Version` property can be set on the **Publish** page of the **Project Designer**.
+
+When the version number is changed, the application is published as an update. Each part of the publish version (**Major**, **Minor**, **Build**, **Revision**) can have a maximum value of 65535 (<xref:System.UInt16.MaxValue>), the maximum allowed by <xref:System.Version>.
+
+When you install more than one version of an application by using ClickOnce, the installation moves earlier versions of the application into a folder named Archive, in the publish location that you specify. Archiving earlier versions in this manner keeps the installation directory clear of folders from the earlier version.
 
 > [!NOTE]
 > There's a project option that will automatically increment the `Publish Version` property each time the application is published; this option is enabled by default. For more information, see [Automatically Increment the ClickOnce Publish Version](../deployment/how-to-specify-where-visual-studio-copies-the-files.md#automatically-increment-the-clickonce-publish-version).
