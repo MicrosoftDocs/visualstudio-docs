@@ -1,5 +1,5 @@
 ---
-title: Copilot Next Edit Suggestions (Preview)
+title: Copilot Next Edit Suggestions
 description: Use Copilot Next Edit Suggestions (NES) to predict where you'll want to make your next edit and what that edit should be, based on your recent code edits.
 ms.date: 5/13/2025
 ms.topic: get-started
@@ -9,9 +9,6 @@ ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
-content_well_notification: 
-  - AI-contribution
-ai-usage: ai-assisted
 ---
 # Use Copilot Next Edit Suggestions in Visual Studio
 
@@ -22,7 +19,7 @@ Inline completions are great at autocompleting a section of code. Copilot NES he
 ## Prerequisites
 
 To get started, you need:
-+ Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later
++ Visual Studio 2022 [version 17.14](/visualstudio/releases/2022/release-history) or later
 + [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
   <sup>**</sup> You can use [GitHub Copilot for Free](copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
 
@@ -36,7 +33,7 @@ To get started with Copilot NES, enable the feature in **Tools > Options > GitHu
 
 As with completions, to start getting suggestions from NES, start coding. When Copilot suggests code edits, you can navigate to it with the `Tab` key, and then accept it with the `Tab` key again. You’ll save time by quickly jumping to the next relevant edit, without needing to manually search through files or references yourself. An arrow in the gutter indicates whether an edit suggestion is available.
 
-An arrow in the gutter indicates if there is an edit suggestion available. Hover over the arrow to explore the edit suggestion menu, which includes keyboard shortcuts and settings configuration.
+An arrow in the gutter indicates if there is an edit suggestion available. Click the arrow to explore the edit suggestion menu, which includes keyboard shortcuts and settings configuration.
 
 :::image type="content" source="media/vs-2022/next-edit-suggestions/next-edit-suggestions-arrows.png" alt-text="Screenshot that shows arrows in gutter indicating next edit suggestions.":::
 
@@ -56,15 +53,21 @@ NES is helpful in a variety of scenarios, not only making obvious repetitive cha
 
 - Copilot can also help with more challenging mistakes in logic, like an inverted ternary expression or a comparison that should've used `||` instead of `&&`.
 
-  :::image type="content" source="media/vs-2022/next-edit-suggestions/ternary-expression.png" alt-text="Screenshot that shows NES suggesting the right .":::
+  :::image type="content" source="media/vs-2022/next-edit-suggestions/ternary-expression.png" alt-text="Screenshot that shows NES suggesting the correction for an expression.":::
 
 ### Change in intent
 
-NES suggests changes to the rest of your code that match a change in intent. For example, changing the intent of a function from *Greeting* to *Farewell*.
+NES suggests changes to the rest of your code that match a change in intent. For example, when refactoring a `2DPoint` class to `3DPoint`.
 
-:::image type="content" source="media/vs-2022/next-edit-suggestions/copilot-next-edit-suggestions-change-intent.png" alt-text="Screenshot that shows NES showing suggestions for change in intent.":::
+:::image type="content" source="media/vs-2022/next-edit-suggestions/change-in-intent-point-example.gif" alt-text="Animated screenshot that shows NES suggestions for change in intent updates.":::
 
-**Refactor**
+### Update code syntax
+
+NES helps with repetitive changes like updating code synx to modern c++ using STL. For example, when updating all `printf()` to `std::cout`, also update other syntax such as `fgets()`.
+
+:::image type="content" source="media/vs-2022/next-edit-suggestions/update-code-syntax.gif" alt-text="Animated screenshot that shows NES suggesting code syntax updates":::
+
+### Refactor
 
 - Rename a variable once in a file, and NES will suggest to update it everywhere else. If you use a new name or naming pattern, Copilot suggests to update subsequent code similarly.
 - Match code style. After copy-pasting some code, NES will suggest how to adjust it to match the current code where the paste happened.
