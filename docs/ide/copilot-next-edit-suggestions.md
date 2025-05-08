@@ -25,9 +25,7 @@ To get started, you need:
 
 ## Get started
 
-To get started with Copilot NES, enable the feature in **Tools > Options > GitHub > Copilot > Copilot Completions > Enable Next Edit Suggestions (Preview)**.
-
-> *If you are a Copilot Business or Enterprise user, you need your Administrator to enable next edit suggestions for your organization by [opting in to Copilot “Editor Preview Features”](https://docs.github.com/en/enterprise-cloud@latest/copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-policies-for-copilot-in-your-organization#enabling-copilot-features-in-your-organization).
+To get started with Copilot NES, enable the feature in **Tools > Options > GitHub > Copilot > Copilot Completions > Enable Next Edit Suggestions**.
 
 ## Use next edit suggestions
 
@@ -57,19 +55,22 @@ NES is helpful in a variety of scenarios, not only making obvious repetitive cha
 
 ### Change in intent
 
-NES suggests changes to the rest of your code that match a change in intent. For example, when refactoring a `2DPoint` class to `3DPoint`.
+NES suggests changes to the rest of your code that match a change in intent. For example, when refactoring a `Point` class to `Point3D`.
 
-:::image type="content" source="media/vs-2022/next-edit-suggestions/change-in-intent-point-example.gif" alt-text="Animated screenshot that shows NES suggestions for change in intent updates.":::
+:::image type="content" source="media/vs-2022/next-edit-suggestions/change-in-intent-point-example.gif" alt-text="Animated screenshot that shows NES suggestions for change in intent updates." lightbox="media/vs-2022/next-edit-suggestions/change-in-intent-point-example.gif":::
 
 ### Update code syntax
 
 NES helps with repetitive changes like updating code synx to modern c++ using STL. For example, when updating all `printf()` to `std::cout`, also update other syntax such as `fgets()`.
 
-:::image type="content" source="media/vs-2022/next-edit-suggestions/update-code-syntax.gif" alt-text="Animated screenshot that shows NES suggesting code syntax updates":::
+:::image type="content" source="media/vs-2022/next-edit-suggestions/update-code-syntax.gif" alt-text="Animated screenshot that shows NES suggesting code syntax updates" lightbox="media/vs-2022/next-edit-suggestions/update-code-syntax.gif":::
 
 ### Refactor
 
 - Rename a variable once in a file, and NES will suggest to update it everywhere else. If you use a new name or naming pattern, Copilot suggests to update subsequent code similarly.
+
+  :::image type="content" source="media/vs-2022/next-edit-suggestions/rename-variable-edits.png" alt-text="Screenshot that shows NES suggesting edits when a variable is renamed":::
+  
 - Match code style. After copy-pasting some code, NES will suggest how to adjust it to match the current code where the paste happened.
 
 ## Related content
