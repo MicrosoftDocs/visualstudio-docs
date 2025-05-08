@@ -14,7 +14,12 @@ f1_keywords:
 # Code style preferences
 
 ::: moniker range=">=vs-2022"
-You can define code style settings per-project by using an [EditorConfig file](#code-styles-in-editorconfig-files), or for all code you edit in Visual Studio on the text editor [**Options** page](#code-styles-in-the-options-dialog-box). For C# code, you can also configure Visual Studio to apply these code style preferences using the **Code Cleanup** command.
+Code style preferences allow you to control aspects of code such as indent style, tab width, end-of-line characters, and encoding. You can define code style settings in two ways:
+
+- Per-codebase or per-project by using an [EditorConfig file](#code-styles-in-editorconfig-files), or
+- For all code you edit in Visual Studio based on settings for the text editor [**Options** page](#code-styles-in-the-options-dialog-box).
+
+You can also configure Visual Studio to apply code style preferences using the **Code Cleanup** and **Format Document** commands.
 ::: moniker-end
 
 ::: moniker range="vs-2019"
@@ -73,39 +78,17 @@ Options set in this window are applicable to your Visual Studio personalization 
 
 ### Preference and severity
 
-For each code style setting on this page, you can set the **Preference** and **Severity** values using the drop-downs on each line. Severity can be set to **Refactoring Only**, **Suggestion**, **Warning**, or **Error**. If you want to enable [Quick Actions](../ide/quick-actions.md) for a code style, ensure that the **Severity** setting is set to something other than **Refactoring Only**. The **Quick Actions** light bulb :::image type="icon" source="media/light-bulb-dropdown.png":::, error light bulb :::image type="icon" source="media/error-bulb.png":::, or screwdriver :::image type="icon" source="media/screwdriver.png"::: icon appears when a non-preferred style is used, and you can choose an option on the **Quick Actions** list to automatically rewrite code to the preferred style.
+For each code style setting on this page, you can set the **Preference** and **Severity** values using the drop-downs on each line. Severity can be set to **Refactoring Only**, **Suggestion**, **Warning**, or **Error**.
+
+- All severity settings enable [Quick Actions](../ide/quick-actions.md) for a code style, use. The **Quick Actions** light bulb :::image type="icon" source="media/light-bulb-dropdown.png":::, error light bulb :::image type="icon" source="media/error-bulb.png":::, or screwdriver :::image type="icon" source="media/screwdriver.png"::: icon appears when a non-preferred style is used, and you can choose an option on the **Quick Actions** list to automatically rewrite code to the preferred style.
+- If you want the violation to appear only as a Quick Action, set the **Severity** to **Refactoring Only**.
+- If you want the violation to appear in the Error List window as well as Quick Actions, set the **Severity** to **Suggestion**, **Warning**, or **Error**. Violations appear as a suggestion (message), warning, or error when you set the output in the Error List window to **Build + IntelliSense**. They are excluded from **Build** output.
 
 ## Enforce code styles on build
 
 Starting in Visual Studio 2019 version 16.8, which includes the .NET 5.0 RC2 SDK, you can [enforce the .NET coding conventions on build](/dotnet/fundamentals/productivity/code-analysis#code-style-analysis) for all .NET projects. At build time, .NET code style violations will appear as warnings or errors with an "IDE" prefix. This enables you to strictly enforce consistent code styles in your codebase.
 
 ## Apply code styles
-
-::: moniker range="vs-2019"
-
-For C# code files, Visual Studio has a **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**) to apply code styles from an EditorConfig file or from the **Code Style** options page. If an *.editorconfig* file exists for the project, those are the settings that take precedence.
-
-> [!TIP]
-> Rules configured with a severity of **None** don't participate in code cleanup but can be individually applied via the **Quick Actions and Refactorings** menu.
-
-To apply code styles:
-
-1. First, configure which code styles you want to apply (in one of two profiles) in the **Configure Code Cleanup** dialog box. To open this dialog box, click the expander arrow next to the code cleanup broom icon and then choose **Configure Code Cleanup**.
-
-   ![Screenshot of Configure Code Cleanup.](media/vs-2019/configure-code-cleanup.png)
-
-1. After you've configured code cleanup, use one of the following methods to run code cleanup:
-
-   - Click on the broom icon or press **Ctrl**+**K**, **Ctrl**+**E** to run code cleanup.
-
-     ![Screenshot of Execute code cleanup.](media/vs-2019/execute-code-cleanup.png)
-
-   - To run code cleanup across your entire project or solution, right-click on the project or solution name in **Solution Explorer**, select **Analyze and Code Cleanup**, and then select **Run Code Cleanup**.
-
-     ![Screenshot of Run Code Cleanup across entire project or solution.](media/vs-2019/run-code-cleanup-project-solution.png)
-
-   If you want your code style settings to be applied every time you save a file, you may like the [Code Cleanup on Save](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CodeCleanupOnSave) extension.
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -134,7 +117,33 @@ To apply code styles:
 
 ::: moniker-end
 
-## Code cleanup settings
+::: moniker range="vs-2019"
+
+For C# code files, Visual Studio has a **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**) to apply code styles from an EditorConfig file or from the **Code Style** options page. If an *.editorconfig* file exists for the project, those are the settings that take precedence.
+
+> [!TIP]
+> Rules configured with a severity of **None** don't participate in code cleanup but can be individually applied via the **Quick Actions and Refactorings** menu.
+
+To apply code styles:
+
+1. First, configure which code styles you want to apply (in one of two profiles) in the **Configure Code Cleanup** dialog box. To open this dialog box, click the expander arrow next to the code cleanup broom icon and then choose **Configure Code Cleanup**.
+
+   ![Screenshot of Configure Code Cleanup.](media/vs-2019/configure-code-cleanup.png)
+
+1. After you've configured code cleanup, use one of the following methods to run code cleanup:
+
+   - Click on the broom icon or press **Ctrl**+**K**, **Ctrl**+**E** to run code cleanup.
+
+     ![Screenshot of Execute code cleanup.](media/vs-2019/execute-code-cleanup.png)
+
+   - To run code cleanup across your entire project or solution, right-click on the project or solution name in **Solution Explorer**, select **Analyze and Code Cleanup**, and then select **Run Code Cleanup**.
+
+     ![Screenshot of Run Code Cleanup across entire project or solution.](media/vs-2019/run-code-cleanup-project-solution.png)
+
+   If you want your code style settings to be applied every time you save a file, you may like the [Code Cleanup on Save](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CodeCleanupOnSave) extension.
+::: moniker-end
+
+## .NET code cleanup settings
 
 Most of the code cleanup settings map to one or more .NET code styles supported in *.editorconfig*. For examples that show the effects of the settings, use the links in the following table.
 

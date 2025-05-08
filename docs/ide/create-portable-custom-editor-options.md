@@ -8,7 +8,7 @@ ms.subservice: general-ide
 ms.topic: how-to
 helpviewer_keywords:
 - editorconfig [Visual Studio]
-ms.date: 04/01/2024
+ms.date: 05/08/2025
 
 #customer intent: As a developer, I want to use EditorConfig files to enforce coding style consistency for everyone that writes code in our Visual Studio codebase and projects.
 
@@ -17,9 +17,9 @@ ms.date: 04/01/2024
 
 To enforce consistent coding styles for everyone that works in a codebase, you can add an `.editorconfig` file to your solution or project. EditorConfig file settings adhere to a file format specification maintained by [EditorConfig.org](https://editorconfig.org). Many code editors and applications support EditorConfig files, including Visual Studio. Because the settings are in a file, they accompany your code, and can be used even outside of Visual Studio.
 
-In Visual Studio, EditorConfig file settings take precedence over the various global text editor settings available under **Tools** > **Options** > **Text Editor** > **C/C++** > **Code Style**. You can use an EditorConfig file to tailor each codebase to use text editor settings that are specific to that project.
+In Visual Studio, EditorConfig file settings take precedence over the various global text editor settings available under **Tools** > **Options** > **Text Editor** > **[C#|C/C++|Visual Basic]** > **Code Style**. You can use an EditorConfig file to tailor each codebase to use text editor settings that are specific to that project.
 
-You can manually populate an EditorConfig file, or automatically generate it based on the code style settings you've chosen in Visual Studio. To create a new `.editorconfig` file based on your current Visual Studio settings, from the Visual Studio main menu choose **Tools** > **Options** > **Text Editor** > **C/C++** > **Code Style**. Then choose **Generate .editorconfig file from settings**. Choose the folder where your project is and then choose **Select Folder** to save the `.editorconfig` file.
+You can manually populate an EditorConfig file, or automatically generate it based on the code style settings you've chosen in Visual Studio. To create a new `.editorconfig` file based on your current Visual Studio settings, from the Visual Studio main menu choose **Tools** > **Options** > **Text Editor** > **C#|C/C++|Visual Basic** > **Code Style**. Then choose **Generate .editorconfig file from settings**. Choose the folder where your project is and then choose **Select Folder** to save the `.editorconfig` file.
 
 When you use an EditorConfig file, you can still continue to set your own personal editor preferences in the Visual Studio text editor. These text editor settings apply whenever you're working in a codebase without an EditorConfig file, or when the EditorConfig file doesn't override a particular setting. An example of such a preference is whether to use tabs or spaces for the code indent style.
 
