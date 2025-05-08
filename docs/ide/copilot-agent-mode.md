@@ -1,7 +1,7 @@
 ---
-title: GitHub Copilot agent mode (coming soon) 
+title: GitHub Copilot agent mode
 description: Use agent mode in Copilot Chat to specify a high-level requirement in your prompt, and Copilot will automatically determine the relevant context and files to edit.
-ms.date: 4/24/2025
+ms.date: 5/13/2025
 ms.topic: how-to 
 author: anandmeg
 ms.author: meghaanand
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - copilot chat
 monikerRange: '>= vs-2022'
 ---
-# Coming soon: Agent mode in Visual Studio
+# Agent mode in Visual Studio
 
 Agent mode is *coming soon* to Visual Studio. To learn more about its availability in Visual Studio, see the [blog post](https://aka.ms/vsagentmode).
 
