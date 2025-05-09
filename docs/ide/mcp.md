@@ -23,11 +23,11 @@ Model Context Protocol (MCP) is an open standard that enables AI models to inter
 
 ## How do MCP and Visual Studio extend GitHub Copilot's agent?
 
-* MCP clients (like Visual Studio) connect to MCP servers and request actions on behalf of the AI model
+* MCP clients, such as Visual Studio connect to MCP servers and request actions on behalf of the AI model
 * MCP servers provide one or more tools that expose specific functionalities through a well-defined interface.
 * The Model Context Protocol (MCP) defines the message format for communication between clients and servers, including tool discovery, invocation, and response handling
 
-For example, a file system MCP server might provide tools for reading, writing, or searching files and directories. GitHub's MCP server offers tools to list repositories, create pull requests, or manage issues. MCP servers can run locally on your machine or be hosted remotely, and Visual Studio supports both configurations.
+For example, a file system MCP server might provide tools for reading, writing, or searching files and directories. [GitHub's official MCP server](https://github.com/github/github-mcp-server) offers tools to list repositories, create pull requests, or manage issues. MCP servers can run locally on your machine or be hosted remotely, and Visual Studio supports both configurations.
 
 By standardizing this interaction, MCP eliminates the need for custom integrations between each AI model and each tool. This allows you to extend your AI assistant's capabilities by simply adding new MCP servers to your workspace. Learn more about the Model Context Protocol specification.
 
@@ -52,7 +52,7 @@ By standardizing this interaction, MCP eliminates the need for custom integratio
       "command": "npx",
       "args": [ "-y", "@modelcontextprotocol/server-github" ],
       "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "GITHUB_PAT"
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${input:github_token}"
       }
     }
   }
@@ -86,7 +86,7 @@ MCP's [official server repository](https://github.com/modelcontextprotocol/serve
 
 MCP is still a relatively new standard, and the ecosystem is rapidly evolving. As more developers adopt MCP, you can expect to see an increasing number of servers and tools available for integration with your projects.
 
-## Adding  an MCP server
+## Adding an MCP server
 
 ### Create a file to manage configuration of MCP servers
 
@@ -94,19 +94,21 @@ If you do not already have an `mcp.json` file, you can create it in various loca
 
 ### File locations for automatic discovery of MCP configuration
 
-Visual Studio looks for MCP server configurations in the following directories, in the following order order:
+Visual Studio looks for MCP server configurations in the following directories, in the following order:
 
 1.  `%USERPROFILE%\.mcp.json` serves as a global MCP server configuration for a specific user. Adding an MCP server here would make it load for all Visual Studio solutions. 
-1.  `<SOLUTIONDIR>\.vs\mcp.json` is specific to Visual Studio and only loads the specified MCP servers for a specific user, for the specified solution.
+2.  `<SOLUTIONDIR>\.vs\mcp.json` is specific to Visual Studio and only loads the specified MCP servers for a specific user, for the specified solution.
 
-If you are looking for an MCP configuration that you can track in source control for a repo, this option woudl work well:
+If you are looking for an MCP configuration that you can track in source control for a repo, this option would work well:
 
 3.  `<SOLUTIONDIR>\.mcp.json` 
 
-Visual Studio will also check for MCP configurations other development environments have have set up. These are scoped to the repository/solution and are typically not source controlled.
+Visual Studio will also check for MCP configurations set up by other development environments. These are scoped to the repository/solution and are typically not source controlled.
 
 4.  `<SOLUTIONDIR>\.vscode\mcp.json`
 5.  `<SOLUTIONDIR>\.cursor\mcp.json`
+
+For #1 and #3, the `.` before `mcp.json` is not a typo, `.mcp.json` is the correct filename for these two directories.
 
 ### MCP configuration format
 
