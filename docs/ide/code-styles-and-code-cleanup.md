@@ -30,7 +30,7 @@ You can define code style settings per-project by using an [EditorConfig file](#
 ::: zone pivot="programming-language-dotnet,programming-language-cpp,programming-language-dotnetf"
 ## Code styles in EditorConfig files
 
-Code style settings can be specified by adding an [EditorConfig](../ide/create-portable-custom-editor-options.md) file to your project. EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in an EditorConfig file take precedence over code styles that are specified in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project. They are especially useful to ensure consistency for in a teams programming environment.
+Code style settings can be specified by adding an [EditorConfig](../ide/create-portable-custom-editor-options.md) file to your project. EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in an EditorConfig file take precedence over code styles that are specified in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project. They are especially useful to ensure consistency in a teams programming environment.
 
 To add an EditorConfig file, see [Ways to add an EditorConfig file](../ide/create-portable-custom-editor-options.md#ways-to-add-an-editorconfig-file).
 ::: zone-end
@@ -119,7 +119,7 @@ When you change a code style in the Options page or add an EditorConfig file to 
 
 ::: moniker range=">=vs-2022"
 
-Visual Studio has a **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**) to apply code styles from an EditorConfig file or from the **Code Style** options page. If an *.editorconfig* file exists for the project, those are the settings that take precedence.
+To apply code styles from an EditorConfig file or from the **Code Style** options page, use the **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**). If an *.editorconfig* file exists for the project, those are the settings that take precedence.
 
 ::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
 > [!TIP]
@@ -132,17 +132,21 @@ To apply code styles:
 
    ![Screenshot of Configure Code Cleanup.](media/vs-2022/configure-code-cleanup.png)
 
+   ::: zone pivot="programming-language-cpp"
+   C/C++ options include C++ in the name of the fixer.
+   ::: zone-end
+
 1. After you've configured code cleanup, use one of the following methods to run code cleanup:
 
    - Click on the broom icon or press **Ctrl**+**K**, **Ctrl**+**E**.
 
      ![Screenshot of Execute code cleanup.](media/vs-2022/execute-code-cleanup.png)
 
-   - To run code cleanup across your entire project or solution, right-click on the project or solution name in **Solution Explorer**, select **Analyze and Code Cleanup**, and then select **Run Code Cleanup**.
+   - To run code cleanup across your entire project or solution, right-click the project or solution name in **Solution Explorer**, select **Analyze and Code Cleanup**, and then select **Run Code Cleanup**.
 
      ![Screenshot of Run Code Cleanup across entire project or solution.](media/vs-2022/run-code-cleanup-project-solution.png)
 
-   If you want your code style settings to be applied every time you save a file, go to **Options** > **Text Editor** > **Code Cleanup** and select **Run Code Cleanup profile on save**.
+1. (Optional) If you want your code style settings to be applied every time you save a file, go to **Options** > **Text Editor** > **Code Cleanup** and select **Run Code Cleanup profile on save**.
 
 ::: moniker-end
 
