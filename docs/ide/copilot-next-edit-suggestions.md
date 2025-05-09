@@ -31,7 +31,7 @@ To get started with Copilot NES, enable the feature in **Tools > Options > GitHu
 
 As with completions, to start getting suggestions from NES, start coding. When Copilot suggests code edits, you can navigate to it with the `Tab` key, and then accept it with the `Tab` key again. You’ll save time by quickly jumping to the next relevant edit, without needing to manually search through files or references yourself. An arrow in the gutter indicates whether an edit suggestion is available.
 
-An arrow in the gutter indicates if there is an edit suggestion available. Click the arrow to explore the edit suggestion menu, which includes keyboard shortcuts and settings configuration.
+An arrow in the gutter indicates if there is an edit suggestion available. Click the arrow to explore the edit suggestion menu, which includes keyboard shortcuts.
 
 :::image type="content" source="media/vs-2022/next-edit-suggestions/next-edit-suggestions-arrows.png" alt-text="Screenshot that shows arrows in gutter indicating next edit suggestions.":::
 
