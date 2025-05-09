@@ -15,11 +15,10 @@ monikerRange: '>= vs-2022'
 Model Context Protocol (MCP) is an open standard that enables AI models to interact with external tools and services through a unified interface. In Visual Studio, MCP support enhances GitHub Copilot's agent mode by allowing you to connect any MCP-compatible server to your agentic coding workflow. This article guides you through setting up MCP servers and using tools with agent mode in Visual Studio.
 
 ## Prerequisites
-+ [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) and later offer Copilot Agent.
-    + In the initial 17.14 release, you will need to first enable `Agent Mode` in `Tools > Options > GitHub > Copilot`.
++ [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) and later include Copilot Agent.
+    + Set **Enable agent mode in the chat pane** in **Tools** > **Options** > **GitHub** > **Copilot**.
 + [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot). <br/>
     + You can use [GitHub Copilot for Free](copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
-+ Enable [agent mode in GitHub Copilot Chat](copilot-agent.md).
 
 ## How do MCP and Visual Studio extend GitHub Copilot's agent?
 
@@ -34,25 +33,33 @@ By standardizing this interaction, MCP eliminates the need for custom integratio
 # Quick Start
 ## Configuration example with GitHub MCP server
 
-1. Create a new file: `<SOLUTIONDIR>\.vs\mcp.json`
-2. Paste the following contents into the `mcp.json` file
+1. Create a new file: `<SOLUTIONDIR>\mcp.json`. Using Visual Studio to edit this file is recommended so its JSON schema is automatically applied.
+2. Paste the following contents into the `.mcp.json` file
 
-```markdown
+```json
 {
   "inputs": [
     {
+      "id": "github_pat",
+      "description": "GitHub personal access token",
       "type": "promptString",
-      "id": "github_token",
-      "description": "GitHub Personal Access Token",
       "password": true
     }
   ],
   "servers": {
     "github": {
-      "command": "npx",
-      "args": [ "-y", "@modelcontextprotocol/server-github" ],
+      "type": "stdio",
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "GITHUB_PERSONAL_ACCESS_TOKEN",
+        "ghcr.io/github/github-mcp-server"
+      ],
       "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "${input:github_token}"
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${input:github_pat}"
       }
     }
   }
@@ -74,8 +81,8 @@ By standardizing this interaction, MCP eliminates the need for custom integratio
 
 ![Personal Access Token Dialogue](./media/vs-2022/copilot-agent/copilotagent-toolapproval.png)
 
+# Additional details
 
-# Additional Details
 ## Supported MCP capabilities
 
 Visual Studio supports local standard input/output (`stdio`), server-sent events (`sse`), and streamable HTTP (`http`) for MCP server transport. Currently of the three [primitives](https://modelcontextprotocol.io/specification/2025-03-26#features) (tools, prompts, resources), servers can only provide tools to Copilot's agent mode. The list and descriptions of tools can be updated dynamically using list changed events. Visual Studio provides servers with the current solution folders using `roots` [(spec)](https://modelcontextprotocol.io/docs/concepts/roots).
@@ -101,14 +108,14 @@ Visual Studio looks for MCP server configurations in the following directories, 
 
 If you are looking for an MCP configuration that you can track in source control for a repo, this option would work well:
 
-3.  `<SOLUTIONDIR>\.mcp.json` 
+3.  `<SOLUTIONDIR>\.mcp.json`
 
 Visual Studio will also check for MCP configurations set up by other development environments. These are scoped to the repository/solution and are typically not source controlled.
 
 4.  `<SOLUTIONDIR>\.vscode\mcp.json`
 5.  `<SOLUTIONDIR>\.cursor\mcp.json`
 
-For #1 and #3, the `.` before `mcp.json` is not a typo, `.mcp.json` is the correct filename for these two directories.
+Note that some of these locations require `.mcp.json` while others require `mcp.json`.
 
 ### MCP configuration format
 
@@ -120,7 +127,7 @@ Format must follow the MCP spec (e.g. array of server objects, each with `name`,
 
 ### Editing MCP configuration
 
-With an existing `mcp.json` file, add the file location to the Solution Items in Solution Explorer.
+With an existing `mcp.json` file, add the file location to the Solution Items in Solution Explorer, if you'll be checking the file into your version control system.
 
 When the file is saved with valid syntax, GitHub Copilot's agent will restart and reload the configured servers.
 
@@ -130,7 +137,7 @@ When the file is saved with valid syntax, GitHub Copilot's agent will restart an
 
 As soon as a server is discovered or added, Visual Studio initializes it (handshake + tool list).
 
-Visual Studio subscribes to the MCP event notifications/tools/list_changed.
+Visual Studio subscribes to the MCP event `notifications/tools/list_changed`.
 
 When that event fires, Visual Studio resets any prior acceptances/permissions on tools (to prevent “rug-pull” attacks), re-fetches the tool list, and updates the count/UI live.
 
@@ -162,7 +169,6 @@ If this setting is disabled by the GitHub Copilot subscription administrator, Co
 
 ## Related content
 
-- [Install and manage GitHub Copilot in Visual Studio](visual-studio-github-copilot-install-and-states.md)
-- [GitHub Copilot experience for Visual Studio](visual-studio-github-copilot-extension.md)
+- [GitHub Copilot agent mode](copilot-agent-mode.md)
 - [GitHub Copilot Chat experience for Visual Studio](visual-studio-github-copilot-chat.md)
 - [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage)
