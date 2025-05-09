@@ -17,20 +17,22 @@ f1_keywords:
 Code style preferences allow you to control aspects of code such as indent style, tab width, end-of-line characters, encoding, and many other formatting choices. You can define code style settings in two ways:
 
 - Per-codebase or per-project by using an [EditorConfig file](#code-styles-in-editorconfig-files), or
-- For all code you edit in Visual Studio based on settings for the text editor [**Options** page](#code-styles-in-the-options-dialog-box).
+- For all code you edit in Visual Studio based on settings for the text editor [.NET Options page](#net-code-styles-in-the-options-dialog-box) or [C/C++ Options page](#cc-code-styles-in-the-options-dialog-box).
 
 You can also configure Visual Studio to apply code style preferences using the **Code Cleanup** and **Format Document** commands.
 ::: moniker-end
 
 ::: moniker range="vs-2019"
-You can define code style settings per-project by using an [EditorConfig file](#code-styles-in-editorconfig-files), or for all code you edit in Visual Studio on the text editor [**Options** page](#code-styles-in-the-options-dialog-box). For C# code, you can also configure Visual Studio to apply these code style preferences using the **Code Cleanup** (Visual Studio 2019) and **Format Document** (Visual Studio 2017) commands.
+You can define code style settings per-project by using an [EditorConfig file](#code-styles-in-editorconfig-files), or for all code you edit in Visual Studio on the text editor [.NET Options page](#net-code-styles-in-the-options-dialog-box) or [C/C++ Options page](#cc-code-styles-in-the-options-dialog-box). For C# code, you can also configure Visual Studio to apply these code style preferences using the **Code Cleanup** (Visual Studio 2019) and **Format Document** (Visual Studio 2017) commands.
 ::: moniker-end
 
 ## Code styles in EditorConfig files
 
-[Code style settings](/dotnet/fundamentals/code-analysis/code-style-rule-options) can be specified by adding an [EditorConfig](create-portable-custom-editor-options.md) file to your project. EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in an EditorConfig file take precedence over code styles that are specified in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project. They are especially useful to ensure consistency for in a teams programming environment.
+Code style settings can be specified by adding an [EditorConfig](../ide/create-portable-custom-editor-options.md) file to your project. EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in an EditorConfig file take precedence over code styles that are specified in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project. They are especially useful to ensure consistency for in a teams programming environment.
 
 To add an EditorConfig file, see [Ways to add an EditorConfig file](../ide/create-portable-custom-editor-options.md#ways-to-add-an-editorconfig-file).
+
+For more information on .NET code style settings, see [Code style settings](/dotnet/fundamentals/code-analysis/code-style-rule-options).
 
 ## C/C++ code styles in the Options dialog box
 
@@ -90,6 +92,18 @@ For each code style setting on this page, you can set the **Preference** and **S
 Starting in Visual Studio 2019 version 16.8, which includes the .NET 5.0 RC2 SDK, you can [enforce the .NET coding conventions on build](/dotnet/fundamentals/productivity/code-analysis#code-style-analysis) for all .NET projects. At build time, .NET code style violations will appear as warnings or errors with an "IDE" prefix. This enables you to strictly enforce consistent code styles in your codebase.
 
 ## Apply code styles
+
+When you change a code style or add an EditorConfig file to your project in Visual Studio, only new lines of code are formatted based on the new settings. The formatting of existing code isn't changed unless you run one of the following commands:
+
+- [Code Cleanup](#apply-code-styles-using-code-cleanup).
+
+   Select **Code Cleanup** in the Visual Studio editor, or press **Ctrl**+**K**, **Ctrl**+**E**. This command applies to white-space settings, such as indent style, and selected code-style settings, such as parenthesis preferences.
+
+- Format Document.
+
+   Select **Edit** > **Advanced** > **Format Document**, or press **Ctrl**+**K**, **Ctrl**+**D** in the default profile. This command applies only to white-space settings, such as indent style.
+
+## Apply code styles using code cleanup
 
 ::: moniker range=">=vs-2022"
 
