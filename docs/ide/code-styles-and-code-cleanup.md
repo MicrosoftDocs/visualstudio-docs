@@ -14,7 +14,7 @@ f1_keywords:
 # Code style preferences
 
 ::: moniker range=">=vs-2022"
-Code style preferences allow you to control aspects of code such as indent style, tab width, end-of-line characters, and encoding. You can define code style settings in two ways:
+Code style preferences allow you to control aspects of code such as indent style, tab width, end-of-line characters, encoding, and many other formatting choices. You can define code style settings in two ways:
 
 - Per-codebase or per-project by using an [EditorConfig file](#code-styles-in-editorconfig-files), or
 - For all code you edit in Visual Studio based on settings for the text editor [**Options** page](#code-styles-in-the-options-dialog-box).
@@ -28,25 +28,26 @@ You can define code style settings per-project by using an [EditorConfig file](#
 
 ## Code styles in EditorConfig files
 
-[Code style settings](/dotnet/fundamentals/code-analysis/code-style-rule-options) for .NET can be specified by adding an [EditorConfig](create-portable-custom-editor-options.md) file to your project. EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in an EditorConfig file take precedence over code styles that are specified in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project.
+[Code style settings](/dotnet/fundamentals/code-analysis/code-style-rule-options) for .NET can be specified by adding an [EditorConfig](create-portable-custom-editor-options.md) file to your project. EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in an EditorConfig file take precedence over code styles that are specified in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project. They are especially useful to ensure consistency for in a teams programming environment.
+
+To add an EditorConfig file, see [Ways to add an EditorConfig file](../ide/create-portable-custom-editor-options.md#ways-to-add-an-editorconfig-file).
+
+## C/C++ code styles in the Options dialog box
 
 ::: moniker range=">=vs-2022"
+You can specify many individual code formatting options, such as indentation and brace positions. To do so, go to **Tools** > **Options** > **Text Editor** > **C/C++** > **Code Style** > **Formatting** (or type **Ctrl + Q** and search for "Formatting"). Alternatively, you can specify one of the [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html) styles (or your own custom ClangFormat style).
 
-You can manually populate your EditorConfig file, or you can automatically generate the file based on the code style settings you've chosen in the Visual Studio **Options** dialog box. This options page is available at **Tools** > **Options** > **Text Editor** > [**C#** or  **Visual Basic**] > **Code Style** > **General**. Click **Generate .editorconfig file from settings** to automatically generate a coding style *.editorconfig* file based on the settings on this **Options** page.
-
-![Screenshot of Generate editorconfig file from settings.](media/vs-2022/generate-editorconfig-file-small.png)
+![Screenshot of the Options pane with Text Editor.](media/vs-2022/code-style-dialog-cpp.png)
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
-
-You can manually populate your EditorConfig file, or you can automatically generate the file based on the code style settings you've chosen in the Visual Studio **Options** dialog box. This options page is available at **Tools** > **Options** > **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**. Click **Generate .editorconfig file from settings** to automatically generate a coding style *.editorconfig* file based on the settings on this **Options** page.
-
-![Screenshot of Generate editorconfig file from settings.](media/vs-2019/generate-editorconfig-file-small.png)
-
+You can specify many individual code formatting options, such as indentation and brace positions. To do so, go to **Tools** > **Options** > **Text Editor** > **C/C++** > **Formatting** (or type **Ctrl + Q** and search for "Formatting"). Alternatively, you can specify one of the [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html) styles (or your own custom ClangFormat style).
 ::: moniker-end
 
-## .NET Code styles in the Options dialog box
+For more information about all the formatting options, see [Options, Text Editor, C/C++, Formatting](/visualstudio/ide/reference/options-text-editor-c-cpp-formatting).
+
+## .NET code styles in the Options dialog box
 
 ::: moniker range="vs-2022"
 
@@ -80,7 +81,7 @@ Options set in this window are applicable to your Visual Studio personalization 
 
 For each code style setting on this page, you can set the **Preference** and **Severity** values using the drop-downs on each line. Severity can be set to **Refactoring Only**, **Suggestion**, **Warning**, or **Error**.
 
-- All severity values enable [Quick Actions](../ide/quick-actions.md) for a code style. The **Quick Actions** light bulb :::image type="icon" source="media/light-bulb-dropdown.png":::, error light bulb :::image type="icon" source="media/error-bulb.png":::, or screwdriver :::image type="icon" source="media/screwdriver.png"::: icon appears when a non-preferred style is used, and you can choose an option on the **Quick Actions** list to automatically rewrite code to the preferred style.
+- All code style preferences enable [Quick Actions](../ide/quick-actions.md) for a code style. The **Quick Actions** light bulb :::image type="icon" source="media/light-bulb-dropdown.png":::, error light bulb :::image type="icon" source="media/error-bulb.png":::, or screwdriver :::image type="icon" source="media/screwdriver.png"::: icon appears when a non-preferred style is used, and you can choose an option on the **Quick Actions** list to automatically rewrite code to the preferred style.
 - If you want the violation to appear only as a Quick Action and also be excluded from code cleanup, set the **Severity** to **Refactoring Only**.
 - If you want the violation to appear in the Error List window as well as Quick Actions, and be included in code cleanup, set the **Severity** to **Suggestion**, **Warning**, or **Error**. Violations appear as a suggestion (message), warning, or error when you set the output in the Error List window to **Build + IntelliSense**. They are excluded from **Build** only output.
 
