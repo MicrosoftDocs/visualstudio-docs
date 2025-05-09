@@ -59,7 +59,7 @@ EditorConfig supports [code style](/dotnet/fundamentals/code-analysis/code-style
 
 When you add an EditorConfig file to your project or codebase, Visual Studio formats any new lines of code you write according to the EditorConfig file settings. However, Visual Studio doesn't convert existing styles to the new ones until you format the document or run [Code Cleanup](../ide/code-styles-and-code-cleanup.md#apply-code-styles). For example, if the indents in your file are formatted with tabs and you add an EditorConfig file that formats indents with spaces, the indent characters aren't automatically converted to spaces. When you format the document (select **Edit** > **Advanced** > **Format Document** or press **Ctrl**+**K**, **Ctrl**+**D**), the white-space settings in the EditorConfig file are applied to existing lines of code.
 
-If you remove an EditorConfig file from your project or codebase, you must close and reopen any open code files for the global editor settings to effect new lines of code.
+If you remove an EditorConfig file from your project or codebase, you must close and reopen any open code files for the global editor settings to affect new lines of code.
 
 ### Ways to add an EditorConfig file
 
