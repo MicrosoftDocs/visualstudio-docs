@@ -1,14 +1,14 @@
 ---
 title: Define consistent coding styles with EditorConfig
 description: Add an EditorConfig file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase.
-author: mikadumont
-ms.author: midumont
+ms.date: 05/08/2025
+author: mikejo5000
+ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide
 ms.topic: how-to
 helpviewer_keywords:
 - editorconfig [Visual Studio]
-ms.date: 04/01/2024
 
 #customer intent: As a developer, I want to use EditorConfig files to enforce coding style consistency for everyone that writes code in our Visual Studio codebase and projects.
 
@@ -17,21 +17,13 @@ ms.date: 04/01/2024
 
 To enforce consistent coding styles for everyone that works in a codebase, you can add an `.editorconfig` file to your solution or project. EditorConfig file settings adhere to a file format specification maintained by [EditorConfig.org](https://editorconfig.org). Many code editors and applications support EditorConfig files, including Visual Studio. Because the settings are in a file, they accompany your code, and can be used even outside of Visual Studio.
 
-In Visual Studio, EditorConfig file settings take precedence over the various global text editor settings available under **Tools** > **Options** > **Text Editor** > **C/C++** > **Code Style**. You can use an EditorConfig file to tailor each codebase to use text editor settings that are specific to that project.
+In Visual Studio, EditorConfig file settings take precedence over the various global text editor settings available under **Tools** > **Options** > **Text Editor** > **\[C# | C/C++ | Visual Basic\]** > **Code Style**. You can use an EditorConfig file to tailor each codebase to use text editor settings that are specific to that project.
 
-You can manually populate an EditorConfig file, or automatically generate it based on the code style settings you've chosen in Visual Studio. To create a new `.editorconfig` file based on your current Visual Studio settings, from the Visual Studio main menu choose **Tools** > **Options** > **Text Editor** > **C/C++** > **Code Style**. Then choose **Generate .editorconfig file from settings**. Choose the folder where your project is and then choose **Select Folder** to save the `.editorconfig` file.
+You can manually populate an EditorConfig file, or automatically generate it based on the code style settings you've chosen in Visual Studio. For more information, see [Ways to add an EditorConfig file](#ways-to-add-an-editorconfig-file).
 
 When you use an EditorConfig file, you can still continue to set your own personal editor preferences in the Visual Studio text editor. These text editor settings apply whenever you're working in a codebase without an EditorConfig file, or when the EditorConfig file doesn't override a particular setting. An example of such a preference is whether to use tabs or spaces for the code indent style.
 
-When you add an EditorConfig file to your project in Visual Studio, only new lines of code are formatted based on the EditorConfig settings. The formatting of existing code isn't changed unless you run one of the following commands:
-
-- [Code Cleanup](../ide/code-styles-and-code-cleanup.md#apply-code-styles).
-
-   Select **Code Cleanup** in the Visual Studio editor, or press **Ctrl**+**K**, **Ctrl**+**E**. This command applies to white-space settings, such as indent style, and selected code-style settings, such as parenthesis preferences.
-
-- Format Document.
-
-   Select **Edit** > **Advanced** > **Format Document**, or press **Ctrl**+**K**, **Ctrl**+**D** in the default profile. This command applies only to white-space settings, such as indent style.
+When you add an EditorConfig file to your project in Visual Studio, only new lines of code are formatted based on the EditorConfig settings. The formatting of existing code isn't changed unless you run the **Code Cleanup** or **Format Document** commands. For more information, see [Apply code styles](../ide/code-styles-and-code-cleanup.md).
 
 ## Code consistency
 
@@ -67,7 +59,35 @@ EditorConfig supports [code style](/dotnet/fundamentals/code-analysis/code-style
 
 When you add an EditorConfig file to your project or codebase, Visual Studio formats any new lines of code you write according to the EditorConfig file settings. However, Visual Studio doesn't convert existing styles to the new ones until you format the document or run [Code Cleanup](../ide/code-styles-and-code-cleanup.md#apply-code-styles). For example, if the indents in your file are formatted with tabs and you add an EditorConfig file that formats indents with spaces, the indent characters aren't automatically converted to spaces. When you format the document (select **Edit** > **Advanced** > **Format Document** or press **Ctrl**+**K**, **Ctrl**+**D**), the white-space settings in the EditorConfig file are applied to existing lines of code.
 
-If you remove an EditorConfig file from your project or codebase, you must close and reopen any open code files for the global editor settings to effect new lines of code.
+If you remove an EditorConfig file from your project or codebase, you must close and reopen any open code files for the global editor settings to affect new lines of code.
+
+### Ways to add an EditorConfig file
+
+There are a couple of ways you can add an EditorConfig file to your project:
+
+- [Automatically generate an EditorConfig file based on your code-style settings](../ide/code-styles-and-code-cleanup.md#code-styles-in-editorconfig-files).
+
+- [Manually add the EditorConfig file](#add-an-editorconfig-file-to-a-project).
+
+- Use [IntelliCode for Visual Studio](/visualstudio/ide/intellicode-visual-studio) to generate an `.editorconfig` file in your solution. Right-click in Solution Explorer and choosing **Add** > **New EditorConfig (IntelliCode)** from the context menu. IntelliCode for Visual Studio infers your code styles from existing code, and then creates an EditorConfig file with your code-style preferences predefined.
+
+### Generate an EditorConfig from code-style settings
+
+::: moniker range=">=vs-2022"
+
+You can manually populate your EditorConfig file, or you can automatically generate the file based on the code style settings you've chosen in the Visual Studio **Options** dialog box. This options page is available at **Tools** > **Options** > **Text Editor** > [**C#** | **C/C++** | **Visual Basic**] > **Code Style** > **General**. Click **Generate .editorconfig file from settings** to automatically generate a coding style *.editorconfig* file based on the settings on this **Options** page.
+
+![Screenshot of Generate editorconfig file from settings.](media/vs-2022/generate-editorconfig-file-small.png)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+You can manually populate your EditorConfig file, or you can automatically generate the file based on the code style settings you've chosen in the Visual Studio **Options** dialog box. This options page is available at **Tools** > **Options** > **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**. Click **Generate .editorconfig file from settings** to automatically generate a coding style *.editorconfig* file based on the settings on this **Options** page.
+
+![Screenshot of Generate editorconfig file from settings.](media/vs-2019/generate-editorconfig-file-small.png)
+
+::: moniker-end
 
 ### Add an EditorConfig file to a project
 
@@ -94,14 +114,6 @@ To add an EditorConfig file to your project or solution, follow these steps:
    ::: moniker-end
 
 1. Optionally edit the file, and then save it.
-
-### Other ways to add an EditorConfig file
-
-There are a couple of other ways you can add an EditorConfig file to your project:
-
-- Use [IntelliCode for Visual Studio](/visualstudio/ide/intellicode-visual-studio) to generate an `.editorconfig` file in your solution. Right-click in Solution Explorer and choosing **Add** > **New EditorConfig (IntelliCode)** from the context menu. IntelliCode for Visual Studio infers your code styles from existing code, and then creates an EditorConfig file with your code-style preferences predefined.
-
-- [Automatically generate an EditorConfig file based on your code-style settings](code-styles-and-code-cleanup.md#code-styles-in-editorconfig-files).
 
 ## File hierarchy and precedence
 
