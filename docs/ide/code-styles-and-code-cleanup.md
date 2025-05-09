@@ -28,7 +28,7 @@ You can define code style settings per-project by using an [EditorConfig file](#
 
 ## Code styles in EditorConfig files
 
-[Code style settings](/dotnet/fundamentals/code-analysis/code-style-rule-options) for .NET can be specified by adding an [EditorConfig](create-portable-custom-editor-options.md) file to your project. EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in an EditorConfig file take precedence over code styles that are specified in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project. They are especially useful to ensure consistency for in a teams programming environment.
+[Code style settings](/dotnet/fundamentals/code-analysis/code-style-rule-options) can be specified by adding an [EditorConfig](create-portable-custom-editor-options.md) file to your project. EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in an EditorConfig file take precedence over code styles that are specified in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project. They are especially useful to ensure consistency for in a teams programming environment.
 
 To add an EditorConfig file, see [Ways to add an EditorConfig file](../ide/create-portable-custom-editor-options.md#ways-to-add-an-editorconfig-file).
 
@@ -93,10 +93,10 @@ Starting in Visual Studio 2019 version 16.8, which includes the .NET 5.0 RC2 SDK
 
 ::: moniker range=">=vs-2022"
 
-For C# code files, Visual Studio has a **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**) to apply code styles from an EditorConfig file or from the **Code Style** options page. If an *.editorconfig* file exists for the project, those are the settings that take precedence.
+Visual Studio has a **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**) to apply code styles from an EditorConfig file or from the **Code Style** options page. If an *.editorconfig* file exists for the project, those are the settings that take precedence.
 
 > [!TIP]
-> Rules configured with a severity of **Refactoring Only** don't participate in code cleanup but can be individually applied via the **Quick Actions and Refactorings** menu.
+> .NET rules configured with a severity of **Refactoring Only** don't participate in code cleanup but can be individually applied via the **Quick Actions and Refactorings** menu.
 
 To apply code styles:
 

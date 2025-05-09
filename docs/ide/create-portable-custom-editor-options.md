@@ -23,15 +23,7 @@ You can manually populate an EditorConfig file, or automatically generate it bas
 
 When you use an EditorConfig file, you can still continue to set your own personal editor preferences in the Visual Studio text editor. These text editor settings apply whenever you're working in a codebase without an EditorConfig file, or when the EditorConfig file doesn't override a particular setting. An example of such a preference is whether to use tabs or spaces for the code indent style.
 
-When you add an EditorConfig file to your project in Visual Studio, only new lines of code are formatted based on the EditorConfig settings. The formatting of existing code isn't changed unless you run one of the following commands:
-
-- [Code Cleanup](../ide/code-styles-and-code-cleanup.md#apply-code-styles).
-
-   Select **Code Cleanup** in the Visual Studio editor, or press **Ctrl**+**K**, **Ctrl**+**E**. This command applies to white-space settings, such as indent style, and selected code-style settings, such as parenthesis preferences.
-
-- Format Document.
-
-   Select **Edit** > **Advanced** > **Format Document**, or press **Ctrl**+**K**, **Ctrl**+**D** in the default profile. This command applies only to white-space settings, such as indent style.
+When you add an EditorConfig file to your project in Visual Studio, only new lines of code are formatted based on the EditorConfig settings. The formatting of existing code isn't changed unless you run the **Code Cleanup** or **Format Document** commands. For more information, see [Apply code styles](../ide/code-styles-and-code-cleanup.md).
 
 ## Code consistency
 
@@ -83,7 +75,7 @@ There are a couple of ways you can add an EditorConfig file to your project:
 
 ::: moniker range=">=vs-2022"
 
-You can manually populate your EditorConfig file, or you can automatically generate the file based on the code style settings you've chosen in the Visual Studio **Options** dialog box. This options page is available at **Tools** > **Options** > **Text Editor** > [**C#** or  **Visual Basic**] > **Code Style** > **General**. Click **Generate .editorconfig file from settings** to automatically generate a coding style *.editorconfig* file based on the settings on this **Options** page.
+You can manually populate your EditorConfig file, or you can automatically generate the file based on the code style settings you've chosen in the Visual Studio **Options** dialog box. This options page is available at **Tools** > **Options** > **Text Editor** > [**C#** | **C/C++** | **Visual Basic**] > **Code Style** > **General**. Click **Generate .editorconfig file from settings** to automatically generate a coding style *.editorconfig* file based on the settings on this **Options** page.
 
 ![Screenshot of Generate editorconfig file from settings.](media/vs-2022/generate-editorconfig-file-small.png)
 
