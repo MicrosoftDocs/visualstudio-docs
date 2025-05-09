@@ -1,6 +1,6 @@
 ---
-title: 'Use MCP servers in Visual Studio'
-description: Adding MCP server in Visual Studio to extend GitHub Copilot agent capabilities, setting up mcp.json and managing tool permissions.
+title: 'Use MCP servers (Preview)'
+description: Adding MCP servers in Visual Studio to extend GitHub Copilot agent capabilities, setting up mcp.json and managing tool permissions.
 ms.date: 5/8/2025
 ms.topic: overview
 author: aayim
@@ -10,7 +10,7 @@ ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
 ---
-# What is GitHub Copilot Agent?
+# What is MCP?
 
 Model Context Protocol (MCP) is an open standard that enables AI models to interact with external tools and services through a unified interface. In Visual Studio, MCP support enhances GitHub Copilot's agent mode by allowing you to connect any MCP-compatible server to your agentic coding workflow. This article guides you through setting up MCP servers and using tools with agent mode in Visual Studio.
 
@@ -21,11 +21,7 @@ Model Context Protocol (MCP) is an open standard that enables AI models to inter
     + You can use [GitHub Copilot for Free](copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
 + Enable [agent mode in GitHub Copilot Chat](copilot-agent.md).
 
-## What is MCP?
-
-Model Context Protocol (MCP) provides a standardized way for AI models to discover and interact with external tools, applications, and data sources. When you enter a chat prompt to a language model with agent mode in VS Code, the model can invoke various tools to perform tasks like file operations, accessing databases, or calling APIs in response to your request.
-
-MCP follows a client-server architecture:
+## How do MCP and Visual Studio extend GitHub Copilot's agent?
 
 * MCP clients (like Visual Studio) connect to MCP servers and request actions on behalf of the AI model
 * MCP servers provide one or more tools that expose specific functionalities through a well-defined interface.
@@ -65,18 +61,18 @@ By standardizing this interaction, MCP eliminates the need for custom integratio
 
 3. Get a Personal Access Token for your [GitHub Account](https://github.com/settings/personal-access-tokens)
 4. Launch Visual Studio, open the GitHub Copilot window, then click the dropdown that says `Ask`, then select `Agent`.
-![Copilot Agent Mode Selector](./media/copilotagent-dropdown.png)
+![Copilot Agent Mode Selector](./media/vs-2022/copilot-agent/copilotagent-dropdown.png)
 5. When prompted, paste your personal access token into the dialogue.
-![Personal Access Token Dialogue](./media/mcp-PAT.png)
+![Personal Access Token Dialogue](./media/vs-2022/copilotagent-mcp/mcp-PAT.png)
 
 6. Select the tools you'd like to use: for example, `list_issues`
-![Personal Access Token Dialogue](./media/mcp-githubtools.png)
+![Personal Access Token Dialogue](./media/vs-2022/copilotagent-mcp/mcp-githubtools.png)
 
 7. Try a sample prompt: `list issues assigned to me on GitHub`
 
 8. Copilot will ask for permission to use a tool made available to it by the MCP server, click "Allow" with the scope you wish to proceed with.
 
-![Personal Access Token Dialogue](./media/copilotagent-toolapproval.png)
+![Personal Access Token Dialogue](./media/vs-2022/copilot-agent/copilotagent-toolapproval.png)
 
 
 # Additional Details
@@ -126,7 +122,7 @@ With an existing `mcp.json` file, add the file location to the Solution Items in
 
 When the file is saved with valid syntax, GitHub Copilot's agent will restart and reload the configured servers.
 
-![Copilot Agent Settings](./media/mcp-addsolutionitem.png)
+![Copilot Agent Settings](./media/vs-2022/copilotagent-mcp/mcp-addsolutionitem.png)
 
 ### Tool Lifecycle
 
@@ -146,13 +142,13 @@ If you edit a server definition, VS will terminate and relaunch it, then re-quer
 
 When a tool is invoked, Copilot requests confirmation to run the tool. This is because tools might run locally on your machine and perform actions that modify files or data.
 
-![Personal Access Token Dialogue](./media/copilotagent-toolapproval.png)
+![Personal Access Token Dialogue](./media/vs-2022/copilot-agent/copilotagent-toolapproval.png)
 
 In the Chat view, after a tool invocation, use the Allow button dropdown options to automatically confirm the specific tool for the current session, solution, or all future invocations.
 
 You can reset tool confirmation selections in Tools > Options > GitHub > Copilot > Tools.
 
-![Copilot Agent Command Approval](./media/copilotagent-toolconfig.png)
+![Copilot Agent Command Approval](./media/vs-2022/copilot-agent/copilotagent-toolconfig.png)
 
 ## Frequently Asked Questions
 

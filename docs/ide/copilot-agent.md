@@ -33,11 +33,11 @@ Follow these steps to get started:
 
 1. Make sure that agent mode is enabled by clicking Tools > Options > GitHub > Copilot and  the "Enable Agent mode in the chat pane".
 
-![Copilot Agent Settings](./media/copilotagent-settingupdated.png)
+![Copilot Agent Settings](./media/vs-2022/copilot-agent/copilotagent-settingupdated.png)
 
 2. Enable agent mode by opening the GitHub Copilot window, clicking the mode dropdown that says "Ask", then select "Agent".
 
-![Copilot Agent Mode Selector](./media/copilotagent-dropdown.png)
+![Copilot Agent Mode Selector](./media/vs-2022/copilot-agent/copilotagent-dropdown.png)
 
 3. Enter your prompt for making edits in the chat input field and select Send (Enter) to submit it. You can specify a high-level requirement, and you don't have to specify which files to work on. In agent mode, Copilot determines the relevant context and files to edit autonomously.
 
@@ -45,29 +45,29 @@ Follow these steps to get started:
 
 4. Agent mode might invoke multiple tools to accomplish different tasks. Optionally, select the Tools icon to configure which tools can be used for responding to your request.
 
-![Copilot Agent Tool Selector](./media/copilotagent-tools.png)
+![Copilot Agent Tool Selector](./media/vs-2022/copilot-agent/copilotagent-tools.png)
 
 5. Confirm tool invocations and terminal commands. Before running a terminal command or non-builtin tool, Copilot requests confirmation to continue. This is because tools might run locally on your machine and perform actions that modify files or data.
 
-![Copilot Agent Command Approval](./media/copilotagent-commandapproval.png)
+![Copilot Agent Command Approval](./media/vs-2022/copilot-agent/copilotagent-commandapproval.png)
 
 6. Copilot detects issues and problems in code edits and terminal commands and will iterate and perform additional actions to resolve them. For example, agent mode might run unit tests as a result of a code edit. If the tests fail, it uses the test outcome to resolve the issue. Copilot agent mode iterates multiple times to resolve issues and problems.
 
 7. As Copilot processes your request, notice that Copilot streams the suggested code edits directly in the editor. Review the suggested edits and accept or discard the suggested edits as a whole in the Total Changes section, or individually by clicking on a file and reviewing the code diffs presented in the editor.
 
-![Copilot Agent List of Changes](./media/copilotagent-keepundo.png)
+![Copilot Agent List of Changes](./media/vs-2022/copilot-agent/copilotagent-keepundo.png)
 
 8. If you want to review individual code changes made by the agent, you can either review the specific change made at each step, or review the cumulative changes from the last time changes were kept or undone.
 
-![Accessing individual edit diff with Copilot Agent](./media/copilotagent-stepwisediff.png)
+![Accessing individual edit diff with Copilot Agent](./media/vs-2022/copilot-agent/copilotagent-stepwisediff.png)
 
-![Accessing cumulative edit diff with Copilot Agent](./media/copilotagent-cumulativediff.png)
+![Accessing cumulative edit diff with Copilot Agent](./media/vs-2022/copilot-agent/copilotagent-cumulativediff.png)
 
 9. Continue to iterate on the code changes to refine the edits or implement additional features.
 
 ## Agent mode tools
 
-![Copilot Agent Tool Selector](./media/copilotagent-partialtools.png)
+![Copilot Agent Tool Selector](./media/vs-2022/copilot-agent/copilotagent-partialtools.png)
 
 Agent mode can use the following tools:
 
@@ -82,7 +82,7 @@ Additional tools added by running MCP servers are not automatically enabled, the
 
 ## Manage tool approvals
 
-![Copilot Agent Command Approval](./media/copilotagent-commandapproval.png)
+![Copilot Agent Command Approval](./media/vs-2022/copilot-agent/copilotagent-commandapproval.png)
 
 When a tool is invoked, Copilot requests confirmation to run the tool. This is because tools might run locally on your machine and perform actions that modify files or data.
 
@@ -90,13 +90,13 @@ In the Chat view, after a tool invocation, use the Allow button dropdown options
 
 You can reset tool confirmation selections in Tools > Options > GitHub > Copilot > Tools.
 
-![Copilot Agent Command Approval](./media/copilotagent-toolconfig.png)
+![Copilot Agent Command Approval](./media/vs-2022/copilot-agent/copilotagent-toolconfig.png)
 
 <!-- TODO: Define what "Reset solution setting does -->
 
 ## Accept or discard edits
 
-![Copilot Agent List of Changes](./media/copilotagent-keepundo.png)
+![Copilot Agent List of Changes](./media/vs-2022/copilot-agent/copilotagent-keepundo.png)
 
 Copilot lists the files that were edited in the list of Total Changes files in the Chat view.
 
@@ -106,7 +106,7 @@ Alternatively, in the Total Changes dialogue, click "Keep" or "Undo" for all edi
 
 ## Revert edits
 
-![Copilot Agent List of Changes](./media/copilotagent-checkpoint.png)
+![Copilot Agent List of Changes](./media/vs-2022/copilot-agent/copilotagent-checkpoint.png)
 
 As you're sending requests to make edits to your code, you might want to roll back some of these changes, for example, because you want to use another implementation strategy or because Copilot starts walking down the wrong path when generating edits.
 
