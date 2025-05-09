@@ -12,7 +12,7 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Basic.Code_Style.General
 zone_pivot_groups: programming-languages-set-two
 ---
-# Code style preferences
+# Code style preferences and code cleanup
 
 ::: moniker range=">=vs-2022"
 Code style preferences allow you to control aspects of code such as indent style, tab width, end-of-line characters, encoding, and many other formatting choices. You can define code style settings in two ways:
@@ -102,7 +102,7 @@ Starting in Visual Studio 2019 version 16.8, which includes the .NET 5.0 RC2 SDK
 
 ## Apply code styles
 
-When you change a code style or add an EditorConfig file to your project in Visual Studio, only new lines of code are formatted based on the new settings. The formatting of existing code isn't changed unless you run one of the following commands:
+When you change a code style in the Options page or add an EditorConfig file to your project in Visual Studio, only new lines of code are formatted based on the new settings. The formatting of existing code isn't changed unless you run one of the following commands:
 
 - [Code Cleanup](#apply-code-styles-using-code-cleanup).
 
@@ -118,8 +118,10 @@ When you change a code style or add an EditorConfig file to your project in Visu
 
 Visual Studio has a **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**) to apply code styles from an EditorConfig file or from the **Code Style** options page. If an *.editorconfig* file exists for the project, those are the settings that take precedence.
 
+::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
 > [!TIP]
 > .NET rules configured with a severity of **Refactoring Only** don't participate in code cleanup but can be individually applied via the **Quick Actions and Refactorings** menu.
+::: zone-end
 
 To apply code styles:
 
