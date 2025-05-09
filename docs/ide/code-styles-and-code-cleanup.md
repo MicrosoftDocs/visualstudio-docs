@@ -74,7 +74,7 @@ Code style preferences can be set for all of your C# and Visual Basic projects b
 
 ::: moniker-end
 
-Each item in the list shows a preview of the preference when selected:
+Each item in the list shows a preview of the preference when you select the option:
 
 ::: moniker range="vs-2019"
 
@@ -92,9 +92,9 @@ Options set in this window are applicable to your Visual Studio personalization 
 
 ### Preference and severity
 
-For each code style setting on the **General** options page, you can set the **Preference** and **Severity** values using the drop-downs on each line. Severity can be set to **Refactoring Only**, **Suggestion**, **Warning**, or **Error**.
+For each code style setting on the **General** and **Naming** options page, you can set the **Preference** and **Severity** values using the drop-downs on each line. Severity can be set to **Refactoring Only**, **Suggestion**, **Warning**, or **Error**.
 
-- All code style preferences configure the [Quick Actions](../ide/quick-actions.md) for a code style. The **Quick Actions** light bulb :::image type="icon" source="media/light-bulb-dropdown.png":::, error light bulb :::image type="icon" source="media/error-bulb.png":::, or screwdriver :::image type="icon" source="media/screwdriver.png"::: icon appears when a non-preferred style is used, and you can choose an option on the **Quick Actions** list to automatically rewrite code to the preferred style.
+- All code style preferences determine the [Quick Actions](../ide/quick-actions.md) for a code style. The **Quick Actions** light bulb :::image type="icon" source="media/light-bulb-dropdown.png":::, error light bulb :::image type="icon" source="media/error-bulb.png":::, or screwdriver :::image type="icon" source="media/screwdriver.png"::: icon appears when a non-preferred style is used, and you can choose an option on the **Quick Actions** list to automatically rewrite code to the preferred style.
 - If you want the violation to appear only as a Quick Action and also be excluded from code cleanup, set the **Severity** to **Refactoring Only**.
 - If you want the violation to appear in the Error List window as well as Quick Actions, and be included in code cleanup, set the **Severity** to **Suggestion**, **Warning**, or **Error**. Violations appear as a suggestion (message), warning, or error when you set the output in the Error List window to **Build + IntelliSense**. They are excluded from **Build** only output.
 
