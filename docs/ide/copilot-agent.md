@@ -123,7 +123,6 @@ To stop a build, click `Build` in the top toolbar then click `Cancel` or use the
 
 ## Frequently Asked Questions
 
-
 ### I don't see Ask and Agent mode in the GitHub Copilot Chat window.
 
 Take the following troubleshooting steps in the order specified:
