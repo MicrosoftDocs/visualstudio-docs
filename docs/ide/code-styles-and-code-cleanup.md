@@ -10,6 +10,7 @@ ms.subservice: general-ide
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.General
 - VS.ToolsOptionsPages.Text_Editor.Basic.Code_Style.General
+zone_pivot_groups: programming-languages-set-two
 ---
 # Code style preferences
 
@@ -26,14 +27,19 @@ You can also configure Visual Studio to apply code style preferences using the *
 You can define code style settings per-project by using an [EditorConfig file](#code-styles-in-editorconfig-files), or for all code you edit in Visual Studio on the text editor [.NET Options page](#net-code-styles-in-the-options-dialog-box) or [C/C++ Options page](#cc-code-styles-in-the-options-dialog-box). For C# code, you can also configure Visual Studio to apply these code style preferences using the **Code Cleanup** (Visual Studio 2019) and **Format Document** (Visual Studio 2017) commands.
 ::: moniker-end
 
+::: zone pivot="programming-language-dotnet,programming-language-cpp,programming-language-dotnetf"
 ## Code styles in EditorConfig files
 
 Code style settings can be specified by adding an [EditorConfig](../ide/create-portable-custom-editor-options.md) file to your project. EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in an EditorConfig file take precedence over code styles that are specified in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project. They are especially useful to ensure consistency for in a teams programming environment.
 
 To add an EditorConfig file, see [Ways to add an EditorConfig file](../ide/create-portable-custom-editor-options.md#ways-to-add-an-editorconfig-file).
+::: zone-end
 
+::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
 For more information on .NET code style settings, see [Code style settings](/dotnet/fundamentals/code-analysis/code-style-rule-options).
+::: zone-end
 
+::: zone pivot="programming-language-cpp"
 ## C/C++ code styles in the Options dialog box
 
 ::: moniker range=">=vs-2022"
@@ -48,7 +54,9 @@ You can specify many individual code formatting options, such as indentation and
 ::: moniker-end
 
 For more information about all the formatting options, see [Options, Text Editor, C/C++, Formatting](/visualstudio/ide/reference/options-text-editor-c-cpp-formatting).
+::: zone-end
 
+::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
 ## .NET code styles in the Options dialog box
 
 ::: moniker range="vs-2022"
@@ -90,6 +98,7 @@ For each code style setting on this page, you can set the **Preference** and **S
 ## Enforce code styles on build
 
 Starting in Visual Studio 2019 version 16.8, which includes the .NET 5.0 RC2 SDK, you can [enforce the .NET coding conventions on build](/dotnet/fundamentals/productivity/code-analysis#code-style-analysis) for all .NET projects. At build time, .NET code style violations will appear as warnings or errors with an "IDE" prefix. This enables you to strictly enforce consistent code styles in your codebase.
+::: zone-end
 
 ## Apply code styles
 
@@ -158,6 +167,7 @@ To apply code styles:
    If you want your code style settings to be applied every time you save a file, you may like the [Code Cleanup on Save](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CodeCleanupOnSave) extension.
 ::: moniker-end
 
+::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
 ## .NET code cleanup settings
 
 Most of the code cleanup settings map to one or more .NET code styles supported in *.editorconfig*. For examples that show the effects of the settings, use the links in the following table.
@@ -207,6 +217,7 @@ Most of the code cleanup settings map to one or more .NET code styles supported 
 |Apply parameter null preferences|[Null-checking preferences](/dotnet/fundamentals/code-analysis/style-rules/null-checking-preferences)|
 |Apply using statement preferences|[csharp_prefer_simple_using_statement](/dotnet/fundamentals/code-analysis/style-rules/ide0063#csharp_prefer_simple_using_statement)|
 |Apply throw expression preferences|[csharp_style_throw_expression](/dotnet/fundamentals/code-analysis/style-rules/ide0016#csharp_style_throw_expression)|
+::: zone-end
 
 ## Related content
 

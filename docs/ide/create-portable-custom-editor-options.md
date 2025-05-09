@@ -1,8 +1,8 @@
 ---
 title: Define consistent coding styles with EditorConfig
 description: Add an EditorConfig file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase.
-author: mikejo
-ms.author: mikejo5000
+author: mikejo5000
+ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide
 ms.topic: how-to
@@ -65,9 +65,9 @@ If you remove an EditorConfig file from your project or codebase, you must close
 
 There are a couple of ways you can add an EditorConfig file to your project:
 
-- [Automatically generate an EditorConfig file based on your code-style settings](code-styles-and-code-cleanup.md#code-styles-in-editorconfig-files).
+- [Automatically generate an EditorConfig file based on your code-style settings](../ide/code-styles-and-code-cleanup.md#code-styles-in-editorconfig-files).
 
-- [Manually add the EditorConfig file](add-an-editorconfig-file-to-a-project).
+- [Manually add the EditorConfig file](#add-an-editorconfig-file-to-a-project).
 
 - Use [IntelliCode for Visual Studio](/visualstudio/ide/intellicode-visual-studio) to generate an `.editorconfig` file in your solution. Right-click in Solution Explorer and choosing **Add** > **New EditorConfig (IntelliCode)** from the context menu. IntelliCode for Visual Studio infers your code styles from existing code, and then creates an EditorConfig file with your code-style preferences predefined.
 
