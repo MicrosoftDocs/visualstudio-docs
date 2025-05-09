@@ -31,11 +31,11 @@ In agent mode, Copilot operates autonomously and determines the relevant context
 
 Follow these steps to get started:
 
-1. Make sure that agent mode is enabled by clicking Tools > Options > GitHub > Copilot and  the "Enable Agent mode in the chat pane".
+1. Make sure that agent mode is enabled by clicking Tools > Options > GitHub > Copilot and the "Enable agent mode in the chat pane".
 
 ![Copilot Agent Settings](./media/vs-2022/copilot-agent/copilotagent-settingupdated.png)
 
-2. Enable agent mode by opening the GitHub Copilot window, clicking the mode dropdown that says "Ask", then select "Agent".
+2. Open the GitHub Copilot window, click the mode dropdown that says "Ask", then select "Agent".
 
 ![Copilot Agent Mode Selector](./media/vs-2022/copilot-agent/copilotagent-dropdown.png)
 
@@ -43,7 +43,7 @@ Follow these steps to get started:
 
 
 
-4. Agent mode might invoke multiple tools to accomplish different tasks. Optionally, select the Tools icon to configure which tools can be used for responding to your request.
+4. Agent mode might invoke multiple tools to accomplish different tasks. Optionally, select the Tools icon to configure which additional tools can be used for responding to your request.
 
 ![Copilot Agent Tool Selector](./media/vs-2022/copilot-agent/copilotagent-tools.png)
 
@@ -53,7 +53,7 @@ Follow these steps to get started:
 
 6. Copilot detects issues and problems in code edits and terminal commands and will iterate and perform additional actions to resolve them. For example, agent mode might run unit tests as a result of a code edit. If the tests fail, it uses the test outcome to resolve the issue. Copilot agent mode iterates multiple times to resolve issues and problems.
 
-7. As Copilot processes your request, notice that Copilot streams the suggested code edits directly in the editor. Review the suggested edits and accept or discard the suggested edits as a whole in the Total Changes section, or individually by clicking on a file and reviewing the code diffs presented in the editor.
+7. As Copilot processes your request, notice that Copilot streams the suggested code edits directly in the editor. Review the suggested edits and either keep or discard the suggested edits as a whole in the Total Changes section, or individually by clicking on a file and reviewing the code diffs presented in the editor.
 
 ![Copilot Agent List of Changes](./media/vs-2022/copilot-agent/copilotagent-keepundo.png)
 
@@ -67,7 +67,7 @@ Follow these steps to get started:
 
 ## Agent mode tools
 
-![Copilot Agent Tool Selector](./media/vs-2022/copilot-agent/copilotagent-partialtools.png)
+![Copilot Agent Tool Selector](./media/vs-2022/copilotagent-mcp/copilotagent-partialtools.png)
 
 Agent mode can use the following tools:
 
@@ -141,14 +141,14 @@ Take the following troubleshooting steps in the order specified:
 
 ### What happened to Copilot Edits in Visual Studio?
 
-- We perceive Agent mode to an evolution of Edits, with greater ability to iterate on errors, use tools, and automatically apply code changes.
+- We perceive Agent mode to be an evolution of Edits, with greater ability to iterate on errors, use tools, and automatically apply code changes.
 - For the initial releases of Visual Studio 2022 version 17.14, Edits mode is still available if you uncheck the `Enable agent mode` setting in `Tools > Options`.
 
 ### As an administrator, how do I control use of Agent mode for Visual Studio users?
 
 Agent mode in Visual Studio is governed by the "Editor preview features" flag in the GitHub Copilot dashboard for administrator.
 
-More information can be found in the GitHub documentation for [managing policies and feature for copilot in your enterprise](https://docs.github.com/en/enterprise-cloud@latest/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise#editor-preview-features).
+More information can be found in the GitHub documentation for [managing policies and features for copilot in your enterprise](https://docs.github.com/en/enterprise-cloud@latest/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise#editor-preview-features).
 
 ## Related content
 
