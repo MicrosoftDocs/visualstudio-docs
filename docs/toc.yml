@@ -155,6 +155,8 @@
       href: ide/copilot-chat-context.md
     - name: Use agent mode
       href: ide/copilot-agent-mode.md
+    - name: Use MCP servers
+      href: ide/mcp-servers.md
     - name: Copilot Edits
       href: ide/copilot-edits.md
     - name: Debug with GitHub Copilot
