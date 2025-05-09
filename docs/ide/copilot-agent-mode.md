@@ -34,7 +34,7 @@ Follow these steps to get started:
 
 1. Make sure agent mode is enabled by selecting **Enable agent mode in the chat pane** in **Tools** > **Options** > **GitHub** > **Copilot**.
    
-    :::image type="content" source="/media/vs-2022/copilot-agent/copilot-agent-settingsupdated.png" alt-text="Screenshot that shows Copilot Agent Settings." lightbox="/media/vs-2022/copilot-agent/copilot-agent-setting-updated.png":::
+    :::image type="content" source="/media/vs-2022/copilot-agent/copilot-agent-setting-updated.png" alt-text="Screenshot that shows Copilot Agent Settings." lightbox="/media/vs-2022/copilot-agent/copilot-agent-setting-updated.png":::
 
 2. Open the GitHub Copilot window, click the mode dropdown that says "Ask", then select "Agent".
 
