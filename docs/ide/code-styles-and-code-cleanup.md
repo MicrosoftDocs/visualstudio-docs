@@ -130,7 +130,7 @@ To apply code styles from an EditorConfig file or from the **Code Style** option
 
 To apply code styles:
 
-1. First, configure which code styles you want to apply (in one of two profiles) in the **Configure Code Cleanup** dialog box. To open this dialog box, click the expander arrow next to the code cleanup broom icon and then choose **Configure Code Cleanup**.
+1. First, configure which code styles you want to apply (in one of two profiles) in the **Configure Code Cleanup** dialog box. To open this dialog box, click the expander arrow next to the code cleanup broom icon and then choose **Configure Code Cleanup**. Alternatively, use the **Analyze** > **Code Cleanup** menu.
 
    ![Screenshot of Configure Code Cleanup.](media/vs-2022/configure-code-cleanup.png)
 
