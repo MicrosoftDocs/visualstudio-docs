@@ -36,7 +36,7 @@ To add an EditorConfig file, see [Ways to add an EditorConfig file](../ide/creat
 ::: zone-end
 
 ::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
-For more information on .NET code style settings, see [Code style settings](/dotnet/fundamentals/code-analysis/code-style-rule-options).
+For reference information on .NET code style settings, see [Code style settings](/dotnet/fundamentals/code-analysis/code-style-rule-options).
 ::: zone-end
 
 ::: zone pivot="programming-language-cpp"
@@ -88,15 +88,17 @@ Each item in the list shows a preview of the preference when you select the opti
 
 ::: moniker-end
 
-Options set in this window are applicable to your Visual Studio personalization account and aren't associated with a particular project or codebase. In addition, they aren't enforced at build time, including in continuous integration (CI) builds. If you want to associate code style preferences with your project and have the styles enforced during build, specify the preferences in an [.editorconfig file](#code-styles-in-editorconfig-files) that's associated with the project.
+Options set in this window are applicable to your Visual Studio personalization account and aren't associated with a particular project or codebase. In addition, they aren't enforced at build time, including in continuous integration (CI) builds. If you want to associate code style preferences with your project and have the styles enforced during build, specify the preferences in an [EditorConfig file](#code-styles-in-editorconfig-files) that's associated with the project.
 
 ### Preference and severity
 
-For each code style setting on the **General** and **Naming** options page, you can set the **Preference** and **Severity** values using the drop-downs on each line. Severity can be set to **Refactoring Only**, **Suggestion**, **Warning**, or **Error**.
+For each code style setting on the **General** and **Naming** options pages, you can set the **Preference** and **Severity** values using the drop-downs on each line. Severity can be set to **Refactoring Only**, **Suggestion**, **Warning**, or **Error**.
 
-- All code style preferences determine the [Quick Actions](../ide/quick-actions.md) for a code style. The **Quick Actions** light bulb :::image type="icon" source="media/light-bulb-dropdown.png":::, error light bulb :::image type="icon" source="media/error-bulb.png":::, or screwdriver :::image type="icon" source="media/screwdriver.png"::: icon appears when a non-preferred style is used, and you can choose an option on the **Quick Actions** list to automatically rewrite code to the preferred style.
+- Code style preferences in the **General** and **Naming** options pages determine the [Quick Actions](../ide/quick-actions.md) for a code style. The **Quick Actions** light bulb :::image type="icon" source="media/light-bulb-dropdown.png":::, error light bulb :::image type="icon" source="media/error-bulb.png":::, or screwdriver :::image type="icon" source="media/screwdriver.png"::: icon appears when a non-preferred style is used, and you can choose an option on the **Quick Actions** list to automatically rewrite code to the preferred style.
 - If you want the violation to appear only as a Quick Action and also be excluded from code cleanup, set the **Severity** to **Refactoring Only**.
 - If you want the violation to appear in the Error List window as well as Quick Actions, and be included in code cleanup, set the **Severity** to **Suggestion**, **Warning**, or **Error**. Violations appear as a suggestion (message), warning, or error when you set the output in the Error List window to **Build + IntelliSense**. They are excluded from **Build** only output.
+
+Settings in an EditorConfig file take precedence over code styles set in these pages.
 
 ## Enforce code styles on build
 
@@ -119,7 +121,7 @@ When you change a code style in the Options page or add an EditorConfig file to 
 
 ::: moniker range=">=vs-2022"
 
-To apply code styles from an EditorConfig file or from the **Code Style** options page, use the **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**). If an *.editorconfig* file exists for the project, those are the settings that take precedence.
+To apply code styles from an EditorConfig file or from the **Code Style** options page, use the **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**). If an EditorConfig file exists for the project, those are the settings that take precedence.
 
 ::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
 > [!TIP]
@@ -131,6 +133,10 @@ To apply code styles:
 1. First, configure which code styles you want to apply (in one of two profiles) in the **Configure Code Cleanup** dialog box. To open this dialog box, click the expander arrow next to the code cleanup broom icon and then choose **Configure Code Cleanup**.
 
    ![Screenshot of Configure Code Cleanup.](media/vs-2022/configure-code-cleanup.png)
+
+   ::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
+   For a mapping of .NET code cleanup fixers to .NET code style rules, see [.NET code cleanup settings](#net-code-cleanup-settings).
+   ::: zone-end
 
    ::: zone pivot="programming-language-cpp"
    C/C++ options include C++ in the name of the fixer.
@@ -152,7 +158,7 @@ To apply code styles:
 
 ::: moniker range="vs-2019"
 
-For C# code files, Visual Studio has a **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**) to apply code styles from an EditorConfig file or from the **Code Style** options page. If an *.editorconfig* file exists for the project, those are the settings that take precedence.
+For C# code files, Visual Studio has a **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**) to apply code styles from an EditorConfig file or from the **Code Style** options page. If an EditorConfig file exists for the project, those are the settings that take precedence.
 
 > [!TIP]
 > Rules configured with a severity of **None** don't participate in code cleanup but can be individually applied via the **Quick Actions and Refactorings** menu.
@@ -179,7 +185,7 @@ To apply code styles:
 ::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
 ## .NET code cleanup settings
 
-Most of the code cleanup settings map to one or more .NET code styles supported in *.editorconfig*. For examples that show the effects of the settings, use the links in the following table.
+Most of the code cleanup settings map to one or more .NET code styles supported in EditorConfig. For examples that show the effects of the settings, use the links in the following table.
 
 |Setting|Rule ID or style option|
 |-|-|
