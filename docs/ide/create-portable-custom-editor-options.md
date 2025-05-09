@@ -69,6 +69,34 @@ When you add an EditorConfig file to your project or codebase, Visual Studio for
 
 If you remove an EditorConfig file from your project or codebase, you must close and reopen any open code files for the global editor settings to effect new lines of code.
 
+### Ways to add an EditorConfig file
+
+There are a couple of ways you can add an EditorConfig file to your project:
+
+- [Automatically generate an EditorConfig file based on your code-style settings](code-styles-and-code-cleanup.md#code-styles-in-editorconfig-files).
+
+- [Manually add the EditorConfig file](add-an-editorconfig-file-to-a-project).
+
+- Use [IntelliCode for Visual Studio](/visualstudio/ide/intellicode-visual-studio) to generate an `.editorconfig` file in your solution. Right-click in Solution Explorer and choosing **Add** > **New EditorConfig (IntelliCode)** from the context menu. IntelliCode for Visual Studio infers your code styles from existing code, and then creates an EditorConfig file with your code-style preferences predefined.
+
+### Generate an EditorConfig from code-style settings
+
+::: moniker range=">=vs-2022"
+
+You can manually populate your EditorConfig file, or you can automatically generate the file based on the code style settings you've chosen in the Visual Studio **Options** dialog box. This options page is available at **Tools** > **Options** > **Text Editor** > [**C#** or  **Visual Basic**] > **Code Style** > **General**. Click **Generate .editorconfig file from settings** to automatically generate a coding style *.editorconfig* file based on the settings on this **Options** page.
+
+![Screenshot of Generate editorconfig file from settings.](media/vs-2022/generate-editorconfig-file-small.png)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+You can manually populate your EditorConfig file, or you can automatically generate the file based on the code style settings you've chosen in the Visual Studio **Options** dialog box. This options page is available at **Tools** > **Options** > **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**. Click **Generate .editorconfig file from settings** to automatically generate a coding style *.editorconfig* file based on the settings on this **Options** page.
+
+![Screenshot of Generate editorconfig file from settings.](media/vs-2019/generate-editorconfig-file-small.png)
+
+::: moniker-end
+
 ### Add an EditorConfig file to a project
 
 To add an EditorConfig file to your project or solution, follow these steps:
@@ -94,14 +122,6 @@ To add an EditorConfig file to your project or solution, follow these steps:
    ::: moniker-end
 
 1. Optionally edit the file, and then save it.
-
-### Other ways to add an EditorConfig file
-
-There are a couple of other ways you can add an EditorConfig file to your project:
-
-- Use [IntelliCode for Visual Studio](/visualstudio/ide/intellicode-visual-studio) to generate an `.editorconfig` file in your solution. Right-click in Solution Explorer and choosing **Add** > **New EditorConfig (IntelliCode)** from the context menu. IntelliCode for Visual Studio infers your code styles from existing code, and then creates an EditorConfig file with your code-style preferences predefined.
-
-- [Automatically generate an EditorConfig file based on your code-style settings](code-styles-and-code-cleanup.md#code-styles-in-editorconfig-files).
 
 ## File hierarchy and precedence
 
