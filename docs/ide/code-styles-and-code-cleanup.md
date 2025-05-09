@@ -30,14 +30,6 @@ You can define code style settings per-project by using an [EditorConfig file](#
 
 [Code style settings](/dotnet/fundamentals/code-analysis/code-style-rule-options) for .NET can be specified by adding an [EditorConfig](create-portable-custom-editor-options.md) file to your project. EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in an EditorConfig file take precedence over code styles that are specified in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project.
 
-::: moniker range="vs-2019"
-
-You can manually populate your EditorConfig file, or you can automatically generate the file based on the code style settings you've chosen in the Visual Studio **Options** dialog box. This options page is available at **Tools** > **Options** > **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**. Click **Generate .editorconfig file from settings** to automatically generate a coding style *.editorconfig* file based on the settings on this **Options** page.
-
-![Screenshot of Generate editorconfig file from settings.](media/vs-2019/generate-editorconfig-file-small.png)
-
-::: moniker-end
-
 ::: moniker range=">=vs-2022"
 
 You can manually populate your EditorConfig file, or you can automatically generate the file based on the code style settings you've chosen in the Visual Studio **Options** dialog box. This options page is available at **Tools** > **Options** > **Text Editor** > [**C#** or  **Visual Basic**] > **Code Style** > **General**. Click **Generate .editorconfig file from settings** to automatically generate a coding style *.editorconfig* file based on the settings on this **Options** page.
@@ -46,7 +38,15 @@ You can manually populate your EditorConfig file, or you can automatically gener
 
 ::: moniker-end
 
-## Code styles in the Options dialog box
+::: moniker range="vs-2019"
+
+You can manually populate your EditorConfig file, or you can automatically generate the file based on the code style settings you've chosen in the Visual Studio **Options** dialog box. This options page is available at **Tools** > **Options** > **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**. Click **Generate .editorconfig file from settings** to automatically generate a coding style *.editorconfig* file based on the settings on this **Options** page.
+
+![Screenshot of Generate editorconfig file from settings.](media/vs-2019/generate-editorconfig-file-small.png)
+
+::: moniker-end
+
+## .NET Code styles in the Options dialog box
 
 ::: moniker range="vs-2022"
 
@@ -80,9 +80,9 @@ Options set in this window are applicable to your Visual Studio personalization 
 
 For each code style setting on this page, you can set the **Preference** and **Severity** values using the drop-downs on each line. Severity can be set to **Refactoring Only**, **Suggestion**, **Warning**, or **Error**.
 
-- All severity settings enable [Quick Actions](../ide/quick-actions.md) for a code style, use. The **Quick Actions** light bulb :::image type="icon" source="media/light-bulb-dropdown.png":::, error light bulb :::image type="icon" source="media/error-bulb.png":::, or screwdriver :::image type="icon" source="media/screwdriver.png"::: icon appears when a non-preferred style is used, and you can choose an option on the **Quick Actions** list to automatically rewrite code to the preferred style.
-- If you want the violation to appear only as a Quick Action, set the **Severity** to **Refactoring Only**.
-- If you want the violation to appear in the Error List window as well as Quick Actions, set the **Severity** to **Suggestion**, **Warning**, or **Error**. Violations appear as a suggestion (message), warning, or error when you set the output in the Error List window to **Build + IntelliSense**. They are excluded from **Build** output.
+- All severity values enable [Quick Actions](../ide/quick-actions.md) for a code style. The **Quick Actions** light bulb :::image type="icon" source="media/light-bulb-dropdown.png":::, error light bulb :::image type="icon" source="media/error-bulb.png":::, or screwdriver :::image type="icon" source="media/screwdriver.png"::: icon appears when a non-preferred style is used, and you can choose an option on the **Quick Actions** list to automatically rewrite code to the preferred style.
+- If you want the violation to appear only as a Quick Action and also be excluded from code cleanup, set the **Severity** to **Refactoring Only**.
+- If you want the violation to appear in the Error List window as well as Quick Actions, and be included in code cleanup, set the **Severity** to **Suggestion**, **Warning**, or **Error**. Violations appear as a suggestion (message), warning, or error when you set the output in the Error List window to **Build + IntelliSense**. They are excluded from **Build** only output.
 
 ## Enforce code styles on build
 
@@ -95,7 +95,7 @@ Starting in Visual Studio 2019 version 16.8, which includes the .NET 5.0 RC2 SDK
 For C# code files, Visual Studio has a **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**) to apply code styles from an EditorConfig file or from the **Code Style** options page. If an *.editorconfig* file exists for the project, those are the settings that take precedence.
 
 > [!TIP]
-> Rules configured with a severity of **None** don't participate in code cleanup but can be individually applied via the **Quick Actions and Refactorings** menu.
+> Rules configured with a severity of **Refactoring Only** don't participate in code cleanup but can be individually applied via the **Quick Actions and Refactorings** menu.
 
 To apply code styles:
 
