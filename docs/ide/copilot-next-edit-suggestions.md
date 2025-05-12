@@ -10,7 +10,7 @@ ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
 ---
-# Use Copilot Next Edit Suggestions in Visual Studio
+# Copilot Next Edit Suggestions
 
 Next edit suggestions use recent edits you make to anticipate the next edit you might want to make, and the location of that edit. With this new ability, GitHub Copilot suggests revisions to your code, comments, tests, and more.
 
@@ -23,7 +23,7 @@ To get started, you need:
 + [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
   <sup>**</sup> You can use [GitHub Copilot for Free](copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
 
-## Get started
+## Get started with NES
 
 To get started with Copilot NES, enable the feature in **Tools > Options > GitHub > Copilot > Copilot Completions > Enable Next Edit Suggestions**.
 
