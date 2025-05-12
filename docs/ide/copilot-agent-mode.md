@@ -58,9 +58,9 @@ Follow these steps to get started:
 
 8. If you want to review individual code changes made by the agent, you can either review the specific change made at each step, or review the cumulative changes from the last time changes were kept or undone.
 
-    :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-stepwise-diff.png" alt-text="Screenshot that shows accessing individual edit diffs with Copilot agent." lightbox="media/vs-2022/copilot-agent/copilot-agent-stepwise-diff.png":::
+    :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-stepwise-edits.png" alt-text="Screenshot that shows accessing individual edit diffs with Copilot agent." lightbox="media/vs-2022/copilot-agent/copilot-agent-stepwise-edits.png":::
 
-    :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-cumulative-diff.png" alt-text="Screenshot that shows accessing cumulative edit diffs with Copilot agent." lightbox="media/vs-2022/copilot-agent/copilot-agent-cumulative-diff.png":::
+    :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-cumulative-edits.png" alt-text="Screenshot that shows accessing cumulative edit diffs with Copilot agent." lightbox="media/vs-2022/copilot-agent/copilot-agent-cumulative-edits.png":::
 
 9. Continue to iterate on the code changes to refine the edits or implement additional features.
 
@@ -95,7 +95,7 @@ You can reset tool confirmation selections in **Tools** > **Options** > **GitHub
 
 ## Accept or discard edits
 
-:::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-keep-undo.png" alt-text="Screenshot that shows tool confirmation options." lightbox="media/vs-2022/copilot-agent/copilot-agent-keep-undo.png":::
+:::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-keep-undo.png" alt-text="Screenshot that shows Total Changes dialog." lightbox="media/vs-2022/copilot-agent/copilot-agent-keep-undo.png":::
 
 Copilot lists the files that were edited in the list of **Total Changes files** in the Chat view.
 
