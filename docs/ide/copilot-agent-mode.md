@@ -16,8 +16,8 @@ With GitHub Copilot's agent mode in Visual Studio, you can use natural language 
 
 The key difference from Copilot Chat is that agent mode can:
 
-1) Run commands and builds to interpret the environment or execute a task (for example, database migrations, dotnet restore, etc.).
-2) Iterate on errors, failed builds, or unit test results until it either requires additional input or considers the task complete.
+* Run commands and builds to interpret the environment or execute a task (for example, database migrations, dotnet restore, etc.).
+* Iterate on errors, failed builds, or unit test results until it either requires additional input or considers the task complete.
 
 ## Prerequisites
 

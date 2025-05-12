@@ -66,22 +66,22 @@ By standardizing this interaction, MCP eliminates the need for custom integratio
 ```
 
 3. Get a Personal Access Token for your [GitHub Account](https://github.com/settings/personal-access-tokens)
-4. Launch Visual Studio, open the GitHub Copilot window, then click the dropdown that says `Ask`, then select `Agent`.
+4. In Visual Studio, click the `Ask` dropdown in the GitHub Copilot Chat window, and then select `Agent`.
 
-  ![Copilot Agent Mode Selector](media/vs-2022/copilot-agent/copilot-agent-dropdown.png)
+    :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-dropdown.png" alt-text="Screenshot that shows Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent/copilot-agent-dropdown.png":::
 
-5. When prompted, paste your personal access token into the dialogue.
+5. When prompted, paste your personal access token into the dialog.
 
-  ![Personal Access Token Dialog](media/vs-2022/copilot-agent-mcp/model-context-protocol-personal-access-token.png)
+    :::image type="content" source="media/vs-2022/copilot-agent-mcp/model-context-protocol-personal-access-token.png" alt-text="Screenshot that shows entering the personal access token." lightbox="media/vs-2022/copilot-agent-mcp/model-context-protocol-personal-access-token.png":::
 
 6. Select the tools you'd like to use, for example, `list_issues`
 
-  ![MCP GitHub Tools](media/vs-2022/copilot-agent-mcp/model-context-protocol-github-tools.png)
+    :::image type="content" source="media/vs-2022/copilot-agent-mcp/model-context-protocol-github-tools.png" alt-text="Screenshot that shows MCP GitHub tools." lightbox="media/vs-2022/copilot-agent-mcp/model-context-protocol-github-tools.png":::
 
 7. Try a sample prompt: `list issues assigned to me on GitHub`
 8. Copilot asks for permission to use a tool made available to it by the MCP server, select **Allow** with the scope you wish to proceed with.
 
-  ![Copilot Agent Tool Approval](media/vs-2022/copilot-agent/copilot-agent-tool-approval.png)
+    :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-tool-approval.png" alt-text="Screenshot that shows the agent tools confirmation options." lightbox="media/vs-2022/copilot-agent/copilot-agent-tool-approval.png":::
 
 ## Supported MCP capabilities
 
@@ -131,35 +131,32 @@ With an existing `mcp.json` file, add the file location to **Solution Items** in
 
 When the file is saved with valid syntax, GitHub Copilot's agent restarts and reloads the configured servers.
 
-![MCP Add Solution Item](media/vs-2022/copilot-agent-mcp/model-context-protocol-add-solution-item.png)
+:::image type="content" source="media/vs-2022/copilot-agent-mcp/model-context-protocol-add-solution-item.png" alt-text="Screenshot that shows adding the MCP configuration file location to Solution Items." lightbox="media/vs-2022/copilot-agent-mcp/model-context-protocol-add-solution-item.png":::
 
 ### Tool Lifecycle
 
-As soon as a server is discovered or added, Visual Studio initializes it (handshake + tool list).
+As soon as a MCP server is discovered or added:
 
-Visual Studio subscribes to the MCP event `notifications/tools/list_changed`.
-
-When that event fires, Visual Studio resets any prior acceptances/permissions on tools (to prevent *rug-pull* attacks), re-fetches the tool list, and updates the count/UI live.
-
-When the server is successfully enabled, tools are made available to the Agent. The tools are disabled by default and must be manually enabled.
-
-If a server is removed, Visual Studio immediately kills its process and withdraws all its tools from the UI.
-
-If you edit a server definition, Visual Studio terminates and relaunches it, then re-query.
+1. Visual Studio initializes the server (performs a handshake and queries the tool list).
+1. Visual Studio subscribes to the MCP event `notifications/tools/list_changed`.
+1. When that event fires, Visual Studio resets any prior acceptances or permissions on tools (to prevent *rug-pull* attacks), re-fetches the tool list, and updates the count/UI live.
+1. When the server is successfully enabled, tools are made available to the Agent. The tools are disabled by default and must be manually enabled.
+1. If a server is removed, Visual Studio immediately kills its process and withdraws all its tools from the UI.
+1. If you edit a server definition, Visual Studio terminates and relaunches it, and then re-queries.
 
 ### Manage tool approvals
 
 When a tool is invoked, Copilot requests confirmation to run the tool. This is because tools might run locally on your machine and perform actions that modify files or data.
 
-![Agent Tool Approval](media/vs-2022/copilot-agent/copilot-agent-tool-approval.png)
+:::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-tool-approval.png" alt-text="Screenshot that shows managing agent tool approvals." lightbox="media/vs-2022/copilot-agent/copilot-agent-tool-approval.png":::
 
-In the Chat view, after a tool invocation, use the Allow button dropdown options to automatically confirm the specific tool for the current session, solution, or all future invocations.
+In the Chat pane, after a tool invocation, use the **Allow** dropdown options to automatically confirm the specific tool for the current session, solution, or all future invocations.
 
-You can reset tool confirmation selections in Tools > Options > GitHub > Copilot > Tools.
+You can reset tool confirmation selections in **Tools** > **Options** > **GitHub** > **Copilot** > **Tools**.
 
-![Agent Tool Configuration Options](media/vs-2022/copilot-agent/copilot-agent-tool-config.png)
+:::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-tool-config.png" alt-text="Screenshot that shows the tools configuration setting." lightbox="media/vs-2022/copilot-agent/copilot-agent-tool-config.png":::
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 #### As an administrator, how do I control use of MCP servers in agent mode for Visual Studio users?
 
