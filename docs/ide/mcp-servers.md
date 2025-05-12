@@ -68,20 +68,20 @@ By standardizing this interaction, MCP eliminates the need for custom integratio
 3. Get a Personal Access Token for your [GitHub Account](https://github.com/settings/personal-access-tokens)
 4. Launch Visual Studio, open the GitHub Copilot window, then click the dropdown that says `Ask`, then select `Agent`.
 
-  ![Copilot Agent Mode Selector](/media/vs-2022/copilot-agent/copilot-agent-dropdown.png)
+  ![Copilot Agent Mode Selector](media/vs-2022/copilot-agent/copilot-agent-dropdown.png)
 
 5. When prompted, paste your personal access token into the dialogue.
 
-  ![Personal Access Token Dialog](/media/vs-2022/copilot-agent-mcp/mcp-personal-access-token.png)
+  ![Personal Access Token Dialog](media/vs-2022/copilot-agent-mcp/mcp-personal-access-token.png)
 
 6. Select the tools you'd like to use, for example, `list_issues`
 
-  ![MCP GitHub Tools](/media/vs-2022/copilot-agent-mcp/mcp-github-tools.png)
+  ![MCP GitHub Tools](media/vs-2022/copilot-agent-mcp/mcp-github-tools.png)
 
 7. Try a sample prompt: `list issues assigned to me on GitHub`
 8. Copilot will ask for permission to use a tool made available to it by the MCP server, select **Allow** with the scope you wish to proceed with.
 
-  ![Copilot Agent Tool Approval](/media/vs-2022/copilot-agent/copilot-agent-tool-approval.png)
+  ![Copilot Agent Tool Approval](media/vs-2022/copilot-agent/copilot-agent-tool-approval.png)
 
 # Additional details
 
@@ -133,7 +133,7 @@ With an existing `mcp.json` file, add the file location to the Solution Items in
 
 When the file is saved with valid syntax, GitHub Copilot's agent will restart and reload the configured servers.
 
-![MCP Add Solution Item](/media/vs-2022/copilot-agent-mcp/mcp-add-solution-item.png)
+![MCP Add Solution Item](media/vs-2022/copilot-agent-mcp/mcp-add-solution-item.png)
 
 ### Tool Lifecycle
 
@@ -153,13 +153,13 @@ If you edit a server definition, Visual Studio will terminate and relaunch it, t
 
 When a tool is invoked, Copilot requests confirmation to run the tool. This is because tools might run locally on your machine and perform actions that modify files or data.
 
-![Agent Tool Approval](/media/vs-2022/copilot-agent/copilot-agent-tool-approval.png)
+![Agent Tool Approval](media/vs-2022/copilot-agent/copilot-agent-tool-approval.png)
 
 In the Chat view, after a tool invocation, use the Allow button dropdown options to automatically confirm the specific tool for the current session, solution, or all future invocations.
 
 You can reset tool confirmation selections in Tools > Options > GitHub > Copilot > Tools.
 
-![Agent Tool Configuration Options](/media/vs-2022/copilot-agent/copilot-agent-tool-config.png)
+![Agent Tool Configuration Options](media/vs-2022/copilot-agent/copilot-agent-tool-config.png)
 
 ## Frequently Asked Questions
 

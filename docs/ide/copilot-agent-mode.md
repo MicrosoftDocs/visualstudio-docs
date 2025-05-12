@@ -34,39 +34,39 @@ Follow these steps to get started:
 
 1. Make sure agent mode is enabled by selecting **Enable agent mode in the chat pane** in **Tools** > **Options** > **GitHub** > **Copilot**.
    
-    :::image type="content" source="/media/vs-2022/copilot-agent/copilot-agent-setting-updated.png" alt-text="Screenshot that shows Copilot Agent Settings." lightbox="/media/vs-2022/copilot-agent/copilot-agent-setting-updated.png":::
+    :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-setting-updated.png" alt-text="Screenshot that shows Copilot Agent Settings." lightbox="media/vs-2022/copilot-agent/copilot-agent-setting-updated.png":::
 
 2. Open the GitHub Copilot window, select **Ask** to expand the mode dropdown, and then select **Agent**.
 
-    :::image type="content" source="/media/vs-2022/copilot-agent/copilot-agent-dropdown.png" alt-text="Screenshot that shows Copilot agent mode selector." lightbox="/media/vs-2022/copilot-agent/copilot-agent-dropdown.png":::
+    :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-dropdown.png" alt-text="Screenshot that shows Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent/copilot-agent-dropdown.png":::
 
 3. Enter your prompt for making edits in the chat input field and select **Send** or press *Enter* to submit it. You can specify a high-level requirement, and you don't have to specify which files to work on. In agent mode, Copilot determines the relevant context and the files to edit autonomously.
 
 4. Agent mode might invoke multiple tools to accomplish different tasks. Optionally, select the **Tools** icon to configure which additional tools can be used for responding to your request.
 
-    :::image type="content" source="/media/vs-2022/copilot-agent/copilot-agent-tools.png" alt-text="Screenshot that shows additional tools used by agent mode." lightbox="/media/vs-2022/copilot-agent/copilot-agent-tools.png":::
+    :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-tools.png" alt-text="Screenshot that shows additional tools used by agent mode." lightbox="media/vs-2022/copilot-agent/copilot-agent-tools.png":::
 
 5. Confirm tool invocations and terminal commands. Before running a terminal command or a non-builtin tool, Copilot requests confirmation to continue. This is because tools might run locally on your machine and perform actions that modify files or data.
 
-    :::image type="content" source="/media/vs-2022/copilot-agent/copilot-agent-command-approval.png" alt-text="Screenshot that shows agent command approval." lightbox="/media/vs-2022/copilot-agent/copilot-agent-command-approval.png":::
+    :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-command-approval.png" alt-text="Screenshot that shows agent command approval." lightbox="media/vs-2022/copilot-agent/copilot-agent-command-approval.png":::
 
 6. Copilot detects issues and problems in code edits and terminal commands and will iterate and perform additional actions to resolve them. For example, agent mode might run unit tests as a result of a code edit. If the tests fail, it uses the test outcome to resolve the issue. Copilot agent mode iterates multiple times to resolve issues and problems.
 
 7. As Copilot processes your request, notice that Copilot streams the suggested code edits directly in the editor. Review the suggested edits and either keep or discard the suggested edits as a whole in the Total Changes section, or individually by clicking on a file and reviewing the code diffs presented in the editor.
 
-    :::image type="content" source="/media/vs-2022/copilot-agent/copilot-agent-keep-undo.png" alt-text="Screenshot that shows Copilot agent list of changes." lightbox="/media/vs-2022/copilot-agent/copilot-agent-keep-undo.png":::
+    :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-keep-undo.png" alt-text="Screenshot that shows Copilot agent list of changes." lightbox="media/vs-2022/copilot-agent/copilot-agent-keep-undo.png":::
 
 8. If you want to review individual code changes made by the agent, you can either review the specific change made at each step, or review the cumulative changes from the last time changes were kept or undone.
 
-    :::image type="content" source="/media/vs-2022/copilot-agent/copilot-agent-stepwise-diff.png" alt-text="Screenshot that shows accessing individual edit diffs with Copilot agent." lightbox="/media/vs-2022/copilot-agent/copilot-agent-stepwise-diff.png":::
+    :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-stepwise-diff.png" alt-text="Screenshot that shows accessing individual edit diffs with Copilot agent." lightbox="media/vs-2022/copilot-agent/copilot-agent-stepwise-diff.png":::
 
-    :::image type="content" source="/media/vs-2022/copilot-agent/copilot-agent-cumulative-diff.png" alt-text="Screenshot that shows accessing cumulative edit diffs with Copilot agent." lightbox="/media/vs-2022/copilot-agent/copilot-agent-cumulative-diff.png":::
+    :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-cumulative-diff.png" alt-text="Screenshot that shows accessing cumulative edit diffs with Copilot agent." lightbox="media/vs-2022/copilot-agent/copilot-agent-cumulative-diff.png":::
 
 9. Continue to iterate on the code changes to refine the edits or implement additional features.
 
 ## Agent mode tools
 
-:::image type="content" source="/media/vs-2022/copilot-agent-mcp/copilot-agent-partial-tools.png" alt-text="Screenshot that shows Copilot agent tool selector." lightbox="/media/vs-2022/copilot-agent-mcp/copilot-agent-partial-tools.png":::
+:::image type="content" source="media/vs-2022/copilot-agent-mcp/copilot-agent-partial-tools.png" alt-text="Screenshot that shows Copilot agent tool selector." lightbox="media/vs-2022/copilot-agent-mcp/copilot-agent-partial-tools.png":::
 
 Agent mode can use the following tools:
 
@@ -81,7 +81,7 @@ Additional tools added by running MCP servers are not automatically enabled, the
 
 ## Manage tool approvals
 
-:::image type="content" source="/media/vs-2022/copilot-agent/copilot-agent-command-approval.png" alt-text="Screenshot that shows tool confirmation request." lightbox="/media/vs-2022/copilot-agent/copilot-agent-command-approval.png":::
+:::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-command-approval.png" alt-text="Screenshot that shows tool confirmation request." lightbox="media/vs-2022/copilot-agent/copilot-agent-command-approval.png":::
 
 When a tool is invoked, Copilot requests confirmation to run the tool. This is because tools might run locally on your machine and perform actions that modify files or data.
 
@@ -89,13 +89,13 @@ In the Chat view, after a tool invocation, use the **Allow** button dropdown opt
 
 You can reset tool confirmation selections in **Tools** > **Options** > **GitHub** > **Copilot** > **Tools**.
 
-:::image type="content" source="/media/vs-2022/copilot-agent/copilot-agent-tool-config.png" alt-text="Screenshot that shows tool confirmation options." lightbox="/media/vs-2022/copilot-agent/copilot-agent-tool-config.png":::
+:::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-tool-config.png" alt-text="Screenshot that shows tool confirmation options." lightbox="media/vs-2022/copilot-agent/copilot-agent-tool-config.png":::
 
 <!-- TODO: Define what "Reset solution setting does -->
 
 ## Accept or discard edits
 
-:::image type="content" source="/media/vs-2022/copilot-agent/copilot-agent-keep-undo.png" alt-text="Screenshot that shows tool confirmation options." lightbox="/media/vs-2022/copilot-agent/copilot-agent-keep-undo.png":::
+:::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-keep-undo.png" alt-text="Screenshot that shows tool confirmation options." lightbox="media/vs-2022/copilot-agent/copilot-agent-keep-undo.png":::
 
 Copilot lists the files that were edited in the list of **Total Changes files** in the Chat view.
 
@@ -105,7 +105,7 @@ Alternatively, in the **Total Changes** dialog, select **Keep** or **Undo** for 
 
 ## Revert edits
 
-:::image type="content" source="/media/vs-2022/copilot-agent/copilot-agent-checkpoint.png" alt-text="Screenshot that shows reverting edits" lightbox="/media/vs-2022/copilot-agent/copilot-agent-checkpoint.png":::
+:::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-checkpoint.png" alt-text="Screenshot that shows reverting edits" lightbox="media/vs-2022/copilot-agent/copilot-agent-checkpoint.png":::
 
 As you're sending requests to make edits to your code, you might want to roll back some of these changes, for example, when you want to use another implementation strategy or if Copilot starts walking down the wrong path when generating edits.
 
