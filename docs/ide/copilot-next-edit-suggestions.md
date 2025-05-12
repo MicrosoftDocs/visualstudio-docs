@@ -61,7 +61,7 @@ NES suggests changes to the rest of your code that match a change in intent. For
 
 ### Update code syntax
 
-NES helps with repetitive changes like updating code synx to modern [C++ using Standard library (STL) reference](/cpp/standard-library/cpp-standard-library-reference.md). For example, when updating all `printf()` to `std::cout`, also update other syntax such as `fgets()`.
+NES helps with repetitive changes like updating code synx to modern C++ using Standard library (STL) reference. For example, when updating all `printf()` to `std::cout`, also update other syntax such as `fgets()`.
 
 :::image type="content" source="media/vs-2022/next-edit-suggestions/update-code-syntax.gif" alt-text="Animated screenshot that shows NES suggesting code syntax updates" lightbox="media/vs-2022/next-edit-suggestions/update-code-syntax.gif":::
 
