@@ -121,7 +121,7 @@ Some of these locations require `.mcp.json` while others require `mcp.json`.
 
 You may define both **remote** (URL and credentials) and **local** (command-line invocation) servers.
 
-It’s common to invoke tools via package managers. For example, `pip install … && mcp-server or npx @cursor/mcp`. Visual Studio respects whatever command you specify, allowing you to pin versions or pass flags as needed.
+It’s common to invoke tools via package managers. For example, `npx -y @azure/mcp@latest` or `docker run ... mcp/github`. Visual Studio respects whatever command you specify, allowing you to pin versions or pass flags as needed.
 
 Format must follow the MCP specification, for example, an array of server objects, each with `name`, `command` or `url`, `transport`, etc.
 
