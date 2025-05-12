@@ -83,8 +83,6 @@ By standardizing this interaction, MCP eliminates the need for custom integratio
 
   ![Copilot Agent Tool Approval](media/vs-2022/copilot-agent/copilot-agent-tool-approval.png)
 
-# Additional details
-
 ## Supported MCP capabilities
 
 Visual Studio supports local standard input/output (`stdio`), server-sent events (`sse`), and streamable HTTP (`http`) for MCP server transport. Currently of the three [primitives](https://modelcontextprotocol.io/specification/2025-03-26#features) (tools, prompts, resources), servers can only provide tools to Copilot's agent mode. The list and descriptions of tools can be updated dynamically using list changed events. Visual Studio provides servers with the current solution folders using `roots` [(spec)](https://modelcontextprotocol.io/docs/concepts/roots).
@@ -163,10 +161,10 @@ You can reset tool confirmation selections in Tools > Options > GitHub > Copilot
 
 ## Frequently Asked Questions
 
-### As an administrator, how do I control use of MCP servers in Agent mode for Visual Studio users?
+### As an administrator, how do I control use of MCP servers in agent mode for Visual Studio users?
 
-Agent mode and MCP usage in Visual Studio 2022 is governed by the **Editor preview features** flag in the GitHub Copilot dashboard for administrator.
-If this setting is disabled by the GitHub Copilot subscription administrator, Copilot users under the subscription will not have access to agent mode nor MCP servers in Visual Studio.
+Agent mode and MCP usage in Visual Studio 2022 are controlled by the **Editor preview features** flag in the GitHub Copilot dashboard for administrators.
+If this setting is disabled by the subscription administrator, users under the GitHub Copilot subscription won't have access to agent mode or MCP servers in Visual Studio.
 
 ## Related content
 
