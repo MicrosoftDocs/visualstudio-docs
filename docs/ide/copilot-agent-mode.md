@@ -2,7 +2,7 @@
 title: 'Use agent mode (Preview)'
 description: Use GitHub Copilot Agent to iterate on code in Visual Studio by making code edits, running commands, and reading error/build context.
 ms.date: 5/13/2025
-ms.topic: overview
+ms.topic: get-started
 author: anandmeg
 ms.author: meghaanand
 ms.manager: mijacobs
@@ -10,7 +10,7 @@ ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
 ---
-# What is GitHub Copilot Agent?
+# Use Copilot agent mode in Visual Studio (Preview)
 
 With GitHub Copilot's agent mode in Visual Studio, you can use natural language to specify a high-level task. AI will then autonomously reason through the request, plan the work needed, and apply the changes to your codebase. Agent mode combines code editing and tool invocation to accomplish the task you specified. As it processes your request, it monitors the outcome of edits and tools, and iterates to resolve any issues that arise.
 
