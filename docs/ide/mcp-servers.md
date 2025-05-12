@@ -79,7 +79,7 @@ By standardizing this interaction, MCP eliminates the need for custom integratio
   ![MCP GitHub Tools](media/vs-2022/copilot-agent-mcp/model-context-protocol-github-tools.png)
 
 7. Try a sample prompt: `list issues assigned to me on GitHub`
-8. Copilot will ask for permission to use a tool made available to it by the MCP server, select **Allow** with the scope you wish to proceed with.
+8. Copilot asks for permission to use a tool made available to it by the MCP server, select **Allow** with the scope you wish to proceed with.
 
   ![Copilot Agent Tool Approval](media/vs-2022/copilot-agent/copilot-agent-tool-approval.png)
 
@@ -106,30 +106,30 @@ Visual Studio looks for MCP server configurations in the following directories, 
 1.  `%USERPROFILE%\.mcp.json` serves as a global MCP server configuration for a specific user. Adding an MCP server here would make it load for all Visual Studio solutions. 
 2.  `<SOLUTIONDIR>\.vs\mcp.json` is specific to Visual Studio and only loads the specified MCP servers for a specific user, for the specified solution.
 
-If you are looking for an MCP configuration that you can track in source control for a repo, this option would work well:
+If you're looking for an MCP configuration that you can track in source control for a repo, this option would work well:
 
 3.  `<SOLUTIONDIR>\.mcp.json`
 
-Visual Studio will also check for MCP configurations set up by other development environments. These are scoped to the repository/solution and are typically not source controlled.
+Visual Studio also checks for MCP configurations set up by other development environments. These are scoped to the repository/solution and are typically not source controlled.
 
 4.  `<SOLUTIONDIR>\.vscode\mcp.json`
 5.  `<SOLUTIONDIR>\.cursor\mcp.json`
 
-Note that some of these locations require `.mcp.json` while others require `mcp.json`.
+Some of these locations require `.mcp.json` while others require `mcp.json`.
 
 ### MCP configuration format
 
 You may define both **remote** (URL + credentials) and **local** (command-line invocation).
 
-It’s common to invoke tools via package managers (e.g. `pip install … && mcp-server or npx @cursor/mcp`) - Visual Studio will respect whatever command you specify so you can pin versions or flags.
+It’s common to invoke tools via package managers (for example, `pip install … && mcp-server or npx @cursor/mcp`) - Visual Studio respects whatever command you specify so you can pin versions or flags.
 
 Format must follow the MCP spec (e.g. array of server objects, each with `name`, `command` or `url`, `transport`, etc.).
 
 ### Editing MCP configuration
 
-With an existing `mcp.json` file, add the file location to the Solution Items in Solution Explorer, if you'll be checking the file into your version control system.
+With an existing `mcp.json` file, add the file location to **Solution Items** in Solution Explorer, if you're checking the file into your version control system.
 
-When the file is saved with valid syntax, GitHub Copilot's agent will restart and reload the configured servers.
+When the file is saved with valid syntax, GitHub Copilot's agent restarts and reloads the configured servers.
 
 ![MCP Add Solution Item](media/vs-2022/copilot-agent-mcp/model-context-protocol-add-solution-item.png)
 
@@ -145,7 +145,7 @@ When the server is successfully enabled, tools are made available to the Agent. 
 
 If a server is removed, Visual Studio immediately kills its process and withdraws all its tools from the UI.
 
-If you edit a server definition, Visual Studio will terminate and relaunch it, then re-query.
+If you edit a server definition, Visual Studio terminates and relaunches it, then re-query.
 
 ### Manage tool approvals
 
@@ -163,8 +163,8 @@ You can reset tool confirmation selections in Tools > Options > GitHub > Copilot
 
 ### As an administrator, how do I control use of MCP servers in agent mode for Visual Studio users?
 
-Agent mode and MCP usage in Visual Studio 2022 are controlled by the **Editor preview features** flag in the GitHub Copilot dashboard for administrators.
-If this setting is disabled by the subscription administrator, users under the GitHub Copilot subscription won't have access to agent mode or MCP servers in Visual Studio.
+The **Editor preview features flag** in the GitHub Copilot dashboard lets administrators control access to agent mode and MCP usage in Visual Studio.
+If the subscription administrator turns off this setting, users under that subscription won’t be able to use agent mode or connect to MCP servers in Visual Studio.
 
 ## Related content
 
