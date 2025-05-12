@@ -27,7 +27,7 @@ The key difference from Copilot Chat is that agent mode can:
 
 ## Get started with agent mode 
 
-To get started with Copilot agent mode in Visual Studio, enable the feature in **Tools** > **Options** > **GitHub** > **Copilot** > **Enable agent mode in the chat pane**.
+To get started with Copilot agent mode in Visual Studio, enable the feature in **Tools** > **Options** > **GitHub** > **Coplit** > **Copilot Chat** > **Enable agent mode in the chat pane**.
 
 ## Use agent mode
 
@@ -35,9 +35,9 @@ In agent mode, Copilot operates autonomously and determines the relevant context
 
 Follow these steps to get started:
 
-1. Enable agent mode by selecting **Enable agent mode in the chat pane** in **Tools** > **Options** > **GitHub** > **Copilot**.
+1. Ensure agent mode is enabled by selecting **Enable agent mode in the chat pane** in **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Chat**.
    
-    <!-- :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-setting-updated.png" alt-text="Screenshot that shows Copilot Agent Settings." lightbox="media/vs-2022/copilot-agent/copilot-agent-setting-updated.png"::: -->
+    :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-setting-updated.png" alt-text="Screenshot that shows the enable agent mode setting in Options." lightbox="media/vs-2022/copilot-agent/copilot-agent-setting-updated.png":::
 
 2. Open the Copilot Chat window, select **Ask** to expand the mode dropdown, and then select **Agent**.
 
@@ -127,7 +127,7 @@ To stop a build, select **Build** in the top toolbar, and then select **Cancel**
 
 Take the following troubleshooting steps in the order specified:
 - Make sure you're using Visual Studio 17.14 or later: check the version at **Help** > **About Visual Studio**. If you're not using version 17.14 or later, launch the Visual Studio Installer and update your build.
-- Make sure you've selected the **Enable agent mode in the chat pane** setting in **Tools** > **Options** > **GitHub** > **Copilot**.
+- Make sure you've selected the **Enable agent mode in the chat pane** setting in **Tools** > **Options** > **GitHub** > **Copilot Chat**.
 - Try restarting Visual Studio.
 
 #### When should I use Ask mode vs. Agent mode?
@@ -139,11 +139,12 @@ Take the following troubleshooting steps in the order specified:
 #### What happened to Copilot Edits in Visual Studio?
 
 - We perceive agent mode to be an evolution of Edits, with greater ability to iterate on errors, use tools, and automatically apply code changes.
-- For the initial releases of Visual Studio 2022 version 17.14, Edits mode is still available if you uncheck the **Enable agent mode in the chat pane** setting in **Tools** > **Options** > **GitHub** > **Copilot**.
+- For the initial releases of Visual Studio 2022 version 17.14, Edits mode is still available if you uncheck the **Enable agent mode in the chat pane** setting in **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Chat**.
 
 #### As an administrator, how do I control use of agent mode for Visual Studio users?
 
 Agent mode in Visual Studio is governed by the **Editor preview features** flag in the GitHub Copilot dashboard for administrators.
+If the administrator turns off this setting, users under that subscription won’t be able to use agent mode in Visual Studio.
 
 For more information, see [managing policies and features for copilot in your enterprise](https://docs.github.com/en/enterprise-cloud@latest/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise#editor-preview-features).
 

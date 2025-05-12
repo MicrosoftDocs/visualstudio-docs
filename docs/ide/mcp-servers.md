@@ -16,7 +16,7 @@ Model Context Protocol (MCP) is an open standard that enables AI models to inter
 
 ## Prerequisites
 + [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) or later.
-    + Set **Enable agent mode in the chat pane** in **Tools** > **Options** > **GitHub** > **Copilot**.
+    + Set **Enable agent mode in the chat pane** in **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Chat**.
 + [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot). <br/>
     + You can use [GitHub Copilot for Free](copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
 
@@ -150,7 +150,7 @@ When a tool is invoked, Copilot requests confirmation to run the tool. This is b
 
 :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-tool-approval.png" alt-text="Screenshot that shows managing agent tool approvals." lightbox="media/vs-2022/copilot-agent/copilot-agent-tool-approval.png":::
 
-In the Chat pane, after a tool invocation, use the **Allow** dropdown options to automatically confirm the specific tool for the current session, solution, or all future invocations.
+In the chat pane, after a tool invocation, use the **Allow** dropdown options to automatically confirm the specific tool for the current session, solution, or all future invocations.
 
 You can reset tool confirmation selections in **Tools** > **Options** > **GitHub** > **Copilot** > **Tools**.
 
@@ -160,8 +160,10 @@ You can reset tool confirmation selections in **Tools** > **Options** > **GitHub
 
 #### As an administrator, how do I control use of MCP servers in agent mode for Visual Studio users?
 
-The **Editor preview features flag** in the GitHub Copilot dashboard lets administrators control access to agent mode and MCP usage in Visual Studio.
-If the subscription administrator turns off this setting, users under that subscription won’t be able to use agent mode or connect to MCP servers in Visual Studio.
+Agent mode and MCP usage in Visual Studio is governed by the **Editor preview features** flag in the GitHub Copilot dashboard for administrators.
+If the administrator turns off this setting, users under that subscription won’t be able to use agent mode or connect to MCP servers in Visual Studio.
+
+For more information, see [managing policies and features for copilot in your enterprise](https://docs.github.com/en/enterprise-cloud@latest/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise#editor-preview-features).
 
 ## Related content
 
