@@ -960,12 +960,10 @@
             href: ide/reference/options-text-editor-all-languages-scroll-bars.md
           - name: Tabs
             href: ide/reference/options-text-editor-all-languages-tabs.md
-        - name: Basic
+        - name: Visual Basic
           items:
           - name: Advanced
             href: ide/reference/options-text-editor-basic-visual-basic.md
-          - name: Code Style
-            href: ide/code-styles-and-code-cleanup.md
           - name: IntelliSense
             href: ide/visual-basic-specific-intellisense.md
         - name: C#
