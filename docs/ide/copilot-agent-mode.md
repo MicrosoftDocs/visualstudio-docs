@@ -21,26 +21,26 @@ The key difference from Copilot Chat is that agent mode can:
 
 ## Prerequisites
 
-+ [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) and later offer Copilot Agent.
++ [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) or later.
     + Set **Enable agent mode in the chat pane** in **Tools** > **Options** > **GitHub** > **Copilot**.
 + [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot). <br/>
     + You can use [GitHub Copilot for Free](copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
 
-## How to use Copilot Agent
+## Use agent mode
 
 In agent mode, Copilot operates autonomously and determines the relevant context for your prompt.
 
 Follow these steps to get started:
 
-1. Make sure agent mode is enabled by selecting **Enable agent mode in the chat pane** in **Tools** > **Options** > **GitHub** > **Copilot**.
+1. Enable agent mode by selecting **Enable agent mode in the chat pane** in **Tools** > **Options** > **GitHub** > **Copilot**.
    
-    :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-setting-updated.png" alt-text="Screenshot that shows Copilot Agent Settings." lightbox="media/vs-2022/copilot-agent/copilot-agent-setting-updated.png":::
+    <!-- :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-setting-updated.png" alt-text="Screenshot that shows Copilot Agent Settings." lightbox="media/vs-2022/copilot-agent/copilot-agent-setting-updated.png"::: -->
 
-2. Open the GitHub Copilot window, select **Ask** to expand the mode dropdown, and then select **Agent**.
+2. Open the Copilot Chat window, select **Ask** to expand the mode dropdown, and then select **Agent**.
 
     :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-dropdown.png" alt-text="Screenshot that shows Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent/copilot-agent-dropdown.png":::
 
-3. Enter your prompt for making edits in the chat input field and select **Send** or press *Enter* to submit it. You can specify a high-level requirement, and you don't have to specify which files to work on. In agent mode, Copilot determines the relevant context and the files to edit autonomously.
+3. Enter your prompt for making edits in the chat input field and select **Send** or press **Enter** to submit it. You can specify a high-level requirement, and you don't have to specify which files to work on. In agent mode, Copilot determines the relevant context and the files to edit autonomously.
 
 4. Agent mode might invoke multiple tools to accomplish different tasks. Optionally, select the **Tools** icon to configure which additional tools can be used for responding to your request.
 
@@ -52,9 +52,9 @@ Follow these steps to get started:
 
 6. Copilot detects issues and problems in code edits and terminal commands, and then iterates and performs additional actions to resolve them. For example, agent mode might run unit tests as a result of a code edit. If the tests fail, it uses the test outcome to resolve the issue. Copilot agent mode iterates multiple times to resolve issues and problems.
 
-7. As Copilot processes your request, notice that Copilot streams the suggested code edits directly in the editor. Review the suggested edits and either keep or discard the suggested edits as a whole in the Total Changes section, or individually by clicking on a file and reviewing the code diffs presented in the editor.
+7. As Copilot processes your request, notice that Copilot streams the suggested code edits directly in the editor. Review the suggested edits and either keep or discard the suggested edits as a whole in **Total Changes** in the chat window, or individually by clicking on a file and reviewing the code diffs presented in the editor.
 
-    :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-keep-undo.png" alt-text="Screenshot that shows Copilot agent list of changes." lightbox="media/vs-2022/copilot-agent/copilot-agent-keep-undo.png":::
+    :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-keep-undo.png" alt-text="Screenshot that shows the list of suggested edits." lightbox="media/vs-2022/copilot-agent/copilot-agent-keep-undo.png":::
 
 8. If you want to review individual code changes made by the agent, you can either review the specific change made at each step, or review the cumulative changes from the last time changes were kept or undone.
 
@@ -66,14 +66,14 @@ Follow these steps to get started:
 
 ## Agent mode tools
 
-:::image type="content" source="media/vs-2022/copilot-agent-mcp/copilot-agent-partial-tools.png" alt-text="Screenshot that shows Copilot agent tool selector." lightbox="media/vs-2022/copilot-agent-mcp/copilot-agent-partial-tools.png":::
-
 Agent mode can use the following tools:
 
 * Built-in tools
 * [MCP tools](mcp-servers.md)
 
-You can view and manage the tools that can be used for responding to a request. Select the **Tools** icon in the Chat view to view and manage the tools that are available in agent mode.
+You can view and manage the tools that can be used for responding to a request. Select the **Tools** icon in the chat window to view and manage the tools that are available in agent mode.
+
+:::image type="content" source="media/vs-2022/copilot-agent-mcp/copilot-agent-partial-tools.png" alt-text="Screenshot that shows Copilot agent tool selector." lightbox="media/vs-2022/copilot-agent-mcp/copilot-agent-partial-tools.png":::
 
 Based on the outcome of a tool, Copilot might invoke other tools to accomplish the overall request. For example, if a code edit results in syntax errors in the file, Copilot might explore another approach and suggest different code changes.
 
@@ -81,11 +81,11 @@ Additional tools added by running MCP servers are not automatically enabled, the
 
 ## Manage tool approvals
 
-:::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-command-approval.png" alt-text="Screenshot that shows tool confirmation request." lightbox="media/vs-2022/copilot-agent/copilot-agent-command-approval.png":::
-
 When a tool is invoked, Copilot requests confirmation to run the tool. This is because tools might run locally on your machine and perform actions that modify files or data.
 
-In the Chat view, after a tool invocation, use the **Allow** button dropdown options to automatically confirm the specific tool for the current session, solution, or all future invocations.
+:::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-command-approval.png" alt-text="Screenshot that shows tool confirmation request." lightbox="media/vs-2022/copilot-agent/copilot-agent-command-approval.png":::
+
+In the chat window, after a tool invocation, use the **Allow** dropdown options to automatically confirm the specific tool for the current session, solution, or all future invocations.
 
 You can reset tool confirmation selections in **Tools** > **Options** > **GitHub** > **Copilot** > **Tools**.
 
@@ -95,21 +95,19 @@ You can reset tool confirmation selections in **Tools** > **Options** > **GitHub
 
 ## Accept or discard edits
 
-:::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-keep-undo.png" alt-text="Screenshot that shows Total Changes dialog." lightbox="media/vs-2022/copilot-agent/copilot-agent-keep-undo.png":::
+Copilot lists the files that were edited in the list of **Total Changes** in the Chat window.
 
-Copilot lists the files that were edited in the list of **Total Changes files** in the Chat view.
+:::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-keep-undo.png" alt-text="Screenshot that shows the Total Changes list." lightbox="media/vs-2022/copilot-agent/copilot-agent-keep-undo.png":::
 
 Click on each file to review changes individually, where you can **Keep** or **Undo** edits made to each chunk of code.
 
-Alternatively, in the **Total Changes** dialog, select **Keep** or **Undo** for all edits made since the last time you clicked **Keep** or **Undo**.
+Alternatively, in the **Total Changes** list, select **Keep** or **Undo** for all edits made since the last time you clicked **Keep** or **Undo**.
 
 ## Revert edits
 
-:::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-checkpoint.png" alt-text="Screenshot that shows reverting edits" lightbox="media/vs-2022/copilot-agent/copilot-agent-checkpoint.png":::
+As you're sending requests to make edits to your code, you might want to roll back some of these changes, for example, when you want to use another implementation strategy or if Copilot starts walking down the wrong path when generating edits. To do so, select **Restore** next to the checkpoint prior to the prompt that included changes you didn't want.
 
-As you're sending requests to make edits to your code, you might want to roll back some of these changes, for example, when you want to use another implementation strategy or if Copilot starts walking down the wrong path when generating edits.
-
-You can achieve this by selecting **Restore** next to the checkpoint prior to the prompt that included changes you did not want.
+:::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-checkpoint.png" alt-text="Screenshot that shows reverting edits." lightbox="media/vs-2022/copilot-agent/copilot-agent-checkpoint.png":::
 
 Currently, Visual Studio Copilot Agent doesn't support stepwise undo/redo.
 
@@ -118,7 +116,7 @@ Currently, Visual Studio Copilot Agent doesn't support stepwise undo/redo.
 To interrupt an ongoing request, you can cancel it.
 This stops all running tools and terminal commands.
 
-To stop a build, sslect **Build** in the top toolbar, and then select **Cancel** or use the **Ctrl + Break** keyboard shortcut.
+To stop a build, select **Build** in the top toolbar, and then select **Cancel** or use the **Ctrl + Break** keyboard shortcut.
 
 ## Frequently asked questions
 
@@ -131,9 +129,9 @@ Take the following troubleshooting steps in the order specified:
 
 ### When to use Ask and Agent modes?
 
-- Ask mode is excellent when you want 100% confidence that no code edits are made without you explicit selecting **Apply** or copy and pasting code.
-- Otherwise, agent mode can handle the same conceptual questions, generate code examples without applying them, along with its agent capabilities of editing code.
-- If you are looking to use MCP capabilities, you must have agent mode selected.
+- Use Ask mode when you want full control—no code edits will be made unless you explicitly select **Apply** or copy and paste the code yourself.
+- Agent mode can handle the same conceptual questions, generate code examples without applying them, along with its agent capabilities of editing code automatically.
+- To use MCP capabilities, you must enable agent mode.
 
 ### What happened to Copilot Edits in Visual Studio?
 
@@ -142,9 +140,9 @@ Take the following troubleshooting steps in the order specified:
 
 ### As an administrator, how do I control use of agent mode for Visual Studio users?
 
-Agent mode in Visual Studio is governed by the "Editor preview features" flag in the GitHub Copilot dashboard for administrator.
+Agent mode in Visual Studio is governed by the **Editor preview features** flag in the GitHub Copilot dashboard for administrators.
 
-More information can be found in the GitHub documentation for [managing policies and features for copilot in your enterprise](https://docs.github.com/en/enterprise-cloud@latest/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise#editor-preview-features).
+For more information, see [managing policies and features for copilot in your enterprise](https://docs.github.com/en/enterprise-cloud@latest/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise#editor-preview-features).
 
 ## Related content
 

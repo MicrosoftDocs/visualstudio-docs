@@ -15,7 +15,7 @@ monikerRange: '>= vs-2022'
 Model Context Protocol (MCP) is an open standard that enables AI models to interact with external tools and services through a unified interface. In Visual Studio, MCP support enhances GitHub Copilot's agent mode by allowing you to connect any MCP-compatible server to your agentic coding workflow. This article guides you through setting up MCP servers and using tools with agent mode in Visual Studio.
 
 ## Prerequisites
-+ [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) and later offer Copilot Agent.
++ [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) or later.
     + Set **Enable agent mode in the chat pane** in **Tools** > **Options** > **GitHub** > **Copilot**.
 + [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot). <br/>
     + You can use [GitHub Copilot for Free](copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
