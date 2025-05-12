@@ -119,11 +119,11 @@ Some of these locations require `.mcp.json` while others require `mcp.json`.
 
 ### MCP configuration format
 
-You may define both **remote** (URL + credentials) and **local** (command-line invocation).
+You may define both **remote** (URL and credentials) and **local** (command-line invocation) servers.
 
-It’s common to invoke tools via package managers (for example, `pip install … && mcp-server or npx @cursor/mcp`) - Visual Studio respects whatever command you specify so you can pin versions or flags.
+It’s common to invoke tools via package managers. For example, `pip install … && mcp-server or npx @cursor/mcp`. Visual Studio respects whatever command you specify, allowing you to pin versions or pass flags as needed.
 
-Format must follow the MCP spec (e.g. array of server objects, each with `name`, `command` or `url`, `transport`, etc.).
+Format must follow the MCP specification, for example, an array of server objects, each with `name`, `command` or `url`, `transport`, etc.
 
 ### Editing MCP configuration
 
@@ -135,22 +135,22 @@ When the file is saved with valid syntax, GitHub Copilot's agent restarts and re
 
 ### Tool Lifecycle
 
-As soon as a MCP server is discovered or added:
+As soon as a server is discovered or added:
 
-1. Visual Studio initializes the server (performs a handshake and queries the tool list).
-1. Visual Studio subscribes to the MCP event `notifications/tools/list_changed`.
-1. When that event fires, Visual Studio resets any prior acceptances or permissions on tools (to prevent *rug-pull* attacks), re-fetches the tool list, and updates the count/UI live.
-1. When the server is successfully enabled, tools are made available to the Agent. The tools are disabled by default and must be manually enabled.
-1. If a server is removed, Visual Studio immediately kills its process and withdraws all its tools from the UI.
-1. If you edit a server definition, Visual Studio terminates and relaunches it, and then re-queries.
+* Visual Studio initializes the server (performs a handshake and queries the tool list).
+* Visual Studio subscribes to the MCP event `notifications/tools/list_changed`.
+* When that event fires, Visual Studio resets any prior acceptances or permissions on tools (to prevent *rug-pull* attacks), re-fetches the tool list, and updates the count/UI live.
+* When the server is successfully enabled, tools are made available to the Agent. The tools are disabled by default and must be manually enabled.
+* If a server is removed, Visual Studio immediately kills its process and withdraws all its tools from the UI.
+* If you edit a server definition, Visual Studio terminates and relaunches it, and then re-queries.
 
 ### Manage tool approvals
 
 When a tool is invoked, Copilot requests confirmation to run the tool. This is because tools might run locally on your machine and perform actions that modify files or data.
 
-:::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-tool-approval.png" alt-text="Screenshot that shows managing agent tool approvals." lightbox="media/vs-2022/copilot-agent/copilot-agent-tool-approval.png":::
-
 In the chat pane, after a tool invocation, use the **Allow** dropdown options to automatically confirm the specific tool for the current session, solution, or all future invocations.
+
+:::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-tool-approval.png" alt-text="Screenshot that shows managing agent tool approvals." lightbox="media/vs-2022/copilot-agent/copilot-agent-tool-approval.png":::
 
 You can reset tool confirmation selections in **Tools** > **Options** > **GitHub** > **Copilot** > **Tools**.
 
