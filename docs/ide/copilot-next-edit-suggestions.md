@@ -63,7 +63,7 @@ NES suggests changes to the rest of your code that match a change in intent. For
 
 ### Update code syntax
 
-NES helps with repetitive changes like updating code synx to modern C++ using Standard library (STL) reference. For example, when updating all `printf()` to `std::cout`, also update other syntax such as `fgets()`.
+NES helps with repetitive changes, such as updating code syntax to modern C++ using the Standard Library (STL). For example, when updating all `printf()` to `std::cout`, also update other syntax such as `fgets()`.
 
 :::image type="content" source="media/vs-2022/next-edit-suggestions/update-code-syntax.gif" alt-text="Animated screenshot that shows NES suggesting code syntax updates" lightbox="media/vs-2022/next-edit-suggestions/update-code-syntax.gif":::
 
@@ -71,7 +71,7 @@ NES helps with repetitive changes like updating code synx to modern C++ using St
 
 - Rename a variable once in a file, and NES will suggest updating it throughout the file. If you introduce a new name or naming pattern, Copilot suggests updates to subsequent code to match.
 
-  :::image type="content" source="media/vs-2022/next-edit-suggestions/rename-variable-edits.png" alt-text="Screenshot that shows NES suggesting edits when a variable is renamed":::
+  :::image type="content" source="media/vs-2022/next-edit-suggestions/rename-variable-edits.png" alt-text="Screenshot that shows NES suggesting edits when a variable is renamed.":::
   
 -  Match code style. After you paste some code, NES suggests adjustments to match it with the style of the surrounding code.
 
