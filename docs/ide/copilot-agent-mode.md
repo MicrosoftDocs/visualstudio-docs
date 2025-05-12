@@ -120,25 +120,25 @@ To stop a build, select **Build** in the top toolbar, and then select **Cancel**
 
 ## Frequently asked questions
 
-### I don't see Ask and Agent mode in the GitHub Copilot Chat window.
+#### I don't see Ask and Agent mode in the GitHub Copilot Chat window.
 
 Take the following troubleshooting steps in the order specified:
 - Make sure you're using Visual Studio 17.14 or later: check the version at **Help** > **About Visual Studio**. If you're not using version 17.14 or later, launch the Visual Studio Installer and update your build.
 - Make sure you've selected the **Enable agent mode in the chat pane** setting in **Tools** > **Options** > **GitHub** > **Copilot**.
 - Try restarting Visual Studio.
 
-### When to use Ask and Agent modes?
+#### When should I use Ask mode vs. Agent mode?
 
-- Use Ask mode when you want full control—no code edits will be made unless you explicitly select **Apply** or copy and paste the code yourself.
-- Agent mode can handle the same conceptual questions, generate code examples without applying them, along with its agent capabilities of editing code automatically.
-- To use MCP capabilities, you must enable agent mode.
+- Ask mode is excellent when you want 100% confidence that no code edits are made unless you explicitly select **Apply** or copy and paste the code yourself.
+- Agent mode can handle the same conceptual questions, generate code examples without applying them, along with its agent capabilities of editing code.
+- If you are looking to use MCP capabilities, you must have agent mode selected. 
 
-### What happened to Copilot Edits in Visual Studio?
+#### What happened to Copilot Edits in Visual Studio?
 
 - We perceive agent mode to be an evolution of Edits, with greater ability to iterate on errors, use tools, and automatically apply code changes.
 - For the initial releases of Visual Studio 2022 version 17.14, Edits mode is still available if you uncheck the **Enable agent mode in the chat pane** setting in **Tools** > **Options** > **GitHub** > **Copilot**.
 
-### As an administrator, how do I control use of agent mode for Visual Studio users?
+#### As an administrator, how do I control use of agent mode for Visual Studio users?
 
 Agent mode in Visual Studio is governed by the **Editor preview features** flag in the GitHub Copilot dashboard for administrators.
 

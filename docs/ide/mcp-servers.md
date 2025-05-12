@@ -161,7 +161,7 @@ You can reset tool confirmation selections in Tools > Options > GitHub > Copilot
 
 ## Frequently Asked Questions
 
-### As an administrator, how do I control use of MCP servers in agent mode for Visual Studio users?
+#### As an administrator, how do I control use of MCP servers in agent mode for Visual Studio users?
 
 The **Editor preview features flag** in the GitHub Copilot dashboard lets administrators control access to agent mode and MCP usage in Visual Studio.
 If the subscription administrator turns off this setting, users under that subscription won’t be able to use agent mode or connect to MCP servers in Visual Studio.
