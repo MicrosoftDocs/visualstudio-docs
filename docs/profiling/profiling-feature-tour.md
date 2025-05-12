@@ -322,7 +322,7 @@ In your UWP apps, you can enable **UI Analysis** in the **Diagnostic Tools** win
 ::: moniker range=">=vs-2022"
 ## Profile on WSL, Docker, and Linux
 
-The profiling tools support profiling scenarios for WSL, Docker, and Linux. The tools supported on Linux and WSL are listed in [Which tools are supported on Linux?](../profiling/choose-performance-tool?.md#which-tools-are-supported-on-linux)
+The profiling tools support profiling scenarios for WSL, Docker, and Linux. The tools supported on Linux and WSL are listed in [Which tools are supported on Linux?](../profiling/choose-performance-tool.md#which-tools-are-supported-on-linux?)
 
 - For WSL, make sure you've installed the prerequisites described in [Debug .NET Apps in WSL with Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md). Open the Performance Profiler (**Alt + F2**) and select WSL as the target.
 
