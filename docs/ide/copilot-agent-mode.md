@@ -22,9 +22,12 @@ The key difference from Copilot Chat is that agent mode can:
 ## Prerequisites
 
 + [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) or later.
-    + Set **Enable agent mode in the chat pane** in **Tools** > **Options** > **GitHub** > **Copilot**.
 + [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot). <br/>
     + You can use [GitHub Copilot for Free](copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
+
+## Get started with agent mode 
+
+To get started with Copilot agent mode in Visual Studio, enable the feature in **Tools** > **Options** > **GitHub** > **Copilot** > **Enable agent mode in the chat pane**.
 
 ## Use agent mode
 
