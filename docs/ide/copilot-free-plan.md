@@ -72,7 +72,7 @@ When you reach usage limits for Copilot Free, you can wait for them to reset at 
 
 #### Who can access Copilot Free?
 
-Copilot Free is not available if you have an EMU account, access to a Copilot seat through an organization, an existing Copilot Pro subscription or trial, or free access to Copilot Pro as a student, teacher, or open-source maintainer.
+Copilot Free is not available if you have an EMU account, access to a Copilot license through an organization, an existing Copilot Pro subscription or trial, or free access to Copilot Pro as a student, teacher, or open-source maintainer.
 For the latest information, see [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage).
 
 #### Can I turn off completions to save them for later?
