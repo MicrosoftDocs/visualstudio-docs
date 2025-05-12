@@ -32,7 +32,7 @@ By standardizing this interaction, MCP eliminates the need for custom integratio
 
 ## Configuration example with GitHub MCP server
 
-1. Create a new file: `<SOLUTIONDIR>\mcp.json`. Using Visual Studio to edit this file is recommended so its JSON schema is automatically applied.
+1. Create a new file: `<SOLUTIONDIR>\.mcp.json`. Using Visual Studio to edit this file is recommended so its JSON schema is automatically applied.
 2. Paste the following contents into the `.mcp.json` file
 
 ```json
@@ -101,19 +101,19 @@ If you do not already have an `mcp.json` file, you can create it in various loca
 
 ### File locations for automatic discovery of MCP configuration
 
-Visual Studio looks for MCP server configurations in the following directories, in the following order:
+Visual Studio also checks for MCP configurations set up by other development environments.
+MCP server configurations are read from the following directories, in the following order:
 
-1.  `%USERPROFILE%\.mcp.json` serves as a global MCP server configuration for a specific user. Adding an MCP server here would make it load for all Visual Studio solutions. 
-2.  `<SOLUTIONDIR>\.vs\mcp.json` is specific to Visual Studio and only loads the specified MCP servers for a specific user, for the specified solution.
-
-If you're looking for an MCP configuration that you can track in source control for a repo, this option would work well:
-
-3.  `<SOLUTIONDIR>\.mcp.json`
-
-Visual Studio also checks for MCP configurations set up by other development environments. These are scoped to the repository/solution and are typically not source controlled.
-
-4.  `<SOLUTIONDIR>\.vscode\mcp.json`
-5.  `<SOLUTIONDIR>\.cursor\mcp.json`
+1.  `%USERPROFILE%\.mcp.json` </br>
+    Serves as a global MCP server configuration for a specific user. Adding an MCP server here would make it load for all Visual Studio solutions. 
+2.  `<SOLUTIONDIR>\.vs\mcp.json` </br>
+    Specific to Visual Studio and only loads the specified MCP servers for a specific user, for the specified solution.
+3.  `<SOLUTIONDIR>\.mcp.json` </br>
+    Works well if you're looking for an MCP configuration that you can track in source control for a repo.
+4.  `<SOLUTIONDIR>\.vscode\mcp.json` </br>
+    Scoped to the repository/solution and typically not source controlled.
+5.  `<SOLUTIONDIR>\.cursor\mcp.json` </br>
+    Scoped to the repository/solution and typically not source controlled.
 
 Some of these locations require `.mcp.json` while others require `mcp.json`.
 
