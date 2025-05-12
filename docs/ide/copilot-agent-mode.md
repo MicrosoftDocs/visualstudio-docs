@@ -66,7 +66,7 @@ Follow these steps to get started:
 
 ## Agent mode tools
 
-![Copilot Agent Tool Selector](./media/vs-2022/copilotagent-mcp/copilot-agent-partial-tools.png)
+![Copilot Agent Tool Selector](/media/vs-2022/copilot-agent-mcp/copilot-agent-partial-tools.png)
 
 Agent mode can use the following tools:
 
