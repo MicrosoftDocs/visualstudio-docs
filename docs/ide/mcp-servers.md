@@ -72,11 +72,11 @@ By standardizing this interaction, MCP eliminates the need for custom integratio
 
 5. When prompted, paste your personal access token into the dialogue.
 
-  ![Personal Access Token Dialog](media/vs-2022/copilot-agent-mcp/mcp-personal-access-token.png)
+  ![Personal Access Token Dialog](media/vs-2022/copilot-agent-mcp/model-context-protocol-personal-access-token.png)
 
 6. Select the tools you'd like to use, for example, `list_issues`
 
-  ![MCP GitHub Tools](media/vs-2022/copilot-agent-mcp/mcp-github-tools.png)
+  ![MCP GitHub Tools](media/vs-2022/copilot-agent-mcp/model-context-protocol-github-tools.png)
 
 7. Try a sample prompt: `list issues assigned to me on GitHub`
 8. Copilot will ask for permission to use a tool made available to it by the MCP server, select **Allow** with the scope you wish to proceed with.
@@ -133,7 +133,7 @@ With an existing `mcp.json` file, add the file location to the Solution Items in
 
 When the file is saved with valid syntax, GitHub Copilot's agent will restart and reload the configured servers.
 
-![MCP Add Solution Item](media/vs-2022/copilot-agent-mcp/mcp-add-solution-item.png)
+![MCP Add Solution Item](media/vs-2022/copilot-agent-mcp/model-context-protocol-add-solution-item.png)
 
 ### Tool Lifecycle
 
@@ -165,9 +165,8 @@ You can reset tool confirmation selections in Tools > Options > GitHub > Copilot
 
 ### As an administrator, how do I control use of MCP servers in Agent mode for Visual Studio users?
 
-Agent mode and MCP usage in Visual Studio 2022 is governed by the "Editor preview features" flag in the GitHub Copilot dashboard for administrator.
-
-If this setting is disabled by the GitHub Copilot subscription administrator, Copilot users under the subscription will not have access to Agent mode nor MCP servers in Visual Studio.
+Agent mode and MCP usage in Visual Studio 2022 is governed by the **Editor preview features** flag in the GitHub Copilot dashboard for administrator.
+If this setting is disabled by the GitHub Copilot subscription administrator, Copilot users under the subscription will not have access to agent mode nor MCP servers in Visual Studio.
 
 ## Related content
 
