@@ -33,7 +33,9 @@ During Visual Studio debugging, the **Modules** window lists and shows informati
 
 ## View modules
 
-To open the Modules window, while you're debugging, select **Debug** > **Windows** > **Modules** (or press **Ctrl + Alt + U**).
+To open the Modules window:
+
+Start a debugging session, and then select **Debug** > **Windows** > **Modules** (or press **Ctrl + Alt + U**). If you don't see the window, make sure you are [paused in the debugger](../debugger/get-started-with-breakpoints.md).
 
 By default, the **Modules** window sorts modules by load order. To sort by any window column, select the header at the top of the column.
 

@@ -153,6 +153,12 @@
       href: ide/visual-studio-github-copilot-chat.md
     - name: Tips to improve Copilot Chat results 
       href: ide/copilot-chat-context.md
+    - name: Agent mode
+      href: ide/copilot-agent-mode.md
+    - name: MCP servers
+      href: ide/mcp-servers.md
+    - name: Next Edit Suggestions
+      href: ide/copilot-next-edit-suggestions.md
     - name: Copilot Edits
       href: ide/copilot-edits.md
     - name: Debug with GitHub Copilot
@@ -960,12 +966,10 @@
             href: ide/reference/options-text-editor-all-languages-scroll-bars.md
           - name: Tabs
             href: ide/reference/options-text-editor-all-languages-tabs.md
-        - name: Basic
+        - name: Visual Basic
           items:
           - name: Advanced
             href: ide/reference/options-text-editor-basic-visual-basic.md
-          - name: Code Style
-            href: ide/code-styles-and-code-cleanup.md
           - name: IntelliSense
             href: ide/visual-basic-specific-intellisense.md
         - name: C#
