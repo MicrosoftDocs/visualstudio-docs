@@ -153,6 +153,10 @@
       href: ide/visual-studio-github-copilot-chat.md
     - name: Tips to improve Copilot Chat results 
       href: ide/copilot-chat-context.md
+    - name: Agent mode
+      href: ide/copilot-agent-mode.md
+    - name: MCP servers
+      href: ide/mcp-servers.md
     - name: Next Edit Suggestions
       href: ide/copilot-next-edit-suggestions.md
     - name: Copilot Edits
