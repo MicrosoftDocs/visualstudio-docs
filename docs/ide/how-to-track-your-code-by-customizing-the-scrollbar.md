@@ -1,7 +1,7 @@
 ---
 title: Scroll bar map mode and bar mode
 description: Learn how to track changes in your code through the customization of the scroll bar and also learn how to use Bar mode and Map mode.
-ms.date: 03/20/2020
+ms.date: 05/2/2025
 ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
@@ -44,7 +44,7 @@ Curious as to which scroll bar annotations and their associated colors match whi
 
 #### Code changes
 
-Code changes are annotated in the far-left side of the vertical scroll bar. 
+Code changes are annotated in the far-left side of the vertical scroll bar. To modify the **Track changes** setting, go to **Tools** > **Options** > **Text Editor** > **Settings**.
 
 **Tracked files (in a Git repository)**
 

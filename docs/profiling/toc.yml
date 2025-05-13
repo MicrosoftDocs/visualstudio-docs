@@ -2,10 +2,10 @@
   href: index.yml
 - name: Overview
   items:
-  - name: First look at profiling tools
-    href: profiling-feature-tour.md
   - name: What is a profiler?
     href: what-is-a-profiler.md
+  - name: Overview of the profiling tools
+    href: profiling-feature-tour.md
   - name: Which tool should I use?
     href: choose-performance-tool.md
   - name: Run profiling tools on release or debug builds
