@@ -187,12 +187,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Add an Actions Pane to Word Documents or Excel Workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md) - Update with deprecation information for Word
 - [Actions pane overview](../vsto/actions-pane-overview.md) - Update with deprecation information
 
-### Windows
-
-**Updated articles**
-
-- [Visual Studio documentation](../windows/index.yml) - Add links to C++ mobile and Linux
-
 ### XAML tools
 
 **Updated articles**
