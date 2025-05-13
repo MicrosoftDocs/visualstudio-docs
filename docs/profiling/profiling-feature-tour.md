@@ -1,5 +1,5 @@
 ---
-title: "First look at profiling tools"
+title: "Overview of the profiling tools"
 description: Review the different diagnostic tools available in Visual Studio for profiling your C#, Visual Basic, C++, and F# applications.
 ms.date: 1/17/2025
 ms.topic: conceptual
@@ -15,7 +15,7 @@ manager: mijacobs
 ms.subservice: debug-diagnostics
 zone_pivot_groups: programming-languages-set-two
 ---
-# First look at profiling tools (C#, Visual Basic, C++, F#)
+# Overview of the profiling tools (C#, Visual Basic, C++, F#)
 
 Application performance measuring tools are essential for developers who want to optimize their code and improve application performance. Visual Studio offers a range of profiling and diagnostics tools that can help you diagnose memory and CPU usage and other application-level issues. With these tools, you can accumulate performance data while you run your application. A profiler can help you make informed decisions quickly by providing a visual depiction of execution times and CPU usage for your application. In this article, we give a quick look at the most common profiling tools.
 

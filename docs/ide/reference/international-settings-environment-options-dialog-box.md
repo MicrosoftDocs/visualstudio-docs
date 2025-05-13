@@ -12,6 +12,7 @@ helpviewer_keywords:
 - languages, environment settings
 - Options dialog box, international settings
 - languages, specifying default
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs

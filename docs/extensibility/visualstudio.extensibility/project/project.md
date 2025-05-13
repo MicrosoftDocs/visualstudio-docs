@@ -61,17 +61,21 @@ This overview covers top scenarios for working with the project query API:
 
 You'll need to obtain an instance of the *project query space* object to query the project system. This object has several asynchronous methods that query or update the project system. The term *project query space* and the term *workspace* both mean the same thing and refer to the object that provides access to all the data for a project. `workspace` will be consistently used in this documentation.
 
-### Using VisualStudio.Extensibility
+There are two approaches to accessing the project query space: **WorkspacesExtensibility** and **ProjectQueryableSpace**.
+
+### Using WorkspacesExtensibility (Recommended)
+The `WorkspacesExtensibility` object, built into `Microsoft.VisualStudio.Extensibility`, provides a simple and integrated way to use project query.
 
 ```csharp
 WorkspacesExtensibility workspace = this.Extensibility.Workspaces();
 ```
 
-### Using a service broker
+### Using ProjectQueryableSpace
+Alternatively, you can use a `ProjectQueryableSpace` object created via a service broker. This approach is useful for scenarios requiring more control or integration with specific services.
 
 ```csharp
 IServiceBroker serviceBroker = context.Extensibility.ServiceBroker;
-ProjectQueryableSpace workspace = new ProjectQueryableSpace(serviceBroker: serviceBroker, joinableTaskContext: null);
+ProjectQueryableSpace queryspace = new ProjectQueryableSpace(serviceBroker: serviceBroker, joinableTaskContext: null);
 ```
 
 In the example above, `context` refers to an instance of `IClientContext` provided by `Microsoft.VisualStudio.Extensibility`. It is used to access contextual information and services related to the current state and environment of the IDE.

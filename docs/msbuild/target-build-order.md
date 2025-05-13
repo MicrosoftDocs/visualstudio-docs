@@ -1,7 +1,7 @@
 ---
 title: Set the run order for MSBuild targets
 description: Specify the order in which MSBuild targets run and whether the input to one target depends on the output of another target.
-ms.date: 05/15/2024
+ms.date: 5/1/2025
 ms.topic: how-to
 helpviewer_keywords:
 - msbuild, build order

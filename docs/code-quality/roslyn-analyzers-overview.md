@@ -24,7 +24,7 @@ Analyzers are divided into the following groups:
 
 - [Code style analyzers](/dotnet/fundamentals/code-analysis/code-style-rule-options?preserve-view=true&view=vs-2019#convention-categories)
 
-   These analyzers are built into Visual Studio. The analyzer's diagnostic ID, or code format is IDExxxx, for example, IDE0001. You can configure preferences in the [text editor options page](../ide/code-styles-and-code-cleanup.md#code-styles-in-the-options-dialog-box) or in an [EditorConfig file](../ide/create-portable-custom-editor-options.md). Starting in .NET 5.0, code style analyzers are included with the .NET SDK and can be strictly enforced as build warnings or errors. For more information, see [Overview of .NET source code analysis](/dotnet/fundamentals/productivity/code-analysis).
+   These analyzers are built into Visual Studio. The analyzer's diagnostic ID, or code format is IDExxxx, for example, IDE0001. You can configure preferences in the [text editor options page](../ide/code-styles-and-code-cleanup.md#net-code-styles-in-the-options-dialog-box) or in an [EditorConfig file](../ide/create-portable-custom-editor-options.md). Starting in .NET 5.0, code style analyzers are included with the .NET SDK and can be strictly enforced as build warnings or errors. For more information, see [Overview of .NET source code analysis](/dotnet/fundamentals/productivity/code-analysis).
 
 - [Code quality analyzers](/dotnet/fundamentals/code-analysis/overview#code-quality-analysis)
 

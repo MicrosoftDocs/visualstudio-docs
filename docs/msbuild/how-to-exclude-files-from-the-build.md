@@ -1,7 +1,7 @@
 ---
 title: Exclude Files from the Build
 description: Discover how to explicitly exclude or conditionally include files from builds for MSBuild project files with attributes and wildcards.
-ms.date: 05/15/2024
+ms.date: 05/1/2025
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, wildcards
@@ -76,7 +76,7 @@ If you're using wildcards to include all the files in one directory or a nested 
 
 `Exclude` is not actually an item operation; it can't be used by itself, but only as a modifier for `Include`.
 
-### To include all `.cs` or `*.vb` files except `Form2`
+### To include all `.cs` or `.vb` files except `Form2`
 
 - Use one of the following `Include` and `Exclude` attributes:
 

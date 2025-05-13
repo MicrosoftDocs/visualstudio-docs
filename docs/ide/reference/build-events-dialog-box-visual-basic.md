@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "pre-build events"
   - "Build Events dialog box"
   - "post-build events"
+ms.custom: "ide-ref"
 author: ghogen
 ms.author: ghogen
 manager: mijacobs

@@ -1,7 +1,7 @@
 ---
 title: Understand and use code snippets
 description: Explore code snippets, which are small blocks of reusable code you can insert into a code file, and learn how to find and use them.
-ms.date: 04/05/2024
+ms.date: 04/25/2025
 ms.topic: conceptual
 f1_keywords:
 - vs.ExpansionManagerImport

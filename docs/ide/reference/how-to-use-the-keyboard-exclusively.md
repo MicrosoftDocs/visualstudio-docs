@@ -10,6 +10,7 @@ helpviewer_keywords:
 - windows [Visual Studio], accessibility
 - dialog boxes [Visual Studio], shortcut keys
 - accessibility [Visual Studio]
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs

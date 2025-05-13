@@ -1,8 +1,8 @@
 ---
-title: Immediate Window
+title: Use the Immediate Window
 description: Learn how to use the Immediate window to debug and evaluate expressions, execute statements, and print variable values.
 ms.date: 02/25/2019
-ms.topic: reference
+ms.topic: how-to
 dev_langs:
 - VB
 f1_keywords:
@@ -16,7 +16,7 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide
 ---
-# Immediate window
+# Use the Immediate window
 
 Use the **Immediate** window to debug and evaluate expressions, execute statements, and print variable values. The **Immediate** window evaluates expressions by building and using the currently selected project.
 

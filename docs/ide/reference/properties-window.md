@@ -15,6 +15,7 @@ helpviewer_keywords:
 - Properties window, overrides
 - virtual functions, Properties window
 - Properties window
+ms.custom: "ide-ref"
 author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
