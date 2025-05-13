@@ -5,7 +5,7 @@ ms.faqid: Section1
 ms.topic: conceptual
 author: joseb-rdc
 ms.author: amast
-ms.date: 09/24/2024
+ms.date: 05/12/2025
 ---
 
 # Managing Visual Studio subscriptions
@@ -21,6 +21,8 @@ ms.date: 09/24/2024
 [!INCLUDE [I have a new agreement. How do I move my subscribers?](includes/new-agreement.md)]
 
 [!INCLUDE [Why is the portal not showing the correct number of subscriptions for my agreement?](includes/incorrect-subscription-quantity.md)]
+
+[!INCLUDE [What does it mean when the portal says I have "reached the default overallocation cap?"](includes/overallocation.md)]
 
 [!INCLUDE [How can I select an end date for a subscription?](includes/select-end-date.md)]
 
