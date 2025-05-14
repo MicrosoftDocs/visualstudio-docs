@@ -93,6 +93,8 @@
         href: install/administrative-templates.md
       - name: Configure policies for enterprise deployments
         href: install/configure-policies-for-enterprise-deployments.md
+      - name: Configure feedback policies
+        href: install/feedback-survey-policies.md
     - name: Manage & update installations
       items:
       - name: Enabling administrator updates
@@ -151,6 +153,12 @@
       href: ide/visual-studio-github-copilot-chat.md
     - name: Tips to improve Copilot Chat results 
       href: ide/copilot-chat-context.md
+    - name: Agent mode
+      href: ide/copilot-agent-mode.md
+    - name: MCP servers
+      href: ide/mcp-servers.md
+    - name: Next Edit Suggestions
+      href: ide/copilot-next-edit-suggestions.md
     - name: Copilot Edits
       href: ide/copilot-edits.md
     - name: Debug with GitHub Copilot
@@ -576,15 +584,14 @@
       href: /troubleshoot/developer/visualstudio/ide/troubleshoot-class-designer-errors?toc=%2Fvisualstudio%2Ftoc.json
   - name: Improve your code
     href: ide/find-and-fix-code-errors.md
+  - name: Immediate window
+    href: ide/reference/immediate-window.md
   - name: Tips and tricks
     items:
     - name: Productivity features
       href: ide/productivity-features.md
     - name: Productivity shortcuts
       href: ide/productivity-shortcuts.md
-    - name: Tips for C# developers
-      displayName: ReSharper
-      href: ide/csharp-developer-productivity.md
     - name: Customize keyboard shortcuts
       href: ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md
     - name: Use the keyboard exclusively
@@ -881,16 +888,12 @@
       href: ide/reference/code-snippet-picker.md
     - name: Command window
       href: ide/reference/command-window.md
-    - name: Convert dialog box
-      href: ide/reference/convert-dialog-box.md
     - name: Error List window
       href: ide/reference/error-list-window.md
     - name: File Properties, JavaScript
       href: ide/reference/file-properties-javascript.md
     - name: Go To Line
       href: ide/reference/go-to-line.md
-    - name: Immediate window
-      href: ide/reference/immediate-window.md
     - name: Paste JSON or XML as classes
       href: ide/reference/paste-json-xml.md
     - name: Miscellaneous files
@@ -963,12 +966,10 @@
             href: ide/reference/options-text-editor-all-languages-scroll-bars.md
           - name: Tabs
             href: ide/reference/options-text-editor-all-languages-tabs.md
-        - name: Basic
+        - name: Visual Basic
           items:
           - name: Advanced
             href: ide/reference/options-text-editor-basic-visual-basic.md
-          - name: Code Style
-            href: ide/code-styles-and-code-cleanup.md
           - name: IntelliSense
             href: ide/visual-basic-specific-intellisense.md
         - name: C#
@@ -1007,18 +1008,6 @@
             href: ide/reference/options-text-editor-html-miscellaneous.md
           - name: Validation
             href: ide/reference/options-text-editor-html-validation.md
-        - name: JavaScript/TypeScript
-          items:
-          - name: Code Validation
-            href: ide/reference/options-text-editor-javascript-code-validation.md
-          - name: Formatting
-            href: ide/reference/options-text-editor-javascript-formatting.md
-          - name: IntelliSense
-            href: ide/reference/options-text-editor-javascript-intellisense.md
-          - name: Linting
-            href: ide/reference/options-text-editor-javascript-linting.md
-          - name: Project
-            href: ide/reference/options-text-editor-javascript-project.md
         - name: U-SQL
           items:
           - name: Formatting
@@ -1091,20 +1080,8 @@
         href: ide/reference/debug-page-project-designer.md
       - name: My Extensions Page, Project Designer (Visual Basic)
         href: ide/reference/my-extensions-page-project-designer-visual-basic.md
-      - name: Publish Page, Project Designer
-        items:
-        - name: Publish Page
-          href: ide/reference/publish-page-project-designer.md
-        - name: Prerequisites Dialog Box
-          href: ide/reference/prerequisites-dialog-box.md
       - name: References Page, Project Designer (Visual Basic)
         href: ide/reference/references-page-project-designer-visual-basic.md
-      - name: Security Page, Project Designer
-        items:
-        - name: Security Page
-          href: ide/reference/security-page-project-designer.md
-        - name: Advanced Security Settings Dialog Box
-          href: ide/reference/advanced-security-settings-dialog-box.md
       - name: Services Page, Project Designer
         items:
         - name: Services Page
@@ -1113,8 +1090,6 @@
           href: ide/reference/advanced-settings-for-services-dialog-box.md
       - name: Settings Page, Project Designer
         href: ide/reference/settings-page-project-designer.md
-      - name: Signing Page, Project Designer
-        href: ide/reference/signing-page-project-designer.md
     - name: Property Pages, JavaScript
       href: ide/reference/property-pages-javascript.md
     - name: Property Pages, React, Angular, and Vue

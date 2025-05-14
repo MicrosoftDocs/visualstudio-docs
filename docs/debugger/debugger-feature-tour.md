@@ -1,8 +1,8 @@
 ---
-title: "First look at the debugger"
+title: "Overview of the debugger"
 description: Get started debugging your applications by using the Visual Studio debugger and see what your code is doing while it runs.
 ms.topic: conceptual
-ms.date: 1/27/2025
+ms.date: 3/11/2025
 helpviewer_keywords:
   - "debugger"
 author: mikejo5000
@@ -10,7 +10,7 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
-# First look at the Visual Studio Debugger
+# Overview of the Visual Studio debugger
 
 This topic introduces the debugger tools provided by Visual Studio. In the Visual Studio context, when you *debug your app*, it usually means that you are running the application with the debugger attached (that is, in debugger mode). When you do this, the debugger provides many ways to see what your code is doing while it runs. You can step through your code and look at the values stored in variables, you can set watches on variables to see when values change, you can examine the execution path of your code, et al. If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before going through this topic. If you are trying to perform a specific task and need to know what feature to use, see [Debugger feature finder](../debugger/find-your-debugging-task.yml). To try AI-assisted debugging, see [Debug with Copilot](../debugger/debug-with-copilot.md).
 
@@ -36,6 +36,17 @@ If you have a file open in the code editor, you can set a breakpoint by clicking
 ::: moniker-end
 
 Press **F5** (**Debug > Start Debugging**) or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug Toolbar, and the debugger runs to the first breakpoint that it encounters. If the app is not yet running, F5 starts the debugger and stops at the first breakpoint.
+
+::: moniker range=">= vs-2022"
+## Live code editing
+
+Visual Studio 2022 supports live code editing while debugging. For detailed information, see:
+
+- [Write and debug running code](hot-reload.md)
+- [Write and debug running XAML code with XAML Hot Reload](../xaml-tools/xaml-hot-reload.md)
+- [Edit and Continue](../debugger/edit-and-continue.md)
+
+::: moniker-end
 
 ## <a name="navigate"></a> Navigate code in the debugger using step commands
 
@@ -63,6 +74,14 @@ When you are on a line of code that is a function or method call, you can press 
 
 F10 advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing F10, you can skip over code that you're not interested in. This way, you can quickly get to code that you are more interested in. For more details on using the step commands, see [Navigate code in the debugger](../debugger/navigating-through-code-with-the-debugger.md).
 
+## Advance the debugger out of the current function
+
+Sometimes, you might want to continue your debugging session but advance the debugger all the way through the current function.
+
+Press **Shift + F11** (or **Debug > Step Out**).
+
+This command resumes app execution (and advances the debugger) until the current function returns.
+
 ## Run to a point in your code quickly using the mouse
 
 Using the **Run to Click** button is similar to setting a temporary breakpoint. This command is also handy for getting around quickly within a visible region of app code. You can use **Run to Click** in any open file. For more details on this feature and similar navigation features, see [Run to a specific location in your code](../debugger/navigating-through-code-with-the-debugger.md#run-to-a-specific-location-or-function).
@@ -80,14 +99,6 @@ While in the debugger, hover over a line of code until the **Run to Click** (Run
 > The **Run to Click** (Run execution to here) button is available starting in Visual Studio 2017.
 
 Click the **Run to Click** (Run execution to here) button. The debugger advances to the line of code where you clicked.
-
-## Advance the debugger out of the current function
-
-Sometimes, you might want to continue your debugging session but advance the debugger all the way through the current function.
-
-Press **Shift + F11** (or **Debug > Step Out**).
-
-This command resumes app execution (and advances the debugger) until the current function returns.
 
 ## Run to cursor
 
@@ -117,16 +128,6 @@ When you press **Restart**, it saves time versus stopping the app and restarting
 
 If you do want to stop the debugger and get back into the code editor, you can press the red stop ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") button instead of **Restart**.
 
-::: moniker range=">= vs-2022"
-## Live code editing
-
-Visual Studio 2022 supports live code editing while debugging. For detailed information, see:
-
-- [Write and debug running code](hot-reload.md)
-- [Write and debug running XAML code with XAML Hot Reload](../xaml-tools/xaml-hot-reload.md)
-- [Edit and Continue](../debugger/edit-and-continue.md)
-
-::: moniker-end
 ::: moniker range="<= vs-2019"
 ## Edit your code and continue debugging (C#, VB, C++, XAML)
 
@@ -180,20 +181,6 @@ Next, look at the **Locals** window. The **Locals** window shows you the variabl
 ::: moniker-end
 
 In this example, the `this` object and the object `f` are in scope. For more info, see [Inspect Variables in the Autos and Locals Windows](../debugger/autos-and-locals-windows.md).
-
-::: moniker range=">= vs-2022"
-## View return values of method calls
-
-In .NET and C++ code, you can examine return values in the **Autos** window when you step over or out of a method call, which can be useful when the return value is not stored in a local variable. For more information, see [View return values of method calls](../debugger/autos-and-locals-windows.md#bkmk_returnValue).
-
-Starting in Visual Studio 2022 version 17.12 Preview 3, you can also view return values of method calls inline and not just in the Autos window.
-
-[ ![Screenshot showing the return values of method calls.](../debugger/media/vs-2022/view-return-values.png) ](../debugger/media/vs-2022/view-return-values.png#lightbox)
-
-With Copilot enabled, you can also get targeted assistance related to the inline return value by using the Ask Copilot button that appears in the data tip for the return value.
-
-[ ![Screenshot showing the return values of method calls with Copilot icon.](../debugger/media/vs-2022/view-return-values-copilot.png) ](../debugger/media/vs-2022/view-return-values-copilot.png#lightbox)
-::: moniker-end
 
 ## Set a watch
 

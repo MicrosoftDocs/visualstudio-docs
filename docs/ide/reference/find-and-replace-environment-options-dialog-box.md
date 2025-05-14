@@ -9,6 +9,7 @@ f1_keywords:
 helpviewer_keywords:
 - Find and Replace, Options dialog box
 - Find and Replace, customizing
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs

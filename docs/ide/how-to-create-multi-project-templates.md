@@ -1,7 +1,7 @@
 ---
 title: Create multi-project templates
 description: Create multi-project templates in Visual Studio that can act as containers for many projects at the same time and containers for projects of different languages.
-ms.date: 04/05/2024
+ms.date: 04/01/2025
 ms.topic: how-to
 helpviewer_keywords:
 - Visual Studio templates, creating multi-project

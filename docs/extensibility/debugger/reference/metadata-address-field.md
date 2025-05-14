@@ -1,6 +1,6 @@
 ---
-description: "This structure represents the address of a field of a class or structure."
 title: METADATA_ADDRESS_FIELD
+description: "This structure represents the address of a field of a class or structure."
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -31,7 +31,7 @@ public struct METADATA_ADDRESS_FIELD {
 ```cpp
 typedef struct _tagMETADATA_ADDRESS_FIELD {
     _mdToken tokField;
-} METADATA_ADDRESS_FIELD
+} METADATA_ADDRESS_FIELD;
 ```
 ---
 
@@ -44,7 +44,7 @@ The ID of the field token.
 
 ## Remarks
 
-This structure is part of the union in the [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) structure when the `dwKind` field of the `DEBUG_ADDRESS_UNION` structure is set to `ADDRESS_KIND_FIELD` (a value from the [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md) enumeration).
+This structure is part of the union in the [DEBUG_ADDRESS_UNION](debug-address-union.md) structure when the `dwKind` field of the `DEBUG_ADDRESS_UNION` structure is set to `ADDRESS_KIND_FIELD` (a value from the [ADDRESS_KIND](address-kind.md) enumeration).
 
 ## Requirements
 
@@ -56,6 +56,6 @@ Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## See also
 
-- [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
-- [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)
-- [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md)
+- [Structures and Unions](structures-and-unions.md)
+- [DEBUG_ADDRESS_UNION](debug-address-union.md)
+- [ADDRESS_KIND](address-kind.md)

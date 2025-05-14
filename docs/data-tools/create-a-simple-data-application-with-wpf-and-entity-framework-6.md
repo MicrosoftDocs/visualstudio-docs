@@ -1,136 +1,186 @@
 ---
-title: Simple data app with WPF and Entity Framework 6
+title: Create a basic data app with WPF and Entity Framework 6
 description: Create a forms-over-data .NET Framework application in Visual Studio with Windows Presentation Foundation (WPF) and Entity Framework 6.
-ms.date: 09/14/2023
-ms.topic: conceptual
-dev_langs:
-- CSharp
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
+ms.topic: tutorial
+ms.date: 03/27/2025
+dev_langs:
+- CSharp
+
+# Customer intent: As a developer, I want to learn how to create a basic data application with Windows Presentation Foundation (WPF) and Entity Framework 6.
+
 ---
 
-# Create a simple data application with WPF and Entity Framework 6
+# Create a basic data application with WPF and Entity Framework 6
 
 ::: moniker range="vs-2022"
 > [!WARNING]
-> If you're using Visual Studio 2022, you should use Visual Studio 2022 version 17.3 Preview 3 or later for this tutorial.
+> If you're running Visual Studio 2022, ensure you use version 17.3 or later for this tutorial.
 ::: moniker-end
 
-This walkthrough shows how to create a basic "forms over data" application in Visual Studio. The app uses SQL Server LocalDB, the Northwind database, Entity Framework 6 (not Entity Framework Core), and Windows Presentation Foundation for .NET Framework (not .NET Core or .NET 5 or later). It shows how to do basic databinding with a master-detail view, and it also has a custom Binding Navigator with buttons for **Move Next**, **Move Previous**, **Move to beginning**, **Move to end**, **Update** and **Delete**.
+This tutorial shows how to create a basic *forms over data* application in Visual Studio. The app uses SQL Server LocalDB, the Northwind database, Entity Framework 6 (not Entity Framework Core), and Windows Presentation Foundation (WPF) for .NET Framework (not .NET Core or .NET 5 or later). It shows how to do basic data binding with a master-detail view, and includes a custom **BindingNavigator** control with buttons that do the following: move to first, move previous, move next, move to last, delete, add, set new order, update, and cancel.
 
-This article focuses on using data tools in Visual Studio, and does not attempt to explain the underlying technologies in any depth. It assumes that you have a basic familiarity with XAML, Entity Framework, and SQL. This example also does not demonstrate Model-View-ViewModel (MVVM) architecture, which is standard for WPF applications. However, you can copy this code into your own MVVM application with few modifications.
+This tutorial focuses on using data tools in Visual Studio, and doesn't attempt to explain the underlying technologies in any depth. It assumes that you have a basic familiarity with Extensible Application Markup Language (XAML), Entity Framework, and SQL. Although the code in this tutorial doesn't demonstrate Model-View-ViewModel (MVVM) architecture, which is standard for WPF applications, you can copy the code with a few modifications into your own MVVM application.
 
-The final code for this tutorial can be found in GitHub at [Visual Studio Tutorial Samples - EF6](https://github.com/MicrosoftDocs/vs-tutorial-samples/tree/main/ef6).
+To view the final code for this tutorial, see [Visual Studio tutorial samples - EF6](https://github.com/MicrosoftDocs/vs-tutorial-samples/tree/main/ef6).
+
+In this tutorial, you:
+
+> [!div class="checklist"]
+>
+> * Install and connect to Northwind
+> * Configure the WPF app project
+> * Create the ADO.NET entity data model
+> * Data bind the model to the XAML page
+> * Adjust the page design and add grids
+> * Add buttons to navigate, add, update, and delete
+> * Run the WPF application
+
+## Prerequisites
+
+* [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Windows Communication Foundation** component installed. To install it:
+
+   1. Open the **Visual Studio Installer** app, or select **Tools** > **Get Tools and Features** from the Visual Studio menu.
+   1. In **Visual Studio Installer**, choose **Modify** next to the version of Visual Studio you want to modify.
+   1. Select the **Individual components** tab, and then choose **Windows Communication Foundation** under **Development activities**.
+   1. Select **Modify**.
+
+* SQL Server Express LocalDB. If you don't have SQL Server Express LocalDB, you can install it from the [SQL Server download page](https://www.microsoft.com/sql-server/sql-server-downloads). Or, you can install it with the **Visual Studio Installer** app as an individual component.
+
+* SQL Server Object Explorer. To install it, install the **Data storage and processing** workload in the **Visual Studio Installer** app.
 
 ## Install and connect to Northwind
 
-This example uses SQL Server Express LocalDB and the Northwind sample database. If the ADO.NET data provider for that product supports Entity Framework, it should work with other SQL database products just as well.
+The following example uses SQL Server Express LocalDB and the Northwind sample database. If the ADO.NET data provider for that product supports Entity Framework, it should work with other SQL database products as well.
 
-1. If you don't have SQL Server Express LocalDB, install it through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
+Install the Northwind sample database by following these steps:
 
-2. Install the Northwind sample database by following these steps:
+1. In Visual Studio, open the **SQL Server Object Explorer** window from the **View** menu. Expand the **SQL Server** node. Right-click your LocalDB instance and select **New Query**.
 
-    1. In Visual Studio, open the **SQL Server Object Explorer** window. (**SQL Server Object Explorer** is installed as part of the **Data storage and processing** workload in the **Visual Studio Installer**.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
+   A query editor window opens.
 
-       A query editor window opens.
+1. Copy the [Northwind Transact-SQL (T-SQL) script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard.
 
-    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
+1. Paste the T-SQL script into the query editor, and then choose **Execute**.
 
-    3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
+   The T-SQL script query creates the Northwind database and populates it with data.
 
-       After a short time, the query finishes running and the Northwind database is created.
+1. [Add new connections](../data-tools/add-new-connections.md) for the Northwind database.
 
-3. [Add new connections](../data-tools/add-new-connections.md) for Northwind.
+## Configure the WPF app project
 
-## Configure the project
+To configure the WPF app project, follow these steps:
 
 1. In Visual Studio, create a new C# **WPF App (.NET Framework)** project.
 
 1. Add the NuGet package for Entity Framework 6. In **Solution Explorer**, select the project node. In the main menu, choose **Project** > **Manage NuGet Packages**.
 
-1. In the **NuGet Package Manager**, click on the **Browse** link. Entity Framework is probably the top package in the list. Click **Install** in the right pane and follow the prompts. The Output window tells you when the install is finished.
+1. In the **NuGet Package Manager**, select the **Browse** link. Search for and select the **EntityFramework** package. Select **Install** in the right pane and follow the prompts.
+
+   The **Output** window displays the progress and notifies you when the install is complete.
 
     :::moniker range="<=vs-2019"
-     ![Screenshot of Entity Framework NuGet Package NuGet package.](../data-tools/media/nuget-entity-framework.png)
+     ![Screenshot that shows the Entity Framework NuGet Package.](../data-tools/media/nuget-entity-framework.png)
     :::moniker-end
     :::moniker range=">=vs-2022"
-     ![Screenshot showing Entity Framework NuGet Package.](../data-tools/media/vs-2022/nuget-entity-framework-6.png)
+     ![Screenshot that shows the Entity Framework NuGet Package.](../data-tools/media/vs-2022/nuget-entity-framework-6.png)
     :::moniker-end
 
-1. Now you can use Visual Studio to create a model based on the Northwind database.
+You can now use Visual Studio to create a model based on the Northwind database.
 
-## Create the model
+## Create the ADO.NET entity data model
 
-1. Right-click on the project node in **Solution Explorer** and choose **Add** > **New Item**. In the left pane, under the C# node, choose **Data** and in the middle pane, choose **ADO.NET Entity Data Model**.
+To create the ADO.NET entity data model, follow these steps:
+
+1. Right-click the WPF App project node in **Solution Explorer** and choose **Add** > **New Item**. In the left pane, under the C# node, choose **Data** and in the middle pane, choose **ADO.NET Entity Data Model**.
 
    :::moniker range="<=vs-2019"
-   ![Screenshot of Entity Framework Model New Item.](../data-tools/media/entity-framework-new-project-item.png)
+   ![Screenshot that shows the Add New Item window with ADO.NET Entity Data Model selected.](../data-tools/media/entity-framework-new-project-item.png)
    :::moniker-end
    :::moniker range=">=vs-2022"
-   ![Screenshot of Entity Framework Model New Item.](media/vs-2022/entity-framework-new-project-item.png)
+   ![Screenshot that shows the Add New Item window with ADO.NET Entity Data Model selected.](media/vs-2022/entity-framework-new-project-item.png)
    :::moniker-end
 
-1. Call the model `Northwind_model` and choose **Add**. The **Entity Data Model Wizard** opens. Choose **EF Designer from database**, and then select **Next**.
+1. Enter **Northwind_model** for the **Name**, and then choose **Add**.
 
-   ![Screenshot of EF Model from Database.](../data-tools/media/entity-framework-model-from-database.png)
+1. In the **Entity Data Model Wizard**, choose **EF Designer from database**, and then select **Next**.
 
-1. In the next screen, choose your LocalDB Northwind connection (for example, (localdb)\MSSQLLocalDB), specify the Northwind database, and click **Next**.
+   :::image type="content" source="../data-tools/media/entity-framework-model-from-database.png" alt-text="Screenshot that shows the EF Designer from database selected in the Entity Data Model Wizard.":::
 
-   If you don't see a connection, choose **New Connection**, then in the **Choose Data Source** dialog box, choose **Microsoft SQL Server**, choose **Continue** and in the **Connection Properties** dialog box, enter `(localdb)\MSSQLLocalDB` and under **Select or enter a database name**, choose **Northwind**, then press **OK**.
+1. In **Choose Your Data Connection**, select your LocalDB Northwind connection (for example, **(localdb)\MSSQLLocalDB**), and then select **Next**.
 
-1. If prompted, choose the version of Entity Framework you are using.
+1. If you don't see a connection:
 
-   ![Screenshot showing the version choices.](media/vs-2022/entity-framework-choose-version.png)
+   1. Choose **New Connection**. If **Microsoft SQL Server** isn't selected as the **Data source** in the **Connection Properties** dialog, select **Change**. In the **Choose Data Source** dialog, choose **Microsoft SQL Server**, and then select **OK**.
 
-1. In the next page of the wizard, choose which tables, stored procedures, and other database objects to include in the Entity Framework model. Expand the dbo node in the tree view and choose **Customers**, **Orders**, and **Order Details**. Leave the defaults checked and click **Finish**.
+   1. In the **Connection Properties** dialog, enter **(localdb)\MSSQLLocalDB** as the **Server name**.
 
-    ![Screenshot of choosing database Objects for the model.](../data-tools/media/vs-2022/choose-entity-framework-objects.png)
+   1. For **Select or enter a database name**, select **Northwind**, and then select **OK**.
 
-1. The wizard generates the C# classes that represent the Entity Framework model. The classes are plain old C# classes and they are what we databind to the WPF user interface. The `.edmx` file describes the relationships and other metadata that associates the classes with objects in the database. The `.tt` files are T4 templates that generate the code that operates on the model and saves changes to the database. You can see all these files in **Solution Explorer** under the Northwind_model node:
+   1. In **Choose Your Data Connection**, select your LocalDB Northwind connection, and select **Next**.
+
+1. If prompted, choose the version of Entity Framework you're using, and then select **Next**.
+
+   :::image type="content" source="media/vs-2022/entity-framework-choose-version.png" alt-text="Screenshot that shows the version choices for Entity Framework.":::
+
+1. In the next page of the wizard, choose which tables, stored procedures, and other database objects to include in the Entity Framework model. Expand the **dbo** node under the **Tables** node in the tree view. Select **Customers**, **Order Details**, and **Orders**. Leave the defaults checked and select **Finish**.
+
+    :::image type="content" source="../data-tools/media/vs-2022/choose-entity-framework-objects.png" alt-text="Screenshot that shows the selected database objects of the data model.":::
+
+   The wizard generates the C# classes that represent the Entity Framework model, and are what Visual Studio data binds to the WPF user interface. It creates the following files in your project:
+
+   * The `.edmx` file describes the relationships and other metadata that associates the classes with objects in the database.
+
+   * The `.tt` files are T4 templates that generate the code that operates on the model and saves changes to the database.
+
+   These files are visible in **Solution Explorer** under the **Northwind_model** node:
 
       :::moniker range="<=vs-2019"
-      ![Screenshot showing Solution Explorer Entity Framework model files.](../data-tools/media/solution-explorer-entity-framework-model-files.png)
+      ![Screenshot that shows Solution Explorer Entity Framework model files.](../data-tools/media/solution-explorer-entity-framework-model-files.png)
       :::moniker-end
       :::moniker range=">=vs-2022"
-      ![Screenshot showing Solution Explorer Entity Framework model files](media/vs-2022/solution-explorer-entity-framework-model-files.png)
+      ![Screenshot that shows Solution Explorer Entity Framework model files.](media/vs-2022/solution-explorer-entity-framework-model-files.png)
       :::moniker-end
 
-    The designer surface for the `.edmx` file enables you to modify some properties and relationships in the model. We are not going to use the designer in this walkthrough.
+    The Forms Designer for the `.edmx` file isn't used in this tutorial, but you can use it to modify certain properties and relationships in the model.
 
-1. The `.tt` files are general purpose and you need to tweak one of them to work with WPF databinding, which requires ObservableCollections. In **Solution Explorer**, expand the Northwind_model node until you find *Northwind_model.tt*. (Make sure you are not in the *.Context.tt* file, which is directly below the `.edmx` file.)
+The `.tt` files are general purpose and you must edit one of them to work with WPF data binding, which requires `ObservableCollection` objects. Follow these steps:
 
-   - Replace the two occurrences of <xref:System.Collections.ICollection> with <xref:System.Collections.ObjectModel.ObservableCollection%601>.
+1. In **Solution Explorer**, expand the **Northwind_model** node until you find **Northwind_model.tt**. Double-click this file and make the following edits:
 
-   - Replace the first occurrence of <xref:System.Collections.Generic.HashSet%601> with <xref:System.Collections.ObjectModel.ObservableCollection%601> around line 51. Do not replace the second occurrence of HashSet.
+   * Replace the two occurrences of <xref:System.Collections.ICollection> with <xref:System.Collections.ObjectModel.ObservableCollection%601>.
 
-   - Replace the only occurrence of <xref:System.Collections.Generic> (around line 431) with <xref:System.Collections.ObjectModel>.
+   * Replace the first occurrence of <xref:System.Collections.Generic.HashSet%601> with <xref:System.Collections.ObjectModel.ObservableCollection%601> near line 51. Don't replace the second occurrence of HashSet.
 
-1. Press **F5** or **Ctrl**+**F5** to build and run the project. When the application first runs, the model classes are visible to the data sources wizard.
+   * Replace the only occurrence of <xref:System.Collections.Generic> (near line 431) with <xref:System.Collections.ObjectModel>.
 
-Now you are ready to hook up this model to the XAML page so that you can view, navigate, and modify the data.
+1. Press **F5** to build and run the project. When the application first runs, the model classes are visible to the data sources wizard.
 
-## Databind the model to the XAML page
+Now you're ready to hook up this model to the XAML page so that you can view, navigate, and modify the data.
 
-It is possible to write your own databinding code, but it is much easier to let Visual Studio do it for you.
+## Data bind the model to the XAML page
 
-1. From the main menu, choose **Project** > **Add new data source** to bring up the **Data Source Configuration Wizard**. Choose **Object** because you are binding to the model classes, not to the database:
+Although it's possible to write your own data-binding code, it's easier to let Visual Studio do it for you. To do so, follow these steps:
 
-     ![Screenshot of Data Source Configuration Wizard with Object Source.](../data-tools/media/data-source-configuration-wizard-with-object-source.png)
+1. From the main menu, choose **Project** > **Add new data source** to display the **Data Source Configuration Wizard**. Because you're binding to the model classes, not to the database, choose **Object**. Select **Next**.
 
-1. Expand the node for your project, and select **Customer**. (Sources for Orders are automatically generated from the Orders navigation property in Customer.)
+     :::image type="content" source="../data-tools/media/data-source-configuration-wizard-with-object-source.png" alt-text="Screenshot that shows the Data Source Configuration Wizard with Object selected as the data source.":::
 
-     :::moniker range="<=vs-2019"
-     ![Screenshot showing adding entity classes as data sources.](../data-tools/media/raddata-add-entity-classes-as-data-sources.png)
+1. Expand the node for your project, select the **Customer** object, and then select **Finish**. The sources for **Order** objects are automatically generated from the **Orders** navigation property in **Customer**.
+
+    :::moniker range="<=vs-2019"
+     ![Screenshot that shows the Customer object selected as a data source.](../data-tools/media/raddata-add-entity-classes-as-data-sources.png)
      :::moniker-end
      :::moniker range=">=vs-2022"
-     ![Screenshot showing adding entity classes as data sources.](media/vs-2022/add-entity-classes-as-data-sources.png)
+     ![Screenshot that shows the Customer object selected as a data source.](media/vs-2022/add-entity-classes-as-data-sources.png)
      :::moniker-end
 
-1. Click **Finish**.
+1. In **Solution Explorer**, double-click **MainWindow.xaml** in your project to edit the XAML. Change the `Title` from MainWindow to something more descriptive, and increase its `Height` and `Width` to 600 and 800 (you can change these values later, if necessary).
 
-1. Navigate to *MainWindow.xaml* in Code View. We're keeping the XAML simple for the purposes of this example. Change the title of MainWindow to something more descriptive, and increase its Height and Width to 600 x 800 for now. You can always change it later. Now add these three row definitions to the main grid, one row for the navigation buttons, one for the customer's details, and one for the grid that shows their orders:
+1. Add these three row definitions to the main grid, one row for the navigation buttons, one for the customer's details, and one for the grid that shows their orders:
 
     ```xaml
         <Grid.RowDefinitions>
@@ -140,72 +190,96 @@ It is possible to write your own databinding code, but it is much easier to let 
         </Grid.RowDefinitions>
     ```
 
-1. Now open *MainWindow.xaml* so that you're viewing it in the designer. This causes the **Data Sources** window to appear as an option in the Visual Studio window margin next to the **Toolbox**. Click on the tab to open the window, or else press **Shift**+**Alt**+**D** or choose **View** > **Other Windows** > **Data Sources**. We are going to display each property in the Customers class in its own individual text box. First, click on the arrow in the **Customers** combo box and choose **Details**. Then, drag the node onto the middle part of the design surface so that the designer knows you want it to go in the middle row. If you misplace it, you can specify the row manually later in the XAML (`Grid.Row="1"`). By default, the controls are placed vertically in a grid element, but at this point, you can arrange them however you like on the form. For example, it might make sense to put the **Name** text box on top, above the address. The sample application for this article reorders the fields and rearranges them into two columns.
+Next, you display each property in the `Customers` class in its own individual text box. Follow these steps:
+
+1. In **Solution Explorer**, double-click **MainWindow.xaml** to open it in the designer.
+
+   The **Data Sources** tab appears in the left pane of Visual Studio near the **Toolbox**.
+
+1. To open the **Data Sources** window, select the **Data Sources** tab or choose **View** > **Other Windows** > **Data Sources** from the menu.
+
+1. In **Data Sources**, select **Customers**, and then select **Details** from the drop-down list.
+
+1. Drag the node to the middle row of the design area. If you misplace it, you can later specify the row manually in the XAML by selecting `Grid.Row="1"`.
+
+   By default, the controls are placed vertically in a grid element, but you can arrange them however you like on the form. For example, you could place the **Name** text box above the address. The sample application for this tutorial reorders the fields and rearranges them into two columns.
 
      :::moniker range="<=vs-2019"
-     ![Screenshot showing Customers data source binding to individual controls.](../data-tools/media/raddata-customers-data-source-binding-to-individual-controls.png)
+     ![Screenshot that shows Customers data source binding to individual controls.](../data-tools/media/raddata-customers-data-source-binding-to-individual-controls.png)
      ::: moniker-end
      :::moniker range=">=vs-2022"
-     ![Screenshot showing Customers data source binding to individual controls.](media/vs-2022/customers-data-source-binding-to-individual-controls.png)
+     ![Screenshot that shows Customers data source binding to individual controls.](media/vs-2022/customers-data-source-binding-to-individual-controls.png)
      :::moniker-end
 
-     In the XAML view, you can now see a new `Grid` element in row 1 (the middle row) of the parent Grid. The parent Grid has a `DataContext` attribute that refers to a <xref:System.Windows.Data.CollectionViewSource> that's been added to the `Windows.Resources` element. Given that data context, when the first text box binds to **Address**, that name is mapped to the `Address` property in the current `Customer` object in the `CollectionViewSource`.
+     In the XAML view, you can now see a new `Grid` element in row 1 (the middle row) of the parent grid. The parent grid has a `DataContext` attribute that refers to a <xref:System.Windows.Data.CollectionViewSource> that belongs to the `Windows.Resources` element. Given that data context, when the first text box binds to **Address**, that name is mapped to the `Address` property in the current `Customer` object in `CollectionViewSource`.
 
     ```xaml
     <Grid DataContext="{StaticResource customerViewSource}">
     ```
 
-1. When a customer is visible in the top half of the window, you want to see their orders in the bottom half. You show the orders in a single grid view control. For master-detail databinding to work as expected, it is important that you bind to the Orders property in the Customers class, not to the separate Orders node. Drag the Orders property of the Customers class to the lower half of the form, so that the designer puts it in row 2:
+1. Drag the `Order`object's property of the `Customers` class to the lower half of the form, so that the designer puts it in row 2.
+
+   When a customer is visible in the top half of the form, you want to see their orders in the bottom half. You show the orders in a single grid view control. For master-detail data binding to work as expected, it's important that you bind to the `Orders` property in the `Customers` class, not to the separate `Orders` node.
 
      :::moniker range="vs-2019"
-     ![Screenshot showing Orders classes dragged and dropped as a grid.](../data-tools/media/drag-orders-classes-as-grid.png)
+     ![Screenshot that shows the Orders classes dragged and dropped as a grid.](../data-tools/media/drag-orders-classes-as-grid.png)
      :::moniker-end
      :::moniker range=">=vs-2022"
-     ![Screenshot showing Orders classes dragged and dropped as a grid.](media/vs-2022/drag-orders-classes-as-grid.png)
+     ![Screenshot that shows the Orders classes dragged and dropped as a grid.](media/vs-2022/drag-orders-classes-as-grid.png)
      :::moniker-end
 
-1. Visual Studio has generated all the binding code that connects the UI controls to events in the model. All you need to do, in order to see some data, is to write some code to populate the model. First, navigate to *MainWindow.xaml.cs* and add a data member to the MainWindow class for the data context. This object, which has been generated for you, acts something like a control that tracks changes and events in the model. You'll also add CollectionViewSource data members for customers and orders, and the associated constructor initialization logic to the existing constructor `MainWindow()`. The top of the class should look like this:
+   Visual Studio now generates all the binding code that connects the UI controls to events in the model.
+
+1. To see some data, write code to populate the model. Navigate to `MainWindow.xaml.cs` and add a data member to the `MainWindow` class for the data context.
+
+   This object, which was generated for you, acts  like a control that tracks changes and events in the model.
+
+1. Add `CollectionViewSource` data members for customers and orders, and the associated constructor initialization logic to the existing constructor `MainWindow()`. The first part of the class should look like this:
 
      :::code language="csharp" source="../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs" id="Snippet1":::
 
-     If it's not there already, add a `using` directive for System.Data.Entity to bring the `Load` extension method into scope:
+1. If it doesn't exist, add a `using` directive for `System.Data.Entity` to bring the `Load` extension method into scope:
 
      ```csharp
      using System.Data.Entity;
      ```
 
-     Now, scroll down and find the `Window_Loaded` event handler. Notice that Visual Studio has added a CollectionViewSource object. This represents the NorthwindEntities object that you selected when you created the model. You added that already, so you don't need it here. Let's replace the code in `Window_Loaded` so that the method now looks like this:
+1. Scroll down and find the `Window_Loaded` event handler. Notice that Visual Studio added a `CollectionViewSource` object. This object represents the `NorthwindEntities` object that you selected when you created the model. Because you already added it, you don't need it here. Replace the code in `Window_Loaded` so that the method looks like this:
 
      :::code language="csharp" source="../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs" id="Snippet2":::
 
-1. Press **F5**. You should see the details for the first customer that was retrieved into the CollectionViewSource. You should also see their orders in the data grid. The formatting isn't great, so let's fix that up. You can also create a way to view the other records and do basic create, read, update, and delete (CRUD) operations.
+1. Press **F5**.
+
+   You should see the details for the first customer that was retrieved into the `CollectionViewSource` and their orders in the data grid. You'll fix the formatting in the next section. You can also create a way to view the other records and do basic create, read, update, and delete (CRUD) operations.
 
 ## Adjust the page design and add grids for new customers and orders
 
-The default arrangement produced by Visual Studio is not ideal for your application, so we'll provide the final XAML here to copy into your code. You also need some "forms" (which are actually Grids) to enable the user to add a new customer or order. In order to be able to add a new customer and order, you need a separate set of text boxes that are not data-bound to the `CollectionViewSource`. You'll control which grid the user sees at any given time by setting the Visible property in the handler methods. Finally, you add a Delete button to each row in the Orders grid to enable the user to delete an individual order.
+The default arrangement produced by Visual Studio isn't ideal for your application, so we provide the final XAML here to copy into your code. You also need some grids to enable the user to add a new customer or order.
 
-First, add these styles to the `Windows.Resources` element in *MainWindow.xaml*:
+To add a new customer and order, create a separate set of text boxes that aren't data-bound to the `CollectionViewSource`. You control which grid the user sees at any given time by setting the Visible property in the handler methods. Finally, you add a Delete button to each row in the Orders grid to enable the user to delete an individual order.
 
-```xaml
-<Style x:Key="Label" TargetType="{x:Type Label}" BasedOn="{x:Null}">
-    <Setter Property="HorizontalAlignment" Value="Left"/>
-    <Setter Property="VerticalAlignment" Value="Center"/>
-    <Setter Property="Margin" Value="3"/>
-    <Setter Property="Height" Value="23"/>
-</Style>
-<Style x:Key="CustTextBox" TargetType="{x:Type TextBox}" BasedOn="{x:Null}">
-    <Setter Property="HorizontalAlignment" Value="Right"/>
-    <Setter Property="VerticalAlignment" Value="Center"/>
-    <Setter Property="Margin" Value="3"/>
-    <Setter Property="Height" Value="26"/>
-    <Setter Property="Width" Value="120"/>
-</Style>
-```
+1. Open `MainWindow.xaml` and add the following styles to the `Windows.Resources` element:
 
-Next, replace the entire outer Grid with this markup:
+   ```xaml
+   <Style x:Key="Label" TargetType="{x:Type Label}" BasedOn="{x:Null}">
+      <Setter Property="HorizontalAlignment" Value="Left"/>
+      <Setter Property="VerticalAlignment" Value="Center"/>
+      <Setter Property="Margin" Value="3"/>
+      <Setter Property="Height" Value="23"/>
+   </Style>
+   <Style x:Key="CustTextBox" TargetType="{x:Type TextBox}" BasedOn="{x:Null}">
+      <Setter Property="HorizontalAlignment" Value="Right"/>
+      <Setter Property="VerticalAlignment" Value="Center"/>
+      <Setter Property="Margin" Value="3"/>
+      <Setter Property="Height" Value="26"/>
+      <Setter Property="Width" Value="120"/>
+   </Style>
+   ```
 
-```xaml
-<Grid>
+1. Replace the entire outer grid with this markup:
+
+   ```xaml
+   <Grid>
      <Grid.RowDefinitions>
          <RowDefinition Height="auto"/>
          <RowDefinition Height="auto"/>
@@ -381,19 +455,24 @@ Next, replace the entire outer Grid with this markup:
              <DataGridTextColumn x:Name="shipRegionColumn" Binding="{Binding ShipRegion}" Header="Ship Region" Width="SizeToHeader"/>
              <DataGridTextColumn x:Name="shipViaColumn" Binding="{Binding ShipVia}" Header="Ship Via" Width="SizeToHeader"/>
          </DataGrid.Columns>
-     </DataGrid>
- </Grid>
-```
+      </DataGrid>
+   </Grid>
+   ```
 
 ## Add buttons to navigate, add, update, and delete
 
-In Windows Forms applications, you get a BindingNavigator object with buttons for navigating through rows in a database and doing basic CRUD operations. WPF does not provide a BindingNavigator, but it is easy enough to create one. You do that with buttons inside a horizontal StackPanel, and associate the buttons with Commands that are bound to methods in the code behind.
+In a Windows Forms application, you're provided with a `BindingNavigator` object with buttons for navigating through rows in a database and doing basic CRUD operations. Although WPF doesn't provide a `BindingNavigator`, it's easy to create one by creating buttons inside a horizontal `StackPanel`, and associating the buttons with commands that are bound to methods in the code-behind file.
 
-There are four parts to the command logic: (1) the commands, (2) the bindings, (3) the buttons, and (4) the command handlers in the code-behind.
+There are four parts to the command logic:
+
+* Commands
+* Bindings
+* Buttons
+* Command handlers in the code-behind
 
 ### Add commands, bindings, and buttons in XAML
 
-1. First, add the commands in the *MainWindow.xaml* file inside the `Windows.Resources` element:
+1. In the `MainWindow.xaml` file, add the commands inside the `Windows.Resources` element as follows:
 
     ```xaml
     <RoutedUICommand x:Key="FirstCommand" Text="First"/>
@@ -407,7 +486,7 @@ There are four parts to the command logic: (1) the commands, (2) the bindings, (
     <RoutedUICommand x:Key="CancelCommand" Text="Cancel"/>
     ```
 
-1. A CommandBinding maps a `RoutedUICommand` event to a method in the code behind. Add this `CommandBindings` element after the `Windows.Resources` closing tag:
+1. A `CommandBinding` maps a `RoutedUICommand` event to a method in the code behind. Add this `CommandBindings` element after the `Windows.Resources` closing tag as follows:
 
     ```xaml
     <Window.CommandBindings>
@@ -423,7 +502,7 @@ There are four parts to the command logic: (1) the commands, (2) the bindings, (
     </Window.CommandBindings>
     ```
 
-1. Now, add the `StackPanel` with the navigation, add, delete, and update buttons. First, add this style to `Windows.Resources`:
+1. Add the `StackPanel` with the navigation, add, delete, and update buttons. Add this style to `Windows.Resources`:
 
     ```xaml
     <Style x:Key="NavButton" TargetType="{x:Type Button}" BasedOn="{x:Null}">
@@ -435,9 +514,9 @@ There are four parts to the command logic: (1) the commands, (2) the bindings, (
     </Style>
     ```
 
-     Second, paste this code just after the `RowDefinitions` for the outer `Grid` element, toward the top of the XAML page:
+1. Paste this code just after the `RowDefinitions` for the outer `Grid` element, toward the top of the XAML page:
 
-    ```xaml
+   ```xaml
     <StackPanel Orientation="Horizontal" Margin="2,2,2,0" Height="36" VerticalAlignment="Top" Background="Gainsboro" DataContext="{StaticResource customerViewSource}" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin">
         <Button Name="btnFirst" Content="|◄" Command="{StaticResource FirstCommand}" Style="{StaticResource NavButton}"/>
         <Button Name="btnPrev" Content="◄" Command="{StaticResource PreviousCommand}" Style="{StaticResource NavButton}"/>
@@ -449,21 +528,33 @@ There are four parts to the command logic: (1) the commands, (2) the bindings, (
         <Button Name="btnUpdate" Content="Commit" Command="{StaticResource UpdateCommand}" FontSize="11" Width="80" Style="{StaticResource NavButton}"/>
         <Button Content="Cancel" Name="btnCancel" Command="{StaticResource CancelCommand}" FontSize="11" Width="80" Style="{StaticResource NavButton}"/>
     </StackPanel>
-    ```
+   ```
 
 ### Add command handlers to the MainWindow class
 
-The code-behind is minimal except for the add and delete methods. Navigation is performed by calling methods on the View property of the CollectionViewSource. The `DeleteOrderCommandHandler` shows how to perform a cascade delete on an order. We have to first delete the Order_Details that are associated with it. The `UpdateCommandHandler` adds a new customer or order to the collection, or else just updates an existing customer or order with the changes that the user made in the text boxes.
+The code-behind in `MainWindow.xaml.cs` is minimal except for the add and delete methods:
 
-Add these handler methods to the MainWindow class in *MainWindow.xaml.cs*. If your CollectionViewSource for the Customers table has a different name, then you need to adjust the name in each of these methods:
+1. To navigate, call methods on the `View` property of the `CollectionViewSource`.
 
-:::code language="csharp" source="../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs" id="Snippet3":::
+1. To perform a cascade delete on an order, use the `DeleteOrderCommandHandler` as shown in the code sample. However, you must first delete the order's associated `Order_Details`.
 
-## Run the application
+1. Use the `UpdateCommandHandler` to add a customer or order to the collection, or update an existing customer or order with the changes that the user makes in the text boxes.
 
-To start debugging, press **F5**. You should see customer and order data populated in the grid, and the navigation buttons should work as expected. Click on **Commit** to add a new customer or order to the model after you have entered the data. Click on **Cancel** to back out of a new customer or new order form without saving the data. You can make edits to existing customers and orders directly in the text boxes, and those changes are written to the model automatically.
+1. Add these handler methods to the `MainWindow` class in `MainWindow.xaml.cs`. If your `CollectionViewSource` for the Customers table has a different name, you must adjust the name in each of the methods:
+
+   :::code language="csharp" source="../data-tools/codesnippet/CSharp/CreateWPFDataApp/MainWindow.xaml.cs" id="Snippet3":::
+
+## Run the WPF application
+
+1. To start debugging, press **F5**. Verify that customer and order data are populated in the grid, and the navigation buttons work as expected.
+
+1. Select **Commit** to add a new customer or order to the model after you enter the data.
+
+1. Select **Cancel** to back out of a new customer or new order form without saving the data.
+
+1. To make edits to existing customers and orders directly, use the text boxes, which write those changes to the model automatically.
 
 ## Related content
 
-- [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)
-- [Entity Framework documentation](/ef/)
+* [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)
+* [Entity Framework documentation](/ef/)

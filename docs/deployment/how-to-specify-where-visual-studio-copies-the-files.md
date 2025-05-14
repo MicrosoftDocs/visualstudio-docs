@@ -1,8 +1,10 @@
 ---
 title: Specify ClickOnce Publish properties
 description: Learn how to set the Publish properties for a ClickOnce application, such as the location where the application files and manifest are put, and the installation URL.
-ms.date: 06/26/2024
+ms.date: 05/05/2025
 ms.topic: how-to
+f1_keywords:
+  - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.PropertyPage"
 dev_langs: 
   - VB
   - CSharp
@@ -47,9 +49,9 @@ You can configure ClickOnce Publish properties on the **Publish** page of the **
 
 ## Specify a publishing location
 
-When you publish an application by using ClickOnce, the `Publish Location` property specifies the location where the application files and manifest are put. This can be a file path or the path to an FTP server.
+When you publish an application by using ClickOnce, the `Publish Location` property specifies the location where the application files and manifest are put. This can be a drive path (`C:\deploy\myapplication`), a file share (`\\server\myapplication`), or an FTP server (`ftp://ftp.microsoft.com/myapplication`). Note that text must be present in the **Publishing Location** box in order for the browse (**...**) button to work.
 
- You can specify the `Publish Location` property on the **Publish** page of the **Project Designer**, or by using the Publish Wizard. For more information, see [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).
+You can specify the `Publish Location` property on the **Publish** page of the **Project Designer**, or by using the Publish Wizard. For more information, see [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).
 
 > [!NOTE]
 > When you install more than one version of an application by using ClickOnce, the installation moves earlier versions of the application into a folder named Archive, in the publish location that you specify. Archiving earlier versions in this manner keeps the installation directory clear of folders from the earlier version.
@@ -118,8 +120,12 @@ The ClickOnce `Publish Version` property determines whether or not the applicati
 
 The `Publish Version` property can be set on the **Publish** page of the **Project Designer**.
 
+When the version number is changed, the application is published as an update. Each part of the publish version (**Major**, **Minor**, **Build**, **Revision**) can have a maximum value of 65535 (<xref:System.UInt16.MaxValue>), the maximum allowed by <xref:System.Version>.
+
+When you install more than one version of an application by using ClickOnce, the installation moves earlier versions of the application into a folder named Archive, in the publish location that you specify. Archiving earlier versions in this manner keeps the installation directory clear of folders from the earlier version.
+
 > [!NOTE]
-> There is a project option that will automatically increment the `Publish Version` property each time the application is published; this option is enabled by default. For more information, see [Automatically Increment the ClickOnce Publish Version](../deployment/how-to-specify-where-visual-studio-copies-the-files.md#automatically-increment-the-clickonce-publish-version).
+> There's a project option that will automatically increment the `Publish Version` property each time the application is published; this option is enabled by default. For more information, see [Automatically Increment the ClickOnce Publish Version](../deployment/how-to-specify-where-visual-studio-copies-the-files.md#automatically-increment-the-clickonce-publish-version).
 
 ### Change the publish version
 
@@ -153,7 +159,7 @@ You can disable this behavior on the **Publish** page of the **Project Designer*
 
 When publishing a ClickOnce application, a default Web page (publish.htm) is generated and published along with the application. This page contains the name of the application, a link to install the application and/or any prerequisites, and a link to a Help topic describing ClickOnce. The **Publish Page** property for your project allows you to specify a name for the Web page for your ClickOnce application.
 
-Once the publish page has been specified, the next time you publish, it will be copied to the publish location; it will not be overwritten if you publish again. If you wish to customize the appearance of the page, you can do so without worrying about losing your changes. For more information, see [Customize the ClickOnce default Web page](#customize-the-default-web-page-for-a-clickonce-application).
+Once the publish page has been specified, the next time you publish, it will be copied to the publish location; it won't be overwritten if you publish again. If you wish to customize the appearance of the page, you can do so without worrying about losing your changes. For more information, see [Customize the ClickOnce default Web page](#customize-the-default-web-page-for-a-clickonce-application).
 
 The **Publish Page** property can be set in the **Publish Options** dialog box, accessible from the **Publish** pane of the **Project Designer**.
 
@@ -229,7 +235,7 @@ To specify a support URL:
 
 A ClickOnce deployment can test for a number of prerequisites that must be available on the client computer for the ClickOnce application to run. These dependencies include the required minimum version of the .NET Framework, the version of the operating system, and any assemblies that must be preinstalled in the global assembly cache (GAC). ClickOnce, however, can't install any of these prerequisites itself; if a prerequisite isn't found, it simply halts installation and displays a dialog box explaining why the installation failed.
 
-There are two methods for installing prerequisites. You can install them using a bootstrapper application. Alternatively, you can specify a support URL for individual prerequisites, which is displayed to users on the dialog box if the prerequisite isn't found. The page referenced by that URL can contain links to instructions for installing the required prerequisite. If an application doesn't specify a support URL for an individual prerequisite, ClickOnce displays the support URL specified in the deployment manifest for the application as a whole, if it is defined.
+There are two methods for installing prerequisites. You can install them using a bootstrapper application. Alternatively, you can specify a support URL for individual prerequisites, which is displayed to users on the dialog box if the prerequisite isn't found. The page referenced by that URL can contain links to instructions for installing the required prerequisite. If an application doesn't specify a support URL for an individual prerequisite, ClickOnce displays the support URL specified in the deployment manifest for the application as a whole, if it's defined.
 
 While Visual Studio, *Mage.exe*, and *MageUI.exe* can all be used to generate ClickOnce deployments, none of these tools directly support specifying a support URL for individual prerequisites. This document describes how to modify your deployment's application manifest and deployment manifest to include these support URLs.
 
@@ -287,6 +293,8 @@ While Visual Studio, *Mage.exe*, and *MageUI.exe* can all be used to generate Cl
 ### .NET Framework security
 
 The support URL isn't displayed on the dialog box if the application is marked to run in partial trust.
+
+ [!INCLUDE[ndptecclick](../deployment/includes/code-access-security-partial-trust.md)]
 
 ## Change the publish language for a ClickOnce application
 

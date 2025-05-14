@@ -32,7 +32,7 @@ In this tutorial, you:
 
 - This article is part of a tutorial series. The procedures build on an established example that requires [Docker Desktop](https://docs.docker.com/desktop/) for Linux containers.
 
-   The recommended approach is to complete the first tutorial, [Create a Docker container app](docker-tutorial.md), including satisfying the prerequisites, and also the tutorial, [Persist data in your app](tutorial-persist-data-layer-docker-app-with-vscode.md). After you work through these tutorials, continue with the procedures described in this article.
+   The recommended approach is to complete the first tutorial, [Create a container app](docker-tutorial.md), including satisfying the prerequisites, and also the tutorial, [Persist data in your app](tutorial-persist-data-layer-docker-app-with-vscode.md). After you work through these tutorials, continue with the procedures described in this article.
 
 - The example in this article uses [Docker Compose](https://docs.docker.com/compose/).
 
@@ -56,9 +56,9 @@ In this tutorial, you:
 
 This tutorial series describes procedures for Visual Studio Code (VS Code). Review the following considerations for working in this environment:
 
-- Use the left menu to switch between **DOCKER** (Docker extension) view or the **EXPLORER** (file and folder) view:
+- Use the left menu to switch between the **CONTAINER EXPLORER** or the **EXPLORER** (file and folder) view:
 
-   :::image type="content" source="./media/vs-code-docker-explorer-views.png" border="false" alt-text="Screenshot that shows the Docker extension view and file/folder Explorer view in Visual Studio Code.":::
+   :::image type="content" source="./media/vs-code-docker-explorer-views.png" border="false" alt-text="Screenshot that shows the Container Explorer and file/folder Explorer view in Visual Studio Code.":::
 
 - Open a command-line window in VS Code by selecting **Terminal** > **New Terminal**. You can also use the **Ctrl**+**Shift**+**`** (back tick) keyboard shortcut.
 
@@ -89,11 +89,11 @@ In this example, you create the network and attach the MySQL container at startu
        --network todo-app --network-alias mysql 
        -v todo-mysql-data:/var/lib/mysql 
        -e MYSQL_ROOT_PASSWORD=<your-password> 
-       -e MYSQL_DB=todos 
+       -e MYSQL_DATABASE=todos 
        mysql:5.7
    ```
 
-   This command also defines the `MYSQL_ROOT_PASSWORD` and `MYSQL_DB` environment variables. For more information, see [MySQL Docker Hub listing](https://hub.docker.com/_/mysql/).
+   This command also defines the `MYSQL_ROOT_PASSWORD` and `MYSQL_DATABASE` environment variables. For more information, see [MySQL Docker Hub listing](https://hub.docker.com/_/mysql/).
 
    > [!WARNING]
    > This tutorial illustrates password credentials to authenticate with a MySQL database, which is not the most secure method. Refer to the [MySQL documentation](https://dev.mysql.com/doc/) to learn about more secure methods of authentication.
@@ -146,7 +146,7 @@ The `todo` app supports setting certain environment variables to specify your My
 | `MYSQL_HOST` | `mysql` | The host name for the MySQL server. |
 | `MYSQL_USER` | `root` | The username to use for the connection. |
 | `MYSQL_PASSWORD` | `<your-password>` | The password to use for the connection. In this example, substitute your root password for the `<your-password>` placeholder. |
-| `MYSQL_DB` | `todos` | The name of the database to use after the connection is established. |
+| `MYSQL_DATABASE` | `todos` | The name of the database to use after the connection is established. |
 
 > [!WARNING]
 > Using environment variables to set connection settings is acceptable for development, but this practice isn't recommended for running applications in production. For more information, see [Why you shouldn't use environment variables for secret data](https://diogomonica.com/2017/03/27/why-you-shouldnt-use-env-variables-for-secret-data/).
@@ -166,12 +166,12 @@ In the following example, you start your app and connect your app container to y
      -e MYSQL_HOST=mysql 
      -e MYSQL_USER=root 
      -e MYSQL_PASSWORD=<your-password> 
-     -e MYSQL_DB=todos 
+     -e MYSQL_DATABASE=todos 
      node:20-alpine 
      sh -c "yarn install && yarn run dev"
    ```
 
-1. In the VS Code editor, open the Docker extension view, right-click your app container, and select **View Logs**.
+1. In the VS Code editor, open the Container Explorer, right-click your app container, and select **View Logs**.
 
    You can also view the logs from the command line by using the `docker logs` command.
 
@@ -255,7 +255,7 @@ In the following example, you configure a Docker Compose file for your multi-con
      -e MYSQL_HOST=mysql 
      -e MYSQL_USER=root 
      -e MYSQL_PASSWORD=<your-password> 
-     -e MYSQL_DB=todos 
+     -e MYSQL_DATABASE=todos 
      node:20-alpine 
      sh -c "yarn install && yarn run dev"
    ```
@@ -320,7 +320,7 @@ In the following example, you configure a Docker Compose file for your multi-con
          MYSQL_HOST: mysql
          MYSQL_USER: root
          MYSQL_PASSWORD: <your-password>
-         MYSQL_DB: todos
+         MYSQL_DATABASE: todos
    ```
 
    Remember to enter your MySQL root password for the `<your-password>` placeholder. 
@@ -361,7 +361,7 @@ In the following example, you configure a Docker Compose file for your multi-con
          - todo-mysql-data:/var/lib/mysql
        environment: 
          MYSQL_ROOT_PASSWORD: <your-password>
-         MYSQL_DB: todos
+         MYSQL_DATABASE: todos
    ```
 
    Remember to enter your MySQL root password for the `<your-password>` placeholder. 
@@ -394,7 +394,7 @@ In the following example, you configure a Docker Compose file for your multi-con
          MYSQL_HOST: mysql
          MYSQL_USER: root
          MYSQL_PASSWORD: <your-password>
-         MYSQL_DB: todos
+         MYSQL_DATABASE: todos
 
      mysql:
        image: mysql:5.7
@@ -402,7 +402,7 @@ In the following example, you configure a Docker Compose file for your multi-con
          - todo-mysql-data:/var/lib/mysql
        environment: 
          MYSQL_ROOT_PASSWORD: <your-password>
-         MYSQL_DB: todos
+         MYSQL_DATABASE: todos
 
    volumes:
      todo-mysql-data:
@@ -418,7 +418,7 @@ Now you can try running your *docker-compose.yml* file.
 
    Follow these steps in VS Code:
 
-   1. Open the **DOCKER** (Docker extension) view.
+   1. Open the **CONTAINER EXPLORER** (Container Tools extension).
    
    1. For each running container, right-click the container and select **Remove**.
 
@@ -476,7 +476,7 @@ Now you can try running your *docker-compose.yml* file.
 
    Follow these steps in VS Code:
 
-   1. Open the **DOCKER** (Docker extension) view.
+   1. Open the **CONTAINER EXPLORER** (Container Tools extension).
    
    1. Right-click the app container and select **View Logs**.
 

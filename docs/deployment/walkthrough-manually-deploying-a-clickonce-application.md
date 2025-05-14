@@ -31,7 +31,7 @@ If you cannot use Visual Studio to deploy your ClickOnce application, or you nee
 
 - Install `Mage.exe` and *MageUI.exe*.
 
-   `Mage.exe` and `MageUI.exe` are part of the Windows Software Development Kit (SDK). You must either have the Windows SDK installed or the version of the Windows SDK included with Visual Studio. For more information, see [Windows SDK](https://www.microsoft.com/download/details.aspx?id=8279) on MSDN.
+   `Mage.exe` and `MageUI.exe` are part of the Windows Software Development Kit (SDK). You must either have the Windows SDK installed or the version of the Windows SDK included with Visual Studio.
 
 - Provide an application to deploy.
 

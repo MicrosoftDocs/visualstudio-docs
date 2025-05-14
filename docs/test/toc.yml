@@ -2,7 +2,7 @@
   href: index.yml
 - name: Overview
   items:
-  - name: First look at testing tools
+  - name: Overview of testing tools
     href: improve-code-quality.md
   - name: Unit test tools and tasks
     href: unit-test-your-code.md

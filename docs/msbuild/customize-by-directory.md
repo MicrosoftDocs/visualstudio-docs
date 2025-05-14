@@ -46,7 +46,9 @@ For example, here's a *Directory.Build.props* file that sets the output director
 
 1. Clean the solution to remove any old output files.
 
-   `msbuild /t:Clean SolutionName.sln`
+   ```
+   msbuild /t:Clean SolutionName.sln
+   ```
 
 1. Create a new file in the root of your repo called *Directory.Build.props*.
 
@@ -115,7 +117,9 @@ It might be desirable to have common properties for all projects *(1)*, common p
 
 To make MSBuild correctly merge the "inner" files (*2-src* and *2-test*) with the "outer" file (*1*), you must take into account that once MSBuild finds a *Directory.Build.props* file, it stops further scanning. To continue scanning and merge into the outer file, place this code into both inner files:
 
-`<Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />`
+```xml
+<Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+```
 
 A summary of MSBuild's general approach is as follows:
 

@@ -17,9 +17,13 @@ The Microsoft Build Engine is a platform for building applications. This engine,
 
 Visual Studio uses MSBuild to load and build managed projects. The project files in Visual Studio (*.csproj*, *.vbproj*, *.vcxproj*, and others) contain MSBuild XML code that executes when you build a project in the IDE. Visual Studio projects import all the necessary settings and build processes to do typical development work, but you can extend or modify them from within Visual Studio or by using a text editor.
 
+## Install MSBuild
+
 To install MSBuild on a Windows system that doesn't have Visual Studio, go to **Build Tools for Visual Studio** on the [downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta). Installing MSBuild by this method gives you *MSBuild.exe*.
 
 For .NET Core and .NET 5 or later, another way of getting the equivalent to MSBuild is to install the [.NET SDK](/dotnet/core/sdk#acquiring-the-net-sdk). The .NET build command `dotnet build` is available with the .NET SDK on macOS, Windows, or Linux. The .NET build command `dotnet build` is a thin wrapper over the .NET Core version of *MSBuild.exe*. You can use the [.NET Core command-line interface (CLI)](/dotnet/core/tools/), which uses MSBuild, to build projects that target .NET Core and .NET 5 and later. 
+
+## About MSBuild
 
 ::: moniker range=">=vs-2022"
 Starting with Visual Studio 2022, when you build in Visual Studio, the 64-bit version of MSBuild is used.
@@ -217,6 +221,7 @@ MSBuild is an open-source project that accepts user contributions at the [MSBuil
 | [Multitargeting](../msbuild/msbuild-multitargeting-overview.md) | Shows how to target multiple .NET versions and/or multiple platforms. |
 | [Obtaining build logs](obtaining-build-logs-with-msbuild.md) | Describes how to log build events, messages, and errors. |
 | [How MSBuild builds projects](build-process-overview.md) | Describes the internal build process used within MSBuild |
+| [Secure MSBuild usage best practices](msbuild-security-best-practices.md) | Describes the best practices to configure and run your builds with MSBuild |
 | [Create a custom task for code generation](tutorial-custom-task-code-generation.md) | Shows how to create a custom task, with a code example. |
 | [Use MSBuild to generate a REST API client](tutorial-rest-api-client-msbuild.md) | Shows how to extend the build to handle REST API client generation, with a code example. |
 | [Additional resources](https://social.msdn.microsoft.com/forums/vstudio/home?forum=msbuild) | Lists community and support resources for more information about MSBuild. |

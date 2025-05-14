@@ -4,7 +4,7 @@
   items:
   - name: What is debugging?
     href: what-is-debugging.md
-  - name: First look at the debugger
+  - name: Overview of the debugger
     href: debugger-feature-tour.md
   - name: Debugging techniques and tools
     href: write-better-code-with-visual-studio.md
@@ -138,8 +138,6 @@
           href: project-settings-for-a-cpp-debug-configuration.md
         - name: Enable debug features in C++ (-D_DEBUG)
           href: enabling-debug-features-in-visual-cpp-d-debug.md
-        - name: Pass command-line arguments while debugging (C++)
-          href: specify-command-line-arguments.md
       - name: Project settings (C#)
         href: project-settings-for-csharp-debug-configurations.md
       - name: Project settings (.NET C#)
@@ -364,30 +362,12 @@
       href: /visualstudio/bridge/bridge-to-kubernetes-vs
     - name: Debug with Container Tools >>
       href: ../containers/edit-and-refresh.md
+  - name: Immediate window
+    href: ../ide/reference/immediate-window.md
   - name: Work with...
     items:
     - name: 64-Bit applications
       href: debug-64-bit-applications.md
-    - name: UWP apps
-      items:
-      - name: Debug UWP apps >>
-        href: /windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps
-      - name: Debug UWP apps on a remote machine
-        href: run-windows-store-apps-on-a-remote-machine.md
-      - name: Run UWP apps in the simulator
-        href: run-windows-store-apps-in-the-simulator.md
-      - name: Deploy UWP apps from Visual Studio
-        href: deploy-windows-store-apps-from-visual-studio.md
-      - name: Debug an installed app package
-        href: debug-installed-app-package.md
-      - name: Inspect XAML properties while debugging >>
-        href: ../xaml-tools/inspect-xaml-properties-while-debugging.md
-      - name: Write and debug running XAML code >>
-        href: ../xaml-tools/xaml-hot-reload.md
-      - name: Debug XAML in Blend >>
-        href: ../xaml-tools/debug-xaml-in-blend.md
-      - name: How to trigger suspend, resume, and background events
-        href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
     - name: .NET
       items:
       - name: Recommended property settings
@@ -426,6 +406,26 @@
           href: how-to-debug-the-onstart-method.md
       - name: F#
         href: debugging-f-hash.md
+    - name: UWP apps
+      items:
+      - name: Debug UWP apps >>
+        href: /windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps
+      - name: Debug UWP apps on a remote machine
+        href: run-windows-store-apps-on-a-remote-machine.md
+      - name: Run UWP apps in the simulator
+        href: run-windows-store-apps-in-the-simulator.md
+      - name: Deploy UWP apps from Visual Studio
+        href: deploy-windows-store-apps-from-visual-studio.md
+      - name: Debug an installed app package
+        href: debug-installed-app-package.md
+      - name: Inspect XAML properties while debugging >>
+        href: ../xaml-tools/inspect-xaml-properties-while-debugging.md
+      - name: Write and debug running XAML code >>
+        href: ../xaml-tools/xaml-hot-reload.md
+      - name: Debug XAML in Blend >>
+        href: ../xaml-tools/debug-xaml-in-blend.md
+      - name: How to trigger suspend, resume, and background events
+        href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
     - name: C/C++ code
       items:
       - name: Debug native code
@@ -434,6 +434,8 @@
         href: debugging-preparation-visual-cpp-project-types.md
       - name: Debug optimized code
         href: how-to-debug-optimized-code.md
+      - name: C++ Dynamic Debugging
+        href: cpp-dynamic-debugging.md
       - name: DebugBreak and __debugbreak
         href: debugbreak-and-debugbreak.md
       - name: C/C++ assertions

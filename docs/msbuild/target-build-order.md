@@ -1,7 +1,7 @@
 ---
 title: Set the run order for MSBuild targets
 description: Specify the order in which MSBuild targets run and whether the input to one target depends on the output of another target.
-ms.date: 05/15/2024
+ms.date: 5/1/2025
 ms.topic: how-to
 helpviewer_keywords:
 - msbuild, build order
@@ -129,7 +129,7 @@ MSBuild determines the target build order as follows:
 
 3. The `Condition` attribute of the target is evaluated. If the `Condition` attribute is present and evaluates to `false`, the target isn't executed and has no further effect on the build.
 
-   Other targets that list the conditional target in `BeforeTargets` or `AfterTargets` still execute in the prescribed order.
+   Other targets that list the conditional target in `BeforeTargets` or `AfterTargets` still execute in the prescribed order, regardless of the result of the condition.
 
 4. Before the target is executed or skipped, its `DependsOnTargets` targets are run, unless the `Condition` attribute is applied to the target and evaluates to `false`.
 

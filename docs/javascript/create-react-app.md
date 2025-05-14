@@ -1,7 +1,7 @@
 ---
 title: Create a React app in Visual Studio
 description: Create, build, and run a React to-do list web application project from a Visual Studio template.
-ms.date: 10/08/2024
+ms.date: 04/09/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -38,7 +38,7 @@ Make sure to install the following:
 
    It’s a common convention to place components in a components folder, but this is not required. 
 
-1. Right-click the new folder, select **Add > React JSX Component File**, name it `TodoList`, and click **Add**.
+1. Right-click the new folder, select **Add > New Item**, then choose **React JSX Component File** in the dialog box, name it `TodoList`, and click **Add**.
 
    :::image type="content" source="media/vs-2022/react-add-jsx-component.png" alt-text="Screenshot showing adding a JSX component.":::
 

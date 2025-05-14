@@ -1,7 +1,7 @@
 ---
 title: View Disassembly Code in the debugger
 description: Use the Disassembly window in Visual Studio to show assembly code corresponding to the instructions created by the compiler.
-ms.date: 08/15/2023
+ms.date: 04/18/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.disassembly
@@ -32,7 +32,7 @@ This feature is only available if address-level debugging is enabled. It isn't a
 
 In addition to assembly instructions, the **Disassembly** window can show the following optional information:
 
-- Memory address where each instruction is located. For native applications, it is the actual memory address. For Visual Basic or C#, it's an offset from the beginning of the function.
+- Memory address where each instruction is located. For native applications, it's the actual memory address. For Visual Basic or C#, it's an offset from the beginning of the function.
 
 - Source code from which the assembly code derives.
 
@@ -52,10 +52,10 @@ To view machine-code instructions in their raw numeric form, rather than as asse
 
 To enable the **Disassembly** window, under **Tools** > **Options** > **Debugging**, select **Enable address-level debugging**.
 
-To open the **Disassembly** window during debugging, select **Windows** > **Disassembly** or press **Alt**+**8**.
+To open the **Disassembly** window during debugging, select **Debug** > **Windows** > **Disassembly** or press **Ctrl** + **Alt** + **D**.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset all settings](../ide/personalizing-the-visual-studio-ide.md#reset-all-settings).
+> The dialog boxes and menu commands you see might differ from those described in this article depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset all settings](../ide/personalizing-the-visual-studio-ide.md#reset-all-settings).
 
 To turn optional information on or off, right-click in the **Disassembly** window, and set or clear the desired options in the shortcut menu.
 
@@ -69,11 +69,11 @@ When you view memory contents in a **Memory** window or the **Disassembly** wind
 
 2. To page up (move to a lower memory address), click the vertical scrollbar above the thumb.
 
-   You will also notice that the vertical scrollbar operates in a nonstandard manner. The address space of a modern computer is very large, and it would be easy to get lost by grabbing the scrollbar thumb and dragging it to a random location. For this reason, the thumb is "springloaded" and always remains in the center of the scrollbar. In native code applications, you can page up or down, but cannot scroll about freely.
+   You'll also notice that the vertical scrollbar operates in a nonstandard manner. The address space of a modern computer is very large, and it would be easy to get lost by grabbing the scrollbar thumb and dragging it to a random location. For this reason, the thumb is "springloaded" and always remains in the center of the scrollbar. In native code applications, you can page up or down, but can't scroll about freely.
 
    In managed applications, disassembly is limited to one function and you can scroll normally.
 
-   You will notice that the higher addresses appear at the bottom of the window. To view a higher address, you must move down, not up.
+   You'll notice that the higher addresses appear at the bottom of the window. To view a higher address, you must move down, not up.
 
 ### Move up or down one instruction
 

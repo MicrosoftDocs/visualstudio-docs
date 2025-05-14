@@ -1,7 +1,7 @@
 ---
 title: Display custom info using DebuggerDisplay
 description: Use an instance of DebuggerDisplayAttribute to control how an object, property, or field is displayed in the debugger variable windows.
-ms.date: 04/22/2022
+ms.date: 04/15/2025
 ms.topic: how-to
 helpviewer_keywords: 
   - attributes, debugger
@@ -42,18 +42,19 @@ The following table shows some possible uses of the `DebuggerDisplay` attribute 
 |`Name`, `Type`|These parameters affect the **Name** and **Type** columns of the variable windows. (They can be set to strings using the same syntax as the constructor.) Overusing these parameters, or using them incorrectly, can cause confusing output.|
 |`Target`, `TargetTypeName`|Specifies the target type when the attribute is used at the assembly level.|
 
-The autoexp.cs file uses the DebuggerDisplay attribute at the assembly level. The autoexp.cs file determines the default expansions that Visual Studio uses for .NET objects. You can examine the autoexp.cs file for examples of how to use the DebuggerDisplay attribute, or you can modify and compile the autoexp.cs file to change the default expansions. Be sure to back up the autoexp.cs file before you modify it.
+The *autoexp.cs* file uses the DebuggerDisplay attribute at the assembly level. The *autoexp.cs* file determines the default expansions that Visual Studio uses for .NET objects. You can examine the *autoexp.cs* file for examples of how to use the DebuggerDisplay attribute, or you can modify and compile the autoexp.cs file to change the default expansions. Be sure to back up the *autoexp.cs* file before you modify it.
 
-To build autoexp.cs, open up a Developer Command Prompt for VS2015, and run the following commands
+To build *autoexp.cs*, open up a Developer Command Prompt for VS2015, and run the following commands
 
 ```cmd
 cd <directory containing autoexp.cs>
 csc /t:library autoexp.cs
 ```
 
-The changes to autoexp.dll will be picked up in the next debug session.
+The changes to *autoexp.dll* will be picked up in the next debug session.
 
 ## Using Expressions in DebuggerDisplay
+
 Although you can use a general expression between the braces in a DebuggerDisplay attribute, this practice is not recommended.
 
 A general expression in DebuggerDisplay has implicit access to the `this` pointer for the current instance of the target type only. The expression has no access to aliases, locals, or pointers. If the expression references properties, attributes on those properties are not processed. For example, the C# code `[DebuggerDisplay("Object {count - 2}")]` would display `Object 6` if the field `count` was 8.
@@ -84,9 +85,10 @@ public sealed class MyClass
 }
 ```
 
-The ",nq" suffix tells the expression evaluator to remove the quotes when displaying the final value (nq = no quotes).
+The ",nq" suffix tells the expression evaluator to remove the quotes when displaying the final value (nq = no quotes). For more information on formatters, see [Format specifiers in C#](../debugger/format-specifiers-in-csharp.md).
 
 ## Example
+
 The following code example shows how to use `DebuggerDisplay`, together with `DebuggerBrowsable` and `DebuggerTypeProxy`. When viewed in a debugger variables window, such as the **Watch** window, it produces an expansion that looks like this:
 
 |**Name**|**Value**|**Type**|
