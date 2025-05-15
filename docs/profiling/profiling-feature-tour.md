@@ -326,13 +326,13 @@ The profiling tools support profiling scenarios for WSL, Docker, and Linux. The 
 
 - For WSL, make sure you've installed the prerequisites described in [Debug .NET Apps in WSL with Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md). Open the Performance Profiler (**Alt + F2**) and select WSL as the target.
 
-  ![Screenshot of selecting WSL](../profiling/media/vs-2022/prof-tour-selecting-wsl.png)
+  ![Screenshot of selecting WSL.](../profiling/media/vs-2022/prof-tour-selecting-windows-subsystem-linux.png)
 
 - For Docker and Linux, make sure you're enabled for debugging and can run the app from Visual Studio before starting the profiler. For more information, see the article that best matches your scenario: [Debug apps in a local Docker container](../containers/edit-and-refresh.md), [Debug .NET Core on Linux using SSH by attaching to a process](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md#prerequisites), or [Attach to a process running on a Docker container](../debugger/attach-to-process-running-in-docker-container.md).
 
   Next, you can attach to a running process in the Performance Profiler (**Alt + F2**) to collect profiling data.
 
-  ![Screenshot of selecting a running process](../profiling/media/vs-2022/prof-tour-attach-to-running-process.png)
+  ![Screenshot of selecting a running process.](../profiling/media/vs-2022/prof-tour-attach-to-running-process.png)
 ::: moniker-end
 
 ::: zone pivot="programming-language-cpp"
