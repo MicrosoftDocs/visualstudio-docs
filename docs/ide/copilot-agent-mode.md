@@ -27,7 +27,7 @@ The key difference from Copilot Chat is that agent mode can:
 
 ## Get started with agent mode 
 
-To get started with Copilot agent mode in Visual Studio, enable the feature in **Tools** > **Options** > **GitHub** > **Coplit** > **Copilot Chat** > **Enable agent mode in the chat pane**.
+To get started with Copilot agent mode in Visual Studio, enable the feature in **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Chat** > **Enable agent mode in the chat pane**.
 
 ## Use agent mode
 
