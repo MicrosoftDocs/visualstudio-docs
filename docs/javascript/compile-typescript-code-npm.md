@@ -10,7 +10,7 @@ ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 ---
-# Compile TypeScript code (Node.js)
+# Compile TypeScript code using npm
 
 ::: moniker range=">=vs-2022"
 Use the TypeScript npm package to add TypeScript support to projects based on the [JavaScript Project System (JSPS)](../javascript/javascript-in-visual-studio.md#project-templates), or *.esproj*. Starting in Visual Studio 2019, it's recommended that you use the npm package instead of the TypeScript SDK. The TypeScript npm package provides greater portability across different platforms and environments.

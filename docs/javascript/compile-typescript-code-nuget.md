@@ -1,7 +1,7 @@
 ---
 title: Compile and build TypeScript code using NuGet
 description: Add TypeScript support to your Visual Studio projects by using the NuGet package for portability across different platforms and environments.
-ms.date: 10/23/2023
+ms.date: 5/15/2025
 ms.topic: conceptual
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -34,7 +34,7 @@ If Visual Studio is installed, then the node.exe bundled with it will automatica
    Visual Studio adds the NuGet package under the **Dependencies** node in Solution Explorer. The following package reference gets added to your *.csproj file.
 
    ```xml
-   <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="3.9.7">
+   <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="5.8.3">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
    </PackageReference>
