@@ -1,7 +1,7 @@
 ---
 title: "Add TypeScript to an ASP.NET Core app"
 description: Create a simple web application by using ASP.NET Core and TypeScript, add TypeScript code, run the app, and debug with breakpoints.
-ms.date: 10/23/2024
+ms.date: 5/14/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -174,7 +174,7 @@ Visual Studio opens your new project.
 
 1. Open the *Views/Shared* folder, and then open *_Layout.cshtml*.
 
-1. Add the following script reference before the call to `@RenderSectionAsync("Scripts", required: false)`:
+1. Add the following script reference before the call to `@await RenderSectionAsync("Scripts", required: false)`:
 
    ```js
    <script src="~/js/app.js"></script>
