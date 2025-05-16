@@ -68,10 +68,6 @@ The `WorkspacesExtensibility` object, built into `Microsoft.VisualStudio.Extensi
 WorkspacesExtensibility workspace = this.Extensibility.Workspaces();
 ```
 
-In the example above, `context` refers to an instance of `IClientContext` provided by `Microsoft.VisualStudio.Extensibility`. It is used to access contextual information and services related to the current state and environment of the IDE.
-
-For those utilizing the service broker, consult the [Project Query API article for Visual Studio SDK](../../project-visual-studio-sdk.md) for detailed queries. 
-
 ## Query the project system for a project
 
 The [`WorkspacesExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.workspacesextensibility) object lets you query for an individual project: if you have the project GUID. There are usually two GUIDs associated with a project, one that represents the project type, and other that uniquely represents the project. You can find the project's unique GUID in the solution file, or from an extension, you can query for the `Guid` property as demonstrated in the next section.
