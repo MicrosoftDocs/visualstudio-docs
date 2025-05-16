@@ -32,7 +32,7 @@ In this tutorial, you:
 
 - This article is part of a tutorial series. The procedures build on an established example that requires [Docker Desktop](https://docs.docker.com/desktop/) for Linux containers.
 
-   The recommended approach is to complete the first tutorial, [Create a Docker container app](docker-tutorial.md), including satisfying the prerequisites, and also the tutorial, [Persist data in your app](tutorial-persist-data-layer-docker-app-with-vscode.md). After you work through these tutorials, continue with the procedures described in this article.
+   The recommended approach is to complete the first tutorial, [Create a container app](docker-tutorial.md), including satisfying the prerequisites, and also the tutorial, [Persist data in your app](tutorial-persist-data-layer-docker-app-with-vscode.md). After you work through these tutorials, continue with the procedures described in this article.
 
 - The example in this article uses [Docker Compose](https://docs.docker.com/compose/).
 
@@ -56,9 +56,9 @@ In this tutorial, you:
 
 This tutorial series describes procedures for Visual Studio Code (VS Code). Review the following considerations for working in this environment:
 
-- Use the left menu to switch between **DOCKER** (Docker extension) view or the **EXPLORER** (file and folder) view:
+- Use the left menu to switch between the **CONTAINER EXPLORER** or the **EXPLORER** (file and folder) view:
 
-   :::image type="content" source="./media/vs-code-docker-explorer-views.png" border="false" alt-text="Screenshot that shows the Docker extension view and file/folder Explorer view in Visual Studio Code.":::
+   :::image type="content" source="./media/vs-code-docker-explorer-views.png" border="false" alt-text="Screenshot that shows the Container Explorer and file/folder Explorer view in Visual Studio Code.":::
 
 - Open a command-line window in VS Code by selecting **Terminal** > **New Terminal**. You can also use the **Ctrl**+**Shift**+**`** (back tick) keyboard shortcut.
 
@@ -171,7 +171,7 @@ In the following example, you start your app and connect your app container to y
      sh -c "yarn install && yarn run dev"
    ```
 
-1. In the VS Code editor, open the Docker extension view, right-click your app container, and select **View Logs**.
+1. In the VS Code editor, open the Container Explorer, right-click your app container, and select **View Logs**.
 
    You can also view the logs from the command line by using the `docker logs` command.
 
@@ -418,7 +418,7 @@ Now you can try running your *docker-compose.yml* file.
 
    Follow these steps in VS Code:
 
-   1. Open the **DOCKER** (Docker extension) view.
+   1. Open the **CONTAINER EXPLORER** (Container Tools extension).
    
    1. For each running container, right-click the container and select **Remove**.
 
@@ -476,7 +476,7 @@ Now you can try running your *docker-compose.yml* file.
 
    Follow these steps in VS Code:
 
-   1. Open the **DOCKER** (Docker extension) view.
+   1. Open the **CONTAINER EXPLORER** (Container Tools extension).
    
    1. Right-click the app container and select **View Logs**.
 

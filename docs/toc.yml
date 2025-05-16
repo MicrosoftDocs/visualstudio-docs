@@ -14,6 +14,8 @@
     href: ide/quickstart-ide-orientation.md
   - name: More Visual Studio features
     href: ide/advanced-feature-overview.md
+  - name: AI-assisted development
+    href: ide/ai-assisted-development-visual-studio.md
   expanded: true
 - name: Installation
   items:
@@ -135,44 +137,63 @@
     href: python/
   - name: F#  >>
     href: /dotnet/fsharp/
-- name: AI-assisted development 
+- name: GitHub Copilot
   expanded: true
   items:
-  - name: About AI in Visual Studio
-    href: ide/ai-assisted-development-visual-studio.md
-  - name: GitHub Copilot
+  - name: Get started
     expanded: true
     items:
-    - name: Install and manage GitHub Copilot
+    - name: Install and manage
       href: ide/visual-studio-github-copilot-install-and-states.md
-    - name: GitHub Copilot Free
-      href: ide/copilot-free-plan.md
-    - name: Use GitHub Copilot Completions
+  - name: Editor
+    expanded: true
+    items:
+    - name: Code Completions
       href: ide/visual-studio-github-copilot-extension.md
-    - name: Use GitHub Copilot Chat 
+    - name: Chat
       href: ide/visual-studio-github-copilot-chat.md
-    - name: Tips to improve Copilot Chat results 
-      href: ide/copilot-chat-context.md
+    - name: Next Edit Suggestions
+      href: ide/copilot-next-edit-suggestions.md
+    - name: Agent mode
+      href: ide/copilot-agent-mode.md
+    - name: MCP servers
+      href: ide/mcp-servers.md
     - name: Copilot Edits
       href: ide/copilot-edits.md
-    - name: Debug with GitHub Copilot
+  - name: Chat context
+    expanded: true
+    items:
+    - name: Tips to improve results
+      href: ide/copilot-chat-context.md
+  - name: Guides
+    expanded: true
+    items:
+    - name: Debug with Copilot
       href: debugger/debug-with-copilot.md
+  - name: Troubleshooting
+    expanded: true
+    items:
+    - name: Troubleshoot Copilot state
+      href: ide/visual-studio-github-copilot-troubleshoot.md
+  - name: Account
+    expanded: true
+    items:
+    - name: GitHub Copilot Free
+      href: ide/copilot-free-plan.md
     - name: Deploy GitHub Copilot to your enterprise
       href: ide/deploy-copilot-to-enterprise.md
     - name: Admin controls for GitHub Copilot
       href: ide/visual-studio-github-copilot-admin.md
-    - name: Troubleshoot GitHub Copilot state
-      href: ide/visual-studio-github-copilot-troubleshoot.md
-  - name: IntelliCode
-    items:
-    - name: 'What is IntelliCode?'
-      href: ide/intellicode-visual-studio.md
-    - name: 'IntelliCode: Whole-line autocompletions'
-      href: ide/visual-studio-whole-line-completions.md
-    - name: 'IntelliCode: Suggestions'
-      href: ide/intellicode-suggestions.md
-    - name: 'Privacy & IntelliCode'
-      href: ide/intellicode-privacy.md
+- name: IntelliCode
+  items:
+  - name: 'What is IntelliCode?'
+    href: ide/intellicode-visual-studio.md
+  - name: 'IntelliCode: Whole-line autocompletions'
+    href: ide/visual-studio-whole-line-completions.md
+  - name: 'IntelliCode: Suggestions'
+    href: ide/intellicode-suggestions.md
+  - name: 'Privacy & IntelliCode'
+    href: ide/intellicode-privacy.md
 - name: Develop
   items:
   - name: Organize and edit code
@@ -578,15 +599,14 @@
       href: /troubleshoot/developer/visualstudio/ide/troubleshoot-class-designer-errors?toc=%2Fvisualstudio%2Ftoc.json
   - name: Improve your code
     href: ide/find-and-fix-code-errors.md
+  - name: Immediate window
+    href: ide/reference/immediate-window.md
   - name: Tips and tricks
     items:
     - name: Productivity features
       href: ide/productivity-features.md
     - name: Productivity shortcuts
       href: ide/productivity-shortcuts.md
-    - name: Tips for C# developers
-      displayName: ReSharper
-      href: ide/csharp-developer-productivity.md
     - name: Customize keyboard shortcuts
       href: ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md
     - name: Use the keyboard exclusively
@@ -883,16 +903,12 @@
       href: ide/reference/code-snippet-picker.md
     - name: Command window
       href: ide/reference/command-window.md
-    - name: Convert dialog box
-      href: ide/reference/convert-dialog-box.md
     - name: Error List window
       href: ide/reference/error-list-window.md
     - name: File Properties, JavaScript
       href: ide/reference/file-properties-javascript.md
     - name: Go To Line
       href: ide/reference/go-to-line.md
-    - name: Immediate window
-      href: ide/reference/immediate-window.md
     - name: Paste JSON or XML as classes
       href: ide/reference/paste-json-xml.md
     - name: Miscellaneous files
@@ -965,12 +981,10 @@
             href: ide/reference/options-text-editor-all-languages-scroll-bars.md
           - name: Tabs
             href: ide/reference/options-text-editor-all-languages-tabs.md
-        - name: Basic
+        - name: Visual Basic
           items:
           - name: Advanced
             href: ide/reference/options-text-editor-basic-visual-basic.md
-          - name: Code Style
-            href: ide/code-styles-and-code-cleanup.md
           - name: IntelliSense
             href: ide/visual-basic-specific-intellisense.md
         - name: C#
@@ -1009,18 +1023,6 @@
             href: ide/reference/options-text-editor-html-miscellaneous.md
           - name: Validation
             href: ide/reference/options-text-editor-html-validation.md
-        - name: JavaScript/TypeScript
-          items:
-          - name: Code Validation
-            href: ide/reference/options-text-editor-javascript-code-validation.md
-          - name: Formatting
-            href: ide/reference/options-text-editor-javascript-formatting.md
-          - name: IntelliSense
-            href: ide/reference/options-text-editor-javascript-intellisense.md
-          - name: Linting
-            href: ide/reference/options-text-editor-javascript-linting.md
-          - name: Project
-            href: ide/reference/options-text-editor-javascript-project.md
         - name: U-SQL
           items:
           - name: Formatting
@@ -1093,20 +1095,8 @@
         href: ide/reference/debug-page-project-designer.md
       - name: My Extensions Page, Project Designer (Visual Basic)
         href: ide/reference/my-extensions-page-project-designer-visual-basic.md
-      - name: Publish Page, Project Designer
-        items:
-        - name: Publish Page
-          href: ide/reference/publish-page-project-designer.md
-        - name: Prerequisites Dialog Box
-          href: ide/reference/prerequisites-dialog-box.md
       - name: References Page, Project Designer (Visual Basic)
         href: ide/reference/references-page-project-designer-visual-basic.md
-      - name: Security Page, Project Designer
-        items:
-        - name: Security Page
-          href: ide/reference/security-page-project-designer.md
-        - name: Advanced Security Settings Dialog Box
-          href: ide/reference/advanced-security-settings-dialog-box.md
       - name: Services Page, Project Designer
         items:
         - name: Services Page
@@ -1115,8 +1105,6 @@
           href: ide/reference/advanced-settings-for-services-dialog-box.md
       - name: Settings Page, Project Designer
         href: ide/reference/settings-page-project-designer.md
-      - name: Signing Page, Project Designer
-        href: ide/reference/signing-page-project-designer.md
     - name: Property Pages, JavaScript
       href: ide/reference/property-pages-javascript.md
     - name: Property Pages, React, Angular, and Vue

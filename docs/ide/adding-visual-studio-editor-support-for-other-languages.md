@@ -1,7 +1,7 @@
 ---
 title: Add editor support for other languages
 description: Learn about how the Visual Studio editor supports reading and navigating through different computer languages and how you can add support for other languages.
-ms.date: 11/04/2016
+ms.date: 5/02/2025
 ms.topic: conceptual
 helpviewer_keywords:
 - syntax colorization
@@ -68,30 +68,25 @@ Visual Studio currently provides syntax colorization and basic statement complet
 In addition to syntax colorization and basic statement completion, Visual Studio also has a feature called [Navigate To](/archive/blogs/benwilli/visual-studio-tip-3-use-navigate-to). This feature enables you to quickly search code files, file paths, and code symbols. Visual Studio provides Navigate To support for the following languages.
 
 - C#
-
 - C++
-
 - TypeScript
-
 - JavaScript
-
 - Visual Basic
-
 - Go
-
 - Java
-
 - PHP
 
-All of these file types have the features described earlier even if support for a given language hasn't yet been installed. Installing specialized support for some languages may provide additional language support, such as IntelliSense or other advanced language features like light bulbs.
+All of these file types have the features described earlier even if support for a given language isn't yet installed. Installing specialized support for some languages may provide additional language support, such as IntelliSense or other advanced language features like light bulbs.
 
-## Add support for non-supported languages
+## Add support for nonsupported languages
 
 Visual Studio provides language support in the editor by using [TextMate Grammars](https://manual.macromates.com/en/language_grammars). If your favorite programming language currently isn't supported in the Visual Studio editor, first, search the web&mdash;a TextMate bundle for the language may already exist. If you can't find one, though, you can add support for it yourself by creating a TextMate bundle model for language grammars and snippets.
 
 Add any new TextMate Grammars for Visual Studio in the following folder:
 
 *%userprofile%\\.vs\Extensions*
+
+> In Windows, *%userprofile%* resolves to the path: *c:\Users\\\<user name>*. If the *Extensions* folder does not exist on your system, you need to create it. If the folder already exists, it is hidden.
 
 Under this base path, add the following folders if they apply to your situation:
 
@@ -106,12 +101,12 @@ In Windows, *%userprofile%* resolves to the path: *c:\Users\\\<user name>*. If t
 > [!TIP]
 > If you have any files open in the editor, you'll need to close and reopen them to see syntax highlighting after you add the TextMate Grammars.
 
-For details about how to create TextMate Grammars, see [TextMate - Introduction to Language Grammars](https://developmentality.wordpress.com/2011/02/08/textmate-introduction-to-language-grammars/) and [Notes on how to create a Language Grammar and Custom Theme for a Textmate Bundle](https://benparizek.com/notebook/notes-on-how-to-create-a-language-grammar-and-custom-theme-for-a-textmate-bundle).
+For details about how to create TextMate Grammars, see [TextMate - Introduction to Language Grammars](https://developmentality.wordpress.com/2011/02/08/textmate-introduction-to-language-grammars/) and [Notes on how to create a Language Grammar and Custom Theme for a TextMate Bundle](https://benparizek.com/notebook/notes-on-how-to-create-a-language-grammar-and-custom-theme-for-a-textmate-bundle).
 
 ## Related content
 
 - [Add a Language Server Protocol extension](../extensibility/adding-an-lsp-extension.md)
-- [Walkthrough: Create a code snippet](../ide/walkthrough-creating-a-code-snippet.md)
-- [Walkthrough: Display statement completion](../extensibility/walkthrough-displaying-statement-completion.md)
-- [Example code: TextMate Grammar](https://github.com/microsoft/VSSDK-Extensibility-Samples/tree/master/TextmateGrammar)
-- [Example code: Custom language support](https://github.com/microsoft/VSSDK-Extensibility-Samples/tree/master/Ook_Language_Integration)
+- [Create a code snippet](../ide/walkthrough-creating-a-code-snippet.md)
+- [Display statement completion](../extensibility/walkthrough-displaying-statement-completion.md)
+- [Ship TextMate grammars inside Visual Studio extensions](https://github.com/microsoft/VSSDK-Extensibility-Samples/tree/master/TextmateGrammar)
+- [Implement custom language support](https://github.com/microsoft/VSSDK-Extensibility-Samples/tree/master/Ook_Language_Integration)

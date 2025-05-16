@@ -6,6 +6,7 @@ ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Advanced
+ms.custom: "ide-ref"
 author: mikadumont
 ms.author: midumont
 manager: mijacobs

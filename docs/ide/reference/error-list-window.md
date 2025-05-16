@@ -8,6 +8,7 @@ helpviewer_keywords:
 - build errors
 - Error List window
 - errors [Visual Studio], Error List window
+ms.custom: "ide-ref"
 author: ghogen
 ms.author: ghogen
 manager: mijacobs

@@ -73,4 +73,4 @@ public class Class1
 
 - [Refactoring](../refactoring-in-visual-studio.md)
 - [Preview Changes window](../../ide/preview-changes.md)
-- [Tips for .NET Developers](../csharp-developer-productivity.md)
+- [Productivity features](../productivity-features.md)

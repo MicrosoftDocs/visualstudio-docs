@@ -5,6 +5,7 @@ ms.date: 08/24/2022
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.TabsAndWindows"
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs

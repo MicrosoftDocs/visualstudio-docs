@@ -11,6 +11,7 @@ dev_langs:
 helpviewer_keywords:
 - Text Editor Options dialog box, formatting
 - ClangFormat
+ms.custom: "ide-ref"
 author: tylermsft
 ms.author: twhitney
 manager: markl

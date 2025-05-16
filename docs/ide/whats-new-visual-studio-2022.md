@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022"
 titleSuffix: ""
 description: Discover new features in Visual Studio 2022, including answers to questions and AI consultations while you code with a subscription to GitHub Copilot.
-ms.date: 2/11/2025
+ms.date: 5/13/2025
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -15,7 +15,7 @@ ms.topic: whats-new
 ---
 # What's new in Visual Studio 2022
 
-**Updated for the 17.13 release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
+**Updated for the 17.14 release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
 
 >[!div class="button"]
 >[Download Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
@@ -27,7 +27,7 @@ Want to see what's new in each updated release from within Visual Studio itself?
 :::image type="content" source="media/vs-2022/whats-new-visual-studio.png" alt-text="Screenshot of the in-product notification of what's new in each updated release of Visual Studio." lightbox="media/vs-2022/whats-new-visual-studio.png":::
 
 > [!TIP]
-> For more news + how-to's, check out our Visual Studio social media channels on [LinkedIn](https://www.linkedin.com/showcase/microsoft-visual-studio), [YouTube](https://www.youtube.com/visualstudio), [Facebook](https://www.facebook.com/visualstudio), [Twitch](https://www.twitch.tv/visualstudio), [Twitter](https://twitter.com/VisualStudio), & [TikTok](https://www.tiktok.com/@visualstudio). And for the latest info on recent releases, current experiments, and what's in Preview, be sure to visit the Visual Studio [Blog](https://devblogs.microsoft.com/visualstudio/).
+> For more news + how-to's, check out our Visual Studio social media channels on [LinkedIn](https://www.linkedin.com/showcase/microsoft-visual-studio), [YouTube](https://www.youtube.com/visualstudio), [Facebook](https://www.facebook.com/visualstudio), [Twitch](https://www.twitch.tv/visualstudio), [X](https://x.com/VisualStudio), & [TikTok](https://www.tiktok.com/@visualstudio). And for the latest info on recent releases, current experiments, and what's in Preview, be sure to visit the Visual Studio [Blog](https://devblogs.microsoft.com/visualstudio/).
 
 ## AI-assisted development
 
@@ -130,6 +130,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 Review the following blog posts to learn more about the improvements we've made to Visual Studio 2022, to date:
 
+* [Visual Studio 2022 17.14 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-v17-14-is-now-generally-available/)
 * [Visual Studio 2022 17.13 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-v17-13-is-now-available/)
 * [Visual Studio 2022 17.12 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-v17-12-with-dotnet-9/)
 * [Visual Studio 2022 17.11 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-v17-11-your-feedback-in-action/)

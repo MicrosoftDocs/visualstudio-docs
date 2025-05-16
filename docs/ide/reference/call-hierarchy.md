@@ -7,6 +7,7 @@ f1_keywords:
 - VS.CallHierarchy
 helpviewer_keywords:
 - Call Hierarchy
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs

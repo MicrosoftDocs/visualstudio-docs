@@ -1,7 +1,7 @@
 ---
 title: Efficient coding, debugging, & keyboard shortcuts
 description: Learn about the keyboard shortcuts and productivity features in Visual Studio that can help you efficiently write code, debug code, and handle errors.
-ms.date: 03/05/2025
+ms.date: 04/08/2025
 ms.topic: conceptual
 author: Mikejo5000
 ms.author: mikejo
@@ -23,7 +23,13 @@ Save time digging through menus by quickly searching for anything you need, incl
 - **Mock code using task list**. If you don't have enough requirements to complete a piece of code, use Task List to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that take you directly to a predefined location in code. For more information, see [Use the Task List](../ide/using-the-task-list.md).
 
 - **Use Solution Explorer shortcuts**. If you're new to Visual Studio, these shortcuts come in handy and save you time while you're coming up to speed on a new codebase. For the full list of shortcuts, see [Default keyboard shortcuts in Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_solutionexplorerGLOBAL).
+::: zone-end 
 
+::: zone pivot="programming-language-csharp"
+- **Use keyboard shortcuts from a different editor**. If you're coming from another IDE or coding environment, you can change your keyboard scheme to *Visual Studio Code* or *ReSharper (Visual Studio)* using **Tools > Options** settings for **Environment > Keyboard**. Some extensions also offer keyboard schemes: [HotKeys for Visual Studio (ReSharper/IntelliJ)](https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.HotKeys) and [VSVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim).
+::: zone-end
+
+::: zone pivot="programming-language-csharp,programming-language-cpp,programming-language-vb,programming-language-all"
 - **[Identify and customize keyboard shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)**. You can identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use. You can always find and change a keyboard shortcut in the Options dialog box.
 
 - **Make Visual Studio more accessible**. Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. See [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) for the full list of available features.
@@ -79,6 +85,16 @@ Write code more quickly by using the following features.
 ::: moniker-end
 ::: zone-end
 
+::: zone pivot="programming-language-csharp"
+- **Apply code styles with code cleanup** Visual Studio provides on-demand formatting of your code file, including code style preferences, through the Code Cleanup feature. To run Code Cleanup, select the broom icon at the bottom of the editor or press **Ctrl+K, Ctrl+E**. For detailed instructions, see [Code style preferences](../ide/code-styles-and-code-cleanup.md).
+::: zone-end
+
+::: zone pivot="programming-language-csharp,programming-language-cpp,programming-language-vb"
+::: moniker range=">=vs-2022" 
+- **Write or generate unit tests** Test Explorer automatically discovers unit tests written using supported test frameworks. You can use Copilot or built-in features to generate unit tests. For more information, see [Unit test basics](../test/unit-test-basics.md) and [Create unit test method stubs from code](../test/create-unit-tests-menu.md). 
+::: moniker-end
+::: zone-end
+
 ::: zone pivot="programming-language-csharp,programming-language-vb"
 - **Install and manage NuGet packages in Visual Studio**. NuGet is a mechanism through which developers can create, share, and consume useful code. The NuGet Package Manager UI in Visual Studio on Windows allows you to easily install, uninstall, and update NuGet packages in projects and solutions. For more information, see [Install and manage packages in Visual Studio using the NuGet Package Manager](/nuget/consume-packages/install-use-packages-visual-studio).
 ::: zone-end
@@ -102,6 +118,8 @@ You can use various techniques to find and move to specific locations in your co
 - **Understand your code structure with code map**. Code maps can help you  visualize dependencies across your code, and see how it fits together without reading through files and lines of code. For more information, see [Map dependencies with code maps](../modeling/map-dependencies-across-your-solutions.md).
 
 - **See frequently used files with Edit/Go to Recent File**. Use the Go To commands in Visual Studio to perform a focused search of your code to help you quickly find specified items. For  detailed instructions, see [Find code using Go To commands](../ide/go-to.md).
+
+- **Jump to any file, type, member, or symbol declaration.** Visual Studio has a feature called **Go To All** that you can use to quickly find the code you want. For  detailed instructions, see [Find code using Go To commands](../ide/go-to.md).
 
 - **Synchronize Solution Explorer** For large solutions, use the **Sync with Active Document** button in Solution Explorer to find the active document within the project hierarchy. 
 

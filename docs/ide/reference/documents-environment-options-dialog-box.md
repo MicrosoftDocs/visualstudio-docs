@@ -26,6 +26,7 @@ helpviewer_keywords:
 - Options dialog box, Documents page
 - warnings, files changed
 - Solution Explorer, displaying files in
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
