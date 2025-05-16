@@ -1,0 +1,141 @@
+items:
+  - name: MSB1001 - MSB1068
+    items:
+    - name: MSB1001
+      href: errors/msb1001.md
+    - name: MSB1002
+      href: errors/msb1002.md
+    - name: MSB1003
+      href: errors/msb1003.md
+    - name: MSB1004
+      href: errors/msb1004.md
+    - name: MSB1005
+      href: errors/msb1005.md
+    - name: MSB1006
+      href: errors/msb1006.md
+    - name: MSB1007
+      href: errors/msb1007.md
+    - name: MSB1008
+      href: errors/msb1008.md
+    - name: MSB1009
+      href: errors/msb1009.md
+    - name: MSB1010
+      href: errors/msb1010.md
+    - name: MSB1011
+      href: errors/msb1011.md
+    - name: MSB1012
+      href: errors/msb1012.md
+    - name: MSB1013
+      href: errors/msb1013.md
+    - name: MSB1014
+      href: errors/msb1014.md
+    - name: MSB1015
+      href: errors/msb1015.md
+    - name: MSB1016
+      href: errors/msb1016.md
+    - name: MSB1017
+      href: errors/msb1017.md
+    - name: MSB1018
+      href: errors/msb1018.md
+    - name: MSB1019
+      href: errors/msb1019.md
+    - name: MSB1020
+      href: errors/msb1020.md
+    - name: MSB1021
+      href: errors/msb1021.md
+    - name: MSB1022
+      href: errors/msb1022.md
+    - name: MSB1023
+      href: errors/msb1023.md
+    - name: MSB1024
+      href: errors/msb1024.md
+    - name: MSB1025
+      href: errors/msb1025.md
+    - name: MSB1026
+      href: errors/msb1026.md
+    - name: MSB1027
+      href: errors/msb1027.md
+    - name: MSB1028
+      href: errors/msb1028.md
+    - name: MSB1030
+      href: errors/msb1030.md
+    - name: MSB1031
+      href: errors/msb1031.md
+    - name: MSB1032
+      href: errors/msb1032.md
+    - name: MSB1033
+      href: errors/msb1033.md
+    - name: MSB1034
+      href: errors/msb1034.md
+    - name: MSB1035
+      href: errors/msb1035.md
+    - name: MSB1036
+      href: errors/msb1036.md
+    - name: MSB1037
+      href: errors/msb1037.md
+    - name: MSB1038
+      href: errors/msb1038.md
+    - name: MSB1039
+      href: errors/msb1039.md
+    - name: MSB1040
+      href: errors/msb1040.md
+    - name: MSB1041
+      href: errors/msb1041.md
+    - name: MSB1042
+      href: errors/msb1042.md
+    - name: MSB1043
+      href: errors/msb1043.md
+    - name: MSB1047
+      href: errors/msb1047.md
+    - name: MSB1048
+      href: errors/msb1048.md
+    - name: MSB1049
+      href: errors/msb1049.md
+    - name: MSB1050
+      href: errors/msb1050.md
+    - name: MSB1051
+      href: errors/msb1051.md
+    - name: MSB1052
+      href: errors/msb1052.md
+    - name: MSB1053
+      href: errors/msb1053.md
+    - name: MSB1055
+      href: errors/msb1055.md
+    - name: MSB1056
+      href: errors/msb1056.md
+    - name: MSB1057
+      href: errors/msb1057.md
+    - name: MSB1058
+      href: errors/msb1058.md
+    - name: MSB1059
+      href: errors/msb1059.md
+    - name: MSB1060
+      href: errors/msb1060.md
+    - name: MSB1061
+      href: errors/msb1061.md
+    - name: MSB1062
+      href: errors/msb1062.md
+    - name: MSB1063
+      href: errors/msb1063.md
+    - name: MSB1064
+      href: errors/msb1064.md
+    - name: MSB1065
+      href: errors/msb1065.md
+    - name: MSB1066
+      href: errors/msb1066.md
+    - name: MSB1067
+      href: errors/msb1067.md
+    - name: MSB1068
+      href: errors/msb1068.md
+  - name: MSB4192
+    items:
+    - name: MSB4192
+      href: errors/msb4192.md
+  - name: MSB4239
+    items:
+    - name: MSB4239
+      href: errors/msb4239.md
+  - name: MSB5016
+    items:
+    - name: MSB5016
+      href: errors/msb5016.md
