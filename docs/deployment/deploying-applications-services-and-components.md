@@ -20,6 +20,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: deployment
+ms.custom: peer-review-program
 ---
 # First look at deployment in Visual Studio
 
