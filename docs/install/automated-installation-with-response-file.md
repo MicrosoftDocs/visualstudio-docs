@@ -132,7 +132,7 @@ The following `response.json` file example initializes a Visual Studio Enterpris
     "fr-FR"
     ],
 
-    "add": [
+    "components": [
         "Microsoft.VisualStudio.Workload.ManagedDesktop",
         "Microsoft.VisualStudio.Workload.Data",
         "Microsoft.VisualStudio.Workload.NativeDesktop",
@@ -170,14 +170,13 @@ The following `response.json` file example initializes a Visual Studio Enterpris
     "fr-FR"
     ],
 
-    "add": [
+    "components": [
         "Microsoft.VisualStudio.Workload.ManagedDesktop",
         "Microsoft.VisualStudio.Workload.Data",
         "Microsoft.VisualStudio.Workload.NativeDesktop",
         "Microsoft.VisualStudio.Workload.NetWeb",
         "Microsoft.VisualStudio.Workload.Office",
-        "Microsoft.VisualStudio.Workload.Universal",
-        "Component.GitHub.VisualStudio"
+        "Microsoft.VisualStudio.Workload.Universal"
     ]
 }
 ```
