@@ -48,7 +48,7 @@ If Visual Studio is installed, then the node.exe bundled with it will automatica
 
 1. Open *tsconfig.json* and update to set the compiler options that you want.
 
-   The following is an example of a simple *tsconfig.json* file.
+   Use the following example, which shows a simple *tsconfig.json* file.
 
    ```json
    {
@@ -75,14 +75,14 @@ If Visual Studio is installed, then the node.exe bundled with it will automatica
 
 ### Build the application
 
-1. Add TypeScript (*.ts*) or TypeScript JSX (*.tsx*) files to your project, and then add TypeScript code. For a simple example of TypeScript, use the following:
+1. Add TypeScript (*.ts*) or TypeScript JSX (*.tsx*) files to your project, and then add TypeScript code. For a simple example of TypeScript, use the following code:
 
    ```typescript
    let message: string = 'Hello World';
    console.log(message);
    ```
 
-1. If you are using an older non-SDK style project, follow instructions in [Remove default imports](#remove-default-imports) before building.
+1. If you're using an older non-SDK style project, follow instructions in [Remove default imports](#remove-default-imports) before building.
 
 1. Choose **Build > Build Solution**.
 
@@ -157,7 +157,7 @@ Press **F5** or select the Start button at the top of the window.
 
 In older ASP.NET Core projects that use the [non-SDK-style format](/nuget/resources/check-project-format), you may need to remove some project file elements.
 
-If you are using the NuGet package for MSBuild support for a project, the project file must not import `Microsoft.TypeScript.Default.props` or `Microsoft.TypeScript.targets`. The files get imported by the NuGet package, so including them separately may cause unintended behavior.
+If you're using the NuGet package for MSBuild support for a project, the project file must not import `Microsoft.TypeScript.Default.props` or `Microsoft.TypeScript.targets`. The files get imported by the NuGet package, so including them separately may cause unintended behavior.
 
 1. Right-click the project and choose **Unload Project**.
 
@@ -167,7 +167,7 @@ If you are using the NuGet package for MSBuild support for a project, the projec
 
 1. Remove references to `Microsoft.TypeScript.Default.props` and `Microsoft.TypeScript.targets`.
 
-   The imports to remove look similar to the following:
+   The imports to remove look similar to the following XML:
 
    ```xml
    <Import
