@@ -500,7 +500,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
 ## Next steps
 
-Look at the options for deploying your [containers to Azure](/azure/containers).
+Look at the options for deploying your [containers to Azure](/azure/containers). If you're ready to deploy to Azure Container Apps, see [Deploy a multicontainer app to Azure Container Apps](deploy-multicontainer-azure-container-apps.md).
 
 ## See also
 
