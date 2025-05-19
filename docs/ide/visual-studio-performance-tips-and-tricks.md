@@ -1,7 +1,7 @@
 ---
 title: Tips to improve performance
 description: Explore tips to improve and optimize certain Visual Studio features that you might not be using to help improve performance.
-ms.date: 05/23/2024
+ms.date: 05/16/2025
 ms.topic: conceptual
 author: Mikejo5000
 ms.author: mikejo
@@ -32,7 +32,7 @@ Visual Studio notifies you in a yellow bar when automatic document restore is ca
 
 1. Select **Tools** > **Options** to open the **Options** dialog box.
 
-1. On the **Projects and Solution** > **General** page, deselect **Reopen documents on solution load**.
+1. On the **Projects and Solutions** > **General** page, deselect **Reopen documents on solution load**.
 
 If you disable automatic file restore, a quick way to navigate to files you want to open is by using one of the [Go To](../ide/go-to.md) commands:
 
@@ -66,7 +66,7 @@ If you're typically running low on memory during debugging sessions, you can opt
 
     It's recommended that you disable CPU profiling after use. This feature can consume large amounts of resources. Once CPU profiling is enabled, this state is persisted across subsequent debug sessions, so it’s worth explicitly turning it off when done. You may save some resources by disabling the diagnostic tools while debugging if you don't need the provided features.
 
-    To disable the **Diagnostic Tools**, start a debugging session, select **Tools** > **Options** > **Debugging** > **General**, and then deselect the **Enable Diagnostic Tools while debugging** option.
+    To disable the **Diagnostic Tools**, select **Tools** > **Options** > **Debugging** > **General**, and then deselect the **Enable Diagnostic Tools while debugging** option.
 
     For more information, see [Profiling tools](../profiling/profiling-feature-tour.md).
 
