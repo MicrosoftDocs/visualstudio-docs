@@ -54,7 +54,6 @@ This overview covers top scenarios for working with the project query API:
 - [Action Query to Save a Solution/Project](#action-query-to-save-solutionsprojects)
 - [Query to Subscribe to Query Changes](#query-to-subscribe-to-query-changes)
 - [Query to Track Query Changes](#query-to-track-query-changes)
-- [Events to monitor solution open and close](#events-to-monitor-solution-open-and-close)
 - [Action Query to Skip](#action-query-to-skip)
 
 ## Access the project query space
