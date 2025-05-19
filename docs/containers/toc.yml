@@ -14,6 +14,8 @@
     items:
     - name: Multi-container app with Docker Compose
       href: tutorial-multicontainer.md
+    - name: Deploy a multi-container app to Azure Container Apps
+      href: deploy-multicontainer-azure-container-apps.md
     expanded: true
   - name: How to
     expanded: true

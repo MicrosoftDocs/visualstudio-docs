@@ -68,7 +68,7 @@ Support for CMake projects are the same as C++. However, you must set the execut
 
 ## Which tools are supported on Linux?
 
-The following tools are supported with Linux as the target platform as well as Windows:
+The following tools are supported with Linux or WSL as the target platform as well as Windows:
 
 - CPU Usage
 - .NET Object Allocation Tracking
