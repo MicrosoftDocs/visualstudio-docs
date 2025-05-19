@@ -54,33 +54,18 @@ This overview covers top scenarios for working with the project query API:
 - [Action Query to Save a Solution/Project](#action-query-to-save-solutionsprojects)
 - [Query to Subscribe to Query Changes](#query-to-subscribe-to-query-changes)
 - [Query to Track Query Changes](#query-to-track-query-changes)
-- [Events to monitor solution open and close](#events-to-monitor-solution-open-and-close)
 - [Action Query to Skip](#action-query-to-skip)
 
 ## Access the project query space
 
 You'll need to obtain an instance of the *project query space* object to query the project system. This object has several asynchronous methods that query or update the project system. The term *project query space* and the term *workspace* both mean the same thing and refer to the object that provides access to all the data for a project. `workspace` will be consistently used in this documentation.
 
-There are two approaches to accessing the project query space: **WorkspacesExtensibility** and **ProjectQueryableSpace**.
-
-### Using WorkspacesExtensibility (Recommended)
+### Using WorkspacesExtensibility
 The `WorkspacesExtensibility` object, built into `Microsoft.VisualStudio.Extensibility`, provides a simple and integrated way to use project query.
 
 ```csharp
 WorkspacesExtensibility workspace = this.Extensibility.Workspaces();
 ```
-
-### Using ProjectQueryableSpace
-Alternatively, you can use a `ProjectQueryableSpace` object created via a service broker. This approach is useful for scenarios requiring more control or integration with specific services.
-
-```csharp
-IServiceBroker serviceBroker = context.Extensibility.ServiceBroker;
-ProjectQueryableSpace queryspace = new ProjectQueryableSpace(serviceBroker: serviceBroker, joinableTaskContext: null);
-```
-
-In the example above, `context` refers to an instance of `IClientContext` provided by `Microsoft.VisualStudio.Extensibility`. It is used to access contextual information and services related to the current state and environment of the IDE.
-
-For those utilizing the service broker, consult the [Project Query API article for Visual Studio SDK](../../project-visual-studio-sdk.md) for detailed queries. 
 
 ## Query the project system for a project
 
@@ -699,26 +684,6 @@ private class TrackerObserver : IObserver<IQueryTrackUpdates<IFileSnapshot>>
     {
         ...
     }
-}
-```
-
-## Events to monitor solution open and close
-
-The `QueryableSpaceChanged` event can be subscribed to for monitoring when solutions open and close using a workspace created with a service broker. `ProjectQueryableSpaceChangedEventArgs` contains two fields, `SolutionPath` and `QueryableSpaceVersion`. The string `SolutionPath` is the path the solution that opened or null if a solution closed. The int `QueryableSpaceVersion` increments as solutions are opened or closed.
-
-```csharp
-private void SubscribeToEvent() 
-{
-    IServiceBroker serviceBroker = context.Extensibility.ServiceBroker;
-    ProjectQueryableSpace workspace = new(serviceBroker: serviceBroker, joinableTaskContext: null);
-    workspace.QueryableSpaceChanged += EventCalledAsync;
-}
-
-private Task EventCalledAsync(ProjectQueryableSpaceChangedEventArgs e)
-{
-    string? solutionPath = e.SolutionPath;
-    int version = e.QueryableSpaceVersion;
-    ...
 }
 ```
 
