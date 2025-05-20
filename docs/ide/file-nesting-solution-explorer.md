@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
  - "file nesting"
  - "Solution Explorer, file nesting"
-author: angelosp
-ms.author: angelpe
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ---

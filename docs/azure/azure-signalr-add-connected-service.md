@@ -1,12 +1,12 @@
 ---
 title: Add Azure SignalR by using Connected Services
 description: Add Azure SignalR to your app by using the Visual Studio to add a connected service
-author: AngelosP
+author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 05/15/2023
-ms.author: angelpe
+ms.author: ghogen
 monikerRange: ">= vs-2019"
 ---
 

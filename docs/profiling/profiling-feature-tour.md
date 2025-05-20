@@ -1,7 +1,7 @@
 ---
 title: "Overview of the profiling tools"
 description: Review the different diagnostic tools available in Visual Studio for profiling your C#, Visual Basic, C++, and F# applications.
-ms.date: 1/17/2025
+ms.date: 5/12/2025
 ms.topic: conceptual
 f1_keywords:
   - vs.diagnosticshub.overview
@@ -318,6 +318,22 @@ In your UWP apps, you can enable **UI Analysis** in the **Diagnostic Tools** win
 ![View UI analysis events in the diagnostic tools](../profiling/media/prof-tour-ui-analysis.png "Diagnostic Tools View UI Analysis Events")
 ::: moniker-end
 ::: zone-end
+
+::: moniker range=">=vs-2022"
+## Profile on WSL, Docker, and Linux
+
+The profiling tools support profiling scenarios for WSL, Docker, and Linux. The tools supported on Linux and WSL are listed in [Which tools are supported on Linux?](../profiling/choose-performance-tool.md#which-tools-are-supported-on-linux)
+
+- For WSL, make sure you've installed the prerequisites described in [Debug .NET Apps in WSL with Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md). Open the Performance Profiler (**Alt + F2**) and select WSL as the target.
+
+  ![Screenshot of selecting WSL.](../profiling/media/vs-2022/prof-tour-selecting-windows-subsystem-linux.png)
+
+- For Docker and Linux, make sure you're enabled for debugging and can run the app from Visual Studio before starting the profiler. For more information, see the article that best matches your scenario: [Debug apps in a local Docker container](../containers/edit-and-refresh.md), [Debug .NET Core on Linux using SSH by attaching to a process](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md#prerequisites), or [Attach to a process running on a Docker container](../debugger/attach-to-process-running-in-docker-container.md).
+
+  Next, you can attach to a running process in the Performance Profiler (**Alt + F2**) to collect profiling data.
+
+  ![Screenshot of selecting a running process.](../profiling/media/vs-2022/prof-tour-attach-to-running-process.png)
+::: moniker-end
 
 ::: zone pivot="programming-language-cpp"
 ## Analyze GPU Usage (Direct3D)
