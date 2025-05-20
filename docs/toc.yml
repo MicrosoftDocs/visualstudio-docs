@@ -138,15 +138,12 @@
   - name: F#  >>
     href: /dotnet/fsharp/
 - name: GitHub Copilot
-  expanded: true
   items:
   - name: Get started
-    expanded: true
     items:
     - name: Install and manage
       href: ide/visual-studio-github-copilot-install-and-states.md
   - name: Editor
-    expanded: true
     items:
     - name: Code Completions
       href: ide/visual-studio-github-copilot-extension.md
@@ -161,22 +158,18 @@
     - name: Copilot Edits
       href: ide/copilot-edits.md
   - name: Chat context
-    expanded: true
     items:
     - name: Tips to improve results
       href: ide/copilot-chat-context.md
   - name: Guides
-    expanded: true
     items:
     - name: Debug with Copilot
       href: debugger/debug-with-copilot.md
   - name: Troubleshooting
-    expanded: true
     items:
     - name: Troubleshoot Copilot state
       href: ide/visual-studio-github-copilot-troubleshoot.md
   - name: Account
-    expanded: true
     items:
     - name: GitHub Copilot Free
       href: ide/copilot-free-plan.md
