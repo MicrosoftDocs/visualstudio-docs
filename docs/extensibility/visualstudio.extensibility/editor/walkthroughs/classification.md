@@ -13,13 +13,13 @@ ms.subservice: extensibility-integration
 # Extending Visual Studio editor with a new classification tagger
 
 A Visual Studio extension can classify a document's syntax allowing for
-the text to be colorized accordingly. This is achieved by contributing
+the text to be colorized accordingly, which is achieved by contributing
 a tagger that returns `ClassificationTag` values.
 
 A detailed description of how to provide a tagger can be found in the
 [Extending Visual Studio editor with a new tagger](./taggers.md) article.
 
-Following the article linked above, we implement a tagger provider and a
+To provide classification, we first implement a tagger provider and a
 tagger:
 
 ```cs
@@ -40,15 +40,14 @@ internal class MyClassificationTagger :
 ```
 
 Since we want the document colorization to appear as instantly as possible,
-the tagger will need to be as fast as possible. The article linked above
+the generation of taggers need to be as fast as possible. [This](./taggers.md) article 
 stresses the importance of:
 - only generating tags for the requested document portion (or a small
 superset of it), not the whole document;
 - avoiding parsing the whole document in order to generate tags.
 
 Once the tagger structure is ready and the syntax parsing for the specific
-file format is implemented, the tagger can provide text classification, by
-simply creating `ClassificationTag` values using the available
+file format is implemented, the tagger can provide text classification, by creating `ClassificationTag` values using the available
 `ClassificationType` know values, and calling `UpdateTagsAsync`.
 
 ```cs
