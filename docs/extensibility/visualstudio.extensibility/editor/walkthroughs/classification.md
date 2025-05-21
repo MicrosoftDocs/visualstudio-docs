@@ -40,7 +40,7 @@ internal class MyClassificationTagger :
 ```
 
 Since we want the document colorization to appear as instantly as possible,
-the generation of taggers need to be as fast as possible. [This](./taggers.md) article 
+the generation of taggers needs to be as fast as possible. [This](./taggers.md) article 
 stresses the importance of:
 - only generating tags for the requested document portion (or a small
 superset of it), not the whole document;

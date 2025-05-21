@@ -143,7 +143,7 @@ internal class MarkdownCodeLensTagger : TextViewTagger<CodeLensTag>
 
 Both the `TextViewChangedAsync` and `RequestTagsAsync` methods, should call `UpdateTagsAsync` providing the ranges that tags are being updated for and the new tags themselves. The `TextViewTagger<>` base class holds a cache of previously generated tags, calling `UpdateTagsAsync` invalidates all existing tags for the provided ranges and replaces them with the newly provided ones.
 
-While generating tags for the entire document is a possible strategy, it is preferrable to only generate tags for the requested ranges (in `RequestTagsAsync`) and the edited ranges (in `TextViewChangedAsync`). It is also common to have to extend such ranges to cover meaningful spans of the document syntax (for example, entire statements, entire lines of code, etc.).
+While generating tags for the entire document is a possible strategy, it is preferable to only generate tags for the requested ranges (in `RequestTagsAsync`) and the edited ranges (in `TextViewChangedAsync`). It is also common to have to extend such ranges to cover meaningful spans of the document syntax (for example, entire statements, entire lines of code, etc.).
 
 Handling text view changes in particular requires some additional code. The following code snippet is an example:
 
