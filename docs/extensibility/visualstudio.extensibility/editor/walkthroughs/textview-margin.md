@@ -1,6 +1,6 @@
 ---
-title: Customizing the textview margin
-description: A walkthrough of how to textview margin in the Visual Studio editor using extensions
+title: Customize Text View Margins
+description: This walkthrough shows you how to use text view margins in the Visual Studio editor by using extensions.
 ms.date: 1/13/2025
 ms.topic: conceptual
 ms.author: tinali
@@ -10,12 +10,13 @@ manager: mijacobs
 ms.subservice: extensibility-integration
 ---
 
-# Extending Visual Studio editor with a new margin
-Text view margins are placed into a margin container (see [ContainerMarginPlacement.KnownValues](/dotnet/api/microsoft.visualstudio.extensibility.editor.containermarginplacement.knownvalues)) and ordered before or after relatively to other margins (see [MarginPlacement.KnownValues](/dotnet/api/microsoft.visualstudio.extensibility.editor.marginplacement.knownvalues)).
+# Extend the Visual Studio editor with a new margin
 
-Text view margin providers implement [ITextViewMarginProvider](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewmarginprovider) interface, configure the margin they provide by implementing [TextViewMarginProviderConfiguration](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewmarginprovider.textviewmarginproviderconfiguration) and when activated, provide UI control to be hosted in the margin via [CreateVisualElementAsync](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewmarginprovider.createvisualelementasync).
+Text view margins are placed in a margin container (see [ContainerMarginPlacement.KnownValues](/dotnet/api/microsoft.visualstudio.extensibility.editor.containermarginplacement.knownvalues)) and ordered before or after relative to other margins. For more information, see [MarginPlacement.KnownValues](/dotnet/api/microsoft.visualstudio.extensibility.editor.marginplacement.knownvalues).
 
-Because extensions in VisualStudio.Extensibility might be out-of-process from the Visual Studio, we can't directly use WPF as a presentation layer for content of text view margins. Instead, providing a content to a text view margin requires creating a [RemoteUserControl](./../../inside-the-sdk/remote-ui.md#create-the-remote-user-control) and the corresponding data template for that control. While there are some simple examples below, we recommend reading the [Remote UI documentation](./../../inside-the-sdk/remote-ui.md) when creating text view margin UI content.
+Text view margin providers implement the [ITextViewMarginProvider](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewmarginprovider) interface, configuring the margin they provide by implementing [TextViewMarginProviderConfiguration](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewmarginprovider.textviewmarginproviderconfiguration). When activated, they provide UI control to be hosted in the margin via [CreateVisualElementAsync](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewmarginprovider.createvisualelementasync).
+
+Because extensions in `VisualStudio.Extensibility` might be out of process from Visual Studio, we can't directly use Windows Presentation Foundation as a presentation layer for the content of text view margins. Instead, providing content to a text view margin requires creating a [RemoteUserControl](./../../inside-the-sdk/remote-ui.md#create-the-remote-user-control) and the corresponding data template for that control. This article includes some simple examples. We recommend that you read the [Remote UI documentation](./../../inside-the-sdk/remote-ui.md) when you create text view margin UI content.
 
 ```csharp
 /// <summary>
@@ -39,12 +40,12 @@ public async Task<IRemoteUserControl> CreateVisualElementAsync(ITextViewSnapshot
 }
 ```
 
-In addition to configuring margin placement, text view margin providers can also configure the size of the grid cell in which the margin should be placed using [GridCellLength](/dotnet/api/microsoft.visualstudio.extensibility.editor.textviewmarginproviderconfiguration.gridcelllength) and [GridUnitType](/dotnet/api/microsoft.visualstudio.extensibility.editor.textviewmarginproviderconfiguration.gridunittype) properties.
+In addition to configuring margin placement, text view margin providers can also configure the size of the grid cell in which the margin should be placed by using [GridCellLength](/dotnet/api/microsoft.visualstudio.extensibility.editor.textviewmarginproviderconfiguration.gridcelllength) and [GridUnitType](/dotnet/api/microsoft.visualstudio.extensibility.editor.textviewmarginproviderconfiguration.gridunittype) properties.
 
-Text view margins typically visualize some data related to the text view (for example, current line number or the count of errors) so most text view margin providers would also want to [listen to text view events](working-with-text.md) to react to opening, closing of text views and user typing.
+Text view margins typically visualize some data related to the text view (for example, the current line number or the count of errors). Most text view margin providers also want to [listen to text view events](working-with-text.md) to react to the opening and closing of text views and user typing.
 
-Visual Studio only creates one instance of your text view margin provider regardless of how many applicable text views a user opens, so if your margin displays some stateful data, your provider needs to keep the state of currently open text views.
+Visual Studio creates only one instance of your text view margin provider regardless of how many applicable text views that a user opens. If your margin shows some stateful data, your provider needs to keep the state of currently open text views.
 
-For more information, see [Word Count Margin Sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/WordCountMargin/).
+For more information, see [Word count margin sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/WordCountMargin/).
 
-Vertical text view margins whose content needs to be aligned with text view lines are not yet supported.
+Vertical text view margins whose content needs to be aligned with text view lines aren't supported yet.
