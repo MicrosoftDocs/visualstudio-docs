@@ -1673,7 +1673,7 @@ FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
     LTEXT           "MSOffice2007Demo Application Version 1.0",IDC_STATIC,40,10,119,8
-    LTEXT           "© 2007 - 2008 Microsoft Corporation.  All rights reserved.",
+    LTEXT           "ï¿½ 2007 - 2008 Microsoft Corporation.  All rights reserved.",
                     IDC_STATIC,40,25,122,19
     DEFPUSHBUTTON   "OK",IDOK,176,6,32,14,WS_GROUP
 END
@@ -2198,7 +2198,7 @@ BEGIN
     ID_FONT_FONT            "Change the font face.\nFont"
     ID_FONT_FONTSIZE        "Change the font size.\nFont Size"
     ID_FONT_GROWFONT        "Increase the font size.\nGrow Font"
-    ID_FONT_ITALIC          "Italicize the selcted text.\nItalic"
+    ID_FONT_ITALIC          "Italicize the selected text.\nItalic"
     ID_FONT_SHRINK          "Decrease the font size.\nShrink Font"
     ID_FONT_STRIKETHROUGH   "Draw a line through the middle of the selected text.\nStrikethrough"
     ID_FONT_SUBSCRIPT       "Create the small letters below the text baseline.\nSubscript"
