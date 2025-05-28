@@ -34,7 +34,7 @@ Watch the video or read on to learn how to assign a Visual Studio subscription t
    + If the subscriber wasn't found in your organization, you can enter the subscriber's name in the **Name** field. 
    + Enter the email address you want your subscriber to use to sign in. You can also select the **Add a different notification email for receiving communication** link and specify a different notification email address so subscribers and admins receive important subscription-related emails from Microsoft.
       > [!div class="mx-imgBorder"]
-      > ![Subscriber details](_img/assign-license-add/subscriber-details.png "Screenshot of the Add subsriber dialog showing fields for subscriber details.")
+      > ![Subscriber details](_img/assign-license-add/subscriber-details.png "Screenshot of the Add subscriber dialog showing fields for subscriber details.")
 
       > [!NOTE]
       > In order for members of a Microsoft Entra tenant to be visible when you enter a subscriber name, the admin must be a member of the tenant. 

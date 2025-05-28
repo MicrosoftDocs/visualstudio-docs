@@ -50,7 +50,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
 1. Navigate to the Excel file that you saved, and then select **OK**.
    > [!div class="mx-imgBorder"]
-   > ![Upload the Excel template to upload multiple subscribers](media/bulk-upload-subscribers.png "Screenshot of the Upload multiple subscribers dialog. The name of the completed upload template is highlighed.")
+   > ![Upload the Excel template to upload multiple subscribers](media/bulk-upload-subscribers.png "Screenshot of the Upload multiple subscribers dialog. The name of the completed upload template is highlighted.")
 
     An upload progress dialog appears.
 
