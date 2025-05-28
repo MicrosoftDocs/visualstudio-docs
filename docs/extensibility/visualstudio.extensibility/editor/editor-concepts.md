@@ -65,4 +65,4 @@ The `TextPosition` and `TextRange` parameters are associated with a specific `IT
 
 ## Related content
 
-Review sample code for a simple editor-based extension in [DocumentSelectorSample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DocumentSelectorSample/).
+- Review sample code for a simple editor-based extension in [DocumentSelectorSample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DocumentSelectorSample/).

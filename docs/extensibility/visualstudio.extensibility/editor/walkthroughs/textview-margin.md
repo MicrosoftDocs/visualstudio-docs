@@ -48,4 +48,5 @@ Visual Studio creates only one instance of your text view margin provider regard
 
 For more information, see [Word count margin sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/WordCountMargin/).
 
-Vertical text view margins whose content needs to be aligned with text view lines aren't supported yet.
+> [!NOTE]
+> Vertical text view margins whose content needs to be aligned with text view lines aren't supported yet.

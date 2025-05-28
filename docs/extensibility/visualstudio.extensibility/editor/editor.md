@@ -59,8 +59,6 @@ For a walkthrough of how to provide your own taggers with your extension, see [E
 
 ## Related content
 
-Learn about the editor interfaces and types in [Editor concepts](editor-concepts.md).
-
-Review sample code for a simple editor-based extension in [DocumentSelectorSample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DocumentSelectorSample/).
-
-Advanced users might want to learn about the [Editor RPC support](editor-rpc.md).
+- Learn about the editor interfaces and types in [Editor concepts](editor-concepts.md).
+- Review sample code for a simple editor-based extension in [DocumentSelectorSample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DocumentSelectorSample/).
+- Advanced users might want to learn about the [Editor RPC support](editor-rpc.md).
