@@ -287,7 +287,7 @@ The tool shows each event in a list view. Columns provide information about each
 ::: moniker range=">=vs-2022"
 ## View custom events in the timeline graphs
 
-You can programatically create custom events that appear as icons in the timeline graphs such as the CPU utilization and memory usage timeline graphs. For more information, see [Add user marks to timeline](../profiling/add-timeline-graph-user-marks.md).
+You can programmatically create custom events that appear as icons in the timeline graphs such as the CPU utilization and memory usage timeline graphs. For more information, see [Add user marks to timeline](../profiling/add-timeline-graph-user-marks.md).
 ::: moniker-end
 
 ::: zone pivot="programming-language-dotnet,programming-language-dotnetf"

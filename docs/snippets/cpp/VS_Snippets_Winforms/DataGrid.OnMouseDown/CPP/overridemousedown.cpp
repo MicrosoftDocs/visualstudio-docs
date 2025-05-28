@@ -106,7 +106,7 @@ namespace DataGridSample
       {
          this->Size = System::Drawing::Size( 700, 500 );
          button1->Location = Point(300,300);
-         button1->Text = "Sort the grid programatically";
+         button1->Text = "Sort the grid programmatically";
          button1->Width = 200;
          grid->Size = System::Drawing::Size( 350, 250 );
          grid->TabStop = true;
