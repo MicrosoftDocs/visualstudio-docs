@@ -2,7 +2,7 @@
 This program demonstrates 'AddRange(int, int)' method of 'HttpWebRequest class.
 A new 'HttpWebRequest' Object* is created.The number of characters of the response to be received can be
 restricted by the 'AddRange' method.By calling 'AddRange(50, 150)' on the 'HttpWebRequest' Object* the content
-of the response page is restricted from the 50th character to 150th charater.The response of the request is
+of the response page is restricted from the 50th character to 150th character.The response of the request is
 obtained and displayed to the console.
 */
 
@@ -36,7 +36,7 @@ int main()
       StreamReader^ streamRead = gcnew StreamReader( streamResponse );
       array<Char>^ readBuffer = gcnew array<Char>(256);
       int count = streamRead->Read( readBuffer, 0, 256 );
-      Console::WriteLine( "\nThe HTML contents of the page from 50th to 150 charaters are :\n  " );
+      Console::WriteLine( "\nThe HTML contents of the page from 50th to 150 characters are :\n  " );
       while ( count > 0 )
       {
          String^ outputData = gcnew String( readBuffer,0,count );
