@@ -14,14 +14,14 @@ ms.subservice: extensibility-integration
 
 The Visual Studio editor supports extensions that add to its capabilities. Examples include extensions that:
 
-- Insert and modify code in an existing language
+- Insert and modify code in an existing language.
 - Customize the behavior of certain editor features like CodeLens.
 
-The Visual Studio editor generally refers to the functionality of editing text files, known as documents, of any type. You can open individual files for editing. The open editor window is referred to as a `TextView`.
+The Visual Studio editor generally refers to the functionality of editing text files, known as documents, of any type. You can open individual files for editing. The open editor window is referred to as a text view.
 
 For more information on the editor object model, see [Editor extensibility concepts](editor-concepts.md).
 
-The following sections summarize the high-level editor extensibility scenarios that `VisualStudio.Extensibility` supports. Because each of these scenarios is rich in concepts and APIs, separate, more detailed sections include links to provide more in-depth explanations of the APIs and how to use them.
+The following sections summarize the high-level editor extensibility scenarios that `VisualStudio.Extensibility` supports. Each of these scenarios is rich in concepts and APIs. Separate, more detailed sections include links to provide more in-depth explanations of the APIs and how to use them.
 
 ## Read text and observe changes in the editor
 
@@ -41,7 +41,7 @@ Extensions can also plug in to many features in the editor that provide contextu
 
 ### Text view margin
 
-Extensions can contribute new text view margins to the Visual Studio editor. A text view margin is a rectangular UI control attached to a text view on one of its four sides. These UI controls offer more information at a glance, which allows developers to stay productive when they work in the editor. Many of the most popular features in the Visual Studio editor use text view margins, like the zoom control, breakpoint indicator, and line number indicator.
+Extensions can contribute new text view margins to the Visual Studio editor. A text view margin is a rectangular UI control attached to a text view on one of its four sides. These UI controls offer more information at a glance, which allows developers to stay productive when they work in the editor. Many of the most popular features in the Visual Studio editor use text view margins, like zoom control, the breakpoint indicator, and the line number indicator.
 
 For a walkthrough of how to customize text view margins with your extension, see [Extend the Visual Studio editor with a new margin](./walkthroughs/textview-margin.md).
 
@@ -59,10 +59,8 @@ For a walkthrough of how to provide your own taggers with your extension, see [E
 
 ## Related content
 
-Learn about the editor interfaces and types at [Editor concepts](editor-concepts.md).
+Learn about the editor interfaces and types in [Editor concepts](editor-concepts.md).
 
-Review sample code for a simple editor-based extension:
-
-- [DocumentSelectorSample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DocumentSelectorSample/)
+Review sample code for a simple editor-based extension in [DocumentSelectorSample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DocumentSelectorSample/).
 
 Advanced users might want to learn about the [Editor RPC support](editor-rpc.md).

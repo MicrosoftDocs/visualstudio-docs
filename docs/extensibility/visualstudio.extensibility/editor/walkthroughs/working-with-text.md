@@ -61,7 +61,7 @@ Because both [ITextViewOpenClosedListener](/dotnet/api/microsoft.visualstudio.ex
 When you run your extension, you should see:
 
 - [ITextViewOpenClosedListener.TextViewOpenedAsync](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewopenclosedlistener.textviewopenedasync) called any time that a user opens a text view.
-- [ITextViewOpenClosedListener.TextViewClosedAsync](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewopenclosedlistener.textviewclosedasync) called any time that a user closes text view.
+- [ITextViewOpenClosedListener.TextViewClosedAsync](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewopenclosedlistener.textviewclosedasync) called any time that a user closes a text view.
 - [ITextViewChangedListener.TextViewChangedAsync](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewchangedlistener.textviewchangedasync) called any time that a user makes a text change to a text document that a text view displays.
 
 Each of these methods is passed an [ITextViewSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewsnapshot) parameter that contains the state of the text view and text document at the time that the user invoked the action and a `CancellationToken` that has `IsCancellationRequested == true` when the integrated development environment (IDE) wants to cancel a pending action.

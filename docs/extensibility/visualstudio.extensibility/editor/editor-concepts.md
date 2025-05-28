@@ -40,17 +40,17 @@ If you're familiar with legacy Visual Studio extensions, [ITextDocumentSnapshot]
 - Use the indexer syntax, `textDocument[0]`, to read character by character in the document without copying it to a string.
 - If you must create a string, such as for use as a dictionary key, use the overload that takes a `Range` to avoid creating a large throwaway string from the entire line or document.
 - Avoid the assumption that lines or documents are short. Many languages minify into huge lines or consume large files.
-   - The [ITextDocumentSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextdocumentsnapshot) parameter references large data structures that might consume memory if an old-enough version is stored. Best practice is to periodically update positions and ranges that you're storing long term to the latest document version via their `TranslateTo()` method so that the old `ITextDocumentSnapshot` version can be garbage collected.
+   - The [ITextDocumentSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextdocumentsnapshot) parameter references large data structures that might consume memory if an old-enough version is stored. Best practice is to periodically update positions and ranges that you're storing long term to the latest document version via their `TranslateTo()` method so that the old `ITextDocumentSnapshot` version can be collected as garbage.
 
 ## Position
 
-The [TextPosition](/dotnet/api/microsoft.visualstudio.extensibility.editor.textposition) parameter represents a position within the text document. As opposed to `int` positions, the `TextPosition` type is aware of the [ITextDocumentSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextdocumentsnapshot) parameter that it came from and supports `GetChar()` to directly get the character at that point.
+The [TextPosition](/dotnet/api/microsoft.visualstudio.extensibility.editor.textposition) parameter represents a position within the text document. As opposed to `int` positions, the `TextPosition` type is aware of the [ITextDocumentSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextdocumentsnapshot) parameter that it came from and supports `GetChar()` to get the character directly at that point.
 
 If you're familiar with legacy Visual Studio extensions, `TextPosition` is almost the same as [SnapshotPoint](/dotnet/api/microsoft.visualstudio.text.snapshotpoint) and supports most of the same methods.
 
 ## Range
 
-The [TextRange](/dotnet/api/microsoft.visualstudio.extensibility.editor.textrange) parameter represents a contiguous substring of characters within an [ITextDocumentSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextdocumentsnapshot) parameter. As opposed to a string created with `string.Substring()` or `ITextDocumentSnapshot.CopyToString()`, creating a `TextRange` parameter doesn't require any allocations or extra memory. You can later call [CopyToString()](/dotnet/api/microsoft.visualstudio.extensibility.editor.textextensions.copytostring) to realize it into a string in a deferred fashion.
+The [TextRange](/dotnet/api/microsoft.visualstudio.extensibility.editor.textrange) parameter represents a contiguous substring of characters within an [ITextDocumentSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextdocumentsnapshot) parameter. As opposed to a string created with `string.Substring()` or `ITextDocumentSnapshot.CopyToString()`, creating a `TextRange` parameter doesn't require any allocations or extra memory. Later, you can call [CopyToString()](/dotnet/api/microsoft.visualstudio.extensibility.editor.textextensions.copytostring) to realize it into a string in a deferred fashion.
 
 If you're familiar with legacy Visual Studio extensions, `TextRange` is almost the same as
 [SnapshotSpan](/dotnet/api/microsoft.visualstudio.text.snapshotSpan) and supports most of the same methods.
@@ -65,6 +65,4 @@ The `TextPosition` and `TextRange` parameters are associated with a specific `IT
 
 ## Related content
 
-Review sample code for a simple editor-based extension:
-
-- [DocumentSelectorSample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DocumentSelectorSample/)
+Review sample code for a simple editor-based extension in [DocumentSelectorSample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DocumentSelectorSample/).
