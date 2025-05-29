@@ -77,7 +77,7 @@ private:
 
    void Button1_Click( Object^ /*sender*/, EventArgs^ /*e*/ )
    {
-      // Reset the 'GridLineColor' to its orginal color.
+      // Reset the 'GridLineColor' to its original color.
       myDataTableStyle->ResetGridLineColor();
    }
    // </Snippet1>

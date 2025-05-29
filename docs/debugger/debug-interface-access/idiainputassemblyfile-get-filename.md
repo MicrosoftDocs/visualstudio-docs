@@ -1,5 +1,5 @@
 ---
-description: Retrieves the orginal assembly file name.
+description: Retrieves the original assembly file name.
 title: "IDiaInputAssemblyFile::get_fileName"
 ms.date: "07/18/2024"
 ms.topic: "reference"
@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 # IDiaInputAssemblyFile::get_fileName
 
-Retrieves the orginal assembly file name.
+Retrieves the original assembly file name.
 
 ## Syntax
 

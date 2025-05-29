@@ -319,7 +319,7 @@ BOOL CWordPadDoc::DoSave(LPCTSTR pszPathName, BOOL bReplace /*=TRUE*/)
 			}
 			END_CATCH_ALL
 		}
-		// restore orginal document type
+		// restore original document type
 		SetDocType(nOrigDocType, TRUE);
 		EndWaitCursor();
 		return FALSE;
