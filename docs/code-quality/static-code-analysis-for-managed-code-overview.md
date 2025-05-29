@@ -27,7 +27,7 @@ The analysis tool represents the checks it performs during an analysis as warnin
 
 You can run code analysis on your project manually or automatically.
 
-To run code analysis each time that you build a project, select the option on the project's **Code Analysis** property page. For more information, see [How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md).
+To run code analysis each time that you build a project, select the option on the project's **Code Analysis** property page. For more information, see [How to: Enable and Disable Automatic Code Analysis](/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code).
 
 To run code analysis manually on a project, from the menu bar choose **Analyze** > **Run Code Analysis** > **Run Code Analysis on \<project>**.
 
@@ -72,4 +72,4 @@ You can use the integrated features of the build system to run the analysis tool
 
 - [Overview of .NET Compiler Platform-based analyzers](../code-quality/roslyn-analyzers-overview.md)
 - [Using Rule Sets to Group Code Analysis Rules](/previous-versions/visualstudio/visual-studio-2019/code-quality/using-rule-sets-to-group-code-analysis-rules)
-- [How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)
+- [How to: Enable and Disable Automatic Code Analysis](/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code)
