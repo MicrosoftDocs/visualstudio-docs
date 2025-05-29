@@ -29,7 +29,7 @@ Below are the errors and warning dialog boxes you may encounter while debugging 
 
  [Assertion Failed Dialog Box](../debugger/assertion-failed-dialog-box.md)
 
- [Cannot Change Value Dialog Box](../debugger/cannot-change-value-dialog-box.md)
+ [Cannot Change Value Dialog Box](/previous-versions/visualstudio/visual-studio-2017/debugger/cannot-change-value-dialog-box)
 
  [Debugger Cannot Display Source Code or Disassembly](../debugger/debugger-cannot-display-source-code-or-disassembly.md)
  

@@ -49,4 +49,4 @@ The **Output** window can also display information about:
 - [Output window](../ide/reference/output-window.md)
 - [Trace and instrument applications](/dotnet/framework/debug-trace-profile/tracing-and-instrumenting-applications)
 - [C#, F#, and Visual Basic project types](../debugger/managed-debugging-recommended-property-settings.md)
-- [Debugging managed code](../debugger/debugging-managed-code.md)
+- [Debugging managed code](/visualstudio/debugger/)

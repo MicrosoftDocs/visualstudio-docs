@@ -103,4 +103,4 @@ Remote debugging works the same as local debugging.
 ## Related content
 - [Advanced remote deployment options](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options)
 - [Testing UWP apps with Visual Studio](../test/unit-test-your-code.md)
-- [Debug UWP apps in Visual Studio](debugging-windows-store-and-windows-universal-apps.md)
+- [Debug UWP apps in Visual Studio](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps)

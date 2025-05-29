@@ -52,4 +52,4 @@ To access the *Project* Property Pages dialog box, right-click your project in S
 
 ## Related content
 
-- [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)
+- [COM and ActiveX Debugging](/previous-versions/visualstudio/visual-studio-2017/debugger/com-and-activex-debugging)

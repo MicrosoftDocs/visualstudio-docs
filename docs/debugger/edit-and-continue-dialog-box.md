@@ -19,11 +19,11 @@ ms.subservice: debug-diagnostics
 ---
 # Edit and Continue Dialog Box
 
-(Native Only) This dialog box appears when you have edited code while debugging and **Edit and Continue** recognizes that it can apply code changes. For more information, see [Edit and Continue](../debugger/edit-and-continue.md).
+(Native Only) This dialog box appears when you have edited code while debugging and **Edit and Continue** recognizes that it can apply code changes. For more information, see [Edit and Continue](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue).
 
  **Never show me this dialog again**
  If you select this check box, **Edit and Continue** will apply code changes without asking permission in the future. You can turn this warning on again by going to the **Options** dialog box, opening the **Debugging** Folder, clicking the **Edit and Continue** page, and selecting **Invoked by debug commands** and **Ask me first**.
 
 ## See also
 - [Debugger Security](../debugger/debugger-security.md)
-- [Edit and Continue, Debugging, Options Dialog Box](./edit-and-continue.md)
+- [Edit and Continue, Debugging, Options Dialog Box](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue)

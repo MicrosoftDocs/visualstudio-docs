@@ -151,7 +151,7 @@ You can write a calling app for a DLL in managed or native code. If your native 
 You can also debug a native DLL from a managed calling project. For more information, see [How to debug managed and native code](how-to-debug-managed-and-native-code.md).
 
 ## Related content
-- [Debug managed code](../debugger/debugging-managed-code.md)
+- [Debug managed code](/visualstudio/debugger/)
 - [Prepare to debug C++ projects](../debugger/debugging-preparation-visual-cpp-project-types.md)
 - [C#, F#, and Visual Basic project types](../debugger/managed-debugging-recommended-property-settings.md)
 - [Project settings for a C++ Debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
