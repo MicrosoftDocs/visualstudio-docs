@@ -64,7 +64,7 @@ When you run your extension, you should see:
 - [ITextViewOpenClosedListener.TextViewClosedAsync](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewopenclosedlistener.textviewclosedasync) called any time that a user closes a text view.
 - [ITextViewChangedListener.TextViewChangedAsync](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewchangedlistener.textviewchangedasync) called any time that a user makes a text change to a text document that a text view displays.
 
-Each of these methods is passed an [ITextViewSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewsnapshot) parameter that contains the state of the text view and text document at the time that the user invoked the action and a `CancellationToken` that has `IsCancellationRequested == true` when the integrated development environment (IDE) wants to cancel a pending action.
+Each of these methods is passed an [ITextViewSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewsnapshot) class that contains the state of the text view and text document at the time that the user invoked the action and a `CancellationToken` that has `IsCancellationRequested == true` when the integrated development environment (IDE) wants to cancel a pending action.
 
 ## Define when your extension is relevant
 
@@ -92,7 +92,7 @@ Document types are hierarchical. That is, C# and C++ both descend from `code`, s
 
 You can define a new document type, for example, to support a custom code language, by adding a static [DocumentTypeConfiguration](/dotnet/api/microsoft.visualstudio.extensibility.editor.documenttypeconfiguration) property to any class in the extension project. Then mark the property with the [`VisualStudioContribution`](/dotnet/api/microsoft.visualstudio.extensibility.visualstudiocontributionattribute) attribute.
 
-You can use the `DocumentTypeConfiguration` parameter to define a new document type, specify that it inherits one or more other document types, and specify one or more file extensions that are used to identify the file type.
+You can use `DocumentTypeConfiguration` to define a new document type, specify that it inherits one or more other document types, and specify one or more file extensions that are used to identify the file type.
 
 ```csharp
 using Microsoft.VisualStudio.Extensibility.Editor;
@@ -144,7 +144,7 @@ public sealed class TextViewOperationListener
     };
 ```
 
-The `pattern` parameter represents a glob pattern that's matched on the absolute path of the document.
+The pattern represents a glob pattern that's matched on the absolute path of the document.
 
 Glob patterns can have the following syntax:
 
@@ -167,10 +167,10 @@ EditorExtensibility editorService = this.Extensibility.Editor();
 
 ### Access editor state within a command
 
-The `ExecuteCommandAsync()` parameter in each `Command` parameter is passed an `IClientContext` parameter that contains a snapshot of the state of the IDE at the time the command was invoked. You can access the active document via the [`ITextViewSnapshot`](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewsnapshot) interface, which you get from the [`EditorExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.editor.editorextensibility) object by calling the asynchronous method [`GetActiveTextViewAsync`](/dotnet/api/microsoft.visualstudio.extensibility.editor.editorextensibility.getactivetextviewasync).
+The `ExecuteCommandAsync()` method in each `Command` is passed `IClientContext` that contains a snapshot of the state of the IDE at the time the command was invoked. You can access the active document via the [`ITextViewSnapshot`](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewsnapshot) interface, which you get from the [`EditorExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.editor.editorextensibility) object by calling the asynchronous method [`GetActiveTextViewAsync`](/dotnet/api/microsoft.visualstudio.extensibility.editor.editorextensibility.getactivetextviewasync).
 
 ```csharp
 using ITextViewSnapshot textView = await this.Extensibility.Editor().GetActiveTextViewAsync(clientContext, cancellationToken);
 ```
 
-When you have the `ITextViewSnapshot` parameter, you can access the editor state. The [`ITextViewSnapshot`](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewsnapshot) parameter is an immutable view of the editor state at a point in time, so you need to use the other interfaces in the [Editor object model](./../editor-concepts.md) to make edits.
+When you have the `ITextViewSnapshot` class, you can access the editor state. The [`ITextViewSnapshot`](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewsnapshot) class is an immutable view of the editor state at a point in time, so you need to use the other interfaces in the [Editor object model](./../editor-concepts.md) to make edits.

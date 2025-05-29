@@ -27,7 +27,7 @@ The following sections summarize the high-level editor extensibility scenarios t
 
 The most fundamental extensibility point for the Visual Studio editor is to manipulate text, either by reading the text in the editor or editing the text. These scenarios are core to any editor-based extensions. For example, to provide diagnostics information, such as warnings or errors, the extension must read the code in the editor and then interpret it. An extension also needs a way to detect when the text in the editor changed, if a new file opened, or if an open file closed.
 
-For a walkthrough of how to make read-text and track-text changes by using `VisualStudio.Extensibility`, see [Work with text in the editor](./walkthroughs/working-with-text.md).
+For a walkthrough of how to make read text and track text changes by using `VisualStudio.Extensibility`, see [Work with text in the editor](./walkthroughs/working-with-text.md).
 
 ## Make edits to text in the editor
 
