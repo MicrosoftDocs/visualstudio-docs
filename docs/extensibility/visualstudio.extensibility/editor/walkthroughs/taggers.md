@@ -16,7 +16,7 @@ Extensions can contribute new taggers to Visual Studio. Taggers are used to asso
 
 `VisualStudio.Extensibility` supports tag types that are only provided by the [Microsoft.VisualStudio.Extensibility](https://www.nuget.org/packages/Microsoft.VisualStudio.Extensibility) package and implement the [ITag](/dotnet/api/microsoft.visualstudio.extensibility.editor.itag) interface:
 
-- `CodeLensTag` is used together with an [ICodeLensProvider](./codelens.md) to add CodeLens to documents. `TextMarkerTag` and `ClassificationTag` can also be linked to the API documents.
+- `CodeLensTag` is used together with an [ICodeLensProvider](./codelens.md) to add CodeLens to documents.
 - `TextMarkerTag` is used to highlight portions of documents. `VisualStudio.Extensibility` doesn't support defining new Text Marker styles yet. For now, you can use only styles that are built into Visual Studio or provided by a Visual Studio SDK extension. (A [VisualStudio.Extensibility in-proc extension](../../get-started/in-proc-extensions.md) can create Text Marker styles with `[Export(typeof(EditorFormatDefinition))]`.)
 - `ClassificationTag` is used to classify a document's syntax, which allows for the text to be colorized accordingly.
 
