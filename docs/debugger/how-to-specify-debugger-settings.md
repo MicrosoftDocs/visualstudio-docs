@@ -37,6 +37,6 @@ In Visual Studio, you can specify various settings for debugger behavior, includ
 
 ## Related content
 - [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md)
-- [Edit and Continue, Debugging, Options Dialog Box](./edit-and-continue.md)
+- [Edit and Continue, Debugging, Options Dialog Box](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue)
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
 - [Common Macros for Build Commands and Properties](/cpp/build/reference/common-macros-for-build-commands-and-properties)

@@ -174,4 +174,4 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
 - [What is debugging?](../debugger/what-is-debugging.md)
 - [Write better C# code using Visual Studio](../debugger/write-better-code-with-visual-studio.md)
 - [First look at debugging](../debugger/debugger-feature-tour.md)
-- [Troubleshoot breakpoints in the Visual Studio debugger](../debugger/troubleshooting-breakpoints.md)
+- [Troubleshoot breakpoints in the Visual Studio debugger](/troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints)

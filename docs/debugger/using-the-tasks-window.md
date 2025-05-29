@@ -111,7 +111,7 @@ The **Switch to Task** command makes the current task the active task. The **Swi
 ## Related content
 
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
-- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+- [Debugging Managed Code](/visualstudio/debugger/)
 - [Parallel Programming](/dotnet/standard/parallel-programming/index)
 - [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime)
 - [Using the Parallel Stacks Window](../debugger/using-the-parallel-stacks-window.md)

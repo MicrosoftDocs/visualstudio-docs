@@ -48,4 +48,4 @@ To enable Edit and Continue for C++, see [How to enable and disable Edit and Con
 
 ## Related content
 
-- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+- [Debugging Managed Code](/visualstudio/debugger/)
