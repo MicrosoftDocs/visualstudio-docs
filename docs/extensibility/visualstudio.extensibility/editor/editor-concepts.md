@@ -57,7 +57,7 @@ If you're familiar with legacy Visual Studio extensions, `TextRange` is almost t
 
 ## Tracking modes
 
-The `TextPosition` and `TextRange` classs are associated with a specific `ITextDocumentSnapshot` class, which is the state of the document at a specific time. You can use the `TranslateTo` methods to translate such positions and ranges to a different snapshot. Such translation takes into account any text that was added or removed before, after (or, in the case of ranges, in the middle of) the position or range. When any of these edits happen exactly at the position or exactly at the edge of the range, [TextPositionTrackingMode](/dotnet/api/microsoft.visualstudio.extensibility.editor.textpositiontrackingmode) and [TextRangeTrackingMode](/dotnet/api/microsoft.visualstudio.extensibility.editor.textrangetrackingmode) are used to specify how the translation should behave.
+The `TextPosition` and `TextRange` classes are associated with a specific `ITextDocumentSnapshot` class, which is the state of the document at a specific time. You can use the `TranslateTo` methods to translate such positions and ranges to a different snapshot. Such translation takes into account any text that was added or removed before, after (or, in the case of ranges, in the middle of) the position or range. When any of these edits happen exactly at the position or exactly at the edge of the range, [TextPositionTrackingMode](/dotnet/api/microsoft.visualstudio.extensibility.editor.textpositiontrackingmode) and [TextRangeTrackingMode](/dotnet/api/microsoft.visualstudio.extensibility.editor.textrangetrackingmode) are used to specify how the translation should behave.
 
 ## Tag
 
