@@ -28,7 +28,7 @@ In addition to the requirements for Graphics Diagnostics, the following is requi
   > [!NOTE]
   > For more information on supported hardware and drivers, see [Hardware and driver support](#hwsupport) at the end of this document.
 
-For more information about Graphics Diagnostics requirements, see [Getting started](../debugger/graphics/getting-started-with-visual-studio-graphics-diagnostics.md).
+For more information about Graphics Diagnostics requirements, see [Getting started](/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/getting-started-with-visual-studio-graphics-diagnostics).
 
 ## Use the GPU Usage tool
 
