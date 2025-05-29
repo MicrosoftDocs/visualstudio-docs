@@ -24,6 +24,8 @@ One of the main categories included in the Visual Studio ADMX templates is feedb
 > [!IMPORTANT]
 > These policies require Visual Studio 2022 version 17.13 or later
 
+In addition to configuring policies through Intune or the Group Policy editor, you can find and adjust policies in the registry at `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\Feedback`.
+
 Feedback Group Policies for Visual Studio include the following:
 
 | **Name**                         | **Description**                                               |
