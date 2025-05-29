@@ -95,8 +95,8 @@ Coded UI tests provide a way to create fully automated tests to validate the fun
 Whether you choose best-of-breed Coded UI Tests or generic browser-based UI testing with [Playwright](https://playwright.dev/), Visual Studio provides all the tools you need.
 
 * [Use UI automation to test your code](use-ui-automation-to-test-your-code.md)
-* [Get started creating, editing, and maintaining a coded UI test](walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
-* [Test UWP apps with coded UI tests](test-uwp-app-with-coded-ui-test.md)
+* [Get started creating, editing, and maintaining a coded UI test](/previous-versions/visualstudio/visual-studio-2017/test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test)
+* [Test UWP apps with coded UI tests](/previous-versions/visualstudio/visual-studio-2017/test/test-uwp-app-with-coded-ui-test)
 * [Introduction to coded UI tests with Visual Studio Enterprise (Lab)](https://azuredevopslabs.com/labs/tfs/codedui)
 ::: moniker-end
 
@@ -104,4 +104,4 @@ Whether you choose best-of-breed Coded UI Tests or generic browser-based UI test
 
 - [Exploratory & manual testing (Azure Test Plans)](/azure/devops/test/index?view=vsts&preserve-view=true)
 - [Load testing (Azure Load Testing)](/azure/load-testing/)
-- [Code analysis tools](../code-quality/code-analysis-for-managed-code-overview.md)
+- [Code analysis tools](/previous-versions/visualstudio/visual-studio-2019/code-quality/code-analysis-for-managed-code-overview)
