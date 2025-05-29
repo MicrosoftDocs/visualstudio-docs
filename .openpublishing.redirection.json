@@ -20684,7 +20684,7 @@
     },
     {
       "source_path": "docs/debugger/specify-command-line-arguments.md",
-      "redirect_url": "../../visualstudio/debugger/project-settings-for-a-cpp-debug-configuration",
+      "redirect_url": "/visualstudio/debugger/project-settings-for-a-cpp-debug-configuration",
       "redirect_document_id": false
     }
   ]

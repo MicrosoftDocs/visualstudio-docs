@@ -69,5 +69,5 @@ To edit code in Break mode:
 ## Related content
 
 - [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md)
-- [Edit and Continue](../debugger/edit-and-continue.md)
+- [Edit and Continue](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue)
 - [Configure Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md)

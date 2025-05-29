@@ -87,7 +87,7 @@ Set `"COMPlus_ReadyToRun": "0"`  by adding it to each profile in the *Properties
 
 ## Related content
 - [How To Debug Dotnet Framework Source](../debugger/how-to-debug-dotnet-framework-source.md)
-- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+- [Debugging Managed Code](/visualstudio/debugger/)
 - [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)
 - [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
 - [Managed Execution Process](/dotnet/standard/managed-execution-process)

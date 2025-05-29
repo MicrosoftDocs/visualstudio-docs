@@ -34,7 +34,7 @@ For more information, see [Debug and release configurations](how-to-set-debug-an
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 >[!IMPORTANT]
->These settings don't apply to .NET Core, ASP.NET, or UWP apps. To configure debug settings for UWP apps, see [Start a debugging session for a UWP app](start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md).
+>These settings don't apply to .NET Core, ASP.NET, or UWP apps. To configure debug settings for UWP apps, see [Start a debugging session for a UWP app](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps).
 ::: moniker-end
 
 ## Debug tab

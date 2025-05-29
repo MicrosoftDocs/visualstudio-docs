@@ -266,7 +266,7 @@ Starting in Visual Studio 2022 version 17.10 Preview 2, the Attach to Process di
 
    The breakpoint should be hit in Visual Studio.
 
-   If you're unable to attach or hit the breakpoint, see [Troubleshoot remote debugging](../debugger/troubleshooting-remote-debugging.md).
+   If you're unable to attach or hit the breakpoint, see [Troubleshoot remote debugging](/troubleshoot/developer/visualstudio/debuggers/troubleshooting-remote-debugging).
 
 ## Troubleshooting IIS deployment
 

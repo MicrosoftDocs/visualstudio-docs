@@ -148,4 +148,4 @@ You can shut down the simulator by pressing **CTRL + ALT + F4**.
 
 ## Related content
 
-- [Run apps from Visual Studio](debugging-windows-store-and-windows-universal-apps.md)
+- [Run apps from Visual Studio](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps)
