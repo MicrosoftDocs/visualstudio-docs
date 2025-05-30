@@ -57,7 +57,7 @@ To try debugging a 64-bit application locally:
 
 3. At this point the 64-bit version of the remote debugger (msvsmon.exe) starts. It runs as long as the solution with the 64-bit configuration is open.
 
-4. Start debugging. You should have the same experience as with a 32-bit configuration. If you still get the same error, see the beginning of this articles for other suggestions.
+4. Start debugging. You should have the same experience as with a 32-bit configuration. If you still get the same error, see the beginning of this article for other suggestions.
 ::: moniker-end
 
 ## Related content
