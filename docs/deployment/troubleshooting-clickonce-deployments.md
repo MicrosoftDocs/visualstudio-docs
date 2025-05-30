@@ -42,7 +42,7 @@ This topic helps you diagnose and resolve the most common issues with ClickOnce 
 
  Describes miscellaneous issues surrounding ClickOnce deployments.
 
- [Troubleshoot specific errors in ClickOnce deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)
+ [Troubleshoot specific errors in ClickOnce deployments](/troubleshoot/developer/visualstudio/ide/troubleshoot-clickonce-deployments)
 
  Describes specific scenarios in which a ClickOnce deployment cannot succeed, and provides steps for resolving them.
 

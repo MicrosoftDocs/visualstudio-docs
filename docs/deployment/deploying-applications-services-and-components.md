@@ -49,7 +49,7 @@ Deployment to a local folder is typically used for testing or to begin a staged 
 
   - For continuous (or automated) deployment of apps, use Azure DevOps with [Azure Pipelines](/azure/devops/pipelines/tasks/build/visual-studio-build).
   - For one-time (or manual) deployment of apps, use the [Publish](publish-overview.md) tool in Visual Studio. See [Deploy an ASP.NET Web app](/azure/app-service/quickstart-dotnetcore).
-  - To create GitHub Actions workflows for ASP.NET and Azure Function projects hosted on GitHub.com, see [Deploy to Azure using GitHub Actions](../deployment/azure-deployment-using-github-actions.md).
+  - To create GitHub Actions workflows for ASP.NET and Azure Function projects hosted on GitHub.com, see [Deploy to Azure using GitHub Actions](/visualstudio/azure/azure-deployment-using-github-actions).
   - For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](/azure/app-service/deploy-continuous-deployment).
 
   To use the **Publish** tool, right-click the project in Solution Explorer and select **Publish**. (If you've previously configured any publishing profiles, you must then select **Create new profile**.) In the **Publish** dialog box, choose **Azure**, and then choose the desired Azure service to continue.
