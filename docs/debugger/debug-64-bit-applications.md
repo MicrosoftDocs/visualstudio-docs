@@ -1,7 +1,7 @@
 ---
 title: A 64-bit debugger operation is taking longer than expected
 description: Learn tips for troubleshooting unexpected debugging delays.
-ms.date: 04/16/2025
+ms.date: 05/30/2025
 ms.topic: how-to
 dev_langs:
   - CSharp
