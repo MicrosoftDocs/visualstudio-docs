@@ -33,7 +33,7 @@ The most common causes for this error are:
 - You're running into an issue where Visual Studio becomes unresponsive, or other performance problem. If the problem happens regularly, you can [collect dumps](../debugger/using-dump-files.md) of Visual Studio (devenv.exe) and the worker process (msvsmon.exe) and send them to Microsoft. For information about reporting a problem, see [How to Report a Problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md).
 
 ::: moniker range=">= vs-2022"
-- If you are using a version of Visual Studio prior to Visual Studio 2022, you may be trying to debug a 64-bit application while running in the 32-bit Visual Studio process. To resolve, follow instructions to [debug a 64-bit application](/previous-versions/visualstudio/visual-studio-2017/debugger/debug-64-bit-applications?view=vs-2017).
+- If you are using a version of Visual Studio prior to Visual Studio 2022, you may be trying to debug a 64-bit application while running in the 32-bit Visual Studio process. To resolve, follow instructions to [debug a 64-bit application](/previous-versions/visualstudio/visual-studio-2017/debugger/debug-64-bit-applications?view=vs-2017&preserve-view=true).
 ::: moniker-end
 
 ::: moniker range="<= vs-2019"
