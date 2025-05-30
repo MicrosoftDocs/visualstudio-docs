@@ -83,5 +83,5 @@ The **.NET Core Runtime...** option should be selected for console applications,
 
 ## Related content
 
-- [Prerequisites Dialog Box](../ide/reference/prerequisites-dialog-box.md)
+- [Prerequisites Dialog Box](/visualstudio/deployment/how-to-install-prerequisites-with-a-clickonce-application)
 - [Application Deployment Prerequisites](../deployment/application-deployment-prerequisites.md)
