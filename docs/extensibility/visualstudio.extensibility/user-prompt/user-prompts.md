@@ -52,7 +52,7 @@ This article covers the following scenarios for working with user prompts:
 
 Creating a user prompt with the new Extensibility model is as simple as calling the [`ShowPromptAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showpromptasync) method from the [ShellExtensibility](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility) helpers and passing in your options.
 
-### ShellExtensibility.ShowPromptAsync<TResult>()
+### ShellExtensibility.ShowPromptAsync()
 
 The [`ShowPromptAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showpromptasync) method takes three parameters:
 
