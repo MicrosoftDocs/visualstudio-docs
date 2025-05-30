@@ -272,4 +272,4 @@ You can set assertions in your program configuration file as well as in your cod
 - [Tracing and Instrumenting Applications](/dotnet/framework/debug-trace-profile/tracing-and-instrumenting-applications)
 - [How to: Compile Conditionally with Trace and Debug](/dotnet/framework/debug-trace-profile/how-to-compile-conditionally-with-trace-and-debug)
 - [Managed debugging: Recommended project settings](../debugger/managed-debugging-recommended-property-settings.md)
-- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+- [Debugging Managed Code](/visualstudio/debugger/)

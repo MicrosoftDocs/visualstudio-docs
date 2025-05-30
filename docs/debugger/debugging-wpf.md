@@ -30,4 +30,4 @@ Visual Studio provides additional features to make debugging WPF applications ea
 | [How to: Display WPF Trace Information](../debugger/how-to-display-wpf-trace-information.md) | Visual Studio can receive debug trace information from WPF applications and display that information in the **Output** window. This topic describes how to enable and customize the display of WPF trace information. |
 
 ## Related content
-- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+- [Debugging Managed Code](/visualstudio/debugger/)

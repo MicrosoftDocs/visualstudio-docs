@@ -95,7 +95,7 @@ Once a snappoint is set, you can either manually generate a snapshot by going to
 
 You can also add more snappoints to your app and turn them on with the **Update Collection** button.
 
-**Need help?** See the [Troubleshooting and known issues](../debugger/debug-live-azure-apps-troubleshooting.md) and [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.yml) pages.
+**Need help?** See the [Troubleshooting and known issues](/troubleshoot/developer/visualstudio/debuggers/debug-live-azure-apps-troubleshooting) and [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.yml) pages.
 
 ## Set a conditional snappoint
 

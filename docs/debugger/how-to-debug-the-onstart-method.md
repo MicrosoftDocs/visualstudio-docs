@@ -48,4 +48,4 @@ You can debug a Windows service by starting the service and attaching the debugg
 
 ## Related content
 - [Debugger Security](../debugger/debugger-security.md)
-- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+- [Debugging Managed Code](/visualstudio/debugger/)

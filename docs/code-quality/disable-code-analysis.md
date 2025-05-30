@@ -24,7 +24,7 @@ Visual Studio allows you to control whether source code analyzers run at build t
 
 - Source analysis versus legacy analysis
 
-  This article applies to source code analysis and not to legacy (binary) analysis. For information about disabling legacy analysis, see [Enable and disable binary code analysis for managed code](how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md).
+  This article applies to source code analysis and not to legacy (binary) analysis. For information about disabling legacy analysis, see [Enable and disable binary code analysis for managed code](/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code).
 
 ## .NET Core, .NET Standard, and .NET 5+ projects
 
@@ -75,7 +75,7 @@ This page lets you disable code analysis in Visual Studio. There are limitations
 
 - Source analysis versus legacy analysis
 
-  This article applies to source code analysis and not to legacy (binary) analysis. For information about disabling legacy analysis, see [Enable and disable binary code analysis for managed code](how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md).
+  This article applies to source code analysis and not to legacy (binary) analysis. For information about disabling legacy analysis, see [Enable and disable binary code analysis for managed code](/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code).
 
 ## .NET Core, .NET Standard, and .NET 5+ projects
 
@@ -114,4 +114,4 @@ For example:
 ## Related content
 
 - [Suppress code analysis violations](in-source-suppression-overview.md)
-- [Enable and disable binary code analysis for managed code](how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)
+- [Enable and disable binary code analysis for managed code](/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code)

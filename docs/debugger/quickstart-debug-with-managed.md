@@ -177,7 +177,7 @@ If you identify a change that you want to test in your code while in the middle 
 
     **F10** advances the debugger one statement at a time, but steps over functions instead of stepping into them (the code that you skip still executes).
 
-For more information on using edit-and-continue and on feature limitations, see [Edit and Continue](../debugger/edit-and-continue.md).
+For more information on using edit-and-continue and on feature limitations, see [Edit and Continue](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue).
 
 ## Next steps
 

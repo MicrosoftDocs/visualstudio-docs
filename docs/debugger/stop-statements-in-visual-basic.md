@@ -67,4 +67,4 @@ Debug.Fail("a clever output string goes here")
 
 - [Debugger Security](debugger-security.md)
 - [Managed debugging: Recommended project settings](managed-debugging-recommended-property-settings.md)
-- [Debugging Managed Code](debugging-managed-code.md)
+- [Debugging Managed Code](/visualstudio/debugger/)

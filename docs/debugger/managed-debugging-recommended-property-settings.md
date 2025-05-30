@@ -44,5 +44,5 @@ Certain properties should be set the same way for all managed debugging scenario
 |**Define TRACE constant**|Select this check box to define the `TRACE` constant, which enables your application to use the <xref:System.Diagnostics.Trace> class.|
 
 ## Related content
-- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+- [Debugging Managed Code](/visualstudio/debugger/)
 - [Managed debugging: Recommended project settings](../debugger/managed-debugging-recommended-property-settings.md)
