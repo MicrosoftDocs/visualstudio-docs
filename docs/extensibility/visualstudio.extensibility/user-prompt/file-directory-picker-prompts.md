@@ -1,6 +1,6 @@
 ---
 title: File and Directory Picker Prompts Overview
-description: An overview of extensibility file picker prompts
+description: An overview of extensibility file picker prompts.
 ms.topic: overview
 ms.date: 5/10/2024
 ms.author: kellyfam
@@ -16,7 +16,7 @@ File or directory prompts are a simple UI mechanism for prompting the user to se
 
 ## Work with file or directory picker prompts
 
-This guide covers the following scenarios for working with the file or directory pick prompts:
+This article covers the following scenarios for working with the file or directory pick prompts:
 
 - [Prompt the user to select a single file to open](#prompt-the-user-to-select-a-single-file-to-open)
 - [Prompt the user to select one or more files to open](#prompt-the-user-to-select-one-or-more-files-to-open)
@@ -28,18 +28,19 @@ This guide covers the following scenarios for working with the file or directory
 
 To create a file open prompt, call the [`ShowOpenFileDialogAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.ShowOpenFileDialogAsync) method from the [ShellExtensibility](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility) object.
 
-### `ShellExtensibility.ShowOpenFileDialogAsync()`
+### ShellExtensibility.ShowOpenFileDialogAsync()
 
 The [`ShowOpenFileDialogAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.ShowOpenFileDialogAsync) method takes two parameters:
 
 | Parameter | Type | Required | Description |
 | ----------|------|----------|-------------|
-| options   | `FileDialogOptions` | Yes | Defines the file picker prompt options to customize the dialog. |
-| cancellationToken | [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) | Yes | The [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) for the async operation. When triggered, the prompt is force-closed. |
+| `options`   | `FileDialogOptions` | Yes | Defines the file picker prompt options to customize the dialog. |
+| `cancellationToken` | [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) | Yes | The [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) for the async operation. When triggered, the prompt is force-closed. |
 
-`ShowOpenFileDialogAsync` returns `null` if the user closes or cancels the dialog.
+If the user closes or cancels the dialog, `ShowOpenFileDialogAsync` returns `null`.
 
 ### Example
+
 The following code inside a [`Command`](/dotnet/api/microsoft.visualstudio.extensibility.commands.command) shows a file prompt with default dialog options.
 
 ```csharp
@@ -52,22 +53,22 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 ## Prompt the user to select one or more files to open
 
-In some cases, it's useful to enable users to select more than one file at a time, which can be done with the [`ShowOpenMultipleFilesDialogAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.ShowOpenMultipleFilesDialogAsync) method.
+In some cases, it's useful to enable users to select more than one file at a time, which you can do with the [`ShowOpenMultipleFilesDialogAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.ShowOpenMultipleFilesDialogAsync) method.
 
-### `ShellExtensibility.ShowOpenMultipleFilesDialogAsync()`
+### ShellExtensibility.ShowOpenMultipleFilesDialogAsync()
 
 The [`ShowOpenMultipleFilesDialogAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.ShowOpenFileDialogAsync) method takes two parameters:
 
 | Parameter | Type | Required | Description |
 | ----------|------|----------|-------------|
-| options   | `FileDialogOptions` | Yes | Defines the file picker prompt options to customize the dialog. |
-| cancellationToken | [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) | Yes | The [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) for the async operation. When triggered, the prompt is force-closed. |
+| `options`   | `FileDialogOptions` | Yes | Defines the file picker prompt options to customize the dialog. |
+| `cancellationToken` | [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) | Yes | The [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) for the async operation. When triggered, the prompt is force-closed. |
 
-`ShowOpenMultipleFilesDialogAsync` returns `null` if the user closes or cancels the dialog.
+If the user closes or cancels the dialog, `ShowOpenMultipleFilesDialogAsync` returns `null`.
 
 ### Example
 
-The following code inside a [`Command`](/dotnet/api/microsoft.visualstudio.extensibility.commands.command) shows a file prompt with default dialog options. 
+The following code inside a [`Command`](/dotnet/api/microsoft.visualstudio.extensibility.commands.command) shows a file prompt with default dialog options.
 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
@@ -79,18 +80,18 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 ## Prompt the user to select a file to Save As
 
-Prompting the user for a file name to Save As allows them to specify a custom file name.
+Prompting the user for a filename to save with the **Save As** option allows them to specify a custom filename.
 
-### `ShellExtensibility.ShowSaveAsFileDialogAsync()`
+### ShellExtensibility.ShowSaveAsFileDialogAsync()
 
 The [`ShowSaveAsFileDialogAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.ShowSaveAsFileDialogAsync) method takes two parameters:
 
 | Parameter | Type | Required | Description |
 | ----------|------|----------|-------------|
-| options   | `FileDialogOptions` | Yes | Defines the file picker prompt options to customize the dialog. |
-| cancellationToken | [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) | Yes | The [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) for the async operation. When triggered, the prompt is force-closed. |
+| `options`   | `FileDialogOptions` | Yes | Defines the file picker prompt options to customize the dialog. |
+| `cancellationToken` | [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) | Yes | The [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) for the async operation. When triggered, the prompt is force-closed. |
 
-`ShowSaveAsFileDialogAsync` returns `null` if the user closes or cancels the dialog.
+If the user closes or cancels the dialog, `ShowSaveAsFileDialogAsync` returns `null`.
 
 ### Example
 
@@ -108,16 +109,16 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 To create a file open prompt, call the [`ShowOpenFolderDialogAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.ShowOpenFolderDialogAsync) method from the [ShellExtensibility](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility) object.
 
-### `ShellExtensibility.ShowOpenFolderDialogAsync()`
+### ShellExtensibility.ShowOpenFolderDialogAsync()
 
 The [`ShowOpenFolderDialogAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.ShowOpenFolderDialogAsync) method takes two parameters:
 
 | Parameter | Type | Required | Description |
 | ----------|------|----------|-------------|
-| options   | `FolderDialogOptions` | Yes | Defines the file picker prompt options to customize the dialog. |
-| cancellationToken | [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) | Yes | The [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) for the async operation. When triggered, the prompt is force-closed. |
+| `options`   | `FolderDialogOptions` | Yes | Defines the file picker prompt options to customize the dialog. |
+| `cancellationToken` | [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) | Yes | The [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) for the async operation. When triggered, the prompt is force-closed. |
 
-`ShowOpenFolderDialogAsync` returns `null` if the user closes or cancels the dialog.
+If the user closes or cancels the dialog, `ShowOpenFolderDialogAsync` returns `null`.
 
 ### Example
 
@@ -133,26 +134,29 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 ## Use options to customize file or directory prompts
 
-The `FileDialogOptions`, `DialogFilters`, and `FolderDialogOptions` types can be used to customize your prompts:
+You can use the `FileDialogOptions`, `DialogFilters`, and `FolderDialogOptions` types to customize your prompts.
 
-### `FileDialogOptions`
-| **Property** | **Type** | **Required** |**Description** | **Sample** |
-| :- | :- | :- | :- | :- |
-| title  | `string` | No | The title of the dialog. If the title is an empty string, the system uses a default title, which is either "Save As" or "Open". Default is `string.Empty` | "Open a file" |
-| initialFileName | `string` | No | The file name in the input box of the dialog. For the open file dialog, the filename must exist or the dialog returns an error. If an invalid filename is passed, we use the default. Default is `string.Empty`. | "filename.ext" |
-| filters | `DialogFilters` | No |  The filters used for the dialog. | See [Examples of prompts with custom options](#examples-of-prompts-with-custom-options) |
+### FileDialogOptions
 
-### `DialogFilters`
-| **Term**  | **Type** | **Required** | **Description** | **Example** |
+| Property | Type | Required |Description | Sample |
 | :- | :- | :- | :- | :- |
-| Filters | `IReadOnlyCollection<DialogFilter>` | Yes | The filters for selecting or saving a file. | See [Examples of prompts with custom options](#examples-of-prompts-with-custom-options) |
-| DefaultFilterIndex | `int` | No | Used to set the default filter index of the filter that is selected by default. Default is `0`. | The minimum index is `0` and the maximum is the `number of filters - 1`. 
+| `title`  | `string` | No | The title of the dialog. If the title is an empty string, the system uses a default title, which is either **Save As** or **Open**. Default is `string.Empty`. | "Open a file" |
+| `initialFileName` | `string` | No | The filename in the input box of the dialog. For the open file dialog, the filename must exist or the dialog returns an error. If an invalid filename is passed, the default is used. Default is `string.Empty`. | "filename.ext" |
+| `filters` | `DialogFilters` | No |  The filters used for the dialog. | See [Examples of prompts with custom options](#examples-of-prompts-with-custom-options). |
 
-### `FolderDialogOptions`
-| **Property** | **Type** | **Required** |**Description** | **Sample** |
+### DialogFilters
+
+| Term  | Type | Required | Description | Example |
 | :- | :- | :- | :- | :- |
-| title  | `string` | No | The title of the dialog. If the title is an empty string, the system uses a default title, which is either "Save As" or "Open". Default is `string.Empty`. | "Open a file" |
-| initialDirectory  | `string` | No | The directory the dialog should have open, which should be an absolute path. If the initialDirectory is an empty string, the initial directory defaults to the last opened directory. If there is no previously opened directory, the initial directory will default to the root folder. If an initialDirectory is specified, we pass in a flag to the dialog to open to the specified directory instead of the last opened directory. If an invalid directory is passed, we use the default. Default is `string.Empty`.| "path/to/folder" |
+| `Filters` | `IReadOnlyCollection<DialogFilter>` | Yes | The filters for selecting or saving a file. | See [Examples of prompts with custom options](#examples-of-prompts-with-custom-options). |
+| `DefaultFilterIndex` | `int` | No | Used to set the default filter index of the filter that's selected by default. Default is `0`. | The minimum index is `0` and the maximum is the `number of filters - 1`.
+
+### FolderDialogOptions
+
+| Property | Type | Required |Description | Sample |
+| :- | :- | :- | :- | :- |
+| `title`  | `string` | No | The title of the dialog. If the title is an empty string, the system uses a default title, which is either **Save As** or **Open**. Default is `string.Empty`. | "Open a file" |
+| `initialDirectory`  | `string` | No | The directory the dialog should have open, which should be an absolute path. If `initialDirectory` is an empty string, the initial directory defaults to the last opened directory. If there's no previously opened directory, the initial directory defaults to the root folder. If `initialDirectory` is specified, a flag is passed in to the dialog to open to the specified directory instead of the last opened directory. If an invalid directory is passed, the default is used. Default is `string.Empty`.| "path/to/folder" |
 
 ### Examples of prompts with custom options
 
@@ -192,6 +196,6 @@ FolderDialogOptions options = new FolderDialogOptions()
 string? folderPath = await Extensibilty.Shell().ShowOpenFolderDialogAsync(options, cancellationToken);
 ```
 
-## Next steps
+## Related content
 
-Next, see the [FilePickerSample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/FilePickerSample/).
+- Next, see the [FilePickerSample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/FilePickerSample/).
