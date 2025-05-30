@@ -10,7 +10,7 @@ ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
 ---
-# Copilot usage and models in Visual Studio
+# Manage Copilot usage and models in Visual Studio
 
 GitHub Copilot now follows a [new billing model](https://docs.github.com/en/copilot/managing-copilot/monitoring-usage-and-entitlements/about-premium-requests). With this update that impacts usage and billing for [premium requests](https://docs.github.com/en/copilot/managing-copilot/monitoring-usage-and-entitlements/about-premium-requests#premium-requests), Visual Studio has introduced new features to help you better manage your Copilot usage and the models you work with.
 
