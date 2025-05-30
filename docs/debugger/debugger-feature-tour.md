@@ -44,7 +44,7 @@ Visual Studio 2022 supports live code editing while debugging. For detailed info
 
 - [Write and debug running code](hot-reload.md)
 - [Write and debug running XAML code with XAML Hot Reload](../xaml-tools/xaml-hot-reload.md)
-- [Edit and Continue](../debugger/edit-and-continue.md)
+- [Edit and Continue](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue)
 
 ::: moniker-end
 
@@ -131,7 +131,7 @@ If you do want to stop the debugger and get back into the code editor, you can p
 ::: moniker range="<= vs-2019"
 ## Edit your code and continue debugging (C#, VB, C++, XAML)
 
-In most languages supported by Visual Studio, you can edit your code in the middle of a debugging session and continue debugging. To use this feature, click into your code with your cursor while paused in the debugger, make edits, and press **F5**, **F10**, or **F11** to continue debugging. For more information on using this feature and on feature limitations, see [Edit and Continue](../debugger/edit-and-continue.md).
+In most languages supported by Visual Studio, you can edit your code in the middle of a debugging session and continue debugging. To use this feature, click into your code with your cursor while paused in the debugger, make edits, and press **F5**, **F10**, or **F11** to continue debugging. For more information on using this feature and on feature limitations, see [Edit and Continue](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue).
 
 ![Edit and continue debugging](../debugger/media/dbg-tips-edit-and-continue.gif "EditAndContinue")
 

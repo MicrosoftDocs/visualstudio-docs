@@ -390,6 +390,6 @@ In a .NET Core project, if you add a reference to a project that has NuGet analy
 
 - [Overview of code analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
 - [Submit a code analyzer bug](https://github.com/dotnet/roslyn-analyzers/issues)
-- [Use rule sets](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)
+- [Use rule sets](/previous-versions/visualstudio/visual-studio-2019/code-quality/using-rule-sets-to-group-code-analysis-rules)
 - [Suppress code analysis violations](../code-quality/in-source-suppression-overview.md)
 - [Configuration options for code analysis](/dotnet/fundamentals/code-analysis/configuration-options)

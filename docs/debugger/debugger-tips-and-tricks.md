@@ -36,7 +36,7 @@ In most languages supported by Visual Studio, you can edit your code in the midd
 
 ![Edit and continue debugging](../debugger/media/dbg-tips-edit-and-continue.gif "EditAndContinue")
 
-For more information on using the feature and on feature limitations, see [Edit and Continue](../debugger/edit-and-continue.md).
+For more information on using the feature and on feature limitations, see [Edit and Continue](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue).
 
 ## Edit XAML code and continue debugging
 

@@ -185,7 +185,7 @@ FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
     LTEXT           "VisualStudioDemo Application",IDC_STATIC,40,10,119,8
-    LTEXT           "© 2007 - 2008 Microsoft Corporation.  All rights reserved.",
+    LTEXT           "ï¿½ 2007 - 2008 Microsoft Corporation.  All rights reserved.",
                     IDC_STATIC,40,25,122,19
     DEFPUSHBUTTON   "OK",IDOK,176,6,32,14,WS_GROUP
 END
@@ -346,7 +346,7 @@ STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "Application Look"
 FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
-    LTEXT           "Welcome to MFC! The library supports various application looks such as Microsoft® Office 2000/XP/2003/2007, Visual Studio® 97/.NET/2005 and more.",IDC_STATIC,7,12,278,19
+    LTEXT           "Welcome to MFC! The library supports various application looks such as Microsoftï¿½ Office 2000/XP/2003/2007, Visual Studioï¿½ 97/.NET/2005 and more.",IDC_STATIC,7,12,278,19
     LTEXT           "Please choose the preferred look and click OK to continue.",IDC_STATIC,17,34,214,8
     LTEXT           "&Visual Manager:",IDC_STATIC,19,51,52,8
     COMBOBOX        IDC_APP_LOOK,112,50,140,199,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
@@ -354,7 +354,7 @@ BEGIN
     COMBOBOX        IDC_STYLE,112,75,72,165,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
     CONTROL         "Show ""Close"" Button on the &Active Tab",IDC_ACTIVETAB_CLOSE_BUTTON,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,99,141,10
-    CONTROL         "One&Note®-style MDI tabs",IDC_ONENOTE_TABS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,114,97,10
+    CONTROL         "One&Noteï¿½-style MDI tabs",IDC_ONENOTE_TABS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,114,97,10
     CONTROL         "Docking Tab &Colors",IDC_DOCK_TAB_COLORS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,129,79,10
     CONTROL         "&3D Rounded Docking Tabs and Auto Hide Buttons (VS 2005 only)",IDC_ROUNDED_TABS,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,144,225,10
@@ -699,7 +699,7 @@ IDR_POPUP_SORT MENU
 BEGIN
     POPUP "Sorting"
     BEGIN
-        MENUITEM "&Sort Alphabeticaly",         ID_SORTING_SORTALF
+        MENUITEM "&Sort Alphabetically",         ID_SORTING_SORTALF
         MENUITEM "Sort by &Type",               ID_SORTING_SORTBYTYPE
         MENUITEM "Sort by Acc&ess",             ID_SORTING_SORTBYACCESS
         MENUITEM "Group by t&ype",              ID_SORTING_GROUPBYTYPE

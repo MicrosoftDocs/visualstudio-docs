@@ -72,7 +72,7 @@ The code coverage feature is available only in Visual Studio Enterprise edition.
   > - If you're working with unmanaged (native) code, use a debug build.
   > - Generate *.pdb* (symbol) files for each assembly.
 
-If you don't get the results you expect, see [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md).
+If you don't get the results you expect, see [Troubleshoot code coverage](/troubleshoot/developer/visualstudio/ide/troubleshooting-code-coverage).
 
 Don't forget to run code coverage again after updating your code. Coverage results and code coloring aren't automatically updated after you modify your code or when you run tests.
 
@@ -330,10 +330,10 @@ To run tests from the command line, use *vstest.console.exe* utility. Code cover
 
 ## Troubleshoot
 
-If you don't see code coverage results, the [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md) article might help you.
+If you don't see code coverage results, the [Troubleshoot code coverage](/troubleshoot/developer/visualstudio/ide/troubleshooting-code-coverage) article might help you.
 
 ## Related content
 
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)
-- [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md)
+- [Troubleshoot code coverage](/troubleshoot/developer/visualstudio/ide/troubleshooting-code-coverage)
 - [Unit test your code](../test/unit-test-your-code.md)

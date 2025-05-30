@@ -71,6 +71,6 @@ To debug .NET Framework source, you must:
 
 ## Related content
 
-- [Debugging managed code](../debugger/debugging-managed-code.md)
+- [Debugging managed code](/visualstudio/debugger/)
 - [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 - [Debug .NET and ASP.NET Core source code with Visual Studio](/aspnet/core/test/debug-aspnetcore-source)
