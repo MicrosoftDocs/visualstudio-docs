@@ -53,7 +53,7 @@ When publishing a ClickOnce application for the first time, publish properties c
 |[Set the ClickOnce publish version](../deployment/how-to-specify-where-visual-studio-copies-the-files.md#set-the-clickonce-publish-version)|Describes how to set the ClickOnce **Publish Version** property, which determines whether or not the application that you are publishing will be treated as an update.|
 |[Automatically increment the ClickOnce publish version](../deployment/how-to-specify-where-visual-studio-copies-the-files.md#automatically-increment-the-clickonce-publish-version)|Describes how to automatically increment the Revision number of the **PublishVersion** each time you publish the application.|
 
- For more information, see [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)
+ For more information, see [Publish Page, Project Designer](/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files)
 
 ### Application Files dialog box
  This dialog box allows you to specify how the files in your project are categorized for publishing, dynamic downloading, and updating. It contains a grid that lists the project files that are not excluded by default, or that have a download group.
