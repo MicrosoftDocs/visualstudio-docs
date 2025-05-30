@@ -48,7 +48,7 @@ ClickOnce applications are subject to code access security constraints in the .N
  For more information about code access security and ClickOnce, see [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md).
 
 ## Code-signing certificates
- To publish an application by using ClickOnce deployment, you can sign the application and deployment manifests for the application by using a public/private key pair. The tools for signing a manifest are available on the **Signing** page of the **Project Designer**. For more information, see [Signing Page, Project Designer](../ide/reference/signing-page-project-designer.md).
+ To publish an application by using ClickOnce deployment, you can sign the application and deployment manifests for the application by using a public/private key pair. The tools for signing a manifest are available on the **Signing** page of the **Project Designer**. For more information, see [Signing Page, Project Designer](/visualstudio/ide/how-to-sign-application-and-deployment-manifests).
 
  After the manifests are signed, the publisher information based on the Authenticode signature will be displayed to the user in the permissions dialog box during installation, to show the user that the application originated from a trusted source.
 

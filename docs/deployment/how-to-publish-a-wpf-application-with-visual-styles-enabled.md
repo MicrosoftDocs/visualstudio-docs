@@ -10,7 +10,7 @@ ms.subservice: deployment
 ---
 # Publish a WPF application with visual styles enabled
 
-Visual styles enable the appearance of common controls to change based on the theme chosen by the user. By default, visual styles are not enabled for Windows Presentation Foundation (WPF) applications, so you must enable them manually. However, enabling visual styles for a WPF application and then publishing the solution causes an error. This topic describes how to resolve this error and the process for publishing a WPF application with visual styles enabled. For more information about visual styles, see [Visual styles overview](/windows/desktop/Controls/visual-styles-overview). For more information about the error message, see [Troubleshoot specific errors in ClickOnce deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md).
+Visual styles enable the appearance of common controls to change based on the theme chosen by the user. By default, visual styles are not enabled for Windows Presentation Foundation (WPF) applications, so you must enable them manually. However, enabling visual styles for a WPF application and then publishing the solution causes an error. This topic describes how to resolve this error and the process for publishing a WPF application with visual styles enabled. For more information about visual styles, see [Visual styles overview](/windows/desktop/Controls/visual-styles-overview). For more information about the error message, see [Troubleshoot specific errors in ClickOnce deployments](/troubleshoot/developer/visualstudio/ide/troubleshoot-clickonce-deployments).
 
  To resolve the error and to publish the solution, you must perform the following tasks:
 
@@ -170,7 +170,7 @@ Visual styles enable the appearance of common controls to change based on the th
 
 ## Related content
 
-- [Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)
+- [Troubleshooting Specific Errors in ClickOnce Deployments](/troubleshoot/developer/visualstudio/ide/troubleshoot-clickonce-deployments)
 - [Visual Styles Overview](/windows/desktop/Controls/visual-styles-overview)
 - [Enabling Visual Styles](/windows/desktop/Controls/cookbook-overview)
 - [Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md)
