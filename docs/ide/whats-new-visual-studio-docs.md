@@ -118,7 +118,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [MSBuild](../msbuild/msbuild.md) - Add heading Install MSBuild
+- [MSBuild](../msbuild/msbuild.md) - Add heading: Install MSBuild
 - [Use MSBuild project SDKs](../msbuild/how-to-use-project-sdk.md) - Review and update
 - [Exclude files from the build](../msbuild/how-to-exclude-files-from-the-build.md) - Review and update
 - [Evaluate items and properties and display results of targets](../msbuild/evaluate-items-and-properties.md) - Explain subtleties of evaluation time for -getProperty
