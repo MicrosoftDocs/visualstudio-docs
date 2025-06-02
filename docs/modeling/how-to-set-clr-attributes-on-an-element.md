@@ -6,7 +6,7 @@ ms.topic: how-to
 f1_keywords:
   - "vs.dsltools.EditAttributesDialog"
 helpviewer_keywords:
-  - "Domain-Specific Language, custom attrributes"
+  - "Domain-Specific Language, custom attributes"
 author: mgoertz-msft
 ms.author: mgoertz
 manager: mijacobs
