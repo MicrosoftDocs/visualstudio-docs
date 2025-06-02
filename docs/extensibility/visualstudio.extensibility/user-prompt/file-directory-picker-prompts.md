@@ -198,4 +198,4 @@ string? folderPath = await Extensibilty.Shell().ShowOpenFolderDialogAsync(option
 
 ## Related content
 
-- Next, see the [FilePickerSample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/FilePickerSample/).
+- See the [FilePickerSample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/FilePickerSample/).
