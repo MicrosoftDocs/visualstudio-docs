@@ -94,7 +94,7 @@ When we can't answer "yes" to any of these questions, we'll close it. But often 
 
 If a suggestion doesn’t match our overall product direction, we will close it as *Out of Scope*. For example, we may have similar investments in other members of the Visual Studio family of products. Or the feature suggested might only be relevant to a few people, making an extension better suited to provide it.
 
-Track the progress of your feature suggestion by referencing the [Suggestion states and FAQ](./report-a-problem.yml).
+Track the progress of your feature suggestion by referencing the [Suggestion states and FAQ](/visualstudio/ide/how-to-report-a-problem-with-visual-studio).
 
 ## Discussion etiquette
 

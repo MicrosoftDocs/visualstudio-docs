@@ -36,7 +36,7 @@ For example, you can perform the following tasks:
 ## Related content
 
 - [Creating project and item templates](../ide/creating-project-and-item-templates.md)
-- [How to: Troubleshoot templates](../ide/how-to-troubleshoot-templates.md)
+- [How to: Troubleshoot templates](/troubleshoot/developer/visualstudio/project-build/how-to-troubleshoot-templates)
 - [How to: Create project templates](../ide/how-to-create-project-templates.md)
 - [How to: Create item templates](../ide/how-to-create-item-templates.md)
 - [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)

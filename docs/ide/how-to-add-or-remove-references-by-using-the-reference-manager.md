@@ -107,7 +107,7 @@ Some components in the list might not be shown, depending on the framework versi
 
 For more about version compatibility between .NET Framework versions, see [Version compatibility](/dotnet/framework/migration-guide/version-compatibility).
 
-You should avoid adding file references to outputs of another project in the same solution, because doing so might cause compilation errors. Instead, use the **Projects** tab of the **Add Reference** dialog box to create project-to-project references. This practice makes team development easier by enabling better management of the class libraries you create in your projects. For more information, see [Troubleshoot broken references](../ide/troubleshooting-broken-references.md).
+You should avoid adding file references to outputs of another project in the same solution, because doing so might cause compilation errors. Instead, use the **Projects** tab of the **Add Reference** dialog box to create project-to-project references. This practice makes team development easier by enabling better management of the class libraries you create in your projects. For more information, see [Troubleshoot broken references](/troubleshoot/developer/visualstudio/project-build/troubleshooting-broken-references).
 
 > [!NOTE]
 > A file reference instead of a project reference is created if the target framework version of one project is .NET Framework 4.5 or later, and the target version of the other project is .NET Framework 2, 3, 3.5, or 4.0. For more information about .NET, .NET Framework, and .NET Core, see [What is .NET (and .NET Core)](/dotnet/core/introduction).
@@ -188,7 +188,7 @@ You can use the **Browse** button to browse for a component or assembly in the f
 
 A project can reference a component that targets a different framework version. For example, you could create an application that targets .NET Framework 4.7.2 but references a component that targets .NET Framework 4. For more information, see [Framework targeting overview](../ide/visual-studio-multi-targeting-overview.md).
 
-Avoid adding file references to outputs of another project in the same solution, because this tactic might cause compilation errors. Instead, use the **Solution** tab of the Reference Manager dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries that you create in your projects. For more information, see [Troubleshoot broken references](../ide/troubleshooting-broken-references.md).
+Avoid adding file references to outputs of another project in the same solution, because this tactic might cause compilation errors. Instead, use the **Solution** tab of the Reference Manager dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries that you create in your projects. For more information, see [Troubleshoot broken references](/troubleshoot/developer/visualstudio/project-build/troubleshooting-broken-references).
 
 You can't browse to an SDK and add it to your project. You can only browse to a file (for example, an assembly or *.winmd*) and add it to your project.
 
@@ -226,5 +226,5 @@ For more information, see [Remove unused references](reference/remove-unused-ref
 ## Related content
 
 - [Manage references in a project](managing-references-in-a-project.md)
-- [Troubleshoot broken references](troubleshooting-broken-references.md)
+- [Troubleshoot broken references](/troubleshoot/developer/visualstudio/project-build/troubleshooting-broken-references)
 - [NuGet versus SDK as a project reference](../extensibility/nuget-versus-sdk-references.md)

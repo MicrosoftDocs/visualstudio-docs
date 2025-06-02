@@ -157,5 +157,5 @@ To learn more about unit tests in Visual Studio and how they can help you create
 ## Related content
 
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
-- [Generate, fix, and refactor code](../ide/code-generation-in-visual-studio.md)
+- [Generate, fix, and refactor code](/visualstudio/ide/writing-code-in-the-code-and-text-editor#generate-fix-or-refactor-code)
 - [Explore the debugger documentation](../debugger/index.yml)
