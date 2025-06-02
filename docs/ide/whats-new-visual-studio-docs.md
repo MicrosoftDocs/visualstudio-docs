@@ -91,10 +91,8 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [What's new in Visual Studio 2022](../ide/whats-new-visual-studio-2022.md) - Update What's New for 17.14
 - [Code style preferences and code cleanup](../ide/code-styles-and-code-cleanup.md) - Update code style preferences and EditorConfig article
 - [Define consistent coding styles with EditorConfig](../ide/create-portable-custom-editor-options.md) - Update code style preferences and EditorConfig article
-- [Add or remove imported namespaces (Visual Basic)](../ide/how-to-add-or-remove-imported-namespaces-visual-basic.md) - Update procedure for VB Import namespaces
-- [Sign application and deployment manifests](../ide/how-to-sign-application-and-deployment-manifests.md)
-  - Update UI reference for ClickOnce Publishing
-  - Metadata updates
+- [Add or remove imported namespaces (Visual Basic)](../ide/how-to-add-or-remove-imported-namespaces-visual-basic.md) - Update procedure for Visual Basic Import namespaces
+- [Sign application and deployment manifests](../ide/how-to-sign-application-and-deployment-manifests.md) - Update UI reference for ClickOnce Publishing
 - [Manage assembly and manifest signing](../ide/managing-assembly-and-manifest-signing.md)
   - Update UI reference for ClickOnce Publishing
 - [Use the Immediate window](../ide/reference/immediate-window.md) - Update article on the Immediate window
@@ -151,7 +149,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Browse Git repositories and compare branches in Visual Studio](../version-control/git-browse-repository.md) - Add 17.14 feature: Show incoming outgoing commits only
 - [Git settings and preferences in Visual Studio](../version-control/git-settings.md) - Update Git settings
 
-## Community contributors
+### Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
