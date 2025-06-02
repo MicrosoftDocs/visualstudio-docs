@@ -112,7 +112,7 @@ To try the new model for better suggestions and performance, select **GPT-4o Cop
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/completions-model-picker.png" alt-text="Screenshot that shows the Completions Model Picker.":::
 
-If you don’t see the new GPT-4o model in the dropdown, try restarting Visual Studio to retreive the latest model list.
+If you don’t see the new GPT-4o model in the dropdown, try restarting Visual Studio to retrieve the latest model list.
 
 ### Access
 
