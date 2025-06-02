@@ -17,15 +17,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 ## May 2025
 
-### Code quality
-
-**Updated articles**
-
-- [Disable source code analysis for .NET](../code-quality/disable-code-analysis.md) - Update redirected links for profiler, etc
-- [Suppress code analysis violations](../code-quality/in-source-suppression-overview.md) - Update redirected links for profiler, etc
-- [Migrate from legacy analysis (FxCop) to source analysis (.NET analyzers)](../code-quality/migrate-from-legacy-analysis-to-net-analyzers.md) - Update redirected links for profiler, etc
-- [Overview of legacy analysis for managed code in Visual Studio](../code-quality/static-code-analysis-for-managed-code-overview.md) - Update redirected links for profiler, etc
-
 ### Containers
 
 **New articles**
@@ -37,15 +28,8 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md) - Update article on errors related to 64-bit debugging
-- [Use time travel debugging to record and replay ASP.NET apps on Azure VMs](../debugger/debug-live-azure-virtual-machines-time-travel-debugging.md) - Update redirected links for debugger
 - [Overview of the Visual Studio debugger](../debugger/debugger-feature-tour.md)
-  - Update redirected links for debugger
   - Update First Look articles
-- [Edit and Continue Dialog Box (C++)](../debugger/edit-and-continue-dialog-box-cpp.md) - Update redirected links for debugger
-- [Edit and Continue Dialog Box](../debugger/edit-and-continue-dialog-box.md) - Update redirected links for debugger
-- [IntelliTrace for Visual Studio Enterprise (C#, Visual Basic, C++)](../debugger/intellitrace.md) - Update redirected links for debugger
-- [Project settings for a C++ debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md) - Update redirected links for debugger
-- [View threads and tasks in the Parallel Stacks window (C#, Visual Basic, C++)](../debugger/using-the-parallel-stacks-window.md) - Update redirected links for debugger
 - [Stop Debugging In Progress Dialog Box](../debugger/stop-debugging-in-progress-dialog-box.md) - Add link to Report a Problem
 - [View DLLs and executables in the Modules window (C#, C++, Visual Basic, F#)](../debugger/how-to-use-the-modules-window.md) - Clarify how to enable the Modules window
 
@@ -53,9 +37,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md) - Update links in deployment folder
-- [Create bootstrapper packages](../deployment/creating-bootstrapper-packages.md) - Update links in deployment folder
-- [Publish a WPF application with visual styles enabled](../deployment/how-to-publish-a-wpf-application-with-visual-styles-enabled.md) - Update links in deployment folder
 - [Enable and configure ClickOnce security settings in Visual Studio](../deployment/how-to-enable-clickonce-security-settings.md) - Update UI reference for ClickOnce Publishing
 - [Install prerequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md) - Update UI reference for ClickOnce Publishing
 - [Specify ClickOnce Publish properties](../deployment/how-to-specify-where-visual-studio-copies-the-files.md) - Update UI reference for ClickOnce Publishing
@@ -93,14 +74,13 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Define consistent coding styles with EditorConfig](../ide/create-portable-custom-editor-options.md) - Update code style preferences and EditorConfig article
 - [Add or remove imported namespaces (Visual Basic)](../ide/how-to-add-or-remove-imported-namespaces-visual-basic.md) - Update procedure for Visual Basic Import namespaces
 - [Sign application and deployment manifests](../ide/how-to-sign-application-and-deployment-manifests.md) - Update UI reference for ClickOnce Publishing
-- [Manage assembly and manifest signing](../ide/managing-assembly-and-manifest-signing.md)
-  - Update UI reference for ClickOnce Publishing
+- [Manage assembly and manifest signing](../ide/managing-assembly-and-manifest-signing.md) - Update UI reference for ClickOnce Publishing
 - [Use the Immediate window](../ide/reference/immediate-window.md) - Update article on the Immediate window
 - [JavaScript IntelliSense](../ide/javascript-intellisense.md) - Refactoring JavaScript/TypeScript editor content
 - [Add Visual Studio editor support for other languages](../ide/adding-visual-studio-editor-support-for-other-languages.md) - Updates for user feedback
 - [Customize the scroll bar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md) - Updates for user feedback on track changes
 - [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md) - Escape pipe characters
-- [Use GitHub Copilot for free in Visual Studio](../ide/copilot-free-plan.md) - Updates for changes to the first launch experien d for Copilot Free
+- [Use GitHub Copilot for free in Visual Studio](../ide/copilot-free-plan.md) - Updates for changes to the first launch experience for Copilot Free
 - [Sign in or switch Visual Studio user accounts](../ide/signing-in-to-visual-studio.md) - Updates for changes to the first launch experience for Copilot Free
 - [Add your GitHub accounts to your Visual Studio keychain](../ide/work-with-github-accounts.md) - Updates for changes to the first launch experience for Copilot Free
 
@@ -121,7 +101,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [MSBuild](../msbuild/msbuild.md) - Add heading: Install MSBuild
 - [Use MSBuild project SDKs](../msbuild/how-to-use-project-sdk.md) - Review and update
 - [Exclude files from the build](../msbuild/how-to-exclude-files-from-the-build.md) - Review and update
-- [Evaluate items and properties and display results of targets](../msbuild/evaluate-items-and-properties.md) - Explain subtleties of evaluation time for -getProperty
+- [Evaluate items and properties and display results of targets](../msbuild/evaluate-items-and-properties.md) - Explain subtleties of evaluation time for `-getProperty`
 
 ### Profiling
 
@@ -136,9 +116,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [Overview of testing tools in Visual Studio](../test/improve-code-quality.md)
-  - Update redirected links for profiler, etc
   - Update First Look articles
-- [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) - Update redirected links for profiler, etc
 - [Walkthrough: Test-driven development using Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md) - Update article on test-driven development
 - [Configure and use Live Unit Testing](../test/live-unit-testing.md) - Update and fixed casing in `.lutignore` samples.
 
