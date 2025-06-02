@@ -80,7 +80,7 @@ C++ and JavaScript projects have a different user interface for managing project
 
 :::image type="content" source="media/vs-2022/properties-page-cpp-console.png" alt-text="Screenshot of the C++ project properties page.":::
 
-For information about C++ project properties, see [Work with project properties (C++)](/cpp/build/working-with-project-properties). For more information about JavaScript properties, see [Property pages, JavaScript](../ide/reference/property-pages-javascript.md).
+For information about C++ project properties, see [Work with project properties (C++)](/cpp/build/working-with-project-properties). For more information about JavaScript properties, see [Property pages, JavaScript](/previous-versions/visualstudio/visual-studio-2017/ide/reference/property-pages-javascript).
 
 ## Solution properties
 

@@ -226,7 +226,7 @@ After you add a button control to create an action, add a label control to recei
 Congratulations on completing this tutorial. To learn more, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
-> [Tutorial: Create a picture viewer](tutorial-windows-forms-picture-viewer-layout.md)
+> [Tutorial: Create a picture viewer](/visualstudio/get-started/csharp/tutorial-windows-forms-picture-viewer-layout)
 
 Or try these other tutorials:
 

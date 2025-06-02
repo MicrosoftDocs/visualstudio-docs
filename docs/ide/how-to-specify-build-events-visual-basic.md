@@ -178,6 +178,6 @@ The following procedure shows how to set the minimum operating system version in
 ## Related content
 
 - [Compile page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md)
-- [Publish page, Project Designer](../ide/reference/publish-page-project-designer.md)
+- [Publish page, Project Designer](/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files)
 - [Pre-build event/Post-build event command line dialog box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)
 - [How to: Specify build events (C#)](../ide/how-to-specify-build-events-csharp.md)
