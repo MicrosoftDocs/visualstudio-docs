@@ -421,7 +421,7 @@ Review the following sections for possible issues that can cause the C++ module 
 
 Visual Studio returns an error message like **E1696: Cannot open source file "Python.h"** or **C1083: Cannot open include file: "Python.h": No such file or directory**.
 
-This error indicates that the complier can't locate a required header (_.h_) file for your project.
+This error indicates that the compiler can't locate a required header (_.h_) file for your project.
 
 - For the _superfastcode_ project, verify that the **C/C++** > **General** > **Additional Include Directories** project property contains the path to the _include_ folder for your Python installation. Review the steps in [Configure project properties](#configure-project-properties).
 
@@ -431,7 +431,7 @@ For more information on accessing your Python installation configuration informa
 
 #### Error: Unable to locate Python libraries
 
-Visual Studio returns an error indicating that the complier can't locate the required library (DLL) files for your project.
+Visual Studio returns an error indicating that the compiler can't locate the required library (DLL) files for your project.
 
 - For the C++ project (_superfastcode_ or _superfastcode2_), verify that the **Linker** > **General** > **Additional Library Directories** property contains the path to the _libs_ folder for your Python installation. Review the steps in [Configure project properties](#configure-project-properties).
 
