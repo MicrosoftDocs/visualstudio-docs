@@ -79,7 +79,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [JavaScript IntelliSense](../ide/javascript-intellisense.md) - Refactoring JavaScript/TypeScript editor content
 - [Add Visual Studio editor support for other languages](../ide/adding-visual-studio-editor-support-for-other-languages.md) - Updates for user feedback
 - [Customize the scroll bar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md) - Updates for user feedback on track changes
-- [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md) - Escape pipe characters
 - [Use GitHub Copilot for free in Visual Studio](../ide/copilot-free-plan.md) - Updates for changes to the first launch experience for Copilot Free
 - [Sign in or switch Visual Studio user accounts](../ide/signing-in-to-visual-studio.md) - Updates for changes to the first launch experience for Copilot Free
 - [Add your GitHub accounts to your Visual Studio keychain](../ide/work-with-github-accounts.md) - Updates for changes to the first launch experience for Copilot Free
@@ -118,7 +117,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Overview of testing tools in Visual Studio](../test/improve-code-quality.md)
   - Update First Look articles
 - [Walkthrough: Test-driven development using Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md) - Update article on test-driven development
-- [Configure and use Live Unit Testing](../test/live-unit-testing.md) - Update and fixed casing in `.lutignore` samples.
+- [Configure and use Live Unit Testing](../test/live-unit-testing.md) - Update and fix casing in `.lutignore` samples.
 
 ### Version control
 
