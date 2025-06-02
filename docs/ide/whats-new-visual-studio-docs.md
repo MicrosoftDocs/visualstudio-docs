@@ -140,7 +140,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
   - Update First Look articles
 - [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) - Update redirected links for profiler, etc
 - [Walkthrough: Test-driven development using Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md) - Update article on test-driven development
-- [Configure and use Live Unit Testing](../test/live-unit-testing.md) - Update live-unit-testing.md - fixed casing in `.lutignore` samples.
+- [Configure and use Live Unit Testing](../test/live-unit-testing.md) - Update and fixed casing in `.lutignore` samples.
 
 ### Version control
 
