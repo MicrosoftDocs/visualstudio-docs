@@ -10,6 +10,7 @@ helpviewer_keywords:
 - Editing Experience
 - Options dialog box
 - Editing Experience, selecting
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs

@@ -9,6 +9,7 @@ f1_keywords:
 helpviewer_keywords:
 - Project Designer, Debug page
 - Debug page in Project Designer
+ms.custom: "ide-ref"
 author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs

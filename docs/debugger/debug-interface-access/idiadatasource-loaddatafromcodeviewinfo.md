@@ -41,7 +41,7 @@ searchPath
 
 cbCvInfo
 
-[in] The size in bytes of the `pbCvInfo` paramter.
+[in] The size in bytes of the `pbCvInfo` parameter.
 
 pbCvInfo
 

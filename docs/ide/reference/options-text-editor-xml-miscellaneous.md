@@ -5,6 +5,7 @@ ms.date: 10/29/2018
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.XML.Miscellaneous
+ms.custom: "ide-ref"
 author: maddymontaquila
 ms.author: maleger
 manager: mijacobs

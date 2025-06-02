@@ -56,7 +56,7 @@ HRESULT loadDataFromMiscInfo (
 
 `cbMiscInfo`
 
-[in] Size in bytes of the `pbMiscInfo` paramter.
+[in] Size in bytes of the `pbMiscInfo` parameter.
 
 `pbMiscInfo`
 

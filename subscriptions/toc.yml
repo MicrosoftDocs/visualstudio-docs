@@ -88,8 +88,6 @@
       href: vs-pbi.md
     - name: Visual Studio App Center
       href: vs-visual-studio-app-center.md
-    - name: WhiteSource Bolt
-      href: vs-whitesource.md
     - name: Windows Developer Account
       href: vs-windows-dev.md
     - name: Windows Virtual Desktop
@@ -196,8 +194,6 @@
       href: assign-github.md
   - name: Troubleshoot
     items:
-    - name: Expired subscriptions
-      href: handle-expired-license.md
     - name: Subscriber sign-in scenarios 
       href: aliasing.md
     - name: Subscribers with personal email sign-ins

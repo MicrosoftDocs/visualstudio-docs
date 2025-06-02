@@ -3,6 +3,7 @@ title: Extract an interface refactoring
 description: Learn how to use the Quick Actions and Refactorings menu to create an interface by using existing members from a class, struct, or interface.
 ms.date: 01/26/2018
 ms.topic: reference
+ms.custom: "ide-ref"
 author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
@@ -77,4 +78,4 @@ This refactoring applies to:
 ## See also
 
 - [Refactoring](../refactoring-in-visual-studio.md)
-- [Tips for .NET Developers](../csharp-developer-productivity.md)
+- [Productivity features](../productivity-features.md)

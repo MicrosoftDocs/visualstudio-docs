@@ -7,6 +7,7 @@ helpviewer_keywords:
 - editor options
 - configure editor
 - editor settings
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs

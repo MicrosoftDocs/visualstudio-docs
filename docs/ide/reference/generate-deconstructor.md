@@ -46,4 +46,4 @@ This code generation applies to:
 
 - [Code generation](../code-generation-in-visual-studio.md)
 - [Preview changes](../../ide/preview-changes.md)
-- [Tips for .NET developers](../csharp-developer-productivity.md)
+- [Productivity features](../productivity-features.md)

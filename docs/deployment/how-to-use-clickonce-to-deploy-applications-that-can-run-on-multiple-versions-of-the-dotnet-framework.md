@@ -18,7 +18,7 @@ ms.subservice: deployment
 ---
 # Use ClickOnce to deploy applications that can run on multiple versions of the .NET Framework
 
-You can deploy an application that targets multiple versions of the .NET Framework by using the ClickOnce deployment technology. This requires that you generate and update the application and deployment manifests.
+You can deploy an application that targets multiple versions of the .NET Framework by using the ClickOnce deployment technology. This task requires that you generate and update the application and deployment manifests.
 
 > [!NOTE]
 > Before you change the application to target multiple versions of the .NET Framework, you should ensure that your application runs with multiple versions of the .NET Framework. The version common language runtime is different between .NET Framework 4 versus .NET Framework 2.0, .NET Framework 3.0, and .NET Framework 3.5.
@@ -39,7 +39,7 @@ You can deploy an application that targets multiple versions of the .NET Framewo
 
 ### To generate the application and deployment manifests
 
-- Use the Publish Wizard or the Publish Page of the Project Designer to publish the application and generate the application and deployment manifest files. For more information, see [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md) or [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md).
+- Use the Publish Wizard or the Publish Page of the Project Designer to publish the application and generate the application and deployment manifest files. For more information, see [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md) or [Specify ClickOnce Publish properties](../deployment/how-to-specify-where-visual-studio-copies-the-files.md).
 
 [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
@@ -78,13 +78,13 @@ You can deploy an application that targets multiple versions of the .NET Framewo
 
 1. In the publish directory, open the application manifest by using the XML Editor in Visual Studio. The deployment manifest has the *.manifest* file name extension.
 
-2. Add `group="framework"` to the dependency XML for the sentinel assemblies (`System.Core`, `WindowsBase`, `Sentinel.v3.5Client`, and `System.Data.Entity`). For example, the XML should look like the following:
+2. Add `group="framework"` to the dependency XML for the sentinel assemblies (`System.Core`, `WindowsBase`, `Sentinel.v3.5Client`, and `System.Data.Entity`). The XML should appear similar to the following example:
 
    ```xml
    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true" group="framework">
    ```
 
-3. Update the version number of the `<assemblyIdentity>` element for Microsoft.Windows.CommonLanguageRuntime to the version number for the .NET Framework that is the lowest common denominator. For example, if the application targets .NET Framework 3.5 and .NET Framework 4, use the 2.0.50727.0 version number and the XML should look like the following:
+3. Update the version number of the `<assemblyIdentity>` element for Microsoft.Windows.CommonLanguageRuntime to the version number for the .NET Framework that is the lowest common denominator. For example, if the application targets .NET Framework 3.5 and .NET Framework 4, use the 2.0.50727.0 version number and the XML should appear as follows:
 
    ```xml
    <dependency>
