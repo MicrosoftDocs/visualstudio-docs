@@ -1,7 +1,7 @@
 ---
 title: About GitHub Copilot Completions in Visual Studio
 description: Use GitHub Copilot completions in Visual Studio to use AI assistance to generate information about your code, including suggested edits and new code snippets.
-ms.date: 3/27/2025
+ms.date: 5/30/2025
 ms.topic: overview
 author: anandmeg
 ms.author: meghaanand
@@ -112,13 +112,19 @@ To try the new model for better suggestions and performance, select **GPT-4o Cop
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/completions-model-picker.png" alt-text="Screenshot that shows the Completions Model Picker.":::
 
-If you don’t see the new GPT-4o model in the dropdown, try restarting Visual Studio to retreive the latest model list.
+If you don’t see the new GPT-4o model in the dropdown, try restarting Visual Studio to retrieve the latest model list.
 
 ### Access
 
 - If you're a Copilot Pro user, the new model is available for you in 17.14 Preview 2 and later.
 - If you're a Copilot Business or Enterprise user, your administrator needs to enable this model for your organization by opting in to [**Editor preview features**](https://docs.github.com/en/enterprise-cloud@latest/copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-policies-for-copilot-in-your-organization#about-policies-for-github-copilot) in the Copilot policy settings on *github.com*.
 - If you're a [Copilot Free](copilot-free-plan.md) user, using this model counts towards your 2,000 free monthly completions.
+
+## Doc comments generation
+
+To use automatic doc comments generation on your C++ or C# project file, type the comment pattern according to your settings configuration, for example, `///`, and Copilot instantly completes the function description based on the function's content.
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/doc-comments-generation.gif" alt-text="Animated screenshot that shows the automatic docs comment generation with Copilot feature." lightbox="media/vs-2022/visual-studio-github-copilot-extension/doc-comments-generation.gif":::
 
 ## Exploring GitHub Copilot
 
