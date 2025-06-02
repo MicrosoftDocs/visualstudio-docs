@@ -163,7 +163,7 @@ The following procedure shows how to set the minimum operating system version in
 
      When you build the project, this command changes the minimum operating system version in the application manifest to 5.1.2600.0.
 
-     The `$(TargetPath)` macro expresses the full path for the executable being created. Therefore, `$(TargetPath).manifest` specifes the application manifest created in the *bin* directory. Publishing copies this manifest to the publishing location that you set earlier.
+     The `$(TargetPath)` macro expresses the full path for the executable being created. Therefore, `$(TargetPath).manifest` specifies the application manifest created in the *bin* directory. Publishing copies this manifest to the publishing location that you set earlier.
 
 8. Publish the project again. Go to the **Publish** page and click **Publish Now**.
 
