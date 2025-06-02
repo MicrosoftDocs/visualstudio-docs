@@ -366,8 +366,6 @@
     href: ../ide/reference/immediate-window.md
   - name: Work with...
     items:
-    - name: 64-Bit applications
-      href: debug-64-bit-applications.md
     - name: .NET
       items:
       - name: Recommended property settings
@@ -620,6 +618,8 @@
         href: assertion-failed-dialog-box.md
       - name: Debugger Cannot Display Source Code or Disassembly
         href: debugger-cannot-display-source-code-or-disassembly.md
+      - name: 64-bit debugger operation is taking longer than expected
+        href: debug-64-bit-applications.md
       - name: Debugger Services Running Out of Memory
         href: error-debugger-services-no-memory.md
       - name: Executable for Debugging Session dialog box
