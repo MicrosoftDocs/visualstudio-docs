@@ -28,8 +28,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md) - Update article on errors related to 64-bit debugging
-- [Overview of the Visual Studio debugger](../debugger/debugger-feature-tour.md)
-  - Update First Look articles
+- [Overview of the Visual Studio debugger](../debugger/debugger-feature-tour.md) - Update First Look articles
 - [Stop Debugging In Progress Dialog Box](../debugger/stop-debugging-in-progress-dialog-box.md) - Add link to Report a Problem
 - [View DLLs and executables in the Modules window (C#, C++, Visual Basic, F#)](../debugger/how-to-use-the-modules-window.md) - Clarify how to enable the Modules window
 
@@ -37,11 +36,12 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Enable and configure ClickOnce security settings in Visual Studio](../deployment/how-to-enable-clickonce-security-settings.md) - Update UI reference for ClickOnce Publishing
-- [Install prerequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md) - Update UI reference for ClickOnce Publishing
-- [Specify ClickOnce Publish properties](../deployment/how-to-specify-where-visual-studio-copies-the-files.md) - Update UI reference for ClickOnce Publishing
-- [Use ClickOnce to deploy applications that can run on multiple versions of the .NET Framework](../deployment/how-to-use-clickonce-to-deploy-applications-that-can-run-on-multiple-versions-of-the-dotnet-framework.md) - Update UI reference for ClickOnce Publishing
-- [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md) - Update UI reference for ClickOnce Publishing
+- Update UI reference for ClickOnce Publishing
+  - [Enable and configure ClickOnce security settings in Visual Studio](../deployment/how-to-enable-clickonce-security-settings.md)
+  - [Install prerequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)
+  - [Specify ClickOnce Publish properties](../deployment/how-to-specify-where-visual-studio-copies-the-files.md)
+  - [Use ClickOnce to deploy applications that can run on multiple versions of the .NET Framework](../deployment/how-to-use-clickonce-to-deploy-applications-that-can-run-on-multiple-versions-of-the-dotnet-framework.md)
+  - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
 
 ### Extensibility
 
@@ -51,10 +51,11 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Editor extensibility concepts](../extensibility/visualstudio.extensibility/editor/editor-concepts.md) - Update documentation with 17.14 changes
-- [Extending the Visual Studio editor](../extensibility/visualstudio.extensibility/editor/editor.md) - Update documentation with 17.14 changes
-- [Extending Visual Studio editor with a new tagger](../extensibility/visualstudio.extensibility/editor/walkthroughs/taggers.md) - Update documentation with 17.14 changes
-- [Create Visual Studio user prompts](../extensibility/visualstudio.extensibility/user-prompt/user-prompts.md) - Update documentation with 17.14 changes
+- Update documentation for Visual Studio 17.14
+  - [Editor extensibility concepts](../extensibility/visualstudio.extensibility/editor/editor-concepts.md)
+  - [Extending the Visual Studio editor](../extensibility/visualstudio.extensibility/editor/editor.md)
+  - [Extending Visual Studio editor with a new tagger](../extensibility/visualstudio.extensibility/editor/walkthroughs/taggers.md)
+  - [Create Visual Studio user prompts](../extensibility/visualstudio.extensibility/user-prompt/user-prompts.md)
 - [Query the project API (VisualStudio.Extensibility)](../extensibility/visualstudio.extensibility/project/project.md) - Update query space description
 
 ### IDE
@@ -70,18 +71,21 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [What is GitHub Copilot Completions for Visual Studio?](../ide/visual-studio-github-copilot-extension.md) - Add section on AI doc comments generation
 - [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md) - Update Visual Studio performance tips
 - [What's new in Visual Studio 2022](../ide/whats-new-visual-studio-2022.md) - Update What's New for 17.14
-- [Code style preferences and code cleanup](../ide/code-styles-and-code-cleanup.md) - Update code style preferences and EditorConfig article
-- [Define consistent coding styles with EditorConfig](../ide/create-portable-custom-editor-options.md) - Update code style preferences and EditorConfig article
 - [Add or remove imported namespaces (Visual Basic)](../ide/how-to-add-or-remove-imported-namespaces-visual-basic.md) - Update procedure for Visual Basic Import namespaces
-- [Sign application and deployment manifests](../ide/how-to-sign-application-and-deployment-manifests.md) - Update UI reference for ClickOnce Publishing
-- [Manage assembly and manifest signing](../ide/managing-assembly-and-manifest-signing.md) - Update UI reference for ClickOnce Publishing
 - [Use the Immediate window](../ide/reference/immediate-window.md) - Update article on the Immediate window
-- [JavaScript IntelliSense](../ide/javascript-intellisense.md) - Refactoring JavaScript/TypeScript editor content
+- [JavaScript IntelliSense](../ide/javascript-intellisense.md) - Refactor JavaScript/TypeScript editor content
 - [Add Visual Studio editor support for other languages](../ide/adding-visual-studio-editor-support-for-other-languages.md) - Updates for user feedback
 - [Customize the scroll bar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md) - Updates for user feedback on track changes
-- [Use GitHub Copilot for free in Visual Studio](../ide/copilot-free-plan.md) - Updates for changes to the first launch experience for Copilot Free
-- [Sign in or switch Visual Studio user accounts](../ide/signing-in-to-visual-studio.md) - Updates for changes to the first launch experience for Copilot Free
-- [Add your GitHub accounts to your Visual Studio keychain](../ide/work-with-github-accounts.md) - Updates for changes to the first launch experience for Copilot Free
+- Update code style preferences and EditorConfig article
+  - [Code style preferences and code cleanup](../ide/code-styles-and-code-cleanup.md)
+  - [Define consistent coding styles with EditorConfig](../ide/create-portable-custom-editor-options.md)
+- Update UI Reference for ClickOnce Publishing
+  - [Sign application and deployment manifests](../ide/how-to-sign-application-and-deployment-manifests.md)
+  - [Manage assembly and manifest signing](../ide/managing-assembly-and-manifest-signing.md)
+- Updates for changes to the first launch experience for Copilot Free
+  - [Use GitHub Copilot for free in Visual Studio](../ide/copilot-free-plan.md)
+  - [Sign in or switch Visual Studio user accounts](../ide/signing-in-to-visual-studio.md)
+  - [Add your GitHub accounts to your Visual Studio keychain](../ide/work-with-github-accounts.md)
 
 ### JavaScript
 
