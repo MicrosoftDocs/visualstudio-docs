@@ -13,6 +13,44 @@ manager: crdun
 
 Visual Studio Tools for Unity change log.
 
+## 17.14.1.0
+Released May 13, 2025
+
+### New Features
+
+- **Integration:**
+
+  - Added a result view for `IEnumerable` types.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Improved messaging between Unity and Visual Studio.
+
+  - Optimized UPE in the context of large projects 
+
+## 17.14.0.0
+Released March 11, 2025
+
+### New Features
+
+- **Integration:**
+
+  - Added support for `Unity.Properties.CreateProperty` in [`UNT0004`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0004.md), [`UNT0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0006.md), [`UNT0007`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0007.md) and [`UNT0013`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0013.md) suppressors.
+  
+### Bug fixes
+
+- **Debugging:**
+
+  - Improved thread management.
+
+- **Integration:**
+ 
+  - Fixed stability issues with debug targets when using SDK-Style projects.
+
+  - Fixed [`UNT0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0014.md) diagnostic when a Unity message is wrongly referenced.
+
 ## 17.13.1.0
 Released February 11, 2025
 
