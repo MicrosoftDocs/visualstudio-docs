@@ -28,8 +28,6 @@ Here, you can view your usage and the number of remaining requests. You can also
 > [!NOTE]
 > GitHub manages billing and subscriptions. For more information, go to [GitHub.com](https://github.com/)
 
-To control model usage in non-chat interactions, configure the setting **Enhance non-chat requests with premium models** in **GitHub** > **Copilot** > **Editor**.
-
 ## Understand model selection
 
 Copilot supports multiple AI models, and each model may consume requests at different rates based on assigned multipliers.
