@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.custom: "ide-ref"
 author: tylermsft
 ms.author: twhitney
-manager: markl
+manager: coxford
 ---
 # VC++ Project Settings, Projects and Solutions, Options Dialog Box
 
