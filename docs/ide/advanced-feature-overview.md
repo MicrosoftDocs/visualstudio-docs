@@ -123,7 +123,7 @@ For more information about debugging in Visual Studio, see [First look at the de
 
 To improve app performance, check out the Visual Studio [profiling](../profiling/profiling-feature-tour.md) feature.
 
-Visual Studio offers [testing](../test/improve-code-quality.md) options like unit testing, Live Unit Testing, IntelliTest, and load and performance testing. Visual Studio also has advanced [code analysis](../code-quality/code-analysis-for-managed-code-overview.md) capabilities to find design, security, and other flaws.
+Visual Studio offers [testing](../test/improve-code-quality.md) options like unit testing, Live Unit Testing, IntelliTest, and load and performance testing. Visual Studio also has advanced [code analysis](/previous-versions/visualstudio/visual-studio-2019/code-quality/code-analysis-for-managed-code-overview) capabilities to find design, security, and other flaws.
 
 ## Deploy your finished application
 

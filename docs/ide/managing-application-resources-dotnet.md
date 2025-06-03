@@ -109,7 +109,7 @@ Resources are managed differently in .NET projects than in other project types. 
 
 ## Support options
 
-If you run into a problem with managing application resources, see [Troubleshoot errors in the Resource Editor](troubleshoot-resource-editor-errors.md).
+If you run into a problem with managing application resources, see [Troubleshoot errors in the Resource Editor](/troubleshoot/developer/visualstudio/project-build/troubleshoot-resource-editor-errors).
 
 ## Related content
 

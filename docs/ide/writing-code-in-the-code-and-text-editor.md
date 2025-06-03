@@ -103,7 +103,7 @@ You can share your Visual Studio settings with another developer, have your sett
 
 To define new hotkeys or redefine existing hotkeys, go to **Tools** > **Options** > **Environment** > **Keyboard**. For more information about hotkeys, see [Keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
-For JavaScript-specific editor options, see [JavaScript editor options](../ide/reference/options-text-editor-javascript-formatting.md).
+For JavaScript-specific editor options, see [JavaScript editor options](/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-javascript-formatting).
 
 ## Related content
 
