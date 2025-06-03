@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows)"
 description: View the change log for Visual Studio Tools for Unity, Windows. See changes from version 1.0.0.0 through 4.7.0.0 and beyond.
-ms.date: "6/21/2024"
+ms.date: "6/3/2025"
 ms.subservice: unity-tools
 ms.service: visual-studio
 ms.topic: "conceptual"
@@ -28,7 +28,7 @@ Released May 13, 2025
 
   - Improved messaging between Unity and Visual Studio.
 
-  - Optimized UPE in the context of large projects 
+  - Optimized UPE in the context of large projects. 
 
 ## 17.14.0.0
 Released March 11, 2025
