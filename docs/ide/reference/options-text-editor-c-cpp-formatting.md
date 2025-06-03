@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.custom: "ide-ref"
 author: tylermsft
 ms.author: twhitney
-manager: markl
+manager: coxford
 ---
 # Options, Text Editor, C/C++, Formatting
 

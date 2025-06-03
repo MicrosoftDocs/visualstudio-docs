@@ -5,7 +5,7 @@ ms.date: 10/08/2018
 ms.topic: conceptual
 author: tylermsft
 ms.author: twhitney
-manager: markl
+manager: coxford
 ---
 # Visual C++ IntelliSense features
 

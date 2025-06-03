@@ -5,7 +5,7 @@ ms.date: 04/05/2024
 ms.topic: reference
 author: tylermsft
 ms.author: twhitney
-manager: markl
+manager: coxford
 dev_langs:
  - CPP
 ---

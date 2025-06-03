@@ -4,7 +4,7 @@ description: Develop a native C++ DLL by using test-first methodology, create te
 ms.date: 06/13/2019
 ms.topic: how-to
 ms.author: twhitney
-manager: markl
+manager: coxford
 author: tylermsft
 ---
 # Write unit tests for C++ DLLs
