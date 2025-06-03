@@ -107,7 +107,7 @@ To generate unsigned manifests that include all files in the hash, you must firs
 
 1. On the **Signing** tab, clear the **Sign the ClickOnce manifests** check box.
 
-1. On the **Publish** tab, reset the publish version so that only one version of your application is available. Clear the checkbox for **Automatically increment the version with each publish**. By default, Visual Studio automatically increments the revision number of the publish version every time that you publish an application. For more information, see [How to: Set the ClickOnce publish version](../deployment/how-to-set-the-clickonce-publish-version.md).
+1. On the **Publish** tab, reset the publish version so that only one version of your application is available. Clear the checkbox for **Automatically increment the version with each publish**. By default, Visual Studio automatically increments the revision number of the publish version every time that you publish an application. For more information, see [How to: Set the ClickOnce publish version](/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files).
 
 1. Publish the application. Visual Studio tells you that the application was signed with a different key than the existing application on the server, and asks if you want to overwrite it. Choose **Yes**.
 
@@ -126,5 +126,5 @@ To generate unsigned manifests that include all files in the hash, you must firs
 
 - [Strong-named assemblies](/dotnet/framework/app-domains/strong-named-assemblies)
 - [How to: Create a public-private key pair](/dotnet/framework/app-domains/how-to-create-a-public-private-key-pair)
-- [Signing page, Project Designer](../ide/reference/signing-page-project-designer.md)
+- [Signing page, Project Designer](/visualstudio/ide/how-to-sign-application-and-deployment-manifests)
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)

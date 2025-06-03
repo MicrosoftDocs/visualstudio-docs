@@ -156,7 +156,7 @@ Your application is ready to build and run.
 To learn more about Windows Forms, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
-> [Tutorial: Create a picture viewer](tutorial-windows-forms-picture-viewer-layout.md)
+> [Tutorial: Create a picture viewer](/visualstudio/get-started/csharp/tutorial-windows-forms-picture-viewer-layout)
 
 Or try these other tutorials:
 
