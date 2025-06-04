@@ -1,7 +1,7 @@
 ---
 title: Obtaining Build Logs with MSBuild
 description: Use switches with MSBuild and specify how much build data to review and whether to save build data to one or more files.
-ms.date: 07/15/2024
+ms.date: 6/5/2025
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, logging
