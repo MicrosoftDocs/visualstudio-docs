@@ -5,7 +5,7 @@ ms.date: 01/19/2022
 ms-custom: devdivchpfy22
 ms.topic: how-to
 ms.author: twhitney
-manager: markl
+manager: coxford
 author: tylermsft
 ---
 # Use Google Test for C++ in Visual Studio
