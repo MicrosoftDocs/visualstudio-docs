@@ -118,7 +118,7 @@ It might be desirable to have common properties for all projects *(1)*, common p
 To make MSBuild correctly merge the "inner" files (*2-src* and *2-test*) with the "outer" file (*1*), you must take into account that once MSBuild finds a *Directory.Build.props* file, it stops further scanning. To continue scanning and merge into the outer file, place this code into both inner files:
 
 ```xml
-<Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+<Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" Condition="'' != $([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
 ```
 
 A summary of MSBuild's general approach is as follows:
@@ -126,6 +126,7 @@ A summary of MSBuild's general approach is as follows:
 - For any given project, MSBuild finds the first *Directory.Build.props* upward in the solution structure, merges it with defaults, and stops scanning for more.
 - If you want multiple levels to be found and merged, then [`<Import...>`](../msbuild/property-functions.md#msbuild-getpathoffileabove) (shown previously) the "outer" file from the "inner" file.
 - If the "outer" file doesn't itself also import something above it, then scanning stops there.
+- Only do this if the uupper level file actual exists
 
 Or more simply: the first *Directory.Build.props* that doesn't import anything is where MSBuild stops.
 
