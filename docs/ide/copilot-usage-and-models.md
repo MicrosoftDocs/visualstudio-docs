@@ -26,7 +26,7 @@ To track your Copilot usage:
 Here, you can view your usage and the number of remaining requests. You can also select **Get more requests** to manage your Copilot plan on *GitHub*.
 
 > [!NOTE]
-> GitHub manages billing and subscriptions. For more information, go to [GitHub.com](https://github.com/)
+> GitHub manages billing and subscriptions. For details, visit your [GitHub billing settings](https://github.com/settings/billing).
 
 ## Understand model selection
 
@@ -41,10 +41,11 @@ When your [premium request quota](https://docs.github.com/en/copilot/about-githu
 To manage model usage in non-chat interactions, configure the setting **Enhance non-chat requests with premium models** in **GitHub** > **Copilot** > **Editor**.
 
 > [!TIP]
-> Visit your [Copilot settings on GitHub](https://docs.github.com/en/copilot/managing-copilot/monitoring-usage-and-entitlements/monitoring-your-copilot-usage-and-entitlements) to explore model options and subscription details.
+> Visit your [Copilot settings on GitHub](https://github.com/settings/copilot/features) to explore model options and subscription details.
 
 ## Related content
 
 - [About premium requests](https://docs.github.com/copilot/managing-copilot/monitoring-usage-and-entitlements/about-premium-requests#premium-requests)
 - [About billing](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/billing-and-payments/about-billing-for-individual-copilot-plans)
+- [GitHub support](https://support.github.com/)
 - [Install and manage GitHub Copilot in Visual Studio](visual-studio-github-copilot-install-and-states.md)
