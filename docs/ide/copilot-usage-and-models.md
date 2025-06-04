@@ -19,22 +19,23 @@ GitHub Copilot includes built-in tools to help you track usage, manage your plan
 To track your Copilot usage:
 
 1. Select the **Copilot badge** in the top-right corner of Visual Studio.
-2. Select **Copilot Consumptions**.
+1. Select **Copilot Consumptions** from the menu to view the dialog.
 
    :::image type="content" source="media/vs-2022/copilot-usage-models/copilot-consumptions-panel.png" alt-text="Screenshot that shows Copilot Consumptions panel." lightbox="media/vs-2022/copilot-usage-models/copilot-consumptions-panel.png":::
 
-Here, you can view your usage and the number of remaining requests. You can also select **Get more requests** to manage your Copilot plan on *GitHub*.
+   Here, you can view your usage and the number of remaining requests. You can also select **Get more requests** to manage your Copilot plan on *GitHub*.
 
 > [!NOTE]
-> GitHub manages billing and subscriptions. For details, visit your [GitHub billing settings](https://github.com/settings/billing).
+> GitHub manages billing and subscriptions. For details, visit your [GitHub settings](https://github.com/settings/billing/summary).
 
 ## Understand model selection
 
 Copilot supports multiple AI models, and each model may consume requests at different rates based on assigned multipliers.
 
 To view or change your current model:
+
 1.	Open the **Copilot Chat** window.
-2.	Use the **model picker** dropdown above the input field to select a model.
+1.	Use the **model picker** dropdown above the input field to select a model.
 
 When your [premium request quota](https://docs.github.com/en/copilot/about-github-copilot/plans-for-github-copilot#comparing-copilot-plans) is exhausted, Copilot automatically falls back to a base model so you can continue working without interruption.
 
