@@ -1,7 +1,7 @@
 ---
 title: File nesting rules for Solution Explorer
 description: Discover Solution Explorer in Visual Studio and review how to work with file nesting rules, presets, and customization for project-specific settings.
-ms.date: 05/25/2018
+ms.date: 6/4/2025
 ms.topic: conceptual
 helpviewer_keywords:
  - "file nesting"
@@ -17,7 +17,7 @@ ms.subservice: general-ide
 
 > [!NOTE]
 > In Visual Studio 2022 version 17.2 and earlier, this feature was only supported for ASP.NET Core projects.
-> In version 17.3 and later the projects targeting .NET support file nesting. 
+> In version 17.3 and later, all projects targeting .NET support file nesting. 
 
 ## File nesting options
 
