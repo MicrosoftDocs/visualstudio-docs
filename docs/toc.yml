@@ -173,6 +173,8 @@
     items:
     - name: GitHub Copilot Free
       href: ide/copilot-free-plan.md
+    - name: Manage usage and models
+      href: ide/copilot-usage-and-models.md
     - name: Deploy GitHub Copilot to your enterprise
       href: ide/deploy-copilot-to-enterprise.md
     - name: Admin controls for GitHub Copilot
