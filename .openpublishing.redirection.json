@@ -20663,6 +20663,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "subscriptions/vs-parasoft.md",
+      "redirect_url": "/visualstudio/subscriptions",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "subscriptions/anonymization.md",
       "redirect_url": "/visualstudio/subscriptions/subscription-removed",
       "redirect_document_id": false

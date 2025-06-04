@@ -5,7 +5,7 @@ ms.date: 01/29/2020
 ms.topic: how-to
 author: tylermsft
 ms.author: twhitney
-manager: markl
+manager: coxford
 ---
 # Use Boost.Test for C++ in Visual Studio
 
