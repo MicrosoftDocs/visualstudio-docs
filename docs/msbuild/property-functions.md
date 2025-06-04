@@ -130,6 +130,9 @@ In addition, you can use the following static methods and properties:
 - [System.IO.File::GetLastAccessTime](/dotnet/api/System.IO.File.GetLastAccessTime?view=netstandard-2.0&preserve-view=true)
 - [System.IO.File::GetLastWriteTime](/dotnet/api/System.IO.File.GetLastWriteTime?view=netstandard-2.0&preserve-view=true)
 - [System.IO.File::ReadAllText](/dotnet/api/System.IO.File.ReadAllText?view=netstandard-2.0&preserve-view=true)
+- [System.Globalization.CultureInfo::GetCultureInfo](/dotnet/api/System.Globalization.CultureInfo.GetCultureInfo?view=netstandard-2.0&preserve-view=true)
+- [System.Globalization.CultureInfo::new](/dotnet/api/System.Globalization.CultureInfo.-ctor?view=netstandard-2.0&preserve-view=true)
+- [System.Globalization.CultureInfo::CurrentUICulture](/dotnet/api/System.Globalization.CultureInfo.CurrentUICulture?view=netstandard-2.0&preserve-view=true)
 
 :::moniker range="vs-2022"
 #### System.OperatingSystem property functions
