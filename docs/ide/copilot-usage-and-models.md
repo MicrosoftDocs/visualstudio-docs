@@ -30,14 +30,14 @@ To track your Copilot usage:
 
 ## Understand model selection
 
-Copilot supports multiple AI models, and each model may consume requests at different rates based on assigned multipliers.
+Copilot supports multiple AI models, and each model may consume requests at different rates based on assigned [multipliers](https://docs.github.com/copilot/managing-copilot/monitoring-usage-and-entitlements/about-premium-requests#model-multipliers).
 
 To view or change your current model:
 
 1.	Open the **Copilot Chat** window.
 1.	Use the **model picker** dropdown above the input field to select a model.
 
-When your [premium request quota](https://docs.github.com/en/copilot/about-github-copilot/plans-for-github-copilot#comparing-copilot-plans) is exhausted, Copilot automatically falls back to a base model so you can continue working without interruption.
+When your [premium request quota](https://docs.github.com/copilot/about-github-copilot/plans-for-github-copilot#comparing-copilot-plans) is exhausted, Copilot automatically falls back to a base model so you can continue working without interruption.
 
 To manage model usage in non-chat interactions, configure the setting **Enhance non-chat requests with premium models** in **GitHub** > **Copilot** > **Editor**.
 
@@ -47,6 +47,6 @@ To manage model usage in non-chat interactions, configure the setting **Enhance 
 ## Related content
 
 - [About premium requests](https://docs.github.com/copilot/managing-copilot/monitoring-usage-and-entitlements/about-premium-requests#premium-requests)
-- [About billing](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/billing-and-payments/about-billing-for-individual-copilot-plans)
+- [About Copilot billing](https://docs.github.com/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/billing-and-payments/about-billing-for-individual-copilot-plans)
 - [GitHub support](https://support.github.com/)
 - [Install and manage GitHub Copilot in Visual Studio](visual-studio-github-copilot-install-and-states.md)
