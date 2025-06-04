@@ -4,7 +4,7 @@ description: Write and run C++ unit tests with the Test Explorer in Visual Studi
 ms.date: 12/12/2024
 ms.topic: conceptual
 ms.author: twhitney
-manager: markl
+manager: coxford
 author: tylermsft
 #customer intent: As a C/C++ developer, I want to learn how Visual Studio supports unit tests so that I can include them in my solutions.
 ---
