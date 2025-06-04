@@ -1,7 +1,7 @@
 ### YamlMime:Landing
 
 title: Visual Studio IDE documentation
-summary: An integrated development environment (IDE) is a feature-rich application that can be used for many aspects of software development. The Visual Studio IDE makes it easy to edit, debug, build, and publish your app.
+summary: An integrated development environment (IDE) is a feature-rich application that can be used for many aspects of software development. The Visual Studio IDE makes it easy to edit, debug, build, and publish all your development projects.
 
 metadata:
   title: Visual Studio IDE documentation
@@ -13,7 +13,7 @@ metadata:
   author: ghogen
   ms.author: ghogen
   ms.manager: mijacobs
-  ms.date: 06/20/2024
+  ms.date: 06/4/2025
   ms.custom: vs-acquisition
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
