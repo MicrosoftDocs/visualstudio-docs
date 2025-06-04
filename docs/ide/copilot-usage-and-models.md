@@ -19,32 +19,34 @@ GitHub Copilot includes built-in tools to help you track usage, manage your plan
 To track your Copilot usage:
 
 1. Select the **Copilot badge** in the top-right corner of Visual Studio.
-2. Select **Copilot Consumptions**.
+1. Select **Copilot Consumptions** from the menu to view the dialog.
 
    :::image type="content" source="media/vs-2022/copilot-usage-models/copilot-consumptions-panel.png" alt-text="Screenshot that shows Copilot Consumptions panel." lightbox="media/vs-2022/copilot-usage-models/copilot-consumptions-panel.png":::
 
-Here, you can view your usage and the number of remaining requests. You can also select **Get more requests** to manage your Copilot plan on *GitHub*.
+   Here, you can view your usage and the number of remaining requests. You can also select **Get more requests** to manage your Copilot plan on *GitHub*.
 
 > [!NOTE]
-> GitHub manages billing and subscriptions. For more information, go to [GitHub.com](https://github.com/)
+> GitHub manages billing and subscriptions. For details, visit your [GitHub settings](https://github.com/settings/billing/summary).
 
 ## Understand model selection
 
-Copilot supports multiple AI models, and each model may consume requests at different rates based on assigned multipliers.
+Copilot supports multiple AI models, and each model may consume requests at different rates based on assigned [multipliers](https://docs.github.com/copilot/managing-copilot/monitoring-usage-and-entitlements/about-premium-requests#model-multipliers).
 
 To view or change your current model:
-1.	Open the **Copilot Chat** window.
-2.	Use the **model picker** dropdown above the input field to select a model.
 
-When your [premium request quota](https://docs.github.com/en/copilot/about-github-copilot/plans-for-github-copilot#comparing-copilot-plans) is exhausted, Copilot automatically falls back to a base model so you can continue working without interruption.
+1.	Open the **Copilot Chat** window.
+1.	Use the **model picker** dropdown above the input field to select a model.
+
+When your [premium request quota](https://docs.github.com/copilot/about-github-copilot/plans-for-github-copilot#comparing-copilot-plans) is exhausted, Copilot automatically falls back to a base model so you can continue working without interruption.
 
 To manage model usage in non-chat interactions, configure the setting **Enhance non-chat requests with premium models** in **GitHub** > **Copilot** > **Editor**.
 
 > [!TIP]
-> Visit your [Copilot settings on GitHub](https://docs.github.com/en/copilot/managing-copilot/monitoring-usage-and-entitlements/monitoring-your-copilot-usage-and-entitlements) to explore model options and subscription details.
+> Visit your [Copilot settings on GitHub](https://github.com/settings/copilot/features) to explore model options and subscription details.
 
 ## Related content
 
 - [About premium requests](https://docs.github.com/copilot/managing-copilot/monitoring-usage-and-entitlements/about-premium-requests#premium-requests)
-- [About billing](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/billing-and-payments/about-billing-for-individual-copilot-plans)
+- [About Copilot billing](https://docs.github.com/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/billing-and-payments/about-billing-for-individual-copilot-plans)
+- [GitHub support](https://support.github.com/)
 - [Install and manage GitHub Copilot in Visual Studio](visual-studio-github-copilot-install-and-states.md)
