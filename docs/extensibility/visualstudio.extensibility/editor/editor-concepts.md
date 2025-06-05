@@ -12,9 +12,9 @@ ms.subservice: extensibility-integration
 
 # Editor extensibility concepts
 
-This article describes the extensibility object model that represents the Visual Studio editor and the text document that opened for editing. For an introduction to working with the editor extension functionality, see [Use Visual Studio editor extensibility](editor.md).
+This article describes the extensibility object model that represents the Visual Studio editor and the text document that's opened for editing. For an introduction to working with the editor extension functionality, see [Use Visual Studio editor extensibility](editor.md).
 
-The Visual Studio editor extensibility object model is composed of a few integral parts. This article covers [ITextViewSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewsnapshot), [ITextDocumentSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextdocumentsnapshot), and other abstract representations of the whole document. The article also introduces [TextPosition](/dotnet/api/microsoft.visualstudio.extensibility.editor.textposition) and [TextRange](/dotnet/api/microsoft.visualstudio.extensibility.editor.textrange), which represent locations and spans of text, respectively.
+The extensibility object model for the Visual Studio editor consists of a few integral parts. This article covers [ITextViewSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewsnapshot), [ITextDocumentSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextdocumentsnapshot), and other abstract representations of the whole document. The article also introduces [TextPosition](/dotnet/api/microsoft.visualstudio.extensibility.editor.textposition) and [TextRange](/dotnet/api/microsoft.visualstudio.extensibility.editor.textrange), which represent locations and spans of text, respectively.
 
 ## ITextViewSnapshot
 
@@ -40,7 +40,7 @@ If you're familiar with legacy Visual Studio extensions, [ITextDocumentSnapshot]
 - Use the indexer syntax, `textDocument[0]`, to read character by character in the document without copying it to a string.
 - If you must create a string, such as for use as a dictionary key, use the overload that takes a `Range` to avoid creating a large throwaway string from the entire line or document.
 - Avoid the assumption that lines or documents are short. Many languages minify into huge lines or consume large files.
-   - The [ITextDocumentSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextdocumentsnapshot) class references large data structures that might consume memory if an old-enough version is stored. Best practice is to periodically update positions and ranges that you're storing long term to the latest document version via their `TranslateTo()` method so that the old `ITextDocumentSnapshot` version can be garbage collected.
+- The [ITextDocumentSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextdocumentsnapshot) class references large data structures that might consume memory if an old-enough version is stored. The best practice is to periodically update positions and ranges that you're storing long term to the latest document version via their `TranslateTo()` method so that the old `ITextDocumentSnapshot` version can be garbage collected.
 
 ## Position
 
