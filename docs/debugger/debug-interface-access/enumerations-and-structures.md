@@ -74,7 +74,7 @@ Specifies a target register.
 
 - [`CV_modifier_e`](../../debugger/debug-interface-access/cv-modifier-e.md)
 
-Specifies type modifers.
+Specifies type modifiers.
 
 - [`DataKind` Enumeration](../../debugger/debug-interface-access/datakind.md)
 
