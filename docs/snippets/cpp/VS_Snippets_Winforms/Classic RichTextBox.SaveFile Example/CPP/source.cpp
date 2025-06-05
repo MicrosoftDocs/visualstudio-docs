@@ -20,7 +20,7 @@ public:
       // Create a SaveFileDialog to request a path and file name to save to.
       SaveFileDialog^ saveFile1 = gcnew SaveFileDialog;
       
-      // Initialize the SaveFileDialog to specify the RTF extention for the file.
+      // Initialize the SaveFileDialog to specify the RTF extension for the file.
       saveFile1->DefaultExt = "*.rtf";
       saveFile1->Filter = "RTF Files|*.rtf";
       

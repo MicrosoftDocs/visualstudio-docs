@@ -176,7 +176,7 @@ The following table shows the methods of `IDiaSymbol`.
 |[`IDiaSymbol::get_machineType`](../../debugger/debug-interface-access/idiasymbol-get-machinetype.md)|Retrieves the type of the target CPU.|
 |[`IDiaSymbol::get_managed`](../../debugger/debug-interface-access/idiasymbol-get-managed.md)|Retrieves a flag that indicating whether the symbol refers to managed code.|
 |[`IDiaSymbol::get_memorySpaceKind`](../../debugger/debug-interface-access/idiasymbol-get-memoryspacekind.md)|Retrieves the memory space kind.|
-|[`IDiaSymbol::get_modifierValues`](../../debugger/debug-interface-access/idiasymbol-get-modifiervalues.md)|Retrieves the set of modifers for this symbol.|
+|[`IDiaSymbol::get_modifierValues`](../../debugger/debug-interface-access/idiasymbol-get-modifiervalues.md)|Retrieves the set of modifiers for this symbol.|
 |[`IDiaSymbol::get_msil`](../../debugger/debug-interface-access/idiasymbol-get-msil.md)|Retrieves a flag indicating whether the symbol refers to Microsoft Intermediate Language (MSIL) code.|
 |[`IDiaSymbol::get_name`](../../debugger/debug-interface-access/idiasymbol-get-name.md)|Retrieves the name of the symbol.|
 |[`IDiaSymbol::get_nested`](../../debugger/debug-interface-access/idiasymbol-get-nested.md)|Retrieves a flag indicating whether the user-defined data type is nested.|
