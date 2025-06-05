@@ -16,7 +16,7 @@ Edits are changes to a text document open in the Visual Studio editor. Edits mig
 
 Extensions that run outside the main Visual Studio integrated development environment (IDE) process use asynchronous design patterns to communicate with the Visual Studio IDE process. This behavior means the use of asynchronous method calls, as indicated by the `async` keyword in C# and reinforced by the `Async` suffix on method names. Asynchronicity is a significant advantage in the context of an editor that users expect to respond to their actions.
 
-If a traditional synchronous API call takes longer than expected, it stops responding to user input. This situation creates a UI freeze that lasts until the API call completes. Users of modern interactive applications expect text editors to always remain responsive and never block them from working. To meet these user expectations, it's essential to have asynchronous extensions.
+If a traditional synchronous API call takes longer than expected, it stops responding to user input. This situation creates a UI freeze that lasts until the API call finishes. Users of modern interactive applications expect text editors to always remain responsive and never block them from working. To meet these user expectations, it's essential to have asynchronous extensions.
 
 Learn more about asynchronous programming at [Asynchronous programming with async and await](/dotnet/csharp/programming-guide/concepts/async/).
 
@@ -59,7 +59,7 @@ cancellationToken);
 
 #### Concurrent execution
 
-:warning: | Editor extensions can sometimes run concurrently
+:warning: | Editor extensions can sometimes run concurrently.
 :---: | :---
 
 The initial release has a known issue that can result in concurrent execution of editor extension code. Each async method is called in the correct order, but continuations after the first `await` might be interleaved. If your extension relies on execution order, consider maintaining a queue of incoming requests to preserve the order until this issue is fixed.
