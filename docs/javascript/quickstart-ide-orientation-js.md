@@ -1,15 +1,15 @@
 ---
-title: First look at the Visual Studio IDE
+title: Overview of the Visual Studio IDE for JavaScript
 description: Learn about the Visual Studio integrated development environment (IDE), including the windows, menus, and other UI features most commonly used.
 titleSuffix: ""
-ms.date: 11/03/2023
+ms.date: 6/5/2025
 ms.topic: quickstart
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: javascript-typescript
 ---
-# First look at the Visual Studio IDE
+# Overview of the Visual Studio IDE for JavaScript
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), we take a tour of some of the windows, menus, and other UI features.
 
@@ -17,7 +17,7 @@ If you haven't installed Visual Studio, go to the [Visual Studio downloads](http
 
 ## Start window
 
-The first thing you see after you launch Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to close or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
+The first thing you see after you launch Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to close or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files. If the start window is not open, choose **File > Start Window** to open it.
 
 ::: moniker range=">=vs-2022"
 ![Screenshot of the start window in Visual Studio 2022.](media/vs-2022/start-window.png)
