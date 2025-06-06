@@ -1,7 +1,7 @@
 ---
 title: File nesting rules for Solution Explorer
 description: Discover Solution Explorer in Visual Studio and review how to work with file nesting rules, presets, and customization for project-specific settings.
-ms.date: 05/25/2018
+ms.date: 6/4/2025
 ms.topic: conceptual
 helpviewer_keywords:
  - "file nesting"
@@ -17,7 +17,7 @@ ms.subservice: general-ide
 
 > [!NOTE]
 > In Visual Studio 2022 version 17.2 and earlier, this feature was only supported for ASP.NET Core projects.
-> In version 17.3 and later the projects targeting .NET support file nesting. 
+> In version 17.3 and later, all projects targeting .NET support file nesting. 
 
 ## File nesting options
 
@@ -27,7 +27,7 @@ The available options for non-customized file nesting are:
 
 * **Off**: This option gives you a flat list of files without any nesting.
 
-* **Default**: This option gives you the default file nesting behavior in **Solution Explorer**. If no settings exist for a given project type, then no files in the project are nested. If settings exist, for example, for a web project, nesting is applied.
+* **Default**: This option gives you the default file nesting behavior in **Solution Explorer**. If no settings exist for a given project type, then no files in the project are nested. If settings exist (for example, for a web project), nesting is applied.
 
 * **Web**: This option applies the **Web** file nesting behavior to all the projects in the current solution. It has numerous rules, and we encourage you to check it out and tell us what you think. The following screenshot highlights just a few examples of the file nesting behavior that you get with this option:
 
@@ -55,7 +55,7 @@ Let’s focus on the node **dependentFileProviders** and its child nodes. Each c
 
 * **allExtensions**: Use this type of rule to nest *file.** under *file.js*
 
-* **fileToFile**: Use this type of rule to nest *bower.json* under *.bowerrc*
+* **fileToFile**: Use this type of rule to nest *bower.json* under `.bowerrc`
 
 ### The extensionToExtension provider
 
@@ -67,7 +67,7 @@ This provider lets you define file nesting rules using specific file extensions.
 
 * *cart.js* is nested under *cart.ts* because of the first **extensionToExtension** rule
 
-* *cart.js* is not nested under *cart.tsx* because **.ts** comes before **.tsx** in the rules, and there can only be one parent
+* *cart.js* is not nested under *cart.tsx* because `.ts` comes before `.tsx` in the rules, and there can only be one parent
 
 * *light.css* is nested under *light.sass* because of the second **extensionToExtension** rule
 
@@ -98,7 +98,7 @@ Consider the following example:
 * *file.html.css* is nested under *file.html* because of the **addedExtension** rule
 
 > [!NOTE]
-> You don't specify any file extensions for the `addedExtension` rule; it automatically applies to all file extensions. That is, any file with the same name and extension as another file plus an additional extension on the end is nested under the other file. You cannot limit the effect of this provider to just specific file extensions.
+> You don't specify any file extensions for the `addedExtension` rule; it automatically applies to all file extensions. That is, any file with the same name and extension as another file plus an additional extension on the end is nested under the other file. You can't limit the effect of this provider to just specific file extensions.
 
 ### The pathSegment provider
 
@@ -169,9 +169,7 @@ You can create solution-specific and project-specific settings through the right
 
 Solution-specific and project-specific settings are combined with the active Visual Studio settings. For example, you may have a blank project-specific settings file, but **Solution Explorer** is still nesting files. The nesting behavior is coming from either the solution-specific settings or the Visual Studio settings. The precedence for merging file nesting settings is: Visual Studio > Solution > Project.
 
-You can tell Visual Studio to ignore solution-specific and project-specific settings, even if the files exist on disk, by enabling the option **Ignore solution and project settings** under **Tools** > **Options** > **ASP.NET Core** > **File Nesting**.
-
-You can do the opposite and tell Visual Studio to *only* use the solution-specific or the project-specific settings, by setting the **root** node to **true**. Visual Studio stops merging files at that level and doesn't combine it with files higher up the hierarchy.
+You can tell Visual Studio to *only* use the solution-specific or the project-specific settings, by setting the **root** node to **true**. Visual Studio stops merging files at that level and doesn't combine it with files higher up the hierarchy.
 
 Solution-specific and project-specific settings can be checked into source control, and the entire team that works on the codebase can share them.
 

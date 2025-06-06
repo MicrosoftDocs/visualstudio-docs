@@ -1,6 +1,6 @@
 ---
-title: Dialogs reference
-description: A reference for extensibility dialogs
+title: Dialogs Reference
+description: A reference for extensibility dialogs.
 ms.topic: overview
 ms.date: 3/31/2023
 ms.author: maiak
@@ -12,15 +12,15 @@ ms.subservice: extensibility-integration
 
 # Create Visual Studio dialogs
 
-Dialogs are a way to prompt a user for information or to allow for customizations of feature behavior. For example, the Tools/Options dialog has individual pages that let the user control the behavior for features like themes, editors, and document tabs.
+Dialogs are a way to prompt a user for information or to allow for customizations of feature behavior. For example, the **Tools** > **Options** dialog has individual pages that let the user control the behavior for features like themes, editors, and document tabs.
 
 ## Get started
 
-To get started, follow the [create the project](./../get-started/create-your-first-extension.md) section in the Getting Started section.
+To get started, follow the steps in [Create your first Visual Studio extension](./../get-started/create-your-first-extension.md).
 
 ## Work with dialogs
 
-This guide is designed to cover the top user scenarios when working with dialogs:
+This article covers the top user scenarios when you work with dialogs:
 
 - [Create a dialog](#create-a-dialog)
 - [Customize the dialog title](#customize-the-dialog-title)
@@ -29,9 +29,9 @@ This guide is designed to cover the top user scenarios when working with dialogs
 
 ## Create a dialog
 
-Creating a tool window with the new Extensibility Model is as simple as calling the [ShowDialogAsync](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showdialogasync) method from the [ShellExtensibility](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility) helpers and passing in your dialog content.
+Creating a tool window with the new Extensibility model is as simple as calling the [ShowDialogAsync](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showdialogasync) method from the [ShellExtensibility](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility) helpers and passing in your dialog content.
 
-![Screenshot of a Dialog.](./media/dialog.png)
+![Screenshot that shows a dialog.](./media/dialog.png)
 
 ### ShowDialogAsync
 
@@ -48,10 +48,10 @@ The [ShowDialogAsync](/dotnet/api/microsoft.visualstudio.extensibility.shell.she
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| content | [Microsoft.VisualStudio.RpcContracts.RemoteUI.IRemoteUserControl](/dotnet/api/microsoft.visualstudio.rpccontracts.remoteui.iremoteusercontrol 'Microsoft.VisualStudio.RpcContracts.RemoteUI.IRemoteUserControl') | The content of the dialog. |
-| title | [System.String](/dotnet/api/System.String 'System.String') | The title of the dialog. |
-| options | Microsoft.VisualStudio.RpcContracts.Notifications.DialogOption | The options for displaying the dialog. |
-| cancellationToken | [System.Threading.CancellationToken](/dotnet/api/System.Threading.CancellationToken 'System.Threading.CancellationToken') | A [CancellationToken](/dotnet/api/System.Threading.CancellationToken 'System.Threading.CancellationToken') to cancel the dialog. |
+| `content` | [Microsoft.VisualStudio.RpcContracts.RemoteUI.IRemoteUserControl](/dotnet/api/microsoft.visualstudio.rpccontracts.remoteui.iremoteusercontrol 'Microsoft.VisualStudio.RpcContracts.RemoteUI.IRemoteUserControl') | The content of the dialog. |
+| `title` | [System.String](/dotnet/api/System.String 'System.String') | The title of the dialog. |
+| `options` | `Microsoft.VisualStudio.RpcContracts.Notifications.DialogOption` | The options for displaying the dialog. |
+| `cancellationToken` | [System.Threading.CancellationToken](/dotnet/api/System.Threading.CancellationToken 'System.Threading.CancellationToken') | A [CancellationToken](/dotnet/api/System.Threading.CancellationToken 'System.Threading.CancellationToken') to cancel the dialog. |
 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
@@ -65,13 +65,13 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 }
 ```
 
-For more information on creating a RemoteUserControl, see [Remote UI](./../inside-the-sdk/remote-ui.md).
+For more information on how to create a remote user control, see [Remote UI](./../inside-the-sdk/remote-ui.md).
 
 ## Customize the dialog title
 
-When your extension shows a dialog, you can provide a custom title string which will be displayed in the dialog's caption region.
+When your extension shows a dialog, you can provide a custom title string which is displayed in the dialog's caption region.
 
-![Screenshot showing a Dialog title.](./media/dialog-title.png)
+![Screenshot that shows a dialog title.](./media/dialog-title.png)
 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
@@ -87,11 +87,11 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 ## Customize the dialog buttons
 
-When a dialog is shown in the IDE, certain combinations of predefined dialog buttons and default actions can be selected. The predefined button and action combinations can be found in `Microsoft.VisualStudio.RpcContracts.Notifications.DialogOption`.
+When a dialog is shown in the integrated development environment, you can select certain combinations of predefined dialog buttons and default actions. You can find the predefined button and action combinations in `Microsoft.VisualStudio.RpcContracts.Notifications.DialogOption`.
 
-![Screenshot of a Dialog button.](./media/dialog-button.png)
+![Screenshot of a dialog button.](./media/dialog-button.png)
 
-Additionally, you can create your own combination of buttons and default actions from:
+You can also create your own combination of buttons and default actions from:
 
 - `Microsoft.VisualStudio.RpcContracts.Notifications.DialogButton`
 
@@ -114,15 +114,15 @@ Additionally, you can create your own combination of buttons and default actions
     ```csharp
     public enum DialogResult
     {
-        // The dialog was closed via the System.Threading.CancellationToken or using an
+        // The dialog was closed via the System.Threading.CancellationToken or by using an
         // action provided by the Microsoft.Visual Studio.RpcContracts.RemoteUI.IRemoteUserControl
         // content.
         None,
-        // The user clicked the Close button.
+        // The user pressed the Close button.
         Close,
-        // The user clicked the OK button.
+        // The user pressed the OK button.
         OK,
-        // The user clicked the Cancel button, or clicked the nonclient close button, or
+        // The user pressed the Cancel button, or pressed the nonclient close button, or
         // pressed the Esc key.
         Cancel
     }
@@ -130,7 +130,7 @@ Additionally, you can create your own combination of buttons and default actions
 
 ### Examples
 
-Adding a cancel button:
+Add a Cancel button:
 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
@@ -144,7 +144,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 }
 ```
 
-Having no dialog buttons:
+No dialog buttons:
 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
@@ -160,7 +160,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 ## Get the dialog result
 
-If you need to know whether a user affirmatively closed a dialog or dismissed it, you can await the call to [`ShowDialogAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showdialogasync), and it will return a `Microsoft.VisualStudio.RpcContracts.Notifications.DialogResult`, which represents the action taken by the user.
+If you need to know whether a user affirmatively closed a dialog or dismissed it, you can await the call to [`ShowDialogAsync`](/dotnet/api/microsoft.visualstudio.extensibility.shell.shellextensibility.showdialogasync). It returns `Microsoft.VisualStudio.RpcContracts.Notifications.DialogResult`, which represents the action taken by the user.
 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
@@ -174,11 +174,11 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
     if (result == DialogResult.OK)
     {
-        // User clicked the OK button
+        // The user pressed the OK button.
     }
 }
 ```
 
-## Next steps
+## Related content
 
-See the [DialogSample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DialogSample) sample for a full example of creating an extension with a dialog.
+- See [DialogSample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DialogSample) for a full example of how to create an extension with a dialog.

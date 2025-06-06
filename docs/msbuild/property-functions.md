@@ -1,7 +1,7 @@
 ---
 title: Use property functions to call .NET methods
 description: Use property functions to call .NET methods that appear in MSBuild property definitions, and see examples for working with the properties and methods.
-ms.date: 04/29/2024
+ms.date: 6/4/2025
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, property functions
@@ -12,7 +12,9 @@ ms.subservice: msbuild
 ---
 # Property functions
 
-Property functions are calls to .NET methods that appear in MSBuild property definitions. Unlike tasks, property functions can be used outside of targets. Property functions are evaluated whenever the properties or items get expanded. So, for properties and items outside of any targets, property functions are evaluated before any target runs. For property groups and item groups inside targets, property functions are evaluated when the target is evaluated.
+Property functions are calls to .NET methods that appear in MSBuild property definitions. You typically use them to construct property definitions that require more complex logic.
+
+Unlike tasks, property functions can be used outside of targets. Property functions are evaluated whenever the properties or items get expanded. So, for properties and items outside of any targets, property functions are evaluated before any target runs. For property groups and item groups inside targets, property functions are evaluated when the target is executed.
 
 Without using MSBuild tasks, you can read the system time, compare strings, match regular expressions, and perform other actions in your build script. MSBuild will try to convert string to number and number to string, and make other conversions as required.
 
@@ -128,6 +130,9 @@ In addition, you can use the following static methods and properties:
 - [System.IO.File::GetLastAccessTime](/dotnet/api/System.IO.File.GetLastAccessTime?view=netstandard-2.0&preserve-view=true)
 - [System.IO.File::GetLastWriteTime](/dotnet/api/System.IO.File.GetLastWriteTime?view=netstandard-2.0&preserve-view=true)
 - [System.IO.File::ReadAllText](/dotnet/api/System.IO.File.ReadAllText?view=netstandard-2.0&preserve-view=true)
+- [System.Globalization.CultureInfo::GetCultureInfo](/dotnet/api/System.Globalization.CultureInfo.GetCultureInfo?view=netstandard-2.0&preserve-view=true)
+- [System.Globalization.CultureInfo::new](/dotnet/api/System.Globalization.CultureInfo.-ctor?view=netstandard-2.0&preserve-view=true)
+- [System.Globalization.CultureInfo::CurrentUICulture](/dotnet/api/System.Globalization.CultureInfo.CurrentUICulture?view=netstandard-2.0&preserve-view=true)
 
 :::moniker range="vs-2022"
 #### System.OperatingSystem property functions
