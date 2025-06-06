@@ -98,7 +98,7 @@ Consider the following example:
 * *file.html.css* is nested under *file.html* because of the **addedExtension** rule
 
 > [!NOTE]
-> You don't specify any file extensions for the `addedExtension` rule; it automatically applies to all file extensions. That is, any file with the same name and extension as another file plus an additional extension on the end is nested under the other file. You cannot limit the effect of this provider to just specific file extensions.
+> You don't specify any file extensions for the `addedExtension` rule; it automatically applies to all file extensions. That is, any file with the same name and extension as another file plus an additional extension on the end is nested under the other file. You can't limit the effect of this provider to just specific file extensions.
 
 ### The pathSegment provider
 
