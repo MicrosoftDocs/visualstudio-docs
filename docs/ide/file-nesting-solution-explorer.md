@@ -27,7 +27,7 @@ The available options for non-customized file nesting are:
 
 * **Off**: This option gives you a flat list of files without any nesting.
 
-* **Default**: This option gives you the default file nesting behavior in **Solution Explorer**. If no settings exist for a given project type, then no files in the project are nested. If settings exist, for example, for a web project, nesting is applied.
+* **Default**: This option gives you the default file nesting behavior in **Solution Explorer**. If no settings exist for a given project type, then no files in the project are nested. If settings exist (for example, for a web project), nesting is applied.
 
 * **Web**: This option applies the **Web** file nesting behavior to all the projects in the current solution. It has numerous rules, and we encourage you to check it out and tell us what you think. The following screenshot highlights just a few examples of the file nesting behavior that you get with this option:
 
@@ -55,7 +55,7 @@ Let’s focus on the node **dependentFileProviders** and its child nodes. Each c
 
 * **allExtensions**: Use this type of rule to nest *file.** under *file.js*
 
-* **fileToFile**: Use this type of rule to nest *bower.json* under *.bowerrc*
+* **fileToFile**: Use this type of rule to nest *bower.json* under `.bowerrc`
 
 ### The extensionToExtension provider
 
@@ -67,7 +67,7 @@ This provider lets you define file nesting rules using specific file extensions.
 
 * *cart.js* is nested under *cart.ts* because of the first **extensionToExtension** rule
 
-* *cart.js* is not nested under *cart.tsx* because **.ts** comes before **.tsx** in the rules, and there can only be one parent
+* *cart.js* is not nested under *cart.tsx* because `.ts` comes before `.tsx` in the rules, and there can only be one parent
 
 * *light.css* is nested under *light.sass* because of the second **extensionToExtension** rule
 
