@@ -1,6 +1,6 @@
 ---
-title: Customizing taggers in the editor
-description: A walkthrough of how to provide your own taggers in the Visual Studio editor using extensions
+title: Customize Taggers in the Editor
+description: This walkthrough shows you how to provide your own taggers in the Visual Studio editor by using extensions.
 ms.date: 2/5/2025
 ms.topic: conceptual
 ms.author: maprospe
@@ -10,14 +10,15 @@ manager: tinaschrepfer
 ms.subservice: extensibility-integration
 ---
 
-# Extending Visual Studio editor with a new tagger
-Extensions can contribute new taggers to Visual Studio. Taggers are used to associate data with ranges of text. The data provided by taggers are consumed by other Visual Studio features (for example, [CodeLens](./codelens.md)).
+# Extend the Visual Studio editor with a new tagger
 
-VisualStudio.Extensibility only supports tag types that are provided by the [Microsoft.VisualStudio.Extensibility](https://www.nuget.org/packages/Microsoft.VisualStudio.Extensibility) package and implement the `Microsoft.VisualStudio.Extensibility.Editor.ITag` interface:
+Extensions can contribute new taggers to Visual Studio. Taggers are used to associate data with ranges of text. Then other Visual Studio features (for example, [CodeLens](./codelens.md)) can consume the data that the taggers provided.
 
-- `CodeLensTag` can be used together with an [ICodeLensProvider](./codelens.md) to add Code Lenses to documents
-- `TextMarkerTag` can be used to highlight portions of documents. VisualStudio.Extensibility doesn't support defining new Text Marker styles yet, so only styles that are built into Visual Studio or provided by a VSSDK extension can be used for now (a [VisualStudio.Extensibility in-proc extension](../../get-started/in-proc-extensions.md) can create Text Marker styles with an `[Export(typeof(EditorFormatDefinition))]`).
-- `ClassificationTag` can be used to classify a document's syntax allowing for the text to be colorized accordingly.
+`VisualStudio.Extensibility` supports tag types that are only provided by the [Microsoft.VisualStudio.Extensibility](https://www.nuget.org/packages/Microsoft.VisualStudio.Extensibility) package and implement the [ITag](/dotnet/api/microsoft.visualstudio.extensibility.editor.itag) interface:
+
+- `CodeLensTag` is used together with an [ICodeLensProvider](./codelens.md) to add CodeLens to documents.
+- `TextMarkerTag` is used to highlight portions of documents. `VisualStudio.Extensibility` doesn't support defining new Text Marker styles yet. For now, you can use only styles that are built into Visual Studio or provided by a Visual Studio SDK extension. (A [VisualStudio.Extensibility in-proc extension](../../get-started/in-proc-extensions.md) can create Text Marker styles with `[Export(typeof(EditorFormatDefinition))]`.)
+- `ClassificationTag` is used to classify a document's syntax, which allows for the text to be colorized accordingly.
 
 To generate tags, the extension must contribute an extension part that implements `ITextViewTaggerProvider<>` for the type (or types) of tags provided. The extension part also needs to implement `ITextViewChangedListener` to react to document changes:
 
@@ -42,7 +43,7 @@ internal class MarkdownCodeLensTaggerProvider : ExtensionPart, ITextViewTaggerPr
 }
 ```
 
-The tagger provider has to keep track of the active taggers in order to dispatch the `TextViewChangedAsync` notifications to them. The following code snippet is a full implementation:
+The tagger provider must keep track of the active taggers to dispatch the `TextViewChangedAsync` notifications to them. The following code snippet is a full implementation:
 
 ```csharp
 [VisualStudioContribution]
@@ -107,7 +108,7 @@ internal class MarkdownCodeLensTaggerProvider : ExtensionPart, ITextViewTaggerPr
 }
 ```
 
-The tagger itself, is a class implementing `TextViewTagger<>`:
+The tagger itself is a class that implements `TextViewTagger<>`:
 
 ```csharp
 internal class MarkdownCodeLensTagger : TextViewTagger<CodeLensTag>
@@ -141,11 +142,11 @@ internal class MarkdownCodeLensTagger : TextViewTagger<CodeLensTag>
 }
 ```
 
-Both the `TextViewChangedAsync` and `RequestTagsAsync` methods, should call `UpdateTagsAsync` providing the ranges that tags are being updated for and the new tags themselves. The `TextViewTagger<>` base class holds a cache of previously generated tags, calling `UpdateTagsAsync` invalidates all existing tags for the provided ranges and replaces them with the newly provided ones.
+Both the `TextViewChangedAsync` and `RequestTagsAsync` methods should call `UpdateTagsAsync` to provide the ranges for which the tags are being updated and the new tags themselves. The `TextViewTagger<>` base class holds a cache of previously generated tags. Calling `UpdateTagsAsync` invalidates all existing tags for the provided ranges and replaces them with the newly provided ones.
 
-While generating tags for the entire document is a possible strategy, it is preferable to only generate tags for the requested ranges (in `RequestTagsAsync`) and the edited ranges (in `TextViewChangedAsync`). It is also common to have to extend such ranges to cover meaningful spans of the document syntax (for example, entire statements, entire lines of code, etc.).
+Although generating tags for the entire document is a possible strategy, it's preferable to generate tags only for the requested ranges (in `RequestTagsAsync`) and the edited ranges (in `TextViewChangedAsync`). It's also common to have to extend such ranges to cover meaningful spans of the document syntax (for example, entire statements or entire lines of code).
 
-Handling text view changes in particular requires some additional code. The following code snippet is an example:
+Handling text view changes in particular requires some extra code. The following code snippet is an example:
 
 ```csharp
 public async Task TextViewChangedAsync(ITextViewSnapshot textView, IReadOnlyList<TextEdit> edits, CancellationToken cancellationToken)
@@ -190,4 +191,4 @@ private async Task CreateTagsAsync(ITextDocumentSnapshot document, IEnumerable<T
 }
 ```
 
-If generating tags requires significant computation (for example, it's necessary to parse the entire document, or large portions of it, in order to generate tags), the tagger should have additional synchronization logic to avoid calculating tags for every text view change or call to `RequestTagsAsync`. Instead, `RequestTagsAsync` and `TextViewChangedAsync` should quickly return a completed task, multiple requests should be batched together, and `UpdateTagsAsync` should be called when the batched tag generation is completed. The [tagger sample extension](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/TaggersSample/README.md) contains a complete example of this approach.
+If generating tags requires significant computation (for example, it's necessary to parse the entire document, or large portions of it, to generate tags), the tagger should have extra synchronization logic to avoid calculating tags for every text view change or call to `RequestTagsAsync`. Instead, `RequestTagsAsync` and `TextViewChangedAsync` should quickly return a completed task, multiple requests should be batched together, and `UpdateTagsAsync` should be called when the batched tag generation is completed. The [tagger sample extension](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/TaggersSample/README.md) contains a complete example of this approach.
