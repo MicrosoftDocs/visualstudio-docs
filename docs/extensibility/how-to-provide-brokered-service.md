@@ -32,7 +32,7 @@ These restrictions typically include that properties and indexers are not allowe
 
 The <xref:Microsoft.ServiceHub.Framework.ServiceJsonRpcDescriptor> is the recommended derived type for brokered services.
 This class utilizes the <xref:StreamJsonRpc> library when the client and service require RPC to communicate.
-StreamJsonRpc applies certain restrictions on the service interface as [described here](https://github.com/microsoft/vs-streamjsonrpc/blob/main/doc/dynamicproxy.md).
+StreamJsonRpc applies certain restrictions on the service interface as [described here](https://microsoft.github.io/vs-streamjsonrpc/docs/dynamicproxy.html).
 
 The interface *may* derive from <xref:System.IDisposable>, <xref:System.IAsyncDisposable?displayProperty=fullName>, or even <xref:Microsoft.VisualStudio.Threading.IAsyncDisposable?displayProperty=fullName> but this is not required by the system.
 The generated client proxies will implement <xref:System.IDisposable> either way.
@@ -203,7 +203,7 @@ Take care that all updates posted via <xref:System.IObserver%601.OnNext%2A> reta
 All subscriptions should ultimately be terminated with either a call to <xref:System.IObserver%601.OnCompleted%2A> or <xref:System.IObserver%601.OnError%2A> to avoid resource leaks on the client and RPC systems.
 This includes on service disposal where all remaining subscriptions should be explicitly completed.
 
-Learn more about [the observer design pattern](/dotnet/standard/events/observer-design-pattern), [how to implement an observable data provider](/dotnet/standard/events/how-to-implement-a-provider) and particularly [with RPC in mind](https://github.com/microsoft/vs-streamjsonrpc/blob/main/doc/observer.md).
+Learn more about [the observer design pattern](/dotnet/standard/events/observer-design-pattern), [how to implement an observable data provider](/dotnet/standard/events/how-to-implement-a-provider) and particularly [with RPC in mind](https://microsoft.github.io/vs-streamjsonrpc/exotic_types/observer.html).
 
 ### Disposable services
 
@@ -273,7 +273,7 @@ internal class Calculator : ICalculator
 ```
 
 Your brokered service should be written to follow thread-safe practices.
-When using the recommended <xref:Microsoft.ServiceHub.Framework.ServiceJsonRpcDescriptor>, remote connections with clients may include concurrent execution of your service's methods as described in [this document](https://github.com/microsoft/vs-streamjsonrpc/blob/main/doc/resiliency.md).
+When using the recommended <xref:Microsoft.ServiceHub.Framework.ServiceJsonRpcDescriptor>, remote connections with clients may include concurrent execution of your service's methods as described in [this document](https://microsoft.github.io/vs-streamjsonrpc/docs/resiliency.html).
 When the client shares a process and AppDomain with the service, the client might call your service concurrently from multiple threads.
 A thread-safe implementation of the above example might use <xref:System.Threading.Interlocked.Increment(System.Int32@)?displayProperty=nameWithType> to increment the `operationCounter` field.
 
@@ -387,7 +387,7 @@ As not all combinations are valid, we recommend either of these combinations:
 <xref:Microsoft.ServiceHub.Framework.ServiceJsonRpcDescriptor.Formatters.MessagePack> | <xref:Microsoft.ServiceHub.Framework.ServiceJsonRpcDescriptor.MessageDelimiters.BigEndianInt32LengthHeader> | High performance
 <xref:Microsoft.ServiceHub.Framework.ServiceJsonRpcDescriptor.Formatters.UTF8> (JSON) | <xref:Microsoft.ServiceHub.Framework.ServiceJsonRpcDescriptor.MessageDelimiters.HttpLikeHeaders> | Interop with other JSON-RPC systems
 
-By specifying the `MultiplexingStream.Options` object as the final parameter, the RPC connection shared between client and service is just one channel on a [MultiplexingStream](https://dotnet.github.io/Nerdbank.Streams/docs/MultiplexingStream.html), which is shared with the JSON-RPC connection to [enable efficient transfer of large binary data over JSON-RPC](https://github.com/microsoft/vs-streamjsonrpc/blob/main/doc/oob_streams.md).
+By specifying the `MultiplexingStream.Options` object as the final parameter, the RPC connection shared between client and service is just one channel on a [MultiplexingStream](https://dotnet.github.io/Nerdbank.Streams/docs/MultiplexingStream.html), which is shared with the JSON-RPC connection to [enable efficient transfer of large binary data over JSON-RPC](https://microsoft.github.io/vs-streamjsonrpc/exotic_types/oob_streams.html).
 
 The <xref:StreamJsonRpc.ExceptionProcessing.ISerializable?displayProperty=nameWithType> strategy causes exceptions thrown from your service to be serialized and preserved as the <xref:System.Exception.InnerException?displayProperty=nameWithType> to the <xref:StreamJsonRpc.RemoteInvocationException> thrown on the client.
 Without this setting, less detailed exception information is available on the client.
