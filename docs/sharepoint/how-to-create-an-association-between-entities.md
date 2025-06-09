@@ -9,10 +9,10 @@ dev_langs:
   - "VB"
   - "CSharp"
 helpviewer_keywords:
-  - "BDC [SharePoint development in Visual Studio], create an assocation"
+  - "BDC [SharePoint development in Visual Studio], create an association"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], associations between entities"
   - "BDC [SharePoint development in Visual Studio], associations between entities"
-  - "Business Data Connectivity service [SharePoint development in Visual Studio], create an assocation"
+  - "Business Data Connectivity service [SharePoint development in Visual Studio], create an association"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], associate external content types"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], relate entities"
   - "BDC [SharePoint development in Visual Studio], relate entities"
