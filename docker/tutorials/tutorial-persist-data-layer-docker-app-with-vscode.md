@@ -193,7 +193,7 @@ To run your container to support a development workflow, you'll take the followi
 1. In the `app` folder, run the following command.
 
    ```bash
-   docker run -dp 3000:3000 -w /app -v ${PWD}:/app node:20-alpine sh -c "yarn install && yarn run dev"
+   docker run -dp 3000:3000 -w /app -v ${PWD}:/app node:lts-alpine sh -c "yarn install && yarn run dev"
    ```
 
    This command contains the following parameters.
@@ -201,7 +201,7 @@ To run your container to support a development workflow, you'll take the followi
    - `-dp 3000:3000` Same as before. Run in detached mode and create a port mapping.
    - `-w /app` Working directory inside the container.
    - `-v ${PWD}:/app"` Bind mount the current directory from the host in the container into the `/app` directory.
-   - `node:20-alpine` The image to use. This image is the base image for your app from the *Dockerfile*.
+   - `node:lts-alpine` The image to use. This image is the base image for your app from the *Dockerfile*.
    - `sh -c "yarn install && yarn run dev"` A command. It starts a shell using `sh` and runs `yarn install` to install all dependencies. Then it runs `yarn run dev`. If you look in the `package.json`, the `dev` script is starting `nodemon`.
 
 1. You can watch the logs using `docker logs`.
@@ -237,6 +237,14 @@ To run your container to support a development workflow, you'll take the followi
 1. Refresh your browser. You should see the change.
 
    ![Screenshot shows the sample app with the new text on the button.](media/updated-add-button.png)
+
+1. Remove the `node:lts-alpine` container.
+
+1. In the `app` folder, run the following command to remove the `node_modules` folder created in the previous steps.
+
+   ```bash
+   rm -r node_modules
+   ```
 
 ## View image layers
 
@@ -284,7 +292,7 @@ Once a layer changes, all downstream layers have to be recreated as well.
 Here's the *Dockerfile* again:
 
 ```dockerfile
-FROM node:20-alpine
+FROM node:lts-alpine
 WORKDIR /app
 COPY . .
 RUN yarn install --production
@@ -302,7 +310,7 @@ The process only recreates the yarn dependencies if there was a change to the `p
    Here's the new file:
 
    ```dockerfile
-   FROM node:20-alpine
+   FROM node:lts-alpine
    WORKDIR /app
    COPY package.json yarn.lock ./
    RUN yarn install --production
@@ -320,7 +328,7 @@ The process only recreates the yarn dependencies if there was a change to the `p
 
    ```output
    Sending build context to Docker daemon  219.1kB
-   Step 1/6 : FROM node:12-alpine
+   Step 1/6 : FROM node:lts-alpine
    ---> b0dc3a5e5e9e
    Step 2/6 : WORKDIR /app
    ---> Using cache
@@ -359,7 +367,7 @@ The process only recreates the yarn dependencies if there was a change to the `p
 
    ```plaintext hl_lines="5 8 11"
    Sending build context to Docker daemon  219.1kB
-   Step 1/6 : FROM node:12-alpine
+   Step 1/6 : FROM node:lts-alpine
    ---> b0dc3a5e5e9e
    Step 2/6 : WORKDIR /app
    ---> Using cache
@@ -418,7 +426,7 @@ The final image is only the last stage being created, which can be overridden us
 When building React applications, you need a Node environment to compile the JavaScript code, Sass stylesheets, and more into static HTML, JavaScript, and CSS. If you aren't doing server-side rendering, you don't even need a Node environment for the production build.
 
 ```dockerfile
-FROM node:20-alpine AS build
+FROM node:lts-alpine AS build
 WORKDIR /app
 COPY package* yarn.lock ./
 RUN yarn install
@@ -430,7 +438,7 @@ FROM nginx:alpine
 COPY --from=build /app/build /usr/share/nginx/html
 ```
 
-This example uses a `node:20` image to perform the build, which maximizes layer caching, and then copies the output into an *nginx* container.
+This example uses a `node:lts-alpine` image to perform the build, which maximizes layer caching, and then copies the output into an *nginx* container.
 
 ## Clean up resources
 
