@@ -162,7 +162,7 @@ void CMainFrame::OnViewCustomize()
 	//------------------------------------
 	// <snippet1>
 	CMFCToolBarsCustomizeDialog* pDlgCust = new CMFCToolBarsCustomizeDialog (this,
-		TRUE /* Automatic menus scaning */);
+		TRUE /* Automatic menus scanning */);
 
 	CSliderButton btnSlider (ID_SLIDER);
 	btnSlider.SetRange (0, 100);

@@ -309,7 +309,7 @@ void CMainFrame::Dump(CDumpContext& dc) const
 void CMainFrame::OnViewCustomize()
 {
 	// Create a customize toolbars dialog:
-	CMFCToolBarsCustomizeDialog* pDlgCust = new CMFCToolBarsCustomizeDialog(this, TRUE /* Automatic menus scaning */);
+	CMFCToolBarsCustomizeDialog* pDlgCust = new CMFCToolBarsCustomizeDialog(this, TRUE /* Automatic menus scanning */);
 
 	pDlgCust->EnableUserDefinedToolbars();
 	pDlgCust->Create();
