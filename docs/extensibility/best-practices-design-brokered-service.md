@@ -13,7 +13,7 @@ ms.subservice: extensibility-integration
 ---
 # Best practices for designing a brokered service
 
-Follow the general [guidance and restrictions documented for RPC interfaces](https://github.com/microsoft/vs-streamjsonrpc/blob/main/doc/dynamicproxy.md) for StreamJsonRpc.
+Follow the general [guidance and restrictions documented for RPC interfaces](https://microsoft.github.io/vs-streamjsonrpc/docs/dynamicproxy.html) for StreamJsonRpc.
 
 In addition, the following guidelines apply to brokered services.
 
@@ -33,7 +33,7 @@ As we want to minimize the number of first chance exceptions thrown in success p
 Remember that all arguments and return values exchanged over RPC are *just data*.
 They are all serialized and sent over the wire.
 Any methods you define on these data types only operate on that local copy of the data and have no way to communicate back to the RPC service that produced it.
-The only exceptions to this serialization behavior are the [exotic types](https://github.com/microsoft/vs-streamjsonrpc/blob/main/doc/exotic_types.md) for which StreamJsonRpc has special support.
+The only exceptions to this serialization behavior are the [exotic types](https://microsoft.github.io/vs-streamjsonrpc/exotic_types/index.html) for which StreamJsonRpc has special support.
 
 Consider using [`ValueTask<T>`](xref:System.Threading.Tasks.ValueTask%601) over [`Task<T>`](xref:System.Threading.Tasks.Task%601) as the return type of methods since [`ValueTask<T>`](xref:System.Threading.Tasks.ValueTask%601) incurs fewer allocations.
 When using the non-generic variety (for example, <xref:System.Threading.Tasks.Task> and <xref:System.Threading.Tasks.ValueTask>) it's less important, but <xref:System.Threading.Tasks.ValueTask> may still be preferable.
@@ -61,7 +61,7 @@ Use <xref:System.Collections.Generic.IReadOnlyCollection%601> for unordered coll
 Consider <xref:System.Collections.Generic.IAsyncEnumerable%601>.
 Any other collection type or <xref:System.Collections.Generic.IEnumerable%601> will result in the entire collection being sent in one message.
 Using <xref:System.Collections.Generic.IAsyncEnumerable%601> allows for a small initial message and provides the receiver the means to get just as many items from the collection as they want, enumerating it asynchronously.
-[Learn more about this novel pattern](https://github.com/microsoft/vs-streamjsonrpc/blob/main/doc/asyncenumerable.md).
+[Learn more about this novel pattern](https://microsoft.github.io/vs-streamjsonrpc/exotic_types/asyncenumerable.html).
 
 ## Observer pattern
 
@@ -74,7 +74,7 @@ The observer pattern may be as simple as this:
 Task<IDisposable> SubscribeAsync(IObserver<YourDataType> observer);
 ```
 
-The <xref:System.IDisposable> and <xref:System.IObserver%601> types used above are two of the [exotic types](https://github.com/microsoft/vs-streamjsonrpc/blob/main/doc/exotic_types.md) in StreamJsonRpc, so they get specially marshaled behavior rather than being serialized as mere data.
+The <xref:System.IDisposable> and <xref:System.IObserver%601> types used above are two of the [exotic types](https://microsoft.github.io/vs-streamjsonrpc/exotic_types/index.html) in StreamJsonRpc, so they get specially marshaled behavior rather than being serialized as mere data.
 
 ## Events
 
