@@ -32,7 +32,7 @@ In version 15.6 and later, MSBuild searches parent directories of the project fo
 You can use the syntax `%MSBuildThisFileDirectory%` in a *Directory.Build.rsp* file, to refer to the directory that contains the *Directory.Build.rsp* file. This syntax requires percent signs on all operating systems, like [Environment.ExpandEnvironmentVariables](/dotnet/api/system.environment.expandenvironmentvariables), even though `MSBuildThisFileDirectory` isn't an environment variable.
 
 > [!NOTE]
-> Visual Studio (the IDE) **does not apply** `.rsp` response files—such as `MSBuild.rsp` or `Directory.Build.rsp`—when building within the IDE. These files are only processed when you run MSBuild via the **`msbuild.exe`** or **`dotnet build`** command‑line tools :contentReference[oaicite:2]{index=2}.
+> Visual Studio (the IDE) **does not apply** `.rsp` response files—such as `MSBuild.rsp` or `Directory.Build.rsp`—when building within the IDE. These files are only processed when you run MSBuild via the **`msbuild.exe`** or **`dotnet build`** command‑line tools.
 
 
 ## Disabling response files
