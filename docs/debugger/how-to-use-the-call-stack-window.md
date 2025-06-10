@@ -90,9 +90,11 @@ Non-user code is any code that is not shown when [Just My Code](../debugger/just
   ::: moniker range=">=vs-2022"
 
 ## View all related threads
-Toggle the **View all threads** button to see all the related threads in the [Parallel Stack window](../debugger/using-the-parallel-stacks-window.md). 
 
-## Call Stack Search 
+Toggle the **View all threads** button to see all the related threads in the [Parallel Stack window](../debugger/using-the-parallel-stacks-window.md). The Parallel Stacks window provides visualizations of the call stacks for multithreaded apps.
+
+## Call Stack Search
+
 You can search for relevant call stack frames by typing relevant search terms in the search box located in the top left corner of the call stack window. The pertinent call stack frames will get highlighted. 
 
   ::: moniker-end
