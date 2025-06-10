@@ -6,7 +6,7 @@ keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
-ms.date: 02/11/2025
+ms.date: 05/13/2025
 
 ms.subservice: installation
 ms.topic: include
@@ -21,7 +21,7 @@ ms.topic: include
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
-Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 17.13.35710.127 | Required
+Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 17.14.36015.10 | Required
 
 ## Unaffiliated components
 
@@ -29,4 +29,4 @@ These are components that are not included with any workload, but may be selecte
 
 Component ID | Name | Version
 --- | --- | ---
-n/a | n/a | n/a
+Microsoft.VisualStudio.Component.TeamExplorer.MinGit | Version Control - Git | 17.14.36015.10
