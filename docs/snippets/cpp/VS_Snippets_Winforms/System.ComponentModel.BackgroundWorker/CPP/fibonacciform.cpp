@@ -35,7 +35,7 @@ public:
    {
       InitializeComponent();
       numberToCompute = highestPercentageReached = 0;
-      InitializeBackgoundWorker();
+      InitializeBackgroundWorker();
    }
 
 
@@ -43,7 +43,7 @@ private:
 
    // Set up the BackgroundWorker object by 
    // attaching event handlers. 
-   void InitializeBackgoundWorker()
+   void InitializeBackgroundWorker()
    {
       backgroundWorker1->DoWork += gcnew DoWorkEventHandler( this, &FibonacciForm::backgroundWorker1_DoWork );
       backgroundWorker1->RunWorkerCompleted += gcnew RunWorkerCompletedEventHandler( this, &FibonacciForm::backgroundWorker1_RunWorkerCompleted );

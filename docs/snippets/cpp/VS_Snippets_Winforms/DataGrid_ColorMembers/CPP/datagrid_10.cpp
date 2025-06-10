@@ -452,7 +452,7 @@ namespace DataGridSample
       {
          // <Snippet2>
          // String variable used to show message.
-         String^ myString = "Selection backgound color changed from: ";
+         String^ myString = "Selection background color changed from: ";
 
          // Store current foreground color of selected cells.
          Color myCurrentColor = myDataGrid->SelectionBackColor;
@@ -579,7 +579,7 @@ namespace DataGridSample
       {
          // <Snippet7>
          // String variable used to show message.   
-         String^ myString = "Backgound color changed from: ";
+         String^ myString = "Background color changed from: ";
 
          // Store current foreground color of selected cells.
          Color myCurrentColor = myDataGrid->BackColor;
