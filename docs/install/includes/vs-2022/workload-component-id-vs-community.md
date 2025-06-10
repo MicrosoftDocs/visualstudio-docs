@@ -98,7 +98,7 @@ Microsoft.Net.ComponentGroup.4.6.2-4.7.1.DeveloperTools | .NET Framework 4.6.2-4
 Microsoft.Net.ComponentGroup.4.8.1.DeveloperTools | .NET Framework 4.8.1 development tools | 17.14.36015.10 | Optional
 Microsoft.VisualStudio.Component.AspNet | .NET Framework project and item templates | 17.14.36015.10 | Optional
 Microsoft.VisualStudio.Component.AspNet45 | Advanced ASP.NET features | 17.14.36015.10 | Optional
-Microsoft.VisualStudio.Component.Azure.Powershell | Azure Powershell | 17.14.36015.10 | Optional
+Microsoft.VisualStudio.Component.Azure.Powershell | Azure PowerShell | 17.14.36015.10 | Optional
 Microsoft.VisualStudio.Component.Wcf.Tooling | Windows Communication Foundation | 17.14.36015.10 | Optional
 
 ## Data storage and processing
@@ -967,7 +967,7 @@ Microsoft.VisualStudio.Component.VC.14.34.17.4.ATL.ARM | C++ v14.34 (17.4) ATL f
 Microsoft.VisualStudio.Component.VC.14.34.17.4.ATL.ARM.Spectre | C++ v14.34 (17.4) ATL for v143 build tools with Spectre Mitigations (ARM)(Out of Support) | 17.14.36015.10
 Microsoft.VisualStudio.Component.VC.14.34.17.4.ATL.ARM64 | C++ v14.34 (17.4) ATL for v143 build tools (ARM64)(Out of Support) | 17.14.36015.10
 Microsoft.VisualStudio.Component.VC.14.34.17.4.ATL.ARM64.Spectre | C++ v14.34 (17.4) ATL for v143 build tools with Spectre Mitigations (ARM64)(Out of Support) | 17.14.36015.10
-Microsoft.VisualStudio.Component.VC.14.34.17.4.ATL.Spectre | C++ v14.34 (17.4) ATL for v143 build tools with Spectre Mitigations (x86 & x64)(Our of Support) | 17.14.36015.10
+Microsoft.VisualStudio.Component.VC.14.34.17.4.ATL.Spectre | C++ v14.34 (17.4) ATL for v143 build tools with Spectre Mitigations (x86 & x64)(Out of Support) | 17.14.36015.10
 Microsoft.VisualStudio.Component.VC.14.34.17.4.CLI.Support | C++/CLI support for v143 build tools (14.34-17.4)(Out of Support) | 17.14.36015.10
 Microsoft.VisualStudio.Component.VC.14.34.17.4.MFC | C++ v14.34 (17.4) MFC for v143 build tools (x86 & x64)(Out of Support) | 17.14.36015.10
 Microsoft.VisualStudio.Component.VC.14.34.17.4.MFC.ARM | C++ v14.34 (17.4) MFC for v143 build tools (ARM)(Out of Support) | 17.14.36015.10

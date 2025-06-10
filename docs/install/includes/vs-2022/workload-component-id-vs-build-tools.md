@@ -487,7 +487,7 @@ Microsoft.VisualStudio.Component.VC.14.34.17.4.ATL.ARM | C++ v14.34 (17.4) ATL f
 Microsoft.VisualStudio.Component.VC.14.34.17.4.ATL.ARM.Spectre | C++ v14.34 (17.4) ATL for v143 build tools with Spectre Mitigations (ARM)(Out of Support) | 17.14.36015.10
 Microsoft.VisualStudio.Component.VC.14.34.17.4.ATL.ARM64 | C++ v14.34 (17.4) ATL for v143 build tools (ARM64)(Out of Support) | 17.14.36015.10
 Microsoft.VisualStudio.Component.VC.14.34.17.4.ATL.ARM64.Spectre | C++ v14.34 (17.4) ATL for v143 build tools with Spectre Mitigations (ARM64)(Out of Support) | 17.14.36015.10
-Microsoft.VisualStudio.Component.VC.14.34.17.4.ATL.Spectre | C++ v14.34 (17.4) ATL for v143 build tools with Spectre Mitigations (x86 & x64)(Our of Support) | 17.14.36015.10
+Microsoft.VisualStudio.Component.VC.14.34.17.4.ATL.Spectre | C++ v14.34 (17.4) ATL for v143 build tools with Spectre Mitigations (x86 & x64)(Out of Support) | 17.14.36015.10
 Microsoft.VisualStudio.Component.VC.14.34.17.4.CLI.Support | C++/CLI support for v143 build tools (14.34-17.4)(Out of Support) | 17.14.36015.10
 Microsoft.VisualStudio.Component.VC.14.34.17.4.MFC | C++ v14.34 (17.4) MFC for v143 build tools (x86 & x64)(Out of Support) | 17.14.36015.10
 Microsoft.VisualStudio.Component.VC.14.34.17.4.MFC.ARM | C++ v14.34 (17.4) MFC for v143 build tools (ARM)(Out of Support) | 17.14.36015.10
