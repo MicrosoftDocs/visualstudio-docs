@@ -40,7 +40,7 @@ namespace Company.UIUserSettingsToolsOptionsPages
     // attribute specifies the registry root to use if no one is provided to regpkg.exe with
     // the /root switch.
     [DefaultRegistryRoot("Software\\Microsoft\\VisualStudio\\9.0")]
-    // This attribute is used to register the informations needed to show the this package
+    // This attribute is used to register the information needed to show the this package
     // in the Help/About dialog of Visual Studio.
     [InstalledProductRegistration(false, "#110", "#112", "1.0", IconResourceID = 400)]
     // In order be loaded inside Visual Studio in a machine that has not the VS SDK installed, 
