@@ -1,7 +1,7 @@
 ---
 title: "Navigate code with the debugger"
 description: "Learn how to use the Visual Studio debugger to troubleshoot your code. Topics include entering break mode, stepping through code, and running to a target."
-ms.date: 06/27/2024
+ms.date: 06/09/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.execution
@@ -191,9 +191,6 @@ To run to the cursor location, in source code or the **Call Stack** window, sele
 While the debugger is paused, you can hover over a statement in source code or the **Disassembly** window and select the **Run execution to here** green arrow. Using **Run to Click** is similar to setting a [temporary breakpoint](../debugger/using-breakpoints.md#BKMK_set_a_temporary_breakpoint).
 
 ![Screenshot that shows Run to Click and the green arrow.](../debugger/media/dbg-run-to-click.png)
-
-> [!NOTE]
-> **Run to Click** is available starting in Visual Studio 2017.
 
 ::: moniker range=">= vs-2022"
 ### Force run to click 
