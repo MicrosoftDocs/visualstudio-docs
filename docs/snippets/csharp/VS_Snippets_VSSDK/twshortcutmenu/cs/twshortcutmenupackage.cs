@@ -67,7 +67,7 @@ namespace Microsoft.TWShortcutMenu
 
 
         /////////////////////////////////////////////////////////////////////////////
-        // Overriden Package Implementation
+        // Overridden Package Implementation
         #region Package Members
 
         /// <summary>

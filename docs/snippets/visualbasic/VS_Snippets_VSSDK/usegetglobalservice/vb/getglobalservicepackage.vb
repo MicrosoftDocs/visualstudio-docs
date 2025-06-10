@@ -56,7 +56,7 @@ Inherits Package
 
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-' Overriden Package Implementation
+' Overridden Package Implementation
 #Region "Package Members"
 
 ''' <summary>

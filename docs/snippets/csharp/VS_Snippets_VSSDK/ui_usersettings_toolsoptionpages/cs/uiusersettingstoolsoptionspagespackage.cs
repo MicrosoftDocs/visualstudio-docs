@@ -73,7 +73,7 @@ namespace Company.UIUserSettingsToolsOptionsPages
 
 
         /////////////////////////////////////////////////////////////////////////////
-        // Overriden Package Implementation
+        // Overridden Package Implementation
         #region Package Members
 
         /// <summary>
