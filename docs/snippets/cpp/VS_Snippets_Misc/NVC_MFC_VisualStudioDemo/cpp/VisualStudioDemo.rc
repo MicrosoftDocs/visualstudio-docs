@@ -1393,7 +1393,7 @@ END
 STRINGTABLE 
 BEGIN
     ID_OUTPUT_GOTO_ERROR    "Moves to the line containing current error or tag\nGo to Error"
-    ID_CLASS_DEFINITION     "Displayes the definition of the selected item\nDefinition"
+    ID_CLASS_DEFINITION     "Displays the definition of the selected item\nDefinition"
     ID_CLASS_ADD_MEMEBER_FUNCTION 
                             "Add a member function to the selected class\nAdd Member Function"
     ID_CLASS_ADD_MEMEBER_VARIABLE 
