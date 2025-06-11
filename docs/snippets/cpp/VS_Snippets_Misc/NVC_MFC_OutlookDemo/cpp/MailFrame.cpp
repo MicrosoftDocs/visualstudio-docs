@@ -154,7 +154,7 @@ void CMailFrame::OnActivate(UINT nState, CWnd* pWndOther, BOOL bMinimized)
 void CMailFrame::OnViewCustomize()
 {
 	// Create a customize toolbars dialog:
-	CMFCToolBarsCustomizeDialog* pDlgCust = new CMFCToolBarsCustomizeDialog(this, TRUE /* Automatic menus scaning */);
+	CMFCToolBarsCustomizeDialog* pDlgCust = new CMFCToolBarsCustomizeDialog(this, TRUE /* Automatic menus scanning */);
 	pDlgCust->Create();
 }
 

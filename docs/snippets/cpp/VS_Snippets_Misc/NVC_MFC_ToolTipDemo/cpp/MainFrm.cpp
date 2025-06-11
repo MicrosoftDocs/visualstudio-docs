@@ -198,7 +198,7 @@ void CMainFrame::OnViewCustomize()
 	// Create a customize toolbars dialog:
 	//------------------------------------
 	CMFCToolBarsCustomizeDialog* pDlgCust = new CMFCToolBarsCustomizeDialog (this,
-		TRUE /* Automatic menus scaning */
+		TRUE /* Automatic menus scanning */
 		);
 
 	pDlgCust->EnableUserDefinedToolbars ();
