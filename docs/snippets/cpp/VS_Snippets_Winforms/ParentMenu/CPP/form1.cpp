@@ -64,7 +64,7 @@ private:
 public:
    void CreateMyMenuItems()
    {
-      // Craete a main menu object.
+      // Create a main menu object.
       MainMenu^ mainMenu1 = gcnew MainMenu;
 
       // Create three top-level menu items.
