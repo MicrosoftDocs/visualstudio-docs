@@ -3,9 +3,9 @@ title: Create your first extension reference
 description: A quickstart for creating your first out-of-process extension
 ms.topic: quickstart
 ms.date: 3/31/2023
-ms.author: maiak
+ms.author: tinali
 monikerRange: ">=vs-2022"
-author: maiak
+author: tinaschrepfer
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

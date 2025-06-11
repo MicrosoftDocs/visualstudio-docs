@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control plug-ins, what's new in API v1.3
 - what's new [Visual Studio SDK], source control plug-ins
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

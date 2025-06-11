@@ -7,8 +7,8 @@ helpviewer_keywords:
 - getting started, Debugging SDK
 - debugging [Debugging SDK], getting started
 - Debugging SDK, getting started
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

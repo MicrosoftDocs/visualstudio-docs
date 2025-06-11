@@ -7,8 +7,8 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], implementation considerations
 - project models
 - projects [Visual Studio SDK], elements
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

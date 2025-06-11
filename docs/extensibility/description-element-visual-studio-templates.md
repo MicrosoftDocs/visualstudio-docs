@@ -6,8 +6,8 @@ ms.subservice: general-ide
 ms.topic: reference
 helpviewer_keywords:
 - Description element [Visual Studio project templates]
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ---
 # Description element (Visual Studio templates)

@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - managed VSPackages, file location
 - VSPackages, managed package file location
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

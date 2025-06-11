@@ -7,8 +7,8 @@ f1_keywords:
 - SccAddFilesFromSCC
 helpviewer_keywords:
 - SccAddFilesFromSCC function
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -7,8 +7,8 @@ helpviewer_keywords:
 - interfaces, symbol handler
 - symbol handler, interfaces
 - symbol handler, evaluating variables
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

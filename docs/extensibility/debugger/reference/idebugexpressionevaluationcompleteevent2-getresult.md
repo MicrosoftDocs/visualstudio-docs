@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugExpressionEvaluationCompleteEvent2::GetResult
 helpviewer_keywords:
 - IDebugExpressionEvaluationCompleteEvent2::GetResult
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

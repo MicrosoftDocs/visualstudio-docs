@@ -10,8 +10,8 @@ helpviewer_keywords:
 - command groups
 - commands [Visual Studio], default IDE
 - commands [Visual Studio], default product
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -3,9 +3,9 @@ title: Dialogs Reference
 description: A reference for extensibility dialogs.
 ms.topic: overview
 ms.date: 3/31/2023
-ms.author: maiak
+ms.author: tinali
 monikerRange: ">=vs-2022"
-author: maiak
+author: tinaschrepfer
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -8,8 +8,8 @@ f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#CreateNewFolder
 helpviewer_keywords:
 - CreateNewFolder element [Visual Studio project templates]
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ---
 # CreateNewFolder element (Visual Studio templates)

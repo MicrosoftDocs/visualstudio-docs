@@ -4,8 +4,8 @@ description: Learn about the TargetPlatformName element and how it specifies the
 ms.date: 11/04/2016
 ms.subservice: general-ide
 ms.topic: reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ---
 # TargetPlatformName Element (Visual Studio Templates)

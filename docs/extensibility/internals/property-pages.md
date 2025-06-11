@@ -7,8 +7,8 @@ helpviewer_keywords:
 - configuration options, changing properties
 - property pages
 - property pages, changing configuration options
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

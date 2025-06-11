@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "localize vsix"
   - "localize package"
   - "localize extension"
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

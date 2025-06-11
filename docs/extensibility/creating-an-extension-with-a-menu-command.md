@@ -8,8 +8,8 @@ helpviewer_keywords:
 - vspackage
 - tutorials
 - visual studio package
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugPropertyCreateEvent2
 helpviewer_keywords:
 - IDebugPropertyCreateEvent2 interface
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

@@ -3,8 +3,8 @@ title: .NET Compiler Platform (&quot;Roslyn&quot;) Extensibility
 description: Learn about the .NET Compiler Platform, which allows tools and developers to share in the rich information compilers have about programs.
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

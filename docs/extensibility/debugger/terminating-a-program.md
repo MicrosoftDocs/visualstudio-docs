@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - programs, termination events
 - debugging [Debugging SDK], terminating a program
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

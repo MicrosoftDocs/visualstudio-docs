@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugBinder
 helpviewer_keywords:
 - IDebugBinder interface
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugExpressionContext2::GetName
 helpviewer_keywords:
 - IDebugExpressionContext2::GetName
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

@@ -5,8 +5,8 @@ ms.date: "08/21/2017"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "deployment, VSIX"
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 ---
 # Locate Visual Studio
 

@@ -7,8 +7,8 @@ helpviewer_keywords:
 - project types, supporting Open With command
 - Open With command
 - persistence, supporting Open With command
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

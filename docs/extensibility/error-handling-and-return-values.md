@@ -7,8 +7,8 @@ helpviewer_keywords:
 - errors [Visual Studio SDK], handling
 - error handling
 - return values
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

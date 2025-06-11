@@ -7,8 +7,8 @@ helpviewer_keywords:
 - debugging [Visual Studio], components
 - components [Visual Studio SDK], debugging
 - debugging [Debugging SDK], components
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

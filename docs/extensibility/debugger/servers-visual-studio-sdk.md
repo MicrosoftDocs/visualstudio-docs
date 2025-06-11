@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - servers, debugging
 - debugging [Debugging SDK], servers
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

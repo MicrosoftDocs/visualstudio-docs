@@ -7,8 +7,8 @@ helpviewer_keywords:
 - MRU lists
 - menus, creating MRU list
 - most recently used
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

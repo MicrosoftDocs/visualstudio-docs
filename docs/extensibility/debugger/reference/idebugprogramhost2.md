@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugProgramHost2
 helpviewer_keywords:
 - IDebugProgramHost2 interface
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

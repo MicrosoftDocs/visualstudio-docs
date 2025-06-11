@@ -7,8 +7,8 @@ f1_keywords:
 - IEnumDebugFrameInfo2::GetCount
 helpviewer_keywords:
 - IEnumDebugFrameInfo2::GetCount
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

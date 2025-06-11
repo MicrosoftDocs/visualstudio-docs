@@ -7,8 +7,8 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], creating with MPF
 - MPF projects
 - managed package framework, creating projects
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

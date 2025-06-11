@@ -7,8 +7,8 @@ helpviewer_keywords:
 - expression evaluators, tutorial
 - expression evaluation, samples
 - debugging [Debugging SDK], expression evaluators tutorial
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

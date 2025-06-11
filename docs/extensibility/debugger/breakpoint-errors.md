@@ -7,8 +7,8 @@ helpviewer_keywords:
 - breakpoints, errors
 - debugging [Debugging SDK], breakpoint errors
 - errors [Debugging SDK]
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

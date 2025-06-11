@@ -13,7 +13,7 @@ helpviewer_keywords:
 - packages
 - dotnet
 author: javierdlg
-ms.author: maiak
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ms.date: 04/11/2024

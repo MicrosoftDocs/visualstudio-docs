@@ -3,9 +3,9 @@ title: Tool Windows overview
 description: An overview of extensibility tool windows
 ms.topic: overview
 ms.date: 3/31/2023
-ms.author: maiak
+ms.author: tinali
 monikerRange: ">=vs-2022"
-author: maiak
+author: tinaschrepfer
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

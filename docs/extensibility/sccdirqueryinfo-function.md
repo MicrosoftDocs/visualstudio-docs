@@ -7,8 +7,8 @@ f1_keywords:
 - SccDirQueryInfo
 helpviewer_keywords:
 - SccDirQueryInfo function
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugReturnValueEvent2::GetReturnValue
 helpviewer_keywords:
 - IDebugReturnValueEvent2::GetReturnValue
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

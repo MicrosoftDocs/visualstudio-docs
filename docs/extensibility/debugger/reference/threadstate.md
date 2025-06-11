@@ -7,8 +7,8 @@ f1_keywords:
 - THREADSTATE
 helpviewer_keywords:
 - THREADSTATE enumeration
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

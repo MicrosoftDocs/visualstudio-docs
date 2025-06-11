@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugCustomAttributeQuery2::IsCustomAttributeDefined
 helpviewer_keywords:
 - IDebugCustomAttributeQuery2::IsCustomAttributeDefined
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

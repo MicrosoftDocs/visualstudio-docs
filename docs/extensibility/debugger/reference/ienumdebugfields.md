@@ -7,8 +7,8 @@ f1_keywords:
 - IEnumDebugFields
 helpviewer_keywords:
 - IEnumDebugFields interface
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

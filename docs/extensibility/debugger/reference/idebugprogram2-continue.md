@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugProgram2::Continue
 helpviewer_keywords:
 - IDebugProgram2::Continue
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

@@ -11,8 +11,8 @@ helpviewer_keywords:
 - constants, Visual Studio IDE
 - IDE, constants
 - physical views
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

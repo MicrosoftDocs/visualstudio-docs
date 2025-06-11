@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugBinder3::GetTypeArguments
 helpviewer_keywords:
 - IDebugBinder3::GetTypeArguments method
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

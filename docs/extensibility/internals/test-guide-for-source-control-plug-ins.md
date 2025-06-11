@@ -9,8 +9,8 @@ helpviewer_keywords:
 - tests, source control plug-ins
 - testing, source control plug-ins
 - source control plug-ins, test guide
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

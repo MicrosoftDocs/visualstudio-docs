@@ -13,8 +13,8 @@ helpviewer_keywords:
 - registry, Visual Studio SDK
 - command line, switches
 - Visual Studio SDK, command-line switches
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
