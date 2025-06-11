@@ -6,7 +6,7 @@ This is the full default StickyNote Style definition.
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:sys="clr-namespace:System;assembly=mscorlib"
     >
-  <!-- Define default hight and width. -->
+  <!-- Define default height and width. -->
   <sys:Double x:Key="StickyNoteDefaultIconWidth">40.0</sys:Double>
   <sys:Double x:Key="ResourceId=StickyNoteDefaultIconHeight">30.0</sys:Double>
   <!-- 
