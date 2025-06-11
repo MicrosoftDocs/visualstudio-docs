@@ -53,7 +53,7 @@ End Sub
 
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-' Overriden Package Implementation
+' Overridden Package Implementation
 #Region "Package Members"
 
     'Private Property dte As OLE.Interop.IServiceProvider

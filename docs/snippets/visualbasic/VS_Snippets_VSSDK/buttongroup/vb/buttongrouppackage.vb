@@ -44,7 +44,7 @@ Namespace Microsoft.Create_HandleCommands
 
 
 		'///////////////////////////////////////////////////////////////////////////
-		' Overriden Package Implementation
+		' Overridden Package Implementation
 		#Region "Package Members"
 
 		''' <summary>

@@ -48,7 +48,7 @@ namespace Microsoft.MenuText
 
 
         /////////////////////////////////////////////////////////////////////////////
-        // Overriden Package Implementation
+        // Overridden Package Implementation
         #region Package Members
 
         /// <summary>

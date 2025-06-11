@@ -43,7 +43,7 @@ Namespace Microsoft.SolutionToolbar
 
 
 		'///////////////////////////////////////////////////////////////////////////
-		' Overriden Package Implementation
+		' Overridden Package Implementation
 		#Region "Package Members"
 
 		''' <summary>

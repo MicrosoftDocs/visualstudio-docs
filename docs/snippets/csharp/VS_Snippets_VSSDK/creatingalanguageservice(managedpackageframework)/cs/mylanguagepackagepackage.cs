@@ -51,7 +51,7 @@ namespace Microsoft.MyLanguagePackage
 
 
         /////////////////////////////////////////////////////////////////////////////
-        // Overriden Package Implementation
+        // Overridden Package Implementation
         #region Package Members
 
         /// <summary>

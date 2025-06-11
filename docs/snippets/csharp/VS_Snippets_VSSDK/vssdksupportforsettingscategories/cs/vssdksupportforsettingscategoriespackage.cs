@@ -44,7 +44,7 @@ namespace Microsoft.VSSDKSupportForSettingsCategories
 
 
         /////////////////////////////////////////////////////////////////////////////
-        // Overriden Package Implementation
+        // Overridden Package Implementation
         #region Package Members
 
         /// <summary>

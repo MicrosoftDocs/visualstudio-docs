@@ -87,7 +87,7 @@ namespace Company.ItemConfigurationCS
         //</Snippet10>
 
         /////////////////////////////////////////////////////////////////////////////
-        // Overriden Package Implementation
+        // Overridden Package Implementation
 
         // ...
         protected override void Initialize()
