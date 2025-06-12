@@ -1,7 +1,7 @@
 ---
 title: "Use dump files in the debugger"
 description: A dump file is a snapshot of an executing app and loaded modules. Consider creating a dump file for situations where you don't have debug access to the app.
-ms.date: "06/27/2024"
+ms.date: "06/09/2025"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.crashdump"
@@ -84,8 +84,9 @@ With [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studi
 1. Under **Actions**:
   
    - To set symbol loading locations, select **Set symbol paths**.
-   - To start debugging, select **Debug with Managed Only**, **Debug with Mixed**, **Debug with Native Only**, or **Debug Managed Memory**. To analyze managed memory, see [Managed type reports](../profiling/memory-usage-without-debugging2.md#managed-types-reports).
-   - To get memory analysis on the dump, select **Run Diagnostic Analysis** and see [Debug a managed memory dump with .NET Diagnostic Analyzers](../debugger/how-to-debug-managed-memory-dump.md).
+   - To start debugging, select **Debug with Managed Only**, **Debug with Mixed**, **Debug with Native Only**.
+   - To analyze managed memory, select **Debug Managed Memory** and see [Managed type reports](../profiling/memory-usage-without-debugging2.md#managed-types-reports).
+   - To run a memory analyzer on the dump, select **Run Diagnostic Analysis** and see [Debug a managed memory dump with .NET Diagnostic Analyzers](../debugger/how-to-debug-managed-memory-dump.md).
 
 ## <a name="BKMK_Find_binaries__symbol___pdb__files__and_source_files"></a> Find .exe, .pdb, and source files
 
