@@ -133,6 +133,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 ### Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
+PLEASE DON'T INSERT THIS, it's a COMMENT: In lieu of another way of providing feedback: there is no "Get involved" section in the what's new landing page :-( - please enable Issues on the VS docs github repo
 
 - [changeworld](https://github.com/changeworld) - Takashi Takebayashi ![12 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-12-green)
 - [AdmiralSnyder](https://github.com/AdmiralSnyder) - Alexander Gayko ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
