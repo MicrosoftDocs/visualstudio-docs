@@ -75,7 +75,7 @@ If there's an error in your code, and Visual Studio has a recommended fix, you s
 - To apply the recommended change to your code, select the icon. You can also select Ctrl + period (.) when your cursor is on a line of code that shows an available action.
 
 > [!TIP]
-> You can turn off some of the code fix Quick Actions. For more informatio, see [Disable source code analysis for .NET](../code-quality/disable-code-analysis.md).
+> You can turn off some of the code fix Quick Actions. For more information, see [Disable source code analysis for .NET](../code-quality/disable-code-analysis.md).
 
 ::: moniker range=">=vs-2022"
 ## Get AI assistance

@@ -40,7 +40,7 @@ HRESULT get_exceptionHandlerAddressOffset (
 
 ## Remarks
 
-For machines that do not use `.pdata` and `.xdata` for exception and unwind information (currently only x86), this method can be used to retrieve the address of the per-function exception inforation.
+For machines that do not use `.pdata` and `.xdata` for exception and unwind information (currently only x86), this method can be used to retrieve the address of the per-function exception information.
 
 ## See also
 
