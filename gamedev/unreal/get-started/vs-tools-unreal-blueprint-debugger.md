@@ -33,11 +33,11 @@ Run the Visual Studio Installer to ensure you have the required components insta
 
 1. On the **Workloads** pane, make sure the **Game development with C++** workload is installed:
 
-:::image type="content" source="../media/vs-installer-unreal-engine-workload.png" alt-text="Screenshot of the Visual Studio installer. The Game development with C++ workload is selected. In the installation details pane, Visual Studio Tools for Unreal Engine, Visual Studio debugger tools for Unreal Engine Blueprints, HSL Tools, And Windows 11 SDK are selected." lightbox="../media/vs-installer-unreal-engine-workload.png":::
+    :::image type="content" source="../media/vs-installer-unreal-engine-workload.png" alt-text="Screenshot of the Visual Studio installer. The Game development with C++ workload is selected. In the installation details pane, Visual Studio Tools for Unreal Engine, Visual Studio debugger tools for Unreal Engine Blueprints, HSL Tools, And Windows 11 SDK are selected." lightbox="../media/vs-installer-unreal-engine-workload.png":::
 
 1. On the **Individual components** pane, also make sure the Visual Studio debugger tools for Unreal Engine Blueprints is installed:
 
-:::image type="content" source="../media/vs-unreal-engine-install-blueprints-debug-tools.png" alt-text="Screenshot of the Visual Studio installer Individual components pane. Visual Studio debugger tools for Unreal Engine Blueprints is selected.":::
+    :::image type="content" source="../media/vs-unreal-engine-install-blueprints-debug-tools.png" alt-text="Screenshot of the Visual Studio installer Individual components pane. Visual Studio debugger tools for Unreal Engine Blueprints is selected.":::
 
 ### Install Unreal Engine debug symbols
 
