@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - user interfaces, updating
 - commands, updating UI
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

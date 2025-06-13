@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugProcessEx2::Attach
 helpviewer_keywords:
 - IDebugProcessEx2::Attach method
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

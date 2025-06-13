@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - project types, new
 - projects [Visual Studio SDK], new project types
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - vsix
 - extension schema
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

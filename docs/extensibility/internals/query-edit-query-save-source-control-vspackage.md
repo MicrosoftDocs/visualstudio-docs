@@ -7,8 +7,8 @@ helpviewer_keywords:
 - QEQS events
 - Query Edit Query Save events
 - source control packages, Query Edit Query Save events
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

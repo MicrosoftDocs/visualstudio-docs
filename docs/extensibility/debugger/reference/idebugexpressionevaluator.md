@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugExpressionEvaluator
 helpviewer_keywords:
 - IDebugExpressionEvaluator interface
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

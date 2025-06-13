@@ -3,8 +3,8 @@ title: Evaluation Tools for Visual Studio
 description: Use this checklist to evaluate user experience quality for visual and interaction details for new features you design for Visual Studio.
 ms.date: 11/04/2016
 ms.topic: reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

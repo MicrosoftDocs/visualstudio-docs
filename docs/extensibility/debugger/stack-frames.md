@@ -7,8 +7,8 @@ helpviewer_keywords:
 - stack frames, debugging
 - debugging [Debugging SDK], stack frames
 - stack frames
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

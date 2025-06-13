@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugProcessEx2::AddImplicitProgramNodes
 helpviewer_keywords:
 - IDebugProcessEx2::AddImplicitProgramNodes method
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

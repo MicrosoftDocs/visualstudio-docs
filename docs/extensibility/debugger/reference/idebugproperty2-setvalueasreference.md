@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugProperty2::SetValueAsReference
 helpviewer_keywords:
 - IDebugProperty2::SetValueAsReference method
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

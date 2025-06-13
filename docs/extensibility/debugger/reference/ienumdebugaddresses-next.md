@@ -7,8 +7,8 @@ f1_keywords:
 - IEnumDebugAddresses::Next
 helpviewer_keywords:
 - IEnumDebugAddresses::Next method
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

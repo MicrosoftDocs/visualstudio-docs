@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugPortEx2::ResumeProcess
 helpviewer_keywords:
 - IDebugPortEx2::ResumeProcess
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

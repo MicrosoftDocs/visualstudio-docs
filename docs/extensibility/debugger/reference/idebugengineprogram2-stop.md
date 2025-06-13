@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugEngineProgram2::Stop
 helpviewer_keywords:
 - IDebugEngineProgram2::Stop
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

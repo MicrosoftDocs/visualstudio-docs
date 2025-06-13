@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugProperty3::GetStringChars
 helpviewer_keywords:
 - IDebugProperty3::GetStringChars
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

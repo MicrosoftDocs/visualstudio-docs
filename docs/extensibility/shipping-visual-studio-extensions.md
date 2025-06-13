@@ -7,8 +7,8 @@ helpviewer_keywords:
 - VSIX deployment
 - deployment, VSIX
 - satellite DLLs, in VSIX packages
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -7,8 +7,8 @@ helpviewer_keywords:
 - error codes, source control plug-ins
 - source control plug-ins, error codes
 - errors [Visual Studio SDK]
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

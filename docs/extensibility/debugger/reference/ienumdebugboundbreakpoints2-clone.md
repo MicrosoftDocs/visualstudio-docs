@@ -7,8 +7,8 @@ f1_keywords:
 - IEnumDebugBoundBreakpoints2::Clone
 helpviewer_keywords:
 - IEnumDebugBoundBreakpoints2::Clone
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

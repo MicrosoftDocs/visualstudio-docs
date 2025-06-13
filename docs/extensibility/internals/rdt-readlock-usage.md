@@ -8,8 +8,8 @@ helpviewer_keywords:
 - visible
 - RDT_EditLock
 - invisible
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

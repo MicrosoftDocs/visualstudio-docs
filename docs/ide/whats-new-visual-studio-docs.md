@@ -132,7 +132,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 ### Community contributors
 
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
+The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by visiting [visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs) on GitHub.
 
 - [changeworld](https://github.com/changeworld) - Takashi Takebayashi ![12 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-12-green)
 - [AdmiralSnyder](https://github.com/AdmiralSnyder) - Alexander Gayko ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
@@ -327,7 +327,7 @@ The following people contributed to the Visual Studio docs during this period. T
 
 ### Community contributors
 
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
+The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by visiting [visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs) on GitHub.
 
 - [changeworld](https://github.com/changeworld) - Takashi Takebayashi ![2 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-2-green)
 - [PhilKang0704](https://github.com/PhilKang0704) - Phil ![2 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-2-green)
@@ -533,7 +533,7 @@ The following people contributed to the Visual Studio docs during this period. T
 
 ### Community contributors
 
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
+The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by visiting [visualstudio-docs](https://github.com/MicrosoftDocs/visualstudio-docs) on GitHub.
 
 - [changeworld](https://github.com/changeworld) - Takashi Takebayashi ![2 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-2-green)
 - [myd7349](https://github.com/myd7349) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)

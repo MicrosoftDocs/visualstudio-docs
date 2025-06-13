@@ -9,8 +9,8 @@ helpviewer_keywords:
 - symbols, call browser
 - lists, symbols for the object manager
 - symbols, exposing lists to the object manager
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

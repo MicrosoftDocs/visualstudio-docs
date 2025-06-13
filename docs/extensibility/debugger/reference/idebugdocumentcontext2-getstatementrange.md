@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugDocumentContext2::GetStatementRange
 helpviewer_keywords:
 - IDebugDocumentContext2::GetStatementRange
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

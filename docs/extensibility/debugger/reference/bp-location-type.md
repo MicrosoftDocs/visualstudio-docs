@@ -7,8 +7,8 @@ f1_keywords:
 - BP_LOCATION_TYPE
 helpviewer_keywords:
 - BP_LOCATION_TYPE structure
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

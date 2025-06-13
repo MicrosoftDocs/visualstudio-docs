@@ -3,8 +3,8 @@ title: Fonts and Formatting for Visual Studio
 description: Learn about fonts and formatting for new features you design for Visual Studio, including how to use the environment font.
 ms.date: 04/26/2017
 ms.topic: reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

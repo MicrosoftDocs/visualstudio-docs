@@ -8,8 +8,8 @@ helpviewer_keywords:
 - package assembly
 - package dll
 - vsix reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

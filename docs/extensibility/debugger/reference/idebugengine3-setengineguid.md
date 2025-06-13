@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugEngine3::SetEngineGuid
 helpviewer_keywords:
 - IDebugEngine3::SetEngineGuid
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

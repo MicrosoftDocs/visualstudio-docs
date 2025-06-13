@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugDocumentTextEvents2::OnUpdateTextAttributes
 helpviewer_keywords:
 - IDebugDocumentTextEvents2::onUpdateTextAttributes
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

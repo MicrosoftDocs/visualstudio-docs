@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - command code enumerator
 - source control plug-ins, command code enumeration
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

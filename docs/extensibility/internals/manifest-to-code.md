@@ -3,8 +3,8 @@ title: Manifest to Code
 description: Learn how to use the Manifest from Code tool that takes an .imagemanifest file for use with the Visual Studio Image Service.
 ms.date: 11/04/2016
 ms.topic: reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -3,8 +3,8 @@ title: Creating Custom Project and Item Templates
 description: Use the creation templates in the Visual Studio SDK to build custom projects and custom items, and include templates in larger extensions.
 ms.date: 2/2/2024
 ms.topic: overview
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

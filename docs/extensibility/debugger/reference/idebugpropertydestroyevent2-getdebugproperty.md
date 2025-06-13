@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugPropertyDestroyEvent2::GetDebugProperty
 helpviewer_keywords:
 - IDebugPropertyDestroyEvent2::GetDebugProperty
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

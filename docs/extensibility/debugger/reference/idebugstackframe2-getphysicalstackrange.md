@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugStackFrame2::GetPhysicalStackRange
 helpviewer_keywords:
 - IDebugStackFrame2::GetPhysicalStackRange
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

@@ -7,8 +7,8 @@ helpviewer_keywords:
 - menus, common tasks
 - VSPackages, menu tasks
 - .vsct files, common menu tasks
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

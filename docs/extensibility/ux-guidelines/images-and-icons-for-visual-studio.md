@@ -3,8 +3,8 @@ title: Images and Icons for Visual Studio
 description: Learn about the design concepts used to create the images and icons for Visual Studio. 
 ms.date: 04/26/2017
 ms.topic: reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

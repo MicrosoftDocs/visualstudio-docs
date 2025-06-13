@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugProgramPublisher2::PublishProgramNode
 helpviewer_keywords:
 - IDebugProgramPublisher2::PublishProgramNode
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

@@ -4,8 +4,8 @@ description: Learn about the BuildProjectOnload element and how it builds only n
 ms.date: 11/04/2016
 ms.subservice: general-ide
 ms.topic: reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ---
 # BuildProjectOnload element (Visual Studio templates)

@@ -7,8 +7,8 @@ f1_keywords:
 - TEXT_DOC_ATTR_2
 helpviewer_keywords:
 - TEXT_DOC_ATTR_2 enumeration
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

@@ -8,8 +8,8 @@ helpviewer_keywords:
 - menus, context menus
 - shortcut menus, adding to tool windows
 - tool windows, adding context menus
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

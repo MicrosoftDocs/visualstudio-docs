@@ -7,8 +7,8 @@ helpviewer_keywords:
 - icons [Visual Studio], adding to toolbars
 - toolbars [Visual Studio], adding icons to commands
 - commands [Visual Studio], adding icons
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -8,8 +8,8 @@ helpviewer_keywords:
 - IDE, selection
 - selection, Visual Studio IDE
 - IDE, currency
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

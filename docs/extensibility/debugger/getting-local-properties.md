@@ -7,8 +7,8 @@ helpviewer_keywords:
 - expression evaluation, getting local properties
 - debugging [Debugging SDK], local properties
 - expression evaluation, local properties
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

@@ -7,8 +7,8 @@ helpviewer_keywords:
 - expressions [Debugging SDK], evaluating
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

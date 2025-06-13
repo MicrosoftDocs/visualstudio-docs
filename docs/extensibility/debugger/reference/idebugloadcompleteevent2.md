@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugLoadCompleteEvent2
 helpviewer_keywords:
 - IDebugLoadCompleteEvent2
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

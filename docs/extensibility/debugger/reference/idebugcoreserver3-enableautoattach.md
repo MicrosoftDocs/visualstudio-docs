@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugCoreServer3::EnableAutoAttach
 helpviewer_keywords:
 - IDebugCoreServer3::EnableAutoAttach
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

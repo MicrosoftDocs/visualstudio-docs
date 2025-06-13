@@ -7,8 +7,8 @@ f1_keywords:
 - IEEVisualizerServiceProvider::CreateVisualizerService
 helpviewer_keywords:
 - IEEVisualizerServiceProvider::CreateVisualizerService method
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugCustomAttribute::GetName
 helpviewer_keywords:
 - IDebugCustomAttribute::GetName
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

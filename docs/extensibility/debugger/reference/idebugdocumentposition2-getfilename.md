@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugDocumentPosition2::GetFileName
 helpviewer_keywords:
 - IDebugDocumentPosition2::GetFileName
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

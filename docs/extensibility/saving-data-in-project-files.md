@@ -7,8 +7,8 @@ helpviewer_keywords:
 - data [Visual Studio], saving in project files
 - project files
 - project files, saving data
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

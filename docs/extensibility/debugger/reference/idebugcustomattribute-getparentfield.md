@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugCustomAttribute::GetParentField
 helpviewer_keywords:
 - IDebugCustomAttribute::GetParentField
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
