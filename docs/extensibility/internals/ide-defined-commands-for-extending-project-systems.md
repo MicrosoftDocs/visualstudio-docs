@@ -26,7 +26,7 @@ When you want to extend project systems, you can use commands and command groups
 |IDM_VS_TOOL_PROJWIN|The **Solution Explorer** toolbar.|
 
 ## Shortcut Menus
- The following table shows the shortcut menus that apply when a single node is selected in the **Solution Explorer**, or when there are multiple homogenous selections in the **Solution Explorer**, which is when all selected nodes are of the same type.
+ The following table shows the shortcut menus that apply when a single node is selected in the **Solution Explorer**, or when there are multiple homogeneous selections in the **Solution Explorer**, which is when all selected nodes are of the same type.
 
 |Shortcut menu|Description|
 |-------------------|-----------------|
