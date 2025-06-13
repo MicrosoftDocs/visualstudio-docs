@@ -75,7 +75,7 @@ namespace ColumnGuides
 {
     internal static class GuidesSettingsManager
     {
-        // Because my code is always called from the UI thred, this succeeds.
+        // Because my code is always called from the UI thread, this succeeds.
         internal static SettingsManager VsManagedSettingsManager =
             new ShellSettingsManager(ServiceProvider.GlobalProvider);
 
