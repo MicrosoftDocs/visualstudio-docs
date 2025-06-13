@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - persistence, projects
-- projects [Visual Studio SDK], persistance
+- projects [Visual Studio SDK], persistence
 author: maiak
 ms.author: maiak
 manager: mijacobs
