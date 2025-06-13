@@ -7,8 +7,8 @@ f1_keywords:
 - PENDING_BP_STATE_INFO
 helpviewer_keywords:
 - PENDING_BP_STATE_INFO structure
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

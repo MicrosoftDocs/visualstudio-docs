@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugMessageEvent2::SetResponse method
 - SetResponse method
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

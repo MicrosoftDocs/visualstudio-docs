@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - registration, VSPackages
 - VSPackages, registering
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

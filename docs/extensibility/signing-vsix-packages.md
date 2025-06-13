@@ -10,7 +10,7 @@ helpviewer_keywords:
 - vsix
 - packages
 author: javierdlg
-ms.author: maiak
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

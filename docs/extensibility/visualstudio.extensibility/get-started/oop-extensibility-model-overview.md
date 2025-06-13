@@ -3,9 +3,9 @@ title: OOP Extensibility Model reference
 description: A reference for OOP Extensibility Model
 ms.topic: conceptual
 ms.date: 3/31/2023
-ms.author: maiak
+ms.author: tinali
 monikerRange: ">=vs-2022"
-author: maiak
+author: tinaschrepfer
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

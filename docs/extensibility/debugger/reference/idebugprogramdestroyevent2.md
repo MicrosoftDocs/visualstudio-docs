@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugProgramDestroyEvent2
 helpviewer_keywords:
 - IDebugProgramDestroyEvent2
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

@@ -3,8 +3,8 @@ title: Manifest from Resources
 description: Learn how to use the Manifest from Resources tool to add .png or .xaml files to an .imagemanifest file for use with the Visual Studio Image Service. 
 ms.date: 08/21/2024
 ms.topic: reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

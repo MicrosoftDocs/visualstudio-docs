@@ -3,8 +3,8 @@ title: Update a Visual Studio extension
 description: Update your Visual Studio extension for .NET or C++ to work with Visual Studio 2022, including running code in extensions and shared projects for multi-targeting.
 ms.date: 06/08/2021
 ms.topic: conceptual
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 monikerRange: "vs-2022"

@@ -4,8 +4,8 @@ description: Learn about the concepts that are the building blocks of the iconog
 ms.date: "08/04/2017"
 ms.reviewer: "Jamie.Young"
 ms.topic: reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

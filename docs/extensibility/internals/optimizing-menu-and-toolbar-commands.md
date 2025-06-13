@@ -9,8 +9,8 @@ helpviewer_keywords:
 - menus [Visual Studio SDK], commands
 - menu commands, implementing
 - toolbars [Visual Studio], commands
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

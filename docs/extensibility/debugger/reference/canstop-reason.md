@@ -7,8 +7,8 @@ f1_keywords:
 - CANSTOP_REASON
 helpviewer_keywords:
 - CANSTOP_REASON enumeration
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

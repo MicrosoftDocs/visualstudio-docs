@@ -7,8 +7,8 @@ f1_keywords:
 - AD_PROCESS_ID_TYPE
 helpviewer_keywords:
 - AD_PROCESS_ID_TYPE enumeration
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

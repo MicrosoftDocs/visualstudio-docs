@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugObject::IsEqual
 helpviewer_keywords:
 - IDebugObject::IsEqual method
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

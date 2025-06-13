@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugEngine2::SetRegistryRoot
 helpviewer_keywords:
 - IDebugEngine2::SetRegistryRoot
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

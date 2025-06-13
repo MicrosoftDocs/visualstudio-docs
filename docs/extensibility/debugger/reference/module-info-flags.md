@@ -7,8 +7,8 @@ f1_keywords:
 - MODULE_INFO_FLAGS
 helpviewer_keywords:
 - MODULE_INFO_FLAGS enumeration
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

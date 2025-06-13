@@ -7,8 +7,8 @@ f1_keywords:
 - UNMANAGED_ADDRESS_THIS_RELATIVE
 helpviewer_keywords:
 - UNMANAGED_ADDRESS_THIS_RELATIVE structure
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

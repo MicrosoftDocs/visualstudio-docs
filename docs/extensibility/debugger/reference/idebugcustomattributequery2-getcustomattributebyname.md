@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugCustomAttributeQuery2::GetCustomAttributeByName
 helpviewer_keywords:
 - IDebugCustomAttributeQuery2::GetCustomAttributeByName
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

@@ -7,8 +7,8 @@ helpviewer_keywords:
 - sample applications [Debugging SDK]
 - debugging [Debugging SDK], samples
 - Debugging SDK, samples
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

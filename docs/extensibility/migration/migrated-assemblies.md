@@ -3,8 +3,8 @@ title: VSSDK NuGet packages
 description: Learn about VSSDK metapackage and other NuGet packages that you might need when migrating a Visual Studio extension to Visual Studio 2022.
 ms.date: 06/08/2021
 ms.topic: conceptual
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 monikerRange: "vs-2022"

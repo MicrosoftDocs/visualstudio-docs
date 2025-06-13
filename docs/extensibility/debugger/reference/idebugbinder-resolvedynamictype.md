@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugBinder::ResolveDynamicType
 helpviewer_keywords:
 - IDebugBinder::ResolveDynamicType method
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

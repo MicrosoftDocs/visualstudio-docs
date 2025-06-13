@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugCanStopEvent2::CanStop
 helpviewer_keywords:
 - IDebugCanStopEvent2::CanStop
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

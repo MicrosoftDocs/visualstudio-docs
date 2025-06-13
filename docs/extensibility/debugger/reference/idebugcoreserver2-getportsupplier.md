@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugCoreServer2::GetPortSupplier
 helpviewer_keywords:
 - IDebugCoreServer2::GetPortSupplier
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

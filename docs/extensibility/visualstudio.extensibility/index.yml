@@ -8,8 +8,8 @@ metadata:
   description: Explore how to extend Visual Studio with the VisualStudio.Extensibility SDK, create an extension, work with commands, tools, the code editor, and debugging features.
   ms.topic: landing-page
   ms.date: 05/30/2023
-  author: maiak
-  ms.author: maiak
+  author: tinaschrepfer
+  ms.author: tinali
   monikerRange: ">=vs-2022"
   manager: mijacobs
   

@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugDocumentTextEvents2::OnDestroy
 helpviewer_keywords:
 - IDebugDocumentTextEvents2::onDestroy
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - publishing web controls
 - web controls, publishing
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

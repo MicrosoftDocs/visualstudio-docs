@@ -7,8 +7,8 @@ f1_keywords:
 - dwTYPE_KIND
 helpviewer_keywords:
 - dwTYPE_KIND enumeration
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

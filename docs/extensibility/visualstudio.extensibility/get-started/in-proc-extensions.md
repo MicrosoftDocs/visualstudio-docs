@@ -3,9 +3,9 @@ title: VSSDK-compatible VisualStudio.Extensibility extensions
 description: A reference for creating your first in-proc VisualStudio.Extensibility extension
 ms.topic: tutorial
 ms.date: 3/31/2023
-ms.author: maiak
+ms.author: tinali
 monikerRange: ">=vs-2022"
-author: maiak
+author: tinaschrepfer
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

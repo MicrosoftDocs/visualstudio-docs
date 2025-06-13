@@ -5,8 +5,8 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - file extensions, registering for side-by-side
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

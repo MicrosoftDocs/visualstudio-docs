@@ -7,8 +7,8 @@ f1_keywords:
 - IEEDataStorage::GetData
 helpviewer_keywords:
 - IEEDataStorage::GetData
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

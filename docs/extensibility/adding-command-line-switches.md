@@ -8,8 +8,8 @@ helpviewer_keywords:
 - command-line switches, retrieving
 - IVsAppCommandLine::GetOption method
 - command line, switches
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

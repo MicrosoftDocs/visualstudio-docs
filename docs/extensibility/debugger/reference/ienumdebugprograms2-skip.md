@@ -7,8 +7,8 @@ f1_keywords:
 - IEnumDebugPrograms2::Skip
 helpviewer_keywords:
 - IEnumDebugPrograms2::Skip
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

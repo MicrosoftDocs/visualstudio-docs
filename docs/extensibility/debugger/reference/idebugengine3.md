@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugEngine3
 helpviewer_keywords:
 - IDebugEngine3 interface
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

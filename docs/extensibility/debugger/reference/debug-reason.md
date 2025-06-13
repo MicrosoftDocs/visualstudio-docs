@@ -7,8 +7,8 @@ f1_keywords:
 - DEBUG_REASON
 helpviewer_keywords:
 - DEBUG_REASON enumeration
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

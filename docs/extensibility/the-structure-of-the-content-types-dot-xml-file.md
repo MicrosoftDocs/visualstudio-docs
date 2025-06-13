@@ -8,8 +8,8 @@ helpviewer_keywords:
 - content types
 - opc
 - vsix
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

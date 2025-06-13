@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugProgram2::WriteDump
 helpviewer_keywords:
 - IDebugProgram2::WriteDump
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

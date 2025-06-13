@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - projects [Visual Studio SDK], configuration for building
 - project configurations, building
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

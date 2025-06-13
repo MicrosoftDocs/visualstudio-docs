@@ -7,8 +7,8 @@ f1_keywords:
 - METADATA_ADDRESS_ARRAYELEM
 helpviewer_keywords:
 - METADATA_ADDRESS_ARRAYELEM structure
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

@@ -5,9 +5,9 @@ ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - persistence, projects
-- projects [Visual Studio SDK], persistence
-author: maiak
-ms.author: maiak
+- projects [Visual Studio SDK], persistance
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

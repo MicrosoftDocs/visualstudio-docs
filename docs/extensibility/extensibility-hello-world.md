@@ -3,8 +3,8 @@ title: Hello World extension tutorial
 description: Add a new command as an extension to Visual Studio, which involves creating a project, adding a command, and modifying the source code.
 ms.date: 02/02/2024
 ms.topic: tutorial
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

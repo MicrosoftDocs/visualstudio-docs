@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugProcess2::EnumThreads
 helpviewer_keywords:
 - IDebugProcess2::EnumThreads
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

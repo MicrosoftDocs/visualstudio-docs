@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugBreakpointRequest2::GetLocationType
 helpviewer_keywords:
 - IDebugBreakpointRequest2::GetLocationType
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

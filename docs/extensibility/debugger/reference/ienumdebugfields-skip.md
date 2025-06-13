@@ -7,8 +7,8 @@ f1_keywords:
 - IEnumDebugFields::Skip
 helpviewer_keywords:
 - IEnumDebugFields::Skip method
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
