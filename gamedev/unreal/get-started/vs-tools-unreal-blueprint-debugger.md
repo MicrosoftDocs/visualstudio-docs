@@ -8,6 +8,8 @@ ms.subservice: unreal-engine-tools
 author: TylerMSFT
 ms.author: TWhitney
 manager: Coxford
+
+#customer intent: As an Unreal Engine developer, I want to debug Blueprint code alongside my c++ code in Visual Studio.
 ---
 
 # Debug Unreal Engine Blueprints in Visual Studio
@@ -25,7 +27,7 @@ The Visual Studio Blueprint debugger support provides:
 - Visual Studio 2022 with the **Game development with C++** workload and **Visual Studio debugger tools for Unreal Engine Blueprints** component installed.
 - Unreal Engine installed with debug symbols.
 
-## Installation
+## Install prerequisites
 
 Run the Visual Studio Installer to ensure you have the required components installed to debug Unreal Engine Blueprints. For more information on installing Visual Studio Tools for Unreal Engine, see [Get started with Visual Studio Tools for Unreal Engine](vs-tools-unreal-quickstart.md).
 
