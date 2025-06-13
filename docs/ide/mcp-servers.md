@@ -16,9 +16,6 @@ Model Context Protocol (MCP) is an open standard that enables AI models to inter
 
 ## Prerequisites
 + [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) or later.
-    + Set **Enable agent mode in the chat pane** in **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Chat**.
-+ [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot). <br/>
-    + You can use [GitHub Copilot for Free](copilot-free-plan.md).
 
 ## How do MCP and Visual Studio extend GitHub Copilot's agent?
 
