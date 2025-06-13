@@ -43,9 +43,9 @@ Install debug symbols for each version of Unreal Engine you debug with Visual St
 
 1. Open the **Epic Games Launcher**.
 1. Go to the **Unreal Engine** pane on the left and the **Library** pane at the top.
-1. Select the dropdown menu for your engine version, then choose **Options**.
+1. Select the dropdown menu for your engine version, then choose **Options**:
 :::image type="content" source="../media/unreal-engine-options.png" alt-text="Screenshot of the Epic Games installer. The Launch dropdown is selected and Options is highlighted.":::
-1. In the options dialog, select **Editor symbols for debugging**.
+1. In the options dialog, select **Editor symbols for debugging**:
 :::image type="content" source="../media/unreal-engine-editor-symbols-for-debugging.png" alt-text="Screenshot of the Epic Games installation options. Editor symbols for debugging is selected.":::
 1. Select **Apply**, then wait for the download to finish.
 
@@ -54,7 +54,7 @@ Install debug symbols for each version of Unreal Engine you debug with Visual St
 To test the Blueprint debugger functionality, create a project that uses Blueprints and has C++ code. The Unreal Engine **First Person** template works well.
 
 1. Open the Unreal Engine Editor and create a new **First Person Shooter** project.
-1. Ensure that **C++** is selected.
+1. Ensure that **C++** is selected:
     :::image type="content" source="../media/unreal-engine-new-project-first-person.png" alt-text="Screenshot of the Unreal Engine editor new project dialog. First Person is selected, and the BlueEpic Games installation options. Editor symbols for debugging is selected.":::
 1. After creating the project, close all Unreal Editor instances.
 1. Open the generated Visual Studio solution file (*.sln*).
@@ -65,19 +65,21 @@ Follow these steps to set a breakpoint, inspect a Blueprint function, and view i
 
 1. In Visual Studio, locate the `AttachWeapon` method in your weapon component class. For example, if you named your project `FirstPerson`, the function is in the file `FirstPersonWeaponComponent.cpp`.
 1. Add a breakpoint at the start of the `AttachWeapon` method. This method is called when the player picks up a weapon in the game:
+
     :::image type="content" source="../media/vs-unreal-engine-attach-weapon-breakpoint.png" alt-text="Screenshot of the AttachWeapon() function in Visual Studio. A breakpoint is on the first line of the function.":::
-1. In the Visual Studio Solution Configuration dropdown, select **Development Editor**.
+
+1. In the Visual Studio Solution Configuration dropdown, select **Development Editor**:
     :::image type="content" source="../media/vs-unreal-engine-select-configuration.png" alt-text="Screenshot of the Visual Studio solution configuration dropdown. Development Editor is selected.":::
 1. In Visual Studio, compile and run the project to open the Unreal Editor.
 1. In the Unreal Editor, select the green **Play** button to start the game.
 1. In the running game, press the <kbd>W</kbd> key to move forward until you collide with the weapon and trigger the breakpoint.
-1. When the breakpoint is hit, examine the **Call Stack** window. Blueprint stack frames appear among your C++ stack frames.
-    :::image type="content" source="../media/vs-unreal-engine-blueprint-callstack.png" alt-text="Screenshot of the callstack window in Visual Studio. The breakpoint in AttachWeapon() is at the top of the callstack. Two Blueprint entries are highlight in the callstack for BP_PickUp_Rifle::ExecuteUbergraph_BP_PickUp_Rifle and BP_PickUp_Rifle::BndEvt___BP_PickUp_Rifle_TP_PickUp_K2Node_ComponentBoundEvent_1_OnPickUp_DelegateSignature.":::
+1. When the breakpoint is hit, examine the **Call Stack** window. Blueprint stack frames appear among your C++ stack frames:
+    :::image type="content" source="../media/vs-unreal-engine-blueprint-call-stack.png" alt-text="Screenshot of the callstack window in Visual Studio. The breakpoint in AttachWeapon() is at the top of the callstack. Two Blueprint entries are highlight in the callstack for BP_PickUp_Rifle::ExecuteUbergraph_BP_PickUp_Rifle and BP_PickUp_Rifle::BndEvt___BP_PickUp_Rifle_TP_PickUp_K2Node_ComponentBoundEvent_1_OnPickUp_DelegateSignature.":::
 1. Double-click the first Blueprint frame in the call stack.
 1. Open the **Locals** window to view the variables associated with the Blueprint node. You can see the values of the Blueprint node pins:
 
-:::image type="content" source="../media/vs-unreal-engine-blueprint-locals-node-pins.png" alt-text="Screenshot of the locals window in Visual Studio. Blueprint information > Node Pins > Available pins is expanded to show the values of the Blueprint such as the EntryPoint, PickUpCharacter, HasRifle, and more.":::
-
+    :::image type="content" source="../media/vs-unreal-engine-blueprint-locals-node-pins.png" alt-text="Screenshot of the locals window in Visual Studio. Blueprint information > Node Pins > Available pins is expanded to show the values of the Blueprint such as the EntryPoint, PickUpCharacter, HasRifle, and more.":::
+    
 ## Summary
 
 The Visual Studio Blueprint debugger provides a seamless debugging experience that bridges the gap between C++ and Blueprint code in Unreal Engine projects. This integrated approach allows you to:
@@ -86,7 +88,7 @@ The Visual Studio Blueprint debugger provides a seamless debugging experience th
 - Inspect Blueprint variables, node pin values, and C++ variables.
 - Step through Blueprint execution frames in the same debugging session as C++ code.
 
-This unified debugging experience helps resolve issues efficiently across both coding paradigms, eliminating the need to switch between different debugging tools. This makes it easier to understand how game systems interact.
+This unified debugging experience helps resolve issues efficiently across both coding paradigms, eliminating the need to switch between different debugging tools.
 
 ## Related articles
 
