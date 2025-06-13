@@ -74,7 +74,7 @@ Follow these steps to set a breakpoint, inspect a Blueprint function, and view i
 1. In Visual Studio, locate the `AttachWeapon` method in your weapon component class. For example, if you named your project `FirstPerson`, the function is in `FirstPersonWeaponComponent.cpp`.
 1. Add a breakpoint at the start of the `AttachWeapon` method. This method is called when the player picks up a weapon in the game:
 
-    :::image type="content" source="../media/vs-unreal-engine-attach-weapon-breakpoint.png" alt-text="Screenshot of the AttachWeapon function in Visual Studio. A breakpoint is on the first line of the function." lightbox="..media/vs-unreal-engine-attach-weapon-breakpoint.png":::
+    :::image type="content" source="../media/vs-unreal-engine-attach-weapon-breakpoint.png" alt-text="Screenshot of the AttachWeapon function in Visual Studio. A breakpoint is on the first line of the function." lightbox="../media/vs-unreal-engine-attach-weapon-breakpoint.png":::
 
 1. In the Visual Studio **Solution Configuration** dropdown, select **Development Editor**:
 

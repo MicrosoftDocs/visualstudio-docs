@@ -52,7 +52,7 @@ Follow these steps to install the tools:
 1. Ensure that under **Optional** that **Windows 10 SDK 10.0.18362.0**, or higher, is selected.
 1. Select **Modify** to complete the installation.
 
-   :::image type="content" source="../media/vvs-installer-unreal-engine-workload.png" alt-text="Screenshot of the Visual Studio installer. The Game development with C++ workload is selected. In the installation details pane, Visual Studio Tools for Unreal Engine, Visual Studio debugger tools for Unreal Engine Blueprints, HSL Tools, And Windows 11 SDK are selected." lightbox="../media/vs-installer-unreal-engine-workload.png":::
+   :::image type="content" source="../media/vs-installer-unreal-engine-workload.png" alt-text="Screenshot of the Visual Studio installer. The Game development with C++ workload is selected. In the installation details pane, Visual Studio Tools for Unreal Engine, Visual Studio debugger tools for Unreal Engine Blueprints, HSL Tools, And Windows 11 SDK are selected." lightbox="../media/vs-installer-unreal-engine-workload.png":::
 
 ## Check for updates
 
