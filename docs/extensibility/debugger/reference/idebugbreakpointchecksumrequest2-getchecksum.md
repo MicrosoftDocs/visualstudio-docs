@@ -85,7 +85,7 @@ bool CDebugProgram::DoChecksumsMatch(CDebugPendingBreakpoint *pPending, CDebugCo
                 CoTaskMemFree(data.pBytes);
             }
             else
-                fRet = true; // checksums not available - user disabed checksums
+                fRet = true; // checksums not available - user disabled checksums
         }
         else
             fRet = true; // we couldn't get checksum from UI - default to past behavior

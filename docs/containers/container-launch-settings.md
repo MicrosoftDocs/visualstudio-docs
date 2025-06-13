@@ -83,7 +83,7 @@ The following table shows the properties that can be set in this section:
 
 Not all settings are available in the UI, for example, `useSSL`. To change those settings, edit `launchSettings.json` directly.
 
-The setting `DockerfileRunArguments` is superceded in Visual Studio 2022 17.12 and later by `containerRunArguments`, which can be set in the Launch Profiles UI as `Container run arguments`.
+The setting `DockerfileRunArguments` is superseded in Visual Studio 2022 17.12 and later by `containerRunArguments`, which can be set in the Launch Profiles UI as `Container run arguments`.
 
 > [!NOTE]
 > If the same setting is found in both the project file and in the launch settings file, the value in the launch settings file takes precedence.
