@@ -7,8 +7,8 @@ f1_keywords:
 - DISASSEMBLY_FLAGS
 helpviewer_keywords:
 - DISASSEMBLY_FLAGS enumeration
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

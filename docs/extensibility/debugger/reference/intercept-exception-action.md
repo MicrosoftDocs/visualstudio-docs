@@ -7,8 +7,8 @@ f1_keywords:
 - INTERCEPT_EXCEPTION_ACTION
 helpviewer_keywords:
 - INTERCEPT_EXCEPTION_ACTION enumeration
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

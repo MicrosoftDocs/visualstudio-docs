@@ -7,8 +7,8 @@ helpviewer_keywords:
 - debug engines, implementing
 - debug engines, custom
 - debugging [Debugging SDK], custom debug engines
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

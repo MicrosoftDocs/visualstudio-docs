@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugProgramHost2::GetHostMachineName
 helpviewer_keywords:
 - IDebugProgramHost2::GetHostMachineName
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

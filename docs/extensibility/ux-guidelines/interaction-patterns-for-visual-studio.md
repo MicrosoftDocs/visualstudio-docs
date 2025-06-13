@@ -3,8 +3,8 @@ title: Interaction Patterns for Visual Studio
 description: Learn about the library of common interaction patterns that you can use when building new features for Visual Studio.
 ms.date: 05/13/2020
 ms.topic: reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

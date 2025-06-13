@@ -7,8 +7,8 @@ helpviewer_keywords:
 - commands, environment-defined
 - .vsct files, environment-defined constants
 - command groups, environment-defined
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

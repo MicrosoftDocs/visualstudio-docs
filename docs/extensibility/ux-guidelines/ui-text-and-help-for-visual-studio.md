@@ -3,8 +3,8 @@ title: UI Text and Help for Visual Studio
 description: Learn about the UI text and terminology used in the Help information for Visual Studio. 
 ms.date: 11/04/2016
 ms.topic: reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

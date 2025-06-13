@@ -9,8 +9,8 @@ helpviewer_keywords:
 - wizards [Visual Studio], project templates
 - templates [Visual Studio], wizards
 - IWizard interface
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -7,8 +7,8 @@ f1_keywords:
 - SccUninitialize
 helpviewer_keywords:
 - SccUninitialize function
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

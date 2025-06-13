@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugProviderProgramNode2::UnmarshalDebuggeeInterface
 helpviewer_keywords:
 - IDebugProviderProgramNode2::UnmarshalDebuggeeInterface
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

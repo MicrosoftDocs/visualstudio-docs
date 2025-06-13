@@ -4,8 +4,8 @@ description: Learn how to launch Visual Studio using DTE to support side-by-side
 titleSuffix: ''
 ms.date: 04/26/2019
 ms.topic: how-to
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

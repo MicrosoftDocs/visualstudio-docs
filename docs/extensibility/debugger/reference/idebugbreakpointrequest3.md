@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugBreakpointRequest3
 helpviewer_keywords:
 - IDebugBreakpointRequest3
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

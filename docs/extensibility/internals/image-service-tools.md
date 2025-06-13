@@ -3,8 +3,8 @@ title: Image Service Tools
 description: Learn about the tools provided in the Visual Studio SDK that can help you build extensions using the Visual Studio image service.
 ms.date: 11/04/2016
 ms.topic: reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

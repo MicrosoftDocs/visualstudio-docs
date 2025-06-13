@@ -7,8 +7,8 @@ f1_keywords:
 - IEnumDebugReferenceInfo2::Reset
 helpviewer_keywords:
 - IEnumDebugReferenceInfo2::Reset
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugExpressionEvaluator::GetMethodLocationProperty
 helpviewer_keywords:
 - IDebugExpressionEvaluator::GetMethodLocationProperty method
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

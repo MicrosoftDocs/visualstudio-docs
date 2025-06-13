@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugObject2::IsUserData
 helpviewer_keywords:
 - IDebugObject2::IsUserData method
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

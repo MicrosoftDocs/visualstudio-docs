@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugProgramNode2::GetHostPid
 helpviewer_keywords:
 - IDebugProgramNode2::GetHostPid
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

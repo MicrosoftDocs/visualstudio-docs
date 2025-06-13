@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugManagedObject::SetFromManagedObject
 helpviewer_keywords:
 - IDebugManagedObject::SetFromManagedObject method
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

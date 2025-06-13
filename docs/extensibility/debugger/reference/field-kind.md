@@ -7,8 +7,8 @@ f1_keywords:
 - FIELD_KIND
 helpviewer_keywords:
 - FIELD_KIND enumeration
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

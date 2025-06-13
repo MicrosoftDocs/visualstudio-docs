@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugProgramProvider2::GetProviderProgramNode
 helpviewer_keywords:
 - IDebugProgramProvider2::GetProviderProgramNode
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

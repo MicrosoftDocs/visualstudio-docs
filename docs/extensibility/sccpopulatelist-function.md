@@ -7,8 +7,8 @@ f1_keywords:
 - SccPopulateList
 helpviewer_keywords:
 - SccPopulateList function
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

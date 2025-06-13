@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugDisassemblyStream2::GetCurrentLocation
 helpviewer_keywords:
 - IDebugDisassemblyStream2::GetCurrentLocation
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

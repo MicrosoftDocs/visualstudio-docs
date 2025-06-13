@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugPropertyField::GetPropertyGetter
 helpviewer_keywords:
 - IDebugPropertyField::GetPropertyGetter method
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

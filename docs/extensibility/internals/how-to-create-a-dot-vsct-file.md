@@ -5,8 +5,8 @@ ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - VSCT files, creating
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugDocument2::GetDocumentClassID
 helpviewer_keywords:
 - IDebugDocument2::GetDocumentClassID
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

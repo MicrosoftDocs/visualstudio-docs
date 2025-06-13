@@ -5,8 +5,8 @@ ms.date: 2/2/2024
 ms.topic: how-to
 helpviewer_keywords:
 - Visual Studio SDK, VSIX project template
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

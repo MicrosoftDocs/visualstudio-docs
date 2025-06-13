@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugBinder::ResolveRuntimeType
 helpviewer_keywords:
 - IDebugBinder::ResolveRuntimeType method
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

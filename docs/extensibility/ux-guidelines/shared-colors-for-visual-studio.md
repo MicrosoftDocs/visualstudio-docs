@@ -3,8 +3,8 @@ title: Shared Colors for Visual Studio
 description: Learn how to use common Visual Studio shell elements and themes to design your own custom UI that is consistent with the Visual Studio environment.
 ms.date: 04/26/2017
 ms.topic: reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Learn how to use Rules-based UI Contexts, which allows extension authors to define conditions when a UI Context is activated and VSPackages are loaded.
 ms.date: 11/04/2016
 ms.topic: how-to
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 ---
 # Use rule-based UI Context for Visual Studio extensions
 

@@ -7,8 +7,8 @@ f1_keywords:
 - IPropertyProxyProvider
 helpviewer_keywords:
 - IPropertyProxyProvider interface
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

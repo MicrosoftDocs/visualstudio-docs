@@ -7,8 +7,8 @@ helpviewer_keywords:
 - commands, small command sets
 - small command sets
 - command sets
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

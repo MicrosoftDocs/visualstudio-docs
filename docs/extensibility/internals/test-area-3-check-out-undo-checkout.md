@@ -8,8 +8,8 @@ helpviewer_keywords:
 - source control plug-ins, undo checkout
 - source control [Visual Studio SDK], checking out
 - source control [Visual Studio SDK], undo checkout
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -8,8 +8,8 @@ helpviewer_keywords:
 - Miscellaneous Files project
 - Solution Items folder
 - files, opening with Miscellaneous Files project
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

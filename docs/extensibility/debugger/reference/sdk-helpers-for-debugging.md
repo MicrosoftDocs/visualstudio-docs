@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Debugging SDK, registry locations
 - dbgmetric.h
 - metrics [Debugging SDK]
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

@@ -7,8 +7,8 @@ helpviewer_keywords:
 - automation object model, extending
 - project subtypes, extending automation object model
 - automation object model
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
