@@ -18,7 +18,7 @@ Model Context Protocol (MCP) is an open standard that enables AI models to inter
 + [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) or later.
     + Set **Enable agent mode in the chat pane** in **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Chat**.
 + [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot). <br/>
-    + You can use [GitHub Copilot for Free](copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
+    + You can use [GitHub Copilot for Free](copilot-free-plan.md).
 
 ## How do MCP and Visual Studio extend GitHub Copilot's agent?
 
@@ -68,20 +68,20 @@ By standardizing this interaction, MCP eliminates the need for custom integratio
 1. Get a Personal Access Token for your [GitHub Account](https://github.com/settings/personal-access-tokens)
 1. In Visual Studio, click the `Ask` dropdown in the GitHub Copilot Chat window, and then select `Agent`.
 
-    :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-dropdown.png" alt-text="Screenshot that shows Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent/copilot-agent-dropdown.png":::
+    :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot that shows Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png":::
 
 1. When prompted, paste your personal access token into the dialog.
 
-    :::image type="content" source="media/vs-2022/copilot-agent-mcp/model-context-protocol-personal-access-token.png" alt-text="Screenshot that shows entering the personal access token." lightbox="media/vs-2022/copilot-agent-mcp/model-context-protocol-personal-access-token.png":::
+    :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-personal-access-token.png" alt-text="Screenshot that shows entering the personal access token." lightbox="media/vs-2022/mcp-servers/model-context-protocol-personal-access-token.png":::
 
 1. Select the tools you'd like to use, for example, `list_issues`
 
-    :::image type="content" source="media/vs-2022/copilot-agent-mcp/model-context-protocol-github-tools-list.png" alt-text="Screenshot that shows MCP GitHub tools." lightbox="media/vs-2022/copilot-agent-mcp/model-context-protocol-github-tools-list.png":::
+    :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-github-tools-list.png" alt-text="Screenshot that shows MCP GitHub tools." lightbox="media/vs-2022/mcp-servers/model-context-protocol-github-tools-list.png":::
 
 1. Try a sample prompt: `list issues assigned to me on GitHub`
 1. Copilot asks for permission to use a tool made available to it by the MCP server, select **Allow** with the scope you wish to proceed with.
 
-    :::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-tool-approval.png" alt-text="Screenshot that shows the agent tools confirmation options." lightbox="media/vs-2022/copilot-agent/copilot-agent-tool-approval.png":::
+    :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png" alt-text="Screenshot that shows the agent tools confirmation options." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png":::
 
 ## Supported MCP capabilities
 
@@ -131,7 +131,7 @@ With an existing `mcp.json` file, add the file location to **Solution Items** in
 
 When the file is saved with valid syntax, GitHub Copilot's agent restarts and reloads the configured servers.
 
-:::image type="content" source="media/vs-2022/copilot-agent-mcp/model-context-protocol-add-solution-item.png" alt-text="Screenshot that shows adding the MCP configuration file location to Solution Items." lightbox="media/vs-2022/copilot-agent-mcp/model-context-protocol-add-solution-item.png":::
+:::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-add-solution-item.png" alt-text="Screenshot that shows adding the MCP configuration file location to Solution Items." lightbox="media/vs-2022/mcp-servers/model-context-protocol-add-solution-item.png":::
 
 ### Tool Lifecycle
 
@@ -150,11 +150,11 @@ When a tool is invoked, Copilot requests confirmation to run the tool. This is b
 
 In the chat pane, after a tool invocation, use the **Allow** dropdown options to automatically confirm the specific tool for the current session, solution, or all future invocations.
 
-:::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-tool-approval.png" alt-text="Screenshot that shows managing agent tool approvals." lightbox="media/vs-2022/copilot-agent/copilot-agent-tool-approval.png":::
+:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png" alt-text="Screenshot that shows managing agent tool approvals." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png":::
 
 You can reset tool confirmation selections in **Tools** > **Options** > **GitHub** > **Copilot** > **Tools**.
 
-:::image type="content" source="media/vs-2022/copilot-agent/copilot-agent-tool-config.png" alt-text="Screenshot that shows the tools configuration setting." lightbox="media/vs-2022/copilot-agent/copilot-agent-tool-config.png":::
+:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config.png" alt-text="Screenshot that shows the tools configuration setting." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config.png":::
 
 ## Frequently asked questions
 
