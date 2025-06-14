@@ -63,7 +63,7 @@ Agent mode can use the following tools:
 
 You can view and manage the tools that can be used for responding to a request. Select the **Tools** icon in the chat window to view and manage the tools that are available in agent mode.
 
-:::image type="content" source="media/vs-2022/mcp-servers/copilot-agent-partial-tools.png" alt-text="Screenshot that shows Copilot agent tool selector." lightbox="media/vs-2022/copilot-agent-mcp/copilot-agent-partial-tools.png":::
+:::image type="content" source="media/vs-2022/mcp-servers/copilot-agent-partial-tools.png" alt-text="Screenshot that shows Copilot agent tool selector." lightbox="media/vs-2022/mcp-servers/copilot-agent-partial-tools.png":::
 
 Based on the outcome of a tool, Copilot might invoke other tools to accomplish the overall request. For example, if a code edit results in syntax errors in the file, Copilot might explore another approach and suggest different code changes.
 
