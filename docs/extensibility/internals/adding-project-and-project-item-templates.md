@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - projects [Visual Studio SDK], adding
 - project items [Visual Studio], adding
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

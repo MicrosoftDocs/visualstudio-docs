@@ -8,8 +8,8 @@ f1_keywords:
 - IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
 helpviewer_keywords:
 - IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

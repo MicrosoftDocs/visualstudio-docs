@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugErrorBreakpointResolution2::GetBreakpointType
 helpviewer_keywords:
 - IDebugErrorBreakpointResolution2::GetBreakpointType
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

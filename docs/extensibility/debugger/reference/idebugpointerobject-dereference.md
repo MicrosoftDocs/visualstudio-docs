@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugPointerObject::Dereference
 helpviewer_keywords:
 - IDebugPointerObject::Dereference method
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

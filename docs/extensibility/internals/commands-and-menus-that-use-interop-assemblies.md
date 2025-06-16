@@ -8,8 +8,8 @@ helpviewer_keywords:
 - interop assemblies, using in commands and menus
 - commands, handling using interop assemblies
 - command handling with interop assemblies
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

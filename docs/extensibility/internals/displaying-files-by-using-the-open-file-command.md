@@ -7,8 +7,8 @@ helpviewer_keywords:
 - project types, supporting Open File command
 - Open File command
 - persistence, supporting Open File command
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

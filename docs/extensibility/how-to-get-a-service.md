@@ -5,8 +5,8 @@ ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
 - services, consuming
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -8,8 +8,8 @@ f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#Hidden
 helpviewer_keywords:
 - Hidden element [Visual Studio project template]
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ---
 # Hidden element (Visual Studio templates)

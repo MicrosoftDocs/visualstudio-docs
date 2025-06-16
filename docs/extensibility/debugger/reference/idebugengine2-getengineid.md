@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugEngine2::GetEngineID
 helpviewer_keywords:
 - IDebugEngine2::GetEngineID
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

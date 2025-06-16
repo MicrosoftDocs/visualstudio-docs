@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugArrayObject::GetCount
 helpviewer_keywords:
 - IDebugArrayObject::GetCount method
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

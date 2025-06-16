@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - debug engines, launching
 - debug engines, attaching to programs
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

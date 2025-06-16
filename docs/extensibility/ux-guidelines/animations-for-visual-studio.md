@@ -3,8 +3,8 @@ title: Animations for Visual Studio
 description: Learn about rules that help ensure consistent and user-friendly animation styles across the Visual Studio IDE.
 ms.date: 04/26/2017
 ms.topic: reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

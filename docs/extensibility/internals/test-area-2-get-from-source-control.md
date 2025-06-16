@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control plug-ins, getting items from source control
 - source control [Visual Studio SDK], getting items from
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

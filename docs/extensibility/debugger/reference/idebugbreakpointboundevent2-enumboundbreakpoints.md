@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugBreakpointBoundEvent2::EnumBoundBreakpoints
 helpviewer_keywords:
 - IDebugBreakpointBoundEvent2::EnumBoundBreakpoints
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

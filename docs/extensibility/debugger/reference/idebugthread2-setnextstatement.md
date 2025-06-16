@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugThread2::SetNextStatement
 helpviewer_keywords:
 - IDebugThread2::SetNextStatement
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

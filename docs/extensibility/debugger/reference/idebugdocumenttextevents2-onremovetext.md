@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugDocumentTextEvents2::OnRemoveText
 helpviewer_keywords:
 - IDebugDocumentTextEvents2::onRemoveText
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

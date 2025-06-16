@@ -7,8 +7,8 @@ f1_keywords:
 - BP_LOCATION_CODE_CONTEXT
 helpviewer_keywords:
 - BP_LOCATION_CODE_CONTEXT structure
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

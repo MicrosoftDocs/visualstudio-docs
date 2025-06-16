@@ -8,8 +8,8 @@ f1_keywords:
 - IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie
 helpviewer_keywords:
 - IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

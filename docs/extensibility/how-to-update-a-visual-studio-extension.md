@@ -7,8 +7,8 @@ helpviewer_keywords:
 - update package
 - update extension
 - new package version
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

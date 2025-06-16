@@ -8,8 +8,8 @@ f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#VSTemplate
 helpviewer_keywords:
 - VSTemplate element [Visual Studio project templates]
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ---
 # VSTemplate element (Visual Studio Templates)

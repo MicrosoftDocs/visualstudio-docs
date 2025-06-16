@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - Windows Installer, VSPackages
 - VSPackages, Windows Installer basics
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

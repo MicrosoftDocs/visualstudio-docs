@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugExceptionEvent2::CanPassToDebuggee
 helpviewer_keywords:
 - IDebugExceptionEvent2::CanPassToDebuggee
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

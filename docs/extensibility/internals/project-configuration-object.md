@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - project configurations, object
 - objects, project configuration
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

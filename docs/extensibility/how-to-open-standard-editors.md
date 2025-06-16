@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], opening
 - projects [Visual Studio SDK], opening standard editors
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

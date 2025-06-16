@@ -8,8 +8,8 @@ helpviewer_keywords:
 - user settings [Visual Studio SDK]
 - Options dialog box, controlling with the Visual Studio SDK
 - VSPackages, user preferences
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

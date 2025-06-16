@@ -7,8 +7,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - what's new [Visual Studio SDK], source control
 - source control [Visual Studio SDK], what's new
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

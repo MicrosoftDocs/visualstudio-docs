@@ -10,8 +10,8 @@ helpviewer_keywords:
 - session debug manager
 - session debug manager, debug engine multiplexing
 - session debug manager, delegating
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

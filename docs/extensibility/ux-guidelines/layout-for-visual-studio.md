@@ -3,8 +3,8 @@ title: Layout for Visual Studio
 description: Learn about layout for Visual Studio dialogs, including unthemed dialogs and new dialogs that have a themed appearance. 
 ms.date: 11/04/2016
 ms.topic: reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

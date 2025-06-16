@@ -7,8 +7,8 @@ f1_keywords:
 - SccProperties
 helpviewer_keywords:
 - SccProperties function
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

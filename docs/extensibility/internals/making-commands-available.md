@@ -8,8 +8,8 @@ helpviewer_keywords:
 - best practices, menu and toolbar commands
 - toolbars [Visual Studio], best practices
 - menu commands, best practices
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

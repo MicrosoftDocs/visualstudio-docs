@@ -9,8 +9,8 @@ helpviewer_keywords:
 - support, Tools Options pages
 - Tools Options pages [Visual Studio SDK], layouts
 - Tools Options pages [Visual Studio SDK], attributes
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

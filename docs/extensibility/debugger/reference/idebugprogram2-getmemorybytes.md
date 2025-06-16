@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugProgram2::GetMemoryBytes
 helpviewer_keywords:
 - IDebugProgram2::GetMemoryBytes
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

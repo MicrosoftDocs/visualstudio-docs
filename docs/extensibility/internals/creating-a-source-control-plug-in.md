@@ -7,8 +7,8 @@ helpviewer_keywords:
 - plug-ins, source control
 - source control plug-ins
 - source control [Visual Studio SDK], plug-ins
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

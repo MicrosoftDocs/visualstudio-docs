@@ -7,8 +7,8 @@ f1_keywords:
 - FIELD_INFO_FIELDS
 helpviewer_keywords:
 - FIELD_INFO_FIELDS enumeration
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

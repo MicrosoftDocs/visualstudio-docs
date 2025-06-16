@@ -7,8 +7,8 @@ helpviewer_keywords:
 - Custom Settings Points
 - user settings [Visual Studio SDK], registering persistence support
 - persistence, registering settings
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -3,9 +3,9 @@ title: Settings overview
 description: An overview of VisualStudio.Extensibility settings
 ms.topic: overview
 ms.date: 08/09/2024
-ms.author: maiak
+ms.author: tinali
 monikerRange: ">=vs-2022"
-author: maiak
+author: tinaschrepfer
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugPortNotify2::RemoveProgramNode
 helpviewer_keywords:
 - IDebugPortNotify2::RemoveProgramNode
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

@@ -9,8 +9,8 @@ f1_keywords:
 helpviewer_keywords:
 - ProjectSubType element [Visual Studio Templates]
 - <ProjectSubType> element [Visual Studio Templates]
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ---
 # ProjectSubType element (Visual Studio templates)

@@ -3,8 +3,8 @@ title: 'Provide an Asynchronous Visual Studio Service'
 description: Learn how to provide an asynchronous Visual Studio service. This approach allows you to obtain a service without blocking the UI thread.
 ms.date: 11/04/2016
 ms.topic: how-to
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -3,8 +3,8 @@ title: Installing the Visual Studio SDK
 description: Explore installation options for the Visual Studio Software Development Kit, including during Visual Studio installation.
 ms.date: 02/02/2024
 ms.topic: overview
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

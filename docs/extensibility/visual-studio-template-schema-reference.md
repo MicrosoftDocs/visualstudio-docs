@@ -8,8 +8,8 @@ helpviewer_keywords:
 - VSTEMPLATE files
 - Visual Studio templates, schema
 - .vstemplate files
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ---
 # Visual Studio template schema reference

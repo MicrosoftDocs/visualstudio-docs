@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - registration, custom tools
 - custom tools, defining registry settings
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

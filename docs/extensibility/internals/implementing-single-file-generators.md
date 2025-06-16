@@ -7,8 +7,8 @@ helpviewer_keywords:
 - custom tools, implementing
 - projects [Visual Studio SDK], extensibility
 - projects [Visual Studio SDK], managed custom tools
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

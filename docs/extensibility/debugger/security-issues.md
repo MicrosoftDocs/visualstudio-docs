@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - security [Debugging SDK]
 - debugging [Debugging SDK], security
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

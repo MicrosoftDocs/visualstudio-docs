@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugExpression2::EvaluateAsync
 helpviewer_keywords:
 - IDebugExpression2::EvaluateAsync
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

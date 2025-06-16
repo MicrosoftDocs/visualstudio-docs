@@ -9,8 +9,8 @@ f1_keywords:
 helpviewer_keywords:
 - <ShowByDefault> element [Visual Studio Templates]
 - ShowByDefault element [Visual Studio Templates]
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ---
 # ShowByDefault element (Visual Studio Templates)

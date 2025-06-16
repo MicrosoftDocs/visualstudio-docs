@@ -4,8 +4,8 @@ description: Learn about the SDKReference element and how it specifies that the 
 ms.date: 11/04/2016
 ms.subservice: general-ide
 ms.topic: reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ---
 # SDKReference Element (Visual Studio Templates)

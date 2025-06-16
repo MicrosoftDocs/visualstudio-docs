@@ -7,8 +7,8 @@ helpviewer_keywords:
 - reference, Debugging SDK
 - debugging [Debugging SDK], reference
 - Debugging SDK, reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

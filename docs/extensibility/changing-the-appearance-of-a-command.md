@@ -7,8 +7,8 @@ helpviewer_keywords:
 - commands, changing appearance
 - menu commands, changing appearance
 - menus, changing command appearance
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

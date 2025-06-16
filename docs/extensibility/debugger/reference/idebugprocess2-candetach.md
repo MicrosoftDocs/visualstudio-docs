@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugProcess2::CanDetach
 helpviewer_keywords:
 - IDebugProcess2::CanDetach
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

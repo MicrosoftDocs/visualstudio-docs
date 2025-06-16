@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - Buttons element (VSCT XML schema)
 - VSCT XML schema elements, Buttons
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

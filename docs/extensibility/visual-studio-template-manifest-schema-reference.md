@@ -3,8 +3,8 @@ title: Visual Studio Template Manifest Schema Reference
 description: This schema reference describes the format of the Visual Studio template manifest files that are generated for Visual Studio project or item templates.
 ms.date: 11/04/2016
 ms.topic: reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -9,8 +9,8 @@ f1_keywords:
 helpviewer_keywords:
 - SortOrder element [Visual Studio Templates]
 - <SortOrder> element [Visual Studio Templates]
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ---
 # SortOrder Element (Visual Studio Templates)

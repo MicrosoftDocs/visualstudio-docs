@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Visual Studio SDK
 - VSSDK (see Visual Studio SDK)
 - Visual Studio, SDK
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

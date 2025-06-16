@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], checking items in
 - source control plug-ins, checking items in
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

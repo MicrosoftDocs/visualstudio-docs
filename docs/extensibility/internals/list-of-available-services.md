@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - services, Visual Studio
 - Visual Studio, services
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

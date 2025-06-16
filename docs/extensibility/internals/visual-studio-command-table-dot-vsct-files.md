@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - VSCT files, overview
 - Visual Studio command table configuration files (VSCT), overview
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

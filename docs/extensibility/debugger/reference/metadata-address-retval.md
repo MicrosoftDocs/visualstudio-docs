@@ -7,8 +7,8 @@ f1_keywords:
 - METADATA_ADDRESS_RETVAL
 helpviewer_keywords:
 - METADATA_ADDRESS_RETVAL structure
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

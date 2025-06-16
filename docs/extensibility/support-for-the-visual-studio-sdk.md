@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Help, Visual Studio SDK
 - newsgroups, Visual Studio SDK support
 - Web sites, Visual Studio SDK support
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

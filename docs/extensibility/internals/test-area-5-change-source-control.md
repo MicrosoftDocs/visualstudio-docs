@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], changing
 - source control plug-ins, changing source control
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
