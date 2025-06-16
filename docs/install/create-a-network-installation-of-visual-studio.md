@@ -414,7 +414,7 @@ We have other support options available, too. See our [Visual Studio Developer C
 - [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 - [Deploy Visual Studio from a layout onto a client machine](deploy-a-layout-onto-a-client-machine.md)
 - [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
-- [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
+- [Troubleshoot network-related errors when you install or use Visual Studio](/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors)
 - [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md) 
 - [Visual Studio product lifecycle and servicing](/visualstudio/productinfo/vs-servicing/)
 - [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)

@@ -30,7 +30,7 @@ If your clients are [configured to acquire updates](update-visual-studio.md?view
 
 If your clients are [configured to acquire updates](update-visual-studio.md#configure-source-location-of-updates-1) from a layout, then the first step before updating the client is to make sure that the layout itself contains the updated version of Visual Studio. The IT administrator should either [update the existing layout with the latest product updates](create-a-network-installation-of-visual-studio.md#maintaining-your-layout) so that both new client installations or client updates can receive the updated version, or they can [create a whole new layout](create-a-network-installation-of-visual-studio.md) in a different layout directory that you can use to update the client machines. Best practice is to update the layouts on the second Tuesday of the month right after the security updates are released.
 
-Make sure that either the user or system account that's running the update has proper access to the network share or internal website that contains the layout. For more information, refer to [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md#error-the-product-fails-to-install-or-update-because-network-share-permissions-arent-configured-correctly).
+Make sure that either the user or system account that's running the update has proper access to the network share or internal website that contains the layout. For more information, refer to [Troubleshoot network-related errors when you install or use Visual Studio](/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors#error-the-product-fails-to-install-or-update-because-network-share-permissions-arent-configured-correctly).
 
 ## Manually initiate the update on the client machine
 
@@ -148,7 +148,7 @@ We have other support options available, too. See our [Visual Studio Developer C
 
 * [Create and maintain a network layout](create-a-network-installation-of-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
-* [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
+* [Troubleshoot network-related errors when you install or use Visual Studio](/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
 * [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md)
