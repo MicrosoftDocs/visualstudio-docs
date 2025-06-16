@@ -32,7 +32,7 @@ Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-d
 To get started using GitHub Copilot Chat in Visual Studio, you need:
 + Visual Studio 2022 [version 17.10](/visualstudio/releases/2022/release-history) or later
 + [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
-  <sup>**</sup> You can use [GitHub Copilot for Free](copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
+  <sup>**</sup> You can use [GitHub Copilot for Free](copilot-free-plan.md).
 
 Support for GitHub Copilot Chat will be provided by GitHub and can be reached at https://support.github.com.
 
