@@ -17,7 +17,7 @@ monikerRange: '>= vs-2022'
 
 You can ask [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) to give you code suggestions, explain code, generate unit tests, and suggest code fixes. In addition to your prompt, Copilot uses additional context, like the code in your current file and the chat history, to generate a response.
 
-In this article, you learn how to get better answers by providing more information to Copilot Chat including:
+In this article, you learn how to get better answers by providing more information to Copilot Chat:
 + Use [slash commands](#slash-commands) to quickly specify common tasks like `/explain` to get code explanations.
 + Use the [guided chat experience](#prompting-guidance) and [custom instructions](#enable-custom-instructions) to refine context.
 + [Attach images](#attach-images) to your prompt to provide additional context and better illustrate your ideas.
