@@ -117,7 +117,7 @@ Reference output logs in chat in one of the following ways:
 
 1. Use *#output* to reference it directly in chat.
 1. Select the `+` icon in the chat input and add `Output logs` as context.
-1. Ask Copilot directly, for example, Check my output logs and help me fix this error.
+1. Ask Copilot directly, for example, *Check my output logs and help me fix this error*.
 1. Right-click in the **Output Window** and select **Explain with Copilot** to attach it.
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-output-window.png" alt-text="Screenshot of output window as context in Copilot Chat.":::
