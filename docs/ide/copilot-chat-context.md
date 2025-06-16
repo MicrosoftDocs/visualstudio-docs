@@ -1,7 +1,7 @@
 ---
 title: 'Tips & Tricks for GitHub Copilot Chat in Visual Studio'
 description: Use slash commands, references, and threads to form better questions and get better answers with scoped context in GitHub Copilot Chat.
-ms.date: 2/26/2025
+ms.date: 6/16/2025
 ms.topic: how-to 
 author: anandmeg
 ms.author: meghaanand
@@ -30,11 +30,9 @@ Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-d
 ## Prerequisites
 
 To get started using GitHub Copilot Chat in Visual Studio, you need:
-+ Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later
++ Visual Studio 2022 [version 17.10](/visualstudio/releases/2022/release-history) or later
 + [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
   <sup>**</sup> You can use [GitHub Copilot for Free](copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
-+ [GitHub Copilot](visual-studio-github-copilot-install-and-states.md) in Visual Studio
-+ [GitHub Copilot Chat](visual-studio-github-copilot-chat.md#get-github-copilot-chat-for-visual-studio) in Visual Studio
 
 Support for GitHub Copilot Chat will be provided by GitHub and can be reached at https://support.github.com.
 
@@ -111,6 +109,18 @@ Use *@workspace* to refer to the solution active in the IDE for context. When us
 With Visual Studio 2022 version 17.11, [GitHub Copilot Enterprise](https://docs.github.com/en/enterprise-cloud@latest/copilot/about-github-copilot/subscription-plans-for-github-copilot) subscribers can now use `@github` in chat to include context from their entire repository and to search the web (if [search is enabled by your admin](https://docs.github.com/en/enterprise-cloud@latest/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise#give-copilot-access-to-bing)). To learn more about the collection of GitHub-specific skills that Copilot can use to answer your question when using `@github`, see [Using GitHub skills for Copilot](https://docs.github.com/en/enterprise-cloud@latest/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide?tool=visualstudio#using-github-skills-for-copilot-preview).
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-at-github.png" alt-text="Screenshot of using GitHub skills in Copilot Chat.":::
+
+### Reference output window
+
+You can now use the output window as context in chat to ask questions and get help with output logs.
+Reference output logs in chat in one of the following ways:
+
+1. Use *#output* to reference it directly in chat.
+1. Select the `+` icon in the chat input and add `Output logs` as context.
+1. Ask Copilot directly, for example, Check my output logs and help me fix this error.
+1. Right-click in the **Output Window** and select **Explain with Copilot** to attach it.
+
+:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-output-window.png" alt-text="Screenshot of output window as context in Copilot Chat.":::
 
 ### Usage examples
 Here are some examples of using references for context control:
