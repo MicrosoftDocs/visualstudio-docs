@@ -22,7 +22,7 @@ This article lists all the common project items defined in MSBuild itself. Items
 
 ## `Reference`
 
-Represents an assembly (managed) reference in the project.
+Represents a .NET assembly (managed) reference in the project.
 
 |Item metadata name|Description|
 |---------------|-----------------|
@@ -33,9 +33,14 @@ Represents an assembly (managed) reference in the project.
 |Aliases|Optional string. Any aliases for the reference.|
 |Private|Optional boolean. Specifies whether the reference should be copied to the output folder. This attribute matches the **Copy Local** property of the reference that's in the Visual Studio IDE.|
 
+> [!NOTE]
+> The `Reference` item type can also be use to reference pregenerated wrapper assemblies for native COM objects, for example, if you used [`tlbimp.exe`](/dotnet/framework/tools/tlbimp-exe-type-library-importer) to generate a PIA (Primary Interop Assembly). This type of reference is an appropriate choice when you want to pregenerate the COM wrapper assemblies yourself with known inputs, instead of relying on MSBuild's algorithm to generate COM wrappers at build time, which introduces a dependency on the state of the system registry on the build machine where MSBuild is run. 
+
 ## COMReference
 
-Represents a COM (unmanaged) component reference in the project. This item applies only to .NET projects.
+Represents a COM (unmanaged) component reference in the project. This item is used by the [ResolveComReference task](./resolvecomreference-task.md), which generates the wrapper assemblies, or, if `EmbedInteropTypes` is used, embeds the interop types in your assembly. Using this type of reference introduces a dependency on the system registry on the build machine, which is used to look up the referenced COM object. COM artifacts and COM entries in the registry can change when products are installed, updated, or uninstalled on the machine (or when you run the same build on a different machine), potentially producing a different wrapper assembly even if the build logic hasn't changed.
+
+This item doesn't apply to non-.NET projects.
 
 |Item metadata name|Description|
 |---------------|-----------------|
@@ -50,7 +55,9 @@ Represents a COM (unmanaged) component reference in the project. This item appli
 
 ## COMFileReference
 
-Represents a list of type libraries that are passed to the `TypeLibFiles` parameter of the [ResolveComReference](resolvecomreference-task.md) target. This item applies only to .NET projects.
+Represents a list of type libraries to reference by file path, instead of using the system registry. This type of reference can be a good alternative to COMReference in cases where you want to avoid a dependency on the build machine's registry, either because the account that runs the build doesn't have elevated privileges to edit the registry on the build server, or you don't want the build to have a dependency on the state of the registry. If you use `COMFileReference` to reference an artifact on a system path, then your build has a dependency on the system state. If the system artifact changes due to a change in the state of the system, such as when products are installed, updated, or uninstalled (or if you run the same build on a different machine), then the wrapper assembly can change, even if the build logic hasn't changed. To ensure a consistent build result, you can cache a known copy of the COM artifact in a place you control, such as under your project or solution folder, and reference that instead of the system artifact.
+
+This item doesn't apply to non-.NET projects.
 
 |Item metadata name|Description|
 |---------------|-----------------|
