@@ -8,6 +8,7 @@ ms.subservice: unreal-engine-tools
 author: TylerMSFT
 ms.author: TWhitney
 manager: Coxford
+ai-usage: ai-assisted
 
 #customer intent: As an Unreal Engine developer, I want to debug Blueprint code alongside my c++ code in Visual Studio.
 ---
