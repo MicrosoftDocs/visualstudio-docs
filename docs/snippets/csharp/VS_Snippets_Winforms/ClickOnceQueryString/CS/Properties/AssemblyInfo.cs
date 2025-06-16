@@ -10,12 +10,12 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("MS")]
 [assembly: AssemblyProduct("ClickOnceQueryString")]
-[assembly: AssemblyCopyright("Copyright © MS 2005")]
+[assembly: AssemblyCopyright("Copyright ï¿½ MS 2005")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
-// to COM componenets.  If you need to access a type in this assembly from 
+// to COM components.  If you need to access a type in this assembly from 
 // COM, set the ComVisible attribute to true on that type.
 [assembly: ComVisible(false)]
 
