@@ -227,7 +227,7 @@ You can remove the extension from Visual Studio Marketplace and from your comput
 
 2. In the upper-right hand corner, click **Publish** extensions. Pick the publisher that you used to publish (eg: **TestPublish**). The listing for extensions will appear.
 
-3. Click on extenion menu button → click **Remove**. You are asked to confirm if you want to remove the extension.
+3. Click on extension menu button → click **Remove**. You are asked to confirm if you want to remove the extension.
 
 ![Screenshot that shows Remove menu item.](media/remove-extension.png)
 
