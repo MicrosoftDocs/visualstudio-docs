@@ -221,7 +221,7 @@ In the following example, the `response.json` file initializes a Visual Studio E
 
 ## Troubleshooting
 
-If you run into a problem with the Visual Studio bootstrapper throwing an error when you pair it with a `response.json` file, see [Troubleshoot network-related errors when you install or use Visual Studio](../install//troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors#error-failed-to-parse-id-from-parent-process) page for more information.
+If you run into a problem with the Visual Studio bootstrapper throwing an error when you pair it with a `response.json` file, see [Troubleshoot network-related errors when you install or use Visual Studio](/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors#error-failed-to-parse-id-from-parent-process) page for more information.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
