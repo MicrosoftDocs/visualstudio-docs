@@ -126,7 +126,8 @@ With Visual Studio 2022 version 17.11, [GitHub Copilot Enterprise](https://docs.
 
 ### Reference output window
 
-You can now use the output window as context in chat to ask questions and get help with output logs.
+You can now use the output window as context in chat to ask questions and get help with output logs. Supported output windows include Build, Debug, Tests, Source Control, Package Manager, or any other active output window pane.
+
 Reference output logs in chat in one of the following ways:
 
 - Use *#output* to reference it directly in chat.
