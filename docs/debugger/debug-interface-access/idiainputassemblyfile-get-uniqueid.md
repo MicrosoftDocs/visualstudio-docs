@@ -29,7 +29,7 @@ HRESULT get_uniqueId(
 
  `pRetVal`
 
-[out] Returns the unique identifer for this file.
+[out] Returns the unique identifier for this file.
 
 ## Return Value
 
