@@ -111,7 +111,7 @@ Each diagnoser generates performance data related to that diagnoser. For example
 
 1. In Visual Studio, select **File > Open > File** and navigate to the location of the *.diagsession* file, and then select and open the file.
 
-1. Select the **Benchmark** tab to view BenchmarkDotNet data.
+1. Select the **Benchmark** tab to view data for the BenchmarkDotNet benchmarks.
 
    ![Screenshot of BenchmarkDotNet data in Visual Studio.](../profiling/media/vs-2022/benchmark-dotnet-diagsession.png)
 
@@ -124,6 +124,8 @@ Each diagnoser generates performance data related to that diagnoser. For example
    Depending on the diagnoser you used to collect data, you can gain insights related to memory allocation, CPU usage, counters, and other performance data. To analyze memory allocations, use the built-in [MemoryDiagnoser](https://github.com/MicrosoftDocs/visualstudio-docs-pr/pull/14006).
 
    For an example of using the profiler to analyze memory allocations, see the blog post [Benchmarking with Visual Studio Profiler](https://devblogs.microsoft.com/visualstudio/benchmarking-with-visual-studio-profiler/).
+
+   To analyze data related to other tabs such as **CPU Usage**, see the corresponding article in the profiling documentation.
 
 ## Related content
 
