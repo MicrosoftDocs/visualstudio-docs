@@ -115,7 +115,17 @@ Each diagnoser generates performance data related to that diagnoser. For example
 
    ![Screenshot of BenchmarkDotNet data in Visual Studio.](../profiling/media/vs-2022/benchmark-dotnet-diagsession.png)
 
+1. Right-click a row in the results and choose **Select time range** to sync the timeline with the benchmark
+
 For more information about the results, see [BenchmarkDotNet](https://benchmarkdotnet.org/articles/overview.html) documentation.
+
+## Analyze additional data
+
+Depending on the diagnoser you used, you can analyze the collected BenchmarkDotNet data to gain insights related to memory allocation, CPU usage, counters, and other data.
+
+- In the profiler, open one of the tabs such as **CPU Usage** or **Allocations**. 
+
+For an example using the memory diagnoser, see the blog post [Benchmarking with Visual Studio Profiler](https://devblogs.microsoft.com/visualstudio/benchmarking-with-visual-studio-profiler/).
 
 ## Related content
 
