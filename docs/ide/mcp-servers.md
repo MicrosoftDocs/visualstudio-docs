@@ -30,53 +30,53 @@ By standardizing this interaction, MCP eliminates the need for custom integratio
 ## Configuration example with GitHub MCP server
 
 1. Create a new file: `<SOLUTIONDIR>\.mcp.json`. Using Visual Studio to edit this file is recommended so its JSON schema is automatically applied.
-1. Paste the following contents into the `.mcp.json` file
+2. Paste the following contents into the `.mcp.json` file
 
-```json
-{
-  "inputs": [
-    {
-      "id": "github_pat",
-      "description": "GitHub personal access token",
-      "type": "promptString",
-      "password": true
-    }
-  ],
-  "servers": {
-    "github": {
-      "type": "stdio",
-      "command": "docker",
-      "args": [
-        "run",
-        "-i",
-        "--rm",
-        "-e",
-        "GITHUB_PERSONAL_ACCESS_TOKEN",
-        "ghcr.io/github/github-mcp-server"
-      ],
-      "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "${input:github_pat}"
+  ```json
+  {
+    "inputs": [
+      {
+        "id": "github_pat",
+        "description": "GitHub personal access token",
+        "type": "promptString",
+        "password": true
+      }
+    ],
+    "servers": {
+      "github": {
+        "type": "stdio",
+        "command": "docker",
+        "args": [
+          "run",
+          "-i",
+          "--rm",
+          "-e",
+          "GITHUB_PERSONAL_ACCESS_TOKEN",
+          "ghcr.io/github/github-mcp-server"
+        ],
+        "env": {
+          "GITHUB_PERSONAL_ACCESS_TOKEN": "${input:github_pat}"
+        }
       }
     }
   }
-}
-```
+  ```
 
-1. Get a Personal Access Token for your [GitHub Account](https://github.com/settings/personal-access-tokens)
-1. In Visual Studio, click the `Ask` dropdown in the GitHub Copilot Chat window, and then select `Agent`.
+3. Get a Personal Access Token for your [GitHub Account](https://github.com/settings/personal-access-tokens)
+4. In Visual Studio, click the `Ask` dropdown in the GitHub Copilot Chat window, and then select `Agent`.
 
     :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot that shows Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png":::
 
-1. When prompted, paste your personal access token into the dialog.
+5. When prompted, paste your personal access token into the dialog.
 
     :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-personal-access-token.png" alt-text="Screenshot that shows entering the personal access token." lightbox="media/vs-2022/mcp-servers/model-context-protocol-personal-access-token.png":::
 
-1. Select the tools you'd like to use, for example, `list_issues`
+6. Select the tools you'd like to use, for example, `list_issues`
 
     :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-github-tools-list.png" alt-text="Screenshot that shows MCP GitHub tools." lightbox="media/vs-2022/mcp-servers/model-context-protocol-github-tools-list.png":::
 
-1. Try a sample prompt: `list issues assigned to me on GitHub`
-1. Copilot asks for permission to use a tool made available to it by the MCP server, select **Allow** with the scope you wish to proceed with.
+7. Try a sample prompt: `list issues assigned to me on GitHub`
+8. Copilot asks for permission to use a tool made available to it by the MCP server, select **Allow** with the scope you wish to proceed with.
 
     :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png" alt-text="Screenshot that shows the agent tools confirmation options." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png":::
 
