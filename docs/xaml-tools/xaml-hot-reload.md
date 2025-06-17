@@ -19,7 +19,7 @@ With XAML Hot Reload, you can incrementally build and test XAML code for your .N
 > [!TIP]
 > If you've arrived here by way of the XAML Hot Reload user interface (UI), welcome! You're in the right place to learn more about XAML Hot Reload.
 >
-> But, if you're here for help troubleshooting XAML Hot Reload, see [Troubleshooting XAML Hot Reload](xaml-hot-reload-troubleshooting.md) instead.
+> But, if you're here for help troubleshooting XAML Hot Reload, see [Troubleshooting XAML Hot Reload](/troubleshoot/developer/visualstudio/tools-utilities/xaml-hot-reload-troubleshooting) instead.
 
 ## Where to get XAML Hot Reload
 
@@ -27,7 +27,7 @@ Visual Studio XAML Hot Reload is supported when you're running an application in
 
 Starting in Visual Studio 2022 version 17.14 Preview 2, XAML Hot Reload and [XAML Live Preview](../xaml-tools/xaml-live-preview.md) are available at design-time and not just during a debugging session.
 
-You can't enable this experience by using [Attach to process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md) unless you [manually set an environment variable](xaml-hot-reload-troubleshooting.md#verify-that-you-use-start-debugging-rather-than-attach-to-process).
+You can't enable this experience by using [Attach to process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md) unless you [manually set an environment variable](/troubleshoot/developer/visualstudio/tools-utilities/xaml-hot-reload-troubleshooting#verify-that-you-use-start-debugging-rather-than-attach-to-process).
 
 ## Scenarios for XAML Hot Reload
 
@@ -56,7 +56,7 @@ The following animation shows an instance of using Live Visual Tree to open some
 
 ## Related content
 
-* [Troubleshooting XAML Hot Reload](xaml-hot-reload-troubleshooting.md)
+* [Troubleshooting XAML Hot Reload](/troubleshoot/developer/visualstudio/tools-utilities/xaml-hot-reload-troubleshooting)
 * [XAML Hot Reload for .NET MAUI](/dotnet/maui/xaml/hot-reload)
 * [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)
 * [XAML data binding diagnostics](xaml-data-binding-diagnostics.md)

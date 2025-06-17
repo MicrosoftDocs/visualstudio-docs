@@ -170,7 +170,7 @@ Select the following button to install Visual Studio, and choose the edition of 
 Dive into coding with one of the following language-specific tutorials:
 
 - [Create a simple C# console app](./csharp/tutorial-console.md)
-- [Get started with Python](../python/tutorial-working-with-python-in-visual-studio-step-00-installation.md)
+- [Get started with Python](/visualstudio/python/installing-python-support-in-visual-studio)
 - [Create a simple VB console app](./visual-basic/tutorial-console.md)
 - [Create a C++ console app](/cpp/get-started/tutorial-console-cpp)
 - [Create a Node.js and Express app](../javascript/tutorial-nodejs.md)

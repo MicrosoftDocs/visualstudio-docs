@@ -140,7 +140,7 @@ When you use Visual Studio or Azure Services behind a firewall or proxy server, 
 
 ## Troubleshoot network-related errors
 
-Sometimes, you might run in to network- or proxy-related errors when you install or use Visual Studio behind a firewall or a proxy server. For more information about solutions for such error messages, see [Troubleshooting network-related errors](troubleshooting-network-related-errors-in-visual-studio.md).
+Sometimes, you might run in to network- or proxy-related errors when you install or use Visual Studio behind a firewall or a proxy server. For more information about solutions for such error messages, see [Troubleshooting network-related errors](/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors).
 
 ## Get support
 
@@ -156,6 +156,6 @@ Here are a few more support options:
 
 * [Connectivity requirements for Live Share](/visualstudio/liveshare/reference/connectivity/)
 * [Create and maintain a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
-* [Troubleshoot network-related errors in Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
+* [Troubleshoot network-related errors in Visual Studio](/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Configure network settings for Copilot in Visual Studio](https://docs.github.com/en/copilot/configuring-github-copilot/configuring-network-settings-for-github-copilot?tool=visualstudio#configuring-proxy-settings-for-github-copilot)
