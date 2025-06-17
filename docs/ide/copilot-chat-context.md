@@ -1,7 +1,7 @@
 ---
 title: 'Tips & Tricks for GitHub Copilot Chat in Visual Studio'
 description: Use slash commands, references, and threads to form better questions and get better answers with scoped context in GitHub Copilot Chat.
-ms.date: 2/26/2025
+ms.date: 6/16/2025
 ms.topic: how-to 
 author: anandmeg
 ms.author: meghaanand
@@ -15,12 +15,12 @@ monikerRange: '>= vs-2022'
 ---
 # Get better answers by setting the context for GitHub Copilot Chat in Visual Studio
 
-You can use [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) in Visual Studio to get coding information and support, such as syntax, programming concepts, context-specific code help, test cases, debugging, and more, without leaving the IDE. Copilot Chat is integrated into Visual Studio, which means it can understand what you're working on by gathering useful clues from what you have in the IDE.
+You can ask [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) to give you code suggestions, explain code, generate unit tests, and suggest code fixes. In addition to your prompt, Copilot uses additional context, like the code in your current file and the chat history, to generate a response.
 
- In addition to your prompt, Copilot uses additional context, like the code in your current file and the chat history, to generate a response. In this article, you learn how to get better answers by providing more information to Copilot Chat including:
+In this article, you learn how to get better answers by providing more information to Copilot Chat:
 + Use [slash commands](#slash-commands) to quickly specify common tasks like `/explain` to get code explanations.
-+ Use the [guided chat experience](#prompting-guidance) and [custom instructions](#enable-custom-instructions) to refine context in Visual Studio 17.12 or later.
-+ [Attach images](#attach-images) to your prompt to provide additional context and better illustrate your ideas in Visual Studio 17.14 Preview 1 or later.
++ Use the [guided chat experience](#prompting-guidance) and [custom instructions](#enable-custom-instructions) to refine context.
++ [Attach images](#attach-images) to your prompt to provide additional context and better illustrate your ideas.
 + Scope the chat to specific files using [references](#reference).
 + Review the [source used](#find-context) by Copilot to generate the answer.
 + Use different [threads](#threads) for each of your Copilot chats so you can maintain different contexts in each.
@@ -30,11 +30,9 @@ Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-d
 ## Prerequisites
 
 To get started using GitHub Copilot Chat in Visual Studio, you need:
-+ Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later
++ Visual Studio 2022 [version 17.10](/visualstudio/releases/2022/release-history) or later
 + [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
-  <sup>**</sup> You can use [GitHub Copilot for Free](copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
-+ [GitHub Copilot](visual-studio-github-copilot-install-and-states.md) in Visual Studio
-+ [GitHub Copilot Chat](visual-studio-github-copilot-chat.md#get-github-copilot-chat-for-visual-studio) in Visual Studio
+  <sup>**</sup> You can use [GitHub Copilot for Free](copilot-free-plan.md).
 
 Support for GitHub Copilot Chat will be provided by GitHub and can be reached at https://support.github.com.
 
@@ -53,6 +51,20 @@ To configure custom instructions:
 1. Enable the feature in Visual Studio via **Tools** > **Options** > **GitHub** > **Copilot** > select **(Preview) Enable custom instructions to be loaded from .github/copilot-instructions.md files and added to requests.**.
 
 Custom instructions are not visible in the Chat view or inline chat. However, when used by Copilot, the`.github/copilot-instructions.md` file is listed in the References list of a response.
+
+## Use prompt files
+
+You can now create reusable prompt files in your repository to run or share your frequently used prompts.
+
+To create a prompt file:
+1. Write your prompts as you normally would in the prompt box, using `#` references to include specific information from your solution, such as methods, classes, and files. You can even reference other prompt files for shared instructions.
+1. Copy the prompt into a markdown file, and save it with the `.prompt.md` extension in the `.github/prompts` folder at the root of your repository.
+
+To use a prompt file:
+1. Type `#prompt:` in chat input to reference any prompt files from your `.github/prompts` folder, or click the ➕ icon in the chat input to add it as context.
+1. Add any extra details, or simply enter the prompt as is.
+
+:::image type="content" source="media/vs-2022/copilot-chat-context/prompt-files.png" alt-text="Screenshot of using prompt files in GitHub Copilot Chat.":::
 
 ## <a name="slash-commands"></a>Use slash commands in Copilot Chat for common tasks
 
@@ -111,6 +123,19 @@ Use *@workspace* to refer to the solution active in the IDE for context. When us
 With Visual Studio 2022 version 17.11, [GitHub Copilot Enterprise](https://docs.github.com/en/enterprise-cloud@latest/copilot/about-github-copilot/subscription-plans-for-github-copilot) subscribers can now use `@github` in chat to include context from their entire repository and to search the web (if [search is enabled by your admin](https://docs.github.com/en/enterprise-cloud@latest/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise#give-copilot-access-to-bing)). To learn more about the collection of GitHub-specific skills that Copilot can use to answer your question when using `@github`, see [Using GitHub skills for Copilot](https://docs.github.com/en/enterprise-cloud@latest/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide?tool=visualstudio#using-github-skills-for-copilot-preview).
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-at-github.png" alt-text="Screenshot of using GitHub skills in Copilot Chat.":::
+
+### Reference output window
+
+You can now use the output window as context in chat to ask questions and get help with output logs. Supported output windows include Build, Debug, Tests, Source Control, Package Manager, or any other active output window pane.
+
+Reference output logs in chat in one of the following ways:
+
+- Use *#output* to reference it directly in chat.
+- Select the ➕ icon in the chat input and add `Output logs` as context.
+- Ask Copilot directly, for example, *Check my output logs and help me fix this error*.
+- Right-click in the **Output Window** and select **Explain with Copilot** to attach it.
+
+:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-output-window.png" alt-text="Screenshot of output window as context in Copilot Chat.":::
 
 ### Usage examples
 Here are some examples of using references for context control:
