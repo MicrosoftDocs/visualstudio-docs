@@ -52,6 +52,20 @@ To configure custom instructions:
 
 Custom instructions are not visible in the Chat view or inline chat. However, when used by Copilot, the`.github/copilot-instructions.md` file is listed in the References list of a response.
 
+## Use prompt files
+
+You can now create reusable prompt files in your repository to run or share your frequently used prompts.
+
+To create a prompt file:
+1. Write your prompts as you normally would in the prompt box, using `#` references to include specific information from your solution, such as methods, classes, and files. You can even reference other prompt files for shared instructions.
+1. Copy the prompt into a markdown file, and save it with the `.prompt.md` extension in the `.github/prompts` folder at the root of your repository.
+
+To use a prompt file:
+1. Type `#prompt:` in chat input to reference any prompt files from your `.github/prompts` folder, or click the ➕ icon in the chat input to add it as context.
+1. Add any extra details, or simply enter the prompt as is.
+
+:::image type="content" source="media/vs-2022/copilot-chat-context/prompt-files.png" alt-text="Screenshot of using prompt files in GitHub Copilot Chat.":::
+
 ## <a name="slash-commands"></a>Use slash commands in Copilot Chat for common tasks
 
 Slash commands in Copilot Chat help you set the intent quickly for common development tasks. By using specific slash commands to form your question, you can get better answers without having to write out long questions. 
@@ -116,7 +130,7 @@ You can now use the output window as context in chat to ask questions and get he
 Reference output logs in chat in one of the following ways:
 
 1. Use *#output* to reference it directly in chat.
-1. Select the `+` icon in the chat input and add `Output logs` as context.
+1. Select the ➕ icon in the chat input and add `Output logs` as context.
 1. Ask Copilot directly, for example, *Check my output logs and help me fix this error*.
 1. Right-click in the **Output Window** and select **Explain with Copilot** to attach it.
 
