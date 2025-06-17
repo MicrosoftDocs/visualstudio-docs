@@ -207,7 +207,7 @@ You might need to debug optimized code without it being deoptimized, or put a br
 
 - On the Visual Studio main menu, select **Tools** > **Options** > **Debugging** > **General**. Clear the **Automatically deoptimize debugged functions when possible (.NET 8+, C++ Dynamic Debugging)** checkbox. The next time the debugger starts, code remains optimized.
 - Many dynamic debugging breakpoints are two breakpoints: one in the optimized binary and one in the unoptimized binary. In the **Breakpoints** window, select **Show Columns** > **Function**. Clear the breakpoint associated with the `alt` binary. The other breakpoint in the pair breaks in the optimized code.
-- When you're debugging, on the Visual Studio main menu, select **Debug** > **Windows** > **Disassembly**. Ensure that it has focus. When you step into a function via the **Dissassembly** window, the function won't be deoptimized.
+- When you're debugging, on the Visual Studio main menu, select **Debug** > **Windows** > **Disassembly**. Ensure that it has focus. When you step into a function via the **Disassembly** window, the function won't be deoptimized.
 - Disable dynamic debugging entirely by not passing `/dynamicdeopt` to `cl.exe`, `lib.exe`, and `link.exe`. If you're consuming third-party libraries and can't rebuild them, don't pass `/dynamicdeopt` during the final `link.exe` to disable Dynamic Debugging for that binary.
 - To quickly disable Dynamic Debugging for a single binary (for example, `test.dll`), rename or delete the `alt` binary (for example, `test.alt.dll`).
 - To disable Dynamic Debugging for one or more `.cpp` files, don't pass `/dynamicdeopt` when you build them. The remainder of your project is built with Dynamic Debugging.
