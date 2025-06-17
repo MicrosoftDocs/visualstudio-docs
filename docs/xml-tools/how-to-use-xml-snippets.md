@@ -101,7 +101,7 @@ Only the first instance of a given field is editable. When that field is highlig
 
 Pressing **Enter** or **Esc** cancels field editing and returns the editor to normal.
 
-The default colors for editable code snippet fields can be changed by modifying the **Code Snippet Field** setting in the **Fonts and Colors** pane of the **Options** dialog box. For more information, see [How to: Change fonts and colors in the editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md).
+The default colors for editable code snippet fields can be changed by modifying the **Code Snippet Field** setting in the **Fonts and Colors** pane of the **Options** dialog box. For more information, see [How to: Change fonts and colors in the editor](/visualstudio/ide/how-to-change-fonts-and-colors-in-visual-studio).
 
 ## Related content
 

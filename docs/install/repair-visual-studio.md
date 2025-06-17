@@ -95,4 +95,4 @@ To repair your installation, follow these steps.
 - [Install Visual Studio](install-visual-studio.md)
 - [Update Visual Studio](update-visual-studio.md)
 - [Uninstall Visual Studio](uninstall-visual-studio.md)
-- [Troubleshooting Visual Studio installation and upgrade issues](troubleshooting-installation-issues.md)
+- [Troubleshooting Visual Studio installation and upgrade issues](/troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues)
