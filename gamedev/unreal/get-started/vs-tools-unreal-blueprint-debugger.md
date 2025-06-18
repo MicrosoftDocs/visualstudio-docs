@@ -1,7 +1,7 @@
 ---
 title: "Debug Unreal Engine Blueprints in Visual Studio"
 description: "Learn how to use Visual Studio's Blueprint debugger to debug Unreal Engine Blueprint code alongside C++ code."
-ms.date: 06/17/2025
+ms.date: 06/18/2025
 ms.topic: how-to
 ms.service: visual-studio
 ms.subservice: unreal-engine-tools
@@ -28,21 +28,20 @@ Visual Studio Blueprint debugger support provides:
 
 ## Prerequisites
 
-- Visual Studio 2022 17.14 or later with the **Game development with C++** workload and **Visual Studio debugger tools for Unreal Engine Blueprints** component installed.
+- Visual Studio 2022 17.14 or later with the **Game development with C++** workload installed.
+- **Visual Studio debugger tools for Unreal Engine Blueprints** component.
+- **Visual Studio Tools for Unreal Engine** component.
+- Unreal Engine plugin for Visual Studio.
 - Unreal Engine installed with debug symbols.
-- Visual Studio plugin for Unreal Engine installed.
+- Visual Studio plugin for Unreal Engine.
 
 ## Install prerequisites
 
-Run the Visual Studio Installer to install the required components to debug Unreal Engine Blueprints. For more information on installing Visual Studio Tools for Unreal Engine, see [Get started with Visual Studio Tools for Unreal Engine](vs-tools-unreal-quickstart.md).
+Run the Visual Studio Installer to install the required components to debug Unreal Engine Blueprints. For more information about installing Visual Studio Tools for Unreal Engine, see [Get started with Visual Studio Tools for Unreal Engine](vs-tools-unreal-quickstart.md).
 
-1. On the **Workloads** pane, make sure the **Game development with C++** workload is installed.
+1. On the **Workloads** pane, make sure the **Game development with C++** workload is installed, along with **Visual Studio debugger tools for Unreal Engine Blueprints** and **Visual Studio Tools for Unreal Engine**:
 
     :::image type="content" source="../media/vs-installer-unreal-engine-workload.png" alt-text="Screenshot of the Visual Studio installer. The Game development with C++ workload is selected. In the installation details pane, Visual Studio Tools for Unreal Engine, Visual Studio debugger tools for Unreal Engine Blueprints, HSL Tools, And Windows 11 SDK are selected." lightbox="../media/vs-installer-unreal-engine-workload.png":::
-
-1. On the **Individual components** pane, make sure **Visual Studio debugger tools for Unreal Engine Blueprints** is installed:
-
-    :::image type="content" source="../media/vs-unreal-engine-install-blueprints-debug-tools.png" alt-text="Screenshot of the Visual Studio installer Individual components pane. Visual Studio debugger tools for Unreal Engine Blueprints is selected.":::
 
 ### Install Unreal Engine debug symbols
 
@@ -59,6 +58,16 @@ Install debug symbols for each version of Unreal Engine you debug with Visual St
     :::image type="content" source="../media/unreal-engine-editor-symbols-for-debugging.png" alt-text="Screenshot of the Epic Games installation options. Editor symbols for debugging is selected.":::
 
 1. Select **Apply**, then wait for the download to finish.
+
+### Install Unreal Engine plugin for Visual Studio
+
+The Unreal Engine plugin for Visual Studio installs into Unreal Engine and is automatically activated when you open an Unreal Engine project in Visual Studio. This plugin provides the necessary integration between Unreal Engine and Visual Studio to view enriched Blueprint node pin values in the Visual Studio debugger local variables window.
+
+For manual installation instructions, see [vc-ue-extensions](https://github.com/microsoft/vc-ue-extensions).
+
+If you have an Unreal Engine project that you can open in Visual Studio, another way to install the plugin is in Visual Studio via the Unreal Engine Configuration window. With an Unreal Engine project opened in Visual Studio, choose **Project** > **Configure Tools for Unreal Engine** to open the **Unreal Engine Integration Configuration** window. Then in the Visual Studio Integration Tool Status section, select **Install to Project** or **Install to Engine** as meets your needs. If you don't see the install buttons, choose the refresh icon in the top right corner of the window to refresh the status.  There is also a **Manual installation instructions** link that opens the [vc-ue-extensions](https://github.com/microsoft/vc-ue-extensions/blob/main/README.md) page, if you need to install the plugin manually.
+
+    :::image type="content" source="../media/unreal-engine-configuration-page-plugin.png" alt-text="Screenshot of the Unreal Engine Integration Configuration window. In the Visual Studio Integration Tool Status section, the refresh, Install to Project, Install to Engine buttons are highlighted. The Manual installation instructions link is also highlighted.":::
 
 ## Set up a test project
 
