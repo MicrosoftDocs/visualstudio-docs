@@ -249,7 +249,7 @@ The following table shows the methods of `IDiaSymbol`.
 |[`IDiaSymbol::get_unalignedType`](../../debugger/debug-interface-access/idiasymbol-get-unalignedtype.md)|Retrieves a flag indicating whether the user-defined data type is unaligned.|
 |[`IDiaSymbol::get_undecoratedName`](../../debugger/debug-interface-access/idiasymbol-get-undecoratedname.md)|Retrieves the undecorated name for a C++ decorated, or linkage, name.|
 |[`IDiaSymbol::get_undecoratedNameEx`](../../debugger/debug-interface-access/idiasymbol-get-undecoratednameex.md)|Extension of the `get_undecoratedName` method that retrieves the undecorated name based on the value of an extension field.|
-|[`IDiaSymbol::get_unmodifiedType`](../../debugger/debug-interface-access/idiasymbol-get-unmodifiedtype.md)|Retrieves the original (unmodifed) type of this symbol.|
+|[`IDiaSymbol::get_unmodifiedType`](../../debugger/debug-interface-access/idiasymbol-get-unmodifiedtype.md)|Retrieves the original (unmodified) type of this symbol.|
 |[`IDiaSymbol::get_unmodifiedTypeId`](../../debugger/debug-interface-access/idiasymbol-get-unmodifiedtypeid.md)|Retrieves the ID of the original (unmodified) type.|
 |[`IDiaSymbol::get_unused`](../../debugger/debug-interface-access/idiasymbol-get-unused.md)|Deprecated function.|
 |[`IDiaSymbol::get_upperBound`](../../debugger/debug-interface-access/idiasymbol-get-upperbound.md)|Retrieves the upper bound of a FORTRAN array dimension.|
