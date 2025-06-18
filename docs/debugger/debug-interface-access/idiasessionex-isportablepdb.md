@@ -29,7 +29,7 @@ HRESULT isPortablePDB(
 
  `pfPortablePDB`
 
-[out] Returns a Boolean indcating if the debug information was in the [Portable PDB](https://github.com/dotnet/runtime/blob/main/docs/design/specs/PortablePdb-Metadata.md) format.
+[out] Returns a Boolean indicating if the debug information was in the [Portable PDB](https://github.com/dotnet/runtime/blob/main/docs/design/specs/PortablePdb-Metadata.md) format.
 
 ## Return Value
 
