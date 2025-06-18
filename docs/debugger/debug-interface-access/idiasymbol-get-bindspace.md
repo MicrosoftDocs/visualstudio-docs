@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 # IDiaSymbol::get_bindSpace
 
-Retrives the binding space.
+Retrieves the binding space.
 
 ## Syntax
 
