@@ -42,7 +42,7 @@ If successful, returns `S_OK`.
 
 ## Remarks
 
-PDBs that are generated with /DEBUG:fastlink (also sometimes call mini PDBs), do not contain all the debug information and instead must read information out of the OBJs, LIBs and compiler generated PDBs used to make the final executable. If errors occur when trying to loacte or read those files, a callback maybe set to receive additional information about the failure.
+PDBs that are generated with /DEBUG:fastlink (also sometimes call mini PDBs), do not contain all the debug information and instead must read information out of the OBJs, LIBs and compiler generated PDBs used to make the final executable. If errors occur when trying to locate or read those files, a callback maybe set to receive additional information about the failure.
 
 Only one callback function may be registered at a time. Attempting to register a second function will simply replace the first. To remove the registration, simply pass a `nullptr` for both arguments.
 

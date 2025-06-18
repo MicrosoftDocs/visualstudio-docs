@@ -36,7 +36,7 @@ The following table shows the methods of `IDiaEnumSourceLink`.
 
 ## Remarks
 
-Although [Source Link](https://github.com/dotnet/designs/blob/main/accepted/2020/diagnostics/source-link.md) is a well defined standard, the PDB and Debug Interface Access (DIA) SDK only have limited support for it. Specifically the DIA SDK treats the source link as a simple blob of bytes. It is the responsiblity of the caller to interpret those bytes as the correct character encoding (UTF-8, ASCII, and so on), parse as a JSON file, enforce a particular schema, or use that information to map and download individual source files.
+Although [Source Link](https://github.com/dotnet/designs/blob/main/accepted/2020/diagnostics/source-link.md) is a well defined standard, the PDB and Debug Interface Access (DIA) SDK only have limited support for it. Specifically the DIA SDK treats the source link as a simple blob of bytes. It is the responsibility of the caller to interpret those bytes as the correct character encoding (UTF-8, ASCII, and so on), parse as a JSON file, enforce a particular schema, or use that information to map and download individual source files.
 
 ## Notes for Callers
 

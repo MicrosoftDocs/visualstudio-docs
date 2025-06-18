@@ -66,7 +66,7 @@ If successful, returns `S_OK`; otherwise, returns an error code. The following t
 
 ## Remarks
 
-The code view information, in `IMAGE_DEBUG_TYPE_CODEVIEW` format, names the associated debug data location as well as prodiving the signture and age fields to match against.
+The code view information, in `IMAGE_DEBUG_TYPE_CODEVIEW` format, names the associated debug data location as well as providing the signture and age fields to match against.
 
 If you are loading debug data from a symbol server, *symsrv.dll* must be present in the same directory where either the user's application or *msdia140.dll* is installed, or it must be present in the system directory.
 
