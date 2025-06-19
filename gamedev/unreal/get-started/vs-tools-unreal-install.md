@@ -64,7 +64,7 @@ To install the Unreal Engine plugin for Visual Studio, follow these steps:
 - For manual installation instructions, see [vc-ue-extensions](https://github.com/microsoft/vc-ue-extensions).
 - If you have an Unreal Engine project that you can open in Visual Studio, another way to install the plugin is in Visual Studio via the Unreal Engine Configuration window. With an Unreal Engine project opened in Visual Studio, choose **Project** > **Configure Tools for Unreal Engine** to open the **Unreal Engine Integration Configuration** window. Then in the Visual Studio Integration Tool Status section, select **Install to Project** or **Install to Engine** as meets your needs. If you don't see the install buttons, choose the refresh icon in the top right corner of the window to refresh the status.  There is also a **Manual installation instructions** link that opens the [vc-ue-extensions](https://github.com/microsoft/vc-ue-extensions/blob/main/README.md) page, if you need to install the plugin manually.
 
-    :::image type="content" source="../media/unreal-engine-configuration-page-plugin.png" alt-text="Screenshot of the Unreal Engine Integration Configuration window. In the Visual Studio Integration Tool Status section, the refresh, Install to Project, Install to Engine buttons are highlighted. The Manual installation instructions link is also highlighted.":::
+    :::image type="content" source="../media/vs-unreal-engine-configuration-page-plugin.png" alt-text="Screenshot of the Unreal Engine Integration Configuration window. In the Visual Studio Integration Tool Status section, the refresh, Install to Project, Install to Engine buttons are highlighted. The Manual installation instructions link is also highlighted.":::
 
 ## Check for updates
 
