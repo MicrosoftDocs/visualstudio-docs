@@ -125,7 +125,7 @@ The following resources help you keep your Visual Studio updated, current, and s
 
 - **[Tools for detecting, verifying, and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)** on client machines.
 
-- **[Troubleshoot Visual Studio installation and upgrade issues](troubleshooting-installation-issues.md)**. Get help when you're installing or updating Visual Studio, and learn how to report a problem if you're blocked. These tips include step-by-step instructions that should resolve most online or offline installation issues. 
+- **[Troubleshoot Visual Studio installation and upgrade issues](/troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues)**. Get help when you're installing or updating Visual Studio, and learn how to report a problem if you're blocked. These tips include step-by-step instructions that should resolve most online or offline installation issues. 
 
 - **[Repair Visual Studio](repair-visual-studio.md) to fix update issues**. Sometimes your Visual Studio installation becomes damaged or corrupted. A repair is useful for fixing install-time issues across all install operations, including updates. 
 

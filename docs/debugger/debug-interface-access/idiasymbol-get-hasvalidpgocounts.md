@@ -29,7 +29,7 @@ HRESULT get_isget_hasValidPGOCountsPGO (
 
  `pRetVal`
 
-[out] Returns `TRUE` if this function has valid profile-guided optimization counts from a training scenario; otheriwse, `FALSE`.
+[out] Returns `TRUE` if this function has valid profile-guided optimization counts from a training scenario; otherwise, `FALSE`.
 
 ## Return Value
 

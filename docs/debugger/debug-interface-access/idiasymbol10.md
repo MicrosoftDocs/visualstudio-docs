@@ -31,7 +31,7 @@ The following table shows the methods of `IDiaSymbol10`.
 
 |Method|Description|
 |------------|-----------------|
-|[`IDiaSymbol10::get_sourceLink`](../../debugger/debug-interface-access/idiasymbol10-get-sourcelink.md)|Retreives the [Source Link](https://github.com/dotnet/designs/blob/main/accepted/2020/diagnostics/source-link.md) blob associated with this `SymTagCompiland` symbol.|
+|[`IDiaSymbol10::get_sourceLink`](../../debugger/debug-interface-access/idiasymbol10-get-sourcelink.md)|Retrieves the [Source Link](https://github.com/dotnet/designs/blob/main/accepted/2020/diagnostics/source-link.md) blob associated with this `SymTagCompiland` symbol.|
 
 ## Remarks
 

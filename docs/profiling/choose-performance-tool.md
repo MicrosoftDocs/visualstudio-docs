@@ -33,11 +33,12 @@ The following table lists the different tools Visual Studio offers and provides 
 |[Memory Usage](../profiling/memory-usage.md)|Shows your app’s memory to find issues such as memory leaks.|&#x2022; Optimize memory usage</br>&#x2022; Investigate UI freeze</br>&#x2022; Investigate suspected memory leak (native code)|
 |[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|Shows where .NET Objects are allocated and information about garbage collection.|&#x2022; Optimize .NET memory usage</br>&#x2022; Analyze garbage collection|
 |[Instrumentation](../profiling/instrumentation-overview.md)|Shows exact call counts and call times.|&#x2022; You need a tool like CPU Usage, but you want exact call counts and time spent in functions based on wall clock time.</br>&#x2022; You want to see blocked time, such as time spent waiting for locks.</br>&#x2022; Note: This tool requires extra overhead.|
+|[.NET Counters](../profiling/dotnet-counters-tool.md)|Live report for .NET counters.|&#x2022; Begin an investigation for general performance issues.</br>&#x2022; You want a trace for .NET counter-based metrics such as exceptions per second, garbage collection, and CPU utilization.|
+|[BenchmarkDotNet](../profiling/profiling-with-benchmark-dotnet.md)|Report for benchmarks based on BenchmarkDotNet.|&#x2022; Get different visualizations of BenchmarkDotNet collected data, such as CPU usage or memory allocations, based on the diagnoser in use.|
 |[File I/O](../profiling/use-file-io.md)|Shows your File I/O operations and how long they take and how much data they process.|Investigate UI freeze|
 |[PerfTips](../profiling/perftips.md)|Shows a quick measurement of performance information while interacting with your code.|While debugging, you want to see the elapsed time between the previous step operation (or breakpoint) to the current step or breakpoint.|
 |[Events viewer](../profiling/events-viewer.md)|Shows HTTP requests, log messages, and exceptions.|&#x2022; Investigate latency in API calls</br>&#x2022; Investigate slow application running on a remote web server|
 |[.NET Async](../profiling/analyze-async.md)|Shows async/await usage in .NET apps.|Investigate suspected performance issue with asynchronous code.|
-|[.NET Counters](../profiling/dotnet-counters-tool.md)|Live report for .NET counters.|&#x2022; Begin an investigation for general performance issues.</br>&#x2022; You want a trace for .NET counter-based metrics such as exceptions per second, garbage collection, and CPU utilization.|
 |[Database](../profiling/analyze-database.md)|Shows performance of your database queries.|Investigate performance for database queries that use either ADO.NET or Entity Framework Core.|
 |[GPU Usage](./gpu-usage.md)|Shows high-level hardware usage of your Direct3D app.|Check whether the performance of your app is CPU-bound or GPU-bound.|
 |[Application Timeline](../profiling/application-timeline.md)|Shows UI performance for XAML apps.|Investigate UI performance in XAML apps, such as time spent rendering frames.|
@@ -53,11 +54,12 @@ The following table lists the different tools Visual Studio offers and the diffe
 |[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|yes|
 |[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|yes|no|yes|yes|
 |[Instrumentation](../profiling/instrumentation-overview.md)|yes|yes|yes|yes|
+|[.NET Counters](../profiling/dotnet-counters-tool.md)|yes (.NET Core/5+ only)|no|no|yes (ASP.NET Core only)|
+|[BenchmarkDotNet](../profiling/profiling-with-benchmark-dotnet.md)|yes|no|no|partial|
 |[File I/O](../profiling/use-file-io.md)|yes|yes|yes|yes|
 |[PerfTips](../profiling/perftips.md)|yes|yes|yes|yes|
 |[Events viewer](../profiling/events-viewer.md)|yes|yes|yes|yes|
 |[.NET Async](../profiling/analyze-async.md)|yes|no|yes|yes|
-|[.NET Counters](../profiling/dotnet-counters-tool.md)|yes (.NET Core/5+ only)|no|no|yes (ASP.NET Core only)|
 |[Database](../profiling/analyze-database.md)|yes (.NET Core/5+ only)|no|no|yes (ASP.NET Core only)|
 |[GPU Usage](./gpu-usage.md)|yes|yes|yes|no|
 |[Application Timeline](../profiling/application-timeline.md)|yes (XAML)|no|yes|no|
@@ -74,6 +76,7 @@ The following tools are supported with Linux or WSL as the target platform as we
 - .NET Object Allocation Tracking
 - .NET Async
 - .NET Counters
+- BenchmarkDotNet
 - Events Viewer
 - Database
 

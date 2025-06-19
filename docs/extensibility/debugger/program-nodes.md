@@ -7,7 +7,7 @@ helpviewer_keywords:
 - program nodes, debugging context
 - debugging [Debugging SDK], program nodes
 - program nodes, adding
-- program nodes, superceding
+- program nodes, superseding
 author: tinaschrepfer
 ms.author: tinali
 manager: mijacobs
