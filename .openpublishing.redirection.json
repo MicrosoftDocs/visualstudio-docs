@@ -2551,6 +2551,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/test/create-a-unit-test-project.md",
+      "redirect_url": "visualstudio/test/getting-started-with-unit-testing",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md",
       "redirect_url": "/dotnet/core/testing/unit-testing-mstest-writing-tests-attributes",
       "redirect_document_id": false
