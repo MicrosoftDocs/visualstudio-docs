@@ -151,7 +151,7 @@ The following table shows the methods of `IDiaSymbol`.
 |[`IDiaSymbol::get_isPointerToMemberFunction`](../../debugger/debug-interface-access/idiasymbol-get-ispointertomemberfunction.md)|Specifies whether this symbol is a pointer to a member function.|
 |[`IDiaSymbol::get_isRefUdt`](../../debugger/debug-interface-access/idiasymbol-get-isrefudt.md)|Retrieves a flag indicating whether this is a WinRT reference user-defined type (UDT).|
 |[`IDiaSymbol::get_isReturnValue`](../../debugger/debug-interface-access/idiasymbol-get-isreturnvalue.md)|Specifies whether the variable carries a return value.|
-|[`IDiaSymbol::get_isSafeBuffers`](../../debugger/debug-interface-access/idiasymbol-get-issafebuffers.md)|Retrieves a flag that specifies whether the preprocesser directive for a safe buffer is used.|
+|[`IDiaSymbol::get_isSafeBuffers`](../../debugger/debug-interface-access/idiasymbol-get-issafebuffers.md)|Retrieves a flag that specifies whether the preprocessor directive for a safe buffer is used.|
 |[`IDiaSymbol::get_isSdl`](../../debugger/debug-interface-access/idiasymbol-get-issdl.md)|Specifies whether the module is compiled with the /SDL option.|
 |[`IDiaSymbol::get_isSingleInheritance`](../../debugger/debug-interface-access/idiasymbol-get-issingleinheritance.md)|Specifies whether the `this` pointer points to a data member with single inheritance.|
 |[`IDiaSymbol::get_isSplitted`](../../debugger/debug-interface-access/idiasymbol-get-issplitted.md)|Retrieves a flag indicating whether the data has been split into an aggregate of separate symbols.|
