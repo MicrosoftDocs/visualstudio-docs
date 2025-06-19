@@ -1,5 +1,5 @@
 ---
-description: "Retrieves a flag that specifies whether the preprocesser directive for a safe buffer is used."
+description: "Retrieves a flag that specifies whether the preprocessor directive for a safe buffer is used."
 title: "IDiaSymbol::get_isSafeBuffers"
 ms.date: "07/22/2024"
 ms.topic: "reference"

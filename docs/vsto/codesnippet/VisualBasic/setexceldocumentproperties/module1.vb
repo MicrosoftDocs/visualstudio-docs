@@ -45,7 +45,7 @@ Module Module1
                                             solutionID, deploymentManifestLocation, _
                                             True, nonpublicCachedDataMembers)
 
-            Console.WriteLine("Insallation Location Modified Successfully")
+            Console.WriteLine("Installation Location Modified Successfully")
 
         Catch ex As System.IO.FileNotFoundException
             Console.WriteLine("The specified document does not exist.")
