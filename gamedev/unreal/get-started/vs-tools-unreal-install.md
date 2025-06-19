@@ -21,8 +21,6 @@ This article helps you install tools that allow you to do the following from wit
 - Debug C++ code called by Unreal Engine Blueprints and see Blueprint information in the Visual Studio debugger
 - View and find references to UE Blueprints
 
-
-
 ## Prerequisites
 
 Install the following before you install Visual Studio Tools for Unreal Engine:
@@ -36,7 +34,7 @@ This article covers installing tools to enhance writing and debugging Unreal Eng
 
 | Tool | Installs into | Functionality |
 |--|--|--|
-| Visual Studio Tools for Unreal Engine | Visual Studio | Add UE classes, modules, view UE logging, see UE macro expansions, find blueprint references, open UE `.uprojects` directly, and so on, from within Visual Studio. *As of Visual Studio 2022 version 17.7, you no longer need the Unreal Engine Visual Studio Integration Tool plugin to view UE Blueprints in Visual Studio.* |
+| Visual Studio Tools for Unreal Engine | Visual Studio | Add UE classes, modules, view UE logging, see UE macro expansions, find blueprint references, open UE `.uprojects` directly, and so on, from within Visual Studio. *As of Visual Studio 2022 version 17.7, you no longer need to also have the Unreal Engine Visual Studio Integration Tool plugin to view UE Blueprints in Visual Studio.* |
 | Visual Studio debugger tools for Unreal Engine Blueprints | Visual Studio | Supports debugging C++ code and Blueprints. Requires the UE plugin for Visual Studio to show Blueprint node pin values in the debugger. |
 | Unreal Engine Test Adapter | Visual Studio | Discover, run, manage, and debug your Unreal Engine tests from within Visual Studio. Requires the UE plugin for Visual Studio. |
 | Unreal Engine plugin for Visual Studio | Unreal Engine | Provides the integration between Unreal Engine and Visual Studio to run UE tests in Visual Studio and view Blueprint node pin values in the Visual Studio Local Variables window. |
