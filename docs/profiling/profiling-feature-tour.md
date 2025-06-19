@@ -274,6 +274,14 @@ The tool shows live values for each counter in a list view.
 :::image type="content" source="../profiling/media/dotnet-counters-tool-collecting.png" alt-text=".NET Counter tool collecting.":::
 
 This tool is supported for For .NET Core and .NET 5+ apps.
+
+## Visualize BenchmarkDotNet data
+
+Starting in Visual Studio 2022 version 17.9, you can view data collected using BenchmarkDotNet in the Visual Studio profiling tools. By adding benchmark attributes to your code, you can use specific diagnosers to analyze memory allocations, CPU usage, counters, and other performance data.
+
+For more information, see [Analyze BenchmarkDotNet data in Visual Studio](../profiling/profiling-with-benchmark-dotnet.md).
+
+:::image type="content" source="../profiling/media/vs-2022/benchmark-dotnet-diagsession.png" alt-text="BenchmarkDotNet data in the profiler.":::
 ::: zone-end
 
 ## Examine application events

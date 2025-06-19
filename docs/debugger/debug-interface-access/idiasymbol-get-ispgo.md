@@ -29,7 +29,7 @@ HRESULT get_isPGO (
 
  `pRetVal`
 
-[out] Returns `TRUE` if profile-guided optimizations were performed for this function; otheriwse, `FALSE`.
+[out] Returns `TRUE` if profile-guided optimizations were performed for this function; otherwise, `FALSE`.
 
 ## Return Value
 

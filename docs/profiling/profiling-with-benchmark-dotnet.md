@@ -107,15 +107,28 @@ Each diagnoser generates performance data related to that diagnoser. For example
    Exported diagsession file: *.diagsession
    ```
    
-## View Benchmark .NET data
+## View BenchmarkDotNet data
 
 1. In Visual Studio, select **File > Open > File** and navigate to the location of the *.diagsession* file, and then select and open the file.
 
-1. Select the **Benchmark** tab to view BenchmarkDotNet data.
+1. Select the **Benchmarks** tab to view data for the BenchmarkDotNet benchmarks.
 
    ![Screenshot of BenchmarkDotNet data in Visual Studio.](../profiling/media/vs-2022/benchmark-dotnet-diagsession.png)
 
-For more information about the results, see [BenchmarkDotNet](https://benchmarkdotnet.org/articles/overview.html) documentation.
+   For more information about the results in the **Benchmarks** tab, see [BenchmarkDotNet](https://benchmarkdotnet.org/articles/overview.html) documentation.
+
+1. Right-click a row in the results and choose **Select time range** to sync the timeline graph with the benchmark.
+
+1. Select one of the available tabs such as **CPU Usage** or **Allocations**.
+
+   Depending on the diagnoser you used to collect data, you can gain insights related to memory allocation, CPU usage, counters, and other performance data. To analyze memory allocations, use the built-in [MemoryDiagnoser](https://benchmarkdotnet.org/articles/overview.html#diagnostics) by adding the \[MemoryDiagnoser\] attribute. For more information, see [Diagnosers](https://benchmarkdotnet.org/articles/configs/diagnosers.html).
+
+   > [!NOTE]
+   > The profiler supports only the \[MemoryDiagnoser\] and the diagnosers listed previously in this article.
+
+   For an example of using the profiler to analyze memory allocations, see the blog post [Benchmarking with Visual Studio Profiler](https://devblogs.microsoft.com/visualstudio/benchmarking-with-visual-studio-profiler/).
+
+   To analyze data related to other tabs such as **CPU Usage**, see the corresponding articles in the profiling documentation.
 
 ## Related content
 

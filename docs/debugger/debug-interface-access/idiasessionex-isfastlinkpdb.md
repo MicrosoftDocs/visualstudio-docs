@@ -29,7 +29,7 @@ HRESULT isFastLinkPDB(
 
  `pfFastLinkPDB`
 
-[out] Returns a Boolean indcating if the debug information was build with `/DEBUG:fastlink` or not.
+[out] Returns a Boolean indicating if the debug information was build with `/DEBUG:fastlink` or not.
 
 ## Return Value
 

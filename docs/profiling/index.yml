@@ -67,12 +67,12 @@ landingContent:
             url: instrumentation-overview.md
           - text: .NET Counters
             url: dotnet-counters-tool.md  
+          - text: Benchmark.NET
+            url: profiling-with-benchmark-dotnet.md
           - text: File I/O
             url: use-file-io.md
           - text: Database
             url: analyze-database.md
-          - text: Benchmark.NET
-            url: profiling-with-benchmark-dotnet.md
           - text: Events Viewer
             url: events-viewer.md
           - text: .NET Async
