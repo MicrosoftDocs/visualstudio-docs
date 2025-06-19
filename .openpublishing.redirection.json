@@ -1,6 +1,56 @@
 {
   "redirections": [
     {
+      "source_path": "bridge/articles/bridge-to-kubernetes-aks.md",
+      "redirect_url": "/previous-versions/visualstudio/bridge-to-kubernetes-aks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bridge/articles/bridge-to-kubernetes-sample.md",
+      "redirect_url": "/previous-versions/visualstudio/bridge-to-kubernetes-sample",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bridge/articles/bridge-to-kubernetes-vs-code.md",
+      "redirect_url": "/previous-versions/visualstudio/bridge-to-kubernetes-vs-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bridge/articles/bridge-to-kubernetes-vs.md",
+      "redirect_url": "/previous-versions/visualstudio/bridge-to-kubernetes-vs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bridge/articles/configure-bridge-to-kubernetes.md",
+      "redirect_url": "/previous-versions/visualstudio/configure-bridge-to-kubernetes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bridge/articles/index.yml",
+      "redirect_url": "/previous-versions/visualstudio/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bridge/articles/kubernetes-environment-variables.md",
+      "redirect_url": "/previous-versions/visualstudio/kubernetes-environment-variables",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bridge/articles/managed-identity.md",
+      "redirect_url": "/previous-versions/visualstudio/managed-identity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bridge/articles/overview-bridge-to-kubernetes.md",
+      "redirect_url": "/previous-versions/visualstudio/overview-bridge-to-kubernetes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bridge/articles/parallel-services.md",
+      "redirect_url": "/previous-versions/visualstudio/parallel-services",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/azure/vs-azure-tools-migrate-publish-web-app-to-cloud-service.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-migrate-publish-web-app-to-cloud-service",
       "redirect_document_id": false
