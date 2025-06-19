@@ -2552,7 +2552,7 @@
     },
     {
       "source_path": "docs/test/create-a-unit-test-project.md",
-      "redirect_url": "visualstudio/test/getting-started-with-unit-testing",
+      "redirect_url": "/visualstudio/test/getting-started-with-unit-testing",
       "redirect_document_id": false
     },
     {
