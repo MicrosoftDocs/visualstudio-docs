@@ -38,6 +38,8 @@
       href: unreal/get-started/vs-tools-unreal-add-class-module-plugin.md
     - name: View Unreal Engine Blueprints in Visual Studio
       href: unreal/get-started/vs-tools-unreal-view-blueprints.md
+    - name: Debug Unreal Engine Blueprints in Visual Studio
+      href: unreal/get-started/vs-tools-unreal-blueprint-debugger.md
     - name: View Unreal Engine logging in Visual Studio
       href: unreal/get-started/vs-tools-unreal-logging.md
     - name: View Unreal Engine macros in Visual Studio
