@@ -14,8 +14,6 @@
   items:
   - name: Unit test basics
     href: unit-test-basics.md
-  - name: Create a unit test project
-    href: create-a-unit-test-project.md
   - name: Create unit tests from code
     href: create-unit-tests-menu.md
   - name: IntelliTest
