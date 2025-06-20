@@ -98,7 +98,7 @@ You might enter a search string that includes multiple words, such as "word1 wor
 
 > [!IMPORTANT]
 > - Phrase searches are not supported. If you specify more than one word in a search string, returned topics contain all the words that you specified but not necessarily the exact phrase that you specified.
-> - Use logical operators to specify the relationship between words in your search phrase. You can include logical operators, such as AND, OR, NOT, and NEAR, to further refine your search. For example, if you search for "declaring NEAR union", search results include topics that contain the words "declaring" and "union" no more than a few words apart from each other. For more information, see [Logical operators in search expressions](../help-viewer/logical-operators-search-expressions.md).
+> - Use logical operators to specify the relationship between words in your search phrase. You can include logical operators, such as AND, OR, NOT, and NEAR, to further refine your search. For example, if you search for "declaring NEAR union", search results include topics that contain the words "declaring" and "union" no more than a few words apart from each other. For more information, see [Logical operators in search expressions](/visualstudio/help-viewer/find-topics).
 
 ### Filters
 

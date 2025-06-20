@@ -45,4 +45,4 @@ By using MSBuild, you can compile an application to run on any one of several ve
 
 ## Troubleshooting
 
- You might encounter errors if you try to reference an assembly that is not part of the target context. For more information about these errors and what to do about them, see [Troubleshoot .NET Framework targeting errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md).
+ You might encounter errors if you try to reference an assembly that is not part of the target context. For more information about these errors and what to do about them, see [Troubleshoot .NET Framework targeting errors](/troubleshoot/developer/visualstudio/project-build/troubleshooting-dotnet-framework-targeting-errors).
