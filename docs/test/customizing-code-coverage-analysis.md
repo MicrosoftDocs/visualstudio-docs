@@ -234,8 +234,8 @@ Copy this code and edit it to suit your needs.
     <DataCollectors>
       <DataCollector friendlyName="Code Coverage" uri="datacollector://Microsoft/CodeCoverage/2.0" assemblyQualifiedName="Microsoft.VisualStudio.Coverage.DynamicCoverageDataCollector, Microsoft.VisualStudio.TraceCollector, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
         <Configuration>
+          <Format>coverage</Format>
           <CodeCoverage>
-            <Format>coverage</Format>
 <!--
 Additional paths to search for .pdb (symbol) files. Symbols must be found for modules to be instrumented.
 If .pdb files are in the same folder as the .dll or .exe files, they are automatically found. Otherwise, specify them here.
