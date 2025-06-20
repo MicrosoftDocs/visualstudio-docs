@@ -190,7 +190,7 @@ After you've collected the diagnostics data for a cloud service or virtual machi
    | Custom log files |Logs of data that you predefined. |You can specify in code the location of custom log files in your storage account. For example, you can specify a custom blob container. |
 4. If data of any type is truncated, you can try increasing the buffer for that data type or shortening the interval between transfers of data from the virtual machine to your storage account.
 5. (Optional) Purge data from the storage account occasionally to reduce overall storage costs.
-6. When you do a full deployment, the *diagnostics.cscfg* file is updated in Azure, and your cloud service picks up any changes to your diagnostics configuration. If you instead update an existing deployment, the .cscfg file isn't updated in Azure. You can still change diagnostics settings, though, by following the steps in the next section. For more information about performing a full deployment and updating an existing deployment, see [Publish Azure Application Wizard](vs-azure-tools-publish-azure-application-wizard.md).
+6. When you do a full deployment, the *diagnostics.cscfg* file is updated in Azure, and your cloud service picks up any changes to your diagnostics configuration. If you instead update an existing deployment, the .cscfg file isn't updated in Azure. You can still change diagnostics settings, though, by following the steps in the next section. For more information about performing a full deployment and updating an existing deployment, see [Publish Azure Application Wizard](/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-publish-azure-application-wizard).
 
 ### To view virtual machine diagnostics data
 

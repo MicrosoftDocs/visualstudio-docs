@@ -37,7 +37,7 @@ If your codebase is hosted on GitHub.com and your deployment target is an Azure 
 
 Visual Studio also simplifies the process by handling your application secrets for you.
 
-Get started by right-clicking on your project in Solution Explorer and selecting **Publish** from the context menu. For a tutorial, see [Deploy your application to Azure using GitHub Actions workflows created by Visual Studio](../deployment/azure-deployment-using-github-actions.md).
+Get started by right-clicking on your project in Solution Explorer and selecting **Publish** from the context menu. For a tutorial, see [Deploy your application to Azure using GitHub Actions workflows created by Visual Studio](/visualstudio/azure/azure-deployment-using-github-actions).
 
 ## How do I get my project on GitHub.com?
 
