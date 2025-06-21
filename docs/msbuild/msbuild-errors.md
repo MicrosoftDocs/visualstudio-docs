@@ -109,4 +109,3 @@ We're sorry! It looks like we couldn't find what you were looking for.
 - Use the [Microsoft Learn](/) toolbar to search 
 - Browse the Knowledge Base for [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)
 
-**Didn't mean to click?** [Remap or disable the `F1` help key](/visualstudio/ide/not-in-toc/default)
