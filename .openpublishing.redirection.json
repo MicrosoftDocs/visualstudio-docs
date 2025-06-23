@@ -27,7 +27,7 @@
     },
     {
       "source_path": "bridge/articles/index.yml",
-      "redirect_url": "/previous-versions/visualstudio/index",
+      "redirect_url": "/previous-versions/visualstudio/bridge/",
       "redirect_document_id": false
     },
     {
