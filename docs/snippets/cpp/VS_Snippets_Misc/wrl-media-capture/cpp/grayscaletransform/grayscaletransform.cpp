@@ -219,7 +219,7 @@ private:
     IMFMediaType                *m_pInputType;              // Input media type.
     IMFMediaType                *m_pOutputType;             // Output media type.
 
-    // Fomat information
+    // Format information
     UINT32                      m_imageWidthInPixels;
     UINT32                      m_imageHeightInPixels;
     DWORD                       m_cbImageSize;              // Image size, in bytes.
