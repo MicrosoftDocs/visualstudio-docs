@@ -289,11 +289,11 @@ You can change the icons on code elements and the colors of code elements and li
     |Specific color or icon|Open the category or property value list. Select a color or icon.|
 
     > [!NOTE]
-    > You can rearrange, delete, or temporarily inactivate styles in the **Legend** box. See [Edit the Legend box](#ModifyLegend).
+    > You can rearrange, delete, or temporarily deactivate styles in the **Legend** box. See [Edit the Legend box](#ModifyLegend).
 
 ## <a name="ModifyLegend"></a> Edit the Legend box
 
-You can rearrange, delete, or temporarily inactivate styles in the **Legend** box:
+You can rearrange, delete, or temporarily deactivate styles in the **Legend** box:
 
 1. Open the shortcut menu for a style in the **Legend** box.
 
