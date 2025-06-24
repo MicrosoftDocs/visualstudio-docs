@@ -85,7 +85,7 @@ When you run the wizard for the first time, a default profile is created. Visual
 
     The new profile appears in the Target profile list.
 6. In the **Target profile** list, select the profile that you just created. The Publish Wizard settings are filled in with the choices from the profile you selected.
-7. Select the **Previous** and **Next** buttons to display each page of the Publish Wizard, and then customize the settings for this profile. See [Publish Azure Application Wizard](vs-azure-tools-publish-azure-application-wizard.md) for information.
+7. Select the **Previous** and **Next** buttons to display each page of the Publish Wizard, and then customize the settings for this profile. See [Publish Azure Application Wizard](/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-publish-azure-application-wizard) for information.
 8. After you finish customizing the settings, select **Next** to go back to the Settings page. The profile is saved when you publish the service by using these settings or if you select **Save** next to the list of profiles.
 
 ### To rename or delete a profile
@@ -100,10 +100,10 @@ When you run the wizard for the first time, a default profile is created. Visual
 
 1. Open the shortcut menu for your Azure project, and then select **Publish**.
 2. In the **Target profile** list, select the profile that you want to change.
-3. Select the **Previous** and **Next** buttons to display each page of the Publish Wizard, and then change the settings you want. See [Publish Azure Application Wizard](vs-azure-tools-publish-azure-application-wizard.md) for information.
+3. Select the **Previous** and **Next** buttons to display each page of the Publish Wizard, and then change the settings you want. See [Publish Azure Application Wizard](/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-publish-azure-application-wizard) for information.
 4. After you finish changing the settings, select **Next** to go back to the **Settings** page.
 5. (Optional) select **Publish** to publish the cloud service using the new settings. If you don't want to publish your cloud service at this time, and you close the Publish Wizard, Visual Studio asks you if you want to save the changes to the profile.
 
 ## Related content
 
-To learn about configuring other parts of your Azure project from Visual Studio, see [Configuring an Azure Project](vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address.md).
+To learn about configuring other parts of your Azure project from Visual Studio, see [Configuring an Azure Project](/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address).

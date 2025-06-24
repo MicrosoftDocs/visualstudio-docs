@@ -166,5 +166,5 @@ You can now pull the container from the registry to any host capable of running 
 
 - [Container development with Visual Studio](./index.yml)
 - [Create a multi-container app with Docker Compose](tutorial-multicontainer.md)
-- [Troubleshoot Visual Studio development with Docker](troubleshooting-docker-errors.md)
+- [Troubleshoot Visual Studio development with Docker](/troubleshoot/developer/visualstudio/ide/troubleshooting-docker-errors)
 - [Visual Studio Container Tools GitHub repository](https://github.com/Microsoft/DockerTools)
