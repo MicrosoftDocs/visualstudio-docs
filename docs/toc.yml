@@ -1084,8 +1084,6 @@
           href: ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md
         - name: Build Events Dialog Box (Visual Basic)
           href: ide/reference/build-events-dialog-box-visual-basic.md
-      - name: Debug Page, Project Designer
-        href: ide/reference/debug-page-project-designer.md
       - name: My Extensions Page, Project Designer (Visual Basic)
         href: ide/reference/my-extensions-page-project-designer-visual-basic.md
       - name: References Page, Project Designer (Visual Basic)
