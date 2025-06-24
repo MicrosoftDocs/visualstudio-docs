@@ -18,7 +18,7 @@ All commands require administrative elevation, and a User Account Control prompt
 
 You can use the `^` character at the end of a command line to concatenate multiple lines into a single command. Alternatively, you can place these lines together onto a single row. In PowerShell, the equivalent is the backtick (`` ` ``) character.
 
-To execute commands in a non-interactive manner, you can use`--passive` or `--quiet`. For more information on these parameters, see the [commands and command-line paremeters](use-command-line-parameters-to-install-visual-studio.md#install-update-modify-repair-uninstall-and-export-commands-and-command-line-parameters) page.
+To execute commands in a non-interactive manner, you can use`--passive` or `--quiet`. For more information on these parameters, see the [commands and command-line parameters](use-command-line-parameters-to-install-visual-studio.md#install-update-modify-repair-uninstall-and-export-commands-and-command-line-parameters) page.
 
 For lists of the workloads and components that you can install by using the command line, see the [Visual Studio workload and component IDs](workload-and-component-ids.md) page.
 
