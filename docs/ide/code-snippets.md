@@ -6,6 +6,7 @@ ms.topic: conceptual
 f1_keywords:
 - vs.ExpansionManagerImport
 - vs.codesnippetmanager
+- vs.expansionpicker
 helpviewer_keywords:
 - surround with
 - code snippets

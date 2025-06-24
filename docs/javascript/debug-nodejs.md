@@ -317,4 +317,4 @@ For more information, see [Client-side debugging of ASP.NET projects in Google C
 
 ## Related content
 
-[Properties, React, Angular, Vue](../ide/reference/property-pages-javascript-esproj.md)
+[Properties, React, Angular, Vue](../javascript/property-pages-javascript-esproj.md)

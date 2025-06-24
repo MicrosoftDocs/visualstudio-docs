@@ -894,14 +894,10 @@
       href: ide/preview-changes.md
     - name: Choose Toolbox items, WPF components
       href: ide/reference/choose-toolbox-items-wpf-components.md
-    - name: Code snippet picker
-      href: ide/reference/code-snippet-picker.md
     - name: Command window
       href: ide/reference/command-window.md
     - name: Error List window
       href: ide/reference/error-list-window.md
-    - name: File Properties, JavaScript
-      href: ide/reference/file-properties-javascript.md
     - name: Go To Line
       href: ide/reference/go-to-line.md
     - name: Paste JSON or XML as classes
@@ -1076,8 +1072,6 @@
           href: ide/reference/build-page-project-designer-csharp.md
         - name: Advanced Build Settings Dialog Box (C#)
           href: ide/reference/advanced-build-settings-dialog-box-csharp.md
-      - name: Code Analysis, Project Designer
-        href: ide/reference/code-analysis-project-designer.md
       - name: Compile Page, Project Designer (Visual Basic)
         items:
         - name: Compile Page
@@ -1086,8 +1080,6 @@
           href: ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md
         - name: Build Events Dialog Box (Visual Basic)
           href: ide/reference/build-events-dialog-box-visual-basic.md
-      - name: Debug Page, Project Designer
-        href: ide/reference/debug-page-project-designer.md
       - name: My Extensions Page, Project Designer (Visual Basic)
         href: ide/reference/my-extensions-page-project-designer-visual-basic.md
       - name: References Page, Project Designer (Visual Basic)
@@ -1100,10 +1092,6 @@
           href: ide/reference/advanced-settings-for-services-dialog-box.md
       - name: Settings Page, Project Designer
         href: ide/reference/settings-page-project-designer.md
-    - name: Property Pages, JavaScript
-      href: ide/reference/property-pages-javascript.md
-    - name: Property Pages, React, Angular, and Vue
-      href: ide/reference/property-pages-javascript-esproj.md
     - name: Properties window
       href: ide/reference/properties-window.md
     - name: Team Explorer reference
