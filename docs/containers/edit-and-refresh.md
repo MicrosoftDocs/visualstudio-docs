@@ -190,7 +190,7 @@ You can configure when Fast Mode is used; see [How to configure Visual Studio Co
 
 ## Troubleshoot
 
-Learn how to [troubleshoot Visual Studio Docker development](troubleshooting-docker-errors.md).
+Learn how to [troubleshoot Visual Studio Docker development](/troubleshoot/developer/visualstudio/ide/troubleshooting-docker-errors).
 
 ## Related content
 

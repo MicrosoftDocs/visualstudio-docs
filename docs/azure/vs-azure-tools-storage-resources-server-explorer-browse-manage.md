@@ -20,7 +20,7 @@ If you've installed Azure workload for Microsoft Visual Studio 2019, you can vie
 
 To view Server Explorer in Visual Studio, on the menu bar, select **View** > **Server Explorer**. The **Storage** node shows all of the storage accounts that exist under each Azure subscription or certificate that you're connected to. If your storage account doesn't appear, you can add it by following the instructions [later in this article](#add-storage-accounts-by-using-server-explorer).
 
-In Visual Studio 2019 and earlier, you can also use Cloud Explorer to view and manage your Azure resources. For more information, see [Managing Azure resources with Cloud Explorer](vs-azure-tools-resources-managing-with-cloud-explorer.md).
+In Visual Studio 2019 and earlier, you can also use Cloud Explorer to view and manage your Azure resources. For more information, see [Managing Azure resources with Cloud Explorer](/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-resources-managing-with-cloud-explorer).
 
 > [!IMPORTANT]
 > Cloud Explorer has been retired in Visual Studio 2022. Instead, you can use the following alternatives:

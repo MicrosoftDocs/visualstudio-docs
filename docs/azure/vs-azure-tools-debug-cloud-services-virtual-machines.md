@@ -240,7 +240,7 @@ You can debug programs that run in Azure App Service by using the Attach to Proc
 You can debug programs that run on Azure Virtual Machines by using Server Explorer in Visual Studio. When you enable remote debugging on an Azure virtual machine, Azure installs the remote debugging extension on the virtual machine. Then, you can attach to processes on the virtual machine and debug as you normally would.
 
 > [!NOTE]
-> Virtual Machines created through the Azure Resource Manager stack can be remotely debugged by using Cloud Explorer in Visual Studio 2019. For more information, see [Managing Azure Resources with Cloud Explorer](vs-azure-tools-resources-managing-with-cloud-explorer.md).
+> Virtual Machines created through the Azure Resource Manager stack can be remotely debugged by using Cloud Explorer in Visual Studio 2019. For more information, see [Managing Azure Resources with Cloud Explorer](/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-resources-managing-with-cloud-explorer).
 
 ### To debug an Azure virtual machine
 
