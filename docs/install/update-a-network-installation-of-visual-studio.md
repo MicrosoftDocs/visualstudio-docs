@@ -48,7 +48,7 @@ When Visual Studio is initially installed on the client machine, it records the 
 
 ::: moniker range="vs-2019"
 
-With default Visual Studio 2019 functionality, once the client has installed the product, the client's update location configuration is locked and unchangable. The only way to *reliably* change the source location for updates is to uninstall and reinstall the product using the correct configuration.
+With default Visual Studio 2019 functionality, once the client has installed the product, the client's update location configuration is locked and unchangeable. The only way to *reliably* change the source location for updates is to uninstall and reinstall the product using the correct configuration.
  
 However, if the Visual Studio client uses the latest Visual Studio 2022 Installer, then the client's source location for updates can be changed. This is useful if you want to install from one layout but have updates come from another layout. There are several ways to get the Visual Studio 2022 Installer onto a client machine. The easiest way is to use any version of Visual Studio that was shipped after June 2023, because these versions automatically contain the latest installer. Another way is to install and use the Visual Studio 2022 product. Lastly, you can [distribute the Visual Studio 2022 Installer via your Visual Studio 2019 layouts](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer).
 

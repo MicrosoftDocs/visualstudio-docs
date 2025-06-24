@@ -90,7 +90,7 @@ Use links in the following table to get information about properties.
 | [Build Events Page, Project Designer (C#)](../../ide/reference/build-events-page-project-designer-csharp.md) | Specify build configuration instructions. |
 | [Build Page, Project Designer (C#)](../../ide/reference/build-page-project-designer-csharp.md) | Specify build configuration properties for a Visual C# project. |
 | [Compile Page, Project Designer (Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md) | Specify compilation properties for Visual Basic projects. |
-| [Debug Page, Project Designer](../../ide/reference/debug-page-project-designer.md) | Specify debugging properties for a project. |
+| [Debug Page, Project Designer](/previous-versions/visualstudio/visual-studio-2017/ide/reference/debug-page-project-designer) | Specify debugging properties for a project. |
 | [Code Analysis, Project Designer](../../ide/reference/code-analysis-project-designer.md) | Configure the code analysis tool. |
 | [Publish Page, Project Designer](../../ide/reference/publish-page-project-designer.md) | Configure properties for ClickOnce. |
 | [References Page, Project Designer (Visual Basic)](../../ide/reference/references-page-project-designer-visual-basic.md) | Manage references used by a project. |

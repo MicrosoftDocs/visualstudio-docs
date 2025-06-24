@@ -136,7 +136,7 @@ You can use
 void ParameterizedTest(int n) {
     int nshadow = PexSymbolicValue.Ignore(n); // IntelliTest looses track of 'n'
 
-    // irrevelant for MaxConditions, since nshadow is not related to input
+    // irrelevant for MaxConditions, since nshadow is not related to input
     for (int i=0; i<nshadow; i++)
     {...}
 }
