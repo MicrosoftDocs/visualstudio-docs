@@ -51,7 +51,7 @@ Updates the web address where a service reference looks for a service. For examp
 Determines the code access level for WCF client classes.
 
 > [!NOTE]
-> For Website projects, this option is always set to `Public` and cannot be changed. For more information, see [Troubleshooting service references](../data-tools/troubleshooting-service-references.md).
+> For Website projects, this option is always set to `Public` and cannot be changed. For more information, see [Troubleshooting service references](/troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-service-references).
 
 **Generate asynchronous operations**
 
