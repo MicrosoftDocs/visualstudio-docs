@@ -152,7 +152,7 @@ public static void AreElementsNotNull<T>(T[] value)
     where T : class
 {
     PexAssume.NotNull(value);
-    // the followings prevents the exploration of all array lengths
+    // the following prevents the exploration of all array lengths
     int len = PexSymbolicValue.Ignore<int>(value.Length);
 
     // building up a boolean value as follows prevents exploration
