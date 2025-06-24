@@ -1092,8 +1092,6 @@
           href: ide/reference/advanced-settings-for-services-dialog-box.md
       - name: Settings Page, Project Designer
         href: ide/reference/settings-page-project-designer.md
-    - name: Property Pages, React, Angular, and Vue
-      href: ide/reference/property-pages-javascript-esproj.md
     - name: Properties window
       href: ide/reference/properties-window.md
     - name: Team Explorer reference

@@ -162,4 +162,4 @@ You can use Task Runner Explorer in Visual Studio to help automate tasks for thi
 
 ## Related content
 
-[Properties, React, Angular, Vue](../ide/reference/property-pages-javascript-esproj.md)
+[Properties, React, Angular, Vue](../javascript/property-pages-javascript-esproj.md)
