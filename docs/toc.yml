@@ -898,8 +898,6 @@
       href: ide/reference/command-window.md
     - name: Error List window
       href: ide/reference/error-list-window.md
-    - name: File Properties, JavaScript
-      href: ide/reference/file-properties-javascript.md
     - name: Go To Line
       href: ide/reference/go-to-line.md
     - name: Paste JSON or XML as classes
@@ -1074,8 +1072,6 @@
           href: ide/reference/build-page-project-designer-csharp.md
         - name: Advanced Build Settings Dialog Box (C#)
           href: ide/reference/advanced-build-settings-dialog-box-csharp.md
-      - name: Code Analysis, Project Designer
-        href: ide/reference/code-analysis-project-designer.md
       - name: Compile Page, Project Designer (Visual Basic)
         items:
         - name: Compile Page
@@ -1096,8 +1092,6 @@
           href: ide/reference/advanced-settings-for-services-dialog-box.md
       - name: Settings Page, Project Designer
         href: ide/reference/settings-page-project-designer.md
-    - name: Property Pages, JavaScript
-      href: ide/reference/property-pages-javascript.md
     - name: Property Pages, React, Angular, and Vue
       href: ide/reference/property-pages-javascript-esproj.md
     - name: Properties window
