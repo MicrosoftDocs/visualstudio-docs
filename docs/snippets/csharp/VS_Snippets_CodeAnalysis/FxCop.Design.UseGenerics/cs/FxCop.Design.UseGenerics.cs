@@ -15,7 +15,7 @@ namespace DesignLibrary
          object2 = temp;
       }
 
-      // This method satifies the rule.
+      // This method satisfies the rule.
       public static void GenericSwap<T>(ref T reference1, ref T reference2)
       {
          T temp = reference1;

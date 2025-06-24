@@ -18,7 +18,7 @@ Namespace DesignLibrary
 
       End Sub
 
-      ' This method satifies the rule.
+      ' This method satisfies the rule.
       Public Shared Sub GenericSwap(Of T)( _ 
          ByRef reference1 As T, ByRef reference2 As T)
       
