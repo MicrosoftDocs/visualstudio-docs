@@ -894,8 +894,6 @@
       href: ide/preview-changes.md
     - name: Choose Toolbox items, WPF components
       href: ide/reference/choose-toolbox-items-wpf-components.md
-    - name: Code snippet picker
-      href: ide/reference/code-snippet-picker.md
     - name: Command window
       href: ide/reference/command-window.md
     - name: Error List window
