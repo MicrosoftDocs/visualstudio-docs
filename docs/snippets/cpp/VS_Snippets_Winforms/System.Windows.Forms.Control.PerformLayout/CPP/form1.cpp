@@ -15,7 +15,7 @@ using namespace System;
 using namespace System::Windows::Forms;
 using namespace System::Drawing;
 
-// This custom control has the Layout event implented so that when 
+// This custom control has the Layout event implemented so that when 
 // PerformLayout(AffectedControl, AffectedProperty) is called 
 // on the control, where AffectedProperty equals "Bounds" the 
 // textbox is centered on the control.
