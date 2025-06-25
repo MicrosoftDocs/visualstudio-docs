@@ -930,8 +930,6 @@
           href: ide/reference/international-settings-environment-options-dialog-box.md
         - name: Preview Features
           href: ide/reference/environment-preview-features-options.md
-        - name: Startup
-          href: ide/reference/startup-environment-options-dialog-box.md
         - name: Tabs and Windows
           href: ide/reference/tabs-and-windows-environment-options-dialog-box.md
         - name: Task List
@@ -950,12 +948,8 @@
           href: ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md
         - name: Locations
           href: ide/reference/projects-solutions-locations-options.md
-        - name: VB Defaults
-          href: ide/reference/visual-basic-defaults-projects-options-dialog-box.md
         - name: VC++ Project Settings
           href: ide/reference/vcpp-project-settings-projects-and-solutions-options-dialog-box.md
-        - name: Web Projects
-          href: ide/reference/options-dialog-box-projects-and-solutions-web-projects.md
       - name: Text Editor
         items:
         - name: General
@@ -1002,24 +996,16 @@
             href: ide/reference/options-text-editor-fsharp-advanced.md
           - name: Code Fixes
             href: ide/reference/options-text-editor-fsharp-code-fixes.md
-          - name: CodeLens
-            href: ide/reference/options-text-editor-fsharp-codelens.md
           - name: IntelliSense
             href: ide/reference/options-text-editor-fsharp-intellisense.md
         - name: HTML (Web Forms)
           items:
           - name: Formatting
             href: ide/reference/options-text-editor-html-formatting.md
-          - name: Miscellaneous
-            href: ide/reference/options-text-editor-html-miscellaneous.md
-          - name: Validation
-            href: ide/reference/options-text-editor-html-validation.md
         - name: U-SQL
           items:
           - name: Formatting
             href: ide/reference/options-text-editor-usql-formatting.md
-          - name: IntelliSense
-            href: ide/reference/options-text-editor-usql-intellisense.md
         - name: XAML
           items:
           - name: Formatting
