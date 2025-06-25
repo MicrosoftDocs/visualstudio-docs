@@ -31,7 +31,7 @@ Cycle detection during parallel builds is the same behavior as for MSBuild 2.0. 
 
 ## Errors and exceptions during parallel builds
 
-During parallel builds, errors and exceptions can occur at different times than they do during a non-parallel build. Also, if one project doesn't build, the other project builds continue. 
+During parallel builds, errors and exceptions can occur at different times than they do during a nonparallel build. Also, if one project doesn't build, the other project builds continue. 
 
 MSBuild doesn't stop any project building in parallel with a failed build. Other projects continue to build until they either succeed or fail. When the <xref:Microsoft.Build.Framework.IBuildEngine.ContinueOnError%2A> setting is enabled, no builds stop, even if an error occurs.
 
@@ -53,4 +53,4 @@ To avoid this problem but still enable multi-processor builds, MSBuild uses _pro
 ## Related content
 
 - [Build multiple projects in parallel](building-multiple-projects-in-parallel-with-msbuild.md)
-- [MSBuild tasks](./msbuild-tasks.md)
+- [MSBuild tasks](msbuild-tasks.md)
