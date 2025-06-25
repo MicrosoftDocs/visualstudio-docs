@@ -78,7 +78,7 @@ namespace InPlaceHostingManagerProject
             try
             {
                 // the true parameter allows InPlaceHostingManager
-                // to grant the permissions requested in the applicaiton manifest.
+                // to grant the permissions requested in the application manifest.
                 iphm.AssertApplicationRequirements(true) ; 
             }
             catch (Exception ex)
