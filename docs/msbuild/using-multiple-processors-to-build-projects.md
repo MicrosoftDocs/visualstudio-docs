@@ -1,5 +1,5 @@
 ---
-title: MSBuild Exploits Multiple Processors for Builds
+title: MSBuild Uses Multiple Processors for Builds
 description: Explore how MSBuild can exploit systems that have multiple processors or cores by creating a separate build process for each available processor.
 ms.date: 06/25/2025
 ms.topic: concept-article
@@ -13,7 +13,7 @@ ms.subservice: msbuild
 #customer intent: As a developer, I want to learn how MSBuild exploits systems with multiple processors or cores, so I can create separate build processes for each of my processors.
 ---
 
-# MSBuild exploits multiple processors to build projects
+# MSBuild uses multiple processors to build projects
 
 MSBuild can take full advantage of systems that have multiple processors or multiple-core processors by creating a separate build process for each processor. For example, if a system has four processors, MSBuild creates four build processes.
 
@@ -23,7 +23,7 @@ This article describes process changes that can occur when multiple builds run s
 
 ## Project-to-project references
 
-When the Microsoft Build Engine encounters a project-to-project (P2P) reference during parallel builds for a project, it builds the reference one time only. If two projects have the same P2P reference, the reference isn't rebuilt for each project. Instead, the build engine returns the same P2P reference to both projects that have the dependency. MSBuild also supplies the same P2P reference to future requests in the session for the same target.
+When the Microsoft Build Engine encounters a project reference (`ProjectReference` element) during parallel builds for a project, it builds the reference one time only. If two projects have the same project reference, the reference isn't rebuilt for each project. Instead, the build engine returns the same project reference to both projects that have the dependency. MSBuild also supplies the same project reference to future requests in the session for the same target.
 
 ## Cycle detection
 
