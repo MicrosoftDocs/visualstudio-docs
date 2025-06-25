@@ -78,7 +78,7 @@ The data tier cannot be accessed directly from the client in the presentation ti
 
 The following topics provide information about working with n-tier applications:
 
-[Separate datasets and TableAdapters into different projects](/previous-versions/visualstudio/visual-studio-2017/data-tools/separate-datasets-and-tableadapters-into-different-projects?view=vs-2017)
+[Separate datasets and TableAdapters into different projects](/previous-versions/visualstudio/visual-studio-2017/data-tools/separate-datasets-and-tableadapters-into-different-projects)
 
 [Walkthrough: Creating an n-tier data application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)
 
