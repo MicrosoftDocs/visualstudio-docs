@@ -22,7 +22,7 @@
         <Grid.ColumnDefinitions>
             <!-- Left Hand Column -->
             <!-- This column is just wide enough to fit the Command Buttons and Start Page Options.
-                 The Recent Project area is constrained to the width of the Commmand Buttons. -->
+                 The Recent Project area is constrained to the width of the Command Buttons. -->
             <ColumnDefinition MinWidth="{Binding ElementName=commandButtonsGrid, Path=ActualWidth}" Width="3*" MaxWidth="330" />
             <!-- Gutter -->
             <ColumnDefinition Width="6"/>

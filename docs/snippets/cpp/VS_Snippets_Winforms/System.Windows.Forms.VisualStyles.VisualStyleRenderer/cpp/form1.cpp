@@ -86,7 +86,7 @@ namespace VisualStyleRendererSample
 
             // Get the sizes and location offsets for the window parts
             // as specified by the visual style, and then use this
-            // information to calcualate the rectangles for each part.
+            // information to calculate the rectangles for each part.
             GetPartDetails();
             CalculateRectangles();
 
