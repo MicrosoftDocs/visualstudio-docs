@@ -175,7 +175,7 @@ private:
 
    void button2_Click( Object^ /*sender*/, EventArgs^ /*e*/ )
    {
-      /* ServiceContainer will throw an excpetion if a duplicate service
+      /* ServiceContainer will throw an exception if a duplicate service
                  is added so remove it before we add */
       //<Snippet4>
       m_MyServiceContainer->RemoveService( Control::typeid );

@@ -35,12 +35,12 @@ namespace Microsoft.VsSDK.IntegrationTestLibrary
         private int buttonAction;
 
         /// <summary>
-        /// Thread signales to the calling thread that it is done.
+        /// Thread signals to the calling thread that it is done.
         /// </summary>
         private bool exitThread = false;
 
         /// <summary>
-        /// Calling thread signales to this thread to die.
+        /// Calling thread signals to this thread to die.
         /// </summary>
         private AutoResetEvent threadDone = new AutoResetEvent(false);
 
