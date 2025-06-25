@@ -51,7 +51,7 @@ MSBuild compares the timestamps of the inputs and the outputs for the target. In
 
 ## Compare one-to-one mapping versus no direct mapping
 
-When you specify inputs and outputs in a target, either each output maps to one input directly, or no direct mapping exists between the outputs and inputs. In the example, the [Csc](csc-task.md) task specifies an output assembly that doesn't map to a single input. For this task, the output depends on all of the inputs.
+When you specify inputs and outputs in a target, either each output maps to one input directly, or no direct mapping exists between the outputs and inputs. In the example, the [Csc task](csc-task.md) specifies an output assembly that doesn't map to a single input. For this task, the output depends on all of the inputs.
 
 Here are some considerations about one-to-one mapping versus no direct mapping:
 
