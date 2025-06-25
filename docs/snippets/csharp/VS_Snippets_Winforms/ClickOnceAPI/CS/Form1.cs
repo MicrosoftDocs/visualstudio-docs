@@ -187,7 +187,7 @@ namespace ClickOnceAPI
                 {
                     // This exception occurs if a network error or disk error occurs
                     // when downloading the deployment.
-                    MessageBox.Show("The application cannt check for the existence of a new version at this time. \n\nPlease check your network connection, or try again later. Error: " + dde);
+                    MessageBox.Show("The application cannot check for the existence of a new version at this time. \n\nPlease check your network connection, or try again later. Error: " + dde);
                     return;
                 }
                 catch (InvalidDeploymentException ide)
