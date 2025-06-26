@@ -64,4 +64,4 @@ cancellationToken);
 
 The initial release has a known issue that can result in concurrent execution of editor extension code. Each async method is called in the correct order, but continuations after the first `await` might be interleaved. If your extension relies on execution order, consider maintaining a queue of incoming requests to preserve the order until this issue is fixed.
 
-For more information, see [StreamJsonRpc default ordering and concurrency](https://github.com/microsoft/vs-streamjsonrpc/blob/main/doc/resiliency.md#default-ordering-and-concurrency-behavior).
+For more information, see [StreamJsonRpc default ordering and concurrency](https://github.com/microsoft/vs-streamjsonrpc/blob/main/docfx/docs/resiliency.md#default-ordering-and-concurrency-behavior).
