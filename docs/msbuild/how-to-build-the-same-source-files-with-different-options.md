@@ -21,7 +21,7 @@ When you build projects, you frequently compile the same components with differe
 
 ## Use properties to control build settings
 
-The `Property` element defines a variable that has multiple references in a project file. The variable might identify the location of a temporary directory, or set the values for properties used in several configurations, such as a Debug or Release build. For more information about properties, see [MSBuild properties](msbuild-properties.md).
+The `Property` element defines a variable that has multiple references in a project file. The variable might identify the location of a temporary directory, or set the values for properties used in several configurations, such as Debug and Release builds. For more information about properties, see [MSBuild properties](msbuild-properties.md).
 
 You can use properties to change the configuration of your build without having to change the project file. The `Condition` attribute of the `Property` and `PropertyGroup` elements allows you to change the value of properties.
 
@@ -80,13 +80,13 @@ For more information, see [Use environment variables in a build](how-to-use-envi
 
 The following example demonstrates a project file that defines two property groups to build a Debug or Release version of the project.
 
-- To build the Debug version, use the `-property` (`-p`) switch with the `flavor` property value to `debug`:
+- To build the Debug version, use the `-property` (`-p`) switch with the `flavor` property value set to `debug`:
 
    ```cmd
    msbuild consolehwcs1.proj -p:flavor=debug
    ```
 
-- To build the Release version, use the `-property` (`-p`) switch with the `flavor` property value to `retail`:
+- To build the Release version, use the `-property` (`-p`) switch with the `flavor` property value set to `retail`:
 
    ```cmd
    msbuild consolehwcs1.proj -p:flavor=retail
@@ -178,7 +178,7 @@ ToolsVersion="4.0" TreatAsLocalProperty="Color">
 
 ## Related content
 
-- [MSBuild](../msbuild/msbuild.md)
-- [MSBuild concepts](../msbuild/msbuild-concepts.md)
-- [MSBuild reference](../msbuild/msbuild-reference.md)
-- [Project element (MSBuild)](../msbuild/project-element-msbuild.md)
+- [MSBuild](msbuild.md)
+- [MSBuild concepts](msbuild-concepts.md)
+- [MSBuild reference](msbuild-reference.md)
+- [Project element (MSBuild)](project-element-msbuild.md)
