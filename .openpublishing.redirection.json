@@ -20761,6 +20761,41 @@
       "source_path": "docs/debugger/specify-command-line-arguments.md",
       "redirect_url": "/visualstudio/debugger/project-settings-for-a-cpp-debug-configuration",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-html-miscellaneous.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-html-miscellaneous",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-usql-intellisense.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-usql-intellisense",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/visual-basic-defaults-projects-options-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/visual-basic-defaults-projects-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/startup-environment-options-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/startup-environment-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-html-validation.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-html-validation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-dialog-box-projects-and-solutions-web-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-dialog-box-projects-and-solutions-web-projects",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-fsharp-codelens.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-fsharp-codelens",
+      "redirect_document_id": false
     }
   ]
 }
