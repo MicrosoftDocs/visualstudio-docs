@@ -1,7 +1,7 @@
 ---
 title: Test and Debug a Visualizer
 description: Test and debug a visualizer by running it from a test driver (visualizer development host) or by installing in Visual Studio and calling it from a debugger window.
-ms.date: 07/02/2021
+ms.date: 06/26/2025
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -18,6 +18,9 @@ manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 # Test and Debug a Visualizer
+
+> [!IMPORTANT]
+> Starting with Visual Studio 2022 version 17.9, visualizers can now be written in .NET 6.0+ that run out-of-process using the new VisualStudio.Extensibility model. For extensions created using the new model, see the documentation at [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md) instead. If you need to support older versions of Visual Studio or want to ship your custom visualizers as part of a library DLL, then use the information in this article, which applies only to the older model of extension development (VSSDK).
 
 Once you have written a visualizer, you need to debug and test it.
 
