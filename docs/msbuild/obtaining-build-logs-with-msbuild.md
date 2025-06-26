@@ -101,6 +101,6 @@ For more information, see [Command-line reference](../msbuild/msbuild-command-li
 
 - <xref:Microsoft.Build.Framework.LoggerVerbosity>
 - [Build loggers](../msbuild/build-loggers.md)
-- [Logging in a multi-processor environment](../msbuild/logging-in-a-multi-processor-environment.md)
+- [Logging in a multi-processor environment](writing-multi-processor-aware-loggers.md)
 - [Creating forwarding loggers](../msbuild/creating-forwarding-loggers.md)
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)

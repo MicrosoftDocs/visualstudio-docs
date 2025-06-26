@@ -93,4 +93,4 @@ When selected, Visual Studio displays a message box asking whether or not it sho
 
 - [Options dialog box: Projects and Solutions \> Locations](projects-solutions-locations-options.md)
 - [Options Dialog Box, Projects and Solutions, Build and Run](options-dialog-box-projects-and-solutions-build-and-run.md)
-- [Options Dialog Box, Projects and Solutions, Web Projects](options-dialog-box-projects-and-solutions-web-projects.md)
+- [Options Dialog Box, Projects and Solutions, Web Projects](/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-dialog-box-projects-and-solutions-web-projects)

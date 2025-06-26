@@ -1,8 +1,8 @@
 ---
-title: Using Multiple Processors to Build Projects
-description: Explore how MSBuild takes advantage of systems that have multiple processors or cores by creating a separate build process for each available processor.
-ms.date: 11/04/2016
-ms.topic: how-to
+title: MSBuild Uses Multiple Processors for Builds
+description: Explore how MSBuild can exploit systems that have multiple processors or cores by creating a separate build process for each available processor.
+ms.date: 06/25/2025
+ms.topic: concept-article
 helpviewer_keywords:
 - multiple processors
 - MSBuild, multiple processor systems
@@ -10,34 +10,47 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
+#customer intent: As a developer, I want to learn how MSBuild exploits systems with multiple processors or cores, so I can create separate build processes for each of my processors.
 ---
-# Use multiple processors to build projects
 
-MSBuild can take advantage of systems that have multiple processors, or multiple-core processors. A separate build process is created for each available processor. For example, if the system has four processors, then four build processes are created. MSBuild can process these builds simultaneously, and therefore overall build time is reduced. However, parallel building introduces some changes in how build processes occur. This topic discusses those changes.
+# MSBuild uses multiple processors to build projects
+
+MSBuild can take full advantage of systems that have multiple processors or multiple-core processors by creating a separate build process for each processor. For example, if a system has four processors, MSBuild creates four build processes.
+
+MSBuild can process the multiple builds simultaneously, which reduces the overall build time. However, parallel builds can introduce changes in how the build processes occur.
+
+This article describes process changes that can occur when multiple builds run simultaneously.
 
 ## Project-to-project references
 
- When the Microsoft Build Engine encounters a project-to-project (P2P) reference while it is using parallel builds to build a project, it builds the reference only one time. If two projects have the same P2P reference, the reference is not rebuilt for each project. Instead, the build engine returns the same P2P reference to both projects that depend on it. Future requests in the session for the same target are provided the same P2P reference.
+When the Microsoft Build Engine encounters a project reference (`ProjectReference` element) during parallel builds for a project, it builds the reference one time only. If two projects have the same project reference, the reference isn't rebuilt for each project. Instead, the build engine returns the same project reference to both projects that have the dependency. MSBuild also supplies the same project reference to future requests in the session for the same target.
 
 ## Cycle detection
 
- Cycle detection functions the same as it did in MSBuild 2.0, except that now MSBuild can report the detection of the cycle at a different time or in the build.
+Cycle detection during parallel builds is the same behavior as for MSBuild 2.0. The one difference is that the newer version of MSBuild can report the detection of the cycle at a different time or in the build.
 
 ## Errors and exceptions during parallel builds
 
- In parallel builds, errors and exceptions can occur at different times than they do in a non-parallel build, and when one project does not build, the other project builds continue. MSBuild will not stop any project build that is building in parallel with the one that failed. Other projects continue to build until they either succeed or fail. However, if <xref:Microsoft.Build.Framework.IBuildEngine.ContinueOnError%2A> has been enabled, then no builds will stop even if an error occurs.
+During parallel builds, errors and exceptions can occur at different times than they do during a nonparallel build. Also, if one project doesn't build, the other project builds continue. 
+
+MSBuild doesn't stop any project building in parallel with a failed build. Other projects continue to build until they either succeed or fail. When the <xref:Microsoft.Build.Framework.IBuildEngine.ContinueOnError%2A> setting is enabled, no builds stop, even if an error occurs.
 
 ## C++ project (.vcxproj) and solution (.sln) files
 
- Both C++ projects (*.vcxproj*) and solution (*.sln*) files can be passed to the [MSBuild task](../msbuild/msbuild-task.md). For C++ projects, VCWrapperProject is called, and then the internal MSBuild project is created. For C++ solutions, a SolutionWrapperProject is created, and then the internal MSBuild project is created. In both cases, the resulting project is treated the same as any other MSBuild project.
+Both C++ project (*.vcxproj*) and solution (*.sln*) files can be passed to the [MSBuild task](msbuild-task.md).
+
+- **C++ projects**: The VCWrapperProject API is called and then the internal MSBuild project is created.
+- **C++ solutions**: A SolutionWrapperProject instance is created and then the internal MSBuild project is created.
+
+In both cases, the resulting project is handled like any other MSBuild project.
 
 ## Multi-process execution
 
- Almost all build-related activities require the current directory to remain constant throughout the build process to prevent path-related errors. Therefore, projects cannot run on different threads in MSBuild because they would cause multiple directories to be created.
+Almost all build-related activities require the current directory to remain constant throughout the build process to prevent path-related errors. Projects can't run on different threads in MSBuild because they can cause the creation of multiple directories.
 
- To avoid this problem but still enable multi-processor builds, MSBuild uses "process isolation." By using process isolation, MSBuild can create a maximum of `n` processes, where `n` equals the number of processors available on the system. For example, if MSBuild builds a solution on a system that has two processors, then only two build processes are created. These processes are re-used to build all the projects in the solution.
+To avoid this problem but still enable multi-processor builds, MSBuild uses _process isolation_. This process enabled MSBuild to create a maximum of `n` processes, where `n` equals the number of processors available on the system. For example, if MSBuild builds a solution on a system with two processors, only two build processes are created. These processes are reused to build all the projects in the solution.
 
 ## Related content
 
-- [Build multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)
-- [Tasks](../msbuild/msbuild-tasks.md)
+- [Build multiple projects in parallel](building-multiple-projects-in-parallel-with-msbuild.md)
+- [MSBuild tasks](msbuild-tasks.md)

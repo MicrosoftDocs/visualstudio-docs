@@ -16,7 +16,7 @@ MSBuild is now available as part of the [.NET Core SDK](https://dotnet.microsoft
 
  MSBuild is now installed in a folder under each version of Visual Studio. For example, *C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild*. You can also use the following PowerShell module to locate MSBuild: [vssetup.powershell](https://github.com/Microsoft/vssetup.powershell).
 
- MSBuild is no longer installed in the Global Assembly Cache. To reference MSBuild programmatically, use NuGet packages. For more information, see [Updating an existing application for MSBuild 15.0](../msbuild/updating-an-existing-application.md).
+ MSBuild is no longer installed in the Global Assembly Cache. To reference MSBuild programmatically, use NuGet packages. 
 
 ## Changed properties
 
