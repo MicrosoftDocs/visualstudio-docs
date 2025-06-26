@@ -1,8 +1,8 @@
 ---
-title: Build incrementally out-of-date components
-description: Explore how to use MSBuild to build incrementally, so previously built components that are still up-to-date aren't rebuilt.
-ms.date: 05/16/2022
-ms.topic: how-to
+title: Incremental Builds for New or Stale Targets
+description: Explore how to use MSBuild to run incremental builds for new or stale targets only, and not for targets that are up-to-date.
+ms.date: 06/26/2025
+ms.topic: concept-article
 helpviewer_keywords:
 - MSBuild, incremental builds
 - incremental builds
@@ -11,26 +11,32 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
+#customer intent: As a developer, I want to run incremental builds with MSBuild, so I can build only new targets or out-of-date targets.
 ---
-# Build incrementally
 
-When you build a large project, it is important that previously built components that are still up-to-date are not rebuilt. If all targets are built every time, each build will take a long time to complete. To enable incremental builds (builds in which only those targets that have not been built before or targets that are out of date, are rebuilt), the Microsoft Build Engine (MSBuild) can compare the timestamps of the input files with the timestamps of the output files and determine whether to skip, build, or partially rebuild a target. However, there must be a one-to-one mapping between inputs and outputs. You can use transforms to enable targets to identify this direct mapping. For more information on transforms, see [Transforms](../msbuild/msbuild-transforms.md).
+# MSBuild incremental builds for new or stale targets
+
+When you build a large project, it's important that built targets that are still up-to-date don't rebuild. If all targets build every time, each build can take a long time to complete.
+
+In an incremental build, only the unbuilt targets of the project or stale (out-of-date) targets build. The Microsoft Build Engine (MSBuild) compares the timestamps of the input files with the timestamps of the output files. MSBuild determines whether to skip, build, or partially rebuild each target.
+
+The incremental build process requires a one-to-one mapping between inputs and outputs for targets. You can use _transforms_ to enable targets to identify the input-to-ouput mapping. For more information, see [Transforms](msbuild-transforms.md).
 
 ## Specify inputs and outputs
 
-A target can be built incrementally if the inputs and outputs are specified in the project file.
+MSBuild can build a target incrementally if the inputs and outputs in the target are specified in the project file. You specify the values with the `Inputs` and `Outputs` attributes of the `Target` element.
 
-#### To specify inputs and outputs for a target
+The following example specifies the `@(CSFile)` item list for the `Inputs` and the *hello.exe* file for the `Outputs` of a target:
 
-- Use the `Inputs` and `Outputs` attributes of the `Target` element. For example:
+```xml
+<Target Name="Build"
+    Inputs="@(CSFile)"
+    Outputs="hello.exe">
+    ...
+</Target>
+```
 
-  ```xml
-  <Target Name="Build"
-      Inputs="@(CSFile)"
-      Outputs="hello.exe">
-  ```
-
-MSBuild can compare the timestamps of the input files with the timestamps of the output files and determine whether to skip, build, or partially rebuild a target. In the following example, if any file in the `@(CSFile)` item list is newer than the *hello.exe* file, MSBuild will run the target; otherwise it will be skipped:
+MSBuild compares the timestamps of the inputs and the outputs for the target. In the example, if any file in the `@(CSFile)` item list is newer than the *hello.exe* file, MSBuild builds the target; otherwise, the target is skipped:
 
 ```xml
 <Target Name="Build"
@@ -43,27 +49,31 @@ MSBuild can compare the timestamps of the input files with the timestamps of the
 </Target>
 ```
 
-When inputs and outputs are specified in a target, either each output can map to only one input or there can be no direct mapping between the outputs and inputs. In the previous [Csc task](../msbuild/csc-task.md), for example, the output, *hello.exe*, cannot be mapped to any single input - it depends on all of them.
+## Compare one-to-one mapping versus no direct mapping
 
-> [!NOTE]
-> A target in which there is no direct mapping between the inputs and outputs will always build more often than a target in which each output can map to only one input because MSBuild cannot determine which outputs need to be rebuilt if some of the inputs have changed.
+When you specify inputs and outputs in a target, either each output maps to one input directly, or no direct mapping exists between the outputs and inputs. In the example, the [Csc task](csc-task.md) specifies an output assembly that doesn't map to a single input. For this task, the output depends on all of the inputs.
 
-Tasks in which you can identify a direct mapping between the outputs and inputs, such as the [LC task](../msbuild/lc-task.md), are most suitable for incremental builds, unlike tasks such as [Csc](../msbuild/csc-task.md) and [Vbc](../msbuild/vbc-task.md), which produce one output assembly from a number of inputs.
+Here are some considerations about one-to-one mapping versus no direct mapping:
 
-## Example
+- A target with no direct mapping between inputs and outputs always builds more often than a target where each output maps to a single input. If a target has no direct mapping, MSBuild can't determine the specific outputs to rebuild when only some inputs change.
 
-The following example uses a project that builds Help files for a hypothetical Help system. The project works by converting source *.txt* files into intermediate *.content* files, which then are combined with XML metadata files to produce the final *.help* file used by the Help system. The project uses the following hypothetical tasks:
+- Tasks that can identify a direct mapping between the outputs and inputs are most suitable for incremental builds. An example is the [LC task](lc-task.md) task, which generates a *.license* file. 
+
+- Tasks that produce a single output assembly from multiple inputs aren't suitable for incremental builds. Examples include the [Csc task](csc-task.md) that wraps the *csc.exe* file and produces executables, libraries, and modules, and the [Vbc task](vbc-task.md) that wraps the *vbc.exe* file.
+
+## Use transforms to create a one-to-one mapping
+
+The following example defines a project that builds content files for a Help system. The project works by converting source *.txt* files into intermediate *.content* files, which are combined with XML metadata files to produce the final *.help* file used by the system. The project includes the following tasks:
 
 - `GenerateContentFiles`: Converts *.txt* files into *.content* files.
-
 - `BuildHelp`: Combines *.content* files and XML metadata files to build the final *.help* file.
 
-The project uses transforms to create a one-to-one mapping between inputs and outputs in the `GenerateContentFiles` task. For more information, see [Transforms](../msbuild/msbuild-transforms.md). Also, the `Output` element is set to automatically use the outputs from the `GenerateContentFiles` task as the inputs for the `BuildHelp` task.
+The project uses [transforms](msbuild-transforms.md) to create a one-to-one mapping between inputs and outputs in the `GenerateContentFiles` task. The `Output` element is set to automatically use the outputs from the `GenerateContentFiles` task as the inputs for the `BuildHelp` task.
 
-This project file contains both the `Convert` and `Build` targets. The `GenerateContentFiles` and `BuildHelp` tasks are placed in the `Convert` and `Build` targets respectively so that each target can be built incrementally. By using the `Output` element, the outputs of the `GenerateContentFiles` task are placed in the `ContentFile` item list, where they can be used as inputs for the `BuildHelp` task. Using the `Output` element in this way automatically provides the outputs from one task as the inputs for another task so that you do not have to list the individual items or item lists manually in each task.
+The project file contains `Convert` and `Build` targets. The `GenerateContentFiles` and `BuildHelp` tasks are placed in the `Convert` and `Build` targets respectively, so each target can build incrementally. The `Output` element definition places the outputs of the `GenerateContentFiles` task in the `ContentFile` item list, to use as inputs for the `BuildHelp` task. This approach automatically provides the outputs from one task as the inputs for another task. You don't have to list the individual items or item lists manually in each task.
 
 > [!NOTE]
-> Although the `Convert` target can build incrementally, all outputs from that target always are required as inputs for the `Build` target. MSBuild automatically provides all the outputs from one target as inputs for another target when you use the `Output` element.
+> Although the `Convert` target can build incrementally, all outputs from that target are always required as inputs for the `Build` target. MSBuild automatically provides all the outputs from one target as inputs for another target when you use the `Output` element.
 
 ```xml
 <Project DefaultTargets="Build"
@@ -99,8 +109,6 @@ This project file contains both the `Convert` and `Build` targets. The `Generate
 
 ## Related content
 
-- [Targets](../msbuild/msbuild-targets.md)
-- [Target element (MSBuild)](../msbuild/target-element-msbuild.md)
-- [Transforms](../msbuild/msbuild-transforms.md)
-- [Csc task](../msbuild/csc-task.md)
-- [Vbc task](../msbuild/vbc-task.md)
+- [Targets](msbuild-targets.md)
+- [Target element (MSBuild)](target-element-msbuild.md)
+- [Transforms](msbuild-transforms.md)
