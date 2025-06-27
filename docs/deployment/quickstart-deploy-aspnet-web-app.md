@@ -73,7 +73,7 @@ Next, for other Docker container registries, provide the URI and publish credent
 
 ![Screenshot showing the option to publish to another Docker Container Registry.](./media/publish-custom-docker-registry-details.png)
 
-### Finish the Publish wizard
+### Publish container image
 
 Next, you see the summary page for the new [publish profile](./publish-overview.md) that you just created using the Publish wizard. Click **Publish** and Visual Studio deploys your web app to the specified Docker Container Registry.
 
