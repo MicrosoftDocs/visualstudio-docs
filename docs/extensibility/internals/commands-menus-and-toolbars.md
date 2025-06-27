@@ -62,6 +62,6 @@ Menus and toolbars are the way users access commands in your VSPackage. Commands
  Explains how to implement commands that use interop assemblies.
 
 ## Related sections
-- [Command routing in VSPackages](../../extensibility/internals/command-routing-in-vspackages.md)
+- [Command routing in VSPackages](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/command-routing-in-vspackages)
 
  Explains command routing in VSPackages.

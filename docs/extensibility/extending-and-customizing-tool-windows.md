@@ -43,4 +43,4 @@ Visual Studio provides several different types of windows, for example tool wind
 ## Related content
 - [Create an extension with a tool window](../extensibility/creating-an-extension-with-a-tool-window.md)
 - [Extend projects](../extensibility/extending-projects.md)
-- [Extend solutions](../extensibility/extending-solutions.md)
+- [Extend solutions](/previous-versions/visualstudio/visual-studio-2017/extensibility/extending-solutions)

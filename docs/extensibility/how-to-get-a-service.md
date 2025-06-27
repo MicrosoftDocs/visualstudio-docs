@@ -45,7 +45,7 @@ Sometimes you may need to get a service from a tool window or control container 
 
 The static <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> method relies on a cached service provider that is initialized the first time any VSPackage derived from <xref:Microsoft.VisualStudio.Shell.Package> is sited.
 
-Because the VSPackage constructor is called before the VSPackage is sited, global services are typically unavailable from within the VSPackage constructor. See [How to: Troubleshoot services](../extensibility/how-to-troubleshoot-services.md) for a workaround.
+Because the VSPackage constructor is called before the VSPackage is sited, global services are typically unavailable from within the VSPackage constructor. See [How to: Troubleshoot services](/troubleshoot/developer/visualstudio/extensibility/how-to-troubleshoot-services) for a workaround.
 
 Here's an example of the way to get a service in a tool window or other non-VSPackage element.
 

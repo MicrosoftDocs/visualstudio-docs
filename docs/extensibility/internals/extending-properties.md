@@ -48,4 +48,4 @@ The Visual Studio **Properties** window is a universal property browser for COM 
 
 - [Solutions and projects](../../ide/solutions-and-projects-in-visual-studio.md) explains how Visual Studio efficiently manages the items such as references, data connections, folders, and files that are required by your development effort through solutions and projects.
 
-- [Extend other parts of Visual Studio](../../extensibility/extending-other-parts-of-visual-studio.md) explains how to use Visual Studio services to create UI elements that match the rest of Visual Studio.
+- [Extend other parts of Visual Studio](/previous-versions/visualstudio/visual-studio-2017/extensibility/extending-other-parts-of-visual-studio) explains how to use Visual Studio services to create UI elements that match the rest of Visual Studio.

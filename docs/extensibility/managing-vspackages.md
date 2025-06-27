@@ -36,7 +36,7 @@ In most cases you don't need to worry about managing VSPackages, since the proje
 Extensions can impact startup and solution load performance. Learn how Visual Studio extension impact is calculated and how it can be analyzed locally to test if an extension may be shown as a performance impacting extension. For more information, see [How to: Diagnose extension performance](how-to-diagnose-extension-performance.md).
 
 ## Troubleshoot VSPackages
- Find out the techniques for troubleshooting VSPackages that don't load or are experiencing errors: [Troubleshoot VSPackages](../extensibility/troubleshooting-vspackages.md)
+ Find out the techniques for troubleshooting VSPackages that don't load or are experiencing errors: [Troubleshoot VSPackages](/troubleshoot/developer/visualstudio/extensibility/troubleshooting-vspackages)
 
 ## Related content
 - [VSPackages](../extensibility/internals/vspackages.md)
