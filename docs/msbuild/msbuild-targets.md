@@ -449,7 +449,7 @@ Project systems or project which do not want to reference all dlls or winmd file
 
 ===================================================
 ExportWindowsMDFile
-When a project is generating a winmd file through c# or vb, ect the compiler will create a WinMDModule file. This file needs to be run
+When a project is generating a winmd file through c# or vb, etc., the compiler will create a WinMDModule file. This file needs to be run
 through the winmdexp tool in order to generate the resulting WinMD file.
 ===================================================
 <Target Name="ExportWindowsMDFile"
