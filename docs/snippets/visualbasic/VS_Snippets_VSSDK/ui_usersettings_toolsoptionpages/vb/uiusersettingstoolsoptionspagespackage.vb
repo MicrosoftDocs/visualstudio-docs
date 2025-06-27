@@ -35,7 +35,7 @@ Imports Company.UIUserSettingsToolsOptionsPages.Company.UIUserSettingsToolsOptio
 ' The PackageRegistration attribute tells the registration utility (regpkg.exe) that this class needs
 ' to be registered as package.
 '
-' A Visual Studio component can be registered under different regitry roots; for instance
+' A Visual Studio component can be registered under different registry roots; for instance
 ' when you debug your package you want to register it in the experimental hive. The DefaultRegistryRoot
 ' attribute specifies the registry root to use if no one is provided to regpkg.exe with
 ' the /root switch.
