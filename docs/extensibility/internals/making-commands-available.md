@@ -144,5 +144,5 @@ Also notice that every UI context must be given in a separate `VisibilityItem` e
 
 - [Add a command to the Solution Explorer toolbar](../../extensibility/adding-a-command-to-the-solution-explorer-toolbar.md)
 - [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
-- [Command Routing in VSPackages](../../extensibility/internals/command-routing-in-vspackages.md)
+- [Command Routing in VSPackages](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/command-routing-in-vspackages)
 - [Dynamically Adding Menu Items](../../extensibility/dynamically-adding-menu-items.md)

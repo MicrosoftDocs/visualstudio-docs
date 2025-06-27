@@ -36,7 +36,7 @@ A service is a contract between two VSPackages. One VSPackage offers a specific 
 
 - [How to: Provide an Asynchronous Visual Studio Service](../extensibility/how-to-provide-an-asynchronous-visual-studio-service.md) discusses how to provide an asynchronous service.
 
-- [How to: Troubleshoot Services](../extensibility/how-to-troubleshoot-services.md) discusses common problems and presents solutions to them.
+- [How to: Troubleshoot Services](/troubleshoot/developer/visualstudio/extensibility/how-to-troubleshoot-services) discusses common problems and presents solutions to them.
 
 ## Related sections
 
