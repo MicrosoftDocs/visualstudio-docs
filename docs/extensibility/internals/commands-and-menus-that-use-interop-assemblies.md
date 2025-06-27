@@ -26,11 +26,11 @@ A VSPackage that implements menu and toolbar commands by using Interop assemblie
   The following section describes how to do these tasks.
 
 ## In this section
-- [Determine command status by using Interop assemblies](../../extensibility/internals/determining-command-status-by-using-interop-assemblies.md)
+- [Determine command status by using Interop assemblies](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/determining-command-status-by-using-interop-assemblies)
 
  Describes how a VSPackage notifies the IDE about which commands it supports and whether they are currently enabled.
 
-- [Command contracts in Interop assemblies](../../extensibility/internals/command-contracts-in-interop-assemblies.md)
+- [Command contracts in Interop assemblies](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/command-contracts-in-interop-assemblies)
 
  Provides a definition of the basic command contract used by all VSPackages implementing commands using Interop assemblies.
 
@@ -51,6 +51,6 @@ A VSPackage that implements menu and toolbar commands by using Interop assemblie
 
  Provides details about how to create a UI that uses Visual Studio command support.
 
-- [Command routing in VSPackages](../../extensibility/internals/command-routing-in-vspackages.md)
+- [Command routing in VSPackages](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/command-routing-in-vspackages)
 
  An overview of the process used to relate an object with the correct command request.

@@ -124,7 +124,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
     > [!IMPORTANT]
     > Version 2.0 of the VSIX Schema was introduced in Visual Studio 2012. To use this schema you must have Visual Studio 2012 or later installed on the machine and use the VSIXInstaller.exe that is part of that product. You can target earlier versions of Visual Studio with a Visual Studio 2012 or later VSIXInstaller, but only by using the later versions of the installer.
 
-    Visual Studio 2017 version numbers can be found at [Visual Studio build numbers and release dates](../install/visual-studio-build-numbers-and-release-dates.md).
+    Visual Studio 2017 version numbers can be found at [Visual Studio build numbers and release dates](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers).
 
     When expressing the version for Visual Studio 2017 releases, the minor version should always be **0**. For example, Visual Studio 2017 version 15.3.26730.0 should be expressed as [15.0.26730.0,16.0). This is only required for Visual Studio 2017 and later version numbers.
 

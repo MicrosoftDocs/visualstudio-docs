@@ -390,4 +390,4 @@ using (proxy as IDisposable)
 
 - [Discovering Available Brokered Services](internals/discover-available-brokered-services.md)
 - [Brokered Service Essentials](internals/brokered-service-essentials.md)
-- [How to: Troubleshoot Brokered Services](how-to-troubleshoot-brokered-services.md)
+- [How to: Troubleshoot Brokered Services](/troubleshoot/developer/visualstudio/extensibility/how-to-troubleshoot-brokered-services)

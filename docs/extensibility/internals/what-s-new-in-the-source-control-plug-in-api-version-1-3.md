@@ -30,4 +30,4 @@ The Source Control Plug-in API version 1.3 introduces the following new function
 
 ## Related content
 - [Getting Started](../../extensibility/internals/getting-started-with-source-control-plug-ins.md)
-- [What's New in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)
+- [What's New in the Source Control Plug-in API Version 1.2](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2)

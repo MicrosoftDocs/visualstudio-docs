@@ -89,10 +89,10 @@ Explains how to implement document data and document views in custom editors.
 - [Legacy interfaces in the editor](/previous-versions/visualstudio/visual-studio-2015/extensibility/legacy-interfaces-in-the-editor?preserve-view=true&view=vs-2015)\
 Explains how to access the core editor by means of the legacy API.
 
-- [Develop a legacy language service](../extensibility/internals/developing-a-legacy-language-service.md)\
+- [Develop a legacy language service](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/developing-a-legacy-language-service)\
 Explains how to implement a language service.
 
-- [Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)\
+- [Extend other parts of Visual Studio](/previous-versions/visualstudio/visual-studio-2017/extensibility/extending-other-parts-of-visual-studio)\
 Explains how to create UI elements that match the rest of Visual Studio.
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>
