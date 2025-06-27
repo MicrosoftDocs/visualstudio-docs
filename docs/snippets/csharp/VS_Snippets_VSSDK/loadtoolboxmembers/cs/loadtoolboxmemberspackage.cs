@@ -86,7 +86,7 @@ namespace Company.LoadToolboxMembersCS
                     new MenuCommand(MenuItemCallback, menuCommandID );
                 mcs.AddCommand( menuItem );
 
-                // Subscribe to the toolbox intitialized and upgraded events.
+                // Subscribe to the toolbox initialized and upgraded events.
                 ToolboxInitialized += new EventHandler(OnRefreshToolbox);
                 ToolboxUpgraded += new EventHandler(OnRefreshToolbox);
             }

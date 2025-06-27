@@ -1,6 +1,6 @@
 ---
 title: MSBuild Server
-description: Learn how MSBuild Server supports frequent build scenarios by cacheing build context over multiple builds.
+description: Learn how MSBuild Server supports frequent build scenarios by caching build context over multiple builds.
 ms.date: 10/11/2022
 ms.topic: overview
 helpviewer_keywords:
