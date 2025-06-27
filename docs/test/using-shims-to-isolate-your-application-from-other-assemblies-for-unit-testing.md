@@ -100,7 +100,7 @@ this.Records = System.IO.File.ReadAllLines(path);
 
    - On the shortcut menu, select **Add Fakes Assembly**.
 
-   ![Screnshot of the command Add Fakes Assembly.](../test/media/microsoft-fakes-shims-add-fakes-assembly.png)
+   ![Screenshot of the command Add Fakes Assembly.](../test/media/microsoft-fakes-shims-add-fakes-assembly.png)
 
 Since building results in some warnings and errors because not all types can be used with shims, you will have to modify the content of `Fakes\mscorlib.fakes` to exclude them.
 
