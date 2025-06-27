@@ -207,7 +207,7 @@ dialog looks like this:
 
 In this dialog, you can choose what modules you *do not* want Visual Studio to load symbols for.
 In this scenario, Visual Studio attempts to load symbols for every module in your debugged
-proces (including modules by third parties), unless you add a matching filter to exclude them.
+process (including modules by third parties), unless you add a matching filter to exclude them.
 The only other way that this behavior will be modified is by your [Just My Code](just-my-code.md)
 settings.
 

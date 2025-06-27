@@ -6,7 +6,7 @@ Imports System.Threading
 
 Namespace My
 
-    ' The following events are availble for MyApplication:
+    ' The following events are available for MyApplication:
     ' 
     ' Startup: Raised when the application starts, before the startup form is created.
     ' Shutdown: Raised after all application forms are closed.  This event is not raised if the application terminates abnormally.
