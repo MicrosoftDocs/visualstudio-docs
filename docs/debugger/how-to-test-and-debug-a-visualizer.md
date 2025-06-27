@@ -1,7 +1,7 @@
 ---
 title: Test and Debug a Visualizer
 description: Test and debug a visualizer by running it from a test driver (visualizer development host) or by installing in Visual Studio and calling it from a debugger window.
-ms.date: 07/02/2021
+ms.date: 06/26/2025
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -19,9 +19,12 @@ ms.subservice: debug-diagnostics
 ---
 # Test and Debug a Visualizer
 
-Once you have written a visualizer, you need to debug and test it.
+> [!IMPORTANT]
+> Starting with Visual Studio 2022 version 17.9, visualizers can now be written in .NET 6.0+ that run out-of-process using the new VisualStudio.Extensibility model. For extensions created using the new model, see the documentation at [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md) instead. If you need to support older versions of Visual Studio or want to ship your custom visualizers as part of a library DLL, then use the information in this article, which applies only to the older model of extension development (VSSDK).
 
-One way to test a visualizer is by installing it in Visual Studio and calling it from a debugger window. (See [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).) If you do that, you will need to use a second instance of Visual Studio to attach and debug the visualizer, which is running in the first instance of the debugger.
+Once you write a visualizer, debug and test it.
+
+One way to test a visualizer is by installing it in Visual Studio and calling it from a debugger window. (See [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).) If you do that, then use a second instance of Visual Studio to attach and debug the visualizer, which is running in the first instance of the debugger.
 
 An easier way to debug a visualizer is to run the visualizer from a test driver. The visualizer APIs make it easy to create such a driver, which is called the *visualizer development host*.
 
@@ -42,7 +45,7 @@ An easier way to debug a visualizer is to run the visualizer from a test driver.
 
     The parameters used to construct the host are the data object that will be shown in the visualizer (`objectToVisualize`) and the type of the debugger side class.
 
-2. Add the following statement to call `TestShowVisualizer`. If you created your visualizer in a class library, you need to create an executable to call the class library and place this statement in your executable:
+2. To call `TestShowVisualizer`, add the following statement. If you created your visualizer in a class library, you need to create an executable to call the class library and place this statement in your executable:
 
     ```csharp
     DebuggerSide.TestShowVisualizer(myString);
