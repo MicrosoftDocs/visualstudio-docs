@@ -27,7 +27,7 @@ You can set up a VSIX package deployment that installs any dependencies that are
 
 ## Require a specific Visual Studio release
 
-If your extension requires a specific version of Visual Studio 2017, for example, it depends on a feature released in 15.3, you can specify the build number in your VSIX **InstallationTarget**. For example, release 15.3 has a build number of '15.0.26730.3'. You can see the mapping of releases to build numbers [here](../install/visual-studio-build-numbers-and-release-dates.md). Note that using the release number '15.3' will not work correctly.
+If your extension requires a specific version of Visual Studio 2017, for example, it depends on a feature released in 15.3, you can specify the build number in your VSIX **InstallationTarget**. For example, release 15.3 has a build number of '15.0.26730.3'. You can see the mapping of releases to build numbers [here](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers). Note that using the release number '15.3' will not work correctly.
 
 If your extension requires 15.3 or higher, you would declare the **InstallationTarget Version** as [15.0.26730.3, 16.0):
 

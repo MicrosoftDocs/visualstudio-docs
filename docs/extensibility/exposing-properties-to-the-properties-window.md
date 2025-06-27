@@ -263,4 +263,4 @@ Visual Studio tool windows persist between Visual Studio sessions. For more info
 
 ## Related content
 
-- [Extend properties and the Property window](../extensibility/extending-properties-and-the-property-window.md)
+- [Extend properties and the Property window](/previous-versions/visualstudio/visual-studio-2017/extensibility/extending-properties-and-the-property-window)

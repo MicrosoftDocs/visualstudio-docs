@@ -118,6 +118,6 @@ This walkthrough has shown you only a small part of what you can do with a Visua
 
 4. Add IntelliSense, code suggestions, and other features to existing code editors: [Extend the editor and language services](../extensibility/extending-the-editor-and-language-services.md)
 
-5. Add Options and Property pages and user settings to your extension: [Extend properties and the Property window](../extensibility/extending-properties-and-the-property-window.md) and [Extend user settings and options](../extensibility/extending-user-settings-and-options.md)
+5. Add Options and Property pages and user settings to your extension: [Extend properties and the Property window](/previous-versions/visualstudio/visual-studio-2017/extensibility/extending-properties-and-the-property-window) and [Extend user settings and options](../extensibility/extending-user-settings-and-options.md)
 
    Other kinds of extensions require a little more work, such as creating a new type of project ([Extend projects](../extensibility/extending-projects.md)), or creating a new type of editor ([Create custom editors and designers](../extensibility/creating-custom-editors-and-designers.md)).

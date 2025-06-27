@@ -37,7 +37,7 @@ Visual Studio offers important brokered services, such as the following:
 
 - [How to: Provide a Brokered Service](how-to-provide-brokered-service.md) discusses how to provide a brokered service.
 
-- [How to: Troubleshoot Brokered Services](how-to-troubleshoot-brokered-services.md) discusses common problems and presents solutions to them.
+- [How to: Troubleshoot Brokered Services](/troubleshoot/developer/visualstudio/extensibility/how-to-troubleshoot-brokered-services) discusses common problems and presents solutions to them.
 
 ## Related sections
 

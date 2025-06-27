@@ -76,7 +76,7 @@ Generalized view of the Visual Studio architecture
 ## Language Services
  If you want the Visual Studio editor to support new programming keywords or even a new programming language, you create a language service. Each language service may implement certain editor features fully, partially, or not at all. Depending on how it is configured, the language service can provide syntax highlighting, brace matching, IntelliSense support, and other features in the editor.
 
- At the heart of a language service are a parser and a scanner. A scanner (or lexer) divides a source file into elements that are known as tokens, and a parser establishes the relationships among those tokens. When you create a language service, you must implement the parser and the scanner so that Visual Studio can understand the tokens and grammar of the language. You can create managed or unmanaged language services. For more information, see [Legacy Language Service Extensibility](../../extensibility/internals/legacy-language-service-extensibility.md).
+ At the heart of a language service are a parser and a scanner. A scanner (or lexer) divides a source file into elements that are known as tokens, and a parser establishes the relationships among those tokens. When you create a language service, you must implement the parser and the scanner so that Visual Studio can understand the tokens and grammar of the language. You can create managed or unmanaged language services. For more information, see [Legacy Language Service Extensibility](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/legacy-language-service-extensibility).
 
 ## Projects
 
@@ -121,4 +121,4 @@ For more information, see [Projects](../../extensibility/internals/projects.md) 
  In some cases you may need to use the Windows Installer rather than the VSIX installer: for example, you may need to write to the registry. For information about using Windows Installer with your extensions, see [Installing VSPackages With Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md).
 
 ## Help Viewer
- You can integrate your own help and F1 pages into the Help Viewer. For more information, see [Microsoft Help Viewer SDK](../../extensibility/internals/microsoft-help-viewer-sdk.md).
+ You can integrate your own help and F1 pages into the Help Viewer. For more information, see [Microsoft Help Viewer SDK](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/microsoft-help-viewer-sdk).
