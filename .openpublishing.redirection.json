@@ -20796,6 +20796,11 @@
       "source_path": "docs/ide/reference/options-text-editor-fsharp-codelens.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-fsharp-codelens",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/tabs-and-windows-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/customizing-window-layouts-in-visual-studio",
+      "redirect_document_id": false
     }
   ]
 }
