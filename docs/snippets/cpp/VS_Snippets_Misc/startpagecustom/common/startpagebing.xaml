@@ -105,7 +105,7 @@
                 <!--</snippet03>-->
                     
                 <!-- Get Started Content Area 
-                The purpose of this content area is to highlight some of the usefull places where users can get help/information/resources for their projects 
+                The purpose of this content area is to highlight some of the useful places where users can get help/information/resources for their projects 
                 -->
 
                 <TabItem Header="Get Started" Height="Auto" x:Uid="GetStarted_Tab" DataContext="{Binding Links.Content, Converter={StaticResource StringToXmlDataProviderConverter}}">
