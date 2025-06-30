@@ -960,8 +960,6 @@
           items:
           - name: General
             href: ide/reference/options-text-editor-all-languages.md
-          - name: Scroll Bars
-            href: ide/reference/options-text-editor-all-languages-scroll-bars.md
           - name: Tabs
             href: ide/reference/options-text-editor-all-languages-tabs.md
         - name: Visual Basic
