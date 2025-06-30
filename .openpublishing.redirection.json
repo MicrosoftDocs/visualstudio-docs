@@ -20811,6 +20811,21 @@
       "source_path": "docs/ide/reference/task-list-environment-options-dialog-box.md",
       "redirect_url": "/visualstudio/ide/using-the-task-list",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/setting-language-specific-editor-options.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/setting-language-specific-editor-options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-usql-formatting.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-usql-formatting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-html-formatting.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-html-formatting",
+      "redirect_document_id": false
     }
   ]
 }

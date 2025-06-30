@@ -527,8 +527,6 @@
         href: ide/reference/how-to-display-line-numbers-in-the-editor.md
       - name: Display URLs as links
         href: ide/reference/how-to-display-urls-as-links-in-the-editor.md
-      - name: Set language-specific editor options
-        href: ide/reference/setting-language-specific-editor-options.md
     - name: Code style
       items:
       - name: Code style preferences
@@ -992,14 +990,6 @@
             href: ide/reference/options-text-editor-fsharp-code-fixes.md
           - name: IntelliSense
             href: ide/reference/options-text-editor-fsharp-intellisense.md
-        - name: HTML (Web Forms)
-          items:
-          - name: Formatting
-            href: ide/reference/options-text-editor-html-formatting.md
-        - name: U-SQL
-          items:
-          - name: Formatting
-            href: ide/reference/options-text-editor-usql-formatting.md
         - name: XAML
           items:
           - name: Formatting
