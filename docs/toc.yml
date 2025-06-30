@@ -527,8 +527,6 @@
         href: ide/reference/how-to-display-line-numbers-in-the-editor.md
       - name: Display URLs as links
         href: ide/reference/how-to-display-urls-as-links-in-the-editor.md
-      - name: Set language-specific editor options
-        href: ide/reference/setting-language-specific-editor-options.md
     - name: Code style
       items:
       - name: Code style preferences
@@ -930,10 +928,6 @@
           href: ide/reference/international-settings-environment-options-dialog-box.md
         - name: Preview Features
           href: ide/reference/environment-preview-features-options.md
-        - name: Tabs and Windows
-          href: ide/reference/tabs-and-windows-environment-options-dialog-box.md
-        - name: Task List
-          href: ide/reference/task-list-environment-options-dialog-box.md
         - name: Trust Settings
           href: ide/reference/trust-settings.md
         - name: Web Browser
@@ -962,8 +956,6 @@
           items:
           - name: General
             href: ide/reference/options-text-editor-all-languages.md
-          - name: Scroll Bars
-            href: ide/reference/options-text-editor-all-languages-scroll-bars.md
           - name: Tabs
             href: ide/reference/options-text-editor-all-languages-tabs.md
         - name: Visual Basic
@@ -998,14 +990,6 @@
             href: ide/reference/options-text-editor-fsharp-code-fixes.md
           - name: IntelliSense
             href: ide/reference/options-text-editor-fsharp-intellisense.md
-        - name: HTML (Web Forms)
-          items:
-          - name: Formatting
-            href: ide/reference/options-text-editor-html-formatting.md
-        - name: U-SQL
-          items:
-          - name: Formatting
-            href: ide/reference/options-text-editor-usql-formatting.md
         - name: XAML
           items:
           - name: Formatting

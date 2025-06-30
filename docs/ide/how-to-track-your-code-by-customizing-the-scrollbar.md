@@ -3,6 +3,31 @@ title: Scroll bar map mode and bar mode
 description: Learn how to track changes in your code through the customization of the scroll bar and also learn how to use Bar mode and Map mode.
 ms.date: 05/2/2025
 ms.topic: how-to
+f1_keywords:
+- VS.ToolsOptionsPages.Text_Editor.All_Languages.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.Basic.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.CSharp.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.CoffeeScript.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.CSS.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.Dockerfile.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.F%2523.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.HQL.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.HTML.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.HTMLX.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.JavaScript.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.TypeScript.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.JSON.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.LESS.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.Plain_Text.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.ResJSON.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.SCSS.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.SQL_Server_Tools.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.StreamAnalytics.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.T-SQL90.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.U-SQL.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.XAML.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.XML.ScrollBars
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
