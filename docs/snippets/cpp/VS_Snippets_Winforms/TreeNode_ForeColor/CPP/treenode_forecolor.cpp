@@ -203,7 +203,7 @@ private:
       else
       {
          
-         // If the check box is not cheked, collapse the first tree node.
+         // If the check box is not checked, collapse the first tree node.
          myTreeView->Nodes[ 0 ]->FirstNode->Collapse();
          MessageBox::Show( "The first and last  node of CutomerList root node is collapsed" );
       }
