@@ -29,7 +29,7 @@ CalculatorComponent.cpp
 	to be a project dependency of some other project, you will either need to
 	add code to export some symbols from the DLL so that an export library
 	will be produced, or you can set the Ignore Input Library property to Yes
-	on the General propert page of the Linker folder in the project's Property
+	on the General property page of the Linker folder in the project's Property
 	Pages dialog box.
 
 /////////////////////////////////////////////////////////////////////////////
