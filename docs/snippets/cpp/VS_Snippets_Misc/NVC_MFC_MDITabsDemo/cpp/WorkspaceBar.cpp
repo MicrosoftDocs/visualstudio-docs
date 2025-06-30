@@ -75,7 +75,7 @@ int CWorkspaceBar::OnCreate(LPCREATESTRUCT lpCreateStruct)
 
 	if (!m_wndPropList.Create (WS_VISIBLE | WS_CHILD, rectDummy, this, 1))
 	{
-		TRACE0("Failed to create Properies Grid \n");
+		TRACE0("Failed to create Properties Grid \n");
 		return -1;      // fail to create
 	}
 

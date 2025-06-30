@@ -204,7 +204,7 @@ FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
     LTEXT           "StatusBarDemo Application Version 1.0",IDC_STATIC,40,10,119,8
-    LTEXT           "© 2007 - 2008 Microsoft Corporation.  All rights reserved.",
+    LTEXT           "ï¿½ 2007 - 2008 Microsoft Corporation.  All rights reserved.",
                     IDC_STATIC,40,25,122,19
     DEFPUSHBUTTON   "OK",IDOK,176,6,32,14,WS_GROUP
 END
@@ -225,7 +225,7 @@ BEGIN
     PUSHBUTTON      "Start Animation",IDC_START_ANIMATION,23,148,62,14
     GROUPBOX        "Statusbar Pane Icons: ",IDC_STATIC,186,7,149,79,0,
                     WS_EX_TRANSPARENT
-    LTEXT           "Developer can assign an icon to the staus bar pane. Please choose an icon to be displayed in the status bar pane:",
+    LTEXT           "Developer can assign an icon to the status bar pane. Please choose an icon to be displayed in the status bar pane:",
                     IDC_STATIC,200,22,125,26
     CONTROL         "Icon 1",IDC_ICON1,"Button",BS_AUTORADIOBUTTON | 
                     WS_GROUP,220,55,36,10

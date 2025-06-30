@@ -232,7 +232,7 @@ CPoint CDrawObj::GetHandle(int nHandle)
 	return CPoint(x, y);
 }
 
-// return rectange of handle in logical coords
+// return rectangle of handle in logical coords
 CRect CDrawObj::GetHandleRect(int nHandleID, CDrawView* pView)
 {
 	ASSERT_VALID(this);
