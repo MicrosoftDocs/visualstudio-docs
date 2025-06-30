@@ -20806,6 +20806,11 @@
       "source_path": "docs/ide/reference/options-text-editor-all-languages-scroll-bars.md",
       "redirect_url": "/visualstudio/ide/customizing-window-layouts-in-visual-studio",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/task-list-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/using-the-task-list",
+      "redirect_document_id": false
     }
   ]
 }
