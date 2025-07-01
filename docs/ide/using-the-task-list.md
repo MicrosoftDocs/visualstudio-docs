@@ -7,6 +7,9 @@ f1_keywords:
 - TaskListWindow
 - VS.TaskList
 - tasklist
+- VS.ToolsOptionsPages.Environment.Task_List
+- VS.ToolsOptionsPages.Environment.TaskList
+- VS.Environment.Task List
 helpviewer_keywords:
 - task list
 - Visual Studio, task list
