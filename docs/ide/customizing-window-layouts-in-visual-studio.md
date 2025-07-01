@@ -6,6 +6,7 @@ ms.topic: how-to
 f1_keywords:
 - vs.windows
 - vs.environment
+- "VS.ToolsOptionsPages.Environment.TabsAndWindows"
 helpviewer_keywords:
 - windows [Visual Studio], managing
 - custom window configurations
