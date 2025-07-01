@@ -71,6 +71,8 @@ landingContent:
             url: launch-profiles.md
           - text: Configure the build and debug environment
             url: container-build.md
+          - text: Customize containers
+            url: container-build.md
           - text: Troubleshoot container development tools
             url: troubleshooting-docker-errors.md
 
@@ -87,13 +89,3 @@ landingContent:
           - text: Configure container tools
             url: container-tools-configure.md
 
-  - title: Kubernetes development
-    linkLists:
-      - linkListType: quickstart
-        links:
-          - text: Use Bridge to Kubernetes with Visual Studio
-            url: /visualstudio/bridge/overview-bridge-to-kubernetes
-      - linkListType: overview
-        links:
-          - text: How Bridge to Kubernetes works
-            url: /visualstudio/bridge/overview-bridge-to-kubernetes
