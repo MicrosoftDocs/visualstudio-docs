@@ -5,7 +5,7 @@ author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
 ms.topic: overview
-ms.date: 01/31/2024
+ms.date: 7/1/2025
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
@@ -30,8 +30,6 @@ With Visual Studio, you can both develop apps that run in the Azure cloud, and c
 
 C++ developers can access Azure services such as Azure Storage using a C++ client library, and IoT device developers using C and C++ can connect devices and services to Azure. See [Cloud and web programming in Visual C++](/cpp/cloud/cloud-and-web-programming-in-visual-cpp).
 
-Users of Azure Cloud Services, supported in Visual Studio for many previous releases, can continue to work with these services in Visual Studio using [Azure Cloud Services (extended support)](../azure/cloud-services-extended-support.md).
-
 ## Connect to Azure services
 
 When you want to use an Azure service in your application, it usually requires multiple changes to your project, such as package references, code changes, and configuration changes, as well as many changes in Azure to specify the services to connect to, or create them if they don't already exist. Visual Studio helps make this process easier by making those changes in your project and in Azure, based on the information you provide. Visual Studio also gives a list of all the changes, so you can examine them and fully understand what changed.
@@ -51,6 +49,7 @@ What are you deploying?
 | Azure App Service (.NET Core) | [Deploy an ASP.NET Core web app](/azure/app-service/quickstart-dotnetcore?tabs=net70&pivots=development-environment-vs&toc=%2Fvisualstudio%2Fazure%2Ftoc.json&bc=%2Fvisualstudio%2Fazure%2Fbreadcrumb%2Ftoc.json#publish-your-web-app) |
 | Azure App Service (.NET Framework) | [Deploy an ASP.NET web app (.NET Framework)](/azure/app-service/quickstart-dotnetcore?toc=%2Fvisualstudio%2Fazure%2Ftoc.json&bc=%2Fvisualstudio%2Fazure%2Fbreadcrumb%2Ftoc.json&tabs=netframework48&pivots=development-environment-vs) |
 | Azure Container Apps | [Deploy to Azure Container Apps using Visual Studio](/azure/container-apps/deploy-visual-studio) |
+| Multicontainer app | [Deploy a multicontainer app to Azure Container Apps](./deploy-multicontainer-azure-container-apps.md) |
 | Azure Functions | [Create your first C# function in Azure using Visual Studio](/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure) |
 | Azure Container Registry | [Deploy an ASP.NET container to a container registry using Visual Studio](../containers/hosting-web-apps-in-docker.md) |
 
