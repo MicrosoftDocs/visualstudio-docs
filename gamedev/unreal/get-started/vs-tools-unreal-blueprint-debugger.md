@@ -41,7 +41,7 @@ Run the Visual Studio Installer to install the required components to debug Unre
 
 On the **Workloads** pane, make sure the **Game development with C++** workload is installed, along with **Visual Studio debugger tools for Unreal Engine Blueprints** and **Visual Studio Tools for Unreal Engine**:
 
-    :::image type="content" source="../media/vs-installer-unreal-engine-workload.png" alt-text="Screenshot of the Visual Studio installer. The Game development with C++ workload is selected. In the installation details pane, Visual Studio Tools for Unreal Engine, Visual Studio debugger tools for Unreal Engine Blueprints, HSL Tools, And Windows 11 SDK are selected." lightbox="../media/vs-installer-unreal-engine-workload.png":::
+:::image type="content" source="../media/vs-installer-unreal-engine-workload.png" alt-text="Screenshot of the Visual Studio installer. The Game development with C++ workload is selected. In the installation details pane, Visual Studio Tools for Unreal Engine, Visual Studio debugger tools for Unreal Engine Blueprints, HSL Tools, And Windows 11 SDK are selected." lightbox="../media/vs-installer-unreal-engine-workload.png":::
 
 ### Install Unreal Engine debug symbols
 
