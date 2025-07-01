@@ -16,7 +16,7 @@ ms.subservice: msbuild
 ---
 # Diagnose MSBuild task failures
 
-[MSB6006](errors/msb6006.md) is emitted when an MSBuild task executes another tool that fails. More specifically, a <xref:Microsoft.Build.Utilities.ToolTask>–derived class runs a tool process that returns a nonzero exit code if the task didn't log a more specific error.
+[MSB6006](errors/msb6006.md) is emitted when an MSBuild task, a <xref:Microsoft.Build.Utilities.ToolTask>–derived class, runs a tool process that returns a nonzero exit code if the task didn't log a more specific error.
 
 ## Identify the failing task
 
