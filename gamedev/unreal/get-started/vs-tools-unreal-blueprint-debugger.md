@@ -1,7 +1,7 @@
 ---
 title: "Debug Unreal Engine Blueprints in Visual Studio"
 description: "Learn how to use Visual Studio's Blueprint debugger to debug Unreal Engine Blueprint code alongside C++ code."
-ms.date: 06/20/2025
+ms.date: 07/01/2025
 ms.topic: how-to
 ms.service: visual-studio
 ms.subservice: unreal-engine-tools
@@ -28,12 +28,11 @@ Visual Studio Blueprint debugger support provides:
 
 ## Prerequisites
 
+- Unreal Engine installed along with debug symbols.
 - Visual Studio 2022 17.14 or later with the **Game development with C++** workload installed.
-- **Visual Studio debugger tools for Unreal Engine Blueprints** component.
-- **Visual Studio Tools for Unreal Engine** component.
-- Unreal Engine plugin for Visual Studio.
-- Unreal Engine installed with debug symbols.
-- Visual Studio plugin for Unreal Engine.
+- Visual Studio Tools for Unreal Engine installed into Visual Studio.
+- Visual Studio debugger tools for Unreal Engine Blueprints installed into Visual Studio.
+- Unreal Engine plugin for Visual Studio installed into Unreal Engine.
 
 ## Install prerequisites
 
@@ -61,7 +60,7 @@ Install debug symbols for each version of Unreal Engine you debug with Visual St
 
 ### Install Unreal Engine plugin for Visual Studio
 
-The Unreal Engine plugin for Visual Studio installs into Unreal Engine. It's automatically activated when you open an Unreal Engine project in Visual Studio. This plugin provides the integration between Unreal Engine and Visual Studio to view Blueprint node pin values in the Visual Studio debugger local variables window.
+The Unreal Engine plugin for Visual Studio installs into Unreal Engine. Once installed, it's automatically activated when you open an Unreal Engine project in Visual Studio. This plugin provides integration between Unreal Engine and Visual Studio to support viewing Blueprint node pin values in the Visual Studio debugger local variables window.
 
 For manual installation instructions, see [Unreal Engine plugin for Visual Studio](https://github.com/microsoft/vc-ue-extensions).
 
@@ -73,10 +72,6 @@ If you have an Unreal Engine project that you can open in Visual Studio, another
 If you don't see the install buttons, choose the refresh icon to refresh the status. If you need to install the plugin manually, select the **Manual installation instructions** link to open the [Unreal Engine plugin for Visual Studio](https://github.com/microsoft/vc-ue-extensions/blob/main/README.md) page, which contains installation instructions.
 
 :::image type="content" source="../media/vs-unreal-engine-configuration-page-plugin.png" alt-text="Screenshot of the Unreal Engine Integration Configuration window. In the Visual Studio Integration Tool Status section, the refresh, Install to Project, and Install to Engine buttons are highlighted. The Manual installation instructions link is also highlighted.":::
-
-### Install Visual Studio plugin for Unreal Engine
-
-To support viewing node pin variables for Blueprints in the Visual Studio debugger, you also need to install the Visual Studio plugin for Unreal Engine. The plugin can be installed in either the Engine or Game project sources. Once installed, it's automatically activated when an Unreal Engine project is opened in Visual Studio. For installation instructions, see [Unreal Engine plugin for Visual Studio](https://github.com/microsoft/vc-ue-extensions).
 
 ## Set up a test project
 
